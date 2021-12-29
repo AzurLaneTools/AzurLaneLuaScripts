@@ -36,7 +36,7 @@ function slot0.OnGetAwardDone(slot0, slot1)
 			})
 		end
 	elseif slot1.cmd == MiniGameOPCommand.CMD_ULTIMATE then
-		pg.NewStoryMgr.GetInstance():Play("TIANHOUYUYI2")
+		-- Nothing
 	end
 end
 

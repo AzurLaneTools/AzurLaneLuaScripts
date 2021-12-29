@@ -540,13 +540,53 @@ function slot0.IsNeedShowTipWithoutActivityFinalReward()
 		slot0 = (slot1:GetRuntimeData("count") or 0) > 0
 	end
 
-	slot2 = false
+	slot2 = nil
 
-	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_5) then
-		slot2 = (slot3:GetRuntimeData("count") or 0) > 0
+	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_3) then
+		slot5 = slot3:getConfig("config_data")[2]
+
+		for slot9, slot10 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
+			if table.indexof(slot5, slot10.id, 1) then
+				if slot10.timestamp < pg.TimeMgr.GetInstance():GetServerTime() then
+					slot2 = nil
+				end
+
+				break
+			end
+		end
 	end
 
-	return slot0 or slot2
+	if slot2 then
+		slot0 = false
+	end
+
+	slot4 = false
+
+	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_5) then
+		slot4 = (slot5:GetRuntimeData("count") or 0) > 0
+	end
+
+	slot6 = nil
+
+	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_5) then
+		slot9 = slot7:getConfig("config_data")[2]
+
+		for slot13, slot14 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
+			if table.indexof(slot9, slot14.id, 1) then
+				if slot14.timestamp < pg.TimeMgr.GetInstance():GetServerTime() then
+					slot6 = nil
+				end
+
+				break
+			end
+		end
+	end
+
+	if slot6 then
+		slot4 = false
+	end
+
+	return slot0 or slot4
 end
 
 return slot0

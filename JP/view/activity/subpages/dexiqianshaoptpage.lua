@@ -68,11 +68,12 @@ function slot0.Switch(slot0, slot1)
 end
 
 function slot0.UpdateAwardGot(slot0)
-	slot2 = not slot0.ptData:CanGetNextAward() and slot0.inPhase2
+	slot2 = slot0.ptData:CanGetAward()
+	slot3 = not slot0.ptData:CanGetNextAward() and slot0.inPhase2
 
-	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), slot2)
+	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), slot3)
 
-	if slot2 then
+	if slot3 or slot2 then
 		setActive(slot0.battleBtn, false)
 	end
 end

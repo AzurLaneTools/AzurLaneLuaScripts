@@ -277,11 +277,18 @@ function slot0.ClearEffectFirework(slot0)
 	slot0:StopSE()
 	slot0.loader:ClearRequest("Firework")
 	slot0.loader:ClearRequest("Firework2")
+	slot0.loader:ClearRequest("Firework3")
 
 	if slot0.fireworkTimer then
 		slot0.fireworkTimer:Stop()
 
 		slot0.fireworkTimer = nil
+	end
+
+	if slot0.fireworkTimer2 then
+		slot0.fireworkTimer2:Stop()
+
+		slot0.fireworkTimer2 = nil
 	end
 end
 
