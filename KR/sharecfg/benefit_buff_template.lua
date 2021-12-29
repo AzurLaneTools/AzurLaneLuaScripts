@@ -120,7 +120,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		benefit_condition = "",
 		desc = "메인, 어려움, 작전문서 스테이지에서 전투 시 아군의 공격력을 소폭 증가시킵니다.\n남은 시간:$1 ",
-		benefit_effect = "504",
+		benefit_effect = "522",
 		id = 11,
 		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
@@ -700,6 +700,261 @@ pg.benefit_buff_template = {
 		icon = "Props/xinshou",
 		benefit_type = "chapter_up"
 	},
+	{
+		benefit_effect = "510",
+		name = "로열 네이비 찻집Lv.1",
+		hide = 0,
+		max_time = 0,
+		id = 49,
+		icon = "Props/yanchangli1",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 1% 감소",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "512",
+		name = "로열 네이비 찻집Lv.2",
+		hide = 0,
+		max_time = 0,
+		id = 50,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 2% 감소",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "514",
+		name = "로열 네이비 찻집Lv.3",
+		hide = 0,
+		max_time = 0,
+		id = 51,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "516",
+		name = "로열 네이비 찻집Lv.4",
+		hide = 0,
+		max_time = 0,
+		id = 52,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 4% 감소",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "518",
+		name = "로열 네이비 찻집Lv.5",
+		hide = 0,
+		max_time = 0,
+		id = 53,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 5% 감소",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "500",
+		name = "메탈 블러드 카페Lv.1",
+		hide = 0,
+		max_time = 0,
+		id = 54,
+		icon = "Props/wudaoli1",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 대미지 1% 증가",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "502",
+		name = "메탈 블러드 카페Lv.2",
+		hide = 0,
+		max_time = 0,
+		id = 55,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 대미지 2% 증가",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "504",
+		name = "메탈 블러드 카페Lv.3",
+		hide = 0,
+		max_time = 0,
+		id = 56,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 대미지 3% 증가",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "506",
+		name = "메탈 블러드 카페Lv.4",
+		hide = 0,
+		max_time = 0,
+		id = 57,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 대미지 4% 증가",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "508",
+		name = "메탈 블러드 카페Lv.5",
+		hide = 0,
+		max_time = 0,
+		id = 58,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 파일 스테이지에서 대미지 5% 증가",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "쇼카쿠의 축복",
+		hide = 0,
+		max_time = 86400,
+		id = 59,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "쇼카쿠의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "즈이카쿠의 축복",
+		hide = 0,
+		max_time = 86400,
+		id = 60,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "즈이카쿠의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "르 말랭의 축복",
+		hide = 0,
+		max_time = 86400,
+		id = 61,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "르 말랭의 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "빅토리어스의 축복",
+		hide = 0,
+		max_time = 86400,
+		id = 62,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "빅토리어스의 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "티르피츠의 축복",
+		hide = 0,
+		max_time = 86400,
+		id = 63,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "티르피츠의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "일러스트리어스의 축복",
+		hide = 0,
+		max_time = 86400,
+		id = 64,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "일러스트리어스의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "에식스의 축복",
+		hide = 0,
+		max_time = 86400,
+		id = 65,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "에식스의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -748,6 +1003,23 @@ pg.benefit_buff_template = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65
 	}
 }

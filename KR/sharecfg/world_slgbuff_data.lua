@@ -2480,6 +2480,30 @@ pg.world_SLGbuff_data = {
 		trap_parameter = {},
 		delete_traptype = {}
 	},
+	[4000] = {
+		buff_type = 2,
+		name = "분리식 작전 모듈",
+		id = 4000,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "아비터·템퍼런스·XIV가 전투 중 특수 기계 해파리형 작전 유닛을 소환한다.\n특수 유닛이 전장에 있을 시, 템퍼런스의 대미지 15% 증가, 받는 대미지 10% 감소.\n특수 유닛이 격파당한 후, 템퍼런스가 받는 대미지 10% 증가",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5000",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
 	all = {
 		1,
 		2,
@@ -2576,6 +2600,7 @@ pg.world_SLGbuff_data = {
 		2420,
 		2500,
 		2510,
-		2520
+		2520,
+		4000
 	}
 }

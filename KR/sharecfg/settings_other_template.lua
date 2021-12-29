@@ -7,7 +7,7 @@ pg.settings_other_template = {
 		alignment = 0,
 		id = 1,
 		title = "커스텀 함선명 보이기",
-		desc = "기능 ON 후, 함선이 자신이 설정한 이름으로 보입니다."
+		desc = "기능 ON 후, 캐릭터가 자신이 설정한 이름으로 보입니다."
 	},
 	{
 		default = 0,
@@ -25,7 +25,7 @@ pg.settings_other_template = {
 		alignment = 0,
 		id = 3,
 		title = "캐릭터 획득 시 진동",
-		desc = "기능 ON 후, SSR 이상 등급의 함선 획득 시 진동으로 알립니다."
+		desc = "기능 ON 후, SSR 이상 등급의 캐릭터 획득 시 진동으로 알립니다."
 	},
 	{
 		default = 1,
@@ -34,7 +34,7 @@ pg.settings_other_template = {
 		alignment = 0,
 		id = 4,
 		title = "중복 캐릭터 획득 안내",
-		desc = "기능 OFF 후, 이미 보유한 SR 이하 등급의 함선 중복 획득 시(해역 드랍 한정) 함선 획득 화면을 스킵합니다."
+		desc = "기능 OFF 후, 도감이 이미 해제된 SR 이하 등급의 함선 중복 획득 시함선 획득 화면을 스킵합니다."
 	},
 	{
 		default = 1,
@@ -133,6 +133,15 @@ pg.settings_other_template = {
 		title = "내 방문 흔적 표시",
 		desc = "기능 ON 후, 자신이 친구의 숙소를 방문하면, 친구 숙소에 내 비서함이 나타납니다."
 	},
+	{
+		default = 1,
+		name = "QUICK_CHANGE_EQUIP",
+		type = 0,
+		alignment = 0,
+		id = 14,
+		title = "빠른 변경 2차 확인 화면",
+		desc = "기능 ON 후, 스킨 빠른 변경 시 2차 확인 화면이 나타납니다."
+	},
 	all = {
 		1,
 		2,
@@ -146,6 +155,7 @@ pg.settings_other_template = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

@@ -4,7 +4,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 1000,
@@ -43,7 +43,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 1220,
@@ -82,7 +82,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 1440,
@@ -121,7 +121,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 1660,
@@ -160,7 +160,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 1880,
@@ -199,7 +199,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 2100,
@@ -238,7 +238,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 2320,
@@ -277,7 +277,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 2540,
@@ -316,7 +316,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 2760,
@@ -355,7 +355,7 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAntiAirWeaponFire"
+					"onAntiAirWeaponFireNear"
 				},
 				arg_list = {
 					rant = 3000,

@@ -119,6 +119,10 @@ function slot0.didEnter(slot0)
 	slot0:initShips()
 	slot0:initSkinPage()
 
+	if slot0.contextData.skinId then
+		slot0:JumpToSkinById(slot0.contextData.skinId)
+	end
+
 	slot3 = slot0.topTF
 
 	onButton(slot0, slot3:Find("back_btn"), function ()
@@ -167,6 +171,36 @@ function slot0.didEnter(slot0)
 			uv0:UpdateSelected()
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.JumpToSkinById(slot0, slot1)
+	slot2 = -1
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.displays) do
+		if slot1 == slot8:getSkinId() then
+			slot2 = slot7
+			slot3 = slot8
+		end
+	end
+
+	if slot2 == -1 then
+		return
+	end
+
+	slot4 = slot0.shipRect
+	slot5 = slot0.shipRect
+
+	slot5:ScrollTo(slot4:HeadIndexToValue(slot2 - 1))
+	onNextTick(function ()
+		for slot3, slot4 in pairs(uv0.cards) do
+			if slot4.goodsVO.id == uv1.id then
+				triggerButton(slot4._tf)
+
+				break
+			end
+		end
+	end)
 end
 
 function slot0.SwitchCharBg(slot0, slot1)
@@ -395,7 +429,7 @@ function slot0.updateMainView(slot0, slot1)
 	slot2 = slot1.shipSkinConfig
 	slot0.showCardId = slot1.goodsVO.id
 	slot0.nameTxt.text = HXSet.hxLan(ShipGroup.getDefaultShipConfig(slot2.ship_group).name)
-	slot0.skinNameTxt.text = HXSet.hxLan(slot2.name)
+	slot0.skinNameTxt.text = SwitchSpecialChar(HXSet.hxLan(slot2.name), true)
 
 	if slot0.prefabName ~= slot2.prefab then
 		slot0:loadChar(slot4)
@@ -1116,6 +1150,7 @@ function slot0.willExit(slot0)
 	slot0._resPanel:willExit()
 
 	slot0._resPanel = nil
+	slot0.contextData.skinId = nil
 end
 
 return slot0

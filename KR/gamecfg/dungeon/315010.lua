@@ -231,7 +231,6 @@ return {
 							moveCast = true,
 							delay = 0,
 							immuneHPInherit = true,
-							affix = true,
 							corrdinate = {
 								-30,
 								0,

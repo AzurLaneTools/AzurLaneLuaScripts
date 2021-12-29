@@ -78,7 +78,7 @@ function slot0.updateSelectedOrderTag(slot0, slot1)
 		if slot1 then
 			setActive(slot7, false)
 		else
-			setImageSprite(slot7, GetSpriteFromAtlas("ui/snackui_atlas", "order_" .. table.indexof(slot0.selectedIDList, slot5, 1), true))
+			setImageSprite(slot7, GetSpriteFromAtlas("ui/newyearsnackui_atlas", "order_" .. table.indexof(slot0.selectedIDList, slot5, 1), true))
 		end
 	end
 end

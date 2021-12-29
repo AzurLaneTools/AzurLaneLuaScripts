@@ -810,6 +810,10 @@ function slot5.GetEnemyResource(slot0)
 		end
 	end
 
+	if slot0.deadFX then
+		slot1[#slot1 + 1] = uv1.GetFXPath(slot0.deadFX)
+	end
+
 	if type(slot6.bubble_fx) == "table" then
 		slot1[#slot1 + 1] = uv1.GetFXPath(slot6.bubble_fx[1])
 	end

@@ -409,6 +409,14 @@ function slot6.IsVisitable(slot0)
 	return uv0.Battle.BattleAttr.IsVisitable(slot0)
 end
 
+function slot6.OverrideDeadFX(slot0, slot1)
+	slot0._deadFX = slot1
+end
+
+function slot6.GetDeadFX(slot0)
+	return slot0._deadFX
+end
+
 function slot6.TriggerBuff(slot0, slot1, slot2)
 end
 

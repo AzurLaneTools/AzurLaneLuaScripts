@@ -11575,6 +11575,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[500] = {
+		name = "식기 총알",
+		bullet_name = "zidan_nvpudaocha",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "다과회 필수 식기 세트",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93411",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 500,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[501] = {
+		name = "냥발바닥 총알",
+		bullet_name = "zidan_nvpumaozhua",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "슈퍼 냥냥 펀치를 받아라!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93412",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 501,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[502] = {
+		name = "헤어밴드 총알(흑&백)",
+		bullet_name = "zidan_nvputoushi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "착용하면 의외로 잘 어울려요",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93413",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 502,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[503] = {
+		name = "슈거포트 포탄",
+		bullet_name = "paodan_nvputangguan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "저는… 설탕 3배로요!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93414",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 503,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[504] = {
+		name = "트레이 포탄",
+		bullet_name = "paodan_nvpucanpan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "주문하신 음식 금방 나갑니다쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93415",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 504,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[505] = {
+		name = "오므라이스 포탄",
+		bullet_name = "paodan_nvpudanbaofan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "사랑을 담은 오므라이스",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93416",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 505,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[506] = {
+		name = "짤주머니 어뢰",
+		bullet_name = "yulei_nvpubiaohuadai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "무슨 모양을 그려볼까…",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93421",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 506,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[507] = {
+		name = "대걸레 어뢰",
+		bullet_name = "yulei_nvputuoba",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "닦이지 않는 때가 제일 싫어!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93422",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 507,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[508] = {
+		name = "메이드 신발 어뢰",
+		bullet_name = "yulei_nvpuxiezi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "인정사정없이 해충을 밟아 죽여요!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93423",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 508,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[509] = {
+		name = "실수 메이드쥬(어뢰)",
+		bullet_name = "feiji_manjiufuwuyuan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "어어어, 엎지른다쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93431",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 509,
+		derivate_torpedo = "yulei_nvpuxiezi",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[510] = {
+		name = "실수 메이드쥬(전투)",
+		bullet_name = "feiji_manjiufuwuyuan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "어어어, 엎지른다쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvputangguan",
+		icon = "93431",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 510,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[511] = {
+		name = "실수 메이드쥬(폭격)",
+		bullet_name = "feiji_manjiufuwuyuan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "어어어, 엎지른다쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvputangguan",
+		icon = "93431",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 511,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[512] = {
+		name = "배달 메이드쥬(어뢰)",
+		bullet_name = "feiji_manjiuwaimai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "광속 배달쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93432",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 512,
+		derivate_torpedo = "yulei_nvpubiaohuadai",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[513] = {
+		name = "배달 메이드쥬(전투)",
+		bullet_name = "feiji_manjiuwaimai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "광속 배달쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpudanbaofan",
+		icon = "93432",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 513,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[514] = {
+		name = "배달 메이드쥬(폭격)",
+		bullet_name = "feiji_manjiuwaimai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "광속 배달쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpudanbaofan",
+		icon = "93432",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 514,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[515] = {
+		name = "청소 메이드쥬(어뢰)",
+		bullet_name = "feiji_manjiunvpu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "구석구석 깨끗하게쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93433",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 515,
+		derivate_torpedo = "yulei_nvputuoba",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[516] = {
+		name = "청소 메이드쥬(전투)",
+		bullet_name = "feiji_manjiunvpu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "구석구석 깨끗하게쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpucanpan",
+		icon = "93433",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 516,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[517] = {
+		name = "청소 메이드쥬(폭격)",
+		bullet_name = "feiji_manjiunvpu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "구석구석 깨끗하게쥬!",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpucanpan",
+		icon = "93433",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 517,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "십자키 포탄(보라)",
 		bullet_name = "Nep_bullet_shizi",
@@ -13444,6 +13945,24 @@ pg.equip_skin_template = {
 		495,
 		496,
 		497,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
 		1001,
 		1002,
 		1003,

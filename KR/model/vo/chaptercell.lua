@@ -13,11 +13,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.item = nil
 	slot0.itemOffset = nil
 	slot0.flagList = {}
-	slot2 = ipairs
-	slot3 = slot1.flag_list or {}
 
-	for slot5, slot6 in slot2(slot3) do
-		table.insert(slot0.flagList, slot6)
+	if slot1.flag_list then
+		for slot5, slot6 in ipairs(slot1.flag_list) do
+			table.insert(slot0.flagList, slot6)
+		end
 	end
 end
 

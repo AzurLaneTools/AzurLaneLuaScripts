@@ -141,13 +141,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_STAGE, function (slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = ChapterPreCombatMediator,
-			viewComponent = ChapterPreCombatLayer,
-			onRemoved = function ()
-				uv0.viewComponent:onSubLayerClose()
-			end
-		}), false, function ()
-			uv0.viewComponent:onSubLayerOpen()
-		end)
+			viewComponent = ChapterPreCombatLayer
+		}), false)
 	end)
 	slot0:bind(uv0.ON_OPEN_MILITARYEXERCISE, function ()
 		if getProxy(ActivityProxy):getMilitaryExerciseActivity() then
@@ -301,13 +296,8 @@ function slot0.register(slot0)
 				viewComponent = LotteryLayer,
 				data = {
 					activityId = slot1.id
-				},
-				onRemoved = function ()
-					uv0.viewComponent:onSubLayerClose()
-				end
-			}), false, function ()
-				uv0.viewComponent:onSubLayerOpen()
-			end)
+				}
+			}), false)
 		else
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
 				warp = NewShopsScene.TYPE_ACTIVITY,
@@ -626,8 +616,7 @@ function slot0.handleNotification(slot0, slot1)
 	else
 		if slot2 == GAME.CHAPTER_OP_DONE then
 			slot4 = nil
-			slot5 = false
-			slot4 = coroutine.wrap(function ()
+			slot4 = coroutine.create(function ()
 				slot1 = uv0.win
 				slot2 = uv1.contextData.chapterVO or uv0.chapterVO
 
@@ -969,10 +958,8 @@ function slot0.handleNotification(slot0, slot1)
 			end)
 
 			(function ()
-				if not uv0 then
-					TryCall(uv1, function ()
-						uv0 = true
-					end)
+				if uv0 and coroutine.status(uv0) == "suspended" then
+					slot0, slot1 = coroutine.resume(uv0)
 				end
 			end)()
 
@@ -1004,8 +991,7 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == GAME.SUB_CHAPTER_REFRESH_DONE then
 			slot4 = slot3
 			slot5 = nil
-			slot6 = false
-			slot5 = coroutine.wrap(function ()
+			slot5 = coroutine.create(function ()
 				slot0 = getProxy(ChapterProxy)
 
 				uv0.viewComponent:updateSubInfo(slot0.subRefreshCount, slot0.subProgress)
@@ -1013,10 +999,8 @@ function slot0.handleNotification(slot0, slot1)
 			end)
 
 			(function ()
-				if not uv0 then
-					TryCall(uv1, function ()
-						uv0 = true
-					end)
+				if uv0 and coroutine.status(uv0) == "suspended" then
+					slot0, slot1 = coroutine.resume(uv0)
 				end
 			end)()
 		elseif slot2 == GAME.SUB_CHAPTER_FETCH_DONE then
@@ -1305,8 +1289,7 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 
 	slot4 = getProxy(ChapterProxy)
 	slot5 = nil
-	slot6 = false
-	slot5 = coroutine.wrap(function ()
+	slot5 = coroutine.create(function ()
 		uv0.viewComponent:frozen()
 
 		slot0 = {}
@@ -1360,15 +1343,15 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 	end)
 
 	(function ()
-		if not uv0 then
-			TryCall(uv1, function ()
-				uv0 = true
+		if uv0 and coroutine.status(uv0) == "suspended" then
+			slot0, slot1 = coroutine.resume(uv0)
 
+			if not slot0 then
 				uv1.viewComponent:unfrozen(-1)
 				uv1:sendNotification(GAME.CHAPTER_OP, {
 					type = ChapterConst.OpRequest
 				})
-			end)
+			end
 		end
 	end)()
 end

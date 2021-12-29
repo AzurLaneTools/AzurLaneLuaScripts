@@ -290,11 +290,11 @@ pg.item_data_frame = {
 	},
 	[317] = {
 		time_limit_type = 0,
-		name = "역전의 무지개",
-		gain_by = "",
+		name = "역행의 무지개",
+		gain_by = "逆转彩虹之塔",
 		id = 317,
 		time_second = 0,
-		desc = "추후 이벤트 획득",
+		desc = "<color=#ffffff>「「위로는 신의 국가를 향해, 아래로는 저승을 향해. 역행하는 무지개를 넘어, 미지를 향해 나아가자.」</color>\n「역행하는 무지개 탑」이벤트 획득.",
 		scene = {}
 	},
 	[401] = {

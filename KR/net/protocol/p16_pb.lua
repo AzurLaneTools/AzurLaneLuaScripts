@@ -32,6 +32,7 @@ slot2 = {
 	SC_16200_CORE_SHOP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_16200_BLUE_SHOP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_16200_NORMAL_SHOP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_16200_MONTH_FIELD = slot0.FieldDescriptor(),
 	CS_16201_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_16201_ID_FIELD = slot0.FieldDescriptor(),
 	CS_16201_COUNT_FIELD = slot0.FieldDescriptor(),
@@ -437,6 +438,15 @@ slot2.SC_16200_NORMAL_SHOP_LIST_FIELD.default_value = {}
 slot2.SC_16200_NORMAL_SHOP_LIST_FIELD.message_type = SHOPINFO
 slot2.SC_16200_NORMAL_SHOP_LIST_FIELD.type = 11
 slot2.SC_16200_NORMAL_SHOP_LIST_FIELD.cpp_type = 10
+slot2.SC_16200_MONTH_FIELD.name = "month"
+slot2.SC_16200_MONTH_FIELD.full_name = "p16.sc_16200.month"
+slot2.SC_16200_MONTH_FIELD.number = 4
+slot2.SC_16200_MONTH_FIELD.index = 3
+slot2.SC_16200_MONTH_FIELD.label = 2
+slot2.SC_16200_MONTH_FIELD.has_default_value = false
+slot2.SC_16200_MONTH_FIELD.default_value = 0
+slot2.SC_16200_MONTH_FIELD.type = 13
+slot2.SC_16200_MONTH_FIELD.cpp_type = 3
 SC_16200.name = "sc_16200"
 SC_16200.full_name = "p16.sc_16200"
 SC_16200.nested_types = {}
@@ -444,7 +454,8 @@ SC_16200.enum_types = {}
 SC_16200.fields = {
 	slot2.SC_16200_CORE_SHOP_LIST_FIELD,
 	slot2.SC_16200_BLUE_SHOP_LIST_FIELD,
-	slot2.SC_16200_NORMAL_SHOP_LIST_FIELD
+	slot2.SC_16200_NORMAL_SHOP_LIST_FIELD,
+	slot2.SC_16200_MONTH_FIELD
 }
 SC_16200.is_extendable = false
 SC_16200.extensions = {}

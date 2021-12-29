@@ -165,6 +165,10 @@ function slot0.OpChangeScene(slot0, slot1, ...)
 end
 
 function slot0.OpInteractive(slot0, slot1)
+	if nowWorld().forceLock then
+		return
+	end
+
 	slot0:OpDone()
 
 	if master.contextData.inShop then
@@ -188,7 +192,7 @@ function slot0.OpInteractive(slot0, slot1)
 		return
 	end
 
-	if nowWorld():GetRound() == WorldConst.RoundElse then
+	if slot2:GetRound() == WorldConst.RoundElse then
 		slot0:Op("OpReqRound")
 
 		return

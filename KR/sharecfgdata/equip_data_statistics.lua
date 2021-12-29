@@ -3410,6 +3410,45 @@ _G.pg.equip_data_statistics[446] = {
 	}
 }
 
+_G.pg.equip_data_statistics[447] = {
+	tech = 1,
+	name = "P2突破后自带150mm副炮",
+	speciality = "锁定",
+	type = 2,
+	rarity = 1,
+	ammo = 1,
+	damage = "21 x 4",
+	nationality = 4,
+	descrip = "默认装备",
+	id = 447,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		447
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
 _G.pg.equip_data_statistics[450] = {
 	type = 2,
 	name = "征战巨坦自带主炮-类152MK5+3",
@@ -111456,6 +111495,57 @@ _G.pg.equip_data_statistics[79782] = {
 	base = 79781,
 	weapon_id = {
 		60732
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[79791] = {
+	type = 1,
+	name = "专属弹幕-马格德堡I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79791,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60741
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[79792] = {
+	id = 79792,
+	name = "专属弹幕-马格德堡II",
+	base = 79791,
+	weapon_id = {
+		60742
 	},
 	hidden_skill_id = {}
 }

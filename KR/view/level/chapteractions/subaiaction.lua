@@ -91,12 +91,12 @@ end
 function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	if slot1:getFleetIndex(FleetType.Submarine, slot0.line.row, slot0.line.column) then
 		if slot0.target then
-			slot7 = "-" .. _.detect(slot0.cellUpdates, function (slot0)
+			slot6 = _.detect(slot0.cellUpdates, function (slot0)
 				return slot0.row == uv0.target.row and slot0.column == uv0.target.column
-			end).data / 100 .. "%"
-			slot8 = slot2.viewComponent
+			end)
+			slot9 = "-" .. (slot6.data - (slot1:GetRawChapterCell(slot6.row, slot6.column) and slot7.data or 0)) / 100 .. "%"
 
-			slot8:doPlayStrikeAnim(slot1:getTorpedoShip(slot1.fleets[slot4]), "SubTorpedoUI", function ()
+			slot2.viewComponent:doPlayStrikeAnim(slot1:getTorpedoShip(slot1.fleets[slot4]), "SubTorpedoUI", function ()
 				uv0.viewComponent:strikeEnemy(uv1.target, uv2, uv3)
 			end)
 

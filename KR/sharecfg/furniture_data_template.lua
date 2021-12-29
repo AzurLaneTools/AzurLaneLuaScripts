@@ -4557,6 +4557,126 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[216] = {
+		spine_extra = "",
+		describe = "차 AND 카페! 로열 네이비 찻집 <Queen's Tea>! 여왕이 직접 감독하고 설계한 로열 찻집의 기획으로 형세를 역전시키겠다! 흐흠!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "cafe_enicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "로열 네이비 찻집",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/cafe_en",
+		canputon = 0,
+		id = 216,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[217] = {
+		spine_extra = "",
+		describe = "전통 커피를 기반으로 새롭게 개발한 음료와 음식들. 창의력이 셀링 포인트다…——음, 좋은 생각이라고 볼 수 있다…",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "cafe_gericon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "메탈 블러드 카페",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/cafe_ger",
+		canputon = 0,
+		id = 217,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[218] = {
+		spine_extra = "",
+		describe = "메탈 블러드 인공 특이점 생성 장치 미드가드의 탑을 본떠 제작한 미니어처(내장 조명).——「역행하는 무지개 탑」 작전에서 우수한 성적을 거둔 자에게 수여하는 기념장",
+		gain_by = "逆转彩虹之塔",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "dexiurxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "역행의 무지개 기념장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 218,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"dexiurxunzhangB",
+				"normal"
+			},
+			{
+				"dexiurxunzhangT"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -6705,6 +6825,252 @@ pg.furniture_data_template = {
 					"action1"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100032] = {
+		belong = 1,
+		describe = "나의 완벽한 바베큐 기술을 봐라쥬!",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "쥬쥬 그릴",
+		tag = 6,
+		icon = "kaoyuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100032,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaoyu",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"kaoyuCharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"kaoyuCharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"kaoyuCharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"kaoyuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[200001] = {
+		spine_extra = "",
+		describe = "그래, 마음껏 메이드에게 응석을 부리라고, \"주인님\"~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "꿈속의 소파 한 구석",
+		themeId = 0,
+		icon = "aogusite_2_furicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200001,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"aogusite_2_fur",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					499061
+				},
+				"furniture",
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[200002] = {
+		spine_extra = "",
+		describe = "영업 시간은 끝났지만, 마시고 싶은게 있으면 사양말고 나에게 말해줘~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "폐점 후의 바",
+		themeId = 0,
+		icon = "p2_2_furicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200002,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"P2_2_furB",
+				"normal"
+			},
+			{
+				"P2_2_furT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					403101
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -16795,6 +17161,57 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[12101] = {
+		spine_extra = "",
+		describe = "흔들흔들~ 즐거워 보여~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 1,
+		icon = "yaoyaocher2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "냥냥카",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "r2/yaoyaocher2",
+		canputon = 0,
+		id = 12101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12.5,
+					62.5
+				},
+				{
+					-1,
+					1
+				},
+				"r2/yaoyaocher2_using"
+			}
+		},
 		can_trigger = {
 			0
 		},
@@ -92903,6 +93320,1286 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[85001] = {
+		spine_extra = "",
+		describe = "어서 오세요! 주문은… 원래 드시던 걸로요?",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "모항 카페 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibancafe2icon",
+		spine_action_replace = "",
+		picture = "cafe2/dibancafe2",
+		comfortable = 4,
+		canputon = 0,
+		id = 85001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85002] = {
+		spine_extra = "",
+		describe = "어서 오세요! 주문은… 원래 드시던 걸로요?",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "모항 카페 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicafe2icon",
+		spine_action_replace = "",
+		picture = "cafe2/qiangbicafe2",
+		comfortable = 4,
+		canputon = 0,
+		id = 85002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85101] = {
+		spine_extra = "",
+		describe = "메탈 블러드의 요리 기술 역시 천하제일!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "「메탈 블러드와 오므라이스」 조각상",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/diaoxiangcafe2",
+		canputon = 0,
+		id = 85101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85102] = {
+		spine_extra = "",
+		describe = "발바닥 도안이 찍힌 붉은색 카펫",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditancafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "발바닥 카펫",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/ditancafe2",
+		canputon = 0,
+		id = 85102,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85103] = {
+		spine_extra = "",
+		describe = "홀로 앉는 것보다는 옆사람과 함께",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "gaojiaodengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "바 스툴",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/gaojiaodengcafe2",
+		canputon = 0,
+		id = 85103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85106] = {
+		spine_extra = "",
+		describe = "주문하겠나쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guitaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 카운터",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "cafe2/guitaicafe2",
+		canputon = 0,
+		id = 85106,
+		can_rotate = 0,
+		size = {
+			12,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85107] = {
+		spine_extra = "",
+		describe = "전단지 내용이랑 같겠지…… 아마…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lipaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 간판",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/lipaicafe2",
+		canputon = 0,
+		id = 85107,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85109] = {
+		spine_extra = "",
+		describe = "매장을 푸르게.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "lvzhicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 화분",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/lvzhicafe2",
+		canputon = 0,
+		id = 85109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85112] = {
+		spine_extra = "",
+		describe = "부드럽게 쓰다듬어 주세요",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "maowocafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 캐터리",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/maowocafe2",
+		canputon = 0,
+		id = 85112,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85113] = {
+		spine_extra = "",
+		describe = "어서 오세요쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpujicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "청소 메이드쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/nvpujicafe2",
+		canputon = 0,
+		id = 85113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85114] = {
+		spine_extra = "",
+		describe = "어떤 걸 주문하시겠습니까쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpuji2cafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨이터 메이드쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/nvpuji2cafe2",
+		canputon = 0,
+		id = 85114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85115] = {
+		spine_extra = "",
+		describe = "편안히 휴식할 수 있는 안락한 자리",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "ruanzuocafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "안락 소파A",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/ruanzuocafe2",
+		canputon = 0,
+		id = 85115,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					16.7,
+					23
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85119] = {
+		spine_extra = "",
+		describe = "누가 만화책을 여기 둔 거야쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuguicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 책장",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/shuguicafe2",
+		canputon = 0,
+		id = 85119,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85120] = {
+		spine_extra = "",
+		describe = "카페를 밝혀주는 스탠드",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "taidengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 스탠드",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/taidengcafe2",
+		canputon = 0,
+		id = 85120,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85123] = {
+		spine_extra = "",
+		describe = "바, 방금 뭐가 움직인 것 같은데!?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wanjuduicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "인형 더미",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/wanjuduicafe2",
+		canputon = 0,
+		id = 85123,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					40.2
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wanjuduicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85124] = {
+		spine_extra = "",
+		describe = "Let's music！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wutaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 스테이지",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/wutaicafe2",
+		canputon = 0,
+		id = 85124,
+		can_rotate = 0,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-23.4,
+					17.9
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wutaicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85125] = {
+		spine_extra = "",
+		describe = "주문하신 커피, 천천히 즐기세요쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhishijicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 매니저쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/zhishijicafe2",
+		canputon = 0,
+		id = 85125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85126] = {
+		spine_extra = "",
+		describe = "작은 친구들과 함께 여유로운 시간을 보내요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "카페 캣타워",
+		themeId = 85,
+		icon = "maopajiacafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 85126,
+		can_rotate = 0,
+		size = {
+			8,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajiaB",
+				"normal"
+			},
+			{
+				"maopajiaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[85127] = {
+		spine_extra = "",
+		describe = "편안히 휴식할 수 있는 안락한 자리",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "ruanzuobcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "안락 소파",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/ruanzuobcafe2",
+		canputon = 0,
+		id = 85127,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85131] = {
+		spine_extra = "",
+		describe = "매장에 배치한 낮은 테이블",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "zuozicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 네모 테이블",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/zuozicafe2",
+		canputon = 1,
+		id = 85131,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {
+			0,
+			61.33
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85201] = {
+		spine_extra = "",
+		describe = "위에 무엇을 그릴까…",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "danbaofancafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "특제 오므라이스",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/danbaofancafe2",
+		canputon = 0,
+		id = 85201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85202] = {
+		spine_extra = "",
+		describe = "유리 너머로 느껴지는 커피향기~",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "fencafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "클로슈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/fencafe2",
+		canputon = 0,
+		id = 85202,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85203] = {
+		spine_extra = "",
+		describe = "번호표 없이 주문 순서를 기억할 수 있다면 한몫 맡을 수 있겠군요!",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 2,
+		icon = "canpaicafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "번호표",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/canpaicafe2",
+		canputon = 0,
+		id = 85203,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85301] = {
+		spine_extra = "",
+		describe = "커피 빈이… 여기 있나쥬?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "bichucafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 벽장",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/bichucafe2",
+		canputon = 0,
+		id = 85301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85302] = {
+		spine_extra = "",
+		describe = "창밖의 어둠이 카페의 분위기를 띄워줘요",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuchuangcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 창문1",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/chuchuangcafe2",
+		canputon = 0,
+		id = 85302,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85303] = {
+		spine_extra = "",
+		describe = "창밖의 어둠이 카페의 분위기를 띄워줘요",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuchuang2cafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 창문2",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/chuchuang2cafe2",
+		canputon = 0,
+		id = 85303,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85304] = {
+		spine_extra = "",
+		describe = "희귀한 나비인 것 같은데?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guahuacafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 벽걸이 그림",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/guahuacafe2",
+		canputon = 0,
+		id = 85304,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85305] = {
+		spine_extra = "",
+		describe = "귀여운 카페 포스터",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guapaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 포스터",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/guapaicafe2",
+		canputon = 0,
+		id = 85305,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85306] = {
+		spine_extra = "",
+		describe = "오늘의 영업 목표는~~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "heibancafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 칠판",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/heibancafe2",
+		canputon = 0,
+		id = 85306,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85307] = {
+		spine_extra = "",
+		describe = "환영합니다쥬, 카페 절찬 영업 중!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "mengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 문",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/mengcafe2",
+		canputon = 0,
+		id = 85307,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85308] = {
+		spine_extra = "",
+		describe = "영업 시간이… 아직 많이 남았어요!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "shizhongcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 시계",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/shizhongcafe2",
+		canputon = 0,
+		id = 85308,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85309] = {
+		spine_extra = "",
+		describe = "등불을 좀 어둡게 하면 더 분위기 있을려나쥬?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 5,
+		icon = "bidengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카페 벽등",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/bidengcafe2",
+		canputon = 0,
+		id = 85309,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -93000,6 +94697,9 @@ pg.furniture_data_template = {
 		213,
 		214,
 		215,
+		216,
+		217,
+		218,
 		100002,
 		100003,
 		100004,
@@ -93030,6 +94730,9 @@ pg.furniture_data_template = {
 		100029,
 		100030,
 		100031,
+		100032,
+		200001,
+		200002,
 		200003,
 		1001,
 		1002,
@@ -93272,6 +94975,7 @@ pg.furniture_data_template = {
 		11306,
 		11307,
 		12002,
+		12101,
 		12102,
 		12103,
 		12104,
@@ -94997,6 +96701,38 @@ pg.furniture_data_template = {
 		84184,
 		84185,
 		84186,
-		84301
+		84301,
+		85001,
+		85002,
+		85101,
+		85102,
+		85103,
+		85106,
+		85107,
+		85109,
+		85112,
+		85113,
+		85114,
+		85115,
+		85119,
+		85120,
+		85123,
+		85124,
+		85125,
+		85126,
+		85127,
+		85131,
+		85201,
+		85202,
+		85203,
+		85301,
+		85302,
+		85303,
+		85304,
+		85305,
+		85306,
+		85307,
+		85308,
+		85309
 	}
 }

@@ -63,10 +63,12 @@ slot0.FlagBanaiAirStrike = 4
 slot0.FlagPoison = 5
 slot0.FlagLava = 10
 slot0.FlagNightmare = 9
+slot0.FlagMissleAiming = 12
 slot0.FlagWeatherNight = 101
 slot0.FlagWeatherFog = 102
 slot0.ActType_Poison = 1
-slot0.ActType_Healing = 2
+slot0.ActType_SubmarineHunting = 2
+slot0.ActType_TargetDown = 3
 slot0.BoxBarrier = 0
 slot0.BoxDrop = 1
 slot0.BoxStrategy = 2
@@ -282,6 +284,14 @@ slot0.StatusSSSSSyberSquadSupportIdle = 21
 slot0.StatusSSSSSyberSquadSupportActive = 22
 slot0.StatusSSSSKaijuSupportIdle = 23
 slot0.StatusSSSSKaijuSupportActive = 24
+slot0.StatusMissile1 = 30
+slot0.StatusMissile2 = 31
+slot0.StatusMissile3 = 32
+slot0.StatusMissileInit = 33
+slot0.StatusMissile1B = 34
+slot0.StatusMissile2B = 35
+slot0.StatusMissile3B = 36
+slot0.StatusMissileInitB = 37
 slot0.Status2Stg = setmetatable({}, {
 	__index = function (slot0, slot1)
 		slot3 = pg.chapter_status_effect[slot1] and slot2.strategy or 0
@@ -356,6 +366,8 @@ end
 
 slot0.AmmoRich = 4
 slot0.AmmoPoor = 0
+slot0.ExpeditionAILair = 6
+slot0.ExpeditionTypeUnTouchable = 97
 slot0.EnemySize = {
 	1,
 	2,

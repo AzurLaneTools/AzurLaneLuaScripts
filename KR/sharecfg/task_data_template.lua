@@ -136064,6 +136064,1717 @@ pg.task_data_template = {
 		added_tip = 0,
 		open_need = {}
 	},
+	[17244] = {
+		name = "『德系V4』角色收集：乌尔里希·冯·胡滕",
+		guild_coin_award = 0,
+		award = 96537,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [울리히 폰 후텐] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17244,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			40503
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				800
+			}
+		}
+	},
+	[17245] = {
+		name = "『德系V4』角色收集：阿达尔伯特亲王",
+		guild_coin_award = 0,
+		award = 96538,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[프린츠 아달베르트] 한계돌파MAX 달성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "403104",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 403104,
+		id = 17245,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				600
+			}
+		}
+	},
+	[17246] = {
+		name = "『德系V4』角色收集：马格德堡",
+		guild_coin_award = 0,
+		award = 96539,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[마그데부르크] 한계돌파MAX 달성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "402064",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 402064,
+		id = 17246,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				600
+			}
+		}
+	},
+	[17247] = {
+		name = "『德系V4』角色收集：易北",
+		guild_coin_award = 0,
+		award = 96540,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[엘베] 한계돌파MAX 달성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "406024",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 406024,
+		id = 17247,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				400
+			}
+		}
+	},
+	[17248] = {
+		name = "『德系V4』角色收集：U-1206",
+		guild_coin_award = 0,
+		award = 96541,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[U-1206] 한계돌파MAX 달성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "408124",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 408124,
+		id = 17248,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				400
+			}
+		}
+	},
+	[17249] = {
+		name = "『德系V4』角色刷关：欧根亲王",
+		guild_coin_award = 0,
+		award = 96542,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파 MAX 프린츠 오이겐 A2/C2에서 적 기함 10회 처치 및 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17249,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600113,
+			1602113
+		},
+		target_id_2 = {
+			403034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17250] = {
+		name = "『德系V4』角色刷关：彼得·史特拉塞",
+		guild_coin_award = 0,
+		award = 96543,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파 MAX 페터 슈트라서 A3/C3에서 적 기함 10회 처치 및 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17250,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600213,
+			1602213
+		},
+		target_id_2 = {
+			407034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17251] = {
+		name = "『德系V4』角色刷关：提尔比茨",
+		guild_coin_award = 0,
+		award = 96544,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파 MAX 히티르피츠 B2/D2에서 적 기함 10회 처치 및 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17251,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1601113,
+			1603113
+		},
+		target_id_2 = {
+			405024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17252] = {
+		name = "『德系V4』角色刷关：U-47",
+		guild_coin_award = 0,
+		award = 96545,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파 MAX U-47 B3/D3에서 적 기함 10회 처치 및 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17252,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1601213,
+			1603213
+		},
+		target_id_2 = {
+			408024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17253] = {
+		name = "『德系V4』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 96607,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "게임 로그인하기",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17253,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				231,
+				2
+			}
+		}
+	},
+	[17254] = {
+		name = "女仆活动任务1",
+		guild_coin_award = 0,
+		award = 96608,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 24,
+		desc = "함대를 출격시켜, 10회 S평가로 승리하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17254,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[17255] = {
+		name = "女仆活动任务2",
+		guild_coin_award = 0,
+		award = 96609,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 40,
+		desc = "장비를 2번 강화한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17255,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17256] = {
+		name = "女仆活动任务3",
+		guild_coin_award = 0,
+		award = 96610,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17256,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[17257] = {
+		name = "女仆活动任务4",
+		guild_coin_award = 0,
+		award = 96611,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "군사의뢰를 2번 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17257,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17258] = {
+		name = "女仆活动任务5",
+		guild_coin_award = 0,
+		award = 96612,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 31,
+		desc = "함선을 2척 퇴역시킨다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17258,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				3
+			}
+		}
+	},
+	[17259] = {
+		name = "女仆活动任务6",
+		guild_coin_award = 0,
+		award = 96613,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17259,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17260] = {
+		name = "女仆活动任务7",
+		guild_coin_award = 0,
+		award = 96614,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "함선을 5번 강화한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17260,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				3
+			}
+		}
+	},
+	[17261] = {
+		name = "女仆活动任务8",
+		guild_coin_award = 0,
+		award = 96615,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "전술학원에서 전술훈련을 2번 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17261,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17262] = {
+		name = "女仆活动任务9",
+		guild_coin_award = 0,
+		award = 96616,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "숙소에서 식량을 5회 보급한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17262,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	},
+	[17263] = {
+		name = "女仆活动任务10",
+		guild_coin_award = 0,
+		award = 96617,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "임의의 적함을 20척 격파한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17263,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17264] = {
+		name = "女仆活动任务11",
+		guild_coin_award = 0,
+		award = 96618,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "건조를 2회 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17264,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[17265] = {
+		name = "女仆活动任务12",
+		guild_coin_award = 0,
+		award = 96619,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 50,
+		desc = "임의의 장비상자 1개 오픈한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17265,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17266] = {
+		name = "女仆活动任务13",
+		guild_coin_award = 0,
+		award = 96620,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17266,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				216,
+				1
+			}
+		}
+	},
+	[17267] = {
+		name = "女仆活动任务14",
+		guild_coin_award = 0,
+		award = 96621,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "전술학원에서 전술훈련을 2번 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17267,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				217,
+				1
+			}
+		}
+	},
+	[17268] = {
+		name = "女仆活动任务额外任务1",
+		guild_coin_award = 0,
+		award = 96628,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "탄산과 홍차 히든 임무: 미뤄진 선택",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17268,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			},
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[17269] = {
+		name = "女仆活动任务额外任务2",
+		guild_coin_award = 0,
+		award = 96629,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "탄산과 홍차 히든 임무: 왜 전부 가지면 안 돼?",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17269,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			},
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[17270] = {
+		name = "『德系V4』通关EX",
+		guild_coin_award = 0,
+		award = 96630,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "이벤트 해역 EX를 클리어",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1600051",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1600051,
+		id = 17270,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17271] = {
+		name = "『德系V4』-日常建造",
+		guild_coin_award = 0,
+		award = 96631,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "함선을 3척 「건조」하라!",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17271,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59258,
+				300
+			}
+		}
+	},
+	[17272] = {
+		name = "『德系V4』-日常出击",
+		guild_coin_award = 0,
+		award = 96632,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "전투에서 15번 승리하라!",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17272,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59258,
+				300
+			}
+		}
+	},
+	[17273] = {
+		name = "『德系V4』-日常困难本",
+		guild_coin_award = 0,
+		award = 96633,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17273,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59258,
+				150
+			}
+		}
+	},
+	[17274] = {
+		name = "『德系V4』通关A1/C1",
+		guild_coin_award = 0,
+		award = 96634,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "A1 혹은 C1 클리어",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17275",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17274,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600001,
+			1600021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17275] = {
+		name = "『德系V4』通关A2/C2",
+		guild_coin_award = 0,
+		award = 96635,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "A2 혹은 C2 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17276",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17275,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600002,
+			1600022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17276] = {
+		name = "『德系V4』通关A3/C3",
+		guild_coin_award = 0,
+		award = 96636,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "A3 혹은 C3 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17277",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17276,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600003,
+			1600023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59258,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17277] = {
+		name = "『德系V4』通关B1/D1",
+		guild_coin_award = 0,
+		award = 96637,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "B1 혹은 D1 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17278",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17277,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600004,
+			1600024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17278] = {
+		name = "『德系V4』通关B2/D2",
+		guild_coin_award = 0,
+		award = 96638,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "B2 혹은 D2 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17279",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17278,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600005,
+			1600025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17279] = {
+		name = "『德系V4』通关B3/D3",
+		guild_coin_award = 0,
+		award = 96639,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "B3 혹은 D3 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17280",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17279,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600006,
+			1600026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59258,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17280] = {
+		name = "『德系V4』通关SP",
+		guild_coin_award = 0,
+		award = 96640,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "SP를 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1600041",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1600041,
+		id = 17280,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17281] = {
+		name = "『德系V4』通关D3",
+		guild_coin_award = 0,
+		award = 96641,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "D3 클리어",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1600026",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1600026,
+		id = 17281,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				218,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17282] = {
+		name = "『德系V4』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 96642,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "A1 혹은 C1의 3성 수집 완료",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17283",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17282,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600001,
+			1600021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17283] = {
+		name = "『德系V4』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 96643,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "A2 혹은 C2의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17284",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17283,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600002,
+			1600022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17284] = {
+		name = "『德系V4』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 96644,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "A3 혹은 C3의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17285",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17284,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600003,
+			1600023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17285] = {
+		name = "『德系V4』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 96645,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "B1 혹은 D1의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17286",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17285,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600004,
+			1600024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17286] = {
+		name = "『德系V4』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 96646,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "B2 혹은 D2의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17287",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17286,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600005,
+			1600025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17287] = {
+		name = "『德系V4』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 96647,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "B3 혹은 D3의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17287,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600006,
+			1600026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[30201] = {
 		name = "전투승리-일상",
 		guild_coin_award = 0,
@@ -169613,6 +171324,50 @@ pg.task_data_template = {
 		17241,
 		17242,
 		17243,
+		17244,
+		17245,
+		17246,
+		17247,
+		17248,
+		17249,
+		17250,
+		17251,
+		17252,
+		17253,
+		17254,
+		17255,
+		17256,
+		17257,
+		17258,
+		17259,
+		17260,
+		17261,
+		17262,
+		17263,
+		17264,
+		17265,
+		17266,
+		17267,
+		17268,
+		17269,
+		17270,
+		17271,
+		17272,
+		17273,
+		17274,
+		17275,
+		17276,
+		17277,
+		17278,
+		17279,
+		17280,
+		17281,
+		17282,
+		17283,
+		17284,
+		17285,
+		17286,
+		17287,
 		30201,
 		30202,
 		30203,

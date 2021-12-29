@@ -425,6 +425,14 @@ function slot9.IsCrash(slot0)
 	return slot0._isCrash
 end
 
+function slot9.OverrideDeadFX(slot0, slot1)
+	slot0._deadFX = slot1
+end
+
+function slot9.GetDeadFX(slot0)
+	return slot0._deadFX
+end
+
 function slot9.UpdateAction(slot0)
 	slot1 = slot0:GetSpeed().x * slot0._IFF
 

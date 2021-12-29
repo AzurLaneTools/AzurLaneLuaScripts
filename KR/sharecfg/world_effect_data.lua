@@ -175400,6 +175400,11 @@ pg.world_effect_data = {
 		effect_paramater = {
 			{
 				"month",
+				0
+			},
+			70000106,
+			{
+				"month",
 				1
 			},
 			70000103,
@@ -175517,6 +175522,26 @@ pg.world_effect_data = {
 		},
 		autoflag = {}
 	},
+	[70000106] = {
+		autocomplete = 0,
+		effect_type = 3,
+		effective_num = 0,
+		id = 70000106,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				43002,
+				{
+					-1,
+					-1
+				},
+				2
+			}
+		},
+		autoflag = {}
+	},
 	[70000109] = {
 		autocomplete = 0,
 		effect_type = 10,
@@ -175576,6 +175601,11 @@ pg.world_effect_data = {
 		autoactivate = 0,
 		sound_effects = "",
 		effect_paramater = {
+			{
+				"month",
+				0
+			},
+			70000116,
 			{
 				"month",
 				1
@@ -175680,6 +175710,26 @@ pg.world_effect_data = {
 		effect_type = 3,
 		effective_num = 0,
 		id = 70000115,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				43012,
+				{
+					-1,
+					-1
+				},
+				2
+			}
+		},
+		autoflag = {}
+	},
+	[70000116] = {
+		autocomplete = 0,
+		effect_type = 3,
+		effective_num = 0,
+		id = 70000116,
 		log_text = "",
 		autoactivate = 0,
 		sound_effects = "",
@@ -185832,6 +185882,11 @@ pg.world_effect_data = {
 		effect_paramater = {
 			{
 				"month",
+				0
+			},
+			70310015,
+			{
+				"month",
 				1
 			},
 			70310001,
@@ -186045,6 +186100,19 @@ pg.world_effect_data = {
 		},
 		autoflag = {}
 	},
+	[70310015] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 70310015,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			7032015
+		},
+		autoflag = {}
+	},
 	[70310030] = {
 		autocomplete = 0,
 		effect_type = 9,
@@ -186080,6 +186148,11 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		sound_effects = "",
 		effect_paramater = {
+			{
+				"month",
+				0
+			},
+			70311015,
 			{
 				"month",
 				1
@@ -186295,6 +186368,19 @@ pg.world_effect_data = {
 		},
 		autoflag = {}
 	},
+	[70311015] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 70311015,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			7032035
+		},
+		autoflag = {}
+	},
 	[70311100] = {
 		autocomplete = 0,
 		effect_type = 35,
@@ -186304,6 +186390,11 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		sound_effects = "",
 		effect_paramater = {
+			{
+				"month",
+				0
+			},
+			70311115,
 			{
 				"month",
 				1
@@ -186516,6 +186607,19 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			7032051
+		},
+		autoflag = {}
+	},
+	[70311115] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 70311115,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			7032055
 		},
 		autoflag = {}
 	},
@@ -264510,6 +264614,7 @@ pg.world_effect_data = {
 		70000103,
 		70000104,
 		70000105,
+		70000106,
 		70000109,
 		70000110,
 		70000111,
@@ -264517,6 +264622,7 @@ pg.world_effect_data = {
 		70000113,
 		70000114,
 		70000115,
+		70000116,
 		70000119,
 		70000120,
 		70000121,
@@ -265053,6 +265159,7 @@ pg.world_effect_data = {
 		70310010,
 		70310011,
 		70310012,
+		70310015,
 		70310030,
 		70310031,
 		70311000,
@@ -265068,6 +265175,7 @@ pg.world_effect_data = {
 		70311010,
 		70311011,
 		70311012,
+		70311015,
 		70311100,
 		70311101,
 		70311102,
@@ -265081,6 +265189,7 @@ pg.world_effect_data = {
 		70311110,
 		70311111,
 		70311112,
+		70311115,
 		70312000,
 		70312100,
 		70312200,

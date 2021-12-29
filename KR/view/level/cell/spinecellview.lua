@@ -1,81 +1,24 @@
-slot0 = class("SpineCellView", import("view.level.cell.LevelCellView"))
+slot0 = class("SpineCellView")
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0)
-
-	slot0.go = slot1
-	slot0.tf = slot0.go.transform
-	slot0.tfShip = slot0.tf:Find("ship")
+function slot0.Ctor(slot0)
 	slot0._attachmentList = {}
-	slot0._extraEffect = nil
-
-	slot0:OverrideCanvas()
-
-	slot0.bodyLoader = AutoLoader.New()
-	slot0.buffer = FuncBuffer.New()
+	slot0.spineLoader = AutoLoader.New()
 end
 
-function slot0.LoadAll(slot0)
-	parallelAsync({
-		function (slot0)
-			uv0:LoadBody(slot0)
-		end,
-		function (slot0)
-			uv0:LoadSpine(slot0)
-		end
-	}, function ()
-		slot0 = uv0.go
-		slot0.transform.localEulerAngles = Vector3(-uv0.theme.angle, 0, 0)
-
-		setParent(slot0, uv0.parent, false)
-		setActive(slot0, true)
-
-		slot1 = uv0:getModel().transform
-
-		slot1:SetParent(uv0.tfShip, false)
-
-		slot1.localPosition = Vector3.zero
-		slot1.localScale = Vector3(0.4, 0.4, 1)
-		slot1.localRotation = uv0.data.rotation
-
-		uv0.buffer:SetNotifier(uv0)
-		uv0.buffer:ExcuteAll()
-		uv0:AfterLoadedAll()
-	end)
+function slot0.InitCellTransform(slot0)
+	slot0.tfShip = slot0.tf:Find("ship")
+	slot0.tfShadow = slot0.tf:Find("shadow")
 end
 
-function slot0.AfterLoadedAll(slot0)
+function slot0.GetRotatePivot(slot0)
+	return slot0.tfShip
 end
 
-function slot0.SetData(slot0, slot1)
-	slot0.data = slot1
-end
-
-function slot0.SetTpl(slot0, slot1)
-	slot0.tpl = slot1
-end
-
-function slot0.SetTheme(slot0, slot1)
-	slot0.theme = slot1
-end
-
-function slot0.GetOrder(slot0)
-	return ChapterConst.CellPriorityNone
-end
-
-function slot0.getPrefab(slot0)
-	return slot0.prefab
-end
-
-function slot0.setPrefab(slot0, slot1)
-	slot0.prefab = slot1
-end
-
-function slot0.getAction(slot0)
+function slot0.GetAction(slot0)
 	return slot0.action
 end
 
-function slot0.setAction(slot0, slot1)
+function slot0.SetAction(slot0, slot1)
 	slot0.action = slot1
 
 	if slot0.anim then
@@ -83,115 +26,83 @@ function slot0.setAction(slot0, slot1)
 	end
 end
 
-function slot0.getModel(slot0)
+function slot0.GetModel(slot0)
 	return slot0.model
 end
 
-function slot0.setModel(slot0, slot1)
-	slot2 = slot1.transform
-	slot2:GetComponent("SkeletonGraphic").raycastTarget = false
+function slot0.SetModel(slot0, slot1, slot2)
+	slot3 = slot1.transform
+	slot3:GetComponent("SkeletonGraphic").raycastTarget = false
 
-	slot2:SetParent(slot0.tfShip, false)
+	slot3:SetParent(slot0.tfShip, false)
 
-	slot2.localPosition = Vector3.zero
-	slot2.localScale = Vector3(0.4, 0.4, 1)
+	slot3.localPosition = Vector3.zero
+	slot2 = slot2 and slot2 * 0.01 or 1
+	slot3.localScale = Vector3(0.4 * slot2, 0.4 * slot2, 1)
 	slot0.model = slot1
-	slot0.anim = slot2:GetComponent("SpineAnimUI")
+	slot0.anim = slot3:GetComponent("SpineAnimUI")
 
-	slot0:setAction(slot0:getAction())
+	slot0:SetAction(slot0:GetAction())
 end
 
-function slot0.setAttachment(slot0, slot1)
-	slot0._attachmentInfo = slot1
-end
-
-function slot0.SetExtraEffect(slot0, slot1)
-	slot0._extraEffect = slot1
-end
-
-function slot0.LoadBody(slot0, slot1)
-	slot2 = slot0.tpl
-	slot3 = slot0.bodyLoader
-
-	slot3:GetPrefab("leveluiview/" .. slot2, slot2, function (slot0)
-		uv0.go = slot0
-		uv0.tf = tf(slot0)
-		uv0.tfShip = uv0.tf:Find("ship")
-
-		uv0:OverrideCanvas()
-		uv0:ResetCanvasOrder()
-		existCall(uv1)
-	end, "tpl")
-end
-
-function slot0.LoadSpine(slot0, slot1)
-	if slot0.lastPrefab == slot0:getPrefab() then
+function slot0.LoadSpine(slot0, slot1, slot2, slot3, slot4)
+	if slot0.lastPrefab == slot1 then
 		if not IsNil(slot0.model) then
-			existCall(slot1)
+			existCall(slot4)
 		end
 
 		return
 	end
 
-	slot0:unloadSpine()
+	slot0:UnloadSpine()
 
-	slot2 = slot0:getPrefab()
-	slot3 = slot0:GetLoader()
+	slot0.lastPrefab = slot1
+	slot5 = slot0.spineLoader
 
-	slot3:GetSpine(slot2, function (slot0)
-		uv0:setModel(slot0)
-		existCall(uv1)
-		uv0:LoadAttachments()
+	slot5:GetSpine(slot1, function (slot0)
+		uv0:SetModel(slot0, uv1)
+		existCall(uv2)
+		uv0:LoadAttachments(uv3)
 	end, "spine")
-
-	slot0.lastPrefab = slot2
 end
 
-function slot0.LoadAttachments(slot0)
-	if slot0._attachmentInfo then
-		for slot4, slot5 in pairs(slot0._attachmentInfo) do
-			if slot5.attachment_combat_ui[1] ~= "" then
-				slot8 = slot0:GetLoader()
+function slot0.LoadAttachments(slot0, slot1)
+	if not slot1 then
+		return
+	end
 
-				slot8:LoadPrefab("Effect/" .. slot6, slot6, function (slot0)
-					uv0._attachmentList[uv1] = slot0
+	for slot5, slot6 in pairs(slot1) do
+		if slot6.attachment_combat_ui[1] ~= "" then
+			slot9 = slot0.spineLoader
 
-					tf(slot0):SetParent(tf(uv0.model))
+			slot9:LoadPrefab("Effect/" .. slot7, slot7, function (slot0)
+				uv0._attachmentList[uv1] = slot0
 
-					tf(slot0).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
-				end)
-			end
+				tf(slot0):SetParent(tf(uv0.model))
+
+				tf(slot0).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
+			end)
 		end
 	end
-
-	if slot0._extraEffect and #slot0._extraEffect > 0 then
-		slot1 = slot0._extraEffect
-		slot3 = slot0:GetLoader()
-
-		slot3:LoadPrefab("effect/" .. slot1, slot1, function (slot0)
-			uv0._attachmentList[uv1] = slot0
-
-			tf(slot0):SetParent(tf(uv0.model), false)
-		end)
-	end
 end
 
-function slot0.unloadSpine(slot0)
-	if slot0.prefab and slot0.model then
+function slot0.UnloadSpine(slot0)
+	slot0.prefab = nil
+
+	if slot0.model then
 		slot0:SetSpineVisible(true)
 
 		slot0.model:GetComponent("SkeletonGraphic").raycastTarget = true
 
-		slot0:setAction(ChapterConst.ShipIdleAction)
+		slot0:SetAction(ChapterConst.ShipIdleAction)
 		slot0:ClearAttachments()
 
 		slot0.model = nil
-		slot0._attachmentInfo = nil
-		slot0._extraEffect = nil
+		slot0.anim = nil
 	end
 
-	if slot0.loader then
-		slot0.loader:ClearRequests()
+	if slot0.spineLoader then
+		slot0.spineLoader:ClearRequests()
 	end
 end
 
@@ -213,12 +124,8 @@ function slot0.SetSpineVisible(slot0, slot1)
 	slot2:GetComponent("SkeletonGraphic").color = Color.New(1, 1, 1, slot1 and 1 or 0)
 end
 
-function slot0.Clear(slot0)
-	slot0.bodyLoader:Clear()
-	slot0:unloadSpine()
-
-	slot0.prefab = nil
-	slot0.anim = nil
+function slot0.ClearSpine(slot0)
+	slot0:UnloadSpine()
 end
 
 return slot0

@@ -1,6 +1,6 @@
 return {
 	init_effect = "",
-	name = "活动buff-祭典祈愿效果-战斗伤害提高",
+	name = "活动buff-建筑效果-战斗伤害提高",
 	time = 0,
 	color = "yellow",
 	picture = "",

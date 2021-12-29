@@ -17,6 +17,7 @@ function slot0.Ctor(slot0)
 	slot0._returnRequest = {}
 	slot0._instKeyDict = {}
 	slot0._keyInstDict = {}
+	slot0._groupDict = {}
 end
 
 function slot0.GenerateUID4LoadingRequest(slot0)
@@ -82,8 +83,27 @@ function slot0.GetPrefabBYStopLoading(slot0, slot1, slot2, slot3, slot4)
 	return slot4
 end
 
+function slot0.GetPrefabBYGroup(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0:GetPrefab(slot1, slot2, slot3)
+	slot0._groupDict[slot5] = slot4
+
+	return slot5
+end
+
 function slot0.ReturnPrefab(slot0, slot1)
 	slot0:ClearRequest(slot0._instKeyDict[go(slot1)])
+end
+
+function slot0.ReturnGroup(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	for slot5, slot6 in pairs(slot0._groupDict) do
+		if slot6 == slot1 then
+			slot0:ClearRequest(slot5)
+		end
+	end
 end
 
 function slot0.GetSpine(slot0, slot1, slot2, slot3)
@@ -288,9 +308,13 @@ function slot0.ClearRequest(slot0, slot1, slot2)
 	if not slot2 or bit.band(slot2, uv0.PartLoaded) > 0 then
 		if slot0._returnRequest[slot1] then
 			if uv1 then
-				slot3 = slot0._returnRequest[slot1]
-
-				print("AutoLoader Unload Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
+				if isa(slot0._returnRequest[slot1], uv2) then
+					print("AutoLoader Unload Spine: " .. slot3.name .. " ;")
+				elseif isa(slot3, uv3) then
+					print("AutoLoader Unload Atlas: " .. slot3.path .. " ;")
+				else
+					print("AutoLoader Unload Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
+				end
 			end
 
 			slot0._returnRequest[slot1]:Start()
@@ -303,46 +327,31 @@ function slot0.ClearRequest(slot0, slot1, slot2)
 			slot0._keyInstDict[slot1] = nil
 		end
 	end
+
+	if slot1 then
+		slot0._groupDict[slot1] = nil
+	end
 end
 
 function slot0.ClearLoadingRequests(slot0)
-	for slot4, slot5 in pairs(slot0._loadingRequest) do
-		if uv0 then
-			print("AutoLoader Unload loading Path: " .. slot5.path .. " Name: " .. slot5.name .. " ;")
-		end
-
-		slot5:Stop()
+	for slot4 in pairs(slot0._loadingRequest) do
+		slot0:ClearRequest(slot4)
 	end
 
 	table.clear(slot0._loadingRequest)
 end
 
-function slot0.ClearRequests(slot0)
-	for slot4, slot5 in pairs(slot0._loadingRequest) do
-		if uv0 then
-			print("AutoLoader Unload loading Path: " .. slot5.path .. " Name: " .. slot5.name .. " ;")
-		end
-
-		slot5:Stop()
-	end
-
-	table.clear(slot0._loadingRequest)
-
-	for slot4, slot5 in pairs(slot0._returnRequest) do
-		if uv0 then
-			if isa(slot5, uv1) then
-				print("AutoLoader Unload Spine: " .. slot5.name .. " ;")
-			elseif isa(slot5, uv2) then
-				print("AutoLoader Unload Atlas: " .. slot5.path .. " ;")
-			else
-				print("AutoLoader Unload Path: " .. slot5.path .. " Name: " .. slot5.name .. " ;")
-			end
-		end
-
-		slot5:Start()
+function slot0.ClearLoadedRequests(slot0)
+	for slot4 in pairs(slot0._returnRequest) do
+		slot0:ClearRequest(slot4)
 	end
 
 	table.clear(slot0._returnRequest)
+end
+
+function slot0.ClearRequests(slot0)
+	slot0:ClearLoadingRequests()
+	slot0:ClearLoadedRequests()
 	table.clear(slot0._instKeyDict)
 	table.clear(slot0._keyInstDict)
 end

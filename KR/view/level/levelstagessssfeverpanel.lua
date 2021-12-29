@@ -77,7 +77,7 @@ function slot0.OnInit(slot0)
 		end
 	end
 
-	slot0.loader = ThirdAnniversaryAutoloader.New()
+	slot0.loader = AutoLoader.New()
 	slot0.animations = AsyncExcutionRequestPackage.New({})
 	slot0.PanelAnimations = AsyncExcutionRequestPackage.New({})
 	slot0.cleanActions = {}
@@ -158,7 +158,7 @@ function slot0.UpdateKaijuBar(slot0, slot1)
 		setText(uv2, string.format("%02d%%", math.floor(uv1 * 100)))
 
 		if uv1 >= 1 then
-			uv3.loader:GetSprite("ui/LevelStageSSSSFeverPanel_atlas", "icon_" .. uv4, uv3.barGroup1.iconImg, true)
+			uv3.loader:GetSpriteQuiet("ui/LevelStageSSSSFeverPanel_atlas", "icon_" .. uv4, uv3.barGroup1.iconImg, true)
 		end
 
 		slot0()
@@ -202,7 +202,7 @@ function slot0.UpdateSyberSquadBar(slot0, slot1)
 		setText(uv2, string.format("%02d%%", math.floor(uv1 * 100)))
 
 		if uv1 >= 1 then
-			uv3.loader:GetSprite("ui/LevelStageSSSSFeverPanel_atlas", "icon_" .. uv4, uv3.barGroup2.iconImg, true)
+			uv3.loader:GetSpriteQuiet("ui/LevelStageSSSSFeverPanel_atlas", "icon_" .. uv4, uv3.barGroup2.iconImg, true)
 		end
 
 		slot0()
@@ -224,7 +224,7 @@ function slot0.ShowPanel(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.banner:Find(slot2)
 	slot6 = slot5:Find("Character")
 
-	slot0.loader:GetSprite("ui/LevelStageSSSSFeverPanel_atlas", slot1, slot6, true)
+	slot0.loader:GetSpriteQuiet("ui/LevelStageSSSSFeverPanel_atlas", slot1, slot6, true)
 	setActive(slot0.banner, true)
 	setActive(slot5, true)
 

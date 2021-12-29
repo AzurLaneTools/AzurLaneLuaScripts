@@ -815,5 +815,14 @@ pg.activity_const = {
 	},
 	SSSS_PT = {
 		act_id = 20910
+	},
+	MINIGAME_CURLING = {
+		act_id = 20930
+	},
+	MINIGAME_FIREWORK_2022 = {
+		act_id = 20938
+	},
+	BUILDING_NEWYEAR_2022 = {
+		act_id = 20936
 	}
 }

@@ -617,10 +617,6 @@ function slot0.didEnter(slot0)
 
 	for slot12, slot13 in ipairs(getProxy(ContextProxy):getContextByMediator(LevelMediator2).children) do
 		slot0.levelCamIndices = slot0.levelCamIndices + 1
-
-		function slot13.onRemoved()
-			uv0:onSubLayerClose()
-		end
 	end
 
 	slot0:emit(LevelMediator2.ON_EVENT_LIST_UPDATE)
@@ -3124,43 +3120,6 @@ function slot0.easeAvoid(slot0, slot1, slot2)
 			uv1()
 		end
 	end))
-end
-
-function slot0.onSubLayerOpen(slot0)
-	setActive(slot0.topPanel, false)
-	slot0:disableLevelCamera()
-
-	slot0.visibilityForPreCombat = {
-		leftChapter = isActive(slot0.leftChapter),
-		rightChapter = isActive(slot0.rightChapter),
-		clouds = isActive(slot0.clouds)
-	}
-
-	for slot4, slot5 in pairs(slot0.visibilityForPreCombat) do
-		setActive(slot0[slot4], false)
-	end
-
-	slot0.isSubLayerOpen = true
-end
-
-function slot0.onSubLayerClose(slot0)
-	if not slot0.exited then
-		slot0:enableLevelCamera()
-
-		if #getProxy(ContextProxy):getContextByMediator(LevelMediator2).children == 0 then
-			setActive(slot0.topPanel, true)
-
-			if slot0.visibilityForPreCombat then
-				for slot6, slot7 in pairs(slot0.visibilityForPreCombat) do
-					setActive(slot0[slot6], slot7)
-				end
-
-				slot0.visibilityForPreCombat = nil
-			end
-		end
-	end
-
-	slot0.isSubLayerOpen = nil
 end
 
 function slot0.resetLevelGrid(slot0)
