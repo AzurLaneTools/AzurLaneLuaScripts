@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "东煌所属，导弹驱逐舰鞍山，弦号101，旁边的是我的妹妹，同样东煌所属，导弹驱逐舰长春，弦号103。",
+			say = "东煌所属，导弹驱逐舰鞍山，舷号101，旁边的是我的妹妹，同样东煌所属，导弹驱逐舰长春，舷号103。",
 			flashout = {
 				black = true,
 				dur = 1,

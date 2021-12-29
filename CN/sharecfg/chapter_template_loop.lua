@@ -254097,7 +254097,7 @@ pg.chapter_template_loop = {
 				5,
 				0,
 				true,
-				8
+				0
 			},
 			{
 				4,
@@ -254151,7 +254151,7 @@ pg.chapter_template_loop = {
 				4,
 				0,
 				true,
-				8
+				0
 			},
 			{
 				3,
@@ -254205,7 +254205,7 @@ pg.chapter_template_loop = {
 				3,
 				0,
 				true,
-				6
+				0
 			},
 			{
 				2,
@@ -254259,7 +254259,7 @@ pg.chapter_template_loop = {
 				2,
 				0,
 				true,
-				0
+				6
 			},
 			{
 				1,
@@ -258013,7 +258013,7 @@ pg.chapter_template_loop = {
 				5,
 				0,
 				true,
-				8
+				0
 			},
 			{
 				4,
@@ -258067,7 +258067,7 @@ pg.chapter_template_loop = {
 				4,
 				0,
 				true,
-				8
+				0
 			},
 			{
 				3,
@@ -258121,7 +258121,7 @@ pg.chapter_template_loop = {
 				3,
 				0,
 				true,
-				6
+				0
 			},
 			{
 				2,
@@ -258175,7 +258175,7 @@ pg.chapter_template_loop = {
 				2,
 				0,
 				true,
-				0
+				6
 			},
 			{
 				1,

@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉赛",
+			actorName = "彼得·史特拉塞",
 			say = "舰队已与「米德加尔特之塔」的组件一同秘密抵达指定位置。",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉赛",
+			actorName = "彼得·史特拉塞",
 			say = "幻光系统运作正常，附近没有发现任何敌人，海况平静，适合作业。",
 			typewriter = {
 				speed = 0.05,
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉赛",
+			actorName = "彼得·史特拉塞",
 			say = "计划随时可以开始，等候您的指令。",
 			typewriter = {
 				speed = 0.05,
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉赛",
+			actorName = "彼得·史特拉塞",
 			say = "遵命，彼得·史特拉塞通讯结束。",
 			typewriter = {
 				speed = 0.05,

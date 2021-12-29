@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "史特拉赛阁下，现在情况如何？",
+			say = "史特拉塞阁下，现在情况如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "辛苦了，史特塞拉阁下。",
+			say = "辛苦了，史特拉塞阁下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "检查完成。量产型舰队的规模最为护卫来说也算可堪一用。",
+			say = "检查完成。量产型舰队的规模作为护卫来说也算可堪一用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

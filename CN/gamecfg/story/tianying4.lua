@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "在听了和天鹰多少有些渊源的史特塞拉的建议后，我将视线重新挪回了演习海域。",
+			say = "在听了和天鹰多少有些渊源的史特拉塞的建议后，我将视线重新挪回了演习海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

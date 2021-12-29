@@ -872,7 +872,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 60,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "ship_battle_exp",
 		desc = "鹤的祈愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
 		benefit_condition = {
 			"activity",
@@ -887,7 +887,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 61,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "dorm_exp",
 		desc = "恶毒的祈愿——后宅经验加成提高3%\n剩余时间:$1",
 		benefit_condition = {
 			"activity",
@@ -902,7 +902,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 62,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "dorm_exp",
 		desc = "胜利的祈愿——后宅经验加成提高3%\n剩余时间:$1",
 		benefit_condition = {
 			"activity",
@@ -947,7 +947,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 65,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "ship_battle_exp",
 		desc = "埃塞克斯的祈愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
 		benefit_condition = {
 			"activity",

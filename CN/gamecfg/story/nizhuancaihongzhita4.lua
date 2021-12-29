@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "正当铁血众人铁就餐时，突然感受到了一阵有规律的震动。",
+			say = "正当铁血众人就餐时，突然感受到了一阵有规律的震动。",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406010,
-			say = "史特拉赛，这里是正在执行侦察任务的威悉。",
+			say = "史特拉塞，这里是正在执行侦察任务的威悉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

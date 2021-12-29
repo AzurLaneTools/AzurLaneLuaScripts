@@ -216,7 +216,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欢迎各位的到来，我是此处的负责人，也是铁血第二舰队旗舰彼得·史特拉赛。",
+			say = "欢迎各位的到来，我是此处的负责人，也是铁血第二舰队旗舰彼得·史特拉塞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "请不用在意，史特塞拉阁下。本来作为客人，应该由我主动打招呼才对。",
+			say = "请不用在意，史特拉塞阁下。本来作为客人，应该由我主动打招呼才对。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "很好。史特拉赛阁下，在米德加尔特之塔启动之后，幻光系统的伪装功能还能正常生效么？",
+			say = "很好。史特拉塞阁下，在米德加尔特之塔启动之后，幻光系统的伪装功能还能正常生效么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "史特拉赛阁下，请给出汇合点，之后的事我们去会议室里详谈吧。",
+			say = "史特拉塞阁下，请给出汇合点，之后的事我们去会议室里详谈吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
