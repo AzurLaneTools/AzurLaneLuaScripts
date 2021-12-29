@@ -17534,16 +17534,16 @@ cs.gametip = {
 	},
 	backhill_notenoughbuilding = {
 		598012,
-		200,
+		175,
 		true
 	},
 	help_xinnian2022_z28 = {
-		598212,
+		598187,
 		757,
 		true
 	},
 	help_xinnian2022_firework = {
-		598969,
+		598944,
 		1147,
 		true
 	}

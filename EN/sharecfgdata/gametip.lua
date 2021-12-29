@@ -19275,7 +19275,7 @@ In addition to providing buffs, hanging up Ema will also grant you 1 Origami Cra
 }
 
 _G.pg.gametip.backhill_notenoughbuilding = {
-	tip = "You don't have enough Shop Upgrade Permits. Complete <color=#92fc63>Tonic and Tea</color> event missions to earn more."
+	tip = "Earn more Upgrade Permits by completing  <color=#92fc63>Tonic and Tea</color> event missions."
 }
 
 _G.pg.gametip.help_xinnian2022_z28 = {
