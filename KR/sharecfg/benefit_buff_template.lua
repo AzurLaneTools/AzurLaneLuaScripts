@@ -872,7 +872,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 60,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "ship_battle_exp",
 		desc = "즈이카쿠의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
 		benefit_condition = {
 			"activity",
@@ -887,7 +887,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 61,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "dorm_exp",
 		desc = "르 말랭의 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
 		benefit_condition = {
 			"activity",
@@ -902,7 +902,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 62,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "dorm_exp",
 		desc = "빅토리어스의 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
 		benefit_condition = {
 			"activity",
@@ -947,7 +947,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 65,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "ship_battle_exp",
 		desc = "에식스의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
 		benefit_condition = {
 			"activity",

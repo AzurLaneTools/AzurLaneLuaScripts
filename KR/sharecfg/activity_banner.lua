@@ -309,7 +309,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "镜饼|要开了才能吃哦？<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		param = "가가미모치|포장을 풀고 먹어야 해요.<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		id = 10,
 		pic = "jingbing",
 		type = 10,

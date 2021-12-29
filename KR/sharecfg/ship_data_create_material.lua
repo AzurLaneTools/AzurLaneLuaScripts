@@ -216,21 +216,19 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_ship_id = 405031,
 		rate_tip = {
-			"<color=#ff5e39>UR 함선</color>: 1.2%",
-			"<color=#ffde38>SSR 함선</color>: 7%",
-			"<color=#d797ff>SR 함선</color>: 12%",
-			"<color=#3dc6ff>R 함선</color>: 51%",
+			"<color=#ff5e39>UR 함선</color>：1.2%",
+			"<color=#ffde38>SSR 함선</color>：7%",
+			"<color=#d797ff>SR 함선</color>：12%",
+			"<color=#3dc6ff>R 함선</color>：51%",
 			"N 함선: 28.8%",
 			" ",
-			"<color=#ff5e39>{namecode:18}</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>울리히 폰 후텐</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:208}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>프린츠 아달베르트</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:62}</color>：0.5%",
+			"<color=#ffde38>마그데부르크</color>：0.5%",
 			" ",
-			"<color=#d797ff>{namecode:206}</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>{namecode:150}</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>엘베</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	all = {
