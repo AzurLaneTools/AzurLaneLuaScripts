@@ -306,8 +306,6 @@ function slot0.doSubState(slot0)
 end
 
 function slot0.doCollectAI(slot0)
-	slot2 = slot0.flag
-	slot3 = slot0.chapter
 	slot0.aiActs = slot0.aiActs or {}
 
 	if slot0.data.submarine_act_list then
@@ -323,7 +321,11 @@ function slot0.doCollectAI(slot0)
 	end
 
 	_.each(slot1.ai_act_list, function (slot0)
-		table.insert(uv0.aiActs, ChapterAIAction.New(slot0))
+		if slot0.act_type == ChapterConst.ActType_TargetDown then
+			table.insert(uv0.aiActs, ChapterMissileExplodeAction.New(slot0))
+		else
+			table.insert(uv0.aiActs, ChapterAIAction.New(slot0))
+		end
 	end)
 	_.each(slot1.fleet_act_list, function (slot0)
 		table.insert(uv0.aiActs, FleetAIAction.New(slot0))

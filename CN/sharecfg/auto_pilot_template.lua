@@ -7768,6 +7768,137 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70156] = {
+		id = 70156,
+		name = "代行者VI「Combination」 僚机转圈圈",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 25,
+					antiClockWise = false,
+					duration = 119,
+					x = -50
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 300
+				}
+			}
+		}
+	},
+	[70157] = {
+		id = 70157,
+		name = "代行者VI「Combination」 小型一次性僚机",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 6
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 2,
+				param = {
+					x = -200,
+					z = 0
+				}
+			}
+		}
+	},
+	[70158] = {
+		id = 70158,
+		name = "回中心点偏上位置",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -5,
+					z = 65
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70159] = {
+		id = 70159,
+		name = "德系V4 EX归位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -5,
+					z = 70
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70160] = {
+		id = 70160,
+		name = "德系V4 EX归位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -5,
+					z = 40
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

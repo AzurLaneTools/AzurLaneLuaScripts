@@ -28,7 +28,8 @@ function slot0.init(slot0)
 	slot0.weaknesstext = slot0.layer:Find("text")
 	slot0.weaknessbg = slot0.layer:Find("boss_ruodian")
 	slot0.downBG = slot0.layer:Find("BlurBG")
-	slot0.buffListAnimator = slot0.layer:Find("BuffList"):GetComponent(typeof(Animator))
+	slot0.buffListTF = slot0.layer:Find("BuffList")
+	slot0.buffListAnimator = slot0.buffListTF:GetComponent(typeof(Animator))
 	slot0.AdditionBuffTF = slot0.layer:Find("BuffList/tezhuangmokuai")
 	slot0.AdditionBuffContainer = slot0.AdditionBuffTF:Find("buff")
 	slot0.EquipmentBuffTF = slot0.layer:Find("BuffList/wuzhuangjiexi")
@@ -344,71 +345,77 @@ function slot0.updateStageView(slot0)
 			end
 		end)
 	end)()
+	Canvas.ForceUpdateCanvases()
+
+	slot17 = slot0.buffListTF.sizeDelta
+	slot17.y = math.max(slot0.AdditionBuffTF.rect.height, slot0.EquipmentBuffTF.rect.height) + 50
+	slot0.buffListTF.sizeDelta = slot17
+
 	slot0:UpdateHpbar()
 
-	slot14 = ys.Battle.BattleFormulas
-	slot15 = nowWorld()
-	slot16 = slot15:GetWorldMapDifficultyBuffLevel()
-	slot17 = {
-		slot16[1] * (1 + slot5.expedition_sairenvalueA / 10000),
-		slot16[2] * (1 + slot5.expedition_sairenvalueB / 10000),
-		slot16[3] * (1 + slot5.expedition_sairenvalueC / 10000)
+	slot18 = ys.Battle.BattleFormulas
+	slot19 = nowWorld()
+	slot20 = slot19:GetWorldMapDifficultyBuffLevel()
+	slot21 = {
+		slot20[1] * (1 + slot5.expedition_sairenvalueA / 10000),
+		slot20[2] * (1 + slot5.expedition_sairenvalueB / 10000),
+		slot20[3] * (1 + slot5.expedition_sairenvalueC / 10000)
 	}
-	slot18 = slot15:GetWorldMapBuffLevel()
-	slot19, slot20, slot21 = slot14.WorldMapRewardAttrEnhance(slot17, slot18)
-	slot23 = {
-		slot19,
-		slot20,
-		1 - slot14.WorldMapRewardHealingRate(slot17, slot18)
+	slot22 = slot19:GetWorldMapBuffLevel()
+	slot23, slot24, slot25 = slot18.WorldMapRewardAttrEnhance(slot21, slot22)
+	slot27 = {
+		slot23,
+		slot24,
+		1 - slot18.WorldMapRewardHealingRate(slot21, slot22)
 	}
 
-	for slot27 = 1, #slot0.attributes do
-		setText(slot0.attributes[slot27]:Find("digit"), string.format("%d", slot17[slot27]))
-		setText(slot28:Find("desc"), i18n("world_mapbuff_attrtxt_" .. slot27) .. string.format(" %d%%", (slot27 == 3 and 1 - slot23[slot27] or slot23[slot27] + 1) * 100))
+	for slot31 = 1, #slot0.attributes do
+		setText(slot0.attributes[slot31]:Find("digit"), string.format("%d", slot21[slot31]))
+		setText(slot32:Find("desc"), i18n("world_mapbuff_attrtxt_" .. slot31) .. string.format(" %d%%", (slot31 == 3 and 1 - slot27[slot31] or slot27[slot31] + 1) * 100))
 
-		slot30 = GetOrAddComponent(slot28, typeof(UILongPressTrigger))
+		slot34 = GetOrAddComponent(slot32, typeof(UILongPressTrigger))
 
-		slot30.onPressed:RemoveAllListeners()
-		slot30.onReleased:RemoveAllListeners()
+		slot34.onPressed:RemoveAllListeners()
+		slot34.onReleased:RemoveAllListeners()
 
-		slot31, slot32 = nil
+		slot35, slot36 = nil
 
-		slot30.onPressed:AddListener(function ()
+		slot34.onPressed:AddListener(function ()
 			uv0 = go(uv1:Find("extra")).activeSelf
 
 			setActive(uv1:Find("extra"), true)
 
 			uv2 = Time.realtimeSinceStartup
 		end)
-		slot30.onReleased:AddListener(function ()
+		slot34.onReleased:AddListener(function ()
 			if not uv0 or Time.realtimeSinceStartup - uv0 < 0.3 then
 				setActive(uv1:Find("extra"), not uv2)
 			else
 				setActive(uv1:Find("extra"), false)
 			end
 		end)
-		setText(slot28:Find("extra/enemy"), slot17[slot27])
-		setText(slot28:Find("extra/ally"), slot18[slot27])
-		setText(slot28:Find("extra/result"), string.format("%d%%", slot23[slot27] * 100))
-		setTextColor(slot28:Find("extra/result"), slot23[slot27] > 0 and slot0.TransformColor(uv2) or slot0.TransformColor(uv3))
-		setText(slot28:Find("extra/result/arrow"), slot23[slot27] == 0 and "" or slot23[slot27] > 0 and "↑" or "↓")
+		setText(slot32:Find("extra/enemy"), slot21[slot31])
+		setText(slot32:Find("extra/ally"), slot22[slot31])
+		setText(slot32:Find("extra/result"), string.format("%d%%", slot27[slot31] * 100))
+		setTextColor(slot32:Find("extra/result"), slot27[slot31] > 0 and slot0.TransformColor(uv2) or slot0.TransformColor(uv3))
+		setText(slot32:Find("extra/result/arrow"), slot27[slot31] == 0 and "" or slot27[slot31] > 0 and "↑" or "↓")
 
-		if slot23[slot27] ~= 0 then
-			setTextColor(slot28:Find("extra/result/arrow"), slot23[slot27] > 0 and slot0.TransformColor(uv2) or slot0.TransformColor(uv3))
+		if slot27[slot31] ~= 0 then
+			setTextColor(slot32:Find("extra/result/arrow"), slot27[slot31] > 0 and slot0.TransformColor(uv2) or slot0.TransformColor(uv3))
 		end
 
-		slot33 = slot28:Find("extra/allybar")
-		slot34 = slot28:Find("extra/enemybar")
-		slot35 = math.clamp(1 + slot23[slot27], 0.75, 3)
-		slot36 = slot28:Find("extra").rect.width
-		slot34.sizeDelta = Vector2(slot35 * slot36 / (slot35 + 1) + uv4 * 0.5, slot34.sizeDelta.y)
-		slot33.sizeDelta = Vector2(1 * slot36 / (slot35 + 1) + uv4 * 0.5, slot33.sizeDelta.y)
+		slot37 = slot32:Find("extra/allybar")
+		slot38 = slot32:Find("extra/enemybar")
+		slot39 = math.clamp(1 + slot27[slot31], 0.75, 3)
+		slot40 = slot32:Find("extra").rect.width
+		slot38.sizeDelta = Vector2(slot39 * slot40 / (slot39 + 1) + uv4 * 0.5, slot38.sizeDelta.y)
+		slot37.sizeDelta = Vector2(1 * slot40 / (slot39 + 1) + uv4 * 0.5, slot37.sizeDelta.y)
 	end
 
-	slot25 = slot5.battle_character and #slot25 > 0 and slot25 or "world_boss_0"
+	slot29 = slot5.battle_character and #slot29 > 0 and slot29 or "world_boss_0"
 	slot0.bg:GetComponent(typeof(Image)).enabled = true
 
-	setImageSprite(slot0.bg, GetSpriteFromAtlas("commonbg/" .. slot25, slot25))
+	setImageSprite(slot0.bg, GetSpriteFromAtlas("commonbg/" .. slot29, slot29))
 	(function ()
 		uv1.bossnameText.text = uv0.name
 		slot1 = false
@@ -432,25 +439,25 @@ function slot0.updateStageView(slot0)
 		setText(uv1.bossArmorText, ArmorType.Type2Name(slot3.armor_type))
 	end)()
 
-	slot27 = ys.Battle.BattleAttr.IsWorldMapRewardAttrWarning(slot17, slot18)
+	slot31 = ys.Battle.BattleAttr.IsWorldMapRewardAttrWarning(slot21, slot22)
 
-	setActive(slot0.dangerMark, slot27)
+	setActive(slot0.dangerMark, slot31)
 
-	if slot27 then
+	if slot31 then
 		setAnchoredPosition(slot0.dangerMark, {
-			x = slot24 and uv5 or uv6
+			x = slot28 and uv5 or uv6
 		})
 	end
 
-	if not slot24 then
+	if not slot28 then
 		if slot4.icon_type == 1 then
 			slot0.loader:GetSprite("enemies/" .. slot4.icon, nil, slot0.bosssprite)
-		elseif slot28 == 2 then
-			slot29 = slot0.bosssprite
-			slot29:GetComponent(typeof(Image)).enabled = false
-			slot29 = slot0.loader
+		elseif slot32 == 2 then
+			slot33 = slot0.bosssprite
+			slot33:GetComponent(typeof(Image)).enabled = false
+			slot33 = slot0.loader
 
-			slot29:GetSpine(slot4.icon, function (slot0)
+			slot33:GetSpine(slot4.icon, function (slot0)
 				slot1 = uv0.battle_spine_size * 0.01
 				slot0.transform.localScale = Vector3(slot1, slot1, 1)
 				slot0.transform.anchoredPosition = Vector3.New(0, -150, 0)

@@ -120,7 +120,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		benefit_condition = "",
 		desc = "主线、困难、作战档案关卡中，我方战斗内造成的伤害略微提高\n剩余时间:$1",
-		benefit_effect = "504",
+		benefit_effect = "522",
 		id = 11,
 		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
@@ -700,6 +700,261 @@ pg.benefit_buff_template = {
 		icon = "Props/xinshou",
 		benefit_type = "chapter_up"
 	},
+	{
+		benefit_effect = "510",
+		name = "皇家午茶Lv.1",
+		hide = 0,
+		max_time = 0,
+		id = 49,
+		icon = "Props/yanchangli1",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，受到的伤害减少1%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "512",
+		name = "皇家午茶Lv.2",
+		hide = 0,
+		max_time = 0,
+		id = 50,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，受到的伤害减少2%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "514",
+		name = "皇家午茶Lv.3",
+		hide = 0,
+		max_time = 0,
+		id = 51,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，受到的伤害减少3%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "516",
+		name = "皇家午茶Lv.4",
+		hide = 0,
+		max_time = 0,
+		id = 52,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，受到的伤害减少4%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "518",
+		name = "皇家午茶Lv.5",
+		hide = 0,
+		max_time = 0,
+		id = 53,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，受到的伤害减少5%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "500",
+		name = "莱茵咖啡馆Lv.1",
+		hide = 0,
+		max_time = 0,
+		id = 54,
+		icon = "Props/wudaoli1",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "502",
+		name = "莱茵咖啡馆Lv.2",
+		hide = 0,
+		max_time = 0,
+		id = 55,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "504",
+		name = "莱茵咖啡馆Lv.3",
+		hide = 0,
+		max_time = 0,
+		id = 56,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "506",
+		name = "莱茵咖啡馆Lv.4",
+		hide = 0,
+		max_time = 0,
+		id = 57,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高4%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "508",
+		name = "莱茵咖啡馆Lv.5",
+		hide = 0,
+		max_time = 0,
+		id = 58,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高5%",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "鹬的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 59,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "鹬的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "鹤的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 60,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "鹤的祈愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "恶毒的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 61,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "恶毒的祈愿——后宅经验加成提高3%\n剩余时间:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "胜利的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 62,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "胜利的祈愿——后宅经验加成提高3%\n剩余时间:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "提尔比茨的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 63,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "提尔比茨的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "光辉的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 64,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "光辉的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "埃塞克斯的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 65,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "埃塞克斯的祈愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -748,6 +1003,23 @@ pg.benefit_buff_template = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65
 	}
 }

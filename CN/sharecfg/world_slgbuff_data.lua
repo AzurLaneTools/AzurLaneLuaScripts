@@ -2480,6 +2480,30 @@ pg.world_SLGbuff_data = {
 		trap_parameter = {},
 		delete_traptype = {}
 	},
+	[4000] = {
+		buff_type = 2,
+		name = "分离式作战模块",
+		id = 4000,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "仲裁者·天帕岚斯·XIV在战斗中会召唤一个特殊的机械水母型作战单位。\n特殊单位在场时，天帕岚斯造成伤害提高15%，受到伤害降低10%。\n特殊单位被击破后，天帕岚斯受到伤害提高10%。",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5000",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
 	all = {
 		1,
 		2,
@@ -2576,6 +2600,7 @@ pg.world_SLGbuff_data = {
 		2420,
 		2500,
 		2510,
-		2520
+		2520,
+		4000
 	}
 }

@@ -256,7 +256,9 @@ _G.pg.world_event_data[101] = {
 	grid = {
 		{
 			3,
-			4
+			16,
+			3,
+			16
 		}
 	},
 	slg_bufflist = {},
@@ -1119,9 +1121,9 @@ _G.pg.world_event_data[135] = {
 	},
 	grid = {
 		{
-			9,
+			15,
 			13,
-			9,
+			15,
 			13
 		}
 	},
@@ -1826,10 +1828,10 @@ _G.pg.world_event_data[175] = {
 	},
 	grid = {
 		{
-			8,
-			6,
-			8,
-			6
+			5,
+			9,
+			5,
+			9
 		}
 	},
 	slg_bufflist = {
@@ -1893,10 +1895,10 @@ _G.pg.world_event_data[176] = {
 	},
 	grid = {
 		{
+			7,
 			9,
-			6,
-			9,
-			6
+			7,
+			9
 		}
 	},
 	slg_bufflist = {
@@ -1961,10 +1963,10 @@ _G.pg.world_event_data[177] = {
 	},
 	grid = {
 		{
-			10,
-			6,
-			10,
-			6
+			9,
+			9,
+			9,
+			9
 		}
 	},
 	slg_bufflist = {
@@ -2029,9 +2031,9 @@ _G.pg.world_event_data[178] = {
 	grid = {
 		{
 			11,
-			6,
+			9,
 			11,
-			6
+			9
 		}
 	},
 	slg_bufflist = {
@@ -2096,10 +2098,10 @@ _G.pg.world_event_data[179] = {
 	},
 	grid = {
 		{
-			12,
-			6,
-			12,
-			6
+			13,
+			9,
+			13,
+			9
 		}
 	},
 	slg_bufflist = {
@@ -2158,10 +2160,10 @@ _G.pg.world_event_data[180] = {
 	},
 	grid = {
 		{
-			10,
-			1,
-			10,
-			1
+			7,
+			2,
+			7,
+			2
 		}
 	},
 	slg_bufflist = {
@@ -2212,10 +2214,10 @@ _G.pg.world_event_data[181] = {
 	},
 	grid = {
 		{
-			10,
-			3,
-			10,
-			3
+			7,
+			6,
+			7,
+			6
 		}
 	},
 	slg_bufflist = {
@@ -2223,10 +2225,10 @@ _G.pg.world_event_data[181] = {
 			1310
 		},
 		{
-			1450
+			1470
 		},
 		{
-			1510
+			1500
 		}
 	},
 	slg_buffnum = {
@@ -2266,21 +2268,21 @@ _G.pg.world_event_data[182] = {
 	},
 	grid = {
 		{
-			10,
-			5,
-			10,
-			5
+			7,
+			4,
+			7,
+			4
 		}
 	},
 	slg_bufflist = {
 		{
-			1300
+			1410
 		},
 		{
 			1470
 		},
 		{
-			1510
+			1500
 		}
 	},
 	slg_buffnum = {
@@ -2320,21 +2322,21 @@ _G.pg.world_event_data[183] = {
 	},
 	grid = {
 		{
-			15,
-			1,
-			15,
-			1
+			10,
+			2,
+			10,
+			2
 		}
 	},
 	slg_bufflist = {
 		{
-			1410
+			1320
+		},
+		{
+			1420
 		},
 		{
 			1470
-		},
-		{
-			1450
 		}
 	},
 	slg_buffnum = {
@@ -2374,10 +2376,10 @@ _G.pg.world_event_data[184] = {
 	},
 	grid = {
 		{
-			15,
-			3,
-			15,
-			3
+			10,
+			6,
+			10,
+			6
 		}
 	},
 	slg_bufflist = {
@@ -2428,10 +2430,10 @@ _G.pg.world_event_data[185] = {
 	},
 	grid = {
 		{
-			15,
-			5,
-			15,
-			5
+			10,
+			4,
+			10,
+			4
 		}
 	},
 	slg_bufflist = {
@@ -2443,6 +2445,114 @@ _G.pg.world_event_data[185] = {
 		},
 		{
 			1450
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[190] = {
+	auto_pri = 0,
+	discover_type = 2,
+	special_enemy = 0,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	visuality = 0,
+	is_guide = 0,
+	enemyicon = 2,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	id = 190,
+	icon = "sairenboss5",
+	scale = 42,
+	infection_value = 0,
+	object_icon = {
+		"cell_black",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1315040
+	},
+	grid = {
+		{
+			13,
+			1,
+			13,
+			1
+		}
+	},
+	slg_bufflist = {
+		{
+			1320
+		},
+		{
+			1420
+		},
+		{
+			1510
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[191] = {
+	auto_pri = 0,
+	discover_type = 2,
+	special_enemy = 0,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	visuality = 0,
+	is_guide = 0,
+	enemyicon = 2,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	id = 191,
+	icon = "sairenboss5",
+	scale = 42,
+	infection_value = 0,
+	object_icon = {
+		"cell_purple",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1315041
+	},
+	grid = {
+		{
+			13,
+			2,
+			13,
+			2
+		}
+	},
+	slg_bufflist = {
+		{
+			1320
+		},
+		{
+			1420
+		},
+		{
+			1470
 		}
 	},
 	slg_buffnum = {
@@ -155439,6 +155549,68 @@ _G.pg.world_event_data[7032011] = {
 	deviation = {}
 }
 
+_G.pg.world_event_data[7032015] = {
+	visuality = 0,
+	compass_index = 0,
+	base = 7031003,
+	enemyicon = 2,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = 5,
+	icon = "sairenboss5",
+	special_enemy = 3,
+	infection_value = 100,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 7032015,
+	scale = 42,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {
+		70320110,
+		70320001
+	},
+	effect = {
+		70312200,
+		1315017,
+		70300016,
+		70313000,
+		70313001,
+		999
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1320
+		},
+		{
+			1420
+		},
+		{
+			1510
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {}
+}
+
 _G.pg.world_event_data[7032020] = {
 	visuality = 0,
 	compass_index = 0,
@@ -156018,10 +156190,10 @@ _G.pg.world_event_data[7032029] = {
 			1410
 		},
 		{
-			1470
+			1450
 		},
 		{
-			1450
+			1460
 		}
 	},
 	slg_buffnum = {
@@ -156112,6 +156284,65 @@ _G.pg.world_event_data[7032031] = {
 	scale = 42,
 	object_icon = {
 		"cell_purple",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70312200,
+		1315027,
+		70300017,
+		70313010,
+		70313011,
+		999
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1320
+		},
+		{
+			1420
+		},
+		{
+			1470
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[7032035] = {
+	visuality = 0,
+	compass_index = 0,
+	base = 7031003,
+	enemyicon = 2,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = 5,
+	icon = "sairenboss5",
+	special_enemy = 3,
+	infection_value = 100,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 7032035,
+	scale = 42,
+	object_icon = {
+		"cell_red",
 		1,
 		100,
 		0
@@ -156706,10 +156937,10 @@ _G.pg.world_event_data[7032049] = {
 			1410
 		},
 		{
-			1470
+			1450
 		},
 		{
-			1450
+			1460
 		}
 	},
 	slg_buffnum = {
@@ -156798,6 +157029,63 @@ _G.pg.world_event_data[7032051] = {
 	scale = 42,
 	object_icon = {
 		"cell_black",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1315035,
+		70313020,
+		70313021,
+		999
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1320
+		},
+		{
+			1420
+		},
+		{
+			1470
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[7032055] = {
+	visuality = 0,
+	compass_index = 0,
+	base = 7031003,
+	enemyicon = 2,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = 5,
+	icon = "sairenboss5",
+	special_enemy = 3,
+	infection_value = 100,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 7032055,
+	scale = 42,
+	object_icon = {
+		"cell_red",
 		1,
 		100,
 		0

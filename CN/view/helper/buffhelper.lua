@@ -103,16 +103,33 @@ function slot0.GetBuffsForMainUI()
 		end
 	end
 
-	slot6 = getProxy(MiniGameProxy):GetMiniGameData(MiniGameDataCreator.NewYearShrineGameID):getConfig("config_data")[2]
-	slot7 = nil
+	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_3) then
+		slot5 = slot3:getConfig("config_data")[2]
+		slot6 = nil
 
-	for slot11, slot12 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
-		if table.indexof(slot6, slot12.id, 1) then
-			if pg.TimeMgr.GetInstance():GetServerTime() < slot12.timestamp and ActivityBuff.New(slot3, slot12.id, slot12.timestamp):checkShow() then
-				table.insert(slot1, slot15)
+		for slot10, slot11 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
+			if table.indexof(slot5, slot11.id, 1) then
+				if pg.TimeMgr.GetInstance():GetServerTime() < slot11.timestamp and ActivityBuff.New(slot3.id, slot11.id, slot11.timestamp):checkShow() then
+					table.insert(slot1, slot14)
+				end
+
+				break
 			end
+		end
+	end
 
-			break
+	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_5) then
+		slot6 = slot4:getConfig("config_data")[2]
+		slot7 = nil
+
+		for slot11, slot12 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
+			if table.indexof(slot6, slot12.id, 1) then
+				if pg.TimeMgr.GetInstance():GetServerTime() < slot12.timestamp and ActivityBuff.New(slot4.id, slot12.id, slot12.timestamp):checkShow() then
+					table.insert(slot1, slot15)
+				end
+
+				break
+			end
 		end
 	end
 

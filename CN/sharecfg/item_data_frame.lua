@@ -300,10 +300,10 @@ pg.item_data_frame = {
 	[317] = {
 		time_limit_type = 0,
 		name = "逆转之虹",
-		gain_by = "",
+		gain_by = "逆转彩虹之塔",
 		id = 317,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「向上为神国，向下为冥府。穿越逆转之虹，向着未知进发吧」</color>\n「逆转彩虹之塔」活动获取",
 		scene = {}
 	},
 	[401] = {

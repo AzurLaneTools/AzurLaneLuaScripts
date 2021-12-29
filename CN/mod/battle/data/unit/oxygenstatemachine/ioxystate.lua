@@ -11,6 +11,9 @@ function slot1.GetWeaponUseableList(slot0)
 	return nil
 end
 
+function slot1.UpdateCldData(slot0, slot1, slot2)
+end
+
 function slot1.GetDiveState(slot0)
 	return nil
 end

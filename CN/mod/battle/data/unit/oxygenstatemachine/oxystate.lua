@@ -99,8 +99,8 @@ end
 
 function slot3.OnDiveState(slot0)
 	slot0._currentState = slot0._diveState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetCrash(false)
 	slot0._target:SetAI(uv0.SUB_DEFAULT_ENGAGE_AI)
@@ -117,8 +117,8 @@ end
 
 function slot3.OnFloatState(slot0)
 	slot0._currentState = slot0._floatState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetDiveInvisible(false)
 	slot0._target:StateChange(uv0.Battle.UnitState.STATE_MOVE)
@@ -131,8 +131,8 @@ end
 
 function slot3.OnRaidState(slot0)
 	slot0._currentState = slot0._raidState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:ChangeWeaponDiveState()
 
 	if slot0._currentState:UpdateDive() then
@@ -147,8 +147,8 @@ end
 
 function slot3.OnRetreatState(slot0)
 	slot0._currentState = slot0._retreatState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetDiveInvisible(false)
 	slot0._target:SetAI(uv0.SUB_DEFAULT_RETREAT_AI)
@@ -159,8 +159,8 @@ end
 
 function slot3.OnFreeDiveState(slot0)
 	slot0._currentState = slot0._freeDiveState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetCrash(false)
 	slot0._target:SetDiveInvisible(true)
@@ -173,8 +173,8 @@ end
 
 function slot3.OnFreeFloatState(slot0)
 	slot0._currentState = slot0._freeFloatState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetDiveInvisible(false)
 	slot0._target:StateChange(uv0.Battle.UnitState.STATE_MOVE)
@@ -186,8 +186,8 @@ end
 
 function slot3.OnFreeBenchState(slot0)
 	slot0._currentState = slot0._freeBenchState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetDiveInvisible(false)
 	slot0._target:StateChange(uv0.Battle.UnitState.STATE_MOVE)
@@ -198,8 +198,8 @@ end
 
 function slot3.OnDeepMineState(slot0)
 	slot0._currentState = slot0._deepMineState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
+	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
 	slot0._target:SetDiveInvisible(false)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetAI(20005)

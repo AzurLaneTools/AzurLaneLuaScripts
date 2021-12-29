@@ -334,8 +334,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "古立特联动PT",
-		key_value = 227
+		description = "德系V4PT",
+		key_value = 232
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1639,7 +1639,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 228
+		key_value = 231
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2114,7 +2114,7 @@ pg.gameset = {
 				},
 				{
 					2,
-					52003,
+					52033,
 					2
 				}
 			}

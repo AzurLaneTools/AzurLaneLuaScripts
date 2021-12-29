@@ -232,18 +232,18 @@ function slot0.BindItemBattle(slot0)
 	end)
 end
 
-function slot0.UpdateBuildingTip(slot0, slot1)
-	if not slot0.activity then
+function slot0.UpdateBuildingTip(slot0, slot1, slot2)
+	if not slot1 then
 		return
 	end
 
-	slot2 = slot0.activity.data1KeyValueList[2][slot1] or 1
+	slot3 = slot1.data1KeyValueList[2][slot2] or 1
 
-	if not pg.activity_event_building[slot1] or slot2 >= #slot3.buff then
+	if not pg.activity_event_building[slot2] or slot3 >= #slot4.buff then
 		return
 	end
 
-	return slot3.material[slot2] <= (slot0.activity.data1KeyValueList[1][slot3.material_id] or 0)
+	return slot4.material[slot3] <= (slot1.data1KeyValueList[1][slot4.material_id] or 0)
 end
 
 return slot0

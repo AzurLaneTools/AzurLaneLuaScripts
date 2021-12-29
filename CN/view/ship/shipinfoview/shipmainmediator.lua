@@ -32,6 +32,7 @@ slot0.OPEN_EQUIP_UPGRADE = "ShipMainMediator:OPEN_EQUIP_UPGRADE"
 slot0.BUY_ITEM_BY_ACT = "ShipMainMediator:BUY_ITEM_BY_ACT"
 slot0.ON_ADD_SHIP_EXP = "ShipMainMediator:ON_ADD_SHIP_EXP"
 slot0.OPEN_EQUIPMENT_INDEX = "ShipMainMediator:OPEN_EQUIPMENT_INDEX"
+slot0.EQUIP_CHANGE_NOTICE = "ShipMainMediator:EQUIP_CHANGE_NOTICE"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -76,6 +77,9 @@ function slot0.register(slot0)
 			mediator = CustomIndexMediator,
 			data = slot1
 		}))
+	end)
+	slot0:bind(uv0.EQUIP_CHANGE_NOTICE, function (slot0, slot1)
+		uv0:sendNotification(slot1.notice, slot1.data)
 	end)
 	slot0:bind(uv0.ON_SKIN_INFO, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({

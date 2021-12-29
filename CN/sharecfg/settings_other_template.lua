@@ -7,7 +7,7 @@ pg.settings_other_template = {
 		alignment = 0,
 		id = 1,
 		title = "显示自定义角色名称",
-		desc = "功能开启后，舰船显示自定义角色名称"
+		desc = "功能开启后，角色显示自定义名称 "
 	},
 	{
 		default = 0,
@@ -25,7 +25,7 @@ pg.settings_other_template = {
 		alignment = 0,
 		id = 3,
 		title = "获得角色震动",
-		desc = "功能开启后，获得超稀有及以上稀有度的舰船时设备震动提示"
+		desc = "功能开启后，获得超稀有及以上稀有度角色时出现设备振动提示 "
 	},
 	{
 		default = 1,
@@ -34,7 +34,7 @@ pg.settings_other_template = {
 		alignment = 0,
 		id = 4,
 		title = "重复角色获得提示",
-		desc = "功能关闭后，重复获得已拥有的稀有及以下稀有度的舰船时（仅限海域掉落）取消弹出舰船获得界面"
+		desc = "功能关闭后，重复获得已解锁图鉴的普通及稀有角色时不会弹出角色获取界面 "
 	},
 	{
 		default = 1,
@@ -133,6 +133,15 @@ pg.settings_other_template = {
 		title = "显示我的拜访痕迹",
 		desc = "功能开启后，我拜访好友的后宅后，会在好友的后宅显示我的秘书舰"
 	},
+	{
+		default = 1,
+		name = "QUICK_CHANGE_EQUIP",
+		type = 0,
+		alignment = 0,
+		id = 14,
+		title = "快速更换二次确认界面",
+		desc = "功能开启后，使用快速更换功能更换角色装备时，将弹出装备详细信息确认界面 "
+	},
 	all = {
 		1,
 		2,
@@ -146,6 +155,7 @@ pg.settings_other_template = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

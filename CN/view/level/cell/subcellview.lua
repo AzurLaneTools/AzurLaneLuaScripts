@@ -1,9 +1,10 @@
-slot0 = class("SubCellView", import(".SpineCellView"))
+slot2 = class("SubCellView", DecorateClass(import(".DynamicCellView"), import(".SpineCellView")))
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+function slot2.Ctor(slot0, slot1)
+	uv0.Ctor(slot0, slot1)
+	uv1.Ctor(slot0, slot1)
+	uv1.InitCellTransform(slot0)
 
-	slot0.tfShadow = slot0.tf:Find("shadow")
 	slot0.tfAmmo = slot0.tf:Find("ammo")
 	slot0.tfAmmoText = slot0.tfAmmo:Find("text")
 	slot0.showFlag = true
@@ -12,11 +13,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0:LoadEffectShuihua()
 end
 
-function slot0.GetOrder(slot0)
+function slot2.GetOrder(slot0)
 	return ChapterConst.CellPriorityFleet
 end
 
-function slot0.LoadEffectShuihua(slot0)
+function slot2.LoadEffectShuihua(slot0)
 	slot1 = "qianting_01"
 	slot2 = slot0.shuihuaLoader
 
@@ -31,7 +32,7 @@ function slot0.LoadEffectShuihua(slot0)
 	end, "Shuihua")
 end
 
-function slot0.PlayShuiHua(slot0)
+function slot2.PlayShuiHua(slot0)
 	if not slot0.effect_shuihua then
 		return
 	end
@@ -40,20 +41,21 @@ function slot0.PlayShuiHua(slot0)
 	setActive(slot0.effect_shuihua, true)
 end
 
-function slot0.SetActive(slot0, slot1)
+function slot2.SetActive(slot0, slot1)
 	slot0:SetActiveModel(slot1)
 end
 
-function slot0.SetActiveModel(slot0, slot1)
+function slot2.SetActiveModel(slot0, slot1)
 	setActive(slot0.tfShadow, slot1)
 	slot0:SetSpineVisible(slot1)
 end
 
-function slot0.Clear(slot0)
+function slot2.Clear(slot0)
 	slot0.showFlag = nil
 
 	slot0.shuihuaLoader:Clear()
-	uv0.super.Clear(slot0)
+	uv0.ClearSpine(slot0)
+	uv1.Clear(slot0)
 end
 
-return slot0
+return slot2

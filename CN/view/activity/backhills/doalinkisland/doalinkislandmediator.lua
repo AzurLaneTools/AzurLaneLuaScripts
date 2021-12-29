@@ -1,7 +1,4 @@
-slot0 = class("DOALinkIslandMediator", import("view.base.ContextMediator"))
-slot0.MINI_GAME_OPERATOR = "MINI_GAME_OPERATOR"
-slot0.GO_SCENE = "GO_SCENE"
-slot0.GO_SUBLAYER = "GO_SUBLAYER"
+slot0 = class("DOALinkIslandMediator", import("..TemplateMV.BackHillMediatorTemplate"))
 
 function slot0.register(slot0)
 	slot0:BindEvent()

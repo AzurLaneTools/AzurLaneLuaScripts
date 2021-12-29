@@ -21,6 +21,14 @@ function slot0.GetMiniGameData(slot0, slot1)
 	return slot0.miniGameDataDic[slot1]
 end
 
+function slot0.GetMiniGameDataByType(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.miniGameDataDic) do
+		if slot6:getConfig("type") == slot1 and slot6:CheckInTime() then
+			return slot6
+		end
+	end
+end
+
 function slot0.GetHubByHubId(slot0, slot1)
 	if slot0.miniGameHubDataDic[slot1] == nil then
 		slot0.miniGameHubDataDic[slot1] = MiniGameHubData.New({
@@ -58,7 +66,7 @@ function slot0.RequestInitData(slot0, slot1, slot2)
 	if slot3:CheckInTime() then
 		slot5 = slot0:GetHubByGameId(slot1)
 
-		if (slot3:getConfig("type") == MiniGameConst.MG_TYPE_2 or slot6 == MiniGameConst.MG_TYPE_3) and not slot3:GetRuntimeData("fetchData") then
+		if (slot3:getConfig("type") == MiniGameConst.MG_TYPE_2 or slot6 == MiniGameConst.MG_TYPE_3 or slot6 == MiniGameConst.MG_TYPE_5) and not slot3:GetRuntimeData("fetchData") then
 			slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 				hubid = slot5.id,
 				cmd = MiniGameOPCommand.CMD_SPECIAL_GAME,

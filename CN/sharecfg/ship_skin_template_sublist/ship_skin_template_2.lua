@@ -1,219 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101382] = {
-		ship_group = 10138,
-		name = "东煌之风",
-		bullet_skin_secondary = "",
-		hand_id = 15,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 101382,
-		group_index = 2,
-		prefab = "jinboli_3",
-		painting = "jinboli_3",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "换上一身东煌的服装，让人不禁想起在东煌的那段日子…呵呵，指挥官，白鹰的造型和东煌的造型，你更喜欢哪个呢？",
-		voice_actor = 168,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.86,
-					0.86,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.801,
-					0.83,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.149,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[101390] = {
-		ship_group = 10139,
-		name = "马拉尼",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101390,
-		group_index = 0,
-		prefab = "malani",
-		painting = "malani",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "弗莱彻级驱逐舰—马拉尼，舷号DD-528",
-		voice_actor = 166,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.85,
-					0.802,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.85,
-					0.782,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.149,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101392] = {
 		ship_group = 10139,
 		name = "东煌之仪",
@@ -8568,6 +8354,450 @@ pg.ship_skin_template_2 = {
 						{
 							-0.7,
 							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102252] = {
+		ship_group = 10225,
+		name = "洛城女帝",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "135",
+		id = 102252,
+		group_index = 2,
+		prefab = "biluokexi_4",
+		painting = "biluokexi_4",
+		shop_id = 70376,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「哼哼哼…终于落到我手上了，今天就让我们好·好·的聊一聊吧，指挥官？」——哎呀，是不是演得太逼真了呢？",
+		voice_actor = 217,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.101,
+					1.123,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.114,
+					1.159,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.114,
+					1.104,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.7,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102253] = {
+		ship_group = 10225,
+		name = "绚烂缤纷花火夜",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "143",
+		id = 102253,
+		group_index = 3,
+		prefab = "biluokexi_5",
+		painting = "biluokexi_5",
+		shop_id = 70474,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 2,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "听说异乡的节日活动能看到华丽的烟花，就选了一套能搭配的服装，这身感觉如何？…人比烟花好看？哼哼，总不能让烟花抢了在指挥官面前的风头嘛！开玩笑的，哈哈哈",
+		voice_actor = 217,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.24,
+					0.904,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.252,
+					0.908,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.259,
+					0.919,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.7,
+							2.474,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102260] = {
+		ship_group = 10226,
+		name = "里诺",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102260,
+		group_index = 0,
+		prefab = "linuo",
+		painting = "linuo",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "亚特兰大级轻巡洋舰—里诺，舷号CL-96",
+		voice_actor = 231,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.211,
+					1.069,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.282,
+					1.091,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.388,
+					1.106,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.17,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102261] = {
+		ship_group = 10226,
+		name = "波涛的啦啦队长！",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "132",
+		id = 102261,
+		group_index = 1,
+		prefab = "linuo_2",
+		painting = "linuo_2",
+		shop_id = 70334,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 13,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "不愧是聚集了各阵营的精英们的大运动会，精彩的比赛真是一场接着一场呢！我作为啦啦队一员也要努力加油才行！白鹰，fight！",
+		voice_actor = 231,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.417,
+					1.072,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.413,
+					1.156,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.469,
+					1.106,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.17,
 							0
 						}
 					}

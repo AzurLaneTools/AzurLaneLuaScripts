@@ -2662,6 +2662,210 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	[34] = {
+		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
+		name = "新年福袋2022",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		subject = "新年福袋2022",
+		extra_gem = 0,
+		name_display = "新年福袋2022",
+		limit_arg = 1,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai6",
+		id_str = "com.bilibili.blhx.zuanshi133",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 34,
+		airijp_id = "com.yostarjp.azurlane.diamond125",
+		extra_service_item = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[35] = {
+		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
+		name = "新年福袋复刻(2021)",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		subject = "新年福袋复刻(2021)",
+		extra_gem = 0,
+		name_display = "新年福袋复刻(2021)",
+		limit_arg = 1,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai3",
+		id_str = "com.bilibili.blhx.zuanshi134",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 35,
+		airijp_id = "com.yostarjp.azurlane.diamond126",
+		extra_service_item = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	[1000] = {
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:约克城限定换装和其他奖励",
 		name = "特许巡游凭证",
@@ -2835,6 +3039,8 @@ pg.pay_data_display = {
 		31,
 		32,
 		33,
+		34,
+		35,
 		1000,
 		1001
 	}

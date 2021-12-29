@@ -2544,6 +2544,10 @@ _G.pg.gametip.ship_equipToShip_error_noEquip = {
 	tip = "装备不存在"
 }
 
+_G.pg.gametip.ship_equip_check = {
+	tip = "※可在设置中开启/关闭本界面"
+}
+
 _G.pg.gametip.ship_getShip_error = {
 	tip = "角色下水失败:"
 }
@@ -9669,7 +9673,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "宝多六花、新条茜、南梦芽等角色建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 乌尔里希·冯·胡滕(最多4次)"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -11232,6 +11236,10 @@ _G.pg.gametip.blueprint_simulation_confirm_69901 = {
 
 _G.pg.gametip.electrotherapy_wanning = {
 	tip = "镜面海域扩展中"
+}
+
+_G.pg.gametip.siren_chase_warning = {
+	tip = "危险区域扩展中 "
 }
 
 _G.pg.gametip.memorybook_get_award_tip = {
@@ -19029,6 +19037,45 @@ _G.pg.gametip.word_frame = {
 	tip = "帧"
 }
 
+_G.pg.gametip.Settings_title_Redeem_input_label = {
+	tip = "输入兑换码:"
+}
+
+_G.pg.gametip.Settings_title_Redeem_input_submit = {
+	tip = "领 取"
+}
+
+_G.pg.gametip.Settings_title_Redeem_input_placeholder = {
+	tip = "仅限英语数字组合"
+}
+
+_G.pg.gametip.CurlingGame_tips1 = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>1月4日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括南安普顿限定皮肤在内的丰富奖励。
+游戏规则：
+1.每局游戏由三小局组成，最终得分为三小局的分数和
+2.按住左侧肌肉指挥喵可进行蓄力，上下移动可改变冰球发射的方向；松开后将会发射冰壶。冰壶碰到障碍则会根据碰撞角度进行反弹，<color=#92fc63>反弹时获得额外积分</color>
+3.将冰壶发射至冰面上的圈内可获得积分，蓝色区域1000分，黄色区域2000分，红色区域3000分；不在圈内不得分
+4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。]]
+		}
+	}
+}
+
+_G.pg.gametip.maid_task_tips1 = {
+	tip = {
+		{
+			info = [[
+活动期间每日可解锁2个任务，1月4日可解锁全部任务
+1.完成「碳酸与红茶」活动全部任务可获得限定家具「皇家午茶」&「莱茵咖啡馆」
+2.<color=#ff5c5c>完成第1至6日的活动任务时可获得建筑升级道具</color>，使用建筑升级道具可于新年祝福页面升级皇家午茶和莱茵咖啡馆建筑，升级建筑可提升从中获得的加成效果
+3.<color=#92fc63>第7日也许还会有隐藏任务出现？</color>]]
+		}
+	}
+}
+
 _G.pg.gametip.shop_diamond_title = {
 	tip = "购买钻石"
 }
@@ -19043,4 +19090,85 @@ _G.pg.gametip.shop_item_title = {
 
 _G.pg.gametip.shop_charge_level_limit = {
 	tip = "级解锁"
+}
+
+_G.pg.gametip.backhill_cantupbuilding = {
+	tip = "必须先升级<color=#92fc63>$1</color>才能继续升级哦"
+}
+
+_G.pg.gametip.pray_cant_tips = {
+	tip = "在绘马祈愿中悬挂舰船绘马可以获取有效次数"
+}
+
+_G.pg.gametip.help_xinnian2022_feast = {
+	tip = {
+		{
+			info = [[
+活动时间：<color=#92fc63>2021.12.29-2022.1.13</color>
+活动简介：
+「啾啾冰壶战」：参与小游戏获取南安普顿限定换装「午后的休闲旋律」
+「烟花工坊」：参与小游戏获取限定角色「Z28」
+「绘马祈愿」：参与绘马祈愿获取奖励「年贺状」
+「换装商店」：购买新年限时换装
+「限时建造」：建造限时角色
+「皇家午茶」&「莱茵咖啡馆」：参与碳酸与红茶任务获取店铺升级许可证进行建筑升级；必须保持建筑等级差不超过1级方可继续升级]]
+		}
+	}
+}
+
+_G.pg.gametip.Pray_activity_tips1 = {
+	tip = {
+		{
+			info = [[
+<size=31><color=#92fc63>TIPS：
+在没有许愿有效次数时无法进行许愿</color></size>
+1.活动期间指挥官每天获得<color=#92fc63>1次帮助舰船挂绘马的祈愿次数</color>，次数可叠加，消耗祈愿次数可以获得新年的祝福和2次许愿有效次数，<color=#ff5c5c>最多可获得14次许愿有效次数</color>
+2.帮助舰船挂绘马会获得对应舰船的祈愿加成和新年的祝福，集齐7个新年的祝福可获得「年贺状」
+3.同一时间只能存在一种舰船的祈愿加成
+4.拥有有效次数的情况下消耗5物资进行许愿可以选择不同加成效果：
+学业：战术学院技能学习时间略微减少
+事业：主线、困难、作战档案关卡中，我方战斗内造成的伤害略微提高
+姻缘：秘书舰好感度提高速度加快
+以上三种效果持续时间为一天
+5.获得学业效果时不会减少正在进行的技能学习时间，学业效果消失时不会增加已经被学业效果减少的技能学习时间
+6.如果在已经拥有加成效果的状态下进行许愿，那么新获得的加成效果会覆盖掉之前拥有的加成效果，且持续时间重置
+7.同一时间只能存在一种许愿加成效果]]
+		}
+	}
+}
+
+_G.pg.gametip.backhill_notenoughbuilding = {
+	tip = "升级所需材料不足，请前往<color=#92fc63>碳酸与红茶</color>活动完成<color=#92fc63>活动任务</color>获取"
+}
+
+_G.pg.gametip.help_xinnian2022_z28 = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>1月4日</color>为止每日零点获得<color=#92fc63>1</color>次游戏次数，总计<color=#92fc63>7</color>次，可累计
+2.参与「新年烟花工坊」并进行<color=#92fc63>游戏结算</color>会消耗游戏次数并获得奖励与烟花券，集齐7个烟花券可以获取限定角色<color=#92fc63>「Z28」</color>
+3.在没有游戏次数的情况下参与「新年烟花工坊」不会获得奖励与烟花券
+4.完成游戏或点击游戏内退出按钮均视为游戏完成
+因为其他原因中途退出游戏则视为未完成]]
+		}
+	}
+}
+
+_G.pg.gametip.help_xinnian2022_firework = {
+	tip = {
+		{
+			info = [[
+<size=31><color=#92fc63>TIPS：
+没有游戏次数也可以进行装药但是不会获得烟花券与奖励</color></size>
+制作烟花的过程：
+1.点击开始配置开始烟花制作
+2.烟花分为内、中、外三层，在彩球区单击色球可以将色球置入烟花中，色球颜色会影响烟花颜色
+在已放入区域单击色球可以将其拿掉、单击空白格子可以切换选中的区域
+3.在三层色球全部放满的情况下可以点击进行装药开始烟花装药，在有游戏次数的情况下进行装药会消耗游戏次数获得烟花券并根据装药总值获得不同的奖励
+4.三次装药后完成烟花制作，已经制作好的烟花可以通过点击新年祝福活动界面的放烟花按钮进行烟花燃放，烟花燃放会使用最近一次制作的烟花
+5.烟花会持续燃放直到进入其他界面或退出新年祝福活动界面，下次进入新年祝福活动界面时可以再次点击按钮进行烟花燃放，隔日需要重新配置烟花才能进行燃放
+6.当天配置好的烟花重新配置需要进入烟花工坊点击重新配置按钮]]
+		}
+	}
 }
