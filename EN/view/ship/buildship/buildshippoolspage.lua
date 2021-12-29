@@ -33,6 +33,7 @@ function slot0.OnLoaded(slot0)
 	slot0.buildPoolExchangeGetBtnMark = slot0.buildPoolExchangeGetBtn:Find("mark")
 	slot0.buildPoolExchangeGetTxt = slot0.buildPoolExchangeGetBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.buildPoolExchangeName = slot0.buildPoolExchangeTF:Find("name"):GetComponent(typeof(Text))
+	slot0.tipSTxt = slot0:findTF("gallery/bg/type_intro/mask/title"):GetComponent("ScrollText")
 	slot0.helpBtn = slot0:findTF("gallery/help_btn")
 	slot0.testBtn = slot0:findTF("gallery/test_btn")
 
@@ -120,7 +121,9 @@ function slot0.SwitchPool(slot0, slot1)
 		slot9 = slot6.buildship_tip
 	end
 
-	setText(slot0:findTF("gallery/bg/type_intro/title"), HXSet.hxLan(slot9))
+	slot11 = slot0.tipSTxt
+
+	slot11:SetText(HXSet.hxLan(slot9))
 	setText(slot0:findTF("gallery/item_bg/item/Text"), slot4.number_1)
 	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot4.use_gold)
 	slot0:UpdateBuildPoolExchange(slot1)
@@ -175,7 +178,7 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 		setActive(slot0.buildPoolExchangeGetBtnMark, slot11)
 
 		slot0.buildPoolExchangeGetTxt.text = slot9 .. "/" .. slot4
-		slot0.buildPoolExchangeName.text = pg.ship_data_statistics[slot5].name
+		slot0.buildPoolExchangeName.text = SwitchSpecialChar(HXSet.hxLan(pg.ship_data_statistics[slot5].name), true)
 
 		onButton(slot0, slot0.buildPoolExchangeTF, function ()
 			if uv0 then

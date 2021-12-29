@@ -142,6 +142,15 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		title = "Display Secretary when Visiting",
 		desc = "When toggled ON, your friends will be able to see your secretary ship after you visit their Dorm."
 	},
+	{
+		default = 1,
+		name = "QUICK_CHANGE_EQUIP",
+		type = 0,
+		alignment = 0,
+		id = 14,
+		title = "Display Quick-Switch Prompt ",
+		desc = "When toggled ON, gives a confirmation prompt when you're quick-switching gear. "
+	},
 	all = {
 		1,
 		2,
@@ -155,6 +164,7 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

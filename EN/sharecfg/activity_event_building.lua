@@ -240,6 +240,44 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		id = 17,
+		name = "Royal Navy Teahouse",
+		material_id = 59259,
+		desc = "A teahouse with a classy atmosphere. It beckons you inside with the scent of fragrant herbs and creamy pastries.",
+		buff = {
+			49,
+			50,
+			51,
+			52,
+			53
+		},
+		material = {
+			1,
+			1,
+			1,
+			1
+		}
+	},
+	{
+		id = 18,
+		name = "Iron Blood Café",
+		material_id = 59259,
+		desc = "A café with a laid-back atmosphere. It tempts you with the promise of hot coffee and savory food.",
+		buff = {
+			54,
+			55,
+			56,
+			57,
+			58
+		},
+		material = {
+			1,
+			1,
+			1,
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -256,6 +294,8 @@ pg.activity_event_building = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17,
+		18
 	}
 }

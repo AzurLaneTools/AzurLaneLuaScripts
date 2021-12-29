@@ -2928,7 +2928,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "xrjthemeicon",
 		deblocking = 1,
-		order = 84,
+		order = 75,
 		ids = {
 			83001,
 			83002,
@@ -2961,7 +2961,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "gltthemeicon",
 		deblocking = 1,
-		order = 85,
+		order = 76,
 		ids = {
 			84001,
 			84002,
@@ -3001,6 +3001,55 @@ pg.backyard_theme_template = {
 			84176,
 			84177,
 			84178
+		}
+	},
+	[85] = {
+		Cfg_1 = 5,
+		name = "Port Café",
+		hot = 1,
+		is_view = 1,
+		id = 85,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "What'll it be? The usual? Or do you want to get... experimental?",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "cafe2themeicon",
+		deblocking = 1,
+		order = 77,
+		ids = {
+			85001,
+			85002,
+			85101,
+			85102,
+			85103,
+			85106,
+			85107,
+			85109,
+			85112,
+			85113,
+			85114,
+			85115,
+			85119,
+			85120,
+			85123,
+			85124,
+			85125,
+			85127,
+			85131,
+			85201,
+			85202,
+			85203,
+			85301,
+			85302,
+			85303,
+			85304,
+			85305,
+			85306,
+			85307,
+			85308,
+			85309
 		}
 	},
 	all = {
@@ -3069,6 +3118,7 @@ pg.backyard_theme_template = {
 		81,
 		82,
 		83,
-		84
+		84,
+		85
 	}
 }

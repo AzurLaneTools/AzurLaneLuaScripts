@@ -49,7 +49,7 @@ function slot0.init(slot0)
 	slot0.upgradePanel:Load()
 	slot0.upgradePanel.buffer:Hide()
 
-	slot0.loader = ThirdAnniversaryAutoloader.New()
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.RegisterDataResponse(slot0)
@@ -68,7 +68,7 @@ function slot0.RegisterDataResponse(slot0)
 				return
 			end
 
-			slot0.loader:GetSprite("ui/AmusementParkUI2_atlas", "entrance_" .. uv0 .. slot1, slot0["map_" .. uv0])
+			slot0.loader:GetSpriteQuiet("ui/AmusementParkUI2_atlas", "entrance_" .. uv0 .. slot1, slot0["map_" .. uv0])
 
 			if not slot0["upper_" .. uv0] or IsNil(slot2:Find("Level")) then
 				return
@@ -191,16 +191,15 @@ function slot0.UpdateActivity(slot0, slot1)
 end
 
 function slot0.UpdateView(slot0)
-	slot1, slot2 = nil
-	slot3 = getProxy(ActivityProxy)
+	slot1 = nil
 
-	for slot7, slot8 in pairs(slot0.Buildings) do
-		slot0.Respones[slot8 .. "Tip"] = slot0:UpdateBuildingTip(slot7)
+	for slot5, slot6 in pairs(slot0.Buildings) do
+		slot0.Respones[slot6 .. "Tip"] = slot0:UpdateBuildingTip(slot0.activity, slot5)
 	end
 
 	slot0.Respones.jiujiudalaotuanTip = getProxy(MiniGameProxy):GetHubByHubId(uv0).count > 0
 
-	slot0:UpdateHubData(slot5)
+	slot0:UpdateHubData(slot3)
 end
 
 function slot0.onBackPressed(slot0)

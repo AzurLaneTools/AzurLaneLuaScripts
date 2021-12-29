@@ -5,7 +5,7 @@ function slot0.getUIName(slot0)
 end
 
 slot0.HUB_ID = 1
-slot1 = {
+slot0.Elements = {
 	[0] = {
 		color = "ffffff",
 		name = "none"
@@ -190,7 +190,7 @@ function slot0.didEnter(slot0)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 4)
 	end)
 	onButton(slot0, slot0.btn_fire, function ()
-		if not uv0:GetMiniGameData(FireworkFactoryView.MINIGAME_ID):GetRuntimeData("elements") or #slot1 < 4 or slot1[4] ~= uv1.GetCurrentDay() then
+		if not uv0:GetMiniGameData(4):GetRuntimeData("elements") or #slot1 < 4 or slot1[4] ~= uv1.GetCurrentDay() then
 			return
 		end
 
@@ -226,7 +226,7 @@ function slot0.UpdateView(slot0)
 		slot0:TryPlayStory()
 	end
 
-	setActive(slot0.btn_fire, slot1:GetMiniGameData(FireworkFactoryView.MINIGAME_ID):GetRuntimeData("elements") and #slot6 >= 4 and slot6[4] == slot0.GetCurrentDay())
+	setActive(slot0.btn_fire, slot1:GetMiniGameData(4):GetRuntimeData("elements") and #slot6 >= 4 and slot6[4] == slot0.GetCurrentDay())
 end
 
 function slot0.InitFacility(slot0, slot1, slot2)
@@ -252,13 +252,13 @@ function slot0.PlayFirework(slot0, slot1)
 		slot9 = pg.PoolMgr.GetInstance()
 
 		slot9:GetPrefab("ui/firework", "", false, function (slot0)
-			slot2 = tf(slot0):Find("Fire"):GetComponent("ParticleSystem").main.startColor
-			tf(slot0):Find("Fire"):GetComponent("ParticleSystem").main.startColor = uv0(uv1.TransformColor(uv2[uv3[1]].color))
-			tf(slot0):Find("Fire/par_small"):GetComponent("ParticleSystem").main.startColor = uv0(uv1.TransformColor(uv2[uv3[2]].color))
-			tf(slot0):Find("Fire/par_small/par_big"):GetComponent("ParticleSystem").main.startColor = uv0(uv1.TransformColor(uv2[uv3[3]].color))
+			slot1 = uv0.Elements
+			tf(slot0):Find("Fire"):GetComponent("ParticleSystem").main.startColor = uv1(uv2.TransformColor(slot1[uv3[1]].color))
+			tf(slot0):Find("Fire/par_small"):GetComponent("ParticleSystem").main.startColor = uv1(uv2.TransformColor(slot1[uv3[2]].color))
+			tf(slot0):Find("Fire/par_small/par_big"):GetComponent("ParticleSystem").main.startColor = uv1(uv2.TransformColor(slot1[uv3[3]].color))
 
-			table.insert(uv1.workingEffect, slot0)
-			setParent(slot0, uv1._map)
+			table.insert(uv2.workingEffect, slot0)
+			setParent(slot0, uv2._map)
 
 			slot0.transform.localPosition = uv4
 		end)

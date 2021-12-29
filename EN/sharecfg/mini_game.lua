@@ -1031,6 +1031,100 @@ pg.mini_game = {
 		hub_id = 26,
 		request_data = 0
 	},
+	{
+		view_name = "CurlingGameView",
+		name = "冰壶小游戏",
+		simple_config_data = "",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 33,
+		hub_id = 27,
+		request_data = 0
+	},
+	{
+		view_name = "Shrine2022View",
+		name = "神社指挥官许愿",
+		type = 3,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_csv = "",
+		id = 34,
+		hub_id = 27,
+		request_data = 1,
+		simple_config_data = {
+			target = 100000
+		},
+		config_data = {
+			5,
+			{
+				10,
+				11,
+				12
+			},
+			2
+		}
+	},
+	{
+		view_name = "Shrine2022View",
+		name = "神社舰娘许愿",
+		type = 5,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_csv = "",
+		id = 35,
+		hub_id = 27,
+		request_data = 1,
+		simple_config_data = {
+			8,
+			59261,
+			1
+		},
+		config_data = {
+			0,
+			{
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65
+			},
+			1
+		}
+	},
+	{
+		view_name = "FireworkFactory2022View",
+		name = "新年烟花工坊",
+		type = 2,
+		mediator_name = "FireworkFactoryMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 36,
+		hub_id = 28,
+		request_data = 1,
+		simple_config_data = {
+			roundTime = 50,
+			score_reference = {
+				{
+					140,
+					160
+				},
+				{
+					120,
+					180
+				},
+				{
+					90,
+					210
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1063,6 +1157,10 @@ pg.mini_game = {
 		29,
 		30,
 		31,
-		32
+		32,
+		33,
+		34,
+		35,
+		36
 	}
 }

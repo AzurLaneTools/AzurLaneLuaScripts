@@ -1,35 +1,14 @@
-slot0 = class("NewYearFestivalMediator", import("view.base.ContextMediator"))
-slot0.MINI_GAME_OPERATOR = "MINI_GAME_OPERATOR"
-slot0.GO_SCENE = "GO_SCENE"
-slot0.GO_SUBLAYER = "GO_SUBLAYER"
+slot0 = class("NewYearFestivalMediator", import("..TemplateMV.BackHillMediatorTemplate"))
 slot0.MINIGAME_OPERATION = "MINIGAME_OPERATION"
 slot0.ON_OPEN_PILE_SIGNED = "ON_OPEN_PILE_SIGNED"
 
-function slot0.register(slot0)
-	if slot0.contextData.miniGameID then
-		slot0.contextData.miniGameID = nil
-
-		slot0:sendNotification(GAME.GO_MINI_GAME, slot0.contextData.miniGameID)
-	end
-
-	slot0:BindEvent()
-end
-
 function slot0.BindEvent(slot0)
+	uv0.super.BindEvent(slot0)
 	slot0:bind(uv0.ON_OPEN_PILE_SIGNED, function ()
 		uv0:addSubLayers(Context.New({
 			viewComponent = PileGameSignedLayer,
 			mediator = PileGameSignedMediator
 		}))
-	end)
-	slot0:bind(uv0.MINI_GAME_OPERATOR, function (slot0, ...)
-		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, ...)
-	end)
-	slot0:bind(uv0.GO_SCENE, function (slot0, slot1, ...)
-		uv0:sendNotification(GAME.GO_SCENE, slot1, ...)
-	end)
-	slot0:bind(uv0.GO_SUBLAYER, function (slot0, slot1, slot2)
-		uv0:addSubLayers(slot1, nil, slot2)
 	end)
 	slot0:bind(uv0.MINIGAME_OPERATION, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, {

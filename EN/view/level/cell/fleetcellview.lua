@@ -1,21 +1,22 @@
-slot0 = class("FleetCellView", import(".SpineCellView"))
+slot2 = class("FleetCellView", DecorateClass(import(".DynamicCellView"), import(".SpineCellView")))
 
-function slot0.Ctor(slot0, slot1)
+function slot2.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
+	uv1.Ctor(slot0, slot1)
+	uv1.InitCellTransform(slot0)
 
-	slot0.tfShadow = slot0.tf:Find("shadow")
 	slot0.tfArrow = slot0.tf:Find("arrow")
 	slot0.tfAmmo = slot0.tf:Find("ammo")
 	slot0.tfAmmoText = slot0.tfAmmo:Find("text")
 	slot0.tfOp = slot0.tf:Find("op")
 end
 
-function slot0.GetOrder(slot0)
+function slot2.GetOrder(slot0)
 	return ChapterConst.CellPriorityFleet
 end
 
-function slot0.showPoisonDamage(slot0, slot1)
-	slot2 = "banai_dian01"
+function slot2.showPoisonDamage(slot0, slot1)
+	slot2 = "dexiv4_SLG_poison"
 	slot3 = slot0.tfShip.localPosition
 	slot4 = slot0:GetLoader()
 
@@ -38,11 +39,13 @@ function slot0.showPoisonDamage(slot0, slot1)
 	end, "PoisonDamage")
 end
 
-function slot0.SetActiveNoPassIcon(slot0, slot1)
+function slot2.SetActiveNoPassIcon(slot0, slot1)
 	slot2 = "NoPassIcon"
 
 	if not slot1 then
-		slot0.loader:ClearRequest(slot2)
+		if slot0.loader then
+			slot0.loader:ClearRequest(slot2)
+		end
 	else
 		slot4 = "event_task_small"
 
@@ -63,8 +66,8 @@ function slot0.SetActiveNoPassIcon(slot0, slot1)
 	end
 end
 
-function slot0.TweenShining(slot0)
-	if not slot0:getModel() then
+function slot2.TweenShining(slot0)
+	if not slot0:GetModel() then
 		return
 	end
 
@@ -88,7 +91,7 @@ function slot0.TweenShining(slot0)
 	end)).uniqueId
 end
 
-function slot0.StopTween(slot0)
+function slot2.StopTween(slot0)
 	if not slot0.tweenId then
 		return
 	end
@@ -98,9 +101,14 @@ function slot0.StopTween(slot0)
 	slot0.tweenId = nil
 end
 
-function slot0.unloadSpine(slot0)
+function slot2.unloadSpine(slot0)
 	slot0:StopTween()
 	uv0.super.unloadSpine(slot0)
 end
 
-return slot0
+function slot2.Clear(slot0)
+	uv0.ClearSpine(slot0)
+	uv1.super.Clear(slot0)
+end
+
+return slot2

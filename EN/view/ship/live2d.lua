@@ -9,6 +9,7 @@ function slot0.GenerateData(slot0)
 			slot0.ship = slot1.ship
 			slot0.parent = slot1.parent
 			slot0.scale = slot1.scale
+			slot0.gyro = slot0:GetShipSkinConfig().gyro or 0
 			slot0.position = slot1.position + BuildVector3(slot0:GetShipSkinConfig().live2d_offset)
 		end,
 		GetShipName = function (slot0)
@@ -131,6 +132,67 @@ function slot0.Ctor(slot0, slot1, slot2)
 			uv2()
 		end
 	end)
+
+	if slot0.live2dData.gyro == 1 then
+		slot0.gryoIndex = 10
+		slot0.DampingTime = 0.5
+		slot0.gyroEmptyIndex = 0
+		Input.gyro.enabled = true
+
+		LateUpdateBeat:Add(slot0.charLateUpdate, slot0)
+	end
+end
+
+function slot0.charLateUpdate(slot0)
+	if slot0.gyroEmptyIndex >= 3 then
+		return
+	end
+
+	if slot0.liveCom then
+		if not slot0.curReactPos then
+			slot0.curReactPos = ReflectionHelp.RefGetField(typeof("Live2dChar"), "reactPos", slot0.liveCom)
+			slot0.targetReactPos = slot0:getAttritudePos()
+			slot0.velocityVector = Vector3.zero
+		end
+
+		slot0.curReactPos, slot0.velocityVector = Vector3.SmoothDamp(slot0.curReactPos, slot0.targetReactPos, slot0.velocityVector, slot0.DampingTime)
+
+		ReflectionHelp.RefSetField(typeof("Live2dChar"), "reactPos", slot0.liveCom, slot0.curReactPos)
+
+		if slot0.gryoIndex == 0 then
+			slot0.targetReactPos, slot0.gyroAttitute = slot0:getAttritudePos()
+
+			if slot0.gyroAttitute.x == 0 and slot0.gyroAttitute.y == 0 then
+				slot0.gyroEmptyIndex = slot0.gyroEmptyIndex + 1
+			end
+
+			slot0.velocityVector.x = 0
+			slot0.velocityVector.y = 0
+			slot0.velocityVector.z = 0
+		end
+
+		slot0.gryoIndex = slot0.gryoIndex - 1 < 0 and 10 or slot0.gryoIndex - 1
+	end
+end
+
+function slot0.getAttritudePos(slot0)
+	if not slot0.attriPos then
+		slot0.attriPos = Vector3.zero
+	end
+
+	slot1 = Input.gyro and Input.gyro.attitude or Vector3.zero
+	slot0.attriPos.x = slot1.x * 5 - 1
+	slot0.attriPos.y = slot1.y * 5 - 1
+
+	if math.sign(slot0.attriPos.x) ~= math.sign(slot1.x) then
+		slot0.attriPos.x = 0
+	end
+
+	if math.sign(slot0.attriPos.y) ~= math.sign(slot1.y) then
+		slot0.attriPos.y = 0
+	end
+
+	return slot0.attriPos, slot1
 end
 
 function slot0.IsLoaded(slot0)
@@ -169,6 +231,12 @@ function slot0.Dispose(slot0)
 	slot0.state = uv0.STATE_DISPOSE
 
 	pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(slot0.live2dData:GetShipName())
+
+	if slot0.live2dData.gyro then
+		LateUpdateBeat:Remove(slot0.charLateUpdate, slot0)
+
+		Input.gyro.enabled = false
+	end
 
 	if slot0.live2dData then
 		slot0.live2dData:Clear()

@@ -260,7 +260,7 @@ function slot0.UpdateWeekTip(slot0)
 
 	if uv0.IsPassScenario() and uv0.IsNewStyleTime() then
 		for slot5, slot6 in pairs(slot0.contextData.taskVOsById) do
-			if (slot6:getConfig("type") == 4 or slot6:getConfig("type") == 13) and slot6:isFinish() and not slot6:isReceive() and slot6:getConfig("visibility") == 1 then
+			if (slot6:getConfig("type") == 4 or slot6:getConfig("type") == 13) and slot6:isFinish() and not slot6:isReceive() and slot6:ShowOnTaskScene() then
 				slot1 = true
 
 				break

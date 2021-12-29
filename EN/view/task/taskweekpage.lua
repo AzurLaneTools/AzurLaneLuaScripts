@@ -143,7 +143,7 @@ function slot0.Flush(slot0, slot1)
 	end
 
 	for slot7, slot8 in pairs(slot0.contextData.taskVOsById) do
-		if slot8:getConfig("visibility") == 1 and slot1[slot8:GetRealType()] then
+		if slot8:ShowOnTaskScene() and slot1[slot8:GetRealType()] then
 			table.insert(slot0.taskVOs, slot8)
 		end
 	end

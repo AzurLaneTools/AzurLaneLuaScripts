@@ -1284,6 +1284,210 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	[34] = {
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
+		name = "Shougatsu Lucky Box 2022 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		subject = "Shougatsu Lucky Box 2022 ",
+		extra_gem = 0,
+		name_display = "Shougatsu Lucky Box 2022 ",
+		limit_arg = 1,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai6",
+		id_str = "com.yostaren.azurlane.diamond154",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 34,
+		airijp_id = "com.yostaren.azurlane.diamond154",
+		extra_service_item = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[35] = {
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Shougatsu Lucky Bag 2021 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		subject = "Shougatsu Lucky Bag 2021 ",
+		extra_gem = 0,
+		name_display = "Shougatsu Lucky Bag 2021 ",
+		limit_arg = 1,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai3",
+		id_str = "com.yostaren.azurlane.diamond153",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 35,
+		airijp_id = "com.yostaren.azurlane.diamond153",
+		extra_service_item = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	[1000] = {
 		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
 		name = "Fair Winds Cruise Pass",
@@ -4898,6 +5102,8 @@ pg.pay_data_display = {
 		31,
 		32,
 		33,
+		34,
+		35,
 		1000,
 		1001,
 		100,

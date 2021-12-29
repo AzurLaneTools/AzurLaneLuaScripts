@@ -9,12 +9,38 @@ pg.shop_furniture_relation = {
 			0.7
 		}
 	},
+	[70633] = {
+		fur_id = 200001,
+		id = 70633,
+		desc = "August von Parseval——The Conquered Unhulde",
+		scale = {
+			1.1,
+			1.1
+		}
+	},
+	[70629] = {
+		fur_id = 200002,
+		id = 70629,
+		desc = "Prinz Adalbert——After-Hours Service",
+		scale = {
+			0.75,
+			0.75
+		}
+	},
 	get_id_list_by_fur_id = {
 		[200003] = {
 			70626
+		},
+		[200001] = {
+			70633
+		},
+		[200002] = {
+			70629
 		}
 	},
 	all = {
-		70626
+		70626,
+		70633,
+		70629
 	}
 }

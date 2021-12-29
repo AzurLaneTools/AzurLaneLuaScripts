@@ -20,7 +20,7 @@ pg.enemy_data_statistics_1 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		reload = 150,
-		base = 106,
+		base = 90106,
 		durability = 280,
 		armor_growth = 210,
 		torpedo_growth = 1600,
@@ -59,7 +59,7 @@ pg.enemy_data_statistics_1 = {
 		antisub_growth = 0,
 		rarity = 4,
 		fog_fx = "",
-		base = 213,
+		base = 90213,
 		durability = 16000,
 		armor_growth = 952,
 		torpedo_growth = 376,
@@ -117,7 +117,7 @@ pg.enemy_data_statistics_1 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		reload = 150,
-		base = 232,
+		base = 90232,
 		durability = 24000,
 		armor_growth = 1918,
 		torpedo_growth = 0,
@@ -154,7 +154,7 @@ pg.enemy_data_statistics_1 = {
 			310008
 		}
 	},
-	[70] = {
+	[90070] = {
 		cannon = 0,
 		name = "Torpedo Ship",
 		type = 14,
@@ -165,7 +165,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 70,
+		id = 90070,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "yuleiting",
@@ -309,7 +309,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[80] = {
+	[90080] = {
 		cannon = 0,
 		name = "Bombing Ship",
 		type = 16,
@@ -320,7 +320,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 80,
+		id = 90080,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "zibaodanchuan",
@@ -450,7 +450,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[90] = {
+	[90090] = {
 		cannon = 0,
 		name = "Cargo Ship",
 		type = 15,
@@ -461,7 +461,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 90,
+		id = 90090,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "jinbichuan",
@@ -605,7 +605,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[100] = {
+	[90100] = {
 		cannon = 0,
 		name = "Mahan Production",
 		type = 1,
@@ -616,7 +616,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 100,
+		id = 90100,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "mahandanchuan",
@@ -760,7 +760,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[101] = {
+	[90101] = {
 		cannon = 0,
 		name = "Mutsuki Production",
 		type = 1,
@@ -771,7 +771,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 101,
+		id = 90101,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "muyuedanchuan",
@@ -910,7 +910,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[102] = {
+	[90102] = {
 		cannon = 0,
 		name = "Fubuki Production",
 		type = 1,
@@ -921,7 +921,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 102,
+		id = 90102,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "chuixuedanchuan",
@@ -1058,7 +1058,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[103] = {
+	[90103] = {
 		cannon = 0,
 		name = "Shiratsuyu Production",
 		type = 1,
@@ -1069,7 +1069,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 103,
+		id = 90103,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "bailudanchuan",
@@ -1206,7 +1206,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[104] = {
+	[90104] = {
 		cannon = 0,
 		name = "Yugumo Production",
 		type = 1,
@@ -1217,7 +1217,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 104,
+		id = 90104,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "xiyundanchuan",
@@ -1356,7 +1356,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[105] = {
+	[90105] = {
 		cannon = 0,
 		name = "Kagerou Production",
 		type = 1,
@@ -1367,7 +1367,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 105,
+		id = 90105,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "yanyandanchuan",
@@ -1504,7 +1504,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[106] = {
+	[90106] = {
 		cannon = 0,
 		name = "Z Type Production",
 		type = 1,
@@ -1515,7 +1515,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 106,
+		id = 90106,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "Ztingdanchuan",
@@ -1661,7 +1661,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[107] = {
+	[90107] = {
 		cannon = 0,
 		name = "Nagara Production",
 		type = 2,
@@ -1672,7 +1672,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 107,
+		id = 90107,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "changliangdanchuan",
@@ -1816,7 +1816,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[108] = {
+	[90108] = {
 		cannon = 0,
 		name = "Isuzu Production",
 		type = 2,
@@ -1827,7 +1827,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 108,
+		id = 90108,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "changliangdanchuan",
@@ -1971,7 +1971,7 @@ pg.enemy_data_statistics_1 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[109] = {
+	[90109] = {
 		cannon = 0,
 		name = "Kuma Production",
 		type = 2,
@@ -1982,7 +1982,7 @@ pg.enemy_data_statistics_1 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 109,
+		id = 90109,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "qiumodanchuan",
@@ -2076,6 +2076,154 @@ pg.enemy_data_statistics_1 = {
 							1.014,
 							1.123,
 							-0.041
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90110] = {
+		cannon = 0,
+		name = "Sendai Production",
+		type = 2,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 1,
+		armor = 0,
+		id = 90110,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "chuanneidanchuan",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 200,
+		wave_fx = "danchuanlanghuazhong2",
+		prefab = "chuanneidanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.74,
+					1.28,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.18,
+					0.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.13,
+							0.77,
+							-0.48
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.67,
+							1.02,
+							-0.19
 						}
 					}
 				}

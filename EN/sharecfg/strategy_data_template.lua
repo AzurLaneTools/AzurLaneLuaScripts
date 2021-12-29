@@ -502,6 +502,86 @@ pg.strategy_data_template = {
 		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
 		arg = {}
 	},
+	[8909] = {
+		buff_id = 0,
+		name = "Search and Destroy Protocol",
+		type = 10,
+		iconSize = "",
+		id = 8909,
+		icon = "8909",
+		desc = "All Sirens in the area will reposition to engage your fleets.",
+		arg = {}
+	},
+	[8910] = {
+		buff_id = 0,
+		name = "Missile Strike Area",
+		type = 10,
+		iconSize = "",
+		id = 8910,
+		icon = "8910",
+		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 3",
+		arg = {}
+	},
+	[8911] = {
+		buff_id = 0,
+		name = "Missile Strike Area",
+		type = 10,
+		iconSize = "",
+		id = 8911,
+		icon = "8911",
+		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 2",
+		arg = {}
+	},
+	[8912] = {
+		buff_id = 0,
+		name = "Missile Strike Area",
+		type = 10,
+		iconSize = "",
+		id = 8912,
+		icon = "8912",
+		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 1",
+		arg = {}
+	},
+	[8913] = {
+		buff_id = 0,
+		name = "Ground Zero Protocol",
+		type = 10,
+		iconSize = "",
+		id = 8913,
+		icon = "8913",
+		desc = "A Siren weather control device is generating a hazardous zone that expands every time your fleets move. Proceed with caution.",
+		arg = {}
+	},
+	[8914] = {
+		buff_id = 0,
+		name = "Missile Strike Area",
+		type = 10,
+		iconSize = "",
+		id = 8914,
+		icon = "8914",
+		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 3",
+		arg = {}
+	},
+	[8915] = {
+		buff_id = 0,
+		name = "Missile Strike Area",
+		type = 10,
+		iconSize = "",
+		id = 8915,
+		icon = "8915",
+		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 2",
+		arg = {}
+	},
+	[8916] = {
+		buff_id = 0,
+		name = "Missile Strike Area",
+		type = 10,
+		iconSize = "",
+		id = 8916,
+		icon = "8916",
+		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 1",
+		arg = {}
+	},
 	[9211] = {
 		buff_id = 9211,
 		name = "Dragon Palace's Boon - White Waves",
@@ -1357,6 +1437,14 @@ pg.strategy_data_template = {
 		8880,
 		8882,
 		8884,
+		8909,
+		8910,
+		8911,
+		8912,
+		8913,
+		8914,
+		8915,
+		8916,
 		9211,
 		9212,
 		9213,

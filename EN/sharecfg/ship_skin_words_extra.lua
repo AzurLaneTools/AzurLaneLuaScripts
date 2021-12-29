@@ -87,6 +87,38 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[801040] = {
+		main_extra = "",
+		feeling3 = "",
+		unlock = "",
+		lose = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling4 = "",
+		skill = "",
+		feeling1 = "",
+		mail = "",
+		touch = "",
+		profile = "",
+		login = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 801040,
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"Now that I think about it, whenever I'm around you, Commander, my heart always feels fluttery and I can't calm down... Wait, could this be... the Magic of Love?!"
+			}
+		}
+	},
 	[108030] = {
 		main_extra = "",
 		feeling3 = "",
@@ -337,6 +369,43 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"I completely understand what it means to be an idol now. It's about using my abilities to their fullest to sing brilliant, emotionally touching songs to the world. \"Thank you,\" Master."
+			}
+		}
+	},
+	[301090] = {
+		main_extra = "",
+		feeling3 = "",
+		unlock = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		profile = "",
+		mail = "",
+		lose = "",
+		login = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 301090,
+		detail = "",
+		main = {
+			{
+				100,
+				"nil|Hibiki, I won't let myself get lost over something like that ever again!|nil"
+			}
+		},
+		touch = {
+			{
+				100,
+				"Hibiki? Oh, it's just you, Commander..."
 			}
 		}
 	},
@@ -6898,12 +6967,399 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[403100] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		mission = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 403100,
+		login = {
+			{
+				1100,
+				"Howdy. Finished charging your batteries? I can help if you still need more energy."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I'm gonna open the window and get some fresh air in here. C'mon! Breathe in, breathe out!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Yeah, hey... Hmm... Huh? Me? I'm as carefree as can be. What about you? Something you wanna get off your chest?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Man, your desk is just loaded with neat stuff. Hehehe, ain't never a dull moment in your office~|I'm like a human shredder, tearing paperwork you don't wanna do into ribbons... Hmm. You sure you can still manage with this amount?|It's not so bad doing the same task all day when you've got someone to vibe with~|Heard Strasser sat Heinrich down and made her read a book for once. Maybe I should find something to read before bedtime."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You've really got a, uh, keen interest in women's bodies."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You down to hang out with me today? Ah, right, you've got work... Tell you what, I'll help you with it. First order of business: putting a smile on your face~"
+			}
+		}
+	},
+	[402060] = {
+		upgrade = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		win_mvp = "",
+		mission_complete = "",
+		unlock = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		battle = "",
+		id = 402060,
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Oh yeah, I'm in the zone! So, what are we doin' today, buddy?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good, you're back! I won't even have to lift a finger if you keep this performance up! Ahahaha!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Huh? Uhh... Guess I don't mind..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Too slow, Commander! Hahaha! To be fair, keepin' up with my pace ain't easy. I can teach you a way to run faster, if you're interested."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, why don't ya try a somersault for yourself? Don't be scared now, I'll catch you to make sure you don't get hurt.|You slackin' again? Heheh, well, that's a forehead-flicking right there! ...Oh, crap, did I overdo it? Sorry, buddy. I'll go easy on ya next time.|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Brofist coming at you! Intercept! Hahahaha!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Every new mission's a new challenge! C'mon, let's get it done!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hm? Whuh...? I can't put my finger on what I'm feeling here..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Now that we've gone from homies to like, hand-holding homies, I don't know where to take things from here... \"Don't worry about it?\" Yeah, guess you're right! We got to this point by just going with the flow, so let's stick to that!"
+			}
+		}
+	},
+	[405030] = {
+		feeling4 = "",
+		feeling3 = "",
+		profile = "",
+		main = "",
+		upgrade = "",
+		unlock = "",
+		feeling2 = "",
+		skill = "",
+		id = 405030,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"You finally showed up... but you're not needed anymore. Hehehe. Don't just stand there in shock, guess what I did for you."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I want you to tell me whether you're satisfied with my performance or not."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I was able to bring everyone back... safely."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Are you alright? ...I don't doubt my ability to take care of my subordinates' safety, but I can't help but worry about you... Tell me, are you really alright?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'll mow all of you down!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Does being pampered like this irritate you?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"What's wrong? Did something happen? You're not acting like yourself... Trust in others like you trust in me, that's how you'll put those girls at ease. Of course, the same goes for me."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Even though you do so well when I pamper you, you refuse to be pampered when you're not doing well... Hmph. You're just like those little kitties in the most peculiar ways...|If you're really dying to find out what's behind the Mysteries of the Port, I won't stop you. I'll even accompany you. It'll be a good way of spending time with you.|Focus more on myself? It seems like you don't understand. It's because I'm focusing on myself that I do all these things for you.|As the one and only Commander, make sure you love as many people as you can. You don't need to worry about me.|When you neglect your health, think about the people who would be sad if you collapsed. I, for one, don't want to feel sad."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"This is how our relationship together is. I don't know why you're getting all flustered about it at this point..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Looks like the fleet is back after their commissions. Don't you want to look at their beaming smiles?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"There's a new mission. I did the parts I could help out with. I'll leave the rest to you."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete. Feeling a bit tired? Let's take a break until you've recovered enough energy."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Here's some mail for you. I broke the seals for you, is that alright?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Do you want to find out which of us has less self-restraint?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Stay still. Don't wander away. I can't leave the one I absolutely adore alone. If someone actually tried to tear the two of us apart... Hehehe... Let's just say, I'd tell them to eat shit."
+			}
+		}
+	},
+	[406020] = {
+		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 406020,
+		lose = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. Where shall we head to today? Hehehe."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We did it, Commander! ...A-aren't you going to praise me?!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Great work out there, Commander. Hehe, did you expect to come back to a nice meal? Too bad for you, I left one of the side dishes out today♪ Ahahaha~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I've been thinking... Isn't it pretty unusual for you to be the one who always makes coffee for me? I mean, even if I'm a bad girl, you're still my superior, and... you can't leave out my sugar on purpose like that!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hehehe, I went and swapped around some of the forms you're supposed to work on. Will you finally admit that I'm a bad girl now?|Once this war is over, maybe I can go back to being a good girl... B-but, that's only if you promise that you'll always stay with me!|As your secretary ship, I'll make sure that I work myself to the bone! Now now, leave all of your work to me, and wallow in your pangs of guilt~♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"My gorgeous body can even withstand battles! Hehe, you can keep admiring me♪"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"If they make you fill out a reflection form for not completing your missions on time, leave it to me! Ehehe♪"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Here are the mission rewards. Your beaming face is enough to make it worthwhile."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"A-aren't you too enthusiastic about this?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I always thought that being a bad girl would keep you interested in me, but... sometimes, I just want to be a good girl who clings to your side... O-only every once in a while though, got it...?"
+			}
+		}
+	},
+	[408120] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		feeling1 = "",
+		skill = "",
+		battle = "",
+		id = 408120,
+		lose = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Hey, Commander! We're gonna hang out again after work is over, remember that!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Victory! Hehehe! We did it, Commander!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Open sesame! Kidding~ I'll just open the door like normal for you!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehehe, I like this!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Okay, so... I'm meant to press this blue button instead of the red one on the AC... Achoo! Aww, dang it... I pressed the red one without even thinking about it!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I've got an idea! Hehehe, lemme just push this button... There we go! Fan's on now! Enjoy that cool air!|nil|Your documents are printed and good to go! I made sure to read the instructions this time! ...Agh, the text is on both sides of the paper! How'd this happen?!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"It's always you touching me! Let me touch you for once!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"You've got new mail! I'll open it for y– Phew. I nearly did it again... Here you are! Your unopened mail!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hehehe~ Don't be shy~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander! Do you have time right now? Then come play with me! I remember you saying you would! Oh, we're gonna have so, sooo much fun later!"
+			}
+		}
+	},
 	all = {
 		999010,
+		801040,
 		108030,
 		999011,
 		207050,
 		905030,
+		301090,
 		305140,
 		306070,
 		301260,
@@ -7007,6 +7463,11 @@ pg.ship_skin_words_extra = {
 		10800040,
 		10800030,
 		10800050,
-		10800020
+		10800020,
+		403100,
+		402060,
+		405030,
+		406020,
+		408120
 	}
 }

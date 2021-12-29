@@ -178,7 +178,7 @@ function slot0.isSelectable(slot0)
 end
 
 function slot0.judgeOverflow(slot0, slot1, slot2, slot3)
-	return uv0.StaticJudgeOverflow(slot1, slot2, slot3, slot0:getTaskStatus() == 1, slot0:getConfig("visibility") == 1, slot0:getConfig("award_display"))
+	return uv0.StaticJudgeOverflow(slot1, slot2, slot3, slot0:getTaskStatus() == 1, slot0:ShowOnTaskScene(), slot0:getConfig("award_display"))
 end
 
 function slot0.StaticJudgeOverflow(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -283,6 +283,20 @@ function slot0.IsOverflowShipExpItem(slot0)
 	end
 
 	return false
+end
+
+function slot0.ShowOnTaskScene(slot0)
+	slot1 = slot0:getConfig("visibility") == 1
+
+	if slot0.id == 17268 then
+		slot1 = false
+
+		if getProxy(ActivityProxy):getActivityById(ActivityConst.BUILDING_NEWYEAR_2022) and not slot2:isEnd() then
+			slot1 = (slot2.data1KeyValueList[2][17] or 1) >= 4 and (slot2.data1KeyValueList[2][18] or 1) >= 4
+		end
+	end
+
+	return slot1
 end
 
 return slot0

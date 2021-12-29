@@ -300,10 +300,10 @@ pg.item_data_frame = {
 	[317] = {
 		time_limit_type = 0,
 		name = "Mark of Transcendence",
-		gain_by = "",
+		gain_by = "逆转彩虹之塔",
 		id = 317,
 		time_second = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>A bridge that spans beyond reality. Is it Heaven or Hell that awaits us on the other side?</color>Obtained from the \"Tower of Transcendence\" event.",
 		scene = {}
 	},
 	[406] = {

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4189",
+		param = "4191",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					23
+					29
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2022,
 					1,
-					19
+					13
 				},
 				{
 					23,
@@ -33,16 +33,53 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4187",
 		id = 2,
 		pic = "temp2",
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectname = "new"
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4201",
+		id = 3,
+		pic = "temp3",
 		type = 3,
 		time = {
 			{
 				{
 					2021,
 					12,
-					23
+					29
 				},
 				{
 					0,
@@ -54,7 +91,7 @@ pg.activity_banner = {
 				{
 					2022,
 					1,
-					19
+					13
 				},
 				{
 					23,
@@ -65,8 +102,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 3,
-		pic = "temp3",
+		id = 4,
+		pic = "temp4",
 		type = 2,
 		param = {
 			"scene skinshop",
@@ -77,39 +114,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4185",
-		id = 4,
-		pic = "temp4",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
+					29
 				},
 				{
 					0,
@@ -136,14 +141,17 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene back yard"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2021,
 					12,
-					23
+					29
 				},
 				{
 					0,
@@ -166,16 +174,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4183",
 		id = 6,
 		pic = "temp6",
-		type = 3,
+		type = 2,
+		param = {
+			"scene back yard"
+		},
 		time = {
 			{
 				{
 					2021,
 					12,
-					16
+					29
 				},
 				{
 					0,
@@ -185,9 +195,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					29
+					2022,
+					1,
+					12
 				},
 				{
 					23,
@@ -211,72 +221,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					11,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
 					12,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4140",
-		id = 8,
-		pic = "temp8",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					10,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "",
-		id = 9,
-		pic = "temp99",
-		type = 9,
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
+					29
 				},
 				{
 					0,
@@ -299,16 +245,80 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-		id = 10,
-		pic = "christmas",
-		type = 10,
+		param = "4189",
+		id = 8,
+		pic = "temp8",
+		type = 3,
 		time = {
 			{
 				{
 					2021,
 					12,
 					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "",
+		id = 9,
+		pic = "temp99",
+		type = 9,
+		time = {
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
+		id = 10,
+		pic = "jingbing",
+		type = 10,
+		time = {
+			{
+				{
+					2021,
+					12,
+					29
 				},
 				{
 					0,

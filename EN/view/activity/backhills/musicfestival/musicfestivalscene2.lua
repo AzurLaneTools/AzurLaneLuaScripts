@@ -42,7 +42,7 @@ function slot0.init(slot0)
 		setParent(tf(Instantiate(slot3.prefabItem[slot7 - 1])), slot0._map)
 	end
 
-	slot0.loader = ThirdAnniversaryAutoloader.New()
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.didEnter(slot0)

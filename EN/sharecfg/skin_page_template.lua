@@ -90,6 +90,12 @@ pg.skin_page_template = {
 		res = "jianianhua",
 		english_name = "Bunny Girl"
 	},
+	[17] = {
+		id = 17,
+		name = "Maid",
+		res = "nvpu",
+		english_name = "Maid"
+	},
 	[9999] = {
 		id = 9999,
 		name = "其他",
@@ -112,6 +118,7 @@ pg.skin_page_template = {
 		14,
 		15,
 		16,
+		17,
 		9999
 	}
 }

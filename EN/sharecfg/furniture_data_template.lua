@@ -4584,6 +4584,126 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[216] = {
+		effect = "",
+		name = "Model Iron Blood Café",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		picture = "chuanmo/cafe_en",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Your go-to spot for tonics, fizzy drinks, and authentic Iron Blood cuisine.",
+		tag = 6,
+		icon = "cafe_enicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 216,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[217] = {
+		effect = "",
+		name = "Model Royal Navy Teahouse",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		picture = "chuanmo/cafe_ger",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The only place in port where you can savor over 50 different kinds of tea.",
+		tag = 6,
+		icon = "cafe_gericon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 217,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[218] = {
+		effect = "",
+		name = "Model Tower of Midgard",
+		gain_by = "Tower of Transcendence",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A scale model of the Iron Blood's Singularity generator. Given to Commanders who participated in the Tower of Transcendence event.",
+		tag = 6,
+		icon = "dexiurxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 218,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"dexiurxunzhangB",
+				"normal"
+			},
+			{
+				"dexiurxunzhangT"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -5595,6 +5715,61 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100017] = {
+		effect = "",
+		name = "Full Lunar Phase Simulator",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The moon is beautiful, isn't it?",
+		tag = 6,
+		icon = "yueicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100017,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yue",
+				"normal",
+				{
+					"action",
+					true,
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100018] = {
 		effect = "",
 		name = "Summer Bubble Pool",
@@ -5921,6 +6096,172 @@ pg.furniture_data_template = {
 					"houzhai_yanhua"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[200001] = {
+		effect = "",
+		name = "The Conquered Unhulde's Throne",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "All you see is part of a fleeting fantasy, so escape from reality and relish in your vanity.",
+		themeId = 0,
+		icon = "aogusite_2_furicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		belong = 1,
+		canputon = 0,
+		id = 200001,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"aogusite_2_fur",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					499061
+				},
+				"furniture",
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[200002] = {
+		effect = "",
+		name = "After-Hours Café Counter",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Adalbert, this is a café, not a hotel... Please get off the counter.\"",
+		themeId = 0,
+		icon = "p2_2_furicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		belong = 1,
+		canputon = 0,
+		id = 200002,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"P2_2_furB",
+				"normal"
+			},
+			{
+				"P2_2_furT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					403101
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -86024,6 +86365,1286 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[85001] = {
+		icon = "dibancafe2icon",
+		name = "Port Café Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 85,
+		picture = "cafe2/dibancafe2",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "A tad old, indicating the café has prospered for a long time.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 85001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85002] = {
+		icon = "qiangbicafe2icon",
+		name = "Port Café Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 85,
+		picture = "cafe2/qiangbicafe2",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "The weathered look makes it feel more homely.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 85002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85101] = {
+		effect = "",
+		name = "Food-Adorned Eisen Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/diaoxiangcafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Apparently you can teach riggings to serve food.",
+		tag = 1,
+		icon = "diaoxiangcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85102] = {
+		effect = "",
+		name = "Cat Paw Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/ditancafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"You could call that a cat-pet! Or a pawr-pet! No? Sorry, I'll see myself out...\"",
+		tag = 1,
+		icon = "ditancafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85102,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85103] = {
+		effect = "",
+		name = "Café Counter Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/gaojiaodengcafe2",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Try to resist the urge to spin on it.",
+		tag = 1,
+		icon = "gaojiaodengcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85106] = {
+		effect = "",
+		name = "Café Counter",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/guitaicafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "No need for cream or sugar. The staff is already diabetes-inducingly sweet.",
+		tag = 1,
+		icon = "guitaicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85106,
+		can_rotate = 0,
+		size = {
+			12,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85107] = {
+		effect = "",
+		name = "Café Menu Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/lipaicafe2",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "They serve 50 different kinds of coffee. Can you believe that?",
+		tag = 1,
+		icon = "lipaicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85107,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85109] = {
+		effect = "",
+		name = "Café Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/lvzhicafe2",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A gift from good ol' Cleveland. Take good care of it.",
+		tag = 1,
+		icon = "lvzhicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85112] = {
+		effect = "",
+		name = "Café Cat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/maowocafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "They're not so bad when they're not making a mess of the place.",
+		tag = 1,
+		icon = "maowocafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85112,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85113] = {
+		effect = "",
+		name = "Café Maidjuu 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/nvpujicafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Cleanup at table 4!",
+		tag = 1,
+		icon = "nvpujicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85114] = {
+		effect = "",
+		name = "Café Maidjuu 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/nvpuji2cafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "When you're ready to order, just give her a peep.",
+		tag = 1,
+		icon = "nvpuji2cafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85115] = {
+		effect = "",
+		name = "Café Couch 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cafe2/ruanzuocafe2",
+		is_get_time_note = 0,
+		themeId = 85,
+		count = 4,
+		is_3d_obj = 0,
+		describe = "A great place to relax with a book and a cup of coffee.",
+		tag = 1,
+		icon = "ruanzuocafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85115,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					16.7,
+					23
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85119] = {
+		effect = "",
+		name = "Café Bookshelf",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/shuguicafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Just like the menu, there's something here for everyone's tastes.",
+		tag = 1,
+		icon = "shuguicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85119,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85120] = {
+		effect = "",
+		name = "Café Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/taidengcafe2",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "One of the most vintage items in the whole café.",
+		tag = 1,
+		icon = "taidengcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85120,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85123] = {
+		effect = "",
+		name = "Pile of Plushies",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cafe2/wanjuduicafe2",
+		is_get_time_note = 0,
+		themeId = 85,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Join the collective cushiness.",
+		tag = 1,
+		icon = "wanjuduicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85123,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					40.2
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wanjuduicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85124] = {
+		effect = "",
+		name = "Café Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cafe2/wutaicafe2",
+		is_get_time_note = 0,
+		themeId = 85,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "All the world's a stage, and all the manjuus and shipgirls merely players.",
+		tag = 1,
+		icon = "wutaicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85124,
+		can_rotate = 0,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-23.4,
+					17.9
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wutaicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85125] = {
+		effect = "",
+		name = "Gentlemanjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/zhishijicafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The name \"Butjuu\" didn't resonate with people.",
+		tag = 1,
+		icon = "zhishijicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85126] = {
+		effect = "",
+		name = "Café Comf-Fort",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "And on the battlements of his fort sat the one true top cat to rule them all.",
+		themeId = 85,
+		icon = "maopajiacafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85126,
+		can_rotate = 0,
+		size = {
+			8,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajiaB",
+				"normal"
+			},
+			{
+				"maopajiaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[85127] = {
+		effect = "",
+		name = "Café Couch 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/ruanzuobcafe2",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "A great place to savor some hot cocoa and a pastry.",
+		tag = 1,
+		icon = "ruanzuobcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85127,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85131] = {
+		effect = "",
+		name = "Café Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/zuozicafe2",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "Don't leave your food here for too long, or the cats might come and have a taste.",
+		tag = 1,
+		icon = "zuozicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 85131,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {
+			0,
+			61.33
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85201] = {
+		effect = "",
+		name = "Rice Omelette",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/danbaofancafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's got your name on it. How cute!",
+		tag = 2,
+		icon = "danbaofancafe2icon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85202] = {
+		effect = "",
+		name = "Cloche",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/fencafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "For displaying food that's almost too pretty to eat.",
+		tag = 2,
+		icon = "fencafe2icon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85202,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85203] = {
+		effect = "",
+		name = "Table Number List",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/canpaicafe2",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "A handy reminder for the newbies who don't have it memorized yet.",
+		tag = 2,
+		icon = "canpaicafe2icon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 85203,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85301] = {
+		effect = "",
+		name = "Counter Shelves",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/bichucafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "There's a secret button hidden under the bottom shelf. Don't let U-1206 know.",
+		tag = 5,
+		icon = "bichucafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 85301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85302] = {
+		effect = "",
+		name = "Café Window 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/chuchuangcafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Why not watch the setting sun with a fragrant cuppa joe in hand?",
+		tag = 5,
+		icon = "chuchuangcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 85302,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85303] = {
+		effect = "",
+		name = "Café Window 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/chuchuang2cafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Why not watch the setting sun with a fragrant cuppa joe in hand?",
+		tag = 5,
+		icon = "chuchuang2cafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 85303,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85304] = {
+		effect = "",
+		name = "Framed Butterflies",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/guahuacafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Shangri-La knows all these species by heart.",
+		tag = 5,
+		icon = "guahuacafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 85304,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85305] = {
+		effect = "",
+		name = "Hanging Café Sign",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/guapaicafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Subtly hints at what you're in for: cats and manjuus.",
+		tag = 5,
+		icon = "guapaicafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		id = 85305,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85306] = {
+		effect = "",
+		name = "Café Blackboard",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/heibancafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Look close and you'll find charming messages left by the café staff.",
+		tag = 5,
+		icon = "heibancafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 85306,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85307] = {
+		effect = "",
+		name = "Café Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/mengcafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Opening and closing hours vary wildly.",
+		tag = 5,
+		icon = "mengcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		id = 85307,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85308] = {
+		effect = "",
+		name = "Café Clock",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/shizhongcafe2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "When the hands show 6 PM, that's when the café becomes a bar.",
+		tag = 5,
+		icon = "shizhongcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		id = 85308,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85309] = {
+		effect = "",
+		name = "Café Wall Lamp",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 85,
+		is_get_time_note = 0,
+		picture = "cafe2/bidengcafe2",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "Dim during the day, bright during the night.",
+		tag = 5,
+		icon = "bidengcafe2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 85309,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -86121,6 +87742,9 @@ pg.furniture_data_template = {
 		212,
 		214,
 		215,
+		216,
+		217,
+		218,
 		100002,
 		100003,
 		100004,
@@ -86134,11 +87758,14 @@ pg.furniture_data_template = {
 		100014,
 		100015,
 		100016,
+		100017,
 		100018,
 		100019,
 		100021,
 		100022,
 		100023,
+		200001,
+		200002,
 		200003,
 		1001,
 		1002,
@@ -87971,6 +89598,38 @@ pg.furniture_data_template = {
 		84184,
 		84185,
 		84186,
-		84301
+		84301,
+		85001,
+		85002,
+		85101,
+		85102,
+		85103,
+		85106,
+		85107,
+		85109,
+		85112,
+		85113,
+		85114,
+		85115,
+		85119,
+		85120,
+		85123,
+		85124,
+		85125,
+		85126,
+		85127,
+		85131,
+		85201,
+		85202,
+		85203,
+		85301,
+		85302,
+		85303,
+		85304,
+		85305,
+		85306,
+		85307,
+		85308,
+		85309
 	}
 }

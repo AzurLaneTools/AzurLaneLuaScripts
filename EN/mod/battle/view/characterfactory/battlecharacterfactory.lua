@@ -179,9 +179,9 @@ function slot2.RemoveCharacter(slot0, slot1, slot2)
 	if slot1:GetUnitData():GetTemplate().nationality and table.contains(uv0.SWEET_DEATH_NATIONALITY, slot3) then
 		-- Nothing
 	elseif not slot2 or slot2 == uv1.Battle.BattleConst.UnitDeathReason.KILLED then
-		slot4, slot5 = slot0:GetFXPool():GetFX(slot0.BOMB_FX_NAME)
+		slot5, slot6 = slot0:GetFXPool():GetFX(slot1:GetUnitData():GetDeadFX() or slot0.BOMB_FX_NAME)
 
-		pg.EffectMgr.GetInstance():PlayBattleEffect(slot4, slot5:Add(slot1:GetPosition()), true)
+		pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot6:Add(slot1:GetPosition()), true)
 	end
 
 	slot1:Dispose()

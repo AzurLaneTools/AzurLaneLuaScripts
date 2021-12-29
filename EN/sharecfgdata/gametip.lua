@@ -2896,6 +2896,10 @@ _G.pg.gametip.ship_equipToShip_error_noEquip = {
 	tip = "Gear does not exist."
 }
 
+_G.pg.gametip.ship_equip_check = {
+	tip = "You can toggle this element on/off from the Settings menu"
+}
+
 _G.pg.gametip.ship_getShip_error = {
 	tip = "Failed to deploy ship: "
 }
@@ -9755,7 +9759,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Rate UP for Rikka Takarada, Akane Shinjo, Yume Minami, and more!"
+	tip = "Build 200 times to receive a guaranteed copy of Ulrich von Hutten! (Up to 4 copies can be claimed this way)"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -11298,6 +11302,10 @@ Prototype Twin 90mm High Angle Gun Mount</color></size>]]
 
 _G.pg.gametip.electrotherapy_wanning = {
 	tip = "The electrified area is about to expand"
+}
+
+_G.pg.gametip.siren_chase_warning = {
+	tip = "Expanding Hazard Zone"
 }
 
 _G.pg.gametip.memorybook_get_award_tip = {
@@ -19135,6 +19143,54 @@ _G.pg.gametip.word_frame = {
 	tip = " FPS"
 }
 
+_G.pg.gametip.Settings_title_Redeem_input_label = {
+	tip = "Serial Code:"
+}
+
+_G.pg.gametip.Settings_title_Redeem_input_submit = {
+	tip = "Submit"
+}
+
+_G.pg.gametip.Settings_title_Redeem_input_placeholder = {
+	tip = "Only accepts alphanumeric characters"
+}
+
+_G.pg.gametip.CurlingGame_tips1 = {
+	tip = {
+		{
+			info = [[
+- Overview -
+· Strategically position the swole Meowfficer and slide the curling stone as close to the red circle as you can to score points.
+· A new round of Manjuu Curling will be unlocked every day at midnight up to January 4th. Complete them all to obtain Southampton's Afternoon Impromptu skin.
+
+- How to Play -
+· Every round of Manjuu Curling consists of 3 curling stone slides. One new round a day is unlocked during the event period.
+· Press and hold the Meowfficer to change the curling stone's launch speed. The longer you press, the faster it will go. Let go when you wish to launch the curling stone.
+· While your finger is on the Meowfficer, you move it up and down on the screen to change the curling stone's course.
+· The curling stone's course will change if it bumps into an object.
+· When the curling stone comes to a stop, you will score points based on which circle it stopped inside. Stopping in the blue circle gives you 300 points, the yellow circle gives you 500 points, and the red circle gives you 1,000 points.]]
+		}
+	}
+}
+
+_G.pg.gametip.maid_task_tips1 = {
+	tip = {
+		{
+			info = [[
+- Overview -
+· The Tonic and Tea mini-event centers around a story of two competing shops – a Royal Navy teahouse and an Iron Blood café.
+· Complete event missions to earn Store Upgrade Permits. These permits can be used to upgrade the shops around the New Year's Port.
+
+- How to Play -
+· 2 new event missions will be unlocked every day up to January 4th. Complete these missions to earn Store Upgrade Permits.
+· You can use your Store Upgrade Permits to upgrade the Royal Navy Teahouse and Iron Blood Café found on the New Year's Port screen.
+· Upgrading these shops will provide your fleet with buffs that last for the entire duration of the event.
+· Once you complete all the event missions, you can go to the event banner to claim a piece of exclusive furniture.
+· Upgrading all shops to level 4 will unlock a set of hidden missions. Completing these will allow you to see how the entire event story plays out.]]
+		}
+	}
+}
+
 _G.pg.gametip.shop_diamond_title = {
 	tip = "Gems"
 }
@@ -19149,4 +19205,107 @@ _G.pg.gametip.shop_item_title = {
 
 _G.pg.gametip.shop_charge_level_limit = {
 	tip = " Unlocks at Lv."
+}
+
+_G.pg.gametip.backhill_cantupbuilding = {
+	tip = "The $1 must be upgraded before you can proceed."
+}
+
+_G.pg.gametip.pray_cant_tips = {
+	tip = "Hang up Ema to receive Offerings to use at the Shrine."
+}
+
+_G.pg.gametip.help_xinnian2022_feast = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The New Year Port campaign encompasses the following:
+· A shrine to make offerings to and receive blessings from.
+· Tonic and Tea, a story-focused mini-event centered around the Royal Navy and Iron Blood.
+· The Fireworks Workshop.
+· The Manjuu Curling minigame.
+
+- Shrine Info -
+· You will receive 1 Ema every day of the campaign. You can hold up to 7 Ema at a time.
+· Ema can be hung up at the Shrine as decorations. Hanging up the Ema will grant your ships handy buffs, and will also grant you 1 Origami Crane per Ema hung up.
+· Collecting 7 Origami Cranes will reward you with the New Year's Invitation.
+· Using the New Year's Invitation presents you with a selection of SR ships to choose from. The ship you choose will be added to your dock.
+
+- Tonic and Tea Mini-Event Info -
+· This mini-event follows the story of a competition between the Royal Navy and the Iron Blood as they both strive to earn the title of best shop in port.
+· Complete mini-event missions to receive Shop Upgrade Permits which can be used to upgrade either of the shops.
+· Upgrading the shops will grant your ships useful buffs that last the duration of the whole campaign.
+· Once you've completed all missions, you can head to the event banner to claim a piece of exclusive furniture. You will also gain access to a set of hidden missions that can be completed to see more of the story.
+
+- Fireworks Workshop Info -
+· The Fireworks Workshop is back! You will receive 1 minigame point every day of the campaign. You can hold up to 7 minigame points at a time.
+· Using the Fireworks Workshop uses up 1 minigame point and grants you 1 Fireworks Ticket.
+· Once you've collected 7 Fireworks Tickets, head to the event banner to trade them in for the Elite Iron Blood destroyer Z28.
+
+- Manjuu Curling Info -
+· Strategically position the swole Meowfficer and slide the curling stone as close to the red circle as you can to score points.
+· A new round of Manjuu Curling will be unlocked every day of the campaign. Complete them all to obtain Southampton's skin – Afternoon Impromptu.]]
+		}
+	}
+}
+
+_G.pg.gametip.Pray_activity_tips1 = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Shrine is a place where you can come and offer your prayers and hang up Ema. Praying and decorating with Ema will grant your ships temporary buffs.
+In addition to providing buffs, hanging up Ema will also grant you 1 Origami Crane per Ema hung up. Collecting 7 Origami Cranes will reward you with the New Year's Invitation, which can be used to select an SR ship to add to your dock.
+
+- Decorating with Ema -
+· You will receive 1 Ema every day of the campaign. You can hold up to 7 Ema at a time.
+· Ema can be hung up at the Shrine as decorations. You get several things for doing so:
+1. A buff that applies to all your ships for a limited time. Which buff you receive depends on the Ema you used.
+2. 1 Origami Crane. Collecting 7 of these will reward you with the New Year's Invitation.
+3. 2 Offerings which can be used at the Shrine to pray for additional buffs.
+· Note that only 1 Ema buff can be active at a time. If you use another Ema before the effect of the previous buff has worn off, the new buff will replace it.
+
+- Making Offerings -
+· You receive Offerings by hanging up Ema. Each Ema hung up grants 2 Offerings.
+· Making an offering presents you with 3 different buffs to choose from. All your ships can benefit from these buffs, and they are in effect in most game modes.
+· Note that only 1 Offering buff can be active at a time. If you make another Offering before the effect of the previous buff has worn off, the new buff will replace it.]]
+		}
+	}
+}
+
+_G.pg.gametip.backhill_notenoughbuilding = {
+	tip = "You don't have enough Shop Upgrade Permits. Complete <color=#92fc63>Tonic and Tea</color> event missions to earn more."
+}
+
+_G.pg.gametip.help_xinnian2022_z28 = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Fireworks Workshop allows you to create your own unique fireworks and send them off with a bang. Doing so awards you with Fireworks Tickets, which can be traded in for the Elite Iron Blood destroyer Z28.
+
+- Fireworks Workshop Info -
+· You will receive 1 minigame point to use at the Fireworks Workshop every day of the campaign. You can hold up to 7 minigame points at a time.
+· Using the Fireworks Workshop uses up 1 minigame point and grants you 1 Fireworks Ticket at the end of the firework-making process.
+· Once you've collected 7 Fireworks Tickets, head to the event banner to trade them in for the Elite Iron Blood destroyer Z28.]]
+		}
+	}
+}
+
+_G.pg.gametip.help_xinnian2022_firework = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Fireworks Workshop allows you to create your own unique fireworks and send them off with a bang. Every minigame point spent at the Fireworks Workshop will earn you 1 Origami Crane, which can be traded in for the Elite Iron Blood destroyer Z28.
+
+- How to Make Fireworks -
+1. Press Start to begin creating your firework.
+2. Each firework is made up of three components: inner, middle, and outer layers. Click on the colored element balls to add them to the firework. The chosen elements change the firework's colors. You can swap an already selected element for another, clear the slot, or swap with another layer.
+3. When all three layers have been selected, press Start to begin filling the firework. A minigame point will be used to begin filling.
+4. After successfully filling fireworks 3 times, you can press the Launch Fireworks button next to the Fireworks Workshop to use the fireworks you most recently produced.
+5. If you wish to change the fireworks configuration, you will need to use the Fireworks Workshop again.]]
+		}
+	}
 }

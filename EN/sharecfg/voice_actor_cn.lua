@@ -1183,5 +1183,21 @@ pg.voice_actor_CN = {
 	{
 		code = 296,
 		actor_name = "Anzai Chika "
+	},
+	{
+		code = 297,
+		actor_name = "Hara Natsuko"
+	},
+	{
+		code = 298,
+		actor_name = "Matsuda Satsumi "
+	},
+	{
+		code = 299,
+		actor_name = "Hieda Nene"
+	},
+	{
+		code = 300,
+		actor_name = "Nomura Mayuka"
 	}
 }

@@ -55141,6 +55141,1330 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	},
+	[14980] = {
+		desc_get = "",
+		name = "Get Hyped!",
+		id = 14980,
+		type = 1,
+		max_level = 10,
+		desc = "When the fleet this ship is in sinks an enemy fleet: increases this ship's DMG dealt by $1 (can be stacked up to 4 times). When this ship sinks an enemy in combat: increases this ship's ACC and EVA by $2 (can be stacked up to 4 times).",
+		system_transform = {
+			[51.0] = 14985
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[14990] = {
+		desc_get = "",
+		name = "Scorching Combo",
+		id = 14990,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's AA by $1. \n3s after the battle starts, and with a 70.0% chance every 20s: fires a $2 special barrage (DMG is based on the skill's level). If this barrage fails to activate: instead increases this ship's FP and TRP by $3 (can be stacked up to 2 times; when stacked twice: increases the barrage's proc chance to 100.0%). After the 2nd and 4th battles in a sortie: improves this barrage.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[15000] = {
+		desc_get = "",
+		name = "Bad Girl's Surprise Strike",
+		id = 15000,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AVI and ACC by $3. When this ship finishes loading an Airstrike: $1 chance to launch a $2 special airstrike (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15010] = {
+		desc_get = "",
+		name = "Good Girl at Heart",
+		id = 15010,
+		type = 2,
+		max_level = 10,
+		desc = "At the start of the battle, and when this ship launches an Airstrike: spawns a shield around the frontmost ship of your Vanguard (lasts $1s, can block up to 6 enemy shots; the shield's duration is refreshed if its spawn conditions are met while it is still active). If this shield is destroyed rather than expiring: increases this ship's DMG dealt by $2 until her next Airstrike.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"6",
+				"8"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"7"
+				},
+				{
+					"7"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15020] = {
+		desc_get = "",
+		name = "Knockout Shot",
+		id = 15020,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's ACC by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level; 10s cooldown between barrage activations).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15030] = {
+		desc_get = "",
+		name = "Taking One for the Team",
+		id = 15030,
+		type = 2,
+		max_level = 10,
+		desc = "Once every 20s, while this ship's HP is above 60.0%: spawns a shield around this ship (lasts 8s, can negate $1 total DMG); if there are other ships afloat in your Vanguard: doubles the amount of DMG this shield can negate, and this ship tanks 50.0% of the DMG your other Vanguard ships take for 8s. While this ship's HP is below 60.0%: the above effect will not activate; instead, this ship's TRP increases by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"4.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15040] = {
+		desc_get = "",
+		name = "Th-That Was an Accident!",
+		id = 15040,
+		type = 1,
+		max_level = 10,
+		desc = "Decreases this ship's OXY by $1. When this boat resurfaces, and when she retreats from battle: increases this boat's DMG dealt by $2. While this boat is retreating: increases this boat's SPD by 50.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20",
+				"10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20",
+					"-1"
+				},
+				{
+					"19",
+					"-1"
+				},
+				{
+					"18",
+					"-1"
+				},
+				{
+					"17",
+					"-1"
+				},
+				{
+					"16",
+					"-1"
+				},
+				{
+					"15",
+					"-1"
+				},
+				{
+					"14",
+					"-1"
+				},
+				{
+					"13",
+					"-1"
+				},
+				{
+					"12",
+					"-2"
+				},
+				{
+					"10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15050] = {
+		desc_get = "",
+		name = "The Laurel of Prosody",
+		id = 15050,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level; inflicts a minus $3 SPD debuff for 3s to enemies hit). When an enemy gets within close proximity of this ship: fires a $4 special barrage (DMG is based on the skill's level; 15s cooldown between activations).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"20.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"20.0%"
+				},
+				{
+					"20.0%"
+				},
+				{
+					"20.0%"
+				},
+				{
+					"20.0%"
+				},
+				{
+					"20.0%"
+				},
+				{
+					"20.0%",
+					"+10.0%"
+				},
+				{
+					"30.0%"
+				},
+				{
+					"30.0%"
+				},
+				{
+					"30.0%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15060] = {
+		desc_get = "",
+		name = "In Ridicule of Fools",
+		id = 15060,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and RLD by $1. When this ship equips a Main Gun which uses HE ammo: increases this ship's DMG dealt to Light and Medium Armor enemies by $2. At the start of the battle, if this ship is NOT the Flagship: decreases this ship's Main Gun reload time by 50.0%, but decreases her Main Gun DMG dealt by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"55.0%",
+				"45.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"55.0%",
+					"-1.0%"
+				},
+				{
+					"54.0%",
+					"-1.0%"
+				},
+				{
+					"53.0%",
+					"-1.0%"
+				},
+				{
+					"52.0%",
+					"-1.0%"
+				},
+				{
+					"51.0%",
+					"-1.0%"
+				},
+				{
+					"50.0%",
+					"-1.0%"
+				},
+				{
+					"49.0%",
+					"-1.0%"
+				},
+				{
+					"48.0%",
+					"-1.0%"
+				},
+				{
+					"47.0%",
+					"-2.0%"
+				},
+				{
+					"45.0%"
+				}
+			}
+		}
+	},
+	[15070] = {
+		desc_get = "",
+		name = "Revolutionary's Prosaic",
+		id = 15070,
+		type = 1,
+		max_level = 10,
+		desc = [[
+Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the first 5 battles of a sortie fought by a fleet this ship is NOT in, the following buffs apply to that fleet: 
+1) Decreases DMG taken by your Iron Blood ships by 5.0%; 
+2) Increases Crit DMG dealt by your Iron Blood ships by $2; 
+3) When an enemy gets within close proximity of your ships: fires a $3 supporting barrage (DMG is based on the skill's level; can only activate up to 6 times per battle; has a 5s cooldown between activations).]],
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10%",
+				"20%"
+			},
+			{
+				"1%",
+				"10%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15080] = {
+		desc_get = "",
+		name = "Revolutionary's Prosaic",
+		id = 15080,
+		type = 1,
+		max_level = 10,
+		desc = "Revolutionary's Prosaic",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -66775,6 +68099,34 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29771] = {
+		desc_get = "",
+		name = "All-Out Assault: I",
+		id = 29771,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Magdeburg once every 12 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29772] = {
+		desc_get = "",
+		name = "All-Out Assault: II",
+		id = 29772,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Magdeburg once every 8 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[101010] = {
 		desc_get = "",
 		name = "Protagonist Aura",
@@ -77679,6 +79031,17 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		14950,
 		14960,
 		14970,
+		14980,
+		14990,
+		15000,
+		15010,
+		15020,
+		15030,
+		15040,
+		15050,
+		15060,
+		15070,
+		15080,
 		18010,
 		18040,
 		18050,
@@ -78109,6 +79472,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		29752,
 		29761,
 		29762,
+		29771,
+		29772,
 		101010,
 		101020,
 		101030,

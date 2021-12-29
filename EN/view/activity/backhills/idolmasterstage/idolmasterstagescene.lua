@@ -29,7 +29,7 @@ function slot0.init(slot0)
 		slot0.map_middle
 	}
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.IdolMasterStageGraph"))
-	slot0.loader = ThirdAnniversaryAutoloader.New()
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.didEnter(slot0)

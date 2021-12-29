@@ -1,135 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_8 = {
-	[207022] = {
-		ship_group = 20702,
-		name = "Guardian of the Ball",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "115",
-		id = 207022,
-		group_index = 2,
-		prefab = "huangjiafangzhou_3",
-		painting = "huangjiafangzhou_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70184,
-		shop_type_id = 7,
-		air_bomb_skin = "",
-		illustrator = 18,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe!",
-		voice_actor = 5,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			20,
-			-119,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.93,
-					1.3,
-					0
-				}
-			},
-			plane = {
-				{
-					0.83,
-					1.22,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.24,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 3,
-			main_2 = 0.5,
-			main_1 = 0.5,
-			touch_1 = 1.23,
-			expedition = 0.5,
-			touch_2 = 0,
-			home = 0.67,
-			login = 2.47,
-			task = 0.5,
-			mission_complte = 0.5,
-			mail = 0.5,
-			main_3 = 0.67
-		}
-	},
 	[207023] = {
 		ship_group = 20702,
 		name = "New Year's Protectress",
@@ -8410,6 +8280,242 @@ pg.ship_skin_template_8 = {
 			},
 			{
 				30,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.45,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[301162] = {
+		ship_group = 30116,
+		name = "Winter's Snowy Wind",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "127",
+		id = 301162,
+		group_index = 2,
+		prefab = "xuefeng_3",
+		painting = "xuefeng_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70301,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Wa ha ha~! Did your heart skip a beat from seeing the charming Yukikaze? Hmph... Well, looks like the Dragon Empery girls are setting off firecrackers... let's go join them! Here, make sure to hold on to my hand!",
+		voice_actor = 42,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			-19.9,
+			-52.5,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.18,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					0.049,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					1.34,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.29,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			mail = 0.3,
+			touch_special = 0.33,
+			mission_complete = 0.26,
+			complete = 0.3
+		}
+	},
+	[301168] = {
+		ship_group = 30116,
+		name = "The Warmth of Spring",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301168,
+		group_index = 8,
+		prefab = "xuefeng_h",
+		painting = "xuefeng_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "This outfit is sooo cute~ ehehe... Ack!! *cough* *cough*! Ahem! From now on, you are the faithful companion of Yukikaze the Great! As such, you will not be permitted to leave my side, understood?",
+		voice_actor = 42,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.44,
+					0.967,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.147,
+					0.049,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.459,
+					0.997,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
 				{
 					{
 						"smoke",

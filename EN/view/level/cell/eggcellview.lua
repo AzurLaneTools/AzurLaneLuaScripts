@@ -1,115 +1,109 @@
-slot0 = class("EggCellView", import("view.level.cell.LevelCellView"))
+slot0 = class("EggCellView", import(".EnemyCellView"))
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0)
-
-	slot0.go = slot1
-	slot0.tf = slot0.go.transform
-	slot0.tf.anchorMin = Vector2(0.5, 0.5)
-	slot0.tf.anchorMax = Vector2(0.5, 0.5)
-	slot0.tf.pivot = Vector2(0.5, 0.5)
-	slot0.tfShip = slot0.tf:Find("ship")
-	slot0.validate = true
-	slot0.tfFighting = slot0.tf:Find("fighting")
-	slot0.tfEffectFound = slot0.tf:Find("effect_found")
-	slot0.tfDamageCount = slot0.tf:Find("damage_count")
+function slot0.InitEggCellTransform(slot0)
+	slot0.tfIcon = slot0.tf:Find("icon")
 	slot0.tfBufficons = slot0.tf:Find("random_buff_container")
-	slot0.tfEffectFound.transform.localPosition = Vector2(0, -12)
+	slot0.tfBossIcon = slot0.tf:Find("titleContain/bg_boss")
+	slot0.textLV = slot0.tf:Find("lv/Text")
+	slot0.tfEffectFound = slot0.tf:Find("effect_found")
+	slot0.tfEffectFoundBoss = slot0.tf:Find("effect_found_boss")
+	slot0.tfFighting = slot0.tf:Find("fighting")
 
-	slot0:OverrideCanvas()
+	setText(findTF(slot0.tfFighting, "Text"), i18n("ui_word_levelui2_inevent"))
+
+	slot0.tfDamageCount = slot0.tf:Find("damage_count")
+	slot0.animator = GetComponent(slot0.go, typeof(Animator))
+	slot0.effectFireball = slot0.tf:Find("huoqiubaozha")
 end
 
-function slot0.GetOrder(slot0)
-	return ChapterConst.CellPriorityEnemy
-end
-
-function slot0.SetActive(slot0, slot1)
-	setActive(slot0.go, slot1)
-end
-
-function slot0.getPrefab(slot0)
-	return slot0.prefab
-end
-
-function slot0.setPrefab(slot0, slot1)
-	slot0.prefab = slot1
-end
-
-function slot0.getAction()
-end
-
-function slot0.setAction()
-end
-
-function slot0.getModel(slot0)
-	return slot0.model
-end
-
-function slot0.setModel(slot0, slot1)
-	slot2 = slot1.transform
-	slot2:GetComponent("Image").raycastTarget = false
-
-	pg.ViewUtils.SetLayer(slot2, Layer.UI)
-
-	slot0.model = slot1
-end
-
-function slot0.LoadSpine(slot0, slot1)
-	if slot0.lastPrefab == slot0:getPrefab() then
-		if slot1 then
-			slot1()
-		end
-
-		return
+function slot0.StartEggCellView(slot0, slot1, slot2)
+	if ChapterConst.EnemySize[slot1.type] == 99 then
+		setActive(slot0.tfBossIcon, true)
+		slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", "enemy_boss", slot0.tfBossIcon)
+	elseif ChapterConst.EnemySize[slot1.type] == 98 then
+		setActive(slot0.tfBossIcon, true)
+		slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", "enemy_elite", slot0.tfBossIcon)
+	else
+		setActive(slot0.tfBossIcon, false)
 	end
 
-	slot3 = slot0.tf
-
-	GetImageSpriteFromAtlasAsync("enemies/" .. slot0:getPrefab(), "", findTF(slot3, "icon"))
-	setText(findTF(slot3, "lv/Text"), slot0.config.level)
-	setActive(findTF(slot3, "titleContain/bg_boss"), ChapterConst.EnemySize[slot0.config.type] == 99)
-	slot0:setModel(slot4)
-
-	slot0.lastPrefab = slot2
-
-	if slot1 then
-		slot1()
-	end
+	uv0.ClearExtraEffects(slot0)
+	uv0.LoadExtraEffects(slot0, slot1.effect_prefab)
+	slot0:GetLoader():GetSprite("enemies/" .. slot1.icon, "", slot0.tfIcon)
+	setText(slot0.textLV, slot1.level)
+	existCall(slot2)
 end
 
-function slot0.SetConfig(slot0, slot1)
-	slot0.config = slot1
-end
+function slot0.UpdateEggCell(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot2.row
+	slot6 = slot2.column
+	slot7 = slot2.trait ~= ChapterConst.TraitLurk and slot2.flag == ChapterConst.CellFlagActive and not slot1:existFleet(FleetType.Transport, slot5, slot6)
 
-function slot0.UpdateChampionCell(slot0, slot1, slot2, slot3)
-	slot4 = slot2.trait ~= ChapterConst.TraitLurk and slot1:getChampionVisibility(slot2) and not slot1:existFleet(FleetType.Transport, slot2.row, slot2.column)
+	setActive(slot0.tfFighting, slot7 and slot1:existEnemy(ChapterConst.SubjectChampion, slot5, slot6))
 
-	setActive(slot0.tfFighting, slot4 and slot1:existEnemy(ChapterConst.SubjectChampion, slot2.row, slot2.column))
-	setActive(slot0.tfEffectFound, slot4 and slot2.trait == ChapterConst.TraitVirgin)
-	setActive(slot0.tfDamageCount, slot4 and slot2.data > 0)
-	setActive(slot0.tf:Find("huoqiubaozha"), false)
+	slot0.animator.enabled = slot7 and slot2.data > 0
+
+	setActive(slot0.tfDamageCount, slot7 and slot2.data > 0)
 
 	if slot2.trait == ChapterConst.TraitVirgin then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
 	end
 
-	if slot4 then
-		EnemyEggCellView.RefreshEnemyTplIcons(slot0, slot1)
+	if slot7 then
+		StaticEggCellView.RefreshEnemyTplIcons(slot0, slot3, slot1)
 	end
 
-	slot0:RefreshLinePosition(slot1, slot2)
-	slot0:SetActive(slot4)
-	existCall(slot3)
+	slot0:SetActive(slot7)
+
+	slot9 = slot2.trait == ChapterConst.TraitVirgin
+
+	setActive(slot0.tfEffectFound, slot9 and slot2.attachment ~= ChapterConst.AttachBoss)
+	setActive(slot0.tfEffectFoundBoss, slot9 and slot2.attachment == ChapterConst.AttachBoss)
+
+	if slot9 then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
+	end
+
+	uv0.RefreshEnemyTplIcons(slot0, slot3, slot1, slot2)
+	existCall(slot4)
 end
 
-function slot0.Clear(slot0)
-	slot0.tf.anchorMin = Vector2(0.5, 0)
-	slot0.tf.anchorMax = Vector2(0.5, 0)
-	slot0.tf.pivot = Vector2(0.5, 0)
-	slot0.tfEffectFound.transform.localPosition = Vector2(0, 38)
-	slot0.prefab = nil
-	slot0.anim = nil
-	slot0.validate = nil
+function slot0.RefreshEnemyTplIcons(slot0, slot1, slot2, slot3)
+	slot4 = slot0.tfBufficons
+	slot5 = {}
+
+	if slot1.icon_type == 1 then
+		if ChapterConst.EnemySize[slot1.type] == 1 or not ChapterConst.EnemySize[slot7] then
+			table.insert(slot5, "xiao")
+		elseif ChapterConst.EnemySize[slot7] == 2 then
+			table.insert(slot5, "zhong")
+		elseif ChapterConst.EnemySize[slot7] == 3 then
+			table.insert(slot5, "da")
+		end
+	end
+
+	if slot1.bufficon and #slot1.bufficon > 0 then
+		table.insertto(slot5, slot1.bufficon)
+	end
+
+	_.each(_.filter(slot2:GetWeather(slot3.row, slot3.column), function (slot0)
+		return slot0 == ChapterConst.FlagWeatherFog
+	end), function (slot0)
+		table.insert(uv0, pg.weather_data_template[slot0].buff_icon)
+	end)
+
+	if #slot5 == 0 then
+		setActive(slot4, false)
+	end
+
+	setActive(slot4, true)
+	LevelGrid.AlignListContainer(slot4, #slot5)
+
+	for slot10, slot11 in ipairs(slot5) do
+		if #slot11 > 0 then
+			slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", slot11, slot4:GetChild(slot10 - 1))
+		end
+	end
 end
 
 return slot0

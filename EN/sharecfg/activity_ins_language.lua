@@ -8910,6 +8910,315 @@ pg.activity_ins_language = {
 	op_reply_263_1_1 = {
 		value = "I can only surmise you learned that the hard way, Commander."
 	},
+	ins_264 = {
+		value = "The lengths I gotta go to tame these little bastards..."
+	},
+	ins_discuss_264_1 = {
+		value = "LOL are you holding a lecture for cats?"
+	},
+	ins_reply_264_1_1 = {
+		value = "It's not a lecture, it's training. I've busted my ass getting these guys to warm up to me..."
+	},
+	ins_reply_264_1_2 = {
+		value = "Geesh girl, sounds tough. Hang in there."
+	},
+	ins_discuss_264_2 = {
+		value = "Ahh, this takes me back. What adorable creatures."
+	},
+	ins_reply_264_2_1 = {
+		value = "Adorable, maybe, but they won't follow my orders. I don't understand what I'm doing wrong."
+	},
+	ins_reply_264_2_2 = {
+		value = "You're doing nothing wrong. Cats simply follow only their own rules."
+	},
+	ins_discuss_264_3 = {
+		value = "Just be genuine with them, and you'll all become closer!"
+	},
+	ins_reply_264_3_1 = {
+		value = "There's no logical way that would work."
+	},
+	ins_op_264_1_1 = {
+		value = "Seems the cats are having fun, at least."
+	},
+	op_reply_264_1_1 = {
+		value = "I suppose there's that, if nothing else."
+	},
+	ins_265 = {
+		value = "Me? Miss leg day? Not a chance."
+	},
+	ins_discuss_265_1 = {
+		value = "preeetty sure there are better ways to train leg muscles."
+	},
+	ins_reply_265_1_1 = {
+		value = "Yeah but this way I get some fighting move practice too. Gonna be 3-stocking Sirens left and right."
+	},
+	ins_reply_265_1_2 = {
+		value = "ooh good point! I'll give that a try sometime myself!"
+	},
+	ins_reply_265_1_3 = {
+		value = "Go for it girl."
+	},
+	ins_discuss_265_2 = {
+		value = "Does this count as kickboxing? I wanna try, it looks fun!"
+	},
+	ins_reply_265_2_1 = {
+		value = "You've gotta be careful or you'll hurt yourself. I can teach you the basics if you want."
+	},
+	ins_reply_265_2_2 = {
+		value = "That'd be awesome! Tell me all about it, coach!"
+	},
+	ins_op_265_1_1 = {
+		value = "It's nice working up a sweat from time to time."
+	},
+	op_reply_265_1_1 = {
+		value = "Hell yeah. And when you hit the showers after? That's the good stuff."
+	},
+	ins_266 = {
+		value = "call me atlas cause the world rests on my shoulders"
+	},
+	ins_discuss_266_1 = {
+		value = "Oh god I'm getting reverse(?) vertigo looking at this..."
+	},
+	ins_reply_266_1_1 = {
+		value = "just tilt your head 180 degrees and it'll go away"
+	},
+	ins_reply_266_1_2 = {
+		value = "lmao"
+	},
+	ins_discuss_266_2 = {
+		value = "Don't you get lightheaded if you hold that pose?"
+	},
+	ins_reply_266_2_1 = {
+		value = "i only held it for 10 seconds to take a pic lol, but yeah hold it too long and you gon get dizzy"
+	},
+	ins_discuss_266_3 = {
+		value = "Every action has an equal and opposite reaction. Just as you shoulder the weight of the world, it shoulders YOUR weight."
+	},
+	ins_reply_266_3_1 = {
+		value = "damn thats deep"
+	},
+	ins_op_266_1_1 = {
+		value = "And what happens if you shrug?"
+	},
+	op_reply_266_1_1 = {
+		value = "gravity kicks in and i get a bump on the head"
+	},
+	ins_267 = {
+		value = "Oopsie! Guess who's been a bad girl again!"
+	},
+	ins_discuss_267_1 = {
+		value = "What did you do this time?"
+	},
+	ins_reply_267_1_1 = {
+		value = "Rearranged all the books in random order! I'm so bad the devil tips his hat to me!"
+	},
+	ins_reply_267_1_2 = {
+		value = "How devilish... At least it seems they're all still there."
+	},
+	ins_reply_267_1_3 = {
+		value = "Well obviously. I'm a bad girl, not a thief!"
+	},
+	ins_discuss_267_2 = {
+		value = "Teehee~ This gives me an idea for an even bigger prank!"
+	},
+	ins_reply_267_2_1 = {
+		value = "You thinking what I'm thinking? Hiding behind the door then going BOO when the Commander comes in?"
+	},
+	ins_reply_267_2_2 = {
+		value = "Or better yet: rigging firecrackers to go off when the door opens!"
+	},
+	ins_reply_267_2_3 = {
+		value = "I might be bad but that idea is just evil!"
+	},
+	ins_op_267_1_1 = {
+		value = "Honestly, it's in a better state now than before. Thanks."
+	},
+	op_reply_267_1_1 = {
+		value = "WHAT?! DANG IT!"
+	},
+	ins_268 = {
+		value = "I'm having the time of my life with this big button!"
+	},
+	ins_discuss_268_1 = {
+		value = "Despite the huge \"don't push me\" warning on it?"
+	},
+	ins_reply_268_1_1 = {
+		value = "The warning only makes me wanna push it more!"
+	},
+	ins_discuss_268_2 = {
+		value = "Heheh, sounds like a rave review for our new stress relief button, nya. Time to mass-produce it, nya."
+	},
+	ins_reply_268_2_1 = {
+		value = "Ah, so it's just a stress toy. Very well, carry on, U-1206."
+	},
+	ins_reply_268_2_2 = {
+		value = "You're making more?! I'll take your entire stock!"
+	},
+	ins_discuss_268_3 = {
+		value = "Meh. Would have more appeal if it did something when you push it."
+	},
+	ins_reply_268_3_1 = {
+		value = "Good criticism. What if, for example, it set off a pack of explosives?"
+	},
+	ins_reply_268_3_2 = {
+		value = "NO. U-1206 would raze the port in a minute flat"
+	},
+	ins_op_268_1_1 = {
+		value = "Very niche product... Not sure it'll catch on."
+	},
+	op_reply_268_1_1 = {
+		value = "You'd be amazed how fun it is! Give it a push and see for yourself!"
+	},
+	ins_269 = {
+		value = "Hope you're all hungry – we're having norimaki tonight!"
+	},
+	ins_discuss_269_1 = {
+		value = "Is it really proper to cut food with a katana?"
+	},
+	ins_reply_269_1_1 = {
+		value = "You trying to say my swordsmanship is lacking?"
+	},
+	ins_reply_269_1_2 = {
+		value = "No? The sword is the problem here, not your skill with it!"
+	},
+	ins_discuss_269_2 = {
+		value = "Never passing on a chance to train with your blade, eh... I should take notes."
+	},
+	ins_reply_269_2_1 = {
+		value = "Damn right. It's good for practicing holding your torso steady!"
+	},
+	ins_reply_269_2_2 = {
+		value = "For god's sake! Please just use a knife like a normal person!"
+	},
+	ins_op_269_1_1 = {
+		value = "Swords aside, those norimakis were fantastic."
+	},
+	op_reply_269_1_1 = {
+		value = "Of course they were! My cooking skills are second to none!"
+	},
+	ins_270 = {
+		value = "Need to polish until they're sparkling clean..."
+	},
+	ins_discuss_270_1 = {
+		value = "That's an incredible tower of glasses in the background!"
+	},
+	ins_reply_270_1_1 = {
+		value = "I think you only had to place them on the table... Is this a flex? >_>"
+	},
+	ins_reply_270_1_2 = {
+		value = "Honestly, I didn't notice. The tower kind of built itself."
+	},
+	ins_discuss_270_2 = {
+		value = "I envy your ability to concentrate. I'd probably get distracted and drop a glass at some point ><"
+	},
+	ins_reply_270_2_1 = {
+		value = "You could always do concentration training... I suppose?"
+	},
+	ins_reply_270_2_2 = {
+		value = "Really? Is that a thing?"
+	},
+	ins_reply_270_2_3 = {
+		value = "Not sure, but I think so."
+	},
+	ins_op_270_1_1 = {
+		value = "Flex or not, really well done, Penelope."
+	},
+	op_reply_270_1_1 = {
+		value = "Are you that impressed? Well, thank you. I'm glad to hear it."
+	},
+	ins_271 = {
+		value = "Time to make an important choice! Quick! Red drink, or blue drink?"
+	},
+	ins_discuss_271_1 = {
+		value = "Lemme guess, you spiked em both? Not fooling me~"
+	},
+	ins_reply_271_1_1 = {
+		value = "Nuh-uh! No cheap tricks (this time), they're both 100% ordinary fruit juice!"
+	},
+	ins_discuss_271_2 = {
+		value = "Is choosing both an option?"
+	},
+	ins_reply_271_2_1 = {
+		value = "Nope. It's one or none, sis!"
+	},
+	ins_discuss_271_3 = {
+		value = "That's a tough one, Morpheus..."
+	},
+	ins_reply_271_3_1 = {
+		value = "Hehehe~ All I'm offering is a drink, nothing more~"
+	},
+	ins_reply_271_3_2 = {
+		value = "Hmm... Simply not choosing is always an option, isn't it?"
+	},
+	ins_op_271_1_1 = {
+		value = "Red drink."
+	},
+	op_reply_271_1_1 = {
+		value = "Interesting... You're a go-getter, ain'tcha? Here ya go, one glass of strawberry juice!"
+	},
+	ins_op_271_1_2 = {
+		value = "Blue drink."
+	},
+	op_reply_271_1_2 = {
+		value = "Blue, huh... Fancy yourself a thinker, do you? Here ya go, one glass of blueberry juice!"
+	},
+	ins_272 = {
+		value = "Latte art is hard, but I'm giving it my best shot!"
+	},
+	ins_discuss_272_1 = {
+		value = "Is that a cannon firing shells? Geesh, you're going all-out."
+	},
+	ins_reply_272_1_1 = {
+		value = "My initial plan was to make something more elegant, but it was too elaborate, so I settled for this."
+	},
+	ins_discuss_272_2 = {
+		value = "Very on-brand motif, I'd say."
+	},
+	ins_reply_272_2_1 = {
+		value = "Thank you...? I suppose latte art is a reflection of its artist too, haha."
+	},
+	ins_discuss_272_3 = {
+		value = "it sucks how short-lived latte art is... you can make a masterpiece, then it's gone after one sip (；一_一)"
+	},
+	ins_reply_272_3_1 = {
+		value = "True... But it's also a shame to let it go to waste. Food art is still food and should be consumed!"
+	},
+	ins_op_272_1_1 = {
+		value = "Bravo! You're a prodigy at this stuff."
+	},
+	op_reply_272_1_1 = {
+		value = "Please, you flatter me, Commander. It's nothing compared to what pros can make!"
+	},
+	ins_273 = {
+		value = "Tip: if the Commander's in crunch mode and you're brewing tea, pour it into a thermos so it stays warm for longer."
+	},
+	ins_discuss_273_1 = {
+		value = "I'm so doing this from now on. You're so smart, Choukai."
+	},
+	ins_reply_273_1_1 = {
+		value = "It's quite simple really, but thank you!"
+	},
+	ins_reply_273_1_2 = {
+		value = "I would've never thought of that... If it's that simple then I guess I'm stupid."
+	},
+	ins_reply_273_1_3 = {
+		value = "Don't be so hard on yourself, Maya. You notice lots of things I easily overlook."
+	},
+	ins_discuss_273_2 = {
+		value = "A wise idea. Nobody likes a cup of cold tea, after all."
+	},
+	ins_reply_273_2_1 = {
+		value = "What about ice tea? Still, I know what you mean."
+	},
+	ins_reply_273_2_2 = {
+		value = "Room-temperature tea then. The bane of both ice tea and regular tea enthusiasts!"
+	},
+	ins_op_273_1_1 = {
+		value = "It's so much better when warm. Thanks a bunch."
+	},
+	op_reply_273_1_1 = {
+		value = "You're welcome, Commander! Remember to take regular breaks and stay hydrated."
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -11880,6 +12189,109 @@ pg.activity_ins_language = {
 		ins_discuss_263_2,
 		ins_reply_263_2_1,
 		ins_op_263_1_1,
-		op_reply_263_1_1
+		op_reply_263_1_1,
+		ins_264,
+		ins_discuss_264_1,
+		ins_reply_264_1_1,
+		ins_reply_264_1_2,
+		ins_discuss_264_2,
+		ins_reply_264_2_1,
+		ins_reply_264_2_2,
+		ins_discuss_264_3,
+		ins_reply_264_3_1,
+		ins_op_264_1_1,
+		op_reply_264_1_1,
+		ins_265,
+		ins_discuss_265_1,
+		ins_reply_265_1_1,
+		ins_reply_265_1_2,
+		ins_reply_265_1_3,
+		ins_discuss_265_2,
+		ins_reply_265_2_1,
+		ins_reply_265_2_2,
+		ins_op_265_1_1,
+		op_reply_265_1_1,
+		ins_266,
+		ins_discuss_266_1,
+		ins_reply_266_1_1,
+		ins_reply_266_1_2,
+		ins_discuss_266_2,
+		ins_reply_266_2_1,
+		ins_discuss_266_3,
+		ins_reply_266_3_1,
+		ins_op_266_1_1,
+		op_reply_266_1_1,
+		ins_267,
+		ins_discuss_267_1,
+		ins_reply_267_1_1,
+		ins_reply_267_1_2,
+		ins_reply_267_1_3,
+		ins_discuss_267_2,
+		ins_reply_267_2_1,
+		ins_reply_267_2_2,
+		ins_reply_267_2_3,
+		ins_op_267_1_1,
+		op_reply_267_1_1,
+		ins_268,
+		ins_discuss_268_1,
+		ins_reply_268_1_1,
+		ins_discuss_268_2,
+		ins_reply_268_2_1,
+		ins_reply_268_2_2,
+		ins_discuss_268_3,
+		ins_reply_268_3_1,
+		ins_reply_268_3_2,
+		ins_op_268_1_1,
+		op_reply_268_1_1,
+		ins_269,
+		ins_discuss_269_1,
+		ins_reply_269_1_1,
+		ins_reply_269_1_2,
+		ins_discuss_269_2,
+		ins_reply_269_2_1,
+		ins_reply_269_2_2,
+		ins_op_269_1_1,
+		op_reply_269_1_1,
+		ins_270,
+		ins_discuss_270_1,
+		ins_reply_270_1_1,
+		ins_reply_270_1_2,
+		ins_discuss_270_2,
+		ins_reply_270_2_1,
+		ins_reply_270_2_2,
+		ins_reply_270_2_3,
+		ins_op_270_1_1,
+		op_reply_270_1_1,
+		ins_271,
+		ins_discuss_271_1,
+		ins_reply_271_1_1,
+		ins_discuss_271_2,
+		ins_reply_271_2_1,
+		ins_discuss_271_3,
+		ins_reply_271_3_1,
+		ins_reply_271_3_2,
+		ins_op_271_1_1,
+		op_reply_271_1_1,
+		ins_op_271_1_2,
+		op_reply_271_1_2,
+		ins_272,
+		ins_discuss_272_1,
+		ins_reply_272_1_1,
+		ins_discuss_272_2,
+		ins_reply_272_2_1,
+		ins_discuss_272_3,
+		ins_reply_272_3_1,
+		ins_op_272_1_1,
+		op_reply_272_1_1,
+		ins_273,
+		ins_discuss_273_1,
+		ins_reply_273_1_1,
+		ins_reply_273_1_2,
+		ins_reply_273_1_3,
+		ins_discuss_273_2,
+		ins_reply_273_2_1,
+		ins_reply_273_2_2,
+		ins_op_273_1_1,
+		op_reply_273_1_1
 	}
 }

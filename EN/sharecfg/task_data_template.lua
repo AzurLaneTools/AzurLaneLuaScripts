@@ -127913,6 +127913,1717 @@ pg.task_data_template = {
 		added_tip = 0,
 		open_need = {}
 	},
+	[17244] = {
+		name = "『德系V4』角色收集：乌尔里希·冯·胡滕",
+		guild_coin_award = 0,
+		award = 96537,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "Obtain the battleship Prinz Eugen.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17244,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			40503
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				800
+			}
+		}
+	},
+	[17245] = {
+		name = "『德系V4』角色收集：阿达尔伯特亲王",
+		guild_coin_award = 0,
+		award = 96538,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Prinz Adalbert",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "403104",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 403104,
+		id = 17245,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				600
+			}
+		}
+	},
+	[17246] = {
+		name = "『德系V4』角色收集：马格德堡",
+		guild_coin_award = 0,
+		award = 96539,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Magdeburg",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "402064",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 402064,
+		id = 17246,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				600
+			}
+		}
+	},
+	[17247] = {
+		name = "『德系V4』角色收集：易北",
+		guild_coin_award = 0,
+		award = 96540,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Elbe",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "406024",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 406024,
+		id = 17247,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				400
+			}
+		}
+	},
+	[17248] = {
+		name = "『德系V4』角色收集：U-1206",
+		guild_coin_award = 0,
+		award = 96541,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break U-1206",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "408124",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 408124,
+		id = 17248,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				400
+			}
+		}
+	},
+	[17249] = {
+		name = "『德系V4』角色刷关：欧根亲王",
+		guild_coin_award = 0,
+		award = 96542,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Clear A2 or C2 10 times with Prinz Eugen at max Limit Break in your fleet. Prinz Eugen must survive the battle.",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17249,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600113,
+			1602113
+		},
+		target_id_2 = {
+			403034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17250] = {
+		name = "『德系V4』角色刷关：彼得·史特拉塞",
+		guild_coin_award = 0,
+		award = 96543,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Clear A3 or C3 10 times with Peter Strasser  at max Limit Break in your fleet. Peter Strasser  must survive the battle.",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17250,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600213,
+			1602213
+		},
+		target_id_2 = {
+			407034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17251] = {
+		name = "『德系V4』角色刷关：提尔比茨",
+		guild_coin_award = 0,
+		award = 96544,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Clear B2 or D2 10 times with Tirpitz at max Limit Break in your fleet. Tirpitz must survive the battle.",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17251,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1601113,
+			1603113
+		},
+		target_id_2 = {
+			405024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17252] = {
+		name = "『德系V4』角色刷关：U-47",
+		guild_coin_award = 0,
+		award = 96545,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Clear B3 or D3 10 times with U-47 at max Limit Break in your fleet. U-47 must survive the battle.",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17252,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1601213,
+			1603213
+		},
+		target_id_2 = {
+			408024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59256,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17253] = {
+		name = "『德系V4』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 96607,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "Login to the game.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17253,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				231,
+				2
+			}
+		}
+	},
+	[17254] = {
+		name = "女仆活动任务1",
+		guild_coin_award = 0,
+		award = 96608,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 24,
+		desc = "Sortie and obtain 10 Perfect victories.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17254,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[17255] = {
+		name = "女仆活动任务2",
+		guild_coin_award = 0,
+		award = 96609,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 40,
+		desc = "Enhance gear 2 times.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17255,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17256] = {
+		name = "女仆活动任务3",
+		guild_coin_award = 0,
+		award = 96610,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17256,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[17257] = {
+		name = "女仆活动任务4",
+		guild_coin_award = 0,
+		award = 96611,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "Complete 2 Commissions.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17257,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17258] = {
+		name = "女仆活动任务5",
+		guild_coin_award = 0,
+		award = 96612,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 31,
+		desc = "Retire 2 ships.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17258,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				3
+			}
+		}
+	},
+	[17259] = {
+		name = "女仆活动任务6",
+		guild_coin_award = 0,
+		award = 96613,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17259,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17260] = {
+		name = "女仆活动任务7",
+		guild_coin_award = 0,
+		award = 96614,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "Enhance ships 5 times.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17260,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				3
+			}
+		}
+	},
+	[17261] = {
+		name = "女仆活动任务8",
+		guild_coin_award = 0,
+		award = 96615,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "Conduct tactical training 2 times.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17261,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17262] = {
+		name = "女仆活动任务9",
+		guild_coin_award = 0,
+		award = 96616,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "Resupply the Dorm 5 times.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17262,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	},
+	[17263] = {
+		name = "女仆活动任务10",
+		guild_coin_award = 0,
+		award = 96617,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "Defeat 20 enemies.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17263,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17264] = {
+		name = "女仆活动任务11",
+		guild_coin_award = 0,
+		award = 96618,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "Build 2 ships.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17264,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[17265] = {
+		name = "女仆活动任务12",
+		guild_coin_award = 0,
+		award = 96619,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 50,
+		desc = "Open a Tech Box.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17265,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			}
+		}
+	},
+	[17266] = {
+		name = "女仆活动任务13",
+		guild_coin_award = 0,
+		award = 96620,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17266,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				216,
+				1
+			}
+		}
+	},
+	[17267] = {
+		name = "女仆活动任务14",
+		guild_coin_award = 0,
+		award = 96621,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "Conduct tactical training 2 times.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17267,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				217,
+				1
+			}
+		}
+	},
+	[17268] = {
+		name = "女仆活动任务额外任务1",
+		guild_coin_award = 0,
+		award = 96628,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "Tonic and Tea: A Choice Deferred",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17268,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			},
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[17269] = {
+		name = "女仆活动任务额外任务2",
+		guild_coin_award = 0,
+		award = 96629,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "Tonic and Tea: Why Not Both?",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17269,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59259,
+				1
+			},
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[17270] = {
+		name = "『德系V4』通关EX",
+		guild_coin_award = 0,
+		award = 96630,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear EX",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1600051",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1600051,
+		id = 17270,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17271] = {
+		name = "『德系V4』-日常建造",
+		guild_coin_award = 0,
+		award = 96631,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "Build 3 ships.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17271,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59258,
+				300
+			}
+		}
+	},
+	[17272] = {
+		name = "『德系V4』-日常出击",
+		guild_coin_award = 0,
+		award = 96632,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "Sortie and obtain 15 victories.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17272,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59258,
+				300
+			}
+		}
+	},
+	[17273] = {
+		name = "『德系V4』-日常困难本",
+		guild_coin_award = 0,
+		award = 96633,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17273,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59258,
+				150
+			}
+		}
+	},
+	[17274] = {
+		name = "『德系V4』通关A1/C1",
+		guild_coin_award = 0,
+		award = 96634,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear A1 or C1.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17275",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17274,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600001,
+			1600021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17275] = {
+		name = "『德系V4』通关A2/C2",
+		guild_coin_award = 0,
+		award = 96635,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear A2 or C2.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17276",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17275,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600002,
+			1600022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17276] = {
+		name = "『德系V4』通关A3/C3",
+		guild_coin_award = 0,
+		award = 96636,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear A3 or C3.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17277",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17276,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600003,
+			1600023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59258,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17277] = {
+		name = "『德系V4』通关B1/D1",
+		guild_coin_award = 0,
+		award = 96637,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear B1 or D1.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17278",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17277,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600004,
+			1600024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17278] = {
+		name = "『德系V4』通关B2/D2",
+		guild_coin_award = 0,
+		award = 96638,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear B2 or D2.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17279",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17278,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600005,
+			1600025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59258,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17279] = {
+		name = "『德系V4』通关B3/D3",
+		guild_coin_award = 0,
+		award = 96639,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear B3 or D3.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17280",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17279,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600006,
+			1600026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59258,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17280] = {
+		name = "『德系V4』通关SP",
+		guild_coin_award = 0,
+		award = 96640,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear SP.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1600041",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1600041,
+		id = 17280,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17281] = {
+		name = "『德系V4』通关D3",
+		guild_coin_award = 0,
+		award = 96641,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear D3",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1600026",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1600026,
+		id = 17281,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				218,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17282] = {
+		name = "『德系V4』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 96642,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete A1 or C1 with 3 stars.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17283",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17282,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600001,
+			1600021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17283] = {
+		name = "『德系V4』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 96643,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete A2 or C2 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17284",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17283,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600002,
+			1600022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17284] = {
+		name = "『德系V4』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 96644,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete A3 or C3 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17285",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17284,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600003,
+			1600023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17285] = {
+		name = "『德系V4』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 96645,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete B1 or D1 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17286",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17285,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600004,
+			1600024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17286] = {
+		name = "『德系V4』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 96646,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete B2 or D2 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17287",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17286,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600005,
+			1600025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17287] = {
+		name = "『德系V4』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 96647,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete B3 or D3 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17287,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1600006,
+			1600026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[31013] = {
 		name = "投票日常建造",
 		guild_coin_award = 0,
@@ -158498,6 +160209,50 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		17241,
 		17242,
 		17243,
+		17244,
+		17245,
+		17246,
+		17247,
+		17248,
+		17249,
+		17250,
+		17251,
+		17252,
+		17253,
+		17254,
+		17255,
+		17256,
+		17257,
+		17258,
+		17259,
+		17260,
+		17261,
+		17262,
+		17263,
+		17264,
+		17265,
+		17266,
+		17267,
+		17268,
+		17269,
+		17270,
+		17271,
+		17272,
+		17273,
+		17274,
+		17275,
+		17276,
+		17277,
+		17278,
+		17279,
+		17280,
+		17281,
+		17282,
+		17283,
+		17284,
+		17285,
+		17286,
+		17287,
 		31013,
 		31014,
 		31015,

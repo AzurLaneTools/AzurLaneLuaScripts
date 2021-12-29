@@ -209,18 +209,19 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
-		exchange_ship_id = 301291,
+		exchange_ship_id = 405031,
 		rate_tip = {
 			"<color=#ff5e39>Ultra Rare</color>：1.2%",
 			"<color=#ffde38>Super Rare</color>：7%",
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：28.8%",
-			"<color=#ff5e39>Shimakaze</color>：1.2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Katsuragi</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Chikuma</color>：0.5%",
-			"<color=#d797ff>Umikaze</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Yura</color>：2.5%(<color=#92fc63>up!</color>)"
+			"",
+			"<color=#ff5e39>Ulrich von Hutten</color>：1.2%(<color=#92fc63>up!</color>)",
+			"",
+			"<color=#ffde38>Prinz Adalbert</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Magdeburg</color>：0.5%",
+			"<color=#d797ff>Elbe</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	all = {

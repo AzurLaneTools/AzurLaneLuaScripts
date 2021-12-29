@@ -1,347 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_10 = {
-	[301619] = {
-		ship_group = 30161,
-		name = "Hamakaze (Retrofit)",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301619,
-		group_index = 9,
-		prefab = "bangfeng_g",
-		painting = "bangfeng_g",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Commander, have you been having more fun since I arrived? ... I see, that's great! Ehehe... Hamakaze, getting hyped!",
-		voice_actor = 112,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.28,
-					0.99,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.28,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.21,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.28,
-					0.99,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.34,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301620] = {
-		ship_group = 30162,
-		name = "Tanikaze",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301620,
-		group_index = 0,
-		prefab = "gufeng",
-		painting = "gufeng",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Kagerou-class destroyer number fourteen – Tanikaze.",
-		voice_actor = 112,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.02,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.02,
-					1.03,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.08,
-					0.06,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.02,
-					1.03,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.22,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301621] = {
-		ship_group = 30162,
-		name = "Lost Girl and Labyrinth Butterfly",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301621,
-		group_index = 1,
-		prefab = "Gufeng_2",
-		painting = "Gufeng_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70058,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Little butterfly, little butterfly... Ya! It flew away... {namecode:128}~ {namecode:128}~ Where are you? {namecode:142}? {namecode:143}? We said we were going to play at the seaside. Where is everyone?",
-		voice_actor = 112,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.13,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.23,
-					1.11,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.21,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.2,
-					1.08,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.44,
-							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[301629] = {
 		ship_group = 30162,
 		name = "{namecode:127} (Retrofit)",
@@ -8322,6 +7980,122 @@ pg.ship_skin_template_10 = {
 			}
 		}
 	},
+	[302215] = {
+		ship_group = 30221,
+		name = "Hold the Ice",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "150",
+		id = 302215,
+		group_index = 5,
+		prefab = "nengdai_7",
+		painting = "nengdai_7",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70645,
+		shop_type_id = 17,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Welcom...?! What are you doing here? Wait, don't leave—I was just surprised, that's all... Well, what would you like to order?",
+		voice_actor = 147,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.12,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.02,
+					1.21,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302218] = {
 		ship_group = 30221,
 		name = "A Tale of Two Lovers",
@@ -8557,6 +8331,361 @@ pg.ship_skin_template_10 = {
 							-0.44,
 							2.15,
 							-0.34
+						}
+					}
+				}
+			}
+		}
+	},
+	[303019] = {
+		ship_group = 30301,
+		name = "Furutaka (Retrofit)",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 303019,
+		group_index = 9,
+		prefab = "guying_g",
+		painting = "guying_g",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "What's wrong, Commander? Why are you staring at me like that? My body? Yes, some things seem to have gotten bigger... Want to take a look?",
+		voice_actor = 48,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.97,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					0.16,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.97,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							2.19,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[303020] = {
+		ship_group = 30302,
+		name = "Kako",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 303020,
+		group_index = 0,
+		prefab = "jiagu",
+		painting = "jiagu",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Second ship of {namecode:53}-class heavy cruisers, {namecode:54}.",
+		voice_actor = 48,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.231,
+					0.859,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.267,
+					0.421,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.127,
+					0.56,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.628,
+					0.505,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							0.349,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.25,
+							2.64,
+							-0.58
+						}
+					}
+				}
+			}
+		}
+	},
+	[303029] = {
+		ship_group = 30302,
+		name = "Kako (Retrofit)",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 303029,
+		group_index = 9,
+		prefab = "jiagu_g",
+		painting = "jiagu_g",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Performance upgraded, improvements complete. This way I can finally... *cough* Oh, it's nothing, Commander. I must simply be more strict with you in the future. Are you ready for your psychological examination?",
+		voice_actor = 48,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					0.57,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.07,
+					0.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					0.57,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.09,
+					0.57,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.41,
+							0
 						}
 					}
 				}

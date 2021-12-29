@@ -120,7 +120,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		benefit_condition = "",
 		desc = "While sortieing in a Campaign, Hard Mode, or War Archives map, your ships deal slightly more DMG. \nTime remaining: $1",
-		benefit_effect = "504",
+		benefit_effect = "522",
 		id = 11,
 		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
@@ -700,6 +700,261 @@ pg.benefit_buff_template = {
 		icon = "Props/xinshou",
 		benefit_type = "chapter_up"
 	},
+	{
+		benefit_effect = "510",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 49,
+		icon = "Props/yanchangli1",
+		benefit_type = "battle_buff",
+		desc = "Your ships take 1.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "512",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 50,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "Your ships take 2.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "514",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 51,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "516",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 52,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "Your ships take 4.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "518",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 53,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "Your ships take 5.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "500",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 54,
+		icon = "Props/wudaoli1",
+		benefit_type = "battle_buff",
+		desc = "Your ships deal 1.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "502",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 55,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "Your ships deal 2.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "504",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 56,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "Your ships deal 3.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "506",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 57,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "Your ships deal 4.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "508",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		id = 58,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "Your ships deal 5.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		id = 59,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "Shoukaku's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		id = 60,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		desc = "Zuikaku's Blessings: Your ships earn 3.0% more EXP from Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		id = 61,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		desc = "Le Malin's Blessings: Your ships earn 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		id = 62,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		desc = "Victorious' Blessings: Your ships earn 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		id = 63,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "Tirpitz's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		id = 64,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "Illustrious' Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		id = 65,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		desc = "Essex's Blessings: Your ships earn 3.0% more EXP from Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -748,6 +1003,23 @@ pg.benefit_buff_template = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65
 	}
 }

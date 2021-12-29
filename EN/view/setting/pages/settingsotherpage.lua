@@ -63,7 +63,9 @@ function slot0.NeedRedeem(slot0)
 			slot1 = false
 		end
 	elseif PLATFORM_CODE == PLATFORM_JP then
-		slot1 = false
+		if PLATFORM == PLATFORM_IPHONEPLAYER then
+			slot1 = false
+		end
 	elseif PLATFORM_CODE == PLATFORM_US then
 		slot1 = false
 	elseif PLATFORM_CODE == PLATFORM_CHT and PLATFORM == PLATFORM_IPHONEPLAYER then

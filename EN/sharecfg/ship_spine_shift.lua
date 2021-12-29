@@ -111,5 +111,40 @@ pg.ship_spine_shift = {
 			0,
 			-185
 		}
+	},
+	U1206 = {
+		spine = "U1206",
+		mainui_shift = {
+			-13,
+			5
+		}
+	},
+	U1206_2 = {
+		spine = "U1206_2",
+		mainui_shift = {
+			-19,
+			0
+		}
+	},
+	yibei = {
+		spine = "yibei",
+		mainui_shift = {
+			8,
+			-13
+		}
+	},
+	U47_4 = {
+		spine = "U47_4",
+		mainui_shift = {
+			-19,
+			15
+		}
+	},
+	makeboluo_2 = {
+		spine = "makeboluo_2",
+		mainui_shift = {
+			19,
+			0
+		}
 	}
 }

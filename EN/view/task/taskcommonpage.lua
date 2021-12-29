@@ -41,7 +41,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0.taskVOs = {}
 
 	for slot8, slot9 in pairs(slot0.contextData.taskVOsById) do
-		if slot9:getConfig("visibility") == 1 and slot2[slot9:GetRealType()] then
+		if slot9:ShowOnTaskScene() and slot2[slot9:GetRealType()] then
 			table.insert(slot0.taskVOs, slot9)
 		end
 	end
@@ -173,7 +173,7 @@ function slot0.GetWaitToCheckList(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1) do
-		if slot7:getTaskStatus() == 1 and slot7:getConfig("visibility") == 1 then
+		if slot7:getTaskStatus() == 1 and slot7:ShowOnTaskScene() then
 			table.insert(slot2, slot7)
 		end
 	end

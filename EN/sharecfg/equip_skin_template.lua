@@ -11575,6 +11575,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[500] = {
+		name = "Cutlery Shell",
+		bullet_name = "zidan_nvpudaocha",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "It's all about the right tool for the right meal.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93411",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 500,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[501] = {
+		name = "Cat Paw Shell",
+		bullet_name = "zidan_nvpumaozhua",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "You won't need claws to rip foes to ribbons.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93412",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 501,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[502] = {
+		name = "Maid Hairband Shell",
+		bullet_name = "zidan_nvputoushi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "\"Try THIS on for size!\"",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93413",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 502,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[503] = {
+		name = "Sugar Cubes Shell",
+		bullet_name = "paodan_nvputangguan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Sugar Cubes are the core of gingerbread girls.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93414",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 503,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[504] = {
+		name = "Tray Shell",
+		bullet_name = "paodan_nvpucanpan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "\"All right, let's get this out onto a tray... Nice!\"",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93415",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 504,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[505] = {
+		name = "Rice Omelette Shell",
+		bullet_name = "paodan_nvpudanbaofan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Death by omelette, eh?",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93416",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 505,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[506] = {
+		name = "Pastry Bag Torpedo",
+		bullet_name = "yulei_nvpubiaohuadai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Remember to stay frosty.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93421",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 506,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[507] = {
+		name = "Broom Torpedo",
+		bullet_name = "yulei_nvputuoba",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "\"It's time to clean up the rubbish...\"",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93422",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 507,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[508] = {
+		name = "Mary Jane Torpedo",
+		bullet_name = "yulei_nvpuxiezi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Not named after the Mary Jane you're thinking of.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93423",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 508,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[509] = {
+		name = "Reckless Maidjuu(Torpedo)",
+		bullet_name = "feiji_manjiufuwuyuan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "She needs to watch out so the payload doesn't drop prematurely.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93431",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 509,
+		derivate_torpedo = "yulei_nvpuxiezi",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[510] = {
+		name = "Reckless Maidjuu(Fighter)",
+		bullet_name = "feiji_manjiufuwuyuan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "She needs to watch out so the payload doesn't drop prematurely.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvputangguan",
+		icon = "93431",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 510,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[511] = {
+		name = "Reckless Maidjuu(Bomber)",
+		bullet_name = "feiji_manjiufuwuyuan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "She needs to watch out so the payload doesn't drop prematurely.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvputangguan",
+		icon = "93431",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 511,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[512] = {
+		name = "Matchless Maidjuu(Torpedo)",
+		bullet_name = "feiji_manjiuwaimai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Your Juuber Yeets driver will arrive in 1 minute.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93432",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 512,
+		derivate_torpedo = "yulei_nvpubiaohuadai",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[513] = {
+		name = "Matchless Maidjuu(Fighter)",
+		bullet_name = "feiji_manjiuwaimai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Your Juuber Yeets driver will arrive in 1 minute.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpudanbaofan",
+		icon = "93432",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 513,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[514] = {
+		name = "Matchless Maidjuu(Bomber)",
+		bullet_name = "feiji_manjiuwaimai",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Your Juuber Yeets driver will arrive in 1 minute.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpudanbaofan",
+		icon = "93432",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 514,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[515] = {
+		name = "Moveless Maidjuu(Torpedo)",
+		bullet_name = "feiji_manjiunvpu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "The roomba's gonna doom ya.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93433",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 515,
+		derivate_torpedo = "yulei_nvputuoba",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[516] = {
+		name = "Moveless Maidjuu(Fighter)",
+		bullet_name = "feiji_manjiunvpu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "The roomba's gonna doom ya.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpucanpan",
+		icon = "93433",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 516,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[517] = {
+		name = "Moveless Maidjuu(Bomber)",
+		bullet_name = "feiji_manjiunvpu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "The roomba's gonna doom ya.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nvpucanpan",
+		icon = "93433",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 517,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "Joypad Shell (P)",
 		bullet_name = "Nep_bullet_shizi",
@@ -12943,6 +13444,24 @@ pg.equip_skin_template = {
 		495,
 		496,
 		497,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
 		1001,
 		1002,
 		1003,

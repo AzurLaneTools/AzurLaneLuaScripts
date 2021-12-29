@@ -148,61 +148,73 @@ function slot0.mainHandler(slot0, slot1)
 		type = MiniGameRequestCommand.REQUEST_HUB_DATA
 	})
 
-	slot23 = nowWorld()
+	slot23 = getProxy(MiniGameProxy)
+	slot25 = slot23:GetMiniGameDataByType(MiniGameConst.MG_TYPE_5).id
+
+	slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
+		hubid = slot23:GetHubByGameId(slot25).id,
+		cmd = MiniGameOPCommand.CMD_SPECIAL_GAME,
+		args1 = {
+			slot25,
+			1
+		}
+	})
+
+	slot27 = nowWorld()
 
 	if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then
-		slot23.staminaMgr.staminaExchangeTimes = 0
+		slot27.staminaMgr.staminaExchangeTimes = 0
 	end
 
-	if slot23 then
-		slot23:GetBossProxy():increasePt()
+	if slot27 then
+		slot27:GetBossProxy():increasePt()
 
-		if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot26:isEnd() then
-			slot27 = pg.gameset.joint_boss_ticket.description
-			slot29 = slot26.data1
-			slot30 = math.floor(slot27[1] * slot29 / slot27[math.min(#slot27, slot26.data2 + 1)])
-			slot26.data1 = slot30
-			slot26.data2 = 0
+		if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot30:isEnd() then
+			slot31 = pg.gameset.joint_boss_ticket.description
+			slot33 = slot30.data1
+			slot34 = math.floor(slot31[1] * slot33 / slot31[math.min(#slot31, slot30.data2 + 1)])
+			slot30.data1 = slot34
+			slot30.data2 = 0
 
-			slot13:updateActivity(slot26)
-			slot23:GetBossProxy():UpdatedUnlockProgress(slot29, slot30)
+			slot13:updateActivity(slot30)
+			slot27:GetBossProxy():UpdatedUnlockProgress(slot33, slot34)
 		end
 	end
 
-	if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot25:isEnd() then
-		slot26 = slot25.data1KeyValueList[1]
+	if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot29:isEnd() then
+		slot30 = slot29.data1KeyValueList[1]
 
-		if pg.activity_event_worldboss[slot25:getConfig("config_id")] then
-			slot28 = ipairs
-			slot29 = slot27.normal_expedition_drop_num or {}
+		if pg.activity_event_worldboss[slot29:getConfig("config_id")] then
+			slot32 = ipairs
+			slot33 = slot31.normal_expedition_drop_num or {}
 
-			for slot31, slot32 in slot28(slot29) do
-				for slot36, slot37 in ipairs(slot32[1]) do
-					slot26[slot37] = slot32[2] or 0
+			for slot35, slot36 in slot32(slot33) do
+				for slot40, slot41 in ipairs(slot36[1]) do
+					slot30[slot41] = slot36[2] or 0
 				end
 			end
 		end
 
-		slot13:updateActivity(slot25)
+		slot13:updateActivity(slot29)
 	end
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot27:isEnd() then
-		slot28, slot29 = getProxy(EventProxy):GetEventByActivityId(slot27.id)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot31:isEnd() then
+		slot32, slot33 = getProxy(EventProxy):GetEventByActivityId(slot31.id)
 
-		if not slot28 or slot28 and not slot28:IsStarting() then
-			if slot28 and slot29 then
-				table.remove(getProxy(EventProxy).eventList, slot29)
+		if not slot32 or slot32 and not slot32:IsStarting() then
+			if slot32 and slot33 then
+				table.remove(getProxy(EventProxy).eventList, slot33)
 			end
 
-			slot30 = slot27:getConfig("config_data")
+			slot34 = slot31:getConfig("config_data")
 
-			if slot27:getDayIndex() > 0 and slot31 <= #slot30 then
+			if slot31:getDayIndex() > 0 and slot35 <= #slot34 then
 				getProxy(EventProxy):AddActivityEvent(EventInfo.New({
 					finish_time = 0,
 					over_time = 0,
-					id = slot30[slot31],
+					id = slot34[slot35],
 					ship_id_list = {},
-					activity_id = slot27.id
+					activity_id = slot31.id
 				}))
 			end
 
@@ -212,27 +224,27 @@ function slot0.mainHandler(slot0, slot1)
 	end
 
 	if getProxy(GuildProxy):getRawData() then
-		slot29:ResetTechCancelCnt()
+		slot33:ResetTechCancelCnt()
 
-		if slot29:getWeeklyTask() and slot30:isExpire() then
-			getProxy(TaskProxy):removeTaskById(slot30:GetPresonTaskId())
+		if slot33:getWeeklyTask() and slot34:isExpire() then
+			getProxy(TaskProxy):removeTaskById(slot34:GetPresonTaskId())
 
-			slot29.weeklyTaskFlag = 0
+			slot33.weeklyTaskFlag = 0
 		end
 
-		if slot29:GetActiveEvent() then
-			slot31:GetBossMission():ResetDailyCnt()
+		if slot33:GetActiveEvent() then
+			slot35:GetBossMission():ResetDailyCnt()
 		end
 
 		if slot12.day == 1 then
-			slot29:ResetActiveEventCnt()
+			slot33:ResetActiveEventCnt()
 		end
 
-		slot28:updateGuild(slot29)
+		slot32:updateGuild(slot33)
 	end
 
-	if slot28:GetPublicGuild() then
-		slot32 = nil
+	if slot32:GetPublicGuild() then
+		slot36 = nil
 
 		Timer.New(function ()
 			uv0:Stop()
