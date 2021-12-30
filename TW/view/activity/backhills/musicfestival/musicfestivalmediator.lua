@@ -1,21 +1,4 @@
-slot0 = class("MusicFestivalMediator", import("view.base.ContextMediator"))
-slot0.MINI_GAME_OPERATOR = "MusicFestivalMediator:MINI_GAME_OPERATOR"
-slot0.GO_SCENE = "MusicFestivalMediator:GO_SCENE"
-slot0.GO_SUBLAYER = "MusicFestivalMediator:GO_SUBLAYER"
-slot0.CLICK_SCREEN_BTN = "MusicFestivalMediator:CLICK_SCREEN_BTN"
-
-function slot0.register(slot0)
-	slot0:BindEvent()
-end
-
-function slot0.BindEvent(slot0)
-	slot0:bind(uv0.GO_SCENE, function (slot0, slot1, ...)
-		uv0:sendNotification(GAME.GO_SCENE, slot1, ...)
-	end)
-	slot0:bind(uv0.GO_SUBLAYER, function (slot0, slot1, slot2)
-		uv0:addSubLayers(slot1, nil, slot2)
-	end)
-end
+slot0 = class("MusicFestivalMediator", import("..TemplateMV.BackHillMediatorTemplate"))
 
 function slot0.listNotificationInterests(slot0)
 	return {

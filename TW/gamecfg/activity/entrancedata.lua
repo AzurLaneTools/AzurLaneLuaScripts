@@ -164,6 +164,19 @@ return {
 		end
 	},
 	{
+		banner = "commom_minigame",
+		event = ActivityMediator.GO_MINI_GAME,
+		data = {
+			33
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_CURLING) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_CURLING):getConfig("config_id")).count > 0 or slot1:getConfig("reward_need") <= slot1.usedtime and slot1.ultimate == 0
+		end
+	},
+	{
 		banner = "vote_frame_hall",
 		event = ActivityMediator.GO_FISRT_VOTE,
 		data = {},
@@ -180,10 +193,13 @@ return {
 		banner = "event_square",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
-			SCENE.NEWYEAR_SQUARE
+			SCENE.NEWYEAR_BACKHILL
 		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return BackHillTemplate.IsMiniActNeedTip(ActivityConst.NEWYEAR_SNOWBALL_FIGHT) or NewYearSnackPage.IsTip() or NewYearShrineView.IsNeedShowTipWithoutActivityFinalReward()
 		end
 	},
 	{

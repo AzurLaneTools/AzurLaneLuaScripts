@@ -31,7 +31,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -63,7 +63,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -95,7 +95,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呵，一下子反而不知道该说什么了……",
+			say = "呵，一下子反而不知道該說什麼了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -147,7 +147,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这里，对你来说还真是一处最合适的休息之所啊……",
+			say = "這裡，對妳來說還真是一處最合適的休息之所啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -191,7 +191,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -211,7 +211,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好久不见，我的朋友……",
+			say = "好久不見，我的朋友……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

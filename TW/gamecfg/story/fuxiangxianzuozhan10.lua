@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "帕克菲克洋·？？？",
+			say = "太平洋·？？？",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提问，在海面上突然遭遇浓密的海雾之后，你们想到的第一件事是什么？",
+			say = "提問，在海面上突然遭遇濃密的海霧之後，妳們想到的第一件事是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遮蔽环境的迷雾…视野受到极大限制…是迷航！",
+			say = "遮蔽環境的迷霧…視野受到極大限制…是迷航！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迷雾之中，通常隐藏着未知，恐怖与危险……",
+			say = "迷霧之中，通常隱藏著未知，恐怖與危險……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐，你是想说塞壬对吧……同感。",
+			say = "翔鶴姐，妳是想說塞壬對吧……同感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！！会有塞壬冒出来么！",
+			say = "哎？！！會有塞壬冒出來嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直接遇到塞壬，或者因为塞壬生成的海雾而迷航，总归会出现这两种情况之中的一个吧……",
+			say = "直接遇到塞壬，或者因為塞壬生成的海霧而迷航，總歸會出現這兩種情況之中的一個吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至少要尽力避免迷航的情况……我们的航线怎么样，没有发生偏离吧？",
+			say = "至少要盡力避免迷航的情況……我們的航線怎麼樣，沒有發生偏離吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在离开本岛之后舰队一直严格按照作战计划给定的航线前进，直到海雾出现前应该没有发生偏差才对。",
+			say = "在離開本土之後艦隊一直嚴格按照作戰計劃給定的航線前進，直到海霧出現前應該沒有發生偏差才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们不觉得奇怪么？同样是去NA海域，为什么前·辈们的舰队可以走更近的苏彝士运河，而我们非得从阿非利加下面绕一大圈啊~",
+			say = "妳們不覺得奇怪嗎？同樣是去NA海域，為什麼前·輩們的艦隊可以走更近的蘇伊士運河，而我們非得從非洲下面繞一大圈啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不会是她们害怕战功被我们抢掉，所以故意让我们走远路吧？",
+			say = "不會是她們害怕戰功被我們搶掉，所以故意讓我們走遠路吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前辈倒也不至于会做到这种地步啦，姐姐……而且为了保证两支舰队同时抵达，我们舰队不是比她们更先出发了么。",
+			say = "前輩倒也不至於會做到這種地步啦，姐姐……而且為了保證兩支艦隊同時抵達，我們艦隊不是比她們更先出發了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这倒也是……那也许她们只是单纯想让我们跑一个大圈，顺便替她们侦察一下沿途的危险？",
+			say = "這倒也是……那也許她們只是單純想讓我們跑一個大圈，順便替她們偵察一下沿途的危險？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果前辈们是这个打算的话，那算她们走运……我们大概真撞到镜面海域里了。",
+			say = "如果前輩們是這個打算的話，那算她們走運……我們大概真撞到鏡面海域裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是……………",
+			say = "這是……………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不会吧，竟、竟然真的遇到了……言灵、这是难道就是言灵么！",
+			say = "不會吧，竟、竟然真的遇到了……言靈、這是難道就是言靈嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等到了NA海域之后，一定要好好找前·辈们要点谢礼了，呵呵~",
+			say = "看來等到了NA海域之後，一定要好好找前·輩們要點謝禮了，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -398,7 +398,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，以为遭遇突发情况就会让我大意么！{namecode:96}，附近有塞壬舰队埋伏，看来是想趁我们还没摸清情况的时候来次突然袭击！",
+			say = "哼，以為遭遇突發情況就會讓我大意嗎！瑞鶴，附近有塞壬艦隊埋伏，看來是想趁我們還沒摸清情況的時候來次突然襲擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是早有准备……大家提高警惕，准备战斗！",
+			say = "果然是早有準備……大家提高警惕，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

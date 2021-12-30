@@ -36,7 +36,7 @@ return {
 			actor = 900230,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "居然……主动炸掉了镜面海域维持装置…？",
+			say = "居然……主動炸掉了鏡面海域維持裝置…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幕后主谋现身~没想到来的是你啊，构建者。",
+			say = "幕後主謀現身~沒想到來的是妳啊，構建者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次可是你主动对铁血控制区发动的入侵，我们被迫进行的反击行动可不算违反协议的哦~",
+			say = "這次可是妳主動對鐵血控制區發動的入侵，我們被迫進行的反擊行動可不算違反協議的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 900230,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "…………你是什么时候猜到的？",
+			say = "…………妳是什麼時候猜到的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最初意识到是从访问通讯没有得到回应的时候。不过真正确信是在发现D13防御系统发动攻击的那一刻。",
+			say = "最初意識到是從訪問通訊沒有得到回應的時候。不過真正確信是在發現D13防禦系統發動攻擊的那一刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "D11至13防御模块主要用于辅助演习任务，如果不是海域内部出现了严重威胁，是绝对不会进入最高级警戒的。",
+			say = "D11~13防禦模組主要用於輔助演習任務，如果不是海域內部出現了嚴重威脅，是絕對不會進入最高級警戒的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当时我就认定这应该是史特拉塞在遭遇了某些无法解释的异常情况后采取的安全对策。",
+			say = "當時我就認定這應該是史特拉塞在遭遇了某些無法解釋的異常情況後採取的安全對策。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "原来如此……",
+			say = "原來如此……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，我记得你不是战斗特化的型号吧，构建者？",
+			say = "說起來，我記得妳不是戰鬥特化的型號吧，構建者？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些飞机正气势汹汹的搜寻着区域内每一个塞壬目标呢。现在你的位置暴露，可不是能悠闲进行电子干扰的时候了哦。",
+			say = "那些飛機正氣勢洶洶的搜尋著區域內每一個塞壬目標呢。現在妳的位置暴露，可不是能悠閒進行電子干擾的時候了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 900230,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "…………………防御模块，启动。移动模块功率增加70%，超载准备中———",
+			say = "…………………防禦模組，啟動。移動模組功率增加70%，超載準備中———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难得我亲自当做诱饵想上演一出令人感动得悲情戏呢，居然这么不解风情的选择逃跑……",
+			say = "難得我親自當做誘餌想上演一出令人感動得悲情戲呢，居然這麼不解風情的選擇逃跑……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……………………想都别想。",
+			say = "……………………想都別想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

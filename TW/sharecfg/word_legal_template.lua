@@ -1177,6 +1177,17 @@ function temp()
 			["星"] = {
 				this = true
 			}
+		},
+		["因"] = {
+			["里"] = {
+				["希"] = {
+					["親"] = {
+						["王"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -1658,6 +1669,9 @@ function temp()
 		},
 		["嚴"] = {
 			this = true
+		},
+		["悉"] = {
+			this = true
 		}
 	}
 end
@@ -2136,6 +2150,13 @@ function temp()
 			["狗"] = {
 				this = true
 			}
+		},
+		["将"] = {
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -2427,6 +2448,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["倫"] = {
+			["堡"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -2456,7 +2482,12 @@ temp()
 function temp()
 	uv0["倫"] = {
 		["敦"] = {
-			this = true
+			this = true,
+			["‧"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -3697,6 +3728,12 @@ function temp()
 			},
 			["5"] = {
 				this = true
+			},
+			["4"] = {
+				this = true
+			},
+			["8"] = {
+				this = true
 			}
 		},
 		["3"] = {
@@ -3904,6 +3941,11 @@ function temp()
 					["0"] = {
 						this = true
 					}
+				}
+			},
+			["3"] = {
+				["7"] = {
+					this = true
 				}
 			}
 		}
@@ -4512,6 +4554,26 @@ function temp()
 	uv0["貉"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["彼"] = {
+		["得"] = {
+			["·"] = {
+				["史"] = {
+					["特"] = {
+						["拉"] = {
+							["塞"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

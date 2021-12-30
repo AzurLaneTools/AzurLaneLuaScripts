@@ -1,6 +1,310 @@
 pg = pg or {}
 pg.enemy_data_statistics_7 = {
-	[192] = {
+	[90190] = {
+		cannon = 0,
+		name = "神通",
+		type = 2,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90190,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "shentong",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 28,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "shentong",
+		cannon_growth = 0,
+		pilot_ai_template_id = 70017,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90191] = {
+		cannon = 0,
+		name = "阿賀野",
+		type = 2,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90191,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "aheye",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "aheye",
+		cannon_growth = 0,
+		pilot_ai_template_id = 70033,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.1,
+					0.22,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90192] = {
 		cannon = 0,
 		name = "柯尼斯堡",
 		type = 2,
@@ -11,7 +315,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 192,
+		id = 90192,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "kenisibao",
@@ -164,7 +468,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[193] = {
+	[90193] = {
 		cannon = 0,
 		name = "卡爾斯魯厄",
 		type = 2,
@@ -175,7 +479,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 193,
+		id = 90193,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "kaersilue",
@@ -328,7 +632,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[194] = {
+	[90194] = {
 		cannon = 0,
 		name = "科隆",
 		type = 2,
@@ -339,7 +643,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 194,
+		id = 90194,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "kelong",
@@ -492,7 +796,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[195] = {
+	[90195] = {
 		cannon = 0,
 		name = "萊比錫",
 		type = 2,
@@ -503,7 +807,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 195,
+		id = 90195,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "laibixi",
@@ -656,7 +960,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[196] = {
+	[90196] = {
 		cannon = 0,
 		name = "什羅普郡",
 		type = 3,
@@ -667,7 +971,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 196,
+		id = 90196,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "shiluopujun",
@@ -820,7 +1124,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[197] = {
+	[90197] = {
 		cannon = 0,
 		name = "肯特",
 		type = 3,
@@ -831,7 +1135,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 197,
+		id = 90197,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "kente",
@@ -977,7 +1281,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[198] = {
+	[90198] = {
 		cannon = 0,
 		name = "薩福克",
 		type = 3,
@@ -988,7 +1292,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 198,
+		id = 90198,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "safuke",
@@ -1132,7 +1436,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[199] = {
+	[90199] = {
 		cannon = 0,
 		name = "古鷹",
 		type = 3,
@@ -1143,7 +1447,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 199,
+		id = 90199,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "guying",
@@ -1290,7 +1594,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[200] = {
+	[90200] = {
 		cannon = 0,
 		name = "加古",
 		type = 3,
@@ -1301,7 +1605,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 200,
+		id = 90200,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "jiagu",
@@ -1462,7 +1766,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[201] = {
+	[90201] = {
 		cannon = 0,
 		name = "青葉",
 		type = 3,
@@ -1473,7 +1777,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 201,
+		id = 90201,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "qingye",
@@ -1620,7 +1924,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[202] = {
+	[90202] = {
 		cannon = 0,
 		name = "衣笠",
 		type = 3,
@@ -1631,7 +1935,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 202,
+		id = 90202,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "yili",
@@ -1778,7 +2082,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[203] = {
+	[90203] = {
 		cannon = 0,
 		name = "妙高",
 		type = 3,
@@ -1789,7 +2093,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 203,
+		id = 90203,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "miaogao",
@@ -1926,7 +2230,7 @@ pg.enemy_data_statistics_7 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[204] = {
+	[90204] = {
 		cannon = 0,
 		name = "那智",
 		type = 3,
@@ -1937,7 +2241,7 @@ pg.enemy_data_statistics_7 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 204,
+		id = 90204,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "nazhi",
@@ -2031,316 +2335,6 @@ pg.enemy_data_statistics_7 = {
 							0.27,
 							2.17,
 							1.99
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[205] = {
-		cannon = 0,
-		name = "筑摩",
-		type = 3,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 205,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "zhumo",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "zhumo",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 3,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.24,
-					0.73,
-					0
-				}
-			},
-			plane = {
-				{
-					0.76,
-					0.53,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.12,
-							0.57,
-							-0.21
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.4,
-							2.25,
-							2.02
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[206] = {
-		cannon = 0,
-		name = "利根",
-		type = 3,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 206,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "ligen",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "ligen",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 3,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.2,
-					0.67,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.2,
-					0.67,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.2,
-							0.57,
-							0.16
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.26,
-							2.45,
-							2.107
 						}
 					}
 				}

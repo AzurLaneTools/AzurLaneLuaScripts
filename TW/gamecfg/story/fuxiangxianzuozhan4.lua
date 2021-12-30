@@ -11,7 +11,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海因里希，听得到吗？",
+			say = "海因里希，聽得到嗎？",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听得很清楚哦！",
+			say = "聽得很清楚哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "敌方航空队的部署发生了变化，你已经开始对浮岛机场进行压制了么？",
+			say = "敵方航空隊的部署發生了變化，妳已經開始對浮島機場進行壓制了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~机场周边敌军已经清理完毕，现在正在向机场接近！",
+			say = "沒錯~機場周邊敵軍已經清理完畢，現在正在向機場接近！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "稍等，我先让战斗机侦察一下，别忘了这次敌人的战斗策略也得到了升级，小心敌人的伏击。",
+			say = "稍等，我先讓戰鬥機偵察一下，別忘了這次敵人的戰鬥策略也得到了升級，小心敵人的伏擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "那就拜托你咯，彼得~",
+			say = "那就拜託妳囉，彼得~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

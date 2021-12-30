@@ -1,11 +1,4 @@
-slot0 = class("SummerFeastMediator", import("view.base.ContextMediator"))
-slot0.MINI_GAME_OPERATOR = "SummerFeastMediator:MINI_GAME_OPERATOR"
-
-function slot0.register(slot0)
-	slot0:bind(uv0.MINI_GAME_OPERATOR, function (slot0, ...)
-		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, ...)
-	end)
-end
+slot0 = class("SummerFeastMediator", import("..TemplateMV.BackHillMediatorTemplate"))
 
 function slot0.listNotificationInterests(slot0)
 	return {

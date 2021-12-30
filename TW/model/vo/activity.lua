@@ -131,269 +131,276 @@ function slot0.increaseUsedCount(slot0, slot1)
 end
 
 function slot0.readyToAchieve(slot0)
-	slot1 = false
-	slot2 = slot0:getConfig("type")
+	slot1, slot2 = slot0:IsShowTipById()
 
-	if slot0.id == ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE then
-		slot3 = getProxy(SkirmishProxy)
-
-		slot3:UpdateSkirmishProgress()
-
-		slot5 = 0
-		slot6 = 0
-
-		for slot10, slot11 in ipairs(slot3:getRawData()) do
-			if SkirmishVO.StateInactive < slot11:GetState() then
-				slot5 = slot5 + 1
-			end
-
-			if slot12 == SkirmishVO.StateClear then
-				slot6 = slot6 + 1
-			end
-		end
-
-		if slot6 < slot5 then
-			return true
-		else
-			return slot1
-		end
-	elseif slot0.id == ActivityConst.POCKY_SKIN_LOGIN then
-		slot3 = slot0:getConfig("config_client").linkids
-		slot4 = getProxy(TaskProxy)
-		slot5 = getProxy(ActivityProxy)
-		slot6 = slot5:getActivityById(slot3[1])
-		slot7 = slot5:getActivityById(slot3[2])
-		slot8 = slot5:getActivityById(slot3[3])
-
-		return (function ()
-			slot4 = uv1.data3
-
-			for slot4 = 1, math.min(#_.flatten(uv0:getConfig("config_data")), slot4) do
-				if uv2:getTaskById(slot0[slot4]) and slot6:isFinish() and not slot6:isReceive() then
-					return true
-				end
-			end
-		end)() or (function ()
-			return uv0 and uv0:readyToAchieve()
-		end)() or (function ()
-			return uv0 and uv0:readyToAchieve()
-		end)() or (function ()
-			if not uv0 or not uv0:readyToAchieve() or not uv1 then
-				return false
-			end
-
-			slot1 = ActivityPtData.New(uv1)
-
-			return slot1.level >= #slot1.targets
-		end)()
-	elseif slot0.id == ActivityConst.TOWERCLIMBING_SIGN then
-		slot4 = getProxy(MiniGameProxy):GetHubByHubId(9)
-		slot1 = slot4.ultimate == 0 and slot4:getConfig("reward_need") <= slot4.usedtime
-	elseif slot0.id == pg.activity_const.NEWYEAR_SNACK_PAGE_ID.act_id then
-		return NewYearSnackPage.IsTip()
-	elseif slot0.id == ActivityConst.WWF_TASK_ID then
-		return WWFPtPage:IsShowRed()
-	elseif slot0.id == ActivityConst.NEWMEIXIV4_SKIRMISH_ID then
-		return NewMeixiV4SkirmishPage:IsShowRed()
-	elseif slot0.id == ActivityConst.JIUJIU_YOYO_ID then
-		return JiujiuYoyoPage:IsShowRed()
+	if slot1 then
+		return slot2
 	end
 
-	if slot2 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS then
-		return slot0.data2 < math.ceil(os.difftime(pg.TimeMgr.GetInstance():GetServerTime(), slot0.data3) / 86400) and slot0.data2 < slot0:getConfig("config_data")[4]
-	elseif slot2 == ActivityConst.ACTIVITY_TYPE_LEVELAWARD then
-		slot3 = getProxy(PlayerProxy):getRawData()
+	slot2 = false
 
-		for slot8 = 1, #pg.activity_level_award[slot0:getConfig("config_id")].front_drops do
-			if slot4.front_drops[slot8][1] <= slot3.level and not _.include(slot0.data1_list, slot10) then
-				slot1 = true
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS then
+		return slot0.data2 < math.ceil(os.difftime(pg.TimeMgr.GetInstance():GetServerTime(), slot0.data3) / 86400) and slot0.data2 < slot0:getConfig("config_data")[4]
+	elseif slot3 == ActivityConst.ACTIVITY_TYPE_LEVELAWARD then
+		slot4 = getProxy(PlayerProxy):getRawData()
+
+		for slot9 = 1, #pg.activity_level_award[slot0:getConfig("config_id")].front_drops do
+			if slot5.front_drops[slot9][1] <= slot4.level and not _.include(slot0.data1_list, slot11) then
+				slot2 = true
 
 				break
 			end
 		end
-	elseif slot2 == ActivityConst.ACTIVITY_TYPE_STORY_AWARD then
-		slot3 = getProxy(PlayerProxy):getRawData()
+	elseif slot3 == ActivityConst.ACTIVITY_TYPE_STORY_AWARD then
+		slot4 = getProxy(PlayerProxy):getRawData()
 
-		for slot8 = 1, #pg.activity_event_chapter_award[slot0:getConfig("config_id")].chapter do
-			if getProxy(ChapterProxy):isClear(slot4.chapter[slot8]) and not _.include(slot0.data1_list, slot9) then
-				slot1 = true
+		for slot9 = 1, #pg.activity_event_chapter_award[slot0:getConfig("config_id")].chapter do
+			if getProxy(ChapterProxy):isClear(slot5.chapter[slot9]) and not _.include(slot0.data1_list, slot10) then
+				slot2 = true
 
 				break
 			end
 		end
 	else
-		if slot2 == ActivityConst.ACTIVITY_TYPE_TASKS or slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
-			slot3 = getProxy(TaskProxy)
+		if slot3 == ActivityConst.ACTIVITY_TYPE_TASKS or slot3 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
+			slot4 = getProxy(TaskProxy)
 
 			return _.any(_.flatten(slot0:getConfig("config_data")), function (slot0)
 				return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
 			end)
 		end
 
-		if slot2 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		if slot3 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
 			return not (slot0:GetDataConfig("hp") <= slot0.data3) and slot0:GetCountForHitMonster() > 0
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_DODGEM then
-			slot3 = pg.TimeMgr.GetInstance()
-			slot4 = slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_DODGEM then
+			slot4 = pg.TimeMgr.GetInstance()
+			slot5 = slot4:DiffDay(slot0.data1, slot4:GetServerTime()) + 1
 
 			if slot0:getConfig("config_id") == 1 then
-				return slot0.data4 == 0 and slot0.data2 >= 7 or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot4, 7) or slot0.data3 < slot4
-			elseif slot5 == 2 then
-				return slot0.data4 == 0 and slot0.data2 >= 7 or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot4, 7)
+				return slot0.data4 == 0 and slot0.data2 >= 7 or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot5, 7) or slot0.data3 < slot5
+			elseif slot6 == 2 then
+				return slot0.data4 == 0 and slot0.data2 >= 7 or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot5, 7)
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
-			slot11 = slot0.data2_list[1] - slot0.data2_list[2]
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
+			slot12 = slot0.data2_list[1] - slot0.data2_list[2]
 
-			return math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1] - slot0.data1_list[2] > 0 or slot11 and slot11 > 0
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot2 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
-			slot4 = ActivityPtData.New(slot0):CanGetAward()
-			slot5 = true
+			return math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1] - slot0.data1_list[2] > 0 or slot12 and slot12 > 0
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot3 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+			slot5 = ActivityPtData.New(slot0):CanGetAward()
+			slot6 = true
 
 			if getProxy(VoteProxy):IsVoteBookAct(slot0.id) then
-				slot7 = nil
+				slot8 = nil
 
 				if _.detect(pg.activity_vote.all, function (slot0)
 					return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show) and slot1.is_in_game == 1
 				end) then
-					slot7 = VoteGroup.New({
-						id = slot6,
+					slot8 = VoteGroup.New({
+						id = slot7,
 						list = {}
 					})
 				end
 
-				slot5 = slot7 and slot7:GetStage() == VoteGroup.VOTE_STAGE
+				slot6 = slot8 and slot8:GetStage() == VoteGroup.VOTE_STAGE
 			end
 
-			return slot4 and slot5
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+			return slot5 and slot6
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 			if slot0.data1 == 1 then
-				slot5 = pg.activity_template_headhunting[slot0.id].target
-				slot6 = 0
-
-				for slot10, slot11 in ipairs(slot0:getClientList()) do
-					slot6 = slot6 + slot11:getPt()
-				end
-
+				slot6 = pg.activity_template_headhunting[slot0.id].target
 				slot7 = 0
 
-				for slot11 = #slot5, 1, -1 do
-					if table.contains(slot0.data1_list, slot5[slot11]) then
-						slot7 = slot11
+				for slot11, slot12 in ipairs(slot0:getClientList()) do
+					slot7 = slot7 + slot12:getPt()
+				end
+
+				slot8 = 0
+
+				for slot12 = #slot6, 1, -1 do
+					if table.contains(slot0.data1_list, slot6[slot12]) then
+						slot8 = slot12
 
 						break
 					end
 				end
 
-				return slot5[math.min(slot7 + 1, #slot4.drop_client)] <= slot6 and slot7 ~= #slot8 or _.any(slot4.tasklist, function (slot0)
+				return slot6[math.min(slot8 + 1, #slot5.drop_client)] <= slot7 and slot8 ~= #slot9 or _.any(slot5.tasklist, function (slot0)
 					return getProxy(TaskProxy):getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
 				end)
-			elseif slot3 == 2 then
-				slot4 = getProxy(TaskProxy)
+			elseif slot4 == 2 then
+				slot5 = getProxy(TaskProxy)
 
 				return _.any(_.flatten(pg.activity_template_returnner[slot0.id].task_list), function (slot0)
 					return uv0:getTaskById(slot0) and slot1:isFinish()
 				end)
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_MINIGAME then
-			slot1 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 or slot3:getConfig("reward_need") <= slot3.usedtime and slot3.ultimate == 0
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_TURNTABLE then
-			slot3 = pg.activity_event_turning[slot0:getConfig("config_id")]
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_MINIGAME then
+			slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 or slot4:getConfig("reward_need") <= slot4.usedtime and slot4.ultimate == 0
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_TURNTABLE then
+			slot4 = pg.activity_event_turning[slot0:getConfig("config_id")]
 
 			if slot0.data4 ~= 0 then
-				slot6 = getProxy(TaskProxy)
+				slot7 = getProxy(TaskProxy)
 
-				for slot10, slot11 in ipairs(slot3.task_table[slot4]) do
-					if (slot6:getTaskById(slot11) or slot6:getFinishTaskById(slot11)):getTaskStatus() == 1 then
-						slot1 = true
+				for slot11, slot12 in ipairs(slot4.task_table[slot5]) do
+					if (slot7:getTaskById(slot12) or slot7:getFinishTaskById(slot12)):getTaskStatus() == 1 then
+						slot2 = true
 
 						break
 					end
 				end
 
-				if not slot1 and slot0.data3 < math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data1, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, pg.activity_event_turning[slot0:getConfig("config_id")].total_num) then
-					slot1 = true
+				if not slot2 and slot0.data3 < math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data1, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, pg.activity_event_turning[slot0:getConfig("config_id")].total_num) then
+					slot2 = true
 
-					for slot12, slot13 in ipairs(slot5) do
-						if (slot6:getTaskById(slot13) or slot6:getFinishTaskById(slot13)):getTaskStatus() ~= 2 then
-							slot1 = false
+					for slot13, slot14 in ipairs(slot6) do
+						if (slot7:getTaskById(slot14) or slot7:getFinishTaskById(slot14)):getTaskStatus() ~= 2 then
+							slot2 = false
 
 							break
 						end
 					end
 				end
-			elseif slot4 == 0 then
-				slot1 = slot0.data3 < math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data1, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, pg.activity_event_turning[slot0:getConfig("config_id")].total_num)
+			elseif slot5 == 0 then
+				slot2 = slot0.data3 < math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data1, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, pg.activity_event_turning[slot0:getConfig("config_id")].total_num)
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD then
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD then
 			return slot0.data2 <= 0
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_SHRINE then
-			slot7 = pg.NewStoryMgr.GetInstance()
-			slot8 = math.clamp(slot0.data2, 0, slot0:getConfig("config_client").story and #slot3 or 7)
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_SHRINE then
+			slot8 = pg.NewStoryMgr.GetInstance()
+			slot9 = math.clamp(slot0.data2, 0, slot0:getConfig("config_client").story and #slot4 or 7)
 
-			for slot12 = 1, math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data3, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, slot4) do
-				if slot3[slot12][1] and slot12 <= slot8 and not slot7:IsPlayed(slot13) then
+			for slot13 = 1, math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data3, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, slot5) do
+				if slot4[slot13][1] and slot13 <= slot9 and not slot8:IsPlayed(slot14) then
 					return true
 				end
 			end
 
-			if slot4 <= slot6 and slot4 <= slot0.data2 and slot0.data1 <= 0 then
+			if slot5 <= slot7 and slot5 <= slot0.data2 and slot0.data1 <= 0 then
 				return true
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_LINK_LINK then
-			slot4 = pg.TimeMgr.GetInstance()
-			slot1 = math.clamp(slot4:DiffDay(slot0.data3, slot4:GetServerTime()) + 1 - slot0.data2, 0, #slot0:getConfig("config_client")[3] - slot0.data2) > 0
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
-			for slot7, slot8 in ipairs(slot0:getConfig("config_data")) do
-				slot9 = slot0.data1KeyValueList[2][slot8] or 1
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_LINK_LINK then
+			slot5 = pg.TimeMgr.GetInstance()
+			slot2 = math.clamp(slot5:DiffDay(slot0.data3, slot5:GetServerTime()) + 1 - slot0.data2, 0, #slot0:getConfig("config_client")[3] - slot0.data2) > 0
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
+			for slot8, slot9 in ipairs(slot0:getConfig("config_data")) do
+				slot10 = slot0.data1KeyValueList[2][slot9] or 1
 
-				if pg.activity_event_building[slot8] and slot9 < #slot10.buff then
-					slot1 = slot1 or slot10.material[slot9] <= (slot0.data1KeyValueList[1][slot10.material_id] or 0)
+				if pg.activity_event_building[slot9] and slot10 < #slot11.buff then
+					slot2 = slot2 or slot11.material[slot10] <= (slot0.data1KeyValueList[1][slot11.material_id] or 0)
 				end
 
-				if slot1 then
+				if slot2 then
 					break
 				end
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
 			if slot0.data3 > 0 and slot0.data1 ~= 0 then
-				slot1 = true
+				slot2 = true
 			else
-				for slot6 = 1, #slot0.data1_list do
-					if not bit.band(slot0.data1_list[slot6], ActivityConst.EXPEDITION_TYPE_GOT) ~= 0 then
-						if bit.band(slot0.data1_list[slot6], ActivityConst.EXPEDITION_TYPE_OPEN) ~= 0 then
+				for slot7 = 1, #slot0.data1_list do
+					if not bit.band(slot0.data1_list[slot7], ActivityConst.EXPEDITION_TYPE_GOT) ~= 0 then
+						if bit.band(slot0.data1_list[slot7], ActivityConst.EXPEDITION_TYPE_OPEN) ~= 0 then
 							return true
-						elseif bit.band(slot0.data1_list[slot6], ActivityConst.EXPEDITION_TYPE_BAOXIANG) ~= 0 then
+						elseif bit.band(slot0.data1_list[slot7], ActivityConst.EXPEDITION_TYPE_BAOXIANG) ~= 0 then
 							return true
-						elseif bit.band(slot0.data1_list[slot6], ActivityConst.EXPEDITION_TYPE_BOSS) ~= 0 then
+						elseif bit.band(slot0.data1_list[slot7], ActivityConst.EXPEDITION_TYPE_BOSS) ~= 0 then
 							return true
 						end
 					end
 				end
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY then
-			if slot0:getConfig("config_client") and slot3.linkGameHubID and getProxy(MiniGameProxy):GetHubByHubId(slot3.linkGameHubID) and slot4.count > 0 then
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY then
+			if slot0:getConfig("config_client") and slot4.linkGameHubID and getProxy(MiniGameProxy):GetHubByHubId(slot4.linkGameHubID) and slot5.count > 0 then
 				return true
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_BB then
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_BB then
 			if slot0.data2 > 0 then
 				return true
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PUZZLA then
-			slot3 = slot0.data1_list
-			slot4 = slot0.data2_list
-			slot1 = _.any(uv0.GetPicturePuzzleIds(slot0.id), function (slot0)
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PUZZLA then
+			slot4 = slot0.data1_list
+			slot5 = slot0.data2_list
+			slot2 = _.any(uv0.GetPicturePuzzleIds(slot0.id), function (slot0)
 				return not table.contains(uv0, slot0) and table.contains(uv1, slot0)
 			end)
 
 			if slot0.id == ActivityConst.APRILFOOL_DISCOVERY then
-				slot1 = slot1 or slot0.data1 < 1
+				slot2 = slot2 or slot0.data1 < 1
 			elseif slot0.id == ActivityConst.APRILFOOL_DISCOVERY_RE then
-				slot1 = slot1 or slot0.data1 < 2
+				slot2 = slot2 or slot0.data1 < 2
 			end
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
 			return #slot0:GetCrusingUnreceiveAward() > 0
 		end
 	end
+end
+
+function slot0.IsShowTipById(slot0)
+	uv0.ShowTipTableById = uv0.ShowTipTableById or {
+		[ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE] = function ()
+			slot0 = getProxy(SkirmishProxy)
+
+			slot0:UpdateSkirmishProgress()
+
+			slot2 = 0
+			slot3 = 0
+
+			for slot7, slot8 in ipairs(slot0:getRawData()) do
+				if SkirmishVO.StateInactive < slot8:GetState() then
+					slot2 = slot2 + 1
+				end
+
+				if slot9 == SkirmishVO.StateClear then
+					slot3 = slot3 + 1
+				end
+			end
+
+			return slot3 < slot2
+		end,
+		[ActivityConst.POCKY_SKIN_LOGIN] = function ()
+			slot0 = uv0:getConfig("config_client").linkids
+			slot1 = getProxy(TaskProxy)
+			slot2 = getProxy(ActivityProxy)
+			slot3 = slot2:getActivityById(slot0[1])
+			slot4 = slot2:getActivityById(slot0[2])
+			slot5 = slot2:getActivityById(slot0[3])
+
+			return (function ()
+				slot4 = uv1.data3
+
+				for slot4 = 1, math.min(#_.flatten(uv0:getConfig("config_data")), slot4) do
+					if uv2:getTaskById(slot0[slot4]) and slot6:isFinish() and not slot6:isReceive() then
+						return true
+					end
+				end
+			end)() or (function ()
+				return uv0 and uv0:readyToAchieve()
+			end)() or (function ()
+				return uv0 and uv0:readyToAchieve()
+			end)() or (function ()
+				if not uv0 or not uv0:readyToAchieve() or not uv1 then
+					return false
+				end
+
+				slot1 = ActivityPtData.New(uv1)
+
+				return slot1.level >= #slot1.targets
+			end)()
+		end,
+		[ActivityConst.TOWERCLIMBING_SIGN] = function ()
+			slot1 = getProxy(MiniGameProxy):GetHubByHubId(9)
+
+			return slot1.ultimate == 0 and slot1:getConfig("reward_need") <= slot1.usedtime
+		end,
+		[pg.activity_const.NEWYEAR_SNACK_PAGE_ID.act_id] = NewYearSnackPage.IsTip,
+		[ActivityConst.WWF_TASK_ID] = WWFPtPage.IsShowRed,
+		[ActivityConst.NEWMEIXIV4_SKIRMISH_ID] = NewMeixiV4SkirmishPage.IsShowRed,
+		[ActivityConst.JIUJIU_YOYO_ID] = JiujiuYoyoPage.IsShowRed
+	}
+	slot1 = uv0.ShowTipTableById[slot0.id]
+
+	return tobool(slot1), slot1 and slot1()
 end
 
 function slot0.isShow(slot0)

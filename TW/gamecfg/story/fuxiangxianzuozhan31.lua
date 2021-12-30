@@ -13,7 +13,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到此为止了构建者，此·路·不·通！",
+			say = "到此為止了構建者，此·路·不·通！",
 			bgm = "bsm-2",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			actor = 900230,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "伏击……",
+			say = "伏擊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是看不出来啊，你这么大的体积居然在水中能保持这么快的移动速度！",
+			say = "真是看不出來啊，妳這麼大的體積居然在水中能保持這麼快的移動速度！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，你需要花多久才能跑出我的鱼雷射程呢？",
+			say = "不過，妳需要花多久才能跑出我的魚雷射程呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			actor = 900230,
 			dir = 1,
-			say = "装甲————",
+			say = "裝甲————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "哈喽~这次难得被摆了一道呢！",
+			say = "哈囉~這次難得被擺了一道呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我现在还在任务中，能不能不要突然使用紧急频道。",
+			say = "我現在還在任務中，能不能不要突然使用緊急頻道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "啊、抱歉抱歉！不过不用担心，观察者让我来接应你了。「样本」已经回收完毕了么？",
+			say = "啊、抱歉抱歉！不過不用擔心，觀察者讓我來接應妳了。「樣本」已經回收完畢了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "当然。不是为了这样麻烦的事我也不用亲自跑一趟……",
+			say = "當然。不是為了這樣麻煩的事我也不用親自跑一趟……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "太好了~那你再坚持一会儿，我马上就帮你断后！",
+			say = "太好了~那妳再堅持一會兒，我馬上就幫妳斷後！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "算了，既然由你来接应，你就干脆帮我把东西送回去吧。好累……",
+			say = "算了，既然由妳來接應，妳就乾脆幫我把東西送回去吧。好累……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "哎？！！！！不、不会吧……",
+			say = "哎？！！！！不、不會吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "「样本」内置有特殊标记，之后记得回收。",
+			say = "「樣本」內置有特殊標記，之後記得回收。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "可恶……本以为能大闹一场呢，结果还是苦力活啊！！！！！",
+			say = "可惡……本以為能大鬧一場呢，結果還是苦力活啊！！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
@@ -335,7 +335,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，啊咧？我还没有发射鱼雷、塞壬怎么就爆炸了……",
+			say = "啊，啊咧？我還沒有發射魚雷、塞壬怎麼就爆炸了……",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -353,7 +353,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道说，这样就结束了？我大显身手的机会呢？！",
+			say = "難道說，這樣就結束了？我大顯身手的機會呢？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "…………啊，啊咧？——————————啊咧！！！！！！",
+			say = "…………啊，啊咧？ ——————————啊咧！！！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

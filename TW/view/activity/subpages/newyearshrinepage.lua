@@ -64,11 +64,11 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, 3, {
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, 20, {
 			callback = function ()
 				slot0 = Context.New()
 
-				SCENE.SetSceneInfo(slot0, SCENE.NEWYEAR_SQUARE)
+				SCENE.SetSceneInfo(slot0, SCENE.NEWYEAR_BACKHILL)
 				getProxy(ContextProxy):PushContext2Prev(slot0)
 			end
 		})

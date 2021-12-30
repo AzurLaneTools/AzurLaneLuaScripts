@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "塔兰托港 数日后",
+			say = "塔蘭托港 數日後",
 			side = 2,
 			bgName = "bg_guild_red",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "以上，就是本次访问的全部经过。",
+			say = "以上，就是本次訪問的全部經過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "辛苦了，龙骑兵，十分详细的记录。",
+			say = "辛苦了，龍騎兵，十分詳細的記錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥大人，关于铁血延长访问期限的请求，请问我应该如何答复？",
+			say = "利托里奧大人，關於鐵血延長訪問期限的請求，請問我應該如何答覆？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个啊~最近陆间海局势平和，既然铁血盛情邀约，我们也没有拒绝的必要，就辛苦你再待一段时间吧。",
+			say = "這個啊~最近地中海局勢平和，既然鐵血盛情邀約，我們也沒有拒絕的必要，就辛苦妳再待一段時間吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，保证完成任务，龙骑兵通讯结束。",
+			say = "是，保證完成任務，龍騎兵通訊結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "…………………………居然会有这种事。",
+			say = "…………………………居然會有這種事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血居然隐藏了这等规模的舰队和要塞群，这还真是……………………",
+			say = "鐵血居然隱藏了這等規模的艦隊和要塞群，這還真是……………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，接下来怎么办好呢………………",
+			say = "唔，接下來怎麼辦好呢………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 605050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥，重樱舰队正在通过苏彝士运河，预计将在本日午间进入陆间海。",
+			say = "利托里奧，重櫻艦隊正在通過蘇伊士運河，預計將在本日午間進入地中海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了，按照预定方案进行迎接。",
+			say = "我明白了，按照預定方案進行迎接。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 605050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "收到，加富尔伯爵通讯结束。",
+			say = "收到，加富爾伯爵通訊結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………唉，算了。麻烦的事等麻烦的时候再想。",
+			say = "………………唉，算了。麻煩的事等麻煩的時候再想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "今天是属于宴会的时间，是时候去迎接远道而来的客人了~",
+			say = "今天是屬於宴會的時間，是時候去迎接遠道而來的客人了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

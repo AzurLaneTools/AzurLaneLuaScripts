@@ -15,7 +15,7 @@ return {
 			bgm = "battle-executor-type1",
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "哈啊……你们这群冒牌货，虽然打的不准，跑的倒是够快……再吃我一轮炮击！",
+			say = "哈啊……妳們這群冒牌貨，雖然打的不準，跑的倒是夠快……再吃我一輪炮擊！",
 			flashN = {
 				color = {
 					1,
@@ -69,7 +69,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "库库库……居然有被冒牌货叫冒牌货的一天，世界要到毁灭之日了么！",
+			say = "庫庫庫……居然有被冒牌貨叫冒牌貨的一天，世界要到毀滅之日了嗎！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都到此为止了，你们所有人立即停火！",
+			say = "都到此為止了，妳們所有人立即停火！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………咦？欧根？！你怎么会在这里？！",
+			say = "………咦？歐根？！妳怎麼會在這裡？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没收到么……真头大。",
+			say = "果然沒收到嗎……真頭大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根，我们按照要求把它拖过来了，现在可以说明究竟发生什么事了吧？",
+			say = "歐根，我們按照要求把她拖過來了，現在可以說明究竟發生什麼事了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简而言之，我们不是棋子，海因里希也不是棋子，所有人都被耍了。",
+			say = "簡而言之，我們不是棋子，海因里希也不是棋子，所有人都被耍了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？！！！！！！！我明明还专门确认过了，看你们没回复通讯才动手的啊！",
+			say = "咦？！！！！！！！我明明還專門確認過了，看妳們沒回覆通訊才動手的啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们这边也一样。没收到回复才判定攻击的对象为棋子……",
+			say = "我們這邊也一樣。沒收到回覆才判定攻擊的對象為棋子……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奇怪，我们彼此之间的通讯明明是正常的…？只有对其他舰队的外部联络被干扰了么……！",
+			say = "奇怪，我們彼此之間的通訊明明是正常的…？只有對其他艦隊的外部聯絡被干擾了嗎……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……看来判定流程有必要优化一下了。",
+			say = "……看來判定流程有必要優化一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎、怎么会这样……非常抱歉！我这就跟彼得联系，让她停止接下来的攻击行动！",
+			say = "怎、怎麼會這樣……非常抱歉！我這就跟彼得聯繫，讓她停止接下來的攻擊行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的攻击行动……？等一下，海因里希，彼得给你的作战命令是什么？",
+			say = "接下來的攻擊行動……？等一下，海因里希，彼得給妳的作戰命令是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "将异常的铁血舰队向重樱舰队的方向进行驱赶，然后等待下一步指令。",
+			say = "將異常的鐵血艦隊向重櫻艦隊的方向進行驅趕，然後等待下一步指令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？原来如此…不过这样的话……海因里希！先不要跟彼得进行联络。",
+			say = "哦？原來如此…不過這樣的話……海因里希！先不要跟彼得進行聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家继续动起来~纽伦堡带领舰队在前，海因里希带领舰队在后，营造出继续被追逐假象的继续向重樱舰队方向移动！",
+			say = "大家繼續動起來~紐倫堡帶領艦隊在前，海因里希帶領艦隊在後，營造出繼續被追逐假象的繼續向重櫻艦隊方向移動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呵呵呵，每次都被塞壬玩弄于股掌之中，也是时候来一次计划之外的反击了……",
+			say = "呵呵呵，每次都被塞壬玩弄於股掌之中，也是時候來一次計劃之外的反擊了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

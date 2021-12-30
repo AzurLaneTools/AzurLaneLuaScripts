@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·B7浮岛至D11防御模块之间",
+			say = "鐵血浮島要塞群·B7浮島至D11防禦模組之間",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然又追加了一批“皇家舰队”么，这次的训练内容真是丰富啊。",
+			say = "居然又追加了一批“皇家艦隊”嗎，這次的訓練內容真是豐富啊。",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前言变更，今天的史特拉塞也许真的有点兴奋了……",
+			say = "前言變更，今天的史特拉塞也許真的有點興奮了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，对吧对吧~！彼得再不回来休息时间要结束了哦？",
+			say = "嘿嘿，對吧對吧~！彼得再不回來休息時間要結束了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个的话…彼得刚才发来消息说要塞的对外通信系统也许出现了问题。以防万一，她要先排除一下后再来参加训练。",
+			say = "這個的話…彼得剛才發來消息說要塞的對外通訊系統也許出現了問題。以防萬一，她要先排除一下後再來參加訓練。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为这么大要塞一大半区域的负责人果然很辛苦啊……",
+			say = "作為這麼大要塞一大半區域的負責人果然很辛苦啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼得如果不在，航空编队的火力会严重减弱，没办法像刚才一样掩护你突进了，接下来的作战不要离开航空编队太远。",
+			say = "彼得如果不在，航空編隊的火力會嚴重減弱，沒辦法像剛才一樣掩護妳突進了，接下來的作戰不要離開航空編隊太遠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "放心，我明白的。大家都准备完毕了么？让我们开始新一轮的战斗吧！",
+			say = "放心，我明白的。大家都準備完畢了嗎？讓我們開始新一輪的戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

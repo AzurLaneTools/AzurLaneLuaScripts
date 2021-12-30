@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·某处 数日前 ",
+			say = "鐵血浮島要塞群·某處 數日前",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意，发现一艘铁血舰船正在接近！",
+			say = "大家注意，發現一艘鐵血艦船正在接近！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海域中的棋子么，居然那个方向也有……真是紧追不舍啊，准备战斗！",
+			say = "海域中的棋子嗎，居然那個方向也有……真是緊追不捨啊，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，大家稍等。姐姐，目标的样子好像有点奇怪！",
+			say = "哎，大家稍等。姐姐，目標的樣子好像有點奇怪！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得你是………………",
+			say = "我記得妳是………………",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在下铁血所属重巡洋舰，欧根亲王。自从上次华丽的祭典上相遇之后，没想到又能在这里相遇啊~",
+			say = "在下鐵血所屬重巡洋艦，歐根親王。自從上次華麗的祭典上相遇之後，沒想到又能在這裡相遇啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没想到在这里还能遇到真货。你是在这里干什么的，这里是塞壬控制区吧？",
+			say = "……沒想到在這裡還能遇到真貨。妳是在這裡幹什麼的，這裡是塞壬控制區吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然是友军的话，就先按照惯例发联络来呀，差点就把你当棋子攻击了……",
+			say = "既然是友軍的話，就先按照慣例發聯絡來呀，差點就把妳當棋子攻擊了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我已经发了哦，不过你们没有收到吧。",
+			say = "我已經發了哦，不過妳們沒有收到吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！我完全没收到……现在进行通讯测试，喂喂，{namecode:95}姐，能听得到么？",
+			say = "哎？！我完全沒收到……現在進行通訊測試，喂喂，翔鶴姐，能聽得到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，听得很清楚。看来不是我们的通讯器故障哦？",
+			say = "沒問題，聽得很清楚。看來不是我們的通訊器故障哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的是这样么~那你们来呼叫我试试呢？",
+			say = "真的是這樣嗎~那妳們來呼叫我試試呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在呼叫中………………咦，你那里没有反应？",
+			say = "正在呼叫中………………咦，妳那裡沒有反應？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此，我们所有人在进入这片区域后都遭受了某种极其精密的电子干扰。",
+			say = "正是如此，我們所有人在進入這片區域後都遭受了某種極其精密的電子干擾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无法和海域中遭遇到的其他舰船通讯，这种情况还是第一次见。源头是塞壬镜面海域的某种设施么？",
+			say = "無法和海域中遭遇到的其他艦船通訊，這種情況還是第一次見。源頭是塞壬鏡面海域的某種設施嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个说起来有些复杂……不过这里其实是铁血控制区。",
+			say = "這個說起來有些複雜……不過這裡其實是鐵血控制區。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "位于帕克菲克洋的铁血控制区……看来刚刚看到的火山没有错，没想到只是进入了海雾一会儿，居然偏离了这么多……",
+			say = "位於太平洋的鐵血控制區……看來剛剛看到的火山沒有錯，沒想到只是進入了海霧一會兒，居然偏離了這麼多……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里不是早就被塞壬占领了么，你们是什么时候夺回来的？",
+			say = "這裡不是早就被塞壬佔領了嗎，妳們是什麼時候奪回來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这又是个不适合在此处详细说明的复杂故事啊……",
+			say = "這又是個不適合在此處詳細說明的複雜故事啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，你说你们来到这里是因为遭遇到了海雾……？",
+			say = "等等，妳說妳們來到這裡是因為遭遇到了海霧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，原来如此………呵呵呵。这样一来我就都明白了。",
+			say = "啊，原來如此………呵呵呵。這樣一來我就都明白了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从刚刚开始就一直在说谜语……什么说不清楚，你又明白什么了啊，请认真解释一下，欧根亲王！",
+			say = "從剛剛開始就一直在說謎語……什麼說不清楚，妳又明白什麼了啊，請認真解釋一下，歐根親王！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心放心，我一定会解释清楚的，不要着急嘛~",
+			say = "放心放心，我一定會解釋清楚的，不要著急嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "总之，虽然事发突然，诸位要不要来参加一场斩首塞壬的联合行动呢？",
+			say = "總之，雖然事發突然，諸位要不要來參加一場斬首塞壬的聯合行動呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

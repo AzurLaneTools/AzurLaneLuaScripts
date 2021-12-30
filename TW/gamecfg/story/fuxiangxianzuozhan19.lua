@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			bgm = "xinnong-2",
 			flashN = {
@@ -66,7 +66,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遭到敌舰攻击！这个威力……明显不是演习用的训练弹啊！",
+			say = "遭到敵艦攻擊！這個威力……明顯不是演習用的訓練彈啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……要么是这里的人在进行传说中的实兵实弹演习，要么就是————",
+			say = "……要嘛是這裡的人在進行傳說中的實兵實彈演習，要嘛就是————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
@@ -162,7 +162,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要么就是塞壬使奴的棋子是吧！总之，以眼还眼，以牙还牙！",
+			say = "要嘛就是塞壬使役的棋子是吧！總之，以眼還眼，以牙還牙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里可是我们重兵防守的要塞区，怎么会有被塞壬突破到这种地步……和驻防舰队的联络怎么样？",
+			say = "這裡可是我們重兵防守的要塞區，怎麼會有被塞壬突破到這種地步……和駐防艦隊的聯絡怎麼樣？",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -244,7 +244,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全沉寂！喂，欧根，你带我们来的这处基地到底是怎么回事啊！",
+			say = "完全沉寂！喂，歐根，妳帶我們來的這處基地到底是怎麼回事啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………欧根！！！！",
+			say = "…………歐根！！！！",
 			effects = {
 				{
 					active = true,
@@ -284,7 +284,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，稍微有点走神……你刚刚说什么？",
+			say = "啊，稍微有點走神……妳剛剛說什麼？",
 			effects = {
 				{
 					active = false,
@@ -307,7 +307,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦……？什么时候拉开这么远距离的……",
+			say = "咦……？什麼時候拉開這麼遠距離的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种时候你在乱跑什么啊欧根！",
+			say = "這種時候妳在亂跑什麼啊歐根！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我去稍微监听了一下旁边重樱舰队的状况哦，看来这里正在发生一些很有趣的事啊~",
+			say = "我去稍微監聽了一下旁邊重櫻艦隊的狀況哦，看來這裡正在發生一些很有趣的事啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "哈啊？你在说什么……“重樱”舰队不都是吾等训练用的祭品么？",
+			say = "哈啊？妳在說什麼……“重櫻”艦隊不都是吾等訓練用的祭品嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之先和你们前面的海因里希纠缠着，我还需要点时间。",
+			say = "總之先和妳們前面的海因里希糾纏著，我還需要點時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "纠缠……对面可是正在一边开火，一边向我们直冲过来啊！",
+			say = "糾纏……對面可是正在一邊開火，一邊向我們直衝過來哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "主要以回避为主，仅做象征性的反击，你们把海因里希吸引到我的位置来。",
+			say = "主要以迴避為主，僅做象徵性的反擊，妳們把海因里希吸引到我的位置來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "这又是要干嘛…？！到底是怎么回事啊欧根，对面的海因里希不是塞壬的棋子么？",
+			say = "這又是要幹嘛…？！到底是怎麼回事啊歐根，對面的海因里希不是塞壬的棋子嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "解释起来比较复杂，一会你们就知道了。现在时间紧急，立刻执行命令。",
+			say = "解釋起來比較複雜，一會妳們就知道了。現在時間緊急，立刻執行命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是，我们明白了。现在开始执行诱导行动！",
+			say = "是，我們明白了。現在開始執行誘導行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

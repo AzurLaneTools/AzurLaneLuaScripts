@@ -670,6 +670,16 @@ pg.player_resource = {
 		name = "dexiv4framept",
 		itemid = 59256
 	},
+	[231] = {
+		id = 231,
+		name = "skinTicket26",
+		itemid = 59257
+	},
+	[232] = {
+		id = 232,
+		name = "dexiur_pt",
+		itemid = 59258
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1233,6 +1243,12 @@ pg.player_resource = {
 		dexiv4framept = {
 			230
 		},
+		skinTicket26 = {
+			231
+		},
+		dexiur_pt = {
+			232
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1465,6 +1481,8 @@ pg.player_resource = {
 		228,
 		229,
 		230,
+		231,
+		232,
 		950,
 		951,
 		952,

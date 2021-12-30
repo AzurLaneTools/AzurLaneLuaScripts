@@ -1,8 +1,285 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "40486",
+		param = "40495",
 		id = 1,
+		pic = "temp14",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 2,
+		pic = "temp13",
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectName = "new"
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40497",
+		id = 3,
+		pic = "temp1",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 4,
+		pic = "temp2",
+		type = 2,
+		param = {
+			"scene skinshop"
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 5,
+		pic = "temp5",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp11",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 7,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 8,
+		pic = "temp4",
+		type = 2,
+		param = {
+			"scene shop"
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40487",
+		id = 9,
 		pic = "temp12",
 		type = 3,
 		time = {
@@ -33,241 +310,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 2,
-		pic = "temp11",
-		type = 2,
-		param = {
-			"scene skinshop"
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "40490",
-		id = 3,
-		pic = "temp10",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "40491",
-		id = 4,
-		pic = "temp9",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "40489",
-		id = 5,
-		pic = "temp8",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "40482",
-		id = 7,
-		pic = "temp14",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 8,
-		pic = "temp13",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectname = "new"
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
 		param = "",
-		id = 9,
+		id = 10,
 		pic = "temp99",
 		type = 9,
 		time = {
@@ -275,7 +319,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					23
+					30
 				},
 				{
 					0,
@@ -287,7 +331,7 @@ pg.activity_banner = {
 				{
 					2022,
 					1,
-					5
+					12
 				},
 				{
 					23,
@@ -295,15 +339,6 @@ pg.activity_banner = {
 					59
 				}
 			}
-		}
-	},
-	{
-		id = 10,
-		pic = "",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene back yard"
 		}
 	},
 	{
@@ -312,7 +347,7 @@ pg.activity_banner = {
 		time = "stop",
 		type = 2,
 		param = {
-			"scene shop"
+			"scene back yard"
 		}
 	},
 	{
@@ -321,9 +356,18 @@ pg.activity_banner = {
 		time = "stop",
 		type = 2,
 		param = {
+			"scene shop"
+		}
+	},
+	{
+		id = 13,
+		pic = "",
+		time = "stop",
+		type = 2,
+		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		}
 	},
@@ -331,17 +375,8 @@ pg.activity_banner = {
 		param = "40341",
 		time = "stop",
 		type = 3,
-		id = 13,
-		pic = ""
-	},
-	{
 		id = 14,
-		pic = "",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene skinshop"
-		}
+		pic = ""
 	},
 	{
 		id = 15,
@@ -349,10 +384,7 @@ pg.activity_banner = {
 		time = "stop",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene skinshop"
 		}
 	},
 	{
@@ -363,7 +395,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		}
 	},
@@ -375,7 +407,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		}
 	},
@@ -385,9 +417,9 @@ pg.activity_banner = {
 		time = "stop",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				projectName = "new"
+				wrap = 2
 			}
 		}
 	},
@@ -399,7 +431,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				page = BuildShipScene.PAGE_PRAY
+				projectName = "new"
 			}
 		}
 	},
@@ -411,12 +443,24 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "light"
+				page = BuildShipScene.PAGE_PRAY
 			}
 		}
 	},
 	{
 		id = 21,
+		pic = "",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectName = "light"
+			}
+		}
+	},
+	{
+		id = 22,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -429,11 +473,11 @@ pg.activity_banner = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 22,
+		id = 23,
 		pic = "guihuagao"
 	},
 	{
-		id = 23,
+		id = 24,
 		pic = "temp1",
 		time = "stop",
 		type = 2,
@@ -446,11 +490,11 @@ pg.activity_banner = {
 		param = "",
 		time = "stop",
 		type = 8,
-		id = 24,
+		id = 25,
 		pic = "temp2"
 	},
 	{
-		id = 25,
+		id = 26,
 		pic = "temp3",
 		time = "stop",
 		type = 2,
@@ -462,16 +506,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "拐杖糖|據說最原始的拐杖糖是白色的呢。<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		id = 26,
-		pic = "christmas",
+		param = "鏡餅|要開了才能吃哦？<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		id = 27,
+		pic = "jingbing",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
 					12,
-					23
+					29
 				},
 				{
 					0,
@@ -482,13 +526,13 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					9,
-					16
+					1,
+					13
 				},
 				{
-					0,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -519,6 +563,7 @@ pg.activity_banner = {
 		23,
 		24,
 		25,
-		26
+		26,
+		27
 	}
 }

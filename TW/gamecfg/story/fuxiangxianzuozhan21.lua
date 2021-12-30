@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·D12防御模块周边",
+			say = "鐵血浮島要塞群·D12防禦模組周邊",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希作战顺利，“重樱”舰队也在向预定位置接近，很快两支舰队将会在D13防御模块附近汇合。",
+			say = "海因里希作戰順利，“重櫻”艦隊也在向預定位置接近，很快兩支艦隊將會在D13防禦模組附近匯合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来就是彼得那边……",
+			say = "接下來就是彼得那邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是威悉。彼得，你那边的准备工作怎么样？",
+			say = "這裡是威悉。彼得，妳那邊的準備工作怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "沿途陆续遇到了些敌人，虽然实力很弱，但是距离抵达操作装置还需要时间。",
+			say = "沿途陸續遇到了些敵人，雖然實力很弱，但是距離抵達操作裝置還需要時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解，我们会继续拖延时间，保证目标始终停留在指定区域内的。",
+			say = "了解，我們會繼續拖延時間，保證目標始終停留在指定區域內的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……不光是舰队，就当成要塞航空战斗能力的测试，用全部浮岛机场来一次饱和打击也不错吧？",
+			say = "不過……不光是艦隊，就當成要塞航空戰鬥能力的測試，用全部浮島機場來一次飽和打擊也不錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好主意…这种机会确实难得。就当实际部署前的预演，来一场华丽的测试吧！",
+			say = "好主意…這種機會確實難得。就當實際部署前的預演，來一場華麗的測試吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2027,6 +2027,210 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	[4013] = {
+		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
+		name = "新年福袋·I",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		subject = "福袋",
+		extra_gem = 0,
+		name_display = "新年福袋·I",
+		limit_arg = 1,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai6",
+		id_str = "com.hkmanjuu.azurlane.package14",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 4013,
+		airijp_id = "com.hkmanjuu.azurlane.package14",
+		extra_service_item = {
+			{
+				2,
+				86001,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86001,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[4014] = {
+		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
+		name = "新年福袋·II",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		subject = "福袋",
+		extra_gem = 0,
+		name_display = "新年福袋·II",
+		limit_arg = 1,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai3",
+		id_str = "com.hkmanjuu.azurlane.package15",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 4014,
+		airijp_id = "com.hkmanjuu.azurlane.package15",
+		extra_service_item = {
+			{
+				2,
+				86000,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86000,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2053,6 +2257,8 @@ pg.pay_data_display = {
 		4009,
 		4010,
 		4011,
-		4012
+		4012,
+		4013,
+		4014
 	}
 }

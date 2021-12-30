@@ -1223,7 +1223,7 @@ pg.backyard_theme_template = {
 	[38] = {
 		Cfg_1 = 5,
 		name = "豬突猛進！",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 38,
 		comfortable = 0,
@@ -2374,6 +2374,44 @@ pg.backyard_theme_template = {
 			73305
 		}
 	},
+	[74] = {
+		Cfg_1 = 5,
+		name = "新年雪街",
+		hot = 1,
+		is_view = 1,
+		id = 74,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "正所謂…瑞雪兆豐年？",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "mh3themeicon",
+		deblocking = 1,
+		order = 73,
+		ids = {
+			74001,
+			74002,
+			74101,
+			74102,
+			74103,
+			74104,
+			74105,
+			74106,
+			74107,
+			74108,
+			74109,
+			74110,
+			74111,
+			74112,
+			74113,
+			74114,
+			74115,
+			74116,
+			74117,
+			74118
+		}
+	},
 	[76] = {
 		Cfg_1 = 5,
 		name = "貓熊之家 ",
@@ -2580,6 +2618,7 @@ pg.backyard_theme_template = {
 		71,
 		72,
 		73,
+		74,
 		76,
 		79,
 		84

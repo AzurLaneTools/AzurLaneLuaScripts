@@ -7037,6 +7037,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[360] = {
+		name = "螺帽子彈",
+		bullet_name = "zidan_luomu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "偉大的創造都源於小小的細節！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92711",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 360,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[361] = {
+		name = "音響子彈",
+		bullet_name = "zidan_yinxiang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "感受最高端的聲音體驗吧！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92712",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 361,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[362] = {
+		name = "琥珀子彈",
+		bullet_name = "zidan_hupo",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "美麗的鐵血之瑰寶",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92713",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 362,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[363] = {
+		name = "黑森林蛋糕炮彈",
+		bullet_name = "paodan_heisenlin",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "享用甜美的鐵血風味~",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92714",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 363,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[364] = {
+		name = "矢車菊炮彈",
+		bullet_name = "paodan_shicheju",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "向著“生命之光”祈禱幸福吧",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92715",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 364,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[365] = {
+		name = "白鸛(雕像)炮彈",
+		bullet_name = "paodan_baiguan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "能帶來幸運就好了呢！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92716",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 365,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[366] = {
+		name = "香腸魚雷",
+		bullet_name = "yulei_xiangchang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "實惠又美味的小香腸~",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92721",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 366,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[367] = {
+		name = "豬腳魚雷",
+		bullet_name = "yulei_zhushou",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "富含膠原蛋白~",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92722",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 367,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[368] = {
+		name = "啤酒魚雷",
+		bullet_name = "yulei_pijiu",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "品嚐鐵血的釀造工藝~",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92723",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 368,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[369] = {
+		name = "飛艇啾(魚雷)",
+		bullet_name = "feiji_feiting",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血科技世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92731",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 369,
+		derivate_torpedo = "yulei_xiangchang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[370] = {
+		name = "飛艇啾(戰鬥)",
+		bullet_name = "feiji_feiting",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血科技世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "zidan_luomu",
+		icon = "92731",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 370,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[371] = {
+		name = "飛艇啾(轟炸)",
+		bullet_name = "feiji_feiting",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血科技世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "zidan_luomu",
+		icon = "92731",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 371,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[372] = {
+		name = "飛天汽車啾(魚雷)",
+		bullet_name = "feiji_feitianqiche",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血技術世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92732",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 372,
+		derivate_torpedo = "yulei_zhushou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[373] = {
+		name = "飛天汽車啾(戰鬥)",
+		bullet_name = "feiji_feitianqiche",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血技術世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "zidan_yinxiang",
+		icon = "92732",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 373,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[374] = {
+		name = "飛天汽車啾(轟炸)",
+		bullet_name = "feiji_feitianqiche",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血技術世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "zidan_yinxiang",
+		icon = "92732",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 374,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[375] = {
+		name = "夢幻古堡啾(魚雷)",
+		bullet_name = "feiji_menghuangubao",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血工藝世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "92733",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 375,
+		derivate_torpedo = "yulei_pijiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[376] = {
+		name = "夢幻古堡啾(戰鬥)",
+		bullet_name = "feiji_menghuangubao",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血工藝世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "zidan_hupo",
+		icon = "92733",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 376,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[377] = {
+		name = "夢幻古堡啾(轟炸)",
+		bullet_name = "feiji_menghuangubao",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 24,
+		desc = "鐵血工藝世界第一啾！",
+		attachment_combat_scene = "",
+		derivate_boom = "zidan_hupo",
+		icon = "92733",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 377,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[398] = {
 		name = "超級喵喵1號",
 		bullet_name = "paodan_chuitou",
@@ -8322,6 +8823,24 @@ pg.equip_skin_template = {
 		355,
 		356,
 		357,
+		360,
+		361,
+		362,
+		363,
+		364,
+		365,
+		366,
+		367,
+		368,
+		369,
+		370,
+		371,
+		372,
+		373,
+		374,
+		375,
+		376,
+		377,
 		398,
 		420,
 		421,

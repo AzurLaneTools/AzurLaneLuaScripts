@@ -203,7 +203,7 @@ function slot0.getCanReceiveCount(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:getConfig("visibility") == 1 and slot6:isFinish() and slot6:isReceive() == false then
+		if slot6:ShowOnTaskScene() and slot6:isFinish() and slot6:isReceive() == false then
 			slot1 = slot1 + 1
 
 			for slot11, slot12 in ipairs(slot6:getConfig("award_display")) do

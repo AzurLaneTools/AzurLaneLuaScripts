@@ -364,6 +364,8 @@ function slot0.addMoveForFurniture(slot0, slot1, slot2)
 			end
 
 			uv0:changeFurniturePos(uv1, slot2, uv4)
+		else
+			uv0:removeFurntureMove(uv1)
 		end
 	end, slot0:getFurnitureById(slot1):getSpineSpeed() * slot2, -1)
 

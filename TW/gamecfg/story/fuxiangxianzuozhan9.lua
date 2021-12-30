@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			bgm = "blueocean-image",
 			flashN = {
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英王乔治五世？",
+			actorName = "英王喬治五世？",
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确认“皇家舰队”旗舰乔治五世沉没，战斗结束。",
+			say = "確認“皇家艦隊”旗艦喬治五世沉沒，戰鬥結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗完美胜利~哼哼，皇家舰队也不过如此呢~~！",
+			say = "戰鬥完美勝利~哼哼，皇家艦隊也不過如此呢~~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有自信心是好事，海因里希。下次训练的时候，给“皇家舰队”再增加三艘光辉级和三艘伊丽莎白女王级好了。",
+			say = "有自信心是好事，海因里希。下次訓練的時候，給“皇家艦隊”再增加三艘光輝級和三艘伊莉莎白女王級好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果一次性出现这么多的话，苦战……",
+			say = "如果一次性出現這麼多的話，苦戰……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我错了！请当刚才的对话从来没有发生过！",
+			say = "我錯了！請當剛才的對話從來沒有發生過！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼得，再前方的重樱舰队怎么办？按照预定计划继续战斗么。",
+			say = "彼得，在前方的重櫻艦隊怎麼辦？按照預定計劃繼續戰鬥嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，计划变更。重樱舰队和其他训练内容改到下午，大家直接去休息去准备午饭吧。",
+			say = "不，計劃變更。重櫻艦隊和其他訓練內容改到下午，大家直接去休息去準備午飯吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解，我也先返回E2浮岛了。",
+			say = "了解，我也先返回E2浮島了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你还在担心通讯系统故障的事么？",
+			say = "……妳還在擔心通訊系統故障的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，虽然只是一瞬间的事，但是这可是使用了塞壬科技的通讯设备，不管是异常气候还是碧蓝航线都不可能对其产生干扰才对。",
+			say = "嗯，雖然只是一瞬間的事，但是這可是使用了塞壬科技的通訊設備，不管是異常氣候還是碧藍航線的都不可能對其產生干擾才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你是在暗示，是塞壬动的手脚？",
+			say = "……妳是在暗示，是塞壬動的手腳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是有点担心而已……我再去检查一下防御设施，你也返回E2浮岛休息区吧，我稍后就到。",
+			say = "只是有點擔心而已……我再去檢查一下防禦設施，妳也返回E2浮島休息區吧，我稍後就到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼得，知道了这种情报之后可没办法安心休息了哦。我也会尽可能的检查一下基地系统，保持联络。",
+			say = "彼得，知道了這種情報之後可沒辦法安心休息了哦。我也會盡可能的檢查一下基地系統，保持聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "多谢，保持联络。",
+			say = "多謝，保持聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

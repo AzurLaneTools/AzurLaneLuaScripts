@@ -1275,5 +1275,82 @@ pg.effect_offset = {
 			0,
 			0
 		}
+	},
+	duwu_sairenquzhu_6 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			-0.5,
+			1,
+			0
+		}
+	},
+	duwu_sairenqingxun_6 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			-0.5,
+			1,
+			0
+		}
+	},
+	duwu_sairenzhongxun_6 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			-0.5,
+			1,
+			0
+		}
+	},
+	duwu_sairenzhanlie_6 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			-0.5,
+			1,
+			0
+		}
+	},
+	duwu_sairenhangmu_6 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			-0.5,
+			1,
+			0
+		}
+	},
+	duwu_sairenqianting_6 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			-0.5,
+			1,
+			0
+		}
+	},
+	duwu_sairen_slg = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
 	}
 }

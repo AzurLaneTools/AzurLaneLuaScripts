@@ -74701,7 +74701,7 @@ pg.task_data_template = {
 		target_id_2 = "",
 		count_inherit = 0,
 		sub_type = 35,
-		desc = "[U37]突破至滿星",
+		desc = "[U-37]突破至滿星",
 		story_icon = "",
 		is_head = 1,
 		award_choice = "",
@@ -75000,6 +75000,802 @@ pg.task_data_template = {
 		},
 		scene = {
 			"ACTIVITY_MAP"
+		}
+	},
+	[16201] = {
+		name = "『德系V3』-日常建造",
+		guild_coin_award = 0,
+		award = 94252,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造艦船3次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16201,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				300
+			}
+		}
+	},
+	[16202] = {
+		name = "『德系V3』-日常出击",
+		guild_coin_award = 0,
+		award = 94253,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "艦隊出擊，獲得15次勝利。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16202,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				300
+			}
+		}
+	},
+	[16203] = {
+		name = "『德系V3』-日常困难本",
+		guild_coin_award = 0,
+		award = 94254,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通關1次任意困難關卡 ",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16203,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				150
+			}
+		}
+	},
+	[16204] = {
+		name = "『德系V3』通关A1/C1",
+		guild_coin_award = 0,
+		award = 94255,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關A1或C1",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16205",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16204,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460001,
+			1460021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16205] = {
+		name = "『德系V3』通关A2/C2",
+		guild_coin_award = 0,
+		award = 94256,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關A2或C2",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16206",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16205,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460002,
+			1460022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16206] = {
+		name = "『德系V3』通关A3/C3",
+		guild_coin_award = 0,
+		award = 94257,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關A3或C3",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16207",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16206,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460003,
+			1460023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59192,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16207] = {
+		name = "『德系V3』通关B1/D1",
+		guild_coin_award = 0,
+		award = 94258,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關B1或D1",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16208",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16207,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460004,
+			1460024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16208] = {
+		name = "『德系V3』通关B2/D2",
+		guild_coin_award = 0,
+		award = 94259,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關B2或D2",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16209",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16208,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460005,
+			1460025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16209] = {
+		name = "『德系V3』通关B3/D3",
+		guild_coin_award = 0,
+		award = 94260,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關B3或D3",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16210",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16209,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460006,
+			1460026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59192,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16210] = {
+		name = "『德系V3』通关SP",
+		guild_coin_award = 0,
+		award = 94261,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1460041",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1460041,
+		id = 16210,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16211] = {
+		name = "『德系V3』通关EX",
+		guild_coin_award = 0,
+		award = 94262,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關EX",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1460051",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1460051,
+		id = 16211,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16212] = {
+		name = "『德系V3』通关D3",
+		guild_coin_award = 0,
+		award = 94263,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關D3",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1460026",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1460026,
+		id = 16212,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				189,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16213] = {
+		name = "『德系V3』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 94264,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成A1或C1的3星收集",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16214",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16213,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460001,
+			1460021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16214] = {
+		name = "『德系V3』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 94265,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成A2或C2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16215",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16214,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460002,
+			1460022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16215] = {
+		name = "『德系V3』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 94266,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成A3或C3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16216",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16215,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460003,
+			1460023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16216] = {
+		name = "『德系V3』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 94267,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成B1或D1的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16217",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16216,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460004,
+			1460024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16217] = {
+		name = "『德系V3』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 94268,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成B2或D2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16218",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16217,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460005,
+			1460025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16218] = {
+		name = "『德系V3』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 94269,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成B3或D3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16218,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1460006,
+			1460026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16219] = {
+		name = "『德系V3』1229登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 94251,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登入遊戲",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16219,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				181,
+				2
+			}
 		}
 	},
 	[16280] = {
@@ -101846,6 +102642,25 @@ pg.task_data_template = {
 		16164,
 		16165,
 		16166,
+		16201,
+		16202,
+		16203,
+		16204,
+		16205,
+		16206,
+		16207,
+		16208,
+		16209,
+		16210,
+		16211,
+		16212,
+		16213,
+		16214,
+		16215,
+		16216,
+		16217,
+		16218,
+		16219,
 		16280,
 		16281,
 		16282,

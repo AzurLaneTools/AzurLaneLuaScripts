@@ -990,6 +990,8 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0:InitSpecificEnemyStatistics(slot11)
 	end
 
+	slot11:OverrideDeadFX(slot1.deadFX)
+
 	if BATTLE_ENEMY_AIMBIAS_RANGE and slot11:GetAimBias() then
 		slot0:DispatchEvent(uv5.Event.New(uv6.ADD_AIM_BIAS, {
 			aimBias = slot11:GetAimBias()

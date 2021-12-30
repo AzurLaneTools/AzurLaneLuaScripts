@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "某日·塔兰托港",
+			say = "某日·塔蘭托港",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……阁下此次前来是专程向我们发出前往帕克菲克洋铁血基地的“邀请”么？",
+			say = "原來如此……閣下此次前來是專程向我們發出前往太平洋鐵血基地的“邀請”嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是。铁血向来注重与盟友的情报分享。我此次作为铁血的代表，诚挚地希望撒丁帝国的诸位能与我一同前往。",
+			say = "正是。鐵血向來注重與盟友的情報分享。我此次作為鐵血的代表，誠摯地希望薩丁帝國的諸位能與我一同前往。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你们确定要在这种时候展开远洋航行么？",
+			say = "……妳們確定要在這種時候展開遠洋航行嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。偶尔把冗杂的算计放在一边，来一场说走就走的旅行也不错吧~",
+			say = "沒錯。偶爾把冗雜的算計放在一邊，來一場說走就走的旅行也不錯吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说到往帕克菲克洋的铁血基地……那里不是在很久之前就在塞壬的进攻下尽数失守了么？",
+			say = "說到往太平洋的鐵血基地……那裡不是在很久之前就在塞壬的進攻下盡數失守了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一点就当成抵达之后的惊喜，请允许我暂时保留悬念。",
+			say = "這一點就當成抵達之後的驚喜，請允許我暫時保留懸念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一场浪漫的远洋旅行啊，确实是很有吸引力的提案……",
+			say = "一場浪漫的遠洋旅行啊，確實是很有吸引力的提案……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过很遗憾，如今陆间海的局势风云变幻，我与维内托实在是无法在这种时候离开。",
+			say = "不過很遺憾，如今地中海的局勢風雲變幻，我與維內托實在是無法在這種時候離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "腓特烈大帝对于这次与撒丁帝国进行的联合行动可是抱有很高的期待哟？",
+			say = "腓特烈大帝對於這次與薩丁帝國進行的聯合行動可是抱有很高的期待喲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然！这绝对不是撒丁帝国要拒绝此番好意邀请的意思。",
+			say = "當然！這絕對不是薩丁帝國要拒絕此番好意邀請的意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可以派遣一位得力部下作为我与维内托的代表我们与铁血舰队同行，这样阁下意下如何？",
+			say = "我可以派遣一位得力部下作為我與維內托的代表我們與鐵血艦隊同行，這樣閣下意下如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果是这个方案的话…嗯，倒是也没问题~不过此次“邀请”涉及到一些不宜对外公开的机密信息，所以……",
+			say = "如果是這個方案的話…嗯，倒是也沒問題~不過此次“邀請”涉及到一些不宜對外公開的機密訊息，所以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心，所选之人是维内托的贴身护卫，阁下对我与维内托的信任可以等同于对她的信任。",
+			say = "放心，所選之人是維內托的貼身護衛，閣下對我與維內托的信任可以等同於對她的信任。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，那我就先返回房间静候同行者的抵达了~",
+			say = "很好，那我就先返回房間靜候同行者的抵達了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了！",
+			say = "打擾了！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -319,7 +319,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥大人，请问您有何吩咐？",
+			say = "利托里奧大人，請問您有何吩咐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "龙骑兵，仔细听好，接下来有一件非常重要的机密任务要交给你——",
+			say = "龍騎兵，仔細聽好，接下來有一件非常重要的機密任務要交給妳——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,31 +351,31 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>坐标设定：█°█′S  ███°██′E</size>",
+					"<size=51>座標設定：█°█′S  ███°██′E</size>",
 					1
 				},
 				{
-					"<size=51>镜面海域编号：T2-XI-N002</size>",
+					"<size=51>鏡面海域編號：T2-XI-N002</size>",
 					2
 				},
 				{
-					"<size=51>身份验证中————</size>",
+					"<size=51>身份驗證中————</size>",
 					3
 				},
 				{
-					"<size=51>反馈：权限已确认</size> ",
+					"<size=51>反饋：權限已確認</size> ",
 					4
 				},
 				{
-					"<size=51>反馈：安全协议已解除</size>",
+					"<size=51>反饋：安全協議已解除</size>",
 					5
 				},
 				{
-					"<size=51>覆写中————</size>",
+					"<size=51>覆寫中————</size>",
 					6
 				},
 				{
-					"<size=51>反馈：操控权限变更完毕</size>",
+					"<size=51>反饋：操控權限變更完畢</size>",
 					7
 				},
 				{

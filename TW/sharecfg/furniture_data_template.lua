@@ -3657,6 +3657,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[189] = {
+		spine_extra = "",
+		describe = "鐵血浮島要塞中央控制樓的微縮版紀念模型。——授予在「負象限作戰」行動中獲得傑出成就者的紀念章",
+		gain_by = "負象限作戰",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "tiexue_v3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "負象限紀念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 189,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tiexue_v3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[190] = {
 		spine_extra = "",
 		describe = "躺著躺著就要變成廢柴了——",
@@ -4875,6 +4918,102 @@ pg.furniture_data_template = {
 			{
 				"8yueqiandaoCharControl",
 				"8yueqiandaoCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[100009] = {
+		belong = 1,
+		describe = "全新的Live Show，開始了！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "機關舞台",
+		tag = 6,
+		icon = "qiandaowutai2icon",
+		deblocking = 1,
+		level = 1,
+		comfortable = 0,
+		effect = "",
+		advice = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100009,
+		can_rotate = 1,
+		size = {
+			18,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"manjuustageB",
+				"normal"
+			},
+			{
+				"manjuustageT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"manjuustageCharControl",
+				"manjuustageCharControl2",
+				"manjuustageCharControl3"
 			}
 		},
 		interAction_group = {}
@@ -69996,6 +70135,871 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[74001] = {
+		spine_extra = "",
+		describe = "正所謂…瑞雪兆豐年？",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "雪街地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanmh3icon",
+		spine_action_replace = "",
+		picture = "mh3/dibanmh3",
+		comfortable = 4,
+		canputon = 0,
+		id = 74001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74002] = {
+		spine_extra = "",
+		describe = "正所謂…瑞雪兆豐年？",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "雪街牆壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbimh3icon",
+		spine_action_replace = "",
+		picture = "mh3/qiangbimh3",
+		comfortable = 4,
+		canputon = 0,
+		id = 74002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74101] = {
+		spine_extra = "",
+		describe = "冬日特供壽司啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "1mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "壽司匠人啾",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mh3/1mh3",
+		canputon = 0,
+		id = 74101,
+		can_rotate = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74102] = {
+		spine_extra = "",
+		describe = "藝伎造型的雪人(附裝飾用傘)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "2mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "藝伎雪人啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/2mh3",
+		canputon = 0,
+		id = 74102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74103] = {
+		spine_extra = "",
+		describe = "欣賞我的表演啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "3mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "藝伎啾A",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/3mh3",
+		canputon = 0,
+		id = 74103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74104] = {
+		spine_extra = "",
+		describe = "欣賞我的表演啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "4mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "藝伎啾B",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/4mh3",
+		canputon = 0,
+		id = 74104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74105] = {
+		spine_extra = "",
+		describe = "偶爾也會負責天氣預報。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "5mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街指示牌",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mh3/5mh3",
+		canputon = 0,
+		id = 74105,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74106] = {
+		spine_extra = "",
+		describe = "新年的活動都在這裡了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "6mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街告示板",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/6mh3",
+		canputon = 0,
+		id = 74106,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74107] = {
+		spine_extra = "",
+		describe = "「今年也請多多關照喵！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "7mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街賽錢箱",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/7mh3",
+		canputon = 0,
+		id = 74107,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74108] = {
+		spine_extra = "",
+		describe = "裝飾著街道的燈籠。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "8mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街燈籠",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mh3/8mh3",
+		canputon = 0,
+		id = 74108,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74109] = {
+		spine_extra = "",
+		describe = "覆蓋著點點白雪的鳥居",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "9mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街鳥居",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mh3/9mh3",
+		canputon = 0,
+		id = 74109,
+		can_rotate = 0,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74110] = {
+		spine_extra = "",
+		describe = "頗有東方風格的路燈。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "10mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街路燈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mh3/10mh3",
+		canputon = 0,
+		id = 74110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74111] = {
+		spine_extra = "",
+		describe = "享受寒冷下的一絲溫暖。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 74,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "11mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "木桶澡盆",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mh3/11mh3",
+		canputon = 0,
+		id = 74111,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-38,
+					-42
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/11mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74112] = {
+		spine_extra = "",
+		describe = "賀年卡什麼時候才能寄到呢？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "12mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街郵筒",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/12mh3",
+		canputon = 0,
+		id = 74112,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74113] = {
+		spine_extra = "",
+		describe = "覆蓋著點點白雪的綠草叢",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "13mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街草叢",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/13mh3",
+		canputon = 0,
+		id = 74113,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74114] = {
+		spine_extra = "",
+		describe = "呼…呼…還差一點…！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 74,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "14mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "參道階梯",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mh3/14mh3",
+		canputon = 0,
+		id = 74114,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					86,
+					136
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/14mh3_using1"
+			},
+			{
+				"stand2",
+				{
+					-98,
+					-170
+				},
+				{
+					1,
+					1
+				},
+				"mh3/14mh3_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74115] = {
+		spine_extra = "",
+		describe = "結構堅固，造型優美的小橋",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 74,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "15mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街小橋",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mh3/15mh3",
+		canputon = 0,
+		id = 74115,
+		can_rotate = 0,
+		size = {
+			3,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19,
+					11
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/15mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74116] = {
+		spine_extra = "",
+		describe = "別光喝茶，也來些小點心吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "16mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾和菓子店",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mh3/16mh3",
+		canputon = 0,
+		id = 74116,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74117] = {
+		spine_extra = "",
+		describe = "覆蓋著點點白雪的行道樹",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "17mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街冬樹",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mh3/17mh3",
+		canputon = 0,
+		id = 74117,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74118] = {
+		spine_extra = "",
+		describe = "明明是冬天卻沒有凍住的河道",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 74,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "18mh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪街河道",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mh3/18mh3",
+		canputon = 0,
+		id = 74118,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74119] = {
+		spine_extra = "",
+		describe = "即將到達車站，下一站…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾一號",
+		themeId = 74,
+		icon = "Amh3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 74119,
+		can_rotate = 0,
+		size = {
+			20,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Amh3B",
+				"normal"
+			},
+			{
+				"Amh3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[76001] = {
 		spine_extra = "",
 		describe = "一起來玩吧！",
@@ -74806,6 +75810,7 @@ pg.furniture_data_template = {
 		185,
 		187,
 		188,
+		189,
 		190,
 		191,
 		197,
@@ -74825,6 +75830,7 @@ pg.furniture_data_template = {
 		100006,
 		100007,
 		100008,
+		100009,
 		1001,
 		1002,
 		1101,
@@ -76318,6 +77324,27 @@ pg.furniture_data_template = {
 		73303,
 		73304,
 		73305,
+		74001,
+		74002,
+		74101,
+		74102,
+		74103,
+		74104,
+		74105,
+		74106,
+		74107,
+		74108,
+		74109,
+		74110,
+		74111,
+		74112,
+		74113,
+		74114,
+		74115,
+		74116,
+		74117,
+		74118,
+		74119,
 		76001,
 		76002,
 		76101,

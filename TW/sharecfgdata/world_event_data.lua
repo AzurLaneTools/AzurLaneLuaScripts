@@ -169,7 +169,9 @@ _G.pg.world_event_data[101] = {
 	grid = {
 		{
 			3,
-			4
+			16,
+			3,
+			16
 		}
 	},
 	slg_bufflist = {},
@@ -1032,9 +1034,9 @@ _G.pg.world_event_data[135] = {
 	},
 	grid = {
 		{
-			9,
+			15,
 			13,
-			9,
+			15,
 			13
 		}
 	},

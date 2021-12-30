@@ -1,6 +1,326 @@
 pg = pg or {}
 pg.enemy_data_statistics_27 = {
-	[493] = {
+	[90491] = {
+		cannon = 0,
+		name = "量產型戰列艦(Venus) ",
+		type = 5,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 1,
+		armor = 0,
+		id = 90491,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "bb_doa",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 250,
+		wave_fx = "danchuanlanghuazhong3",
+		prefab = "bb_doa",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.22,
+					1.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.66,
+					0.37,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							-1.44,
+							1.48,
+							-0.39
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smokebig",
+						{
+							1.85,
+							1.021,
+							-0.155
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smokebig",
+						{
+							0.808,
+							1.65,
+							-0.263
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90492] = {
+		cannon = 0,
+		name = "量產型航空母艦(Venus) ",
+		type = 7,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 1,
+		armor = 0,
+		id = 90492,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "cv_doa",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 200,
+		wave_fx = "danchuanlanghuazhong2",
+		prefab = "cv_doa",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 1,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.48,
+					1.32,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					1.32,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.48,
+					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90493] = {
 		cannon = 0,
 		name = "假日特快(Venus) ",
 		type = 16,
@@ -11,7 +331,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 493,
+		id = 90493,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "zibao_doa",
@@ -141,7 +461,7 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[494] = {
+	[90494] = {
 		cannon = 0,
 		name = "飛龍.META",
 		type = 7,
@@ -152,7 +472,7 @@ pg.enemy_data_statistics_27 = {
 		friendly_cld = 0,
 		durability = 99999,
 		armor = 0,
-		id = 494,
+		id = 90494,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "feilong_alter",
@@ -287,9 +607,9 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[495] = {
+	[90495] = {
 		cannon = 0,
-		name = "柯尼斯堡级量产型·改I",
+		name = "柯尼斯堡級量產型·改I",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -298,7 +618,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 495,
+		id = 90495,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "sr_dexi_qingxundanchuan",
@@ -442,9 +762,9 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[496] = {
+	[90496] = {
 		cannon = 0,
-		name = "希佩尔海军上将级量产型·改I",
+		name = "希佩爾將軍級量產型·改I",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -453,7 +773,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 496,
+		id = 90496,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "sr_dexi_zhongxundanchuan",
@@ -603,9 +923,9 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[497] = {
+	[90497] = {
 		cannon = 0,
-		name = "沙恩霍斯特级量产型·改I",
+		name = "沙恩霍斯特級量產型·改I",
 		type = 4,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -614,7 +934,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 497,
+		id = 90497,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "sr_dexi_zhanliedanchuan",
@@ -764,9 +1084,9 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[498] = {
+	[90498] = {
 		cannon = 0,
-		name = "齐柏林级量产型·改I",
+		name = "齊柏林級量產型·改I",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -775,7 +1095,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 1,
 		armor = 0,
-		id = 498,
+		id = 90498,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "sr_dexi_hangmudanchuan",
@@ -926,9 +1246,9 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[499] = {
+	[90499] = {
 		cannon = 0,
-		name = "铁血自爆船·改I",
+		name = "鐵血自爆船·改I",
 		type = 16,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -937,7 +1257,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 499,
+		id = 90499,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "sr_dexi_zibaodanchuan",
@@ -1067,7 +1387,7 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[505] = {
+	[90505] = {
 		cannon = 0,
 		antiaircraft_growth = 0,
 		rarity = 1,
@@ -1083,13 +1403,13 @@ pg.enemy_data_statistics_27 = {
 		star = 2,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 80,
+		base = 90080,
 		durability = 10,
 		armor_growth = 0,
 		torpedo_growth = 3000,
 		speed = 40,
 		armor = 0,
-		id = 505,
+		id = 90505,
 		scale = 150,
 		prefab = "bianpaojiu",
 		cannon_growth = 0,
@@ -1109,9 +1429,9 @@ pg.enemy_data_statistics_27 = {
 			300003
 		}
 	},
-	[506] = {
+	[90506] = {
 		cannon = 0,
-		name = "U艇量产型·改I",
+		name = "U艇量產型·改I",
 		type = 8,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1120,7 +1440,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 506,
+		id = 90506,
 		fog_fx = "",
 		dodge_growth = 0,
 		icon = "sr_dexi_qiantingdanchuan",
@@ -1255,9 +1575,9 @@ pg.enemy_data_statistics_27 = {
 			3
 		}
 	},
-	[507] = {
+	[90507] = {
 		cannon = 0,
-		name = "潜艇「Assassin」III型",
+		name = "潛艇「Assassin」III型",
 		type = 8,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1266,7 +1586,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 507,
+		id = 90507,
 		fog_fx = "",
 		dodge_growth = 0,
 		icon = "srSS3",
@@ -1401,7 +1721,7 @@ pg.enemy_data_statistics_27 = {
 			3
 		}
 	},
-	[508] = {
+	[90508] = {
 		cannon = 0,
 		name = "Z25",
 		type = 1,
@@ -1412,7 +1732,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 508,
+		id = 90508,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "Z25",
@@ -1550,7 +1870,7 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[509] = {
+	[90509] = {
 		cannon = 0,
 		name = "Z26",
 		type = 1,
@@ -1561,7 +1881,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 509,
+		id = 90509,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "Z26",
@@ -1699,7 +2019,7 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[510] = {
+	[90510] = {
 		cannon = 0,
 		name = "Z24",
 		type = 1,
@@ -1710,7 +2030,7 @@ pg.enemy_data_statistics_27 = {
 		durability = 99999,
 		friendly_cld = 0,
 		armor = 0,
-		id = 510,
+		id = 90510,
 		bubble_fx = "",
 		dodge_growth = 0,
 		icon = "Z24",
@@ -1834,319 +2154,6 @@ pg.enemy_data_statistics_27 = {
 		},
 		specific_fx_scale = {},
 		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[511] = {
-		cannon = 0,
-		name = "Z28",
-		type = 1,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 511,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "Z28",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "Z28",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 4,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.13,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.12,
-					0.91,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.1,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.17,
-					0.91,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.58,
-							2.14,
-							-1.05
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[512] = {
-		cannon = 0,
-		name = "纽伦堡",
-		type = 2,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 512,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "niulunbao",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 25,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "niulunbao",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 4,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.19,
-					1.2,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.19,
-					1.2,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.13,
-					0.37,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					1.2,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.57,
-							0.81,
-							-0.568
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.606,
-							-0.472
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
 		position_offset = {
 			0,
 			0,

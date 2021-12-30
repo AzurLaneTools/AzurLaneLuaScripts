@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·B7浮岛-维修区",
+			say = "鐵血浮島要塞群·B7浮島-維修區",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌舰全灭~我回来啦。",
+			say = "敵艦全滅~我回來啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "辛苦了。在下一轮敌人到来之前，我们有半小时的休息时间，抓紧时间进行补给维护吧。",
+			say = "辛苦了。在下一輪敵人到來之前，我們有半小時的休息時間，抓緊時間進行補給維護吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题~咦，彼得呢？",
+			say = "沒問題~咦，彼得呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "史特拉塞说，根据刚才的战斗情况需要提高一下后续训练的难度，然后就独自一人前往控制区了。",
+			say = "史特拉塞說，根據剛才的戰鬥情況需要提高一下後續訓練的難度，然後就獨自一人前往控制區了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还要在这个基础上改的更难么？！……嗯~！你们发现了么，今天浮岛机场升级完毕之后，彼得好像很兴奋啊！",
+			say = "還要在這個基礎上改的更難嗎？！……嗯~！妳們發現了嗎，今天浮島機場升級完畢之後，彼得好像很興奮啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有么？感觉她和往常一样没什么变化，还是那个精确又严格的彼得·史特拉塞。",
+			say = "有嗎？感覺她和往常一樣沒什麼變化，還是那個精確又嚴格的彼得·史特拉塞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "才不是呢，你们都太缺乏观察力了~！",
+			say = "才不是呢，妳們都太缺乏觀察力了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这句话哪里轮得到你来说教……在这里最缺乏观察力的人不就是你么，海因里希。",
+			say = "這句話哪裡輪得到妳來說教……在這裡最缺乏觀察力的人不就是妳嗎，海因里希。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎~上次的事是我不对啦，放心吧，这次一定不会弄错的！",
+			say = "哎~上次的事是我不對啦，放心吧，這次一定不會弄錯的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于联络没有回应的是棋子，无法正常交流的是棋子，还有二话不说上来就攻击的是棋子对吧！",
+			say = "對於聯絡沒有回應的是棋子，無法正常交流的是棋子，還有二話不說上來就攻擊的是棋子對吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有进步……",
+			say = "有進步……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对于二话不说就攻击上来的，是不是棋子已经不重要了吧？",
+			say = "對於二話不說就攻擊上來的，是不是棋子已經不重要了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以你上次才下手那么痛么，呜呜呜！",
+			say = "所以妳上次才下手那麼痛嗎，嗚嗚嗚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "本次演习好好加油哦，海因里希~",
+			say = "本次演習好好加油哦，海因里希~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

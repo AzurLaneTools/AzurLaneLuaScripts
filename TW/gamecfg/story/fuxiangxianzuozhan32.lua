@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·E2浮岛-休息区 数日后",
+			say = "鐵血浮島要塞群·E2浮島-休息區 數日後",
 			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			dir = 1,
@@ -40,11 +40,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！今天就到这里了！非常感谢，彼得！",
+			say = "好！今天就到這裡了！非常感謝，彼得！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的学习才刚刚开始了十五分钟哦，海因里希~",
+			say = "今天的學習才剛剛開始了十五分鐘哦，海因里希~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉已经过了至少十五个小时了………哈啊…为什么我要坐在这里学这些啊，有时间去做点战斗训练不好么……",
+			say = "感覺已經過了至少十五個小時了………哈啊…為什麼我要坐在這裡學這些啊，有時間去做點戰鬥訓練不好嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,9 +90,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_fuxiangxian_6",
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			dir = 1,
-			say = "对了，欧根呢，欧根快来帮我！！！！！！！！！！",
+			say = "對了，歐根呢，歐根快來幫我！！！！！！！！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根今天又一大早扎进X区了哦。就算她在，也只会再笑嘻嘻的多给你增加两本记录而已。",
+			say = "歐根今天又一大早扎進X區了哦。就算她在，也只會再笑嘻嘻的多給你增加兩本記錄而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,11 +125,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎么会这样…………！",
+			say = "怎、怎麼會這樣…………！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次战斗的结果表明，海因里希的战斗能力十分出色，所以战斗训练只要保持目前的步调就好了。",
+			say = "這次戰鬥的結果表明，海因里希的戰鬥能力十分出色，所以戰鬥訓練只要保持目前的步調就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,11 +157,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然，在战斗层面上我可是非常有自信的~！",
+			say = "那是當然，在戰鬥層面上我可是非常有自信的~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是另一方面，在理论知识这方面的表现可以说是糟糕的一塌糊涂。",
+			say = "可是另一方面，在理論知識這方面的表現可以說是糟糕的一塌糊塗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加强学习已经到了刻不容缓的程度了。今天的话……再加上这本、这本……以及这本吧。",
+			say = "加強學習已經到了刻不容緩的程度了。今天的話……再加上這本、這本……以及這本吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,11 +205,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经堆积成山的记录又增加了！这这这这都是些什么东西啊！！！",
+			say = "已經堆積成山的記錄又增加了！這這這這都是些什麼東西啊！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,11 +221,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼~得~我已经不想再做这些啦——————！",
+			say = "彼~得~我已經不想再做這些啦——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少为了我们的海因里希不要再次在重樱和撒丁帝国的盟友都在场的正式场合里做出对着构建者喊出海蟑螂这样名字的行为，好好加油吧。",
+			say = "至少為了我們的海因里希不要再次在重櫻和薩丁帝國的盟友都在場的正式場合裡做出對著構建者喊出海蟑螂這樣名字的行為，好好加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "海因里希親王",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,

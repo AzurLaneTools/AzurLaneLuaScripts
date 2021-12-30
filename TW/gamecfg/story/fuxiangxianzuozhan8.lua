@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·D11防御模块",
+			say = "鐵血浮島要塞群·D11防禦模組",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（奇怪，设备一切正常…………刚刚的通讯异常只是偶然故障？）",
+			say = "（奇怪，設備一切正常…………剛剛的通訊異常只是偶然故障？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "彼得，我们击破了塞壬舰队之后来和你汇合了~",
+			say = "彼得，我們擊破了塞壬艦隊之後來和妳匯合了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，没能按时和你们一同训练。",
+			say = "抱歉，沒能按時和妳們一同訓練。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用在意，要塞的安全为最优先事项。通讯系统的问题查明了么？",
+			say = "不用在意，要塞的安全為最優先事項。通訊系統的問題查明了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少排除了硬件故障的原因，也许不是我们发生了故障，而是接收方发生了故障吧。",
+			say = "至少排除了硬件故障的原因，也許不是我們發生了故障，而是接收方發生了故障吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在通讯器的状态一切正常，后面的事就交给专业工程师团队吧。今天的训练感觉怎么样？",
+			say = "現在通訊器的狀態一切正常，後面的事就交給專業工程師團隊吧。今天的訓練感覺怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "布阵，战术，策略……敌人确实变得更加难缠了，感觉是在与一个真正的“敌方指挥”而不是训练程序对抗。",
+			say = "布陣，戰術，策略……敵人確實變得更加難纏了，感覺是在與一個真正的“敵方指揮”而不是訓練程式對抗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "空中战斗也感受到了远超以往的压迫感，刚才新增的皇家舰队中使用了碧蓝航线最新的舰载机数据么？",
+			say = "空中戰鬥也感受到了遠超以往的壓迫感，剛才新增的皇家艦隊中使用了碧藍航線那邊最新的艦載機數據吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，都是些通过隐秘手段拿到的贵重情报。我们一定要用辛苦训练作为回报才是。",
+			say = "沒錯，都是些通過隱秘手段拿到的貴重情報。我們一定要用辛苦訓練作為回報才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是自然的，知彼知己才能万无一失嘛。",
+			say = "這是自然的，知彼知己才能萬無一失嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵，碧蓝航线倒是至今还对我们的存在一无所知，一厢情愿的认为航空战是铁血的致命软肋。真想看看它们知道真相时的反应。",
+			say = "呵，碧藍航線倒是至今還對我們的存在一無所知，一廂情願的認為航空戰是鐵血的致命軟肋。真想看看它們知道真相時的反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就让她们再自信一阵子吧，直到我们亮出獠牙的那一刻。",
+			say = "那就讓她們再自信一陣子吧，直到我們亮出獠牙的那一刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说起来，我们一直都闷在这里依靠镜面海域的设施进行训练，不知道外面其他地方的训练是什么样的啊……",
+			say = "說起來，我們一直都悶在這裡依靠鏡面海域的設施進行訓練，不知道外面其他地方的訓練是什麼樣的啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他地方的训练……",
+			say = "其他地方的訓練……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了！Z46是最早来到这片海域训练的吧，过来之前你有参与过别处的训练么？！",
+			say = "對了！ Z46是最早來到這片海域訓練的吧，在來到之前妳有參與過其他地方的訓練嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，没有。根据俾斯麦的命令，我在舰装还未完成之时就来到这片海域，没有参加其他海域训练的机会。",
+			say = "很遺憾，沒有。根據俾斯麥的命令，我在艦裝還未完成之時就來到這片海域，沒有參加其他海域訓練的機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只不过，在来到这里的路上有一次，梦到了一些奇怪的画面。",
+			say = "只不過，在來到這裡的路上有一次，夢到了一些奇怪的畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "紫色的天空，绀色的海面，巨大的漩涡，燃烧的残骸。有种身临其境之感，却又像模糊的素描画，转瞬即逝……",
+			say = "紫色的天空，紺色的海面，巨大的漩渦，燃燒的殘骸。有種身臨其境之感，卻又像模糊的素描畫，轉瞬即逝……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "日有所思夜有所梦，也许是那段时间你的海上之旅遭遇了太多风浪吧。都是梦而已，不用放在心上~",
+			say = "日有所思夜有所夢，也許是那段時間妳的海上之旅遭遇了太多風浪吧。都是夢而已，不用放在心上~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许吧。而且……我并不是最早来到这里。在我到达之前，此处设施中就已经在进行训练任务了。",
+			say = "也許吧。而且……我並不是最早來到這裡。在我到達之前，此處設施中就已經在進行訓練任務了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？这倒是我也没听说过的情报……哪支舰队？",
+			say = "嗯？這倒是我也沒聽說過的情報……哪支艦隊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能说。",
+			say = "不能說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎哎哎？！在这种时候保持神秘感反而让人更在意了啊！",
+			say = "哎哎哎？！在這種時候保持神秘感反而讓人更在意了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，已经比预定进度晚了十五分钟，闲聊就留到演习结束之后。下一个目标是残存的“皇家舰队”，准备出击！",
+			say = "好了，已經比預定進度晚了十五分鐘，閒聊就留到演習結束之後。下一個目標是殘存的“皇家艦隊”，準備出擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

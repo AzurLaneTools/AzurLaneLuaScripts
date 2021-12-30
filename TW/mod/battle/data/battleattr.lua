@@ -172,6 +172,18 @@ function slot0.IsLockAimBias(slot0)
 	return (slot0._attr.lockAimBias or 0) >= 1
 end
 
+function slot0.IsUnitCldImmune(slot0)
+	return (slot0._attr.unitCldImmune or 0) >= 1
+end
+
+function slot0.UnitCldImmune(slot0)
+	slot0._attr.unitCldImmune = (slot0._attr.unitCldImmune or 0) + 1
+end
+
+function slot0.UnitCldEnable(slot0)
+	slot0._attr.unitCldImmune = (slot0._attr.unitCldImmune or 0) - 1
+end
+
 function slot0.GetCurrentTargetSelect(slot0)
 	slot1 = nil
 	slot3 = ys.Battle.BattleConfig.TARGET_SELECT_PRIORITY

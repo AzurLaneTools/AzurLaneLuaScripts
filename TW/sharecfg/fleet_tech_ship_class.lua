@@ -1674,7 +1674,9 @@ pg.fleet_tech_ship_class = {
 		t_level = 6,
 		ships = {
 			40123,
-			40125
+			40124,
+			40125,
+			40128
 		}
 	},
 	[40104] = {
@@ -1721,7 +1723,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 119,
 		t_level = 4,
 		ships = {
-			40204
+			40204,
+			40205
 		}
 	},
 	[40203] = {
@@ -1770,6 +1773,17 @@ pg.fleet_tech_ship_class = {
 			49901
 		}
 	},
+	[40304] = {
+		shiptype = 3,
+		name = "P級",
+		nation = 4,
+		id = 40304,
+		t_level_1 = 123,
+		t_level = 5,
+		ships = {
+			40309
+		}
+	},
 	[40401] = {
 		shiptype = 4,
 		name = "沙恩霍斯特級",
@@ -1816,6 +1830,17 @@ pg.fleet_tech_ship_class = {
 			49902
 		}
 	},
+	[40601] = {
+		shiptype = 6,
+		name = "威悉",
+		nation = 4,
+		id = 40601,
+		t_level_1 = 124,
+		t_level = 4,
+		ships = {
+			40601
+		}
+	},
 	[40701] = {
 		shiptype = 7,
 		name = "齊柏林級",
@@ -1824,7 +1849,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 125,
 		t_level = 6,
 		ships = {
-			40701
+			40701,
+			40703
 		}
 	},
 	[40801] = {
@@ -1873,6 +1899,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			40808
+		}
+	},
+	[40805] = {
+		shiptype = 8,
+		name = "IXA型",
+		nation = 4,
+		id = 40805,
+		t_level_1 = 140,
+		t_level = 7,
+		ships = {
+			40810
 		}
 	},
 	[50101] = {
@@ -2390,15 +2427,18 @@ pg.fleet_tech_ship_class = {
 		40301,
 		40302,
 		40303,
+		40304,
 		40401,
 		40402,
 		40501,
 		40502,
+		40601,
 		40701,
 		40801,
 		40802,
 		40803,
 		40804,
+		40805,
 		50101,
 		50201,
 		50202,

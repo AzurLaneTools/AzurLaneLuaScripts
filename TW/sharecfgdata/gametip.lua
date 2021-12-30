@@ -2551,6 +2551,10 @@ _G.pg.gametip.ship_equipToShip_error_noEquip = {
 	tip = "裝備不存在"
 }
 
+_G.pg.gametip.ship_equip_check = {
+	tip = "※可在設定中開啟/關閉本介面"
+}
+
 _G.pg.gametip.ship_getShip_error = {
 	tip = "角色下水失敗:"
 }
@@ -9296,7 +9300,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "寶多六花、新條茜、南夢芽等角色建造機率UP！"
+	tip = "海因里希親王、彼得·史特拉塞、紐倫堡、威悉 建造機率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -10798,6 +10802,10 @@ _G.pg.gametip.blueprint_simulation_confirm_69901 = {
 
 _G.pg.gametip.electrotherapy_wanning = {
 	tip = "鏡面海域擴展中"
+}
+
+_G.pg.gametip.siren_chase_warning = {
+	tip = "危險區域擴展中"
 }
 
 _G.pg.gametip.memorybook_get_award_tip = {
@@ -15172,6 +15180,98 @@ _G.pg.gametip.doa_meili = {
 	tip = "魅力"
 }
 
+_G.pg.gametip.snowball_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>1月5日</color>為止每日0點開放<color=#92fc63>1</color>場新的比賽，總計<color=#92fc63>7</color>場，可累計。全部完成後可獲得<color=#92fc63>春月</color>限定換裝<color=#92fc63>「迎春的神樂舞」</color>
+2.指揮官每完成1場新的比賽還可以獲得2次敲鐘祈福次數，<color=#ff5c5c>最多可獲得14次敲鐘祈福有效次數</color>，花費物資消耗敲鐘祈福次數可以獲得不同效果
+遊戲規則：
+1.指揮官需要點擊左側按鈕控制小人上下移動躲避敵方雪
+球，被雪球擊中會扣除生命值，生命值耗盡遊戲結束。
+2.指揮官點擊敵方小人即可使用雪球攻擊，擊中不同敵人
+會獲得不同分數。
+特別注意：擊中亂入場地的無辜路人會扣分哦！
+得分規則：
+擊中：如月、睦月、卯月、文月、夕立、雪風 <color=#92fc63>加100分</color>
+擊中：皇家方舟 <color=#92fc63>加200分</color>
+擊中：挖礦啾啾、白露 <color=#ff5c5c>扣50分</color>
+3.畫面右側支援槽會隨著時間上漲，當支援槽漲滿時指揮官可以點擊支援槽呼叫空襲支援。空襲支援會清除當前場上敵方雪球並對敵人進行雪球轟炸
+4.指揮官生命值耗盡結束遊戲或是點擊遊戲內退出按鈕退
+出遊戲都視為完成遊戲。因為其他原因中途退出遊戲則算作未完成遊戲]]
+		}
+	}
+}
+
+_G.pg.gametip.help_xinnian2021_feast = {
+	tip = {
+		{
+			info = [[
+活動時間：<color=#92fc63>2020.12.30-2021.1.13</color>
+活動簡介：
+「啾啾雪合戰」：參與小遊戲獲取春月限定換裝「迎春的神
+樂舞」
+「啾啾小吃街」：參與小遊戲獲取限定角色「Z28」
+「敲鐘祈福」：參與小遊戲獲取獎勵「年賀狀」
+「換裝商店」：購買新年限時換裝
+「限時建造」：建造限時角色]]
+		}
+	}
+}
+
+_G.pg.gametip.help_xinnian2021__qiaozhong = {
+	tip = {
+		{
+			info = [[
+<size=31><color=#92fc63>TIPS：
+在沒有敲鐘有效次數時點擊敲鐘仍然會消耗物資，但是不會獲得加成效果</color></size>
+1.活動期間指揮官每完成<color=#92fc63>啾啾雪合戰</color>的1場新比賽可以獲得<color=#92fc63>2次</color>敲鐘有效次數，<color=#ff5c5c>最多可獲得14次敲鐘有效次數</color>
+2.擁有有效次數的情況下消耗5物資點擊敲鐘可以選擇不同加成效果：
+學業：戰術學院技能學習時間略微減少
+事業：主線、困難、作戰檔案關卡中，我方戰鬥內造成的
+傷害略微提高
+姻緣：秘書艦好感度提高速度加快
+以上三種效果持續時間為一天
+3.獲得學業效果時不會減少正在進行的技能學習時間，學業效果消失時不會增加已經被學業效果減少的技能學習時間
+4.如果在已經擁有加成效果的狀態下進行敲鐘，那麼新獲得的加成效果會覆蓋掉之前擁有的加成效果，且持續時間重置
+5.同一時間只能存在一種加成效果]]
+		}
+	}
+}
+
+_G.pg.gametip.help_xinnian2021__meishiyemian = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.活動期間每日可獲得<color=#92fc63>1</color>次可用次數，可用次數最多可以疊加<color=#92fc63>7</color>次
+2.在有可用次數的情況下參與新年美食祭並進行<color=#92fc63>遊戲結算</color>會消耗掉可用次數並獲得活動道具，集齊7個活動道具可以獲得限定角色<color=#92fc63>「Z28」</color>
+3.在沒有可用次數的情況下參與新年美食祭不會獲得活動道具
+4.因為其他原因中途退出小遊戲不會消耗可用次數，同時也不會獲得任何獎勵]]
+		}
+	}
+}
+
+_G.pg.gametip.help_xinnian2021__meishi = {
+	tip = {
+		{
+			info = [[
+遊戲規則：
+1.點擊選購開始遊戲，左側角色頭頂會出現想要的三種食物，在思考五秒之後頭頂食物消失，玩家需要憑記憶在十秒內從右側九種食物中選出角色之前想要的三種食物
+2.需要按照之前角色頭頂從左到右的食物順序選擇食物
+3.單擊食物選擇，再次單擊該食物可以取消選擇，選擇好三種食物後自動提交結果
+4.倒計時未用盡的情況下，選好三種食物會進入結算介面，選出的正確食物會增加剩餘時間和積分，可以選擇繼續遊戲或者遊戲結算，增加時間和積分規則如下：
+選中3個正確的食物： 剩餘時間增加5秒  積分增加5分
+選中2個正確的食物： 剩餘時間增加2秒  積分增加2分
+選中1個正確的食物： 剩餘時間增加1秒  積分增加1分
+選中0個正確的食物： 剩餘時間增加0秒  積分增加0分   
+5.如果選擇繼續遊戲則保留剩餘時間和積分，並繼續選出符合左側角色想要的三種食物
+6.如果倒計時用盡或者主動選擇遊戲結算，則算作遊戲結束]]
+		}
+	}
+}
+
 _G.pg.gametip.help_act_event = {
 	tip = {
 		{
@@ -16708,7 +16808,7 @@ _G.pg.gametip.cartoon_haveno = {
 }
 
 _G.pg.gametip.res_cartoon_new_tip = {
-	tip = "本次更新新增了$1張漫畫"
+	tip = "本次更新新增了17張漫畫"
 }
 
 _G.pg.gametip.memory_actiivty_ex = {
@@ -17673,6 +17773,18 @@ _G.pg.gametip.settings_pwd_label_open = {
 
 _G.pg.gametip.word_frame = {
 	tip = "幀"
+}
+
+_G.pg.gametip.Settings_title_Redeem_input_label = {
+	tip = "輸入兌換碼:"
+}
+
+_G.pg.gametip.Settings_title_Redeem_input_submit = {
+	tip = "領 取"
+}
+
+_G.pg.gametip.Settings_title_Redeem_input_placeholder = {
+	tip = "僅限英語數字組合"
 }
 
 _G.pg.gametip.shop_diamond_title = {

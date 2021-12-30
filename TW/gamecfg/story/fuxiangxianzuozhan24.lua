@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "终于来了么………………",
+			say = "終於來了嗎………………",
 			bgm = "xinnong-2",
 			flashout = {
 				black = true,
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			say = "伴随着轰鸣声，遮天蔽日的机群从远方出现了。在机群之中，除了铁血飞机之外，更多的是散发着诡异光芒的塞壬飞机。",
+			say = "伴隨著轟鳴聲，遮天蔽日的機群從遠方出現了。在機群之中，除了鐵血飛機之外，更多的是散發著詭異光芒的塞壬飛機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一段时间没来，这里变的还真夸张……史特拉塞难道是想借机测试一下基地的航空战上限么？",
+			say = "一段時間沒來，這裡變的還真誇張……史特拉塞難道是想藉機測試一下基地的航空戰上限嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还真是完美的配合，呵呵……",
+			say = "那還真是完美的配合，呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,23 +91,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			say = "不过，机群之内正在发生连续不断的爆炸。虽然一分一秒的逼近着目标区域，但是爆炸声也变得愈发密集。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403030,
-			side = 2,
-			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……这可不妙。居然是电子战特化型塞壬，放着不管的话塞壬机群在飞到之前就会被全部处理光的。",
+			say = "不過，機群之內正在發生連續不斷的爆炸。雖然一分一秒的逼近著目標區域，但是爆炸聲也變得愈發密集。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +107,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，开始亲自抵抗就意味着感到着急，果然被我猜中目的了……",
+			say = "……這可不妙。居然是電子戰特化型塞壬，放著不管的話塞壬機群在飛到之前就會被全部處理光的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +123,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，塞壬…这里可不是一直以来你们能够肆意妄为的主场了……",
+			say = "不過，開始親自抵抗就意味著感到著急，果然被我猜中目的了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +139,23 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是…铁血的主场！如果是这样的话你要怎么办！",
+			say = "呵，塞壬…這裡可不是一直以來妳們能夠肆意妄為的主場了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			bgName = "bg_fuxiangxian_2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "這裡是…鐵血的主場！如果是這樣的話妳要怎麼辦！",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U37，你还在指定位置吧！",
+			say = "U-37，妳還在指定位置吧！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -199,7 +199,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是U37~目前仍然在指定位置待机中，要重启控制设备么？",
+			say = "這裡是U-37~目前仍然在指定位置待機中，要重啟控制設備嗎？",
 			effects = {
 				{
 					active = false,
@@ -222,7 +222,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "入侵塞壬是电子战特化型，应该已经对于中央控制设备采取对策了。计划变更，你立刻把面前的控制设备给炸了！",
+			say = "入侵塞壬是電子戰特化型，應該已經對於中央控制設備採取對策了。計劃變更，妳立刻把面前的控制設備給炸了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎、哎？！！炸……炸了？！！！要是炸了以后怎么办啊！",
+			say = "哎、哎？！！炸……炸了？！！！要是炸了以後怎麼辦啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "情况紧急，炸了再说。",
+			say = "情況緊急，炸了再說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来预定计划也是要在不久之后主动解除伪装的，现在不过是执行时间早了一些，手段粗暴了一些……",
+			say = "本來預定計劃也是要在不久之後主動解除偽裝的，現在不過是執行時間早了一些，手段粗暴了一些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在是需要让世人更加清楚的认识到铁血的实力之时，吾等的第二主力舰队已经没有任何隐藏的必要了。",
+			say = "現在是需要讓世人更加清楚的認識到鐵血的實力之時，吾等的第二主力艦隊已經沒有任何隱藏的必要了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "况且，把这些东西继续留着不是方便塞壬再混进来一次么？",
+			say = "況且，把這些東西繼續留著不是方便塞壬再混進來一次嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是！我明白了！现在开始进行攻击准备，U37通讯结束！",
+			say = "是！我明白了！現在開始進行攻擊準備，U-37通訊結束！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "就当是迟来多时的回应，至少让我为这边的事情画上句号吧……",
+			say = "就當是遲來多時的回應，至少讓我為這邊的事情畫上句號吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			actor = 403090,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "喂喂喂，彼得你在听么？海因里希即将抵达目标位置！",
+			say = "喂喂喂，彼得妳在聽嗎？海因里希即將抵達目標位置！",
 			dir = 1,
 			bgm = "xinnong-2",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "收到。侦查显示“铁血”舰队正在调整航线，也许是察觉到我们的意图了，请加速行动。",
+			say = "收到。偵查顯示“鐵血”艦隊正在調整航線，也許是察覺到我們的意圖了，請加速行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "海因里希收到~咦？怎么是威悉呀，彼得呢？",
+			say = "海因里希收到~咦？怎麼是威悉呀，彼得呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "彼得正在准备一个一举结束这些异常棋子和量产型“叛乱”的计划，目前作战暂时由我负责指挥。",
+			say = "彼得正在準備一個一舉結束這些異常棋子和量產型“叛亂”的計劃，目前作戰暫時由我負責指揮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白~只要把它们赶到指定区域内就算任务成功吧，包在我身上！",
+			say = "明白~只要把它們趕到指定區域內就算任務成功吧，包在我身上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接近目标中……小铁，对面看起来还没有做好准备的样子，是个发起强袭的好机会————",
+			say = "接近目標中……小鐵，對面看起來還沒有做好準備的樣子，是個發起強襲的好機會————",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……在这里最缺乏观察力的人不就是你么，海因里希。",
+			say = "……在這裡最缺乏觀察力的人不就是妳嗎，海因里希。",
 			effects = {
 				{
 					active = true,
@@ -166,7 +166,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎~上次的事是我不对啦，放心吧，这次一定不会弄错的！",
+			say = "哎~上次的事是我不對啦，放心吧，這次一定不會弄錯的！",
 			effects = {
 				{
 					active = true,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于联络没有回应的是棋子，无法正常交流的是棋子，还有二话不说上来就攻击的是棋子对吧！",
+			say = "對於聯絡沒有回應的是棋子，無法正常交流的是棋子，還有二話不說上來就攻擊的是棋子對吧！",
 			effects = {
 				{
 					active = true,
@@ -210,7 +210,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了……以防万一，还是先按照流程首先呼叫一下————",
+			say = "算了……以防萬一，還是先按照流程首先呼叫一下————",
 			effects = {
 				{
 					active = false,
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "————————————",
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没有反应啊……很好，确认是棋子无误！小铁，我们上！",
+			say = "果然沒有反應啊……很好，確認是棋子無誤！小鐵，我們上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

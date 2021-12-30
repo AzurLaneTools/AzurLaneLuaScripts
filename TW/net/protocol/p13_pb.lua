@@ -127,6 +127,7 @@ slot2 = {
 	AI_ACT_COMMANDER_SKILL_EFFECT_ID_FIELD = slot0.FieldDescriptor(),
 	AI_ACT_ACT_TYPE_FIELD = slot0.FieldDescriptor(),
 	AI_ACT_HP_DEL_FIELD = slot0.FieldDescriptor(),
+	AI_ACT_CELL_FLAG_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_13107_ID_FIELD = slot0.FieldDescriptor(),
 	CS_13107_ELITE_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_13108_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -1685,6 +1686,16 @@ slot2.AI_ACT_HP_DEL_FIELD.has_default_value = false
 slot2.AI_ACT_HP_DEL_FIELD.default_value = 0
 slot2.AI_ACT_HP_DEL_FIELD.type = 13
 slot2.AI_ACT_HP_DEL_FIELD.cpp_type = 3
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.name = "cell_flag_list"
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.full_name = "p13.ai_act.cell_flag_list"
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.number = 10
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.index = 9
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.label = 3
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.has_default_value = false
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.default_value = {}
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.message_type = CELLFLAG
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.type = 11
+slot2.AI_ACT_CELL_FLAG_LIST_FIELD.cpp_type = 10
 AI_ACT.name = "ai_act"
 AI_ACT.full_name = "p13.ai_act"
 AI_ACT.nested_types = {}
@@ -1698,7 +1709,8 @@ AI_ACT.fields = {
 	slot2.AI_ACT_SHIP_UPDATE_FIELD,
 	slot2.AI_ACT_COMMANDER_SKILL_EFFECT_ID_FIELD,
 	slot2.AI_ACT_ACT_TYPE_FIELD,
-	slot2.AI_ACT_HP_DEL_FIELD
+	slot2.AI_ACT_HP_DEL_FIELD,
+	slot2.AI_ACT_CELL_FLAG_LIST_FIELD
 }
 AI_ACT.is_extendable = false
 AI_ACT.extensions = {}

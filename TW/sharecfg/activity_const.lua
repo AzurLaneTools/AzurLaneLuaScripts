@@ -463,13 +463,13 @@ pg.activity_const = {
 		act_id = 40209
 	},
 	NEWYEAR_SHRINE_PAGE_ID = {
-		act_id = 40210
+		act_id = 40503
 	},
 	NEWYEAR_SNACK_PAGE_ID = {
-		act_id = 835
+		act_id = 40508
 	},
 	NEWYEAR_ACTIVITY = {
-		act_id = 40211
+		act_id = 40504
 	},
 	NEW_JAPANESE_PT = {
 		act_id = 40212
@@ -757,10 +757,10 @@ pg.activity_const = {
 		act_id = 40030
 	},
 	NEWYEAR_SNACKSTREET_MINIGAME = {
-		act_id = 831
+		act_id = 40504
 	},
 	NEWYEAR_SNOWBALL_FIGHT = {
-		act_id = 829
+		act_id = 40502
 	},
 	SPRING_FES_MINIGAME_SECOND = {
 		act_id = 40232
@@ -815,5 +815,14 @@ pg.activity_const = {
 	},
 	SSSS_PT = {
 		act_id = 40475
+	},
+	MINIGAME_CURLING = {
+		act_id = 4196
+	},
+	MINIGAME_FIREWORK_2022 = {
+		act_id = 4204
+	},
+	BUILDING_NEWYEAR_2022 = {
+		act_id = 4202
 	}
 }

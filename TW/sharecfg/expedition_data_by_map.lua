@@ -7022,6 +7022,264 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1460001] = {
+		map = 1460001,
+		name = "負象限作戰·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "FUXIANGXIANZUOZHAN1",
+		ani_name = "Map_1390001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40495,
+		ui_type = 1,
+		bg = "Map_1390001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460002] = {
+		map = 1460002,
+		name = "負象限作戰·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-executor-type1",
+		enter_story = "FUXIANGXIANZUOZHAN15",
+		ani_name = "Map_1390002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40495,
+		ui_type = 1,
+		bg = "Map_1390002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460011] = {
+		map = 1460011,
+		name = "負象限作戰·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "FUXIANGXIANZUOZHAN1",
+		ani_name = "Map_1390003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40495,
+		ui_type = 1,
+		bg = "Map_1390003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460012] = {
+		map = 1460012,
+		name = "負象限作戰·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-executor-type1",
+		enter_story = "FUXIANGXIANZUOZHAN15",
+		ani_name = "Map_1390004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40495,
+		ui_type = 1,
+		bg = "Map_1390004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460025] = {
+		map = 1460025,
+		name = "負象限作戰·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "",
+		ani_name = "Map_1390004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40495,
+		ui_type = 1,
+		bg = "Map_1390004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460026] = {
+		map = 1460026,
+		name = "負象限作戰·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "",
+		ani_name = "Map_1390004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40495,
+		ui_type = 1,
+		bg = "Map_1390004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1540001] = {
 		map = 1540001,
 		name = "響徹碧海的偶像歌|| ||CHAPTER EX||E.X.",
@@ -8659,6 +8917,12 @@ pg.expedition_data_by_map = {
 		1450001,
 		1450002,
 		1450003,
+		1460001,
+		1460002,
+		1460011,
+		1460012,
+		1460025,
+		1460026,
 		1540001,
 		1540002,
 		1540003,

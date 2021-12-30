@@ -7,7 +7,7 @@ slot0.edge2area = {
 }
 
 function slot0.init(slot0)
-	slot0.loader = ThirdAnniversaryAutoloader.New()
+	slot0.loader = AutoLoader.New()
 	slot0.top = slot0:findTF("top")
 	slot0._map = slot0:findTF("map")
 
@@ -72,7 +72,7 @@ function slot0.RegisterDataResponse(slot0)
 				return
 			end
 
-			slot0.loader:GetSprite("ui/AkibaStreetUI_atlas", uv0 .. slot1, slot0["map_" .. uv0])
+			slot0.loader:GetSpriteQuiet("ui/AkibaStreetUI_atlas", uv0 .. slot1, slot0["map_" .. uv0])
 
 			if not slot0["upper_" .. uv0] or IsNil(slot2:Find("level")) then
 				return
@@ -129,8 +129,6 @@ function slot0.RegisterDataResponse(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot1 = getProxy(MiniGameProxy)
-
 	onButton(slot0, slot0:findTF("top/return_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
@@ -200,9 +198,7 @@ function slot0.UpdateActivity(slot0, slot1)
 end
 
 function slot0.UpdateView(slot0)
-	slot1, slot2 = nil
-
-	function slot4(slot0)
+	function slot2(slot0)
 		if not uv0.activity then
 			return
 		end
@@ -216,23 +212,23 @@ function slot0.UpdateView(slot0)
 		return slot2.material[slot1] <= (uv0.activity.data1KeyValueList[1][slot2.material_id] or 0)
 	end
 
-	slot5 = {
+	slot3 = {
 		"shudian",
 		"youxidian",
 		"moxingdian",
 		"kafeiting"
 	}
-	slot0.Respones.shudianTip = slot4(5)
-	slot0.Respones.youxidianTip = slot4(6)
-	slot0.Respones.moxingdianTip = slot4(7)
-	slot0.Respones.kafeitingTip = slot4(8)
+	slot0.Respones.shudianTip = slot2(5)
+	slot0.Respones.youxidianTip = slot2(6)
+	slot0.Respones.moxingdianTip = slot2(7)
+	slot0.Respones.kafeitingTip = slot2(8)
 	slot0.Respones.shujvhuiguTip = false
 	slot0.Respones.jiejitingTip = getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0
 
-	slot0:UpdateHubData(slot8)
+	slot0:UpdateHubData(slot6)
 
 	if not slot0.InitStudentBegin then
-		slot0:InitStudents(slot6.id, 3, 4)
+		slot0:InitStudents(slot4.id, 3, 4)
 
 		slot0.InitStudentBegin = true
 	end
