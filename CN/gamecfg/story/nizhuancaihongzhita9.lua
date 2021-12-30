@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "海域中肯定还有别的什么舰队在于塞壬交战。",
+			say = "海域中肯定还有别的什么舰队在与塞壬交战。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

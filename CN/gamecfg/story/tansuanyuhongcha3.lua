@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全不熟悉也没关系，我会让贝法特指导你们的。",
+			say = "完全不熟悉也没关系，我会让贝法特别指导你们的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请不用担心，都是些是十分符合各位淑身份女的美丽衣服哦。",
+			say = "请不用担心，都是些十分符合各位淑女身份的美丽衣服哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
