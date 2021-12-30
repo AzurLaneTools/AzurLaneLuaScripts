@@ -9205,7 +9205,6 @@ pg.activity_template = {
 				"daqinghuayu_3",
 				"yilishabai_6",
 				"peineiluopo_3",
-				"hao_4",
 				"niaohai_2",
 				"nengdai_7",
 				"makeboluo_2",

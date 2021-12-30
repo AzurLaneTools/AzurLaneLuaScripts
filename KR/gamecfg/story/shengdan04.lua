@@ -38,7 +38,7 @@ return {
 			say = "다녀왔습니다~",
 			subActors = {
 				{
-					actor = 305020,
+					actor = 305022,
 					pos = {
 						x = 1027.5
 					}
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			actor = 301321,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			actor = 301321,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 2,
 			actorName = "{namecode:79}",
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			actor = 301321,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = -1,
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305021,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",

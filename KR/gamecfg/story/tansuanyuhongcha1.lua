@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>1. 계획서</size>",
+					"탄산과 홍차\n\n<size=45>1. 계획서</size>",
 					1
 				}
 			}
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "지휘관님, 그럼 먼저 실례하겠습니다.",
+			say = "주인님, 그럼 먼저 실례하겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

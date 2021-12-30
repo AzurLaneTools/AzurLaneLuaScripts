@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -334,7 +334,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,

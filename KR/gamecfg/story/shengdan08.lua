@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = -1,
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 101260,
+			actor = 101261,
 			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = -1,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = -1,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 2,
 			actorName = "{namecode:79}",
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			actor = 301321,
 			side = 0,
 			nameColor = "#92fc63",
 			actorName = "{namecode:33}",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			actor = 201102,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			actor = 201102,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			actor = 107061,
 			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			actor = 201102,
 			actorShadow = true,
 			actorName = "모두",
 			side = 0,
@@ -249,13 +249,13 @@ return {
 			say = "아, 엔터프라이즈다.",
 			subActors = {
 				{
-					actor = 305020,
+					actor = 305022,
 					pos = {
 						x = 555
 					}
 				},
 				{
-					actor = 301320,
+					actor = 301321,
 					pos = {
 						x = 1125
 					}
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			actor = 107061,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			actor = 201102,
 			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			actor = 301321,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:33}",
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			actor = 107061,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			actor = 201102,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -399,7 +399,7 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			actor = 301321,
 			actorShadow = true,
 			actorName = "{namecode:79}&{namecode:33}",
 			side = 0,
@@ -408,7 +408,7 @@ return {
 			say = "지휘관, 메리 크리스마스! (지히간~ 메리 크리슈마수!)",
 			subActors = {
 				{
-					actor = 305020,
+					actor = 305022,
 					pos = {
 						x = 1027.5
 					}
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 2,
 			actorName = "{namecode:79}",
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -471,7 +471,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -503,7 +503,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -518,7 +518,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -550,7 +550,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
@@ -569,7 +569,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -584,7 +584,7 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			actor = 102081,
 			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,

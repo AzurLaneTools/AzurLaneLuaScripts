@@ -492,7 +492,7 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			actor = 201102,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			actor = 201102,
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,

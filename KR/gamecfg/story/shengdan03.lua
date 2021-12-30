@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			actorName = "{namecode:79}",
 			side = 2,
 			nameColor = "#92fc63",
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			actorName = "목소리",
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			side = 1,
 			nameColor = "#92fc63",
 			actorName = "{namecode:79}",
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 101051,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
