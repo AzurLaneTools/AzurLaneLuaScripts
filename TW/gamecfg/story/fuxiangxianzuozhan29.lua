@@ -120,7 +120,7 @@ return {
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊啊！！這又什麼東西啊！！！！！！！",
+			say = "哇啊啊啊啊啊啊！！這又是什麼東西啊！！！！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
