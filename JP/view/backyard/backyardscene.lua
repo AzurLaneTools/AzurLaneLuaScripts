@@ -526,13 +526,13 @@ function slot0.updateBuff(slot0, slot1)
 		LeanTween.cancel(uv0.buffTip.gameObject)
 
 		rtf(uv0.buffTip).anchoredPosition = rtf(uv1).anchoredPosition
-		slot1 = uv0
+		slot2 = uv0
 
-		setText(slot1:findTF("Text", uv0.buffTip), uv2.desc)
+		setText(slot2:findTF("Text", uv0.buffTip), string.split(uv2.desc, "\n")[1])
 
-		slot0 = LeanTween.scale(rtf(uv0.buffTip), Vector3(1, 1, 1), 0.3)
+		slot1 = LeanTween.scale(rtf(uv0.buffTip), Vector3(1, 1, 1), 0.3)
 
-		slot0:setOnComplete(System.Action(function ()
+		slot1:setOnComplete(System.Action(function ()
 			if not IsNil(uv0.buffTip) then
 				LeanTween.scale(rtf(uv0.buffTip), Vector3(0, 0, 0), 0.3):setDelay(2)
 			end

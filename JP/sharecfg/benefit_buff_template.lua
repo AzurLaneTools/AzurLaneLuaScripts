@@ -872,7 +872,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 60,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "ship_battle_exp",
 		desc = "幸運祈願：瑞鶴――メイン・ハード・イベント・作戦履歴海域における味方艦隊が得る経験値3%アップ\n残り時間:$1",
 		benefit_condition = {
 			"activity",
@@ -887,7 +887,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 61,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "dorm_exp",
 		desc = "幸運祈願：ル・マラン――寮舎における経験値入手量が3%アップ\n残り時間:$1",
 		benefit_condition = {
 			"activity",
@@ -902,7 +902,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 62,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "dorm_exp",
 		desc = "幸運祈願：ヴィクトリアス――寮舎における経験値入手量が3%アップ\n残り時間:$1",
 		benefit_condition = {
 			"activity",
@@ -947,7 +947,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		id = 65,
 		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
+		benefit_type = "ship_battle_exp",
 		desc = "幸運祈願：エセックス――メイン・ハード・イベント・作戦履歴海域における味方艦隊が得る経験値3%アップ\n残り時間:$1",
 		benefit_condition = {
 			"activity",

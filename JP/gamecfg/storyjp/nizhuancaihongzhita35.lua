@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "言葉がすぎるぞ、マルコ・ポーロ",
+			say = "やっぱりそれは我がサディアが保有するべきね…ふむふむ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "やっぱりそれは我がサディアが保有するべきね…ふむふむ",
+			say = "\t言葉がすぎるぞ、マルコ・ポーロ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
