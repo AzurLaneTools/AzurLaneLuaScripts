@@ -30640,7 +30640,7 @@ _G.pg.item_data_statistics[42030] = {
 }
 
 _G.pg.item_data_statistics[42031] = {
-	display = "Blueprint for Eagle Union CL Anchorage.\n<color=#92fc63>Can be used in the Shipyard to increase Anchorage's stats once you've finished developing her.</color>",
+	display = "Blueprint for Eagle Union CA Anchorage.\n<color=#92fc63>Can be used in the Shipyard to increase Anchorage's stats once you've finished developing her.</color>",
 	name = "Blueprint - Anchorage ",
 	max_num = 0,
 	type = 12,

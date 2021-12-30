@@ -17319,231 +17319,231 @@ cs.gametip = {
 	},
 	build_pools_intro = {
 		581456,
-		122,
+		121,
 		true
 	},
 	build_detail_intro = {
-		581578,
+		581577,
 		97,
 		true
 	},
 	ssss_game_tip = {
-		581675,
+		581674,
 		1489,
 		true
 	},
 	ssss_medal_tip = {
-		583164,
+		583163,
 		385,
 		true
 	},
 	battlepass_main_tip_2112 = {
-		583549,
+		583548,
 		224,
 		true
 	},
 	battlepass_main_help_2112 = {
-		583773,
+		583772,
 		2878,
 		true
 	},
 	cruise_task_help_2112 = {
-		586651,
+		586650,
 		1076,
 		true
 	},
 	littleSanDiego_npc = {
-		587727,
+		587726,
 		1214,
 		true
 	},
 	tag_ship_unlocked = {
-		588941,
+		588940,
 		86,
 		true
 	},
 	tag_ship_locked = {
-		589027,
+		589026,
 		82,
 		true
 	},
 	acceleration_tips_1 = {
-		589109,
+		589108,
 		194,
 		true
 	},
 	acceleration_tips_2 = {
-		589303,
+		589302,
 		219,
 		true
 	},
 	noacceleration_tips = {
-		589522,
+		589521,
 		110,
 		true
 	},
 	word_shipskin = {
-		589632,
+		589631,
 		73,
 		true
 	},
 	settings_sound_title_bgm = {
-		589705,
+		589704,
 		90,
 		true
 	},
 	settings_sound_title_effct = {
-		589795,
+		589794,
 		92,
 		true
 	},
 	settings_sound_title_cv = {
-		589887,
+		589886,
 		91,
 		true
 	},
 	setting_resdownload_title_gallery = {
-		589978,
+		589977,
 		102,
 		true
 	},
 	setting_resdownload_title_live2d = {
-		590080,
+		590079,
 		100,
 		true
 	},
 	setting_resdownload_title_music = {
-		590180,
+		590179,
 		96,
 		true
 	},
 	setting_resdownload_title_sound = {
-		590276,
+		590275,
 		99,
 		true
 	},
 	settings_battle_title = {
-		590375,
+		590374,
 		94,
 		true
 	},
 	settings_battle_tip = {
-		590469,
+		590468,
 		135,
 		true
 	},
 	settings_battle_Btn_edit = {
-		590604,
+		590603,
 		83,
 		true
 	},
 	settings_battle_Btn_reset = {
-		590687,
+		590686,
 		87,
 		true
 	},
 	settings_battle_Btn_save = {
-		590774,
+		590773,
 		83,
 		true
 	},
 	settings_battle_Btn_cancel = {
-		590857,
+		590856,
 		87,
 		true
 	},
 	settings_pwd_label_close = {
-		590944,
+		590943,
 		87,
 		true
 	},
 	settings_pwd_label_open = {
-		591031,
+		591030,
 		85,
 		true
 	},
 	word_frame = {
-		591116,
+		591115,
 		69,
 		true
 	},
 	Settings_title_Redeem_input_label = {
-		591185,
+		591184,
 		100,
 		true
 	},
 	Settings_title_Redeem_input_submit = {
-		591285,
+		591284,
 		95,
 		true
 	},
 	Settings_title_Redeem_input_placeholder = {
-		591380,
+		591379,
 		131,
 		true
 	},
 	CurlingGame_tips1 = {
-		591511,
+		591510,
 		1142,
 		true
 	},
 	maid_task_tips1 = {
-		592653,
+		592652,
 		1021,
 		true
 	},
 	shop_diamond_title = {
-		593674,
+		593673,
 		77,
 		true
 	},
 	shop_gift_title = {
-		593751,
+		593750,
 		75,
 		true
 	},
 	shop_item_title = {
-		593826,
+		593825,
 		75,
 		true
 	},
 	shop_charge_level_limit = {
-		593901,
+		593900,
 		93,
 		true
 	},
 	backhill_cantupbuilding = {
-		593994,
+		593993,
 		125,
 		true
 	},
 	pray_cant_tips = {
-		594119,
+		594118,
 		123,
 		true
 	},
 	help_xinnian2022_feast = {
-		594242,
+		594241,
 		2191,
 		true
 	},
 	Pray_activity_tips1 = {
-		596433,
+		596432,
 		1579,
 		true
 	},
 	backhill_notenoughbuilding = {
-		598012,
+		598011,
 		175,
 		true
 	},
 	help_xinnian2022_z28 = {
-		598187,
+		598186,
 		757,
 		true
 	},
 	help_xinnian2022_firework = {
-		598944,
+		598943,
 		1147,
 		true
 	}

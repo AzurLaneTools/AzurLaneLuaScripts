@@ -18935,7 +18935,7 @@ _G.pg.gametip.build_rate_title = {
 }
 
 _G.pg.gametip.build_pools_intro = {
-	tip = "Use Wisedom Cubes and Coins to expand your fleet! "
+	tip = "Use Wisdom Cubes and Coins to expand your fleet! "
 }
 
 _G.pg.gametip.build_detail_intro = {

@@ -25,7 +25,7 @@ return {
 			},
 			arg_list = {
 				buff_id = 15081,
-				delay = 3
+				delay = 5
 			}
 		}
 	}
