@@ -62,7 +62,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68532,
+					weapon_id = 63532,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -117,7 +117,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68533,
+					weapon_id = 63533,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -172,7 +172,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68534,
+					weapon_id = 63534,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -227,7 +227,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68535,
+					weapon_id = 63535,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -282,7 +282,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68536,
+					weapon_id = 63536,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -337,7 +337,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68537,
+					weapon_id = 63537,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -392,7 +392,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68538,
+					weapon_id = 63538,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -447,7 +447,7 @@ return {
 				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 68539,
+					weapon_id = 63539,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
