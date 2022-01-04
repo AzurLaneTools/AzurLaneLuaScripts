@@ -3845,7 +3845,7 @@ pg.ship_skin_template_19 = {
 	},
 	[900320] = {
 		ship_group = 900320,
-		name = "Enforcers of Arbiter",
+		name = "Arbiter: The Lovers VI",
 		bullet_skin_secondary = "",
 		hand_id = 14,
 		bgm = "",

@@ -55249,6 +55249,114 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	},
+	[14985] = {
+		desc_get = "",
+		name = "Future Content ",
+		id = 14985,
+		type = 1,
+		max_level = 10,
+		desc = "When the fleet this ship is in sinks an enemy fleet: increases this ship's DMG dealt by $1 (can be stacked up to 4 times). When this ship sinks an enemy in combat: increases this ship's ACC and EVA by $2 (can be stacked up to 4 times).",
+		system_transform = {
+			[51.0] = 14985
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
 	[14990] = {
 		desc_get = "",
 		name = "Scorching Combo",
@@ -79032,6 +79140,7 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		14960,
 		14970,
 		14980,
+		14985,
 		14990,
 		15000,
 		15010,

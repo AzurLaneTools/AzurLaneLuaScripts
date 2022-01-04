@@ -712,7 +712,7 @@ function slot0.NewAtlasRight(slot0, slot1, slot2)
 	onButton(slot0, slot3.btnSettings, function ()
 		uv0:Op("OpOpenScene", SCENE.SETTINGS, {
 			scroll = "world_settings",
-			toggle = SettingsScene.EnterToggle.options
+			page = NewSettingsScene.PAGE_OPTION
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot3.btnSwitch, function ()
