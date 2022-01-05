@@ -4,7 +4,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -18,7 +19,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -32,7 +34,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -46,7 +49,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -60,7 +64,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -74,7 +79,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -88,7 +94,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -102,7 +109,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -116,7 +124,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -130,7 +139,8 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					attr = "damageRatioBullet",
@@ -153,7 +163,8 @@ return {
 		{
 			type = "BattleBuffAddAttr",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				attr = "damageRatioBullet",
