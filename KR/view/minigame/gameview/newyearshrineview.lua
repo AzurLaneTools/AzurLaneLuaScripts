@@ -326,9 +326,34 @@ function slot0.IsNeedShowTipWithoutActivityFinalReward()
 		return
 	end
 
+	slot1 = false
+
 	if getProxy(MiniGameProxy):GetMiniGameData(MiniGameDataCreator.NewYearShrineGameID) then
-		return (slot2:GetRuntimeData("count") or 0) > 0
+		slot1 = (slot3:GetRuntimeData("count") or 0) > 0
 	end
+
+	slot4 = false
+	slot5 = nil
+
+	if slot3 then
+		slot7 = slot3:getConfig("config_data")[2]
+
+		for slot11, slot12 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
+			if table.indexof(slot7, slot12.id, 1) then
+				if slot12.timestamp < pg.TimeMgr.GetInstance():GetServerTime() then
+					slot5 = nil
+				end
+
+				break
+			end
+		end
+	end
+
+	if slot5 then
+		slot4 = true
+	end
+
+	return slot1 and not slot4
 end
 
 return slot0
