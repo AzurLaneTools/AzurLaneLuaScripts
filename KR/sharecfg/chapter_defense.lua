@@ -954,6 +954,154 @@ pg.chapter_defense = {
 			}
 		}
 	},
+	[2100162] = {
+		id = 2100162,
+		port_hp = 8,
+		bonus_time = 0,
+		port_refresh = 1,
+		score = {
+			8,
+			4,
+			1
+		},
+		reinforce_expedition_list = {
+			1250231
+		},
+		damage_by_id = {
+			{
+				1250231,
+				3
+			}
+		},
+		evaluation_display_s = {
+			1,
+			1,
+			20
+		},
+		evaluation_display_a = {
+			1,
+			1,
+			8
+		},
+		evaluation_display_b = {},
+		strategy_list = {
+			{
+				12,
+				1
+			}
+		}
+	},
+	[2100163] = {
+		id = 2100163,
+		port_hp = 8,
+		bonus_time = 0,
+		port_refresh = 1,
+		score = {
+			8,
+			4,
+			1
+		},
+		reinforce_expedition_list = {
+			1250241
+		},
+		damage_by_id = {
+			{
+				1250241,
+				3
+			}
+		},
+		evaluation_display_s = {
+			1,
+			1,
+			20
+		},
+		evaluation_display_a = {
+			1,
+			1,
+			8
+		},
+		evaluation_display_b = {},
+		strategy_list = {
+			{
+				12,
+				1
+			}
+		}
+	},
+	[2100172] = {
+		id = 2100172,
+		port_hp = 8,
+		bonus_time = 0,
+		port_refresh = 1,
+		score = {
+			8,
+			4,
+			1
+		},
+		reinforce_expedition_list = {
+			1250831
+		},
+		damage_by_id = {
+			{
+				1250831,
+				3
+			}
+		},
+		evaluation_display_s = {
+			1,
+			1,
+			60
+		},
+		evaluation_display_a = {
+			1,
+			1,
+			24
+		},
+		evaluation_display_b = {},
+		strategy_list = {
+			{
+				12,
+				1
+			}
+		}
+	},
+	[2100173] = {
+		id = 2100173,
+		port_hp = 8,
+		bonus_time = 0,
+		port_refresh = 1,
+		score = {
+			8,
+			4,
+			1
+		},
+		reinforce_expedition_list = {
+			1250841
+		},
+		damage_by_id = {
+			{
+				1250841,
+				3
+			}
+		},
+		evaluation_display_s = {
+			1,
+			1,
+			60
+		},
+		evaluation_display_a = {
+			1,
+			1,
+			24
+		},
+		evaluation_display_b = {},
+		strategy_list = {
+			{
+				12,
+				1
+			}
+		}
+	},
 	all = {
 		1250001,
 		1250002,
@@ -976,6 +1124,10 @@ pg.chapter_defense = {
 		1490011,
 		1490012,
 		1490013,
-		1490017
+		1490017,
+		2100162,
+		2100163,
+		2100172,
+		2100173
 	}
 }

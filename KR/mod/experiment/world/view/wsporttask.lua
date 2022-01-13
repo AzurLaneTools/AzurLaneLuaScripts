@@ -21,11 +21,9 @@ slot0.Listeners = {
 	onTaskUpdate = "OnTaskUpdate"
 }
 
-function slot0.Setup(slot0, slot1)
-	slot0.task = slot1
-
+function slot0.Build(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
-	slot0:Init()
+	slot0:Init(slot1)
 end
 
 function slot0.Dispose(slot0)
@@ -33,8 +31,8 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0)
-	slot1 = slot0.transform
+function slot0.Init(slot0, slot1)
+	slot0.transform = slot1
 	slot0.rtType = slot1:Find("type")
 	slot0.rtRarity = slot1:Find("rarity")
 	slot0.rtName = slot1:Find("name")
@@ -46,6 +44,10 @@ function slot0.Init(slot0)
 	slot0.txProgress = slot1:Find("name/slider_progress")
 	slot0.rfAwardPanle = slot1:Find("award_panel/content")
 	slot0.rfItemTpl = slot1:Find("item_tpl")
+end
+
+function slot0.Setup(slot0, slot1)
+	slot0.task = slot1
 
 	slot0:OnTaskUpdate()
 end

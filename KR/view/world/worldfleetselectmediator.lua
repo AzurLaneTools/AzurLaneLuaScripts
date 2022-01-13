@@ -185,10 +185,22 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.WORLD_ACTIVATE_DONE then
-		if slot3.result == 0 then
-			slot0:SetFleetSuccess()
+		slot5 = {}
+
+		if nowWorld():IsSystemOpen(WorldConst.SystemDailyTask) then
+			table.insert(slot5, function (slot0)
+				uv0:GetTaskProxy():checkDailyTask(slot0)
+			end)
 		end
-	elseif slot2 == GAME.WORLD_FLEET_REDEPLOY_DONE then
+
+		seriesAsync(slot5, function ()
+			uv0:SetFleetSuccess()
+		end)
+
+		return
+	end
+
+	if slot2 == GAME.WORLD_FLEET_REDEPLOY_DONE then
 		slot0:SetFleetSuccess()
 	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
 		slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())

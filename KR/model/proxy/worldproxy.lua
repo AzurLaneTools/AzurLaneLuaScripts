@@ -569,7 +569,7 @@ function slot0.NetUpdateWorldPressingAward(slot0, slot1)
 end
 
 function slot0.NetUpdateWorldPortTaskMark(slot0, slot1)
-	slot0.world:GetAtlas():SetPortTaskList(slot1)
+	slot0.world:GetAtlas():SetPortMarkList(slot1)
 end
 
 function slot0.NetBuildSalvageUpdate(slot0, slot1)

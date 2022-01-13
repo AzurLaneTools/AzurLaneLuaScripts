@@ -12451,6 +12451,178 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100160] = {
+		map = 2100160,
+		name = "디바인 트래지코미디·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		ani_name = "map_1240001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1240001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100170,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100161] = {
+		map = 2100161,
+		name = "디바인 트래지코미디·하편| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		ani_name = "map_1240005",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1240005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100171,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100170] = {
+		map = 2100170,
+		name = "디바인 트래지코미디·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		ani_name = "map_1240003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1240003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100160,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100171] = {
+		map = 2100171,
+		name = "디바인 트래지코미디·하편| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		ani_name = "map_1240006",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1240006",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100161,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -13111,6 +13283,10 @@ pg.expedition_data_by_map = {
 		2100141,
 		2100150,
 		2100151,
+		2100160,
+		2100161,
+		2100170,
+		2100171,
 		2200000,
 		2200010,
 		2200020,

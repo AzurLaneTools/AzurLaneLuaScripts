@@ -240,7 +240,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EXIT_SHIP_DONE,
 		GAME.LOAD_LAYERS,
 		GAME.REMOVE_LAYERS,
-		BackYardMediator.GO_CHARGE
+		BackYardMediator.GO_CHARGE,
+		GAME.ON_APPLICATION_PAUSE
 	}
 end
 
@@ -355,6 +356,8 @@ function slot0.handleNotification(slot0, slot1)
 				wrap = ChargeScene.TYPE_GIFT
 			})
 		end
+	elseif slot2 == GAME.ON_APPLICATION_PAUSE and slot3 == true and slot0.viewComponent.view then
+		slot0.viewComponent.view:OnApplicationPause()
 	end
 end
 

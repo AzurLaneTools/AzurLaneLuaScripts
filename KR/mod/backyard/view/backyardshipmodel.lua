@@ -233,7 +233,7 @@ function slot0.addBoatDragListenter(slot0)
 
 		uv0.viewComponent.dragShip = slot0
 
-		uv0.viewComponent:enableZoom(false)
+		uv0.viewComponent:enableZoom(false, true)
 
 		uv0.onDrag = true
 
@@ -241,6 +241,7 @@ function slot0.addBoatDragListenter(slot0)
 
 		uv1 = uv0.boatVO:getPosition()
 		uv0.isMove = nil
+		uv0.prevPos = uv1
 
 		if uv0.boatVO:hasSpineInterAction() then
 			uv0:breakSpineAnim()
@@ -281,15 +282,20 @@ function slot0.addBoatDragListenter(slot0)
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
 		if uv0.viewComponent.dragShip == slot0 then
-			uv0.onDrag = false
-			uv0.viewComponent.dragShip = nil
-
-			uv0.viewComponent:enableZoom(true)
-			uv0:endDrag(uv2, uv1.getMapPos(uv1.change2ScrPos(uv0.floorGrid, slot1.position)))
-			uv0:updateShadowPos()
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_DRAG)
+			uv0:OnDragEnd(uv2, uv1.getMapPos(uv1.change2ScrPos(uv0.floorGrid, slot1.position)))
 		end
 	end)
+end
+
+function slot0.OnDragEnd(slot0, slot1, slot2)
+	slot0.prevPos = nil
+	slot0.onDrag = false
+	slot0.viewComponent.dragShip = nil
+
+	slot0.viewComponent:enableZoom(true, true)
+	slot0:endDrag(slot1, slot2)
+	slot0:updateShadowPos()
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_DRAG)
 end
 
 function slot0.endDrag(slot0, slot1, slot2)
@@ -1824,6 +1830,12 @@ end
 
 function slot0.SetParent(slot0, slot1, slot2)
 	slot0.tf:SetParent(slot1, slot2)
+end
+
+function slot0.OnApplicationPause(slot0)
+	if slot0.onDrag then
+		slot0:OnDragEnd(slot0.prevPos, Vector2(-1, -1))
+	end
 end
 
 return slot0

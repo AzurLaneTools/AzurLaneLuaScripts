@@ -278914,6 +278914,510 @@ pg.ship_data_statistics = {
 			"Helena"
 		}
 	},
+	[9704011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "그나이제나우·META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704010,
+		english_name = "Gneisenau.META",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1288,
+			74,
+			31,
+			54,
+			0,
+			60,
+			0,
+			16,
+			6,
+			31,
+			64,
+			0
+		},
+		attrs_growth = {
+			22167,
+			932,
+			430,
+			715,
+			0,
+			418,
+			0,
+			244,
+			170,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"GneisenauMETA",
+			"Gneisenau"
+		}
+	},
+	[9704012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "그나이제나우·META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704010,
+		english_name = "Gneisenau.META",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1602,
+			92,
+			39,
+			67,
+			0,
+			60,
+			0,
+			16,
+			6,
+			31,
+			64,
+			0
+		},
+		attrs_growth = {
+			22167,
+			932,
+			430,
+			715,
+			0,
+			418,
+			0,
+			244,
+			170,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"GneisenauMETA",
+			"Gneisenau"
+		}
+	},
+	[9704013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "그나이제나우·META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704010,
+		english_name = "Gneisenau.META",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2230,
+			129,
+			54,
+			94,
+			0,
+			60,
+			0,
+			16,
+			6,
+			31,
+			64,
+			0
+		},
+		attrs_growth = {
+			22167,
+			932,
+			430,
+			715,
+			0,
+			418,
+			0,
+			244,
+			170,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			446
+		},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"GneisenauMETA",
+			"Gneisenau"
+		}
+	},
+	[9704014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "그나이제나우·META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704010,
+		english_name = "Gneisenau.META",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3172,
+			184,
+			77,
+			133,
+			0,
+			60,
+			0,
+			16,
+			6,
+			31,
+			64,
+			0
+		},
+		attrs_growth = {
+			22167,
+			932,
+			430,
+			715,
+			0,
+			418,
+			0,
+			244,
+			170,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			446
+		},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"GneisenauMETA",
+			"Gneisenau"
+		}
+	},
 	[9705011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -319069,6 +319573,10 @@ pg.ship_data_statistics = {
 		9702012,
 		9702013,
 		9702014,
+		9704011,
+		9704012,
+		9704013,
+		9704014,
 		9705011,
 		9705012,
 		9705013,

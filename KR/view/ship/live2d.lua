@@ -129,7 +129,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 		uv0(uv1, slot0)
 
 		if uv2 then
-			uv2()
+			uv2(uv1)
 		end
 	end)
 

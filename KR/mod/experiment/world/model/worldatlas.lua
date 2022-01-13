@@ -6,18 +6,18 @@ slot0.Fields = {
 	config = "table",
 	costMapDic = "table",
 	mapDic = "table",
+	transportDic = "table",
 	activeEntranceId = "number",
-	areaEntranceList = "table",
 	pressingMapList = "table",
 	portEntranceList = "table",
 	activeMapId = "number",
 	taskMarkDic = "table",
 	world = "table",
-	transportDic = "table",
+	markPortDic = "table",
 	treasureMarkDic = "table",
 	id = "number",
 	entranceDic = "table",
-	taskPortDic = "table",
+	areaEntranceList = "table",
 	mapEntrance = "table"
 }
 slot0.EventUpdateProgress = "WorldAtlas.EventUpdateProgress"
@@ -25,7 +25,7 @@ slot0.EventUpdateActiveEntrance = "WorldAtlas.EventUpdateActiveEntrance"
 slot0.EventUpdateActiveMap = "WorldAtlas.EventUpdateActiveMap"
 slot0.EventAddPressingMap = "WorldAtlas.EventAddPressingMap"
 slot0.EventAddPressingEntrance = "WorldAtlas.EventAddPressingEntrance"
-slot0.EventUpdatePortTaskMark = "WorldAtlas.EventUpdatePortTaskMark"
+slot0.EventUpdatePortMark = "WorldAtlas.EventUpdatePortMark"
 slot0.ScaleShrink = 1
 slot0.ScaleFull = 2
 slot0.ScaleExpand = 3
@@ -54,7 +54,7 @@ function slot0.Build(slot0)
 	slot0.costMapDic = {}
 	slot0.pressingMapList = {}
 	slot0.transportDic = {}
-	slot0.taskPortDic = {}
+	slot0.markPortDic = {}
 end
 
 function slot0.Dispose(slot0)
@@ -419,24 +419,24 @@ function slot0.UpdateCostMap(slot0, slot1, slot2)
 	slot0.costMapDic[slot1] = slot2
 end
 
-function slot0.SetPortTaskList(slot0, slot1)
-	slot0.taskPortDic = {}
+function slot0.SetPortMarkList(slot0, slot1)
+	slot0.markPortDic = {}
 
 	for slot5, slot6 in ipairs(slot1) do
-		slot0.taskPortDic[slot6] = true
+		slot0.markPortDic[slot6] = true
 	end
 end
 
-function slot0.UpdatePortTaskMark(slot0, slot1, slot2)
-	if tobool(slot0.taskPortDic[slot1]) ~= slot2 then
-		slot0.taskPortDic[slot1] = slot2
+function slot0.UpdatePortMark(slot0, slot1, slot2)
+	if tobool(slot0.markPortDic[slot1]) ~= slot2 then
+		slot0.markPortDic[slot1] = slot2
 		slot3 = {}
 
 		for slot7, slot8 in ipairs(slot0.portEntranceList[slot1]) do
 			slot3[slot8] = true
 		end
 
-		slot0:DispatchEvent(uv0.EventUpdatePortTaskMark, slot3)
+		slot0:DispatchEvent(uv0.EventUpdatePortMark, slot3)
 	end
 end
 

@@ -102,7 +102,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 		setActive(uv0._spinePaintingData.effectParent, true)
 
 		if uv1 then
-			uv1()
+			uv1(uv0)
 		end
 	end)
 end

@@ -3222,7 +3222,7 @@ _G.pg.gametip.levelScene_escort_help_tip = {
 			info = "상선 호위 플레이 방법"
 		},
 		{
-			info = " 1. 개최 기간: 7월 8일~7월 15일；"
+			info = " 1. 개최 기간: 1월 13일~1월 27일；"
 		},
 		{
 			info = " 2. 상선 호위는 출현하는 적 함대와 기뢰에 대처하여  수송선단이 목표 지점에 도착할 때까지 호위하는 스테이지입니다."
@@ -3886,6 +3886,18 @@ _G.pg.gametip.world_task_refuse1 = {
 	tip = "임무 수령 최대치 도달. 우선 기존의 임무를 완료 후 다시 수령해 주세요."
 }
 
+_G.pg.gametip.world_daily_task_lock = {
+	tip = "메인 제4장 완료 후 데일리 임무가 오픈됩니다."
+}
+
+_G.pg.gametip.world_daily_task_none = {
+	tip = "수령 가능한 임무가 없습니다."
+}
+
+_G.pg.gametip.world_daily_task_none_2 = {
+	tip = "No missions currently available"
+}
+
 _G.pg.gametip.world_sairen_title = {
 	tip = "세이렌 통제력"
 }
@@ -3928,7 +3940,7 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 비콘·META 기능 설명
 
-1. <color=#92fc63>2021.10.14-2022.1.13점점 전</color>까지 「소류·META」의 도전이 한정개방됩니다. 「소류·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「소류·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
+1. <color=#92fc63>2022.1.13-2022.4.14점점 전</color>까지 「소류·META」의 도전이 한정개방됩니다. 「소류·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「소류·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
  <color=#ff5c5c>주의: 동기화 수치는 기간 종료 후 사라집니다.</color>
 
 2. 「비콘 데이터」 획득 및 분석
@@ -9409,15 +9421,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "가스코뉴(μ장비)、아드미랄 히퍼(μ장비) 건조추가！"
+	tip = "폴라, 차라, 리토리오 건조추가！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "클리블랜드(μ장비) 건조추가！"
+	tip = "빈첸초 조베르티 건조추가！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "아카기(μ장비) 건조추가！"
+	tip = "포미더블 건조추가！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -16533,9 +16545,9 @@ _G.pg.gametip.meta_help = {
 		{
 			info = [[
 1. <color=#92fc63>정보 동기화</color>
-·<color=#92fc63>2021.10.14-2022.1.13점점 전</color>까지 「소류·META」의 「정보 동기화」가한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「소류·META」 캐릭터</color>를 획득할 수 있습니다.
+·<color=#92fc63>2022.1.134-2022.4.14점점 전</color>까지 「그나이제나우·META」의 「정보 동기화」가한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「그나이제나우·META」 캐릭터</color>를 획득할 수 있습니다.
 ·META 캐릭터 획득 후 캐릭터의 <color=#92fc63>「정보 동기화」</color> 모듈을 통해<color=#92fc63>기재된 시간</color> 동안 계속해서 육성 재료를 포함한 풍성한 보상을 획득할 수 있습니다.
-·주의:<color=#ff5c5c>「소류·META」의 「정보 동기화」는 기간 종료 후 잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
+·주의:<color=#ff5c5c>「그나이제나우·META」의 「정보 동기화」는 기간 종료 후 잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
 
 2. <color=#92fc63>에너지 활성화</color>
 ·META 캐릭터가 지정된 레벨에 도달하면 해당되는 캐릭터 결정을 사용해 활성화를 진행할 수 있습니다. 활성화 후 캐릭터의 성급이 상승합니다.
@@ -18797,4 +18809,44 @@ _G.pg.gametip.help_xinnian2022_firework = {
 6. 당일 세팅한 폭죽을 재세팅하려면 폭죽 공방에서 다시 세팅하기 버튼을 터치해야 합니다.]]
 		}
 	}
+}
+
+_G.pg.gametip.player_manifesto_placeholder = {
+	tip = "터치하여 서명 수정..."
+}
+
+_G.pg.gametip.box_ship_del_click = {
+	tip = ""
+}
+
+_G.pg.gametip.box_equipment_del_click = {
+	tip = ""
+}
+
+_G.pg.gametip.change_player_name_title = {
+	tip = "이름 변경"
+}
+
+_G.pg.gametip.change_player_name_subtitle = {
+	tip = "이름을 입력하세요."
+}
+
+_G.pg.gametip.change_player_name_input_tip = {
+	tip = "닉네임 입력"
+}
+
+_G.pg.gametip.tactics_class_start = {
+	tip = "수업 시작"
+}
+
+_G.pg.gametip.tactics_class_cancel = {
+	tip = "취소"
+}
+
+_G.pg.gametip.tactics_class_get_exp = {
+	tip = "스킬 경험치 획득"
+}
+
+_G.pg.gametip.tactics_class_spend_time = {
+	tip = "소요 시간"
 }

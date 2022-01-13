@@ -374,6 +374,10 @@ function slot0.getShipById(slot0, slot1)
 	end
 end
 
+function slot0.RawGetShipById(slot0, slot1)
+	return slot0.data[slot1]
+end
+
 function slot0.getMetaShipByGroupId(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6:isMetaShip() and slot6.metaCharacter.id == slot1 then
@@ -500,6 +504,33 @@ function slot0.getBayPower(slot0)
 	end
 
 	return slot2
+end
+
+function slot0.GetBayPowerRootedAsyn(slot0, slot1)
+	slot2 = nil
+
+	coroutine.wrap(function ()
+		slot0 = {}
+		slot1 = 0
+		slot2 = 0
+
+		for slot6, slot7 in pairs(uv0.data) do
+			slot8 = slot7.configId
+			slot9 = slot7:getShipCombatPower()
+
+			if defaultValue(uv0.handbookTypeAssign[slot7:getGroupId()], 0) ~= 1 and (not slot0[slot8] or slot0[slot8] < slot9) then
+				slot0[slot8] = slot9
+				slot1 = slot1 - defaultValue(slot0[slot8], 0) + slot9
+			end
+
+			if slot2 + 1 == 1 or slot2 % 50 == 0 then
+				onNextTick(uv1)
+				coroutine.yield()
+			end
+		end
+
+		uv2(slot1^0.667)
+	end)()
 end
 
 function slot0.getBayPowerRooted(slot0)

@@ -32,7 +32,7 @@ function slot0.init(slot0)
 	slot0.metaBtn = slot0:findTF("meta_btn", slot0.bg)
 	slot0.metaBtnTip = slot0.metaBtn:Find("word/tip")
 
-	setActive(slot0.metaBtn, not LOCK_META)
+	setActive(slot0.metaBtn, not LOCK_META and not pg.SdkMgr.GetInstance():CheckAudit())
 
 	slot0.helpBtn = slot0:findTF("help_btn")
 	slot0.lockedTpl = slot0:findTF("lockedTpl")

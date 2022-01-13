@@ -413,6 +413,7 @@ slot0.SystemResetShop = 18
 slot0.SystemAutoFight_1 = 19
 slot0.SystemAutoFight_2 = 20
 slot0.SystemAutoSwitch = 21
+slot0.SystemDailyTask = 22
 
 function slot0.BuildHelpTips(slot0)
 	slot1 = i18n("world_stage_help")

@@ -26,10 +26,10 @@ slot0.prefabName = {
 	task_main = "DSJ_BX05_3D",
 	task = "DSJ_BX03_3D",
 	port_gray_2 = "mark_port_gray_2",
-	port_task = "mark_port_task",
 	port_2 = "mark_port_2",
 	buff_d = "buff_d",
 	task_following_main = "DSJ_BX05_3D",
+	port_mark = "mark_port_tip",
 	buff_a = "buff_a",
 	treasure_sairen = "DSJ_BX06_3D",
 	buff_h = "buff_h",
@@ -188,7 +188,7 @@ end
 function slot0.UpdatePort(slot0, slot1, slot2)
 	slot0:DoUpdateMark("port_" .. slot0.portCamp, slot1)
 	slot0:DoUpdateMark("port_gray_" .. slot0.portCamp, not slot1)
-	slot0:DoUpdateMark("port_task", slot2)
+	slot0:DoUpdateMark("port_mark", slot2)
 end
 
 function slot0.UpdatePressingAward(slot0)

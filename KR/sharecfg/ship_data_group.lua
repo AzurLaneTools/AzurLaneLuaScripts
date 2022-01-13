@@ -9345,6 +9345,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16996,6 +17007,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17120,6 +17141,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17182,6 +17214,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17213,6 +17255,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17242,6 +17295,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 디바인 트래지코미디",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -17306,6 +17370,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17337,6 +17412,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17366,6 +17451,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 디바인 트래지코미디",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21153,6 +21249,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30007] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30007,
+		code = 30007,
+		group_type = 970401,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: META 연구실-정보 동기화",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704011
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -21683,6 +21813,7 @@ pg.ship_data_group = {
 		30003,
 		30004,
 		30005,
-		30006
+		30006,
+		30007
 	}
 }

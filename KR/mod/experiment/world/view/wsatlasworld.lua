@@ -14,8 +14,8 @@ slot0.Fields = {
 	twFocusIds = "table"
 }
 slot0.Listeners = {
-	onUpdatePortTaskMark = "OnUpdatePortTaskMark",
 	onUpdateActiveEntrance = "OnUpdateActiveEntrance",
+	onUpdatePortMark = "OnUpdatePortMark",
 	onUpdatePressingAward = "OnUpdatePressingAward",
 	onUpdateProgress = "OnUpdateProgress"
 }
@@ -57,7 +57,7 @@ end
 
 function slot0.AddAtlasListener(slot0)
 	if slot0.atlas then
-		slot0.atlas:AddListener(WorldAtlas.EventUpdatePortTaskMark, slot0.onUpdatePortTaskMark)
+		slot0.atlas:AddListener(WorldAtlas.EventUpdatePortMark, slot0.onUpdatePortMark)
 	end
 
 	uv0.super.AddAtlasListener(slot0)
@@ -65,7 +65,7 @@ end
 
 function slot0.RemoveAtlasListener(slot0)
 	if slot0.atlas then
-		slot0.atlas:RemoveListener(WorldAtlas.EventUpdatePortTaskMark, slot0.onUpdatePortTaskMark)
+		slot0.atlas:RemoveListener(WorldAtlas.EventUpdatePortMark, slot0.onUpdatePortMark)
 	end
 
 	uv0.super.RemoveAtlasListener(slot0)
@@ -256,7 +256,7 @@ function slot0.UpdateEntranceMask(slot0, slot1)
 	slot2 = slot0.entranceTplDic[slot1.id]
 
 	if slot1:HasPort() then
-		slot2:UpdatePort(slot0.atlas.transportDic[slot1.id], slot0.atlas.taskPortDic[slot1:GetPortId()])
+		slot2:UpdatePort(slot0.atlas.transportDic[slot1.id], slot0.atlas.markPortDic[slot1:GetPortId()])
 	end
 
 	uv0.super.UpdateEntranceMask(slot0, slot1)
@@ -320,12 +320,12 @@ function slot0.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
 	uv0.super.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
 end
 
-function slot0.OnUpdatePortTaskMark(slot0, slot1, slot2, slot3)
+function slot0.OnUpdatePortMark(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in pairs(slot3) do
 		if slot8 then
 			slot9 = slot0.atlas:GetEntrance(slot7)
 
-			slot0.entranceTplDic[slot7]:UpdatePort(slot0.atlas.transportDic[slot9.id], slot0.atlas.taskPortDic[slot9:GetPortId()])
+			slot0.entranceTplDic[slot7]:UpdatePort(slot0.atlas.transportDic[slot9.id], slot0.atlas.markPortDic[slot9:GetPortId()])
 		end
 	end
 end
