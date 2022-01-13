@@ -16818,7 +16818,7 @@ _G.pg.gametip.cartoon_haveno = {
 }
 
 _G.pg.gametip.res_cartoon_new_tip = {
-	tip = "本次更新新增了17張漫畫"
+	tip = "本次更新新增了$1張漫畫"
 }
 
 _G.pg.gametip.memory_actiivty_ex = {

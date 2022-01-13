@@ -75,9 +75,10 @@ end
 
 function slot0.UpdatePositionForHrz(slot0)
 	slot1 = slot0.startPos
+	slot3 = 0
 	slot0.tf.anchorMax = Vector2(0, 0)
 	slot0.tf.anchorMin = Vector2(0, 0)
-	slot0.tf.anchoredPosition = Vector2((slot0.index - 1) * (slot0.tf.sizeDelta.x + 20) + slot1.x, slot1.y)
+	slot0.tf.anchoredPosition = Vector2((slot0.index - 1) * ((PLATFORM_CODE == PLATFORM_US and 340 or slot0.tf.sizeDelta.x) + 20) + slot1.x, slot1.y)
 end
 
 function slot0.UpdatePositionForVec(slot0)
