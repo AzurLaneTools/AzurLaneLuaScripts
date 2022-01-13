@@ -64,6 +64,10 @@ function slot0.init(slot0)
 	slot0.topFrame = slot0:findTF("top/frame")
 
 	LoadSpriteAsync("CommonBG/bg_admiral", function (slot0)
+		if IsNil(uv0.bg) then
+			return
+		end
+
 		slot1 = uv0.bg:GetComponent(typeof(Image))
 		slot1.sprite = slot0
 		slot1.color = Color.New(1, 1, 1, 1)
@@ -139,13 +143,18 @@ end
 function slot0.UpdatePainting(slot0)
 	slot1 = slot0:GetFlagShip()
 	slot2 = 0
+	slot3 = nil
 
-	for slot6, slot7 in ipairs(slot0.btns) do
-		if slot7:IsActive(slot1) then
+	for slot7, slot8 in ipairs(slot0.btns) do
+		if slot8:IsActive(slot1) then
 			slot2 = slot2 + 1
 		end
 
-		slot7:Update(slot8, slot2, slot1)
+		slot8:Update(slot9, slot2, slot1, slot3)
+
+		if slot9 then
+			slot3 = slot8
+		end
 	end
 
 	if not slot0.displaySkinID or slot0.displaySkinID ~= slot1.skinId then
