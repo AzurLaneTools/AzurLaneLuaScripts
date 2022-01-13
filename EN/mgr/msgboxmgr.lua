@@ -34,6 +34,7 @@ MSGBOX_TYPE_WORLD_STAMINA_EXCHANGE = 14
 MSGBOX_TYPE_STORY_CANCEL_TIP = 15
 MSGBOX_TYPE_META_SKILL_UNLOCK = 16
 MSGBOX_TYPE_SUBPATTERN = 17
+MSGBOX_TYPE_ACCOUNTDELETE = 18
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -1205,6 +1206,8 @@ function slot1.ShowMsgBox(slot0, slot1)
 		slot0:GetPanel(MetaSkillUnlockPanel).buffer:UpdateView(slot1)
 	elseif slot2 == MSGBOX_TYPE_SUBPATTERN then
 		slot0:GetPanel(slot1.patternClass).buffer:UpdateView(slot1)
+	elseif slot2 == MSGBOX_TYPE_ACCOUNTDELETE then
+		slot0:GetPanel(AccountDeletePanel).buffer:UpdateView(slot1)
 	end
 end
 

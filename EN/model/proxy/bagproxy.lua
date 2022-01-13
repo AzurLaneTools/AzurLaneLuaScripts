@@ -84,6 +84,16 @@ function slot0.getItemsByType(slot0, slot1)
 	return Clone(slot2)
 end
 
+function slot0.ExitTypeItems(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6:getConfig("type") == slot1 and slot6.count > 0 then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.GetItemsByCondition(slot0, slot1)
 	slot2 = {}
 

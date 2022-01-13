@@ -153087,23 +153087,22 @@ _G.pg.world_event_data[7030023] = {
 }
 
 _G.pg.world_event_data[7030025] = {
-	visuality = 0,
-	compass_index = 5,
-	base = 26418,
-	enemyicon = 0,
-	icontype = 2,
-	obstacle = 3,
-	event_sight = -1,
-	icon = "hexinta_xiao3",
-	special_enemy = 0,
-	infection_value = 0,
 	auto_pri = 0,
 	discover_type = 2,
-	is_scanevent = 3,
+	special_enemy = 0,
+	is_scanevent = 0,
 	expedition_icon = 0,
+	enemyicon = 0,
 	is_guide = 0,
+	compass_index = 0,
+	icontype = 2,
+	visuality = 0,
+	obstacle = 3,
+	event_sight = -1,
 	id = 7030025,
+	icon = "hexinta_xiao3",
 	scale = 0,
+	infection_value = 0,
 	object_icon = {
 		"cell_purple",
 		1,
@@ -154803,7 +154802,7 @@ _G.pg.world_event_data[7031200] = {
 
 _G.pg.world_event_data[7032000] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -154866,7 +154865,7 @@ _G.pg.world_event_data[7032000] = {
 
 _G.pg.world_event_data[7032001] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -154928,7 +154927,7 @@ _G.pg.world_event_data[7032001] = {
 
 _G.pg.world_event_data[7032002] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -154990,7 +154989,7 @@ _G.pg.world_event_data[7032002] = {
 
 _G.pg.world_event_data[7032003] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -155053,7 +155052,7 @@ _G.pg.world_event_data[7032003] = {
 
 _G.pg.world_event_data[7032004] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -155115,7 +155114,7 @@ _G.pg.world_event_data[7032004] = {
 
 _G.pg.world_event_data[7032005] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -155177,7 +155176,7 @@ _G.pg.world_event_data[7032005] = {
 
 _G.pg.world_event_data[7032006] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -155240,7 +155239,7 @@ _G.pg.world_event_data[7032006] = {
 
 _G.pg.world_event_data[7032007] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -155302,7 +155301,7 @@ _G.pg.world_event_data[7032007] = {
 
 _G.pg.world_event_data[7032008] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -155364,7 +155363,7 @@ _G.pg.world_event_data[7032008] = {
 
 _G.pg.world_event_data[7032009] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -155427,7 +155426,7 @@ _G.pg.world_event_data[7032009] = {
 
 _G.pg.world_event_data[7032010] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -155489,7 +155488,7 @@ _G.pg.world_event_data[7032010] = {
 
 _G.pg.world_event_data[7032011] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -155551,7 +155550,7 @@ _G.pg.world_event_data[7032011] = {
 
 _G.pg.world_event_data[7032015] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -155613,7 +155612,7 @@ _G.pg.world_event_data[7032015] = {
 
 _G.pg.world_event_data[7032020] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -155673,7 +155672,7 @@ _G.pg.world_event_data[7032020] = {
 
 _G.pg.world_event_data[7032021] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -155732,7 +155731,7 @@ _G.pg.world_event_data[7032021] = {
 
 _G.pg.world_event_data[7032022] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -155791,7 +155790,7 @@ _G.pg.world_event_data[7032022] = {
 
 _G.pg.world_event_data[7032023] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -155851,7 +155850,7 @@ _G.pg.world_event_data[7032023] = {
 
 _G.pg.world_event_data[7032024] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -155910,7 +155909,7 @@ _G.pg.world_event_data[7032024] = {
 
 _G.pg.world_event_data[7032025] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -155969,7 +155968,7 @@ _G.pg.world_event_data[7032025] = {
 
 _G.pg.world_event_data[7032026] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -156029,7 +156028,7 @@ _G.pg.world_event_data[7032026] = {
 
 _G.pg.world_event_data[7032027] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -156088,7 +156087,7 @@ _G.pg.world_event_data[7032027] = {
 
 _G.pg.world_event_data[7032028] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -156147,7 +156146,7 @@ _G.pg.world_event_data[7032028] = {
 
 _G.pg.world_event_data[7032029] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -156207,7 +156206,7 @@ _G.pg.world_event_data[7032029] = {
 
 _G.pg.world_event_data[7032030] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -156266,7 +156265,7 @@ _G.pg.world_event_data[7032030] = {
 
 _G.pg.world_event_data[7032031] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -156325,7 +156324,7 @@ _G.pg.world_event_data[7032031] = {
 
 _G.pg.world_event_data[7032035] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -156384,7 +156383,7 @@ _G.pg.world_event_data[7032035] = {
 
 _G.pg.world_event_data[7032040] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -156441,7 +156440,7 @@ _G.pg.world_event_data[7032040] = {
 
 _G.pg.world_event_data[7032041] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -156498,7 +156497,7 @@ _G.pg.world_event_data[7032041] = {
 
 _G.pg.world_event_data[7032042] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -156555,7 +156554,7 @@ _G.pg.world_event_data[7032042] = {
 
 _G.pg.world_event_data[7032043] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -156612,7 +156611,7 @@ _G.pg.world_event_data[7032043] = {
 
 _G.pg.world_event_data[7032044] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -156669,7 +156668,7 @@ _G.pg.world_event_data[7032044] = {
 
 _G.pg.world_event_data[7032045] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -156726,7 +156725,7 @@ _G.pg.world_event_data[7032045] = {
 
 _G.pg.world_event_data[7032046] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -156783,7 +156782,7 @@ _G.pg.world_event_data[7032046] = {
 
 _G.pg.world_event_data[7032047] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -156840,7 +156839,7 @@ _G.pg.world_event_data[7032047] = {
 
 _G.pg.world_event_data[7032048] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -156897,7 +156896,7 @@ _G.pg.world_event_data[7032048] = {
 
 _G.pg.world_event_data[7032049] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031001,
 	enemyicon = 2,
 	icontype = 2,
@@ -156954,7 +156953,7 @@ _G.pg.world_event_data[7032049] = {
 
 _G.pg.world_event_data[7032050] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031002,
 	enemyicon = 2,
 	icontype = 2,
@@ -157011,7 +157010,7 @@ _G.pg.world_event_data[7032050] = {
 
 _G.pg.world_event_data[7032051] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,
@@ -157068,7 +157067,7 @@ _G.pg.world_event_data[7032051] = {
 
 _G.pg.world_event_data[7032055] = {
 	visuality = 0,
-	compass_index = 0,
+	compass_index = 4,
 	base = 7031003,
 	enemyicon = 2,
 	icontype = 2,

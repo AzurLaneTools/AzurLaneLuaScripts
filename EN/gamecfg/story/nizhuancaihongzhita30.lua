@@ -59,7 +59,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "铁血众人",
+			actorName = "Everyone",
 			hidePaintObj = true,
 			dir = 1,
 			say = "Yeah!",

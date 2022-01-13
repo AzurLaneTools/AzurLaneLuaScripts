@@ -22,6 +22,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
+	Input.multiTouchEnabled = false
+
 	slot0:initUITextTips()
 	slot0:initData()
 	slot0:findUI()
@@ -48,6 +50,8 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.willExit(slot0)
+	Input.multiTouchEnabled = true
+
 	slot0:overLayPanel(false)
 end
 

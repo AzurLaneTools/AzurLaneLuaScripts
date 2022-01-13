@@ -23,6 +23,9 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 
+			table.sort(slot2, function (slot0, slot1)
+				return slot1.damage < slot0.damage
+			end)
 			uv0:SetReportRankList(uv1, slot2)
 			uv2:sendNotification(GAME.GET_GUILD_REPORT_RANK_DONE, {
 				ranks = slot2

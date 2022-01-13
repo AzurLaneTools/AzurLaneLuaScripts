@@ -3470,7 +3470,7 @@ _G.pg.gametip.levelScene_escort_help_tip = {
 			info = "About Maritime Escort:"
 		},
 		{
-			info = "1.  This game mode will be available from Aug 12th to Aug 18th"
+			info = "1.  This game mode will be available from Jan 13th to Jan 26th"
 		},
 		{
 			info = "2. In this game mode, you'll play on a map where your goal is to neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination."
@@ -4151,6 +4151,18 @@ _G.pg.gametip.world_task_refuse1 = {
 	tip = "You cannot accept any more Daily Missions. "
 }
 
+_G.pg.gametip.world_daily_task_lock = {
+	tip = "Complete Chapter 4 of Operation Siren to unlock daily mission."
+}
+
+_G.pg.gametip.world_daily_task_none = {
+	tip = "No missions currently available."
+}
+
+_G.pg.gametip.world_daily_task_none_2 = {
+	tip = ""
+}
+
 _G.pg.gametip.world_sairen_title = {
 	tip = "Siren-Controlled "
 }
@@ -4193,7 +4205,7 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 About META Showdown:
 
-1. From <color=#92fc63>12/9/21 to 3/9/21</color>, challenge Gneisenau META
+1. From <color=#92fc63>12/9/21 to 3/9/22</color>, challenge Gneisenau META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Gneisenau META</color> as well
 as other great rewards.
@@ -9763,15 +9775,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "Bismarck and King George V added to standard build pool! "
+	tip = "Admiral Hipper µ and Gascogne µ added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "Hanazuki, Naganami, and more added to standard build pool! "
+	tip = "Cleveland µ added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "U-96, U-556 and U-73 added to standard build pool! "
+	tip = "Akagi µ added to standard build pool! "
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -19308,4 +19320,92 @@ The Fireworks Workshop allows you to create your own unique fireworks and send t
 5. If you wish to change the fireworks configuration, you will need to use the Fireworks Workshop again.]]
 		}
 	}
+}
+
+_G.pg.gametip.settings_title_account_del = {
+	tip = "Account"
+}
+
+_G.pg.gametip.settings_text_account_del = {
+	tip = "Account Deletion"
+}
+
+_G.pg.gametip.settings_text_account_del_desc = {
+	tip = "Deleting your account will erase your Azur Lane game progress across all servers. Any bind codes and other authentication data associated with accounts on third-party sites will also be deleted."
+}
+
+_G.pg.gametip.settings_text_account_del_confirm = {
+	tip = "Request received. Your account will be deleted soon."
+}
+
+_G.pg.gametip.settings_text_account_del_btn = {
+	tip = "Delete"
+}
+
+_G.pg.gametip.box_account_del_input = {
+	tip = "Write $1 in the box below to start the deletion process."
+}
+
+_G.pg.gametip.box_account_del_target = {
+	tip = "Delete"
+}
+
+_G.pg.gametip.box_account_del_click = {
+	tip = "Tap to write..."
+}
+
+_G.pg.gametip.box_account_del_success_content = {
+	tip = "Your account will be deleted in $1."
+}
+
+_G.pg.gametip.box_account_reborn_content = {
+	tip = "Your account is due to be deleted in $1 day(s). Logging in to the game will cancel your deletion request.\nLog in anyway?"
+}
+
+_G.pg.gametip.tip_account_del_dismatch = {
+	tip = "The data you input is incorrect."
+}
+
+_G.pg.gametip.tip_account_del_reborn = {
+	tip = "Your account deletion request has been canceled."
+}
+
+_G.pg.gametip.player_manifesto_placeholder = {
+	tip = "Write something..."
+}
+
+_G.pg.gametip.box_ship_del_click = {
+	tip = "Tap to input "
+}
+
+_G.pg.gametip.box_equipment_del_click = {
+	tip = "Tap to input "
+}
+
+_G.pg.gametip.change_player_name_title = {
+	tip = "Change Username"
+}
+
+_G.pg.gametip.change_player_name_subtitle = {
+	tip = "Write your username."
+}
+
+_G.pg.gametip.change_player_name_input_tip = {
+	tip = "Write your username."
+}
+
+_G.pg.gametip.tactics_class_start = {
+	tip = "Start"
+}
+
+_G.pg.gametip.tactics_class_cancel = {
+	tip = "Cancel"
+}
+
+_G.pg.gametip.tactics_class_get_exp = {
+	tip = "Skill EXP"
+}
+
+_G.pg.gametip.tactics_class_spend_time = {
+	tip = "Time Needed"
 }

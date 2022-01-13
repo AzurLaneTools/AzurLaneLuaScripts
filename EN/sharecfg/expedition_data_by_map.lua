@@ -735,7 +735,7 @@ pg.expedition_data_by_map = {
 		bg = "Map_12",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 212,
 		clouds_pos = {
 			{
 				332,
@@ -12107,6 +12107,49 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200040] = {
+		map = 2200040,
+		name = "Passionate Polaris|| ||CHAPTER SP||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "azumaster-ins",
+		enter_story = "",
+		ani_name = "Map_1260001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1260001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[9920001] = {
 		map = 9920001,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
@@ -12544,6 +12587,7 @@ pg.expedition_data_by_map = {
 		2200000,
 		2200010,
 		2200020,
+		2200040,
 		9920001,
 		9920002,
 		9920011,

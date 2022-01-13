@@ -6901,6 +6901,48 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4210] = {
+		mark = 20220113,
+		config_client = "",
+		title_res_tag = "u410victoryfuke_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4210,
+		is_show = 23,
+		id = 4210,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "U410VictoryPtPage",
+			ui_name = "U410VictoryPtPage"
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -9100,6 +9142,58 @@ pg.activity_template = {
 		config_client = "",
 		id = 100001,
 		config_data = {}
+	},
+	[100003] = {
+		mark = 20220113,
+		title_res_tag = "",
+		page_info = "",
+		type = 2,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 100003,
+		config_data = {
+			{
+				"escort_daily_count",
+				1
+			},
+			{
+				"escort_exp_id",
+				{
+					20013,
+					20014,
+					20015
+				}
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100004] = {
 		mark = 20211111,
@@ -25648,6 +25742,247 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30835] = {
+		mark = 20220113,
+		id = 30835,
+		title_res_tag = "chuixueouxiang",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 23,
+		config_data = {
+			{
+				17130,
+				17131
+			},
+			{
+				17132,
+				17133
+			},
+			{
+				17134,
+				17135
+			},
+			{
+				17136,
+				17137
+			},
+			{
+				17138,
+				17139
+			},
+			{
+				17140,
+				17141
+			},
+			{
+				17142,
+				17143
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "Chuixue7daySkinPage",
+			ui_name = "chuixue7dayskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"OUXIANGHUODONG1"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[30836] = {
+		mark = 20220113,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30836",
+		id = 30836,
+		time = {
+			timer,
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "U-96, U-556 and U-73 added to standard build pool! ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%"
+			}
+		}
+	},
+	[30837] = {
+		mark = 20220113,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30837",
+		id = 30837,
+		time = {
+			timer,
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Hanazuki, Naganami, and more added to standard build pool! ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%"
+			}
+		}
+	},
+	[30838] = {
+		mark = 20220113,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30838",
+		id = 30838,
+		time = {
+			timer,
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Rate UP for Gascogne μ, Akagi μ, Cleveland μ, and more!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"",
+				"<color=#d797ff>Elite</color>：12%",
+				"",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"",
+				"Common：30%",
+				"",
+				"<color=#ffde38>Gascogne μ</color>：2%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#ffde38>Akagi μ</color>：2%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#d797ff>Cleveland μ</color>：2.5%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#d797ff>Admiral Hipper μ</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -25836,6 +26171,7 @@ pg.activity_template = {
 		4207,
 		4208,
 		4209,
+		4210,
 		7001,
 		7002,
 		1040,
@@ -25892,6 +26228,7 @@ pg.activity_template = {
 		6008,
 		6009,
 		100001,
+		100003,
 		100004,
 		30001,
 		30002,
@@ -26485,6 +26822,10 @@ pg.activity_template = {
 		30831,
 		30832,
 		30833,
-		30834
+		30834,
+		30835,
+		30836,
+		30837,
+		30838
 	}
 }

@@ -38,6 +38,20 @@ function slot0.isDisCount(slot0)
 	end
 end
 
+function slot0.GetDiscountEndTime(slot0)
+	slot2, slot3 = unpack(slot0:getConfig("discount_time"))
+	slot5, slot6, slot7 = unpack(slot3[1])
+
+	return pg.TimeMgr.GetInstance():Table2ServerTime({
+		year = slot5,
+		month = slot6,
+		day = slot7,
+		hour = slot3[2][1],
+		min = slot3[2][2],
+		sec = slot3[2][3]
+	})
+end
+
 function slot0.IsGroupSale(slot0)
 	return slot0.type == Goods.TYPE_MILITARY and slot0:getConfig("group") > 0 and slot0:getConfig("limit_args2")[1][1] == "purchase"
 end

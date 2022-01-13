@@ -1,12 +1,16 @@
 slot0 = class("WorldTaskProxy", import("....BaseEntity"))
 slot0.Fields = {
-	list = "table",
 	itemListenerList = "table",
+	dailyTaskIds = "table",
+	dailyTimer = "table",
+	dailyTimeStemp = "number",
+	list = "table",
 	taskFinishCount = "number",
 	mapList = "table",
 	mapListenerList = "table"
 }
 slot0.EventUpdateTask = "WorldTaskProxy.EventUpdateTask"
+slot0.EventUpdateDailyTaskIds = "WorldTaskProxy.EventUpdateDailyTaskIds"
 
 function slot0.Build(slot0)
 	slot0.list = {}
@@ -112,7 +116,7 @@ function slot0.getTasks(slot0)
 end
 
 function slot0.getTaskVOs(slot0)
-	return _.values(slot0.list)
+	return underscore.values(slot0.list)
 end
 
 function slot0.getDoingTaskVOs(slot0)
@@ -139,6 +143,56 @@ end
 
 function slot0.riseTaskFinishCount(slot0)
 	slot0.taskFinishCount = slot0.taskFinishCount + 1
+end
+
+function slot0.getDailyTaskIds(slot0)
+	return underscore.rest(slot0.dailyTaskIds, 1)
+end
+
+function slot0.UpdateDailyTaskIds(slot0, slot1)
+	if slot0.dailyTaskIds ~= slot1 then
+		slot0.dailyTaskIds = slot1
+
+		slot0:DispatchEvent(uv0.EventUpdateDailyTaskIds)
+	end
+end
+
+function slot0.checkDailyTask(slot0, slot1)
+	slot2 = {}
+
+	if not slot0.dailyTimeStemp or slot0.dailyTimeStemp < pg.TimeMgr.GetInstance():GetServerTime() then
+		table.insert(slot2, function (slot0)
+			slot1 = pg.ConnectionMgr.GetInstance()
+
+			slot1:Send(33413, {
+				type = 0
+			}, 33414, function (slot0)
+				if slot0.result == 0 then
+					uv0.dailyTimeStemp = slot0.next_refresh_time
+
+					if uv0.dailyTimer then
+						uv0.dailyTimer:Stop()
+					end
+
+					uv0.dailyTimer = Timer.New(function ()
+						uv0:checkDailyTask()
+					end, uv0.dailyTimeStemp - pg.TimeMgr.GetInstance():GetServerTime() + 1)
+
+					uv0:UpdateDailyTaskIds(underscore.rest(slot0.task_list, 1))
+				else
+					pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+				end
+
+				uv1()
+			end)
+		end)
+	end
+
+	seriesAsync(slot2, slot1)
+end
+
+function slot0.canAcceptDailyTask(slot0)
+	return slot0.dailyTaskIds and #slot0.dailyTaskIds > 0 and pg.gameset.world_port_taskmax.key_value > #slot0:getDoingTaskVOs()
 end
 
 return slot0

@@ -63,20 +63,6 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "Under my tireless tutelage, she had managed to get her playful impulses under control, at least long enough to finish out a day's work.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
 			say = "But there was so much more to being a secretary ship. I still had much to teach her.",
 			typewriter = {
 				speed = 0.05,
