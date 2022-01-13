@@ -4833,10 +4833,18 @@ function temp()
 			},
 			["习"] = {
 				this = true
+			},
+			["覃"] = {
+				this = true
 			}
 		},
 		["岸"] = {
 			["英"] = {
+				this = true
+			}
+		},
+		["润"] = {
+			["之"] = {
 				this = true
 			}
 		},
@@ -5111,6 +5119,32 @@ function temp()
 			},
 			x = {
 				this = true
+			},
+			e = {
+				d = {
+					o = {
+						n = {
+							g = {
+								this = true
+							}
+						}
+					}
+				}
+			},
+			h = {
+				["?"] = {
+					e = {
+						d = {
+							o = {
+								n = {
+									g = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["太"] = {
@@ -5238,6 +5272,9 @@ function temp()
 				["夾"] = {
 					this = true
 				}
+			},
+			["覃"] = {
+				this = true
 			}
 		},
 		["左"] = {
@@ -5369,6 +5406,7 @@ function temp()
 		},
 		["风"] = {
 			["格"] = {
+				this = true,
 				["邓"] = {
 					["路"] = {
 						["线"] = {
@@ -7125,6 +7163,9 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["宇"] = {
+				this = true
 			}
 		},
 		["兴"] = {
@@ -7395,6 +7436,42 @@ function temp()
 						this = true
 					}
 				}
+			}
+		},
+		["党"] = {
+			this = true
+		},
+		["狗"] = {
+			this = true
+		},
+		["将"] = {
+			["军"] = {
+				this = true
+			}
+		},
+		["嫡"] = {
+			["孙"] = {
+				this = true
+			}
+		},
+		["少"] = {
+			["将"] = {
+				this = true
+			}
+		},
+		["东"] = {
+			["东"] = {
+				this = true
+			}
+		},
+		["咏"] = {
+			["芝"] = {
+				this = true
+			}
+		},
+		["伟"] = {
+			["人"] = {
+				this = true
 			}
 		}
 	}
@@ -9506,6 +9583,11 @@ function temp()
 						this = true
 					}
 				}
+			}
+		},
+		["悳"] = {
+			["懷"] = {
+				this = true
 			}
 		}
 	}

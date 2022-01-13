@@ -111,7 +111,7 @@ function slot0.update(slot0, slot1)
 			uv0.selectedItem = uv0.selectedItem or slot2
 		end
 	end)
-	slot0.ulist:align(#displays)
+	slot0.ulist:align(#slot0.displayDrops)
 	triggerToggle(slot0.selectedItem, true)
 	slot0:updateValue()
 	updateDrop(slot0.itemTF:Find("bg"), {

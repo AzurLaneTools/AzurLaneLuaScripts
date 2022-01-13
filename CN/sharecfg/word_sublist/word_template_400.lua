@@ -2258,9 +2258,20 @@ temp()
 function temp()
 	uv0["矮"] = {
 		["子"] = {
-			this = true
+			this = true,
+			["凳"] = {
+				this = true
+			}
 		},
 		["邓"] = {
+			["儿"] = {
+				this = true
+			}
+		},
+		["凳"] = {
+			["二"] = {
+				this = true
+			},
 			["儿"] = {
 				this = true
 			}
@@ -2675,6 +2686,39 @@ function temp()
 				["的"] = {
 					["飯"] = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["潤"] = {
+		["之"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["?"] = {
+		i = {
+			["老"] = {
+				["毛"] = {
+					this = true
+				}
+			},
+			["习"] = {
+				["氏"] = {
+					["甲"] = {
+						["虫"] = {
+							this = true
+						}
 					}
 				}
 			}

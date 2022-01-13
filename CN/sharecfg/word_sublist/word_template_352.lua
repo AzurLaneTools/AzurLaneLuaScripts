@@ -184,6 +184,9 @@ function temp()
 		},
 		["星"] = {
 			this = true
+		},
+		["之"] = {
+			this = true
 		}
 	}
 end

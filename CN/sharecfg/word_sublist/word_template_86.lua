@@ -662,6 +662,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["消"] = {
+			["病"] = {
+				this = true
+			}
 		}
 	}
 end

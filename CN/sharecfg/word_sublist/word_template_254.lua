@@ -274,6 +274,11 @@ function temp()
 			["進"] = {
 				this = true
 			}
+		},
+		["+"] = {
+			["溫"] = {
+				this = true
+			}
 		}
 	}
 end

@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "我的命运已经糟糕透顶……说实话，我本想把今天当成为铁血进忠的最后一天呢。",
+			say = "我的命运已经糟糕透顶……说实话，我本想把今天当成为铁尽忠的最后一天呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

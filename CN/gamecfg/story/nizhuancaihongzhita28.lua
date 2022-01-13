@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在的我看起来也没什么拒绝的余地……前提是我们能平安离开这里话。",
+			say = "现在的我看起来也没什么拒绝的余地……前提是我们能平安离开这里。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

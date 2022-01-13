@@ -368,6 +368,9 @@ function temp()
 			},
 			["片"] = {
 				this = true
+			},
+			["毛"] = {
+				this = true
 			}
 		},
 		["-"] = {

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔内测·未知海域",
+			say = "米德加尔特之塔内侧·未知海域",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,

@@ -32,6 +32,16 @@ function temp()
 			["祭"] = {
 				this = true
 			}
+		},
+		["恩"] = {
+			["來"] = {
+				this = true
+			}
+		},
+		["總"] = {
+			["理"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -54,6 +64,9 @@ function temp()
 			["鷄"] = {
 				this = true
 			}
+		},
+		["悳"] = {
+			this = true
 		}
 	}
 end

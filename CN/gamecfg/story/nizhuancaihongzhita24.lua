@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错，听说拉沃斯是在仲裁机关里也是相当难以应付的一类。",
+			say = "没错，听说拉沃斯在仲裁机关里也是相当难以应付的一类。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

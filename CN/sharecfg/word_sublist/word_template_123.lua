@@ -121,6 +121,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["劒"] = {
+			["英"] = {
+				this = true
+			}
 		}
 	}
 end

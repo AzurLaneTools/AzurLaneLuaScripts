@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "但是敌人正从四面八方出现源源不断的出现，炮击的频率却在变得越来越慢。",
+			say = "但是敌人正从四面八方源源不断的出现，炮击的频率却在变得越来越慢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

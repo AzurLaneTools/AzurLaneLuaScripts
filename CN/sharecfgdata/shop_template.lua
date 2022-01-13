@@ -4359,6 +4359,110 @@ _G.pg.shop_template[43015] = {
 	}
 }
 
+_G.pg.shop_template[43016] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "20000功勋兑换利托里奥",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 3,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43016,
+	resource_num = 20000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		605021
+	}
+}
+
+_G.pg.shop_template[43017] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "8000功勋兑换龙骑兵",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43017,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		601021
+	}
+}
+
+_G.pg.shop_template[43018] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "5000功勋兑换特伦托",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 5,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43018,
+	resource_num = 5000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		603011
+	}
+}
+
+_G.pg.shop_template[43019] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "5000功勋兑换加富尔伯爵",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 5,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43019,
+	resource_num = 5000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		605051
+	}
+}
+
 _G.pg.shop_template[50002] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -23561,7 +23665,7 @@ _G.pg.shop_template[70228] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 20,
+	order = 2,
 	time = "stop",
 	group = 0,
 	num = 1,
@@ -23587,7 +23691,7 @@ _G.pg.shop_template[70229] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 20,
+	order = 1,
 	time = "stop",
 	group = 0,
 	num = 1,
@@ -23613,7 +23717,7 @@ _G.pg.shop_template[70230] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 20,
+	order = 2,
 	time = "stop",
 	group = 0,
 	num = 1,
@@ -23639,7 +23743,7 @@ _G.pg.shop_template[70231] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 20,
+	order = 3,
 	time = "stop",
 	group = 0,
 	num = 1,
@@ -23665,8 +23769,7 @@ _G.pg.shop_template[70232] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 20,
-	time = "stop",
+	order = 3,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -23677,6 +23780,32 @@ _G.pg.shop_template[70232] = {
 	limit_args = {},
 	effect_args = {
 		601021
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				1,
+				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -23691,7 +23820,8 @@ _G.pg.shop_template[70233] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 3,
+	order = 4,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -23702,32 +23832,6 @@ _G.pg.shop_template[70233] = {
 	limit_args = {},
 	effect_args = {
 		605061
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

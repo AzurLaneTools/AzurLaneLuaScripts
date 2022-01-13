@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "去距离米德加尔特之塔还有一段距离，时间不多了，必须突破过去。",
+			say = "距离米德加尔特之塔还有一段距离，时间不多了，必须突破过去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

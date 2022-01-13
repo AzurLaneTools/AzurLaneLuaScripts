@@ -199,6 +199,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["英"] = {
+			this = true
 		}
 	}
 end

@@ -3118,7 +3118,7 @@ _G.pg.gametip.levelScene_escort_help_tip = {
 			info = "护航关卡说明 "
 		},
 		{
-			info = "    1. 商路护航的开放时间为8月12日~8月19日；"
+			info = "    1. 商路护航的开放时间为1月13日~1月27日；"
 		},
 		{
 			info = "    2.每日有一次挑战机会，不可累积，进入关卡时扣除次数。关卡分为简单，普通，困难三个难度，玩家进入关卡即消耗挑战次数；"
@@ -3795,6 +3795,18 @@ _G.pg.gametip.world_task_view3 = {
 
 _G.pg.gametip.world_task_refuse1 = {
 	tip = "任务已到达领取上限，请完成一些任务后再来领取吧"
+}
+
+_G.pg.gametip.world_daily_task_lock = {
+	tip = "完成主线第四章后将开启日常任务"
+}
+
+_G.pg.gametip.world_daily_task_none = {
+	tip = "指挥官，当前没有任务可以接取"
+}
+
+_G.pg.gametip.world_daily_task_none_2 = {
+	tip = "No missions currently available"
 }
 
 _G.pg.gametip.world_sairen_title = {
@@ -9677,15 +9689,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "加斯科涅（μ兵装）、希佩尔海军上将（μ兵装） 建造追加！"
+	tip = "波拉、扎拉、利托里奥等角色 建造追加！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "克利夫兰（μ兵装） 建造追加！"
+	tip = "文琴佐·焦贝蒂 建造追加！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "{namecode:176} 建造追加！"
+	tip = "可畏 建造追加！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -19171,4 +19183,44 @@ _G.pg.gametip.help_xinnian2022_firework = {
 6.当天配置好的烟花重新配置需要进入烟花工坊点击重新配置按钮]]
 		}
 	}
+}
+
+_G.pg.gametip.player_manifesto_placeholder = {
+	tip = "点击修改签名..."
+}
+
+_G.pg.gametip.box_ship_del_click = {
+	tip = "点击输入"
+}
+
+_G.pg.gametip.box_equipment_del_click = {
+	tip = "点击输入"
+}
+
+_G.pg.gametip.change_player_name_title = {
+	tip = "更改名字"
+}
+
+_G.pg.gametip.change_player_name_subtitle = {
+	tip = "请输入名字"
+}
+
+_G.pg.gametip.change_player_name_input_tip = {
+	tip = "输入名称"
+}
+
+_G.pg.gametip.tactics_class_start = {
+	tip = "开始课程"
+}
+
+_G.pg.gametip.tactics_class_cancel = {
+	tip = "取消"
+}
+
+_G.pg.gametip.tactics_class_get_exp = {
+	tip = "获得技能经验"
+}
+
+_G.pg.gametip.tactics_class_spend_time = {
+	tip = "消耗时间"
 }

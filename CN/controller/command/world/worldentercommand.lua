@@ -92,7 +92,17 @@ function slot0.AfterReq(slot0, slot1)
 		}) then
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
 		else
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+			slot1 = {}
+
+			if slot0:IsSystemOpen(WorldConst.SystemDailyTask) then
+				table.insert(slot1, function (slot0)
+					uv0:GetTaskProxy():checkDailyTask(slot0)
+				end)
+			end
+
+			seriesAsync(slot1, function ()
+				uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+			end)
 		end
 	end)
 end

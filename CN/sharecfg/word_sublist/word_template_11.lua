@@ -2121,6 +2121,7 @@ function temp()
 			}
 		},
 		["政"] = {
+			this = true,
 			["部"] = {
 				this = true
 			}

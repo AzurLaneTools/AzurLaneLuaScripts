@@ -322,6 +322,11 @@ function temp()
 		},
 		["霞"] = {
 			this = true
+		},
+		["少"] = {
+			["奇"] = {
+				this = true
+			}
 		}
 	}
 end

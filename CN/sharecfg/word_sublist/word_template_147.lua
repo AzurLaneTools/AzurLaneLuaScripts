@@ -219,6 +219,9 @@ function temp()
 			["主"] = {
 				["蓆"] = {
 					this = true
+				},
+				["席"] = {
+					this = true
 				}
 			}
 		},

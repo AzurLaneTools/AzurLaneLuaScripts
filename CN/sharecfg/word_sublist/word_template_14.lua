@@ -6463,6 +6463,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["毛"] = {
+			this = true
 		}
 	}
 end

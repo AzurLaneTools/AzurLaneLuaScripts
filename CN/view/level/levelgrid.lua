@@ -585,11 +585,12 @@ function slot0.InitFleetCell(slot0, slot1, slot2)
 	setParent(slot7, slot0.cellRoot, false)
 	setActive(slot7, true)
 
-	slot8 = nil
-	slot5 = ((slot4:getFleetType() ~= FleetType.Transport or TransportCellView) and (slot4:getFleetType() ~= FleetType.Submarine or SubCellView) and FleetCellView).New(slot7)
-	slot5.fleetType = slot4:getFleetType()
+	slot9 = nil
+	((slot4:getFleetType() ~= FleetType.Transport or TransportCellView) and (slot8 ~= FleetType.Submarine or SubCellView) and FleetCellView).New(slot7).fleetType = slot8
 
-	slot5:SetAction(ChapterConst.ShipIdleAction)
+	if slot8 == FleetType.Normal or slot8 == FleetType.Submarine then
+		slot5:SetAction(ChapterConst.ShipIdleAction)
+	end
 
 	slot5.tf.localPosition = slot3.theme:GetLinePosition(slot4.line.row, slot4.line.column)
 	slot0.cellFleets[slot1] = slot5
@@ -649,11 +650,20 @@ function slot0.RefreshFleetCell(slot0, slot1, slot2)
 	slot5.go.name = "cell_fleet_" .. slot6
 
 	slot5:SetLine(slot4.line)
-	slot5:LoadSpine(slot6, nil, slot7, function ()
-		uv0:GetRotatePivot().transform.localRotation = uv1.rotation
 
-		uv2:updateFleet(uv3, uv4)
-	end)
+	if slot5.fleetType == FleetType.Transport then
+		slot5:LoadIcon(slot6, function ()
+			uv0:GetRotatePivot().transform.localRotation = uv1.rotation
+
+			uv2:updateFleet(uv3, uv4)
+		end)
+	else
+		slot5:LoadSpine(slot6, nil, slot7, function ()
+			uv0:GetRotatePivot().transform.localRotation = uv1.rotation
+
+			uv2:updateFleet(uv3, uv4)
+		end)
+	end
 end
 
 function slot0.clearFleets(slot0)

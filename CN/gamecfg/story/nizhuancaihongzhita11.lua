@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔内测·未知海域",
+			say = "米德加尔特之塔内侧·未知海域",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉越说越可怕了啊……该不会有突然有什么怪兽之类的东西爬出来吧……",
+			say = "感觉越说越可怕了啊……该不会突然有什么怪兽之类的东西爬出来吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

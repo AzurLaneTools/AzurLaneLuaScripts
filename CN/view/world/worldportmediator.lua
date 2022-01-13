@@ -22,8 +22,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OnAccepetTask, function (slot0, slot1, slot2)
-		slot3 = nowWorld()
-
 		uv0:sendNotification(GAME.WORLD_TRIGGER_TASK, {
 			taskId = slot1.id,
 			portId = slot2
@@ -66,6 +64,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 	elseif slot2 == GAME.WORLD_PORT_SHOPPING_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.drops)
+		slot0.viewComponent:UpdateCDTip()
 	end
 end
 

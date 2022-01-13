@@ -22,6 +22,7 @@ function slot0.OnLoaded(slot0)
 	slot0.urOverflowLabel = slot0:findTF("window/content/desc/label2")
 
 	setText(slot0.urOverflowLabel, i18n("destory_ur_pt_overflowa"))
+	setText(slot0:findTF("Placeholder", slot0.urInput), i18n("box_ship_del_click"))
 end
 
 function slot0.OnInit(slot0)

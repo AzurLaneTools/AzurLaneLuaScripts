@@ -24,6 +24,7 @@ slot2 = {
 	SC_33102_WORLD_FIELD = slot0.FieldDescriptor(),
 	SC_33102_CHAPTER_AWARD_FIELD = slot0.FieldDescriptor(),
 	SC_33102_COUNT_INFO_FIELD = slot0.FieldDescriptor(),
+	SC_33102_PORT_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33103_ACT_FIELD = slot0.FieldDescriptor(),
 	CS_33103_GROUP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33103_ACT_ARG_1_FIELD = slot0.FieldDescriptor(),
@@ -196,6 +197,13 @@ slot2 = {
 	GOODS_INFO_COUNT_FIELD = slot0.FieldDescriptor(),
 	FLEET_CHANGE_GROUP_ID_FIELD = slot0.FieldDescriptor(),
 	FLEET_CHANGE_SHIP_ID_FIELD = slot0.FieldDescriptor(),
+	CS_33413_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_33414_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_33414_TASK_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33414_NEXT_REFRESH_TIME_FIELD = slot0.FieldDescriptor(),
+	CS_33415_TASK_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33416_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_33416_TASK_LIST_FIELD = slot0.FieldDescriptor(),
 	BUFF_INFO_ID_FIELD = slot0.FieldDescriptor(),
 	BUFF_INFO_STACK_FIELD = slot0.FieldDescriptor(),
 	BUFF_INFO_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
@@ -284,6 +292,10 @@ SC_33410 = slot0.Descriptor()
 PORT_INFO = slot0.Descriptor()
 GOODS_INFO = slot0.Descriptor()
 FLEET_CHANGE = slot0.Descriptor()
+CS_33413 = slot0.Descriptor()
+SC_33414 = slot0.Descriptor()
+CS_33415 = slot0.Descriptor()
+SC_33416 = slot0.Descriptor()
 BUFF_INFO = slot0.Descriptor()
 SC_33601 = slot0.Descriptor()
 CS_33602 = slot0.Descriptor()
@@ -527,6 +539,15 @@ slot2.SC_33102_COUNT_INFO_FIELD.default_value = nil
 slot2.SC_33102_COUNT_INFO_FIELD.message_type = COUNTINFO
 slot2.SC_33102_COUNT_INFO_FIELD.type = 11
 slot2.SC_33102_COUNT_INFO_FIELD.cpp_type = 10
+slot2.SC_33102_PORT_LIST_FIELD.name = "port_list"
+slot2.SC_33102_PORT_LIST_FIELD.full_name = "p33.sc_33102.port_list"
+slot2.SC_33102_PORT_LIST_FIELD.number = 5
+slot2.SC_33102_PORT_LIST_FIELD.index = 4
+slot2.SC_33102_PORT_LIST_FIELD.label = 3
+slot2.SC_33102_PORT_LIST_FIELD.has_default_value = false
+slot2.SC_33102_PORT_LIST_FIELD.default_value = {}
+slot2.SC_33102_PORT_LIST_FIELD.type = 13
+slot2.SC_33102_PORT_LIST_FIELD.cpp_type = 3
 SC_33102.name = "sc_33102"
 SC_33102.full_name = "p33.sc_33102"
 SC_33102.nested_types = {}
@@ -535,7 +556,8 @@ SC_33102.fields = {
 	slot2.SC_33102_RESULT_FIELD,
 	slot2.SC_33102_WORLD_FIELD,
 	slot2.SC_33102_CHAPTER_AWARD_FIELD,
-	slot2.SC_33102_COUNT_INFO_FIELD
+	slot2.SC_33102_COUNT_INFO_FIELD,
+	slot2.SC_33102_PORT_LIST_FIELD
 }
 SC_33102.is_extendable = false
 SC_33102.extensions = {}
@@ -2758,6 +2780,109 @@ FLEET_CHANGE.fields = {
 }
 FLEET_CHANGE.is_extendable = false
 FLEET_CHANGE.extensions = {}
+slot2.CS_33413_TYPE_FIELD.name = "type"
+slot2.CS_33413_TYPE_FIELD.full_name = "p33.cs_33413.type"
+slot2.CS_33413_TYPE_FIELD.number = 1
+slot2.CS_33413_TYPE_FIELD.index = 0
+slot2.CS_33413_TYPE_FIELD.label = 2
+slot2.CS_33413_TYPE_FIELD.has_default_value = false
+slot2.CS_33413_TYPE_FIELD.default_value = 0
+slot2.CS_33413_TYPE_FIELD.type = 13
+slot2.CS_33413_TYPE_FIELD.cpp_type = 3
+CS_33413.name = "cs_33413"
+CS_33413.full_name = "p33.cs_33413"
+CS_33413.nested_types = {}
+CS_33413.enum_types = {}
+CS_33413.fields = {
+	slot2.CS_33413_TYPE_FIELD
+}
+CS_33413.is_extendable = false
+CS_33413.extensions = {}
+slot2.SC_33414_RESULT_FIELD.name = "result"
+slot2.SC_33414_RESULT_FIELD.full_name = "p33.sc_33414.result"
+slot2.SC_33414_RESULT_FIELD.number = 1
+slot2.SC_33414_RESULT_FIELD.index = 0
+slot2.SC_33414_RESULT_FIELD.label = 2
+slot2.SC_33414_RESULT_FIELD.has_default_value = false
+slot2.SC_33414_RESULT_FIELD.default_value = 0
+slot2.SC_33414_RESULT_FIELD.type = 13
+slot2.SC_33414_RESULT_FIELD.cpp_type = 3
+slot2.SC_33414_TASK_LIST_FIELD.name = "task_list"
+slot2.SC_33414_TASK_LIST_FIELD.full_name = "p33.sc_33414.task_list"
+slot2.SC_33414_TASK_LIST_FIELD.number = 2
+slot2.SC_33414_TASK_LIST_FIELD.index = 1
+slot2.SC_33414_TASK_LIST_FIELD.label = 3
+slot2.SC_33414_TASK_LIST_FIELD.has_default_value = false
+slot2.SC_33414_TASK_LIST_FIELD.default_value = {}
+slot2.SC_33414_TASK_LIST_FIELD.type = 13
+slot2.SC_33414_TASK_LIST_FIELD.cpp_type = 3
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.name = "next_refresh_time"
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.full_name = "p33.sc_33414.next_refresh_time"
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.number = 3
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.index = 2
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.label = 2
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.has_default_value = false
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.default_value = 0
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.type = 13
+slot2.SC_33414_NEXT_REFRESH_TIME_FIELD.cpp_type = 3
+SC_33414.name = "sc_33414"
+SC_33414.full_name = "p33.sc_33414"
+SC_33414.nested_types = {}
+SC_33414.enum_types = {}
+SC_33414.fields = {
+	slot2.SC_33414_RESULT_FIELD,
+	slot2.SC_33414_TASK_LIST_FIELD,
+	slot2.SC_33414_NEXT_REFRESH_TIME_FIELD
+}
+SC_33414.is_extendable = false
+SC_33414.extensions = {}
+slot2.CS_33415_TASK_LIST_FIELD.name = "task_list"
+slot2.CS_33415_TASK_LIST_FIELD.full_name = "p33.cs_33415.task_list"
+slot2.CS_33415_TASK_LIST_FIELD.number = 1
+slot2.CS_33415_TASK_LIST_FIELD.index = 0
+slot2.CS_33415_TASK_LIST_FIELD.label = 3
+slot2.CS_33415_TASK_LIST_FIELD.has_default_value = false
+slot2.CS_33415_TASK_LIST_FIELD.default_value = {}
+slot2.CS_33415_TASK_LIST_FIELD.type = 13
+slot2.CS_33415_TASK_LIST_FIELD.cpp_type = 3
+CS_33415.name = "cs_33415"
+CS_33415.full_name = "p33.cs_33415"
+CS_33415.nested_types = {}
+CS_33415.enum_types = {}
+CS_33415.fields = {
+	slot2.CS_33415_TASK_LIST_FIELD
+}
+CS_33415.is_extendable = false
+CS_33415.extensions = {}
+slot2.SC_33416_RESULT_FIELD.name = "result"
+slot2.SC_33416_RESULT_FIELD.full_name = "p33.sc_33416.result"
+slot2.SC_33416_RESULT_FIELD.number = 1
+slot2.SC_33416_RESULT_FIELD.index = 0
+slot2.SC_33416_RESULT_FIELD.label = 2
+slot2.SC_33416_RESULT_FIELD.has_default_value = false
+slot2.SC_33416_RESULT_FIELD.default_value = 0
+slot2.SC_33416_RESULT_FIELD.type = 13
+slot2.SC_33416_RESULT_FIELD.cpp_type = 3
+slot2.SC_33416_TASK_LIST_FIELD.name = "task_list"
+slot2.SC_33416_TASK_LIST_FIELD.full_name = "p33.sc_33416.task_list"
+slot2.SC_33416_TASK_LIST_FIELD.number = 2
+slot2.SC_33416_TASK_LIST_FIELD.index = 1
+slot2.SC_33416_TASK_LIST_FIELD.label = 3
+slot2.SC_33416_TASK_LIST_FIELD.has_default_value = false
+slot2.SC_33416_TASK_LIST_FIELD.default_value = {}
+slot2.SC_33416_TASK_LIST_FIELD.message_type = TASK_INFO
+slot2.SC_33416_TASK_LIST_FIELD.type = 11
+slot2.SC_33416_TASK_LIST_FIELD.cpp_type = 10
+SC_33416.name = "sc_33416"
+SC_33416.full_name = "p33.sc_33416"
+SC_33416.nested_types = {}
+SC_33416.enum_types = {}
+SC_33416.fields = {
+	slot2.SC_33416_RESULT_FIELD,
+	slot2.SC_33416_TASK_LIST_FIELD
+}
+SC_33416.is_extendable = false
+SC_33416.extensions = {}
 slot2.BUFF_INFO_ID_FIELD.name = "id"
 slot2.BUFF_INFO_ID_FIELD.full_name = "p33.buff_info.id"
 slot2.BUFF_INFO_ID_FIELD.number = 1
@@ -3160,6 +3285,8 @@ cs_33403 = slot0.Message(CS_33403)
 cs_33405 = slot0.Message(CS_33405)
 cs_33407 = slot0.Message(CS_33407)
 cs_33409 = slot0.Message(CS_33409)
+cs_33413 = slot0.Message(CS_33413)
+cs_33415 = slot0.Message(CS_33415)
 cs_33509 = slot0.Message(CS_33509)
 cs_33602 = slot0.Message(CS_33602)
 elitefleetinfo = slot0.Message(ELITEFLEETINFO)
@@ -3192,6 +3319,8 @@ sc_33404 = slot0.Message(SC_33404)
 sc_33406 = slot0.Message(SC_33406)
 sc_33408 = slot0.Message(SC_33408)
 sc_33410 = slot0.Message(SC_33410)
+sc_33414 = slot0.Message(SC_33414)
+sc_33416 = slot0.Message(SC_33416)
 sc_33508 = slot0.Message(SC_33508)
 sc_33510 = slot0.Message(SC_33510)
 sc_33601 = slot0.Message(SC_33601)

@@ -322,4 +322,10 @@ function slot0.Destroy(slot0)
 	slot0.isExist = true
 end
 
+function slot0.OnApplicationPause(slot0)
+	for slot4, slot5 in pairs(slot0.shipModels) do
+		slot5:OnApplicationPause()
+	end
+end
+
 return slot0

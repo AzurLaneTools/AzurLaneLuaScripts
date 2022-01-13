@@ -9,7 +9,8 @@ slot0.Fields = {
 	wsTimer = "table",
 	comSilder = "userdata",
 	twId = "number",
-	btnShop = "userdata"
+	btnShop = "userdata",
+	btnDailyTask = "userdata"
 }
 slot0.EventUpdateScale = "WSAtlasBottom.EventUpdateScale"
 
@@ -31,6 +32,7 @@ function slot0.Init(slot0)
 	slot0.btnShop = slot0.rtButton:Find("btn_shop")
 	slot0.btnOverview = slot0.rtButton:Find("btn_overview")
 	slot0.btnCollection = slot0.rtButton:Find("btn_collection")
+	slot0.btnDailyTask = slot0.rtButton:Find("btn_daily")
 	slot0.comSilder = slot1:Find("scale/Slider"):GetComponent("Slider")
 	slot0.comSilder.interactable = CAMERA_MOVE_OPEN
 

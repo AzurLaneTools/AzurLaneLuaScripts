@@ -507,6 +507,9 @@ function temp()
 			["穗"] = {
 				this = true
 			}
+		},
+		["挺"] = {
+			this = true
 		}
 	}
 end
@@ -3048,6 +3051,36 @@ function temp()
 		},
 		["公"] = {
 			this = true
+		},
+		["总"] = {
+			["湿"] = {
+				this = true
+			}
+		},
+		["板"] = {
+			["凳"] = {
+				this = true
+			}
+		},
+		["中"] = {
+			["夏"] = {
+				this = true
+			}
+		},
+		["屠"] = {
+			["夫"] = {
+				this = true
+			}
+		},
+		["矮"] = {
+			["人"] = {
+				this = true
+			}
+		},
+		["路"] = {
+			["线"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6239,6 +6272,11 @@ function temp()
 		},
 		J = {
 			T = {
+				this = true
+			}
+		},
+		["+"] = {
+			["温"] = {
 				this = true
 			}
 		}

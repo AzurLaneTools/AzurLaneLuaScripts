@@ -1783,6 +1783,15 @@ function temp()
 					}
 				}
 			}
+		},
+		["猪"] = {
+			this = true
+		},
+		["匪"] = {
+			this = true
+		},
+		["叔"] = {
+			this = true
 		}
 	}
 end
