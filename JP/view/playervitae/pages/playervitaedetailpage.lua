@@ -164,6 +164,8 @@ function slot0.UpdateInfo(slot0)
 	slot0.idTxt.text = slot0.player.id
 	slot0.levelTxt.text = "LV." .. slot0.player.level
 	slot0.expTxt.text = slot0.player.exp .. "/" .. getConfigFromLevel1(pg.user_level, slot0.player.level).exp
+
+	setInputText(slot0.inputField, slot0.player.manifesto)
 end
 
 function slot0.UpdateStatistics(slot0)
