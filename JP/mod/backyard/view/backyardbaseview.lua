@@ -34,10 +34,6 @@ function slot0.willExit(slot0)
 	slot0.isExist = true
 end
 
-function slot0.enableZoom(slot0, slot1)
-	slot0.zoom.enabled = slot1
-end
-
 function slot0.emit(slot0, ...)
 	if slot0.event then
 		slot0.event:emit(...)

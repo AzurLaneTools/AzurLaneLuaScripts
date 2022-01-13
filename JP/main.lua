@@ -53,6 +53,10 @@ slot0 = pg.TimeMgr.GetInstance()
 
 slot0:Init()
 
+slot0 = pg.TimeMgr.GetInstance()
+
+slot0:_SetServerTime_(VersionMgr.Inst.timestamp, VersionMgr.Inst.monday0oclockTimestamp, VersionMgr.Inst.realStartUpTimeWhenSetServerTime)
+
 slot0 = pg.PushNotificationMgr.GetInstance()
 
 slot0:Init()

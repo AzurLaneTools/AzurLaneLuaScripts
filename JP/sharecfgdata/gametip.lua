@@ -75,7 +75,7 @@ _G.pg.gametip.new_airi_error_code_100190 = {
 }
 
 _G.pg.gametip.new_airi_error_code_100200 = {
-	tip = "提すでに他のアカウントと連携済みです"
+	tip = "すでに他のアカウントと連携済みです"
 }
 
 _G.pg.gametip.new_airi_error_code_100210 = {
@@ -3469,7 +3469,7 @@ _G.pg.gametip.levelScene_escort_help_tip = {
 			info = "海上護衛の遊び方 "
 		},
 		{
-			info = "    1.開催期間：8月12日～19日；"
+			info = "    1.開催期間：1月13日～27日；"
 		},
 		{
 			info = "    2.海上護衛は、出現する敵艦隊と機雷に対処し、輸送船団が目標地点に辿り着くまで護衛するステージです\n；"
@@ -4132,6 +4132,18 @@ _G.pg.gametip.world_task_view3 = {
 
 _G.pg.gametip.world_task_refuse1 = {
 	tip = "デイリー任務受領数が上限に達しています"
+}
+
+_G.pg.gametip.world_daily_task_lock = {
+	tip = "デイリーミッションはセイレーン作戦4章クリアで開放されます"
+}
+
+_G.pg.gametip.world_daily_task_none = {
+	tip = "現在受注できる任務はありません"
+}
+
+_G.pg.gametip.world_daily_task_none_2 = {
+	tip = "No missions currently available"
 }
 
 _G.pg.gametip.world_sairen_title = {
@@ -9670,15 +9682,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "「ガスコーニュ(μ兵装)」「アドミラル・ヒッパー(μ兵装)」などが常設実装！"
+	tip = "「ポーラ」「ザラ」「リットリオ」などが常設実装！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "「クリーブランド(μ兵装)」常設実装！"
+	tip = "「ヴィンチェンツォ・ジョベルティ」常設実装！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "「赤城(μ兵装)」常設実装！"
+	tip = "「フォーミダブル」常設実装！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -19415,4 +19427,92 @@ _G.pg.gametip.help_xinnian2022_firework = {
 イベントページの背景に打ち上がります。]]
 		}
 	}
+}
+
+_G.pg.gametip.settings_title_account_del = {
+	tip = "アカウント"
+}
+
+_G.pg.gametip.settings_text_account_del = {
+	tip = "アカウント削除"
+}
+
+_G.pg.gametip.settings_text_account_del_desc = {
+	tip = "アカウントを削除すると、このアカウントですべてのサーバーでプレイすることができなくなり、さらにアカウントのSNSアカウントなどとの紐付け情報も削除されます。"
+}
+
+_G.pg.gametip.settings_text_account_del_confirm = {
+	tip = "上記の内容をすべて確認しました。アカウントを削除します"
+}
+
+_G.pg.gametip.settings_text_account_del_btn = {
+	tip = "削除確認"
+}
+
+_G.pg.gametip.box_account_del_input = {
+	tip = "下記入力フォームで<color=#92fc63>$1</color>を入力し、\nアカウント削除手続きを開始します。"
+}
+
+_G.pg.gametip.box_account_del_target = {
+	tip = "DELETE"
+}
+
+_G.pg.gametip.box_account_del_click = {
+	tip = "タップで入力 "
+}
+
+_G.pg.gametip.box_account_del_success_content = {
+	tip = "アカウントは <color=#92fc63>$1</color> に削除される予定です"
+}
+
+_G.pg.gametip.box_account_reborn_content = {
+	tip = "アカウント削除は<color=#92fc63>$1</color>日後に行われます。アカウント削除までゲームにログインすると、アカウント削除が行われなくなります。\nアカウント削除依頼を取り下げ、ゲームにログインしますか？ （アカウントは削除されなくなります）"
+}
+
+_G.pg.gametip.tip_account_del_dismatch = {
+	tip = "入力内容は不正です"
+}
+
+_G.pg.gametip.tip_account_del_reborn = {
+	tip = "アカウント削除をキャンセルしました"
+}
+
+_G.pg.gametip.player_manifesto_placeholder = {
+	tip = "挨拶を入力"
+}
+
+_G.pg.gametip.box_ship_del_click = {
+	tip = "タップして数字を入力してください"
+}
+
+_G.pg.gametip.box_equipment_del_click = {
+	tip = "装備の名前を入力…"
+}
+
+_G.pg.gametip.change_player_name_title = {
+	tip = "名前変更"
+}
+
+_G.pg.gametip.change_player_name_subtitle = {
+	tip = "名前を入力してください:"
+}
+
+_G.pg.gametip.change_player_name_input_tip = {
+	tip = "名前を入力してください:"
+}
+
+_G.pg.gametip.tactics_class_start = {
+	tip = "学習開始"
+}
+
+_G.pg.gametip.tactics_class_cancel = {
+	tip = "学習中止"
+}
+
+_G.pg.gametip.tactics_class_get_exp = {
+	tip = "スキルEXP"
+}
+
+_G.pg.gametip.tactics_class_spend_time = {
+	tip = "必要時間"
 }

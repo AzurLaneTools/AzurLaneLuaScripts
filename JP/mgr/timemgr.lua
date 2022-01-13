@@ -122,12 +122,16 @@ function slot1.RealtimeSinceStartup(slot0)
 end
 
 function slot1.SetServerTime(slot0, slot1, slot2)
+	slot0:_SetServerTime_(slot1, slot2, slot0:RealtimeSinceStartup())
+end
+
+function slot1._SetServerTime_(slot0, slot1, slot2, slot3)
 	if PLATFORM_CODE == PLATFORM_US then
 		SERVER_SERVER_DAYLIGHT_SAVEING_TIME = true
 	end
 
 	slot0._isdstClient = os.date("*t").isdst
-	slot0._serverUnitydelta = slot1 - slot0:RealtimeSinceStartup()
+	slot0._serverUnitydelta = slot1 - slot3
 	slot0._sAnchorTime = slot2 - (SERVER_DAYLIGHT_SAVEING_TIME and 3600 or 0)
 	slot0._AnchorDelta = slot2 - os.time({
 		year = 2020,

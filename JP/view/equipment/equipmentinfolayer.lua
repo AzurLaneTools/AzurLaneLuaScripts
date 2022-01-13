@@ -481,6 +481,8 @@ function slot0.showDestoryMsgbox(slot0, slot1)
 		slot0.destroyMsgBoxCancelBtn = slot0.destroyMsgBox:Find("window/button_container/cancel_btn")
 		slot0.destroyMsgBoxInput = slot0.destroyMsgBox:Find("window/info/InputField")
 		slot0.destoryMsgboxBackBtn = slot0.destroyMsgBox:Find("window/top/btnBack")
+
+		setText(slot0:findTF("Placeholder", slot0.destroyMsgBoxInput), i18n("box_equipment_del_click"))
 	end
 
 	setText(slot0.destroyMsgboxIntro, SwitchSpecialChar(i18n("destory_important_equipment_tip", slot1.config.name)))

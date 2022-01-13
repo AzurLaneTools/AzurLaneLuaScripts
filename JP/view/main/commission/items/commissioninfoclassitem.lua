@@ -78,6 +78,7 @@ function slot0.AddTimer(slot0, slot1, slot2)
 	slot0.timers[slot1.id] = Timer.New(function ()
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			uv1:RemoveTimer(uv2)
+			uv1:Update()
 		else
 			uv3.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 		end

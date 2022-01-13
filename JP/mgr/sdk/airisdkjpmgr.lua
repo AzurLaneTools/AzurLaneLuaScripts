@@ -47,6 +47,17 @@ function AiriLogin(slot0)
 
 		uv0.isCache = true
 	else
+		if slot0.R_CODE:ToInt() == 100233 and pg.TimeMgr.GetInstance():GetServerTime() < tonumber(slot0.R_DELETETIME) then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				modal = true,
+				content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot3, "%Y-%m-%d %H:%M:%S")),
+				weight = LayerWeightConst.TOP_LAYER,
+				onYes = function ()
+					uv0.AccountReborn()
+				end
+			})
+		end
+
 		print("AiriLogin failed")
 	end
 end
@@ -124,6 +135,49 @@ function OnAppPauseForSDK(slot0)
 		uv0:OnPause()
 	else
 		uv0:OnResume()
+	end
+end
+
+function AccountDeleteResult(slot0, slot1, slot2, slot3, slot4)
+	slot5 = pg.UIMgr.GetInstance()
+
+	slot5:LoadingOff()
+
+	if uv0.AiriResultCodeHandler({
+		ToInt = function ()
+			return uv0
+		end
+	}) then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			hideNo = true,
+			content = i18n("box_account_del_success_content", pg.TimeMgr.GetInstance():CTimeDescC(tonumber(slot3), "%Y-%m-%d %H:%M:%S")),
+			weight = LayerWeightConst.TOP_LAYER,
+			onYes = function ()
+				pg.m02:sendNotification(GAME.LOGOUT, {
+					code = 0
+				})
+			end,
+			onClose = function ()
+				pg.m02:sendNotification(GAME.LOGOUT, {
+					code = 0
+				})
+			end
+		})
+	end
+end
+
+function AccountRebornResult(slot0, slot1)
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:LoadingOff()
+
+	if uv0.AiriResultCodeHandler({
+		ToInt = function ()
+			return uv0
+		end
+	}) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("tip_account_del_reborn"))
 	end
 end
 
@@ -323,6 +377,14 @@ return {
 		else
 			return true
 		end
+	end,
+	AccountDelete = function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		uv0:AccountDeleteReq()
+	end,
+	AccountReborn = function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		uv0:AccountRebornReq()
 	end,
 	AiriResultCodeHandler = function (slot0)
 		slot1 = slot0:ToInt()

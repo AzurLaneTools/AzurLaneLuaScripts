@@ -12,12 +12,7 @@ function slot1.GetOrder(slot0)
 end
 
 function slot1.SetActive(slot0, slot1)
-	slot0:SetActiveModel(slot1)
-end
-
-function slot1.SetActiveModel(slot0, slot1)
-	slot0:SetSpineVisible(slot1)
-	setActive(slot0.tfShadow, slot1)
+	SetActive(slot0.tf, slot1)
 end
 
 function slot1.UpdateChampionCell(slot0, slot1, slot2, slot3)

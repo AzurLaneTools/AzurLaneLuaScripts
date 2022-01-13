@@ -114,6 +114,10 @@ function slot0.getStudents(slot0)
 	return Clone(slot0.students)
 end
 
+function slot0.RawGetStudentList(slot0)
+	return slot0.students
+end
+
 function slot0.addStudent(slot0, slot1)
 	slot0.students[slot1.id] = slot1
 

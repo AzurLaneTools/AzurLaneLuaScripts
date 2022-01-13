@@ -16,12 +16,34 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.SERVER_LOGIN, slot1)
 	end)
 	slot0:bind(uv0.ON_LOGIN_PROCESS, function (slot0)
-		uv0:loginProcessHandler()
+		if PLATFORM_CODE == PLATFORM_CHT and (CSharpVersion == 31 or CSharpVersion == 32 or CSharpVersion == 33 or CSharpVersion == 34) then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				modal = true,
+				hideNo = true,
+				content = "檢測到版本更新，需要手動下載更新包，是否前往下載？",
+				hideClose = true,
+				onYes = function ()
+					if YongshiSdkMgr.inst.channelUID == "0" then
+						Application.OpenURL("https://play.google.com/store/apps/details?id=com.hkmanjuu.azurlane.gp")
+					elseif slot0 == "1" then
+						Application.OpenURL("https://apps.apple.com/app/id1479022429")
+					elseif slot0 == "2" then
+						Application.OpenURL("http://www.mygame.com.tw/MyGameAD/Accept.aspx?P=YAS3ZA2RSR&S=QUNRMMN7HY")
+					end
+
+					Application.Quit()
+				end,
+				onClose = function ()
+					Application.Quit()
+				end
+			})
+		else
+			uv0:loginProcessHandler()
+		end
 	end)
 	slot0:bind(uv0.ON_SEARCH_ACCOUNT, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACCOUNT_SEARCH, slot1)
 	end)
-	slot0:loginProcessHandler()
 end
 
 function slot0.loginProcessHandler(slot0)

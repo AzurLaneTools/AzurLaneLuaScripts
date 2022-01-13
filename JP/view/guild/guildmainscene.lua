@@ -96,6 +96,7 @@ function slot0.init(slot0)
 	slot0.resPanel:setParent(slot0._playerResOb)
 
 	slot0.dynamicBg = GuildDynamicBG.New(slot0:findTF("dynamic_bg"))
+	Input.multiTouchEnabled = false
 end
 
 function slot0.preload(slot0, slot1)
@@ -416,6 +417,12 @@ function slot0.willExit(slot0)
 	slot0.resPanel:exit()
 	pg.GuildLayerMgr:GetInstance():Clear()
 	pg.GuildPaintingMgr:GetInstance():Exit()
+
+	if slot0.contextData.page then
+		slot0:closePage(slot0.contextData.page)
+	end
+
+	Input.multiTouchEnabled = true
 end
 
 function slot0.insertEmojiToInputText(slot0, slot1)

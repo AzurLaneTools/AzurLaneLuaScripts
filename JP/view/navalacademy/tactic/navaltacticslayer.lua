@@ -66,6 +66,10 @@ function slot0.didEnter(slot0)
 	slot0.lessonOverTimer = {}
 
 	onButton(slot0, slot0.backBtn, function ()
+		if #uv0.deleteStuentQueue > 0 or uv0.openMsgBox then
+			return
+		end
+
 		uv0:closeView()
 	end, SFX_CANCEL)
 	setActive(slot0:findTF("stamp", slot0.mainPanel), getProxy(TaskProxy):mingshiTouchFlagEnabled())
@@ -92,6 +96,14 @@ function slot0.didEnter(slot0)
 		uv0:unblurView()
 	end, SFX_PANEL)
 	slot0:initStudents()
+end
+
+function slot0.quickExitFunc(slot0)
+	if #slot0.deleteStuentQueue > 0 or slot0.openMsgBox then
+		return
+	end
+
+	uv0.super.quickExitFunc(slot0)
 end
 
 function slot0.initStudents(slot0)
@@ -933,6 +945,8 @@ function slot0.willExit(slot0)
 	slot0:closeSkllSel()
 	slot0:closeMetaSkillPanel()
 	slot0:unblurView()
+
+	slot0.deleteStuentQueue = {}
 
 	if slot0.lessonOverTimer then
 		for slot4, slot5 in pairs(slot0.lessonOverTimer) do

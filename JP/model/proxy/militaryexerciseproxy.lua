@@ -111,6 +111,10 @@ function slot0.getSeasonInfo(slot0)
 	return Clone(slot0.seasonInfo)
 end
 
+function slot0.RawGetSeasonInfo(slot0)
+	return slot0.seasonInfo
+end
+
 function slot0.updateRivals(slot0, slot1)
 	slot0.seasonInfo:updateRivals(slot1)
 	slot0:sendNotification(uv0.RIVALS_UPDATED, Clone(slot1))

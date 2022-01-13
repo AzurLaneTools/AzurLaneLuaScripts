@@ -4,61 +4,46 @@ function slot0.getUIName(slot0)
 	return "WorldInformationUI"
 end
 
-function slot0.init(slot0)
-	function slot0.taskUpdateListenerFunc(...)
-		uv0.taskList = uv0.taskProxy:getDoingTaskVOs()
+slot0.Listeners = {
+	onUpdateDailyTask = "OnUpdateDailyTask",
+	onUpdateTask = "OnUpdateTask"
+}
 
-		uv0:UpdateFilterTaskList()
+function slot0.init(slot0)
+	for slot4, slot5 in pairs(uv0.Listeners) do
+		slot0[slot4] = function (...)
+			uv0[uv1](uv2, ...)
+		end
 	end
 
 	slot0.rtLeftPanel = slot0:findTF("adapt/left_panel")
-	slot2 = slot0.rtLeftPanel
 
-	setText(slot2:Find("title/Text"), i18n("world_map_title_tips"))
-
-	slot2 = slot0.rtLeftPanel
-
-	setText(slot2:Find("title/Text_en"), i18n("world_map_title_tips_en"))
+	setText(slot0.rtLeftPanel:Find("title/Text"), i18n("world_map_title_tips"))
+	setText(slot0.rtLeftPanel:Find("title/Text_en"), i18n("world_map_title_tips_en"))
 
 	slot0.wsWorldInfo = WSWorldInfo.New()
-	slot2 = slot0.rtLeftPanel
-	slot0.wsWorldInfo.transform = slot2:Find("world_info")
-	slot1 = slot0.wsWorldInfo
+	slot0.wsWorldInfo.transform = slot0.rtLeftPanel:Find("world_info")
 
-	slot1:Setup()
-
-	slot2 = slot0.wsWorldInfo.transform
-
-	setText(slot2:Find("power/bg/Word"), i18n("world_total_power"))
-
-	slot2 = slot0.wsWorldInfo.transform
-
-	setText(slot2:Find("explore/mileage/Text"), i18n("world_mileage"))
-
-	slot2 = slot0.wsWorldInfo.transform
-
-	setText(slot2:Find("explore/pressing/Text"), i18n("world_pressing"))
+	slot0.wsWorldInfo:Setup()
+	setText(slot0.wsWorldInfo.transform:Find("power/bg/Word"), i18n("world_total_power"))
+	setText(slot0.wsWorldInfo.transform:Find("explore/mileage/Text"), i18n("world_mileage"))
+	setText(slot0.wsWorldInfo.transform:Find("explore/pressing/Text"), i18n("world_pressing"))
 
 	slot0.rtRightPanel = slot0:findTF("adapt/right_panel")
-	slot1 = slot0.rtRightPanel
-	slot0.rtNothingTip = slot1:Find("nothing_tip")
-	slot1 = slot0.rtRightPanel
-	slot0.btnClose = slot1:Find("title/close_btn")
-	slot1 = slot0.rtRightPanel
-	slot0.toggleAll = slot1:Find("title/task_all")
-	slot1 = slot0.rtRightPanel
-	slot0.toggleMain = slot1:Find("title/task_main")
-	slot1 = slot0.rtRightPanel
-	slot0.rtContainer = slot1:Find("main/viewport/content")
-	slot3 = slot0.rtContainer
-	slot0.taskItemList = UIItemList.New(slot0.rtContainer, slot3:Find("task_tpl"))
-	slot1 = slot0.taskItemList
+	slot0.rtNothingTip = slot0.rtRightPanel:Find("nothing_tip")
+	slot0.btnClose = slot0.rtRightPanel:Find("title/close_btn")
+	slot0.toggleAll = slot0.rtRightPanel:Find("title/task_all")
+	slot0.toggleMain = slot0.rtRightPanel:Find("title/task_main")
+	slot0.rtContainer = slot0.rtRightPanel:Find("main/viewport/content")
+	slot0.taskItemList = UIItemList.New(slot0.rtContainer, slot0.rtContainer:Find("task_tpl"))
 
-	slot1:make(function (slot0, slot1, slot2)
+	slot0.taskItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTaskTpl(slot2, uv0.filterTaskList[slot1 + 1])
 		end
 	end)
+
+	slot0.btnDailyTask = slot0.rtLeftPanel:Find("world_info/task_btn")
 end
 
 function slot0.didEnter(slot0)
@@ -86,6 +71,14 @@ function slot0.didEnter(slot0)
 
 		setTextColor(uv0.toggleMain, slot0 and Color.white or Color.New(0.48627450980392156, 0.5215686274509804, 0.6431372549019608))
 	end, SFX_PANEL)
+	onButton(slot0, slot0.btnDailyTask, function ()
+		if nowWorld():IsSystemOpen(WorldConst.SystemDailyTask) then
+			uv0:emit(WorldInformationMediator.OnOpenDailyTaskPanel)
+		else
+			pg.TipsMgr.GetInstance(i18n("world_daily_task_lock"))
+		end
+	end, SFX_PANEl)
+	slot0:OnUpdateDailyTask()
 	triggerToggle(slot0.toggleAll, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		blurLevelCamera = true
@@ -94,14 +87,16 @@ end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-	slot0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateTask, slot0.taskUpdateListenerFunc)
+	slot0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateTask)
+	slot0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateDailyTaskIds, slot0.onUpdateDailyTask)
 	slot0.wsWorldInfo:Dispose()
 end
 
 function slot0.setWorldTaskProxy(slot0, slot1)
 	slot0.taskProxy = slot1
 
-	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateTask, slot0.taskUpdateListenerFunc)
+	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateTask)
+	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateDailyTaskIds, slot0.onUpdateDailyTask)
 
 	slot0.taskList = slot0.taskProxy:getDoingTaskVOs()
 end
@@ -193,6 +188,16 @@ function slot0.UpdateTaskTpl(slot0, slot1, slot2)
 
 	setActive(slot12, false)
 	setActive(slot10:Find("content/award_bg/arror"), #slot14 > 3)
+end
+
+function slot0.OnUpdateTask(slot0)
+	slot0.taskList = slot0.taskProxy:getDoingTaskVOs()
+
+	slot0:UpdateFilterTaskList()
+end
+
+function slot0.OnUpdateDailyTask(slot0)
+	setActive(slot0.btnDailyTask:Find("tip"), slot0.taskProxy:canAcceptDailyTask())
 end
 
 return slot0

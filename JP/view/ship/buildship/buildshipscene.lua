@@ -65,6 +65,7 @@ function slot0.updateActivityBuildPage(slot0)
 end
 
 function slot0.init(slot0)
+	Input.multiTouchEnabled = false
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
 	slot0.backBtn = slot0:findTF("back_btn", slot0.topPanel)
@@ -182,6 +183,8 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	Input.multiTouchEnabled = true
+
 	slot0.contextData.msgbox:Destroy()
 	slot0.contextData.helpWindow:Destroy()
 	slot0.poolsPage:Destroy()

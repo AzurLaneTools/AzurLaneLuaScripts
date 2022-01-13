@@ -512,10 +512,16 @@ function slot0.didEnter(slot0)
 				uv0:playExtraVoice()
 
 				uv0.initFinished = true
+
+				uv0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
 			end)
 
 			return
 		end
+
+		slot0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
+	else
+		slot0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
 	end
 
 	slot0:playExtraVoice()

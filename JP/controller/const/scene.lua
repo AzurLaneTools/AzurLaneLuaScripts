@@ -188,8 +188,8 @@ function SCENE.SetSceneInfo(slot0, slot1)
 		slot0.mediator = MilitaryExerciseMediator
 		slot0.viewComponent = MilitaryExerciseScene
 	elseif slot1 == SCENE.PLAYER_INFO then
-		slot0.mediator = PlayerInfoMediator
-		slot0.viewComponent = PlayerInfoLayer
+		slot0.mediator = PlayerVitaeMediator
+		slot0.viewComponent = PlayerVitaeScene
 	elseif slot1 == SCENE.SHIP_PROFILE then
 		slot0.mediator = ShipProfileMediator
 		slot0.viewComponent = ShipProfileScene

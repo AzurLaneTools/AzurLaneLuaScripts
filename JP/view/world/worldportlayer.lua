@@ -157,7 +157,6 @@ function slot0.willExit(slot0)
 
 	slot0:CancelUITween()
 	slot0:DisposeTopUI()
-	slot0:DisposeTaskDetail()
 	slot0:DisposeTasks()
 	slot0:DisposeGoods()
 	slot0.port:RemoveListener(WorldMapPort.EventUpdateTaskIds, slot0.onUpdateTasks)
@@ -507,8 +506,7 @@ function slot0.UpdateTasks(slot0)
 
 	slot4:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = WSPortTask.New()
-			slot4.transform = slot2
+			slot4 = WSPortTask.New(slot2)
 
 			slot4:Setup(uv0[slot1 + 1])
 			onButton(uv1, slot4.btnInactive, function ()
@@ -538,18 +536,6 @@ function slot0.DisposeTasks(slot0)
 	end)
 
 	slot0.wsTasks = {}
-end
-
-function slot0.HideTaskDetail(slot0)
-	setActive(slot0.taskDetail.transform, false)
-end
-
-function slot0.DisposeTaskDetail(slot0)
-	if slot0.taskDetail then
-		slot0.taskDetail:Dispose()
-
-		slot0.taskDetail = nil
-	end
 end
 
 function slot0.UpdateGoods(slot0)
@@ -614,10 +600,11 @@ end
 function slot0.UpdateCDTip(slot0)
 	setActive(slot0.cdTF, #slot0.port.goods > 0 and not slot0.port:IsTempPort())
 	setActive(slot0.emptyTF, #slot0.port.goods == 0)
+	setActive(slot0.rtButtons:Find("supply/new"), nowWorld():GetAtlas().markPortDic[slot0.port.id])
 end
 
 function slot0.UpdateTaskTip(slot0)
-	setActive(slot0.rtButtons:Find("operation/new"), nowWorld():GetAtlas().taskPortDic[slot0.port.id])
+	setActive(slot0.rtButtons:Find("operation/new"), false)
 end
 
 function slot0.showTaskWindow(slot0, slot1)
