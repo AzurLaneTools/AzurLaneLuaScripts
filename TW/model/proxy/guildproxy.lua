@@ -662,12 +662,8 @@ function slot0.ShouldShowBattleTip(slot0)
 	end
 
 	if slot0:getData() then
-		if not slot1:ShouldTipActiveEvent() then
-			return false
-		end
-
 		slot5 = slot1:GetActiveEvent()
-		slot2 = slot0:ShouldShowMainTip() or not slot5 and GuildMember.IsAdministrator(slot1:getSelfDuty()) and slot4() or slot5 and not slot0:GetBattleBtnRecord()
+		slot2 = slot0:ShouldShowMainTip() or not slot5 and (GuildMember.IsAdministrator(slot1:getSelfDuty()) and slot1:ShouldTipActiveEvent()) and slot4() or slot5 and not slot0:GetBattleBtnRecord()
 
 		if slot5 then
 			slot2 = slot2 or slot5:IsParticipant() and slot5:AnyMissionCanFormation() or slot3(slot5) or not slot7 and not slot5:IsLimitedJoin()

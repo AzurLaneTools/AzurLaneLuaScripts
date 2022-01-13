@@ -14281,10 +14281,11 @@ _G.pg.shop_template[70076] = {
 	desc = "購買造型:Z46泳裝",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 330,
+	order = 1100,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 10,
@@ -14320,32 +14321,6 @@ _G.pg.shop_template[70076] = {
 	limit_args = {},
 	effect_args = {
 		401461
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -14357,10 +14332,11 @@ _G.pg.shop_template[70077] = {
 	desc = "購買造型:齊柏林泳裝",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 330,
+	order = 1100,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 10,
@@ -14396,32 +14372,6 @@ _G.pg.shop_template[70077] = {
 	limit_args = {},
 	effect_args = {
 		407011
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -14433,10 +14383,11 @@ _G.pg.shop_template[70078] = {
 	desc = "購買造型:鐵必制造型",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 330,
+	order = 1100,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 10,
@@ -14472,32 +14423,6 @@ _G.pg.shop_template[70078] = {
 	limit_args = {},
 	effect_args = {
 		405021
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -14509,10 +14434,11 @@ _G.pg.shop_template[70079] = {
 	desc = "購買造型:U47造型",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 480,
+	order = 1600,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 10,
@@ -14548,32 +14474,6 @@ _G.pg.shop_template[70079] = {
 	limit_args = {},
 	effect_args = {
 		408021
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -14661,10 +14561,11 @@ _G.pg.shop_template[70081] = {
 	desc = "購買造型:Z25泳裝",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 10,
@@ -14700,32 +14601,6 @@ _G.pg.shop_template[70081] = {
 	limit_args = {},
 	effect_args = {
 		401251
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -20764,9 +20639,9 @@ _G.pg.shop_template[70212] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				30
+				2022,
+				1,
+				13
 			},
 			{
 				0,
@@ -20776,9 +20651,111 @@ _G.pg.shop_template[70212] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				1,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70213] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：加斯科涅泳装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70213,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		999011
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70214] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：佐治亚泳装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70214,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		199022
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				1,
+				27
 			},
 			{
 				23,
@@ -20815,9 +20792,9 @@ _G.pg.shop_template[70215] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				30
+				2022,
+				1,
+				13
 			},
 			{
 				0,
@@ -20827,9 +20804,9 @@ _G.pg.shop_template[70215] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				1,
+				27
 			},
 			{
 				23,

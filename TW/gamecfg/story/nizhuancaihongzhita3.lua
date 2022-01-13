@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "就在众人在嬉闹时，从另一侧的通道中由远及近，传来了另一股嬉闹的声音。",
+			say = "就在众人嬉闹时，从另一侧的通道中由远及近，传来了另一股嬉闹的声音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "我这就去重新去读命令报告书！各位，先走一步————",
+			say = "我这就去重新读命令报告书！各位，先走一步————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -735,7 +735,7 @@ pg.expedition_data_by_map = {
 		bg = "Map_12",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 212,
 		clouds_pos = {
 			{
 				332,
@@ -1273,6 +1273,49 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 11,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[212] = {
+		map = 212,
+		name = "馬里亞納風雲上",
+		level_limit = 75,
+		type = 2,
+		anchor = "",
+		title = "12",
+		drop_by_map_display = "",
+		bgm = "level",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		cloud_suffix = "white",
+		uifx = "UIhuohua2",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_212",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 12,
 		clouds_pos = {
 			{
 				332,
@@ -7891,6 +7934,136 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100040] = {
+		map = 2100040,
+		name = "「異色格」作戰-前篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20000",
+		ani_name = "",
+		guide_id = "",
+		cloud_suffix = "purple",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 2100050,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100041] = {
+		map = 2100041,
+		name = "「異色格」作戰-後篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100051,
+		clouds_pos = {}
+	},
+	[2100050] = {
+		map = 2100050,
+		name = "「異色格」作戰-前篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20000",
+		ani_name = "",
+		guide_id = "",
+		cloud_suffix = "purple",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 2100040,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100051] = {
+		map = 2100051,
+		name = "「異色格」作戰-後篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100041,
+		clouds_pos = {}
+	},
 	[2100060] = {
 		map = 2100060,
 		name = "墜落之翼-前篇|| ||CHAPTER EX||E.X.",
@@ -8777,6 +8950,7 @@ pg.expedition_data_by_map = {
 		209,
 		210,
 		211,
+		212,
 		10000,
 		70000,
 		90000,
@@ -8937,6 +9111,10 @@ pg.expedition_data_by_map = {
 		2100021,
 		2100030,
 		2100031,
+		2100040,
+		2100041,
+		2100050,
+		2100051,
 		2100060,
 		2100061,
 		2100070,

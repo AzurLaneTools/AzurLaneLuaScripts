@@ -32,7 +32,7 @@ function slot0.OnInit(slot0)
 	slot0.amazonUnlinkBtn = findTF(slot5, "unlink_amazon")
 	slot0.amazonLinkSign = findTF(slot5, "amazon_status")
 
-	setActive(slot5, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
+	setActive(slot5, false)
 
 	slot0.transcodeUI = findTF(slot1, "page2")
 	slot0.uidTxt = findTF(slot0.transcodeUI, "account_name/Text")
@@ -122,7 +122,7 @@ function slot0.checkAccountAppleView(slot0)
 	setActive(slot0.appleLinkSign, slot1)
 	setActive(slot0.appleBtn, not slot1)
 
-	if isTwitterLinked then
+	if slot1 then
 		setText(slot0.appleLinkSign, i18n("apple_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_APPLE)))
 	end
 end
@@ -135,7 +135,7 @@ function slot0.checkAccountAmazonView(slot0)
 		setActive(slot0.amazonLinkSign, slot1)
 		setActive(slot0.amazonBtn, not slot1)
 
-		if isTwitterLinked then
+		if slot1 then
 			setText(slot0.amazonLinkSign, i18n("amazon_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_AMAZON)))
 		end
 	end

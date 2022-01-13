@@ -425,7 +425,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "stthemeicon",
 		deblocking = 1,
-		order = 99,
+		order = 13,
 		ids = {
 			14001,
 			14002,
@@ -1194,7 +1194,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "cr2themeicon",
 		deblocking = 1,
-		order = 899,
+		order = 36,
 		ids = {
 			37001,
 			37002,
@@ -2177,7 +2177,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "r3themeicon",
 		deblocking = 1,
-		order = 100,
+		order = 64,
 		ids = {
 			65001,
 			65002,
@@ -2342,7 +2342,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "cs4themeicon",
 		deblocking = 1,
-		order = 900,
+		order = 72,
 		ids = {
 			73001,
 			73002,

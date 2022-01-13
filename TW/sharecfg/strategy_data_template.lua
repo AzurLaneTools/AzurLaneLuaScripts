@@ -92,6 +92,46 @@ pg.strategy_data_template = {
 			area_scout
 		}
 	},
+	[13] = {
+		buff_id = 9670,
+		name = "照明彈",
+		type = 6,
+		iconSize = "",
+		id = 13,
+		icon = "yezhan_zhaomingdan",
+		desc = "獲得照明彈補給，此艦隊在後續的$1場戰鬥中將會獲得額外照明彈支援。",
+		arg = {}
+	},
+	[14] = {
+		buff_id = 9600,
+		name = "燈塔",
+		type = 10,
+		iconSize = "",
+		id = 14,
+		icon = "yezhan_dengta",
+		desc = "擁有燈塔控制權，艦隊在戰鬥中將會獲得來自燈塔的照明支援。",
+		arg = {}
+	},
+	[16] = {
+		buff_id = 0,
+		name = "夜戰",
+		type = 6,
+		iconSize = "",
+		id = 16,
+		icon = "weather_101",
+		desc = "蘇里高海峽被黑夜和雷雨籠罩，己方先鋒艦隊與敵方艦隊均獲得「夜戰隱蔽」狀態。被攻擊時，艦隊會依據當前隱蔽強度獲得額外的規避能力。",
+		arg = {}
+	},
+	[17] = {
+		buff_id = 0,
+		name = "海霧",
+		type = 6,
+		iconSize = "",
+		id = 17,
+		icon = "Weather_102",
+		desc = "處於海霧區域中，戰鬥時己方和敵方的隱蔽強度降低速率減慢。",
+		arg = {}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "高效作戰",
@@ -996,6 +1036,10 @@ pg.strategy_data_template = {
 		10,
 		11,
 		12,
+		13,
+		14,
+		16,
+		17,
 		47,
 		90,
 		91,

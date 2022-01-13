@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然是任务是保障撤退的火力支援，我跟美因茨不是绰绰有余嘛。",
+			say = "既然任务是保障撤退的火力支援，我跟美因茨不是绰绰有余嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一轮顺风哦~",
+			say = "一路顺风哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

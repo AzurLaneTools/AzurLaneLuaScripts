@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "火力凶猛切无法被雷达捕捉……那岂不就是——",
+			say = "火力凶猛却无法被雷达捕捉……那岂不就是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

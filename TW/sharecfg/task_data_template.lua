@@ -163,7 +163,7 @@ pg.task_data_template = {
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
-		next_task = "[5,3000,3001,6001,5041,5042,5043,5044,7201,7202,7203,7204,7205,7206,7207,7208,7209,10302]",
+		next_task = "[5,3000,3001,6001,1401,5041,5042,5043,5044,7201,7202,7203,7204,7205,7206,7207,7208,7209,10302]",
 		auto_commit = 0,
 		scene = "",
 		target_id_for_client = 101,
@@ -2153,7 +2153,7 @@ pg.task_data_template = {
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
-		next_task = "[49,3045]",
+		next_task = "[49,3045,6045]",
 		auto_commit = 0,
 		scene = "",
 		target_id_for_client = 1201,
@@ -2198,7 +2198,7 @@ pg.task_data_template = {
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
-		next_task = "[50,3046]",
+		next_task = "[50,3046,6046]",
 		auto_commit = 0,
 		scene = "",
 		target_id_for_client = 1202,
@@ -2243,7 +2243,7 @@ pg.task_data_template = {
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
-		next_task = "[51,3047]",
+		next_task = "[51,3047,6047]",
 		auto_commit = 0,
 		scene = "",
 		target_id_for_client = 1203,
@@ -2288,7 +2288,7 @@ pg.task_data_template = {
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
-		next_task = "[52,3048]",
+		next_task = "[52,3048,6048]",
 		auto_commit = 0,
 		scene = "",
 		target_id_for_client = 1204,
@@ -2492,6 +2492,316 @@ pg.task_data_template = {
 				1,
 				2,
 				150
+			}
+		}
+	},
+	[1401] = {
+		name = "125级成就任务1",
+		guild_coin_award = 0,
+		award = 1401,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 36,
+		desc = "將任意角色的等級上限突破到125級",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "125",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "1402",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 1401,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				100
+			},
+			{
+				2,
+				15008,
+				800
+			}
+		}
+	},
+	[1402] = {
+		name = "125级成就任务2",
+		guild_coin_award = 0,
+		award = 1402,
+		type = 2,
+		target_id_2 = "125",
+		count_inherit = 0,
+		sub_type = 1017,
+		desc = "1名角色等級達到125級",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "1403",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 1402,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				51005,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		}
+	},
+	[1403] = {
+		name = "125级成就任务3",
+		guild_coin_award = 0,
+		award = 1403,
+		type = 2,
+		target_id_2 = "125",
+		count_inherit = 0,
+		sub_type = 1017,
+		desc = "3名角色等級達到125級",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "1404",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 1403,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				51006,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		}
+	},
+	[1404] = {
+		name = "125级成就任务4",
+		guild_coin_award = 0,
+		award = 1404,
+		type = 2,
+		target_id_2 = "125",
+		count_inherit = 0,
+		sub_type = 1017,
+		desc = "6名角色等級達到125級",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "1405",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 1404,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				51007,
+				1
+			},
+			{
+				1,
+				1,
+				3000
+			},
+			{
+				2,
+				16501,
+				150
+			}
+		}
+	},
+	[1405] = {
+		name = "125级成就任务5",
+		guild_coin_award = 0,
+		award = 1405,
+		type = 2,
+		target_id_2 = "125",
+		count_inherit = 0,
+		sub_type = 1017,
+		desc = "12名角色等級達到125級",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "1406",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 1405,
+		target_num = 12,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				51008,
+				1
+			},
+			{
+				1,
+				1,
+				4000
+			},
+			{
+				2,
+				16501,
+				150
+			}
+		}
+	},
+	[1406] = {
+		name = "125级成就任务6",
+		guild_coin_award = 0,
+		award = 1406,
+		type = 2,
+		target_id_2 = "125",
+		count_inherit = 0,
+		sub_type = 1017,
+		desc = "20名角色等級達到125級",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "1407",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 1406,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				51009,
+				1
+			},
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				16501,
+				200
+			}
+		}
+	},
+	[1407] = {
+		name = "125级成就任务7",
+		guild_coin_award = 0,
+		award = 1407,
+		type = 2,
+		target_id_2 = "125",
+		count_inherit = 0,
+		sub_type = 1017,
+		desc = "50名角色等級達到125級",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 1407,
+		target_num = 50,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				51010,
+				1
+			},
+			{
+				1,
+				1,
+				6000
+			},
+			{
+				2,
+				16501,
+				200
 			}
 		}
 	},
@@ -23322,6 +23632,166 @@ pg.task_data_template = {
 				2,
 				15008,
 				550
+			}
+		}
+	},
+	[6045] = {
+		name = "困難·先聲奪人",
+		guild_coin_award = 0,
+		award = 6045,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成困難12-1的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "11201",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 11201,
+		id = 6045,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				51001,
+				1
+			}
+		}
+	},
+	[6046] = {
+		name = "困難·魯莽的後果",
+		guild_coin_award = 0,
+		award = 6046,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成困難12-2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "11202",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 11202,
+		id = 6046,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				51002,
+				1
+			}
+		}
+	},
+	[6047] = {
+		name = "困難·空中對決",
+		guild_coin_award = 0,
+		award = 6047,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成困難12-3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "11203",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 11203,
+		id = 6047,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				51003,
+				1
+			}
+		}
+	},
+	[6048] = {
+		name = "困難·TF58，翱翔於天際",
+		guild_coin_award = 0,
+		award = 6048,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成困難12-4的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "11204",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 11204,
+		id = 6048,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				51004,
+				1
 			}
 		}
 	},
@@ -83678,6 +84148,451 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[17100] = {
+		name = "心智单元II支援常驻活动任务1",
+		guild_coin_award = 0,
+		award = 96220,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登入遊戲",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17100,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				50
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[17101] = {
+		name = "心智单元II支援常驻活动任务2",
+		guild_coin_award = 0,
+		award = 96221,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "艦隊出擊，獲得3次勝利",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17101,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16501,
+				80
+			}
+		}
+	},
+	[17102] = {
+		name = "心智单元II支援常驻活动任务3",
+		guild_coin_award = 0,
+		award = 96222,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造艦船1次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17102,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				50
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[17103] = {
+		name = "心智单元II支援常驻活动任务4",
+		guild_coin_award = 0,
+		award = 96223,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "後宅補充食物1次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17103,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				50
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[17104] = {
+		name = "心智单元II支援常驻活动任务5",
+		guild_coin_award = 0,
+		award = 96224,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 26,
+		desc = "艦隊出擊，進行1次每日挑戰",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17104,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16501,
+				80
+			}
+		}
+	},
+	[17105] = {
+		name = "心智单元II支援常驻活动任务6",
+		guild_coin_award = 0,
+		award = 96225,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "艦隊出擊，通關主線困難海域1次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17105,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16501,
+				80
+			}
+		}
+	},
+	[17106] = {
+		name = "心智单元II支援常驻活动任务7",
+		guild_coin_award = 0,
+		award = 96226,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 402,
+		desc = "提交大艦隊籌備1次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17106,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				50
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[17107] = {
+		name = "心智单元II支援常驻活动任务8",
+		guild_coin_award = 0,
+		award = 96227,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "執行軍事委託1次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17107,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				50
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[17108] = {
+		name = "心智单元II支援常驻活动任务9",
+		guild_coin_award = 0,
+		award = 96228,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 27,
+		desc = "參與1次軍事演習。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17108,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16501,
+				80
+			}
+		}
+	},
+	[17109] = {
+		name = "心智单元II支援常驻活动任务10",
+		guild_coin_award = 0,
+		award = 96229,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 110,
+		desc = "進行1次科研",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17109,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				50
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[17110] = {
+		name = "心智单元II支援常驻活动任务11",
+		guild_coin_award = 0,
+		award = 96230,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 304,
+		desc = "艦隊出征，大型作戰中任意海域戰鬥1次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17110,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16501,
+				80
+			}
+		}
+	},
 	[17220] = {
 		name = "『古立特』日常建造",
 		guild_coin_award = 0,
@@ -100762,6 +101677,13 @@ pg.task_data_template = {
 		53,
 		54,
 		55,
+		1401,
+		1402,
+		1403,
+		1404,
+		1405,
+		1406,
+		1407,
 		3000,
 		3001,
 		3002,
@@ -101290,6 +102212,10 @@ pg.task_data_template = {
 		6042,
 		6043,
 		6044,
+		6045,
+		6046,
+		6047,
+		6048,
 		7201,
 		7202,
 		7203,
@@ -102857,6 +103783,17 @@ pg.task_data_template = {
 		17041,
 		17042,
 		17043,
+		17100,
+		17101,
+		17102,
+		17103,
+		17104,
+		17105,
+		17106,
+		17107,
+		17108,
+		17109,
+		17110,
 		17220,
 		17221,
 		17222,

@@ -670,7 +670,7 @@ pg.activity_const = {
 		act_id = 30186
 	},
 	SANDIEGO_REFORM = {
-		act_id = 45019
+		act_id = 45030
 	},
 	SKIN_YAMASHIRO_II = {
 		act_id = 45018
@@ -802,7 +802,7 @@ pg.activity_const = {
 		act_id = 40427
 	},
 	LEVEL_OPEN_ACT_ID = {
-		act_id = 4136
+		act_id = 45029
 	},
 	RETUREN_AWARD_1 = {
 		act_id = 40428

@@ -7092,7 +7092,7 @@ pg.skill_data_template = {
 		id = 6240,
 		type = 0,
 		max_level = 0,
-		desc = "空中支援時，自身艦載機對敵方輕母、航母傷害提高5.0%",
+		desc = "空中支援時，自身艦載機對敵方輕航、航母傷害提高5.0%",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7536,11 +7536,11 @@ pg.skill_data_template = {
 	},
 	[6430] = {
 		desc_get = "",
-		name = "萨奇剪",
+		name = "薩奇剪",
 		id = 6430,
 		type = 0,
 		max_level = 0,
-		desc = "装备时提升队伍中所有戰鬥机4%武器效率，同类效果取最大值，不可叠加",
+		desc = "裝備時提升隊伍中所有戰鬥機4%武器效率，同類效果取最大值，不可疊加",
 		system_transform = {},
 		world_death_mark = {
 			1

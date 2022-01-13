@@ -24,11 +24,15 @@ function slot0.Update(slot0, slot1, slot2)
 end
 
 function slot0.Show(slot0)
-	setActive(slot0._tf, true)
+	if not IsNil(slot0._tf) then
+		setActive(slot0._tf, true)
+	end
 end
 
 function slot0.Hide(slot0)
-	setActive(slot0._tf, false)
+	if not IsNil(slot0._tf) then
+		setActive(slot0._tf, false)
+	end
 end
 
 function slot0.Clear(slot0)

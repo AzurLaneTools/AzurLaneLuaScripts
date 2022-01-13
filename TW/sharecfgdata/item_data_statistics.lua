@@ -6068,6 +6068,27 @@ _G.pg.item_data_statistics[15011] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[15012] = {
+	display = "可用於認知覺醒，提升<color=#92fc63>120級以上且滿足三次突破條件</color>的角色等級上限",
+	name = "心智單元II",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/15012",
+	id = 15012,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[16001] = {
 	display = "艦艇攻擊教材T1，用於訓練角色攻擊技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇攻擊教材T2</color>",
 	name = "艦艇攻擊教材T1",
@@ -6126,6 +6147,27 @@ _G.pg.item_data_statistics[16003] = {
 	is_world = 0,
 	icon = "Props/16003",
 	id = 16003,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[16004] = {
+	display = "艦艇攻擊教材T4，用於訓練角色攻擊技能可以獲得額外的經驗",
+	name = "艦艇攻擊教材T4",
+	max_num = 0,
+	type = 10,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16004",
+	id = 16004,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -6194,6 +6236,27 @@ _G.pg.item_data_statistics[16013] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[16014] = {
+	display = "艦艇防禦教材T4，用於訓練角色防禦技能可以獲得額外的經驗",
+	name = "艦艇防禦教材T4",
+	max_num = 0,
+	type = 10,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16014",
+	id = 16014,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[16021] = {
 	display = "艦艇輔助教材T1，用於訓練角色輔助技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇輔助教材T2</color>",
 	name = "艦艇輔助教材T1",
@@ -6252,6 +6315,27 @@ _G.pg.item_data_statistics[16023] = {
 	is_world = 0,
 	icon = "Props/16023",
 	id = 16023,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[16024] = {
+	display = "艦艇輔助教材T4，用於訓練角色輔助技能可以獲得額外的經驗",
+	name = "艦艇輔助教材T4",
+	max_num = 0,
+	type = 10,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16024",
+	id = 16024,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -28110,6 +28194,326 @@ _G.pg.item_data_statistics[50006] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[51001] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*250",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51001,
+	display_icon = {
+		{
+			2,
+			15012,
+			25
+		},
+		{
+			2,
+			15008,
+			250
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51002] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*350",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51002,
+	display_icon = {
+		{
+			2,
+			15012,
+			25
+		},
+		{
+			2,
+			15008,
+			350
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51003] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*450",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51003,
+	display_icon = {
+		{
+			2,
+			15012,
+			25
+		},
+		{
+			2,
+			15008,
+			450
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51004] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*550",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51004,
+	display_icon = {
+		{
+			2,
+			15012,
+			25
+		},
+		{
+			2,
+			15008,
+			550
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51005] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*50\n<color=#ffde38>心智單元</color>*100",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51005,
+	display_icon = {
+		{
+			2,
+			15012,
+			50
+		},
+		{
+			2,
+			15008,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51006] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*100\n<color=#ffde38>心智單元</color>*200",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51006,
+	display_icon = {
+		{
+			2,
+			15012,
+			100
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51007] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*150\n<color=#ffde38>心智單元</color>*300",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51007,
+	display_icon = {
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			300
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51008] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*200\n<color=#ffde38>心智單元</color>*400",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51008,
+	display_icon = {
+		{
+			2,
+			15012,
+			200
+		},
+		{
+			2,
+			15008,
+			400
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51009] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*250\n<color=#ffde38>心智單元</color>*500",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51009,
+	display_icon = {
+		{
+			2,
+			15012,
+			250
+		},
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[51010] = {
+	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*300\n<color=#ffde38>心智單元</color>*600",
+	name = "心智單元組合",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/51001",
+	id = 51010,
+	display_icon = {
+		{
+			2,
+			15012,
+			300
+		},
+		{
+			2,
+			15008,
+			600
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[52001] = {
 	display = "有機率獲得以下藍圖",
 	name = "未知藍圖",
@@ -34673,6 +35077,27 @@ _G.pg.item_data_statistics[54006] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[54007] = {
+	display = "有機率獲得隨機教材T4",
+	name = "未知教材T4",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54004",
+	id = 54007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[54011] = {
 	display = "有機率獲得隨機裝備部件T1",
 	name = "未知裝備部件T1",
@@ -36053,6 +36478,112 @@ _G.pg.item_data_statistics[54051] = {
 	icon = "Props/54033",
 	id = 54051,
 	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[54100] = {
+	display = "有機率獲得以下隨機裝備部件T4",
+	name = "未知裝備部件T4",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54014",
+	id = 54100,
+	display_icon = {
+		{
+			2,
+			17004,
+			1
+		},
+		{
+			2,
+			17024,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[54101] = {
+	display = "有機率獲得以下隨機裝備部件T4",
+	name = "未知裝備部件T4",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54014",
+	id = 54101,
+	display_icon = {
+		{
+			2,
+			17004,
+			1
+		},
+		{
+			2,
+			17014,
+			1
+		},
+		{
+			2,
+			17024,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[54102] = {
+	display = "有機率獲得以下隨機裝備部件T4",
+	name = "未知裝備部件T4",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54014",
+	id = 54102,
+	display_icon = {
+		{
+			2,
+			17004,
+			1
+		},
+		{
+			2,
+			17034,
+			1
+		},
+		{
+			2,
+			17044,
+			1
+		}
+	},
 	price = {},
 	index = {}
 }
@@ -117377,6 +117908,27 @@ _G.pg.item_data_statistics[59786] = {
 	is_world = 0,
 	icon = "props/xiuxingdan",
 	id = 59786,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59788] = {
+	display = "集齊18個可以獲得聖地牙哥專屬改造道具-閃耀的麥克風",
+	name = "聖地牙哥之星",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 45030,
+	virtual_type = 8,
+	is_world = 0,
+	icon = "Props/linkstar",
+	id = 59788,
 	display_icon = {},
 	price = {},
 	index = {}

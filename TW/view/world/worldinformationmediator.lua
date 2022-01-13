@@ -2,6 +2,7 @@ slot0 = class("WorldInformationMediator", import("..base.ContextMediator"))
 slot0.OnTriggerTask = "WorldInformationMediator.OnTriggerTask"
 slot0.OnSubmitTask = "WorldInformationMediator.OnSubmitTask"
 slot0.OnTaskGoto = "WorldInformationMediator.OnTaskGoto"
+slot0.OnOpenDailyTaskPanel = "WorldInformationMediator.OnOpenDailyTaskPanel"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.OnTaskGoto, function (slot0, slot1)
@@ -18,6 +19,14 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.WORLD_SUMBMIT_TASK, {
 			taskId = slot1.id
 		})
+	end)
+	slot0:bind(uv0.OnOpenDailyTaskPanel, function (slot0)
+		nowWorld():GetTaskProxy():checkDailyTask(function ()
+			uv0:addSubLayers(Context.New({
+				mediator = WorldDailyTaskMediator,
+				viewComponent = WorldDailyTaskLayer
+			}))
+		end)
 	end)
 	slot0.viewComponent:setWorldTaskProxy(nowWorld():GetTaskProxy())
 end

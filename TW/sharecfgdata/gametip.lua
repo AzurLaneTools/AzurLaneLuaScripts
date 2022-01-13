@@ -2375,10 +2375,10 @@ _G.pg.gametip.link_link_help_tip = {
 			info = "遊戲規則\n"
 		},
 		{
-			info = "1.活動期間每天0:00:00增加一次可獲得【聖地牙哥之星】\n的次數；"
+			info = "1.活動期間每天0:00:00增加一次可獲得【聖地牙哥之星】的次數；"
 		},
 		{
-			info = "2.獲得【聖地牙哥之星】的次數可以累積，總計7次，即\n便前一天沒有完成，也可以累積；"
+			info = "2.獲得【聖地牙哥之星】的次數可以累積，總計7次，即便前一天沒有完成，也可以累積；"
 		},
 		{
 			info = "3.連線兩個相同的角色頭像進行消除；"
@@ -2387,10 +2387,10 @@ _G.pg.gametip.link_link_help_tip = {
 			info = "4.連接兩個頭像之間的連線拐彎不能超過兩個；"
 		},
 		{
-			info = "5.消除所有的角色頭像後，如果擁有可獲得【聖地牙哥之\n星】的次數，可獲得【聖地牙哥之星】並消耗一次次數；"
+			info = "5.消除所有的角色頭像後，如果擁有可獲得【聖地牙哥之星】的次數，可獲得【聖地牙哥之星】並消耗一次次數；"
 		},
 		{
-			info = "6.參與活動7天可收集18顆【聖地牙哥之星】，並獲得聖\n地牙哥專屬改造道具【閃耀的麥克風】。"
+			info = "6.參與活動7天可收集18顆【聖地牙哥之星】，並獲得聖地牙哥專屬改造道具【閃耀的麥克風】。"
 		}
 	}
 }
@@ -3784,6 +3784,18 @@ _G.pg.gametip.world_task_view3 = {
 
 _G.pg.gametip.world_task_refuse1 = {
 	tip = "任務已到達領取上限，請完成一些任務後再來領取吧"
+}
+
+_G.pg.gametip.world_daily_task_lock = {
+	tip = "完成主線第四章後將開啟日常任務"
+}
+
+_G.pg.gametip.world_daily_task_none = {
+	tip = "指揮官，當前沒有任務可以接取"
+}
+
+_G.pg.gametip.world_daily_task_none_2 = {
+	tip = "No missions currently available"
 }
 
 _G.pg.gametip.world_sairen_title = {
@@ -9304,15 +9316,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "約克公爵建造追加！"
+	tip = "鐵必制、希佩爾將軍建造追加！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "熱心、阿卡司塔建造追加！"
+	tip = "Z46、Z25、Z35、Z18、Z19建造追加！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "光榮建造追加！"
+	tip = "齊柏林伯爵、U-47、U-557建造追加！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -17799,4 +17811,44 @@ _G.pg.gametip.shop_item_title = {
 
 _G.pg.gametip.shop_charge_level_limit = {
 	tip = "級解鎖"
+}
+
+_G.pg.gametip.player_manifesto_placeholder = {
+	tip = "點擊修改簽名…"
+}
+
+_G.pg.gametip.box_ship_del_click = {
+	tip = "點擊輸入"
+}
+
+_G.pg.gametip.box_equipment_del_click = {
+	tip = "點擊輸入"
+}
+
+_G.pg.gametip.change_player_name_title = {
+	tip = "更改名字"
+}
+
+_G.pg.gametip.change_player_name_subtitle = {
+	tip = "請輸入名字"
+}
+
+_G.pg.gametip.change_player_name_input_tip = {
+	tip = "輸入名稱"
+}
+
+_G.pg.gametip.tactics_class_start = {
+	tip = "開始課程"
+}
+
+_G.pg.gametip.tactics_class_cancel = {
+	tip = "取消"
+}
+
+_G.pg.gametip.tactics_class_get_exp = {
+	tip = "獲得技能經驗"
+}
+
+_G.pg.gametip.tactics_class_spend_time = {
+	tip = "消耗時間"
 }

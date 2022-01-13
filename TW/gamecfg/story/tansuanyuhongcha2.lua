@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "要不然设置一个搏击擂台，来一个热血主体的咖啡店怎么样？",
+			say = "要不然设置一个搏击擂台，来一个热血主题的咖啡店怎么样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

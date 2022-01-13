@@ -152,6 +152,10 @@ function slot0.OnDidEnter(slot0)
 		uv0:closePreFurnSelected()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.decorationBtn, function ()
+		if uv0.dragShip then
+			return
+		end
+
 		if uv0.inInitFurnitrues then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_is_loading"))
 
@@ -483,6 +487,14 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2, slot3)
 	end)
 end
 
+function slot0.enableZoom(slot0, slot1, slot2)
+	slot0.zoom.enabled = slot1
+
+	if slot2 then
+		slot0.mainTFCG.blocksRaycasts = slot1
+	end
+end
+
 function slot0.registerFurnitureEvent(slot0, slot1)
 	slot2 = slot0.furnitureModals[slot1.id]
 	slot3 = slot2.dragTF
@@ -656,7 +668,14 @@ function slot0.removeFurn(slot0, slot1)
 		slot0.dynamicBg:ClearByName(slot7)
 	end
 
-	slot0.furnitureModals[slot1.id]:Clear()
+	slot2 = slot0.furnitureModals[slot1.id]
+	slot3, slot4, slot5, slot6, slot7, slot8 = slot1:getTouchSpineConfig()
+
+	if slot6 then
+		slot0:disableEffect(slot6)
+	end
+
+	slot2:Clear()
 
 	if slot0.furnitureDescWindow.playData and slot0.furnitureDescWindow.playData.id == slot1.id then
 		slot0.furnitureDescWindow.playData = nil
@@ -679,6 +698,7 @@ function slot0.furnitureBeginDrag(slot0, slot1)
 	end
 
 	slot0.isDraging = true
+	slot0.dragFur = slot1
 
 	if IsNil(slot0.decoratePanelCG) then
 		slot0.decoratePanelCG = GetOrAddComponent(GameObject.Find("/UICamera/Canvas/UIMain/BackYardDecorationUI(Clone)"), typeof(CanvasGroup))
@@ -747,6 +767,7 @@ function slot0.furnitureEndDrag(slot0, slot1, slot2)
 
 		uv0.decoratePanelCG.blocksRaycasts = true
 		uv0.isDraging = nil
+		uv0.dragFur = nil
 	end
 
 	function slot7(slot0)
@@ -1130,6 +1151,14 @@ function slot0.RemoveStopBgmTimer(slot0)
 
 		slot0.bgmTimer = nil
 	end
+end
+
+function slot0.OnApplicationPause(slot0)
+	if slot0.dragFur then
+		slot0:furnitureEndDrag(Vector2(-1, -1), slot0.dragFur)
+	end
+
+	slot0.shipsView:OnApplicationPause()
 end
 
 return slot0

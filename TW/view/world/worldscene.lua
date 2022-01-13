@@ -7,9 +7,10 @@ slot0.Listeners = {
 	onUpdateSubmarineSupport = "OnUpdateSubmarineSupport",
 	onClearMoveQueue = "ClearMoveQueue",
 	onModelSelectMap = "OnModelSelectMap",
-	onUpdateRound = "OnUpdateRound",
+	onUpdateDaily = "OnUpdateDaily",
 	onUpdateProgress = "OnUpdateProgress",
 	onUpdateScale = "OnUpdateScale",
+	onUpdateRound = "OnUpdateRound",
 	onDisposeMap = "OnDisposeMap",
 	onFleetSelected = "OnFleetSelected"
 }
@@ -421,11 +422,17 @@ function slot0.SetPlayer(slot0, slot1)
 end
 
 function slot0.AddWorldListener(slot0)
-	nowWorld():AddListener(World.EventUpdateProgress, slot0.onUpdateProgress)
+	slot1 = nowWorld()
+
+	slot1:AddListener(World.EventUpdateProgress, slot0.onUpdateProgress)
+	slot1:GetTaskProxy():AddListener(WorldTaskProxy.EventUpdateDailyTaskIds, slot0.onUpdateDaily)
 end
 
 function slot0.RemoveWorldListener(slot0)
-	nowWorld():RemoveListener(World.EventUpdateProgress, slot0.onUpdateProgress)
+	slot1 = nowWorld()
+
+	slot1:RemoveListener(World.EventUpdateProgress, slot0.onUpdateProgress)
+	slot1:GetTaskProxy():RemoveListener(WorldTaskProxy.EventUpdateDailyTaskIds, slot0.onUpdateDaily)
 end
 
 function slot0.SetInMap(slot0, slot1, slot2)
@@ -712,7 +719,7 @@ function slot0.NewAtlasRight(slot0, slot1, slot2)
 	onButton(slot0, slot3.btnSettings, function ()
 		uv0:Op("OpOpenScene", SCENE.SETTINGS, {
 			scroll = "world_settings",
-			toggle = SettingsScene.EnterToggle.options
+			page = NewSettingsScene.PAGE_OPTION
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot3.btnSwitch, function ()
@@ -739,6 +746,7 @@ function slot0.DisplayAtlasBottom(slot0)
 	slot0.wsAtlasBottom:SetOverSize(slot0.rtTop:Find("adapt").offsetMax.x)
 	slot0.wsAtlasBottom:UpdateScale(1)
 	setActive(slot0.rtBottomAtlas, true)
+	setActive(slot0.wsAtlasBottom.btnDailyTask:Find("tip"), nowWorld():GetTaskProxy():canAcceptDailyTask())
 end
 
 function slot0.HideAtlasBottom(slot0)
@@ -791,6 +799,20 @@ function slot0.NewAtlasBottom(slot0, slot1)
 				page = WorldMediaCollectionScene.PAGE_RECORD
 			})
 		end)
+	end, SFX_PANEL)
+	onButton(slot0, slot2.btnDailyTask, function ()
+		if nowWorld():IsSystemOpen(WorldConst.SystemDailyTask) then
+			slot1 = slot0:GetTaskProxy()
+
+			slot1:checkDailyTask(function ()
+				uv0:Op("OpOpenLayer", Context.New({
+					mediator = WorldDailyTaskMediator,
+					viewComponent = WorldDailyTaskLayer
+				}))
+			end)
+		else
+			pg.TipsMgr.GetInstance(i18n("world_daily_task_lock"))
+		end
 	end, SFX_PANEL)
 
 	return slot2
@@ -1417,6 +1439,12 @@ function slot0.OnUpdateSubmarineSupport(slot0, slot1)
 	end
 end
 
+function slot0.OnUpdateDaily(slot0)
+	if slot0.wsAtlasBottom then
+		setActive(slot0.wsAtlasBottom.btnDailyTask:Find("tip"), nowWorld():GetTaskProxy():canAcceptDailyTask())
+	end
+end
+
 function slot0.OnFleetSelected(slot0, slot1, slot2)
 	if slot2.selected then
 		slot0.wsDragProxy:Focus(slot2.transform.position, nil, LeanTweenType.easeInOutSine)
@@ -1703,6 +1731,7 @@ function slot0.UpdateSystemOpen(slot0)
 		end
 
 		setActive(slot0.wsAtlasBottom.btnShop, slot1:IsSystemOpen(WorldConst.SystemResetShop))
+		setActive(slot0.wsAtlasBottom.btnDailyTask:Find("mask"), not slot1:IsSystemOpen(WorldConst.SystemDailyTask))
 		setActive(slot0.wsAtlasRight.btnSwitch, slot1:IsSystemOpen(WorldConst.SystemAutoSwitch))
 	end
 

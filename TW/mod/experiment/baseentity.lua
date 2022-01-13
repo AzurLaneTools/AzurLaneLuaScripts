@@ -31,7 +31,7 @@ slot1 = {
 	end
 }
 
-function slot0.Ctor(slot0)
+function slot0.Ctor(slot0, ...)
 	uv0.super.Ctor(slot0)
 	rawset(slot0, "fields", {})
 
@@ -49,7 +49,7 @@ function slot0.Ctor(slot0)
 	end
 
 	setmetatable(slot0, uv1)
-	slot0:Build()
+	slot0:Build(...)
 end
 
 function slot0.Build(slot0)

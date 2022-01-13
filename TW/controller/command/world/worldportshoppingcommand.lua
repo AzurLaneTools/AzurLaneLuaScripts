@@ -28,23 +28,26 @@ function slot0.execute(slot0, slot1)
 			uv0:UpdateCount(uv0.count - 1)
 
 			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
-			slot2 = uv1:GetActiveMap()
-			slot3 = slot2:GetFleet()
-			slot4 = slot2:GetPort()
-			slot5 = uv2.id
+			slot2 = uv1.id
 
-			if uv2.type == DROP_TYPE_RESOURCE then
-				slot5 = id2ItemId(uv2.id)
-				slot6 = uv3:getData()
+			if uv1.type == DROP_TYPE_RESOURCE then
+				slot2 = id2ItemId(uv1.id)
+				slot3 = uv2:getData()
 
-				slot6:consume({
-					[id2res(shopCfg.resource_type)] = uv2.count
+				slot3:consume({
+					[id2res(shopCfg.resource_type)] = uv1.count
 				})
-				uv3:updatePlayer(slot6)
-			elseif uv2.type == DROP_TYPE_WORLD_ITEM then
-				uv4:RemoveItem(uv2.id, uv2.count)
+				uv2:updatePlayer(slot3)
+			elseif uv1.type == DROP_TYPE_WORLD_ITEM then
+				uv3:RemoveItem(uv1.id, uv1.count)
 			end
 
+			slot3 = uv4:GetActiveMap():GetPort()
+			slot5 = nowWorld():GetAtlas()
+
+			slot5:UpdatePortMark(slot3.id, #underscore.filter(slot3.goods, function (slot0)
+				return slot0.count > 0
+			end) > 0)
 			uv5:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
 				drops = slot1
 			})

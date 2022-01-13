@@ -13,7 +13,20 @@ function slot0.OnInit(slot0)
 	slot0:Show()
 end
 
+function slot0.Show(slot0)
+	uv0.super.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.BASE_LAYER
+	})
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+end
+
 function slot0.OnDestroy(slot0)
+	slot0:Hide()
 end
 
 function slot0.setData(slot0, slot1, slot2)
@@ -47,6 +60,8 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.bg, function ()
+		uv0:Hide()
+
 		if uv0.closeCB then
 			uv0.closeCB()
 		else

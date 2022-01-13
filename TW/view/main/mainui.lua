@@ -1573,7 +1573,13 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 			position = Vector3(0, 0, 0),
 			parent = slot4,
 			effectParent = slot5
-		}), function ()
+		}), function (slot0)
+			if uv0.exited then
+				slot0:Dispose()
+
+				return
+			end
+
 			uv0:initShipChat()
 
 			uv0.paintingLoading = false
@@ -1588,7 +1594,13 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 			scale = Vector3(52, 52, 52),
 			position = Vector3(0, 0, 100),
 			parent = slot3
-		}), function ()
+		}), function (slot0)
+			if uv0.exited then
+				slot0:Dispose()
+
+				return
+			end
+
 			uv0:initShipChat()
 
 			uv0.paintingLoading = false
@@ -1599,6 +1611,8 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 		SetActive(slot3, false)
 		setPaintingPrefabAsync(slot0._paintingTF, slot1, "mainNormal", function ()
 			if uv0.exited then
+				retPaintingPrefab(uv0._paintingTF, uv1)
+
 				return
 			end
 
