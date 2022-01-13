@@ -81,13 +81,14 @@ end
 function slot0.OnUpdate(slot0, slot1, slot2)
 	slot0.slotIndex = slot1
 	slot0.typeIndex = slot2
-	slot5 = getProxy(BayProxy):RawGetShipById(getProxy(PlayerProxy):getRawData().characters[slot2])
+	slot0.playerInfo = slot0.playerInfo or getProxy(PlayerProxy):getRawData()
+	slot4 = getProxy(BayProxy):RawGetShipById(slot0.playerInfo.characters[slot2])
 
-	if not slot0.displayShip or slot0.displayShip.skinId ~= slot5.skinId then
-		slot0:UpdateShip(slot5)
+	if not slot0.displayShip or slot0.displayShip.skinId ~= slot4.skinId then
+		slot0:UpdateShip(slot4)
 	end
 
-	setActive(slot0.changskinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot5))
+	setActive(slot0.changskinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot4))
 end
 
 function slot0.Refresh(slot0)
@@ -224,6 +225,12 @@ function slot0.OnDispose(slot0)
 	end
 
 	ClearEventTrigger(slot0.eventTrigger)
+
+	for slot5, slot6 in ipairs(slot0.btns) do
+		slot6:Dispose()
+	end
+
+	slot0.btns = nil
 end
 
 return slot0

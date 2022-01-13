@@ -51,7 +51,7 @@ function slot0.execute(slot0, slot1)
 				else
 					slot1 = uv1:firstPayDouble() and uv2
 					slot3 = getProxy(PlayerProxy):getData()
-					slot5 = uv1:getConfig("money") * 100
+					slot5 = uv1:RawGetConfig("money") * 100
 					slot6 = uv1:getConfig("name")
 
 					if PLATFORM_CODE == PLATFORM_CH and pg.SdkMgr.GetInstance():GetChannelUID() == "21" and uv3 == 1001 then
