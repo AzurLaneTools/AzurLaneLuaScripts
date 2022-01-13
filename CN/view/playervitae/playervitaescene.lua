@@ -143,18 +143,13 @@ end
 function slot0.UpdatePainting(slot0)
 	slot1 = slot0:GetFlagShip()
 	slot2 = 0
-	slot3 = nil
 
-	for slot7, slot8 in ipairs(slot0.btns) do
-		if slot8:IsActive(slot1) then
+	for slot6, slot7 in ipairs(slot0.btns) do
+		if slot7:IsActive(slot1) then
 			slot2 = slot2 + 1
 		end
 
-		slot8:Update(slot9, slot2, slot1, slot3)
-
-		if slot9 then
-			slot3 = slot8
-		end
+		slot7:Update(slot8, slot2, slot1)
 	end
 
 	if not slot0.displaySkinID or slot0.displaySkinID ~= slot1.skinId then

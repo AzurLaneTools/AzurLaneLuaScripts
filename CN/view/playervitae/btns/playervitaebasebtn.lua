@@ -14,6 +14,15 @@ function slot0.IsHrzType(slot0)
 end
 
 function slot0.NewGo(slot0)
+	slot2, slot3 = slot0:GetBgName()
+
+	LoadSpriteAtlasAsync("ui/" .. slot2, slot3, function (slot0)
+		slot1 = uv0:GetComponent(typeof(Image))
+		slot1.sprite = slot0
+
+		slot1:SetNativeSize()
+	end)
+
 	return Object.Instantiate(slot0.tpl, slot0.tpl.parent).transform
 end
 
@@ -36,7 +45,7 @@ function slot0.IsActive(slot0)
 	return false
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3, slot4)
+function slot0.Update(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		slot0:Hide()
 
@@ -48,53 +57,35 @@ function slot0.Update(slot0, slot1, slot2, slot3, slot4)
 
 	if not slot0.isLoaded then
 		slot0:Load(slot0:NewGo())
-
-		slot5, slot6 = slot0:GetBgName()
-
-		LoadSpriteAtlasAsync("ui/" .. slot5, slot6, function (slot0)
-			slot1 = uv0.tf:GetComponent(typeof(Image))
-			slot1.sprite = slot0
-
-			slot1:SetNativeSize()
-			uv0:UpdatePosition(uv1)
-		end)
-	else
-		if slot0.flag ~= slot0:GetDefaultValue() then
-			slot0:InitBtn()
-		end
-
-		slot0:UpdatePosition(slot4)
+	elseif slot0.flag ~= slot0:GetDefaultValue() then
+		slot0:InitBtn()
 	end
 
+	slot0:UpdatePosition()
 	slot0:Show()
 end
 
-function slot0.UpdatePosition(slot0, slot1)
-	if IsNil(slot0.tf) then
-		return
-	end
-
+function slot0.UpdatePosition(slot0)
 	if slot0:IsHrzType() then
-		slot0:UpdatePositionForHrz(slot1)
+		slot0:UpdatePositionForHrz()
 	else
-		slot0:UpdatePositionForVec(slot1)
+		slot0:UpdatePositionForVec()
 	end
 end
 
-function slot0.UpdatePositionForHrz(slot0, slot1)
-	slot2 = slot0.startPos
-	slot3 = 20
-	slot4 = nil
+function slot0.UpdatePositionForHrz(slot0)
+	slot1 = slot0.startPos
+	slot3 = 0
 	slot0.tf.anchorMax = Vector2(0, 0)
 	slot0.tf.anchorMin = Vector2(0, 0)
-	slot0.tf.anchoredPosition = Vector2(not slot1 and (slot0.index - 1) * (slot0.tf.sizeDelta.x + slot3) + slot2.x or slot1.tf.anchoredPosition.x + slot1.tf.sizeDelta.x + slot3, slot2.y)
+	slot0.tf.anchoredPosition = Vector2((slot0.index - 1) * ((PLATFORM_CODE == PLATFORM_US and 340 or slot0.tf.sizeDelta.x) + 20) + slot1.x, slot1.y)
 end
 
-function slot0.UpdatePositionForVec(slot0, slot1)
-	slot2 = slot0.startPos
+function slot0.UpdatePositionForVec(slot0)
+	slot1 = slot0.startPos
 	slot0.tf.anchorMax = Vector2(0, 1)
 	slot0.tf.anchorMin = Vector2(0, 1)
-	slot0.tf.anchoredPosition = Vector2(slot2.x, (slot0.index - 1) * (slot0.tf.sizeDelta.y + 20) + slot2.y)
+	slot0.tf.anchoredPosition = Vector2(slot1.x, (slot0.index - 1) * (slot0.tf.sizeDelta.y + 20) + slot1.y)
 end
 
 function slot1(slot0, slot1)
