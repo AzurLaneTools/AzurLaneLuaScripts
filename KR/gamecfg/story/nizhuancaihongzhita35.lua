@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "(재미 없다... 이름....)",
+			say = "(재미 없는... 이름....)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "오로라의 벽.. 이라면 이전에 비시아 성좌가 모잠비크에서 실험한 무기 아닙니까?",
+			say = "오로라의 벽.. 이라면 이전에 비시아 성좌가 모잠비크에서 실험한 무기 아니야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

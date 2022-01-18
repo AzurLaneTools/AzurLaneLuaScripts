@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "역시 재밌어. 응전할까요? 아니면 우회할까요?",
+			say = "역시 재밌어. 응전해? 아니면 우회할까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -46,7 +46,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "맞아요... 조심해요. 저들의 전투력은 상당히 강하니까.",
+			say = "맞아... 조심해. 저들은 전투력이 상당하니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그런데 정말 포탄이 맞긴 한 겁니까?",
+			say = "그런데 정말 포탄이 맞긴 한 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

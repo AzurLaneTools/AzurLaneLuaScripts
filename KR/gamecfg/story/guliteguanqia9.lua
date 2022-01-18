@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "우선 세이렌의 칩입부터 얘기하는 게 좋겠어요.",
+			say = "우선 세이렌의 침입부터 얘기하는 게 좋겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

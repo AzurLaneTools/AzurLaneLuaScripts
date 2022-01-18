@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "반갑군. 울리히 폰 후텐. 호칭은 편한 대로 하면 된다만, 개인적으로는 그냥 샤른흐르스트라고 불리는 게 좋다.",
+			say = "반갑군. 울리히 폰 후텐. 호칭은 편한 대로 하면 된다만, 개인적으로는 그냥 샤른호르스트라고 불리는 게 좋다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "동생아! 함께 잔해로 돌아가지 않겠니?",
+			say = "동생아! 함께 잔불로 돌아가지 않겠니?",
 			flashout = {
 				black = true,
 				dur = 1,

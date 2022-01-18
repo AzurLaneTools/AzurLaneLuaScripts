@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "수면 아래에도 추격은 없습니다. 잠시나마 안전할 것 같습니다.",
+			say = "수면 아래도 추격은 없어. 잠시 안전할 거 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

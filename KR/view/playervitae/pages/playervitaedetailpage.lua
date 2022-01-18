@@ -149,6 +149,10 @@ function slot0.UpdatePower(slot0)
 	slot0.highestEmblem.text = i18n("friend_resume_title_metal") .. pg.arena_data_rank[math.min(math.max(slot0.player.maxRank, 1), 14)].name
 
 	getProxy(BayProxy):GetBayPowerRootedAsyn(function (slot0)
+		if uv0.exited then
+			return
+		end
+
 		uv0.powerTxt.text = math.floor(slot0)
 	end)
 
@@ -160,6 +164,8 @@ function slot0.UpdateInfo(slot0)
 	slot0.idTxt.text = slot0.player.id
 	slot0.levelTxt.text = "LV." .. slot0.player.level
 	slot0.expTxt.text = slot0.player.exp .. "/" .. getConfigFromLevel1(pg.user_level, slot0.player.level).exp
+
+	setInputText(slot0.inputField, slot0.player.manifesto)
 end
 
 function slot0.UpdateStatistics(slot0)
@@ -219,6 +225,8 @@ function slot0.OnDestroy(slot0)
 			LeanTween.cancel(slot5.gameObject)
 		end
 	end
+
+	slot0.exited = true
 end
 
 return slot0

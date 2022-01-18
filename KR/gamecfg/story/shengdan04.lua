@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 305021,
+			actor = 305022,
 			nameColor = "#92fc63",
 			side = 1,
 			actorName = "{namecode:79}",

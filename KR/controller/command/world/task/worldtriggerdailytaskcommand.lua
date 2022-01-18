@@ -31,6 +31,8 @@ function slot0.execute(slot0, slot1)
 			uv1:sendNotification(GAME.WORLD_TRIGGER_DAILY_TASK_DONE)
 		elseif slot0.result == 6 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_task_refuse1"))
+		elseif slot0.result == 20 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_sametask_tip"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips("trigger task fail:" .. slot0.result)
 		end

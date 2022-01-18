@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "U-1206, 안 보이더니 그새 베저와 정찰 임무를 수행한 거야?",
+			say = "U-1206, 안 보이더니 그새 베저와 정찰 임무를 수행한 거에요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

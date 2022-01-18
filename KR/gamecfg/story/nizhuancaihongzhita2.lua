@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "엘베, 속마음이 다 들리네요.",
+			say = "엘베, 속마음이 다 들려.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

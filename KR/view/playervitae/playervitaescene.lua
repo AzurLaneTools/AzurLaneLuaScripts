@@ -64,6 +64,10 @@ function slot0.init(slot0)
 	slot0.topFrame = slot0:findTF("top/frame")
 
 	LoadSpriteAsync("CommonBG/bg_admiral", function (slot0)
+		if IsNil(uv0.bg) then
+			return
+		end
+
 		slot1 = uv0.bg:GetComponent(typeof(Image))
 		slot1.sprite = slot0
 		slot1.color = Color.New(1, 1, 1, 1)

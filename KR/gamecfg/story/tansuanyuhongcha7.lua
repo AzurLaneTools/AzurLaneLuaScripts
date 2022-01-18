@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205015,
-			say = "하지만... 확실히 직원 대우나 복지에 있어서는 저희가 밀리는 것 같군.",
+			say = "하지만... 확실히 직원 대우나 복지에 있어서는 우리가 밀리는 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
