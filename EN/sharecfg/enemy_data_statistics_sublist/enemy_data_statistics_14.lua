@@ -1409,7 +1409,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90330] = {
 		cannon = 0,
-		name = "Fuso",
+		name = "Fusou",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1726,7 +1726,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90332] = {
 		cannon = 0,
-		name = "Taihō",
+		name = "Taihou",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 49,
