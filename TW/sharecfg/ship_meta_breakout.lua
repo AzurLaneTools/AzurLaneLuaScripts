@@ -265,7 +265,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706021] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:221}】/所有鱼雷机+1/舰载机效率提高3%",
+		breakout_view = "习得技能【破敌之炬·{namecode:221}】/所有轰炸机+1/舰载机效率提高3%",
 		gold = 500,
 		breakout_id = 9706022,
 		repair = 0,
@@ -301,7 +301,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9706023] = {
-		breakout_view = "【破敌之炬·{namecode:221}】升级/所有轰炸机+2/舰载机效率提高7%",
+		breakout_view = "【破敌之炬·{namecode:221}】升级/所有鱼雷机+2/舰载机效率提高7%",
 		gold = 2500,
 		breakout_id = 9706024,
 		repair = 0,

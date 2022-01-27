@@ -285,18 +285,20 @@ function slot0.BindEvent(slot0)
 		uv0:commitActivityFleet(uv1.id)
 	end)
 	slot0:bind(uv0.ON_FLEET_RECOMMEND, function (slot0, slot1)
-		uv0.activityProxy:recommendActivityFleet(uv1.id, slot1)
+		uv0:recommendActivityFleet(uv1.id, slot1)
 
-		uv0.contextData.actFleets = uv2:getActivityFleets()[uv1.id]
+		uv2.contextData.actFleets = uv0:getActivityFleets()[uv1.id]
 
-		uv0.viewComponent:updateEditPanel()
+		uv2.viewComponent:updateEditPanel()
 	end)
 	slot0:bind(uv0.ON_FLEET_CLEAR, function (slot0, slot1)
-		slot3 = uv0:getActivityFleets()[uv1.id]
+		slot2 = uv0:getActivityFleets()[uv1.id]
+		slot3 = slot2[slot1]
 
-		slot3[slot1]:clearFleet()
+		slot3:clearFleet()
+		uv0:updateActivityFleet(uv1.id, slot1, slot3)
 
-		uv2.contextData.actFleets = slot3
+		uv2.contextData.actFleets = slot2
 
 		uv2.viewComponent:updateEditPanel()
 	end)
@@ -557,8 +559,9 @@ function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)
 			end
 
 			uv1:RemoveUnusedItems()
-			uv4:updateActivityFleet(uv5.id, uv6, uv1)
 		end
+
+		uv4:updateActivityFleet(uv5.id, uv6, uv1)
 	end
 end
 

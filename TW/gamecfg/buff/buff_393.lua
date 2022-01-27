@@ -1,7 +1,7 @@
 return {
 	init_effect = "",
 	name = "",
-	time = 0,
+	time = 6,
 	color = "yellow",
 	picture = "",
 	desc = "",

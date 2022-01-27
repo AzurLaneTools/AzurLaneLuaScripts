@@ -19,7 +19,7 @@ return {
 	stack = 1,
 	id = 15161,
 	icon = 15160,
-	last_effect = "robot_bulisituoer",
+	last_effect = "robot_bulisituoer_m",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

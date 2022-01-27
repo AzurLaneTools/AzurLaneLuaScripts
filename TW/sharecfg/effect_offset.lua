@@ -1364,7 +1364,7 @@ pg.effect_offset = {
 			0
 		}
 	},
-	robot_bulisituoer = {
+	robot_bulisituoer_m = {
 		mirror = false,
 		y_scale = false,
 		container_index = 2,
