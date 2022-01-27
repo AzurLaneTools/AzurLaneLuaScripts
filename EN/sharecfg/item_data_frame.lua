@@ -150,7 +150,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 211,
 		time_second = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （21.10.21-22.01.16）",
+		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（22.01.27-22.04.23）",
 		scene = {}
 	},
 	[300] = {

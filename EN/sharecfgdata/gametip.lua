@@ -2710,7 +2710,7 @@ Page 6: 1 Red Envelope
 Page 7: An Shan-class destroyer – An Shan]]
 		},
 		{
-			info = "After the event concludes, any unspent paint will be removed from your inventory.\nOne new page will be unlocked every day up to February 2th."
+			info = "After the event concludes, any unspent paint will be removed from your inventory.\nOne new page will be unlocked every day up to February 2nd."
 		}
 	}
 }
@@ -14401,7 +14401,7 @@ _G.pg.gametip.help_monopoly_car = {
 _G.pg.gametip.help_monopoly_3th = {
 	tip = {
 		{
-			info = "Event Duration: <color=#92fc63>1/27/2022 - 2/10/2022</color>"
+			info = "Event Duration: <color=#92fc63>1/27/2022 – 2/9/2022</color>"
 		},
 		{
 			info = [[

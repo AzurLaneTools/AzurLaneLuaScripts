@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "在经历铁血宿舍那场骚动的数日后，假期到来了。",
+			say = "A few days after the incident at the Iron Blood dormitory, it was my day off, so I told Ulrich to take the day off as well.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然没有指挥官工作，秘书舰也自然可以一同享受假期。——虽然真正目的在于想了解她平时在港区生活的状态。",
+			say = "That gesture was supposed to be my way of thanking her for her tireless work recently, but secretly, I wanted to know how she was spending her time around the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "胡滕现在会在哪里呢……",
+			say = "And so, I went to look for Ulrich.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之前借的CD还给你。我可是全都认真听了哦，你可要好好感谢我才行！",
+			say = "Here, I'm returning the CD I borrowed from you. You should be grateful I even bothered to listen to the entire album!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦。感觉如何？",
+			say = "Ah. So what'd you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "马马虎虎吧~以乌尔里希的审美而言，推荐的曲目还算不错。",
+			say = "Hmm, I guess it was pretty alright? I suppose you have pretty decent taste in music.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 703010,
-			say = "嘴上这么说，听的时候感动成一副“这神曲怎么回事！！”的样子的人是谁来着？",
+			say = "Says you. But weren't you the one going \"UOOOOOH! I'M EARGASMING,\" or am I mistaken?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我，我才不记得说过这样的话！",
+			say = "I-I never said anything like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "发现了正与希佩尔、塔林一起聊天的胡滕与一个被围在中间的黑色箱子。",
+			say = "There she is. I spotted Ulrich talking to Hipper and Tallinn. There was also a strange black case by Ulrich's side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不论如何，能理解这些曲子中的妙处就行。还有……指挥官，你在那里做什么？",
+			say = "As long as you understand, it's all good. And... Commander, what are you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官…？对啊，你来这做什么！",
+			say = "Commander...? Yeah, what she said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 703010,
-			say = "工作时间能在这种地方发现指挥官，真是少见……",
+			say = "Are you sure you can afford to waste time slacking off over here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "看来工作的样子已经成为港区同伴们心中的标准形象，休假的样子反而逐渐被淡忘了……",
+			say = "Unlike Ulrich, who knew I had the day off, the other two girls glared at me disapprovingly. But I would not back down - I had to repeat the question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是在闲聊一下音乐而已，没有什么重要的事。我姑且也是有兴趣爱好的哦。",
+			say = "Nothing much, just talking about some music. Am I not allowed to have some hobbies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "今天是你珍贵的假期对吧？不用管我，自由地度过自己的时间吧。",
+			say = "Isn't today your precious day off? Make sure you spend it doing things you want to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "要是就这么离开的话，就没法达成休假的主要目的了，还是稍微聊一下好了。",
+			say = "But, I wanted to learn more about her. So I continued to stay in the conversation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 703010,
-			say = "原来是在休假啊……那指挥官也想听听吗？",
+			say = "Commander, did you want to give it a listen too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然也想要听……难道你能理解这个曲子的美妙之处吗？！",
+			say = "As if. There's no way someone like that would be able to appreciate the beauty of this song.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "没有听过的话是不可能理解的吧，况且指挥官参与这样的对话本身就很稀奇了。",
+			say = "That's for the listener to decide. The fact that the Commander would go out of the way to talk to us seems unusual enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "…………唉，没办法。",
+			say = "...*sigh* Well, I guess there's no way about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "本来以为她会拿出音乐播放器之类的，没想到——",
+			say = "I was wondering where she'd produce a record player from, but––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "很不巧，手头上并没有播放设备。当然……也不是没有办法。",
+			say = "Unfortunately, we don't have a record player with us right now, so this will have to suffice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "胡滕从放在身侧的黑盒中，取出了吉他。",
+			say = "Ulrich reached into the black case by her side and took out a guitar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "接下来要弹唱的是我最喜欢的曲子。好好听着，然后把这种感觉铭记于心吧。",
+			say = "I'll sing you the song I've been most obsessed with. Listen closely, and etch the song in your heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "star_level_bg_146",
 			dir = 1,
 			blackBg = true,
-			say = "演奏开始了。突然出现的美妙旋律与歌声让我不由自主沉迷在其中，忘记了时间……",
+			say = "With that, Ulrich began singing while playing on her guitar. Immediately, I became captivated by her beautiful singing voice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通信",
+			actorName = "Communicator",
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
