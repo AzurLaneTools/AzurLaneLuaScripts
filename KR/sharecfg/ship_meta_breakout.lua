@@ -265,7 +265,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706021] = {
-		breakout_view = "스킬 [섬멸의 횃불·{namecode:221}] 습득/모든 뇌격기+1/ 함재기 효율 +3%",
+		breakout_view = "스킬 [섬멸의 횃불·{namecode:221}] 습득/폭격기 탑재량 +1/ 함재기 효율 +3%",
 		gold = 500,
 		breakout_id = 9706022,
 		repair = 0,
@@ -301,7 +301,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9706023] = {
-		breakout_view = "[섬멸의 횃불·{namecode:221}]레벨업/함재기 탑재량 +2/함재기 효율 +7%",
+		breakout_view = "[섬멸의 횃불·{namecode:221}]레벨업/모든 뇌격기 +2/함재기 효율 +7%",
 		gold = 2500,
 		breakout_id = 9706024,
 		repair = 0,

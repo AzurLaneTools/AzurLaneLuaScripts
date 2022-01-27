@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>一　不苟言笑的她</size>",
+					"essential.\n\n<size=45>1. 웃지 않는 그녀</size>",
 					1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天的指挥室内也充斥着谜一般的沉默。",
+			say = "오늘의 지휘실에도 풀기 어려운 듯한 침묵이 가득하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "虽然很想说有窥视他人的空闲不如在手头继续加把劲，不过——",
+			say = "다른 사람을 신경 쓸 여유가 있으면 일이나 더 힘내서 하라고 얘기하고 싶지만——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "指挥官，文件已经整理完毕，需要销毁的部分都放在废纸箱里了。",
+			say = "지휘관, 서류 정리는 이미 끝났어. 파기해야 할 부분은 폐지함에 넣어뒀어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "桌上贴便签的部分都是需要你再次过目的，记得看。",
+			say = "책상 위에 메모를 붙여둔 건 네가 다시 한번 확인해 줘야 하는 것들이야, 꼭 봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——面前这位英姿飒爽的女性是最近莅任港区，并在数天前就任了秘书舰的乌尔里希·冯·胡滕。",
+			say = "——눈앞의 이 늠름하고 씩씩한 여자는 최근 모항에 취임해서 며칠 전 비서함으로 부임한 울리히 폰 후텐이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她的工作能力确实肉眼可见的优秀，不过……",
+			say = "그녀의 업무 능력은 확실히 눈에 띄게 뛰어나다. 하지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "布置的工作已经完成了，还有什么其它的事么？",
+			say = "맡은 업무는 모두 끝냈는데, 또 다른 일 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 			},
 			options = {
 				{
-					content = "没什么了。",
+					content = "없어.",
 					flag = 1
 				},
 				{
-					content = "今天天气不错呢。",
+					content = "오늘 날씨가 괜찮네.",
 					flag = 2
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "很好。那接下来的时间你就好好休息，我也去自由行动一下好了。",
+			say = "좋아. 그럼 이제 푹 쉬어. 나도 자유 시간 가질 테니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，是不错。既然没什么工作，接下来的时间我就自由行动了。",
+			say = "응, 그러네. 업무 없으면, 이제 자유 시간 가질게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……担任秘书舰的这几天，胡滕除了必要的对话以外几乎不会参与闲聊话题。",
+			say = "……비서함으로 근무하는 며칠 동안 후텐은 꼭 필요한 대화 외에는 거의 잡담을 하지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这已经不是一般的冷淡了吧，她该不会是那种对他人毫无兴趣的类型……？",
+			say = "이건 무뚝뚝한 게 아닌 것 같다. 설마 다른 사람에 대해 아예 관심이 없는 타입은 아니겠지……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,42 +276,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区内倒不是没有沉默寡言的伙伴，不过像她这种程度的……真的能正常融入港区的生活么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "嗯？你问我在港区过得如何？不用担心，我过得挺好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 405030,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "如果你是想打听我的人际关系，那没有必要。我本来就是作为你的部下在此，没有特别在意别人的打算。",
+			say = "모항에 과묵한 동료가 없는 것도 아니지만, 그녀처럼 이정도까지는…… 정말 모항 생활에 잘 녹아들 수 있으려나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +294,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你也只需考虑自己就好。",
+			say = "응? 모항에서 지내는 건 어떻냐고? 걱정하지 마, 잘 지내고 있으니까.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 405030,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "내 인간관계를 묻고 싶은 거라면, 그럴 필요 없어. 난 원래 너의 부하로서 여기 있는 거고, 다른 사람에게 특별히 주의를 기울일 생각은 없어.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "너도 자신만을 생각하면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "别说放心，这回答反而更让人担忧了……",
+			say = "걱정하지 마, 라는 대답이 오히려 더 걱정을 하게 만든다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

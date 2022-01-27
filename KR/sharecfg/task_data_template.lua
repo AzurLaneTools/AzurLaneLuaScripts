@@ -24853,7 +24853,7 @@ pg.task_data_template = {
 		}
 	},
 	[5731] = {
-		name = "不苟言笑的她",
+		name = "웃지 않는 그녀",
 		guild_coin_award = 0,
 		award = 5527,
 		type = 5,
@@ -24890,7 +24890,7 @@ pg.task_data_template = {
 		}
 	},
 	[5732] = {
-		name = "铁血宿舍的骚动",
+		name = "메탈 블러드 기숙사 소동",
 		guild_coin_award = 0,
 		award = 5528,
 		type = 5,
@@ -24960,7 +24960,7 @@ pg.task_data_template = {
 		}
 	},
 	[5734] = {
-		name = "毒",
+		name = "독",
 		guild_coin_award = 0,
 		award = 5530,
 		type = 5,
@@ -24995,7 +24995,7 @@ pg.task_data_template = {
 		}
 	},
 	[5735] = {
-		name = "工作，工作，然后……",
+		name = "업무, 업무, 그리고……",
 		guild_coin_award = 0,
 		award = 5531,
 		type = 5,
@@ -25085,7 +25085,7 @@ pg.task_data_template = {
 		}
 	},
 	[5737] = {
-		name = "真实的她",
+		name = "그녀의 진실한 모습",
 		guild_coin_award = 0,
 		award = 5533,
 		type = 5,
@@ -168524,39 +168524,39 @@ pg.task_data_template = {
 		added_tip = 0,
 		target_id = {
 			{
-				4,
+				2,
 				4
 			},
 			{
-				4,
+				2,
 				5
 			},
 			{
-				4,
+				2,
 				6
 			},
 			{
-				4,
+				2,
 				7
 			},
 			{
-				4,
+				2,
 				9
 			},
 			{
-				4,
+				2,
 				10
 			},
 			{
-				4,
+				2,
 				12
 			},
 			{
-				4,
+				2,
 				13
 			},
 			{
-				4,
+				2,
 				21
 			},
 			{

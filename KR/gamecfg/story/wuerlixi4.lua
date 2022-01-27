@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>四　毒</size>",
+					"essential.\n\n<size=45>4. 독</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区・演习海域",
+			say = "모항・연습 해역",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "今天的铁血演习似乎胡滕也参加了。",
+			say = "오늘의 메탈 블러드 연습전은 후텐도 참여하는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，舰队集结完毕……很好。那就让模拟战开始吧。",
+			say = "후후, 함대 집결 완료…… 좋아. 그럼 시작하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让大家见识一下我希佩尔的实力，全速前进！",
+			say = "모두에게 나 히퍼의 실력을 보여주겠어, 전속 전진!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "喂希佩尔，你冲太前了！稍微跟其他人的步调配合下！",
+			say = "히퍼, 너무 앞서갔어! 다른 동료들에게 속도를 맞춰!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "这场演习看起来是由胡滕进行指挥的，腓特烈大帝似乎更多沉浸在了战斗的乐趣上。",
+			say = "이번 연습은 후텐이 지휘를 맡은 것 같다. 프리드리히 데어 그로세는 전투의 즐거움에 빠져 있는 듯했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "不知不觉间，出神的看完了全程。",
+			say = "나도 모르는 사이에, 정신이 팔려 모든 과정을 지켜보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你都看到了吗。",
+			say = "다 본 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			},
 			options = {
 				{
-					content = "刚刚的演习非常不错。",
+					content = "방금 연습전 대단했어.",
 					flag = 1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就好。说实话我并没有腓特烈那么喜欢战斗……但为了在战场上能把所有伙伴都平安带回来，这些演习是必要的。",
+			say = "그럼 됐어. 사실 난 프리드리히 데어 그로세처럼 그렇게 전투를 좋아하지 않아…… 하지만 전장의 모든 동료들이 무사히 귀항할 수 있도록 하기 위해서, 연습전은 필수지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "到是你那边没问题么？铁血舰队的事我还要处理一段时间，你再去找个新的秘书舰顶班也可以哦。",
+			say = "네 쪽은 문제없어? 난 메탈 블러드 함대에 처리할 일이 좀 남아서. 다른 비서함을 새로 찾아서 업무 시켜도 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "最近出人意料的工作逐步空下来了，暂时来说并没有什么问题。",
+			say = "요즘 뜻밖에 업무가 점점 비어서, 한동안은 별문제가 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "胡滕可以安心处理铁血同伴之间的事，之后再返回工作也是可以的。当然——",
+			say = "후텐이 맘편히 메탈 블러드 관련 일을 처리하고 나서 이후에 돌아와 업무를 봐도 괜찮았다. 물론——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			},
 			options = {
 				{
-					content = "要多注意休息哦。",
+					content = "충분히 휴식해야 해.",
 					flag = 1
 				}
 			}
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "是是是……",
+			say = "알았어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "（小声）观察力倒是一如既往的敏锐……",
+			say = "(작은 목소리로) 관찰력이 여전히 예리하군……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比起担心别人更应该考虑自己，周围所有人里，最需要休息的人不就站在这里么。",
+			say = "다른 사람을 걱정보다 자신을 더 생각해야 한다. 주위 모든 사람들 중에, 가장 휴식이 필요한 사람은 여기 서있지 않니?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我同意。",
+			say = "동의해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "温柔可成药，过度的温柔亦能为毒。",
+			say = "부드러움은 약이 될 수 있지만, 지나친 부드러움은 독이 될 수도 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "全部饮下可是需要相当觉悟的呢。",
+			say = "전부 다 마시려면 상당한 각오가 필요하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "还是说……",
+			say = "그리고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "腓特烈……指挥官已经完全陷入困惑了，要不就先到这里吧……",
+			say = "프리드리히…… 지휘관이 벌써 곤란해하는 것 같으니까, 우선 여기까지 하자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "总而言之，不需要太在意我。如果需要帮忙的话马上直说，等到出了什么事再说就晚了哦。",
+			say = "아무튼, 날 너무 신경 쓸 필욘 없어. 만약 도움이 필요하면 곧장 말해. 무슨 일이 터지고 나서 말하면 늦어버리니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么今天的演习就到此为止，大家都回去休息吧。包括你哦，指挥官。解散——",
+			say = "그럼 오늘 연습전은 여기까지 할게, 모두 돌아가서 쉬어. 너도 포함이야, 지휘관. 해산——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

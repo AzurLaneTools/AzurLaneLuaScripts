@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>七　真实的她</size>",
+					"essential.\n\n<size=45>7. 그녀의 진실한 모습</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "再次醒来后————",
+			say = "다시 깨어난 후————",
 			side = 2,
 			bgName = "star_level_bg_109",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "夜幕已经降临，书桌前的胡滕在昏暗的灯光下沉睡着。",
+			say = "어둠이 깔리고 책상 앞의 후텐은 어두운 불빛 아래 잠들어 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "睡着在书桌前可不是什么值得鼓励的事，难道是做出不好的表率了么……",
+			say = "책상에서 잠든 것은 별로 권장할 만한 일이 아닌데, 설마 나쁜 모범을 보인 건가.……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "啧……我听到了哦。一起来就有精力吐槽，说明休息的还不错。",
+			say = "허…… 다 들었어. 눈뜨자마자 남 흉볼 정신이 있다니, 아주 푹 쉬었나 보네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			},
 			options = {
 				{
-					content = "接下来的工作就——",
+					content = "다음 업무는——",
 					flag = 1
 				}
 			}
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就交给你么？夜晚应该是休息的时间了。",
+			say = "너한테 맡길게? 야간은 쉬어야 할 시간이니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "但是在睡了这么久之后，再怎么说也睡不着了……",
+			say = "하지만 이렇게 오래 자고난 이후엔, 아무리 자려고 해도 잠이 오지 않는다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "昼夜颠倒导致疲劳过度，进而造成人造时差。这种不健康的工作方式肯定不是第一次了。长期疲劳的累计再加上突然而来的大量工作，就会变成这样了。",
+			say = "밤낮이 뒤바뀌면 피로가 누적돼 인공 시차가 생겨. 이런 건강하지 못한 업무 방식이 처음도 아니겠지. 오랜 피로가 누적된 데다 갑작스러운 대량의 업무까지 겹치면 이렇게 되는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "平时好像也没有勉强的感觉，而且工作总是要做完的……",
+			say = "평소에도 무리한다는 느낌은 없었고, 일은 마쳐야 하는 거니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "工作总是要做完的，但是做完工作的不一定要是你……唉，没有自觉么。",
+			say = "일은 마쳐야 하는 거지. 하지만 일을 마칠 사람이 꼭 너여야 할 필요는 없잖아…… 음, 자각하지 못했어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你啊，对他人有感兴趣之前，先把握好自己的事如何？",
+			say = "너는, 다른 사람에게 관심을 가지기 전에, 먼저 자신의 일에 대해 잘 파악하는 게 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "……马不停蹄地去完成剩下的工作？看书桌的情况应该还剩下了一些吧。",
+			say = "……쉬지 않고 가서 남은 일을 끝낼까? 책상의 상황을 보니 아직 좀 남았을 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "………………以防你产生不切实际的幻想姑且澄清一下，现在你面前剩下的只是我带过来的一部分里还没有处理到的一部分，在指挥室里还有今天新增的部分呢。",
+			say = "………………너에게 비현실적인 환상이 생기지 않도록 우선 설명해 줄게. 지금 네 앞에 남은 건 내가 가져온 일부분 중에 아직 처리하지 못한 부분이야. 지휘실에는 오늘 새로 추가된 부분도 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "债多不压身，今天你就乖乖放弃吧。",
+			say = "빚이 많으면 몸을 가누지 못해. 오늘은 얌전히 포기해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "说起来……观察我这么久，有什么感想吗？",
+			say = "그런데…… 날 그렇게 오래 관찰하더니, 무슨 느낌이 들었어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "回想一下这段时间内看到的事——",
+			say = "그동안 보았던 일을 되짚어 보자——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然最初有些担心胡滕能否顺利融入港区与同伴正常相处。不够后来发现完全是担心过度了。",
+			say = "처음엔 후텐이 모항에 녹아들어 동료들과 잘 지낼 수 있을지 걱정했지만, 나중에는 걱정이 너무 지나쳤다는 걸 알게 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "英姿飒爽过度理性的表象后，隐藏着一颗感性的、或者有些关心过度的心。",
+			say = "늠름하고 지나치게 이성적인 표상 뒤엔 감성적이거나 관심이 지나친 마음이 숨어 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "………………真是微妙地评价。",
+			say = "……………… 정말 미묘한 평가네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "只是根据观察到的现象实话实说而已————",
+			say = "단지 관찰한 것에 대해 그대로 말한 것뿐이었다————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			},
 			options = {
 				{
-					content = "不满意么？",
+					content = "별로 맘에 안 들어?",
 					flag = 1
 				}
 			}
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "也没有……既然是观察之后得出的结果，根据主观急于否认也太不讲道理了。",
+			say = "그런 건 아니야…… 관찰 후 얻어낸 결과인데, 주관에 따라 부정을 서두르는 것도 무리가 있겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "唉……腓特烈说的不错，对于“毒性”我已经感同身受了。",
+			say = "음…… 프리드리히 말이 맞아. \"독성\"에 대해서는 나도 동감이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这个话题就到这里。我们回到现实来，讨论一下沉睡在指挥室里的巨大文件怪兽好了。",
+			say = "이 얘기는 여기까지 하자. 현실로 돌아와서, 지휘실에서 잠자고 있는 거대한 서류 괴수에 대해 토론해 보자고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一个人解决不了就两个人，两个人解决不了就三个人。特事特办，工作峰值抵达的时候，临时特别设置两三艘秘书舰不也挺好的么？",
+			say = "한 사람이 해결 못하면 두 사람, 두 사람이 해결 못하면 세 사람. 특수한 일은 특수한 방법으로 처리해야지. 업무량이 피크에 도달할 때를 대비해서 임시로 비서함 두세 척을 따로 두는 것도 좋지 않겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			},
 			options = {
 				{
-					content = "这个思路倒是……",
+					content = "이 생각은 정말……",
 					flag = 1
 				}
 			}
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "哼，人选的话我可以先帮你看一下，有着出色文书处理能力又有空闲的同伴应该还是有的。那么我要回房间休息了，锅里我留了饭，你吃完之后继续睡吧。",
+			say = "흥, 후보는 내가 봐둘게. 특출난 문서 처리 능력을 가졌으면서 한가한 동료들이 분명 있을 거야. 그럼 난 방으로 돌아가서 쉴게. 냄비에 아직 음식 남았어. 먹고 좀 더 자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "像是什么都没发生过一样，胡滕打开房门，打算就这么离开——",
+			say = "마치 아무 일도 일어나지 않았다는 듯, 후텐은 방문을 열고 떠나려 했다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有一件事……",
+			say = "한 가지 더……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你昨天被搬运回房间之后，就进行了一场漫长的睡眠，直到明天早上起床。",
+			say = "넌 어제 방으로 옮겨지고 나서, 긴 잠을 잔 거야. 내일 아침까지 쭉.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不只是对腓特烈，要是其他伙伴问起来，你也这样回答就好了。",
+			say = "프리드리히나 다른 동료들이 물어보면, 이렇게 대답하면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“被安眠曲哄睡了后，跟我在房内共度了一整天”这种情报希望永远不要流出去，感谢配合。",
+			say = "\"자장가를 들으면서 잠에 들고, 나랑 같이 방에서 온 하루를 함께 보냈다\" 이런 소리는 영원히 흘리지 않길 바랄게. 협조 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

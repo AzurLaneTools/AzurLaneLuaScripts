@@ -1,5 +1,6 @@
 slot0 = class("SpringFestivalMainPage", import(".TemplatePage.PreviewTemplatePage"))
 slot1 = {
+	1,
 	2,
 	3,
 	4,
@@ -9,7 +10,8 @@ slot1 = {
 	14,
 	15,
 	17,
-	18
+	18,
+	19
 }
 slot2 = 1
 slot3 = 3.5

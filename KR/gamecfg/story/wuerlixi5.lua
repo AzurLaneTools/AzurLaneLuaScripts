@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>五　工作，工作，然后……</size>",
+					"essential.\n\n<size=45>5. 업무, 업무, 그리고……</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "新的一天开始了，推开指挥室的大门，看向桌案。",
+			say = "새로운 하루가 시작됐다. 지휘실의 문을 열고 테이블을 바라봤다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			},
 			options = {
 				{
-					content = "……出现了一座山。",
+					content = "…… 산 하나가 나타났다.",
 					flag = 1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "只过了一夜，昨日干干净净的办公桌仿佛拥有了生命一般吐出了如同小山一样的文件。",
+			say = "하룻밤 만에 어제 말끔했던 테이블이 마치 생명을 가진 듯 작은 산더미 같은 서류를 토해냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "哼……桌上的这些都是什么呢，指挥官？",
+			say = "흠…… 테이블에 이게 다 뭐야, 지휘관?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "本以为肯定不会发生这种情况的……该不会是在我不在的时候，你就放着工作不管了吧？",
+			say = "이런 상황이 생길 줄은 몰랐는데…… 설마 내가 없을 때 업무를 내팽개치고 모르쇠 하는 건 아니지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不知何时等在指挥室的胡滕瞪了过来。",
+			say = "언제 지휘실에 왔는지 모를 후텐이 눈을 부릅 떴다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别在意，只是句玩笑话。",
+			say = "신경 쓰지 마, 농담이었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "搬运这些多到不可思议的文件也有我的一份功劳，能看到你那么精彩的表情，也算值得了。",
+			say = "이 불가사의한 서류들을 옮긴 것에 내 몫도 있고, 너의 멋진 표정을 볼 수 있어서 나쁘지 않았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来你已经理解了，目前十分严峻的状况。",
+			say = "보아하니, 지금 이 심각한 상태를 이해한 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "别发呆了，快点开始工作，我们联手把这堆文件大山收拾掉吧。",
+			say = "그만 멍하니 있고, 얼른 일을 시작하자. 함께 이 서류더미를 치워 버리자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "时针指向凌晨1点的时候，至今为止一直默默工作着的胡滕突然站了起来。",
+			say = "시곗바늘이 새벽 1시를 가리킬 때, 지금까지 묵묵히 일하고 있던 후텐이 갑자기 일어섰다.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（咚）",
+			say = "(툭)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "指挥官，稍微休息下。",
+			say = "지휘관, 조금만 쉬자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她腋下夹着已经处理完的厚厚文件夹，把不知从何处取出的能量饮料罐放在了桌上。",
+			say = "그녀는 처리를 끝낸 두꺼운 서류철을 겨드랑이에 끼고 어디선가 꺼낸 에너지 드링크 캔을 탁자 위에 올려놓았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这些都是需要一大早就要下发的部分，我先送出去了。在这段时间内，你先打个盹如何？",
+			say = "이것들은 모두 아침 일찍 하달해야 할 부분이니, 내가 먼저 보낼게. 그때 동안, 잠깐 눈 좀 붙일래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "别担心，我会叫醒你的。如果你还是不放心的话……",
+			say = "걱정 마, 내가 깨울 테니까. 그래도 안심이 안 된다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "胡滕又把不知从何处取出的闹钟放了过来。",
+			say = "후텐은 또 꺼낸 알림 시계를 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帮你设个闹钟好了。",
+			say = "알람 맞춰 놓을게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			},
 			options = {
 				{
-					content = "这个闹钟……",
+					content = "이 시계는……",
 					flag = 1
 				}
 			}
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "明显是有备而来！应该说准备充分呢，还是过于魔鬼呢……",
+			say = "분명 준비해 온 것이다! 준비성이 충분하다고 해야 할까, 아니면 지나치다고 해야 할까.……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就算不休息，这个工作量也不是一个人能做完的。不如在我回来之前就这么放着好了。",
+			say = "쉬지 않는다고 해도, 이 업무량은 혼자서 끝낼 수 있는 것도 아니야. 차라리 내가 돌아오기 전까지 이대로 두고 좀 쉬어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "感觉有些过意不去……",
+			say = "뭔가 마음에 걸리는 기분이다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这也是最有效率的考量，不用在意。",
+			say = "또 이게 가장 효율적인 방법이야, 신경 쓰지 마.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就算这么说………还是适当地努力下吧。",
+			say = "그렇게 말했어도……… 적당히 노력은 해보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "至少解决掉手头的这组文件——",
+			say = "적어도 손에 있는 이 서류들은 해결하자——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "别担心，我会叫醒你的。如果你还是不放心的话……",
+			say = "걱정 마, 내가 깨울 테니까. 그래도 안심이 안 된다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "嗯……意识有些无法击中。",
+			say = "음…… 의식을 점점 붙잡기 어려워진다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "……不行，好像……越来越……困……了……",
+			say = "……안 돼, 점점…… 더…… 잠이…… 온다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……这个状况看上去是在坚持着工作的途中败给了睡魔啊。诶……所以我不是说了么，你去休息才是最有效率的做法哦，笨蛋。",
+			say = "…… 보아하니 이 상황은 일하다가 도중에 잠들어 버린 것 같은데. 음…… 그래서 내가 말했잖아, 휴식하는 게 가장 효율이 좋은 방법이라고, 바보.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "在一片朦胧的意识中…似乎听到了胡滕的轻声说了些什么……",
+			say = "몽롱한 의식 속에… 후텐의 목소리를 들은 것 같았다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

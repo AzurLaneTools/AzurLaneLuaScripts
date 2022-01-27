@@ -138,8 +138,16 @@ function slot0.CheckTodayTip(slot0)
 		slot4 = math.min(slot3:DiffDay(slot0.startTime, slot8(slot9)) + 1, #slot0.colorGroups)
 
 		for slot8, slot9 in ipairs(slot0.colorGroups) do
-			if slot8 <= slot4 and slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
-				return true
+			if slot4 < slot8 then
+				break
+			end
+
+			if slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
+				if slot9:getState() == ColorGroup.StateFinish or slot9:HasItem2Fill(slot0:getColorItems()) then
+					return true
+				end
+
+				break
 			end
 		end
 	end

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>二　铁血宿舍的骚动</size>",
+					"essential.\n\n<size=45>2. 메탈 블러드 기숙사 소동</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 401190,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "胡，胡滕！你在这里吗？！你在这里对吧？",
+			say = "후, 후텐! 여기 계신가요!? 여기 계신 거 맞죠?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快，快快快救救我们ーーー！！",
+			say = "빠, 빠빠빨리 살려줘어ーーー!!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一阵喧嚣后，铁血的驱逐舰们突然闯进了指挥室，看起来仿佛快要哭起来一样。",
+			say = "한바탕 소란 후, 메탈 블러드의 구축함들이 갑자기 지휘실로 들이닥쳤다. 금방이라도 울음을 터트릴 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……现在可是工作时间，到底怎么了。",
+			say = "…… 지금은 업무 시간이잖아. 대체 무슨 일인데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“那个”……“那个”出现了！",
+			say = "\"그거\"……\"그게\" 나타났어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……唉，又是那个吗。抱歉，指挥官，我去去就来。",
+			say = "……아, 또 그건가. 미안, 지휘관, 금방 갔다 올게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "难得能见到她和其他同伴说话的情景。虽然不清楚具体情况，还是跟着一起去吧。",
+			say = "모처럼 그녀가 다른 동료들과 말하는 장면을 보았다. 구체적인 상황은 모르지만, 그래도 같이 가보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "啧。随你便吧，并没什么有趣的。",
+			say = "흠. 좋을 대로 해. 재밌을 일은 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么就麻烦你了！就算是我，对“那个”也……",
+			say = "그럼 부탁할게요! 아무리 저라고 해도 \"그거\"에 대해서는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "跟着胡滕一起走进了铁血宿舍的一个房间里。是要在这里做什么吗……",
+			say = "후텐을 따라 함께 메탈 블러드 기숙사의 한 방으로 들어왔다. 여기서 뭔가를 해야 하는 건가……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "大概是蝙蝠什么的又飞进来了吧。马上就能解决。",
+			say = "아마도 박쥐 같은 게 또 날아 들어왔나 봐. 금방 해결할 수 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,11 +260,11 @@ return {
 			},
 			options = {
 				{
-					content = "需要什么工具吗？",
+					content = "무슨 도구가 필요해?",
 					flag = 1
 				},
 				{
-					content = "要把它们赶出去吗？",
+					content = "쫓아내야 해?",
 					flag = 2
 				}
 			}
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不用。",
+			say = "아니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "强行赶走容易。但若它们是被这里的环境吸引而来，那这么迟早还会再回来。",
+			say = "쫓아내는 건 쉽지. 하지만 저들은 이곳의 환경에 이끌려서 들어온 거야. 그럼 언젠가 또 돌아오겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "那该怎么做呢？",
+			say = "그럼 어떻게 하게?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "“这里已是他人的住所，不好意思还请移居别处”…让它们明白这个道理就好。",
+			say = "\"이곳은 다른 사람의 숙소니까, 미안하지만 다른 곳으로 이주해.\"라고 깨닫게 하면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "胡滕把窗户完全打开，然后径直坐在了屋内的椅子上。",
+			say = "후텐은 창문을 모두 열었다. 그리고 방 안의 의자에 앉았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "接下来就只要等它们自己出去就行了。",
+			say = "이제 스스로 나가길 기다리면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "…………没理解吗？那我解释下好了。",
+			say = "………… 이해가 안 돼? 그럼 설명해 주지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我是不被动物喜爱的体质，只要在这里待着一般它们就会逃走。这样说能懂吗？",
+			say = "나는 동물들에게 사랑받는 체질이 아니야. 여기에 이렇게 있으면 모두 도망가버리겠지. 이해가 됐어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽说有听过这样的事……难道不止是对猫狗，连蝙蝠也有效吗…？",
+			say = "이런 말을 들어보긴 했지만…… 강아지나 고양이가 아니라, 박쥐에게도 유효한 말이었나…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "如果觉得难以置信的话，那就稍微做得明显一点好了。",
+			say = "믿기 어렵다고 생각하면, 좀 더 분명하게 보여줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "胡滕一边说着，一边开始在屋内踱步起来。只过了一小会，一只蝙蝠就从不知何处飞了出来，随后快速逃出了窗外。",
+			say = "후텐은 말하면서 방 안을 천천히 걷기 시작했다. 겨우 잠깐만에 어디서 나왔는지 모를 박쥐 한 마리가 빠르게 창밖으로 날아갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然不好确定是不是因为胡滕的“体质”，但麻烦显然已经解决了。",
+			say = "후텐의 \"체질\" 때문인 건지 확정하긴 어려웠지만, 문제는 이미 해결된 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "很遗憾，这里并不是你们的住所。",
+			say = "유감스럽게도, 여긴 너희 집이 아니란다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……工作的时间又被耽误了。",
+			say = "…… 업무 시간이 또 지체됐군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然嘴上是这么说的，不过胡滕还是小心仔细地关上了窗户。",
+			say = "입으로 말은 저렇게 했지만, 후텐은 조심스럽게 창문을 닫았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……每次都让我做这种事。这次是第几回了，差不多该教她们要好好关上窗了吧？",
+			say = "…… 매번 나에게 이런 일을 부탁하더군. 이번이 몇 번째인지... 이제 창문 좀 잘 닫으라고 타일러줘도 되겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "star_level_bg_109",
 			dir = 1,
 			blackBg = true,
-			say = "虽然嘴上是这么说的，不过这次同伴的“临时委托”也圆满完成了。对于胡滕的了解又多了一分。",
+			say = "말을 저렇게 했지만, 이번 동료의 \"임시 의뢰\"도 원만히 완료했다. 후텐에 대해 조금 더 알게 된 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

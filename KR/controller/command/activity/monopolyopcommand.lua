@@ -64,9 +64,11 @@ function slot0.execute(slot0, slot1)
 					uv1.data3 = slot5
 					uv1.data1_list[2] = uv1.data1_list[2] + 1
 					slot9 = uv1:getDataConfig("effective_times") or 0
+					slot10 = nil
+					slot10 = (slot9 == 0 or math.min(uv1.data1_list[2], slot9)) and uv1.data1_list[2]
 
 					if uv1:getDataConfig("reward_time") > 0 then
-						uv1.data2_list[1] = math.floor(math.min(uv1.data1_list[2], slot9) / slot8)
+						uv1.data2_list[1] = math.floor(slot10 / slot8)
 					else
 						uv1.data2_list[1] = 0
 					end

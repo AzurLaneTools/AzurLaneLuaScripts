@@ -2715,7 +2715,7 @@ _G.pg.ship_data_breakout[101493] = {
 		79812
 	},
 	ultimate_bonus = {
-		"AUX"
+		"GNR"
 	}
 }
 
@@ -29006,7 +29006,7 @@ _G.pg.ship_data_breakout[506014] = {
 
 _G.pg.ship_data_breakout[520011] = {
 	use_gold = 500,
-	breakout_view = "없음",
+	breakout_view = "선봉함대 모드로 전환",
 	use_char_num = 1,
 	use_char = 52000,
 	breakout_id = 520012,
@@ -29023,7 +29023,7 @@ _G.pg.ship_data_breakout[520011] = {
 
 _G.pg.ship_data_breakout[520012] = {
 	use_gold = 1500,
-	breakout_view = "없음",
+	breakout_view = "주포 포탄 비행 속도 20% 상승",
 	use_char_num = 1,
 	use_char = 52000,
 	breakout_id = 520013,
@@ -29040,7 +29040,7 @@ _G.pg.ship_data_breakout[520012] = {
 
 _G.pg.ship_data_breakout[520013] = {
 	use_gold = 2500,
-	breakout_view = "없음",
+	breakout_view = "전탄 발사III 획득",
 	use_char_num = 2,
 	use_char = 52000,
 	breakout_id = 520014,
@@ -29074,7 +29074,7 @@ _G.pg.ship_data_breakout[520014] = {
 
 _G.pg.ship_data_breakout[520031] = {
 	use_gold = 500,
-	breakout_view = "없음",
+	breakout_view = "선봉함대 모드로 전환",
 	use_char_num = 1,
 	use_char = 52000,
 	breakout_id = 520032,
@@ -29091,7 +29091,7 @@ _G.pg.ship_data_breakout[520031] = {
 
 _G.pg.ship_data_breakout[520032] = {
 	use_gold = 1500,
-	breakout_view = "없음",
+	breakout_view = "주포 포탄 비행 속도 20% 상승",
 	use_char_num = 1,
 	use_char = 52000,
 	breakout_id = 520033,
@@ -29108,7 +29108,7 @@ _G.pg.ship_data_breakout[520032] = {
 
 _G.pg.ship_data_breakout[520033] = {
 	use_gold = 2500,
-	breakout_view = "없음",
+	breakout_view = "전탄 발사III 획득",
 	use_char_num = 2,
 	use_char = 52000,
 	breakout_id = 520034,
@@ -29142,7 +29142,7 @@ _G.pg.ship_data_breakout[520034] = {
 
 _G.pg.ship_data_breakout[521011] = {
 	use_gold = 500,
-	breakout_view = "없음",
+	breakout_view = "주력함대 모드로 전환/미사인 예비 장전 +1",
 	use_char_num = 1,
 	use_char = 52100,
 	breakout_id = 521012,
@@ -29159,7 +29159,7 @@ _G.pg.ship_data_breakout[521011] = {
 
 _G.pg.ship_data_breakout[521012] = {
 	use_gold = 1500,
-	breakout_view = "없음",
+	breakout_view = "받는 대미지 20% 감소/은폐 상태에서 대미지 상승",
 	use_char_num = 1,
 	use_char = 52100,
 	breakout_id = 521013,
@@ -29176,7 +29176,7 @@ _G.pg.ship_data_breakout[521012] = {
 
 _G.pg.ship_data_breakout[521013] = {
 	use_gold = 2500,
-	breakout_view = "없음",
+	breakout_view = "주포 사거리 75까지 증가",
 	use_char_num = 2,
 	use_char = 52100,
 	breakout_id = 521014,
@@ -29208,7 +29208,7 @@ _G.pg.ship_data_breakout[521014] = {
 
 _G.pg.ship_data_breakout[521031] = {
 	use_gold = 500,
-	breakout_view = "없음",
+	breakout_view = "주력함대 모드로 전환/미사인 예비 장전 +1",
 	use_char_num = 1,
 	use_char = 52100,
 	breakout_id = 521032,
@@ -29225,7 +29225,7 @@ _G.pg.ship_data_breakout[521031] = {
 
 _G.pg.ship_data_breakout[521032] = {
 	use_gold = 1500,
-	breakout_view = "없음",
+	breakout_view = "받는 대미지 20% 감소/은폐 상태에서 대미지 상승",
 	use_char_num = 1,
 	use_char = 52100,
 	breakout_id = 521033,
@@ -29242,7 +29242,7 @@ _G.pg.ship_data_breakout[521032] = {
 
 _G.pg.ship_data_breakout[521033] = {
 	use_gold = 2500,
-	breakout_view = "없음",
+	breakout_view = "주포 사거리 75까지 증가",
 	use_char_num = 2,
 	use_char = 52100,
 	breakout_id = 521034,

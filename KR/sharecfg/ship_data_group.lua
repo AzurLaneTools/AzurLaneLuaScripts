@@ -1747,7 +1747,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"한정 이벤트 : 춘절 한정 건조",
 				{
 					""
 				},
@@ -7672,7 +7672,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"한정 이벤트 : 춘절 한정 건조",
 				{
 					""
 				},
@@ -17111,7 +17111,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：海天与海圻的画中世界",
+				"한정 이벤트 : 하이티엔과 하이치의 그림 세계",
 				{
 					""
 				},
@@ -17142,7 +17142,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：海天与海圻的画中世界",
+				"한정 이벤트 : 하이티엔과 하이치의 그림 세계",
 				{
 					""
 				},
@@ -17173,7 +17173,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"한정 이벤트 : 춘절 한정 건조",
 				{
 					""
 				},

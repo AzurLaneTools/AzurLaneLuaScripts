@@ -149,7 +149,7 @@ return {
 			}
 		}
 	},
-	time = 10,
+	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
 	color = "red",
