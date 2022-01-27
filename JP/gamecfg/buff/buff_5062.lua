@@ -32,7 +32,8 @@ return {
 				skill_id = 5061,
 				quota = 1,
 				ship_type_list = {
-					1
+					1,
+					20
 				}
 			}
 		}

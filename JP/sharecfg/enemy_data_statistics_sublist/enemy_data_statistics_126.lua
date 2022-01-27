@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.enemy_data_statistics_126 = {
+	[10044501] = {
+		cannon = 400,
+		name = "ノワキ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 70005,
+		air = 0,
+		air_growth = 0,
+		dodge = 80,
+		speed = 20,
+		luck = 0,
+		id = 10044501,
+		reload_growth = 0,
+		dodge_growth = 408,
+		fog_fx = "",
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 4,
+		cannon_growth = 0,
+		base = 90175,
+		durability = 65000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 460,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 400,
+		antisub = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					0.38,
+					0.95,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.1,
+					-0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.38,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.24,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			513121,
+			513122,
+			513123,
+			513124,
+			513125
+		}
+	},
 	[10044502] = {
 		cannon = 440,
 		name = "ショウカク",
@@ -725,47 +808,6 @@ pg.enemy_data_statistics_126 = {
 			100207,
 			100517,
 			100417
-		}
-	},
-	[10045013] = {
-		cannon = 220,
-		name = "量産型フルタカ級",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 10045013,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		star = 3,
-		hit = 35,
-		antisub_growth = 0,
-		rarity = 2,
-		reload = 150,
-		base = 90111,
-		durability = 1900,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 204,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 104,
-		durability_growth = 43000,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			100205,
-			100506,
-			100406
 		}
 	}
 }

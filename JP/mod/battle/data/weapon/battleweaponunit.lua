@@ -994,10 +994,12 @@ function slot8.GetCurrentState(slot0)
 end
 
 function slot8.GetReloadTime(slot0)
-	if slot0._reloadMax ~= slot0._cacheReloadMax or slot0._host:GetAttr().loadSpeed ~= slot0._cacheHostReload then
+	slot1 = uv0.GetCurrent(slot0._host, "loadSpeed")
+
+	if slot0._reloadMax ~= slot0._cacheReloadMax or slot1 ~= slot0._cacheHostReload then
 		slot0._cacheReloadMax = slot0._reloadMax
-		slot0._cacheHostReload = slot0._host:GetAttr().loadSpeed
-		slot0._cacheReloadTime = uv0.ReloadTime(slot0._reloadMax, slot0._host:GetAttr())
+		slot0._cacheHostReload = slot1
+		slot0._cacheReloadTime = uv1.CalculateReloadTime(slot0._reloadMax, uv0.GetCurrent(slot0._host, "loadSpeed"))
 	end
 
 	return slot0._cacheReloadTime
@@ -1058,7 +1060,7 @@ function slot8.FlushReloadRequire(slot0)
 	end
 
 	slot2 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._CDstartTime
-	slot0._reloadRequire = slot2 + uv0.ReloadTime(slot0._reloadMax - uv0.CaclulateReloaded(slot2, uv0.CaclulateReloadAttr(slot0._reloadMax, slot0._reloadRequire)), slot0._host:GetAttr())
+	slot0._reloadRequire = slot2 + uv0.CalculateReloadTime(slot0._reloadMax - uv0.CaclulateReloaded(slot2, uv0.CaclulateReloadAttr(slot0._reloadMax, slot0._reloadRequire)), uv1.GetCurrent(slot0._host, "loadSpeed"))
 end
 
 function slot8.GetMinimumRange(slot0)

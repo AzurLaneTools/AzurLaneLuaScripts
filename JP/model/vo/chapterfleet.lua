@@ -354,8 +354,6 @@ function slot0.isValid(slot0)
 end
 
 function slot0.getCost(slot0)
-	rate = rate or 1
-
 	_.each(slot0:getShips(false), function (slot0)
 		uv0.oil = uv0.oil + slot0:getStartBattleExpend()
 		uv1.oil = uv1.oil + slot0:getEndBattleExpend()
@@ -462,10 +460,10 @@ function slot0.getShipIds(slot0)
 	slot1 = {}
 
 	if slot0:getFleetType() == FleetType.Normal then
-		_.each(slot0[TeamType.Vanguard], function (slot0)
+		_.each(slot0[TeamType.Main], function (slot0)
 			table.insert(uv0, slot0.id)
 		end)
-		_.each(slot0[TeamType.Main], function (slot0)
+		_.each(slot0[TeamType.Vanguard], function (slot0)
 			table.insert(uv0, slot0.id)
 		end)
 	elseif slot2 == FleetType.Submarine then
@@ -553,7 +551,7 @@ end
 function slot0.getOwnStrategies(slot0)
 	slot1 = {}
 
-	_.each(slot0:getShips(false), function (slot0)
+	_.each(slot0:getShips(true), function (slot0)
 		_.each(slot0:getConfig("strategy_list"), function (slot0)
 			uv0[slot0[1]] = (uv0[slot0[1]] or 0) + slot0[2]
 		end)
@@ -632,7 +630,7 @@ end
 
 function slot0.canClearTorpedo(slot0)
 	return _.any(slot0:getShipsByTeam(TeamType.Vanguard, true), function (slot0)
-		return slot0:getShipType() == ShipType.QuZhu
+		return ShipType.IsTypeQuZhu(slot0:getShipType())
 	end)
 end
 

@@ -5,17 +5,25 @@ return {
 		},
 		{
 			types = {
-				"vanguard"
+				TeamType.Vanguard
+			},
+			shipTypes = {
+				ShipType.DaoQuV
 			}
 		},
 		{
 			types = {
-				"main"
+				TeamType.Main
+			},
+			shipTypes = {
+				ShipType.DaoQuM
 			}
 		},
 		{
 			types = {
-				ShipType.QuZhu
+				ShipType.QuZhu,
+				ShipType.DaoQuM,
+				ShipType.DaoQuV
 			}
 		},
 		{

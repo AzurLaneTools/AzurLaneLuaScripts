@@ -45,7 +45,8 @@ function slot10.init(slot0)
 		shakescreen = 0,
 		fire_fx_loop_type = 0,
 		attack_attribute = uv1.WeaponDamageAttr.AIR,
-		attack_attribute_ratio = 100
+		attack_attribute_ratio = 100,
+		expose = 0
 	}
 	slot0._fireFXFlag = slot0._tmpData.fire_fx_loop_type
 	slot0._preCastInfo = {}
@@ -200,6 +201,14 @@ function slot10.DoAreaSplit(slot0, slot1)
 	end
 
 	slot0._dataProxy:SpawnColumnArea(uv1.BulletField.AIR, slot1:GetIFF(), slot1:GetPosition(), slot0._exploRange, -1, slot2)
+
+	if RANGE_ANTI_AREA then
+		slot3 = uv2.Battle.BattleFXPool.GetInstance():GetFX("AlertArea")
+		slot3.transform.localScale = Vector3(slot0._exploRange, 1, slot0._exploRange)
+
+		pg.EffectMgr.GetInstance():PlayBattleEffect(slot3, slot1:GetPosition())
+	end
+
 	slot0._dataProxy:RemoveBulletUnit(slot1:GetUniqueID())
 end
 

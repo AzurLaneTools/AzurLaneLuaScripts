@@ -28,6 +28,11 @@ function slot0.Ctor(slot0, slot1)
 	end)
 end
 
+function slot0.SetTargetLine(slot0, slot1)
+	slot0.targetLine = slot1
+	slot0.flagStrategy = true
+end
+
 function slot0.applyTo(slot0, slot1, slot2)
 	if not slot2 then
 		slot3 = 0
@@ -76,15 +81,35 @@ function slot0.applyTo(slot0, slot1, slot2)
 end
 
 function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
-	function slot4(slot0)
-		return uv0:GetRawChapterCell(slot0.row, slot0.column) and table.contains(slot1:GetFlagList(), ChapterConst.FlagMissleAiming) and not table.contains(slot0.flag_list, ChapterConst.FlagMissleAiming)
+	slot4 = nil
+
+	if slot0.targetLine then
+		slot4 = {
+			slot0.targetLine
+		}
+	else
+		function slot5(slot0)
+			return uv0:GetRawChapterCell(slot0.row, slot0.column) and table.contains(slot1:GetFlagList(), ChapterConst.FlagMissleAiming) and not table.contains(slot0.flag_list, ChapterConst.FlagMissleAiming)
+		end
+
+		slot4 = _.filter(slot0.cellFlagUpdates, function (slot0)
+			return uv0(slot0)
+		end)
 	end
 
-	slot5 = _.filter(slot0.cellFlagUpdates, function (slot0)
-		return uv0(slot0)
-	end)
-
 	seriesAsync({
+		function (slot0)
+			if not uv0.flagStrategy then
+				return slot0()
+			end
+
+			slot1 = uv1.viewComponent
+
+			slot1:doPlayAnim("MissileStrikeBar", function (slot0)
+				setActive(slot0, false)
+				uv0()
+			end)
+		end,
 		function (slot0)
 			table.ParallelIpairsAsync(uv0, function (slot0, slot1, slot2)
 				uv0.viewComponent.grid:PlayMissileExplodAnim(slot1, slot2)

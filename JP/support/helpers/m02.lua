@@ -2885,7 +2885,7 @@ function updateEquipInfo(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	for slot12, slot13 in ipairs(ShipType.AllShipType) do
+	for slot12, slot13 in ipairs(ShipType.FilterOverQuZhuType(ShipType.AllShipType)) do
 		slot14 = slot12 <= slot5.childCount and slot5:GetChild(slot12 - 1) or cloneTplTo(slot6, slot5)
 
 		GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot13), slot14)

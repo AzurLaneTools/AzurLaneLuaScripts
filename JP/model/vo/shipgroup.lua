@@ -133,7 +133,7 @@ function slot0.getRarity(slot0, slot1)
 end
 
 function slot0.getTeamType(slot0)
-	return pg.ship_data_by_type[slot0:getShipType()].team_type
+	return TeamType.GetTeamFromShipType(slot0:getShipType())
 end
 
 function slot0.getPainting(slot0, slot1)

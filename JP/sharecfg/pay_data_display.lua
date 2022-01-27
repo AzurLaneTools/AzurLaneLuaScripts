@@ -2952,6 +2952,210 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	{
+		descrip = "アイテム・資源とランダムに旧正月2022シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2022",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		subject = "春節福袋2022",
+		extra_gem = 0,
+		name_display = "春節福袋2022",
+		limit_arg = 1,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai7",
+		id_str = "com.bilibili.blhx.zuanshi135",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 36,
+		airijp_id = "com.yostarjp.azurlane.diamond127",
+		extra_service_item = {
+			{
+				2,
+				69917,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	{
+		descrip = "アイテム・資源とランダムに旧正月2021シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2021(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		subject = "春節福袋2021(復刻)",
+		extra_gem = 0,
+		name_display = "春節福袋2021(復刻)",
+		limit_arg = 1,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai4",
+		id_str = "com.bilibili.blhx.zuanshi136",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 37,
+		airijp_id = "com.yostarjp.azurlane.diamond128",
+		extra_service_item = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	[1000] = {
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		name = "クルーズパス",
@@ -3092,6 +3296,76 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[1002] = {
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		subject = "クルーズパス(22冬)",
+		extra_gem = 0,
+		name_display = "クルーズパス(22冬)",
+		limit_arg = 1,
+		money = 1220,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass3",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 1002,
+		airijp_id = "com.yostarjp.azurlane.seasonpass3",
+		extra_service_item = {
+			{
+				1,
+				4003,
+				1500
+			},
+			{
+				8,
+				59270,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4003,
+				1500
+			}
+		},
+		sub_display = {
+			7003,
+			1500
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -3128,7 +3402,10 @@ pg.pay_data_display = {
 		33,
 		34,
 		35,
+		36,
+		37,
 		1000,
-		1001
+		1001,
+		1002
 	}
 }

@@ -107,4 +107,20 @@ function slot0.ConvertBattleAttrName(slot0)
 	end
 end
 
+slot0.PrimalAttr = {
+	torpedoPower = true,
+	loadSpeed = true,
+	antiSubPower = true,
+	antiAirPower = true,
+	dodgeRate = true,
+	airPower = true,
+	attackRating = true,
+	cannonPower = true,
+	velocity = true
+}
+
+function slot0.IsPrimalBattleAttr(slot0)
+	return uv0.PrimalAttr[slot0]
+end
+
 return slot0

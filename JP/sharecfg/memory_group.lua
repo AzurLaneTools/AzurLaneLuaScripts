@@ -2353,6 +2353,36 @@ pg.memory_group = {
 			1977
 		}
 	},
+	[208] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 208,
+		title = "名状しがたき演習事件",
+		memories = {
+			1980,
+			1981,
+			1982,
+			1983,
+			1984
+		}
+	},
+	[209] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 209,
+		title = "春節遊園撮影会",
+		memories = {
+			1985,
+			1986,
+			1987,
+			1988,
+			1989,
+			1990,
+			1991
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3454,6 +3484,22 @@ pg.memory_group = {
 			1867
 		}
 	},
+	[571] = {
+		icon = "title_chara_wuerlixi",
+		subtype = 0,
+		type = 3,
+		id = 571,
+		title = "essential.",
+		memories = {
+			1995,
+			1996,
+			1997,
+			1998,
+			1999,
+			2000,
+			2001
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3566,6 +3612,8 @@ pg.memory_group = {
 		205,
 		206,
 		207,
+		208,
+		209,
 		501,
 		502,
 		503,
@@ -3633,6 +3681,7 @@ pg.memory_group = {
 		567,
 		568,
 		569,
-		570
+		570,
+		571
 	}
 }

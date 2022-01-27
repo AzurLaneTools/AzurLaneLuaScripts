@@ -62,32 +62,30 @@ function slot0.LoadSpine(slot0, slot1, slot2, slot3, slot4)
 	slot5:GetSpine(slot1, function (slot0)
 		uv0:SetModel(slot0, uv1)
 		existCall(uv2)
-		uv0:LoadAttachments(uv3)
+		uv0:attachOrbit(uv3)
 	end, "spine")
 end
 
-function slot0.LoadAttachments(slot0, slot1)
-	if not slot1 then
-		return
-	end
-
+function slot0.attachOrbit(slot0, slot1)
 	for slot5, slot6 in pairs(slot1) do
-		if slot6.attachment_combat_ui[1] ~= "" then
-			slot9 = slot0.spineLoader
+		if slot6.orbit_ui ~= "" then
+			slot9 = ResourceMgr.Inst
 
-			slot9:LoadPrefab("Effect/" .. slot7, slot7, function (slot0)
-				uv0._attachmentList[uv1] = slot0
-
-				tf(slot0):SetParent(tf(uv0.model))
-
-				tf(slot0).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
-			end)
+			slot9:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot7), slot7, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				if uv0.model ~= nil then
+					slot2 = uv1.orbit_ui_bound[2]
+					slot3 = Object.Instantiate(slot0)
+					uv0._attachmentList[slot3] = uv1.orbit_hidden_action
+					slot3.transform.localPosition = Vector2(slot2[1], slot2[2])
+					SpineAnimUI.AddFollower(uv1.orbit_ui_bound[1], uv0.model.transform, slot3.transform):GetComponent("Spine.Unity.BoneFollowerGraphic").followBoneRotation = false
+				end
+			end), true, true)
 		end
 	end
 end
 
 function slot0.UnloadSpine(slot0)
-	slot0.prefab = nil
+	slot0.lastPrefab = nil
 
 	if slot0.model then
 		slot0:SetSpineVisible(true)
@@ -108,8 +106,8 @@ end
 
 function slot0.ClearAttachments(slot0)
 	for slot4, slot5 in pairs(slot0._attachmentList) do
-		if not IsNil(slot5) then
-			Destroy(slot5)
+		if not IsNil(slot4) then
+			Destroy(slot4)
 		end
 	end
 

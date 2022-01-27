@@ -2504,6 +2504,54 @@ pg.world_SLGbuff_data = {
 		trap_parameter = {},
 		delete_traptype = {}
 	},
+	[4010] = {
+		buff_type = 2,
+		name = "アビータ・防御フィールド",
+		id = 4010,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "アビータVIIIは戦闘中、特殊防御フィールドを展開する\n防御フィールドが展開されている限り、アビータVIIIが受ける砲撃・航空攻撃ダメージを25%軽減、味方に与えるダメージを15%ダウンする。\nまた、防御フィールドが展開された際に、味方からの攻撃を160,000吸収できるシールドも1枚展開される。このシールドは戦闘中、1回しか展開されない",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5010",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
+	[4020] = {
+		buff_type = 2,
+		name = "アビータ・腐食海霧",
+		id = 4020,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "アビータIXは戦闘中、特殊海霧を展開する。海霧にいる艦船の速力が12%ダウンし、命中ステータスが200ダウンする",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5020",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
 	all = {
 		1,
 		2,
@@ -2601,6 +2649,8 @@ pg.world_SLGbuff_data = {
 		2500,
 		2510,
 		2520,
-		4000
+		4000,
+		4010,
+		4020
 	}
 }

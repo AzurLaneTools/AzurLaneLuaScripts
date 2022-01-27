@@ -600,7 +600,7 @@ end
 function slot0.UpdateCDTip(slot0)
 	setActive(slot0.cdTF, #slot0.port.goods > 0 and not slot0.port:IsTempPort())
 	setActive(slot0.emptyTF, #slot0.port.goods == 0)
-	setActive(slot0.rtButtons:Find("supply/new"), nowWorld():GetAtlas().markPortDic[slot0.port.id])
+	setActive(slot0.rtButtons:Find("supply/new"), nowWorld():GetAtlas().markPortDic.goods[slot0.port.id])
 end
 
 function slot0.UpdateTaskTip(slot0)

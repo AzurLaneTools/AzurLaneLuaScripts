@@ -28,6 +28,7 @@ function slot0.init(slot0)
 	slot0.quadClickProxy = nil
 	slot0.subTeleportTargetLine = nil
 	slot0.subTeleportMode = false
+	slot0.missileStrikeTargetLine = nil
 	slot0.cellEdges = {}
 	slot0.walls = {}
 	slot0.material_Add = LoadAny("ui/commonUI_atlas", "add", typeof(Material))
@@ -1117,7 +1118,7 @@ function slot0.initCell(slot0, slot1, slot2)
 			slot7:SetAsLastSibling()
 			onButton(slot0, slot7, function ()
 				if not uv0:isfrozen() then
-					if (uv0.quadState == ChapterConst.QuadStateStrategy or uv0.quadState == ChapterConst.QuadStateTeleportSub) and uv0.quadClickProxy then
+					if (uv0.quadState == ChapterConst.QuadStateStrategy or uv0.quadState == ChapterConst.QuadStateMissileStrike or uv0.quadState == ChapterConst.QuadStateTeleportSub) and uv0.quadClickProxy then
 						uv0.quadClickProxy(uv1)
 					elseif uv0.onCellClick then
 						uv0.onCellClick(uv1)
@@ -1524,6 +1525,8 @@ function slot0.updateQuadCells(slot0, slot1, ...)
 
 	if slot1 == ChapterConst.QuadStateTeleportSub then
 		slot0:UpdateQuadStateTeleportSub(...)
+	elseif slot1 == ChapterConst.QuadStateMissileStrike then
+		slot0:UpdateQuadStateMissileStrike(...)
 	elseif slot1 == ChapterConst.QuadStateNormal then
 		slot0:UpdateQuadStateNormal()
 	elseif slot1 == ChapterConst.QuadStateStrategy then
@@ -1842,6 +1845,49 @@ function slot0.ShowPathInArrows(slot0, slot1)
 			slot11.localEulerAngles = Vector3(0, 0, Mathf.Acos(Vector3.Dot(slot13, Vector3.up)) * Mathf.Rad2Deg * (Vector3.Cross(Vector3.up, slot13).z > 0 and 1 or -1))
 		end
 	end
+end
+
+function slot0.UpdateQuadStateMissileStrike(slot0)
+	function slot0.quadClickProxy(slot0)
+		uv0:OnMissileAiming(slot0)
+	end
+
+	slot0:frozen()
+
+	slot3 = 0
+
+	_.each(_.filter(_.values(slot0.contextData.chapterVO.cells), function (slot0)
+		return slot0:IsWalkable() and not uv0:getQuadCellPic(slot0)
+	end), function (slot0)
+		slot1 = ChapterCell.Line2QuadName(slot0.row, slot0.column)
+		slot2 = uv0.quadRoot
+		slot2 = slot2:Find(slot1)
+		slot3 = uv0
+
+		slot3:cancelQuadTween(slot1, slot2)
+		setImageAlpha(slot2, 0.4)
+
+		slot3 = LeanTween.scale(slot2, Vector3.one, 0.2)
+		slot3 = slot3:setFrom(Vector3.zero)
+		slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
+		uv0.presentTws[slot1] = {
+			uniqueId = slot3:setOnComplete(System.Action(function ()
+				uv0 = uv0 + 1
+
+				if uv0 == #uv1 then
+					uv2:unfrozen()
+				end
+			end)).uniqueId
+		}
+		slot2.localScale = Vector3.zero
+	end)
+end
+
+function slot0.OnMissileAiming(slot0, slot1)
+	slot0:HideMissileAimingMark()
+	slot0:ShowMissileAimingMark(slot1)
+
+	slot0.missileStrikeTargetLine = slot1
 end
 
 function slot0.startQuadTween(slot0, slot1, slot2, slot3, slot4)
@@ -2634,6 +2680,22 @@ end
 
 function slot0.HideMissileAimingMarks(slot0)
 	slot0.loader:ReturnGroup("MissileAimingMarks")
+end
+
+function slot0.ShowMissileAimingMark(slot0, slot1)
+	slot2 = slot0.loader
+
+	slot2:GetPrefab("ui/miaozhun02", "miaozhun02", function (slot0)
+		setParent(slot0, uv0.restrictMap)
+
+		slot2 = uv0.contextData.chapterVO.theme:GetLinePosition(uv1.row, uv1.column)
+		slot3 = uv0.restrictMap.anchoredPosition
+		tf(slot0).anchoredPosition = Vector2(slot2.x - slot3.x, slot2.y - slot3.y)
+	end, "MissileAimingMark")
+end
+
+function slot0.HideMissileAimingMark(slot0)
+	slot0.loader:ClearRequest("MissileAimingMark")
 end
 
 function slot0.TransformLine2PlanePos(slot0, slot1)

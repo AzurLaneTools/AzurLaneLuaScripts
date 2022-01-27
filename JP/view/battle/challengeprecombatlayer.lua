@@ -84,8 +84,6 @@ function slot0.init(slot0)
 	setAnchoredPosition(slot0._right, {
 		x = 470
 	})
-
-	slot0._attachmentList = {}
 end
 
 function slot0.uiStartAnimating(slot0)
@@ -278,43 +276,26 @@ function slot0.loadAllCharacter(slot0, slot1)
 	}
 
 	function slot2(slot0, slot1, slot2, slot3)
+		slot4 = slot0.model
+
 		if uv0.exited then
-			PoolMgr.GetInstance():ReturnSpineChar(slot1:getPrefab(), slot0)
+			slot0:Dispose()
 
 			return
 		end
 
 		uv0._characterList[slot2][slot3] = slot0
 
-		tf(slot0):SetParent(uv0._heroContainer, false)
+		tf(slot4):SetParent(uv0._heroContainer, false)
 
-		slot8 = 1
-		tf(slot0).localScale = Vector3(0.65, 0.65, slot8)
+		tf(slot4).localScale = Vector3(0.65, 0.65, 1)
 
-		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
-
-		for slot8, slot9 in pairs(slot1:getAttachmentPrefab()) do
-			if slot9.attachment_combat_ui[1] ~= "" then
-				slot12 = ResourceMgr.Inst
-
-				slot12:getAssetAsync("Effect/" .. slot10, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-					if not uv0.exited then
-						slot1 = Object.Instantiate(slot0)
-						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
-
-						tf(slot1):SetParent(tf(uv1))
-
-						tf(slot1).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
-					end
-				end), true, true)
-			end
-		end
-
-		uv0:enabledCharacter(slot0, true, slot1, slot2)
-		uv0:setCharacterPos(slot2, slot3, slot0)
+		pg.ViewUtils.SetLayer(tf(slot4), Layer.UI)
+		uv0:enabledCharacter(slot4, true, slot1, slot2)
+		uv0:setCharacterPos(slot2, slot3, slot4)
 		uv0:sortSiblingIndex()
 
-		slot5 = cloneTplTo(uv0._heroInfo, slot0)
+		slot5 = cloneTplTo(uv0._heroInfo, slot4)
 
 		setAnchoredPosition(slot5, {
 			x = 0,
@@ -365,14 +346,12 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 	function slot4(slot0)
 		for slot6, slot7 in ipairs(uv0.challenge:getRegularFleet():getShipsByTeam(slot0, false)) do
-			slot8 = slot7:getPrefab()
-
 			table.insert(uv1, function (slot0)
-				slot1 = PoolMgr.GetInstance()
+				slot1 = SpineRole.New(uv0)
 
-				slot1:GetSpineChar(uv0, true, function (slot0)
-					uv0(slot0, uv1, uv2, uv3)
-					onNextTick(uv4)
+				slot1:Load(function ()
+					uv0(uv1, uv2, uv3, uv4)
+					onNextTick(uv5)
 				end)
 			end)
 		end
@@ -389,11 +368,11 @@ end
 
 function slot0.setAllCharacterPos(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._characterList[TeamType.Vanguard]) do
-		slot0:setCharacterPos(TeamType.Vanguard, slot5, slot6, slot1)
+		slot0:setCharacterPos(TeamType.Vanguard, slot5, tf(slot6.model), slot1)
 	end
 
 	for slot5, slot6 in ipairs(slot0._characterList[TeamType.Main]) do
-		slot0:setCharacterPos(TeamType.Main, slot5, slot6, slot1)
+		slot0:setCharacterPos(TeamType.Main, slot5, tf(slot6.model), slot1)
 	end
 
 	slot0:sortSiblingIndex()
@@ -427,16 +406,16 @@ end
 function slot0.switchToEditMode(slot0)
 	function slot1(slot0)
 		for slot4, slot5 in ipairs(slot0) do
-			if tf(slot5):Find("mouseChild") then
-				slot7 = slot6:GetComponent("EventTriggerListener")
-				uv0.eventTriggers[slot7] = true
+			if tf(slot5.model):Find("mouseChild") then
+				slot8 = slot7:GetComponent("EventTriggerListener")
+				uv0.eventTriggers[slot8] = true
 
-				if slot7 then
-					slot7:RemovePointEnterFunc()
+				if slot8 then
+					slot8:RemovePointEnterFunc()
 				end
 
 				if slot4 == uv0._shiftIndex then
-					slot6:GetComponent(typeof(Image)).enabled = true
+					slot7:GetComponent(typeof(Image)).enabled = true
 				end
 			end
 		end
@@ -458,17 +437,17 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot0._characterList[slot2]) do
-		if slot8 ~= slot1 then
-			LeanTween.moveLocalY(go(slot8), slot0._gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
+		if slot8.model ~= slot1 then
+			LeanTween.moveLocalY(slot9, slot0._gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
 
-			slot10 = tf(slot8)
-			slot10 = slot10:Find("mouseChild")
-			slot10 = slot10:GetComponent("EventTriggerListener")
-			slot0.eventTriggers[slot10] = true
+			slot11 = tf(slot9)
+			slot11 = slot11:Find("mouseChild")
+			slot11 = slot11:GetComponent("EventTriggerListener")
+			slot0.eventTriggers[slot11] = true
 
-			slot10:AddPointEnterFunc(function ()
+			slot11:AddPointEnterFunc(function ()
 				for slot3, slot4 in ipairs(uv0) do
-					if slot4 == uv1 then
+					if slot4.model == uv1 then
 						uv2:shift(uv2._shiftIndex, slot3, uv3)
 
 						break
@@ -477,10 +456,10 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 			end)
 		else
 			slot0._shiftIndex = slot7
-			tf(slot8):Find("mouseChild"):GetComponent(typeof(Image)).enabled = false
+			tf(slot9):Find("mouseChild"):GetComponent(typeof(Image)).enabled = false
 		end
 
-		slot8:GetComponent("SpineAnimUI"):SetAction("normal", 0)
+		slot9:GetComponent("SpineAnimUI"):SetAction("normal", 0)
 	end
 end
 
@@ -488,11 +467,11 @@ function slot0.shift(slot0, slot1, slot2, slot3)
 	slot4 = slot0._characterList[slot3]
 	slot6 = slot0.challenge:getRegularFleet()
 	slot7 = slot6:getShipsByTeam(slot3, false)
-	slot8 = slot4[slot2]
+	slot8 = slot4[slot2].model
 	slot10 = slot0._gridTFs[slot3][slot1].localPosition
 	tf(slot8).localPosition = Vector3(slot10.x + 2, slot10.y - 80, slot10.z)
 
-	LeanTween.cancel(go(slot8))
+	LeanTween.cancel(slot8)
 
 	slot4[slot2] = slot4[slot1]
 	slot4[slot1] = slot4[slot2]
@@ -512,13 +491,13 @@ function slot0.sortSiblingIndex(slot0)
 		slot4 = slot0._characterList[TeamType.Vanguard][slot1]
 
 		if slot0._characterList[TeamType.Main][slot1] then
-			tf(slot3):SetSiblingIndex(slot2)
+			tf(slot3.model):SetSiblingIndex(slot2)
 
 			slot2 = slot2 + 1
 		end
 
 		if slot4 then
-			tf(slot4):SetSiblingIndex(slot2)
+			tf(slot4.model):SetSiblingIndex(slot2)
 
 			slot2 = slot2 + 1
 		end
@@ -531,7 +510,7 @@ function slot0.enabledTeamCharacter(slot0, slot1, slot2)
 	slot4 = slot0.chapter.fleet[slot1]
 
 	for slot8, slot9 in ipairs(slot0._characterList[slot1]) do
-		slot0:enabledCharacter(slot9, slot2, slot4[slot8], slot1)
+		slot0:enabledCharacter(slot9.model, slot2, slot4[slot8], slot1)
 	end
 end
 
@@ -603,7 +582,7 @@ end
 function slot0.recycleCharacterList(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot1) do
 		if slot2[slot6] then
-			PoolMgr.GetInstance():ReturnSpineChar(slot7:getPrefab(), slot2[slot6])
+			slot2[slot6]:Dispose()
 
 			slot2[slot6] = nil
 		end
@@ -636,17 +615,7 @@ function slot0.willExit(slot0)
 	slot1 = slot0.challenge:getRegularFleet()
 
 	slot0:recycleCharacterList(slot1:getShipsByTeam(TeamType.Main, false), slot0._characterList[TeamType.Main])
-
-	slot6 = TeamType.Vanguard
-	slot5 = slot0._characterList[slot6]
-
-	slot0:recycleCharacterList(slot1:getShipsByTeam(TeamType.Vanguard, false), slot5)
-
-	for slot5, slot6 in ipairs(slot0._attachmentList) do
-		Object.Destroy(slot6)
-	end
-
-	slot0._attachmentList = nil
+	slot0:recycleCharacterList(slot1:getShipsByTeam(TeamType.Vanguard, false), slot0._characterList[TeamType.Vanguard])
 end
 
 return slot0

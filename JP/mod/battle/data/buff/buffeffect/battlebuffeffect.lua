@@ -22,6 +22,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0._ammoTypeRequire = slot2.ammoType
 	slot0._ammoIndexRequire = slot2.ammoIndex
 	slot0._buffStateIDRequire = slot2.buff_state_id
+	slot0._cloakRequire = slot2.cloak_state
 
 	slot0:ConfigHPTrigger()
 	slot0:ConfigAttrTrigger()
@@ -218,6 +219,10 @@ function slot2.onAntiAirWeaponFireNear(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
+function slot2.onManualMissileFire(slot0, slot1, slot2, slot3)
+	slot0:onFire(slot1, slot2, slot3)
+end
+
 function slot2.onAllInStrike(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
@@ -235,6 +240,10 @@ function slot2.onManualTorpedoReady(slot0, slot1, slot2, slot3)
 end
 
 function slot2.onAirAssistReady(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2)
+end
+
+function slot2.onManualMissileReady(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
@@ -569,6 +578,20 @@ end
 
 function slot2.onRetreat(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function slot2.onCloakUpdate(slot0, slot1, slot2, slot3)
+	if slot0:cloakStateRequire(slot3.cloakState) then
+		slot0:onTrigger(slot1, slot2, slot3)
+	end
+end
+
+function slot2.cloakStateRequire(slot0, slot1)
+	if not slot0._cloakRequire then
+		return true
+	else
+		return slot0._cloakRequire == slot1
+	end
 end
 
 function slot2.Interrupt(slot0)

@@ -442,39 +442,6 @@ function slot0.updateActivityFleet(slot0, slot1)
 	getProxy(FleetProxy):addActivityFleet(slot1.id, slot1.group_list)
 end
 
-function slot0.recommendActivityFleet(slot0, slot1, slot2)
-	slot3 = getProxy(FleetProxy)
-	slot5 = getProxy(BayProxy)
-	slot6 = slot3:getActivityFleets()[slot1][slot2]
-
-	function slot7(slot0, slot1)
-		slot7 = slot1
-		slot8 = uv2
-
-		for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.TeamToTypeList(slot0), uv1.ships, slot7, slot8)) do
-			uv1:insertShip(slot8, nil, slot0)
-		end
-	end
-
-	if Fleet.SUBMARINE_FLEET_ID <= slot2 then
-		if not slot6:isFull() then
-			slot7(TeamType.Submarine, TeamType.SubmarineMax - #slot6.subShips)
-		end
-	else
-		slot9 = TeamType.MainMax - #slot6.mainShips
-
-		if TeamType.VanguardMax - #slot6.vanguardShips > 0 then
-			slot7(TeamType.Vanguard, slot8)
-		end
-
-		if slot9 > 0 then
-			slot7(TeamType.Main, slot9)
-		end
-	end
-
-	getProxy(FleetProxy):updateActivityFleet(slot1, slot2, slot6)
-end
-
 function slot0.InitActivityBossData(slot0, slot1)
 	if not pg.activity_event_worldboss[slot1:getConfig("config_id")] then
 		return

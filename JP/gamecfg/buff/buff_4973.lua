@@ -28,6 +28,26 @@ return {
 				attr = "dodgeRateExtra",
 				number = 0.244
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 62,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				skill_id = 63,
+				target = "TargetSelf"
+			}
 		}
 	}
 }

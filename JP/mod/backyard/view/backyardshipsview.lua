@@ -54,11 +54,11 @@ end
 function slot0.LoadShip(slot0, slot1, slot2)
 	slot3 = slot0.factory
 
-	slot3:MakeBoat(slot1, function (slot0)
-		slot1 = BackYardShipModel.New(slot0, uv0)
-		uv1.shipModels[uv0.id] = slot1
+	slot3:MakeBoat(slot1, function (slot0, slot1)
+		slot2 = BackYardShipModel.New(slot0, slot1, uv0)
+		uv1.shipModels[uv0.id] = slot2
 
-		slot1:onLoadSlotModel(uv1.view)
+		slot2:onLoadSlotModel(uv1.view)
 
 		if uv2 then
 			uv2()

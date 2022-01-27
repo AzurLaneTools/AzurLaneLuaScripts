@@ -335,7 +335,7 @@ function slot9.GetDefaultSkinID(slot0)
 end
 
 function slot9.GetSkinAttachmentInfo(slot0)
-	return slot0._skinAttachment
+	return slot0._orbitSkinIDList
 end
 
 function slot9.GetWeaponBoundBone(slot0)
@@ -831,6 +831,10 @@ function slot9.SetUncontrollableSpeed(slot0, slot1, slot2, slot3)
 	end
 
 	slot0._move:SetForceMove(slot1, slot2, slot3, slot2 / slot3)
+end
+
+function slot9.ClearUncontrollableSpeed(slot0)
+	slot0._move:ClearForceMove()
 end
 
 function slot9.SetAdditiveSpeed(slot0, slot1)

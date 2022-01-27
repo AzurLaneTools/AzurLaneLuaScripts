@@ -251,8 +251,8 @@ function slot0.getShipIds(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs({
-		slot0.vanguardShips,
 		slot0.mainShips,
+		slot0.vanguardShips,
 		slot0.subShips
 	}) do
 		for slot11, slot12 in ipairs(slot7) do
@@ -288,15 +288,7 @@ function slot0.getShipPos(slot0, slot1)
 		return
 	end
 
-	if table.contains(slot0.vanguardShips, slot1.id) then
-		return table.indexof(slot0.vanguardShips, slot2), TeamType.Vanguard
-	elseif table.contains(slot0.mainShips, slot2) then
-		return table.indexof(slot0.mainShips, slot2), TeamType.Main
-	elseif table.contains(slot0.subShips, slot2) then
-		return table.indexof(slot0.subShips, slot2), TeamType.Submarine
-	else
-		return -1
-	end
+	return table.indexof(slot0:getTeamByName(slot1:getTeamType()), slot1.id) or -1, slot2
 end
 
 function slot0.getTeamByName(slot0, slot1)
@@ -322,12 +314,10 @@ function slot0.insertShip(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.canRemove(slot0, slot1)
-	slot2, slot3 = slot0:getShipPos(slot1)
-	slot4 = slot0:isPvpFleet()
-	slot5 = slot0:isFirstFleet()
+function slot0.canRemove(slot0, slot1, slot2)
+	slot3, slot4 = slot0:getShipPos(slot1)
 
-	if #(slot0:getTeamByName(slot3) or {}) == 1 and (slot5 or slot4) then
+	if slot3 > 0 and #(slot0:getTeamByName(slot4) or {}) == 1 and (slot2 or slot0:isFirstFleet() or slot0:isPVPFleet()) then
 		return false
 	else
 		return true
@@ -342,7 +332,7 @@ function slot0.isSubmarineFleet(slot0)
 	return uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS
 end
 
-function slot0.isPvpFleet(slot0)
+function slot0.isPVPFleet(slot0)
 	return slot0.id == FleetProxy.PVP_FLEET_ID
 end
 
@@ -384,22 +374,6 @@ function slot0.removeShip(slot0, slot1)
 	end
 
 	return nil
-end
-
-function slot0.canRemoveByShipId(slot0, slot1)
-	if table.getCount(slot0.vanguardShips) == 1 and slot1 == slot0.vanguardShips[1] then
-		return false, TeamType.Vanguard
-	end
-
-	if table.getCount(slot0.mainShips) == 1 and slot1 == slot0.mainShips[1] then
-		return false, TeamType.Main
-	end
-
-	if table.getCount(slot0.subShips) == 1 and slot1 == slot0.subShips[1] then
-		return false, TeamType.Submarine
-	end
-
-	return true
 end
 
 function slot0.isFull(slot0)

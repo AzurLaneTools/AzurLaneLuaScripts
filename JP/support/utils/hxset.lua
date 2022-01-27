@@ -91,12 +91,23 @@ function slot0.switchCodeMode()
 	end
 end
 
+function slot0.isHXNation(slot0)
+	uv0.nationHX = uv0.nationHX or {
+		[Nation.JP] = true,
+		[Nation.US] = true,
+		[Nation.META] = true,
+		[Nation.CN] = true
+	}
+
+	return uv0.nationHX[slot0]
+end
+
 function slot0.update()
 	slot0 = uv0.codeMode and uv0.codeNameMap or uv0.nameCodeMap
 	slot1 = uv0.codeMode and uv0.codeNameMap_EN or uv0.nameCodeMap_EN
 
 	for slot5, slot6 in pairs(pg.ship_data_statistics) do
-		if (slot6.nationality == Nation.JP or slot6.nationality == Nation.US or slot6.nationality == Nation.META) and slot0[slot6.name] then
+		if uv0.isHXNation(slot6.nationality) and slot0[slot6.name] then
 			slot6.name = slot0[slot6.name]
 		end
 
@@ -109,7 +120,7 @@ function slot0.update()
 		if slot6.name then
 			slot7, slot8 = string.gsub(slot6.name, "级", "")
 
-			if (slot6.nation == Nation.JP or slot6.nation == Nation.US or slot6.nationality == Nation.META) and slot0[slot7] then
+			if uv0.isHXNation(slot6.nation) and slot0[slot7] then
 				slot6.name = slot0[slot7] .. (slot8 > 0 and "级" or "")
 			end
 		end
@@ -140,8 +151,8 @@ function slot0.update()
 							slot2 = rawget(uv1, slot1)
 						end
 
-						if slot1 == "name" and (slot0.nationality == Nation.JP or slot0.nationality == Nation.US or slot0.nationality == Nation.META) and uv2[slot2] then
-							slot2 = uv2[slot2]
+						if slot1 == "name" and uv2.isHXNation(slot0.nationality) and uv3[slot2] then
+							slot2 = uv3[slot2]
 						end
 
 						return slot2

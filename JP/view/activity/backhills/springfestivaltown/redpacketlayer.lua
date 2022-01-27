@@ -40,6 +40,8 @@ function slot0.findUI(slot0)
 	slot0.specialCountText = slot0:findTF("Text", slot0.specialTF)
 	slot0.normalTF = slot0:findTF("Container/Count/Normal")
 	slot0.normalCountText = slot0:findTF("Text", slot0.normalTF)
+	slot0.skinAwardBtn = slot0:findTF("Container/Award")
+	slot0.countText = slot0:findTF("Container/CountText")
 	slot0.backBtn = slot0:findTF("Top/BackBtn")
 end
 
@@ -59,6 +61,12 @@ function slot0.addListener(slot0)
 			helps = pg.gametip.help_chunjie_jiulou.tip
 		})
 	end, SFX_PANEL)
+
+	if slot0.skinAwardBtn then
+		onButton(slot0, slot0.skinAwardBtn, function ()
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+		end, SFX_PANEL)
+	end
 end
 
 function slot0.updateUI(slot0)
@@ -75,6 +83,7 @@ function slot0.updateUI(slot0)
 	setText(slot0.specialCountText, slot4)
 	setActive(slot0.packetBtn, slot3 > 0)
 	setActive(slot0.packetMask, slot3 <= 0)
+	setText(slot0.countText, slot1.data1_list[2] .. "/" .. slot1.data1_list[1])
 end
 
 function slot0.tryPlayStory(slot0)

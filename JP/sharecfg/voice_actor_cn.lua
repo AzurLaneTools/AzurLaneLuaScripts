@@ -1179,5 +1179,17 @@ pg.voice_actor_CN = {
 	[300] = {
 		code = 300,
 		actor_name = "野村真悠華"
+	},
+	[301] = {
+		code = 301,
+		actor_name = "伊達朱里紗"
+	},
+	[302] = {
+		code = 302,
+		actor_name = "風間万裕子"
+	},
+	[303] = {
+		code = 303,
+		actor_name = "綾瀬有"
 	}
 }

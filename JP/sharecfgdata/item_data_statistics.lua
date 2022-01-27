@@ -5311,6 +5311,27 @@ _G.pg.item_data_statistics[11049] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[11050] = {
+	display = "533mm五連装魚雷Mk17T0設計図",
+	name = "533mm五連装魚雷Mk17T0設計図",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/15240",
+	id = 11050,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[13000] = {
 	display = "381mm連装砲.改T0設計図",
 	name = "381mm連装砲.改T0設計図",
@@ -8193,6 +8214,30 @@ _G.pg.item_data_statistics[20102] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[20103] = {
+	display = "科学部が作成した戦術データベース。特別計画3期の開発任務経験値を10000蓄積させることができる<color=#ff5c5c>（倉庫でプロトコアに分解可能）</color>",
+	name = "戦術データパック・Ⅲ期",
+	max_num = 0,
+	type = 18,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/20103",
+	id = 20103,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21001] = {
 	display = "飛龍(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
 	name = "結晶：飛龍(META)",
@@ -8335,6 +8380,27 @@ _G.pg.item_data_statistics[21007] = {
 	is_world = 0,
 	icon = "Props/21007",
 	id = 21007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21008] = {
+	display = "隼鷹 (META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：隼鷹 (META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21008",
+	id = 21008,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -12813,6 +12879,163 @@ _G.pg.item_data_statistics[30331] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30332] = {
+	display = "ランダムの装備外装を入手可能",
+	name = "装備外装箱(春節2022)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhunianchunjie",
+	id = 30332,
+	display_icon = {
+		{
+			9,
+			520,
+			1
+		},
+		{
+			9,
+			521,
+			1
+		},
+		{
+			9,
+			522,
+			1
+		},
+		{
+			9,
+			523,
+			1
+		},
+		{
+			9,
+			524,
+			1
+		},
+		{
+			9,
+			525,
+			1
+		},
+		{
+			9,
+			526,
+			1
+		},
+		{
+			9,
+			527,
+			1
+		},
+		{
+			9,
+			528,
+			1
+		},
+		{
+			9,
+			529,
+			1
+		},
+		{
+			9,
+			530,
+			1
+		},
+		{
+			9,
+			531,
+			1
+		},
+		{
+			9,
+			532,
+			1
+		},
+		{
+			9,
+			533,
+			1
+		},
+		{
+			9,
+			534,
+			1
+		},
+		{
+			9,
+			535,
+			1
+		},
+		{
+			9,
+			536,
+			1
+		},
+		{
+			9,
+			537,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30401] = {
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	name = "ランダム装備外装",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30401,
+	display_icon = {
+		{
+			9,
+			2001,
+			1
+		},
+		{
+			9,
+			2002,
+			1
+		},
+		{
+			9,
+			2003,
+			1
+		},
+		{
+			9,
+			2004,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30501] = {
 	display = "使用すると、装備外装（晩夏）から任意の装備外装を1個選択して入手できます",
 	name = "選択装備外装箱（晩夏）",
@@ -12828,7 +13051,6 @@ _G.pg.item_data_statistics[30501] = {
 	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/appearanceboxxiamozixuan",
-	price = "",
 	id = 30501,
 	display_icon = {
 		{
@@ -12922,6 +13144,114 @@ _G.pg.item_data_statistics[30501] = {
 			1
 		}
 	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30502] = {
+	display = "使用すると、装備外装（タマちゃん）（恭賀新春）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（春節）",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchsprzixuan",
+	id = 30502,
+	display_icon = {
+		{
+			9,
+			22,
+			1
+		},
+		{
+			9,
+			23,
+			1
+		},
+		{
+			9,
+			24,
+			1
+		},
+		{
+			9,
+			25,
+			1
+		},
+		{
+			9,
+			26,
+			1
+		},
+		{
+			9,
+			27,
+			1
+		},
+		{
+			9,
+			28,
+			1
+		},
+		{
+			9,
+			29,
+			1
+		},
+		{
+			9,
+			30,
+			1
+		},
+		{
+			9,
+			31,
+			1
+		},
+		{
+			9,
+			32,
+			1
+		},
+		{
+			9,
+			33,
+			1
+		},
+		{
+			9,
+			34,
+			1
+		},
+		{
+			9,
+			35,
+			1
+		},
+		{
+			9,
+			36,
+			1
+		},
+		{
+			9,
+			37,
+			1
+		},
+		{
+			9,
+			38,
+			1
+		}
+	},
+	price = {},
 	index = {}
 }
 
@@ -15433,6 +15763,63 @@ _G.pg.item_data_statistics[40916] = {
 		{
 			2,
 			69916,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40917] = {
+	display = "ランダムに旧正月2022シリーズの着せ替え衣装、上級指向型強化ユニット・四期目×2、ダイヤ×2022、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	name = "春節福袋2022",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai7",
+	id = 40917,
+	display_icon = {
+		{
+			2,
+			69917,
 			1
 		},
 		{
@@ -150361,6 +150748,147 @@ _G.pg.item_data_statistics[58458] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[58459] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58459,
+	display_icon = {
+		{
+			2,
+			13,
+			1
+		},
+		{
+			2,
+			45,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58460] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58460,
+	display_icon = {
+		{
+			2,
+			10024,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58461] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58461,
+	display_icon = {
+		{
+			2,
+			10026,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		},
+		{
+			2,
+			10093,
+			1
+		},
+		{
+			2,
+			10016,
+			1
+		},
+		{
+			2,
+			11006,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59000] = {
 	display = "参加キャラは経験値を獲得できます",
 	name = "経験値",
@@ -153779,6 +154307,174 @@ _G.pg.item_data_statistics[59261] = {
 	is_world = 0,
 	icon = "props/xinniandezhufu",
 	id = 59261,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59263] = {
+	display = "「新春祝福」イベントの交換アイテム。イベント終了後に削除される",
+	name = "東煌結び",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	id = 59263,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59264] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2022.2.9メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2022.2.9まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59264,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59265] = {
+	display = "イベント「演習ミステリー事件　調査報告書」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+	name = "演習pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/bristol_pt",
+	id = 59265,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59266] = {
+	display = "「演習ミステリー事件　調査報告書」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+	name = "特別戦闘券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59266,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59267] = {
+	display = "『画中世界』での画巻解放用アイテム。イベント終了時に削除されます",
+	name = "探索回数",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4230,
+	virtual_type = 15,
+	is_world = 0,
+	icon = "Props/youlidianshu",
+	id = 59267,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59268] = {
+	display = "『画中世界』での名物配置（追加報酬解放）用アイテム。イベント終了時に削除されます",
+	name = "名物配置回数",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4230,
+	virtual_type = 15,
+	is_world = 0,
+	icon = "Props/huizhidianshu",
+	id = 59268,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59269] = {
+	display = "キャンペーン「シーズン任務」(2022.2.1~2022.3.31)で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	name = "進捗Pt",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59269,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59270] = {
+	display = "不该被看到",
+	name = "通行证三期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 7003,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59270,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -157240,6 +157936,48 @@ _G.pg.item_data_statistics[59843] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59844] = {
+	display = "東煌四神獣の一つである青龍の姿が彫られた玉器、特別な力を発揮する。ーー駆逐艦「鞍山」の改造素材",
+	name = "青龍の印",
+	max_num = 1,
+	type = 7,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 520014,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/symbolqinglong",
+	id = 59844,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59845] = {
+	display = "東煌四神獣の一つである白虎の姿が彫られた玉器、特別な力を発揮する。ーー駆逐艦「長春」の改造素材",
+	name = "白虎の印",
+	max_num = 1,
+	type = 7,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 520034,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/symbolbaihu",
+	id = 59845,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59900] = {
 	display = "様々な方法で入手できるコアデータ。コアショップで報酬と交換可能",
 	name = "コアデータ",
@@ -159324,6 +160062,27 @@ _G.pg.item_data_statistics[60022] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60022,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60023] = {
+	display = "「饅頭の年玉」で開封可能",
+	name = "年玉",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4218,
+	virtual_type = 11,
+	is_world = 0,
+	icon = "props/red_packet2",
+	id = 60023,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -162517,6 +163276,363 @@ _G.pg.item_data_statistics[60216] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[60217] = {
+	display = "絵の具A",
+	name = "絵の具A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_a",
+	id = 60217,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60218] = {
+	display = "絵の具B",
+	name = "絵の具B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_b",
+	id = 60218,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60219] = {
+	display = "絵の具C",
+	name = "絵の具C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_c",
+	id = 60219,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60220] = {
+	display = "絵の具D",
+	name = "絵の具D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_d",
+	id = 60220,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60221] = {
+	display = "絵の具E",
+	name = "絵の具E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_e",
+	id = 60221,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60222] = {
+	display = "絵の具F",
+	name = "絵の具F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_f",
+	id = 60222,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60223] = {
+	display = "絵の具G",
+	name = "絵の具G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_g",
+	id = 60223,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60224] = {
+	display = "絵の具H",
+	name = "絵の具H",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_h",
+	id = 60224,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60225] = {
+	display = "絵の具I",
+	name = "絵の具I",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_i",
+	id = 60225,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60226] = {
+	display = "祝福の年賀状も兼ねて。使用すると、艦船と記念アイテムを入手可能",
+	name = "春節招待状（2022）",
+	max_num = 0,
+	type = 21,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60226,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60227] = {
+	display = "「宴の余興にこの大鳳の弾く曲でもいかが？」――大鳳（春節2022）",
+	name = "春節招待状（大鳳）",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60227,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60228] = {
+	display = "「どれ、この矢で新しい一年の福を射止めようか！」――エンタープライズ（春節2022）",
+	name = "春節招待状（エンタープライズ）",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60228,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60229] = {
+	display = "「東煌の情緒溢れる扇、お納めくださいませ」――ベルファスト（春節2022）",
+	name = "春節招待状（ベルファスト）",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60229,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60230] = {
+	display = "「大年初一、今年一番に盛り上げていくわよ！」――寧海（春節2022）",
+	name = "春節招待状（寧海）",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60230,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60231] = {
+	display = "「寝春節で1キロ太らせるよー！…だめ？」――平海（春節2022）",
+	name = "春節招待状（平海）",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60231,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60232] = {
+	display = "「打ち上げるのはーミサイルじゃなくて花火だよー」――長春（春節2022）",
+	name = "春節招待状（長春）",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60232,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60233] = {
+	display = "「虎年は長春が…長春？どこ行ったの？」――太原（春節2022）",
+	name = "春節招待状（太原）",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60233,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[69000] = {
 	display = "大舰队作战伤害数值，仅用于大舰队BOSS伤害结算",
 	name = "伤害值",
@@ -163097,6 +164213,47 @@ _G.pg.item_data_statistics[69916] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69916,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69917] = {
+	display = [[
+下記の着せ替えからランダムに入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>12.0%</color>）カリブディス  癒やしの紅閨（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）赤城 朝凰来儀（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>5.2%</color>）ブリストル  東煌志怪談；
+（<color=#92fc63>5.2%</color>）リノ  きらめく春の息吹；
+（<color=#92fc63>5.2%</color>）加賀  鸞翔影集；
+（<color=#92fc63>5.2%</color>）ハーマイオニー  ピュアリー・ハーブ；
+（<color=#92fc63>4.6%</color>）鎮海  奇響華殿；
+（<color=#92fc63>4.6%</color>）海天  詩句馨る水亭にて；
+（<color=#92fc63>4.6%</color>）海圻  清き泉にて楽と舞ふ；
+（<color=#92fc63>4.6%</color>）宵月  爆竹と饅頭；
+（<color=#92fc63>4.6%</color>）長波  夜長に寄り添って；
+（<color=#92fc63>4.6%</color>）アリゾナ  西方舞姫；
+（<color=#92fc63>4.6%</color>）朝潮  舞い降りるもこもこタフト；
+（<color=#92fc63>4.6%</color>）ロドニー  完璧な佳人；
+（<color=#92fc63>4.6%</color>）花月  春正旦・月華盎然；
+（<color=#92fc63>4.6%</color>）追風  墨梅の筆墨硯紙；
+（<color=#92fc63>4.6%</color>）綾波  Navalistic Showdown；
+（<color=#92fc63>4.6%</color>）ペンシルベニア  石州飛将]],
+	name = "ランダム衣装（旧正月2022）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69917,
 	display_icon = {},
 	price = {},
 	index = {}

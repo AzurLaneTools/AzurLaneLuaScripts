@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_35 = {
+	[813] = {
+		cannon = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		speed = 15,
+		dodge = 0,
+		id = 813,
+		cannon_growth = 0,
+		rarity = 1,
+		reload_growth = 0,
+		dodge_growth = 0,
+		armor = 0,
+		star = 1,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90139,
+		durability = 75,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		luck = 0,
+		torpedo = 80,
+		durability_growth = 0,
+		antisub = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300125
+		}
+	},
 	[814] = {
 		cannon = 0,
 		battle_unit_type = 15,
@@ -794,78 +833,6 @@ pg.enemy_data_statistics_35 = {
 			300180,
 			300181,
 			300182
-		}
-	},
-	[841] = {
-		cannon = 95,
-		name = "護衛フリゲートAce",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		reload = 150,
-		air = 0,
-		fog_fx = "",
-		dodge = 0,
-		speed = 15,
-		luck = 0,
-		id = 841,
-		reload_growth = 0,
-		dodge_growth = 0,
-		air_growth = 0,
-		star = 2,
-		hit = 80,
-		antisub_growth = 0,
-		rarity = 2,
-		cannon_growth = 0,
-		base = 90124,
-		durability = 2350,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 50,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 120,
-		durability_growth = 0,
-		antisub = 100,
-		luck_growth = 0,
-		scale = 150,
-		battle_unit_type = 30,
-		cld_box = {
-			9.75,
-			5.625,
-			6.75
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.66,
-				-0.19,
-				-0.02
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanlanghuazhong2 = 0.75
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			300180,
-			300183,
-			300184
 		}
 	}
 }

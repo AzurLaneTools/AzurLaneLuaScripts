@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_56 = {
+	[9002] = {
+		cannon = 42,
+		name = "量産型カゲロウ級",
+		antiaircraft_growth = 920,
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		air_growth = 0,
+		dodge = 0,
+		luck = 0,
+		id = 9002,
+		cannon_growth = 350,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 2,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 1,
+		fog_fx = "",
+		base = 90105,
+		durability = 560,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		antiaircraft = 80,
+		hit_growth = 160,
+		armor = 0,
+		speed = 15,
+		torpedo = 80,
+		antisub = 0,
+		durability_growth = 8820,
+		luck_growth = 0,
+		battle_unit_type = 20,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			100227,
+			100430
+		}
+	},
 	[9003] = {
 		cannon = 38,
 		name = "量産型フブキ級",
@@ -681,44 +722,6 @@ pg.enemy_data_statistics_56 = {
 			318044,
 			318045,
 			318046
-		}
-	},
-	[9018] = {
-		cannon = 260,
-		name = "マヤ",
-		reload = 150,
-		cannon_growth = 1700,
-		hit_growth = 210,
-		air = 0,
-		speed_growth = 0,
-		dodge = 7,
-		base = 90209,
-		speed = 18,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 102,
-		luck_growth = 0,
-		star = 5,
-		hit = 20,
-		antisub_growth = 0,
-		rarity = 4,
-		air_growth = 0,
-		torpedo = 320,
-		durability = 6800,
-		armor_growth = 0,
-		durability_growth = 53000,
-		antiaircraft = 165,
-		antiaircraft_growth = 3200,
-		armor = 0,
-		id = 9018,
-		battle_unit_type = 60,
-		antisub = 0,
-		torpedo_growth = 3200,
-		fog_fx = "",
-		equipment_list = {
-			318046,
-			318048,
-			318049
 		}
 	}
 }

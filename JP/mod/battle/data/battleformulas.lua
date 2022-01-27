@@ -153,7 +153,7 @@ function slot0.CreateContextCalculateDamage(slot0)
 		end
 
 		slot31 = uv0.NUM1
-		slot25 = math.max(slot31, math.floor(slot25 * slot19 * (slot31 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot31) + uv2.GetCurrent(slot0, uv5.AGAINST_ARMOR_ENHANCE[slot20])) * slot22 * (slot31 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1) * (slot31 + uv2.GetCurrent(slot1, "injureRatio")) * (slot31 + uv2.GetCurrent(slot0, uv6[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv7[slot15.ammo_type])) * (slot31 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot31 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2])))
+		slot25 = math.max(slot31, math.floor(slot25 * slot19 * (slot31 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot31) + uv2.GetCurrent(slot0, uv5.AGAINST_ARMOR_ENHANCE[slot20])) * slot22 * (slot31 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1, uv6) * (slot31 + uv2.GetCurrent(slot1, "injureRatio")) * (slot31 + uv2.GetCurrent(slot0, uv7[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv8[slot15.ammo_type])) * (slot31 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot31 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2])))
 
 		if slot1:GetCurrentOxyState() == uv1.OXY_STATE.DIVE then
 			slot25 = math.floor(slot25 * slot15.antisub_enhancement)
@@ -177,7 +177,7 @@ function slot0.CreateContextCalculateDamage(slot0)
 
 		slot25 = math.max(0, slot25 + uv2.GetCurrent(slot0, "damageEnhanceProjectile"))
 
-		if uv8 then
+		if uv6 then
 			slot25 = slot25 * (uv0.NUM1 + uv2.GetCurrent(slot0, "worldBuffResistance"))
 		end
 
@@ -307,10 +307,6 @@ function slot0.CalculateFleetOverDamage(slot0, slot1)
 	else
 		return uv0.GetCurrent(slot1, "maxHP") * uv1.SCORE_RATE[3]
 	end
-end
-
-function slot0.ReloadTime(slot0, slot1)
-	return uv0.CalculateReloadTime(slot0, slot1.loadSpeed)
 end
 
 function slot0.CalculateReloadTime(slot0, slot1)

@@ -120,6 +120,18 @@ pg.strategy_data_template = {
 		desc = "艦隊はスコールに覆われている。戦闘中、味方・敵の隠蔽範囲縮小速度が遅くなる",
 		arg = {}
 	},
+	[18] = {
+		buff_id = 0,
+		name = "ミサイル",
+		type = 2,
+		iconSize = "",
+		id = 18,
+		icon = "18",
+		desc = "海域マップでミサイル攻撃を1回行える",
+		arg = {
+			missile
+		}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "作戦効率化",
@@ -1387,6 +1399,7 @@ pg.strategy_data_template = {
 		14,
 		16,
 		17,
+		18,
 		47,
 		90,
 		91,

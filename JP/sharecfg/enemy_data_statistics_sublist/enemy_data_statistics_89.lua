@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_89 = {
+	[108001] = {
+		cannon = 65,
+		name = "量産型ナガラ級",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		air_growth = 0,
+		dodge = 0,
+		luck = 0,
+		id = 108001,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 2,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 1,
+		fog_fx = "",
+		base = 90107,
+		durability = 860,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 85,
+		hit_growth = 120,
+		armor = 0,
+		speed = 15,
+		torpedo = 180,
+		antisub = 0,
+		durability_growth = 14000,
+		luck_growth = 0,
+		battle_unit_type = 25,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			318098,
+			100427
+		}
+	},
 	[108002] = {
 		cannon = 75,
 		name = "量産型クマ級",
@@ -778,104 +819,6 @@ pg.enemy_data_statistics_89 = {
 			100223,
 			100432,
 			317004,
-			317012,
-			318102
-		}
-	},
-	[10805200] = {
-		cannon = 430,
-		name = "イカヅチ",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 130,
-		speed = 36,
-		luck = 0,
-		id = 10805200,
-		reload_growth = 0,
-		dodge_growth = 1020,
-		reload = 150,
-		star = 4,
-		hit = 20,
-		antisub_growth = 0,
-		rarity = 3,
-		cannon_growth = 0,
-		base = 90163,
-		durability = 62000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 320,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 820,
-		durability_growth = 0,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.31,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.23,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.56,
-							2.91,
-							-0.14
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			100223,
-			100432,
-			317007,
 			317012,
 			318102
 		}

@@ -3,9 +3,9 @@ slot0.Vanguard = "vanguard"
 slot0.Main = "main"
 slot0.Submarine = "submarine"
 slot0.TeamTypeIndex = {
-	[slot0.Vanguard] = 1,
-	[slot0.Main] = 2,
-	[slot0.Submarine] = 3
+	slot0.Vanguard,
+	slot0.Main,
+	slot0.Submarine
 }
 slot0.VanguardShipType = {
 	ShipType.QuZhu,
@@ -14,7 +14,8 @@ slot0.VanguardShipType = {
 	ShipType.HangXun,
 	ShipType.LeiXun,
 	ShipType.ChaoXun,
-	ShipType.Yunshu
+	ShipType.Yunshu,
+	ShipType.DaoQuV
 }
 slot0.MainShipType = {
 	ShipType.ZhanXun,
@@ -23,7 +24,8 @@ slot0.MainShipType = {
 	ShipType.ZhengHang,
 	ShipType.HangZhan,
 	ShipType.WeiXiu,
-	ShipType.ZhongPao
+	ShipType.ZhongPao,
+	ShipType.DaoQuM
 }
 slot0.SubShipType = {
 	ShipType.QianTing,
@@ -53,34 +55,24 @@ slot0.TeamPos = {
 	SUB_CONSORT = "SubConsort"
 }
 
-function slot0.TeamToTypeList(slot0)
-	if slot0 == uv0.Vanguard then
-		return uv0.VanguardShipType
-	elseif slot0 == uv0.Main then
-		return uv0.MainShipType
-	elseif slot0 == uv0.Submarine then
-		return uv0.SubShipType
+function slot0.GetShipTypeListFromTeam(slot0)
+	return uv0[slot0]
+end
+
+slot2 = {}
+
+for slot6, slot7 in pairs({
+	[slot0.Vanguard] = slot0.VanguardShipType,
+	[slot0.Main] = slot0.MainShipType,
+	[slot0.Submarine] = slot0.SubShipType
+}) do
+	for slot11, slot12 in ipairs(slot7) do
+		slot2[slot12] = slot6
 	end
 end
 
-function slot0.TypeToTeamType(slot0)
-	if table.contains(uv0.VanguardShipType, slot0) then
-		return uv0.Vanguard
-	elseif table.contains(uv0.MainShipType, slot0) then
-		return uv0.Main
-	elseif table.contains(uv0.SubShipType, slot0) then
-		return uv0.Submarine
-	end
-end
-
-function slot0.TeamTypeSortIndex(slot0)
-	if slot0 == uv0.Main then
-		return 1
-	elseif slot0 == uv0.Vanguard then
-		return 2
-	elseif slot0 == uv0.Submarine then
-		return 3
-	end
+function slot0.GetTeamFromShipType(slot0)
+	return uv0[slot0]
 end
 
 return slot0

@@ -708,6 +708,15 @@ function temp()
 						}
 					}
 				}
+			},
+			["ブ"] = {
+				["デ"] = {
+					["ィ"] = {
+						["ス"] = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		["サ"] = {
@@ -2037,6 +2046,15 @@ function temp()
 			},
 			["ン"] = {
 				this = true
+			}
+		},
+		["リ"] = {
+			["ス"] = {
+				["ト"] = {
+					["ル"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -4004,7 +4022,10 @@ function temp()
 			this = true
 		},
 		["春"] = {
-			this = true
+			this = true,
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -4041,6 +4062,12 @@ temp()
 function temp()
 	uv0["海"] = {
 		["風"] = {
+			this = true
+		},
+		["天"] = {
+			this = true
+		},
+		["圻"] = {
 			this = true
 		}
 	}
@@ -4774,7 +4801,20 @@ temp()
 function temp()
 	uv0["隼"] = {
 		["鷹"] = {
-			this = true
+			this = true,
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5093,7 +5133,10 @@ temp()
 function temp()
 	uv0["鞍"] = {
 		["山"] = {
-			this = true
+			this = true,
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -5585,6 +5628,16 @@ function temp()
 			["芽"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鎮"] = {
+		["海"] = {
+			this = true
 		}
 	}
 end

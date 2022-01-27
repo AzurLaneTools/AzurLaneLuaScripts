@@ -183,7 +183,7 @@ function slot0.flushCollection(slot0, slot1)
 
 				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
 					point = pg.fleet_tech_ship_template[slot1.groupId].pt_level,
-					typeList = pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype,
+					typeList = ShipType.FilterOverQuZhuType(pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype),
 					attr = pg.fleet_tech_ship_template[slot1.groupId].add_level_attr,
 					value = pg.fleet_tech_ship_template[slot1.groupId].add_level_value
 				})

@@ -116,9 +116,7 @@ function slot0.Preload(slot0)
 			end
 		end
 
-		for slot13, slot14 in ipairs(pg.aircraft_template.all) do
-			slot1:AddPreloadResource(slot1.GetAircraftResource(slot14, {}))
-		end
+		slot1:AddPreloadResource(slot1.GetAircraftResource(30001, {}))
 	else
 		slot3 = {}
 		slot4 = {}

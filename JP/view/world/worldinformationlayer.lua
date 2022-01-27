@@ -198,6 +198,7 @@ end
 
 function slot0.OnUpdateDailyTask(slot0)
 	setActive(slot0.btnDailyTask:Find("tip"), slot0.taskProxy:canAcceptDailyTask())
+	setActive(slot0.btnDailyTask:Find("locked"), not nowWorld():IsSystemOpen(WorldConst.SystemDailyTask))
 end
 
 return slot0

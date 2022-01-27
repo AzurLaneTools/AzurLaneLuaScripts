@@ -84,7 +84,8 @@ return {
 			spr = "index_equip",
 			tag = i18n("word_equipment_special"),
 			types = {
-				EquipType.SeaPlane
+				EquipType.SeaPlane,
+				EquipType.Missile
 			}
 		}
 	},
@@ -113,6 +114,11 @@ return {
 				EquipType.TorpedoAircraft,
 				EquipType.BomberAircraft,
 				EquipType.SeaPlane
+			}
+		},
+		{
+			types = {
+				EquipType.Equipment
 			}
 		}
 	},

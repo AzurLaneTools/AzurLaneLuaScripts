@@ -22,6 +22,50 @@ return {
 					attr = "DMG_FROM_TAG_2_T_1",
 					number = 0.045
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.045
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.045
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.045
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
+					number = 0.045
+				}
 			}
 		}
 	},
@@ -46,6 +90,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.052
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.052
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.052
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.052
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.052
 				}
 			}
@@ -72,6 +160,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.06
 				}
 			}
@@ -98,6 +230,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.07
 				}
 			}
@@ -124,6 +300,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.077
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.077
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.077
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.077
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.077
 				}
 			}
@@ -150,6 +370,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.085
 				}
 			}
@@ -176,6 +440,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.095
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.095
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.095
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.095
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.095
 				}
 			}
@@ -202,6 +510,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.102
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.102
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.102
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.102
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.102
 				}
 			}
@@ -228,6 +580,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.11
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.11
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.11
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.11
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.11
 				}
 			}
@@ -254,6 +650,50 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = 0.12
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = 0.12
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = 0.12
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = 0.12
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = 0.12
 				}
 			}
@@ -268,5 +708,50 @@ return {
 	id = 12322,
 	icon = 12322,
 	last_effect = "Darkness",
-	effect_list = {}
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				attr = "DMG_FROM_TAG_1_T_20",
+				number = 0.045
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				attr = "DMG_FROM_TAG_2_T_20",
+				number = 0.045
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				attr = "DMG_FROM_TAG_1_T_21",
+				number = 0.045
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				attr = "DMG_FROM_TAG_2_T_21",
+				number = 0.045
+			}
+		}
+	}
 }

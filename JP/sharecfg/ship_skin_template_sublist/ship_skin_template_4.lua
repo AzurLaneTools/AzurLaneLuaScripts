@@ -7952,5 +7952,235 @@ pg.ship_skin_template_4 = {
 				}
 			}
 		}
+	},
+	[137030] = {
+		ship_group = 10703,
+		name = "プロモタレント？",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 137030,
+		group_index = 10,
+		prefab = "salatuojia_9",
+		painting = "salatuojia_9",
+		shop_id = 70588,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "セットおっけー！衣装もおっけー！よし、全部バッチリね！！今日のサラトガちゃんはプロモーションタレントに大変身だよ！指揮官、おひとつでもどう？",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.122,
+					1.404,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.151,
+					1.388,
+					0
+				}
+			},
+			plane = {
+				{
+					1.112,
+					1.451,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.545,
+							2.068,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
+	[201010] = {
+		ship_group = 20101,
+		name = "アマゾン",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201010,
+		group_index = 0,
+		prefab = "nvjiang",
+		painting = "nvjiang",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "A級実験駆逐艦・アマゾン（D39)",
+		voice_actor = 4,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.318,
+					0.719,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.181,
+					0.477,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.318,
+					0.719,
+					0
+				},
+				{
+					0.824,
+					0.507,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.593,
+							0.319,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.527,
+							0.483,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

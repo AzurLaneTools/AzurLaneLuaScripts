@@ -14,7 +14,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				3
@@ -41,7 +43,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				4
@@ -68,7 +72,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				6
@@ -416,7 +422,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				10
@@ -443,7 +451,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				14
@@ -470,7 +480,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				20
@@ -773,7 +785,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				8
@@ -803,7 +816,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				11
@@ -833,7 +847,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				16
@@ -866,7 +881,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				10
@@ -899,7 +915,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				14
@@ -932,7 +949,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				20
@@ -962,7 +980,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				4
@@ -992,7 +1011,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				5
@@ -1022,7 +1042,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				8
@@ -1055,7 +1076,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				3
@@ -1088,7 +1110,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				4
@@ -1121,7 +1144,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				6
@@ -1232,7 +1256,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -1259,7 +1285,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				7
@@ -1286,7 +1314,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				10
@@ -1814,7 +1844,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				30
@@ -1841,7 +1873,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				42
@@ -1868,7 +1902,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				60
@@ -2000,7 +2036,7 @@ pg.commander_ability_template = {
 		id = 731,
 		group_id = 73,
 		icon = "zhanlie_naijiu_1",
-		desc = "<color=#3dc6ff>巡戦、戦艦、航戦</color>の耐久が60アップ",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦</color>の耐久が75アップ",
 		add = {
 			{
 				1,
@@ -2017,15 +2053,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"<戦艦>耐久",
-				60
+				75
 			},
 			{
 				"<巡戦>耐久",
-				60
+				75
 			},
 			{
 				"<航戦>耐久",
-				60
+				75
 			}
 		}
 	},
@@ -2037,7 +2073,7 @@ pg.commander_ability_template = {
 		id = 732,
 		group_id = 73,
 		icon = "zhanlie_naijiu_2",
-		desc = "<color=#3dc6ff>巡戦、戦艦、航戦</color>の耐久が84アップ",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦</color>の耐久が105アップ",
 		add = {
 			{
 				1,
@@ -2054,15 +2090,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"<戦艦>耐久",
-				84
+				105
 			},
 			{
 				"<巡戦>耐久",
-				84
+				105
 			},
 			{
 				"<航戦>耐久",
-				84
+				105
 			}
 		}
 	},
@@ -2074,7 +2110,7 @@ pg.commander_ability_template = {
 		id = 733,
 		group_id = 73,
 		icon = "zhanlie_naijiu_3",
-		desc = "<color=#3dc6ff>巡戦、戦艦、航戦</color>の耐久が120アップ",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦</color>の耐久が150アップ",
 		add = {
 			{
 				1,
@@ -2091,15 +2127,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"<戦艦>耐久",
-				120
+				150
 			},
 			{
 				"<巡戦>耐久",
-				120
+				150
 			},
 			{
 				"<航戦>耐久",
-				120
+				150
 			}
 		}
 	},
@@ -2399,7 +2435,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				3
@@ -2429,7 +2466,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				4
@@ -2459,7 +2497,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				6
@@ -2492,7 +2531,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				1
@@ -2525,7 +2565,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				2
@@ -2558,7 +2599,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				3
@@ -2587,7 +2629,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				5
@@ -2620,7 +2664,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				7
@@ -2653,7 +2699,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				10
@@ -2969,7 +3017,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				8
@@ -2978,7 +3028,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				4
@@ -3009,7 +3061,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				11
@@ -3018,7 +3072,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -3049,7 +3105,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				16
@@ -3058,7 +3116,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				8
@@ -3271,7 +3331,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				6
+				8
 			}
 		},
 		add_desc = {
@@ -3321,7 +3381,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				8
+				11
 			}
 		},
 		add_desc = {
@@ -3371,7 +3431,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				12
+				16
 			}
 		},
 		add_desc = {
@@ -4436,7 +4496,7 @@ pg.commander_ability_template = {
 		id = 2171,
 		group_id = 217,
 		icon = "",
-		desc = "<color=#3dc6ff>北方連合</color>の火力が8アップ、装填が3アップ、命中が1アップ",
+		desc = "<color=#3dc6ff>北方連合</color>の火力が8アップ、装填が4アップ、命中が1アップ",
 		add = {
 			{
 				1,
@@ -4473,7 +4533,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<北方連合>装填",
-				3
+				4
 			},
 			{
 				"<北方連合>命中",
@@ -4489,7 +4549,7 @@ pg.commander_ability_template = {
 		id = 2172,
 		group_id = 217,
 		icon = "",
-		desc = "<color=#3dc6ff>北方連合</color>の火力が11アップ、装填が4アップ、命中が2アップ",
+		desc = "<color=#3dc6ff>北方連合</color>の火力が11アップ、装填が5アップ、命中が2アップ",
 		add = {
 			{
 				1,
@@ -4526,7 +4586,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<北方連合>装填",
-				4
+				5
 			},
 			{
 				"<北方連合>命中",
@@ -4542,7 +4602,7 @@ pg.commander_ability_template = {
 		id = 2173,
 		group_id = 217,
 		icon = "",
-		desc = "<color=#3dc6ff>北方連合</color>の火力が16アップ、装填が6アップ、命中が3アップ",
+		desc = "<color=#3dc6ff>北方連合</color>の火力が16アップ、装填が8アップ、命中が3アップ",
 		add = {
 			{
 				1,
@@ -4579,7 +4639,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<北方連合>装填",
-				6
+				8
 			},
 			{
 				"<北方連合>命中",
@@ -5029,7 +5089,9 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					2
+					2,
+					20,
+					21
 				},
 				3,
 				15

@@ -139,6 +139,18 @@ function slot0.GetShips(slot0)
 	return slot4
 end
 
+function slot0.GetTeamTypeShips(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0:GetShips()) do
+		if slot7.ship:getTeamType() == slot1 then
+			table.insert(slot2, slot8)
+		end
+	end
+
+	return slot2
+end
+
 function slot0.RemoveAll(slot0)
 	slot0.userShips = {}
 end

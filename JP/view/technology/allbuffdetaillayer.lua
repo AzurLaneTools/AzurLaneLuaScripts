@@ -25,6 +25,7 @@ function slot0.initData(slot0)
 	slot1 = getProxy(TechnologyNationProxy)
 	slot0.tecList = slot1:GetTecList()
 	slot0.typeAttrTable, slot0.typeOrder, slot0.typeAttrOrderTable = slot1:getTecBuff()
+	slot0.typeOrder = ShipType.FilterOverQuZhuType(slot0.typeOrder)
 end
 
 function slot0.findUI(slot0)

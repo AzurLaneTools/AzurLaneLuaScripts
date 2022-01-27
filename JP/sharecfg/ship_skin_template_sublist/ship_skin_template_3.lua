@@ -1,120 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102261] = {
-		ship_group = 10226,
-		name = "波濤のチアリーダー",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "132",
-		id = 102261,
-		group_index = 1,
-		prefab = "linuo_2",
-		painting = "linuo_2",
-		shop_id = 70334,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 13,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "各陣営のトップが集まる大運動会、見どころある試合が次から次へと…！うん、リノもユニオンのチアリーダーとして頑張ろう！ユニオン、ファイトぉ！",
-		voice_actor = 231,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.417,
-					1.072,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.413,
-					1.156,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.469,
-					1.106,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.67,
-							2.17,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102262] = {
 		ship_group = 10226,
 		name = "サマー・スピンオフ",
@@ -360,6 +245,121 @@ pg.ship_skin_template_3 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		}
+	},
+	[102264] = {
+		ship_group = 10226,
+		name = "きらめく春の息吹",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 102264,
+		group_index = 4,
+		prefab = "linuo_5",
+		painting = "linuo_5",
+		shop_id = 70652,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官見て見て！…えへへ、すこし「ギミック」をガジェットに仕込んでみたけど、気になる？――この小さな花火より、リノの格好のほうが気になるって？…ええー",
+		voice_actor = 231,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.3,
+					1.087,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.034,
+					1.126,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.246,
+					1.168,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.572,
+							2.197,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[102270] = {
@@ -6366,6 +6366,119 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105031] = {
+		ship_group = 10503,
+		name = "石州飛将",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "153",
+		id = 105031,
+		group_index = 1,
+		prefab = "binxifaniya_2",
+		painting = "binxifaniya_2",
+		shop_id = 70655,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "止まれ！何奴だ！…あら、指揮官か。あやうく間者の類かと思ったが…ここに来たのは見学か？それとも本当に「我が軍の情報を調べにやってきた」のか？",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.26,
+					1.15,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					1.07,
+					0
+				},
+				{
+					1.44,
+					0.95,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.36,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105040] = {
 		ship_group = 10504,
 		name = "アリゾナ",
@@ -6488,6 +6601,124 @@ pg.ship_skin_template_3 = {
 						{
 							0.227,
 							0.657,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105041] = {
+		ship_group = 10504,
+		name = "西方舞姫",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 105041,
+		group_index = 1,
+		prefab = "yalisangna_2",
+		painting = "yalisangna_2",
+		shop_id = 70656,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "東煌にゆかりのある衣装だと聞きましたけど、これは……ううん、嫌いではありませんが、指揮官に見せるのは、ちょっと恥ずかしくて…あっ、泣きそうとか、そういうのじゃありませんよっ",
+		voice_actor = 37,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.062,
+					1.069,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.876,
+					1.092,
+					0
+				},
+				{
+					1.157,
+					1.149,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.106,
+					1.278,
+					0
+				},
+				{
+					1.13,
+					1.202,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.389,
+							2.301,
 							0
 						}
 					}

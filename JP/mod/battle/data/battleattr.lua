@@ -71,7 +71,7 @@ slot0.ATTACK_ATTR_TYPE = {
 }
 
 function slot0.GetAtkAttrByType(slot0, slot1)
-	return slot0[uv0.ATTACK_ATTR_TYPE[slot1]]
+	return math.max(slot0[uv0.ATTACK_ATTR_TYPE[slot1]], 0)
 end
 
 function slot0.SetAttr(slot0, slot1)
@@ -222,7 +222,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.cannonPower = slot1.cannon
 	slot3.torpedoPower = slot1.torpedo
 	slot3.antiAirPower = slot1.antiaircraft
-	slot3.antiSubPower = slot1.antisub
+	slot3.antiSubPower = slot1.antisub or 0
 	slot3.baseAntiSubPower = slot2 and slot2.antisub or slot1.antisub
 	slot3.airPower = slot1.air
 	slot3.loadSpeed = slot1.reload
@@ -463,8 +463,21 @@ function slot0.SetCurrent(slot0, slot1, slot2)
 end
 
 function slot0.GetCurrent(slot0, slot1)
+	return uv0._attrFunc[AttributeType.IsPrimalBattleAttr(slot1) or false](slot0, slot1)
+end
+
+function slot0._getPrimalAttr(slot0, slot1)
+	return math.max(slot0._attr[slot1], 0)
+end
+
+function slot0._getSecondaryAttr(slot0, slot1)
 	return slot0._attr[slot1] or 0
 end
+
+slot0._attrFunc = {
+	[true] = slot0._getPrimalAttr,
+	[false] = slot0._getSecondaryAttr
+}
 
 function slot0.GetBase(slot0, slot1)
 	return slot0._baseAttr[slot1] or 0

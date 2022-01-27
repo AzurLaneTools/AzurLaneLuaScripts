@@ -1,219 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101392] = {
-		ship_group = 10139,
-		name = "慶陽の手料理特訓",
-		bullet_skin_secondary = "",
-		hand_id = 15,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 101392,
-		group_index = 2,
-		prefab = "malani_3",
-		painting = "malani_3",
-		shop_id = 70156,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "どうしたの指揮官？変なものでも見たような目で……ああ、この衣装は東煌で交流学習した時に手に入れたものだけど……ど、どうかな……わたしに…似合ってる？",
-		voice_actor = 166,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.889,
-					0.782,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.137,
-					0.84,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.149,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[101400] = {
-		ship_group = 10140,
-		name = "エールウィン",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101400,
-		group_index = 0,
-		prefab = "aierwen",
-		painting = "aierwen",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ファラガット級駆逐艦・エールウィン（DD-355)",
-		voice_actor = 198,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.361,
-					0.936,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.444,
-					0.966,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.299,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101401] = {
 		ship_group = 10140,
 		name = "サンデー・アクアリウム",
@@ -2078,6 +1864,220 @@ pg.ship_skin_template_2 = {
 						{
 							-0.117,
 							2.402,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101490] = {
+		ship_group = 10149,
+		name = "ブリストル",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101490,
+		group_index = 0,
+		prefab = "bulisituoer",
+		painting = "bulisituoer",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "アレン・M・サムナー級駆逐艦「ブリストル」（DD-857)",
+		voice_actor = 302,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.13,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.02,
+					1.03,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101491] = {
+		ship_group = 10149,
+		name = "東煌志怪談",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 101491,
+		group_index = 1,
+		prefab = "bulisituoer_2",
+		painting = "bulisituoer_2",
+		shop_id = 70650,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "春節おめでとう、指揮官！東煌に伝わる数々の伝説、今日こそ調べてみよう！その伝説の裏にある秘密も、きっとまた不思議なものばかりのはず！",
+		voice_actor = 302,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.05,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.93,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.41,
 							0
 						}
 					}
@@ -4738,6 +4738,121 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102102] = {
+		ship_group = 10210,
+		name = "草原を駆ける：コロンビアの旅紀行",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "118",
+		id = 102102,
+		group_index = 2,
+		prefab = "gelunbiya_3",
+		painting = "gelunbiya_3",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "（カタカタ）…今日の分はよしっと。これを読んだ姉貴の感想が今から楽しみだね～指揮官はどう思うって、指揮官？まったく、人が真面目に作業してる間どこ行ってたの…？",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.042,
+					1.043,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.966,
+					0.996,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.982,
+					1.088,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.428,
+							2.323,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102110] = {
 		ship_group = 10211,
 		name = "リッチモンド",
@@ -5454,19 +5569,7 @@ pg.ship_skin_template_2 = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			mail = 1.07,
-			login = 17,
-			main_1 = 0.73,
-			mission_complete = 2.93,
-			expedition = 0.6,
-			propose = 3.06,
-			home = 3.87,
-			mission = 0.9,
-			touch2 = 0.73,
-			task = 0.9,
-			main_2 = 0.73,
-			touch = 0.73,
-			main_3 = 0.73
+			use_event = true
 		},
 		l2d_para_range = {
 			ParamAngleX = {
@@ -8656,6 +8759,121 @@ pg.ship_skin_template_2 = {
 			antiaircraft = {
 				{
 					1.388,
+					1.106,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.17,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102261] = {
+		ship_group = 10226,
+		name = "波濤のチアリーダー",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "132",
+		id = 102261,
+		group_index = 1,
+		prefab = "linuo_2",
+		painting = "linuo_2",
+		shop_id = 70334,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 13,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "各陣営のトップが集まる大運動会、見どころある試合が次から次へと…！うん、リノもユニオンのチアリーダーとして頑張ろう！ユニオン、ファイトぉ！",
+		voice_actor = 231,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.417,
+					1.072,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.413,
+					1.156,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.469,
 					1.106,
 					0
 				}

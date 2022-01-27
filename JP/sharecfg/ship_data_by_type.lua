@@ -536,6 +536,74 @@ pg.ship_data_by_type = {
 			51
 		}
 	},
+	[20] = {
+		distory_resource_gold_ratio = 12,
+		energy_recover_time_ratio = 1,
+		team_limit = 3,
+		fix_resource_gold = 8,
+		distory_resource_oil_ratio = 0,
+		energy_recover_food_ratio = 0.09,
+		ship_type = 20,
+		type_name = "ミ駆",
+		team_type = "vanguard",
+		property_filter = {
+			"durability",
+			"cannon",
+			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			8,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			10,
+			9,
+			6,
+			7,
+			12
+		},
+		arena_buff = {
+			51
+		}
+	},
+	[21] = {
+		distory_resource_gold_ratio = 12,
+		energy_recover_time_ratio = 1,
+		team_limit = 3,
+		fix_resource_gold = 8,
+		distory_resource_oil_ratio = 0,
+		energy_recover_food_ratio = 0.09,
+		ship_type = 21,
+		type_name = "ミ駆",
+		team_type = "main",
+		property_filter = {
+			"durability",
+			"cannon",
+			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			8,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			10,
+			9,
+			6,
+			7,
+			12
+		},
+		arena_buff = {
+			51
+		}
+	},
 	all = {
 		1,
 		2,
@@ -552,6 +620,8 @@ pg.ship_data_by_type = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	}
 }
