@@ -2715,7 +2715,7 @@ _G.pg.ship_data_breakout[101493] = {
 		79812
 	},
 	ultimate_bonus = {
-		"AUX"
+		"GNR"
 	}
 }
 
