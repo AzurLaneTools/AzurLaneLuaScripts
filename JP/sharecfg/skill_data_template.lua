@@ -69956,7 +69956,7 @@ pg.skill_data_template = {
 		id = 29781,
 		type = 1,
 		max_level = 1,
-		desc = "自身の主砲が12回攻撃するたびに、特殊弾幕-カリブディスⅠを展開する",
+		desc = "自身の主砲が15回攻撃するたびに、特殊弾幕-カリブディスⅠを展開する",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -69970,7 +69970,7 @@ pg.skill_data_template = {
 		id = 29782,
 		type = 1,
 		max_level = 1,
-		desc = "自身の主砲が8回攻撃するたびに、特殊弾幕-カリブディスⅡを展開する",
+		desc = "自身の主砲が10回攻撃するたびに、特殊弾幕-カリブディスⅡを展開する",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -81061,7 +81061,7 @@ pg.skill_data_template = {
 		id = 800320,
 		type = 2,
 		max_level = 10,
-		desc = "戦闘開始時、自分が重桜艦載機を装備している場合、自身の航空ステータスが$1アップ；装備していない場合、戦闘中自身の対空・回避が$2アップ",
+		desc = "戦闘開始時、自分が重桜艦載機を装備している場合、自身の航空ステータスが$1アップ；装備していない場合、戦闘中自身の対空・回避が$1アップ",
 		system_transform = {},
 		world_death_mark = {
 			1

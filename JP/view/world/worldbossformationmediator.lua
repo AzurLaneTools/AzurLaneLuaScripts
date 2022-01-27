@@ -118,9 +118,7 @@ function slot0.register(slot0)
 				if uv1 == nil then
 					uv2:insertShip(slot2, nil, uv3)
 				else
-					slot3 = uv0:getShipPos({
-						id = uv1
-					})
+					slot3 = uv0:getShipPos(uv4)
 
 					uv2:removeShipById(uv1)
 

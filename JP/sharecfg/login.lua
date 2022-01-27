@@ -201,7 +201,7 @@ pg.login = {
 	[8] = {
 		id = 8,
 		login_static = "login",
-		login_cri = "loginbg",
+		login_cri = "",
 		bgm = "main-chunjie3",
 		date = {
 			timer,
