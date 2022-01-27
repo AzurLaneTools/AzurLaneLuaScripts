@@ -5979,6 +5979,46 @@ pg.expedition_activity_template = {
 			}
 		}
 	},
+	[1610001] = {
+		id = 1610001,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20956,
+				2010
+			}
+		}
+	},
+	[1610002] = {
+		id = 1610002,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20956,
+				2010
+			}
+		}
+	},
+	[1610003] = {
+		id = 1610003,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20956,
+				2010
+			}
+		}
+	},
+	[1610004] = {
+		id = 1610004,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20956,
+				2010
+			}
+		}
+	},
 	[3000013] = {
 		id = 3000013,
 		pt_drop_display = "",
@@ -6758,6 +6798,10 @@ pg.expedition_activity_template = {
 		1603113,
 		1603213,
 		1604013,
+		1610001,
+		1610002,
+		1610003,
+		1610004,
 		3000013,
 		3000113,
 		3000213,

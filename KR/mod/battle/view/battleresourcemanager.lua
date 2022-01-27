@@ -75,6 +75,10 @@ function slot5.GetBulletPath(slot0)
 	return "Item/" .. slot0
 end
 
+function slot5.GetOrbitPath(slot0)
+	return "orbit/" .. slot0
+end
+
 function slot5.GetCharacterPath(slot0)
 	return "Char/" .. slot0
 end
@@ -281,6 +285,36 @@ function slot5.InstFX(slot0, slot1)
 	slot3 = nil
 
 	if slot0._allPool[slot0.GetFXPath(slot1)] then
+		slot3 = slot0:popPool(slot4)
+	elseif slot0._resCacheList[slot2] ~= nil then
+		slot0:InitPool(slot2, slot0._resCacheList[slot2])
+
+		slot3 = slot0:popPool(slot0._allPool[slot2])
+	else
+		ResourceMgr.Inst:getAssetAsync(slot2, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			if not uv0._poolRoot then
+				uv1.Destroy(slot0)
+
+				return
+			else
+				uv0:InitPool(uv2, slot0)
+			end
+		end), true, true)
+
+		slot3 = GameObject(slot1 .. "临时假obj")
+
+		slot3:SetActive(false)
+
+		slot0._resCacheList[slot2] = slot3
+	end
+
+	return slot3
+end
+
+function slot5.InstOrbit(slot0, slot1)
+	slot3 = nil
+
+	if slot0._allPool[slot0.GetOrbitPath(slot1)] then
 		slot3 = slot0:popPool(slot4)
 	elseif slot0._resCacheList[slot2] ~= nil then
 		slot0:InitPool(slot2, slot0._resCacheList[slot2])
@@ -670,6 +704,12 @@ function slot5.InitPool(slot0, slot1, slot2, slot3)
 		else
 			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 3, 20, false, false):InitSize()
 		end
+	elseif string.find(slot1, "orbit/") then
+		if slot3 ~= nil then
+			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 2, 20, false, false):InitSizeAsync(slot3)
+		else
+			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 2, 20, false, false):InitSize()
+		end
 	elseif slot1 == "UI/SkillPainting" then
 		if slot3 ~= nil then
 			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 1, 20, false, false):InitSizeAsync(slot3)
@@ -860,7 +900,7 @@ function slot5.GetWeaponResource(slot0, slot1)
 		return slot2
 	end
 
-	if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.MAIN_CANNON or slot3.type == uv1.EquipmentType.SUB_CANNON or slot3.type == uv1.EquipmentType.TORPEDO or slot3.type == uv1.EquipmentType.ANTI_AIR or slot3.type == uv1.EquipmentType.ANTI_SEA or slot3.type == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == uv1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == uv1.EquipmentType.DEPTH_CHARGE or slot3.type == uv1.EquipmentType.MANUAL_TORPEDO or slot3.type == uv1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == uv1.EquipmentType.MANUAL_AAMISSILE or slot3.type == uv1.EquipmentType.BEAM or slot3.type == uv1.EquipmentType.SPACE_LASER or slot3.type == uv1.EquipmentType.FLEET_RANGE_ANTI_AIR or slot3.type == uv1.EquipmentType.MISSILE then
+	if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.MAIN_CANNON or slot3.type == uv1.EquipmentType.SUB_CANNON or slot3.type == uv1.EquipmentType.TORPEDO or slot3.type == uv1.EquipmentType.ANTI_AIR or slot3.type == uv1.EquipmentType.ANTI_SEA or slot3.type == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == uv1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == uv1.EquipmentType.DEPTH_CHARGE or slot3.type == uv1.EquipmentType.MANUAL_TORPEDO or slot3.type == uv1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == uv1.EquipmentType.MANUAL_AAMISSILE or slot3.type == uv1.EquipmentType.BEAM or slot3.type == uv1.EquipmentType.SPACE_LASER or slot3.type == uv1.EquipmentType.FLEET_RANGE_ANTI_AIR or slot3.type == uv1.EquipmentType.MANUAL_MISSILE or slot3.type == uv1.EquipmentType.AUTO_MISSILE or slot3.type == uv1.EquipmentType.MISSILE then
 		for slot7, slot8 in ipairs(slot3.bullet_ID) do
 			for slot13, slot14 in ipairs(uv2.GetBulletResource(slot8, slot1)) do
 				slot2[#slot2 + 1] = slot14
@@ -886,6 +926,10 @@ function slot5.GetWeaponResource(slot0, slot1)
 		slot2[#slot2 + 1] = uv2.GetFXPath(slot3.precast_param.fx)
 	end
 
+	if slot1 and slot1 ~= 0 and uv4.Battle.BattleDataFunction.GetEquipSkinDataFromID(slot1).orbit_combat ~= "" then
+		slot2[#slot2 + 1] = uv2.GetOrbitPath(slot5)
+	end
+
 	return slot2
 end
 
@@ -897,8 +941,8 @@ function slot5.GetEquipResource(slot0, slot1, slot2)
 			slot3[#slot3 + 1] = uv1.GetCharacterPath(uv0.Battle.BattleDataFunction.GetPlayerShipSkinDataFromID(slot5).prefab)
 		end
 
-		if slot4.attachment_combat_scene ~= "" then
-			slot3[#slot3 + 1] = uv1.GetFXPath(slot6)
+		if slot4.orbit_combat ~= "" then
+			slot3[#slot3 + 1] = uv1.GetOrbitPath(slot6)
 		end
 	end
 

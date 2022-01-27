@@ -112,15 +112,15 @@ pg.ship_spine_shift = {
 			-185
 		}
 	},
-	U1206 = {
-		spine = "U1206",
+	u1206 = {
+		spine = "u1206",
 		mainui_shift = {
 			-13,
 			5
 		}
 	},
-	U1206_2 = {
-		spine = "U1206_2",
+	u1206_2 = {
+		spine = "u1206_2",
 		mainui_shift = {
 			-19,
 			0
@@ -133,8 +133,8 @@ pg.ship_spine_shift = {
 			-13
 		}
 	},
-	U47_4 = {
-		spine = "U47_4",
+	u47_4 = {
+		spine = "u47_4",
 		mainui_shift = {
 			-19,
 			15
@@ -145,6 +145,20 @@ pg.ship_spine_shift = {
 		mainui_shift = {
 			19,
 			0
+		}
+	},
+	binxifaniya_2 = {
+		spine = "binxifaniya_2",
+		mainui_shift = {
+			5,
+			-65
+		}
+	},
+	u73_4 = {
+		spine = "u73_4",
+		mainui_shift = {
+			-26,
+			3
 		}
 	}
 }

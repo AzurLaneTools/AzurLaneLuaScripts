@@ -2504,6 +2504,54 @@ pg.world_SLGbuff_data = {
 		trap_parameter = {},
 		delete_traptype = {}
 	},
+	[4010] = {
+		buff_type = 2,
+		name = "스트렝스 방어막",
+		id = 4010,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "아비터·스트렝스·VIII가 전투 중 자신에게 특수 방어막을 생성한다.\n방어막 적용 기간 동안, 스트렝스의 화력 및 받는 항공 대미지 감소가 25% 증가하며, 스트렝스 자신의 대미지가 15% 감소한다.\n동시에 방어막은 최대 160,000의 대미지를 막아주며 1회만 생성할 수 있다.",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5010",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
+	[4020] = {
+		buff_type = 2,
+		name = "부식성 해무",
+		id = 4020,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "아비터·허밋·IX이 전투 중 해역을 뒤덮는 부식성 안개 가스를 방출한다.\n독 안개에 진입한 함선은 항속 12%, 명중 200 감소한다.",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5020",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
 	all = {
 		1,
 		2,
@@ -2601,6 +2649,8 @@ pg.world_SLGbuff_data = {
 		2500,
 		2510,
 		2520,
-		4000
+		4000,
+		4010,
+		4020
 	}
 }

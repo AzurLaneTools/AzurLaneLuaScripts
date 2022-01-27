@@ -1,5 +1,219 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
+	[201011] = {
+		ship_group = 20101,
+		name = "리틀 오케스트라 ",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "107",
+		id = 201011,
+		group_index = 1,
+		prefab = "nvjiang_2",
+		painting = "nvjiang_2",
+		shop_id = 70102,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "파티에는 오케스트라가 빠질 수 없지! 자~ 봐봐, 로열 네이비 구축함들로 편성된, 이 몸이 리더를 맡고 있는 교향악단이 흥을 책임져주지! 그럼 처음은… 아아아앗! 망토를 밟아버렸어?! ",
+		voice_actor = 4,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.32,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201019] = {
+		ship_group = 20101,
+		name = "아마존·改",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201019,
+		group_index = 9,
+		prefab = "nvjiang_g",
+		painting = "nvjiang_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "이 아마존을 개조하다니, 지휘관도 보는 눈이 있는걸. 으흥~ 마음의 준비를 하는 게 좋을걸! 앞으로 더 엄격하게 바보 지휘관을 돌봐줄 예정이니까!",
+		voice_actor = 4,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.51,
+					1.23,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.57,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.11,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201020] = {
 		ship_group = 20102,
 		name = "아카스타",
@@ -8805,121 +9019,6 @@ pg.ship_skin_template_5 = {
 				{
 					0.84,
 					1.3,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202082] = {
-		ship_group = 20208,
-		name = "잠깐의 휴식",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "114",
-		id = 202082,
-		group_index = 2,
-		prefab = "xiefeierde_3",
-		painting = "xiefeierde_3",
-		shop_id = 70222,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 10,
-		illustrator = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이것이 사쿠라 엠파이어의 축제… 굉장히 떠들썩하군요. 사람이 이렇게 많으니 끝난 뒤 뒷정리도 큰일이겠습니다. …이렇게 말은 했지만 저도 축제를 즐기고 있습니다. 무슨 문제라도? ",
-		voice_actor = 88,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.884,
-					1.108,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.89,
-					1.172,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.058,
-					0.026,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.84,
-					1.165,
 					0
 				}
 			}

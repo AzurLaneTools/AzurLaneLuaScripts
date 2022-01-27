@@ -2,7 +2,9 @@ slot0 = class("ShipEquipView", import("...base.BaseSubView"))
 slot0.UNLOCK_EQUIPMENT_SKIN_POS = {
 	1,
 	2,
-	3
+	3,
+	4,
+	5
 }
 
 function slot0.getUIName(slot0)

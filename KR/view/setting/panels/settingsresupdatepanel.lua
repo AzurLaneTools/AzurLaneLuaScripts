@@ -22,25 +22,28 @@ end
 
 function slot0.Dispose(slot0)
 	uv0.super.Dispose(slot0)
-	slot0.repairBtn:Dispose()
 
-	slot0.repairBtn = nil
+	if slot0:IsLoaded() then
+		slot0.repairBtn:Dispose()
 
-	slot0.live2dBtn:Dispose()
+		slot0.repairBtn = nil
 
-	slot0.live2dBtn = nil
+		slot0.live2dBtn:Dispose()
 
-	slot0.galleryBtn:Dispose()
+		slot0.live2dBtn = nil
 
-	slot0.galleryBtn = nil
+		slot0.galleryBtn:Dispose()
 
-	slot0.soundBtn:Dispose()
+		slot0.galleryBtn = nil
 
-	slot0.soundBtn = nil
+		slot0.soundBtn:Dispose()
 
-	slot0.musicBtn:Dispose()
+		slot0.soundBtn = nil
 
-	slot0.musicBtn = nil
+		slot0.musicBtn:Dispose()
+
+		slot0.musicBtn = nil
+	end
 end
 
 return slot0

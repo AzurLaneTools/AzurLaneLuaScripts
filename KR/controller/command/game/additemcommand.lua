@@ -108,6 +108,16 @@ function slot0.execute(slot0, slot1)
 				slot5:updateActivity(slot6)
 				nowWorld():GetBossProxy():UpdatedUnlockProgress(slot6.data1, slot6.data1)
 			end
+		elseif slot4 == 15 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot6:isEnd() then
+				if slot2.id == pg.activity_event_grid[slot6.data1].ticket_item then
+					slot6.data2 = slot6.data2 + slot2.count
+				elseif slot2.id == slot7.explore_item then
+					slot6.data3 = slot6.data3 + slot2.count
+				end
+			end
+
+			slot5:updateActivity(slot6)
 		elseif slot4 == 16 then
 			for slot10, slot11 in pairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS)) do
 				if slot11 and not slot11:isEnd() and slot2.id == slot11:getConfig("config_id") then

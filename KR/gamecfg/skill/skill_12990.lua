@@ -29,7 +29,9 @@ return {
 				buff_id = 12991,
 				nationality = 7,
 				ship_type_list = {
-					1
+					1,
+					20,
+					21
 				}
 			}
 		}

@@ -334,8 +334,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "德系V4PT",
-		key_value = 232
+		description = "布里斯托尔共斗pt",
+		key_value = 2010
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1747,7 +1747,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 231
+		key_value = 235
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -1806,6 +1806,10 @@ pg.gameset = {
 			},
 			{
 				20102,
+				10000
+			},
+			{
+				20103,
 				10000
 			}
 		}

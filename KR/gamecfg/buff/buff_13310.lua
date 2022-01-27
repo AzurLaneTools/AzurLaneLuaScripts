@@ -37,7 +37,8 @@ return {
 				ship_type_list = {
 					1,
 					18,
-					19
+					19,
+					20
 				}
 			}
 		},

@@ -2023,6 +2023,81 @@ _G.pg.aircraft_template[151] = {
 	}
 }
 
+_G.pg.aircraft_template[152] = {
+	attack_power = 2,
+	name = "默认鸢尾水侦",
+	type = 3,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 9,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 152,
+	icon = "FBA19",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1023,
+	speed = 46,
+	max_hp = 27,
+	scale = 1,
+	weapon_ID = {
+		145
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.aircraft_template[444] = {
 	attack_power = 2,
 	name = "支援武器煌翼炎龙",
@@ -27811,6 +27886,354 @@ _G.pg.aircraft_template[63450] = {
 	}
 }
 
+_G.pg.aircraft_template[63611] = {
+	attack_power = 2,
+	name = "镇海技能水上机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 3.51,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 63611,
+	icon = "FBA19",
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 1438,
+	speed = 46,
+	max_hp = 32,
+	scale = 1,
+	weapon_ID = {
+		63631
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63612] = {
+	id = 63612,
+	name = "镇海技能水上机Lv2",
+	base = 63611,
+	max_hp = 37,
+	hp_growth = 1626,
+	weapon_ID = {
+		63632
+	}
+}
+
+_G.pg.aircraft_template[63613] = {
+	id = 63613,
+	name = "镇海技能水上机Lv3",
+	base = 63611,
+	max_hp = 42,
+	hp_growth = 1813,
+	weapon_ID = {
+		63633
+	}
+}
+
+_G.pg.aircraft_template[63614] = {
+	id = 63614,
+	name = "镇海技能水上机Lv4",
+	base = 63611,
+	max_hp = 47,
+	hp_growth = 2001,
+	weapon_ID = {
+		63634
+	}
+}
+
+_G.pg.aircraft_template[63615] = {
+	id = 63615,
+	name = "镇海技能水上机Lv5",
+	base = 63611,
+	max_hp = 52,
+	hp_growth = 2189,
+	weapon_ID = {
+		63635
+	}
+}
+
+_G.pg.aircraft_template[63616] = {
+	id = 63616,
+	name = "镇海技能水上机Lv6",
+	base = 63611,
+	max_hp = 57,
+	hp_growth = 2376,
+	weapon_ID = {
+		63636
+	}
+}
+
+_G.pg.aircraft_template[63617] = {
+	id = 63617,
+	name = "镇海技能水上机Lv7",
+	base = 63611,
+	max_hp = 62,
+	hp_growth = 2564,
+	weapon_ID = {
+		63637
+	}
+}
+
+_G.pg.aircraft_template[63618] = {
+	id = 63618,
+	name = "镇海技能水上机Lv8",
+	base = 63611,
+	max_hp = 67,
+	hp_growth = 2751,
+	weapon_ID = {
+		63638
+	}
+}
+
+_G.pg.aircraft_template[63619] = {
+	id = 63619,
+	name = "镇海技能水上机Lv9",
+	base = 63611,
+	max_hp = 71,
+	hp_growth = 2939,
+	weapon_ID = {
+		63639
+	}
+}
+
+_G.pg.aircraft_template[63620] = {
+	id = 63620,
+	name = "镇海技能水上机Lv10",
+	base = 63611,
+	max_hp = 76,
+	hp_growth = 3127,
+	weapon_ID = {
+		63640
+	}
+}
+
+_G.pg.aircraft_template[63621] = {
+	attack_power = 2,
+	name = "镇海技能水上机地毯式Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 3.51,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 63621,
+	icon = "FBA19",
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 1438,
+	speed = 46,
+	max_hp = 32,
+	scale = 1,
+	weapon_ID = {
+		63641
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63622] = {
+	id = 63622,
+	name = "镇海技能水上机地毯式Lv2",
+	base = 63621,
+	max_hp = 37,
+	hp_growth = 1626,
+	weapon_ID = {
+		63642
+	}
+}
+
+_G.pg.aircraft_template[63623] = {
+	id = 63623,
+	name = "镇海技能水上机地毯式Lv3",
+	base = 63621,
+	max_hp = 42,
+	hp_growth = 1813,
+	weapon_ID = {
+		63643
+	}
+}
+
+_G.pg.aircraft_template[63624] = {
+	id = 63624,
+	name = "镇海技能水上机地毯式Lv4",
+	base = 63621,
+	max_hp = 47,
+	hp_growth = 2001,
+	weapon_ID = {
+		63644
+	}
+}
+
+_G.pg.aircraft_template[63625] = {
+	id = 63625,
+	name = "镇海技能水上机地毯式Lv5",
+	base = 63621,
+	max_hp = 52,
+	hp_growth = 2189,
+	weapon_ID = {
+		63645
+	}
+}
+
+_G.pg.aircraft_template[63626] = {
+	id = 63626,
+	name = "镇海技能水上机地毯式Lv6",
+	base = 63621,
+	max_hp = 57,
+	hp_growth = 2376,
+	weapon_ID = {
+		63646
+	}
+}
+
+_G.pg.aircraft_template[63627] = {
+	id = 63627,
+	name = "镇海技能水上机地毯式Lv7",
+	base = 63621,
+	max_hp = 62,
+	hp_growth = 2564,
+	weapon_ID = {
+		63647
+	}
+}
+
+_G.pg.aircraft_template[63628] = {
+	id = 63628,
+	name = "镇海技能水上机地毯式Lv8",
+	base = 63621,
+	max_hp = 67,
+	hp_growth = 2751,
+	weapon_ID = {
+		63648
+	}
+}
+
+_G.pg.aircraft_template[63629] = {
+	id = 63629,
+	name = "镇海技能水上机地毯式Lv9",
+	base = 63621,
+	max_hp = 71,
+	hp_growth = 2939,
+	weapon_ID = {
+		63649
+	}
+}
+
+_G.pg.aircraft_template[63630] = {
+	id = 63630,
+	name = "镇海技能水上机地毯式Lv10",
+	base = 63621,
+	max_hp = 76,
+	hp_growth = 3127,
+	weapon_ID = {
+		63650
+	}
+}
+
 _G.pg.aircraft_template[64121] = {
 	attack_power = 2,
 	name = "提康德罗加战斗机LV1",
@@ -30082,6 +30505,180 @@ _G.pg.aircraft_template[64840] = {
 	hp_growth = 3640,
 	weapon_ID = {
 		64850
+	}
+}
+
+_G.pg.aircraft_template[64931] = {
+	attack_power = 2,
+	name = "隼鹰META鱼雷机Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "97jiangong",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 64931,
+	icon = "97jiangong",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1051,
+	speed = 48,
+	max_hp = 27,
+	scale = 1,
+	weapon_ID = {
+		64941
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[64932] = {
+	id = 64932,
+	name = "隼鹰META鱼雷机Lv2",
+	base = 64931,
+	max_hp = 30,
+	hp_growth = 1178,
+	weapon_ID = {
+		64942
+	}
+}
+
+_G.pg.aircraft_template[64933] = {
+	id = 64933,
+	name = "隼鹰META鱼雷机Lv3",
+	base = 64931,
+	max_hp = 33,
+	hp_growth = 1305,
+	weapon_ID = {
+		64943
+	}
+}
+
+_G.pg.aircraft_template[64934] = {
+	id = 64934,
+	name = "隼鹰META鱼雷机Lv4",
+	base = 64931,
+	max_hp = 37,
+	hp_growth = 1432,
+	weapon_ID = {
+		64944
+	}
+}
+
+_G.pg.aircraft_template[64935] = {
+	id = 64935,
+	name = "隼鹰META鱼雷机Lv5",
+	base = 64931,
+	max_hp = 40,
+	hp_growth = 1559,
+	weapon_ID = {
+		64945
+	}
+}
+
+_G.pg.aircraft_template[64936] = {
+	id = 64936,
+	name = "隼鹰META鱼雷机Lv6",
+	base = 64931,
+	max_hp = 43,
+	hp_growth = 1686,
+	weapon_ID = {
+		64946
+	}
+}
+
+_G.pg.aircraft_template[64937] = {
+	id = 64937,
+	name = "隼鹰META鱼雷机Lv7",
+	base = 64931,
+	max_hp = 47,
+	hp_growth = 1813,
+	weapon_ID = {
+		64947
+	}
+}
+
+_G.pg.aircraft_template[64938] = {
+	id = 64938,
+	name = "隼鹰META鱼雷机Lv8",
+	base = 64931,
+	max_hp = 50,
+	hp_growth = 1940,
+	weapon_ID = {
+		64948
+	}
+}
+
+_G.pg.aircraft_template[64939] = {
+	id = 64939,
+	name = "隼鹰META鱼雷机Lv9",
+	base = 64931,
+	max_hp = 53,
+	hp_growth = 2067,
+	weapon_ID = {
+		64949
+	}
+}
+
+_G.pg.aircraft_template[64940] = {
+	id = 64940,
+	name = "隼鹰META鱼雷机Lv10",
+	base = 64931,
+	max_hp = 57,
+	hp_growth = 2195,
+	weapon_ID = {
+		64950
 	}
 }
 
@@ -51878,6 +52475,326 @@ _G.pg.aircraft_template[90847] = {
 	weapon_ID = {
 		50027,
 		51567
+	}
+}
+
+_G.pg.aircraft_template[91180] = {
+	attack_power = 2,
+	name = "FBA 19",
+	type = 3,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 3.63,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 91180,
+	icon = "FBA19",
+	AP_growth = 2000,
+	dodge_limit = 0.9,
+	hp_growth = 1137,
+	speed = 46,
+	max_hp = 25,
+	scale = 1,
+	weapon_ID = {
+		52200
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[91181] = {
+	id = 91181,
+	max_hp = 29,
+	hp_growth = 1308,
+	base = 91180,
+	weapon_ID = {
+		52201
+	}
+}
+
+_G.pg.aircraft_template[91182] = {
+	id = 91182,
+	max_hp = 33,
+	hp_growth = 1478,
+	base = 91180,
+	weapon_ID = {
+		52202
+	}
+}
+
+_G.pg.aircraft_template[91183] = {
+	id = 91183,
+	max_hp = 38,
+	hp_growth = 1649,
+	base = 91180,
+	weapon_ID = {
+		52203
+	}
+}
+
+_G.pg.aircraft_template[91184] = {
+	id = 91184,
+	max_hp = 42,
+	hp_growth = 1819,
+	base = 91180,
+	weapon_ID = {
+		52204
+	}
+}
+
+_G.pg.aircraft_template[91185] = {
+	id = 91185,
+	max_hp = 47,
+	hp_growth = 1990,
+	base = 91180,
+	weapon_ID = {
+		52205
+	}
+}
+
+_G.pg.aircraft_template[91186] = {
+	id = 91186,
+	max_hp = 51,
+	hp_growth = 2160,
+	base = 91180,
+	weapon_ID = {
+		52206
+	}
+}
+
+_G.pg.aircraft_template[91200] = {
+	attack_power = 2,
+	name = "FBA 19",
+	type = 3,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 3.51,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 91200,
+	icon = "FBA19",
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 1251,
+	speed = 46,
+	max_hp = 28,
+	scale = 1,
+	weapon_ID = {
+		52220
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[91201] = {
+	id = 91201,
+	max_hp = 32,
+	hp_growth = 1438,
+	base = 91200,
+	weapon_ID = {
+		52221
+	}
+}
+
+_G.pg.aircraft_template[91202] = {
+	id = 91202,
+	max_hp = 37,
+	hp_growth = 1626,
+	base = 91200,
+	weapon_ID = {
+		52222
+	}
+}
+
+_G.pg.aircraft_template[91203] = {
+	id = 91203,
+	max_hp = 42,
+	hp_growth = 1813,
+	base = 91200,
+	weapon_ID = {
+		52223
+	}
+}
+
+_G.pg.aircraft_template[91204] = {
+	id = 91204,
+	max_hp = 47,
+	hp_growth = 2001,
+	base = 91200,
+	weapon_ID = {
+		52224
+	}
+}
+
+_G.pg.aircraft_template[91205] = {
+	id = 91205,
+	max_hp = 52,
+	hp_growth = 2189,
+	base = 91200,
+	weapon_ID = {
+		52225
+	}
+}
+
+_G.pg.aircraft_template[91206] = {
+	id = 91206,
+	max_hp = 57,
+	hp_growth = 2376,
+	base = 91200,
+	weapon_ID = {
+		52226
+	}
+}
+
+_G.pg.aircraft_template[91207] = {
+	id = 91207,
+	max_hp = 62,
+	hp_growth = 2564,
+	base = 91200,
+	weapon_ID = {
+		52227
+	}
+}
+
+_G.pg.aircraft_template[91208] = {
+	id = 91208,
+	max_hp = 67,
+	hp_growth = 2751,
+	base = 91200,
+	weapon_ID = {
+		52228
+	}
+}
+
+_G.pg.aircraft_template[91209] = {
+	id = 91209,
+	max_hp = 71,
+	hp_growth = 2939,
+	base = 91200,
+	weapon_ID = {
+		52229
+	}
+}
+
+_G.pg.aircraft_template[91210] = {
+	id = 91210,
+	max_hp = 76,
+	hp_growth = 3127,
+	base = 91200,
+	weapon_ID = {
+		52230
+	}
+}
+
+_G.pg.aircraft_template[91211] = {
+	id = 91211,
+	max_hp = 81,
+	hp_growth = 3314,
+	base = 91200,
+	weapon_ID = {
+		52231
 	}
 }
 

@@ -112,6 +112,12 @@ function slot0.filterByType(slot0, slot1)
 			slot7 = ShipIndexCfg.type[slot5].types
 
 			if slot5 < 4 then
+				slot8 = ShipIndexCfg.type[slot5].shipTypes
+
+				if table.contains(slot7, slot0:getShipType()) then
+					return true
+				end
+
 				if table.contains(slot7, slot0:getTeamType()) then
 					return true
 				end

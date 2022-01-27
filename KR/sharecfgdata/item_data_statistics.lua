@@ -5542,6 +5542,27 @@ _G.pg.item_data_statistics[11049] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[11050] = {
+	display = "5연장 533mm 어뢰 Mk17 T0 설계도",
+	name = "5연장 533mm 어뢰 Mk17 T0 설계도",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/15240",
+	id = 11050,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[12000] = {
 	display = "93식 산소어뢰 T3 설계도",
 	name = "93식 산소어뢰 T3 설계도",
@@ -8459,6 +8480,30 @@ _G.pg.item_data_statistics[20102] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[20103] = {
+	display = "개발부에서 종합한 테스트 데이터. <color=#92fc63>개발 도크 내에서 사용</color>하여 과학 개발 3기 함선 기술 테스트 경험치를 10000 증가시킬 수 있다. <color=#ff5c5c>(창고에서 분해 시 원형 설계를 획득하며, 경험치 획득 불가)</color>",
+	name = "연구 테스트 데이터・제3기",
+	max_num = 0,
+	type = 18,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/20103",
+	id = 20103,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21001] = {
 	display = "{namecode:191}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: {namecode:191}",
@@ -8601,6 +8646,27 @@ _G.pg.item_data_statistics[21007] = {
 	is_world = 0,
 	icon = "Props/21007",
 	id = 21007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21008] = {
+	display = "{namecode:221}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: {namecode:221}",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21008",
+	id = 21008,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -9912,6 +9978,116 @@ _G.pg.item_data_statistics[30303] = {
 		{
 			9,
 			1015,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30304] = {
+	display = "랜덤한 장비 스킨을 입수할 수 있다. (설날 시리즈 및 해봄이 시리즈) ",
+	name = "장비 스킨 상자 (설날) ",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchspr",
+	id = 30304,
+	display_icon = {
+		{
+			9,
+			22,
+			1
+		},
+		{
+			9,
+			23,
+			1
+		},
+		{
+			9,
+			24,
+			1
+		},
+		{
+			9,
+			25,
+			1
+		},
+		{
+			9,
+			26,
+			1
+		},
+		{
+			9,
+			27,
+			1
+		},
+		{
+			9,
+			28,
+			1
+		},
+		{
+			9,
+			29,
+			1
+		},
+		{
+			9,
+			30,
+			1
+		},
+		{
+			9,
+			31,
+			1
+		},
+		{
+			9,
+			32,
+			1
+		},
+		{
+			9,
+			33,
+			1
+		},
+		{
+			9,
+			34,
+			1
+		},
+		{
+			9,
+			35,
+			1
+		},
+		{
+			9,
+			36,
+			1
+		},
+		{
+			9,
+			37,
+			1
+		},
+		{
+			9,
+			38,
 			1
 		}
 	},
@@ -13047,6 +13223,163 @@ _G.pg.item_data_statistics[30331] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30332] = {
+	display = "랜덤한 장비 스킨을 입수할 수 있다. (2022설날 시리즈) ",
+	name = "장비 스킨 상자(2022설날)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhunianchunjie",
+	id = 30332,
+	display_icon = {
+		{
+			9,
+			520,
+			1
+		},
+		{
+			9,
+			521,
+			1
+		},
+		{
+			9,
+			522,
+			1
+		},
+		{
+			9,
+			523,
+			1
+		},
+		{
+			9,
+			524,
+			1
+		},
+		{
+			9,
+			525,
+			1
+		},
+		{
+			9,
+			526,
+			1
+		},
+		{
+			9,
+			527,
+			1
+		},
+		{
+			9,
+			528,
+			1
+		},
+		{
+			9,
+			529,
+			1
+		},
+		{
+			9,
+			530,
+			1
+		},
+		{
+			9,
+			531,
+			1
+		},
+		{
+			9,
+			532,
+			1
+		},
+		{
+			9,
+			533,
+			1
+		},
+		{
+			9,
+			534,
+			1
+		},
+		{
+			9,
+			535,
+			1
+		},
+		{
+			9,
+			536,
+			1
+		},
+		{
+			9,
+			537,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30401] = {
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30401,
+	display_icon = {
+		{
+			9,
+			2001,
+			1
+		},
+		{
+			9,
+			2002,
+			1
+		},
+		{
+			9,
+			2003,
+			1
+		},
+		{
+			9,
+			2004,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30501] = {
 	display = "사용 후 「뜨거운 여름」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
 	name = "지향형 장비 스킨 상자(늦여름)",
@@ -13062,7 +13395,6 @@ _G.pg.item_data_statistics[30501] = {
 	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/appearanceboxxiamozixuan",
-	price = "",
 	id = 30501,
 	display_icon = {
 		{
@@ -13156,6 +13488,114 @@ _G.pg.item_data_statistics[30501] = {
 			1
 		}
 	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30502] = {
+	display = "사용 시 「바다표범」, 「근하신년」 시리즈 장비 스킨 중 임의로 1가지 선택 획득",
+	name = "지향형 장비스킨 상자(춘절)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchsprzixuan",
+	id = 30502,
+	display_icon = {
+		{
+			9,
+			22,
+			1
+		},
+		{
+			9,
+			23,
+			1
+		},
+		{
+			9,
+			24,
+			1
+		},
+		{
+			9,
+			25,
+			1
+		},
+		{
+			9,
+			26,
+			1
+		},
+		{
+			9,
+			27,
+			1
+		},
+		{
+			9,
+			28,
+			1
+		},
+		{
+			9,
+			29,
+			1
+		},
+		{
+			9,
+			30,
+			1
+		},
+		{
+			9,
+			31,
+			1
+		},
+		{
+			9,
+			32,
+			1
+		},
+		{
+			9,
+			33,
+			1
+		},
+		{
+			9,
+			34,
+			1
+		},
+		{
+			9,
+			35,
+			1
+		},
+		{
+			9,
+			36,
+			1
+		},
+		{
+			9,
+			37,
+			1
+		},
+		{
+			9,
+			38,
+			1
+		}
+	},
+	price = {},
 	index = {}
 }
 
@@ -15437,6 +15877,63 @@ _G.pg.item_data_statistics[40916] = {
 		{
 			2,
 			69916,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40917] = {
+	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2022, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제3기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
+	name = "아카시 패키지(2022) ",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai7",
+	id = 40917,
+	display_icon = {
+		{
+			2,
+			69917,
 			1
 		},
 		{
@@ -143132,6 +143629,147 @@ _G.pg.item_data_statistics[58458] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[58459] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58459,
+	display_icon = {
+		{
+			2,
+			13,
+			1
+		},
+		{
+			2,
+			45,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58460] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58460,
+	display_icon = {
+		{
+			2,
+			10024,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58461] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58461,
+	display_icon = {
+		{
+			2,
+			10026,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		},
+		{
+			2,
+			10093,
+			1
+		},
+		{
+			2,
+			10016,
+			1
+		},
+		{
+			2,
+			11006,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59000] = {
 	display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 	name = "경험치",
@@ -146513,6 +147151,174 @@ _G.pg.item_data_statistics[59261] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59263] = {
+	display = "『새해축복·신축』 이벤트 교환용. 이벤트 종료 후 사라집니다.",
+	name = "이스트 글림 매듭",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	id = 59263,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59264] = {
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59264,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59265] = {
+	display = "『훈련 중 미스터리 사건』에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
+	name = "공헌도",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/bristol_pt",
+	id = 59265,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59266] = {
+	display = "『훈련 중 미스터리 사건』EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+	name = "특별 도전권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59266,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59267] = {
+	display = "『하이티엔과 하이치의 그림 세계』에서 탐사 가능. 이벤트 종료 후 사라짐.",
+	name = "탐사 PT",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20965,
+	virtual_type = 15,
+	is_world = 0,
+	icon = "Props/youlidianshu",
+	id = 59267,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59268] = {
+	display = "『하이티엔과 하이치의 그림 세계』에서 탐사 가능. 이벤트 종료 후 사라짐.",
+	name = "제작 PT",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20965,
+	virtual_type = 15,
+	is_world = 0,
+	icon = "Props/huizhidianshu",
+	id = 59268,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59269] = {
+	display = "『월드 투어』(2022.2.8~2022.4.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
+	name = "투어 PT",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59269,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59270] = {
+	display = "",
+	name = "",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20969,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59270,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -149609,6 +150415,48 @@ _G.pg.item_data_statistics[59843] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59844] = {
+	display = "이스트 글림의 사신수 중 하나인 청룡이 새겨진 옥기. 특수한 힘을 머금고 있다——안샨 근대화 개조 완성용 아이템",
+	name = "청룡의 인",
+	max_num = 1,
+	type = 7,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 520014,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/symbolqinglong",
+	id = 59844,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59845] = {
+	display = "이스트 글림의 사신수 중 하나인 백호가 새겨진 옥기. 특수한 힘을 머금고 있다——창춘 근대화 개조 완성용 아이템",
+	name = "백호의 인",
+	max_num = 1,
+	type = 7,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 520034,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/symbolbaihu",
+	id = 59845,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59900] = {
 	display = "다양한 방법으로 획득할 수 있는 코어 데이터. 코어 상점에서 사용할 수 있다.",
 	name = "코어 데이터",
@@ -151517,6 +152365,27 @@ _G.pg.item_data_statistics[60022] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60022,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60023] = {
+	display = "「쥬쥬 레스토랑」 이벤트에서 사용할 수 있다. ",
+	name = "세뱃돈 ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20953,
+	virtual_type = 11,
+	is_world = 0,
+	icon = "props/red_packet2",
+	id = 60023,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -154611,6 +155480,363 @@ _G.pg.item_data_statistics[60216] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[60217] = {
+	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_a",
+	id = 60217,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60218] = {
+	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_b",
+	id = 60218,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60219] = {
+	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_c",
+	id = 60219,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60220] = {
+	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_d",
+	id = 60220,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60221] = {
+	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_e",
+	id = 60221,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60222] = {
+	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_f",
+	id = 60222,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60223] = {
+	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_g",
+	id = 60223,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60224] = {
+	display = "물감 H, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 H",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_h",
+	id = 60224,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60225] = {
+	display = "물감 I, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 I",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20947,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_i",
+	id = 60225,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60226] = {
+	display = "축복이 담긴 연하장. 사용 후 지정된 캐릭터 중에 임의로 선택 후 획득 가능",
+	name = "연하장(2022)",
+	max_num = 0,
+	type = 21,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60226,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60227] = {
+	display = "다이호에게서 받은 춘절 연하장",
+	name = "다이호의 연하장",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60227,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60228] = {
+	display = "엔터프라이즈에게서 받은 춘절 연하장",
+	name = "엔터프라이즈의 연하장",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60228,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60229] = {
+	display = "벨파스트에게서 받은 춘절 연하장",
+	name = "벨파스트의 연하장",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60229,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60230] = {
+	display = "닝하이에게서 받은 춘절 연하장",
+	name = "닝하이의 연하장",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60230,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60231] = {
+	display = "핑하이에게서 받은 춘절 연하장",
+	name = "핑하이의 연하장",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60231,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60232] = {
+	display = "창춘에게서 받은 춘절 연하장",
+	name = "창춘의 연하장",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60232,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60233] = {
+	display = "타이위안에게서 받은 춘절 연하장",
+	name = "타이위안의 연하장",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60233,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[69000] = {
 	display = "대함대 작전 대미지 수치. 대함대 보스 대미지 결산용",
 	name = "대미지 수치",
@@ -155158,6 +156384,47 @@ _G.pg.item_data_statistics[69916] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69916,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69917] = {
+	display = [[
+다음 스킨 중 1가지 랜덤 획득(해당 스킨을 보유 중일 경우, 동등한 가치의 다이아로 자동 전환)
+포함된 스킨 및 확률:
+（<color=#92fc63>12.0%</color>）카리브디스 스킨  안식의 규방（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）{namecode:91} 스킨 조황내의（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>5.2%</color>）브리스톨 스킨  이스트 글림의 괴담；
+（<color=#92fc63>5.2%</color>）리노 스킨  빛나는 이스트 글림의 봄；
+（<color=#92fc63>5.2%</color>）카가 스킨  난상영집；
+（<color=#92fc63>5.2%</color>）허마이오니 스킨  퓨어리 허브；
+（<color=#92fc63>4.6%</color>）젠하이 스킨  불가사의한 성전；
+（<color=#92fc63>4.6%</color>）하이티엔 스킨  시의 향이 풍기는 정자；
+（<color=#92fc63>4.6%</color>）하이치 스킨  맑은 샘의 악무；
+（<color=#92fc63>4.6%</color>）요이즈키 스킨  폭죽과 만두；
+（<color=#92fc63>4.6%</color>）나가나미 스킨  기나긴 밤에 기대어；
+（<color=#92fc63>4.6%</color>）애리조나 스킨  서방의 무희；
+（<color=#92fc63>4.6%</color>）아사시오 스킨  구름 위의 경쾌한 춤；
+（<color=#92fc63>4.6%</color>）로드니 스킨  완벽한 가인；
+（<color=#92fc63>4.6%</color>）하나즈키 스킨  완연한 봄기운；
+（<color=#92fc63>4.6%</color>）오이테 스킨  묵매의 필묵연지；
+（<color=#92fc63>4.6%</color>）아야나미 스킨  창묵의 호위무사；
+（<color=#92fc63>4.6%</color>）펜실베이니아 스킨  석주비장]],
+	name = "랜덤 신년 스킨 2022",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69917,
 	display_icon = {},
 	price = {},
 	index = {}

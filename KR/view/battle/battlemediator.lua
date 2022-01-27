@@ -803,10 +803,6 @@ function slot0.GenBattleData(slot0)
 		end
 	end
 
-	if slot0.mainShips then
-		slot0.sortMainShips(slot0.mainShips)
-	end
-
 	if slot2 == SYSTEM_WORLD then
 		slot5 = nowWorld()
 		slot6 = slot5:GetActiveMap()
@@ -1077,14 +1073,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.QUIT_BATTLE then
 		slot4:Stop()
 	end
-end
-
-function slot0.sortMainShips(slot0)
-	slot1 = ys.Battle.BattleDataFunction
-
-	table.sort(slot0, function (slot0, slot1)
-		return TeamType.TeamTypeSortIndex(TeamType.TypeToTeamType(uv0.GetPlayerShipTmpDataFromID(slot0.configId).type)) < TeamType.TeamTypeSortIndex(TeamType.TypeToTeamType(uv0.GetPlayerShipTmpDataFromID(slot1.configId).type))
-	end)
 end
 
 function slot0.remove(slot0)

@@ -19,6 +19,7 @@ end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0.resLoader:Clear()
 
 	if slot0.contextData.mangaContext then
 		slot0.contextData.mangaContext:updateToMangaID(slot0.mangaIDLIst[slot0.curMangaIndex])
@@ -45,6 +46,7 @@ function slot0.findUI(slot0)
 end
 
 function slot0.initData(slot0)
+	slot0.resLoader = AutoLoader.New()
 	slot0.curMangaIndex = slot0.contextData.mangaIndex
 	slot0.mangaIDLIst = slot0.contextData.mangaIDLIst
 end
@@ -100,7 +102,7 @@ end
 function slot0.updatePicImg(slot0)
 	slot2 = pg.cartoon[slot0.mangaIDLIst[slot0.curMangaIndex]].resource
 
-	setImageSprite(slot0.picImg, LoadSprite(MangaConst.MANGA_PATH_PREFIX .. slot2, slot2))
+	slot0.resLoader:LoadSprite(MangaConst.MANGA_PATH_PREFIX .. slot2, slot2, slot0.picImg, false)
 
 	slot4 = nil
 

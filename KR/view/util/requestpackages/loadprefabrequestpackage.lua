@@ -8,12 +8,12 @@ function slot0.__call(slot0)
 	slot1 = ResourceMgr.Inst
 
 	slot1:getAssetAsync(slot0.path, slot0.name, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if not uv0.stopped then
-			slot1 = Object.Instantiate(slot0)
+		if uv0.stopped then
+			return
+		end
 
-			if uv0.onLoaded then
-				uv0.onLoaded(slot1)
-			end
+		if uv0.onLoaded then
+			uv0.onLoaded(Object.Instantiate(slot0))
 		end
 	end), true, false)
 

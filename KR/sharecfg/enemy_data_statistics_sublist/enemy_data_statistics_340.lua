@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_340 = {
+	[15102005] = {
+		cannon = 0,
+		luck_growth = 0,
+		hit_growth = 144,
+		speed_growth = 0,
+		pilot_ai_template_id = 20004,
+		air = 48,
+		speed = 15,
+		dodge = 0,
+		id = 15102005,
+		cannon_growth = 0,
+		fog_fx = "",
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		reload = 150,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 2000,
+		torpedo = 0,
+		base = 90127,
+		durability = 4420,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 115,
+		battle_unit_type = 65,
+		armor = 0,
+		durability_growth = 65600,
+		bubble_fx = "",
+		antisub = 0,
+		antiaircraft_growth = 1800,
+		specific_fx_scale = {},
+		equipment_list = {
+			1000647,
+			1000652,
+			1000657,
+			1000662
+		},
+		buff_list = {}
+	},
 	[15102006] = {
 		cannon = 60,
 		hit_growth = 1200,
@@ -655,49 +695,6 @@ pg.enemy_data_statistics_340 = {
 			820314,
 			820315,
 			820316
-		}
-	},
-	[15102303] = {
-		cannon = 220,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		battle_unit_type = 95,
-		air = 0,
-		base = 90250,
-		dodge = 18,
-		durability_growth = 0,
-		antiaircraft = 225,
-		speed = 18,
-		reload_growth = 0,
-		dodge_growth = 312,
-		luck = 18,
-		antiaircraft_growth = 0,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		torpedo = 120,
-		durability = 56000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 270,
-		armor = 0,
-		fog_fx = "",
-		id = 15102303,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			820321,
-			820322,
-			820323,
-			820324,
-			820325,
-			820326,
-			820327
 		}
 	}
 }

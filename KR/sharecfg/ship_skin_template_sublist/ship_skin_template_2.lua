@@ -1,111 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101400] = {
-		ship_group = 10140,
-		name = "아일윈 ",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101400,
-		group_index = 0,
-		prefab = "aierwen",
-		painting = "aierwen",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "패러것급 구축함-아일윈, DD-355 ",
-		voice_actor = 198,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.361,
-					0.936,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.444,
-					0.966,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.299,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101401] = {
 		ship_group = 10140,
 		name = "일요일의 아쿠아리움 ",
@@ -1982,6 +1876,220 @@ pg.ship_skin_template_2 = {
 						{
 							-0.117,
 							2.402,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101490] = {
+		ship_group = 10149,
+		name = "브리스톨",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101490,
+		group_index = 0,
+		prefab = "bulisituoer",
+		painting = "bulisituoer",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "알렌 M. 섬너급 구축함—브리스톨, 현호 DD-857",
+		voice_actor = 302,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.13,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.02,
+					1.03,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101491] = {
+		ship_group = 10149,
+		name = "이스트 글림의 괴담",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 101491,
+		group_index = 1,
+		prefab = "bulisituoer_2",
+		painting = "bulisituoer_2",
+		shop_id = 70650,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "해피 춘절이야, 지휘관! 이스트 글림에서 전해지는 수많은 전설…… 오늘이야말로 낱낱이 파헤쳐주겠어! 그 전설 뒤에는 분명, 더 신비로운 비밀이 숨어있을 거야!",
+		voice_actor = 302,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.05,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.93,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.41,
 							0
 						}
 					}
@@ -4642,6 +4750,121 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102102] = {
+		ship_group = 10210,
+		name = "종횡무진 초원 여행",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "118",
+		id = 102102,
+		group_index = 2,
+		prefab = "gelunbiya_3",
+		painting = "gelunbiya_3",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "(타이핑 중)… 음, 오늘은 여기까지만 써야지. 언니가 읽고나서 뭐라고 할지 기대되는 걸~ 지휘관은 어떤 것 같아? …지휘관? 정말, 진지하게 작업하고 있었는데 어딜 간 거야…",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.042,
+					1.043,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.966,
+					0.996,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.982,
+					1.088,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.428,
+							2.323,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102110] = {
 		ship_group = 10211,
 		name = "리치몬드",
@@ -5357,19 +5580,7 @@ pg.ship_skin_template_2 = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			mail = 1.07,
-			login = 17,
-			main_1 = 0.73,
-			mission_complete = 2.93,
-			expedition = 0.6,
-			propose = 3.06,
-			home = 3.87,
-			mission = 0.9,
-			touch2 = 0.73,
-			task = 0.9,
-			main_2 = 0.73,
-			touch = 0.73,
-			main_3 = 0.73
+			use_event = true
 		},
 		l2d_para_range = {
 			ParamAngleX = {
@@ -8673,121 +8884,6 @@ pg.ship_skin_template_2 = {
 			antiaircraft = {
 				{
 					1.469,
-					1.106,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.67,
-							2.17,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102262] = {
-		ship_group = 10226,
-		name = "여름 번외편",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 102262,
-		group_index = 2,
-		prefab = "linuo_4",
-		painting = "linuo_4",
-		shop_id = 70412,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 6,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "「슈퍼 히어로 번외편! 세계를 구한 슈퍼 히어로, 여름 오후의 해변에서 파트너와 모처럼의 휴일을 만끽 중!」...... 헤헤, 지휘관, 이런 느낌 좀 들지 않아?",
-		voice_actor = 231,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.282,
-					1.111,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.357,
-					1.156,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.368,
 					1.106,
 					0
 				}

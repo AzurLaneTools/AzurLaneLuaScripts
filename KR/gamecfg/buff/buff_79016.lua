@@ -19,7 +19,7 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				durability = 120000,
+				durability = 160000,
 				cld_data = {
 					box = {
 						range = 32

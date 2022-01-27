@@ -165,9 +165,13 @@ function slot0.readyToAchieve(slot0)
 		if slot3 == ActivityConst.ACTIVITY_TYPE_TASKS or slot3 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
 			slot4 = getProxy(TaskProxy)
 
-			return _.any(_.flatten(slot0:getConfig("config_data")), function (slot0)
+			if not _.any(_.flatten(slot0:getConfig("config_data")), function (slot0)
 				return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
-			end)
+			end) and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot6:isEnd() and slot6:getConfig("config_client").linkActID == slot0.id then
+				slot2 = slot6:readyToAchieve()
+			end
+
+			return slot2
 		end
 
 		if slot3 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
@@ -184,7 +188,7 @@ function slot0.readyToAchieve(slot0)
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 			slot12 = slot0.data2_list[1] - slot0.data2_list[2]
 
-			return math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1] - slot0.data1_list[2] > 0 or slot12 and slot12 > 0
+			return math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1] - slot0.data1_list[2] > 0
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot3 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
 			slot5 = ActivityPtData.New(slot0):CanGetAward()
 			slot6 = true
@@ -332,6 +336,8 @@ function slot0.readyToAchieve(slot0)
 			end
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
 			return #slot0:GetCrusingUnreceiveAward() > 0
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE then
+			return not WorldInPictureActiviyData.New(slot0):IsTravelAll() and slot4:GetTravelPoint() > 0 or slot4:GetDrawPoint() > 0 and slot4:AnyAreaCanDraw()
 		end
 	end
 end

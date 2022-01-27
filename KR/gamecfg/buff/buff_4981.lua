@@ -40,6 +40,26 @@ return {
 				attr = "injureRatioByAir",
 				number = -0.15
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 62,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				skill_id = 63,
+				target = "TargetSelf"
+			}
 		}
 	}
 }

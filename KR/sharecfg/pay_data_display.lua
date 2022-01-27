@@ -2753,6 +2753,210 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	[36] = {
+		descrip = "특정 범위 내에서 랜덤한 신년 스킨 1개, 2022 다이아, 그리고 다양한 아이템들을 대량으로 받을 수 있다냥! ",
+		name = "복주머니2022",
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		subject = "복주머니2022",
+		extra_gem = 0,
+		name_display = "복주머니2022",
+		limit_arg = 1,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai7",
+		id_str = "alkrgift28",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 36,
+		airijp_id = "com.yostarjp.azurlane.diamond127",
+		extra_service_item = {
+			{
+				2,
+				69917,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[37] = {
+		descrip = "특정 범위 내에서 랜덤한 신년 스킨 1개, 2021 다이아, 그리고 다양한 아이템들을 대량으로 받을 수 있다냥! ",
+		name = "복주머니 복각(2021)",
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		subject = "복주머니 복각(2021)",
+		extra_gem = 0,
+		name_display = "복주머니 복각(2021)",
+		limit_arg = 1,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai4",
+		id_str = "alkrgift29",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 37,
+		airijp_id = "com.yostarjp.azurlane.diamond128",
+		extra_service_item = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	[1000] = {
 		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 요크타운 캐릭터 스킨 및 기타 보상",
 		name = "특허 투어 패스",
@@ -2893,6 +3097,76 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[1002] = {
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 컬럼비아 캐릭터 스킨 및 기타 보상",
+		name = "특허 투어 패스(2022.2)",
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		subject = "특허 투어 패스",
+		extra_gem = 0,
+		name_display = "특허 투어 패스(2022.2)",
+		limit_arg = 1,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "alkrgift30",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 1002,
+		airijp_id = "com.yostarjp.azurlane.seasonpass3",
+		extra_service_item = {
+			{
+				1,
+				4003,
+				1500
+			},
+			{
+				8,
+				59270,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					2,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4003,
+				1500
+			}
+		},
+		sub_display = {
+			20969,
+			1500
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2927,7 +3201,10 @@ pg.pay_data_display = {
 		33,
 		34,
 		35,
+		36,
+		37,
 		1000,
-		1001
+		1001,
+		1002
 	}
 }

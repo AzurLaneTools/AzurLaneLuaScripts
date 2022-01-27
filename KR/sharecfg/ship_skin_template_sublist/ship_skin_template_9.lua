@@ -1,5 +1,233 @@
 pg = pg or {}
 pg.ship_skin_template_9 = {
+	[301251] = {
+		ship_group = 30125,
+		name = "사계절의 모임",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "135",
+		id = 301251,
+		group_index = 1,
+		prefab = "youming_2",
+		painting = "youming_2",
+		shop_id = 70430,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = 27,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "연회에 풍선을 준비해서 가져왔는데, 모두 좋아했으면 좋겠다~ 으응, 사쿠라 엠파이어 아이들은 보면 분명히 좋아할 거야!",
+		voice_actor = 155,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.187,
+					1.006,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.216,
+					1.008,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.209,
+					0.984,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301259] = {
+		ship_group = 30125,
+		name = "아리아케·改",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301259,
+		group_index = 9,
+		prefab = "youming_g",
+		painting = "youming_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 27,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "아, 이러면 개조 완료한 거지? 앞으로 지휘관과 27구축대 모두를 더 많이 도울 수 있으면 좋겠어.",
+		voice_actor = 155,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.146,
+					1.107,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.095,
+					1.108,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.012,
+					0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.151,
+					1.129,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301260] = {
 		ship_group = 30126,
 		name = "유구레",
@@ -5109,6 +5337,114 @@ pg.ship_skin_template_9 = {
 			}
 		}
 	},
+	[301582] = {
+		ship_group = 30158,
+		name = "폭죽과 만두",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 301582,
+		group_index = 2,
+		prefab = "xiaoyue_3",
+		painting = "xiaoyue_3",
+		shop_id = 70653,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "음음……. 새해 복 많이 받으세요. 요이즈키는 지금 이 폭죽을 다른 사람들에게 주러…… 만두요? 이건 미리 받아둔 \"보상\"이에요.",
+		voice_actor = 126,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.565,
+					1.157,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.061,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.931,
+					0.906,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.398,
+							2.427,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301590] = {
 		ship_group = 30159,
 		name = "우라카제 ",
@@ -6797,6 +7133,114 @@ pg.ship_skin_template_9 = {
 			}
 		}
 	},
+	[301633] = {
+		ship_group = 30163,
+		name = "구름 위의 경쾌한 춤",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 301633,
+		group_index = 3,
+		prefab = "zhaochao_5",
+		painting = "zhaochao_5",
+		shop_id = 70657,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님, 보러와주셔서 감사해요. 춘절 연회에서 선보일 공연 리허설 중이에요. ……마음에 드신다면, 아사시오는 기쁠 거예요.",
+		voice_actor = 134,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.106,
+					1.068,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.168,
+					0.053,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.008,
+					1.219,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.327,
+							2.392,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301640] = {
 		ship_group = 30164,
 		name = "오오시오 ",
@@ -8356,349 +8800,6 @@ pg.ship_skin_template_9 = {
 						{
 							-0.46,
 							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301811] = {
-		ship_group = 30181,
-		name = "포근포근 정월",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "126",
-		id = 301811,
-		group_index = 1,
-		prefab = "xia_2",
-		painting = "xia_2",
-		shop_id = 70297,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 2,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "포근포근한 옷과 따뜻한 떡…… 새해, 좋아.",
-		voice_actor = 216,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.446,
-					0.96,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.449,
-					0.973,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.007,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.433,
-					0.933,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301812] = {
-		ship_group = 30181,
-		name = "두둥실 등교",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 301812,
-		group_index = 2,
-		prefab = "xia_3",
-		painting = "xia_3",
-		shop_id = 70563,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 4,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "카스미도 둥실이도 모두 새학기를 기대하고 있어. 지휘관도 그렇지?",
-		voice_actor = 216,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.203,
-					0.996,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.264,
-					0.994,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.298,
-					0.99,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.417,
-							2.504,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301819] = {
-		ship_group = 30181,
-		name = "카스미·改",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301819,
-		group_index = 9,
-		prefab = "xia_g",
-		painting = "xia_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "뭔가 … 성장한 것 같은 기분이야. 음, 둥실이도 그렇다고 했어.",
-		voice_actor = 216,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.346,
-					1.001,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.367,
-					1.001,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.002,
-					-0.004,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.338,
-					1.001,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.341,
-							2.547,
 							0
 						}
 					}

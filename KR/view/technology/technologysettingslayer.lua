@@ -2,11 +2,12 @@ slot0 = class("TechnologySettingsLayer", import("..base.BaseUI"))
 slot0.TEC_PAGE_TENDENCY = 1
 slot0.TEC_PAGE_CATCHUP_TARGET1 = 2
 slot0.TEC_PAGE_CATCHUP_TARGET2 = 3
-slot0.TEC_PAGE_CATCHUP_ACT = 4
+slot0.TEC_PAGE_CATCHUP_TARGET3 = 4
+slot0.TEC_PAGE_CATCHUP_ACT = 5
 slot0.PANEL_INTO_TIME = 0.15
 slot0.SELECT_TENDENCY_FADE_TIME = 0.3
 slot0.SELECT_CHAR_LIGHT_FADE_TIME = 0.3
-slot0.CATCHUP_VERSION = 2
+slot0.CATCHUP_VERSION = 3
 
 function slot0.getUIName(slot0)
 	return "TechnologySettingsUI"
@@ -35,6 +36,18 @@ function slot0.preload(slot0, slot1)
 					uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET2] = uv0.catchupPanels[2]._go
 
 					setActive(uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET2], false)
+					uv2()
+				end)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
+			if uv0.CATCHUP_VERSION >= 3 then
+				uv1.catchupPanels[3] = TargetCatchupPanel3.New(nil, function ()
+					uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET3] = uv0.catchupPanels[3]._go
+
+					setActive(uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET3], false)
 					uv2()
 				end)
 			else
@@ -101,13 +114,15 @@ function slot0.findUI(slot0)
 	slot0.tendencyBtn = slot0:findTF("TendencyBtn", slot3)
 	slot0.catchupBtns = {
 		slot0:findTF("TargetCatchupBtn1", slot3),
-		slot0:findTF("TargetCatchupBtn2", slot3)
+		slot0:findTF("TargetCatchupBtn2", slot3),
+		slot0:findTF("TargetCatchupBtn3", slot3)
 	}
 	slot0.actCatchupBtn = slot0:findTF("ActCatchupBtn", slot3)
 	slot0.leftBtnList = {
 		[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyBtn,
 		[uv0.TEC_PAGE_CATCHUP_TARGET1] = slot0.catchupBtns[1],
 		[uv0.TEC_PAGE_CATCHUP_TARGET2] = slot0.catchupBtns[2],
+		[uv0.TEC_PAGE_CATCHUP_TARGET3] = slot0.catchupBtns[3],
 		[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupBtn
 	}
 	slot4 = slot0:findTF("RightPanelContainer", slot2)
@@ -128,13 +143,14 @@ function slot0.findUI(slot0)
 	slot0.showFinishFlag = PlayerPrefs.GetInt("isShowFinishCatchupVersion") or 0
 	slot0.giveupMsgBox = slot0:findTF("GiveUpMsgBox")
 
-	if uv0.CATCHUP_VERSION < 2 then
-		setActive(slot0.catchupBtns[2], false)
+	if uv0.CATCHUP_VERSION < 1 then
+		setActive(slot0.showFinish, false)
 	end
 
-	if uv0.CATCHUP_VERSION < 1 then
-		setActive(slot0.catchupBtns[1], false)
-		setActive(slot0.showFinish, false)
+	for slot8, slot9 in pairs(slot0.catchupBtns) do
+		if uv0.CATCHUP_VERSION < slot8 then
+			setActive(slot9, false)
+		end
 	end
 end
 
@@ -214,6 +230,8 @@ function slot0.switchRightPage(slot0, slot1)
 		slot0:updateTargetCatchupPage(1)
 	elseif slot1 == uv0.TEC_PAGE_CATCHUP_TARGET2 then
 		slot0:updateTargetCatchupPage(2)
+	elseif slot1 == uv0.TEC_PAGE_CATCHUP_TARGET3 then
+		slot0:updateTargetCatchupPage(3)
 	elseif slot1 == uv0.TEC_PAGE_CATCHUP_ACT then
 		slot0:updateActCatchupPage()
 	end
@@ -306,15 +324,10 @@ function slot0.updateTargetCatchupBtns(slot0)
 				setText(slot9, i18n("tec_target_catchup_selected_" .. slot4))
 
 				slot14 = slot0.technologyProxy:getCurCatchupTecInfo()
+				slot15 = slot14.tecID
 				slot16 = slot14.groupID
 				slot17 = slot14.printNum
-				slot18 = pg.technology_catchup_template[slot14.tecID].obtain_max
-
-				for slot22, slot23 in ipairs(slot0.catchupPanels[slot4].UR_LIST) do
-					if slot16 == slot23 then
-						slot18 = pg.technology_catchup_template[slot15].obtain_max_per_ur
-					end
-				end
+				slot18 = slot0.catchupPanels[slot4]:getMaxNum(slot16)
 
 				setImageSprite(slot10, LoadSprite("TecCatchup/QChar" .. slot16, tostring(slot16)))
 				setImageSprite(slot11, LoadSprite("TecCatchup/QChar" .. slot16, tostring(slot16)))

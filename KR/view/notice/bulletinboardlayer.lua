@@ -57,8 +57,8 @@ function slot0.setNotices(slot0, slot1)
 
 		slot9 = cloneTplTo(slot0._tabTpl, slot0._tabContainer)
 
-		setWidgetText(slot9, slot8.btnTitle, "common_state/title_txt")
-		setWidgetText(slot9, slot8.btnTitle, "select_state/title_txt")
+		setScrollText(slot9:Find("common_state/title_mask/title_txt"), slot8.btnTitle)
+		setScrollText(slot9:Find("select_state/title_mask/title_txt"), slot8.btnTitle)
 		changeToScrollText(slot9:Find("common_state/time_txt"), slot8.title)
 		changeToScrollText(slot9:Find("select_state/time_txt"), slot8.title)
 		table.insert(slot0._tabList, slot9)
@@ -70,6 +70,8 @@ function slot0.setNotices(slot0, slot1)
 			if slot0 then
 				uv0:setNoticeDetail(uv1)
 			end
+
+			setActive(uv2:Find("common_state"), not slot0)
 		end, SFX_PANEL)
 	end
 

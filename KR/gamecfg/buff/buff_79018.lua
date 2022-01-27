@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				force = 7,
-				scale_rate = true,
+				force = 0.3,
+				scale_rate = false,
 				gravitationalCaster = true
 			}
 		}

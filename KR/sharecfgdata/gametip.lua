@@ -890,6 +890,10 @@ _G.pg.gametip.word_seaplane = {
 	tip = "수상기"
 }
 
+_G.pg.gametip.word_missile = {
+	tip = "미사일"
+}
+
 _G.pg.gametip.word_online = {
 	tip = "로그인 중"
 }
@@ -2443,7 +2447,7 @@ _G.pg.gametip.coloring_wait_open = {
 _G.pg.gametip.coloring_help_tip = {
 	tip = {
 		{
-			info = "게임 규칙\n"
+			info = "게임 규칙"
 		},
 		{
 			info = [[
@@ -2461,7 +2465,7 @@ _G.pg.gametip.coloring_help_tip = {
 	6번 그림: 세뱃돈x1
 	7번 그림: 한정 캐릭터「안샨」
 8. 이벤트 종료 후 사용하지 않은 물감은 사라집니다.
-9. 2월 11일 전 매일 완성 가능한 그림이 하나씩 해제됩니다.]]
+9. 2월 2일 전 매일 완성 가능한 그림이 하나씩 해제됩니다.]]
 		}
 	}
 }
@@ -7136,6 +7140,38 @@ _G.pg.gametip.ship_remould_warning_702124 = {
 계속 진행하시겠습니까?]]
 }
 
+_G.pg.gametip.ship_remould_warning_520014 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（先锋舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
+_G.pg.gametip.ship_remould_warning_521014 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（主力舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
+_G.pg.gametip.ship_remould_warning_520034 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（先锋舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
+_G.pg.gametip.ship_remould_warning_521034 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（主力舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
 _G.pg.gametip.word_soundfiles_download_title = {
 	tip = "보이스 갱신"
 }
@@ -9522,6 +9558,10 @@ _G.pg.gametip.tec_notice_1 = {
 
 _G.pg.gametip.tec_notice_2 = {
 	tip = "과학 연구 2기 개발 가속 모든 임무 완료 후 개방"
+}
+
+_G.pg.gametip.tec_notice_3 = {
+	tip = "完成科研三期研发加速所有任务后解锁"
 }
 
 _G.pg.gametip.tec_notice_not_open_tip = {
@@ -12032,6 +12072,10 @@ _G.pg.gametip.word_hard = {
 	tip = "하드"
 }
 
+_G.pg.gametip.word_special_challenge_ticket = {
+	tip = "특별 도전권"
+}
+
 _G.pg.gametip.tip_exchange_ticket = {
 	tip = "특별 도전권을 한 장 사용해 $1 난이도의 추가 보상 횟수를 늘리시겠습니까? "
 }
@@ -12831,6 +12875,10 @@ _G.pg.gametip.word_equipskin_aircraft = {
 	tip = "함재기 "
 }
 
+_G.pg.gametip.word_equipskin_aux = {
+	tip = "설비"
+}
+
 _G.pg.gametip.msgbox_repair = {
 	tip = "물자 복원"
 }
@@ -12898,7 +12946,11 @@ _G.pg.gametip.help_chunjie_feast = {
 _G.pg.gametip.help_chunjie_jiulou = {
 	tip = {
 		{
-			info = "이벤트 설명:\n1.1. 이벤트 기간 동안<color=#92fc63>「푸슌의 대모험II」</color>、<color=#92fc63>「그림 일기」</color>、<color=#92fc63>「잉 루이 여행기」</color>를 통해 세뱃돌을 획득하고, 개봉하여 다이아 및 기타 풍부한 보상을 획득할 수 있습니다.\n2.세뱃돈은 15개의 bonus 세뱃돈과 나머지 일반 세뱃돈으로 구분됩니다. 세뱃돈 개봉 시 bonus 세뱃돈이 우선 개봉되며, bonus 세뱃돈 모두 개봉 완료 후 일반 세뱃돈이 개봉됩니다."
+			info = [[
+이벤트 설명:
+1. 이벤트 기간 동안 <color=#92fc63>「푸슌의 대모험III」</color>, <color=#92fc63>「그림 일기」</color>, <color=#92fc63>「하이티엔과 하아치의 그림 세계」</color>, <color=#92fc63>「잉 루이 여행기 복각」</color>을 통해 세뱃돈을 수집할 수 있으며, 세뱃돈 오픈 시 다이아 및 기타 풍부한 보상을 획득할 수 있습니다.
+2.세뱃돈은 보너스와 일반 세뱃돈으로 나뉩니다. 보너스는 <color=#92fc63>15</color>개가 있고, 나머지는 일반 세뱃돈입니다. 세뱃돈 오픈 시 보너스가 우선 오픈되며, 보너스 오픈 완료 후 일반 세뱃돈을 오픈합니다.
+3.보세뱃돈을 누적 <color=#92fc63>25</color>개 오픈하면, <color=#92fc63>「U73」 한정 스킨</color>을 획득할 수 있습니다.]]
 		}
 	}
 }
@@ -13852,25 +13904,28 @@ _G.pg.gametip.help_monopoly_car = {
 _G.pg.gametip.help_monopoly_3th = {
 	tip = {
 		{
-			info = "이벤트 기간:<color=#92fc63>2021.2.5-2021.2.20</color>"
+			info = "이벤트 기간: <color=#92fc63>2022.1.27-2022.2.10</color>"
 		},
 		{
-			info = "이벤트 설명:\n이벤트 기간 내, 첫 날<color=#92fc63>5</color>회의 이동횟수 획득 가능, 이후 매일 24시마다 이동횟수<color=#92fc63>5</color>회 획득.；"
+			info = "이벤트 설명:\n1. 이벤트 기간 첫날 전진 횟수를 <color=#92fc63>5</color>회 획득하며, 매일 24시마다 전진 횟수를 <color=#92fc63>5</color>회 획득합니다."
 		},
 		{
-			info = "2.<color=#92fc63>5</color>회 이동할 때마다 세뱃돈 1개 획득 가능."
+			info = "2. 처음 <color=#92fc63>35</color>회 전진 시 <color=#92fc63>5</color>회 전진할 때마다 세뱃돈을 획득할 수 있습니다. 총 7개 획득 가능."
 		},
 		{
-			info = "3.세뱃돈 획득 후 쥬쥬 레스토랑 페이지에서 오픈하면 풍부한 보상 획득 가능."
+			info = "3. 세뱃돈 획득 후 <color=#92fc63>쥬쥬 레스토랑</color>으로 이동하여 풍부한 보상을 획득할 수 있습니다."
 		},
 		{
-			info = "4.<color=#92fc63>35</color>회 이동 후 잉 루이 스킨 <color=#92fc63>「한송설난」</color> 획득 가능"
+			info = "4. <color=#92fc63>35</color>회 전진 후 잉 루이 스킨 <color=#92fc63>「한송설난」</color>을 획득할 수 있습니다. 한정 스킨 중복 획득 시 물자로 자동 환산됩니다."
 		},
 		{
-			info = "5.게임 중, 조우하는 사건에 따라 각각의 보상 획득 가능"
+			info = "5. 연속 전진 시 취소를 누르거나 남은 횟수가 0이 될 때까지 주사위를 자동으로 연속하여 던집니다. <color=#92fc63>연속 전진 중 사건이 발생할 경우, 설정-스토리 자동 재생 기능을 통해 스킵할 수 있습니다</color>."
 		},
 		{
-			info = "    ：일정 수량의 물자 획득；",
+			info = "6. 게임 중, 발생하는 사건에 따라 각기 다른 보상을 획득할 수 있습니다."
+		},
+		{
+			info = "    : 일정 수량의 물자 획득.",
 			icon = {
 				path = "icon_2",
 				atlas = "attricon",
@@ -13880,7 +13935,7 @@ _G.pg.gametip.help_monopoly_3th = {
 			}
 		},
 		{
-			info = "    ：일정 수량의 연료 획득；",
+			info = "    : 일정 수량의 연료 획득.",
 			icon = {
 				path = "icon_5",
 				atlas = "attricon",
@@ -13890,7 +13945,7 @@ _G.pg.gametip.help_monopoly_3th = {
 			}
 		},
 		{
-			info = "    ：랜덤 사건 발동；",
+			info = "    : 랜덤 사건 발동.",
 			icon = {
 				path = "icon_3",
 				atlas = "attricon",
@@ -13900,7 +13955,7 @@ _G.pg.gametip.help_monopoly_3th = {
 			}
 		},
 		{
-			info = "    ：랜덤 보상 발동；",
+			info = "    : 랜덤 보상 발동.",
 			icon = {
 				path = "icon_1",
 				atlas = "attricon",
@@ -13910,7 +13965,7 @@ _G.pg.gametip.help_monopoly_3th = {
 			}
 		},
 		{
-			info = "    ：이동 횟수 +1；",
+			info = "    : 1회 재전진",
 			icon = {
 				path = "icon_6",
 				atlas = "attricon",
@@ -14170,6 +14225,10 @@ _G.pg.gametip.tec_target_catchup_none_2 = {
 	tip = "강화 지향: 2기/미선택"
 }
 
+_G.pg.gametip.tec_target_catchup_none_3 = {
+	tip = "강화 지향: 3기/미선택"
+}
+
 _G.pg.gametip.tec_target_catchup_selected_1 = {
 	tip = "강화 지향: 1기/진행"
 }
@@ -14178,12 +14237,20 @@ _G.pg.gametip.tec_target_catchup_selected_2 = {
 	tip = "강화 지향: 2기/진행"
 }
 
+_G.pg.gametip.tec_target_catchup_selected_3 = {
+	tip = "강화 지향: 3기/진행"
+}
+
 _G.pg.gametip.tec_target_catchup_finish_1 = {
 	tip = "강화 지향: 1기/완료"
 }
 
 _G.pg.gametip.tec_target_catchup_finish_2 = {
 	tip = "강화 지향: 2기/완료"
+}
+
+_G.pg.gametip.tec_target_catchup_finish_3 = {
+	tip = "강화 지향: 3기/완료"
 }
 
 _G.pg.gametip.tec_target_catchup_dr_finish_tip = {
@@ -16525,6 +16592,10 @@ _G.pg.gametip.equip_ammo_type_10 = {
 	tip = "없음"
 }
 
+_G.pg.gametip.equip_ammo_type_11 = {
+	tip = "미사일"
+}
+
 _G.pg.gametip.common_daily_limit = {
 	tip = "일일 최대치(미사용)"
 }
@@ -18849,4 +18920,205 @@ _G.pg.gametip.tactics_class_get_exp = {
 
 _G.pg.gametip.tactics_class_spend_time = {
 	tip = "소요 시간"
+}
+
+_G.pg.gametip.springfes_tips1 = {
+	tip = {
+		{
+			info = [[
+活动时间：<color=#92fc63>2022.1.27-2021.2.10</color>
+活动简介：
+<color=#92fc63>「抚顺大冒险III」</color>：参与小游戏获取限定角色<color=#92fc63>「抚顺」</color>
+<color=#92fc63>「海天与海祈的画中世界」</color>：参与活动获取限定角色<color=#92fc63>「海天」</color>与<color=#92fc63>「海祈」</color>
+<color=#92fc63>「绘图日记」</color>：参与活动获取限定角色<color=#92fc63>「鞍山」</color>
+<color=#92fc63>「龙腾虎跃」</color>：参与活动获取鞍山、长春<color=#92fc63>专属改造道具</color>
+<color=#92fc63>「啾啾大酒楼」</color>：参与活动开启红包获取丰厚奖励
+<color=#92fc63>「换装商店」</color>：购买春节限时换装
+<color=#92fc63>「限时建造」</color>：建造限时角色]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_tavel_point_tip = {
+	tip = "탐사 PT 부족"
+}
+
+_G.pg.gametip.worldinpicture_draw_point_tip = {
+	tip = "제작 PT 부족"
+}
+
+_G.pg.gametip.worldinpicture_help = {
+	tip = {
+		{
+			info = [[
+活动时间：1月27日至2月10日维护
+活动期间每日可解锁2个任务，2月2日可解锁全部任务
+1.完成「海天与海祈的画中世界」活动任务可获得<color=#92fc63>游历点数</color>和<color=#92fc63>绘制点数</color>
+2.消耗游历点数可探索画卷，探索宝箱格可获得红包奖励，探索完画卷全部内容可获得限定角色<color=#92fc63>「海祈」</color>
+3.探索完部分格子后可消耗绘制点数进行绘制，完成全部绘制后可获得限定角色<color=#92fc63>「海天」</color>]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_task_help = {
+	tip = {
+		{
+			info = [[
+活动时间：1月27日至2月10日维护
+活动期间每日可解锁2个任务，2月2日可解锁全部任务
+1.完成「海天与海祈的画中世界」活动任务可获得<color=#92fc63>游历点数</color>和<color=#92fc63>绘制点数</color>
+2.消耗游历点数可探索画卷，探索宝箱格可获得红包奖励，探索完画卷全部内容可获得限定角色<color=#92fc63>「海祈」</color>
+3.探索完部分格子后可消耗绘制点数进行绘制，完成全部绘制后可获得限定角色<color=#92fc63>「海天」</color>]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_not_area_can_draw = {
+	tip = "제작 가능 구역 없음"
+}
+
+_G.pg.gametip.missile_attack_area_confirm = {
+	tip = "공격 개시"
+}
+
+_G.pg.gametip.missile_attack_area_cancel = {
+	tip = "공격 취소"
+}
+
+_G.pg.gametip.shipchange_alert_infleet = {
+	tip = "함선이 이미 편대에 소속되어 있습니다. 편대에서 제외하시겠습니까?"
+}
+
+_G.pg.gametip.shipchange_alert_inpvp = {
+	tip = "함선이 이미 연습전 공격 함대에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
+}
+
+_G.pg.gametip.shipchange_alert_inexercise = {
+	tip = "함선이 이미 연습전 방어 함대에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
+}
+
+_G.pg.gametip.shipchange_alert_inworld = {
+	tip = "함선이 이미 대형 작전에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
+}
+
+_G.pg.gametip.shipchange_alert_inguildbossevent = {
+	tip = "함선이 이미 대함대 보스전에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
+}
+
+_G.pg.gametip.shipchange_alert_indiff = {
+	tip = "舰船在已保存的舰队编成中，是否移出编队？"
+}
+
+_G.pg.gametip.shipmodechange_reject_1stfleet_only = {
+	tip = "제1함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
+}
+
+_G.pg.gametip.shipmodechange_reject_worldfleet_only = {
+	tip = "월드 함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
+}
+
+_G.pg.gametip.shipmodechange_reject_inactivity = {
+	tip = "舰船在限界挑战/共斗活动编成中，请调整编队阵容后重试"
+}
+
+_G.pg.gametip.monopoly3thre_tip = {
+	tip = "※重复获得限定换装会自动折算为物资"
+}
+
+_G.pg.gametip.fushun_game3_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>2月2日</color>为止每日0点开放<color=#92fc63>1</color>回新游戏，总计<color=#92fc63>7</color>回，可累计。完成7回游戏可以获得包括抚顺在内的丰富奖励。
+游戏规则：
+1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束
+2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击
+3.吃到不同的道具将会有不同的效果
+金币：获得100分
+玉佩：获得600分
+跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾
+导弹炮：攻击变为远程导弹攻击
+磁铁：会自动吸引附近的道具
+消灭年兽啾会获得800分
+4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。]]
+		}
+	}
+}
+
+_G.pg.gametip.battlepass_main_tip_2202 = {
+	tip = "2022.2.1-2022.3.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「鸢·META」</color>在内的丰富奖励"
+}
+
+_G.pg.gametip.battlepass_main_help_2202 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2022.2.1-2022.3.31)
+
+·<color=#92fc63>开放时间</color>
+    2022.2.1 0点 ~ 2022.3.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「鸢·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·四期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>哥伦比亚换装「草原纵横之旅</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即3.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.gametip.cruise_task_help_2202 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2022.2.1 0点 ~ 2022.3.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
 }

@@ -86,6 +86,26 @@ pg.equip_bullet_type = {
 			13
 		}
 	},
+	{
+		ammo_type = 9,
+		exhibition_type = 1,
+		exhibition_list = {
+			1,
+			4,
+			6
+		}
+	},
+	{
+		ammo_type = 10,
+		exhibition_type = 1,
+		exhibition_list = {
+			1,
+			4,
+			6,
+			7,
+			10
+		}
+	},
 	all = {
 		1,
 		2,
@@ -94,6 +114,8 @@ pg.equip_bullet_type = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9,
+		10
 	}
 }

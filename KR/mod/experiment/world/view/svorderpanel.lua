@@ -151,7 +151,7 @@ function slot0.SetButton(slot0, slot1, slot2)
 				if uv0.timeStamp - pg.TimeMgr.GetInstance():GetServerTime() < 0 then
 					uv1:UpdateOrderBtn()
 				else
-					setText(uv2:Find("time/Text"), string.format("%d:%d:%d", math.floor(slot0 / 3600), math.floor(slot0 % 3600 / 60), slot0 % 60))
+					setText(uv2:Find("time/Text"), string.format("%d:%02d:%02d", math.floor(slot0 / 3600), math.floor(slot0 % 3600 / 60), slot0 % 60))
 				end
 			end, 1, -1)
 

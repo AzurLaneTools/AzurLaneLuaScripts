@@ -172,6 +172,38 @@ function slot0.register(slot0)
 	slot0:buildMaps()
 end
 
+function slot0.setEliteCache(slot0, slot1)
+	slot0.mapEliteFleetCache = {}
+	slot0.mapEliteCommanderCache = {}
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot2[slot7.map_id] = slot2[slot7.map_id] or {}
+
+		table.insert(slot2[slot7.map_id], slot7)
+	end
+
+	for slot6, slot7 in pairs(slot2) do
+		slot0.mapEliteFleetCache[slot6], slot0.mapEliteCommanderCache[slot6] = Chapter.BuildEliteFleetList(slot7)
+	end
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+
+	for slot6, slot7 in pairs(slot0.data) do
+		slot7:setEliteFleetList(Clone(slot0.mapEliteFleetCache[slot7:getConfig("formation")]) or {
+			{},
+			{},
+			{}
+		})
+		slot7:setEliteCommanders(Clone(slot0.mapEliteCommanderCache[slot8]) or {
+			{},
+			{},
+			{}
+		})
+		slot0:updateChapter(slot7)
+	end
+end
+
 function slot0.buildMaps(slot0)
 	slot0:initChapters()
 	slot0:buildBaseMaps()
@@ -759,7 +791,7 @@ function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 	for slot17, slot18 in ipairs(slot4) do
 		slot22 = 0
 
-		for slot27, slot28 in ipairs(slot11[pg.ship_data_by_type[slot13[slot18]:getShipType()].team_type]) do
+		for slot27, slot28 in ipairs(slot11[TeamType.GetTeamFromShipType(slot13[slot18]:getShipType())]) do
 			if slot12(slot20, slot28) then
 				slot22 = slot28
 

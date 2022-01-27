@@ -57,7 +57,7 @@ end
 function slot7.SetTemplate(slot0, slot1, slot2, slot3)
 	uv0.super.SetTemplate(slot0, slot1)
 
-	slot0._tmpData = uv1.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot0._tmpID)
+	slot0._tmpData = uv1.GetPlayerShipTmpDataFromID(slot0._tmpID)
 
 	slot0:configWeaponQueueParallel()
 	slot0:overrideWeaponInfo()
@@ -73,7 +73,7 @@ function slot7.SetTemplate(slot0, slot1, slot2, slot3)
 
 	uv2.SetCurrent(slot0, "srcShipType", slot7)
 
-	slot0._personality = uv1.Battle.BattleDataFunction.GetShipPersonality(2)
+	slot0._personality = uv1.GetShipPersonality(2)
 
 	for slot7, slot8 in ipairs(slot0._tmpData.tag_list) do
 		slot0:AddLabelTag(slot8)
@@ -131,17 +131,13 @@ function slot7.setWeapon(slot0, slot1)
 	slot5 = slot0._tmpData.preload_count
 
 	for slot9, slot10 in ipairs(slot1) do
-		if slot9 == Ship.PREFAB_EQUIP and slot10 and slot10.skin and slot10.skin ~= 0 then
-			if uv0.GetEquipSkinDataFromID(slot10.skin).ship_skin_id ~= 0 then
-				slot0:overrideSkin(slot11.ship_skin_id)
-			end
+		if slot10 and slot10.skin and slot10.skin ~= 0 and Equipment.IsOrbitSkin(slot10.skin) then
+			slot0._orbitSkinIDList = slot0._orbitSkinIDList or {}
 
-			slot0._skinAttachment = slot0._skinAttachment or {}
+			table.insert(slot0._orbitSkinIDList, slot10.skin)
+		end
 
-			if slot11.attachment_key ~= 0 and not slot0._skinAttachment[slot12] then
-				slot0._skinAttachment[slot12] = slot11.attachment_combat_scene
-			end
-		elseif slot9 <= Ship.WEAPON_COUNT then
+		if slot9 <= Ship.WEAPON_COUNT then
 			slot11 = slot4[slot9]
 			slot12 = slot5[slot9]
 
@@ -149,7 +145,7 @@ function slot7.setWeapon(slot0, slot1)
 				for slot7 = 1, uv0[uv1] do
 					slot9 = uv2:AddWeapon(slot0, slot1, slot2, uv3, uv1):GetTemplateData().type
 
-					if slot7 <= uv4 and (slot9 == uv5.POINT_HIT_AND_LOCK or slot9 == uv5.MANUAL_TORPEDO or slot9 == uv5.DISPOSABLE_TORPEDO) then
+					if slot7 <= uv4 and (slot9 == uv5.POINT_HIT_AND_LOCK or slot9 == uv5.MANUAL_MISSILE or slot9 == uv5.MANUAL_TORPEDO or slot9 == uv5.DISPOSABLE_TORPEDO) then
 						slot8:SetModifyInitialCD()
 					end
 
@@ -161,14 +157,14 @@ function slot7.setWeapon(slot0, slot1)
 
 			if slot10.equipment and #slot10.equipment.weapon_id > 0 then
 				for slot18, slot19 in ipairs(slot10.equipment.weapon_id) do
-					if slot19 and slot19 ~= -1 then
+					if (not uv2.EQUIPMENT_ACTIVE_LIMITED_BY_TYPE[uv1.GetWeaponPropertyDataFromID(slot19).type] or table.contains(slot21, slot0._tmpData.type)) and slot19 and slot19 ~= -1 then
 						slot13(slot19, slot10.equipment.label, slot10.skin)
 					end
 				end
 			else
 				slot14 = slot2[slot9]
 
-				slot13(slot14, uv0.GetWeaponDataFromID(slot14).label)
+				slot13(slot14, uv1.GetWeaponDataFromID(slot14).label)
 			end
 		end
 	end
@@ -198,7 +194,7 @@ function slot7.setWeapon(slot0, slot1)
 		slot10 = 1
 
 		for slot14, slot15 in ipairs(slot8) do
-			slot0:AddAutoWeapon(uv2.Battle.BattleDataFunction.CreateWeaponUnit(slot15, slot0, slot10, slot9))
+			slot0:AddAutoWeapon(uv1.CreateWeaponUnit(slot15, slot0, slot10, slot9))
 		end
 	end
 end
@@ -214,13 +210,13 @@ function slot7.GetPriorityWeaponSkin(slot0)
 end
 
 function slot7.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot0._totalWeapon[#slot0._totalWeapon + 1] = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot1, slot0, slot4, slot5)
+	slot0._totalWeapon[#slot0._totalWeapon + 1] = uv0.CreateWeaponUnit(slot1, slot0, slot4, slot5)
 
 	if slot2 then
 		slot7:SetEquipmentLabel(slot2)
 	end
 
-	if slot7:GetTemplateData().type == uv1.POINT_HIT_AND_LOCK then
+	if slot7:GetTemplateData().type == uv1.POINT_HIT_AND_LOCK or slot8 == uv1.MANUAL_MISSILE then
 		slot0._chargeList[#slot0._chargeList + 1] = slot7
 
 		slot0._weaponQueue:AppendChargeWeapon(slot7)
@@ -267,36 +263,38 @@ function slot7.RemoveWeapon(slot0, slot1)
 				break
 			end
 		end
-	elseif slot2 == uv1.POINT_HIT_AND_LOCK then
-		-- Nothing
-	elseif slot2 == uv1.MANUAL_TORPEDO then
-		for slot7, slot8 in ipairs(slot0._manualTorpedoList) do
-			if slot8:GetWeaponId() == slot1 then
-				slot3 = slot8
+	elseif slot2 ~= uv1.POINT_HIT_AND_LOCK then
+		if slot2 == uv1.MANUAL_MISSILE then
+			-- Nothing
+		elseif slot2 == uv1.MANUAL_TORPEDO then
+			for slot7, slot8 in ipairs(slot0._manualTorpedoList) do
+				if slot8:GetWeaponId() == slot1 then
+					slot3 = slot8
 
-				table.remove(slot0._manualTorpedoList, slot7)
-				slot0._weaponQueue:RemoveManualTorpedo(slot8)
+					table.remove(slot0._manualTorpedoList, slot7)
+					slot0._weaponQueue:RemoveManualTorpedo(slot8)
 
-				break
+					break
+				end
 			end
-		end
-	elseif slot2 == uv1.FLEET_ANTI_AIR then
-		for slot7, slot8 in ipairs(slot0._fleetAAList) do
-			if slot8:GetWeaponId() == slot1 then
-				slot0:RemoveFleetAntiAirWeapon(slot8)
+		elseif slot2 == uv1.FLEET_ANTI_AIR then
+			for slot7, slot8 in ipairs(slot0._fleetAAList) do
+				if slot8:GetWeaponId() == slot1 then
+					slot0:RemoveFleetAntiAirWeapon(slot8)
 
-				break
+					break
+				end
 			end
-		end
-	else
-		for slot7, slot8 in ipairs(slot0._autoWeaponList) do
-			if slot8:GetWeaponId() == slot1 then
-				slot3 = slot8
+		else
+			for slot7, slot8 in ipairs(slot0._autoWeaponList) do
+				if slot8:GetWeaponId() == slot1 then
+					slot3 = slot8
 
-				slot3:Clear()
-				slot0:RemoveAutoWeapon(slot3)
+					slot3:Clear()
+					slot0:RemoveAutoWeapon(slot3)
 
-				break
+					break
+				end
 			end
 		end
 	end
@@ -343,39 +341,41 @@ function slot7.RemoveWeaponByLabel(slot0, slot1)
 				break
 			end
 		end
-	elseif slot3 == uv0.POINT_HIT_AND_LOCK then
-		-- Nothing
-	elseif slot3 == uv0.MANUAL_TORPEDO then
-		for slot7, slot8 in ipairs(slot0._manualTorpedoList) do
-			if slot2 == slot8 then
-				table.remove(slot0._manualTorpedoList, slot7)
-				slot0._weaponQueue:RemoveManualTorpedo(slot8)
+	elseif slot3 ~= uv0.POINT_HIT_AND_LOCK then
+		if slot3 == uv0.MANUAL_MISSILE then
+			-- Nothing
+		elseif slot3 == uv0.MANUAL_TORPEDO then
+			for slot7, slot8 in ipairs(slot0._manualTorpedoList) do
+				if slot2 == slot8 then
+					table.remove(slot0._manualTorpedoList, slot7)
+					slot0._weaponQueue:RemoveManualTorpedo(slot8)
 
-				break
+					break
+				end
 			end
-		end
-	elseif slot3 == uv0.FLEET_ANTI_AIR then
-		for slot7, slot8 in ipairs(slot0._fleetAAList) do
-			if slot2 == slot8 then
-				slot0:RemoveFleetAntiAirWeapon(slot8)
+		elseif slot3 == uv0.FLEET_ANTI_AIR then
+			for slot7, slot8 in ipairs(slot0._fleetAAList) do
+				if slot2 == slot8 then
+					slot0:RemoveFleetAntiAirWeapon(slot8)
 
-				break
+					break
+				end
 			end
-		end
-	elseif slot3 == uv0.SCOUT then
-		for slot7, slot8 in ipairs(slot0._autoWeaponList) do
-			if slot2 == slot8 then
-				slot0:RemoveAutoWeapon(slot2)
+		elseif slot3 == uv0.SCOUT then
+			for slot7, slot8 in ipairs(slot0._autoWeaponList) do
+				if slot2 == slot8 then
+					slot0:RemoveAutoWeapon(slot2)
 
-				break
+					break
+				end
 			end
-		end
-	else
-		for slot7, slot8 in ipairs(slot0._autoWeaponList) do
-			if slot2 == slot8 then
-				slot0:RemoveAutoWeapon(slot2)
+		else
+			for slot7, slot8 in ipairs(slot0._autoWeaponList) do
+				if slot2 == slot8 then
+					slot0:RemoveAutoWeapon(slot2)
 
-				break
+					break
+				end
 			end
 		end
 	end

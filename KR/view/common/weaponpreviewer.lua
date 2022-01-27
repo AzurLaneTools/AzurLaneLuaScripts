@@ -105,6 +105,11 @@ function slot0.load(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			uv0._FXOffset = slot6
+
+			if uv0.equipSkinId > 0 then
+				uv0:attachOrbit()
+			end
+
 			slot7 = ys.Battle.BattleFXPool.GetInstance()
 
 			pg.EffectMgr.GetInstance():PlayBattleEffect(slot7:GetCharacterFX("movewave", uv0), Vector3.zero, true)
@@ -144,6 +149,25 @@ function slot0.load(slot0, slot1, slot2, slot3, slot4)
 		end)
 	end, nil)
 	pg.UIMgr.GetInstance():LoadingOn()
+end
+
+function slot0.attachOrbit(slot0)
+	if pg.equip_skin_template[slot0.equipSkinId].orbit_combat ~= "" then
+		slot0.orbitList = {}
+		slot3 = ResourceMgr.Inst
+
+		slot3:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot1.orbit_combat), slot1.orbit_combat, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			if uv0.seaCharacter then
+				slot1 = Object.Instantiate(slot0)
+
+				table.insert(uv0.orbitList, slot1)
+
+				slot3 = uv1.orbit_combat_bound[2]
+				slot1.transform.localPosition = Vector3(slot3[1], slot3[2], slot3[3])
+				SpineAnim.AddFollower(uv1.orbit_combat_bound[1], uv0.seaCharacter.transform, slot1.transform):GetComponent("Spine.Unity.BoneFollower").followBoneRotation = false
+			end
+		end), true, true)
+	end
 end
 
 function slot0.playShipAnims(slot0)
@@ -626,6 +650,14 @@ function slot0.clear(slot0)
 		end
 
 		slot0.bulletList = nil
+	end
+
+	if slot0.orbitList then
+		for slot4, slot5 in ipairs(slot0.orbitList) do
+			Destroy(slot5)
+		end
+
+		slot0.orbitList = nil
 	end
 
 	if slot0.seaFXPool then

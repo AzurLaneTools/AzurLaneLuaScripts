@@ -30,7 +30,7 @@ function slot0.init(slot0)
 	slot0.rankList = slot0:Clone2Full(slot0.rankTF:Find(slot5), slot4)
 
 	for slot4, slot5 in ipairs(slot0.rankList) do
-		slot5.gameObject:SetActive(false)
+		setActive(slot5, false)
 	end
 
 	slot4 = slot0.mainTF
@@ -121,26 +121,16 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.awardBtn, function ()
 		uv0:ShowAwards()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.helpBtn, function ()
+
+	function slot4()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_boss_help.tip
 		})
-	end, SFX_PANEL)
-
-	slot1 = ipairs
-	slot2 = slot0.contextData.DisplayItems or {}
-
-	for slot4, slot5 in slot1(slot2) do
-		updateDropCfg({
-			type = slot0.contextData.DisplayItems[5 - slot4][1],
-			id = slot0.contextData.DisplayItems[5 - slot4][2],
-			count = slot0.contextData.DisplayItems[5 - slot4][3]
-		})
-		onButton(slot0, slot0:findTF("milestone/item", slot0.barList[slot4]), function ()
-			uv0:emit(uv1.ON_DROP, uv2)
-		end, SFX_PANEL)
 	end
+
+	onButton(slot0, slot0.helpBtn, slot4, SFX_PANEL)
+	slot0:UpdateDropItems()
 
 	for slot4 = 1, #slot0.stageList - 1 do
 		onButton(slot0, slot0.stageList[slot4], function ()
@@ -434,6 +424,22 @@ function slot0.UpdateRank(slot0, slot1)
 		if slot5 <= #slot1 then
 			setText(slot6:Find("Text"), tostring(slot1[slot5].name))
 		end
+	end
+end
+
+function slot0.UpdateDropItems(slot0)
+	slot1 = ipairs
+	slot2 = slot0.contextData.DisplayItems or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		updateDropCfg({
+			type = slot0.contextData.DisplayItems[5 - slot4][1],
+			id = slot0.contextData.DisplayItems[5 - slot4][2],
+			count = slot0.contextData.DisplayItems[5 - slot4][3]
+		})
+		onButton(slot0, slot0:findTF("milestone/item", slot0.barList[slot4]), function ()
+			uv0:emit(uv1.ON_DROP, uv2)
+		end, SFX_PANEL)
 	end
 end
 

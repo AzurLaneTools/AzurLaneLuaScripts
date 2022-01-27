@@ -216,6 +216,14 @@ function slot3.GetCurrentWeapon(slot0)
 	return slot0._readyList[1]
 end
 
+function slot3.GetHeadWeapon(slot0)
+	return slot0:GetCurrentWeapon() or slot0._chargingList[1]
+end
+
+function slot3.IsMainType(slot0)
+	return true
+end
+
 function slot3.Plus(slot0, slot1)
 	slot0._count = slot0._count + 1
 
@@ -316,6 +324,10 @@ end
 
 function slot3.DispatchCountChange(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.COUNT_CHANGE))
+end
+
+function slot3.DispatchInitSubIcon(slot0)
+	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.INIT_SUB_ICON))
 end
 
 function slot3.StartJamming(slot0)

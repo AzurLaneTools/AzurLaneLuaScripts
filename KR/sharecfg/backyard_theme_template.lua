@@ -2063,7 +2063,7 @@ pg.backyard_theme_template = {
 	[56] = {
 		Cfg_1 = 5,
 		name = "동화 마을",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 56,
 		comfortable = 0,
@@ -2096,7 +2096,7 @@ pg.backyard_theme_template = {
 	[57] = {
 		Cfg_1 = 5,
 		name = "새해의 밤",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 57,
 		comfortable = 0,
@@ -2133,7 +2133,7 @@ pg.backyard_theme_template = {
 	[58] = {
 		Cfg_1 = 5,
 		name = "화목한 명절!",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 58,
 		comfortable = 0,
@@ -3154,6 +3154,45 @@ pg.backyard_theme_template = {
 			85309
 		}
 	},
+	[86] = {
+		Cfg_1 = 5,
+		name = "이스트 글림 정원",
+		hot = 1,
+		is_view = 1,
+		id = 86,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "이스트 글림의 의취가 충만한 정원",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "cj4themeicon",
+		deblocking = 1,
+		order = 87,
+		ids = {
+			86001,
+			86002,
+			86101,
+			86102,
+			86103,
+			86104,
+			86105,
+			86106,
+			86107,
+			86108,
+			86109,
+			86110,
+			86111,
+			86112,
+			86113,
+			86114,
+			86115,
+			86116,
+			86117,
+			86119,
+			86301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3224,6 +3263,7 @@ pg.backyard_theme_template = {
 		82,
 		83,
 		84,
-		85
+		85,
+		86
 	}
 }

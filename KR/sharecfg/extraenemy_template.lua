@@ -162,11 +162,48 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		mail_title = "world_boss_title_6",
+		name = "布里斯托尔",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 6,
+		background = "",
+		reward = {
+			96809,
+			96810,
+			96811,
+			96812
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				11050,
+				5
+			},
+			{
+				3,
+				96000,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }

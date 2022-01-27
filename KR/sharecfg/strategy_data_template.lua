@@ -120,6 +120,18 @@ pg.strategy_data_template = {
 		desc = "해무 구역에서, 전투 시 아군과 적의 은페 게이지가 감소하며, 속도가 감소합니다.",
 		arg = {}
 	},
+	[18] = {
+		buff_id = 0,
+		name = "미사일",
+		type = 2,
+		iconSize = "",
+		id = 18,
+		icon = "18",
+		desc = "유도 공격 1회 진행",
+		arg = {
+			missile
+		}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "고효율 작전",
@@ -1387,6 +1399,7 @@ pg.strategy_data_template = {
 		14,
 		16,
 		17,
+		18,
 		47,
 		90,
 		91,

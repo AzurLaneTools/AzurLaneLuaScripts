@@ -33,7 +33,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cloakExpose",
+				attr = "cloakExposeExtra",
 				number = 15
 			}
 		}

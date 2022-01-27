@@ -22,6 +22,50 @@ return {
 					attr = "DMG_FROM_TAG_2_T_1",
 					number = -0.05
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.05
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.05
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.05
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
+					number = -0.05
+				}
 			}
 		}
 	},
@@ -46,6 +90,50 @@ return {
 				arg_list = {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = -0.055
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.055
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.055
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.055
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = -0.055
 				}
 			}
@@ -74,6 +162,50 @@ return {
 					attr = "DMG_FROM_TAG_2_T_1",
 					number = 0.06
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
+					number = -0.06
+				}
 			}
 		}
 	},
@@ -99,6 +231,50 @@ return {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
 					number = 0.065
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.065
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.065
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.065
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
+					number = -0.065
 				}
 			}
 		}
@@ -124,6 +300,50 @@ return {
 				arg_list = {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = -0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.07
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = -0.07
 				}
 			}
@@ -150,6 +370,50 @@ return {
 				arg_list = {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = -0.075
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.075
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.075
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.075
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = -0.075
 				}
 			}
@@ -176,6 +440,50 @@ return {
 				arg_list = {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = -0.08
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.08
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.08
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.08
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = -0.08
 				}
 			}
@@ -202,6 +510,50 @@ return {
 				arg_list = {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = -0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.085
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = -0.085
 				}
 			}
@@ -228,6 +580,50 @@ return {
 				arg_list = {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = -0.09
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.09
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.09
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.09
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = -0.09
 				}
 			}
@@ -254,6 +650,50 @@ return {
 				arg_list = {
 					group = 4151,
 					attr = "DMG_FROM_TAG_2_T_1",
+					number = -0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_20",
+					number = -0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_20",
+					number = -0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4150,
+					attr = "DMG_FROM_TAG_1_T_21",
+					number = -0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 4151,
+					attr = "DMG_FROM_TAG_2_T_21",
 					number = -0.1
 				}
 			}
@@ -296,6 +736,50 @@ return {
 			arg_list = {
 				group = 4151,
 				attr = "DMG_FROM_TAG_2_T_1",
+				number = -0.05
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				group = 4150,
+				attr = "DMG_FROM_TAG_1_T_20",
+				number = -0.05
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				group = 4151,
+				attr = "DMG_FROM_TAG_2_T_20",
+				number = -0.05
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				group = 4150,
+				attr = "DMG_FROM_TAG_1_T_21",
+				number = -0.05
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				group = 4151,
+				attr = "DMG_FROM_TAG_2_T_21",
 				number = -0.05
 			}
 		}

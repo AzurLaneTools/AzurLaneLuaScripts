@@ -1,25 +1,34 @@
 ys = ys or {}
 slot0 = ys
+slot2 = slot0.Battle.BattleConst
 slot0.Battle.BattleChargeWeaponVO = class("BattleChargeWeaponVO", slot0.Battle.BattlePlayerWeaponVO)
 slot0.Battle.BattleChargeWeaponVO.__name = "BattleChargeWeaponVO"
-slot2 = slot0.Battle.BattleChargeWeaponVO
-slot2.GCD = slot0.Battle.BattleConfig.ChargeWeaponConfig.GCD
+slot3 = slot0.Battle.BattleChargeWeaponVO
+slot3.GCD = slot0.Battle.BattleConfig.ChargeWeaponConfig.GCD
 
-function slot2.Ctor(slot0)
+function slot3.Ctor(slot0)
 	uv0.super.Ctor(slot0, uv0.GCD)
 end
 
-function slot2.AppendWeapon(slot0, slot1)
+function slot3.AppendWeapon(slot0, slot1)
 	uv0.super.AppendWeapon(slot0, slot1)
 	slot1:SetPlayerChargeWeaponVO(slot0)
 end
 
-function slot2.Deduct(slot0, slot1)
+function slot3.IsMainType(slot0)
+	if slot0:GetHeadWeapon() == nil then
+		return true
+	else
+		return slot1:GetType() == uv0.EquipmentType.POINT_HIT_AND_LOCK
+	end
+end
+
+function slot3.Deduct(slot0, slot1)
 	uv0.super.Deduct(slot0, slot1)
 	slot0:ResetFocus()
 end
 
-function slot2.ResetFocus(slot0)
+function slot3.ResetFocus(slot0)
 	if slot0._focus then
 		slot1 = uv0.Battle.BattleCameraUtil.GetInstance()
 

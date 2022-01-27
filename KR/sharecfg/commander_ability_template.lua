@@ -14,7 +14,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				3
@@ -41,7 +43,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				4
@@ -68,7 +72,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				6
@@ -416,7 +422,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				10
@@ -443,7 +451,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				14
@@ -470,7 +480,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				20
@@ -773,7 +785,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				8
@@ -803,7 +816,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				11
@@ -833,7 +847,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				16
@@ -866,7 +881,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				10
@@ -899,7 +915,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				14
@@ -932,7 +949,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				20
@@ -962,7 +980,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				4
@@ -992,7 +1011,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				5
@@ -1022,7 +1042,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				8
@@ -1055,7 +1076,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				3
@@ -1088,7 +1110,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				4
@@ -1121,7 +1144,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				6
@@ -1232,7 +1256,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -1259,7 +1285,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				7
@@ -1286,7 +1314,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				10
@@ -1814,7 +1844,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				30
@@ -1841,7 +1873,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				42
@@ -1868,7 +1902,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				60
@@ -2000,7 +2036,7 @@ pg.commander_ability_template = {
 		id = 731,
 		group_id = 73,
 		icon = "zhanlie_naijiu_1",
-		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함</color>의 내구 수치가 60 상승",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함</color>의 내구 수치가 75 상승",
 		add = {
 			{
 				1,
@@ -2017,15 +2053,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"<전함>내구",
-				60
+				75
 			},
 			{
 				"<순양전함>내구",
-				60
+				75
 			},
 			{
 				"<항공전함>내구",
-				60
+				75
 			}
 		}
 	},
@@ -2037,7 +2073,7 @@ pg.commander_ability_template = {
 		id = 732,
 		group_id = 73,
 		icon = "zhanlie_naijiu_2",
-		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함</color>의 내구 수치가 84 상승",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함</color>의 내구 수치가 105 상승",
 		add = {
 			{
 				1,
@@ -2054,15 +2090,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"<전함>내구",
-				84
+				105
 			},
 			{
 				"<순양전함>내구",
-				84
+				105
 			},
 			{
 				"<항공전함>내구",
-				84
+				105
 			}
 		}
 	},
@@ -2074,7 +2110,7 @@ pg.commander_ability_template = {
 		id = 733,
 		group_id = 73,
 		icon = "zhanlie_naijiu_3",
-		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함</color>의 내구 수치가 120 상승",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함</color>의 내구 수치가 150 상승",
 		add = {
 			{
 				1,
@@ -2091,15 +2127,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"<전함>내구",
-				120
+				150
 			},
 			{
 				"<순양전함>내구",
-				120
+				150
 			},
 			{
 				"<항공전함>내구",
-				120
+				150
 			}
 		}
 	},
@@ -2399,7 +2435,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				3
@@ -2429,7 +2466,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				4
@@ -2459,7 +2497,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				6
@@ -2492,7 +2531,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				1
@@ -2525,7 +2565,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				2
@@ -2558,7 +2599,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				3
@@ -2587,7 +2629,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				5
@@ -2620,7 +2664,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				7
@@ -2653,7 +2699,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				10
@@ -2957,7 +3005,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				8
@@ -2966,7 +3016,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				4
@@ -2997,7 +3049,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				11
@@ -3006,7 +3060,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -3037,7 +3093,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				16
@@ -3046,7 +3104,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				8
@@ -3259,7 +3319,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				6
+				8
 			}
 		},
 		add_desc = {
@@ -3309,7 +3369,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				8
+				11
 			}
 		},
 		add_desc = {
@@ -3359,7 +3419,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				12
+				16
 			}
 		},
 		add_desc = {
@@ -4424,7 +4484,7 @@ pg.commander_ability_template = {
 		id = 2171,
 		group_id = 217,
 		icon = "",
-		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 8 상승, 장전 수치가 3 상승, 명중 수치가 1 상승",
+		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 8 상승, 장전 수치가 4 상승, 명중 수치가 1 상승",
 		add = {
 			{
 				1,
@@ -4461,7 +4521,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<노스 유니온>장전",
-				3
+				4
 			},
 			{
 				"<노스 유니온>명중",
@@ -4477,7 +4537,7 @@ pg.commander_ability_template = {
 		id = 2172,
 		group_id = 217,
 		icon = "",
-		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 11 상승, 장전 수치가 4 상승, 명중 수치가 2 상승",
+		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 11 상승, 장전 수치가 5 상승, 명중 수치가 2 상승",
 		add = {
 			{
 				1,
@@ -4514,7 +4574,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<노스 유니온>장전",
-				4
+				5
 			},
 			{
 				"<노스 유니온>명중",
@@ -4530,7 +4590,7 @@ pg.commander_ability_template = {
 		id = 2173,
 		group_id = 217,
 		icon = "",
-		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 16 상승, 장전 수치가 6 상승, 명중 수치가 3 상승",
+		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 16 상승, 장전 수치가 8 상승, 명중 수치가 3 상승",
 		add = {
 			{
 				1,
@@ -4567,7 +4627,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<노스 유니온>장전",
-				6
+				8
 			},
 			{
 				"<노스 유니온>명중",
@@ -5017,7 +5077,9 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					2
+					2,
+					20,
+					21
 				},
 				3,
 				15

@@ -38,6 +38,7 @@ slot2 = {
 	CS_13103_GROUP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_13103_ACT_ARG_1_FIELD = slot0.FieldDescriptor(),
 	CS_13103_ACT_ARG_2_FIELD = slot0.FieldDescriptor(),
+	CS_13103_ACT_ARG_3_FIELD = slot0.FieldDescriptor(),
 	SC_13104_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_13104_MOVE_PATH_FIELD = slot0.FieldDescriptor(),
 	SC_13104_DROP_LIST_FIELD = slot0.FieldDescriptor(),
@@ -133,6 +134,8 @@ slot2 = {
 	SC_13108_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_13109_ID_FIELD = slot0.FieldDescriptor(),
 	SC_13110_DROP_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_13111_SHIP_ID_FIELD = slot0.FieldDescriptor(),
+	SC_13112_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_13201_COUNT_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_13201_ELITE_EXPEDITION_COUNT_FIELD = slot0.FieldDescriptor(),
 	SC_13201_ESCORT_EXPEDITION_COUNT_FIELD = slot0.FieldDescriptor(),
@@ -201,6 +204,8 @@ CS_13107 = slot0.Descriptor()
 SC_13108 = slot0.Descriptor()
 CS_13109 = slot0.Descriptor()
 SC_13110 = slot0.Descriptor()
+CS_13111 = slot0.Descriptor()
+SC_13112 = slot0.Descriptor()
 SC_13201 = slot0.Descriptor()
 EXPEDITION_DAILY_COUNT = slot0.Descriptor()
 CS_13301 = slot0.Descriptor()
@@ -670,6 +675,15 @@ slot2.CS_13103_ACT_ARG_2_FIELD.has_default_value = false
 slot2.CS_13103_ACT_ARG_2_FIELD.default_value = 0
 slot2.CS_13103_ACT_ARG_2_FIELD.type = 13
 slot2.CS_13103_ACT_ARG_2_FIELD.cpp_type = 3
+slot2.CS_13103_ACT_ARG_3_FIELD.name = "act_arg_3"
+slot2.CS_13103_ACT_ARG_3_FIELD.full_name = "p13.cs_13103.act_arg_3"
+slot2.CS_13103_ACT_ARG_3_FIELD.number = 5
+slot2.CS_13103_ACT_ARG_3_FIELD.index = 4
+slot2.CS_13103_ACT_ARG_3_FIELD.label = 1
+slot2.CS_13103_ACT_ARG_3_FIELD.has_default_value = false
+slot2.CS_13103_ACT_ARG_3_FIELD.default_value = 0
+slot2.CS_13103_ACT_ARG_3_FIELD.type = 13
+slot2.CS_13103_ACT_ARG_3_FIELD.cpp_type = 3
 CS_13103.name = "cs_13103"
 CS_13103.full_name = "p13.cs_13103"
 CS_13103.nested_types = {}
@@ -678,7 +692,8 @@ CS_13103.fields = {
 	slot2.CS_13103_ACT_FIELD,
 	slot2.CS_13103_GROUP_ID_FIELD,
 	slot2.CS_13103_ACT_ARG_1_FIELD,
-	slot2.CS_13103_ACT_ARG_2_FIELD
+	slot2.CS_13103_ACT_ARG_2_FIELD,
+	slot2.CS_13103_ACT_ARG_3_FIELD
 }
 CS_13103.is_extendable = false
 CS_13103.extensions = {}
@@ -1797,6 +1812,43 @@ SC_13110.fields = {
 }
 SC_13110.is_extendable = false
 SC_13110.extensions = {}
+slot2.CS_13111_SHIP_ID_FIELD.name = "ship_id"
+slot2.CS_13111_SHIP_ID_FIELD.full_name = "p13.cs_13111.ship_id"
+slot2.CS_13111_SHIP_ID_FIELD.number = 1
+slot2.CS_13111_SHIP_ID_FIELD.index = 0
+slot2.CS_13111_SHIP_ID_FIELD.label = 2
+slot2.CS_13111_SHIP_ID_FIELD.has_default_value = false
+slot2.CS_13111_SHIP_ID_FIELD.default_value = 0
+slot2.CS_13111_SHIP_ID_FIELD.type = 13
+slot2.CS_13111_SHIP_ID_FIELD.cpp_type = 3
+CS_13111.name = "cs_13111"
+CS_13111.full_name = "p13.cs_13111"
+CS_13111.nested_types = {}
+CS_13111.enum_types = {}
+CS_13111.fields = {
+	slot2.CS_13111_SHIP_ID_FIELD
+}
+CS_13111.is_extendable = false
+CS_13111.extensions = {}
+slot2.SC_13112_FLEET_LIST_FIELD.name = "fleet_list"
+slot2.SC_13112_FLEET_LIST_FIELD.full_name = "p13.sc_13112.fleet_list"
+slot2.SC_13112_FLEET_LIST_FIELD.number = 1
+slot2.SC_13112_FLEET_LIST_FIELD.index = 0
+slot2.SC_13112_FLEET_LIST_FIELD.label = 3
+slot2.SC_13112_FLEET_LIST_FIELD.has_default_value = false
+slot2.SC_13112_FLEET_LIST_FIELD.default_value = {}
+slot2.SC_13112_FLEET_LIST_FIELD.message_type = ELITEFLEETINFO
+slot2.SC_13112_FLEET_LIST_FIELD.type = 11
+slot2.SC_13112_FLEET_LIST_FIELD.cpp_type = 10
+SC_13112.name = "sc_13112"
+SC_13112.full_name = "p13.sc_13112"
+SC_13112.nested_types = {}
+SC_13112.enum_types = {}
+SC_13112.fields = {
+	slot2.SC_13112_FLEET_LIST_FIELD
+}
+SC_13112.is_extendable = false
+SC_13112.extensions = {}
 slot2.SC_13201_COUNT_LIST_FIELD.name = "count_list"
 slot2.SC_13201_COUNT_LIST_FIELD.full_name = "p13.sc_13201.count_list"
 slot2.SC_13201_COUNT_LIST_FIELD.number = 1
@@ -2323,6 +2375,7 @@ cs_13101 = slot0.Message(CS_13101)
 cs_13103 = slot0.Message(CS_13103)
 cs_13107 = slot0.Message(CS_13107)
 cs_13109 = slot0.Message(CS_13109)
+cs_13111 = slot0.Message(CS_13111)
 cs_13301 = slot0.Message(CS_13301)
 cs_13401 = slot0.Message(CS_13401)
 cs_13403 = slot0.Message(CS_13403)
@@ -2349,6 +2402,7 @@ sc_13104 = slot0.Message(SC_13104)
 sc_13105 = slot0.Message(SC_13105)
 sc_13108 = slot0.Message(SC_13108)
 sc_13110 = slot0.Message(SC_13110)
+sc_13112 = slot0.Message(SC_13112)
 sc_13201 = slot0.Message(SC_13201)
 sc_13302 = slot0.Message(SC_13302)
 sc_13402 = slot0.Message(SC_13402)

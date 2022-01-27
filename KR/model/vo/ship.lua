@@ -546,8 +546,8 @@ end
 function slot0.getPrefab(slot0)
 	slot1 = slot0.skinId
 
-	if slot0:hasEquipmentSkinInPos(uv0) then
-		slot1 = uv1[slot0:getEquip(uv0):getSkinId()].ship_skin_id
+	if slot0:hasEquipmentSkinInPos(uv0) and uv1[slot0:getEquip(uv0):getSkinId()].ship_skin_id ~= 0 then
+		slot1 = slot3 or slot1
 	end
 
 	return pg.ship_skin_template[slot1].prefab
@@ -556,8 +556,11 @@ end
 function slot0.getAttachmentPrefab(slot0)
 	slot1 = {}
 
-	if slot0:hasEquipmentSkinInPos(uv0) and uv1[slot0:getEquip(uv0):getSkinId()].attachment_key ~= 0 and not slot1[slot4] then
-		slot1[slot4] = slot3
+	for slot5, slot6 in ipairs(slot0.equipments) do
+		if slot6 and slot6:hasSkinOrbit() then
+			slot7 = slot6:getSkinId()
+			slot1[slot7] = uv0[slot7]
+		end
 	end
 
 	return slot1
@@ -1717,7 +1720,7 @@ function slot0.upgrade(slot0)
 end
 
 function slot0.getTeamType(slot0)
-	return pg.ship_data_by_type[slot0:getShipType()].team_type
+	return TeamType.GetTeamFromShipType(slot0:getShipType())
 end
 
 function slot0.getFleetName(slot0)

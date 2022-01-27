@@ -30,7 +30,7 @@ function slot1.MakeModel(slot0, slot1, slot2)
 		uv1:MakeArrowBar(uv0)
 		uv1:MakeWaveFX(uv0)
 		uv1:MakeSmokeFX(uv0)
-		uv1:MakeEquipSkinAttachment(uv0)
+		uv1:MakeSkinOrbit(uv0)
 
 		if uv0:GetUnitData():GetCloak() then
 			uv1:MakeCloakBar(uv0)

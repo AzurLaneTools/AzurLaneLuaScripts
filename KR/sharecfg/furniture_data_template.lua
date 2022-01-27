@@ -6908,6 +6908,90 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100033] = {
+		spine_extra = "",
+		describe = "飘…飘起来了？！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "失重体验装置",
+		themeId = 0,
+		icon = "shizhongjiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100033,
+		can_rotate = 0,
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongjiB",
+				"normal"
+			},
+			{
+				"shizhongjiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					2.4,
+					68.76
+				},
+				{
+					169.8,
+					188.2
+				},
+				"chuanmo/shizhongji_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "그래, 마음껏 메이드에게 응석을 부리라고, \"주인님\"~",
@@ -94600,6 +94684,946 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[86001] = {
+		spine_extra = "",
+		describe = "이스트 글림의 의취가 충만한 정원",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "이스트 글림 정원 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibancj4icon",
+		spine_action_replace = "",
+		picture = "cj4/dibancj4",
+		comfortable = 4,
+		canputon = 0,
+		id = 86001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86002] = {
+		spine_extra = "",
+		describe = "이스트 글림의 의취가 충만한 정원",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "이스트 글림 정원 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicj4icon",
+		spine_action_replace = "",
+		picture = "cj4/qiangbicj4",
+		comfortable = 4,
+		canputon = 0,
+		id = 86002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86101] = {
+		spine_extra = "",
+		describe = "정원의 아담한 풍경이 틈새로 보여요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "changlangcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 돌 창문",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/changlangcj4",
+		canputon = 0,
+		id = 86101,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86102] = {
+		spine_extra = "",
+		describe = "한밤중 종소리가 조각배까지 들려오네.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuancj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "조각배",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/chuancj4",
+		canputon = 0,
+		id = 86102,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-32.8,
+					-38.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86103] = {
+		spine_extra = "",
+		describe = "따스한 노란 빛이 비쳐요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dengcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 석등",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj4/dengcj4",
+		canputon = 0,
+		id = 86103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86104] = {
+		spine_extra = "",
+		describe = "필묵을 뿌리면 바로 화려한 대련이 됩니다~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangzicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "시골 저택",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/fangzicj4",
+		canputon = 0,
+		id = 86104,
+		can_rotate = 1,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86105] = {
+		spine_extra = "",
+		describe = "교묘하게 웃는 모습이 아름다워, 아름다운 눈으로 바라보네.…쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guofengjicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "빨간옷쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/guofengjicj4",
+		canputon = 0,
+		id = 86105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86106] = {
+		spine_extra = "",
+		describe = "졸졸 흐르는 물에 기분이 좋아져요~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heshuicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 개울",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "cj4/heshuicj4",
+		canputon = 0,
+		id = 86106,
+		can_rotate = 1,
+		size = {
+			24,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86107] = {
+		spine_extra = "",
+		describe = "아름다운 경치를 보며, 차 한 잔 마셔요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiuxishicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 다실",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/xiuxishicj4",
+		canputon = 0,
+		id = 86107,
+		can_rotate = 0,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-95.6,
+					-77.4
+				},
+				{
+					1,
+					1
+				},
+				"cj4/xiuxishicj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86108] = {
+		spine_extra = "",
+		describe = "담벼락 모퉁이에서 추위를 견디고 피어난 납매~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "lameicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "겨울 납매",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/lameicj4",
+		canputon = 0,
+		id = 86108,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86109] = {
+		spine_extra = "",
+		describe = "정자에서 느긋하게 잠시 쉬어요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "liangtingcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 정자",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/liangtingcj4",
+		canputon = 0,
+		id = 86109,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86110] = {
+		spine_extra = "",
+		describe = "산과 물 사이에서 천천히~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qiaocj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 나무 다리",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/qiaocj4",
+		canputon = 0,
+		id = 86110,
+		can_rotate = 0,
+		size = {
+			9,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-99.2,
+					-51.8
+				},
+				{
+					1,
+					1
+				},
+				"cj4/qiaocj4_using"
+			},
+			{
+				"stand2",
+				{
+					148.4,
+					-26.4
+				},
+				{
+					-1,
+					1
+				},
+				"cj4/qiaocj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86111] = {
+		spine_extra = "",
+		describe = "긴 여운이 오랫동안 귓가에 쟁쟁~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guzhengcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 가야금",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/guzhengcj4",
+		canputon = 0,
+		id = 86111,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-31.4,
+					76.2
+				},
+				{
+					1,
+					1
+				},
+				"cj4/guzhengcj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86112] = {
+		spine_extra = "",
+		describe = "아주 무겁게 생겼네요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitoucj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 바위",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj4/shitoucj4",
+		canputon = 0,
+		id = 86112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86113] = {
+		spine_extra = "",
+		describe = "다음 한 수는… 여기다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shizhuocj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "이상한 판국?",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/shizhuocj4",
+		canputon = 0,
+		id = 86113,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86114] = {
+		spine_extra = "",
+		describe = "커다란 나무 밑은 정말 시원해요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shucj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 소나무",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/shucj4",
+		canputon = 0,
+		id = 86114,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86115] = {
+		spine_extra = "",
+		describe = "사람이 만들었다고는 생각할 수 없을 정도로 정교해요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaojiashancj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 산 모형",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/xiaojiashancj4",
+		canputon = 0,
+		id = 86115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86116] = {
+		spine_extra = "",
+		describe = "뭔가 이상한 게 있는 것 같은데?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiashancj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "쥬쥬 원림 석상",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/jiashancj4",
+		canputon = 0,
+		id = 86116,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-77.3,
+					-50.9
+				},
+				{
+					-1,
+					1
+				},
+				"cj4/jiashancj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86117] = {
+		spine_extra = "",
+		describe = "고결한 성품과 밝은 절개, 부드러움 속에 강인함을~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zhuzicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 대나무",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/zhuzicj4",
+		canputon = 0,
+		id = 86117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86119] = {
+		spine_extra = "",
+		describe = "산과 물 사이에서 천천히~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "shizilucj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 돌길",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/shizilucj4",
+		canputon = 0,
+		id = 86119,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86122] = {
+		belong = 1,
+		describe = "이번엔 더 놀라운 작품을 창조할 거야쥬!",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		count = 1,
+		is_3d_obj = 0,
+		name = "칠보쥬",
+		tag = 7,
+		icon = "shaociqicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 86122,
+		can_rotate = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shaociqiB",
+				"normal"
+			},
+			{
+				"shaociqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit4",
+						"shaociqiCharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"shaociqiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[86301] = {
+		spine_extra = "",
+		describe = "그윽한 곳으로 갈 수 있어요~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "gongmencj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정원 아치문",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/gongmencj4",
+		canputon = 0,
+		id = 86301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -94731,6 +95755,7 @@ pg.furniture_data_template = {
 		100030,
 		100031,
 		100032,
+		100033,
 		200001,
 		200002,
 		200003,
@@ -96733,6 +97758,28 @@ pg.furniture_data_template = {
 		85306,
 		85307,
 		85308,
-		85309
+		85309,
+		86001,
+		86002,
+		86101,
+		86102,
+		86103,
+		86104,
+		86105,
+		86106,
+		86107,
+		86108,
+		86109,
+		86110,
+		86111,
+		86112,
+		86113,
+		86114,
+		86115,
+		86116,
+		86117,
+		86119,
+		86122,
+		86301
 	}
 }
