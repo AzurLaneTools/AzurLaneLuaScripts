@@ -2021,20 +2021,19 @@ pg.ship_skin_template_12 = {
 		bg = "152",
 		id = 307014,
 		group_index = 4,
-		prefab = "chicheng_5",
-		painting = "chicheng_5",
 		shop_id = 70659,
-		air_bullet_skin = "",
+		painting = "chicheng_5",
 		air_bomb_skin = "",
-		shop_type_id = 3,
+		air_bullet_skin = "",
 		illustrator = -1,
+		shop_type_id = 3,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 4,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
+		prefab = "chicheng_5",
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
@@ -2045,7 +2044,6 @@ pg.ship_skin_template_12 = {
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
-		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		tag = {
@@ -2126,7 +2124,14 @@ pg.ship_skin_template_12 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
-		}
+		},
+		l2d_para_range = {
+			ParamBodyAngleY = {
+				0,
+				0
+			}
+		},
+		l2d_ignore_drag = e
 	},
 	[307018] = {
 		ship_group = 30701,
