@@ -17,7 +17,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -41,7 +41,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -65,7 +65,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -89,7 +89,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -113,7 +113,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -137,7 +137,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -161,7 +161,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -185,7 +185,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -209,7 +209,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -233,7 +233,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExpose",
+					attr = "cloakExposeExtra",
 					number = 15
 				}
 			}
@@ -273,7 +273,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cloakExpose",
+				attr = "cloakExposeExtra",
 				number = 15
 			}
 		}

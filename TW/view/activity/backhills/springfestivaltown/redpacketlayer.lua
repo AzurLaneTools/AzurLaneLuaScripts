@@ -65,13 +65,12 @@ function slot0.updateUI(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot2 = slot1.data3
 	slot4 = math.min(slot1.data1, slot1.data2)
-	slot5 = slot1.data1 - slot4
 
 	setActive(slot0.tagTF, slot4 > 0)
-	setActive(slot0.normalTF, slot5 > 0)
-	setActive(slot0.specialTF, slot4 > 0)
-	setActive(slot0.countTF, slot3 > 0)
-	setText(slot0.normalCountText, slot5)
+	setActive(slot0.normalTF, true)
+	setActive(slot0.specialTF, true)
+	setActive(slot0.countTF, true)
+	setText(slot0.normalCountText, slot1.data1 - slot4)
 	setText(slot0.specialCountText, slot4)
 	setActive(slot0.packetBtn, slot3 > 0)
 	setActive(slot0.packetMask, slot3 <= 0)

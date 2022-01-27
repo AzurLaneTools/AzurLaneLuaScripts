@@ -1125,6 +1125,19 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "Fushun3GameView",
+		name = "2021抚顺大冒险III",
+		simple_config_data = "",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 37,
+		hub_id = 29,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -1161,6 +1174,7 @@ pg.mini_game = {
 		33,
 		34,
 		35,
-		36
+		36,
+		37
 	}
 }

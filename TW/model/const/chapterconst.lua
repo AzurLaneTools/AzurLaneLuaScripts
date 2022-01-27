@@ -109,6 +109,7 @@ slot0.StrategyExchange = 9
 slot0.StrategyCallSubOutofRange = 10
 slot0.StrategySubTeleport = 11
 slot0.StrategySonarDetect = 12
+slot0.StrategyMissileStrike = 18
 slot0.StrategyForms = {
 	slot0.StrategyFormSignleLine,
 	slot0.StrategyFormDoubleLine,
@@ -127,6 +128,7 @@ slot0.QuadStateNormal = 1
 slot0.QuadStateFrozen = 2
 slot0.QuadStateStrategy = 3
 slot0.QuadStateTeleportSub = 4
+slot0.QuadStateMissileStrike = 5
 slot0.PlaneName = "plane"
 slot0.LineCross = 2
 slot0.CellEaseOutAlpha = 0.01

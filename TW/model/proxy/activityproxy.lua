@@ -451,7 +451,7 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 		slot7 = slot1
 		slot8 = uv2
 
-		for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.TeamToTypeList(slot0), uv1.ships, slot7, slot8)) do
+		for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.GetShipTypeListFromTeam(slot0), uv1.ships, slot7, slot8)) do
 			uv1:insertShip(slot8, nil, slot0)
 		end
 	end

@@ -74,17 +74,18 @@ SCENE = {
 	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
 	COLORING = "scene coloring",
-	CREATE_PLAYER = "scene create player",
+	WORLDINPICTURE = "world in picture",
 	NAVALTACTICS = "naval tactics",
 	ACT_BOSS_BATTLE = "act boss battle",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	JIUJIU_EXPEDITION = "jiujiu expedition ",
+	CREATE_PLAYER = "scene create player",
 	RESOLVESHIPS = "scene resolve ships",
 	SHIPINFO = "scene shipinfo",
-	WORLD_FORMATION = "scene world formation",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
+	WORLD_FORMATION = "scene world formation",
 	BACK_CHARGE = "back charge",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	WORLD_COLLECTION = "world collection",
@@ -98,9 +99,11 @@ SCENE = {
 	DEPOTSCENE = "scene depot scene",
 	EXERCISEFORMATION = "scene exerciseformation",
 	AIRFORCE_DRAGONEMPERY = "scene AirForceOfDragonEmpery",
+	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
 	BILLBOARD = "scene billboard",
 	METACHARACTER = "metacharacter",
 	MILITARYEXERCISE = " scene militaryexercise",
+	ACT_BOSS_BRISTOL = "scene act boss Bristol",
 	AMUSEMENT_PARK2 = "amusement park 2"
 }
 
@@ -279,7 +282,7 @@ function SCENE.SetSceneInfo(slot0, slot1)
 		slot0.viewComponent = TrainingCampScene
 	elseif slot1 == SCENE.ACT_BOSS_BATTLE then
 		slot0.mediator = ActivityBossMediatorTemplate
-		slot0.viewComponent = ActivityBossSurugaScene
+		slot0.viewComponent = ActivityBossBristolScene
 	elseif slot1 == SCENE.BULLETINBOARD then
 		slot0.mediator = BulletinBoardMediator
 		slot0.viewComponent = BulletinBoardLayer
@@ -317,9 +320,15 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.SPRING_TOWN then
 		slot0.mediator = NewYearFestivalMediator
 		slot0.viewComponent = SpringFestivalTownScene
+	elseif slot1 == SCENE.SPRING_FESTIVAL_BACKHILL_2022 then
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = SpringFestivalBackHill2022Scene
 	elseif slot1 == SCENE.ACT_BOSS_SPF then
 		slot0.mediator = ActivityBossMediatorTemplate
 		slot0.viewComponent = ActivityBossSPFScene
+	elseif slot1 == SCENE.ACT_BOSS_BRISTOL then
+		slot0.mediator = ActivityBossMediatorTemplate
+		slot0.viewComponent = ActivityBossBristolScene
 	elseif slot1 == SCENE.METACHARACTER then
 		slot0.mediator = MetaCharacterMediator
 		slot0.viewComponent = MetaCharacterScene
@@ -404,6 +413,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.SSSS_MEDAL_COLLECTION then
 		slot0.mediator = MedalCollectionTemplateMediator
 		slot0.viewComponent = SSSSMedalCollectionView
+	elseif slot1 == SCENE.WORLDINPICTURE then
+		slot0.mediator = WorldInPictureMediator
+		slot0.viewComponent = WorldInPictureScene
 	end
 
 	slot0.scene = slot1

@@ -794,6 +794,10 @@ _G.pg.gametip.word_seaplane = {
 	tip = "水偵"
 }
 
+_G.pg.gametip.word_missile = {
+	tip = "導彈"
+}
+
 _G.pg.gametip.word_online = {
 	tip = "在線"
 }
@@ -2349,22 +2353,26 @@ _G.pg.gametip.coloring_wait_open = {
 _G.pg.gametip.coloring_help_tip = {
 	tip = {
 		{
-			info = "遊戲規則\n"
+			info = "遊戲規則"
 		},
 		{
 			info = [[
-1 每張繪圖日記的儲存格上標注有對應的顏料編號，選中對應的顏料編號即會向對應儲存格自動進行上色； 
-2 繪圖區域可以通過雙指拉伸或縮小；
-3 上色會對同色儲存格自動上色，直到顏料耗盡或塗滿；
-4 上色會消耗顏料，剩餘顏料為0時不可以上色；
-5 顏料可通過活動任務累計消耗石油獲得；
-6 完成上色可以獲得獎勵；
-7 各圖完成獎勵明細如下：
-	完成圖1獲得T3通用改造部件 x4；
-	完成圖2獲得T3隨機教材 x3；
-	完成圖3獲得小光輝 x1；
-8 活動結束後，未消耗的顏料會被清除。
-9 9月19日前每天解鎖一個可完成的繪圖。]]
+1.每張繪圖日記的單位格上標註有對應的顏料編號，選中對應的顏料編號即會向對應單位格自動進行上色； 
+2.繪圖區域可以通過雙指拉伸或縮小；
+3.上色會對同色單位格自動上色，直到顏料耗盡或塗滿；
+4.上色會消耗顏料，剩餘顏料為0時不可以上色；
+5.顏料可通過活動任務累計消耗石油獲得；
+6.完成上色可以獲得獎勵；
+7.各圖完成獎勵明細如下：
+	完成圖1獲得T3隨機教材 x2；
+	完成圖2獲得紅包 x1；
+	完成圖3獲得T3主炮改造部件 x2；
+	完成圖4獲得紅包 x1；
+	完成圖5獲得T3通用改造部件 x3；
+	完成圖6獲得紅包 x1；
+	完成圖7獲得限定角色「鞍山」、紅包 x1；
+8.活動結束後，未消耗的顏料會被清除；
+9.<color=#92fc63>2月2日</color>前每天解鎖一個可完成的繪圖。]]
 		}
 	}
 }
@@ -9316,11 +9324,11 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "鐵必制、希佩爾將軍建造追加！"
+	tip = "施佩伯爵將軍 建造追加！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "Z46、Z25、Z35、Z18、Z19建造追加！"
+	tip = "黛朵、格洛斯特、比洛克西、最上、海爾賽·鮑威爾、布希 建造追加！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
@@ -9397,6 +9405,10 @@ _G.pg.gametip.tec_notice_1 = {
 
 _G.pg.gametip.tec_notice_2 = {
 	tip = "完成科研二期研發加速所有任務後解鎖"
+}
+
+_G.pg.gametip.tec_notice_3 = {
+	tip = "完成科研三期研發加速所有任務後解鎖"
 }
 
 _G.pg.gametip.tec_notice_not_open_tip = {
@@ -12603,6 +12615,10 @@ _G.pg.gametip.word_equipskin_aircraft = {
 	tip = "艦載機"
 }
 
+_G.pg.gametip.word_equipskin_aux = {
+	tip = "設備"
+}
+
 _G.pg.gametip.msgbox_repair = {
 	tip = "修復資源"
 }
@@ -12671,14 +12687,7 @@ _G.pg.gametip.help_chunjie_feast = {
 _G.pg.gametip.help_chunjie_jiulou = {
 	tip = {
 		{
-			info = [[
-活動說明：
-1.活動期間可以通過<color=#92fc63>「撫順大冒險II」</color>、<color=#92fc63>「繪圖日記」</color>、
-<color=#92fc63>「啾啾疊疊樂」</color>、<color=#92fc63>「東煌大富翁」</color>獲得紅包，開啟紅包可
-以獲取鑽石及其他豐厚獎勵
-2.紅包分為bonus和普通紅包，其中有<color=#92fc63>15</color>個bonus紅包，其
-餘為普通紅包，開啟紅包時優先開啟bonus紅包，bonus紅
-包開完後開啟普通紅包]]
+			info = "活動說明：\n1.活動期間可以通過<color=#92fc63>「撫順大冒險III」</color>、<color=#92fc63>「繪圖日記」</color>、<color=#92fc63>「應瑞春遊記」</color>獲得紅包，開啟紅包可以獲取鑽石及其他豐厚獎勵\n2.紅包分為bonus和普通紅包，其中有<color=#92fc63>15</color>個bonus紅包，其餘為普通紅包，開啟紅包時優先開啟bonus紅包，bonus紅包開完後開啟普通紅包"
 		}
 	}
 }
@@ -13540,6 +13549,79 @@ _G.pg.gametip.help_monopoly_car = {
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
+				posX = 0
+			}
+		}
+	}
+}
+
+_G.pg.gametip.help_monopoly_3th = {
+	tip = {
+		{
+			info = "活動時間：<color=#92fc63>2022.1.27-2022.2.10</color>"
+		},
+		{
+			info = "活動說明：\n1.活動期間，玩家首日可獲得<color=#92fc63>5</color>次前進次數，此後每日24點可獲得<color=#92fc63>5</color>次前進次數；"
+		},
+		{
+			info = "2.玩家每前進<color=#92fc63>5</color>次，即可獲得一個紅包；"
+		},
+		{
+			info = "3.玩家獲得紅包後可前往<color=#92fc63>啾啾大酒樓</color>頁面開啟，獲取豐厚獎勵；"
+		},
+		{
+			info = "4.玩家前進<color=#92fc63>35</color>次後即可獲得應瑞換裝<color=#92fc63>「寒松雪暖」</color>；"
+		},
+		{
+			info = "5.遊戲中，根據玩家遇到事件的不同可以獲得不同的獎勵"
+		},
+		{
+			info = "    ：獲得一定數量物資；",
+			icon = {
+				path = "icon_2",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.4,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：獲得一定數量石油；",
+			icon = {
+				path = "icon_5",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.4,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：觸發隨機事件；",
+			icon = {
+				path = "icon_3",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.4,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：觸發隨機獎勵；",
+			icon = {
+				path = "icon_1",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.4,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：再前進一次；",
+			icon = {
+				path = "icon_6",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.4,
 				posX = 0
 			}
 		}
@@ -15984,6 +16066,10 @@ _G.pg.gametip.equip_ammo_type_10 = {
 	tip = "無"
 }
 
+_G.pg.gametip.equip_ammo_type_11 = {
+	tip = "導彈"
+}
+
 _G.pg.gametip.common_daily_limit = {
 	tip = "每日上限(未使用)"
 }
@@ -17180,6 +17266,115 @@ _G.pg.gametip.map_event_lighthouse_tip_1 = {
 	tip = "燈塔已點亮，後續戰鬥中將獲得燈塔照明效果"
 }
 
+_G.pg.gametip.battlepass_main_tip_2110 = {
+	tip = "2022.2.1-2022.3.31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「扶桑·META」</color>在內的豐富獎勵"
+}
+
+_G.pg.gametip.battlepass_main_time = {
+	tip = "$1天$2時"
+}
+
+_G.pg.gametip.battlepass_main_help_2110 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2022.2.1-2022.3.31)
+
+·<color=#92fc63>開放時間</color>
+    2022.2.1 0點 ~ 2022.3.31 23:59:59
+
+·<color=#92fc63>巡游進度說明</color>
+（1）活動期間，指揮官通過完成巡遊任務，可獲取「巡遊點數」。 
+（2）巡遊任務隨時間開放解鎖。 
+（3）每獲取100點「巡遊點數」即可增加1巡游進度
+（4）巡游進度提升後可以獲取相應等級的獎勵，巡游進度最高可達100。 
+
+·<color=#92fc63>獎勵規則</color>
+巡游進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「扶桑·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·三期</color>等獎勵；
+    當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。 
+（2）特許巡遊獎勵：包含<color=#ff5c5c>約克鎮換裝「旅途的旋律</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+    購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。 
+    注：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。 
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。 
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即3.31 22:59:59停止)，請指揮官注意購買時間。 
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+    巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+    S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡游進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+_G.pg.gametip.cruise_task_help_2110 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+    2022.2.1 0點 ~ 2022.3.31 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+    巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+    S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+_G.pg.gametip.cruise_task_phase = {
+	tip = "巡游進度 | PHASE.$1"
+}
+
+_G.pg.gametip.cruise_task_tips = {
+	tip = "已完成："
+}
+
+_G.pg.gametip.battlepass_task_quickfinish1 = {
+	tip = "快速完成該任務需要消耗<color=#ff5c5c>$1張</color>「巡遊任務快速完成券」\n(當前擁有:<color=#92fc63>$2</color>張)\n是否確定使用？"
+}
+
+_G.pg.gametip.battlepass_task_quickfinish2 = {
+	tip = "所需道具不足，是否前往購買？\n還需要：<color=#ff5c5c>$1張</color>「巡遊任務快速完成券」"
+}
+
+_G.pg.gametip.battlepass_task_quickfinish3 = {
+	tip = "道具使用成功"
+}
+
+_G.pg.gametip.cruise_task_unlock = {
+	tip = "該週任務將於$1天$2時後解鎖"
+}
+
+_G.pg.gametip.cruise_task_week = {
+	tip = "第$1週"
+}
+
 _G.pg.gametip.battlepass_pay_timelimit = {
 	tip = "剩餘：$1"
 }
@@ -17198,6 +17393,22 @@ _G.pg.gametip.battlepass_acquire_attention = {
 
 _G.pg.gametip.battlepass_pay_tip = {
 	tip = "購買後解鎖特許巡遊獎勵："
+}
+
+_G.pg.gametip.battlepass_main_tip1 = {
+	tip = "活動期間，完成巡遊任務累計<icon name=pt w=1 h=1/>\n可獲取<color=#92fc63>「扶桑·META」</color>、<color=#92fc63>心智魔方</color>、\n<color=#92fc63>高級定向藍圖</color>在內的豐富獎勵"
+}
+
+_G.pg.gametip.battlepass_main_tip2 = {
+	tip = "購買<icon name=pass w=1 h=1/>可解鎖\n<color=#92fc63>「約克鎮」限定換裝</color>、<color=#92fc63>鑽石</color>\n<color=#92fc63>心智魔方</color>在內的額外獎勵"
+}
+
+_G.pg.gametip.battlepass_main_tip3 = {
+	tip = "活動期間，完成巡遊任務累計<icon name=pt w=1 h=1/>\n可獲取<color=#92fc63>「約克鎮」限定換裝</color>、\n<color=#92fc63>鑽石</color>、<color=#92fc63>心智魔方</color>在內的額外獎勵"
+}
+
+_G.pg.gametip.battlepass_complete = {
+	tip = "當期世界巡遊已完成"
 }
 
 _G.pg.gametip.shop_free_tag = {
@@ -17665,7 +17876,7 @@ _G.pg.gametip.build_pools_intro = {
 }
 
 _G.pg.gametip.build_detail_intro = {
-	tip = "可同時施工的干船塢數量："
+	tip = "可同時施工的乾船塢數量："
 }
 
 _G.pg.gametip.ssss_game_tip = {
@@ -17851,4 +18062,99 @@ _G.pg.gametip.tactics_class_get_exp = {
 
 _G.pg.gametip.tactics_class_spend_time = {
 	tip = "消耗時間"
+}
+
+_G.pg.gametip.springfes_tips1 = {
+	tip = {
+		{
+			info = [[
+活動時間：<color=#92fc63>2022.1.27-2022.2.10</color>
+活動簡介：
+<color=#92fc63>「撫順大冒險III」</color>：參與小遊戲獲取限定角色<color=#92fc63>「撫順」</color>
+<color=#92fc63>「春節特別鍛鍊」</color>：參與活動獲取限定角色<color=#92fc63>「U-410」</color>
+<color=#92fc63>「繪圖日記」</color>：參與活動獲取限定角色<color=#92fc63>「鞍山」</color>
+<color=#92fc63>「啾啾大酒樓」</color>：參與活動開啟紅包獲取豐厚獎勵
+<color=#92fc63>「換裝商店」</color>：購買春節限時換裝
+<color=#92fc63>「限時建造」</color>：建造限時角色]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_help = {
+	tip = {
+		{
+			info = [[
+活动时间：1月27日至2月10日维护
+活动期间每日可解锁2个任务，2月2日可解锁全部任务
+1.完成「海天与海祈的画中世界」活动任务可获得<color=#92fc63>游历点数</color>和<color=#92fc63>绘制点数</color>
+2.消耗游历点数可探索画卷，探索宝箱格可获得红包奖励，探索完画卷全部内容可获得限定角色<color=#92fc63>「海祈」</color>
+3.探索完部分格子后可消耗绘制点数进行绘制，完成全部绘制后可获得限定角色<color=#92fc63>「海天」</color>]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_task_help = {
+	tip = {
+		{
+			info = [[
+活动时间：1月27日至2月10日维护
+活动期间每日可解锁2个任务，2月2日可解锁全部任务
+1.完成「海天与海祈的画中世界」活动任务可获得<color=#92fc63>游历点数</color>和<color=#92fc63>绘制点数</color>
+2.消耗游历点数可探索画卷，探索宝箱格可获得红包奖励，探索完画卷全部内容可获得限定角色<color=#92fc63>「海祈」</color>
+3.探索完部分格子后可消耗绘制点数进行绘制，完成全部绘制后可获得限定角色<color=#92fc63>「海天」</color>]]
+		}
+	}
+}
+
+_G.pg.gametip.shipchange_alert_infleet = {
+	tip = "艦船在已有艦隊編成中，是否移出編隊？"
+}
+
+_G.pg.gametip.shipchange_alert_inpvp = {
+	tip = "艦船在演習攻擊艦隊編成中，是否移出編隊？"
+}
+
+_G.pg.gametip.shipchange_alert_inexercise = {
+	tip = "艦船在演習防禦艦隊編成中，是否移出編隊？"
+}
+
+_G.pg.gametip.shipchange_alert_inworld = {
+	tip = "艦船在大型作戰艦隊編成中，是否移出編隊？"
+}
+
+_G.pg.gametip.shipchange_alert_inguildbossevent = {
+	tip = "艦船在大艦隊boss戰鬥編成中，是否移出編隊？"
+}
+
+_G.pg.gametip.shipchange_alert_indiff = {
+	tip = "艦船在已保存的艦隊編成中，是否移出編隊？"
+}
+
+_G.pg.gametip.shipmodechange_reject_1stfleet_only = {
+	tip = "艦船為第一艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
+}
+
+_G.pg.gametip.shipmodechange_reject_worldfleet_only = {
+	tip = "艦船為大世界艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
+}
+
+_G.pg.gametip.fushun_game3_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>2月2日</color>為止每日0點開放<color=#92fc63>1</color>回新遊戲，總計<color=#92fc63>7</color>回，可累計。完成7回遊戲可以獲得包括撫順在內的豐富獎勵。
+遊戲規則：
+1.每局遊戲不限時間，損失4點血量或掉下屋頂遊戲結束
+2.點擊左側跳躍按鈕撫順會進行跳躍，點擊右側攻擊按鈕撫順會進行攻擊
+3.分數會隨著撫順的移動自然增長，吃到不同的道具將會有不同的效果
+金幣：獲得50分
+玉珮：獲得300分
+跑鞋：跳躍力&移速增加，可通過跳躍踩消滅年獸啾
+導彈炮：攻擊變為遠程導彈攻擊
+磁鐵：會自動吸引附近的道具
+消滅年獸啾會獲得500分
+4.完成遊戲或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。]]
+		}
+	}
 }

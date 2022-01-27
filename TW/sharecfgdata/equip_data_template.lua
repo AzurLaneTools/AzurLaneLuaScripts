@@ -1801,7 +1801,9 @@ _G.pg.equip_data_template[580] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -2289,7 +2291,9 @@ _G.pg.equip_data_template[600] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -2895,7 +2899,9 @@ _G.pg.equip_data_template[620] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -3501,7 +3507,9 @@ _G.pg.equip_data_template[640] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -4107,7 +4115,9 @@ _G.pg.equip_data_template[660] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -4595,7 +4605,9 @@ _G.pg.equip_data_template[680] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -5083,7 +5095,9 @@ _G.pg.equip_data_template[700] = {
 		12,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -5571,7 +5585,9 @@ _G.pg.equip_data_template[720] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -6180,7 +6196,9 @@ _G.pg.equip_data_template[740] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -7620,7 +7638,9 @@ _G.pg.equip_data_template[820] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -9413,7 +9433,9 @@ _G.pg.equip_data_template[880] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -10022,7 +10044,9 @@ _G.pg.equip_data_template[1000] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -10260,7 +10284,9 @@ _G.pg.equip_data_template[1020] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -10690,7 +10716,9 @@ _G.pg.equip_data_template[1040] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -12688,7 +12716,9 @@ _G.pg.equip_data_template[1200] = {
 		8,
 		11,
 		12,
-		17
+		17,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -12803,7 +12833,9 @@ _G.pg.equip_data_template[1220] = {
 		8,
 		11,
 		12,
-		17
+		17,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -13034,7 +13066,9 @@ _G.pg.equip_data_template[1240] = {
 		8,
 		11,
 		12,
-		17
+		17,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -13522,7 +13556,9 @@ _G.pg.equip_data_template[1260] = {
 		12,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -14119,7 +14155,9 @@ _G.pg.equip_data_template[1300] = {
 	ship_type_forbidden = {
 		1,
 		8,
-		17
+		17,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -14229,7 +14267,9 @@ _G.pg.equip_data_template[1320] = {
 	ship_type_forbidden = {
 		1,
 		8,
-		17
+		17,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -14455,7 +14495,9 @@ _G.pg.equip_data_template[1340] = {
 	ship_type_forbidden = {
 		1,
 		8,
-		17
+		17,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -14943,7 +14985,9 @@ _G.pg.equip_data_template[1400] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -15178,7 +15222,9 @@ _G.pg.equip_data_template[1420] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -15605,7 +15651,9 @@ _G.pg.equip_data_template[1440] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -21557,7 +21605,9 @@ _G.pg.equip_data_template[2100] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -21676,7 +21726,9 @@ _G.pg.equip_data_template[2120] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -21911,7 +21963,9 @@ _G.pg.equip_data_template[2140] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -30622,7 +30676,9 @@ _G.pg.equip_data_template[3100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -31112,7 +31168,9 @@ _G.pg.equip_data_template[3120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -31720,7 +31778,9 @@ _G.pg.equip_data_template[3140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -32325,7 +32385,9 @@ _G.pg.equip_data_template[3200] = {
 		12,
 		13,
 		17,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -32930,7 +32992,9 @@ _G.pg.equip_data_template[3220] = {
 		12,
 		13,
 		17,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -33421,7 +33485,9 @@ _G.pg.equip_data_template[3400] = {
 		12,
 		13,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -34030,7 +34096,9 @@ _G.pg.equip_data_template[3500] = {
 		12,
 		13,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -34521,7 +34589,9 @@ _G.pg.equip_data_template[3520] = {
 		12,
 		13,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -35012,7 +35082,9 @@ _G.pg.equip_data_template[3540] = {
 		12,
 		13,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -36870,7 +36942,9 @@ _G.pg.equip_data_template[4200] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -36991,7 +37065,9 @@ _G.pg.equip_data_template[4220] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -37228,7 +37304,9 @@ _G.pg.equip_data_template[4240] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -37718,7 +37796,9 @@ _G.pg.equip_data_template[4300] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -37839,7 +37919,9 @@ _G.pg.equip_data_template[4320] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -38076,7 +38158,9 @@ _G.pg.equip_data_template[4340] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -46718,7 +46802,9 @@ _G.pg.equip_data_template[7340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -167149,7 +167235,9 @@ _G.pg.equip_data_template[39320] = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	trans_use_item = {
 		{
@@ -204574,7 +204662,9 @@ _G.pg.equip_data_template[89380] = {
 		8,
 		11,
 		12,
-		17
+		17,
+		20,
+		21
 	},
 	trans_use_item = {
 		{

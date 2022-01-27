@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "捡到了掉在草丛中的零件，获得了【强化部件T3*2】",
+			say = "撿到了掉在草叢中的零件，獲得了【強化部件T3*2】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

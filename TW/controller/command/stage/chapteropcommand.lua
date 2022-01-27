@@ -31,7 +31,8 @@ function slot0.execute(slot0, slot1)
 		act = slot2.type,
 		group_id = defaultValue(slot2.id, 0),
 		act_arg_1 = slot2.arg1,
-		act_arg_2 = slot2.arg2
+		act_arg_2 = slot2.arg2,
+		act_arg_3 = slot2.arg3
 	}, 13104, function (slot0)
 		if slot0.result == 0 then
 			slot3 = nil

@@ -8279,6 +8279,49 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200010] = {
+		map = 2200010,
+		name = "圍剿施佩伯爵！|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		cloud_suffix = "purple",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1070000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200020] = {
 		map = 2200020,
 		name = "朱諾行動|| ||CHAPTER SP||S.P.",
@@ -9120,6 +9163,7 @@ pg.expedition_data_by_map = {
 		2100070,
 		2100071,
 		2200000,
+		2200010,
 		2200020,
 		5100000,
 		5100001,

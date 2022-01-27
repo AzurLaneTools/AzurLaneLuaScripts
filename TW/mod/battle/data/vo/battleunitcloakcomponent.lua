@@ -108,8 +108,10 @@ function slot5.UpdateCloakState(slot0)
 
 		if slot0._currentState == uv0.STATE_UNCLOAK then
 			uv1.Uncloak(slot0._client)
+			slot0:triggerBuff()
 		elseif slot0._currentState == uv0.STATE_CLOAK then
 			uv1.Cloak(slot0._client)
+			slot0:triggerBuff()
 		end
 	end
 end
@@ -168,6 +170,13 @@ function slot5.initCloak(slot0)
 	slot0._currentState = uv2.STATE_CLOAK
 
 	uv0.Cloak(slot0._client)
+	slot0:triggerBuff()
+end
+
+function slot5.triggerBuff(slot0)
+	slot0._client:TriggerBuff(uv1.BuffEffectType.ON_CLOAK_UPDATE, {
+		cloakState = uv0.GetCurrent(slot0._client, "isCloak")
+	})
 end
 
 function slot5.adjustCloakAttr(slot0)

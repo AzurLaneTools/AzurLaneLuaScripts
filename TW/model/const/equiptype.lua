@@ -16,6 +16,7 @@ slot0.Sonar = 14
 slot0.AntiSubAircraft = 15
 slot0.Helicopter = 17
 slot0.Goods = 18
+slot0.Missile = 20
 slot0.AmmoType_1 = 1
 slot0.AmmoType_2 = 2
 slot0.AmmoType_3 = 3
@@ -92,7 +93,8 @@ slot1 = {
 	i18n("word_bomber"),
 	i18n("word_attacker"),
 	i18n("word_seaplane"),
-	i18n("word_equipment")
+	i18n("word_equipment"),
+	i18n("word_missile")
 }
 slot2 = {
 	"cannon",
@@ -112,7 +114,9 @@ slot2 = {
 	"equipment",
 	nil,
 	"equipment",
-	"equipment"
+	"equipment",
+	nil,
+	"missile"
 }
 
 function slot0.Type2Name(slot0)
@@ -143,7 +147,9 @@ function slot0.type2Tag(slot0)
 			"13",
 			nil,
 			"14",
-			"15"
+			"15",
+			nil,
+			"16"
 		}
 	end
 
@@ -167,6 +173,8 @@ function slot0.type2Title(slot0, slot1)
 		return uv0[6]
 	elseif slot1 == uv1.SubmarineTorpedo then
 		return uv0[7]
+	elseif slot1 == uv1.Missile then
+		return uv0[17]
 	end
 end
 

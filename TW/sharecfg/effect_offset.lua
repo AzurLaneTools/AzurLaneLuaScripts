@@ -253,6 +253,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	qingsebuff = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.5,
+			0
+		}
+	},
 	caisedian = {
 		mirror = false,
 		y_scale = false,
@@ -1350,6 +1361,17 @@ pg.effect_offset = {
 		offset = {
 			0,
 			0,
+			0
+		}
+	},
+	robot_bulisituoer = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-2,
+			1.5,
 			0
 		}
 	}

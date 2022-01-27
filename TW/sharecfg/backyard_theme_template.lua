@@ -1282,7 +1282,7 @@ pg.backyard_theme_template = {
 	[39] = {
 		Cfg_1 = 5,
 		name = "粉粉豬年",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 39,
 		comfortable = 0,
@@ -2412,6 +2412,43 @@ pg.backyard_theme_template = {
 			74118
 		}
 	},
+	[75] = {
+		Cfg_1 = 5,
+		name = "敬賀新禧",
+		hot = 1,
+		is_view = 1,
+		id = 75,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "團圓熱鬧的新年又來了啾~",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "cj3themeicon",
+		deblocking = 1,
+		order = 74,
+		ids = {
+			75001,
+			75002,
+			75101,
+			75102,
+			75103,
+			75104,
+			75105,
+			75106,
+			75107,
+			75108,
+			75109,
+			75110,
+			75111,
+			75112,
+			75113,
+			75114,
+			75115,
+			75116,
+			75301
+		}
+	},
 	[76] = {
 		Cfg_1 = 5,
 		name = "貓熊之家 ",
@@ -2619,6 +2656,7 @@ pg.backyard_theme_template = {
 		72,
 		73,
 		74,
+		75,
 		76,
 		79,
 		84

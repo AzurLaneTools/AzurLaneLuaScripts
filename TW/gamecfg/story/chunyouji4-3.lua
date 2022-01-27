@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "一只神秘的猫猫紧跟在你的身后不肯离开，获得了【喵箱SSR型*1】",
+			say = "一隻神秘的貓貓緊跟在你的身後不肯離開，獲得了【喵箱SSR型*1】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

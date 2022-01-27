@@ -33,10 +33,10 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 					slot6:AddBuff(uv2.Battle.BattleBuffUnit.New(uv3))
 					uv4:HandleDamage(uv0, slot6)
 
-					if pg.Tool.FilterY(uv5 - slot6:GetPosition()).magnitude < 0.1 then
-						slot6:SetUncontrollableSpeed(slot8, 0.001, 1e-06)
+					if pg.Tool.FilterY(uv5 - slot6:GetPosition()).magnitude < (uv0:GetTemplate().extra_param.force or 0.1) then
+						slot6:SetUncontrollableSpeed(slot9, 0.001, 1e-06)
 					else
-						slot6:SetUncontrollableSpeed(slot8, 0.1, 1e-07)
+						slot6:SetUncontrollableSpeed(slot9, slot8, 1e-07)
 					end
 				end
 			end
@@ -45,33 +45,43 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 		end
 	end, function (slot0)
 		if slot0.Active then
-			uv0:GetSceneMediator():GetCharacter(slot0.UID):GetUnitData():RemoveBuff(uv1)
+			slot1 = uv0:GetSceneMediator():GetCharacter(slot0.UID):GetUnitData()
+
+			slot1:ClearUncontrollableSpeed()
+			slot1:RemoveBuff(uv1)
 		end
 	end, false, slot0:GetFXID(), function (slot0)
 		slot1 = uv0:GetTemplate().extra_param.exploDMG
+		slot2 = uv0:GetTemplate().extra_param.knockBack
 
-		for slot5, slot6 in ipairs(slot0) do
-			if slot6.Active then
-				slot8 = false
-				slot9 = uv1:GetSceneMediator():GetCharacter(slot6.UID):GetUnitData():GetCurrentOxyState()
+		for slot6, slot7 in ipairs(slot0) do
+			if slot7.Active then
+				slot9 = false
+				slot10 = uv1:GetSceneMediator():GetCharacter(slot7.UID):GetUnitData():GetCurrentOxyState()
 
-				for slot13, slot14 in ipairs(uv2) do
-					if slot9 == slot14 then
-						slot8 = true
+				for slot14, slot15 in ipairs(uv2) do
+					if slot10 == slot15 then
+						slot9 = true
 					end
 				end
 
-				if not slot8 then
-					uv3:HandleDirectDamage(slot7, slot1, uv0)
-					slot7:SetUncontrollableSpeed(pg.Tool.FilterY(slot7:GetPosition() - uv4), 1, 0.2, 6)
-					slot7:RemoveBuff(uv5)
+				if not slot9 then
+					uv3:HandleDirectDamage(slot8, slot1, uv0)
+
+					slot11 = pg.Tool.FilterY(slot8:GetPosition() - uv4)
+
+					if slot2 ~= false then
+						slot8:SetUncontrollableSpeed(slot11, 1, 0.2, 6)
+					end
+
+					slot8:RemoveBuff(uv5)
 				end
 			end
 		end
 
-		slot2, slot3 = uv1.GetFXPool():GetFX(uv6:GetMissFXID())
+		slot3, slot4 = uv1.GetFXPool():GetFX(uv6:GetMissFXID())
 
-		pg.EffectMgr.GetInstance():PlayBattleEffect(slot2, slot3:Add(uv4), true)
+		pg.EffectMgr.GetInstance():PlayBattleEffect(slot3, slot4:Add(uv4), true)
 		uv3:RemoveBulletUnit(uv0:GetUniqueID())
 	end):SetDiveFilter(slot7:GetDiveFilter())
 end

@@ -611,13 +611,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_midgard_2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 401460,
 			say = "海因里希……任务命令书……你完全没看过么。",
 			typewriter = {
 				speed = 0.05,

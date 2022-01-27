@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "观看了焰火晚会，获得了纪念品【快速完成工具*1】",
+			say = "觀看了煙火晚會，獲得了紀念品【快速完成工具*1】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -135,7 +135,11 @@ function slot4.DoAttack(slot0, slot1)
 end
 
 function slot4.TriggerBuffOnReady(slot0)
-	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_CHARGE_READY, {})
+	if slot0._tmpData.type == uv0.EquipmentType.MANUAL_MISSILE then
+		slot0._host:TriggerBuff(uv1.Battle.BattleConst.BuffEffectType.ON_MANUAL_MISSILE_READY, {})
+	else
+		slot0._host:TriggerBuff(uv1.Battle.BattleConst.BuffEffectType.ON_CHARGE_READY, {})
+	end
 end
 
 function slot4.Spawn(slot0, slot1, slot2, slot3)
@@ -180,7 +184,11 @@ function slot4.SpawnPointBullet(slot0, slot1, slot2)
 end
 
 function slot4.TriggerBuffOnFire(slot0)
-	slot0._host:TriggerBuff(uv0.BuffEffectType.ON_CHARGE_FIRE, {})
+	if slot0._tmpData.type == uv0.EquipmentType.MANUAL_MISSILE then
+		slot0._host:TriggerBuff(uv1.Battle.BattleConst.BuffEffectType.ON_MANUAL_MISSILE_FIRE, {})
+	else
+		slot0._host:TriggerBuff(uv1.Battle.BattleConst.BuffEffectType.ON_CHARGE_FIRE, {})
+	end
 end
 
 function slot4.InitialCD(slot0)

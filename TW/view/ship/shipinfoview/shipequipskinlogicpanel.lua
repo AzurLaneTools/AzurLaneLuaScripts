@@ -32,7 +32,15 @@ function slot0.init(slot0)
 	end
 
 	for slot4 = 1, 2 do
-		setText(findTF(slot0.skinL, "equipment_l" .. slot4 .. "/forbid"), i18n("equipskin_none"))
+		if IsNil(slot0.equipmentTFs[3 + slot4]:Find("info")) then
+			slot6 = cloneTplTo(slot0.infoPanel, slot5, "info")
+		end
+
+		setActive(findTF(slot0.skinL, "equipment_l" .. slot4 .. "/forbid"), false)
+		setText(findTF(slot0.skinL, "equipment_l" .. slot4 .. "/info/equip/info/unMatch/txt"), i18n("equipskin_typewrong"))
+		setText(findTF(slot0.skinL, "equipment_l" .. slot4 .. "/info/equip/info/unMatch/forbid_en"), i18n("equipskin_typewrong_en"))
+		setText(findTF(slot0.skinL, "equipment_l" .. slot4 .. "/info/equip/add/Text"), i18n("equipskin_add"))
+		setText(findTF(slot0.skinL, "equipment_l" .. slot4 .. "/info/forbid"), i18n("equipskin_none"))
 	end
 
 	for slot4 = 1, #slot0.equipmentNormalTFs do

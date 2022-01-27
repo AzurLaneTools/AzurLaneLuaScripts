@@ -57,6 +57,19 @@ pg.re_map_template = {
 			2100036
 		}
 	},
+	[5] = {
+		id = 5,
+		name = "围剿斯佩伯爵』常驻复刻",
+		activity_type = 2,
+		memory_group = 117,
+		bg = "temp_sipei",
+		order = 5,
+		config_data = {
+			2200011,
+			2200012,
+			2200013
+		}
+	},
 	[6] = {
 		id = 6,
 		name = "异色格常驻复刻",
@@ -122,6 +135,7 @@ pg.re_map_template = {
 		1,
 		2,
 		4,
+		5,
 		6,
 		7,
 		10

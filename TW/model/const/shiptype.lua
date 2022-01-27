@@ -15,6 +15,8 @@ slot0.ZhongPao = 13
 slot0.QianMu = 17
 slot0.ChaoXun = 18
 slot0.Yunshu = 19
+slot0.DaoQuV = 20
+slot0.DaoQuM = 21
 slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
@@ -32,7 +34,9 @@ slot0.AllShipType = {
 	13,
 	8,
 	12,
-	19
+	19,
+	20,
+	21
 }
 slot0.SpecificTypeTable = {
 	auxiliary = "AUX",
@@ -65,7 +69,9 @@ function slot0.Type2Print(slot0)
 			"battle_zibao",
 			"qianmu",
 			"chaoxun",
-			"yunshu"
+			"yunshu",
+			"daoquv",
+			"daoqum"
 		}
 	end
 
@@ -93,7 +99,9 @@ function slot0.Type2BattlePrint(slot0)
 			"battle_zibao",
 			"battle_hangmu",
 			"battle_zhanlie",
-			"battle_yunshu"
+			"battle_yunshu",
+			"battle_daoqu",
+			"battle_daoqu"
 		}
 	end
 
@@ -121,7 +129,9 @@ function slot0.Type2CNLabel(slot0)
 			"label_1",
 			"label_17",
 			"label_18",
-			"label_22"
+			"label_22",
+			"label_23",
+			"label_23"
 		}
 	end
 
@@ -152,7 +162,13 @@ slot0.BundleList = {
 	},
 	fanqian = {
 		slot0.QuZhu,
-		slot0.QingXun
+		slot0.QingXun,
+		slot0.DaoQuV
+	},
+	quzhu = {
+		slot0.QuZhu,
+		slot0.DaoQuM,
+		slot0.DaoQuV
 	}
 }
 
@@ -163,7 +179,8 @@ function slot0.BundleType2CNLabel(slot0)
 			qian = "label_8",
 			zhan = "label_11",
 			fanqian = "label_55",
-			hang = "label_12"
+			hang = "label_12",
+			quzhu = "label_1"
 		}
 	end
 
@@ -172,11 +189,36 @@ end
 
 slot0.CloakShipTypeList = {
 	slot0.QingHang,
-	slot0.ZhengHang
+	slot0.ZhengHang,
+	slot0.DaoQuM
 }
 
 function slot0.CloakShipType(slot0)
 	return table.contains(uv0.CloakShipTypeList, slot0)
+end
+
+slot0.QuZhuShipType = {
+	[slot0.QuZhu] = true,
+	[slot0.DaoQuV] = true,
+	[slot0.DaoQuM] = true
+}
+
+function slot0.IsTypeQuZhu(slot0)
+	return uv0.QuZhuShipType[slot0]
+end
+
+function slot0.FilterOverQuZhuType(slot0)
+	slot1 = false
+
+	return underscore.filter(slot0, function (slot0)
+		if not uv0 or not uv1.IsTypeQuZhu(slot0) then
+			uv0 = uv0 or uv1.IsTypeQuZhu(slot0)
+
+			return true
+		else
+			return false
+		end
+	end)
 end
 
 return slot0

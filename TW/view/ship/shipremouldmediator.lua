@@ -19,7 +19,7 @@ function slot0.register(slot0)
 
 	slot5:setItems(slot7:getData())
 	slot0:bind(uv0.REMOULD_SHIP, function (slot0, slot1, slot2, slot3)
-		if uv0.contextData.materialShipIds and table.getCount(uv0.contextData.materialShipIds) > 1 then
+		if uv0.contextData.materialShipIds and #uv0.contextData.materialShipIds > 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("remould_ship_count_more"))
 
 			return
@@ -91,10 +91,9 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.REMOULD_SHIP_DONE then
 		slot0.viewComponent:setShipVO(slot3.ship)
-		slot0.viewComponent:updateGridTF(slot3.id)
 		slot0.viewComponent:updateLines()
 
-		if table.getCount(slot3.awards or {}) ~= 0 then
+		if #slot3.awards ~= 0 then
 			slot0:addSubLayers(Context.New({
 				mediator = NewShipMediator,
 				viewComponent = NewShipLayer,
@@ -108,7 +107,6 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.contextData.materialShipIds = nil
 
-		slot0.viewComponent:updateInfo(slot3.id)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("remould_ship_ok"))
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)

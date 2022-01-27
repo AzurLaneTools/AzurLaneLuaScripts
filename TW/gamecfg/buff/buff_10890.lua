@@ -47,6 +47,24 @@ return {
 				shipType = 2,
 				target = "TargetPlayerByType"
 			}
+		},
+		{
+			type = "BattleBuffField",
+			trigger = {},
+			arg_list = {
+				buff_id = 10891,
+				shipType = 20,
+				target = "TargetPlayerByType"
+			}
+		},
+		{
+			type = "BattleBuffField",
+			trigger = {},
+			arg_list = {
+				buff_id = 10891,
+				shipType = 21,
+				target = "TargetPlayerByType"
+			}
 		}
 	}
 }

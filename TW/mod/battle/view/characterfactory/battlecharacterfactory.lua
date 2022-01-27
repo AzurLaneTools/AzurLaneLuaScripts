@@ -128,14 +128,6 @@ function slot2.MakeSmokeFX(slot0, slot1)
 	slot1:AddSmokeFXs(slot3)
 end
 
-function slot2.MakeEquipSkinAttachment(slot0, slot1)
-	if slot1:GetUnitData():GetSkinAttachmentInfo() then
-		for slot6, slot7 in pairs(slot2) do
-			slot1:AddFX(slot7)
-		end
-	end
-end
-
 function slot2.MakeWaveFX(slot0, slot1)
 	slot1:AddWaveFX(slot0.MOVE_WAVE_FX_NAME)
 end
@@ -173,6 +165,16 @@ end
 function slot2.MakeCloakBar(slot0, slot1)
 	slot1:AddCloakBar(slot0:GetSceneMediator():InstantiateCharacterComponent("CloakContainer/cloakMeter"))
 	slot1:UpdateCloakBarPosition()
+end
+
+function slot2.MakeSkinOrbit(slot0, slot1)
+	if slot1:GetUnitData():GetSkinAttachmentInfo() then
+		for slot7, slot8 in ipairs(slot3) do
+			slot9 = uv0.Battle.BattleDataFunction.GetEquipSkinDataFromID(slot8)
+
+			slot1:AddOrbit(uv0.Battle.BattleResourceManager.GetInstance():InstOrbit(slot9.orbit_combat), slot9)
+		end
+	end
 end
 
 function slot2.RemoveCharacter(slot0, slot1, slot2)

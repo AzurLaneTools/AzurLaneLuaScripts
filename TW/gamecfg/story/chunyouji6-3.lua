@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助鞍山打扫了绘图教室，获得了奖励【四星装备设计图纸*10】",
+			say = "幫助鞍山打掃了繪圖教室，獲得了獎勵【四星裝備設計圖紙*10】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

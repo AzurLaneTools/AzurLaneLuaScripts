@@ -45,7 +45,9 @@ return {
 					"TargetShipTypeFriendly"
 				},
 				ship_type_list = {
-					1
+					1,
+					20,
+					21
 				}
 			}
 		},
@@ -63,7 +65,9 @@ return {
 					"TargetShipTypeFriendly"
 				},
 				ship_type_list = {
-					1
+					1,
+					20,
+					21
 				}
 			}
 		}

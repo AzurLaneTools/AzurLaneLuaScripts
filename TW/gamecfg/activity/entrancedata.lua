@@ -31,6 +31,40 @@ return {
 		end
 	},
 	{
+		banner = "activity_boss",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.ACT_BOSS_BATTLE,
+			{
+				showAni = true
+			}
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) then
+				return
+			end
+
+			slot1 = false
+			slot2 = false
+
+			if pg.activity_event_worldboss[slot0.getConfig(slot0, "config_id")] then
+				slot5 = slot4.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.time[2])
+				slot2 = not (slot5 and pg.TimeMgr.GetInstance():GetServerTime() <= slot5)
+			end
+
+			if not slot2 then
+				slot1 = slot0.data2 ~= 1
+			elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
+				slot1 = ActivityBossPtData.New(slot5):CanGetAward()
+			end
+
+			return slot1
+		end
+	},
+	{
 		banner = "ming_paint",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
@@ -343,40 +377,6 @@ return {
 		end,
 		isTip = function ()
 			return PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description
-		end
-	},
-	{
-		banner = "activity_boss",
-		event = ActivityMediator.EVENT_GO_SCENE,
-		data = {
-			SCENE.ACT_BOSS_BATTLE,
-			{
-				showAni = true
-			}
-		},
-		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot0:isEnd()
-		end,
-		isTip = function ()
-			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) then
-				return
-			end
-
-			slot1 = false
-			slot2 = false
-
-			if pg.activity_event_worldboss[slot0.getConfig(slot0, "config_id")] then
-				slot5 = slot4.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.time[2])
-				slot2 = not (slot5 and pg.TimeMgr.GetInstance():GetServerTime() <= slot5)
-			end
-
-			if not slot2 then
-				slot1 = slot0.data2 ~= 1
-			elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-				slot1 = ActivityBossPtData.New(slot5):CanGetAward()
-			end
-
-			return slot1
 		end
 	}
 }

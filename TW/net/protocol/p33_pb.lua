@@ -16,6 +16,7 @@ slot2 = {
 	SC_33001_CLEAN_CHAPTER_FIELD = slot0.FieldDescriptor(),
 	SC_33001_CHAPTER_AWARD_FIELD = slot0.FieldDescriptor(),
 	SC_33001_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33001_NEW_FLAG_PORT_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33101_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33101_ENTER_MAP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33101_ELITE_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
@@ -25,6 +26,7 @@ slot2 = {
 	SC_33102_CHAPTER_AWARD_FIELD = slot0.FieldDescriptor(),
 	SC_33102_COUNT_INFO_FIELD = slot0.FieldDescriptor(),
 	SC_33102_PORT_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33102_NEW_FLAG_PORT_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33103_ACT_FIELD = slot0.FieldDescriptor(),
 	CS_33103_GROUP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33103_ACT_ARG_1_FIELD = slot0.FieldDescriptor(),
@@ -432,6 +434,15 @@ slot2.SC_33001_FLEET_LIST_FIELD.default_value = {}
 slot2.SC_33001_FLEET_LIST_FIELD.message_type = slot1.FLEETINFO
 slot2.SC_33001_FLEET_LIST_FIELD.type = 11
 slot2.SC_33001_FLEET_LIST_FIELD.cpp_type = 10
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.name = "new_flag_port_list"
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.full_name = "p33.sc_33001.new_flag_port_list"
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.number = 12
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.index = 11
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.label = 3
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.has_default_value = false
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.default_value = {}
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.type = 13
+slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD.cpp_type = 3
 SC_33001.name = "sc_33001"
 SC_33001.full_name = "p33.sc_33001"
 SC_33001.nested_types = {}
@@ -447,7 +458,8 @@ SC_33001.fields = {
 	slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD,
 	slot2.SC_33001_CLEAN_CHAPTER_FIELD,
 	slot2.SC_33001_CHAPTER_AWARD_FIELD,
-	slot2.SC_33001_FLEET_LIST_FIELD
+	slot2.SC_33001_FLEET_LIST_FIELD,
+	slot2.SC_33001_NEW_FLAG_PORT_LIST_FIELD
 }
 SC_33001.is_extendable = false
 SC_33001.extensions = {}
@@ -548,6 +560,15 @@ slot2.SC_33102_PORT_LIST_FIELD.has_default_value = false
 slot2.SC_33102_PORT_LIST_FIELD.default_value = {}
 slot2.SC_33102_PORT_LIST_FIELD.type = 13
 slot2.SC_33102_PORT_LIST_FIELD.cpp_type = 3
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.name = "new_flag_port_list"
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.full_name = "p33.sc_33102.new_flag_port_list"
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.number = 6
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.index = 5
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.label = 3
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.has_default_value = false
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.default_value = {}
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.type = 13
+slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD.cpp_type = 3
 SC_33102.name = "sc_33102"
 SC_33102.full_name = "p33.sc_33102"
 SC_33102.nested_types = {}
@@ -557,7 +578,8 @@ SC_33102.fields = {
 	slot2.SC_33102_WORLD_FIELD,
 	slot2.SC_33102_CHAPTER_AWARD_FIELD,
 	slot2.SC_33102_COUNT_INFO_FIELD,
-	slot2.SC_33102_PORT_LIST_FIELD
+	slot2.SC_33102_PORT_LIST_FIELD,
+	slot2.SC_33102_NEW_FLAG_PORT_LIST_FIELD
 }
 SC_33102.is_extendable = false
 SC_33102.extensions = {}

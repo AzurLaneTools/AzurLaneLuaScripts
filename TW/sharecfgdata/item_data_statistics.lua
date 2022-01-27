@@ -6089,6 +6089,27 @@ _G.pg.item_data_statistics[15012] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[15013] = {
+	display = "可用於『世界巡遊』活動中，快速完成巡遊任務，活動結束不會消失",
+	name = "巡遊任務快速完成券",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/15013",
+	id = 15013,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[16001] = {
 	display = "艦艇攻擊教材T1，用於訓練角色攻擊技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇攻擊教材T2</color>",
 	name = "艦艇攻擊教材T1",
@@ -7884,6 +7905,27 @@ _G.pg.item_data_statistics[21003] = {
 	is_world = 0,
 	icon = "Props/21003",
 	id = 21003,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21005] = {
+	display = "{namecode:210}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
+	name = "結晶：{namecode:210}",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21005",
+	id = 21005,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -11191,6 +11233,121 @@ _G.pg.item_data_statistics[30324] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30325] = {
+	display = "可以獲得一件隨機的春節風格外觀裝備",
+	name = "外觀裝備箱(春節)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunjie",
+	id = 30325,
+	display_icon = {
+		{
+			9,
+			380,
+			1
+		},
+		{
+			9,
+			381,
+			1
+		},
+		{
+			9,
+			382,
+			1
+		},
+		{
+			9,
+			383,
+			1
+		},
+		{
+			9,
+			384,
+			1
+		},
+		{
+			9,
+			385,
+			1
+		},
+		{
+			9,
+			386,
+			1
+		},
+		{
+			9,
+			387,
+			1
+		},
+		{
+			9,
+			388,
+			1
+		},
+		{
+			9,
+			389,
+			1
+		},
+		{
+			9,
+			390,
+			1
+		},
+		{
+			9,
+			391,
+			1
+		},
+		{
+			9,
+			392,
+			1
+		},
+		{
+			9,
+			393,
+			1
+		},
+		{
+			9,
+			394,
+			1
+		},
+		{
+			9,
+			395,
+			1
+		},
+		{
+			9,
+			396,
+			1
+		},
+		{
+			9,
+			397,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30327] = {
 	display = "可以獲得一件隨機的偶像大師風格外觀裝備",
 	name = "外觀裝備箱(偶像大師)",
@@ -11418,6 +11575,118 @@ _G.pg.item_data_statistics[30330] = {
 		1,
 		7000
 	},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30501] = {
+	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(夏末)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxiamozixuan",
+	id = 30501,
+	display_icon = {
+		{
+			9,
+			101,
+			1
+		},
+		{
+			9,
+			102,
+			1
+		},
+		{
+			9,
+			103,
+			1
+		},
+		{
+			9,
+			104,
+			1
+		},
+		{
+			9,
+			105,
+			1
+		},
+		{
+			9,
+			106,
+			1
+		},
+		{
+			9,
+			107,
+			1
+		},
+		{
+			9,
+			108,
+			1
+		},
+		{
+			9,
+			109,
+			1
+		},
+		{
+			9,
+			110,
+			1
+		},
+		{
+			9,
+			111,
+			1
+		},
+		{
+			9,
+			112,
+			1
+		},
+		{
+			9,
+			113,
+			1
+		},
+		{
+			9,
+			114,
+			1
+		},
+		{
+			9,
+			115,
+			1
+		},
+		{
+			9,
+			116,
+			1
+		},
+		{
+			9,
+			117,
+			1
+		},
+		{
+			9,
+			118,
+			1
+		}
+	},
+	price = {},
 	index = {}
 }
 
@@ -13383,7 +13652,7 @@ _G.pg.item_data_statistics[40933] = {
 
 _G.pg.item_data_statistics[40934] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・二期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
-	name = "2021春節福袋·I",
+	name = "春節福袋復刻（2021）",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -115687,6 +115956,48 @@ _G.pg.item_data_statistics[59239] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59241] = {
+	display = "參與『世界巡遊』(2022.2.1~3.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59241,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59242] = {
+	display = "不该被看到",
+	name = "通行证一期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 7001,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59242,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59245] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -115745,6 +116056,27 @@ _G.pg.item_data_statistics[59252] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59252,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59263] = {
+	display = "用於『新歲祝福·壬寅』活動兌換，活動結束後將會消失",
+	name = "東煌結",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	id = 59263,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -119916,6 +120248,27 @@ _G.pg.item_data_statistics[60021] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[60022] = {
+	display = "可在「啾啾大酒樓」活動中使用",
+	name = "紅包",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40517,
+	virtual_type = 11,
+	is_world = 0,
+	icon = "props/red_packet2",
+	id = 60022,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[60030] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「M」",
@@ -121728,6 +122081,363 @@ _G.pg.item_data_statistics[60208] = {
 	id = 60208,
 	display_icon = {},
 	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60217] = {
+	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_a",
+	id = 60217,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60218] = {
+	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_b",
+	id = 60218,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60219] = {
+	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_c",
+	id = 60219,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60220] = {
+	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_d",
+	id = 60220,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60221] = {
+	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_e",
+	id = 60221,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60222] = {
+	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_f",
+	id = 60222,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60223] = {
+	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_g",
+	id = 60223,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60224] = {
+	display = "顏料H，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料H",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_h",
+	id = 60224,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60225] = {
+	display = "顏料I，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料I",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40518,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_i",
+	id = 60225,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60226] = {
+	display = "飽含祝福的賀年卡。使用後可以選擇一名特定角色贈送（獲取指定角色）",
+	name = "賀年卡（壬寅）",
+	max_num = 0,
+	type = 21,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60226,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60227] = {
+	display = "由大鳳處收到的，春節賀年卡",
+	name = "大鳳的賀年卡",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60227,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60228] = {
+	display = "由企業處收到的，春節賀年卡",
+	name = "企業的賀年卡",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60228,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60229] = {
+	display = "由貝爾法斯特處收到的，春節賀年卡",
+	name = "貝爾法斯特的賀年卡",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60229,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60230] = {
+	display = "由寧海處收到的，春節賀年卡",
+	name = "寧海的賀年卡",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60230,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60231] = {
+	display = "由平海處收到的，春節賀年卡",
+	name = "平海的賀年卡",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60231,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60232] = {
+	display = "由長春處收到的，春節賀年卡",
+	name = "長春的賀年卡",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60232,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60233] = {
+	display = "由太原處收到的，春節賀年卡",
+	name = "太原的賀年卡",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60233,
+	display_icon = {},
 	index = {}
 }
 
@@ -123572,6 +124282,63 @@ _G.pg.item_data_statistics[81001] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[81002] = {
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
+	name = "2022春節福袋",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai7",
+	id = 81002,
+	display_icon = {
+		{
+			2,
+			86002,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42026,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[86000] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
@@ -123646,6 +124413,50 @@ _G.pg.item_data_statistics[86001] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86001,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[86002] = {
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>6.5%</color>）柴郡換裝 音樂絢爛CaitSith（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.5%</color>）布雷默頓換裝  功夫少女！ （<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.0%</color>）拉·加利索尼埃換裝 春曉醉夢（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.0%</color>）光榮換裝  涼夜香雪（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>4.8%</color>）Z46換裝  剪紙幻夢；
+（<color=#92fc63>4.8%</color>）艾塞克斯換裝  筆墨乾坤；
+（<color=#92fc63>4.8%</color>）路易九世換裝  瑰麗的執勤人；
+（<color=#92fc63>4.8%</color>）勝利換裝  春之女神的引導；
+（<color=#92fc63>4.8%</color>）{namecode:50}換裝  冬雪沁香；
+（<color=#92fc63>4.8%</color>）確捷換裝 白玉佳人；
+（<color=#92fc63>4.2%</color>）伯明罕換裝  瑞雪豐年；
+（<color=#92fc63>4.2%</color>）薩拉托加換裝  偶像迎春！ ；
+（<color=#92fc63>4.2%</color>）伊莉莎白女王換裝  皇家進寶；
+（<color=#92fc63>4.2%</color>）螢火蟲換裝  鐵面無私螢火蟲！ ；
+（<color=#92fc63>4.2%</color>）{namecode:73}換裝  雅緻墨香；
+（<color=#92fc63>4.2%</color>）伊25換裝  甘美的新春祝福；
+（<color=#92fc63>4.2%</color>）{namecode:146}換裝  新春福至；
+（<color=#92fc63>4.2%</color>）肇和換裝  花枝映荷；
+（<color=#92fc63>4.2%</color>）佩內洛珀換裝  嫣紅深閨；
+（<color=#92fc63>4.2%</color>）U-410換裝  寒梅映春；
+（<color=#92fc63>4.2%</color>）黑太子換裝 Fairmaid·Spring]],
+	name = "隨機換裝",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86002,
 	display_icon = {},
 	price = {},
 	index = {}

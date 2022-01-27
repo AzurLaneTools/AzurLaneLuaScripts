@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "张贴春联时，发现了混在其中的图纸，获得了【四星装备设计图纸*6】",
+			say = "張貼春聯時，發現了混在其中的圖紙，獲得了【四星裝備設計圖紙*6】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,5 +1,121 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
+	[201321] = {
+		ship_group = 20132,
+		name = "海邊的“問題兒童”",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 201321,
+		group_index = 1,
+		prefab = "aisijimo_2",
+		painting = "aisijimo_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70382,
+		shop_type_id = 6,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "唔，其他人都有自己的事，都沒人陪我玩呢…咦，這裡有隻小傢伙…呼呼，就用這個捉弄一下它，讓小傢伙陪我玩好了~",
+		voice_actor = 248,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.27,
+					1.05,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.278,
+					1.032,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.019,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.219,
+					1.098,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.32,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201330] = {
 		ship_group = 20133,
 		name = "伊卡洛斯",
@@ -6863,10 +6979,10 @@ pg.ship_skin_template_6 = {
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
-		no_showing = "1",
+		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "虽、虽然尝试了东煌风格的打扮，不过…果然我还是不适合这种华丽的服装吧…欸？很、很吸引人？！谢、谢谢你，指挥官，即便只是安慰我也很满足了…",
+		desc = "雖、雖然嘗試了東煌風格的打扮，不過…果然我還是不適合這種華麗的服裝吧…欸？很、很吸引人？！謝、謝謝你，指揮官，即便只是安慰我也很滿足了…",
 		voice_actor = 188,
 		spine_offset = "",
 		gyro = 0,

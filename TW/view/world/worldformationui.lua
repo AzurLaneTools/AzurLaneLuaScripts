@@ -39,7 +39,6 @@ function slot0.init(slot0)
 	end
 
 	slot0._heroContainer = slot0:findTF("HeroContainer")
-	slot0._attachmentList = {}
 	slot0._fleetInfo = slot0:findTF("blur_container/fleet_info")
 	slot0._fleetNumText = slot0:findTF("blur_container/fleet_info/fleet_number")
 	slot0._fleetNameText = slot0:findTF("blur_container/fleet_info/fleet_name/Text")
@@ -290,64 +289,50 @@ function slot0.loadAllCharacter(slot0)
 			setText(slot11:Find("text"), string.format("EXP +%s%%", slot14))
 		end
 
-		tf(slot0):SetParent(slot4, false)
+		slot12 = tf(slot0)
+
+		slot12:SetParent(slot4, false)
 
 		slot0.name = "model"
 		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
-
-		for slot17, slot18 in pairs(slot1:getAttachmentPrefab()) do
-			if slot18.attachment_combat_ui[1] ~= "" then
-				ResourceMgr.Inst:getAssetAsync("Effect/" .. slot19, slot19, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-					if not uv0.exited then
-						slot1 = Object.Instantiate(slot0)
-						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
-
-						tf(slot1):SetParent(tf(uv1))
-
-						tf(slot1).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
-					end
-				end), true, true)
-			end
-		end
-
 		slot12.localScale = Vector3(0.8, 0.8, 1)
 
 		pg.ViewUtils.SetLayer(slot12, Layer.UI)
 		slot5:SetSiblingIndex(2)
 
 		uv0._characterList[slot2][slot3] = slot4
-		slot15 = GameObject("mouseChild")
+		slot14 = GameObject("mouseChild")
 
-		tf(slot15):SetParent(tf(slot0))
+		tf(slot14):SetParent(tf(slot0))
 
-		tf(slot15).localPosition = Vector3.zero
-		slot16 = GetOrAddComponent(slot15, "ModelDrag")
-		slot17 = GetOrAddComponent(slot15, "UILongPressTrigger")
-		slot18 = GetOrAddComponent(slot15, "EventTriggerListener")
-		uv0.eventTriggers[slot18] = true
+		tf(slot14).localPosition = Vector3.zero
+		slot15 = GetOrAddComponent(slot14, "ModelDrag")
+		slot16 = GetOrAddComponent(slot14, "UILongPressTrigger")
+		slot17 = GetOrAddComponent(slot14, "EventTriggerListener")
+		uv0.eventTriggers[slot17] = true
 
-		slot16:Init()
+		slot15:Init()
 
-		slot19 = slot15:GetComponent(typeof(RectTransform))
-		slot19.sizeDelta = Vector2(3, 3)
-		slot19.pivot = Vector2(0.5, 0)
-		slot19.anchoredPosition = Vector2(0, 0)
-		slot17.longPressThreshold = 1
+		slot18 = slot14:GetComponent(typeof(RectTransform))
+		slot18.sizeDelta = Vector2(3, 3)
+		slot18.pivot = Vector2(0.5, 0)
+		slot18.anchoredPosition = Vector2(0, 0)
+		slot16.longPressThreshold = 1
 
-		pg.DelegateInfo.Add(uv0, slot17.onLongPressed)
-		slot17.onLongPressed:AddListener(function ()
+		pg.DelegateInfo.Add(uv0, slot16.onLongPressed)
+		slot16.onLongPressed:AddListener(function ()
 			uv0:emit(WorldFormationMediator.OnOpenShip, uv1, uv2.TOGGLE_FORMATION)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end)
 
-		slot20, slot21, slot22, slot23 = nil
+		slot19, slot20, slot21, slot22 = nil
 
-		pg.DelegateInfo.Add(uv0, slot16.onModelClick)
-		slot16.onModelClick:AddListener(function ()
-			uv0:emit(WorldFormationMediator.OnChangeShip, uv0.fleet, uv1)
+		pg.DelegateInfo.Add(uv0, slot15.onModelClick)
+		slot15.onModelClick:AddListener(function ()
+			uv0:emit(WorldFormationMediator.OnChangeShip, uv0.fleet, uv1, uv2)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end)
-		slot18:AddBeginDragFunc(function ()
+		slot17:AddBeginDragFunc(function ()
 			if uv0._modelDrag then
 				return
 			end
@@ -366,14 +351,14 @@ function slot0.loadAllCharacter(slot0)
 			SetActive(uv9, false)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 		end)
-		slot18:AddDragFunc(function (slot0, slot1)
+		slot17:AddDragFunc(function (slot0, slot1)
 			if uv0._modelDrag ~= uv1 then
 				return
 			end
 
 			uv2.localPosition = Vector3(slot1.position.x * uv3 - uv4, slot1.position.y * uv5 - uv6, -22)
 		end)
-		slot18:AddDragEndFunc(function (slot0, slot1)
+		slot17:AddDragEndFunc(function (slot0, slot1)
 			if uv0._modelDrag ~= uv1 then
 				return
 			end
@@ -1103,18 +1088,8 @@ function slot0.willExit(slot0)
 
 	slot0:recycleCharacterList(slot0.fleet:GetTeamShipVOs(TeamType.Main, true), slot0._characterList[TeamType.Main])
 	slot0:recycleCharacterList(slot0.fleet:GetTeamShipVOs(TeamType.Vanguard, true), slot0._characterList[TeamType.Vanguard])
-
-	slot5 = TeamType.Submarine
-	slot4 = slot0._characterList[slot5]
-
-	slot0:recycleCharacterList(slot0.fleet:GetTeamShipVOs(TeamType.Submarine, true), slot4)
+	slot0:recycleCharacterList(slot0.fleet:GetTeamShipVOs(TeamType.Submarine, true), slot0._characterList[TeamType.Submarine])
 	slot0:recyclePainting()
-
-	for slot4, slot5 in ipairs(slot0._attachmentList) do
-		Object.Destroy(slot5)
-	end
-
-	slot0._attachmentList = nil
 
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)

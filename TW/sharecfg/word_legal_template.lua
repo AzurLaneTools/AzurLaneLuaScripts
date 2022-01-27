@@ -3012,6 +3012,9 @@ function temp()
 		},
 		["通"] = {
 			this = true
+		},
+		["速"] = {
+			this = true
 		}
 	}
 end
@@ -3470,6 +3473,17 @@ function temp()
 				["改"] = {
 					this = true
 				}
+			},
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3909,6 +3923,11 @@ function temp()
 			["4"] = {
 				["7"] = {
 					this = true
+				},
+				["1"] = {
+					["0"] = {
+						this = true
+					}
 				}
 			},
 			["5"] = {
@@ -4574,6 +4593,40 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["佩"] = {
+		["內"] = {
+			["洛"] = {
+				["珀"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["應"] = {
+		["瑞"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["肇"] = {
+		["和"] = {
+			this = true
 		}
 	}
 end

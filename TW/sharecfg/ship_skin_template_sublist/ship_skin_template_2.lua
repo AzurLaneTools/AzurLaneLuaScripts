@@ -1,114 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101352] = {
-		ship_group = 10135,
-		name = "炫目的賽場之星",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "132",
-		id = 101352,
-		group_index = 2,
-		prefab = "beiqi_3",
-		painting = "beiqi_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70340,
-		shop_type_id = 13,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "鏘啦啦啦！閃耀賽場的網球選手貝奇，登場啦！ ……喂，指揮官，別愣著啦，趕緊像現場的觀眾們那樣給貝奇喝彩啦！",
-		voice_actor = 204,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.208,
-					1.073,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.24,
-					1.115,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.25,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101360] = {
 		ship_group = 10136,
 		name = "霍比",
@@ -5496,19 +5387,7 @@ pg.ship_skin_template_2 = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			mail = 1.07,
-			login = 17,
-			main_1 = 0.73,
-			mission_complete = 2.93,
-			expedition = 0.6,
-			propose = 3.06,
-			home = 3.87,
-			mission = 0.9,
-			touch2 = 0.73,
-			task = 0.9,
-			main_2 = 0.73,
-			touch = 0.73,
-			main_3 = 0.73
+			use_event = true
 		},
 		l2d_para_range = {
 			ParamAngleX = {
@@ -7110,6 +6989,220 @@ pg.ship_skin_template_2 = {
 				{
 					1.519,
 					1.108,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102210] = {
+		ship_group = 10221,
+		name = "小聖地牙哥",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102210,
+		group_index = 0,
+		prefab = "shengdiyage_younv",
+		painting = "shengdiyage_younv",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "亞特蘭大級輕巡洋艦—聖地牙哥，舷號CL-53",
+		voice_actor = 5,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.037,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.92,
+					0.91,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102220] = {
+		ship_group = 10222,
+		name = "聖胡安",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102220,
+		group_index = 0,
+		prefab = "shenghuan",
+		painting = "shenghuan",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "亞特蘭大級輕巡洋艦—聖胡安，舷號CL-54",
+		voice_actor = 205,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.972,
+					1.083,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.086,
+					0.023,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.92,
+					1.084,
 					0
 				}
 			}

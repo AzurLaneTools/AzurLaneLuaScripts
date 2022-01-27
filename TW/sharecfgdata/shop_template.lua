@@ -2825,6 +2825,32 @@ _G.pg.shop_template[31974] = {
 	}
 }
 
+_G.pg.shop_template[31976] = {
+	is_auto_use = 1,
+	resource_type = 1,
+	genre = "shopping_street",
+	type = 2,
+	desc = "7000物资兑换1个春节外观装备箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 31976,
+	resource_num = 7000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30325
+	}
+}
+
 _G.pg.shop_template[31977] = {
 	is_auto_use = 1,
 	resource_type = 1,
@@ -9742,6 +9768,118 @@ _G.pg.shop_template[60226] = {
 	}
 }
 
+_G.pg.shop_template[60230] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "980钻石购买限时礼包-比翼双飞（2021春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60230,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[60231] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "980钻石购买限时建造补给（2021春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60231,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.shop_template[60240] = {
 	is_auto_use = 1,
 	resource_type = 14,
@@ -10824,6 +10962,32 @@ _G.pg.shop_template[61016] = {
 	},
 	effect_args = {
 		15008
+	}
+}
+
+_G.pg.shop_template[61017] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "",
+	type = 2,
+	desc = "30钻石购买一张巡游任务快速完成券",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 61017,
+	resource_num = 30,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		15013
 	}
 }
 
@@ -17717,10 +17881,11 @@ _G.pg.shop_template[70146] = {
 	desc = "購買造型：貝爾法斯特旗袍",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 330,
+	order = 1100,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -17731,32 +17896,6 @@ _G.pg.shop_template[70146] = {
 	limit_args = {},
 	effect_args = {
 		202121
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -17768,10 +17907,11 @@ _G.pg.shop_template[70147] = {
 	desc = "購買造型：拉菲春節",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 390,
+	order = 1300,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -17782,32 +17922,6 @@ _G.pg.shop_template[70147] = {
 	limit_args = {},
 	effect_args = {
 		101173
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -17819,10 +17933,11 @@ _G.pg.shop_template[70148] = {
 	desc = "購買造型：太原-春節",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 390,
+	order = 1300,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -17833,32 +17948,6 @@ _G.pg.shop_template[70148] = {
 	limit_args = {},
 	effect_args = {
 		501041
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -17870,10 +17959,11 @@ _G.pg.shop_template[70149] = {
 	desc = "購買造型：企業-春節",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 480,
+	order = 1600,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -17884,32 +17974,6 @@ _G.pg.shop_template[70149] = {
 	limit_args = {},
 	effect_args = {
 		107062
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -17939,9 +18003,9 @@ _G.pg.shop_template[70150] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -17951,9 +18015,9 @@ _G.pg.shop_template[70150] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -17990,9 +18054,9 @@ _G.pg.shop_template[70151] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -18002,9 +18066,9 @@ _G.pg.shop_template[70151] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -18023,10 +18087,11 @@ _G.pg.shop_template[70152] = {
 	desc = "購買造型：夕暮旗袍",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18037,32 +18102,6 @@ _G.pg.shop_template[70152] = {
 	limit_args = {},
 	effect_args = {
 		301262
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -18074,10 +18113,11 @@ _G.pg.shop_template[70153] = {
 	desc = "購買造型：綾波春節",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18088,32 +18128,6 @@ _G.pg.shop_template[70153] = {
 	limit_args = {},
 	effect_args = {
 		301054
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -18125,10 +18139,11 @@ _G.pg.shop_template[70154] = {
 	desc = "購買造型：列星頓旗袍",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18139,32 +18154,6 @@ _G.pg.shop_template[70154] = {
 	limit_args = {},
 	effect_args = {
 		107021
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -18176,10 +18165,11 @@ _G.pg.shop_template[70156] = {
 	desc = "購買造型：馬拉尼旗袍",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18190,32 +18180,6 @@ _G.pg.shop_template[70156] = {
 	limit_args = {},
 	effect_args = {
 		101392
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -18227,10 +18191,11 @@ _G.pg.shop_template[70157] = {
 	desc = "購買造型：庫拉索旗袍",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18241,32 +18206,6 @@ _G.pg.shop_template[70157] = {
 	limit_args = {},
 	effect_args = {
 		202211
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -18278,10 +18217,11 @@ _G.pg.shop_template[70158] = {
 	desc = "購買造型：杓鷸旗袍",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18292,32 +18232,6 @@ _G.pg.shop_template[70158] = {
 	limit_args = {},
 	effect_args = {
 		202221
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -18329,10 +18243,11 @@ _G.pg.shop_template[70159] = {
 	desc = "購買造型：追趕者春節",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18343,32 +18258,6 @@ _G.pg.shop_template[70159] = {
 	limit_args = {},
 	effect_args = {
 		206051
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				30
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24000,9 +23889,9 @@ _G.pg.shop_template[70288] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24012,9 +23901,9 @@ _G.pg.shop_template[70288] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24051,9 +23940,9 @@ _G.pg.shop_template[70289] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24063,9 +23952,9 @@ _G.pg.shop_template[70289] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24612,9 +24501,9 @@ _G.pg.shop_template[70300] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24624,9 +24513,9 @@ _G.pg.shop_template[70300] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24663,9 +24552,9 @@ _G.pg.shop_template[70301] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24675,9 +24564,9 @@ _G.pg.shop_template[70301] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24714,9 +24603,9 @@ _G.pg.shop_template[70302] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24726,9 +24615,9 @@ _G.pg.shop_template[70302] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24765,9 +24654,9 @@ _G.pg.shop_template[70303] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				30
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24777,9 +24666,60 @@ _G.pg.shop_template[70303] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70304] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：确捷旗袍",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 150,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70304,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202232
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24816,9 +24756,9 @@ _G.pg.shop_template[70305] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24828,9 +24768,9 @@ _G.pg.shop_template[70305] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24867,9 +24807,9 @@ _G.pg.shop_template[70306] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24879,9 +24819,9 @@ _G.pg.shop_template[70306] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24918,9 +24858,9 @@ _G.pg.shop_template[70307] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24930,9 +24870,60 @@ _G.pg.shop_template[70307] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70308] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：黑太子旗袍",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70308,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202242
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -24969,9 +24960,9 @@ _G.pg.shop_template[70309] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -24981,9 +24972,9 @@ _G.pg.shop_template[70309] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -25020,9 +25011,9 @@ _G.pg.shop_template[70310] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -25032,9 +25023,9 @@ _G.pg.shop_template[70310] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -25071,9 +25062,9 @@ _G.pg.shop_template[70311] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -25083,9 +25074,9 @@ _G.pg.shop_template[70311] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -25122,9 +25113,9 @@ _G.pg.shop_template[70312] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				30
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -25134,9 +25125,9 @@ _G.pg.shop_template[70312] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -25173,9 +25164,9 @@ _G.pg.shop_template[70313] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				1,
+				27
 			},
 			{
 				0,
@@ -25185,9 +25176,9 @@ _G.pg.shop_template[70313] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				2,
+				9
 			},
 			{
 				23,
@@ -31527,6 +31518,975 @@ _G.pg.shop_template[70479] = {
 	}
 }
 
+_G.pg.shop_template[70481] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:柴郡旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 100,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70481,
+	resource_num = 1200,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		299032
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70482] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:布莱默顿旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 100,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70482,
+	resource_num = 1200,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		103242
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70483] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:Z46春节(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 150,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70483,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		401464
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70484] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:埃塞克斯春节(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 150,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70484,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		107093
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70485] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:路易九世旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 150,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70485,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		899012
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70486] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:胜利旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 150,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70486,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		207042
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70488] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:能代旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 150,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70488,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		302213
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70489] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:拉-加利索尼耶旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 120,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70489,
+	resource_num = 1100,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		902012
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70490] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:光荣旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 120,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70490,
+	resource_num = 1100,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		207062
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70491] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:大潮旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70491,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301643
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70492] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:伯明翰春节(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70492,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		102232
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70494] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:萨拉托加旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70494,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		107036
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70495] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:傻白旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70495,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		205014
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70496] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:萤火虫旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70496,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		201141
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70497] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:雾岛旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70497,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		304044
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70498] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:伊25旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70498,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		308042
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70499] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:肇和旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70499,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		502051
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70500] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:佩内洛珀旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70500,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202291
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70501] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:U410旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70501,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		408111
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.shop_template[70523] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -33609,6 +34569,159 @@ _G.pg.shop_template[90069] = {
 				2022,
 				1,
 				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[90073] = {
+	is_auto_use = 0,
+	resource_type = 185,
+	genre = "skin_shop_timelimit",
+	type = 6,
+	desc = "限时皮肤体验：柴郡旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90073,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		299032
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[90074] = {
+	is_auto_use = 0,
+	resource_type = 185,
+	genre = "skin_shop_timelimit",
+	type = 6,
+	desc = "限时皮肤体验：布莱默顿旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90074,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		103242
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[90075] = {
+	is_auto_use = 0,
+	resource_type = 185,
+	genre = "skin_shop_timelimit",
+	type = 6,
+	desc = "限时皮肤体验：肇和旗袍(204春节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90075,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		502051
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				27
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				2,
+				9
 			},
 			{
 				23,

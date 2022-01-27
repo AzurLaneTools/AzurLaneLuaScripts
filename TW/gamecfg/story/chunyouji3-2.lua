@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "带领走丢的大宝找到了宁海，获得了奖励【心智单元*50】",
+			say = "帶領走丟的大寶找到了寧海，獲得了獎勵【心智單元*50】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

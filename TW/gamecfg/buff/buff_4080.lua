@@ -11,6 +11,26 @@ return {
 					attr = "dodgeRateExtra",
 					number = 0.2
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -25,6 +45,26 @@ return {
 				arg_list = {
 					attr = "dodgeRateExtra",
 					number = 0.222
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -41,6 +81,26 @@ return {
 					attr = "dodgeRateExtra",
 					number = 0.244
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -55,6 +115,26 @@ return {
 				arg_list = {
 					attr = "dodgeRateExtra",
 					number = 0.266
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -71,6 +151,26 @@ return {
 					attr = "dodgeRateExtra",
 					number = 0.288
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -85,6 +185,26 @@ return {
 				arg_list = {
 					attr = "dodgeRateExtra",
 					number = 0.31
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -101,6 +221,26 @@ return {
 					attr = "dodgeRateExtra",
 					number = 0.332
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -115,6 +255,26 @@ return {
 				arg_list = {
 					attr = "dodgeRateExtra",
 					number = 0.354
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -131,6 +291,26 @@ return {
 					attr = "dodgeRateExtra",
 					number = 0.376
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -145,6 +325,26 @@ return {
 				arg_list = {
 					attr = "dodgeRateExtra",
 					number = 0.4
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -176,6 +376,26 @@ return {
 			arg_list = {
 				attr = "dodgeRateExtra",
 				number = 0.2
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 62,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				skill_id = 63,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -824,5 +824,17 @@ pg.activity_const = {
 	},
 	BUILDING_NEWYEAR_2022 = {
 		act_id = 4202
+	},
+	MINIGAME_SPRINGFESTIVAL_2022 = {
+		act_id = 40522
+	},
+	ANSHAN_CHANGCHUN_GAIZAO_ID = {
+		act_id = 4229
+	},
+	SPRING_FESTIVAL_CARD_2022_ID = {
+		act_id = 40520
+	},
+	SPRING_FESTIVAL_PT_2022_ID = {
+		act_id = 40511
 	}
 }

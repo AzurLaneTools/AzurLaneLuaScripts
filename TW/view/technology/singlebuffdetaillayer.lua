@@ -124,7 +124,7 @@ function slot0.updateDetail(slot0)
 			setActive(slot2, true)
 		end
 	end)
-	slot6:align(#pg.fleet_tech_ship_template[slot0.groupID].add_get_shiptype)
+	slot6:align(#ShipType.FilterOverQuZhuType(pg.fleet_tech_ship_template[slot0.groupID].add_get_shiptype))
 
 	slot8 = pg.fleet_tech_ship_template[slot0.groupID].add_level_attr
 	slot9 = pg.fleet_tech_ship_template[slot0.groupID].add_level_value
@@ -162,7 +162,7 @@ function slot0.updateDetail(slot0)
 			setActive(slot2, true)
 		end
 	end)
-	slot10:align(#pg.fleet_tech_ship_template[slot0.groupID].add_level_shiptype)
+	slot10:align(#ShipType.FilterOverQuZhuType(pg.fleet_tech_ship_template[slot0.groupID].add_level_shiptype))
 end
 
 return slot0

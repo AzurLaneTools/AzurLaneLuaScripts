@@ -42,11 +42,9 @@ function slot0.netUpdateData(slot0, slot1)
 			end)
 		end
 
-		slot4 = uv1[slot1] or {}
+		slot3:setDrops(uv1[slot1] or {})
 
-		slot3:setDrops(slot4)
-
-		if #slot4 > 0 then
+		if slot2 > 0 and #slot4 > 0 then
 			slot3:setState(ColorGroup.StateAchieved)
 		elseif slot1 < uv0.id or slot3:isAllFill() then
 			slot3:setState(ColorGroup.StateFinish)

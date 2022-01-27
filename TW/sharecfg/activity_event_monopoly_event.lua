@@ -195,6 +195,182 @@ pg.activity_event_monopoly_event = {
 			3
 		}
 	},
+	[301] = {
+		id = 301,
+		drop = 94573,
+		story = "0",
+		effect = {}
+	},
+	[302] = {
+		id = 302,
+		drop = 94574,
+		story = "0",
+		effect = {}
+	},
+	[303] = {
+		id = 303,
+		drop = 94598,
+		story = "0",
+		effect = {}
+	},
+	[304] = {
+		id = 304,
+		drop = 94575,
+		story = "CHUNYOUJI1-1",
+		effect = {}
+	},
+	[305] = {
+		id = 305,
+		drop = 94576,
+		story = "CHUNYOUJI1-2",
+		effect = {}
+	},
+	[306] = {
+		id = 306,
+		drop = 94577,
+		story = "CHUNYOUJI1-3",
+		effect = {}
+	},
+	[307] = {
+		id = 307,
+		drop = 94578,
+		story = "0",
+		effect = {}
+	},
+	[308] = {
+		id = 308,
+		drop = 94579,
+		story = "CHUNYOUJI2-1",
+		effect = {}
+	},
+	[309] = {
+		id = 309,
+		drop = 94580,
+		story = "CHUNYOUJI2-2",
+		effect = {}
+	},
+	[310] = {
+		id = 310,
+		drop = 94581,
+		story = "CHUNYOUJI2-3",
+		effect = {}
+	},
+	[311] = {
+		id = 311,
+		drop = 94582,
+		story = "CHUNYOUJI3-1",
+		effect = {}
+	},
+	[312] = {
+		id = 312,
+		drop = 94583,
+		story = "CHUNYOUJI3-2",
+		effect = {}
+	},
+	[313] = {
+		id = 313,
+		drop = 94584,
+		story = "CHUNYOUJI3-3",
+		effect = {}
+	},
+	[314] = {
+		id = 314,
+		drop = 94585,
+		story = "CHUNYOUJI4-1",
+		effect = {}
+	},
+	[315] = {
+		id = 315,
+		drop = 94586,
+		story = "CHUNYOUJI4-2",
+		effect = {}
+	},
+	[316] = {
+		id = 316,
+		drop = 94587,
+		story = "CHUNYOUJI4-3",
+		effect = {}
+	},
+	[317] = {
+		id = 317,
+		drop = 94588,
+		story = "CHUNYOUJI5-1",
+		effect = {}
+	},
+	[318] = {
+		id = 318,
+		drop = 94589,
+		story = "CHUNYOUJI5-2",
+		effect = {}
+	},
+	[319] = {
+		id = 319,
+		drop = 94590,
+		story = "CHUNYOUJI5-3",
+		effect = {}
+	},
+	[320] = {
+		id = 320,
+		drop = 94591,
+		story = "CHUNYOUJI6-4",
+		effect = {}
+	},
+	[321] = {
+		id = 321,
+		drop = 94592,
+		story = "CHUNYOUJI6-5",
+		effect = {}
+	},
+	[322] = {
+		id = 322,
+		drop = 94593,
+		story = "CHUNYOUJI6-6",
+		effect = {}
+	},
+	[323] = {
+		id = 323,
+		drop = 94594,
+		story = "CHUNYOUJI6-1",
+		effect = {}
+	},
+	[324] = {
+		id = 324,
+		drop = 94595,
+		story = "CHUNYOUJI6-2",
+		effect = {}
+	},
+	[325] = {
+		id = 325,
+		drop = 94596,
+		story = "CHUNYOUJI6-3",
+		effect = {}
+	},
+	[326] = {
+		id = 326,
+		drop = 94597,
+		story = "CHUNYOUJI7-1",
+		effect = {}
+	},
+	[327] = {
+		id = 327,
+		drop = 0,
+		story = "0",
+		effect = {}
+	},
+	[328] = {
+		id = 328,
+		drop = 0,
+		story = "0",
+		effect = {}
+	},
+	[329] = {
+		id = 329,
+		drop = 0,
+		story = "CHUNYOUJI8-1",
+		effect = {
+			"reroll"
+		}
+	},
 	[401] = {
 		id = 401,
 		drop = 96480,
@@ -452,6 +628,35 @@ pg.activity_event_monopoly_event = {
 		129,
 		130,
 		131,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
 		401,
 		402,
 		403,

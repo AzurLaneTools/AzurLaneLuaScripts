@@ -243,18 +243,6 @@ function slot0.updatePage(slot0)
 		end
 	end
 
-	if getProxy(ColoringProxy):IsALLAchieve() then
-		slot4 = slot0.loader
-
-		slot4:GetSpriteDirect("ui/coloring_atlas", "painting_got", function (slot0)
-			if not slot0 then
-				return
-			end
-
-			setImageSprite(uv0.painting, slot0)
-		end, slot0.painting)
-	end
-
 	slot0:TryPlayStory()
 end
 

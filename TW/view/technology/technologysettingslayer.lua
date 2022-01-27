@@ -2,7 +2,8 @@ slot0 = class("TechnologySettingsLayer", import("..base.BaseUI"))
 slot0.TEC_PAGE_TENDENCY = 1
 slot0.TEC_PAGE_CATCHUP_TARGET1 = 2
 slot0.TEC_PAGE_CATCHUP_TARGET2 = 3
-slot0.TEC_PAGE_CATCHUP_ACT = 4
+slot0.TEC_PAGE_CATCHUP_TARGET3 = 4
+slot0.TEC_PAGE_CATCHUP_ACT = 5
 slot0.PANEL_INTO_TIME = 0.15
 slot0.SELECT_TENDENCY_FADE_TIME = 0.3
 slot0.SELECT_CHAR_LIGHT_FADE_TIME = 0.3
@@ -101,13 +102,15 @@ function slot0.findUI(slot0)
 	slot0.tendencyBtn = slot0:findTF("TendencyBtn", slot3)
 	slot0.catchupBtns = {
 		slot0:findTF("TargetCatchupBtn1", slot3),
-		slot0:findTF("TargetCatchupBtn2", slot3)
+		slot0:findTF("TargetCatchupBtn2", slot3),
+		slot0:findTF("TargetCatchupBtn3", slot3)
 	}
 	slot0.actCatchupBtn = slot0:findTF("ActCatchupBtn", slot3)
 	slot0.leftBtnList = {
 		[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyBtn,
 		[uv0.TEC_PAGE_CATCHUP_TARGET1] = slot0.catchupBtns[1],
 		[uv0.TEC_PAGE_CATCHUP_TARGET2] = slot0.catchupBtns[2],
+		[uv0.TEC_PAGE_CATCHUP_TARGET3] = slot0.catchupBtns[3],
 		[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupBtn
 	}
 	slot4 = slot0:findTF("RightPanelContainer", slot2)
@@ -130,6 +133,7 @@ function slot0.findUI(slot0)
 
 	if uv0.CATCHUP_VERSION < 2 then
 		setActive(slot0.catchupBtns[2], false)
+		setActive(slot0.catchupBtns[3], false)
 	end
 
 	if uv0.CATCHUP_VERSION < 1 then
@@ -310,7 +314,7 @@ function slot0.updateTargetCatchupBtns(slot0)
 				slot17 = slot14.printNum
 				slot18 = pg.technology_catchup_template[slot14.tecID].obtain_max
 
-				for slot22, slot23 in ipairs(slot0.catchupPanels[slot4].UR_LIST) do
+				for slot22, slot23 in ipairs(slot0.catchupPanels[slot4].urList) do
 					if slot16 == slot23 then
 						slot18 = pg.technology_catchup_template[slot15].obtain_max_per_ur
 					end

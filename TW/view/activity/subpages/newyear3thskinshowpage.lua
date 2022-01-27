@@ -15,7 +15,7 @@ function slot0.findUI(slot0)
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SPRING_TOWN)
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SPRING_FESTIVAL_BACKHILL_2022)
 	end, SFX_PANEL)
 end
 

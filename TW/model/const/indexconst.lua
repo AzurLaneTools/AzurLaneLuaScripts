@@ -673,17 +673,20 @@ slot0.EquipSkinIndexAll = 1
 slot0.EquipSkinIndexCannon = 2
 slot0.EquipSkinIndexTarpedo = 3
 slot0.EquipSkinIndexAircraft = 4
+slot0.EquipSkinIndexAux = 5
 slot0.EquipSkinIndexTypes = {
 	slot0.EquipSkinIndexAll,
 	slot0.EquipSkinIndexCannon,
 	slot0.EquipSkinIndexTarpedo,
-	slot0.EquipSkinIndexAircraft
+	slot0.EquipSkinIndexAircraft,
+	slot0.EquipSkinIndexAux
 }
 slot0.EquipSkinIndexNames = {
 	i18n("word_equipskin_all"),
 	i18n("word_equipskin_cannon"),
 	i18n("word_equipskin_tarpedo"),
-	i18n("word_equipskin_aircraft")
+	i18n("word_equipskin_aircraft"),
+	i18n("word_equipskin_aux")
 }
 slot0.EquipSkinThemeAll = 1
 slot0.EquipSkinThemeEnd = nil
@@ -721,7 +724,8 @@ function slot0.filterEquipSkinByIndex(slot0, slot1)
 		1,
 		2,
 		3,
-		4
+		4,
+		5
 	}
 
 	for slot7, slot8 in ipairs(uv0.EquipSkinIndexTypes) do
@@ -786,7 +790,9 @@ slot0.shipType2Index = {
 	nil,
 	7,
 	3,
-	8
+	8,
+	1,
+	1
 }
 
 function slot0.filterByIndex(slot0, slot1)
@@ -796,7 +802,11 @@ function slot0.filterByIndex(slot0, slot1)
 
 	slot2 = slot0:getTeamType()
 
-	if bit.band(slot1, bit.lshift(1, uv0.IndexVanguard)) > 0 and slot2 == TeamType.Vanguard or bit.band(slot1, bit.lshift(1, uv0.IndexMain)) > 0 and slot2 == TeamType.Main then
+	if bit.band(slot1, bit.lshift(1, uv0.IndexVanguard)) > 0 and (slot2 == TeamType.Vanguard or slot0:getShipType() == ShipType.DaoQuV) then
+		return true
+	end
+
+	if bit.band(slot1, bit.lshift(1, uv0.IndexMain)) > 0 and (slot2 == TeamType.Main or slot0:getShipType() == ShipType.DaoQuM) then
 		return true
 	end
 

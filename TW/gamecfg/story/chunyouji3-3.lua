@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "参加春节演出获得大人气，获得了奖励【心智单元*150】",
+			say = "參加春節演出獲得大人氣，獲得了獎勵【心智單元*150】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

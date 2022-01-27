@@ -112,6 +112,12 @@ function slot0.filterByType(slot0, slot1)
 			slot7 = ShipIndexCfg.type[slot5].types
 
 			if slot5 < 4 then
+				slot8 = ShipIndexCfg.type[slot5].shipTypes
+
+				if table.contains(slot7, slot0:getShipType()) then
+					return true
+				end
+
 				if table.contains(slot7, slot0:getTeamType()) then
 					return true
 				end
@@ -241,6 +247,7 @@ slot0.ExtraIndexs = {
 	slot0.ExtraUpgrade,
 	slot0.ExtraNotMaxLv,
 	slot0.ExtraAwakening,
+	slot0.ExtraAwakening2,
 	slot0.ExtraSpecial,
 	slot0.ExtraProposeSkin
 }
@@ -256,6 +263,7 @@ slot0.ExtraNames = {
 	"index_upgrade",
 	"index_not_lvmax",
 	"index_awakening",
+	"index_awakening2",
 	"index_special",
 	"index_propose_skin"
 }

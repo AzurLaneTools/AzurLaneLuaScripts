@@ -336,6 +336,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[136] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "使用{namecode:221}获得1次胜利",
+		id = 136,
+		target_num = 1,
+		target_id = "0"
+	},
+	[137] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "使用{namecode:221}击破等级>30的敌方1次",
+		id = 137,
+		target_num = 1,
+		target_id = "30"
+	},
+	[138] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "使用{namecode:221}击破等级>55的敌方1次",
+		id = 138,
+		target_num = 1,
+		target_id = "55"
+	},
+	[139] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "使用{namecode:221}击破等级>80的敌方1次",
+		id = 139,
+		target_num = 1,
+		target_id = "80"
+	},
+	[140] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "使用{namecode:221}击破等级>100的敌方1次",
+		id = 140,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -560,6 +600,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[228] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:221}获得1次胜利",
+		id = 228,
+		target_num = 1,
+		target_id = "0"
+	},
+	[229] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:221}击破等级>70的敌方1次",
+		id = 229,
+		target_num = 1,
+		target_id = "70"
+	},
+	[230] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:221}击破等级>90的敌方1次",
+		id = 230,
+		target_num = 1,
+		target_id = "90"
+	},
+	[231] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:221}击破等级>100的敌方1次",
+		id = 231,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -619,6 +691,11 @@ pg.task_meta_data_template = {
 		133,
 		134,
 		135,
+		136,
+		137,
+		138,
+		139,
+		140,
 		200,
 		201,
 		202,
@@ -647,6 +724,10 @@ pg.task_meta_data_template = {
 		225,
 		226,
 		227,
+		228,
+		229,
+		230,
+		231,
 		301,
 		302
 	}

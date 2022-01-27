@@ -680,6 +680,16 @@ pg.player_resource = {
 		name = "dexiur_pt",
 		itemid = 59258
 	},
+	[234] = {
+		id = 234,
+		name = "chunjie_pt2",
+		itemid = 59263
+	},
+	[235] = {
+		id = 235,
+		name = "skinTicket27",
+		itemid = 59264
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -760,6 +770,16 @@ pg.player_resource = {
 		name = "worldboss708_ticket",
 		itemid = 59226
 	},
+	[2010] = {
+		id = 2010,
+		name = "contribution_worldboss127",
+		itemid = 59265
+	},
+	[2011] = {
+		id = 2011,
+		name = "worldboss127_ticket",
+		itemid = 59266
+	},
 	[3000] = {
 		id = 3000,
 		name = "guild_boss_damage",
@@ -819,6 +839,11 @@ pg.player_resource = {
 		id = 4002,
 		name = "battlepass_2",
 		itemid = 59253
+	},
+	[4003] = {
+		id = 4003,
+		name = "battlepass_3",
+		itemid = 59269
 	},
 	[4186] = {
 		id = 4186,
@@ -1249,6 +1274,12 @@ pg.player_resource = {
 		dexiur_pt = {
 			232
 		},
+		chunjie_pt2 = {
+			234
+		},
+		skinTicket27 = {
+			235
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1297,6 +1328,12 @@ pg.player_resource = {
 		worldboss708_ticket = {
 			2009
 		},
+		contribution_worldboss127 = {
+			2010
+		},
+		worldboss127_ticket = {
+			2011
+		},
 		guild_boss_damage = {
 			3000
 		},
@@ -1332,6 +1369,9 @@ pg.player_resource = {
 		},
 		battlepass_2 = {
 			4002
+		},
+		battlepass_3 = {
+			4003
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -1483,6 +1523,8 @@ pg.player_resource = {
 		230,
 		231,
 		232,
+		234,
+		235,
 		950,
 		951,
 		952,
@@ -1499,6 +1541,8 @@ pg.player_resource = {
 		2007,
 		2008,
 		2009,
+		2010,
+		2011,
 		3000,
 		3001,
 		3002,
@@ -1511,6 +1555,7 @@ pg.player_resource = {
 		3137,
 		4001,
 		4002,
+		4003,
 		4186,
 		100004,
 		40275,

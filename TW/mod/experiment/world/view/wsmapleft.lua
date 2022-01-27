@@ -241,15 +241,14 @@ function slot0.OnUpdateFleetOrder(slot0)
 end
 
 function slot0.GetShipObject(slot0, slot1)
-	slot3 = WorldConst.FetchShipVO(slot1.id):getTeamType()
-	slot4 = ({
+	for slot6, slot7 in pairs({
 		[TeamType.Main] = slot0.rtMain,
 		[TeamType.Vanguard] = slot0.rtVanguard
-	})[slot3]
-
-	for slot9, slot10 in ipairs(slot0.fleet:GetTeamShips(slot3, true)) do
-		if slot1.id == slot10.id then
-			return slot4:GetChild(slot9 - 1)
+	}) do
+		for slot12, slot13 in ipairs(slot0.fleet:GetTeamShips(slot6, true)) do
+			if slot1.id == slot13.id then
+				return slot7:GetChild(slot12 - 1)
+			end
 		end
 	end
 end

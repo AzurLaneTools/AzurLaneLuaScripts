@@ -1255,6 +1255,76 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[116] = {
+		rarity = 5,
+		describe = "戰爭什麼的太無聊了～還是來聽我唱歌吧！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "超大舞台",
+		tag = 6,
+		icon = "jinkelawutaiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 116,
+		can_rotate = 1,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jinkelawutaiB",
+				"normal"
+			},
+			{
+				"jinkelawutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				159,
+				-199
+			}
+		},
+		interaction_bgm = {
+			0,
+			"diego"
+		},
+		interAction_group = {}
+	},
 	[117] = {
 		spine_extra = "",
 		describe = "遺落在戰火燃燒的廢墟中，經指揮部回收後，贈與部分在作戰中做出傑出貢獻的指揮官。彷彿能從中感受到白鷹眾人們的堅定意志\n\t\t\t<color=#fad545>——參與墜落之翼作戰的最高榮譽</color>",
@@ -71000,6 +71070,896 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[75001] = {
+		spine_extra = "",
+		describe = "團圓熱鬧的新年又來了啾~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "新禧節慶地板",
+		effect = "",
+		advice = 0,
+		icon = "dibancj3icon",
+		spine_action_replace = "",
+		picture = "cj3/dibancj3",
+		comfortable = 4,
+		canputon = 0,
+		id = 75001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75002] = {
+		spine_extra = "",
+		describe = "團圓熱鬧的新年又來了啾~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "新禧煙花牆壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicj3icon",
+		spine_action_replace = "",
+		picture = "cj3/qiangbicj3",
+		comfortable = 4,
+		canputon = 0,
+		id = 75002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75101] = {
+		spine_extra = "",
+		describe = "一起來玩小煙火啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 75,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "1cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "煙火啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj3/1cj3",
+		canputon = 0,
+		id = 75101,
+		can_rotate = 0,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					39,
+					-26
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75102] = {
+		spine_extra = "",
+		describe = "水缸之中的荷塘月色~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "2cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "荷塘水缸",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/2cj3",
+		canputon = 0,
+		id = 75102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75103] = {
+		spine_extra = "",
+		describe = "新春福到~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "3cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "福氣石壁",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Cj3/3cj3",
+		canputon = 0,
+		id = 75103,
+		can_rotate = 1,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75104] = {
+		spine_extra = "",
+		describe = "紅紅火火的新年~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "4cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "新禧灶台",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Cj3/4cj3",
+		canputon = 0,
+		id = 75104,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75105] = {
+		spine_extra = "",
+		describe = "要合家團圓，年年有餘啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 75,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "5cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "團圓飯桌",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Cj3/5cj3",
+		canputon = 0,
+		id = 75105,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-108,
+					80
+				},
+				{
+					1,
+					1
+				},
+				"cj3/5cj3_using"
+			},
+			{
+				"sit",
+				{
+					121,
+					72
+				},
+				{
+					-1,
+					1
+				},
+				"cj3/5cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75106] = {
+		spine_extra = "",
+		describe = "新春的綠意透了出來。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "6cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "新禧盆栽",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "Cj3/6cj3",
+		canputon = 0,
+		id = 75106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75107] = {
+		spine_extra = "",
+		describe = "再寫一對立意圓滿的春聯吧",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 75,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "7cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "春聯攤",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/7cj3",
+		canputon = 0,
+		id = 75107,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					101,
+					-55
+				},
+				{
+					-1,
+					1
+				},
+				"cj3/7cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75108] = {
+		spine_extra = "",
+		describe = "雖然寒冬沒有綠葉，但有滿樹的紅燈籠~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "8cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "新禧樹栽",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/8cj3",
+		canputon = 0,
+		id = 75108,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75109] = {
+		spine_extra = "",
+		describe = "想要的年貨都在這裡啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "9cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "年貨啾",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Cj3/9cj3",
+		canputon = 0,
+		id = 75109,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75110] = {
+		spine_extra = "",
+		describe = "充滿東方韻味的屏風",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "10cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "新禧屏風",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/10cj3",
+		canputon = 0,
+		id = 75110,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75111] = {
+		spine_extra = "",
+		describe = "似乎鳥兒已經飛走了~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 75,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "11cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "裝飾鳥籠",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/11cj3",
+		canputon = 0,
+		id = 75111,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-3,
+					-143
+				},
+				{
+					1,
+					1
+				},
+				"cj3/11cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75112] = {
+		spine_extra = "",
+		describe = "來年也能大吉大利~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "12cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "發財樹",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Cj3/12cj3",
+		canputon = 0,
+		id = 75112,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75113] = {
+		spine_extra = "",
+		describe = "守護一家平安啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "14cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "新禧石啾·甲",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/14cj3",
+		canputon = 0,
+		id = 75113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75114] = {
+		spine_extra = "",
+		describe = "充滿節慶氣息的柵欄",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "15cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "新禧柵欄",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "Cj3/15cj3",
+		canputon = 0,
+		id = 75114,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75115] = {
+		spine_extra = "",
+		describe = "守護一家平安啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "16cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "新禧石啾·乙",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/16cj3",
+		canputon = 0,
+		id = 75115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75116] = {
+		spine_extra = "",
+		describe = "門口也要掛上紅燈籠",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "17cj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "石宅門",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Cj3/17cj3",
+		canputon = 0,
+		id = 75116,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75117] = {
+		belong = 1,
+		describe = "山水畫內似乎別有洞天？ ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 75,
+		count = 1,
+		is_3d_obj = 0,
+		name = "山水畫？",
+		tag = 7,
+		icon = "Acj3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 75117,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Acj3B",
+				"normal"
+			},
+			{
+				"Acj3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"action",
+						"wash"
+					},
+					"wash"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"Acj3BCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[75118] = {
+		spine_extra = "",
+		describe = "來一發熱鬧的啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 75,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "Bcj3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鞭炮啾",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 75118,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bcj3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[75301] = {
+		spine_extra = "",
+		describe = "紅燈籠掛起來才有年味~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 75,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "18cj3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "新禧紅燈籠",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Cj3/18cj3",
+		canputon = 0,
+		id = 75301,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[76001] = {
 		spine_extra = "",
 		describe = "一起來玩吧！",
@@ -75764,6 +76724,7 @@ pg.furniture_data_template = {
 		109,
 		111,
 		112,
+		116,
 		117,
 		119,
 		122,
@@ -77345,6 +78306,27 @@ pg.furniture_data_template = {
 		74117,
 		74118,
 		74119,
+		75001,
+		75002,
+		75101,
+		75102,
+		75103,
+		75104,
+		75105,
+		75106,
+		75107,
+		75108,
+		75109,
+		75110,
+		75111,
+		75112,
+		75113,
+		75114,
+		75115,
+		75116,
+		75117,
+		75118,
+		75301,
 		76001,
 		76002,
 		76101,

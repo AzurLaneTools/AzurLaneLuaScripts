@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助抚顺击退了年兽，获得了奖励【五星装备设计图纸*4】",
+			say = "幫助撫順擊退了年獸，獲得了獎勵【五星裝備設計圖紙*4】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

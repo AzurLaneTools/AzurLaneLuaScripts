@@ -60,6 +60,8 @@ function slot0.register(slot0)
 
 	if slot0.activityProxy:getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
 		slot0.contextData.ptData = ActivityBossPtData.New(slot7)
+	else
+		errorMsg("没有找到当期BossPT活动 修改Activity_Const ACTIVITY_BOSS_PT_ID")
 	end
 
 	if slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK) and not slot8:isEnd() then

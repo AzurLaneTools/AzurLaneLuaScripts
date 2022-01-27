@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "似乎没发现有价值的东西，再往前走走吧！",
+			say = "似乎沒發現有價值的東西，再往前走走吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
