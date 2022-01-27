@@ -3,13 +3,14 @@ slot1 = 0.5
 slot2 = 15
 slot3 = require("Mod/BackYard/view/BackYardTool")
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
+	slot0.spineRole = slot2
 	slot0.go = slot1
-	slot0.tf = tf(slot1)
+	slot0.tf = tf(slot0.go)
 
-	slot0:updateBoatVO(slot2)
+	slot0:updateBoatVO(slot3)
 
 	slot0.cfg = pg.ship_data_statistics[slot0.boatVO.configId]
 	slot0.speed = slot0.cfg.backyard_speed
@@ -28,7 +29,7 @@ function slot0.onLoadSlotModel(slot0, slot1)
 	pg.ViewUtils.SetLayer(slot0.tf, Layer.UI)
 
 	slot0.tf.localScale = Vector3(uv0, uv0, 1)
-	slot0.model = slot0.tf:Find("model")
+	slot0.model = tf(slot0.spineRole.model)
 	slot0.model.localScale = Vector3(1, 1, 1)
 	slot0.floorGrid = slot1.floorContain
 	slot0.shipGridContainer = slot1.floorContain.parent:Find("ship_grid")
@@ -36,7 +37,7 @@ function slot0.onLoadSlotModel(slot0, slot1)
 	slot0.shipGridImg = slot0.shipGrid:GetComponent(typeof(Image))
 	slot0.spineAnimUI = slot0.model:GetComponent("SpineAnimUI")
 
-	slot0.spineAnimUI:SetAction("stand2", 0)
+	slot0:setAction("stand2", 0)
 
 	slot0.canvasGroup = GetOrAddComponent(slot0.go, "CanvasGroup")
 	slot0.chatTF = slot0.tf:Find("chat")
@@ -255,7 +256,7 @@ function slot0.addBoatDragListenter(slot0)
 			uv0:clearInterAction()
 		end
 
-		uv0.spineAnimUI:SetAction("tuozhuai2", 0)
+		uv0:setAction("tuozhuai2", 0)
 		uv0:closeBodyMask()
 		uv0.viewComponent:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, uv0.boatVO.id)
 		uv0:removeItem()
@@ -314,7 +315,7 @@ function slot0.endDrag(slot0, slot1, slot2)
 		slot0.isMove = nil
 
 		SetActive(slot0.shipGridContainer, false)
-		slot0.spineAnimUI:SetAction("stand2", 0)
+		slot0:setAction("stand2", 0)
 		slot0:changeInnerDir(Mathf.Sign(slot0.tf.localScale.x))
 		slot0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, slot0.boatVO.id, slot2)
 		slot0:updateShadowTF(true)
@@ -340,7 +341,7 @@ function slot0.triggerInterAction(slot0, slot1, slot2)
 
 			SetActive(uv0.shipGridContainer, false)
 			uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
-			uv0.spineAnimUI:SetAction("stand2", 0)
+			uv0:setAction("stand2", 0)
 			uv0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, uv1.id, uv2)
 		end))
 	end
@@ -411,7 +412,7 @@ function slot0.triggerInterAction(slot0, slot1, slot2)
 		end
 	elseif slot2 and slot5:canInterActionShipGroup(slot4.gruopId) and slot5:isStageFurniture() then
 		slot0:clearStage()
-		slot0.spineAnimUI:SetAction("stand2", 0)
+		slot0:setAction("stand2", 0)
 		slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_STAGE, slot0.boatVO.id, slot5.id)
 		SetActive(slot0.shipGridContainer, false)
 	else
@@ -519,6 +520,7 @@ end
 
 function slot0.setAction(slot0, slot1)
 	slot0.spineAnimUI:SetAction(slot1, 0)
+	slot0.spineRole:HiddenAttachmentByAction(slot1)
 end
 
 function slot0.updateInterActionPos(slot0, slot1, slot2)
@@ -558,7 +560,7 @@ function slot0.updateInterActionPos(slot0, slot1, slot2)
 
 	slot0.tf.anchoredPosition = Vector3(slot5[1], slot5[2], 0)
 
-	slot0.spineAnimUI:SetAction(slot4, 0)
+	slot0:setAction(slot4, 0)
 	slot0:updateShadowTF(false)
 	slot0:updateShadowPos()
 
@@ -1211,7 +1213,7 @@ function slot0.updateStageInterAction(slot0, slot1)
 
 		slot0.tf.localPosition = slot0:calcOnFurnitureLPos(slot1, slot0.stageId)
 
-		slot0.spineAnimUI:SetAction("stand2", 0)
+		slot0:setAction("stand2", 0)
 
 		if slot0.viewComponent.maps[slot3] then
 			slot0.viewComponent.maps[slot3].afterSortFunc(slot0.viewComponent.maps[slot3].sortedItems)
@@ -1303,7 +1305,7 @@ function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
 	slot0.targetLPosition = slot1
 
 	if not slot0.isMove then
-		slot0.spineAnimUI:SetAction("walk", 0)
+		slot0:setAction("walk", 0)
 
 		slot0.isMove = true
 	end
@@ -1355,7 +1357,7 @@ function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
 
 		slot1:setOnComplete(System.Action(function ()
 			if uv0 then
-				uv1.spineAnimUI:SetAction("stand2", 0)
+				uv1:setAction("stand2", 0)
 
 				uv1.isMove = nil
 			end
@@ -1379,7 +1381,7 @@ function slot0.cancelMove(slot0)
 	end
 
 	if slot0.isMove then
-		slot0.spineAnimUI:SetAction("stand2", 0)
+		slot0:setAction("stand2", 0)
 
 		slot0.isMove = nil
 	end
@@ -1506,17 +1508,14 @@ function slot0.switchAnimation(slot0, slot1)
 	slot2 = slot0.viewComponent
 
 	slot2:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, slot0.boatVO.id)
-
-	slot2 = slot0.spineAnimUI
-
-	slot2:SetAction(slot1, 0)
+	slot0:setAction(slot1, 0)
 
 	slot0.isMove = nil
 	slot2 = slot0.spineAnimUI
 
 	slot2:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
-			uv0.spineAnimUI:SetAction("stand2", 0)
+			uv0:setAction("stand2", 0)
 			uv0.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv0.boatVO.id)
 
 			uv0.isAnim = false
@@ -1608,7 +1607,7 @@ function slot0.InterActionTransport(slot0, slot1)
 				table.insert(slot1, function (slot0)
 					parallelAsync({
 						function (slot0)
-							uv0.spineAnimUI:SetAction(uv1, 0)
+							uv0:setAction(uv1, 0)
 							uv2(uv3, slot0)
 						end,
 						function (slot0)
@@ -1704,7 +1703,7 @@ end
 function slot0.InterActionTransportEnd(slot0)
 	slot0.isInTransport = nil
 
-	slot0.spineAnimUI:SetAction("stand2", 0)
+	slot0:setAction("stand2", 0)
 	SetParent(slot0.tf, slot0.floorGrid)
 	setActive(slot0.shadowTF, true)
 end
@@ -1809,7 +1808,7 @@ function slot0.dispose(slot0)
 	end
 
 	slot0:closeBodyMask(true)
-	PoolMgr.GetInstance():ReturnSpineChar(slot0.boatVO:getPrefab(), go(slot0.model))
+	slot0.spineRole:Dispose()
 	Destroy(slot0.go)
 end
 

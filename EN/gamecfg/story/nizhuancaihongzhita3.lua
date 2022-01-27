@@ -611,13 +611,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_midgard_2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 401460,
 			say = "You... You did read the mission briefing, yes, Heinrich?",
 			typewriter = {
 				speed = 0.05,

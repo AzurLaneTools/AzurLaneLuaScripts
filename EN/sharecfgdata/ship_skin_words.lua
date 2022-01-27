@@ -3604,6 +3604,91 @@ _G.pg.ship_skin_words[101481] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[101490] = {
+	feeling1 = "Hmph... Our adventure went so badly all because you went and got the kelp curse put on you!",
+	feeling3 = "If that'll be all, do you mind if I go for a stroll around port? ...Awesome! Come along, Data 857!",
+	lose = "Fiddlesticks! Agghh... No regrets...",
+	propose = "Hehehe! Now we're mystery-solving partners! We'll go wherever there are clues to be found, be they at sea, in the skies, or on land!",
+	expedition = "A commission's been completed! Data 857, go see if the girls brought back any strange goodies. And watch out for k-kelp!",
+	win_mvp = "Crushing victory! Heheh! Now we can keep investigating in peace!",
+	home = "Now's the perfect opportunity to look into the Commander, one of the port's many myster– Oh! Welcome back! Err, I'm not up to anything at all! Not yet, at least!",
+	mission = "New missions are in, Commander! Maybe one of them involves investigating something!",
+	touch2 = "Are you possessed by an evil entity?! Then I have no choice... I've got to subdue you for everyone's safety!",
+	voice_key_2 = -1,
+	skill = "Your biggest mistake was underestimating this investigator!",
+	drop_descrip = "Allen M. Sumner-class destroyer – Bristol, Hull Number DD-857.",
+	mail = "New mail? Could it be... a request to look into a paranormal case?",
+	touch = "My uniform looks pretty, doesn't it?",
+	profile = "My history? Eh, it's honestly pretty unremarkable... Anyway, lemme tell you a story! Deep under the sea, there once lived a legendary monster that was as long as several school buses. When a ship sailed over it, the monster would open its jaws and swallow it whole...",
+	mission_complete = "Mission complete! I'll write up a report of my findings right away!",
+	feeling4 = "Are you scared of the dark, Commander? Then just stick close to me, and my lantern will shoo the dark away! You've nothing to fear – I've trained for this!",
+	unlock = "The name is Bristol, Eagle Union destroyer! Well met, Commander! This port must be home to many mysteries... I will make it my duty to solve each and every one! Heheheh!",
+	feeling5 = "There are more mysteries in the world than Data 857 and I can ever hope to solve... It's a good thing I have you, Commander! We might never solve EVERY mystery, but together, we can solve a lot more!",
+	main = "Show the Commander what an awesome robot you are, Data 857! Let's start with your best feature – replay mode! List the results of our last investigation!|I was told your desk can transform and your bookshelf has a secret mechanism... I'm disappointed neither of those are true.|The forecast saaays... Awesome! It'll be sunny tomorrow! Can't go mystery-solving in the rain, you know!",
+	battle = "Bristol Investigation Team, setting off!",
+	upgrade = "Firepower upgrade complete! New depths to explore are now within my reach!",
+	voice_key = 10149,
+	headtouch = "Sure, praise me for my investigator skills all you want~",
+	feeling2 = "The Dragon Empery's a land teeming with folklore and myths... Next time I see my Empery friends, I wanna hear all about them!",
+	login = "Weapons check complete – I'm ready to go on an adventure! Get your mystery-solving gear on, Commander!",
+	vote = "",
+	hp_warning = "Zoinks! Don't put out my light!",
+	id = 101490,
+	detail = "Curious about my little helper? Hehehe. Well, Ingraham built it to assist me in exploration. Its name is Data 857!",
+	couple_encourage = {
+		{
+			{
+				10148
+			},
+			1,
+			"Hehehe! Run a trial on this new gear, pretty please!",
+			0
+		},
+		{
+			{
+				10144
+			},
+			1,
+			"The next point of interest is where our adventure starts!",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[101491] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Cooper, I could use more soap liquid! ...Thanks! Come blow bubbles with me! Hehehe~",
+	mission = "",
+	touch2 = "Whoa! Hey! Don't startle me like that!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Happy Lunar New Year, Commander! The time's finally come to look into the age-old legends from the Dragon Empery! The truth behind these legends is bound to be as fascinating as the legends themselves!",
+	mail = "",
+	touch = "Allen picked these clothes out for me! Hehehe~ How do I look in them?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Happy Lunar New Year, Commander! The time's finally come to look into the age-old legends from the Dragon Empery! The truth behind these legends is bound to be as fascinating as the legends themselves!",
+	feeling5 = "",
+	main = "Assuming a legend is a story embellished by people from many generations ago, then what is the kernel of truth that inspired it all?|Where's Data 857? Ingraham's doing maintenance on it. The little bot deserves a break too once in a while.|If the legends are true, then that makes this fish – the Kun – the biggest aquatic monster to ever exist!",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Investigator task for today: gather anecdotes about Dragon Empery legends and folklore! But that's for after I've enjoyed the festivities.",
+	vote = "",
+	hp_warning = "",
+	id = 101491,
+	detail = "Sorry for dropping in unannounced, Tai Yuan. I was just wondering, could I borrow some books from you again? Cool, thanks a bunch!",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[102010] = {
 	feeling1 = "Something to eat? I'm actually full right now. No thanks, Commander.",
 	feeling3 = "Mmph... C-come on, surely you like your girls with a little more meat on them!",
@@ -4437,6 +4522,40 @@ _G.pg.ship_skin_words[102101] = {
 	hp_warning = "",
 	id = 102101,
 	detail = "I wonder why Cleve suddenly started to make chocolate for everyone this year... Well, knowing her, I'm sure it's just her way of looking out after us.",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[102102] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "That was easy! Didn't even break a sweat.",
+	home = "Welcome back. I went and made some soup with the ingredients you foraged. Wanna taste it?",
+	mission = "",
+	touch2 = "Are you getting all touchy-feely 'cause I'm wearing socks on both feet today? Or is it... something else~?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "...Mm, that's good enough for today's journal entry. Wonder what Cleve's gonna think after reading this~ What do you think, Commander? Wait... Commander? Jeez, don't wander off when I'm all focused on my writing...",
+	mail = "",
+	touch = "What am I writing about? It's a secret, so you'll just have to guess~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "...Mm, that's good enough for today's journal entry. Wonder what Cleve's gonna think after reading this~ What do you think, Commander? Wait... Commander? Jeez, don't wander off when I'm all focused on my writing...",
+	feeling5 = "",
+	main = "As someone who's been all over the Pacific, I'm having the time of my life exploring the open prairie! Especially with you along for the ride~|Crap, my gum reserves are almost empty! ...You brought extra just for me? Aww, thanks a ton, buddy!|Y'know what a prairie at night is perfect for? Stargazing! Come nighttime, you wanna lie with me in the grass and look through the telescope?",
+	battle = "Feast your eyes! This is the power of a Cleveland-class cruiser!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "There you are, Commander. I've been looking everywhere for you! ...You were out foraging for food? Oh, thanks...",
+	vote = "",
+	hp_warning = "",
+	id = 102102,
+	detail = "Wonder what Cleve's up to right now... No doubt she's doing just great, but still, wish I could see her for myself.",
 	couple_encourage = {}
 }
 
@@ -5926,6 +6045,40 @@ _G.pg.ship_skin_words[102263] = {
 	hp_warning = "",
 	id = 102263,
 	detail = "Reno, tired of seeing her commander fighting all alone, assumed an alter ego and joined the commander in the battle against the forces of evil! Pretty cool origin story, wouldn't you say?",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[102264] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Check this out, Commander! Hehehe, I added a little firework launcher to my superhero gadgets. Cool, huh? ...Your interest lies more in my new look? But... the firework...",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "nil|nil|nil",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 102264,
+	detail = "",
 	couple_encourage = {}
 }
 
@@ -7991,8 +8144,59 @@ _G.pg.ship_skin_words[105030] = {
 			1,
 			"As an adult, let me protect you!",
 			0
+		},
+		{
+			{
+				10103,
+				10104
+			},
+			2,
+			"Cassin, Downes, let Sister Penn handle this!",
+			0
+		},
+		{
+			{
+				10504
+			},
+			1,
+			"No more tears...!",
+			0
 		}
 	}
+}
+
+_G.pg.ship_skin_words[105031] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "Commission completed. It's vital to keep your troops and horses fed and equipped.",
+	win_mvp = "By my spear, the enemy is sundered!",
+	home = "",
+	mission = "",
+	touch2 = "Unfortunately for you, this armor is the real deal.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Halt! Who are you?! ...Oh, it's you, Commander. I briefly mistook you for a spy there. Why are you here? To spectate? Or, God forbid, to gather intel on my army?",
+	mail = "",
+	touch = "How can Sister Penn help?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Halt! Who are you?! ...Oh, it's you, Commander. I briefly mistook you for a spy there. Why are you here? To spectate? Or, God forbid, to gather intel on my army?",
+	feeling5 = "",
+	main = "You falter not even in the presence of a general on her horse... Very good – you'll make an excellent soldier. Together, we will make great conquests!|Are my looks really that exotic to you? Hahah! Your imagination is terribly limited.|While I'm not as good at riding as Chapayev, I'm fairly capable on horseback... You think I'm outstanding, even? Really?",
+	battle = "I shall trample our enemies underfoot!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "All right, so... Are we good? Phew... Scenes on horseback are always so draining.",
+	vote = "",
+	hp_warning = "",
+	id = 105031,
+	detail = "You brought lunch? Appreciate it. Be sure to give Arizona something as well.",
+	couple_encourage = {}
 }
 
 _G.pg.ship_skin_words[105040] = {
@@ -8046,6 +8250,40 @@ _G.pg.ship_skin_words[105040] = {
 			0
 		}
 	}
+}
+
+_G.pg.ship_skin_words[105041] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "Time to evacuate? Understood!",
+	propose = "",
+	expedition = "The girls seem to be back from their commissions. Good tidings arrive on the wind.",
+	win_mvp = "Dancing might not be my strong suit, but I know how to fight!",
+	home = "",
+	mission = "",
+	touch2 = "Please keep this a secret from my sister...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "I heard these clothes are from the Dragon Empery, but they're a bit... Umm, it's not that I dislike them, but the thought of you seeing me in them is rather embarrassing... B-but it's not like I'm going to start crying...",
+	mail = "",
+	touch = "Stay calm, Arizona...",
+	profile = "",
+	mission_complete = "The mission rewards have arrived. It's always nice to have extra supplies.",
+	feeling4 = "",
+	unlock = "I heard these clothes are from the Dragon Empery, but they're a bit... Umm, it's not that I dislike them, but the thought of you seeing me in them is rather embarrassing... B-but it's not like I'm going to start crying...",
+	feeling5 = "I left the handkerchief I use to wipe my tears back at home. ...I had some trouble finding a good place to stow it away, and moreover, I don't feel like I'll be crying all that much. There's no need for you to worry, Commander.",
+	main = "If wearing this outfit means I can help my friends make wonderful memories, I don't mind doing it.|Do you think I should try to learn some dance steps from a real dancer? Would it be okay if I asked California for help?|Oh, Commander... there's something on your cheek. Let me wipe it off... and done.",
+	battle = "I'll give it my best shot...!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "Pennsylvania? Oh, it's...",
+	feeling2 = "",
+	login = "My desire to protect my friends... has been made possible here. Hehe, of course I'll continue to give it my all.",
+	vote = "",
+	hp_warning = "",
+	id = 105041,
+	detail = "Both in the past and present, being able to help your friends in various ways outside of battle is something to be happy about. Hm? You feel happy just from being with me...?",
+	couple_encourage = {}
 }
 
 _G.pg.ship_skin_words[105070] = {
@@ -17069,6 +17307,40 @@ _G.pg.ship_skin_words[202273] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[202274] = {
+	feeling1 = "There has to be a cure for you out there somewhere... You're not beyond saving yet, I know it!",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "The commission team has brought back some quality herbs! I propose that we have some herb tea to celebrate.",
+	win_mvp = "",
+	home = "Breathing in these herbal fragrances is quite good for you. Commander, please feel free to relax.",
+	mission = "",
+	touch2 = "Commander...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "How are you feeling, Commander? Hehe, I'm not wearing my usual nurse's gown right now, but I suppose this isn't much different~",
+	mail = "New mail has arrived. Did they procure the ingredients I asked for?",
+	touch = "Might you be... checking my pulse?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "How are you feeling, Commander? Hehe, I'm not wearing my usual nurse's gown right now, but I suppose this isn't much different~",
+	feeling5 = "Commander, how are you feeling today? I won't be giving you any medicine, but since food and medicine have the same root, I'll make sure to prepare some nutritious meals that you're sure to enjoy. Please leave it to me~♪",
+	main = "It is often said that the best medicine is bitter, but I tried to make mine as sweet as possible to suit your tastes.|I wonder what kinds of effects these herbs have... I should ask Dido later.|I am quite proficient at following recipes and preparing ingredients. They're skills I often use as part of my work with the Royal Maids.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 202274,
+	detail = "My fellow Royal Maids drew inspiration from the Dragon Empery's traditional attire when crafting these clothes. I do hope you like them.",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[202280] = {
 	feeling1 = "Did I let you down, Master? What a despicable maid I am...",
 	feeling3 = "I look good in my idol outfit? Thank you so much, Master...! Oh, does that mean I'm not a maid anymore?! Master, you aren't going to abandon me, are you...?!",
@@ -17253,6 +17525,74 @@ _G.pg.ship_skin_words[202292] = {
 	hp_warning = "",
 	id = 202292,
 	detail = "Here, I brought you your order. It's still frozen? Of course...? I never heated it up. Why...? You... never told me to...?",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[202300] = {
+	feeling1 = "I... Master, do you throw everyone to the wolves like this...?",
+	feeling3 = "It may be an exaggeration to say \"whenever, wherever,\" but... I simply wish to be there to serve you whenever you might need me... I'm sorry...",
+	lose = "Redouble our rescue efforts! Master, please retreat and leave the others to me!",
+	propose = "What's this, Master...? Y-you really weren't satisfied just having your fatigue relieved?! *sigh*... I-I mean, even without this ring... Oh! Is this a symbol of your permission for me to pamper you lots and lots more~? Heehee, my dear Master, of course I love you lots~",
+	expedition = "A commission has been completed. I wonder how it went?",
+	win_mvp = "An elegant victory, the way us Royal Maids do it... Ow! A-an undetonated shell...?",
+	home = "Welcome back, Master! Let's make sure you don't overdo things and take a short break first~",
+	mission = "Master, there's a new mission for you! Y-you already knew about it? Oh...",
+	touch2 = "Master, is something wrong?",
+	voice_key_2 = -1,
+	skill = "Stay calm, it's time for our counterattack!",
+	drop_descrip = "Dido-class light cruiser – Charybdis.",
+	mail = "I'm here to deliver this mail to you, Master.",
+	touch = "Just leave it to me~♪",
+	profile = "I am the Dido-class anti-aircraft cruiser, Charybdis. With the motto, \"Any task – anywhere,\" I performed my duties in different oceans across the world during the war. Master, whenever or wherever you need anything, just leave it to me!",
+	mission_complete = "Here are your rewards. Please check on them.",
+	feeling4 = "If I do everything for you, you'll become incapable of doing anything for yourself? Am I that powerful of an existence...?",
+	unlock = "Dido-class light cruiser, Charybdis at your service. 'tis an honour to meet you in person, Master. May your everyday life be bathed in the warm sunlight, in the peaceful days that come.",
+	feeling5 = "I-I'll do everything for you, but in moderation... Wait! I'll just do my best to relieve some of your fatigue~ Roger! I'll make sure to exercise restraint!",
+	main = "Fair winds and a following sea~ Master, if it's fine with you, please take me along in your next mission as well.|There's nothing for me to do right now...? N-no way... Master, how could you do this to me...|Master~ If you'd please change into– Y-you can't see the documents you're working on...? Ahh, I'm sorry!",
+	battle = "Anti-air combat, commence! Master, please lower your head!",
+	upgrade = "Behold my true power! Heehee.",
+	voice_key = 20230,
+	headtouch = "",
+	feeling2 = "Hm-hmm~♪ Whenever, wherever, I'll be there to serve you as your maid. A-and please don't remind me of how I mess up sometimes...",
+	login = "Good morning to you, Master. Will you be starting off the day with some work?",
+	vote = "",
+	hp_warning = "Wh-where's the enemy?",
+	id = 202300,
+	detail = "Master, is there anything new you'd like to wear when you head out on missions? ...If that's what you'd like, please leave it to me! It so happens sewing is one of my specialties♪",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[202301] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "Now, please allow me to continue pampering you once we return~",
+	home = "*Pats thighs* Master, I'm right over here~ Heehee, you must be exhausted, right~",
+	mission = "",
+	touch2 = "Ahhn...♡",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "*Pats thighs* Master, you poor thing~ Look how hard you've been working~ Hehe, hurry and come here so that I can pamper you~",
+	mail = "Your mail's here~ Please make sure you check it afterwards~♪",
+	touch = "Ah, Master, please don't move around so much.",
+	profile = "",
+	mission_complete = "The rewards have arrived without any issues. That's a relief~",
+	feeling4 = "",
+	unlock = "*Pats thighs* Master, you poor thing~ Look how hard you've been working~ Hehe, hurry and come here so that I can pamper you~",
+	feeling5 = "",
+	main = "Umm... Hmm... Oh no, I still haven't finished sewing the outfit Aurora requested... Dear me...|My, someone is at the door... Oh, Master?! Please don't move, I'm not done working on your ears yet...|Alright, Master~ I'll be cleaning your other ear now, so please turn around... Eek?!",
+	battle = "There's no pampering in store for you bunch, only punishment!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Goodness, what a troublesome master you are. Where have you been? I've been waiting to continue cleaning your ears~",
+	vote = "",
+	hp_warning = "",
+	id = 202301,
+	detail = "This room is brimming with Dragon Empery style. Hmm... I'm not exactly sure how to explain it, but it sure is nice and relaxing.",
 	couple_encourage = {}
 }
 
@@ -18905,6 +19245,40 @@ _G.pg.ship_skin_words[205041] = {
 	hp_warning = "",
 	id = 205041,
 	detail = "Don't be shy, Commander~ Come on, come on over here~ How do you feel? Are my hands too cold?",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[205043] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "I'll have to check on our inventory of ammo when we get back.",
+	home = "Welcome back. What you're smelling right now is the fragrance of Dragon Empery tea... Yes, my friends here recommended it to me.",
+	mission = "",
+	touch2 = "We're still not done with the photoshoot~ Hehe~♪",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Miss Akashi, shall I look at the camera next? Understood. Oh, Commander, I did not expect you to grace us with your presence here as well! Yes, the photoshoot is proceeding smoothly. By the way, is there a favorite pose you'd like to see?",
+	mail = "",
+	touch = "Thank you so much for helping me put this fur on!",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Miss Akashi, shall I look at the camera next? Understood. Oh, Commander, I did not expect you to grace us with your presence here as well! Yes, the photoshoot is proceeding smoothly. By the way, is there a favorite pose you'd like to see?",
+	feeling5 = "",
+	main = "It's my first time wearing clothes like these, so I'm trying to figure out the perfect way to show off my legs... Commander? Hehe, have you been enchanted?|You're worried that I might be feeling cold? Well... how about you check by holding my hand?|Long photoshoots really are quite tiring... Commander, how about going for some coffee together after we wrap this up?",
+	battle = "It is time for me to carry out my duties once more!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "I was delighted just to have you stop by, but I can't believe you even brought me refreshments... How about I pour you a cup of tea as well?",
+	vote = "",
+	hp_warning = "",
+	id = 205043,
+	detail = "Perhaps I should hold up a fan like this? ...Like this? *click* Oh, great advice, Commander! Akashi said that changed the mood of the shoot completely, ehehe.",
 	couple_encourage = {}
 }
 
@@ -25874,6 +26248,40 @@ _G.pg.ship_skin_words[301581] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[301582] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "I'm aware that setting off firecrackers is an important Dragon Empery tradition. That said... This many firecrackers may be excessive.",
+	mission = "",
+	touch2 = "Perhaps the noise of the firecrackers can dispel your sinful thoughts too?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Mmh... Happy New Year. I'm working on hooking my friends up with these firecrackers... The bun I'm eating? I received it as a thank-you for my efforts.",
+	mail = "",
+	touch = "Don't worry, it's not very heavy. I'm capable of carrying it.",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Mmh... Happy New Year. I'm working on hooking my friends up with these firecrackers... The bun I'm eating? I received it as a thank-you for my efforts.",
+	feeling5 = "",
+	main = "Yat Sen's dim sum is wonderful. I'm particularly fond of this meat bun she made.|If lighting firecrackers sounds too frightening, would you like to light a firework instead?|Make a fai chun? Sorry, such things are beyond my means. You may wish to ask Hanazuki or Suzutsuki instead.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Is there anything I can help you with, Commander? You seem busy as ever, even during the Lunar New Year, so...",
+	vote = "",
+	hp_warning = "",
+	id = 301582,
+	detail = "The noise of the firecrackers is said to repel a monster called the \"Nian.\" As for why this monster only appears during Lunar New Year's, I'm not quite sure...",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[301590] = {
 	feeling1 = "Stay away from me, stupidity is contagious.",
 	feeling3 = "{namecode:128} and {namecode:127} are both so whimsical and wandering around. Those girls sure don’t have the temperment of being in the Navy. They still need to lean on me, being their big sister. Such a headache...",
@@ -26069,27 +26477,27 @@ _G.pg.ship_skin_words[301602] = {
 	lose = "",
 	propose = "",
 	expedition = "",
-	win_mvp = "",
-	home = "",
+	win_mvp = "Viiiiictorrrryyyyyy~! As the sun shines, so do I!",
+	home = "For the General's return, an ode of celebration... Uhh, I was going to practice this song with Urakaze...",
 	mission = "",
 	touch2 = "",
 	voice_key_2 = -1,
 	skill = "",
 	drop_descrip = "General! I, Isokaze, have done my utmost to prepare the equipment! Now, with Lord Urakaze's presence, our Sengoku☆War-Band is complete! Of course, you are more than welcome to join our ranks, General!",
 	mail = "",
-	touch = "",
+	touch = "This outfit is so fluttery... Being cute is nice and all, but I want to be badass...",
 	profile = "",
 	mission_complete = "",
 	feeling4 = "",
-	unlock = "",
+	unlock = "General! I, Isokaze, have done my utmost to prepare the equipment! Now, with Lord Urakaze's presence, our Sengoku☆War-Band is complete! Of course, you are more than welcome to join our ranks, General!",
 	feeling5 = "",
-	main = "nil|nil|nil",
-	battle = "",
+	main = "Hamakaze, tutor me~ I was practicing so hard that I forgot to do my homework...|General! What kind of outfit should I wear? A suit of armor? Just a chestplate...?|\"Straight to your heart! Love delivered on the spear's tip!\" ...How's that, General? Just like an idol, right?",
+	battle = "The first smash hit is coming right up~!",
 	upgrade = "",
 	voice_key = 0,
 	headtouch = "",
 	feeling2 = "",
-	login = "",
+	login = "General! Let us dedicate our souls to the rehearsal today!",
 	vote = "",
 	hp_warning = "",
 	id = 301602,
@@ -26434,6 +26842,40 @@ _G.pg.ship_skin_words[301632] = {
 	hp_warning = "",
 	id = 301632,
 	detail = "So warm... Commander, would you like some? Here, you should enjoy hot tea like this... Fwoo, fwoo... Then just let the warmth spread over you.",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[301633] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "If it's for you, Commander, I know I can win.",
+	home = "Everyone's been bringing me gifts. These snacks from the Dragon Empery smell so good... Commander, do you want some as well?",
+	mission = "",
+	touch2 = "It's hard to dance like this...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Commander, thank you for coming to see me. I'm currently rehearsing my program for the Spring Festival performance. I do hope it is to your liking.",
+	mail = "",
+	touch = "The long and fluttery sleeves are beautiful, aren't they?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Commander, thank you for coming to see me. I'm currently rehearsing my program for the Spring Festival performance. I do hope it is to your liking.",
+	feeling5 = "",
+	main = "Shall I give you a shoulder massage since you've been working so hard? Rub, rub... Does that feel good?|Um, Michishio chose this outfit, Arashio picked out this hair accessory, and Ooshio chose this anklet... Do you think they look good on me?|The fact that all of us used to be separated... but can all come together to prepare for a show like this... is a dream come true...",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Flutter, flutter... I've been trying my best to learn these dance steps. How do I look, Commander?",
+	vote = "",
+	hp_warning = "",
+	id = 301633,
+	detail = "*Bum* *Bum* *Bum*... The drums' sound makes me feel all fluttery... Oh, Commander, are you okay? I'm... not too heavy, am I?",
 	couple_encourage = {}
 }
 
@@ -27209,6 +27651,40 @@ _G.pg.ship_skin_words[301821] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[301822] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "Everyone in the commission fleet has returned. I've prepared some gifts for them... Oh, should I set off some firerackers first?",
+	win_mvp = "",
+	home = "Zzz... Nnh... Hwah?! C-Commander? I'm so sorry, I must've fallen asleep while waiting for you...",
+	mission = "",
+	touch2 = "Commander, um... N-nevermind! It's nothing...!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "What kinds of flowers should I decorate the office with for the Lunar New Year...? Ugh, I just can't decide! Um, Commander, will you be inspecting the interior? I'll show you around! Phew...",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "What kinds of flowers should I decorate the office with for the Lunar New Year...? Ugh, I just can't decide! Um, Commander, will you be inspecting the interior? I'll show you around! Phew...",
+	feeling5 = "",
+	main = "The entire port is filled with the gentle aroma of fresh flowers~ Even though it's not quite spring yet, doesn't this holiday carry a bit of that longing for the early arrival of spring?|Hibiki, and Kasumi? Wh-what's the matter...? Recommended events? Um, um... errr... C-Commander, help me...|nil",
+	battle = "Let us ring in the new year with a splendid victory!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "Commander... *blushes*",
+	feeling2 = "",
+	login = "Please tell me which tasks you'd like to start with, and which events you'd like to attend.",
+	vote = "",
+	hp_warning = "",
+	id = 301822,
+	detail = "The floral patterns on the Dragon Empery's dresses are so pretty... How should I thank Miss Aurora for picking out such a wonderful selection?",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[301830] = {
 	feeling1 = "Commander, if there's anything bothering you, please let me know. I'll be waiting for you... as long as it takes...",
 	feeling3 = "My tail is warm and fluffy, but Wakaba's is shinier in comparison... Hatsushimo's is slender, and Shimakaze's is tiny... Um, there are all different sorts!",
@@ -27329,6 +27805,40 @@ _G.pg.ship_skin_words[301832] = {
 	hp_warning = "",
 	id = 301832,
 	detail = "You feel a sense of relief when you see me? I'm not quite sure what you mean by that, but I'm glad that you're happy...",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[301833] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "Commander, the girls are back from their commissions! I'll head out to greet them!",
+	win_mvp = "",
+	home = "Commander, good work! I'm ready for you as well. Well then, um, let's get started. Ahem... A long, long time ago...",
+	mission = "No more~ No matter how much you want to keep listening to the story, you need to prioritize your missions first!",
+	touch2 = "I-I'm going to lose my place...!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "I wanted to help you relieve some stress, so I thought I would read some folk tales to you... When I mentioned that, Akashi suggested these clothes to me... Wh-what do you think?",
+	mail = "Oh, there's some new mail for us! ...I wonder if it's the storybooks I had ordered.",
+	touch = "You want me to read the next story? S-sure, I'd love to!",
+	profile = "",
+	mission_complete = "You've finished your missions! Good job with them. Since you held tight and worked hard to complete them, I've prepared lots of rewards for you~",
+	feeling4 = "",
+	unlock = "I wanted to help you relieve some stress, so I thought I would read some folk tales to you... When I mentioned that, Akashi suggested these clothes to me... Wh-what do you think?",
+	feeling5 = "",
+	main = "...The end. Commander, for the next story, should I try speaking in a softer voice... Huh? Commander? Looks like you've already fallen asleep, hehe.|I wanted to surprise you, so I'll be reading one of my personal favorites to you today. If there's something you want to listen to next time, please let me know, and I'll have it ready!|nil",
+	battle = "It's time for me to get serious...!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Tonight, I'll be putting all my heart into reading, all for your sake!",
+	vote = "",
+	hp_warning = "",
+	id = 301833,
+	detail = "The sound of my voice puts you at ease? Th-that's great... it was worth practicing ahead of time!",
 	couple_encourage = {}
 }
 
@@ -27536,6 +28046,40 @@ _G.pg.ship_skin_words[301851] = {
 	hp_warning = "",
 	id = 301851,
 	detail = "Watch closely, Commander. You are about to witness what unyielding focus looks like... What?! I missed again?!",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[301852] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Should you think of any good ideas for verses, tell me. I will write them down.",
+	mission = "",
+	touch2 = "Eek?! Y-y-you reprobate! What's the matter with you?!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Happy New Year to you, Commander. To celebrate the season, I had these garments tailor-made for me, using traditional Dragon Empery clothes as a basis. I don't look... childish, do I?",
+	mail = "",
+	touch = "Eep! Y-y-you're doing this on purpose, aren't you?!",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Happy New Year to you, Commander. To celebrate the season, I had these garments tailor-made for me, using traditional Dragon Empery clothes as a basis. I don't look... childish, do I?",
+	feeling5 = "",
+	main = "\"In the ninth year of Yonghe, and the year of the Water Ox...\" Bah! The rest of the text is unintelligible to me...|Writing a poem in seven steps? Is there a person on this earth capable of such a feat?|Kamikaze, what should one offer the young'uns as a new year's gift, other than money?",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "Whuaah?! I've told you countless times! St-st-stop touching my ears!",
+	feeling2 = "",
+	login = "A New Year's poem... \"Many riches will grace you soon – I want my new year's gift by noon\"... No, this is backwards! I'm at the age where I'm the one who should give the young'uns gifts... Oh, Commander? When did you get back?",
+	vote = "",
+	hp_warning = "",
+	id = 301852,
+	detail = "The essence of the plum tree is best captured with erratic brush strokes... This is quite the elegant ink painting.",
 	couple_encourage = {}
 }
 
@@ -28978,28 +29522,28 @@ _G.pg.ship_skin_words[302214] = {
 	win_mvp = "",
 	home = "",
 	mission = "",
-	touch2 = "",
+	touch2 = "Why don't we focus on work for now?",
 	voice_key_2 = -1,
 	skill = "",
 	drop_descrip = "Why don't you unwind for a bit before you start reflecting on the day's happenings? I'm sure it'll be far more efficient that way.",
 	mail = "",
-	touch = "",
+	touch = "Hm? Oh, my apologies. I didn't realize you were calling for me.",
 	profile = "",
 	mission_complete = "",
 	feeling4 = "",
-	unlock = "",
+	unlock = "Why don't you unwind for a bit before you start reflecting on the day's happenings? I'm sure it'll be far more efficient that way.",
 	feeling5 = "",
-	main = "nil|nil|nil",
-	battle = "",
+	main = "What is there to drink... Maybe some tea or coffee? ...No, I mustn't. Too much caffeine will interfere with my sleep.|Even on my off days, I always end up working anyway... Maybe I'm also a workaholic, just like the Commander...|This feels just like tutoring the little destroyers. Hehe~",
+	battle = "2nd DesRon, sallying forth!",
 	upgrade = "",
 	voice_key = 0,
-	headtouch = "",
+	headtouch = "What's the matter?",
 	feeling2 = "",
-	login = "",
+	login = "Phew... Now then, let's prepare ourselves for the work ahead of us.",
 	vote = "",
 	hp_warning = "",
 	id = 302214,
-	detail = "",
+	detail = "The snacks Agano asked for... Commander's documents... and then there's Jintsuu's... Phew... Things ended up real busy...",
 	couple_encourage = {}
 }
 
@@ -29008,28 +29552,28 @@ _G.pg.ship_skin_words[302215] = {
 	feeling3 = "",
 	lose = "",
 	propose = "",
-	expedition = "",
+	expedition = "The fleet's back from completing commissions. Make sure you greet them properly before coming back here, Commander.",
 	win_mvp = "",
-	home = "",
+	home = "Welcome back. Sometimes, I don't really get how I should be treating you while in this outfit... Oh, it's the same for you? That's a relief.",
 	mission = "",
-	touch2 = "",
+	touch2 = "R-reflect on your conduct...!",
 	voice_key_2 = -1,
 	skill = "",
 	drop_descrip = "Welcom...?! What are you doing here? Wait, don't leave—I was just surprised, that's all... Well, what would you like to order?",
 	mail = "",
-	touch = "",
+	touch = "Please, take your time.",
 	profile = "",
 	mission_complete = "",
 	feeling4 = "",
-	unlock = "",
-	feeling5 = "",
-	main = "nil|nil|nil",
+	unlock = "Welcom...?! What are you doing here? Wait, don't leave—I was just surprised, that's all... Well, what would you like to order?",
+	feeling5 = "Ahem. \"How's your order, Master?\" ...Too emotionless? Then, how about, \"How's your order, Master~♪\"? ...Hey! Are you taking me for a fool?!",
+	main = "If you're lost on what to order, how about I surprise you?|I guess pigtails really do make you look considerably younger... I hate to admit it, but it's just like Agano said.|Personally prepared meals aren't part of the service provided by the café, so I leave the cooking to the manjuus, but... if you insist, I wouldn't mind doing it for you.",
 	battle = "",
 	upgrade = "",
 	voice_key = 0,
 	headtouch = "",
 	feeling2 = "",
-	login = "",
+	login = "Did you want me to call you \"Master?\" Understood... Master.",
 	vote = "",
 	hp_warning = "",
 	id = 302215,
@@ -29042,32 +29586,32 @@ _G.pg.ship_skin_words[302218] = {
 	feeling3 = "",
 	lose = "",
 	propose = "",
-	expedition = "",
-	win_mvp = "",
-	home = "",
-	mission = "",
-	touch2 = "",
+	expedition = "Next up is welcoming back everyone from the commission team, right? Let's get going.",
+	win_mvp = "I'm perfectly calm. Aren't you the one excited over the victory?",
+	home = "Welcome back. Hehe. To be honest, my feet are a bit sore. Do you think it was bad for me to wait here for you like a princess?",
+	mission = "Still getting overwhelmed by work, huh? ...Hmph, you're as clumsy as ever. Guess I'll come help too.",
+	touch2 = ".......Hmph. >///<",
 	voice_key_2 = -1,
 	skill = "",
-	drop_descrip = "Receiving everyone's blessings is truly a deeply moving experience. But for now, let's set everything else aside and partake of our sweet bliss. After all, you're not just a spectator anymore– we're in this ride together, hehe~",
-	mail = "",
-	touch = "",
+	drop_descrip = "Receiving everyone's blessings is truly a deeply moving experience. But for now, let's set everything else aside and partake of our sweet bliss. After all, you're not just a spectator anymore – we're in this ride together, hehe~",
+	mail = "Here's the mail. You know, I was thinking it'd be nice if you'd write me some... Err, n-nevermind...",
+	touch = "Hm? Oh, sorry. I didn't realize you called...",
 	profile = "",
-	mission_complete = "",
+	mission_complete = "Mission accomplished. Why don't you leave the rest to me and take a break?",
 	feeling4 = "",
-	unlock = "",
-	feeling5 = "",
-	main = "nil|nil|nil",
-	battle = "",
+	unlock = "Receiving everyone's blessings is truly a deeply moving experience. But for now, let's set everything else aside and partake of our sweet bliss. After all, you're not just a spectator anymore – we're in this ride together, hehe~",
+	feeling5 = "My face... is all red? That's probably... because of how tightly you're holding me. Don't you ever get tired of me? ...I love you, hehe~",
+	main = "I'm pretty thirsty... Maybe some tea or coffee... Wait, I shouldn't. I won't be able to sleep if I drink too much. ...Oh, the same is true for you?|What should we start off with today? ...Don't always make it about work. Isn't it about time you let me do something nice for you?|You look like you're having a hard time... If there's anything bothering me, I can hear you out, you know? If I made a face like that, Agano wouldn't let me hear the end of it... Hehe.",
+	battle = "Second Torpedo Squadron, heading out...!",
 	upgrade = "",
 	voice_key = 0,
-	headtouch = "",
+	headtouch = "What's up?",
 	feeling2 = "",
-	login = "",
+	login = "You said you'd be the one to escort me today, did you not? Here, take my hand... Mhm.",
 	vote = "",
 	hp_warning = "",
 	id = 302218,
-	detail = "",
+	detail = "Agano did say that it's important to have a certain degree of flashiness, but... isn't this carriage just overkill? Well, if you think it's apropos, I'm fine with it too. Hehe.",
 	couple_encourage = {}
 }
 
@@ -33432,6 +33976,40 @@ _G.pg.ship_skin_words[307013] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[307014] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "The commission team has returned...? Excellent. You may go now.",
+	win_mvp = "Nothing brings me more joy than being a cornerstone of the Commander's glory! Ahahahaha!",
+	home = "A toast to your splendid victory, Commander... Hehe~",
+	mission = "",
+	touch2 = "Ah, Commander... Ahahaha~♡",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "This banquet is my present to you... and your attendance is the greatest reward I could hope for~ Indeed, I shall not grant you leave tonight until you pass out. Ehehe... Ahahaha~♡",
+	mail = "",
+	touch = "Let us partake of each other's drink, Commander~",
+	profile = "",
+	mission_complete = "This reward... shall serve as an exquisite dessert to the banquet~",
+	feeling4 = "",
+	unlock = "This banquet is my present to you... and your attendance is the greatest reward I could hope for~ Indeed, I shall not grant you leave tonight until you pass out. Ehehe... Ahahaha~♡",
+	feeling5 = "",
+	main = "What's the matter, Commander? Hehe, worry not. Kaga will eliminate any pests that seek to squirm into our banquet tonight~|Oh, would you look who showed up... Do remember to be on your best behavior tonight, 5th~ Car~ Div~♪|Hiryuu, you're going to get tired from sitting in a kneeling position all night... As the Commander is perfectly relaxed here, you should also do likewise and enjoy yourself~",
+	battle = "I shall burn everything away!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Commander, are you enjoying Akagi's banquet? If it is entertainment you desire... Ehehe. You can ask me for anything, you know?",
+	vote = "",
+	hp_warning = "",
+	id = 307014,
+	detail = "Tonight, you are not allowed to meet with anyone other than me. Exchanging pleasantries...? Oh, are you not satisfied with \"exchanging pleasantries\" with Akagi alone? Hehehe~",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[307018] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -33664,6 +34242,40 @@ _G.pg.ship_skin_words[307024] = {
 	vote = "",
 	hp_warning = "",
 	id = 307024,
+	detail = "",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[307025] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "What are you doing up here?! Oh, it's you. I thought you went to see my sister? ...You needed a breath of fresh air? That's all fine, but you should return to my sister soon before she does something mad.",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "nil|nil|nil",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 307025,
 	detail = "",
 	couple_encourage = {}
 }
@@ -35704,6 +36316,40 @@ _G.pg.ship_skin_words[331052] = {
 	hp_warning = "",
 	id = 331052,
 	detail = "I've inspected the voicechat equipment. It won't cause any more problems...",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[331053] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "This doesn't seem to work in IRL battles...",
+	propose = "",
+	expedition = "Commission complete. It's time to repair and resupply up.",
+	win_mvp = "The lonesome and tragic Ayanami continues her journey, unable to find a single worthy foe.",
+	home = "",
+	mission = "Commander, there's a new mission. ...I don't mean inside the game.",
+	touch2 = "This is a \"breach of etiquette,\" I guess?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Rigging, activate!",
+	mail = "A messenger pigeon... isn't coming. It's just normal mail for you, Commander.",
+	touch = "If this was the real deal, all the nearby flora would have turned into sharp blades... But since this is just Ayanami's rigging, that's not happening, I guess.",
+	profile = "",
+	mission_complete = "Your rewards are here, yes. Don't forget to check them.",
+	feeling4 = "",
+	unlock = "I have equipped a full set of Dragon Empery Wuxia gear, yes. It may not look as cool as the in-game version, but this pleases the Ayanami. Heh.",
+	feeling5 = "",
+	main = "Just changing into this outfit makes me feel like I'm much stronger at melee combat. It's just a feeling though, yes...|Ayanami's stats are well-rounded. Javelin put all her points into external kung-fu, and Z23 put all hers into internal kung-fu. Those are crappy builds.|Akatsuki seems to be observing me with great interest... I think I should explain things to her before there's some weird misunderstanding...",
+	battle = "Kurogane Greatsword: Hullbreaker-Style!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 331053,
+	detail = "Using qing-gong to fly into the air, or firing huge sword beams... I don't know about other people, but Ayanami can't do stuff like that...",
 	couple_encourage = {}
 }
 
@@ -39834,6 +40480,40 @@ _G.pg.ship_skin_words[408051] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[408052] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "Seems you desire a \"special\" kind of concoction, huh.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "In today's chemistry lesson, we'll learn how to make a warming cup of tea and an optional concoction to enhance its flavor! Will you do the honor of taste-testing it, Commander?",
+	mail = "",
+	touch = "You'd like a refill? Coming right up!",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "In today's chemistry lesson, we'll learn how to make a warming cup of tea and an optional concoction to enhance its flavor! Will you do the honor of taste-testing it, Commander?",
+	feeling5 = "",
+	main = "And for the last step, we raise the heat a few degrees. See, brewing tea is like doing science – it takes precision.|Might it be possible to make tea from a chemical concoction? Hmm... It wouldn't really feel like tea if you made it that way... So that's tricky...|You think I seem more ladylike than usual? Heh! That's exactly what I set out to do!",
+	battle = "Looks like I've found the ingredients for my concoction!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "You wanna learn the formula? Sure thing! First you mix the contents of these beakers, then... Wait, are your hands shaking? Hahaha! Come on, it'll be fine – I'm right here!",
+	vote = "",
+	hp_warning = "",
+	id = 408052,
+	detail = "Decided I'd try on this Dragon Empery dress, in light of the season! Does it look good on me? Hehehe~",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[408060] = {
 	feeling1 = "I'm going for a ride! Tschüss~",
 	feeling3 = "Y'know, I really want to have an all-out race with the other factions' subs. I just know it's gonna get my blood pumping! How about it, Commander, wanna do me a favor? ",
@@ -40548,6 +41228,40 @@ _G.pg.ship_skin_words[501010] = {
 	}
 }
 
+_G.pg.ship_skin_words[501019] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "S-sometimes, even I want to look cool in front of my sisters... Ahem! Forget I said that!",
+	home = "Commander, if you're feeling run down, you've got to tell me.",
+	mission = "",
+	touch2 = "Eek! ...Th-this is going to be a bad influence on my sisters if they see us...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "An Shan, retrofitting complete! With this new power, Commander, I'll protect both you and my sisters! But first... Umm, I need to double-check how these missiles work...!",
+	mail = "",
+	touch = "Ehehe~♪ Urk... No, no more of that! I'm gonna float off to cloud nine!",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "An Shan, retrofitting complete! With this new power, Commander, I'll protect both you and my sisters! But first... Umm, I need to double-check how these missiles work...!",
+	feeling5 = "",
+	main = "nil|Talking to the Gnevny-class girls really brings back old memories~|Fu Shun isn't up to some mischief again, is she... Hmm, do you think I'm worrying a bit too much about my sisters?",
+	battle = "I'll show you what an all-rounder is capable of!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "There's a lot of work to get through today, but it's nothing the two of us together can't handle!",
+	vote = "",
+	hp_warning = "",
+	id = 501019,
+	detail = "You want to know more about the four of us, huh? Fu Shun's a bit of a daredevil, Chang Chun has too many \"great ideas,\" and Tai Yuan should really put herself out there a bit more. ...Hm? Me? Well... What do you think about me? Hehe~",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[501020] = {
 	feeling1 = "Yikes! Chang Chun, Tai Yuan, Commander is coming!",
 	feeling3 = "*slaps rocket* Commander, this bad boy will take you all the way over the sky. Isn't it a beaut? I made it myself. Coming down? Don't worry about that, Chang Chun and I will be there to catch you. ",
@@ -40681,6 +41395,40 @@ _G.pg.ship_skin_words[501031] = {
 	hp_warning = "",
 	id = 501031,
 	detail = "Fu Shun said she's planning to blast apart an underwater volcano to turn the entire ocean into a hot spring... Thankfully, I don't think the water is getting any warmer~",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[501039] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Good job out there, Commander. Need me to do that \"pain, pain, fly away\" thing again?",
+	mission = "",
+	touch2 = "Y'know, Commander... I always knew this was the kind of person you are...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "All done with my retrofit~ Now, time to test out my new toys... Err, I mean, time to test the firepower of my new armaments! Oh, watch your head, Commander! Wouldn't want one of the missiles to lock onto you.",
+	mail = "",
+	touch = "My gear's not the only thing different about me! I've got a new look too! Heh~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "All done with my retrofit~ Now, time to test out my new toys... Err, I mean, time to test the firepower of my new armaments! Oh, watch your head, Commander! Wouldn't want one of the missiles to lock onto you.",
+	feeling5 = "",
+	main = "Fu Shun, if An Shan finds out that you're making micromissiles, she's gonna be so pissed.|Hmm... It does feel rather breezy behind my head without my hood...|Missiles versus naval guns? Eh, there's no point comparing things from two different eras~",
+	battle = "",
+	upgrade = "Missiles, huh... I wonder if I'm stronger now.",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Commander, y'know what they say about a day's plans starting in the morning, but that adage is probably true even if it isn't morning.",
+	vote = "",
+	hp_warning = "",
+	id = 501039,
+	detail = "If we were to put this into video game terms... It's like I just got epic SSR gear! That's why you can count on me even more, Commander!",
 	couple_encourage = {}
 }
 
@@ -41587,6 +42335,357 @@ _G.pg.ship_skin_words[502051] = {
 	id = 502051,
 	detail = "That Ying Swei... Even though she knows I'm not good with the literary stuff, she still made me think up spring couplets... If it wasn't for her sake... Commander, come here and help me think of lines as well!",
 	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[502070] = {
+	feeling1 = "Please do not talk to me. I wish to be alone.",
+	feeling3 = "There are many forms of poetry, including the bold and uninhibited \"Boundless Waves\" style, as well as the gentle and reserved \"Country Jade\" style. Which do you prefer, Commander?",
+	lose = "I see... \"Even horses can stumble.\"",
+	propose = "\"Being able to find one's soulmate in the flowing river of time is the greatest blessing in life.\" Wait, um, that means we're more than just good friends.... Err, umm, I'm okay with that too... I mean, wait, give me a second to sort out my thoughts... P-please, just a moment!",
+	expedition = "It looks like the girls have returned from their commissions. Make sure you show them your gratitude.",
+	win_mvp = "\"War stains the land for a thousand miles, bullets salting the earth in its wake.\" ...When will the flames of war finally be snuffed out?",
+	home = "Commander, good work in your operation. I have prepared some nutritious tremella lotus soup for you. Please dig in... Um, did I make it too sweet...?",
+	mission = "Commander, please make sure you remember to complete all your missions today.",
+	touch2 = "H-how shameless of you...!",
+	voice_key_2 = -1,
+	skill = "\"Even mountains will move before an unbreakable spirit!\"",
+	drop_descrip = "Hai Tien-class protected cruiser – Hai Tien.",
+	mail = "Every word and letter written on this paper is a deep thought from far away...",
+	touch = "Oh, my apologies... I was thinking about the book of poems I was reading earlier. What can I do for you?",
+	profile = "I am Hai Tien, a Hai Tien-class protected cruiser from the Dragon Empery. There's not much to say about my past except perhaps... that fate was unkind to me.",
+	mission_complete = "Good work completing your missions. I'm sure the rewards will be great as well.",
+	feeling4 = "*Sigh*... Oh, my apologies, Commander. I'm perfectly fine. It's just that... I recently read some excellently-composed poems about \"reminiscence.\" I suppose I found them to be... extremely relatable.",
+	unlock = "Pleased to meet you, Commander. I am Hai Tien of the Dragon Empery. As a newcomer who knows not the customs of this place, please bear with me should I make any blunders.",
+	feeling5 = "As a commander, the winds of war may one day take you far, far away... But no matter where you are, please remember –– we will always be together under the same night sky.",
+	main = "Looks like Hai Chi is just as energetic as always. Oh... Is she a bother to you, Commander?|I left a manuscript of poetry on your desk, Commander. If you would please peruse it when you have the time.|What shall we do for dinner? Hmm... How about some mapo tofu?",
+	battle = "Is the only way to end war... through more war?",
+	upgrade = "\"To do a good job, a craftman must first have the right tools.\" Thank you very much, Commander.",
+	voice_key = 50207,
+	headtouch = "Hm? I feel perfectly fine though?",
+	feeling2 = "The beautiful part about poems is not only their rhymes and coupling, but also the many thoughts hidden between the lines... Do you have an interest in the path of poetry, Commander?",
+	login = "\"Time is worth its measure in gold.\" Commander, if you don't start your work by now, you'll end up wasting the entire day.",
+	vote = "",
+	hp_warning = "The fog's rolling in...?!",
+	id = 502070,
+	detail = "\"It is easier to relate with the despair of a wilting flower than the beauty of a blooming flower.\" ...Do you think I'm being too sentimental?",
+	couple_encourage = {
+		{
+			{
+				50208
+			},
+			1,
+			"Don't worry, I'll be fine.",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[502071] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "\"Lotus flowers blooming in a clear pond, clouds flowing through the air, a sage descends from their dwelling, playing music and dancing about.\" ...Hehe, Hai Chi's dance is something worth appreciating. If that sounds interesting to you, why don't we go watch her together?",
+	mission = "",
+	touch2 = "My, it looks like this drunkard has set their sights on something other than alcohol.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "What a serendipitous meeting this is, Commander. I was simply searching for a place where I could leisurely enjoy my poetry manuscript. Since fate has brought both of us here, why don't we accompany each other for a while?",
+	mail = "",
+	touch = "You'll hold this for me? Why, thank you very much.",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "What a serendipitous meeting this is, Commander. I was simply searching for a place where I could leisurely enjoy my poetry manuscript. Since fate has brought both of us here, why don't we accompany each other for a while?",
+	feeling5 = "",
+	main = "Just looking at all the carp in the pool, full of vigor and vitality, seems to uplift my spirit as well.|I finished writing my couplet for the Lunar New Year, and Ying Swei is preparing to transcribe it. She even said, \"We made it through without relying on Chao Ho.\" Looks like the two get along well.|I've prepared some splendid dishes for the upcoming Spring Festival banquet. Sweet and sour fish, braised pork feet, and dongpo pork... Yep, they all look good!",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Good morning, Commander. It's still early in the morning; why not rest a bit more?",
+	vote = "",
+	hp_warning = "",
+	id = 502071,
+	detail = "",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[502080] = {
+	feeling1 = "Hmph. Everything you've done and said, I'll hold against you forever!",
+	feeling3 = "If I'll ever have to make a tough life decision, I'll face it with solemn courage and thrust forward, like a river current cleaving through land! ....Hoo! Haah!",
+	lose = "Bweh... I'll get you for this!",
+	propose = "Oh my gosh! Is this for me? Hehehe~ Know that you're in safe hands with me. I promise you're not gonna regret this decision! If you didn't know, I'm the world's best housewife, bar none! Now, with our vows made, let's get started packing our belongings and go on a productivity-boosting honeymoon!",
+	expedition = "Those girls you sent out have returned! I've readied a small meal for them. An army can't march on an empty stomach, you know!",
+	win_mvp = "\"When I take the reins, none may stand before me!\"",
+	home = "Welcome back, Commander! Did the sortie take you far from home? Did anything interesting happen? Come on, I wanna know!",
+	mission = "You've got new missions! I'll do the navigating!",
+	touch2 = "Oh, you are so gonna get an earful from my sister for this!",
+	voice_key_2 = -1,
+	skill = "Hi-yah! We'll scatter you like petals in the current!",
+	drop_descrip = "Hai Tien-class protected cruiser – Hai Chi.",
+	mail = "Commander! A horseback messenger brought this – a letter for you!",
+	touch = "Commander, if there's anything on your mind, just say it to me straight away!",
+	profile = "I'm Hai Chi, Hai Tien-class protected cruiser number two. With how different we are, you almost wouldn't believe Hai Tien and I are sisters. She likes staying indoors and reading, while I prefer getting out and going places! \"Wiser is she who travels ten thousand miles than she who reads ten thousand books,\" after all!",
+	mission_complete = "Mission complete! Might I interest you in a dramatic performance during breaktime?",
+	feeling4 = "We have a saying in the Dragon Empery, \"the time spent sharpening your axe is made back multifold on the job.\" In other words, taking some time to rest makes you more productive in the end! So, with that in mind... How about we go on a journey right now?",
+	unlock = "You're the Commander? Hahah, I've heard all about you! Oh right, I forgot to introduce myself! I'm Hai Chi, Hai Tien-class cruiser. My two favorite things are traditional opera and going on trips! ...But, let's cut the chit-chat. You'll learn more about me soon enough anyway!",
+	feeling5 = "If I've put you off with my habit to say whatever pops into my mind, then... sorry! Then again, you've known me for so long you must be used to it by now. Right? Hehehe~",
+	main = "Do you have any interest in Dragon Empery's traditional opera? In that case, I'd be glad to show you an example. What sort of piece would you want me to perform?|My sister's pretty reserved, but I don't shy away from speaking my mind. Comes as naturally to me as breathing!|The Dragon Empery has a proverb that goes, \"it is never too late for the noble to take revenge,\" but personally, I disagree! If you don't set wrongdoers straight right away, they'll only be emboldened!",
+	battle = "Forward in formation! \"Let not a single scrap of armor remain of our enemies!\"",
+	upgrade = "\"Spare no expense. Even a dull blade can shine bright,\" right?",
+	voice_key = 50208,
+	headtouch = "You like my hair ornament? Thanks, but no touching, please.",
+	feeling2 = "I wonder what gift I should buy for Hai Tien on my next trip... Wait, I've got it! The same as usual – a yummy snack!",
+	login = "\"A sharp mind is honed through diligence and dulled by indolence.\" Commander, you'd better get ready to give it your all today!",
+	vote = "",
+	hp_warning = "Gah... Don't you dare underestimate me!",
+	id = 502080,
+	detail = "Are you a cat person, Commander? Cats are actually quite clever. If you're ever struggling to choose between two things, just let a cat decide. The results may surprise you!",
+	couple_encourage = {
+		{
+			{
+				50207
+			},
+			1,
+			"Stay focused, sis!",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[502081] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "\"Clouds of fog sail the air as pond lotuses bloom. The mountain recluse descends from the sky to play a melody.\" My sis composed this little poem on the spur of the moment and I wrote it down!",
+	mission = "",
+	touch2 = "Ugh, Commander! This is NOT how you treat a goddess!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Look, Commander! I've become a goddess from the Dragon Empery's folklore! Hehehe! Let me perform for you a song and dance number I just learned!",
+	mail = "",
+	touch = "You've fallen for my goddess-like looks, haven't you~? Hehehe, it's okay to come out and admit it~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Look, Commander! I've become a goddess from the Dragon Empery's folklore! Hehehe! Let me perform for you a song and dance number I just learned!",
+	feeling5 = "",
+	main = "This act – known as the \"behind-back pipa\" – takes serious skill. You can't pull it off with half-baked effort!|Allow me to play you a song on my pipa! Full disclosure though: I only started learning it a while ago. If something sounds off, don't be afraid to point it out!|Struggling with poetic rhymes? Ask my sis, she can produce ten verses without even thinking about it! No, seriously!",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Welcome, Commander! I'll be performing a Dragon Empery dance at the port later today. Wanna come watch?",
+	vote = "",
+	hp_warning = "",
+	id = 502081,
+	detail = "For this part, I guess I should pose like... this? Ah, you're back, Commander? Perfect! Could you watch for a sec and tell me if my moves are on-point?",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[506010] = {
+	feeling1 = "Seems like I set the bar too high for you.",
+	feeling3 = "War isn't fair. Backstab your enemy. Think two or three steps ahead of them, read their every move. Then... BAM! Victory comes just like that. Hehe.",
+	lose = "Ugh, just one move behind... While I hate conceding defeat, there won't be a next time. Hehe...",
+	propose = "What's this? ...Hehe, I didn't expect this sneak attack from you... Or rather, you're the only person who could pull something like this off. Looking at it that way, maybe I had predicted this all along... right?",
+	expedition = "The commission fleet is back, huh... Increasing our stockpiles, replenishing our forces, adding another card to our hand. A good play indeed.",
+	win_mvp = "The enemy has lost their will to fight. Heh, guess that's all they had to show.",
+	home = "Good job on making it back in one piece. I went over your last battle, and while it was excellent overall, there are many areas that can still be improved... So let's review those right now?",
+	mission = "Don't forget to finish up your missions. When it comes back to bite you in the ass, it'll already be too late.",
+	touch2 = "You certainly have guts.",
+	voice_key_2 = -1,
+	skill = "Exploit their weaknesses, and catch them by surprise!",
+	drop_descrip = "Seaplane carrier - Chen Hai.",
+	mail = "A competent commander should never neglect potentially important information.",
+	touch = "What's the matter? ...You're not here just to have a little chat, are you?",
+	profile = "I am the Dragon Empery's first seaplane carrier, Chen Hai. I've received many other \"firsts,\" but those aren't exactly honors. I still have a long way to go before I can match up to real aircraft carriers.",
+	mission_complete = "Mission complete. Now that you've removed another obstacle in front of you, what will your next move be?",
+	feeling4 = "I'm starting to get bored of our regular old sessions of Go. Let's spice things up a little bit... I know just the thing. How about, if you can take a game off me, I'll grant you one wish.",
+	unlock = "So you're the brains behind the operation here, huh? ...Hehe, I finally get to meet the legendary Commander face-to-face. It's an honor to be able to work with you. I trust you'll live up to your lofty expectations?",
+	feeling5 = "Oh my, how could a seasoned strategist like me make such a silly blunder... Hehe, in any case, congratulations on your win. As promised, I'll grant you your one wish. Anything goes. Hehehe...",
+	main = "Are you deep in thought about something? Or... just spacing out? Oh, I see. You're trying to look cute, hehe.|My eyes look a bit scary when I'm thinking about something? ...How do you know that isn't just one of my many faces?|Feign strength if you must, feign weakness if you must. Whatever the case, do not ever let your enemy see through your trump card.",
+	battle = "The moment the enemies let their guard down–– is the moment you strike!",
+	upgrade = "I prefer being the one pulling the strings, but fine.",
+	voice_key = -1,
+	headtouch = "I must say... this behavior is rather unexpected.",
+	feeling2 = "The more you win, the harder it'll be for you to review your own moves objectively. Even if you're winning, never forget to continue studying your past experiences.",
+	login = "How's the port supposed to run when the decisionmaker's seat is vacant? C'mon, sit down already.",
+	vote = "",
+	hp_warning = "Nothing ventured, nothing gained...!",
+	id = 506010,
+	detail = "If you're not busy, then... come here, let's play a match of Go? No need to have a turn timer or keep track of winners and losers. Let's just kill some time, hehe.",
+	couple_encourage = {
+		{
+			{
+				50204,
+				50205,
+				50208
+			},
+			1,
+			"My, some familiar faces.",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[506011] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "You're here, Commander, just as promised. How do you like the atmosphere in here? Hehe, take a seat and enjoy the tea slowly. After all, we have plenty of time~",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "nil|nil|nil",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 506011,
+	detail = "",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[520000] = {
+	feeling1 = "指挥官，我在渤海湾养的山楂到花期了，可以回去看看吗？",
+	feeling3 = "即使有一天不再需要我去战斗，我也想永远守望着渤海，永远眺望着被晚霞染红的海面……",
+	lose = "整军再战，我们决不能就此退缩！",
+	propose = "指挥官，我的生命、我的躯体、我的灵魂，从今以后都将归属于你。你可要，好好地承担起这份责任哦",
+	expedition = "太好了，全员安全回港！",
+	win_mvp = "能帮到指挥官真是太好了！",
+	home = "稍微休息一下吧，精神一直紧绷着可不好",
+	mission = "为了守护和平，完成这些任务也是必要的",
+	touch2 = "喂——妹妹们可能会看到啊",
+	voice_key_2 = -1,
+	skill = "吾德天助，前后遮罗",
+	drop_descrip = "鞍山级驱逐舰1号舰—鞍山，舷号101",
+	mail = "指挥官，有新的信件，需要我代为拆阅吗？",
+	touch = "指挥官……嘻嘻，偶尔这样也不错呢",
+	profile = "东煌鞍山级驱逐舰首舰“鞍山”号，东煌第一代“四大金刚”之首。作为长姐（旗舰），参加过诸多演习、监视和对峙，并都取得了足以自豪的成绩。虽然没有经历过实战，但我可是世界上行驶里程最远的驱逐舰之一哦",
+	mission_complete = "再接再厉，还不能松懈！",
+	feeling4 = "指挥官，请放心，无论你前往哪里，我都会跟在你身边守护你。嗯？那当然是因为你是我的……",
+	unlock = "驱逐舰“鞍山”号报到。妹妹们与指挥官就由我来守护！",
+	feeling5 = "能遇到指挥官真是太好了，结识了各种各样的朋友，产生了多姿多彩的回忆……呐，指挥官，等我卸下“四大金刚”的职责后，一起去环游世界吧！",
+	main = "哇，我还是第一次见到战列舰|抚顺跑哪去了？多少听听姐姐的话啊…|抚顺、长春、太原，不管哪个都是令我骄傲的妹妹！",
+	battle = "你们是为了什么而战斗呢？",
+	upgrade = "这样对付“狄海文”之流就更加得心应手了",
+	voice_key = 52000,
+	headtouch = "",
+	feeling2 = "指挥官，为了守护重要的事物，战斗是必要的。这可不是个人喜好问题",
+	login = "今天的事项表也很满，一起加油吧！",
+	vote = "",
+	hp_warning = "指挥官，集中精神、加倍小心！",
+	id = 520000,
+	detail = "指挥官，你想知道些什么呢？",
+	couple_encourage = {
+		{
+			{
+				50102
+			},
+			1,
+			"不要乱跑，来姐姐这边",
+			0
+		},
+		{
+			{
+				50103
+			},
+			1,
+			"记住，在战场上再谨慎也不为过！",
+			0
+		},
+		{
+			{
+				50104
+			},
+			1,
+			"再勇敢一点！对！就是这样！",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[521000] = {
+	feeling1 = "指挥官，我在渤海湾养的山楂到花期了，可以回去看看吗？",
+	feeling3 = "即使有一天不再需要我去战斗，我也想永远守望着渤海，永远眺望着被晚霞染红的海面……",
+	lose = "整军再战，我们决不能就此退缩！",
+	propose = "指挥官，我的生命、我的躯体、我的灵魂，从今以后都将归属于你。你可要，好好地承担起这份责任哦",
+	expedition = "太好了，全员安全回港！",
+	win_mvp = "能帮到指挥官真是太好了！",
+	home = "稍微休息一下吧，精神一直紧绷着可不好",
+	mission = "为了守护和平，完成这些任务也是必要的",
+	touch2 = "喂——妹妹们可能会看到啊",
+	voice_key_2 = -1,
+	skill = "吾德天助，前后遮罗",
+	drop_descrip = "鞍山级驱逐舰1号舰—鞍山，舷号101",
+	mail = "指挥官，有新的信件，需要我代为拆阅吗？",
+	touch = "指挥官……嘻嘻，偶尔这样也不错呢",
+	profile = "东煌鞍山级驱逐舰首舰“鞍山”号，东煌第一代“四大金刚”之首。作为长姐（旗舰），参加过诸多演习、监视和对峙，并都取得了足以自豪的成绩。虽然没有经历过实战，但我可是世界上行驶里程最远的驱逐舰之一哦",
+	mission_complete = "再接再厉，还不能松懈！",
+	feeling4 = "指挥官，请放心，无论你前往哪里，我都会跟在你身边守护你。嗯？那当然是因为你是我的……",
+	unlock = "驱逐舰“鞍山”号报到。妹妹们与指挥官就由我来守护！",
+	feeling5 = "能遇到指挥官真是太好了，结识了各种各样的朋友，产生了多姿多彩的回忆……呐，指挥官，等我卸下“四大金刚”的职责后，一起去环游世界吧！",
+	main = "哇，我还是第一次见到战列舰|抚顺跑哪去了？多少听听姐姐的话啊…|抚顺、长春、太原，不管哪个都是令我骄傲的妹妹！",
+	battle = "你们是为了什么而战斗呢？",
+	upgrade = "这样对付“狄海文”之流就更加得心应手了",
+	voice_key = 52100,
+	headtouch = "",
+	feeling2 = "指挥官，为了守护重要的事物，战斗是必要的。这可不是个人喜好问题",
+	login = "今天的事项表也很满，一起加油吧！",
+	vote = "",
+	hp_warning = "指挥官，集中精神、加倍小心！",
+	id = 521000,
+	detail = "指挥官，你想知道些什么呢？",
+	couple_encourage = {
+		{
+			{
+				50102
+			},
+			1,
+			"不要乱跑，来姐姐这边",
+			0
+		},
+		{
+			{
+				50103
+			},
+			1,
+			"记住，在战场上再谨慎也不为过！",
+			0
+		},
+		{
+			{
+				50104
+			},
+			1,
+			"再勇敢一点！对！就是这样！",
+			0
+		}
+	}
 }
 
 _G.pg.ship_skin_words[601020] = {
@@ -50470,6 +51569,40 @@ _G.pg.ship_skin_words[9706010] = {
 	hp_warning = "Tis but a scratch...!",
 	id = 9706010,
 	detail = "I can't just sit on my ass all day! Commander, don't you have any information about where the Sirens will pop up next?!",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[9706020] = {
+	feeling1 = "I'm a grown woman now. It's time to put my childhood behind...",
+	feeling3 = "Commander... How do you feel about lifelong friends? Err, I mean, in the context of fictional stories... and things like that...",
+	lose = "Whatever comes next, I've made my peace...",
+	propose = "Thank you, Commander. This proves to me that our relationship is real – that it has ALWAYS been real – and not some figment of my imagination... I want to be with you, now and forever.",
+	expedition = "A commission has been completed. Do you mind if I go see them on your behalf...?",
+	win_mvp = "One tiny little victory... won't be enough...",
+	home = "Hello. Good to see you... back in one piece.",
+	mission = "We should strive to complete our missions.",
+	touch2 = "Whuh?! I'm... I'm not...!",
+	voice_key_2 = -1,
+	skill = "Out of my way!",
+	drop_descrip = "",
+	mail = "There's mail for you. Please check it as soon as you can.",
+	touch = "I don't understand what you want...",
+	profile = "I'm not sure what you want to hear from me... but ask me about my past, and I'm afraid you'll be disappointed... Because I simply have no answers.",
+	mission_complete = "Mission complete. Don't you think... we work astonishingly well together?",
+	feeling4 = "What if... Just speculating, of course, but... What if you and I had known each other since long ago...? Things would be a lot different to how are they now... wouldn't they?",
+	unlock = "I'm... Junyou. Please give me your orders... Commander.",
+	feeling5 = "We may not be genuine lifelong friends, but that doesn't matter anymore... We've been through so much that we've grown as close as best friends like you see in fiction! ...I mean, right?",
+	main = "I see Hiyou hasn't changed... She still revels in war.|Focus on yourself. Focus... Ah, um, I'm meditating. Please leave me alone for a while...|These shikigami planes are my weapon of choice against the Sirens. Only I can control them. No one else may touch them... No one...",
+	battle = "Here I come!",
+	upgrade = "Thank you.",
+	voice_key = 970602,
+	headtouch = "Ahh... *blushes*",
+	feeling2 = "Oh, uh... S-sorry, I didn't mean to stare... I'm just thinking about what-ifs and what-could-have-beens...",
+	login = "You're back. Are you about to start working? I promise I won't be a nuisance.",
+	vote = "",
+	hp_warning = "An approach this direct is bound to fail...!",
+	id = 9706020,
+	detail = "How would you react... if I told you we've been lifelong friends, and... N-never mind. Please forget I said anything.",
 	couple_encourage = {}
 }
 

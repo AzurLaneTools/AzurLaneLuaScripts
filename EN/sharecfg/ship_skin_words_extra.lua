@@ -7352,6 +7352,254 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[101490] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		profile = "",
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		feeling1 = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		id = 101490,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Investigation complete! Nothing seems out of order in the office. Welcome back, Commander!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"There's... kelp on my head... Agghh... No regrets..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Nice going out there, Commander! Did you come across any places warranting an investigation?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Feels like you just charged me up with energy! Your touch is like magic, Commander~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"nil|nil|nil|Kelp is really gross to me... Never mind eating it, I can't even touch the stuff!|Data 857 and I are ready to go, just give us the word! ...It's not time just yet? Fine... I'll check my gear again in the meanwhile!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"My tie's all crooked? Thanks for telling me!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"S-so that's your favorite part of me, huh..."
+			}
+		}
+	},
+	[502080] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		mission = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 502080,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Let's get to work, Commander! The faster we get it done, the sooner we can do other stuff! It's as easy as that!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Where'd you go this time, Commander? The stories about your journeys are as interesting to me as dramatic operas!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"nil|nil|nil|Commander! You should definitely come watch my next spear dance performance! I guarantee your jaw will drop when you see it! Hehehe~|\"Reward the righteous and punish the wicked, and you will live neither indebted nor in regret.\" That's my motto! You can't go easy on wrongdoers – they'll only keep pushing the boundary of what they can get away with!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Being upfront about your feelings is good, b-but I'd appreciate at least a little restraint!"
+			}
+		}
+	},
+	[502070] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		id = 502070,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Let what should be done today not burden you tomorrow. Commander, let's both strive to reject procrastination."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"It would appear that the winds of fortune favor us today. Hehe~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hmph... I'm not a child anymore..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"nil|nil|nil|The Dragon Empery has produced countless beautiful works that evoke the imagery of love, such as red beans symbolizing fidelity, and the ever-famous mandarin ducks... Hehe, maybe we should recite some love poem together, Commander?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Whether you'd like to discuss some poetry or simply chat for a bit, I'd love to spend some time with you."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ah, um, at least let me prepare myself..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"It is quite natural for me to be in high spirits. After all, my beloved is by my side, your warmth imbuing me with a happiness that overflows without cessation. What cause could I possibly have to be displeased? And just like me, I hope that as long as I remain by your side, your precious smile will never fade away~♪"
+			}
+		}
+	},
+	[202300] = {
+		main_extra = "",
+		feeling3 = "",
+		mail = "",
+		feeling4 = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 202300,
+		feeling1 = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Heehee, it's adorable how devoted you are to your job, Master~ Sorry, I'll go and prepare the documents right away."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'll say it once again. Ahem... An elegant victory, just the way your maid does it!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I won't let you be swallowed up by the sea! Grab my hand!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Master, allow me to take your coat~ Here's a towel, a warm cup of coffee, and a hug from me~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Master, does it feel good~? Heehee, since we're fine on time, I'll keep on pampering you more and more~"
+			}
+		},
+		main = {
+			{
+				1100,
+				"May your mission today be successful, and may you return safe and sound... All right, Master. Everything is bound to go swimmingly!|I-is there really nothing I can do to help...? I can't believe you'd just leave me with nothing to do like this... There's no way this should be allowed... Masterrrr...|Master, let's check on this report together... You can't see the report because my chest is in the way? Oh goodness... I'm sorry..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Master? Whenever, wherever, please leave everything to me~!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Master, I've received word that there's a new mission for you. Though, it looks like you were already aware of it... I-it was Dido who informed you about it?!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh Master, you~ Heehee♡"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Thank you for waiting, my dear Master. Heehee, you seem pretty tired... Hah! I'll pet you on the head today. Good work, good work~ I'm not going anywhere, so just sit tight and let my affection warm you up~!"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -7468,6 +7716,10 @@ pg.ship_skin_words_extra = {
 		402060,
 		405030,
 		406020,
-		408120
+		408120,
+		101490,
+		502080,
+		502070,
+		202300
 	}
 }

@@ -1,10 +1,5 @@
 slot0 = class("ActivityBossBattleFleetSelectSubPanel", import("view.base.BaseSubPanel"))
 slot1 = {
-	vanguard = 1,
-	submarine = 3,
-	main = 2
-}
-slot2 = {
 	"ship_formationUI_fleetName_easy",
 	"ship_formationUI_fleetName_normal",
 	"ship_formationUI_fleetName_hard",

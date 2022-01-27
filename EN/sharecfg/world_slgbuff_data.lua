@@ -2504,6 +2504,54 @@ pg.world_SLGbuff_data = {
 		trap_parameter = {},
 		delete_traptype = {}
 	},
+	[4010] = {
+		buff_type = 2,
+		name = "Bulwark of Strength",
+		id = 4010,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "A special barrier deployed by Arbiter: Strength VIII during combat.\nWhile the barrier is in effect, Arbiter: Strength VIII takes 25.0% decreased DMG from shelling and airstrikes, but will also inflict 15.0% less DMG.\nThe barrier can absorb up to 160,000 HP and can only be deployed once.",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5010",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
+	[4020] = {
+		buff_type = 2,
+		name = "Corrosive Haze",
+		id = 4020,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "A hazardous substance spread by Arbiter: The Hermit IX during combat. \nShips that enter the corrosive haze have their SPD reduced by 12.0% and their ACC reduced by 200.",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5020",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
 	all = {
 		1,
 		2,
@@ -2601,6 +2649,8 @@ pg.world_SLGbuff_data = {
 		2500,
 		2510,
 		2520,
-		4000
+		4000,
+		4010,
+		4020
 	}
 }

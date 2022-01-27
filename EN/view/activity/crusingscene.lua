@@ -1,5 +1,4 @@
 slot0 = class("CrusingScene", import("view.base.BaseUI"))
-slot0.PASS_ID = 1001
 slot0.optionsPath = {
 	"top/home"
 }
@@ -28,11 +27,29 @@ slot0.PhaseFrameDic = {
 		[100.0] = 410,
 		[30.0] = 120,
 		[80.0] = 362
+	},
+	map_202202 = {
+		[0] = 410,
+		[50.0] = 606,
+		[40.0] = 570,
+		[100.0] = 860,
+		[70.0] = 716,
+		[60.0] = 664,
+		[20.0] = 490,
+		[80.0] = 772,
+		[90.0] = 812,
+		[10.0] = 450,
+		[30.0] = 530
 	}
 }
+slot0.AnimFrameAll = {
+	map_202112 = 410,
+	map_202110 = 1260,
+	map_202202 = 900
+}
 
-function slot0.getPhaseFrame(slot0, slot1)
-	return setmetatable(Clone(uv0.PhaseFrameDic[slot1]), {
+function slot0.GetPhaseFrame(slot0)
+	return setmetatable(Clone(uv0.PhaseFrameDic[slot0]), {
 		__index = function (slot0, slot1)
 			slot2 = 0
 			slot3 = 100
@@ -51,7 +68,7 @@ function slot0.getPhaseFrame(slot0, slot1)
 
 			return (1 - slot4) * slot0[slot2] + slot4 * slot0[slot3]
 		end
-	})
+	}), uv0.AnimFrameAll[slot0]
 end
 
 slot0.FrameSpeed = 10
@@ -68,9 +85,9 @@ function slot0.preload(slot0, slot1)
 
 	slot4:GetPrefab("crusingmap/" .. slot2:getConfig("config_client").map_name, "", true, function (slot0)
 		uv0.rtMap = tf(slot0)
-		uv0.PhaseFrame = uv0:getPhaseFrame(uv1)
+		uv0.PhaseFrame, uv0.AllFrameCount = uv1.GetPhaseFrame(uv2)
 
-		uv2()
+		uv3()
 	end)
 end
 
@@ -444,7 +461,7 @@ function slot0.updateMapWay(slot0)
 			slot7.speed = uv0.PlaySpeed
 
 			slot7:Play("empty")
-			slot7:Play("mix", 0, slot0.PhaseFrame[slot1] / slot0.PhaseFrame[#slot0.awardList])
+			slot7:Play("mix", 0, slot0.PhaseFrame[slot1] / slot0.AllFrameCount)
 
 			if slot6.rtIcon:Find("model").childCount > 0 then
 				SetAction(slot6.rtIcon:Find("model"):GetChild(0), "move")
@@ -453,17 +470,21 @@ function slot0.updateMapWay(slot0)
 			slot10 = nil
 			slot0.LTDic[LeanTween.delayedCall((slot9 - slot8) / uv0.FrameSpeed / uv0.PlaySpeed, System.Action(function ()
 				uv0.speed = 0
-				uv1.LTDic[uv2] = false
 
-				if uv3.rtIcon:Find("model").childCount > 0 then
-					SetAction(uv3.rtIcon:Find("model"):GetChild(0), "normal")
+				uv0:Play("empty")
+				uv0:Play("mix", 0, uv1 / uv2.AllFrameCount)
+
+				uv2.LTDic[uv3] = false
+
+				if uv4.rtIcon:Find("model").childCount > 0 then
+					SetAction(uv4.rtIcon:Find("model"):GetChild(0), "normal")
 				end
 			end)).uniqueId] = true
 		else
 			slot7.speed = 0
 
 			slot7:Play("empty")
-			slot7:Play("mix", 0, slot0.PhaseFrame[slot0.phase] / slot0.PhaseFrame[#slot0.awardList])
+			slot7:Play("mix", 0, slot0.PhaseFrame[slot0.phase] / slot0.AllFrameCount)
 		end
 	end
 end
@@ -544,56 +565,56 @@ function slot0.checkLimitMax(slot0, slot1)
 end
 
 function slot0.openBuyPanel(slot0)
-	slot1 = Goods.Create({
-		shop_id = uv0.PASS_ID
+	slot2 = Goods.Create({
+		shop_id = slot0:getPassID()
 	}, Goods.TYPE_CHARGE)
-	slot2 = slot1:getConfig("tag")
-	slot3 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
+	slot3 = slot2:getConfig("tag")
+	slot4 = underscore.map(slot2:getConfig("extra_service_item"), function (slot0)
 		return {
 			type = slot0[1],
 			id = slot0[2],
 			count = slot0[3]
 		}
 	end)
-	slot4 = nil
-	slot5 = slot1:getConfig("sub_display")
-	slot6 = slot5[1]
-	slot7 = pg.battlepass_event_pt[slot6].pt
-	slot4 = {
+	slot5 = nil
+	slot6 = slot2:getConfig("sub_display")
+	slot7 = slot6[1]
+	slot8 = pg.battlepass_event_pt[slot7].pt
+	slot5 = {
 		type = DROP_TYPE_RESOURCE,
-		id = pg.battlepass_event_pt[slot6].pt,
-		count = slot5[2]
+		id = pg.battlepass_event_pt[slot7].pt,
+		count = slot6[2]
 	}
-	slot3 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot6].drop_client_pay, function (slot0)
+	slot4 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot7].drop_client_pay, function (slot0)
 		return {
 			type = slot0[1],
 			id = slot0[2],
 			count = slot0[3]
 		}
 	end))
-	slot9 = nil
+	slot10 = nil
 
-	if slot1:getConfig("gem") + slot1:getConfig("extra_gem") > 0 then
-		table.insert(slot3, {
+	if slot2:getConfig("gem") + slot2:getConfig("extra_gem") > 0 then
+		table.insert(slot4, {
 			id = 4,
 			type = 1,
-			count = slot8
+			count = slot9
 		})
 	end
 
 	slot0:emit(CrusingMediator.EVENT_GO_CHARGE, {
 		isChargeType = true,
-		icon = "chargeicon/" .. slot1:getConfig("picture"),
-		name = slot1:getConfig("name_display"),
+		icon = "chargeicon/" .. slot2:getConfig("picture"),
+		name = slot2:getConfig("name_display"),
 		tipExtra = i18n("battlepass_pay_tip"),
-		extraItems = slot3,
-		price = usMoneyFormat(slot1:getConfig("money")),
-		tagType = slot2,
-		isMonthCard = slot1:isMonthCard(),
+		extraItems = slot4,
+		price = usMoneyFormat(slot2:getConfig("money")),
+		tagType = slot3,
+		isMonthCard = slot2:isMonthCard(),
 		tipBonus = nil,
-		bonusItem = slot9,
-		extraDrop = slot4,
-		descExtra = slot1:getConfig("descrip_extra"),
+		bonusItem = slot10,
+		extraDrop = slot5,
+		descExtra = slot2:getConfig("descrip_extra"),
 		onYes = function ()
 			if ChargeConst.isNeedSetBirth() then
 				uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
@@ -604,6 +625,16 @@ function slot0.openBuyPanel(slot0)
 			end
 		end
 	})
+end
+
+function slot0.getPassID(slot0)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot2:isEnd() then
+		for slot6, slot7 in pairs(pg.pay_data_display) do
+			if slot7.sub_display and type(slot7.sub_display) == "table" and slot7.sub_display[1] == slot2.id then
+				return slot6
+			end
+		end
+	end
 end
 
 return slot0

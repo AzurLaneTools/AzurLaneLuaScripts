@@ -101,7 +101,7 @@ function slot0.getTypesStr(slot0)
 	else
 		slot4 = ""
 
-		for slot8, slot9 in ipairs(slot2) do
+		for slot8, slot9 in ipairs(ShipType.FilterOverQuZhuType(slot2)) do
 			slot4 = slot4 .. slot1[slot9].type_name .. (slot8 == #slot0.template.ship_type and "" or ", ")
 		end
 

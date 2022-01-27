@@ -336,6 +336,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[136] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "Win 1 battle with Junyou META in your fleet.",
+		id = 136,
+		target_num = 1,
+		target_id = "0"
+	},
+	[137] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Junyou META in your fleet.",
+		id = 137,
+		target_num = 1,
+		target_id = "30"
+	},
+	[138] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Junyou META in your fleet.",
+		id = 138,
+		target_num = 1,
+		target_id = "55"
+	},
+	[139] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Junyou META in your fleet.",
+		id = 139,
+		target_num = 1,
+		target_id = "80"
+	},
+	[140] = {
+		target_id_2 = "970602",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Junyou META in your fleet.",
+		id = 140,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -560,6 +600,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[228] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Junyou META in your fleet.",
+		id = 228,
+		target_num = 1,
+		target_id = "0"
+	},
+	[229] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Junyou META in your fleet.",
+		id = 229,
+		target_num = 1,
+		target_id = "70"
+	},
+	[230] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Junyou META in your fleet.",
+		id = 230,
+		target_num = 1,
+		target_id = "90"
+	},
+	[231] = {
+		target_id_2 = "970602",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Junyou META in your fleet.",
+		id = 231,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -619,6 +691,11 @@ pg.task_meta_data_template = {
 		133,
 		134,
 		135,
+		136,
+		137,
+		138,
+		139,
+		140,
 		200,
 		201,
 		202,
@@ -647,6 +724,10 @@ pg.task_meta_data_template = {
 		225,
 		226,
 		227,
+		228,
+		229,
+		230,
+		231,
 		301,
 		302
 	}

@@ -395,7 +395,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.equipSkinFilteBtn, function ()
 		uv0:emit(EquipmentMediator.OPEN_EQUIPSKIN_INDEX_LAYER, {
 			display = {
-				equipSkinIndex = IndexConst.FlagRange2Bits(IndexConst.EquipSkinIndexAll, IndexConst.EquipSkinIndexAircraft),
+				equipSkinIndex = IndexConst.FlagRange2Bits(IndexConst.EquipSkinIndexAll, IndexConst.EquipSkinIndexAux),
 				equipSkinTheme = IndexConst.FlagRange2Str(IndexConst.EquipSkinThemeAll, IndexConst.EquipSkinThemeEnd)
 			},
 			equipSkinSort = uv0.equipSkinSort or IndexConst.EquipSkinSortType,

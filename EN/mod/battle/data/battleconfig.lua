@@ -255,7 +255,9 @@ slot0.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.ZiBao] = "accuracyToShipType_16",
 	[ShipType.QianMu] = "accuracyToShipType_17",
 	[ShipType.ChaoXun] = "accuracyToShipType_18",
-	[ShipType.Yunshu] = "accuracyToShipType_19"
+	[ShipType.Yunshu] = "accuracyToShipType_19",
+	[ShipType.DaoQuV] = "accuracyToShipType_20",
+	[ShipType.DaoQuM] = "accuracyToShipType_21"
 }
 slot0.OXY_RAID_BASE_LINE_PVE = -20
 slot0.OXY_RAID_BASE_LINE_PVP = -20
@@ -276,6 +278,12 @@ slot0.VAN_SONAR_PROPERTY = {
 		a = 2.86,
 		minRange = 30,
 		b = 0
+	},
+	[ShipType.DaoQuV] = {
+		maxRange = 100,
+		a = 2,
+		minRange = 45,
+		b = 32
 	}
 }
 slot0.MAIN_SONAR_PROPERTY = {
@@ -372,6 +380,14 @@ slot0.TARGET_SELECT_PRIORITY = {
 	C14_highlight = 11,
 	farthest = 999,
 	xuzhang_hude = 1
+}
+slot0.EQUIPMENT_ACTIVE_LIMITED_BY_TYPE = {
+	[31] = {
+		21
+	},
+	[32] = {
+		20
+	}
 }
 slot0.SWEET_DEATH_NATIONALITY = {
 	107

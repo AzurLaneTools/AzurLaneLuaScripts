@@ -227,16 +227,25 @@ function slot0.loadSpineAnimator(slot0, slot1, slot2, slot3)
 end
 
 function slot0.MakeBoat(slot0, slot1, slot2)
-	slot3 = PoolMgr.GetInstance()
+	slot3 = SpineRole.New(slot1.rawShip)
 
-	slot3:GetSpineChar(slot1:getPrefab(), true, function (slot0)
+	slot3:Load(function ()
 		if not uv0.isExist then
-			slot0.name = "model"
-			rtf(slot0).sizeDelta = Vector2.New(200, 500)
-			slot1 = GameObject("char_" .. uv1.id)
+			slot0 = uv1
 
-			slot1:AddComponent(typeof(RectTransform))
-			SetParent(slot0, slot1)
+			slot0:ModifyName("model")
+
+			slot0 = uv1
+
+			slot0:SetSizeDelta(Vector2.New(200, 500))
+
+			slot0 = GameObject("char_" .. uv2.id)
+
+			slot0:AddComponent(typeof(RectTransform))
+
+			slot1 = uv1
+
+			slot1:SetParent(slot0)
 			parallelAsync({
 				function (slot0)
 					uv0:LoadBoatEffect(uv1, uv2, slot0)
@@ -248,7 +257,7 @@ function slot0.MakeBoat(slot0, slot1, slot2)
 					uv0:LoadBoatMask(uv1, uv2, slot0)
 				end
 			}, function ()
-				uv0(uv1)
+				uv0(uv1, uv2)
 			end)
 		end
 	end)
@@ -270,31 +279,10 @@ function slot0.LoadBoatMask(slot0, slot1, slot2, slot3)
 end
 
 function slot0.LoadBoatEffect(slot0, slot1, slot2, slot3)
-	slot5 = {}
+	slot4 = slot2:getAttachmentPrefab()
 
 	SetParent(GameObject("_effect_"), slot1)
-
-	for slot10, slot11 in pairs(slot2:getAttachmentPrefab()) do
-		if slot11.attachment_cusual[1] ~= "" then
-			table.insert(slot5, function (slot0)
-				slot1 = ResourceMgr.Inst
-
-				slot1:getAssetAsync("Effect/" .. uv0, uv0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-					if not uv0.isExist then
-						slot1 = Object.Instantiate(slot0)
-
-						tf(slot1):SetParent(tf(uv1))
-
-						tf(slot1).localPosition = BuildVector3(uv2.attachment_cusual[2])
-					end
-
-					uv3()
-				end), true, true)
-			end)
-		end
-	end
-
-	parallelAsync(slot5, slot3)
+	parallelAsync({}, slot3)
 end
 
 function slot0.LoadBoatPart(slot0, slot1, slot2, slot3)

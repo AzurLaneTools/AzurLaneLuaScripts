@@ -188,7 +188,7 @@ function slot0.setShip(slot0, slot1)
 		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot0._shipVO.groupId, 1) then
 			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
 				point = pg.fleet_tech_ship_template[slot0._shipVO.groupId].pt_get,
-				typeList = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_shiptype,
+				typeList = ShipType.FilterOverQuZhuType(pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_shiptype),
 				attr = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_attr,
 				value = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_value
 			})

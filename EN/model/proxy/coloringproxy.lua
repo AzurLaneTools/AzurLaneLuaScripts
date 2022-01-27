@@ -42,11 +42,9 @@ function slot0.netUpdateData(slot0, slot1)
 			end)
 		end
 
-		slot4 = uv1[slot1] or {}
+		slot3:setDrops(uv1[slot1] or {})
 
-		slot3:setDrops(slot4)
-
-		if #slot4 > 0 then
+		if slot2 > 0 and #slot4 > 0 then
 			slot3:setState(ColorGroup.StateAchieved)
 		elseif slot1 < uv0.id or slot3:isAllFill() then
 			slot3:setState(ColorGroup.StateFinish)
@@ -140,8 +138,16 @@ function slot0.CheckTodayTip(slot0)
 		slot4 = math.min(slot3:DiffDay(slot0.startTime, slot8(slot9)) + 1, #slot0.colorGroups)
 
 		for slot8, slot9 in ipairs(slot0.colorGroups) do
-			if slot8 <= slot4 and slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
-				return true
+			if slot4 < slot8 then
+				break
+			end
+
+			if slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
+				if slot9:getState() == ColorGroup.StateFinish or slot9:HasItem2Fill(slot0:getColorItems()) then
+					return true
+				end
+
+				break
 			end
 		end
 	end

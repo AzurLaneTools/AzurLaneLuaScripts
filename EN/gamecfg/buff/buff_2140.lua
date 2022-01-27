@@ -17,6 +17,26 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.05
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.05
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
 					attr = "injureRatioByBulletTorpedo",
 					number = -0.05
 				}
@@ -32,6 +52,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_1",
+					number = 0.066
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.066
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.066
 				}
 			},
@@ -65,6 +105,26 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.082
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.082
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
 					attr = "injureRatioByBulletTorpedo",
 					number = -0.082
 				}
@@ -80,6 +140,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_1",
+					number = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.1
 				}
 			},
@@ -113,6 +193,26 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.116
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.116
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
 					attr = "injureRatioByBulletTorpedo",
 					number = -0.116
 				}
@@ -128,6 +228,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_1",
+					number = 0.132
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.132
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.132
 				}
 			},
@@ -161,6 +281,26 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.15
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.15
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
 					attr = "injureRatioByBulletTorpedo",
 					number = -0.15
 				}
@@ -176,6 +316,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_1",
+					number = 0.166
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.166
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.166
 				}
 			},
@@ -209,6 +369,26 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.182
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.182
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
 					attr = "injureRatioByBulletTorpedo",
 					number = -0.182
 				}
@@ -224,6 +404,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_1",
+					number = 0.2
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.2
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.2
 				}
 			},
@@ -264,6 +464,26 @@ return {
 			},
 			arg_list = {
 				attr = "accuracyToShipType_1",
+				number = 0.05
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "accuracyToShipType_20",
+				number = 0.05
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "accuracyToShipType_21",
 				number = 0.05
 			}
 		},

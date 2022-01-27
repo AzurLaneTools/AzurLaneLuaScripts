@@ -237,7 +237,7 @@ function slot0.getCatchupState(slot0, slot1)
 end
 
 function slot0.updateCatchupStates(slot0)
-	for slot4, slot5 in ipairs(slot0.catchupData) do
+	for slot4, slot5 in pairs(slot0.catchupData) do
 		slot5:updateState()
 	end
 end

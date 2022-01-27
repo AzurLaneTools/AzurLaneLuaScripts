@@ -30,6 +30,26 @@ return {
 					attr = "accuracyToShipType_2",
 					number = 0.04
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.04
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.04
+				}
 			}
 		}
 	},
@@ -62,6 +82,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_2",
+					number = 0.046
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.046
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.046
 				}
 			}
@@ -98,6 +138,26 @@ return {
 					attr = "accuracyToShipType_2",
 					number = 0.052
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.052
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.052
+				}
 			}
 		}
 	},
@@ -130,6 +190,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_2",
+					number = 0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.06
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.06
 				}
 			}
@@ -166,6 +246,26 @@ return {
 					attr = "accuracyToShipType_2",
 					number = 0.066
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.066
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.066
+				}
 			}
 		}
 	},
@@ -198,6 +298,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_2",
+					number = 0.072
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.072
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.072
 				}
 			}
@@ -234,6 +354,26 @@ return {
 					attr = "accuracyToShipType_2",
 					number = 0.08
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.08
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.08
+				}
 			}
 		}
 	},
@@ -266,6 +406,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_2",
+					number = 0.086
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.086
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.086
 				}
 			}
@@ -302,6 +462,26 @@ return {
 					attr = "accuracyToShipType_2",
 					number = 0.092
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.092
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
+					number = 0.092
+				}
 			}
 		}
 	},
@@ -334,6 +514,26 @@ return {
 				},
 				arg_list = {
 					attr = "accuracyToShipType_2",
+					number = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_20",
+					number = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "accuracyToShipType_21",
 					number = 0.1
 				}
 			}

@@ -1199,5 +1199,17 @@ pg.voice_actor_CN = {
 	{
 		code = 300,
 		actor_name = "Nomura Mayuka"
+	},
+	{
+		code = 301,
+		actor_name = "Date Arisa"
+	},
+	{
+		code = 302,
+		actor_name = "Kazama Mayuko"
+	},
+	{
+		code = 303,
+		actor_name = "Ayase Yuu"
 	}
 }

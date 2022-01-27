@@ -136,7 +136,7 @@ end
 
 function slot0.__index(slot0, slot1)
 	if slot1 == "fleet" then
-		return slot0.fleets[slot0.findex]
+		return rawget(slot0, "fleets")[rawget(slot0, "findex")]
 	end
 
 	return rawget(slot0, slot1) or uv0[slot1]
@@ -2192,7 +2192,7 @@ function slot0.getTorpedoShip(slot0, slot1)
 		slot2 = slot1:getShipsByTeam(TeamType.Submarine, false)[1]
 	elseif slot1:getFleetType() == FleetType.Normal then
 		slot2 = _.detect(slot1:getShipsByTeam(TeamType.Vanguard, false), function (slot0)
-			return slot0:getShipType() == ShipType.QuZhu
+			return ShipType.IsTypeQuZhu(slot0:getShipType())
 		end)
 	end
 
@@ -2724,10 +2724,10 @@ end
 function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 	if slot3[1] == FleetSkill.TriggerDDCount then
 		return slot3[2] <= #_.filter(slot1:getShipsByTeam(TeamType.Vanguard, false), function (slot0)
-			return slot0:getShipType() == ShipType.QuZhu
+			return ShipType.IsTypeQuZhu(slot0:getShipType())
 		end) and slot6 <= slot3[3]
 	elseif slot4 == FleetSkill.TriggerDDHead then
-		return #slot1:getShipsByTeam(TeamType.Vanguard, false) > 0 and slot5[1]:getShipType() == ShipType.QuZhu
+		return #slot1:getShipsByTeam(TeamType.Vanguard, false) > 0 and ShipType.IsTypeQuZhu(slot5[1]:getShipType())
 	elseif slot4 == FleetSkill.TriggerVanCount then
 		return slot3[2] <= #slot1:getShipsByTeam(TeamType.Vanguard, false) and #slot5 <= slot3[3]
 	elseif slot4 == FleetSkill.TriggerShipCount then

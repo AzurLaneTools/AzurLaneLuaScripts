@@ -1488,6 +1488,210 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	[36] = {
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
+		name = "Lunar New Year Lucky Bag (2022)",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		subject = "Lunar New Year Lucky Bag (2022)",
+		extra_gem = 0,
+		name_display = "Lunar New Year Lucky Bag (2022)",
+		limit_arg = 1,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai7",
+		id_str = "com.yostaren.azurlane.diamond156",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 36,
+		airijp_id = "com.yostaren.azurlane.diamond156",
+		extra_service_item = {
+			{
+				2,
+				69917,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[37] = {
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Lunar New Year Lucky Bag (2021)",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		subject = "Lunar New Year Lucky Bag (2021)",
+		extra_gem = 0,
+		name_display = "Lunar New Year Lucky Bag (2021)",
+		limit_arg = 1,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai4",
+		id_str = "com.yostaren.azurlane.diamond155",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 37,
+		airijp_id = "com.yostaren.azurlane.diamond155",
+		extra_service_item = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	[1000] = {
 		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
 		name = "Fair Winds Cruise Pass",
@@ -1624,6 +1828,76 @@ pg.pay_data_display = {
 		},
 		sub_display = {
 			7002,
+			1500
+		},
+		ignorePlatform = {}
+	},
+	[1002] = {
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		type = 0,
+		subject = "Fair Winds Cruise Pass",
+		extra_gem = 0,
+		name_display = "Fair Winds Cruise Pass",
+		limit_arg = 1,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.yostaren.azurlane.passport4",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 1002,
+		airijp_id = "com.yostaren.azurlane.passport4",
+		extra_service_item = {
+			{
+				1,
+				4003,
+				1500
+			},
+			{
+				8,
+				59270,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4003,
+				1500
+			}
+		},
+		sub_display = {
+			7003,
 			1500
 		},
 		ignorePlatform = {}
@@ -5104,8 +5378,11 @@ pg.pay_data_display = {
 		33,
 		34,
 		35,
+		36,
+		37,
 		1000,
 		1001,
+		1002,
 		100,
 		101,
 		102,

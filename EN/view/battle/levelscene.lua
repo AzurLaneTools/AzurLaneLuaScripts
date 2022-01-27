@@ -201,10 +201,15 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.rightChapter, true)
 
-	slot0.damageText = slot0:findTF("damage", slot0.topPanel)
+	slot5 = slot0.topPanel
+	slot0.damageTextTemplate = go(slot0:findTF("damage", slot5))
 
-	setActive(slot0.damageText, false)
+	setActive(slot0.damageTextTemplate, false)
 
+	slot0.damageTextPool = {
+		slot0.damageTextTemplate
+	}
+	slot0.damageTextActive = {}
 	slot0.mapHelpBtn = slot0:findTF("help_button", slot0.topPanel)
 
 	setActive(slot0.mapHelpBtn, false)
@@ -3042,43 +3047,46 @@ function slot0.doPlayCommander(slot0, slot1, slot2)
 end
 
 function slot0.strikeEnemy(slot0, slot1, slot2, slot3)
-	slot0:frozen()
+	if not slot0.grid:shakeCell(slot1) then
+		slot3()
 
-	slot4 = slot0.grid
-	slot5 = slot0.levelCam
-	slot7 = slot0.uiCam
-	slot0.damageText.position = slot7:ScreenToWorldPoint(slot5:WorldToScreenPoint(slot4:shakeCell(slot1).position))
-	slot6 = slot0.damageText.localPosition
-	slot6.y = slot6.y + 40
-	slot6.z = 0
+		return
+	end
 
-	slot0:easeDamage(slot6, slot2, function ()
-		uv0:unfrozen()
-		uv1()
+	slot0:easeDamage(slot4, slot2, function ()
+		uv0()
 	end)
 end
 
 function slot0.easeDamage(slot0, slot1, slot2, slot3)
 	slot0:frozen()
-	setText(slot0.damageText, slot2)
-	setActive(slot0.damageText, true)
 
-	slot0.damageText.localPosition = slot1
-	slot4 = LeanTween.value(go(slot0.damageText), 0, 1, 1)
-	slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
-		slot1 = uv0.damageText.localPosition
+	slot4 = slot0.levelCam
+	slot5 = tf(slot0:GetDamageText())
+	slot6 = slot0.uiCam
+	slot5.position = slot6:ScreenToWorldPoint(slot4:WorldToScreenPoint(slot1.position))
+	slot6 = slot5.localPosition
+	slot6.y = slot6.y + 40
+	slot6.z = 0
+
+	setText(slot5, slot2)
+
+	slot5.localPosition = slot6
+	slot7 = LeanTween.value(go(slot5), 0, 1, 1)
+	slot7 = slot7:setOnUpdate(System.Action_float(function (slot0)
+		slot1 = uv0.localPosition
 		slot1.y = uv1.y + 60 * slot0
-		uv0.damageText.localPosition = slot1
+		uv0.localPosition = slot1
 
-		setTextAlpha(uv0.damageText, 1 - slot0)
+		setTextAlpha(uv0, 1 - slot0)
 	end))
 
-	slot4:setOnComplete(System.Action(function ()
-		setActive(uv0.damageText, false)
+	slot7:setOnComplete(System.Action(function ()
+		uv0:ReturnDamageText(uv1)
 		uv0:unfrozen()
 
-		if uv1 then
-			uv1()
+		if uv2 then
+			uv2()
 		end
 	end))
 end
@@ -3117,6 +3125,32 @@ function slot0.easeAvoid(slot0, slot1, slot2)
 	end))
 end
 
+function slot0.GetDamageText(slot0)
+	if not table.remove(slot0.damageTextPool) then
+		slot1 = Instantiate(slot0.damageTextTemplate)
+
+		setParent(slot1, tf(slot0.damageTextTemplate).parent)
+		tf(slot1):SetSiblingIndex(tf(slot0.damageTextTemplate):GetSiblingIndex() + 1)
+	end
+
+	table.insert(slot0.damageTextActive, slot1)
+	setActive(slot1, true)
+
+	return slot1
+end
+
+function slot0.ReturnDamageText(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot1 = go(slot1)
+
+	table.removebyvalue(slot0.damageTextActive, slot1)
+	table.insert(slot0.damageTextPool, slot1)
+	setActive(slot1, false)
+end
+
 function slot0.resetLevelGrid(slot0)
 	slot0.dragLayer.localPosition = Vector3.zero
 end
@@ -3148,12 +3182,12 @@ function slot0.frozen(slot0)
 	end
 end
 
-function slot0.unfrozen(slot0)
+function slot0.unfrozen(slot0, slot1)
 	if slot0.exited then
 		return
 	end
 
-	slot0.frozenCount = slot0.frozenCount - (count == -1 and slot0.frozenCount or count or 1)
+	slot0.frozenCount = slot0.frozenCount - (slot1 == -1 and slot0.frozenCount or slot1 or 1)
 	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
 
 	if slot0.frozenCount ~= 0 and slot0.frozenCount == 0 then
@@ -3424,7 +3458,10 @@ function slot0.willExit(slot0)
 		slot0.resPanel = nil
 	end
 
-	LeanTween.cancel(go(slot0.damageText))
+	for slot7, slot8 in ipairs(slot0.damageTextActive) do
+		LeanTween.cancel(slot8)
+	end
+
 	LeanTween.cancel(go(slot0.avoidText))
 
 	slot0.map.localScale = Vector3.one

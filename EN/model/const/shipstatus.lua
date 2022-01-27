@@ -383,6 +383,15 @@ slot1 = {
 		isActivityNpc = 0,
 		inWorld = 0,
 		inAdmiral = 0
+	},
+	onTeamChange = {
+		inExercise = 1,
+		inChapter = 0,
+		inPvP = 1,
+		inFleet = 1,
+		inGuildBossEvent = 1,
+		inActivity = 0,
+		inWorld = 1
 	}
 }
 slot2 = {
@@ -396,7 +405,7 @@ slot2 = {
 		tips_block = "word_shipState_fight"
 	},
 	inActivity = {
-		tips_block = "word_shipState_fight"
+		tips_block = "shipmodechange_reject_inactivity"
 	},
 	inPvP = {
 		tips_block = "word_shipState_fight"
@@ -491,60 +500,44 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 		return false, nil
 	elseif slot0 == "inFleet" then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("ship_vo_moveout_formation"),
+			content = i18n("shipchange_alert_infleet"),
 			onYes = function ()
-				if getProxy(FleetProxy):getFleetByShip(uv0):isFirstFleet() then
-					slot2, slot3 = slot1:canRemoveByShipId(uv0.id)
-
-					if not slot2 then
-						if slot3 == TeamType.Vanguard then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_vanguardFleet_must_hasShip"))
-						elseif slot3 == TeamType.Main then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_mainFleet_must_hasShip"))
-						end
-
-						return
-					end
+				if getProxy(FleetProxy):getFleetByShip(uv0):canRemove(uv0) then
+					slot0:removeShip(uv0)
+					pg.m02:sendNotification(GAME.UPDATE_FLEET, {
+						callback = uv1,
+						fleet = slot0
+					})
+				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("shipmodechange_reject_1stfleet_only"))
 				end
-
-				slot1:removeShip(uv0)
-				pg.m02:sendNotification(GAME.UPDATE_FLEET, {
-					callback = uv1,
-					fleet = slot1
-				})
 			end
 		})
 
 		return false, nil
 	elseif slot0 == "inPvP" then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("ship_vo_moveout_formation"),
+			content = i18n("shipchange_alert_inpvp"),
 			onYes = function ()
-				slot2, slot3 = getProxy(FleetProxy):getFleetByShip(uv0):canRemoveByShipId(uv0.id)
-
-				if not slot2 then
-					if slot3 == TeamType.Vanguard then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_vanguardFleet_must_hasShip"))
-					elseif slot3 == TeamType.Main then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_mainFleet_must_hasShip"))
-					end
-				else
-					slot1:removeShip(uv0)
+				if getProxy(FleetProxy):getFleetByShip(uv0):canRemove(uv0) then
+					slot0:removeShip(uv0)
 					pg.m02:sendNotification(GAME.UPDATE_FLEET, {
 						callback = uv1,
-						fleet = slot1
+						fleet = slot0
 					})
+				elseif uv0:getTeamType() == TeamType.Vanguard then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_vanguardFleet_must_hasShip"))
+				elseif slot1 == TeamType.Main then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_mainFleet_must_hasShip"))
 				end
 			end
 		})
 
 		return false, nil
 	elseif slot0 == "inExercise" then
-		slot5, slot6 = getProxy(MilitaryExerciseProxy):getExerciseFleet():canRemoveByShipId(slot1.id)
-
-		if not slot5 then
+		if getProxy(MilitaryExerciseProxy):getExerciseFleet():canRemove(slot1, true) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("exercise_clear_fleet_tip"),
+				content = i18n("shipchange_alert_inexercise"),
 				onYes = function ()
 					uv0:removeShip(uv1)
 					pg.m02:sendNotification(GAME.UPDATE_EXERCISE_FLEET, {
@@ -555,7 +548,7 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 			})
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("exercise_fleet_exit_tip"),
+				content = i18n("exercise_clear_fleet_tip"),
 				onYes = function ()
 					uv0:removeShip(uv1)
 					pg.m02:sendNotification(GAME.UPDATE_EXERCISE_FLEET, {
@@ -614,6 +607,18 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 		})
 
 		return false, nil
+	elseif slot0 == "inWorld" then
+		if nowWorld().type == World.TypeBase then
+			WorldConst.ReqWorldCheck(slot2)
+
+			return false, nil
+		elseif #slot3:GetFleet(slot3:GetShip(slot1.id).fleetId)[slot1:getTeamType()] > 1 then
+			return true
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("shipmodechange_reject_worldfleet_only"))
+
+			return false, nil
+		end
 	end
 
 	return true

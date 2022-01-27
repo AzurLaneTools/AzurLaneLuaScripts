@@ -1,114 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102253] = {
-		ship_group = 10225,
-		name = "Night Sky's Brilliant Blue Blossoms",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "143",
-		id = 102253,
-		group_index = 3,
-		prefab = "biluokexi_5",
-		painting = "biluokexi_5",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70474,
-		shop_type_id = 2,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "I heard that this place is famous for its festivals with beautiful fireworks, so I made sure to come dressed for the occasion... What do you think? ...I'm even more beautiful? Well, I couldn't let the fireworks be the only things leaving an impression upo",
-		voice_actor = 217,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.24,
-					0.904,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.252,
-					0.908,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.259,
-					0.919,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.7,
-							2.474,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102260] = {
 		ship_group = 10226,
 		name = "Reno",
@@ -585,6 +476,122 @@ pg.ship_skin_template_3 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		}
+	},
+	[102264] = {
+		ship_group = 10226,
+		name = "Spring's Inspiration",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 102264,
+		group_index = 4,
+		prefab = "linuo_5",
+		painting = "linuo_5",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70652,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Check this out, Commander! Hehehe, I added a little firework launcher to my superhero gadgets. Cool, huh? ...Your interest lies more in my new look? But... the firework...",
+		voice_actor = 231,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.3,
+					1.087,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.034,
+					1.126,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.246,
+					1.168,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.572,
+							2.197,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[102270] = {
@@ -6641,6 +6648,120 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105031] = {
+		ship_group = 10503,
+		name = "The Keystone General",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "153",
+		id = 105031,
+		group_index = 1,
+		prefab = "binxifaniya_2",
+		painting = "binxifaniya_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70655,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Halt! Who are you?! ...Oh, it's you, Commander. I briefly mistook you for a spy there. Why are you here? To spectate? Or, God forbid, to gather intel on my army?",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.26,
+					1.15,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					1.07,
+					0
+				},
+				{
+					1.44,
+					0.95,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.36,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105040] = {
 		ship_group = 10504,
 		name = "Arizona",
@@ -6764,6 +6885,125 @@ pg.ship_skin_template_3 = {
 						{
 							0.227,
 							0.657,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105041] = {
+		ship_group = 10504,
+		name = "Enchantress from Afar",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 105041,
+		group_index = 1,
+		prefab = "yalisangna_2",
+		painting = "yalisangna_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70656,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I heard these clothes are from the Dragon Empery, but they're a bit... Umm, it's not that I dislike them, but the thought of you seeing me in them is rather embarrassing... B-but it's not like I'm going to start crying...",
+		voice_actor = 37,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.062,
+					1.069,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.876,
+					1.092,
+					0
+				},
+				{
+					1.157,
+					1.149,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.106,
+					1.278,
+					0
+				},
+				{
+					1.13,
+					1.202,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.389,
+							2.301,
 							0
 						}
 					}

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
 		default_bgm = "main",
-		bgm = "main"
+		bgm = "main-chunjie3"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		default_bgm = "holo-fff-inst",
@@ -62,7 +62,7 @@ pg.voice_bgm = {
 	},
 	LoginScene = {
 		default_bgm = "login",
-		bgm = "login"
+		bgm = "main-chunjie3"
 	},
 	NewPlayerScene = {
 		default_bgm = "main",
@@ -70,7 +70,7 @@ pg.voice_bgm = {
 	},
 	MainUI = {
 		default_bgm = "main",
-		bgm = "main"
+		bgm = "main-chunjie3"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -78,7 +78,7 @@ pg.voice_bgm = {
 	},
 	CollectionScene = {
 		default_bgm = "main",
-		bgm = "main"
+		bgm = "main-chunjie3"
 	},
 	ActivityBossSPFScene = {
 		default_bgm = "level02",
@@ -203,5 +203,29 @@ pg.voice_bgm = {
 	GridGameView = {
 		default_bgm = "ssss-az-pv",
 		bgm = "ssss-1114A"
+	},
+	ActivityBossBristolScene = {
+		default_bgm = "xinnong-3",
+		bgm = "xinnong-3"
+	},
+	SpringFestivalBackHill2022Scene = {
+		default_bgm = "main-chunjie-pv",
+		bgm = "main-chunjie-pv"
+	},
+	WorldInPictureScene = {
+		default_bgm = "main-chunjie",
+		bgm = "main-chunjie"
+	},
+	RedPacketLayer = {
+		default_bgm = "main-chunjie2",
+		bgm = "main-chunjie2"
+	},
+	ColoringScene = {
+		default_bgm = "main-chunjie3",
+		bgm = "main-chunjie3"
+	},
+	Fushun3GameView = {
+		default_bgm = "main-chunjie-pv",
+		bgm = "main-chunjie-pv"
 	}
 }

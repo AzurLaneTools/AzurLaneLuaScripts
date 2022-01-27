@@ -390,7 +390,9 @@ pg.skill_benefit_template = {
 		lv = 1,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.06
@@ -403,7 +405,9 @@ pg.skill_benefit_template = {
 		lv = 2,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.073
@@ -416,7 +420,9 @@ pg.skill_benefit_template = {
 		lv = 3,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.086
@@ -429,7 +435,9 @@ pg.skill_benefit_template = {
 		lv = 4,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.099
@@ -442,7 +450,9 @@ pg.skill_benefit_template = {
 		lv = 5,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.112
@@ -455,7 +465,9 @@ pg.skill_benefit_template = {
 		lv = 6,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.125
@@ -468,7 +480,9 @@ pg.skill_benefit_template = {
 		lv = 7,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.138
@@ -481,7 +495,9 @@ pg.skill_benefit_template = {
 		lv = 8,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.152
@@ -494,7 +510,9 @@ pg.skill_benefit_template = {
 		lv = 9,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.166
@@ -507,7 +525,9 @@ pg.skill_benefit_template = {
 		lv = 10,
 		type = 1,
 		limit = {
-			1
+			1,
+			20,
+			21
 		},
 		effect = {
 			0.18

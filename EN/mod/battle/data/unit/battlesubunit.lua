@@ -31,17 +31,13 @@ function slot7.setWeapon(slot0, slot1)
 	slot7 = {}
 
 	for slot11, slot12 in ipairs(slot1) do
-		if slot11 == Ship.PREFAB_EQUIP and slot12 and slot12.skin and slot12.skin ~= 0 then
-			if uv0.GetEquipSkinDataFromID(slot12.skin).ship_skin_id ~= 0 then
-				slot0:overrideSkin(slot13.ship_skin_id)
-			end
+		if slot12 and slot12.skin and slot12.skin ~= 0 and Equipment.IsOrbitSkin(slot12.skin) then
+			slot0._orbitSkinIDList = slot0._orbitSkinIDList or {}
 
-			slot0._skinAttachment = slot0._skinAttachment or {}
+			table.insert(slot0._orbitSkinIDList, slot12.skin)
+		end
 
-			if slot13.attachment_key ~= 0 and not slot0._skinAttachment[slot14] then
-				slot0._skinAttachment[slot14] = slot13.attachment_combat_scene
-			end
-		elseif slot11 <= Ship.WEAPON_COUNT then
+		if slot11 <= Ship.WEAPON_COUNT then
 			slot13 = slot4[slot11]
 
 			function slot14(slot0, slot1, slot2)

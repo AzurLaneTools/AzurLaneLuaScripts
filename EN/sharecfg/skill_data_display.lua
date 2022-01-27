@@ -1128,6 +1128,18 @@ pg.skill_data_display = {
 		id = 9673,
 		name = "Flare Shell"
 	},
+	[9701] = {
+		id = 9701,
+		name = "Data, Go Investigate!"
+	},
+	[9702] = {
+		id = 9702,
+		name = "Keep It Up, Data!"
+	},
+	[9703] = {
+		id = 9703,
+		name = "Hang In There, Data!"
+	},
 	[10010] = {
 		id = 10010,
 		name = "Baptismal Flames"
@@ -4520,6 +4532,106 @@ pg.skill_data_display = {
 		id = 15083,
 		name = "Revolutionary's Prosaic"
 	},
+	[15090] = {
+		id = 15090,
+		name = "Whirlpool Warning?"
+	},
+	[15091] = {
+		id = 15091,
+		name = "Whirlpool Warning?"
+	},
+	[15100] = {
+		id = 15100,
+		name = "Single-Minded"
+	},
+	[15110] = {
+		id = 15110,
+		name = "Scrollbearer of Turbulent Seas"
+	},
+	[15111] = {
+		id = 15111,
+		name = "Scrollbearer of Turbulent Seas"
+	},
+	[15120] = {
+		id = 15120,
+		name = "Wanderer of Azure Mists"
+	},
+	[15130] = {
+		id = 15130,
+		name = "Wave-Breaking Speardancer"
+	},
+	[15131] = {
+		id = 15131,
+		name = "Wave-Breaking Speardancer"
+	},
+	[15140] = {
+		id = 15140,
+		name = "A Journey from Heaven to Sea"
+	},
+	[15150] = {
+		id = 15150,
+		name = "Lights On!"
+	},
+	[15160] = {
+		id = 15160,
+		name = "Let's Go, Data 857!"
+	},
+	[15161] = {
+		id = 15161,
+		name = "Let's Go, Data 857!"
+	},
+	[15162] = {
+		id = 15162,
+		name = "Let's Go, Data 857!"
+	},
+	[15163] = {
+		id = 15163,
+		name = "Let's Go, Data 857!"
+	},
+	[15170] = {
+		id = 15170,
+		name = "Star-Studded Formation"
+	},
+	[15171] = {
+		id = 15171,
+		name = "Star-Studded Formation"
+	},
+	[15175] = {
+		id = 15175,
+		name = "Star-Studded Formation"
+	},
+	[15176] = {
+		id = 15176,
+		name = "Star-Studded Formation"
+	},
+	[15180] = {
+		id = 15180,
+		name = "Cunning Stratagem"
+	},
+	[15181] = {
+		id = 15181,
+		name = "Cunning Stratagem"
+	},
+	[15182] = {
+		id = 15182,
+		name = "Cunning Stratagem"
+	},
+	[15190] = {
+		id = 15190,
+		name = "Azure Dragon's Dance"
+	},
+	[15200] = {
+		id = 15200,
+		name = "White Tiger's Prance"
+	},
+	[15210] = {
+		id = 15210,
+		name = "An Shan Name Ship+"
+	},
+	[15220] = {
+		id = 15220,
+		name = "Mutual Assistance+"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -6308,6 +6420,38 @@ pg.skill_data_display = {
 		id = 29752,
 		name = "All Out Assault Ⅱ"
 	},
+	[29800] = {
+		id = 29800,
+		name = "All Out Assault III"
+	},
+	[29801] = {
+		id = 29801,
+		name = "All Out Assault III"
+	},
+	[29802] = {
+		id = 29802,
+		name = "All Out Assault III"
+	},
+	[29803] = {
+		id = 29803,
+		name = "All Out Assault III"
+	},
+	[29810] = {
+		id = 29810,
+		name = "All Out Assault III"
+	},
+	[29811] = {
+		id = 29811,
+		name = "All Out Assault III"
+	},
+	[29812] = {
+		id = 29812,
+		name = "All Out Assault III"
+	},
+	[29813] = {
+		id = 29813,
+		name = "All Out Assault III"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -7292,6 +7436,30 @@ pg.skill_data_display = {
 		id = 800297,
 		name = "Cinders of Hope - Gneisenau II"
 	},
+	[800300] = {
+		id = 800300,
+		name = "Stormchasing Spirit"
+	},
+	[800310] = {
+		id = 800310,
+		name = "Falcon's Talons"
+	},
+	[800320] = {
+		id = 800320,
+		name = "Reforged Bond"
+	},
+	[800321] = {
+		id = 800321,
+		name = "Reforged Bond"
+	},
+	[800335] = {
+		id = 800335,
+		name = "Ashen Might – JunyouI"
+	},
+	[800337] = {
+		id = 800337,
+		name = "Ashen Might – JunyouII"
+	},
 	all = {
 		4,
 		10,
@@ -7575,6 +7743,9 @@ pg.skill_data_display = {
 		9652,
 		9672,
 		9673,
+		9701,
+		9702,
+		9703,
 		10010,
 		10020,
 		10030,
@@ -8423,6 +8594,31 @@ pg.skill_data_display = {
 		15081,
 		15082,
 		15083,
+		15090,
+		15091,
+		15100,
+		15110,
+		15111,
+		15120,
+		15130,
+		15131,
+		15140,
+		15150,
+		15160,
+		15161,
+		15162,
+		15163,
+		15170,
+		15171,
+		15175,
+		15176,
+		15180,
+		15181,
+		15182,
+		15190,
+		15200,
+		15210,
+		15220,
 		18010,
 		18040,
 		18041,
@@ -8870,6 +9066,14 @@ pg.skill_data_display = {
 		29742,
 		29751,
 		29752,
+		29800,
+		29801,
+		29802,
+		29803,
+		29810,
+		29811,
+		29812,
+		29813,
 		39000,
 		39001,
 		39002,
@@ -9115,6 +9319,12 @@ pg.skill_data_display = {
 		800280,
 		800281,
 		800295,
-		800297
+		800297,
+		800300,
+		800310,
+		800320,
+		800321,
+		800335,
+		800337
 	}
 }

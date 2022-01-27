@@ -14,7 +14,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				3
@@ -41,7 +43,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				4
@@ -68,7 +72,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				6
@@ -416,7 +422,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				10
@@ -443,7 +451,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				14
@@ -470,7 +480,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				20
@@ -773,7 +785,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				8
@@ -803,7 +816,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				11
@@ -833,7 +847,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				16
@@ -866,7 +881,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				10
@@ -899,7 +915,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				14
@@ -932,7 +949,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				20
@@ -962,7 +980,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				4
@@ -992,7 +1011,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				5
@@ -1022,7 +1042,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				8
@@ -1055,7 +1076,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				3
@@ -1088,7 +1110,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				4
@@ -1121,7 +1144,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				6
@@ -1232,7 +1256,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -1259,7 +1285,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				7
@@ -1286,7 +1314,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				10
@@ -1826,7 +1856,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				30
@@ -1853,7 +1885,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				42
@@ -1880,7 +1914,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				60
@@ -2012,7 +2048,7 @@ pg.commander_ability_template = {
 		id = 731,
 		group_id = 73,
 		icon = "zhanlie_naijiu_1",
-		desc = "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 60 HP.",
+		desc = "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 75 HP.",
 		add = {
 			{
 				1,
@@ -2029,15 +2065,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"BBs: HP",
-				60
+				75
 			},
 			{
 				"BCs: HP",
-				60
+				75
 			},
 			{
 				"BBVs: HP",
-				60
+				75
 			}
 		}
 	},
@@ -2049,7 +2085,7 @@ pg.commander_ability_template = {
 		id = 732,
 		group_id = 73,
 		icon = "zhanlie_naijiu_2",
-		desc = "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 84 HP.",
+		desc = "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 105 HP.",
 		add = {
 			{
 				1,
@@ -2066,15 +2102,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"BBs: HP",
-				84
+				105
 			},
 			{
 				"BCs: HP",
-				84
+				105
 			},
 			{
 				"BBVs: HP",
-				84
+				105
 			}
 		}
 	},
@@ -2086,7 +2122,7 @@ pg.commander_ability_template = {
 		id = 733,
 		group_id = 73,
 		icon = "zhanlie_naijiu_3",
-		desc = "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 120 HP.",
+		desc = "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 150 HP.",
 		add = {
 			{
 				1,
@@ -2103,15 +2139,15 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"BBs: HP",
-				120
+				150
 			},
 			{
 				"BCs: HP",
-				120
+				150
 			},
 			{
 				"BBVs: HP",
-				120
+				150
 			}
 		}
 	},
@@ -2423,7 +2459,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				3
@@ -2453,7 +2490,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				4
@@ -2483,7 +2521,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				6
@@ -2516,7 +2555,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				1
@@ -2549,7 +2589,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				2
@@ -2582,7 +2623,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				3
@@ -2611,7 +2653,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				5
@@ -2644,7 +2688,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				7
@@ -2677,7 +2723,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				10
@@ -3005,7 +3053,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				8
@@ -3014,7 +3064,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				4
@@ -3045,7 +3097,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				11
@@ -3054,7 +3108,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -3085,7 +3141,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				16
@@ -3094,7 +3152,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				8
@@ -3307,7 +3367,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				6
+				8
 			}
 		},
 		add_desc = {
@@ -3357,7 +3417,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				8
+				11
 			}
 		},
 		add_desc = {
@@ -3407,7 +3467,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				12
+				16
 			}
 		},
 		add_desc = {
@@ -4472,7 +4532,7 @@ pg.commander_ability_template = {
 		id = 2171,
 		group_id = 217,
 		icon = "",
-		desc = "Your <color=#3dc6ff>Northern Parliament ships</color> gain 8 FP, 3 RLD, and 1 Accuracy.",
+		desc = "Your <color=#3dc6ff>Northern Parliament ships</color> gain 8 FP, 4 RLD, and 1 Accuracy.",
 		add = {
 			{
 				1,
@@ -4509,7 +4569,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"N. Parliament: RLD",
-				3
+				4
 			},
 			{
 				"N. Parliament: Accuracy",
@@ -4525,7 +4585,7 @@ pg.commander_ability_template = {
 		id = 2172,
 		group_id = 217,
 		icon = "",
-		desc = "Your <color=#3dc6ff>Northern Parliament ships</color> gain 11 FP, 4 RLD, and 2 Accuracy.",
+		desc = "Your <color=#3dc6ff>Northern Parliament ships</color> gain 11 FP, 5 RLD, and 2 Accuracy.",
 		add = {
 			{
 				1,
@@ -4562,7 +4622,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"N. Parliament: RLD",
-				4
+				5
 			},
 			{
 				"N. Parliament: Accuracy",
@@ -4578,7 +4638,7 @@ pg.commander_ability_template = {
 		id = 2173,
 		group_id = 217,
 		icon = "",
-		desc = "Your <color=#3dc6ff>Northern Parliament ships</color> gain 16 FP, 6 RLD, and 3 Accuracy.",
+		desc = "Your <color=#3dc6ff>Northern Parliament ships</color> gain 16 FP, 8 RLD, and 3 Accuracy.",
 		add = {
 			{
 				1,
@@ -4615,7 +4675,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"N. Parliament: RLD",
-				6
+				8
 			},
 			{
 				"N. Parliament: Accuracy",
@@ -5065,7 +5125,9 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					2
+					2,
+					20,
+					21
 				},
 				3,
 				15

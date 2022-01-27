@@ -5353,6 +5353,27 @@ _G.pg.item_data_statistics[11049] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[11050] = {
+	display = "533mm Quintuple Torpedo Mount Mk 17 T0 Design",
+	name = "533mm Quintuple Torpedo Mount Mk 17 T0 Design",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/15240",
+	id = 11050,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[13000] = {
 	display = "T0 Twin 381mm Main Gun - Variant Design",
 	name = "T0 Twin 381mm Main Gun - Variant Design",
@@ -8188,7 +8209,7 @@ _G.pg.item_data_statistics[20013] = {
 
 _G.pg.item_data_statistics[20101] = {
 	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 1 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
-	name = "Combat Data Pack - Series 1 ",
+	name = "Combat Data Pack - Series 1",
 	max_num = 0,
 	type = 18,
 	drop_oil_max = 0,
@@ -8212,7 +8233,7 @@ _G.pg.item_data_statistics[20101] = {
 
 _G.pg.item_data_statistics[20102] = {
 	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 2 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
-	name = "Combat Data Pack - Series 2 ",
+	name = "Combat Data Pack - Series 2",
 	max_num = 0,
 	type = 18,
 	drop_oil_max = 0,
@@ -8226,6 +8247,30 @@ _G.pg.item_data_statistics[20102] = {
 	is_world = 0,
 	icon = "Props/20102",
 	id = 20102,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {}
+}
+
+_G.pg.item_data_statistics[20103] = {
+	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 3 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
+	name = "Combat Data Pack - Series 3",
+	max_num = 0,
+	type = 18,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/20103",
+	id = 20103,
 	display_icon = {},
 	price = {
 		9,
@@ -8376,6 +8421,27 @@ _G.pg.item_data_statistics[21007] = {
 	is_world = 0,
 	icon = "Props/21007",
 	id = 21007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21008] = {
+	display = "An item that increases the potential of Junyou META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Junyou",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21008",
+	id = 21008,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -9695,6 +9761,116 @@ _G.pg.item_data_statistics[30303] = {
 		{
 			9,
 			1015,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30304] = {
+	display = "Contains a random gear skin (Spring Festival or Beaver).",
+	name = "Gear Skin Box (Spring Festival)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchspr",
+	id = 30304,
+	display_icon = {
+		{
+			9,
+			22,
+			1
+		},
+		{
+			9,
+			23,
+			1
+		},
+		{
+			9,
+			24,
+			1
+		},
+		{
+			9,
+			25,
+			1
+		},
+		{
+			9,
+			26,
+			1
+		},
+		{
+			9,
+			27,
+			1
+		},
+		{
+			9,
+			28,
+			1
+		},
+		{
+			9,
+			29,
+			1
+		},
+		{
+			9,
+			30,
+			1
+		},
+		{
+			9,
+			31,
+			1
+		},
+		{
+			9,
+			32,
+			1
+		},
+		{
+			9,
+			33,
+			1
+		},
+		{
+			9,
+			34,
+			1
+		},
+		{
+			9,
+			35,
+			1
+		},
+		{
+			9,
+			36,
+			1
+		},
+		{
+			9,
+			37,
+			1
+		},
+		{
+			9,
+			38,
 			1
 		}
 	},
@@ -12720,6 +12896,163 @@ _G.pg.item_data_statistics[30331] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30332] = {
+	display = "Contains a random Spring Festival-themed gear skin",
+	name = "Gear Skin Box (Spring Festival 2022)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhunianchunjie",
+	id = 30332,
+	display_icon = {
+		{
+			9,
+			520,
+			1
+		},
+		{
+			9,
+			521,
+			1
+		},
+		{
+			9,
+			522,
+			1
+		},
+		{
+			9,
+			523,
+			1
+		},
+		{
+			9,
+			524,
+			1
+		},
+		{
+			9,
+			525,
+			1
+		},
+		{
+			9,
+			526,
+			1
+		},
+		{
+			9,
+			527,
+			1
+		},
+		{
+			9,
+			528,
+			1
+		},
+		{
+			9,
+			529,
+			1
+		},
+		{
+			9,
+			530,
+			1
+		},
+		{
+			9,
+			531,
+			1
+		},
+		{
+			9,
+			532,
+			1
+		},
+		{
+			9,
+			533,
+			1
+		},
+		{
+			9,
+			534,
+			1
+		},
+		{
+			9,
+			535,
+			1
+		},
+		{
+			9,
+			536,
+			1
+		},
+		{
+			9,
+			537,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30401] = {
+	display = "Contains 1 random Cruise Mission gear skin.",
+	name = "Random Gear Skin Box",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30401,
+	display_icon = {
+		{
+			9,
+			2001,
+			1
+		},
+		{
+			9,
+			2002,
+			1
+		},
+		{
+			9,
+			2003,
+			1
+		},
+		{
+			9,
+			2004,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30501] = {
 	display = "Contains a random gear skin. ",
 	name = "Gear Skin Development Pack (Late Summer)",
@@ -12735,7 +13068,6 @@ _G.pg.item_data_statistics[30501] = {
 	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/appearanceboxxiamozixuan",
-	price = "",
 	id = 30501,
 	display_icon = {
 		{
@@ -12829,6 +13161,114 @@ _G.pg.item_data_statistics[30501] = {
 			1
 		}
 	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30502] = {
+	display = "Can be opened to receive 1 Lunar New Year-themed gear skin of your choosing.",
+	name = "Selection Gear Skin Box (LNY)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchsprzixuan",
+	id = 30502,
+	display_icon = {
+		{
+			9,
+			22,
+			1
+		},
+		{
+			9,
+			23,
+			1
+		},
+		{
+			9,
+			24,
+			1
+		},
+		{
+			9,
+			25,
+			1
+		},
+		{
+			9,
+			26,
+			1
+		},
+		{
+			9,
+			27,
+			1
+		},
+		{
+			9,
+			28,
+			1
+		},
+		{
+			9,
+			29,
+			1
+		},
+		{
+			9,
+			30,
+			1
+		},
+		{
+			9,
+			31,
+			1
+		},
+		{
+			9,
+			32,
+			1
+		},
+		{
+			9,
+			33,
+			1
+		},
+		{
+			9,
+			34,
+			1
+		},
+		{
+			9,
+			35,
+			1
+		},
+		{
+			9,
+			36,
+			1
+		},
+		{
+			9,
+			37,
+			1
+		},
+		{
+			9,
+			38,
+			1
+		}
+	},
+	price = {},
 	index = {}
 }
 
@@ -14893,6 +15333,63 @@ _G.pg.item_data_statistics[40916] = {
 		{
 			2,
 			69916,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40917] = {
+	display = "Contains 1 Random Outfit, 2022 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 4, 10 Quick Finishers, and 100 Furniture Coins ",
+	name = "Lunar New Year Lucky Bag (2022)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai7",
+	id = 40917,
+	display_icon = {
+		{
+			2,
+			69917,
 			1
 		},
 		{
@@ -142781,6 +143278,147 @@ _G.pg.item_data_statistics[58458] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[58459] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58459,
+	display_icon = {
+		{
+			2,
+			13,
+			1
+		},
+		{
+			2,
+			45,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58460] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58460,
+	display_icon = {
+		{
+			2,
+			10024,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58461] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58461,
+	display_icon = {
+		{
+			2,
+			10026,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		},
+		{
+			2,
+			10093,
+			1
+		},
+		{
+			2,
+			10016,
+			1
+		},
+		{
+			2,
+			11006,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59000] = {
 	display = "EXP is required to level up",
 	name = "Ship EXP",
@@ -146036,6 +146674,174 @@ _G.pg.item_data_statistics[59261] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59263] = {
+	display = "Used to exchange for items in the \"Happy Lunar New Year\" event. Expires after the event ends.",
+	name = "Empery Knot",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	id = 59263,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59264] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+	name = "Rental Outfit Voucher ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59264,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59265] = {
+	display = "Earned by participating in the \"An Exercise Gone Slightly Wrong\" event. Earning a certain amount will allow you to claim Individual Rewards.",
+	name = "Contribution Points",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/bristol_pt",
+	id = 59265,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59266] = {
+	display = "A ticket used to access the EX stage in the \"An Exercise Gone Slightly Wrong\" event. Can also be used to gain more Reward Sorties.",
+	name = "Bonus Ticket",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59266,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59267] = {
+	display = "Used to reveal tiles in the World Within the Painting. Will disappear after the event period ends.",
+	name = "Exploration Points ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4230,
+	virtual_type = 15,
+	is_world = 0,
+	icon = "Props/youlidianshu",
+	id = 59267,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59268] = {
+	display = "Used to unlock bonus rewards in the World Within the Painting. Will disappear after the event period ends.",
+	name = "Landmark Points",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4230,
+	virtual_type = 15,
+	is_world = 0,
+	icon = "Props/huizhidianshu",
+	id = 59268,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59269] = {
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (2/1 – 3/31), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59269,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59270] = {
+	display = "",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 7003,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59270,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -148564,6 +149370,48 @@ _G.pg.item_data_statistics[59843] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59844] = {
+	display = "A Dragon Empery amulet with the divine beast seal of the Azure Dragon inscribed onto it. Retrofit material for An Shan.",
+	name = "Seal of the Azure Dragon",
+	max_num = 1,
+	type = 7,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 520014,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/symbolqinglong",
+	id = 59844,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59845] = {
+	display = "A Dragon Empery amulet with the divine beast seal of the White Tiger inscribed onto it. Retrofit material for Chang Chun.",
+	name = "Seal of the White Tiger",
+	max_num = 1,
+	type = 7,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 520034,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/symbolbaihu",
+	id = 59845,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59900] = {
 	display = "May be exchanged during a wide variety of events",
 	name = "Core Data",
@@ -150359,6 +151207,27 @@ _G.pg.item_data_statistics[60022] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60022,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60023] = {
+	display = "An item received through the Manjuu Resort. Can be opened. ",
+	name = "Red Envelope ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4218,
+	virtual_type = 11,
+	is_world = 0,
+	icon = "props/red_packet2",
+	id = 60023,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -154157,6 +155026,363 @@ _G.pg.item_data_statistics[60216] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[60217] = {
+	display = "Pigment A used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_a",
+	id = 60217,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60218] = {
+	display = "Pigment B used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_b",
+	id = 60218,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60219] = {
+	display = "Pigment C used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_c",
+	id = 60219,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60220] = {
+	display = "Pigment D used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_d",
+	id = 60220,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60221] = {
+	display = "Pigment E used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_e",
+	id = 60221,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60222] = {
+	display = "Pigment F used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_f",
+	id = 60222,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60223] = {
+	display = "Pigment G used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_g",
+	id = 60223,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60224] = {
+	display = "Pigment H used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment H",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_h",
+	id = 60224,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60225] = {
+	display = "Pigment I used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment I",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4212,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_i",
+	id = 60225,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60226] = {
+	display = "Blessings and tidings for the Lunar New Year. Can be used to invite a ship of your choosing to join you.",
+	name = "Spring Festival Invitation (2022)",
+	max_num = 0,
+	type = 21,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60226,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60227] = {
+	display = "A card from Taihou.",
+	name = "Spring Festival Tidings (Taihou)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60227,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60228] = {
+	display = "A card from Enterprise.",
+	name = "Spring Festival Tidings (Enterprise)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60228,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60229] = {
+	display = "A card from Belfast. ",
+	name = "Spring Festival Tidings (Belfast)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60229,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60230] = {
+	display = "A card from Ning Hai.",
+	name = "Spring Festival Tidings (Ning Hai)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60230,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60231] = {
+	display = "A card from Ping Hai.",
+	name = "Spring Festival Tidings (Ping Hai)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60231,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60232] = {
+	display = "A card from Chang Chun.",
+	name = "Spring Festival Tidings (Chang Chun)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60232,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60233] = {
+	display = "A card from Tai Yuan. ",
+	name = "Spring Festival Tidings (Tai Yuan)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/henianka2022",
+	price = "",
+	id = 60233,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[69000] = {
 	display = "Damage Rating from Guild battles and is also counted for Guild boss damage total",
 	name = "Damage Rating ",
@@ -154481,7 +155707,7 @@ The available outfits and their rarities are as follows:
 (<color=#92fc63>4.5%</color>) Z28 - New Year's Smorgasbord!;
 (<color=#92fc63>4.5%</color>) U-110 - New Year, Small Shark;
  ]],
-	name = "Random Skin (Lunar New Year 2021) ",
+	name = "Random Skin",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -154523,7 +155749,7 @@ The available outfits and their rarities are as follows:
 (<color=#92fc63>4.8%</color>) Chao Ho - Plum Blossom's Illumination;
 (<color=#92fc63>4.8%</color>) Penelope - Ruby-Red Boudoir;
 (<color=#92fc63>4.8%</color>) U-410 - Spring Festival Scheme]],
-	name = "Random Skin",
+	name = "Random Skin (Lunar New Year 2021) ",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -154642,6 +155868,47 @@ The available outfits and their rarities are as follows:
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69916,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69917] = {
+	display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems).
+The available outfits and their rarities are as follows:
+(<color=#92fc63>12.0%</color>) Charybdis - Red Chamber of Healing (<color=#92fc63>Live2D</color>);
+(<color=#92fc63>12.0%</color>) Akagi - Dawn-Phoenix's Summons (<color=#92fc63>Live2D</color>);
+(<color=#92fc63>5.2%</color>) Bristol - Tales from the Empery;
+(<color=#92fc63>5.2%</color>) Reno - Spring's Inspiration;
+(<color=#92fc63>5.2%</color>) Kaga - Dusk-Simurgh's Vigil;
+(<color=#92fc63>5.2%</color>) Hermione - Pristine Herbalist;
+(<color=#92fc63>4.6%</color>) Chen Hai - Vestibule of Wonders;
+(<color=#92fc63>4.6%</color>) Hai Tien - Verse-Weaver at the Water's Edge;
+(<color=#92fc63>4.6%</color>) Hai Chi - A Dance Among the Lotuses;
+(<color=#92fc63>4.6%</color>) Yoizuki - Firecrackers and Steamed Buns;
+(<color=#92fc63>4.6%</color>) Naganami - Nestling Up for the Long Nights;
+(<color=#92fc63>4.6%</color>) Arizona - Enchantress from Afar;
+(<color=#92fc63>4.6%</color>) Asashio - Robes of Dancing Clouds;
+(<color=#92fc63>4.6%</color>) Rodney - Immaculate Beauty;
+(<color=#92fc63>4.6%</color>) Hanazuki - Blossoming Spring, Resplendent Moon;
+(<color=#92fc63>4.6%</color>) Oite - Jet Ink, Silver Quills;
+(<color=#92fc63>4.6%</color>) Ayanami - Dynasty Shipgirl;
+(<color=#92fc63>4.6%</color>) Pennsylvania - The Keystone General]],
+	name = "Random Skin (Lunar New Year 2022) ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69917,
 	display_icon = {},
 	price = {},
 	index = {}

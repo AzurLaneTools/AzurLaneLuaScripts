@@ -389,10 +389,10 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 
 			setImageSprite(uv0:findTF("BaseImg", slot2), GetSpriteFromAtlas("shipraritybaseicon", "base_" .. pg.ship_data_statistics[slot27].rarity))
 			LoadSpriteAsync("shipmodels/" .. Ship.getPaintingName(slot27), function (slot0)
-				if slot0 then
-					setImageSprite(uv0, slot0, true)
+				if slot0 and not uv0.exited then
+					setImageSprite(uv1, slot0, true)
 
-					rtf(uv0).pivot = getSpritePivot(slot0)
+					rtf(uv1).pivot = getSpritePivot(slot0)
 				end
 			end)
 

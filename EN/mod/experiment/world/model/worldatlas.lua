@@ -419,24 +419,44 @@ function slot0.UpdateCostMap(slot0, slot1, slot2)
 	slot0.costMapDic[slot1] = slot2
 end
 
-function slot0.SetPortMarkList(slot0, slot1)
-	slot0.markPortDic = {}
+function slot0.SetPortMarkList(slot0, slot1, slot2)
+	slot0.markPortDic = {
+		goods = {},
+		new = {}
+	}
 
-	for slot5, slot6 in ipairs(slot1) do
-		slot0.markPortDic[slot6] = true
+	for slot6, slot7 in ipairs(slot1) do
+		slot0.markPortDic.goods[slot7] = true
+	end
+
+	for slot6, slot7 in ipairs(slot2) do
+		slot0.markPortDic.new[slot7] = true
 	end
 end
 
-function slot0.UpdatePortMark(slot0, slot1, slot2)
-	if tobool(slot0.markPortDic[slot1]) ~= slot2 then
-		slot0.markPortDic[slot1] = slot2
-		slot3 = {}
+function slot0.UpdatePortMark(slot0, slot1, slot2, slot3)
+	slot4 = nil
 
-		for slot7, slot8 in ipairs(slot0.portEntranceList[slot1]) do
-			slot3[slot8] = true
+	if slot2 ~= nil and tobool(slot0.markPortDic.goods[slot1]) ~= slot2 then
+		slot0.markPortDic.goods[slot1] = slot2
+		slot4 = slot4 or {}
+
+		for slot8, slot9 in ipairs(slot0.portEntranceList[slot1]) do
+			slot4[slot9] = true
 		end
+	end
 
-		slot0:DispatchEvent(uv0.EventUpdatePortMark, slot3)
+	if slot3 ~= nil and tobool(slot0.markPortDic.new[slot1]) ~= slot3 then
+		slot0.markPortDic.new[slot1] = slot3
+		slot4 = slot4 or {}
+
+		for slot8, slot9 in ipairs(slot0.portEntranceList[slot1]) do
+			slot4[slot9] = true
+		end
+	end
+
+	if slot4 then
+		slot0:DispatchEvent(uv0.EventUpdatePortMark, slot4)
 	end
 end
 

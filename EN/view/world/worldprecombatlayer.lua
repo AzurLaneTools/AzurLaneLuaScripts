@@ -382,94 +382,93 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 	function slot2(slot0, slot1, slot2, slot3)
 		if uv0.exited then
-			PoolMgr.GetInstance():ReturnSpineChar(slot1:getPrefab(), slot0)
+			slot0:Dispose()
 
 			return
 		end
 
-		slot4 = WorldConst.FetchWorldShip(slot1.id)
+		slot4 = slot0.model
+		slot5 = WorldConst.FetchWorldShip(slot1.id)
 		uv0.characterList[slot2][slot3] = slot0
 
-		tf(slot0):SetParent(uv0.heroContainer, false)
+		tf(slot4):SetParent(uv0.heroContainer, false)
 
-		tf(slot0).localScale = Vector3(0.65, 0.65, 1)
+		tf(slot4).localScale = Vector3(0.65, 0.65, 1)
 
-		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
-		uv0:enabledCharacter(slot0, true, slot2)
-		uv0:setCharacterPos(slot2, slot3, slot0)
+		pg.ViewUtils.SetLayer(tf(slot4), Layer.UI)
+		uv0:enabledCharacter(slot4, true, slot2)
+		uv0:setCharacterPos(slot2, slot3, slot4)
 		uv0:sortSiblingIndex()
 
-		slot5 = cloneTplTo(uv0.heroInfo, slot0)
+		slot6 = cloneTplTo(uv0.heroInfo, slot4)
 
-		setAnchoredPosition(slot5, {
+		setAnchoredPosition(slot6, {
 			x = 0,
 			y = 0
 		})
 
-		slot5.localScale = Vector3(2, 2, 1)
+		slot6.localScale = Vector3(2, 2, 1)
 
-		SetActive(slot5, true)
+		SetActive(slot6, true)
 
-		slot5.name = "info"
-		slot7 = findTF(findTF(slot5, "info"), "stars")
-		slot9 = findTF(slot6, "energy")
+		slot6.name = "info"
+		slot8 = findTF(findTF(slot6, "info"), "stars")
+		slot10 = findTF(slot7, "energy")
 
 		if slot1:getEnergy() <= Ship.ENERGY_MID then
-			slot10, slot11 = slot1:getEnergyPrint()
+			slot11, slot12 = slot1:getEnergyPrint()
 
-			if not GetSpriteFromAtlas("energy", slot10) then
+			if not GetSpriteFromAtlas("energy", slot11) then
 				warning("找不到疲劳")
 			end
 
-			setImageSprite(slot9, slot12)
+			setImageSprite(slot10, slot13)
 		end
 
-		setActive(slot9, slot8)
+		setActive(slot10, slot9)
 
-		for slot14 = 1, slot1:getStar() do
-			cloneTplTo(uv0.starTpl, slot7)
+		for slot15 = 1, slot1:getStar() do
+			cloneTplTo(uv0.starTpl, slot8)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot6, "type"), slot11, true)
-		setText(findTF(slot6, "frame/lv_contain/lv"), slot1.level)
+		setImageSprite(findTF(slot7, "type"), slot12, true)
+		setText(findTF(slot7, "frame/lv_contain/lv"), slot1.level)
 
-		slot12 = slot4:IsHpSafe()
-		slot13 = findTF(slot6, "blood")
+		slot13 = slot5:IsHpSafe()
+		slot14 = findTF(slot7, "blood")
 
-		setActive(findTF(slot13, "fillarea/green"), slot12)
-		setActive(findTF(slot13, "fillarea/red"), not slot12)
+		setActive(findTF(slot14, "fillarea/green"), slot13)
+		setActive(findTF(slot14, "fillarea/red"), not slot13)
 
-		slot13:GetComponent(typeof(Slider)).fillRect = slot12 and slot14 or slot15
+		slot14:GetComponent(typeof(Slider)).fillRect = slot13 and slot15 or slot16
 
-		setSlider(slot13, 0, 10000, slot4.hpRant)
-		setActive(slot13:Find("broken"), slot4:IsBroken())
-		setActive(slot6:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
+		setSlider(slot14, 0, 10000, slot5.hpRant)
+		setActive(slot14:Find("broken"), slot5:IsBroken())
+		setActive(slot7:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
 
-		if slot17 then
-			slot21 = tostring(slot17 / 100)
+		if slot18 then
+			slot22 = tostring(slot18 / 100)
 
-			if slot17 % 100 > 0 then
-				slot21 = slot21 .. "." .. tostring(slot20)
+			if slot18 % 100 > 0 then
+				slot22 = slot22 .. "." .. tostring(slot21)
 			end
 
-			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
+			setText(slot19:Find("text"), string.format("EXP +%s%%", slot22))
 		end
 	end
 
 	function slot4(slot0)
 		for slot6, slot7 in ipairs(uv0:getCurrentFleet():GetTeamShipVOs(slot0, false)) do
-			slot8 = slot7:getPrefab()
-
 			table.insert(uv1, function (slot0)
-				slot1 = PoolMgr.GetInstance()
+				slot1 = SpineRole.New(uv0)
 
-				slot1:GetSpineChar(uv0, true, function (slot0)
-					uv0(slot0, uv1, uv2, uv3)
-					onNextTick(uv4)
+				slot1:Load(function ()
+					uv0(uv1, uv2, uv3, uv4)
+					onNextTick(uv5)
 				end)
 			end)
 		end
@@ -514,11 +513,11 @@ end
 
 function slot0.setAllCharacterPos(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.characterList[TeamType.Vanguard]) do
-		slot0:setCharacterPos(TeamType.Vanguard, slot5, slot6, slot1)
+		slot0:setCharacterPos(TeamType.Vanguard, slot5, tf(slot6.model), slot1)
 	end
 
 	for slot5, slot6 in ipairs(slot0.characterList[TeamType.Main]) do
-		slot0:setCharacterPos(TeamType.Main, slot5, slot6, slot1)
+		slot0:setCharacterPos(TeamType.Main, slot5, tf(slot6.model), slot1)
 	end
 
 	slot0:sortSiblingIndex()
@@ -552,16 +551,16 @@ end
 function slot0.switchToEditMode(slot0)
 	function slot1(slot0)
 		for slot4, slot5 in ipairs(slot0) do
-			if tf(slot5):Find("mouseChild") then
-				slot7 = slot6:GetComponent("EventTriggerListener")
-				uv0.eventTriggers[slot7] = true
+			if tf(slot5.model):Find("mouseChild") then
+				slot8 = slot7:GetComponent("EventTriggerListener")
+				uv0.eventTriggers[slot8] = true
 
-				if slot7 then
-					slot7:RemovePointEnterFunc()
+				if slot8 then
+					slot8:RemovePointEnterFunc()
 				end
 
 				if slot4 == uv0._shiftIndex then
-					slot6:GetComponent(typeof(Image)).enabled = true
+					slot7:GetComponent(typeof(Image)).enabled = true
 				end
 			end
 		end
@@ -583,17 +582,17 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot0.characterList[slot2]) do
-		if slot8 ~= slot1 then
-			LeanTween.moveLocalY(go(slot8), slot0.gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
+		if slot8.model ~= slot1 then
+			LeanTween.moveLocalY(slot9, slot0.gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
 
-			slot10 = tf(slot8)
-			slot10 = slot10:Find("mouseChild")
-			slot10 = slot10:GetComponent("EventTriggerListener")
-			slot0.eventTriggers[slot10] = true
+			slot11 = tf(slot9)
+			slot11 = slot11:Find("mouseChild")
+			slot11 = slot11:GetComponent("EventTriggerListener")
+			slot0.eventTriggers[slot11] = true
 
-			slot10:AddPointEnterFunc(function ()
+			slot11:AddPointEnterFunc(function ()
 				for slot3, slot4 in ipairs(uv0) do
-					if slot4 == uv1 then
+					if slot4.model == uv1 then
 						uv2:shift(uv2._shiftIndex, slot3, uv3)
 
 						break
@@ -602,20 +601,20 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 			end)
 		else
 			slot0._shiftIndex = slot7
-			tf(slot8):Find("mouseChild"):GetComponent(typeof(Image)).enabled = false
+			tf(slot9):Find("mouseChild"):GetComponent(typeof(Image)).enabled = false
 		end
 
-		slot8:GetComponent("SpineAnimUI"):SetAction("normal", 0)
+		slot9:GetComponent("SpineAnimUI"):SetAction("normal", 0)
 	end
 end
 
 function slot0.shift(slot0, slot1, slot2, slot3)
 	slot4 = slot0.characterList[slot3]
-	slot6 = slot4[slot2]
+	slot6 = slot4[slot2].model
 	slot8 = slot0.gridTFs[slot3][slot1].localPosition
 	tf(slot6).localPosition = Vector3(slot8.x + 2, slot8.y - 80, slot8.z)
 
-	LeanTween.cancel(go(slot6))
+	LeanTween.cancel(slot6)
 
 	slot4[slot2] = slot4[slot1]
 	slot4[slot1] = slot4[slot2]
@@ -637,13 +636,13 @@ function slot0.sortSiblingIndex(slot0)
 		slot4 = slot0.characterList[TeamType.Vanguard][slot1]
 
 		if slot0.characterList[TeamType.Main][slot1] then
-			tf(slot3):SetSiblingIndex(slot2)
+			tf(slot3.model):SetSiblingIndex(slot2)
 
 			slot2 = slot2 + 1
 		end
 
 		if slot4 then
-			tf(slot4):SetSiblingIndex(slot2)
+			tf(slot4.model):SetSiblingIndex(slot2)
 
 			slot2 = slot2 + 1
 		end
@@ -654,7 +653,7 @@ end
 
 function slot0.enabledTeamCharacter(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot0.characterList[slot1]) do
-		slot0:enabledCharacter(slot8, slot2, slot1)
+		slot0:enabledCharacter(slot8.model, slot2, slot1)
 	end
 end
 
@@ -731,7 +730,7 @@ end
 function slot0.recycleCharacterList(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot1) do
 		if slot2[slot6] then
-			PoolMgr.GetInstance():ReturnSpineChar(slot7:getPrefab(), slot2[slot6])
+			slot2[slot6]:Dispose()
 
 			slot2[slot6] = nil
 		end

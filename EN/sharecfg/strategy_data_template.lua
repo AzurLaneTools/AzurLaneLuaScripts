@@ -132,6 +132,18 @@ pg.strategy_data_template = {
 		desc = "Thick fog blankets the battlefield, reducing the rate at which Concealment Zones shrink for both your fleets and enemies.",
 		arg = {}
 	},
+	[18] = {
+		buff_id = 0,
+		name = "Missile",
+		type = 2,
+		iconSize = "",
+		id = 18,
+		icon = "18",
+		desc = "Lets you launch a missile strike on the map.",
+		arg = {
+			missile
+		}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "High-Efficiency Operation",
@@ -1400,6 +1412,7 @@ pg.strategy_data_template = {
 		14,
 		16,
 		17,
+		18,
 		47,
 		90,
 		91,

@@ -115,7 +115,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10145,
 			10144,
-			10148
+			10148,
+			10149
 		}
 	},
 	[10201] = {
@@ -771,7 +772,8 @@ pg.fleet_tech_ship_class = {
 			20204,
 			20220,
 			20224,
-			20227
+			20227,
+			20230
 		}
 	},
 	[20207] = {
@@ -2128,6 +2130,29 @@ pg.fleet_tech_ship_class = {
 			50204
 		}
 	},
+	[50204] = {
+		shiptype = 2,
+		name = "Hai Tien-class",
+		nation = 5,
+		id = 50204,
+		t_level_1 = 129,
+		t_level = 1,
+		ships = {
+			50207,
+			50208
+		}
+	},
+	[50601] = {
+		shiptype = 6,
+		name = "Chen Hai",
+		nation = 5,
+		id = 50601,
+		t_level_1 = 130,
+		t_level = 1,
+		ships = {
+			50601
+		}
+	},
 	[60101] = {
 		shiptype = 1,
 		name = "Soldati Class",
@@ -2776,6 +2801,8 @@ pg.fleet_tech_ship_class = {
 		50201,
 		50202,
 		50203,
+		50204,
+		50601,
 		60101,
 		60102,
 		60103,

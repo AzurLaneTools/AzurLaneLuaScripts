@@ -67,16 +67,16 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(ActivityFleetPanel.ON_FLEET_RECOMMEND, function (slot0, slot1)
 		uv0:recommendActivityFleet(uv1.id, slot1)
-		uv3.viewComponent:setFleet(uv2:getActivityFleets()[uv1.id])
-		uv3.viewComponent:updateEditPanel()
+		uv2.viewComponent:setFleet(uv0:getActivityFleets()[uv1.id])
+		uv2.viewComponent:updateEditPanel()
 	end)
 	slot0:bind(ActivityFleetPanel.ON_FLEET_CLEAR, function (slot0, slot1)
-		slot3 = uv0:getActivityFleets()[uv1.id]
-		slot4 = slot3[slot1]
+		slot2 = uv0:getActivityFleets()[uv1.id]
+		slot3 = slot2[slot1]
 
-		slot4:clearFleet()
-		uv0:updateActivityFleet(uv1.id, slot1, slot4)
-		uv2.viewComponent:setFleet(slot3)
+		slot3:clearFleet()
+		uv0:updateActivityFleet(uv1.id, slot1, slot3)
+		uv2.viewComponent:setFleet(slot2)
 		uv2.viewComponent:updateEditPanel()
 	end)
 	slot0:bind(uv0.COMMANDER_FORMATION_OP, function (slot0, slot1)

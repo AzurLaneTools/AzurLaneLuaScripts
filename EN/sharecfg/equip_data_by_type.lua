@@ -74,7 +74,7 @@ pg.equip_data_by_type = {
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		equip_skin = 0,
+		equip_skin = 1,
 		type_name = "Auxiliary",
 		equip_type = 10,
 		compare_group = 5,
@@ -136,6 +136,14 @@ pg.equip_data_by_type = {
 		compare_group = 5,
 		type_name2 = "Cargo"
 	},
+	[20] = {
+		distory_resource_gold_ratio = 2,
+		equip_skin = 0,
+		type_name = "Missile",
+		equip_type = 20,
+		compare_group = 1,
+		type_name2 = "Missile"
+	},
 	all = {
 		1,
 		2,
@@ -153,6 +161,7 @@ pg.equip_data_by_type = {
 		14,
 		15,
 		17,
-		18
+		18,
+		20
 	}
 }

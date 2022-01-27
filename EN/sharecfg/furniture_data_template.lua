@@ -6099,6 +6099,81 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100026] = {
+		effect = "",
+		name = "Wide Manjuu Trampoline",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "More bounce than you bargained for.",
+		tag = 6,
+		icon = "tiaojiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		comfortable = 0,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100026,
+		can_rotate = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tiaojiB",
+				"normal"
+			},
+			{
+				"tiaojiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"tiaojiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		effect = "",
 		name = "The Conquered Unhulde's Throne",
@@ -87645,6 +87720,946 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[86001] = {
+		icon = "dibancj4icon",
+		name = "Empery Estate Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 86,
+		picture = "cj4/dibancj4",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Authentic, picturesque, and probably very itchy.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 86001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86002] = {
+		icon = "qiangbicj4icon",
+		name = "Empery Estate Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 86,
+		picture = "cj4/qiangbicj4",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Drift away to a distant land of majestic stone forests.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 86002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86101] = {
+		effect = "",
+		name = "White Stone Corridor Window",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/changlangcj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Teases the splendor and beauty of what's on the other side. Kind of like architectural fishnets.",
+		tag = 1,
+		icon = "changlangcj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86101,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86102] = {
+		effect = "",
+		name = "Sampan Boats",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj4/chuancj4",
+		is_get_time_note = 0,
+		themeId = 86,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "No classical Dragon Empery painting would be complete without these delicate, leaf-like vessels.",
+		tag = 1,
+		icon = "chuancj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86102,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-32.8,
+					-38.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86103] = {
+		effect = "",
+		name = "Empery Stone Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/dengcj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "No, there are no Geo outcrops around here. Stop looking.",
+		tag = 1,
+		icon = "dengcj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86104] = {
+		effect = "",
+		name = "Estate House",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/fangzicj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Keep your hands where we can see them, Charybdis.\"",
+		tag = 1,
+		icon = "fangzicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86104,
+		can_rotate = 1,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86105] = {
+		effect = "",
+		name = "Red-Gowned Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/guofengjicj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Hardly a peep comes from this demure, elegantly-clad Manjuu.",
+		tag = 1,
+		icon = "guofengjicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86106] = {
+		effect = "",
+		name = "Tranquil Stream",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/heshuicj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A small, bubbling stream that somehow is capable of reflecting the seasons, or so the poems say.",
+		tag = 1,
+		icon = "heshuicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86106,
+		can_rotate = 1,
+		size = {
+			24,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86107] = {
+		effect = "",
+		name = "Exquisite Empery Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj4/xiuxishicj4",
+		is_get_time_note = 0,
+		themeId = 86,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Exquisite tea is best enjoyed along with an exquisite view. Except Fu Shun seems to have put strange ingredients in the tea again...",
+		tag = 1,
+		icon = "xiuxishicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86107,
+		can_rotate = 0,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-95.6,
+					-77.4
+				},
+				{
+					1,
+					1
+				},
+				"cj4/xiuxishicj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86108] = {
+		effect = "",
+		name = "Wintersweet Patch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/lameicj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A fragrant shrub that blooms in the winter months. Its sweet aroma reminds you to go Lunar New Year shopping.",
+		tag = 1,
+		icon = "lameicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86108,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86109] = {
+		effect = "",
+		name = "Garden Pavilion",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/liangtingcj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"But I'm the big sishter!\" \"You've been drinking too much, Chao Ho~\"",
+		tag = 1,
+		icon = "liangtingcj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86109,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86110] = {
+		effect = "",
+		name = "Fine Wood Bridge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj4/qiaocj4",
+		is_get_time_note = 0,
+		themeId = 86,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Simply walking across this bridge will fill your head with poetry.",
+		tag = 1,
+		icon = "qiaocj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86110,
+		can_rotate = 0,
+		size = {
+			9,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-99.2,
+					-51.8
+				},
+				{
+					1,
+					1
+				},
+				"cj4/qiaocj4_using"
+			},
+			{
+				"stand2",
+				{
+					148.4,
+					-26.4
+				},
+				{
+					-1,
+					1
+				},
+				"cj4/qiaocj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86111] = {
+		effect = "",
+		name = "Guzheng",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj4/guzhengcj4",
+		is_get_time_note = 0,
+		themeId = 86,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An ancient string instrument with a distinct sound that has crossed the ages.",
+		tag = 1,
+		icon = "guzhengcj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86111,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-31.4,
+					76.2
+				},
+				{
+					1,
+					1
+				},
+				"cj4/guzhengcj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86112] = {
+		effect = "",
+		name = "Empery Estate Stone",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/shitoucj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Not much separates this from a non Empery Estate stone.",
+		tag = 1,
+		icon = "shitoucj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86113] = {
+		effect = "",
+		name = "Master Strategist's Legacy",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/shizhuocj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Legend has it that nobody has solved this Go challenge for over a hundred years, but that doesn't stop the Manjuu from trying.",
+		tag = 1,
+		icon = "shizhuocj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86113,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86114] = {
+		effect = "",
+		name = "Majestic White Pine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/shucj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "These majestic trees grow on steep, stony cliffs, seemingly reaching for the stars.",
+		tag = 1,
+		icon = "shucj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86114,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86115] = {
+		effect = "",
+		name = "Imitation Mountain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/xiaojiashancj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "In nature, these oddly-shaped mountains are carved out over eons by the elements. Let's get a fake one from Akashi instead.",
+		tag = 1,
+		icon = "xiaojiashancj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86116] = {
+		effect = "",
+		name = "Trifecta of Nature",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj4/jiashancj4",
+		is_get_time_note = 0,
+		themeId = 86,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Mountains, forests, and water - the three core elements that represent the splendor of nature. And then a giant Manjuu that looks like it's relieving itself.",
+		tag = 1,
+		icon = "jiashancj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86116,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-77.3,
+					-50.9
+				},
+				{
+					-1,
+					1
+				},
+				"cj4/jiashancj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86117] = {
+		effect = "",
+		name = "Bamboo Forest",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/zhuzicj4",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Strive to become like this versatile plant. Bend, but do not break.",
+		tag = 1,
+		icon = "zhuzicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86119] = {
+		effect = "",
+		name = "Empery Estate Stone Path",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/shizilucj4",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A simple but atmospheric trail of flat stones. Shipgirls in high heels beware.",
+		tag = 1,
+		icon = "shizilucj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 86119,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86122] = {
+		effect = "",
+		name = "Kiln Artisan Manjuu",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A time-honored craft that goes back thousands of years. Clearly, even old techniques can push new boundaries.",
+		tag = 7,
+		icon = "shaociqicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		comfortable = 4,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 86122,
+		can_rotate = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shaociqiB",
+				"normal"
+			},
+			{
+				"shaociqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit4",
+						"shaociqiCharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"shaociqiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[86301] = {
+		effect = "",
+		name = "Empery Estate Entrance",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 86,
+		is_get_time_note = 0,
+		picture = "cj4/gongmencj4",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An intricate, round courtyard entrance with an unconventional design.",
+		tag = 5,
+		icon = "gongmencj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 86301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -87764,6 +88779,7 @@ pg.furniture_data_template = {
 		100021,
 		100022,
 		100023,
+		100026,
 		200001,
 		200002,
 		200003,
@@ -89630,6 +90646,28 @@ pg.furniture_data_template = {
 		85306,
 		85307,
 		85308,
-		85309
+		85309,
+		86001,
+		86002,
+		86101,
+		86102,
+		86103,
+		86104,
+		86105,
+		86106,
+		86107,
+		86108,
+		86109,
+		86110,
+		86111,
+		86112,
+		86113,
+		86114,
+		86115,
+		86116,
+		86117,
+		86119,
+		86122,
+		86301
 	}
 }

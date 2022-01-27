@@ -26,6 +26,7 @@ function slot5.Init(slot0)
 	slot0._bulletCache = {}
 	slot0._weaponRegisterList = {}
 	slot0._characterPos = Vector3.zero
+	slot0._orbitList = {}
 	slot0._inViewArea = false
 	slot0._alwaysHideArrow = false
 	slot0._hideHP = false
@@ -753,6 +754,12 @@ function slot5.Dispose(slot0)
 		uv0.GetInstance():DestroyOb(slot4)
 	end
 
+	for slot4, slot5 in pairs(slot0._orbitList) do
+		uv0.GetInstance():DestroyOb(slot4)
+	end
+
+	slot0._orbitList = nil
+
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._voiceTimer)
 
 	slot0._voiceTimer = nil
@@ -826,6 +833,13 @@ function slot5.AddModel(slot0, slot1)
 		end
 	end)
 	slot0._unitData:RegisterEventListener(slot0, uv1.CHANGE_ACTION, slot0.OnActionChange)
+end
+
+function slot5.AddOrbit(slot0, slot1, slot2)
+	slot4 = slot2.orbit_combat_bound[2]
+	slot1.transform.localPosition = Vector3(slot4[1], slot4[2], slot4[3])
+	SpineAnim.AddFollower(slot2.orbit_combat_bound[1], slot0._tf, slot1.transform):GetComponent("Spine.Unity.BoneFollower").followBoneRotation = false
+	slot0._orbitList[slot1] = slot2.orbit_hidden_action
 end
 
 function slot5.AddSmokeFXs(slot0, slot1)

@@ -239,7 +239,6 @@ function slot3.initComponent(slot0)
 	slot0._white = slot0._base:Find("white_button")
 
 	onButton(nil, slot0._white, function ()
-		uv0._dataProxy._fleetList[1]._scoutList[1]:UpdateHP(-1000000, {})
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)
 end
@@ -274,7 +273,7 @@ function slot3.spawnStrike(slot0, slot1, slot2, slot3, slot4)
 		onceNumber = slot3,
 		formation = 10006,
 		delay = 0,
-		interval = slot4,
+		interval = 0.1,
 		score = 0
 	})
 end

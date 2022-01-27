@@ -1126,6 +1126,10 @@ _G.pg.gametip.word_submarine_torpedo = {
 	tip = "Submarine Torpedo"
 }
 
+_G.pg.gametip.word_missile = {
+	tip = "Missile"
+}
+
 _G.pg.gametip.word_online = {
 	tip = "Online"
 }
@@ -2706,7 +2710,7 @@ Page 6: 1 Red Envelope
 Page 7: An Shan-class destroyer – An Shan]]
 		},
 		{
-			info = "After the event concludes, any unspent paint will be removed from your inventory.\nOne new page will be unlocked every day up to February 10th."
+			info = "After the event concludes, any unspent paint will be removed from your inventory.\nOne new page will be unlocked every day up to February 2th."
 		}
 	}
 }
@@ -7521,6 +7525,38 @@ Are you sure you want to continue?
 <material=underline c=#92fc63 event=clickDetail>Tap here for details.</material></color></size>]]
 }
 
+_G.pg.gametip.ship_remould_warning_520014 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Vanguard Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
+_G.pg.gametip.ship_remould_warning_521014 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Main Fleet Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
+_G.pg.gametip.ship_remould_warning_520034 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Vanguard Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
+_G.pg.gametip.ship_remould_warning_521034 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Main Fleet Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
 _G.pg.gametip.word_soundfiles_download_title = {
 	tip = "Download Language Pack"
 }
@@ -9779,7 +9815,7 @@ _G.pg.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "Cleveland µ added to standard build pool! "
+	tip = "Ying Swei, Chao Ho and Penelope added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_special_tip = {
@@ -9873,6 +9909,10 @@ _G.pg.gametip.tec_notice_1 = {
 
 _G.pg.gametip.tec_notice_2 = {
 	tip = "Complete all PR2 Catch-Up missions "
+}
+
+_G.pg.gametip.tec_notice_3 = {
+	tip = "Complete all PR3 Catch-Up missions "
 }
 
 _G.pg.gametip.tec_notice_not_open_tip = {
@@ -10677,42 +10717,45 @@ _G.pg.gametip.md5_error = {
 _G.pg.gametip.world_boss_help = {
 	tip = {
 		{
-			info = "<color=#92fc63>- How to Play:</color>"
+			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During the \"Crosswave\" event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
+			info = "During the Joint Battle Mystery Investigation event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
-During the event period, you will play on a special stage and face off against Suruga's fleet.
-All commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
-Once the mission is completed, all players who participated will be rewarded with a gift sent to their Mailbox.
-<color=#92fc63>Note that you can still earn CP through the Event Stage even once the progress gauge has hit 0%.</color>
+During the event period, you will play on a special stage and face off against an exercise fleet led by the destroyer Bristol.
+All Commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
+Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
+Be aware that you will not be able to claim this reward if your Mailbox is completely full (i.e. you have 1,000 mail stored).
+<color=#92fc63>Note that you can still earn CP through the event stage even once the progress gauge has hit 0%.</color>
 ]]
 		},
 		{
 			info = [[
-<color=#92fc63>- About Contribution Points:</color>
+<color=#92fc63>- Contribution Points Info -</color>
 1. You earn Contribution Points by clearing the Special Stage.
-2. The progress gauge is affected by the total number of CP earned by all commanders on your server.
+2. The progress gauge is affected by the total number of CP earned by all Commanders on your server.
 3. Once the progress bar hits <color=#92fc63>0%</color>, the mission is complete. Note that each server's progress bar is independent of the others.
-4. You can claim great rewards from the event banner by collecting a lot of CP.
+4. You can claim nice rewards from the event banner by collecting a lot of CP.
 ]]
 		},
 		{
 			info = [[
-<color=#92fc63>- About the Event Stage:</color>
-1. The Event Stage can be played on 4 difficulty modes: <color=#92fc63>Easy</color>, <color=#92fc63>Normal</color>, <color=#92fc63>Hard</color>, and <color=#92fc63>EX</color>.
+<color=#92fc63>- Event Stage Info -</color>
+1. The event stage can be played on 4 difficulty modes: <color=#92fc63>Easy</color>, <color=#92fc63>Normal</color>, <color=#92fc63>Hard</color>, and <color=#92fc63>EX</color>.
 2. You earn a <color=#92fc63>fixed amount</color> of CP from the first 3 difficulties, but the amount of CP and which rewards you receive on <color=#92fc63>EX difficulty</color> are based on how much damage you dealt during the battle.
-3. The Event Stage uses a <color=#92fc63>different fleet composition</color> to regular maps. You can change its formation beforehand.
-4. <color=#92fc63>Oil</color> will be consumed when you sortie for and win on the Event Stage. When you complete the map, you receive <color=#92fc63>EXP</color> and <color=#92fc63>clear rewards</color> as per usual, and Morale changes will take effect. (Note that the EX difficulty also imposes a <color=#92fc63>60-second time limit</color>. Your EX difficulty run concludes when you run out of time, when you defeat the boss, or when your Flagship sinks.)
+3. The event stage uses a <color=#92fc63>different fleet composition</color> to regular maps. You can change its formation beforehand.
+4. <color=#92fc63>Oil</color> will be consumed when you sortie for and win on the event stage. When you complete the map, you receive <color=#92fc63>EXP</color> and <color=#92fc63>clear rewards</color> as per usual, and Morale changes will take effect.
+· Note that the EX difficulty also imposes a <color=#92fc63>60-second time limit</color>. Your EX difficulty run concludes when you run out of time, when you defeat the boss, or when your Flagship sinks.
+· Shipgirls do not suffer a Morale penalty from being sunk on the event stage.
 5. You can deploy <color=#92fc63>submarines</color> and <color=#92fc63>Meowfficers</color> on EX difficulty. Calling in your submarines during a battle will cost Oil.
 6. You can play on Easy, Normal, and Hard difficulty <color=#92fc63>as much as you like</color>, but you will need to spend a <color=#92fc63>Bonus Ticket</color> each time you wish to do a run on <color=#92fc63>EX difficulty</color>.
 ]]
 		},
 		{
 			info = [[
-<color=#92fc63>- About Reward Sorties and Bonus Tickets:</color>
+<color=#92fc63>- Reward Sorties and Bonus Tickets Info -</color>
 1. Your first <color=#92fc63>15 battles</color> on Easy, Normal, or Hard difficulty of each day are treated as <color=#92fc63>Reward Sorties</color>, which will give you better clear rewards than usual.
 2. If you've <color=#92fc63>used up</color> your 15 daily Reward Sorties, you can use <color=#92fc63>Bonus Tickets</color> to gain access to more Reward Sorties.
 3. <color=#92fc63>Bonus Tickets</color> are also used to gain access to EX difficulty.
@@ -10721,12 +10764,13 @@ Once the mission is completed, all players who participated will be rewarded wit
 		},
 		{
 			info = [[
-<color=#ff5c5c>- Miscellaneous Info:</color>
-1. If you abort an EX difficulty run halfway through, your Bonus Ticket will still be consumed, but you will <color=#ff5c5c>not receive any rewards or CP</color>.
+<color=#ff5c5c>- Miscellaneous Info -</color>
+1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, but you will <color=#ff5c5c>not receive any rewards or CP</color>.
 2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
-3. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run halfway through on Easy, Normal, or Hard difficulty.
-4. We urge you to keep an eye on your ships' Morale and Affinity and to not sortie too much. <color=#92fc63>Please be considerate!</color>
-5. The number of clears required for any given server to complete the event will differ based on the combined user data of that server.]]
+3. You can do practice runs of EX mode from the Formation screen. Practice runs do not cost Bonus Tickets or Oil, and do not affect your shipgirls' Morale, but they do not award EXP or rewards either. 
+4. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run partway through on Easy, Normal, or Hard difficulty.
+5. We urge you to keep an eye on your shipgirls' Morale and Affinity and to not sortie too much. <color=#92fc63>Please be considerate!</color>
+6. The number of clears required for any given server to complete the event will differ based on the combined user data of that server.]]
 		}
 	}
 }
@@ -12322,6 +12366,10 @@ _G.pg.gametip.word_hard = {
 	tip = "Hard"
 }
 
+_G.pg.gametip.word_special_challenge_ticket = {
+	tip = "Bonus Ticket"
+}
+
 _G.pg.gametip.tip_exchange_ticket = {
 	tip = "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?"
 }
@@ -13109,6 +13157,10 @@ _G.pg.gametip.word_equipskin_aircraft = {
 	tip = "Aircraft "
 }
 
+_G.pg.gametip.word_equipskin_aux = {
+	tip = "Gear"
+}
+
 _G.pg.gametip.msgbox_repair = {
 	tip = "Repair Assets"
 }
@@ -13179,11 +13231,12 @@ _G.pg.gametip.help_chunjie_jiulou = {
 	tip = {
 		{
 			info = [[
-- Manjuu Resort Info:
-1. You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames.
-2. Red Envelopes can be acquired from Fu Shun's Great Adventure II, Drawing Book, and Ying Swei's Spring Travels.
-3. There are 2 types of Red Envelopes: 15 Special Red Envelopes, and the rest are regular Red Envelopes.
-4. You can keep up to 15 Special Red Envelopes in your inventory at a time.]]
+- Manjuu Resort Info -
+· You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames.
+· Red Envelopes can be acquired from Fu Shun's Great Adventure III, World Within the Painting, and Ying Swei's Spring Travels.
+· Opening envelopes will grant you a number of randomly chosen rewards, potentially including Gems.
+· Your first 15 envelopes are Special Red Envelopes and will yield better rewards than regular Red Envelopes.
+· After opening 25 envelopes in total, you will receive <color=#92fc63>a skin for U-73</color> as a bonus reward.]]
 		}
 	}
 }
@@ -14348,15 +14401,18 @@ _G.pg.gametip.help_monopoly_car = {
 _G.pg.gametip.help_monopoly_3th = {
 	tip = {
 		{
+			info = "Event Duration: <color=#92fc63>1/27/2022 - 2/10/2022</color>"
+		},
+		{
 			info = [[
-Event Duration: 2/4/2021 - 2/19/2021
-Instructions:
-1. Tap the button on the bottom-right side of the screen to Explore once.
-2. Every 5 times you Explore, you will earn a Red Envelope as a special bonus.
-(Red Envelopes can be opened in the Manjuu Tower.)
-3. Every day during the event, you will be able to Explore 5 times, and this amount can stack.
-4. After Exploring 35 times (7 days' worth), you will get light cruiser Ying Swei's limited outfit, "Snowy Pine's Warmth."
-5. Random events may occur during this minigame.]]
+- Overview -
+· Tap the button on the bottom-right side of the screen to Explore once.
+· Every 5 times you Explore, you will earn a Red Envelope as a special bonus.
+· Red Envelopes can be opened in the Manjuu Resort.
+· Every day during the event, you will be able to Explore 5 times. Exploration Points can be saved and used later.
+· After Exploring 35 times (7 days' worth), you will get light cruiser Ying Swei's limited outfit, "Snowy Pine's Warmth."
+· Random events may occur during this minigame.
+· You can tap the Auto Explore button to keep revealing tiles until you run out of Exploration Points.]]
 		}
 	}
 }
@@ -14609,12 +14665,20 @@ _G.pg.gametip.tec_target_catchup_none_2 = {
 	tip = "PR2 / Not Selected"
 }
 
+_G.pg.gametip.tec_target_catchup_none_3 = {
+	tip = "PR3 / Not Selected"
+}
+
 _G.pg.gametip.tec_target_catchup_selected_1 = {
 	tip = "PR1 / Selected"
 }
 
 _G.pg.gametip.tec_target_catchup_selected_2 = {
 	tip = "PR2 / Selected"
+}
+
+_G.pg.gametip.tec_target_catchup_selected_3 = {
+	tip = "PR3 / Selected"
 }
 
 _G.pg.gametip.tec_target_catchup_finish_1 = {
@@ -16925,6 +16989,10 @@ _G.pg.gametip.equip_ammo_type_9 = {
 
 _G.pg.gametip.equip_ammo_type_10 = {
 	tip = "None "
+}
+
+_G.pg.gametip.equip_ammo_type_11 = {
+	tip = "Missile"
 }
 
 _G.pg.gametip.common_daily_limit = {
@@ -19408,4 +19476,209 @@ _G.pg.gametip.tactics_class_get_exp = {
 
 _G.pg.gametip.tactics_class_spend_time = {
 	tip = "Time Needed"
+}
+
+_G.pg.gametip.springfes_tips1 = {
+	tip = {
+		{
+			info = [[
+The Spring Pavilion campaign encompasses the following:
+
+1. Fu Shun's Great Adventure III
+· Play the minigame to the end to receive the destroyer Fu Shun!
+2. The World Within the Painting
+· Complete missions to get Exploration Points to reveal tiles within the painting and unlock 2 new shipgirls: Hai Tien and Hai Chi!
+3. The Picture Diary
+· Complete missions to get Paint, use it to fill in the pictures, and receive the destroyer An Shan!
+4. Retrofit Missions
+· Complete missions to get the retrofit materials for An Shan and Chang Chun and upgrade them into guided-missile destroyers!
+5. The Manjuu Resort
+· Head here to open your Red Envelopes!
+6. The Outfit Store
+· Check out the latest and greatest shipgirl fashion!
+7. Limited Construction
+· Build for new and exclusive event shipgirls!
+]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_tavel_point_tip = {
+	tip = "Insufficient Exploration Points."
+}
+
+_G.pg.gametip.worldinpicture_draw_point_tip = {
+	tip = "Insufficient Landmark Points."
+}
+
+_G.pg.gametip.worldinpicture_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+· Play World Within the Painting minigame by earning Exploration Points and Landmark Points through completing missions, then spend them within the minigame to progress.
+· Spending all available Exploration Points will award you with the new shipgirl Hai Chi.
+· Additionally spending all available Landmark Points will also award you with another new shipgirl, Hai Tien.
+
+- How to Play -
+· New missions will be unlocked every day up to February 2nd. Completing these will yield both Exploration Points and Landmark Points.
+· These points can be used to explore the World Within the Painting. You may come across treasure chests on the way. Finding these will reward you with Red Envelopes.
+· You can switch between Exploration and Landmark mode by tapping the button on the bottom left corner of the screen.
+· Landmarks can be placed on revealed tiles. This will use up Landmark Points and grant you rewards.]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_task_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+· Play World Within the Painting minigame by earning Exploration Points and Landmark Points through completing missions, then spend them within the minigame to progress.
+· Spending all available Exploration Points will award you with the new shipgirl Hai Chi.
+· Additionally spending all available Landmark Points will also award you with another new shipgirl, Hai Tien.
+
+- How to Play -
+· New missions will be unlocked every day up to February 2nd. Completing these will yield both Exploration Points and Landmark Points.
+· These points can be used to explore the World Within the Painting. You may come across treasure chests on the way. Finding these will reward you with Red Envelopes.
+· You can switch between Exploration and Landmark mode by tapping the button on the bottom left corner of the screen.
+· Landmarks can be placed on revealed tiles. This will use up Landmark Points and grant you rewards.]]
+		}
+	}
+}
+
+_G.pg.gametip.worldinpicture_not_area_can_draw = {
+	tip = "There are no available Landmark tiles."
+}
+
+_G.pg.gametip.missile_attack_area_confirm = {
+	tip = "Launch Strike"
+}
+
+_G.pg.gametip.missile_attack_area_cancel = {
+	tip = "Cancel Strike"
+}
+
+_G.pg.gametip.shipchange_alert_infleet = {
+	tip = "This ship is assigned to another fleet. Remove ship from that fleet?"
+}
+
+_G.pg.gametip.shipchange_alert_inpvp = {
+	tip = "This ship is assigned to your exercise attack fleet. Remove ship from that fleet?"
+}
+
+_G.pg.gametip.shipchange_alert_inexercise = {
+	tip = "This ship is assigned to your exercise defense fleet. Remove ship from that fleet?"
+}
+
+_G.pg.gametip.shipchange_alert_inworld = {
+	tip = "This ship is assigned to an Operation Siren fleet. Remove ship from that fleet?"
+}
+
+_G.pg.gametip.shipchange_alert_inguildbossevent = {
+	tip = "This ship is assigned to a Guild boss fight fleet. Remove ship from that fleet?"
+}
+
+_G.pg.gametip.shipchange_alert_indiff = {
+	tip = "This ship is assigned to another fleet. Remove ship from that fleet?"
+}
+
+_G.pg.gametip.shipmodechange_reject_1stfleet_only = {
+	tip = "You cannot leave Fleet 1 without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
+}
+
+_G.pg.gametip.shipmodechange_reject_worldfleet_only = {
+	tip = "You cannot leave this fleet without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
+}
+
+_G.pg.gametip.shipmodechange_reject_inactivity = {
+	tip = "This ship is assigned to a Challenge/Contribution-type event fleet. Replace her with a different ship and try again."
+}
+
+_G.pg.gametip.monopoly3thre_tip = {
+	tip = "※Commanders who already own this outfit will instead receive Coins."
+}
+
+_G.pg.gametip.fushun_game3_tip = {
+	tip = {
+		{
+			info = [[
+- Overview -
+In the Fu Shun's Great Adventure III minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+You will receive 1 Minigame Point daily up to February 2nd. Finishing the minigame with a Minigame Point in your possession will subtract 1 point, progress the minigame, and give you rewards. Spending 7 Minigame Points in total will award you with the Elite destroyer Fu Shun.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 100 points
+2. Amulet - Worth 600 points
+3. Power Juice - Increases your movement speed and jump height, allowing you to defeat more Nianjuus
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items]]
+		}
+	}
+}
+
+_G.pg.gametip.battlepass_main_tip_2202 = {
+	tip = "Complete Cruise Missions between 1/2 - 31/3 to receive <color=#854747>Junyou META</color> and other rewards!"
+}
+
+_G.pg.gametip.battlepass_main_help_2202 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+1/2 0:00 - 31/3 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Junyou META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Columbia, "Across the Vast Prairies."
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.gametip.cruise_task_help_2202 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
 }

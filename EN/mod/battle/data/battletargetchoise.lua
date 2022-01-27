@@ -778,23 +778,23 @@ function slot2.TargetTeam(slot0, slot1, slot2)
 	slot3 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF())
 	slot4 = {}
 
-	if slot1.teamIndex == TeamType.TeamTypeIndex[TeamType.Vanguard] then
+	if TeamType.TeamTypeIndex[slot1.teamIndex] == TeamType.Vanguard then
 		slot4 = slot3:GetScoutList()
-	elseif slot1.teamIndex == TeamType.TeamTypeIndex[TeamType.Main] then
+	elseif slot5 == TeamType.Main then
 		slot4 = slot3:GetMainList()
-	elseif slot1.teamIndex == TeamType.TeamTypeIndex[TeamType.Submarine] then
+	elseif slot5 == TeamType.Submarine then
 		slot4 = slot3:GetSubList()
 	end
 
-	slot5 = {}
+	slot6 = {}
 
-	for slot9, slot10 in ipairs(slot4) do
-		if not slot2 or table.contains(slot2, slot10) then
-			table.insert(slot5, slot10)
+	for slot10, slot11 in ipairs(slot4) do
+		if not slot2 or table.contains(slot2, slot11) then
+			table.insert(slot6, slot11)
 		end
 	end
 
-	return slot5
+	return slot6
 end
 
 function slot2.TargetGroup(slot0, slot1, slot2)

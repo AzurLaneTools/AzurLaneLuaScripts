@@ -90,7 +90,7 @@ end
 
 function slot0.doShipUpdate(slot0)
 	slot2 = slot0.flag
-	slot4 = slot0.chapter.fleet
+	slot3 = slot0.chapter
 
 	if #slot0.data.ship_update > 0 then
 		_.each(slot1.ship_update, function (slot0)
@@ -123,53 +123,51 @@ function slot0.doExtraFlagUpdate(slot0)
 end
 
 function slot0.doRetreat(slot0)
-	slot2 = slot0.data
-	slot3 = slot0.flag
-	slot4 = slot0.chapter
+	slot2 = slot0.flag
+	slot3 = slot0.chapter
 
 	if slot0.op.id then
-		if #slot4.fleets > 0 then
-			slot4.fleets = _.filter(slot4.fleets, function (slot0)
+		if #slot3.fleets > 0 then
+			slot3.fleets = _.filter(slot3.fleets, function (slot0)
 				return slot0.id ~= uv0.id
 			end)
 
-			if slot4.fleets[slot1.id] and slot5:getFleetType() == FleetType.Normal then
-				slot4.findex = 1
+			if slot3.fleets[slot1.id] and slot4:getFleetType() == FleetType.Normal then
+				slot3.findex = 1
 			end
 
-			slot3 = bit.bor(slot3, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
+			slot2 = bit.bor(slot2, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
 		end
 	else
-		slot4:retreat(slot1.win)
+		slot3:retreat(slot1.win)
 
-		slot3 = ChapterConst.DirtyMapItems
+		slot2 = ChapterConst.DirtyMapItems
 	end
 
-	slot0.flag = slot3
+	slot0.flag = slot2
 end
 
 function slot0.doMove(slot0)
-	slot1 = slot0.op
-	slot2 = slot0.extraFlag or 0
-	slot4 = slot0.chapter
-	slot5 = nil
+	slot1 = slot0.extraFlag or 0
+	slot3 = slot0.chapter
+	slot4 = nil
 
 	if #slot0.data.move_path > 0 then
-		slot5 = _.map(_.rest(slot3.move_path, 1), function (slot0)
+		slot4 = _.map(_.rest(slot2.move_path, 1), function (slot0)
 			return {
 				row = slot0.row,
 				column = slot0.column
 			}
 		end)
-		slot4.moveStep = slot4.moveStep + #slot3.move_path
-		slot2 = bit.bor(slot2, ChapterConst.DirtyAutoAction)
+		slot3.moveStep = slot3.moveStep + #slot2.move_path
+		slot1 = bit.bor(slot1, ChapterConst.DirtyAutoAction)
 	end
 
-	slot0.fullpath = slot5
+	slot0.fullpath = slot4
 
-	slot4:IncreaseRound()
+	slot3:IncreaseRound()
 
-	slot0.extraFlag = slot2
+	slot0.extraFlag = slot1
 end
 
 function slot0.doOpenBox(slot0)
@@ -246,7 +244,10 @@ function slot0.doStrategy(slot0)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_change", slot5.name))
 	elseif slot5.type == ChapterConst.StgTypeConsume then
 		slot4:consumeOneStrategy(slot5.id)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", slot5.name))
+
+		if slot5.id ~= ChapterConst.StrategyMissileStrike then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", slot5.name))
+		end
 	end
 
 	if slot5.id == ChapterConst.StrategyExchange then
@@ -322,7 +323,16 @@ function slot0.doCollectAI(slot0)
 
 	_.each(slot1.ai_act_list, function (slot0)
 		if slot0.act_type == ChapterConst.ActType_TargetDown then
-			table.insert(uv0.aiActs, ChapterMissileExplodeAction.New(slot0))
+			slot1 = ChapterMissileExplodeAction.New(slot0)
+
+			if uv0.op.type == ChapterConst.OpStrategy then
+				slot1:SetTargetLine({
+					row = uv0.op.arg2,
+					column = uv0.op.arg3
+				})
+			end
+
+			table.insert(uv0.aiActs, slot1)
 		else
 			table.insert(uv0.aiActs, ChapterAIAction.New(slot0))
 		end
