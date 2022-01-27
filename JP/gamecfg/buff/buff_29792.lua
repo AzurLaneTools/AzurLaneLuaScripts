@@ -13,5 +13,31 @@ return {
 	id = 29792,
 	icon = 29790,
 	last_effect = "",
-	effect_list = {}
+	effect_list = {
+		{
+			type = "BattleBuffCount",
+			trigger = {
+				"onFire"
+			},
+			arg_list = {
+				countType = 29790,
+				countTarget = 10,
+				gunnerBonus = true,
+				index = {
+					1
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				target = "TargetSelf",
+				skill_id = 29792,
+				countType = 29790
+			}
+		}
+	}
 }
