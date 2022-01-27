@@ -709,7 +709,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "から、傘を送りに来ない代わりに雨宿りしてってのは、ここを死守して応援を待てという意味でしょ？",
+			say = "だから、傘を送りに来ない代わりに雨宿りしてってのは、ここを死守して応援を待てという意味でしょ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

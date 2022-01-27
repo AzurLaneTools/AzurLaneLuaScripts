@@ -330,7 +330,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "いい感じだったら、あとでこのケミカルのティーの宣伝をしても大丈夫？",
+			say = "いい感じだったら、あとでこのケミカルティーの宣伝をしても大丈夫？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "U-U-73さん、撮影機材の準備ができたよー！そっちは大丈夫ー？",
+			say = "U-73さん、撮影機材の準備ができたよー！そっちは大丈夫ー？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

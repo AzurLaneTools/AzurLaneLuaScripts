@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "今天的拍摄场地，也是非常今日の撮影セットも中々本格的ですわね有氛围啊……",
+			say = "今日の撮影セットも中々本格的ですわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "じ、自分的にとてもリラックスしてていいいい感じだと思う！",
+			say = "じ、自分的にとてもリラックスしてていい感じだと思う！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			bgName = "star_level_bg_152",
 			dir = 1,
 			blackBg = true,
-			say = "こうして、今日の撮影も無事終わりました。",
+			say = "こうして、今日の撮影も無事終わった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "という訳で、ウルリッヒを探して母港を歩いていると……。",
+			say = "という訳で、ウルリッヒを探して母港を歩いていると……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 703010,
-			say = "指揮官も聞きたいの？",
+			say = "指揮官も聴きたいの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "聞いてもいないのにわかるわけ無いだろ。指揮官がこの手の会話に混ざること自体珍しいのに",
+			say = "聴いてもいないのにわかるわけ無いだろ。指揮官がこの手の会話に混ざること自体珍しいのに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
