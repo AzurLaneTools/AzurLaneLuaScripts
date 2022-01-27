@@ -73655,7 +73655,6 @@ _G.pg.ship_data_template[501021] = {
 	},
 	buff_list_display = {
 		11050,
-		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -73701,7 +73700,6 @@ _G.pg.ship_data_template[501022] = {
 	},
 	buff_list_display = {
 		11050,
-		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -73747,7 +73745,6 @@ _G.pg.ship_data_template[501023] = {
 	},
 	buff_list_display = {
 		11050,
-		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -73795,7 +73792,6 @@ _G.pg.ship_data_template[501024] = {
 	},
 	buff_list_display = {
 		11050,
-		15200,
 		24012
 	},
 	hide_buff_list = {}
@@ -73840,6 +73836,7 @@ _G.pg.ship_data_template[501031] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -73885,6 +73882,7 @@ _G.pg.ship_data_template[501032] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -73930,6 +73928,7 @@ _G.pg.ship_data_template[501033] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -73977,6 +73976,7 @@ _G.pg.ship_data_template[501034] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24012
 	},
 	hide_buff_list = {}
