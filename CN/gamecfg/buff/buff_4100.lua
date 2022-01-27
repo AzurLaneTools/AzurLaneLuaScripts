@@ -22,6 +22,26 @@ return {
 					attr = "injureRatioByAir",
 					number = -0.15
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -47,6 +67,26 @@ return {
 				arg_list = {
 					attr = "injureRatioByAir",
 					number = -0.172
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -74,6 +114,26 @@ return {
 					attr = "injureRatioByAir",
 					number = -0.194
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -99,6 +159,26 @@ return {
 				arg_list = {
 					attr = "injureRatioByAir",
 					number = -0.216
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -126,6 +206,26 @@ return {
 					attr = "injureRatioByAir",
 					number = -0.238
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -151,6 +251,26 @@ return {
 				arg_list = {
 					attr = "injureRatioByAir",
 					number = -0.26
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -178,6 +298,26 @@ return {
 					attr = "injureRatioByAir",
 					number = -0.282
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -203,6 +343,26 @@ return {
 				arg_list = {
 					attr = "injureRatioByAir",
 					number = -0.304
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -230,6 +390,26 @@ return {
 					attr = "injureRatioByAir",
 					number = -0.326
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
+				}
 			}
 		}
 	},
@@ -255,6 +435,26 @@ return {
 				arg_list = {
 					attr = "injureRatioByAir",
 					number = -0.35
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					skill_id = 62,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					skill_id = 63,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -297,6 +497,26 @@ return {
 			arg_list = {
 				attr = "injureRatioByAir",
 				number = -0.15
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 62,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				skill_id = 63,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -14,7 +14,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				3
@@ -41,7 +43,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				4
@@ -68,7 +72,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				2,
 				6
@@ -416,7 +422,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				10
@@ -443,7 +451,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				14
@@ -470,7 +480,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				20
@@ -773,7 +785,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				8
@@ -803,7 +816,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				11
@@ -833,7 +847,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				4,
 				16
@@ -866,7 +881,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				10
@@ -899,7 +915,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				14
@@ -932,7 +949,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				4,
 				20
@@ -962,7 +980,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				4
@@ -992,7 +1011,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				5
@@ -1022,7 +1042,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				12,
 				8
@@ -1055,7 +1076,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				3
@@ -1088,7 +1110,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				4
@@ -1121,7 +1144,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				12,
 				6
@@ -1232,7 +1256,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -1259,7 +1285,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				7
@@ -1286,7 +1314,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				10
@@ -1826,7 +1856,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				30
@@ -1853,7 +1885,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				42
@@ -1880,7 +1914,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				60
@@ -2423,7 +2459,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				3
@@ -2453,7 +2490,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				4
@@ -2483,7 +2521,8 @@ pg.commander_ability_template = {
 					1,
 					2,
 					3,
-					18
+					18,
+					20
 				},
 				8,
 				6
@@ -2516,7 +2555,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				1
@@ -2549,7 +2589,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				2
@@ -2582,7 +2623,8 @@ pg.commander_ability_template = {
 					7,
 					10,
 					12,
-					13
+					13,
+					21
 				},
 				8,
 				3
@@ -2611,7 +2653,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				5
@@ -2640,7 +2684,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				7
@@ -2669,7 +2715,9 @@ pg.commander_ability_template = {
 				{
 					1,
 					8,
-					17
+					17,
+					20,
+					21
 				},
 				9,
 				10
@@ -2885,7 +2933,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				8
@@ -2894,7 +2944,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				4
@@ -2925,7 +2977,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				11
@@ -2934,7 +2988,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				5
@@ -2965,7 +3021,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				16
@@ -2974,7 +3032,9 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					1
+					1,
+					20,
+					21
 				},
 				6,
 				8
@@ -3167,7 +3227,7 @@ pg.commander_ability_template = {
 		id = 2021,
 		group_id = 202,
 		icon = "zhanlie_one_1",
-		desc = "<color=#3dc6ff>战巡、战列</color>耐久提高50点、炮击提高6点",
+		desc = "<color=#3dc6ff>战巡、战列</color>耐久提高50点、炮击提高8点",
 		add = {
 			{
 				1,
@@ -3187,7 +3247,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				6
+				8
 			}
 		},
 		add_desc = {
@@ -3205,7 +3265,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<战列>炮击",
-				6
+				8
 			}
 		}
 	},
@@ -3217,7 +3277,7 @@ pg.commander_ability_template = {
 		id = 2022,
 		group_id = 202,
 		icon = "zhanlie_one_2",
-		desc = "<color=#3dc6ff>战巡、战列</color>耐久提高70点、炮击提高8点",
+		desc = "<color=#3dc6ff>战巡、战列</color>耐久提高70点、炮击提高11点",
 		add = {
 			{
 				1,
@@ -3237,7 +3297,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				8
+				11
 			}
 		},
 		add_desc = {
@@ -3255,7 +3315,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<战列>炮击",
-				8
+				11
 			}
 		}
 	},
@@ -3267,7 +3327,7 @@ pg.commander_ability_template = {
 		id = 2023,
 		group_id = 202,
 		icon = "zhanlie_one_3",
-		desc = "<color=#3dc6ff>战巡、战列</color>耐久提高100点、炮击提高12点",
+		desc = "<color=#3dc6ff>战巡、战列</color>耐久提高100点、炮击提高16点",
 		add = {
 			{
 				1,
@@ -3287,7 +3347,7 @@ pg.commander_ability_template = {
 					5
 				},
 				2,
-				12
+				16
 			}
 		},
 		add_desc = {
@@ -3305,7 +3365,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<战列>炮击",
-				12
+				16
 			}
 		}
 	},
@@ -4945,7 +5005,9 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					2
+					2,
+					20,
+					21
 				},
 				3,
 				15

@@ -1399,10 +1399,10 @@ end
 function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 	if slot3[1] == FleetSkill.TriggerDDCount then
 		return slot3[2] <= #_.filter(slot1:GetTeamShipVOs(TeamType.Vanguard, false), function (slot0)
-			return slot0:getShipType() == ShipType.QuZhu
+			return ShipType.IsTypeQuZhu(slot0:getShipType())
 		end) and slot6 <= slot3[3]
 	elseif slot4 == FleetSkill.TriggerDDHead then
-		return #slot1:GetTeamShipVOs(TeamType.Vanguard, false) > 0 and slot5[1]:getShipType() == ShipType.QuZhu
+		return #slot1:GetTeamShipVOs(TeamType.Vanguard, false) > 0 and ShipType.IsTypeQuZhu(slot5[1]:getShipType())
 	elseif slot4 == FleetSkill.TriggerVanCount then
 		return slot3[2] <= #slot1:GetTeamShipVOs(TeamType.Vanguard, false) and #slot5 <= slot3[3]
 	elseif slot4 == FleetSkill.TriggerShipCount then

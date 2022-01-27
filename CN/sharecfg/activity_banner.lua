@@ -1,16 +1,21 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4210",
 		id = 1,
 		pic = "temp1",
-		type = 3,
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectname = "new"
+			}
+		},
 		time = {
 			{
 				{
 					2022,
 					1,
-					13
+					27
 				},
 				{
 					0,
@@ -21,8 +26,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					23,
@@ -37,44 +42,6 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = false
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					1,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp3",
-		type = 2,
-		param = {
 			"scene skinshop",
 			{}
 		},
@@ -83,7 +50,7 @@ pg.activity_banner = {
 				{
 					2022,
 					1,
-					13
+					27
 				},
 				{
 					0,
@@ -91,6 +58,26 @@ pg.activity_banner = {
 					0
 				}
 			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4229",
+		id = 3,
+		pic = "temp3",
+		type = 3,
+		time = {
 			{
 				{
 					2022,
@@ -98,6 +85,18 @@ pg.activity_banner = {
 					27
 				},
 				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					10
+				},
+				{
 					23,
 					59,
 					59
@@ -106,16 +105,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4189",
 		id = 4,
 		pic = "temp4",
-		type = 3,
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
-					2021,
-					12,
-					23
+					2022,
+					1,
+					27
 				},
 				{
 					0,
@@ -126,8 +130,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					19
+					2,
+					9
 				},
 				{
 					23,
@@ -138,16 +142,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4187",
 		id = 5,
 		pic = "temp5",
-		type = 3,
+		type = 2,
+		param = {
+			"scene back yard"
+		},
 		time = {
 			{
 				{
-					2021,
-					12,
-					23
+					2022,
+					1,
+					27
 				},
 				{
 					0,
@@ -158,8 +164,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					19
+					2,
+					9
 				},
 				{
 					23,
@@ -174,14 +180,17 @@ pg.activity_banner = {
 		pic = "temp6",
 		type = 2,
 		param = {
-			"scene back yard"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
-					2021,
-					12,
-					29
+					2022,
+					1,
+					27
 				},
 				{
 					0,
@@ -192,8 +201,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					12
+					2,
+					9
 				},
 				{
 					23,
@@ -204,21 +213,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "7003",
 		id = 7,
 		pic = "temp7",
-		type = 2,
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
-					2021,
-					12,
-					29
+					2022,
+					2,
+					1
 				},
 				{
 					0,
@@ -229,8 +233,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					12
+					3,
+					31
 				},
 				{
 					23,
@@ -257,7 +261,7 @@ pg.activity_banner = {
 				{
 					2022,
 					1,
-					13
+					27
 				},
 				{
 					0,
@@ -268,8 +272,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					26
+					2,
+					9
 				},
 				{
 					23,
@@ -280,16 +284,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "海军咖喱|甜咖喱还是辣咖喱，这是一个问题！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "dumpling",
 		type = 10,
 		time = {
 			{
 				{
 					2022,
 					1,
-					13
+					27
 				},
 				{
 					0,

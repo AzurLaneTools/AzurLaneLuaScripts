@@ -565,6 +565,32 @@ return {
 			end
 		end
 	},
+	{
+		Tag = "MiniGameHub",
+		Image = "event_minigame",
+		ButtonName = "activity_springfestival_2022",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_SPRINGFESTIVAL_2022) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SPRING_FESTIVAL_BACKHILL_2022)
+				end, SFX_PANEL)
+				setActive(slot1:Find("Tip"), (function ()
+					return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_SPRINGFESTIVAL_2022)
+				end)() or (function ()
+					return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ANSHAN_CHANGCHUN_GAIZAO_ID))
+				end)() or (function ()
+					return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE))
+				end)() or RedPacketLayer.isShowRedPoint() or (function ()
+					return getProxy(ColoringProxy):CheckTodayTip()
+				end)())
+			end
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -581,6 +607,7 @@ return {
 		2,
 		4,
 		6,
-		22
+		5,
+		23
 	}
 }

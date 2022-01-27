@@ -10,7 +10,7 @@ function slot0.execute(slot0, slot1)
 			slot1:NetUpdateWorld(slot0.world, slot0.vision_list or {}, uv0.camp)
 			slot1:NetUpdateWorldPressingAward(slot0.chapter_award)
 			slot1:NetUpdateWorldCountInfo(slot0.count_info)
-			slot1:NetUpdateWorldPortTaskMark(slot0.port_list)
+			slot1:NetUpdateWorldPortTaskMark(slot0.port_list, slot0.new_flag_port_list)
 			nowWorld():GetBossProxy():GenFleet()
 			uv1:sendNotification(GAME.WORLD_ACTIVATE_DONE)
 		else

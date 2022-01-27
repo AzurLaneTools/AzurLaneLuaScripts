@@ -52,7 +52,7 @@ function slot0.GetPanels(slot0)
 		table.insert(slot1, SettingsAgreementPanle)
 	end
 
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+	if PLATFORM_CODE == PLATFORM_JP then
 		table.insert(slot1, SettingsAccountSpecialPanel)
 	end
 

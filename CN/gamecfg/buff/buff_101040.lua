@@ -32,7 +32,9 @@ return {
 				check_target = "TargetShipTypeFriendly",
 				isBuffStackByCheckTarget = true,
 				ship_type_list = {
-					1
+					1,
+					20,
+					21
 				}
 			}
 		},
@@ -46,7 +48,9 @@ return {
 				minTargetNumber = 1,
 				skill_id = 101040,
 				ship_type_list = {
-					1
+					1,
+					20,
+					21
 				}
 			}
 		}

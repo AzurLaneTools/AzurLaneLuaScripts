@@ -58,6 +58,15 @@ function temp()
 					}
 				}
 			}
+		},
+		["律"] = {
+			["布"] = {
+				["狄"] = {
+					["斯"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -555,6 +564,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["格"] = {
+			["德"] = {
+				["堡"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -582,6 +598,15 @@ function temp()
 		},
 		["兰"] = {
 			this = true
+		},
+		["里"] = {
+			["斯"] = {
+				["托"] = {
+					["尔"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -956,6 +981,12 @@ function temp()
 			["星"] = {
 				this = true
 			}
+		},
+		["天"] = {
+			this = true
+		},
+		["圻"] = {
+			this = true
 		}
 	}
 end
@@ -1337,6 +1368,19 @@ function temp()
 					}
 				}
 			}
+		},
+		["达"] = {
+			["尔"] = {
+				["伯"] = {
+					["特"] = {
+						["亲"] = {
+							["王"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -1642,7 +1686,12 @@ function temp()
 			this = true
 		},
 		["春"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -3836,6 +3885,17 @@ function temp()
 	uv0["鸢"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -4350,6 +4410,13 @@ function temp()
 					["0"] = {
 						this = true
 					}
+				},
+				["2"] = {
+					["0"] = {
+						["6"] = {
+							this = true
+						}
+					}
 				}
 			},
 			["9"] = {
@@ -4371,7 +4438,12 @@ temp()
 function temp()
 	uv0["鞍"] = {
 		["山"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -4891,6 +4963,23 @@ function temp()
 			["露"] = {
 				this = true
 			}
+		},
+		["尔"] = {
+			["里"] = {
+				["希"] = {
+					["·"] = {
+						["冯"] = {
+							["·"] = {
+								["胡"] = {
+									["滕"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5309,6 +5398,83 @@ function temp()
 				["千"] = {
 					["濑"] = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["易"] = {
+		["北"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["镇"] = {
+		["海"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["导"] = {
+		["驱"] = {
+			t = {
+				y = {
+					p = {
+						e = {
+							["2"] = {
+								["0"] = {
+									["测"] = {
+										["试"] = {
+											["机"] = {
+												this = true
+											}
+										}
+									}
+								},
+								["1"] = {
+									["测"] = {
+										["试"] = {
+											["机"] = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["隼"] = {
+		["鹰"] = {
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
 					}
 				}
 			}

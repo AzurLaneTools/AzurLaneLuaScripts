@@ -2866,6 +2866,210 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	[36] = {
+		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
+		name = "春节福袋2022",
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		subject = "春节福袋2022",
+		extra_gem = 0,
+		name_display = "春节福袋2022",
+		limit_arg = 1,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai7",
+		id_str = "com.bilibili.blhx.zuanshi135",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 36,
+		airijp_id = "com.yostarjp.azurlane.diamond127",
+		extra_service_item = {
+			{
+				2,
+				69917,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[37] = {
+		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
+		name = "春节福袋复刻(2021)",
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		subject = "春节福袋复刻(2021)",
+		extra_gem = 0,
+		name_display = "春节福袋复刻(2021)",
+		limit_arg = 1,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai4",
+		id_str = "com.bilibili.blhx.zuanshi136",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 37,
+		airijp_id = "com.yostarjp.azurlane.diamond128",
+		extra_service_item = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					1,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	[1000] = {
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:约克城限定换装和其他奖励",
 		name = "特许巡游凭证",
@@ -3006,6 +3210,76 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[1002] = {
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:哥伦比亚限定换装和其他奖励",
+		name = "特许巡游凭证(2022.2)",
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		subject = "特许巡游凭证",
+		extra_gem = 0,
+		name_display = "特许巡游凭证",
+		limit_arg = 1,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass3",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 1002,
+		airijp_id = "com.yostarjp.azurlane.seasonpass3",
+		extra_service_item = {
+			{
+				1,
+				4003,
+				1500
+			},
+			{
+				8,
+				59270,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4003,
+				1500
+			}
+		},
+		sub_display = {
+			7003,
+			1500
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -3041,7 +3315,10 @@ pg.pay_data_display = {
 		33,
 		34,
 		35,
+		36,
+		37,
 		1000,
-		1001
+		1001,
+		1002
 	}
 }

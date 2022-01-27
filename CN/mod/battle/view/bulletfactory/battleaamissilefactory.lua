@@ -10,34 +10,38 @@ function slot2.MakeBullet(slot0)
 end
 
 function slot2.onBulletHitFunc(slot0, slot1, slot2)
-	slot4 = slot0:GetBulletData():GetTemplate()
-	slot5 = uv0.GetDataProxy()
-	slot6 = nil
+	if slot0:GetBulletData():getTrackingTarget() == -1 then
+		uv0.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
 
-	if slot2 == uv1.AIRCRAFT_UNIT or slot2 == uv1.AIRFIGHTER_UNIT then
-		slot6 = uv0.GetSceneMediator():GetAircraft(slot1):GetUnitData()
-	elseif slot2 == uv1.PLAYER_UNIT then
-		slot6 = uv0.GetSceneMediator():GetCharacter(slot1):GetUnitData()
-	elseif slot2 == uv1.ENEMY_UNIT then
-		slot6 = uv0.GetSceneMediator():GetCharacter(slot1):GetUnitData()
-	end
-
-	slot7 = slot3:getTrackingTarget()
-
-	if not slot6 or not slot7 or slot7 == -1 or slot6:GetUniqueID() ~= slot7:GetUniqueID() then
 		return
 	end
 
-	uv2.Battle.PlayBattleSFX(slot4.hit_sfx)
+	slot5 = slot3:GetTemplate()
+	slot6 = uv1.GetDataProxy()
+	slot7 = nil
 
-	slot8, slot9 = slot5:HandleDamage(slot3, slot6)
-	slot10, slot11 = uv0.GetFXPool():GetFX(slot0:GetFXID())
+	if slot2 == uv2.AIRCRAFT_UNIT or slot2 == uv2.AIRFIGHTER_UNIT then
+		slot7 = uv1.GetSceneMediator():GetAircraft(slot1):GetUnitData()
+	elseif slot2 == uv2.PLAYER_UNIT then
+		slot7 = uv1.GetSceneMediator():GetCharacter(slot1):GetUnitData()
+	elseif slot2 == uv2.ENEMY_UNIT then
+		slot7 = uv1.GetSceneMediator():GetCharacter(slot1):GetUnitData()
+	end
+
+	if not slot7 or not slot4 or slot4 == -1 or slot7:GetUniqueID() ~= slot4:GetUniqueID() then
+		return
+	end
+
+	uv0.Battle.PlayBattleSFX(slot5.hit_sfx)
+
+	slot8, slot9 = slot6:HandleDamage(slot3, slot7)
+	slot10, slot11 = uv1.GetFXPool():GetFX(slot0:GetFXID())
 
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot10, slot11:Add(slot0:GetTf().localPosition), true)
 
 	if slot3:GetPierceCount() <= 0 then
 		slot3:CleanAimMark()
-		slot5:RemoveBulletUnit(slot3:GetUniqueID())
+		slot6:RemoveBulletUnit(slot3:GetUniqueID())
 	end
 end
 

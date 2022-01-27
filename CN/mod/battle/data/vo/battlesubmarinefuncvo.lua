@@ -55,6 +55,10 @@ function slot3.GetMax(slot0)
 	return slot0._max
 end
 
+function slot3.GetTotal(slot0)
+	return 0
+end
+
 function slot3.GetCurrent(slot0)
 	return slot0._current
 end

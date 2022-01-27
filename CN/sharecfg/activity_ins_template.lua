@@ -7207,6 +7207,126 @@ pg.activity_ins_template = {
 			2434
 		}
 	},
+	{
+		ship_group = 50601,
+		name = "ChenHai",
+		sculpture = "zhenhai",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 274,
+		id = 274,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10149,
+		name = "Bristol",
+		sculpture = "bulisituoer",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 275,
+		id = 275,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20230,
+		name = "Charybdis",
+		sculpture = "kalvbudisi_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 276,
+		id = 276,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30163,
+		name = "Asashio",
+		sculpture = "zhaochao_5",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 277,
+		id = 277,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 50207,
+		name = "HaiTien",
+		sculpture = "haitian_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 278,
+		id = 278,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30182,
+		name = "FlowerMoon",
+		sculpture = "huayue_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 279,
+		id = 279,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20227,
+		name = "Hermione",
+		sculpture = "hemin_5",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 280,
+		id = 280,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30105,
+		name = "AYANAMIN",
+		sculpture = "lingbo_13",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 281,
+		id = 281,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10503,
+		name = "Pennsylvania",
+		sculpture = "binxifaniya_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 282,
+		id = 282,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 50208,
+		name = "HaiChi",
+		sculpture = "haiqi_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 283,
+		id = 283,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -7480,6 +7600,16 @@ pg.activity_ins_template = {
 		270,
 		271,
 		272,
-		273
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280,
+		281,
+		282,
+		283
 	}
 }

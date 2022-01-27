@@ -42,7 +42,9 @@ return {
 				},
 				ship_type_list = {
 					1,
-					2
+					2,
+					20,
+					21
 				}
 			}
 		}

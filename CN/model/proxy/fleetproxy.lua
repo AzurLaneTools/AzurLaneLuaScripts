@@ -339,4 +339,36 @@ function slot0.removeActivityFleetCommander(slot0, slot1)
 	end
 end
 
+function slot0.recommendActivityFleet(slot0, slot1, slot2)
+	slot4 = slot0:getActivityFleets()[slot1][slot2]
+	slot5 = getProxy(BayProxy)
+
+	function slot6(slot0, slot1)
+		slot7 = slot1
+		slot8 = uv2
+
+		for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.GetShipTypeListFromTeam(slot0), uv1.ships, slot7, slot8)) do
+			uv1:insertShip(slot8, nil, slot0)
+		end
+	end
+
+	if Fleet.SUBMARINE_FLEET_ID <= slot2 then
+		if not slot4:isFull() then
+			slot6(TeamType.Submarine, TeamType.SubmarineMax - #slot4.subShips)
+		end
+	else
+		slot8 = TeamType.MainMax - #slot4.mainShips
+
+		if TeamType.VanguardMax - #slot4.vanguardShips > 0 then
+			slot6(TeamType.Vanguard, slot7)
+		end
+
+		if slot8 > 0 then
+			slot6(TeamType.Main, slot8)
+		end
+	end
+
+	slot0:updateActivityFleet(slot1, slot2, slot4)
+end
+
 return slot0

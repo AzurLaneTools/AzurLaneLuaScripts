@@ -1635,7 +1635,10 @@ pg.battle_environment_behaviour_template = {
 				damage = 160,
 				type = 2,
 				reload_time = 2,
-				offset = 30
+				offset = 30,
+				diveFilter = {
+					2
+				}
 			}
 		}
 	}

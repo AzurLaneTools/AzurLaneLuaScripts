@@ -24852,6 +24852,283 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5731] = {
+		name = "不苟言笑的她",
+		guild_coin_award = 0,
+		award = 5527,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1000,
+		desc = "提交3个《鱼雷天妇罗》",
+		story_icon = "wuerlixi",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5732",
+		auto_commit = 0,
+		story_id = "WUERLIXI1",
+		target_id_for_client = 50003,
+		id = 5731,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5732] = {
+		name = "铁血宿舍的骚动",
+		guild_coin_award = 0,
+		award = 5528,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "强化任意角色10次",
+		story_icon = "wuerlixi",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "WUERLIXI2",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5733",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 5732,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5733] = {
+		name = "sing for me",
+		guild_coin_award = 0,
+		award = 5529,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 18,
+		desc = "乌尔里希·冯·胡滕上阵出击(关卡)胜利20次",
+		story_icon = "wuerlixi",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "WUERLIXI3",
+		target_id = "40503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5734",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 40503,
+		id = 5733,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5734] = {
+		name = "毒",
+		guild_coin_award = 0,
+		award = 5530,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 19,
+		desc = "乌尔里希·冯·胡滕上阵完成3次每日挑战",
+		story_icon = "wuerlixi",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "WUERLIXI4",
+		target_id = "40503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5735",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 40503,
+		id = 5734,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5735] = {
+		name = "工作，工作，然后……",
+		guild_coin_award = 0,
+		award = 5531,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1012,
+		desc = "乌尔里希·冯·胡滕好感度达到100",
+		story_icon = "wuerlixi",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "WUERLIXI5",
+		target_id = "40503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5736",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 40503,
+		id = 5735,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[5736] = {
+		name = "sing for you",
+		guild_coin_award = 0,
+		award = 5532,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "乌尔里希·冯·胡滕突破至满星",
+		story_icon = "wuerlixi",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "WUERLIXI6",
+		target_id = "405034",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5737",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 405034,
+		id = 5736,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
+				2
+			}
+		}
+	},
+	[5737] = {
+		name = "真实的她",
+		guild_coin_award = 0,
+		award = 5533,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "乌尔里希·冯·胡滕等级达到100",
+		story_icon = "wuerlixi",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "WUERLIXI7",
+		target_id = "40503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 40503,
+		id = 5737,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				16004,
+				1
+			}
+		}
+	},
 	[6001] = {
 		name = "困难·近海演习",
 		guild_coin_award = 0,
@@ -79177,6 +79454,41 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14681] = {
+		name = "『限界挑战12』-积分任务",
+		guild_coin_award = 0,
+		award = 91201,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 103,
+		desc = "PT",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 14681,
+		target_num = 8800,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				212,
+				1
+			}
+		}
+	},
 	[14700] = {
 		name = "bili活动任务1",
 		guild_coin_award = 0,
@@ -115540,7 +115852,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			1
+			1,
+			20,
+			21
 		},
 		open_need = {},
 		award_display = {
@@ -150169,6 +150483,2998 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[17290] = {
+		name = "2022春节贺年卡建造任务1",
+		guild_coin_award = 0,
+		award = 96701,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17291,
+		sub_type = 30,
+		desc = "建造舰船20次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17291",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17290,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				200
+			}
+		}
+	},
+	[17291] = {
+		name = "2022春节贺年卡建造任务2",
+		guild_coin_award = 0,
+		award = 96702,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17292,
+		sub_type = 30,
+		desc = "建造舰船40次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17292",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17291,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				200
+			}
+		}
+	},
+	[17292] = {
+		name = "2022春节贺年卡建造任务3",
+		guild_coin_award = 0,
+		award = 96703,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17293,
+		sub_type = 30,
+		desc = "建造舰船60次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17293",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17292,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				200
+			}
+		}
+	},
+	[17293] = {
+		name = "2022春节贺年卡建造任务4",
+		guild_coin_award = 0,
+		award = 96704,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17294,
+		sub_type = 30,
+		desc = "建造舰船80次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17294",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17293,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				200
+			}
+		}
+	},
+	[17294] = {
+		name = "2022春节贺年卡建造任务5",
+		guild_coin_award = 0,
+		award = 96705,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船100次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17294,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				200
+			}
+		}
+	},
+	[17295] = {
+		name = "2022春节贺年卡出击任务1",
+		guild_coin_award = 0,
+		award = 96706,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17296,
+		sub_type = 20,
+		desc = "舰队出征，获得10次胜利",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17296",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17295,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17296] = {
+		name = "2022春节贺年卡出击任务2",
+		guild_coin_award = 0,
+		award = 96707,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17297,
+		sub_type = 20,
+		desc = "舰队出征，获得20次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17297",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17296,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17297] = {
+		name = "2022春节贺年卡出击任务3",
+		guild_coin_award = 0,
+		award = 96708,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17298,
+		sub_type = 20,
+		desc = "舰队出征，获得30次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17298",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17297,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17298] = {
+		name = "2022春节贺年卡出击任务4",
+		guild_coin_award = 0,
+		award = 96709,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17299,
+		sub_type = 20,
+		desc = "舰队出征，获得40次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17299",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17298,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17299] = {
+		name = "2022春节贺年卡出击任务5",
+		guild_coin_award = 0,
+		award = 96710,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17300,
+		sub_type = 20,
+		desc = "舰队出征，获得50次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17300",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17299,
+		target_num = 50,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17300] = {
+		name = "2022春节贺年卡出击任务6",
+		guild_coin_award = 0,
+		award = 96711,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17301,
+		sub_type = 20,
+		desc = "舰队出征，获得60次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17301",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17300,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17301] = {
+		name = "2022春节贺年卡出击任务7",
+		guild_coin_award = 0,
+		award = 96712,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17302,
+		sub_type = 20,
+		desc = "舰队出征，获得70次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17302",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17301,
+		target_num = 70,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17302] = {
+		name = "2022春节贺年卡出击任务8",
+		guild_coin_award = 0,
+		award = 96713,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17303,
+		sub_type = 20,
+		desc = "舰队出征，获得80次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17303",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17302,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17303] = {
+		name = "2022春节贺年卡出击任务9",
+		guild_coin_award = 0,
+		award = 96714,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17304,
+		sub_type = 20,
+		desc = "舰队出征，获得90次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17304",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17303,
+		target_num = 90,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17304] = {
+		name = "2022春节贺年卡出击任务10",
+		guild_coin_award = 0,
+		award = 96715,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "舰队出征，获得100次胜利",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17304,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17305] = {
+		name = "2022春节贺年卡委托任务1",
+		guild_coin_award = 0,
+		award = 96716,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17306,
+		sub_type = 80,
+		desc = "进行10次委托 ",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17306",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17305,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				50
+			}
+		}
+	},
+	[17306] = {
+		name = "2022春节贺年卡委托任务2",
+		guild_coin_award = 0,
+		award = 96717,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17307,
+		sub_type = 80,
+		desc = "进行20次委托 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17307",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17306,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				50
+			}
+		}
+	},
+	[17307] = {
+		name = "2022春节贺年卡委托任务3",
+		guild_coin_award = 0,
+		award = 96718,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17308,
+		sub_type = 80,
+		desc = "进行30次委托 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17308",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17307,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				50
+			}
+		}
+	},
+	[17308] = {
+		name = "2022春节贺年卡委托任务4",
+		guild_coin_award = 0,
+		award = 96719,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17309,
+		sub_type = 80,
+		desc = "进行40次委托 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17309",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17308,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				50
+			}
+		}
+	},
+	[17309] = {
+		name = "2022春节贺年卡委托任务5",
+		guild_coin_award = 0,
+		award = 96720,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "进行50次委托 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17309,
+		target_num = 50,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				50
+			}
+		}
+	},
+	[17310] = {
+		name = "2022春节贺年卡石油任务1",
+		guild_coin_award = 0,
+		award = 96721,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17311,
+		sub_type = 121,
+		desc = "累计消耗石油2500",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17311",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17310,
+		target_num = 2500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17311] = {
+		name = "2022春节贺年卡石油任务2",
+		guild_coin_award = 0,
+		award = 96722,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17312,
+		sub_type = 121,
+		desc = "累计消耗石油5000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17312",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17311,
+		target_num = 5000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17312] = {
+		name = "2022春节贺年卡石油任务3",
+		guild_coin_award = 0,
+		award = 96723,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17313,
+		sub_type = 121,
+		desc = "累计消耗石油7500",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17313",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17312,
+		target_num = 7500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17313] = {
+		name = "2022春节贺年卡石油任务4",
+		guild_coin_award = 0,
+		award = 96724,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17314,
+		sub_type = 121,
+		desc = "累计消耗石油10000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17314",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17313,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17314] = {
+		name = "2022春节贺年卡石油任务5",
+		guild_coin_award = 0,
+		award = 96725,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17315,
+		sub_type = 121,
+		desc = "累计消耗石油12500",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17315",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17314,
+		target_num = 12500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17315] = {
+		name = "2022春节贺年卡石油任务6",
+		guild_coin_award = 0,
+		award = 96726,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油15000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17315,
+		target_num = 15000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				234,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17316] = {
+		name = "2022绘图日记耗油1",
+		guild_coin_award = 0,
+		award = 96735,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17317,
+		sub_type = 121,
+		desc = "累计消耗石油500",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17317",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17316,
+		target_num = 500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60217,
+				150
+			},
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60222,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17317] = {
+		name = "2022绘图日记耗油2",
+		guild_coin_award = 0,
+		award = 96736,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17318,
+		sub_type = 121,
+		desc = "累计消耗石油1000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17318",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17317,
+		target_num = 1000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60218,
+				60
+			},
+			{
+				8,
+				60220,
+				70
+			},
+			{
+				8,
+				60223,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17318] = {
+		name = "2022绘图日记耗油3",
+		guild_coin_award = 0,
+		award = 96737,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17319,
+		sub_type = 121,
+		desc = "累计消耗石油1500",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17319",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17318,
+		target_num = 1500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60221,
+				30
+			},
+			{
+				8,
+				60224,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17319] = {
+		name = "2022绘图日记耗油4",
+		guild_coin_award = 0,
+		award = 96738,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17320,
+		sub_type = 121,
+		desc = "累计消耗石油2000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17320",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17319,
+		target_num = 2000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60222,
+				60
+			},
+			{
+				8,
+				60225,
+				50
+			},
+			{
+				8,
+				60217,
+				150
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17320] = {
+		name = "2022绘图日记耗油5",
+		guild_coin_award = 0,
+		award = 96739,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17321,
+		sub_type = 121,
+		desc = "累计消耗石油2500",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17321",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17320,
+		target_num = 2500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60223,
+				50
+			},
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60221,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17321] = {
+		name = "2022绘图日记耗油6",
+		guild_coin_award = 0,
+		award = 96740,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17322,
+		sub_type = 121,
+		desc = "累计消耗石油3000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17322",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17321,
+		target_num = 3000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60217,
+				150
+			},
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60220,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17322] = {
+		name = "2022绘图日记耗油7",
+		guild_coin_award = 0,
+		award = 96741,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17323,
+		sub_type = 121,
+		desc = "累计消耗石油4000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17323",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17322,
+		target_num = 4000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60218,
+				60
+			},
+			{
+				8,
+				60222,
+				60
+			},
+			{
+				8,
+				60225,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17323] = {
+		name = "2022绘图日记耗油8",
+		guild_coin_award = 0,
+		award = 96742,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17324,
+		sub_type = 121,
+		desc = "累计消耗石油5000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17324",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17323,
+		target_num = 5000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60217,
+				150
+			},
+			{
+				8,
+				60218,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17324] = {
+		name = "2022绘图日记耗油9",
+		guild_coin_award = 0,
+		award = 96743,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17325,
+		sub_type = 121,
+		desc = "累计消耗石油6000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17325",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17324,
+		target_num = 6000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60223,
+				50
+			},
+			{
+				8,
+				60225,
+				50
+			},
+			{
+				8,
+				60218,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17325] = {
+		name = "2022绘图日记耗油10",
+		guild_coin_award = 0,
+		award = 96744,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17326,
+		sub_type = 121,
+		desc = "累计消耗石油7000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17326",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17325,
+		target_num = 7000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60217,
+				150
+			},
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60222,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17326] = {
+		name = "2022绘图日记耗油11",
+		guild_coin_award = 0,
+		award = 96745,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17327,
+		sub_type = 121,
+		desc = "累计消耗石油8000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17327",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17326,
+		target_num = 8000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60218,
+				60
+			},
+			{
+				8,
+				60220,
+				73
+			},
+			{
+				8,
+				60223,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17327] = {
+		name = "2022绘图日记耗油12",
+		guild_coin_award = 0,
+		award = 96746,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17328,
+		sub_type = 121,
+		desc = "累计消耗石油9000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17328",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17327,
+		target_num = 9000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60221,
+				30
+			},
+			{
+				8,
+				60225,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17328] = {
+		name = "2022绘图日记耗油13",
+		guild_coin_award = 0,
+		award = 96747,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17329,
+		sub_type = 121,
+		desc = "累计消耗石油10000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17329",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17328,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60222,
+				60
+			},
+			{
+				8,
+				60217,
+				150
+			},
+			{
+				8,
+				60218,
+				66
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17329] = {
+		name = "2022绘图日记耗油14",
+		guild_coin_award = 0,
+		award = 96748,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17330,
+		sub_type = 121,
+		desc = "累计消耗石油11000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17330",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17329,
+		target_num = 11000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60223,
+				50
+			},
+			{
+				8,
+				60224,
+				15
+			},
+			{
+				8,
+				60221,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17330] = {
+		name = "2022绘图日记耗油15",
+		guild_coin_award = 0,
+		award = 96749,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17331,
+		sub_type = 121,
+		desc = "累计消耗石油12000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17331",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17330,
+		target_num = 12000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60219,
+				100
+			},
+			{
+				8,
+				60221,
+				21
+			},
+			{
+				8,
+				60223,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17331] = {
+		name = "2022绘图日记耗油16",
+		guild_coin_award = 0,
+		award = 96750,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17332,
+		sub_type = 121,
+		desc = "累计消耗石油13000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17332",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17331,
+		target_num = 13000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60222,
+				60
+			},
+			{
+				8,
+				60217,
+				150
+			},
+			{
+				8,
+				60219,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17332] = {
+		name = "2022绘图日记耗油17",
+		guild_coin_award = 0,
+		award = 96751,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 17333,
+		sub_type = 121,
+		desc = "累计消耗石油14000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17333",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17332,
+		target_num = 14000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60225,
+				55
+			},
+			{
+				8,
+				60217,
+				150
+			},
+			{
+				8,
+				60219,
+				93
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17333] = {
+		name = "2022绘图日记耗油18",
+		guild_coin_award = 0,
+		award = 96752,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油15000",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17333,
+		target_num = 15000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60217,
+				145
+			},
+			{
+				8,
+				60222,
+				19
+			},
+			{
+				8,
+				60223,
+				47
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17334] = {
+		name = "2022春节登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 96773,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登录游戏",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17334,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				235,
+				2
+			}
+		}
+	},
+	[17335] = {
+		name = "2022布里斯托尔世界BOSS挑战券任务1",
+		guild_coin_award = 0,
+		award = 96775,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登录游戏",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17335,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2011,
+				1
+			}
+		}
+	},
+	[17336] = {
+		name = "2022布里斯托尔世界BOSS挑战券任务2",
+		guild_coin_award = 0,
+		award = 96776,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通关1次任意困难关卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17336,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2011,
+				1
+			}
+		}
+	},
+	[17337] = {
+		name = "2022布里斯托尔世界BOSS挑战券任务3",
+		guild_coin_award = 0,
+		award = 96777,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通关3次任意困难关卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17337,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2011,
+				1
+			}
+		}
+	},
+	[17338] = {
+		name = "2022布里斯托尔世界BOSS挑战券任务4",
+		guild_coin_award = 0,
+		award = 96778,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "通关5次『演习神秘事件调查』任意难度关卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17338,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610001,
+			1610002,
+			1610003,
+			1610004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2011,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[17339] = {
+		name = "2022布里斯托尔世界BOSS挑战券任务5",
+		guild_coin_award = 0,
+		award = 96779,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "通关10次『演习神秘事件调查』任意难度关卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17339,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610001,
+			1610002,
+			1610003,
+			1610004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2011,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[17340] = {
+		name = "2022春节鞍山长春双任务Day1-1",
+		guild_coin_award = 0,
+		award = 96832,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "击败旗舰3次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17340,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[17341] = {
+		name = "2022春节鞍山长春双任务Day1-2",
+		guild_coin_award = 0,
+		award = 96833,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登录游戏",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17341,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17342] = {
+		name = "2022春节鞍山长春双任务Day2-1",
+		guild_coin_award = 0,
+		award = 96834,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "强化舰船5次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17342,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[17343] = {
+		name = "2022春节鞍山长春双任务Day2-2",
+		guild_coin_award = 0,
+		award = 96835,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 31,
+		desc = "退役舰船2次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17343,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17344] = {
+		name = "2022春节鞍山长春双任务Day3-1",
+		guild_coin_award = 0,
+		award = 96836,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "进行2次战术训练 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17344,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54022,
+				3
+			}
+		}
+	},
+	[17345] = {
+		name = "2022春节鞍山长春双任务Day3-2",
+		guild_coin_award = 0,
+		award = 96837,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "后宅补充5次食物",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17345,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17346] = {
+		name = "2022春节鞍山长春双任务Day4-1",
+		guild_coin_award = 0,
+		award = 96838,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "击沉任意敌人20艘 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17346,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[17347] = {
+		name = "2022春节鞍山长春双任务Day4-2",
+		guild_coin_award = 0,
+		award = 96839,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船2次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17347,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17348] = {
+		name = "2022春节鞍山长春双任务Day5-1",
+		guild_coin_award = 0,
+		award = 96840,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 50,
+		desc = "打开任意科技箱1个",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17348,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54023,
+				1
+			}
+		}
+	},
+	[17349] = {
+		name = "2022春节鞍山长春双任务Day5-2",
+		guild_coin_award = 0,
+		award = 96841,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "强化舰船5次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17349,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17350] = {
+		name = "2022春节鞍山长春双任务Day6-1",
+		guild_coin_award = 0,
+		award = 96842,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "完成2次委托 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17350,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			}
+		}
+	},
+	[17351] = {
+		name = "2022春节鞍山长春双任务Day6-2",
+		guild_coin_award = 0,
+		award = 96843,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "后宅补充5次食物",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17351,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17352] = {
+		name = "2022春节鞍山长春双任务Day7-1",
+		guild_coin_award = 0,
+		award = 96844,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 40,
+		desc = "强化装备2次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17352,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59844,
+				1
+			}
+		}
+	},
+	[17353] = {
+		name = "2022春节鞍山长春双任务Day7-2",
+		guild_coin_award = 0,
+		award = 96845,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 24,
+		desc = "舰队出征，以S评价通关10次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17353,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59845,
+				1
+			}
+		}
+	},
+	[17354] = {
+		name = "2022画中世界双任务Day1-1",
+		guild_coin_award = 0,
+		award = 96847,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 24,
+		desc = "舰队出征，以S评价通关10次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17354,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59267,
+				5
+			}
+		}
+	},
+	[17355] = {
+		name = "2022画中世界双任务Day1-2",
+		guild_coin_award = 0,
+		award = 96848,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 40,
+		desc = "强化装备2次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17355,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59268,
+				1
+			}
+		}
+	},
+	[17356] = {
+		name = "2022画中世界双任务Day2-1",
+		guild_coin_award = 0,
+		award = 96847,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 27,
+		desc = "参与演习2次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17356,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59267,
+				5
+			}
+		}
+	},
+	[17357] = {
+		name = "2022画中世界双任务Day2-2",
+		guild_coin_award = 0,
+		award = 96848,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "完成2次委托 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17357,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59268,
+				1
+			}
+		}
+	},
+	[17358] = {
+		name = "2022画中世界双任务Day3-1",
+		guild_coin_award = 0,
+		award = 96847,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 31,
+		desc = "退役舰船2次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17358,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59267,
+				5
+			}
+		}
+	},
+	[17359] = {
+		name = "2022画中世界双任务Day3-2",
+		guild_coin_award = 0,
+		award = 96848,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 26,
+		desc = "完成3次每日挑战 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17359,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59268,
+				1
+			}
+		}
+	},
+	[17360] = {
+		name = "2022画中世界双任务Day4-1",
+		guild_coin_award = 0,
+		award = 96847,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "强化舰船5次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17360,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59267,
+				5
+			}
+		}
+	},
+	[17361] = {
+		name = "2022画中世界双任务Day4-2",
+		guild_coin_award = 0,
+		award = 96848,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "进行2次战术训练 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17361,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59268,
+				1
+			}
+		}
+	},
+	[17362] = {
+		name = "2022画中世界双任务Day5-1",
+		guild_coin_award = 0,
+		award = 96847,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "后宅补充5次食物 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17362,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59267,
+				5
+			}
+		}
+	},
+	[17363] = {
+		name = "2022画中世界双任务Day5-2",
+		guild_coin_award = 0,
+		award = 96848,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "击沉任意敌人20艘 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17363,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59268,
+				1
+			}
+		}
+	},
+	[17364] = {
+		name = "2022画中世界双任务Day6-1",
+		guild_coin_award = 0,
+		award = 96847,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船2次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17364,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59267,
+				5
+			}
+		}
+	},
+	[17365] = {
+		name = "2022画中世界双任务Day6-2",
+		guild_coin_award = 0,
+		award = 96848,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 50,
+		desc = "打开任意科技箱1个 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17365,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59268,
+				1
+			}
+		}
+	},
+	[17366] = {
+		name = "2022画中世界双任务Day7-1",
+		guild_coin_award = 0,
+		award = 96847,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "击败旗舰3次 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17366,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59267,
+				5
+			}
+		}
+	},
+	[17367] = {
+		name = "2022画中世界双任务Day7-2",
+		guild_coin_award = 0,
+		award = 96848,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "进行2次战术训练 ",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17367,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59268,
+				1
+			}
+		}
+	},
 	[30101] = {
 		name = "战斗胜利-日常",
 		guild_coin_award = 0,
@@ -163380,6 +166686,3653 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[41213] = {
+		name = "【通行证第一周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 23,
+		desc = "舰队出征，以A评价通关60次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41213,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41214] = {
+		name = "【通行证第一周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 40,
+		desc = "装备强化10次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41214,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41215] = {
+		name = "【通行证第一周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 60,
+		desc = "后宅补给存量30000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41215,
+		target_num = 30000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41216] = {
+		name = "【通行证第一周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 50,
+		desc = "打开任意科技箱20个",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41216,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41217] = {
+		name = "【通行证第一周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 120,
+		desc = "累计消耗40个舰艇演习数据T1",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "16501",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41217,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[41218] = {
+		name = "【通行证第一周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 41,
+		desc = "分解60件装备",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41218,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41219] = {
+		name = "【通行证第一周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第一周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41219,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41213,
+			41214,
+			41215,
+			41216,
+			41217,
+			41218
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41220] = {
+		name = "【通行证第二周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "舰队出征，消灭敌方旗舰20次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41220,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41221] = {
+		name = "【通行证第二周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 130,
+		desc = "累计获得核心数据150点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "59900",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 59900,
+		id = 41221,
+		target_num = 150,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41222] = {
+		name = "【通行证第二周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "执行军事委托15次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41222,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41223] = {
+		name = "【通行证第二周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 26,
+		desc = "完成12个「每日挑战」关卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41223,
+		target_num = 12,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41224] = {
+		name = "【通行证第二周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 120,
+		desc = "累计消耗快速建造工具20个",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "15003",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41224,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"GETBOAT"
+		}
+	},
+	[41225] = {
+		name = "【通行证第二周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 402,
+		desc = "执行军需筹备任务12次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41225,
+		target_num = 12,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41226] = {
+		name = "【通行证第二周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第二周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41226,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41220,
+			41221,
+			41222,
+			41223,
+			41224,
+			41225
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41227] = {
+		name = "【通行证第三周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "舰队出征，获得80次胜利",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41227,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41228] = {
+		name = "【通行证第三周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船5次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41228,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41229] = {
+		name = "【通行证第三周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 130,
+		desc = "累计获得心智魔方10个",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "20001",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 20001,
+		id = 41229,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41230] = {
+		name = "【通行证第三周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通关12次「困难副本」",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41230,
+		target_num = 12,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41231] = {
+		name = "【通行证第三周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "进行战术训练20次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41231,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41232] = {
+		name = "【通行证第三周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 27,
+		desc = "进行军事演习30次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41232,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41233] = {
+		name = "【通行证第三周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第三周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41233,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41227,
+			41228,
+			41229,
+			41230,
+			41231,
+			41232
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41234] = {
+		name = "【通行证第四周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 304,
+		desc = "舰队出征，大型作战中任意海域战斗5次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41234,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41235] = {
+		name = "【通行证第四周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 31,
+		desc = "舰船退役15次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41235,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41236] = {
+		name = "【通行证第四周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 110,
+		desc = "进行10次科研",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41236,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41237] = {
+		name = "【通行证第四周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "击沉任意敌人1600艘",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41237,
+		target_num = 1600,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41238] = {
+		name = "【通行证第四周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 170,
+		desc = "训练指挥喵20只",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41238,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41239] = {
+		name = "【通行证第四周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点800点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41239,
+		target_num = 800,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41240] = {
+		name = "【通行证第四周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第四周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41240,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41234,
+			41235,
+			41236,
+			41237,
+			41238,
+			41239
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41241] = {
+		name = "【通行证第五周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 50,
+		desc = "打开任意科技箱10个",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41241,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41242] = {
+		name = "【通行证第五周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 120,
+		desc = "累计消耗20个舰艇演习数据T1",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "16501",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41242,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[41243] = {
+		name = "【通行证第五周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 41,
+		desc = "分解30件装备",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41243,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41244] = {
+		name = "【通行证第五周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 23,
+		desc = "舰队出征，以A评价通关120次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41244,
+		target_num = 120,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41245] = {
+		name = "【通行证第五周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 40,
+		desc = "装备强化20次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41245,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41246] = {
+		name = "【通行证第五周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 60,
+		desc = "后宅补给存量60000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41246,
+		target_num = 60000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41247] = {
+		name = "【通行证第五周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第五周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41247,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41241,
+			41242,
+			41243,
+			41244,
+			41245,
+			41246
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41248] = {
+		name = "【通行证第六周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 26,
+		desc = "完成6个「每日挑战」关卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41248,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41249] = {
+		name = "【通行证第六周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 120,
+		desc = "累计消耗快速建造工具10个",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "15003",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41249,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		},
+		scene = {
+			"GETBOAT"
+		}
+	},
+	[41250] = {
+		name = "【通行证第六周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 402,
+		desc = "执行军需筹备任务6次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41250,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41251] = {
+		name = "【通行证第六周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "舰队出征，消灭敌方旗舰40次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41251,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41252] = {
+		name = "【通行证第六周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 130,
+		desc = "累计获得核心数据300点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "59900",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 59900,
+		id = 41252,
+		target_num = 300,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41253] = {
+		name = "【通行证第六周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "执行军事委托30次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41253,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41254] = {
+		name = "【通行证第六周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第六周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41254,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41248,
+			41249,
+			41250,
+			41251,
+			41252,
+			41253
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41255] = {
+		name = "【通行证第七周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通关6次「困难副本」",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41255,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41256] = {
+		name = "【通行证第七周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "进行战术训练10次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41256,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41257] = {
+		name = "【通行证第七周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 27,
+		desc = "进行军事演习15次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41257,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41258] = {
+		name = "【通行证第七周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "舰队出征，获得160次胜利",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41258,
+		target_num = 160,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41259] = {
+		name = "【通行证第七周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船10次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41259,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41260] = {
+		name = "【通行证第七周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 130,
+		desc = "累计获得心智魔方20个",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "20001",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 20001,
+		id = 41260,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41261] = {
+		name = "【通行证第七周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第七周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41261,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41255,
+			41256,
+			41257,
+			41258,
+			41259,
+			41260
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41262] = {
+		name = "【通行证第八周】任务一",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "击沉任意敌人800艘",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41262,
+		target_num = 800,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41263] = {
+		name = "【通行证第八周】任务二",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 170,
+		desc = "训练指挥喵10只",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41263,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41264] = {
+		name = "【通行证第八周】任务三",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点400点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41264,
+		target_num = 400,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41265] = {
+		name = "【通行证第八周】任务四",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 304,
+		desc = "舰队出征，大型作战中任意海域战斗10次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41265,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41266] = {
+		name = "【通行证第八周】任务五",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 31,
+		desc = "舰船退役30次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41266,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41267] = {
+		name = "【通行证第八周】任务六",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 110,
+		desc = "进行20次科研",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41267,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41268] = {
+		name = "【通行证第八周】任务七",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 90,
+		desc = "完成第八周其他全部任务",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41268,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41262,
+			41263,
+			41264,
+			41265,
+			41266,
+			41267
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41269] = {
+		name = "【通行证SP】累计周任务PT1",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点100点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41269,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41270] = {
+		name = "【通行证SP】累计周任务PT2",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点300点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41270,
+		target_num = 300,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41271] = {
+		name = "【通行证SP】累计周任务PT3",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点600点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41271,
+		target_num = 600,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41272] = {
+		name = "【通行证SP】累计周任务PT4",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点1000点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41272,
+		target_num = 1000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41273] = {
+		name = "【通行证SP】累计周任务PT5",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点1500点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41273,
+		target_num = 1500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41274] = {
+		name = "【通行证SP】累计周任务PT6",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点2000点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41274,
+		target_num = 2000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41275] = {
+		name = "【通行证SP】累计周任务PT7",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点2500点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41275,
+		target_num = 2500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41276] = {
+		name = "【通行证SP】累计周任务PT8",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点3000点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41276,
+		target_num = 3000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41277] = {
+		name = "【通行证SP】累计周任务PT9",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 161,
+		desc = "累计获得周常活跃点4000点",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41277,
+		target_num = 4000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41278] = {
+		name = "【通行证SP】累计建造1",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船10次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41278,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41279] = {
+		name = "【通行证SP】累计建造2",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船20次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41279,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41280] = {
+		name = "【通行证SP】累计建造3",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船30次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41280,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41281] = {
+		name = "【通行证SP】累计建造4",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船40次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41281,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41282] = {
+		name = "【通行证SP】累计建造5",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船50次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41282,
+		target_num = 50,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41283] = {
+		name = "【通行证SP】累计建造6",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船60次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41283,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41284] = {
+		name = "【通行证SP】累计建造7",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船70次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41284,
+		target_num = 70,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41285] = {
+		name = "【通行证SP】累计建造8",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船80次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41285,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41286] = {
+		name = "【通行证SP】累计消耗石油1",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油2000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41286,
+		target_num = 2000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41287] = {
+		name = "【通行证SP】累计消耗石油2",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油4000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41287,
+		target_num = 4000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41288] = {
+		name = "【通行证SP】累计消耗石油3",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油6000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41288,
+		target_num = 6000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41289] = {
+		name = "【通行证SP】累计消耗石油4",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油8000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41289,
+		target_num = 8000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41290] = {
+		name = "【通行证SP】累计消耗石油5",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油10000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41290,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41291] = {
+		name = "【通行证SP】累计消耗石油6",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油12000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41291,
+		target_num = 12000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41292] = {
+		name = "【通行证SP】累计消耗石油7",
+		guild_coin_award = 0,
+		award = 100408,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油15000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41292,
+		target_num = 15000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				180
+			}
+		}
+	},
+	[41293] = {
+		name = "【通行证SP】累计消耗石油8",
+		guild_coin_award = 0,
+		award = 100408,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油18000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41293,
+		target_num = 18000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				180
+			}
+		}
+	},
+	[41294] = {
+		name = "【通行证SP】累计消耗石油9",
+		guild_coin_award = 0,
+		award = 100408,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油21000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41294,
+		target_num = 21000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				180
+			}
+		}
+	},
+	[41295] = {
+		name = "【通行证SP】累计消耗石油10",
+		guild_coin_award = 0,
+		award = 100408,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 121,
+		desc = "累计消耗石油24000",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41295,
+		target_num = 24000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				180
+			}
+		}
+	},
+	[41296] = {
+		name = "【通行证SP】累计获取舰船经验1",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得25万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41296,
+		target_num = 250000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41297] = {
+		name = "【通行证SP】累计获取舰船经验2",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得50万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41297,
+		target_num = 500000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41298] = {
+		name = "【通行证SP】累计获取舰船经验3",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得75万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41298,
+		target_num = 750000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41299] = {
+		name = "【通行证SP】累计获取舰船经验4",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得100万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41299,
+		target_num = 1000000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41300] = {
+		name = "【通行证SP】累计获取舰船经验5",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得125万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41300,
+		target_num = 1250000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41301] = {
+		name = "【通行证SP】累计获取舰船经验6",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得150万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41301,
+		target_num = 1500000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41302] = {
+		name = "【通行证SP】累计获取舰船经验7",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得175万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41302,
+		target_num = 1750000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41303] = {
+		name = "【通行证SP】累计获取舰船经验8",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得200万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41303,
+		target_num = 2000000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41304] = {
+		name = "【通行证SP】累计获取舰船经验10",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得250万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41304,
+		target_num = 2500000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41305] = {
+		name = "【通行证SP】累计获取舰船经验12",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1041,
+		desc = "在任意关卡中累计获得300万经验",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 41305,
+		target_num = 3000000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41306] = {
+		name = "【通行证SP】累计登陆1",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励1次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41306,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41307] = {
+		name = "【通行证SP】累计登陆2",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励3次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41307,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41308] = {
+		name = "【通行证SP】累计登陆4",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励5次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41308,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41309] = {
+		name = "【通行证SP】累计登陆5",
+		guild_coin_award = 0,
+		award = 100409,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励7次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41309,
+		target_num = 7,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				60
+			}
+		}
+	},
+	[41310] = {
+		name = "【通行证SP】累计登陆7",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励10次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41310,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41311] = {
+		name = "【通行证SP】累计登陆8",
+		guild_coin_award = 0,
+		award = 100410,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励14次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41311,
+		target_num = 14,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				120
+			}
+		}
+	},
+	[41312] = {
+		name = "【通行证SP】累计登陆9",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励21次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41312,
+		target_num = 21,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
+	[41313] = {
+		name = "【通行证SP】累计登陆10",
+		guild_coin_award = 0,
+		award = 100411,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 106,
+		desc = "累计获取月签到奖励28次",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 41313,
+		target_num = 28,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4003,
+				240
+			}
+		}
+	},
 	[50001] = {
 		name = "归来与新生1",
 		guild_coin_award = 0,
@@ -166960,6 +173913,714 @@ pg.task_data_template = {
 			"SELTECHNOLOGY"
 		}
 	},
+	[51141] = {
+		name = "科研3期测试经验追赶1",
+		guild_coin_award = 0,
+		award = 9328,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 26,
+		desc = "完成3次每日挑战",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51141,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				10
+			}
+		}
+	},
+	[51142] = {
+		name = "科研3期测试经验追赶2",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 26,
+		desc = "完成30次每日挑战",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51142,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51143] = {
+		name = "科研3期测试经验追赶3",
+		guild_coin_award = 0,
+		award = 9328,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通过任意主线困难关卡3次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51143,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				10
+			}
+		}
+	},
+	[51144] = {
+		name = "科研3期测试经验追赶4",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通过任意主线困难关卡30次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51144,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51145] = {
+		name = "科研3期测试经验追赶5",
+		guild_coin_award = 0,
+		award = 9328,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "完成5次军事委托",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51145,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				10
+			}
+		}
+	},
+	[51146] = {
+		name = "科研3期测试经验追赶6",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "完成50次军事委托",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51146,
+		target_num = 50,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51147] = {
+		name = "科研3期测试经验追赶7",
+		guild_coin_award = 0,
+		award = 9330,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "完成100次军事委托",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51147,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				30
+			}
+		}
+	},
+	[51148] = {
+		name = "科研3期测试经验追赶8",
+		guild_coin_award = 0,
+		award = 9328,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 110,
+		desc = "进行1次科研",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51148,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				10
+			}
+		}
+	},
+	[51149] = {
+		name = "科研3期测试经验追赶9",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 110,
+		desc = "进行10次科研",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51149,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51150] = {
+		name = "科研3期测试经验追赶10",
+		guild_coin_award = 0,
+		award = 9330,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 110,
+		desc = "进行20次科研",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51150,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				30
+			}
+		}
+	},
+	[51151] = {
+		name = "科研3期测试经验追赶11",
+		guild_coin_award = 0,
+		award = 9331,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 110,
+		desc = "进行30次科研",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51151,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				40
+			}
+		}
+	},
+	[51152] = {
+		name = "科研3期测试经验追赶12",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船10次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51152,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51153] = {
+		name = "科研3期测试经验追赶13",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造舰船20次",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51153,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51154] = {
+		name = "科研3期测试经验追赶14",
+		guild_coin_award = 0,
+		award = 9332,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1015,
+		desc = "与一个角色完成誓约",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51154,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				50
+			}
+		}
+	},
+	[51155] = {
+		name = "科研3期测试经验追赶15",
+		guild_coin_award = 0,
+		award = 9328,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "任意一艘舰船达到105级",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51155,
+		target_num = 105,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				10
+			}
+		}
+	},
+	[51156] = {
+		name = "科研3期测试经验追赶16",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "任意一艘舰船达到115级",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 51156,
+		target_num = 115,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51157] = {
+		name = "科研3期测试经验追赶17",
+		guild_coin_award = 0,
+		award = 9328,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通关9-4",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "804",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 904,
+		id = 51157,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				10
+			}
+		}
+	},
+	[51158] = {
+		name = "科研3期测试经验追赶18",
+		guild_coin_award = 0,
+		award = 9329,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通关10-4",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "904",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1004,
+		id = 51158,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				20
+			}
+		}
+	},
+	[51159] = {
+		name = "科研3期测试经验追赶19",
+		guild_coin_award = 0,
+		award = 9330,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通关11-4",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "1004",
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1104,
+		id = 51159,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20103,
+				30
+			}
+		}
+	},
+	[51160] = {
+		name = "科研3期测试经验追赶20",
+		guild_coin_award = 0,
+		award = 9333,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "获得任意一名三期科研角色",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		quick_finish = 0,
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51160,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			29903,
+			29904,
+			49903,
+			49904,
+			89902
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42026,
+				30
+			}
+		},
+		scene = {
+			"SELTECHNOLOGY"
+		}
+	},
 	[52001] = {
 		name = "数据收集任务",
 		guild_coin_award = 0,
@@ -167469,6 +175130,10 @@ pg.task_data_template = {
 			{
 				2,
 				19
+			},
+			{
+				2,
+				20
 			}
 		},
 		open_need = {},
@@ -167519,6 +175184,10 @@ pg.task_data_template = {
 			{
 				2,
 				19
+			},
+			{
+				2,
+				20
 			}
 		},
 		open_need = {},
@@ -167631,6 +175300,10 @@ pg.task_data_template = {
 			{
 				2,
 				19
+			},
+			{
+				2,
+				20
 			}
 		},
 		open_need = {
@@ -167817,6 +175490,10 @@ pg.task_data_template = {
 			{
 				2,
 				13
+			},
+			{
+				2,
+				21
 			}
 		},
 		open_need = {},
@@ -167879,6 +175556,10 @@ pg.task_data_template = {
 			{
 				2,
 				13
+			},
+			{
+				2,
+				21
 			}
 		},
 		open_need = {},
@@ -168003,6 +175684,10 @@ pg.task_data_template = {
 			{
 				2,
 				13
+			},
+			{
+				2,
+				21
 			}
 		},
 		open_need = {
@@ -168177,6 +175862,10 @@ pg.task_data_template = {
 			{
 				3,
 				19
+			},
+			{
+				3,
+				20
 			}
 		},
 		open_need = {},
@@ -168227,6 +175916,10 @@ pg.task_data_template = {
 			{
 				3,
 				19
+			},
+			{
+				3,
+				20
 			}
 		},
 		open_need = {},
@@ -168339,6 +176032,10 @@ pg.task_data_template = {
 			{
 				3,
 				19
+			},
+			{
+				3,
+				20
 			}
 		},
 		open_need = {
@@ -168525,6 +176222,10 @@ pg.task_data_template = {
 			{
 				3,
 				13
+			},
+			{
+				3,
+				21
 			}
 		},
 		open_need = {},
@@ -168587,6 +176288,10 @@ pg.task_data_template = {
 			{
 				3,
 				13
+			},
+			{
+				3,
+				21
 			}
 		},
 		open_need = {},
@@ -168711,6 +176416,10 @@ pg.task_data_template = {
 			{
 				3,
 				13
+			},
+			{
+				3,
+				21
 			}
 		},
 		open_need = {
@@ -168885,6 +176594,10 @@ pg.task_data_template = {
 			{
 				4,
 				19
+			},
+			{
+				4,
+				20
 			}
 		},
 		open_need = {},
@@ -168935,6 +176648,10 @@ pg.task_data_template = {
 			{
 				4,
 				19
+			},
+			{
+				4,
+				20
 			}
 		},
 		open_need = {},
@@ -169047,6 +176764,10 @@ pg.task_data_template = {
 			{
 				4,
 				19
+			},
+			{
+				4,
+				20
 			}
 		},
 		open_need = {
@@ -169221,6 +176942,10 @@ pg.task_data_template = {
 			{
 				1,
 				19
+			},
+			{
+				1,
+				20
 			}
 		},
 		open_need = {},
@@ -169271,6 +176996,10 @@ pg.task_data_template = {
 			{
 				1,
 				19
+			},
+			{
+				1,
+				20
 			}
 		},
 		open_need = {},
@@ -169383,6 +177112,10 @@ pg.task_data_template = {
 			{
 				1,
 				19
+			},
+			{
+				1,
+				20
 			}
 		},
 		open_need = {
@@ -169586,6 +177319,10 @@ pg.task_data_template = {
 			{
 				1,
 				19
+			},
+			{
+				1,
+				20
 			}
 		},
 		open_need = {},
@@ -169698,6 +177435,10 @@ pg.task_data_template = {
 			{
 				1,
 				19
+			},
+			{
+				1,
+				20
 			}
 		},
 		open_need = {
@@ -169913,6 +177654,10 @@ pg.task_data_template = {
 			{
 				1,
 				13
+			},
+			{
+				1,
+				21
 			}
 		},
 		open_need = {},
@@ -170037,6 +177782,10 @@ pg.task_data_template = {
 			{
 				1,
 				13
+			},
+			{
+				1,
+				21
 			}
 		},
 		open_need = {
@@ -170240,6 +177989,10 @@ pg.task_data_template = {
 			{
 				3,
 				19
+			},
+			{
+				3,
+				20
 			}
 		},
 		open_need = {},
@@ -170352,6 +178105,10 @@ pg.task_data_template = {
 			{
 				3,
 				19
+			},
+			{
+				3,
+				20
 			}
 		},
 		open_need = {
@@ -170567,6 +178324,10 @@ pg.task_data_template = {
 			{
 				3,
 				13
+			},
+			{
+				3,
+				21
 			}
 		},
 		open_need = {},
@@ -170679,6 +178440,10 @@ pg.task_data_template = {
 			{
 				3,
 				19
+			},
+			{
+				3,
+				20
 			}
 		},
 		open_need = {
@@ -170894,6 +178659,10 @@ pg.task_data_template = {
 			{
 				4,
 				13
+			},
+			{
+				4,
+				21
 			}
 		},
 		open_need = {},
@@ -171018,6 +178787,10 @@ pg.task_data_template = {
 			{
 				4,
 				13
+			},
+			{
+				4,
+				21
 			}
 		},
 		open_need = {
@@ -171264,6 +179037,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				4,
+				21
+			},
+			{
 				8,
 				4
 			},
@@ -171296,6 +179073,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				8,
+				21
+			},
+			{
 				9,
 				4
 			},
@@ -171326,6 +179107,10 @@ pg.task_data_template = {
 			{
 				9,
 				13
+			},
+			{
+				9,
+				21
 			}
 		},
 		open_need = {},
@@ -171452,6 +179237,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				4,
+				21
+			},
+			{
 				8,
 				4
 			},
@@ -171484,6 +179273,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				8,
+				21
+			},
+			{
 				9,
 				4
 			},
@@ -171514,6 +179307,10 @@ pg.task_data_template = {
 			{
 				9,
 				13
+			},
+			{
+				9,
+				21
 			}
 		},
 		open_need = {
@@ -171717,6 +179514,10 @@ pg.task_data_template = {
 			{
 				2,
 				19
+			},
+			{
+				2,
+				20
 			}
 		},
 		open_need = {},
@@ -171829,6 +179630,10 @@ pg.task_data_template = {
 			{
 				2,
 				19
+			},
+			{
+				2,
+				20
 			}
 		},
 		open_need = {
@@ -172032,6 +179837,10 @@ pg.task_data_template = {
 			{
 				2,
 				19
+			},
+			{
+				2,
+				20
 			}
 		},
 		open_need = {},
@@ -172144,6 +179953,10 @@ pg.task_data_template = {
 			{
 				2,
 				19
+			},
+			{
+				2,
+				20
 			}
 		},
 		open_need = {
@@ -172347,6 +180160,10 @@ pg.task_data_template = {
 			{
 				4,
 				19
+			},
+			{
+				4,
+				20
 			}
 		},
 		open_need = {},
@@ -172459,6 +180276,10 @@ pg.task_data_template = {
 			{
 				4,
 				19
+			},
+			{
+				4,
+				20
 			}
 		},
 		open_need = {
@@ -172674,6 +180495,10 @@ pg.task_data_template = {
 			{
 				4,
 				13
+			},
+			{
+				4,
+				21
 			}
 		},
 		open_need = {},
@@ -172798,6 +180623,10 @@ pg.task_data_template = {
 			{
 				4,
 				13
+			},
+			{
+				4,
+				21
 			}
 		},
 		open_need = {
@@ -173044,6 +180873,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				1,
+				21
+			},
+			{
 				8,
 				4
 			},
@@ -173076,6 +180909,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				8,
+				21
+			},
+			{
 				9,
 				4
 			},
@@ -173106,6 +180943,10 @@ pg.task_data_template = {
 			{
 				9,
 				13
+			},
+			{
+				9,
+				21
 			}
 		},
 		open_need = {},
@@ -173232,6 +181073,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				1,
+				21
+			},
+			{
 				8,
 				4
 			},
@@ -173264,6 +181109,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				8,
+				21
+			},
+			{
 				9,
 				4
 			},
@@ -173294,6 +181143,10 @@ pg.task_data_template = {
 			{
 				9,
 				13
+			},
+			{
+				9,
+				21
 			}
 		},
 		open_need = {
@@ -173497,6 +181350,10 @@ pg.task_data_template = {
 			{
 				1,
 				19
+			},
+			{
+				1,
+				20
 			}
 		},
 		open_need = {},
@@ -173609,6 +181466,10 @@ pg.task_data_template = {
 			{
 				1,
 				19
+			},
+			{
+				1,
+				20
 			}
 		},
 		open_need = {
@@ -173824,6 +181685,10 @@ pg.task_data_template = {
 			{
 				3,
 				13
+			},
+			{
+				3,
+				21
 			}
 		},
 		open_need = {},
@@ -173948,6 +181813,10 @@ pg.task_data_template = {
 			{
 				3,
 				13
+			},
+			{
+				3,
+				21
 			}
 		},
 		open_need = {
@@ -174163,6 +182032,10 @@ pg.task_data_template = {
 			{
 				4,
 				13
+			},
+			{
+				4,
+				21
 			}
 		},
 		open_need = {},
@@ -174275,6 +182148,10 @@ pg.task_data_template = {
 			{
 				4,
 				19
+			},
+			{
+				4,
+				20
 			}
 		},
 		open_need = {
@@ -174490,6 +182367,10 @@ pg.task_data_template = {
 			{
 				4,
 				13
+			},
+			{
+				4,
+				21
 			}
 		},
 		open_need = {},
@@ -174614,6 +182495,10 @@ pg.task_data_template = {
 			{
 				4,
 				13
+			},
+			{
+				4,
+				21
 			}
 		},
 		open_need = {
@@ -174860,6 +182745,10 @@ pg.task_data_template = {
 				13
 			},
 			{
+				4,
+				21
+			},
+			{
 				6,
 				4
 			},
@@ -174890,6 +182779,10 @@ pg.task_data_template = {
 			{
 				6,
 				13
+			},
+			{
+				6,
+				21
 			}
 		},
 		open_need = {},
@@ -174984,68 +182877,76 @@ pg.task_data_template = {
 		added_tip = 0,
 		target_id = {
 			{
-				2,
+				4,
 				4
 			},
 			{
-				2,
+				4,
 				5
 			},
 			{
-				2,
+				4,
 				6
 			},
 			{
-				2,
+				4,
 				7
 			},
 			{
-				2,
+				4,
 				9
 			},
 			{
-				2,
+				4,
 				10
 			},
 			{
-				2,
+				4,
 				12
 			},
 			{
-				2,
+				4,
+				13
+			},
+			{
+				4,
+				21
+			},
+			{
+				6,
+				4
+			},
+			{
+				6,
+				5
+			},
+			{
+				6,
+				6
+			},
+			{
+				6,
+				7
+			},
+			{
+				6,
+				9
+			},
+			{
+				6,
+				10
+			},
+			{
+				6,
+				12
+			},
+			{
+				6,
 				13
 			},
 			{
 				6,
-				4
-			},
-			{
-				6,
-				5
-			},
-			{
-				6,
-				6
-			},
-			{
-				6,
-				7
-			},
-			{
-				6,
-				9
-			},
-			{
-				6,
-				10
-			},
-			{
-				6,
-				12
-			},
-			{
-				6,
-				13
+				21
 			}
 		},
 		open_need = {
@@ -176141,6 +184042,13 @@ pg.task_data_template = {
 		5725,
 		5726,
 		5727,
+		5731,
+		5732,
+		5733,
+		5734,
+		5735,
+		5736,
+		5737,
 		6001,
 		6002,
 		6003,
@@ -177614,6 +185522,7 @@ pg.task_data_template = {
 		14678,
 		14679,
 		14680,
+		14681,
 		14700,
 		14701,
 		14702,
@@ -179432,6 +187341,84 @@ pg.task_data_template = {
 		17285,
 		17286,
 		17287,
+		17290,
+		17291,
+		17292,
+		17293,
+		17294,
+		17295,
+		17296,
+		17297,
+		17298,
+		17299,
+		17300,
+		17301,
+		17302,
+		17303,
+		17304,
+		17305,
+		17306,
+		17307,
+		17308,
+		17309,
+		17310,
+		17311,
+		17312,
+		17313,
+		17314,
+		17315,
+		17316,
+		17317,
+		17318,
+		17319,
+		17320,
+		17321,
+		17322,
+		17323,
+		17324,
+		17325,
+		17326,
+		17327,
+		17328,
+		17329,
+		17330,
+		17331,
+		17332,
+		17333,
+		17334,
+		17335,
+		17336,
+		17337,
+		17338,
+		17339,
+		17340,
+		17341,
+		17342,
+		17343,
+		17344,
+		17345,
+		17346,
+		17347,
+		17348,
+		17349,
+		17350,
+		17351,
+		17352,
+		17353,
+		17354,
+		17355,
+		17356,
+		17357,
+		17358,
+		17359,
+		17360,
+		17361,
+		17362,
+		17363,
+		17364,
+		17365,
+		17366,
+		17367,
 		30101,
 		30102,
 		30103,
@@ -179801,6 +187788,107 @@ pg.task_data_template = {
 		41210,
 		41211,
 		41212,
+		41213,
+		41214,
+		41215,
+		41216,
+		41217,
+		41218,
+		41219,
+		41220,
+		41221,
+		41222,
+		41223,
+		41224,
+		41225,
+		41226,
+		41227,
+		41228,
+		41229,
+		41230,
+		41231,
+		41232,
+		41233,
+		41234,
+		41235,
+		41236,
+		41237,
+		41238,
+		41239,
+		41240,
+		41241,
+		41242,
+		41243,
+		41244,
+		41245,
+		41246,
+		41247,
+		41248,
+		41249,
+		41250,
+		41251,
+		41252,
+		41253,
+		41254,
+		41255,
+		41256,
+		41257,
+		41258,
+		41259,
+		41260,
+		41261,
+		41262,
+		41263,
+		41264,
+		41265,
+		41266,
+		41267,
+		41268,
+		41269,
+		41270,
+		41271,
+		41272,
+		41273,
+		41274,
+		41275,
+		41276,
+		41277,
+		41278,
+		41279,
+		41280,
+		41281,
+		41282,
+		41283,
+		41284,
+		41285,
+		41286,
+		41287,
+		41288,
+		41289,
+		41290,
+		41291,
+		41292,
+		41293,
+		41294,
+		41295,
+		41296,
+		41297,
+		41298,
+		41299,
+		41300,
+		41301,
+		41302,
+		41303,
+		41304,
+		41305,
+		41306,
+		41307,
+		41308,
+		41309,
+		41310,
+		41311,
+		41312,
+		41313,
 		50001,
 		50002,
 		50003,
@@ -179899,6 +187987,26 @@ pg.task_data_template = {
 		51138,
 		51139,
 		51140,
+		51141,
+		51142,
+		51143,
+		51144,
+		51145,
+		51146,
+		51147,
+		51148,
+		51149,
+		51150,
+		51151,
+		51152,
+		51153,
+		51154,
+		51155,
+		51156,
+		51157,
+		51158,
+		51159,
+		51160,
 		52001,
 		52002,
 		52003,

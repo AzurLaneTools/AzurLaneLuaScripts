@@ -28,7 +28,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -77,7 +77,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -126,7 +126,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -175,7 +175,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -224,7 +224,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -273,7 +273,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -322,7 +322,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -371,7 +371,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -420,7 +420,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -469,7 +469,7 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					quote = 1,
+					quota = 1,
 					target = "TargetSelf",
 					skill_id = 14932,
 					countType = 14933
@@ -526,7 +526,7 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				quote = 1,
+				quota = 1,
 				target = "TargetSelf",
 				skill_id = 14932,
 				countType = 14933

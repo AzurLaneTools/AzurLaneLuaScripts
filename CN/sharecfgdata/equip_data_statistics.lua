@@ -173,13 +173,17 @@ _G.pg.equip_data_statistics[6] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -214,13 +218,17 @@ _G.pg.equip_data_statistics[7] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -289,13 +297,17 @@ _G.pg.equip_data_statistics[20] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -330,13 +342,17 @@ _G.pg.equip_data_statistics[21] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -371,13 +387,17 @@ _G.pg.equip_data_statistics[22] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -410,7 +430,9 @@ _G.pg.equip_data_statistics[23] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {},
 	equip_parameters = {},
@@ -444,7 +466,9 @@ _G.pg.equip_data_statistics[24] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {},
 	equip_parameters = {},
@@ -478,7 +502,9 @@ _G.pg.equip_data_statistics[25] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {},
 	equip_parameters = {},
@@ -512,7 +538,9 @@ _G.pg.equip_data_statistics[26] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {},
 	equip_parameters = {},
@@ -534,7 +562,9 @@ _G.pg.equip_data_statistics[98] = {
 	icon = "1",
 	torpedo_ammo = 0,
 	property_rate = {},
-	ammo_icon = {},
+	ammo_icon = {
+		1
+	},
 	ammo_info = {},
 	equip_info = {},
 	weapon_id = {
@@ -544,7 +574,9 @@ _G.pg.equip_data_statistics[98] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -574,7 +606,9 @@ _G.pg.equip_data_statistics[99] = {
 	icon = "1",
 	torpedo_ammo = 0,
 	property_rate = {},
-	ammo_icon = {},
+	ammo_icon = {
+		1
+	},
 	ammo_info = {},
 	equip_info = {},
 	weapon_id = {
@@ -586,13 +620,17 @@ _G.pg.equip_data_statistics[99] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -626,7 +664,9 @@ _G.pg.equip_data_statistics[100] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -800,7 +840,9 @@ _G.pg.equip_data_statistics[104] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -813,7 +855,9 @@ _G.pg.equip_data_statistics[104] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -851,13 +895,17 @@ _G.pg.equip_data_statistics[105] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -896,13 +944,17 @@ _G.pg.equip_data_statistics[106] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -941,13 +993,17 @@ _G.pg.equip_data_statistics[107] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -986,13 +1042,17 @@ _G.pg.equip_data_statistics[108] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -1855,6 +1915,41 @@ _G.pg.equip_data_statistics[150] = {
 	}
 }
 
+_G.pg.equip_data_statistics[152] = {
+	type = 12,
+	name = "默认鸢尾水侦",
+	speciality = "轰炸",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 3,
+	descrip = "默认装备",
+	id = 152,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		152
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6
+	},
+	part_sub = {
+		6
+	},
+	equip_parameters = {},
+	label = {
+		"SCOUT"
+	}
+}
+
 _G.pg.equip_data_statistics[201] = {
 	tech = 1,
 	name = "白鹰雷击轻巡副炮T1",
@@ -1883,7 +1978,9 @@ _G.pg.equip_data_statistics[201] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -1969,7 +2066,9 @@ _G.pg.equip_data_statistics[211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2060,7 +2159,9 @@ _G.pg.equip_data_statistics[221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2146,7 +2247,9 @@ _G.pg.equip_data_statistics[231] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2226,7 +2329,9 @@ _G.pg.equip_data_statistics[251] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2306,7 +2411,9 @@ _G.pg.equip_data_statistics[261] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2392,7 +2499,9 @@ _G.pg.equip_data_statistics[271] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2478,7 +2587,9 @@ _G.pg.equip_data_statistics[301] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2564,7 +2675,9 @@ _G.pg.equip_data_statistics[311] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2644,7 +2757,9 @@ _G.pg.equip_data_statistics[321] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2730,7 +2845,9 @@ _G.pg.equip_data_statistics[331] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2810,7 +2927,9 @@ _G.pg.equip_data_statistics[351] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2890,7 +3009,9 @@ _G.pg.equip_data_statistics[371] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -2971,7 +3092,9 @@ _G.pg.equip_data_statistics[431] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -3066,13 +3189,17 @@ _G.pg.equip_data_statistics[433] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -3157,7 +3284,9 @@ _G.pg.equip_data_statistics[435] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -3250,7 +3379,9 @@ _G.pg.equip_data_statistics[437] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -3263,7 +3394,9 @@ _G.pg.equip_data_statistics[437] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -3458,13 +3591,17 @@ _G.pg.equip_data_statistics[441] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -3515,7 +3652,9 @@ _G.pg.equip_data_statistics[442] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -3528,7 +3667,9 @@ _G.pg.equip_data_statistics[442] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -3566,7 +3707,9 @@ _G.pg.equip_data_statistics[446] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -3622,6 +3765,55 @@ _G.pg.equip_data_statistics[447] = {
 		"CL",
 		"MG",
 		"AP"
+	}
+}
+
+_G.pg.equip_data_statistics[448] = {
+	tech = 1,
+	name = "海天单联鱼雷",
+	speciality = "雷击",
+	type = 5,
+	rarity = 1,
+	ammo = 5,
+	damage = "17 x 1",
+	nationality = 0,
+	descrip = "默认装备",
+	id = 448,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		448
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"UN",
+		"ST",
+		"TP",
+		"DUO"
 	}
 }
 
@@ -3772,13 +3964,17 @@ _G.pg.equip_data_statistics[455] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -3868,7 +4064,9 @@ _G.pg.equip_data_statistics[460] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -3881,7 +4079,9 @@ _G.pg.equip_data_statistics[460] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -8735,7 +8935,9 @@ _G.pg.equip_data_statistics[1500] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -8750,7 +8952,9 @@ _G.pg.equip_data_statistics[1500] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {
 		avoid_extra = 500,
@@ -8848,7 +9052,9 @@ _G.pg.equip_data_statistics[1520] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -8863,7 +9069,9 @@ _G.pg.equip_data_statistics[1520] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {
 		avoid_extra = 800,
@@ -8988,7 +9196,9 @@ _G.pg.equip_data_statistics[1540] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -9003,7 +9213,9 @@ _G.pg.equip_data_statistics[1540] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {
 		avoid_extra = 1200,
@@ -9147,7 +9359,9 @@ _G.pg.equip_data_statistics[1600] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -9162,7 +9376,9 @@ _G.pg.equip_data_statistics[1600] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -9235,7 +9451,9 @@ _G.pg.equip_data_statistics[1620] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -9250,7 +9468,9 @@ _G.pg.equip_data_statistics[1620] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -9320,7 +9540,9 @@ _G.pg.equip_data_statistics[1640] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -9335,7 +9557,9 @@ _G.pg.equip_data_statistics[1640] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -10916,7 +11140,9 @@ _G.pg.equip_data_statistics[2200] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -10931,7 +11157,9 @@ _G.pg.equip_data_statistics[2200] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -10999,7 +11227,9 @@ _G.pg.equip_data_statistics[2220] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -11014,7 +11244,9 @@ _G.pg.equip_data_statistics[2220] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -11107,7 +11339,9 @@ _G.pg.equip_data_statistics[2240] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -11122,7 +11356,9 @@ _G.pg.equip_data_statistics[2240] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -11256,7 +11492,9 @@ _G.pg.equip_data_statistics[2300] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -11271,7 +11509,9 @@ _G.pg.equip_data_statistics[2300] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -11338,7 +11578,9 @@ _G.pg.equip_data_statistics[2320] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -11353,7 +11595,9 @@ _G.pg.equip_data_statistics[2320] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -11446,7 +11690,9 @@ _G.pg.equip_data_statistics[2340] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -11461,7 +11707,9 @@ _G.pg.equip_data_statistics[2340] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -12032,7 +12280,9 @@ _G.pg.equip_data_statistics[2600] = {
 		8,
 		11,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -12041,7 +12291,9 @@ _G.pg.equip_data_statistics[2600] = {
 		8,
 		11,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -12163,7 +12415,9 @@ _G.pg.equip_data_statistics[2620] = {
 		8,
 		11,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -12172,7 +12426,9 @@ _G.pg.equip_data_statistics[2620] = {
 		8,
 		11,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -12299,7 +12555,9 @@ _G.pg.equip_data_statistics[2640] = {
 		8,
 		11,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -12308,7 +12566,9 @@ _G.pg.equip_data_statistics[2640] = {
 		8,
 		11,
 		17,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -12464,14 +12724,18 @@ _G.pg.equip_data_statistics[2700] = {
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -12559,14 +12823,18 @@ _G.pg.equip_data_statistics[2720] = {
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -12687,14 +12955,18 @@ _G.pg.equip_data_statistics[2740] = {
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -12961,11 +13233,15 @@ _G.pg.equip_data_statistics[2900] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {
 		range = 3
@@ -13027,11 +13303,15 @@ _G.pg.equip_data_statistics[2920] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {
 		range = 3
@@ -13119,11 +13399,15 @@ _G.pg.equip_data_statistics[2940] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {
 		range = 5
@@ -13249,11 +13533,15 @@ _G.pg.equip_data_statistics[3000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {
 		range = 5
@@ -13339,11 +13627,15 @@ _G.pg.equip_data_statistics[3020] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {
 		range = 5
@@ -13462,11 +13754,15 @@ _G.pg.equip_data_statistics[3040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {
 		range = 8
@@ -14299,10 +14595,14 @@ _G.pg.equip_data_statistics[3300] = {
 	},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {
-		1
+		1,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -14927,11 +15227,15 @@ _G.pg.equip_data_statistics[4000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -15008,11 +15312,15 @@ _G.pg.equip_data_statistics[4020] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -15089,11 +15397,15 @@ _G.pg.equip_data_statistics[4040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -15210,11 +15522,15 @@ _G.pg.equip_data_statistics[4100] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -15291,11 +15607,15 @@ _G.pg.equip_data_statistics[4120] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -15402,11 +15722,15 @@ _G.pg.equip_data_statistics[4140] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -16451,13 +16775,17 @@ _G.pg.equip_data_statistics[5000] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -16547,13 +16875,17 @@ _G.pg.equip_data_statistics[5020] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -16643,13 +16975,17 @@ _G.pg.equip_data_statistics[5040] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -16779,13 +17115,17 @@ _G.pg.equip_data_statistics[5100] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -16875,13 +17215,17 @@ _G.pg.equip_data_statistics[5120] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17001,13 +17345,17 @@ _G.pg.equip_data_statistics[5140] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17178,13 +17526,17 @@ _G.pg.equip_data_statistics[5200] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17304,13 +17656,17 @@ _G.pg.equip_data_statistics[5220] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17470,13 +17826,17 @@ _G.pg.equip_data_statistics[5240] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17668,13 +18028,17 @@ _G.pg.equip_data_statistics[5300] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17764,13 +18128,17 @@ _G.pg.equip_data_statistics[5320] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17860,13 +18228,17 @@ _G.pg.equip_data_statistics[5340] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -17996,13 +18368,17 @@ _G.pg.equip_data_statistics[5400] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -18092,13 +18468,17 @@ _G.pg.equip_data_statistics[5420] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -18218,13 +18598,17 @@ _G.pg.equip_data_statistics[5440] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -18770,7 +19154,9 @@ _G.pg.equip_data_statistics[6000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -18783,7 +19169,9 @@ _G.pg.equip_data_statistics[6000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -18864,7 +19252,9 @@ _G.pg.equip_data_statistics[6020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -18877,7 +19267,9 @@ _G.pg.equip_data_statistics[6020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -18958,7 +19350,9 @@ _G.pg.equip_data_statistics[6040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -18971,7 +19365,9 @@ _G.pg.equip_data_statistics[6040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -19091,7 +19487,9 @@ _G.pg.equip_data_statistics[6100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -19104,7 +19502,9 @@ _G.pg.equip_data_statistics[6100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -19185,7 +19585,9 @@ _G.pg.equip_data_statistics[6120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -19198,7 +19600,9 @@ _G.pg.equip_data_statistics[6120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -19279,7 +19683,9 @@ _G.pg.equip_data_statistics[6140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -19292,7 +19698,9 @@ _G.pg.equip_data_statistics[6140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -20045,7 +20453,9 @@ _G.pg.equip_data_statistics[7200] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -20143,7 +20553,9 @@ _G.pg.equip_data_statistics[7220] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -20271,7 +20683,9 @@ _G.pg.equip_data_statistics[7240] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -20645,7 +21059,9 @@ _G.pg.equip_data_statistics[7320] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -20913,7 +21329,9 @@ _G.pg.equip_data_statistics[11000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21010,7 +21428,9 @@ _G.pg.equip_data_statistics[11020] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21107,7 +21527,9 @@ _G.pg.equip_data_statistics[11040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21244,7 +21666,9 @@ _G.pg.equip_data_statistics[11060] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21381,7 +21805,9 @@ _G.pg.equip_data_statistics[11100] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21478,7 +21904,9 @@ _G.pg.equip_data_statistics[11120] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21605,7 +22033,9 @@ _G.pg.equip_data_statistics[11140] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21784,7 +22214,9 @@ _G.pg.equip_data_statistics[11160] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -21964,7 +22396,9 @@ _G.pg.equip_data_statistics[11200] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -22092,7 +22526,9 @@ _G.pg.equip_data_statistics[11220] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -22261,7 +22697,9 @@ _G.pg.equip_data_statistics[11240] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -29239,13 +29677,17 @@ _G.pg.equip_data_statistics[15200] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -29375,13 +29817,17 @@ _G.pg.equip_data_statistics[15220] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -29552,13 +29998,17 @@ _G.pg.equip_data_statistics[15240] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -29735,14 +30185,18 @@ _G.pg.equip_data_statistics[15500] = {
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
 		11,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {
 		avoid_extra = 1000,
@@ -29883,7 +30337,9 @@ _G.pg.equip_data_statistics[16000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -29896,7 +30352,9 @@ _G.pg.equip_data_statistics[16000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -29977,7 +30435,9 @@ _G.pg.equip_data_statistics[16020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -29990,7 +30450,9 @@ _G.pg.equip_data_statistics[16020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -30071,7 +30533,9 @@ _G.pg.equip_data_statistics[16040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -30084,7 +30548,9 @@ _G.pg.equip_data_statistics[16040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -30205,7 +30671,9 @@ _G.pg.equip_data_statistics[16060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -30218,7 +30686,9 @@ _G.pg.equip_data_statistics[16060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -30380,7 +30850,9 @@ _G.pg.equip_data_statistics[16080] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -30393,7 +30865,9 @@ _G.pg.equip_data_statistics[16080] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -30577,7 +31051,9 @@ _G.pg.equip_data_statistics[16100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -30590,7 +31066,9 @@ _G.pg.equip_data_statistics[16100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -30671,7 +31149,9 @@ _G.pg.equip_data_statistics[16120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -30684,7 +31164,9 @@ _G.pg.equip_data_statistics[16120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -30795,7 +31277,9 @@ _G.pg.equip_data_statistics[16140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -30808,7 +31292,9 @@ _G.pg.equip_data_statistics[16140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -30970,7 +31456,9 @@ _G.pg.equip_data_statistics[16160] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -30983,7 +31471,9 @@ _G.pg.equip_data_statistics[16160] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -31145,7 +31635,9 @@ _G.pg.equip_data_statistics[16200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -31158,7 +31650,9 @@ _G.pg.equip_data_statistics[16200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -31239,7 +31733,9 @@ _G.pg.equip_data_statistics[16220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -31252,7 +31748,9 @@ _G.pg.equip_data_statistics[16220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -31363,7 +31861,9 @@ _G.pg.equip_data_statistics[16240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -31376,7 +31876,9 @@ _G.pg.equip_data_statistics[16240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -31538,7 +32040,9 @@ _G.pg.equip_data_statistics[16300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -31551,7 +32055,9 @@ _G.pg.equip_data_statistics[16300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -31632,7 +32138,9 @@ _G.pg.equip_data_statistics[16320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -31645,7 +32153,9 @@ _G.pg.equip_data_statistics[16320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -31756,7 +32266,9 @@ _G.pg.equip_data_statistics[16340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -31769,7 +32281,9 @@ _G.pg.equip_data_statistics[16340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -31931,7 +32445,9 @@ _G.pg.equip_data_statistics[16400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -31944,7 +32460,9 @@ _G.pg.equip_data_statistics[16400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -32055,7 +32573,9 @@ _G.pg.equip_data_statistics[16420] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -32068,7 +32588,9 @@ _G.pg.equip_data_statistics[16420] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -32219,7 +32741,9 @@ _G.pg.equip_data_statistics[16440] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -32232,7 +32756,9 @@ _G.pg.equip_data_statistics[16440] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -40908,7 +41434,9 @@ _G.pg.equip_data_statistics[21000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41005,7 +41533,9 @@ _G.pg.equip_data_statistics[21020] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41102,7 +41632,9 @@ _G.pg.equip_data_statistics[21040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41238,7 +41770,9 @@ _G.pg.equip_data_statistics[21100] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41335,7 +41869,9 @@ _G.pg.equip_data_statistics[21120] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41432,7 +41968,9 @@ _G.pg.equip_data_statistics[21140] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41568,7 +42106,9 @@ _G.pg.equip_data_statistics[21160] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41745,7 +42285,9 @@ _G.pg.equip_data_statistics[21200] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41842,7 +42384,9 @@ _G.pg.equip_data_statistics[21220] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -41969,7 +42513,9 @@ _G.pg.equip_data_statistics[21240] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -42146,7 +42692,9 @@ _G.pg.equip_data_statistics[21300] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -42243,7 +42791,9 @@ _G.pg.equip_data_statistics[21320] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -42340,7 +42890,9 @@ _G.pg.equip_data_statistics[21340] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -42477,7 +43029,9 @@ _G.pg.equip_data_statistics[21400] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -42574,7 +43128,9 @@ _G.pg.equip_data_statistics[21420] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -42701,7 +43257,9 @@ _G.pg.equip_data_statistics[21440] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -42879,7 +43437,9 @@ _G.pg.equip_data_statistics[21460] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -43080,7 +43640,9 @@ _G.pg.equip_data_statistics[21500] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -43178,7 +43740,9 @@ _G.pg.equip_data_statistics[21520] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -43307,7 +43871,9 @@ _G.pg.equip_data_statistics[21540] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -43487,7 +44053,9 @@ _G.pg.equip_data_statistics[21600] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -48158,13 +48726,17 @@ _G.pg.equip_data_statistics[25000] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -48294,13 +48866,17 @@ _G.pg.equip_data_statistics[25020] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -48471,13 +49047,17 @@ _G.pg.equip_data_statistics[25040] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -49432,11 +50012,15 @@ _G.pg.equip_data_statistics[25800] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	part_sub = {
 		1,
-		2
+		2,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -49617,7 +50201,9 @@ _G.pg.equip_data_statistics[26000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -49630,7 +50216,9 @@ _G.pg.equip_data_statistics[26000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -49711,7 +50299,9 @@ _G.pg.equip_data_statistics[26020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -49724,7 +50314,9 @@ _G.pg.equip_data_statistics[26020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -49805,7 +50397,9 @@ _G.pg.equip_data_statistics[26040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -49818,7 +50412,9 @@ _G.pg.equip_data_statistics[26040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -49939,7 +50535,9 @@ _G.pg.equip_data_statistics[26060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -49952,7 +50550,9 @@ _G.pg.equip_data_statistics[26060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -50114,7 +50714,9 @@ _G.pg.equip_data_statistics[26100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -50127,7 +50729,9 @@ _G.pg.equip_data_statistics[26100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -50208,7 +50812,9 @@ _G.pg.equip_data_statistics[26120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -50221,7 +50827,9 @@ _G.pg.equip_data_statistics[26120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -50332,7 +50940,9 @@ _G.pg.equip_data_statistics[26140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -50345,7 +50955,9 @@ _G.pg.equip_data_statistics[26140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -50507,7 +51119,9 @@ _G.pg.equip_data_statistics[26200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -50520,7 +51134,9 @@ _G.pg.equip_data_statistics[26200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -50631,7 +51247,9 @@ _G.pg.equip_data_statistics[26220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -50644,7 +51262,9 @@ _G.pg.equip_data_statistics[26220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -50795,7 +51415,9 @@ _G.pg.equip_data_statistics[26240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -50808,7 +51430,9 @@ _G.pg.equip_data_statistics[26240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -50992,7 +51616,9 @@ _G.pg.equip_data_statistics[26300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51005,7 +51631,9 @@ _G.pg.equip_data_statistics[26300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -51086,7 +51714,9 @@ _G.pg.equip_data_statistics[26320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51099,7 +51729,9 @@ _G.pg.equip_data_statistics[26320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -51210,7 +51842,9 @@ _G.pg.equip_data_statistics[26340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51223,7 +51857,9 @@ _G.pg.equip_data_statistics[26340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -51385,7 +52021,9 @@ _G.pg.equip_data_statistics[26360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51398,7 +52036,9 @@ _G.pg.equip_data_statistics[26360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -51560,7 +52200,9 @@ _G.pg.equip_data_statistics[26400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51573,7 +52215,9 @@ _G.pg.equip_data_statistics[26400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -51654,7 +52298,9 @@ _G.pg.equip_data_statistics[26420] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51667,7 +52313,9 @@ _G.pg.equip_data_statistics[26420] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -51778,7 +52426,9 @@ _G.pg.equip_data_statistics[26440] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51791,7 +52441,9 @@ _G.pg.equip_data_statistics[26440] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -51953,7 +52605,9 @@ _G.pg.equip_data_statistics[26460] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -51966,7 +52620,9 @@ _G.pg.equip_data_statistics[26460] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -52128,7 +52784,9 @@ _G.pg.equip_data_statistics[26500] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -52141,7 +52799,9 @@ _G.pg.equip_data_statistics[26500] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -52252,7 +52912,9 @@ _G.pg.equip_data_statistics[26520] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -52265,7 +52927,9 @@ _G.pg.equip_data_statistics[26520] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -52416,7 +53080,9 @@ _G.pg.equip_data_statistics[26540] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -52429,7 +53095,9 @@ _G.pg.equip_data_statistics[26540] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -52614,7 +53282,9 @@ _G.pg.equip_data_statistics[26600] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -52627,7 +53297,9 @@ _G.pg.equip_data_statistics[26600] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -52812,7 +53484,9 @@ _G.pg.equip_data_statistics[26620] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -52825,7 +53499,9 @@ _G.pg.equip_data_statistics[26620] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -53010,7 +53686,9 @@ _G.pg.equip_data_statistics[26640] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -53023,7 +53701,9 @@ _G.pg.equip_data_statistics[26640] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -53207,7 +53887,9 @@ _G.pg.equip_data_statistics[26660] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -53220,7 +53902,9 @@ _G.pg.equip_data_statistics[26660] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -61152,7 +61836,9 @@ _G.pg.equip_data_statistics[31000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -61280,7 +61966,9 @@ _G.pg.equip_data_statistics[31020] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -61448,7 +62136,9 @@ _G.pg.equip_data_statistics[31040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -61648,7 +62338,9 @@ _G.pg.equip_data_statistics[31060] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -61825,7 +62517,9 @@ _G.pg.equip_data_statistics[31100] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -61922,7 +62616,9 @@ _G.pg.equip_data_statistics[31120] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -62019,7 +62715,9 @@ _G.pg.equip_data_statistics[31140] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -62156,7 +62854,9 @@ _G.pg.equip_data_statistics[31160] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -62294,7 +62994,9 @@ _G.pg.equip_data_statistics[31180] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -62472,7 +63174,9 @@ _G.pg.equip_data_statistics[31200] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -62569,7 +63273,9 @@ _G.pg.equip_data_statistics[31220] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -62696,7 +63402,9 @@ _G.pg.equip_data_statistics[31240] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -62876,7 +63584,9 @@ _G.pg.equip_data_statistics[31260] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -63013,7 +63723,9 @@ _G.pg.equip_data_statistics[31280] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -67837,13 +68549,17 @@ _G.pg.equip_data_statistics[35000] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -67933,13 +68649,17 @@ _G.pg.equip_data_statistics[35020] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -68029,13 +68749,17 @@ _G.pg.equip_data_statistics[35040] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -68165,13 +68889,17 @@ _G.pg.equip_data_statistics[35100] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -68261,13 +68989,17 @@ _G.pg.equip_data_statistics[35120] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -68387,13 +69119,17 @@ _G.pg.equip_data_statistics[35140] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -68564,13 +69300,17 @@ _G.pg.equip_data_statistics[35160] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -68741,13 +69481,17 @@ _G.pg.equip_data_statistics[35200] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -68867,13 +69611,17 @@ _G.pg.equip_data_statistics[35220] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -69033,13 +69781,17 @@ _G.pg.equip_data_statistics[35240] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -69232,13 +69984,17 @@ _G.pg.equip_data_statistics[35260] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -69431,13 +70187,17 @@ _G.pg.equip_data_statistics[35300] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -69597,13 +70357,17 @@ _G.pg.equip_data_statistics[35320] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -69763,13 +70527,17 @@ _G.pg.equip_data_statistics[35340] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -71373,7 +72141,9 @@ _G.pg.equip_data_statistics[36100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -71386,7 +72156,9 @@ _G.pg.equip_data_statistics[36100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -71467,7 +72239,9 @@ _G.pg.equip_data_statistics[36120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -71480,7 +72254,9 @@ _G.pg.equip_data_statistics[36120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -71561,7 +72337,9 @@ _G.pg.equip_data_statistics[36140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -71574,7 +72352,9 @@ _G.pg.equip_data_statistics[36140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -71695,7 +72475,9 @@ _G.pg.equip_data_statistics[36200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -71708,7 +72490,9 @@ _G.pg.equip_data_statistics[36200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -71789,7 +72573,9 @@ _G.pg.equip_data_statistics[36220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -71802,7 +72588,9 @@ _G.pg.equip_data_statistics[36220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -71913,7 +72701,9 @@ _G.pg.equip_data_statistics[36240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -71926,7 +72716,9 @@ _G.pg.equip_data_statistics[36240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -72088,7 +72880,9 @@ _G.pg.equip_data_statistics[36300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -72101,7 +72895,9 @@ _G.pg.equip_data_statistics[36300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -72182,7 +72978,9 @@ _G.pg.equip_data_statistics[36320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -72195,7 +72993,9 @@ _G.pg.equip_data_statistics[36320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -72306,7 +73106,9 @@ _G.pg.equip_data_statistics[36340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -72319,7 +73121,9 @@ _G.pg.equip_data_statistics[36340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -72481,7 +73285,9 @@ _G.pg.equip_data_statistics[36360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -72494,7 +73300,9 @@ _G.pg.equip_data_statistics[36360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -72678,7 +73486,9 @@ _G.pg.equip_data_statistics[36400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -72691,7 +73501,9 @@ _G.pg.equip_data_statistics[36400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -72772,7 +73584,9 @@ _G.pg.equip_data_statistics[36420] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -72785,7 +73599,9 @@ _G.pg.equip_data_statistics[36420] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -72896,7 +73712,9 @@ _G.pg.equip_data_statistics[36440] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -72909,7 +73727,9 @@ _G.pg.equip_data_statistics[36440] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -73071,7 +73891,9 @@ _G.pg.equip_data_statistics[36500] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -73084,7 +73906,9 @@ _G.pg.equip_data_statistics[36500] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -73165,7 +73989,9 @@ _G.pg.equip_data_statistics[36520] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -73178,7 +74004,9 @@ _G.pg.equip_data_statistics[36520] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -73289,7 +74117,9 @@ _G.pg.equip_data_statistics[36540] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -73302,7 +74132,9 @@ _G.pg.equip_data_statistics[36540] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -73464,7 +74296,9 @@ _G.pg.equip_data_statistics[36560] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -73477,7 +74311,9 @@ _G.pg.equip_data_statistics[36560] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -73661,7 +74497,9 @@ _G.pg.equip_data_statistics[36580] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -73674,7 +74512,9 @@ _G.pg.equip_data_statistics[36580] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -73836,7 +74676,9 @@ _G.pg.equip_data_statistics[36600] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -73849,7 +74691,9 @@ _G.pg.equip_data_statistics[36600] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -73930,7 +74774,9 @@ _G.pg.equip_data_statistics[36620] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -73943,7 +74789,9 @@ _G.pg.equip_data_statistics[36620] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -74054,7 +74902,9 @@ _G.pg.equip_data_statistics[36640] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -74067,7 +74917,9 @@ _G.pg.equip_data_statistics[36640] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -74229,7 +75081,9 @@ _G.pg.equip_data_statistics[36660] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -74242,7 +75096,9 @@ _G.pg.equip_data_statistics[36660] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -74426,7 +75282,9 @@ _G.pg.equip_data_statistics[36700] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -74439,7 +75297,9 @@ _G.pg.equip_data_statistics[36700] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -85027,7 +85887,9 @@ _G.pg.equip_data_statistics[41000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -85125,7 +85987,9 @@ _G.pg.equip_data_statistics[41020] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -85223,7 +86087,9 @@ _G.pg.equip_data_statistics[41040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -85361,7 +86227,9 @@ _G.pg.equip_data_statistics[41060] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -85542,7 +86410,9 @@ _G.pg.equip_data_statistics[41100] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -85642,7 +86512,9 @@ _G.pg.equip_data_statistics[41120] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -85772,7 +86644,9 @@ _G.pg.equip_data_statistics[41140] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -85953,7 +86827,9 @@ _G.pg.equip_data_statistics[41160] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -90356,13 +91232,17 @@ _G.pg.equip_data_statistics[45000] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -90452,13 +91332,17 @@ _G.pg.equip_data_statistics[45020] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -90578,13 +91462,17 @@ _G.pg.equip_data_statistics[45040] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -90755,13 +91643,17 @@ _G.pg.equip_data_statistics[45100] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -90881,13 +91773,17 @@ _G.pg.equip_data_statistics[45120] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -91047,13 +91943,17 @@ _G.pg.equip_data_statistics[45140] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -91246,13 +92146,17 @@ _G.pg.equip_data_statistics[45200] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -91412,13 +92316,17 @@ _G.pg.equip_data_statistics[45220] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -91578,13 +92486,17 @@ _G.pg.equip_data_statistics[45240] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -92628,7 +93540,9 @@ _G.pg.equip_data_statistics[46000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -92641,7 +93555,9 @@ _G.pg.equip_data_statistics[46000] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -92722,7 +93638,9 @@ _G.pg.equip_data_statistics[46020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -92735,7 +93653,9 @@ _G.pg.equip_data_statistics[46020] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -92816,7 +93736,9 @@ _G.pg.equip_data_statistics[46040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -92829,7 +93751,9 @@ _G.pg.equip_data_statistics[46040] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -92950,7 +93874,9 @@ _G.pg.equip_data_statistics[46060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -92963,7 +93889,9 @@ _G.pg.equip_data_statistics[46060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -93124,7 +94052,9 @@ _G.pg.equip_data_statistics[46100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -93137,7 +94067,9 @@ _G.pg.equip_data_statistics[46100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -93218,7 +94150,9 @@ _G.pg.equip_data_statistics[46120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -93231,7 +94165,9 @@ _G.pg.equip_data_statistics[46120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -93312,7 +94248,9 @@ _G.pg.equip_data_statistics[46140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -93325,7 +94263,9 @@ _G.pg.equip_data_statistics[46140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -93446,7 +94386,9 @@ _G.pg.equip_data_statistics[46200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -93459,7 +94401,9 @@ _G.pg.equip_data_statistics[46200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -93540,7 +94484,9 @@ _G.pg.equip_data_statistics[46220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -93553,7 +94499,9 @@ _G.pg.equip_data_statistics[46220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -93664,7 +94612,9 @@ _G.pg.equip_data_statistics[46240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -93677,7 +94627,9 @@ _G.pg.equip_data_statistics[46240] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -93839,7 +94791,9 @@ _G.pg.equip_data_statistics[46260] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -93852,7 +94806,9 @@ _G.pg.equip_data_statistics[46260] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -94014,7 +94970,9 @@ _G.pg.equip_data_statistics[46300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -94027,7 +94985,9 @@ _G.pg.equip_data_statistics[46300] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -94138,7 +95098,9 @@ _G.pg.equip_data_statistics[46320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -94151,7 +95113,9 @@ _G.pg.equip_data_statistics[46320] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -94302,7 +95266,9 @@ _G.pg.equip_data_statistics[46340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -94315,7 +95281,9 @@ _G.pg.equip_data_statistics[46340] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -94499,7 +95467,9 @@ _G.pg.equip_data_statistics[46360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -94512,7 +95482,9 @@ _G.pg.equip_data_statistics[46360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -99704,7 +100676,9 @@ _G.pg.equip_data_statistics[60231] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -99745,7 +100719,9 @@ _G.pg.equip_data_statistics[60232] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -99786,7 +100762,9 @@ _G.pg.equip_data_statistics[60233] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -101741,6 +102719,56 @@ _G.pg.equip_data_statistics[60713] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[60751] = {
+	type = 99,
+	name = "航空攻击展示-镇海I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "航母空袭展示用",
+	id = 60751,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60751
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[60752] = {
+	id = 60752,
+	name = "航空攻击展示-镇海II",
+	base = 60751,
+	weapon_id = {
+		60752
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[60753] = {
+	id = 60753,
+	name = "航空攻击展示-镇海II",
+	base = 60751,
+	weapon_id = {
+		60753
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[61007] = {
 	type = 1,
 	name = "约克城技能随机扫射海面LV1",
@@ -101767,7 +102795,9 @@ _G.pg.equip_data_statistics[61007] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -101828,7 +102858,9 @@ _G.pg.equip_data_statistics[61010] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -101889,7 +102921,9 @@ _G.pg.equip_data_statistics[61031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -101930,7 +102964,9 @@ _G.pg.equip_data_statistics[61041] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -101973,13 +103009,17 @@ _G.pg.equip_data_statistics[61051] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -102013,13 +103053,17 @@ _G.pg.equip_data_statistics[61052] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -102053,13 +103097,17 @@ _G.pg.equip_data_statistics[61053] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {}
@@ -102245,7 +103293,9 @@ _G.pg.equip_data_statistics[61506] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102286,7 +103336,9 @@ _G.pg.equip_data_statistics[61507] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102327,7 +103379,9 @@ _G.pg.equip_data_statistics[61508] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102368,7 +103422,9 @@ _G.pg.equip_data_statistics[61509] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102409,7 +103465,9 @@ _G.pg.equip_data_statistics[61510] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102450,7 +103508,9 @@ _G.pg.equip_data_statistics[66200] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102491,7 +103551,9 @@ _G.pg.equip_data_statistics[66220] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102532,7 +103594,9 @@ _G.pg.equip_data_statistics[70011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102583,7 +103647,9 @@ _G.pg.equip_data_statistics[70021] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102634,7 +103700,9 @@ _G.pg.equip_data_statistics[70031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102685,7 +103753,9 @@ _G.pg.equip_data_statistics[70041] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102736,7 +103806,9 @@ _G.pg.equip_data_statistics[70051] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102787,7 +103859,9 @@ _G.pg.equip_data_statistics[70061] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102838,7 +103912,9 @@ _G.pg.equip_data_statistics[70071] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102889,7 +103965,9 @@ _G.pg.equip_data_statistics[70081] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102940,7 +104018,9 @@ _G.pg.equip_data_statistics[70111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -102991,7 +104071,9 @@ _G.pg.equip_data_statistics[70121] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103042,7 +104124,9 @@ _G.pg.equip_data_statistics[70131] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103093,7 +104177,9 @@ _G.pg.equip_data_statistics[70141] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103144,7 +104230,9 @@ _G.pg.equip_data_statistics[70211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103195,7 +104283,9 @@ _G.pg.equip_data_statistics[70221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103246,7 +104336,9 @@ _G.pg.equip_data_statistics[70231] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103297,7 +104389,9 @@ _G.pg.equip_data_statistics[70241] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103348,7 +104442,9 @@ _G.pg.equip_data_statistics[70251] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103399,7 +104495,9 @@ _G.pg.equip_data_statistics[70261] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103450,7 +104548,9 @@ _G.pg.equip_data_statistics[70271] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103501,7 +104601,9 @@ _G.pg.equip_data_statistics[70311] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103552,7 +104654,9 @@ _G.pg.equip_data_statistics[70321] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103603,7 +104707,9 @@ _G.pg.equip_data_statistics[71011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103654,7 +104760,9 @@ _G.pg.equip_data_statistics[71021] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103705,7 +104813,9 @@ _G.pg.equip_data_statistics[71031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103756,7 +104866,9 @@ _G.pg.equip_data_statistics[71041] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103807,7 +104919,9 @@ _G.pg.equip_data_statistics[71051] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103858,7 +104972,9 @@ _G.pg.equip_data_statistics[71061] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103909,7 +105025,9 @@ _G.pg.equip_data_statistics[71026] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -103960,7 +105078,9 @@ _G.pg.equip_data_statistics[71071] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104011,7 +105131,9 @@ _G.pg.equip_data_statistics[71081] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104062,7 +105184,9 @@ _G.pg.equip_data_statistics[71091] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104113,7 +105237,9 @@ _G.pg.equip_data_statistics[71016] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104164,7 +105290,9 @@ _G.pg.equip_data_statistics[71111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104215,7 +105343,9 @@ _G.pg.equip_data_statistics[71121] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104266,7 +105396,9 @@ _G.pg.equip_data_statistics[71131] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104317,7 +105449,9 @@ _G.pg.equip_data_statistics[71141] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104368,7 +105502,9 @@ _G.pg.equip_data_statistics[71151] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104419,7 +105555,9 @@ _G.pg.equip_data_statistics[71161] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104470,7 +105608,9 @@ _G.pg.equip_data_statistics[71171] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104521,7 +105661,9 @@ _G.pg.equip_data_statistics[71181] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104572,7 +105714,9 @@ _G.pg.equip_data_statistics[71211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104623,7 +105767,9 @@ _G.pg.equip_data_statistics[71221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104674,7 +105820,9 @@ _G.pg.equip_data_statistics[71231] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104725,7 +105873,9 @@ _G.pg.equip_data_statistics[71241] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104776,7 +105926,9 @@ _G.pg.equip_data_statistics[72011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104827,7 +105979,9 @@ _G.pg.equip_data_statistics[72021] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104878,7 +106032,9 @@ _G.pg.equip_data_statistics[72031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104929,7 +106085,9 @@ _G.pg.equip_data_statistics[72041] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -104980,7 +106138,9 @@ _G.pg.equip_data_statistics[72051] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105031,7 +106191,9 @@ _G.pg.equip_data_statistics[72056] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105082,7 +106244,9 @@ _G.pg.equip_data_statistics[72061] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105133,7 +106297,9 @@ _G.pg.equip_data_statistics[72071] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105184,7 +106350,9 @@ _G.pg.equip_data_statistics[72081] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105235,7 +106403,9 @@ _G.pg.equip_data_statistics[72091] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105286,7 +106456,9 @@ _G.pg.equip_data_statistics[72111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105337,7 +106509,9 @@ _G.pg.equip_data_statistics[72121] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105388,7 +106562,9 @@ _G.pg.equip_data_statistics[72131] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105439,7 +106615,9 @@ _G.pg.equip_data_statistics[72141] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105490,7 +106668,9 @@ _G.pg.equip_data_statistics[72151] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105541,7 +106721,9 @@ _G.pg.equip_data_statistics[72161] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105592,7 +106774,9 @@ _G.pg.equip_data_statistics[72211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105643,7 +106827,9 @@ _G.pg.equip_data_statistics[72221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105694,7 +106880,9 @@ _G.pg.equip_data_statistics[72231] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105745,7 +106933,9 @@ _G.pg.equip_data_statistics[72241] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105796,7 +106986,9 @@ _G.pg.equip_data_statistics[72251] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105887,7 +107079,9 @@ _G.pg.equip_data_statistics[72261] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105938,7 +107132,9 @@ _G.pg.equip_data_statistics[72271] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -105989,7 +107185,9 @@ _G.pg.equip_data_statistics[72311] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106040,7 +107238,9 @@ _G.pg.equip_data_statistics[72411] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106091,7 +107291,9 @@ _G.pg.equip_data_statistics[73011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106142,7 +107344,9 @@ _G.pg.equip_data_statistics[73031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106193,7 +107397,9 @@ _G.pg.equip_data_statistics[73041] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106244,7 +107450,9 @@ _G.pg.equip_data_statistics[73051] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106295,7 +107503,9 @@ _G.pg.equip_data_statistics[73111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106346,7 +107556,9 @@ _G.pg.equip_data_statistics[73121] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106397,7 +107609,9 @@ _G.pg.equip_data_statistics[73211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106448,7 +107662,9 @@ _G.pg.equip_data_statistics[73221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106499,7 +107715,9 @@ _G.pg.equip_data_statistics[73231] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106550,7 +107768,9 @@ _G.pg.equip_data_statistics[73311] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106601,7 +107821,9 @@ _G.pg.equip_data_statistics[73321] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106652,7 +107874,9 @@ _G.pg.equip_data_statistics[73411] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106703,7 +107927,9 @@ _G.pg.equip_data_statistics[73511] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106754,7 +107980,9 @@ _G.pg.equip_data_statistics[74011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106777,6 +108005,92 @@ _G.pg.equip_data_statistics[74012] = {
 		74012
 	},
 	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[74023] = {
+	type = 1,
+	name = "全弹发射-青龙III",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 74023,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		74023
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[74043] = {
+	type = 1,
+	name = "全弹发射-白虎III",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 74043,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		74043
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
 }
 
 _G.pg.equip_data_statistics[74111] = {
@@ -106805,7 +108119,9 @@ _G.pg.equip_data_statistics[74111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106856,7 +108172,9 @@ _G.pg.equip_data_statistics[74121] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106907,7 +108225,9 @@ _G.pg.equip_data_statistics[74131] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -106928,6 +108248,59 @@ _G.pg.equip_data_statistics[74132] = {
 	base = 74131,
 	weapon_id = {
 		74132
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[74141] = {
+	type = 1,
+	name = "全弹发射-海天级I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 74141,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		74141
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[74142] = {
+	id = 74142,
+	name = "全弹发射-海天级II",
+	base = 74141,
+	weapon_id = {
+		74142
 	},
 	hidden_skill_id = {}
 }
@@ -106958,7 +108331,9 @@ _G.pg.equip_data_statistics[75011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107009,7 +108384,9 @@ _G.pg.equip_data_statistics[75021] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107060,7 +108437,9 @@ _G.pg.equip_data_statistics[75031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107111,7 +108490,9 @@ _G.pg.equip_data_statistics[75041] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107162,7 +108543,9 @@ _G.pg.equip_data_statistics[75211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107213,7 +108596,9 @@ _G.pg.equip_data_statistics[75221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107264,7 +108649,9 @@ _G.pg.equip_data_statistics[75511] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107315,7 +108702,9 @@ _G.pg.equip_data_statistics[76011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107366,7 +108755,9 @@ _G.pg.equip_data_statistics[76021] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107417,7 +108808,9 @@ _G.pg.equip_data_statistics[76111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107468,7 +108861,9 @@ _G.pg.equip_data_statistics[78011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107519,7 +108914,9 @@ _G.pg.equip_data_statistics[78021] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107570,7 +108967,9 @@ _G.pg.equip_data_statistics[78031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107621,7 +109020,9 @@ _G.pg.equip_data_statistics[78111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107672,7 +109073,9 @@ _G.pg.equip_data_statistics[78121] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107723,7 +109126,9 @@ _G.pg.equip_data_statistics[78211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107774,7 +109179,9 @@ _G.pg.equip_data_statistics[78221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107825,7 +109232,9 @@ _G.pg.equip_data_statistics[79011] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107876,7 +109285,9 @@ _G.pg.equip_data_statistics[79021] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107927,7 +109338,9 @@ _G.pg.equip_data_statistics[79031] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -107978,7 +109391,9 @@ _G.pg.equip_data_statistics[79041] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108029,7 +109444,9 @@ _G.pg.equip_data_statistics[79051] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108080,7 +109497,9 @@ _G.pg.equip_data_statistics[79061] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108131,7 +109550,9 @@ _G.pg.equip_data_statistics[79071] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108182,7 +109603,9 @@ _G.pg.equip_data_statistics[79081] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108233,7 +109656,9 @@ _G.pg.equip_data_statistics[79091] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108284,7 +109709,9 @@ _G.pg.equip_data_statistics[79101] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108335,7 +109762,9 @@ _G.pg.equip_data_statistics[79111] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108386,7 +109815,9 @@ _G.pg.equip_data_statistics[79121] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108437,7 +109868,9 @@ _G.pg.equip_data_statistics[79131] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108488,7 +109921,9 @@ _G.pg.equip_data_statistics[79141] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108539,7 +109974,9 @@ _G.pg.equip_data_statistics[79151] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108590,7 +110027,9 @@ _G.pg.equip_data_statistics[79161] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108641,7 +110080,9 @@ _G.pg.equip_data_statistics[79171] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108692,7 +110133,9 @@ _G.pg.equip_data_statistics[79181] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108743,7 +110186,9 @@ _G.pg.equip_data_statistics[79191] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108794,7 +110239,9 @@ _G.pg.equip_data_statistics[79201] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108845,7 +110292,9 @@ _G.pg.equip_data_statistics[79211] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108896,7 +110345,9 @@ _G.pg.equip_data_statistics[79221] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108947,7 +110398,9 @@ _G.pg.equip_data_statistics[79231] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -108998,7 +110451,9 @@ _G.pg.equip_data_statistics[79241] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109049,7 +110504,9 @@ _G.pg.equip_data_statistics[79251] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109100,7 +110557,9 @@ _G.pg.equip_data_statistics[79261] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109151,7 +110610,9 @@ _G.pg.equip_data_statistics[79271] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109202,7 +110663,9 @@ _G.pg.equip_data_statistics[79291] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109253,7 +110716,9 @@ _G.pg.equip_data_statistics[79301] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109304,7 +110769,9 @@ _G.pg.equip_data_statistics[79311] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109355,7 +110822,9 @@ _G.pg.equip_data_statistics[79321] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109406,7 +110875,9 @@ _G.pg.equip_data_statistics[79331] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109457,7 +110928,9 @@ _G.pg.equip_data_statistics[79341] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109508,7 +110981,9 @@ _G.pg.equip_data_statistics[79361] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109559,7 +111034,9 @@ _G.pg.equip_data_statistics[79371] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109610,7 +111087,9 @@ _G.pg.equip_data_statistics[79381] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109661,7 +111140,9 @@ _G.pg.equip_data_statistics[79383] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109712,7 +111193,9 @@ _G.pg.equip_data_statistics[79391] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109763,7 +111246,9 @@ _G.pg.equip_data_statistics[79401] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109814,7 +111299,9 @@ _G.pg.equip_data_statistics[79411] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109865,7 +111352,9 @@ _G.pg.equip_data_statistics[79421] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109916,7 +111405,9 @@ _G.pg.equip_data_statistics[79431] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -109967,7 +111458,9 @@ _G.pg.equip_data_statistics[79441] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110018,7 +111511,9 @@ _G.pg.equip_data_statistics[79451] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110069,7 +111564,9 @@ _G.pg.equip_data_statistics[79461] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110120,7 +111617,9 @@ _G.pg.equip_data_statistics[79471] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110171,7 +111670,9 @@ _G.pg.equip_data_statistics[79481] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110222,7 +111723,9 @@ _G.pg.equip_data_statistics[79491] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110273,7 +111776,9 @@ _G.pg.equip_data_statistics[79501] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110324,7 +111829,9 @@ _G.pg.equip_data_statistics[79511] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110375,7 +111882,9 @@ _G.pg.equip_data_statistics[79521] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110426,7 +111935,9 @@ _G.pg.equip_data_statistics[79541] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110476,7 +111987,9 @@ _G.pg.equip_data_statistics[79551] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110526,7 +112039,9 @@ _G.pg.equip_data_statistics[79561] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110576,7 +112091,9 @@ _G.pg.equip_data_statistics[79571] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110627,7 +112144,9 @@ _G.pg.equip_data_statistics[79581] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110677,7 +112196,9 @@ _G.pg.equip_data_statistics[79591] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110728,7 +112249,9 @@ _G.pg.equip_data_statistics[79601] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110779,7 +112302,9 @@ _G.pg.equip_data_statistics[79611] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110830,7 +112355,9 @@ _G.pg.equip_data_statistics[79621] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110881,7 +112408,9 @@ _G.pg.equip_data_statistics[79631] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110932,7 +112461,9 @@ _G.pg.equip_data_statistics[79641] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -110983,7 +112514,9 @@ _G.pg.equip_data_statistics[79651] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111034,7 +112567,9 @@ _G.pg.equip_data_statistics[79661] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111084,7 +112619,9 @@ _G.pg.equip_data_statistics[79671] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		1
+		1,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111135,7 +112672,9 @@ _G.pg.equip_data_statistics[79681] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111186,7 +112725,9 @@ _G.pg.equip_data_statistics[79691] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111237,7 +112778,9 @@ _G.pg.equip_data_statistics[79701] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111288,7 +112831,9 @@ _G.pg.equip_data_statistics[79711] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111339,7 +112884,9 @@ _G.pg.equip_data_statistics[79721] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111390,7 +112937,9 @@ _G.pg.equip_data_statistics[79731] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111441,7 +112990,9 @@ _G.pg.equip_data_statistics[79741] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111492,7 +113043,9 @@ _G.pg.equip_data_statistics[79751] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111543,7 +113096,9 @@ _G.pg.equip_data_statistics[79761] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111594,7 +113149,9 @@ _G.pg.equip_data_statistics[79771] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111645,7 +113202,9 @@ _G.pg.equip_data_statistics[79781] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111696,7 +113255,9 @@ _G.pg.equip_data_statistics[79791] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111717,6 +113278,112 @@ _G.pg.equip_data_statistics[79792] = {
 	base = 79791,
 	weapon_id = {
 		60742
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[79801] = {
+	type = 1,
+	name = "专属弹幕-卡律布狄斯I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79801,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		79801
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[79802] = {
+	id = 79802,
+	name = "专属弹幕-卡律布狄斯II",
+	base = 79801,
+	weapon_id = {
+		79802
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[79811] = {
+	type = 1,
+	name = "专属弹幕-布里斯托尔I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79811,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60761
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[79812] = {
+	id = 79812,
+	name = "专属弹幕-布里斯托尔II",
+	base = 79811,
+	weapon_id = {
+		60762
 	},
 	hidden_skill_id = {}
 }
@@ -111770,7 +113437,9 @@ _G.pg.equip_data_statistics[85000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -111897,7 +113566,9 @@ _G.pg.equip_data_statistics[85040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -112089,7 +113760,9 @@ _G.pg.equip_data_statistics[85060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -112102,7 +113775,9 @@ _G.pg.equip_data_statistics[85060] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -112688,7 +114363,9 @@ _G.pg.equip_data_statistics[85180] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -112701,7 +114378,9 @@ _G.pg.equip_data_statistics[85180] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -112782,7 +114461,9 @@ _G.pg.equip_data_statistics[85200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -112795,7 +114476,9 @@ _G.pg.equip_data_statistics[85200] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -112906,7 +114589,9 @@ _G.pg.equip_data_statistics[85220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -112919,7 +114604,9 @@ _G.pg.equip_data_statistics[85220] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -113081,7 +114768,9 @@ _G.pg.equip_data_statistics[85260] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -113094,7 +114783,9 @@ _G.pg.equip_data_statistics[85260] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -113205,7 +114896,9 @@ _G.pg.equip_data_statistics[85280] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -113218,7 +114911,9 @@ _G.pg.equip_data_statistics[85280] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -113649,7 +115344,9 @@ _G.pg.equip_data_statistics[85360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -113662,7 +115359,9 @@ _G.pg.equip_data_statistics[85360] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -113743,7 +115442,9 @@ _G.pg.equip_data_statistics[85380] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -113756,7 +115457,9 @@ _G.pg.equip_data_statistics[85380] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -113867,7 +115570,9 @@ _G.pg.equip_data_statistics[85400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -113880,7 +115585,9 @@ _G.pg.equip_data_statistics[85400] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -117465,7 +119172,9 @@ _G.pg.equip_data_statistics[90000] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -117562,7 +119271,9 @@ _G.pg.equip_data_statistics[90020] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -117660,7 +119371,9 @@ _G.pg.equip_data_statistics[90040] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -117798,7 +119511,9 @@ _G.pg.equip_data_statistics[90100] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -117925,7 +119640,9 @@ _G.pg.equip_data_statistics[90120] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -118094,7 +119811,9 @@ _G.pg.equip_data_statistics[90140] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -119431,7 +121150,9 @@ _G.pg.equip_data_statistics[90500] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -119520,7 +121241,9 @@ _G.pg.equip_data_statistics[90600] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -119533,7 +121256,9 @@ _G.pg.equip_data_statistics[90600] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -119725,7 +121450,9 @@ _G.pg.equip_data_statistics[90700] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -119822,7 +121549,9 @@ _G.pg.equip_data_statistics[90720] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -119950,7 +121679,9 @@ _G.pg.equip_data_statistics[90740] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -121449,6 +123180,366 @@ _G.pg.equip_data_statistics[91103] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[91180] = {
+	rarity = 3,
+	name = "FBA 19",
+	speciality = "轰炸",
+	type = 12,
+	tech = 2,
+	ammo = 5,
+	nationality = 8,
+	descrip = "FBA 19水上机",
+	id = 91180,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 12,
+	icon = "51160",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			5,
+			52200
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		91180
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		10,
+		17
+	},
+	part_sub = {
+		6,
+		10,
+		17
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"ST",
+		"SCOUT"
+	}
+}
+
+_G.pg.equip_data_statistics[91181] = {
+	id = 91181,
+	base = 91180,
+	ammo_info = {
+		{
+			5,
+			52201
+		}
+	},
+	weapon_id = {
+		91181
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91182] = {
+	id = 91182,
+	base = 91180,
+	ammo_info = {
+		{
+			5,
+			52202
+		}
+	},
+	weapon_id = {
+		91182
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91183] = {
+	id = 91183,
+	base = 91180,
+	ammo_info = {
+		{
+			5,
+			52203
+		}
+	},
+	weapon_id = {
+		91183
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91184] = {
+	id = 91184,
+	base = 91180,
+	ammo_info = {
+		{
+			5,
+			52204
+		}
+	},
+	weapon_id = {
+		91184
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91185] = {
+	id = 91185,
+	base = 91180,
+	ammo_info = {
+		{
+			5,
+			52205
+		}
+	},
+	weapon_id = {
+		91185
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91186] = {
+	id = 91186,
+	base = 91180,
+	ammo_info = {
+		{
+			5,
+			52206
+		}
+	},
+	weapon_id = {
+		91186
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91200] = {
+	rarity = 4,
+	name = "FBA 19",
+	speciality = "轰炸",
+	type = 12,
+	tech = 3,
+	ammo = 5,
+	nationality = 8,
+	descrip = "FBA 19水上机",
+	id = 91200,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "51160",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			5,
+			52220
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		91200
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		10,
+		17
+	},
+	part_sub = {
+		6,
+		10,
+		17
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"ST",
+		"SCOUT"
+	}
+}
+
+_G.pg.equip_data_statistics[91201] = {
+	id = 91201,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52221
+		}
+	},
+	weapon_id = {
+		91201
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91202] = {
+	id = 91202,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52222
+		}
+	},
+	weapon_id = {
+		91202
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91203] = {
+	id = 91203,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52223
+		}
+	},
+	weapon_id = {
+		91203
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91204] = {
+	id = 91204,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52224
+		}
+	},
+	weapon_id = {
+		91204
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91205] = {
+	id = 91205,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52225
+		}
+	},
+	weapon_id = {
+		91205
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91206] = {
+	id = 91206,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52226
+		}
+	},
+	weapon_id = {
+		91206
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91207] = {
+	id = 91207,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52227
+		}
+	},
+	weapon_id = {
+		91207
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91208] = {
+	id = 91208,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52228
+		}
+	},
+	weapon_id = {
+		91208
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91209] = {
+	id = 91209,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52229
+		}
+	},
+	weapon_id = {
+		91209
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91210] = {
+	id = 91210,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52230
+		}
+	},
+	weapon_id = {
+		91210
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91211] = {
+	id = 91211,
+	anti_siren = 100,
+	base = 91200,
+	ammo_info = {
+		{
+			5,
+			52231
+		}
+	},
+	weapon_id = {
+		91211
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[95000] = {
 	tech = 1,
 	name = "三联装381mm主炮Model1934",
@@ -121949,7 +124040,9 @@ _G.pg.equip_data_statistics[95100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -121962,7 +124055,9 @@ _G.pg.equip_data_statistics[95100] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -122073,7 +124168,9 @@ _G.pg.equip_data_statistics[95120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -122086,7 +124183,9 @@ _G.pg.equip_data_statistics[95120] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -122237,7 +124336,9 @@ _G.pg.equip_data_statistics[95140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -122250,7 +124351,9 @@ _G.pg.equip_data_statistics[95140] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -122434,7 +124537,9 @@ _G.pg.equip_data_statistics[95160] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -122447,7 +124552,9 @@ _G.pg.equip_data_statistics[95160] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -123498,7 +125605,9 @@ _G.pg.equip_data_statistics[95400] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -123596,7 +125705,9 @@ _G.pg.equip_data_statistics[95420] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -123724,7 +125835,9 @@ _G.pg.equip_data_statistics[95440] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -123904,7 +126017,9 @@ _G.pg.equip_data_statistics[95460] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -124158,7 +126273,9 @@ _G.pg.equip_data_statistics[95500] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -124171,7 +126288,9 @@ _G.pg.equip_data_statistics[95500] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -124252,7 +126371,9 @@ _G.pg.equip_data_statistics[95520] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -124265,7 +126386,9 @@ _G.pg.equip_data_statistics[95520] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -124376,7 +126499,9 @@ _G.pg.equip_data_statistics[95540] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		1,
@@ -124389,7 +126514,9 @@ _G.pg.equip_data_statistics[95540] = {
 		12,
 		13,
 		18,
-		19
+		19,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -124559,7 +126686,9 @@ _G.pg.equip_data_statistics[95560] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -126458,6 +128587,211 @@ _G.pg.equip_data_statistics[95913] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[96000] = {
+	tech = 0,
+	name = "上游-1",
+	speciality = "制导",
+	type = 20,
+	descrip = "上游-1导弹",
+	ammo = 11,
+	damage = "100 x 4",
+	nationality = 5,
+	rarity = 5,
+	id = 96000,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "56000",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			9,
+			2400
+		},
+		{
+			10,
+			2401
+		}
+	},
+	equip_info = {
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		96000,
+		96020
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"PRAN",
+		"DD",
+		"WP",
+		"QUAD"
+	}
+}
+
+_G.pg.equip_data_statistics[96001] = {
+	id = 96001,
+	damage = "110 x 4",
+	base = 96000,
+	weapon_id = {
+		96001,
+		96021
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96002] = {
+	id = 96002,
+	damage = "120 x 4",
+	base = 96000,
+	weapon_id = {
+		96002,
+		96022
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96003] = {
+	id = 96003,
+	damage = "138 x 4",
+	base = 96000,
+	weapon_id = {
+		96003,
+		96023
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96004] = {
+	id = 96004,
+	damage = "156 x 4",
+	base = 96000,
+	weapon_id = {
+		96004,
+		96024
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96005] = {
+	id = 96005,
+	damage = "176 x 4",
+	base = 96000,
+	weapon_id = {
+		96005,
+		96025
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96006] = {
+	id = 96006,
+	damage = "192 x 4",
+	base = 96000,
+	weapon_id = {
+		96006,
+		96026
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96007] = {
+	id = 96007,
+	damage = "210 x 4",
+	base = 96000,
+	weapon_id = {
+		96007,
+		96027
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96008] = {
+	id = 96008,
+	damage = "228 x 4",
+	base = 96000,
+	weapon_id = {
+		96008,
+		96028
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96009] = {
+	id = 96009,
+	damage = "246 x 4",
+	base = 96000,
+	weapon_id = {
+		96009,
+		96029
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96010] = {
+	id = 96010,
+	damage = "264 x 4",
+	base = 96000,
+	weapon_id = {
+		96010,
+		96030
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96011] = {
+	id = 96011,
+	anti_siren = 100,
+	damage = "264 x 4",
+	base = 96000,
+	weapon_id = {
+		96011,
+		96031
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96012] = {
+	id = 96012,
+	anti_siren = 200,
+	damage = "264 x 4",
+	base = 96000,
+	weapon_id = {
+		96012,
+		96032
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[96013] = {
+	id = 96013,
+	anti_siren = 300,
+	damage = "264 x 4",
+	base = 96000,
+	weapon_id = {
+		96013,
+		96033
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[100000] = {
 	type = 0,
 	name = "装备模板",
@@ -126934,7 +129268,9 @@ _G.pg.equip_data_statistics[650602] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -126985,13 +129321,17 @@ _G.pg.equip_data_statistics[650603] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -127217,13 +129557,17 @@ _G.pg.equip_data_statistics[800100] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -127283,13 +129627,17 @@ _G.pg.equip_data_statistics[800101] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -127411,7 +129759,9 @@ _G.pg.equip_data_statistics[820850] = {
 	hidden_skill_id = {},
 	part_main = {
 		1,
-		19
+		19,
+		20,
+		21
 	},
 	part_sub = {
 		2,
@@ -127654,13 +130004,17 @@ _G.pg.equip_data_statistics[820854] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -127718,13 +130072,17 @@ _G.pg.equip_data_statistics[820855] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {
@@ -127837,13 +130195,17 @@ _G.pg.equip_data_statistics[820857] = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	part_sub = {
 		1,
 		2,
 		3,
-		18
+		18,
+		20,
+		21
 	},
 	equip_parameters = {},
 	label = {

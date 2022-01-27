@@ -397,7 +397,11 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateEntrances()
 		end
 	elseif slot2 == GAME.MONOPOLY_AWARD_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
+		if slot0.viewComponent.pageDic[slot0.viewComponent.activity.id] and slot4.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and slot4.onAward then
+			slot4:onAward(slot3.awards, slot3.callback)
+		else
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
+		end
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
 		seriesAsync({
 			function (slot0)

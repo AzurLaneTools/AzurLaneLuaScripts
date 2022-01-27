@@ -3,6 +3,7 @@ slot0.EQUIPMENT_STATE_LOCK = 1
 slot0.EQUIPMENT_STATE_EMPTY = 0
 slot0.EQUIPMENT_NORMAL = 1
 slot0.EQUIPMENT_IMPORTANCE = 2
+slot1 = pg.equip_skin_template
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
@@ -84,7 +85,7 @@ function slot0.GetInfoTrans(slot0, slot1)
 	return slot2 or AttributeType.Type2Name(slot0.type), slot3 or "", slot4 and slot1 and table.contains(slot1:getSpecificType(), ShipType.SpecificTypeTable.auxiliary)
 end
 
-function slot1(slot0)
+function slot2(slot0)
 	if string.match(slot0, i18n("word_secondseach")) then
 		slot0 = string.gsub(slot0, i18n("word_secondseach"), "")
 	end
@@ -237,19 +238,16 @@ function slot0.GetPropertiesInfo(slot0)
 end
 
 function slot0.GetWeaponPageInfo(slot0, slot1, slot2)
-	slot3 = {
-		sub = {}
-	}
+	slot3 = nil
 	slot5 = pg.equip_bullet_type[slot1].exhibition_type == 2
 
 	for slot9, slot10 in ipairs(slot4.exhibition_list) do
-		table.insert(slot3.sub, slot0:GetWeaponInfo(slot10, slot2, slot5))
+		if not slot3 then
+			slot0:GetWeaponInfo(slot10, slot2, slot5).sub = {}
+		else
+			table.insert(slot3.sub, slot0:GetWeaponInfo(slot10, slot2, slot5, index))
+		end
 	end
-
-	slot6 = table.remove(slot3.sub, 1)
-	slot3.name = slot6.name
-	slot3.type = slot6.type
-	slot3.value = slot6.value
 
 	return slot3
 end
@@ -325,7 +323,7 @@ function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot2 = {
+slot3 = {
 	nil,
 	nil,
 	true,
@@ -544,6 +542,22 @@ end
 
 function slot0.getSkinId(slot0)
 	return slot0.skinId
+end
+
+function slot0.hasSkinOrbit(slot0)
+	if not slot0:hasSkin() then
+		return false
+	end
+
+	return uv0.IsOrbitSkin(slot0.skinId)
+end
+
+function slot0.IsOrbitSkin(slot0)
+	if uv0[slot0].orbit_combat ~= "" or slot1.orbit_ui ~= "" then
+		return true
+	else
+		return false
+	end
 end
 
 function slot0.isImportance(slot0)

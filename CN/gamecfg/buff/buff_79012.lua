@@ -31,6 +31,16 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "damageRatioBullet",
+				number = -0.15
+			}
+		},
+		{
 			type = "BattleBuffCastSkill",
 			trigger = {
 				"onAttach"

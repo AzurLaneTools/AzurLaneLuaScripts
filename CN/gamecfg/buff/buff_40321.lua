@@ -24,7 +24,8 @@ return {
 					"TargetShipType"
 				},
 				ship_type_list = {
-					1
+					1,
+					20
 				}
 			}
 		}

@@ -11,7 +11,9 @@ pg.commander_skill_effect_template = {
 			{
 				"count",
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				3
@@ -206,7 +208,9 @@ pg.commander_skill_effect_template = {
 			{
 				"count",
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				3
@@ -228,7 +232,9 @@ pg.commander_skill_effect_template = {
 			{
 				"count",
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				3
@@ -251,7 +257,9 @@ pg.commander_skill_effect_template = {
 			{
 				"count",
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				3
@@ -321,7 +329,9 @@ pg.commander_skill_effect_template = {
 			{
 				"count",
 				{
-					1
+					1,
+					20,
+					21
 				},
 				1,
 				3
@@ -1036,7 +1046,8 @@ pg.commander_skill_effect_template = {
 			{
 				"count",
 				{
-					1
+					1,
+					20
 				},
 				1,
 				1
@@ -1486,7 +1497,9 @@ pg.commander_skill_effect_template = {
 			{
 				"count",
 				{
-					1
+					1,
+					20,
+					21
 				},
 				3,
 				3

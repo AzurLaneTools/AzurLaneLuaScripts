@@ -22,7 +22,7 @@ end
 
 function slot1.SetJam(slot0, slot1)
 	SetActive(slot0._jam, slot1)
-	SetActive(slot0._icon, not slot1)
+	SetActive(slot0._currentIcon, not slot1)
 	SetActive(slot0._progress, not slot1)
 end
 
@@ -33,12 +33,15 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot0._progress = slot1:Find("ActCtl/skill_progress")
 	slot0._progressBar = slot0._progress:GetComponent(typeof(Image))
 	slot0._icon = slot1:Find("ActCtl/skill_icon")
+	slot0._filled = slot0._icon:Find("filled")
+	slot0._unfill = slot0._icon:Find("unfill")
+	slot0._currentIcon = slot0._icon
+	slot0._currentFilled = slot0._filled
+	slot0._currentUnfilled = slot0._unfill
 	slot0._text = slot1:Find("ActCtl/Count/CountText")
 	slot0._selected = slot1:Find("ActCtl/selected")
 	slot0._unSelect = slot1:Find("ActCtl/unselect")
 	slot0._filledEffect = slot1:Find("ActCtl/filledEffect")
-	slot0._filled = slot0._icon:Find("filled")
-	slot0._unfill = slot0._icon:Find("unfill")
 	slot0._jam = slot1:Find("ActCtl/jam")
 	slot0._countTxt = slot0._text:GetComponent(typeof(Text))
 
@@ -52,6 +55,23 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot2:SetActive(false)
 	slot2:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 		SetActive(uv0._filledEffect, false)
+	end)
+
+	if slot0._skin:Find("ActCtl/skill_icon_switch") then
+		slot0:initSubIcon()
+	end
+end
+
+function slot1.initSubIcon(slot0)
+	slot0._subIcon = slot0._skin:Find("ActCtl/skill_icon_switch")
+	slot0._subFilled = slot0._subIcon:Find("filled")
+	slot0._subUnfill = slot0._subIcon:Find("unfill")
+	slot0._subFilledFX = slot0._skin:Find("ActCtl/subFilledEffect")
+	slot1 = slot0._subFilledFX.gameObject
+
+	slot1:SetActive(false)
+	slot1:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+		SetActive(uv0._subFilledFX, false)
 	end)
 end
 
@@ -90,12 +110,16 @@ function slot1.OnUnSelect(slot0)
 end
 
 function slot1.OnFilled(slot0)
-	SetActive(slot0._filled, true)
-	SetActive(slot0._unfill, false)
+	SetActive(slot0._currentFilled, true)
+	SetActive(slot0._currentUnfilled, false)
 end
 
 function slot1.OnfilledEffect(slot0)
-	SetActive(slot0._filledEffect, true)
+	if slot0._progressInfo:IsMainType() then
+		SetActive(slot0._filledEffect, true)
+	else
+		SetActive(slot0._subFilledFX, true)
+	end
 end
 
 function slot1.OnOverLoadChange(slot0)
@@ -107,12 +131,14 @@ function slot1.OnOverLoadChange(slot0)
 		slot0:OnFilled()
 	end
 
-	slot0:updateProgressBar()
+	if slot0._progressInfo:GetTotal() > 0 then
+		slot0:updateProgressBar()
+	end
 end
 
 function slot1.OnUnfill(slot0)
-	SetActive(slot0._filled, false)
-	SetActive(slot0._unfill, true)
+	SetActive(slot0._currentFilled, false)
+	SetActive(slot0._currentUnfilled, true)
 end
 
 function slot1.SetProgressActive(slot0, slot1)
@@ -130,12 +156,27 @@ function slot1.SetProgressInfo(slot0, slot1)
 	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_COUNT_PLUS, slot0.OnfilledEffect)
 	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.OVER_LOAD_CHANGE, slot0.OnOverLoadChange)
 	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.COUNT_CHANGE, slot0.OnCountChange)
-	slot0:OnOverLoadChange()
 	slot0:OnTotalChange()
+	slot0:OnOverLoadChange()
 end
 
 function slot1.OnCountChange(slot0)
 	slot0._countTxt.text = string.format("%d/%d", slot0._progressInfo:GetCount(), slot0._progressInfo:GetTotal())
+
+	if not slot0._progressInfo:IsMainType() then
+		slot0._currentIcon = slot0._subIcon
+		slot0._currentFilled = slot0._subFilled
+		slot0._currentUnfilled = slot0._subUnfill
+	else
+		slot0._currentIcon = slot0._icon
+		slot0._currentFilled = slot0._filled
+		slot0._currentUnfilled = slot0._unfill
+	end
+
+	if slot0._subIcon then
+		SetActive(slot0._subIcon, not slot0._progressInfo:IsMainType())
+		SetActive(slot0._icon, slot0._progressInfo:IsMainType())
+	end
 end
 
 function slot1.OnTotalChange(slot0, slot1)

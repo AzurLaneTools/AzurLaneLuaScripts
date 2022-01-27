@@ -65,168 +65,238 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	slot16 = pg.ConnectionMgr.GetInstance()
+	slot16, slot17, slot18 = nil
 
-	slot16:Send(12011, {
-		ship_id = slot3,
-		remould_id = slot4,
-		material_id = slot5
-	}, 12012, function (slot0)
-		if slot0.result == 0 then
-			pg.TrackerMgr.GetInstance():Tracking(TRACKING_REMOULD_SHIP, uv0.groupId)
+	for slot22, slot23 in ipairs(slot8.ship_id) do
+		if slot11.configId == slot23[1] then
+			slot16, slot17 = unpack(slot23)
 
-			if uv1 then
-				uv0.transforms[uv2].level = uv0.transforms[uv2].level + 1
-			else
-				uv0.transforms[uv2] = {
-					level = 1,
-					id = uv2
-				}
-			end
+			break
+		end
+	end
 
-			slot2 = getProxy(NavalAcademyProxy):getStudentByShipId(uv3)
+	if slot16 and slot17 then
+		slot18 = TeamType.GetTeamFromShipType(pg.ship_data_statistics[slot16].type) ~= TeamType.GetTeamFromShipType(pg.ship_data_statistics[slot17].type)
+	end
 
-			_.each(uv4.ship_id, function (slot0)
-				if slot0[1] == uv0.configId then
-					slot1 = pg.ship_data_template[uv0.configId].buff_list
-					slot2 = uv0.skills
-					uv0.configId = slot0[2]
-					uv0.skills = {}
-					slot3 = pg.ship_data_template[uv0.configId].buff_list
+	slot19 = {}
 
-					if uv1 then
-						slot4 = uv1:getSkillId(uv0)
-						slot6 = slot3[table.indexof(slot1, slot4)]
-
-						if not table.contains(slot3, slot4) and slot6 ~= slot4 then
-							uv1:updateSkillId(slot6)
-							uv2:updateStudent(uv1)
-						end
-					end
-
-					for slot7, slot8 in ipairs(slot3) do
-						if not slot2[slot8] then
-							slot9 = {
-								exp = 0,
-								level = 1,
-								id = slot8
-							}
-
-							if slot2[slot1[slot7]] then
-								slot9.level = slot10.level
-								slot9.exp = slot10.exp
-							end
-
-							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot8].name)))
-						end
-
-						uv0.skills[slot9.id] = slot9
-					end
-
-					if slot2[11720] and not uv0.skills[11720] then
-						uv0.skills[11720] = slot2[11720]
-					end
-
-					if slot2[14900] and not uv0.skills[14900] then
-						uv0.skills[14900] = slot2[14900]
-					end
+	if slot18 then
+		if slot11:getFlag("inFleet") and not getProxy(FleetProxy):getFleetByShip(slot11):canRemove(slot11) then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				yesText = "text_forward",
+				content = i18n("shipmodechange_reject_1stfleet_only"),
+				onYes = function ()
+					uv0:sendNotification(GAME.GO_SCENE, SCENE.BIANDUI)
 				end
-			end)
-
-			slot3 = pairs
-			slot4 = uv4.use_item[uv5] or {}
-
-			for slot6, slot7 in slot3(slot4) do
-				uv6:removeItemById(slot7[1], slot7[2])
-			end
-
-			slot3 = getProxy(PlayerProxy)
-			slot4 = slot3:getData()
-
-			slot4:consume({
-				gold = uv4.use_gold
 			})
-			slot3:updatePlayer(slot4)
-
-			slot5 = {}
-
-			if uv4.skin_id ~= 0 then
-				uv0:updateSkinId(uv4.skin_id)
-				table.insert(slot5, {
-					count = 1,
-					type = DROP_TYPE_SKIN,
-					id = uv4.skin_id
-				})
-
-				if getProxy(CollectionProxy):getShipGroup(uv0.groupId) and not slot7.trans then
-					slot7.trans = true
-
-					slot6:updateShipGroup(slot7)
-				end
-			end
-
-			if uv4.skill_id ~= 0 and not uv0.skills[uv4.skill_id] then
-				uv0.skills[uv4.skill_id] = {
-					exp = 0,
-					level = 1,
-					id = uv4.skill_id
-				}
-
-				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[uv4.skill_id].name)))
-			end
-
-			uv0:updateName()
-			uv7:updateShip(uv0)
-
-			slot6 = getProxy(EquipmentProxy)
-			slot7 = ipairs
-			slot8 = uv8 or {}
-
-			for slot10, slot11 in slot7(slot8) do
-				for slot16, slot17 in ipairs(uv7:getShipById(slot11).equipments) do
-					if slot17 then
-						slot6:addEquipment(slot17)
-					end
-
-					if slot12:getEquipSkin(slot16) ~= 0 then
-						slot6:addEquipmentSkin(slot12:getEquipSkin(slot16), 1)
-						pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
-					end
-				end
-
-				uv7:removeShipById(slot11)
-			end
-
-			slot7 = nil
-			slot7 = coroutine.create(function ()
-				for slot3, slot4 in ipairs(uv0.equipments) do
-					if slot4 and not uv0:canEquipAtPos(slot4, slot3) then
-						uv1:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
-							shipId = uv0.id,
-							pos = slot3,
-							callback = uv2
-						})
-						coroutine.yield()
-					end
-				end
-
-				uv1:sendNotification(GAME.REMOULD_SHIP_DONE, {
-					ship = uv3:getShipById(uv4),
-					id = uv5,
-					awards = uv6
-				})
-			end)
-
-			(function ()
-				if uv0 and coroutine.status(uv0) == "suspended" then
-					slot0, slot1 = coroutine.resume(uv0)
-				end
-			end)()
 
 			return
 		end
 
-		pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_remouldShip", slot0.result))
+		table.insert(slot19, function (slot0)
+			slot1 = nil
+
+			(function ()
+				slot0, slot1 = ShipStatus.ShipStatusCheck("onTeamChange", uv0, uv1)
+
+				if slot0 then
+					uv2()
+				elseif slot1 then
+					pg.TipsMgr.GetInstance():ShowTips(slot1)
+				end
+			end)()
+		end)
+
+		if slot11:getFlag("inWorld") then
+			table.insert(slot19, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("shipchange_alert_inworld"),
+					onYes = slot0
+				})
+			end)
+		end
+
+		if slot11:getFlag("inElite") then
+			table.insert(slot19, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = "ask for remove ship",
+					onYes = function ()
+						uv0:sendNotification(GAME.REMOVE_ELITE_TARGET_SHIP, {
+							shipId = uv1.id,
+							callback = uv2
+						})
+					end
+				})
+			end)
+		end
+	end
+
+	seriesAsync(slot19, function ()
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(12011, {
+			ship_id = uv0,
+			remould_id = uv1,
+			material_id = uv2
+		}, 12012, function (slot0)
+			if slot0.result == 0 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_REMOULD_SHIP, uv0.groupId)
+
+				if uv1 and uv0:getFlag("inWorld") then
+					slot1 = nowWorld()
+					slot2 = slot1:GetFleet(slot1:GetShip(uv0.id).fleetId)
+
+					slot2:UpdateShips(underscore.filter(slot2:GetShips(true), function (slot0)
+						return slot0.id ~= uv0.id
+					end))
+					pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
+				end
+
+				if uv2 then
+					uv0.transforms[uv3].level = uv0.transforms[uv3].level + 1
+				else
+					uv0.transforms[uv3] = {
+						level = 1,
+						id = uv3
+					}
+				end
+
+				for slot4, slot5 in ipairs(uv4.edit_trans) do
+					if uv0.transforms[slot5] then
+						uv0.transforms[slot5] = nil
+					end
+				end
+
+				slot3 = getProxy(NavalAcademyProxy):getStudentByShipId(uv5) and slot2:getSkillId(uv0)
+
+				if uv6 and uv7 then
+					uv0.configId = uv7
+					slot9 = #pg.ship_data_template[uv7].buff_list
+
+					for slot9 = 1, math.max(#pg.ship_data_template[uv6].buff_list, slot9) do
+						if slot4[slot9] ~= slot5[slot9] then
+							slot12 = nil
+
+							if slot10 then
+								uv0.skills[slot10].id = slot11
+								uv0.skills[slot10] = nil
+							else
+								slot12 = {
+									exp = 0,
+									level = 1,
+									id = slot11
+								}
+							end
+
+							uv0.skills[slot11] = slot12
+
+							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot11].name)))
+
+							if slot2 and slot3 == slot10 then
+								slot2:updateSkillId(slot11)
+								slot1:updateStudent(slot2)
+							end
+						end
+					end
+				end
+
+				_.each(uv4.ship_id, function (slot0)
+					if slot0[1] == uv0.configId then
+						-- Nothing
+					end
+				end)
+
+				slot4 = pairs
+				slot5 = uv4.use_item[uv8] or {}
+
+				for slot7, slot8 in slot4(slot5) do
+					uv9:removeItemById(slot8[1], slot8[2])
+				end
+
+				slot4 = getProxy(PlayerProxy)
+				slot5 = slot4:getData()
+
+				slot5:consume({
+					gold = uv4.use_gold
+				})
+				slot4:updatePlayer(slot5)
+
+				slot6 = {}
+
+				if uv4.skin_id ~= 0 then
+					uv0:updateSkinId(uv4.skin_id)
+					table.insert(slot6, {
+						count = 1,
+						type = DROP_TYPE_SKIN,
+						id = uv4.skin_id
+					})
+
+					if getProxy(CollectionProxy):getShipGroup(uv0.groupId) and not slot8.trans then
+						slot8.trans = true
+
+						slot7:updateShipGroup(slot8)
+					end
+				end
+
+				if uv4.skill_id ~= 0 and not uv0.skills[uv4.skill_id] then
+					uv0.skills[uv4.skill_id] = {
+						exp = 0,
+						level = 1,
+						id = uv4.skill_id
+					}
+
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[uv4.skill_id].name)))
+				end
+
+				uv0:updateName()
+				uv10:updateShip(uv0)
+
+				slot7 = getProxy(EquipmentProxy)
+				slot8 = ipairs
+				slot9 = uv11 or {}
+
+				for slot11, slot12 in slot8(slot9) do
+					for slot17, slot18 in ipairs(uv10:getShipById(slot12).equipments) do
+						if slot18 then
+							slot7:addEquipment(slot18)
+						end
+
+						if slot13:getEquipSkin(slot17) ~= 0 then
+							slot7:addEquipmentSkin(slot13:getEquipSkin(slot17), 1)
+							pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
+						end
+					end
+
+					uv10:removeShipById(slot12)
+				end
+
+				slot8 = {}
+
+				for slot12, slot13 in ipairs(uv0.equipments) do
+					if slot13 and not uv0:canEquipAtPos(slot13, slot12) then
+						table.insert(slot8, function (slot0)
+							uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
+								shipId = uv1.id,
+								pos = uv2,
+								callback = slot0
+							})
+						end)
+					end
+				end
+
+				seriesAsync(slot8, function ()
+					uv0:sendNotification(GAME.REMOULD_SHIP_DONE, {
+						ship = uv1:getShipById(uv2),
+						awards = uv3
+					})
+				end)
+
+				return
+			end
+
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_remouldShip", slot0.result))
+		end)
 	end)
 end
 

@@ -60,10 +60,11 @@ function slot0.InitUI(slot0)
 	slot0.helpBtn = slot0:findTF("help_button", slot0.normalRole)
 	slot0.shengfuBtn = slot0:findTF("shengfu/shengfu_button", slot0.normalRole)
 	slot0.teleportSubRole = findTF(slot0.bottomStage, "teleportSub")
-	slot0.deployBtn = slot0:findTF("confirm_button", slot0.teleportSubRole)
-	slot0.undeployBtn = slot0:findTF("cancel_button", slot0.teleportSubRole)
+	slot0.missileStrikeRole = findTF(slot0.bottomStage, "MissileStrike")
 
 	setActive(slot0.bottomStage, true)
+	setText(findTF(slot0.missileStrikeRole, "confirm_button/Text"), i18n("missile_attack_area_confirm"))
+	setText(findTF(slot0.missileStrikeRole, "cancel_button/Text"), i18n("missile_attack_area_cancel"))
 	setAnchoredPosition(slot0.normalRole, {
 		x = 0,
 		y = 0
@@ -72,7 +73,12 @@ function slot0.InitUI(slot0)
 		x = 0,
 		y = uv0
 	})
+	setAnchoredPosition(slot0.missileStrikeRole, {
+		x = 0,
+		y = uv0
+	})
 	setActive(slot0.teleportSubRole, false)
+	setActive(slot0.missileStrikeRole, false)
 
 	slot0.leftStage = slot0:findTF("left_stage", slot0._tf)
 
@@ -349,7 +355,7 @@ function slot0.AddListener(slot0)
 			helps = i18n("help_battle_ac")
 		})
 	end, SFX_UI_CLICK)
-	onButton(slot0, slot0.deployBtn, function ()
+	onButton(slot0, slot0:findTF("confirm_button", slot0.teleportSubRole), function ()
 		slot2 = uv0.contextData.chapterVO:GetSubmarineFleet().startPos
 
 		if not uv0.grid.subTeleportTargetLine then
@@ -370,9 +376,31 @@ function slot0.AddListener(slot0)
 			end
 		})
 	end, SFX_UI_CLICK)
-	onButton(slot0, slot0.undeployBtn, function ()
-		uv0:SwitchBottomStage(false)
+	onButton(slot0, slot0:findTF("cancel_button", slot0.teleportSubRole), function ()
+		uv0:SwitchSubTeleportBottomStage(false)
 		uv0.grid:TurnOffSubTeleport()
+		uv0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+	end, SFX_UI_CLICK)
+	onButton(slot0, slot0:findTF("confirm_button", slot0.missileStrikeRole), function ()
+		if not uv0.grid.missileStrikeTargetLine then
+			return
+		end
+
+		slot2 = uv0.contextData.chapterVO.fleet
+
+		(function ()
+			uv0:emit(LevelMediator2.ON_OP, {
+				type = ChapterConst.OpStrategy,
+				id = uv1.id,
+				arg1 = ChapterConst.StrategyMissileStrike,
+				arg2 = uv2.row,
+				arg3 = uv2.column
+			})
+		end)()
+	end, SFX_UI_CLICK)
+	onButton(slot0, slot0:findTF("cancel_button", slot0.missileStrikeRole), function ()
+		uv0:SwitchMissileBottomStagePanel(false)
+		uv0.grid:HideMissileAimingMark()
 		uv0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.shengfuBtn, function ()
@@ -962,93 +990,101 @@ function slot0.updateStageStrategy(slot0)
 	slot11 = nil
 
 	UIItemList.StaticAlign(slot6, slot8, #slot1:GetActiveStrategies(), function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("detail"), uv0._showStrategyDetail)
+		if slot0 ~= UIItemList.EventUpdate then
+			return
+		end
 
-			slot4 = slot2:Find("icon")
-			slot6, slot7 = nil
+		setActive(slot2:Find("detail"), uv0._showStrategyDetail)
 
-			if uv1[slot1 + 1].id == ChapterConst.StrategyHuntingRange then
-				slot6 = ChapterConst.StgTypeConst
-				slot7 = uv0.contextData.huntingRangeVisibility % 2 == 1 and "range_invisible" or "range_visible"
+		slot4 = slot2:Find("icon")
+		slot6, slot7 = nil
 
-				setText(slot3, i18n("help_sub_limits"))
-			elseif slot5.id == ChapterConst.StrategySubAutoAttack then
-				slot6 = ChapterConst.StgTypeConst
-				slot7 = uv2.subAutoAttack == 0 and "sub_dont_auto_attack" or "sub_auto_attack"
+		if uv1[slot1 + 1].id == ChapterConst.StrategyHuntingRange then
+			slot6 = ChapterConst.StgTypeConst
+			slot7 = uv0.contextData.huntingRangeVisibility % 2 == 1 and "range_invisible" or "range_visible"
 
-				setText(slot3, i18n("help_sub_display"))
-			else
-				slot8 = pg.strategy_data_template[slot5.id]
-				slot6 = slot8.type
-				slot7 = slot8.icon
+			setText(slot3, i18n("help_sub_limits"))
+		elseif slot5.id == ChapterConst.StrategySubAutoAttack then
+			slot6 = ChapterConst.StgTypeConst
+			slot7 = uv2.subAutoAttack == 0 and "sub_dont_auto_attack" or "sub_auto_attack"
 
-				setText(slot3, slot8.desc)
+			setText(slot3, i18n("help_sub_display"))
+		else
+			slot8 = pg.strategy_data_template[slot5.id]
+			slot6 = slot8.type
+			slot7 = slot8.icon
+
+			setText(slot3, slot8.desc)
+		end
+
+		GetImageSpriteFromAtlasAsync("strategyicon/" .. slot7, "", slot4:Find("icon"))
+		onButton(uv0, slot4, function ()
+			if uv0.grid.quadState == ChapterConst.QuadStateStrategy and uv0.grid.quadClickProxy then
+				uv0.grid.quadClickProxy()
+
+				return
 			end
 
-			GetImageSpriteFromAtlasAsync("strategyicon/" .. slot7, "", slot4:Find("icon"))
-			onButton(uv0, slot4, function ()
-				if uv0.grid.quadState == ChapterConst.QuadStateStrategy and uv0.grid.quadClickProxy then
-					uv0.grid.quadClickProxy()
+			if uv1.id == ChapterConst.StrategyHuntingRange then
+				uv0.grid:toggleHuntingRange()
+				uv2(uv3, uv4, uv5)
+			elseif uv1.id == ChapterConst.StrategySubAutoAttack then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ai_change_" .. 1 - uv6.subAutoAttack + 1))
+				uv0:emit(LevelMediator2.ON_OP, {
+					type = ChapterConst.OpSubState,
+					arg1 = 1 - uv6.subAutoAttack
+				})
+			else
+				if uv1.id == ChapterConst.StrategyExchange then
+					if uv6:getNextValidIndex(uv6.findex) > 0 and uv1.count > 0 then
+						uv0:HandleShowMsgBox({
+							content = i18n("levelScene_who_to_exchange"),
+							onYes = function ()
+								uv0:emit(LevelMediator2.ON_OP, {
+									type = ChapterConst.OpStrategy,
+									id = uv1.id,
+									arg1 = ChapterConst.StrategyExchange,
+									arg2 = uv2.fleets[uv3].id
+								})
+							end
+						})
+					end
 
 					return
 				end
 
-				if uv1.id == ChapterConst.StrategyHuntingRange then
-					uv0.grid:toggleHuntingRange()
-					uv2(uv3, uv4, uv5)
-				elseif uv1.id == ChapterConst.StrategySubAutoAttack then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("ai_change_" .. 1 - uv6.subAutoAttack + 1))
-					uv0:emit(LevelMediator2.ON_OP, {
-						type = ChapterConst.OpSubState,
-						arg1 = 1 - uv6.subAutoAttack
-					})
-				else
-					if uv1.id == ChapterConst.StrategyExchange then
-						if uv6:getNextValidIndex(uv6.findex) > 0 and uv1.count > 0 then
-							uv0:HandleShowMsgBox({
-								content = i18n("levelScene_who_to_exchange"),
-								onYes = function ()
-									uv0:emit(LevelMediator2.ON_OP, {
-										type = ChapterConst.OpStrategy,
-										id = uv1.id,
-										arg1 = ChapterConst.StrategyExchange,
-										arg2 = uv2.fleets[uv3].id
-									})
-								end
-							})
-						end
-
+				if uv1.id == ChapterConst.StrategySubTeleport then
+					uv0:SwitchSubTeleportBottomStage(true)
+					uv0.grid:ShowStaticHuntingRange()
+					uv0.grid:PrepareSubTeleport()
+					uv0.grid:updateQuadCells(ChapterConst.QuadStateTeleportSub)
+				elseif uv1.id == ChapterConst.StrategyMissileStrike then
+					if not uv7:canUseStrategy(uv1) then
 						return
 					end
 
-					if uv1.id == ChapterConst.StrategySubTeleport then
-						uv0:SwitchBottomStage(true)
-						uv0.grid:ShowStaticHuntingRange()
-						uv0:updateStageStrategy()
-						uv0.grid:PrepareSubTeleport()
-						uv0.grid:updateQuadCells(ChapterConst.QuadStateTeleportSub)
-					elseif uv8 == ChapterConst.StgTypeForm then
-						uv0:emit(LevelMediator2.ON_OP, {
-							type = ChapterConst.OpStrategy,
-							id = uv7.id,
-							arg1 = ChapterConst.StrategyForms[table.indexof(ChapterConst.StrategyForms, uv1.id) % #ChapterConst.StrategyForms + 1]
-						})
-					else
-						uv0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, uv1)
-					end
+					uv0:SwitchMissileBottomStagePanel(true)
+					uv0.grid:updateQuadCells(ChapterConst.QuadStateMissileStrike)
+				elseif uv8 == ChapterConst.StgTypeForm then
+					uv0:emit(LevelMediator2.ON_OP, {
+						type = ChapterConst.OpStrategy,
+						id = uv7.id,
+						arg1 = ChapterConst.StrategyForms[table.indexof(ChapterConst.StrategyForms, uv1.id) % #ChapterConst.StrategyForms + 1]
+					})
+				else
+					uv0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, uv1)
 				end
-			end, SFX_PANEL)
-
-			if slot6 == ChapterConst.StgTypeForm then
-				setText(slot4:Find("nums"), "")
-				setActive(slot4:Find("mask"), false)
-				setActive(slot4:Find("selected"), true)
-			else
-				setText(slot4:Find("nums"), slot5.count or "")
-				setActive(slot4:Find("mask"), slot5.count == 0)
-				setActive(slot4:Find("selected"), false)
 			end
+		end, SFX_PANEL)
+
+		if slot6 == ChapterConst.StgTypeForm then
+			setText(slot4:Find("nums"), "")
+			setActive(slot4:Find("mask"), false)
+			setActive(slot4:Find("selected"), true)
+		else
+			setText(slot4:Find("nums"), slot5.count or "")
+			setActive(slot4:Find("mask"), slot5.count == 0)
+			setActive(slot4:Find("selected"), false)
 		end
 	end)
 	onButton(slot0, findTF(slot4, "click"), function ()
@@ -1205,11 +1241,24 @@ function slot0.ShiftBottomStage(slot0, slot1)
 	shiftPanel(slot0.bottomStage, 0, not slot0.bottomStageInactive and slot1 and 0 or -slot0.bottomStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 end
 
-function slot0.SwitchBottomStage(slot0, slot1)
+function slot0.SwitchSubTeleportBottomStage(slot0, slot1)
 	setActive(slot0.teleportSubRole, true)
 	setActive(slot0.normalRole, true)
 	shiftPanel(slot0.teleportSubRole, 0, slot1 and 0 or uv0, 0.3, 0, true, true, nil, function ()
 		setActive(uv0.teleportSubRole, uv1)
+	end)
+	shiftPanel(slot0.normalRole, 0, slot1 and uv0 or 0, 0.3, 0, true, true, nil, function ()
+		setActive(uv0.normalRole, not uv1)
+	end)
+	shiftPanel(slot0.leftStage, slot1 and -slot0.leftStage.rect.width - 200 or 0, 0, 0.3, 0, true)
+	shiftPanel(slot0.rightStage, slot1 and slot0.rightStage.rect.width + 200 or 0, 0, 0.3, 0, true)
+end
+
+function slot0.SwitchMissileBottomStagePanel(slot0, slot1)
+	setActive(slot0.missileStrikeRole, true)
+	setActive(slot0.normalRole, true)
+	shiftPanel(slot0.missileStrikeRole, 0, slot1 and 0 or uv0, 0.3, 0, true, true, nil, function ()
+		setActive(uv0.missileStrikeRole, uv1)
 	end)
 	shiftPanel(slot0.normalRole, 0, slot1 and uv0 or 0, 0.3, 0, true, true, nil, function ()
 		setActive(uv0.normalRole, not uv1)

@@ -499,7 +499,7 @@ function slot0.showDestoryMsgbox(slot0, slot1)
 			return
 		end
 
-		uv0:emit(EquipmentInfoMediator.ON_DESTROY, 1)
+		uv0:emit(EquipmentInfoMediator.ON_DESTROY, uv0.destroyCount)
 		uv0:closeDestoryMsgbox()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.destroyMsgBoxCancelBtn, function ()

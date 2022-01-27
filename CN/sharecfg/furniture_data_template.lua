@@ -8069,6 +8069,79 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100034] = {
+		spine_extra = "",
+		describe = "主炮就绪！全速前进~",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "御舰术",
+		themeId = 0,
+		icon = "feixingpaoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100034,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingpao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "没错，尽情地向你的女仆撒娇吧…“主人”~",
@@ -104010,6 +104083,946 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[86001] = {
+		spine_extra = "",
+		describe = "充满东煌意趣的园林。",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "东煌园林地板",
+		effect = "",
+		advice = 0,
+		icon = "dibancj4icon",
+		spine_action_replace = "",
+		picture = "cj4/dibancj4",
+		comfortable = 4,
+		canputon = 0,
+		id = 86001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86002] = {
+		spine_extra = "",
+		describe = "充满东煌意趣的园林。",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "东煌园林墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicj4icon",
+		spine_action_replace = "",
+		picture = "cj4/qiangbicj4",
+		comfortable = 4,
+		canputon = 0,
+		id = 86002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86101] = {
+		spine_extra = "",
+		describe = "从缝隙中隐约透出庭院中的雅致风景。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "changlangcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林廊壁",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/changlangcj4",
+		canputon = 0,
+		id = 86101,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86102] = {
+		spine_extra = "",
+		describe = "夜半钟声到客船。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuancj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "两叶扁舟",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/chuancj4",
+		canputon = 0,
+		id = 86102,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-32.8,
+					-38.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86103] = {
+		spine_extra = "",
+		describe = "透着温暖的黄光。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dengcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林石灯",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj4/dengcj4",
+		canputon = 0,
+		id = 86103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86104] = {
+		spine_extra = "",
+		describe = "笔墨挥洒便是一副华丽的对联~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangzicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "乡间宅院",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/fangzicj4",
+		canputon = 0,
+		id = 86104,
+		can_rotate = 1,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86105] = {
+		spine_extra = "",
+		describe = "巧笑倩兮，美目盼兮…啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guofengjicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "红衣啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/guofengjicj4",
+		canputon = 0,
+		id = 86105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86106] = {
+		spine_extra = "",
+		describe = "潺潺的流水带来丝丝惬意~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heshuicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林小河",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "cj4/heshuicj4",
+		canputon = 0,
+		id = 86106,
+		can_rotate = 1,
+		size = {
+			24,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86107] = {
+		spine_extra = "",
+		describe = "就着美景，品上一杯好茶~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiuxishicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林茶室",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/xiuxishicj4",
+		canputon = 0,
+		id = 86107,
+		can_rotate = 0,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-95.6,
+					-77.4
+				},
+				{
+					1,
+					1
+				},
+				"cj4/xiuxishicj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86108] = {
+		spine_extra = "",
+		describe = "墙角数枝梅，凌寒独自开~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "lameicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "寒冬腊梅",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/lameicj4",
+		canputon = 0,
+		id = 86108,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86109] = {
+		spine_extra = "",
+		describe = "悠闲地在凉亭下休息片刻吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "liangtingcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林凉亭",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/liangtingcj4",
+		canputon = 0,
+		id = 86109,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86110] = {
+		spine_extra = "",
+		describe = "漫步山水之间~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qiaocj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林木桥",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/qiaocj4",
+		canputon = 0,
+		id = 86110,
+		can_rotate = 0,
+		size = {
+			9,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-99.2,
+					-51.8
+				},
+				{
+					1,
+					1
+				},
+				"cj4/qiaocj4_using"
+			},
+			{
+				"stand2",
+				{
+					148.4,
+					-26.4
+				},
+				{
+					-1,
+					1
+				},
+				"cj4/qiaocj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86111] = {
+		spine_extra = "",
+		describe = "余音绕梁，三日不绝~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guzhengcj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林古筝",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/guzhengcj4",
+		canputon = 0,
+		id = 86111,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-31.4,
+					76.2
+				},
+				{
+					1,
+					1
+				},
+				"cj4/guzhengcj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86112] = {
+		spine_extra = "",
+		describe = "看起来就很重的石头。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitoucj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林顽石",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj4/shitoucj4",
+		canputon = 0,
+		id = 86112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86113] = {
+		spine_extra = "",
+		describe = "下一手应该下在…这里啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shizhuocj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "珍珑残局?",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/shizhuocj4",
+		canputon = 0,
+		id = 86113,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86114] = {
+		spine_extra = "",
+		describe = "大树底下好乘凉~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shucj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林松柏",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/shucj4",
+		canputon = 0,
+		id = 86114,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86115] = {
+		spine_extra = "",
+		describe = "鬼斧神工的记忆~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaojiashancj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林假山",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/xiaojiashancj4",
+		canputon = 0,
+		id = 86115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86116] = {
+		spine_extra = "",
+		describe = "好像有什么奇怪的东西？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 86,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiashancj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾园林山水",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/jiashancj4",
+		canputon = 0,
+		id = 86116,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-77.3,
+					-50.9
+				},
+				{
+					-1,
+					1
+				},
+				"cj4/jiashancj4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86117] = {
+		spine_extra = "",
+		describe = "高风亮节，柔中带刚~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zhuzicj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林绿竹",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/zhuzicj4",
+		canputon = 0,
+		id = 86117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86119] = {
+		spine_extra = "",
+		describe = "漫步山水之间~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "shizilucj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林石路",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj4/shizilucj4",
+		canputon = 0,
+		id = 86119,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[86122] = {
+		belong = 1,
+		describe = "这次要创造个更惊人的作品啾！",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 86,
+		count = 1,
+		is_3d_obj = 0,
+		name = "烧瓷啾",
+		tag = 7,
+		icon = "shaociqicj4icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 86122,
+		can_rotate = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shaociqiB",
+				"normal"
+			},
+			{
+				"shaociqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"shaociqiCharControl",
+						"sit"
+					},
+					{
+						"sit4",
+						"shaociqiCharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"shaociqiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[86301] = {
+		spine_extra = "",
+		describe = "曲径通幽处~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 86,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "gongmencj4icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "园林拱门",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj4/gongmencj4",
+		canputon = 0,
+		id = 86301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -104163,6 +105176,7 @@ pg.furniture_data_template = {
 		100031,
 		100032,
 		100033,
+		100034,
 		200001,
 		200002,
 		200003,
@@ -106353,6 +107367,28 @@ pg.furniture_data_template = {
 		85306,
 		85307,
 		85308,
-		85309
+		85309,
+		86001,
+		86002,
+		86101,
+		86102,
+		86103,
+		86104,
+		86105,
+		86106,
+		86107,
+		86108,
+		86109,
+		86110,
+		86111,
+		86112,
+		86113,
+		86114,
+		86115,
+		86116,
+		86117,
+		86119,
+		86122,
+		86301
 	}
 }

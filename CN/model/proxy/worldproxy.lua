@@ -137,7 +137,7 @@ function slot0.NetFullUpdate(slot0, slot1)
 	slot0:NetUpdateWorldMapPressing(slot1.clean_chapter)
 	slot0:NetUpdateWorldShopGoods(slot1.out_shop_buy_list)
 	slot0:NetUpdateWorldPressingAward(slot1.chapter_award)
-	slot0:NetUpdateWorldPortTaskMark(slot1.port_list)
+	slot0:NetUpdateWorldPortTaskMark(slot1.port_list, slot1.new_flag_port_list)
 end
 
 function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
@@ -568,8 +568,8 @@ function slot0.NetUpdateWorldPressingAward(slot0, slot1)
 	end)
 end
 
-function slot0.NetUpdateWorldPortTaskMark(slot0, slot1)
-	slot0.world:GetAtlas():SetPortMarkList(slot1)
+function slot0.NetUpdateWorldPortTaskMark(slot0, slot1, slot2)
+	slot0.world:GetAtlas():SetPortMarkList(slot1, slot2)
 end
 
 function slot0.NetBuildSalvageUpdate(slot0, slot1)

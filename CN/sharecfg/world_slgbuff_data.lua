@@ -2504,6 +2504,54 @@ pg.world_SLGbuff_data = {
 		trap_parameter = {},
 		delete_traptype = {}
 	},
+	[4010] = {
+		buff_type = 2,
+		name = "质量防御场",
+		id = 4010,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "仲裁者·司特莲库斯·VIII在战斗中会为自身添加一层特殊防御场。\n防御场生效期间，会为司特莲库斯提供25%炮击和航空减伤，司特莲库斯自身造成伤害下降15%。\n同时防御力场会为司特莲库斯提供最多可以抵挡160000伤害的力场盾，力场盾只会出现一次。",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5010",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
+	[4020] = {
+		buff_type = 2,
+		name = "腐蚀雾化模块",
+		id = 4020,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "仲裁者·赫米忒·IX在战斗中会释放笼罩海域的腐蚀性雾气。\n进入毒雾的舰船航速降低12%，命中下降200。",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5020",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
 	all = {
 		1,
 		2,
@@ -2601,6 +2649,8 @@ pg.world_SLGbuff_data = {
 		2500,
 		2510,
 		2520,
-		4000
+		4000,
+		4010,
+		4020
 	}
 }

@@ -873,6 +873,14 @@ function slot0.handleNotification(slot0, slot1)
 							end
 						end
 					end
+
+					slot5 = uv1
+
+					slot5:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
+						uv0.viewComponent.levelStageView:SwitchMissileBottomStagePanel(false)
+						uv0.viewComponent.grid:HideMissileAimingMark()
+						uv0.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+					end)
 				elseif slot0 == ChapterConst.OpSupply then
 					uv1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpBarrier then
@@ -949,8 +957,8 @@ function slot0.handleNotification(slot0, slot1)
 							end)
 						end,
 						function (slot0)
+							uv0.viewComponent.levelStageView:SwitchSubTeleportBottomStage(false)
 							uv0.viewComponent.grid:TurnOffSubTeleport()
-							uv0.viewComponent.levelStageView:SwitchBottomStage(false)
 							uv0.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 						end
 					})

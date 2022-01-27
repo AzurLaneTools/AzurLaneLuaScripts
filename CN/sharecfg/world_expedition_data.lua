@@ -129479,7 +129479,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4020
+		}
 	},
 	[315015] = {
 		bgm = "battle-arbitrator-type1",
@@ -130462,7 +130464,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4020
+		}
 	},
 	[315020] = {
 		bgm = "battle-arbitrator-type1",
@@ -131026,7 +131030,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4010
+		}
 	},
 	[315022] = {
 		bgm = "battle-arbitrator-type1",
@@ -131307,7 +131313,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4020
+		}
 	},
 	[315025] = {
 		bgm = "battle-arbitrator-type1",
@@ -131871,7 +131879,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4010
+		}
 	},
 	[315027] = {
 		bgm = "battle-arbitrator-type1",
@@ -132152,7 +132162,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4020
+		}
 	},
 	[315030] = {
 		bgm = "battle-arbitrator-type1",
@@ -132318,7 +132330,9 @@ pg.world_expedition_data = {
 		phase_story = {},
 		phase_drop = {},
 		phase_drop_display = {},
-		special_buff_display = {}
+		special_buff_display = {
+			4010
+		}
 	},
 	[315032] = {
 		bgm = "battle-arbitrator-type1",
@@ -132400,7 +132414,9 @@ pg.world_expedition_data = {
 		phase_story = {},
 		phase_drop = {},
 		phase_drop_display = {},
-		special_buff_display = {}
+		special_buff_display = {
+			4020
+		}
 	},
 	[315033] = {
 		bgm = "battle-arbitrator-type1",
@@ -132566,7 +132582,9 @@ pg.world_expedition_data = {
 		phase_story = {},
 		phase_drop = {},
 		phase_drop_display = {},
-		special_buff_display = {}
+		special_buff_display = {
+			4010
+		}
 	},
 	[315035] = {
 		bgm = "battle-arbitrator-type1",
@@ -132648,7 +132666,9 @@ pg.world_expedition_data = {
 		phase_story = {},
 		phase_drop = {},
 		phase_drop_display = {},
-		special_buff_display = {}
+		special_buff_display = {
+			4020
+		}
 	},
 	[320000] = {
 		bgm = "Battle-1",

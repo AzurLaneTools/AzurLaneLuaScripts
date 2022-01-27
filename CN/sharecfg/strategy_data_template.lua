@@ -132,6 +132,18 @@ pg.strategy_data_template = {
 		desc = "处于海雾区域中，战斗时己方和敌方的隐蔽强度降低速率减慢。",
 		arg = {}
 	},
+	[18] = {
+		buff_id = 0,
+		name = "导弹",
+		type = 2,
+		iconSize = "",
+		id = 18,
+		icon = "18",
+		desc = "进行一次制导打击",
+		arg = {
+			missile
+		}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "高效作战",
@@ -1400,6 +1412,7 @@ pg.strategy_data_template = {
 		14,
 		16,
 		17,
+		18,
 		47,
 		90,
 		91,

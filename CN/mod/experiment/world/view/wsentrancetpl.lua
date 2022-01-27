@@ -24,13 +24,14 @@ slot0.DisplayOrder = {
 }
 slot0.prefabName = {
 	task_main = "DSJ_BX05_3D",
-	task = "DSJ_BX03_3D",
+	port_mark_new = "mark_port_tip_new",
 	port_gray_2 = "mark_port_gray_2",
+	buff_a = "buff_a",
 	port_2 = "mark_port_2",
 	buff_d = "buff_d",
 	task_following_main = "DSJ_BX05_3D",
-	port_mark = "mark_port_tip",
-	buff_a = "buff_a",
+	step = "DSJ_BX05_3D",
+	task = "DSJ_BX03_3D",
 	treasure_sairen = "DSJ_BX06_3D",
 	buff_h = "buff_h",
 	buff_d2 = "buff_d2",
@@ -44,7 +45,7 @@ slot0.prefabName = {
 	sairen = "guangzhu",
 	core = "core",
 	buff_h2 = "buff_h2",
-	step = "DSJ_BX05_3D"
+	port_mark = "mark_port_tip"
 }
 slot0.offsetField = {
 	task_main = "offset_pos",
@@ -185,10 +186,11 @@ function slot0.GetShowMark(slot0)
 	end
 end
 
-function slot0.UpdatePort(slot0, slot1, slot2)
+function slot0.UpdatePort(slot0, slot1, slot2, slot3)
 	slot0:DoUpdateMark("port_" .. slot0.portCamp, slot1)
 	slot0:DoUpdateMark("port_gray_" .. slot0.portCamp, not slot1)
 	slot0:DoUpdateMark("port_mark", slot2)
+	slot0:DoUpdateMark("port_mark_new", slot3)
 end
 
 function slot0.UpdatePressingAward(slot0)

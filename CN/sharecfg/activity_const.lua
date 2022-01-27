@@ -34,7 +34,7 @@ pg.activity_const = {
 		act_id = 4124
 	},
 	ACTIVITY_BOSS_PT_ID = {
-		act_id = 4031
+		act_id = 4223
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -824,5 +824,11 @@ pg.activity_const = {
 	},
 	BUILDING_NEWYEAR_2022 = {
 		act_id = 4202
+	},
+	MINIGAME_SPRINGFESTIVAL_2022 = {
+		act_id = 4220
+	},
+	ANSHAN_CHANGCHUN_GAIZAO_ID = {
+		act_id = 4229
 	}
 }

@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "初次见面，乌尔里希.冯.胡腾。称呼的话随你习惯就好，不过我更倾向于被称为沙恩霍斯特。",
+			say = "初次见面，乌尔里希.冯.胡滕。称呼的话随你习惯就好，不过我更倾向于被称为沙恩霍斯特。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "乌尔里希.冯.胡腾，可以把“我的妹妹”交给我么？",
+			say = "乌尔里希.冯.胡滕，可以把“我的妹妹”交给我么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……真不愧是乌尔里希.冯.胡腾，在语言上占你的便宜真困难。",
+			say = "……真不愧是乌尔里希.冯.胡滕，在语言上占你的便宜真困难。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
