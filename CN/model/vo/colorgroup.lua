@@ -116,4 +116,22 @@ function slot0.GetAABB(slot0)
 	return Vector2(slot1, slot2), Vector2(slot3, slot4)
 end
 
+function slot0.HasItem2Fill(slot0, slot1)
+	slot2 = _.map(slot0:getConfig("color_id_list"), function (slot0)
+		return uv0[slot0] or 0
+	end)
+	slot3, slot4 = slot0:GetAABB()
+	slot6 = slot4.y - slot3.y
+
+	for slot10 = 0, slot4.x - slot3.x do
+		for slot14 = 0, slot6 do
+			if slot0:getCell(slot10 + slot3.x, slot14 + slot3.y) and not slot0:getFill(slot15, slot16) then
+				return (slot2[slot17.type] or 0) > 0
+			end
+		end
+	end
+
+	return false
+end
+
 return slot0

@@ -69985,7 +69985,7 @@ pg.skill_data_template = {
 		id = 29781,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发全弹发射-卡律布狄斯I",
+		desc = "主炮每进行15次攻击，触发全弹发射-卡律布狄斯I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -69999,7 +69999,7 @@ pg.skill_data_template = {
 		id = 29782,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发全弹发射-卡律布狄斯II",
+		desc = "主炮每进行10次攻击，触发全弹发射-卡律布狄斯II",
 		system_transform = {},
 		world_death_mark = {
 			1
