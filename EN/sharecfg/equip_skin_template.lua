@@ -12541,11 +12541,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[521] = {
-		name = "Orchid Shell",
+		name = "Bamboo Shell",
 		bullet_name = "zidan_hunianzhuzi",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "A delicate flower that's inspired many a poem.",
+		desc = "I said \"bamboo shoot\" , not \"shoot bamboo!\"",
 		themeid = 31,
 		orbit_combat = "",
 		ship_config_id = 100011,
@@ -12571,11 +12571,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[522] = {
-		name = "Bamboo Shell",
+		name = "Orchid Shell",
 		bullet_name = "zidan_hunianlanhua",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "I said \"bamboo shoot,\" not \"shoot bamboo!\"",
+		desc = "A delicate flower that's inspired many a poem.",
 		themeid = 31,
 		orbit_combat = "",
 		ship_config_id = 100011,

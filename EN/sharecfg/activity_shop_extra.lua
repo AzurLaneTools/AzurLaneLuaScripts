@@ -1899,7 +1899,7 @@ pg.activity_shop_extra = {
 		id = 82,
 		num = 1,
 		num_limit = 1,
-		order = 14,
+		order = 19,
 		time = {
 			{
 				{
@@ -1935,7 +1935,7 @@ pg.activity_shop_extra = {
 		id = 83,
 		num = 1,
 		num_limit = 1,
-		order = 14,
+		order = 19,
 		time = {
 			{
 				{
@@ -1970,7 +1970,7 @@ pg.activity_shop_extra = {
 		id = 84,
 		num = 1,
 		num_limit = 1,
-		order = 15,
+		order = 20,
 		scene = {
 			"crusing",
 			{}

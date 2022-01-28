@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"fter the Flowers Bloomed\n\n<size=45>3 Bad At Writing Mail?</size>",
+					"After the Flowers Bloomed\n\n<size=45>3 Bad At Writing Mail?</size>",
 					1
 				}
 			}
