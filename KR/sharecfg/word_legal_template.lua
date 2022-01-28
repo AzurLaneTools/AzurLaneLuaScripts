@@ -5886,6 +5886,11 @@ function temp()
 			["스"] = {
 				this = true
 			}
+		},
+		["하"] = {
+			["이"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6017,6 +6022,16 @@ function temp()
 		},
 		["쿠"] = {
 			["류"] = {
+				this = true
+			}
+		},
+		["이"] = {
+			["티"] = {
+				["엔"] = {
+					this = true
+				}
+			},
+			["치"] = {
 				this = true
 			}
 		}
@@ -6531,6 +6546,13 @@ function temp()
 		["레"] = {
 			["머"] = {
 				["튼"] = {
+					this = true
+				}
+			}
+		},
+		["리"] = {
+			["스"] = {
+				["톨"] = {
 					this = true
 				}
 			}
@@ -7795,6 +7817,15 @@ function temp()
 						["레"] = {
 							this = true
 						}
+					}
+				}
+			}
+		},
+		["리"] = {
+			["브"] = {
+				["디"] = {
+					["스"] = {
+						this = true
 					}
 				}
 			}
@@ -9380,7 +9411,18 @@ temp()
 function temp()
 	uv0["준"] = {
 		["요"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -9587,7 +9629,12 @@ temp()
 function temp()
 	uv0["안"] = {
 		["샨"] = {
-			this = true
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -9597,7 +9644,12 @@ temp()
 function temp()
 	uv0["창"] = {
 		["춘"] = {
-			this = true
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

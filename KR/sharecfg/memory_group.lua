@@ -2282,7 +2282,7 @@ pg.memory_group = {
 		subtype = 2,
 		type = 2,
 		id = 208,
-		title = "훈련 중 미스터리 사건",
+		title = "연습 신비 사건 조사",
 		memories = {
 			1980,
 			1981,

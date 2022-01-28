@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"훈련 중 미스터리 사건\n\n<size=45>5. 호흡척척</size>",
+					"연습 신비 사건 조사\n\n<size=45>5. 호흡척척</size>",
 					1
 				}
 			}

@@ -1202,14 +1202,14 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 301,
-		actor_name = "伊达朱里纱"
+		actor_name = "Date Arisa"
 	},
 	{
 		code = 302,
-		actor_name = "风间万裕子"
+		actor_name = "Kazama Mayuko"
 	},
 	{
 		code = 303,
-		actor_name = "绫濑有"
+		actor_name = "Ayase Yuu"
 	}
 }
