@@ -286,11 +286,7 @@ function slot0.initSkinPage(slot0)
 	end
 
 	for slot4, slot5 in ipairs(slot0.skinGoodsVOs) do
-		slot6 = slot5:getSkinId()
-
-		print(slot6)
-
-		slot8 = uv1[slot6].shop_type_id == 0 and 9999 or slot7
+		slot8 = uv1[slot5:getSkinId()].shop_type_id == 0 and 9999 or slot7
 		slot0.countByIds[slot8] = slot0.countByIds[slot8] + 1
 	end
 

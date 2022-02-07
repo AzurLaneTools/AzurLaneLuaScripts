@@ -29142,7 +29142,7 @@ _G.pg.ship_data_breakout[520034] = {
 
 _G.pg.ship_data_breakout[521011] = {
 	use_gold = 500,
-	breakout_view = "주력함대 모드로 전환/미사인 예비 장전 +1",
+	breakout_view = "주력함대 모드로 전환/미사일 예비 장전 +1",
 	use_char_num = 1,
 	use_char = 52100,
 	breakout_id = 521012,
@@ -29208,7 +29208,7 @@ _G.pg.ship_data_breakout[521014] = {
 
 _G.pg.ship_data_breakout[521031] = {
 	use_gold = 500,
-	breakout_view = "주력함대 모드로 전환/미사인 예비 장전 +1",
+	breakout_view = "주력함대 모드로 전환/미사일 예비 장전 +1",
 	use_char_num = 1,
 	use_char = 52100,
 	breakout_id = 521032,

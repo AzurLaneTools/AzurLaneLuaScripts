@@ -15,7 +15,7 @@ pg.skin_page_template = {
 	{
 		id = 3,
 		name = "旧正月",
-		res = "chunzhiqipao",
+		res = "donghuang",
 		english_name = "SPRING "
 	},
 	{

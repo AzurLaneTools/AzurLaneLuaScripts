@@ -6910,7 +6910,7 @@ pg.furniture_data_template = {
 	},
 	[100033] = {
 		spine_extra = "",
-		describe = "飘…飘起来了？！",
+		describe = "떠… 떴다!?",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -6920,7 +6920,7 @@ pg.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "失重体验装置",
+		name = "무중력 체험 장치",
 		themeId = 0,
 		icon = "shizhongjiicon",
 		deblocking = 1,
