@@ -2193,6 +2193,8 @@ function slot0.getTorpedoShip(slot0, slot1)
 	elseif slot1:getFleetType() == FleetType.Normal then
 		slot2 = _.detect(slot1:getShipsByTeam(TeamType.Vanguard, false), function (slot0)
 			return ShipType.IsTypeQuZhu(slot0:getShipType())
+		end) or _.detect(slot1:getShipsByTeam(TeamType.Main, false), function (slot0)
+			return ShipType.IsTypeQuZhu(slot0:getShipType())
 		end)
 	end
 

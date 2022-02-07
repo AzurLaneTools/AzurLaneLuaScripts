@@ -4052,7 +4052,7 @@ pg.activity_template = {
 				"zhaochao_5",
 				"luodeni_4",
 				"chicheng_5",
-				"jiahe_5",
+				"jiahe_6",
 				"huayue_4",
 				"zhuifeng_2",
 				"lingbo_13",

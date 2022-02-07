@@ -119,7 +119,7 @@ function slot0.initUI(slot0)
 	end
 
 	for slot8, slot9 in ipairs(slot0.urList) do
-		setActive(slot0:findTF("Finish_" .. slot9 .. "/BG/Text", slot0.choosePanel), i18n("tec_target_catchup_dr_finish_tip"))
+		setText(slot0:findTF("Finish_" .. slot9 .. "/BG/Text", slot0.choosePanel), i18n("tec_target_catchup_dr_finish_tip"))
 	end
 end
 
