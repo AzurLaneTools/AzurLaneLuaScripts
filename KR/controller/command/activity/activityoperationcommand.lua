@@ -2,7 +2,7 @@ slot0 = class("ActivityOperationCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	if getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot4 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
-		slot5, slot6, slot7 = BuildShip.canBuildShipByBuildId(slot2.buildId, slot2.arg1)
+		slot5, slot6, slot7 = BuildShip.canBuildShipByBuildId(slot2.buildId, slot2.arg1, slot2.arg2 == 1)
 
 		if not slot5 then
 			if slot7 then
@@ -13,9 +13,7 @@ function slot0.execute(slot0, slot1)
 
 			return
 		end
-	end
-
-	if slot4 == ActivityConst.ACTIVITY_TYPE_SHOP then
+	elseif slot4 == ActivityConst.ACTIVITY_TYPE_SHOP then
 		slot7 = getProxy(ShopsProxy):getActivityShopById(slot3.id):bindConfigTable()[slot2.arg1]
 
 		if getProxy(PlayerProxy):getData()[id2res(slot7.resource_type)] < slot7.resource_num * (slot2.arg2 or 1) then
@@ -125,22 +123,29 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_SHIP, slot1.arg1)
 
-		slot8 = pg.ship_data_create_material[slot1.buildId]
+		if slot1.arg2 == 1 then
+			slot8 = getProxy(ActivityProxy)
+			slot9 = slot8:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE)
+			slot9.data1 = slot9.data1 - slot1.arg1
 
-		getProxy(BagProxy):removeItemById(slot8.use_item, slot8.number_1 * slot1.arg1)
+			slot8:updateActivity(slot9)
+		else
+			slot8 = pg.ship_data_create_material[slot1.buildId]
 
-		slot9 = slot6:getData()
-		slot14 = slot1.arg1
+			getProxy(BagProxy):removeItemById(slot8.use_item, slot8.number_1 * slot1.arg1)
 
-		slot9:consume({
-			gold = slot8.use_gold * slot14
-		})
-		slot6:updatePlayer(slot9)
+			slot9 = slot6:getData()
 
-		slot10 = getProxy(BuildShipProxy)
+			slot9:consume({
+				gold = slot8.use_gold * slot1.arg1
+			})
+			slot6:updatePlayer(slot9)
+		end
 
-		for slot14, slot15 in ipairs(slot2.build) do
-			slot10:addBuildShip(BuildShip.New(slot15))
+		slot8 = getProxy(BuildShipProxy)
+
+		for slot12, slot13 in ipairs(slot2.build) do
+			slot8:addBuildShip(BuildShip.New(slot13))
 		end
 
 		slot3.data1 = slot3.data1 + slot1.arg1

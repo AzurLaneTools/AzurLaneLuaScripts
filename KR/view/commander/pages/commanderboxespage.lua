@@ -95,7 +95,7 @@ function slot0.Update(slot0, slot1, slot2)
 
 	table.sort(slot3, function (slot0, slot1)
 		if slot0.state == slot1.state then
-			return slot0.id < slot1.id
+			return slot0.index < slot1.index
 		else
 			return slot3 < slot2
 		end

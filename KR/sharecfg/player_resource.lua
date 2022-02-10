@@ -690,6 +690,21 @@ pg.player_resource = {
 		name = "skinTicket27",
 		itemid = 59264
 	},
+	[236] = {
+		id = 236,
+		name = "maoxi_pt2",
+		itemid = 59271
+	},
+	[237] = {
+		id = 237,
+		name = "maoxifukeframept",
+		itemid = 59272
+	},
+	[238] = {
+		id = 238,
+		name = "skinTicket28",
+		itemid = 59273
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1270,6 +1285,15 @@ pg.player_resource = {
 		skinTicket27 = {
 			235
 		},
+		maoxi_pt2 = {
+			236
+		},
+		maoxifukeframept = {
+			237
+		},
+		skinTicket28 = {
+			238
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1509,6 +1533,9 @@ pg.player_resource = {
 		232,
 		234,
 		235,
+		236,
+		237,
+		238,
 		950,
 		951,
 		952,

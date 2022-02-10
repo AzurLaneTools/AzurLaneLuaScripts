@@ -6,6 +6,7 @@ slot0.STATE_FINISHED = 2
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.id = slot1.id
+	slot0.index = slot2 or 99
 	slot0.configId = slot0.id
 	slot0.finishTime = slot1.finish_time or 0
 	slot0.beginTime = slot1.begin_time or 0

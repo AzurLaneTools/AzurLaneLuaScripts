@@ -561,7 +561,7 @@ function slot0.initCommandersPanel(slot0)
 	slot0.cards = {}
 
 	function slot0.commanderRect.onInitItem(slot0)
-		slot1 = CommamderCard.New(slot0)
+		slot1 = CommanderCard.New(slot0)
 
 		onButton(uv0, slot1.infoTF, function ()
 			if not uv0.commanderVO then
@@ -607,7 +607,7 @@ function slot0.initCommandersPanel(slot0)
 
 	function slot0.commanderRect.onUpdateItem(slot0, slot1)
 		if not uv0.cards[slot1] then
-			uv0.cards[slot1] = CommamderCard.New(slot1)
+			uv0.cards[slot1] = CommanderCard.New(slot1)
 		end
 
 		slot2:update(uv0.disPlayCommanderVOs[slot0 + 1])

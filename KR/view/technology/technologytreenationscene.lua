@@ -297,7 +297,7 @@ function slot0.updateDetailPanel(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot17 = slot16[3]
 			slot18 = slot16[4]
 
-			for slot23, slot24 in ipairs(slot16[2]) do
+			for slot23, slot24 in ipairs(ShipType.FilterOverQuZhuType(slot16[2])) do
 				slot25 = nil
 				slot25 = (not slot2 or (table.indexof(slot5, slot24, 1) or {
 					attr = slot17,

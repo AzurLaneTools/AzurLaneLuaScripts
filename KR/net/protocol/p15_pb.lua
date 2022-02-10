@@ -5,6 +5,7 @@ module("p15_pb")
 slot2 = {
 	SC_15001_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_15001_LIMIT_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_15001_ITEM_MISC_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_15002_ID_FIELD = slot0.FieldDescriptor(),
 	CS_15002_COUNT_FIELD = slot0.FieldDescriptor(),
 	CS_15002_ARG_FIELD = slot0.FieldDescriptor(),
@@ -24,6 +25,8 @@ slot2 = {
 	SC_15013_RET_LIST_FIELD = slot0.FieldDescriptor(),
 	ITEMINFO_ID_FIELD = slot0.FieldDescriptor(),
 	ITEMINFO_COUNT_FIELD = slot0.FieldDescriptor(),
+	ITEMMISC_ID_FIELD = slot0.FieldDescriptor(),
+	ITEMMISC_DATA_FIELD = slot0.FieldDescriptor(),
 	CS_15300_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_15300_VER_STR_FIELD = slot0.FieldDescriptor()
 }
@@ -41,6 +44,7 @@ SC_15011 = slot0.Descriptor()
 CS_15012 = slot0.Descriptor()
 SC_15013 = slot0.Descriptor()
 ITEMINFO = slot0.Descriptor()
+ITEMMISC = slot0.Descriptor()
 CS_15300 = slot0.Descriptor()
 slot2.SC_15001_ITEM_LIST_FIELD.name = "item_list"
 slot2.SC_15001_ITEM_LIST_FIELD.full_name = "p15.sc_15001.item_list"
@@ -62,13 +66,24 @@ slot2.SC_15001_LIMIT_LIST_FIELD.default_value = {}
 slot2.SC_15001_LIMIT_LIST_FIELD.message_type = ITEMINFO
 slot2.SC_15001_LIMIT_LIST_FIELD.type = 11
 slot2.SC_15001_LIMIT_LIST_FIELD.cpp_type = 10
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.name = "item_misc_list"
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.full_name = "p15.sc_15001.item_misc_list"
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.number = 3
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.index = 2
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.label = 3
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.has_default_value = false
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.default_value = {}
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.message_type = ITEMMISC
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.type = 11
+slot2.SC_15001_ITEM_MISC_LIST_FIELD.cpp_type = 10
 SC_15001.name = "sc_15001"
 SC_15001.full_name = "p15.sc_15001"
 SC_15001.nested_types = {}
 SC_15001.enum_types = {}
 SC_15001.fields = {
 	slot2.SC_15001_ITEM_LIST_FIELD,
-	slot2.SC_15001_LIMIT_LIST_FIELD
+	slot2.SC_15001_LIMIT_LIST_FIELD,
+	slot2.SC_15001_ITEM_MISC_LIST_FIELD
 }
 SC_15001.is_extendable = false
 SC_15001.extensions = {}
@@ -370,6 +385,34 @@ ITEMINFO.fields = {
 }
 ITEMINFO.is_extendable = false
 ITEMINFO.extensions = {}
+slot2.ITEMMISC_ID_FIELD.name = "id"
+slot2.ITEMMISC_ID_FIELD.full_name = "p15.itemmisc.id"
+slot2.ITEMMISC_ID_FIELD.number = 1
+slot2.ITEMMISC_ID_FIELD.index = 0
+slot2.ITEMMISC_ID_FIELD.label = 2
+slot2.ITEMMISC_ID_FIELD.has_default_value = false
+slot2.ITEMMISC_ID_FIELD.default_value = 0
+slot2.ITEMMISC_ID_FIELD.type = 13
+slot2.ITEMMISC_ID_FIELD.cpp_type = 3
+slot2.ITEMMISC_DATA_FIELD.name = "data"
+slot2.ITEMMISC_DATA_FIELD.full_name = "p15.itemmisc.data"
+slot2.ITEMMISC_DATA_FIELD.number = 2
+slot2.ITEMMISC_DATA_FIELD.index = 1
+slot2.ITEMMISC_DATA_FIELD.label = 2
+slot2.ITEMMISC_DATA_FIELD.has_default_value = false
+slot2.ITEMMISC_DATA_FIELD.default_value = 0
+slot2.ITEMMISC_DATA_FIELD.type = 13
+slot2.ITEMMISC_DATA_FIELD.cpp_type = 3
+ITEMMISC.name = "itemmisc"
+ITEMMISC.full_name = "p15.itemmisc"
+ITEMMISC.nested_types = {}
+ITEMMISC.enum_types = {}
+ITEMMISC.fields = {
+	slot2.ITEMMISC_ID_FIELD,
+	slot2.ITEMMISC_DATA_FIELD
+}
+ITEMMISC.is_extendable = false
+ITEMMISC.extensions = {}
 slot2.CS_15300_TYPE_FIELD.name = "type"
 slot2.CS_15300_TYPE_FIELD.full_name = "p15.cs_15300.type"
 slot2.CS_15300_TYPE_FIELD.number = 1
@@ -406,6 +449,7 @@ cs_15010 = slot0.Message(CS_15010)
 cs_15012 = slot0.Message(CS_15012)
 cs_15300 = slot0.Message(CS_15300)
 iteminfo = slot0.Message(ITEMINFO)
+itemmisc = slot0.Message(ITEMMISC)
 sc_15001 = slot0.Message(SC_15001)
 sc_15003 = slot0.Message(SC_15003)
 sc_15005 = slot0.Message(SC_15005)

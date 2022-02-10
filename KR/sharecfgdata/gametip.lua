@@ -18921,6 +18921,26 @@ _G.pg.gametip.tactics_class_spend_time = {
 	tip = "소요 시간"
 }
 
+_G.pg.gametip.build_ticket_description = {
+	tip = "※活动结束后清空 "
+}
+
+_G.pg.gametip.build_ticket_expire_warning = {
+	tip = "x$1 即将过期"
+}
+
+_G.pg.gametip.tip_build_ticket_expired = {
+	tip = "该活动已结束，无法使用「$1」"
+}
+
+_G.pg.gametip.tip_build_ticket_not_enough = {
+	tip = "「$1」数量不足"
+}
+
+_G.pg.gametip.build_ship_tip_use_ticket = {
+	tip = "建造<color=#ff5c5c>「$1艘」</color>$2需要消耗:\n<color=$5>「$3个$4」</color>"
+}
+
 _G.pg.gametip.springfes_tips1 = {
 	tip = {
 		{

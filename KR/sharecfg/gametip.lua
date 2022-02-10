@@ -17047,113 +17047,138 @@ cs.gametip = {
 		92,
 		true
 	},
-	springfes_tips1 = {
+	build_ticket_description = {
 		625712,
+		104,
+		true
+	},
+	build_ticket_expire_warning = {
+		625816,
+		98,
+		true
+	},
+	tip_build_ticket_expired = {
+		625914,
+		120,
+		true
+	},
+	tip_build_ticket_not_enough = {
+		626034,
+		102,
+		true
+	},
+	build_ship_tip_use_ticket = {
+		626136,
+		168,
+		true
+	},
+	springfes_tips1 = {
+		626304,
 		1039,
 		true
 	},
 	worldinpicture_tavel_point_tip = {
-		626751,
+		627343,
 		101,
 		true
 	},
 	worldinpicture_draw_point_tip = {
-		626852,
+		627444,
 		100,
 		true
 	},
 	worldinpicture_help = {
-		626952,
+		627544,
 		883,
 		true
 	},
 	worldinpicture_task_help = {
-		627835,
+		628427,
 		888,
 		true
 	},
 	worldinpicture_not_area_can_draw = {
-		628723,
+		629315,
 		114,
 		true
 	},
 	missile_attack_area_confirm = {
-		628837,
+		629429,
 		95,
 		true
 	},
 	missile_attack_area_cancel = {
-		628932,
+		629524,
 		94,
 		true
 	},
 	shipchange_alert_infleet = {
-		629026,
+		629618,
 		172,
 		true
 	},
 	shipchange_alert_inpvp = {
-		629198,
+		629790,
 		187,
 		true
 	},
 	shipchange_alert_inexercise = {
-		629385,
+		629977,
 		192,
 		true
 	},
 	shipchange_alert_inworld = {
-		629577,
+		630169,
 		179,
 		true
 	},
 	shipchange_alert_inguildbossevent = {
-		629756,
+		630348,
 		194,
 		true
 	},
 	shipchange_alert_indiff = {
-		629950,
+		630542,
 		181,
 		true
 	},
 	shipmodechange_reject_1stfleet_only = {
-		630131,
+		630723,
 		204,
 		true
 	},
 	shipmodechange_reject_worldfleet_only = {
-		630335,
+		630927,
 		209,
 		true
 	},
 	shipmodechange_reject_inactivity = {
-		630544,
+		631136,
 		214,
 		true
 	},
 	monopoly3thre_tip = {
-		630758,
+		631350,
 		149,
 		true
 	},
 	fushun_game3_tip = {
-		630907,
+		631499,
 		1254,
 		true
 	},
 	battlepass_main_tip_2202 = {
-		632161,
+		632753,
 		278,
 		true
 	},
 	battlepass_main_help_2202 = {
-		632439,
+		633031,
 		3443,
 		true
 	},
 	cruise_task_help_2202 = {
-		635882,
+		636474,
 		1405,
 		true
 	}

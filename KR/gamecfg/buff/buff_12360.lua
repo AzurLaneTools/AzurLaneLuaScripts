@@ -31,7 +31,7 @@ return {
 				skill_id = 12360,
 				target = "TargetSelf",
 				check_target = {
-					"TargetPlayerVanguardFleet",
+					"TargetAllHelp",
 					"TargetShipTypeFriendly"
 				},
 				ship_type_list = {

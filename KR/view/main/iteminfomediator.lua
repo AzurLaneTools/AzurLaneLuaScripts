@@ -98,10 +98,11 @@ end
 function slot0.updateItem(slot0)
 	slot1 = slot0.contextData.info
 	slot4 = nil
-	slot4 = slot0.contextData.mine and (getProxy(BagProxy):getItemById(slot1.id) or Item.New({
-		count = 0,
-		id = slot1.id
-	})) or Item.New({
+	slot4 = (not slot0.contextData.mine or Item.New({
+		id = slot1.id,
+		count = slot1.extra and 1 or getProxy(BagProxy):getItemCountById(slot1.id),
+		extra = slot1.extra
+	})) and Item.New({
 		id = slot1.id,
 		count = defaultValue(slot1.count, 0)
 	})

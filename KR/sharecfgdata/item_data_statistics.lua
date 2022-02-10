@@ -39633,6 +39633,27 @@ _G.pg.item_data_statistics[43431] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[44001] = {
+	display = "$1에게 받은 밸런타인 데이 선물",
+	name = "밸런타인 데이 선물",
+	max_num = 0,
+	type = 23,
+	drop_oil_max = 0,
+	rarity = 8,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	id = 44001,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[50001] = {
 	display = "산소가 충전되어 있는 콜라. 독특한 맛으로, 아마 지휘관은 마실 수 없다.",
 	name = "산소 콜라",
@@ -147314,6 +147335,90 @@ _G.pg.item_data_statistics[59270] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59270,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59271] = {
+	display = "「동절의 북해」이벤트에서 교환. 이벤트 종료 후 사라집니다. ",
+	name = "정보Pt ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/maoxi_pt",
+	id = 59271,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59272] = {
+	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "훈련 PT ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59272,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59273] = {
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59273,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59274] = {
+	display = "『동절의 북해』 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
+	name = "1회 건조권",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 20987,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59274,
 	display_icon = {},
 	price = {},
 	index = {}

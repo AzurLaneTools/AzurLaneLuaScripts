@@ -7,6 +7,7 @@ slot2 = {
 	SC_12001_SHIPLIST_FIELD = slot0.FieldDescriptor(),
 	CS_12002_ID_FIELD = slot0.FieldDescriptor(),
 	CS_12002_COUNT_FIELD = slot0.FieldDescriptor(),
+	CS_12002_COSTTYPE_FIELD = slot0.FieldDescriptor(),
 	SC_12003_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_12003_BUILD_INFO_FIELD = slot0.FieldDescriptor(),
 	CS_12004_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
@@ -174,13 +175,23 @@ slot2.CS_12002_COUNT_FIELD.has_default_value = false
 slot2.CS_12002_COUNT_FIELD.default_value = 0
 slot2.CS_12002_COUNT_FIELD.type = 13
 slot2.CS_12002_COUNT_FIELD.cpp_type = 3
+slot2.CS_12002_COSTTYPE_FIELD.name = "costtype"
+slot2.CS_12002_COSTTYPE_FIELD.full_name = "p12.cs_12002.costtype"
+slot2.CS_12002_COSTTYPE_FIELD.number = 3
+slot2.CS_12002_COSTTYPE_FIELD.index = 2
+slot2.CS_12002_COSTTYPE_FIELD.label = 2
+slot2.CS_12002_COSTTYPE_FIELD.has_default_value = false
+slot2.CS_12002_COSTTYPE_FIELD.default_value = 0
+slot2.CS_12002_COSTTYPE_FIELD.type = 13
+slot2.CS_12002_COSTTYPE_FIELD.cpp_type = 3
 CS_12002.name = "cs_12002"
 CS_12002.full_name = "p12.cs_12002"
 CS_12002.nested_types = {}
 CS_12002.enum_types = {}
 CS_12002.fields = {
 	slot2.CS_12002_ID_FIELD,
-	slot2.CS_12002_COUNT_FIELD
+	slot2.CS_12002_COUNT_FIELD,
+	slot2.CS_12002_COSTTYPE_FIELD
 }
 CS_12002.is_extendable = false
 CS_12002.extensions = {}

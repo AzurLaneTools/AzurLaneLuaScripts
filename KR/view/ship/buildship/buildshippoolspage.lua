@@ -16,9 +16,50 @@ function slot0.UpdateActivityBuildPage(slot0, slot1)
 	slot0:Flush(slot1)
 end
 
+function slot0.RefreshFreeBuildActivity(slot0)
+	if slot0.freeAcTimer then
+		slot0.freeAcTimer:Stop()
+
+		slot0.freeAcTimer = nil
+	end
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE) and not slot1:isEnd() then
+		slot0.freeActivity = slot1
+		slot2 = {
+			type = DROP_TYPE_VITEM,
+			id = slot1:getConfig("config_client")[1],
+			count = slot1.data1
+		}
+		slot2.cfg = Item.GetConfig(slot2.type, slot2.id)
+
+		setActive(slot0.freeCount:Find("tip"), slot1.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 and slot2.count > 0)
+		LoadImageSpriteAtlasAsync(slot2.cfg.icon, "", slot0.freeCount:Find("icon"))
+		setText(slot0.ticketTF, slot1.data1)
+		onButton(slot0, slot0.freeCount, function ()
+			uv0:emit(BaseUI.ON_DROP, uv1)
+		end, SFX_PANEL)
+
+		slot4 = slot0:findTF("gallery/item_bg/ticket")
+
+		LoadImageSpriteAtlasAsync(slot2.cfg.icon, "", slot4:Find("icon"))
+		setText(slot4:Find("name"), slot2.cfg.name)
+		setText(slot4:Find("tip"), i18n("build_ticket_description"))
+
+		slot0.freeAcTimer = Timer.New(function ()
+			uv0:emit(BuildShipMediator.ON_UPDATE_ACT)
+		end, slot0.freeActivity.stopTime - pg.TimeMgr.GetInstance():GetServerTime())
+
+		return
+	end
+
+	slot0.freeActivity = nil
+end
+
 function slot0.OnLoaded(slot0)
 	slot0.quickCount = slot0:findTF("gallery/item")
 	slot0.useItemTF = slot0:findTF("Text", slot0.quickCount)
+	slot0.freeCount = slot0:findTF("gallery/ticket")
+	slot0.ticketTF = slot0:findTF("Text", slot0.freeCount)
 	slot0.patingTF = slot0:findTF("painting")
 	slot0.poolContainer = slot0:findTF("gallery/toggle_bg/toggles")
 	slot0.activityTpl = slot0:findTF("resources/new")
@@ -91,6 +132,7 @@ function slot0.Flush(slot0, slot1)
 		slot0.poolTFs[slot6:GetMark()] = slot8
 	end
 
+	slot0:RefreshFreeBuildActivity()
 	slot0:ActivePool()
 	slot0:UpdateItem()
 end
@@ -109,6 +151,22 @@ end
 
 function slot0.UpdateItem(slot0)
 	setText(slot0.useItemTF, slot0.contextData.itemVO.count)
+end
+
+function slot0.UpdateTicket(slot0)
+	slot1 = false
+
+	if slot0.freeActivity and not slot0.freeActivity:isEnd() and table.contains(slot0.freeActivity:getConfig("config_data"), slot0.pool.id) then
+		slot1 = true
+	end
+
+	setActive(slot0.freeCount, slot1)
+
+	slot0.useTicket = slot1 and slot0.freeActivity.data1 > 0
+
+	setActive(slot0:findTF("gallery/item_bg/item"), not slot0.useTicket)
+	setActive(slot0:findTF("gallery/item_bg/gold"), not slot0.useTicket)
+	setActive(slot0:findTF("gallery/item_bg/ticket"), slot0.useTicket)
 end
 
 function slot0.SwitchPool(slot0, slot1)
@@ -130,19 +188,44 @@ function slot0.SwitchPool(slot0, slot1)
 	slot0:UpdateTestBtn(slot1)
 	slot0:UpdateBuildPoolPaiting(slot4)
 	onButton(slot0, slot0:findTF("gallery/start_btn"), function ()
-		slot1 = uv0.contextData.msgbox
+		slot0 = nil
 
-		slot1:ExecuteAction("Show", uv0.contextData.player, uv0.contextData.itemVO, uv1, math.max(1, _.min({
-			math.floor(uv0.contextData.player.gold / uv1.use_gold),
-			math.floor(uv0.contextData.itemVO.count / uv1.number_1),
-			MAX_BUILD_WORK_COUNT - uv0.contextData.startCount
-		})), function (slot0)
-			if uv0:IsActivity() then
-				uv1:emit(BuildShipMediator.ACT_ON_BUILD, uv0:GetActivityId(), uv2.id, slot0)
-			else
-				uv1:emit(BuildShipMediator.ON_BUILD, uv2.id, slot0)
-			end
-		end)
+		if uv0.useTicket then
+			slot4 = uv0.freeActivity
+			slot0 = {
+				isTicket = true,
+				itemVO = Item.New({
+					id = slot4:getConfig("config_client")[1],
+					count = uv0.freeActivity.data1
+				}),
+				buildPool = uv1,
+				max = MAX_BUILD_WORK_COUNT - uv0.contextData.startCount,
+				onConfirm = function (slot0)
+					if uv0:IsActivity() then
+						uv1:emit(BuildShipMediator.ACT_ON_BUILD, uv0:GetActivityId(), uv2.id, slot0, true)
+					else
+						uv1:emit(BuildShipMediator.ON_BUILD, uv2.id, slot0, true)
+					end
+				end
+			}
+		else
+			slot0 = {
+				isTicket = false,
+				player = uv0.contextData.player,
+				itemVO = uv0.contextData.itemVO,
+				buildPool = uv1,
+				max = MAX_BUILD_WORK_COUNT - uv0.contextData.startCount,
+				onConfirm = function (slot0)
+					if uv0:IsActivity() then
+						uv1:emit(BuildShipMediator.ACT_ON_BUILD, uv0:GetActivityId(), uv2.id, slot0)
+					else
+						uv1:emit(BuildShipMediator.ON_BUILD, uv2.id, slot0)
+					end
+				end
+			}
+		end
+
+		uv0.contextData.msgbox:ExecuteAction("Show", slot0)
 	end, SFX_UI_BUILDING_STARTBUILDING)
 
 	BuildShipScene.projectName = slot2
@@ -192,6 +275,7 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 	end
 
 	setActive(slot0.buildPoolExchangeTF, slot6)
+	slot0:UpdateTicket()
 end
 
 function slot0.UpdateTestBtn(slot0, slot1)
@@ -242,6 +326,12 @@ function slot0.RemoveAllTimer(slot0)
 	end
 
 	slot0.activityTimer = {}
+
+	if slot0.freeAcTimer then
+		slot0.freeAcTimer:Stop()
+
+		slot0.freeAcTimer = nil
+	end
 end
 
 function slot0.ShowOrHide(slot0, slot1, slot2)

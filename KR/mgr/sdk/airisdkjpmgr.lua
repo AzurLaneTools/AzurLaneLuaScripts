@@ -47,7 +47,7 @@ function AiriLogin(slot0)
 
 		uv0.isCache = true
 	else
-		if slot0.R_CODE:ToInt() == 100233 and pg.TimeMgr.GetInstance():GetServerTime() < tonumber(slot0.R_DELETETIME) then
+		if slot0.R_CODE:ToInt() == 100233 and pg.TimeMgr.GetInstance():GetServerTime() < tonumber(string.sub(slot0.R_DELETETIME, 1, string.len(slot0.R_DELETETIME) - 3)) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot3, "%Y-%m-%d %H:%M:%S")),
@@ -151,7 +151,7 @@ function AccountDeleteResult(slot0, slot1, slot2, slot3, slot4)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
 			hideNo = true,
-			content = i18n("box_account_del_success_content", pg.TimeMgr.GetInstance():CTimeDescC(tonumber(slot3), "%Y-%m-%d %H:%M:%S")),
+			content = i18n("box_account_del_success_content", pg.TimeMgr.GetInstance():CTimeDescC(tonumber(string.sub(slot3, 1, string.len(slot3) - 3)), "%Y-%m-%d %H:%M:%S")),
 			weight = LayerWeightConst.TOP_LAYER,
 			onYes = function ()
 				pg.m02:sendNotification(GAME.LOGOUT, {

@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[15] = {
-		answer_right = "역풍항행한다",
-		answer_false1 = "순항한다",
-		question = "항공기의 이륙 거리를 단축시키기 위해, 항공모함은 항공기 이륙 시 ().",
+	[29] = {
+		answer_right = "1.85km/h",
+		answer_false1 = "1.45mi/h",
+		question = "항속 단위 1 \"노트\"와 같은 속도는?",
 		type = 1,
-		id = 15,
-		answer_false3 = "정지한다",
-		wrong_time = 300,
-		answer_false2 = "측풍항행한다"
+		id = 29,
+		answer_false3 = "2km/h",
+		wrong_time = 30,
+		answer_false2 = "1mi/h"
 	},
-	[16] = {
-		answer_right = "기계식 스프링",
-		answer_false1 = "증기",
-		question = "다음 중 항공모함이나 군함이 항공기를 발사하기 위해 사용한 메커니즘이 아닌 것은?",
+	[30] = {
+		answer_right = "305mm",
+		answer_false1 = "203mm",
+		question = "역사상 구축함이 장비했던 함포 중 최대 함포 구경은?",
 		type = 1,
-		id = 16,
-		answer_false3 = "유압",
-		wrong_time = 300,
-		answer_false2 = "화약"
+		id = 30,
+		answer_false3 = "138.6mm",
+		wrong_time = 30,
+		answer_false2 = "150mm"
 	},
-	[17] = {
-		answer_right = "확성기",
-		answer_false1 = "수기 신호",
-		question = "다음 중 군함의 통신 방식이 아닌 것은?",
+	[31] = {
+		answer_right = "지근탄",
+		answer_false1 = "불발탄",
+		question = "전함이 발사한 포탄이 적함 주위에 떨어지며 명중하지 못한 현상은?",
 		type = 1,
-		id = 17,
-		answer_false3 = "무선 전신 통신",
-		wrong_time = 300,
-		answer_false2 = "표시등"
+		id = 31,
+		answer_false3 = "확산탄",
+		wrong_time = 30,
+		answer_false2 = "직격탄"
 	},
-	[18] = {
-		answer_right = "장갑형",
-		answer_false1 = "구형",
-		question = "다음 중 함선의 선수 유형에 속하지 않는 것은?",
+	[32] = {
+		answer_right = "1955년",
+		answer_false1 = "1986년",
+		question = "세계에서 가장 마지막으로 완공된 전함이 완공된 년도는?",
 		type = 1,
-		id = 18,
-		answer_false3 = "경사형",
-		wrong_time = 300,
-		answer_false2 = "클리프"
+		id = 32,
+		answer_false3 = "1973년",
+		wrong_time = 30,
+		answer_false2 = "1951년"
 	},
-	[19] = {
-		answer_right = "근접 신관",
-		answer_false1 = "충격 신관",
-		question = "VT 신관의 또 다른 명칭은?",
+	[33] = {
+		answer_right = "지면 효과 이륙",
+		answer_false1 = "수직 이륙",
+		question = "다음 중 항공모함 함재기의 이륙 방식이 아닌 것은?",
 		type = 1,
-		id = 19,
-		answer_false3 = "기압 신관",
-		wrong_time = 300,
-		answer_false2 = "시한 신관"
+		id = 33,
+		answer_false3 = "캐터펄트",
+		wrong_time = 30,
+		answer_false2 = "로켓 보조"
 	},
-	[20] = {
-		answer_right = "니어 미스",
-		answer_false1 = "과잉 관통",
-		question = "포탄이 직접 선체를 명중시키지 않고 부근의 해수면에 떨어져 폭발하는 현상은?",
+	[34] = {
+		answer_right = "중력",
+		answer_false1 = "음향",
+		question = "다음 중 어뢰에 사용되는 신관이 아닌 것은?",
 		type = 1,
-		id = 20,
-		answer_false3 = "셋 모두 아님",
-		wrong_time = 300,
-		answer_false2 = "수중 폭탄"
+		id = 34,
+		answer_false3 = "자기장",
+		wrong_time = 30,
+		answer_false2 = "접촉"
 	},
-	[21] = {
-		answer_right = "폭뢰",
-		answer_false1 = "주포",
-		question = "구축함은 무엇을 통해 수중의 잠수함을 공격할 수 있는가?",
+	[35] = {
+		answer_right = "HE",
+		answer_false1 = "HEAT",
+		question = "고폭탄의 영문 약칭은?",
 		type = 1,
-		id = 21,
-		answer_false3 = "충돌",
-		wrong_time = 300,
-		answer_false2 = "대공포"
+		id = 35,
+		answer_false3 = "HAP",
+		wrong_time = 30,
+		answer_false2 = "HESH"
 	},
-	[22] = {
-		answer_right = "조명탄",
-		answer_false1 = "통상탄",
-		question = "다음 중 게임 내 함포의 포탄 종류에 속하지 않는 것은?",
+	[36] = {
+		answer_right = "20",
+		answer_false1 = "10",
+		question = "함대 상점에서 장비 강화 부속 T4를 한 주에 최대 ()개 획득할 수 있다.",
 		type = 2,
-		id = 22,
-		answer_false3 = "고폭탄 ",
-		wrong_time = 300,
-		answer_false2 = "철갑탄 "
+		id = 36,
+		answer_false3 = "0",
+		wrong_time = 30,
+		answer_false2 = "30"
 	},
-	[23] = {
-		answer_right = "대잠수함 공격기",
+	[37] = {
+		answer_right = "대미지 상승",
+		answer_false1 = "이륙 가속",
+		question = "항공모함이 \"은닉\" 상태일 때, 획득할 수 있는 버프 효과는?",
+		type = 2,
+		id = 37,
+		answer_false3 = "내구도 회복",
+		wrong_time = 30,
+		answer_false2 = "대미지 면역"
+	},
+	[38] = {
+		answer_right = "7",
+		answer_false1 = "5",
+		question = "대형 작전에서, 유저는 데일리 미션을 동시에 최대 ()개 수령할 수 있다.",
+		type = 2,
+		id = 38,
+		answer_false3 = "8",
+		wrong_time = 30,
+		answer_false2 = "6"
+	},
+	[39] = {
+		answer_right = "스킬 효력 상실",
+		answer_false1 = "내구도 상한 감소",
+		question = "대형 작전에서 함선이 전투 피해 상태일 때, 발생하는 효과는?",
+		type = 2,
+		id = 39,
+		answer_false3 = "대미지 상승",
+		wrong_time = 30,
+		answer_false2 = "장전 상승"
+	},
+	[40] = {
+		answer_right = "대공포",
 		answer_false1 = "전투기",
-		question = "다음 항공기 중 게임 내 스테이지의 제공 수치에 포함되지 않는 것은?",
+		question = "장비 개발에서 개발 가능한 장비가 가장 많은 장비 종류는?",
 		type = 2,
-		id = 23,
-		answer_false3 = "폭격기",
-		wrong_time = 300,
-		answer_false2 = "뇌격기"
+		id = 40,
+		answer_false3 = "구축함 주포",
+		wrong_time = 30,
+		answer_false2 = "어뢰&폭격기"
 	},
-	[24] = {
-		answer_right = "침수 상태",
-		answer_false1 = "공중지원",
-		question = "다음 중 항공모함의 피탐지 게이지가 증가하지 않는 경우는?",
+	[41] = {
+		answer_right = "함대 항속 상승",
+		answer_false1 = "함대 기동 상승",
+		question = "다음 중 작전 시 매복 당할 확률을 감소시키지 못하는 방법은?",
 		type = 2,
-		id = 24,
-		answer_false3 = "적함과 접촉",
-		wrong_time = 300,
-		answer_false2 = "연소 상태"
+		id = 41,
+		answer_false3 = "특수 장비 휴대",
+		wrong_time = 30,
+		answer_false2 = "함대 항공 상승"
 	},
-	[25] = {
-		answer_right = "안전 해역",
-		answer_false1 = "고위험 해역",
-		question = "스테이지 주회모드는 3성 클리어 및 ()을 달성하여야 한다.",
+	[42] = {
+		answer_right = "3000",
+		answer_false1 = "4000",
+		question = "[함선 연습 데이터 T1]의 최대 저장량은?",
 		type = 2,
-		id = 25,
-		answer_false3 = "저위험 해역",
-		wrong_time = 300,
-		answer_false2 = "위험 해역"
-	},
-	[26] = {
-		answer_right = "120",
-		answer_false1 = "70",
-		question = "현재 게임 내에서 함선이 도달할 수 있는 최대 레벨은?",
-		type = 2,
-		id = 26,
-		answer_false3 = "100",
-		wrong_time = 300,
-		answer_false2 = "90"
-	},
-	[27] = {
-		answer_right = "제한 없음",
-		answer_false1 = "4회",
-		question = "하루 동안 군사의뢰를 최대 몇 회 완료할 수 있는가?",
-		type = 2,
-		id = 27,
-		answer_false3 = "15회",
-		wrong_time = 300,
-		answer_false2 = "8회"
-	},
-	[28] = {
-		answer_right = "함선 경험치",
-		answer_false1 = "물자",
-		question = "게임 내에서 다이아를 사용해 구매할 수 없는 것은?",
-		type = 2,
-		id = 28,
-		answer_false3 = "성정 큐브",
-		wrong_time = 300,
-		answer_false2 = "연료"
+		id = 42,
+		answer_false3 = "5000",
+		wrong_time = 30,
+		answer_false2 = "무제한"
 	},
 	all = {
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39,
+		40,
+		41,
+		42
 	}
 }

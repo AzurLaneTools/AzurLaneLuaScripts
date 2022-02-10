@@ -141044,6 +141044,1524 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[17370] = {
+		name = "『毛系V1复刻』角色收集：塔什干",
+		guild_coin_award = 0,
+		award = 96870,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [타슈켄트] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17370,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			70104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				600
+			}
+		}
+	},
+	[17371] = {
+		name = "『毛系V1复刻』角色收集：恰巴耶夫",
+		guild_coin_award = 0,
+		award = 96871,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [차파예프] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17371,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			70203
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				600
+			}
+		}
+	},
+	[17372] = {
+		name = "『毛系V1复刻』角色收集：苏维埃罗希娅",
+		guild_coin_award = 0,
+		award = 96872,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [소비에츠카야 러시아] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17372,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			70505
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				600
+			}
+		}
+	},
+	[17373] = {
+		name = "『毛系V1复刻』角色收集：甘古特",
+		guild_coin_award = 0,
+		award = 96873,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [강구트] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17373,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			70501
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				400
+			}
+		}
+	},
+	[17374] = {
+		name = "『毛系V1复刻』角色收集：威严",
+		guild_coin_award = 0,
+		award = 96874,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [그로즈니] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17374,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			70102
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				400
+			}
+		}
+	},
+	[17375] = {
+		name = "『毛系V1复刻』角色收集：水星纪念",
+		guild_coin_award = 0,
+		award = 96875,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [파먀티 메르쿠리야] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17375,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			70202
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				400
+			}
+		}
+	},
+	[17376] = {
+		name = "『毛系V1复刻』角色收集：明斯克",
+		guild_coin_award = 0,
+		award = 96876,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1014,
+		desc = "함선 [민스크] 획득",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17376,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			70103
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				400
+			}
+		}
+	},
+	[17377] = {
+		name = "『毛系V1复刻』角色刷关：菲尼克斯",
+		guild_coin_award = 0,
+		award = 96877,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 피닉스를 사용해 A2 혹은 C2의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17377,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1330113,
+			1332113
+		},
+		target_id_2 = {
+			102044
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				100
+			}
+		}
+	},
+	[17378] = {
+		name = "『毛系V1复刻』角色刷关：波特兰",
+		guild_coin_award = 0,
+		award = 96878,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 포틀랜드를 사용해 A3 혹은 C3의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17378,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1330213,
+			1332213
+		},
+		target_id_2 = {
+			103064
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				100
+			}
+		}
+	},
+	[17379] = {
+		name = "『毛系V1复刻』角色刷关：南达科他",
+		guild_coin_award = 0,
+		award = 96879,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 사우스다코타를 사용해 B2 혹은 D2의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17379,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1331113,
+			1333113
+		},
+		target_id_2 = {
+			105144
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				300
+			}
+		}
+	},
+	[17380] = {
+		name = "『毛系V1复刻』角色刷关：企业",
+		guild_coin_award = 0,
+		award = 96880,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 엔터프라이즈를 사용해 B3 혹은 D3의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17380,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1331213,
+			1333213
+		},
+		target_id_2 = {
+			107064
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59272,
+				300
+			}
+		}
+	},
+	[17381] = {
+		name = "『毛系V1复刻』-日常建造",
+		guild_coin_award = 0,
+		award = 96881,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "함선을 3척 「건조」하라!",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17381,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59271,
+				300
+			}
+		}
+	},
+	[17382] = {
+		name = "『毛系V1复刻』-日常出击",
+		guild_coin_award = 0,
+		award = 96882,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "전투에서 15번 승리하라!",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17382,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59271,
+				300
+			},
+			{
+				8,
+				59274,
+				1
+			}
+		}
+	},
+	[17383] = {
+		name = "『毛系V1复刻』-日常困难本",
+		guild_coin_award = 0,
+		award = 96883,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17383,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59271,
+				150
+			}
+		}
+	},
+	[17384] = {
+		name = "『毛系V1复刻』通关A1/C1",
+		guild_coin_award = 0,
+		award = 96884,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "A1 혹은 C1 클리어",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17385",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17384,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610001,
+			1610021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				59274,
+				1
+			},
+			{
+				2,
+				59271,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17385] = {
+		name = "『毛系V1复刻』通关A2/C2",
+		guild_coin_award = 0,
+		award = 96885,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "A2 혹은 C2 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17386",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17385,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610002,
+			1610022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				59274,
+				1
+			},
+			{
+				2,
+				59271,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17386] = {
+		name = "『毛系V1复刻』通关A3/C3",
+		guild_coin_award = 0,
+		award = 96886,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "A3 혹은 C3 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17387",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17386,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610003,
+			1610023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				59274,
+				1
+			},
+			{
+				2,
+				59271,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17387] = {
+		name = "『毛系V1复刻』通关B1/D1",
+		guild_coin_award = 0,
+		award = 96887,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "B1 혹은 D1 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17388",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17387,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610004,
+			1610024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				59274,
+				1
+			},
+			{
+				2,
+				59271,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17388] = {
+		name = "『毛系V1复刻』通关B2/D2",
+		guild_coin_award = 0,
+		award = 96888,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "B2 혹은 D2 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17389",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17388,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610005,
+			1610025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				59274,
+				1
+			},
+			{
+				2,
+				59271,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17389] = {
+		name = "『毛系V1复刻』通关B3/D3",
+		guild_coin_award = 0,
+		award = 96889,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "B3 혹은 D3 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17390",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17389,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610006,
+			1610026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				59274,
+				1
+			},
+			{
+				2,
+				59271,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17390] = {
+		name = "『毛系V1复刻』通关SP",
+		guild_coin_award = 0,
+		award = 96890,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "SP를 클리어",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1610041",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1610041,
+		id = 17390,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				59274,
+				1
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17391] = {
+		name = "『毛系V1复刻』通关D3",
+		guild_coin_award = 0,
+		award = 96891,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "D3을 클리어 <color=#92fc63>(훈장은 중복 획득할 수 없습니다)</color>",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1610026",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1610026,
+		id = 17391,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				167,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17392] = {
+		name = "『毛系V1复刻』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 96892,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "A1 혹은 C1의 3성 수집 완료",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17393",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17392,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610001,
+			1610021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17393] = {
+		name = "『毛系V1复刻』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 96893,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "A2 혹은 C2의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17394",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17393,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610002,
+			1610022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17394] = {
+		name = "『毛系V1复刻』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 96894,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "A3 혹은 C3의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17395",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17394,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610003,
+			1610023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17395] = {
+		name = "『毛系V1复刻』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 96895,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "B1 혹은 D1의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17396",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17395,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610004,
+			1610024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17396] = {
+		name = "『毛系V1复刻』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 96896,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "B2 혹은 D2의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "17397",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17396,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610005,
+			1610025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17397] = {
+		name = "『毛系V1复刻』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 96897,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "B3 혹은 D3의 3성 수집 완료",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17397,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610006,
+			1610026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[17398] = {
+		name = "『毛系V1复刻』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 96938,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "게임 로그인하기",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17398,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				238,
+				2
+			}
+		}
+	},
+	[17399] = {
+		name = "『毛系V1复刻』-日常活动本",
+		guild_coin_award = 0,
+		award = 96942,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "『동절의 북해』 어려움 해역 1회 클리어",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17399,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1610001,
+			1610002,
+			1610003,
+			1610004,
+			1610005,
+			1610006,
+			1610021,
+			1610022,
+			1610023,
+			1610024,
+			1610025,
+			1610026,
+			1610041,
+			1610051
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59271,
+				300
+			},
+			{
+				2,
+				54006,
+				1
+			}
+		}
+	},
+	[17400] = {
+		name = "2022情人节送家具活动1",
+		guild_coin_award = 0,
+		award = 96924,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 24,
+		desc = "함대를 출격시켜, 10회 S평가로 승리하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17400,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[17401] = {
+		name = "2022情人节送家具活动2",
+		guild_coin_award = 0,
+		award = 96925,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "군사의뢰를 2번 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17401,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				59110,
+				1
+			}
+		}
+	},
+	[17402] = {
+		name = "2022情人节送家具活动3",
+		guild_coin_award = 0,
+		award = 96926,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 26,
+		desc = "데일리 챌린지를 3회 클리어 한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17402,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[17403] = {
+		name = "2022情人节送家具活动4",
+		guild_coin_award = 0,
+		award = 96927,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "임의의 적함을 20척 격파한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17403,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54032,
+				3
+			}
+		}
+	},
+	[17404] = {
+		name = "2022情人节送家具活动5",
+		guild_coin_award = 0,
+		award = 96928,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "숙소에서 식량을 5회 보충한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17404,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				59102,
+				1
+			}
+		}
+	},
+	[17405] = {
+		name = "2022情人节送家具活动6",
+		guild_coin_award = 0,
+		award = 96929,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "건조를 2회 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17405,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[17406] = {
+		name = "2022情人节送家具活动7",
+		guild_coin_award = 0,
+		award = 96930,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17406,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				191,
+				1
+			}
+		}
+	},
 	[30201] = {
 		name = "전투승리-일상",
 		guild_coin_award = 0,
@@ -160425,7 +161943,7 @@ pg.task_data_template = {
 		next_task = "0",
 		auto_commit = 0,
 		scene = "",
-		target_id_for_client = 904,
+		target_id_for_client = 804,
 		id = 51157,
 		target_num = 1,
 		fix_task = 0,
@@ -160460,7 +161978,7 @@ pg.task_data_template = {
 		next_task = "0",
 		auto_commit = 0,
 		scene = "",
-		target_id_for_client = 1004,
+		target_id_for_client = 904,
 		id = 51158,
 		target_num = 1,
 		fix_task = 0,
@@ -160495,7 +162013,7 @@ pg.task_data_template = {
 		next_task = "0",
 		auto_commit = 0,
 		scene = "",
-		target_id_for_client = 1104,
+		target_id_for_client = 1004,
 		id = 51159,
 		target_num = 1,
 		fix_task = 0,
@@ -179125,6 +180643,43 @@ pg.task_data_template = {
 		17365,
 		17366,
 		17367,
+		17370,
+		17371,
+		17372,
+		17373,
+		17374,
+		17375,
+		17376,
+		17377,
+		17378,
+		17379,
+		17380,
+		17381,
+		17382,
+		17383,
+		17384,
+		17385,
+		17386,
+		17387,
+		17388,
+		17389,
+		17390,
+		17391,
+		17392,
+		17393,
+		17394,
+		17395,
+		17396,
+		17397,
+		17398,
+		17399,
+		17400,
+		17401,
+		17402,
+		17403,
+		17404,
+		17405,
+		17406,
 		30201,
 		30202,
 		30203,
