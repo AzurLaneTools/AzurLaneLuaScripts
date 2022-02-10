@@ -15558,27 +15558,27 @@ _G.pg.gametip.help_chunjie2021_feast = {
 }
 
 _G.pg.gametip.valentinesday__txt1_tip = {
-	tip = "哥哥，製作巧克力的材料…還要再收集一些…才夠哦…？"
+	tip = "想要吃到美味的巧克力，就快去多收集些原料來吧。"
 }
 
 _G.pg.gametip.valentinesday__txt2_tip = {
-	tip = "哥哥，巧克力…做好了…要嚐一嘗嗎…？嘻嘻…"
+	tip = "巧克力已經做好了哦。怎麼，還要我親自餵你不成？"
 }
 
 _G.pg.gametip.valentinesday__txt3_tip = {
-	tip = "原材料不足的話，巧克力工廠可就沒法開工了啊……"
+	tip = "唔，做巧克力的巧克力粉，好像還不夠……"
 }
 
 _G.pg.gametip.valentinesday__txt4_tip = {
-	tip = "嗯，巧克力生產順利完成！別忘了連同報酬一起收下哦！"
+	tip = "巧克力，做好了…指揮官，別忘了獎勵……"
 }
 
 _G.pg.gametip.valentinesday__txt5_tip = {
-	tip = "指揮官，巧克力工廠的原料好像不夠了…我們來幫忙收集一些吧？"
+	tip = "指揮官，我們要收集更多的原料才能繼續加工巧克力哦。"
 }
 
 _G.pg.gametip.valentinesday__txt6_tip = {
-	tip = "指揮官，巧克力生產完成了哦，一起去看一看吧~"
+	tip = "巧克力已經完成了哦。指揮官，來一起嚐嚐吧。"
 }
 
 _G.pg.gametip.valentinesday__shop_tip = {
