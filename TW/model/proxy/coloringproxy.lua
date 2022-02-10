@@ -143,7 +143,7 @@ function slot0.CheckTodayTip(slot0)
 			end
 
 			if slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
-				if slot9:getState() == ColorGroup.StateFinish or slot9:HasItem2Fill(slot0:getColorItems()) then
+				if slot9:getState() == ColorGroup.StateFinish or slot9:HasEnoughItem2FillAll(slot0:getColorItems()) then
 					return true
 				end
 

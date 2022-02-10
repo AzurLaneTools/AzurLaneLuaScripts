@@ -3,8 +3,6 @@ slot0.ITEM_ADDED = "item added"
 slot0.ITEM_UPDATED = "item updated"
 
 function slot0.register(slot0)
-	slot0.limitList = {}
-
 	slot0:on(15001, function (slot0)
 		uv0.data = {}
 
@@ -19,10 +17,26 @@ function slot0.register(slot0)
 			uv0.data[slot6.id] = slot6
 		end
 
+		uv0.limitList = {}
+
 		for slot4, slot5 in ipairs(slot0.limit_list) do
 			uv0.limitList[slot5.id] = slot5.count
 		end
+
+		uv0.extraItemData = {}
+
+		for slot4, slot5 in ipairs(slot0.item_misc_list) do
+			uv0.extraItemData[slot5.id] = uv0.extraItemData[slot5.id] or {}
+
+			table.insert(uv0.extraItemData[slot5.id], slot5.data)
+		end
 	end)
+end
+
+function slot0.addExtraData(slot0, slot1, slot2)
+	slot0.extraItemData[slot1] = slot0.extraItemData[slot1] or {}
+
+	table.insert(slot0.extraItemData[slot1], slot2)
 end
 
 function slot0.addItem(slot0, slot1)
@@ -49,27 +63,37 @@ function slot0.addItemById(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getItems(slot0)
+function slot0.getItemsByExclude(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
-		table.insert(slot1, slot6)
-	end
+		if not Item.INVISIBLE_TYPE[slot6:getConfig("type")] and slot6.count > 0 then
+			if slot0.extraItemData[slot5] then
+				slot8 = slot6.count
 
-	return Clone(slot1)
-end
+				for slot12, slot13 in ipairs(slot0.extraItemData[slot5]) do
+					table.insert(slot1, Item.New({
+						count = 1,
+						id = slot5,
+						extra = slot13
+					}))
 
-function slot0.getItemsByExclude(slot0)
-	slot1 = Item.INVISIBLE_TYPE
-	slot2 = {}
+					slot8 = slot8 - 1
+				end
 
-	for slot6, slot7 in pairs(slot0.data) do
-		if not table.contains(slot1, slot7:getConfig("type")) and slot7.count ~= 0 then
-			table.insert(slot2, slot7)
+				if slot8 > 0 then
+					table.insert(slot1, Item.New({
+						id = slot5,
+						count = slot8
+					}))
+				end
+			else
+				table.insert(slot1, slot6)
+			end
 		end
 	end
 
-	return slot2
+	return slot1
 end
 
 function slot0.getItemsByType(slot0, slot1)

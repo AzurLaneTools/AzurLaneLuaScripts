@@ -2,20 +2,17 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		id = 1,
-		pic = "temp7",
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop"
 		},
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					14
 				},
 				{
 					0,
@@ -27,7 +24,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					23
 				},
 				{
 					23,
@@ -42,17 +39,17 @@ pg.activity_banner = {
 		pic = "temp1",
 		type = 2,
 		param = {
-			"scene get boat",
+			"metacharacter",
 			{
-				projectName = "light"
+				autoOpenShipConfigID = 9707021
 			}
 		},
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -63,8 +60,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					2,
-					10
+					5,
+					5
 				},
 				{
 					23,
@@ -79,14 +76,15 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene skinshop"
+			"scene level",
+			{}
 		},
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -98,7 +96,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					16
 				},
 				{
 					23,
@@ -110,72 +108,6 @@ pg.activity_banner = {
 	},
 	{
 		id = 4,
-		pic = "temp3",
-		type = 2,
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2022,
-					1,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "40511",
-		id = 5,
-		pic = "temp4",
-		type = 3,
-		time = {
-			{
-				{
-					2022,
-					1,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
 		pic = "temp5",
 		type = 2,
 		param = {
@@ -188,8 +120,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -201,41 +133,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 7,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene shop"
-		},
-		time = {
-			{
-				{
-					2022,
-					1,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					9
+					23
 				},
 				{
 					23,
@@ -247,15 +145,15 @@ pg.activity_banner = {
 	},
 	{
 		param = "",
-		id = 8,
+		id = 5,
 		pic = "temp99",
 		type = 9,
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					14
 				},
 				{
 					0,
@@ -267,7 +165,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					23
 				},
 				{
 					23,
@@ -278,7 +176,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 9,
+		id = 6,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -287,12 +185,40 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 10,
+		id = 7,
 		pic = "",
 		time = "stop",
 		type = 2,
 		param = {
 			"scene shop"
+		}
+	},
+	{
+		id = 8,
+		pic = "",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		}
+	},
+	{
+		param = "40341",
+		time = "stop",
+		type = 3,
+		id = 9,
+		pic = ""
+	},
+	{
+		id = 10,
+		pic = "",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene skinshop"
 		}
 	},
 	{
@@ -308,11 +234,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "40341",
-		time = "stop",
-		type = 3,
 		id = 12,
-		pic = ""
+		pic = "",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		}
 	},
 	{
 		id = 13,
@@ -320,47 +251,14 @@ pg.activity_banner = {
 		time = "stop",
 		type = 2,
 		param = {
-			"scene skinshop"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		}
 	},
 	{
 		id = 14,
-		pic = "",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	},
-	{
-		id = 15,
-		pic = "",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	},
-	{
-		id = 16,
-		pic = "",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	},
-	{
-		id = 17,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -372,7 +270,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 18,
+		id = 15,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -384,7 +282,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 19,
+		id = 16,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -396,7 +294,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 20,
+		id = 17,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -409,11 +307,11 @@ pg.activity_banner = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 21,
+		id = 18,
 		pic = "guihuagao"
 	},
 	{
-		id = 22,
+		id = 19,
 		pic = "temp1",
 		time = "stop",
 		type = 2,
@@ -426,11 +324,11 @@ pg.activity_banner = {
 		param = "",
 		time = "stop",
 		type = 8,
-		id = 23,
+		id = 20,
 		pic = "temp2"
 	},
 	{
-		id = 24,
+		id = 21,
 		pic = "temp3",
 		time = "stop",
 		type = 2,
@@ -442,8 +340,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 25,
-		pic = "temp2",
+		id = 22,
+		pic = "temp4",
 		time = "stop",
 		type = 2,
 		param = {
@@ -455,16 +353,26 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		id = 26,
-		pic = "dumpling",
+		id = 23,
+		pic = "temp5",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene level",
+			{}
+		}
+	},
+	{
+		param = "愛心巧克力|濃濃的愛意和巧克力更般配哦~<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		id = 24,
+		pic = "chocolate",
 		type = 10,
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					14
 				},
 				{
 					0,
@@ -476,10 +384,10 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					10
+					24
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -510,8 +418,6 @@ pg.activity_banner = {
 		21,
 		22,
 		23,
-		24,
-		25,
-		26
+		24
 	}
 }

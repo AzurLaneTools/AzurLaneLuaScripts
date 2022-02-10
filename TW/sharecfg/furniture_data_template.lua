@@ -38816,15 +38816,39 @@ pg.furniture_data_template = {
 		comfortable = 2,
 		spine_action_replace = "",
 		picture = "christmas2/mencs2",
-		canputon = 0,
+		canputon = 1,
 		id = 37108,
 		can_rotate = 1,
 		size = {
 			7,
 			1
 		},
-		offset = {},
-		canputonGrid = {},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			}
+		},
 		can_trigger = {
 			0
 		},
@@ -60096,6 +60120,117 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[59001] = {
+		spine_extra = "",
+		describe = "只要和你在一起，每天都是夢幻般的節日~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		icon = "dibanvt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "夢幻時刻地板",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "valentine2/dibanvt2",
+		canputon = 0,
+		id = 59001,
+		can_rotate = 0,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59002] = {
+		spine_extra = "",
+		describe = "只要和你在一起，每天都是夢幻般的節日~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		icon = "qiangbivt2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "夢幻時刻牆壁",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "valentine2/qiangbivt2",
+		canputon = 0,
+		id = 59002,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59101] = {
+		spine_extra = "",
+		describe = "裝滿甜蜜美味的冰箱",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "bingxiangvt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜冰箱",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "valentine2/bingxiangvt2",
+		canputon = 0,
+		id = 59101,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[59102] = {
 		spine_extra = "",
 		describe = "夜晚也要享受浪漫~",
@@ -60108,7 +60243,7 @@ pg.furniture_data_template = {
 		belong = 1,
 		themeId = 59,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "chuangvt2icon",
 		deblocking = 1,
@@ -60159,6 +60294,291 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[59103] = {
+		spine_extra = "",
+		describe = "雖然是硬的，不過坐下去還是挺舒服的",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 59,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "dengzivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜矮凳",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "valentine2/dengzivt2",
+		canputon = 0,
+		id = 59103,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					15
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59104] = {
+		spine_extra = "",
+		describe = "儲物擺設兩相宜~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guizivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜床頭桌",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "valentine2/guizivt2",
+		canputon = 0,
+		id = 59104,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59105] = {
+		spine_extra = "",
+		describe = "被蓬蓬鬆鬆包圍的安心感~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 59,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "lanyivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾懶人床",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "valentine2/lanyivt2",
+		canputon = 0,
+		id = 59105,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					21,
+					15
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59106] = {
+		spine_extra = "",
+		describe = "想和你，手牽手一起走過人生的階梯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "loutivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜樓梯",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "valentine2/loutivt2",
+		canputon = 0,
+		id = 59106,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59107] = {
+		spine_extra = "",
+		describe = "對你的愛，直到永遠~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meiguivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "心形玫瑰",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "valentine2/meiguivt2",
+		canputon = 0,
+		id = 59107,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59108] = {
+		spine_extra = "",
+		describe = "夢幻的愛心氣球",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "qiqiuvt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜氣球",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "valentine2/qiqiuvt2",
+		canputon = 0,
+		id = 59108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59109] = {
+		spine_extra = "",
+		describe = "輸的人要負責做家務哦，嘿嘿",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qizivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜飛行棋",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "valentine2/qizivt2",
+		canputon = 0,
+		id = 59109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[59110] = {
 		spine_extra = "",
 		describe = "emmm…今天要穿什麼呢~",
@@ -60171,7 +60591,7 @@ pg.furniture_data_template = {
 		themeId = 59,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "yiguivt2icon",
 		deblocking = 1,
@@ -60188,6 +60608,533 @@ pg.furniture_data_template = {
 		size = {
 			7,
 			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59111] = {
+		spine_extra = "",
+		describe = "軟綿綿好舒服~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 59,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "yizi2vt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾懶人椅",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "valentine2/yizi2vt2",
+		canputon = 0,
+		id = 59111,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					9,
+					38
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59112] = {
+		spine_extra = "",
+		describe = "寬敞的浴缸~不過也不可以太吵鬧哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 59,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zaopengvt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜浴缸",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "valentine2/zaopengvt2",
+		canputon = 0,
+		id = 59112,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-47.3,
+					-25
+				},
+				{
+					1,
+					1
+				},
+				"valentine2/zaopengvt2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59113] = {
+		spine_extra = "",
+		describe = "最甜蜜的事，是無論何時都和你在一起~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 59,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuozi2vt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜工作台",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "valentine2/zhuozi2vt2",
+		canputon = 0,
+		id = 59113,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-60,
+					-10
+				},
+				{
+					-1,
+					1
+				},
+				"valentine2/zhuozi2vt2_using"
+			},
+			{
+				"sit",
+				{
+					78,
+					0
+				},
+				{
+					1,
+					1
+				},
+				"valentine2/zhuozi2vt2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59114] = {
+		spine_extra = "",
+		describe = "為你特別準備的浪漫正餐~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuozivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜蜜餐桌",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "valentine2/zhuozivt2",
+		canputon = 0,
+		id = 59114,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59115] = {
+		spine_extra = "",
+		describe = "收下吧！我最真實的心意！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 59,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "jiezhivt2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾戒指盒",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 59115,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"duijie",
+				"normal",
+				{
+					"action",
+					flase
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[59116] = {
+		belong = 1,
+		describe = "與你一起，在夢幻的木馬上轉呀轉，永不停歇~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 59,
+		count = 1,
+		is_3d_obj = 0,
+		name = "甜蜜旋轉木馬",
+		tag = 7,
+		icon = "mumavt2icon",
+		deblocking = 1,
+		level = 1,
+		comfortable = 4,
+		effect = "",
+		advice = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 59116,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xuanzhuanmumaB",
+				"normal"
+			},
+			{
+				"xuanzhuanmumaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xuanzhuanmumaCharcontrol",
+				"xuanzhuanmumaCharcontrol2"
+			}
+		},
+		interAction_group = {}
+	},
+	[59117] = {
+		belong = 1,
+		describe = "接受丘比特的祝福吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 59,
+		count = 1,
+		is_3d_obj = 0,
+		name = "愛神之庭",
+		tag = 7,
+		icon = "tingzivt2icon",
+		deblocking = 1,
+		level = 1,
+		comfortable = 4,
+		effect = "",
+		advice = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 59117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaotingziB",
+				"normal"
+			},
+			{
+				"xiaotingziT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaotingziCharControl",
+				"xiaotingziCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[59301] = {
+		spine_extra = "",
+		describe = "要擺滿你我愛的紀念品~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "aixinvt2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "愛心牆櫃",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "valentine2/aixinvt2",
+		canputon = 0,
+		id = 59301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59302] = {
+		spine_extra = "",
+		describe = "拉開窗簾，每天都是好心情~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanghuvt2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "粉色陽台",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "valentine2/chuanghuvt2",
+		canputon = 0,
+		id = 59302,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59303] = {
+		spine_extra = "",
+		describe = "牆上都寫滿了你我的愛意~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 59,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "lovevt2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "愛意壁掛",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "valentine2/lovevt2",
+		canputon = 0,
+		id = 59303,
+		can_rotate = 1,
+		size = {
+			8,
+			0
 		},
 		offset = {},
 		canputonGrid = {},
@@ -78046,8 +78993,28 @@ pg.furniture_data_template = {
 		58302,
 		58303,
 		58304,
+		59001,
+		59002,
+		59101,
 		59102,
+		59103,
+		59104,
+		59105,
+		59106,
+		59107,
+		59108,
+		59109,
 		59110,
+		59111,
+		59112,
+		59113,
+		59114,
+		59115,
+		59116,
+		59117,
+		59301,
+		59302,
+		59303,
 		60001,
 		60002,
 		60101,

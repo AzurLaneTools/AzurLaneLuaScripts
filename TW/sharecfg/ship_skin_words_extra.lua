@@ -3391,6 +3391,38 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[9707020] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		profile = "",
+		mail = "",
+		touch = "",
+		login = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 9707020,
+		detail = "",
+		main_extra = {
+			{
+				1100,
+				"想要照顧需要保護的存在乃人之常情，閣下以後自然會懂的、|對關愛之人不必掩飾情感，盡量關心就好，直面自我才能活得長久哦。"
+			}
+		}
+	},
 	[107990] = {
 		unlock = "",
 		feeling3 = "",
@@ -4562,6 +4594,7 @@ pg.ship_skin_words_extra = {
 		202290,
 		502040,
 		502050,
+		9707020,
 		107990,
 		207052,
 		10700010,

@@ -91,6 +91,20 @@ function slot0.onRegister(slot0)
 			}
 		}))
 	end)
+	slot0:bind(BaseUI.ON_ITEM_EXTRA, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
+			mediator = ItemInfoMediator,
+			viewComponent = ItemInfoLayer,
+			data = {
+				mine = true,
+				info = {
+					type = DROP_TYPE_ITEM,
+					id = slot1,
+					extra = slot2
+				}
+			}
+		}))
+	end)
 	slot0:bind(BaseUI.ON_SHIP, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = ItemInfoMediator,

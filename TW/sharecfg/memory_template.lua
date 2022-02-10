@@ -14025,6 +14025,17 @@ pg.memory_template = {
 		icon = "memory_junhe",
 		is_open = 0
 	},
+	[1877] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "人气爱宕",
+		condition = "参与2021人气投票活动",
+		story = "RENQIAIDANG",
+		id = 1877,
+		icon = "memory_renqiaidang",
+		is_open = 0
+	},
 	[1896] = {
 		type = 1,
 		subtitle = "",
@@ -16038,6 +16049,7 @@ pg.memory_template = {
 		1865,
 		1866,
 		1867,
+		1877,
 		1896,
 		1897,
 		1898,

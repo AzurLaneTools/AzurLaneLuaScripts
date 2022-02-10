@@ -14,7 +14,9 @@ function slot0.OnInit(slot0)
 	slot0.sdBtn = slot0:findTF("SDBtn", slot0.bg)
 
 	onButton(slot0, slot0.sdBtn, function ()
-		setActive(uv0.boxTF, true)
+		if type(uv0.activity:getConfig("config_client")) == "table" and pg.TimeMgr.GetInstance():inTime(slot0) then
+			setActive(uv0.boxTF, true)
+		end
 	end, SFX_PANEL)
 
 	slot0.boxTF = slot0:findTF("Box")
@@ -41,20 +43,17 @@ function slot0.OnInit(slot0)
 	end, slot5)
 
 	slot0.sdNameList = {
-		"dujiaoshou_4",
-		"gelunbiya_2",
-		"rexin_2"
+		"anshan_3",
+		"shiyu_4"
 	}
 	slot0.bubbleTextTable = {
-		dujiaoshou_4 = {
+		anshan_3 = {
 			"valentinesday__txt1_tip",
-			"valentinesday__txt2_tip"
+			"valentinesday__txt2_tip",
+			"valentinesday__txt3_tip"
 		},
-		gelunbiya_2 = {
-			"valentinesday__txt3_tip",
-			"valentinesday__txt4_tip"
-		},
-		rexin_2 = {
+		shiyu_4 = {
+			"valentinesday__txt4_tip",
 			"valentinesday__txt5_tip",
 			"valentinesday__txt6_tip"
 		}

@@ -28319,6 +28319,27 @@ _G.pg.item_data_statistics[42026] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[44001] = {
+	display = "$1贈送的情人節禮物",
+	name = "情人節禮物",
+	max_num = 0,
+	type = 23,
+	drop_oil_max = 0,
+	rarity = 8,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	id = 44001,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[50001] = {
 	display = "酸素可樂，口味獨特，作為指揮官可能無法接受",
 	name = "酸素可樂",

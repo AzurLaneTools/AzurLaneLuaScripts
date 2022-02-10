@@ -757,6 +757,44 @@ function slot0.tryShowItemIconChnageNotice(slot0, slot1)
 	slot1()
 end
 
+function slot0.tryShowStrengthenBackNotice(slot0, slot1)
+	if StrengthenBackPanel.ConfigData.isOpen == true then
+		slot3 = slot2.equipID
+
+		if PlayerPrefs.GetInt("StrengthenBack_" .. slot2.equipID, 0) == 0 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				modal = true,
+				hideNo = true,
+				hideClose = true,
+				type = MSGBOX_TYPE_STRENGTHEN_BACK,
+				title = pg.MsgboxMgr.TITLE_INFORMATION,
+				weight = LayerWeightConst.TOP_LAYER,
+				windowSize = {
+					x = 930,
+					y = 530
+				},
+				onYes = function ()
+					PlayerPrefs.SetInt("StrengthenBack_" .. uv0.equipID, 1)
+					WorldConst.ReqWorldCheck(function ()
+						uv0:addSubLayers(Context.New({
+							mediator = MailMediator,
+							viewComponent = MailLayer,
+							onRemoved = function ()
+								uv0.viewComponent:enablePartialBlur()
+							end
+						}))
+					end)
+					uv2()
+				end
+			})
+		else
+			slot1()
+		end
+	else
+		slot1()
+	end
+end
+
 function slot0.handleEnterMainUI(slot0)
 	if pg.SeriesGuideMgr.GetInstance():isEnd() then
 		slot1 = nil
@@ -804,10 +842,21 @@ function slot0.handleEnterMainUI(slot0)
 				return
 			end
 
-			uv0:tryShowItemIconChnageNotice(function ()
+			slot4 = uv0
+
+			slot4:tryShowItemIconChnageNotice(function ()
 				onNextTick(uv0)
 			end)
 			coroutine.yield()
+
+			if PLATFORM_CODE == PLATFORM_US then
+				slot4 = uv0
+
+				slot4:tryShowStrengthenBackNotice(function ()
+					onNextTick(uv0)
+				end)
+				coroutine.yield()
+			end
 
 			slot5 = getProxy(ServerNoticeProxy):getServerNotices(false)
 

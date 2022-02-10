@@ -64,6 +64,10 @@ function slot0.updateActivityBuildPage(slot0)
 	slot0.poolsPage:UpdateActivityBuildPage(slot0.pools)
 end
 
+function slot0.RefreshFreeBuildActivity(slot0)
+	slot0.poolsPage:RefreshFreeBuildActivity()
+end
+
 function slot0.init(slot0)
 	Input.multiTouchEnabled = false
 	slot0.blurPanel = slot0:findTF("blur_panel")
@@ -130,6 +134,7 @@ function slot0.didEnter(slot0)
 		setParent(slot0, uv0._tf)
 		slot0.transform:SetAsFirstSibling()
 	end)
+	TagTipHelper.SetFreeBuildMark()
 end
 
 function slot0.switchPage(slot0, slot1, slot2)

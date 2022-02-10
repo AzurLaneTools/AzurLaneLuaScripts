@@ -3,8 +3,8 @@ slot0.REVERT_EQUIPMENT_ID = 15007
 slot0.COMMANDER_QUICKLY_TOOL_ID = 20010
 slot0.QUICK_TASK_PASS_TICKET_ID = 15013
 slot0.INVISIBLE_TYPE = {
-	0,
-	9
+	[0] = true,
+	[9.0] = true
 }
 slot0.PUZZLA_TYPE = 0
 slot0.EQUIPMENT_BOX_TYPE_5 = 5
@@ -21,6 +21,7 @@ slot0.SPECIAL_OPERATION_TICKET = 19
 slot0.GUILD_OPENABLE = 20
 slot0.INVITATION_TYPE = 21
 slot0.EXP_BOOK_TYPE = 22
+slot0.LOVE_LETTER_TYPE = 23
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
@@ -37,7 +38,7 @@ function slot0.GetConfig(slot0, slot1)
 
 	if slot0 == DROP_TYPE_RESOURCE then
 		return slot2(pg.item_data_statistics[id2ItemId(slot1)])
-	elseif slot0 == DROP_TYPE_ITEM or slot0 == DROP_TYPE_VITEM then
+	elseif slot0 == DROP_TYPE_ITEM or slot0 == DROP_TYPE_VITEM or slot0 == DROP_TYPE_LOVE_LETTER then
 		return slot2(pg.item_data_statistics[slot1])
 	elseif slot0 == DROP_TYPE_EQUIP then
 		return slot2(pg.equip_data_statistics[slot1])
@@ -73,6 +74,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.type = slot0.dropType
 	slot0.count = slot1.num or slot1.number or slot1.count
 	slot0.name = slot1.name
+	slot0.extra = slot1.extra
 	slot2 = pg.item_data_template[slot0.configId]
 	slot0.itemConfigData = setmetatable({}, {
 		__index = function (slot0, slot1)

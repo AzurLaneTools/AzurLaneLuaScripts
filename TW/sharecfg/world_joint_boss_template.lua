@@ -8,7 +8,16 @@ pg.world_joint_boss_template = {
 		id = 1,
 		meta_id = 970701
 	},
+	{
+		item_id = 100000,
+		name = "皇家方舟·META",
+		painting = "huangjiafangzhou",
+		boss_level_id = 16,
+		id = 2,
+		meta_id = 970702
+	},
 	all = {
-		1
+		1,
+		2
 	}
 }

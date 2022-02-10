@@ -115,7 +115,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236,7 +235,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -357,7 +355,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -480,7 +477,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -605,7 +601,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -730,7 +725,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -855,7 +849,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -980,7 +973,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1105,7 +1097,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1230,7 +1221,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1355,7 +1345,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1480,7 +1469,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1605,7 +1593,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1730,7 +1717,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1855,7 +1841,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -1980,7 +1965,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2106,7 +2090,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2232,7 +2215,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2358,7 +2340,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2484,7 +2465,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2609,7 +2589,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2734,7 +2713,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2859,7 +2837,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -2984,7 +2961,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3109,7 +3085,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3234,7 +3209,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3359,7 +3333,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3484,7 +3457,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3609,7 +3581,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3734,7 +3705,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3859,7 +3829,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -3984,7 +3953,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4109,7 +4077,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4234,7 +4201,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4359,7 +4325,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4484,7 +4449,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4609,7 +4573,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4734,7 +4697,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4859,7 +4821,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -4984,7 +4945,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5109,7 +5069,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5234,7 +5193,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5359,7 +5317,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5484,7 +5441,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5609,7 +5565,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5734,7 +5689,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5859,7 +5813,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -5984,7 +5937,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6109,7 +6061,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6234,7 +6185,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6359,7 +6309,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6484,7 +6433,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6609,7 +6557,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6734,7 +6681,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6859,7 +6805,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -6984,7 +6929,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7109,7 +7053,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7234,7 +7177,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7359,7 +7301,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7484,7 +7425,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7609,7 +7549,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7734,7 +7673,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7859,7 +7797,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -7984,7 +7921,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8109,7 +8045,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8234,7 +8169,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8359,7 +8293,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8484,7 +8417,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8609,7 +8541,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8734,7 +8665,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8859,7 +8789,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -8984,7 +8913,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9107,7 +9035,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9230,7 +9157,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9353,7 +9279,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9476,7 +9401,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9601,7 +9525,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9726,7 +9649,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9851,7 +9773,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -9976,7 +9897,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10101,7 +10021,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10226,7 +10145,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10351,7 +10269,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10476,7 +10393,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10601,7 +10517,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10726,7 +10641,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10851,7 +10765,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -10976,7 +10889,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11101,7 +11013,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11226,7 +11137,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11351,7 +11261,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11476,7 +11385,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11601,7 +11509,6 @@ pg.ship_data_statistics = {
 			1.27
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11726,7 +11633,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11851,7 +11757,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -11976,7 +11881,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12101,7 +12005,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12226,7 +12129,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12351,7 +12253,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12476,7 +12377,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12601,7 +12501,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12726,7 +12625,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12851,7 +12749,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -12976,7 +12873,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13101,7 +12997,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13226,7 +13121,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13351,7 +13245,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13476,7 +13369,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13601,7 +13493,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13726,7 +13617,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13851,7 +13741,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -13976,7 +13865,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14101,7 +13989,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14226,7 +14113,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14351,7 +14237,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14476,7 +14361,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14601,7 +14485,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14726,7 +14609,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14851,7 +14733,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -14976,7 +14857,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15101,7 +14981,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15226,7 +15105,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15351,7 +15229,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15476,7 +15353,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15601,7 +15477,6 @@ pg.ship_data_statistics = {
 			1.27
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15726,7 +15601,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15851,7 +15725,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -15976,7 +15849,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16101,7 +15973,6 @@ pg.ship_data_statistics = {
 			1.27
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16226,7 +16097,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16351,7 +16221,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16476,7 +16345,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16601,7 +16469,6 @@ pg.ship_data_statistics = {
 			1.27
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16726,7 +16593,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16851,7 +16717,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -16976,7 +16841,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17101,7 +16965,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17226,7 +17089,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17351,7 +17213,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17479,7 +17340,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17607,7 +17467,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17735,7 +17594,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17863,7 +17721,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -17991,7 +17848,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -18119,7 +17975,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -18247,7 +18102,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -18375,7 +18229,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -18501,7 +18354,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -18627,7 +18479,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -18753,7 +18604,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -18879,7 +18729,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19005,7 +18854,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19131,7 +18979,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19257,7 +19104,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19383,7 +19229,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19509,7 +19354,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19636,7 +19480,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19763,7 +19606,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -19890,7 +19732,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20019,7 +19860,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20147,7 +19987,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20275,7 +20114,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20403,7 +20241,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20531,7 +20368,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20659,7 +20495,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20787,7 +20622,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -20915,7 +20749,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21043,7 +20876,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21171,7 +21003,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21299,7 +21130,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21427,7 +21257,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21553,7 +21382,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21679,7 +21507,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21805,7 +21632,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -21931,7 +21757,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22057,7 +21882,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22183,7 +22007,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22309,7 +22132,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22435,7 +22257,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22563,7 +22384,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22691,7 +22511,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22819,7 +22638,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -22947,7 +22765,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23073,7 +22890,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23199,7 +23015,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23325,7 +23140,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23451,7 +23265,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23577,7 +23390,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23703,7 +23515,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23829,7 +23640,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -23955,7 +23765,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24081,7 +23890,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24207,7 +24015,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24333,7 +24140,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24459,7 +24265,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24585,7 +24390,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24711,7 +24515,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24837,7 +24640,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -24963,7 +24765,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25091,7 +24892,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25219,7 +25019,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25347,7 +25146,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25475,7 +25273,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25603,7 +25400,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25731,7 +25527,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25859,7 +25654,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -25987,7 +25781,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -26115,7 +25908,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -26243,7 +26035,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -26374,7 +26165,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -26505,7 +26295,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -26636,7 +26425,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -26767,7 +26555,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -26895,7 +26682,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27023,7 +26809,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27151,7 +26936,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27277,7 +27061,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27404,7 +27187,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27531,7 +27313,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27658,7 +27439,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27785,7 +27565,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -27913,7 +27692,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28041,7 +27819,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28169,7 +27946,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28297,7 +28073,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28423,7 +28198,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28549,7 +28323,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28675,7 +28448,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28803,7 +28575,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -28932,7 +28703,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29061,7 +28831,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29190,7 +28959,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29319,7 +29087,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29447,7 +29214,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29575,7 +29341,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29703,7 +29468,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29829,7 +29593,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -29955,7 +29718,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30080,7 +29842,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30205,7 +29966,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30330,7 +30090,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30455,7 +30214,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30580,7 +30338,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30705,7 +30462,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30830,7 +30586,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -30955,7 +30710,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31080,7 +30834,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31205,7 +30958,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31330,7 +31082,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31455,7 +31206,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31580,7 +31330,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31705,7 +31454,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31830,7 +31578,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -31955,7 +31702,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32080,7 +31826,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32205,7 +31950,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32330,7 +32074,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32455,7 +32198,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32580,7 +32322,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32705,7 +32446,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32830,7 +32570,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -32955,7 +32694,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33081,7 +32819,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33207,7 +32944,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33333,7 +33069,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33459,7 +33194,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33584,7 +33318,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33709,7 +33442,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33834,7 +33566,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -33959,7 +33690,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34084,7 +33814,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34209,7 +33938,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34334,7 +34062,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34459,7 +34186,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34584,7 +34310,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34709,7 +34434,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34834,7 +34558,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -34959,7 +34682,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35082,7 +34804,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35205,7 +34926,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35328,7 +35048,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35451,7 +35170,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35576,7 +35294,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35701,7 +35418,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35826,7 +35542,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -35951,7 +35666,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36076,7 +35790,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36201,7 +35914,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36326,7 +36038,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36451,7 +36162,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36576,7 +36286,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36701,7 +36410,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36826,7 +36534,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -36951,7 +36658,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37076,7 +36782,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37201,7 +36906,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37326,7 +37030,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37451,7 +37154,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37576,7 +37278,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37701,7 +37402,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37826,7 +37526,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -37951,7 +37650,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38076,7 +37774,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38201,7 +37898,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38326,7 +38022,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38451,7 +38146,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38576,7 +38270,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38701,7 +38394,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38826,7 +38518,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -38951,7 +38642,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39076,7 +38766,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39201,7 +38890,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39326,7 +39014,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39451,7 +39138,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39576,7 +39262,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39701,7 +39386,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39826,7 +39510,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -39951,7 +39634,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40077,7 +39759,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40203,7 +39884,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40329,7 +40009,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40455,7 +40134,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40581,7 +40259,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40707,7 +40384,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40833,7 +40509,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -40959,7 +40634,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41085,7 +40759,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41211,7 +40884,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41337,7 +41009,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41463,7 +41134,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41588,7 +41258,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41713,7 +41382,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41838,7 +41506,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -41963,7 +41630,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42089,7 +41755,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42215,7 +41880,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42341,7 +42005,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42467,7 +42130,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42593,7 +42255,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42719,7 +42380,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42845,7 +42505,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -42971,7 +42630,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43096,7 +42754,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43221,7 +42878,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43346,7 +43002,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43471,7 +43126,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43596,7 +43250,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43721,7 +43374,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43846,7 +43498,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -43970,7 +43621,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44094,7 +43744,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44218,7 +43867,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44342,7 +43990,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44466,7 +44113,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44591,7 +44237,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44716,7 +44361,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44841,7 +44485,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -44966,7 +44609,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45090,7 +44732,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45214,7 +44855,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45338,7 +44978,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45462,7 +45101,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45584,7 +45222,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45706,7 +45343,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45828,7 +45464,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -45951,7 +45586,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46076,7 +45710,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46201,7 +45834,6 @@ pg.ship_data_statistics = {
 			1.23
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46326,7 +45958,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46451,7 +46082,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46576,7 +46206,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46701,7 +46330,6 @@ pg.ship_data_statistics = {
 			1.23
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46826,7 +46454,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -46950,7 +46577,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47072,7 +46698,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47194,7 +46819,6 @@ pg.ship_data_statistics = {
 			1.23
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47316,7 +46940,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47439,7 +47062,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47564,7 +47186,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47689,7 +47310,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47814,7 +47434,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -47939,7 +47558,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48065,7 +47683,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48191,7 +47808,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48317,7 +47933,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48443,7 +48058,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48568,7 +48182,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48693,7 +48306,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48818,7 +48430,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -48943,7 +48554,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49066,7 +48676,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49189,7 +48798,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49312,7 +48920,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49435,7 +49042,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49560,7 +49166,6 @@ pg.ship_data_statistics = {
 			1.08
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49685,7 +49290,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49810,7 +49414,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -49935,7 +49538,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50060,7 +49662,6 @@ pg.ship_data_statistics = {
 			1.08
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50185,7 +49786,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50310,7 +49910,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50435,7 +50034,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50560,7 +50158,6 @@ pg.ship_data_statistics = {
 			1.03
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50685,7 +50282,6 @@ pg.ship_data_statistics = {
 			1.08
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50810,7 +50406,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -50934,7 +50529,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51059,7 +50653,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51184,7 +50777,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51309,7 +50901,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51434,7 +51025,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51559,7 +51149,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51684,7 +51273,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51809,7 +51397,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -51934,7 +51521,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52059,7 +51645,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52184,7 +51769,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52309,7 +51893,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52435,7 +52018,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52560,7 +52142,6 @@ pg.ship_data_statistics = {
 			1.03
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52685,7 +52266,6 @@ pg.ship_data_statistics = {
 			1.08
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52810,7 +52390,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -52935,7 +52514,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -53061,7 +52639,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -53187,7 +52764,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -53313,7 +52889,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -53439,7 +53014,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -53669,7 +53243,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -53899,7 +53472,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -54129,7 +53701,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -54359,7 +53930,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -54598,7 +54168,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -54837,7 +54406,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -55076,7 +54644,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -55315,7 +54882,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -55553,7 +55119,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -55791,7 +55356,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -56029,7 +55593,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -56267,7 +55830,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -56497,7 +56059,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -56727,7 +56288,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -56957,7 +56517,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -57192,12 +56751,6 @@ pg.ship_data_statistics = {
 				1
 			}
 		},
-		strategy_list_ai = {
-			{
-				4,
-				1
-			}
-		},
 		hunting_range = {
 			{}
 		},
@@ -57320,12 +56873,6 @@ pg.ship_data_statistics = {
 			0.88
 		},
 		strategy_list = {
-			{
-				4,
-				2
-			}
-		},
-		strategy_list_ai = {
 			{
 				4,
 				2
@@ -57458,12 +57005,6 @@ pg.ship_data_statistics = {
 				2
 			}
 		},
-		strategy_list_ai = {
-			{
-				4,
-				2
-			}
-		},
 		hunting_range = {
 			{}
 		},
@@ -57591,12 +57132,6 @@ pg.ship_data_statistics = {
 				3
 			}
 		},
-		strategy_list_ai = {
-			{
-				4,
-				3
-			}
-		},
 		hunting_range = {
 			{}
 		},
@@ -57719,7 +57254,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -57842,7 +57376,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -57965,7 +57498,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58088,7 +57620,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58211,7 +57742,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58336,7 +57866,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58461,7 +57990,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58586,7 +58114,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58711,7 +58238,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58836,7 +58362,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -58961,7 +58486,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59086,7 +58610,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59211,7 +58734,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59336,7 +58858,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59461,7 +58982,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59586,7 +59106,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59711,7 +59230,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59836,7 +59354,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -59961,7 +59478,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60086,7 +59602,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60211,7 +59726,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60336,7 +59850,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60461,7 +59974,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60586,7 +60098,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60711,7 +60222,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60836,7 +60346,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -60961,7 +60470,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61086,7 +60594,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61211,7 +60718,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61336,7 +60842,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61461,7 +60966,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61586,7 +61090,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61711,7 +61214,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61836,7 +61338,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -61961,7 +61462,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62086,7 +61586,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62211,7 +61710,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62336,7 +61834,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62461,7 +61958,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62586,7 +62082,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62711,7 +62206,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62836,7 +62330,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -62961,7 +62454,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63086,7 +62578,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63211,7 +62702,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63336,7 +62826,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63461,7 +62950,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63586,7 +63074,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63711,7 +63198,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63836,7 +63322,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -63961,7 +63446,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64086,7 +63570,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64211,7 +63694,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64336,7 +63818,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64461,7 +63942,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64586,7 +64066,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64711,7 +64190,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64837,7 +64315,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -64963,7 +64440,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65089,7 +64565,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65215,7 +64690,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65341,7 +64815,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65467,7 +64940,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65593,7 +65065,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65719,7 +65190,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65844,7 +65314,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -65969,7 +65438,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66094,7 +65562,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66219,7 +65686,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66345,7 +65811,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66471,7 +65936,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66597,7 +66061,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66723,7 +66186,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66848,7 +66310,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -66973,7 +66434,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67098,7 +66558,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67223,7 +66682,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67348,7 +66806,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67473,7 +66930,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67598,7 +67054,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67723,7 +67178,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67848,7 +67302,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -67973,7 +67426,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68098,7 +67550,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68223,7 +67674,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68348,7 +67798,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68473,7 +67922,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68598,7 +68046,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68723,7 +68170,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68848,7 +68294,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -68973,7 +68418,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69098,7 +68542,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69223,7 +68666,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69348,7 +68790,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69473,7 +68914,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69598,7 +69038,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69723,7 +69162,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69849,7 +69287,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -69977,7 +69414,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -70105,7 +69541,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -70233,7 +69668,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -70361,7 +69795,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -70489,7 +69922,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -70617,7 +70049,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -70745,7 +70176,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -70873,7 +70303,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71001,7 +70430,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71129,7 +70557,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71257,7 +70684,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71385,7 +70811,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71513,7 +70938,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71641,7 +71065,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71769,7 +71192,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -71897,7 +71319,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72025,7 +71446,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72153,7 +71573,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72281,7 +71700,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72409,7 +71827,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72538,7 +71955,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72667,7 +72083,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72796,7 +72211,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -72925,7 +72339,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73053,7 +72466,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73181,7 +72593,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73309,7 +72720,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73437,7 +72847,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73565,7 +72974,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73693,7 +73101,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73821,7 +73228,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -73949,7 +73355,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74077,7 +73482,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74205,7 +73609,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74333,7 +73736,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74461,7 +73863,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74589,7 +73990,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74717,7 +74117,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74845,7 +74244,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -74973,7 +74371,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75101,7 +74498,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75229,7 +74625,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75357,7 +74752,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75485,7 +74879,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75613,7 +75006,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75741,7 +75133,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75869,7 +75260,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -75997,7 +75387,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -76125,7 +75514,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -76253,7 +75641,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -76381,7 +75768,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -76509,7 +75895,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -76637,7 +76022,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -76765,7 +76149,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -76893,7 +76276,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77021,7 +76403,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77150,7 +76531,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77279,7 +76659,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77408,7 +76787,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77537,7 +76915,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77665,7 +77042,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77793,7 +77169,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -77921,7 +77296,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78050,7 +77424,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78179,7 +77552,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78308,7 +77680,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78437,7 +77808,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78566,7 +77936,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78695,7 +78064,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78824,7 +78192,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -78953,7 +78320,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79081,7 +78447,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79209,7 +78574,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79337,7 +78701,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79465,7 +78828,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79593,7 +78955,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79721,7 +79082,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79849,7 +79209,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -79977,7 +79336,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -80105,7 +79463,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -80233,7 +79590,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -80361,7 +79717,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -80489,7 +79844,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -80617,7 +79971,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -80748,7 +80101,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -80879,7 +80231,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81010,7 +80361,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81141,7 +80491,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81269,7 +80618,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81397,7 +80745,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81525,7 +80872,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81653,7 +80999,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81781,7 +81126,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -81909,7 +81253,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82037,7 +81380,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82164,7 +81506,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82291,7 +81632,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82418,7 +81758,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82545,7 +81884,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82672,7 +82010,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82799,7 +82136,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -82926,7 +82262,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83053,7 +82388,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83180,7 +82514,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83307,7 +82640,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83434,7 +82766,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83561,7 +82892,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83688,7 +83018,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83815,7 +83144,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -83942,7 +83270,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84069,7 +83396,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84196,7 +83522,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84323,7 +83648,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84450,7 +83774,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84577,7 +83900,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84704,7 +84026,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84831,7 +84152,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -84958,7 +84278,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85085,7 +84404,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85212,7 +84530,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85339,7 +84656,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85466,7 +84782,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85593,7 +84908,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85720,7 +85034,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85847,7 +85160,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -85974,7 +85286,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86101,7 +85412,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86228,7 +85538,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86355,7 +85664,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86482,7 +85790,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86609,7 +85916,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86736,7 +86042,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86861,7 +86166,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -86986,7 +86290,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87111,7 +86414,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87236,7 +86538,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87361,7 +86662,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87486,7 +86786,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87611,7 +86910,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87736,7 +87034,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87861,7 +87158,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -87984,7 +87280,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88107,7 +87402,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88230,7 +87524,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88353,7 +87646,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88479,7 +87771,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88605,7 +87896,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88731,7 +88021,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88857,7 +88146,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -88982,7 +88270,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89107,7 +88394,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89232,7 +88518,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89356,7 +88641,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89481,7 +88765,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89607,7 +88890,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89733,7 +89015,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89859,7 +89140,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -89985,7 +89265,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90111,7 +89390,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90237,7 +89515,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90363,7 +89640,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90489,7 +89765,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90614,7 +89889,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90739,7 +90013,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90864,7 +90137,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -90989,7 +90261,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91114,7 +90385,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91239,7 +90509,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91364,7 +90633,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91489,7 +90757,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91614,7 +90881,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91739,7 +91005,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91864,7 +91129,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -91989,7 +91253,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92114,7 +91377,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92239,7 +91501,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92364,7 +91625,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92489,7 +91749,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92614,7 +91873,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92739,7 +91997,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92864,7 +92121,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -92988,7 +92244,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93112,7 +92367,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93236,7 +92490,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93360,7 +92613,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93484,7 +92736,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93608,7 +92859,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93732,7 +92982,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93856,7 +93105,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -93980,7 +93228,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94105,7 +93352,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94230,7 +93476,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94355,7 +93600,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94480,7 +93724,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94606,7 +93849,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94732,7 +93974,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94858,7 +94099,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -94984,7 +94224,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95109,7 +94348,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95234,7 +94472,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95359,7 +94596,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95484,7 +94720,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95606,7 +94841,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95728,7 +94962,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95850,7 +95083,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -95973,7 +95205,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96096,7 +95327,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96219,7 +95449,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96342,7 +95571,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96465,7 +95693,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96591,7 +95818,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96717,7 +95943,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96843,7 +96068,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -96969,7 +96193,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97095,7 +96318,6 @@ pg.ship_data_statistics = {
 			1.22
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97221,7 +96443,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97347,7 +96568,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97473,7 +96693,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97600,7 +96819,6 @@ pg.ship_data_statistics = {
 			1.17
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97727,7 +96945,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97854,7 +97071,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -97981,7 +97197,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98106,7 +97321,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98231,7 +97445,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98356,7 +97569,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98481,7 +97693,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98608,7 +97819,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98735,7 +97945,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98862,7 +98071,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -98989,7 +98197,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99114,7 +98321,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99239,7 +98445,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99364,7 +98569,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99489,7 +98693,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99614,7 +98817,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99739,7 +98941,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99864,7 +99065,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -99989,7 +99189,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100114,7 +99313,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100239,7 +99437,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100364,7 +99561,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100489,7 +99685,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100614,7 +99809,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100739,7 +99933,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100864,7 +100057,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -100989,7 +100181,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101114,7 +100305,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101239,7 +100429,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101364,7 +100553,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101489,7 +100677,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101615,7 +100802,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101741,7 +100927,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101867,7 +101052,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -101993,7 +101177,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -102119,7 +101302,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -102245,7 +101427,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -102371,7 +101552,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -102497,7 +101677,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -102623,7 +101802,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -102749,7 +101927,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -102875,7 +102052,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103001,7 +102177,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103127,7 +102302,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103253,7 +102427,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103379,7 +102552,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103505,7 +102677,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103630,7 +102801,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103755,7 +102925,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -103880,7 +103049,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104005,7 +103173,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104130,7 +103297,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104255,7 +103421,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104380,7 +103545,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104505,7 +103669,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104630,7 +103793,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104755,7 +103917,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -104880,7 +104041,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105005,7 +104165,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105131,7 +104290,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105257,7 +104415,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105383,7 +104540,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105509,7 +104665,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105634,7 +104789,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105759,7 +104913,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -105884,7 +105037,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106009,7 +105161,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106135,7 +105286,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106261,7 +105411,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106387,7 +105536,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106513,7 +105661,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106638,7 +105785,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106763,7 +105909,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -106888,7 +106033,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107013,7 +106157,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107138,7 +106281,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107263,7 +106405,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107388,7 +106529,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107513,7 +106653,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107638,7 +106777,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107763,7 +106901,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -107888,7 +107025,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108013,7 +107149,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108138,7 +107273,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108263,7 +107397,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108388,7 +107521,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108513,7 +107645,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108638,7 +107769,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108763,7 +107893,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -108888,7 +108017,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109013,7 +108141,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109138,7 +108265,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109263,7 +108389,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109388,7 +108513,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109513,7 +108637,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109638,7 +108761,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109763,7 +108885,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -109888,7 +109009,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110013,7 +109133,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110138,7 +109257,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110263,7 +109381,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110388,7 +109505,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110513,7 +109629,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110638,7 +109753,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110763,7 +109877,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -110888,7 +110001,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111013,7 +110125,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111138,7 +110249,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111263,7 +110373,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111388,7 +110497,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111513,7 +110621,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111638,7 +110745,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111763,7 +110869,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -111888,7 +110993,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112013,7 +111117,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112138,7 +111241,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112263,7 +111365,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112388,7 +111489,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112513,7 +111613,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112638,7 +111737,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112763,7 +111861,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -112888,7 +111985,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113013,7 +112109,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113138,7 +112233,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113263,7 +112357,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113388,7 +112481,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113513,7 +112605,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113638,7 +112729,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113763,7 +112853,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -113888,7 +112977,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114013,7 +113101,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114138,7 +113225,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114263,7 +113349,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114388,7 +113473,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114513,7 +113597,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114638,7 +113721,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114763,7 +113845,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -114888,7 +113969,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115013,7 +114093,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115138,7 +114217,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115263,7 +114341,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115388,7 +114465,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115513,7 +114589,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115638,7 +114713,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115763,7 +114837,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -115888,7 +114961,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116013,7 +115085,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116138,7 +115209,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116263,7 +115333,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116388,7 +115457,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116513,7 +115581,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116638,7 +115705,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116763,7 +115829,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -116888,7 +115953,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117013,7 +116077,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117138,7 +116201,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117263,7 +116325,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117388,7 +116449,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117513,7 +116573,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117638,7 +116697,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117763,7 +116821,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -117888,7 +116945,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118013,7 +117069,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118138,7 +117193,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118263,7 +117317,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118388,7 +117441,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118513,7 +117565,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118639,7 +117690,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118765,7 +117815,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -118891,7 +117940,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119017,7 +118065,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119142,7 +118189,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119267,7 +118313,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119392,7 +118437,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119517,7 +118561,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119643,7 +118686,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119769,7 +118811,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -119895,7 +118936,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120021,7 +119061,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120147,7 +119186,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120273,7 +119311,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120399,7 +119436,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120525,7 +119561,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120651,7 +119686,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120777,7 +119811,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -120903,7 +119936,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121029,7 +120061,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121155,7 +120186,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121281,7 +120311,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121407,7 +120436,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121533,7 +120561,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121658,7 +120685,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121783,7 +120809,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -121908,7 +120933,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122033,7 +121057,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122158,7 +121181,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122283,7 +121305,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122408,7 +121429,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122533,7 +121553,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122658,7 +121677,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122783,7 +121801,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -122908,7 +121925,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123033,7 +122049,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123159,7 +122174,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123285,7 +122299,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123411,7 +122424,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123537,7 +122549,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123662,7 +122673,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123787,7 +122797,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -123912,7 +122921,6 @@ pg.ship_data_statistics = {
 			1.45
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124037,7 +123045,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124165,7 +123172,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124291,7 +123297,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124417,7 +123422,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124543,7 +123547,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124669,7 +123672,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124797,7 +123799,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -124925,7 +123926,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125053,7 +124053,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125181,7 +124180,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125309,7 +124307,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125437,7 +124434,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125565,7 +124561,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125693,7 +124688,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125821,7 +124815,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -125949,7 +124942,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126077,7 +125069,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126205,7 +125196,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126333,7 +125323,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126461,7 +125450,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126589,7 +125577,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126717,7 +125704,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126845,7 +125831,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -126973,7 +125958,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127101,7 +126085,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127229,7 +126212,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127357,7 +126339,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127485,7 +126466,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127613,7 +126593,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127741,7 +126720,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127869,7 +126847,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -127997,7 +126974,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -128125,7 +127101,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -128253,7 +127228,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -128381,7 +127355,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -128509,7 +127482,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -128637,7 +127609,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -128765,7 +127736,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -128893,7 +127863,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129021,7 +127990,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129149,7 +128117,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129277,7 +128244,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129406,7 +128372,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129535,7 +128500,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129664,7 +128628,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129793,7 +128756,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -129921,7 +128883,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130049,7 +129010,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130177,7 +129137,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130304,7 +129263,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130431,7 +129389,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130558,7 +129515,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130685,7 +129641,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130812,7 +129767,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -130939,7 +129893,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131066,7 +130019,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131193,7 +130145,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131320,7 +130271,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131447,7 +130397,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131574,7 +130523,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131701,7 +130649,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131828,7 +130775,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -131955,7 +130901,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132082,7 +131027,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132209,7 +131153,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132336,7 +131279,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132463,7 +131405,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132590,7 +131531,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132717,7 +131657,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132844,7 +131783,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -132971,7 +131909,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133098,7 +132035,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133225,7 +132161,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133352,7 +132287,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133479,7 +132413,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133606,7 +132539,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133733,7 +132665,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133860,7 +132791,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -133987,7 +132917,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -134114,7 +133043,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -134241,7 +133169,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -134368,7 +133295,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -134495,7 +133421,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -134622,7 +133547,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -134749,7 +133673,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -134876,7 +133799,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135003,7 +133925,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135130,7 +134051,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135257,7 +134177,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135384,7 +134303,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135511,7 +134429,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135638,7 +134555,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135765,7 +134681,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -135892,7 +134807,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136019,7 +134933,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136146,7 +135059,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136273,7 +135185,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136400,7 +135311,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136527,7 +135437,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136654,7 +135563,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136781,7 +135689,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -136908,7 +135815,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137033,7 +135939,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137158,7 +136063,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137283,7 +136187,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137408,7 +136311,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137533,7 +136435,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137658,7 +136559,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137783,7 +136683,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -137908,7 +136807,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138033,7 +136931,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138158,7 +137055,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138283,7 +137179,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138408,7 +137303,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138533,7 +137427,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138658,7 +137551,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138783,7 +137675,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -138908,7 +137799,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139032,7 +137922,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139156,7 +138045,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139280,7 +138168,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139404,7 +138291,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139528,7 +138414,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139653,7 +138538,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139778,7 +138662,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -139903,7 +138786,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140029,7 +138911,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140154,7 +139035,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140279,7 +139159,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140404,7 +139283,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140529,7 +139407,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140654,7 +139531,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140779,7 +139655,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -140904,7 +139779,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141029,7 +139903,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141154,7 +140027,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141279,7 +140151,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141404,7 +140275,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141529,7 +140399,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141654,7 +140523,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141779,7 +140647,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -141904,7 +140771,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142029,7 +140895,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142155,7 +141020,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142281,7 +141145,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142407,7 +141270,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142533,7 +141395,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142659,7 +141520,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142785,7 +141645,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -142911,7 +141770,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143036,7 +141894,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143161,7 +142018,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143286,7 +142142,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143411,7 +142266,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143537,7 +142391,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143662,7 +142515,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143787,7 +142639,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -143912,7 +142763,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144036,7 +142886,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144160,7 +143009,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144284,7 +143132,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144408,7 +143255,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144532,7 +143378,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144657,7 +143502,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144782,7 +143626,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -144907,7 +143750,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145032,7 +143874,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145157,7 +143998,6 @@ pg.ship_data_statistics = {
 			0.98
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145282,7 +144122,6 @@ pg.ship_data_statistics = {
 			1.03
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145407,7 +144246,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145532,7 +144370,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145657,7 +144494,6 @@ pg.ship_data_statistics = {
 			1.08
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145782,7 +144618,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -145907,7 +144742,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146032,7 +144866,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146154,7 +144987,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146276,7 +145108,6 @@ pg.ship_data_statistics = {
 			1.23
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146398,7 +145229,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146520,7 +145350,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146644,7 +145473,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146768,7 +145596,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -146892,7 +145719,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147016,7 +145842,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147138,7 +145963,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147260,7 +146084,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147382,7 +146205,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147504,7 +146326,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147628,7 +146449,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147752,7 +146572,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -147876,7 +146695,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148000,7 +146818,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148124,7 +146941,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148248,7 +147064,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148372,7 +147187,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148496,7 +147310,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148620,7 +147433,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148744,7 +147556,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148868,7 +147679,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -148993,7 +147803,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -149120,7 +147929,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -149247,7 +148055,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -149374,7 +148181,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -149501,7 +148307,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -149628,7 +148433,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -149755,7 +148559,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -149882,7 +148685,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150009,7 +148811,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150135,7 +148936,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150261,7 +149061,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150387,7 +149186,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150513,7 +149311,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150639,7 +149436,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150765,7 +149561,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -150891,7 +149686,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151017,7 +149811,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151143,7 +149936,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151269,7 +150061,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151395,7 +150186,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151521,7 +150311,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151647,7 +150436,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151773,7 +150561,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -151899,7 +150686,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152025,7 +150811,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152150,7 +150935,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152275,7 +151059,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152400,7 +151183,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152525,7 +151307,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152650,7 +151431,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152775,7 +151555,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -152900,7 +151679,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153025,7 +151803,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153153,7 +151930,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153281,7 +152057,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153409,7 +152184,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153537,7 +152311,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153666,7 +152439,6 @@ pg.ship_data_statistics = {
 			1.13
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153795,7 +152567,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -153924,7 +152695,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -154053,7 +152823,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -154295,7 +153064,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -154537,7 +153305,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -154779,7 +153546,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -155021,7 +153787,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -155255,7 +154020,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -155489,7 +154253,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -155723,7 +154486,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -155957,7 +154719,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -156195,7 +154956,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -156433,7 +155193,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -156671,7 +155430,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -156909,7 +155667,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -157143,7 +155900,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -157377,7 +156133,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -157611,7 +156366,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -157845,7 +156599,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -158083,7 +156836,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -158321,7 +157073,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -158559,7 +157310,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -158797,7 +157547,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -159039,7 +157788,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -159281,7 +158029,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -159523,7 +158270,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -159764,7 +158510,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -159888,7 +158633,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -160012,7 +158756,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -160136,7 +158879,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -160261,12 +159003,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {
-			{
-				4,
-				1
-			}
-		},
-		strategy_list_ai = {
 			{
 				4,
 				1
@@ -160401,12 +159137,6 @@ pg.ship_data_statistics = {
 				2
 			}
 		},
-		strategy_list_ai = {
-			{
-				4,
-				2
-			}
-		},
 		hunting_range = {
 			{}
 		},
@@ -160531,12 +159261,6 @@ pg.ship_data_statistics = {
 			0.93
 		},
 		strategy_list = {
-			{
-				4,
-				2
-			}
-		},
-		strategy_list_ai = {
 			{
 				4,
 				2
@@ -160671,12 +159395,6 @@ pg.ship_data_statistics = {
 				3
 			}
 		},
-		strategy_list_ai = {
-			{
-				4,
-				3
-			}
-		},
 		hunting_range = {
 			{}
 		},
@@ -160803,7 +159521,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -161055,7 +159772,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -161307,7 +160023,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -161559,7 +160274,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -161812,7 +160526,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -161940,7 +160653,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162068,7 +160780,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162196,7 +160907,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162321,7 +161031,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162446,7 +161155,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162571,7 +161279,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162696,7 +161403,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162821,7 +161527,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -162946,7 +161651,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163071,7 +161775,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163196,7 +161899,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163321,7 +162023,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163446,7 +162147,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163571,7 +162271,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163696,7 +162395,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163821,7 +162519,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -163946,7 +162643,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164071,7 +162767,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164196,7 +162891,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164321,7 +163015,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164446,7 +163139,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164571,7 +163263,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164696,7 +163387,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164821,7 +163511,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -164946,7 +163635,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165071,7 +163759,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165196,7 +163883,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165321,7 +164007,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165446,7 +164131,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165571,7 +164255,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165696,7 +164379,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165821,7 +164503,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -165947,7 +164628,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166073,7 +164753,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166199,7 +164878,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166325,7 +165003,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166450,7 +165127,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166575,7 +165251,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166700,7 +165375,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166825,7 +165499,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -166951,7 +165624,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167077,7 +165749,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167203,7 +165874,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167329,7 +165999,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167454,7 +166123,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167579,7 +166247,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167704,7 +166371,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167829,7 +166495,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -167954,7 +166619,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168079,7 +166743,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168204,7 +166867,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168329,7 +166991,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168454,7 +167115,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168579,7 +167239,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168704,7 +167363,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168832,7 +167490,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -168960,7 +167617,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169088,7 +167744,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169216,7 +167871,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169344,7 +167998,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169472,7 +168125,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169600,7 +168252,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169728,7 +168379,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169856,7 +168506,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -169984,7 +168633,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -170112,7 +168760,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -170240,7 +168887,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -170368,7 +169014,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -170496,7 +169141,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -170624,7 +169268,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -170752,7 +169395,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -170880,7 +169522,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171008,7 +169649,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171136,7 +169776,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171264,7 +169903,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171392,7 +170030,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171519,7 +170156,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171646,7 +170282,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171773,7 +170408,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -171900,7 +170534,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172027,7 +170660,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172154,7 +170786,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172281,7 +170912,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172408,7 +171038,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172535,7 +171164,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172662,7 +171290,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172789,7 +171416,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -172916,7 +171542,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173043,7 +171668,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173170,7 +171794,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173297,7 +171920,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173424,7 +172046,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173551,7 +172172,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173680,7 +172300,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173809,7 +172428,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -173938,7 +172556,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174067,7 +172684,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174194,7 +172810,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174321,7 +172936,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174448,7 +173062,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174573,7 +173186,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174698,7 +173310,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174822,7 +173433,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -174946,7 +173556,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175071,7 +173680,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175196,7 +173804,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175320,7 +173927,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175444,7 +174050,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175569,7 +174174,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175695,7 +174299,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175821,7 +174424,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -175947,7 +174549,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176072,7 +174673,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176197,7 +174797,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176322,7 +174921,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176447,7 +175045,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176572,7 +175169,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176696,7 +175292,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176820,7 +175415,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -176944,7 +175538,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177069,7 +175662,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177194,7 +175786,6 @@ pg.ship_data_statistics = {
 			1.18
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177319,7 +175910,6 @@ pg.ship_data_statistics = {
 			1.23
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177444,7 +176034,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177568,7 +176157,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177693,7 +176281,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177818,7 +176405,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -177943,7 +176529,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -178069,7 +176654,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -178194,7 +176778,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -178319,7 +176902,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -178444,7 +177026,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -178569,7 +177150,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -178823,7 +177403,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -179077,7 +177656,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -179331,7 +177909,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -179585,7 +178162,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -179839,7 +178415,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -180093,7 +178668,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -180347,7 +178921,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -180601,7 +179174,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -180851,7 +179423,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -181101,7 +179672,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -181351,7 +179921,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -181601,7 +180170,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -181855,7 +180423,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -182109,7 +180676,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -182363,7 +180929,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -182617,7 +181182,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -182863,7 +181427,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -183109,7 +181672,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -183355,7 +181917,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -183601,7 +182162,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -183855,7 +182415,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -184109,7 +182668,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -184363,7 +182921,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -184622,12 +183179,6 @@ pg.ship_data_statistics = {
 				1
 			}
 		},
-		strategy_list_ai = {
-			{
-				10,
-				1
-			}
-		},
 		hunting_range = {
 			{
 				{
@@ -184873,12 +183424,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {
-			{
-				10,
-				1
-			}
-		},
-		strategy_list_ai = {
 			{
 				10,
 				1
@@ -185134,12 +183679,6 @@ pg.ship_data_statistics = {
 				1
 			}
 		},
-		strategy_list_ai = {
-			{
-				10,
-				1
-			}
-		},
 		hunting_range = {
 			{
 				{
@@ -185390,12 +183929,6 @@ pg.ship_data_statistics = {
 				1
 			}
 		},
-		strategy_list_ai = {
-			{
-				10,
-				1
-			}
-		},
 		hunting_range = {
 			{
 				{
@@ -185641,7 +184174,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -185887,7 +184419,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -186133,7 +184664,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -186379,7 +184909,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -186625,7 +185154,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -186879,7 +185407,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -187133,7 +185660,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -187387,7 +185913,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -187641,7 +186166,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -187891,7 +186415,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -188141,7 +186664,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -188391,7 +186913,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -188641,7 +187162,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -188767,7 +187287,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -188893,7 +187412,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189019,7 +187537,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189145,7 +187662,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189271,7 +187787,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189397,7 +187912,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189523,7 +188037,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189649,7 +188162,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189775,7 +188287,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -189901,7 +188412,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190027,7 +188537,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190153,7 +188662,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190279,7 +188787,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190405,7 +188912,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190531,7 +189037,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190658,7 +189163,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190784,7 +189288,6 @@ pg.ship_data_statistics = {
 			0.72
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -190910,7 +189413,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191036,7 +189538,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191164,7 +189665,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191293,7 +189793,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191422,7 +189921,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191551,7 +190049,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191680,7 +190177,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191809,7 +190305,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -191938,7 +190433,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192067,7 +190561,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192196,7 +190689,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192324,7 +190816,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192452,7 +190943,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192580,7 +191070,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192708,7 +191197,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192836,7 +191324,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -192964,7 +191451,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193092,7 +191578,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193217,7 +191702,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193342,7 +191826,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193467,7 +191950,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193592,7 +192074,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193719,7 +192200,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193846,7 +192326,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -193973,7 +192452,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194100,7 +192578,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194225,7 +192702,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194351,7 +192827,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194477,7 +192952,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194603,7 +193077,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194729,7 +193202,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194854,7 +193326,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -194979,7 +193450,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195104,7 +193574,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195228,7 +193697,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195352,7 +193820,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195476,7 +193943,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195600,7 +194066,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195724,7 +194189,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195848,7 +194312,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -195972,7 +194435,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196096,7 +194558,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196221,7 +194682,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196347,7 +194807,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196473,7 +194932,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196599,7 +195057,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196725,7 +195182,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196851,7 +195307,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -196977,7 +195432,6 @@ pg.ship_data_statistics = {
 			0.95
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197103,7 +195557,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197229,7 +195682,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197355,7 +195807,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197481,7 +195932,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197607,7 +196057,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197733,7 +196182,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197859,7 +196307,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -197985,7 +196432,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -198111,7 +196557,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -198240,7 +196685,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -198368,7 +196812,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -198496,7 +196939,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -198624,7 +197066,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -198752,7 +197193,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -198880,7 +197320,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199008,7 +197447,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199136,7 +197574,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199262,7 +197699,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199389,7 +197825,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199516,7 +197951,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199643,7 +198077,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199769,7 +198202,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -199895,7 +198327,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200021,7 +198452,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200147,7 +198577,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200273,7 +198702,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200399,7 +198827,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200525,7 +198952,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200651,7 +199077,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200777,7 +199202,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -200902,7 +199326,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201027,7 +199450,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201152,7 +199574,6 @@ pg.ship_data_statistics = {
 			1.45
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201277,7 +199698,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201402,7 +199822,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201527,7 +199946,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201652,7 +200070,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201777,7 +200194,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -201902,7 +200318,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202027,7 +200442,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202152,7 +200566,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202280,7 +200693,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202408,7 +200820,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202536,7 +200947,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202664,7 +201074,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202792,7 +201201,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -202918,7 +201326,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203044,7 +201451,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203170,7 +201576,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203293,7 +201698,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203419,7 +201823,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203545,7 +201948,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203671,7 +202073,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203795,7 +202196,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -203916,7 +202316,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -204037,7 +202436,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -204158,7 +202556,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -204281,7 +202678,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -204529,7 +202925,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -204777,7 +203172,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -205025,7 +203419,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -205273,7 +203666,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -205398,7 +203790,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -205523,7 +203914,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -205648,7 +204038,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -205773,7 +204162,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -205898,7 +204286,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206023,7 +204410,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206148,7 +204534,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206273,7 +204658,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206398,7 +204782,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206523,7 +204906,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206648,7 +205030,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206773,7 +205154,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -206898,7 +205278,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207023,7 +205402,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207148,7 +205526,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207276,7 +205653,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207404,7 +205780,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207532,7 +205907,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207660,7 +206034,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207787,7 +206160,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -207912,7 +206284,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208037,7 +206408,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208162,7 +206532,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208285,7 +206654,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208410,7 +206778,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208535,7 +206902,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208660,7 +207026,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208785,7 +207150,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -208910,7 +207274,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209035,7 +207398,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209160,7 +207522,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209285,7 +207646,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209412,7 +207772,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209539,7 +207898,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209666,7 +208024,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209791,7 +208148,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -209912,7 +208268,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210033,7 +208388,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210154,7 +208508,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210275,7 +208628,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210397,7 +208749,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210521,7 +208872,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210643,7 +208993,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210764,7 +209113,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -210886,7 +209234,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211008,7 +209355,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211130,7 +209476,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211252,7 +209597,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211374,7 +209718,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211496,7 +209839,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211618,7 +209960,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211740,7 +210081,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211862,7 +210202,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -211984,7 +210323,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212106,7 +210444,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212228,7 +210565,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212350,7 +210686,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212472,7 +210807,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212594,7 +210928,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212716,7 +211049,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212838,7 +211170,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -212960,7 +211291,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213082,7 +211412,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213204,7 +211533,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213326,7 +211654,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213448,7 +211775,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213570,7 +211896,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213697,7 +212022,6 @@ pg.ship_data_statistics = {
 				3
 			}
 		},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213819,7 +212143,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -213940,7 +212263,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214061,7 +212383,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214182,7 +212503,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214304,7 +212624,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214426,7 +212745,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214547,7 +212865,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214671,7 +212988,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214793,7 +213109,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -214915,7 +213230,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215037,7 +213351,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215159,7 +213472,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215281,7 +213593,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215403,7 +213714,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215524,7 +213834,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215645,7 +213954,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215767,7 +214075,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -215889,7 +214196,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216010,7 +214316,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216131,7 +214436,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216252,7 +214556,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216374,7 +214677,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216496,7 +214798,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216617,7 +214918,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216741,7 +215041,6 @@ pg.ship_data_statistics = {
 			0.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216862,7 +215161,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -216983,7 +215281,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217105,7 +215402,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217227,7 +215523,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217349,7 +215644,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217471,7 +215765,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217592,7 +215885,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217713,7 +216005,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217837,7 +216128,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -217958,7 +216248,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218082,7 +216371,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218204,7 +216492,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218326,7 +216613,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218448,7 +216734,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218572,7 +216857,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218694,7 +216978,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218816,7 +217099,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -218937,7 +217219,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219059,7 +217340,6 @@ pg.ship_data_statistics = {
 			1.27
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219180,7 +217460,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219302,7 +217581,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219423,7 +217701,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219545,7 +217822,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219667,7 +217943,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219788,7 +218063,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -219909,7 +218183,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220031,7 +218304,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220155,7 +218427,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220276,7 +218547,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220400,7 +218670,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220522,7 +218791,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220644,7 +218912,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220766,7 +219033,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -220888,7 +219154,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221011,7 +219276,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221134,7 +219398,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221257,7 +219520,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221380,7 +219642,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221503,7 +219764,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221626,7 +219886,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221749,7 +220008,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221872,7 +220130,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -221995,7 +220252,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222118,7 +220374,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222241,7 +220496,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222364,7 +220618,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222487,7 +220740,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222610,7 +220862,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222733,7 +220984,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222856,7 +221106,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -222979,7 +221228,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223102,7 +221350,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223225,7 +221472,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223348,7 +221594,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223471,7 +221716,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223594,7 +221838,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223717,7 +221960,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223840,7 +222082,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -223963,7 +222204,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224086,7 +222326,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224209,7 +222448,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224332,7 +222570,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224455,7 +222692,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224578,7 +222814,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224701,7 +222936,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224824,7 +223058,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -224947,7 +223180,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225070,7 +223302,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225193,7 +223424,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225316,7 +223546,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225439,7 +223668,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225562,7 +223790,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225685,7 +223912,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225809,7 +224035,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -225932,7 +224157,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226055,7 +224279,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226178,7 +224401,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226301,7 +224523,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226424,7 +224645,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226547,7 +224767,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226670,7 +224889,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226793,7 +225011,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -226916,7 +225133,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227039,7 +225255,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227162,7 +225377,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227285,7 +225499,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227408,7 +225621,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227531,7 +225743,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227654,7 +225865,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227777,7 +225987,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -227900,7 +226109,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228023,7 +226231,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228146,7 +226353,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228269,7 +226475,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228392,7 +226597,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228515,7 +226719,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228638,7 +226841,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228761,7 +226963,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -228884,7 +227085,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229007,7 +227207,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229130,7 +227329,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229253,7 +227451,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229372,7 +227569,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229489,7 +227685,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229606,7 +227801,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229723,7 +227917,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229840,7 +228033,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -229957,7 +228149,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230074,7 +228265,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230191,7 +228381,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230308,7 +228497,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230425,7 +228613,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230542,7 +228729,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230659,7 +228845,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230776,7 +228961,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -230893,7 +229077,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -231010,7 +229193,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -231127,7 +229309,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -231244,7 +229425,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -231361,7 +229541,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -231484,7 +229663,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -231732,7 +229910,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -231980,7 +230157,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -232228,7 +230404,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -232352,7 +230527,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -232478,7 +230652,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -232604,7 +230777,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -232730,7 +230902,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -232857,7 +231028,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -232982,7 +231152,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233107,7 +231276,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233230,7 +231398,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233353,7 +231520,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233474,7 +231640,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233595,7 +231760,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233718,7 +231882,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233841,7 +232004,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -233964,7 +232126,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234087,7 +232248,6 @@ pg.ship_data_statistics = {
 			0.75
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234209,7 +232369,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234332,7 +232491,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234454,7 +232612,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234577,7 +232734,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234700,7 +232856,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234822,7 +232977,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -234945,7 +233099,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235068,7 +233221,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235191,7 +233343,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235314,7 +233465,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235437,7 +233587,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235560,7 +233709,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235683,7 +233831,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235806,7 +233953,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -235929,7 +234075,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236052,7 +234197,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236175,7 +234319,6 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236298,7 +234441,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236421,7 +234563,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236544,7 +234685,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236667,7 +234807,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236790,7 +234929,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -236913,7 +235051,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237036,7 +235173,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237159,7 +235295,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237282,7 +235417,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237405,7 +235539,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237528,7 +235661,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237651,7 +235783,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237772,7 +235903,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -237895,7 +236025,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238018,7 +236147,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238140,7 +236268,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238262,7 +236389,6 @@ pg.ship_data_statistics = {
 			0.55
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238385,7 +236511,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238507,7 +236632,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238629,7 +236753,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238751,7 +236874,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238874,7 +236996,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -238995,7 +237116,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239116,7 +237236,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239243,7 +237362,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239366,7 +237484,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239489,7 +237606,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239612,7 +237728,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239735,7 +237850,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239858,7 +237972,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -239983,7 +238096,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240108,7 +238220,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240232,7 +238343,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240359,7 +238469,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240482,7 +238591,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240605,7 +238713,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240731,7 +238838,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240857,7 +238963,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -240983,7 +239088,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -241109,7 +239213,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -241235,7 +239338,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -241361,7 +239463,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -241487,13 +239588,512 @@ pg.ship_data_statistics = {
 			1.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
 		tag_list = {
 			"HiryuMETA",
 			"Hiryu"
+		}
+	},
+	[9707021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家方舟·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707020,
+		english_name = "Ark Royal.META",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1066,
+			0,
+			0,
+			61,
+			80,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			19583,
+			0,
+			0,
+			588,
+			793,
+			209,
+			0,
+			350,
+			123,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
+		}
+	},
+	[9707022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家方舟·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707020,
+		english_name = "Ark Royal.META",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1326,
+			0,
+			0,
+			76,
+			100,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			19583,
+			0,
+			0,
+			588,
+			793,
+			209,
+			0,
+			350,
+			123,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.33,
+			1.28,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
+		}
+	},
+	[9707023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家方舟·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707020,
+		english_name = "Ark Royal.META",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1846,
+			0,
+			0,
+			106,
+			139,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			19583,
+			0,
+			0,
+			588,
+			793,
+			209,
+			0,
+			350,
+			123,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.38,
+			1.33,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
+		}
+	},
+	[9707024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家方舟·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707020,
+		english_name = "Ark Royal.META",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2626,
+			0,
+			0,
+			150,
+			199,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			19583,
+			0,
+			0,
+			788,
+			992,
+			292,
+			0,
+			379,
+			262,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
 		}
 	},
 	[901001] = {
@@ -241613,12 +240213,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {
-			{
-				4,
-				1
-			}
-		},
-		strategy_list_ai = {
 			{
 				4,
 				1
@@ -241746,7 +240340,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -241871,7 +240464,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -241996,7 +240588,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242121,7 +240712,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242246,7 +240836,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242371,7 +240960,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242496,7 +241084,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242621,7 +241208,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242746,7 +241332,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242871,7 +241456,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -242996,7 +241580,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -243121,7 +241704,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -243247,7 +241829,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -243374,7 +241955,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -243501,7 +242081,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -243628,7 +242207,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -243753,7 +242331,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -243878,7 +242455,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244003,7 +242579,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244128,7 +242703,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244254,7 +242828,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244379,7 +242952,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244504,7 +243076,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244629,7 +243200,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244757,7 +243327,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -244885,7 +243454,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245013,7 +243581,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245141,7 +243708,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245269,7 +243835,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245397,7 +243962,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245525,7 +244089,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245653,7 +244216,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245778,7 +244340,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -245903,7 +244464,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246028,7 +244588,6 @@ pg.ship_data_statistics = {
 			1.25
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246153,7 +244712,6 @@ pg.ship_data_statistics = {
 			1.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246276,7 +244834,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246399,7 +244956,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246522,7 +245078,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246645,7 +245200,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246769,7 +245323,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -246893,7 +245446,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -247017,7 +245569,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -247141,7 +245692,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -247269,7 +245819,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -247397,7 +245946,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -247525,7 +246073,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -247653,7 +246200,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -247778,7 +246324,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -248016,7 +246561,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -248254,7 +246798,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -248492,7 +247035,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -248730,7 +247272,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -248968,7 +247509,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -249206,7 +247746,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -249444,7 +247983,6 @@ pg.ship_data_statistics = {
 			0.85
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{
 				{
@@ -249685,7 +248223,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -249814,7 +248351,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -249943,7 +248479,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250072,7 +248607,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250198,7 +248732,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250323,7 +248856,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250448,7 +248980,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250573,7 +249104,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250701,7 +249231,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250829,7 +249358,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -250957,7 +249485,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251085,7 +249612,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251212,7 +249738,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251339,7 +249864,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251466,7 +249990,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251593,7 +250116,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251718,7 +250240,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251843,7 +250364,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -251968,7 +250488,6 @@ pg.ship_data_statistics = {
 			1.1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252093,7 +250612,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252218,7 +250736,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252343,7 +250860,6 @@ pg.ship_data_statistics = {
 			1.05
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252468,7 +250984,6 @@ pg.ship_data_statistics = {
 			1.15
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252593,7 +251108,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252718,7 +251232,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252843,7 +251356,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -252968,7 +251480,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253093,7 +251604,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253221,7 +251731,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253349,7 +251858,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253477,7 +251985,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253605,7 +252112,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253730,7 +252236,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253856,7 +252361,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -253982,7 +252486,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254108,7 +252611,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254236,7 +252738,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254363,7 +252864,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254490,7 +252990,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254617,7 +253116,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254742,7 +253240,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254867,7 +253364,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -254992,7 +253488,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -255117,7 +253612,6 @@ pg.ship_data_statistics = {
 			0.8
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -255244,7 +253738,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -255371,7 +253864,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -255498,7 +253990,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -255625,7 +254116,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -255752,7 +254242,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -255879,7 +254368,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256006,7 +254494,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256133,7 +254620,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256262,7 +254748,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256391,7 +254876,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256520,7 +255004,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256649,7 +255132,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256774,7 +255256,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -256899,7 +255380,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257024,7 +255504,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257149,7 +255628,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257274,7 +255752,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257399,7 +255876,6 @@ pg.ship_data_statistics = {
 			1.2
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257524,7 +256000,6 @@ pg.ship_data_statistics = {
 			1.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257649,7 +256124,6 @@ pg.ship_data_statistics = {
 			1.35
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257774,7 +256248,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -257899,7 +256372,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258024,7 +256496,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258149,7 +256620,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258274,7 +256744,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258399,7 +256868,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258524,7 +256992,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258649,7 +257116,6 @@ pg.ship_data_statistics = {
 			0.9
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258774,7 +257240,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -258900,7 +257365,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259026,7 +257490,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259152,7 +257615,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259280,7 +257742,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259407,7 +257868,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259534,7 +257994,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259661,7 +258120,6 @@ pg.ship_data_statistics = {
 			0.3
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259788,7 +258246,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -259915,7 +258372,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260042,7 +258498,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260169,7 +258624,6 @@ pg.ship_data_statistics = {
 			0.5
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260295,7 +258749,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260421,7 +258874,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260547,7 +258999,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260673,7 +259124,6 @@ pg.ship_data_statistics = {
 			0.4
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260799,7 +259249,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -260928,7 +259377,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -261057,7 +259505,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -261186,7 +259633,6 @@ pg.ship_data_statistics = {
 			1
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -261311,7 +259757,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -261436,7 +259881,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -261561,7 +260005,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -261686,7 +260129,6 @@ pg.ship_data_statistics = {
 			0.7
 		},
 		strategy_list = {},
-		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
@@ -263535,6 +261977,10 @@ pg.ship_data_statistics = {
 		9707012,
 		9707013,
 		9707014,
+		9707021,
+		9707022,
+		9707023,
+		9707024,
 		901001,
 		10600011,
 		10600012,

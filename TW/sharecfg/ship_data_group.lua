@@ -13060,6 +13060,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13227,6 +13238,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13289,6 +13311,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13349,6 +13382,17 @@ pg.ship_data_group = {
 				"限時活動：異色格",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -13639,6 +13683,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13710,6 +13765,17 @@ pg.ship_data_group = {
 				"限時活動：異色格",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -13850,6 +13916,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"核心兌換獲取",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13943,6 +14019,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14003,6 +14090,17 @@ pg.ship_data_group = {
 				"限時活動：異色格",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14138,6 +14236,17 @@ pg.ship_data_group = {
 				"限時活動：異色格",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14390,6 +14499,17 @@ pg.ship_data_group = {
 				"限時活動：異色格",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -17003,6 +17123,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30002] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30002,
+		code = 30002,
+		group_type = 970702,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707021
+					}
+				},
+				0
+			}
+		}
+	},
 	[30005] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -17472,6 +17626,7 @@ pg.ship_data_group = {
 		20016,
 		20017,
 		30001,
+		30002,
 		30005
 	}
 }

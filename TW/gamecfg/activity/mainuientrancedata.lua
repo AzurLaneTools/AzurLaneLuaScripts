@@ -153,7 +153,7 @@ return {
 			if slot3 then
 				setActive(slot1:Find("Tip"), getProxy(MiniGameProxy):GetHubByHubId(slot2:getConfig("config_id")).count > 0 and slot5.usedtime < 7)
 				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_MINI_GAME, 22)
+					pg.m02:sendNotification(GAME.GO_MINI_GAME, 38)
 				end, SFX_PANEL)
 			end
 		end
@@ -610,6 +610,7 @@ return {
 		4,
 		5,
 		6,
+		8,
 		19,
 		23
 	}

@@ -13932,6 +13932,144 @@ _G.pg.equip_data_statistics[3231] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[3300] = {
+	type = 10,
+	name = "四神之印",
+	speciality = "無",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "雕刻著東煌古國四神獸的玉器，似乎蘊含著來自東方的神秘力量",
+	nationality = 5,
+	rarity = 5,
+	id = 3300,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "3300",
+	value_1 = "250",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6480
+	},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"PRAN",
+		"DEV"
+	}
+}
+
+_G.pg.equip_data_statistics[3301] = {
+	id = 3301,
+	value_1 = "280",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3302] = {
+	id = 3302,
+	value_1 = "310",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3303] = {
+	id = 3303,
+	value_1 = "340",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3304] = {
+	id = 3304,
+	value_1 = "370",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3305] = {
+	id = 3305,
+	value_1 = "400",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3306] = {
+	id = 3306,
+	value_1 = "430",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3307] = {
+	id = 3307,
+	value_1 = "460",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3308] = {
+	id = 3308,
+	value_1 = "490",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3309] = {
+	id = 3309,
+	value_1 = "520",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3310] = {
+	id = 3310,
+	value_1 = "550",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3311] = {
+	id = 3311,
+	anti_siren = 100,
+	value_1 = "580",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3312] = {
+	id = 3312,
+	anti_siren = 200,
+	value_1 = "610",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[3313] = {
+	id = 3313,
+	anti_siren = 300,
+	value_1 = "640",
+	base = 3300,
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[3400] = {
 	type = 18,
 	name = "“九四式40厘米炮”部件",
@@ -54295,7 +54433,7 @@ _G.pg.equip_data_statistics[27300] = {
 	tech = 0,
 	ammo = 5,
 	nationality = 2,
-	descrip = "說明未填寫",
+	descrip = "皇家海軍最後服役的螺旋槳飛機，因戰鬥表現良好廣受好評",
 	id = 27300,
 	torpedo_ammo = 0,
 	value_3 = 0,
