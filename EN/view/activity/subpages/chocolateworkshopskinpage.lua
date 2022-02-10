@@ -14,7 +14,34 @@ function slot0.OnInit(slot0)
 	slot0.sdBtn = slot0:findTF("SDBtn", slot0.bg)
 
 	onButton(slot0, slot0.sdBtn, function ()
-		setActive(uv0.boxTF, true)
+		if type({
+			{
+				{
+					2022,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}) == "table" and pg.TimeMgr.GetInstance():inTime(slot0) then
+			setActive(uv0.boxTF, true)
+		end
 	end, SFX_PANEL)
 
 	slot0.boxTF = slot0:findTF("Box")
@@ -41,20 +68,17 @@ function slot0.OnInit(slot0)
 	end, slot5)
 
 	slot0.sdNameList = {
-		"ajiakesi_3",
-		"nigulasi_5",
-		"pulinsidun_3"
+		"anshan_3",
+		"shiyu_4"
 	}
 	slot0.bubbleTextTable = {
-		ajiakesi_3 = {
+		anshan_3 = {
 			"valentinesday__txt1_tip",
-			"valentinesday__txt2_tip"
+			"valentinesday__txt2_tip",
+			"valentinesday__txt3_tip"
 		},
-		nigulasi_5 = {
-			"valentinesday__txt3_tip",
-			"valentinesday__txt4_tip"
-		},
-		pulinsidun_3 = {
+		shiyu_4 = {
+			"valentinesday__txt4_tip",
 			"valentinesday__txt5_tip",
 			"valentinesday__txt6_tip"
 		}

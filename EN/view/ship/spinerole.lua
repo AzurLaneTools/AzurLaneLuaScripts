@@ -10,10 +10,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.prefabName = slot0.ship:getPrefab()
 end
 
-function slot0.Load(slot0, slot1)
-	slot2 = PoolMgr.GetInstance()
+function slot0.Load(slot0, slot1, slot2)
+	if slot2 == nil then
+		slot2 = true
+	end
 
-	slot2:GetSpineChar(slot0.prefabName, true, function (slot0)
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetSpineChar(slot0.prefabName, slot2, function (slot0)
 		if uv0.state == uv1.STATE_DISPOSE then
 			PoolMgr.GetInstance():ReturnSpineChar(uv0.prefabName, slot0)
 		else

@@ -699,7 +699,17 @@ function updateItem(slot0, slot1, slot2)
 	end
 
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4, slot5)
-	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
+
+	slot6 = findTF(slot0, "icon_bg/icon")
+
+	if slot1.extra then
+		if slot3.type == Item.LOVE_LETTER_TYPE then
+			GetImageSpriteFromAtlasAsync("SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab, "", slot6)
+		end
+	else
+		GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", slot6)
+	end
+
 	uv0(slot0, false)
 	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
 	uv2(slot0, slot3.rarity + 1, slot2)
@@ -961,9 +971,9 @@ end
 
 function updateDrop(slot0, slot1, slot2)
 	slot2 = slot2 or {}
-	slot3 = type
-	slot5 = Item.GetConfig(slot1.type or slot1.dropType, slot1.id)
-	slot6 = ""
+	slot4 = Item.GetConfig(slot1.type or slot1.dropType, slot1.id)
+	slot5 = ""
+	slot6 = nil
 	slot8 = nil
 
 	for slot12, slot13 in ipairs({
@@ -992,7 +1002,7 @@ function updateDrop(slot0, slot1, slot2)
 	}) do
 		slot8 = slot0.Find(slot0, slot13[1])
 
-		if slot4 ~= slot13[2] and not IsNil(slot8) then
+		if slot3 ~= slot13[2] and not IsNil(slot8) then
 			setActive(slot8, false)
 		end
 	end
@@ -1007,27 +1017,32 @@ function updateDrop(slot0, slot1, slot2)
 		2
 	})
 
-	if slot4 == DROP_TYPE_RESOURCE then
-		slot6 = slot5.display
+	if slot3 == DROP_TYPE_RESOURCE then
+		slot5 = slot4.display
 
 		updateItem(slot0, Item.New({
 			id = id2ItemId(slot1.id)
 		}), slot2)
-	elseif slot4 == DROP_TYPE_ITEM then
-		slot6 = slot5.display
+	elseif slot3 == DROP_TYPE_ITEM then
+		slot5 = slot4.display
+
+		if slot4.type == Item.LOVE_LETTER_TYPE then
+			slot5 = string.gsub(slot5, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.extra))
+		end
 
 		updateItem(slot0, Item.New({
-			id = slot1.id
+			id = slot1.id,
+			extra = slot1.extra
 		}), slot2)
-	elseif slot4 == DROP_TYPE_EQUIP then
-		slot6 = slot5.descrip
+	elseif slot3 == DROP_TYPE_EQUIP then
+		slot5 = slot4.descrip
 
 		updateEquipment(slot0, Equipment.New({
 			id = slot1.id
 		}), slot2)
-	elseif slot4 == DROP_TYPE_SHIP then
-		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(slot5.skin_id, ShipWordHelper.WORD_TYPE_DROP)
-		slot6 = slot11 or i18n("ship_drop_desc_default")
+	elseif slot3 == DROP_TYPE_SHIP then
+		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(slot4.skin_id, ShipWordHelper.WORD_TYPE_DROP)
+		slot5 = slot11 or i18n("ship_drop_desc_default")
 		slot12 = Ship.New({
 			configId = slot1.id,
 			skin_id = slot1.skinId,
@@ -1037,68 +1052,76 @@ function updateDrop(slot0, slot1, slot2)
 		slot12.virgin = slot1.virgin
 
 		updateShip(slot0, slot12, slot2)
-	elseif slot4 == DROP_TYPE_NPC_SHIP then
+	elseif slot3 == DROP_TYPE_NPC_SHIP then
 		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(Item.GetConfig(DROP_TYPE_SHIP, getProxy(BayProxy):getShipById(slot1.id).configId).skin_id, ShipWordHelper.WORD_TYPE_DROP)
-		slot6 = slot12 or i18n("ship_drop_desc_default")
+		slot5 = slot12 or i18n("ship_drop_desc_default")
 
 		updateShip(slot0, slot9, slot2)
-	elseif slot4 == DROP_TYPE_FURNITURE then
-		slot6 = slot5.describe
+	elseif slot3 == DROP_TYPE_FURNITURE then
+		slot5 = slot4.describe
 
 		updateFurniture(slot0, slot1.id, slot2)
-	elseif slot4 == DROP_TYPE_STRATEGY then
-		slot6 = (slot1.isWorldBuff and pg.world_SLGbuff_data[slot1.id] or pg.strategy_data_template[slot1.id]).desc
+	elseif slot3 == DROP_TYPE_STRATEGY then
+		slot5 = (slot1.isWorldBuff and pg.world_SLGbuff_data[slot1.id] or pg.strategy_data_template[slot1.id]).desc
 		slot2.isWorldBuff = slot1.isWorldBuff
 
 		updateStrategy(slot0, Item.New({
 			id = slot1.id
 		}), slot2)
-	elseif slot4 == DROP_TYPE_SKIN then
-		slot9, slot10, slot6 = ShipWordHelper.GetWordAndCV(slot1.id, ShipWordHelper.WORD_TYPE_DROP)
+	elseif slot3 == DROP_TYPE_SKIN then
+		slot9, slot10, slot5 = ShipWordHelper.GetWordAndCV(slot1.id, ShipWordHelper.WORD_TYPE_DROP)
 		slot2.isSkin = true
 
 		updateShip(slot0, Ship.New({
-			configId = tonumber(slot5.ship_group .. "1"),
+			configId = tonumber(slot4.ship_group .. "1"),
 			skin_id = slot1.id
 		}), slot2)
-	elseif slot4 == DROP_TYPE_EQUIPMENT_SKIN then
+	elseif slot3 == DROP_TYPE_EQUIPMENT_SKIN then
 		updateEquipmentSkin(slot0, {
-			rarity = slot5.rarity,
-			icon = slot5.icon,
-			name = slot5.name,
+			rarity = slot4.rarity,
+			icon = slot4.icon,
+			name = slot4.name,
 			count = slot1.count
 		}, slot2)
-	elseif slot4 == DROP_TYPE_VITEM then
-		slot6 = slot5.display
+	elseif slot3 == DROP_TYPE_VITEM then
+		slot5 = slot4.display
 
 		updateItem(slot0, Item.New({
 			id = slot1.id
 		}), slot2)
-	elseif slot4 == DROP_TYPE_WORLD_ITEM then
-		slot6 = slot5.display
+	elseif slot3 == DROP_TYPE_WORLD_ITEM then
+		slot5 = slot4.display
 
 		updateWorldItem(slot0, WorldItem.New({
 			id = slot1.id
 		}), slot2)
-	elseif slot4 == DROP_TYPE_WORLD_COLLECTION then
-		slot6 = WorldCollectionProxy.GetCollectionTemplate(slot1.id).name
+	elseif slot3 == DROP_TYPE_WORLD_COLLECTION then
+		slot5 = WorldCollectionProxy.GetCollectionTemplate(slot1.id).name
 
 		updateWorldCollection(slot0, slot1, slot2)
-	elseif slot4 == DROP_TYPE_CHAT_FRAME then
-		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, slot5, slot2)
-	elseif slot4 == DROP_TYPE_ICON_FRAME then
-		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, slot5, slot2)
-	elseif slot4 == DROP_TYPE_EMOJI then
-		slot5 = pg.emoji_template[slot1.id]
-		slot6 = slot5.item_desc
+	elseif slot3 == DROP_TYPE_CHAT_FRAME then
+		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, slot4, slot2)
+	elseif slot3 == DROP_TYPE_ICON_FRAME then
+		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, slot4, slot2)
+	elseif slot3 == DROP_TYPE_EMOJI then
+		slot4 = pg.emoji_template[slot1.id]
+		slot5 = slot4.item_desc
 
-		updateEmoji(slot0, slot5, slot2)
+		updateEmoji(slot0, slot4, slot2)
+	elseif slot3 == DROP_TYPE_LOVE_LETTER then
+		slot5 = string.gsub(slot4.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.count))
+		slot6 = 1
+
+		updateItem(slot0, Item.New({
+			id = slot1.id,
+			extra = slot1.count
+		}), slot2)
 	end
 
-	slot1.cfg = slot5
-	slot1.desc = HXSet.hxLan(slot6)
+	slot1.cfg = slot4
+	slot1.desc = HXSet.hxLan(slot5)
 
-	uv2(slot0, slot1.count)
+	uv2(slot0, slot6 or slot1.count)
 end
 
 function updateDropCfg(slot0)

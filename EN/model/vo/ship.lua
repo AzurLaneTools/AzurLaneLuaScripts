@@ -2149,9 +2149,9 @@ end
 function slot0.isAllRemouldFinish(slot0)
 	for slot5, slot6 in ipairs(pg.ship_data_trans[slot0.groupId].transform_list) do
 		for slot10, slot11 in ipairs(slot6) do
-			slot12 = pg.transform_data_template[slot11[2]]
-
-			if not slot0.transforms[slot11[2]] or slot0.transforms[slot11[2]].level < slot12.max_level then
+			if #pg.transform_data_template[slot11[2]].edit_trans > 0 then
+				-- Nothing
+			elseif not slot0.transforms[slot11[2]] or slot0.transforms[slot11[2]].level < slot12.max_level then
 				return false
 			end
 		end

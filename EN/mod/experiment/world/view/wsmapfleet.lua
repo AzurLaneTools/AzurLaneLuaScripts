@@ -1,19 +1,20 @@
 slot0 = class("WSMapFleet", import(".WSMapTransform"))
 slot0.Fields = {
+	rtShadow = "userdata",
+	rtSub = "userdata",
+	rtArrow = "userdata",
+	spineRole = "table",
+	selected = "boolean",
+	rtRetreat = "userdata",
+	theme = "table",
+	moveTurnCount = "number",
+	fleet = "table",
 	rtFx = "userdata",
 	timerHealth = "table",
-	rtArrow = "userdata",
 	rtDamage = "userdata",
-	selected = "boolean",
 	rtHealth = "userdata",
-	rtSub = "userdata",
-	rtMoveTurn = "userdata",
-	theme = "table",
 	attaches = "table",
-	moveTurnCount = "number",
-	rtShadow = "userdata",
-	rtRetreat = "userdata",
-	fleet = "table",
+	rtMoveTurn = "userdata",
 	active = "boolean",
 	submarineSupport = "boolean"
 }
@@ -79,6 +80,33 @@ function slot0.Init(slot0)
 	slot0:UpdateModelAngles(Vector3.zero)
 
 	slot0.moveTurnCount = 0
+end
+
+function slot0.LoadSpine(slot0, slot1)
+	slot5 = SpineRole.New(WorldConst.FetchRawShipVO(slot0.fleet[TeamType.Main][1].id))
+
+	slot5:Load(function ()
+		if uv0.modelType ~= WorldConst.ModelSpine then
+			uv1:Dispose()
+
+			return
+		end
+
+		slot0 = uv1.model.transform
+		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
+		slot0.anchoredPosition3D = Vector3.zero
+		slot0.localScale = Vector3.one
+
+		pg.ViewUtils.SetLayer(slot0, Layer.UI)
+		uv1:SetParent(uv0.model)
+
+		uv0.modelComps = {
+			slot0:GetComponent("SpineAnimUI")
+		}
+		uv0.spineRole = uv1
+
+		uv2()
+	end, slot0.modelResAsync)
 end
 
 function slot0.Update(slot0, slot1)
@@ -216,6 +244,16 @@ function slot0.ClearHealthTimer(slot0)
 		slot0.timerHealth = nil
 
 		setActive(slot0.rtHealth, false)
+	end
+end
+
+function slot0.UnloadModel(slot0)
+	uv0.super.UnloadModel(slot0)
+
+	if slot0.spineRole then
+		slot0.spineRole:Dispose()
+
+		slot0.spineRole = nil
 	end
 end
 

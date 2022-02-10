@@ -10,6 +10,7 @@ slot0.ACT_ON_BUILD = "BuildShipMediator ACT_ON_BUILD"
 slot0.OPEN_EXCHANGE = "BuildShipMediator OPEN_EXCHANGE"
 slot0.CLOSE_EXCHANGE = "BuildShipMediator CLOSE_EXCHANGE"
 slot0.ON_UPDATE_ACT = "BuildShipMediator ON_UPDATE_ACT"
+slot0.ON_UPDATE_FREE_BUILD_ACT = "BuildShipMediator ON_UPDATE_FREE_BUILD_ACT"
 slot0.SIMULATION_BATTLE = "BuildShipMediator SIMULATION_BATTLE"
 slot0.ON_SHOP = "BuildShipMediator ON_SHOP"
 slot0.OPEN_PRAY_PAGE = "BuildShipMediator OPEN_PRAY_PAGE"
@@ -65,17 +66,19 @@ function slot0.register(slot0)
 			})
 		end
 	end)
-	slot0:bind(uv0.ON_BUILD, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_BUILD, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.BUILD_SHIP, {
 			buildId = slot1,
-			count = slot2
+			count = slot2,
+			isTicket = slot3
 		})
 	end)
-	slot0:bind(uv0.ACT_ON_BUILD, function (slot0, slot1, slot2, slot3)
+	slot0:bind(uv0.ACT_ON_BUILD, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,
 			activity_id = slot1,
 			arg1 = slot3,
+			arg2 = slot4 and 1 or 0,
 			buildId = slot2
 		})
 	end)
@@ -218,8 +221,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		if slot3 and slot4:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
-			slot0.viewComponent:RefreshActivityBuildPool(slot4)
+		if slot3 then
+			if slot4:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+				slot0.viewComponent:RefreshActivityBuildPool(slot4)
+			elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILD_FREE then
+				slot0.viewComponent:RefreshFreeBuildActivity()
+			end
 		end
 	elseif slot2 == GAME.ACTIVITY_BUILD_POOL_EXCHANGE_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)

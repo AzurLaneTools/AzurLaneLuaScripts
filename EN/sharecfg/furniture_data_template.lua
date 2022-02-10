@@ -36129,15 +36129,39 @@ pg.furniture_data_template = {
 		comfortable = 2,
 		spine_action_replace = "",
 		belong = 1,
-		canputon = 0,
+		canputon = 1,
 		id = 37108,
 		can_rotate = 1,
 		size = {
 			7,
 			1
 		},
-		offset = {},
-		canputonGrid = {},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			}
+		},
 		can_trigger = {
 			0
 		},
@@ -60128,7 +60152,7 @@ pg.furniture_data_template = {
 		picture = "valentine2/chuangvt2",
 		is_get_time_note = 0,
 		themeId = 59,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "Look, we said love nest but apparently the Manjuu only heard the \"nest\" part.",
 		tag = 1,
@@ -60476,7 +60500,7 @@ pg.furniture_data_template = {
 		themeId = 59,
 		is_get_time_note = 0,
 		picture = "valentine2/yiguivt2",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "Cause there's nothing like this feeling, now that I found out that my old clothes don't fit me anymore.",
 		tag = 1,

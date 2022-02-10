@@ -44,10 +44,20 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.addBtn, function ()
 		uv0.count = math.min(uv0.count + 1, MAX_BUILD_WORK_COUNT)
 
+		if uv0.isTicket and uv0.itemVO.count < uv0.count then
+			uv0.count = math.min(uv0.count, uv0.itemVO.count)
+
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_not_enough", uv0.itemVO:getConfig("name")))
+		end
+
 		uv0:updateTxt(uv0.count)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
 		uv0.count = MAX_BUILD_WORK_COUNT
+
+		if uv0.isTicket then
+			uv0.count = math.min(uv0.count, uv0.itemVO.count)
+		end
 
 		uv0:updateTxt(uv0.count)
 	end, SFX_PANEL)
@@ -62,21 +72,24 @@ function slot0.GetDesc(slot0, slot1)
 	slot2 = slot0.buildPool
 	slot3 = slot0.max
 
-	return i18n("build_ship_tip", slot1, slot2.name, slot1 * slot2.use_gold, slot1 * slot2.number_1, (function (slot0)
-		if uv0 < slot0 or uv1.player.gold < slot0 * uv2.use_gold or uv1.itemVO.count < slot0 * uv2.number_1 then
-			return false
+	if slot0.isTicket then
+		if slot1 <= slot3 and slot1 <= slot0.itemVO.count then
+			return i18n("build_ship_tip_use_ticket", slot1, slot2.name, slot1, slot0.itemVO:getConfig("name"), COLOR_GREEN)
+		else
+			return i18n("build_ship_tip_use_ticket", slot1, slot2.name, slot1, slot0.itemVO:getConfig("name"), COLOR_RED)
 		end
-
-		return true
-	end)(slot1) and COLOR_GREEN or COLOR_RED)
+	elseif slot1 <= slot3 and slot0.player.gold >= slot1 * slot2.use_gold and slot0.itemVO.count >= slot1 * slot2.number_1 then
+		return i18n("build_ship_tip", slot1, slot2.name, slot1 * slot2.use_gold, slot1 * slot2.number_1, COLOR_GREEN)
+	else
+		return i18n("build_ship_tip", slot1, slot2.name, slot1 * slot2.use_gold, slot1 * slot2.number_1, COLOR_RED)
+	end
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot0.player = slot1
-	slot0.itemVO = slot2
-	slot0.buildPool = slot3
-	slot0.onConfirm = slot5
-	slot0.max = slot4 or 1
+function slot0.Show(slot0, slot1)
+	for slot5, slot6 in pairs(slot1) do
+		slot0[slot5] = slot6
+	end
+
 	slot0.count = 1
 
 	slot0:updateTxt(slot0.count)

@@ -134,4 +134,30 @@ function slot0.HasItem2Fill(slot0, slot1)
 	return false
 end
 
+function slot0.HasEnoughItem2FillAll(slot0, slot1)
+	slot2 = _.map(slot0:getConfig("color_id_list"), function (slot0)
+		return uv0[slot0] or 0
+	end)
+
+	_.each(slot0:getConfig("cells"), function (slot0)
+		slot3 = slot0[3]
+
+		if not uv0:getFill(slot0[1], slot0[2]) then
+			uv1[slot3] = (uv1[slot3] or 0) + 1
+		end
+	end)
+
+	slot4 = true
+
+	for slot8, slot9 in pairs({}) do
+		if slot9 > (slot2[slot8] or 0) then
+			slot4 = false
+
+			break
+		end
+	end
+
+	return slot4
+end
+
 return slot0

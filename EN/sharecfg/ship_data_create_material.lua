@@ -79,15 +79,24 @@ pg.ship_data_create_material = {
 		exchange_ship_id = 0,
 		rate_tip = {
 			"<color=#ffde38>Super Rare</color>：7%",
+			"",
 			"<color=#d797ff>Elite</color>：12%",
+			"",
 			"<color=#3dc6ff>Rare</color>：51%",
+			"",
 			"Common：30%",
-			"<color=#ffde38>Rikka Takarada</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Akane Shinjo</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Yume Minami</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Chise Asukagawa</color>：0.5%",
-			"<color=#d797ff>Hass </color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Namiko</color>：2.5%(<color=#92fc63>up!</color>)"
+			"",
+			"<color=#ffde38>Tashkent</color>：2%(<color=#92fc63>up!</color>)",
+			"",
+			"<color=#ffde38>Sovetskaya Rossiya</color>：2%(<color=#92fc63>up!</color>)",
+			"",
+			"<color=#ffde38>Avrora</color>：1.5%(<color=#92fc63>up!</color>)",
+			"",
+			"<color=#ffde38>Chapayev</color>：0.5%",
+			"",
+			"<color=#d797ff>Pamiat' Merkuria</color>：2.5%(<color=#92fc63>up!</color>)",
+			"",
+			"<color=#d797ff>Grozny</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

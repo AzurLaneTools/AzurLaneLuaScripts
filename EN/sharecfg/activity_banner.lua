@@ -1,21 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		param = "4240",
 		id = 1,
 		pic = "temp1",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectname = "new"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -27,7 +22,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					16
 				},
 				{
 					23,
@@ -42,15 +37,17 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene get boat",
+			{
+				projectname = "new"
+			}
 		},
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -62,7 +59,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					16
 				},
 				{
 					23,
@@ -73,16 +70,26 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4229",
 		id = 3,
 		pic = "temp3",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		}
+	},
+	{
+		param = "4253",
+		id = 4,
+		pic = "temp4",
 		type = 3,
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -94,44 +101,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					1,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					9
+					23
 				},
 				{
 					23,
@@ -152,8 +122,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -165,7 +135,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					16
 				},
 				{
 					23,
@@ -189,8 +159,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -202,7 +172,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					16
 				},
 				{
 					23,
@@ -213,16 +183,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "7003",
 		id = 7,
 		pic = "temp7",
-		type = 3,
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2022,
 					2,
-					1
+					10
 				},
 				{
 					0,
@@ -233,8 +208,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					31
+					2,
+					16
 				},
 				{
 					23,
@@ -260,8 +235,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					10
 				},
 				{
 					0,
@@ -273,7 +248,7 @@ pg.activity_banner = {
 				{
 					2022,
 					2,
-					9
+					16
 				},
 				{
 					23,
@@ -284,16 +259,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
+		param = "Valentine's Chocolates|Sweet Curry or Hot Curry that is the question<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
 		id = 10,
-		pic = "dumpling",
+		pic = "chocolate",
 		type = 10,
 		time = {
 			{
 				{
 					2022,
-					1,
-					27
+					2,
+					14
 				},
 				{
 					0,
@@ -304,13 +279,13 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					9,
-					16
+					2,
+					24
 				},
 				{
-					0,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}

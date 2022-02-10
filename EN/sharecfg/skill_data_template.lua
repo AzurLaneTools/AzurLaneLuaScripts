@@ -57209,7 +57209,7 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		id = 15140,
 		type = 2,
 		max_level = 10,
-		desc = "Once, when the battle starts, and with a $1 chance every 15s after that: deploys a smokescreen that increases Evasion Rate by $1 for all your ships in it (smokescreen lasts 5s; Evasion Rate buff does not stack with other smokescreen skills). When this ship has the Out of Ammo debuff: increases the proc chance of this smokescreen by $4 and decreases the DMG penalty of the debuff by $2. \nEvery 20s: 50.0% chance to restore $3 HP for the lowest HP percentage BB/BC in your fleet (this effect can only activate up to 2 times per battle.)",
+		desc = "Once, when the battle starts, and with a $1 chance every 15s after that: deploys a smokescreen that increases Evasion Rate by $1 for all your ships in it (smokescreen lasts 5s; Evasion Rate buff does not stack with other smokescreen skills). When this ship has the Out of Ammo debuff: increases the proc chance of this smokescreen to $4 and decreases the DMG penalty of the debuff by $2. \nEvery 20s: 50.0% chance to restore $3 HP for the lowest HP percentage BB/BC in your fleet (this effect can only activate up to 2 times per battle.)",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -80345,7 +80345,7 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		id = 800320,
 		type = 2,
 		max_level = 10,
-		desc = "When the battle starts, if this ship has Sakura Empire aircraft equipped: increases this ship's AVI by $1; if not equipping any, instead increases this ship's AA and EVA by $2.",
+		desc = "When the battle starts, if this ship has Sakura Empire aircraft equipped: increases this ship's AVI by $1; if not equipping any, instead increases this ship's AA and EVA by $1.",
 		system_transform = {},
 		world_death_mark = {
 			1

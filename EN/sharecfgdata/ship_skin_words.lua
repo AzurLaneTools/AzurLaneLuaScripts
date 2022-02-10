@@ -23559,6 +23559,40 @@ _G.pg.ship_skin_words[301152] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[301153] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "Here's proof that I'm the real lucky ship!",
+	home = "Whuh?! Who?! ...Don't startle me by covering my eyes like that! Stupid Commander!",
+	mission = "",
+	touch2 = "Don't act like you're a hotshot just 'cause you got chocolate from me! Stupid Commander!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "All right, that should be good... Hey, stupid Commander standing around aimlessly. Yeah, you. Stick your hand out. You're gonna be the first person to get MY chocolate, so I'd better see some tears of gratitude.",
+	mail = "A letter? Give it a look right this moment.",
+	touch = "Well, well! You want more, don't you, Com-man-der? ♪",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "All right, that should be good... Hey, stupid Commander standing around aimlessly. Yeah, you. Stick your hand out. You're gonna be the first person to get MY chocolate, so I'd better see some tears of gratitude.",
+	feeling5 = "",
+	main = "Now to give it a good stir, then... Ahh! My apron's come undone!|Yup! My chocolate has the benefit of negating bad luck! It's because I make it so rarely!|Hmm, wonder if this tastes fine... Commander, open your mouth wide! ...Ugh, not THAT wide!",
+	battle = "Watch and be stunned by my greatness!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "With your chocolate out of the way, now it's time to make chocolate for my sisters! And yes, you're gonna help out with it!",
+	vote = "",
+	hp_warning = "",
+	id = 301153,
+	detail = "My chocolate is so unique you can't replicate it just by watching me! So gaze in marvel at me all you want! Heheh♪",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[301159] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -41226,6 +41260,40 @@ _G.pg.ship_skin_words[501010] = {
 			"Let's see those guts! Great! Just like that!,0"
 		}
 	}
+}
+
+_G.pg.ship_skin_words[501012] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "Who's over there? ...Oh, it's the commission fleet! They're back!",
+	win_mvp = "Seize victory from the evening's light!",
+	home = "",
+	mission = "",
+	touch2 = "The sunset sure is beautiful, huh? Ahaha~",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "\"Boundless is the beauty of evening's glow, but alas––\" ...Oh, that doesn't have any special meaning, I've just been hanging around Hai Tien too much. (*whispers*) But, it's true... Our time together is far too short, just like the evening light...",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "You'll have to stay tuned if you want to see what the rewards are, Commander!",
+	feeling4 = "",
+	unlock = "\"Boundless is the beauty of evening's glow, but alas––\" ...Oh, that doesn't have any special meaning, I've just been hanging around Hai Tien too much. (*whispers*) But, it's true... Our time together is far too short, just like the evening light...",
+	feeling5 = "",
+	main = "I wonder how my sisters are doing... Oh, right... I've got to set that stuff aside when I'm with you.|Commander, are you awake? Hehe, you look just like Gremyashchy when you're sleeping~♪|Are you done with your drink already? Well, you can have some of mine– Wait, oh... Um, don't worry about it though! I'd hate for you to go thirsty! ...S-seriously, I don't mind...",
+	battle = "Onward to a new battlefield!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Commander, this time, can we take... a more scenic route back? It's okay? Ehehe, I thought you'd have some free time until the next thing on your schedule~",
+	vote = "",
+	hp_warning = "",
+	id = 501012,
+	detail = "You put salty toppings into your milk tea? Even spicy things too? Th-that's heresy! You mustn't put anything into boba that would tarnish its flavor!",
+	couple_encourage = {}
 }
 
 _G.pg.ship_skin_words[501019] = {

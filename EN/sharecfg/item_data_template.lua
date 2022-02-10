@@ -19144,6 +19144,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[44001] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 44001,
+		compose_number = 0,
+		target_id = 0
+	},
 	[50001] = {
 		usage = "usage_food",
 		display_effect = "",
@@ -23619,6 +23630,7 @@ pg.item_data_template = {
 		43429,
 		43430,
 		43431,
+		44001,
 		50001,
 		50002,
 		50003,

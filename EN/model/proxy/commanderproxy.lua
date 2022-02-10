@@ -43,7 +43,7 @@ function slot0.register(slot0)
 		end
 
 		for slot4, slot5 in ipairs(slot0.box) do
-			uv0:updateBox(CommanderBox.New(slot5))
+			uv0:updateBox(CommanderBox.New(slot5, slot4))
 		end
 
 		for slot4, slot5 in ipairs(slot0.presets) do
@@ -307,7 +307,7 @@ function slot0.CalcQuickItemUsageCnt(slot0)
 
 	table.sort(slot9, function (slot0, slot1)
 		if slot0.state == slot1.state then
-			return slot0.id < slot1.id
+			return slot0.index < slot1.index
 		else
 			return slot3 < slot2
 		end

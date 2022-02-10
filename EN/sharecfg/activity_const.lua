@@ -580,7 +580,7 @@ pg.activity_const = {
 		act_id = 30319
 	},
 	LANTERNFESTIVAL = {
-		act_id = 909
+		act_id = 4255
 	},
 	VALENTINE = {
 		act_id = 30322

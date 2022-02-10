@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[15] = {
-		answer_right = "Sail upwind",
-		answer_false1 = "Sail downwind",
-		question = "In order to minimize the take-off time of aircraft, carriers should do which of the following?",
+	[29] = {
+		answer_right = "1.85 km/hr",
+		answer_false1 = "1.45 mi/hr",
+		question = "The \"knot\" is a unit of speed equal to:",
 		type = 1,
-		id = 15,
-		answer_false3 = "Stay still",
-		wrong_time = 300,
-		answer_false2 = "Sail crosswind"
+		id = 29,
+		answer_false3 = "2 km/hr",
+		wrong_time = 30,
+		answer_false2 = "1 mi/hr"
 	},
-	[16] = {
-		answer_right = "Mechanical spring",
-		answer_false1 = "Steam catapult",
-		question = "Which of the following was not a mechanism used by carriers or warships to launch planes?",
+	[30] = {
+		answer_right = "305mm",
+		answer_false1 = "203mm",
+		question = "Historically, the largest caliber of gun equipped by a destroyer (DD) was:",
 		type = 1,
-		id = 16,
-		answer_false3 = "Hydraulic catapult",
-		wrong_time = 300,
-		answer_false2 = "Gunpowder catapult"
+		id = 30,
+		answer_false3 = "138.6mm",
+		wrong_time = 30,
+		answer_false2 = "150mm"
 	},
-	[17] = {
-		answer_right = "Beriberi",
-		answer_false1 = "Hypertension",
-		question = "Sailors ate barley rice to prevent which one of the following diseases?",
-		type = 1,
-		id = 17,
-		answer_false3 = "Scurvy",
-		wrong_time = 300,
-		answer_false2 = "Gangrene"
-	},
-	[18] = {
-		answer_right = "Armored",
-		answer_false1 = "Bulbous",
-		question = "Which of the following is not a ship bow type?",
-		type = 1,
-		id = 18,
-		answer_false3 = "Inverted",
-		wrong_time = 300,
-		answer_false2 = "Clipper"
-	},
-	[19] = {
-		answer_right = "Proximity fuze",
-		answer_false1 = "Impact fuze",
-		question = "The VT Fuze is also called which of the following?",
-		type = 1,
-		id = 19,
-		answer_false3 = "Barometric fuze",
-		wrong_time = 300,
-		answer_false2 = "Time fuze"
-	},
-	[20] = {
+	[31] = {
 		answer_right = "Near Miss",
-		answer_false1 = "Overpenetration",
-		question = "What is it called when a shell damages a vessel by exploding in the nearby waters instead of scoring a direct hit?",
+		answer_false1 = "Cross Shooting",
+		question = "In naval warfare, the phenomenon of firing shells around a ship without directly hitting it is called:",
 		type = 1,
-		id = 20,
-		answer_false3 = "Armor-Piercing",
-		wrong_time = 300,
-		answer_false2 = "ASW shelling"
+		id = 31,
+		answer_false3 = "Splashing",
+		wrong_time = 30,
+		answer_false2 = "Overpenetration"
 	},
-	[21] = {
-		answer_right = "Depth charges",
-		answer_false1 = "High-angle guns",
-		question = "Which of the following is an effective way to attack submarines?",
+	[32] = {
+		answer_right = "1955",
+		answer_false1 = "1986",
+		question = "Historically, the last battleship was completed in:",
 		type = 1,
-		id = 21,
-		answer_false3 = "Ramming",
-		wrong_time = 300,
-		answer_false2 = "Throwing potatoes"
+		id = 32,
+		answer_false3 = "1973",
+		wrong_time = 30,
+		answer_false2 = "1951"
 	},
-	[22] = {
-		answer_right = "Flare shells",
-		answer_false1 = "Normal shells",
-		question = "Which of the following is not a naval gun ammunition type in the game?",
+	[33] = {
+		answer_right = "Ground Effect Takeoff",
+		answer_false1 = "Catapult-Assisted Takeoff",
+		question = "Which of the following is not a takeoff method for carrier-based aircraft?",
+		type = 1,
+		id = 33,
+		answer_false3 = "\"Ski-Jump\" Ramp Takeoff",
+		wrong_time = 30,
+		answer_false2 = "Rocket Assisted Takeoff"
+	},
+	[34] = {
+		answer_right = "Gravity",
+		answer_false1 = "Acoustic",
+		question = "Which of the following is not a torpedo fuze type?",
+		type = 1,
+		id = 34,
+		answer_false3 = "Magnetic",
+		wrong_time = 30,
+		answer_false2 = "Contact"
+	},
+	[35] = {
+		answer_right = "HE",
+		answer_false1 = "HEAT",
+		question = "The correct abbreviation for the high-explosive shell is:",
+		type = 1,
+		id = 35,
+		answer_false3 = "HAP",
+		wrong_time = 30,
+		answer_false2 = "HESH"
+	},
+	[36] = {
+		answer_right = "20",
+		answer_false1 = "10",
+		question = "How many T4 Gear Parts are you able to purchase from the Guild Shop each week?",
 		type = 2,
-		id = 22,
-		answer_false3 = "HE shells",
-		wrong_time = 300,
-		answer_false2 = "AP shells"
+		id = 36,
+		answer_false3 = "0",
+		wrong_time = 30,
+		answer_false2 = "30"
 	},
-	[23] = {
-		answer_right = "ASW Aircraft",
+	[37] = {
+		answer_right = "Increased DMG",
+		answer_false1 = "Shorter Loading Time",
+		question = "An aircraft carrier that is Concealed will gain which of the following buffs?",
+		type = 2,
+		id = 37,
+		answer_false3 = "HP Regeneration",
+		wrong_time = 30,
+		answer_false2 = "Reduced DMG Taken"
+	},
+	[38] = {
+		answer_right = "7",
+		answer_false1 = "5",
+		question = "In Operation Siren, the maximum number of missions you can have at once is:",
+		type = 2,
+		id = 38,
+		answer_false3 = "8",
+		wrong_time = 30,
+		answer_false2 = "6"
+	},
+	[39] = {
+		answer_right = "Skills are disabled",
+		answer_false1 = "Max HP is reduced",
+		question = "In Operation Siren, which of the following is an effect of the Tolls of War status?",
+		type = 2,
+		id = 39,
+		answer_false3 = "DMG is increased",
+		wrong_time = 30,
+		answer_false2 = "RLD is increased"
+	},
+	[40] = {
+		answer_right = "AA Guns",
 		answer_false1 = "Fighters",
-		question = "Which of the following is not factored into the Airspace Control calculation?",
+		question = "In the Gear Lab, which category of gear has the most options for development?",
 		type = 2,
-		id = 23,
-		answer_false3 = "Torp Bombers",
-		wrong_time = 300,
-		answer_false2 = "Dive Bombers"
+		id = 40,
+		answer_false3 = "DD Guns",
+		wrong_time = 30,
+		answer_false2 = "Bombers"
 	},
-	[24] = {
-		answer_right = "Being affected by Flooding",
-		answer_false1 = "Launching an airstrike",
-		question = "Which of the following will not cause the Carrier detection gauge to fill up?",
+	[41] = {
+		answer_right = "Increase your fleet's SPD",
+		answer_false1 = "Increase your fleet's EVA",
+		question = "Which of the following actions will not reduce your chance of being Ambushed?",
 		type = 2,
-		id = 24,
-		answer_false3 = "Being approached by an enemy ship",
-		wrong_time = 300,
-		answer_false2 = "Being affected by Burn"
+		id = 41,
+		answer_false3 = "Equip special gear",
+		wrong_time = 30,
+		answer_false2 = "Increase your fleet's AVI"
 	},
-	[25] = {
-		answer_right = "Safe",
-		answer_false1 = "High",
-		question = "What must a stage's threat level be in order to use the Auto Search combat function?",
+	[42] = {
+		answer_right = "3000",
+		answer_false1 = "4000",
+		question = "How much EXP can a T1 EXP Data Pack hold?",
 		type = 2,
-		id = 25,
-		answer_false3 = "Low",
-		wrong_time = 300,
-		answer_false2 = "Medium"
-	},
-	[26] = {
-		answer_right = "120",
-		answer_false1 = "70",
-		question = "What is the current ship level cap?",
-		type = 2,
-		id = 26,
-		answer_false3 = "100",
-		wrong_time = 300,
-		answer_false2 = "90"
-	},
-	[27] = {
-		answer_right = "No limit",
-		answer_false1 = "4",
-		question = "What is the maximum number of commissions that can be carried out daily?",
-		type = 2,
-		id = 27,
-		answer_false3 = "15",
-		wrong_time = 300,
-		answer_false2 = "8"
-	},
-	[28] = {
-		answer_right = "Ship EXP",
-		answer_false1 = "Coins",
-		question = "Which of the following cannot be purchased with Gems?",
-		type = 2,
-		id = 28,
-		answer_false3 = "Wisdom Cubes",
-		wrong_time = 300,
-		answer_false2 = "Oil"
+		id = 42,
+		answer_false3 = "5000",
+		wrong_time = 30,
+		answer_false2 = "Unlimited"
 	},
 	all = {
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39,
+		40,
+		41,
+		42
 	}
 }

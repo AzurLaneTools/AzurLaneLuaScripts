@@ -40354,6 +40354,27 @@ _G.pg.item_data_statistics[43431] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[44001] = {
+	display = "A Valentine Gift from $1",
+	name = "Valentine Gift ",
+	max_num = 0,
+	type = 23,
+	drop_oil_max = 0,
+	rarity = 8,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	id = 44001,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[50001] = {
 	display = "Oxy-cola has a unique and acquired taste. Perhaps not the most suitable drink for a Commander.",
 	name = "Oxy-cola",
@@ -146837,6 +146858,90 @@ _G.pg.item_data_statistics[59270] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59270,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59271] = {
+	display = "Used in \"Northern Overture\" Event Exchange. Will disappear after the exchange period ends. ",
+	name = "Intel Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/maoxi_pt",
+	id = 59271,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59272] = {
+	display = "Used to exchange for a portrait frame. Expires after the event ends. ",
+	name = "Training Points",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59272,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59273] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+	name = "Rental Outfit Voucher ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59273,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59274] = {
+	display = "A limited construction ticket for use during the \"Northern Overture\" event. Removed after the event ends.",
+	name = "Shipbuilding Support Ticket",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4257,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59274,
 	display_icon = {},
 	price = {},
 	index = {}

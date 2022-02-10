@@ -2,7 +2,7 @@ pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
 		default_bgm = "main",
-		bgm = "main-chunjie3"
+		bgm = "main"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		default_bgm = "holo-fff-inst",
@@ -62,7 +62,7 @@ pg.voice_bgm = {
 	},
 	LoginScene = {
 		default_bgm = "login",
-		bgm = "main-chunjie3"
+		bgm = "login"
 	},
 	NewPlayerScene = {
 		default_bgm = "main",
@@ -70,7 +70,7 @@ pg.voice_bgm = {
 	},
 	MainUI = {
 		default_bgm = "main",
-		bgm = "main-chunjie3"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -78,7 +78,7 @@ pg.voice_bgm = {
 	},
 	CollectionScene = {
 		default_bgm = "main",
-		bgm = "main-chunjie3"
+		bgm = "main"
 	},
 	ActivityBossSPFScene = {
 		default_bgm = "level02",

@@ -9807,7 +9807,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Build 200 times to receive a guaranteed copy of Ulrich von Hutten! (Up to 4 copies can be claimed this way)"
+	tip = "Rate UP for Tashkent, Sovetskaya Rossiya, Avrora, and more!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -13434,11 +13434,11 @@ _G.pg.gametip.lanternRiddles_gametip = {
 		{
 			info = [[
 Event Rules: 
-“Lantern Festival” - Answer riddles to earn prizes!
-
-1. One chance to answer the questions each day, a total of 14 chances. You will earn rewards for the first 7 correct answers you give.
-2. You may attempt to answer a question any number of times until you give the correct answer. If you get a question wrong, you will have to wait a period of time before you can make another attempt.
-]]
+“Lantern Festival” - Answer quiz questions to earn prizes!
+1. Every day, you will gain 1 quiz attempt. You will earn rewards for the first 7 correct answers you give.
+2. You may attempt to answer a question any number of times until you give the correct answer.
+If you get a question wrong, you will have to wait a period of time before you can make another attempt.
+3. There are a total of 14 quiz questions. You will not receive rewards after the 7th quiz correctly answered.]]
 		}
 	}
 }
@@ -15763,10 +15763,6 @@ _G.pg.gametip.multiple_ship_energy_low_desc = {
 
 _G.pg.gametip.multiple_ship_energy_low_warn = {
 	tip = "Exhausted\nAffinity will be reduced if you attack"
-}
-
-_G.pg.gametip.multiple_ship_energy_low_warn_no_exp = {
-	tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue? "
 }
 
 _G.pg.gametip.us_error_download_painting = {
@@ -18766,6 +18762,10 @@ _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "After"
 }
 
+_G.pg.gametip.equipment_info_change_strengthen = {
+	tip = "Due to a change in upgrade material requirements, your upgraded <color=#FFDE38>$1</color> has been reset to +0, and the materials used have been refunded to you via in-game mail. "
+}
+
 _G.pg.gametip.world_boss_progress_tip_title = {
 	tip = "Coordinate Analysis \nReminder"
 }
@@ -19480,6 +19480,26 @@ _G.pg.gametip.tactics_class_get_exp = {
 
 _G.pg.gametip.tactics_class_spend_time = {
 	tip = "Time Needed"
+}
+
+_G.pg.gametip.build_ticket_description = {
+	tip = "*Removed after the event ends."
+}
+
+_G.pg.gametip.build_ticket_expire_warning = {
+	tip = "$1 of these items are about to expire."
+}
+
+_G.pg.gametip.tip_build_ticket_expired = {
+	tip = "The event has ended. $1 can no longer be used."
+}
+
+_G.pg.gametip.tip_build_ticket_not_enough = {
+	tip = "Insufficient $1."
+}
+
+_G.pg.gametip.build_ship_tip_use_ticket = {
+	tip = "The following items will be consumed to build <color=#ffff00>$1 time(s)</color>:\n<color=$5>$4 x$3</color>"
 }
 
 _G.pg.gametip.springfes_tips1 = {
