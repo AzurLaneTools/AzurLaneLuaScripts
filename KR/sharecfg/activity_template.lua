@@ -5037,12 +5037,13 @@ pg.activity_template = {
 	},
 	[20981] = {
 		mark = 20220210,
-		id = 20981,
+		config_client = "",
 		title_res_tag = "ChocolateWorkshop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 17,
+		id = 20981,
 		config_data = {
 			{
 				17400
@@ -5096,32 +5097,6 @@ pg.activity_template = {
 		page_info = {
 			class_name = "ChocolateWorkshopSkinPage",
 			ui_name = "ChocolateWorkshopSkinPage"
-		},
-		config_client = {
-			{
-				{
-					2022,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20985] = {

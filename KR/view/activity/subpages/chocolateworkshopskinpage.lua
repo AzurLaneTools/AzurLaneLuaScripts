@@ -14,7 +14,32 @@ function slot0.OnInit(slot0)
 	slot0.sdBtn = slot0:findTF("SDBtn", slot0.bg)
 
 	onButton(slot0, slot0.sdBtn, function ()
-		if type(uv0.activity:getConfig("config_client")) == "table" and pg.TimeMgr.GetInstance():inTime(slot0) then
+		if type({
+			{
+				{
+					2022,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}) == "table" and pg.TimeMgr.GetInstance():inTime(slot0) then
 			setActive(uv0.boxTF, true)
 		end
 	end, SFX_PANEL)

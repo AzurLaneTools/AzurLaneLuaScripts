@@ -9453,7 +9453,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "건조 누적 200회마다 UR 함선 울리히 폰 후텐 획득 가능(최대 4회)"
+	tip = "타슈켄트, 소비에츠카야 러시아, 아브로라 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -13153,7 +13153,7 @@ _G.pg.gametip.lanternRiddles_gametip = {
 정답 4회: 방어 교본 T3*2, 100 연료 
 정답 5회: 범용 부속 T3*3, 300물자 
 정답 6회: 공격 교본T3*2, 100연료 
-정답 7회: 상급 지향형 강화 유닛 - 제2기*2，300 물자]]
+정답 7회: 상급 지향형 강화 유닛 – 제4기*2，300 물자]]
 		}
 	}
 }
@@ -18922,23 +18922,23 @@ _G.pg.gametip.tactics_class_spend_time = {
 }
 
 _G.pg.gametip.build_ticket_description = {
-	tip = "※活动结束后清空 "
+	tip = "※이벤트 종료 후 사라짐"
 }
 
 _G.pg.gametip.build_ticket_expire_warning = {
-	tip = "x$1 即将过期"
+	tip = "x$1 만료 임박"
 }
 
 _G.pg.gametip.tip_build_ticket_expired = {
-	tip = "该活动已结束，无法使用「$1」"
+	tip = "이벤트가 종료되었습니다. 「$1」 사용 불가"
 }
 
 _G.pg.gametip.tip_build_ticket_not_enough = {
-	tip = "「$1」数量不足"
+	tip = "「$1」 수량 부족"
 }
 
 _G.pg.gametip.build_ship_tip_use_ticket = {
-	tip = "建造<color=#ff5c5c>「$1艘」</color>$2需要消耗:\n<color=$5>「$3个$4」</color>"
+	tip = "$2 <color=#ff5c5c>「$1척」</color> 건조 시 필요 소모:\n<color=$5>「$4 $3개」</color>"
 }
 
 _G.pg.gametip.springfes_tips1 = {

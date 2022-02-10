@@ -527,7 +527,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그렇지 않습니다, 지휘관님.",
+			say = "그렇지 않습니다, 주인님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "아무튼, 현재 상황은 이렇습니다. 지휘관님은 내일도 계속해서 힘내주세요.",
+			say = "아무튼, 현재 상황은 이렇습니다. 주인님은 내일도 계속해서 힘내주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

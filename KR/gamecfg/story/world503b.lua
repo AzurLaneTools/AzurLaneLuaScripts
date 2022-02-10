@@ -99,7 +99,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "부디 너그러이 이해해 주세요. 장소를 제외한 다과회의 모든 부분은 폐하께서 직접 준비하셨습니다. 폐하 본인도 직접 참석하시겠다고 합니다.",
+			say = "부디 너그러이 이해해 주세요. 장소를 제외한 다과회의 모든 부분은 폐하께서 직접 준비하셨습니다. 폐하께서도 직접 참석하시겠다고 합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "사양 말고, 맘껏 드세요~",
+			say = "사양 말고, 맘껏 먹어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그럼 사양하지 않을게! 에든버러 언니, 아몬드 케이크 샌드위치 한 판만 주세요. 그리고 지휘관에게 홍차도 한잔 주세요, 플리즈~",
+			say = "그럼 사양하지 않을게! 에든버러 언니, 아몬드 케이크 샌드위치 한 판만 주세요. 그리고 하인에게 홍차도 한잔 주세요, 플리즈~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
