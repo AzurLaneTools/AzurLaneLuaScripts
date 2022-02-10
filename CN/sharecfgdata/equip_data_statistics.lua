@@ -123215,12 +123215,10 @@ _G.pg.equip_data_statistics[91180] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		6,
 		10,
 		17
 	},
 	part_sub = {
-		6,
 		10,
 		17
 	},
@@ -123357,12 +123355,10 @@ _G.pg.equip_data_statistics[91200] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		6,
 		10,
 		17
 	},
 	part_sub = {
-		6,
 		10,
 		17
 	},

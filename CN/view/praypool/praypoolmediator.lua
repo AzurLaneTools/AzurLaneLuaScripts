@@ -11,12 +11,13 @@ function slot0.register(slot0)
 	slot0:bind(PrayPoolConst.CLICK_BUILD_BTN, function (slot0, slot1)
 		uv0:sendNotification(PrayPoolConst.BUILD_PRAY_POOL_CMD, slot1)
 	end)
-	slot0:bind(PrayPoolConst.START_BUILD_SHIP_EVENT, function (slot0, slot1, slot2)
+	slot0:bind(PrayPoolConst.START_BUILD_SHIP_EVENT, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 2,
 			buildId = slot1,
 			activity_id = ActivityConst.ACTIVITY_PRAY_POOL,
-			arg1 = slot2
+			arg1 = slot2,
+			arg2 = slot3
 		})
 	end)
 

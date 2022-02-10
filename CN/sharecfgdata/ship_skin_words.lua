@@ -23975,6 +23975,40 @@ _G.pg.ship_skin_words[301152] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[301153] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "{namecode:17}大人才是真正的幸运舰！",
+	home = "…哇？！是谁？…不要突然蒙住我眼睛啦笨蛋指挥官！",
+	mission = "",
+	touch2 = "拿到我的巧克力就得意忘形了吗，笨蛋指挥官！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "这样就弄好了…喂，那边傻站着的笨蛋指挥官，快伸出手来，你可是第一个收到{namecode:17}大人巧克力的人，感恩戴德地接受吧！",
+	mail = "信？快点确认啦。",
+	touch = "哼哼，想再来一份吗？指·挥·官♪",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "这样就弄好了…喂，那边傻站着的笨蛋指挥官，快伸出手来，你可是第一个收到{namecode:17}大人巧克力的人，感恩戴德地接受吧！",
+	feeling5 = "",
+	main = "先搅拌搅拌，再……呀！沾到围裙上了！|没错！{namecode:17}大人做的巧克力还有辟邪的作用呢！可稀有了！|这个味道ok吗……指挥官，“啊——”…嘴张太大了啦！（小声）",
+	battle = "见识下{namecode:17}大人的力量吧！",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "既然给指挥官的巧克力已经解决了，接下来就要准备{namecode:15}她们的巧克力了！指挥官也要来帮忙哦！",
+	vote = "",
+	hp_warning = "",
+	id = 301153,
+	detail = "{namecode:17}大人的幸运巧克力，可不是光看就能学会的哦！哼哼，就让你看个够好了♪",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[301159] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -41819,6 +41853,40 @@ _G.pg.ship_skin_words[501011] = {
 	hp_warning = "",
 	id = 501011,
 	detail = "我现在有一个梦想，那就是有一天能和妹妹们组个乐队一起演奏，不过…感觉还是有点遥远呢，啊哈哈……",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[501012] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "在那边的是…啊，委托的同伴们都平安归来了呢！",
+	win_mvp = "在夕阳之下，握紧胜利吧！",
+	home = "",
+	mission = "",
+	touch2 = "夕阳真美呢……啊哈哈哈……",
+	voice_key_2 = 0,
+	skill = "",
+	drop_descrip = "“夕阳无限好，只是……”啊，这句是海天教我的，没有什么特别的意思。（小声）是啊，和指挥官在一起的时间总是感觉有点短呢…",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "期待这次的奖励呢！指挥官！",
+	feeling4 = "",
+	unlock = "“夕阳无限好，只是……”啊，这句是海天教我的，没有什么特别的意思。（小声）是啊，和指挥官在一起的时间总是感觉有点短呢…",
+	feeling5 = "",
+	main = "抚顺她们还好吧…诶，啊…现在要集中精神和指挥官约会才行|指挥官，还醒着吗？呵呵，刚才你的脸就和雷鸣一样，睡眼惺忪呢。|饮料都喝完了吗？那这个给…啊。没、没关系的！口渴了不喝点什么对身体不好的！…真的没事，不用在意我的！",
+	battle = "驶向新的战场吧！",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指挥官，再悠闲地坐一趟吧…怎么样？嗯，离下一项工作还有些时间哦。",
+	vote = "",
+	hp_warning = "",
+	id = 501012,
+	detail = "还有咸味的啾啾奶茶？辣、辣的也有吗？不行！哪有这么糟蹋饮品的……“珍珠”也一样！",
 	couple_encourage = {}
 }
 

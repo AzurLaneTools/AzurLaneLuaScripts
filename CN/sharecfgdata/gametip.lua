@@ -9721,7 +9721,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 乌尔里希·冯·胡滕(最多4次)"
+	tip = "塔什干、苏维埃罗西亚、阿芙乐尔等角色 建造概率UP!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -13364,7 +13364,7 @@ _G.pg.gametip.lanternRiddles_gametip = {
 第四次答对：T3防御教材*2，100石油 
 第五次答对：T3通用改造部件*3，300物资 
 第六次答对：T3攻击教材*2，100石油 
-第七次答对：<color=#92fc63>高级定向蓝图三期*2</color>，300物资]]
+第七次答对：<color=#92fc63>高级定向蓝图四期*2</color>，300物资]]
 		}
 	}
 }
@@ -19294,6 +19294,26 @@ _G.pg.gametip.tactics_class_get_exp = {
 
 _G.pg.gametip.tactics_class_spend_time = {
 	tip = "消耗时间"
+}
+
+_G.pg.gametip.build_ticket_description = {
+	tip = "※活动结束后清空 "
+}
+
+_G.pg.gametip.build_ticket_expire_warning = {
+	tip = "x$1 即将过期"
+}
+
+_G.pg.gametip.tip_build_ticket_expired = {
+	tip = "该活动已结束，无法使用「$1」"
+}
+
+_G.pg.gametip.tip_build_ticket_not_enough = {
+	tip = "「$1」数量不足"
+}
+
+_G.pg.gametip.build_ship_tip_use_ticket = {
+	tip = "建造<color=#ff5c5c>「$1艘」</color>$2需要消耗:\n<color=$5>「$3个$4」</color>"
 }
 
 _G.pg.gametip.springfes_tips1 = {

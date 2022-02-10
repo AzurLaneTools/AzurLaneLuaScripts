@@ -47066,6 +47066,27 @@ _G.pg.item_data_statistics[43431] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[44001] = {
+	display = "$1赠送的情人节礼物",
+	name = "情人节礼物",
+	max_num = 0,
+	type = 23,
+	drop_oil_max = 0,
+	rarity = 8,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	id = 44001,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[50001] = {
 	display = "酸素可乐，口味独特，作为指挥官可能无法接受",
 	name = "酸素可乐",
@@ -155615,6 +155636,69 @@ _G.pg.item_data_statistics[59270] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59270,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59271] = {
+	display = "用于『北境序曲』活动兑换，活动结束后将会消失",
+	name = "情报Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/maoxi_pt",
+	id = 59271,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59272] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59272,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59274] = {
+	display = "于『北境序曲』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4257,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59274,
 	display_icon = {},
 	price = {},
 	index = {}

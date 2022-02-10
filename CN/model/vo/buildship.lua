@@ -48,7 +48,7 @@ function slot0.getBuildConsume(slot0, slot1, slot2)
 	return (slot1 ~= 1 or slot3.use_gem_1[math.min(slot2 + 1, #slot3.use_gem_1)]) and slot3.use_gem_10[math.min(slot2 + 1, #slot3.use_gem_10)]
 end
 
-function slot0.canBuildShipByBuildId(slot0, slot1)
+function slot0.canBuildShipByBuildId(slot0, slot1, slot2)
 	slot1 = slot1 or 1
 
 	if not pg.ship_data_create_material[slot0] then
@@ -59,33 +59,44 @@ function slot0.canBuildShipByBuildId(slot0, slot1)
 		return false, i18n("ship_buildShip_not_position")
 	end
 
-	slot5 = {}
+	if slot2 then
+		slot6 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE)
+		slot8 = Item.GetName(DROP_TYPE_VITEM, slot6:getConfig("config_client")[1])
 
-	if getProxy(PlayerProxy):getData().gold < slot2.use_gold * slot1 then
-		table.insert(slot5, {
-			59001,
-			slot2.use_gold * slot1 - slot7.gold,
-			slot2.use_gold * slot1
-		})
-	end
+		if not slot6 or slot6:isEnd() then
+			return false, i18n("tip_build_ticket_expired", slot8)
+		elseif slot6.data1 < slot1 then
+			return false, i18n("tip_build_ticket_not_enough", slot8)
+		end
+	else
+		slot6 = {}
 
-	if not getProxy(BagProxy):getData()[slot2.use_item] or slot9[slot2.use_item].count < slot2.number_1 * slot1 then
-		slot10 = slot2.number_1 * slot1
-		slot11 = slot2.use_item
-
-		if slot9[slot2.use_item] then
-			slot10 = slot2.number_1 * slot1 - slot9[slot11].count
+		if getProxy(PlayerProxy):getData().gold < slot3.use_gold * slot1 then
+			table.insert(slot6, {
+				59001,
+				slot3.use_gold * slot1 - slot8.gold,
+				slot3.use_gold * slot1
+			})
 		end
 
-		table.insert(slot5, {
-			slot11,
-			slot10,
-			slot2.number_1 * slot1
-		})
-	end
+		if not getProxy(BagProxy):getData()[slot3.use_item] or slot10[slot3.use_item].count < slot3.number_1 * slot1 then
+			slot11 = slot3.number_1 * slot1
+			slot12 = slot3.use_item
 
-	if #slot5 > 0 then
-		return false, i18n("ship_buildShip_error_notEnoughItem"), slot5
+			if slot10[slot3.use_item] then
+				slot11 = slot3.number_1 * slot1 - slot10[slot12].count
+			end
+
+			table.insert(slot6, {
+				slot12,
+				slot11,
+				slot3.number_1 * slot1
+			})
+		end
+
+		if #slot6 > 0 then
+			return false, i18n("ship_buildShip_error_notEnoughItem"), slot6
+		end
 	end
 
 	return true

@@ -601,7 +601,7 @@ pg.ship_data_by_type = {
 			12
 		},
 		arena_buff = {
-			51
+			55
 		}
 	},
 	all = {
