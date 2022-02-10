@@ -35,6 +35,7 @@ MSGBOX_TYPE_STORY_CANCEL_TIP = 15
 MSGBOX_TYPE_META_SKILL_UNLOCK = 16
 MSGBOX_TYPE_SUBPATTERN = 17
 MSGBOX_TYPE_ACCOUNTDELETE = 18
+MSGBOX_TYPE_STRENGTHEN_BACK = 19
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -280,47 +281,44 @@ function slot8(slot0, slot1)
 	SetActive(slot0._sigleItemPanel, true)
 	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), false)
 
-	if slot1.drop then
-		slot2, slot3 = GetOwnedpropCount(slot1.drop)
+	slot2, slot3 = GetOwnedpropCount(slot1.drop)
 
-		setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), slot3 and slot1.showOwned)
-		setText(findTF(slot0._sigleItemPanel, "icon_bg/own/Text"), slot2)
-		setText(findTF(slot0._sigleItemPanel, "icon_bg/own/label"), i18n("word_own1"))
-	end
-
+	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), slot3 and slot1.showOwned)
+	setText(findTF(slot0._sigleItemPanel, "icon_bg/own/Text"), slot2)
+	setText(findTF(slot0._sigleItemPanel, "icon_bg/own/label"), i18n("word_own1"))
 	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel)
 	updateDrop(slot0._sigleItemPanel, slot1.drop)
 
-	slot2 = slot1.drop.type == DROP_TYPE_SHIP
+	slot4 = slot1.drop.type == DROP_TYPE_SHIP
 
-	SetActive(slot0._sigleItemPanel:Find("ship_group"), slot2)
+	SetActive(slot0._sigleItemPanel:Find("ship_group"), slot4)
 
-	if slot2 then
-		slot4 = tobool(getProxy(CollectionProxy):getShipGroup(uv0.ship_data_template[slot1.drop.id].group_type))
+	if slot4 then
+		slot6 = tobool(getProxy(CollectionProxy):getShipGroup(uv0.ship_data_template[slot1.drop.id].group_type))
 
-		SetActive(slot3:Find("unlocked"), slot4)
-		SetActive(slot3:Find("locked"), not slot4)
+		SetActive(slot5:Find("unlocked"), slot6)
+		SetActive(slot5:Find("locked"), not slot6)
 	end
 
 	if slot1.windowSize then
 		slot0._window.sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
-	slot5 = slot0._singleItemSubIntroTF
+	slot7 = slot0._singleItemSubIntroTF
 
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
-	SetActive(slot0.singleItemIntro, slot6 == nil)
+	SetActive(slot0.singleItemIntro, slot8 == nil)
 	setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
 	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel:Find("name_mode"))
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
 
-	slot9 = slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11
+	slot11 = slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11
 
-	setActive(slot0._sigleItemPanel:Find("detail"), slot9)
+	setActive(slot0._sigleItemPanel:Find("detail"), slot11)
 
-	if slot9 then
-		slot8:GetComponent("RichText"):AddListener(function (slot0, slot1)
+	if slot11 then
+		slot10:GetComponent("RichText"):AddListener(function (slot0, slot1)
 			slot2 = {
 				items = _.map(uv0.drop.cfg.display_icon, function (slot0)
 					return {
@@ -353,80 +351,90 @@ function slot8(slot0, slot1)
 	end
 
 	if slot1.iconPreservedAspect then
-		slot10 = findTF(slot0._sigleItemPanel, "icon_bg/icon")
-		slot11 = slot10:GetComponent(typeof(Image))
-		slot10.pivot = Vector2(0.5, 1)
-		slot12 = slot10.rect.width
-		slot10.sizeDelta = Vector2(-4, slot11.preferredHeight / slot11.preferredWidth * slot12 - slot12 - 4)
-		slot10.anchoredPosition = Vector2(0, -2)
+		slot12 = findTF(slot0._sigleItemPanel, "icon_bg/icon")
+		slot13 = slot12:GetComponent(typeof(Image))
+		slot12.pivot = Vector2(0.5, 1)
+		slot14 = slot12.rect.width
+		slot12.sizeDelta = Vector2(-4, slot13.preferredHeight / slot13.preferredWidth * slot14 - slot14 - 4)
+		slot12.anchoredPosition = Vector2(0, -2)
 	end
 
 	if slot1.content and slot1.content ~= "" then
-		setText(slot4, slot1.content)
+		setText(slot6, slot1.content)
 	elseif slot1.drop.type == DROP_TYPE_RESOURCE then
-		setText(slot4, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_ITEM then
-		setText(slot4, SwitchSpecialChar(HXSet.hxLan(slot1.drop.cfg.display), true))
+		slot12 = slot1.drop.cfg.display
+
+		if slot1.drop.cfg.type == Item.LOVE_LETTER_TYPE then
+			slot12 = string.gsub(slot12, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
+		end
+
+		setText(slot6, SwitchSpecialChar(HXSet.hxLan(slot12), true))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
-		setText(slot4, slot1.drop.cfg.describe)
+		setText(slot6, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
-		slot11, slot12, slot13 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot13, slot14, slot15 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot4, slot13 or i18n("ship_drop_desc_default"))
+		setText(slot6, slot15 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_NPC_SHIP then
-		slot11, slot12, slot13 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot13, slot14, slot15 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot4, slot13 or i18n("ship_drop_desc_default"))
+		setText(slot6, slot15 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		-- Nothing
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
-		slot10 = slot1.drop.cfg.desc
+		slot12 = slot1.drop.cfg.desc
 
-		for slot14, slot15 in ipairs({
+		for slot16, slot17 in ipairs({
 			slot1.drop.count
 		}) do
-			slot10 = string.gsub(slot10, "$" .. slot14, slot15)
+			slot12 = string.gsub(slot12, "$" .. slot16, slot17)
 		end
 
-		setText(slot4, HXSet.hxLan(slot10))
+		setText(slot6, HXSet.hxLan(slot12))
 
 		if slot1.extendDesc then
-			setText(cloneTplTo(slot4, slot4.parent), slot1.extendDesc)
+			setText(cloneTplTo(slot6, slot6.parent), slot1.extendDesc)
 		end
 	elseif slot1.drop.type == DROP_TYPE_SKIN then
-		setText(slot4, HXSet.hxLan(slot1.drop.cfg.desc))
+		setText(slot6, HXSet.hxLan(slot1.drop.cfg.desc))
 	elseif slot1.drop.type == DROP_TYPE_EQUIPMENT_SKIN then
-		setText(slot4, slot1.drop.cfg.desc .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
+		setText(slot6, slot1.drop.cfg.desc .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
 			return EquipType.Type2Name2(slot0)
 		end), ","))
 	elseif slot1.drop.type == DROP_TYPE_VITEM then
-		setText(slot4, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_WORLD_ITEM then
-		setText(slot4, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_WORLD_COLLECTION then
-		slot11 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
+		slot13 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
 
-		setText(slot4, i18n("world_" .. slot11 .. "_desc", slot1.drop.cfg.name))
-		setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), i18n("world_" .. slot11 .. "_name", slot1.drop.cfg.name))
+		setText(slot6, i18n("world_" .. slot13 .. "_desc", slot1.drop.cfg.name))
+		setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), i18n("world_" .. slot13 .. "_name", slot1.drop.cfg.name))
 	elseif slot1.drop.type == DROP_TYPE_ICON_FRAME then
-		setText(slot4, slot1.drop.cfg.desc)
+		setText(slot6, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_CHAT_FRAME then
-		setText(slot4, slot1.drop.cfg.desc)
+		setText(slot6, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_EMOJI then
-		setText(slot4, slot1.drop.cfg.item_desc)
+		setText(slot6, slot1.drop.cfg.item_desc)
+	elseif type == DROP_TYPE_LOVE_LETTER then
+		desc = string.gsub(slot1.drop.cfg.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
+
+		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))
 	end
 
 	if slot1.intro then
-		setText(slot4, slot1.intro)
+		setText(slot6, slot1.intro)
 	end
 
-	setText(slot5, slot1.subIntro or "")
+	setText(slot7, slot1.subIntro or "")
 
 	if slot1.enabelYesBtn ~= nil then
-		slot10 = slot0._btnContainer:GetChild(1)
+		slot12 = slot0._btnContainer:GetChild(1)
 
-		setButtonEnabled(slot10, slot1.enabelYesBtn)
-		eachChild(slot10, function (slot0)
+		setButtonEnabled(slot12, slot1.enabelYesBtn)
+		eachChild(slot12, function (slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = uv0.enabelYesBtn and 1 or 0.3
 		end)
 	end
@@ -1210,6 +1218,8 @@ function slot1.ShowMsgBox(slot0, slot1)
 		slot0:GetPanel(slot1.patternClass).buffer:UpdateView(slot1)
 	elseif slot2 == MSGBOX_TYPE_ACCOUNTDELETE then
 		slot0:GetPanel(AccountDeletePanel).buffer:UpdateView(slot1)
+	elseif slot2 == MSGBOX_TYPE_STRENGTHEN_BACK then
+		slot0:GetPanel(StrengthenBackPanel).buffer:UpdateView(slot1)
 	end
 end
 

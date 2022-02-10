@@ -201,7 +201,7 @@ pg.login = {
 	[8] = {
 		id = 8,
 		login_static = "login",
-		login_cri = "",
+		login_cri = "loginbg",
 		bgm = "main-chunjie3",
 		date = {
 			timer,
@@ -221,7 +221,40 @@ pg.login = {
 				{
 					2022,
 					2,
-					10
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[9] = {
+		id = 9,
+		login_static = "login_0214",
+		login_cri = "",
+		bgm = "",
+		date = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					14
 				},
 				{
 					23,
@@ -238,6 +271,7 @@ pg.login = {
 		4,
 		5,
 		7,
-		8
+		8,
+		9
 	}
 }

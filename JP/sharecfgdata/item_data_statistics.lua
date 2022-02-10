@@ -46677,6 +46677,27 @@ _G.pg.item_data_statistics[43431] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[44001] = {
+	display = "$1からのバレンタインプレゼント",
+	name = "バレンタインプレゼント",
+	max_num = 0,
+	type = 23,
+	drop_oil_max = 0,
+	rarity = 8,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	id = 44001,
+	display_icon = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[50001] = {
 	display = "酸素充填のコーラ。独特な味で指揮官は多分飲めない",
 	name = "酸素コーラ",
@@ -154475,6 +154496,90 @@ _G.pg.item_data_statistics[59270] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59270,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59271] = {
+	display = "イベント「凍絶の北海」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "Pt情報子",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/maoxi_pt",
+	id = 59271,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59272] = {
+	display = "「集結・北方戦線」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59272,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59273] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2022.2.16メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2022.2.16まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59273,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59274] = {
+	display = "イベント「凍絶の北海」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	name = "建造支援チケット",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4257,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59274,
 	display_icon = {},
 	price = {},
 	index = {}

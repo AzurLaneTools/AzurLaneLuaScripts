@@ -159,6 +159,13 @@ function slot0.addTranDrop(slot0, slot1)
 
 				return slot3, slot4
 			end
+		elseif slot0.type == DROP_TYPE_LOVE_LETTER then
+			return Item.New({
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = slot0.id,
+				extra = slot0.count or slot0.number
+			})
 		end
 
 		return Item.New({

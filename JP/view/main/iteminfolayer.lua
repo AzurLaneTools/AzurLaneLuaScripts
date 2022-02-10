@@ -96,7 +96,14 @@ function slot0.setItemInfo(slot0, slot1, slot2)
 		setActive(slot9, slot10)
 	end
 
-	setText(slot4, HXSet.hxLan(slot1:getConfig("display")))
+	if slot1.extra then
+		if slot1:getConfig("type") == Item.LOVE_LETTER_TYPE then
+			setText(slot4, HXSet.hxLan(string.gsub(slot1:getConfig("display"), "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.extra))))
+		end
+	else
+		setText(slot4, HXSet.hxLan(slot1:getConfig("display")))
+	end
+
 	setText(slot5, HXSet.hxLan(slot1:getConfig("name")))
 	SetActive(slot6, false)
 

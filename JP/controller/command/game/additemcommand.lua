@@ -16,6 +16,12 @@ function slot0.execute(slot0, slot1)
 			end
 		else
 			getProxy(BagProxy):addItemById(slot2.id, slot2.count)
+
+			if slot2.extra then
+				for slot8 = 1, slot2.count do
+					slot4:addExtraData(slot2.id, slot2.extra)
+				end
+			end
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIP then
 		getProxy(EquipmentProxy):addEquipmentById(slot2.id, slot2.count)
@@ -133,8 +139,14 @@ function slot0.execute(slot0, slot1)
 				slot5:addItemById(slot7, slot10)
 				slot5:AddLimitCnt(slot7, slot10)
 			end
-		elseif slot4 == 21 and getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
-			slot6.data2 = 1
+		elseif slot4 == 21 then
+			if getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
+				slot6.data2 = 1
+
+				slot5:updateActivity(slot6)
+			end
+		elseif slot4 == 22 and getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
+			slot6.data1 = slot6.data1 + slot2.count
 
 			slot5:updateActivity(slot6)
 		end

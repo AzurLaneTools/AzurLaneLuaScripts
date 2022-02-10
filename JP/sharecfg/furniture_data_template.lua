@@ -46071,15 +46071,39 @@ pg.furniture_data_template = {
 		comfortable = 2,
 		spine_action_replace = "",
 		picture = "christmas2/mencs2",
-		canputon = 0,
+		canputon = 1,
 		id = 37108,
 		can_rotate = 1,
 		size = {
 			7,
 			1
 		},
-		offset = {},
-		canputonGrid = {},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			}
+		},
 		can_trigger = {
 			0
 		},
@@ -69821,7 +69845,7 @@ pg.furniture_data_template = {
 		belong = 1,
 		themeId = 59,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "chuangvt2icon",
 		deblocking = 1,
@@ -70169,7 +70193,7 @@ pg.furniture_data_template = {
 		themeId = 59,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "yiguivt2icon",
 		deblocking = 1,

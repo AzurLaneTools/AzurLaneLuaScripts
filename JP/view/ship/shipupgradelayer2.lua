@@ -295,9 +295,12 @@ function slot0.updateBattleView(slot0)
 		onToggle(slot0, slot0:findTF("stage" .. slot4, slot0.stages), function (slot0)
 			if slot0 then
 				slot1 = uv0.breakout_view
+				slot2 = checkExist(pg.ship_data_template[uv0.breakout_id], {
+					"specific_type"
+				}) or {}
 
-				for slot5, slot6 in ipairs(uv0.ultimate_bonus) do
-					slot1 = slot1 .. "/" .. i18n(uv1[slot6])
+				for slot6, slot7 in ipairs(slot2) do
+					slot1 = slot1 .. "/" .. i18n(uv1[slot7])
 				end
 
 				changeToScrollText(uv2.breakView, slot1)

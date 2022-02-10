@@ -37,7 +37,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnInitItem(slot0, slot1)
-	slot2 = CommamderCard.New(slot1)
+	slot2 = CommanderCard.New(slot1)
 
 	onButton(slot0, slot2._tf, function ()
 		if uv0.commanderVO then

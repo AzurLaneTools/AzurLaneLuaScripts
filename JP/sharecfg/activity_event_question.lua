@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[15] = {
-		answer_right = "風上",
-		answer_false1 = "風下",
-		question = "艦載機発艦に一番いい風向きは？",
+	[29] = {
+		answer_right = "1.85km/h",
+		answer_false1 = "1.45マイル/h",
+		question = "速力の「ノット」が下記のどれに換算できる？",
 		type = 1,
-		id = 15,
-		answer_false3 = "無風",
-		wrong_time = 300,
-		answer_false2 = "横風"
+		id = 29,
+		answer_false3 = "2km/h",
+		wrong_time = 30,
+		answer_false2 = "1マイル/h"
 	},
-	[16] = {
-		answer_right = "低い速力",
-		answer_false1 = "探知しづらい",
-		question = "潜水艦の弱点は？",
+	[30] = {
+		answer_right = "305mm",
+		answer_false1 = "203mm",
+		question = "駆逐艦が装備した史上最大口径の主砲は？",
 		type = 1,
-		id = 16,
-		answer_false3 = "高い居住性",
-		wrong_time = 300,
-		answer_false2 = "短い航続距離"
+		id = 30,
+		answer_false3 = "138.6mm",
+		wrong_time = 30,
+		answer_false2 = "150mm"
 	},
-	[17] = {
-		answer_right = "ビタミンB1",
-		answer_false1 = "脂肪",
-		question = "水兵が麦飯を食べて補充するのは？",
-		type = 1,
-		id = 17,
-		answer_false3 = "タンパク質",
-		wrong_time = 300,
-		answer_false2 = "ナトリウム"
-	},
-	[18] = {
-		answer_right = "造波抵抗の低減",
-		answer_false1 = "衝角攻撃",
-		question = "船首バルブの作用とは？",
-		type = 1,
-		id = 18,
-		answer_false3 = "対潜電探の設置",
-		wrong_time = 300,
-		answer_false2 = "魚雷防御装甲"
-	},
-	[19] = {
-		answer_right = "近接信管",
-		answer_false1 = "着発信管",
-		question = "「VT信管」はどんな信管？",
-		type = 1,
-		id = 19,
-		answer_false3 = "圧力感知信管",
-		wrong_time = 300,
-		answer_false2 = "時限信管"
-	},
-	[20] = {
+	[31] = {
 		answer_right = "至近弾",
-		answer_false1 = "効力射",
-		question = "艦に命中するのではなく、すぐそばに落ちた砲弾を何と言う？",
+		answer_false1 = "不発弾",
+		question = "敵艦に命中せず、その艦の周りに命中した砲弾は？",
 		type = 1,
-		id = 20,
-		answer_false3 = "徹甲弾",
-		wrong_time = 300,
-		answer_false2 = "対潜弾"
+		id = 31,
+		answer_false3 = "拡散弾",
+		wrong_time = 30,
+		answer_false2 = "直撃弾"
 	},
-	[21] = {
-		answer_right = "対潜爆弾",
-		answer_false1 = "じゃがいも",
-		question = "対潜兵器はどれか？",
+	[32] = {
+		answer_right = "1955年",
+		answer_false1 = "1986年",
+		question = "世界で一番最後に建造され戦艦の完成はいつ？",
 		type = 1,
-		id = 21,
-		answer_false3 = "高角砲",
-		wrong_time = 300,
-		answer_false2 = "ラム"
+		id = 32,
+		answer_false3 = "1973年",
+		wrong_time = 30,
+		answer_false2 = "1951年"
 	},
-	[22] = {
-		answer_right = "照明弾",
-		answer_false1 = "通常弾",
-		question = "艦砲の砲弾タイプにないものは？",
+	[33] = {
+		answer_right = "JATO",
+		answer_false1 = "VTOL",
+		question = "空母の発進方法で多く運用されてないのは？",
+		type = 1,
+		id = 33,
+		answer_false3 = "CATOBAR",
+		wrong_time = 30,
+		answer_false2 = "STOBAR"
+	},
+	[34] = {
+		answer_right = "重力信管",
+		answer_false1 = "時限信管",
+		question = "魚雷の信管に使用されないのは？",
+		type = 1,
+		id = 34,
+		answer_false3 = "音響信管",
+		wrong_time = 30,
+		answer_false2 = "着発信管"
+	},
+	[35] = {
+		answer_right = "AP",
+		answer_false1 = "HEAT",
+		question = "徹甲弾の略称は？",
+		type = 1,
+		id = 35,
+		answer_false3 = "BCJ",
+		wrong_time = 30,
+		answer_false2 = "ECAP"
+	},
+	[36] = {
+		answer_right = "大艦隊補給",
+		answer_false1 = "コアショップ",
+		question = "金パーツ（強化パーツT4）を毎週購入できるのは？",
 		type = 2,
-		id = 22,
-		answer_false3 = "榴弾",
-		wrong_time = 300,
-		answer_false2 = "徹甲弾"
+		id = 36,
+		answer_false3 = "お得パック",
+		wrong_time = 30,
+		answer_false2 = "勲章交換"
 	},
-	[23] = {
-		answer_right = "対潜機",
+	[37] = {
+		answer_right = "与ダメージ↑",
+		answer_false1 = "装填速度↑",
+		question = "空母が未発見の状態で得られる強化効果は？",
+		type = 2,
+		id = 37,
+		answer_false3 = "耐久回復",
+		wrong_time = 30,
+		answer_false2 = "ダメージ無効"
+	},
+	[38] = {
+		answer_right = "7個まで",
+		answer_false1 = "5個まで",
+		question = "セイレーン作戦で同時受注できるデイリークエストの数は？",
+		type = 2,
+		id = 38,
+		answer_false3 = "8個まで",
+		wrong_time = 30,
+		answer_false2 = "6個まで"
+	},
+	[39] = {
+		answer_right = "スキル無効",
+		answer_false1 = "耐久上限↓",
+		question = "セイレーン作戦での「損傷」状態効果は？",
+		type = 2,
+		id = 39,
+		answer_false3 = "与ダメージ↑",
+		wrong_time = 30,
+		answer_false2 = "装填速度↑"
+	},
+	[40] = {
+		answer_right = "対空火器",
 		answer_false1 = "戦闘機",
-		question = "海域ステージの制空権計算に含まれないのは？",
+		question = "装備開発システムで開発できる装備で一番種類が多いのは？",
 		type = 2,
-		id = 23,
-		answer_false3 = "爆撃機",
-		wrong_time = 300,
+		id = 40,
+		answer_false3 = "小口径主砲",
+		wrong_time = 30,
 		answer_false2 = "攻撃機"
 	},
-	[24] = {
-		answer_right = "浸水状態になる",
-		answer_false1 = "航空攻撃",
-		question = "空母の発見ゲージを増加させないのは？",
+	[41] = {
+		answer_right = "艦船速力",
+		answer_false1 = "艦船回避",
+		question = "待ち伏せ確率に影響しないのは？",
 		type = 2,
-		id = 24,
-		answer_false3 = "敵艦船接近",
-		wrong_time = 300,
-		answer_false2 = "炎上状態になる"
+		id = 41,
+		answer_false3 = "特殊兵装",
+		wrong_time = 30,
+		answer_false2 = "艦船航空"
 	},
-	[25] = {
-		answer_right = "安全海域",
-		answer_false1 = "秘密海域",
-		question = "自動攻略モードを開放するには（）の解放が必要？",
+	[42] = {
+		answer_right = "3000",
+		answer_false1 = "4000",
+		question = "経験値パックT1の最大所持可能数は？",
 		type = 2,
-		id = 25,
-		answer_false3 = "要塞海域",
-		wrong_time = 300,
-		answer_false2 = "危険海域"
-	},
-	[26] = {
-		answer_right = "120",
-		answer_false1 = "70",
-		question = "艦船のレベルの上限は？",
-		type = 2,
-		id = 26,
-		answer_false3 = "100",
-		wrong_time = 300,
-		answer_false2 = "90"
-	},
-	[27] = {
-		answer_right = "無制限",
-		answer_false1 = "4回",
-		question = "毎日の委託をこなせる回数は？",
-		type = 2,
-		id = 27,
-		answer_false3 = "15回",
-		wrong_time = 300,
-		answer_false2 = "8回"
-	},
-	[28] = {
-		answer_right = "艦船経験値",
-		answer_false1 = "資金",
-		question = "ダイヤで購入できないアイテムは？",
-		type = 2,
-		id = 28,
-		answer_false3 = "キューブ",
-		wrong_time = 300,
-		answer_false2 = "燃料"
+		id = 42,
+		answer_false3 = "5000",
+		wrong_time = 30,
+		answer_false2 = "制限なし"
 	},
 	all = {
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39,
+		40,
+		41,
+		42
 	}
 }
