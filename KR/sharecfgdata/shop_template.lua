@@ -26199,10 +26199,11 @@ _G.pg.shop_template[70285] = {
 	desc = "购买皮肤：腓特烈大帝新年和服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 480,
+	order = 1600,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -26213,32 +26214,6 @@ _G.pg.shop_template[70285] = {
 	limit_args = {},
 	effect_args = {
 		499021
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				29
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				1,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -26250,10 +26225,11 @@ _G.pg.shop_template[70286] = {
 	desc = "购买皮肤：龙凤新年和服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 330,
+	order = 1100,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -26264,32 +26240,6 @@ _G.pg.shop_template[70286] = {
 	limit_args = {},
 	effect_args = {
 		306071
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				29
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				1,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

@@ -14534,11 +14534,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[2001] = {
-		name = "진격의 쥬쥬별",
+		name = "유성 어뢰",
 		bullet_name = "yulei_fanxing",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "행성급 공격을 받아라쥬!",
+		desc = "어서 소원을 빌어쥬!",
 		themeid = 99,
 		orbit_combat = "",
 		ship_config_id = 100011,
@@ -14563,11 +14563,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[2002] = {
-		name = "유성 어뢰",
+		name = "혜성 포탄",
 		bullet_name = "paodan_huixing",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "어서 소원을 빌어쥬!",
+		desc = "매번 마주칠 때마다 기대돼쥬!",
 		themeid = 99,
 		orbit_combat = "",
 		ship_config_id = 100011,
@@ -14593,11 +14593,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[2003] = {
-		name = "혜성 포탄",
+		name = "진격의 쥬쥬별",
 		bullet_name = "zidan_xingqiu",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "매번 마주칠 때마다 기대돼쥬!",
+		desc = "행성급 공격을 받아라쥬!",
 		themeid = 99,
 		orbit_combat = "",
 		ship_config_id = 100011,

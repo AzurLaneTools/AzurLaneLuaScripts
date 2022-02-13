@@ -42,7 +42,7 @@ pg.activity_event_question = {
 	},
 	[33] = {
 		answer_right = "지면 효과 이륙",
-		answer_false1 = "수직 이륙",
+		answer_false1 = "캐터펄트",
 		question = "다음 중 항공모함 함재기의 이륙 방식이 아닌 것은?",
 		type = 1,
 		id = 33,
