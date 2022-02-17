@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "企業微微低頭，軍帽和劉海擋住了她的表情。",
+			say = "企業微微低頭，軍帽和瀏海擋住了她的表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
