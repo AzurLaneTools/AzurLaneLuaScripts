@@ -21,8 +21,6 @@ function slot0.OnDataSetting(slot0)
 	else
 		slot0.ptData = ActivityPtData.New(slot0.activity)
 	end
-
-	slot0.inPhase2 = false
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -67,6 +65,8 @@ function slot0.OnFirstFlush(slot0)
 	slot2 = pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client"))
 
 	setActive(slot0.battleBtn, slot2)
+
+	slot0.inPhase2 = slot2
 
 	if slot2 then
 		triggerToggle(slot0.switchBtn, true)

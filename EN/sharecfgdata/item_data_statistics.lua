@@ -146947,6 +146947,27 @@ _G.pg.item_data_statistics[59274] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59275] = {
+	display = "Used to exchange for a portrait frame. Expires after the event ends. ",
+	name = "Intel Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59275,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -155484,6 +155505,27 @@ _G.pg.item_data_statistics[60233] = {
 	icon = "Props/henianka2022",
 	price = "",
 	id = 60233,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60234] = {
+	display = "Used to decrypt intelligence in the \"Darkness Within Dawn\" mini-event. Removed after the event ends.",
+	name = "Intel Pt ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4263,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/information_pt",
+	price = "",
+	id = 60234,
 	display_icon = {},
 	index = {}
 }

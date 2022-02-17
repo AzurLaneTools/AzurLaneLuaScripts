@@ -182,10 +182,16 @@ end
 function slot0.getAllAttachment(slot0)
 	_.each(slot0:getMailAttachments(), function (slot0)
 		_.each(slot0.attachments or {}, function (slot0)
-			if not uv0[slot0.id .. "_" .. slot0.dropType] then
-				uv0[slot1] = slot0
-			else
+			slot1 = slot0.dropType .. "_" .. slot0.id
+
+			if slot0.dropType == DROP_TYPE_LOVE_LETTER then
+				slot1 = slot1 .. "_" .. slot0.count
+			end
+
+			if uv0[slot1] then
 				uv0[slot1].count = uv0[slot1].count + slot0.count
+			else
+				uv0[slot1] = slot0
 			end
 		end)
 	end)

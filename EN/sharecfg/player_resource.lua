@@ -705,6 +705,11 @@ pg.player_resource = {
 		name = "skinTicket28",
 		itemid = 59273
 	},
+	[239] = {
+		id = 239,
+		name = "maoxiv3_frame_pt",
+		itemid = 59275
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1294,6 +1299,9 @@ pg.player_resource = {
 		skinTicket28 = {
 			238
 		},
+		maoxiv3_frame_pt = {
+			239
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1536,6 +1544,7 @@ pg.player_resource = {
 		236,
 		237,
 		238,
+		239,
 		950,
 		951,
 		952,

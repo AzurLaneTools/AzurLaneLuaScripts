@@ -22,26 +22,30 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot5:getBuildingBluePrint() then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("cannot_build_multiple_printblue", slot9:getShipVO():getConfig("name"), slot6:getShipVO():getConfig("name")),
-			onYes = function ()
-				uv0:sendNotification(GAME.STOP_BLUEPRINT, {
-					id = uv1.id,
-					callback = function ()
-						uv0:sendNotification(GAME.BUILD_SHIP_BLUEPRINT, {
-							hideTip = true,
-							id = uv1
-						})
-					end
-				})
-			end
-		})
+	slot9 = {}
 
-		return
+	if slot5:getBuildingBluePrint() then
+		table.insert(slot9, function (slot0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("cannot_build_multiple_printblue", uv0:getShipVO():getConfig("name"), uv1:getShipVO():getConfig("name")),
+				onYes = function ()
+					uv0:sendNotification(GAME.STOP_BLUEPRINT, {
+						id = uv1.id,
+						callback = uv2
+					})
+				end
+			})
+		end)
+	else
+		table.insert(slot9, function (slot0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("blueprint_build_time_tip"),
+				onYes = slot0
+			})
+		end)
 	end
 
-	function slot10()
+	seriesAsync(slot9, function ()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(63200, {
@@ -56,18 +60,7 @@ function slot0.execute(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("printblue_build_erro") .. slot0.result)
 			end
 		end)
-	end
-
-	if slot4 then
-		slot10()
-	else
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("blueprint_build_time_tip"),
-			onYes = function ()
-				uv0()
-			end
-		})
-	end
+	end)
 end
 
 return slot0

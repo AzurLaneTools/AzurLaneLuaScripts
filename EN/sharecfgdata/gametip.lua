@@ -13506,24 +13506,22 @@ _G.pg.gametip.index_not_lvmax = {
 _G.pg.gametip.decodegame_gametip = {
 	tip = {
 		{
-			info = "- Decryption:\nDecryption is a new minievent. Tap on the Decryption screen to begin decrypting and unlock Passcodes with which you can claim a number of rewards.\nTo begin decrypting, you first need to obtain Intel, which is acquired through the Northern Overture event."
-		},
-		{
 			info = [[
-- Decryption Screen Details:
-1. Your number of remaining decryption attempts are visible on the top left side of the screen.
-2. You can change which encrypted information is displayed by tapping the knobs on the right side of the screen.
-3. Deciphering the grids at the center of the Decryption screen is done by tapping on them.
-4. Tap the button at the bottom right side of the screen to head to the Passcodes screen.
-5. Once you've finished decrypting all the information, you can claim the final reward from the bottom left side of the screen.]]
-		},
-		{
-			info = [[
-- How to Play:
-1. Intel can be acquired by playing the Northern Overture event maps and completing event missions. For every <color=#92fc63>200</color> Intel collected, you get one decryption attempt.
-2. Tapping the knobs on the right side of the screen shows the grids containing information to be decrypted. To decrypt a grid, tap on it. Doing so requires 1 decryption attempt per grid.
-3. Once all grids have been decrypted, the electronic noise will disappear and the information will be viewable. Once you've fully decrypted a piece of information, tap the knobs on the right side of the screen to begin decrypting another.
-4. Once you've decrypted all the information available, you'll gain access to the Passcode page list on the bottom right side of the screen.
+- Decryption -
+In this minigame, use Intel Pts earned from the "Darkness Within Dawn" event to decrypt pieces of intel and unlock Passcodes to gain corresponding rewards.
+
+- Decryption Screen Details -
+You can see your current decryption attempts on the left side of the screen.
+By tapping the knobs on the right side of the screen, you can change the displayed intel.
+You can decrypt intel by tapping the noise-like squares in the middle of the intel display screen.
+You can access Passcodes by tapping the button on the bottom-right.
+After completing intel decryption, collect the corresponding rewards from the bottom left side of the screen.
+
+- How to Play -
+1. Earn Intel Pts by completing "Darkness Within Dawn" event missions. For every <color=#92fc63>200</color> Intel Pts you earn, you will gain 1 Decryption attempt.
+2. Tap on the knobs on the right-hand side of the screen to display the intel being decrypted, and tap on undecrypted parts of the screen (noise-like appearance) to decrypt it, spending 1 Decryption attempt in the process.
+3. After all the panels have been decrypted, the intel is considered completely decrypted, and you can change the decryption target by tapping on the knobs on the right-hand side of the screen.
+4. When all intel has been decrypted, the Passcodes page at the bottom right-hand side of the screen will be unlocked.
 5. Opening the Passcodes page shows you all the Passcodes you've decrypted.
 6. The light on the top left side of the screen will glow green when you've entered the right codes in the right order.
 7. Once you've correctly input 3 Passcodes, you can claim a reward from the bottom left side of the screen.
@@ -13533,8 +13531,7 @@ _G.pg.gametip.decodegame_gametip = {
 30 grids: 1,000 Coins
 40 grids: 2 T3 Offensive Skill Books
 50 grids: 2 random T3 Retrofit Blueprints
-60 grids: 2 T3 Support Skill Books
-]]
+60 grids: 2 T3 Support Skill Books]]
 		}
 	}
 }
@@ -19494,6 +19491,10 @@ _G.pg.gametip.tip_build_ticket_expired = {
 	tip = "The event has ended. $1 can no longer be used."
 }
 
+_G.pg.gametip.tip_build_ticket_exchange_expired = {
+	tip = "The Limited Construction period has ended; you are no longer able to use $1."
+}
+
 _G.pg.gametip.tip_build_ticket_not_enough = {
 	tip = "Insufficient $1."
 }
@@ -19705,4 +19706,28 @@ We do not recommend this because this costs Gems, whereas you are able to comple
 Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
 		}
 	}
+}
+
+_G.pg.gametip.attrset_reset = {
+	tip = "Reset"
+}
+
+_G.pg.gametip.attrset_save = {
+	tip = "Save"
+}
+
+_G.pg.gametip.attrset_ask_save = {
+	tip = "Are you sure you want to save your current settings?"
+}
+
+_G.pg.gametip.attrset_save_success = {
+	tip = "Successfully saved."
+}
+
+_G.pg.gametip.attrset_disable = {
+	tip = "Unable to change settings - affected ships are currently sortieing."
+}
+
+_G.pg.gametip.attrset_input_ill = {
+	tip = "Input error."
 }

@@ -83,50 +83,59 @@ function slot0.UpdateCommodity(slot0, slot1, slot2)
 end
 
 function slot0.OnClickCommodity(slot0, slot1, slot2)
-	function slot3(slot0, slot1)
-		slot2, slot3 = slot0:canPurchase()
+	if ({
+		type = slot1:getConfig("commodity_type"),
+		id = slot1:getConfig("commodity_id"),
+		count = slot1:getConfig("num")
+	}).type == DROP_TYPE_VITEM and pg.item_data_statistics[slot3.id].virtual_type == 22 and (not getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id) or slot5:isEnd()) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", Item.GetName(slot3.type, slot3.id)))
 
-		if not slot2 then
-			pg.TipsMgr.GetInstance():ShowTips(slot3 or i18n("buy_countLimit"))
+		return
+	end
 
-			return false
+	slot4 = nil
+
+	((slot1:getConfig("num_limit") ~= 1 and slot1:getConfig("commodity_type") ~= 4 or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
+		slot3 = {}
+
+		if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then
+			table.insert(slot3, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("pt_reconfirm", uv0 or "??"),
+					onYes = slot0
+				})
+			end)
+		else
+			table.insert(slot3, function (slot0)
+				if uv0:getSpecialRule(uv1) then
+					slot0()
+				end
+			end)
 		end
 
-		slot4, slot5 = getPlayerOwn(slot0:getConfig("resource_category"), slot0:getConfig("resource_type"))
+		table.insert(slot3, function (slot0)
+			if not uv0:canPurchase() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
-		if slot5 < slot0:getConfig("resource_num") * slot1 then
-			if not ItemTipPanel.ShowItemTip(slot0:getConfig("resource_category"), slot0:getConfig("resource_type")) then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot4))
+				return
 			end
 
-			return false
-		end
+			slot1, slot2 = getPlayerOwn(uv0:getConfig("resource_category"), uv0:getConfig("resource_type"))
 
-		return true
-	end
-
-	function slot4(slot0, slot1, slot2)
-		if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("pt_reconfirm", slot2 or "??"),
-				onYes = function ()
-					if uv0(uv1, uv2) then
-						uv3(uv1, uv2)
-					end
+			if slot2 < uv0:getConfig("resource_num") * uv1 then
+				if not ItemTipPanel.ShowItemTip(uv0:getConfig("resource_category"), uv0:getConfig("resource_type")) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot1))
 				end
-			})
-		elseif uv0:getSpecialRule(slot0) and uv1(slot0, slot1) then
-			uv2(slot0, slot1)
-		end
-	end
 
-	if slot0:CanOpenPurchaseWindow(slot1) then
-		if slot1:getConfig("num_limit") == 1 or slot1:getConfig("commodity_type") == 4 then
-			slot0.contextData.singleWindow:ExecuteAction("Open", slot1, slot4)
-		else
-			slot0.contextData.multiWindow:ExecuteAction("Open", slot1, slot4)
-		end
-	end
+				return
+			end
+
+			slot0()
+		end)
+		seriesAsync(slot3, function ()
+			uv0(uv1, uv2)
+		end)
+	end)
 end
 
 function slot0.getSpecialRule(slot0, slot1)

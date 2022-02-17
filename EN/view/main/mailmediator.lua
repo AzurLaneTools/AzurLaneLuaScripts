@@ -84,11 +84,14 @@ function slot0.getAllAttachment(slot0)
 	end)
 
 	table.sort(slot1, function (slot0, slot1)
-		if getDropRarity(slot0) == getDropRarity(slot1) then
-			return slot1.id < slot0.id
-		else
-			return slot3 < slot2
-		end
+		return CompareFuncs(slot0, slot1, {
+			function (slot0)
+				return -getDropRarity(slot0)
+			end,
+			function (slot0)
+				return -slot0.id
+			end
+		})
 	end)
 
 	return slot1

@@ -184,6 +184,8 @@ function slot0.EnterPassWord(slot0, slot1)
 			slot4 = slot0.view
 
 			slot4:OnSuccess(function ()
+				pg.NewStoryMgr.GetInstance():Play(DecodeGameConst.LAST_STORYID, callback)
+
 				if uv0.successCallback then
 					uv0.successCallback()
 				end
@@ -209,6 +211,9 @@ function slot0.UnlockMapItem(slot0, slot1)
 				uv0.view:UnlockMapItem(uv1, slot0)
 			end,
 			function (slot0)
+				uv0:PlayStory(slot0)
+			end,
+			function (slot0)
 				uv0.view:UpdateCanUseCnt(uv0.model.canUseCnt)
 
 				if uv0.model:IsUnlockMap(uv0.model.map.id) then
@@ -228,6 +233,14 @@ function slot0.UnlockMapItem(slot0, slot1)
 				slot0()
 			end
 		})
+	end
+end
+
+function slot0.PlayStory(slot0, slot1)
+	if DecodeGameConst.UNLOCK_STORYID[slot0.model:GetUnlockedCnt()] then
+		pg.NewStoryMgr.GetInstance():Play(slot3, slot1)
+	else
+		slot1()
 	end
 end
 

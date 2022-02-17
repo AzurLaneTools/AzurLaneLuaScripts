@@ -68,13 +68,15 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 				if not slot9 then
 					uv3:HandleDirectDamage(slot8, slot1, uv0)
 
-					slot11 = pg.Tool.FilterY(slot8:GetPosition() - uv4)
+					if slot8:IsAlive() then
+						slot11 = pg.Tool.FilterY(slot8:GetPosition() - uv4)
 
-					if slot2 ~= false then
-						slot8:SetUncontrollableSpeed(slot11, 1, 0.2, 6)
+						if slot2 ~= false then
+							slot8:SetUncontrollableSpeed(slot11, 1, 0.2, 6)
+						end
+
+						slot8:RemoveBuff(uv5)
 					end
-
-					slot8:RemoveBuff(uv5)
 				end
 			end
 		end

@@ -46,18 +46,26 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	slot10 = slot6:getConfig("target_num")
 
 	setText(slot0:findTF("description", slot2), slot6:getConfig("desc"))
-	setText(slot0:findTF("progressText", slot2), slot9 .. "/" .. slot10)
+
+	slot11, slot12 = slot0:GetProgressColor()
+
+	if slot11 and slot12 then
+		setText(slot0:findTF("progressText", slot2), "<color=" .. slot11 .. ">" .. slot9 .. "</color><color=" .. slot12 .. ">/" .. slot10 .. "</color>")
+	else
+		setText(slot0:findTF("progressText", slot2), slot9 .. "/" .. slot10)
+	end
+
 	setSlider(slot0:findTF("progress", slot2), 0, slot10, slot9)
 
-	slot12 = slot0:findTF("get_btn", slot2)
+	slot14 = slot0:findTF("get_btn", slot2)
 
 	setActive(slot0:findTF("go_btn", slot2), slot6:getTaskStatus() == 0)
-	setActive(slot12, slot14 == 1)
-	setActive(slot0:findTF("got_btn", slot2), slot14 == 2)
-	onButton(slot0, slot11, function ()
+	setActive(slot14, slot16 == 1)
+	setActive(slot0:findTF("got_btn", slot2), slot16 == 2)
+	onButton(slot0, slot13, function ()
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
-	onButton(slot0, slot12, function ()
+	onButton(slot0, slot14, function ()
 		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
 	end, SFX_PANEL)
 end
@@ -84,6 +92,10 @@ function slot0.OnDestroy(slot0)
 	eachChild(slot0.items, function (slot0)
 		Destroy(slot0)
 	end)
+end
+
+function slot0.GetProgressColor(slot0)
+	return nil
 end
 
 return slot0

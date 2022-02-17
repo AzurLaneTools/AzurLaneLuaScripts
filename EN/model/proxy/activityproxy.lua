@@ -558,4 +558,12 @@ function slot0.getActivityParameter(slot0, slot1)
 	end
 end
 
+function slot0.IsShowFreeBuildMark(slot0, slot1)
+	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE) and not slot2:isEnd() and slot2.data1 > 0 and slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 then
+		return tobool(slot1) == (PlayerPrefs.GetString("Free_Build_Ticket_" .. slot2.id, "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d"))
+	else
+		return false
+	end
+end
+
 return slot0

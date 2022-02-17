@@ -42,10 +42,10 @@ function slot0.calculateCurBuff(slot0, slot1, slot2)
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(pg.fleet_tech_template[slot3].add) do
-		slot12 = slot11[3]
-		slot13 = slot11[4]
+		slot12 = slot11[2]
+		slot13 = slot11[3]
 
-		for slot18, slot19 in ipairs(slot11[2]) do
+		for slot18, slot19 in ipairs(slot11[1]) do
 			if slot5[slot19] then
 				table.insert(slot5[slot19], {
 					attr = slot12,
@@ -294,10 +294,10 @@ function slot0.updateDetailPanel(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot11 = {}
 
 		for slot15, slot16 in ipairs(pg.fleet_tech_template[slot4].add) do
-			slot17 = slot16[3]
-			slot18 = slot16[4]
+			slot17 = slot16[2]
+			slot18 = slot16[3]
 
-			for slot23, slot24 in ipairs(ShipType.FilterOverQuZhuType(slot16[2])) do
+			for slot23, slot24 in ipairs(ShipType.FilterOverQuZhuType(slot16[1])) do
 				slot25 = nil
 				slot25 = (not slot2 or (table.indexof(slot5, slot24, 1) or {
 					attr = slot17,

@@ -18854,6 +18854,50 @@ pg.memory_template = {
 		icon = "memory_wuerlixi",
 		is_open = 0
 	},
+	[2002] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Secret Mission ",
+		condition = "Spend 20 Intel Pts in \"Darkness Within Dawn.\"",
+		story = "LIMINGZHIAN1",
+		id = 2002,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2003] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "The Past",
+		condition = "Spend 40 Intel Pts in \"Darkness Within Dawn.\"",
+		story = "LIMINGZHIAN2",
+		id = 2003,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2004] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Failed Expedition",
+		condition = "Spend 60 Intel Pts in \"Darkness Within Dawn.\"",
+		story = "LIMINGZHIAN3",
+		id = 2004,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2005] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Deal",
+		condition = "Decrypt all intel in \"Darkness Within Dawn.\"",
+		story = "LIMINGZHIAN4",
+		id = 2005,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -21196,6 +21240,10 @@ pg.memory_template = {
 		1999,
 		2000,
 		2001,
+		2002,
+		2003,
+		2004,
+		2005,
 		10011,
 		10012,
 		10013,

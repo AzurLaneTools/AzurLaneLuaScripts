@@ -1,9 +1,5 @@
 slot0 = class("DecodeGameModel")
 
-function slot0.Ctor(slot0, slot1)
-	slot0.controller = slot1
-end
-
 function slot0.SetData(slot0, slot1)
 	slot0.data = slot1
 	slot0.mapId = slot1.mapId
@@ -108,7 +104,9 @@ function slot0.UnlockMapItem(slot0, slot1)
 		end
 	end
 
-	table.insert(slot0.unlocks, slot1)
+	if not table.contains(slot0.unlocks, slot1) then
+		table.insert(slot0.unlocks, slot1)
+	end
 
 	slot0.canUseCnt = slot0.canUseCnt - 1
 end
@@ -244,6 +242,10 @@ end
 
 function slot0.Finish(slot0)
 	slot0.isFinished = true
+end
+
+function slot0.CanUnlockAward(slot0)
+	return not slot0.isFinished and DecodeGameConst.MAX_MAP_COUNT * DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN <= slot0:GetUnlockedCnt()
 end
 
 function slot0.Dispose(slot0)

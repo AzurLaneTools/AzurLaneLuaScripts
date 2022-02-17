@@ -12,6 +12,7 @@ slot0.FINISH_UP_TEC = "TechnologyConst:FINISH_UP_TEC"
 slot0.FINISH_TEC_SUCCESS = "TechnologyConst:FINISH_TEC_SUCCESS"
 slot0.GOT_TEC_CAMP_AWARD = "TechnologyConst:GOT_TEC_CAMP_AWARD"
 slot0.GOT_TEC_CAMP_AWARD_ONESTEP = "TechnologyConst:GOT_TEC_CAMP_AWARD_ONESTEP"
+slot0.SET_TEC_ATTR_ADDITION_FINISH = "TechnologyConst:SET_TEC_ATTR_ADDITION_FINISH"
 slot0.SHIP_LEVEL_FOR_BUFF = 120
 slot0.AtlasName = "ui/technologytreeui_atlas"
 slot0.NationOrder = {

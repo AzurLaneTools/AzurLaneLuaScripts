@@ -1211,7 +1211,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30109] = {
 		shiptype = 1,
-		name = "Niizuki Class",
+		name = "Akizuki Class",
 		nation = 3,
 		id = 30109,
 		t_level_1 = 78,

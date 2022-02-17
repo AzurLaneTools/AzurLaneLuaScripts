@@ -315,6 +315,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>A bridge that spans beyond reality. Is it Heaven or Hell that awaits us on the other side?</color>Obtained from the \"Tower of Transcendence\" event.",
 		scene = {}
 	},
+	[318] = {
+		time_limit_type = 0,
+		name = "Seal of the Polar Star",
+		gain_by = "",
+		id = 318,
+		time_second = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -387,6 +396,7 @@ pg.item_data_frame = {
 		315,
 		316,
 		317,
+		318,
 		406,
 		411,
 		412,

@@ -14015,11 +14015,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[2001] = {
-		name = "Planet Shell",
+		name = "Shooting Star Torpedo",
 		bullet_name = "yulei_fanxing",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "In Northern Parliament, planets land on you.",
+		desc = "Great job, superstar!",
 		themeid = 99,
 		orbit_combat = "",
 		ship_config_id = 100011,
@@ -14044,11 +14044,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[2002] = {
-		name = "Shooting Star Torpedo",
+		name = "Meteor Shell",
 		bullet_name = "paodan_huixing",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "Great job, superstar!",
+		desc = "Many say it's the ultimate destructive magic.",
 		themeid = 99,
 		orbit_combat = "",
 		ship_config_id = 100011,
@@ -14074,11 +14074,11 @@ pg.equip_skin_template = {
 		}
 	},
 	[2003] = {
-		name = "Meteor Shell",
+		name = "Planet Shell",
 		bullet_name = "zidan_xingqiu",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "Many say it's the ultimate destructive magic.",
+		desc = "In Northern Parliament, planets land on you.",
 		themeid = 99,
 		orbit_combat = "",
 		ship_config_id = 100011,

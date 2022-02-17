@@ -316,11 +316,9 @@ function slot0.clearFleet(slot0, slot1)
 end
 
 function slot0.OnShow(slot0)
-	slot0.contextData.layerWeight = #getProxy(ContextProxy):getCurrentContext().children > 0 and LayerWeightConst.LOWER_LAYER or nil
-
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
 		groupName = LayerWeightConst.GROUP_FORMATION_PAGE,
-		weight = slot0.contextData.layerWeight
+		weight = #getProxy(ContextProxy):getCurrentContext().children > 0 and LayerWeightConst.LOWER_LAYER or nil
 	})
 end
 

@@ -172,8 +172,8 @@ pg.name_code = {
 	},
 	{
 		id = 35,
-		name = "Yugumo",
-		code = "Yugumo"
+		name = "Yuugumo",
+		code = "Yuugumo"
 	},
 	{
 		id = 36,
@@ -202,8 +202,8 @@ pg.name_code = {
 	},
 	{
 		id = 41,
-		name = "Tenryu",
-		code = "Tenryu"
+		name = "Tenryuu",
+		code = "Tenryuu"
 	},
 	{
 		id = 42,
@@ -222,8 +222,8 @@ pg.name_code = {
 	},
 	{
 		id = 45,
-		name = "Oi",
-		code = "Oi"
+		name = "Ooi",
+		code = "Ooi"
 	},
 	{
 		id = 46,
@@ -257,8 +257,8 @@ pg.name_code = {
 	},
 	{
 		id = 52,
-		name = "Oyodo",
-		code = "Oyodo"
+		name = "Ooyodo",
+		code = "Ooyodo"
 	},
 	{
 		id = 53,
@@ -437,8 +437,8 @@ pg.name_code = {
 	},
 	{
 		id = 88,
-		name = "Zuiho",
-		code = "Zuiho"
+		name = "Zuihou",
+		code = "Zuihou"
 	},
 	{
 		id = 89,
@@ -537,8 +537,8 @@ pg.name_code = {
 	},
 	{
 		id = 108,
-		name = "Yugumo Production",
-		code = "Yugumo Production"
+		name = "Yuugumo Production",
+		code = "Yuugumo Production"
 	},
 	{
 		id = 109,
@@ -657,8 +657,8 @@ pg.name_code = {
 	},
 	{
 		id = 132,
-		name = "Yamashiro Retrofit",
-		code = "Yamashiro Retrofit"
+		name = "Yamashiro (Retrofit)",
+		code = "Yamashiro (Retrofit)"
 	},
 	{
 		id = 133,
@@ -727,8 +727,8 @@ pg.name_code = {
 	},
 	{
 		id = 146,
-		name = "Ōshio",
-		code = "Ōshio"
+		name = "Ooshio",
+		code = "Ooshio"
 	},
 	{
 		id = 147,
@@ -762,8 +762,8 @@ pg.name_code = {
 	},
 	{
 		id = 153,
-		name = "Yunagi",
-		code = "Yunagi"
+		name = "Yuunagi",
+		code = "Yuunagi"
 	},
 	{
 		id = 154,
@@ -842,13 +842,13 @@ pg.name_code = {
 	},
 	{
 		id = 169,
-		name = "Baby Huey ",
-		code = "Baby Huey "
+		name = "Hiei-chan",
+		code = "Hiei-chan"
 	},
 	{
 		id = 170,
-		name = "Akagi Pickles ",
-		code = "Akagi Pickles "
+		name = "Akagi-chan",
+		code = "Akagi-chan"
 	},
 	{
 		id = 171,
@@ -877,8 +877,8 @@ pg.name_code = {
 	},
 	{
 		id = 176,
-		name = "Akagiμ",
-		code = "Akagiμ"
+		name = "Akagi μ",
+		code = "Akagi μ"
 	},
 	{
 		id = 177,
@@ -947,13 +947,13 @@ pg.name_code = {
 	},
 	{
 		id = 190,
-		name = "Taihou μ ",
-		code = "Taihou μ "
+		name = "Taihou μ",
+		code = "Taihou μ"
 	},
 	{
 		id = 191,
-		name = "Hiryuu META ",
-		code = "Hiryuu META "
+		name = "Hiryuu META",
+		code = "Hiryuu META"
 	},
 	{
 		id = 192,
@@ -962,58 +962,58 @@ pg.name_code = {
 	},
 	{
 		id = 193,
-		name = "Little Amagi ",
-		code = "Little Amagi "
+		name = "Amagi-chan",
+		code = "Amagi-chan"
 	},
 	{
 		id = 194,
-		name = "Ticonderoga ",
-		code = "Ticonderoga "
+		name = "Ticonderoga",
+		code = "Ticonderoga"
 	},
 	{
 		id = 195,
-		name = "San Francisco ",
-		code = "San Francisco "
+		name = "San Francisco",
+		code = "San Francisco"
 	},
 	{
 		id = 196,
-		name = "Archerfish ",
-		code = "Archerfish "
+		name = "Archerfish",
+		code = "Archerfish"
 	},
 	{
 		id = 197,
-		name = "Boise ",
-		code = "Boise "
+		name = "Boise",
+		code = "Boise"
 	},
 	{
 		id = 198,
-		name = "Morrison ",
-		code = "Morrison "
+		name = "Morrison",
+		code = "Morrison"
 	},
 	{
 		id = 199,
-		name = "New Jersey ",
-		code = "New Jersey "
+		name = "New Jersey",
+		code = "New Jersey"
 	},
 	{
 		id = 200,
-		name = "Ticonderoga ",
-		code = "Ticonderoga "
+		name = "Ticonderoga",
+		code = "Ticonderoga"
 	},
 	{
 		id = 201,
-		name = "iowa ",
-		code = "iowa "
+		name = "Iowa",
+		code = "Iowa"
 	},
 	{
 		id = 202,
-		name = "balao ",
-		code = "balao "
+		name = "Balao",
+		code = "Balao"
 	},
 	{
 		id = 203,
-		name = "Kazagumo ",
-		code = "Kazagumo "
+		name = "Kazagumo",
+		code = "Kazagumo"
 	},
 	{
 		id = 204,
@@ -1052,48 +1052,48 @@ pg.name_code = {
 	},
 	{
 		id = 211,
-		name = "Fuso Retrofit",
-		code = "Fuso Retrofit"
+		name = "Fusou (Retrofit)",
+		code = "Fusou (Retrofit)"
 	},
 	{
 		id = 212,
-		name = "Mogami Retrofit",
-		code = "Mogami Retrofit"
+		name = "Mogami (Retrofit)",
+		code = "Mogami (Retrofit)"
 	},
 	{
 		id = 213,
-		name = "Yūdachi Retrofit",
-		code = "Yūdachi Retrofit"
+		name = "Yuudachi (Retrofit)",
+		code = "Yuudachi (Retrofit)"
 	},
 	{
 		id = 214,
-		name = "Mogami Retrofit",
-		code = "Mogami Retrofit"
+		name = "Mogami (Retrofit)",
+		code = "Mogami (Retrofit)"
 	},
 	{
 		id = 215,
-		name = "Fuso Retrofit",
-		code = "Fuso Retrofit"
+		name = "Fusou (Retrofit)",
+		code = "Fusou (Retrofit)"
 	},
 	{
 		id = 216,
-		name = "Yamashiro Retrofit",
-		code = "Yamashiro Retrofit"
+		name = "Yamashiro (Retrofit)",
+		code = "Yamashiro (Retrofit)"
 	},
 	{
 		id = 217,
-		name = "Ise Retrofit",
-		code = "Ise Retrofit"
+		name = "Ise (Retrofit)",
+		code = "Ise (Retrofit)"
 	},
 	{
 		id = 218,
-		name = "Hyūga Retrofit",
-		code = "Hyūga Retrofit"
+		name = "Hyuuga (Retrofit)",
+		code = "Hyuuga (Retrofit)"
 	},
 	{
 		id = 219,
-		name = "Kasumi Retrofit",
-		code = "Kasumi Retrofit"
+		name = "Kasumi (Retrofit)",
+		code = "Kasumi (Retrofit)"
 	},
 	{
 		id = 220,
@@ -1152,8 +1152,8 @@ pg.name_code = {
 	},
 	[281] = {
 		id = 281,
-		name = "Kaidai Type ",
-		code = "Kaidai Type "
+		name = "Kaidai Type",
+		code = "Kaidai Type"
 	},
 	[282] = {
 		id = 282,
