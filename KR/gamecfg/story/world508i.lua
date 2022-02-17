@@ -139,7 +139,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "글쎄, 없는데.",
+			say = "글쎄요, 없는데요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "우리의 임무는 이곳을 굳건히 지켜 특이점 안의 적을 제거하는 거야. 임무를 완료할 때까지 우리는 절대 철수하지 않는다구.",
+			say = "저희의 임무는 이곳을 굳건히 지켜 특이점 안의 적을 제거하는 거예요. 임무를 완료할 때까지는 절대 철수하지 않는다구요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "아휴, 아직까지 몰랐던 거냐.",
+			say = "아휴, 아직까지 몰랐던 건가요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "너희들과는 무관해---- 이렇게 말하고 싶지만.",
+			say = "여러분들과는 무관해요---- 이렇게 말하고 싶지만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "아마 너희들과도 조금은 관계가 있는 것 같은데...",
+			say = "아마 여러분들과도 조금은 관계가 있는 것 같네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "알겠어, 더 이상 말하지 않을 거라구.",
+			say = "알겠어요, 더 이상 말하지 않을게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "야! 저기 지휘관, 너한테 제안할 게 있어.",
+			say = "저기! 지휘관, 제안할 게 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "아비터의 목표는 우리야, 이곳을 지켜야 할 의무도 우리에게 있어. 너희들은----",
+			say = "아비터의 목표는 저흽니다. 이곳을 지켜야 할 의무도 저희에게 있어요. 여러분은----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "우릴 두고 물러설 선택지가 있단 소리지.",
+			say = "저희를 두고 물러설 선택지가 있단 얘기죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "어때? 만약 너희가 떠난다고 해도, 난 뒤에서 습격하지 않을 거야.",
+			say = "어떤가요? 만약 여러분이 떠난다고 해도, 전 뒤에서 습격하지 않을 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

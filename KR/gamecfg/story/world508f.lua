@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "의외로 흥분하지 않네.",
+			say = "의외로 흥분하지 않네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "맞아~ 걱정 마. 우린 아직 네가 걱정할 상황이 아니니까.",
+			say = "맞아요~ 걱정 마세요. 저흰 아직 당신이 걱정할 상황은 아니니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "하지만… 약간의 거리를 벌려 공격 템포를 조절하고 보급도 할 수 있을 것 같은데?",
+			say = "하지만… 약간의 거리를 벌려 공격 템포를 조절하고 보급도 할 수 있을 것 같은데요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "하하하, 오랜만에 대함대 합동 작전이라니, 그동안 이런 전술을 전부 다 잊고 지냈어.",
+			say = "하하하, 오랜만에 대함대 합동 작전이라니, 그동안 이런 전술을 전부 다 잊고 지냈어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

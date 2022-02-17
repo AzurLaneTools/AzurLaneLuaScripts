@@ -281,7 +281,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "좋은 생각이지만 아쉽게도 이미 너무 늦었지롱.",
+			say = "좋은 생각이지만 아쉽게도 이미 너무 늦었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "마침 잘 왔네. 나는 너희가 반드시 딱 맞춰 올 줄 알았다구.",
+			say = "마침 잘 왔어요. 저는 여러분이 반드시 딱 맞춰 올 줄 알았다구요.",
 			bgm = "battle-ashes-theme",
 			flashout = {
 				black = true,
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "세이렌은 기지가 있는데 우린 없으니 속전속결의 전투를 계획한 거지.",
+			say = "사이렌은 기지가 있는데 저희는 없으니 속전속결의 전투를 계획한 거죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "갑자기 진지전을 치러야 하니 머리를 좀 쓰는 게 좋지 않겠어~?",
+			say = "갑자기 진지전을 치러야 하니 머리를 좀 쓰는 게 좋지 않겠어요~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "계획이 변화를 따라가지 못하잖아요.",
+			say = "계획이 변화를 따라가지 못하잖아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "상대방은 저렇게 진지해 보이는데, 우리 두 사람이 어떻게 아비터 3명과 싸우겠어?",
+			say = "상대방은 저렇게 진지해 보이는데, 저희 두 사람이 어떻게 아비터 3명과 싸우겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "신경 쓰지 마, 그녀는 항상 이런 스타일이니까. 그녀처럼 이렇게 하는 것이 가장 옳은 선택이지만...",
+			say = "신경 쓰지 마세요, 그녀는 항상 이런 스타일이니까요. 그녀처럼 이렇게 하는 것이 가장 옳은 선택이지만...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "본론으로 돌아가서, 그동안 지켜본 결과 너흰 안티엑스의 든든한 연맹도 아닌 것 같고.",
+			say = "본론으로 돌아가서, 그동안 지켜본 결과 여러분은 안티엑스의 든든한 연맹도 아닌 것 같고,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "이번에 이렇게 많은 사람이 왔으니 어때, 같이 한 번 싸워보는 건?",
+			say = "이번에 이렇게 많은 사람이 왔으니 어떠신가요, 같이 한 번 싸워보는 건?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "야, 야, 야, 우리 앞에서 이런 말을 한다고?",
+			say = "잠깐 잠깐, 저희 앞에서 이런 말을 한다고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "허, 너희들은 너희들 스스로 아는 것만큼 그렇게 믿음직스럽지 않구나.",
+			say = "허, 여러분은 스스로 아는 것만큼 그렇게 믿음직스럽지 않군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "물론 가끔씩 함께 안티엑스를 공격하는 것도 좋을 것 같은데. 어떻게 생각해, 아비터?",
+			say = "물론 가끔씩 함께 안티엑스를 공격하는 것도 좋을 것 같은데, 어떻게 생각하세요, 아비터?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

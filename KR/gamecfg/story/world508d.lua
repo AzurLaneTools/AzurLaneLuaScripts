@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "흠, 이건 새로운 방법이네...",
+			say = "흠, 이건 새로운 방법이네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "어라? 이 정도 규모의 합동 공격은 정말 오랜만이야. 나도 좀 신나는걸————!",
+			say = "어라? 이 정도 규모의 합동 공격은 정말 오랜만이군요. 저도 좀 신나는걸요————!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

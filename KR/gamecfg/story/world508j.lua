@@ -12,7 +12,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "역시 이렇게 선택할 줄 알았어… 언제나 이성적이야.",
+			say = "역시 이렇게 선택할 줄 알았어요… 언제나 이성적이군요.",
 			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "그럼, 여기서 인사하지. 순조롭게 나가는 길을 찾을 수 있기를 바랄게.",
+			say = "그럼, 여기서 인사하죠. 순조롭게 나가는 길을 찾을 수 있기를 바랄게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "넌 분명히 그렇게 할 거란 걸 알아… 하지만 그럴 필요 없어.",
+			say = "당신은 분명히 그렇게 할 거란 걸 알아요… 하지만 그럴 필요 없습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "어서 가. 우린 이제 맘껏 싸울 거야, 방해하지 마.",
+			say = "어서 가세요. 우린 이제 맘껏 싸울 거니까 방해하지 마세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "행운을 빌게, '지휘관'.",
+			say = "행운을 빌겠습니다, '지휘관'.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "드디어 조용해졌네, 이렇게 되면 타카오의 뜻을 이해할 수 있겠지?",
+			say = "드디어 조용해졌네요, 이렇게 되면 타카오의 뜻을 이해할 수 있겠죠?",
 			bgm = "main-ashes-theme",
 			flashout = {
 				black = true,
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "능력은 말할 것도 없고. 함대에 대한 배려심에, 잠재적 연합을 위해 끝까지 싸우고, 적에겐 냉정하고 무자비해.",
+			say = "능력은 말할 것도 없고, 함대에 대한 배려심에, 잠재적 연합을 위해 끝까지 싸우고, 적에겐 냉정하고 무자비한데다가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "분석과 판단에 능하고 전장에 대한 정확한 이해력을 갖추고 있어. 위험을 눈치채고 가장 좋은 선택을 했지.",
+			say = "분석과 판단에 능하고 전장에 대한 정확한 이해력을 갖추고 있어요. 위험을 눈치채고 가장 좋은 선택을 했죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "탓하려면 우리의 존재 자체를 탓하는 걸로.",
+			say = "탓하려면 저희의 존재 자체를 탓하는 걸로.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "지휘관에게 우리는 동맹도 아니고, 친구도 아니니까…… 무엇보다 얼마 전 치열하게 싸운 적도 있으니.",
+			say = "지휘관에게 저희는 동맹도 아니고, 친구도 아니니까요…… 무엇보다 얼마 전 치열하게 싸운 적도 있으니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "우리였어도 같은 선택을 했을 거야.",
+			say = "저희였어도 같은 선택을 했을 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "엇, 이런 사소한 배려까지 들켜버린 거야?",
+			say = "엇, 이런 사소한 배려까지 들켜버린 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "하하하, 맞는 말이네. 이렇게 빙빙 돌려 말하는 건 너무 우리 스타일이 아니었지.",
+			say = "하하하, 맞는 말이네요. 이렇게 빙빙 돌려 말하는 건 너무 저희 스타일이 아니죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "그럴지도 모르지. 어찌 됐든 우리와는 아무 상관이 없는 사람이야.",
+			say = "그럴지도 모르죠. 어찌 됐든 저희와는 아무 상관이 없는 사람이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "아크로열, 단단히 준비해. 우리가 엔터프라이즈가 돌아올 때까지 버틸 수 있길 바라.",
+			say = "아크로열, 단단히 준비하세요. 저희가 엔터프라이즈가 돌아올 때까지 버틸 수 있길 바랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

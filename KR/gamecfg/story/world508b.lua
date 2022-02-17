@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-ashes-theme",
 			dir = 1,
-			say = "저들의 계획대로 두면 안 돼, 익스큐터가 몸을 숨기기 전에 없애버린다!",
+			say = "저들의 계획대로 두면 안 돼요. 익스큐터가 몸을 숨기기 전에 없애버려요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

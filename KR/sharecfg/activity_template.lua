@@ -5035,6 +5035,495 @@ pg.activity_template = {
 			283
 		}
 	},
+	[20971] = {
+		mark = 20220210,
+		id = 20971,
+		title_res_tag = "maoxizongye",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 20,
+		config_data = {
+			1610001,
+			1610002,
+			1610003,
+			1610021,
+			1610022,
+			1610023
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SNMainPage",
+			ui_name = "SNMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[20972] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 20972,
+		config_data = {
+			1610004,
+			1610005,
+			1610006,
+			1610024,
+			1610025,
+			1610026,
+			1610041,
+			1610051
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[20973] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 20973,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20974] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20974,
+		config_data = {
+			17370,
+			17371,
+			17372,
+			17373,
+			17374,
+			17375,
+			17376,
+			17377,
+			17378,
+			17379,
+			17380
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20975] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31984,100}]",
+		config_client = "",
+		id = 20975,
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20976] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 20976,
+		config_data = {
+			1613,
+			1614,
+			1615,
+			1616,
+			1617,
+			1618,
+			1619,
+			1620,
+			1621,
+			1622,
+			1623,
+			1624,
+			1625,
+			1626,
+			1627,
+			1628,
+			1629,
+			1630,
+			1631,
+			1632,
+			1633,
+			1634,
+			1635,
+			1636
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_maozi",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 236,
+			painting = "mingsike_pt"
+		}
+	},
+	[20977] = {
+		mark = 20220210,
+		config_client = "",
+		title_res_tag = "maoxi_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 20977,
+		is_show = 19,
+		id = 20977,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SNPtPage",
+			ui_name = "SNPtPage"
+		}
+	},
+	[20978] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20978,
+		config_data = {
+			17381,
+			17382,
+			17383,
+			17399,
+			17384,
+			17385,
+			17386,
+			17387,
+			17388,
+			17389,
+			17390,
+			17391,
+			17392,
+			17393,
+			17394,
+			17395,
+			17396,
+			17397
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20979] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20979,
+		config_data = {
+			1335001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20980] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 236,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 20980,
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[20981] = {
 		mark = 20220210,
 		config_client = "",
@@ -5099,6 +5588,87 @@ pg.activity_template = {
 			ui_name = "ChocolateWorkshopSkinPage"
 		}
 	},
+	[20982] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		id = 20982,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20983] = {
+		mark = 20220210,
+		config_client = "",
+		title_res_tag = "xunliandianshu_m",
+		type = 74,
+		login_pop = 0,
+		config_id = 20983,
+		is_show = 18,
+		id = 20983,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoziPtPage",
+			ui_name = "MaoziPtPage"
+		}
+	},
 	[20985] = {
 		mark = 20220210,
 		title_res_tag = "",
@@ -5136,6 +5706,132 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[20986] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20986,
+		config_data = {
+			17398
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20987] = {
+		mark = 20220210,
+		title_res_tag = "",
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 20987,
+		config_data = {
+			4
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			59274
+		}
+	},
+	[20988] = {
+		mark = 20220210,
+		config_client = "",
+		title_res_tag = "sn_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 22,
+		is_show = 16,
+		id = 20988,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SNLoginPage",
+			ui_name = "SNLoginPage"
 		}
 	},
 	[25002] = {
@@ -6252,8 +6948,23 @@ pg.activity_template = {
 		20968,
 		20969,
 		20970,
+		20971,
+		20972,
+		20973,
+		20974,
+		20975,
+		20976,
+		20977,
+		20978,
+		20979,
+		20980,
 		20981,
+		20982,
+		20983,
 		20985,
+		20986,
+		20987,
+		20988,
 		25002,
 		25003,
 		25004,

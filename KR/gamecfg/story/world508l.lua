@@ -11,7 +11,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "어라? 거절이라니, 꽤나 괜찮은 제안이었던 것 같은데.",
+			say = "어라? 거절이라니, 꽤나 괜찮은 제안이었던 것 같은데 말이죠.",
 			bgm = "SailAwayJustice-inst",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "네가 우릴 걱정할 처지는 아니라고 했는데………",
+			say = "당신이 우릴 걱정할 처지는 아니라고 했는데………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "그래도 마음은 받을게. 고마워~",
+			say = "그래도 마음은 받을게요. 고마워요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "아크로열, 무슨 생각이 들어?",
+			say = "아크로열, 무슨 생각이 들어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "그들은 지금 밖에 나가 일을 처리하고 있어, 언제 돌아올지는 아직 정해지지 않았다구. 그래서 우리가 이렇게 죽을 힘을 다해 막고 있는 거야!",
+			say = "그들은 지금 밖에 나가 일을 처리하고 있어요, 언제 돌아올지는 아직 정해지지 않았다구요. 그래서 저희가 이렇게 죽을 힘을 다해 막고 있는 거예요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "하지만 비장의 카드가 전혀 없다고는 할 수 없지.",
+			say = "하지만 비장의 카드가 전혀 없다고는 할 수 없죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "응... 결정했어! 아크로열, 전력으로 엄호해 줘, 오버로드 공격 준비한다~!",
+			say = "음... 결정했습니다! 아크로열, 전력으로 엄호해 주세요, 오버로드 공격을 준비하겠습니다~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "당연하지.",
+			say = "당연하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "(엔터프라이즈의 판단이 맞기를…)",
+			say = "(엔터프라이즈의 판단이 맞기를…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "---안티엑스, 한번 맛 좀 봐라!",
+			say = "---안티엑스, 한번 맛 좀 보시죠!",
 			effects = {
 				{
 					active = true,

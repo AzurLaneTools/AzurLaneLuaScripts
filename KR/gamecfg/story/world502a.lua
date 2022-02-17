@@ -305,7 +305,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "원래 너희들은 정찰을 하려고 온 거니까, 아까 그건 덤으로 주는 거야~",
+			say = "원래 여러분은 정찰을 하려고 온 거니까요, 아까 그건 덤으로 주는 거예요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "어때, 장관이지?",
+			say = "어때요, 장관이죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "그래…? 조금은 익숙한 느낌이 들어도, 전부 환영일 뿐이야.",
+			say = "그래요…? 조금은 익숙한 느낌이 들어도, 전부 환영일 뿐입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "안돼, 안돼… 본의 아니게 살짝 추억에 젖어있었어.",
+			say = "안돼, 안돼… 본의 아니게 살짝 추억에 젖어있었군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "………… 지겨워, 오늘은 이만하자, 빠이.",
+			say = "………… 지겹군요, 오늘은 이만하죠, 그럼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "쳇! 계속 잔불과 싸우고 싶다면 이런 거에 빨리 익숙해지는 게 좋을 거야.",
+			say = "쳇! 계속 잔불과 싸우고 싶다면 이런 것에 빨리 익숙해지는 게 좋을 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

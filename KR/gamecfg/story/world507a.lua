@@ -56,7 +56,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "아 맞다, 이 실험장에 온 건 네가 처음이야.",
+			say = "아 참, 이 실험장에 온 건 당신이 처음이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "그런 셈이지~ 우리 서로 지난 일에 대해선 얘기하지 않기로 약속.",
+			say = "그런 셈이죠~ 저희 서로 지난 일에 대해선 얘기하지 않기로 약속하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "역시 너무 눈에 띄려나, 이러다 아비터가 도착하는 건 시간 문제겠어.",
+			say = "역시 너무 눈에 띄려나요, 이러다 아비터가 도착하는 건 시간 문제겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

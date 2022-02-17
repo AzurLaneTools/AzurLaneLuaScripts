@@ -55,7 +55,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "어이, 오랜만이야~ 이제 내 위치를 확인할 수 있는 방법을 찾았나 봐?",
+			say = "이야, 오랜만이군요~ 이제 제 위치를 확인할 수 있는 방법을 찾았나 봐요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "그동안 너희들이 계속 날 귀찮게 해서 말이야. 좀 피곤해졌거든.",
+			say = "그동안 여러분이 계속 절 귀찮게 해서 말이에요. 좀 피곤해졌거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "투항? 내가 어떻게 안티엑스의 잠재적 동맹에게 투항을 하겠어?",
+			say = "투항? 제가 어떻게 안티엑스의 잠재적 동맹에게 투항을 하겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "동시에 TB 시스템을 돌입했고, 또 갑자기 동시에 잔불 추적 기술까지——",
+			say = "동시에 TB 시스템을 돌입했고, 또 갑자기 동시에 애쉬 추적 기술까지——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "너흰 이것들이 어디서 왔는지 의심해 본 적 없어?",
+			say = "여러분은 이것들이 어디서 왔는지 의심해 본 적이 없나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "익스큐터 시리즈라는 이름의 세이렌 모델 접촉한 적 있지? 역해석이 가능한 '잔해'를 회수한 적 있어?",
+			say = "익스큐터 시리즈라는 이름의 세이렌 모델과 접촉한 적이 있죠? 역해석이 가능한 '잔해'를 회수한 적은 있나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "계속 말하면 복잡해. 아무튼, 난 이미 너희가 날 귀찮게 하는 부분에 싫증이 났거든.",
+			say = "계속 말하면 복잡합니다. 아무튼, 전 이미 여러분이 절 귀찮게 하는 부분에 싫증이 났거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "그러니까 여기서 한판 붙자.",
+			say = "그러니까 여기서 한판 붙으시죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "기억력 좋은데, '영웅'?",
+			say = "기억력 좋은데요, '영웅'?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "결투의 의미에 얽매이지 말고 모든 함대가 함께 참전해도 된다고?",
+			say = "결투의 의미에 얽매이지 말고 모든 함대가 함께 참전해도 된답니다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "감정에 휩쓸리지 않고 정확하게 실력을 비교하고 결정을 내리다니. 확실히 뛰어난 지휘관이네.",
+			say = "감정에 휩쓸리지 않고 정확하게 실력을 비교하고 결정을 내리시다니. 확실히 뛰어난 지휘관이군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "타카오도 절대 넘어가지 않을걸~",
+			say = "타카오도 절대 넘어가지 않을걸요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,23 +467,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "그리고 오늘 나는 전투를 마음먹고 왔거든. 그냥 돌아가도 재미없어.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#ffa500",
-			side = 2,
-			actor = 9707010,
-			dir = 1,
-			say = "이게 좋겠다, 내가 너희를 돌아갈 수 없게 하는 상황에서——",
+			say = "그리고 오늘 저는 전투를 마음먹고 왔답니다. 그냥 돌아가도 재미없을 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +483,23 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "내 공격을 피해 막을수만 있다면, 너희에게 중요한 비밀을 하나 알려주지, 어때?",
+			say = "이게 좋겠군요, 제가 여러분들을 돌아갈 수 없게 하는 상황에서——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#ffa500",
+			side = 2,
+			actor = 9707010,
+			dir = 1,
+			say = "제 공격을 피해 막을 수만 있다면, 여러분께 중요한 비밀을 하나 알려주죠, 어떤가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "그래도 거절한다면...",
+			say = "그래도 거절하신다면...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "당연하지~",
+			say = "물론이죠~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "진작부터 지원을 준비한 거야…? 역시 그런 준비까지 했단 말이지, 하하하, 정말 재미있네！",
+			say = "진작부터 지원을 준비한 건가요…? 역시 그런 준비까지 했단 말이죠, 하하하, 정말 재미있네요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "네 방식이 몇몇 익숙한 것이 생각나게 하네, 엔터프라이즈가 당신을 신경 쓰는 이유를 알 것 같아.",
+			say = "당신의 방식은 몇몇 익숙한 것을 생각나게 해요. 엔터프라이즈가 당신을 신경 쓰는 이유를 알 것 같네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "사양 말고 마음껏 공격해 봐!",
+			say = "사양 말고 마음껏 공격해 보시죠!",
 			effects = {
 				{
 					active = true,
