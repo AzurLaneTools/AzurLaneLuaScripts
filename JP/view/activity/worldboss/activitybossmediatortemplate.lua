@@ -38,6 +38,9 @@ function slot0.register(slot0)
 	slot0:BindEvent()
 
 	slot2 = getProxy(FleetProxy)
+
+	slot0:UpdateActivityData(slot1)
+
 	slot0.contextData.activity = slot1
 	slot0.contextData.activityID = slot1 and slot1.id
 
@@ -51,8 +54,6 @@ function slot0.register(slot0)
 		slot0.contextData.ticketInitPools = slot4.normal_expedition_drop_num or {}
 		slot0.contextData.DisplayItems = pg.extraenemy_template[slot4.boss_id[1]] and slot6.reward_display or {}
 	end
-
-	slot0.cbAfterReq = {}
 
 	slot0:RequestAndUpdateView()
 
@@ -432,27 +433,7 @@ function slot0.handleNotification(slot0, slot1)
 
 			slot0:UpdateView()
 		elseif slot3.id == slot0.contextData.activityID then
-			slot0.contextData.bossHP = slot3.data1
-			slot0.contextData.mileStones = slot3.data1_list
-			slot0.contextData.stageTickets = {}
-			slot4 = slot0.contextData.stageTickets
-
-			for slot8, slot9 in pairs(slot3.data1KeyValueList) do
-				for slot13, slot14 in pairs(slot9) do
-					slot4[slot13] = (slot4[slot13] or 0) + slot14
-				end
-			end
-
-			if #slot0.cbAfterReq > 0 then
-				for slot8, slot9 in ipairs(slot0.cbAfterReq) do
-					slot9()
-				end
-
-				for slot8 = #slot0.cbAfterReq, 1, -1 do
-					table.remove(slot0.cbAfterReq, slot8)
-				end
-			end
-
+			slot0:UpdateActivityData(slot3)
 			slot0:UpdateView()
 		end
 	elseif slot2 == PlayerProxy.UPDATED then
@@ -487,11 +468,10 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.RequestAndUpdateView(slot0, slot1)
+function slot0.RequestAndUpdateView(slot0)
 	slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {
 		activity_id = slot0.contextData.activityID
 	})
-	table.insert(slot0.cbAfterReq, slot1)
 end
 
 function slot0.UpdateView(slot0)
@@ -516,6 +496,19 @@ end
 
 function slot0.UpdateRankData(slot0, slot1)
 	slot0.viewComponent:UpdateRank(slot1)
+end
+
+function slot0.UpdateActivityData(slot0, slot1)
+	slot0.contextData.bossHP = slot1.data1
+	slot0.contextData.mileStones = slot1.data1_list
+	slot0.contextData.stageTickets = {}
+	slot2 = slot0.contextData.stageTickets
+
+	for slot6, slot7 in pairs(slot1.data1KeyValueList) do
+		for slot11, slot12 in pairs(slot7) do
+			slot2[slot11] = (slot2[slot11] or 0) + slot12
+		end
+	end
 end
 
 function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)

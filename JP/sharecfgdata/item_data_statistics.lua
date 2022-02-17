@@ -154585,6 +154585,27 @@ _G.pg.item_data_statistics[59274] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59275] = {
+	display = "「作戦準備・北方連合」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59275,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -163734,6 +163755,27 @@ _G.pg.item_data_statistics[60233] = {
 	icon = "Props/henianka2022",
 	price = "",
 	id = 60233,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60234] = {
+	display = "ミニイベント『絶海前話」の情報解読に使用する。イベント終了後に削除される",
+	name = "情報解読Pt",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4263,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/information_pt",
+	price = "",
+	id = 60234,
 	display_icon = {},
 	index = {}
 }

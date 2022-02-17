@@ -19591,6 +19591,50 @@ pg.memory_template = {
 		icon = "memory_wuerlixi",
 		is_open = 0
 	},
+	[2002] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "機密ミッション",
+		condition = "「絶海前話」情報解読画面で解読Ptを20消費",
+		story = "LIMINGZHIAN1",
+		id = 2002,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2003] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "過去",
+		condition = "「絶海前話」情報解読画面で解読Ptを40消費",
+		story = "LIMINGZHIAN2",
+		id = 2003,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2004] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "失敗した調査",
+		condition = "「絶海前話」情報解読画面で解読Ptを60消費",
+		story = "LIMINGZHIAN3",
+		id = 2004,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2005] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "取引",
+		condition = "「絶海前話」情報解読をクリア",
+		story = "LIMINGZHIAN4",
+		id = 2005,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
 	[10000] = {
 		type = 1,
 		subtitle = "",
@@ -22264,6 +22308,10 @@ pg.memory_template = {
 		1999,
 		2000,
 		2001,
+		2002,
+		2003,
+		2004,
+		2005,
 		10000,
 		10001,
 		10002,

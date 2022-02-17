@@ -149,9 +149,6 @@ function slot0.update(slot0, slot1)
 				slot4 = GetComponent(slot0, "VerticalLayoutGroup")
 
 				if slot3 then
-					slot4.padding.bottom = -100
-
-					Canvas.ForceUpdateCanvases()
 					onNextTick(function ()
 						uv0.padding.bottom = 30
 

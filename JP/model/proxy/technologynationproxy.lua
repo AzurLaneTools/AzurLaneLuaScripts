@@ -23,6 +23,7 @@ function slot0.register(slot0)
 
 		uv0:flushData()
 		uv0:setTimer()
+		uv0:initSetableAttrAddition(slot0.techset_list)
 	end)
 end
 
@@ -225,10 +226,10 @@ function slot0.calculateTecBuff(slot0)
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.completeID ~= 0 then
 			for slot10, slot11 in ipairs(pg.fleet_tech_template[slot5.completeID].add) do
-				slot13 = slot11[3]
-				slot14 = slot11[4]
+				slot13 = slot11[2]
+				slot14 = slot11[3]
 
-				for slot18, slot19 in ipairs(slot11[2]) do
+				for slot18, slot19 in ipairs(slot11[1]) do
 					if not slot0.typeBuffList[slot19] then
 						slot0.typeBuffList[slot19] = {
 							{
@@ -423,6 +424,17 @@ function slot0.getShipAddition(slot0, slot1, slot2)
 	slot4 = 0
 
 	if (slot0:getTecBuff() or {})[slot1] and slot3 and slot6[slot3] then
+		slot4 = slot0:getSetableAttrAdditionValueByTypeAttr(slot1, slot3)
+	end
+
+	return slot4
+end
+
+function slot0.getShipMaxAddition(slot0, slot1, slot2)
+	slot3 = table.indexof(TechnologyConst.TECH_NATION_ATTRS, slot2)
+	slot4 = 0
+
+	if (slot0:getTecBuff() or {})[slot1] and slot3 and slot6[slot3] then
 		slot4 = slot6[slot3]
 	end
 
@@ -466,6 +478,33 @@ function slot0.printNationPointLog(slot0)
 		end
 
 		print(slot6)
+	end
+end
+
+function slot0.initSetableAttrAddition(slot0, slot1)
+	slot0.setValueTypeAttrTable = {}
+
+	for slot5, slot6 in ipairs(slot1) do
+		slot8 = slot6.attr_type
+		slot9 = slot6.set_value
+
+		if not slot0.setValueTypeAttrTable[slot6.ship_type] then
+			slot0.setValueTypeAttrTable[slot7] = {}
+		end
+
+		slot0.setValueTypeAttrTable[slot7][slot8] = slot9
+	end
+end
+
+function slot0.getSetableAttrAddition(slot0)
+	return slot0.setValueTypeAttrTable
+end
+
+function slot0.getSetableAttrAdditionValueByTypeAttr(slot0, slot1, slot2)
+	if slot0.setValueTypeAttrTable[slot1] and slot0.setValueTypeAttrTable[slot1][slot2] then
+		return slot0.setValueTypeAttrTable[slot1][slot2]
+	else
+		return slot0.typeAttrTable[slot1][slot2]
 	end
 end
 

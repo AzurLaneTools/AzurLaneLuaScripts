@@ -32,7 +32,7 @@ slot0.BLOCK_SIZE = {
 }
 slot0.MAP_ROW = 4
 slot0.MAP_COLUMN = 5
-slot0.MAP_NAME_OFFSET = 2
+slot0.MAP_NAME_OFFSET = 5
 slot0.PROGRESS2FILLAMOUMT = 0.0125
 slot0.PROGRESS2ANGLE = 4.5
 slot0.OPEN_DOOR_DELAY = 0
@@ -44,37 +44,29 @@ slot0.SCAN_GRID_TIME = 1
 slot0.SWITCH_TO_DECODE_TIME = 0.4
 slot0.GET_AWARD_ANIM_TIME = 0.7
 slot0.PASSWORDS = {
+	"4",
+	"8",
+	"-",
+	"1",
 	"9",
-	"—",
+	"0",
+	"3",
+	"-",
 	"7",
 	"1",
-	"4",
-	"2",
-	"0",
-	"-",
 	"5",
-	"8",
-	"1",
+	"4",
 	"3",
+	"-",
+	"8",
 	"9",
-	"1",
-	"-",
-	"-",
-	"0",
+	"2",
 	"6",
-	"0",
+	"4",
 	"1"
 }
 slot0.PASSWORD = {
 	{
-		4,
-		4
-	},
-	{
-		3,
-		3
-	},
-	{
 		2,
 		2
 	},
@@ -84,75 +76,89 @@ slot0.PASSWORD = {
 	},
 	{
 		3,
-		5
+		4
 	},
 	{
-		1,
+		3,
 		3
+	},
+	{
+		2,
+		1
+	},
+	{
+		4,
+		3
+	},
+	{
+		3,
+		2
+	},
+	{
+		2,
+		4
 	},
 	{
 		1,
 		1
-	},
-	{
-		3,
-		2
-	},
-	{
-		2,
-		4
 	}
 }
 slot0.MAPS_PASSWORD = {
 	{
 		{
-			4,
-			4
-		},
-		{
 			3,
-			3
+			2
 		},
 		{
 			2,
-			2
-		}
-	},
-	{
-		{
-			4,
-			2
+			4
 		},
-		{
-			3,
-			5
-		},
-		{
-			1,
-			3
-		}
-	},
-	{
 		{
 			1,
 			1
-		},
+		}
+	},
+	{
 		{
-			3,
+			2,
 			2
 		},
 		{
-			2,
+			4,
+			2
+		},
+		{
+			3,
 			4
+		}
+	},
+	{
+		{
+			3,
+			3
+		},
+		{
+			2,
+			1
+		},
+		{
+			4,
+			3
 		}
 	}
 }
 slot0.AWARD = {
 	3,
-	780,
+	980,
 	1
 }
 slot0.STORYID = "MAOZIPT"
+slot0.UNLOCK_STORYID = {
+	[20.0] = "LIMINGZHIAN1",
+	[40.0] = "LIMINGZHIAN2",
+	[60.0] = "LIMINGZHIAN3"
+}
+slot0.LAST_STORYID = "LIMINGZHIAN4"
 
 function slot0.Vect2Index(slot0, slot1)
 	return (slot0 - 1) * DecodeGameConst.MAP_COLUMN + slot1
@@ -169,7 +175,7 @@ slot0.HELP_BGS = {
 		"decode_helper_1",
 		{
 			1714,
-			796
+			771
 		},
 		{
 			1,

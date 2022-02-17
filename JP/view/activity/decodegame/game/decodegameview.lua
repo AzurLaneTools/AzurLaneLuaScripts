@@ -236,7 +236,7 @@ function slot0.UpdateMap(slot0, slot1)
 			slot8 = slot2[slot6]
 		end
 
-		slot7:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/DecodeGameUI_atlas", slot8 .. "-1")
+		slot7:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot8 .. "-1")
 	end
 
 	setActive(slot0.mosaic, not slot1.isUnlock)
@@ -349,8 +349,8 @@ end
 
 function slot0.UpdateCanUseCnt(slot0, slot1)
 	slot2 = math.floor(slot1 / 10)
-	slot0.number1.sprite = GetSpriteFromAtlas("ui/DecodeGameUI_atlas", slot2)
-	slot0.number2.sprite = GetSpriteFromAtlas("ui/DecodeGameUI_atlas", slot1 % 10)
+	slot0.number1.sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot2)
+	slot0.number2.sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot1 % 10)
 	tf(slot0.number1).localPosition = slot2 == 1 and Vector3(-625, -17) or Vector3(-660, -17)
 	tf(slot0.number2).localPosition = slot3 == 1 and Vector3(-516.8, -17) or Vector3(-546.3, -17)
 end
@@ -528,7 +528,7 @@ function slot0.UpdatePassWord(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0.code2[slot2]
-	slot3:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/DecodeGameUI_atlas", slot1 .. "-1")
+	slot3:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot1 .. "-1")
 
 	setActive(slot3, true)
 end

@@ -177,7 +177,6 @@ function slot0.init(slot0)
 	slot0._montgcardTag = slot0:findTF("MonthcardTag", slot0._mallBtn)
 	slot0._freeGiftTag = slot0:findTF("tip", slot0._mallBtn)
 	slot0._freeBuildTag = slot0:findTF("buildTag", slot0._buildBtn)
-	slot0._buildTipTag = slot0:findTF("tip", slot0._buildBtn)
 	slot0._liveBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/liveButton")
 	slot0._technologyBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/technologyButton")
 	slot0._bottomBlur = slot0._bottomPanel:Find("btm")
@@ -930,7 +929,7 @@ function slot0.didEnter(slot0)
 	TagTipHelper.FreeGiftTag({
 		slot0._freeGiftTag
 	})
-	TagTipHelper.FreeBuildTicketTip(slot0._freeBuildTag, slot0._buildTipTag)
+	TagTipHelper.FreeBuildTicketTip(slot0._freeBuildTag)
 end
 
 function slot0.checkGreeGiftTag(slot0)

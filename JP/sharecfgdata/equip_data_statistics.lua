@@ -6735,6 +6735,131 @@ _G.pg.equip_data_statistics[973] = {
 	value_1 = "35"
 }
 
+_G.pg.equip_data_statistics[980] = {
+	type = 10,
+	name = "情報レポート・調査日誌",
+	speciality = "なし",
+	tech = 0,
+	value_2 = 100,
+	ammo = 10,
+	nationality = 7,
+	descrip = "ほぼ完全に破壊された航海記録から僅かにサルベージできた調査日誌。調査中に捕捉した識別信号のことについて書かれている",
+	rarity = 4,
+	attribute_1 = "torpedo",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 980,
+	icon = "980",
+	value_1 = "10",
+	attribute_2 = "durability",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6440
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.equip_data_statistics[981] = {
+	id = 981,
+	value_2 = 105,
+	value_1 = "11",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[982] = {
+	id = 982,
+	value_2 = 110,
+	value_1 = "12",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[983] = {
+	id = 983,
+	value_2 = 115,
+	value_1 = "13",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[984] = {
+	id = 984,
+	value_2 = 120,
+	value_1 = "14",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[985] = {
+	id = 985,
+	value_2 = 125,
+	value_1 = "15",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[986] = {
+	id = 986,
+	value_2 = 135,
+	value_1 = "16",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[987] = {
+	id = 987,
+	value_2 = 150,
+	value_1 = "17",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[988] = {
+	id = 988,
+	value_2 = 160,
+	value_1 = "18",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[989] = {
+	id = 989,
+	value_2 = 170,
+	value_1 = "19",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[990] = {
+	id = 990,
+	value_2 = 180,
+	value_1 = "20",
+	base = 980,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[991] = {
+	value_2 = 190,
+	anti_siren = 100,
+	base = 980,
+	id = 991,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[1000] = {
 	type = 10,
 	name = "艦艇修理施設",

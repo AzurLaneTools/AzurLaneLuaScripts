@@ -315,6 +315,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「異界へと続くビフレスト。その先は天上の楽土か、それとも地の底かーー」</color>――「遡望せし虹彩の塔」イベントで入手可能",
 		scene = {}
 	},
+	[318] = {
+		time_limit_type = 0,
+		name = "連合軍功貢献綬",
+		gain_by = "",
+		id = 318,
+		time_second = 0,
+		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -414,6 +423,7 @@ pg.item_data_frame = {
 		315,
 		316,
 		317,
+		318,
 		401,
 		402,
 		403,
