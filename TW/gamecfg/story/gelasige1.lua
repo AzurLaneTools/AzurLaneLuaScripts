@@ -173,7 +173,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "纽斯卡尔姐姐辛苦准备的早饭都凉了…快点起床收拾了！",
+			say = "纽卡斯尔姐姐辛苦准备的早饭都凉了…快点起床收拾了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

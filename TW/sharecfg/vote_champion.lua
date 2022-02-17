@@ -1,39 +1,39 @@
 pg = pg or {}
 pg.vote_champion = {
-	{
-		ship_group = 10706,
-		task = 31017,
-		rank = 1,
-		id = 1,
-		group = 2017,
-		story = "RENQIQIYE"
-	},
-	{
+	[4] = {
 		ship_group = 20212,
-		task = 31018,
-		rank = 2,
-		id = 2,
-		group = 2017,
+		task = 80219,
+		rank = 1,
+		id = 4,
+		group = 2019,
 		story = "RENQIBEIERFASITE"
 	},
-	{
-		ship_group = 30114,
-		task = 31019,
+	[5] = {
+		ship_group = 30312,
+		task = 80220,
+		rank = 2,
+		id = 5,
+		group = 2019,
+		story = "RENQIAIDANG"
+	},
+	[6] = {
+		ship_group = 10706,
+		task = 80221,
 		rank = 3,
-		id = 3,
-		group = 2017,
-		story = "RENQIXILI"
+		id = 6,
+		group = 2019,
+		story = "RENQIQIYE"
 	},
 	get_id_list_by_group = {
-		[2017] = {
-			1,
-			2,
-			3
+		[2019] = {
+			4,
+			5,
+			6
 		}
 	},
 	all = {
-		1,
-		2,
-		3
+		4,
+		5,
+		6
 	}
 }

@@ -98,7 +98,7 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF("BackTips/ClickText", slot0.bg), i18n("click_back_tip"))
 
 	slot2 = slot0:findTF("Panel")
-	slot3 = slot0:findTF("LeftBtnList", slot2)
+	slot3 = slot0:findTF("LeftScrollViewMask/LeftScrollView/LeftBtnList", slot2)
 	slot0.tendencyBtn = slot0:findTF("TendencyBtn", slot3)
 	slot0.catchupBtns = {
 		slot0:findTF("TargetCatchupBtn1", slot3),

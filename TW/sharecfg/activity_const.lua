@@ -538,31 +538,31 @@ pg.activity_const = {
 		act_id = 0
 	},
 	VOTE_ORDER_BOOK_PHASE_1 = {
-		act_id = 40061
+		act_id = 40535
 	},
 	VOTE_ORDER_BOOK_PHASE_2 = {
-		act_id = 40062
+		act_id = 40536
 	},
 	VOTE_ORDER_BOOK_PHASE_3 = {
-		act_id = 40063
+		act_id = 40537
 	},
 	VOTE_ORDER_BOOK_PHASE_4 = {
-		act_id = 40064
+		act_id = 40538
 	},
 	VOTE_ORDER_BOOK_PHASE_5 = {
-		act_id = 40065
+		act_id = 40539
 	},
 	VOTE_ORDER_BOOK_PHASE_6 = {
-		act_id = 40066
+		act_id = 40540
 	},
 	VOTE_ORDER_BOOK_PHASE_7 = {
-		act_id = 40067
+		act_id = 40541
 	},
 	VOTE_ORDER_BOOK_PHASE_8 = {
-		act_id = 40068
+		act_id = 40542
 	},
 	VOTE_ORDER_BOOK_PHASE_9 = {
-		act_id = 1057
+		act_id = 40543
 	},
 	ANNIVERSARY_LOGIN_ID = {
 		act_id = 371
@@ -604,10 +604,10 @@ pg.activity_const = {
 		act_id = 531
 	},
 	OUTPOST_PT = {
-		act_id = 40487
+		act_id = 40555
 	},
 	OUTPOST_TASK = {
-		act_id = 40488
+		act_id = 40556
 	},
 	APRILFOOL_DISCOVERY = {
 		act_id = 549

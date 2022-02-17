@@ -592,6 +592,29 @@ return {
 			end
 		end
 	},
+	{
+		Tag = "",
+		Image = "vote_main",
+		ButtonName = "vote_2022_17",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				onButton(slot0, slot1, function ()
+					if type(uv0:getConfig("config_client")) == "table" and slot0.linkActID then
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
+							id = slot0.linkActID
+						})
+					end
+				end, SFX_PANEL)
+			end
+
+			setActive(slot1.Find(slot1, "Tip"), false)
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -612,6 +635,7 @@ return {
 		6,
 		8,
 		19,
-		23
+		23,
+		24
 	}
 }

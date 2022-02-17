@@ -1,7 +1,7 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIBEIERFASITE",
+	id = "RENQIAIDANG",
 	once = true,
 	fadeType = 2,
 	fadein = 1.5,
@@ -11,47 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"榮耀殿堂\n\n<size=45>完美的女僕</size>",
+					"榮耀殿堂\n\n<size=45>餅乾時光</size>",
 					1
 				}
 			}
 		},
 		{
-			side = 2,
-			actorName = "？？？",
 			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "……人，主人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			options = {
-				{
-					content = "（睜開雙眼）",
-					flag = 1
-				},
-				{
-					content = "再睡一會兒……",
-					flag = 2
-				}
-			}
-		},
-		{
-			bgmDelay = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			say = "港區·指揮室",
 			dir = 1,
-			optionFlag = 1,
-			bgm = "story-2",
-			actor = 202120,
-			nameColor = "#a9f548",
-			say = "午安，主人。",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -79,32 +51,12 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			optionFlag = 2,
-			bgm = "story-2",
-			actor = 202120,
 			nameColor = "#a9f548",
-			say = "到下午茶的時間了哦，主人。",
-			flashout = {
-				black = true,
-				dur = 1,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
+			dir = 1,
+			say = "指揮官，請嚐嚐我做的餅乾吧~剛出爐不久的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,10 +67,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_task",
-			say = "睜開眼，首先看到的，就是女僕長美麗的臉龐。",
+			dir = 1,
+			say = "在一個一如既往忙碌的午後，愛宕突然帶著一個手提食品保溫箱來到了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,28 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本應該早一些把您叫醒的呢，但是您的睡臉太過可愛，讓我實在不忍心……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不知貝爾法斯特的膝枕還讓您滿意嗎？",
+			say = "這可是姐姐親手製作的，僅供指揮官享用的非賣品哦~請一定要多吃一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,22 +98,18 @@ return {
 			},
 			options = {
 				{
-					content = "滿意。",
+					content = "現在還在工作中……",
 					flag = 1
-				},
-				{
-					content = "很滿意。",
-					flag = 2
 				}
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那樣就好。您在睡夢中，有好幾次喊著“貝爾法斯特”，讓我有些擔心呢。",
+			say = "姐姐可是算好時間來的，所謂午休，本來就是應該用來休息的時間欸~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,31 +120,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "……？！",
-			dialogShake = {
-				speed = 0.09,
-				x = 8.5,
-				number = 2
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，開玩笑的，您睡得十分安靜哦。",
+			say = "指揮官每天都有那麼多消耗腦力的工作，正好吃點甜食來補充些糖分~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,10 +136,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_task",
-			say = "貝爾法斯特的嘴角勾起一個美妙的弧度，或許，這樣的對話本身令她感到滿足吧。",
+			dir = 1,
+			say = "愛宕打開保溫箱，烤餅乾與奶油的混合香甜氣息在指揮室瀰漫開來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,12 +151,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那麼，主人，您知道今天是什麼日子嗎？",
+			say = "嗯~指揮官，先來嚐嚐這個姐姐精心製作的奶油餅乾好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,10 +167,59 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "貝爾法斯特忽然問出了一個奇怪的問題，難道說，今天是什麼節日自己卻忘了？！",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "來，張嘴，啊————",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303120,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "欸~姐姐又不是牙醫，不會伸鑽頭進去啦~快把嘴巴張開，啊~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "張嘴含住餅乾，香甜的味道填滿口腔……除此之外，愛宕溫熱柔軟的手指也在嘴唇上留下了來過的痕跡。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303120,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "好吃嗎？有沒有感受到幸福的味道？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,26 +230,22 @@ return {
 			},
 			options = {
 				{
-					content = "貝爾法斯特的生日？",
+					content = "口感和味道都很不錯……",
 					flag = 1
 				},
 				{
-					content = "殿下的啥紀念日？",
+					content = "好幸福……",
 					flag = 2
-				},
-				{
-					content = "女僕隊的成立紀念日？",
-					flag = 3
 				}
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不用那麼緊張，主人，今天什麼日子也不是哦。",
+			say = "呵呵，看來很滿意呢~那就多吃一些哦！姐姐做了好多種呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,26 +256,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "貝爾法斯特露出了微笑",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天呢，是過去的我們無法想像，現在的我們卻習以為常的，和平的日常中一個天氣晴朗的日子哦。",
+			say = "接下來品嚐一下這個加長型的巧克力手指餅乾怎麼樣~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,26 +272,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "以不知道是開玩笑還是一本正經的語調，貝爾法斯特訴說著。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近的陛下變得比以往還要有活力呢。呵呵，雖然對您來說，或許是頭疼的事，不過，那也是那位大人為了未來而努力的證明哦？",
+			say = "首先把餅乾坯做成棍狀，之後放入烤箱烘烤成型，然後沾上融化的巧克力和愛的魔法就完成了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女僕隊的各位也都變得習慣了工作和在這裡的生活。",
+			say = "聽起來就很美味對吧？來，張嘴~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,12 +304,27 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "蘸著巧克力的手指餅乾進入口中，輕輕一抿便融化開來……巧克力的味道非常濃郁。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "愛丁堡姐姐雖然性格還是老樣子，不過已經逐漸明白了自己可以做些什麼。",
+			say = "指揮官不用那麼溫柔，用牙齒碰一下不會咬到舌頭的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,12 +335,27 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "咬斷餅乾咀嚼起來，巧克力的甘甜與烤餅乾的醇厚口味產生了美妙的疊加感。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "薩福克和肯特也都在各自的興趣上找到了朋友。",
+			say = "怎麼樣？巧克力口味的餅乾最後出爐，香味應該是最濃郁的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "謝菲最近在訓練天狼星這件事上很用心呢，她們兩個說不定意外地合得來。",
+			say = "接下來再嚐嚐牛奶口味的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,12 +382,27 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "品嚐著愛宕親手製作並送到嘴邊的餅乾，逐漸將工作暫時拋在了腦後。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "庫拉索和杓鷸兩位前輩的話，似乎開設了禮儀課，正在面向全港區招收學員。",
+			say = "吃完甜食後，指揮官的表情都變得放鬆起來了呢，甜食的作用真的有這麼大嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,12 +413,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "紐卡斯爾前輩呢，我就不知道了，那一位的話，現在說不定正在某棟樓的天台上讀書吧。",
+			say = "讓姐姐也嚐嚐看~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,12 +429,27 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "愛宕突然咬住了餅乾的另一頭，臉頰貼近了過來——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…我、嗎？",
+			say = "很美味呢，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,40 +460,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "貝爾法斯特歪著頭，陷入了思考",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "過了一會，又恢復到了她一如既往的表情——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，主人。差不多該做好下午茶的準備了",
+			say = "啊，從下巴一直到耳根都紅透了，感覺在冒熱氣哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,26 +476,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "貝爾法斯特起身整理了一下，開始做起了下午茶的準備",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的話…無論是過去還是現在，都沒有改變，一直是侍奉主人的女僕",
+			say = "呵呵~被姐姐一直盯著看就這麼害羞嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,26 +492,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "貝爾法斯特以優雅的動作擺好桌椅，撐起陽傘。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那麼，請吧，主人。",
+			say = "那麼，姐姐我就不客氣了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,40 +508,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "貝爾法斯特說著，像是變戲法一樣端出一盤精緻的蛋糕，一壺紅茶，以及一套茶具。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "夏末秋初，令人感到些許涼意的午後，被微風撫起的銀色長髮令人不禁感到心頭一陣悸動。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，您所看到的，就是我永遠也看不膩的景色。",
+			say = "啊嗚~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,12 +524,57 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "與愛宕四目相對，愛宕不斷咬下前端的餅乾，距離變得越來越近——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "咔嚓——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "餅乾斷了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "每當我空閒下來，就會這樣看一看。",
+			say = "欸，嘴唇稍微用力了一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,12 +585,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看看港區的建築，看看路過的其他艦船們。",
+			say = "但是姐姐發現了，指揮官好像也樂在其中哦~那麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,119 +601,13 @@ return {
 			}
 		},
 		{
-			actor = 202120,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "宛若在泰晤士河上度過的時光一樣，緩慢而和平。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "順著她的視線望去，在碧海的水平線那頭，似乎隱約能看到同伴們的身姿",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "有時候我甚至會升起一股不現實感，這些真的是我所擁有的東西嗎？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "但每當這麼想的時候，我就會想到您，我親愛的主人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "貝爾法斯特姿態優雅地靠了過來，微微行了個禮，拿起了茶杯。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "以完美的女僕姿態，往杯子裡倒入了紅茶。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "這是感謝，對於將這樣的生活賜予我的您的感謝，以及……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "祈願與您在一起的如夢似幻的時間，能夠永遠持續下去——",
+			say = "還剩下草莓味的和香蕉味的，接下來品嚐哪個好呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

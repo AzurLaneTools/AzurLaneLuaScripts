@@ -120,7 +120,7 @@ function slot0.execute(slot0, slot1)
 		if slot11:getFlag("inElite") then
 			table.insert(slot19, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = "ask for remove ship",
+					content = i18n("shipchange_alert_indiff"),
 					onYes = function ()
 						uv0:sendNotification(GAME.REMOVE_ELITE_TARGET_SHIP, {
 							shipId = uv1.id,

@@ -189,6 +189,42 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「以冷徹之器，重鑄赤紅的鐵血意志。」</color>\n「負象限作戰」活動獲取",
 		scene = {}
 	},
+	[313] = {
+		time_limit_type = 0,
+		name = "冰華之證",
+		gain_by = "破曉冰華",
+		id = 313,
+		time_second = 0,
+		desc = "<color=#ffffff>「讓我們一同探尋隱藏在“密室”之中的秘密吧！」</color>\n「破曉冰華」活動獲取",
+		scene = {}
+	},
+	[401] = {
+		time_limit_type = 0,
+		name = "殿堂紀念：企業",
+		gain_by = "",
+		id = 401,
+		time_second = 0,
+		desc = "<color=#ffffff>為企業特別制作的角色專屬頭像框</color>\n「Azurlane人氣投票2020」活動獲得",
+		scene = {}
+	},
+	[402] = {
+		time_limit_type = 0,
+		name = "殿堂紀念：貝爾法斯特",
+		gain_by = "",
+		id = 402,
+		time_second = 0,
+		desc = "<color=#ffffff>為貝爾法斯特特別制作的角色專屬頭像框</color>\n「Azurlane人氣投票2020」活動獲得",
+		scene = {}
+	},
+	[414] = {
+		time_limit_type = 0,
+		name = "殿堂紀念：愛宕",
+		gain_by = "",
+		id = 414,
+		time_second = 0,
+		desc = "<color=#ffffff>為愛宕特別制作的角色專屬頭像框</color>\n「Azurlane人氣投票2020」活動獲得",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "美味的紀念",
@@ -229,6 +265,10 @@ pg.item_data_frame = {
 		309,
 		311,
 		312,
+		313,
+		401,
+		402,
+		414,
 		501,
 		1001
 	}

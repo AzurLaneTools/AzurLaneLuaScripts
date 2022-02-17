@@ -8228,6 +8228,28 @@ pg.memory_template = {
 		icon = "memory_tianhouyuyi",
 		is_open = 0
 	},
+	[891] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "碧藍之海",
+		condition = "參與2020人氣投票活動",
+		story = "RENQIQIYE",
+		id = 891,
+		icon = "memory_renqiqiye",
+		is_open = 0
+	},
+	[892] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "完美的女僕",
+		condition = "參與2020人氣投票活動",
+		story = "RENQIBEIERFASITE",
+		id = 892,
+		icon = "memory_renqibeierfasite",
+		is_open = 0
+	},
 	[900] = {
 		type = 1,
 		subtitle = "",
@@ -14029,8 +14051,8 @@ pg.memory_template = {
 		type = 1,
 		subtitle = "",
 		mask = "bg/bg_memory",
-		title = "人气爱宕",
-		condition = "参与2021人气投票活动",
+		title = "餅乾時光",
+		condition = "參與2020人氣投票活動",
 		story = "RENQIAIDANG",
 		id = 1877,
 		icon = "memory_renqiaidang",
@@ -15522,6 +15544,8 @@ pg.memory_template = {
 		888,
 		889,
 		890,
+		891,
+		892,
 		900,
 		901,
 		902,

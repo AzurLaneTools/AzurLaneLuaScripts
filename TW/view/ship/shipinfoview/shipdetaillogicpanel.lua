@@ -254,8 +254,14 @@ function slot0.updateEvalues(slot0)
 			setActive(slot6, false)
 		else
 			slot7 = slot0.additionValues[slot0.evalueIndex][slot5] or 0
+			slot8 = slot0.shipVO:getTechNationMaxAddition(slot5)
+			slot9 = slot0.evalueIndex == uv0.EQUIPMENT_ADDITION and COLOR_GREEN or COLOR_YELLOW
 
-			setText(slot6, slot7 == 0 and "" or setColorStr(" +" .. slot7, slot0.evalueIndex == uv0.EQUIPMENT_ADDITION and COLOR_GREEN or COLOR_YELLOW))
+			if slot0.evalueIndex == uv0.TECHNOLOGY_ADDITION and slot7 ~= slot8 then
+				slot9 = "#B4BFD5FF"
+			end
+
+			setText(slot6, slot7 == 0 and "" or setColorStr(" +" .. slot7, slot9))
 			setActive(slot6, slot7 ~= 0)
 		end
 	end

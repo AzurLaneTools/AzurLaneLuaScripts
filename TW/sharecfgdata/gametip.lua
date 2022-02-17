@@ -11708,24 +11708,22 @@ _G.pg.gametip.help_vote = {
 	tip = {
 		{
 			info = [[
-<color=#FFDD00>2020人氣投票活動規則說明</color>
+<color=#FFDD00>2022人氣投票活動規則說明</color>
 
 活動說明：
-· 2020年2月13日起，至2020年4月9日，將舉行2020
-人氣投票活動
+· 2022年2月17日起，至2022年4月28日，將舉行2022人氣投票活動
 · 本次人氣投票活動，將顯示伺服器合計投票情況
-· 本次投票活動將在<color=#92fc63>遊戲內投票</color> 
-· <color=#92fc63>2020年2月13日前</color>加入遊戲的所有角色，包括方案艦共
-<color=#92fc63>190</color>名角色將參與投票
+· 2020年投票活動進入決勝階段<color=#92fc63>前三名</color>的角色，本次將加入<color=#92fc63>榮耀殿堂</color>，不參與人氣投票
+· 除3名殿堂角色外，其餘<color=#92fc63>2022年2月17日前</color>加入遊戲的角色將參與投票（方案艦角色參與投票；聯動、μ兵裝、META角色不參與投票）
+，
 
 獲取投票方式：
-指揮官等級達到25級的玩家，可以通過以下方式獲得<color=#92fc63>投
-票卷</color>
+指揮官等級達到25級的玩家，可以通過以下方式獲得<color=#92fc63>投票卷</color>
 · 活動期間，通過完成<color=#92fc63>投票活動任務</color>，獲得<color=#92fc63>投票券</color>
-· 活動期間，通過出擊獲得<color=#92fc63>應援資格</color>，通過應援資格獲
-取<color=#92fc63>應援棒</color>
-· 累積<color=#92fc63>應援棒</color>數量，可在活動頁面領取<color=#92fc63>投票券</color>
-· <color=#92fc63>應援資格</color>獲得後，在<color=#92fc63>有效時間</color>內未完成將會消失
+· 活動期間，通過出擊獲得<color=#92fc63>應援資格</color>，通過應援資格獲取<color=#92fc63>應援棒</color>。累積<color=#92fc63>應援棒</color>數量，可在活動頁面領取<color=#92fc63>投票券</color>
+
+<color=#92fc63>應援資格</color>獲得後，在<color=#92fc63>有效時間</color>內未完成將會消失
+
 ※在<color=#92fc63>主線普通關卡</color>及<color=#92fc63>限時活動關卡</color>中可獲得<color=#92fc63>應援資格</color>
 各關卡獲得的<color=#92fc63>應援資格</color>產出的<color=#92fc63>應援棒</color>數量不同
 　第3章……120
@@ -11736,63 +11734,59 @@ _G.pg.gametip.help_vote = {
 　第8章……350
 　第9章……450
 　第10章……550
-限時活動關卡：
-　A圖……180
-　B圖……270
-　C圖……450
-　D圖……700
+　第11章……700
+　第12章……850
+　第13章……1000
 
-· 每日前兩次<color=#92fc63>應援資格</color>在完成關卡時必定獲得，<color=#92fc63>應援資格</color>
-過期不會計入次數
-· 主線困難關卡不可獲取<color=#92fc63>應援資格</color>
-· 每輪投票結束時，剩餘的<color=#92fc63>應援棒</color>、<color=#92fc63>投票卷</color>、<color=#92fc63>應援棒累積
-進度</color>將<color=#92fc63>重置清空</color>
+每日前兩次<color=#92fc63>應援資格</color>在完成關卡時必定獲得，<color=#92fc63>應援資格</color>過期不會計入次數，作戰檔案及主線困難關卡不可獲取<color=#92fc63>應援資格</color>
+· 每輪投票結束時，剩餘的<color=#92fc63>應援棒</color>、<color=#92fc63>投票卷</color>、<color=#92fc63>應援棒累積進度</color>將<color=#92fc63>重置清空</color>
 
 賽程安排：
-本次投票分為以下8個階段
-<color=#92fc63>預選賽</color>：2020年2月13日維護後-2020年2月17日23:59
-<color=#92fc63>小組賽A組</color>：2020年2月20日00:00-2月24日23:59
-<color=#92fc63>小組賽B組</color>：2020年2月27日00:00-3月2日23:59
-<color=#92fc63>小組賽C組</color>：2020年3月5日00:00-3月9日23:59
-<color=#92fc63>小組賽D組</color>：2020年3月12日00:00-3月16日23:59
-<color=#92fc63>小組賽E組</color>：2020年3月19日00:00-3月23日23:59
-<color=#92fc63>決勝復活賽</color>：2020年3月26日00:00-3月30日23:59
-<color=#92fc63>決賽</color>：2020年4月2日14:00-4月9日23:59
+本次投票分為以下9個階段
+<color=#92fc63>預選賽</color>：2022年2月17日維護後-2022年2月28日23：59
+<color=#92fc63>預選復活賽</color>：2022年3月3日00：00-3月07日23：59
+<color=#92fc63>小組賽A組</color>：2022年3月10日00：00-3月14日23：59
+<color=#92fc63>小組賽B組</color>：2022年3月17日00：00-3月21日23：59
+<color=#92fc63>小組賽C組</color>：2022年3月24日00：00-3月28日23：59
+<color=#92fc 63>小組賽D組</color>：2022年3月31日00：00-4月4日23：59
+<color=#92fc63>小組賽E組</color>：2022年4月07日00：00-4月11日23：59
+<color=#92fc63>決勝復活賽</color>：2022年4月14日00：00-4月17日23：59
+<color=#92fc63>決賽</color>：2022年4月22日00：00-4月28日23：59
 
 每輪投票結束的次日中午12點，將展示該輪投票的統計
 結果
 
 各階段規則：
 <color=#92fc63>預選賽</color>
-<color=#92fc63>預選賽</color>該輪投票結果僅展示角色得票排名，不展示得票
-數量
-<color=#92fc63>預選賽</color>共190名角色參加
-<color=#92fc63>預選賽</color>獲得票數排名前150名的角色，將根據排名，自動
-分成5組，每組30名角色，進入<color=#92fc63>小組賽</color>（排名個位數為1或
-0為A組，2或9為B組，3或8為C組，4或7為D組，5或6為
-E組）
+<color=#92fc63>預選賽</color>該輪投票結果僅展示角色得票排名，不展示得票數量
+<color=#92fc63>預選賽</color>由除殿堂角色、聯動角色、μ兵裝角色、META角色外，其他角色參加
+<color=#92fc63>預選賽</color>獲得票數排名前200名的角色，將根據排名，自動
+分成5組，每組40名角色，進入<color=#92fc63>小組賽</color>
+（排名個位數為1或0為A組，2或9為B組，3或8為C組，4或7為D組，5或6為E組）
+
+<color=#92fc63>預選復活賽</color>
+<color=#92fc63>預選復活賽</color>由<color=#92fc63>預選賽</color>未進入<color=#92fc63>小組賽</color>的角色參加，最終得票數排名前15的角色，進入<color=#92fc63>決勝復活賽</color>其餘角色將被淘汰
 
 <color=#92fc63>小組賽</color>
-<color=#92fc63>小組賽</color>由<color=#92fc63>預選賽</color>前150名的角色自動分組組成，共5個小
-組，每組30名角色
-每個小組內獲得前3名的角色，將直接進入<color=#92fc63>決賽</color>
-第4至第12名的角色，將進入<color=#92fc63>決勝復活賽</color>
+<color=#92fc63>小組賽</color>由<color=#92fc63>預選賽</color>前200名的角色自動分組組成，共5個小
+組，每組40名角色
+每個小組內獲得前4名的角色，將直接進入<color=#92fc63>決賽</color>，第5至第12名的角色，將進入<color=#92fc63>決勝復活賽</color>
 其餘角色將被淘汰
 
 <color=#92fc63>決勝復活賽</color>
-<color=#92fc63>決勝復活賽</color>由<color=#92fc63>小組賽</color>每個小組第4名至第12名的角色參加，
-共45名角色
-<color=#92fc63>決勝復活賽</color>中的前九名角色，將進入<color=#92fc63>決賽</color>
-其餘角色將被淘汰
+<color=#92fc63>決勝復活賽</color>由<color=#92fc63>預選復活賽</color>晉級，及<color=#92fc63>小組賽</color>每個小組第5名
+至第12名的角色參加
+<color=#92fc63>決勝復活賽</color>中的前12名角色，將進入<color=#92fc63>決賽</color>，其餘角色將被淘汰
 
-決賽：
-<color=#92fc63>決賽</color>由<color=#92fc63>小組賽</color>各小組的前3名，<color=#92fc63>決勝復活賽</color>的前9名，共24
-名角色參加
+<color=#92fc63>決賽</color>
+<color=#92fc63>決賽</color>由<color=#92fc63>小組賽</color>各小組的前4名，<color=#92fc63>決勝復活賽</color>的前12名，共32名角色參加
 
-同票規則：<color=#92fc63>預選賽</color>中若出現同票情況，按照達到票數的先
-後處理
-<color=#92fc63>小組賽</color>、<color=#92fc63>決賽</color>中若出現同票情況，按照<color=#92fc63>預選賽</color>的排名先後
-處理]]
+同票規則：
+<color=#92fc63>預選賽</color>中若出現同票情況，按照達到票數的
+先後處理
+<color=#92fc63>預選復活賽</color>、<color=#92fc63>小組賽</color>、<color=#92fc63>決賽</color>中若出現同票情況，按照<color=#92fc63>預
+選賽</color>的排名先後處理
+]]
 		}
 	}
 }
@@ -11818,7 +11812,7 @@ _G.pg.gametip.vote_book_is_over = {
 }
 
 _G.pg.gametip.vote_fame_tip = {
-	tip = "※觀賞完殿堂角色特別小故事，可解鎖角色專屬頭像框：企業$1,貝爾法斯特$2,椿$3 "
+	tip = "※觀賞完殿堂角色特別小故事，可解鎖角色專屬頭像框：$1,$2,$3 "
 }
 
 _G.pg.gametip.word_maintain = {
@@ -11826,7 +11820,7 @@ _G.pg.gametip.word_maintain = {
 }
 
 _G.pg.gametip.name_zhanliejahe = {
-	tip = "{namecode:92}(战列)"
+	tip = "{namecode:92}(戰列)"
 }
 
 _G.pg.gametip.change_skin_secretary_ship_success = {
@@ -18157,4 +18151,28 @@ _G.pg.gametip.fushun_game3_tip = {
 4.完成遊戲或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。]]
 		}
 	}
+}
+
+_G.pg.gametip.attrset_reset = {
+	tip = "全部重置"
+}
+
+_G.pg.gametip.attrset_save = {
+	tip = "儲存修改"
+}
+
+_G.pg.gametip.attrset_ask_save = {
+	tip = "是否儲存當前頁面修改?"
+}
+
+_G.pg.gametip.attrset_save_success = {
+	tip = "儲存成功"
+}
+
+_G.pg.gametip.attrset_disable = {
+	tip = "當前有正在進行中的戰鬥，無法進行調整 "
+}
+
+_G.pg.gametip.attrset_input_ill = {
+	tip = "輸入不合法 "
 }

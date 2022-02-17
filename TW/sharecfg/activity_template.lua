@@ -13137,6 +13137,1367 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40526] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 20,
+		is_show = 0,
+		id = 40526,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40535
+		}
+	},
+	[40527] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 0,
+		id = 40527,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40536
+		}
+	},
+	[40528] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 22,
+		is_show = 0,
+		id = 40528,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40537
+		}
+	},
+	[40529] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 23,
+		is_show = 0,
+		id = 40529,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40538
+		}
+	},
+	[40530] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 24,
+		is_show = 0,
+		id = 40530,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40539
+		}
+	},
+	[40531] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 0,
+		id = 40531,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40540
+		}
+	},
+	[40532] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 26,
+		is_show = 0,
+		id = 40532,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40541
+		}
+	},
+	[40533] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 27,
+		is_show = 0,
+		id = 40533,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40542
+		}
+	},
+	[40534] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 28,
+		is_show = 0,
+		id = 40534,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkActID = 40543
+		}
+	},
+	[40535] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40535,
+		is_show = 18,
+		id = 40535,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40536] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40536,
+		is_show = 18,
+		id = 40536,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40537] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40537,
+		is_show = 18,
+		id = 40537,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40538] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40538,
+		is_show = 18,
+		id = 40538,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40539] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40539,
+		is_show = 18,
+		id = 40539,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40540] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40540,
+		is_show = 18,
+		id = 40540,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40541] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40541,
+		is_show = 18,
+		id = 40541,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40542] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40542,
+		is_show = 18,
+		id = 40542,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40543] = {
+		mark = 20220217,
+		config_client = "",
+		title_res_tag = "vote",
+		type = 74,
+		login_pop = 0,
+		config_id = 40543,
+		is_show = 18,
+		id = 40543,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VoteOrderBookPage",
+			ui_name = "VotePage"
+		}
+	},
+	[40544] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40544,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31033
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40545] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40545,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31034
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40546] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40546,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31035
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40547] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40547,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31036
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40548] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40548,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31037
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40549] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40549,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31038
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40550] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40550,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31039
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40551] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40551,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31040
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40552] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40552,
+		config_data = {
+			31030,
+			31031,
+			31032,
+			31041
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40553] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40553,
+		config_data = {
+			80219,
+			80220,
+			80221
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40554] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		config_client = "",
+		id = 40554,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40555] = {
+		mark = 20220217,
+		id = 40555,
+		title_res_tag = "maoxiV2_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 40555,
+		is_show = 15,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV2framePage",
+			ui_name = "MaoxiV2framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40556] = {
+		mark = 20220217,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 40556,
+		config_data = {
+			16340,
+			16341,
+			16342,
+			16343,
+			16344,
+			16345,
+			16346,
+			16347,
+			16348,
+			16349
+		}
+	},
+	[40557] = {
+		mark = 20220217,
+		id = 40557,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 14,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LuyijiushiTecCatchupPage",
+			ui_name = "LuyijiushiTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42006
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		time = "stop",
@@ -14122,7 +15483,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 11,
+		is_show = 10,
 		id = 45029,
 		config_data = {
 			{
@@ -14316,7 +15677,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 24,
+		is_show = 12,
 		id = 45033,
 		config_data = {
 			{
@@ -14419,7 +15780,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 19,
+		is_show = 11,
 		config_data = {
 			1,
 			2,
@@ -14902,6 +16263,38 @@ pg.activity_template = {
 		40523,
 		40524,
 		40525,
+		40526,
+		40527,
+		40528,
+		40529,
+		40530,
+		40531,
+		40532,
+		40533,
+		40534,
+		40535,
+		40536,
+		40537,
+		40538,
+		40539,
+		40540,
+		40541,
+		40542,
+		40543,
+		40544,
+		40545,
+		40546,
+		40547,
+		40548,
+		40549,
+		40550,
+		40551,
+		40552,
+		40553,
+		40554,
+		40555,
+		40556,
+		40557,
 		45000,
 		45001,
 		45002,

@@ -748,7 +748,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不愧是英格拉罕！对亏你之前在突发联络时用的暗语，我才能这么快理解事态的严重性并且做出正确的应对！",
+			say = "不愧是英格拉罕！多亏你之前在突发联络时用的暗语，我才能这么快理解事态的严重性并且做出正确的应对！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1140,7 +1140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "附带：《英格拉罕的检讨书》，艾伦·萨姆、库珀纳监制。",
+			say = "附带：《英格拉罕的检讨书》，艾伦·萨姆、库珀监制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

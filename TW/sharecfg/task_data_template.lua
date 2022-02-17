@@ -87825,7 +87825,7 @@ pg.task_data_template = {
 		target_id_2 = "",
 		count_inherit = 0,
 		sub_type = 20,
-		desc = "艦隊出征，獲得15次勝利。",
+		desc = "艦隊出擊，獲得15次勝利。",
 		story_icon = "",
 		is_head = 1,
 		award_choice = "",
@@ -88189,6 +88189,501 @@ pg.task_data_template = {
 			31013,
 			31014,
 			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31027] = {
+		name = "投票单轮单次-预选复活",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31027,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31030] = {
+		name = "投票日常建造",
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造艦船1次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31030,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31031] = {
+		name = "投票日常出击",
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "艦隊出擊，獲得15次勝利。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31031,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31032] = {
+		name = "投票日常委托",
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "執行軍事委託4次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31032,
+		target_num = 4,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31033] = {
+		name = "投票单轮单次-预选",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31033,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31034] = {
+		name = "投票单轮单次-预选复活",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31034,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31035] = {
+		name = "投票单轮单次-小组1",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31035,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31036] = {
+		name = "投票单轮单次-小组2",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31036,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31037] = {
+		name = "投票单轮单次-小组3",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31037,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31038] = {
+		name = "投票单轮单次-小组4",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31038,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31039] = {
+		name = "投票单轮单次-小组5",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31039,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31040] = {
+		name = "投票单轮单次-复活",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31040,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31041] = {
+		name = "投票单轮单次-决赛",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "完成投票日常任務10次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31041,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -107429,6 +107924,111 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[80219] = {
+		name = "2020台服殿堂奖励第一名",
+		guild_coin_award = 0,
+		award = 300237,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "不该看到",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 80219,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				402,
+				1
+			}
+		}
+	},
+	[80220] = {
+		name = "2020台服殿堂奖励第二名",
+		guild_coin_award = 0,
+		award = 300238,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "不该看到",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 80220,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				414,
+				1
+			}
+		}
+	},
+	[80221] = {
+		name = "2020台服殿堂奖励第三名",
+		guild_coin_award = 0,
+		award = 300239,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "不该看到",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 80221,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				401,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -109694,6 +110294,19 @@ pg.task_data_template = {
 		31024,
 		31025,
 		31026,
+		31027,
+		31030,
+		31031,
+		31032,
+		31033,
+		31034,
+		31035,
+		31036,
+		31037,
+		31038,
+		31039,
+		31040,
+		31041,
 		35034,
 		35035,
 		35036,
@@ -110212,6 +110825,9 @@ pg.task_data_template = {
 		80215,
 		80216,
 		80217,
-		80218
+		80218,
+		80219,
+		80220,
+		80221
 	}
 }

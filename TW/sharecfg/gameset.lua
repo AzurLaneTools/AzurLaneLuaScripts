@@ -2476,6 +2476,10 @@ pg.gameset = {
 			16503
 		}
 	},
+	vote_enlarge = {
+		description = "",
+		key_value = 15000
+	},
 	general_blueprint_list = {
 		key_value = 0,
 		description = {

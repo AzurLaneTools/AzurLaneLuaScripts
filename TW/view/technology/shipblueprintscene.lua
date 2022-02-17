@@ -480,11 +480,11 @@ function slot0.createShipItem(slot0, slot1)
 				end
 			end)
 		else
-			slot3 = slot0.shipBluePrintVO
-			slot3 = slot3:getShipVO()
+			slot5 = slot0.shipBluePrintVO
+			slot5 = slot5:getShipVO()
 
-			LoadSpriteAsync("shipdesignicon/" .. slot3:getPainting(), function (slot0)
-				if uv0.shipBluePrintVO.id > 0 and string.find(slot0.name, uv1) then
+			LoadSpriteAsync("shipdesignicon/" .. slot5:getPainting(), function (slot0)
+				if uv0.shipBluePrintVO.id > 0 and string.find(slot0.name, uv0.shipBluePrintVO:getShipVO():getPainting()) then
 					uv0.iconShip.sprite = slot0
 				end
 			end)
@@ -502,12 +502,12 @@ function slot0.createShipItem(slot0, slot1)
 			setActive(slot0.maskDev, slot1:isDeving())
 			setActive(slot0.tip, slot1:isFinished())
 
-			slot4 = slot1:canFateSimulation()
+			slot3 = slot1:canFateSimulation()
 
-			setActive(slot0.lvTF, not slot1:isLock() and not slot1:isDeving() and not slot4)
-			setActive(slot0.fateTF, not slot1:isLock() and not slot1:isDeving() and slot4)
+			setActive(slot0.lvTF, not slot1:isLock() and not slot1:isDeving() and not slot3)
+			setActive(slot0.fateTF, not slot1:isLock() and not slot1:isDeving() and slot3)
 
-			if slot4 then
+			if slot3 then
 				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "icon_phase_" .. slot0.shipBluePrintVO.fateLevel, slot0.fateImageTF, true)
 			end
 		end

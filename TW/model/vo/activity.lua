@@ -171,6 +171,13 @@ function slot0.readyToAchieve(slot0)
 				slot2 = slot6:readyToAchieve()
 			end
 
+			if not slot2 and slot0:getConfig("config_client") and slot0:getConfig("config_client").decodeGameId and getProxy(MiniGameProxy):GetHubByGameId(slot0:getConfig("config_client").decodeGameId) then
+				slot8 = slot0:getConfig("config_data")
+				slot2 = slot7.ultimate <= 0 and _.all(slot8[#slot8], function (slot0)
+					return getProxy(TaskProxy):getFinishTaskById(slot0) ~= nil
+				end)
+			end
+
 			return slot2
 		end
 

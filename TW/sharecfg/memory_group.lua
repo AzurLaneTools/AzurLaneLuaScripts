@@ -985,6 +985,18 @@ pg.memory_group = {
 			890
 		}
 	},
+	[166] = {
+		icon = "title_chara_rongyaodiantang",
+		subtype = 0,
+		type = 3,
+		id = 166,
+		title = "榮耀殿堂",
+		memories = {
+			891,
+			892,
+			1877
+		}
+	},
 	[167] = {
 		icon = "title_event",
 		subtype = 1,
@@ -2680,6 +2692,7 @@ pg.memory_group = {
 		163,
 		164,
 		165,
+		166,
 		167,
 		169,
 		170,
