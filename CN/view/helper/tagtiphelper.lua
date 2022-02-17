@@ -102,24 +102,22 @@ function slot0.FreeGiftTag(slot0)
 end
 
 function slot0.FreeBuildTicketTip(slot0, slot1)
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE) and not slot2:isEnd() and slot2.data1 > 0 and slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 then
-		slot3 = PlayerPrefs.GetString("Free_Build_Ticket_" .. slot2.id, "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d")
+	if getProxy(ActivityProxy):IsShowFreeBuildMark(false) then
+		slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE)
 
-		setActive(slot1, slot3)
-		setActive(slot0, not slot3)
-		LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_VITEM, slot2:getConfig("config_client")[1]), "", slot0:Find("Image"))
+		setActive(slot0, true)
+		LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_VITEM, slot3:getConfig("config_client")[1]), "", slot0:Find("Image"))
 
-		slot4 = tostring(slot2.data1)
+		slot4 = tostring(slot3.data1)
 
-		if slot2.data1 < 10 then
+		if slot3.data1 < 10 then
 			slot4 = slot4 .. " "
 		end
 
 		setText(slot0:Find("Text"), i18n("build_ticket_expire_warning", slot4))
 
-		uv0.BuildMark = not slot3
+		uv0.BuildMark = true
 	else
-		setActive(slot1, false)
 		setActive(slot0, false)
 	end
 end

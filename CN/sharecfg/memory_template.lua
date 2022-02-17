@@ -19910,6 +19910,50 @@ pg.memory_template = {
 		icon = "memory_wuerlixi",
 		is_open = 0
 	},
+	[2002] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "机密行动",
+		condition = "完成「黎明之暗」20次情报破译",
+		story = "LIMINGZHIAN1",
+		id = 2002,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2003] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "往昔",
+		condition = "完成「黎明之暗」40次情报破译",
+		story = "LIMINGZHIAN2",
+		id = 2003,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2004] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "杂波事件",
+		condition = "完成「黎明之暗」60次情报破译",
+		story = "LIMINGZHIAN3",
+		id = 2004,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2005] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "诚意",
+		condition = "完成「黎明之暗」全部情报破译",
+		story = "LIMINGZHIAN4",
+		id = 2005,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -22348,6 +22392,10 @@ pg.memory_template = {
 		1999,
 		2000,
 		2001,
+		2002,
+		2003,
+		2004,
+		2005,
 		10011,
 		10012,
 		10013,

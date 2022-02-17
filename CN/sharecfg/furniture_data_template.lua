@@ -5669,6 +5669,150 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[219] = {
+		belong = 1,
+		describe = "来露一手捏橡皮的手工技巧！50W关注，感谢！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "50W·纪念的手工桌",
+		tag = 6,
+		icon = "niantuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 5,
+		deblocking = 1,
+		picture = "",
+		canputon = 0,
+		id = 219,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"niantucnB",
+				"normal"
+			},
+			{
+				"niantucnT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						0,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					10000,
+					10001
+				},
+				"buli",
+				2,
+				2
+			},
+			{
+				"sit",
+				{
+					30311
+				},
+				"gaoxiong",
+				2,
+				2
+			}
+		},
+		animator = {
+			{
+				"niantuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[220] = {
+		spine_extra = "",
+		describe = "200W！为指挥官们献上最用力的感激和祝福！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "bili200wicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "200W·纪念的力士喵",
+		comfortable = 5,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 220,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bili200w",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -105167,6 +105311,8 @@ pg.furniture_data_template = {
 		216,
 		217,
 		218,
+		219,
+		220,
 		100001,
 		100002,
 		100003,

@@ -3350,41 +3350,15 @@ pg.activity_template = {
 	},
 	[4221] = {
 		mark = 20220127,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 52,
 		login_pop = 0,
 		config_id = 6,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4221,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					1,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			story = {
 				{
@@ -3451,42 +3425,16 @@ pg.activity_template = {
 	},
 	[4223] = {
 		mark = 20220127,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 74,
 		login_pop = 0,
 		config_id = 4223,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4223,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					1,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4224] = {
 		mark = 20220127,
@@ -3853,12 +3801,13 @@ pg.activity_template = {
 	},
 	[4240] = {
 		mark = 20220210,
-		id = 4240,
 		title_res_tag = "maoxizongye",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 20,
+		id = 4240,
 		config_data = {
 			1610001,
 			1610002,
@@ -3866,33 +3815,6 @@ pg.activity_template = {
 			1610021,
 			1610022,
 			1610023
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SNMainPage",
@@ -3904,12 +3826,13 @@ pg.activity_template = {
 	},
 	[4241] = {
 		mark = 20220210,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4241,
 		config_data = {
 			1610004,
@@ -3921,75 +3844,22 @@ pg.activity_template = {
 			1610041,
 			1610051
 		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[4242] = {
 		mark = 20220210,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4242,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4244] = {
 		mark = 20220210,
@@ -4044,7 +3914,7 @@ pg.activity_template = {
 	},
 	[4245] = {
 		mark = 20220210,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -4052,34 +3922,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31984,100}]",
 		config_client = "",
-		id = 4245,
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4245
 	},
 	[4246] = {
 		mark = 20220210,
@@ -4199,12 +4043,13 @@ pg.activity_template = {
 	},
 	[4248] = {
 		mark = 20220210,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4248,
 		config_data = {
@@ -4226,33 +4071,6 @@ pg.activity_template = {
 			17395,
 			17396,
 			17397
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4249] = {
@@ -4406,42 +4224,16 @@ pg.activity_template = {
 	},
 	[4252] = {
 		mark = 20220210,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4252,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4253] = {
 		mark = 20220210,
@@ -4574,42 +4366,16 @@ pg.activity_template = {
 	},
 	[4257] = {
 		mark = 20220210,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4257,
 		config_data = {
 			4
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			59274
@@ -4617,13 +4383,28 @@ pg.activity_template = {
 	},
 	[4258] = {
 		mark = 20220210,
-		config_client = "",
 		title_res_tag = "sn_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 22,
 		is_show = 16,
+		config_client = "",
 		id = 4258,
+		config_data = {},
+		page_info = {
+			class_name = "SNLoginPage",
+			ui_name = "SNLoginPage"
+		}
+	},
+	[4259] = {
+		mark = 20220217,
+		id = 4259,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 13,
+		is_show = 20,
 		config_data = {},
 		time = {
 			timer,
@@ -4631,7 +4412,7 @@ pg.activity_template = {
 				{
 					2022,
 					2,
-					10
+					17
 				},
 				{
 					0,
@@ -4642,8 +4423,8 @@ pg.activity_template = {
 			{
 				{
 					2022,
-					2,
-					17
+					3,
+					16
 				},
 				{
 					23,
@@ -4653,8 +4434,230 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "SNLoginPage",
-			ui_name = "SNLoginPage"
+			class_name = "SeattleTecCatchupPage",
+			ui_name = "SeattleTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42011
+		}
+	},
+	[4260] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 0,
+		config_client = "",
+		id = 4260,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4261] = {
+		mark = 20220217,
+		id = 4261,
+		title_res_tag = "maoxiV3_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 4261,
+		is_show = 22,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV3FramePage",
+			ui_name = "MaoxiV3FramePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4263] = {
+		mark = 20220217,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 31,
+		is_show = 0,
+		config_client = "",
+		id = 4263,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4264] = {
+		mark = 20220217,
+		id = 4264,
+		title_res_tag = "decode",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 21,
+		config_data = {
+			{
+				17416,
+				17417
+			},
+			{
+				17418,
+				17419
+			},
+			{
+				17420,
+				17421
+			},
+			{
+				17422,
+				17423
+			},
+			{
+				17424,
+				17425
+			},
+			{
+				17426,
+				17427
+			},
+			{
+				17428,
+				17429
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DecodeGamePage",
+			ui_name = "DecodeGamePage"
+		},
+		config_client = {
+			decodeGameId = 39
 		}
 	},
 	[7001] = {
@@ -6752,6 +6755,11 @@ pg.activity_template = {
 		4255,
 		4257,
 		4258,
+		4259,
+		4260,
+		4261,
+		4263,
+		4264,
 		7001,
 		7002,
 		7003,

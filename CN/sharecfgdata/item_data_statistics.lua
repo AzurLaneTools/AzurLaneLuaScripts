@@ -155704,6 +155704,27 @@ _G.pg.item_data_statistics[59274] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59275] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59275,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
@@ -165008,6 +165029,27 @@ _G.pg.item_data_statistics[60233] = {
 	icon = "Props/henianka2022",
 	price = "",
 	id = 60233,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60234] = {
+	display = "用于『情报解密』，活动结束后将会消失",
+	name = "情报点",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4263,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/information_pt",
+	price = "",
+	id = 60234,
 	display_icon = {},
 	index = {}
 }

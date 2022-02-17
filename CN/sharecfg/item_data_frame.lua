@@ -315,6 +315,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「向上为神国，向下为冥府。穿越逆转之虹，向着未知进发吧」</color>\n「逆转彩虹之塔」活动获取",
 		scene = {}
 	},
+	[318] = {
+		time_limit_type = 0,
+		name = "深寒之星",
+		gain_by = "",
+		id = 318,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -414,6 +423,7 @@ pg.item_data_frame = {
 		315,
 		316,
 		317,
+		318,
 		401,
 		402,
 		404,

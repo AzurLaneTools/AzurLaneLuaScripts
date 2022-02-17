@@ -236,7 +236,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不可以认输，布里斯托尔！这片海域岛礁复杂，首先找一个地方的躲起来吧！",
+			say = "不可以认输，布里斯托尔！这片海域岛礁复杂，首先找一个地方躲起来吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "丢下了一串如同咒语一般意义不明的话语后，布里斯托尔转头跑入了黑暗的设施身处。",
+			say = "丢下了一串如同咒语一般意义不明的话语后，布里斯托尔转头跑入了黑暗的设施深处。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

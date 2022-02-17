@@ -55,7 +55,7 @@ function slot0.BindConditions(slot0)
 		return getProxy(MailProxy):GetAttachmentCount()
 	end)
 	slot0:BindCondition(uv0.TYPES.BUILD, function ()
-		return getProxy(BuildShipProxy):getFinishCount() > 0
+		return getProxy(BuildShipProxy):getFinishCount() > 0 or getProxy(ActivityProxy):IsShowFreeBuildMark(true)
 	end)
 	slot0:BindCondition(uv0.TYPES.GUILD, function ()
 		return getProxy(GuildProxy):ShouldShowTip()

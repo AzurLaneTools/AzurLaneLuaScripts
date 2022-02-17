@@ -5642,7 +5642,10 @@ _G.pg.world_event_data[558] = {
 	slg_bufflist = {},
 	slg_buffnum = {},
 	map_buff = {},
-	deviation = {}
+	deviation = {
+		-40,
+		-30
+	}
 }
 
 _G.pg.world_event_data[559] = {
