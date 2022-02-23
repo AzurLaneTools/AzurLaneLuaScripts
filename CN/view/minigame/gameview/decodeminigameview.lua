@@ -31,9 +31,35 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.GetData(slot0, slot1)
+	slot2 = PlayerPrefs.GetInt("DecodeGameMapId", 1)
+
+	function slot4()
+		for slot3 = 1, 60 do
+			if not table.contains(uv0, slot3) then
+				table.insert(uv0, slot3)
+
+				break
+			end
+		end
+	end
+
+	function slot5()
+		table.remove(uv0, 1)
+	end
+
+	if #slot1:GetRuntimeData("elements") ~= slot0.usedtime then
+		for slot10 = 1, slot0.usedtime - #slot3 do
+			slot4()
+		end
+
+		for slot11 = 1, #slot3 - slot0.usedtime do
+			slot5()
+		end
+	end
+
 	return {
-		mapId = PlayerPrefs.GetInt("DecodeGameMapId", 1),
-		unlocks = slot1:GetRuntimeData("elements"),
+		mapId = slot2,
+		unlocks = slot3,
 		canUseCnt = slot0.count,
 		passwords = DecodeGameConst.MAPS_PASSWORD,
 		isFinished = slot0.ultimate > 0
