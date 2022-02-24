@@ -49,6 +49,9 @@ function slot0.init(slot0)
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.paintingView = ShopPaintingView.New(slot0:findTF("paint"))
+
+	slot0.contextData.paintingView:setSecretaryPos(slot0:findTF("secretaryPos"))
+
 	slot0.contextData.bgView = ShopBgView.New(slot0:findTF("bg"))
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60038, slot0.pageContainer)
 end

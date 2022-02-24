@@ -94,6 +94,14 @@ function slot2.OpponentAffected(slot0)
 	return slot0._opponentAffected
 end
 
+function slot2.SetIndiscriminate(slot0, slot1)
+	slot0._indicriminate = slot1
+end
+
+function slot2.GetIndiscriminate(slot0)
+	return slot0._indicriminate
+end
+
 function slot2.GetActiveFlag(slot0)
 	return slot0._flag
 end

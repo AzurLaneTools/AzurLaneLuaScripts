@@ -627,7 +627,7 @@ function slot0.didEnter(slot0)
 	slot0:emit(LevelMediator2.ON_EVENT_LIST_UPDATE)
 
 	if slot0.contextData.editEliteChapter then
-		slot0:displayFleetEdit(slot0.contextData.editEliteChapter)
+		slot0:displayFleetEdit(getProxy(ChapterProxy):getChapterById(slot0.contextData.editEliteChapter))
 
 		slot0.contextData.editEliteChapter = nil
 	elseif slot0.contextData.selectedChapterVO then
@@ -1065,6 +1065,7 @@ function slot0.updateActivityBtns(slot0)
 
 	if getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot8:isEnd() and not slot1 and not slot0.contextData.map:isSkirmish() and not slot0.contextData.map:isEscort() then
 		setImageSprite(slot0.activityBtn, slot9 and LoadSprite("ui/mainui_atlas", "event_map_" .. slot8.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
+		setActive(slot0.activityBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 	end
 
 	setActive(slot0.activityBtn, slot10)
@@ -1085,6 +1086,8 @@ function slot0.updateActivityBtns(slot0)
 			else
 				setActive(slot0.actExtraBtnAnim, false)
 			end
+
+			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
 		setActive(slot0.actEliteBtn, checkExist(slot0.contextData.map:getBindMap(), {

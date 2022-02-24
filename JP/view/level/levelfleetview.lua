@@ -1157,24 +1157,13 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 
 		if slot7[slot17] and slot0.shipVOs[slot7[slot17]] or nil then
 			for slot25, slot26 in ipairs(slot3) do
-				if type(slot26) == "number" then
-					if slot26 == 0 or slot21:getShipType() == slot26 then
-						slot19 = slot21
-						slot20 = slot26
-
-						table.remove(slot3, slot25)
-
-						slot10 = slot10 or slot21:getShipType() == slot26
-
-						break
-					end
-				elseif type(slot26) == "string" and table.contains(ShipType.BundleList[slot26], slot21:getShipType()) then
+				if ShipType.ContainInLimitBundle(slot26, slot21:getShipType()) then
 					slot19 = slot21
 					slot20 = slot26
 
 					table.remove(slot3, slot25)
 
-					slot10 = true
+					slot10 = slot10 or slot26 ~= 0
 
 					break
 				end
@@ -1200,16 +1189,14 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 			slot9 = slot9 + 1
 		end
 
-		setActive(slot0:findTF("ship_type", slot22), true)
+		setActive(slot0:findTF("ship_type", slot22), slot20 and slot20 ~= 0)
 
-		if type(slot20) == "number" then
-			if slot20 ~= 0 then
+		if slot20 and slot20 ~= 0 then
+			if type(slot20) == "number" then
 				setImageSprite(slot0:findTF("ship_type", slot22), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot20)), true)
-			else
-				setActive(slot0:findTF("ship_type", slot22), false)
+			elseif type(slot20) == "string" then
+				setImageSprite(slot0:findTF("ship_type", slot22), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot20)), true)
 			end
-		elseif type(slot20) == "string" then
-			setImageSprite(slot0:findTF("ship_type", slot22), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot20)), true)
 		end
 
 		table.sort(_.map(slot5, function (slot0)
@@ -1223,7 +1210,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 			slot25 = slot24.onLongPressed
 
 			slot25:AddListener(function ()
-				uv0:onCancelHard()
+				uv0:onCancelHard(true)
 				uv0:emit(LevelMediator2.ON_FLEET_SHIPINFO, {
 					shipId = uv1.id,
 					shipVOs = uv2,

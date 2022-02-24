@@ -2,6 +2,9 @@ slot0 = class("ShopPaintingView")
 
 function slot0.Ctor(slot0, slot1)
 	slot0._painting = slot1
+	slot0._paintingInitPos = slot0._painting.anchoredPosition
+	slot0._paintingOffsetMin = Vector2(slot0._painting.offsetMin.x, slot0._painting.offsetMin.y)
+	slot0._paintingOffsetMax = Vector2(slot0._painting.offsetMax.x, slot0._painting.offsetMax.y)
 	slot0.touch = slot0._painting:Find("paint_touch")
 	slot0.chat = slot0._painting:Find("chat")
 	slot0.chatText = slot0.chat:Find("Text")
@@ -9,16 +12,32 @@ function slot0.Ctor(slot0, slot1)
 	slot0.chatting = false
 end
 
-function slot0.Init(slot0, slot1)
+function slot0.Init(slot0, slot1, slot2, slot3)
 	slot0:UnLoad()
 
 	slot0.name = slot1
 
-	slot0:Load()
+	if slot2 and slot0.secretaryTf then
+		slot0._painting.anchoredPosition = slot0.secretaryTf.anchoredPosition
+		slot0._painting.offsetMin = slot0.secretaryTf.offsetMin
+		slot0._painting.offsetMax = slot0.secretaryTf.offsetMax
+	else
+		slot0._painting.anchoredPosition = slot0._paintingInitPos
+		slot0._painting.offsetMin = slot0._paintingOffsetMin
+		slot0._painting.offsetMax = slot0._paintingOffsetMax
+	end
+
+	slot0:Load(slot3)
 end
 
-function slot0.Load(slot0)
-	setPaintingPrefabAsync(slot0._painting, slot0.name, "chuanwu")
+function slot0.Load(slot0, slot1)
+	setPaintingPrefabAsync(slot0._painting, slot0.name, slot1 or "chuanwu")
+end
+
+function slot0.setSecretaryPos(slot0, slot1)
+	if slot1 then
+		slot0.secretaryTf = slot1
+	end
 end
 
 function slot0.Chat(slot0, slot1, slot2, slot3)

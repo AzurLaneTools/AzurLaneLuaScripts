@@ -189,6 +189,20 @@ function slot0.BundleType2CNLabel(slot0)
 	return uv0.bundleLabel[slot0]
 end
 
+function slot0.ContainInLimitBundle(slot0, slot1)
+	if type(slot0) == "string" then
+		for slot5, slot6 in ipairs(uv0.BundleList[slot0]) do
+			if slot6 == slot1 then
+				return true
+			end
+		end
+	elseif type(slot0) == "number" then
+		return slot0 == 0 or slot1 == slot0
+	end
+
+	return false
+end
+
 slot0.CloakShipTypeList = {
 	slot0.QingHang,
 	slot0.ZhengHang,

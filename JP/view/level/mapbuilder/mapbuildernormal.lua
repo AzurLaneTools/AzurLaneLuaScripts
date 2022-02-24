@@ -363,6 +363,7 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 
 			setText(slot19:Find("label"), i18n("levelScene_chapter_count_tip"))
 			setText(slot19:Find("Text"), setColorStr(slot21 - slot2:getTodayDefeatCount() .. "/" .. slot21, slot21 <= slot2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
+			setActive(slot19:Find("TipRect"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
 		slot21 = slot2:GetDailyBonusQuota()
@@ -424,9 +425,14 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 		if slot0.active then
 			uv0:InvokeParent("switchToChapter", slot0)
 		else
-			slot3 = uv2.localPosition
+			if uv0.sceneParent.contextData.map:getConfig("type") == Map.ACT_EXTRA and slot0:getPlayType() == ChapterConst.TypeRange then
+				SettingsProxy.SetActivityMapSPTip()
+				uv0:UpdateChapterTF(uv1)
+			end
 
-			uv0:InvokeParent("displayChapterPanel", slot0, Vector3(slot3.x - 10, slot3.y + 150))
+			slot4 = uv2.localPosition
+
+			uv0:InvokeParent("displayChapterPanel", slot0, Vector3(slot4.x - 10, slot4.y + 150))
 		end
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end

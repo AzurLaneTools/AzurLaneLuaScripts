@@ -318,10 +318,10 @@ pg.item_data_frame = {
 	[318] = {
 		time_limit_type = 0,
 		name = "連合軍功貢献綬",
-		gain_by = "",
+		gain_by = "鳴動せし星霜の淵",
 		id = 318,
 		time_second = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>ソビエツキー・ソユーズが贈る、軍功が卓越した戦士への褒章品。</color>――「鳴動せし星霜の淵」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

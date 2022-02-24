@@ -188,26 +188,14 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 
 		if slot7[slot17] and slot0.parent.shipVOs[slot7[slot17]] or nil then
 			for slot25, slot26 in ipairs(slot3) do
-				if type(slot26) == "number" then
-					if slot26 == 0 or slot21:getShipType() == slot26 then
-						slot19 = slot21
-						slot20 = slot26
-
-						table.remove(slot3, slot25)
-						table.insert(slot12, slot25)
-
-						slot10 = slot10 or slot21:getShipType() == slot26
-
-						break
-					end
-				elseif type(slot26) == "string" and table.contains(ShipType.BundleList[slot26], slot21:getShipType()) then
+				if ShipType.ContainInLimitBundle(slot26, slot21:getShipType()) then
 					slot19 = slot21
 					slot20 = slot26
 
 					table.remove(slot3, slot25)
 					table.insert(slot12, slot25)
 
-					slot10 = true
+					slot10 = slot10 or slot26 ~= 0
 
 					break
 				end

@@ -3659,7 +3659,7 @@ pg.world_task_data = {
 		server_type = 3,
 		name = "ノーマル：アビータ",
 		continuity = 0,
-		type = 5,
+		type = 7,
 		log_text = "",
 		intimacy = 0,
 		sharing = 1,
@@ -3712,7 +3712,7 @@ pg.world_task_data = {
 		server_type = 3,
 		name = "ハード：アビータ",
 		continuity = 0,
-		type = 5,
+		type = 7,
 		log_text = "",
 		intimacy = 0,
 		sharing = 1,
@@ -3754,6 +3754,754 @@ pg.world_task_data = {
 			3
 		},
 		show = {},
+		reset_task = {}
+	},
+	[10000] = {
+		server_type = 4,
+		name = "情報任務141-1",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10000,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003701,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			22
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			22
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10001
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10001] = {
+		server_type = 4,
+		name = "情報任務141-2",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10001,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003702,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			24
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			24
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10002
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10002] = {
+		server_type = 4,
+		name = "情報任務141-3",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10002,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003703,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			14
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			14
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10003
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10003] = {
+		server_type = 4,
+		name = "情報任務141-4",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10003,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003704,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			33
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			33
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10004
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10004] = {
+		server_type = 4,
+		name = "情報任務141-5",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10004,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003705,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			31
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			31
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10005
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10005] = {
+		server_type = 4,
+		name = "情報任務141-6",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10005,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003706,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			23
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			23
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10006
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10006] = {
+		server_type = 4,
+		name = "情報任務142-1",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10006,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003707,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			135
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			135
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10007
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10007] = {
+		server_type = 4,
+		name = "情報任務142-2",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10007,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003708,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			134
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			134
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10008
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10008] = {
+		server_type = 4,
+		name = "情報任務142-3",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10008,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003709,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			131
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			131
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10009
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10009] = {
+		server_type = 4,
+		name = "情報任務142-4",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10009,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "目標エリアに進入しセイレーン艦隊をすべて撃破して、情報を開放しましょう",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "該当エリアをクリアし、情報を回収",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003710,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			141
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			141
+		},
+		following_random = {
+			20022
+		},
+		task_event = {},
+		complete_parameter = {
+			2501002
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				2,
+				30915,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				5
+			}
+		},
 		reset_task = {}
 	},
 	[210000] = {
@@ -6973,6 +7721,16 @@ pg.world_task_data = {
 		4102,
 		4200,
 		4201,
+		10000,
+		10001,
+		10002,
+		10003,
+		10004,
+		10005,
+		10006,
+		10007,
+		10008,
+		10009,
 		210000,
 		210100,
 		210200,

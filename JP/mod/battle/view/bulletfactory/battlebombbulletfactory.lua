@@ -42,6 +42,7 @@ function slot1.OutRangeFunc(slot0)
 		slot3:SpawnColumnArea(slot0:GetEffectField(), slot3.GetOppoSideCode(slot0:GetIFF()), slot0:GetExplodePostion(), slot2.range, slot2.time, slot7):SetDiveFilter(slot4)
 	end
 
+	slot6:SetIndiscriminate(slot1.extra_param.indiscriminate)
 	slot3:RemoveBulletUnit(slot0:GetUniqueID())
 end
 

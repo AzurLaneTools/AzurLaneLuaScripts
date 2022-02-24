@@ -5096,6 +5096,100 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[221] = {
+		spine_extra = "",
+		describe = "前の大戦での対セイレーン勝利の記念アイテム、北方連合の揺るがない意志の力を感じさせる――「鳴動せし星霜の淵」に参加した指揮官に贈る",
+		gain_by = "鳴動せし星霜の淵",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "maozi3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "調査要塞訪問記念",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 221,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[223] = {
+		spine_extra = "",
+		describe = "「じゃんじゃん買っていいにゃ！」「買い過ぎに注意、でございます…フフフ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "gouwuchejpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "お買い物だにゃ！",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 223,
+		can_rotate = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouwuchejp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -7411,6 +7505,79 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100034] = {
+		spine_extra = "",
+		describe = "主砲よーい！いざ、参られようぞー",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "秘曲・御艦江湖",
+		themeId = 0,
+		icon = "feixingpaoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100034,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingpao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "「これがあなたの望む光景を叶えるもの、あなたが一時的な快楽を得られるシチュエーション」",
@@ -7658,6 +7825,88 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[200004] = {
+		spine_extra = "",
+		describe = "「まだ私には帰れる所があるわ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "脱出用ヘリ",
+		themeId = 0,
+		icon = "furniture_aerhangeersike_2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200004,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_aerhangeersike_2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"tuozhuai2",
+				{
+					705061
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -97193,8 +97442,8 @@ pg.furniture_data_template = {
 			{
 				"sit",
 				{
-					-31.4,
-					76.2
+					-35.5,
+					63.1
 				},
 				{
 					1,
@@ -97713,6 +97962,8 @@ pg.furniture_data_template = {
 		216,
 		217,
 		218,
+		221,
+		223,
 		100002,
 		100003,
 		100004,
@@ -97745,9 +97996,11 @@ pg.furniture_data_template = {
 		100031,
 		100032,
 		100033,
+		100034,
 		200001,
 		200002,
 		200003,
+		200004,
 		1001,
 		1002,
 		1101,

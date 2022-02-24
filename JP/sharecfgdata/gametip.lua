@@ -9766,7 +9766,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "「タシュケント」、「ソビエツカヤ・ロシア」、「アヴローラ」 などの出現率UP！"
+	tip = "期間限定建造を累計200回行うと「クロンシュタット」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -14842,7 +14842,7 @@ _G.pg.gametip.guild_task_selecte_tip = {
 }
 
 _G.pg.gametip.guild_task_accept = {
-	tip = "【$1】の【$2】を入手しようとしています。【$3】を繰り返してこなすと、これ以上貢献Ptを入手できませんが、大艦隊資金を増やすことが可能です。報酬を入手しますか？"
+	tip = "【$1】の【$2】を入手しようとしています。【$3】を繰り返してこなすと、これ以上<color=#FF5C5CFF>貢献Ptを入手できません</color>が、<color=#92FC63FF>大艦隊資金を増やすことが可能</color>です。報酬を入手しますか？"
 }
 
 _G.pg.gametip.guild_commander_and_sub_op = {
@@ -17362,6 +17362,10 @@ _G.pg.gametip.world_automode_setting_all_4_2 = {
 	tip = "OFF"
 }
 
+_G.pg.gametip.world_collection_task_tip_1 = {
+	tip = "開放中の情報任務が存在しているため、購入できません"
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "探索海域"
 }
@@ -17392,6 +17396,10 @@ _G.pg.gametip.area_renwu = {
 
 _G.pg.gametip.area_zhuxian = {
 	tip = "ﾒｲﾝ海域"
+}
+
+_G.pg.gametip.area_dangan = {
+	tip = "情報開放"
 }
 
 _G.pg.gametip.charge_trade_no_error = {
@@ -19850,4 +19858,16 @@ _G.pg.gametip.attrset_disable = {
 
 _G.pg.gametip.attrset_input_ill = {
 	tip = "不正の入力です"
+}
+
+_G.pg.gametip.blackfriday_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.キャンペーン期間中、復刻きせかえの購入数に応じて、キャンペーン報酬を入手出来ます
+2.限定家具「お買い物だにゃ！」は家具ショップでもダイヤで直接購入できます。すでに「お買い物だにゃ！」を所持している状態で再度キャンペーンから入手した場合、自動でダイヤに変換されます。
+3.既に復刻衣装126着を全部所持、もしくは購入可能分がキャンペーン報酬を入手できる購入数に満たない場合、キャンペーン報酬の入手条件に関係なく、その報酬を獲得することが可能です。]]
+		}
+	}
 }

@@ -31,7 +31,12 @@ end
 function slot6.SetBound(slot0, slot1, slot2)
 	slot0._top = slot1
 	slot0._bottom = slot2
-	slot0._speedZ = (math.random() - 0.5) * 0.5
+
+	if slot0._tmpData.spawn_brownian then
+		slot0._speedZ = (math.random() - 0.5) * 0.5
+	else
+		slot0._speedZ = 0
+	end
 
 	slot0:SetTargetZ()
 end
@@ -179,12 +184,14 @@ function slot6.UpdateSpeed(slot0)
 
 	slot0._speed.z = slot2 * slot0._speedZ
 
-	if slot2 < slot0._targetZ - slot3.z then
-		slot0._speed.z = slot2 * 0.5
-	elseif slot4 < -slot2 then
-		slot0._speed.z = -slot2 * 0.5
-	else
-		slot0:SetTargetZ()
+	if slot0._tmpData.spawn_brownian == 1 then
+		if slot2 < slot0._targetZ - slot3.z then
+			slot0._speed.z = slot2 * 0.5
+		elseif slot4 < -slot2 then
+			slot0._speed.z = -slot2 * 0.5
+		else
+			slot0:SetTargetZ()
+		end
 	end
 end
 

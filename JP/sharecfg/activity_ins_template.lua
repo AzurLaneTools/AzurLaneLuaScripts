@@ -7474,6 +7474,66 @@ pg.activity_ins_template = {
 			2537
 		}
 	},
+	{
+		ship_group = 71801,
+		name = "Кронштадт",
+		sculpture = "kalangshitade",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 284,
+		id = 284,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70110,
+		name = "Киев",
+		sculpture = "jifu",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 285,
+		id = 285,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70701,
+		name = "Волга",
+		sculpture = "fuerjia",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 286,
+		id = 286,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70109,
+		name = "Сообразительный",
+		sculpture = "lingmin",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 287,
+		id = 287,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70506,
+		name = "Архангельск",
+		sculpture = "aerhangeersike",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 288,
+		id = 288,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -7757,6 +7817,11 @@ pg.activity_ins_template = {
 		280,
 		281,
 		282,
-		283
+		283,
+		284,
+		285,
+		286,
+		287,
+		288
 	}
 }

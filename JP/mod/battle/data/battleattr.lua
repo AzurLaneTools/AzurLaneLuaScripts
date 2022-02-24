@@ -230,6 +230,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.attackRating = slot1.hit
 	slot3.dodgeRate = slot1.dodge
 	slot3.velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot1.speed)
+	slot3.baseVelocity = slot3.velocity
 	slot3.luck = slot1.luck
 	slot3.repressReduce = slot1.repressReduce or 1
 	slot3.oxyMax = slot1.oxy_max
@@ -303,6 +304,7 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	slot4.attackRating = slot2.hit + slot2.hit_growth * slot5
 	slot4.dodgeRate = slot2.dodge + slot2.dodge_growth * slot5
 	slot4.velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot2.speed + slot2.speed_growth * slot5)
+	slot4.baseVelocity = slot4.velocity
 	slot4.luck = slot2.luck + slot2.luck_growth * slot5
 	slot4.bulletSpeedRatio = 0
 	slot4.id = "enemy_" .. tostring(slot2.id)
@@ -380,6 +382,7 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 	end
 
 	slot2.armorType = 0
+	slot2.velocity = uv0.GetCurrent(slot1, "baseVelocity")
 	slot2.labelTag = setmetatable({}, {
 		__index = slot1._attr.labelTag
 	})
