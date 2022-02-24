@@ -1037,7 +1037,7 @@ function slot0.updateShipRect(slot0, slot1)
 		end
 
 		function slot4(slot0, slot1)
-			if slot0:GetPrice() == slot1:GetPrice() then
+			if ((slot0.type == Goods.TYPE_ACTIVITY or slot0.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot0:GetPrice()) == ((slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot1:GetPrice()) then
 				return slot0.id < slot1.id
 			else
 				return slot3 < slot2
