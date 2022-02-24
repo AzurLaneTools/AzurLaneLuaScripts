@@ -228,7 +228,7 @@ pg.ship_data_create_material = {
 			"",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"",
-			"Common：30%",
+			"Common：28.8%",
 			"",
 			"<color=#ff5e39>Kronshtadt</color>：1.2%(<color=#92fc63>up!</color>)",
 			"",

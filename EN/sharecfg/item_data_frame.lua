@@ -303,7 +303,7 @@ pg.item_data_frame = {
 		gain_by = "碧海光粼",
 		id = 316,
 		time_second = 0,
-		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\"</color>\nObtained from the \"Upon the Shimmering Blue\" event. <color=#ffffff>",
+		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\"</color>\nObtained from the \"Upon the Shimmering Blue\" event.",
 		scene = {}
 	},
 	[317] = {
