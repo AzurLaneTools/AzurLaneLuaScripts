@@ -55,21 +55,21 @@ function slot0.didEnter(slot0)
 			setTextColor(slot2:Find("item/count_contain/count"), Color.New(unpack(ActivityGoodsCard.DefaultColor)))
 			setTextColor(slot2:Find("item/count_contain/label"), Color.New(unpack(ActivityGoodsCard.DefaultColor)))
 			onButton(uv0, slot2, function ()
+				if uv0:getConfig("genre") == ShopArgs.WorldCollection and nowWorld():GetTaskProxy():hasDoingCollectionTask() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("world_collection_task_tip_1"))
+
+					return
+				end
+
 				if not uv0:canPurchase() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
 					return
 				end
 
-				function slot0(slot0, slot1)
+				(uv1 > 1 and uv2.multiWindow or uv2.singleWindow):ExecuteAction("Open", uv0, function (slot0, slot1)
 					uv0:emit(WorldShopMediator.BUY_ITEM, slot0.id, slot1)
-				end
-
-				if uv2 > 1 then
-					uv1.multiWindow:ExecuteAction("Open", uv0, slot0)
-				else
-					uv1.singleWindow:ExecuteAction("Open", uv0, slot0)
-				end
+				end)
 			end, SFX_PANEL)
 		end
 	end)
@@ -131,25 +131,35 @@ end
 
 function slot0.updateGoods(slot0, slot1, slot2, slot3)
 	slot4 = pg.TimeMgr.GetInstance()
-	slot5 = nowWorld().expiredTime
-	slot6 = {}
+	slot5 = nowWorld()
+	slot6 = slot5.expiredTime
+	slot7 = slot5:GetTaskProxy()
+	slot8 = {}
 
-	for slot10, slot11 in pairs(slot3) do
-		if slot10 == 100000 and not nowWorld():IsReseted() then
-			-- Nothing
-		elseif slot4:inTime(pg.shop_template[slot10].time) and slot4:inTime(pg.shop_template[slot10].time, slot5 - 1) then
-			table.insert(slot6, {
-				id = slot10,
-				count = slot11
-			})
+	for slot12, slot13 in pairs(slot3) do
+		if slot4:inTime(pg.shop_template[slot12].time) then
+			if not slot4:inTime(pg.shop_template[slot12].time, slot6 - 1) then
+				-- Nothing
+			elseif slot12 == 100000 and not nowWorld():IsReseted() then
+				-- Nothing
+			elseif pg.shop_template[slot12].genre ~= ShopArgs.WorldCollection or slot13 ~= 0 or not slot7:getRecycleTask(pg.shop_template[slot12].effect_args[2]) then
+				table.insert(slot8, {
+					id = slot12,
+					count = slot13
+				})
+			end
 		end
 	end
 
-	table.sort(slot6, function (slot0, slot1)
-		return pg.shop_template[slot0.id].order < pg.shop_template[slot1.id].order
+	table.sort(slot8, function (slot0, slot1)
+		return CompareFuncs(slot0, slot1, {
+			function (slot0)
+				return pg.shop_template[slot0.id].order
+			end
+		})
 	end)
 
-	slot0.goodsList = slot6
+	slot0.goodsList = slot8
 
 	slot0.goodsItemList:align(#slot0.goodsList)
 end

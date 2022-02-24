@@ -1211,5 +1211,21 @@ pg.voice_actor_CN = {
 	{
 		code = 303,
 		actor_name = "绫濑有"
+	},
+	{
+		code = 304,
+		actor_name = "花井美春"
+	},
+	{
+		code = 305,
+		actor_name = "茜屋日海夏"
+	},
+	{
+		code = 306,
+		actor_name = "久保田未梦"
+	},
+	{
+		code = 307,
+		actor_name = "芝崎典子"
 	}
 }

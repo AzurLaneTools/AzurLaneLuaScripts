@@ -5,11 +5,20 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.GetPaintingName(slot0)
-	if pg.activity_template[slot0.shop.activityId] and slot1.config_client and slot1.config_client.painting then
-		return slot1.config_client.painting
-	else
-		return "aijiang_pt"
+	slot3 = getProxy(ActivityProxy):checkHxActivity(slot0.shop.activityId)
+
+	if pg.activity_template[slot0.shop.activityId] and slot1.config_client then
+		if slot1.config_client.use_secretary or slot3 then
+			slot6 = getProxy(SettingsProxy):getCurrentSecretaryIndex()
+			slot0.tempFlagShip = getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().characters[1])
+
+			return slot0.tempFlagShip:getPainting(), true, "build"
+		elseif slot1.config_client.painting then
+			return slot1.config_client.painting
+		end
 	end
+
+	return "aijiang_pt"
 end
 
 function slot0.GetBg(slot0, slot1)

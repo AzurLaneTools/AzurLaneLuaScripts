@@ -1367,6 +1367,17 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["汉"] = {
+				["格"] = {
+					["尔"] = {
+						["斯"] = {
+							["克"] = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		},
 		["达"] = {
@@ -4673,6 +4684,9 @@ function temp()
 			["夫"] = {
 				this = true
 			}
+		},
+		["辅"] = {
+			this = true
 		}
 	}
 end
@@ -5475,6 +5489,54 @@ function temp()
 								this = true
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["祥"] = {
+		["利"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["灵"] = {
+		["敏"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["伏"] = {
+		["尔"] = {
+			["加"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["喀"] = {
+		["琅"] = {
+			["施"] = {
+				["塔"] = {
+					["得"] = {
+						this = true
 					}
 				}
 			}

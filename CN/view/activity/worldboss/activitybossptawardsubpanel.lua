@@ -5,6 +5,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
+	slot1 = slot0._tf
+	slot0.scrollPanel = slot1:Find("window/panel")
 	slot2 = slot0._tf
 	slot3 = slot0._tf
 	slot0.UIlist = UIItemList.New(slot2:Find("window/panel/list"), slot3:Find("window/panel/list/item"))
@@ -99,6 +101,7 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 		setActive(slot2:Find("award/mask/Image"), slot1 + 1 <= uv3)
 	end)
 	slot0.UIlist:align(#slot1)
+	scrollTo(slot0.scrollPanel, 0, 1 - slot3 * 166 / (#slot2 * 166 + 20 - 570))
 end
 
 return slot0

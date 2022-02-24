@@ -7568,6 +7568,120 @@ pg.world_chapter_random = {
 			0
 		}
 	},
+	[20020] = {
+		entrance_ui = 1,
+		name = "档案海域",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 20020,
+		reset_auto_complete = 0,
+		hazard_level = 4,
+		entrance_mapicon = "daxuanwo",
+		template_id = {
+			{
+				200000,
+				100,
+				0,
+				9999
+			},
+			{
+				200010,
+				100,
+				0,
+				9999
+			},
+			{
+				200020,
+				100,
+				0,
+				9999
+			},
+			{
+				200030,
+				100,
+				0,
+				9999
+			},
+			{
+				200040,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[20021] = {
+		entrance_ui = 1,
+		name = "档案海域",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 20021,
+		reset_auto_complete = 0,
+		hazard_level = 5,
+		entrance_mapicon = "daxuanwo",
+		template_id = {
+			{
+				200100,
+				100,
+				0,
+				9999
+			},
+			{
+				200110,
+				100,
+				0,
+				9999
+			},
+			{
+				200120,
+				100,
+				0,
+				9999
+			},
+			{
+				200130,
+				100,
+				0,
+				9999
+			},
+			{
+				200140,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[20022] = {
+		entrance_ui = 1,
+		name = "档案海域",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 20022,
+		reset_auto_complete = 0,
+		hazard_level = 6,
+		entrance_mapicon = "daxuanwo",
+		template_id = {
+			{
+				200200,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
 	[20101] = {
 		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
@@ -9968,6 +10082,9 @@ pg.world_chapter_random = {
 		20015,
 		20016,
 		20017,
+		20020,
+		20021,
+		20022,
 		20101,
 		20103,
 		20200,

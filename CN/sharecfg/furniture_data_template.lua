@@ -5813,6 +5813,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[221] = {
+		spine_extra = "",
+		describe = "仿照极地要塞制作的纪念碑，从中能感受到一股毫不动摇的坚韧意志。——「深度回音」活动纪念",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "maozi3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "回音纪念碑",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 221,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -8286,6 +8329,79 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100035] = {
+		spine_extra = "",
+		describe = "没人在这里能超过我的速度度度度度~~~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "超高速模拟雪场",
+		themeId = 0,
+		icon = "huaxuetaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100035,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingpao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "没错，尽情地向你的女仆撒娇吧…“主人”~",
@@ -8533,6 +8649,88 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[200004] = {
+		spine_extra = "",
+		describe = "“宝物就由我优雅地接收了！”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "逃脱用直升机",
+		themeId = 0,
+		icon = "furniture_aerhangeersike_2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200004,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_aerhangeersike_2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"tuozhuai2",
+				{
+					705061
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -104778,8 +104976,8 @@ pg.furniture_data_template = {
 			{
 				"sit",
 				{
-					-31.4,
-					76.2
+					-35.5,
+					63.1
 				},
 				{
 					1,
@@ -105313,6 +105511,7 @@ pg.furniture_data_template = {
 		218,
 		219,
 		220,
+		221,
 		100001,
 		100002,
 		100003,
@@ -105347,9 +105546,11 @@ pg.furniture_data_template = {
 		100032,
 		100033,
 		100034,
+		100035,
 		200001,
 		200002,
 		200003,
+		200004,
 		1001,
 		1002,
 		1101,

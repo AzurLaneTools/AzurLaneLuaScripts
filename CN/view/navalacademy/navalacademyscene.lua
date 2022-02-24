@@ -2,7 +2,7 @@ slot0 = class("NavalAcademyScene", import("..base.BaseUI"))
 slot0.WARP_TO_TACTIC = "WARP_TO_TACTIC"
 
 function slot0.getUIName(slot0)
-	return "NavalAcademyUI"
+	return pg.naval_academy_theme[pg.gameset.naval_academy_theme.description] and slot2.resource_path or "NavalAcademyUI"
 end
 
 function slot0.SetOilResField(slot0, slot1)

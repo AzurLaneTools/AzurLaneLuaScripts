@@ -122,8 +122,26 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	function slot13()
-		pg.ConnectionMgr.GetInstance():Send(16001, {
+	slot13 = {}
+
+	table.insert(slot13, function (slot0)
+		slot1, slot2 = uv0:CheckGiftPackage(uv1)
+
+		if slot1 == uv2.GIFT_CHECK_FAIL then
+			slot2()
+		elseif slot1 == uv2.GIFT_CHECK_USER then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = slot2(),
+				onYes = slot0
+			})
+		else
+			slot0()
+		end
+	end)
+	seriesAsync(slot13, function ()
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(16001, {
 			id = uv0,
 			number = uv1
 		}, 16002, function (slot0)
@@ -222,7 +240,7 @@ function slot0.execute(slot0, slot1)
 
 					slot4:getGoodsById(uv4):reduceBuyCount()
 					uv7:updateGuildShop(slot4)
-				elseif uv0.genre == ShopArgs.WorldShop then
+				elseif uv0.genre == ShopArgs.WorldShop or uv0.genre == ShopArgs.WorldCollection then
 					nowWorld():UpdateWorldShopGoods({
 						{
 							goods_id = uv4,
@@ -264,22 +282,7 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 		end)
-	end
-
-	slot14, slot15 = slot0:CheckGiftPackage(slot5)
-
-	if slot14 == uv0.GIFT_CHECK_FAIL then
-		slot15()
-
-		return
-	elseif slot14 == uv0.GIFT_CHECK_USER then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = slot15(),
-			onYes = slot13
-		})
-	else
-		slot13()
-	end
+	end)
 end
 
 slot0.GIFT_CHECK_FAIL = 0

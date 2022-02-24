@@ -28,12 +28,14 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0.marks = {
 		task_main = 0,
 		task = 0,
+		treasure_sairen = 0,
+		step = 0,
+		task_collecktion = 0,
+		task_following = 0,
 		treasure = 0,
 		sairen = 0,
-		task_following = 0,
-		treasure_sairen = 0,
 		task_following_main = 0,
-		step = 0
+		task_following_boss = 0
 	}
 end
 

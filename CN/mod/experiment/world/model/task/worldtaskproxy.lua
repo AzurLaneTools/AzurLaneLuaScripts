@@ -1,26 +1,32 @@
 slot0 = class("WorldTaskProxy", import("....BaseEntity"))
 slot0.Fields = {
-	itemListenerList = "table",
+	dailyTimeStemp = "number",
 	dailyTaskIds = "table",
 	dailyTimer = "table",
-	dailyTimeStemp = "number",
-	list = "table",
+	itemListenerList = "table",
+	recycle = "table",
 	taskFinishCount = "number",
 	mapList = "table",
-	mapListenerList = "table"
+	mapListenerList = "table",
+	list = "table"
 }
 slot0.EventUpdateTask = "WorldTaskProxy.EventUpdateTask"
 slot0.EventUpdateDailyTaskIds = "WorldTaskProxy.EventUpdateDailyTaskIds"
 
 function slot0.Build(slot0)
 	slot0.list = {}
+	slot0.recycle = {}
 	slot0.itemListenerList = {}
 	slot0.mapListenerList = {}
 end
 
 function slot0.Setup(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		slot0:addTask(WorldTask.New(slot6))
+		if WorldTask.New(slot6):getState() == WorldTask.STATE_RECEIVED then
+			slot0.recycle[slot7.id] = slot7
+		else
+			slot0:addTask(slot7)
+		end
 	end
 end
 
@@ -94,11 +100,11 @@ function slot0.deleteTask(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0.list[slot1]
+	slot0.recycle[slot1] = slot0.list[slot1]
 	slot0.list[slot1] = nil
 
-	slot0:removeTaskListener(slot2)
-	slot0:DispatchEvent(uv0.EventUpdateTask, slot2)
+	slot0:removeTaskListener(slot0.recycle[slot1])
+	slot0:DispatchEvent(uv0.EventUpdateTask, slot0.recycle[slot1])
 end
 
 function slot0.updateTask(slot0, slot1)
@@ -193,6 +199,16 @@ end
 
 function slot0.canAcceptDailyTask(slot0)
 	return slot0.dailyTaskIds and #slot0.dailyTaskIds > 0 and pg.gameset.world_port_taskmax.key_value > #slot0:getDoingTaskVOs()
+end
+
+function slot0.hasDoingCollectionTask(slot0)
+	return underscore.any(slot0:getDoingTaskVOs(), function (slot0)
+		return slot0:IsTypeCollection()
+	end)
+end
+
+function slot0.getRecycleTask(slot0, slot1)
+	return slot0.list[slot1] or slot0.recycle[slot1]
 end
 
 return slot0

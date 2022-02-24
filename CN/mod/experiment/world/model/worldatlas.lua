@@ -265,21 +265,28 @@ function slot0.UpdateTask(slot0, slot1)
 		return
 	end
 
-	slot7 = slot1.id
+	slot4 = false
+	slot8 = slot1.id
 
-	for slot7 in pairs(slot0:GetTaskDic(slot7)) do
+	for slot8 in pairs(slot0:GetTaskDic(slot8)) do
+		slot4 = true
+
 		if slot1.config.type == 0 then
-			slot0.entranceDic[slot7]:UpdateDisplayMarks("task_main", slot3 > 0)
+			slot0.entranceDic[slot8]:UpdateDisplayMarks("task_main", slot3 > 0)
+		elseif slot1.config.type == 6 then
+			slot0.entranceDic[slot8]:UpdateDisplayMarks("task_collecktion", slot3 > 0)
 		else
-			slot0.entranceDic[slot7]:UpdateDisplayMarks("task", slot3 > 0)
+			slot0.entranceDic[slot8]:UpdateDisplayMarks("task", slot3 > 0)
 		end
 	end
 
-	if slot1:GetFollowingEntrance() then
+	if slot1:GetFollowingEntrance() and not slot4 then
 		if slot1.config.type == 0 then
-			slot0.entranceDic[slot4]:UpdateDisplayMarks("task_following_main", slot3 > 0)
+			slot0.entranceDic[slot5]:UpdateDisplayMarks("task_following_main", slot3 > 0)
+		elseif slot1.config.type == 7 then
+			slot0.entranceDic[slot5]:UpdateDisplayMarks("task_following_boss", slot3 > 0)
 		else
-			slot0.entranceDic[slot4]:UpdateDisplayMarks("task_following", slot3 > 0)
+			slot0.entranceDic[slot5]:UpdateDisplayMarks("task_following", slot3 > 0)
 		end
 	end
 end

@@ -7,7 +7,9 @@ slot0.Type2PictrueName = {
 	"type_search",
 	"type_build",
 	"type_defience",
-	"type_special"
+	"type_special",
+	"type_collection",
+	"type_boss"
 }
 
 function slot0.Init(slot0, slot1)

@@ -7899,6 +7899,257 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70161] = {
+		id = 70161,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = 0
+				}
+			}
+		}
+	},
+	[70162] = {
+		id = 70162,
+		name = "毛系V3 EX水平追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 8,
+				param = {
+					X = 0,
+					duration = 1.5,
+					offsetZ = 1
+				}
+			},
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 8,
+				param = {
+					X = 0,
+					duration = 1,
+					offsetZ = 1
+				}
+			}
+		}
+	},
+	[70163] = {
+		id = 70163,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = -200
+				}
+			}
+		}
+	},
+	[70164] = {
+		id = 70164,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = -100
+				}
+			}
+		}
+	},
+	[70165] = {
+		id = 70165,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = 100
+				}
+			}
+		}
+	},
+	[70166] = {
+		id = 70166,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = 200
+				}
+			}
+		}
+	},
+	[70167] = {
+		id = 70167,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = -150
+				}
+			}
+		}
+	},
+	[70168] = {
+		id = 70168,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = -50
+				}
+			}
+		}
+	},
+	[70169] = {
+		id = 70169,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = 50
+				}
+			}
+		}
+	},
+	[70170] = {
+		id = 70170,
+		name = "毛系V3 EX直线飞机",
+		default = 1,
+		list = {
+			{
+				index = 0,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 1,
+				to = 0,
+				type = 2,
+				param = {
+					x = -200,
+					z = 150
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

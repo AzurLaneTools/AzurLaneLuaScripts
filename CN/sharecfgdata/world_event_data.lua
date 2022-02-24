@@ -2336,7 +2336,7 @@ _G.pg.world_event_data[183] = {
 			1420
 		},
 		{
-			1470
+			1440
 		}
 	},
 	slg_buffnum = {
@@ -2384,13 +2384,13 @@ _G.pg.world_event_data[184] = {
 	},
 	slg_bufflist = {
 		{
-			1310
+			1410
 		},
 		{
 			1470
 		},
 		{
-			1030
+			1020
 		}
 	},
 	slg_buffnum = {
@@ -2438,13 +2438,13 @@ _G.pg.world_event_data[185] = {
 	},
 	slg_bufflist = {
 		{
-			1410
+			1310
 		},
 		{
 			1470
 		},
 		{
-			1450
+			1490
 		}
 	},
 	slg_buffnum = {
@@ -75228,6 +75228,4542 @@ _G.pg.world_event_data[217032] = {
 			0,
 			0,
 			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300000,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3000000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300001] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300001,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3000000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300002] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300002,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3000000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300003] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300003,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3000000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300004] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300004,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3000000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300011] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300011,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300012] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300012,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300013] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300013,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300014] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300014,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300020] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300020,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300021] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300021,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300022] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300022,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300023] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300023,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300024] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 1,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300024,
+	scale = 0,
+	event_op = {},
+	effect = {
+		60010000,
+		60010001,
+		60010002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300050] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300050,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3000500,
+		3000501
+	},
+	grid = {
+		{
+			0,
+			0,
+			21,
+			21
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300051] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 300051,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3000510,
+		3000511
+	},
+	grid = {
+		{
+			0,
+			0,
+			21,
+			21
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300100] = {
+	visuality = 0,
+	name = "塞壬量产型舰队",
+	compass_index = 1,
+	expedition_icon = 292200,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	scan_desc = "一支主要由量产型舰船构成的常规塞壬舰队。",
+	is_guide = 0,
+	id = 300100,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002120,
+		3001000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300101] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292210,
+	is_guide = 0,
+	id = 300101,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002121,
+		3001000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300102] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292220,
+	is_guide = 0,
+	id = 300102,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002122,
+		3001000
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300200] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292200,
+	is_guide = 0,
+	id = 300200,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002120,
+		3001001
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300201] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292210,
+	is_guide = 0,
+	id = 300201,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002121,
+		3001001
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300202] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292220,
+	is_guide = 0,
+	id = 300202,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002122,
+		3001001
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300300] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292200,
+	is_guide = 0,
+	id = 300300,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002120,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300301] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292210,
+	is_guide = 0,
+	id = 300301,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002121,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300302] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292220,
+	is_guide = 0,
+	id = 300302,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002122,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[300310] = {
+	visuality = 1,
+	compass_index = 4,
+	base = 4100051,
+	enemyicon = 3,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "sairen_youyizhe",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 300310,
+	scale = 40,
+	object_icon = {
+		"cell_black",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1295200,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1030
+		},
+		{
+			1450
+		},
+		{
+			1460
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {
+		0,
+		20
+	}
+}
+
+_G.pg.world_event_data[300311] = {
+	visuality = 1,
+	compass_index = 4,
+	base = 4100061,
+	enemyicon = 3,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "shenyuanboss5",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 300311,
+	scale = 40,
+	object_icon = {
+		"cell_black",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1295201,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1060
+		},
+		{
+			1430
+		},
+		{
+			1470
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {
+		0,
+		20
+	}
+}
+
+_G.pg.world_event_data[300312] = {
+	visuality = 1,
+	compass_index = 4,
+	base = 4100071,
+	enemyicon = 3,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "shenyuanboss3",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 300312,
+	scale = 40,
+	object_icon = {
+		"cell_black",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1295202,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1010
+		},
+		{
+			1310
+		},
+		{
+			1490
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {
+		0,
+		5
+	}
+}
+
+_G.pg.world_event_data[300313] = {
+	visuality = 1,
+	compass_index = 4,
+	base = 4100081,
+	enemyicon = 3,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "shenyuanboss4",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 300313,
+	scale = 40,
+	object_icon = {
+		"cell_black",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1295203,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1010
+		},
+		{
+			1300
+		},
+		{
+			1470
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {
+		0,
+		5
+	}
+}
+
+_G.pg.world_event_data[300314] = {
+	visuality = 1,
+	compass_index = 4,
+	base = 4100091,
+	enemyicon = 3,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "shenyuanboss2",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 300314,
+	scale = 40,
+	object_icon = {
+		"cell_black",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		1295204,
+		3001002
+	},
+	grid = {
+		{
+			0,
+			0
+		}
+	},
+	slg_bufflist = {
+		{
+			1040
+		},
+		{
+			1420
+		},
+		{
+			1490
+		}
+	},
+	slg_buffnum = {
+		1,
+		1,
+		1
+	},
+	map_buff = {},
+	deviation = {
+		0,
+		5
+	}
+}
+
+_G.pg.world_event_data[301000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 301000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			2
+		},
+		{
+			1,
+			7
+		},
+		{
+			1,
+			8
+		},
+		{
+			1,
+			9
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			9
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			3
+		},
+		{
+			3,
+			4
+		},
+		{
+			3,
+			6
+		},
+		{
+			3,
+			7
+		},
+		{
+			4,
+			3
+		},
+		{
+			4,
+			7
+		},
+		{
+			6,
+			3
+		},
+		{
+			6,
+			7
+		},
+		{
+			7,
+			3
+		},
+		{
+			7,
+			4
+		},
+		{
+			7,
+			6
+		},
+		{
+			7,
+			7
+		},
+		{
+			7,
+			9
+		},
+		{
+			8,
+			1
+		},
+		{
+			8,
+			9
+		},
+		{
+			9,
+			1
+		},
+		{
+			9,
+			2
+		},
+		{
+			9,
+			3
+		},
+		{
+			9,
+			8
+		},
+		{
+			9,
+			9
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[301010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 301010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3010100
+	},
+	grid = {
+		{
+			1,
+			5
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			8
+		},
+		{
+			5,
+			1
+		},
+		{
+			5,
+			9
+		},
+		{
+			8,
+			2
+		},
+		{
+			8,
+			8
+		},
+		{
+			9,
+			5
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[301100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 301100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			1,
+			5
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			8
+		},
+		{
+			5,
+			1
+		},
+		{
+			5,
+			9
+		},
+		{
+			8,
+			2
+		},
+		{
+			8,
+			8
+		},
+		{
+			9,
+			5
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[302000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 302000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			2
+		},
+		{
+			1,
+			3
+		},
+		{
+			1,
+			9
+		},
+		{
+			1,
+			10
+		},
+		{
+			1,
+			11
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			3
+		},
+		{
+			2,
+			9
+		},
+		{
+			2,
+			11
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			3
+		},
+		{
+			3,
+			9
+		},
+		{
+			3,
+			11
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			7
+		},
+		{
+			5,
+			5
+		},
+		{
+			5,
+			7
+		},
+		{
+			6,
+			5
+		},
+		{
+			6,
+			6
+		},
+		{
+			6,
+			7
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[302010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 302010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3010100
+	},
+	grid = {
+		{
+			2,
+			2
+		},
+		{
+			2,
+			6
+		},
+		{
+			2,
+			10
+		},
+		{
+			5,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[302100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 302100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			1,
+			5
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			8
+		},
+		{
+			5,
+			1
+		},
+		{
+			5,
+			9
+		},
+		{
+			8,
+			2
+		},
+		{
+			8,
+			8
+		},
+		{
+			9,
+			5
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[303000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 303000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			2
+		},
+		{
+			1,
+			3
+		},
+		{
+			1,
+			4
+		},
+		{
+			2,
+			1
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			5
+		},
+		{
+			3,
+			6
+		},
+		{
+			4,
+			1
+		},
+		{
+			5,
+			3
+		},
+		{
+			5,
+			7
+		},
+		{
+			5,
+			8
+		},
+		{
+			6,
+			3
+		},
+		{
+			7,
+			5
+		},
+		{
+			7,
+			9
+		},
+		{
+			8,
+			5
+		},
+		{
+			9,
+			7
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[303010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 303010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3010100
+	},
+	grid = {
+		{
+			2,
+			4
+		},
+		{
+			4,
+			2
+		},
+		{
+			4,
+			6
+		},
+		{
+			6,
+			4
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[303100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 303100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			2,
+			2
+		},
+		{
+			2,
+			3
+		},
+		{
+			3,
+			2
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[304000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 304000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			3
+		},
+		{
+			1,
+			7
+		},
+		{
+			1,
+			9
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			3
+		},
+		{
+			3,
+			7
+		},
+		{
+			3,
+			9
+		},
+		{
+			7,
+			1
+		},
+		{
+			7,
+			3
+		},
+		{
+			7,
+			7
+		},
+		{
+			7,
+			9
+		},
+		{
+			9,
+			1
+		},
+		{
+			9,
+			3
+		},
+		{
+			9,
+			7
+		},
+		{
+			9,
+			9
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[304010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 304010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3010100
+	},
+	grid = {
+		{
+			2,
+			2
+		},
+		{
+			2,
+			8
+		},
+		{
+			8,
+			2
+		},
+		{
+			8,
+			8
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[304100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 304100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			1,
+			2
+		},
+		{
+			1,
+			8
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			9
+		},
+		{
+			8,
+			1
+		},
+		{
+			8,
+			9
+		},
+		{
+			9,
+			2
+		},
+		{
+			9,
+			8
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[305000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 305000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			1
+		},
+		{
+			2,
+			2
+		},
+		{
+			4,
+			4
+		},
+		{
+			5,
+			5
+		},
+		{
+			6,
+			4
+		},
+		{
+			7,
+			3
+		},
+		{
+			9,
+			1
+		},
+		{
+			10,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[305010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 305010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3010100
+	},
+	grid = {
+		{
+			3,
+			3
+		},
+		{
+			4,
+			2
+		},
+		{
+			8,
+			2
+		},
+		{
+			9,
+			3
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[305100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 305100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			2,
+			1
+		},
+		{
+			7,
+			1
+		},
+		{
+			7,
+			4
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[311000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 311000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			2
+		},
+		{
+			1,
+			3
+		},
+		{
+			1,
+			9
+		},
+		{
+			1,
+			10
+		},
+		{
+			1,
+			11
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			11
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			3
+		},
+		{
+			3,
+			4
+		},
+		{
+			3,
+			8
+		},
+		{
+			3,
+			9
+		},
+		{
+			3,
+			11
+		},
+		{
+			4,
+			3
+		},
+		{
+			4,
+			9
+		},
+		{
+			5,
+			5
+		},
+		{
+			5,
+			7
+		},
+		{
+			7,
+			5
+		},
+		{
+			7,
+			7
+		},
+		{
+			8,
+			3
+		},
+		{
+			8,
+			9
+		},
+		{
+			9,
+			1
+		},
+		{
+			9,
+			3
+		},
+		{
+			9,
+			4
+		},
+		{
+			9,
+			8
+		},
+		{
+			9,
+			9
+		},
+		{
+			9,
+			11
+		},
+		{
+			10,
+			1
+		},
+		{
+			10,
+			11
+		},
+		{
+			11,
+			1
+		},
+		{
+			11,
+			2
+		},
+		{
+			11,
+			3
+		},
+		{
+			11,
+			9
+		},
+		{
+			11,
+			10
+		},
+		{
+			11,
+			11
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[311010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 311010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3110100
+	},
+	grid = {
+		{
+			1,
+			6
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			10
+		},
+		{
+			3,
+			6
+		},
+		{
+			6,
+			1
+		},
+		{
+			6,
+			3
+		},
+		{
+			6,
+			9
+		},
+		{
+			6,
+			11
+		},
+		{
+			9,
+			6
+		},
+		{
+			10,
+			2
+		},
+		{
+			10,
+			10
+		},
+		{
+			11,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[311100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 311100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			1,
+			6
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			10
+		},
+		{
+			3,
+			6
+		},
+		{
+			6,
+			1
+		},
+		{
+			6,
+			3
+		},
+		{
+			6,
+			9
+		},
+		{
+			6,
+			11
+		},
+		{
+			9,
+			6
+		},
+		{
+			10,
+			2
+		},
+		{
+			10,
+			10
+		},
+		{
+			11,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[312000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 312000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			2
+		},
+		{
+			1,
+			3
+		},
+		{
+			1,
+			5
+		},
+		{
+			1,
+			6
+		},
+		{
+			1,
+			7
+		},
+		{
+			1,
+			9
+		},
+		{
+			1,
+			10
+		},
+		{
+			1,
+			11
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			5
+		},
+		{
+			2,
+			9
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			5
+		},
+		{
+			3,
+			9
+		},
+		{
+			5,
+			2
+		},
+		{
+			5,
+			6
+		},
+		{
+			5,
+			10
+		},
+		{
+			6,
+			2
+		},
+		{
+			6,
+			6
+		},
+		{
+			6,
+			10
+		},
+		{
+			7,
+			2
+		},
+		{
+			7,
+			3
+		},
+		{
+			7,
+			4
+		},
+		{
+			7,
+			6
+		},
+		{
+			7,
+			7
+		},
+		{
+			7,
+			8
+		},
+		{
+			7,
+			10
+		},
+		{
+			7,
+			11
+		},
+		{
+			7,
+			12
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[312010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 312010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3110100
+	},
+	grid = {
+		{
+			2,
+			2
+		},
+		{
+			2,
+			6
+		},
+		{
+			2,
+			10
+		},
+		{
+			6,
+			3
+		},
+		{
+			6,
+			7
+		},
+		{
+			6,
+			11
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[312100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 312100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			3,
+			3
+		},
+		{
+			3,
+			7
+		},
+		{
+			3,
+			11
+		},
+		{
+			5,
+			4
+		},
+		{
+			5,
+			8
+		},
+		{
+			5,
+			12
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[313000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 313000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			1,
+			2
+		},
+		{
+			1,
+			5
+		},
+		{
+			1,
+			8
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			4
+		},
+		{
+			2,
+			7
+		},
+		{
+			4,
+			2
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			8
+		},
+		{
+			5,
+			1
+		},
+		{
+			5,
+			4
+		},
+		{
+			5,
+			7
+		},
+		{
+			7,
+			2
+		},
+		{
+			7,
+			5
+		},
+		{
+			7,
+			8
+		},
+		{
+			8,
+			1
+		},
+		{
+			8,
+			4
+		},
+		{
+			8,
+			7
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[313010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 313010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3110100
+	},
+	grid = {
+		{
+			1,
+			4
+		},
+		{
+			2,
+			5
+		},
+		{
+			4,
+			1
+		},
+		{
+			4,
+			4
+		},
+		{
+			4,
+			7
+		},
+		{
+			5,
+			2
+		},
+		{
+			5,
+			5
+		},
+		{
+			5,
+			8
+		},
+		{
+			7,
+			4
+		},
+		{
+			8,
+			5
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[313100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 313100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			3,
+			3
+		},
+		{
+			3,
+			6
+		},
+		{
+			6,
+			3
+		},
+		{
+			6,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[314000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 314000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			0,
+			2
+		},
+		{
+			0,
+			6
+		},
+		{
+			1,
+			1
+		},
+		{
+			2,
+			0
+		},
+		{
+			2,
+			4
+		},
+		{
+			3,
+			3
+		},
+		{
+			3,
+			5
+		},
+		{
+			4,
+			2
+		},
+		{
+			4,
+			6
+		},
+		{
+			5,
+			3
+		},
+		{
+			6,
+			0
+		},
+		{
+			6,
+			4
+		},
+		{
+			7,
+			1
+		},
+		{
+			7,
+			5
+		},
+		{
+			8,
+			2
+		},
+		{
+			8,
+			6
+		},
+		{
+			9,
+			3
+		},
+		{
+			10,
+			4
+		},
+		{
+			11,
+			3
+		},
+		{
+			12,
+			2
+		},
+		{
+			12,
+			6
+		},
+		{
+			13,
+			1
+		},
+		{
+			13,
+			5
+		},
+		{
+			14,
+			0
+		},
+		{
+			14,
+			4
+		},
+		{
+			15,
+			3
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[314010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 314010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3110100
+	},
+	grid = {
+		{
+			1,
+			3
+		},
+		{
+			2,
+			6
+		},
+		{
+			3,
+			1
+		},
+		{
+			6,
+			2
+		},
+		{
+			8,
+			4
+		},
+		{
+			11,
+			5
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[314100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 314100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			0,
+			5
+		},
+		{
+			5,
+			0
+		},
+		{
+			10,
+			6
+		},
+		{
+			13,
+			4
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[315000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 315000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			0,
+			5
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			9
+		},
+		{
+			2,
+			5
+		},
+		{
+			3,
+			3
+		},
+		{
+			3,
+			5
+		},
+		{
+			3,
+			7
+		},
+		{
+			4,
+			4
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			6
+		},
+		{
+			5,
+			0
+		},
+		{
+			5,
+			2
+		},
+		{
+			5,
+			3
+		},
+		{
+			5,
+			4
+		},
+		{
+			5,
+			5
+		},
+		{
+			5,
+			6
+		},
+		{
+			5,
+			7
+		},
+		{
+			5,
+			8
+		},
+		{
+			5,
+			10
+		},
+		{
+			6,
+			4
+		},
+		{
+			6,
+			5
+		},
+		{
+			6,
+			6
+		},
+		{
+			7,
+			3
+		},
+		{
+			7,
+			5
+		},
+		{
+			7,
+			7
+		},
+		{
+			8,
+			5
+		},
+		{
+			9,
+			1
+		},
+		{
+			9,
+			9
+		},
+		{
+			10,
+			5
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[315010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 315010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3110100
+	},
+	grid = {
+		{
+			1,
+			3
+		},
+		{
+			1,
+			7
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			9
+		},
+		{
+			7,
+			1
+		},
+		{
+			7,
+			9
+		},
+		{
+			9,
+			3
+		},
+		{
+			9,
+			7
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[315100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 315100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			2,
+			1
+		},
+		{
+			7,
+			1
+		},
+		{
+			7,
+			4
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321000] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "qianghexin1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	id = 321000,
+	scale = 0,
+	object_icon = {
+		"cell_escape_grid",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			0,
+			2
+		},
+		{
+			0,
+			10
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			6
+		},
+		{
+			1,
+			11
+		},
+		{
+			2,
+			0
+		},
+		{
+			2,
+			5
+		},
+		{
+			2,
+			7
+		},
+		{
+			2,
+			12
+		},
+		{
+			3,
+			4
+		},
+		{
+			3,
+			8
+		},
+		{
+			4,
+			3
+		},
+		{
+			4,
+			9
+		},
+		{
+			5,
+			4
+		},
+		{
+			5,
+			8
+		},
+		{
+			6,
+			0
+		},
+		{
+			6,
+			5
+		},
+		{
+			6,
+			7
+		},
+		{
+			6,
+			12
+		},
+		{
+			7,
+			1
+		},
+		{
+			7,
+			11
+		},
+		{
+			9,
+			3
+		},
+		{
+			9,
+			9
+		},
+		{
+			10,
+			4
+		},
+		{
+			10,
+			8
+		},
+		{
+			11,
+			5
+		},
+		{
+			11,
+			7
+		},
+		{
+			12,
+			1
+		},
+		{
+			12,
+			11
+		},
+		{
+			13,
+			2
+		},
+		{
+			13,
+			10
+		},
+		{
+			14,
+			3
+		},
+		{
+			14,
+			9
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		5,
+		25
+	}
+}
+
+_G.pg.world_event_data[321010] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 321010,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3010100
+	},
+	grid = {
+		{
+			2,
+			6
+		},
+		{
+			4,
+			4
+		},
+		{
+			4,
+			8
+		},
+		{
+			7,
+			3
+		},
+		{
+			7,
+			9
+		},
+		{
+			12,
+			3
+		},
+		{
+			12,
+			9
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321015] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 1,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 321015,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3210150
+	},
+	grid = {
+		{
+			4,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321020] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "hexinta_xiao3",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	id = 321020,
+	scale = 0,
+	object_icon = {
+		"cell_purple",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			4,
+			1
+		},
+		{
+			4,
+			11
+		},
+		{
+			10,
+			1
+		},
+		{
+			10,
+			11
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {
+		0,
+		25
+	}
+}
+
+_G.pg.world_event_data[321030] = {
+	visuality = 0,
+	compass_index = 3,
+	base = 7022200,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = 20,
+	icon = "hexinta_da",
+	special_enemy = 3,
+	infection_value = 10,
+	auto_pri = 5,
+	discover_type = 2,
+	is_scanevent = 1,
+	expedition_icon = 0,
+	is_guide = 0,
+	id = 321030,
+	scale = 0,
+	object_icon = {
+		"cell_yellow",
+		1,
+		100,
+		50
+	},
+	event_op = {},
+	effect = {
+		70002021,
+		10036,
+		70232000,
+		70232001
+	},
+	grid = {
+		{
+			9,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {
+		{
+			1,
+			2000,
+			1
+		}
+	},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321040] = {
+	visuality = 0,
+	compass_index = 0,
+	base = 7022100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "taban_jinzhi",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 1,
+	expedition_icon = 0,
+	is_guide = 0,
+	object_icon = "",
+	id = 321040,
+	scale = 0,
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			8,
+			2
+		},
+		{
+			8,
+			10
+		},
+		{
+			12,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321045] = {
+	visuality = 0,
+	compass_index = 0,
+	base = 7022100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "taban_jinzhi",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 1,
+	expedition_icon = 0,
+	is_guide = 0,
+	object_icon = "",
+	id = 321045,
+	scale = 0,
+	event_op = {},
+	effect = {
+		500
+	},
+	grid = {
+		{
+			7,
+			6
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321050] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292200,
+	is_guide = 0,
+	id = 321050,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002120,
+		3210500,
+		3001002
+	},
+	grid = {
+		{
+			12,
+			3
+		},
+		{
+			12,
+			9
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321051] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292200,
+	is_guide = 0,
+	id = 321051,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002121,
+		3210510,
+		3001002
+	},
+	grid = {
+		{
+			7,
+			3
+		},
+		{
+			7,
+			9
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321052] = {
+	visuality = 0,
+	compass_index = 1,
+	base = 300100,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 0,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 3,
+	infection_value = 1,
+	auto_pri = 1,
+	discover_type = 2,
+	is_scanevent = 3,
+	expedition_icon = 292200,
+	is_guide = 0,
+	id = 321052,
+	scale = 0,
+	object_icon = {
+		"cell_red",
+		1,
+		100,
+		0
+	},
+	event_op = {},
+	effect = {
+		70002122,
+		3001002
+	},
+	grid = {
+		{
+			2,
+			6
+		},
+		{
+			4,
+			4
+		},
+		{
+			4,
+			8
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321060] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 321060,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3210600,
+		3210601
+	},
+	grid = {
+		{
+			0,
+			0,
+			21,
+			21
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321065] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 1,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 0,
+	object_icon = "",
+	id = 321065,
+	scale = 0,
+	event_op = {},
+	effect = {
+		3210650,
+		3210651
+	},
+	grid = {
+		{
+			0,
+			0,
+			21,
+			21
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+_G.pg.world_event_data[321100] = {
+	visuality = 0,
+	name = "",
+	compass_index = 0,
+	expedition_icon = 0,
+	enemyicon = 0,
+	icontype = 2,
+	obstacle = 3,
+	event_sight = -1,
+	icon = "canhai_zl1",
+	special_enemy = 0,
+	infection_value = 0,
+	auto_pri = 0,
+	discover_type = 2,
+	is_scanevent = 0,
+	scan_desc = "",
+	is_guide = 1,
+	object_icon = "",
+	id = 321100,
+	scale = 80,
+	event_op = {},
+	effect = {
+		410121
+	},
+	grid = {
+		{
+			1,
+			5
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			8
+		},
+		{
+			5,
+			1
+		},
+		{
+			5,
+			9
+		},
+		{
+			8,
+			2
+		},
+		{
+			8,
+			8
+		},
+		{
+			9,
+			5
 		}
 	},
 	slg_bufflist = {},

@@ -3261,7 +3261,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<战巡>炮击",
-				6
+				8
 			},
 			{
 				"<战列>炮击",
@@ -3311,7 +3311,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<战巡>炮击",
-				8
+				11
 			},
 			{
 				"<战列>炮击",
@@ -3361,7 +3361,7 @@ pg.commander_ability_template = {
 			},
 			{
 				"<战巡>炮击",
-				12
+				16
 			},
 			{
 				"<战列>炮击",

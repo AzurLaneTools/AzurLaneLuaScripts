@@ -9721,7 +9721,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "塔什干、苏维埃罗西亚、阿芙乐尔等角色 建造概率UP!"
+	tip = "每累计建造200次可获得海上传奇舰船 喀琅施塔得(最多4次)"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -14675,7 +14675,7 @@ _G.pg.gametip.guild_task_selecte_tip = {
 }
 
 _G.pg.gametip.guild_task_accept = {
-	tip = "正在领取【$1】的【$2】，本周已经获得过个人奖励，重复进行【$3】无法再次获得舰队币奖励，但依然可以累积大舰队任务完成次数，是否确认领取？"
+	tip = "正在领取【$1】的【$2】，本周已经获得过个人奖励，重复进行【$3】<color=#FF5C5CFF>无法再次获得舰队币奖励</color>，但依然可以<color=#92FC63FF>累积大舰队任务完成次数</color>，是否确认领取？"
 }
 
 _G.pg.gametip.guild_commander_and_sub_op = {
@@ -17237,6 +17237,10 @@ _G.pg.gametip.world_automode_setting_all_4_2 = {
 	tip = "否"
 }
 
+_G.pg.gametip.world_collection_task_tip_1 = {
+	tip = "已有正在进行中的档案任务，无法继续购买。"
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "普通海域"
 }
@@ -17267,6 +17271,10 @@ _G.pg.gametip.area_renwu = {
 
 _G.pg.gametip.area_zhuxian = {
 	tip = "主线海域"
+}
+
+_G.pg.gametip.area_dangan = {
+	tip = "档案海域"
 }
 
 _G.pg.gametip.charge_trade_no_error = {
