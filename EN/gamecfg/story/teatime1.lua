@@ -177,7 +177,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Are you referring to the one from the North Union? Unfortunately, she is still a little shy to attend...",
+			say = "Are you referring to the one from the Northern Parliament? Unfortunately, she is still a little shy to attend...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

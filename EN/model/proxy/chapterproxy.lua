@@ -738,13 +738,14 @@ function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 
 	function slot6(slot0)
 		table.sort(slot0, function (slot0, slot1)
-			if type(slot0) == type(slot1) then
-				return slot3 < slot2
-			elseif slot2 == "string" then
-				return slot1 == 0
-			else
-				return slot0 ~= 0
-			end
+			return CompareFuncs(slot0, slot1, {
+				function (slot0)
+					return type(slot0) == "string" and 0 or 1
+				end,
+				function (slot0)
+					return type(slot0) == "number" and -slot0 or 0
+				end
+			})
 		end)
 	end
 
@@ -777,86 +778,51 @@ function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 		[TeamType.Vanguard] = slot8,
 		[TeamType.Submarine] = slot9
 	}
+	slot12 = getProxy(BayProxy):getRawData()
 
-	function slot12(slot0, slot1)
-		if type(slot1) == "string" then
-			return table.contains(ShipType.BundleList[slot1], slot0)
-		elseif type(slot1) == "number" then
-			return slot1 == 0 or slot0 == slot1
-		end
-	end
+	for slot16, slot17 in ipairs(slot4) do
+		slot21 = 0
 
-	slot13 = getProxy(BayProxy):getRawData()
-
-	for slot17, slot18 in ipairs(slot4) do
-		slot22 = 0
-
-		for slot27, slot28 in ipairs(slot11[TeamType.GetTeamFromShipType(slot13[slot18]:getShipType())]) do
-			if slot12(slot20, slot28) then
-				slot22 = slot28
+		for slot26, slot27 in ipairs(slot11[TeamType.GetTeamFromShipType(slot12[slot17]:getShipType())]) do
+			if ShipType.ContainInLimitBundle(slot27, slot19) then
+				slot21 = slot27
 
 				break
 			end
 		end
 
-		for slot27, slot28 in ipairs(slot23) do
-			if slot28 == slot22 then
-				table.remove(slot23, slot27)
+		for slot26, slot27 in ipairs(slot22) do
+			if slot27 == slot21 then
+				table.remove(slot22, slot26)
 
 				break
 			end
 		end
 	end
 
-	function slot14(slot0)
-		if uv0:getEliteRecommendShip(slot0, uv1, uv2:getConfig("formation")) then
-			slot2 = slot1.id
-			uv1[#uv1 + 1] = slot2
-			uv3[#uv3 + 1] = slot2
+	function slot13(slot0, slot1)
+		slot3 = uv0
+
+		if slot3:getEliteRecommendShip(underscore.filter(TeamType.GetShipTypeListFromTeam(slot1), function (slot0)
+			return ShipType.ContainInLimitBundle(uv0, slot0)
+		end), uv1, uv2:getConfig("formation")) then
+			slot4 = slot3.id
+			uv1[#uv1 + 1] = slot4
+			uv3[#uv3 + 1] = slot4
 		end
 	end
 
-	if slot2 >= 1 and slot2 <= 2 then
-		for slot18, slot19 in ipairs(slot7) do
-			slot20 = nil
+	slot14 = nil
+	slot14 = (slot2 <= 2 or {
+		[TeamType.Submarine] = slot9
+	}) and {
+		[TeamType.Main] = slot7,
+		[TeamType.Vanguard] = slot8
+	}
 
-			if type(slot19) == "string" then
-				slot20 = Clone(ShipType.BundleList[slot19])
-			elseif type(slot19) == "number" then
-				slot20 = (slot19 ~= 0 or TeamType.MainShipType) and {
-					slot19
-				}
-			end
-
-			slot14(slot20)
-		end
-
-		for slot18, slot19 in ipairs(slot8) do
-			slot20 = nil
-
-			if type(slot19) == "string" then
-				slot20 = Clone(ShipType.BundleList[slot19])
-			elseif type(slot19) == "number" then
-				slot20 = (slot19 ~= 0 or TeamType.VanguardShipType) and {
-					slot19
-				}
-			end
-
-			slot14(slot20)
-		end
-	else
-		for slot18, slot19 in ipairs(slot9) do
-			slot20 = nil
-
-			if type(slot19) == "string" then
-				slot20 = Clone(ShipType.BundleList[slot19])
-			elseif type(slot19) == "number" then
-				slot20 = (slot19 ~= 0 or TeamType.SubShipType) and {
-					slot19
-				}
-			end
-
-			slot14(slot20)
+	for slot18, slot19 in pairs(slot14) do
+		for slot23, slot24 in ipairs(slot19) do
+			slot13(slot24, slot18)
 		end
 	end
 end
@@ -894,6 +860,18 @@ function slot0.getLastMap(slot0, slot1)
 	if PlayerPrefs.GetInt(slot1 .. getProxy(PlayerProxy):getRawData().id) ~= 0 then
 		return slot3
 	end
+end
+
+function slot0.IsActivitySPChapterActive(slot0)
+	return _.any(_.reduce(_.select(slot0:getMapsByActivities(), function (slot0)
+		return slot0:getMapType() == Map.ACT_EXTRA
+	end), {}, function (slot0, slot1)
+		return table.mergeArray(slot0, _.select(slot1:getChapters(true), function (slot0)
+			return slot0:getPlayType() == ChapterConst.TypeRange
+		end))
+	end), function (slot0)
+		return slot0:isUnlock() and slot0:isPlayerLVUnlock() and slot0:enoughTimes2Start()
+	end)
 end
 
 function slot0.getSubAidFlag(slot0, slot1)

@@ -98,7 +98,7 @@ end
 function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	if slot1:getFleetIndex(FleetType.Normal, slot0.line.row, slot0.line.column) then
 		if slot1:isPlayingWithBombEnemy() then
-			if table.contains(ShipType.BundleList[ShipType.BundleAircraftCarrier], slot1:getMapShip(slot1.fleets[slot4]):getShipType()) then
+			if ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrierm, slot1:getMapShip(slot1.fleets[slot4]):getShipType()) then
 				slot2.viewComponent:doPlayStrikeAnim(slot6, "AirStrikeUI", slot3)
 			else
 				slot2.viewComponent:doPlayStrikeAnim(slot6, "CannonUI", slot3)
@@ -113,7 +113,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 					return slot0.row == uv0.target.row and slot0.column == uv0.target.column
 				end).attachment == ChapterConst.AttachLandbase then
 					if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
-						if table.contains(ShipType.BundleList[ShipType.BundleAircraftCarrier], slot1:getMapShip(slot5):getShipType()) then
+						if ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, slot1:getMapShip(slot5):getShipType()) then
 							slot2.viewComponent:doPlayStrikeAnim(slot8, "AirStrikeUI", slot3)
 						else
 							slot2.viewComponent:doPlayStrikeAnim(slot8, "CannonUI", slot3)

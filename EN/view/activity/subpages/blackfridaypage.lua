@@ -7,6 +7,7 @@ function slot0.OnInit(slot0)
 	slot0.shopBtn = slot0:findTF("AD/shop_btn")
 	slot0.uiList = UIItemList.New(slot0:findTF("AD/list"), slot0:findTF("AD/list/award"))
 	slot0.finishCntTxt = slot0:findTF("AD/Text"):GetComponent(typeof(Text))
+	slot0.helpBtn = slot0:findTF("AD/help")
 end
 
 function slot0.OnDataSetting(slot0)
@@ -24,6 +25,15 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
+	if not IsNil(slot0.helpBtn) then
+		onButton(slot0, slot0.helpBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.blackfriday_help.tip
+			})
+		end, SFX_PANEL)
+	end
+
 	onButton(slot0, slot0.shopBtn, function ()
 		if uv0.endTime <= pg.TimeMgr.GetInstance():GetServerTime() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))

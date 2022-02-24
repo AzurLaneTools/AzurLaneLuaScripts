@@ -1211,5 +1211,21 @@ pg.voice_actor_CN = {
 	{
 		code = 303,
 		actor_name = "Ayase Yuu"
+	},
+	{
+		code = 304,
+		actor_name = "Hanai Miharu "
+	},
+	{
+		code = 305,
+		actor_name = "Akaneya Himika "
+	},
+	{
+		code = 306,
+		actor_name = "Kubota Miyu"
+	},
+	{
+		code = 307,
+		actor_name = "Shibasaki Noriko "
 	}
 }

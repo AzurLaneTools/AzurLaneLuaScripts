@@ -9807,7 +9807,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Rate UP for Tashkent, Sovetskaya Rossiya, Avrora, and more!"
+	tip = "Build 200 times to receive a guaranteed copy of Kronshtadt! (Up to 4 copies can be claimed this way)"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -14809,7 +14809,7 @@ _G.pg.gametip.guild_task_selecte_tip = {
 }
 
 _G.pg.gametip.guild_task_accept = {
-	tip = "You are about to accept [$1]'s [$2]. You have already received your individual rewards for this week. Continue?"
+	tip = "You are about to accept [$1]'s [$2], but you have already capped your individual contributions this week. Completing [$3] will not grant you <color=#FF5C5CFF>Guild Tokens</color>, but you will still be able to contribute to your Guild's <color=#92FC63FF>mission completion</color>. Continue?"
 }
 
 _G.pg.gametip.guild_commander_and_sub_op = {
@@ -17290,6 +17290,10 @@ _G.pg.gametip.world_automode_setting_all_4_2 = {
 	tip = "NO"
 }
 
+_G.pg.gametip.world_collection_task_tip_1 = {
+	tip = "Purchase failed. You still have an active File Mission."
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "Explorable"
 }
@@ -17320,6 +17324,10 @@ _G.pg.gametip.area_renwu = {
 
 _G.pg.gametip.area_zhuxian = {
 	tip = "Campaign"
+}
+
+_G.pg.gametip.area_dangan = {
+	tip = "File Zones"
 }
 
 _G.pg.gametip.charge_trade_no_error = {
@@ -18018,7 +18026,7 @@ _G.pg.gametip.cartoon_haveno = {
 }
 
 _G.pg.gametip.res_cartoon_new_tip = {
-	tip = "A new page has been added to the Comics tab!"
+	tip = "Comics have been updated!"
 }
 
 _G.pg.gametip.memory_actiivty_ex = {

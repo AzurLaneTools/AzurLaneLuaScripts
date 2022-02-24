@@ -605,7 +605,7 @@ return {
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "A continent covered in snow… The map is reliable as expected. This is the North Union! {namecode:12}, rest assured, I am here to get you!",
+			say = "A continent covered in snow… The map is reliable as expected. This is the Northern Parliament! {namecode:12}, rest assured, I am here to get you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

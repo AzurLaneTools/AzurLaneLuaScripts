@@ -3,6 +3,8 @@ slot0 = class("PtAwardWindow")
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0.binder = slot2
+	slot3 = slot0._tf
+	slot0.scrollPanel = slot3:Find("window/panel")
 	slot4 = slot0._tf
 	slot5 = slot0._tf
 	slot0.UIlist = UIItemList.New(slot4:Find("window/panel/list"), slot5:Find("window/panel/list/item"))
@@ -78,6 +80,7 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3)
 		end
 	end)
 	slot0.UIlist:align(#slot1)
+	scrollTo(slot0.scrollPanel, 0, 1 - slot3 * 166 / (#slot2 * 166 + 20 - 570))
 end
 
 function slot0.Show(slot0, slot1)

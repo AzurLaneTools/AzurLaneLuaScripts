@@ -3185,7 +3185,7 @@ slot23 = nil
 function nowWorld()
 	uv0 = uv0 or getProxy(WorldProxy)
 
-	return uv0.world
+	return uv0 and uv0.world
 end
 
 function removeWorld()

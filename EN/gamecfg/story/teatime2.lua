@@ -300,7 +300,7 @@ return {
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "A single person alone can be a bit… but——Ninja {namecode:11} will never give up even if I'm facing danger alone! Here I come, North Union!",
+			say = "A single person alone can be a bit… but——Ninja {namecode:11} will never give up even if I'm facing danger alone! Here I come, Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

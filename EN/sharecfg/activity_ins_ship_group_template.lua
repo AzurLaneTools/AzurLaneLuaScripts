@@ -853,7 +853,7 @@ pg.activity_ins_ship_group_template = {
 	[70104] = {
 		ship_group = 70104,
 		name = "Ташкент",
-		sculpture = "tashigan_idol"
+		sculpture = "tashigan"
 	},
 	[20123] = {
 		ship_group = 20123,
@@ -1635,6 +1635,36 @@ pg.activity_ins_ship_group_template = {
 		name = "Naganami",
 		sculpture = "changbo_4"
 	},
+	[71801] = {
+		ship_group = 71801,
+		name = "Кронштадт",
+		sculpture = "kalangshitade"
+	},
+	[70110] = {
+		ship_group = 70110,
+		name = "Киев",
+		sculpture = "jifu"
+	},
+	[70701] = {
+		ship_group = 70701,
+		name = "Волга",
+		sculpture = "fuerjia"
+	},
+	[70506] = {
+		ship_group = 70506,
+		name = "Архангельск",
+		sculpture = "aerhangeersike"
+	},
+	[70109] = {
+		ship_group = 70109,
+		name = "Сообразительный",
+		sculpture = "lingmin"
+	},
+	[10148] = {
+		ship_group = 10148,
+		name = "Ingraham",
+		sculpture = "yinggelahan"
+	},
 	all = {
 		30701,
 		30702,
@@ -1962,6 +1992,12 @@ pg.activity_ins_ship_group_template = {
 		20230,
 		30158,
 		10504,
-		30183
+		30183,
+		71801,
+		70110,
+		70701,
+		70506,
+		70109,
+		10148
 	}
 }

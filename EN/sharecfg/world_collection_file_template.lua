@@ -1107,6 +1107,172 @@ According to a spokesperson, this exercise is an annual naval review and has no 
 		content = "...A summit was held between various factions to negotiate a response to mounting geopolitical tensions. The contents of the multi-hour summit were not disclosed. Additionally, there was no questioning period, joint presentations, or press conferences held after the summit. According to people familiar with the matter, the summit was held in silence from beginning to end.\nBecause no substantial content has been made public, we cannot analyze the results of the actual talks. However, the fact that the summit only lasted three hours while attempting to tackle such a crucial topic suggests that there may have been some problems in play. There are only two likely scenarios for why the summit lasted such a short time: First, the opinions of all the parties are quite unified, and the summit ended smoothly; Second, the opinions of the parties are far too different, and the summit would not serve any purpose. Taking into account the silence of the parties' participants following the summit, the second scenario seems more likely...",
 		pic = "10106"
 	},
+	[14101] = {
+		id = 14101,
+		name = "Mysterious Photo",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 1,
+		content = "The official account of the Eagle Union's Navy, infamous for basically being inactive, caused a stir recently when it posted a mysterious photo.\nA few days before the Independence Day celebration, the official account on a prominent social media site posted a picture of a young girl with an active-duty aircraft carrier. While the photo didn't get much attention at first, it quickly went viral across multiple platforms, triggering a barrage of speculation and concerns over how taxpayer dollars were being spent. As a result, the account quickly came out with a clarification that the girl was a new \"comrade-in-arms,\" about to officially join the Navy. \nThe account's strange wording only fueled more speculation, and the netizens following the matter came to connect her with the first shipgirl to be officially given a name: Enterprise. However, this uncovered relationship only spawned further rounds of debate, though primarily centered around wild guesses regarding which ship this girl was a \"reincarnation\" of. As with similar discussions, this quickly devolved into pointless speculation and bickering.",
+		pic = ""
+	},
+	[14102] = {
+		id = 14102,
+		name = "Unexpected Press Conference",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+"...Reporting from the lawn of the W.H. The administration has announced that it will shortly be holding a press conference on "Bon Homme Richard" on this lawn.
+As you may know, following an award ceremony that was broadcast to the whole world, the girls born from Wisdom Cubes came to gradually gain acceptance throughout the world. Because information about these girls has been classified as confidential by all countries with access to the technology, the amount of intel we're able to access is unfortunately very limited.
+However, that might finally change today! Just now, a spokesperson from the administration confirmed that the information disclosed on the official Navy social media account is true. This ship - or rather, young lady - by the name of Bon Homme Richard, has officially entered the Eagle Union's Navy, and the administration has promised to make more information available at the press conference!
+Currently, the administration spokesperson has just appeared, my friends... By God, the person following the speaker...! Photographer, photographer! Turn the camera to that girl! Yes, that girl, she's the very same person in that photo posted by the Navy's account! Wow, she's even waving at us... Talk about unexpected!
+The spokesperson is introducing us to Miss Richard – wait, am I hearing this right? The official spokesperson of the Eagle Union Navy?! For the viewers back home, this is certainly a surprising turn of events! Miss Richard has disclosed that she indeed will be one of the spokespeople for the Navy..."]],
+		pic = ""
+	},
+	[14103] = {
+		id = 14103,
+		name = "A Rising Star",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 3,
+		content = [[
+"...At the time of this article's publication, the video of Richard's inaugural conference has received over 100 million views! Not only that, but the ceremony has also set off waves of heated discussion across all major social media platforms. It seems like the world cannot quench its thirst for information about the young woman known as "Bon Homme Richard."
+Even though the existence of the shipgirls has come to be widely accepted, and new fleets led by Enterprise have become more and more visible to the public eye, there are still many people - and organizations - skeptical about them. They are convinced that the so-called "shipgirls" are nothing more than a large-scale government propaganda campaign, and the true identity of the "shipgirls" are none other than ordinary human girls. One individual claiming to "expose" the true identity of Bon Homme Richard has published a lengthy article to a personal site, featuring a litany of "evidence" to support these claims. However, judging from the responses, this lengthy article is full of logical fallacies and only serves to strengthen the opposite position.
+We asked Miss Richard herself on what she thought about this article and related claims via her official social media account, and she responded only with this statement: "Many choose to believe that the Earth is flat. Does that make them any more correct?"
+Within minutes of this post being uploaded, these words have become a top trending search across the internet..."]],
+		pic = "14101"
+	},
+	[14104] = {
+		id = 14104,
+		name = "A Mysterious Guest?",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 4,
+		content = [[
+"...The city fair that was halted for many years will finally be held again!
+For a long time, the stark contrast between the city's former glory and its condition in recent years has become a symbol of decay, with everything seemingly on the brink of collapse. However, after the arrival of the E-Cube industry, this place was granted a new lease on life. With the E-Cube at its heart, the city rapidly pulled itself out from its dire straits by embracing a brand new automotive industry, bringing clean-energy cars to the world while also reversing unemployment rates in a way economists could only describe as "miraculous."
+To celebrate the city's revitalization, the city council decided to once again hold the city fair that had been suspended for many years. While the fair is guaranteed to have a wide range of offerings, the highlight of the event undoubtedly will be the E-Cube vehicle street racing event. The fair organizer previously stated that there would be a mysterious guest who wished to remain anonymous, but will also be participating in the race along with the city's residents."
+"...When the event was held, the organizer's claims proved to be true. Many locals at the scene said that they saw a female racecar driver suspected to be 'Miss Richard,' and a local reporter even took a blurry photo. In the photo, the driver, believed to be Miss Richard, was driving a red sports car through the city's main street.
+Surprisingly, the Navy's social media accounts denied the authenticity of the photo, insisting that Bon Homme Richard was not involved in the fair that day..."]],
+		pic = ""
+	},
+	[14105] = {
+		id = 14105,
+		name = "Social Media Frenzy",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+...
+Anonymous (ID: nFjkdzKpQ) 21:04 No.2732
+shocked_anime_girl.png
+HOLY SHIT GUYS YOU'RE NOT GONNA BELIEVE THIS
+Anonymous (ID: CwbqWdQHO) 21:06 No.2733
+not gonna believe what
+
+Anonymous (ID: nFjkdzKpQ) 21:06 No.2734
+>>2733
+Shit I hit post by mistake, anyway what I was gonna say was
+I JUST MET RICHARD IN REAL LIFE! YOU KNOW, THE NAVY SPOKESWOMAN!
+
+Anonymous (ID: CwbqWdQHO) 21:07 No.2735
+>>2734
+did u hold hands too?
+pics or it didn't happen
+
+Anonymous (ID: nFjkdzKpQ) 21:08 No.2736
+Time_2030_pic.PNG
+>>2735
+>out walking my dog
+>leash slips from my hands, have to chase after it
+>woman drives up from out of nowhere
+>IT'S RICHARD
+>she helps me catch my dog, we make small talk, she tells me about this pastry shop she likes then gives me a discount coupon with her name written on it
+I had to fight the muscles in my face to stop myself from making the soyjak face the moment she showed up
+
+Anonymous (ID: CwbqWdQHO) 21:08 No.2737
+>>2736
+if it wasn't for the signature I'd be calling BS but I can't believe this is legit
+how's it feel being the luckiest guy on the planet?
+
+Anonymous (ID: LjWhR7Qk2) 21:09 No.2738
+>>2736
+So the key to meeting Richard is 1: own a dog, 2: take it on a walk, and 3: be in the right place at the right time?
+Really regretting my life choice of being a cat person right now bros...
+
+Anonymous (ID: CwbqWdQHO) 21:10 No.2739
+>>2738
+You know you can take cats on walks too right?
+Who knows, she might like cats too, so if you're in the area you might get lucky and come across her
+
+Anonymous (ID: LjWhR7Qk2) 21:10 No.2740
+>>2739
+I... didn't think of that lol.
+Guess I'm going out to buy a leash for my cat.
+...]],
+		pic = "14102"
+	},
+	[14106] = {
+		id = 14106,
+		name = "NFRD Announces New Exercises",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 6,
+		content = "...At a press conference today, a Navy representative announced that the New Forces Research Department will participate in an annual military exercise scheduled to take place in the NA Ocean. Interestingly, Navy spokesperson Richard also attended the press conference.\nAt a charity event hosted by Bon Homme Richard last month, she was seen chatting with a Naval officer in charge of the New Forces Research Department; Dr. Anzeel, honorary chairwoman of the Energy Cube Standardization Symposium; and Dr. Aoste, a global pioneer in artificial intelligence research. The fact that she was seen talking to these prominent figures makes the world wonder whether there is some kind of connection to recent developments.\nReaders, if you are interested about new military developments or the New Forces Research Department, please consider subscribing to this magazine. Members will gain exclusive access to in-depth information about the New Forces Research Department, as well as early-access to pictures of Miss Richard's gala dress - something not yet released to the public yet...",
+		pic = ""
+	},
+	[14201] = {
+		id = 14201,
+		name = "RFMC's Response",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 1,
+		content = "...Just an hour ago, the R.F. Military Commission announced that it would hold an additional naval exercise in the open waters of the NA Ocean by the end of next year, and that further details would be provided over the following weeks. Though the spokesperson claimed that the exercise would not be aimed at any country or faction, analysts generally believe that this announcement was a response to the Eagle Union's routine exercises.\nAt the time of this article's publication, we have reached out to the Eagle Union's naval representatives but have not received any comments so far. However, officials have revealed that the 6th Fleet, stationed in the Méditerranée, has been ordered to leave its moored naval port and relocated to a new deployment location...",
+		pic = ""
+	},
+	[14202] = {
+		id = 14202,
+		name = "Opinions on Current Affairs",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+...As of noon today, almost 24 hours have passed since the two countries entered a tense standoff in the Bermuda triangle. Just now, the Eagle Union issued a statement claiming that the other side's choice to approach during a routine combat exercise constituted "hostile" behavior. According to one of the fighter pilots involved, he was locked on by the destroyer's radar without advance notice during routine maneuvers. On the other hand, the R.F. has accused the pilots of initiating provocative actions...
+––––Updated at 13:05––––
+Note: User IDs and timestamps are hidden, as according to our comment section policies.
+1. Anonymous Cat
+Not this shit again, can both sides chill out?
+2. Anonymous Beaver
+Not the right time to go back to sleep. Things are gonna be dangerous from now on.
+3. Anonymous Cat
+Haven't caught a wink of sleep since I was born.
+4. Anonymous Aardvark
+LMAO you guys are both psychotic. Nobody's going to war over this.
+5. Anonymous Beaver
+Who'd you hear that from? You have a relative who works for the Politburo?
+6. Anonymous Aardvark
+I'm actually a double-agent myself lul]],
+		pic = ""
+	},
+	[14203] = {
+		id = 14203,
+		name = "Intensifying Confrontation",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 3,
+		content = "...Just earlier, Miss Bon Homme Richard, spokesperson for the Eagle Union Navy, announced that she just received transfer orders to temporarily join the New Forces Research Department's parent fleet to participate in a naval exercise. The Northern Parliament, after receiving the announcement, protested fiercely, and the Military Commission declared that it would increase the number of troops it plans to send to their own naval exercises to counterbalance the Eagle Union's buildup of forces. It is clear that the tensions are about to reach a flashpoint.\nThere are rumors that negotiations between the two sides have been ongoing amid intensifying clashes over the exercise area, but experts fear that the entry of the New Forces Research Department will make continued negotiations difficult. Nobody can predict how things will unfold from this point...",
+		pic = ""
+	},
+	[14204] = {
+		id = 14204,
+		name = "Closer to the Truth?",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 4,
+		content = "...Last night, the spokespeople from both sides of the aisle suddenly became silent, a drastic shift following months of posturing and argument. Preliminary evidence shows that a major naval base responsible for the logistical support of the exercises started showing signs of large-scale mobilization of medical supplies overnight. Several submersible salvaging ships formerly moored at the port were also said to be leaving the base one after another. This source said that the two sides may have exchanged fire during the confrontation. Other anonymous sources have stated that while the Eagle Union's fleet did sustain some damage, this was not due to an act of war but rather was an unfortunate tragedy caused by \"technical failures.\" A video of what appeared to be the scene of the confrontation briefly appeared on social media, showing a black tornado passing through a Eagle Union warship, causing it to explode violently. The video has since been taken down.\nIn any case, the only thing that is clear right now is that the Northern Parliament's fleet have gradually begun withdrawing from NA waters. Though neither side has issued any official announcements, we can be sure that the tense confrontation will move towards resolution...",
+		pic = "14201"
+	},
 	all = {
 		1101,
 		1102,
@@ -1179,6 +1345,16 @@ According to a spokesperson, this exercise is an annual naval review and has no 
 		10103,
 		10104,
 		10105,
-		10106
+		10106,
+		14101,
+		14102,
+		14103,
+		14104,
+		14105,
+		14106,
+		14201,
+		14202,
+		14203,
+		14204
 	}
 }

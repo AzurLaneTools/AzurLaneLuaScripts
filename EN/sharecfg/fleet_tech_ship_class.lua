@@ -2325,6 +2325,28 @@ pg.fleet_tech_ship_class = {
 			70104
 		}
 	},
+	[70104] = {
+		shiptype = 1,
+		name = "Kiev-Class",
+		nation = 7,
+		id = 70104,
+		t_level_1 = 131,
+		t_level = 8,
+		ships = {
+			70110
+		}
+	},
+	[70105] = {
+		shiptype = 1,
+		name = "Storozhevoy-Class",
+		nation = 7,
+		id = 70105,
+		t_level_1 = 136,
+		t_level = 4,
+		ships = {
+			70109
+		}
+	},
 	[70201] = {
 		shiptype = 2,
 		name = "Pallada Class",
@@ -2412,6 +2434,39 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			70504,
 			70505
+		}
+	},
+	[70503] = {
+		shiptype = 5,
+		name = "R-class battleship – Arkhangelsk.",
+		nation = 7,
+		id = 70503,
+		t_level_1 = 136,
+		t_level = 6,
+		ships = {
+			70506
+		}
+	},
+	[70701] = {
+		shiptype = 7,
+		name = "Volga.",
+		nation = 7,
+		id = 70701,
+		t_level_1 = 137,
+		t_level = 8,
+		ships = {
+			70701
+		}
+	},
+	[71801] = {
+		shiptype = 18,
+		name = "Kronshtadt",
+		nation = 7,
+		id = 71801,
+		t_level_1 = 138,
+		t_level = 9,
+		ships = {
+			71801
 		}
 	},
 	[80101] = {
@@ -2818,6 +2873,8 @@ pg.fleet_tech_ship_class = {
 		70101,
 		70102,
 		70103,
+		70104,
+		70105,
 		70201,
 		70202,
 		70203,
@@ -2826,6 +2883,9 @@ pg.fleet_tech_ship_class = {
 		70301,
 		70501,
 		70502,
+		70503,
+		70701,
+		71801,
 		80101,
 		80102,
 		80103,

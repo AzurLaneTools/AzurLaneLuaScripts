@@ -403,7 +403,13 @@ function slot0.Preload(slot0)
 	slot3 = pg.expedition_data_template[slot0.contextData.stageId]
 	slot4 = nil
 
-	slot1:AddPreloadResource(slot1.GetMapResource((slot0.contextData.system ~= SYSTEM_WORLD or slot3.difficulty ~= ys.Battle.BattleConst.Difficulty.WORLD or nowWorld():GetActiveMap().config.expedition_map_id) and slot3.map_id))
+	if slot0.contextData.system == SYSTEM_WORLD and slot3.difficulty == ys.Battle.BattleConst.Difficulty.WORLD then
+		slot1:AddPreloadResource(slot1.GetMapResource(nowWorld():GetActiveMap().config.expedition_map_id))
+	else
+		for slot8, slot9 in ipairs(slot3.map_id) do
+			slot1:AddPreloadResource(slot1.GetMapResource(slot9[1]))
+		end
+	end
 
 	slot6, slot7 = slot1.GetStageResource(pg.expedition_data_template[slot0.contextData.stageId].dungeon_id)
 

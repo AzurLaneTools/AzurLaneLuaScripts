@@ -2593,6 +2593,208 @@ pg.map_event_list = {
 			"helpbg/battle_dexiv4_1"
 		}
 	},
+	[1620001] = {
+		help_open = 1,
+		chapter_id = 1620001,
+		event_list = {
+			654,
+			655,
+			656,
+			657,
+			658,
+			659,
+			660
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_maoxiv3"
+		}
+	},
+	[1620002] = {
+		help_open = 0,
+		chapter_id = 1620002,
+		event_list = {
+			661,
+			662,
+			663,
+			664,
+			665,
+			666,
+			667
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_maoxiv3"
+		}
+	},
+	[1620003] = {
+		help_open = 0,
+		chapter_id = 1620003,
+		event_list = {
+			668,
+			669,
+			670,
+			671,
+			672,
+			673,
+			674,
+			675,
+			676,
+			677
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_maoxiv3"
+		}
+	},
+	[1620004] = {
+		help_open = 0,
+		chapter_id = 1620004,
+		event_list = {
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {}
+	},
+	[1620005] = {
+		help_open = 0,
+		chapter_id = 1620005,
+		event_list = {
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {}
+	},
+	[1620006] = {
+		help_open = 0,
+		chapter_id = 1620006,
+		event_list = {
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {}
+	},
+	[1620021] = {
+		help_open = 1,
+		chapter_id = 1620021,
+		event_list = {
+			678,
+			679,
+			680,
+			681,
+			682,
+			683,
+			684
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_maoxiv3"
+		}
+	},
+	[1620022] = {
+		help_open = 0,
+		chapter_id = 1620022,
+		event_list = {
+			685,
+			686,
+			687,
+			688,
+			689,
+			690,
+			691
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_maoxiv3"
+		}
+	},
+	[1620023] = {
+		help_open = 0,
+		chapter_id = 1620023,
+		event_list = {
+			692,
+			693,
+			694,
+			695,
+			696,
+			697,
+			698,
+			699,
+			700,
+			701
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_maoxiv3"
+		}
+	},
+	[1620024] = {
+		help_open = 0,
+		chapter_id = 1620024,
+		event_list = {
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {}
+	},
+	[1620025] = {
+		help_open = 0,
+		chapter_id = 1620025,
+		event_list = {
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {}
+	},
+	[1620026] = {
+		help_open = 0,
+		chapter_id = 1620026,
+		event_list = {
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {}
+	},
+	[1620041] = {
+		help_open = 0,
+		chapter_id = 1620041,
+		event_list = {
+			702,
+			703,
+			704,
+			705,
+			706,
+			707,
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {
+			"helpbg/battle_maoxiv3"
+		}
+	},
+	[1620051] = {
+		help_open = 0,
+		chapter_id = 1620051,
+		event_list = {
+			708
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
 	all = {
 		1401,
 		1402,
@@ -2743,6 +2945,20 @@ pg.map_event_list = {
 		1600024,
 		1600025,
 		1600026,
-		1600041
+		1600041,
+		1620001,
+		1620002,
+		1620003,
+		1620004,
+		1620005,
+		1620006,
+		1620021,
+		1620022,
+		1620023,
+		1620024,
+		1620025,
+		1620026,
+		1620041,
+		1620051
 	}
 }

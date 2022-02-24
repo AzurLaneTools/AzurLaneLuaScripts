@@ -594,6 +594,46 @@ pg.strategy_data_template = {
 		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 1",
 		arg = {}
 	},
+	[8917] = {
+		buff_id = 0,
+		name = "Ice Construct",
+		type = 10,
+		iconSize = "",
+		id = 8917,
+		icon = "8917",
+		desc = "Ice constructs in the area block the way forward. Destroy the enemy fleets defending them to proceed.",
+		arg = {}
+	},
+	[8918] = {
+		buff_id = 8918,
+		name = "Data Synchronization I",
+		type = 10,
+		iconSize = "",
+		id = 8918,
+		icon = "8918",
+		desc = "The synchronization process is causing hallucinations. \nBarrages will spawn during battle which inflict damage to both friends and foes alike.",
+		arg = {}
+	},
+	[8919] = {
+		buff_id = 8918,
+		name = "Data Synchronization II",
+		type = 10,
+		iconSize = "",
+		id = 8919,
+		icon = "8919",
+		desc = "The synchronization process is causing hallucinations. \nBarrages will spawn during battle which inflict damage to both friends and foes alike.",
+		arg = {}
+	},
+	[8920] = {
+		buff_id = 8918,
+		name = "Data Synchronization III",
+		type = 10,
+		iconSize = "",
+		id = 8920,
+		icon = "8920",
+		desc = "The synchronization process is causing hallucinations. \nBarrages will spawn during battle which inflict damage to both friends and foes alike.",
+		arg = {}
+	},
 	[9211] = {
 		buff_id = 9211,
 		name = "Dragon Palace's Boon - White Waves",
@@ -1458,6 +1498,10 @@ pg.strategy_data_template = {
 		8914,
 		8915,
 		8916,
+		8917,
+		8918,
+		8919,
+		8920,
 		9211,
 		9212,
 		9213,

@@ -72,7 +72,7 @@ function slot0.GetFleetType(slot0)
 end
 
 function slot0.GetPrefab(slot0)
-	return WorldConst.FetchRawShipVO(slot0[TeamType.Main][1].id):getPrefab()
+	return slot0:GetFlagShipVO():getPrefab()
 end
 
 function slot0.GetShip(slot0, slot1)

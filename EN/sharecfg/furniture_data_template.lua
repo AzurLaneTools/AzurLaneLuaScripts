@@ -4704,6 +4704,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[221] = {
+		effect = "",
+		name = "Research Base Scale Model",
+		gain_by = "Abyssal Refrain",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A trophy to commemorate the victory against the Sirens in the last Great War. It fills you with the strength of the Northern Parliament's unwavering spirit. Given to Commanders who participated in the Abyssal Refrain event.",
+		tag = 6,
+		icon = "maozi3xunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 221,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -6099,6 +6142,89 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100025] = {
+		effect = "",
+		name = "Diving Tower ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Geronimoooooooooo!",
+		themeId = 0,
+		icon = "bengjiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100025,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bengjiB",
+				"normal"
+			},
+			{
+				"bengjiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[100026] = {
 		effect = "",
 		name = "Wide Manjuu Trampoline",
@@ -6421,6 +6547,88 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[200004] = {
+		effect = "",
+		name = "Getaway Chopper",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"My work here is done.\"",
+		themeId = 0,
+		icon = "furniture_aerhangeersike_2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		belong = 1,
+		canputon = 0,
+		id = 200004,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_aerhangeersike_2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"tuozhuai2",
+				{
+					705061
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -88271,8 +88479,8 @@ pg.furniture_data_template = {
 			{
 				"sit",
 				{
-					-31.4,
-					76.2
+					-35.5,
+					63.1
 				},
 				{
 					1,
@@ -88784,6 +88992,7 @@ pg.furniture_data_template = {
 		216,
 		217,
 		218,
+		221,
 		100002,
 		100003,
 		100004,
@@ -88803,10 +89012,12 @@ pg.furniture_data_template = {
 		100021,
 		100022,
 		100023,
+		100025,
 		100026,
 		200001,
 		200002,
 		200003,
+		200004,
 		1001,
 		1002,
 		1101,

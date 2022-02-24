@@ -53,30 +53,44 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	setActive(slot0.textPay:Find("before"), not slot0.isPay)
-	setActive(slot0.textPay:Find("after"), slot0.isPay)
+	slot2 = slot0.textPay
+
+	setActive(slot2:Find("before"), not slot0.isPay)
+
+	slot2 = slot0.textPay
+
+	setActive(slot2:Find("after"), slot0.isPay)
 	setActive(slot0.btnPay, not slot0.isPay)
 	setActive(slot0.markPay, slot0.isPay)
-	setActive(slot0.btnGoBase:Find("tip"), slot0.activity:readyToAchieve())
-	setActive(slot0.btnGoPay:Find("tip"), slot0.activity:readyToAchieve())
 
-	if slot0.isPay then
-		triggerToggle(slot0.togglePay, true)
-	else
-		triggerToggle(slot0.toggleBase, true)
+	slot2 = slot0.btnGoBase
+	slot3 = slot0.activity
 
-		if PlayerPrefs.GetInt("first_crusing_page_display:" .. slot0.activity.id, 0) == 0 then
-			PlayerPrefs.SetInt("first_crusing_page_display:" .. slot0.activity.id, 1)
+	setActive(slot2:Find("tip"), slot3:readyToAchieve())
 
-			slot0.LTFirst = LeanTween.delayedCall(3, System.Action(function ()
-				triggerToggle(uv0.togglePay, true)
+	slot2 = slot0.btnGoPay
+	slot3 = slot0.activity
+
+	setActive(slot2:Find("tip"), slot3:readyToAchieve())
+	onNextTick(function ()
+		if uv0.isPay then
+			triggerToggle(uv0.togglePay, true)
+		else
+			triggerToggle(uv0.toggleBase, true)
+
+			if PlayerPrefs.GetInt("first_crusing_page_display:" .. uv0.activity.id, 0) == 0 then
+				PlayerPrefs.SetInt("first_crusing_page_display:" .. uv0.activity.id, 1)
 
 				uv0.LTFirst = LeanTween.delayedCall(3, System.Action(function ()
-					triggerToggle(uv0.toggleBase, true)
+					triggerToggle(uv0.togglePay, true)
+
+					uv0.LTFirst = LeanTween.delayedCall(3, System.Action(function ()
+						triggerToggle(uv0.toggleBase, true)
+					end)).uniqueId
 				end)).uniqueId
-			end)).uniqueId
+			end
 		end
-	end
+	end)
 end
 
 function slot0.OnHideFlush(slot0)
@@ -84,8 +98,6 @@ function slot0.OnHideFlush(slot0)
 		LeanTween.cancel(slot0.LTFirst)
 
 		slot0.LTFirst = nil
-
-		triggerToggle(slot0.toggleBase, true)
 	end
 end
 

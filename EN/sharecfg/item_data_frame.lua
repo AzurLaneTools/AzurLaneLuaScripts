@@ -303,7 +303,7 @@ pg.item_data_frame = {
 		gain_by = "碧海光粼",
 		id = 316,
 		time_second = 0,
-		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\" Given to commanders who participated in the \"Upon the Shimmering Blue\" event.</color>",
+		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\"</color>\nObtained from the \"Upon the Shimmering Blue\" event. <color=#ffffff>",
 		scene = {}
 	},
 	[317] = {
@@ -318,10 +318,10 @@ pg.item_data_frame = {
 	[318] = {
 		time_limit_type = 0,
 		name = "Seal of the Polar Star",
-		gain_by = "",
+		gain_by = "深度回音",
 		id = 318,
 		time_second = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>An award given by Sovetsky Soyuz to soldiers who went above and beyond.</color> Obtainable in the Abyssal Refrain event.",
 		scene = {}
 	},
 	[406] = {

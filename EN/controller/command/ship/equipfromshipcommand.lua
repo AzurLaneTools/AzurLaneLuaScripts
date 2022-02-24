@@ -55,21 +55,12 @@ function slot0.execute(slot0, slot1)
 						slot2 = pg.equip_skin_template
 
 						if uv0:getEquip(uv1) then
-							if slot1:hasSkin() then
-								if not _.any(slot2[slot1.skinId].equip_type, function (slot0)
-									return uv0.config.type == slot0
-								end) then
-									uv3:addEquipmentSkin(slot1.skinId, 1)
-									pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unmatch_equipment"))
-								end
-							end
-
-							uv3:addEquipment(slot1)
+							uv2:addEquipment(slot1)
 						end
 
-						uv0:updateEquip(uv1, uv2)
+						uv0:updateEquip(uv1, uv3)
 						uv4:updateShip(uv0)
-						uv3:removeEquipmentById(uv5, 1)
+						uv2:removeEquipmentById(uv5, 1)
 						uv6:sendNotification(GAME.EQUIP_TO_SHIP_DONE, uv0)
 						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_ok", pg.equip_data_statistics[uv5].name), "green")
 					else

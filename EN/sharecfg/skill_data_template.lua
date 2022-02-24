@@ -156,11 +156,11 @@ pg.skill_data_template = {
 	},
 	[390] = {
 		desc_get = "",
-		name = "后排导驱隐蔽状态伤害增益",
+		name = "Future Content ",
 		id = 390,
 		type = 0,
 		max_level = 0,
-		desc = "主力舰队模式导驱，隐蔽状态下，造成伤害提高15%",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			0
@@ -170,11 +170,11 @@ pg.skill_data_template = {
 	},
 	[392] = {
 		desc_get = "",
-		name = "前排导驱主炮飞行速度提高",
+		name = "Future Content ",
 		id = 392,
 		type = 0,
 		max_level = 0,
-		desc = "先锋舰队模式导驱，一号位主炮飞行速度提高10%",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			0
@@ -58292,6 +58292,1391 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 			}
 		}
 	},
+	[15230] = {
+		desc_get = "",
+		name = "The Genius Mechanic",
+		id = 15230,
+		type = 2,
+		max_level = 10,
+		desc = "Every 15s: $3 chance to deploy a smokescreen that increases Evasion Rate by $4 for all your ships in it (smokescreen lasts 5s; Evasion Rate buff does not stack with other smokescreen skills). \nWhile this ship is inside a smokescreen: increases this ship's DMG dealt by $1 and, once per battle, increases her LCK by $2 until the battle ends.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"1",
+				"8"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"5"
+				},
+				{
+					"6"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[15240] = {
+		desc_get = "",
+		name = "Can I Attack Now?",
+		id = 15240,
+		type = 1,
+		max_level = 10,
+		desc = "5s after the battle starts: fires a $1 special barrage; every 10s after that: fires an upgraded version of this barrage and also increases this ship's Crit Rate and Crit DMG by $2 (barrage DMG is based on the skill's level; barrage upgrade effect and Crit-related effects can only activate up to 2 times per battle).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[15250] = {
+		desc_get = "",
+		name = "Hang in There? Sure...",
+		id = 15250,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's ACC by $1. When the battle starts: 1) if there are 3 ships afloat in your Vanguard, or there is 1 other Northern Parliament ship in your Vanguard: increases this ship's FP and TRP by $2; if this ship is your sole Vanguard ship: instead increases this ship's AA and EVA by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15260] = {
+		desc_get = "",
+		name = "Noble Strike",
+		id = 15260,
+		type = 1,
+		max_level = 10,
+		desc = "Every 15s: fires a $1 special barrage and increases the ACC of your Main Fleet by $2 for 8s (barrage DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[15270] = {
+		desc_get = "",
+		name = "Revenge Served Cold",
+		id = 15270,
+		type = 3,
+		max_level = 10,
+		desc = "For each Northern Parliament or Royal Navy ship in the same fleet as this ship: increases this ship's FP by $1 (can be stacked up to 3 times); if there are 3 or more: also increases this ship's AA by $2 and decreases her Burn DMG taken by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[15280] = {
+		desc_get = "",
+		name = "A Genius Keeps Things Simple!",
+		id = 15280,
+		type = 2,
+		max_level = 10,
+		desc = "Every 20s: 70.0% chance to fire a $2 special barrage and, if there is at least 1 other DD originating from the Northern Parliament in your fleet: restores $1 HP of a randomly chosen DD originating from the Northern Parliament in your fleet (barrage DMG is based on the skill's level; healing effect can only activate up to 2 times per battle; if the healing recipient is Tashkent, the amount of HP restored is increased by 50.0%).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15290] = {
+		desc_get = "",
+		name = "Indomitable Ice",
+		id = 15290,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and EVA by $1. Every 8 times this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level; if this ship has a large-caliber Main Gun equipped: decreases the shot requirement to 4 and improves this barrage).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15300] = {
+		desc_get = "",
+		name = "Tempered Prudence",
+		id = 15300,
+		type = 2,
+		max_level = 10,
+		desc = "Decreases the DMG this ship takes from AP ammo by $1. Every 4 times this ship fires her Secondary Guns: fires a $2 special barrage that decreases the FP of enemies hit by 5.0% (barrage DMG is based on the skill's level). When this ship equips Northern Parliament gear: increases this ship's Secondary Gun efficiency by $3 and, instead of reducing AP DMG taken, decreases all DMG taken by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"25.0%",
+				"45.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"25.0%",
+					"+2.2%"
+				},
+				{
+					"27.2%",
+					"+2.2%"
+				},
+				{
+					"29.4%",
+					"+2.2%"
+				},
+				{
+					"31.6%",
+					"+2.2%"
+				},
+				{
+					"33.8%",
+					"+2.2%"
+				},
+				{
+					"36.0%",
+					"+2.2%"
+				},
+				{
+					"38.2%",
+					"+2.2%"
+				},
+				{
+					"40.4%",
+					"+2.2%"
+				},
+				{
+					"42.6%",
+					"+2.4%"
+				},
+				{
+					"45.0%"
+				}
+			}
+		}
+	},
+	[15310] = {
+		desc_get = "",
+		name = "Strong-Willed Support",
+		id = 15310,
+		type = 3,
+		max_level = 10,
+		desc = "During a battle, when this ship has taken at least 10.0% of her max HP in DMG: decreases this ship's Burn DMG taken by 50.0% and recovers 1.0% of her max HP every second for $1s. While this ship is afloat, when a fleet this ship is NOT in starts a battle: 1) if that fleet's Flagship is a BB: decreases the Main Gun Spread of all your BBs by 2; 2) 20s after the battle starts: fires a $2 special barrage that decreases the SPD of enemies hit by 40.0% for 5s (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1",
+				"10"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1",
+					"+1"
+				},
+				{
+					"2",
+					"+1"
+				},
+				{
+					"3",
+					"+1"
+				},
+				{
+					"4",
+					"+1"
+				},
+				{
+					"5",
+					"+1"
+				},
+				{
+					"6",
+					"+1"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8",
+					"+1"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15320] = {
+		desc_get = "",
+		name = "Meteoric Hope",
+		id = 15320,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an Airstrike: $1 chance to launch an additional $2 special airstrike (DMG is based on the skill's level; inflicts the Flooding status for 12s to enemies hit by the special airstrike's torpedos). If this effect fails to activate: instead fires a $2 special barrage (DMG is based on the skill's level and this ship's AVI stat).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15330] = {
+		desc_get = "",
+		name = "Crystals of the Great River",
+		id = 15330,
+		type = 3,
+		max_level = 10,
+		desc = "Every 20s: selects the lowest HP percentage ship in your fleet, and afterwards 2 randomly chosen ships in your fleet, and recovers HP for the ship(s) equal to $1 of this ship's max HP (it is possible for a ship to receive multiple heals). After this effect activates: spawns a $2 summon that explodes, dealing DMG to enemies (DMG is based on the skill's level and this ship's AVI stat).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15340] = {
+		desc_get = "",
+		name = "Motherly Heart",
+		id = 15340,
+		type = 3,
+		max_level = 10,
+		desc = "When the battle starts, increases this ship's AVI by $1 per each ship in your Vanguard (can be stacked up to 3 times). If your Flagship or Vanguard lead ship is a Northern Parliament ship: grants this ship the full stack of 3 regardless of the number of ships in your Vanguard.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[15350] = {
+		desc_get = "",
+		name = "Strong-Willed Support",
+		id = 15350,
+		type = 3,
+		max_level = 10,
+		desc = "",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -67594,6 +68979,34 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[26031] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		id = 26031,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault Ⅰ: Minsk once every 15 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26032] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		id = 26032,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault Ⅱ: Minsk once every 10 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[26111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -70087,6 +71500,34 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		type = 1,
 		max_level = 1,
 		desc = "Activates All Out Assault III: An Shan-class when this ship launches a Missile Strike.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29821] = {
+		desc_get = "",
+		name = "All-Out Assault: I",
+		id = 29821,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Kiev once every 15 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29822] = {
+		desc_get = "",
+		name = "All-Out Assault: II",
+		id = 29822,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Kiev once every 10 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -81264,6 +82705,19 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		15200,
 		15210,
 		15220,
+		15230,
+		15240,
+		15250,
+		15260,
+		15270,
+		15280,
+		15290,
+		15300,
+		15310,
+		15320,
+		15330,
+		15340,
+		15350,
 		18010,
 		18040,
 		18050,
@@ -81528,6 +82982,8 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		26012,
 		26021,
 		26022,
+		26031,
+		26032,
 		26111,
 		26112,
 		26211,
@@ -81706,6 +83162,8 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		29802,
 		29811,
 		29812,
+		29821,
+		29822,
 		101010,
 		101020,
 		101030,

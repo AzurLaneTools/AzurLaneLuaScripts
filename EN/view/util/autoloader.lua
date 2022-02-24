@@ -3,12 +3,13 @@ slot1 = false
 slot2 = false
 slot3 = import("view.util.RequestPackages.LoadPrefabRequestPackage")
 slot4 = import("view.util.RequestPackages.LoadReferenceRequestPackage")
-slot5 = import("view.util.RequestPackages.GetSpineRequestPackage")
-slot6 = import("view.util.RequestPackages.GetPrefabRequestPackage")
-slot7 = import("view.util.RequestPackages.GetSpriteRequestPackage")
-slot8 = import("view.util.RequestPackages.ReturnPrefabRequestPackage")
-slot9 = import("view.util.RequestPackages.ReturnSpineRequestPackage")
-slot10 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
+slot5 = import("view.util.RequestPackages.LoadLive2dRequestPackage")
+slot6 = import("view.util.RequestPackages.GetSpineRequestPackage")
+slot7 = import("view.util.RequestPackages.GetPrefabRequestPackage")
+slot8 = import("view.util.RequestPackages.GetSpriteRequestPackage")
+slot9 = import("view.util.RequestPackages.ReturnPrefabRequestPackage")
+slot10 = import("view.util.RequestPackages.ReturnSpineRequestPackage")
+slot11 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
 slot0.PartLoading = bit.lshift(1, 0)
 slot0.PartLoaded = bit.lshift(1, 1)
 
@@ -225,6 +226,33 @@ function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot5:Start()
 
 	return slot4
+end
+
+function slot0.LoadLive2D(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5, slot6 = HXSet.autoHxShift("live2d/", slot1)
+
+	slot0:ClearRequest(slot3)
+
+	slot3 = slot3 or slot0:GenerateUID4LoadingRequest()
+	slot5 = nil
+	slot5 = uv0.New(slot5 .. slot6, slot1, function (slot0)
+		uv0._loadingRequest[uv1] = nil
+
+		if uv2 then
+			uv2(slot0)
+		end
+	end)
+
+	if uv1 then
+		print("AutoLoader Loading Live2D Once Path: " .. slot4 .. " Name: " .. slot1 .. " ;")
+	end
+
+	slot0._loadingRequest[slot3] = slot5
+
+	slot5:Start()
+
+	return slot3
 end
 
 function slot0.LoadSprite(slot0, slot1, slot2, slot3, slot4)
