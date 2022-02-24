@@ -10,7 +10,7 @@ return {
 			bgm = "bgm-cccp3",
 			side = 2,
 			bgName = "bg_deepecho_2",
-			say = "警报音————",
+			say = "The sudden blaring of sirens interrupted the banter between the two ships.",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/ui/alarm",
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？这是…………",
+			say = "What's happening?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "喀琅施塔得！刚刚是基地的警报系统！似乎是在周边海域发现了正在接近的塞壬舰队！",
+			say = "Kronshtadt! We're picking up Siren signatures! They're headed our way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "敌人规模呢？",
+			say = "How many? Volga, have you sent out any recons yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "稍等，我去侦察一下哦————",
+			say = "I have! I'll try to get some more out in a moment–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只看到了零星的敌人，规模不大，似乎只是偶然接近的巡逻队。",
+			say = "It seems there's only a handful of them. What's more, they don't appear to have their course set on us – we just happen to be in their path.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "这种规模依靠基地的驻防舰队应该就能轻松解决~",
+			say = "I believe our mass-produced ships stationed at the research base will be enough to deal with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "看起似乎是这样呢。不过……我觉得这个机会还挺合适的。大家要不要去练练手？",
+			say = "Most likely. Still, we ought to eliminate them ourselves. Think of it as a warmup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就像赛前热身一样？",
+			say = "Warmup for what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没错~就像赛前热身一样，在正式执行任务之前，首先重温一下极地的寒风吧。",
+			say = "Our objective – that Siren relic – is bound to have more than a handful of Sirens guarding it, so why not test our tactics in a comparatively safe environment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "好耶！正好去实验一下潜航舰的性能！",
+			say = "She's right, you know! We need to get into the swing of fighting while defending the Suliko!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "我也没问题哦。",
+			say = "Kiev and I agree wholeheartedly! I'll keep my planes on them so we don't lose track of–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,8 +259,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "啊——大家快看天上，极光开始出现了！",
+			actorName = "Volga",
+			say = "Hey... Everyone, look at the sky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,24 +274,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_3",
-			say = "潜航舰平整宽阔的前甲板正是欣赏美景的绝佳地点，众人来到甲板处，望着天空微微出神。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_3",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "灵敏",
-			say = "哇……今天的极光真漂亮！",
+			say = "The girls gathered on the deck looked up and saw a night sky with curtains of silver-blue light slowly fluttering high above.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,8 +290,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "赞同。",
+			actorName = "Soobrazitelny",
+			say = "An aurora! What a spectacular and rare sight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +307,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "你知道么，基辅，极光的光芒是自太阳而来的高速带电粒子经过磁场偏转之后与空气粒子碰撞形成的哦。",
+			actorName = "Kiev",
+			say = "Agreed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,8 +324,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "绚烂飘动的极光本身也是巨大的能量释放!",
+			actorName = "Soobrazitelny",
+			say = "Say, Kiev, believe it or not, but I have a question for you! Do you know how auroras are formed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,8 +341,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "……听起来好像没有那么浪漫了。",
+			actorName = "Soobrazitelny",
+			say = "This is admittedly a gap in my knowledge and I thought, \"Hey, Kiev is the quiet type, so she likely knows more than she lets on!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,8 +358,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "是么~粒子碰撞产生的高能释放形成了梦幻的光带！我觉得还是挺浪漫的~",
+			actorName = "Kiev",
+			say = "...That's a stereotype about introverts. Quiet people aren't always smart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,8 +375,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "………你开心就好。",
+			actorName = "Soobrazitelny",
+			say = "Shh! The genius mechanic asked you a question! What you just gave me is not an answer, but a sidenote!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,22 +392,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "这么美妙的景色，让人忍不住许愿呢~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_3",
-			say = "伏尔加双手合十，似乎对着极光认真许下了什么愿望。",
+			actorName = "Kiev",
+			say = "...It so happens I do know. Auroras are the result of fast-moving charged particles from the sun colliding with air particulars in the planet's magnetic field. Does that make sense to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,8 +409,39 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "（希望这次的任务可以顺顺利利，所有人都能够平安回去~）",
+			actorName = "Volga",
+			say = "The explanation is lost on me, I'm afraid. All I know is these lights are gorgeous~ I should make a wish to the aurora!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_3",
+			say = "Volga put her hands together and whispered a wish to the sky.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_3",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Volga",
+			say = "(Please, watch over my friends and let our mission here go without a hitch.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_deepecho_3",
 			dir = 1,
 			blackBg = true,
-			say = "潜航舰开始了移动，极地要塞在众人的视野中缓慢倒退着。以此为标志，任务正式开始了。",
+			say = "At that exact moment, the Suliko's sensors picked up a distress signal from an unknown source...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

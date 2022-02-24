@@ -18692,7 +18692,7 @@ _G.pg.gametip.shopping_error_time_limit = {
 }
 
 _G.pg.gametip.world_total_power = {
-	tip = "Combat Effectiveness"
+	tip = "Power"
 }
 
 _G.pg.gametip.world_mileage = {

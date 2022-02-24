@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·北方联合控制区",
+			say = "Polar Region - Northern Parliament Waters",
 			side = 2,
 			bgName = "bg_deepecho_0",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "航向正确，航速平稳……引擎出力正常……",
+			say = "Speed and angle looking good... Engine output stable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "嘿嘿……真是太帅了…………好想拆开看看啊…………",
+			say = "Wow! This is all incredible! Oh, how I'd love to take this beauty apart and examine the components!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "灵敏只要碰到和机械有关的东西就像变了个人一样呢~",
+			say = "Goodness me, you're like a kid in a candy shop~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "就像给了一颗糖就安静下来的小孩子。",
+			say = "A kid in a candy shop her parents own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "要不然改一下这个参数好了，嘿嘿嘿……",
+			say = "Oh boy, I wonder what happens if I tweak these parameters just a smidge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "居然没有立刻回击…………机械的魔力真厉害。",
+			say = "She's too engrossed in the machinery to even deny the fact she's acting like a kid...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "潜航舰好玩吗，灵敏？",
+			say = "Having fun with the sub, are you, Soobrazitelny?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "好玩！",
+			say = "Yes! I'm having the time of my frickin' life!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "…………不对，不是好玩不好玩的问题，这是工作啦！",
+			say = "...Wait, I forgot that we're on the clock! We have a job to do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "呵呵~天才机械师，我有个问题要考考你。",
+			say = "Before we do, I have a question for you, Miss Genius Mechanic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "嗯？你问吧~只要是和机械有关的没有我不懂的哦！",
+			say = "Let's hear it! Assuming it's about machines, I know everything there is to know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你知道刚才我们见到的不冻港是怎么回事么？",
+			say = "No, it's about the port the sub was docked in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "从地理环境上来说，在那个地方不可能有天然不冻港吧。",
+			say = "Specifically about the fact it wasn't frozen over. Geographically speaking, that should be impossible, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "唔…………其实我刚才也注意到了。",
+			say = "Should it? Hmm... Wait, I think I know the answer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我觉得可能跟港口的那些机械设备有关。",
+			say = "Remember those little buoy-like things we saw floating in the water back at the port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚才在我们出港的时候你们也注意到了吧，在水面上每隔一段距离就有一个类似浮漂的装置。",
+			say = "My theory is that they are machines which regulate the water's temperature to stop it from freezing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "那东西绝对有水下结构，虽然具体原理我不清楚，不过不冻港应该就是这些设备弄出来的！",
+			say = "See those cables extending to the surface? I bet they connect the heating element to some sort of machine further down below!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "观察的还真仔细……我还以为你的目光都被潜航舰吸引住了，没有注意到其他部分呢。",
+			say = "That... makes a surprising amount of sense. I really didn't expect you'd have an answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哼哼~只要和机械装置有关，我是绝对不会漏看的！",
+			say = "Didn't you hear me? I know everything there is to know about machines! Ahh-ha-ha-haah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以究竟是怎么回事，听起来你好像已经知道答案了？",
+			say = "...Wait, you weren't expecting an answer? So you asked just for the hell of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "只是猜测，我觉得也许跟心智魔方有关。",
+			say = "Yeah, and I learned something new for it. While we're on the topic of machines...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我在皇家留学的时候有听到过，她们在进行一些从心智魔方中提取能量的实验。",
+			say = "Don't you think it's astonishing how things once thought impossible were made possible thanks to Cube technology? Including warming the waters around an entire port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "我们这边应该也差不多吧。维持一整个港口不被封冻的能量消耗，怎么想也不是消耗常规能源做到的。",
+			say = "All that energy, generated by a device small enough to fit in the palm of your hand. I can't even imagine a world without Cubes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实诶……刚刚也没有看到发电厂引起的烟雾之类的。",
+			say = "The port certainly could not exist without them! This region has neither the geography nor resources to support one without the usage of Cube technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "心智魔方还真是神奇啊……好想拆一个研究一下。",
+			say = "Maaan, now I want to get my hands on one of those buoys, take it apart, and see what's inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯……？我怎么一下来就听到了个相当危险的话题啊。",
+			say = "Don't even think about it. The buoys are Northern Parliament property.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "潜航舰好玩吗，灵敏？",
+			say = "Having fun with the sub, are you, Soobrazitelny?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "………………你怎么说了跟阿尔汉格尔斯克完全一样的话！",
+			say = "Arkhangelsk said almost the exact same thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的……都说这是工作的一环了。而且我真的有在认真工作哦！",
+			say = "Yeah, I'd take off like a rocket if it wasn't for the fact that I have a job to do! Speaking of which...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "你们看，前方出现了一艘破冰船，那个是来迎接我们的吧？",
+			say = "Moored vessel spotted to our front! It appears unarmed – most likely an icebreaker!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我看看哦————嗯…………Микоян （米高扬）号。",
+			say = "Let me have a look... I can just make out its name. \"Mikoyan.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "和任务书说的一样，米高扬号破冰船主要负责维持港口与基地之间的航道，这次也是由它来引导我们前往极地要塞。",
+			say = "Exactly where the mission papers said it would be. This icebreaker will guide us to the research base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "看来我们离基地很近了。",
+			say = "Get in gear, everyone. We're about to arrive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "港口虽然用了先进的溶雪设备，不过航线还是需要破冰船来维持啊。",
+			say = "Does anyone else wonder why we're still fielding icebreakers when we've got those heating buoys?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "真是有种科技时代交错的感觉，不知道我们要去的极地要塞是什么样的……",
+			say = "\"In with the new but keep the old,\" I suppose. Maybe the research base will be a mix of old and new as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也不太清楚，虽然知道是在之前的行动中建立的，不过一直没有去的机会。",
+			say = "There's no need to retire the icebreakers if they still work, no? That'd be a waste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喀琅施塔得，你知道什么情报么？",
+			say = "I wonder what we should expect to find inside the research base... Do you know anything about it, Kronshtadt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "知道是知道，不过有些难以说明……反正马上就要到了，还是大家亲自来评判吧。",
+			say = "What I do know is hard to explain... Don't worry though, you'll soon see for yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

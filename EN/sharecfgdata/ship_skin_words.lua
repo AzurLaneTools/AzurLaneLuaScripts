@@ -45992,34 +45992,55 @@ _G.pg.ship_skin_words[707010] = {
 	feeling1 = "A nice person doesn't cause trouble for their friends, got it?",
 	feeling3 = "Commander~ Want some vodka? Oh, you can't drink during work hours, huh... Well, just let me know when you're done here~♪",
 	lose = "So this is defeat... But, the final victory will eventually be ours!",
-	couple_encourage = "(With 3 Northern Parliament ships) Let's do our best, everyone~(Essex-class) Wow, so you're also real carriers...?",
+	propose = "I'm here, Commander! What's wrong? ...Huh? Umm, this ring... It's for me? Really? W-won't the other girls be jealous though? ...Ehehe, this makes me so happy, it really does... *sniffles*",
 	expedition = "The commission fleet has returned! I'll go take lunchboxes out to them~",
 	win_mvp = "Our march forward is unstoppable! We shall endure, no matter what, until the final victory is ours!",
 	home = "Commander, thanks for your hard work~ Operation debriefing? Let's leave that for later and have some food with the others first?",
 	mission = "We've got new missions, huh? Try to pace yourself and not overdo it, Commander.",
 	touch2 = "If that's how you feel about me, then... Huh? It was an accident??",
-	propose = "I'm here, Commander! What's wrong? ...Huh? Umm, this ring... It's for me? Really? W-won't the other girls be jealous though? ...Ehehe, this makes me so happy, it really does... *sniffles*",
+	voice_key_2 = -1,
 	skill = "Now's the time to give it our all!",
 	drop_descrip = "Project 72-class aircraft carrier – Volga",
 	mail = "You've got a letter~ Wouldn't it be nice if your friends are inviting you to do something fun?",
 	touch = "I'm coming~ Did you need something from me?",
-	voice_key_2 = -1,
 	profile = "I'm here, I'm here! My introduction, right? I'm Volga, Northern Parliament aircraft carrier. Named after our homeland's life-giving river, I'll do everything I can to support our friends, from sea or sky! Just make sure to be extra nice to me, Commander~♪",
 	mission_complete = "Owwie... I tripped while bringing the mission rewards over... Commander, would you mind lending me a hand? Ehehe, thank you very much~",
 	feeling4 = "Hey, why don't you treat yourself to something nice today? Hmm, if I had to pick out a reward for my hardworking Commander... What do you think it'd be? Hehe~",
+	unlock = "You don't look so good... Have you been eating properly lately? And how about your sleep? Hmm... Maybe it has something to do with emotional stress, or relationship problems? ...Oh. My name's Volga, Volga of the Northern Parliament. Oh my, did I really forget to introduce myself until now?",
 	feeling5 = "So you want me to reward you with a headpat? Sure, I can do that~ Yes, yes, who's a good Commander? Now, come lie down over here~ You can fall right asleep if you want~♪",
 	main = "Arkhangelsk, can I bring vodka to the next tea party? Ehh, I can't? Aww...|Hum hum~♪ It's fun thinking about what I want for dinner while cleaning your office~ Oh right, Commander, do you have any recipes you'd like to share with me?|Heh heh~ I might not look it, but I sure pack a punch on the battlefield! ...Huh? The \"might not look it\" part is unnecessary?",
-	unlock = "You don't look so good... Have you been eating properly lately? And how about your sleep? Hmm... Maybe it has something to do with emotional stress, or relationship problems? ...Oh. My name's Volga, Volga of the Northern Parliament. Oh my, did I really forget to introduce myself until now?",
+	battle = "I'll do my best to offer air support!",
 	upgrade = "I'm a REAL aircraft carrier, after all~",
 	voice_key = 70701,
 	headtouch = "W-wait, I'm supposed to be the big sister here, right? I, I'm sure of it!",
 	feeling2 = "You can't have an unhealthy lifestyle, okay? I know you're busy, but nothing is more important than your health.",
-	battle = "I'll do my best to offer air support!",
 	login = "I'll do my best today as well~ Hehe, Commander, that goes for you and the other girls too. Let's all work hard together~♪",
+	vote = "",
 	hp_warning = "The final victory... will be ours!",
 	id = 707010,
-	vote = "",
-	detail = "In case of an emergency... Um, I mean, you can always rely on me, emergency or not!"
+	detail = "In case of an emergency... Um, I mean, you can always rely on me, emergency or not!",
+	couple_encourage = {
+		{
+			{
+				7
+			},
+			3,
+			" Let's do our best, everyone~",
+			3
+		},
+		{
+			{
+				10709,
+				10711,
+				10714,
+				10717,
+				10738
+			},
+			1,
+			"Wow, so you're also real carriers...?",
+			0
+		}
+	}
 }
 
 _G.pg.ship_skin_words[707011] = {
@@ -46060,34 +46081,57 @@ _G.pg.ship_skin_words[718010] = {
 	feeling1 = "If you hope to gain my trust, you're putting in quite a lackluster effort, Comrade.",
 	feeling3 = "One person can only do so much alone. I have my comrades to thank for having made it this far. Likewise, Comrade, if you need my assistance, I'm absolutely willing to give it.",
 	lose = "It's all my fault this happened! Dammit... I apologize for my poor judgment!",
-	couple_encourage = "(Kongou-class, Dunkerque, Scharnhorst) Your firepower still does not trump mine!|(Kirov) Covert missions are my forte!",
+	propose = "Oaths and ceremonies? I've no need for such grand wastes of time. We have but one thing to do once you've slid on this ring. Close your eyes, Comrade, and forever memorize what I am about to do!",
 	expedition = "So, the commission team has returned. Exactly when the report said they would.",
 	win_mvp = "Hahah! Victory is determined not by random chance, but by a cascade of certainties.",
 	home = "Huh?! ...Oh, it's just you. You put yourself in great danger by suddenly approaching me from behind. At least call out to me first... Don't be ridiculous! You didn't startle me!",
 	mission = "I've compiled a list of all available missions. Strike them through one by one as you complete them, Comrade.",
 	touch2 = "I will not tolerate you – or anyone else – mistreating me... Stop that, right now!",
-	propose = "Oaths and ceremonies? I've no need for such grand wastes of time. We have but one thing to do once you've slid on this ring. Close your eyes, Comrade, and forever memorize what I am about to do!",
+	voice_key_2 = -1,
 	skill = "I've found your weakness!",
 	drop_descrip = "Project 69-class cruiser – Kronshtadt",
 	mail = "You have a new message. Read it, and I'll dispose of the letter aftewards, if it's of a confidential nature. I'll ensure there's no trace left of it.",
 	touch = "If you need my assistance, just come forth and ask for it, Comrade.",
-	voice_key_2 = -1,
 	profile = "I'm Kronshtadt of the Project 69 cruiser designation. Bravery alone does not win battles – gathering intel while denying your enemy it does. And, just as your fleet's power is not to be underestimated, neither is mine. Understood?",
 	mission_complete = "Your efficiency in completing missions is quite admirable, Comrade... Goodness, you completed another just as I said that!",
 	feeling4 = "I have no issue giving something greater than intel to those I consider as trustworthy as you, Comrade. But, by accepting it, you may be inviting danger into your life. Are you prepared for that, hmm?",
+	unlock = "I'm Kronshtadt, Northern Parliament cruiser. Firepower isn't my only merit – I have many more than that. I'm sure you'll discover them for yourself as we clash with our enemies, Comrade.",
 	feeling5 = "Our relationship goes beyond mere \"trust,\" as I'm sure you know, Comrade. So, ahem... Allow me to give you something purer, more intense, and unquestionably greater than my trust – my love! ...Wh-why are you laughing?!",
 	main = "I left a note on your desk with a summary of all of today's tasks, Comrade. What? You can't read my handwriting? Fine, then I'll read it out for you. Let's see... This says...|Who am I making such frequent calls to, you ask? Be patient – you'll learn in due time.|I never repeat something I've explained before. The more information is repeated, the greater the risk of leaks... Hmm? You didn't catch that? Okay, as I was saying...|Strange... My transceiver isn't working. How am I supposed to contact my comrades now? Screw it, brute force it is... Gah! It burst into smoke!|What's essential during stealth missions is that you leave no trace. What this means is: before you go in, cannons booming, you should first create an even bigger boom to distract from– Huh? That's not how you do it?",
-	unlock = "I'm Kronshtadt, Northern Parliament cruiser. Firepower isn't my only merit – I have many more than that. I'm sure you'll discover them for yourself as we clash with our enemies, Comrade.",
+	battle = "Comrades! We march towards victory, heads held high!",
 	upgrade = "Who could pass on more firepower, am I right?",
 	voice_key = 71801,
 	headtouch = "Comrade, what are you... \"Returning my efforts with intimacy?\" I, I see... You've quite the straightforward methodology. I'll be doing the same the next time.",
 	feeling2 = "So, I did some research into your past before coming here, Comrade... Oh, please. You can infer what I found based on the fact I'm conversing with you right now and addressing you with the word \"Comrade.\"",
-	battle = "Comrades! We march towards victory, heads held high!",
 	login = "Morning, Comrade. I always warmly welcome one who practices punctuality. Hmm? The workday hasn't begun yet?",
+	vote = "",
 	hp_warning = "Do not panic! Focus! Focus!",
 	id = 718010,
-	vote = "",
-	detail = "My comrades should be contacting me soon. Let me open my– Huh? Don't move! ...Comrade?! Don't you know to knock before you enter? ...You already knocked? Oh. I see..."
+	detail = "My comrades should be contacting me soon. Let me open my– Huh? Don't move! ...Comrade?! Don't you know to knock before you enter? ...You already knocked? Oh. I see...",
+	couple_encourage = {
+		{
+			{
+				90401,
+				30401,
+				30402,
+				30403,
+				30404,
+				40401,
+				40402
+			},
+			1,
+			"Your firepower still does not trump mine!",
+			0
+		},
+		{
+			{
+				70204
+			},
+			1,
+			"Covert missions are my forte!",
+			0
+		}
+	}
 }
 
 _G.pg.ship_skin_words[718011] = {

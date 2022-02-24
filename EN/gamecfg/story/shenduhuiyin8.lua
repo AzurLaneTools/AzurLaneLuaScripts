@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·极地要塞近海",
+			say = "Northern Parliament Research Base - Nearby Waters",
 			side = 2,
 			bgName = "bg_hms_7",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "战斗结束，敌人全部消灭。",
+			say = "This is it... The place the distress signal came from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "大家都没事吧？基辅，战斗的时候不要冲的那么前哦，会受伤的。",
+			say = "Is everyone all right? You're not hurt, are you, Kiev?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "但是我不想让大家受伤……",
+			say = "We're all fine, I think. I made sure of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "但·是·我·不·想·让·大·家·受·伤~~~",
+			say = "\"We're all fine, I made sure of that\"... In the most reckless way possible! You'd have gotten seriously hurt if we were fighting a real Siren fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "不要学我说话！",
+			say = "Don't parrot me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "诶嘿嘿嘿！那也不能冲过头了让自己受伤哦~",
+			say = "Listen, I'm trying to tell you not to rush in alone or you'll get yourself killed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我这不是完好无损的回来了……",
+			say = "But I didn't get myself killed, so it's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,8 +173,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "看来热身的效果不错，感觉怎么样？正式任务和训练中多少还是有些区别吧？",
+			actorName = "Kronshtadt",
+			say = "Seems the warmup was to everyone's benefit. That was some nice teamwork out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,8 +190,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "嗯！兴奋地我都忍不住多开了好多炮！",
+			actorName = "Soobrazitelny",
+			say = "And the Suliko didn't get as much as a scratch! All in a day's work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,8 +217,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "我倒是稍微有些紧张……不过总算还是平稳掌握了制空权。",
+			actorName = "Volga",
+			say = "I was a little nervous at first, but in the end I managed to gain control of the skies~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,8 +234,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "我没问题哦？我在皇家的时候其实已经参与过一些实战了。",
+			actorName = "Arkhangelsk",
+			say = "Hmm... No signs of a fight, and no wreckage either. As crazy as it sounds, I think the signal is coming from underwater.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,8 +251,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "等等…………你去皇家的时候舰装还没有完成吧，你是用什么参加实战的？！",
+			actorName = "Kronshtadt",
+			say = "Right, the signal. Its signature didn't match anything used within the Northern Parliament, so it's anyone's guess as to who's calling for help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,8 +268,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "哎呀~情报通的喀琅施塔得也有不知道的事啊。",
+			actorName = "Arkhangelsk",
+			say = "Not even you have any idea who it could be? Goodness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,8 +285,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "那就更不能这么简单告诉你了~以后有机会的话，麻烦拿点重要情报来交换哦。",
+			actorName = "Arkhangelsk",
+			say = "What's strange is that the signal's source isn't far from the objective... Reckon that's a coincidence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,8 +302,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "啧…………好好好~",
+			actorName = "Kronshtadt",
+			say = "Oh, you're right. It's practically close enough to park the submarine next to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我的状态良好，不过……这艘潜航舰并没有想象中厉害。",
+			say = "So what do we do now? I doubt we'll find any leads here on the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟苏丽珂号上基本没搭载什么武器嘛~",
+			say = "What do you think? We must go deeper, of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不过我仔细检查过其他部分了，它的装甲和防御系统可是超级超级的豪华……就这么直接潜到马里亚纳海沟底大概都没问题！",
+			say = "We could be walking into a Siren trap, but the only way we'll find out is by diving with the sub and investigating. So I propose we do just that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "也就是说安全性是货真价实的高呢……很好，相比于火力，我们接下来的任务更需要仰赖它的安全性能。",
+			say = "True, and we have to test her diving performance anyway! Let's get ready to go down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "毕竟执行任务的地点是在我们和塞壬都难以施展拳脚的深海区域……",
+			say = "(Good thing we eliminated all the Sirens first before going underwater. Because once we do, we can't fight back.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "大家返回舰艇内部，灵敏，准备进入“深潜模式”吧。",
+			say = "(Smashing up the place, then vanishing without a trace. Just the way I like it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 701090,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "收到~~~~！诶嘿嘿，其实那个按钮，我早就想按下去了！",
+			say = "Hold on tight, everyone! Initiating diving sequence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

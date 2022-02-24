@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "翌日",
+			say = "The following day...",
 			side = 2,
 			bgName = "bg_deepecho_0",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "窗外的风景在逐渐定格。不知不觉间，列车在一处仿佛凭空出现的站台中停止了。",
+			say = "A small, isolated train station came into view among all the snow, and the convoy finally came to a stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "在弥漫的蒸汽中，一个身穿白色大衣的人走了过来。",
+			say = "They parked next to the station building, from which emerged a woman donning a distinct Northern Parliament coat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各位远道而来辛苦了。旅途还算舒适么？",
+			say = "Hello, everyone. How are you all feeling after such a long and arduous journey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "堪称完美！",
+			say = "Well, if it isn't Avrora! I'm feeling just fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这节豪华车厢是罗西亚帝国时期留下来的？",
+			say = "I recognize this station. Quite the historic building, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错。最初想着在寒冷的西伯利亚铁路上多少用的上，各位能习惯真是再好不过了。",
+			say = "That it is. It had fallen into disuse, so we repurposed it into a stopover point. It's quite useful, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "这里就是我们的目的地么，看起来一片荒凉啊……",
+			say = "Is it? There's nothing else around here, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各位不要急，这里只是一处中转站。接下来要去的地方并没有和这条铁路相连，我们用汽车。",
+			say = "There isn't, but do you see this map? If you follow it... Well, it won't take you to your destination, but it will lead you to the last leg of your journey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦……？感觉比想象中还要复杂……",
+			say = "Wow, Kronshtadt sure was right about the base being far out of the way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，一会也许还会有更加令各位吃惊的事哦，大家这边请。",
+			say = "Mhm. That's all the help I can give, I'm afraid. Good luck on the rest of your journey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			say = "北方联合境内·某处",
+			say = "Northern Parliament - Secret Naval Base",
 			side = 2,
 			bgName = "bg_deepecho_0",
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "众人在汽车中又行驶了几个小时。",
+			say = "The convoy followed the markings on the map, traveling for hours through the snow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "终于，在驶过一片针叶林之后，一座港口出现在众人视野之中。",
+			say = "Arriving at their destination, they found a small naval base with several out-of-use facilities... and a gigantic submarine berthed in the nearby waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真没想到……居然在这种地方会有港口。",
+			say = "Who would've thought we built a port all the way out here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "而且水面没有结冰……？！这里难道是不冻港！？",
+			say = "One that doesn't freeze over, at that. I suppose this is the place we're meant to patrol?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "大家快看大家快看！停在港口里的那个是什么……就潜艇来说也太过巨大了？！",
+			say = "Look there! What is that giant mech– No, wait, it's a giant submarine?! I've never seen anything like it before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我从没见过这种造型的潜艇……",
+			say = "Kronshtadt, you know something about this, don't you? Mind telling us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……这个难道就是那个传说中的关于水下作战平台的机密项目……",
+			say = "I've heard some rumors. They say this was used in the exploration of the Arcana Sanctum, but that can't be true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "真是不管什么事，总有些风声会流到你这里啊。",
+			say = "Sometimes rumors do stem from the truth. Well done making it out here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……哎，苏维埃同盟？！",
+			say = "Soyuz?! Is that you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "没错~欢迎来到地点保密名称保密的北方联合不冻港。",
+			say = "Yes, it is me. Welcome to our command submarine development site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "看来今天多少还是有些事出乎你的意料之外的。",
+			say = "I'm somehow not surprised by your subdued reaction. You already knew about this project, despite its top-secret nature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过情报泄露就是情报泄露，作为机密项目的潜航舰项目居然出现这种事，是不是该好好彻查一下了~？",
+			say = "You may think you simply stumbled across the intel, but I believe one of the higher-ups leaked it. I'll have to look into this matter more closely at a later date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……刚刚那些都是我随便瞎猜的，绝对没有情报泄露的事发生！放心放心，不用查啦！",
+			say = "No, truly, all of what I know about the project is guesswork and speculation–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "呵呵，玩笑话罢了。能看到你这幅表情，也不枉我这么千里迢迢跑来一趟了。",
+			say = "There's no need to explain yourself. Knowing you, you heard of it purely through some strange accident. Am I correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那还真是令我倍感荣幸……",
+			say = "As embarrassing as it is to admit... Yeah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不得不说，确实是一艘十分壮观的巨型潜艇。我们这次的任务就与它有关？",
+			say = "I have to say though, this submarine is a marvel to view in person. Our mission here is going to involve it somehow, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "没错，终于到执行下一步计划的时候了。",
+			say = "Indeed it is. You are going to pilot it yourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "啊，首先先让我介绍一下潜航舰吧。",
+			say = "But first, I should tell you a little more about this beauty. Please listen closely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正如各位所见，所谓潜航舰，是一种设计用来当做远洋水下作战平台的巨型军舰。",
+			say = "She is a special type of submarine, designed to analyze Siren relics deep beneath the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "它同时拥有水面战斗和水下战斗模式。",
+			say = "In place of armaments, she has a vast array of instruments and equipment that makes her better suited for deep-sea environments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "在水面行驶时，其拥有良好的破冰能力与防空性能。在水下行驶时不但可以进行快速深潜，还可以进行隐秘巡航。",
+			say = "She can fulfill the role of an icebreaker on the surface while retaining all the capabilities of a full-fledged submarine, making her the ideal vehicle for our purposes here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "其巨大的内部空间更是使得搭载大量武器装备成为可能，就算是水下的敌人也可以轻松消灭。",
+			say = "Her massive internal space allows her to carry a large amount of equipment and weapons without sacrificing the comfort of the crew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "几艘潜航舰之间如果相互配合的话，更能构建出无坚不摧的水下封锁网，令敌人无处遁形。",
+			say = "There is only one in existence as of now, which will serve as the Commander's escort vessel, but I do plan to mass-produce this model.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哇……好厉害！这次会有很多潜航舰和我们一起行动么？！",
+			say = "Great Scott! So this giant beast is something of a prototype, isn't she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "咳……很遗憾，现在还不会。",
+			say = "Correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "上面只是理论预测。实际的话……停泊在诸位面前的只有第一艘成功建造的原型舰。",
+			say = "Like all mass-produced vessels, she's a poor substitute for a shipgirl. Still, I am very confident in her usefulness as an auxiliary vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "其主要目的是为了进行数据验证，以便后续改进和量产。",
+			say = "Gathering data on how she operates in practice will be part of your mission here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "也就是实验舰一类的？",
+			say = "Never thought I'd one day serve as a submarine test pilot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "没错。不过也因此，这艘潜航舰上装备了一些原本并不在设计规划中的设备。",
+			say = "Of course, I've done everything I can to attune your research equipment, reinforce the hull armor, and calibrate onboard life support systems...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "比如用于深海探测的科研设备，能够承受极端环境和激烈战斗的特制加厚装甲，用于长时间水下活动的生命维持设备等。",
+			say = "But I'm afraid you won't get many opportunities to investigate Siren tech without the Naval HQ breathing down your neck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比作战舰艇，听起来更像科研船呢……",
+			say = "But that's just what we're going to do, right? Pilot this submarine and investigate a Siren facility?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "是的。也因此，这艘潜航舰的武装极其有限。",
+			say = "That's right. You have a daunting task ahead of you, but I will pray for your success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "你们除了好好使用这些设备完成任务之外，还要担负起保护她的责任哦。",
+			say = "There is a decoy research base in this region. You will head there as part of this operation, but your real objective lies–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "太夸张了………呜呜呜…………我感动的快要哭了！",
+			say = "Woooow, this submarine is AWESOME! I NEED to see how it looks inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我们什么时候上船？我已经迫不及待想研究一下了！",
+			say = "Permission to enter her, please! Please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "别急……在上船之前，多少应该先听我交代一下你们这次的任务吧。",
+			say = "Denied. Please let me finish explaining.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "虽然我觉得喀琅施塔得大概已经知道的八九不离十了……不过你们肯定还不知道吧？",
+			say = "Kronshtadt may already know most of this, but I don't believe you'll be able to fulfill your mission without knowing what it is you need to do, Soobrazitelny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎嘿……",
+			say = "R-right... Haha, sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "这次任务，将会是我们极地掌控计划第二阶段的起点。",
+			say = "...As I was about to say: your real objective lies deep beneath the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "如各位所知，在第一阶段中，我们在极地的冰海之中成功建立了一处永久据点——极地要塞。",
+			say = "The research base I just spoke of is only a glorified stage prop, but it does house important equipment that you are to bring with you to your real objective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -951,7 +951,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "诸位需要首先乘坐潜航舰前往极地要塞，在那边安装某些更特殊的设备后，前往深海的某处完成调查行动。",
+			say = "Your visit to the base serves to create an alibi while also diverting attention from the true purpose of this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "极地的水下隐藏着什么……这件事相信诸位已经十分清楚了。",
+			say = "As for what your real objective is... Well, I'm sure you already know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过这次的具体任务和之前都不太一样……船舱中有指令书，各位可以在路上慢慢看。",
+			say = "You'll find instruction manuals inside the submarine. They'll tell you how to operate the equipment and where you need to go. I suggest you all read them on the way there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "与这艘潜航舰一样，这次任务也应该是你们极地舰队成立以来的第一次任务。",
+			say = "Now, I'd like to reiterate – we likely won't get another opportunity like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,7 +1023,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "漂亮的完成任务，向北方联合展现一下你们的实力吧！",
+			say = "The Northern Parliament's future rests on your shoulders, everyone. Bear that in mind all throughout this mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "既然我亲自出马了，你就放心吧，保证完成任务。",
+			say = "Good thing this is exactly the kind of mission I've been looking forward to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1059,7 +1059,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不但要完成任务，而且要全员平安返回哦。",
+			say = "You can engage any Sirens you come across if you so wish, but please do everything in your power to return safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1077,7 +1077,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "放心吧，放心~再怎么说，也轮不到舰装还没完成的你来担心我。",
+			say = "Relax, Soyuz, you've picked the right person for the job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1095,7 +1095,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……这次任务结束之后，你的舰装能做好么？",
+			say = "You have other business to attend to, don't you? You shouldn't keep the others waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1113,7 +1113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "谁知道呢，似乎在研发过程中出现了一些问题。",
+			say = "Indeed I do. I'm putting my faith in you here, Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过我个人希望你们快去快回，最好别拖拖拉拉等到那个时候。",
+			say = "You won't have much time to complete your mission, but don't make rash decisions. Proceed forward calmly and carefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1149,7 +1149,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "最高指示收到~",
+			say = "Got it. We'll be back before you know it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1167,7 +1167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "噗……好了，大家随我来进行登舰准备吧。",
+			say = "Best of luck to you all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "请问，这艘潜航舰有名字么？！",
+			say = "Wait! Before I start tinkering with the sub... Does she have a name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1203,7 +1203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "哦……好像是忘了说了。",
+			say = "Ah, she does. Apologies, I forgot to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1221,7 +1221,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "————Сулико（苏丽珂）",
+			say = "Her name is Suliko.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1239,7 +1239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "作为数据验证舰而存在的仅有一艘的原型舰，苏丽珂级的苏丽珂号。",
+			say = "It reflects her purpose – to record data, analyze technology, and discover the source of our \"souls\" as shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1258,7 +1258,7 @@ return {
 			actor = 900218,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "一个十分温柔又优美的名字，不是么？",
+			say = "A nice name, wouldn't you agree?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

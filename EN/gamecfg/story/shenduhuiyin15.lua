@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
+			say = "FATAL ERROR.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "「███解除：22.8％」",
+			say = "██████ PROGRESS: 22.8%",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,11 +47,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你不会真的想喝吧？",
+			say = "Kronshtadt! KRONSHTADT!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,11 +63,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "Urgh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,11 +79,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "任务中禁止饮酒？我要记在航行日志里了哦？",
+			say = "Phew... Thank god I was able to pull you out in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………………",
+			say = "*cough* *cough*... Ughh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_deepecho_6",
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			dir = 1,
-			say = "……欸？怎么突然不说话了，在思考说服我的话术么？",
+			say = "What's wrong? You look like you just went through hell.",
 			bgm = "battle-deepecho",
 			flashout = {
 				dur = 0.5,
@@ -143,11 +143,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我这是在…………哪儿？",
+			say = "Where... am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？你在苏丽珂号的科研舱中哦？",
+			say = "Inside the Suliko's synchronization chamber. Do you need medical attention?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,11 +175,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苏丽珂号……科研舱………………",
+			say = "Now I remember... I was... synchronizing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +191,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，突然这样…………感觉身体难受么？",
+			say = "Goodness, the machine really did a number on you, both physically and mentally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还以为你说要喝伏特加是开玩笑……别急，我这就去给你拿一杯。",
+			say = "I know we joked about vodka a second ago, but I think you've earned a shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用了……那个确实是我在开玩笑。",
+			say = "Like I said, it really was just a joke. Save the drinks for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,11 +239,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你还记得刚才发生的事么？",
+			say = "Anyway... What the hell was that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,11 +255,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才发生的事是指……灵敏开始回收样本，之后我们来到科研舱准备同步，之后你要喝伏特加的事么？",
+			say = "Hm? What the hell was what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,11 +271,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有这些么……？",
+			say = "The black hurricane. Don't you remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我记得只有这些哦。你想问什么？",
+			say = "Black hurricane? I really have no idea what you're talking about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,11 +303,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…………问些我觉得你知道但是你好像并不知道的。",
+			say = "Forget it then. Let me ask you a different question: have you heard of a technology that puts you in a lifelike dream with other people?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,11 +319,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要想耍宝的话，我觉得任务即将开始的此刻并不是一个合适的时机欸。",
+			say = "Look, now's not the time for riddles. We're in the middle of a mission still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,11 +335,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵……说的也是。同步装置真的还没有启动过吧？",
+			say = "Yeah, I suppose... The synchronization process never even started, did it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,11 +351,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对没有。毕竟要等灵敏完成样本回收之后，我们这边的同步装置才能够达成启动条件。",
+			say = "No. It was about to, but I interrupted it immediately when you started tossing and turning in the chair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,11 +367,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你真的没事吧，要不然我们休息一会再开始也可以哦？",
+			say = "Are you sure you're all right? We can stop altogether if you feel sick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,11 +383,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系没关系，可能刚刚只是我有点走走神了~",
+			say = "I'm fine, honestly. I just freaked out a bit. I'm ready to try again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,11 +399,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灵敏",
+			actorName = "Soobrazitelny",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喀琅施塔得，样本回收完毕，可以进行下一步操作了！",
+			say = "Everything's good on our end, Kronshtadt! You can start the synchronization process now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,11 +415,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……知道了。那就开始操作吧，阿尔汉格尔斯克。",
+			say = "Roger. Arkhangelsk, you ready to start again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,11 +431,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解~现在开始最终检查————嗯，各模块运行正常，已经检测到样本到位。",
+			say = "Yup. Let me do one final check. Artifact is in place... Computer systems online... Data transfer port set to open...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "将头盔与眼罩安装好，视野陷入了一片黑暗。",
+			say = "Kronshtadt put the headset on and waited in total darkness as Arkhangelsk worked in the background.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,11 +461,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚经历的一切真的只是短暂的幻觉么……",
+			say = "Did I hallucinate all of that? It felt so real...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,11 +477,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么3——2——1———",
+			say = "All right. Initiating in 3... 2... 1... Now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,9 +495,9 @@ return {
 			nameColor = "#696969",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
-			say = "要拍照了哦~",
+			say = "Don't blink! 3, 2, 1!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -524,12 +524,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "………………？！",
+			say = "Was that–?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

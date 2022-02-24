@@ -15,7 +15,7 @@ return {
 			actor = 701090,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在由灵敏船长为大家播报——当前深度为1600，苏丽珂号即将抵达任务区域！",
+			say = "Good day my fellow crewmates, this is Captain Soobrazitelny speaking. We're now at a depth of 500 meters and will arrive at the objective shortly!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "1600米……我们还真是来到了一个不得了的深度。",
+			say = "500 meters... That's crazy when you think about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "还有灵敏船长算什么，只是稍微开一下船就以船长自居稍微有点得意忘形了哎。",
+			say = "Speaking of crazy, did our favorite genius mechanic really get promoted to captain by piloting it for a short while?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "算啦算啦，随她开心吧。第一次执行任务又捡到一个大玩具，难免兴奋过度嘛。",
+			say = "Let her have her fun. You know how she is – when she finds a shiny new toy to play with, she becomes fixated on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "灵敏船长，监测信号的仪器有反应了么？",
+			say = "Captain Soobrazitelny, do you have a read on the meteorite's exact location yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "唔……可以探测到微弱的信号，但是干扰实在太多，完全无法定位具体位置！",
+			say = "I'm picking up some sort of reading, but I can't tell you where it's coming from with all our sensors going haywire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……好像有点不太顺利，是因为还没有到任务区域的原因么？",
+			say = "It seems we're not making much progress...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "也许是因为这个原因……不过有些奇怪。",
+			say = "I anticipated our sensors would start acting up the deeper down we went, but not to THIS extent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最初发现带有辐射信号鱼群的深度比我们现在的位置高不少，先遣队调查的时候也没有听说遭遇到干扰的情况。",
+			say = "And with our radio connection to the base severed, we're as good as dead if disaster strikes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "理论上不应该发生的事，难道说…………",
+			say = "...Wait a moment. Comms not working, sensors malfunctioning... You've gotta be kidding me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "灵敏，将舰艇调整成隐蔽潜航模式，关闭所有主动设备，我们先躲起来观察一下情况。",
+			say = "Soobrazitelny! Switch the sub over to soundless mode right now! Bash any sound-producing equipment into silence if you must, just do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你怀疑干扰的源头是塞壬么？！确实有这种可能……灵敏收到！",
+			say = "Why would I do... Oh! We're in a Mirror Sea?! I'm on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "一段时间过后——",
+			say = "A few hectic moments later...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "嚯嚯嚯……塞壬潜艇编队发现！真没想到这种深度下居然也会有塞壬巡逻队啊。",
+			say = "There are submarine-type Sirens straight above us... Have they always been able to operate at depths this great?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯，这倒是个从未见过的新情报……",
+			say = "It's possible, but then we couldn't have known since nobody's gone this deep in a vessel before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "往好处想，我们可是第一批到达这里的舰船，是这片未知深海的先行者，就这样带些新发现回去不是很浪漫么~",
+			say = "Think about that – that's invaluable intel. Even if we turn back right now, we won't be leaving empty-handed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊~不过往坏处想，也许这片区域有样本残留的事终于还是被塞壬发现了。",
+			say = "Even so, what are the implications of a Siren presence down here? Did they finally decide to retrieve the meteorite?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "呜…………好像是有这种可能哎。这下麻烦了。",
+			say = "They could be, which would be really bad news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "苏丽珂号本身没什么火力，我们也不可能在这种深度出舱战斗。",
+			say = "With no armaments on this sub to speak of, there's not much we can do about it either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要吸引敌人上浮到水面么？",
+			say = "Won't we be fine if we just go back up and fight them on the surface?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "任务书里的建议就随它去吧，这样太浪费时间了。",
+			say = "Not happening. If they spot us while we're resurfacing, it's all over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "灵敏，我们现在的具体位置是多少？",
+			say = "Hmm... Soobrazitelny, what equipment did we lose in the process of you breaking them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我好像正好有个能帮上忙的朋友，给我几分钟时间哦。",
+			say = "Choose something that's fragile and buoyant. I'm thinking we can eject something through the sub's stern, then make our escape while the Sirens are distracted by it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "喀琅施塔得从怀中掏出标签纸和钢笔，将灵敏汇报的坐标变成了纸上留下的只能由她辨认出的潦草涂鸦。",
+			say = "Kronshtadt looked at Soobrazitelny and proposed to her a desperate, daring plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "紧接着，她将便条握在手心，转身进入了别的舱室。",
+			say = "Caught 500 meters beneath the surface with enemies all around, the pressure was bearing down on the girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "一段时间过后——",
+			say = "A few hectic moments later...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我回来了，想我了么？",
+			say = "Do you think they've gone away yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也没有那么想？要不然你再呆个半个小时？",
+			say = "Who can say? Our equipment's only quiet because it's broken.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "哈哈哈，对于维持神秘的形象确实是个好提议，不过现在可不是这么悠闲的时候了。",
+			say = "We can't stall our engines forever at this depth, and we're going to run out of oxygen eventually if we don't get away from those damn Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "塞壬巡逻队的情况怎么样？",
+			say = "My decoy plan is by no means foolproof, but all we can do is pray that it works...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "依然在我们的任务区域附近巡航…………哎，不对！敌方舰队开始快速上浮，跑得越来越远了！",
+			say = "Picking up Siren movements! I think... Yes, those submarines from before are resurfacing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……？敌人被其他作战目标吸引走了？",
+			say = "Do you think they took the bait? Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "你这次又是施了什么魔法，喀琅施塔得……",
+			say = "Thank goodness... I was so sure we were done for...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所谓的佯攻作战。吸引巡逻舰队的最好方式就是在其巡逻区内制造一些恰到好处的冲突。",
+			say = "You did well by staying calm, Volga. And by keeping Kiev's and our Captain's spirits up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "一段时间内附近的塞壬巡逻队都不会有顾忌我们的空闲了。",
+			say = "The crisis is over now, but we can't simply resurface here or we'll run right into Sirens again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我们抓住机会，继续前进。",
+			say = "So here's what we're going to do - continue the search. They'll be hesitant to fire torpedoes at us as long as we stay close to the meteorite survey site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解！说起来……以苏丽珂号的强度，如果之后遇到敌人的话全速撞上去说不定也可以……",
+			say = "Ooh, clever! And if they try it anyway, we'll just ram them into oblivion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "冒险主义禁止。",
+			say = "Did you hit yourself on the head? Heck no, we're not doing that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 701090,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎嘿嘿，只是稍微想了一下而已！苏丽珂号，继续下潜咯！",
+			say = "Hey, I'm just messing with you! I'm not dumb! Anyway, let's get this mission back on track!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

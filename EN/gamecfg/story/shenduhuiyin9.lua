@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "极地海域·苏丽珂号内",
+			say = "Investigation Site - Depth: 200 Meters",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "深度400米，运行状况良好！",
+			say = "Current depth 200 meters, holding steady!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "申请进行手动驾驶！",
+			say = "Terminating diving sequence and switching to manual steering!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？自动驾驶出现故障了么？",
+			say = "Manual? You sure that's a good idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "那倒没有……我只是想着反正现在距离目标还有段距离，可以趁机练习一番……",
+			say = "It'll be fine! There's still a ways to go until the objective, and this is a good opportunity to get some steering practice in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "操作规程什么的都记住了吗？",
+			say = "Do you remember what the operator's manual said?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "放心交给本天才机械师吧！只要让我上手不是轻轻松松~",
+			say = "There's nothing to worry about! Did you forget I'm a genius mechanic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "操作规程什么的都记住了吗？",
+			say = "Do you remember what the operator's manual said?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "额……我以前开过量产型潜艇哦，肯定没问题的！",
+			say = "Uh... I said it'll be fine! I've piloted mass-produced subs in the past!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "操作规程什么的都记住了吗？",
+			say = "Do you remember what the operator's manual said?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "…………是，我这就去仔细阅读一下。",
+			say = "I'll... go read it again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这才对嘛~",
+			say = "Didn't think so. Go on, shoo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "……坐在舱室内随着潜航舰一起进入水下，真有种施展不开的感觉。",
+			say = "I'm a little worried... Our riggings are no use underwater...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "如果在这里被击沉，我们就会全灭吧。",
+			say = "If Sirens turn up, we'll be sitting ducks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是会很危险。所以我们本次的行动方针是隐秘行动，如果战斗不可避免的话就急速上浮，然后从水面解决敌人吧~",
+			say = "We knew the risks when we took on this mission. Worst-case scenario, we'll just resurface at once and fight them above water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真亏任务书能给出这种方式的战斗推荐……",
+			say = "Mhm. If the Suliko sinks, we go down with her, so no underwater engagements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "心里总有种说不出来的感觉……不知道是因为正在进入深海的缘故，还是因为正在接近“样本”掉落区的缘故。",
+			say = "Let's see what the notes say... Interesting. \"The specimen is unstable. Do not attempt to move it outside the site of discovery.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "兴奋么？",
+			say = "Unstable? Are we dealing with something radioactive here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "与其说是兴奋，不如说是忐忑吧。毕竟要回收的那个“样本”性质实在太神奇了。",
+			say = "Not quite. Apparently, if you move the meteorite – i.e. the specimen – far from where you found it, its unique properties vanish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们知道么，据说圣彼得伯格司令部曾经想要直接回收“样本”，在封闭的实验室中研究怎么也好过潜入危险的深海中。",
+			say = "\"Fragments of the meteorite display this same unstable behavior; when removed from the site of discovery, they too undergo structural change.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "可是不论使用什么设备，都无法把样本完好无损的带离掉落区。",
+			say = "\"For this reason, it is theorized that the specimen can only be studied in a research site constructed on-location, or through remote observation.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "似乎是一离开指定区域，样本身上的诸多特性就会瞬间消失。",
+			say = "And that's why they're sending us down in a submarine. We don't have much other choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "听起来好复杂……我还是不明白，你们刚才提到的“样本”和任务书里写的“陨石”有什么关系么？",
+			say = "Wait, I'm getting confused... What are we studying? A relic? A meteorite? Could someone please explain?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们这次的任务是要回收什么特殊的陨石碎片么？",
+			say = "You know, I think I'll have another look at the mission briefing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎对……要从这里开始说明才行。",
+			say = "No need. Stay here and I'll explain so we're all on the same page.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "和喀琅施塔得交流多了，差点忘记不是所有人都能随随便便知道些机密情报了。",
+			say = "Kronshtadt may be able to weigh in with what she knows too, but at this point I don't trust her to have all the facts straight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "欸……？这也能怪到我头上么。",
+			say = "Your words sting like a branding iron...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简而言之，任务书中提到的陨石，就是我们本次要回收的样本。但是我们要回收的样本又不完全等于任务书中提到的陨石。",
+			say = "To start with the meteorite, that's our objective. Once the submarine reaches the coordinates, we're going to analyze it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全没理解…………",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "剩下的就交给喀琅施塔得来解释吧，其实有几个点我也不是完全明白，就不在这里班门弄斧了。",
+			say = "We would simply haul the meteorite back to the surface if we could, but apparently it likes it down there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然任务书里写的含混不清，不过已经到这个时候了，为了任务顺利执行，有些事情还是说得明白一些比较好吧？",
+			say = "So instead, we'll come to it and study it with our instruments to gather data. Am I on the mark, Kronshtadt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯，你说的没错。在这件事上我就对各位知无不言了~",
+			say = "Everything you said is correct. Now let me interject and tell you what I know about the meteorite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诸位应该都知道通古斯大爆炸吧。",
+			say = "Its story begins just before the last Great War took place, when a massive explosion went off over the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那件事可是相当有名……我觉得不知道的人反而是少数哦。",
+			say = "I've heard about this! Apparently, the explosion was so big that the shockwave shattered windows even a thousand kilometers away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，那次剧烈的爆炸形成的大坑今天要是去参观的话依然能看的清清楚楚。",
+			say = "Yes. Its butterfly-shaped blast pattern had scientists believing it was caused by a meteorite for the longest time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "虽然有科学家认为这次爆炸是由陨石撞击形成的，也有若干目击者声称在爆炸发生前实际目睹了在天空上的耀眼火球。",
+			say = "This was backed up by eyewitnesses who reported seeing a giant fireball fall from the sky, as well as the discovery of what seemed to be a crater at the explosion's epicenter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过就如诸位所知，后续的调查团队没有在现场发现任何陨石的残留物，因此这件事就被当成不明事件草草收尾了。",
+			say = "But upon further examination of the crater, researchers were unable to find any meteorites or even traces of an actual impact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然，这是对外公布的版本，实际情况并没有这么简单。",
+			say = "A meteorite impact was the only sound explanation, but without any evidence to support this theory, it quickly fell out of favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "根据事后调查，在爆炸发生前的几天，塞壬在极地中的活动突然加剧。",
+			say = "Now, what I'm about to tell you is strictly classified: a few days before the explosion, \"Sirens\" appeared near the blast zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "甚至在爆炸当天，似乎有塞壬舰载机成群结队的飞过了爆炸区域的上空。",
+			say = "Following the explosion, unidentified flying objects were seen passing over the site, later thought to be Siren aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "塞壬……也参与了通古斯大爆炸？",
+			say = "Sirens? Out there...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,42 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然确实有过一种内部观点认为是塞壬导致了通古斯大爆炸。不过根据后续调查，主席团更倾向于塞壬是在处理通古斯大爆炸的痕迹。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 718010,
-			say = "目击者之前提到的耀眼火球也许并不是博取眼球的谎言。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 718010,
-			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "意识到这一点的司令部开始重新审视塞壬在极地的部署。",
+			say = "Of course, humanity didn't know about the Sirens back then. As such, the reports were regarded as typical UFO sightings and largely written off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "陆地上的陨石碎片似乎已经在当天就被塞壬回收完毕了，证据就是它们的舰载机再也没去过第二次。",
+			say = "Some time after that, the Siren base we visited earlier was first discovered. However, it wasn't until after the war with the Sirens broke out that people made the connection between them and that huge explosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +775,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过极地海洋之中的就未必了……",
+			say = "As for why nothing was found at the site, the Sirens likely got to it before we did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "司令部认为有一部分陨石碎片落入了极地深海，塞壬之所以加剧在极地的行动，就是因为它们在试图回收陨石。",
+			say = "Which finally brings us to what we're looking for. According to my sources, the original meteorite broke into several fragments, one of which fell into the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +810,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬在极地中的行动直到司令部意识到这一点之时都没停，也就意味着——",
+			say = "You'd think the Sirens would've recovered it too by now, but since its unique properties vanish when it's moved, I suppose they decided to leave it be.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 718010,
+			say = "And since it's not going anywhere, they probably decided that it's also unnecessary to keep a permanent defensive system around it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 718010,
+			side = 2,
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "...Or at least, that's my best guess from reading between the lines of our mission briefing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当时塞壬也没有找到位于海洋深处的陨石碎片？！",
+			say = "So... The Sirens built a stronghold to guard the meteorite, but later realized that's not necessary and abandoned it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没错。在当时北方联合最高主席团的授权下，阿芙乐尔带领了当时能快速调动的一切力量对于塞壬在极地中数个刚刚建立的据点进行了主动袭击。",
+			say = "I believe so, yes. Back in the last Great War that Avrora fought in, humanity captured several Siren strongholds, and even discovered a few Siren ruins after the war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "伤亡是极其惨烈的……不过战果也很辉煌。",
+			say = "The base we visited is one of them, as is the underwater city. I believe it's named... \"Arcana Sanctum.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "经过激战，我们成功控制了两处几乎完整的塞壬要塞。",
+			say = "As nobody knew about the meteorite back when we captured the base, our researchers focused mainly on the tech the Sirens had left behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +934,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "一处被改造成了我们之前中转用的极地要塞，另一处则被命名为“密室”。",
+			say = "The tech they successfully reverse-engineered was then integrated into the riggings we use now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "“密室”的事我就不谈了……如果说多了苏维埃同盟可能真要送我去卢比扬卡度个假了。",
+			say = "Later on, with the discovery of the meteorite, we finally realized why the Sirens built that stronghold in the middle of nowhere. And that's how this mission came to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -970,7 +970,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过利用“密室”中回收到的情报和基地中残留的设施，我们获得了包括现在极地舰队使用的舰装设计在内的一系列资料与新型设备。",
+			say = "I've no doubt in my mind Soyuz must've languished for ages over how to reach the meteorite while avoiding the Sirens and Naval HQ's prying eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +988,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这也是我们北方联合能在遭受塞壬重创之后的短时间内重新恢复战斗能力的原因。",
+			say = "The opportunity she'd waited for finally presented itself with the completion of the Suliko and the waning Siren presence in the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1006,7 +1006,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "没想到那个基地对我们的意义如此重大……",
+			say = "I never knew the base played such an important role...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,7 +1024,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "等回去之后我一定心怀敬意的进去参观一下。",
+			say = "Now I feel bad for thinking so little of it before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊……不过以当时我们的力量，取得并巩固这些成果就是极限了。",
+			say = "I don't blame you for it. We've already salvaged everything worth analyzing from it anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1059,7 +1059,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "遗憾的是在两处区域内均没有发现任何疑似陨石碎片的物体。",
+			say = "As powerful as Siren tech is, we mustn't forget its ruinous influence. Just look what it did to the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本故事到这里应该就结束了——不过随着时间的推移，我们发现塞壬一直没有放弃在极地中的布防。",
+			say = "However, we needn't pursue Siren tech in our quest for answers. Where do Sirens draw their strength from? Where do we shipgirls draw OUR strength from? Finding those answers is of great importance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1094,7 +1094,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这也使得我们确信，这片冰面之下依然隐藏着某些塞壬不想同我们分享的秘密。",
+			say = "And Soyuz... The fact that she personally traveled to meet us instead of sending an envoy shows just how important she thinks this mission is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1112,7 +1112,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "原来如此……我明白了！这次任务就是之前那次先遣队侦察的后续行动！",
+			say = "That explains why she put a big shot like you on the case, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1129,7 +1129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸…………请问“之前那次先遣队”又是什么？",
+			say = "Excuse me, but... how did we discover that there was a meteorite out here anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1146,7 +1146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜…是我的错，我不打岔了…………",
+			say = "Well, it was found–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1163,7 +1163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先遣队，指的是不久之前极地要塞发起的一次特殊行动中的调查舰队。",
+			say = "By complete accident. You won't locate a meteorite chunk in an ocean using divers and sonar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1181,7 +1181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "当时，基地偶然在某片海域的鱼群中发现了一种特殊辐射。",
+			say = "Remember the huge explosion I spoke of earlier? Scientists observed that the insects and trees around the blast zone were suffering from abnormalities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1198,7 +1198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "凑巧的是，那片海域正好没有位于塞壬的控制区内。",
+			say = "\"And?\" you ask? These strange phenomena were also observed in the species endemic to this area where the meteorite rests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1216,7 +1216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "虽然经历了一些战斗，不过调查舰队还是在没有引起塞壬警觉的情况下抵达了目标海域。",
+			say = "Fish had begun mutating and coral reefs were turning into crystal. Just like what happened to those insects and trees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1233,7 +1233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "经过勘测，调查人员在水下发现了疑似陨石撞击坑的残留痕迹。",
+			say = "This prompted a team from the research base to follow the bread crumb trail of abnormalities, who then pinpointed the meteorite's location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "虽然还是没能发现陨石碎片，但通过对陨石坑周围的探测，调查人员发现了一些散发着特殊辐射的神秘的矿石。",
+			say = "I reckon it was around this time they also found out that bringing meteorite bits outside the area they're discovered turns them inert.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1268,7 +1268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且……不光是矿石，陨石坑周围的鱼虾、浮游生物甚至土壤中都在散发着相同的辐射，这些东西被通称为“样本”。",
+			say = "The briefing says those specimens can, optionally, be recovered. I say we might as well, even if it's not our main goal here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1285,7 +1285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们可以肯定样本不是陨石本身，但是与陨石，或者陨石带来的特殊辐射有着千丝万缕的联系。",
+			say = "So, if you were only half-paying attention, in summary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1303,7 +1303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "先遣队试图将样本回收回基地，不过就像之前阿尔汉格尔斯克说的一样，所有试图回收样本的行动都失败了。",
+			say = "One: the meteorite in this region is only a chunk from a bigger one, and for some strange reason, doesn't want to be moved much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1320,7 +1320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道出于什么原理，样本只要离开撞击坑一定距离，所携带的特殊辐射就会开始减弱，最终归零。",
+			say = "Two: that research base is simply a prop for our cover story. With no more tech left to salvage from it, it's practically worthless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1338,7 +1338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "既然样本无法带走，那就只好进行就地研究了，也就是我们这次的任务。",
+			say = "Three: our mission here is to examine the aforementioned meteorite chunk up-close and gather data on it. Any questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1355,7 +1355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白了……！这次任务居然有着这么复杂的前提……",
+			say = "None from me~ Thank you for the outstanding explanation, Kronshtadt! Thumbs up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1372,7 +1372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过任务书上写的执行同步的“同步”又是什么意思？",
+			say = "...Wait, I just thought of one. By \"examine\" you don't mean literally staring at it through the Suliko's windows, right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1390,7 +1390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这个嘛，看起来好像是使用某种能够帮助我们解析样本辐射的特殊仪器的意思。",
+			say = "Obviously not. We're going to use the specialized equipment we retrieved at the base before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1409,7 +1409,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "具体什么情况我也不是很清楚，不过我们很快就能通过实际操作理解了，不是么~？",
+			say = "Speaking of which, that equipment is all 100 percent Siren tech. Handle it with caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

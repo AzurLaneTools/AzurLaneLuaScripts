@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -15,7 +15,7 @@ return {
 			bgm = "battle-hightech",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "滴——滴滴————",
+			say = "BEEP BEEP––!! BEEP BEEP––!!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我的通讯器，好像正在被人呼叫欸！",
+			say = "What the–? My communicator's going off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "呼叫的频道和频率都很和奇怪………",
+			say = "Who could be... This is odd. I've never seen this frequency or comms channel used before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我什么都没收到，你是不是对你的通讯器进行改装了？",
+			say = "Mine's quiet though. Let me guess, you jailbroke your communicator?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "那不是当然的！自己的通讯器当然要调整到自己顺手的状态才行！",
+			say = "Isn't it obvious? What is a genius mechanic without a custom device? Ahh-ha-ha-haah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接通吧，看看是谁在呼叫我们。",
+			say = "Answer it. Whoever's calling, they might give us some valuable intel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "是————",
+			say = "As you say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +157,8 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "前方航行的不明舰船请注意，你们即将进入大洋联邦的演习区域，请立刻表明自己的身份。",
+			actorName = "Communicator",
+			say = "You are entering a Federation exercise area. State your name and affiliation at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "……大洋联邦？刚才好人理查德小姐也提到过这个词。",
+			say = "\"Federation?\" I think that's the organization Richard said she belongs to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说现在正服务于整个大洋联邦。",
+			say = "I've got a hunch they have ties to the Eagle Union. They might even be the Eagle Union under a different name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "看起来是一个比白鹰更高级的军事组织啊……灵敏，跟对面如实报上我们的名字吧。",
+			say = "That'll make this easier. Tell them the truth. If we're in luck, they might patch you through to the Commander and we can bypass Naval HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是~",
+			say = "Right, I'll do just that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "你们的通讯已收到，我们是北方联合所属舰船，喀琅施塔得、阿尔汉格尔斯克、伏尔加、基辅和灵敏。",
+			say = "This is Northern Parliament destroyer Soobrazitelny and company! We hear you loud and clear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "在接近之前并不知道这里被划定为了演习海域，我们这就寻找离开的航线。",
+			say = "We weren't aware this was an exercise area – apologies! If you'll tell us the boundary of it, we'll change course right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,8 +280,8 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "————？！！！（嘈杂声与噪音）",
+			actorName = "Communicator",
+			say = "You're from the Northern Parliament?",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "……………………",
+			actorName = "Communicator",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "…………通讯中断了，这算什么事啊？",
+			say = "Huh. They hung up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对面好像听到我们的名字之后就乱成一锅粥了欸。",
+			say = "As soon as I said we're from the Northern Parliament, too. Talk about rude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "是不是被我天才机械师的名号吓到了~",
+			say = "Or maybe they dropped their phone in awe when they realized it was me, the genius mechanic, they were talking to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "才不可能呢，别添乱。",
+			say = "I don't think they've ever heard of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "不好了！1点钟方向发现机群，型号未知，速度……非常快！",
+			say = "Heads up! Several aircraft, 1 o'clock! They're headed straight for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "伏尔加舰载机紧急升空，全员散开，准备对空作战！",
+			say = "Shit! Volga, scramble your planes! Everyone, spread apart and enter diamond configuration!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么回事……难道是把我们当成强行闯入演习区域的敌人了？",
+			say = "Why are they attacking us? Do they have us confused for their exercise opponent?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "那也不至于见面就开打吧！我们不是报上北方联合的所属了么！",
+			say = "After I literally just told them we're with the Northern Parliament? Highly unlikely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "也许……报上这个名字是个重大错误也说不定。灵敏，继续呼叫对面！",
+			say = "It has to be a misunderstanding. Otherwise why would they point their guns at people allied with the Azur Lane?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不行，对面完全没有回应！",
+			say = "I'll try to contact them again... Gah, I can't! The channel's been deactivated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "啧……这算是什么下马威么……伏尔加，给对面的领机来个空中手术刀！",
+			say = "Then we're in for a rough reception! Volga, give us aerial support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸…………对面的飞机速度特别快，我尽力试试哦！",
+			say = "Their planes are moving unbelievably fast, but I'll do my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			actor = 701100,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "注意，天空和水面都变得不对劲了……",
+			say = "The sky and the sea are... changing...!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "大家看那边。",
+			say = "Look! What is that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "顺着基辅手指的方向看去，原本蔚蓝的天空不知何时已经被乌云笼罩了一半。",
+			say = "Kiev pointed up at the sky, obscured entirely by dark clouds when the weather had been clear just minutes ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "海水在猛烈地翻涌，伴随着怒吼般的巨响，阵阵巨浪正朝着众人的方向袭来。",
+			say = "The distant air churned and formed a black hurricane, kicking up raging streams as it plowed towards the girls at staggering speeds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………台风？不对……那些黑色的波动是……",
+			say = "A hurricane too?! And those black waves...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "在黑云之下，一阵黑色的冲击波正以雷霆万钧之势在海面上肆虐着，仅仅数秒时间便抵达了众人的面前。",
+			say = "The hurricane's rapid formation sent a ripple across the sea, growing into a towering tsunami. Only moments later, they came crashing down on the girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "大家退到我的身后——————",
+			say = "Everyone! Get behind me at–",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊……哈啊…………这种痛苦的感觉是……………………",
+			say = "Urgh... Aghh...! AGH! So this is it...",
 			flashN = {
 				color = {
 					1,
@@ -717,7 +717,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "在猛烈地冲击中，喀琅施塔得的意识消散了。",
+			say = "The crushing impact of the water sent Kronshtadt reeling. Not long after, she blacked out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

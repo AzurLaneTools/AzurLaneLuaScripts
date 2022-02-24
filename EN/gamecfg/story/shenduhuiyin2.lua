@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方联合境内·铁路线",
+			say = "Northern Parliament - Unknown Location",
 			side = 2,
 			bgName = "bg_deepecho_0",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "宽敞的车厢，华丽又舒适的内饰与充满热气的美食。",
+			say = "Ice crackled beneath the tires of a speeding convoy, bearing the insignias of the Classified Operations Unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "在轰隆声中，一列承载着北方联合“舰队”的火车正在皑皑白雪中行驶着。",
+			say = "The notion of shipgirls traveling not by ship but by car is understandably strange to some, but it made sense under these circumstances...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "灵敏，不要趴在车窗上，小心脸被冻上哦。",
+			say = "Don't press your face up against the window, Soobrazitelny! It'll stick if you keep it like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "放心！我好好清理过水气了，只贴一会儿的话不会的！",
+			say = "No problem, I've already calculated the length of time I can do this for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "而且你们看外面的雪景啊~真是太漂亮了！",
+			say = "Even if it happens, it'll be worth it for this priceless view!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "夜幕已经降临，窗外的世界仿佛被白雪与黑夜分隔成了两个部分。",
+			say = "A monochrome world stretched on with no end in sight outside the window, the horizon bisected by a vast night sky and endless fields of pristine snow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "这条自圣彼得伯格出发向着西伯利亚内陆延伸的铁路，自与塞壬的战事开始之初就就是北方联合的重要动脉。",
+			say = "The convoy was headed for a Northern Parliament base. Situated near the pole, it is a vital logistics center in their fight against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "就是车窗为什么没有做过防结霜处理啊……天一冷的话不是什么风景都看不到了！",
+			say = "Drat, the window's starting to fog up on the outside... We won't be able to enjoy the scenery at this rate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "因为不是每个坐火车来西伯利亚的人都有心情看风景哦。",
+			say = "We're here to conduct a secret mission, not gaze at the landscape. And inclement weather is perfect for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "虽然我不否认在这种恶劣气候里不用坐四处漏风的车厢确实令人愉快。",
+			say = "If you ask me, not being able to see out the window is a small price to pay for not being stuck outside in the cold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "是啊~真是太舒适了！啊……雾气又起来了…………",
+			say = "You have a point! I'm glad to be in here where it's warm rather than out there freezing my– Dang it, the window fogged up again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是不知道这节车厢是从哪儿翻出来的……",
+			say = "To that we owe Soyuz. This mission would've been far less pleasant if not for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经很晚了，到了该休息的时间了，灵敏？",
+			say = "Hey, Soobrazitelny, isn't it past your bedtime? Be a good girl and go to sleep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "这种时候都要坚持按时休息？！久违的旅行你居然不兴奋嘛！",
+			say = "It's only 7 o'clock, you doofus! Only sloths sleep at this hour!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "最开始的时候是有点兴奋，不过在给大家收拾完行李之后，心情就平复很多了啦。",
+			say = "You're right it is! Sorry, I just felt like I had to point it out since you're acting so giddy after dinner~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "而且一码归一码。我们是出门执行任务，不是去旅游的。请把兴奋的心情留到梦里比较好哦。",
+			say = "You should still sleep though to recharge your batteries. The mission is tomorrow, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "诶……伏尔加，你每天那么辛苦！你才是最需要好好休息的那一位！",
+			say = "I know, but this view is too good to pass on! You can go to bed without me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "不要一边说着这种好听的话一边继续贴在窗户边上哦~",
+			say = "Sorry, what view? The window's practically opaque.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是是是，一会就去睡一会就去睡！而且你看，基辅也还没去休息，你先去催她嘛~",
+			say = "You never know if it might clear up soon! I can sleep later anyway! Go put Kiev to sleep or something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦，基辅？你不是去休息了么，睡不着么？",
+			say = "What's wrong, Kiev? Can't sleep? Are you getting carsick?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "稍微……有点。习惯了海上的颠簸，反而有些不习惯列车了。",
+			say = "Yeah... I'm used to rocking waves, but not bumpy roads...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "既然是去执行任务，直接走海路不就好了，为什么要坐火车绕一圈？",
+			say = "Why couldn't we have gone by ship instead? I hate this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶……？问我么？因为上面就是这么安排的，我也不清楚哦。",
+			say = "To be honest, I'm not sure. All I know is Soyuz wanted it this way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "说不定是为了犒劳我们一直以来的辛劳，让我们好好享受一下呢~",
+			say = "If I had to guess, it's because sailing a ship through this weather would be exhausting and too damaging to the vessel!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "或者……是为了要掩人耳目。",
+			say = "Not quite. This is all for the sake of secrecy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我们的目的地是一个秘密港口，自然要通过这样秘密的途径过去才更合适嘛、",
+			say = "Our destination is a top-secret research base in Arctic waters. We can't afford to be spotted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？秘密港口？不是去不冻港么？",
+			say = "What? I thought we were only going to patrol an ice-free port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "只是去不冻港的话需要过夜么？",
+			say = "Use your head, please. We wouldn't need to stay overnight if we were only going on a patrol, would we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哦~你这么一说的话，确实……感觉更兴奋了！",
+			say = "So we're on a secret mission, then... Hahaha! Fantastic! I wonder what kind of machines they've got there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "说到不冻港，基辅基辅！你知道为什么摩尔曼斯克是不冻港，而更靠南的阿尔汉格尔斯克一年里却有三个月的冰期吗？",
+			say = "On the topic of ice-free ports, how many do we have, again? There's the port of Murmansk for a start, then to the south there's Arkhangelsk, then–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我不要听……",
+			say = "Ugh... Could you be quiet, please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "就在这时，车厢连接处的门开了。",
+			say = "Just then, a door connecting the vehicle's front and rear cabins opened with a click.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "哟，好像隐约听到有人在叫我的名字啊？",
+			say = "Did someone say my name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "诶……不是不是！我说的是那个阿尔汉格尔斯克港啦！",
+			say = "Well... Yes, but actually no! I was talking about the port of the same name!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，我巡逻回来了~这么晚了大家都还这么精神啊。",
+			say = "Ah, I see. Incidentally, what are you all doing up this late?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "情况怎么样？",
+			say = "Killing time, I suppose. Have you seen anything out there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确认完毕，整趟列车的乘客只有我们。除了车头之外，其他车厢都是空载。",
+			say = "Nothing but hills of snow. Seems it's only us out here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "而且从不久之前列车就从主干道上转入了一条支线，现在不知道正在向哪儿开。",
+			say = "Not that anyone would be able to spot us out here. And if they somehow did, they still wouldn't know we're the passengers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "哼哼，果然和我猜的一样~",
+			say = "Then everything's going all according to plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这个季节，西伯利亚的夜晚可是很漫长的。大家放心休息，明天会有人来叫醒我们的。",
+			say = "So... Considering how long the nights are this far north, I propose we all do as Volga said and sleep to prepare for tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "你都听到喀琅施塔得的话了吧，快去休息了~",
+			say = "Mhm! Early to bed, early to rise, like well-behaved children do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			actor = 701090,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是————",
+			say = "Fine, fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

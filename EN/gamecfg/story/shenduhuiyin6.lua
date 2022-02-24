@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地要塞·破冰船停泊码头",
+			say = "Northern Parliament Research Base - Submarine Anchorage Point",
 			side = 2,
 			bgName = "bg_deepecho_2",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "所有设备装载完毕~既然基辅不愿意进入基地内，我们就一起来破冰船码头休息好了。",
+			say = "Whew... I'm done loading the equipment! Kiev, do you have the courage to at least get up on the pier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不就是一个被我们彻底改造的塞壬设施么~这种时候的基辅好像小孩子一样~",
+			say = "I'm telling you, she's a complete scaredy-cat. Sure it's an ex-Siren facility, but so what? It's been rebuilt from top to bottom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这叫谨慎……在基地里有什么异常情况么？",
+			say = "I'm not a scaredy-cat, I'm just cautious... Did you notice anything unusual inside the base?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "完全~没有！不过基地里有很多有趣的东西哦！有趣到我想在这里闷头研究上三个月的程度！",
+			say = "Nope! But I did find a whole factory's worth of broken machines. I wish I could hole up in there and tinker on them for three months straight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "等完成任务回来之后我们在这里多留一段时间好不好嘛~",
+			say = "We've GOT to return here after this mission's over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶…………这个恐怕不行吧，要不你去问一下喀琅施塔得？",
+			say = "The question is whether we'll get permission to... It could be worth asking Kronshtadt about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是她从刚才开始看起来就心事重重的……不知道是不是在担心任务，总感觉现在不是适合去谈话的好时机。",
+			say = "Not now though, since she's in a meeting with Arkhangelsk. Based on how serious they both looked, I think they're discussing the mission...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_2",
-			say = "与此同时，在休息室的桌子旁。",
+			say = "Suliko Interior - Lounge Area",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然皇家是这么打算的……",
+			say = "...Interesting. I never would've guessed that's what's going on in the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也不是不能理解吧，毕竟皇家现在自己也谈不上是多么绰绰有余的状态。",
+			say = "Shocking, isn't it? Tell that to a member of the aristocracy and they'll spit their tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "你那边怎么样，有没有什么朋友给你送来的会议消息？",
+			say = "What about you? Have you heard anything that'll amaze me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "有倒是有啦~你想听哪些？",
+			say = "I hear about all kinds of things. You're going to have to be more specific than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听我不知道的那些？",
+			say = "How about something I don't already know, for starters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "哪些是你不知道的？",
+			say = "...How am I supposed to know what you don't know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "我不知道……所以应该你来告诉我。",
+			say = "Now you're being silly. How would I ask a question about what I don't know about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿尔汉格尔斯克……如果你不问，我怎么会知道你不知道些什么？你不知道的可能是任何事啊。",
+			say = "You're missing the point. How would I know what you do or do not know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不知道该问些什么，因为我不知道我不知道些什么。",
+			say = "For the love of... I don't know what to ask about because I don't know what I don't know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "……喀琅施塔得，你有一些独家情报，对吧。",
+			say = "Well, this isn't getting anywhere. Let me try phrasing it differently... How about you tell me something that only you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "是~",
+			say = "Why didn't you say that in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "诶……都不知道去皇家留学的到底是我还是你了~",
+			say = "Why didn't you just answer a simple question instead of dancing around it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "哼哼，别看我这样，体制内的话术我应付起来还是绰绰有余的哦~",
+			say = "It's called rhetoric, my friend. It's an important skill to have if you plan on dealing with those aristocrats.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "谢啦……多亏你配合我耍宝，感觉心情都好了不少。",
+			say = "Anyway, no more games. You are someone I can trust with what I'm about to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你不知道的部分，可是非常的不容乐观。",
+			say = "Something that you would have no knowledge of, something that only I know–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "铁血正在蠢蠢欲动……赤色中轴近期的行动越来越越界，和赤色中轴爆发全面冲突的可能性正在提高。",
+			say = "One way you can make black tea taste better is by putting a whole slice of lemon into your teacup and letting it rest for–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………哎？可是我听说会议是为了引导和平而举行的啊，铁血也表达了不战的立场不是么！",
+			say = "Adding lemon to black tea?! That's disgusting! Nobody in the Royal Navy would do that! Who told you this? The Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血大概是不可能得到满足的。",
+			say = "That's classified. But I can tell you this is apparently a popular practice in the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "她们一直在暗中做着准备，即使在会议期间也没有停。",
+			say = "Thinking about it now, that may be a signal used by those in my field... You should watch yourself around anyone who adds lemon to black tea, Arkhangelsk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "如果是这样的话就麻烦了啊，我们跟铁血还有不少合作呢。",
+			say = "Believe me, I'd steer clear of anyone who poisons their own tea like that. Yuck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "会影响到我们么？",
+			say = "Honestly? You should keep this to yourself, lest you get put on the Royal Navy's wanted list for crimes against tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我不好说，不过我也希望至少别影响到我们。",
+			say = "I don't plan on sharing it with anyone else. This information is only meant for those in the know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在重点在于极地，一打起来现在已有的诸项合作会被立刻终止不说，探索计划也无从谈起了。",
+			say = "Although... by divulging it to you just now, I've already let an outsider in on the fact...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "外界虽然一无所知，不过铁血应该多少察觉到了一些关于我们这支极地舰队存在的风声。",
+			say = "I've no reason to think you WOULD leak this information. I trust you, but you must be very careful so as to not accidentally give it away to an agent with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只能希望我们的存在，能让铁血做到心里有数，不要再肆意妄为了。",
+			say = "...Why the weird look? Are you not taking me seriously?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
