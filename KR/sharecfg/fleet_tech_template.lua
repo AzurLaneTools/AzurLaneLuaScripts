@@ -8,7 +8,6 @@ pg.fleet_tech_template = {
 		pt = 300,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -17,7 +16,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -26,7 +24,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -60,7 +57,6 @@ pg.fleet_tech_template = {
 		pt = 600,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -69,7 +65,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -78,7 +73,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -86,7 +80,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -96,7 +89,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -106,7 +98,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -114,7 +105,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -122,7 +112,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -132,7 +121,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -141,7 +129,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -175,7 +162,6 @@ pg.fleet_tech_template = {
 		pt = 900,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -184,7 +170,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -193,7 +178,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -201,7 +185,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -211,7 +194,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -221,7 +203,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -229,7 +210,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -237,7 +217,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -247,7 +226,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -256,7 +234,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -264,7 +241,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -273,7 +249,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -282,7 +257,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -290,7 +264,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -298,7 +271,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -333,7 +305,6 @@ pg.fleet_tech_template = {
 		pt = 1200,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -342,7 +313,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -351,7 +321,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -359,7 +328,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -369,7 +337,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -379,7 +346,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -387,7 +353,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -395,7 +360,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -405,7 +369,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -414,7 +377,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -422,7 +384,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -431,7 +392,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -440,7 +400,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -448,7 +407,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -456,7 +414,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -491,7 +448,6 @@ pg.fleet_tech_template = {
 		pt = 1500,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -500,7 +456,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -509,7 +464,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -517,7 +471,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -527,7 +480,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -537,7 +489,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -545,7 +496,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -553,7 +503,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -563,7 +512,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -572,7 +520,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -580,7 +527,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -589,7 +535,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -598,7 +543,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -606,7 +550,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -614,7 +557,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -649,7 +591,6 @@ pg.fleet_tech_template = {
 		pt = 1800,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -658,7 +599,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -667,7 +607,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -675,7 +614,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -685,7 +623,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -695,7 +632,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -703,7 +639,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -711,7 +646,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -721,7 +655,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -730,7 +663,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -738,7 +670,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -747,7 +678,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -756,7 +686,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -764,7 +693,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -772,7 +700,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -807,7 +734,6 @@ pg.fleet_tech_template = {
 		pt = 2100,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -816,7 +742,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -825,7 +750,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -833,7 +757,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -843,7 +766,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -853,7 +775,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -861,7 +782,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -869,7 +789,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -879,7 +798,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -888,7 +806,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -896,7 +813,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -905,7 +821,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -914,7 +829,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -922,7 +836,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -930,7 +843,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -965,7 +877,6 @@ pg.fleet_tech_template = {
 		pt = 2400,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -974,7 +885,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -983,7 +893,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -991,7 +900,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1001,7 +909,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1011,7 +918,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1019,7 +925,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1027,7 +932,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -1037,7 +941,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -1046,7 +949,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -1054,7 +956,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -1063,7 +964,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -1072,7 +972,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -1080,7 +979,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -1088,7 +986,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -1123,7 +1020,6 @@ pg.fleet_tech_template = {
 		pt = 2700,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -1132,7 +1028,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -1141,7 +1036,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -1149,7 +1043,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1159,7 +1052,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1169,7 +1061,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1177,7 +1068,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1185,7 +1075,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -1195,7 +1084,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					3,
 					13
@@ -1204,7 +1092,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -1212,7 +1099,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -1221,7 +1107,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -1230,7 +1115,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -1238,7 +1122,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -1246,7 +1129,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -1281,7 +1163,6 @@ pg.fleet_tech_template = {
 		pt = 300,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -1289,7 +1170,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -1297,7 +1177,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -1306,7 +1185,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -1340,7 +1218,6 @@ pg.fleet_tech_template = {
 		pt = 600,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -1348,7 +1225,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -1356,7 +1232,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -1365,7 +1240,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -1373,7 +1247,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1383,7 +1256,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1393,7 +1265,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1401,7 +1272,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1409,7 +1279,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					3,
 					18
@@ -1418,7 +1287,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					13
 				},
@@ -1452,7 +1320,6 @@ pg.fleet_tech_template = {
 		pt = 900,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -1460,7 +1327,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -1468,7 +1334,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -1477,7 +1342,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -1485,7 +1349,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1495,7 +1358,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1505,7 +1367,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1513,7 +1374,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1521,7 +1381,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					3,
 					18
@@ -1530,7 +1389,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					13
 				},
@@ -1538,7 +1396,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1546,7 +1403,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1554,7 +1410,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					5,
 					10
@@ -1589,7 +1444,6 @@ pg.fleet_tech_template = {
 		pt = 1200,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -1597,7 +1451,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -1605,7 +1458,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -1614,7 +1466,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -1622,7 +1473,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1632,7 +1482,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1642,7 +1491,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1650,7 +1498,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1658,7 +1505,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					3,
 					18
@@ -1667,7 +1513,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					13
 				},
@@ -1675,7 +1520,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1683,7 +1527,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1691,7 +1534,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					5,
 					10
@@ -1726,7 +1568,6 @@ pg.fleet_tech_template = {
 		pt = 1500,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -1734,7 +1575,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -1742,7 +1582,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -1751,7 +1590,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -1759,7 +1597,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1769,7 +1606,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1779,7 +1615,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1787,7 +1622,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1795,7 +1629,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					3,
 					18
@@ -1804,7 +1637,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					13
 				},
@@ -1812,7 +1644,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1820,7 +1651,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1828,7 +1658,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					5,
 					10
@@ -1863,7 +1692,6 @@ pg.fleet_tech_template = {
 		pt = 1800,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -1871,7 +1699,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -1879,7 +1706,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -1888,7 +1714,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -1896,7 +1721,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1906,7 +1730,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -1916,7 +1739,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1924,7 +1746,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -1932,7 +1753,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					3,
 					18
@@ -1941,7 +1761,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					13
 				},
@@ -1949,7 +1768,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1957,7 +1775,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -1965,7 +1782,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					5,
 					10
@@ -2000,7 +1816,6 @@ pg.fleet_tech_template = {
 		pt = 2100,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -2008,7 +1823,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -2016,7 +1830,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -2025,7 +1838,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -2033,7 +1845,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2043,7 +1854,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2053,7 +1863,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2061,7 +1870,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2069,7 +1877,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					3,
 					18
@@ -2078,7 +1885,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					13
 				},
@@ -2086,7 +1892,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -2094,7 +1899,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -2102,7 +1906,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					5,
 					10
@@ -2137,7 +1940,6 @@ pg.fleet_tech_template = {
 		pt = 2400,
 		add = {
 			{
-				{},
 				{
 					6
 				},
@@ -2145,7 +1947,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					7
 				},
@@ -2153,7 +1954,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					6,
 					7
@@ -2162,7 +1962,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					6
 				},
@@ -2170,7 +1969,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2180,7 +1978,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2190,7 +1987,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2198,7 +1994,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2206,7 +2001,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					3,
 					18
@@ -2215,7 +2009,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					13
 				},
@@ -2223,7 +2016,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -2231,7 +2023,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					4
 				},
@@ -2239,7 +2030,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					5,
 					10
@@ -2274,7 +2064,6 @@ pg.fleet_tech_template = {
 		pt = 300,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -2283,7 +2072,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2292,7 +2080,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2301,7 +2088,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -2335,7 +2121,6 @@ pg.fleet_tech_template = {
 		pt = 600,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -2344,7 +2129,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2353,7 +2137,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2362,7 +2145,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -2370,7 +2152,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2380,7 +2161,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2388,7 +2168,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -2396,7 +2175,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -2430,7 +2208,6 @@ pg.fleet_tech_template = {
 		pt = 900,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -2439,7 +2216,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2448,7 +2224,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2457,7 +2232,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -2465,7 +2239,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2475,7 +2248,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2483,7 +2255,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -2491,7 +2262,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -2499,7 +2269,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4,
 					5,
@@ -2509,7 +2278,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -2517,7 +2285,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -2552,7 +2319,6 @@ pg.fleet_tech_template = {
 		pt = 1200,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -2561,7 +2327,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2570,7 +2335,6 @@ pg.fleet_tech_template = {
 				25
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2579,7 +2343,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -2587,7 +2350,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2597,7 +2359,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2605,7 +2366,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -2613,7 +2373,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -2621,7 +2380,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					4,
 					5,
@@ -2631,7 +2389,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -2639,7 +2396,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -2674,7 +2430,6 @@ pg.fleet_tech_template = {
 		pt = 1500,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -2683,7 +2438,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2692,7 +2446,6 @@ pg.fleet_tech_template = {
 				25
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2701,7 +2454,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -2709,7 +2461,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2719,7 +2470,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2727,7 +2477,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -2735,7 +2484,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -2743,7 +2491,6 @@ pg.fleet_tech_template = {
 				4
 			},
 			{
-				{},
 				{
 					4,
 					5,
@@ -2753,7 +2500,6 @@ pg.fleet_tech_template = {
 				2
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -2761,7 +2507,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -2796,7 +2541,6 @@ pg.fleet_tech_template = {
 		pt = 1800,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -2805,7 +2549,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2814,7 +2557,6 @@ pg.fleet_tech_template = {
 				25
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2823,7 +2565,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -2831,7 +2572,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2841,7 +2581,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2849,7 +2588,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -2857,7 +2595,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -2865,7 +2602,6 @@ pg.fleet_tech_template = {
 				4
 			},
 			{
-				{},
 				{
 					4,
 					5,
@@ -2875,7 +2611,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -2883,7 +2618,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -2918,7 +2652,6 @@ pg.fleet_tech_template = {
 		pt = 2100,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -2927,7 +2660,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2936,7 +2668,6 @@ pg.fleet_tech_template = {
 				50
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -2945,7 +2676,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -2953,7 +2683,6 @@ pg.fleet_tech_template = {
 				9
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -2963,7 +2692,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -2971,7 +2699,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -2979,7 +2706,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -2987,7 +2713,6 @@ pg.fleet_tech_template = {
 				4
 			},
 			{
-				{},
 				{
 					4,
 					5,
@@ -2997,7 +2722,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -3005,7 +2729,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -3040,7 +2763,6 @@ pg.fleet_tech_template = {
 		pt = 2400,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -3049,7 +2771,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3058,7 +2779,6 @@ pg.fleet_tech_template = {
 				50
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3067,7 +2787,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -3075,7 +2794,6 @@ pg.fleet_tech_template = {
 				9
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3085,7 +2803,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -3093,7 +2810,6 @@ pg.fleet_tech_template = {
 				13
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -3101,7 +2817,6 @@ pg.fleet_tech_template = {
 				13
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -3109,7 +2824,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					4,
 					5,
@@ -3119,7 +2833,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -3127,7 +2840,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -3162,7 +2874,6 @@ pg.fleet_tech_template = {
 		pt = 2700,
 		add = {
 			{
-				{},
 				{
 					6,
 					7
@@ -3171,7 +2882,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3180,7 +2890,6 @@ pg.fleet_tech_template = {
 				50
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3189,7 +2898,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					17
 				},
@@ -3197,7 +2905,6 @@ pg.fleet_tech_template = {
 				9
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3207,7 +2914,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					2
 				},
@@ -3215,7 +2921,6 @@ pg.fleet_tech_template = {
 				13
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -3223,7 +2928,6 @@ pg.fleet_tech_template = {
 				13
 			},
 			{
-				{},
 				{
 					18
 				},
@@ -3231,7 +2935,6 @@ pg.fleet_tech_template = {
 				6
 			},
 			{
-				{},
 				{
 					4,
 					5,
@@ -3241,7 +2944,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -3249,7 +2951,6 @@ pg.fleet_tech_template = {
 				9
 			},
 			{
-				{},
 				{
 					12,
 					19
@@ -3284,7 +2985,6 @@ pg.fleet_tech_template = {
 		pt = 450,
 		add = {
 			{
-				{},
 				{
 					8,
 					17
@@ -3293,7 +2993,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3302,7 +3001,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3337,7 +3035,6 @@ pg.fleet_tech_template = {
 		pt = 900,
 		add = {
 			{
-				{},
 				{
 					8,
 					17
@@ -3346,7 +3043,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3355,7 +3051,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3364,7 +3059,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3374,7 +3068,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3384,7 +3077,6 @@ pg.fleet_tech_template = {
 				4
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -3392,7 +3084,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					13,
 					18
@@ -3401,7 +3092,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -3437,7 +3127,6 @@ pg.fleet_tech_template = {
 		pt = 1350,
 		add = {
 			{
-				{},
 				{
 					8,
 					17
@@ -3446,7 +3135,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3455,7 +3143,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3464,7 +3151,6 @@ pg.fleet_tech_template = {
 				3
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3474,7 +3160,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3484,7 +3169,6 @@ pg.fleet_tech_template = {
 				4
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -3492,7 +3176,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					13,
 					18
@@ -3501,7 +3184,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -3511,7 +3193,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -3520,7 +3201,6 @@ pg.fleet_tech_template = {
 				20
 			},
 			{
-				{},
 				{
 					10
 				},
@@ -3554,7 +3234,6 @@ pg.fleet_tech_template = {
 		pt = 1800,
 		add = {
 			{
-				{},
 				{
 					8,
 					17
@@ -3563,7 +3242,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3572,7 +3250,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					8,
 					17
@@ -3581,7 +3258,6 @@ pg.fleet_tech_template = {
 				7
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3591,7 +3267,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					1,
 					20,
@@ -3601,7 +3276,6 @@ pg.fleet_tech_template = {
 				4
 			},
 			{
-				{},
 				{
 					3
 				},
@@ -3609,7 +3283,6 @@ pg.fleet_tech_template = {
 				10
 			},
 			{
-				{},
 				{
 					13,
 					18
@@ -3618,7 +3291,6 @@ pg.fleet_tech_template = {
 				5
 			},
 			{
-				{},
 				{
 					3,
 					13,
@@ -3628,7 +3300,6 @@ pg.fleet_tech_template = {
 				1
 			},
 			{
-				{},
 				{
 					4,
 					5
@@ -3637,7 +3308,6 @@ pg.fleet_tech_template = {
 				20
 			},
 			{
-				{},
 				{
 					10
 				},

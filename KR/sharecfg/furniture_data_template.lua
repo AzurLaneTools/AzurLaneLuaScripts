@@ -4677,6 +4677,150 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[219] = {
+		belong = 1,
+		describe = "감사를 전하는 핸드메이드 선물!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "스페셜·기념 테이블",
+		tag = 6,
+		icon = "niantuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 5,
+		deblocking = 1,
+		picture = "",
+		canputon = 0,
+		id = 219,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"niantucnB",
+				"normal"
+			},
+			{
+				"niantucnT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						0,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					10000,
+					10001
+				},
+				"buli",
+				2,
+				2
+			},
+			{
+				"sit",
+				{
+					30311
+				},
+				"gaoxiong",
+				2,
+				2
+			}
+		},
+		animator = {
+			{
+				"niantuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[220] = {
+		spine_extra = "",
+		describe = "지휘관 여러분께 커다란 감사와 축복을 바칩니다!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "bili200wicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "스페셜·기념 천하장사냥",
+		comfortable = 5,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 220,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bili200w",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -6989,6 +7133,79 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100034] = {
+		spine_extra = "",
+		describe = "주포 준비 완료! 전속 전진~",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "항해술",
+		themeId = 0,
+		icon = "feixingpaoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100034,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingpao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -95748,6 +95965,8 @@ pg.furniture_data_template = {
 		216,
 		217,
 		218,
+		219,
+		220,
 		100002,
 		100003,
 		100004,
@@ -95780,6 +95999,7 @@ pg.furniture_data_template = {
 		100031,
 		100032,
 		100033,
+		100034,
 		200001,
 		200002,
 		200003,

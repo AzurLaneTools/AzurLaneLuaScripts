@@ -22,9 +22,9 @@ function slot0.willExit(slot0)
 end
 
 function slot0.initData(slot0)
-	slot1 = getProxy(TechnologyNationProxy)
-	slot0.tecList = slot1:GetTecList()
-	slot0.typeAttrTable, slot0.typeOrder, slot0.typeAttrOrderTable = slot1:getTecBuff()
+	slot0.technologyNationProxy = getProxy(TechnologyNationProxy)
+	slot0.tecList = slot0.technologyNationProxy:GetTecList()
+	slot0.typeAttrTable, slot0.typeOrder, slot0.typeAttrOrderTable = slot0.technologyNationProxy:getTecBuff()
 	slot0.typeOrder = ShipType.FilterOverQuZhuType(slot0.typeOrder)
 end
 
@@ -39,6 +39,7 @@ function slot0.findUI(slot0)
 	slot0.scrollViewFitterCom = GetComponent(slot0.scrollView, "ContentSizeFitter")
 	slot0.viewportGroupCom = GetComponent(slot0.viewport, "VerticalLayoutGroup")
 	slot0.viewportFitterCom = GetComponent(slot0.viewport, "ContentSizeFitter")
+	slot0.setValueBtn = slot0:findTF("Scroll View/bg/SetValueBtn")
 end
 
 function slot0.onBackPressed(slot0)
@@ -49,6 +50,13 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
+	onButton(slot0, slot0.setValueBtn, function ()
+		if getProxy(ChapterProxy):getActiveChapter(true) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("attrset_disable"))
+		else
+			uv0:emit(AllBuffDetailMediator.OPEN_SET_VALUE_LAYER)
+		end
+	end, SFX_PANEL)
 end
 
 function slot0.updateDetail(slot0)
@@ -85,10 +93,22 @@ function slot0.updateBuffList(slot0, slot1, slot2)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot4 = uv0:findTF("ValueText", slot2)
 			slot5 = uv1[slot1 + 1]
 
 			setText(uv0:findTF("AttrText", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[slot5].name))
-			setText(uv0:findTF("ValueText", slot2), "+" .. uv2[slot5])
+
+			slot8 = nil
+
+			if uv0.technologyNationProxy:getSetableAttrAdditionValueByTypeAttr(uv3, slot5) == uv2[slot5] then
+				slot8 = "#00FF32FF"
+			elseif slot7 == 0 then
+				slot8 = "#CA5B5BFF"
+			elseif slot7 < slot6 then
+				slot8 = "#A5BBD6FF"
+			end
+
+			setText(slot4, setColorStr("+" .. slot7, slot8))
 		end
 	end)
 	slot3:align(#slot0.typeAttrOrderTable[slot2])

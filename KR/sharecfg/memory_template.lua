@@ -19404,6 +19404,50 @@ pg.memory_template = {
 		icon = "memory_wuerlixi",
 		is_open = 0
 	},
+	[2002] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "비밀 작전",
+		condition = "「새벽의 어둠」에서 정보 해독 20회 완료",
+		story = "LIMINGZHIAN1",
+		id = 2002,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2003] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "오래 전 작전",
+		condition = "「새벽의 어둠」에서 정보 해독 40회 완료",
+		story = "LIMINGZHIAN2",
+		id = 2003,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2004] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "잡음 사건",
+		condition = "「새벽의 어둠」에서 정보 해독 60회 완료",
+		story = "LIMINGZHIAN3",
+		id = 2004,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
+	[2005] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "성의",
+		condition = "「새벽의 어둠」에서 정보 해독 모두 완료",
+		story = "LIMINGZHIAN4",
+		id = 2005,
+		icon = "memory_limingzhian",
+		is_open = 0
+	},
 	[10000] = {
 		type = 1,
 		subtitle = "",
@@ -21906,6 +21950,10 @@ pg.memory_template = {
 		1999,
 		2000,
 		2001,
+		2002,
+		2003,
+		2004,
+		2005,
 		10000,
 		10001,
 		10002,

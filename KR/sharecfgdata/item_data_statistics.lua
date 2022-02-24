@@ -147424,6 +147424,27 @@ _G.pg.item_data_statistics[59274] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59275] = {
+	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "훈련 PT ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59275,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -155938,6 +155959,27 @@ _G.pg.item_data_statistics[60233] = {
 	icon = "Props/henianka2022",
 	price = "",
 	id = 60233,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[60234] = {
+	display = "『정보 해독』에 사용할 수 있다. 이벤트 종료 후 사라짐",
+	name = "정보PT",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4263,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/information_pt",
+	price = "",
+	id = 60234,
 	display_icon = {},
 	index = {}
 }

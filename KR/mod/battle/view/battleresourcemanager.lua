@@ -175,11 +175,8 @@ function slot5.InstCharacter(slot0, slot1, slot2)
 	if slot0._allPool[slot0.GetCharacterPath(slot1)] then
 		slot2(slot0:popPool(slot4))
 	elseif slot0._resCacheList[slot3] ~= nil then
-		slot0:InitPool(slot3, slot0._resCacheList[slot3], function ()
-			uv0 = uv1._allPool[uv2]
-
-			uv3(uv1:popPool(uv0))
-		end)
+		slot0:InitPool(slot3, slot0._resCacheList[slot3])
+		slot2(slot0:popPool(slot0._allPool[slot3]))
 	else
 		slot0:LoadSpineAsset(slot1, function (slot0)
 			if not uv0._poolRoot then
@@ -191,11 +188,11 @@ function slot5.InstCharacter(slot0, slot1, slot2)
 			slot1 = SpineAnim.AnimChar(uv3, slot0)
 
 			slot1:SetActive(false)
-			uv0:InitPool(uv2, slot1, function ()
-				uv0 = uv1._allPool[uv2]
+			uv0:InitPool(uv2, slot1)
 
-				uv3(uv1:popPool(uv0))
-			end)
+			uv4 = uv0._allPool[uv2]
+
+			uv5(uv0:popPool(uv4))
 		end)
 	end
 end
@@ -216,11 +213,8 @@ function slot5.InstAirCharacter(slot0, slot1, slot2)
 	if slot0._allPool[slot0.GetCharacterGoPath(slot1)] then
 		slot2(slot0:popPool(slot4))
 	elseif slot0._resCacheList[slot3] ~= nil then
-		slot0:InitPool(slot3, slot0._resCacheList[slot3], function ()
-			uv0 = uv1._allPool[uv2]
-
-			uv3(uv1:popPool(uv0))
-		end)
+		slot0:InitPool(slot3, slot0._resCacheList[slot3])
+		slot2(slot0:popPool(slot0._allPool[slot3]))
 	else
 		ResourceMgr.Inst:getAssetAsync(slot3, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if not uv0._poolRoot then
@@ -228,11 +222,11 @@ function slot5.InstAirCharacter(slot0, slot1, slot2)
 
 				return
 			else
-				uv0:InitPool(uv2, slot0, function ()
-					uv0 = uv1._allPool[uv2]
+				uv0:InitPool(uv2, slot0)
 
-					uv3(uv1:popPool(uv0))
-				end)
+				uv3 = uv0._allPool[uv2]
+
+				uv4(uv0:popPool(uv3))
 			end
 		end), true, true)
 	end
@@ -250,16 +244,15 @@ function slot5.InstBullet(slot0, slot1, slot2)
 
 		return true
 	elseif slot0._resCacheList[slot3] ~= nil then
-		slot0:InitPool(slot3, slot0._resCacheList[slot3], function ()
-			uv0 = uv1._allPool[uv2]
-			slot0 = uv1:popPool(uv0, true)
+		slot0:InitPool(slot3, slot0._resCacheList[slot3])
 
-			if string.find(uv3, "_trail") and slot0:GetComponentInChildren(typeof(UnityEngine.TrailRenderer)) then
-				slot1:Clear()
-			end
+		slot5 = slot0:popPool(slot0._allPool[slot3], true)
 
-			uv4(slot0)
-		end)
+		if string.find(slot1, "_trail") and slot5:GetComponentInChildren(typeof(UnityEngine.TrailRenderer)) then
+			slot6:Clear()
+		end
+
+		slot2(slot5)
 
 		return true
 	else
@@ -269,11 +262,11 @@ function slot5.InstBullet(slot0, slot1, slot2)
 
 				return
 			else
-				uv0:InitPool(uv2, slot0, function ()
-					uv0 = uv1._allPool[uv2]
+				uv0:InitPool(uv2, slot0)
 
-					uv3(uv1:popPool(uv0, true))
-				end)
+				uv3 = uv0._allPool[uv2]
+
+				uv4(uv0:popPool(uv3, true))
 			end
 		end), true, true)
 
@@ -559,9 +552,8 @@ function slot5.StartPreload(slot0, slot1, slot2)
 					end
 				end
 
-				uv2:InitPool(uv0, slot0, function ()
-					uv0()
-				end)
+				uv2:InitPool(uv0, slot0)
+				uv4()
 			end)
 		elseif string.find(slot9, "UI/") then
 			LoadAndInstantiateAsync("UI", slot11, function (slot0)
@@ -581,9 +573,8 @@ function slot5.StartPreload(slot0, slot1, slot2)
 					end
 				end
 
-				uv1:InitPool(uv0, slot0, function ()
-					uv0()
-				end)
+				uv1:InitPool(uv0, slot0)
+				uv3()
 			end, true, true)
 		else
 			ResourceMgr.Inst:getAssetAsync(slot9, slot11, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -601,9 +592,8 @@ function slot5.StartPreload(slot0, slot1, slot2)
 					end
 				end
 
-				uv1:InitPool(uv0, slot0, function ()
-					uv0()
-				end)
+				uv1:InitPool(uv0, slot0)
+				uv3()
 			end), true, true)
 		end
 	end
@@ -621,121 +611,71 @@ function slot5.InitParticleSystemCB(slot0)
 	pg.EffectMgr.GetInstance():CommonEffectEvent(slot0)
 end
 
-function slot5.InitPool(slot0, slot1, slot2, slot3)
-	slot4 = slot0._poolRoot.transform
+function slot5.InitPool(slot0, slot1, slot2)
+	slot3 = slot0._poolRoot.transform
 
 	if string.find(slot1, "Item/") then
 		if slot2:GetComponentInChildren(typeof(UnityEngine.TrailRenderer)) ~= nil or slot2:GetComponentInChildren(typeof(ParticleSystem)) ~= nil then
-			if slot3 ~= nil then
-				slot0._allPool[slot1] = pg.Pool.New(slot0._bulletContainer.transform, slot2, 15, 20, true, false):InitSizeAsync(slot3)
-			else
-				slot0._allPool[slot1] = pg.Pool.New(slot0._bulletContainer.transform, slot2, 15, 20, true, false):InitSize()
-			end
+			slot0._allPool[slot1] = pg.Pool.New(slot0._bulletContainer.transform, slot2, 15, 20, true, false):InitSize()
 		else
-			pg.Pool.New(slot0._bulletContainer.transform, slot2, 20, 20, true, true):SetRecycleFuncs(uv0.HideBullet)
+			slot4 = pg.Pool.New(slot0._bulletContainer.transform, slot2, 20, 20, true, true)
 
-			if slot3 ~= nil then
-				slot0._allPool[slot1] = slot5
+			slot4:SetRecycleFuncs(uv0.HideBullet)
+			slot4:InitSize()
 
-				slot5:InitSizeAsync(slot3)
-			else
-				slot5:InitSize()
-
-				slot0._allPool[slot1] = slot5
-			end
+			slot0._allPool[slot1] = slot4
 		end
 	elseif string.find(slot1, "Effect/") then
 		if slot2:GetComponent(typeof(UnityEngine.ParticleSystem)) then
-			slot5 = 5
+			slot4 = 5
 
 			if string.find(slot1, "smoke") and not string.find(slot1, "smokeboom") then
-				slot5 = 30
+				slot4 = 30
 			elseif string.find(slot1, "feijiyingzi") then
-				slot5 = 1
+				slot4 = 1
 			end
 
-			pg.Pool.New(slot4, slot2, slot5, 20, false, false):SetInitFuncs(uv0.InitParticleSystemCB)
+			slot5 = pg.Pool.New(slot3, slot2, slot4, 20, false, false)
 
-			if slot3 ~= nil then
-				slot0._allPool[slot1] = slot6
+			slot5:SetInitFuncs(uv0.InitParticleSystemCB)
+			slot5:InitSize()
 
-				slot6:InitSizeAsync(slot3)
-			else
-				slot6:InitSize()
-
-				slot0._allPool[slot1] = slot6
-			end
+			slot0._allPool[slot1] = slot5
 		else
-			slot5 = 8
+			slot4 = 8
 
 			if string.find(slot1, "AntiAirArea") or string.find(slot1, "AntiSubArea") then
-				slot5 = 1
+				slot4 = 1
 			end
 
 			GetOrAddComponent(slot2, typeof(ParticleSystemEvent))
 
-			slot6 = pg.Pool.New(slot4, slot2, slot5, 20, false, false)
+			slot5 = pg.Pool.New(slot3, slot2, slot4, 20, false, false)
 
-			if slot3 ~= nil then
-				slot0._allPool[slot1] = slot6
+			slot5:InitSize()
 
-				slot6:InitSizeAsync(slot3)
-			else
-				slot6:InitSize()
-
-				slot0._allPool[slot1] = slot6
-			end
+			slot0._allPool[slot1] = slot5
 		end
 	elseif string.find(slot1, "Char/") then
-		slot5 = 1
+		slot4 = 1
 
 		if string.find(slot1, "danchuan") then
-			slot5 = 3
+			slot4 = 3
 		end
 
-		if slot3 ~= nil then
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, slot5, 20, false, false):InitSizeAsync(slot3)
-		else
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, slot5, 20, false, false):InitSize()
-		end
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, slot4, 20, false, false):InitSize()
 	elseif string.find(slot1, "chargo/") then
-		if slot3 ~= nil then
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 3, 20, false, false):InitSizeAsync(slot3)
-		else
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 3, 20, false, false):InitSize()
-		end
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 3, 20, false, false):InitSize()
 	elseif string.find(slot1, "orbit/") then
-		if slot3 ~= nil then
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 2, 20, false, false):InitSizeAsync(slot3)
-		else
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 2, 20, false, false):InitSize()
-		end
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 2, 20, false, false):InitSize()
 	elseif slot1 == "UI/SkillPainting" then
-		if slot3 ~= nil then
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 1, 20, false, false):InitSizeAsync(slot3)
-		else
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 1, 20, false, false):InitSize()
-		end
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/MonsterAppearUI" then
-		if slot3 ~= nil then
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 1, 20, false, false):InitSizeAsync(slot3)
-		else
-			slot0._allPool[slot1] = pg.Pool.New(slot4, slot2, 1, 20, false, false):InitSize()
-		end
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/CombatHPBar" then
-		uv1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot4)
-
-		if slot3 ~= nil then
-			slot3()
-		end
+		uv1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot3)
 	elseif slot1 == "UI/CombatHPPop" then
-		uv1.Battle.BattlePopNumManager.GetInstance():Init(slot2, slot4)
-
-		if slot3 ~= nil then
-			slot3()
-		end
-	elseif slot3 ~= nil then
-		slot3()
+		uv1.Battle.BattlePopNumManager.GetInstance():Init(slot2, slot3)
 	end
 end
 

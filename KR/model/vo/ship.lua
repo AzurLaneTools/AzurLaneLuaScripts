@@ -919,7 +919,17 @@ function slot0.getShipProperties(slot0)
 end
 
 function slot0.getTechNationAddition(slot0, slot1)
-	return getProxy(TechnologyNationProxy):getShipAddition(slot0:getConfig("type"), slot1)
+	slot2 = getProxy(TechnologyNationProxy)
+
+	if slot0:getConfig("type") == ShipType.DaoQuV or slot3 == ShipType.DaoQuM then
+		slot3 = ShipType.QuZhu
+	end
+
+	return slot2:getShipAddition(slot3, slot1)
+end
+
+function slot0.getTechNationMaxAddition(slot0, slot1)
+	return getProxy(TechnologyNationProxy):getShipMaxAddition(slot0:getConfig("type"), slot1)
 end
 
 function slot0.getEquipProficiencyByPos(slot0, slot1)
@@ -1181,71 +1191,71 @@ function slot0.getEquipmentGearScore(slot0)
 	return slot1
 end
 
-function slot0.getProperties(slot0, slot1, slot2, slot3)
-	slot4 = slot1 or {}
-	slot5 = slot0:getConfig("nationality")
-	slot6 = slot0:getConfig("type")
-	slot7 = slot0:getShipProperties()
-	slot8, slot9 = slot0:getEquipmentProperties()
-	slot10, slot11, slot12 = nil
+function slot0.getProperties(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot1 or {}
+	slot6 = slot0:getConfig("nationality")
+	slot7 = slot0:getConfig("type")
+	slot8 = slot0:getShipProperties()
+	slot9, slot10 = slot0:getEquipmentProperties()
+	slot11, slot12, slot13 = nil
 
 	if slot3 and slot0:getFlag("inWorld") then
-		slot13 = WorldConst.FetchWorldShip(slot0.id)
-		slot10, slot11 = slot13:GetShipBuffProperties()
-		slot12 = slot13:GetShipPowerBuffProperties()
+		slot14 = WorldConst.FetchWorldShip(slot0.id)
+		slot11, slot12 = slot14:GetShipBuffProperties()
+		slot13 = slot14:GetShipPowerBuffProperties()
 	end
 
-	for slot16, slot17 in ipairs(uv0.PROPERTIES) do
-		slot18 = 0
+	for slot17, slot18 in ipairs(uv0.PROPERTIES) do
 		slot19 = 0
+		slot20 = 0
 
-		for slot23, slot24 in pairs(slot4) do
-			slot18 = slot18 + slot24:getAttrRatioAddition(slot17, slot5, slot6) / 100
-			slot19 = slot19 + slot24:getAttrValueAddition(slot17, slot5, slot6)
+		for slot24, slot25 in pairs(slot5) do
+			slot19 = slot19 + slot25:getAttrRatioAddition(slot18, slot6, slot7) / 100
+			slot20 = slot20 + slot25:getAttrValueAddition(slot18, slot6, slot7)
 		end
 
-		slot20 = slot18 + (slot9[slot17] or 1)
-		slot21 = slot11 and slot11[slot17] or 1
-		slot22 = slot10 and slot10[slot17] or 0
+		slot21 = slot19 + (slot10[slot18] or 1)
+		slot22 = slot12 and slot12[slot18] or 1
+		slot23 = slot11 and slot11[slot18] or 0
 
-		if slot17 == AttributeType.Speed then
-			slot7[slot17] = slot7[slot17] * slot20 * slot21 + slot19 + slot8[slot17] + slot22
+		if slot18 == AttributeType.Speed then
+			slot8[slot18] = slot8[slot18] * slot21 * slot22 + slot20 + slot9[slot18] + slot23
 		else
-			slot7[slot17] = calcFloor(calcFloor(slot7[slot17]) * slot20 * slot21) + slot19 + slot8[slot17] + slot22
+			slot8[slot18] = calcFloor(calcFloor(slot8[slot18]) * slot21 * slot22) + slot20 + slot9[slot18] + slot23
 		end
 	end
 
 	if not slot2 and slot0:isMaxStar() then
-		for slot16, slot17 in pairs(slot7) do
-			slot7[slot16] = slot7[slot16] + slot0:getTechNationAddition(slot16)
+		for slot17, slot18 in pairs(slot8) do
+			slot8[slot17] = slot8[slot17] + (slot4 and slot0:getTechNationMaxAddition(slot17) or slot0:getTechNationAddition(slot17))
 		end
 	end
 
-	for slot16, slot17 in ipairs(uv0.DIVE_PROPERTIES) do
-		slot7[slot17] = slot7[slot17] + slot8[slot17]
+	for slot17, slot18 in ipairs(uv0.DIVE_PROPERTIES) do
+		slot8[slot18] = slot8[slot18] + slot9[slot18]
 	end
 
-	for slot16, slot17 in ipairs(uv0.SONAR_PROPERTIES) do
-		slot7[slot17] = slot7[slot17] + slot8[slot17]
+	for slot17, slot18 in ipairs(uv0.SONAR_PROPERTIES) do
+		slot8[slot18] = slot8[slot18] + slot9[slot18]
 	end
 
 	if slot3 then
-		slot7[AttributeType.AntiSiren] = (slot7[AttributeType.AntiSiren] or 0) + slot8[AttributeType.AntiSiren]
+		slot8[AttributeType.AntiSiren] = (slot8[AttributeType.AntiSiren] or 0) + slot9[AttributeType.AntiSiren]
 	end
 
-	if slot12 then
-		for slot16, slot17 in pairs(slot12) do
-			if slot7[slot16] then
-				if slot16 == AttributeType.Speed then
-					slot7[slot16] = slot7[slot16] * slot17
+	if slot13 then
+		for slot17, slot18 in pairs(slot13) do
+			if slot8[slot17] then
+				if slot17 == AttributeType.Speed then
+					slot8[slot17] = slot8[slot17] * slot18
 				else
-					slot7[slot16] = math.floor(slot7[slot16] * slot17)
+					slot8[slot17] = math.floor(slot8[slot17] * slot18)
 				end
 			end
 		end
 	end
 
-	return slot7
+	return slot8
 end
 
 function slot0.getTransGearScore(slot0)
@@ -1262,7 +1272,7 @@ function slot0.getTransGearScore(slot0)
 end
 
 function slot0.getShipCombatPower(slot0, slot1)
-	slot2 = slot0:getProperties(slot1)
+	slot2 = slot0:getProperties(slot1, nil, , true)
 
 	return math.floor(slot2[AttributeType.Durability] / 5 + slot2[AttributeType.Cannon] + slot2[AttributeType.Torpedo] + slot2[AttributeType.AntiAircraft] + slot2[AttributeType.Air] + slot2[AttributeType.AntiSub] + slot2[AttributeType.Reload] + slot2[AttributeType.Hit] * 2 + slot2[AttributeType.Dodge] * 2 + slot2[AttributeType.Speed] + slot0:getEquipmentGearScore() + slot0:getTransGearScore())
 end

@@ -297,6 +297,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「「위로는 신의 국가를 향해, 아래로는 저승을 향해. 역행하는 무지개를 넘어, 미지를 향해 나아가자.」</color>\n「역행하는 무지개 탑」이벤트 획득.",
 		scene = {}
 	},
+	[318] = {
+		time_limit_type = 0,
+		name = "극한의 별",
+		gain_by = "",
+		id = 318,
+		time_second = 0,
+		desc = "<color=#ffffff>「추후 이벤트 획득」</color>",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -367,6 +376,7 @@ pg.item_data_frame = {
 		315,
 		316,
 		317,
+		318,
 		401,
 		402,
 		413,

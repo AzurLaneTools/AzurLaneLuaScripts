@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "20971",
+		param = "4261",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					2,
-					24
+					3,
+					16
 				},
 				{
 					23,
@@ -33,15 +33,10 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4259",
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectname = "new"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
@@ -58,8 +53,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					2,
-					24
+					3,
+					16
 				},
 				{
 					23,
