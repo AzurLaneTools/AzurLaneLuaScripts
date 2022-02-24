@@ -12,7 +12,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，快一些，回收完资料后我们也要撤退了。",
+			say = "指揮官，快一些，回收完資料後我們也要撤退了。",
 			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生了什么事……？",
+					content = "發生了什麼事……？",
 					flag = 1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………明明遭遇到如此紧急的情况，指挥官还真是泰然自若。",
+			say = "…………明明遭遇到如此緊急的情況，指揮官還真是泰然自若。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "数分钟前，外部原本空无一人的海域中突然出现了大量来历不明型号不明的敌人。",
+			say = "數分鐘前，外部原本空無一人的海域中突然出現了大量來歷不明型號不明的敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贝拉罗斯她们已经带领舰队前往了外部迎击，而我们在一边整理回收到的资料，一边等待她们清理完第一批敌人后进行撤离。",
+			say = "白俄羅斯她們已經帶領艦隊前往了外部迎擊，而我們在一邊整理回收到的資料，一邊等待她們清理完第一批敵人後進行撤離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你真的不记得了……？",
+			say = "你真的不記得了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在没有找到返回路线的时候遭遇到大量敌人袭击，情况非常不妙啊……",
+			say = "在沒有找到返回路線的時候遭遇到大量敵人襲擊，情況非常不妙啊……",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -141,7 +141,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们现在所处的设施位于一条轨道下方，之前的控制室也位于一条轨道下方。",
+			say = "我們現在所處的設施位於一條軌道下方，之前的控制室也位於一條軌道下方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然此处设施是全新出现的，而控制室又不在这里，那么另一条轨道下方的冰山大概率就是控制装置的所在地了吧，而撤离的“大门”也应该就在那里。",
+			say = "既然此處設施是全新出現的，而控制室又不在這裡，那麼另一條軌道下方的冰山大概率就是控制裝置的所在地了吧，而撤離的“大門”也應該就在那裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示赞同",
+					content = "表示贊同",
 					flag = 1
 				}
 			}
@@ -181,7 +181,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那大家立刻向另一侧进行撤离吧……！",
+			say = "那大家向立刻向另一側進行撤離吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不着急。现在敌情不明，指挥官同志还是先呆在这里比较安全。",
+			say = "不著急。現在敵情不明，指揮官同志還是先待在這裡比較安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等我们先出去清理掉第一波敌人，打出一段安全距离后指挥官同志再随雷鸣一起撤离。",
+			say = "等我們先出去清理掉第一波敵人，打出一段安全距離後指揮官同志再隨雷鳴一起撤離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题。",
+			say = "沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不管突然出现的那些是什么东西，都尽管放马过来吧，看我用北方的利刃将它们彻底粉碎！",
+			say = "不管突然出現的那些是什麼東西，都儘管放馬過來吧，看我用北方的利刃粉碎將它們徹底粉碎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你想起来了么？",
+			say = "你想起來了嗎？",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -300,7 +300,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "确实有这样的记忆，可是为什么刚才一下子没有想起来……",
+			say = "確實有這樣的記憶，可是為什麼剛才一下子沒有想起來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			dir = 1,
 			stopbgm = true,
-			say = "指挥官，贝拉罗斯已经发来了表示安全的信号，我们立刻————————",
+			say = "指揮官，白俄羅斯已經發來了表示安全的訊號，我們立刻————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "雷鸣……？",
+					content = "雷鳴……？",
 					flag = 1
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			bgm = "bsm-2",
 			dir = 1,
-			say = "突然，雷鸣毫无征兆的停止了手头的动作，一直大作的警报声也停止了，四周就像被摁住了暂停键的录像带画面一样。",
+			say = "突然，雷鳴毫無徵兆的停止了手頭的動作，一直大響的警報聲也停止了，四周就像被按住了暫停鍵的錄影帶畫面一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "几乎与此同时整个大厅的电子设备重新开始了运转，透过屏幕可以清晰地看到外面正在与敌人激战的北方联合舰队。",
+			say = "幾乎與此同時整個大廳的電子設備重新開始了運轉，透過螢幕可以清晰地看到外面正在與敵人激戰的北方聯合艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "敌人的型号完全没见过，即便是在如此清晰的屏幕之上其身形依然显得有些模糊，有一种强烈的不真实感……",
+			say = "敵人的型號完全沒見過，即便是在如此清晰的螢幕之上其身形依然顯得有些模糊，有一種強烈的不真實感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "而且北方联合舰队的成员也…………",
+			say = "而且北方聯合艦隊的成員也…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "嗯？等等，眼前的画面好像不是海域中战况的实况转播，而是播放的某种影像资料……",
+			say = "嗯？等等，眼前的畫面好像不是海域中戰況的實況轉播，而是播放的某種影像資料……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,14 +410,14 @@ return {
 			},
 			options = {
 				{
-					content = "联系贝拉罗斯",
+					content = "聯繫白俄羅斯",
 					flag = 1
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -436,7 +436,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "通讯器中一片死寂，而联络键就像被锁死了一样根本无法摁下。当然就算真的摁下去了，也大概不会收到任何回应吧。",
+			say = "通訊器中一片死寂，而連絡鍵就像被鎖死了一樣根本無法按下。當然就算真的按下去了，也大概不會收到任何回應吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			blackBg = true,
-			say = "眼前发生的事看起来并不是单纯陷入幻觉这么简单……",
+			say = "眼前發生的事看起來並不是單純陷入幻覺這麼簡單……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

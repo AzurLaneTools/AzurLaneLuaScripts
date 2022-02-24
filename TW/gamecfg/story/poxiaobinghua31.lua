@@ -13,7 +13,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "结论呢？",
+			say = "結論呢？",
 			bgm = "bsm-2",
 			flashin = {
 				black = true,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "本处实验场的“指挥官”这一存在确实有着独特之处。",
+			say = "本處實驗場的“指揮官”這一存在確實有著獨特之處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "你注意到了么，零。这次实验中有三次，在数微秒间观察对象从这个世界上完全消失了。",
+			say = "你注意到了嗎，零。這次實驗中有三次，在數微秒間觀察對象從這個世界上完全消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "消失，然后现身。没有产生任何能量波动，也没有借助任何设备。就像在正常的进程中被世界本身所排斥，然后又被重新接纳了一样。",
+			say = "消失，然後現身。沒有產生任何能量波動，也沒有借助任何設備。就像在正常的進程中被世界本身所排斥，然後又被重新接納了一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "或许不是主动的转移，而是被动的交汇……",
+			say = "或許不是主動的轉移，而是被動的交匯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "如果这种现象真的存在的话…………事情可能会变得非常不得了哦。",
+			say = "如果這種現象真的存在的話…………事情可能會變得非常不得了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "你的另一个判断也是正确的，这里的观察者同样存在一些独特之处。",
+			say = "你的另一個判斷也是正確的，這裡的觀察者同樣存在一些獨特之處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "虽然尚不清楚发生这些变化的原因，不过在吾巧妙的设计下就算是有些独特的观察者也不可能发现自己的实验被动过手脚就是了~",
+			say = "雖然尚不清楚發生這些變化的原因，不過在吾巧妙的設計下就算是有些獨特的觀察者也不可能發現自己的實驗被動過手腳就是了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "就这样继续隐秘观察。不要干涉实验机关的行动，也不要被发现。关键点G那边，我派遣了其他仲裁机关进行处理。",
+			say = "就這樣繼續隱秘觀察。不要干涉實驗機關到行動，也不要被發現。關鍵點G那邊，我派遣了其他仲裁機關進行處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "这里是一处需要被格外精密的对待的场所，有很多自然演算系统都无法确定其影响的变量正在汇聚其中……",
+			say = "這裡是一處需要被格外精密的對待的場所，有很多自然演算系統都無法確定其影響的變量正在匯聚其中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "在那期间，“指挥官”究竟去往了何方呢……",
+			say = "在那期間，“指揮官”究竟去往了何方呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -120,8 +120,14 @@ function slot0.GetFollowingAreaId(slot0)
 	return slot0.config.following_region[1] and slot1 > 0 and slot1 or nil
 end
 
+slot2 = {
+	[0] = true,
+	[6.0] = true,
+	[7.0] = true
+}
+
 function slot0.GetFollowingEntrance(slot0)
-	if slot0.config.type == 0 then
+	if uv0[slot0.config.type] then
 		return slot0.config.following_map[1]
 	else
 		return slot0.followingEntrance > 0 and slot0.followingEntrance or nil
@@ -130,6 +136,10 @@ end
 
 function slot0.IsSpecialType(slot0)
 	return slot0.config.type == 5
+end
+
+function slot0.IsTypeCollection(slot0)
+	return slot0.config.type == 6
 end
 
 function slot0.IsLockMap(slot0)

@@ -128844,6 +128844,433 @@ pg.world_effect_data = {
 		},
 		autoflag = {}
 	},
+	[3000000] = {
+		autocomplete = 0,
+		effect_type = 2,
+		effective_num = 0,
+		id = 3000000,
+		log_text = "",
+		autoactivate = 1,
+		sound_effects = "",
+		effect_paramater = {
+			"W300000"
+		},
+		autoflag = {}
+	},
+	[3000500] = {
+		autocomplete = 0,
+		effect_type = 2,
+		effective_num = 0,
+		id = 3000500,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			"W300001"
+		},
+		autoflag = {}
+	},
+	[3000501] = {
+		autocomplete = 0,
+		effect_type = 3,
+		effective_num = 0,
+		id = 3000501,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1,
+				1,
+				{
+					-1,
+					-1
+				},
+				2
+			}
+		},
+		autoflag = {}
+	},
+	[3000510] = {
+		autocomplete = 0,
+		effect_type = 2,
+		effective_num = 0,
+		id = 3000510,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			"W300002"
+		},
+		autoflag = {}
+	},
+	[3000511] = {
+		autocomplete = 0,
+		effect_type = 3,
+		effective_num = 0,
+		id = 3000511,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1,
+				1,
+				{
+					-1,
+					-1
+				},
+				2
+			}
+		},
+		autoflag = {}
+	},
+	[3001000] = {
+		autocomplete = 0,
+		effect_type = 21,
+		effective_num = 0,
+		id = 3001000,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			2501000
+		},
+		autoflag = {}
+	},
+	[3001001] = {
+		autocomplete = 0,
+		effect_type = 21,
+		effective_num = 0,
+		id = 3001001,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			2501001
+		},
+		autoflag = {}
+	},
+	[3001002] = {
+		autocomplete = 0,
+		effect_type = 21,
+		effective_num = 0,
+		id = 3001002,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			2501002
+		},
+		autoflag = {}
+	},
+	[3010100] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 3010100,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				3010101,
+				1
+			},
+			{
+				3010102,
+				1
+			},
+			{
+				3010103,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[3010101] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3010101,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300100
+		},
+		autoflag = {}
+	},
+	[3010102] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3010102,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300101
+		},
+		autoflag = {}
+	},
+	[3010103] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3010103,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300102
+		},
+		autoflag = {}
+	},
+	[3110100] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 3110100,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				3110101,
+				1
+			},
+			{
+				3110102,
+				1
+			},
+			{
+				3110103,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[3110101] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3110101,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300200
+		},
+		autoflag = {}
+	},
+	[3110102] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3110102,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300201
+		},
+		autoflag = {}
+	},
+	[3110103] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3110103,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300202
+		},
+		autoflag = {}
+	},
+	[3210150] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 3210150,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				3210151,
+				1
+			},
+			{
+				3210152,
+				1
+			},
+			{
+				3210153,
+				1
+			},
+			{
+				3210154,
+				1
+			},
+			{
+				3210155,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[3210151] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3210151,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300310
+		},
+		autoflag = {}
+	},
+	[3210152] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3210152,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300311
+		},
+		autoflag = {}
+	},
+	[3210153] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3210153,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300312
+		},
+		autoflag = {}
+	},
+	[3210154] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3210154,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300313
+		},
+		autoflag = {}
+	},
+	[3210155] = {
+		autocomplete = 0,
+		effect_type = 10,
+		effective_num = 0,
+		id = 3210155,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			300314
+		},
+		autoflag = {}
+	},
+	[3210500] = {
+		autocomplete = 0,
+		effect_type = 21,
+		effective_num = 0,
+		id = 3210500,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			2501010
+		},
+		autoflag = {}
+	},
+	[3210510] = {
+		autocomplete = 0,
+		effect_type = 21,
+		effective_num = 0,
+		id = 3210510,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			2501011
+		},
+		autoflag = {}
+	},
+	[3210600] = {
+		autocomplete = 0,
+		effect_type = 1003,
+		effective_num = 0,
+		id = 3210600,
+		log_text = "",
+		autoactivate = 1,
+		sound_effects = "",
+		effect_paramater = {
+			10,
+			0,
+			3,
+			2
+		},
+		autoflag = {}
+	},
+	[3210601] = {
+		autocomplete = 0,
+		effect_type = 11,
+		effective_num = 0,
+		id = 3210601,
+		log_text = "",
+		autoactivate = 1,
+		sound_effects = "",
+		effect_paramater = {
+			321040
+		},
+		autoflag = {}
+	},
+	[3210650] = {
+		autocomplete = 0,
+		effect_type = 1003,
+		effective_num = 0,
+		id = 3210650,
+		log_text = "",
+		autoactivate = 1,
+		sound_effects = "",
+		effect_paramater = {
+			10,
+			0,
+			3,
+			2
+		},
+		autoflag = {}
+	},
+	[3210651] = {
+		autocomplete = 0,
+		effect_type = 11,
+		effective_num = 0,
+		id = 3210651,
+		log_text = "",
+		autoactivate = 1,
+		sound_effects = "",
+		effect_paramater = {
+			321045
+		},
+		autoflag = {}
+	},
 	[10000000] = {
 		autocomplete = 0,
 		effect_type = 9,
@@ -172799,6 +173226,406 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			"W612002"
+		},
+		autoflag = {}
+	},
+	[70002000] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002000,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293092,
+				1
+			},
+			{
+				1293093,
+				1
+			},
+			{
+				1293292,
+				1
+			},
+			{
+				1293293,
+				1
+			},
+			{
+				1293492,
+				1
+			},
+			{
+				1293493,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002001] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002001,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1292200,
+				1
+			},
+			{
+				1292201,
+				1
+			},
+			{
+				1292210,
+				1
+			},
+			{
+				1292211,
+				1
+			},
+			{
+				1292220,
+				1
+			},
+			{
+				1292221,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002002] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002002,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293160,
+				1
+			},
+			{
+				1293161,
+				1
+			},
+			{
+				1293360,
+				1
+			},
+			{
+				1293361,
+				1
+			},
+			{
+				1293560,
+				1
+			},
+			{
+				1293561,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002010] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002010,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1294201,
+				1
+			},
+			{
+				1294202,
+				1
+			},
+			{
+				1294203,
+				1
+			},
+			{
+				1294204,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002020] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002020,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1294211,
+				1
+			},
+			{
+				1294212,
+				1
+			},
+			{
+				1294213,
+				1
+			},
+			{
+				1294214,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002021] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002021,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1294216,
+				1
+			},
+			{
+				1294217,
+				1
+			},
+			{
+				1294218,
+				1
+			},
+			{
+				1294219,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002030] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002030,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1294221,
+				1
+			},
+			{
+				1294222,
+				1
+			},
+			{
+				1294223,
+				1
+			},
+			{
+				1294224,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002110] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002110,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293092,
+				1
+			},
+			{
+				1293093,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002111] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002111,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293292,
+				1
+			},
+			{
+				1293293,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002112] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002112,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293492,
+				1
+			},
+			{
+				1293493,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002120] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002120,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1292200,
+				1
+			},
+			{
+				1292201,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002121] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002121,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1292210,
+				1
+			},
+			{
+				1292211,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002122] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002122,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1292220,
+				1
+			},
+			{
+				1292221,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002130] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002130,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293160,
+				1
+			},
+			{
+				1293161,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002131] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002131,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293360,
+				1
+			},
+			{
+				1293361,
+				1
+			}
+		},
+		autoflag = {}
+	},
+	[70002132] = {
+		autocomplete = 0,
+		effect_type = 36,
+		effective_num = 0,
+		id = 70002132,
+		log_text = "",
+		autoactivate = 2,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1293560,
+				1
+			},
+			{
+				1293561,
+				1
+			}
 		},
 		autoflag = {}
 	},
@@ -247981,6 +248808,34 @@ pg.world_effect_data = {
 		2170310,
 		2170320,
 		2170301,
+		3000000,
+		3000500,
+		3000501,
+		3000510,
+		3000511,
+		3001000,
+		3001001,
+		3001002,
+		3010100,
+		3010101,
+		3010102,
+		3010103,
+		3110100,
+		3110101,
+		3110102,
+		3110103,
+		3210150,
+		3210151,
+		3210152,
+		3210153,
+		3210154,
+		3210155,
+		3210500,
+		3210510,
+		3210600,
+		3210601,
+		3210650,
+		3210651,
 		10000000,
 		10000001,
 		10000002,
@@ -249651,6 +250506,22 @@ pg.world_effect_data = {
 		61061400,
 		61061401,
 		61061402,
+		70002000,
+		70002001,
+		70002002,
+		70002010,
+		70002020,
+		70002021,
+		70002030,
+		70002110,
+		70002111,
+		70002112,
+		70002120,
+		70002121,
+		70002122,
+		70002130,
+		70002131,
+		70002132,
 		101100000,
 		101100001,
 		101100012,

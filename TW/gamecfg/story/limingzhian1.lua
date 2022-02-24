@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个我就不清楚了……至少分享给我们的技术只有特定型号的驱逐舰改造技术而已。",
+			say = "这个我就不清楚了……至少分享给我们的技术只有特定型号的巡洋舰改造技术而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以作为巡洋舰的我是享受不到改造的殊荣了，行动中一定要保护好我哦~",
+			say = "所以在后面的行动中一定要保护好我哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

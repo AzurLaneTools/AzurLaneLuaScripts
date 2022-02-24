@@ -110575,6 +110575,127 @@ _G.pg.equip_data_statistics[85447] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[85460] = {
+	tech = 1,
+	name = "B-1-P 三聯裝180mm主炮Model1932",
+	speciality = "鎖定",
+	type = 2,
+	descrip = "北方聯合開發的180mm三聯裝艦炮，擁有相當優秀的射程",
+	ammo = 1,
+	damage = "16 x 3",
+	nationality = 7,
+	rarity = 3,
+	id = 85460,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 12,
+	icon = "85460",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1712
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1712
+		},
+		{
+			4,
+			1108
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85460
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.equip_data_statistics[85461] = {
+	id = 85461,
+	base = 85460,
+	weapon_id = {
+		85461
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[85462] = {
+	id = 85462,
+	damage = "17 x 3",
+	base = 85460,
+	weapon_id = {
+		85462
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[85463] = {
+	id = 85463,
+	damage = "18 x 3",
+	base = 85460,
+	weapon_id = {
+		85463
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[85464] = {
+	id = 85464,
+	damage = "19 x 3",
+	base = 85460,
+	weapon_id = {
+		85464
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[85465] = {
+	id = 85465,
+	damage = "20 x 3",
+	base = 85460,
+	weapon_id = {
+		85465
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[85466] = {
+	id = 85466,
+	damage = "21 x 3",
+	base = 85460,
+	weapon_id = {
+		85466
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[89240] = {
 	type = 10,
 	name = "覺醒寶珠",

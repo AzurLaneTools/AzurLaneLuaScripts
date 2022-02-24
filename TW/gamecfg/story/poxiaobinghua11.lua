@@ -11,7 +11,7 @@ return {
 			actor = 701070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意，塞壬防御舰队出现了。",
+			say = "注意，塞壬防禦艦隊出現了。",
 			bgm = "bgm-cccp",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "真是的，明明不久前才刚刚清理过………",
+			say = "真是的，明明不久前才剛剛清理過………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看起来确实都是一些老旧型号。",
+			say = "看起來確實都是一些老舊型號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在“密室”之中的敌人型号一直都没有升级过，还是保持着数十年前最初见到时的样子。",
+			say = "在“密室”之中的敵人型號一直都沒有升級過，還是保持著數十年前最初見到時的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "在那个时期，就是这样的塞壬从大洋而来为全人类带来了一场深切的灾难……",
+			say = "在那個時期，就是這樣的塞壬從大洋而來為全人類帶來了一場深切的災難……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 702040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是对于现在的我们来说，这样的敌人不值一提！同志们，时间宝贵，速战速决，γpa！",
+			say = "但是對於現在的我們來說，這樣的敵人不值一提！同志們，時間寶貴，速戰速決，γpa！",
 			effects = {
 				{
 					active = true,

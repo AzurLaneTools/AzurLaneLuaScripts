@@ -13,7 +13,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			bgmDelay = 2,
-			say = "听说你最近的研究取得了突破性进展？",
+			say = "聽說妳最近的研究取得了突破性進展？",
 			bgm = "blueocean-image",
 			flashout = {
 				black = true,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "没错没错！听我说，最近我好像终于在心智觉醒的研究方向迈出关键一步了……！",
+			say = "沒錯沒錯！聽我說，最近我好像終於在心智覺醒的研究方向邁出關鍵一步了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "居然还在说这个……心智觉醒只是你的一种理论假设，没有任何证据支持吧。",
+			say = "居然還在說這個……心智覺醒只是你的一種理論假設，沒有任何證據支持吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "还是说你找到了心智觉醒现象实际存在的有力证据？",
+			say = "還是說你找到了心智覺醒現象實際存在的有力證據？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这倒还没有……不过我觉得我可能就快要找到了…！",
+			say = "這倒還沒有……不過我覺得我可能就快要找到了…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你在今年的三月份，六月份，以及去年的十二月份也都是这么说的，以大概每三个月一次的频率？",
+			say = "妳在今年的三月份，六月份，以及去年的十二月份也都是這麼說的，以大概每三個月一次的頻率？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "咳……这次是真的可能找到了！",
+			say = "咳……這次是真的可能找到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "你还记得之前我跟你说过的那个对于心智魔方有着独特适应性的人么————",
+			say = "你還記得之前我跟你說過的那個對於心智魔方有著獨特適應性的人嗎————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

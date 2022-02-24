@@ -32786,6 +32786,474 @@ pg.transform_data_template = {
 			50
 		}
 	},
+	[43401] = {
+		use_gold = 400,
+		name = "艦體改良I",
+		star_limit = 2,
+		id = 43401,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		descrip = "耐久+70",
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 70
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[43402] = {
+		use_gold = 600,
+		name = "命中強化I",
+		star_limit = 2,
+		id = 43402,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		descrip = "命中+5",
+		icon = "hit_1",
+		skill_id = 0,
+		condition_id = {
+			43401
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[43403] = {
+		use_gold = 800,
+		name = "主炮改良I",
+		star_limit = 3,
+		id = 43403,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		descrip = "主炮武器效率+5%",
+		icon = "mgup_1",
+		skill_id = 0,
+		condition_id = {
+			43401
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[43404] = {
+		use_gold = 1000,
+		name = "炮擊強化I",
+		star_limit = 3,
+		id = 43404,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		descrip = "炮擊+10",
+		icon = "cn_1",
+		skill_id = 0,
+		condition_id = {
+			43403
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[43405] = {
+		use_gold = 1200,
+		name = "魚雷改良I",
+		star_limit = 4,
+		id = 43405,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		descrip = "魚雷武器效率+5%",
+		icon = "tpup_1",
+		skill_id = 0,
+		condition_id = {
+			43403
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[43406] = {
+		use_gold = 1500,
+		name = "雷擊強化II",
+		star_limit = 4,
+		id = 43406,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		descrip = "雷擊+5/雷擊+15",
+		icon = "tp_2",
+		skill_id = 0,
+		condition_id = {
+			43402,
+			43405
+		},
+		effect = {
+			{
+				torpedo = 5
+			},
+			{
+				torpedo = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	},
+	[43407] = {
+		use_gold = 1800,
+		name = "艦體改良II",
+		star_limit = 4,
+		id = 43407,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		descrip = "耐久+70/耐久+100",
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			43405
+		},
+		effect = {
+			{
+				durability = 70
+			},
+			{
+				durability = 100
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[43408] = {
+		use_gold = 2000,
+		name = "命中強化I",
+		star_limit = 4,
+		id = 43408,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		descrip = "命中+5",
+		icon = "hit_1",
+		skill_id = 0,
+		condition_id = {
+			43407
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[43409] = {
+		use_gold = 2500,
+		name = "防空炮改良II",
+		star_limit = 5,
+		id = 43409,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		descrip = "防空炮武器效率+5%/防空炮武器效率+5%",
+		icon = "Aaup_2",
+		skill_id = 0,
+		condition_id = {
+			43407
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			},
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				}
+			},
+			{
+				{
+					18013,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[43410] = {
+		use_gold = 3000,
+		name = "防空強化II",
+		star_limit = 5,
+		id = 43410,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		descrip = "防空+15/防空+25",
+		icon = "Aa_2",
+		skill_id = 0,
+		condition_id = {
+			43404,
+			43409
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			},
+			{
+				antiaircraft = 25
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				},
+				{
+					17033,
+					5
+				}
+			},
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17033,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[43411] = {
+		use_gold = 4000,
+		name = "近代化改造",
+		star_limit = 5,
+		id = 43411,
+		max_level = 1,
+		skin_id = 702029,
+		use_ship = 1,
+		level_limit = 85,
+		descrip = "近代化改造完成，炮擊+35，防空+10",
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			43409,
+			43410
+		},
+		effect = {
+			{
+				cannon = 35,
+				antiaircraft = 10
+			}
+		},
+		ship_id = {
+			{
+				702024,
+				702124
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					4
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[43412] = {
+		use_gold = 3000,
+		name = "戰術啟發",
+		star_limit = 5,
+		id = 43412,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		descrip = "習得技能【滿懷愛意！】",
+		icon = "skill_red",
+		skill_id = 14260,
+		condition_id = {
+			43408,
+			43411
+		},
+		effect = {
+			{
+				skill_id = 14260
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
 	all = {
 		501,
 		502,
@@ -33657,6 +34125,18 @@ pg.transform_data_template = {
 		37308,
 		37309,
 		37310,
-		37311
+		37311,
+		43401,
+		43402,
+		43403,
+		43404,
+		43405,
+		43406,
+		43407,
+		43408,
+		43409,
+		43410,
+		43411,
+		43412
 	}
 }

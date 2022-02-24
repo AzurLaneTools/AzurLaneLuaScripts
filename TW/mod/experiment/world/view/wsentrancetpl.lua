@@ -15,31 +15,35 @@ slot0.Listeners = {
 slot0.DisplayOrder = {
 	"step",
 	"task_main",
+	"task_collecktion",
 	"task",
+	"sairen",
 	"treasure_sairen",
 	"treasure",
-	"sairen",
 	"task_following_main",
+	"task_following_boss",
 	"task_following"
 }
 slot0.prefabName = {
 	task_main = "DSJ_BX05_3D",
-	port_mark_new = "mark_port_tip_new",
-	port_gray_2 = "mark_port_gray_2",
 	buff_a = "buff_a",
+	port_gray_2 = "mark_port_gray_2",
+	buff_h = "buff_h",
+	port_mark_new = "mark_port_tip_new",
 	port_2 = "mark_port_2",
 	buff_d = "buff_d",
 	task_following_main = "DSJ_BX05_3D",
 	step = "DSJ_BX05_3D",
 	task = "DSJ_BX03_3D",
 	treasure_sairen = "DSJ_BX06_3D",
-	buff_h = "buff_h",
+	task_following_boss = "DSJ_BX07_3D",
 	buff_d2 = "buff_d2",
 	currency = "currency",
 	port_gray_1 = "mark_port_gray_1",
 	port_1 = "mark_port_1",
 	mate = "mate",
 	buff_a2 = "buff_a2",
+	task_collecktion = "DSJ_BX08_3D",
 	task_following = "DSJ_BX03_3D",
 	treasure = "DSJ_BX01_3D",
 	sairen = "guangzhu",
@@ -50,11 +54,13 @@ slot0.prefabName = {
 slot0.offsetField = {
 	task_main = "offset_pos",
 	task = "offset_pos",
-	treasure = "offset_pos",
-	task_following = "offset_pos",
 	treasure_sairen = "offset_pos",
+	step = "offset_pos",
+	task_collecktion = "offset_pos",
+	task_following = "offset_pos",
+	treasure = "offset_pos",
 	task_following_main = "offset_pos",
-	step = "offset_pos"
+	task_following_boss = "offset_pos"
 }
 
 function slot0.Build(slot0)

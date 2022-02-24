@@ -10,7 +10,7 @@ return {
 			nameColor = "#ffff4d",
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			say = "大厅的门并没有关闭，但是就仿佛存在一堵看不见的墙壁阻挡一般，双脚无法迈出大厅一步。",
+			say = "大廳的門並沒有關閉，但是就彷佛存在一堵看不見的牆壁阻擋一般，雙腳無法邁出大廳一步。",
 			dir = 1,
 			bgm = "bsm-2",
 			flashout = {
@@ -46,8 +46,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "提示，此区域已启动安全模式，距离解除尚有1147秒。",
+			actorName = "紀錄機構",
+			say = "提示，此區域已啟動安全模式，距離解除尚有1147秒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "在仿佛一切都陷入某种静滞状态的大厅中，突然出现了一个投影。",
+			say = "在彷彿一切都陷入某種靜滯狀態的大廳中，突然出現了一個投影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			},
 			options = {
 				{
-					content = "你是……塞壬么？",
+					content = "你是……塞壬嗎？",
 					flag = 1
 				}
 			}
@@ -85,8 +85,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "否认，本机只是设置于此用于录入和播放档案的记录机构。",
+			actorName = "紀錄機構",
+			say = "否認，本機只是設置於此用於紀錄和播放檔案的紀錄機構。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,40 +101,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "屏幕中那些正在战斗的舰队是什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
-			dir = 1,
-			actor = 900136,
-			actorName = "记录机构",
-			say = "那些是前进阵线的舰队。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			say = "前进阵线是什么……？",
+			say = "螢幕中那些正在戰鬥的艦隊是什嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,8 +118,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "本机中并没有相关记录。",
+			actorName = "紀錄機構",
+			say = "那些是前進陣線的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,40 +134,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "那些舰队正在同什么战斗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
-			dir = 1,
-			actor = 900136,
-			actorName = "记录机构",
-			say = "敌人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			say = "敌人是塞壬么？",
+			say = "前進陣線是什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,8 +151,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "否认，屏幕上所呈现的只是由碎片拼凑而成的模拟，程序无法依据已知信息再现敌人的外貌特征。",
+			actorName = "紀錄機構",
+			say = "本機中並沒有相關紀錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,40 +167,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "……塞壬是敌人么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
-			dir = 1,
-			actor = 900136,
-			actorName = "记录机构",
-			say = "本机中并没有相关记录。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			say = "安蒂克丝是敌人么？",
+			say = "那些艦隊正在同什麼戰鬥？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,8 +184,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "本机中并没有相关记录。",
+			actorName = "紀錄機構",
+			say = "敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,40 +200,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "指挥这支舰队的人是谁？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
-			dir = 1,
-			actor = 900136,
-			actorName = "记录机构",
-			say = "本机中并没有相关记录。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			say = "这场战斗最后的结果怎么样？",
+			say = "敵人是塞壬嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,8 +217,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "本机中并没有相关记录。",
+			actorName = "紀錄機構",
+			say = "否認，螢幕上所呈現的只是由碎片拼湊而成的模擬，程序無法依據已知訊息再現敵人的外貌特徵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +233,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "…………当时也是为了保护什么而战斗么？",
+			say = "……塞壬是敵人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +250,139 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
+			actorName = "紀錄機構",
+			say = "本機中並沒有相關紀錄。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			say = "安蒂克絲是敵人嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_cccpv2_7",
+			nameColor = "#ffff4d",
+			dir = 1,
+			actor = 900136,
+			actorName = "紀錄機構",
+			say = "本機中並沒有相關紀錄。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			say = "指揮這支艦隊的人是誰？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_cccpv2_7",
+			nameColor = "#ffff4d",
+			dir = 1,
+			actor = 900136,
+			actorName = "紀錄機構",
+			say = "本機中並沒有相關紀錄。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			say = "這場戰鬥最後的結果怎麼樣？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_cccpv2_7",
+			nameColor = "#ffff4d",
+			dir = 1,
+			actor = 900136,
+			actorName = "紀錄機構",
+			say = "本機中並沒有相關紀錄。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			say = "當時也是為了保護什麼而戰鬥嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_cccpv2_7",
+			nameColor = "#ffff4d",
+			dir = 1,
+			actor = 900136,
+			actorName = "紀錄機構",
 			say = "是。",
 			typewriter = {
 				speed = 0.05,
@@ -398,7 +398,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "与现在所发生的情况相似？",
+			say = "與現在所發生的情況相似？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,8 +415,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "你所指挥的舰队规模与记录之中的舰队规模相差甚远。",
+			actorName = "紀錄機構",
+			say = "你所指揮的艦隊規模與紀錄之中的艦隊規模相差甚遠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,8 +433,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "你所面对的敌人规模也与记录之中的敌人规模相差甚远。",
+			actorName = "紀錄機構",
+			say = "你所面對的敵人規模也與紀錄之中的敵人規模相差甚遠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "从这里撤离的路线在哪里？",
+			say = "從這裡撤離的路線在哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,8 +466,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "此处没有撤退的路线。",
+			actorName = "紀錄機構",
+			say = "此處沒有撤退的路線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,8 +500,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "战斗，直到光芒消散为止。",
+			actorName = "紀錄機構",
+			say = "戰鬥，直到光芒消散為止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

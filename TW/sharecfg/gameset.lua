@@ -336,7 +336,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 180
+		key_value = 188
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1396,7 +1396,8 @@ pg.gameset = {
 			"WTask3600",
 			"WTask3700",
 			"WTask6100",
-			"W400004"
+			"W400004",
+			"W300000"
 		}
 	},
 	world_sairenbuff_fleeticon = {
@@ -1887,7 +1888,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 185
+		key_value = 189
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2493,5 +2494,9 @@ pg.gameset = {
 	submarine_chapter_activate_time = {
 		description = "",
 		key_value = 43200
+	},
+	naval_academy_theme = {
+		description = "winter",
+		key_value = 0
 	}
 }

@@ -650,6 +650,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["拉"] = {
+			["斯"] = {
+				["哥"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -1509,6 +1516,9 @@ function temp()
 			this = true
 		},
 		this = {
+			this = true
+		},
+		["鳴"] = {
 			this = true
 		}
 	}
@@ -2580,6 +2590,15 @@ function temp()
 							this = true
 						}
 					}
+				},
+				["白"] = {
+					["俄"] = {
+						["羅"] = {
+							["斯"] = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		}
@@ -2777,7 +2796,18 @@ function temp()
 		["家"] = {
 			["方"] = {
 				["舟"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -3076,7 +3106,12 @@ function temp()
 		["星"] = {
 			["紀"] = {
 				["念"] = {
-					this = true
+					this = true,
+					["."] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -3392,6 +3427,15 @@ function temp()
 	uv0["摩"] = {
 		["耶"] = {
 			this = true
+		},
+		["爾"] = {
+			["曼"] = {
+				["斯"] = {
+					["克"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -4054,6 +4098,9 @@ function temp()
 			["圖"] = {
 				this = true
 			}
+		},
+		["林"] = {
+			this = true
 		}
 	}
 end
@@ -4627,6 +4674,28 @@ function temp()
 	uv0["肇"] = {
 		["和"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["洪"] = {
+		["亮"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["基"] = {
+		["洛"] = {
+			["夫"] = {
+				this = true
+			}
 		}
 	}
 end

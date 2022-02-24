@@ -20047,6 +20047,283 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5571] = {
+		name = "一如既往的早晨",
+		guild_coin_award = 0,
+		award = 5415,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1000,
+		desc = "提交3個《魚雷天婦羅》",
+		story_icon = "gelasige",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5572",
+		auto_commit = 0,
+		story_id = "GELASIGE1",
+		target_id_for_client = 50003,
+		id = 5571,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5572] = {
+		name = "才不是那種關係呢",
+		guild_coin_award = 0,
+		award = 5416,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "強化任意角色10次",
+		story_icon = "gelasige",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "GELASIGE2",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5573",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 5572,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5573] = {
+		name = "誰是鴛鴦啦！",
+		guild_coin_award = 0,
+		award = 5417,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 18,
+		desc = "格拉斯哥上陣出擊(關卡)勝利20次",
+		story_icon = "gelasige",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "GELASIGE3",
+		target_id = "20226",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5574",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20226,
+		id = 5573,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5574] = {
+		name = "臉靠得太近了！ ",
+		guild_coin_award = 0,
+		award = 5418,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 19,
+		desc = "格拉斯哥上陣完成3次每日挑戰",
+		story_icon = "gelasige",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "GELASIGE4",
+		target_id = "20226",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5575",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20226,
+		id = 5574,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5575] = {
+		name = "是格拉斯哥呀 ",
+		guild_coin_award = 0,
+		award = 5419,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1012,
+		desc = "格拉斯哥好感度達到100",
+		story_icon = "gelasige",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "GELASIGE5",
+		target_id = "20226",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5576",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20226,
+		id = 5575,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5576] = {
+		name = "你依然會……喜歡我嗎？",
+		guild_coin_award = 0,
+		award = 5420,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "格拉斯哥突破至滿星",
+		story_icon = "gelasige",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "GELASIGE6",
+		target_id = "202264",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5577",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 202264,
+		id = 5576,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5577] = {
+		name = "甜蜜的妄想",
+		guild_coin_award = 0,
+		award = 5421,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "格拉斯哥等級達到100",
+		story_icon = "gelasige",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "GELASIGE7",
+		target_id = "20226",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20226,
+		id = 5577,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[5591] = {
 		name = "接受委託！",
 		guild_coin_award = 0,
@@ -77527,6 +77804,1180 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[16340] = {
+		name = "『毛系V2』角色收集：苏维埃贝拉罗斯",
+		guild_coin_award = 0,
+		award = 94660,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[蘇維埃白俄羅斯]突破至滿星",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "705044",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 705044,
+		id = 16340,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				600
+			}
+		}
+	},
+	[16341] = {
+		name = "『毛系V2』角色收集：基洛夫",
+		guild_coin_award = 0,
+		award = 94661,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[基洛夫]突破至滿星",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "702044",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 702044,
+		id = 16341,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				600
+			}
+		}
+	},
+	[16342] = {
+		name = "『毛系V2』角色收集：塔林",
+		guild_coin_award = 0,
+		award = 94662,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[塔林]突破至滿星",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "703014",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 703014,
+		id = 16342,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				600
+			}
+		}
+	},
+	[16343] = {
+		name = "『毛系V2』角色收集：雷鸣",
+		guild_coin_award = 0,
+		award = 94663,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[雷鳴]突破至滿星",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "701074",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 701074,
+		id = 16343,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				400
+			}
+		}
+	},
+	[16344] = {
+		name = "『毛系V2』角色收集：摩尔曼斯克",
+		guild_coin_award = 0,
+		award = 94664,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[摩爾曼斯克]突破至滿星",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "702064",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 702064,
+		id = 16344,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				400
+			}
+		}
+	},
+	[16345] = {
+		name = "『毛系V2』角色收集：洪亮",
+		guild_coin_award = 0,
+		award = 94665,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "[洪亮]突破至滿星",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "701084",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 701084,
+		id = 16345,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				400
+			}
+		}
+	},
+	[16346] = {
+		name = "『毛系V2』角色刷关：谢菲尔德",
+		guild_coin_award = 0,
+		award = 94666,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用滿星謝菲爾德擊敗A2或C2敵方旗艦10次且存活",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16346,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1500113,
+			1502113
+		},
+		target_id_2 = {
+			202084
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16347] = {
+		name = "『毛系V2』角色刷关：大黄蜂",
+		guild_coin_award = 0,
+		award = 94667,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用滿星大黃蜂擊敗A3或C3敵方旗艦10次且存活",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16347,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1500213,
+			1502213
+		},
+		target_id_2 = {
+			107074
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16348] = {
+		name = "『毛系V2』角色刷关：萨拉托加",
+		guild_coin_award = 0,
+		award = 94668,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用滿星薩拉托加擊敗B2或D2敵方旗艦10次且存活",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16348,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1501113,
+			1503113
+		},
+		target_id_2 = {
+			107034
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16349] = {
+		name = "『毛系V2』角色刷关：阿芙乐尔",
+		guild_coin_award = 0,
+		award = 94669,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用滿星曙光擊敗B3或D3敵方旗艦10次且存活",
+		award_choice = "",
+		is_head = 1,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16349,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1501213,
+			1503213
+		},
+		target_id_2 = {
+			702014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16401] = {
+		name = "『毛系V2』-日常建造",
+		guild_coin_award = 0,
+		award = 94718,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造艦船3次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16401,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59201,
+				300
+			}
+		}
+	},
+	[16402] = {
+		name = "『毛系V2』-日常出击",
+		guild_coin_award = 0,
+		award = 94719,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "艦隊出擊，獲得15次勝利。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16402,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59201,
+				300
+			}
+		}
+	},
+	[16403] = {
+		name = "『毛系V2』-日常困难本",
+		guild_coin_award = 0,
+		award = 94720,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通關1次任意困難關卡 ",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16403,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59201,
+				150
+			}
+		}
+	},
+	[16404] = {
+		name = "『毛系V2』通关A1/C1",
+		guild_coin_award = 0,
+		award = 94721,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關A1或C1",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16405",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16404,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480001,
+			1480021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16405] = {
+		name = "『毛系V2』通关A2/C2",
+		guild_coin_award = 0,
+		award = 94722,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關A2或C2",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16406",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16405,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480002,
+			1480022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16406] = {
+		name = "『毛系V2』通关A3/C3",
+		guild_coin_award = 0,
+		award = 94723,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關A3或C3",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16407",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16406,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480003,
+			1480023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59201,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16407] = {
+		name = "『毛系V2』通关B1/D1",
+		guild_coin_award = 0,
+		award = 94724,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關B1或D1",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16408",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16407,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480004,
+			1480024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16408] = {
+		name = "『毛系V2』通关B2/D2",
+		guild_coin_award = 0,
+		award = 94725,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關B2或D2",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16409",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16408,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480005,
+			1480025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16409] = {
+		name = "『毛系V2』通关B3/D3",
+		guild_coin_award = 0,
+		award = 94726,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關B3或D3",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16410",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16409,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480006,
+			1480026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59201,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16410] = {
+		name = "『毛系V2』通关SP",
+		guild_coin_award = 0,
+		award = 94727,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1480041",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1480041,
+		id = 16410,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16411] = {
+		name = "『毛系V2』通关EX",
+		guild_coin_award = 0,
+		award = 94728,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關EX",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1480051",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1480051,
+		id = 16411,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16412] = {
+		name = "『毛系V2』通关D3",
+		guild_coin_award = 0,
+		award = 94729,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關D3",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1480026",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1480026,
+		id = 16412,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				192,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16413] = {
+		name = "『毛系V2』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 94730,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成A1或C1的3星收集",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16414",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16413,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480001,
+			1480021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16414] = {
+		name = "『毛系V2』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 94731,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成A2或C2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16415",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16414,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480002,
+			1480022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16415] = {
+		name = "『毛系V2』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 94732,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成A3或C3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16416",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16415,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480003,
+			1480023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16416] = {
+		name = "『毛系V2』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 94733,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成B1或D1的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16417",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16416,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480004,
+			1480024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16417] = {
+		name = "『毛系V2』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 94734,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成B2或D2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "16418",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16417,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480005,
+			1480025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16418] = {
+		name = "『毛系V2』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 94735,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成B3或D3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16418,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1480006,
+			1480026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16419] = {
+		name = "『毛系V2』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 94717,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登入遊戲",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16419,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				189,
+				2
+			}
+		}
+	},
 	[16440] = {
 		name = "WWF联动每日任务扫荡作战",
 		guild_coin_award = 0,
@@ -108527,6 +109978,13 @@ pg.task_data_template = {
 		5565,
 		5566,
 		5567,
+		5571,
+		5572,
+		5573,
+		5574,
+		5575,
+		5576,
+		5577,
 		5591,
 		5592,
 		5593,
@@ -110030,6 +111488,35 @@ pg.task_data_template = {
 		16329,
 		16330,
 		16331,
+		16340,
+		16341,
+		16342,
+		16343,
+		16344,
+		16345,
+		16346,
+		16347,
+		16348,
+		16349,
+		16401,
+		16402,
+		16403,
+		16404,
+		16405,
+		16406,
+		16407,
+		16408,
+		16409,
+		16410,
+		16411,
+		16412,
+		16413,
+		16414,
+		16415,
+		16416,
+		16417,
+		16418,
+		16419,
 		16440,
 		16441,
 		16442,

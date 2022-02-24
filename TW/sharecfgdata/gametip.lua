@@ -9320,7 +9320,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "海因里希親王、彼得·史特拉塞、紐倫堡、威悉 建造機率UP！"
+	tip = "蘇維埃白俄羅斯、基洛夫、雷鳴、摩爾曼斯克 建造機率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -16338,6 +16338,10 @@ _G.pg.gametip.world_automode_setting_all_4_2 = {
 	tip = "否"
 }
 
+_G.pg.gametip.world_collection_task_tip_1 = {
+	tip = "已有正在進行中的檔案任務，無法繼續購買。"
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "普通海域"
 }
@@ -16368,6 +16372,10 @@ _G.pg.gametip.area_renwu = {
 
 _G.pg.gametip.area_zhuxian = {
 	tip = "主線海域"
+}
+
+_G.pg.gametip.area_dangan = {
+	tip = "檔案海域"
 }
 
 _G.pg.gametip.charge_trade_no_error = {
@@ -16925,7 +16933,7 @@ _G.pg.gametip.battle_end_subtitle1 = {
 }
 
 _G.pg.gametip.battle_end_subtitle2 = {
-	tip = "戰術研修"
+	tip = "戰術研習"
 }
 
 _G.pg.gametip.meta_skill_dailyexp = {

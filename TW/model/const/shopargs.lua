@@ -27,6 +27,7 @@ slot0.guildShopFlash = "guild_shop_flash"
 slot0.skillRoomUpgrade = "skill_room_upgrade"
 slot0.SkinShopTimeLimit = "skin_shop_timelimit"
 slot0.WorldShop = "world"
+slot0.WorldCollection = "world_collection_task"
 slot0.ShopStreet = 1
 slot0.MilitaryShop = 2
 slot0.ShopActivity = 3

@@ -13,7 +13,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样一来就全部解决了。正式向您问候，指挥官。我是“密室”驻防舰队旗舰、北方联合重巡洋舰塔林。",
+			say = "這樣一來就全部解決了。正式向您問候，指揮官。我是“密室”駐防艦隊旗艦、北方聯合重巡洋艦塔林。",
 			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "旁边这位指挥官应该已经认识了，轻巡洋舰摩尔曼斯克。",
+			say = "旁邊這位指揮官應該已經認識了，輕巡洋艦摩爾曼斯克。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Здравствуйте(您好)、终于正式见面了指挥官同志~呼呼，比刚才在通讯器里看得清楚多了！",
+			say = "Здравствуйте(您好)、終於正式見面了指揮官同志~呼呼，比剛才在通訊器裡看得清楚多了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这位同样是驻防舰队的成员，驱逐舰洪亮。",
+			say = "這位同樣是駐防艦隊的成員，驅逐艦洪亮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，指挥官同志你好！我是北方联合的驱逐舰洪亮，希望能在本次行动中为您带来帮助！",
+			say = "嘿嘿，指揮官同志你好！我是北方聯合的驅逐艦洪亮，希望能在本次行動中為您帶來幫助！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真没想到塞壬会在“王冠”遭受袭击的同时发动猛烈进攻……还好有惊无险，“密室”无恙。",
+			say = "真沒想到塞壬會在“王冠”遭受襲擊的同時發動猛烈進攻……還好有驚無險，“密室”無恙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，虽然是第一次合作，不过你的指挥能力我认可了。",
+			say = "指揮官，雖然是第一次合作，不過你的指揮能力我認可了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "多谢夸奖。",
+			say = "多謝誇獎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请不要误会，这并不是什么虚无缥缈的夸赞，只是实事求是的陈述罢了。",
+			say = "請不要誤會，這並不是什麼虛無縹緲的誇讚，只是實事求是的陳述罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "（从塔林这里感受到一股强烈的压迫感，不愧是曾经有过铁血生活经历的舰队旗舰……）",
+			say = "（從塔林這裡感受到一股強烈的壓迫感，不愧是曾經有過鐵血生活經歷的艦隊旗艦……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "不过“密室”无恙……是指“密室”就在周边区域的意思么？",
+			say = "不過“密室”無恙……是指“密室”就在周邊區域的意思嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，指挥官同志，欢迎来到处于北方联合严密看管下的“密室”所在区域~！",
+			say = "沒錯，指揮官同志，歡迎來到處於北方聯合嚴密看管下的“密室”所在區域~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "……从漂浮的冰山与凌冽的寒风来看，这里依然位于极地海域中的某处。",
+			say = "……從漂浮的冰山與凜冽的寒風來看，這裡依然位於極地海域中的某處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "除此之外……周边倒是有不少在此前战斗中被摧毁的塞壬残骸，以及正在清理战场的北方联合后勤部队。",
+			say = "除此之外……周邊倒是有不少在此前戰鬥中被摧毀的塞壬殘骸，以及正在清理戰場的北方聯合後勤部隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "再向远方看，就是被彻底冰封的海面与一望无际的雪白，没有任何平台、设施与人造物的痕迹。",
+			say = "再向遠方看，就是被徹底冰封的海面與一望無際的雪白，沒有任何平台、設施與人造物的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "这里就像在极地之中随处可见的任何一处海域一样。",
+			say = "這裡就像在極地之中隨處可見的任何一處海域一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官看上去充满疑惑啊，你们居然什么都没说么？",
+			say = "指揮官看上去充滿疑惑啊，妳們居然什麼都沒說嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯嚯，还记得我们第一次来的时候感受到的震撼么？我们还是一样给指挥官同志保留点惊喜比较好。塔林，已经安排好了么。",
+			say = "嚯嚯，還記得我們第一次來的時候感受到的震撼嗎？我們還是一樣給指揮官同志保留點驚喜比較好。塔林，已經安排好了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗结束后就发出联络了，算时间……应该快到了。",
+			say = "戰鬥結束後就發出聯絡了，算時間……應該快到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "有什么快到了么……？",
+			say = "有什麼快到了嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，水下。应该留意的不是天空与水面，而是冰层覆盖的水下哦！",
+			say = "指揮官同志，水下。應該留意的不是天空與水面，而是冰層覆蓋的水下哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "不远处传来了巨大的撞击声，有某种巨大的物体正在下方猛烈撞击着冰面……！",
+			say = "不遠處傳來了巨大的撞擊聲，有某種巨大的物體正在下方猛烈撞擊著冰面……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			blackBg = true,
-			say = "…………？！！！这个是…………？！！！！",
+			say = "…………？！！！這個是…………？！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

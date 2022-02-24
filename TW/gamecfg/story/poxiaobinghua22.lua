@@ -15,7 +15,7 @@ return {
 			bgm = "deepblue-image",
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "嗯？外部干扰又出现了，这里应该是地下指挥中心，四周都进行过特殊处理的才对。",
+			say = "嗯？外部干擾又出現了，這裡應該是地下指揮中心，四周都進行過特殊處理的才對。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "零，立刻检查一下上方及周边海域情况，是否有敌人接近？",
+			say = "零，立刻檢查一下上方及周邊海域情況，是否有敵人接近？",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -83,7 +83,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没有发现任何异常么……好的，我知道了。",
+			say = "沒有發現任何異常嗎……好的，我知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看起来只是装置误启动了——",
+			say = "看起來只是裝置誤啟動了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			},
 			options = {
 				{
-					content = "摁下摁钮",
+					content = "按下按鈕",
 					flag = 1
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "啊，恢复正常了。原来如此……只是一处设备发生了故障么。",
+			say = "啊，恢復正常了。原來如此……只是一處設備發生了故障嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不过真的只是偶发性的故障还是……系统昨天才检查过，硬件软件也都运行良好，不可能无缘无故出现故障才对……",
+			say = "不過真的只是偶發性的故障還是……系統昨天才檢查過，硬體軟體也都運行良好，不可能無緣無故出現故障才對……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			},
 			options = {
 				{
-					content = "现在好像还在会议中……？",
+					content = "現在好像還在會議中……？",
 					flag = 1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "说的也是，回头再仔细检查一下好了。最近电子设备出现不明情况的干扰极多，也许与太阳在这个活跃周期活动的格外剧烈有关。",
+			say = "說的也是，回頭再仔細檢查一下好了。最近電子設備出現不明情況的干擾極多，也許與太陽在這個活躍週期活動的格外劇烈有關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "抱歉，让大家紧张了。经过排查，刚刚的事件只是一次普通的机械故障而已。",
+			say = "抱歉，讓大家緊張了。經過排查，剛剛的事件只是一次普通的機械故障而已。",
 			flashout = {
 				black = true,
 				dur = 0.15,
@@ -213,7 +213,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "请放心，此处会场已经被完好的隐藏起来了，周边海域也均由安蒂克丝的主力舰队进行驻守，安全性上绝对不会有任何问题。",
+			say = "請放心，此處會場已經被完好的隱藏起來了，周邊海域也均由安蒂克絲的主力艦隊進行駐守，安全性上絕對不會有任何問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "接下来要向大家介绍一位在心智魔方领域有着独特研究成果的人，其最近的研究成果也许能为META化现象提供一个全新的方案。",
+			say = "接下來要向大家介紹一位在心智魔方領域有著獨特研究成果的人，其最近的研究成果也許能為META化現象提供一個全新的方案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ffff4d",
-			say = "也许不少人已经认识了，这位专业人士就是站在我身边的——————-",
+			say = "也許不少人已經認識了，這位專業人士就是站在我身邊的——————-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -710,6 +710,16 @@ pg.player_resource = {
 		name = "maoxiv3_frame_pt",
 		itemid = 59275
 	},
+	[240] = {
+		id = 240,
+		name = "maoxiv3_pt",
+		itemid = 59276
+	},
+	[241] = {
+		id = 241,
+		name = "skinTicket29",
+		itemid = 59277
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -868,6 +878,11 @@ pg.player_resource = {
 	[4186] = {
 		id = 4186,
 		name = "skin_rerun_pt1",
+		itemid = 0
+	},
+	[4276] = {
+		id = 4276,
+		name = "skin_rerun_pt1jp",
 		itemid = 0
 	},
 	[100004] = {
@@ -1312,6 +1327,12 @@ pg.player_resource = {
 		maoxiv3_frame_pt = {
 			239
 		},
+		maoxiv3_pt = {
+			240
+		},
+		skinTicket29 = {
+			241
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1407,6 +1428,9 @@ pg.player_resource = {
 		},
 		skin_rerun_pt1 = {
 			4186
+		},
+		skin_rerun_pt1jp = {
+			4276
 		},
 		skin_rerun_pt = {
 			100004
@@ -1561,6 +1585,8 @@ pg.player_resource = {
 		237,
 		238,
 		239,
+		240,
+		241,
 		950,
 		951,
 		952,
@@ -1593,6 +1619,7 @@ pg.player_resource = {
 		4002,
 		4003,
 		4186,
+		4276,
 		100004,
 		40275,
 		40461

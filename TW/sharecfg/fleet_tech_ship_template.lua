@@ -7735,6 +7735,50 @@ pg.fleet_tech_ship_template = {
 			21
 		}
 	},
+	[70107] = {
+		max_star = 5,
+		id = 70107,
+		pt_get = 10,
+		pt_upgrage = 22,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70101,
+		pt_level = 16,
+		add_get_value = 1,
+		add_level_attr = 2,
+		add_get_shiptype = {
+			1,
+			20,
+			21
+		},
+		add_level_shiptype = {
+			1,
+			20,
+			21
+		}
+	},
+	[70108] = {
+		max_star = 5,
+		id = 70108,
+		pt_get = 10,
+		pt_upgrage = 22,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70101,
+		pt_level = 16,
+		add_get_value = 1,
+		add_level_attr = 9,
+		add_get_shiptype = {
+			1,
+			20,
+			21
+		},
+		add_level_shiptype = {
+			1,
+			20,
+			21
+		}
+	},
 	[70201] = {
 		max_star = 6,
 		id = 70201,
@@ -7789,6 +7833,64 @@ pg.fleet_tech_ship_template = {
 			2
 		}
 	},
+	[70204] = {
+		max_star = 6,
+		id = 70204,
+		pt_get = 20,
+		pt_upgrage = 42,
+		add_get_attr = 1,
+		add_level_value = 2,
+		class = 70204,
+		pt_level = 32,
+		add_get_value = 1,
+		add_level_attr = 2,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	},
+	[70206] = {
+		max_star = 5,
+		id = 70206,
+		pt_get = 12,
+		pt_upgrage = 24,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70205,
+		pt_level = 18,
+		add_get_value = 1,
+		add_level_attr = 2,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	},
+	[70301] = {
+		max_star = 6,
+		id = 70301,
+		pt_get = 28,
+		pt_upgrage = 56,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70301,
+		pt_level = 42,
+		add_get_value = 1,
+		add_level_attr = 1,
+		add_get_shiptype = {
+			3,
+			13,
+			18
+		},
+		add_level_shiptype = {
+			3,
+			13,
+			18
+		}
+	},
 	[70501] = {
 		max_star = 5,
 		id = 70501,
@@ -7799,6 +7901,28 @@ pg.fleet_tech_ship_template = {
 		class = 70501,
 		pt_level = 42,
 		add_get_value = 1,
+		add_level_attr = 2,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
+		}
+	},
+	[70504] = {
+		max_star = 6,
+		id = 70504,
+		pt_get = 44,
+		pt_upgrage = 88,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70502,
+		pt_level = 66,
+		add_get_value = 2,
 		add_level_attr = 2,
 		add_get_shiptype = {
 			4,
@@ -8607,10 +8731,16 @@ pg.fleet_tech_ship_template = {
 		70103,
 		70104,
 		70106,
+		70107,
+		70108,
 		70201,
 		70202,
 		70203,
+		70204,
+		70206,
+		70301,
 		70501,
+		70504,
 		70505,
 		80101,
 		80102,

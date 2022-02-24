@@ -5,6 +5,7 @@ return {
 		ButtonName = "activityButton"
 	},
 	{
+		Tip = "tip",
 		forceRefreshImage = true,
 		ButtonName = "activity_map_btn",
 		Image = function ()
@@ -18,6 +19,7 @@ return {
 			setActive(slot1, slot4)
 
 			if slot4 then
+				setActive(slot1:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 				onButton(slot0, slot1, function ()
 					uv0:emit(MainUIMediator.ON_ACTIVITY_MAP, uv1.id)
 				end, SFX_PANEL)

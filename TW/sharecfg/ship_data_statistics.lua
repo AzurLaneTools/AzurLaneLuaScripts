@@ -196565,6 +196565,1006 @@ pg.ship_data_statistics = {
 			"Northern Union-DD"
 		}
 	},
+	[701071] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷鳴",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701070,
+		english_name = "SN Gremyashchy",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			349,
+			26,
+			52,
+			28,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			70,
+			49
+		},
+		attrs_growth = {
+			9941,
+			365,
+			700,
+			612,
+			0,
+			510,
+			0,
+			1032,
+			1132,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.05,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701072] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷鳴",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701070,
+		english_name = "SN Gremyashchy",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			434,
+			33,
+			65,
+			35,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			70,
+			61
+		},
+		attrs_growth = {
+			9941,
+			365,
+			700,
+			612,
+			0,
+			510,
+			0,
+			1032,
+			1132,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.05,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701073] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷鳴",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701070,
+		english_name = "SN Gremyashchy",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			604,
+			46,
+			90,
+			49,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			70,
+			85
+		},
+		attrs_growth = {
+			9941,
+			365,
+			700,
+			612,
+			0,
+			510,
+			0,
+			1032,
+			1132,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.05,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701074] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷鳴",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701070,
+		english_name = "SN Gremyashchy",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			860,
+			65,
+			129,
+			69,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			70,
+			122
+		},
+		attrs_growth = {
+			9941,
+			365,
+			700,
+			612,
+			0,
+			510,
+			0,
+			1032,
+			1132,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701081] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "洪亮",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701080,
+		english_name = "SN Gromky",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701081,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			367,
+			24,
+			43,
+			31,
+			0,
+			73,
+			0,
+			67,
+			65,
+			45.6,
+			45,
+			50
+		},
+		attrs_growth = {
+			10459,
+			333,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1197,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			0.95,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701082] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "洪亮",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701080,
+		english_name = "SN Gromky",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701082,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			457,
+			30,
+			54,
+			39,
+			0,
+			73,
+			0,
+			67,
+			65,
+			45.6,
+			45,
+			62
+		},
+		attrs_growth = {
+			10459,
+			333,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1197,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			0.95,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701083] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "洪亮",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701080,
+		english_name = "SN Gromky",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701083,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			636,
+			42,
+			75,
+			54,
+			0,
+			73,
+			0,
+			67,
+			65,
+			45.6,
+			45,
+			87
+		},
+		attrs_growth = {
+			10459,
+			333,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1197,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			0.95,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701084] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "洪亮",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701080,
+		english_name = "SN Gromky",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701084,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			904,
+			60,
+			108,
+			77,
+			0,
+			73,
+			0,
+			67,
+			65,
+			45.6,
+			45,
+			125
+		},
+		attrs_growth = {
+			10459,
+			333,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1197,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
 	[702011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -198085,6 +199085,1653 @@ pg.ship_data_statistics = {
 			"Northern Union-CL"
 		}
 	},
+	[702041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "基洛夫",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702040,
+		english_name = "SN Kirov",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			710,
+			34,
+			55,
+			65,
+			0,
+			69,
+			0,
+			54,
+			36,
+			36.5,
+			52,
+			37
+		},
+		attrs_growth = {
+			17611,
+			465,
+			741,
+			1375,
+			0,
+			478,
+			0,
+			800,
+			699,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			261
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		}
+	},
+	[702042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "基洛夫",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702040,
+		english_name = "SN Kirov",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			883,
+			42,
+			69,
+			81,
+			0,
+			69,
+			0,
+			54,
+			36,
+			36.5,
+			52,
+			46
+		},
+		attrs_growth = {
+			17611,
+			465,
+			741,
+			1375,
+			0,
+			478,
+			0,
+			800,
+			699,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			262
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.35,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		}
+	},
+	[702043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "基洛夫",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702040,
+		english_name = "SN Kirov",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1230,
+			59,
+			96,
+			113,
+			0,
+			69,
+			0,
+			54,
+			36,
+			36.5,
+			52,
+			65
+		},
+		attrs_growth = {
+			17611,
+			465,
+			741,
+			1375,
+			0,
+			478,
+			0,
+			800,
+			699,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			263
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		}
+	},
+	[702044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "基洛夫",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702040,
+		english_name = "SN Kirov",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1749,
+			84,
+			137,
+			161,
+			0,
+			69,
+			0,
+			54,
+			36,
+			36.5,
+			52,
+			93
+		},
+		attrs_growth = {
+			17611,
+			465,
+			741,
+			1375,
+			0,
+			478,
+			0,
+			800,
+			699,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			264
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.35,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		}
+	},
+	[702061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "摩爾曼斯克",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702060,
+		english_name = "SN Murmansk",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			581,
+			29,
+			48,
+			55,
+			0,
+			70,
+			0,
+			52,
+			30,
+			35,
+			65,
+			31
+		},
+		attrs_growth = {
+			14895,
+			401,
+			662,
+			1183,
+			0,
+			487,
+			0,
+			768,
+			672,
+			0,
+			0,
+			375
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			201
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.45,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL",
+			"Omaha-Class"
+		}
+	},
+	[702062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "摩爾曼斯克",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702060,
+		english_name = "SN Murmansk",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			723,
+			36,
+			60,
+			69,
+			0,
+			70,
+			0,
+			52,
+			30,
+			35,
+			65,
+			39
+		},
+		attrs_growth = {
+			14895,
+			401,
+			662,
+			1183,
+			0,
+			487,
+			0,
+			768,
+			672,
+			0,
+			0,
+			375
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			202
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.47,
+			1.22,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL",
+			"Omaha-Class"
+		}
+	},
+	[702063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "摩爾曼斯克",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702060,
+		english_name = "SN Murmansk",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1006,
+			50,
+			84,
+			96,
+			0,
+			70,
+			0,
+			52,
+			30,
+			35,
+			65,
+			54
+		},
+		attrs_growth = {
+			14895,
+			401,
+			662,
+			1183,
+			0,
+			487,
+			0,
+			768,
+			672,
+			0,
+			0,
+			375
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			203
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL",
+			"Omaha-Class"
+		}
+	},
+	[702064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "摩爾曼斯克",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702060,
+		english_name = "SN Murmansk",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1432,
+			72,
+			120,
+			136,
+			0,
+			70,
+			0,
+			52,
+			30,
+			35,
+			65,
+			77
+		},
+		attrs_growth = {
+			14895,
+			401,
+			662,
+			1183,
+			0,
+			487,
+			0,
+			768,
+			672,
+			0,
+			0,
+			375
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.55,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL",
+			"Omaha-Class"
+		}
+	},
+	[702124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水星紀念.改",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702020,
+		english_name = "SN Pamiat' Merkuria",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 702124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1308,
+			38,
+			65,
+			67,
+			0,
+			51,
+			0,
+			47,
+			27,
+			23,
+			88,
+			33
+		},
+		attrs_growth = {
+			13272,
+			213,
+			365,
+			593,
+			0,
+			356,
+			0,
+			690,
+			570,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			264
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		}
+	},
+	[703011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "塔林",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703010,
+		english_name = "SN Tallinn",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			987,
+			48,
+			36,
+			41,
+			0,
+			67,
+			0,
+			51,
+			9,
+			25.6,
+			80,
+			0
+		},
+		attrs_growth = {
+			24075,
+			662,
+			503,
+			901,
+			0,
+			467,
+			0,
+			748,
+			415,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			331
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.2,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA"
+		}
+	},
+	[703012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "塔林",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703010,
+		english_name = "SN Tallinn",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1228,
+			60,
+			45,
+			51,
+			0,
+			67,
+			0,
+			51,
+			9,
+			25.6,
+			80,
+			0
+		},
+		attrs_growth = {
+			24075,
+			662,
+			503,
+			901,
+			0,
+			467,
+			0,
+			748,
+			415,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			332
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.2,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA"
+		}
+	},
+	[703013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "塔林",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703010,
+		english_name = "SN Tallinn",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1709,
+			84,
+			63,
+			71,
+			0,
+			67,
+			0,
+			51,
+			9,
+			25.6,
+			80,
+			0
+		},
+		attrs_growth = {
+			24075,
+			662,
+			503,
+			901,
+			0,
+			467,
+			0,
+			748,
+			415,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			333
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.2,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA"
+		}
+	},
+	[703014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "塔林",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703010,
+		english_name = "SN Tallinn",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2432,
+			120,
+			90,
+			102,
+			0,
+			67,
+			0,
+			51,
+			9,
+			25.6,
+			80,
+			0
+		},
+		attrs_growth = {
+			24075,
+			662,
+			503,
+			901,
+			0,
+			467,
+			0,
+			748,
+			415,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			334
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.25,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA"
+		}
+	},
 	[705011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -198582,6 +201229,506 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Gangut-Class",
+			"Northern Union-BB"
+		}
+	},
+	[705041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "蘇維埃白俄羅斯",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705040,
+		english_name = "SN Sovetskaya Belorussiya",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1372,
+			82,
+			0,
+			40,
+			0,
+			57,
+			0,
+			25,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			37110,
+			1011,
+			0,
+			879,
+			0,
+			400,
+			0,
+			395,
+			212,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sovetsky Soyuz-Class",
+			"Northern Union-BB"
+		}
+	},
+	[705042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "蘇維埃白俄羅斯",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705040,
+		english_name = "SN Sovetskaya Belorussiya",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1707,
+			102,
+			0,
+			50,
+			0,
+			57,
+			0,
+			25,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			37110,
+			1011,
+			0,
+			879,
+			0,
+			400,
+			0,
+			395,
+			212,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sovetsky Soyuz-Class",
+			"Northern Union-BB"
+		}
+	},
+	[705043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "蘇維埃白俄羅斯",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705040,
+		english_name = "SN Sovetskaya Belorussiya",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2376,
+			143,
+			0,
+			70,
+			0,
+			57,
+			0,
+			25,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			37110,
+			1011,
+			0,
+			879,
+			0,
+			400,
+			0,
+			395,
+			212,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sovetsky Soyuz-Class",
+			"Northern Union-BB"
+		}
+	},
+	[705044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "蘇維埃白俄羅斯",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705040,
+		english_name = "SN Sovetskaya Belorussiya",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3379,
+			204,
+			0,
+			99,
+			0,
+			57,
+			0,
+			25,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			37110,
+			1011,
+			0,
+			879,
+			0,
+			400,
+			0,
+			395,
+			212,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
 		}
 	},
@@ -261632,6 +264779,14 @@ pg.ship_data_statistics = {
 		701062,
 		701063,
 		701064,
+		701071,
+		701072,
+		701073,
+		701074,
+		701081,
+		701082,
+		701083,
+		701084,
 		702011,
 		702012,
 		702013,
@@ -261644,10 +264799,27 @@ pg.ship_data_statistics = {
 		702032,
 		702033,
 		702034,
+		702041,
+		702042,
+		702043,
+		702044,
+		702061,
+		702062,
+		702063,
+		702064,
+		702124,
+		703011,
+		703012,
+		703013,
+		703014,
 		705011,
 		705012,
 		705013,
 		705014,
+		705041,
+		705042,
+		705043,
+		705044,
 		705051,
 		705052,
 		705053,

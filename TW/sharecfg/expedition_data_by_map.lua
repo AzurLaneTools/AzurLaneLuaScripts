@@ -7323,6 +7323,264 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1480001] = {
+		map = 1480001,
+		name = "破曉冰華·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "POXIAOBINGHUA1",
+		ani_name = "Map_1400001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40561,
+		ui_type = 1,
+		bg = "Map_1400001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1480011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480002] = {
+		map = 1480002,
+		name = "破曉冰華·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "POXIAOBINGHUA15",
+		ani_name = "Map_1400002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40561,
+		ui_type = 1,
+		bg = "Map_1400002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1480012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480011] = {
+		map = 1480011,
+		name = "破曉冰華·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "POXIAOBINGHUA1",
+		ani_name = "Map_1400003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40561,
+		ui_type = 1,
+		bg = "Map_1400003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1480001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480012] = {
+		map = 1480012,
+		name = "破曉冰華·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "POXIAOBINGHUA15",
+		ani_name = "Map_1400004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40561,
+		ui_type = 1,
+		bg = "Map_1400004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1480002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480025] = {
+		map = 1480025,
+		name = "破曉冰華·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1400004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40561,
+		ui_type = 1,
+		bg = "Map_1400004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1480012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480026] = {
+		map = 1480026,
+		name = "破曉冰華·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1400004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40561,
+		ui_type = 1,
+		bg = "Map_1400004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1480012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1540001] = {
 		map = 1540001,
 		name = "響徹碧海的偶像歌|| ||CHAPTER EX||E.X.",
@@ -9140,6 +9398,12 @@ pg.expedition_data_by_map = {
 		1460012,
 		1460025,
 		1460026,
+		1480001,
+		1480002,
+		1480011,
+		1480012,
+		1480025,
+		1480026,
 		1540001,
 		1540002,
 		1540003,

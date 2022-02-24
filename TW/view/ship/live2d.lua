@@ -120,12 +120,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	uv1 = pg.AssistantInfo
 	slot3 = slot0.live2dData
 	slot5 = pg.Live2DMgr.GetInstance()
-
-	slot5:GetLive2DModelAsync(slot3:GetShipName(), function (slot0)
-		if slot0 == nil then
-			return
-		end
-
+	slot0.live2dRequestId = slot5:GetLive2DModelAsync(slot3:GetShipName(), function (slot0)
 		uv0(uv1, slot0)
 
 		if uv2 then
@@ -230,7 +225,9 @@ function slot0.Dispose(slot0)
 
 	slot0.state = uv0.STATE_DISPOSE
 
-	pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(slot0.live2dData:GetShipName())
+	pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
+
+	slot0.live2dRequestId = nil
 
 	if slot0.live2dData.gyro then
 		LateUpdateBeat:Remove(slot0.charLateUpdate, slot0)

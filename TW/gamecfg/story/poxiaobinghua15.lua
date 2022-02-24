@@ -12,7 +12,7 @@ return {
 			bgName = "bg_xiangting_2",
 			stopbgm = true,
 			dir = 1,
-			say = "空气中充斥着警报声……鼻腔中浓郁的硝烟味，迎面而来灼热的气浪……………………有种令人熟悉的感觉。",
+			say = "空氣中充斥著警報聲……鼻腔中濃郁的硝煙味，迎面而來灼熱的氣浪……………………有種令人熟悉的感覺。",
 			bgm = "airRaidAlarm",
 			flashin = {
 				delay = 1,
@@ -37,7 +37,7 @@ return {
 			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "…………这里是化为战场的长岛防线？",
+			say = "…………這裡是化為戰場的長島防線？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "我为什么会在这里……之前我是在做什么……不行脑中十分混乱，完全记不清楚了。",
+			say = "我為什麼會在這裡……之前我是在做什麼……不行腦中十分混亂，完全記不清楚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			nameColor = "#ffff4d",
-			say = "喂！！！你怎么还留在这里！",
+			say = "喂！！！你怎麼還留在這裡！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "不是说好跟着她们一起前往萨摩斯么，怎么你一个人留在这里了！",
+			say = "不是說好跟著她們一起前往薩摩斯嗎，怎麼你一個人留在這裡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "远方的声音有些熟悉，却又如此的陌生，喊话的人究竟是……？",
+			say = "遠方的聲音有些熟悉，卻又如此的陌生，喊話的人究竟是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "既然进攻以惨败告终，这里的沦陷也是迟早的事。",
+			say = "既然進攻以慘敗告終，這裡的淪陷也是遲早的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "就是提前想到了这种可能才决定让你跟着她们去萨摩斯执行任务的嘛……",
+			say = "就是提前想到了這種可能才決定讓你跟著她們去薩摩斯執行任務的嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "现在虽然一时顶住了攻势，不过也快要到极限了。接下来它们肯定会再次大举压上，然后这里就会被彻底毁灭，就和计划中的时间一样。",
+			say = "現在雖然一時頂住了攻勢，不過也快要到極限了。接下來它們肯定會再次大舉壓上，然後這裡就會被徹底毀滅，就和計劃中的時間一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "当时制定计划的时候你也在场吧，投的是支持票还是反对票来着……哎，最近事情太多实在是记不清了。",
+			say = "當時制定計劃的時候你也在場吧，投的是支持票還是反對票來著……哎，最近事情太多實在是記不清了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "算了……不管怎么样，现在就算你再说要留在这里陪我，我也不需要哦。",
+			say = "算了……不管怎麼樣，現在就算你再說要留在這裡陪我，我也不需要哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "比起我这边，还是那边更需要你…………让我看看还有没有延缓出发的撤离舰队，真是的，总是这么任性。",
+			say = "比起我這邊，還是那邊更需要你…………讓我看看還有沒有延緩出發的撤離艦隊，真是的，總是這麼任性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「快走，这里也要沦陷了」</size>",
+					"<size=60>「快走，這裡也要淪陷了」</size>",
 					0
 				}
 			}
@@ -257,7 +257,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「约定...看来就要到此为止了」</size>",
+					"<size=60>「約定...看來就要到此為止了」</size>",
 					0
 				}
 			}
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "喂！你一个人在那里发呆什么呢，快过来，战斗还没结束，留在外面太危险了。",
+			say = "喂！你一個人在那裡發呆什麼呢，快過來，戰鬥還沒結束，留在外面太危險了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			},
 			options = {
 				{
-					content = "她们肯定会回来救你的。",
+					content = "她們肯定會回來救你的。",
 					flag = 1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "哎？不会吧，既然是按照计划在走，那边再怎么说也会拖住她们……",
+			say = "哎？不會吧，既然是按照計劃在走，那邊再怎麼說也會拖住她們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "不，她们肯定会回来，然后目睹到对她们来说最为悲伤的画面。",
+			say = "不，她們肯定會回來，然後目睹到對她們來說最為悲傷的畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "这样可就麻烦了啊，本来就是想瞒着她们才偷偷进行这个安排的……",
+			say = "這樣可就麻煩了啊，本來就是想瞞著她們才偷偷進行這個安排的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			},
 			options = {
 				{
-					content = "我们一起撤离吧",
+					content = "我們一起撤離吧。",
 					flag = 1
 				}
 			}

@@ -2028,7 +2028,9 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			70102,
-			70106
+			70106,
+			70107,
+			70108
 		}
 	},
 	[70102] = {
@@ -2086,6 +2088,39 @@ pg.fleet_tech_ship_class = {
 			70203
 		}
 	},
+	[70204] = {
+		shiptype = 2,
+		name = "基洛夫級",
+		nation = 7,
+		id = 70204,
+		t_level_1 = 135,
+		t_level = 6,
+		ships = {
+			70204
+		}
+	},
+	[70205] = {
+		shiptype = 2,
+		name = "奧馬哈級",
+		nation = 7,
+		id = 70205,
+		t_level_1 = 135,
+		t_level = 3,
+		ships = {
+			70206
+		}
+	},
+	[70301] = {
+		shiptype = 3,
+		name = "塔林",
+		nation = 7,
+		id = 70301,
+		t_level_1 = 136,
+		t_level = 7,
+		ships = {
+			70301
+		}
+	},
 	[70501] = {
 		shiptype = 5,
 		name = "甘古特級",
@@ -2105,6 +2140,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		t_level = 8,
 		ships = {
+			70504,
 			70505
 		}
 	},
@@ -2469,6 +2505,9 @@ pg.fleet_tech_ship_class = {
 		70201,
 		70202,
 		70203,
+		70204,
+		70205,
+		70301,
 		70501,
 		70502,
 		80101,

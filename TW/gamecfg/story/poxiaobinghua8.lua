@@ -8,11 +8,11 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，就算在枪林弹雨中也能保持沉着镇定的指挥官同志，也在看到这个之后也吓了一跳吧！",
+			say = "哈哈哈，就算在槍林彈雨中也能保持沉著鎮定的指揮官同志，也在看到這個之後也嚇了一跳吧！",
 			bgm = "bgm-cccp",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
-			say = "确实……在意料之外的地方出现了意料之外的存在……",
+			say = "確實……在意料之外的地方出現了意料之外的存在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
-			say = "伴随着滚滚轰鸣，一艘巨大的……舰艇？穿破厚重的冰层出现在原本空无一物的视野中。",
+			say = "伴隨著滾滾轟鳴，一艘巨大的……艦艇？穿破厚重的冰層出現在原本空無一物的視野中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
-			say = "机器的轰鸣声、冰层的碎裂声、海浪的激荡声、各种声音相互交杂，伴随着剧烈的震动，给人一种正与某种巨兽对视的错觉。",
+			say = "機器的轟鳴聲、冰層的碎裂聲、海浪的激盪聲、各種聲音相互交雜，伴隨著劇烈的震動，給人一種正與某種巨獸對視的錯覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,41 +67,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
-			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "原本在天气暖和的时候，这片海域并不会冻结成现在这个样子。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过既然任务发生在如此严寒的时节，我们就利用这艘破冰潜航舰破冰而行吧~！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_cccpv2_1",
-			say = "破冰潜航舰……指挥部和其他阵营的编制中都没有见过类似的舰艇存在。",
+			say = "原本在天氣暖和的時候，這片海域並不會凍結成現在這個樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,11 +83,25 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然的~这可是我们北方联合自主研制的最新型多功能战术潜艇。不过如您所见，因为这样的体积，已经不能称之为潜艇，而应该是潜航舰了。",
+			say = "不過既然任務發生在如此嚴寒的時節，我們就利用這艘破冰潛航艦破冰而行吧~！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_cccpv2_1",
+			say = "破冰潛航艦……指揮部和其他陣營的編制中都沒有見過類似的艦艇存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,11 +113,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苏维埃罗西亚之前应该带您参观过一些我们用于进行心智魔方供能测试的实验室。",
+			say = "那是當然的~這可是我們北方聯合自主研製的最新型多功能戰術潛艇。不過如您所見，因為這樣的體積，已經不能稱之為潛艇，而應該是潛航艦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +129,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为制成品之一的就是这样的破冰潜航舰了~其搭载的心智魔方能源系统保证了这艘庞然大物的强劲动力与续航性能。",
+			say = "蘇維埃俄羅斯之前應該帶您參觀過一些我們用於進行心智魔方供能測試的實驗室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,11 +145,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，还有战斗能力。虽然在水面上基本只能当做一般破冰船使用，不过潜入水下后，这艘潜航舰就可以化身为水下作战平台。",
+			say = "作為製成品之一的就是這樣的破冰潛航艦了~其搭載的心智魔方能源系統保證了這艘龐然大物的強勁動力與續航性能。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,11 +161,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大体积带来的武器库为其提供了极其优秀的火力保障。再加上能在极地各处、包括被厚重冰层覆盖的海域内自由行动的能力与超长的潜航时间，我们对于这种新型舰艇能在未来的战争中能起到的作用可是寄予厚望的。",
+			say = "當然，還有戰鬥能力。雖然在水面上基本只能當做一般破冰船使用，不過潛入水下後，這艘潛航艦就可以化身為水下作戰平台。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "蘇維埃白俄羅斯",
+			bgName = "bg_cccpv2_1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "巨大體積帶來的武器庫為其提供了極其優秀的火力保障。再加上能在極地各處、包括被厚重冰層覆蓋的海域內自由行動的能力與超長的潛航時間，我們對於這種新型艦艇能在未來的戰爭中能起到的作用可是寄予厚望的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
-			say = "拥有潜对潜能力的巨大水下战斗平台……在刚才的战斗中也在它水下消灭了徘徊的塞壬潜艇群么？",
+			say = "擁有潛對潛能力的巨大水下戰鬥平台……在剛才的戰鬥中它也在水下消滅了徘徊的塞壬潛艇群嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
-			say = "需要用到潜航舰就意味着……难道我们要去的“密室”是某处位于水下的设施？",
+			say = "需要用到潛航艦就意味著……難道我們要去的“密室”是某處位於水下的設施？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "基本正确。贝拉罗斯，指挥官，接下来我们就转移到潜航舰内准备进行下潜行动吧。",
+			say = "基本正確。白俄羅斯，指揮官，接下來我們就轉移到潛航艦內準備進行下潛行動吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +253,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "蘇維埃白俄羅斯",
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "走吧，指挥官同志。前往“密室”的旅途，从现在开始才算真正开始呢~",
+			say = "走吧，指揮官同志。前往“密室”的旅途，從現在開始才算真正開始呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

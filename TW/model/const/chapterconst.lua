@@ -294,6 +294,10 @@ slot0.StatusMissile1B = 34
 slot0.StatusMissile2B = 35
 slot0.StatusMissile3B = 36
 slot0.StatusMissileInitB = 37
+slot0.StatusMaoxiv3 = 38
+slot0.StatusDefaultList = {
+	0
+}
 slot0.Status2Stg = setmetatable({}, {
 	__index = function (slot0, slot1)
 		slot3 = pg.chapter_status_effect[slot1] and slot2.strategy or 0

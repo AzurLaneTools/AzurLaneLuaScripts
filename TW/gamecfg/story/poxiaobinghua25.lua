@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰——————！",
+			say = "轟——————！",
 			dir = 1,
 			bgm = "bgm-cccp",
 			flashN = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			actor = 701080,
 			dir = 1,
-			say = "这些敌人好难缠啊！",
+			say = "這些敵人好難纏啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "到底是些什么东西，感觉身上始终带着一层迷雾一样……",
+			say = "到底是些什麼東西，感覺身上始終帶著一層迷霧一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			actor = 703010,
 			dir = 1,
-			say = "反正绝对不是塞壬，而是某种……无法解释的存在。",
+			say = "反正絕對不是塞壬，而是某種……無法解釋的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "虽说都是些尚未得到解释的存在，不过和这些尚未解释的存在进行战斗的时候还是有些难受啊，基洛夫你怎么看？",
+			say = "雖說都是些尚未得到解釋的存在，不過和這些尚未解釋的存在進行戰鬥的時候還是有些難受啊，基洛夫妳怎麼看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，很有研究价值的敌人，在战斗之后尝试带一些核心部件回去研究吧。",
+			say = "哼，很有研究價值的敵人，在戰鬥之後嘗試帶一些核心部件回去研究吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是基洛夫，很有气魄的发言……",
+			say = "不愧是基洛夫，很有氣魄的發言……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "在我们的事业完成之前，我基洛夫可不会轻易倒下哦！",
+			say = "在我們的事業完成之前，我基洛夫可不會輕易倒下哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "既然我们的攻击能够造成伤害，那么不管对面是什么东西都没什么可怕的。",
+			say = "既然我們的攻擊能夠造成傷害，那麼不管對面是什麼東西都沒什麼可怕的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "我们只要开火，开火，开火。用持续不断的火力粉碎一切胆敢阻碍我们前进的敌人！",
+			say = "我們只要開火，開火，開火。用持續不斷的火力粉碎一切膽敢阻礙我們前進的敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官同志和雷鸣也过来了！",
+			say = "啊，指揮官同志和雷鳴也過來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "很好，看来资料已经整理完毕运上指挥舰了。本次收获颇丰，不知道之后能解析出什么有趣的情报呢~",
+			say = "很好，看來資料已經整理完畢運上指揮艦了。本次收穫頗豐，不知道之後能解析出什麼有趣的情報呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "接下来就是得想个办法离开这个地方……",
+			say = "接下來就是得想個辦法離開這個地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "你们有没有觉得现在的情况和刚才在会议室里看到的态势图有点相似？",
+			say = "妳們有沒有覺得現在的情況和剛才在會議室裡看到的態勢圖有點相似？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "不知道那次战斗最后的结果是什么，要是再看仔细一些就好了……",
+			say = "不知道那次戰鬥最後的結果是什麼，要是再看仔細一些就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2532,6 +2532,42 @@ pg.backyard_theme_template = {
 			76305
 		}
 	},
+	[77] = {
+		Cfg_1 = 5,
+		name = "北地雪鎮 ",
+		hot = 1,
+		is_view = 1,
+		id = 77,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "在銀裝素裹的小鎮裡度過特別的一夜吧！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "els2themeicon",
+		deblocking = 1,
+		order = 75,
+		ids = {
+			77001,
+			77002,
+			77101,
+			77102,
+			77103,
+			77104,
+			77105,
+			77106,
+			77107,
+			77108,
+			77109,
+			77110,
+			77111,
+			77112,
+			77113,
+			77114,
+			77115,
+			77116
+		}
+	},
 	[79] = {
 		Cfg_1 = 5,
 		name = "765事務所",
@@ -2694,6 +2730,7 @@ pg.backyard_theme_template = {
 		74,
 		75,
 		76,
+		77,
 		79,
 		84
 	}

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"那便是…恋爱的季节\n\n<size=45>四 脸靠得太近了！</size>",
+					"那便是…戀愛的季節\n\n<size=45>四 臉靠得太近了！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "休息时间——",
+			say = "休息時間——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥抱着叠成小山的讲义，开始了她作为班长最初的工作。",
+			say = "格拉斯哥抱著疊成小山的講義，開始了她作為班長最初的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突击者老师大骗子…这才不是一点“零碎的杂务”啊…",
+			say = "突擊者老師大騙子…這才不是一點“零碎的雜務”啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也真是…那么轻易就接受了，真的没问题吗？以后肯定还有更麻烦的活儿…",
+			say = "你也真是…那麼輕易就接受了，真的沒問題嗎？以後肯定還有更麻煩的事情…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,37 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "「……太轻率了吗？」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202261,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "完全是随波逐流啊…倒是很符合你的风格。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			say = "「帮你再拿点吧？」",
+			say = "「……太輕率了嗎？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +131,21 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没，没关系啦！就这么点东西，我自己就能搬得动！",
+			say = "完全是隨波逐流啊…倒是很符合你的風格。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			say = "「幫妳再拿點吧？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？“看不见前面”……不，不用你操心！这点事难不倒我！",
+			say = "沒，沒關係啦！就這麼點東西，我自己就能搬得動！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202261,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "什麼？“看不見前面”……不，不用你操心！這點事難不倒我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥加快了脚步——就在这时，前面传来舰船们聊天的声音。",
+			say = "格拉斯哥加快了腳步——就在這時，前面傳來艦船們聊天的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 103061,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等我嘛，印第酱~头发还没梳好啊~",
+			say = "等等我嘛，印第醬~頭髮還沒梳好啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 103071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还不是因为姐姐你一直贴着我不放开…",
+			say = "還不是因為姐姐妳一直貼著我不放開…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 103061,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~冷淡的印第酱也超可爱！",
+			say = "啊~冷淡的印第醬也超可愛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "没注意到迎面而来的的波特兰姐妹，格拉斯哥仍大步向前走着。",
+			say = "沒注意到迎面而來的的波特蘭姐妹，格拉斯哥仍大步向前走著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "波特兰的目光全都集中在波利斯身上，也没注意到从前面走来的格拉斯哥。",
+			say = "波特蘭的目光全都集中在波利斯身上，也沒注意到從前面走來的格拉斯哥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "再这么下去两人就要撞上了——",
+			say = "再這麼下去兩人就要撞上了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "连忙抱住格拉斯哥双肩，没想到一下却把她压到了墙边。",
+			say = "連忙抱住格拉斯哥雙肩，沒想到一下卻把她壓到了牆邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你，你突然干什么啊！",
+			say = "你，你突然幹什麼啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而，而且…这个姿势是——",
+			say = "而，而且…這個姿勢是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 103071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…姐姐，都是因为你不看前面，撞到格拉斯哥她们了……",
+			say = "…姐姐，都是因為妳不看前面，撞到格拉斯哥她們了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 103061,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，真的欸！对不起~我光顾着看印第酱了！",
+			say = "啊，真的欸！對不起~我光顧著看印第醬了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "波特兰伸舌头道歉，波利斯礼貌地点了点头。",
+			say = "波特蘭伸舌頭道歉，波利斯禮貌地點了點頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥没有余力看离去的两人，保持着靠墙的姿势，心脏扑通扑通直跳。",
+			say = "格拉斯哥沒有餘力看離去的兩人，保持著靠牆的姿勢，心臟撲通撲通直跳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（怎么办…虽然说是突发意外…但竟然被壁咚了……！）",
+			say = "（怎麼辦…雖然說是突發意外…但竟然被壁咚了……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥头昏目眩，脸通红地抱着讲义。想着自己得说些什么——",
+			say = "格拉斯哥頭昏目眩，臉通紅地抱著講義。想著自己得說些什麼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "脸，脸靠得太近了！！我，我们得赶紧回教室发讲义！",
+			say = "臉，臉靠得太近了！！我，我們得趕緊回教室發講義！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "话音落下，两人才终于从壁咚的状态里恢复过来。格拉斯哥心还砰砰直跳，不过仍然迈开了步伐。",
+			say = "話音落下，兩人才終於從壁咚的狀態裡恢復過來。格拉斯哥心還砰砰直跳，不過仍然邁開了步伐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哎呀~明明刚才气氛那么好。这两位还是太僵硬了啊~",
+			say = "……哎呀~明明剛才氣氛那麼好。這兩位還是太僵硬了啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "热心，偷看可不好哦——不过我好像也这么说别人的资格就是了，啊哈哈……",
+			say = "熱心，偷看可不好哦——不過我好像也這麼說別人的資格就是了，啊哈哈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来我们还是得给他们加把火才行？",
+			say = "看來我們還是得給他們加點油才行？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嗯，为格拉斯哥加加油吧…",
+			say = "嗯，為格拉斯哥加加油吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

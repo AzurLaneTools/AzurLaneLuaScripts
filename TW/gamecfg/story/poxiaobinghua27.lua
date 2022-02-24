@@ -45,7 +45,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "这里是………………控制装置所在的大厅？",
+			say = "這裡是………………控制裝置所在的大廳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "北方联合的众人分散躺倒在大厅之中，没有受伤的痕迹也没有痛苦的气息，众人只是在静静地沉睡着。",
+			say = "北方聯合的眾人分散躺倒在大廳之中，沒有受傷的痕跡也沒有痛苦的氣息，眾人只是在靜靜地沉睡著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "大家都平安无事啊…………",
+			say = "大家都平安無事啊…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "我记得，进入“大门”之后………………",
+			say = "我記得，進入“大門”之後………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "对了，“大门”…………",
+			say = "對了，“大門”…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "与记忆之中不同，大厅尽头那堵原本平整光滑的冰壁现在变得裂纹丛生，仿佛随时都要崩塌一般。",
+			say = "與記憶之中不同，大廳盡頭那堵原本平整光滑的冰壁現在變得裂紋叢生，彷彿隨時都要崩塌一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "感觉记忆有些模糊……刚刚进入“大门”之后见到的璀璨都市，作战指挥室中的探索，最后经历的战斗难道都是————",
+			say = "感覺記憶有些模糊……剛剛進入“大門”之後的見到的璀璨都市，作戰指揮室中的探索，最後經歷的戰鬥難道都是————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "……………………看来不单纯是梦境这么简单呢。",
+			say = "……………………看來不單純是夢境這麼簡單呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "与在“大门”之中的指挥舰上相同，在战斗失去意识前放在身边的一个小资料箱，如今正静置在身旁的地面上。",
+			say = "與在“大門”之中的指揮艦上相同，在戰鬥失去意識前放在身邊的一個小資料箱，如今正靜置在身旁的地面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "打开资料箱，里面的资料也完好无损。",
+			say = "打開資料箱，裡面的資料也完好無損。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			blackBg = true,
-			say = "位于最上方的文件是………………「曙光计划」。",
+			say = "位於最上方的文件是………………「曙光計劃」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

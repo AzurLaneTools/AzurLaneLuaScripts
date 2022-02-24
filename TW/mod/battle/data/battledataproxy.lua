@@ -165,7 +165,26 @@ function slot8.InitData(slot0, slot1)
 
 	slot0._dungeonID = slot0._expeditionTmp.dungeon_id
 	slot0._dungeonInfo = uv1.GetDungeonTmpDataByID(slot0._dungeonID)
-	slot0._mapId = slot1.WorldMapId or slot0._expeditionTmp.map_id
+
+	if slot1.WorldMapId then
+		slot0._mapId = slot1.WorldMapId
+	elseif slot0._expeditionTmp.map_id then
+		if #slot0._expeditionTmp.map_id == 1 then
+			slot0._mapId = slot2[1][1]
+		else
+			slot3 = {}
+
+			for slot7, slot8 in ipairs(slot2) do
+				table.insert(slot3, {
+					rst = slot8[1],
+					weight = slot8[2] * 100
+				})
+			end
+
+			slot0._mapId = uv2.WeightRandom(slot3)
+		end
+	end
+
 	slot0._weahter = slot1.ChapterWeatherIDS or {}
 	slot0._exposeSpeed = slot0._expeditionTmp.expose_speed
 	slot0._airExpose = slot0._expeditionTmp.aircraft_expose[1]
@@ -793,7 +812,7 @@ function slot8.UpdateWeather(slot0, slot1)
 					slot8[slot16] = math.max(slot8[slot16], uv2.GetCurrent(slot14, "attackRating"))
 					slot9[slot16] = slot9[slot16] + uv2.GetCurrent(slot14, "aimBiasExtraACC")
 
-					if table.contains(ShipType.BundleList[ShipType.BundleAntiSubmarine], slot14:GetTemplate().type) then
+					if ShipType.ContainInLimitBundle(ShipType.BundleAntiSubmarine, slot14:GetTemplate().type) then
 						slot7[slot16] = math.max(slot7[slot16], slot18)
 					end
 				end

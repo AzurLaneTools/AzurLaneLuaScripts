@@ -64,7 +64,7 @@ pg.skin_page_template = {
 		id = 12,
 		name = "特別演習",
 		res = "laoyuyanxi",
-		english_name = "Prison Exerciese"
+		english_name = "Special Exerciese"
 	},
 	[13] = {
 		id = 13,

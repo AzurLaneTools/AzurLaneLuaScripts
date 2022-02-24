@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
-			say = "于“密室”之中无法开启的“大门”，就是本次需要我来协助的原因吧。",
+			say = "於“密室”之中無法打開“大門”，就是本次需要我來協助的原因吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，我们确信指挥官同志拥有的心智魔方亲和性能够帮助我们打开这道尘封的“大门”。",
+			say = "沒錯，我們確信指揮官同志擁有的心智魔方親和性能夠幫助我們打開這道塵封的“大門”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在此处镜面海域中，我们没有找到任何能够对于海域中设施进行操控的装置，就连镜面海与本身的维持装置都没有找到。",
+			say = "在此處鏡面海域中，我們沒有找到任何能夠對於海域中設施進行操控的裝置，就連鏡面海與本身的維持裝置都沒有找到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唯一比较可疑的就是前方的那个操作台了。",
+			say = "唯一比較可疑的就是前方的那個操作台了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "大厅前方的中央空间中，竖立着一个疑似某种控制装置的金属操作台。",
+			say = "大廳前方的中央空間中，豎立著一個疑似某種控制裝置的金屬操作台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且在上面还有一个看起来能够放置心智魔方的凹槽对吧？",
+			say = "而且在上面還有一個看起來能夠放置心智魔方的凹槽對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "嗯，确实……看上去是一个需要通过心智魔方才能进行激活的特殊装置。",
+			say = "嗯，確實……看上去是一個需要通過心智魔方才能進行啟動的特殊裝置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "不过目前发现的塞壬设备都是通过某种特殊的塞壬能源装置进行供能的，为什么这里的控制装置却需要心智魔方才能启动呢？",
+			say = "不過目前發現的塞壬設備都是通過某種特殊的塞壬能源裝置進行供能的，為什麼這裡的控制裝置卻需要心智魔方才能啟動呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个问题我们确信也要在打开“大门”之后才能得到解决。",
+			say = "這個問題我們確信也要在打開“大門”之後才能得到解決。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "死循环啊……",
+			say = "死循環啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们进行过一系列尝试激活控制台的实验，结果全都是失败，操作台没有出现任何反应。",
+			say = "我們進行過一系列嘗試啟動控制台的實驗，結果全都是失敗，操作台沒有出現任何反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "所以你们认为只有特殊的人使用心智魔方才能激活控制台？",
+			say = "所以妳們認為只有特殊的人使用心智魔方才能啟動控制台？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯。指挥官同志在上任之初进行的测试中所展现出的心智魔方适应性在世界范围内也是最强的。",
+			say = "嗯。指揮官同志在上任之初進行的測試中所展現出的心智魔方適應性在世界範圍內也是最強的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "基于未知原理，你可以让心智魔方产生出某种我们无法解释的良性变化，这件事你应该也是清楚的吧？",
+			say = "基於未知原理，你可以讓心智魔方產生出某種我們無法解釋的良性變化，這件事你應該也是清楚的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "嗯。而且一直以来我也想探明这种现象发生的原因。",
+			say = "嗯。而且一直以來我也想探明這種現象發生的原因。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "不过一直所说的“大门”究竟在哪里？这里就是大厅的尽头了，好像并没有看到类似的存在。",
+			say = "不過一直所說的“大門”究竟在哪裡？這裡就是大廳的盡頭了，好像並沒有看到類似的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……抱歉抱歉，忘了向您介绍“大门”的事了~",
+			say = "啊……抱歉抱歉，忘了向您介紹“大門”的事了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "您在正前方看到的那面矗立在大厅尽头的冰墙，就是我们称之为“大门”的存在。我们确信在控制台激活后，前方的“大门”将会开启一条新的道路。",
+			say = "您在正前方看到的那面矗立在大廳盡頭的冰牆，就是我們稱之為“大門”的存在。我們確信在控制台啟動後，前方的“大門”將會開啟一條新的道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "看上去虽然巨大，就平滑程度来说也绝对不是自然形成的东西，不过怎么看都单纯只是有点特别的冰墙而已。",
+			say = "看上去雖然巨大，就平滑程度來說也絕對不是自然形成的東西，不過怎麼看都單純只是有點特別的冰牆而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这么想就大错特错了，前方的“大门”可根本不是什么普通的冰墙。",
+			say = "你這麼想就大錯特錯了，前方的“大門”可根本不是什麼普通的冰牆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "洪亮，来为指挥官演示一下吧。对远处冰墙的一角进行轰击。",
+			say = "洪亮，來為指揮官演示一下吧。對遠處冰牆的一角進行轟擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白~大家请保持安全距离，现在开始进行一发炮击准备~！",
+			say = "明白~大家請保持安全距離，現在開始進行一發炮擊準備~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————！",
+			say = "轟——————！",
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "洪亮射出的炮弹高速撞上了前方的冰墙，可是在硝烟过后，冰墙之上没有留下一丝损伤……",
+			say = "洪亮射出的炮彈高速撞上了前方的冰牆，可是在硝煙過後，冰牆之上沒有留下一絲損傷……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看到了吧，这种程度的轰击在墙上连一个划痕都没留下来。",
+			say = "看到了吧，這種程度的轟擊在牆上連一個劃痕都沒留下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然，其他方式我们也都试过了。更大口径的炮击，舰队齐射，大当量炸药爆破，更大当量的炸药爆破……",
+			say = "當然，其他方式我們也都試過了。更大口徑的炮擊，艦隊齊射，大當量炸藥爆破，更大當量的炸藥爆破……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "结果全是无效，凭借我们现在的火力根本不能伤到“大门”分毫。",
+			say = "結果全是無效，憑藉我們現在的火力根本不能傷到“大門”分毫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "果然还是要从控制台上着手么……嗯？控制台上的印有的并不是塞壬用来代表自身阵营的徽章，而是一个完全没有见过的符号……",
+			say = "果然還是要從控制台上著手嗎……嗯？控制台上的印有的並不是塞壬用來代表自身陣營的徽章，而是一個完全沒有見過的符號……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？奇怪，我们之前在调查的时候有这个符号么？",
+			say = "咦？奇怪，我們之前在調查的時候有這個符號麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………！没有，我记得很清楚，之前控制台上绝对没有这个符号。",
+			say = "…………！沒有，我記得很清楚，之前控制台上絕對沒有這個符號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也就是说在这次进入“密室”之后控制台本身发生了以前从未见过的新变化？",
+			say = "也就是說在這次進入“密室”之後控制台本身發生了以前從未見過的新變化？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志一来立刻就发生了有趣的事情啊……给，这里是心智魔方。",
+			say = "指揮官同志一來立刻就發生了有趣的事情啊……給，這裡是心智魔方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事不宜迟，指挥官同志不如马上试一下吧。",
+			say = "事不宜遲，指揮官同志不如馬上試一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "整个操作台上看起来也没有其他能够操作的部分，总之先把心智魔方放在在卡槽上吧——",
+			say = "整個操作台上看起來也沒有其他能夠操作的部分，總之先把心智魔方放在在卡槽上吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……控制台居然真的起反应了！",
+			say = "……控制台居然真的起反應了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊……控制台变亮了哎！",
+			say = "哇啊……控制台變亮了哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			say = "在放入心智魔方之后，仪器发出了一阵嗡嗡的震动声，然后位于凹槽之中的心智魔方开始消散，取而代之的是一个膨胀的光团出现在仪器上方。",
+			say = "在放入心智魔方之後，儀器發出了一陣嗡嗡的震動聲，然後位於凹槽之中的心智魔方開始消散，取而代之的是一個膨脹的光團出現在儀器上方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "保持着立方体形状的光团，简直就像把心智魔方解构了一样……",
+			say = "保持著立方體形狀的光團，簡直就像把心智魔方解構了一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			bgName = "bg_cccpv2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……看来我们的推测是正确的呢，贝拉罗斯。",
+			say = "……看來我們的推測是正確的呢，白俄羅斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嗯！“大门”也开始起变化了，真期待这样坚固的冰墙会以什么样的方式开启道路啊！",
+			say = "嗯！ “大門”也開始起變化了，真期待這樣堅固的冰牆會以什麼樣的方式開啟道路啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

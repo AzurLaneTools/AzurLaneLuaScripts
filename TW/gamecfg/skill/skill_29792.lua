@@ -27,7 +27,7 @@ return {
 	name = "专属弹幕-布里斯托尔",
 	cd = 0,
 	painting = 1,
-	id = 29691,
+	id = 29792,
 	picture = "0",
 	desc = "专属弹幕-布里斯托尔",
 	aniEffect = {
