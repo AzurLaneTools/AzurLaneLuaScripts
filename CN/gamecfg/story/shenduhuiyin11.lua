@@ -304,7 +304,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "简直就像某个宇宙飞船的驾驶舱呢。",
 			typewriter = {
 				speed = 0.05,
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "现在坐在上面的可不是我，是你自己哦，还是选个好点的比喻吧。",
 			typewriter = {
 				speed = 0.05,
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "诶……你开心就好。",
 			typewriter = {
 				speed = 0.05,
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "……你不会真的想喝吧？",
 			typewriter = {
 				speed = 0.05,
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "任务中禁止饮酒？我要记在航行日志里了哦？",
 			typewriter = {
 				speed = 0.05,
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "那我要是说“没问题，这就给你拿一杯来呢？”",
 			typewriter = {
 				speed = 0.05,
@@ -525,7 +525,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "没问题。现在开始最终检查————嗯，各模块运行正常，已经检测到样本到位。",
 			typewriter = {
 				speed = 0.05,
@@ -542,7 +542,7 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "那么3——2——1————————设备启动！",
 			typewriter = {
 				speed = 0.05,

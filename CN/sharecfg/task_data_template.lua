@@ -155204,7 +155204,8 @@ pg.task_data_template = {
 			1622213
 		},
 		target_id_2 = {
-			702024
+			702024,
+			702124
 		},
 		open_need = {},
 		award_display = {

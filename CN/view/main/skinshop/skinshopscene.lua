@@ -1036,10 +1036,18 @@ function slot0.updateShipRect(slot0, slot1)
 			end
 		end
 
+		function slot4(slot0, slot1)
+			if ((slot0.type == Goods.TYPE_ACTIVITY or slot0.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot0:GetPrice()) == ((slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot1:GetPrice()) then
+				return slot0.id < slot1.id
+			else
+				return slot3 < slot2
+			end
+		end
+
 		table.sort(slot0.displays, function (slot0, slot1)
 			if (slot0.buyCount == 0 and 1 or 0) == (slot1.buyCount == 0 and 1 or 0) then
 				if slot0:getConfig("order") == slot1:getConfig("order") then
-					return slot0.id < slot1.id
+					return uv0(slot0, slot1)
 				else
 					return slot4 < slot5
 				end

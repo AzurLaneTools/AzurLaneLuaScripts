@@ -235356,9 +235356,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235480,9 +235480,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235604,9 +235604,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235728,9 +235728,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235855,7 +235855,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},
@@ -235982,7 +235982,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},
@@ -236109,7 +236109,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},
@@ -236236,7 +236236,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},

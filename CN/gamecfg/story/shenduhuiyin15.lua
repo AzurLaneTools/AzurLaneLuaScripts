@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_deepecho_6",
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			dir = 1,
 			say = "……欸？怎么突然不说话了，在思考说服我的话术么？",
 			bgm = "battle-deepecho",
@@ -159,7 +159,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -191,7 +191,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -255,7 +255,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -319,7 +319,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -351,7 +351,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -367,7 +367,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -477,7 +477,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
