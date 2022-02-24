@@ -53,7 +53,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "這種事時期頂著風雪從前線一路疾馳回來，總歸還是有點損傷的……動力系統故障，炮塔也需要檢修一下。",
+			say = "這種時期頂著風雪從前線一路疾馳回來，總歸還是有點損傷的……動力系統故障，炮塔也需要檢修一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

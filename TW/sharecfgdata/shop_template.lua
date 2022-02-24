@@ -35852,7 +35852,7 @@ _G.pg.shop_template[90075] = {
 
 _G.pg.shop_template[90076] = {
 	is_auto_use = 0,
-	resource_type = 189,
+	resource_type = 202,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：贝拉罗斯睡衣",
@@ -35903,7 +35903,7 @@ _G.pg.shop_template[90076] = {
 
 _G.pg.shop_template[90077] = {
 	is_auto_use = 0,
-	resource_type = 189,
+	resource_type = 202,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：基洛夫睡衣",
@@ -35954,7 +35954,7 @@ _G.pg.shop_template[90077] = {
 
 _G.pg.shop_template[90078] = {
 	is_auto_use = 0,
-	resource_type = 189,
+	resource_type = 202,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：恰巴耶夫睡衣",

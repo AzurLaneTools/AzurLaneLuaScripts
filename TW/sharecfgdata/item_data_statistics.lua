@@ -118711,6 +118711,27 @@ _G.pg.item_data_statistics[59213] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59215] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59215,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59216] = {
 	display = "用於『奮鬥吧，小企業！』活動提升角色好感，活動結束後將會消失",
 	name = "友好度-小企業",

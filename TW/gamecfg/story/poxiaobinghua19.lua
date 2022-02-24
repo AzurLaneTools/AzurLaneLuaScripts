@@ -592,7 +592,7 @@ return {
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！指揮官同志居然也有這種感覺麼？！",
+			say = "哎？！指揮官同志居然也有這種感覺嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

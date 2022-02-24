@@ -4129,9 +4129,9 @@ pg.world_item_data_template = {
 	},
 	[2100030] = {
 		item_transform_item_type = 0,
-		name = "未知档案",
+		name = "未知檔案",
 		item_transform_item_id = 0,
-		display = "一份可供获取的未知档案，不知道记录着什么内容呢？",
+		display = "一份可供獲取的未知檔案，不知道紀錄著什麼內容呢？",
 		log_text = "",
 		sort_priority = 2,
 		usage = "usage_undefined",

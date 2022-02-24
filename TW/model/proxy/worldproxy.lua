@@ -31,7 +31,9 @@ function slot0.register(slot0)
 		slot1 = uv0.world:GetTaskProxy()
 
 		for slot5, slot6 in ipairs(slot0.update_list) do
-			if slot1:getTaskById(WorldTask.New(slot6).id) then
+			if slot1.recycle[WorldTask.New(slot6).id] then
+				slot1.recycle[slot7.id] = slot7
+			elseif slot1:getTaskById(slot7.id) then
 				slot1:updateTask(slot7)
 			else
 				slot1:addTask(slot7)

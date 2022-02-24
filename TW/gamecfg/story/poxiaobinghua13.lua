@@ -497,7 +497,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？奇怪，我們之前在調查的時候有這個符號麼？",
+			say = "咦？奇怪，我們之前在調查的時候有這個符號嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
