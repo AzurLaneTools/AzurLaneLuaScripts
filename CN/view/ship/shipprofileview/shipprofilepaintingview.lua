@@ -12,6 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.hideObjList = {}
 	slot0.isPreview = false
 	slot0.zoomDelegate = GetOrAddComponent(slot0.bg, "MultiTouchZoom")
+	slot0.zoomDelegate.enabled = false
 	slot0.dragTrigger = GetOrAddComponent(slot0.bg, "EventTriggerListener")
 
 	slot0:SetHideObject()
