@@ -6575,7 +6575,8 @@ rawset(pg, "equip_data_template", rawget(pg, "equip_data_template") or {
 		96010,
 		96011,
 		96012,
-		96013
+		96013,
+		99999
 	}
 })
 setmetatable(pg.equip_data_template, confMT)
@@ -39445,6 +39446,11 @@ cs.equip_data_template = {
 	[96013] = {
 		2120085,
 		385,
+		true
+	},
+	[99999] = {
+		2120470,
+		378,
 		true
 	}
 }

@@ -248190,6 +248190,50 @@ _G.pg.equip_data_template[96013] = {
 	}
 }
 
+_G.pg.equip_data_template[99999] = {
+	destory_gold = 25,
+	trans_use_gold = 20,
+	next = 96001,
+	type = 20,
+	group = 96000,
+	restore_gold = 0,
+	important = 2,
+	prev = 0,
+	id = 99999,
+	equip_limit = 0,
+	level = 1,
+	ship_type_forbidden = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		11,
+		12,
+		17,
+		18,
+		19
+	},
+	trans_use_item = {
+		{
+			17001,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
 if rawget(uv0[slot1], "base") ~= nil then
 	rawset(slot2, "base", nil)
 	setmetatable(slot2, {

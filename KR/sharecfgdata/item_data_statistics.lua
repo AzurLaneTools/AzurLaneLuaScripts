@@ -138451,7 +138451,7 @@ _G.pg.item_data_statistics[58294] = {
 
 _G.pg.item_data_statistics[58295] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "未知角色 ",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
