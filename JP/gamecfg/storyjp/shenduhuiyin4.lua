@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "子供だと言われても否定しないんだ…メカの力がすごいわね…",
+			say = "子供だと言われても否定しないんだ…メカの力ってすごい…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

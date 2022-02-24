@@ -17424,7 +17424,7 @@ cs.gametip = {
 	},
 	blackfriday_help = {
 		663954,
-		766,
+		769,
 		true
 	}
 }

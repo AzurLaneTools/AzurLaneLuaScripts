@@ -564,6 +564,41 @@ return {
 			}
 		},
 		{
+			actor = 718010,
+			side = 2,
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "（あの「接続」による影響は隕石によるものだとすれば、ソユーズたちも流石に予測できるわけではないし）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 718010,
+			say = "（くっ、あのとき派手に啖呵を切ってしまわなければよかったわ）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			actor = 900218,
 			side = 2,
 			bgName = "bg_deepecho_0",

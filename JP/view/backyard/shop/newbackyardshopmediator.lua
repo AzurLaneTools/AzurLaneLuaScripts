@@ -14,9 +14,19 @@ function slot0.register(slot0)
 			uv0.contextData.onDeattch = nil
 		end
 
-		uv0:sendNotification(BackYardMediator.GO_CHARGE, {
-			type = slot1
-		})
+		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BackYardMediator) then
+			slot2.data.skipToCharge = true
+		end
+
+		if slot1 == PlayerConst.ResDiamond then
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_DIAMOND
+			})
+		elseif slot1 == PlayerConst.ResDormMoney then
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_GIFT
+			})
+		end
 	end)
 	slot0.viewComponent:SetDorm(getProxy(DormProxy):getData())
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getData())

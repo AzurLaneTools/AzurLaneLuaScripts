@@ -181,15 +181,16 @@ end
 
 function slot0.StartActions(slot0, slot1, slot2, slot3)
 	slot5 = 0
+	slot6 = nil
 
-	function slot6()
+	function slot7()
 		uv0 = uv0 + 1
 
 		if uv0 == 3 then
 			uv1 = uv1 + 1
 			uv0 = 0
 
-			Play(uv1)
+			uv2(uv1)
 		end
 	end
 

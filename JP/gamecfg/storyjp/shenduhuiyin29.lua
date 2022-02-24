@@ -972,9 +972,11 @@ return {
 		},
 		{
 			side = 2,
-			oldPhoto = true,
+			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
+			oldPhoto = true,
 			dir = 1,
+			actorName = "■■■",
 			say = "ロックの最終段階。覚醒…もしくはその逆にたどり着く手前のはず。",
 			typewriter = {
 				speed = 0.05,
@@ -1025,9 +1027,11 @@ return {
 		},
 		{
 			side = 2,
-			oldPhoto = true,
+			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
+			oldPhoto = true,
 			dir = 1,
+			actorName = "■■■",
 			say = "正直そう言われるととてつもなく恥ずかしいが、アンジュの提案…なにより彼女の天才的な直感を信じることにした。",
 			typewriter = {
 				speed = 0.05,
@@ -1040,9 +1044,11 @@ return {
 		},
 		{
 			side = 2,
-			oldPhoto = true,
+			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
+			oldPhoto = true,
 			dir = 1,
+			actorName = "■■■",
 			say = "だが、最初に書くのは自分ではなく、彼女だ。",
 			typewriter = {
 				speed = 0.05,
@@ -1093,9 +1099,11 @@ return {
 		},
 		{
 			side = 2,
-			oldPhoto = true,
+			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
+			oldPhoto = true,
 			dir = 1,
+			actorName = "■■■",
 			say = "願わくばそうであってほしいが、現実はかなり厳しいな。",
 			typewriter = {
 				speed = 0.05,
@@ -1203,9 +1211,11 @@ return {
 		},
 		{
 			side = 2,
-			oldPhoto = true,
+			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
+			oldPhoto = true,
 			dir = 1,
+			actorName = "■■■",
 			say = "真面目なような、軽いような…多分アンジュなりに前者なのだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -1256,9 +1266,11 @@ return {
 		},
 		{
 			side = 2,
-			oldPhoto = true,
+			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
+			oldPhoto = true,
 			dir = 1,
+			actorName = "■■■",
 			say = "実を言えば、まだ気恥ずかしさが抜けていないが……",
 			typewriter = {
 				speed = 0.05,
@@ -1290,9 +1302,11 @@ return {
 		},
 		{
 			side = 2,
-			oldPhoto = true,
+			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_9",
+			oldPhoto = true,
 			dir = 1,
+			actorName = "■■■",
 			say = "では――",
 			typewriter = {
 				speed = 0.05,

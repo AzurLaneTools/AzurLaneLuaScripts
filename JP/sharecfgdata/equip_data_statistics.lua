@@ -1717,6 +1717,124 @@ _G.pg.equip_data_statistics[152] = {
 	}
 }
 
+_G.pg.equip_data_statistics[153] = {
+	type = 7,
+	name = "0",
+	speciality = "航空",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 8,
+	descrip = "デフォルト装備",
+	id = 153,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		153,
+		156
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.equip_data_statistics[154] = {
+	type = 8,
+	name = "0",
+	speciality = "雷撃",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 8,
+	descrip = "デフォルト装備",
+	id = 154,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		154
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CV",
+		"TB"
+	}
+}
+
+_G.pg.equip_data_statistics[155] = {
+	type = 9,
+	name = "0",
+	speciality = "爆撃",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 8,
+	descrip = "デフォルト装備",
+	id = 155,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		155
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CV",
+		"DB"
+	}
+}
+
 _G.pg.equip_data_statistics[201] = {
 	tech = 1,
 	name = "0",

@@ -7512,7 +7512,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 70109,
-		name = "Сообразительный",
+		name = "<size=24>Сообразительный</size>",
 		sculpture = "lingmin",
 		message_persist = "",
 		picture_persist = "",

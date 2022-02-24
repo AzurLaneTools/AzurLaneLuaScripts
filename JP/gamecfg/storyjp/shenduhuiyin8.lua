@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "诶悪かったな！突っ込み過ぎちゃダメって注意しただけだぞ！",
+			say = "悪かったな！突っ込み過ぎちゃダメって注意しただけだぞ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
+			actorName = "クロンシュタット",
 			say = "ウォーミングアップの成果がちゃんと出ているわね。今のコンビネーションはいい感じだったわよ",
 			typewriter = {
 				speed = 0.05,
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
+			actorName = "ソオブラジーテリヌイ",
 			say = "潜航艦の護衛もバッチリだ！傷一つつけさせていないぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "アルハンゲリスク",
 			say = "戦闘した痕跡もなく、難破した様子もなし……まさかとは思うけど、救難信号は海の下から発せられたわけじゃないでしょうね？",
 			typewriter = {
 				speed = 0.05,
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
+			actorName = "クロンシュタット",
 			say = "そうだった！救難信号…北方連合専用のものではなく、よくわからないやつだったわね",
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "アルハンゲリスク",
 			say = "クロンシュタットも知らない暗号なの？",
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "アルハンゲリスク",
 			say = "だとしたらすごい偶然ね…この信号の座標は作戦の調査対象からそう遠くはないわ",
 			typewriter = {
 				speed = 0.05,
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
+			actorName = "クロンシュタット",
 			say = "そう？本当だっ。もう潜航艦に乗り込んでもいい距離じゃない",
 			typewriter = {
 				speed = 0.05,

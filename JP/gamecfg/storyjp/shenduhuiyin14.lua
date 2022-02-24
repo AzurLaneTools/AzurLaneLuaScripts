@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "通信",
 			say = "「ここより先は連邦特別演習海域だ。所属不明の艦船に通告する。すみやかに識別情報を開示せよ！」",
 			typewriter = {
 				speed = 0.05,

@@ -235288,12 +235288,12 @@ pg.ship_data_statistics = {
 		summon_offset = 0,
 		scale = 100,
 		attrs = {
-			1214,
+			1194,
 			0,
 			0,
 			69,
-			76,
-			47,
+			75,
+			45,
 			0,
 			35,
 			12,
@@ -235302,12 +235302,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			29620,
+			29120,
 			0,
 			0,
 			1446,
-			951,
-			325,
+			947,
+			314,
 			0,
 			513,
 			259,
@@ -235356,9 +235356,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235412,12 +235412,12 @@ pg.ship_data_statistics = {
 		summon_offset = 0,
 		scale = 100,
 		attrs = {
-			1510,
+			1485,
 			0,
 			0,
 			86,
-			95,
-			47,
+			94,
+			45,
 			0,
 			35,
 			12,
@@ -235426,12 +235426,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			29620,
+			29120,
 			0,
 			0,
 			1446,
-			951,
-			325,
+			947,
+			314,
 			0,
 			513,
 			259,
@@ -235480,9 +235480,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235536,12 +235536,12 @@ pg.ship_data_statistics = {
 		summon_offset = 0,
 		scale = 100,
 		attrs = {
-			2103,
+			2068,
 			0,
 			0,
 			120,
-			132,
-			47,
+			131,
+			45,
 			0,
 			35,
 			12,
@@ -235550,12 +235550,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			29620,
+			29120,
 			0,
 			0,
 			1446,
-			951,
-			325,
+			947,
+			314,
 			0,
 			513,
 			259,
@@ -235604,9 +235604,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235660,12 +235660,12 @@ pg.ship_data_statistics = {
 		summon_offset = 0,
 		scale = 100,
 		attrs = {
-			2991,
+			2941,
 			0,
 			0,
 			171,
-			188,
-			47,
+			187,
+			45,
 			0,
 			35,
 			12,
@@ -235674,12 +235674,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			29620,
+			29120,
 			0,
 			0,
 			1446,
-			951,
-			325,
+			947,
+			314,
 			0,
 			513,
 			259,
@@ -235728,9 +235728,9 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			148,
-			148,
-			149
+			153,
+			155,
+			154
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -235855,7 +235855,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},
@@ -235982,7 +235982,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},
@@ -236109,7 +236109,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},
@@ -236236,7 +236236,7 @@ pg.ship_data_statistics = {
 		},
 		default_equip_list = {
 			102,
-			100,
+			101,
 			104
 		},
 		depth_charge_list = {},

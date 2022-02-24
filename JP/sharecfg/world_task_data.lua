@@ -3690,7 +3690,9 @@ pg.world_task_data = {
 		},
 		task_target_map = {},
 		following_region = {},
-		following_map = {},
+		following_map = {
+			154
+		},
 		following_random = {},
 		task_event = {},
 		complete_parameter = {
@@ -3743,7 +3745,9 @@ pg.world_task_data = {
 		},
 		task_target_map = {},
 		following_region = {},
-		following_map = {},
+		following_map = {
+			154
+		},
 		following_random = {},
 		task_event = {},
 		complete_parameter = {

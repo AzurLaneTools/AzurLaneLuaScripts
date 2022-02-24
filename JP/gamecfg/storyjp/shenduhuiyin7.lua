@@ -259,7 +259,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
+			actorName = "ヴォルガ",
 			say = "では偵察機を随伴させますね～。あ！みんあ！空を見て！",
 			typewriter = {
 				speed = 0.05,
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
+			actorName = "ヴォルガ",
 			say = "よくわかりませんけど、すごく美しい景色ですね～。ここは一つ、願い事をするとしましょう♪",
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
+			actorName = "ヴォルガ",
 			say = "（今回の作戦が順調にいって、皆が無事に帰還できますように～）",
 			typewriter = {
 				speed = 0.05,

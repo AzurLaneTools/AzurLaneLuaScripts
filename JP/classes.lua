@@ -1914,6 +1914,7 @@ DestroyAtlasPoolRequestPackage = import("view.util.RequestPackages.DestroyAtlasP
 GetPrefabRequestPackage = import("view.util.RequestPackages.GetPrefabRequestPackage")
 GetSpineRequestPackage = import("view.util.RequestPackages.GetSpineRequestPackage")
 GetSpriteRequestPackage = import("view.util.RequestPackages.GetSpriteRequestPackage")
+LoadLive2dRequestPackage = import("view.util.RequestPackages.LoadLive2dRequestPackage")
 LoadPrefabRequestPackage = import("view.util.RequestPackages.LoadPrefabRequestPackage")
 LoadReferenceRequestPackage = import("view.util.RequestPackages.LoadReferenceRequestPackage")
 RequestPackage = import("view.util.RequestPackages.RequestPackage")

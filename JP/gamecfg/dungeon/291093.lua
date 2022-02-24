@@ -201,6 +201,7 @@ return {
 				},
 				{
 					triggerType = 0,
+					key = true,
 					waveIndex = 103,
 					conditionType = 0,
 					preWaves = {
@@ -251,8 +252,7 @@ return {
 								8001,
 								8007
 							}
-						},
-						key = true
+						}
 					},
 					reinforcement = {
 						{
