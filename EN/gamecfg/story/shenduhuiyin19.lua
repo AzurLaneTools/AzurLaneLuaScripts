@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "舰队跟随喀琅施塔得的指引，正步步靠近演习海域。",
+			say = "Tracing a course plotted by Kronshtadt, the girls advanced towards the exercise area located in the seas of Bermuda.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "灵敏，通讯频道里有收到什么呼叫么？",
+			say = "Soobrazitelny, has your communicator gone off in the past few minutes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有哦，频道内很安静，一切正常。",
+			say = "Nope! Not a single peep across any channels!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "很好。",
+			say = "Good. That means we're making progress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（看来这次绕开大洋联邦演习区是正确的，接下来尝试一下联络本部……）",
+			say = "(Just going around the Federation's exercise area seems to be working. If all goes well, we'll be safe once we contact an Eagle Union fleet in the region.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（这个距离的话，应该能联络到白鹰东海岸的情报站……）",
+			say = "(I believe their closest base is situated on the east coast...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "喀琅施塔得悄悄地操作舰装的通讯器对一个隐秘的频率进行了呼叫。",
+			say = "After letting Soobrazitelny fine-tune her communicator, Kronshtadt contacted the Eagle Union base through a private channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,8 +138,8 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "…………",
+			actorName = "Communicator",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（没有任何反应？！那阿非利加的情报站呢……？！）",
+			say = "(No response?! I'll try their SA base instead...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,8 +172,8 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "…………",
+			actorName = "Communicator",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "喀琅施塔得有些焦虑地又试了好几个频率，不过通讯器中依然是一片死寂。",
+			say = "She tried again and again with many different channels, but not a single one answered her calls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（这下我确信了……这片空间绝对不是什么正常的地方。）",
+			say = "(How is this possible? Is this not Eagle Union territory? Richard did say she's from the Eagle Union though, and all these tourists look to be as well...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（既然之前大洋联邦没有给出友好回应，那这次就去前进阵线的演习区吧。）",
+			say = "(I suppose this dream might be an alternate reality where the Eagle Union controls much less territory than it does in the real world.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（这个名字不知道为什么听起来有些亲切，而且……再怎么说，总不会两边都没有好态度吧。）",
+			say = "(That leaves us with little choice but to try with that \"Revolutionary Front\" faction... Hopefully they'll receive us more kindly than Federation did.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

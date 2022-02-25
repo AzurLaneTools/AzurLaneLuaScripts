@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "刺眼的白光过后，北方联合众人发现自己回到了苏丽珂号上。",
+			say = "Suliko Interior - Bridge",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "头好痛哦……",
+			say = "Ugh... My head hurts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "……咦？！我这是……在控制室里？！",
+			say = "Is this... the submarine's bridge?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂————大家快醒一醒，醒一醒！",
+			say = "Anyone alive? Kiev? Volga? Arkhangelsk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "……好吵。",
+			say = "...Too noisy. Shush.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸…………我们这是晕过去了么。",
+			say = "Nnngh... Did I fall asleep?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我感觉好像做了个特别真实的噩梦……",
+			say = "Mm... I had a really lifelike nightmare...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "是不是梦到我们在一片迷雾中航行，最后被突然出现的黑色冲击击倒了？",
+			say = "We were trapped in a dense fog... then a black tornado appeared... After that, we were all knocked out by a huge wave...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "没错……",
+			say = "Yeah, I had the same dream...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我也一样！所以说刚才经历的绝对不是梦啊！",
+			say = "Woah, what are the odds of that? Did we all have the same dream?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当时喀琅施塔得也跟我们说这种情况已经出现过好几次，只是不知道为什么每次我们回来的时候都会忘记呢！",
+			say = "Oh right, Kronshtadt said the same thing, didn't she? She was talking about being in a dream, then getting jolted back to reality by that black wave...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实如此……这次我们也是被黑色冲击击中后不久就回来了。",
+			say = "Now that you mention it... Were we able to come back to reality because we were swallowed by that wave?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "我们居然真的已经忘记过好几次了啊……感觉好可怕。",
+			say = "That incredible pain... Kronshtadt must have endured it those other times as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "为什么这次我们记住了？",
+			say = "But, why do I remember now? Shouldn't we forget about the dream after we come back...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道诶……去问问喀琅施塔得好了~",
+			say = "I'm not sure, but maybe Kronshtadt has some answers for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "苏丽珂号·科研舱",
+			say = "Suliko Interior - Synchronization Chamber",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "喀琅施塔得————",
+			say = "Kronshtadt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘘…………她还没醒过来。",
+			say = "She... doesn't seem to be conscious yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "阿尔汉格尔斯克坐在设备的躺椅旁，双手轻轻地放在沉睡中的喀琅施塔得肩上。",
+			say = "Arkhangelsk pointed to Kronshtadt's immobile figure within the synchronization chair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是怎么回事……？",
+			say = "What's going on...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也不清楚……在我醒来之后她就是这样了，一直在沉睡，怎么都叫不醒。",
+			say = "I don't know. When I woke up, I saw her next to me in this state...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "阿尔汉格尔斯克，你也记得刚刚发生的事吧？",
+			say = "What a strange dream... Do you remember anything, Arkhangelsk? Kronshtadt mentioned something about a black tsunami.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……她之前说的话我都明白了。",
+			say = "Yes, including what happened during the first two loops.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "还有她最后的异常状况……",
+			say = "And, during this last loop, she...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……当时她用炮管指向我们了吧？",
+			say = "Pointed her guns at us, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然不想承认，不过确实是这样……",
+			say = "Yes... I remember that still...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "当时的她怎么看都不太正常！",
+			say = "That couldn't have been the real Kronshtadt! She wasn't acting like herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在她昏睡不醒的状况肯定也那个异常状态有关！",
+			say = "But more importantly, why hasn't she woken up yet? Don't tell me she's trapped inside that dream still!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "以那种状态留在里面的话，非常不妙……",
+			say = "I'd hate to be stuck in that place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们强行把她叫醒吧？",
+			say = "Hmm... Do you think we could just wake her up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不行，千万不要！",
+			say = "Something's telling me that would be a terrible idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……诶？",
+			say = "Huh? Why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "现在的异常状况是因为同步装置引起的，如果在装置运行期间强行叫她起来可能会很危险！",
+			say = "The device likely interfaces with her brain during the connection process, right? So if we were to sever the connection forcefully, it might cause her psychological damage! Maybe there's a way to stop the process...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个的话，我刚才试过了……装置怎么都关不上。",
+			say = "I already thought of that... But I can't get it to stop...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "果然如此……那最大问题就在这里了！",
+			say = "Ugh... So that's not an option either, huh? But we can't just leave Kronshtadt like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们大概需要在保持同步装置正常运行的情况下，想办法让她的意识从那片梦境里出来才行！",
+			say = "Wait, that's it! If Kronshtadt is trapped inside the dream, why don't we go back in and \"finish\" it for her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "……也许我们还有一个更大的问题。",
+			say = "Uhh... I don't think we have the time for that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "你们看，又有塞壬潜艇编队接近了。",
+			say = "The Sirens are starting to resume their patrols in this area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "欸？！！真是祸不单行……",
+			say = "You've got to be shitting me! Did the Sirens notice us already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要不然我们撤退吧？等返回极地要塞之后再想办法。",
+			say = "Maybe we should head back to the research base? It's a bit of a gamble, but we can't just leave our comrade behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "唔…………不行！",
+			say = "It's not a bad idea on paper, but the synchronization is only made possible by connecting with the meteorite. I have no idea what'll happen if that connection is broken...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "为什么呀！",
+			say = "Oh, right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "你们忘了么，样本只要离开采集区一定距离就会失效，到时候同步装置也没办法正常运行了吧。",
+			say = "And didn't Kronshtadt mention the other problem as well? If the Sirens find us while we're ascending, we're goners!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,7 +835,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我们还怎么让喀琅施塔得醒过来啊？！",
+			say = "If the submarine goes down, Kronshtadt's gonna be the least of our worries!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,7 +852,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实好像是这样……那现在究竟应该怎么办……",
+			say = "What should we do then? We still have plenty of supplies, but... can we only wait for help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我在想了，在想了…………！",
+			say = "C'mon, genius mechanic, think! How do we all get out of here alive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "天才的机械师，快发挥你的灵光一闪想想突破困境的方法………………",
+			say = "And how do we rescue Kronshtadt from her dream? Graaaaaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "………………有了！我们向下深潜吧！",
+			say = "All right, we've got to go the distance here. If ascending is not an option, there's only one way to go – deeper!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "这片海域最深处也只有不到六千米，这点距离不会让样本失效的！",
+			say = "I dunno how much pressure this submarine can handle, but at least the meteorite's gonna be fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "苏丽珂号的性能比塞壬潜艇强得多，一直向下潜的话我们也会更安全！",
+			say = "Every second we keep diving is another second that we can keep the Sirens from noticing us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来好像……可行。",
+			say = "Not like there's anything else we can do... But here's the problem – even if we do manage to bring Kronshtadt back, then what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -985,7 +985,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "不过还有一个问题……同步装置只有一套欸？",
+			say = "Wait... I'm picking up a signal! An... An SOS signal?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……………………我们是因为这个装置才会被拉入回忆中的对吧？",
+			say = "Huh? That's impossible, there's no way our comms would work at this depth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "但是实际上和装置连接的自始至终只有喀琅施塔得一个人。",
+			say = "Wait, what? Didn't we originally locate the meteorite thanks to a mysterious signal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1038,7 +1038,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "所以……与装置连接并不是进入那里的必要条件！",
+			say = "Does that mean it's coming from the meteorite then?! If we can find some way of amplifying it, then it'll be picked up by the research base, and our comrades will know about it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "只要把设备稍微改装一下，增加一些功率……减少一些屏蔽装置应该就行了！",
+			say = "Next, if we can increase the strength of the connection, we might be able to find a way back into Kronshtadt's dream!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1073,7 +1073,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过这样以来，也就会和之前一样把我们所有人都被卷进去对吧？",
+			say = "Wait. Who's going to pilot the submarine then? If you strengthen the connection, we're all going to get pulled inside the dream, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,7 +1091,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "大概……用这种方法的话实在没法做到精确区分。",
+			say = "H-haha... Time to pray that the sub's autopilot function actually works?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不过反正有自动驾驶，不用担心啦！",
+			say = "Well, maybe I can throw together a quick routine to help it avoid Siren detection... But it won't be good for long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,7 +1127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我会开启自动驾驶，在此期间让我们一起把喀琅施塔得救回来！",
+			say = "What other choice do we have at this point? If we don't try something bold and daring, we'll just be waiting for our doom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1144,7 +1144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好……改装需要多久？",
+			say = "Understood. How long does it take to do all of those things?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1162,7 +1162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "很快！大家稍等一下哦！",
+			say = "Heheh! Faster than you can say \"Soobrazitelny, the galaxy-brained mechanic!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			}
 		},
 		{
-			say = "灵敏迅速地将同步装置周围的各种管线重新排列着，时而拆掉什么，时而安装什么。",
+			say = "Surrounded by enemies, the Northern Parliament fleet rushed to finalize their desperate measures.",
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
@@ -1208,7 +1208,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "伏尔加坐在指示屏前，时刻注视着喀琅施塔得的身体状态。",
+			say = "Inside the synchronization chamber, Volga monitored Kronshtadt's condition while keeping an eye on the operation of the connection device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1222,7 +1222,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "基辅在控制室仔细确认着声呐回传的图像，阿尔汉格尔斯克则在操作通讯设备发送着现在的情况。",
+			say = "On the bridge, Kiev was fine-tuning the Siren avoidance routine while Arkhangelsk focused on amplifying the meteorite's signal from inside the communication room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1236,7 +1236,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "突然潜航舰内的灯光闪烁了起来，不过几秒后就恢复正常了。",
+			say = "In a monumental feat of diligence and discipline, the Northern Parliament ships worked together seamlessly to finish their preparations in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1250,7 +1250,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "灵敏从一堆线材中探出头来，用握着扳手的手背擦了擦额头的汗水。",
+			say = "With the completion of Soobrazitelny's command, nothing would keep them from their crucial mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1268,7 +1268,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "……改装完毕！哈哈哈，天才机械师名不虚传吧！",
+			say = "All righty! That's a real genius mechanic for ya! Did you see that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1286,7 +1286,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "刚才我注意到通讯设备启动了，你们向后方发送我们的情况了么？",
+			say = "How about the signal from the meteorite? We're casually doing all kinds of revolutionary things here, but I hope Soyuz at least manages to get the signal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1303,42 +1303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……虽然不知道那边能不能收到…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 705060,
-			say = "我们能一起顺利回来的话当然好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 705060,
-			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "否则……这样也算申请一下后援。",
+			say = "There's no guarantee. All we can do is send out the signal to draw in anyone who's paying attention. Also, you never know what might bite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1356,7 +1321,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "我们就等着以后被其他同志们救回来好了~",
+			say = "Hopefully we'll have Kronshtadt back by then too...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 705060,
+			side = 2,
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "I don't want to think about losing another comrade ever again...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 705060,
+			say = "Anyway, are you sure everything's ready to go, Soobrazitelny? We can take some time to double-check things if needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1374,7 +1374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "说实话……这种场面还是别了……第一次任务我可不想以这种结局收尾。",
+			say = "Way ahead of you! When I'm surrounded by such beautiful machines, it'd be a shame to perform only a single check on them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1391,7 +1391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，我也不想。",
+			say = "Heh. I guess that's true. You still want to head back to the research base and take another look around, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1409,7 +1409,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "所以我们一定要成功把喀琅施塔得带回来，然后一起回家。",
+			say = "Kronshtadt's going to have to put in a good word with Soyuz for you, so you'd better make sure she comes back to us safe and sound!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1427,7 +1427,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "嗯……所有人要，一起回家。",
+			say = "All right... Let's go bring her back, together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1445,7 +1445,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "大家都选个舒服点的姿势躺下，我要摁下启动键了哦~",
+			say = "Are we ready to connect then? Let's make ourselves comfortable first~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1459,7 +1459,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "得到了全员肯定回应之后，伏尔加毫不迟疑的用手摁下了启动键。",
+			say = "After confirming that all preparations were complete, Volga resumed the boot sequence of the connection device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1476,7 +1476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么3——2——1——",
+			say = "3... 2... 1...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1495,7 +1495,7 @@ return {
 			actor = 707010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "让我们在另一边再会吧————！",
+			say = "See you on the other side, my friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

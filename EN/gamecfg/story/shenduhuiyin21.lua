@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
+			say = "FATAL ERROR.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "「███解除：37.1％」",
+			say = "██████ PROGRESS: 37.1%",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,8 +51,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "……你不会真的想喝吧？",
+			actorName = "???",
+			say = "Kronshtadt? Kronshtadt! Are you all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "…………",
+			actorName = "Kronshtadt",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "任务中禁止饮酒？我要记在航行日志里了哦？",
+			actorName = "???",
+			say = "Thank god... You're finally awake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,8 +102,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "……………………",
+			actorName = "Kronshtadt",
+			say = "Urgh......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,12 +115,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "Arkhangelsk",
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……欸？怎么突然不说话了，在思考说服我的话术么？",
+			say = "How are you feeling? Any pains, aches, or nausea?",
 			bgm = "battle-deepecho",
 			flashout = {
 				dur = 1,
@@ -152,8 +152,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（又是熟悉的场景，熟悉的话语……我又回来了。）",
+			actorName = "Kronshtadt",
+			say = "(I'm back in the synchronization chamber... Must mean the black tornado got me again.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "陌生的量产型，黑色的风暴……所有的一切仿佛从未真实存在过一样。",
+			say = "Everything from the dream was gone. The mass-produced ships, the tornado, and the being who created the storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,24 +181,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "从昏迷中醒过来的喀琅施塔得发现自己再一次回到了潜航舰苏丽珂号的科研舱中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "阿尔汉格尔斯克……同步任务暂时停止。",
+			say = "Gone, like they were never real to begin with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,8 +197,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "欸？！发生么什么事么……不对，你的脸色突然变得超级差哎！",
+			actorName = "Kronshtadt",
+			say = "Arkhangelsk, let's put the synchronization on hold for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,8 +214,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "难道是身体突然不舒服么……我还以为你说要喝伏特加是开玩笑呢。",
+			actorName = "Arkhangelsk",
+			say = "Look how pale you are! I knew this was a bad idea. One moment you're fine, the next you're squirming like you're having a waking nightmare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,8 +231,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "……别急，我这就去给你拿一杯！",
+			actorName = "Arkhangelsk",
+			say = "Sigh... Sorry. I should've given you vodka when you first requested it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,8 +248,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "…………没事，不用管酒的问题了。",
+			actorName = "Arkhangelsk",
+			say = "I'll get you a glass. Wait right here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +265,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "这样啊……总之你先好好休息一下吧。",
+			actorName = "Kronshtadt",
+			say = "Would you please forget about the goddamn vodka?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,8 +282,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "难道是进行任务之前的突然紧张？",
+			actorName = "Arkhangelsk",
+			say = "Shh, don't talk, just get some rest. I'll tell Soobrazitelny we're taking a break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,8 +299,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "也可以这么说……不过我紧张的可不是要执行任务这件事啊……",
+			actorName = "Arkhangelsk",
+			say = "You might FEEL fine, but you're not fit for this mission without a sound mind. And you, my friend, are not sound of mind right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,8 +316,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "这次怎么样，你还是什么都不记得么？",
+			actorName = "Kronshtadt",
+			say = "(This confirms it – I'm the only dreamer between us five. No wonder Arkhangelsk has no idea what's really going on here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,8 +333,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "……嗯？我要记得什么么？",
+			actorName = "Kronshtadt",
+			say = "(Huh...? Her hands are shaking...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,8 +350,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（明明已经发生过两次，阿尔汉格尔斯克居然还是什么都不记得。）",
+			actorName = "Arkhangelsk",
+			say = "Why are you staring a hole through me? Is something wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,8 +367,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（………我现在可以百分之百确定了，之前经历的事绝对不是什么一瞬间产生的幻觉。）",
+			actorName = "Kronshtadt",
+			say = "(No, I was too quick to judge. She also experienced what happened in the dream too, she simply doesn't remember it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,8 +384,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（现在的局面一定与使用了同步装置连接样本有关……）",
+			actorName = "Kronshtadt",
+			say = "(I'm getting weaker with each time the tornado consumes me. The other four must be feeling it too...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,8 +401,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（虽然不知道有关到什么程度，究竟是因为什么原因……这些都是需要查明的……）",
+			actorName = "Kronshtadt",
+			say = "(This machine is extremely dangerous. We'll all die if I keep using it. No, what we need to do is return to the base immediately.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,8 +418,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "喂—喀琅施塔得小姐————",
+			actorName = "Kronshtadt",
+			say = "(But... how? Without weapons, we're just as dead if we encounter any Sirens on the way. Plus, the meteorite has to stay here...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,8 +435,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "不要突然留下一句意义不明的话然后自顾自陷入沉思啊。",
+			actorName = "Arkhangelsk",
+			say = "Kronshtadt? Kronshtadt, listen to me. It's important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,8 +452,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "啊~抱歉抱歉。也许是我不太习惯呆在狭窄的科研舱内吧。",
+			actorName = "Arkhangelsk",
+			say = "This isn't your fight alone. Your friends are right here with you, and we'll always listen when you have something on your mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,8 +469,25 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "稍等我一下，我去外面透透气就回来。",
+			actorName = "Kronshtadt",
+			say = "(She's right. Try as I might, I can't do this on my own. I need some time away from this claustrophobia-inducing room.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Kronshtadt",
+			say = "Sorry, I need to get some fresh air. Fresher than what's in this chamber, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "苏丽珂号·控制室",
+			say = "Suliko Interior - Bridge",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（唉，真是遭遇到了意想不到的事态。）",
+			say = "(We are in some deep shit here. Things aren't looking good.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（老实说我都想先回去之后再从长计议了。）",
+			say = "(Analyzing the meteorite is sapping our strength. Running away runs the risk of encountering Sirens. Even if we get away, we'll never get this golden opportunity again.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不过……障眼法只能用一次。如果这里真的被塞壬发现了，恐怕我们就没有第二次机会了吧。）",
+			say = "(If this is a side-effect of the connection, then there's no way Soyuz could've foreseen its effects...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（而且……）",
+			say = "(Heh... Looks like I really jinxed us trying to be a blowhard back then...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与这艘潜航舰一样，这次任务也应该是你们极地舰队成立以来的第一次任务。",
+			say = "Now, I'd like to reiterate – we likely won't get another opportunity like this.",
 			effects = {
 				{
 					active = true,
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "漂亮的完成任务，向北方联合展现一下你们的实力吧！",
+			say = "The Northern Parliament's future rests on your shoulders, everyone. Bear that in mind all throughout this mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "既然我亲自出马了，你就放心吧，保证完成任务。",
+			say = "Good thing this is exactly the kind of mission I've been looking forward to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（极地舰队的第一次任务…不甘心以这样的状态结束啊…………）",
+			say = "(Cursing myself won't do us any good. I need to come up with a plan. Think, Kronshtadt, think...)",
 			effects = {
 				{
 					active = false,
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哟，喀琅施塔得~我这边的样本回收顺利结束了哦！",
+			say = "There you are, Kronshtadt! I took the liberty of locking the grappling arms in position so I don't need to babysit the controls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "诶？灵敏么……嗯，操作辛苦了。",
+			say = "If it isn't our genius captain. How are things?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "没事没事，我觉得蛮有趣的~",
+			say = "Pretty good! Working a submarine is a walk in the park when you're a genius mechanic!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯…………基辅和伏尔加呢？",
+			say = "I'll bet. Where are Kiev and Volga?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "诶……她们不是就在旁边坐着么?",
+			say = "You're sitting right next to them. Don't tell me the machine messed with your head?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "…………？",
+			say = "Kronshtadt...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "啊、是哦是哦，是我走神了。",
+			say = "...Oops, sorry. I guess I'm a little out of it right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你还好么……感觉就像生了场大病一样？",
+			say = "A little? With how ill you look, it's a miracle you can still walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "现在样本已经成功回收，我们可以隐蔽起来慢慢执行后面的任务哦。",
+			say = "If you need someone to synchronize in your place, I'm willing to do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "如果感觉难受的话就休息一会吧，同步任务换我来也是可以的。",
+			say = "But if you insist on doing it yourself, please pace yourself. There's no need to rush when the Sirens are still unaware of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯……我是打算先休息一下。",
+			say = "You know what... I'll take your advice and take a little break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过同步任务可不能交给你哦，这个可是苏维埃同盟指名给我的任务。",
+			say = "But nobody besides me will synchronize. Soyuz entrusted this mission to me, and I won't let her down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（虽然是这样，不过其实大家已经跟我一起经历了两次了就是了……）",
+			say = "(Besides, poor Volga would be mentally scarred for life if she felt what it's like to be swallowed by that black tsunami.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +919,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………你们觉得这次任务怎么样？",
+			say = "I do appreciate the concern, but I can handle myself. You worry too much, Volga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -936,7 +936,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是极地舰队的第一次任务，我其实一直有点担心自己能不能做好……",
+			say = "Do I? Maybe you're right. I've wondered a few times if I'm making myself useful enough, and feared the mission might not be going as planned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,7 +954,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "不过总算还是顺利来到这里了，只要完成最后一步，我们的首次任务就能算顺利结束了吧~",
+			say = "That's just me being me though. With the meteorite in our possession, we only need to extract all the data we can, then we'll be home free.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,7 +971,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错~不过要等最后返回极地要塞之后才算正式结束呢。",
+			say = "We're not home free until we're home, period! Making it back safely is part of the mission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "真是有趣又新奇、兴奋又刺激！这样的任务请多来一点！",
+			say = "Personally, I've been enjoying every minute on this submarine! I'm having too much fun to let doubts cloud my mind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,7 +1007,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我其实更想做一些在水面上消灭敌人的任务……",
+			say = "Me, I wish I was fighting Sirens right now. Studying rocks is boring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1025,7 +1025,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "虽然现在这样的任务有些枯燥，不过像这样与大家在一起，也还不错。",
+			say = "Having said that... I'd rather be here with my friends than out fighting alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1043,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "对了！喀琅施塔得，等任务结束之后我们可以在极地要塞多停一段时间么？",
+			say = "Incidentally, Kronshtadt, I wanted to ask this earlier but you were busy: could we stop by the research base for a while longer when we go back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我在那边看到了好多有趣的东西想研究一下啊！",
+			say = "I know it has no tech left to salvage, but there's no shortage of machines I'd love to tinker with!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,7 +1088,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "Urgh......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "呵呵，没问题。等任务顺利结束之后，我会跟苏维埃同盟好好说一说的~",
+			say = "Sure, sure. I'll mention your request to Soyuz later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,7 +1124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过我打算任务结束之后回圣彼得伯格好好歇一歇，放你一个人在极地要塞没问题么？",
+			say = "Keep in mind though that the biggest toll this mission takes is on our minds. If you don't want to be left alone without proper utilities, you might want to reconsider.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,7 +1142,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "唔……这样的话可能稍微有些寂寞！我可以申请让基辅留下来陪我么！",
+			say = "I wouldn't want to be all alone! Let me bring Kiev with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我拒绝。任务结束后我还有很多训练项目要做。",
+			say = "...No way, no how. I've got combat training to do, and I'd hate to neglect it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1178,7 +1178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "欸~~别这么冷淡嘛！相比训练，直接来实战不是更好？",
+			say = "You can still do that! You said a minute ago you'd rather fight with friends on your side, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1205,7 +1205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来的时候你也看到了吧，极地要塞附近总会有零星的塞壬巡逻队出现。",
+			say = "Sirens already appeared on the way here, and I'll bet more will show up at the base eventually!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1223,7 +1223,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "你留下来消灭敌人，不是比训练场训练有趣多了！",
+			say = "It's the best of both worlds! You and I can hang out and fight together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1241,7 +1241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "唔……你这么说的话，有些心动。",
+			say = "That's... actually a good point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1259,7 +1259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "喀琅施塔得，等任务结束之后，让我在极地要塞承担一段时间的保卫工作可以么。",
+			say = "On second thought, I'm fine with that. Kronshtadt, you can put me on base guard duty after the mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1277,7 +1277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "听起来感觉也是可以商量的事，我会想办法的~",
+			say = "No promises, but I'll see what I can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1295,7 +1295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯~感觉休息的差不多了！",
+			say = "All right, I think I've rested for long enough. Wouldn't want to keep Arkhangelsk waiting all day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1313,7 +1313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（谢谢你们。）",
+			say = "(Thank you all – for helping me regain my sanity.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1331,7 +1331,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "阿尔汉格尔斯克，能听到么。阿尔汉格尔斯克——",
+			say = "Arkhangelsk! Are you good to go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1348,7 +1348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听到了听到了，不要这么大老远喊我啊。",
+			say = "Yes, and you don't need to shout. Any louder and the Sirens would've probably heard it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1365,7 +1365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过听起来声音倒是有精神多了，怎么说，任务继续么？",
+			say = "Jokes aside, hearing you shout is a good sign – means you've regained your strength. Ready to give synchronization another shot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1383,7 +1383,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没错没错，必须要完成任务才行~",
+			say = "Of course. I can't lounge around too long or I get restless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1402,7 +1402,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "让我们再次出发吧————",
+			say = "Let's do this. Take me to dreamland once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

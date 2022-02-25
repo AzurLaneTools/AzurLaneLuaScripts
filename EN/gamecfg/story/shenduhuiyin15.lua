@@ -275,7 +275,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The black hurricane. Don't you remember?",
+			say = "The black tornado. Don't you remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Black hurricane? I really have no idea what you're talking about.",
+			say = "Black tornado? I really have no idea what you're talking about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

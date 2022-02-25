@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在黑色风暴的面前，喀琅施塔得一次又一次的攻击着。",
+			say = "Kronshtadt pumped shell after shell into the black tornado, resuming the symphony of destruction with a new movement.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "main-ashes-theme",
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "消失，消失，消失啊！",
+			say = "\"Die! Die! DIE!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得的声音越发歇斯底里，似乎每一次主炮齐射都让她破坏的欲望更进一步，",
+			say = "She had lost all control of her emotions, becoming a puppet to her pure lust for destruction, her existence reduced to unload her entire arsenal at her target.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "而风暴也如同之前的允诺一样，完全没有还手。",
+			say = "The tornado, meanwhile, simply took it all. It did not retaliate or even defend itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "……这不是自然的么，风暴究竟要怎么还手啊。",
+			say = "(How laughable... Am I really trying to kill a storm?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "要用武器击败一个风暴的我未免也太好笑了一点……",
+			say = "(It's a force of nature, not a living being. I'm making a fool of myself...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可是————",
+			say = "(But... Pointless as it may be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "进攻无法停止。",
+			say = "Her assault did not let up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,8 +190,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "大姐姐，这就是你的极限么？我还毫发无损哦。",
+			actorName = "???",
+			say = "Is that the best you can do, lady? You've not left as much as a dent on me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 718010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "闭嘴……现在才刚刚开始呢！",
+			say = "\"Shut up! You've not seen the start of it!\"",
 			flashN = {
 				color = {
 					1,
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "理智的弦正在断裂，意识正在模糊，只剩下最原始的破坏本能。",
+			say = "Her identity was being overwritten. Her consciousness began to wane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得一次又一次的攻击着，黑色冲击也一次又一次的出现。",
+			say = "Soon destruction would be the only thing she could think of. Soon she would be no more than a living weapon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "但对于此刻的喀琅施塔得而言，这样的冲击反而像迎面扑来的春风一般怡人。",
+			say = "Her comrades, her allegiance, her duty, her mission – everything she held dear was being reduced to forgotten memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "仿佛在每一次经历冲击后，炮击的破坏力就有提升了一分。",
+			say = "Never before had something felt so reprehensibly wrong. And yet she couldn't stop firing. Her power grew and grew without limit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 718010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "很好很好很好很好很好很好很好很好——",
+			say = "\"AHAHAHAHAHAHAH!\"",
 			flashN = {
 				color = {
 					1,
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "就这样破碎吧，就这样毁灭吧！",
+			say = "\"Prepare to meet your end! Drop dead already! DIEEEEE!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "恍惚中，喀琅施塔得仿佛看到了少女正站在她的面前。",
+			say = "Richard was right there, standing right in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,24 +409,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "她用额头顶着炮管，脸上挂着渗人的微笑。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "加油~加油~",
+			say = "With a smile like a fallen angel, she pressed her little head against the barrel of Kronshtadt's cannon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,8 +425,25 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "就差一步了，加油哦~",
+			actorName = "???",
+			say = "You've almost got me, lady.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_9",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "???",
+			say = "A little more should do it~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "不要…………小看我——————！",
+			say = "No... No! This isn't like me! I would never...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "去死吧…………就在心中完全被负面情感占据的喀琅施塔得即将打出最后一炮的时候。",
+			say = "Despite her rejection, she could not stop firing. The world turned pitch black, and she realized then that she was on the brink of METAmorphosis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "光芒，在眼前出现了。",
+			say = "But then... a ray of light shone through to Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

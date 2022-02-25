@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方联合·莫斯科",
+			say = "Back at the Northern Parliament",
 			side = 2,
 			bgName = "bg_deepecho_13",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
-			say = "盛大的阅兵式正在进行着。",
+			say = "Sovetsky Soyuz reunited with Kronshtadt at a grand parade celebrating the return of the long-lost heroes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
-			say = "地上是坦克与装甲车构成的钢铁洪流，天上则是重型轰炸机群构成的空中长城。",
+			say = "The fact that they were able to return home safely brought relief to the hearts of many, but just as importantly– the information they gathered while connecting with the meteorite would surely pave a new path for the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,27 +61,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_13",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "真是一幅壮观的盛景……和我走的时候大不一样了啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是肯定的，在这期间我们一天都没有闲着哦。",
+			say = "Some things never change, huh? It's good to be back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,11 +77,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "路上还顺利么？",
+			say = "Indeed. This is the place where we belong, and it will always await us with open arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,11 +93,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又是一次豪华车厢中的观光之旅，实在是令人身心舒畅~",
+			say = "How was your trip back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,11 +109,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别是灵敏，在见到防结霜处理的玻璃之后真是开心得不得了……",
+			say = "I guess I got the first-class treatment? In any case, I slept through most of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,11 +125,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "Somehow, our resident genius mechanic still had the energy to go back to the research base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,11 +141,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "远处的那个巨大建筑物是……？",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +157,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个啊……是向世界展示我们北方联合的强大，象征着我们的团结与不屈的地标，苏维埃宫。",
+			say = "Honestly, I never thought I'd be able to see my home again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,11 +173,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前只是听过这个设计……没想到真的建出来了啊。",
+			say = "Yes, it was a miracle for us as well to find that you were still alive. We've never stopped thinking about your disappearance since that time–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,11 +189,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。你不知道的变化还有很多哦。",
+			say = "So, time didn't seem to be flowing normally inside the chamber?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,11 +205,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少一段时间之内，你别想用奇奇怪怪的情报压过我了。",
+			say = "Correct. Apparently you stayed asleep inside the chamber the entire time until you were found. But nothing else had changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,11 +221,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这还真是……倍感恐怖。",
+			say = "It was as if time stood still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +237,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的康复训练，看来要很艰苦啊……",
+			say = "...Let's set that aside for now. No matter how deep the submarine dove, there's no way that time itself would freeze over inside the chamber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,11 +253,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。所以你还要继续加把劲才行，赶紧恢复状态，祖国需要你。",
+			say = "But, if that had anything to do with the Siren technology we were using, it becomes clear why they are so keenly interested in the meteorite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,11 +269,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白……随时等候着执行新的任务。",
+			say = "...So what do you plan on doing next? Do you want some time off, or do you plan to resume your training?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,11 +285,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯………………",
+			say = "I am always prepared to give more for the Northern Parliament, Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,11 +301,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎回家，同志。",
+			say = "We appreciate your service, comrade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,11 +317,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你久等了，苏维埃同盟……",
+			say = "Welcome home, Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,12 +333,28 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
+			bgName = "bg_deepecho_13",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "*sigh*... Hah, it's good to be back, my friend.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "任务顺利结束，我回来了——————",
+			say = "...Sorry to have kept you waiting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

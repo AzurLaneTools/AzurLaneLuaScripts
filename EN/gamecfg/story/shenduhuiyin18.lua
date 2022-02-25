@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "一段时间的航行之后，众人来到了岛屿上。这座岛屿不大，不过植被却十分茂盛。",
+			say = "Over on the island, the girls followed the tourist road until they came across a place with a thicket.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从这里继续向前……然后到这里…………",
+			say = "If memory serves me right, it's just up ahead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "差不多该出现了……",
+			say = "Now she should pop out after we turn this right corner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么差不多快要出现了？",
+			say = "Who? How do you know someone else is here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……失策，不小心把心里的声音说出来了啊。",
+			say = "(Crap! Spoke my thoughts out loud!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伏尔加有点担心你，又不好上来搭话，所以就拜托我来看看咯。",
+			say = "You're scaring Volga – she says something's felt wrong about you since shortly after we got here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我有表现得那么明显么……",
+			say = "Really now? What makes her think that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说明显的话也不明显，至少灵敏和基辅就没看出来。",
+			say = "I dunno. Kiev and Soobrazitelny haven't said anything, and I didn't notice it either until Volga pointed it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伏尔加不说的话，我其实也没太注意到，毕竟现在的情况确实是蛮有冲击力的。",
+			say = "But, Volga's intuition tends to be really good when it comes to people's emotions. That's why I wanted to check on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过一旦注意到之后，其实表现得还挺明显的。",
+			say = "The fact that you're so calm and decisive in this strange situation... I'm not sure whether it's totally in character or totally out of character for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……哪方面？",
+			say = "...I'm not sure what to make of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "开玩笑的方面。如果是平常的你，一定会拿没有预见到这种情况的科研部门开涮吧？",
+			say = "See, our intelligence personnel are trained to handle unknown situations, but that's not you, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这倒确实…………（倒不如说确实已经涮过一次了……）",
+			say = "That doesn't sound like a compliment to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以到底是怎么回事？",
+			say = "In other words, I'm the one who should be saying, I'm not sure what to make of your behavior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从坐到椅子上开始你就有点心不在焉的，来到这里之后也没好转。",
+			say = "You've been acting weird from the moment you sat down in that chair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "差不多也该说说原因了吧？同伴们正在担心哦。",
+			say = "Don't you think you can open up to us? Your friends are getting worried.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……其实确实发生了一些事，不过我还没想好应该怎么跟你们讲。",
+			say = "I... I'm sorry, but I still haven't sorted things through in my own head yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请再给我一点时间……",
+			say = "Just give me a bit more time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然你都说到这个份上了的话————",
+			say = "All right. I'm not going to push you for answers, but we're in this together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,8 +346,8 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "前方的区域禁止入内哦。",
+			actorName = "???",
+			say = "Hey, you there! That area's off-limits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "就在喀琅施塔得与阿尔汉格尔斯克交谈时，二人身旁的树林中突然传来一位少女的声音。",
+			say = "The conversation between Kronshtadt and Arkhangelsk was suddenly interrupted by a young girl's voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然出现了……",
+			say = "(Right on schedule.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "————！",
+			say = "Back off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "停！不要突然发动攻击，接下来交给我吧。",
+			say = "Stand down, Kiev. I'll handle this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "抱歉，下意识。",
+			say = "...You sure that's a good idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "你没受伤吧，好人理查德小姐？",
+			say = "Just do as I say. Now... Bon Homme Richard, I presume? I hope we didn't frighten you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "嗯，没事哦。是突然向你们搭话的我不对。",
+			say = "Nah, it's all good. My bad for calling out to you out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "不过你居然知道我的名字啊，没想到在这里也能碰到粉丝。",
+			say = "You know my name, huh? This is the last place I expected to run into one of my fans!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,41 +508,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_5",
-			say = "伴随着话语声，一位少女从旁边的树林中走了出来，然后径直挤入了北方联合众人中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "好人理查德，你来这里究竟是做什么的，前方进行的演习到底是什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "哇啊……一上来就问的这么直接。你们该不会是北方联合的间谍吧？",
+			say = "The stranger emerged from a roadside thicket, revealing herself. She was dressed much differently to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,8 +524,25 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "欸？！我明明是天才机械师，哪里看起来像间谍啦！",
+			actorName = "Kronshtadt",
+			say = "What are you be doing all the way out here? Is there something going on in that exercise area up ahead? Oh, and do you mind if I just call you Richard?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Bon Homme Richard",
+			say = "Woah, that's a lot of questions out of the blue... Say, are you girls spies from the Northern Parliament?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,76 +558,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "盯————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "啊哈哈哈……确实以间谍来说这种组合太奇怪了，刚才是玩笑话。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "不过刚才问我问题的大姐姐身上倒是确实有一股类似的气息哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "提问也很奇怪。正常来说，应该先问我是来这里做什么的，如果对我的回答不满意，紧接着才会问我究竟是来做什么的吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "也就是说，虽然我还什么都没有说，你已经料到我的回答了？",
+			actorName = "Soobrazitelny",
+			say = "No, we're not! At least I'm no spy - there's no room for other stuff in the brain of a genius mechanic!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,8 +575,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "也可以这么说……如果我猜的没错的话，你会回答是因为受不了Division13的规章制度所以偷偷跑到这个度假岛上来玩的？",
+			actorName = "Kiev",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,8 +592,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "好厉害————",
+			actorName = "Bon Homme Richard",
+			say = "Haha, I was just cracking a joke. Nobody would hire a bunch of oddballs like you to be spies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,8 +609,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "不过这个回答是真的哦，好人理查德确实是偷偷跑来这个岛上玩的。",
+			actorName = "Bon Homme Richard",
+			say = "Sorry about that. It's just, those questions you asked me earlier came off a bit suspicious, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,8 +626,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "虽然差不多也到了该回去的时间就是了。",
+			actorName = "Bon Homme Richard",
+			say = "Normally when you meet someone, you don't just go right into \"what are you doing here,\" right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,42 +643,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "至于你刚才问的演习，这个就比较有趣了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "大洋联邦VS前进阵线，两大阵营的主力舰队几乎于同一时间在同一片海域举行着大规模演习。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "这种场景十分难得一见吧？",
+			actorName = "Bon Homme Richard",
+			say = "But since you're interested, why don't we play a little game and have you guess what I'm doing here~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,25 +660,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "听起来还……真是壮观。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（交代的情报和之前不一样了……前进阵线么，又听到了一个新词。）",
+			actorName = "Kronshtadt",
+			say = "Hmm... How about, you snuck past the filter to have some fun in the sun? How does that sound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,8 +677,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "对了~来拍个照吧。",
+			actorName = "Bon Homme Richard",
+			say = "Woow, you really got it right on the first try!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,76 +694,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "今天参观了这么美丽的景色，又遇到了像你们这样跨阵营远道而来的神秘同伴，让我们把这段时光记录下来吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "欸……好突然，怎么办喀琅施塔得？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "嗯…………我没意见，大家一起拍一张吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "灵敏",
-			say = "好诶，看我摆一个酷酷的表情。基辅也是，笑一个笑一个~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "基辅",
-			say = "我就是这样的性格，不要勉强我。",
+			actorName = "Bon Homme Richard",
+			say = "Bingo, bingo! I snuck away and came to visit this island!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,8 +711,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "那么3——2——1——",
+			actorName = "Bon Homme Richard",
+			say = "But, I can't stay out too long or people will get antsy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,8 +728,42 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "要拍照了哦~",
+			actorName = "Bon Homme Richard",
+			say = "As for this exercise area... It's funny to me that you even know what it is.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Bon Homme Richard",
+			say = "You know what's really odd? That the Federation and the Revolutionary Front – both at odds with each other – are conducting huge exercises here. Same place, same time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Bon Homme Richard",
+			say = "Oh, but I'm sure there are a bunch of other strong ships here! Are you going to participate as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,8 +779,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "嘿嘿嘿，茄子~!",
+			actorName = "Kronshtadt",
+			say = "I'm afraid not. We're just here as tourists.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,13 +791,183 @@ return {
 			}
 		},
 		{
-			actorName = "好人理查德",
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Kronshtadt",
+			say = "(This is new... She mentioned the Federation before, but what is this \"Revolutionary Front\" organization?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Bon Homme Richard",
+			say = "Before I go though, wanna take a group picture with me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Bon Homme Richard",
+			say = "Only natural to want to capture the moment in time you went to a beautiful place and made new friends, right?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Arkhangelsk",
+			say = "(A group picture...? What's the deal with this girl? How do we proceed?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Kronshtadt",
+			say = "I don't mind. Sounds like a good idea to me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Soobrazitelny",
+			say = "(Marvelous! I've been waiting for a chance to show off my genius mechanic look! ...Come on, smile for the camera, Kiev!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Kiev",
+			say = "(Like this? Hope this is fine...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Bon Homme Richard",
+			say = "Don't blink! 3, 2, 1!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Bon Homme Richard",
+			say = "Say \"cheese\"!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Volga",
+			say = "Cheese!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Bon Homme Richard",
 			side = 2,
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "大满足~那我就要回去了，你们有什么计划，继续在这里转一段时间么？",
+			say = "Man, I'm running short on time... What are you girls gonna do? Stay and have another look around?",
 			soundeffect = "event:/ui/kuaimen",
 			flashN = {
 				color = {
@@ -1006,8 +1006,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "嗯，难得来一趟，我们打算多呆一会。",
+			actorName = "Kronshtadt",
+			say = "Most likely. There's still more to see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,8 +1023,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "只呆在岛上的话未免也太无趣了，你不觉得么？",
+			actorName = "Bon Homme Richard",
+			say = "Fair enough. Don't you think it's boring just chilling on this island though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,8 +1040,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "……嗯？",
+			actorName = "Kronshtadt",
+			say = "...Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,8 +1057,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "既然附近正在举行难得一见的壮观演习。如果对力量有兴趣的话————",
+			actorName = "Bon Homme Richard",
+			say = "You're still curious about that exercise area, aren't you? Ehehe. If you want to see for yourself what true \"power\" looks like––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,8 +1074,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "要不要过去看看？",
+			actorName = "Bon Homme Richard",
+			say = "Why don't you head down there yourselves? Hehe~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,8 +1091,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（怎么回事…这个突变的态度……在之前的幻象中没有出现过类似的发展啊！）",
+			actorName = "Kronshtadt",
+			say = "(What the hell is going on?! She's acting like a completely different person than before...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,8 +1108,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "你不会阻止我们吗？",
+			actorName = "Kronshtadt",
+			say = "Are you sure you're fine with that? Your \"Federation\" isn't going to find people like us suspicious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,8 +1125,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "不会哦，我为什么会阻碍想要寻找力量的人呢？",
+			actorName = "Bon Homme Richard",
+			say = "Why? There's nothing wrong with girls who want \"power.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,8 +1142,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "那么就在此别过了，拜拜~",
+			actorName = "Bon Homme Richard",
+			say = "Now it's time for me to go. Peace out~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "在众人的注视下，少女在海面上滑出优雅的曲线，渐渐消失在大家的视野中。",
+			say = "The girls bade farewell to Bon Homme Richard, who went back the way she came and disappeared into the wilderness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是一位奇妙的少女和一段奇妙的对话啊~",
+			say = "What a weird girl. Someone you know, Kronshtadt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1191,7 +1191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是怎么知道她会出现，还知道她的名字的？",
+			say = "There are too many things to keep track of that I've never heard of before. What is this \"Federation,\" and what's the deal with this exercise area?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1209,7 +1209,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（其实我更奇怪的是为什么你们不知道了……）",
+			say = "(But what I'm more curious about... is why none of you seem to know anything.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1226,7 +1226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个嘛……就是我刚才提到的暂时没办法说明的部分。",
+			say = "Sorry, but I've been totally lost since the moment I got here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1243,7 +1243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……了——解——————",
+			say = "Sigh... You really are a true professional, Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1260,7 +1260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那接下来要去哪里？这里风景虽好，我们也不能一直观光下去吧。",
+			say = "So, what do we check out next? Want to head down to the exercise area like that girl said?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1278,7 +1278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那是自然~前面说的规模难得一见的演习，你们有兴趣么？",
+			say = "The way she was talking about power in quotes was giving me the chills.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1296,7 +1296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我有！刚刚她拍照的设备你们注意到了么！",
+			say = "But did you see the smartphone she had on her? It looked insanely advanced!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1324,7 +1324,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "完全的高科技产品，我根本就没见过集成程度如此高显示如此清晰的便携设备！",
+			say = "Mechanical marvels are the only power that this genius mechanic needs! Let's stay away from that exercise area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1341,7 +1341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道那些参加演习的舰队都是什么样子的！",
+			say = "Or so I'd like to say, but if they really do have some ridiculous power, we should at least find out what it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1359,7 +1359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "尖端作战力量的披露……我也有兴趣。",
+			say = "I also want to see it for myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1376,7 +1376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……听起来是两大阵营在对峙的感觉，我们这么直接过去不会有危险吧。",
+			say = "What are those two \"at odds with each other\" organizations she mentioned? I'm not sure they'd appreciate outsiders intruding into their exercise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1394,7 +1394,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没关系，我们这次选一个安全的路线就好。",
+			say = "We'll have to move forward really carefully and avoid stepping on any toes then. Arkhangelsk, Volga, can we count on you two for the reconnaissance again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1411,7 +1411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就这么决定了？",
+			say = "Sure thing. Ready whenever you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1430,7 +1430,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯。事不宜迟，让我们调转航向出发吧！",
+			say = "Let's make good use of our time. Get going, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "意识正在飞翔。",
+			say = "Kronshtadt's mind floated through a pure white void.",
 			side = 2,
 			bgName = "star_level_bg_1104 ",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104 ",
-			say = "明明躺倒在固定的座椅上，却逐渐产生了一种飞行的体验。",
+			say = "Moments ago she lay in an uncomfortable chair inside a dreary room. Now it was as though she'd left her own body and soared through the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104 ",
-			say = "就好像喝了一桶伏特加之后又去冰面上来了几十圈大回转一样。",
+			say = "The experience felt a lot like downing an entire barrel of vodka then getting carted through a desert of snow and ice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104 ",
-			say = "无数或熟悉或陌生的画面在眼前高速移动着，奇怪的噪音如同乌云一般挤压着身边的每一寸空气。",
+			say = "All of a sudden, she was blasted with countless packets of data. Images coalesced into a pixelated mess and overlapping voices became indiscernible from static noise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2 ",
-			say = "就这样持续了不知道多久……或许有几个小时，也或许只有零点几秒。",
+			say = "How long was she exposed to that storm of information? Seconds? Hours? There's no telling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104 ",
-			say = "终于，一切逐渐停止，喀琅施塔得感觉自己的双脚踏在了水面上。",
+			say = "But throughout it all, she clung on to her consciousness, lest the storm engulf her. Soon she could feel her own two feet touch the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "咳…………明明什么都没喝，却出现了这种宛如醉酒般的体验。",
+			say = "Ugghh... Why do I have the mother of all hangovers when I've not had a drop to drink...",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真不知道应该算赚大了还是……",
+			say = "Getting drunk is the fun part, and I've skipped straight to the horrible day after part...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯…………？不对，这种感觉和之前在幻象中经历的一样！",
+			say = "(Wait a second... I've felt this exact thing before!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（究竟是怎么回事…………这种熟悉的感觉。）",
+			say = "(This is no straightforward case of deja vu... I can still remember it all so vividly.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？！喀琅施塔得？！！欸？！！现在是什么情况？！",
+			say = "Kronshtadt?! H-how did this happen?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（这句话感觉也很熟悉……不过大家好像没有类似的记忆。）",
+			say = "(There's Arkhangelsk, saying the exact same thing as before...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（刚才的幻觉具有某种预知性，还是说……算了，这时候还是不要引起同伴们的紧张好了。）",
+			say = "(Either she's just as surprised as last time, or I'm reliving the same dream only I can see...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（按照和之前一样的感觉应对吧。）",
+			say = "(Let's play along for now and see what happens.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……这还真是出乎意料。阿尔汉格尔斯克你怎么会在这里……坐上仪器的不是只有我一个人么？",
+			say = "That's my line! I'm the one who was in the synchronization chair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也想问这个问题诶！我只记得上一秒还在操作台上看着入睡的你，下一秒一阵眩晕过后就来到这里了。",
+			say = "Yeah, it makes no sense... The machine started whirring, and the next thing I know, I'm here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "不仅如此，灵敏、基辅、伏尔加都在这里哦！",
+			say = "And we're not the only ones. Look! Soobrazitelny, Kiev, and Volga all wound up here too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这到底是什么情况……现在我们是在哪里呀？",
+			say = "Mrmhh... Whuh– Where are we....?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从水流的涡旋方向来看，我们依然在北半球。从气候上来看，也许是SA海域？",
+			say = "Based on the climate and ocean currents, it seems we've wound up in the SA Ocean – somewhere near Bermuda.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是喀琅施塔得，这么快就把握住状况了。",
+			say = "What? Did you just figure that out in less than a minute? Because wow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "简简单单啦~现在的状况，我觉得应该和产生集体梦境的原因类似。",
+			say = "Please. Being able to make accurate deductions based on your surroundings is a required skill in my line of work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……通过对于辐射信号的解析刺激操作员的大脑，进而产生特殊的画面，也许这就是同步的原理。",
+			say = "(If Soobrazitelny was right, that means I'm the only dreamer here. That makes my objective finding out why I'm having this particular dream.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "只不过因为设计失误或者样本信号过强的原因，样本产生的特殊辐射经过科研仪器的放大影响了位于苏丽珂号中的所有人。",
+			say = "(I need more info. Who is Richard really? What is that exercise area? How did that black tornado form?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "原来如此…………！其实刚刚我也是这么想的，差点就打自己一下试一试了！",
+			say = "I've figured it out! This is all a dream! A dream where we're in a holiday resort somewhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不过如果是这种原因的话……应该和单纯的梦境不同，会很疼……吧。",
+			say = "Kiev, pinch my cheek as hard as you can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯，会很疼，所以千万别让基辅来捏你的脸哦。",
+			say = "No, don't. Let her do that and it'll be sore for days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "你……你怎么又猜到了！现在的喀琅施塔得格外可怕！",
+			say = "Days?! Never mind then, and thank you Kronshtadt! ...Also, aren't you a little too calm, given the nonsensical circumstances?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要试试么？",
+			say = "I'm fine with calm. I feel safe with a calm leader.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不用了！谢谢！",
+			say = "But how?! Even I lost my cool a minute ago, and I'm the most composed genius mechanic on the planet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（抱歉啦，对我来说都是记忆里经历过一次的事，理论也是拿你的来现学现卖的就是了~）",
+			say = "(It's not so hard when you've been through it once. Let's skip ahead a bit...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "任务书中要求我们在同步之后回收情报，指的应该就是在这片异常空间中进行调查。",
+			say = "Seems we were teleported here somehow. Volga, can you launch some recon planes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "伏尔加，用舰载机在附近侦察一下，应该能看到岛屿的存在吧？",
+			say = "There should be an island off in that direction. See if you can find it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我看一下哦————",
+			say = "Okey-dokey. Give me just one minute...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "嗯………………真的，附近有岛屿诶！",
+			say = "...Wow, you're right! There IS an island there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（那就对了，到这里为止也和之前的幻觉一样。）",
+			say = "(Same place as last time. Safe to say the environment is fixed, then.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "事不宜迟，我们开始探索吧。",
+			say = "Well, since the briefing simply said to gather data, that island is a good place to start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我相信，这片空间中绝对隐藏着一个惊人的秘密等着我们去发现。",
+			say = "My gut tells me it's connected to the meteorite somehow. Let's see if I'm right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·此刻",
+			say = "Northern Parliament Research Base - Nearby Waters",
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "深海中，北方联合的水下舰队正在缓缓前进。",
+			say = "The Northern Parliament's submarine followed the signal into the depths of the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "与以往不同，现在的潜航舰不再是单独出战，而是以满编战斗队列的方式集体出动着。",
+			say = "The time had finally come. With the Commander's aid, the Siren activity in the Polar region was finally curbed enough to allow the search to continue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "前方区域发现塞壬潜艇……判定类型为III型。",
+			say = "Belorussiya, there are some Siren submarines up ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "用潜航舰的鱼雷消灭它们！",
+			say = "Take them out, Tashkent. Don't miss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "这样。目标锁定，咻——咻——咻————",
+			say = "Yeah, yeah. Ready, steady... fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "目标消失，战斗结束。",
+			say = "3... 2... 1... Direct hit confirmed. The target is down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "呼~在数千米的水下准确命中目标，我们的潜航舰也变得十分不得了了啊。",
+			say = "Heh... Good thing we didn't come here defenseless. The data Commander provided for us was invaluable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟已经到第三代了……",
+			say = "This vessel is a more polished product than the Suliko.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果当时她们驾驶的不是苏丽珂号而是现在我们乘坐的这一型……",
+			say = "But, the Suliko still should have enough energy and supplies to keep those girls alive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "此一时彼一时嘛……如果没有验证舰苏丽珂号，我们的潜航舰也不会顺利发展到现在这个程度。",
+			say = "It's hard to say. While there should've been enough supplies to last for a year, no ship should be able to continuously operate in these conditions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "苏丽珂号是潜航舰的先行者，她们是我们的先行者。",
+			say = "At this point, we can only pray for their safety...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "潜航舰正在接近海底，已经能够看到苏丽珂号的船体了……",
+			say = "Look, there it is! Kronshtadt's submarine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……走吧。",
+			say = "...Let's get ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "开始救援行动，让我们接英雄回家！",
+			say = "Prepare to approach the Suliko, Belorussiya! Let us go greet the heroes of the Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

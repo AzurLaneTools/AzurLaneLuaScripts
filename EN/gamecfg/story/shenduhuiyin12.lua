@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104 ",
-			say = "Moments ago she lied in an uncomfortable chair inside a dreary room. Now it was as though she'd left her own body and soared through the sky.",
+			say = "Moments ago she lay in an uncomfortable chair inside a dreary room. Now it was as though she'd left her own body and soared through the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "That's my line! I'm the one who lied down in the synchronization chair!",
+			say = "That's my line! I'm the one who was in the synchronization chair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

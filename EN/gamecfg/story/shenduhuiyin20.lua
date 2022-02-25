@@ -14,9 +14,9 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/ui/alarm",
-			actorName = "通讯器",
+			actorName = "Communicator",
 			hidePaintObj = true,
-			say = "滴——滴滴————",
+			say = "BEEP BEEP––!! BEEP BEEP––!!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我的通讯器，好像正在被人呼叫哎！",
+			say = "What the–? My communicator's going off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼叫的频道和频率都很奇怪………",
+			say = "Who could be... This is odd. I've never seen this frequency or comms channel used before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我什么都没收到，你是不是对你的通讯器进行改装了？",
+			say = "Mine's quiet though. Let me guess, you jailbroke your communicator?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "那不是当然的！自己的通讯器当然要调整到自己顺手的状态才行！",
+			say = "Isn't it obvious? What is a genius mechanic without a custom device? Ahh-ha-ha-haah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（才驶出这点距离，应该还没有驶过大洋联邦的演习区域。）",
+			say = "(What?! But we're well beyond the Federation's exercise area boundary! Who's calling us?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不过我们应该也没有实际进入管制区……只是接近就要发通讯盘问么，未免也太霸道了一些。）",
+			say = "(They'll light us up if we identify as belonging to the Northern Parliament... The best move here is to just ignore the call.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（接通的话，感觉又要变成麻烦的事了……）",
+			say = "(Ugh. Working covertly is so not my style, despite me being a spy...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………无视吧，不要接通。我们改变航向，绕过这片区域。",
+			say = "Ignore it. Close the comms channel and circle around to the other side of the sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "是！",
+			say = "Roger that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家注意，前方发现由数艘量产型组成的舰队正在靠近，无法根据外形判断型号！",
+			say = "Heads up! Mass-produced ships incoming, straight ahead!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "欸，是塞壬的全新量产型么？",
+			say = "Are they Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……相比塞壬，其实更像是我们的风格。",
+			say = "No. They're most similar to Northern Parliament ships, but they don't look right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "不过外观和武器设备与任何已知资料都对不上……",
+			say = "They've got camouflage and profiles unlike any I've seen before. I'm not sure they're on our side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "嚯嚯嚯！我明白了，这些应该就是在海域中进行演习的什么“大洋联邦和前进阵线”的舰队了！",
+			say = "Then they probably aren't! They must belong to either the Federation or the Revolutionary Front!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然是从未见过的型号……我们再离近一点看可以么！",
+			say = "I want to get a closer look at them! Kronshtadt, permission to advance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "不事先通知就硬闯演习海域，换成我们的话会怎么做？",
+			say = "Bad idea. What would you do if a potentially dangerous shipgirl approached you without warning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哇啊……对啊。喀琅施塔得，我们发一个通讯联络过去吧？",
+			say = "Good point! I'll give them a heads-up through my communicator then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "虽然刚刚好像还完全无视了他们的通讯……我们再主动发过去总感觉有点微妙吧。",
+			say = "That said, it does feel pretty strange to contact them now after we ghosted them just earlier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（果然避不开这一步么……不管是否接受对方的呼叫，只要接近演习海域就会出现麻烦事啊。）",
+			say = "(Dammit, so we have to answer someone's call in the end... Is there no way to travel through here without getting into trouble?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "就在众人商量下一步应该如何行动时，远方的舰队好像出现了异常状况。",
+			say = "While the girls debated how to contact the Revolutionary Front, the sector the mass-produced ships came from underwent a drastic transformation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 701100,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "注意，天空和水面都变得不对劲了……",
+			say = "The sky and the sea are... changing...!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "大家看那边。",
+			say = "Look! What is that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "顺着基辅手指的方向看去，原本蔚蓝的天空不知何时已经被乌云笼罩了一半。",
+			say = "Kiev pointed up at the sky, obscured entirely by dark clouds when the weather had been clear just minutes ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "远方原本阵型整齐的舰队也变得一片混乱。",
+			say = "As though the mass-produced ships too were bewildered by the unexpected abnormal weather, they abruptly broke formation and changed targets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那支舰队在开火……但是在对着什么目标？",
+			say = "They're firing their cannons – but not at us! They're shooting into the clouds!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "众人还没有从惊诧中回过神来，新的变化又出现了。",
+			say = "They cycled through their volleys, launching barrage after barrage into something concealed within a black tsunami, growing in size over the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,53 +518,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "先是火光，然后是浓烟与爆炸，紧接着一个黑色的漩涡自海面凭空而起。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 718010,
-			say = "（和之前在幻象中看到的一样……黑色的风暴出现了！）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_xiangting_3",
-			say = "海水在猛烈地翻涌，伴随着怒吼般的巨响，阵阵巨浪正朝着众人的方向袭来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_xiangting_3",
-			say = "但是，一阵黑色的冲击比巨浪更快，仅仅数秒时间便抵达了北方联合众人所在的位置。",
+			say = "Explosions boomed, gunfire flared, and smoke rose – after which a storm began taking shape from the black seas, a chaotic mass clawing at the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "大家退到我的身后去，准备迎接冲击！",
+			say = "(It's happening all over again... There's the black tornado!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,13 +547,24 @@ return {
 			}
 		},
 		{
-			actor = 718010,
+			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
+			say = "The distant air churned and formed a black tornado, kicking up raging streams as it plowed towards the girls at staggering speeds.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "（这次一定要睁大双眼，亲眼见证一下这里发生的事。）",
+			side = 2,
+			bgName = "bg_xiangting_3",
+			say = "Far faster than the streams were the waves generated by the tornado's formation. They would come down on the girls in just moments from now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +582,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（拜托了，让我看清楚……黑色冲击的源头究竟是什么！）",
+			say = "Brace for impact! Destroyers, get behind us bigger ships! Volga, Arkhangelsk, hurry!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 718010,
+			side = 2,
+			bgName = "bg_xiangting_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "(I'm not letting them wipe us out a second time!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_xiangting_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 718010,
+			say = "(I WILL persist, find out who's creating this black tornado, burn their identity into my memory, and learn the truth behind this dream if it's the last thing I do!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "黑色的狂风肆虐，如同匕首一般切割着她的每一寸皮肤。",
+			say = "The relentless black waves whipped Kronshtadt's entire body, each impact stronger than the last, pushing her stamina to its limits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "明明冲击带来的只有刺骨的冷彻，她却有一种由内到外都在经受炙烤的感觉。",
+			say = "Each hit bore down on her like a sub-zero slash and burned like the flame of a blowtorch, wearing away at her rigging, her body, and her spirit bit by bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "喀琅施塔得的意识正在远去，视野中的景色也变得越来越黯淡。",
+			say = "Her consciousness began to slip. The hard truth dawned on her – there was no overcoming the black tornado and the destructive waves it sent forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,8 +675,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "啧……真是痛苦啊………怎么感觉比上次还要痛苦……不过——",
+			actorName = "Kronshtadt",
+			say = "Argh! The pain is unbearable... Even worse than the last time...!",
 			effects = {
 				{
 					active = true,
@@ -699,8 +699,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "喀琅施塔得",
-			say = "我看到你了……产生这一切的源头！",
+			actorName = "Kronshtadt",
+			say = "But... my persistence... paid off! I now know... who's creating the tornado...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在远方，那支不久之前还整齐列队的舰队已经不复存在了。",
+			say = "The mass-produced ships that dotted the horizon had been completely obliterated, leaving only a roaring maelstrom sitting atop a throne of shattered hulls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "取而代之的是一个从残骸之中诞生的黑色风暴。它携卷着海水、火焰与某种黑色的气体，持续散发着冲击。",
+			say = "Water, flames, hulls, and smoke – nothing was spared from its ravenous maw. Its destructive energy poured out endlessly in all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "一瞬间，喀琅施塔得甚至觉得那个风暴似乎是有生命的。",
+			say = "When Kronshtadt turned her eyes to the center of the maelstrom, it was then that she came face-to-face with \"her.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "她仿佛听到了那个黑色漩涡中传来的阵阵笑声，又感觉自己的视线仿佛与风暴的视线重合了。",
+			say = "Though the figure seemed so small in comparison to the swirling chaos, there was nothing weak about her appearance. From the storm seemed to echo familiar laughter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,8 +773,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "喀琅施塔得",
-			say = "明明只是一个风暴而已……还真是神气啊………………",
+			actorName = "Kronshtadt",
+			say = "You... You're the one responsible for this...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			bgName = "bg_deepecho_9",
 			dir = 1,
 			blackBg = true,
-			say = "这是喀琅施塔得再次失去意识之前，回荡在脑海中的最后一个想法。",
+			say = "Kronshtadt etched that thought into her mind just before her consciousness was once again wrenched away from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

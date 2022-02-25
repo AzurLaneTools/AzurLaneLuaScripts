@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "皇家·女王宅邸",
+			say = "Royal Isles - Queen's Palace",
 			side = 2,
 			bgName = "star_level_bg_116",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "萨福克正抱着文件，急匆匆地在走廊中穿梭着。",
+			say = "Suffolk was running through the palace's corridors, a stack of documents in her arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "虽然在贝尔法斯特的叮嘱下，萨福克这次有记得好好看了表，但问题是她根本就没给表上发条。",
+			say = "She had set the alarm to wake herself up earlier, but slept right through it after having slapped the snooze button repeatedly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "等到发现这件事时，她已经完全错过了时间。为了赶路，慌不择路的她只得选择了从来没走过的近路。",
+			say = "Thus, she had no choice but to try to take some shortcuts through some unfamiliar halls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜呜呜……要迟到了！",
+			say = "Ugh... I'm going to make a fool of myself in front of Her Majesty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么跑了这么久都没到啊……明明平常都没有这么远的……！",
+			say = "*pant* *pant* ...Huh? Did I make a wrong turn somewhere? This was supposed to get me there faster...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我不会是迷路了吧？",
+			say = "W-wait, did I get lost?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "萨福克站定在原地。直到这时候，她才发现自己好像已经跑进了宫殿的地下。",
+			say = "She noticed that she was no longer surrounded by the palace's brightly-decorated corridors, but instead had entered a strange place with unnatural-looking walls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "伊丽莎白所喜爱的华丽装潢早已荡然无存，取而代之的则是泛着冷色的白色钢墙。",
+			say = "She had never seen any place like this before, but assumed it had to be somewhere beneath the palace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我居然在陛下的宫殿里迷路了？！",
+			say = "Ugh... Did I somehow end up getting lost in the palace basement?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完了完了……这下肯定要被贝法说教一整年了。",
+			say = "If the Head Maid finds out about this, she's going to give me an earful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,8 +212,8 @@ return {
 			bgName = "star_level_bg_116",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "哟，这里有外人来还真是稀奇。你是女仆队的孩子么？",
+			actorName = "???",
+			say = "Oh my, if it isn't Suffolk. I wasn't expecting guests today~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜噫！",
+			say = "Eep?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……是、是！请问是哪位在说话？不……不要吓我啊……",
+			say = "Wh-who's there?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,8 +273,8 @@ return {
 			bgName = "star_level_bg_116",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "抱歉抱歉~你是不小心迷路进来的？",
+			actorName = "???",
+			say = "There's no need to be alarmed, heehee~ I was just thinking how rare it is to see a member of the Maid Team get lost~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是诶，没想到还有这样的地方……",
+			say = "Miss Neptune! What are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是萨福克，你是……？",
+			say = "Wait, I need to deliver these materials to Her Majesty right away! S-sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +324,8 @@ return {
 			bgName = "star_level_bg_116",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "萨福克啊~嗯~我有听谢菲介绍过。",
+			actorName = "???",
+			say = "I see, I see~ You're on some important business, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,8 +341,8 @@ return {
 			bgName = "star_level_bg_116",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "好像是一位情绪比较飘忽的女仆？",
+			actorName = "???",
+			say = "That being the case, allow me to show you the way~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这算什么评价诶！工作我还是会认真做的哦！",
+			say = "Really? Thank you so much, Miss Neptune! You're a lifesaver!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的……看你这身打扮，原来是女仆队的新人啊。",
+			say = "Phew... Maybe I can avoid sitting through the Head Maid's lectures at this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨福克，你在这里做什么？",
+			say = "I wouldn't be so sure about that. You ARE late, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢菲？！呼……得救了。",
+			say = "Sheffy?! Bleh, I was afraid this was going to happen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你知道这里是哪里么？",
+			say = "More importantly, did you come looking for me? How'd you know where I'd be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我只顾着着急给陛下送情报，一不留神就在这里迷路了……",
+			say = "I was trying to get these materials over to Her Majesty, but ended up getting lost and wandering my way here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……看来由于转移过来过于仓促，结构设计上还有所疏忽啊。",
+			say = "It happens. This place was relocated in a hurry after all, so the passages might not be reflected in our existing maps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？",
+			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用在意，这里只是陛下为了装古董修的新地下室而已……我送你出去吧。",
+			say = "Don't worry about it. We planned to turn this place into a storage place for some of Her Majesty's toys. Let's head somewhere less clammy first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帮大忙了，谢菲！",
+			say = "Thanks a ton, Sheffy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "举手之劳而已。对了……",
+			say = "It's no big deal. Oh, and one more thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下希望这里在完工之前能够暂时保密，所以在这里发生的事出去之后不要跟任何人说哦？",
+			say = "Her Majesty said that this area is to be kept secret. Speak not a single word of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "了解，了解！快加速加速加速———真要来不及了，快把我送出去吧！",
+			say = "Got it! Anyway, let's get those documents to Her Majesty before she gets angry! Let's pick up the pace, Sheffy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

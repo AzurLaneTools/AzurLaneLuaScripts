@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "一片迷雾之中，不知道为何只有前方少女的轮廊是极其清晰的。",
+			say = "The outline of Bon Homme Richard was clearly visible even through the fog.",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "她静静漂浮在水面之上微笑着，没有摆出攻击架势，也没有散发出任何敌意。",
+			say = "Though she was equipped with her rigging, she showed no signs of hostility, her demeanor disarming as always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "但是不知为何，这样的微笑确令人毛骨悚然。",
+			say = "However, Kronshtadt viscerally felt something terrifying hidden beneath that smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "更重要的是————",
+			say = "The reason was that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "红色瞳孔、白色短发…………和之前的形象不一样了。",
+			say = "You're not the Richard I know. She didn't look like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "…………你究竟是谁？",
+			say = "Answer me: Who are you really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "咦？大姐姐好奇怪啊，你刚刚不是一下子就叫出我的名字了么。",
+			say = "You're a strange one, lady. You just called my name, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "我是好人理查德哦。",
+			say = "Bon Homme Richard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对……好人理查德不是蓝色瞳孔白色长发么？！",
+			say = "What...?! But how...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "欸……？",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "喀琅施塔得的眼中，面前的少女的形象突然开始了飞速变换。一瞬间是白发蓝瞳，下一个瞬间又变成了短发红瞳……",
+			say = "In Kronshtadt's head, the image of the girl standing before her shifted rapidly between the one she knew before, and the current one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "灵敏、基辅、伏尔加、阿尔汉格尔斯克！你们能看清楚她的样子么？",
+			say = "Arkhangelsk! Describe how this girl looks to you, right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "到底是蓝瞳长发还是红瞳短发？！",
+			say = "Her hair color, eye color, and the length of her hair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……看得很清楚哦，是蓝色瞳孔白色长发。",
+			say = "White, blue, and semi-long, respectively!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "没错~和基辅的头发一样柔顺一样长！",
+			say = "I'm seeing the same thing! Why, are you seeing something different?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "怎么会发生这种事……总不会是我劳累过度眼花了吧……",
+			say = "What's going on? Why am I the only person seeing something different?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "呵……怎么可能。",
+			say = "But this world is my... My...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "喂，好人理查德。你究竟用了什么障眼法，究竟哪一个才是真实的你？",
+			say = "Answer me! Who the hell are you? And how are you messing with my mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "你见到的就是真实的我哦。",
+			say = "You're looking at the real Bon Homme Richard, lady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "大姐姐，在你眼里，我是什么样子？",
+			say = "Actually... Heheheh, I'm more curious about how I appear to you through your eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "好人理查德依然只是微笑的凝视着，可喀琅施塔得却感觉逐渐感觉到了一股焦虑。",
+			say = "Richard continued to chuckle bemusedly, a sense of fear awakening within Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "她扶额后退了一步，紧接着，另一只手仿佛摸到了放在外套内侧夹层之中的某样东西。",
+			say = "She wracked her brain, sifting through her memories... Following the trails left behind through the dreams to anything pertaining to the person in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "照片……？对了，只要对比照片就能————",
+			say = "Right... That photo! We took a photo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "但是，我们这次来……并……没有拍照啊…………",
+			say = "But... we didn't meet this time, so there wouldn't be a photo...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "嗯？大姐姐不把照片拿出来么？",
+			say = "Oh, are you talking about that photo? I have it right here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,8 +441,8 @@ return {
 			bgName = "bg_deepecho_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "…………………………",
+			actorName = "Kronshtadt",
+			say = "What...?",
 			effects = {
 				{
 					active = false,
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_8",
-			say = "喀琅施塔得低头看着那张合影。",
+			say = "Kronshtadt looked at the photo Richard held in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_8",
-			say = "被微笑的大家围在中间的，是一位短发红瞳的少女，她咧着嘴露出狰狞的笑容，让人不寒而栗。",
+			say = "Despite the familiar, friendly setting of the photo, the girl's inhuman red eyes gazed back at her with a gleeful emptiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,8 +492,8 @@ return {
 			bgName = "bg_deepecho_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "与记忆中不同……为什么会这样…………",
+			actorName = "Kronshtadt",
+			say = "This isn't what happened before... I'm sure of it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_8",
-			say = "她无法相信气质完全不同的两位少女其实是同一个人，更无法理解为何北方联合的同伴们只看到了少女美好的一面。",
+			say = "She tried to stay calm, sorting through all the possibilities in her head. For someone so used to controlling all sorts of information, the inexplicable and illogical drove the seeds of fear deeper into her heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "大姐姐你在想什么呢？",
+			say = "Are you okay, lady? You don't look so good~",
 			effects = {
 				{
 					active = true,
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（不妙，动摇的太过明显了，就交涉场合来说可是大忌啊……）",
+			say = "(My comrades aren't noticing anything strange about Richard. I need to compose myself and get information out of her...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳……刚刚你说前方的区域禁止入内是为什么啊？",
+			say = "I'm fine. Can you tell me about the restricted area up ahead?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "因为前面正在进行演习哦。",
+			say = "Hm? Are you talking about this exercise area?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "正在进行演习……？可是我们这次明明是向着反方向走的！",
+			say = "Exercise area? I thought we were heading in the opposite direction!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "没有意义吧？在这里，最值得一看的不就是精彩的演习对峙现场么。",
+			say = "Ahaha, what are you talking about? This entire place is the exercise area! You wouldn't want to miss our exciting wargame, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "既然是最精彩的部分，走到哪里都不可能错过的。",
+			say = "Well, not that you'd be able to anyway~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "你们看，就在这里，精彩马上就要上演了哦。",
+			say = "Look, it's about to start right now! Hehehe... Ahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "少女依然在微笑着，不过随着语速的加快，喀琅施塔得听出了少女逐渐按捺不住的疯狂。",
+			say = "Suddenly, Richard's ordinarily amicable voice turned grating and maniacal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "完全不知道你在说什么……！",
+			say = "I still don't know who you are or what you're after...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们现在要继续前进了，如果不让我们通行，我们将会开火。",
+			say = "But if you intend to block our way, then we will show you no mercy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "现在还不可以哦，再等一会，再等一会就好了~",
+			say = "Don't be so trigger-happy, lady. Hold it in a bit longer – there's plenty of fun to be had~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "少女仿佛没有听到警告一般，依然静静地停留在原地，面带微笑的看着北方联合舰队的方向。",
+			say = "Though Kronshtadt already stood poised to start shooting, Richard continued to ramble mirthfully, as relaxed and carefree as ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（一双眼睛中包含几只眼睛呢……呵，明明只有两只，却感觉被千万只眼睛死死盯住了一样。）",
+			say = "(What's with this girl...? I feel as if I'm being watched... by thousands of people, not just this one girl...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（现在这算是什么感觉，被盯住的猎物么……？我和同伴们会变成猎物么。）",
+			say = "(Whatever she is, she's dangerous! And at this rate, we're going to become her prey!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不行不行不行…………）",
+			say = "(We need to get out of here, fast... But how? Think, think!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "必须不惜一切代价离开这里！必须消灭这个眼前的障碍才行！不然一切就晚了————！",
+			say = "(That's it, that's the only answer. We have to defeat her. We have to defeat her and get out of here as quickly as possible!!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……？喀琅施塔得，你刚刚说什么？",
+			say = "Huh? Kronshtadt, what are you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "开火！全员立刻向前方开火！！",
+			say = "Everyone, fire! Unload everything you have into that girl!",
 			effects = {
 				{
 					active = true,
@@ -853,7 +853,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
@@ -916,7 +916,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "命令还没有下达完毕，喀琅施塔得就首先开火了。",
+			say = "Kronstadt's main gun roared to life before she even finished her command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "虽然略有迟疑，不过北方联合众人还是遵从命令展开了齐射。",
+			say = "Following her lead, the other members of her fleet started to unload into Richard as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -944,24 +944,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "炮火激起的水花如雨点落下，可是当烟雾散尽，少女依然站在那里，毫发无损。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900322,
-			side = 2,
-			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#696969",
-			say = "时间到————",
+			say = "...But, their attacks seemed to pass right through her body, incapable of leaving even a dent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +961,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "哈……哈哈…………哈哈哈哈………………哈哈哈哈哈哈哈！",
+			say = "Time's up~♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900322,
+			side = 2,
+			bgName = "bg_xiangting_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#696969",
+			say = "Heheh... Hehehe... Ahahaha! Ahhahahahahahahaha!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -1000,7 +1000,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "开始了，一切又要开始了！",
+			say = "It's starting! Yes, yeeees! It's starting again! Ahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在少女的狂笑声中，笼罩在周围的浓雾渐渐散开，众人重新见到了天空与水面。",
+			say = "The girl's cacophonous laughter seemed to split through the fog covering the area in the blink of an eye.",
 			effects = {
 				{
 					active = false,
@@ -1034,7 +1034,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "天空已经彻底被阴云笼罩，周围还能看到一些不知名的舰队。",
+			say = "Under a sky darkened by black clouds, countless mass-produced ships stood lined up, preparing to face each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1052,7 +1052,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "怎么会……我们，正位于对峙的中心？",
+			say = "What? Where'd all those ships come from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,7 +1069,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "嗯~这里可是绝佳的观赏位置哦~",
+			say = "C'mon, lady, let's have lots and lots of fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1083,7 +1083,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "少女张开双臂后退几步，黑色的雾气夹杂着暗红色的闪电在开始围绕着她快速旋转起来。",
+			say = "The girl spread her arms wide, pitch-black water coalescing around her in a roaring vortex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1097,7 +1097,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "很快，黑色的风暴便将少女包裹其中。",
+			say = "Peals of thunder and flashes of lightning greet her dark storm, the same black maelstrom re-forming around her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1111,7 +1111,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "这一次，喀琅施塔得终于看清了。风暴的源头，正是名为好人理查德少女自己。",
+			say = "Kronshtadt fought to suppress the fear tickling her throat back into her heart, clenching her fists tightly to muster what power she had.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "海面倾斜，巨大的漩涡在黑色风暴的底端形成，随之而来的是黑色的冲击。",
+			say = "The swirling mass in front of her could make the very ocean answer its sinister call. She steeled herself for the waves that would come to smash her consciousness to bits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1143,7 +1143,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "大家，快躲在我的身后！",
+			say = "Everyone, get behind–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "冲级迎面撞上喀琅施塔得的身体，但这一次的感觉与之前完全不同——应该说，根本没有什么特别的感觉。",
+			say = "The force of the impact engulfed Kronshtadt entirely. But instead of being devoured by it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1175,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "没有……痛苦？",
+			say = "\"It... doesn't hurt...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "呵呵……该不会是三番两次受到冲击，身体产生免疫了吧。",
+			say = "\"I see. This would be the third time... Maybe my body's gotten used to it...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1210,7 +1210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "还是说————因为我变强了呢。",
+			say = "\"Or does this mean... I've grown stronger?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1228,7 +1228,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "………………这种充盈着力量的感觉，还真不错。",
+			say = "\"This power flowing through me... It feels surprisingly... good.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1246,7 +1246,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "好想立刻就向敌人开火啊。",
+			say = "\"Ah... Imagine what I could do to my enemies with this power... How I'd love to sink them, annihilate them...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1264,7 +1264,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "消灭敌人……完成任务。",
+			say = "\"I am a weapon. I want to destroy everything... Missions, duties...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1281,7 +1281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "————不过敌人在哪儿呢？",
+			say = "\"...My enemies... Where are they?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1298,7 +1298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳……咳咳咳！冲击好像结束了，大家还好么……！",
+			say = "*cough* *cough*... Everyone, are you all right?!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -1332,7 +1332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "勉强没什么问题……这个冲击真疼啊。",
+			say = "Urgh... Somehow, yeah... What in the world was that ridiculous tsunami? My body's hurting all over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1350,7 +1350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "但是跟喀琅施塔得说的不一样……梦境没有结束！冲级之后梦境依然再继续哦！",
+			say = "Wait, it's not over yet! We haven't been pulled back to the submarine yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1368,7 +1368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "这种时候再继续下去总感觉会出现更糟糕的事……",
+			say = "I'm getting a bad feeling about this... We need to get out of here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1385,7 +1385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同感！得首先离开这里才行！",
+			say = "Seconded. My rigging's gonna come apart if I get by something like that again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1403,7 +1403,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "喀琅施塔得，你还好么，喀——————",
+			say = "Kronshtadt, are you okay? Kronsh–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1420,7 +1420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……………………目标发现。",
+			say = "\"Targets... sighted.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1438,7 +1438,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "——————对啊，四周的这些不就是敌人么？",
+			say = "\"...Yes, those are my enemies. Look, over there too.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1452,7 +1452,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得缓缓转过身，背对着黑色风暴，将炮口对准了北方联合舰队的方向。",
+			say = "Kronshtadt silently turned around and pointed the muzzle of her gun at her \"enemies.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1470,7 +1470,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "敌人瞄准……接下来只要扣动扳机……",
+			say = "\"Preparing... to engage the enemies...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1488,7 +1488,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "（？！不对！我这是在做什么，那些不是敌人，是同伴啊？！）",
+			say = "(No... What am I doing...?! Those are my friends!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1502,7 +1502,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "开火开火开火开火，心中的声音不停焦躁地说着什么，破坏的欲望正在变得无可抑制。",
+			say = "Her main gun discharged. Then her secondary guns. Every tool of violence on her rigging vomited fire and brimstone, an uncontrollable lust for destruction pouring out without end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1516,7 +1516,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得似乎什么都听不清，什么都感受不到，也什么都思考不了了。",
+			say = "Something in front of her collapsed to the ground. That something desperately clutched at the hem of her clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1530,7 +1530,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "紧接着，又是一轮更猛烈的冲击，将试图抓向喀琅施塔得衣角的伏尔加彻底击倒在水面上。",
+			say = "But she didn't stop shooting. She could not stop shooting. She could see nothing, hear nothing, feel nothing, think nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1549,7 +1549,7 @@ return {
 			actor = 718010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "…………………………快逃。",
+			say = "Run... Run... away...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1564,7 +1564,7 @@ return {
 			bgName = "bg_deepecho_9",
 			dir = 1,
 			blackBg = true,
-			say = "这似乎是喀琅施塔得失去意识前，凭自己的意识说出的最后一句话。",
+			say = "Kronshtadt could only squeeze a few words out with the last bit of her strength before her consciousness was once again swallowed by darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

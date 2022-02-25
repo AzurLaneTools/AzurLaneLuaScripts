@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "The distant air churned and formed a black hurricane, kicking up raging streams as it plowed towards the girls at staggering speeds.",
+			say = "The distant air churned and formed a black tornado, kicking up raging streams as it plowed towards the girls at staggering speeds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "A hurricane too?! And those black waves...!",
+			say = "A tornado too?! And those black waves...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "The hurricane's rapid formation sent a ripple across the sea, growing into a towering tsunami. Only moments later, they came crashing down on the girls.",
+			say = "The tornado's rapid formation sent a ripple across the sea, growing into a towering tsunami. Only moments later, they came crashing down on the girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

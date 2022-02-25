@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·极地要塞近海",
+			say = "Near the Research Base",
 			side = 2,
 			bgName = "bg_deepecho_7",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "数艘潜航舰正在冰层上行驶着，将厚重的冰层破为一条条航道。",
+			say = "Several mass-produced icebreakers worked tirelessly to push through the thick ice, a small search fleet behind them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,40 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "紧跟在后面的是一支规模不大不小的舰队。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_deepecho_7",
-			actor = 705040,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "这片海域……跟之前极地要塞的坐标差的也太远了吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 705040,
-			side = 2,
-			bgName = "bg_deepecho_7",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "多亏了指挥官，我们才能压制这一片海域的塞壬。",
+			say = "The fleet was lead by Sovetskaya Belorussiya, sister ship to Sovetsky Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +66,40 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……真的会藏在这种地方么？",
+			say = "We're approaching the coordinates of the distress signal sent from the research base.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 705040,
+			side = 2,
+			bgName = "bg_deepecho_7",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Had it not been for the heroism of Rossiya and the Commander, we wouldn't even have access to these waters.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_deepecho_7",
+			actor = 705040,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "But, where could a submarine of that size be hiding...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回收到的情报就是显示最后的位置是这里……不会错。",
+			say = "I've been looking around as well, but this is in fact where the signal came from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "希望如此……冰层越来越厚了。",
+			say = "I really hope it's not coming from the bottom of the sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "一股肃穆的气氛笼罩在舰队之间，大家只是偶尔会零星交谈几句，其他时间都在睁大眼睛在一片雪白中搜索着。",
+			say = "Ice choked the horizon, spanning as far as the eye could see. As time passed, the participants in the search operation found it harder and harder even to make small talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "疑似目标……发现。",
+			say = "I've found the source of the signal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "塔什干似乎终于从一片雪白中发现了什么。",
+			say = "The signal led to the research base, an imposing structure rebuilt from a Siren facility. It was here that the \"rescue signal\" – and the location of the meteorite, would be traced once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………这个，就像一座巨大的冰雪要塞一样。",
+			say = "So this is the research base that Soyuz had been telling me about. It looks even more impressive than I had imagined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_deepecho_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比事前听说的规模要大太多了吧！",
+			say = "I was convinced that she was exaggerating when describing it. Turns out, she had not even done it justice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………没错，就是这里没错。",
+			say = "There's nothing left in the research base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么多年过去，已经彻底被冰雪覆盖了啊…………",
+			say = "This place has been completely covered in snow and ice through the passage of time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同志们，欢迎来到我们的极地要塞。",
+			say = "I'm sorry... Kronshtadt, Arkhangelsk, Soobrazitelny, Kiev, and Volga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来……",
+			say = "I couldn't do anything for you back then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "让我们开始任务吧。",
+			say = "But please hang in there... We're coming to bring you home...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

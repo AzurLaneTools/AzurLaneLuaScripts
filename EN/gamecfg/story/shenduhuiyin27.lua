@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "炫目的白光之后，出现在喀琅施塔得面前的是一片燃烧的海面。",
+			say = "An alien scenery spread out before Kronshtadt's eyes.",
 			side = 2,
 			bgName = "bg_deepecho_9",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "这次还真是……一上来就是剧目的高潮啊。",
+			say = "...So this is the climax of the show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "很明显，这里是演习海域，而冲击已经发生了。",
+			say = "Flames danced atop water. Twisted metallic headstones adorned the surface. Unworldly weather raged above the exercise area from before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "整片海域像是经历了超强风暴的洗礼，只剩下一片狼藉。",
+			say = "An abandoned sector of the sea, ravaged by an unfathomable storm that consumed everything in its path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "整齐的队列早已荡然无存，留下的只有燃烧的残骸，或者即将变成残骸的未知军舰。",
+			say = "The grand fleet that had once dotted the horizon was now nothing more than a graveyard, a solemn witness to the calamity that had passed over it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "海面、空气、甚至天空都在燃烧，宛如末日般的景象。",
+			say = "Flames, smoke, and blackened waters. Even the very air choked the senses in this apocalyptic hellscape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在这片死亡之海中，只有位于毁灭中心的那个黑色风暴显得“生机勃勃”。",
+			say = "Only one thing continued to dance in the gala of death and destruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "就好像活物一样……",
+			say = "It seems... alive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不对，也许就是活物吧…………",
+			say = "No, it always was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得迎着狂风与火焰，顺着模糊的视线向着黑色风暴一点一点的接近着。",
+			say = "Flames and storms raging all around her, Kronshtadt took aim with her main guns as she approached the black tornado.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "终于，喀琅施塔得来到了黑色风暴的面前。",
+			say = "Kronshtadt knew she had to confront it. No matter how many tries it took or how much time passed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "只要战胜了你，任务就能结束了吧……",
+			say = "If I defeat you, then the operation... My mission... can finally end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得正面凝视着风暴，风暴似乎也在凝视着她。",
+			say = "She turned her eyes towards the figure at the heart of the maelstrom – Bon Homme Richard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "不知为何，喀琅施塔得脑海中出现了那个神秘少女的脸庞，只不过在那张脸上，再也找不到一丝可爱的气息。",
+			say = "Kronshtadt could not see the girl. But she could feel her presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "少女表情阴暗冰冷，嘴角带着嘲讽意味的笑意。",
+			say = "As if answering her, a laughter began to ring out in her head, both innocent and maniacal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,8 +247,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "你想击败我？为什么？",
+			actorName = "???",
+			say = "Defeat me? Why would you want to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "击败你，我才能完成任务……",
+			say = "I must complete my mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +282,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "完成任务，为什么？",
+			actorName = "???",
+			say = "Why? Is that mission really that important to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "完成任务之后……才能回到祖国，回到同伴身旁。",
+			say = "I will defeat you, put an end to this dream, and return to the Northern Parliament with my comrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,8 +317,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "祖国，同伴？它们不正是抛弃你的罪魁祸首么？",
+			actorName = "???",
+			say = "Comrades? No, no, Kronshtadt. Don't you remember how you hunted them down yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,8 +334,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "祖国，只有在它需要你的时候才是你的祖国。",
+			actorName = "???",
+			say = "There is no camaraderie in this world. Only temporary alliances out of convenience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,8 +351,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "同伴，只有在它需要你的时候才是同伴。",
+			actorName = "???",
+			say = "Your Northern Parliament is no different. They only support you when they need something from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,8 +368,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "如果它们不需要你了，那它们就什么也不是了。",
+			actorName = "???",
+			say = "Friendship. Factions. Loyalty. You don't need those things. You don't need any of those things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "一片歪理……",
+			say = "Shut your crazed, lying mouth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "只要我能战胜你……不论是祖国还是同伴，都会回到我的身边……",
+			say = "I will defeat you, solve the mystery of this meteorite, and bring my comrades back...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,8 +420,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "哦？你是这么认为的么。",
+			actorName = "???",
+			say = "Hahah! Is that so? I see, I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,8 +437,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "战胜我，只能意味着你的力量十分强大。",
+			actorName = "???",
+			say = "Even if you manage to defeat me, all that proves is that you have great power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,8 +454,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "强大的力量，将会引来恐惧。",
+			actorName = "???",
+			say = "But power is fearsome. That applies to countries, to factions, to organizations, and to people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,8 +471,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "它们希望你拥有力量，却又恐惧你拥有力量。",
+			actorName = "???",
+			say = "People seek power for themselves, but when they get it, all that power does is breed fear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,8 +488,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "不是很矛盾么？",
+			actorName = "???",
+			say = "Isn't that ironic? Isn't that hilarious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,8 +505,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "相信我，当你战胜了我之后，迎接你的不会是凯旋，没有鲜花更没有掌声。",
+			actorName = "???",
+			say = "Face it, Kronshtadt. Even if you defeat me, no glory awaits you. Your \"comrades\" won't ever come back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,8 +522,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "迎接你的只有毁灭与死亡。",
+			actorName = "???",
+			say = "You are all alone. Forlorn. Shunned. Denounced. Destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "胡说……全是臆断，你不了解我的祖国与同伴。",
+			say = "No, you're wrong! You know nothing about my comrades or the Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,8 +557,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "不，是你不了解。",
+			actorName = "???",
+			say = "You are the one who knows nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,8 +574,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "一切都是谎言，一切都是利用。",
+			actorName = "???",
+			say = "Everything is a lie, a convenient excuse to use you... to use the KAN-SEN.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,8 +591,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "一切都是虚情假意……",
+			actorName = "???",
+			say = "Yes... Kindness, support, respect. It's all a lie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,8 +608,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "它们现在尊敬你，只是因为能够控制你。",
+			actorName = "???",
+			say = "The glories afforded to you are cheap tokens to buy your loyalty, good for nothing but manipulating you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,8 +625,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "一旦它们发现无法继续控制你了————",
+			actorName = "???",
+			say = "The moment they realize they are unable to control you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,8 +642,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "就会立刻调转枪口，毁灭你。",
+			actorName = "???",
+			say = "Is the moment they will come for you to destroy you. After all, what is an unusable weapon but a heap of scrap metal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,8 +659,8 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "如果不信的话……我就在这里，就在你的面前。",
+			actorName = "???",
+			say = "If you still won't admit it, then show me that power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,13 +672,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#696969",
-			say = "来战胜我，来毁灭我吧——————————",
+			say = "Defeat me! Destroy me! ERASE MY EXISTENCE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "白鹰·NY司令部",
+			say = "Eagle Union - NY City",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "在指挥部的会议结束后，萨拉托加将自己反锁在了一个空会议室中。",
+			say = "After receiving the Naval HQ's response regarding the \"Reenactment,\" Saratoga locked herself in a conference room, thinking hard about the next step.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "一个小时……两个小时…………三个小时过去了，萨拉托加依然在沉思。",
+			say = "The risk of communications between factions breaking down. The possibility of a Siren counterattack. The Commander's response...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,40 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "在时间即将来到第四个小时的时候，萨拉托加似乎终于下定了决心。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_guild_blue",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "……看来没有更好的办法了么。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "真是厉害的一招……照这么下去就真的要按照她们的剧本走了。",
+			say = "It would not be until several hours later when Saratoga finally decided to make her move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +80,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除非…………",
+			say = "This probably isn't the brightest idea, but I don't see any other way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +96,40 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然感觉现阶段还有些不成熟……",
+			say = "If things are left to continue down this path, we're all going to be in danger, including the Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_guild_blue",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = ".........",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107030,
+			side = 2,
+			bgName = "bg_guild_blue",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "This has got to be the only way! I'm sure of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……………至少不会让局面变得更糟糕！",
+			say = "At least, things can't get any weirder than they already are right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,24 +160,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "萨拉托加拿出了一个看起来就是经过层层安全验证的加密通讯设备。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_guild_blue",
-			actor = 900284,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "线路确认完毕，周边环境确认完毕。",
+			say = "Saratoga took out a communicator used only for top-security protocols, and started to connect to a certain channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +177,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "权限验证中————————————",
+			say = "Communication line confirmed. Checking integrity of intel security... Confirmed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +194,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——CV-3——萨拉托加——权限认证级别——II——",
+			say = "Checking authorization of the correspondent–––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +211,24 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "权限验证完毕。",
+			say = "Identity confirmed as CV-3 Saratoga, Eagle Union.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_guild_blue",
+			actor = 900284,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Authorization confirmed. Please state your query.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好。立刻帮我接通在「星海」之中的阿拉斯加。",
+			say = "Please connect me to Alaska in the \"Sea of Stars.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "——我想，是时候让指挥官了解一下我们的“彩虹计划”了。",
+			say = "It's about time we show the Commander some secrets of our own... Hehe~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

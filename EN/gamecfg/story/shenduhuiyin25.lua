@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
+			say = "FATAL ERROR.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "「███解除：89.9％」",
+			say = "██████ PROGRESS: 89.9%",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "喀琅施塔得睁开双眼，这里是苏丽珂号的科研舱。",
+			say = "Kronshtadt opened her eyes and scanned her surroundings. She was back in the Suliko's synchronization chamber.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -69,11 +69,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我又回来了啊……",
+			say = "We just... barely made it out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "眼前依然是熟悉的场景，不过似乎有哪里不太一样了。",
+			say = "She rose to a sitting position and combed her hair in order with her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,27 +99,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_10",
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "阿尔汉格尔斯克？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "伏尔加？",
+			say = "...Arkhangelsk? Where are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +115,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "基辅？",
+			say = "Volga? Hello?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,39 +131,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "灵敏？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "无人回应。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "在一片昏暗之中，只能听到设备运行发出的低沉噪音。",
+			say = "Kiev? Kiiieeev?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +147,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "呵，怎么一个人都没有……都去哪儿了？",
+			say = "Even you, Soobrazitelny...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +165,51 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "苏丽珂号·控制室",
+			say = "Her friends were nowhere to be seen.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "Strings of letters passed by on the screen in front of her while the faint whirring of a computer fan continued in the background.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Kronshtadt",
+			bgName = "bg_deepecho_10",
+			nameColor = "#ffa500",
+			dir = 1,
+			say = "I'm alone? Where did everyone go?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "Suliko Interior - Bridge",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -238,11 +238,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "控制室里也没有人……潜航舰正在自动驾驶。",
+			say = "There's no one here either... And it looks like the sub is set to autopilot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,11 +254,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "航行一切正常但是…………无法切换为手动模式。",
+			say = "She doesn't seem to be malfunctioning, at least. But I can't turn the autopilot off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,11 +270,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "通讯装置也…………呵，完全无法启动。",
+			say = "I'll try my communicator... Sigh, no response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "在所有试图与外界取得联系的手段均以失败告终后，喀琅施塔得返回了科研舱。",
+			say = "After searching every nook and cranny of the Suliko, Kronshtadt dragged her weary body back to where she started.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -317,11 +317,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这还真是个绝妙的处境……",
+			say = "Ugh... Headache. Plus now I'm getting dizzy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,11 +333,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "所有的同伴都跑了，只留下了我一个人。",
+			say = "I'm the only one left. But I can't possibly pilot and maintain a submarine all by myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,11 +349,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这次潜航任务恐怕也被委员会放弃了吧……",
+			say = "We... I have failed. The mission is a failure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "只留下我一个人，孤零零的在这深海之中。",
+			say = "Seems my ultimate fate is to be written off as missing in action, along with the Suliko.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,11 +381,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哈哈……真是悲惨啊。",
+			say = "...What a miserable climax to my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,11 +397,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "被委员会抛弃，被同伴抛弃，在深海的铁棺材里长眠就是我喀琅施塔得最后得到的结局么？",
+			say = "Stranded at the bottom of the ocean, soon to be forgotten by everyone... And I deserve it for betraying my comrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "屏幕上的一行行代码不断刷新着，同步程序再一次启动了。",
+			say = "She turned her gaze to the data on the screen. Ordinarily she'd feel like trying to decode it, but now, that felt meaningless to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,41 +427,25 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_10",
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "………………无所谓了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "画面定格在最终的确认界面，喀琅施塔得的手悬停在按钮上方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不论如何也要完成任务……",
+			say = "...No, it can't end like this...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "She remembered the glimpses she caught of Arkhangelsk before being sent into the dream, and the final step she did to initiate the synchronization process.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,11 +457,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算只有我一个人……",
+			say = "It's not too late. I'll finish this mission even I have to do it by myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,11 +473,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算无法返航…………",
+			say = "I refuse to be forgotten, to perish as a traitor...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,11 +489,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "Kronshtadt",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算被世人遗忘………………",
+			say = "The only thing worse than dying in that dream...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Kronshtadt",
+			bgName = "bg_deepecho_10",
+			nameColor = "#ffa500",
+			dir = 1,
+			say = "Is to do at the bottom of this abyss all alone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

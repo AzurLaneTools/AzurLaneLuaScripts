@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_4",
-			say = "Kronshtadt lied down in a chair resembling a dental engine, and Arkhangelsk took a seat next to her.",
+			say = "Kronshtadt lay down in a chair resembling a dental engine, and Arkhangelsk took a seat next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
