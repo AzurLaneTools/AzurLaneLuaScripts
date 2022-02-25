@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "わたしにもわからない…クロンシュタットに聞いてみよう！~",
+			say = "わたしにもわからない…クロンシュタットに聞いてみよう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "もしまだあの夢を見続けていたらよくないわ…",
+			say = "もしまだあの夢を見続けていたらよくない…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "セイレーンたちがまたこちらを巡回し始めたわ",
+			say = "セイレーンたちがまたこちらを巡回し始めた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一度調査基地に戻りましょう？賭けになりますけど仲間をこのままにするわけにはいきませんわ",
+			say = "一度調査基地に戻りましょう？賭けになりますけど仲間をこのままにするわけにはいきません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

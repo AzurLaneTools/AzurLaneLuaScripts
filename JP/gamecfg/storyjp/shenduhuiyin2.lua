@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "景色？何も見えませんよ……？~",
+			say = "景色？何も見えませんよ……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

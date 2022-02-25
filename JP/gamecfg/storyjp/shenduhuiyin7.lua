@@ -290,7 +290,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
+			actorName = "ソオブラジーテリヌイ",
 			say = "オーロラだ！珍しいね……",
 			typewriter = {
 				speed = 0.05,
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
+			actorName = "キエフ",
 			say = "珍しいね……",
 			typewriter = {
 				speed = 0.05,
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
+			actorName = "ソオブラジーテリヌイ",
 			say = "と、ここで天才メカニックからキエフに質問だ！オーロラはどこから来ているか、知っているか？",
 			typewriter = {
 				speed = 0.05,
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
+			actorName = "ソオブラジーテリヌイ",
 			say = "もちろん、この天才メカニックであるわたしは知らないぞ！はーはっはっはー！",
 			typewriter = {
 				speed = 0.05,
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
+			actorName = "キエフ",
 			say = "そう。ソオブラジーテリヌイは知らないんだ",
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
+			actorName = "ソオブラジーテリヌイ",
 			say = "まあこのわたしの専門分野はあくまでメカだからな。メカ以外のことは知らなくても当然じゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "太陽表面で起きる太陽風でプラズマが地球の磁力に引きつけられ、大気の粒子を励起させることで起きる発光現象という説がある――これでいい？",
+			actorName = "キエフ",
+			say = "太陽表面で起きる太陽風でプラズマが星の磁力に引きつけられ、大気の粒子を励起させることで起きる発光現象という説がある――これでいい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

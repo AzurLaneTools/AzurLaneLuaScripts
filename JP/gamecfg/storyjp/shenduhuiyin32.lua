@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_116",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "ネプチューン",
 			say = "なるほど～資料を届けている途中だったんですのね",
 			typewriter = {
 				speed = 0.05,
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_116",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "ネプチューン",
 			say = "それでしたらこの私が案内して差し上げましょうか♪",
 			typewriter = {
 				speed = 0.05,
@@ -436,7 +436,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "そんなことよりサフォークはここがどこなのか知ってて入ってきたのですか？",
+			say = "それにしてもここはどこなんでしょうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

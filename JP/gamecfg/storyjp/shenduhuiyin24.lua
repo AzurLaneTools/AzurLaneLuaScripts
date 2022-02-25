@@ -961,7 +961,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "……が、まるで砲弾が全部そのまま通り抜けたかのように、「リシャール」の体には傷一つ付いていない。",
+			say = "時間だよ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1544,9 +1544,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			actorName = 718010,
 			dir = 1,
 			blackBg = true,
+			actor = 718010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "みん、な……にげ…て……！",

@@ -217,7 +217,7 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
+			actorName = "ヴォルガ",
 			say = "そうですね～。ヴォルガも空母としてしっかり応援…じゃなくて支援してました～",
 			typewriter = {
 				speed = 0.05,

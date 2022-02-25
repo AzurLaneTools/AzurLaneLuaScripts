@@ -235851,7 +235851,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		fix_equip_list = {
-			430
+			261
 		},
 		default_equip_list = {
 			102,

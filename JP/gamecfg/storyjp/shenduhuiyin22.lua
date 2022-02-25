@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "あら？さっきまで潜航艦の操縦室にいるのに…ここは一体？",
+			say = "あら？さっきまで潜航艦の操縦室にいたのに…ここは一体？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "だから何回忘れようと、今のように説明してくれたら、皆はきっと分かりますよ！",
+			say = "だから何回忘れようと、今のように説明してくれたら、皆もきっと分かりますよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

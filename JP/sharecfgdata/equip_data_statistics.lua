@@ -2985,6 +2985,7 @@ _G.pg.equip_data_statistics[430] = {
 	},
 	equip_parameters = {},
 	label = {
+		"CL",
 		"MG",
 		"AP"
 	}

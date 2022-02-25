@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "まるで最初から存在しなかったのよう",
+			say = "まるで最初から存在しなかったかのよう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "クロンシュタット",
-			say = "啊~（アルハンゲリスクの言うとおり、一人だけで頑張ってもダメね…この狭い部屋にずっと引きこもっていたら気が滅入るわ）",
+			say = "（アルハンゲリスクの言うとおり、一人だけで頑張ってもダメね…この狭い部屋にずっと引きこもっていたら気が滅入るわ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "クロンシュタット",
-			say = "すまない。ちょっと新鮮の空気を吸ってくるわ",
+			say = "すまないけど、ちょっと新鮮な空気を吸ってくるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			bgName = "bg_deepecho_6",
+			bgName = "bg_underwater",
 			say = "潜航艦・操縦室",
 			flashout = {
 				black = true,
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（隕石の調査はつまずき、逃げようにもセイレーンに沈められる恐れがある。それにこのチャンスを逃したら二度と",
+			say = "（隕石の調査はつまずき、逃げようにもセイレーンに沈められる恐れがある。それにこのチャンスを逃したら二度と…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（あの「接続」による影響は隕石によるものだとすれば、ソユーズたちも流石に予測できるわけではないし）",
+			say = "（あの「接続」による影響が隕石によるものだとすれば、ソユーズたちもさすがに予測できるわけがないし）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "ははは！この天才メカニックにとってこの程度の仕事なんて朝飯前だからな！~",
+			say = "ははは！この天才メカニックにとってこの程度の仕事なんて朝飯前だからな！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1178,7 +1178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "欸~~ねえねえいいでしょ？訓練より普通に戦いたいってキエフも言ったじゃない！",
+			say = "ねえねえいいでしょ？訓練より普通に戦いたいってキエフも言ったじゃない！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1383,7 +1383,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "そうね。ずっとこうしてはいられないわ~",
+			say = "そうね。ずっとこうしてはいられないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

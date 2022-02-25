@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "まさか、本当の調査対象が「隕石」だったなんて……",
+			say = "まさか、本当の調査対象は「隕石」だったなんて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

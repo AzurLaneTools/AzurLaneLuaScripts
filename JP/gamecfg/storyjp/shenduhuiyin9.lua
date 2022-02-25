@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "問題ない！この天才メカニックを誰だと思っている！~",
+			say = "問題ない！この天才メカニックを誰だと思っている！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

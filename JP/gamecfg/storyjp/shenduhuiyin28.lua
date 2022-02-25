@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "あと少しだよ♪~",
+			say = "あと少しだよ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "うぅ、すごく痛そうですね…大丈夫？ふーふーしてあげますからね～~",
+			say = "うぅ、すごく痛そうですね…大丈夫？ふーふーしてあげますからね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "クロンシュタット、これからはどうする？",
+			say = "クロンシュタット、これからどうする？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

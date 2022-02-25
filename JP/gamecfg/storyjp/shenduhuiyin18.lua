@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "あっ、平気よ。こちらこそ急に話しかけちゃってごめんなさい",
+			say = "あっ、平気だよ。こちらこそ急に話しかけちゃってごめんなさい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "ボノム・リシャール",
-			say = "いい景色が見れて、新しい友だちとも出会えた。この楽しい経験を記録に残したくなるのは当然でしょ？~",
+			say = "いい景色が見れて、新しい友だちとも出会えた。この楽しい経験を記録に残したくなるのは当然でしょ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "ソオブラジーテリヌイ",
-			say = "（本当か？じゃあせっかくだしここは天才メカニックにピッタリのクールフェイスで…ほら、キエフも！）~",
+			say = "（本当か？じゃあせっかくだしここは天才メカニックにピッタリのクールフェイスで…ほら、キエフも！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1278,7 +1278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "「力」がどういうものなのか、ちょっとに気になるわね",
+			say = "「力」がどういうものなのか、ちょっと気になるわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

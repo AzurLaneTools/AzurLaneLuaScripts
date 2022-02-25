@@ -605,7 +605,7 @@ return {
 			actor = 900307,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "この程度にしておこう。エネルギーの抽出率と安定性のバランを考えれば今のが最適だ",
+			say = "この程度にしておこう。エネルギーの抽出率と安定性のバランスを考えれば今のが最適だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,7 +996,7 @@ return {
 			actor = 900308,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "別にいいんじゃない？イースターエッグみたいに気軽に書けばいし",
+			say = "別にいいんじゃない？イースターエッグみたいに気軽に書けばいいし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2268,7 +2268,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			say = "だが北方連合の艦船たちは誰一人、ここに彼女たちの仲間がいるとを忘れてはいなかった。",
+			say = "だが北方連合の艦船たちは誰一人、ここに彼女たちの仲間がいることを忘れてはいなかった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
