@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "ヴォルガ",
-			say = "では偵察機を随伴させますね～。あ！みんあ！空を見て！",
+			say = "では偵察機を随伴させますね～。あ！みんな！空を見て！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
