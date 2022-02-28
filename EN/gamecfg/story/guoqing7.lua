@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Seems sobody's safe from being turned into a Pawn...",
+			say = "Seems somebody's safe from being turned into a Pawn...",
 			shake = {
 				speed = 1,
 				number = 3

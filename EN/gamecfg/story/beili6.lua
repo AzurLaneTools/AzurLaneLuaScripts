@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "Although Akashi is remedying her words, but the atmosphere has become awkward.",
+			say = "Although Akashi is remedying her words, the atmosphere has become awkward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "The Eagle Union, Royal Navy, Sakura Empire, Iris, and Sardegnia have already signed it... In fact, most of the admiralty of all major powers that were in the great war have.",
+			say = "The Eagle Union, Royal Navy, Sakura Empire, Iris, and Sardegna have already signed it... In fact, most of the admiralty of all major powers that were in the great war have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

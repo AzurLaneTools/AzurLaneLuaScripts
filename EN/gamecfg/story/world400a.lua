@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "If matters were left in the hands of the Iron Blood, Sardegnia, and the Royal Navy, all-out war would’ve broken out.",
+			say = "If matters were left in the hands of the Iron Blood, Sardegna, and the Royal Navy, all-out war would’ve broken out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
