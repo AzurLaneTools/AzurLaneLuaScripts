@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "好人理查德",
-			say = "从这一点上来说我们是一样哦。",
+			say = "从这一点上来说我们是一样的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

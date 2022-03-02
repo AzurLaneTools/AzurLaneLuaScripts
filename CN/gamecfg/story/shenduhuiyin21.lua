@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "阿尔汉格尔斯克",
-			say = "欸？！发生么什么事么……不对，你的脸色突然变得超级差哎！",
+			say = "欸？！发生了什么事么……不对，你的脸色突然变得超级差哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（虽然是这样，不过其实大家已经跟我一起经历了两次了就是了……）",
+			say = "（虽然是这样，不过其实大家已经跟我一起经历了两次就是了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

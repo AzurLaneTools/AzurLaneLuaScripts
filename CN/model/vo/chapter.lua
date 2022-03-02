@@ -1461,14 +1461,16 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 				slot15 = 0
 
 				for slot19, slot20 in ipairs(slot13) do
-					slot14 = slot14 + 1
+					if slot20 ~= 0 then
+						slot14 = slot14 + 1
 
-					if underscore.any(slot7, function (slot0)
-						return ShipType.ContainInLimitBundle(uv0, slot0)
-					end) then
-						slot15 = 1
+						if underscore.any(slot7, function (slot0)
+							return ShipType.ContainInLimitBundle(uv0, slot0)
+						end) then
+							slot15 = 1
 
-						break
+							break
+						end
 					end
 				end
 

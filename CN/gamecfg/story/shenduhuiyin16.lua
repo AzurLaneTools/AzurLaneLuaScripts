@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回收到的情报就是显示最后的位置是这里……不会错。",
+			say = "回收到的情报显示最后的位置就是这里……不会错。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

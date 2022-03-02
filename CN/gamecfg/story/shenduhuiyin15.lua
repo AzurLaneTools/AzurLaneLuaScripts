@@ -387,7 +387,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系没关系，可能刚刚只是我有点走走神了~",
+			say = "没关系没关系，可能刚刚只是我有点走神了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

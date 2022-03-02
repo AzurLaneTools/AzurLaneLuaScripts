@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "是啊~回头把这一条记载航行记录上好了！",
+			say = "是啊~回头把这一条记在航行记录上好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
