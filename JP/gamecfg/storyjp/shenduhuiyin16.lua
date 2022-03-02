@@ -82,7 +82,7 @@ return {
 			bgName = "bg_deepecho_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官とロシアの奮戦がなければ、ここでの活動はままならなかった",
+			say = "指揮官たちの奮戦がなければ、ここでの活動はままならなかった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

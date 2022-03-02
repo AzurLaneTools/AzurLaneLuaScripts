@@ -1658,10 +1658,9 @@ function slot0.displayChapterPanel(slot0, slot1, slot2)
 
 		uv0:hideChapterPanel()
 
-		slot3 = uv1:clone()
-		slot3.loopFlag = slot0
+		uv0.contextData.chapterLoopFlag = slot0
 
-		if slot3:getConfig("type") == Chapter.CustomFleet then
+		if uv1:getConfig("type") == Chapter.CustomFleet then
 			uv0:displayFleetEdit(slot3)
 		elseif #slot3:getNpcShipByType(1) > 0 then
 			if uv1:isValid() then
@@ -1705,6 +1704,9 @@ function slot0.destroyChapterPanel(slot0)
 end
 
 function slot0.displayFleetSelect(slot0, slot1)
+	slot1 = Clone(slot1)
+	slot1.loopFlag = slot0.contextData.chapterLoopFlag
+
 	slot0.levelFleetView:updateSpecialOperationTickets(slot0.spTickets)
 	slot0.levelFleetView:Load()
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)
@@ -1747,6 +1749,9 @@ function slot0.destroyFleetSelect(slot0)
 end
 
 function slot0.displayFleetEdit(slot0, slot1)
+	slot1 = Clone(slot1)
+	slot1.loopFlag = slot0.contextData.chapterLoopFlag
+
 	slot0.levelFleetView:updateSpecialOperationTickets(slot0.spTickets)
 	slot0.levelFleetView:Load()
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)
