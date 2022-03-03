@@ -4902,7 +4902,6 @@ pg.ship_skin_template_15 = {
 		air_bomb_skin = "",
 		illustrator = -1,
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
@@ -4922,7 +4921,6 @@ pg.ship_skin_template_15 = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			2
@@ -4998,6 +4996,23 @@ pg.ship_skin_template_15 = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
 		}
 	},
 	[701030] = {

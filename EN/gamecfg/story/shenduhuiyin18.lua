@@ -471,12 +471,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
+			nameColor = "#696969",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			actorName = "？？？",
 			say = "Nah, it's all good. My bad for calling out to you out of nowhere.",
 			typewriter = {
 				speed = 0.05,
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
+			nameColor = "#696969",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			actorName = "？？？",
 			say = "You know my name, huh? This is the last place I expected to run into one of my fans!",
 			typewriter = {
 				speed = 0.05,

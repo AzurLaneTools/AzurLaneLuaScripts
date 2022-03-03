@@ -47,7 +47,7 @@ function slot0.execute(slot0, slot1)
 				item = slot4
 			})
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n1("大世界物品使用失败：" .. slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n1("Using item failed：" .. slot0.result))
 		end
 	end)
 end
