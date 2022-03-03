@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "炫目的白光之后，出现在喀琅施塔得面前的是一片燃烧的海面。",
+			say = "눈부시게 하얀 빛이 사라지자 크론시타트의 눈앞에 나타난 건 불타는 바다였다.",
 			side = 2,
 			bgName = "bg_deepecho_9",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "这次还真是……一上来就是剧目的高潮啊。",
+			say = "이번엔… 시작하자마자 하이라이트잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "很明显，这里是演习海域，而冲击已经发生了。",
+			say = "이곳은 훈련 해역이 분명했고 충격은 이미 시작됐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "整片海域像是经历了超强风暴的洗礼，只剩下一片狼藉。",
+			say = "바다 전체가 초강력 폭풍의 공격을 받은 듯 아수라장이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "整齐的队列早已荡然无存，留下的只有燃烧的残骸，或者即将变成残骸的未知军舰。",
+			say = "정렬된 대열은 이미 망가졌고, 남은 건 불타는 잔해뿐이거나, 곧 잔해로 변할 이름 모를 군함뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "海面、空气、甚至天空都在燃烧，宛如末日般的景象。",
+			say = "바다도, 공기도, 심지어 하늘도 불타오르는 종말의 현장과 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在这片死亡之海中，只有位于毁灭中心的那个黑色风暴显得“生机勃勃”。",
+			say = "죽음의 바다에서 오직 파멸의 중심에 있는 그 검은 폭풍만이 '생명'의 모습을 띠고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "就好像活物一样……",
+			say = "마치 살아 있는 물체 같아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不对，也许就是活物吧…………",
+			say = "아니, 어쩌면 살아있는 물체일지도 모르지……….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得迎着狂风与火焰，顺着模糊的视线向着黑色风暴一点一点的接近着。",
+			say = "크론시타트는 광풍과 불길을 맞으며 흐릿한 시선을 따라 검은 폭풍을 향해 한 걸음씩 다가가고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "终于，喀琅施塔得来到了黑色风暴的面前。",
+			say = "마침내 크론시타트가 검은 폭풍 앞에 도착했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "只要战胜了你，任务就能结束了吧……",
+			say = "너만 이겨내면 임무를 끝낼 수 있겠지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得正面凝视着风暴，风暴似乎也在凝视着她。",
+			say = "크론시타트는 폭풍을 정면으로 응시했고, 폭풍도 그녀를 응시하는 듯했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "不知为何，喀琅施塔得脑海中出现了那个神秘少女的脸庞，只不过在那张脸上，再也找不到一丝可爱的气息。",
+			say = "웬일인지, 크론시타트의 머릿속에는 그 신비로운 소녀의 얼굴이 떠올랐다. 그 얼굴에선 더 이상의 사랑스러운 느낌을 찾아볼 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "少女表情阴暗冰冷，嘴角带着嘲讽意味的笑意。",
+			say = "소녀의 표정은 어둡고 차가웠으며 입가에는 비릿한 웃음을 띠고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "你想击败我？为什么？",
+			say = "저와 맞서겠다고요? 왜요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "击败你，我才能完成任务……",
+			say = "널 없애야 임무를 완수할 수 있거든...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "完成任务，为什么？",
+			say = "임무 완수라, 왜요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "完成任务之后……才能回到祖国，回到同伴身旁。",
+			say = "임무를 완수해야…. 조국으로 돌아가 동료들을 다시 만날 수 있거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "祖国，同伴？它们不正是抛弃你的罪魁祸首么？",
+			say = "조국, 동료? 바로 당신을 버린 장본인이 아니었나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "祖国，只有在它需要你的时候才是你的祖国。",
+			say = "조국은, 오직 당신을 필요로 할 때만 조국입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "同伴，只有在它需要你的时候才是同伴。",
+			say = "동료도, 당신을 필요로 할 때만 동료죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "如果它们不需要你了，那它们就什么也不是了。",
+			say = "만약 당신이 필요 없어지면, 당신은 그들에겐 아무것도 아니게 됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "一片歪理……",
+			say = "궤변이군...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "只要我能战胜你……不论是祖国还是同伴，都会回到我的身边……",
+			say = "내가 널 이길 수만 있다면… 조국도, 동료도, 나에게 돌아올 거야……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "哦？你是这么认为的么。",
+			say = "오호? 그렇게 생각하는 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "战胜我，只能意味着你的力量十分强大。",
+			say = "절 이겨도, 당신의 힘이 강하다는 뜻밖에 안돼요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "强大的力量，将会引来恐惧。",
+			say = "강한 힘은, 두려움을 가져오죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "它们希望你拥有力量，却又恐惧你拥有力量。",
+			say = "그들은 당신이 힘을 가지기를 원하지만, 또 당신이 힘을 가지는 걸 두려워하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "不是很矛盾么？",
+			say = "모순적이지 않아요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "相信我，当你战胜了我之后，迎接你的不会是凯旋，没有鲜花更没有掌声。",
+			say = "절 믿으세요, 당신이 절 이겨도 돌아오는 꽃이나 박수소리 같은 건 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "迎接你的只有毁灭与死亡。",
+			say = "당신을 맞이하는 건 멸망과 죽음뿐이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "胡说……全是臆断，你不了解我的祖国与同伴。",
+			say = "헛소리…… 전부 억측이군, 넌 내 조국과 동료를 이해 못 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "不，是你不了解。",
+			say = "아니, 당신이 이해 못 하는 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "一切都是谎言，一切都是利用。",
+			say = "모든 게 다 거짓말이고, 모든 게 다 당신을 이용하려 한 거니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "一切都是虚情假意……",
+			say = "모든 게 다 가식이죠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "它们现在尊敬你，只是因为能够控制你。",
+			say = "그들이 지금 당신을 존경하는 건, 당신을 제어할 수 있어서에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "一旦它们发现无法继续控制你了————",
+			say = "만약 당신을 계속 제어할 수 없다는 걸 알게 되면 그들은————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "就会立刻调转枪口，毁灭你。",
+			say = "바로 총구를 돌려 당신을 없앨 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "如果不信的话……我就在这里，就在你的面前。",
+			say = "만약 못 믿겠다면…… 전 여기 있겠습니다, 바로 당신 앞에.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#696969",
-			say = "来战胜我，来毁灭我吧——————————",
+			say = "절 이겨 보시죠, 절 없애 보세요——————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

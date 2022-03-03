@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·北方联合控制区",
+			say = "극지 해역-노스 유니온 통제 구역",
 			side = 2,
 			bgName = "bg_deepecho_0",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "航向正确，航速平稳……引擎出力正常……",
+			say = "방향 정확하고, 속도 안정적이고… 엔진 출력 정상.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "嘿嘿……真是太帅了…………好想拆开看看啊…………",
+			say = "헤헤… 정말 멋있다… 뜯어보고 싶네….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "灵敏只要碰到和机械有关的东西就像变了个人一样呢~",
+			say = "소브라지텔니는 기계만 만났다 하면 사람이 바뀌는 것 같아요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "就像给了一颗糖就安静下来的小孩子。",
+			say = "사탕 하나 주면 조용해지는 아이처럼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "要不然改一下这个参数好了，嘿嘿嘿……",
+			say = "여기 이 숫자를 좀 바꿔볼까? 헤헤헤...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "居然没有立刻回击…………机械的魔力真厉害。",
+			say = "바로 반격하지 않는다니… 기계의 매력이 대단한걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "潜航舰好玩吗，灵敏？",
+			say = "잠수함은 어때, 재밌어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "好玩！",
+			say = "재밌어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "…………不对，不是好玩不好玩的问题，这是工作啦！",
+			say = "…… 아니야, 재미 문제가 아니라 이건 일이라구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "呵呵~天才机械师，我有个问题要考考你。",
+			say = "오홍~ 천재 엔지니어님, 테스트 문제가 하나 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "嗯？你问吧~只要是和机械有关的没有我不懂的哦！",
+			say = "응? 물어보세요~ 기계에 관한 거라면 내가 모르는 게 없다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你知道刚才我们见到的不冻港是怎么回事么？",
+			say = "아까 우리가 봤던 얼지 않는 항은 어떻게 된 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "从地理环境上来说，在那个地方不可能有天然不冻港吧。",
+			say = "지리적 특성으로 보면 그곳은 자연적으로 얼지 않는 항이 생길 수가 없는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "唔…………其实我刚才也注意到了。",
+			say = "흐음…… 사실 나도 아까 그 부분이 신경 쓰였어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我觉得可能跟港口的那些机械设备有关。",
+			say = "항구의 기계 설비와 관련이 있을 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚才在我们出港的时候你们也注意到了吧，在水面上每隔一段距离就有一个类似浮漂的装置。",
+			say = "아까 우리가 출항할 때 너희도 봤어? 일정 거리마다 수면에 낚시찌와 비슷한 장비가 떠 있는 거 말이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "那东西绝对有水下结构，虽然具体原理我不清楚，不过不冻港应该就是这些设备弄出来的！",
+			say = "분명 수면 밑에 구조가 있을 거야, 자세한 원리는 나도 모르겠지만 얼지 않는 항은 아마 그 설비들이 만들어 낸 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "观察的还真仔细……我还以为你的目光都被潜航舰吸引住了，没有注意到其他部分呢。",
+			say = "정말 자세히 관찰했네…… 잠수함에 정신이 팔려서 다른 부분은 신경 못 쓸 줄 알았는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哼哼~只要和机械装置有关，我是绝对不会漏看的！",
+			say = "엣헴~ 기계와 연관된 일이라면 절대 놓칠 수 없다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以究竟是怎么回事，听起来你好像已经知道答案了？",
+			say = "그래서 도대체 어떻게 된 일이야, 듣자 하니 너도 이미 알고 있는 것 같은데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "只是猜测，我觉得也许跟心智魔方有关。",
+			say = "단지 추측일 뿐이지만 성정 큐브와 관련이 있는 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我在皇家留学的时候有听到过，她们在进行一些从心智魔方中提取能量的实验。",
+			say = "내가 로열에서 유학할 때 성정 큐브에서 어떤 에너지를 추출하는 실험을 진행 중이라고 들은 적 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "我们这边应该也差不多吧。维持一整个港口不被封冻的能量消耗，怎么想也不是消耗常规能源做到的。",
+			say = "이쪽도 비슷할 것 같아. 항구 전체가 얼지 않는 에너지라니 아무리 생각해도 일반적인 에너지로는 불가능할 것 같으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实诶……刚刚也没有看到发电厂引起的烟雾之类的。",
+			say = "그렇긴 한데...  아까 발전소에서 비롯된 연기 같은 건 보이지 않았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "心智魔方还真是神奇啊……好想拆一个研究一下。",
+			say = "성정 큐브는 정말 신기해… 한번 뜯어보고 싶어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯……？我怎么一下来就听到了个相当危险的话题啊。",
+			say = "응...? 내려오자마자 상당히 위험한 얘기가 들리네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "潜航舰好玩吗，灵敏？",
+			say = "잠수함은 어때, 재밌어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "………………你怎么说了跟阿尔汉格尔斯克完全一样的话！",
+			say = "……… 어떻게 아르한겔스크랑 똑같은 말을 하지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的……都说这是工作的一环了。而且我真的有在认真工作哦！",
+			say = "정말… 이건 일이라구, 일! 그리고 난 지금 진짜 열심히 일하는 중이거든?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "你们看，前方出现了一艘破冰船，那个是来迎接我们的吧？",
+			say = "저기 봐, 쇄빙선 한 대가 나타났어. 우릴 맞이하러 온 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我看看哦————嗯…………Микоян （米高扬）号。",
+			say = "어디 봐봐————음…… иоонн(미코얀)이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "和任务书说的一样，米高扬号破冰船主要负责维持港口与基地之间的航道，这次也是由它来引导我们前往极地要塞。",
+			say = "임무서에 나와 있는 것처럼 미코얀 쇄빙선은 항구와 기지 간의 항로를 유지를 책임지고 있어, 이번에도 역시 우리를 극지 요새로 인도해 줄 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "看来我们离基地很近了。",
+			say = "이제 기지 가까이 왔나 봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "港口虽然用了先进的溶雪设备，不过航线还是需要破冰船来维持啊。",
+			say = "항구는 첨단 기술을 사용하고 있지만, 항로는 역시 쇄빙선이 필요하네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "真是有种科技时代交错的感觉，不知道我们要去的极地要塞是什么样的……",
+			say = "정말 과학 기술과 시대가 교차하는 느낌이야. 극지 요새가 어떤 모습일지 궁금하네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也不太清楚，虽然知道是在之前的行动中建立的，不过一直没有去的机会。",
+			say = "저도 잘 모르겠어요. 이전에 건설됐다곤 해도 계속 갈 기회가 없었으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喀琅施塔得，你知道什么情报么？",
+			say = "크론시타트, 뭐 아는 거라도 있나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "知道是知道，不过有些难以说明……反正马上就要到了，还是大家亲自来评判吧。",
+			say = "알기는 알지만 설명하기 힘들어… 어차피 곧 도착할 텐데 너희가 직접 평가해 봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

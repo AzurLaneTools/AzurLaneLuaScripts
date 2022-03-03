@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·此刻",
+			say = "극지 해역-현재",
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "深海中，北方联合的水下舰队正在缓缓前进。",
+			say = "심해 속 노스 유니온의 수중 함대는 천천히 전진하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "与以往不同，现在的潜航舰不再是单独出战，而是以满编战斗队列的方式集体出动着。",
+			say = "이전과 달리, 현재의 잠수함은 혼자가 아닌, 편대 전투 대열의 방식으로 함께 출동하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "前方区域发现塞壬潜艇……判定类型为III型。",
+			say = "전방에 세이렌 잠수함 발견. III 타입으로 추정.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "用潜航舰的鱼雷消灭它们！",
+			say = "잠수함의 어뢰로 없애버리자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "这样。目标锁定，咻——咻——咻————",
+			say = "목표물 조준 완료,  슈——우——웅————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "目标消失，战斗结束。",
+			say = "목표물 처리 완료, 전투 종료.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "呼~在数千米的水下准确命中目标，我们的潜航舰也变得十分不得了了啊。",
+			say = "휴~ 수천 미터의 수심에서 목표물을 정확히 처리하다니 우리 잠수함 엄청난데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟已经到第三代了……",
+			say = "3세대의 위력...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果当时她们驾驶的不是苏丽珂号而是现在我们乘坐的这一型……",
+			say = "만약 그때 슈리코르테가 아닌 이 잠수함과 함께였으면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "此一时彼一时嘛……如果没有验证舰苏丽珂号，我们的潜航舰也不会顺利发展到现在这个程度。",
+			say = "에이, 그때가 없었으면 지금도 없어. 그때 슈리코르테가 없었다면 지금의 잠수함도 이렇게 빠르게 발전하지 못했을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "苏丽珂号是潜航舰的先行者，她们是我们的先行者。",
+			say = "슈리코르테은 잠수함의 선구자야, 우리 모두의 선구자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "潜航舰正在接近海底，已经能够看到苏丽珂号的船体了……",
+			say = "잠수함이 해저에 접근하고 있어, 슈리코르테가 보여…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……走吧。",
+			say = "…가자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "开始救援行动，让我们接英雄回家！",
+			say = "구출 작전 시작, 우리의 영웅과 함께 무사히 집에 돌아가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

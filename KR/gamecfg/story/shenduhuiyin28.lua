@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在黑色风暴的面前，喀琅施塔得一次又一次的攻击着。",
+			say = "검은 폭풍을 향해 크론시타트는 계속 공격했다.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "main-ashes-theme",
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "消失，消失，消失啊！",
+			say = "사라져, 사라져, 사라지라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得的声音越发歇斯底里，似乎每一次主炮齐射都让她破坏的欲望更进一步，",
+			say = "크론시타트의 목소리는 점점 더 악에 받쳤다. 일제사격 때마다 그녀의 파괴된 욕망이 더 커지는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "而风暴也如同之前的允诺一样，完全没有还手。",
+			say = "폭풍도 약속처럼 전혀 반격하지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "……这不是自然的么，风暴究竟要怎么还手啊。",
+			say = "…… 이게 당연한 거 아니야? 폭풍이 어떻게 반격할 건데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "要用武器击败一个风暴的我未免也太好笑了一点……",
+			say = "무기로 폭풍을 물리치겠다는 내 모습도 너무 우스워……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可是————",
+			say = "그런데————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "进攻无法停止。",
+			say = "공격을 멈출 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "大姐姐，这就是你的极限么？我还毫发无损哦。",
+			say = "이게 언니의 한계인가요? 전 아직 하나도 아프지 않은데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 718010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "闭嘴……现在才刚刚开始呢！",
+			say = "입 닥쳐… 이제 시작이니까!",
 			flashN = {
 				color = {
 					1,
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "理智的弦正在断裂，意识正在模糊，只剩下最原始的破坏本能。",
+			say = "이성의 끈이 끊어지고 의식은 흐려지더니 가장 원초적인 파괴 본능만 남았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得一次又一次的攻击着，黑色冲击也一次又一次的出现。",
+			say = "크론시타트는 공격을 멈추지 않았고 검은 충격은 계속해서 다시 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "但对于此刻的喀琅施塔得而言，这样的冲击反而像迎面扑来的春风一般怡人。",
+			say = "그러나 지금 이 순간 크론시타트에게 이 충격은 오히려 봄바람처럼 느껴졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "仿佛在每一次经历冲击后，炮击的破坏力就有提升了一分。",
+			say = "충격을 겪을 때마다 포격의 파괴력이 더 강력해지는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 718010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "很好很好很好很好很好很好很好很好——",
+			say = "좋아 좋아 좋아 좋아 좋아 좋아 좋아——",
 			flashN = {
 				color = {
 					1,
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "就这样破碎吧，就这样毁灭吧！",
+			say = "이대로 사라져, 이대로 파멸하라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "恍惚中，喀琅施塔得仿佛看到了少女正站在她的面前。",
+			say = "희미하게, 크론시타트는 그녀의 눈앞에 소녀가 서있는 모습을 보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,24 +409,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "她用额头顶着炮管，脸上挂着渗人的微笑。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "加油~加油~",
+			say = "이마를 포관에 대고 얼굴엔 미소를 띠고 있는 여자아이의 모습을.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +426,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "就差一步了，加油哦~",
+			say = "화이팅~ 화이팅~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_9",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "？？？",
+			say = "이제 얼마 안 남았어요, 힘내요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "不要…………小看我——————！",
+			say = "날… 우습게 보지마——————!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "去死吧…………就在心中完全被负面情感占据的喀琅施塔得即将打出最后一炮的时候。",
+			say = "죽어라…… 마음속 부정적인 감정에 사로잡힌 크론시타트가 마지막 포를 쏘려고 할 때.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "光芒，在眼前出现了。",
+			say = "눈앞에 빛이 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

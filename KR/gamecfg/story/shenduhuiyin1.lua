@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "圣彼得伯格·会议室",
+			say = "상트페테부르크-회의실",
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			dir = 1,
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "——事情就如诸位从字面意义上理解的一样。",
+			say = "——문서에 나와 있는 그대로입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "北方联合将会从陆地、空中、水面、水下对铁血发动全方位打击，让铁血在一系列肆意妄为之后回到它应有的位置上。",
+			say = "노스 유니온은 메탈 블러드를 향해 육지, 공중, 수상, 수중 전방위적인 공격을 개시합니다.  메탈 블러드는 지금까지 제멋대로 행동한 결과에 책임을 질 때가 왔습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "以这次反击行动为开端，我们将会倾尽全力结束这场漫长、愚蠢又无意义的分裂战争。",
+			say = "우리는 이번 공격을 시작으로 최선을 다해 이 길고도 무의미했던 분열에 의한 전쟁을 끝내려고 합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "这是最高苏维埃做出的决定，也是北方联合无可动摇的坚定立场。",
+			say = "이것은 노스 유니온 최상부가 내린 결정이며, 동시에 노스 유니온의 굳건한 의지입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "就算没有得到指挥部全体成员的支持，北方联合也将单独进行行动。",
+			say = "지휘부 전원의 동의를 받지 못하더라도 노스 유니온은 독단적으로라도 행동할 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "——是时候向着未来进发了，不是么？",
+			say = "——미래를 향해 나아갈 때가 됐습니다. 동의하십니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等、等一下！不要在这么重要的事情上独断专行啊！",
+			say = "잠, 잠깐만! 이렇게 중요한 사항을 혼자 독단적으로 판단하는 건 너무하다고 생각해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "NA海域战事刚刚结束，我们的舰队现在最需要的是修整。",
+			say = "NA 해역 전투가 끝난 지 얼마 되지도 않았는데, 우리 함대에게 지금 가장 필요한 건 휴식이라구.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "况且和赤色中轴之间的全面停火协议已经很有希望了，希望北方联合不要让局势变得更加复杂。",
+			say = "게다가 적색 중축과의 전면 휴전 협의가 현재 굉장히 희망적인 상황인데 노스 유니온이 상황을 더 복잡하게 만들지 않기를 바라는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "与其浪费精力在彼此间的争斗中，接下来最重要的不是向着下一片被塞壬控制的海域进军么！",
+			say = "서로의 싸움에 힘을 낭비하는 것보다는 앞으로 가장 중요한 건, 세이렌에게 제압당할 다음 해역으로의 진군 아니야!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502010,
-			say = "萨拉托加，战场上拿不回来的东西，从谈判桌上也拿不回来哦。",
+			say = "새러토가, 전장에서도 해결할 수 없는 건 협상 테이블에서도 불가능합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502010,
-			say = "我们不想陷入内斗之中，未必赤色中轴也是这么想的。全面停火协议谈到现在没有丝毫进展就是最好的证明。",
+			say = "내부 분열이 생기는 건 원치 않습니다. 적색 중축 역시 같은 생각일 것으로 생각하구요. 휴전 협의가 아직까지 진전이 없는걸 보면 가장 잘 보여주고 있다고 생각합니다만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502010,
-			say = "冤有头债有主。既然这场分裂是由铁血开始的，那么在向未来前进的同时，也要对过去进行了断才是。",
+			say = "인과응보죠. 이 분열은 메탈 블러드로부터 시작되었으니까요. 앞을 향해 나아가려면 과거와도 제대로 마무리 지어야 합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502010,
-			say = "东煌将会支持北方联合的行动。",
+			say = "이스트 글림은 노스 유니온을 지지합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "正如各位所知。多亏了某些人“发错”频道的事故，现在铁血已经事先得到了预警。",
+			say = "너희들도 알다시피 누구의 '송신 채널 오류' 사건으로 인해 메탈 블러드는 이미 주의하고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "有情报显示铁血正在向对峙地区增兵，维希教廷舰队也有移动的迹象，似乎有部分舰队离开了土伦港。",
+			say = "메탈 블러드가 대치 지역에 병력을 추가 배치하고 있다는 정보가 있고 비시아 성좌 함대 역시 이동한 흔적이 있는 걸 보니 일부 함대가 툴롱항을 떠난 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "撒丁帝国倒是一如既往没有什么特别反应，重樱本岛也一样。",
+			say = "사르데냐 엠파이어는 언제나 그랬듯 어떠한 반응도 없었어. 사쿠라 엠파이어도 마찬가지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过重樱的一支远征舰队仍驻扎在达喀尔港内，需要密切关注她们的行动。",
+			say = "하지만 사쿠라 엠파이어의 원정 함대 한 대가 여전히 다카르항 내에 주둔하고 있기 때문에 그들의 행동을 주시할 필요가 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "当然，皇家最关注的问题是，“停火期限还未结束，北方联合是要单方面撕毁协议么？”",
+			say = "물론 로열의 가장 큰 관심사는 \"휴전 협의가 끝나지 않은 상황에서 노스 유니온이 일방적으로 약속을 깨트릴 것인가?\"야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不会，我们不是铁血。",
+			say = "아뇨, 메탈 블러드 같은 짓은 하지 않을 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "因此一定程度的情报泄露也在我们预估之内，不会影响到接下来的部署。",
+			say = "어느 정도의 정보 유출은 예상한 바입니다. 계획엔 전혀 영향이 없습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也就是某种程度上的宣战预告啊……你们这种行为正在把欧罗巴变成一触即发的火药桶。",
+			say = "그러니까 어느 정도 선전포고를 한다는 거잖아… 이러한 행동들은 유럽 제국을 일촉즉발의 화약통으로 만드는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对于这件事你们有所自觉么？",
+			say = "이 일에 대해 스스로 알고 있는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "欧罗巴早就已经是火药桶了，区别只是在于谁，在什么时候点燃而已。",
+			say = "유럽 제국의 상황은 이미 오래전부터 위험한 상황이었어요. 중요한 건 누가 언제 불을 붙이냐죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家是希望将主动权拱手让与对面么？",
+			say = "로열에선 주도권을 저쪽에 넘겨주기를 바라는 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这样的担心确实有一定道理，在对待赤色中轴的态度上皇家表示原则上的支持。",
+			say = "일리가 있는 걱정이야. 적색 중축을 대하는 태도를 두곤 로열은 원칙적으로 지지를 표해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "皇家将会继续维持极地航线的运输船队以及护航编队，为北方联合提供必要的物资支援。",
+			say = "로열은 노스 유니온에 필요한 물자를 지원하기 위해 극지 항로의 운송 함대와 호송 편대를 계속해서 유지할 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过因为当前的局势，皇家没有多余力量参加打击行动。",
+			say = "하지만 현재 상황으로 인해 로열은 더는 전투에 참여할 전력이 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "——至少是首轮打击行动。自由鸢尾的情况也差不多吧？",
+			say = "——적어도 1차 공격은 안 될 것 같아. 아이리스 리브레 역시 비슷하지 않을런지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "嗯，非常遗憾，我们现在的舰队力量也是捉襟见肘。",
+			say = "정말 유감이네요. 저희 함대도 현재로선 힘든 상황입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "在这件事上，自由鸢尾的态度与皇家一致。不过希望北方联合的行动尽可能不要波及到维希教廷。",
+			say = "이 일에 있어서 아이리스 리브레 역시 로열과 같은 입장입니다. 하지만 노스 유니온이 가급적이면 비시아 성좌를 건들지 않았으면 좋겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "鸢尾教国内部的事情，我希望尽可能能够在内部得到解决。",
+			say = "아이리스의 일은 최대한 저희끼리 해결할 수 있도록 노력할 테니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "当然，我们会在可能的范围内控制打击范围和程度的。",
+			say = "물론 가능한 범위 내에선 타격 범위와 화력을 통제할 예정입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "支持维希教廷摆脱铁血的影响是北方联合的一贯立场。",
+			say = "비시아 성좌가 메탈 블러드로부터 벗어날 수 있도록 지원하는 것은 줄곧 저희의 입장이었으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "非常感谢各位同伴数年如一日提供的物资支援。不能提供作战舰队也没关系，依靠北方联合舰队也足够完成本次行动。",
+			say = "몇 해 동안이나 물자 지원을 해주셔서 감사합니다. 전투에 참여하지 못하셔도 괜찮아요. 저희 노스 유니온의 전력만으로도 이번 작전은 무사히 성공할 수 있으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不要说的就像事情已经定下来了一样啊————！",
+			say = "마치 이미 그렇게 정해진 것처럼 얘기하진 말아줄래!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那极地怎么办？你们的舰队最多只能维持与极地塞壬的战线吧，之后进攻铁血的舰队要从哪里来？",
+			say = "극지는 어쩔 거야? 당신들의 함대 전력으론 극지 세이렌과의 현재 대치 전선을 유지할 수밖에 없을 것 같은데, 추후 메탈 블러드를 공격할 함대는 어디서 오지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "况且我们已经收到了可靠情报，铁血舰队中已经出现了一些不容忽视的强力威胁……也就是如同各位所知的计划舰。",
+			say = "게다가 믿을 만한 정보를 받았어. 메탈 블러드 함대에 이미 강력한 위력을 가진… 다들 아는 계획함이 나타났어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们尚处于理论验证阶段的计划舰，在铁血那里已经服役了数艘……",
+			say = "우리는 아직 이론 검증 단계에 있는 계획함이지만, 메탈 블러드 쪽은 이미 몇 척이나 부역했지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "计划舰每一艘都有匹敌一支常规舰队的力量，之前皇家和自由鸢尾的联军已经见识过了。",
+			say = "계획함 한 대는 대부분 일반적인 함대 전체와 맞먹는 힘을 가지고 있어. 로열과 아이리스 리브레는 이미 그 힘을 경험해 본 적 있고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果多艘铁血计划舰出现在前线，你们打算怎么应付？",
+			say = "메탈 블러드 계획함 여러 척이 전선에 나타나면 어떻게 할 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,42 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这两个问题确实都很棘手。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_guild_blue_n",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 900218,
-			say = "极地的战况在指挥官同志之前的打击下已经有所好转，我们计划在开战之后，用空间换时间。收缩防线，利用存量进行防守。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900218,
-			side = 2,
-			bgName = "bg_guild_blue_n",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "为此，打击行动需要迅速而精准，不可以变成漫长的消耗战。",
+			say = "이 두 문제는 정말 어려운 부분이긴 합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +838,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "至于计划舰……根据现有情报来说，计划舰的心智需要更长的时间和更复杂的手段进行完善。",
+			say = "극지의 전황은 지휘관님의 이전 공격으로 호전된 상태입니다. 공간으로 시간을 바꿔 방어선을 좁히고 방어를 진행할 예정입니다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900218,
+			side = 2,
+			bgName = "bg_guild_blue_n",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "이 때문에, 공격은 신속하고 정확해야 합니다. 소모전이 돼서는 안 됩니다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_guild_blue_n",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 900218,
+			say = "계획함이라면… 현재 정보로썬 계획함은 더 많은 시간과 더욱 다양한 보완이 필요하다고 생각됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "这也是我们各家的计划舰进展缓慢的主要原因不是么？虽然我不知道诸位已经实际研究到哪一步就是了。",
+			say = "이것이 저희의 각 계획함의 진척이 느린 이유가 아니었나요? 여러분의 연구가 실제로 어느 정도까지 진행됐는지는 모르겠지만요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "极地舰队拥有最精良的装备和最丰富的作战经验。只要加上合适的指挥，我们相信就算铁血的计划舰出场，我们依然有胜算。",
+			say = "극지 함대는 가장 우수한 장비와 풍부한 작전 경험을 갖추고 있습니다. 적절한 지휘만 있다면, 메탈 블러드의 계획함이 출현해도 우리에게 여전히 승산이 있다고 생각합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过也因此，我们需要指挥官同志的支援。",
+			say = "하지만 그렇기 때문에 더더욱 우린 지휘관님의 지휘가 필요합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +946,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "之前也说了！现在各处海域局势都不稳定，指挥官实在是分身乏术。",
+			say = "전에도 말했지만! 현재 여기저기서 상황이 모두 불안정해 지휘관이 손을 뗄 수 없는 상황이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我知道你们想要确保胜利果实。但是有赤色中轴在，现在到手的海域没有你们想象中的稳固。",
+			say = "확실한 승기를 확보하려는 마음인 건 압니다만 적색 중축이 있는 이상 현재 확보된 해역 역시 생각만큼 지금 견고하지 않습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那就应该执行这样冒进的作战么？在敌方情报不明，甚至在双方战斗力对比都不明确的情况下盲目发动进攻绝对不是明智的选择。",
+			say = "그럼 이렇게 무모한 작전을 수행해야 해?? 적의 정보가 불분명하고 심지어 쌍방의 전력이 명확하지 않은 상황에서 무모하게 공격을 시도하는 건 결코 현명한 선택이 아니야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明知战斗结果不可控，却依然要把指挥官卷进去。",
+			say = "전투 결과를 예측할 수 없다는 것을 알면서도, 지휘관을 꼭 위험에 빠트려야겠다는 거잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "如果再发生之前那样因为冒进出现的意外情况你们打算怎么办？",
+			say = "만약에 또 이전과 같이 예상치 못한 상황이 생기면 어떡할 생각인데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,7 +1037,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "我们已经充分吸取了教训。在这次行动中，我们将会尽全力保证指挥官同志的安全。",
+			say = "우린 이미 그로 인한 충분한 교훈을 얻었습니다. 이번 작전에서 지휘관님의 안전을 전적으로 보장하려고 최선을 다할 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1054,7 +1054,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，这是战争。只要身处前线，任何时候都不存在100%的安全。",
+			say = "하지만 이건 전쟁입니다. 전선에 있는 한 어느 순간에도 100% 안전하다고 장담할 순 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1073,7 +1073,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "出现意外情况和主动去火坑里是两回事吧！",
+			say = "예상치 못한 상황과 무모하게 불길에 뛰어드는 건 달라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "这件事应该听一听指挥官同志本人的意见，为什么指挥官同志没有出现在会议上？",
+			say = "이 일에 관해서는 지휘관님의 의견을 한번 들어봐야 할 것 같습니다. 지휘관님은 왜 회의에 참석하지 않은 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,7 +1120,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "因为此次是由于你们的独断专行导致的突发情况，指挥官还在返回NY港的路上呢！",
+			say = "왜냐면 이번은 당신들이 독단적으로 만들어 낸 돌발 상황이니까. 지휘관은 아직도 NY 항으로 돌아오는 길이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1138,7 +1138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "那这件事就等指挥官同志到来之后再继续谈吧。",
+			say = "그럼 이 일은 지휘관님이 도착하면 다시 이야기하도록 하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这是两码事吧！就算指挥官出于大义同意了，也不能改变这是一次不成熟又高风险行动的本质！",
+			say = "이건 별개의 일이지! 지휘관이 대의를 위해 동의한다고 쳐도 위험한 행동의 본질은 변하지 않아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以呢？白鹰的意思是，要反对这次对于铁血的打击行动么？",
+			say = "그래서요? 이글 유니온은 이번 메탈 블러드에 대한 공격을 반대한다는 뜻입니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,7 +1193,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "至少在现阶段，我们认为时机还不成熟。",
+			say = "적어도 현 단계에서는, 아직 적절한 시기가 아니라고 생각해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家也不用吵的这么厉害嘛。或者也许，你们觉得可不可以这样？",
+			say = "이렇게 심하게 다투지 않아도 될 것 같은데. 아니면 이렇게 하는 건 어떤지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1230,7 +1230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "NA海域和陆间海之中的皇家舰队确实无法脱身，不过实力雄厚的白鹰舰队只要有意愿的话，还是能够抽出支援力量的吧？",
+			say = "NA 해역과 지중해의 로열 함대는 확실히 어려울 것 같고 실력 있는 이글 유니온의 지원만 있다면 가능할 것 같은데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1249,7 +1249,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "白鹰派遣舰队与指挥官同行，一来可以保证行动的成功率，二来指挥官同志的安全也更有保障。",
+			say = "이글 유니온의 파견 함대가 지휘관과 동행한다면 작전의 성공률이 높일 수 있고 지휘관의 안전도 보장되니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1267,7 +1267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "也就是说，皇家也支持指挥官参加这次行动么？",
+			say = "그 뜻은 로열도 이번 작전에 지휘관이 참여하는 걸 지지한다는 뜻이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1285,7 +1285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "我们的意思是如果要这样的话，用这种方式会更好吧？",
+			say = "내 말은 만약 그렇게 할 거라면 이 방법이 더 좋지 않겠냐는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1304,7 +1304,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这次会议，伊丽莎白怎么没来？",
+			say = "이번 회의에 엘리자베스는 왜 오지 않은 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1323,7 +1323,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "陛下有一些无法抽身的重要事务要处理。不过无需担心，我的态度也是皇家的共同态度。",
+			say = "폐하께선 현재 중요한 업무를 처리 중이야. 하지만 걱정하지 않아도 돼. 이건 로열 전체의 뜻이기도 하니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1342,7 +1342,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………比这件事还要重要的事……？",
+			say = "흐음…… 이 일보다 더 중요한 일이라고…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1379,7 +1379,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……白鹰确实也无法否认北方联合发动反击的正义性与必要性。",
+			say = "흐음… 이글 유니온도 노스 유니온의 이번 반격을 놓고 그 정의성과 필요성은 부정하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1397,7 +1397,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "不过……很遗憾，白鹰与皇家不同，这不是我现在能立刻决定的事。就算真的要执行，调动舰队也需要时间。",
+			say = "하지만… 아쉽지만, 이글 유니온은 로열과 달리 지금 내가 바로 결정할 수 있는 부분이 아니야. 만약 정말 이 작전이 실행된다고 해도 함대를 이동하려면 시간이 필요하거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1416,7 +1416,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "必要的时候，或许还需要北方联合的港口作为锚地，或者部分区域的临时驻扎和管辖权……",
+			say = "필요하다면 노스 유니온의 항구를 정박지로 삼거나 부분 구역을 임시 주둔지로 삼고 관할권을…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1434,7 +1434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "没问题，只要一切是为了确保行动的胜利的话。",
+			say = "문제없습니다. 작전의 승리를 위한 거라면 모든지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1452,7 +1452,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "反正还有时间呢，指挥官同志也没来。我们就都先回去各自再商议一下，下次会议再见咯。",
+			say = "어차피 아직 지휘관님도 오지 않았고 시간도 남았으니 각자 다시 논의 후 다음 회의에서 만나도록 하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1470,7 +1470,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "很好，就让会议继续开下去吧……",
+			say = "그렇다면 그냥 회의를 계속하도록 하겠습니다.…",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -1505,7 +1505,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "各方已经成功将目光集中在了欧罗巴地区，谁也不会注意到我们接下来的计划。",
+			say = "이미 유럽 제국에게 시선을 돌리는 데 성공했습니다. 누구도 우리의 다음 계획을 눈치채지 못할 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1523,7 +1523,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "只要行动能够成功的话……",
+			say = "작전만 성공할 수 있다면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1541,7 +1541,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "舰队……当然是有的。",
+			say = "함대는…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1556,27 +1556,27 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「META是一种趋势，也是一种本质」</size>",
+					"<size=51>「META는 하나의 트렌드이자 본질입니다.」</size>",
 					1
 				},
 				{
-					"<size=51>「是变化的过程，也是变化的必然」</size>",
+					"<size=51>「변화의 과정이자 필수 요소죠.」</size>",
 					2
 				},
 				{
-					"<size=51>「成为META，你将倾听更真实的声音」</size>",
+					"<size=51>「META가 되면 더욱 진실한 소리를 들을 수 있습니다.」</size>",
 					3
 				},
 				{
-					"<size=51>「成为META，你将感受更强大的力量」</size> ",
+					"<size=51>「META가 되면 더 강한 힘을 느낄 수 있습니다.」</size>",
 					4
 				},
 				{
-					"<size=51>「成为META，你将思考更完美的世界」</size>",
+					"<size=51>「META가 되면 보다 완벽한 세상을 만날 수 있습니다.」</size>",
 					5
 				},
 				{
-					"<size=51>「一起来成为META吧」</size>",
+					"<size=51>「모두 함께 META가 되어주세요」</size>",
 					7
 				}
 			}

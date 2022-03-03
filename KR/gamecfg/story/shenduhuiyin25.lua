@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
+			say = "фатальная ошибка",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "「███解除：89.9％」",
+			say = "\"███ 해제: 89.9%\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "喀琅施塔得睁开双眼，这里是苏丽珂号的科研舱。",
+			say = "크론시타트간 눈을 뜬 곳은 슈리코르테의 연구실이었다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -69,11 +69,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我又回来了啊……",
+			say = "다시 돌아왔어......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "眼前依然是熟悉的场景，不过似乎有哪里不太一样了。",
+			say = "눈앞에는 여전히 익숙한 광경이 펼쳐져 있었지만, 어딘가 달라진 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,27 +99,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_10",
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "阿尔汉格尔斯克？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "伏尔加？",
+			say = "아르한겔스크?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +115,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "基辅？",
+			say = "볼가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,39 +131,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "灵敏？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "无人回应。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "在一片昏暗之中，只能听到设备运行发出的低沉噪音。",
+			say = "키예프?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +147,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "呵，怎么一个人都没有……都去哪儿了？",
+			say = "소브라지텔니?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +165,51 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "苏丽珂号·控制室",
+			say = "아무런 대답도 없었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "어두컴컴한 가운데 설비 운행의 낮은 소음만 들릴 뿐이었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "크론시타트",
+			bgName = "bg_deepecho_10",
+			nameColor = "#ffa500",
+			dir = 1,
+			say = "하, 왜 아무도 없는 거지… 모두 어디로 갔어?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "슈리코르테·통제실",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -238,11 +238,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "控制室里也没有人……潜航舰正在自动驾驶。",
+			say = "통제실에도 아무도 없네… 잠수함도 자동 운행 중이고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,11 +254,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "航行一切正常但是…………无法切换为手动模式。",
+			say = "모두 정상이지만… 수동 모드로 전환이 안돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,11 +270,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "通讯装置也…………呵，完全无法启动。",
+			say = "통신 장치도…………. 헉, 전혀 작동이 안 되잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "在所有试图与外界取得联系的手段均以失败告终后，喀琅施塔得返回了科研舱。",
+			say = "모든 외부와의 시도가 실패로 끝난 뒤 크론시타트는 연구실로 돌아왔다.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -317,11 +317,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这还真是个绝妙的处境……",
+			say = "정말 환장할 노릇이네...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,11 +333,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "所有的同伴都跑了，只留下了我一个人。",
+			say = "모든 동료들이 다 사라지고 나 혼자 남다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,11 +349,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这次潜航任务恐怕也被委员会放弃了吧……",
+			say = "위원회에서도 아마 이번 임무는 포기했겠지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "只留下我一个人，孤零零的在这深海之中。",
+			say = "나 혼자 이 깊은 바닷속에 외롭게 남았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,11 +381,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哈哈……真是悲惨啊。",
+			say = "하핫… 정말 비참하군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,11 +397,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "被委员会抛弃，被同伴抛弃，在深海的铁棺材里长眠就是我喀琅施塔得最后得到的结局么？",
+			say = "위원회로부터 버림받고, 동료로부터 버림받고, 깊은 바다 철관 속에서 혼자 영면하는 게 바로 내 결말이라고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "屏幕上的一行行代码不断刷新着，同步程序再一次启动了。",
+			say = "화면에 코드가 계속돼서 표시되고, 동기화 프로그램이 다시 작동됐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,41 +427,25 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_10",
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "………………无所谓了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "画面定格在最终的确认界面，喀琅施塔得的手悬停在按钮上方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不论如何也要完成任务……",
+			say = "……이젠 아무래도 상관없어.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "화면은 마지막 확인 화면에 멈춰져 있고 크론시타트의 손이 버튼 위에 멈춰있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,11 +457,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算只有我一个人……",
+			say = "좌우간 임무를 완수해야 한다. 부디...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,11 +473,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算无法返航…………",
+			say = "나 혼자서라도...…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,11 +489,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算被世人遗忘………………",
+			say = "설령 돌아가지 못해도…….…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "크론시타트",
+			bgName = "bg_deepecho_10",
+			nameColor = "#ffa500",
+			dir = 1,
+			say = "설령 세상 사람들에게 잊혀진다 해도...…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

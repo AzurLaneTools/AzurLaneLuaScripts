@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
+			say = "фатальная ошибка",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "「███解除：22.8％」",
+			say = "\"███해제: 22.8%\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你不会真的想喝吧？",
+			say = "… 정말 마시려구?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "任务中禁止饮酒？我要记在航行日志里了哦？",
+			say = "작전 수행 중에 음주 금진데, 작전 일지에 다 적는다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -113,9 +113,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_deepecho_6",
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			dir = 1,
-			say = "……欸？怎么突然不说话了，在思考说服我的话术么？",
+			say = "…어랏? 왜 갑자기 말이 없어? 날 설득 시킬 방법을 생각하고 있는 거야?",
 			bgm = "battle-deepecho",
 			flashout = {
 				dur = 0.5,
@@ -143,11 +143,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我这是在…………哪儿？",
+			say = "지금……여긴 어디야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？你在苏丽珂号的科研舱中哦？",
+			say = "...? 슈리코르테 연구실이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,11 +175,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苏丽珂号……科研舱………………",
+			say = "슈리코르테…. 연구실………….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +191,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，突然这样…………感觉身体难受么？",
+			say = "왜 그래, 갑자기…… 어디 안 좋아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还以为你说要喝伏特加是开玩笑……别急，我这就去给你拿一杯。",
+			say = "보드카 마시자고 농담한 줄 알았는데… 급하긴, 지금 바로 가서 가져올게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用了……那个确实是我在开玩笑。",
+			say = "아니야… 그건 내가 장난친 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,11 +239,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你还记得刚才发生的事么？",
+			say = "방금 일어난 일 기억해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,11 +255,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才发生的事是指……灵敏开始回收样本，之后我们来到科研舱准备同步，之后你要喝伏特加的事么？",
+			say = "방금 일어난 일이라면… 소브라지텔니가 샘플을 회수하기 시작하고 우리가 연구실에서 동기화 작업을 하고 또 보드카 마시고 싶다고 한 거?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,11 +271,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有这些么……？",
+			say = "그것밖에 없어…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我记得只有这些哦。你想问什么？",
+			say = "으응… 이게 다잖아. 뭘 묻고 싶은 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,11 +303,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…………问些我觉得你知道但是你好像并不知道的。",
+			say = "우움…… 네가 알고 있는 거 같은데 또 모르고 있는 거 같은 것들.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,11 +319,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要想耍宝的话，我觉得任务即将开始的此刻并不是一个合适的时机欸。",
+			say = "장난치고 싶은 거면, 임무가 곧 시작될 지금은 좋은 타이밍이 아니라고 생각하는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,11 +335,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵……说的也是。同步装置真的还没有启动过吧？",
+			say = "하핫… 그렇네, 동기화 장치는 아직 작동해 본 적 없는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,11 +351,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对没有。毕竟要等灵敏完成样本回收之后，我们这边的同步装置才能够达成启动条件。",
+			say = "응. 소브라지텔니의 샘플 회수가 완료돼야 이쪽 동기화 장치를 작동할 수 있으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,11 +367,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你真的没事吧，要不然我们休息一会再开始也可以哦？",
+			say = "… 너 정말 괜찮은 거 맞아? 아니면 좀 쉬었다가 다시 시작해도 되는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,11 +383,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系没关系，可能刚刚只是我有点走走神了~",
+			say = "아니야, 괜찮아. 방금 그냥 좀 정신이 나갔나 봐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,11 +399,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灵敏",
+			actorName = "소브라지텔니",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喀琅施塔得，样本回收完毕，可以进行下一步操作了！",
+			say = "크론시타트, 샘플 회수가 끝났어. 다음 작업을 진행해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,11 +415,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……知道了。那就开始操作吧，阿尔汉格尔斯克。",
+			say = "… 알겠어. 그럼 작업을 시작하자, 아르한겔스크.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,11 +431,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解~现在开始最终检查————嗯，各模块运行正常，已经检测到样本到位。",
+			say = "오케이~ 지금부터 최종 검사 시작————각 모듈은 작동 정상, 샘플 측정 대기 완료.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "将头盔与眼罩安装好，视野陷入了一片黑暗。",
+			say = "헬멧과 안대를 장착하니 시야가 어두워졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,11 +461,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚经历的一切真的只是短暂的幻觉么……",
+			say = "아까 전 겪은 모든 건 정말 단지 환각에 불과한 걸까...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,11 +477,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "아르한겔스크",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么3——2——1———",
+			say = "그럼 3——2——1———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			bgName = "star_level_bg_1100",
 			actorName = "？？？",
 			dir = 1,
-			say = "要拍照了哦~",
+			say = "사진 찍겠습니다~",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -524,7 +524,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "喀琅施塔得",
+			actorName = "크론시타트",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,

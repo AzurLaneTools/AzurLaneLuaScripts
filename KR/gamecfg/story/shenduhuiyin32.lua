@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "皇家·女王宅邸",
+			say = "로열-여왕의 저택",
 			side = 2,
 			bgName = "star_level_bg_116",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "萨福克正抱着文件，急匆匆地在走廊中穿梭着。",
+			say = "서포크가 서류를 품에 안은 채 복도를 급히 뛰어가고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "虽然在贝尔法斯特的叮嘱下，萨福克这次有记得好好看了表，但问题是她根本就没给表上发条。",
+			say = "벨파스트의 당부를 받긴 했지만, 서포크는 이번엔 시계를 잘 보라는 걸 기억했습니다. 하지만 문제는 시계의 배터리가 방전이었다는 것.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "等到发现这件事时，她已经完全错过了时间。为了赶路，慌不择路的她只得选择了从来没走过的近路。",
+			say = "이걸 발견했을 때, 그녀는 이미 지각을 한 상태. 최대한 빠르게 가기 위해 그녀는 한 번도 가지 않은 가장 가까운 길을 선택했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜呜呜……要迟到了！",
+			say = "흐아아... 늦겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么跑了这么久都没到啊……明明平常都没有这么远的……！",
+			say = "꽤 오랫동안 달렸는데도 왜 아직 도착하지 못한 거지… 평소에 이렇게 멀다고 느끼지 않았는데…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我不会是迷路了吧？",
+			say = "설마 길을 잃은 건 아니겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "萨福克站定在原地。直到这时候，她才发现自己好像已经跑进了宫殿的地下。",
+			say = "서포크는 걸음을 멈췄다. 그제야 그녀는 자신이 이미 궁궐의 지하에 들어선 걸 발견했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "伊丽莎白所喜爱的华丽装潢早已荡然无存，取而代之的则是泛着冷色的白色钢墙。",
+			say = "엘리자베스가 좋아하는 화려한 인테리어는 이미 사라지고, 차가운 하얀색 철벽만이 사방을 둘러싸고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我居然在陛下的宫殿里迷路了？！",
+			say = "… 내가 감히 폐하의 궁궐에서 길을 잃었다고?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完了完了……这下肯定要被贝法说教一整年了。",
+			say = "망했다, 망했어... 이번엔 벨파스트한테 정말 일 년은 혼날 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "哟，这里有外人来还真是稀奇。你是女仆队的孩子么？",
+			say = "어랏, 이곳에 외부인이 오는 건 드문 일인데, 메이드 대의 사람인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜噫！",
+			say = "으아악!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……是、是！请问是哪位在说话？不……不要吓我啊……",
+			say = "... 네, 맞습니다! 혹시 누구시죠? 절 놀라게 하지 마세요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "抱歉抱歉~你是不小心迷路进来的？",
+			say = "미안, 미안~ 실수로 길을 잃었나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是诶，没想到还有这样的地方……",
+			say = "맞아요, 이런 곳도 있을 줄은 몰랐네요.……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是萨福克，你是……？",
+			say = "전 서포크입니다. 당신은…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "萨福克啊~嗯~我有听谢菲介绍过。",
+			say = "서포크~ 그렇구나~ 셰피한테 들은 적 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "好像是一位情绪比较飘忽的女仆？",
+			say = "종잡을 수 없는 메이드라던데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这算什么评价诶！工作我还是会认真做的哦！",
+			say = "그건 무슨 평가죠! 일이라면 최선을 다해서 하고 있습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的……看你这身打扮，原来是女仆队的新人啊。",
+			say = "에… 그 차림새를 보니, 메이드 대의 신입이잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨福克，你在这里做什么？",
+			say = "서포크, 여기서 뭐 하고 계시나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢菲？！呼……得救了。",
+			say = "셰피?! 휴… 살았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你知道这里是哪里么？",
+			say = "여기가 어딘지 아세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我只顾着着急给陛下送情报，一不留神就在这里迷路了……",
+			say = "폐하께 급히 가는 길이었는데, 길을 잃어버렸어요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……看来由于转移过来过于仓促，结构设计上还有所疏忽啊。",
+			say = "그렇군요... 급하게 옮기는 바람에 구조 설계에 조금 문제가 생겼나 보네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？",
+			say = "네...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用在意，这里只是陛下为了装古董修的新地下室而已……我送你出去吧。",
+			say = "신경 쓰지 마세요. 이곳은 폐하께서 골동품을 위해 새로 제작하신 지하실이에요… 저와 함께 나가시죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帮大忙了，谢菲！",
+			say = "정말 고마워요, 셰피!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "举手之劳而已。对了……",
+			say = "가는 길일뿐인데요. 참...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下希望这里在完工之前能够暂时保密，所以在这里发生的事出去之后不要跟任何人说哦？",
+			say = "폐하께서는 이곳이 완공되기 전까진 이곳에 관한 이야기가 외부로 새어 나가지 않길 바라십니다. 그러니 오늘 여기서 일어난 일은 아무에게도 말씀하시면 안 되는 거 아시죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "了解，了解！快加速加速加速———真要来不及了，快把我送出去吧！",
+			say = "오케이, 알겠어요! 어서 빨리 빨리 가죠———이러다 정말 지각하겠어요, 어서요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

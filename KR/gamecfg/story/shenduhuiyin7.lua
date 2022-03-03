@@ -10,7 +10,7 @@ return {
 			bgm = "bgm-cccp3",
 			side = 2,
 			bgName = "bg_deepecho_2",
-			say = "警报音————",
+			say = "경보음————",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/ui/alarm",
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？这是…………",
+			say = "어…? 이건……………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "喀琅施塔得！刚刚是基地的警报系统！似乎是在周边海域发现了正在接近的塞壬舰队！",
+			say = "크론시타트! 기지 경보 시스템이야! 근처 해역에서 이쪽으로 오는 세이렌 함대를 발견한 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "敌人规模呢？",
+			say = "적의 규모는?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "稍等，我去侦察一下哦————",
+			say = "잠깐만요, 제가 정찰하고 올게요————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只看到了零星的敌人，规模不大，似乎只是偶然接近的巡逻队。",
+			say = "적은 드문드문 보여요, 규모도 크지 않고 아마 어쩌다가 접근 중인 순찰대 같아요.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "这种规模依靠基地的驻防舰队应该就能轻松解决~",
+			say = "이 정도 규모는 기지의 주둔 함대만으로도 쉽게 해결할 수 있어요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "看起似乎是这样呢。不过……我觉得这个机会还挺合适的。大家要不要去练练手？",
+			say = "그럴 것 같네. 하지만… 마침 좋은 기회라고 생각하는데, 한번 연습해 보는 건 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就像赛前热身一样？",
+			say = "마치 경기 전 몸을 푸는 것처럼?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没错~就像赛前热身一样，在正式执行任务之前，首先重温一下极地的寒风吧。",
+			say = "그렇지~ 경기 전 워밍업처럼 정식 임무를 수행하기 전에 극지의 찬바람을 한번 체험해 보는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "好耶！正好去实验一下潜航舰的性能！",
+			say = "좋아! 마침 잠수함의 성능도 실험해 보고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "我也没问题哦。",
+			say = "저도 이의 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,8 +259,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "啊——大家快看天上，极光开始出现了！",
+			actorName = "볼가",
+			say = "어랏——하늘 좀 보세요, 오로라가 나타났어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,24 +274,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_3",
-			say = "潜航舰平整宽阔的前甲板正是欣赏美景的绝佳地点，众人来到甲板处，望着天空微微出神。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_3",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "灵敏",
-			say = "哇……今天的极光真漂亮！",
+			say = "잠수함의 넓은 갑판은 아름다운 경치를 감상하기에 더없이 좋은 곳으로, 모두 갑판으로 나와 하늘을 바라보며 잠시 넋을 놨다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,8 +290,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "赞同。",
+			actorName = "소브라지텔니",
+			say = "와… 오늘 오로라가 정말 예쁘다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +307,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "你知道么，基辅，极光的光芒是自太阳而来的高速带电粒子经过磁场偏转之后与空气粒子碰撞形成的哦。",
+			actorName = "키예프",
+			say = "동의해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,8 +324,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "绚烂飘动的极光本身也是巨大的能量释放!",
+			actorName = "소브라지텔니",
+			say = "키예프, 오로라의 빛은 태양에서 온 고속 대전 입자들이 자기장을 거쳐 대기 중의 입자와 충돌해서 빛을 내는 거래.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,8 +341,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "……听起来好像没有那么浪漫了。",
+			actorName = "소브라지텔니",
+			say = "현란하게 펄럭이는 오로라 그 자체만으로도 엄청난 에너지 방출이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,8 +358,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "是么~粒子碰撞产生的高能释放形成了梦幻的光带！我觉得还是挺浪漫的~",
+			actorName = "키예프",
+			say = "… 그렇게 말하니까 하나도 낭만적이지 않잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,8 +375,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "………你开心就好。",
+			actorName = "소브라지텔니",
+			say = "그런가~ 입자가 부딪혀서 나오는 높은 에너지 방출이 만들어내는 환상적인 빛이라니! 로맨틱하잖아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,22 +392,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "这么美妙的景色，让人忍不住许愿呢~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_3",
-			say = "伏尔加双手合十，似乎对着极光认真许下了什么愿望。",
+			actorName = "키예프",
+			say = "네가 즐거우면 됐지, 뭐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,8 +409,39 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "（希望这次的任务可以顺顺利利，所有人都能够平安回去~）",
+			actorName = "볼가",
+			say = "이렇게 아름다운 경치를 보고 있자니 소원을 빌지 않을 수가 없네요~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_3",
+			say = "볼가는 오로라를 향해 열심히 뭔가를 빌듯 두 손을 모았다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_3",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "볼가",
+			say = "(이번 임무를 순조롭게 끝내고 모두 무사히 돌아갈 수 있길~)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_deepecho_3",
 			dir = 1,
 			blackBg = true,
-			say = "潜航舰开始了移动，极地要塞在众人的视野中缓慢倒退着。以此为标志，任务正式开始了。",
+			say = "잠수함의 이동이 시작됐고, 극지 요새는 많은 사람의 시야에서 천천히 뒷걸음질 치고 있었다. 이를 기점으로 본격적인 임무가 시작됐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

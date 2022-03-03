@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "一段时间的航行之后，众人来到了岛屿上。这座岛屿不大，不过植被却十分茂盛。",
+			say = "항해 후 섬에 도착했다. 이 섬은 크지 않지만, 식생은 매우 무성했다.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从这里继续向前……然后到这里…………",
+			say = "여기서 계속 앞으로 가다가… 여기서…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "差不多该出现了……",
+			say = "이제 나올 때가 됐는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么差不多快要出现了？",
+			say = "뭐가 나올 때가 됐다는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……失策，不小心把心里的声音说出来了啊。",
+			say = "… 실수, 혼잣말을 입 밖으로 말해버렸네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伏尔加有点担心你，又不好上来搭话，所以就拜托我来看看咯。",
+			say = "볼가가 널 걱정해, 근데 말 걸기도 눈치 보인다고 내가 와봤어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我有表现得那么明显么……",
+			say = "내가 그렇게 티를 냈나...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说明显的话也不明显，至少灵敏和基辅就没看出来。",
+			say = "뭐, 그렇게 티 나진 않았어. 적어도 소브라지텔니랑 키예프는 눈치채지 못했으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伏尔加不说的话，我其实也没太注意到，毕竟现在的情况确实是蛮有冲击力的。",
+			say = "볼가가 말하지 않았으면 사실 나도 잘 몰랐을 거야, 확실히 지금 상황은 아주 충격적이니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过一旦注意到之后，其实表现得还挺明显的。",
+			say = "막상 이야길 듣고 다시 보니 티 나는 것 같기도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……哪方面？",
+			say = "… 뭐가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "开玩笑的方面。如果是平常的你，一定会拿没有预见到这种情况的科研部门开涮吧？",
+			say = "농담적인 부분. 평소의 너라면 이런 상황을 예상하지 못한 연구 부서를 욕했을 텐데, 아니야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这倒确实…………（倒不如说确实已经涮过一次了……）",
+			say = "그건 맞지만… (사실 이미 한바탕 욕을 퍼부었는데…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以到底是怎么回事？",
+			say = "그래서 어떻게 된 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从坐到椅子上开始你就有点心不在焉的，来到这里之后也没好转。",
+			say = "의자에 앉아 있을 때부터 뭔가 집중하지 못하는 모습이던데, 이곳에 와서도 똑같고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "差不多也该说说原因了吧？同伴们正在担心哦。",
+			say = "이젠 말할 때도 된 것 같은데? 우리 모두 걱정하고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……其实确实发生了一些事，不过我还没想好应该怎么跟你们讲。",
+			say = "… 사실 무슨 일이 있었던 건 사실이지만 아직 너희에게 어떻게 이야기해야 할지 몰라서.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请再给我一点时间……",
+			say = "조금만 더 시간을 줘...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然你都说到这个份上了的话————",
+			say = "네가 그렇게까지 얘기하면————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "前方的区域禁止入内哦。",
+			say = "전방 구역은 출입 금지입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "就在喀琅施塔得与阿尔汉格尔斯克交谈时，二人身旁的树林中突然传来一位少女的声音。",
+			say = "크론시타트가 아르한겔스크가 이야기를 나누고 있을 때, 숲에서 한 소녀의 목소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然出现了……",
+			say = "역시 나타났네...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "————！",
+			say = "————!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "停！不要突然发动攻击，接下来交给我吧。",
+			say = "잠깐! 갑자기 공격은 안 돼, 만약 평범한 사람이 다치면 어떡하려구.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "抱歉，下意识。",
+			say = "미안, 나도 모르게 그만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "你没受伤吧，好人理查德小姐？",
+			say = "… 다친 덴 없지, 본험 리차드?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "嗯，没事哦。是突然向你们搭话的我不对。",
+			say = "네, 괜찮아요. 갑자기 말을 건 제가 잘못했어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "不过你居然知道我的名字啊，没想到在这里也能碰到粉丝。",
+			say = "근데 제 이름을 아시다니, 여기서도 팬을 만날 수 있을 줄은 몰랐어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,41 +508,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_5",
-			say = "伴随着话语声，一位少女从旁边的树林中走了出来，然后径直挤入了北方联合众人中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "好人理查德，你来这里究竟是做什么的，前方进行的演习到底是什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "哇啊……一上来就问的这么直接。你们该不会是北方联合的间谍吧？",
+			say = "말소리와 함께 한 소녀는 숲에서 걸어 나와 곧장 노스 유니온의 앞에 섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,8 +524,25 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "欸？！我明明是天才机械师，哪里看起来像间谍啦！",
+			actorName = "크론시타트",
+			say = "본험 리차드, 당신은 도대체 이곳에 왜 온 거지? 전방 훈련 해역은 대체 뭐고??",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "본험리차드",
+			say = "와아… 등장하자마자 이렇게 직설적으로 물어볼 줄은 몰랐네요. 설마 당신들 노스 유니온의 스파이는 아니죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,76 +558,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "盯————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "啊哈哈哈……确实以间谍来说这种组合太奇怪了，刚才是玩笑话。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "不过刚才问我问题的大姐姐身上倒是确实有一股类似的气息哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "提问也很奇怪。正常来说，应该先问我是来这里做什么的，如果对我的回答不满意，紧接着才会问我究竟是来做什么的吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "也就是说，虽然我还什么都没有说，你已经料到我的回答了？",
+			actorName = "소브라지텔니",
+			say = "어?! 난 분명히 천재 엔지니어인데 대체 어딜 봐서 스파이 같아 보인다는 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,8 +575,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "也可以这么说……如果我猜的没错的话，你会回答是因为受不了Division13的规章制度所以偷偷跑到这个度假岛上来玩的？",
+			actorName = "키예프",
+			say = "찌릿————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,8 +592,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "好厉害————",
+			actorName = "본험리차드",
+			say = "아하하하… 확실히 스파이라면 이런 조합은 너무 이상하긴 해요. 농담이었어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,8 +609,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "不过这个回答是真的哦，好人理查德确实是偷偷跑来这个岛上玩的。",
+			actorName = "본험리차드",
+			say = "근데 아까 저한테 질문하셨던 언니한텐 뭔가 수상한 느낌이 들긴 하네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,8 +626,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "虽然差不多也到了该回去的时间就是了。",
+			actorName = "본험리차드",
+			say = "질문도 이상하구요. 정상적으로라면 뭐하러 왔는지 먼저 물어보고 내 대답에 만족하지 않는다면 다시 물어보지 않겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,42 +643,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "至于你刚才问的演习，这个就比较有趣了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "大洋联邦VS前进阵线，两大阵营的主力舰队几乎于同一时间在同一片海域举行着大规模演习。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#696969",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "这种场景十分难得一见吧？",
+			actorName = "본험리차드",
+			say = "즉, 저는 아직 아무 말도 하지 않았지만, 당신은 이미 저의 대답을 예상한 것 같은데요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,25 +660,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "听起来还……真是壮观。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（交代的情报和之前不一样了……前进阵线么，又听到了一个新词。）",
+			actorName = "크론시타트",
+			say = "그렇게 말할 수도 있지만… 만약 내 짐작이 맞다면 당신의 대답은 Division 13의 규제를 견디기 힘들어서 몰래 이 섬에 놀러 왔다고 할 거였겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,8 +677,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "对了~来拍个照吧。",
+			actorName = "본험리차드",
+			say = "대단한데요————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,76 +694,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "今天参观了这么美丽的景色，又遇到了像你们这样跨阵营远道而来的神秘同伴，让我们把这段时光记录下来吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "欸……好突然，怎么办喀琅施塔得？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "嗯…………我没意见，大家一起拍一张吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "灵敏",
-			say = "好诶，看我摆一个酷酷的表情。基辅也是，笑一个笑一个~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "基辅",
-			say = "我就是这样的性格，不要勉强我。",
+			actorName = "본험리차드",
+			say = "하지만 그 대답은 사실입니다. 본험 리차드는 이곳에 몰래 놀러 온 게 맞거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,8 +711,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "那么3——2——1——",
+			actorName = "본험리차드",
+			say = "물론 돌아갈 때가 거의 다 됐지만요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,8 +728,42 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "要拍照了哦~",
+			actorName = "본험리차드",
+			say = "당신이 방금 물어본 훈련이라면 비교적 흥미롭네요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "본험리차드",
+			say = "대양 연방vs전진 전선. 양 진영의 주력 함대가 거의 같은 시간 같은 해역에서 대규모 훈련을 시행해요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "본험리차드",
+			say = "이런 장면은 보기 힘들겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,8 +779,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "嘿嘿嘿，茄子~!",
+			actorName = "크론시타트",
+			say = "듣기만 해도…정말 장관이군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,13 +791,183 @@ return {
 			}
 		},
 		{
-			actorName = "好人理查德",
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "크론시타트",
+			say = "(…전진 전선이라니, 이전엔 없었던 새로운 정보야.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "본험리차드",
+			say = "참~ 사진 한번 찍는 거 어때요?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "본험리차드",
+			say = "오늘 이렇게 아름다운 경치도 구경하고 저와 같이 몰래 놀러 나온 여러분을 만나니까 좋은 시간을 사진으로 남기고 싶어지네요~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "아르한겔스크",
+			say = "엣… 갑자기? 크론시타트, 어떻게 할까?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "크론시타트",
+			say = "응…… 난 좋아. 한 장 찍자.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "소브라지텔니",
+			say = "좋아, 내 멋진 표정 좀 봐. 키예프도 빨리 웃어~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "키예프",
+			say = "난 원래 이런 성격이니까 강요하지 말아 줄래.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "본험리차드",
+			say = "그럼 3——2——1——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#696969",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "본험리차드",
+			say = "사진 찍겠습니다~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "볼가",
+			say = "헤헤헤, 치즈~!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "본험리차드",
 			side = 2,
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "大满足~那我就要回去了，你们有什么计划，继续在这里转一段时间么？",
+			say = "대만족이네요~ 그럼 전 이만 돌아가야겠어요. 이곳에 더 머물다 갈 계획인가요?",
 			soundeffect = "event:/ui/kuaimen",
 			flashN = {
 				color = {
@@ -1006,8 +1006,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "嗯，难得来一趟，我们打算多呆一会。",
+			actorName = "크론시타트",
+			say = "응, 모처럼 왔는데, 좀 더 있다 가려고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,8 +1023,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "只呆在岛上的话未免也太无趣了，你不觉得么？",
+			actorName = "본험리차드",
+			say = "섬에만 있으면 너무 재미없지 않아요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,8 +1040,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "……嗯？",
+			actorName = "크론시타트",
+			say = "…응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,8 +1057,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "既然附近正在举行难得一见的壮观演习。如果对力量有兴趣的话————",
+			actorName = "본험리차드",
+			say = "근처에서 보기 힘든 엄청난 훈련이 벌어지고 있으니, 만약 힘에 관심이 많다면————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,8 +1074,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "要不要过去看看？",
+			actorName = "본험리차드",
+			say = "가서 구경하는 건 어때요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,8 +1091,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（怎么回事…这个突变的态度……在之前的幻象中没有出现过类似的发展啊！）",
+			actorName = "크론시타트",
+			say = "(뭐야… 태도가 돌변했어…. 이전엔 이야기가 이렇게 진행되지 않았는데!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,8 +1108,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "你不会阻止我们吗？",
+			actorName = "크론시타트",
+			say = "우리를 막지 않을 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,8 +1125,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "不会哦，我为什么会阻碍想要寻找力量的人呢？",
+			actorName = "본험리차드",
+			say = "제가 왜요. 힘을 찾으러 온 사람을 제가 왜 방해해요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,8 +1142,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "那么就在此别过了，拜拜~",
+			actorName = "본험리차드",
+			say = "그럼 전 이만 가보도록 할게요. 안녕~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "在众人的注视下，少女在海面上滑出优雅的曲线，渐渐消失在大家的视野中。",
+			say = "많은 사람이 지켜보는 가운데 소녀는 바다 위에서 우아한 곡선을 그리며 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是一位奇妙的少女和一段奇妙的对话啊~",
+			say = "정말 신기한 소녀와 신기한 대화가 오갔네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1191,7 +1191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是怎么知道她会出现，还知道她的名字的？",
+			say = "그녀가 나타날지 어떻게 알았어? 이름은 또 어떻게 알았고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1209,7 +1209,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（其实我更奇怪的是为什么你们不知道了……）",
+			say = "(사실 가장 이상한 건 왜 너흰 기억 못 하냐는 거야...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1226,7 +1226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个嘛……就是我刚才提到的暂时没办法说明的部分。",
+			say = "글쎄… 이게 바로 내가 아까 말한 지금으론 말할 수 없는 부분이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1243,7 +1243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……了——解——————",
+			say = "히잉… 알——겠——————어",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1260,7 +1260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那接下来要去哪里？这里风景虽好，我们也不能一直观光下去吧。",
+			say = "그럼 이제 어디로 가? 경치도 좋지만 계속 관광할 순 없잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1278,7 +1278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那是自然~前面说的规模难得一见的演习，你们有兴趣么？",
+			say = "그건 당연히~ 전방에 엄청난 훈련이 진행되고 있다는데, 다들 관심 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1296,7 +1296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我有！刚刚她拍照的设备你们注意到了么！",
+			say = "난 좋아! 방금 사진 찍은 카메라 봤어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1324,7 +1324,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "完全的高科技产品，我根本就没见过集成程度如此高显示如此清晰的便携设备！",
+			say = "완전 첨단 기기던데, 저렇게 집성도가 높고 선명하게 찍히는 휴대기기는 한 번도 본 적 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1341,7 +1341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道那些参加演习的舰队都是什么样子的！",
+			say = "훈련에 참여한 함대들은 대체 어떨지 궁금하네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1359,7 +1359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "尖端作战力量的披露……我也有兴趣。",
+			say = "최고 수준의 훈련이라면…. 나도 관심 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1376,7 +1376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……听起来是两大阵营在对峙的感觉，我们这么直接过去不会有危险吧。",
+			say = "… 듣자 하니 양 진영이 대치하고 있다는 느낌으로 들리는데 저희가 가는 게 위험하진 않겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1394,7 +1394,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没关系，我们这次选一个安全的路线就好。",
+			say = "걱정하지 마. 이번에는 안전한 코스를 선택하면 되니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1411,7 +1411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就这么决定了？",
+			say = "그럼 이렇게 결정된 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1430,7 +1430,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯。事不宜迟，让我们调转航向出发吧！",
+			say = "응. 늦으면 안 되니까 항로를 돌려 출발하자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

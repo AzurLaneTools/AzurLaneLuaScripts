@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·极地要塞近海",
+			say = "극지 해역-극지 요새 근해",
 			side = 2,
 			bgName = "bg_hms_7",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "战斗结束，敌人全部消灭。",
+			say = "전투 종료. 모든 적 소멸 완료.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "大家都没事吧？基辅，战斗的时候不要冲的那么前哦，会受伤的。",
+			say = "다들 괜찮아요? 키예프, 전투 중에 혼자 그렇게 앞으로 나가지 마세요, 다칠 수도 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "但是我不想让大家受伤……",
+			say = "근데 너흴 다치게 하고 싶지 않은걸...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "但·是·我·不·想·让·大·家·受·伤~~~",
+			say = "근·데.너.흴.다.치.게.하.고.싶.지.않.은.걸~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "不要学我说话！",
+			say = "내 말 따라 하지 마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "诶嘿嘿嘿！那也不能冲过头了让自己受伤哦~",
+			say = "히히힛! 그래도 돌진해서 키예프가 다치면 안된다구~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我这不是完好无损的回来了……",
+			say = "다치지 않고 멀쩡히 왔잖아...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,8 +173,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "看来热身的效果不错，感觉怎么样？正式任务和训练中多少还是有些区别吧？",
+			actorName = "크론시타트",
+			say = "워밍업 결과가 좋은데, 어떻게 생각해? 정식 임무와 훈련은 그래도 좀 다르니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,8 +190,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "嗯！兴奋地我都忍不住多开了好多炮！",
+			actorName = "소브라지텔니",
+			say = "응! 흥분해서 포를 너무 많이 쏴버렸지 모야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,8 +217,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "我倒是稍微有些紧张……不过总算还是平稳掌握了制空权。",
+			actorName = "볼가",
+			say = "전 오히려 조금 긴장했지만… 그래도 무사히 제공권을 잡았어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,8 +234,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "我没问题哦？我在皇家的时候其实已经参与过一些实战了。",
+			actorName = "아르한겔스크",
+			say = "난 문제 없지? 사실 난 로열에서 이미 몇몇 실전에 참여한 적 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,8 +251,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "等等…………你去皇家的时候舰装还没有完成吧，你是用什么参加实战的？！",
+			actorName = "크론시타트",
+			say = "잠깐…… 네가 로열에 있을 땐 아직 함장이 완성되지도 않았을 땐데, 대체 뭐로 실전에 참여했다는 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,8 +268,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "哎呀~情报通的喀琅施塔得也有不知道的事啊。",
+			actorName = "아르한겔스크",
+			say = "아이고~ 정보통인 크론시타트도 모르는 게 있네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,8 +285,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "那就更不能这么简单告诉你了~以后有机会的话，麻烦拿点重要情报来交换哦。",
+			actorName = "아르한겔스크",
+			say = "그럼 더더욱 쉽게 말해줄 수 없겠네~ 나중에 기회가 되면 중요한 정보랑 맞교환하는 거로 하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,8 +302,8 @@ return {
 			bgName = "bg_deepecho_14",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "啧…………好好好~",
+			actorName = "크론시타트",
+			say = "칫…… 그래라~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我的状态良好，不过……这艘潜航舰并没有想象中厉害。",
+			say = "난 양호했지만…. 이 잠수함은 생각만큼 위력이 강하진 않았던 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟苏丽珂号上基本没搭载什么武器嘛~",
+			say = "아무래도 슈리코르테는 지금 무기가 거의 탑재되어 있지 않으니까 그렇겠지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "不过我仔细检查过其他部分了，它的装甲和防御系统可是超级超级的豪华……就这么直接潜到马里亚纳海沟底大概都没问题！",
+			say = "하지만 다른 부분을 꼼꼼히 살펴봤지만, 장갑과 방어 시스템은 정말 초초초 호화롭더라구… 마리아나 해구까지 바로 가는 것도 문제없을 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "也就是说安全性是货真价实的高呢……很好，相比于火力，我们接下来的任务更需要仰赖它的安全性能。",
+			say = "그만큼 안전성이 정말 높다는 얘기네… 좋아, 앞으로의 임무에서는 잠수함의 화력보단 안전성에 의존해야겠는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "毕竟执行任务的地点是在我们和塞壬都难以施展拳脚的深海区域……",
+			say = "임무를 수행하는 장소도 아무래도 우리랑 세이렌 모두에게 어려운 심해 구역이니까…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "大家返回舰艇内部，灵敏，准备进入“深潜模式”吧。",
+			say = "모두 함선 안으로 돌아가. 소브라지텔니, '심해 잠수 모드'를 준비하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 701090,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "收到~~~~！诶嘿嘿，其实那个按钮，我早就想按下去了！",
+			say = "예에에엡~~~~! 에헤헷, 사실 그 버튼, 아까부터 누르고 싶었다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

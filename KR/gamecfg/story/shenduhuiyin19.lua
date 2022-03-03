@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "舰队跟随喀琅施塔得的指引，正步步靠近演习海域。",
+			say = "함대는 크론시타트의 안내에 따라 훈련 해역으로 발걸음을 옮겼다.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "灵敏，通讯频道里有收到什么呼叫么？",
+			say = "소브라지텔니. 혹시 통신 채널에 무슨 호출 같은 거 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有哦，频道内很安静，一切正常。",
+			say = "아니. 조용하고 정상인데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "很好。",
+			say = "아주 좋아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（看来这次绕开大洋联邦演习区是正确的，接下来尝试一下联络本部……）",
+			say = "(대양 연방의 훈련 구역으로 안 가서 다행이군, 그럼 이제 본부에 연락을…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（这个距离的话，应该能联络到白鹰东海岸的情报站……）",
+			say = "(이 거리라면 이글 유니온 동해안 통신소에 연락할 수 있을 거야…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "喀琅施塔得悄悄地操作舰装的通讯器对一个隐秘的频率进行了呼叫。",
+			say = "크론시타트는 몰래 통신기를 조작해 숨겨진 주파수를 호출했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "통신기",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（没有任何反应？！那阿非利加的情报站呢……？！）",
+			say = "(아무런 반응이 없다고?! 그럼 아프리카의 통신소는?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "통신기",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "喀琅施塔得有些焦虑地又试了好几个频率，不过通讯器中依然是一片死寂。",
+			say = "크론시타트는 초조해하며 여러 주파수를 더 시도해 봤지만, 통신기 안은 여전히 쥐 죽은 듯 조용했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（这下我确信了……这片空间绝对不是什么正常的地方。）",
+			say = "(백 퍼센트야… 이 공간은 결코 정상적인 곳이 아니야.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（既然之前大洋联邦没有给出友好回应，那这次就去前进阵线的演习区吧。）",
+			say = "(그동안 대양 연방이 우호적인 반응을 보이지 않았던 만큼 이번에는 전진 전선의 훈련 구역으로 가보자.）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（这个名字不知道为什么听起来有些亲切，而且……再怎么说，总不会两边都没有好态度吧。）",
+			say = "(이 이름이 왜 친근하게 들리는지 모르겠지만… 설마, 양쪽 다 우리한테 적대적일 린 없겠지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
