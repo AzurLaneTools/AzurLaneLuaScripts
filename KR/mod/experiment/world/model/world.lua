@@ -514,14 +514,14 @@ function slot0.EntranceToReplacementMapList(slot0, slot1)
 		end
 	end
 
+	if slot1.becomeSairen then
+		table.insert(slot2, slot0:GetMap(slot1.config.sairen_chapter[1]))
+	end
+
 	for slot6, slot7 in ipairs(slot1.config.teasure_chapter) do
 		if slot0.inventoryProxy:GetItemCount(slot7[1]) > 0 then
 			table.insert(slot2, slot0:GetMap(slot7[2]))
 		end
-	end
-
-	if slot1.becomeSairen then
-		table.insert(slot2, slot0:GetMap(slot1.config.sairen_chapter[1]))
 	end
 
 	if slot1:GetBaseMap().isPressing and #slot1.config.complete_chapter > 0 then
@@ -558,7 +558,13 @@ function slot0.ReplacementMapType(slot0, slot1)
 
 	for slot5, slot6 in ipairs(slot0.config.task_chapter) do
 		if slot6[2] == slot1.id then
-			return "task_chapter", pg.world_task_data[slot6[1]].type == 0 and i18n("area_zhuxian") or i18n("area_renwu")
+			if pg.world_task_data[slot6[1]].type == 0 then
+				return "task_chapter", i18n("area_zhuxian")
+			elseif slot7 == 6 then
+				return "task_chapter", i18n("area_dangan")
+			else
+				return "task_chapter", i18n("area_renwu")
+			end
 		end
 	end
 
@@ -899,7 +905,7 @@ function slot0.InitWorldShopGoods(slot0)
 	slot0.goodDic = {}
 
 	for slot4, slot5 in ipairs(pg.shop_template.all) do
-		if pg.shop_template[slot5].genre == ShopArgs.WorldShop then
+		if pg.shop_template[slot5].genre == ShopArgs.WorldShop or slot6.genre == ShopArgs.WorldCollection then
 			slot0.goodDic[slot5] = 0
 		end
 	end

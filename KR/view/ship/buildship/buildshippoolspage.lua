@@ -171,6 +171,12 @@ end
 
 function slot0.SwitchPool(slot0, slot1)
 	slot0.pool = slot1
+	slot0.buildPainting = nil
+
+	if PLATFORM_CODE == PLATFORM_CH and slot0.pool.activityId and slot0.pool.activityId ~= 0 then
+		slot0.buildPainting = pg.activity_template[slot0.pool.activityId] and slot2.config_client and slot2.config_client.build_painting and string.len(slot2.config_client.build_painting) ~= 0 and slot2.config_client.build_painting or nil
+	end
+
 	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
 	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(getProxy(ActivityProxy):getBuildActivityCfgByID(slot1:getConfigTable().id) and slot6.bg or "loadingbg/bg_" .. slot4.icon)
 	slot9 = i18n("buildship_" .. slot2 .. "_tip")
@@ -234,7 +240,7 @@ end
 function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 	slot2 = nil
 
-	if slot0.painting ~= ((not slot1.exchange_ship_id or slot1.exchange_ship_id <= 0 or pg.ship_skin_template[pg.ship_data_statistics[slot1.exchange_ship_id].skin_id].painting) and slot0.contextData.falgShip:getPainting()) then
+	if slot0.painting ~= ((not slot0.buildPainting or slot0.buildPainting) and (not slot1.exchange_ship_id or slot1.exchange_ship_id <= 0 or pg.ship_skin_template[pg.ship_data_statistics[slot1.exchange_ship_id].skin_id].painting) and slot0.contextData.falgShip:getPainting()) then
 		slot3 = pg.UIMgr
 		slot3 = slot3:GetInstance()
 

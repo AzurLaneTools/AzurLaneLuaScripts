@@ -627,7 +627,7 @@ function slot0.didEnter(slot0)
 	slot0:emit(LevelMediator2.ON_EVENT_LIST_UPDATE)
 
 	if slot0.contextData.editEliteChapter then
-		slot0:displayFleetEdit(slot0.contextData.editEliteChapter)
+		slot0:displayFleetEdit(getProxy(ChapterProxy):getChapterById(slot0.contextData.editEliteChapter))
 
 		slot0.contextData.editEliteChapter = nil
 	elseif slot0.contextData.selectedChapterVO then
@@ -1065,6 +1065,7 @@ function slot0.updateActivityBtns(slot0)
 
 	if getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot8:isEnd() and not slot1 and not slot0.contextData.map:isSkirmish() and not slot0.contextData.map:isEscort() then
 		setImageSprite(slot0.activityBtn, slot9 and LoadSprite("ui/mainui_atlas", "event_map_" .. slot8.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
+		setActive(slot0.activityBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 	end
 
 	setActive(slot0.activityBtn, slot10)
@@ -1085,6 +1086,8 @@ function slot0.updateActivityBtns(slot0)
 			else
 				setActive(slot0.actExtraBtnAnim, false)
 			end
+
+			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
 		setActive(slot0.actEliteBtn, checkExist(slot0.contextData.map:getBindMap(), {
@@ -1655,10 +1658,9 @@ function slot0.displayChapterPanel(slot0, slot1, slot2)
 
 		uv0:hideChapterPanel()
 
-		slot3 = uv1:clone()
-		slot3.loopFlag = slot0
+		uv0.contextData.chapterLoopFlag = slot0
 
-		if slot3:getConfig("type") == Chapter.CustomFleet then
+		if uv1:getConfig("type") == Chapter.CustomFleet then
 			uv0:displayFleetEdit(slot3)
 		elseif #slot3:getNpcShipByType(1) > 0 then
 			if uv1:isValid() then
@@ -1702,6 +1704,9 @@ function slot0.destroyChapterPanel(slot0)
 end
 
 function slot0.displayFleetSelect(slot0, slot1)
+	slot1 = Clone(slot1)
+	slot1.loopFlag = slot0.contextData.chapterLoopFlag
+
 	slot0.levelFleetView:updateSpecialOperationTickets(slot0.spTickets)
 	slot0.levelFleetView:Load()
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)
@@ -1744,6 +1749,9 @@ function slot0.destroyFleetSelect(slot0)
 end
 
 function slot0.displayFleetEdit(slot0, slot1)
+	slot1 = Clone(slot1)
+	slot1.loopFlag = slot0.contextData.chapterLoopFlag
+
 	slot0.levelFleetView:updateSpecialOperationTickets(slot0.spTickets)
 	slot0.levelFleetView:Load()
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)

@@ -7493,6 +7493,160 @@ pg.world_chapter_template_reset = {
 		reset_item = {},
 		reset_buff = {}
 	},
+	[200000] = {
+		id = 200000,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20020
+		},
+		reset_trigger = {
+			2501000
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200010] = {
+		id = 200010,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20020
+		},
+		reset_trigger = {
+			2501000
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200020] = {
+		id = 200020,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20020
+		},
+		reset_trigger = {
+			2501000
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200030] = {
+		id = 200030,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20020
+		},
+		reset_trigger = {
+			2501000
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200040] = {
+		id = 200040,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20020
+		},
+		reset_trigger = {
+			2501000
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200100] = {
+		id = 200100,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20021
+		},
+		reset_trigger = {
+			2501001
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200110] = {
+		id = 200110,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20021
+		},
+		reset_trigger = {
+			2501001
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200120] = {
+		id = 200120,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20021
+		},
+		reset_trigger = {
+			2501001
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200130] = {
+		id = 200130,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20021
+		},
+		reset_trigger = {
+			2501001
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200140] = {
+		id = 200140,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20021
+		},
+		reset_trigger = {
+			2501001
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[200200] = {
+		id = 200200,
+		transport = 1,
+		transport_colormask = 1,
+		tip = "파일 해역을 벗어나시겠습니까?\n(이탈 후 되돌아올 시, 작전 진도는 초기화되며, 모든 적을 다시 상대해야 합니다.)",
+		reset_map = {
+			20022
+		},
+		reset_trigger = {
+			2501002
+		},
+		reset_item = {},
+		reset_buff = {}
+	},
 	[890140] = {
 		id = 890140,
 		transport = 0,
@@ -7808,6 +7962,17 @@ pg.world_chapter_template_reset = {
 		140004,
 		140005,
 		140006,
+		200000,
+		200010,
+		200020,
+		200030,
+		200040,
+		200100,
+		200110,
+		200120,
+		200130,
+		200140,
+		200200,
 		890140,
 		890150,
 		890160,

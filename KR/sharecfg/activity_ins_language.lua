@@ -9525,6 +9525,147 @@ pg.activity_ins_language = {
 	op_reply_283_1_1 = {
 		value = "시간 날 때 그냥 연습하는 거야~ 서툴지 않게 하려고~"
 	},
+	ins_284 = {
+		value = ""
+	},
+	ins_discuss_284_1 = {
+		value = ""
+	},
+	ins_reply_284_1_1 = {
+		value = ""
+	},
+	ins_reply_284_1_2 = {
+		value = ""
+	},
+	ins_discuss_284_2 = {
+		value = ""
+	},
+	ins_reply_284_2_1 = {
+		value = ""
+	},
+	ins_reply_284_2_2 = {
+		value = ""
+	},
+	ins_reply_284_2_3 = {
+		value = ""
+	},
+	ins_reply_284_2_4 = {
+		value = ""
+	},
+	ins_op_284_1_1 = {
+		value = ""
+	},
+	op_reply_284_1_1 = {
+		value = ""
+	},
+	ins_op_284_1_2 = {
+		value = ""
+	},
+	op_reply_284_1_2 = {
+		value = ""
+	},
+	ins_285 = {
+		value = ""
+	},
+	ins_discuss_285_1 = {
+		value = ""
+	},
+	ins_reply_285_1_1 = {
+		value = ""
+	},
+	ins_discuss_285_2 = {
+		value = ""
+	},
+	ins_reply_285_2_1 = {
+		value = ""
+	},
+	ins_reply_285_2_2 = {
+		value = ""
+	},
+	ins_reply_285_2_3 = {
+		value = ""
+	},
+	ins_op_285_1_1 = {
+		value = ""
+	},
+	op_reply_285_1_1 = {
+		value = ""
+	},
+	ins_286 = {
+		value = ""
+	},
+	ins_discuss_286_1 = {
+		value = ""
+	},
+	ins_reply_286_1_1 = {
+		value = ""
+	},
+	ins_discuss_286_2 = {
+		value = ""
+	},
+	ins_reply_286_2_1 = {
+		value = ""
+	},
+	ins_reply_286_2_2 = {
+		value = ""
+	},
+	ins_op_286_1_1 = {
+		value = ""
+	},
+	op_reply_286_1_1 = {
+		value = ""
+	},
+	ins_287 = {
+		value = ""
+	},
+	ins_discuss_287_1 = {
+		value = ""
+	},
+	ins_reply_287_1_1 = {
+		value = ""
+	},
+	ins_discuss_287_2 = {
+		value = ""
+	},
+	ins_reply_287_2_1 = {
+		value = ""
+	},
+	ins_discuss_287_3 = {
+		value = ""
+	},
+	ins_reply_287_3_1 = {
+		value = ""
+	},
+	ins_op_287_1_1 = {
+		value = ""
+	},
+	op_reply_287_1_1 = {
+		value = ""
+	},
+	ins_288 = {
+		value = ""
+	},
+	ins_discuss_288_1 = {
+		value = ""
+	},
+	ins_reply_288_1_1 = {
+		value = ""
+	},
+	ins_reply_288_1_2 = {
+		value = ""
+	},
+	ins_discuss_288_2 = {
+		value = ""
+	},
+	ins_reply_288_2_1 = {
+		value = ""
+	},
+	ins_op_288_1_1 = {
+		value = ""
+	},
+	op_reply_288_1_1 = {
+		value = ""
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -12700,6 +12841,53 @@ pg.activity_ins_language = {
 		ins_discuss_283_3,
 		ins_reply_283_3_1,
 		ins_op_283_1_1,
-		op_reply_283_1_1
+		op_reply_283_1_1,
+		ins_284,
+		ins_discuss_284_1,
+		ins_reply_284_1_1,
+		ins_reply_284_1_2,
+		ins_discuss_284_2,
+		ins_reply_284_2_1,
+		ins_reply_284_2_2,
+		ins_reply_284_2_3,
+		ins_reply_284_2_4,
+		ins_op_284_1_1,
+		op_reply_284_1_1,
+		ins_op_284_1_2,
+		op_reply_284_1_2,
+		ins_285,
+		ins_discuss_285_1,
+		ins_reply_285_1_1,
+		ins_discuss_285_2,
+		ins_reply_285_2_1,
+		ins_reply_285_2_2,
+		ins_reply_285_2_3,
+		ins_op_285_1_1,
+		op_reply_285_1_1,
+		ins_286,
+		ins_discuss_286_1,
+		ins_reply_286_1_1,
+		ins_discuss_286_2,
+		ins_reply_286_2_1,
+		ins_reply_286_2_2,
+		ins_op_286_1_1,
+		op_reply_286_1_1,
+		ins_287,
+		ins_discuss_287_1,
+		ins_reply_287_1_1,
+		ins_discuss_287_2,
+		ins_reply_287_2_1,
+		ins_discuss_287_3,
+		ins_reply_287_3_1,
+		ins_op_287_1_1,
+		op_reply_287_1_1,
+		ins_288,
+		ins_discuss_288_1,
+		ins_reply_288_1_1,
+		ins_reply_288_1_2,
+		ins_discuss_288_2,
+		ins_reply_288_2_1,
+		ins_op_288_1_1,
+		op_reply_288_1_1
 	}
 }

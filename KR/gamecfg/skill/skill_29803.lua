@@ -10,13 +10,24 @@ return {
 					weapon_id = 74026,
 					emitter = "BattleBulletEmitter"
 				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				targetAniEffect = "",
+				target_choise = {
+					"TargetSelf"
+				},
+				arg_list = {
+					buff_id = 29807
+				}
 			}
 		}
 	},
 	uiEffect = "",
 	name = "全弹发射",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 29803,
 	picture = "0",
 	desc = "全弹发射",
@@ -37,6 +48,17 @@ return {
 			arg_list = {
 				weapon_id = 74026,
 				emitter = "BattleBulletEmitter"
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			targetAniEffect = "",
+			target_choise = {
+				"TargetSelf"
+			},
+			arg_list = {
+				buff_id = 29807
 			}
 		}
 	}

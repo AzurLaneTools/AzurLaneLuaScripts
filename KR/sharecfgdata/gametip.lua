@@ -9453,7 +9453,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "타슈켄트, 소비에츠카야 러시아, 아브로라 등 캐릭터 건조 확률 UP!"
+	tip = "건조 누적 200회마다 UR 함선 크론시타트 획득 가능(최대 4회)"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -14371,7 +14371,7 @@ _G.pg.gametip.guild_task_selecte_tip = {
 }
 
 _G.pg.gametip.guild_task_accept = {
-	tip = "[$1]의 [$2]을(를) 수령합니다. 금주 개인 보상은 이미 획득했습니다. [$3]을(를) 중복으로 진행할 경우 함대 코인 보상은 획득하지 못하지만 대함대 임무 완성 횟수는 누적됩니다. 수령을 확인하시겠습니까?"
+	tip = "[$1]의 [$2]을(를) 수령합니다. 금주 개인 보상은 이미 획득했습니다. [$3]을(를) 중복으로 진행할 경우 <color=#FF5C5CFF>함대 코인 보상은 획득하지 못하지만</color>, <color=#92FC63FF>대함대 임무 완성 횟수는 누적</color>됩니다. 수령을 확인하시겠습니까?"
 }
 
 _G.pg.gametip.guild_commander_and_sub_op = {
@@ -16866,6 +16866,10 @@ _G.pg.gametip.world_automode_setting_all_4_2 = {
 	tip = "X"
 }
 
+_G.pg.gametip.world_collection_task_tip_1 = {
+	tip = "이미 진행 중인 파일 임무가 있어 구매할 수 없습니다."
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "일반 해역"
 }
@@ -16896,6 +16900,10 @@ _G.pg.gametip.area_renwu = {
 
 _G.pg.gametip.area_zhuxian = {
 	tip = "메인 해역"
+}
+
+_G.pg.gametip.area_dangan = {
+	tip = "파일 해역"
 }
 
 _G.pg.gametip.charge_trade_no_error = {
@@ -19146,7 +19154,7 @@ _G.pg.gametip.attrset_save = {
 }
 
 _G.pg.gametip.attrset_ask_save = {
-	tip = "현재 수정 내용을 저장하시겠습니까? "
+	tip = "현재 수정 내용을 저장하시겠습니까?"
 }
 
 _G.pg.gametip.attrset_save_success = {

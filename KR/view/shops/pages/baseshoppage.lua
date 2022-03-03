@@ -48,15 +48,17 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 end
 
 function slot0.SetPainting(slot0)
-	if slot0.contextData.paintingView.name ~= slot0:GetPaintingName() then
-		slot2 = slot0.contextData.paintingView
+	slot1, slot2, slot3 = slot0:GetPaintingName()
 
-		slot2:Init(slot1)
-
-		slot2, slot3 = slot0:GetPaintingEnterVoice()
+	if slot0.contextData.paintingView.name ~= slot1 then
 		slot4 = slot0.contextData.paintingView
 
-		slot4:Chat(slot2, slot3, true)
+		slot4:Init(slot1, slot2, slot3)
+
+		slot4, slot5 = slot0:GetPaintingEnterVoice()
+		slot6 = slot0.contextData.paintingView
+
+		slot6:Chat(slot4, slot5, true)
 		onButton(slot0, slot0.contextData.paintingView.touch, function ()
 			slot0, slot1 = uv0:GetPaintingTouchVoice()
 

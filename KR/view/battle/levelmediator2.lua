@@ -70,19 +70,11 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2, slot3)
 		slot4 = getProxy(ChapterProxy)
-		slot5 = slot3.id
-		uv0.contextData.editEliteChapter = slot3
+		uv0.contextData.editEliteChapter = slot3.id
 		slot7 = nil
 
 		if (slot3:getEliteFleetCommanders()[slot1] or {})[slot2] then
 			slot7 = getProxy(CommanderProxy):getCommanderById(slot6[slot2])
-		end
-
-		function slot8()
-			if uv0.contextData.editEliteChapter then
-				uv2.eliteCommanderList = uv1:getChapterById(uv0.contextData.editEliteChapter.id).eliteCommanderList
-				uv0.contextData.editEliteChapter = uv2
-			end
 		end
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
@@ -103,7 +95,6 @@ function slot0.register(slot0)
 					commanderId = slot0[1],
 					callback = function ()
 						uv0()
-						uv1()
 					end
 				})
 			end,
@@ -114,7 +105,6 @@ function slot0.register(slot0)
 					pos = uv3,
 					callback = function ()
 						uv0()
-						uv1()
 					end
 				})
 			end
@@ -234,16 +224,12 @@ function slot0.register(slot0)
 		slot10 = {}
 
 		for slot14, slot15 in pairs(getProxy(BayProxy):getRawData()) do
-			if type(slot2) == "number" then
-				if slot2 ~= 0 and slot2 ~= slot15:getShipType() then
-					table.insert(slot10, slot14)
-				end
-			elseif type(slot2) == "string" and not table.contains(ShipType.BundleList[slot2], slot15:getShipType()) then
+			if not ShipType.ContainInLimitBundle(slot2, slot15:getShipType()) then
 				table.insert(slot10, slot14)
 			end
 		end
 
-		uv0.contextData.editEliteChapter = slot6
+		uv0.contextData.editEliteChapter = slot6.id
 		slot11 = {}
 
 		for slot15, slot16 in pairs(slot5) do
@@ -320,7 +306,7 @@ function slot0.register(slot0)
 			shipVOs = slot1.shipVOs
 		})
 
-		uv0.contextData.editEliteChapter = slot1.chapter
+		uv0.contextData.editEliteChapter = slot1.chapter.id
 	end)
 	slot0:bind(uv0.ON_STAGE_SHIPINFO, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {

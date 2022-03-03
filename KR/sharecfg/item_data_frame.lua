@@ -300,10 +300,10 @@ pg.item_data_frame = {
 	[318] = {
 		time_limit_type = 0,
 		name = "극한의 별",
-		gain_by = "",
+		gain_by = "深度回音",
 		id = 318,
 		time_second = 0,
-		desc = "<color=#ffffff>「추후 이벤트 획득」</color>",
+		desc = "<color=#ffffff>「극지 임무에서 탁월한 공헌을 한 동지에게 가장 숭고한 경의를 표한다.」——「깊게 울리는 메아리」 이벤트 획득</color>",
 		scene = {}
 	},
 	[401] = {

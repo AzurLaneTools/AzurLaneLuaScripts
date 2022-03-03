@@ -11417,6 +11417,264 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1620001] = {
+		map = 1620001,
+		name = "깊게 울리는 메아리·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-deepecho",
+		enter_story = "SHENDUHUIYIN1",
+		ani_name = "Map_1610001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4265,
+		ui_type = 1,
+		bg = "Map_1610001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1620011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620002] = {
+		map = 1620002,
+		name = "깊게 울리는 메아리·하편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "SHENDUHUIYIN16",
+		ani_name = "Map_1610002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4265,
+		ui_type = 1,
+		bg = "Map_1610002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1620012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620011] = {
+		map = 1620011,
+		name = "깊게 울리는 메아리·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-deepecho",
+		enter_story = "SHENDUHUIYIN1",
+		ani_name = "Map_1610003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4265,
+		ui_type = 1,
+		bg = "Map_1610003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1620001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620012] = {
+		map = 1620012,
+		name = "깊게 울리는 메아리·하편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "SHENDUHUIYIN16",
+		ani_name = "Map_1610004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4265,
+		ui_type = 1,
+		bg = "Map_1610004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1620002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620025] = {
+		map = 1620025,
+		name = "깊게 울리는 메아리·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "",
+		ani_name = "Map_1610004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4265,
+		ui_type = 1,
+		bg = "Map_1610004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1620012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620026] = {
+		map = 1620026,
+		name = "깊게 울리는 메아리·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "",
+		ani_name = "Map_1610004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4265,
+		ui_type = 1,
+		bg = "Map_1610004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1620012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
@@ -13515,6 +13773,12 @@ pg.expedition_data_by_map = {
 		1610012,
 		1610025,
 		1610026,
+		1620001,
+		1620002,
+		1620011,
+		1620012,
+		1620025,
+		1620026,
 		2100000,
 		2100001,
 		2100010,

@@ -690,6 +690,10 @@ function slot0.isUnlock(slot0)
 	end
 end
 
+function slot0.isPlayerLVUnlock(slot0)
+	return slot0:getConfig("unlocklevel") <= getProxy(PlayerProxy):getRawData().level
+end
+
 function slot0.isClear(slot0)
 	if slot0:getPlayType() == ChapterConst.TypeMainSub then
 		return true
@@ -1052,7 +1056,11 @@ function slot0.updateExtraFlags(slot0, slot1, slot2)
 end
 
 function slot0.getExtraFlags(slot0)
-	return slot0.extraFlagList
+	if #slot0.extraFlagList == 0 then
+		slot1 = ChapterConst.StatusDefaultList
+	end
+
+	return slot1
 end
 
 function slot0.updateShipStg(slot0, slot1, slot2, slot3)
@@ -1357,53 +1365,24 @@ end
 
 function slot0.EliteShipTypeFilter(slot0)
 	function slot1(slot0, slot1, slot2)
-		slot3 = 0
+		slot1 = Clone(slot1)
 
-		for slot7, slot8 in ipairs(slot1) do
-			if slot8 == 0 then
-				slot3 = slot3 + 1
-			end
-		end
+		for slot6, slot7 in pairs(slot2) do
+			slot8 = nil
+			slot9 = slot6:getShipType()
 
-		slot4 = {}
+			for slot13, slot14 in ipairs(slot1) do
+				if ShipType.ContainInLimitBundle(slot14, slot9) then
+					slot8 = slot13
 
-		for slot8, slot9 in ipairs(Clone(slot1)) do
-			if type(slot9) == "string" then
-				for slot14, slot15 in ipairs(Clone(ShipType.BundleList[slot9])) do
-					slot4[#slot4 + 1] = slot15
+					break
 				end
 			end
-		end
 
-		for slot8, slot9 in ipairs(slot4) do
-			slot1[#slot1 + 1] = slot9
-		end
-
-		for slot8, slot9 in pairs(slot2) do
-			if table.contains(slot1, slot8:getShipType()) then
-				slot11 = nil
-
-				for slot15, slot16 in ipairs(slot1) do
-					if slot16 == slot10 then
-						slot11 = slot15
-
-						break
-					end
-				end
-
-				table.remove(slot1, slot11)
-			elseif slot3 - 1 < 0 then
-				slot11 = nil
-
-				for slot15, slot16 in ipairs(slot0) do
-					if slot16 == slot9 then
-						slot11 = slot15
-
-						break
-					end
-				end
-
-				table.remove(slot0, slot11)
+			if slot8 then
+				table.remove(slot1, slot8)
+			else
+				table.removebyvalue(slot0, slot7)
 			end
 		end
 	end
@@ -1482,20 +1461,15 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 				slot15 = 0
 
 				for slot19, slot20 in ipairs(slot13) do
-					if type(slot20) == "number" then
-						slot14 = slot14 + slot20
-
-						if slot20 ~= 0 and table.contains(slot7, slot20) then
-							slot15 = 1
-						end
-					elseif type(slot20) == "string" then
+					if slot20 ~= 0 then
 						slot14 = slot14 + 1
-						slot21 = Clone(ShipType.BundleList[slot20])
 
-						if _.any(slot7, function (slot0)
-							return table.contains(uv0, slot0)
+						if underscore.any(slot7, function (slot0)
+							return ShipType.ContainInLimitBundle(uv0, slot0)
 						end) then
 							slot15 = 1
+
+							break
 						end
 					end
 				end
@@ -2206,7 +2180,7 @@ function slot0.getCVship(slot0, slot1)
 
 	if slot1:getFleetType() == FleetType.Normal then
 		slot2 = _.detect(slot1:getShipsByTeam(TeamType.Main, false), function (slot0)
-			return table.contains(ShipType.BundleList[ShipType.BundleAircraftCarrier], slot0:getShipType())
+			return ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, slot0:getShipType())
 		end)
 	end
 
@@ -2218,7 +2192,7 @@ function slot0.getBBship(slot0, slot1)
 
 	if slot1:getFleetType() == FleetType.Normal then
 		slot2 = _.detect(slot1:getShipsByTeam(TeamType.Main, false), function (slot0)
-			return table.contains(ShipType.BundleList[ShipType.BundleBattleShip], slot0:getShipType())
+			return ShipType.ContainInLimitBundle(ShipType.BundleBattleShip, slot0:getShipType())
 		end)
 	end
 

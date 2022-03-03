@@ -339,10 +339,13 @@ function slot0.clearSkin(slot0)
 
 	if slot0.live2dCom and slot0.showType == uv0.SHOW_LIVE2D then
 		Destroy(slot0.live2dCom.gameObject)
-		pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(slot0.live2dCom.name)
 
 		slot0.live2dCom = nil
 	end
+
+	pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
+
+	slot0.live2dRequestId = nil
 end
 
 function slot0.checkSkin(slot0, slot1)
@@ -455,12 +458,7 @@ function slot0.updateSkin(slot0)
 		slot4:LoadingOn()
 
 		slot4 = pg.Live2DMgr.GetInstance()
-
-		slot4:GetLive2DModelAsync(slot0.paintSkin, function (slot0)
-			if slot0 == nil then
-				return
-			end
-
+		slot0.live2dRequestId = slot4:GetLive2DModelAsync(slot0.paintSkin, function (slot0)
 			UIUtil.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
 
 			slot1 = slot0.transform

@@ -160,5 +160,19 @@ pg.ship_spine_shift = {
 			-26,
 			3
 		}
+	},
+	weiyan_4 = {
+		spine = "weiyan_4",
+		mainui_shift = {
+			99,
+			-102
+		}
+	},
+	jiluofu_3 = {
+		spine = "jiluofu_3",
+		mainui_shift = {
+			-45,
+			5
+		}
 	}
 }

@@ -228598,6 +228598,1010 @@ pg.ship_data_statistics = {
 			"Northern Union-DD"
 		}
 	},
+	[701091] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "소브라지텔니",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701090,
+		english_name = "SN Soobrazitelny",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701091,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			388,
+			25,
+			43,
+			31,
+			0,
+			73,
+			0,
+			67,
+			65,
+			48.36,
+			84,
+			50
+		},
+		attrs_growth = {
+			11056,
+			345,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1208,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.1,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Storozhevoy-class",
+			"Northern Union-DD"
+		}
+	},
+	[701092] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "소브라지텔니",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701090,
+		english_name = "SN Soobrazitelny",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701092,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			483,
+			31,
+			54,
+			39,
+			0,
+			73,
+			0,
+			67,
+			65,
+			48.36,
+			84,
+			62
+		},
+		attrs_growth = {
+			11056,
+			345,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1208,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.1,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Storozhevoy-class",
+			"Northern Union-DD"
+		}
+	},
+	[701093] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "소브라지텔니",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701090,
+		english_name = "SN Soobrazitelny",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701093,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			672,
+			43,
+			75,
+			54,
+			0,
+			73,
+			0,
+			67,
+			65,
+			48.36,
+			84,
+			87
+		},
+		attrs_growth = {
+			11056,
+			345,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1208,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.1,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Storozhevoy-class",
+			"Northern Union-DD"
+		}
+	},
+	[701094] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "소브라지텔니",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701090,
+		english_name = "SN Soobrazitelny",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701094,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			956,
+			62,
+			108,
+			77,
+			0,
+			73,
+			0,
+			67,
+			65,
+			48.36,
+			84,
+			125
+		},
+		attrs_growth = {
+			11056,
+			345,
+			602,
+			682,
+			0,
+			510,
+			0,
+			1032,
+			1208,
+			0,
+			0,
+			574
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.15,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Storozhevoy-class",
+			"Northern Union-DD"
+		}
+	},
+	[701101] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "키예프",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701100,
+		english_name = "SN Kiev",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701101,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			409,
+			32,
+			50,
+			35,
+			0,
+			76,
+			0,
+			68,
+			66,
+			50.4,
+			50,
+			51
+		},
+		attrs_growth = {
+			11640,
+			440,
+			686,
+			772,
+			0,
+			529,
+			0,
+			1050,
+			1223,
+			0,
+			0,
+			583
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kiev-Class",
+			"Northern Union-DD",
+			"Northern Union Anshan-DD"
+		}
+	},
+	[701102] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "키예프",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701100,
+		english_name = "SN Kiev",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701102,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			509,
+			40,
+			62,
+			44,
+			0,
+			76,
+			0,
+			68,
+			66,
+			50.4,
+			50,
+			64
+		},
+		attrs_growth = {
+			11640,
+			440,
+			686,
+			772,
+			0,
+			529,
+			0,
+			1050,
+			1223,
+			0,
+			0,
+			583
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kiev-Class",
+			"Northern Union-DD",
+			"Northern Union Anshan-DD"
+		}
+	},
+	[701103] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "키예프",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701100,
+		english_name = "SN Kiev",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701103,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			708,
+			56,
+			87,
+			61,
+			0,
+			76,
+			0,
+			68,
+			66,
+			50.4,
+			50,
+			89
+		},
+		attrs_growth = {
+			11640,
+			440,
+			686,
+			772,
+			0,
+			529,
+			0,
+			1050,
+			1223,
+			0,
+			0,
+			583
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kiev-Class",
+			"Northern Union-DD",
+			"Northern Union Anshan-DD"
+		}
+	},
+	[701104] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "키예프",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701100,
+		english_name = "SN Kiev",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701104,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1007,
+			79,
+			125,
+			87,
+			0,
+			76,
+			0,
+			68,
+			66,
+			50.4,
+			50,
+			127
+		},
+		attrs_growth = {
+			11640,
+			440,
+			686,
+			772,
+			0,
+			529,
+			0,
+			1050,
+			1223,
+			0,
+			0,
+			583
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			1.2,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kiev-Class",
+			"Northern Union-DD",
+			"Northern Union Anshan-DD"
+		}
+	},
 	[702011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -233263,6 +234267,1510 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		}
+	},
+	[705061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "아르한겔스크",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705060,
+		english_name = "SN Arkhangelsk",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1199,
+			79,
+			0,
+			42,
+			0,
+			55,
+			0,
+			22,
+			5,
+			23,
+			72,
+			0
+		},
+		attrs_growth = {
+			32440,
+			984,
+			0,
+			916,
+			0,
+			385,
+			0,
+			343,
+			176,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arkhangelsk",
+			"Northern Union-BB"
+		}
+	},
+	[705062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "아르한겔스크",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705060,
+		english_name = "SN Arkhangelsk",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1491,
+			99,
+			0,
+			52,
+			0,
+			55,
+			0,
+			22,
+			5,
+			23,
+			72,
+			0
+		},
+		attrs_growth = {
+			32440,
+			984,
+			0,
+			916,
+			0,
+			385,
+			0,
+			343,
+			176,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arkhangelsk",
+			"Northern Union-BB"
+		}
+	},
+	[705063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "아르한겔스크",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705060,
+		english_name = "SN Arkhangelsk",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2076,
+			138,
+			0,
+			73,
+			0,
+			55,
+			0,
+			22,
+			5,
+			23,
+			72,
+			0
+		},
+		attrs_growth = {
+			32440,
+			984,
+			0,
+			916,
+			0,
+			385,
+			0,
+			343,
+			176,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arkhangelsk",
+			"Northern Union-BB"
+		}
+	},
+	[705064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "아르한겔스크",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 705060,
+		english_name = "SN Arkhangelsk",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 705064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2954,
+			197,
+			0,
+			104,
+			0,
+			55,
+			0,
+			22,
+			5,
+			23,
+			72,
+			0
+		},
+		attrs_growth = {
+			32440,
+			984,
+			0,
+			916,
+			0,
+			385,
+			0,
+			343,
+			176,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arkhangelsk",
+			"Northern Union-BB"
+		}
+	},
+	[707011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "볼가",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 707010,
+		english_name = "SN Volga",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 707011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1194,
+			0,
+			0,
+			69,
+			75,
+			45,
+			0,
+			35,
+			12,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			29120,
+			0,
+			0,
+			1446,
+			947,
+			314,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			153,
+			155,
+			154
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Volga"
+		}
+	},
+	[707012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "볼가",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 707010,
+		english_name = "SN Volga",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 707012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1485,
+			0,
+			0,
+			86,
+			94,
+			45,
+			0,
+			35,
+			12,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			29120,
+			0,
+			0,
+			1446,
+			947,
+			314,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			153,
+			155,
+			154
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Volga"
+		}
+	},
+	[707013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "볼가",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 707010,
+		english_name = "SN Volga",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 707013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2068,
+			0,
+			0,
+			120,
+			131,
+			45,
+			0,
+			35,
+			12,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			29120,
+			0,
+			0,
+			1446,
+			947,
+			314,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			153,
+			155,
+			154
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Volga"
+		}
+	},
+	[707014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "볼가",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 707010,
+		english_name = "SN Volga",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 707014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2941,
+			0,
+			0,
+			171,
+			187,
+			45,
+			0,
+			35,
+			12,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			29120,
+			0,
+			0,
+			1446,
+			947,
+			314,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			153,
+			155,
+			154
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.2,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Volga"
+		}
+	},
+	[718011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "크론시타트",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 718010,
+		english_name = "SN Kronshtadt",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 718011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1247,
+			54,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			24.8,
+			50,
+			0
+		},
+		attrs_growth = {
+			31949,
+			729,
+			0,
+			919,
+			0,
+			434,
+			0,
+			618,
+			211,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			261
+		},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			0.45,
+			1,
+			0.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kronshtadt"
+		}
+	},
+	[718012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "크론시타트",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 718010,
+		english_name = "SN Kronshtadt",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 718012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1551,
+			67,
+			0,
+			52,
+			0,
+			62,
+			0,
+			43,
+			11,
+			24.8,
+			50,
+			0
+		},
+		attrs_growth = {
+			31949,
+			729,
+			0,
+			919,
+			0,
+			434,
+			0,
+			618,
+			211,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			430
+		},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.45,
+			1,
+			0.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kronshtadt"
+		}
+	},
+	[718013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "크론시타트",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 718010,
+		english_name = "SN Kronshtadt",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 718013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2159,
+			94,
+			0,
+			73,
+			0,
+			62,
+			0,
+			43,
+			11,
+			24.8,
+			50,
+			0
+		},
+		attrs_growth = {
+			31949,
+			729,
+			0,
+			919,
+			0,
+			434,
+			0,
+			618,
+			211,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			430
+		},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.55,
+			1,
+			0.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kronshtadt"
+		}
+	},
+	[718014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "크론시타트",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 718010,
+		english_name = "SN Kronshtadt",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 718014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3072,
+			134,
+			0,
+			104,
+			0,
+			62,
+			0,
+			43,
+			11,
+			24.8,
+			50,
+			0
+		},
+		attrs_growth = {
+			31949,
+			729,
+			0,
+			919,
+			0,
+			434,
+			0,
+			618,
+			211,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			430
+		},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.55,
+			1,
+			0.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kronshtadt"
 		}
 	},
 	[801011] = {
@@ -320256,6 +322764,14 @@ pg.ship_data_statistics = {
 		701082,
 		701083,
 		701084,
+		701091,
+		701092,
+		701093,
+		701094,
+		701101,
+		701102,
+		701103,
+		701104,
 		702011,
 		702012,
 		702013,
@@ -320293,6 +322809,18 @@ pg.ship_data_statistics = {
 		705052,
 		705053,
 		705054,
+		705061,
+		705062,
+		705063,
+		705064,
+		707011,
+		707012,
+		707013,
+		707014,
+		718011,
+		718012,
+		718013,
+		718014,
 		801011,
 		801012,
 		801013,

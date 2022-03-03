@@ -153,6 +153,10 @@ function slot0.getDropInfo(slot0)
 		count = 1,
 		type = DROP_TYPE_ITEM,
 		id = Goods.COMMANDER_BAG_SIZE_ITEM
+	}) and (slot0:getConfig("genre") ~= ShopArgs.WorldCollection or {
+		type = DROP_TYPE_WORLD_ITEM,
+		id = slot2[1],
+		count = slot0:getConfig("num")
 	}) and {
 		type = slot0:getConfig("type"),
 		id = slot2[1],

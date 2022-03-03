@@ -14228,6 +14228,1164 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[654] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 654,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1620003,
+						{
+							2,
+							4
+						}
+					}
+				}
+			}
+		}
+	},
+	[655] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 655,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang02",
+		address = {
+			1,
+			4
+		},
+		effect = {}
+	},
+	[656] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 656,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang03",
+		address = {
+			1,
+			5
+		},
+		effect = {}
+	},
+	[657] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 657,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang01",
+		address = {
+			2,
+			5
+		},
+		effect = {}
+	},
+	[658] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 658,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang02",
+		address = {
+			3,
+			4
+		},
+		effect = {}
+	},
+	[659] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 659,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang03",
+		address = {
+			3,
+			5
+		},
+		effect = {}
+	},
+	[660] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 660,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1620301,
+						{
+							1,
+							2
+						}
+					}
+				}
+			}
+		}
+	},
+	[661] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 661,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1620103,
+						{
+							4,
+							3
+						}
+					}
+				}
+			}
+		}
+	},
+	[662] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 662,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang02",
+		address = {
+			4,
+			2
+		},
+		effect = {}
+	},
+	[663] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 663,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang03",
+		address = {
+			5,
+			2
+		},
+		effect = {}
+	},
+	[664] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 664,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang01",
+		address = {
+			5,
+			3
+		},
+		effect = {}
+	},
+	[665] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 665,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang02",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[666] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 666,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang03",
+		address = {
+			5,
+			4
+		},
+		effect = {}
+	},
+	[667] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 667,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1620302,
+						{
+							2,
+							1
+						}
+					}
+				}
+			}
+		}
+	},
+	[668] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 668,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1620203,
+						{
+							5,
+							3
+						}
+					},
+					{
+						1620203,
+						{
+							5,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
+	[669] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 669,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang02",
+		address = {
+			5,
+			2
+		},
+		effect = {}
+	},
+	[670] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 670,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang03",
+		address = {
+			4,
+			2
+		},
+		effect = {}
+	},
+	[671] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 671,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang01",
+		address = {
+			4,
+			3
+		},
+		effect = {}
+	},
+	[672] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 672,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang02",
+		address = {
+			5,
+			4
+		},
+		effect = {}
+	},
+	[673] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 673,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang03",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[674] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 674,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang01",
+		address = {
+			4,
+			5
+		},
+		effect = {}
+	},
+	[675] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 675,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang02",
+		address = {
+			5,
+			6
+		},
+		effect = {}
+	},
+	[676] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 676,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_normal_bingqiang03",
+		address = {
+			4,
+			6
+		},
+		effect = {}
+	},
+	[677] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 677,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1620303,
+						{
+							3,
+							2
+						}
+					}
+				}
+			}
+		}
+	},
+	[678] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 678,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1622003,
+						{
+							2,
+							4
+						}
+					}
+				}
+			}
+		}
+	},
+	[679] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 679,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang02",
+		address = {
+			1,
+			4
+		},
+		effect = {}
+	},
+	[680] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 680,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang03",
+		address = {
+			1,
+			5
+		},
+		effect = {}
+	},
+	[681] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 681,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang01",
+		address = {
+			2,
+			5
+		},
+		effect = {}
+	},
+	[682] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 682,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang02",
+		address = {
+			3,
+			4
+		},
+		effect = {}
+	},
+	[683] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 683,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang03",
+		address = {
+			3,
+			5
+		},
+		effect = {}
+	},
+	[684] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 684,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1622301,
+						{
+							1,
+							2
+						}
+					},
+					{
+						1622302,
+						{
+							0,
+							7
+						}
+					}
+				}
+			}
+		}
+	},
+	[685] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 685,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1622103,
+						{
+							4,
+							3
+						}
+					}
+				}
+			}
+		}
+	},
+	[686] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 686,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang02",
+		address = {
+			4,
+			2
+		},
+		effect = {}
+	},
+	[687] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 687,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang03",
+		address = {
+			5,
+			2
+		},
+		effect = {}
+	},
+	[688] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 688,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang01",
+		address = {
+			5,
+			3
+		},
+		effect = {}
+	},
+	[689] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 689,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang02",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[690] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 690,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang03",
+		address = {
+			5,
+			4
+		},
+		effect = {}
+	},
+	[691] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 691,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1622303,
+						{
+							2,
+							1
+						}
+					},
+					{
+						1622304,
+						{
+							5,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
+	[692] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 692,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1622203,
+						{
+							5,
+							3
+						}
+					},
+					{
+						1622203,
+						{
+							5,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
+	[693] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 693,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang02",
+		address = {
+			5,
+			2
+		},
+		effect = {}
+	},
+	[694] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 694,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang03",
+		address = {
+			4,
+			2
+		},
+		effect = {}
+	},
+	[695] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 695,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang01",
+		address = {
+			4,
+			3
+		},
+		effect = {}
+	},
+	[696] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 696,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang02",
+		address = {
+			5,
+			4
+		},
+		effect = {}
+	},
+	[697] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 697,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang03",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[698] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 698,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang01",
+		address = {
+			4,
+			5
+		},
+		effect = {}
+	},
+	[699] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 699,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang02",
+		address = {
+			5,
+			6
+		},
+		effect = {}
+	},
+	[700] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 700,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_hard_bingqiang03",
+		address = {
+			4,
+			6
+		},
+		effect = {}
+	},
+	[701] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 701,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1622305,
+						{
+							3,
+							2
+						}
+					},
+					{
+						1622306,
+						{
+							1,
+							6
+						}
+					}
+				}
+			}
+		}
+	},
+	[702] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 702,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1624003,
+						{
+							4,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
+	[703] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 703,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_sp_bingqiang02",
+		address = {
+			3,
+			5
+		},
+		effect = {}
+	},
+	[704] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 704,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_sp_bingqiang03",
+		address = {
+			3,
+			4
+		},
+		effect = {}
+	},
+	[705] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 705,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_sp_bingqiang01",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[706] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 706,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_sp_bingqiang02",
+		address = {
+			5,
+			5
+		},
+		effect = {}
+	},
+	[707] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 707,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "maoxiv3_sp_bingqiang03",
+		address = {
+			5,
+			4
+		},
+		effect = {}
+	},
+	[708] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 708,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				38
+			}
+		}
+	},
 	all = {
 		20,
 		21,
@@ -14843,6 +16001,61 @@ pg.map_event_template = {
 		650,
 		651,
 		652,
-		653
+		653,
+		654,
+		655,
+		656,
+		657,
+		658,
+		659,
+		660,
+		661,
+		662,
+		663,
+		664,
+		665,
+		666,
+		667,
+		668,
+		669,
+		670,
+		671,
+		672,
+		673,
+		674,
+		675,
+		676,
+		677,
+		678,
+		679,
+		680,
+		681,
+		682,
+		683,
+		684,
+		685,
+		686,
+		687,
+		688,
+		689,
+		690,
+		691,
+		692,
+		693,
+		694,
+		695,
+		696,
+		697,
+		698,
+		699,
+		700,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708
 	}
 }

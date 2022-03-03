@@ -139,6 +139,10 @@ function slot0.UpdateAllFashion(slot0, slot1)
 			end)
 			setActive(slot9, true)
 		end
+	else
+		for slot6, slot7 in ipairs(slot0.fashionSkins) do
+			slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6 - 1)]:updateData(slot0:GetShipVO(), slot7, slot0:GetShipVO():proposeSkinOwned(slot7) or table.contains(slot0.skinList, slot7.id) or hasRemouldSkin or slot7.skin_type == ShipSkin.SKIN_TYPE_OLD)
+		end
 	end
 
 	slot0.fashionSkinId = slot0:GetShipVO().skinId

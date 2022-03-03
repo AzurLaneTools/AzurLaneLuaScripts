@@ -83,9 +83,10 @@ function slot0.Init(slot0)
 end
 
 function slot0.LoadSpine(slot0, slot1)
-	slot5 = SpineRole.New(WorldConst.FetchRawShipVO(slot0.fleet[TeamType.Main][1].id))
+	slot3 = slot0.fleet
+	slot4 = SpineRole.New(slot3:GetFlagShipVO())
 
-	slot5:Load(function ()
+	slot4:Load(function ()
 		if uv0.modelType ~= WorldConst.ModelSpine then
 			uv1:Dispose()
 
@@ -107,6 +108,14 @@ function slot0.LoadSpine(slot0, slot1)
 
 		uv2()
 	end, slot0.modelResAsync)
+end
+
+function slot0.UnloadSpine(slot0)
+	if slot0.spineRole then
+		slot0.spineRole:Dispose()
+
+		slot0.spineRole = nil
+	end
 end
 
 function slot0.Update(slot0, slot1)
@@ -244,16 +253,6 @@ function slot0.ClearHealthTimer(slot0)
 		slot0.timerHealth = nil
 
 		setActive(slot0.rtHealth, false)
-	end
-end
-
-function slot0.UnloadModel(slot0)
-	uv0.super.UnloadModel(slot0)
-
-	if slot0.spineRole then
-		slot0.spineRole:Dispose()
-
-		slot0.spineRole = nil
 	end
 end
 

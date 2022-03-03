@@ -82,6 +82,7 @@ slot2 = {
 	BENEFITBUFF_ID_FIELD = slot0.FieldDescriptor(),
 	BENEFITBUFF_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
 	SC_11200_ACTIVITY_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_11200_HX_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11201_ACTIVITY_INFO_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ACTIVITY_ID_FIELD = slot0.FieldDescriptor(),
 	CS_11202_CMD_FIELD = slot0.FieldDescriptor(),
@@ -1326,12 +1327,22 @@ slot2.SC_11200_ACTIVITY_LIST_FIELD.default_value = {}
 slot2.SC_11200_ACTIVITY_LIST_FIELD.message_type = ACTIVITYINFO
 slot2.SC_11200_ACTIVITY_LIST_FIELD.type = 11
 slot2.SC_11200_ACTIVITY_LIST_FIELD.cpp_type = 10
+slot2.SC_11200_HX_LIST_FIELD.name = "hx_list"
+slot2.SC_11200_HX_LIST_FIELD.full_name = "p11.sc_11200.hx_list"
+slot2.SC_11200_HX_LIST_FIELD.number = 2
+slot2.SC_11200_HX_LIST_FIELD.index = 1
+slot2.SC_11200_HX_LIST_FIELD.label = 3
+slot2.SC_11200_HX_LIST_FIELD.has_default_value = false
+slot2.SC_11200_HX_LIST_FIELD.default_value = {}
+slot2.SC_11200_HX_LIST_FIELD.type = 13
+slot2.SC_11200_HX_LIST_FIELD.cpp_type = 3
 SC_11200.name = "sc_11200"
 SC_11200.full_name = "p11.sc_11200"
 SC_11200.nested_types = {}
 SC_11200.enum_types = {}
 SC_11200.fields = {
-	slot2.SC_11200_ACTIVITY_LIST_FIELD
+	slot2.SC_11200_ACTIVITY_LIST_FIELD,
+	slot2.SC_11200_HX_LIST_FIELD
 }
 SC_11200.is_extendable = false
 SC_11200.extensions = {}

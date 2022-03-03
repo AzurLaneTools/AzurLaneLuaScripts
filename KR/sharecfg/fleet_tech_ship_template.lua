@@ -8799,6 +8799,50 @@ pg.fleet_tech_ship_template = {
 			21
 		}
 	},
+	[70109] = {
+		max_star = 5,
+		id = 70109,
+		pt_get = 10,
+		pt_upgrage = 22,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70105,
+		pt_level = 16,
+		add_get_value = 1,
+		add_level_attr = 9,
+		add_get_shiptype = {
+			1,
+			20,
+			21
+		},
+		add_level_shiptype = {
+			1,
+			20,
+			21
+		}
+	},
+	[70110] = {
+		max_star = 6,
+		id = 70110,
+		pt_get = 22,
+		pt_upgrage = 44,
+		add_get_attr = 2,
+		add_level_value = 2,
+		class = 70104,
+		pt_level = 32,
+		add_get_value = 1,
+		add_level_attr = 1,
+		add_get_shiptype = {
+			1,
+			20,
+			21
+		},
+		add_level_shiptype = {
+			1,
+			20,
+			21
+		}
+	},
 	[70201] = {
 		max_star = 6,
 		id = 70201,
@@ -8975,6 +9019,70 @@ pg.fleet_tech_ship_template = {
 			4,
 			5,
 			10
+		}
+	},
+	[70506] = {
+		max_star = 5,
+		id = 70506,
+		pt_get = 32,
+		pt_upgrage = 64,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70503,
+		pt_level = 48,
+		add_get_value = 1,
+		add_level_attr = 2,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
+		}
+	},
+	[70701] = {
+		max_star = 6,
+		id = 70701,
+		pt_get = 34,
+		pt_upgrage = 70,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 70701,
+		pt_level = 52,
+		add_get_value = 2,
+		add_level_attr = 8,
+		add_get_shiptype = {
+			6,
+			7
+		},
+		add_level_shiptype = {
+			6,
+			7
+		}
+	},
+	[71801] = {
+		max_star = 6,
+		id = 71801,
+		pt_get = 48,
+		pt_upgrage = 96,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 71801,
+		pt_level = 72,
+		add_get_value = 1,
+		add_level_attr = 2,
+		add_get_shiptype = {
+			3,
+			13,
+			18
+		},
+		add_level_shiptype = {
+			3,
+			13,
+			18
 		}
 	},
 	[80101] = {
@@ -9890,6 +9998,8 @@ pg.fleet_tech_ship_template = {
 		70106,
 		70107,
 		70108,
+		70109,
+		70110,
 		70201,
 		70202,
 		70203,
@@ -9899,6 +10009,9 @@ pg.fleet_tech_ship_template = {
 		70501,
 		70504,
 		70505,
+		70506,
+		70701,
+		71801,
 		80101,
 		80102,
 		80103,

@@ -4821,6 +4821,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[221] = {
+		spine_extra = "",
+		describe = "극지 요새를 본떠 제작한 기념장. 흔들림 없는 강인한 의지가 느껴진다——「깊게 울리는 메아리」 이벤트 기념",
+		gain_by = "깊게 울리는 메아리",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "maozi3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "메아리 기념장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 221,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -7456,6 +7499,88 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[200004] = {
+		spine_extra = "",
+		describe = "\"보물은 내가 우아하게 접수해주겠어!\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "탈출용 헬기",
+		themeId = 0,
+		icon = "furniture_aerhangeersike_2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200004,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_aerhangeersike_2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"tuozhuai2",
+				{
+					705061
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -95452,8 +95577,8 @@ pg.furniture_data_template = {
 			{
 				"sit",
 				{
-					-31.4,
-					76.2
+					-35.5,
+					63.1
 				},
 				{
 					1,
@@ -95967,6 +96092,7 @@ pg.furniture_data_template = {
 		218,
 		219,
 		220,
+		221,
 		100002,
 		100003,
 		100004,
@@ -96003,6 +96129,7 @@ pg.furniture_data_template = {
 		200001,
 		200002,
 		200003,
+		200004,
 		1001,
 		1002,
 		1101,

@@ -19,6 +19,13 @@ function slot0.register(slot0)
 	slot0:on(11200, function (slot0)
 		uv0.data = {}
 		uv0.params = {}
+		uv0.hxList = {}
+
+		if slot0.hx_list then
+			for slot4, slot5 in ipairs(slot0.hx_list) do
+				table.insert(uv0.hxList, slot5)
+			end
+		end
 
 		for slot4, slot5 in ipairs(slot0.activity_list) do
 			if not pg.activity_template[slot5.id] then
@@ -181,6 +188,18 @@ function slot0.getPanelActivities(slot0)
 			return slot3 < slot2
 		end
 	end):value()
+end
+
+function slot0.checkHxActivity(slot0, slot1)
+	if slot0.hxList and #slot0.hxList > 0 then
+		for slot5 = 1, #slot0.hxList do
+			if slot0.hxList[slot5] == slot1 then
+				return true
+			end
+		end
+	end
+
+	return false
 end
 
 function slot0.getBannerDisplays(slot0)
