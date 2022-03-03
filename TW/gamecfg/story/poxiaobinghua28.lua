@@ -361,7 +361,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			bgName = "bg_cccpv2_12",
-			actorName = "萨拉托加",
+			actorName = "薩拉托加",
 			dir = 1,
 			bgmDelay = 1,
 			say = "北方聯合的各位，很榮幸能在此處與妳們相遇，還有指揮官，好久不見~~",
