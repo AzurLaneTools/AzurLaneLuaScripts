@@ -5,17 +5,70 @@ function slot0.execute(slot0, slot1)
 
 	if slot1:getBody().taskVO:getConfig("scene") and #slot5 > 0 then
 		if slot5[1] == "ACTIVITY_MAP" then
-			slot6, slot7 = slot4:getLastMapForActivity()
+			slot6 = {}
 
-			if not slot6 or not slot4:getMapById(slot6):isUnlock() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-			else
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-					chapterId = slot7,
-					mapIdx = slot6
-				})
+			if slot5[2] then
+				table.insert(slot6, function (slot0)
+					slot1 = getProxy(ActivityProxy)
+
+					if underscore.any(uv0[2], function (slot0)
+						return uv0:getActivityById(slot0) and not slot1:isEnd()
+					end) then
+						slot0()
+					else
+						pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_notStartOrEnd"))
+					end
+				end)
 			end
-		elseif SCENE[slot5[1]] then
+
+			table.insert(slot6, function (slot0)
+				slot1, slot2 = uv0:getLastMapForActivity()
+
+				if slot1 and uv0:getMapById(slot1):isUnlock() then
+					slot0(slot1, slot2)
+				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_notStartOrEnd"))
+				end
+			end)
+			seriesAsync(slot6, function (slot0, slot1)
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+					chapterId = slot1,
+					mapIdx = slot0
+				})
+			end)
+		elseif slot5[1] == "HARD_MAP" then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				mapIdx = slot4:getUseableMaxEliteMap() and slot6.id
+			})
+		elseif SCENE[slot5[1]] == SCENE.LEVEL and slot5[2] then
+			slot6 = {}
+
+			if slot5[2].mapIdx then
+				table.insert(slot6, function (slot0)
+					slot2, slot3 = uv0:getMapById(uv1[2].mapIdx):isUnlock()
+
+					if slot2 then
+						slot0()
+					else
+						pg.TipsMgr.GetInstance():ShowTips(slot3)
+					end
+				end)
+			end
+
+			if slot5[2].chapterId then
+				table.insert(slot6, function (slot0)
+					if uv0:getChapterById(uv1[2].chapterId):isUnlock() then
+						slot0()
+					else
+						pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_chapter_lock"))
+					end
+				end)
+			end
+
+			seriesAsync(slot6, function ()
+				uv0:sendNotification(GAME.GO_SCENE, SCENE[uv1[1]], uv1[2])
+			end)
+		else
 			slot0:sendNotification(GAME.GO_SCENE, SCENE[slot5[1]], slot5[2])
 		end
 
@@ -38,18 +91,7 @@ function slot0.execute(slot0, slot1)
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)
 		end
 	elseif slot9 == 2 then
-		slot11 = slot3:getConfig("target_id_for_client")
-
-		if slot10 == 0 and slot11 ~= 0 then
-			if slot4:getChapterById(slot11) and slot12:isUnlock() then
-				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-					chapterId = slot12 and slot12.id,
-					mapIdx = slot12 and slot12:getConfig("map")
-				})
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
-			end
-		elseif slot10 == 6 then
+		if slot10 == 6 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)
 		elseif slot10 == 7 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.MILITARYEXERCISE)
@@ -58,19 +100,9 @@ function slot0.execute(slot0, slot1)
 		elseif slot10 == 9 then
 			slot0:sendNotification(GAME.BEGIN_STAGE, {
 				system = SYSTEM_PERFORM,
-				stageId = tonumber(slot11)
+				stageId = tonumber(tonumber(slot3:getConfig("target_id")))
 			})
-		elseif slot10 > 7 or type(slot11) == "string" and tonumber(slot11) == 0 then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)
 		else
-			if type(slot11) == "table" and _.all(slot11, function (slot0)
-				return not uv0:getChapterById(slot0):isUnlock()
-			end) then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
-
-				return
-			end
-
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)
 		end
 	elseif slot9 == 3 then
@@ -214,28 +246,7 @@ function slot0.execute(slot0, slot1)
 			})
 		end
 	elseif slot9 == 102 then
-		slot11 = slot3:getConfig("target_id_for_client")
-
-		if slot10 == 0 and slot11 ~= 0 then
-			if slot4:getChapterById(slot11) and slot12:isUnlock() then
-				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-					chapterId = slot12 and slot12.id,
-					mapIdx = slot12 and slot12:getConfig("map")
-				})
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
-			end
-		else
-			if type(slot11) == "table" and _.all(slot11, function (slot0)
-				return not uv0:getChapterById(slot0):isUnlock()
-			end) then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
-
-				return
-			end
-
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)
-		end
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)
 	elseif slot9 == 200 then
 		if slot10 == 1 or slot10 == 2 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.BIANDUI)

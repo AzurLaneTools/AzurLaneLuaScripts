@@ -81,13 +81,16 @@ function slot0.OnDragingCard(slot0, slot1)
 end
 
 function slot0.Swap(slot0, slot1, slot2)
+	slot3 = slot0.displayCards[slot1]
 	slot5 = slot0.displayCards[slot2]
 	slot5._tf.localPosition = slot0.displayPos[slot1]
 	slot0.displayCards[slot2] = slot0.displayCards[slot1]
 	slot0.displayCards[slot1] = slot0.displayCards[slot2]
 	slot0.dragIndex = slot2
-	slot0.displayCards[slot1].slotIndex = slot2
+	slot3.slotIndex = slot2
 	slot5.slotIndex = slot1
+	slot5.typeIndex = slot3.typeIndex
+	slot3.typeIndex = slot5.typeIndex
 	slot6 = slot0.cards[uv0]
 	slot6[slot2] = slot6[slot1]
 	slot6[slot1] = slot6[slot2]

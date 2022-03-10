@@ -1693,7 +1693,20 @@ function temp()
 						["ル"] = {
 							["ス"] = {
 								["ト"] = {
-									this = true
+									this = true,
+									["("] = {
+										M = {
+											E = {
+												T = {
+													A = {
+														[")"] = {
+															this = true
+														}
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}

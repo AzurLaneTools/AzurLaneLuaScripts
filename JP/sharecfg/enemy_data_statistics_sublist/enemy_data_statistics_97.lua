@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_97 = {
+	[100007] = {
+		cannon = 140,
+		name = "アタゴ",
+		antiaircraft_growth = 2880,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 7,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 2600,
+		reload_growth = 0,
+		dodge_growth = 156,
+		reload = 150,
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 6,
+		fog_fx = "",
+		base = 90208,
+		durability = 2400,
+		armor_growth = 0,
+		torpedo_growth = 2763,
+		antiaircraft = 35,
+		hit_growth = 210,
+		armor = 0,
+		speed = 16,
+		torpedo = 33,
+		id = 100007,
+		durability_growth = 100000,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		equipment_list = {
+			100201,
+			314066,
+			314067,
+			314068
+		}
+	},
 	[100008] = {
 		cannon = 20,
 		name = "量産型自爆ボート",
@@ -633,46 +673,6 @@ pg.enemy_data_statistics_97 = {
 		equipment_list = {
 			470105,
 			470106
-		}
-	},
-	[10010011] = {
-		cannon = 6,
-		battle_unit_type = 50,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 33,
-		dodge = 15,
-		id = 10010011,
-		cannon_growth = 468,
-		rarity = 3,
-		reload_growth = 0,
-		dodge_growth = 222,
-		armor = 0,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90179,
-		durability = 510,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		luck_growth = 0,
-		hit_growth = 210,
-		luck = 0,
-		torpedo = 54,
-		durability_growth = 18800,
-		antisub = 0,
-		antiaircraft = 20,
-		antiaircraft_growth = 1638,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			470107,
-			470108
 		}
 	}
 }

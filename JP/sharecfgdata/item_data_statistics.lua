@@ -8406,6 +8406,27 @@ _G.pg.item_data_statistics[21008] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[21009] = {
+	display = "シャルンホルスト(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：シャルンホルスト (META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21009",
+	id = 21009,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -8590,6 +8611,27 @@ _G.pg.item_data_statistics[21905] = {
 	is_world = 0,
 	icon = "Props/21905",
 	id = 21905,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21906] = {
+	display = "シャルンホルスト(META)の解析ポイント。META戦開催期間（2022.6.1）終了時にリセットされます",
+	name = "シャルンホルスト(META)解析Pt",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21906",
+	id = 21906,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -157566,6 +157608,27 @@ _G.pg.item_data_statistics[59277] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59277,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59278] = {
+	display = "「峡湾間の反撃」イベント海域クリアで入手できるイベントアイテム。イベント終了時に削除される",
+	name = "峡湾バッジ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/naerweike2_pt",
+	id = 59278,
 	display_icon = {},
 	price = {},
 	index = {}

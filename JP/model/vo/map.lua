@@ -57,13 +57,13 @@ function slot0.isUnlock(slot0)
 		if slot0:isAnyChapterUnlocked(false, true) then
 			return true
 		else
-			return false, i18n("levelScene_map_lock")
+			return false, i18n("battle_levelScene_lock")
 		end
 	elseif slot0:getMapType() == Map.ELITE then
 		if slot0:isEliteEnabled() then
 			return true
 		else
-			return false, i18n("levelScene_map_lock")
+			return false, i18n("battle_levelScene_hard_lock")
 		end
 	else
 		return true

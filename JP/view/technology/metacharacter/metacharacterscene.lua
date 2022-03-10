@@ -307,24 +307,28 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 			configId = tonumber(slot1.configId .. 1)
 		}):getName()
 		slot11 = nil
-		slot11 = slot0:findTF("Empty/ActType/ShipNameText", slot5)
+		slot11 = slot0:findTF("Empty/ActType/ShipNameMask/ShipNameText", slot5)
 
 		setText(slot11, slot10)
+		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Empty/BuildType/ShipNameText", slot5)
+		slot11 = slot0:findTF("Empty/BuildType/ShipNameMask/ShipNameText", slot5)
 
 		setText(slot11, slot10)
+		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Active/ActType/ShipNameText", slot5)
+		slot11 = slot0:findTF("Active/ActType/ShipNameMask/ShipNameText", slot5)
 
 		setText(slot11, slot10)
+		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Active/BuildType/ShipNameText", slot5)
+		slot11 = slot0:findTF("Active/BuildType/ShipNameMask/ShipNameText", slot5)
 
 		setText(slot11, slot10)
+		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 	end
 

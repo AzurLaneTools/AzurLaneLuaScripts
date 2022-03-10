@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.enemy_data_statistics_37 = {
+	[1013] = {
+		cannon = 20,
+		name = "チクマ",
+		antiaircraft_growth = 2340,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 6,
+		luck = 0,
+		id = 1013,
+		cannon_growth = 1638,
+		reload_growth = 0,
+		dodge_growth = 84,
+		reload = 150,
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 3,
+		fog_fx = "",
+		base = 90205,
+		durability = 320,
+		armor_growth = 0,
+		torpedo_growth = 2250,
+		antiaircraft = 28,
+		hit_growth = 210,
+		armor = 0,
+		speed = 16,
+		torpedo = 27,
+		antisub = 0,
+		durability_growth = 12000,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100201,
+			311034,
+			311035,
+			311036
+		}
+	},
 	[1014] = {
 		cannon = 20,
 		name = "トネ",
@@ -737,81 +780,6 @@ pg.enemy_data_statistics_37 = {
 		},
 		equipment_list = {
 			311095
-		}
-	},
-	[1031] = {
-		cannon = 9999,
-		name = "機雷",
-		antiaircraft_growth = 504,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 9999,
-		luck = 0,
-		id = 1031,
-		reload = 9999,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		dodge_growth = 0,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90122,
-		durability = 250,
-		armor_growth = 0,
-		torpedo_growth = 1600,
-		speed = 5,
-		armor = 0,
-		antisub = 0,
-		wave_fx = "movewave",
-		prefab = "boom",
-		cannon_growth = 320,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 9999,
-		durability_growth = 9240,
-		antiaircraft = 9999,
-		hit_growth = 60,
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							{
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			300013
 		}
 	}
 }

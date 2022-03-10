@@ -39,7 +39,7 @@ function slot0.OnInit(slot0)
 			setText(slot2:Find("calc/value"), uv0.countList[slot1])
 			setScrollText(slot2:Find("name/Text"), HXSet.hxLan(slot3.cfg.name))
 			setText(slot2:Find("kc"), i18n("tec_tip_material_stock") .. ":" .. slot3.count)
-			onButton(uv0, slot2:Find("calc/plus"), function ()
+			pressPersistTrigger(slot2:Find("calc/plus"), 0.5, function (slot0)
 				if uv1.countList[uv2] < uv0.count and uv1.count + uv3 <= uv1.need then
 					uv1.countList[uv2] = uv1.countList[uv2] + 1
 
@@ -49,8 +49,8 @@ function slot0.OnInit(slot0)
 
 					setText(uv1.rtExchange:Find("bg/count"), setColorStr(uv1.count, "#FFEC6E") .. "/" .. uv1.need)
 				end
-			end, SFX_PANEL)
-			onButton(uv0, slot2:Find("calc/minus"), function ()
+			end, nil, true, true, 0.1, SFX_PANEL)
+			pressPersistTrigger(slot2:Find("calc/minus"), 0.5, function (slot0)
 				if uv0.countList[uv1] > 0 then
 					uv0.countList[uv1] = uv0.countList[uv1] - 1
 
@@ -60,7 +60,7 @@ function slot0.OnInit(slot0)
 
 					setText(uv0.rtExchange:Find("bg/count"), setColorStr(uv0.count, "#FFEC6E") .. "/" .. uv0.need)
 				end
-			end, SFX_PANEL)
+			end, nil, true, true, 0.1, SFX_PANEL)
 			onButton(uv0, slot2:Find("calc/max"), function ()
 				if uv1.countList[uv2] < uv0.count and uv1.count + uv3 <= uv1.need then
 					slot0 = math.min(math.floor((uv1.need - uv1.count + uv3 - 1) / uv3), uv0.count - uv1.countList[uv2])

@@ -244,7 +244,7 @@ function slot0.filterSubmitTaskVOList(slot0, slot1, slot2)
 				items = {
 					{
 						type = slot10,
-						id = slot9:getConfig("target_id_for_client"),
+						id = tonumber(slot9:getConfig("target_id")),
 						count = slot9:getConfig("target_num")
 					}
 				},

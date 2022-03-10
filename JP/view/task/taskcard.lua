@@ -129,7 +129,7 @@ function slot0.updateBtnState(slot0, slot1)
 						items = {
 							{
 								type = slot0,
-								id = uv0:getConfig("target_id_for_client"),
+								id = tonumber(uv0:getConfig("target_id")),
 								count = uv0:getConfig("target_num")
 							}
 						},

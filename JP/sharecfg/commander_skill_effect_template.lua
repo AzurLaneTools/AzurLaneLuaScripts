@@ -16,7 +16,7 @@ pg.commander_skill_effect_template = {
 					21
 				},
 				1,
-				3
+				6
 			}
 		}
 	},
@@ -31,9 +31,14 @@ pg.commander_skill_effect_template = {
 		},
 		condition = {
 			{
-				"dd_count",
+				"count",
+				{
+					1,
+					20,
+					21
+				},
 				1,
-				3
+				6
 			}
 		}
 	},
@@ -47,9 +52,14 @@ pg.commander_skill_effect_template = {
 		},
 		condition = {
 			{
-				"dd_count",
+				"count",
+				{
+					1,
+					20,
+					21
+				},
 				1,
-				3
+				6
 			},
 			{
 				"around_combat_ally",
@@ -137,7 +147,11 @@ pg.commander_skill_effect_template = {
 		},
 		condition = {
 			{
-				"dd_count",
+				"count",
+				{
+					1,
+					20
+				},
 				1,
 				1
 			},
@@ -213,7 +227,7 @@ pg.commander_skill_effect_template = {
 					21
 				},
 				3,
-				3
+				6
 			}
 		}
 	},
@@ -237,7 +251,7 @@ pg.commander_skill_effect_template = {
 					21
 				},
 				1,
-				3
+				6
 			},
 			{
 				"pos",
@@ -262,7 +276,7 @@ pg.commander_skill_effect_template = {
 					21
 				},
 				1,
-				3
+				6
 			},
 			{
 				"pos",
@@ -334,7 +348,7 @@ pg.commander_skill_effect_template = {
 					21
 				},
 				1,
-				3
+				6
 			},
 			{
 				"pos",
@@ -1053,6 +1067,11 @@ pg.commander_skill_effect_template = {
 				1
 			},
 			{
+				"vang_count",
+				1,
+				1
+			},
+			{
 				"pos",
 				2
 			}
@@ -1502,7 +1521,7 @@ pg.commander_skill_effect_template = {
 					21
 				},
 				3,
-				3
+				6
 			}
 		}
 	},

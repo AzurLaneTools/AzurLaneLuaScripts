@@ -1,5 +1,78 @@
 pg = pg or {}
 pg.enemy_data_statistics_80 = {
+	[10505300] = {
+		cannon = 650,
+		name = "ショウカク",
+		antiaircraft_growth = 6500,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 520,
+		air_growth = 6500,
+		dodge = 7,
+		speed = 20,
+		luck = 0,
+		id = 10505300,
+		reload_growth = 0,
+		dodge_growth = 108,
+		fog_fx = "",
+		star = 6,
+		hit = 22,
+		antisub_growth = 0,
+		rarity = 6,
+		cannon_growth = 780,
+		base = 90243,
+		durability = 22000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 540,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 182000,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							-0.03,
+							0.94
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							1.23,
+							2.53
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100202,
+			100352,
+			315082,
+			315083,
+			315084
+		}
+	},
 	[10505400] = {
 		cannon = 660,
 		name = "ズイカク",
@@ -731,70 +804,6 @@ pg.enemy_data_statistics_80 = {
 			100207,
 			100517,
 			100417
-		}
-	},
-	[106016] = {
-		cannon = 280,
-		name = "ヒエイ",
-		antiaircraft_growth = 3744,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 3,
-		luck = 0,
-		id = 106016,
-		cannon_growth = 2592,
-		reload_growth = 0,
-		dodge_growth = 48,
-		reload = 150,
-		star = 5,
-		hit = 18,
-		antisub_growth = 0,
-		rarity = 4,
-		fog_fx = "",
-		base = 90220,
-		durability = 8200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 300,
-		hit_growth = 210,
-		armor = 0,
-		speed = 18,
-		torpedo = 0,
-		antisub = 0,
-		durability_growth = 81600,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		bound_bone = {
-			cannon = {
-				{
-					0.82,
-					0.67,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100202,
-			100542,
-			316033
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 3
-			}
 		}
 	}
 }

@@ -1,5 +1,94 @@
 pg = pg or {}
 pg.enemy_data_statistics_115 = {
+	[10043501] = {
+		cannon = 200,
+		name = "アカツキ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 70001,
+		air = 0,
+		air_growth = 0,
+		dodge = 15,
+		speed = 20,
+		luck = 0,
+		id = 10043501,
+		reload_growth = 0,
+		dodge_growth = 222,
+		fog_fx = "",
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 3,
+		cannon_growth = 0,
+		base = 90161,
+		durability = 44000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 320,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 440,
+		antisub = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.103,
+					0.017
+				}
+			},
+			antiaircraft = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.416,
+							2.325,
+							0
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			512121,
+			512122,
+			512123,
+			512124,
+			512125
+		}
+	},
 	[10043502] = {
 		cannon = 320,
 		name = "イセ",
@@ -778,49 +867,6 @@ pg.enemy_data_statistics_115 = {
 			100205,
 			100506,
 			100406
-		}
-	},
-	[10044016] = {
-		cannon = 60,
-		name = "タニカゼ",
-		antiaircraft_growth = 1557,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 14,
-		luck = 0,
-		id = 10044016,
-		cannon_growth = 580,
-		reload_growth = 0,
-		dodge_growth = 210,
-		reload = 150,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		fog_fx = "",
-		base = 90174,
-		durability = 1800,
-		armor_growth = 0,
-		torpedo_growth = 6000,
-		antiaircraft = 140,
-		hit_growth = 210,
-		armor = 0,
-		speed = 32,
-		torpedo = 210,
-		antisub = 0,
-		durability_growth = 48000,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			513005,
-			513006,
-			513007,
-			513008
 		}
 	}
 }

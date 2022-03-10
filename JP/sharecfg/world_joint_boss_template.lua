@@ -40,11 +40,20 @@ pg.world_joint_boss_template = {
 		id = 5,
 		meta_id = 970401
 	},
+	{
+		item_id = 100000,
+		name = "シャルンホルスト(META)",
+		painting = "shaenhuosite",
+		boss_level_id = 76,
+		id = 6,
+		meta_id = 970402
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }

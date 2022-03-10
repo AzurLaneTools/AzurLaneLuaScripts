@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_84 = {
+	[10705300] = {
+		cannon = 400,
+		name = "シラツユ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 68,
+		luck = 15,
+		antisub = 0,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 6,
+		hit = 46,
+		antisub_growth = 0,
+		rarity = 5,
+		fog_fx = "",
+		base = 90165,
+		durability = 38000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 360,
+		hit_growth = 0,
+		armor = 0,
+		speed = 37,
+		torpedo = 760,
+		id = 10705300,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		equipment_list = {
+			317011,
+			317012,
+			317013,
+			317014
+		}
+	},
 	[10705301] = {
 		cannon = 420,
 		name = "シグレ",
@@ -801,81 +841,6 @@ pg.enemy_data_statistics_84 = {
 		equipment_list = {
 			318105,
 			318106
-		}
-	},
-	[108012] = {
-		cannon = 9999,
-		name = "機雷",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 9999,
-		luck = 0,
-		id = 108012,
-		reload = 9999,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		dodge_growth = 0,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90122,
-		durability = 250,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 5,
-		armor = 0,
-		antisub = 0,
-		wave_fx = "movewave",
-		prefab = "boom",
-		cannon_growth = 0,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 9999,
-		durability_growth = 0,
-		antiaircraft = 9999,
-		hit_growth = 60,
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							{
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			300013
 		}
 	}
 }

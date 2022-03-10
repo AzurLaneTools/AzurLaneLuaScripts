@@ -21838,6 +21838,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30009] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30009,
+		code = 30009,
+		group_type = 970402,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704021
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -22381,6 +22415,7 @@ pg.ship_data_group = {
 		30005,
 		30006,
 		30007,
-		30008
+		30008,
+		30009
 	}
 }

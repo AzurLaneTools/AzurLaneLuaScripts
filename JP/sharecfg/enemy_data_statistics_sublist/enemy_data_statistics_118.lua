@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.enemy_data_statistics_118 = {
+	[10044050] = {
+		cannon = 80,
+		name = "リュウジョウ",
+		antiaircraft_growth = 3168,
+		speed_growth = 0,
+		fog_fx = "",
+		air = 80,
+		air_growth = 2574,
+		dodge = 9,
+		luck = 0,
+		id = 10044050,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 132,
+		speed = 22,
+		star = 5,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 4,
+		reload = 150,
+		base = 90235,
+		durability = 2800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 180,
+		hit_growth = 210,
+		armor = 0,
+		torpedo = 0,
+		durability_growth = 82000,
+		antisub = 0,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			513100,
+			513101,
+			513800,
+			513801,
+			513802
+		}
+	},
 	[10044051] = {
 		cannon = 80,
 		name = "ホウショウ",
@@ -705,89 +748,6 @@ pg.enemy_data_statistics_118 = {
 			513121,
 			513122,
 			510148
-		}
-	},
-	[10044501] = {
-		cannon = 400,
-		name = "ノワキ",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 70005,
-		air = 0,
-		air_growth = 0,
-		dodge = 80,
-		speed = 20,
-		luck = 0,
-		id = 10044501,
-		reload_growth = 0,
-		dodge_growth = 408,
-		fog_fx = "",
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 4,
-		cannon_growth = 0,
-		base = 90175,
-		durability = 65000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 460,
-		hit_growth = 210,
-		armor = 0,
-		reload = 150,
-		torpedo = 400,
-		antisub = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.38,
-					0.95,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.1,
-					-0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.38,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.24,
-							2.34,
-							0
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			513121,
-			513122,
-			513123,
-			513124,
-			513125
 		}
 	}
 }

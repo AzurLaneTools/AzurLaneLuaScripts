@@ -1,5 +1,96 @@
 pg = pg or {}
 pg.enemy_data_statistics_30 = {
+	[613] = {
+		cannon = 35,
+		name = "アカギ",
+		antiaircraft_growth = 5148,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 50,
+		air_growth = 2000,
+		dodge = 6,
+		speed = 18,
+		luck = 0,
+		id = 613,
+		reload_growth = 0,
+		dodge_growth = 90,
+		fog_fx = "",
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 5,
+		cannon_growth = 0,
+		base = 90239,
+		durability = 800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 62,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 36000,
+		luck_growth = 0,
+		battle_unit_type = 70,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.39,
+							1,
+							-0.21
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.326,
+							1.256,
+							-0.046
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {
+			100201,
+			311079,
+			311081,
+			311082,
+			311083,
+			311090
+		}
+	},
 	[614] = {
 		cannon = 35,
 		name = "カガ",
@@ -756,52 +847,6 @@ pg.enemy_data_statistics_30 = {
 			315082,
 			315083,
 			315084
-		}
-	},
-	[654] = {
-		cannon = 320,
-		name = "ズイカク",
-		antiaircraft_growth = 6435,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 565,
-		air_growth = 6301,
-		dodge = 7,
-		luck = 0,
-		id = 654,
-		cannon_growth = 1800,
-		reload_growth = 0,
-		dodge_growth = 108,
-		reload = 150,
-		star = 6,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 6,
-		fog_fx = "",
-		base = 90244,
-		durability = 14170,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 78,
-		hit_growth = 210,
-		armor = 0,
-		speed = 20,
-		torpedo = 0,
-		antisub = 0,
-		durability_growth = 123800,
-		luck_growth = 0,
-		battle_unit_type = 70,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			100202,
-			100342,
-			315086,
-			315087,
-			315088,
-			315089
 		}
 	}
 }

@@ -9526,145 +9526,145 @@ pg.activity_ins_language = {
 		value = "腕が鈍らないように、暇なときにちょこっと、ってね"
 	},
 	ins_284 = {
-		value = ""
+		value = "灯台下暗し、よ！"
 	},
 	ins_discuss_284_1 = {
-		value = ""
+		value = "機密ファイル？！"
 	},
 	ins_reply_284_1_1 = {
-		value = ""
+		value = "ははは、同志指揮官に見せる用に、戦術についての心得をまとめただけだ。心配しなくていいわ！"
 	},
 	ins_reply_284_1_2 = {
-		value = ""
+		value = "そういうことか…"
 	},
 	ins_discuss_284_2 = {
-		value = ""
+		value = "キエフは見たよ…！"
 	},
 	ins_reply_284_2_1 = {
-		value = ""
+		value = "…何を？"
 	},
 	ins_reply_284_2_2 = {
-		value = ""
+		value = "指揮官がファイルを持って行ったところを…"
 	},
 	ins_reply_284_2_3 = {
-		value = ""
+		value = "無事届いたのですか？？"
 	},
 	ins_reply_284_2_4 = {
-		value = ""
+		value = "ふ、ふぅん！きっと私と同志指揮官の絶妙なコンビネーションがなせる技だわ！"
 	},
 	ins_op_284_1_1 = {
-		value = ""
+		value = "ファイルが届いた！"
 	},
 	op_reply_284_1_1 = {
-		value = ""
+		value = "よし！"
 	},
 	ins_op_284_1_2 = {
-		value = ""
+		value = "直接渡してくれればいいのに…"
 	},
 	op_reply_284_1_2 = {
-		value = ""
+		value = "優秀な情報工作員は、常に異なる方法を模索するものだわ！"
 	},
 	ins_285 = {
-		value = ""
+		value = "落書き…これでいいよね？"
 	},
 	ins_discuss_285_1 = {
-		value = ""
+		value = "あら、かわいらしいわね"
 	},
 	ins_reply_285_1_1 = {
-		value = ""
+		value = "落書きだから、これが限界…いいんだよね？"
 	},
 	ins_discuss_285_2 = {
-		value = ""
+		value = "タシュケントも寒い日に、窓に適当に落書きするの好きよ"
 	},
 	ins_reply_285_2_1 = {
-		value = ""
+		value = "じゃ今度、一緒にしても…いいよね？"
 	},
 	ins_reply_285_2_2 = {
-		value = ""
+		value = "もちろん！一緒に凄いもの描こうね！"
 	},
 	ins_reply_285_2_3 = {
-		value = ""
+		value = "何が凄いものかはちょっとわからないけど…キエフ、楽しみにしてる"
 	},
 	ins_op_285_1_1 = {
-		value = ""
+		value = "みんな窓への落書きが好きだな"
 	},
 	op_reply_285_1_1 = {
-		value = ""
+		value = "うん…キエフも好き！"
 	},
 	ins_286 = {
-		value = ""
+		value = "はーい、ヴォルガ特製、熱々のボルシチですよ～"
 	},
 	ins_discuss_286_1 = {
-		value = ""
+		value = "わあー！美味しそう！！"
 	},
 	ins_reply_286_1_1 = {
-		value = ""
+		value = "ふふん、滋養強壮の素材をたくさん入れておきましたよ～"
 	},
 	ins_discuss_286_2 = {
-		value = ""
+		value = "うぅ…ちょっと微妙…かも…"
 	},
 	ins_reply_286_2_1 = {
-		value = ""
+		value = "むぅ、これは…味のバリエーションが豊富…ってところか？"
 	},
 	ins_reply_286_2_2 = {
-		value = ""
+		value = "えぇ！？そんなぁ…良かれと思って余った素材も入れたのがいけなかったでしょうか…"
 	},
 	ins_op_286_1_1 = {
-		value = ""
+		value = "助かった。ありがとう！"
 	},
 	op_reply_286_1_1 = {
-		value = ""
+		value = "ふふふ。今度作る時も、指揮官の分は取っておきますね～"
 	},
 	ins_287 = {
-		value = ""
+		value = "あーはっはっはー！この天才メカニックに改造される準備は出来ているか！"
 	},
 	ins_discuss_287_1 = {
-		value = ""
+		value = "気のせいかしら、この子なんか震えてるわよ？"
 	},
 	ins_reply_287_1_1 = {
-		value = ""
+		value = "きっと武者震いに違いないさ！"
 	},
 	ins_discuss_287_2 = {
-		value = ""
+		value = "ソオブラジーテリヌイちゃん？乱暴をしてはだめですよ？"
 	},
 	ins_reply_287_2_1 = {
-		value = ""
+		value = "フフフ、へーきへーき！メカには優しいんだぞ！"
 	},
 	ins_discuss_287_3 = {
-		value = ""
+		value = "おっ、面白そうね。今度ぜひ見学させて？"
 	},
 	ins_reply_287_3_1 = {
-		value = ""
+		value = "おお！いつでも歓迎するぞ！"
 	},
 	ins_op_287_1_1 = {
-		value = ""
+		value = "やる気満々だな"
 	},
 	op_reply_287_1_1 = {
-		value = ""
+		value = "当然だ！同志指揮官も修理や改造したいメカがあればどんどん任せるがいいぞ！"
 	},
 	ins_288 = {
-		value = ""
+		value = "冬のお供はヴォッカだけじゃない。紅茶もピッタリよ"
 	},
 	ins_discuss_288_1 = {
-		value = ""
+		value = "凍てつく冬の日に悠然と紅茶を楽しむ…迫力あっていいわね！今度そういうお茶会にするわよ！"
 	},
 	ins_reply_288_1_1 = {
-		value = ""
+		value = "ええ？見てるだけで凍えそう…私は遠慮しておきます！"
 	},
 	ins_reply_288_1_2 = {
-		value = ""
+		value = "はらはら舞う雪に熱々の紅茶、ひと味違ってなかなかいいわよ"
 	},
 	ins_discuss_288_2 = {
-		value = ""
+		value = "冬に紅茶は物足りないね！やっぱヴォッカじゃないと！"
 	},
 	ins_reply_288_2_1 = {
-		value = ""
+		value = "熱々のお茶が欲しくなる時もたまにはあるでしょう"
 	},
 	ins_op_288_1_1 = {
-		value = ""
+		value = "冬に紅茶を一杯か…いいね。少し寒いが…"
 	},
 	op_reply_288_1_1 = {
-		value = ""
+		value = "今度出かける時厚着するようにね、指揮官"
 	},
 	all = {
 		ins_op_1_1_1,
