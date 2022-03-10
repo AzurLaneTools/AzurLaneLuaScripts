@@ -6038,20 +6038,19 @@ pg.ship_skin_expression_ex = {
 	u1206 = {
 		main_ex = "",
 		feeling3 = "",
-		main_1 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
-		profile = "",
+		skill = "",
 		painting = "u1206",
 		battle = "",
 		main_2 = "",
 		feeling1 = "",
-		skill = "",
-		feeling4 = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -6082,10 +6081,16 @@ pg.ship_skin_expression_ex = {
 				"4"
 			}
 		},
+		main_1 = {
+			{
+				1100,
+				"2"
+			}
+		},
 		main_3 = {
 			{
 				1100,
-				"2||4"
+				"4"
 			}
 		},
 		touch = {
@@ -6537,22 +6542,20 @@ pg.ship_skin_expression_ex = {
 		}
 	},
 	kalvbudisi = {
-		main_2 = "",
-		feeling3 = "",
-		main_1 = "",
 		feeling4 = "",
+		feeling3 = "",
+		skill = "",
+		profile = "",
 		expedition = "",
 		upgrade = "",
 		mission_complete = "",
 		main_ex = "",
 		feeling2 = "",
-		skill = "",
+		headtouch = "",
 		painting = "kalvbudisi",
 		battle = "",
 		mail = "",
 		feeling1 = "",
-		profile = "",
-		headtouch = "",
 		login = {
 			{
 				1100,
@@ -6583,10 +6586,22 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		},
+		main_1 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"4"
+			}
+		},
 		main_3 = {
 			{
 				1100,
-				"1|4|3"
+				"3"
 			}
 		},
 		touch = {
