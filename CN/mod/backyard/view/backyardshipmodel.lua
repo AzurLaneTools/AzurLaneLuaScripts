@@ -1326,6 +1326,10 @@ function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
 	slot0:changeInnerDir(slot7)
 
 	slot0.moveNextTimer = Timer.New(function ()
+		if IsNil(uv0.go) then
+			return
+		end
+
 		if uv0.moveNextTimer then
 			uv0.moveNextTimer:Stop()
 
