@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>七 在指挥室</size>",
+					"颯爽之白\n\n<size=45>七 在指揮室</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室前",
+			say = "港區·指揮室前",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和往常一样来到指挥室前，正准备打开门时，一股莫名的违和感涌了上来。",
+			say = "和往常一樣來到指揮室前，正準備打開門時，一股莫名的違和感湧了上來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +65,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，你不进来吗？",
+			say = "怎麼了，你不進來嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "声音的主人再清楚不过了。作为北方联合的战舰，虽然性格微显轻浮，但却是值得信赖的伙伴。",
+			say = "聲音的主人再清楚不過了。作為北方聯合的戰艦，雖然性格微顯輕浮，但卻是值得信賴的伙伴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我来猜猜看好了。指挥官同志感到惊讶而不敢进入指挥室的理由是——",
+			say = "那就讓我來猜猜看好了。指揮官同志感到驚訝而不敢進入指揮室的理由是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错……我昨天晚上确实是锁过门的。",
+			say = "沒錯……我昨天晚上確實是鎖過門的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "心存疑问的走进指挥室后，映入眼帘的是正依靠在桌边认真地阅读资料的贝拉罗斯。",
+			say = "心存疑問的走進指揮室後，映入眼簾的是正依靠在桌邊認真的閱讀資料的白俄羅斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈，这是完全接受自己会输的事实了啊~",
+			say = "哈哈哈，這是完全接受自己會輸的事實了啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~科学部的项目提案书和下次护航任务的资料我都准备好了，出差日程表也做好了哦。",
+			say = "哼哼~科學部的項目提案書和下次護航任務的資料我都準備好了，出差日程表也做好了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天的战斗状态也不错，如果有出击命令的话，我随时都能投入战斗。",
+			say = "今天的戰鬥狀態也不錯，如果有出擊命令的話，我隨時都能投入戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，需要你来亲自处理的工作也有很多哦，作为港区的指挥官——",
+			say = "啊，需要你來親自處理的工作也有很多哦，作為港區的指揮官——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "被贝拉罗斯一把拉了过去，然后被摁在了那把我早已习惯了的指挥官座椅上。",
+			say = "被白俄羅斯一把拉了過去，然後被按在了那把我早已習慣了的指揮官座椅上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你不小心忘在我房间的指挥室钥匙，我帮你放到抽屉里了哦。",
+			say = "你不小心忘在我房間的指揮室鑰匙，我幫你放到抽屜裡了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有，不用担心。",
+			say = "還有，不用擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个坐位永远都只属于那个我所爱着，并且率领着我的人——也就是你。",
+			say = "這個座位永遠都只屬於那個我所愛著，並且率領著我的人——也就是你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过嘛……",
+			say = "不過嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "脖子后方感到一阵软软的触感。",
+			say = "脖子後方感到一陣軟軟的觸感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "作为秘书舰来帮助你的方式……要用我的方法才行哦？",
+			say = "作為秘書艦來幫助你的方式……要用我的方法才行哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

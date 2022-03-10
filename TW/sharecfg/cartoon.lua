@@ -504,6 +504,78 @@ pg.cartoon = {
 		resource = "84",
 		cartoon_id = 84
 	},
+	{
+		id = 85,
+		mark = 8,
+		resource = "85",
+		cartoon_id = 85
+	},
+	{
+		id = 86,
+		mark = 8,
+		resource = "86",
+		cartoon_id = 86
+	},
+	{
+		id = 87,
+		mark = 8,
+		resource = "87",
+		cartoon_id = 87
+	},
+	{
+		id = 88,
+		mark = 8,
+		resource = "88",
+		cartoon_id = 88
+	},
+	{
+		id = 89,
+		mark = 8,
+		resource = "89",
+		cartoon_id = 89
+	},
+	{
+		id = 90,
+		mark = 8,
+		resource = "90",
+		cartoon_id = 90
+	},
+	{
+		id = 91,
+		mark = 8,
+		resource = "91",
+		cartoon_id = 91
+	},
+	{
+		id = 92,
+		mark = 8,
+		resource = "92",
+		cartoon_id = 92
+	},
+	{
+		id = 93,
+		mark = 8,
+		resource = "93",
+		cartoon_id = 93
+	},
+	{
+		id = 94,
+		mark = 8,
+		resource = "94",
+		cartoon_id = 94
+	},
+	{
+		id = 95,
+		mark = 8,
+		resource = "95",
+		cartoon_id = 95
+	},
+	{
+		id = 96,
+		mark = 8,
+		resource = "96",
+		cartoon_id = 96
+	},
 	all = {
 		1,
 		2,
@@ -588,6 +660,18 @@ pg.cartoon = {
 		81,
 		82,
 		83,
-		84
+		84,
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96
 	}
 }

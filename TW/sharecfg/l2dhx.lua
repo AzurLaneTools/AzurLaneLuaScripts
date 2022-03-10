@@ -13,5 +13,6 @@ pg.l2dhx = {
 	abeikelongbi_3 = {},
 	chaijun_4 = {},
 	jialisuoniye_3 = {},
-	qiye_7 = {}
+	qiye_7 = {},
+	weiyan_4 = {}
 }

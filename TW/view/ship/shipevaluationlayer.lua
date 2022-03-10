@@ -26,6 +26,7 @@ function slot0.init(slot0)
 	slot0.imageFrame = findTF(slot0.head, "content/main_bg/frame")
 	slot0.iconShip = findTF(slot0.head, "content/icon"):GetComponent(typeof(Image))
 	slot0.labelName = findTF(slot0.head, "content/main_bg/name_mask/name"):GetComponent(typeof(Text))
+	slot0.scrollText = findTF(slot0.head, "content/main_bg/name_mask/name"):GetComponent(typeof(ScrollText))
 	slot0.stars = findTF(slot0.head, "content/main_bg/stars")
 	slot0.star = findTF(slot0.stars, "tpl")
 	slot0.bg = slot0:findTF("BG")
@@ -102,6 +103,10 @@ function slot0.flushShip(slot0)
 	LoadImageSpriteAsync("shipYardIcon/" .. slot0.shipGroup:getPainting(slot0.showTrans), slot0.iconShip)
 
 	slot0.labelName.text = slot0.shipGroup:getName(slot0.showTrans)
+
+	if slot0.scrollText then
+		slot0.scrollText:SetText(slot0.shipGroup:getName(slot0.showTrans))
+	end
 
 	if not GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipGroup:getShipType(slot0.showTrans))) then
 		warning("找不到船形, shipConfigId: " .. shipVO.configId)

@@ -40,15 +40,15 @@ function slot0.execute(slot0, slot1)
 	}, 20012, function (slot0)
 		for slot5, slot6 in ipairs(slot0.id_list) do
 			if uv0:getTaskById(slot6):getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-				getProxy(BagProxy):removeItemById(tonumber(slot7:getConfig("target_id_for_client")), tonumber(slot7:getConfig("target_num")))
+				getProxy(BagProxy):removeItemById(tonumber(tonumber(slot7:getConfig("target_id"))), tonumber(slot7:getConfig("target_num")))
 			elseif slot7:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-				getProxy(ActivityProxy):removeVitemById(slot7:getConfig("target_id_for_client"), slot7:getConfig("target_num"))
+				getProxy(ActivityProxy):removeVitemById(tonumber(slot7:getConfig("target_id")), slot7:getConfig("target_num"))
 			elseif slot7:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
 				slot10 = getProxy(PlayerProxy)
 				slot11 = slot10:getData()
 
 				slot11:consume({
-					[id2res(slot7:getConfig("target_id_for_client"))] = slot7:getConfig("target_num")
+					[id2res(tonumber(slot7:getConfig("target_id")))] = slot7:getConfig("target_num")
 				})
 				slot10:updatePlayer(slot11)
 			end

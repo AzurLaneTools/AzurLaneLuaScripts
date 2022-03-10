@@ -1148,11 +1148,19 @@ _G.pg.gametip.battle_levelScene_noRaderCount = {
 }
 
 _G.pg.gametip.battle_levelScene_lock = {
-	tip = "關卡尚未開放，請通關<color=#A9F548>前置關卡</color>"
+	tip = "目標地圖尚未開放，請通關<color=#92fc63>前置關卡</color>"
 }
 
-_G.pg.gametip.battle_levelScene_lock_1 = {
-	tip = "該階段活動副本尚未開放"
+_G.pg.gametip.battle_levelScene_hard_lock = {
+	tip = "目標地圖對應主線章節未通關，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
+}
+
+_G.pg.gametip.battle_levelScene_close = {
+	tip = "該階段活動關卡尚未開放"
+}
+
+_G.pg.gametip.battle_levelScene_chapter_lock = {
+	tip = "目標關卡尚未開放，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
 }
 
 _G.pg.gametip.battle_preCombatLayer_changeFormationError = {
@@ -9332,7 +9340,7 @@ _G.pg.gametip.buildship_light_tip = {
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "齊柏林伯爵、U-47、U-557建造追加！"
+	tip = "龍驤 建造追加！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -16791,7 +16799,7 @@ _G.pg.gametip.activity_permanent_help = {
 	tip = {
 		{
 			info = [[
-活动档案说明
+活動檔案說明
 1.同一時間僅可開啟<color=#92fc63>1</color>項活動，活動開啟後將無法再次打開活動列表介面。
 2.已開啟的活動必須在正式完成後才可結束，無法中途關閉。
 3.重複獲得的限定換裝會自動折算為物資]]

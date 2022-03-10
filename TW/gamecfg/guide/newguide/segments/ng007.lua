@@ -21,7 +21,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "選擇一個訓練位置！",
+				text = "點擊“開始訓練”來選擇想要訓練的喵箱！！",
 				mode = 1,
 				posY = -110,
 				dir = 1,

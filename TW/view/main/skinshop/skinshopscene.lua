@@ -428,7 +428,7 @@ function slot0.updateMainView(slot0, slot1)
 	slot0.skinNameTxt.text = SwitchSpecialChar(HXSet.hxLan(slot2.name), true)
 
 	if slot0.prefabName ~= slot2.prefab then
-		slot0:loadChar(slot4)
+		slot0:loadChar(slot4, slot2)
 
 		slot0.prefabName = slot4
 	end
@@ -807,20 +807,29 @@ function slot0.recyclePainting(slot0)
 	end
 end
 
-function slot0.loadChar(slot0, slot1)
+function slot0.loadChar(slot0, slot1, slot2)
 	slot0:recycleChar()
 
-	slot2 = pg.UIMgr.GetInstance()
+	slot3 = pg.UIMgr.GetInstance()
 
-	slot2:LoadingOn()
+	slot3:LoadingOn()
 
-	slot2 = PoolMgr.GetInstance()
+	slot3 = PoolMgr.GetInstance()
 
-	slot2:GetSpineChar(slot1, true, function (slot0)
+	slot3:GetSpineChar(slot1, true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.modelTf = tf(slot0)
-		uv0.modelTf.localScale = Vector3(0.9, 0.9, 1)
+		slot1 = pg.skinshop_spine_scale[uv1.id]
+
+		print(slot1)
+
+		if slot1 then
+			uv0.modelTf.localScale = Vector3(slot1.skinshop_scale, slot1.skinshop_scale, 1)
+		else
+			uv0.modelTf.localScale = Vector3(0.9, 0.9, 1)
+		end
+
 		uv0.modelTf.localPosition = Vector3(0, 0, 0)
 
 		pg.ViewUtils.SetLayer(uv0.modelTf, Layer.UI)
@@ -1037,7 +1046,7 @@ function slot0.updateShipRect(slot0, slot1)
 		end
 
 		function slot4(slot0, slot1)
-			if slot0:GetPrice() == slot1:GetPrice() then
+			if ((slot0.type == Goods.TYPE_ACTIVITY or slot0.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot0:GetPrice()) == ((slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot1:GetPrice()) then
 				return slot0.id < slot1.id
 			else
 				return slot3 < slot2

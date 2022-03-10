@@ -139,7 +139,7 @@ pg.activity_const = {
 		act_id = 195
 	},
 	LONGXIANG_ACTIVITY_PT_ID = {
-		act_id = 40174
+		act_id = 40570
 	},
 	SKIN_OSHIO = {
 		act_id = 204

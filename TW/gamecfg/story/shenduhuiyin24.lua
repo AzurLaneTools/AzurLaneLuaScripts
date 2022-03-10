@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "但是不知为何，这样的微笑确令人毛骨悚然。",
+			say = "但是不知为何，这样的微笑却令人毛骨悚然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "好人理查德依然只是微笑的凝视着，可喀琅施塔得却感觉逐渐感觉到了一股焦虑。",
+			say = "好人理查德依然只是微笑的凝视着，可喀琅施塔得却逐渐感觉到了一股焦虑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "冲级迎面撞上喀琅施塔得的身体，但这一次的感觉与之前完全不同——应该说，根本没有什么特别的感觉。",
+			say = "冲击迎面撞上喀琅施塔得的身体，但这一次的感觉与之前完全不同——应该说，根本没有什么特别的感觉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1350,7 +1350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "但是跟喀琅施塔得说的不一样……梦境没有结束！冲级之后梦境依然再继续哦！",
+			say = "但是跟喀琅施塔得说的不一样……梦境没有结束！冲击之后梦境依然在继续哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

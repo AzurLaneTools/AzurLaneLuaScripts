@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>六 清朗的早晨</size>",
+					"颯爽之白\n\n<size=45>六 清朗的早晨</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "原来如此，利用心智魔方制作独立于舰装的辅助作战装置啊……有趣。",
+			say = "原來如此，利用心智魔方製作獨立於艦裝的輔助作戰裝置啊……有趣。",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有机会把这个想法跟指挥官同志提一下，然后和科学部门商量一下好了。",
+			say = "有機會把這個想法跟指揮官同志提一下，然後和科學部門商量一下好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同志指挥官也差不多该醒了吧？",
+			say = "同志指揮官也差不多該醒了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			},
 			options = {
 				{
-					content = "这里是……",
+					content = "這裡是……",
 					flag = 1
 				}
 			}
@@ -96,7 +96,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志，早安，要我准备醒酒药吗？",
+			say = "指揮官同志，早安，要我準備解酒藥嗎？",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说要准备早饭呢？这个时间的话，你可以一个人在不被发现的情况下去到宿舍的沙龙吃哦。",
+			say = "還是說要準備早飯呢？這個時間的話，你可以一個人在不被發現的情況下去到宿舍的沙龍吃哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "身着睡衣的贝拉罗斯放下手中厚厚的书，用以一如既往飒爽的声音发来了问候。",
+			say = "身著睡衣的白俄羅斯放下手中厚厚的書，用以一如既往颯爽的聲音發來了問候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "看来昨晚最终没有战胜酒力，就这样直接倒在她房间的沙发上睡着了……",
+			say = "看來昨晚最終沒有戰勝酒力，就這樣直接倒在她房間的沙發上睡著了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉啊，虽说为了指挥官同志避免在宴会上变成烂醉如泥的状态，我也是努力喝了不少才创造出了那个状况的。",
+			say = "抱歉啊，雖說為了指揮官同志避免在宴會上變成爛醉如泥的狀態，我也是努力喝了不少才創造出了那個狀況的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过作为设计人的我也被灌倒的话……这个计划最多也就是及格分吧。",
+			say = "不過作為設計人的我也被灌倒的話……這個計劃最多也就是及格分吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "如她所说，如果再继续喝下去的话确实会对今天的工作产生影响……",
+			say = "如她所說，如果再繼續喝下去的話確實會對今天的工作產生影響……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "不过……抛开醉倒的结果不说，能和伙伴们度过一晚快乐的时光还是要感谢贝拉罗斯才是。",
+			say = "不過……拋開醉倒的結果不說，能和夥伴們度過一晚快樂的時光還是要感謝白俄羅斯才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在还不到凌晨5点，驱逐舰们都还在睡觉，甘古特她们就更不用说了……如果出去的时候跑快点的话，或许也不会被其他阵营的人发现？",
+			say = "現在還不到凌晨5點，驅逐艦們都還在睡覺，甘古特她們就更不用說了……如果出去的時候跑快點的話，或許也不會被其他陣營的人發現？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来打个赌吧，指挥官同志，你肯定会选择先回自己房间一趟，而不是就这样和我一起去指挥室。",
+			say = "來打個賭吧，指揮官同志，你肯定會選擇先回自己房間一趟，而不是就這樣和我一起去指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，看来又是我赢了呢。",
+			say = "哈哈哈，看來又是我贏了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别担心，我会帮你的。毕竟让你深陷这种状况的人也是我嘛。",
+			say = "別擔心，我會幫你的。畢竟讓你深陷這種狀況的人也是我嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "15分钟后我会向外面扔一个烟雾弹，你就借着烟雾的隐蔽直接离开北方联合宿舍区就好。",
+			say = "15分鐘後我會向外面扔一個煙霧彈，你就藉著煙霧的隱蔽直接離開北方聯合宿舍區就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "不管怎么说，现在的情况确实有些不妙。这里还是老实接受贝拉罗斯的提案比较好。",
+			say = "不管怎麼說，現在的情況確實有些不妙。這裡還是老實接受白俄羅斯的提案比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，那就这么定了。快来准备一下吧~",
+			say = "很好，那就這麼決定了。快來準備一下吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "贝拉罗斯来到沙发旁，然后伸出了双手。",
+			say = "白俄羅斯來到沙發旁，然後伸出了雙手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呼呼，我终于知道指挥官同志为什么被这么多人所爱戴了~",
+			say = "呼呼，我終於知道指揮官同志為什麼被這麼多人所愛戴了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

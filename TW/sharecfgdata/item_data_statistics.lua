@@ -1846,6 +1846,48 @@ _G.pg.item_data_statistics[1010] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[1013] = {
+	display = "{namecode:79}的鈴鐺。收集足夠的數量的話……",
+	name = "{namecode:79}的鈴鐺",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/lingdang",
+	id = 1013,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[1014] = {
+	display = "聖誕夜、平安夜，願所有人都能得到幸福與安寧",
+	name = "聖誕的饋贈",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 1014,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[10000] = {
 	display = "艦艇維修設備T2設計圖",
 	name = "艦艇維修設備T2設計圖",

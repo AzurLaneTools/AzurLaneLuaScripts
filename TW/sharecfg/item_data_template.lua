@@ -968,6 +968,28 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[1013] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 1013,
+		compose_number = 0,
+		target_id = 0
+	},
+	[1014] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 1014,
+		compose_number = 0,
+		target_id = 0
+	},
 	[10000] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -15187,6 +15209,8 @@ pg.item_data_template = {
 		1008,
 		1009,
 		1010,
+		1013,
+		1014,
 		10000,
 		10001,
 		10002,

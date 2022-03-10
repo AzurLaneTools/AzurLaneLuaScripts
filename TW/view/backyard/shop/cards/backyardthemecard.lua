@@ -46,7 +46,7 @@ function slot0.Update(slot0, slot1, slot2)
 end
 
 function slot0.UpdateSelected(slot0, slot1)
-	slot3 = slot1 and slot1.id == slot0.themeVO.id and 0 or -170
+	slot3 = slot1 and slot1.id == slot0.themeVO.id and -26 or -170
 
 	if not IsNil(slot0.content) then
 		setActive(slot0.selected, slot2)
@@ -55,7 +55,7 @@ function slot0.UpdateSelected(slot0, slot1)
 		})
 	end
 
-	slot4 = slot2 and 0 or 33
+	slot4 = slot2 and -26 or 33
 
 	if not IsNil(slot0.maskPurchased) then
 		setAnchoredPosition(slot0.maskPurchased, {

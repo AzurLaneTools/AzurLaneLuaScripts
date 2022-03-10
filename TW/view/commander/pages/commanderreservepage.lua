@@ -43,7 +43,7 @@ function slot0.OnInit(slot0)
 
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.minusBtn, function ()
+	pressPersistTrigger(slot0.minusBtn, 0.5, function (slot0)
 		if uv0.currCnt == 1 then
 			return
 		end
@@ -51,8 +51,8 @@ function slot0.OnInit(slot0)
 		uv0.currCnt = uv0.currCnt - 1
 
 		uv0:updateValue()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.addBtn, function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.addBtn, 0.5, function (slot0)
 		if uv0.currCnt > CommanderConst.MAX_GETBOX_CNT - uv0.count - 1 then
 			return
 		end
@@ -60,7 +60,7 @@ function slot0.OnInit(slot0)
 		uv0.currCnt = uv0.currCnt + 1
 
 		uv0:updateValue()
-	end, SFX_PANEL)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	onButton(slot0, slot0.skipBtn, function ()
 		uv0.skip = true
 

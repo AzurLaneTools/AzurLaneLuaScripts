@@ -4251,80 +4251,170 @@ pg.activity_ins_template = {
 	[202] = {
 		ship_group = 70504,
 		name = "Proj23.Bel",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_202",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_202.jpg",
+		is_active = 0,
 		sculpture = "suweiaibeilaluosi",
 		id = 202,
 		group_id = 202,
 		order = 10,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				2,
+				24
+			},
+			{
+				13,
+				23,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1770,
+			1774,
+			1776
+		}
 	},
 	[203] = {
 		ship_group = 70301,
 		name = "Tallinn",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_203",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_203.jpg",
+		is_active = 0,
 		sculpture = "talin",
 		id = 203,
 		group_id = 203,
 		order = 10,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				2,
+				25
+			},
+			{
+				19,
+				8,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1780,
+			1784,
+			1786
+		}
 	},
 	[204] = {
 		ship_group = 70206,
 		name = "Мурманск",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_204",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_204.jpg",
+		is_active = 0,
 		sculpture = "moermansike",
 		id = 204,
 		group_id = 204,
 		order = 10,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				2,
+				26
+			},
+			{
+				10,
+				38,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1790,
+			1792,
+			1794
+		}
 	},
 	[205] = {
 		ship_group = 70108,
 		name = "Громкий",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_205",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_205.jpg",
+		is_active = 0,
 		sculpture = "hongliang",
 		id = 205,
 		group_id = 205,
 		order = 10,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				2,
+				27
+			},
+			{
+				15,
+				29,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1799,
+			1802,
+			1804
+		}
 	},
 	[206] = {
 		ship_group = 70107,
 		name = "ремящий",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_206",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_206.jpg",
+		is_active = 0,
 		sculpture = "leiming",
 		id = 206,
 		group_id = 206,
 		order = 10,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				2,
+				28
+			},
+			{
+				14,
+				1,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1808,
+			1812,
+			1814
+		}
 	},
 	[207] = {
 		ship_group = 70204,
 		name = "Киров",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_207",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_207.jpg",
+		is_active = 0,
 		sculpture = "jiluofu",
 		id = 207,
 		group_id = 207,
 		order = 10,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				1
+			},
+			{
+				10,
+				19,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1818,
+			1820,
+			1823
+		}
 	},
 	[235] = {
 		ship_group = 1070004,

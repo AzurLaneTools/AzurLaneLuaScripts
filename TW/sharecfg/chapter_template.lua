@@ -370844,6 +370844,1761 @@ end)()
 		alarm_cell = {},
 		weather_grids = {}
 	}
+	uv0.chapter_template[5000322] = {
+		special_operation_list = "",
+		name = "黎明前的號炮",
+		count = 0,
+		pop_pic = "",
+		act_id = 40569,
+		pos_y = "0.34375",
+		is_ai = 0,
+		progress_boss = 35,
+		model = 1,
+		boss_refresh = 4,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		chapter_tag = 0,
+		icon_outline = 0,
+		story_refresh_boss = "LONGXIANGHUODONG3",
+		is_ambush = 0,
+		chapter_name = "SP1",
+		type = 1,
+		pre_chapter = 0,
+		bg = "",
+		enter_story = "LONGXIANGHUODONG1",
+		bgm = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 5000322,
+		ammo_total = 5,
+		lose_condition_display = "lose_condition_display_quanmie",
+		mitigation_level = 5,
+		map = 5000401,
+		pos_x = "0.20234375",
+		formation = 5000401,
+		friendly_id = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_1 = 1,
+		collection_team = 0,
+		star_require_3 = 3,
+		num_1 = 1,
+		best_air_dominance = 195,
+		investigation_ratio = 0,
+		profiles = "轟鳴的炮聲打破了黎明中的寂靜，朝陽下的所羅門海又將迎來戰火紛飛的一天。",
+		difficulty = 6,
+		wall_prefab = "",
+		num_2 = 20,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		land_based = "",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 150,
+		submarine_num = 1,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1340001,
+				15,
+				0
+			},
+			{
+				1340002,
+				20,
+				0
+			},
+			{
+				1340003,
+				30,
+				1
+			},
+			{
+				1340004,
+				15,
+				0
+			},
+			{
+				1340005,
+				20,
+				0
+			},
+			{
+				1340006,
+				30,
+				1
+			},
+			{
+				1340007,
+				15,
+				0
+			},
+			{
+				1340008,
+				20,
+				0
+			},
+			{
+				1340009,
+				30,
+				1
+			},
+			{
+				1340010,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1340002,
+			1340005
+		},
+		elite_expedition_list = {
+			1340002,
+			1340004
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1340013
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"birui",
+			"wudao"
+		},
+		awards = {
+			{
+				2,
+				57497
+			},
+			{
+				2,
+				57491
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				16
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				2,
+				5,
+				"1x2NormalIsland_1",
+				10,
+				-36
+			},
+			{
+				2,
+				2,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				0,
+				7,
+				"1x1NormalIsland_2",
+				6,
+				2
+			},
+			{
+				0,
+				1,
+				"1x3NormalIsland_2",
+				-4,
+				8
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			96,
+			-156,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"LONGXIANGHUODONG2"
+		},
+		defeat_story = {
+			"LONGXIANGHUODONG4"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_strategy = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[5000323] = {
+		special_operation_list = "",
+		name = "蒼海上的對決",
+		count = 0,
+		pop_pic = "",
+		act_id = 40569,
+		pos_y = "0.070833333",
+		is_ai = 0,
+		progress_boss = 28,
+		model = 1,
+		boss_refresh = 4,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		chapter_tag = 0,
+		icon_outline = 0,
+		story_refresh_boss = "LONGXIANGHUODONG6",
+		is_ambush = 0,
+		chapter_name = "SP2",
+		type = 1,
+		pre_chapter = 5000322,
+		bg = "",
+		enter_story = "LONGXIANGHUODONG5",
+		bgm = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 5000323,
+		ammo_total = 5,
+		lose_condition_display = "lose_condition_display_quanmie",
+		mitigation_level = 5,
+		map = 5000401,
+		pos_x = "0.28671875",
+		formation = 5000401,
+		friendly_id = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_1 = 1,
+		collection_team = 0,
+		star_require_3 = 3,
+		num_1 = 1,
+		best_air_dominance = 338,
+		investigation_ratio = 0,
+		profiles = "震懾天空的是鋼鐵的咆哮，映於碧海的是大炮巨艦之極致。重櫻“BIG SEVEN”參戰！",
+		difficulty = 7,
+		wall_prefab = "",
+		num_2 = 25,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		land_based = "",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 260,
+		submarine_num = 1,
+		uifx = "",
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1340101,
+				15,
+				0
+			},
+			{
+				1340102,
+				20,
+				0
+			},
+			{
+				1340103,
+				30,
+				1
+			},
+			{
+				1340104,
+				15,
+				0
+			},
+			{
+				1340105,
+				20,
+				0
+			},
+			{
+				1340106,
+				30,
+				1
+			},
+			{
+				1340107,
+				15,
+				0
+			},
+			{
+				1340108,
+				20,
+				0
+			},
+			{
+				1340109,
+				30,
+				1
+			},
+			{
+				1340110,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1340102,
+			1340105
+		},
+		elite_expedition_list = {
+			1340102,
+			1340104
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1340113
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"luao"
+		},
+		awards = {
+			{
+				2,
+				57498
+			},
+			{
+				2,
+				57492
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				16
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				8
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"1x1NormalIsland_2",
+				5,
+				0
+			},
+			{
+				4,
+				4,
+				"1x2NormalIsland_2",
+				6,
+				-41
+			},
+			{
+				4,
+				2,
+				"1x1NormalIsland_1",
+				0,
+				4
+			},
+			{
+				2,
+				5,
+				"1x3NormalIsland_2",
+				0,
+				4
+			},
+			{
+				0,
+				1,
+				"2x2NormalIsland_1",
+				-42,
+				-24
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			162,
+			-58,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {
+			"LONGXIANGHUODONG7"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_strategy = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[5000324] = {
+		special_operation_list = "",
+		name = "暮色中的武士",
+		count = 0,
+		pop_pic = "",
+		act_id = 40569,
+		pos_y = "0.221875",
+		is_ai = 0,
+		progress_boss = 22,
+		model = 1,
+		boss_refresh = 5,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		chapter_tag = 0,
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "SP3",
+		type = 1,
+		pre_chapter = 5000323,
+		bg = "",
+		enter_story = "LONGXIANGHUODONG8",
+		bgm = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 5000324,
+		ammo_total = 5,
+		lose_condition_display = "lose_condition_display_quanmie",
+		mitigation_level = 8,
+		map = 5000401,
+		pos_x = "0.6375",
+		formation = 5000401,
+		friendly_id = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_1 = 1,
+		collection_team = 0,
+		star_require_3 = 3,
+		num_1 = 1,
+		best_air_dominance = 780,
+		investigation_ratio = 0,
+		profiles = "阻擋在面前的，是夕陽下面色堅毅的重櫻武士。為了各自的心中大義，最後的戰鬥，開始！",
+		difficulty = 8,
+		wall_prefab = "",
+		num_2 = 35,
+		star_require_2 = 2,
+		avoid_ratio = 16,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		land_based = "",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 600,
+		submarine_num = 1,
+		uifx = "",
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1340201,
+				15,
+				0
+			},
+			{
+				1340202,
+				20,
+				0
+			},
+			{
+				1340203,
+				30,
+				1
+			},
+			{
+				1340204,
+				15,
+				0
+			},
+			{
+				1340205,
+				20,
+				0
+			},
+			{
+				1340206,
+				30,
+				1
+			},
+			{
+				1340207,
+				15,
+				0
+			},
+			{
+				1340208,
+				20,
+				0
+			},
+			{
+				1340209,
+				30,
+				1
+			},
+			{
+				1340210,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1340202,
+			1340205
+		},
+		elite_expedition_list = {
+			1340202,
+			1340205
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1340213
+		},
+		enemy_refresh = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			2,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			22,
+			32,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"longxiang"
+		},
+		awards = {
+			{
+				2,
+				57499
+			},
+			{
+				2,
+				57493
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				1
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				1
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				16
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				8
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				8
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				8
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				5,
+				"1x2NormalIsland_2",
+				7,
+				-37
+			},
+			{
+				3,
+				7,
+				"1x1NormalIsland_1",
+				0,
+				7
+			},
+			{
+				3,
+				1,
+				"1x3NormalIsland_2",
+				0,
+				6
+			},
+			{
+				1,
+				4,
+				"1x1NormalIsland_2",
+				3,
+				3
+			},
+			{
+				0,
+				8,
+				"2x3NormalIsland_1",
+				-39,
+				-23
+			},
+			{
+				0,
+				0,
+				"1x1NormalIsland_1",
+				-1,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			34,
+			-99,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"LONGXIANGHUODONG11"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_strategy = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
 end)()
 
 slot0.chapter_template.all = {
@@ -371404,5 +373159,8 @@ slot0.chapter_template.all = {
 	5000314,
 	5000315,
 	5000316,
-	5000321
+	5000321,
+	5000322,
+	5000323,
+	5000324
 }

@@ -1461,14 +1461,16 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 				slot15 = 0
 
 				for slot19, slot20 in ipairs(slot13) do
-					slot14 = slot14 + 1
+					if slot20 ~= 0 then
+						slot14 = slot14 + 1
 
-					if underscore.any(slot7, function (slot0)
-						return ShipType.ContainInLimitBundle(uv0, slot0)
-					end) then
-						slot15 = 1
+						if underscore.any(slot7, function (slot0)
+							return ShipType.ContainInLimitBundle(uv0, slot0)
+						end) then
+							slot15 = 1
 
-						break
+							break
+						end
 					end
 				end
 
@@ -2696,11 +2698,7 @@ function slot0.triggerSkill(slot0, slot1, slot2)
 end
 
 function slot0.triggerCheck(slot0, slot1, slot2, slot3)
-	if slot3[1] == FleetSkill.TriggerDDCount then
-		return slot3[2] <= #_.filter(slot1:getShipsByTeam(TeamType.Vanguard, false), function (slot0)
-			return ShipType.IsTypeQuZhu(slot0:getShipType())
-		end) and slot6 <= slot3[3]
-	elseif slot4 == FleetSkill.TriggerDDHead then
+	if slot3[1] == FleetSkill.TriggerDDHead then
 		return #slot1:getShipsByTeam(TeamType.Vanguard, false) > 0 and ShipType.IsTypeQuZhu(slot5[1]:getShipType())
 	elseif slot4 == FleetSkill.TriggerVanCount then
 		return slot3[2] <= #slot1:getShipsByTeam(TeamType.Vanguard, false) and #slot5 <= slot3[3]

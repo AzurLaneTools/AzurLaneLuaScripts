@@ -471,12 +471,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
+			nameColor = "#696969",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			actorName = "？？？",
 			say = "嗯，没事哦。是突然向你们搭话的我不对。",
 			typewriter = {
 				speed = 0.05,
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
+			nameColor = "#696969",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			actorName = "？？？",
 			say = "不过你居然知道我的名字啊，没想到在这里也能碰到粉丝。",
 			typewriter = {
 				speed = 0.05,

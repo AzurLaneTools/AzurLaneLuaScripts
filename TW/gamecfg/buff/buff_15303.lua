@@ -13,6 +13,18 @@ return {
 						"MG"
 					}
 				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.25,
+					index = {
+						4
+					}
+				}
 			}
 		}
 	},
@@ -28,6 +40,18 @@ return {
 					label = {
 						"CL",
 						"MG"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.272,
+					index = {
+						4
 					}
 				}
 			}
@@ -47,6 +71,18 @@ return {
 						"MG"
 					}
 				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.294,
+					index = {
+						4
+					}
+				}
 			}
 		}
 	},
@@ -62,6 +98,18 @@ return {
 					label = {
 						"CL",
 						"MG"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.316,
+					index = {
+						4
 					}
 				}
 			}
@@ -81,6 +129,18 @@ return {
 						"MG"
 					}
 				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.338,
+					index = {
+						4
+					}
+				}
 			}
 		}
 	},
@@ -96,6 +156,18 @@ return {
 					label = {
 						"CL",
 						"MG"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.36,
+					index = {
+						4
 					}
 				}
 			}
@@ -115,6 +187,18 @@ return {
 						"MG"
 					}
 				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.382,
+					index = {
+						4
+					}
+				}
 			}
 		}
 	},
@@ -130,6 +214,18 @@ return {
 					label = {
 						"CL",
 						"MG"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.404,
+					index = {
+						4
 					}
 				}
 			}
@@ -149,6 +245,18 @@ return {
 						"MG"
 					}
 				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.426,
+					index = {
+						4
+					}
+				}
 			}
 		}
 	},
@@ -164,6 +272,18 @@ return {
 					label = {
 						"CL",
 						"MG"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.45,
+					index = {
+						4
 					}
 				}
 			}
@@ -190,6 +310,18 @@ return {
 				label = {
 					"CL",
 					"MG"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddProficiency",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.25,
+				index = {
+					4
 				}
 			}
 		}

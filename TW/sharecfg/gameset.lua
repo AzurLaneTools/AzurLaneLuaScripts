@@ -336,7 +336,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 188
+		key_value = 117
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -2078,7 +2078,7 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			31,
-			75,
+			68,
 			8832
 		}
 	},
@@ -2399,7 +2399,7 @@ pg.gameset = {
 		key_value = 0
 	},
 	permanent_mark = {
-		description = "20211028",
+		description = "20220310",
 		key_value = 0
 	},
 	vow_prop_conversion = {

@@ -1249,7 +1249,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "白鹰派遣舰队与指挥官同行，一来可以保证行动的成功率，而来指挥官同志的安全也更有保障。",
+			say = "白鹰派遣舰队与指挥官同行，一来可以保证行动的成功率，二来指挥官同志的安全也更有保障。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

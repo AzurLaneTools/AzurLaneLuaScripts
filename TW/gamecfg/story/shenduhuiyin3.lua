@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "啊，首先先让我介绍一下潜航舰吧。",
+			say = "啊，首先让我介绍一下潜航舰吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

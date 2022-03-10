@@ -720,6 +720,11 @@ pg.player_resource = {
 		name = "skinTicket29",
 		itemid = 59277
 	},
+	[242] = {
+		id = 242,
+		name = "naerweike2re_pt",
+		itemid = 59278
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -844,6 +849,11 @@ pg.player_resource = {
 		id = 3006,
 		name = "synchronize_genaisennao",
 		itemid = 21905
+	},
+	[3007] = {
+		id = 3007,
+		name = "synchronize_shaenhuosite",
+		itemid = 21906
 	},
 	[40296] = {
 		id = 40296,
@@ -1333,6 +1343,9 @@ pg.player_resource = {
 		skinTicket29 = {
 			241
 		},
+		naerweike2re_pt = {
+			242
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1407,6 +1420,9 @@ pg.player_resource = {
 		},
 		synchronize_genaisennao = {
 			3006
+		},
+		synchronize_shaenhuosite = {
+			3007
 		},
 		Twomamori2 = {
 			40296
@@ -1587,6 +1603,7 @@ pg.player_resource = {
 		239,
 		240,
 		241,
+		242,
 		950,
 		951,
 		952,
@@ -1612,6 +1629,7 @@ pg.player_resource = {
 		3004,
 		3005,
 		3006,
+		3007,
 		40296,
 		3106,
 		3137,

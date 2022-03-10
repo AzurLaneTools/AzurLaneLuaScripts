@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>二 瞄准目标</size>",
+					"颯爽之白\n\n<size=45>二 瞄準目標</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·港区",
+			say = "某日·港區",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "和秘书舰贝拉罗斯一起巡视港区的时候……",
+			say = "和秘書艦白俄羅斯一起巡視港區的時候……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，又没中！雷鸣，你还有钱吗？",
+			say = "啊，又沒中！雷鳴，妳還有錢嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经抽了30张二等奖，只剩最后一张奖券了！",
+			say = "已經抽了30張二等獎，只剩最後一張獎券了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经没了。这种抽奖又不是你想抽就能抽到的…",
+			say = "已經沒了。這種抽獎又不是妳想抽就能抽到的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错喵！都是运气喵！",
+			say = "沒錯喵！都是運氣喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "似乎是{namecode:98}正在举办抽奖活动的样子…",
+			say = "似乎是明石正在舉辦抽獎活動的樣子…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也有兴趣吗？",
+			say = "指揮官也有興趣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "还没被抽出来的奖券只剩最后一张了。如果买下来的话，那张将100%会是一等奖。",
+			say = "還沒被抽出來的獎券只剩最後一張了。如果買下來的話，那張將100%會是一等獎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "不过这样对洪亮她们来说是不是太残忍了点…",
+			say = "不過這樣對洪亮她們來說是不是太殘忍了點…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "听完这些，贝拉罗斯一瞬间露出了惊讶的表情，然后又恢复到了平时的神态。",
+			say = "聽完這些，白俄羅斯一瞬間露出了驚訝的表情，然後又恢復到了平時的神態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就由我来买下吧，然后我再想办法把奖品分给大家，怎么样？",
+			say = "那就由我來買下吧，然後我再想辦法把獎品分給大家，怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……好，就这么办。等我一下，我这就去买。",
+			say = "……好，就這麼辦。等我一下，我這就去買。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "就交给贝拉罗斯好了。",
+			say = "就交給白俄羅斯好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "久等了，把一等奖抽出来了",
+			say = "久等了，把一等獎抽出來了",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "贝拉罗斯拿着一个小信封回来了",
+			say = "白俄羅斯拿著一個小信封回來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，真的要把一等奖分给大家吗？这个又不是指挥官同志和贝拉罗斯使坏才拿到的！",
+			say = "唔，真的要把一等獎分給大家嗎？這個又不是指揮官同志和白俄羅斯作弊才拿到的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不、不用太在意我们的……嗯，没事的。",
+			say = "不、不用太在意我們的……嗯，沒事的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果没听见你们在那边喊就剩一张了的话，我和指挥官同志也不会去抽这个奖券吧。放心告诉大家吧，没事的。",
+			say = "如果沒聽見妳們在那邊喊就剩一張了的話，我和指揮官同志也不會去抽這個獎券吧。放心告訴大家吧，沒事的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "也没多少钱，交给贝拉罗斯应付就好了。",
+			say = "也沒多少錢，交給白俄羅斯應付就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "说起来，这个一等奖到底是什么来着……？",
+			say = "說起來，這個一等獎到底是什麼來著……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

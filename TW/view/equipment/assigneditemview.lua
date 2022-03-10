@@ -18,7 +18,7 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.rightArr, function ()
+	pressPersistTrigger(slot0.rightArr, 0.5, function (slot0)
 		if not uv0.itemVO then
 			return
 		end
@@ -26,8 +26,8 @@ function slot0.OnInit(slot0)
 		uv0.count = math.min(uv0.count + 1, uv0.itemVO.count)
 
 		uv0:updateValue()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.leftArr, function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.leftArr, 0.5, function (slot0)
 		if not uv0.itemVO then
 			return
 		end
@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 		uv0.count = math.max(uv0.count - 1, 1)
 
 		uv0:updateValue()
-	end, SFX_PANEL)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
 		if not uv0.itemVO then
 			return

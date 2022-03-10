@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "仿佛在每一次经历冲击后，炮击的破坏力就有提升了一分。",
+			say = "仿佛在每一次经历冲击后，炮击的破坏力就又提升了一分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

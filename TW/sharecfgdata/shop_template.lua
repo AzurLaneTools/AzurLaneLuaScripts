@@ -17278,9 +17278,9 @@ _G.pg.shop_template[70124] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				3,
+				10
 			},
 			{
 				0,
@@ -17290,9 +17290,9 @@ _G.pg.shop_template[70124] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				3,
+				23
 			},
 			{
 				23,
@@ -19038,6 +19038,210 @@ _G.pg.shop_template[70173] = {
 				2021,
 				10,
 				20
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70175] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：拉菲coco",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 190,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70175,
+	resource_num = 700,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		101174
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70176] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：标枪coco",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 190,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70176,
+	resource_num = 700,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		201213
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70177] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：凌波coco",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 190,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70177,
+	resource_num = 700,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301055
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70178] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：Z23coco",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 190,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70178,
+	resource_num = 700,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		401233
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
 			},
 			{
 				23,
@@ -33503,6 +33707,108 @@ _G.pg.shop_template[70517] = {
 	}
 }
 
+_G.pg.shop_template[70518] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:独立COCO",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 180,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70518,
+	resource_num = 780,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		107223
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70520] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:三笠COCO",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70520,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		305113
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.shop_template[70523] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -33514,8 +33820,7 @@ _G.pg.shop_template[70523] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 160,
-	time = "stop",
+	order = 480,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -33526,6 +33831,32 @@ _G.pg.shop_template[70523] = {
 	limit_args = {},
 	effect_args = {
 		305053
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -39104,6 +39435,62 @@ _G.pg.shop_template[200061] = {
 				2021,
 				11,
 				10
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[200063] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "120钻石购买限时攻略补给（龙骧复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200063,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2022,
+				3,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				3,
+				23
 			},
 			{
 				23,

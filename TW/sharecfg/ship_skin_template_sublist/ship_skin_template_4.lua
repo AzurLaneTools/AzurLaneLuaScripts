@@ -1,5 +1,119 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
+	[105200] = {
+		ship_group = 10520,
+		name = "阿拉巴馬",
+		bullet_skin_secondary = "",
+		hand_id = 3,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 105200,
+		group_index = 0,
+		prefab = "alabama",
+		painting = "alabama",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "南達科他級戰列艦—阿拉巴馬，舷號BB-60",
+		voice_actor = 190,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.32,
+					1.339,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.37,
+					1.356,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.144,
+					0.875,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.522,
+							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[106010] = {
 		ship_group = 10601,
 		name = "長島",
@@ -4883,6 +4997,108 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107223] = {
+		ship_group = 10722,
+		name = "Relaxation.I",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "109",
+		id = 107223,
+		group_index = 3,
+		prefab = "duli_6",
+		painting = "duli_6",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70518,
+		shop_type_id = 9,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗯—…還是得伸展下保證身體不會太僵硬才行呢。？衣服怎麼了嗎？…只要指揮官別一直盯著看就沒什麼吧…",
+		voice_actor = 130,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.453,
+					0.992,
+					0
+				}
+			},
+			plane = {
+				{
+					1.464,
+					1.001,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
 	[107224] = {
 		ship_group = 10722,
 		name = "海風的Lucky Time",
@@ -6603,221 +6819,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.64,
 							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[112010] = {
-		ship_group = 11201,
-		name = "女灶神",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 112010,
-		group_index = 0,
-		prefab = "zaoshen",
-		painting = "zaoshen",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "維修艦—女灶神，舷號AR-4",
-		voice_actor = 1,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.855,
-					0.938,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.855,
-					0.938,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.554,
-							0.483,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.611,
-							0.709,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[112011] = {
-		ship_group = 11201,
-		name = "清涼的赫斯提亞",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 112011,
-		group_index = 1,
-		prefab = "zaoshen_2",
-		painting = "zaoshen_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70095,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "各位，在海邊雖然玩得開心，但也要注意安全哦，要是覺得哪裡不舒服的話就來找我吧~",
-		voice_actor = 1,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.855,
-					0.938,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.855,
-					0.938,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.72,
-							2.21,
 							0
 						}
 					}

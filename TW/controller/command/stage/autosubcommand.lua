@@ -10,6 +10,8 @@ end
 function slot0.GetAutoSubMark(slot0)
 	if slot0 == SYSTEM_WORLD then
 		return "_" .. slot0
+	elseif slot0 == SYSTEM_GUILD then
+		return "_" .. SYSTEM_GUILD
 	else
 		return ""
 	end

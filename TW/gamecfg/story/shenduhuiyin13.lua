@@ -173,7 +173,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "看上去确实是这样……请问你是？这里是什么地方？",
 			typewriter = {
 				speed = 0.05,
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "好人理查德…………没听过的名字。不过听名字有点白鹰的感觉？",
 			typewriter = {
 				speed = 0.05,
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "萨摩斯岛，是爱琴海中的那个萨摩斯岛么？",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "算……是吧。",
 			typewriter = {
 				speed = 0.05,
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "……你不问问我们是谁么？",
 			typewriter = {
 				speed = 0.05,
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "好人理查德",
-			say = "从这一点上来说我们是一样哦。",
+			say = "从这一点上来说我们是一样的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "无聊的闹剧是……？",
 			typewriter = {
 				speed = 0.05,
@@ -734,7 +734,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汗格尔斯克",
+			actorName = "阿尔汉格尔斯克",
 			say = "欸……好突然，怎么办喀琅施塔得？",
 			typewriter = {
 				speed = 0.05,

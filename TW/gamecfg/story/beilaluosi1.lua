@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>一 不速之客？</size>",
+					"颯爽之白\n\n<size=45>一 不速之客？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室前",
+			say = "港區·指揮室前",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和往常一样来到指挥室，正准备打开门时，一股莫名的违和感涌了上来。",
+			say = "和往常一樣來到指揮室前，正準備打開門時，一股莫名的違和感湧了上來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +65,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了吗？进来吧。",
+			say = "來了嗎？進來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错。违和感…是因为指挥室里已经有人了。",
+			say = "沒錯。違和感…是因為指揮室裡已經有人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,27 +95,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "怎么了？不进来吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我来猜猜看好了。指挥官同志感到惊讶而不敢进入指挥室的理由是——",
+			say = "怎麼了？不進來嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,11 +111,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想起来自己昨天晚上忘了锁门了，对吧",
+			say = "那就讓我來猜猜看好了。指揮官同志感到驚訝而不敢進入指揮室的理由是——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "？ ？ ？",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "想起來自己昨天晚上忘了鎖門了，對吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,11 +157,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后指挥官同志又想到，明明昨晚只有自己一个人在加班，为什么会有别人知道……",
+			say = "然後指揮官同志又想到，明明昨晚只有自己一個人在加班，為什麼會有別人知道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一直这么站在指挥室前也不是办法。",
+			say = "一直這麼站在指揮室前也不是辦法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然已经大概猜到谁在里面，不过呆站在这的话，周围舰船们的视线实在让人感到有些窘迫。",
+			say = "雖然已經大概猜到誰在裡面，不過呆站在這的話，周圍艦船們的視線實在讓人感到有些窘迫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,11 +201,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "实在是太好猜了，甚至都构不成赌注呢。",
+			say = "實在是太好猜了，甚至都構不成賭注呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咔嚓",
+			say = "咔嚓（開門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我为什么会知道？原因其实也很简单，作为秘书舰，我比你早到了一点，并且为了早晨的准备工作而进入了指挥室，如此而已。",
+			say = "我為什麼會知道？原因其實也很簡單。作為秘書艦，我比你早到了一點，然後為了準備工作進入了指揮室，如此而已。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "带着一副唯我独尊的表情，坐在办公位上的，正是北方联合的战列舰，苏维埃贝拉罗斯。",
+			say = "帶著一副唯我獨尊的表情坐在辦公椅上的，正是北方聯合的戰列艦，蘇維埃白俄羅斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看，这些是今天的演习预定和委托的资料，这些是其他伙伴们发来的提案书。看来每天你干的活也不少嘛。",
+			say = "讓我看看……這些是今天的演習預定和委託資料，這些是其他夥伴們發來的提案書。看來每天你幹的活也不少嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一身白色戎装的美丽女性轻轻敲了敲桌上的资料堆，站起身来。",
+			say = "一身白色戎裝的美麗女性輕輕敲了敲桌上的資料堆，站起身來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用担心。既然任命我当了秘书舰，自然会让你随心所欲的干你想干的，不过嘛……",
+			say = "不用擔心。既然任命我當了秘書艦，自然會讓你隨心所欲的幹你想幹的，不過嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "完成了早晨准备工作的秘书舰朝这边走来，在耳边低声说道——",
+			say = "完成了準備工作的秘書艦朝這邊走來，在耳邊低聲說道——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "下次，可不要忘了锁门哦？",
+			say = "下次，可不要忘了鎖門哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

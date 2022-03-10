@@ -9226,6 +9226,49 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[5000401] = {
+		map = 5000401,
+		name = "斯圖爾特的硝煙|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		cloud_suffix = "white",
+		uifx = "",
+		on_activity = 40569,
+		ui_type = 1,
+		bg = "map_5",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 5000401,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -9443,6 +9486,7 @@ pg.expedition_data_by_map = {
 		5000302,
 		5000311,
 		5000312,
-		5000321
+		5000321,
+		5000401
 	}
 }

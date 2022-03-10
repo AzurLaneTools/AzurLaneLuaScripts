@@ -59,7 +59,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0.totalIcon.sprite = LoadSprite("props/" .. id2res(slot4.resource_type))
 	slot0.countValue.text = slot7
 
-	onButton(nil, slot0.minusBtn, function ()
+	pressPersistTrigger(slot0.minusBtn, 0.5, function (slot0)
 		if uv0 <= 1 then
 			return
 		end
@@ -67,8 +67,8 @@ function slot0.Show(slot0, slot1, slot2)
 		uv0 = uv0 - 1
 		uv1.countValue.text = uv0
 		uv1.total.text = uv2 * uv0
-	end, SFX_PANEL)
-	onButton(nil, slot0.addBtn, function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.addBtn, 0.5, function (slot0)
 		if uv0 == 999 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_buyCountLimit", uv0))
 
@@ -78,8 +78,8 @@ function slot0.Show(slot0, slot1, slot2)
 		uv0 = uv0 > 999 and 999 or uv0 + 1
 		uv1.countValue.text = uv0
 		uv1.total.text = uv2 * uv0
-	end, SFX_PANEL)
-	onButton(nil, slot0.tenBtn, function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.tenBtn, 0.5, function (slot0)
 		if uv0 == 999 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_buyCountLimit", uv0))
 
@@ -89,7 +89,7 @@ function slot0.Show(slot0, slot1, slot2)
 		uv0 = uv0 + 10 >= 999 and 999 or uv0 + 10
 		uv1.countValue.text = uv0
 		uv1.total.text = uv2 * uv0
-	end, SFX_PANEL)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	onButton(nil, slot0.confirmBtn, function ()
 		uv0({
 			count = uv1,

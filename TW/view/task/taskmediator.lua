@@ -81,9 +81,9 @@ function slot0.SetTaskVOs(slot0)
 
 	for slot7, slot8 in pairs(getProxy(TaskProxy):getData()) do
 		if slot8:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-			slot8.progress = slot3:getItemCountById(tonumber(slot8:getConfig("target_id_for_client")))
+			slot8.progress = slot3:getItemCountById(tonumber(tonumber(slot8:getConfig("target_id"))))
 		elseif slot8:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-			slot8.progress = getProxy(ActivityProxy):getVirtualItemNumber(slot8:getConfig("target_id_for_client"))
+			slot8.progress = getProxy(ActivityProxy):getVirtualItemNumber(tonumber(slot8:getConfig("target_id")))
 		end
 	end
 
@@ -133,9 +133,9 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == TaskProxy.TASK_ADDED then
 		if slot3:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-			slot3.progress = getProxy(BagProxy):getItemCountById(tonumber(slot3:getConfig("target_id_for_client")))
+			slot3.progress = getProxy(BagProxy):getItemCountById(tonumber(tonumber(slot3:getConfig("target_id"))))
 		elseif slot3:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-			slot3.progress = getProxy(ActivityProxy):getVirtualItemNumber(slot3:getConfig("target_id_for_client"))
+			slot3.progress = getProxy(ActivityProxy):getVirtualItemNumber(tonumber(slot3:getConfig("target_id")))
 		end
 
 		slot0.viewComponent:addTask(slot3)
@@ -147,9 +147,9 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == TaskProxy.TASK_UPDATED then
 		if slot3:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-			slot3.progress = getProxy(BagProxy):getItemCountById(tonumber(slot3:getConfig("target_id_for_client")))
+			slot3.progress = getProxy(BagProxy):getItemCountById(tonumber(tonumber(slot3:getConfig("target_id"))))
 		elseif slot3:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-			slot3.progress = getProxy(ActivityProxy):getVirtualItemNumber(slot3:getConfig("target_id_for_client"))
+			slot3.progress = getProxy(ActivityProxy):getVirtualItemNumber(tonumber(slot3:getConfig("target_id")))
 		end
 
 		slot0.viewComponent:updateTask(slot3)

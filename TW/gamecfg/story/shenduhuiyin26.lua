@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在她昏睡不醒的状况肯定也那个异常状态有关！",
+			say = "现在她昏睡不醒的状况肯定也和那个异常状态有关！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1073,7 +1073,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过这样以来，也就会和之前一样把我们所有人都被卷进去对吧？",
+			say = "不过这样一来，也就会和之前一样把我们所有人都卷进去对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

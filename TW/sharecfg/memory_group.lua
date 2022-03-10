@@ -2578,6 +2578,22 @@ pg.memory_group = {
 			1527
 		}
 	},
+	[556] = {
+		icon = "title_chara_beilaluosi",
+		subtype = 0,
+		type = 3,
+		id = 556,
+		title = "颯爽之白",
+		memories = {
+			1571,
+			1572,
+			1573,
+			1574,
+			1575,
+			1576,
+			1577
+		}
+	},
 	[557] = {
 		icon = "title_chara_danfo",
 		subtype = 0,
@@ -2814,6 +2830,7 @@ pg.memory_group = {
 		552,
 		553,
 		554,
+		556,
 		557,
 		559,
 		561,
