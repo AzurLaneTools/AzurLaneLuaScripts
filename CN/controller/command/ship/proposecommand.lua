@@ -23,7 +23,7 @@ function slot0.execute(slot0, slot1)
 			uv1:removeItemById(uv2, 1)
 
 			uv0.propose = true
-			uv0.proposeTime = pg.TimeMgr.GetInstance():GetServerTime()
+			uv0.proposeTime = slot0.time
 
 			uv3:updateShip(uv0)
 			getProxy(CollectionProxy).shipGroups[uv0.groupId]:updateMarriedFlag()

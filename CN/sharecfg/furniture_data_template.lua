@@ -8356,8 +8356,8 @@ pg.furniture_data_template = {
 		id = 100035,
 		can_rotate = 0,
 		size = {
-			4,
-			4
+			6,
+			13
 		},
 		offset = {},
 		canputonGrid = {},
@@ -8366,10 +8366,12 @@ pg.furniture_data_template = {
 		},
 		spine = {
 			{
-				"feixingpao",
+				"huaxuetaiB",
 				"normal"
 			},
-			{},
+			{
+				"huaxuetaiT"
+			},
 			{
 				{
 					0,
@@ -8380,9 +8382,12 @@ pg.furniture_data_template = {
 						"sit"
 					}
 				},
-				{},
 				{
+					nil,
 					1
+				},
+				{
+					0
 				}
 			},
 			{},
@@ -8393,8 +8398,7 @@ pg.furniture_data_template = {
 			{
 				1,
 				1
-			},
-			0.5
+			}
 		},
 		followBone = {
 			"char",

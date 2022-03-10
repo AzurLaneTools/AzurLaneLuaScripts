@@ -7478,61 +7478,132 @@ pg.activity_ins_template = {
 		ship_group = 71801,
 		name = "Кронштадт",
 		sculpture = "kalangshitade",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_284",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/220224_kalangshitadeg3lfJ9QJBl3m2lB3.png",
 		group_id = 284,
 		id = 284,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				2,
+				24
+			},
+			{
+				12,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2542,
+			2545
+		}
 	},
 	{
 		ship_group = 70110,
 		name = "Киев",
 		sculpture = "jifu",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_285",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/220224_jifukpTokAk86T53L8AK.png",
 		group_id = 285,
 		id = 285,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				2,
+				25
+			},
+			{
+				16,
+				22,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2555,
+			2557
+		}
 	},
 	{
 		ship_group = 70701,
 		name = "Волга",
 		sculpture = "fuerjia",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_286",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/220224_fuerjiayY9VzZ3PajyYG0rP.png",
 		group_id = 286,
 		id = 286,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				2,
+				26
+			},
+			{
+				11,
+				45,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2564,
+			2566
+		}
 	},
 	{
 		ship_group = 70109,
 		name = "Сообразительный",
 		sculpture = "lingmin",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_287",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/220224_lingminsN2RccCbYvI1w9rl.png",
 		group_id = 287,
 		id = 287,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				2,
+				27
+			},
+			{
+				19,
+				13,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2572,
+			2574,
+			2576
+		}
 	},
 	{
 		ship_group = 70506,
 		name = "Архангельск",
 		sculpture = "aerhangeersike",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_288",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/220224_aerhangeersike6NbBXU3Rgn3vvIjc.png",
 		group_id = 288,
 		id = 288,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				2,
+				28
+			},
+			{
+				15,
+				54,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2581,
+			2584
+		}
 	},
 	all = {
 		1,

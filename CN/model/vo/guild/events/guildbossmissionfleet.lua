@@ -151,6 +151,10 @@ function slot0.GetTeamTypeShips(slot0, slot1)
 	return slot2
 end
 
+function slot0.ExistSubShip(slot0)
+	return #slot0:GetTeamTypeShips(TeamType.Submarine) > 0
+end
+
 function slot0.RemoveAll(slot0)
 	slot0.userShips = {}
 end

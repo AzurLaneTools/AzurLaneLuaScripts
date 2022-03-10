@@ -8727,6 +8727,27 @@ _G.pg.item_data_statistics[21008] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[21009] = {
+	display = "沙恩霍斯特·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：沙恩霍斯特·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21009",
+	id = 21009,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -8911,6 +8932,27 @@ _G.pg.item_data_statistics[21905] = {
 	is_world = 0,
 	icon = "Props/21905",
 	id = 21905,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21906] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升沙恩霍斯特·META同步率，活动结束后将会消失。",
+	name = "同步值：沙恩霍斯特·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21906",
+	id = 21906,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -158685,6 +158727,27 @@ _G.pg.item_data_statistics[59277] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59277,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59278] = {
+	display = "用于『峡湾间的反击』活动兑换，活动结束后将会消失",
+	name = "峡湾之徽",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/naerweike2_pt",
+	id = 59278,
 	display_icon = {},
 	price = {},
 	index = {}

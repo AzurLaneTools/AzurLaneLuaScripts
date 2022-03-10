@@ -43,11 +43,24 @@ function slot0.getSortGoods(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
+		slot2 = slot0:canPurchase() and 1 or 0
+		slot3 = slot1:canPurchase() and 1 or 0
+		slot4, slot5 = slot0:CheckTimeLimit()
+		slot6, slot7 = slot1:CheckTimeLimit()
+
+		if slot4 and not slot5 then
+			slot2 = 0.5
+		end
+
+		if slot6 and not slot7 then
+			slot3 = 0.5
+		end
+
+		if slot2 == slot3 then
 			if slot0:getConfig("order") == slot1:getConfig("order") then
 				return slot0.id < slot1.id
 			else
-				return slot4 < slot5
+				return slot8 < slot9
 			end
 		else
 			return slot3 < slot2

@@ -334,8 +334,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "毛系v3pt",
-		key_value = 240
+		description = "『峡湾间的反击复刻』pt",
+		key_value = 242
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -2078,7 +2078,7 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			31,
-			75,
+			68,
 			8832
 		}
 	},

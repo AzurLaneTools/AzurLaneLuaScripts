@@ -1840,10 +1840,10 @@ function slot0.createTask(slot0, slot1)
 
 		if slot1:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
 			slot0.autoCommit = false
-			slot2 = slot1:getConfig("target_id_for_client")
+			slot2 = tonumber(slot1:getConfig("target_id"))
 		elseif slot4 == TASK_SUB_TYPE_PLAYER_RES then
 			slot0.autoCommit = false
-			slot2 = id2ItemId(slot1:getConfig("target_id_for_client"))
+			slot2 = id2ItemId(tonumber(slot1:getConfig("target_id")))
 		elseif slot4 == TASK_SUB_TYPE_BATTLE_EXP then
 			slot0.isExpTask = true
 			slot2 = 59000

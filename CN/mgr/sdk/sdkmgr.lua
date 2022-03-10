@@ -241,7 +241,7 @@ function slot0.CheckHadAccountCache(slot0)
 end
 
 function slot0.AccountDelete(slot0)
-	if PLATFORM_CODE == PLATFORM_JP then
+	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
 		return slot0:Get("AccountDelete")
 	else
 		return true
@@ -249,7 +249,7 @@ function slot0.AccountDelete(slot0)
 end
 
 function slot0.AccountReborn(slot0)
-	if PLATFORM_CODE == PLATFORM_JP then
+	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
 		return slot0:Get("AccountReborn")
 	else
 		return true

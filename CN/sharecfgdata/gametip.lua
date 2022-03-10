@@ -1135,11 +1135,19 @@ _G.pg.gametip.battle_levelScene_noRaderCount = {
 }
 
 _G.pg.gametip.battle_levelScene_lock = {
-	tip = "关卡尚未开放，请通关<color=#92fc63>前置关卡</color>"
+	tip = "目标地图尚未开放，请通关<color=#92fc63>前置关卡</color>"
 }
 
-_G.pg.gametip.battle_levelScene_lock_1 = {
+_G.pg.gametip.battle_levelScene_hard_lock = {
+	tip = "目标地图对应主线章节未通关，无法挑战。请通关<color=#92fc63>前置关卡</color>"
+}
+
+_G.pg.gametip.battle_levelScene_close = {
 	tip = "该阶段活动关卡尚未开放"
+}
+
+_G.pg.gametip.battle_levelScene_chapter_lock = {
+	tip = "目标关卡尚未开放，无法挑战。请通关<color=#92fc63>前置关卡</color>"
 }
 
 _G.pg.gametip.battle_preCombatLayer_changeFormationError = {
@@ -3981,6 +3989,10 @@ _G.pg.gametip.world_expedition_reward_display = {
 
 _G.pg.gametip.world_expedition_reward_display2 = {
 	tip = "HP $1%"
+}
+
+_G.pg.gametip.world_complete_item_tip = {
+	tip = "已压制所有海域，无法购买战役信息记录仪"
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -16976,9 +16988,9 @@ _G.pg.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2021.12.9-2022.3.10</color>期间限时开放「格奈森瑙·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「格奈森瑙·META」角色</color>
+·<color=#92fc63>2021.12.9-2022.3.10</color>期间限时开放「沙恩霍斯特·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「沙恩霍斯特·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「格奈森瑙·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「沙恩霍斯特·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -19298,7 +19310,7 @@ _G.pg.gametip.tactics_class_spend_time = {
 }
 
 _G.pg.gametip.build_ticket_description = {
-	tip = "※活动结束后清空 "
+	tip = "※活动结束后清空"
 }
 
 _G.pg.gametip.build_ticket_expire_warning = {
@@ -19544,4 +19556,8 @@ _G.pg.gametip.attrset_disable = {
 
 _G.pg.gametip.attrset_input_ill = {
 	tip = "输入不合法"
+}
+
+_G.pg.gametip.eventshop_time_hint = {
+	tip = "兑换时间截止至$1维护 "
 }

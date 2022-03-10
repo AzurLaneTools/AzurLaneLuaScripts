@@ -376,6 +376,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[141] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "使用沙恩霍斯特.META获得1次胜利",
+		id = 141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[142] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "使用沙恩霍斯特.META击破等级>30的敌方1次",
+		id = 142,
+		target_num = 1,
+		target_id = "30"
+	},
+	[143] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "使用沙恩霍斯特.META击破等级>55的敌方1次",
+		id = 143,
+		target_num = 1,
+		target_id = "55"
+	},
+	[144] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "使用沙恩霍斯特.META击破等级>80的敌方1次",
+		id = 144,
+		target_num = 1,
+		target_id = "80"
+	},
+	[145] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "使用沙恩霍斯特.META击破等级>100的敌方1次",
+		id = 145,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -632,6 +672,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[232] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "大型作战内使用沙恩霍斯特.META获得1次胜利",
+		id = 232,
+		target_num = 1,
+		target_id = "0"
+	},
+	[233] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "大型作战内使用沙恩霍斯特.META击破等级>70的敌方1次",
+		id = 233,
+		target_num = 1,
+		target_id = "70"
+	},
+	[234] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "大型作战内使用沙恩霍斯特.META击破等级>90的敌方1次",
+		id = 234,
+		target_num = 1,
+		target_id = "90"
+	},
+	[235] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "大型作战内使用沙恩霍斯特.META击破等级>100的敌方1次",
+		id = 235,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -696,6 +768,11 @@ pg.task_meta_data_template = {
 		138,
 		139,
 		140,
+		141,
+		142,
+		143,
+		144,
+		145,
 		200,
 		201,
 		202,
@@ -728,6 +805,10 @@ pg.task_meta_data_template = {
 		229,
 		230,
 		231,
+		232,
+		233,
+		234,
+		235,
 		301,
 		302
 	}

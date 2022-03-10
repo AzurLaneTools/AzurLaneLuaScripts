@@ -321,7 +321,7 @@ pg.item_data_frame = {
 		gain_by = "深度回音",
 		id = 318,
 		time_second = 0,
-		desc = "<color=#ffffff>「 对在极地任务中做出卓越贡献的同志致以最崇高的敬意，欢迎回家！」</color>\n「深度回音」活动获取",
+		desc = "<color=#ffffff>「对在极地任务中做出卓越贡献的同志致以最崇高的敬意，欢迎回家！」</color>\n「深度回音」活动获取",
 		scene = {}
 	},
 	[401] = {
