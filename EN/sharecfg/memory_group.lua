@@ -3391,6 +3391,22 @@ pg.memory_group = {
 			2001
 		}
 	},
+	[572] = {
+		icon = "title_chara_aisijimoren",
+		subtype = 0,
+		type = 3,
+		id = 572,
+		title = "Summer Surprise",
+		memories = {
+			2041,
+			2042,
+			2043,
+			2044,
+			2045,
+			2046,
+			2047
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3567,6 +3583,7 @@ pg.memory_group = {
 		568,
 		569,
 		570,
-		571
+		571,
+		572
 	}
 }

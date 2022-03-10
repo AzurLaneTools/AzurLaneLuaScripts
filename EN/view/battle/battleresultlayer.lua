@@ -374,10 +374,14 @@ function slot0.showRewardInfo(slot0)
 			slot6 = uv0.skipFlag
 			slot7 = false
 
-			if uv0.contextData.system == SYSTEM_SCENARIO and getProxy(ChapterProxy):getActiveChapter(true) and slot8:isLoop() then
-				getProxy(ChapterProxy):AddExtendChapterDataArray(slot8.id, "TotalDrops", slot3)
+			if uv0.contextData.system == SYSTEM_SCENARIO and getProxy(ChapterProxy):getActiveChapter(true) then
+				if slot8:isLoop() then
+					getProxy(ChapterProxy):AddExtendChapterDataArray(slot8.id, "TotalDrops", slot3)
 
-				slot7 = getProxy(ChapterProxy):GetChapterAutoFlag(slot8.id) == 1
+					slot7 = getProxy(ChapterProxy):GetChapterAutoFlag(slot8.id) == 1
+				end
+
+				slot8:writeDrops(slot3)
 			end
 
 			slot8 = uv0

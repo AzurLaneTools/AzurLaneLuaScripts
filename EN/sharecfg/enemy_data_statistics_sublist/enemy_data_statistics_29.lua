@@ -1528,7 +1528,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90618] = {
 		cannon = 0,
-		name = "基辅",
+		name = "Kiev",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1692,7 +1692,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90619] = {
 		cannon = 0,
-		name = "灵敏",
+		name = "Soobrazitelny",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1856,7 +1856,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90620] = {
 		cannon = 0,
-		name = "喀琅施塔得",
+		name = "Kronshtadt",
 		type = 18,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -2000,7 +2000,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90621] = {
 		cannon = 0,
-		name = "阿尔汉格尔斯克 ",
+		name = "Arkhangelsk",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -2144,7 +2144,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90622] = {
 		cannon = 0,
-		name = "伏尔加",
+		name = "Volga",
 		type = 6,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -2286,6 +2286,170 @@ pg.enemy_data_statistics_29 = {
 		random_nub = {},
 		buff_list = {}
 	},
+	[90623] = {
+		cannon = 0,
+		name = "Scharnhorst META",
+		type = 4,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90623,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "shaenhuosite_alter",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 4,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "shaenhuosite_alter",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 97,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.42,
+					0.88,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.42,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.42,
+					0.88,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.88,
+							1.26,
+							-0.73
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.18,
+							2.65,
+							-1.54
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[611] = {
 		cannon = 22,
 		speed = 16,
@@ -2331,83 +2495,6 @@ pg.enemy_data_statistics_29 = {
 			311072,
 			311075,
 			311076
-		}
-	},
-	[612] = {
-		cannon = 24,
-		battle_unit_type = 65,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 16,
-		dodge = 4,
-		luck = 0,
-		id = 612,
-		cannon_growth = 3000,
-		reload_growth = 0,
-		dodge_growth = 66,
-		reload = 150,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		rarity = 4,
-		base = 90222,
-		durability = 800,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 32400,
-		antisub = 0,
-		antiaircraft = 57,
-		antiaircraft_growth = 4680,
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.59,
-							0.87,
-							0.28
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.83,
-							2.62,
-							1.31
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			100201,
-			311077,
-			311078,
-			311089
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
 		}
 	}
 }

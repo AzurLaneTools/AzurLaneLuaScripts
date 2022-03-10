@@ -1481,11 +1481,19 @@ _G.pg.gametip.battle_levelScene_noRaderCount = {
 }
 
 _G.pg.gametip.battle_levelScene_lock = {
-	tip = "Stage not yet open. Please clear <color=#92fc63>previous stage</color>."
+	tip = "This stage is currently unavailable. Please clear the <color=#92fc63>required</color> stage first."
 }
 
-_G.pg.gametip.battle_levelScene_lock_1 = {
-	tip = "The next stages are not yet available "
+_G.pg.gametip.battle_levelScene_hard_lock = {
+	tip = "You have not completed the corresponding Main Campaign stage required to enter this stage. Please clear the <color=#92fc63>required</color> stage first."
+}
+
+_G.pg.gametip.battle_levelScene_close = {
+	tip = "This event stage is currently unavailable."
+}
+
+_G.pg.gametip.battle_levelScene_chapter_lock = {
+	tip = "This stage is currently unavailable. Please clear the <color=#92fc63>required</color> stage first."
 }
 
 _G.pg.gametip.battle_preCombatLayer_changeFormationError = {
@@ -4209,9 +4217,9 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 About META Showdown:
 
-1. From <color=#92fc63>12/9/21 to 3/9/22</color>, challenge Gneisenau META
+1. From <color=#92fc63>3/10/22 to 5/31/22</color>, challenge Scharnhorst META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Gneisenau META</color> as well
+to obtain the limited character, <color=#92fc63>Scharnhorst META</color> as well
 as other great rewards.
  <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>
 
@@ -4371,6 +4379,10 @@ _G.pg.gametip.world_expedition_reward_display = {
 
 _G.pg.gametip.world_expedition_reward_display2 = {
 	tip = "$1% HP"
+}
+
+_G.pg.gametip.world_complete_item_tip = {
+	tip = "Unable to purchase the Operation Siren Data Logger after controlling all zones."
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -19738,4 +19750,8 @@ _G.pg.gametip.attrset_disable = {
 
 _G.pg.gametip.attrset_input_ill = {
 	tip = "Input error."
+}
+
+_G.pg.gametip.eventshop_time_hint = {
+	tip = "Exchange shop available until $1 maintenance."
 }

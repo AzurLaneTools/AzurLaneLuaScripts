@@ -128,6 +128,71 @@ pg.ship_meta_breakout = {
 		pre_id = 9704013,
 		weapon_ids = {}
 	},
+	[9704021] = {
+		breakout_view = "Unlock Cinders of Hope - Scharnhorst/Main gun base +1/Main gun efficiency +5%",
+		gold = 1000,
+		breakout_id = 9704022,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9704021,
+		item1 = 21009,
+		pre_id = 0,
+		weapon_ids = {
+			44000,
+			44000
+		}
+	},
+	[9704022] = {
+		breakout_view = "Unlock special secondary guns/Main gun efficiency +10%",
+		gold = 3000,
+		breakout_id = 9704023,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9704022,
+		item1 = 21009,
+		pre_id = 9704021,
+		weapon_ids = {
+			446
+		}
+	},
+	[9704023] = {
+		breakout_view = "Improve Cinders of Hope - Scharnhorst/ Main gun base +1/Main gun efficiency +15%",
+		gold = 10000,
+		breakout_id = 9704024,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9704023,
+		item1 = 21009,
+		pre_id = 9704022,
+		weapon_ids = {
+			44000,
+			44000,
+			44000
+		}
+	},
+	[9704024] = {
+		breakout_view = "N/A",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9704024,
+		item1 = 21009,
+		pre_id = 9704023,
+		weapon_ids = {}
+	},
 	[9705011] = {
 		breakout_view = "Learn skill Ashen Might/Main gun base +1/Main gun efficiency +5%",
 		gold = 500,
@@ -549,6 +614,10 @@ pg.ship_meta_breakout = {
 		9704012,
 		9704013,
 		9704014,
+		9704021,
+		9704022,
+		9704023,
+		9704024,
 		9705011,
 		9705012,
 		9705013,

@@ -81905,6 +81905,280 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800340] = {
+		desc_get = "",
+		name = "Dual Snipe",
+		id = 800340,
+		type = 1,
+		max_level = 10,
+		desc = "Every 15s: fires two $1 precise shots, inflicting a special Armor Break status on enemies hit for 10s (DMG is based on this skill's level); When an enemy enters the defensive range, triggers a $1 barrage with a 5s cooldown (DMG is based on this skill's level). ",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800350] = {
+		desc_get = "",
+		name = "Blazing Blitz",
+		id = 800350,
+		type = 3,
+		max_level = 10,
+		desc = "Increases the range of torpedoes equipped to this ship to 125 and improves the spread pattern; When this ship fires her torpedoes: $1 chance to perform an additional $2 barrage (DMG is based on this skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800360] = {
+		desc_get = "",
+		name = "Iron Embers",
+		id = 800360,
+		type = 2,
+		max_level = 10,
+		desc = "Increases TRP and AA by 10.0%; At the start of the battle, if there are other Iron Blood or META ships in the same fleet as this ship: this ship takes 5.0% less DMG and gains $1 FP; If this condition is not met: 15s after the battle starts, instead generates a shield for the frontmost ship of the Vanguard Fleet that can block up to 10 shots.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[800371] = {
+		desc_get = "",
+		name = "Ashen Might - Scharnhorst I",
+		id = 800371,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and ACC by 5%",
+		system_transform = {
+			[51.0] = 800375
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800372] = {
+		desc_get = "",
+		name = "Ashen Might - Scharnhorst II",
+		id = 800372,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and ACC by 8%",
+		system_transform = {
+			[51.0] = 800377
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800375] = {
+		desc_get = "",
+		name = "Ashen Might - Scharnhorst I",
+		id = 800375,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and ACC by 5%",
+		system_transform = {
+			[51.0] = 800375
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800377] = {
+		desc_get = "",
+		name = "Ashen Might - Scharnhorst II",
+		id = 800377,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and ACC by 8%",
+		system_transform = {
+			[51.0] = 800377
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -83306,6 +83580,13 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		800331,
 		800332,
 		800335,
-		800337
+		800337,
+		800340,
+		800350,
+		800360,
+		800371,
+		800372,
+		800375,
+		800377
 	}
 }

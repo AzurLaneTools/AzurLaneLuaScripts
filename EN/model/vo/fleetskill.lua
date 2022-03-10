@@ -8,7 +8,6 @@ slot0.TypeStrategy = "strategy"
 slot0.TypeBattleBuff = "battle_buff"
 slot0.TypeAttack = "attack"
 slot0.TypeTorpedoPowerUp = "torpedo_power_up"
-slot0.TriggerDDCount = "dd_count"
 slot0.TriggerDDHead = "dd_head"
 slot0.TriggerAroundEnemy = "around_enemy"
 slot0.TriggerVanCount = "vang_count"
@@ -77,11 +76,7 @@ end
 function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
 	slot4 = getProxy(BayProxy)
 
-	if slot2[1] == FleetSkill.TriggerDDCount then
-		return slot2[2] <= #_.filter(slot4:getShipByTeam(slot0, TeamType.Vanguard), function (slot0)
-			return ShipType.IsTypeQuZhu(slot0:getShipType())
-		end) and slot6 <= slot2[3]
-	elseif slot3 == FleetSkill.TriggerDDHead then
+	if slot2[1] == FleetSkill.TriggerDDHead then
 		return #slot4:getShipByTeam(slot0, TeamType.Vanguard) > 0 and ShipType.IsTypeQuZhu(slot5[1]:getShipType())
 	elseif slot3 == FleetSkill.TriggerVanCount then
 		return slot2[2] <= #slot4:getShipByTeam(slot0, TeamType.Vanguard) and #slot5 <= slot2[3]
@@ -129,11 +124,7 @@ end
 function slot0.MirrorFleetCheck(slot0, slot1, slot2)
 	slot4 = getProxy(BayProxy)
 
-	if slot2[1] == FleetSkill.TriggerDDCount then
-		return slot2[2] <= #_.filter(slot0:getShipsByTeam(TeamType.Vanguard, false), function (slot0)
-			return ShipType.IsTypeQuZhu(slot0:getShipType())
-		end) and slot6 <= slot2[3]
-	elseif slot3 == FleetSkill.TriggerDDHead then
+	if slot2[1] == FleetSkill.TriggerDDHead then
 		return #slot0:getShipsByTeam(TeamType.Vanguard, false) > 0 and ShipType.IsTypeQuZhu(slot5[1]:getShipType())
 	elseif slot3 == FleetSkill.TriggerVanCount then
 		return slot2[2] <= #slot0:getShipsByTeam(TeamType.Vanguard, false) and #slot5 <= slot2[3]
@@ -179,11 +170,7 @@ function slot0.GuildBossTriggerSkill(slot0, slot1)
 end
 
 function slot0.GuildBossFleetCheck(slot0, slot1, slot2)
-	if slot2[1] == FleetSkill.TriggerDDCount then
-		return slot2[2] <= #_.filter(slot0:GetShips(), function (slot0)
-			return ShipType.IsTypeQuZhu(slot0.ship:getShipType())
-		end) and slot4 <= slot2[3]
-	elseif slot3 == FleetSkill.TriggerDDHead then
+	if slot2[1] == FleetSkill.TriggerDDHead then
 		return #slot0:GetTeamTypeShips(TeamType.Vanguard) > 0 and ShipType.IsTypeQuZhu(slot4[1]:getShipType())
 	elseif slot3 == FleetSkill.TriggerVanCount then
 		return slot2[2] <= #slot0:GetTeamTypeShips(TeamType.Vanguard) and #slot4 <= slot2[3]

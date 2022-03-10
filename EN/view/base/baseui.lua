@@ -67,7 +67,6 @@ end
 function slot0.load(slot0)
 	slot1 = nil
 	slot2 = Time.realtimeSinceStartup
-	slot3 = 0
 
 	seriesAsync({
 		function (slot0)
@@ -76,8 +75,8 @@ function slot0.load(slot0)
 
 			slot1:GetUI(slot3:getUIName(), true, function (slot0)
 				uv0 = slot0
-				uv1 = not IsNil(uv0)
 
+				print("Loaded " .. uv1:getUIName())
 				uv2()
 			end)
 		end,
@@ -85,32 +84,19 @@ function slot0.load(slot0)
 			uv0:preload(slot0)
 		end
 	}, function ()
-		if IsNil(uv0) then
-			if uv1:getUIName() == "LevelMainScene" and PLATFORM_CODE == PLATFORM_CH then
-				print("plural status: " .. PoolMgr.GetInstance():GetPluralStatus("ui/LevelMainSceneLevelMainScene"))
-				print("after load LevelMainScene firstLoad " .. tostring(uv2) .. " currentLoad " .. tostring(not IsNil(uv0)))
-				ReflectionHelp.RefCallStaticMethod(typeof("BuglyAgent"), "ReportException", {
-					typeof("System.String"),
-					typeof("System.String"),
-					typeof("System.String")
-				}, {
-					"ui load Failed",
-					"LevelMainScene preload Failed",
-					debug.traceback()
-				})
-			end
-
-			slot0 = PoolMgr.GetInstance()
-			slot2 = uv1
-
-			slot0:GetUI(slot2:getUIName(), false, function (slot0)
-				uv0 = slot0
-
-				print("Reload UI " .. tostring(uv1:getUIName()) .. " IsNil? " .. tostring(IsNil(uv0)))
-			end)
+		if IsNil(uv0) and PLATFORM_CODE == PLATFORM_CH then
+			ReflectionHelp.RefCallStaticMethod(typeof("BuglyAgent"), "ReportException", {
+				typeof("System.String"),
+				typeof("System.String"),
+				typeof("System.String")
+			}, {
+				"ui load Failed",
+				uv1:getUIName() .. " preload Failed",
+				debug.traceback()
+			})
 		end
 
-		print("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv3)
+		print("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv2)
 		uv0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 		uv0:SetActive(true)
 		uv1:onUILoaded(uv0)

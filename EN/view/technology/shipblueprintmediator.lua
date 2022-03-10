@@ -53,7 +53,7 @@ function slot0.register(slot0)
 				content = i18n("blueprint_commit_tip", getDropInfo({
 					{
 						DROP_TYPE_ITEM,
-						slot2:getConfig("target_id_for_client"),
+						tonumber(slot2:getConfig("target_id")),
 						slot2:getConfig("target_num")
 					}
 				})),
@@ -66,7 +66,7 @@ function slot0.register(slot0)
 				content = i18n("blueprint_commit_tip", getDropInfo({
 					{
 						DROP_TYPE_RESOURCE,
-						slot2:getConfig("target_id_for_client"),
+						tonumber(slot2:getConfig("target_id")),
 						slot2:getConfig("target_num")
 					}
 				})),

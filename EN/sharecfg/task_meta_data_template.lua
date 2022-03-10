@@ -376,6 +376,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[141] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "Win 1 battle with Scharnhorst META in your fleet.",
+		id = 141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[142] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Scharnhorst META in your fleet.",
+		id = 142,
+		target_num = 1,
+		target_id = "30"
+	},
+	[143] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Scharnhorst META in your fleet.",
+		id = 143,
+		target_num = 1,
+		target_id = "55"
+	},
+	[144] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Scharnhorst META in your fleet.",
+		id = 144,
+		target_num = 1,
+		target_id = "80"
+	},
+	[145] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Scharnhorst META in your fleet.",
+		id = 145,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -632,6 +672,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[232] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Scharnhorst META in your fleet.",
+		id = 232,
+		target_num = 1,
+		target_id = "0"
+	},
+	[233] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Scharnhorst META in your fleet.",
+		id = 233,
+		target_num = 1,
+		target_id = "70"
+	},
+	[234] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Scharnhorst META in your fleet.",
+		id = 234,
+		target_num = 1,
+		target_id = "90"
+	},
+	[235] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Scharnhorst META in your fleet.",
+		id = 235,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -696,6 +768,11 @@ pg.task_meta_data_template = {
 		138,
 		139,
 		140,
+		141,
+		142,
+		143,
+		144,
+		145,
 		200,
 		201,
 		202,
@@ -728,6 +805,10 @@ pg.task_meta_data_template = {
 		229,
 		230,
 		231,
+		232,
+		233,
+		234,
+		235,
 		301,
 		302
 	}

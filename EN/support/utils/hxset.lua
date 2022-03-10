@@ -44,10 +44,10 @@ function slot0.init()
 			slot2 = "Localization_skin = false"
 
 			if slot1.Length <= 1 then
-				System.IO.File.WriteAllLines(slot0, {
+				slot3 = {
 					slot1[0],
 					slot2
-				})
+				}
 			else
 				slot2 = slot1[1]
 			end

@@ -18,6 +18,7 @@ function slot0.OnLoaded(slot0)
 	slot0.ownerLabelTF = slot0:findTF("icon_bg/own/label", slot0.topItem)
 	slot0.cancelBtn = slot0:findTF("actions/cancel_button")
 	slot0.confirmBtn = slot0:findTF("actions/confirm_button")
+	slot0.timeLimitTF = slot0:findTF("item/time_limit")
 
 	setText(slot0:findTF("got/panel_bg/got_text"), i18n("shops_msgbox_output"))
 	setText(slot0:findTF("count/image_text"), i18n("shops_msgbox_exchange_count"))
@@ -48,11 +49,21 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		type = slot1:getConfig("commodity_type"),
 		count = slot1:getConfig("num")
 	}
-	slot4, slot5 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
-	slot6 = math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1)
+	slot4, slot5 = slot1:CheckTimeLimit()
+
+	setActive(slot0.timeLimitTF, slot4)
+
+	if slot4 and slot5 then
+		slot8, slot9, slot10 = getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id):GetEndTime()
+
+		setText(slot0:findTF("Text", slot0.timeLimitTF), i18n("eventshop_time_hint", slot9 .. "." .. slot10))
+	end
+
+	slot6, slot7 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
+	slot8 = math.max(math.floor(slot7 / slot1:getConfig("resource_num")), 1)
 
 	if slot1:getConfig("num_limit") ~= 0 then
-		slot6 = math.min(slot6, math.max(0, slot1:GetPurchasableCnt()))
+		slot8 = math.min(slot8, math.max(0, slot1:GetPurchasableCnt()))
 	end
 
 	(function (slot0)
@@ -64,10 +75,10 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	updateDrop(slot0.topItem, slot3)
 	updateDrop(slot0.bottomItem, slot3)
 
-	slot8, slot9 = GetOwnedpropCount(slot3)
+	slot10, slot11 = GetOwnedpropCount(slot3)
 
-	setActive(slot0.ownerTF.parent, slot9)
-	setText(slot0.ownerTF, slot8)
+	setActive(slot0.ownerTF.parent, slot11)
+	setText(slot0.ownerTF, slot10)
 	setText(slot0.ownerLabelTF, i18n("word_own1"))
 
 	slot0.nameTF.text = slot3.cfg.name

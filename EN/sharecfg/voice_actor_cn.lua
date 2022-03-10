@@ -578,7 +578,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 145,
-		actor_name = "Aoi Yuuki"
+		actor_name = "Aoi Yuki"
 	},
 	{
 		code = 146,

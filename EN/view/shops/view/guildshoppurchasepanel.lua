@@ -102,14 +102,14 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 		setActive(uv1:Find("cnt"), true)
 		setActive(uv1:Find("selected"), true)
 	end, SFX_PANEL)
-	onButton(slot0, slot3:Find("cnt/minus"), function ()
+	pressPersistTrigger(slot3:Find("cnt/minus"), 0.5, function (slot0)
 		if #uv0.selectedList == 0 then
 			return
 		end
 
-		for slot3, slot4 in ipairs(uv0.selectedList) do
-			if slot4 == uv1 then
-				table.remove(uv0.selectedList, slot3)
+		for slot4, slot5 in ipairs(uv0.selectedList) do
+			if slot5 == uv1 then
+				table.remove(uv0.selectedList, slot4)
 
 				break
 			end
@@ -117,8 +117,8 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 
 		uv2()
 		uv0:UpdateValue()
-	end, SFX_PANEL)
-	onButton(slot0, slot3:Find("cnt/add"), function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot3:Find("cnt/add"), 0.5, function (slot0)
 		if #uv0.selectedList == uv0.maxCnt then
 			return
 		end
@@ -126,7 +126,7 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 		table.insert(uv0.selectedList, uv1)
 		uv2()
 		uv0:UpdateValue()
-	end, SFX_PANEL)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	(function ()
 		slot0 = 0
 

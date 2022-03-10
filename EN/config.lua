@@ -155,6 +155,7 @@ ShareCfg = {
 	["ShareCfg.illustrator"] = true,
 	["ShareCfg.strategy_data_template"] = true,
 	["ShareCfg.storeup_data_template"] = true,
+	["ShareCfg.skinshop_spine_scale"] = true,
 	["ShareCfg.commander_skill_template"] = true,
 	["ShareCfg.world_regions_data"] = true,
 	["ShareCfg.world_event_desc"] = true,

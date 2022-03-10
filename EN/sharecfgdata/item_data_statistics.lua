@@ -8447,6 +8447,27 @@ _G.pg.item_data_statistics[21008] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[21009] = {
+	display = "An item that increases the potential of Scharnhorst META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Scharnhorst",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21009",
+	id = 21009,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -8631,6 +8652,27 @@ _G.pg.item_data_statistics[21905] = {
 	is_world = 0,
 	icon = "Props/21905",
 	id = 21905,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21906] = {
+	display = "Data collected from battle that can be used to increase the synchronization rate of Scharnhorst META.Item will disappear when event has finished. ",
+	name = "Synchronization Point – Scharnhorst META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21906",
+	id = 21906,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -149985,6 +150027,27 @@ _G.pg.item_data_statistics[59277] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59277,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59278] = {
+	display = "Earned from clearing stages in \"Counterattack Within the Fjord.\" Expires after the event period ends. ",
+	name = "Fjord Badge ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/naerweike2_pt",
+	id = 59278,
 	display_icon = {},
 	price = {},
 	index = {}

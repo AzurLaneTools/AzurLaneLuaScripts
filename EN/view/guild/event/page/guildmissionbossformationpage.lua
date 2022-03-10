@@ -17,6 +17,8 @@ function slot0.OnLoaded(slot0)
 	slot0.subGrids = slot0:findTF("frame/single")
 	slot0.nextBtn = slot0:findTF("frame/next")
 	slot0.prevBtn = slot0:findTF("frame/prev")
+	slot0._autoToggle = slot0:findTF("frame/auto_toggle")
+	slot0._autoSubToggle = slot0:findTF("frame/sub_toggle")
 	slot0.commanderPage = GuildCommanderFormationPage.New(slot0:findTF("frame/commanders"), slot0.event, slot0.contextData)
 
 	setText(slot0:findTF("oil/label", slot0.goBtn), i18n("text_consume"))
@@ -101,6 +103,58 @@ function slot0.OnShow(slot0)
 	slot0:UpdateDesc()
 
 	slot0.consumeTxt.text = string.format("<color=%s>%d</color>/%d", pg.guildset.use_oil.key_value <= getProxy(PlayerProxy):getRawData():getResource(2) and COLOR_GREEN or COLOR_RED, slot3, slot2)
+	slot0.isOpenAuto = ys.Battle.BattleState.IsAutoBotActive(SYSTEM_GUILD)
+	slot5 = AutoBotCommand.GetAutoBotMark(SYSTEM_GUILD)
+
+	slot0:OnSwitch(slot0._autoToggle, slot0.isOpenAuto, function (slot0)
+		uv0.isOpenAuto = slot0
+
+		uv0:UpdateSubToggle()
+		PlayerPrefs.SetInt("autoBotIsAcitve" .. uv1, slot0 and 1 or 0)
+		PlayerPrefs.Save()
+	end)
+
+	slot7 = AutoSubCommand.GetAutoSubMark(SYSTEM_GUILD)
+
+	slot0:OnSwitch(slot0._autoSubToggle, ys.Battle.BattleState.IsAutoSubActive(SYSTEM_GUILD), function (slot0)
+		PlayerPrefs.SetInt("autoSubIsAcitve" .. uv0, slot0 and 1 or 0)
+		PlayerPrefs.Save()
+	end)
+	slot0:UpdateSubToggle()
+end
+
+function slot0.GetFleet(slot0, slot1)
+	slot2 = nil
+
+	if slot0.contextData.editBossFleet then
+		slot2 = slot0.contextData.editBossFleet[slot1]
+	end
+
+	return slot2 or slot0.bossMission:GetFleetByIndex(slot1)
+end
+
+function slot0.UpdateSubToggle(slot0)
+	slot1 = slot0:GetFleet(GuildBossMission.SUB_FLEET_ID)
+	slot3 = slot0:GetFleet(GuildBossMission.MAIN_FLEET_ID):IsLegal()
+
+	setActive(slot0._autoSubToggle, slot0.isOpenAuto and slot3 and slot1 and slot1:ExistSubShip())
+	setActive(slot0._autoToggle, AutoBotCommand.autoBotSatisfied() and slot3)
+end
+
+function slot0.OnSwitch(slot0, slot1, slot2, slot3)
+	slot4 = slot1:Find("on")
+	slot5 = slot1:Find("off")
+
+	removeOnToggle(slot1)
+	(function (slot0)
+		setActive(uv0, slot0)
+		setActive(uv1, not slot0)
+	end)(slot2)
+	triggerToggle(slot1, slot2)
+	onToggle(slot0, slot1, function (slot0)
+		uv0(slot0)
+		uv1(slot0)
+	end, SFX_PANEL)
 end
 
 function slot0.CheckCommanderPanel(slot0)
@@ -142,6 +196,7 @@ function slot0.UpdateFleet(slot0, slot1)
 
 	setActive(slot0.nextBtn, slot1 == GuildBossMission.MAIN_FLEET_ID)
 	setActive(slot0.prevBtn, slot1 == GuildBossMission.SUB_FLEET_ID)
+	slot0:UpdateSubToggle()
 end
 
 function slot0.UpdateCommanders(slot0, slot1)

@@ -16,10 +16,18 @@ function slot0.Ctor(slot0, slot1)
 	slot0.resIconTF = findTF(slot0.tr, "item/consume/contain/icon"):GetComponent(typeof(Image))
 	slot0.mask = slot0.tr:Find("mask")
 	slot0.selloutTag = slot0.tr:Find("mask/tag/sellout_tag")
+	slot0.sellEndTag = slot0.tr:Find("mask/tag/sellend_tag")
+
+	setActive(slot0.sellEndTag, false)
+
 	slot0.countTF = findTF(slot0.tr, "item/consume/contain/Text"):GetComponent(typeof(Text))
 	slot0.discountTF = findTF(slot0.tr, "item/discount")
 
 	setActive(slot0.discountTF, false)
+
+	slot0.limitTimeSellTF = findTF(slot0.tr, "item/limit_time_sell")
+
+	setActive(slot0.limitTimeSellTF, false)
 
 	slot0.limitCountTF = findTF(slot0.tr, "item/count_contain/count"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF = findTF(slot0.tr, "item/count_contain/label"):GetComponent(typeof(Text))
@@ -31,14 +39,27 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 
 	setActive(slot0.mask, not slot5 or slot0.goodsVO:CheckCntLimit() and not slot0.goodsVO:CheckArgLimit())
 	setActive(slot0.selloutTag, not slot5)
-
-	slot7 = slot1:getConfig("commodity_type")
-
 	updateDrop(slot0.itemTF, {
-		type = slot7,
+		type = slot1:getConfig("commodity_type"),
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
 	})
+	setActive(slot0.limitTimeSellTF, false)
+	removeOnButton(slot0.mask)
+
+	if slot5 then
+		slot10, slot11 = slot0.goodsVO:CheckTimeLimit()
+
+		setActive(slot0.limitTimeSellTF, slot10 and slot11)
+		setActive(slot0.mask, slot10 and not slot11)
+		setActive(slot0.sellEndTag, slot10 and not slot11)
+
+		if slot10 and not slot11 then
+			onButton(slot0, slot0.mask, function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", Item.GetName(uv0.type, uv0.id)))
+			end, SFX_PANEL)
+		end
+	end
 
 	slot10 = ""
 	slot0.countTF.text = slot1:getConfig("resource_num")

@@ -52105,7 +52105,7 @@ _G.pg.ship_skin_words[9704010] = {
 	touch2 = "Such a crass hobby... But whatever makes you happy.",
 	voice_key_2 = -1,
 	skill = "Everything is as planned.",
-	drop_descrip = "",
+	drop_descrip = "You're... the Commander, right? In other words, the one with the authority to control me. Though I have no interest in you as an individual, I will still obey your orders... At least for the time being.",
 	mail = "Just a friendly reminder: you still have unopened mail.",
 	touch = "What's wrong? Can't make up your mind?",
 	profile = "I am the Iron Blood battleship, Gneisenau. I've heard that you are an excellent commander, so surely you know how to operate a precise and efficient instrument of war?",
@@ -52134,6 +52134,40 @@ _G.pg.ship_skin_words[9704010] = {
 			0
 		}
 	}
+}
+
+_G.pg.ship_skin_words[9704020] = {
+	feeling1 = "A weakling such as you isn't fit to command a fleet.",
+	feeling3 = "There must be some people here who strive to push their limits. Introduce me to them, would you?",
+	lose = "This isn't over! I will NOT retreat!",
+	propose = "There's no guarantee I'll forever stay by your side. That said... I will lend you every ounce of my strength to realize your ideal world. I, Scharnhorst, will fight for you.",
+	expedition = "The commission team has come back. I'll send down a stand-in since we're both preoccupied here.",
+	win_mvp = "Such is the inevitable fate of all raving shitheads who oppose me.",
+	home = "We are most prone to carelessness after a hard-fought battle. Stay sharp, Commander.",
+	mission = "Why do you need more people on this mission? You don't think I'm capable enough, huh?!",
+	touch2 = "You disgust me... Ugh!",
+	voice_key_2 = -1,
+	skill = "There is no compassion in war!",
+	drop_descrip = "I'm Iron Blood battlecruiser Scharnhorst. I am keen to join forces with a Commander as talented as you. Don't let my expectations of you be misplaced.",
+	mail = "Here, a letter for you. I've underlined the important parts of it.",
+	touch = "Exhausted, you say? A break is just around the corner. Don't let up until then.",
+	profile = "I'm Scharnhorst. Never back down, no matter what – that's my doctrine. I'll state it upfront: I'm headstrong, and might even defy your orders from time to time.",
+	mission_complete = "Good news – mission complete. I went ahead and claimed the rewards, too.",
+	feeling4 = "I'm well used to life at this port by now. While I'm still pushing my limits as always, I do feel like I've started to... loosen up a bit.",
+	unlock = "I'm Iron Blood battlecruiser Scharnhorst. I am keen to join forces with a Commander as talented as you. Don't let my expectations of you be misplaced.",
+	feeling5 = "What is this feeling of inner peace which I've lacked for so long...? What will happen when it goes away? ...You won't let it go anywhere? Usually I'd call that an empty promise, but when it's YOU making that promise... I must just believe it.",
+	main = "Aircraft carrier shitbags... I hate to admit, but they outclass me when it comes to information and long-range warfare.|Wounds of the body heal in due time. Wounds of the mind... They don't often fade so easily.|The Ugly Sisters... Hahah. What an unforgettable nickname. The spite of your enemies is the most potent affirmation you can ask for.",
+	battle = "I've had enough of your bullshit. There'll be nothing left of you when I'm finished!",
+	upgrade = "Time to assess my new strength with a cannon volley.",
+	voice_key = 970402,
+	headtouch = "Stop wasting your time on infantilizing me!",
+	feeling2 = "I never flee the battlefield, but I know when to make concessions.",
+	login = "Now that you're here, it's time to get cracking. Start by reading these documents.",
+	vote = "",
+	hp_warning = "I will make you suffer for your persistence!",
+	id = 9704020,
+	detail = "My every scar is proof of a brush with Death survived.",
+	couple_encourage = {}
 }
 
 _G.pg.ship_skin_words[9705010] = {

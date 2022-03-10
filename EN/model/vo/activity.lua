@@ -526,6 +526,12 @@ function slot0.canPermanentFinish(slot0)
 	return false
 end
 
+function slot0.GetEndTime(slot0)
+	slot2 = slot0:getConfig("time")[3]
+
+	return slot2[1][1], slot2[1][2], slot2[1][3]
+end
+
 function slot0.GetShopTime(slot0)
 	slot1 = slot0:getConfig("time")
 	slot2 = slot1[2]
