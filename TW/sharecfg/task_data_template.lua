@@ -20523,7 +20523,7 @@ pg.task_data_template = {
 		}
 	},
 	[5582] = {
-		name = "瞄准目标",
+		name = "瞄準目標",
 		guild_coin_award = 0,
 		award = 5423,
 		type = 5,
@@ -20557,7 +20557,7 @@ pg.task_data_template = {
 		}
 	},
 	[5583] = {
-		name = "Welcome to 港区！",
+		name = "Welcome to 港區！",
 		guild_coin_award = 0,
 		award = 5424,
 		type = 5,
@@ -20625,7 +20625,7 @@ pg.task_data_template = {
 		}
 	},
 	[5585] = {
-		name = "朦胧之中",
+		name = "朦朧之中",
 		guild_coin_award = 0,
 		award = 5426,
 		type = 5,
@@ -20713,7 +20713,7 @@ pg.task_data_template = {
 		}
 	},
 	[5587] = {
-		name = "在指挥室",
+		name = "在指揮室",
 		guild_coin_award = 0,
 		award = 5428,
 		type = 5,
