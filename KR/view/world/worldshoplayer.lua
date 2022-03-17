@@ -55,8 +55,16 @@ function slot0.didEnter(slot0)
 			setTextColor(slot2:Find("item/count_contain/count"), Color.New(unpack(ActivityGoodsCard.DefaultColor)))
 			setTextColor(slot2:Find("item/count_contain/label"), Color.New(unpack(ActivityGoodsCard.DefaultColor)))
 			onButton(uv0, slot2, function ()
-				if uv0:getConfig("genre") == ShopArgs.WorldCollection and nowWorld():GetTaskProxy():hasDoingCollectionTask() then
+				slot0 = nowWorld()
+
+				if uv0:getConfig("genre") == ShopArgs.WorldCollection and slot0:GetTaskProxy():hasDoingCollectionTask() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("world_collection_task_tip_1"))
+
+					return
+				elseif uv0.id == 100000 and not underscore.any(underscore.values(slot0.pressingAwardDic), function (slot0)
+					return slot0.flag
+				end) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("world_complete_item_tip"))
 
 					return
 				end

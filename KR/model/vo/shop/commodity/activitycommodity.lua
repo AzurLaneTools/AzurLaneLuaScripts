@@ -25,12 +25,28 @@ function slot0.CheckArgLimit(slot0)
 	end
 end
 
+function slot0.CheckTimeLimit(slot0)
+	slot1 = false
+	slot2 = false
+	slot4 = slot0:getConfig("commodity_id")
+
+	if slot0:getConfig("commodity_type") == DROP_TYPE_VITEM and pg.item_data_statistics[slot4].virtual_type == 22 then
+		slot1 = true
+
+		if getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot4].link_id) and not slot6:isEnd() then
+			slot2 = true
+		end
+	end
+
+	return slot1, slot2
+end
+
 function slot0.canPurchase(slot0)
 	slot1, slot2 = slot0:CheckCntLimit()
 	slot3, slot4 = slot0:CheckArgLimit()
 
 	if not slot1 then
-		return false, reason
+		return false, slot2
 	end
 
 	if not slot3 then

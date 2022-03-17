@@ -376,6 +376,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[141] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "샤른호르스트를 사용해 승리 1회",
+		id = 141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[142] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "샤른호르스트를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 142,
+		target_num = 1,
+		target_id = "30"
+	},
+	[143] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "샤른호르스트를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 143,
+		target_num = 1,
+		target_id = "55"
+	},
+	[144] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "샤른호르스트를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 144,
+		target_num = 1,
+		target_id = "80"
+	},
+	[145] = {
+		target_id_2 = "970402",
+		sub_type = 180,
+		desc = "샤른호르스트를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 145,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -632,6 +672,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[232] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "대형 작전에서 샤른호르스트를 사용해 1회 승리",
+		id = 232,
+		target_num = 1,
+		target_id = "0"
+	},
+	[233] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "대형 작전에서 샤른호르스트를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 233,
+		target_num = 1,
+		target_id = "70"
+	},
+	[234] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "대형 작전에서 샤른호르스트를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 234,
+		target_num = 1,
+		target_id = "90"
+	},
+	[235] = {
+		target_id_2 = "970402",
+		sub_type = 302,
+		desc = "대형 작전에서 샤른호르스트를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 235,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -696,6 +768,11 @@ pg.task_meta_data_template = {
 		138,
 		139,
 		140,
+		141,
+		142,
+		143,
+		144,
+		145,
 		200,
 		201,
 		202,
@@ -728,6 +805,10 @@ pg.task_meta_data_template = {
 		229,
 		230,
 		231,
+		232,
+		233,
+		234,
+		235,
 		301,
 		302
 	}

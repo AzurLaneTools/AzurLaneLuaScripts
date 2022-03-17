@@ -81,7 +81,7 @@ end
 function slot0.OnUpdate(slot0, slot1, slot2)
 	slot0.slotIndex = slot1
 	slot0.typeIndex = slot2
-	slot0.playerInfo = slot0.playerInfo or getProxy(PlayerProxy):getRawData()
+	slot0.playerInfo = getProxy(PlayerProxy):getRawData()
 	slot4 = getProxy(BayProxy):RawGetShipById(slot0.playerInfo.characters[slot2])
 
 	if not slot0.displayShip or slot0.displayShip.skinId ~= slot4.skinId then

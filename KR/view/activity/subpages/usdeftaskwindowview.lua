@@ -72,7 +72,7 @@ function slot0.updateTaskList(slot0)
 			setText(uv0:findTF("TaskIndexText", slot2), "TASK-" .. string.format("%02d", slot1))
 			setText(uv0:findTF("DescText", slot2), slot3:getConfig("desc"))
 
-			if not pg.ship_data_statistics[slot3:getConfig("target_id_for_client")] then
+			if not pg.ship_data_statistics[tonumber(slot3:getConfig("target_id"))] then
 				slot10 = 205054
 			end
 

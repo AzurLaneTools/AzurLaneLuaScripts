@@ -581,7 +581,7 @@ function slot0.showDesignDesc(slot0, slot1)
 		setText(uv0, slot0)
 		setText(uv1, slot0 * uv2)
 	end)(1)
-	onButton(slot0, findTF(slot2, "bg/calc/minus"), function ()
+	pressPersistTrigger(findTF(slot2, "bg/calc/minus"), 0.5, function (slot0)
 		if uv0 <= 1 then
 			return
 		end
@@ -589,8 +589,8 @@ function slot0.showDesignDesc(slot0, slot1)
 		uv0 = uv0 - 1
 
 		uv1(uv0)
-	end, SFX_PANEL)
-	onButton(slot0, findTF(slot2, "bg/calc/add"), function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(findTF(slot2, "bg/calc/add"), 0.5, function (slot0)
 		if uv0 == uv1 then
 			return
 		end
@@ -598,7 +598,7 @@ function slot0.showDesignDesc(slot0, slot1)
 		uv0 = uv0 + 1
 
 		uv2(uv0)
-	end, SFX_PANEL)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	onButton(slot0, findTF(slot2, "bg/calc/max"), function ()
 		if uv0 == uv1 then
 			return

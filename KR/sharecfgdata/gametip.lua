@@ -1244,11 +1244,19 @@ _G.pg.gametip.battle_levelScene_noRaderCount = {
 }
 
 _G.pg.gametip.battle_levelScene_lock = {
-	tip = "<color=#92fc63>이전 스테이지</color> 클리어 시 개방됩니다."
+	tip = "목표 맵이 오픈되지 않았습니다. <color=#92fc63>이전 스테이지</color>를 클리어 하세요."
 }
 
-_G.pg.gametip.battle_levelScene_lock_1 = {
-	tip = "해당 이벤트는 아직 개방되지 않았습니다. "
+_G.pg.gametip.battle_levelScene_hard_lock = {
+	tip = "목표 맵에 대응되는 메인 챕터를 클리어하지 않아 도전할 수 없습니다. <color=#92fc63>이전 스테이지</color>를 클리어 하세요."
+}
+
+_G.pg.gametip.battle_levelScene_close = {
+	tip = "해당 단계 이벤트 스테이지가 오픈되지 않았습니다."
+}
+
+_G.pg.gametip.battle_levelScene_chapter_lock = {
+	tip = "목표 스테이지가 오픈되지 않아 도전할 수 없습니다. <color=#92fc63>이전 스테이지</color>를 클리어 하세요."
 }
 
 _G.pg.gametip.battle_preCombatLayer_changeFormationError = {
@@ -4070,6 +4078,10 @@ _G.pg.gametip.world_expedition_reward_display = {
 
 _G.pg.gametip.world_expedition_reward_display2 = {
 	tip = "HP $1%"
+}
+
+_G.pg.gametip.world_complete_item_tip = {
+	tip = "모든 해역을 확보했습니다. 전역 정보 기록기를 구매할 수 없습니다."
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -19167,4 +19179,8 @@ _G.pg.gametip.attrset_disable = {
 
 _G.pg.gametip.attrset_input_ill = {
 	tip = "잘못된 입력"
+}
+
+_G.pg.gametip.eventshop_time_hint = {
+	tip = "$1 점검 전까지 교환할 수 있습니다."
 }

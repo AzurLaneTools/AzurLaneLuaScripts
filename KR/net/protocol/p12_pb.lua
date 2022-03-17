@@ -53,6 +53,7 @@ slot2 = {
 	SC_12031_ENERGY_AUTO_INCREASE_TIME_FIELD = slot0.FieldDescriptor(),
 	CS_12032_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	SC_12033_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_12033_TIME_FIELD = slot0.FieldDescriptor(),
 	CS_12034_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_12034_NAME_FIELD = slot0.FieldDescriptor(),
 	SC_12035_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -857,12 +858,22 @@ slot2.SC_12033_RESULT_FIELD.has_default_value = false
 slot2.SC_12033_RESULT_FIELD.default_value = 0
 slot2.SC_12033_RESULT_FIELD.type = 13
 slot2.SC_12033_RESULT_FIELD.cpp_type = 3
+slot2.SC_12033_TIME_FIELD.name = "time"
+slot2.SC_12033_TIME_FIELD.full_name = "p12.sc_12033.time"
+slot2.SC_12033_TIME_FIELD.number = 2
+slot2.SC_12033_TIME_FIELD.index = 1
+slot2.SC_12033_TIME_FIELD.label = 2
+slot2.SC_12033_TIME_FIELD.has_default_value = false
+slot2.SC_12033_TIME_FIELD.default_value = 0
+slot2.SC_12033_TIME_FIELD.type = 13
+slot2.SC_12033_TIME_FIELD.cpp_type = 3
 SC_12033.name = "sc_12033"
 SC_12033.full_name = "p12.sc_12033"
 SC_12033.nested_types = {}
 SC_12033.enum_types = {}
 SC_12033.fields = {
-	slot2.SC_12033_RESULT_FIELD
+	slot2.SC_12033_RESULT_FIELD,
+	slot2.SC_12033_TIME_FIELD
 }
 SC_12033.is_extendable = false
 SC_12033.extensions = {}
