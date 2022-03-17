@@ -118670,8 +118670,8 @@ _G.pg.item_data_statistics[59205] = {
 }
 
 _G.pg.item_data_statistics[59206] = {
-	display = "用于头像框活动兑换，活动结束后将会消失",
-	name = "训练点数",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數 ",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -122250,7 +122250,7 @@ _G.pg.item_data_statistics[59938] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	shiptrans_id = 0,
-	link_id = 0,
+	link_id = 40577,
 	virtual_type = 8,
 	is_world = 0,
 	icon = "Props/lizhanzhizheng",
@@ -122261,8 +122261,8 @@ _G.pg.item_data_statistics[59938] = {
 }
 
 _G.pg.item_data_statistics[59939] = {
-	display = "「Belli dura despicio！」——用於完成厭戰近代化改造",
-	name = "戰士的心得",
+	display = "參與活動厭戰的特別訓練的紀念品",
+	name = "歷戰紀念之證 ",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -122274,7 +122274,7 @@ _G.pg.item_data_statistics[59939] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/yanzhandabaojian",
+	icon = "Props/lizhanzhizheng",
 	id = 59939,
 	display_icon = {},
 	price = {},

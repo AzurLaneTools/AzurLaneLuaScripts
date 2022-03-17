@@ -198,6 +198,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「讓我們一同探尋隱藏在“密室”之中的秘密吧！」</color>\n「破曉冰華」活動獲取",
 		scene = {}
 	},
+	[314] = {
+		time_limit_type = 0,
+		name = "帝國之柱",
+		gain_by = "復興的讚美詩",
+		id = 314,
+		time_second = 0,
+		desc = "<color=#ffffff>「堅固的立柱撐起了嶄新的帝國，一起為光榮而戰吧！」</color>\n「復興的讚美詩」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -266,6 +275,7 @@ pg.item_data_frame = {
 		311,
 		312,
 		313,
+		314,
 		401,
 		402,
 		414,

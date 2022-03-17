@@ -14458,40 +14458,14 @@ pg.activity_template = {
 	},
 	[40555] = {
 		mark = 20220217,
-		id = 40555,
 		title_res_tag = "maoxiV2_frame",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 40555,
 		is_show = 25,
+		id = 40555,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MaoxiV2framePage",
 			ui_name = "MaoxiV2framePage"
@@ -14526,12 +14500,13 @@ pg.activity_template = {
 	},
 	[40556] = {
 		mark = 20220217,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40556,
 		config_data = {
@@ -14545,71 +14520,18 @@ pg.activity_template = {
 			16347,
 			16348,
 			16349
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40557] = {
 		mark = 20220217,
-		id = 40557,
 		title_res_tag = "Neptune_catchup",
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 14,
+		id = 40557,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "LuyijiushiTecCatchupPage",
 			ui_name = "LuyijiushiTecCatchupPage"
@@ -14760,40 +14682,14 @@ pg.activity_template = {
 	},
 	[40563] = {
 		mark = 20220224,
-		id = 40563,
 		title_res_tag = "MaoxiV2_Pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 40563,
 		is_show = 27,
+		id = 40563,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MaoxiV2PtPage",
 			ui_name = "MaoxiV2PtPage"
@@ -14804,12 +14700,13 @@ pg.activity_template = {
 	},
 	[40564] = {
 		mark = 20220224,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 40564,
 		config_data = {
 			1340,
@@ -14832,33 +14729,6 @@ pg.activity_template = {
 			1357,
 			1358,
 			1359
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					2,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_poxiaobinghua",
@@ -15140,6 +15010,235 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[40574] = {
+		mark = 20220317,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 0,
+		config_client = "",
+		id = 40574,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40575] = {
+		mark = 20220317,
+		id = 40575,
+		title_res_tag = "maoxiV2_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 40575,
+		is_show = 50,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV2framePage",
+			ui_name = "YidaliV2framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40576] = {
+		mark = 20220317,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 40576,
+		config_data = {
+			16480,
+			16481,
+			16482,
+			16483,
+			16484,
+			16485,
+			16486,
+			16487,
+			16488,
+			16489,
+			16490
+		}
+	},
+	[40577] = {
+		mark = 20220317,
+		id = 40577,
+		title_res_tag = "tebiexvnlian",
+		type = 50,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		config_data = "",
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WarspiteTransformationPage",
+			ui_name = "WarspiteTransformationPage"
+		},
+		config_client = {
+			{
+				8,
+				59938,
+				1
+			},
+			{
+				2,
+				59762,
+				1
+			}
+		}
+	},
+	[40578] = {
+		mark = 20220317,
+		id = 40578,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 47,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JunZhuTecCatchupPage",
+			ui_name = "JunZhuTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42002
 		}
 	},
 	[45000] = {
@@ -16904,6 +17003,11 @@ pg.activity_template = {
 		40570,
 		40571,
 		40572,
+		40574,
+		40575,
+		40576,
+		40577,
+		40578,
 		45000,
 		45001,
 		45002,
