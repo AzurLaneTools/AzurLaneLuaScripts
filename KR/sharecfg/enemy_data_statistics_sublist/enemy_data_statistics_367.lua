@@ -55,7 +55,7 @@ pg.enemy_data_statistics_367 = {
 	},
 	[15604204] = {
 		cannon = 210,
-		name = "噩梦投射-「战列舰」",
+		name = "악몽 투사-「전함」",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 3600,

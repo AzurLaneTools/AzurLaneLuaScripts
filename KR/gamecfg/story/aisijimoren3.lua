@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>三　准备工作其一</size>",
+					"여름의 \"서프라이즈\"\n\n<size=45>3. 준비 작업 중 첫 번째</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·小卖部",
+			say = "모항·매점",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵...现在暑期限定商品正在限时打折喵，请随便看随便挑喵......",
+			say = "냐... 현재 여름 방학 한정 상품들을 기간 한정 할인 판매 중이다냥. 맘대로 골라라냥......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是爱斯基摩人喵，欢迎光临喵......",
+			say = "에스키모냐냥, 환영한다냥......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀吼~今天没什么精神呀，{namecode:98}喵。",
+			say = "야호~ 오늘은 기운이 없어보이네, 아카시냥.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近的天实在是太热了喵...愿意出来买东西的人也变少了喵！！",
+			say = "요새는 정말 너무 덥다냥... 물건을 사러 나오는 사람들도 줄어들었다냥!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，原来是这样啊...其实我有一件事，需要{namecode:98}喵帮忙！",
+			say = "아하하, 그랬구나... 사실 한 가지 아카시가 도와줬으면 하는 일이 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？是什么事喵？",
+			say = "냥? 무슨 일이냥?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔......你说的设备，仓库里确实有一台喵。不过因为很早之前就故障了，就算借给你也无法使用喵。",
+			say = "음...... 네가 말한 설비는 창고에 한 대가 있다냥. 하지만 고장난지 오래되어서 빌려줘도 사용할 수 없을 것이다냥.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎~{namecode:98}喵是了不起的修理舰，连舰船设备的损坏都能轻松修理，修理一下那个设备应该难不倒{namecode:98}喵吧，对吧！",
+			say = "에~ 아카시냥은 대단한 공작함이라서, 함선 설비도 뚝딱 수리할 수 있잖아, 그 설비 수리하는 것도 어렵지 않을 거 아니야, 아카시냥, 그렇지!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然能够修理了喵！不过现在还不清楚具体是哪里出现了故障，要修理的话…搞不好要花比较长的时间喵……",
+			say = "물론 수리할 수 있다냥! 하지만 구체적으로 어디에 문제가 생긴 건지 분명하지 않아서, 수리하려면… 꽤나 긴 시간이 필요할 것 같다냥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你借这个究竟打算做什么喵？",
+			say = "이걸 빌려서 대체 어디에 써먹을려고 하는 것이냐냥?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔....算了，{namecode:98}喵也可以算合作伙伴，我就把这个秘密告诉你吧！",
+			say = "음.... 그래, 아카시냥은 협력 동료인 셈이니까, 이 비밀을 알려줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（其实是...如此如此...这般这般......)",
+			say = "(사실은... 이러쿵저러쿵...쑥덕쑥덕......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（嗯...嗯...嗯？嗯嗯！原来如此喵！）",
+			say = "(냐... 냐... 냥? 으음! 그렇구냥!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话...也能借着这个机会摆摊大赚一笔...营业额就有救了喵！",
+			say = "그렇다면... 이 기회를 빌어서 큰 돈을 벌 수도 있겠다냥... 영업 터닝 포인트가 될 수도냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，爱斯基摩人喵，我一定会拼尽全力按时修好机器的喵！",
+			say = "에스키모, 안심해라냥. 아카시가 반드시 전력을 다해 제때 수리해놓겠다냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哎？！！真的么，太好了！那就拜托你了哦，{namecode:98}喵！",
+			say = "오옷!?? 정말? 좋았어! 그럼 부탁할게, 아카시냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

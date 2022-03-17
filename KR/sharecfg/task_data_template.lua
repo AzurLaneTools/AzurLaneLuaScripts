@@ -25222,7 +25222,7 @@ pg.task_data_template = {
 		}
 	},
 	[5741] = {
-		name = "极地的爱斯基摩人？",
+		name = "극지의 에스키모?",
 		guild_coin_award = 0,
 		award = 5534,
 		type = 5,
@@ -25258,7 +25258,7 @@ pg.task_data_template = {
 		}
 	},
 	[5742] = {
-		name = "来自太空的兔兔星雪糕",
+		name = "우주에서 온 토끼토끼별 아이스크림",
 		guild_coin_award = 0,
 		award = 5535,
 		type = 5,
@@ -25292,7 +25292,7 @@ pg.task_data_template = {
 		}
 	},
 	[5743] = {
-		name = "准备工作其一",
+		name = "준비 작업 중 첫 번째",
 		guild_coin_award = 0,
 		award = 5536,
 		type = 5,
@@ -25326,7 +25326,7 @@ pg.task_data_template = {
 		}
 	},
 	[5744] = {
-		name = "准备工作其二",
+		name = "준비 작업 중 두 번째",
 		guild_coin_award = 0,
 		award = 5537,
 		type = 5,
@@ -25360,7 +25360,7 @@ pg.task_data_template = {
 		}
 	},
 	[5745] = {
-		name = "宣传也很重要！",
+		name = "홍보도 중요해!",
 		guild_coin_award = 0,
 		award = 5538,
 		type = 5,
@@ -25404,7 +25404,7 @@ pg.task_data_template = {
 		}
 	},
 	[5746] = {
-		name = "夏日雪世界",
+		name = "서머 스노우 월드",
 		guild_coin_award = 0,
 		award = 5539,
 		type = 5,
@@ -25448,7 +25448,7 @@ pg.task_data_template = {
 		}
 	},
 	[5747] = {
-		name = "爱斯基摩人的快乐",
+		name = "에스키모의 즐거움",
 		guild_coin_award = 0,
 		award = 5540,
 		type = 5,

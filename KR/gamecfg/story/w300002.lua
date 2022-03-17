@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "档案回收完毕，海域目标已完成。",
+			say = "파일 회수 완료, 해역 목표 달성.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "本次档案海域记录仪中记录的所有档案均已回收完毕。",
+			say = "이번 파일 해역 기록기에 기록된 모든 파일을 회수 완료하였습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>一　极地的爱斯基摩人？</size>",
+					"여름의 \"서프라이즈\"\n\n<size=45>1. 극지의 에스키모?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日的港区",
+			say = "어느 날의 모항",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“璀璨的星空中挂着一轮明亮的圆月，下面是无尽的冰川。”",
+			say = "\"반짝이는 별하늘에는 환한 보름달이 달려 있고, 그 아래에는 끝없는 빙하가 펼쳐져 있다.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“凌冽的寒风裹挟着冰粒，在空气中滑出阵阵凄惨的哀嚎。”",
+			say = "\"매서운 바람이 얼음 조각을 에워싸며 처절한 울부짖음을 내뿜는다.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“一片纯白中有一位少女，身穿大衣，手捏一柄鱼叉，静静地凝视着前方...”",
+			say = "\"순백의 풍경 속에서 두꺼운 옷을 입은 소녀가 작살을 손에 쥐고, 조용히 앞을 응시하고 있다....\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，然后呢，然后发生什么事了！（吞口水）",
+			say = "으음, 그리고, 그 다음은 어떻게 돼!? (침 꼴깍)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“只见她小心翼翼的向前移动着，两只高大威猛的猎犬也心领神会的从不同方向接近着猎物。”",
+			say = "\"그녀는 조심스럽게 전진했고, 커다랗고 사나운 사냥개 두 마리도 다른 방향에서 사냥감을 향해 접근하고 있었다.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“然后只听见“啪”的一声，少女将手中的标枪扔了出去！终于，今天也可以饱餐一顿了...”",
+			say = "\"그리고 '팟' 하는 소리가 들렸다. 소녀가 들고 있던 창을 던졌다! 드디어, 오늘도 배불리 식사할 수 있게 되었다...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哦...听起来好帅啊。",
+			say = "우와... 엄청 멋진걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，说到爱斯基摩人，听起来就是这种感觉吧！",
+			say = "헤헤헤, 에스키모라면, 이런 느낌이겠지!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "常年生活在极地冰川的冷酷猎手，会不会是一个可怕的孩子...",
+			say = "극지방의 빙하에서 생활하는 냉혹한 사냥꾼은, 무서운 사람일려나?...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？本森姐姐也没有见过爱斯基摩人么！",
+			say = "엣? 벤슨 언니도 에스키모를 만나보지 못한 거야!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还没有哦！不过~根据我在兔兔星的情报网，她很快就要轮值指挥官的秘书舰了哦~",
+			say = "아직은! 하지만~ 내 토끼토끼별 정보망에 따르면 그녀가 곧 지휘관의 비서함으로 교대하게 될 차례래~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样这话，很快就能在指挥室里见到了，会是一个什么样的同伴呢...",
+			say = "그럼 금방이면 지휘실에서 볼 수 있겠네. 어떤 모습의 동료일까...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗷呜~嗷呜~",
+			say = "워우~ 워우~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦...？树的后面发出了一阵阵嚎叫声？！",
+			say = "에...? 나무 뒤에서 울부짖는 소리가!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_113",
 			actorName = "？？？",
 			dir = 1,
-			say = "噔噔噔噔~！噔噔噔噔~！",
+			say = "두두두둥~! 두두두둥~!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又传出来一阵鼓声...！",
+			say = "또 이상한 북 소리가 들렸어...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说，你们对爱斯基摩人很好奇？哼哼~那就让我来满足你们的愿望吧！",
+			say = "에스키모에 대해 궁금한 게 많은 것 같군? 후훗~ 그렇다면 내가 너희들의 바램을 만족시켜주지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（吞口水）",
+			say = "(침 꼴깍)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵锵锵锵~我就是皇家部族级驱逐舰，爱斯基摩人，从今天开始担任港区秘书舰的工作，请多指教啦~",
+			say = "짜자자잔~ 내가 바로 로열 네이비의 트라이벌급 구축함 에스키모야. 오늘부터 모항 비서함의 업무를 맡게 되었지. 잘 부탁해~",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自称爱斯基摩人的少女从树后面出现了！",
+			say = "자칭 에스키모라는 소녀가 나무 뒤에서 나타났어!",
 			effects = {
 				{
 					active = false,
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身上没有鱼叉...也没有跟着凶猛的猎犬...太好了，是一个普通的可爱美少女！",
+			say = "작살도 없고... 사나운 사냥개도 없어... 다행이다. 평범한 귀여운 소녀야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过穿着极地风格的厚大衣还带着全套的雪地装备，好帅啊。",
+			say = "근데 극지방 스타일의 두꺼운 겉옷에 설지 장비도 풀 세팅했어. 멋지다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~刚才的故事很有趣，很遗憾和大家猜想中的不一样呢。",
+			say = "헤헤~ 방금 그 이야기 재밌던데. 아쉽지만 너희들이 상상한 모습과는 달라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，不是可怕的同伴真是太好了！我是本森，旁边的两位是贝利和科尔克，我们都是兔兔星人哦~",
+			say = "아쉽기는~ 무서운 동료가 아니라서 정말 다행이야! 난 벤슨이고, 이 둘은 베일리와 커크야. 우린 모두 토끼토끼별 사람들이지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，兔兔星人么...？感觉很有趣的样子！我现在还要赶去指挥官那里报道，兔兔星的事以后有机会请务必详细说给我听听！",
+			say = "엇, 토끼토끼별...? 재밌어 보이는데! 지금은 서둘러 지휘관에게 가서 보고해야하니까, 토끼토끼별 이야기는 다음에 기회가 되면 꼭 자세히 들려줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题哦~！",
+			say = "그래~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "和名称印象不同，是个十分精力旺盛的人啊。哼哼，感觉很快就会有有趣的事发生了~",
+			say = "이름이랑은 달리 에너지가 넘치는 사람이네. 후훗, 금방 재밌는 일이 일어날 것 같은 기분이야~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

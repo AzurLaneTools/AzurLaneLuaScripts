@@ -3484,7 +3484,7 @@ pg.memory_group = {
 		subtype = 0,
 		type = 3,
 		id = 572,
-		title = "夏日里的“惊喜”",
+		title = "여름의 \"서프라이즈\"",
 		memories = {
 			2041,
 			2042,
