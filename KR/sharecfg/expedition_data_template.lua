@@ -9822,7 +9822,8 @@ rawset(pg, "expedition_data_template", rawget(pg, "expedition_data_template") or
 		320000,
 		320001,
 		320002,
-		320003
+		320003,
+		320004
 	}
 })
 setmetatable(pg.expedition_data_template, confMT)
@@ -58926,6 +58927,11 @@ cs.expedition_data_template = {
 	},
 	[320003] = {
 		6862360,
+		599,
+		true
+	},
+	[320004] = {
+		6862959,
 		599,
 		true
 	}
