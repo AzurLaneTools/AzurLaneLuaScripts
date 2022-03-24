@@ -19729,7 +19729,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.gametip.battlepass_main_tip_2204 = {
-	tip = "Complete Cruise Missions between 1/4 - 31/5 to receive <color=#854747>Junyou META</color> and other rewards!"
+	tip = "Complete Cruise Missions between 1/4 - 31/5 to receive <color=#854747>Yamashiro META</color> and other rewards!"
 }
 
 _G.pg.gametip.battlepass_main_help_2204 = {
@@ -19821,7 +19821,7 @@ _G.pg.gametip.purchase_backyard_theme_desc_for_onekey = {
 }
 
 _G.pg.gametip.purchase_backyard_theme_desc_for_all = {
-	tip = "Buy the max number of every furniture in the set."
+	tip = "Buy everything in this set."
 }
 
 _G.pg.gametip.sp_no_quota = {

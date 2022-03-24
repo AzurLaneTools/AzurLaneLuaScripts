@@ -17458,7 +17458,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: Empyreal Virtual Tower",
+				"Event: Virtual Tower",
 				{
 					""
 				},
@@ -17551,7 +17551,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: Empyreal Virtual Tower",
+				"Event: Virtual Tower",
 				{
 					""
 				},
@@ -17799,7 +17799,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: Empyreal Virtual Tower",
+				"Event: Virtual Tower",
 				{
 					""
 				},

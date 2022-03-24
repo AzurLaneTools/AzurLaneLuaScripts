@@ -7193,7 +7193,7 @@ _G.pg.ship_data_breakout[107021] = {
 
 _G.pg.ship_data_breakout[107022] = {
 	use_gold = 1500,
-	breakout_view = "Hangar capacity +1/All Dive Bombers +1/Fighter efficiency +5%",
+	breakout_view = "Hangar capacity +1/All Dive Bombers +1/Dive Bomber efficiency +5%",
 	use_char_num = 1,
 	use_char = 10702,
 	breakout_id = 107023,
@@ -30469,7 +30469,7 @@ _G.pg.ship_data_breakout[607021] = {
 
 _G.pg.ship_data_breakout[607022] = {
 	use_gold = 3000,
-	breakout_view = "All Dive Bombers +1/Fighter efficiency +10%",
+	breakout_view = "All Dive Bombers +1/Dive Bomber efficiency +10%",
 	use_char_num = 1,
 	use_char = 60702,
 	breakout_id = 607023,
@@ -30489,7 +30489,7 @@ _G.pg.ship_data_breakout[607022] = {
 
 _G.pg.ship_data_breakout[607023] = {
 	use_gold = 10000,
-	breakout_view = "All Torpedo Bombers +2/Torpedo Bomber efficiency +15%/Dive Bombers can be equipped in the first gear slot ",
+	breakout_view = "All aircraft +1/Torpedo Bomber efficiency +15%/Dive Bombers can be equipped in the first gear slot ",
 	use_char_num = 2,
 	use_char = 60702,
 	breakout_id = 607024,

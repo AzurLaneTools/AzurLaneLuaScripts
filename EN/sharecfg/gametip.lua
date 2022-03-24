@@ -17899,76 +17899,76 @@ cs.gametip = {
 	},
 	battlepass_main_tip_2204 = {
 		617767,
-		188,
+		191,
 		true
 	},
 	battlepass_main_help_2204 = {
-		617955,
+		617958,
 		2872,
 		true
 	},
 	cruise_task_help_2204 = {
-		620827,
+		620830,
 		1083,
 		true
 	},
 	attrset_reset = {
-		621910,
+		621913,
 		73,
 		true
 	},
 	attrset_save = {
-		621983,
+		621986,
 		71,
 		true
 	},
 	attrset_ask_save = {
-		622054,
+		622057,
 		123,
 		true
 	},
 	attrset_save_success = {
-		622177,
+		622180,
 		94,
 		true
 	},
 	attrset_disable = {
-		622271,
+		622274,
 		138,
 		true
 	},
 	attrset_input_ill = {
-		622409,
+		622412,
 		84,
 		true
 	},
 	eventshop_time_hint = {
-		622493,
+		622496,
 		119,
 		true
 	},
 	purchase_backyard_theme_desc_for_onekey = {
-		622612,
+		622615,
 		133,
 		true
 	},
 	purchase_backyard_theme_desc_for_all = {
-		622745,
-		141,
+		622748,
+		118,
 		true
 	},
 	sp_no_quota = {
-		622886,
+		622866,
 		99,
 		true
 	},
 	fur_all_buy = {
-		622985,
+		622965,
 		73,
 		true
 	},
 	fur_onekey_buy = {
-		623058,
+		623038,
 		76,
 		true
 	}

@@ -60238,7 +60238,7 @@ Whichever ship is healed as a result of this skill has her EVA increased by $2 f
 		id = 15410,
 		type = 1,
 		max_level = 10,
-		desc = "During a sortie, for each enemy fleet sunk by the fleet this ship is in: increases this ship's FP and TRP by $1 (can be stacked up to 3 times). Increases this ship's DMG dealt with torpedoes based on her proximity to the enemy at the time of firing (the closer she is, the more DMG they deal, up to a maximum of $2 when the distance is within 10).",
+		desc = "During a sortie, for each enemy fleet sunk by the fleet this ship is in: increases this ship's FP and TRP by $1 (can be stacked up to 3 times). Increases this ship's DMG dealt with torpedoes based on her proximity to the enemy at the time of firing (the closer she is, the more DMG they deal, up to a maximum of $2 when within 10 units or less).",
 		system_transform = {},
 		world_death_mark = {
 			1
