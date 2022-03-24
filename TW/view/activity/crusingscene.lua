@@ -101,13 +101,33 @@ end
 function slot0.preload(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
 	slot2 = slot2:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
-	slot4 = PoolMgr.GetInstance()
+	slot3 = PoolMgr.GetInstance()
+	slot4 = {}
 
-	slot4:GetPrefab("crusingmap/" .. slot2:getConfig("config_client").map_name, "", true, function (slot0)
-		uv0.rtMap = tf(slot0)
-		uv0.PhaseFrame, uv0.AllFrameCount = uv1.GetPhaseFrame(uv2)
+	table.insert(slot4, function (slot0)
+		slot1 = uv0
+		slot2 = uv1
 
-		uv3()
+		slot2:GetPrefab("crusingmap/" .. slot1:getConfig("config_client").map_name, "", true, function (slot0)
+			uv0.rtMap = tf(slot0)
+			uv0.PhaseFrame, uv0.AllFrameCount = uv1.GetPhaseFrame(uv2)
+
+			uv3()
+		end)
+	end)
+	table.insert(slot4, function (slot0)
+		slot1 = uv0
+		slot3 = uv1
+
+		slot1:GetSpineChar(slot3:getConfig("config_client").spine_name, true, function (slot0)
+			uv0.rtModel = slot0
+
+			uv1()
+		end)
+	end)
+	parallelAsync(slot4, function ()
+		setParent(uv0.rtModel, uv0.rtMap:Find("icon/model"))
+		uv1()
 	end)
 end
 
@@ -226,24 +246,21 @@ function slot0.didEnter(slot0)
 
 	slot0.maps = {
 		(function (slot0)
-			setParent(slot0, uv0.scrollMap)
-			SetCompomentEnabled(slot0, typeof(Image), false)
-
-			slot0.name = "map_tpl"
-			slot2 = PoolMgr.GetInstance()
-			slot4 = uv0.activity
-
-			slot2:GetSpineChar(slot4:getConfig("config_client").spine_name, true, function (slot0)
-				setParent(slot0, uv0.rtIcon:Find("model"))
-				SetAction(slot0, uv1.isMoving and "move" or "normal")
-			end)
-
-			return {
+			slot1 = {
 				_tf = slot0,
 				rtLine = slot0:Find("line"),
 				rtIcon = slot0:Find("icon"),
 				rtSimple = slot0:Find("simple")
 			}
+
+			setParent(slot0, uv0.scrollMap)
+			SetCompomentEnabled(slot0, typeof(Image), false)
+
+			slot0.name = "map_tpl"
+
+			SetAction(slot1.rtIcon:Find("model"):GetChild(0), "normal")
+
+			return slot1
 		end)(slot0.rtMap)
 	}
 
@@ -320,10 +337,12 @@ function slot0.willExit(slot0)
 
 	slot1 = PoolMgr.GetInstance()
 	slot2 = "crusingmap/" .. slot0.activity:getConfig("config_client").map_name
+	slot3 = slot0.activity:getConfig("config_client").spine_name
 
-	for slot6, slot7 in ipairs(slot0.maps) do
-		setParent(slot7.rtLine, slot7._tf, true)
-		slot1:ReturnPrefab(slot2, "", go(slot7._tf))
+	for slot7, slot8 in ipairs(slot0.maps) do
+		setParent(slot8.rtLine, slot8._tf, true)
+		slot1:ReturnSpineChar(slot3, go(slot8.rtIcon:Find("model"):GetChild(0)))
+		slot1:ReturnPrefab(slot2, "", go(slot8._tf))
 	end
 end
 
@@ -476,7 +495,6 @@ function slot0.updateMapWay(slot0)
 		slot7 = GetComponent(slot6.rtIcon, typeof(Animator))
 
 		if slot1 < slot0.phase then
-			slot0.isMoving = true
 			slot9 = slot0.PhaseFrame[slot0.phase]
 			slot7.speed = uv0.PlaySpeed
 

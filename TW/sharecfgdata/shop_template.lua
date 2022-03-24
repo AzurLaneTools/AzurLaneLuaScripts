@@ -37065,7 +37065,7 @@ _G.pg.shop_template[90078] = {
 
 _G.pg.shop_template[90082] = {
 	is_auto_use = 0,
-	resource_type = 197,
+	resource_type = 40588,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：阿布鲁齐泳装",
@@ -37116,7 +37116,7 @@ _G.pg.shop_template[90082] = {
 
 _G.pg.shop_template[90083] = {
 	is_auto_use = 0,
-	resource_type = 197,
+	resource_type = 40588,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：天鹰泳装",
@@ -40396,7 +40396,7 @@ _G.pg.shop_template[200064] = {
 
 _G.pg.shop_template[200065] = {
 	is_auto_use = 0,
-	resource_type = 197,
+	resource_type = 40588,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：维内托泳装",
