@@ -2844,7 +2844,7 @@ pg.backyard_theme_template = {
 		desc = "No thoughts, head empty? Then let's get you educated.",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "sc2themeicon",
 		deblocking = 1,
 		order = 71,
@@ -3091,6 +3091,42 @@ pg.backyard_theme_template = {
 			86301
 		}
 	},
+	[87] = {
+		Cfg_1 = 5,
+		name = "Manjuu Campus",
+		hot = 1,
+		is_view = 1,
+		id = 87,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "Back to school with you! But remember to still do your dailies.",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "sc3themeicon",
+		deblocking = 1,
+		order = 88,
+		ids = {
+			87001,
+			87002,
+			87101,
+			87102,
+			87107,
+			87112,
+			87113,
+			87115,
+			87116,
+			87117,
+			87118,
+			87121,
+			87123,
+			87124,
+			87126,
+			87127,
+			87130,
+			87131
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3159,6 +3195,7 @@ pg.backyard_theme_template = {
 		83,
 		84,
 		85,
-		86
+		86,
+		87
 	}
 }

@@ -1902,6 +1902,76 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[1003] = {
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		type = 0,
+		subject = "Fair Winds Cruise Pass",
+		extra_gem = 0,
+		name_display = "Fair Winds Cruise Pass",
+		limit_arg = 1,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.yostaren.azurlane.passport5",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 1003,
+		airijp_id = "com.yostaren.azurlane.passport5",
+		extra_service_item = {
+			{
+				1,
+				4004,
+				1500
+			},
+			{
+				8,
+				59281,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4004,
+				1500
+			}
+		},
+		sub_display = {
+			7004,
+			1500
+		},
+		ignorePlatform = {}
+	},
 	[100] = {
 		descrip = "Contains 1 x Nep Ship skin, 3 x Nep Gear skins, and other rewards.",
 		name = "Nep's Lucky Bag ",
@@ -5485,6 +5555,7 @@ pg.pay_data_display = {
 		1000,
 		1001,
 		1002,
+		1003,
 		100,
 		101,
 		102,

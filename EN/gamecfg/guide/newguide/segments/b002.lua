@@ -13,7 +13,7 @@ return {
 				}
 			},
 			style = {
-				text = "我方旗舰的<color=#ff7d36>航空支援</color>已准备完毕 ",
+				text = "Your flagship's <color=#ff7d36>Aerial Support</color> is ready. ",
 				mode = 2,
 				posY = 0,
 				dir = 1,

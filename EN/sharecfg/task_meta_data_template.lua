@@ -416,6 +416,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[146] = {
+		target_id_2 = "970502",
+		sub_type = 180,
+		desc = "Win 1 battle with Yamashiro META in your fleet.",
+		id = 146,
+		target_num = 1,
+		target_id = "0"
+	},
+	[147] = {
+		target_id_2 = "970502",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Yamashiro META in your fleet.",
+		id = 147,
+		target_num = 1,
+		target_id = "30"
+	},
+	[148] = {
+		target_id_2 = "970502",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Yamashiro META in your fleet.",
+		id = 148,
+		target_num = 1,
+		target_id = "55"
+	},
+	[149] = {
+		target_id_2 = "970502",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Yamashiro META in your fleet.",
+		id = 149,
+		target_num = 1,
+		target_id = "80"
+	},
+	[150] = {
+		target_id_2 = "970502",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Yamashiro META in your fleet.",
+		id = 150,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -704,6 +744,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[236] = {
+		target_id_2 = "970502",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Yamashiro META in your fleet.",
+		id = 236,
+		target_num = 1,
+		target_id = "0"
+	},
+	[237] = {
+		target_id_2 = "970502",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Yamashiro META in your fleet.",
+		id = 237,
+		target_num = 1,
+		target_id = "70"
+	},
+	[238] = {
+		target_id_2 = "970502",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Yamashiro META in your fleet.",
+		id = 238,
+		target_num = 1,
+		target_id = "90"
+	},
+	[239] = {
+		target_id_2 = "970502",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Yamashiro META in your fleet.",
+		id = 239,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -773,6 +845,11 @@ pg.task_meta_data_template = {
 		143,
 		144,
 		145,
+		146,
+		147,
+		148,
+		149,
+		150,
 		200,
 		201,
 		202,
@@ -809,6 +886,10 @@ pg.task_meta_data_template = {
 		233,
 		234,
 		235,
+		236,
+		237,
+		238,
+		239,
 		301,
 		302
 	}

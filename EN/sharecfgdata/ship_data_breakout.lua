@@ -7266,7 +7266,7 @@ _G.pg.ship_data_breakout[107031] = {
 
 _G.pg.ship_data_breakout[107032] = {
 	use_gold = 1500,
-	breakout_view = "Hangar capacity +1/All Dive Bombers +1/Fighter efficiency +5%",
+	breakout_view = "Hangar capacity +1/All Dive Bombers +1/Dive Bomber efficiency +5%",
 	use_char_num = 1,
 	use_char = 10703,
 	breakout_id = 107033,
@@ -29688,6 +29688,75 @@ _G.pg.ship_data_breakout[601064] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.ship_data_breakout[601071] = {
+	use_gold = 1000,
+	breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+	use_char_num = 1,
+	use_char = 60107,
+	breakout_id = 601072,
+	level = 10,
+	id = 601071,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		79831
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[601072] = {
+	use_gold = 3000,
+	breakout_view = "Main gun base +1/Torpedo preload +1/AA gun efficiency +10%",
+	use_char_num = 1,
+	use_char = 60107,
+	breakout_id = 601073,
+	level = 30,
+	id = 601072,
+	icon = "10001",
+	pre_id = 601071,
+	use_item = {},
+	weapon_ids = {
+		107,
+		107
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[601073] = {
+	use_gold = 10000,
+	breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+	use_char_num = 2,
+	use_char = 60107,
+	breakout_id = 601074,
+	level = 70,
+	id = 601073,
+	icon = "10001",
+	pre_id = 601072,
+	use_item = {},
+	weapon_ids = {
+		79832
+	},
+	ultimate_bonus = {
+		"AUX"
+	}
+}
+
+_G.pg.ship_data_breakout[601074] = {
+	use_gold = 0,
+	breakout_view = "N/A",
+	use_char_num = 0,
+	use_char = 60107,
+	breakout_id = 0,
+	level = 0,
+	id = 601074,
+	icon = "10001",
+	pre_id = 601073,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.ship_data_breakout[602011] = {
 	use_gold = 1000,
 	breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
@@ -29951,6 +30020,73 @@ _G.pg.ship_data_breakout[603034] = {
 	id = 603034,
 	icon = "10001",
 	pre_id = 603033,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603041] = {
+	use_gold = 500,
+	breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+	use_char_num = 1,
+	use_char = 60304,
+	breakout_id = 603042,
+	level = 10,
+	id = 603041,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		75211
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603042] = {
+	use_gold = 1500,
+	breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+	use_char_num = 1,
+	use_char = 60304,
+	breakout_id = 603043,
+	level = 30,
+	id = 603042,
+	icon = "10001",
+	pre_id = 603041,
+	use_item = {},
+	weapon_ids = {
+		105,
+		105
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603043] = {
+	use_gold = 2500,
+	breakout_view = "Improve All Out Assault/Torpedo efficiency +15%",
+	use_char_num = 2,
+	use_char = 60304,
+	breakout_id = 603044,
+	level = 70,
+	id = 603043,
+	icon = "10001",
+	pre_id = 603042,
+	use_item = {},
+	weapon_ids = {
+		75212
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603044] = {
+	use_gold = 0,
+	breakout_view = "N/A",
+	use_char_num = 0,
+	use_char = 60304,
+	breakout_id = 0,
+	level = 0,
+	id = 603044,
+	icon = "10001",
+	pre_id = 603043,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}
@@ -30308,6 +30444,79 @@ _G.pg.ship_data_breakout[607014] = {
 	id = 607014,
 	icon = "10001",
 	pre_id = 607013,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607021] = {
+	use_gold = 1000,
+	breakout_view = "All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+	use_char_num = 1,
+	use_char = 60702,
+	breakout_id = 607022,
+	level = 10,
+	id = 607021,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60781,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607022] = {
+	use_gold = 3000,
+	breakout_view = "All Dive Bombers +1/Fighter efficiency +10%",
+	use_char_num = 1,
+	use_char = 60702,
+	breakout_id = 607023,
+	level = 30,
+	id = 607022,
+	icon = "10001",
+	pre_id = 607021,
+	use_item = {},
+	weapon_ids = {
+		60782,
+		54014,
+		60782,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607023] = {
+	use_gold = 10000,
+	breakout_view = "All Torpedo Bombers +2/Torpedo Bomber efficiency +15%/Dive Bombers can be equipped in the first gear slot ",
+	use_char_num = 2,
+	use_char = 60702,
+	breakout_id = 607024,
+	level = 70,
+	id = 607023,
+	icon = "10001",
+	pre_id = 607022,
+	use_item = {},
+	weapon_ids = {
+		60783,
+		54015,
+		60783,
+		54015
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607024] = {
+	use_gold = 0,
+	breakout_view = "N/A",
+	use_char_num = 0,
+	use_char = 60702,
+	breakout_id = 0,
+	level = 0,
+	id = 607024,
+	icon = "10001",
+	pre_id = 607023,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}

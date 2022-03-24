@@ -4740,6 +4740,42 @@ pg.skill_data_display = {
 		id = 15352,
 		name = "Strong-Willed Support"
 	},
+	[15370] = {
+		id = 15370,
+		name = "Impero is Brilliant"
+	},
+	[15371] = {
+		id = 15371,
+		name = "Impero is Brilliant"
+	},
+	[15373] = {
+		id = 15373,
+		name = "Impero is Brilliant"
+	},
+	[15374] = {
+		id = 15374,
+		name = "Impero is Brilliant"
+	},
+	[15380] = {
+		id = 15380,
+		name = "Impero is Charitable"
+	},
+	[15390] = {
+		id = 15390,
+		name = "March on Towards Triumph!"
+	},
+	[15391] = {
+		id = 15391,
+		name = "March on Towards Triumph!"
+	},
+	[15400] = {
+		id = 15400,
+		name = "Tough Love"
+	},
+	[15410] = {
+		id = 15410,
+		name = "With Victory Comes Glory!"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -7612,6 +7648,46 @@ pg.skill_data_display = {
 		id = 800377,
 		name = "Ashen Might - Scharnhorst II"
 	},
+	[800380] = {
+		id = 800380,
+		name = "Blood Sacrifice"
+	},
+	[800381] = {
+		id = 800381,
+		name = "Blood Sacrifice"
+	},
+	[800390] = {
+		id = 800390,
+		name = "Cursed Outset"
+	},
+	[800391] = {
+		id = 800391,
+		name = "Cursed Outset"
+	},
+	[800392] = {
+		id = 800392,
+		name = "Cursed Outset"
+	},
+	[800393] = {
+		id = 800393,
+		name = "Cursed Outset"
+	},
+	[800400] = {
+		id = 800400,
+		name = "Echoes of Annihilation – Yamashiro I"
+	},
+	[800401] = {
+		id = 800401,
+		name = "Echoes of Annihilation – Yamashiro II"
+	},
+	[800415] = {
+		id = 800415,
+		name = "Echoes of Annihilation – Yamashiro I"
+	},
+	[800417] = {
+		id = 800417,
+		name = "Echoes of Annihilation – Yamashiro II"
+	},
 	all = {
 		4,
 		10,
@@ -8798,6 +8874,15 @@ pg.skill_data_display = {
 		15350,
 		15351,
 		15352,
+		15370,
+		15371,
+		15373,
+		15374,
+		15380,
+		15390,
+		15391,
+		15400,
+		15410,
 		18010,
 		18040,
 		18041,
@@ -9515,6 +9600,16 @@ pg.skill_data_display = {
 		800371,
 		800372,
 		800375,
-		800377
+		800377,
+		800380,
+		800381,
+		800390,
+		800391,
+		800392,
+		800393,
+		800400,
+		800401,
+		800415,
+		800417
 	}
 }

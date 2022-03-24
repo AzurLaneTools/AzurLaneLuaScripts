@@ -29910,6 +29910,588 @@ _G.pg.aircraft_template[63630] = {
 	}
 }
 
+_G.pg.aircraft_template[63781] = {
+	attack_power = 2,
+	name = "帝国战斗机弹幕G.50Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "g50",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 0.333,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 63781,
+	icon = "g50",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1785,
+	speed = 50,
+	max_hp = 46,
+	scale = 1,
+	weapon_ID = {
+		50041,
+		50541,
+		63791
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63782] = {
+	id = 63782,
+	name = "帝国战斗机弹幕G.50Lv2",
+	hp_growth = 2018,
+	base = 63781,
+	max_hp = 52,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50042,
+		50542,
+		63792
+	}
+}
+
+_G.pg.aircraft_template[63783] = {
+	id = 63783,
+	name = "帝国战斗机弹幕G.50Lv3",
+	hp_growth = 2251,
+	base = 63781,
+	max_hp = 59,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50043,
+		50543,
+		63793
+	}
+}
+
+_G.pg.aircraft_template[63784] = {
+	id = 63784,
+	name = "帝国战斗机弹幕G.50Lv4",
+	hp_growth = 2484,
+	base = 63781,
+	max_hp = 65,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50044,
+		50544,
+		63794
+	}
+}
+
+_G.pg.aircraft_template[63785] = {
+	id = 63785,
+	name = "帝国战斗机弹幕G.50Lv5",
+	hp_growth = 2717,
+	base = 63781,
+	max_hp = 71,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50045,
+		50545,
+		63795
+	}
+}
+
+_G.pg.aircraft_template[63786] = {
+	id = 63786,
+	name = "帝国战斗机弹幕G.50Lv6",
+	hp_growth = 2949,
+	base = 63781,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50046,
+		50546,
+		63796
+	}
+}
+
+_G.pg.aircraft_template[63787] = {
+	id = 63787,
+	name = "帝国战斗机弹幕G.50Lv7",
+	hp_growth = 3182,
+	base = 63781,
+	max_hp = 83,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50047,
+		50547,
+		63797
+	}
+}
+
+_G.pg.aircraft_template[63788] = {
+	id = 63788,
+	name = "帝国战斗机弹幕G.50Lv8",
+	hp_growth = 3415,
+	base = 63781,
+	max_hp = 89,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50048,
+		50548,
+		63798
+	}
+}
+
+_G.pg.aircraft_template[63789] = {
+	id = 63789,
+	name = "帝国战斗机弹幕G.50Lv9",
+	hp_growth = 3648,
+	base = 63781,
+	max_hp = 95,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50049,
+		50549,
+		63799
+	}
+}
+
+_G.pg.aircraft_template[63790] = {
+	id = 63790,
+	name = "帝国战斗机弹幕G.50Lv10",
+	hp_growth = 3881,
+	base = 63781,
+	max_hp = 101,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50050,
+		50550,
+		63800
+	}
+}
+
+_G.pg.aircraft_template[63801] = {
+	attack_power = 2,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "re2001",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 63801,
+	icon = "re2001",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1404,
+	speed = 46,
+	max_hp = 37,
+	scale = 1,
+	weapon_ID = {
+		63811
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63802] = {
+	id = 63802,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv2",
+	hp_growth = 1615,
+	base = 63801,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63812
+	}
+}
+
+_G.pg.aircraft_template[63803] = {
+	id = 63803,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv3",
+	hp_growth = 1826,
+	base = 63801,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63813
+	}
+}
+
+_G.pg.aircraft_template[63804] = {
+	id = 63804,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv4",
+	hp_growth = 2036,
+	base = 63801,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63814
+	}
+}
+
+_G.pg.aircraft_template[63805] = {
+	id = 63805,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv5",
+	hp_growth = 2247,
+	base = 63801,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63815
+	}
+}
+
+_G.pg.aircraft_template[63806] = {
+	id = 63806,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv6",
+	hp_growth = 2458,
+	base = 63801,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63816
+	}
+}
+
+_G.pg.aircraft_template[63807] = {
+	id = 63807,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv7",
+	hp_growth = 2669,
+	base = 63801,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63817
+	}
+}
+
+_G.pg.aircraft_template[63808] = {
+	id = 63808,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv8",
+	hp_growth = 2879,
+	base = 63801,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63818
+	}
+}
+
+_G.pg.aircraft_template[63809] = {
+	id = 63809,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv9",
+	hp_growth = 3090,
+	base = 63801,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63819
+	}
+}
+
+_G.pg.aircraft_template[63810] = {
+	id = 63810,
+	name = "帝国战斗机弹幕Re2001鱼雷机Lv10",
+	hp_growth = 3301,
+	base = 63801,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63820
+	}
+}
+
+_G.pg.aircraft_template[63821] = {
+	attack_power = 2,
+	name = "帝国轰炸机弹幕Re2001-Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "re2001",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 63821,
+	icon = "re2001",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1404,
+	speed = 46,
+	max_hp = 37,
+	scale = 1,
+	weapon_ID = {
+		63831,
+		63841
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63822] = {
+	id = 63822,
+	name = "帝国轰炸机弹幕Re2001-Lv2",
+	hp_growth = 1615,
+	base = 63821,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63832,
+		63842
+	}
+}
+
+_G.pg.aircraft_template[63823] = {
+	id = 63823,
+	name = "帝国轰炸机弹幕Re2001-Lv3",
+	hp_growth = 1826,
+	base = 63821,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63833,
+		63843
+	}
+}
+
+_G.pg.aircraft_template[63824] = {
+	id = 63824,
+	name = "帝国轰炸机弹幕Re2001-Lv4",
+	hp_growth = 2036,
+	base = 63821,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63834,
+		63844
+	}
+}
+
+_G.pg.aircraft_template[63825] = {
+	id = 63825,
+	name = "帝国轰炸机弹幕Re2001-Lv5",
+	hp_growth = 2247,
+	base = 63821,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63835,
+		63845
+	}
+}
+
+_G.pg.aircraft_template[63826] = {
+	id = 63826,
+	name = "帝国轰炸机弹幕Re2001-Lv6",
+	hp_growth = 2458,
+	base = 63821,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63836,
+		63846
+	}
+}
+
+_G.pg.aircraft_template[63827] = {
+	id = 63827,
+	name = "帝国轰炸机弹幕Re2001-Lv7",
+	hp_growth = 2669,
+	base = 63821,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63837,
+		63847
+	}
+}
+
+_G.pg.aircraft_template[63828] = {
+	id = 63828,
+	name = "帝国轰炸机弹幕Re2001-Lv8",
+	hp_growth = 2879,
+	base = 63821,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63838,
+		63848
+	}
+}
+
+_G.pg.aircraft_template[63829] = {
+	id = 63829,
+	name = "帝国轰炸机弹幕Re2001-Lv9",
+	hp_growth = 3090,
+	base = 63821,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63839,
+		63849
+	}
+}
+
+_G.pg.aircraft_template[63830] = {
+	id = 63830,
+	name = "帝国轰炸机弹幕Re2001-Lv10",
+	hp_growth = 3301,
+	base = 63821,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63840,
+		63850
+	}
+}
+
 _G.pg.aircraft_template[64121] = {
 	attack_power = 2,
 	name = "提康德罗加战斗机LV1",
@@ -124112,6 +124694,158 @@ _G.pg.aircraft_template[620511] = {
 	}
 }
 
+_G.pg.aircraft_template[630059] = {
+	attack_power = 2,
+	name = "【2022愚人节】金布里鱼雷机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "plane_zhifeiji",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 3.33,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 630059,
+	icon = "plane_zhifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 4013,
+	speed = 30,
+	max_hp = 104,
+	scale = 1,
+	weapon_ID = {
+		630051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[630060] = {
+	attack_power = 2,
+	name = "【2022愚人节】金布里轰炸机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "plane_zhifeiji",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 630060,
+	icon = "plane_zhifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 5,
+	hp_growth = 3466,
+	speed = 40,
+	max_hp = 90,
+	scale = 1,
+	weapon_ID = {
+		630052
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.aircraft_template[650010] = {
 	attack_power = 2,
 	name = "【2020法系活动A2】精英贝亚恩级量产型 战斗机",
@@ -149312,6 +150046,316 @@ _G.pg.aircraft_template[875026] = {
 	}
 }
 
+_G.pg.aircraft_template[882001] = {
+	attack_power = 2,
+	name = "【2022意大利SP活动SP3】塞壬执棋者II型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 882001,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		882005
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[882002] = {
+	attack_power = 2,
+	name = "【2022意大利SP活动SP3】塞壬执棋者II型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 882002,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 33,
+	max_hp = 126,
+	scale = 0.75,
+	weapon_ID = {
+		882006
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[882003] = {
+	attack_power = 2,
+	name = "【2022意大利SP活动SP3】塞壬执棋者II型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 1,
+	nationality = 3,
+	id = 882003,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 600,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		882007
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[882004] = {
+	attack_power = 2,
+	name = "【2022意大利SP活动SP3】塞壬执棋者II型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 1,
+	nationality = 3,
+	id = 882004,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 600,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		882008
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.aircraft_template[950157] = {
 	attack_power = 2,
 	name = "挑战关卡8战斗机T1",
@@ -154970,7 +156014,8 @@ _G.pg.aircraft_template[1000810] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000825
+		1000825,
+		1000910
 	},
 	position_offset = {
 		0,
@@ -155049,7 +156094,8 @@ _G.pg.aircraft_template[1000811] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000826
+		1000826,
+		1000911
 	},
 	position_offset = {
 		0,
@@ -155128,7 +156174,8 @@ _G.pg.aircraft_template[1000812] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000827
+		1000827,
+		1000912
 	},
 	position_offset = {
 		0,
@@ -155207,7 +156254,8 @@ _G.pg.aircraft_template[1000813] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000828
+		1000828,
+		1000913
 	},
 	position_offset = {
 		0,
@@ -155286,7 +156334,8 @@ _G.pg.aircraft_template[1000814] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000829
+		1000829,
+		1000914
 	},
 	position_offset = {
 		0,

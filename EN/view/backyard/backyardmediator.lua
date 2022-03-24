@@ -341,6 +341,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		if slot3.context.mediator == NewBackYardShopMediator then
 			pg.backyard:sendNotification(BACKYARD.CLOSE_SHOP_LAYER)
+			slot0.viewComponent:UpdateShopTip()
 		end
 	elseif slot2 == GAME.ON_APPLICATION_PAUSE and slot3 == true and slot0.viewComponent.view then
 		slot0.viewComponent.view:OnApplicationPause()

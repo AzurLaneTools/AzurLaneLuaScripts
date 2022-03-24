@@ -12,7 +12,7 @@ end
 slot3 = pm.Facade.sendNotification
 
 function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
-	if uv0 and slot1 == GAME.LOAD_SCENE then
+	if uv0 and slot1 == GAME.LOAD_SCENE and slot2.context.mediator then
 		slot5 = slot2.context.mediator.__cname
 
 		if getProxy(PlayerProxy) and slot4:getData() then

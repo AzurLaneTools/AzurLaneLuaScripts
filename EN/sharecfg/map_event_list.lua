@@ -1611,7 +1611,9 @@ pg.map_event_list = {
 			481,
 			482
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			482
+		},
 		help_pictures = {
 			"helpbg/battle_yidaliv2"
 		}

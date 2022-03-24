@@ -1185,6 +1185,10 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 
 				triggerButton(uv0.viewComponent.btnNext)
 			end
+
+			if uv1 then
+				uv0.viewComponent:RefreshMapBG()
+			end
 		end
 	})
 end

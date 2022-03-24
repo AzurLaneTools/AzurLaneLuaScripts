@@ -740,6 +740,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[26] = {
+		effect = "",
+		name = "Pompeo Magno Model",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		picture = "chuanmo/luomatongshuai",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A 1:100 scale model of Pompeo Magno.",
+		tag = 6,
+		icon = "luomatongshuaiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 26,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[102] = {
 		effect = "",
 		name = "Forgotten Memory",
@@ -5549,6 +5586,88 @@ pg.furniture_data_template = {
 					"Houzhai_snow01",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100013] = {
+		effect = "",
+		name = "Manjuu and the Beanstalk",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It'll bust a hole through the dormitory's ceiling if it keeps growing at this rate!",
+		tag = 6,
+		icon = "modouicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		comfortable = 5,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100013,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"modouB",
+				"normal"
+			},
+			{
+				"modouT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action",
+						0,
+						"stand2"
+					},
+					{
+						"action2",
+						0,
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"modouCharControl"
 			}
 		},
 		interAction_group = {}
@@ -88892,6 +89011,707 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[87001] = {
+		icon = "dibansc3icon",
+		name = "Campus Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 87,
+		picture = "sc3/dibansc3",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Lush green with flowers so well-made they almost look real.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 87001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87002] = {
+		icon = "qiangbisc3icon",
+		name = "Campus Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 87,
+		picture = "sc3/qiangbisc3",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Featuring an idyllic spring sky that promises a pleasant first day at school.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 87002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87101] = {
+		effect = "",
+		name = "Campus Notice Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/gonggaobansc3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Congratulations! You noticed the board.",
+		tag = 1,
+		icon = "gonggaobansc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87101,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87102] = {
+		effect = "",
+		name = "Campus Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/dengsc3",
+		count = 5,
+		is_3d_obj = 0,
+		describe = "An unusual design that only pays lip service to modernism.",
+		tag = 1,
+		icon = "dengsc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87107] = {
+		effect = "",
+		name = "Campus Shrub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/guanmusc3",
+		count = 5,
+		is_3d_obj = 0,
+		describe = "Stackable.",
+		tag = 1,
+		icon = "guanmusc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87112] = {
+		effect = "",
+		name = "Manjuu Professor Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/jiujiudiaoxiangsc3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "People used to call them Captain.",
+		tag = 1,
+		icon = "jiujiudiaoxiangsc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87113] = {
+		effect = "",
+		name = "Manjuu Schoolgirl",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/jkjiusc3",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Even manjuus have to adhere to the dress code.",
+		tag = 1,
+		icon = "jkjiusc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87115] = {
+		effect = "",
+		name = "Campus Apple Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/pingguoshusc3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Hey, free food!",
+		tag = 1,
+		icon = "pingguoshusc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87115,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87116] = {
+		effect = "",
+		name = "Campus Stone Path",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/shibanlusc3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "One block breaks the pattern. Don't go looking for it or you'll never be able to unsee it.",
+		tag = 1,
+		icon = "shibanlusc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87116,
+		can_rotate = 0,
+		size = {
+			5,
+			15
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87117] = {
+		effect = "",
+		name = "Campus Fountain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc3/shuichisc3",
+		is_get_time_note = 0,
+		themeId = 87,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Did this school seriously reuse the port's fountain design?",
+		tag = 1,
+		icon = "shuichisc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-144
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/shuichisc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87118] = {
+		effect = "",
+		name = "Campus Cherry Blossom Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/shusc3",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Why are they called that when they don't produce any cherries?",
+		tag = 1,
+		icon = "shusc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87121] = {
+		effect = "",
+		name = "Campus Squirrel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/songshusc3",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "He's nuts for nuts.",
+		tag = 1,
+		icon = "songshusc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87121,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87123] = {
+		effect = "",
+		name = "Campus Library",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/tushuguansc3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "No off-color mags to be found here, only classy literature.",
+		tag = 1,
+		icon = "tushuguansc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87123,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87124] = {
+		effect = "",
+		name = "Campus Railed Path",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc3/xiaodaosc3",
+		is_get_time_note = 0,
+		themeId = 87,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Your direct connection to the school building.",
+		tag = 1,
+		icon = "xiaodaosc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87124,
+		can_rotate = 0,
+		size = {
+			12,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-77.3,
+					-50.9
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/xiaodaosc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87126] = {
+		effect = "",
+		name = "Picnic Setup",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc3/yecantansc3",
+		is_get_time_note = 0,
+		themeId = 87,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You looked around for Mari, but couldn't find her.",
+		tag = 1,
+		icon = "yecantansc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87126,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					40,
+					30
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87127] = {
+		effect = "",
+		name = "Campus Bench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/yizisc3",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Unhostile architecture. Nice!",
+		tag = 1,
+		icon = "yizisc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87127,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87130] = {
+		effect = "",
+		name = "Campus Clock Tower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/zhonglousc3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "DONG! It's class o'clock.",
+		tag = 1,
+		icon = "zhonglousc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87130,
+		can_rotate = 0,
+		size = {
+			9,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87131] = {
+		effect = "",
+		name = "Campus School Building",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 87,
+		is_get_time_note = 0,
+		picture = "sc3/zhuanlousc3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This red brick design has stood the test of time, both literally and figuratively.",
+		tag = 1,
+		icon = "zhuanlousc3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 87131,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -88913,6 +89733,7 @@ pg.furniture_data_template = {
 		23,
 		24,
 		25,
+		26,
 		102,
 		104,
 		105,
@@ -89003,6 +89824,7 @@ pg.furniture_data_template = {
 		100009,
 		100010,
 		100011,
+		100013,
 		100014,
 		100015,
 		100016,
@@ -90903,6 +91725,24 @@ pg.furniture_data_template = {
 		86117,
 		86119,
 		86122,
-		86301
+		86301,
+		87001,
+		87002,
+		87101,
+		87102,
+		87107,
+		87112,
+		87113,
+		87115,
+		87116,
+		87117,
+		87118,
+		87121,
+		87123,
+		87124,
+		87126,
+		87127,
+		87130,
+		87131
 	}
 }

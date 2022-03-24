@@ -1227,5 +1227,13 @@ pg.voice_actor_CN = {
 	{
 		code = 307,
 		actor_name = "Shibasaki Noriko "
+	},
+	{
+		code = 308,
+		actor_name = "Saya Aizawa"
+	},
+	{
+		code = 309,
+		actor_name = "Nichika Ōmori"
 	}
 }

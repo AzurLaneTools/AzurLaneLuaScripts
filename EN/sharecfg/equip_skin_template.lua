@@ -14020,7 +14020,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "Great job, superstar!",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14049,7 +14049,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "Many say it's the ultimate destructive magic.",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14079,7 +14079,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "In Northern Parliament, planets land on you.",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14108,7 +14108,7 @@ pg.equip_skin_template = {
 		bullet_name = "",
 		desc = "Plucked straight from their orbit around Formidable.",
 		type = 1,
-		themeid = 99,
+		themeid = 101,
 		name = "Planet Cluster",
 		rarity = 4,
 		orbit_combat = "shebei_xingqiu",
@@ -14145,6 +14145,153 @@ pg.equip_skin_template = {
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	},
+	[2005] = {
+		mirror = 0,
+		bullet_name = "",
+		desc = "月有阴晴圆缺~",
+		type = 1,
+		themeid = 101,
+		name = "模拟月球",
+		rarity = 4,
+		orbit_combat = "shebei_yuexiang",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_yuexiangui",
+		derivate_bullet = "",
+		id = 2005,
+		icon = "96152",
+		ship_skin_id = 0,
+		derivate_torpedo = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				-0.11,
+				-0.69
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-7,
+				-114
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2006] = {
+		name = "炮弹:双星系统",
+		bullet_name = "paodan_shuangxingpaodan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "你绕着我，我绕着你~",
+		themeid = 101,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96112",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		id = 2006,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2007] = {
+		mirror = 0,
+		bullet_name = "",
+		desc = "乘着星光，穿梭浩瀚宇宙！",
+		type = 1,
+		themeid = 101,
+		name = "星云蝶翼",
+		rarity = 4,
+		orbit_combat = "shebei_xingyunzhiyi",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xingyunzhiyiui",
+		derivate_bullet = "",
+		id = 2007,
+		icon = "96153",
+		ship_skin_id = 0,
+		derivate_torpedo = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.22,
+				-0.32,
+				-1.01
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-103
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2008] = {
+		name = "鱼雷:奥陌陌",
+		bullet_name = "yulei_aomomo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "是奇特的星体，还是未知的飞船？！",
+		themeid = 101,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96122",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		id = 2008,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
 		}
 	},
 	all = {
@@ -14637,6 +14784,10 @@ pg.equip_skin_template = {
 		2001,
 		2002,
 		2003,
-		2004
+		2004,
+		2005,
+		2006,
+		2007,
+		2008
 	}
 }

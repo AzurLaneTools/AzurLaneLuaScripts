@@ -1105,6 +1105,11 @@ pg.name_code = {
 		name = "Junyou META",
 		code = "Junyou META"
 	},
+	[223] = {
+		id = 223,
+		name = "Yamashiro META",
+		code = "Yamashiro META"
+	},
 	[250] = {
 		id = 250,
 		name = "I-9",

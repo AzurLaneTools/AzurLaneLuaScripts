@@ -572,4 +572,65 @@ function slot0.SetActivityMapSPTip(slot0)
 	PlayerPrefs.Save()
 end
 
+function slot0.IsTipNewTheme(slot0)
+	slot1 = pg.backyard_theme_template
+	slot2 = slot1.all[#slot1.all]
+	slot4 = pg.furniture_shop_template[slot1[slot2].ids[1]]
+
+	if slot4 and slot4.new == 1 and pg.TimeMgr.GetInstance():inTime(slot4.time) and PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "IsTipNewTheme" .. slot2, 0) == 0 then
+		slot0.lastThemeId = slot2
+	else
+		slot0.lastThemeId = nil
+	end
+
+	return slot0.lastThemeId ~= nil
+end
+
+function slot0.UpdateNewThemeValue(slot0)
+	if slot0.lastThemeId then
+		PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "IsTipNewTheme" .. slot0.lastThemeId, 1)
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetNewGemFurnitureLocalCache(slot0)
+	if not slot0.cacheGemFuruitures then
+		slot0.cacheGemFuruitures = {}
+
+		if PlayerPrefs.GetString(getProxy(PlayerProxy):getRawData().id .. "IsTipNewGenFurniture") ~= "" then
+			for slot7, slot8 in ipairs(string.split(slot2, "#")) do
+				slot0.cacheGemFuruitures[tonumber(slot8)] = true
+			end
+		end
+	end
+
+	return slot0.cacheGemFuruitures
+end
+
+function slot0.IsTipNewGemFurniture(slot0)
+	slot1 = slot0:GetNewGemFurnitureLocalCache()
+	slot2 = getProxy(DormProxy)
+
+	if _.any(slot2:GetTag7Furnitures(), function (slot0)
+		return pg.furniture_shop_template[slot0].new == 1 and not uv0[slot0]
+	end) then
+		slot0.newGemFurniture = slot2
+	else
+		slot0.newGemFurniture = nil
+	end
+
+	return slot0.newGemFurniture ~= nil
+end
+
+function slot0.UpdateNewGemFurnitureValue(slot0)
+	if slot0.newGemFurniture then
+		for slot4, slot5 in pairs(slot0.newGemFurniture) do
+			slot0.cacheGemFuruitures[slot5] = true
+		end
+
+		PlayerPrefs.SetString(getProxy(PlayerProxy):getRawData().id .. "IsTipNewGenFurniture", table.concat(slot0.newGemFurniture, "#"))
+		PlayerPrefs.Save()
+	end
+end
+
 return slot0

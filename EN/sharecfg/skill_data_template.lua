@@ -59677,6 +59677,667 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[15370] = {
+		desc_get = "",
+		name = "Impero is Brilliant",
+		id = 15370,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AVI by $5. \nEvery 20s: $1 chance to launch a $2 special airstrike based on the type of aircraft equipped in this ship's first gear slot (DMG is based on the skill's level.) \nIf the aircraft is a Fighter: decreases the loading time of this ship's first Airstrike by $3; if it's a Dive Bomber, when this ship finishes loading her 2nd Airstrike: increases this ship's DMG dealt by $4 for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15380] = {
+		desc_get = "",
+		name = "Impero is Charitable",
+		id = 15380,
+		type = 3,
+		max_level = 10,
+		desc = [[
+Increases this ship's DMG dealt by $2. 
+10s after the battle starts, and every 20s after that, while a ship in your Main Fleet has between 20.0% and 90.0% HP remaining: 
+1) If this ship has the highest percentage HP of all ships in your Main Fleet, and there are at least 2 ships in your Main Fleet, deducts $1 HP from this ship and heals your Main Fleet ship with the lowest percentage HP (except this ship) for the amount of HP deducted from this ship; 
+2) If this ship does NOT have the highest percentage HP, deducts $1 HP from your Main Fleet ship with the highest percentage HP and heals this ship for the amount of HP deducted from the other ship. 
+Whichever ship is healed as a result of this skill has her EVA increased by $2 for 5s. If the ship healed is from the Sardegna Empire, the amount healed is increased by 183.]],
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15390] = {
+		desc_get = "",
+		name = "March on Towards Triumph!",
+		id = 15390,
+		type = 3,
+		max_level = 10,
+		desc = "5s after the battle starts, and every 20s after that: spawns a special summon (lasts 15s; inflicts a unique Burn ailment to enemies) and decreases the ACC of all enemies by $1 for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[15400] = {
+		desc_get = "",
+		name = "Tough Love",
+		id = 15400,
+		type = 2,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken from AP ammo by $1. When the battle starts, if this ship is the frontmost ship of your Vanguard: restores $2 HP to this ship; if NOT in the frontmost position: decreases DMG taken by $3 for this ship and the frontmost ship of your Vanguard.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[15410] = {
+		desc_get = "",
+		name = "With Victory Comes Glory!",
+		id = 15410,
+		type = 1,
+		max_level = 10,
+		desc = "During a sortie, for each enemy fleet sunk by the fleet this ship is in: increases this ship's FP and TRP by $1 (can be stacked up to 3 times). Increases this ship's DMG dealt with torpedoes based on her proximity to the enemy at the time of firing (the closer she is, the more DMG they deal, up to a maximum of $2 when the distance is within 10).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"0.5%",
+				"5.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"0.5%",
+					"+0.5%"
+				},
+				{
+					"1.0%",
+					"+0.5%"
+				},
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -68867,6 +69528,34 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[25213] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		id = 25213,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Trento-class once every 9 times the Main Guns are fired. If this ship has Sardegna Empire gear equipped: decreases the shot requirement to 6 and improves this barrage.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25214] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		id = 25214,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Trento-class once every 6 times the Main Guns are fired. If this ship has Sardegna Empire gear equipped: decreases the shot requirement to 4 and improves this barrage.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[25221] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -71528,6 +72217,34 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		type = 1,
 		max_level = 1,
 		desc = "Activates All Out Assault II: Kiev once every 10 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29831] = {
+		desc_get = "",
+		name = "All-Out Assault: I",
+		id = 29831,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Pompeo Magno once every 15 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29832] = {
+		desc_get = "",
+		name = "All-Out Assault: II",
+		id = 29832,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Pompeo Magno once every 10 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -82179,6 +82896,253 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800380] = {
+		desc_get = "",
+		name = "Blood Sacrifice",
+		id = 800380,
+		type = 1,
+		max_level = 10,
+		desc = "Every 15s: fires a $1 special barrage (DMG is based on the skill's level). When this skill activates while this ship's HP is above 20.0%: deducts 178 HP from this ship and improves this barrage.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800390] = {
+		desc_get = "",
+		name = "Cursed Outset",
+		id = 800390,
+		type = 3,
+		max_level = 10,
+		desc = "This ship ignores the effects of the Out of Ammo debuff. During a battle, decreases the loading time of this ship's first 3 Main Gun volleys by 50.0%. This ship's 1st and 2nd volleys deal 60.0% and 80.0% DMG respectively, and the 3rd and onward deals $1 DMG.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"100.0%",
+				"120.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"100.0%",
+					"+2.2%"
+				},
+				{
+					"102.2%",
+					"+2.2%"
+				},
+				{
+					"104.4%",
+					"+2.2%"
+				},
+				{
+					"106.6%",
+					"+2.2%"
+				},
+				{
+					"108.8%",
+					"+2.2%"
+				},
+				{
+					"111.0%",
+					"+2.2%"
+				},
+				{
+					"113.2%",
+					"+2.2%"
+				},
+				{
+					"115.4%",
+					"+2.2%"
+				},
+				{
+					"117.6%",
+					"+2.4%"
+				},
+				{
+					"120.0%"
+				}
+			}
+		}
+	},
+	[800400] = {
+		desc_get = "",
+		name = "Echoes of Annihilation – Yamashiro",
+		id = 800400,
+		type = 1,
+		max_level = 10,
+		desc = "When the battle starts, if this ship has Sakura Empire gear equipped: increases the DMG dealt by this ship's \"Blood Sacrifice\" barrage by $1; if NOT equipping Sakura Empire gear: decreases this ship's DMG taken by 10.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[800411] = {
+		desc_get = "",
+		name = "Flickering Light – Yamashiro I",
+		id = 800411,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		system_transform = {
+			[51.0] = 800415
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800412] = {
+		desc_get = "",
+		name = "Flickering Light – Yamashiro II",
+		id = 800412,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%. ",
+		system_transform = {
+			[51.0] = 800417
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800415] = {
+		desc_get = "",
+		name = "Flickering Light – Yamashiro I",
+		id = 800415,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		system_transform = {
+			[51.0] = 800415
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800417] = {
+		desc_get = "",
+		name = "Flickering Light – Yamashiro II",
+		id = 800417,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%. ",
+		system_transform = {
+			[51.0] = 800417
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -82992,6 +83956,11 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		15330,
 		15340,
 		15350,
+		15370,
+		15380,
+		15390,
+		15400,
+		15410,
 		18010,
 		18040,
 		18050,
@@ -83248,6 +84217,8 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		25042,
 		25211,
 		25212,
+		25213,
+		25214,
 		25221,
 		25222,
 		25511,
@@ -83438,6 +84409,8 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		29812,
 		29821,
 		29822,
+		29831,
+		29832,
 		101010,
 		101020,
 		101030,
@@ -83587,6 +84560,13 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		800371,
 		800372,
 		800375,
-		800377
+		800377,
+		800380,
+		800390,
+		800400,
+		800411,
+		800412,
+		800415,
+		800417
 	}
 }
