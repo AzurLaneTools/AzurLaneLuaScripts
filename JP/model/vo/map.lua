@@ -48,7 +48,7 @@ function slot0.isUnlock(slot0)
 			if slot3 then
 				return true
 			elseif slot4 then
-				return false, i18n("battle_levelScene_lock_1")
+				return false, i18n("battle_levelScene_close")
 			else
 				return false, i18n("battle_levelScene_lock")
 			end

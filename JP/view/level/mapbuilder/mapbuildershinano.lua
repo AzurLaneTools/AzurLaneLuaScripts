@@ -79,7 +79,7 @@ function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 
 					return
 				elseif not slot2:isUnlock() then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_close"))
 
 					return
 				end
@@ -458,7 +458,7 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 		end
 
 		if not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster() and not slot0:inActTime() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_close"))
 
 			return
 		end

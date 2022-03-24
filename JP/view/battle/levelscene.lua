@@ -1836,7 +1836,7 @@ function slot0.trackChapter(slot0, slot1, slot2)
 		end
 
 		if slot0:isActivity() and not slot0:isRemaster() and not uv2:inActTime() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_close"))
 
 			return
 		end
