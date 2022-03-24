@@ -14539,7 +14539,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "饅頭さん、綺麗な花火ですよ",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14568,7 +14568,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "あ･･･大きな星が点いたり消えたりしている…",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14598,7 +14598,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "今のはメテオではない…ファイアボールだ",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14627,7 +14627,7 @@ pg.equip_skin_template = {
 		bullet_name = "",
 		desc = "我は恒星、明日この寮舎を掃除する",
 		type = 1,
-		themeid = 99,
+		themeid = 101,
 		name = "饅頭惑星群",
 		rarity = 4,
 		orbit_combat = "shebei_xingqiu",
@@ -14664,6 +14664,153 @@ pg.equip_skin_template = {
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	},
+	[2005] = {
+		mirror = 0,
+		bullet_name = "",
+		desc = "月は出ているか……？",
+		type = 1,
+		themeid = 101,
+		name = "サテライトムーン",
+		rarity = 4,
+		orbit_combat = "shebei_yuexiang",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_yuexiangui",
+		derivate_bullet = "",
+		id = 2005,
+		icon = "96152",
+		ship_skin_id = 0,
+		derivate_torpedo = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				-0.11,
+				-0.69
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-7,
+				-114
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2006] = {
+		name = "ジェミニ砲弾",
+		bullet_name = "paodan_shuangxingpaodan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "砲弾が二つ…来るぞ饅頭！",
+		themeid = 101,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96112",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		id = 2006,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2007] = {
+		mirror = 0,
+		bullet_name = "",
+		desc = "我が世の春が来たピョ！（4月）",
+		type = 1,
+		themeid = 101,
+		name = "月光の蝶",
+		rarity = 4,
+		orbit_combat = "shebei_xingyunzhiyi",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xingyunzhiyiui",
+		derivate_bullet = "",
+		id = 2007,
+		icon = "96153",
+		ship_skin_id = 0,
+		derivate_torpedo = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.22,
+				-0.32,
+				-1.01
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-103
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2008] = {
+		name = "オウムアムア魚雷",
+		bullet_name = "yulei_aomomo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "隕石ではなく、宇宙船だと…！？",
+		themeid = 101,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96122",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		id = 2008,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
 		}
 	},
 	all = {
@@ -15174,6 +15321,10 @@ pg.equip_skin_template = {
 		2001,
 		2002,
 		2003,
-		2004
+		2004,
+		2005,
+		2006,
+		2007,
+		2008
 	}
 }

@@ -2384,13 +2384,13 @@ _G.pg.world_event_data[184] = {
 	},
 	slg_bufflist = {
 		{
-			1410
+			1310
 		},
 		{
 			1470
 		},
 		{
-			1020
+			1490
 		}
 	},
 	slg_buffnum = {
@@ -2438,13 +2438,13 @@ _G.pg.world_event_data[185] = {
 	},
 	slg_bufflist = {
 		{
-			1310
+			1410
 		},
 		{
 			1470
 		},
 		{
-			1490
+			1020
 		}
 	},
 	slg_buffnum = {

@@ -345,6 +345,14 @@ function slot0.readyToAchieve(slot0)
 			return #slot0:GetCrusingUnreceiveAward() > 0
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE then
 			return not WorldInPictureActiviyData.New(slot0):IsTravelAll() and slot4:GetTravelPoint() > 0 or slot4:GetDrawPoint() > 0 and slot4:AnyAreaCanDraw()
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_APRIL_REWARD then
+			if slot0.data1 == 0 then
+				if slot0:getConfig("config_client").autounlock <= pg.TimeMgr.GetInstance():GetServerTime() - pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2]) then
+					return true
+				end
+			elseif slot0.data1 ~= 0 and slot0.data2 == 0 then
+				return true
+			end
 		end
 	end
 end

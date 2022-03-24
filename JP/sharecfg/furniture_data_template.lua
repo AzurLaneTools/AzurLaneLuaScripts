@@ -740,6 +740,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[26] = {
+		spine_extra = "",
+		describe = "特殊家具：ポンペオ・マーニョ模型（1:100)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "luomatongshuaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ポンペオ・マーニョ模型",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "chuanmo/luomatongshuai",
+		canputon = 0,
+		id = 26,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[101] = {
 		spine_extra = "",
 		describe = "βテスト報酬",
@@ -7571,6 +7608,83 @@ pg.furniture_data_template = {
 				1
 			},
 			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100035] = {
+		spine_extra = "",
+		describe = "ああ…どうやら実力で饅頭を倒したと勘違いしてやがるようだピョ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "超スピード！？スキーフィールド",
+		themeId = 0,
+		icon = "huaxuetaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100035,
+		can_rotate = 0,
+		size = {
+			6,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaxuetaiB",
+				"normal"
+			},
+			{
+				"huaxuetaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
 		},
 		followBone = {
 			"char",
@@ -97855,6 +97969,707 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[87001] = {
+		spine_extra = "",
+		describe = "新学期の始まりだピョ！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "饅頭学園の床",
+		effect = "",
+		advice = 0,
+		icon = "dibansc3icon",
+		spine_action_replace = "",
+		picture = "sc3/dibansc3",
+		comfortable = 4,
+		canputon = 0,
+		id = 87001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87002] = {
+		spine_extra = "",
+		describe = "新学期の始まりだピョ！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "饅頭学園の壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbisc3icon",
+		spine_action_replace = "",
+		picture = "sc3/qiangbisc3",
+		comfortable = 4,
+		canputon = 0,
+		id = 87002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87101] = {
+		spine_extra = "",
+		describe = "メンバー募集中のサークルは……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gonggaobansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の掲示板",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/gonggaobansc3",
+		canputon = 0,
+		id = 87101,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87102] = {
+		spine_extra = "",
+		describe = "日が昇っているうちにはつかない",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 1,
+		icon = "dengsc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の照明",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/dengsc3",
+		canputon = 0,
+		id = 87102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87107] = {
+		spine_extra = "",
+		describe = "学園を彩る緑",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 1,
+		icon = "guanmusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の低木",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/guanmusc3",
+		canputon = 0,
+		id = 87107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87112] = {
+		spine_extra = "",
+		describe = "大事を成さんと欲する者は、まず小事に務むべし…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiudiaoxiangsc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "饅頭学者像",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/jiujiudiaoxiangsc3",
+		canputon = 0,
+		id = 87112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87113] = {
+		spine_extra = "",
+		describe = "遅刻遅刻ピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "jkjiusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "制服饅頭",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/jkjiusc3",
+		canputon = 0,
+		id = 87113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87115] = {
+		spine_extra = "",
+		describe = "頭にりんごが落ちただけなのに……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pingguoshusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園のりんご木",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/pingguoshusc3",
+		canputon = 0,
+		id = 87115,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87116] = {
+		spine_extra = "",
+		describe = "予鈴まであと30秒！走れ！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shibanlusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の石畳道",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "sc3/shibanlusc3",
+		canputon = 0,
+		id = 87116,
+		can_rotate = 0,
+		size = {
+			5,
+			15
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87117] = {
+		spine_extra = "",
+		describe = "母港の学園のデザインをそのまま流用している…？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuichisc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の噴水",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/shuichisc3",
+		canputon = 0,
+		id = 87117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-144
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/shuichisc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87118] = {
+		spine_extra = "",
+		describe = "また、桜が咲く季節ですね…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "shusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の桜並木",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/shusc3",
+		canputon = 0,
+		id = 87118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87121] = {
+		spine_extra = "",
+		describe = "「それは若葉のだから！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "songshusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園のリス",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/songshusc3",
+		canputon = 0,
+		id = 87121,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87123] = {
+		spine_extra = "",
+		describe = "「偉いからって、借りパクはダメだよ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tushuguansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の図書館",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/tushuguansc3",
+		canputon = 0,
+		id = 87123,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87124] = {
+		spine_extra = "",
+		describe = "教室への近道をGO！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaodaosc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の細道",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/xiaodaosc3",
+		canputon = 0,
+		id = 87124,
+		can_rotate = 0,
+		size = {
+			12,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-77.3,
+					-50.9
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/xiaodaosc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87126] = {
+		spine_extra = "",
+		describe = "「お兄ちゃん、お弁当…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yecantansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "お昼シート",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/yecantansc3",
+		canputon = 0,
+		id = 87126,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					40,
+					30
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87127] = {
+		spine_extra = "",
+		describe = "「もう少しゆっくり歩いてもよろしくてよ？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "yizisc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園のベンチ",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/yizisc3",
+		canputon = 0,
+		id = 87127,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87130] = {
+		spine_extra = "",
+		describe = "「授業早く終わんねぇかな…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhonglousc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の時計台",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/zhonglousc3",
+		canputon = 0,
+		id = 87130,
+		can_rotate = 0,
+		size = {
+			9,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87131] = {
+		spine_extra = "",
+		describe = "そろそろ授業だピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuanlousc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学園の教育棟",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/zhuanlousc3",
+		canputon = 0,
+		id = 87131,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -97876,6 +98691,7 @@ pg.furniture_data_template = {
 		23,
 		24,
 		25,
+		26,
 		101,
 		102,
 		104,
@@ -97997,6 +98813,7 @@ pg.furniture_data_template = {
 		100032,
 		100033,
 		100034,
+		100035,
 		200001,
 		200002,
 		200003,
@@ -100055,6 +100872,24 @@ pg.furniture_data_template = {
 		86117,
 		86119,
 		86122,
-		86301
+		86301,
+		87001,
+		87002,
+		87101,
+		87102,
+		87107,
+		87112,
+		87113,
+		87115,
+		87116,
+		87117,
+		87118,
+		87121,
+		87123,
+		87124,
+		87126,
+		87127,
+		87130,
+		87131
 	}
 }

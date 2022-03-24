@@ -271,6 +271,18 @@ function slot0.addFood(slot0, slot1)
 	slot0.food = slot0.food + slot1
 end
 
+function slot0.GetOwnFurnitrueCount(slot0, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in pairs(slot0.furnitures) do
+		if slot7.configId == slot1 then
+			slot2 = slot2 + 1
+		end
+	end
+
+	return slot2
+end
+
 function slot0.getSaveData(slot0)
 	slot1 = {}
 

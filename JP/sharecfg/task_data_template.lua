@@ -153007,6 +153007,589 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[17455] = {
+		name = "『爬塔SP』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 97100,
+		type = 6,
+		desc = "ゲームにログインせよ！",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17455,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				244,
+				2
+			}
+		}
+	},
+	[17456] = {
+		name = "『爬塔SP』日常建造",
+		guild_coin_award = 0,
+		award = 97101,
+		type = 36,
+		desc = "艦を3隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17456,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59279,
+				300
+			}
+		}
+	},
+	[17457] = {
+		name = "『爬塔SP』日常出击",
+		guild_coin_award = 0,
+		award = 97102,
+		type = 36,
+		desc = "艦を出撃させ、戦闘15回勝利せよ！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17457,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59279,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17458] = {
+		name = "『爬塔SP』日常困难本",
+		guild_coin_award = 0,
+		award = 97103,
+		type = 36,
+		desc = "通常海域ハードを1回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17458,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59279,
+				100
+			}
+		}
+	},
+	[17459] = {
+		name = "『爬塔SP』通关SP1",
+		guild_coin_award = 0,
+		award = 97104,
+		type = 6,
+		desc = "SP1をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17460",
+		auto_commit = 0,
+		story_id = "",
+		id = 17459,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59279,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630001
+			}
+		}
+	},
+	[17460] = {
+		name = "『爬塔SP』通关SP2",
+		guild_coin_award = 0,
+		award = 97105,
+		type = 6,
+		desc = "SP2をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17461",
+		auto_commit = 0,
+		story_id = "",
+		id = 17460,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59279,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630002
+			}
+		}
+	},
+	[17461] = {
+		name = "『爬塔SP』通关SP3",
+		guild_coin_award = 0,
+		award = 97106,
+		type = 6,
+		desc = "SP3をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17462",
+		auto_commit = 0,
+		story_id = "",
+		id = 17461,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59279,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630003
+			}
+		}
+	},
+	[17462] = {
+		name = "『爬塔SP』通关SP4",
+		guild_coin_award = 0,
+		award = 97107,
+		type = 6,
+		desc = "SP4をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630004",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17463",
+		auto_commit = 0,
+		story_id = "",
+		id = 17462,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59279,
+				800
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630004
+			}
+		}
+	},
+	[17463] = {
+		name = "『爬塔SP』通关ESP",
+		guild_coin_award = 0,
+		award = 97108,
+		type = 6,
+		desc = "ESPをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630041",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17463,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630002,
+				chapterId = 1630041
+			}
+		}
+	},
+	[17464] = {
+		name = "『爬塔SP』SP1三星",
+		guild_coin_award = 0,
+		award = 97109,
+		type = 6,
+		desc = "SP1の作戦目標（星3つ）をすべて達成せよ！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17465",
+		auto_commit = 0,
+		story_id = "",
+		id = 17464,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630001
+			}
+		}
+	},
+	[17465] = {
+		name = "『爬塔SP』SP2三星",
+		guild_coin_award = 0,
+		award = 97110,
+		type = 6,
+		desc = "SP2の作戦目標（星3つ）をすべて達成せよ！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17466",
+		auto_commit = 0,
+		story_id = "",
+		id = 17465,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630002
+			}
+		}
+	},
+	[17466] = {
+		name = "『爬塔SP』SP3三星",
+		guild_coin_award = 0,
+		award = 97111,
+		type = 6,
+		desc = "SP3の作戦目標（星3つ）をすべて達成せよ！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17467",
+		auto_commit = 0,
+		story_id = "",
+		id = 17466,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630003
+			}
+		}
+	},
+	[17467] = {
+		name = "『爬塔SP』SP4三星",
+		guild_coin_award = 0,
+		award = 97112,
+		type = 6,
+		desc = "SP4の作戦目標（星3つ）をすべて達成せよ！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630004",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17467,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630001,
+				chapterId = 1630004
+			}
+		}
+	},
+	[17468] = {
+		name = "『爬塔SP』通关EX",
+		guild_coin_award = 0,
+		award = 97113,
+		type = 6,
+		desc = "エクストラステージをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1630051",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17468,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1630003,
+				chapterId = 1630051
+			}
+		}
+	},
 	[30201] = {
 		name = "戦闘勝利-日常",
 		guild_coin_award = 0,
@@ -158420,7 +159003,7 @@ pg.task_data_template = {
 		}
 	},
 	[41011] = {
-		name = "【通行证第一周】任务一",
+		name = "一期·【通行证第一周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158456,7 +159039,7 @@ pg.task_data_template = {
 		}
 	},
 	[41012] = {
-		name = "【通行证第一周】任务二",
+		name = "一期·【通行证第一周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158490,7 +159073,7 @@ pg.task_data_template = {
 		}
 	},
 	[41013] = {
-		name = "【通行证第一周】任务三",
+		name = "一期·【通行证第一周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158524,7 +159107,7 @@ pg.task_data_template = {
 		}
 	},
 	[41014] = {
-		name = "【通行证第一周】任务四",
+		name = "一期·【通行证第一周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -158558,7 +159141,7 @@ pg.task_data_template = {
 		}
 	},
 	[41015] = {
-		name = "【通行证第一周】任务五",
+		name = "一期·【通行证第一周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -158597,7 +159180,7 @@ pg.task_data_template = {
 		}
 	},
 	[41016] = {
-		name = "【通行证第一周】任务六",
+		name = "一期·【通行证第一周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -158631,7 +159214,7 @@ pg.task_data_template = {
 		}
 	},
 	[41017] = {
-		name = "【通行证第一周】任务七",
+		name = "一期·【通行证第一周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -158672,7 +159255,7 @@ pg.task_data_template = {
 		}
 	},
 	[41018] = {
-		name = "【通行证第二周】任务一",
+		name = "一期·【通行证第二周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158708,7 +159291,7 @@ pg.task_data_template = {
 		}
 	},
 	[41019] = {
-		name = "【通行证第二周】任务二",
+		name = "一期·【通行证第二周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158742,7 +159325,7 @@ pg.task_data_template = {
 		}
 	},
 	[41020] = {
-		name = "【通行证第二周】任务三",
+		name = "一期·【通行证第二周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158776,7 +159359,7 @@ pg.task_data_template = {
 		}
 	},
 	[41021] = {
-		name = "【通行证第二周】任务四",
+		name = "一期·【通行证第二周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -158810,7 +159393,7 @@ pg.task_data_template = {
 		}
 	},
 	[41022] = {
-		name = "【通行证第二周】任务五",
+		name = "一期·【通行证第二周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -158846,7 +159429,7 @@ pg.task_data_template = {
 		}
 	},
 	[41023] = {
-		name = "【通行证第二周】任务六",
+		name = "一期·【通行证第二周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -158880,7 +159463,7 @@ pg.task_data_template = {
 		}
 	},
 	[41024] = {
-		name = "【通行证第二周】任务七",
+		name = "一期·【通行证第二周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -158921,7 +159504,7 @@ pg.task_data_template = {
 		}
 	},
 	[41025] = {
-		name = "【通行证第三周】任务一",
+		name = "一期·【通行证第三周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158957,7 +159540,7 @@ pg.task_data_template = {
 		}
 	},
 	[41026] = {
-		name = "【通行证第三周】任务二",
+		name = "一期·【通行证第三周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -158991,7 +159574,7 @@ pg.task_data_template = {
 		}
 	},
 	[41027] = {
-		name = "【通行证第三周】任务三",
+		name = "一期·【通行证第三周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159025,7 +159608,7 @@ pg.task_data_template = {
 		}
 	},
 	[41028] = {
-		name = "【通行证第三周】任务四",
+		name = "一期·【通行证第三周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159059,7 +159642,7 @@ pg.task_data_template = {
 		}
 	},
 	[41029] = {
-		name = "【通行证第三周】任务五",
+		name = "一期·【通行证第三周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159093,7 +159676,7 @@ pg.task_data_template = {
 		}
 	},
 	[41030] = {
-		name = "【通行证第三周】任务六",
+		name = "一期·【通行证第三周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159127,7 +159710,7 @@ pg.task_data_template = {
 		}
 	},
 	[41031] = {
-		name = "【通行证第三周】任务七",
+		name = "一期·【通行证第三周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -159168,7 +159751,7 @@ pg.task_data_template = {
 		}
 	},
 	[41032] = {
-		name = "【通行证第四周】任务一",
+		name = "一期·【通行证第四周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159202,7 +159785,7 @@ pg.task_data_template = {
 		}
 	},
 	[41033] = {
-		name = "【通行证第四周】任务二",
+		name = "一期·【通行证第四周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159236,7 +159819,7 @@ pg.task_data_template = {
 		}
 	},
 	[41034] = {
-		name = "【通行证第四周】任务三",
+		name = "一期·【通行证第四周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159270,7 +159853,7 @@ pg.task_data_template = {
 		}
 	},
 	[41035] = {
-		name = "【通行证第四周】任务四",
+		name = "一期·【通行证第四周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159304,7 +159887,7 @@ pg.task_data_template = {
 		}
 	},
 	[41036] = {
-		name = "【通行证第四周】任务五",
+		name = "一期·【通行证第四周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159338,7 +159921,7 @@ pg.task_data_template = {
 		}
 	},
 	[41037] = {
-		name = "【通行证第四周】任务六",
+		name = "一期·【通行证第四周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159374,7 +159957,7 @@ pg.task_data_template = {
 		}
 	},
 	[41038] = {
-		name = "【通行证第四周】任务七",
+		name = "一期·【通行证第四周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -159415,7 +159998,7 @@ pg.task_data_template = {
 		}
 	},
 	[41039] = {
-		name = "【通行证第五周】任务一",
+		name = "一期·【通行证第五周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159449,7 +160032,7 @@ pg.task_data_template = {
 		}
 	},
 	[41040] = {
-		name = "【通行证第五周】任务二",
+		name = "一期·【通行证第五周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159488,7 +160071,7 @@ pg.task_data_template = {
 		}
 	},
 	[41041] = {
-		name = "【通行证第五周】任务三",
+		name = "一期·【通行证第五周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159522,7 +160105,7 @@ pg.task_data_template = {
 		}
 	},
 	[41042] = {
-		name = "【通行证第五周】任务四",
+		name = "一期·【通行证第五周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159558,7 +160141,7 @@ pg.task_data_template = {
 		}
 	},
 	[41043] = {
-		name = "【通行证第五周】任务五",
+		name = "一期·【通行证第五周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159592,7 +160175,7 @@ pg.task_data_template = {
 		}
 	},
 	[41044] = {
-		name = "【通行证第五周】任务六",
+		name = "一期·【通行证第五周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159626,7 +160209,7 @@ pg.task_data_template = {
 		}
 	},
 	[41045] = {
-		name = "【通行证第五周】任务七",
+		name = "一期·【通行证第五周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -159667,7 +160250,7 @@ pg.task_data_template = {
 		}
 	},
 	[41046] = {
-		name = "【通行证第六周】任务一",
+		name = "一期·【通行证第六周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159701,7 +160284,7 @@ pg.task_data_template = {
 		}
 	},
 	[41047] = {
-		name = "【通行证第六周】任务二",
+		name = "一期·【通行证第六周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159737,7 +160320,7 @@ pg.task_data_template = {
 		}
 	},
 	[41048] = {
-		name = "【通行证第六周】任务三",
+		name = "一期·【通行证第六周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159771,7 +160354,7 @@ pg.task_data_template = {
 		}
 	},
 	[41049] = {
-		name = "【通行证第六周】任务四",
+		name = "一期·【通行证第六周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159807,7 +160390,7 @@ pg.task_data_template = {
 		}
 	},
 	[41050] = {
-		name = "【通行证第六周】任务五",
+		name = "一期·【通行证第六周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159841,7 +160424,7 @@ pg.task_data_template = {
 		}
 	},
 	[41051] = {
-		name = "【通行证第六周】任务六",
+		name = "一期·【通行证第六周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -159875,7 +160458,7 @@ pg.task_data_template = {
 		}
 	},
 	[41052] = {
-		name = "【通行证第六周】任务七",
+		name = "一期·【通行证第六周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -159916,7 +160499,7 @@ pg.task_data_template = {
 		}
 	},
 	[41053] = {
-		name = "【通行证第七周】任务一",
+		name = "一期·【通行证第七周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159950,7 +160533,7 @@ pg.task_data_template = {
 		}
 	},
 	[41054] = {
-		name = "【通行证第七周】任务二",
+		name = "一期·【通行证第七周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -159984,7 +160567,7 @@ pg.task_data_template = {
 		}
 	},
 	[41055] = {
-		name = "【通行证第七周】任务三",
+		name = "一期·【通行证第七周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160018,7 +160601,7 @@ pg.task_data_template = {
 		}
 	},
 	[41056] = {
-		name = "【通行证第七周】任务四",
+		name = "一期·【通行证第七周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160054,7 +160637,7 @@ pg.task_data_template = {
 		}
 	},
 	[41057] = {
-		name = "【通行证第七周】任务五",
+		name = "一期·【通行证第七周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160088,7 +160671,7 @@ pg.task_data_template = {
 		}
 	},
 	[41058] = {
-		name = "【通行证第七周】任务六",
+		name = "一期·【通行证第七周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160122,7 +160705,7 @@ pg.task_data_template = {
 		}
 	},
 	[41059] = {
-		name = "【通行证第七周】任务七",
+		name = "一期·【通行证第七周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -160163,7 +160746,7 @@ pg.task_data_template = {
 		}
 	},
 	[41060] = {
-		name = "【通行证第八周】任务一",
+		name = "一期·【通行证第八周】任务1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160197,7 +160780,7 @@ pg.task_data_template = {
 		}
 	},
 	[41061] = {
-		name = "【通行证第八周】任务二",
+		name = "一期·【通行证第八周】任务2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160231,7 +160814,7 @@ pg.task_data_template = {
 		}
 	},
 	[41062] = {
-		name = "【通行证第八周】任务三",
+		name = "一期·【通行证第八周】任务3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160267,7 +160850,7 @@ pg.task_data_template = {
 		}
 	},
 	[41063] = {
-		name = "【通行证第八周】任务四",
+		name = "一期·【通行证第八周】任务4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160301,7 +160884,7 @@ pg.task_data_template = {
 		}
 	},
 	[41064] = {
-		name = "【通行证第八周】任务五",
+		name = "一期·【通行证第八周】任务5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160335,7 +160918,7 @@ pg.task_data_template = {
 		}
 	},
 	[41065] = {
-		name = "【通行证第八周】任务六",
+		name = "一期·【通行证第八周】任务6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160369,7 +160952,7 @@ pg.task_data_template = {
 		}
 	},
 	[41066] = {
-		name = "【通行证第八周】任务七",
+		name = "一期·【通行证第八周】任务7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -160410,7 +160993,7 @@ pg.task_data_template = {
 		}
 	},
 	[41067] = {
-		name = "【通行证SP】累计周任务PT1",
+		name = "一期·【通行证SP】累计周任务PT1",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160446,7 +161029,7 @@ pg.task_data_template = {
 		}
 	},
 	[41068] = {
-		name = "【通行证SP】累计周任务PT2",
+		name = "一期·【通行证SP】累计周任务PT2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160482,7 +161065,7 @@ pg.task_data_template = {
 		}
 	},
 	[41069] = {
-		name = "【通行证SP】累计周任务PT3",
+		name = "一期·【通行证SP】累计周任务PT3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160518,7 +161101,7 @@ pg.task_data_template = {
 		}
 	},
 	[41070] = {
-		name = "【通行证SP】累计周任务PT4",
+		name = "一期·【通行证SP】累计周任务PT4",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -160554,7 +161137,7 @@ pg.task_data_template = {
 		}
 	},
 	[41071] = {
-		name = "【通行证SP】累计周任务PT5",
+		name = "一期·【通行证SP】累计周任务PT5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160590,7 +161173,7 @@ pg.task_data_template = {
 		}
 	},
 	[41072] = {
-		name = "【通行证SP】累计周任务PT6",
+		name = "一期·【通行证SP】累计周任务PT6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160626,7 +161209,7 @@ pg.task_data_template = {
 		}
 	},
 	[41073] = {
-		name = "【通行证SP】累计周任务PT7",
+		name = "一期·【通行证SP】累计周任务PT7",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160662,7 +161245,7 @@ pg.task_data_template = {
 		}
 	},
 	[41074] = {
-		name = "【通行证SP】累计周任务PT8",
+		name = "一期·【通行证SP】累计周任务PT8",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160698,7 +161281,7 @@ pg.task_data_template = {
 		}
 	},
 	[41075] = {
-		name = "【通行证SP】累计周任务PT9",
+		name = "一期·【通行证SP】累计周任务PT9",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -160734,7 +161317,7 @@ pg.task_data_template = {
 		}
 	},
 	[41076] = {
-		name = "【通行证SP】累计建造1",
+		name = "一期·【通行证SP】累计建造1",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160768,7 +161351,7 @@ pg.task_data_template = {
 		}
 	},
 	[41077] = {
-		name = "【通行证SP】累计建造2",
+		name = "一期·【通行证SP】累计建造2",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160802,7 +161385,7 @@ pg.task_data_template = {
 		}
 	},
 	[41078] = {
-		name = "【通行证SP】累计建造3",
+		name = "一期·【通行证SP】累计建造3",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160836,7 +161419,7 @@ pg.task_data_template = {
 		}
 	},
 	[41079] = {
-		name = "【通行证SP】累计建造4",
+		name = "一期·【通行证SP】累计建造4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160870,7 +161453,7 @@ pg.task_data_template = {
 		}
 	},
 	[41080] = {
-		name = "【通行证SP】累计建造5",
+		name = "一期·【通行证SP】累计建造5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160904,7 +161487,7 @@ pg.task_data_template = {
 		}
 	},
 	[41081] = {
-		name = "【通行证SP】累计建造6",
+		name = "一期·【通行证SP】累计建造6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160938,7 +161521,7 @@ pg.task_data_template = {
 		}
 	},
 	[41082] = {
-		name = "【通行证SP】累计建造7",
+		name = "一期·【通行证SP】累计建造7",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -160972,7 +161555,7 @@ pg.task_data_template = {
 		}
 	},
 	[41083] = {
-		name = "【通行证SP】累计建造8",
+		name = "一期·【通行证SP】累计建造8",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161006,7 +161589,7 @@ pg.task_data_template = {
 		}
 	},
 	[41084] = {
-		name = "【通行证SP】累计消耗石油1",
+		name = "一期·【通行证SP】累计消耗石油1",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161040,7 +161623,7 @@ pg.task_data_template = {
 		}
 	},
 	[41085] = {
-		name = "【通行证SP】累计消耗石油2",
+		name = "一期·【通行证SP】累计消耗石油2",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161074,7 +161657,7 @@ pg.task_data_template = {
 		}
 	},
 	[41086] = {
-		name = "【通行证SP】累计消耗石油3",
+		name = "一期·【通行证SP】累计消耗石油3",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161108,7 +161691,7 @@ pg.task_data_template = {
 		}
 	},
 	[41087] = {
-		name = "【通行证SP】累计消耗石油4",
+		name = "一期·【通行证SP】累计消耗石油4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161142,7 +161725,7 @@ pg.task_data_template = {
 		}
 	},
 	[41088] = {
-		name = "【通行证SP】累计消耗石油5",
+		name = "一期·【通行证SP】累计消耗石油5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161176,7 +161759,7 @@ pg.task_data_template = {
 		}
 	},
 	[41089] = {
-		name = "【通行证SP】累计消耗石油6",
+		name = "一期·【通行证SP】累计消耗石油6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161210,7 +161793,7 @@ pg.task_data_template = {
 		}
 	},
 	[41090] = {
-		name = "【通行证SP】累计消耗石油7",
+		name = "一期·【通行证SP】累计消耗石油7",
 		guild_coin_award = 0,
 		award = 100000,
 		type = 6,
@@ -161244,7 +161827,7 @@ pg.task_data_template = {
 		}
 	},
 	[41091] = {
-		name = "【通行证SP】累计消耗石油8",
+		name = "一期·【通行证SP】累计消耗石油8",
 		guild_coin_award = 0,
 		award = 100000,
 		type = 6,
@@ -161278,7 +161861,7 @@ pg.task_data_template = {
 		}
 	},
 	[41092] = {
-		name = "【通行证SP】累计消耗石油9",
+		name = "一期·【通行证SP】累计消耗石油9",
 		guild_coin_award = 0,
 		award = 100000,
 		type = 6,
@@ -161312,7 +161895,7 @@ pg.task_data_template = {
 		}
 	},
 	[41093] = {
-		name = "【通行证SP】累计消耗石油10",
+		name = "一期·【通行证SP】累计消耗石油10",
 		guild_coin_award = 0,
 		award = 100000,
 		type = 6,
@@ -161346,7 +161929,7 @@ pg.task_data_template = {
 		}
 	},
 	[41094] = {
-		name = "【通行证SP】累计获取舰船经验1",
+		name = "一期·【通行证SP】累计获取舰船经验1",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161382,7 +161965,7 @@ pg.task_data_template = {
 		}
 	},
 	[41095] = {
-		name = "【通行证SP】累计获取舰船经验2",
+		name = "一期·【通行证SP】累计获取舰船经验2",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161418,7 +162001,7 @@ pg.task_data_template = {
 		}
 	},
 	[41096] = {
-		name = "【通行证SP】累计获取舰船经验3",
+		name = "一期·【通行证SP】累计获取舰船经验3",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161454,7 +162037,7 @@ pg.task_data_template = {
 		}
 	},
 	[41097] = {
-		name = "【通行证SP】累计获取舰船经验4",
+		name = "一期·【通行证SP】累计获取舰船经验4",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161490,7 +162073,7 @@ pg.task_data_template = {
 		}
 	},
 	[41098] = {
-		name = "【通行证SP】累计获取舰船经验5",
+		name = "一期·【通行证SP】累计获取舰船经验5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161526,7 +162109,7 @@ pg.task_data_template = {
 		}
 	},
 	[41099] = {
-		name = "【通行证SP】累计获取舰船经验6",
+		name = "一期·【通行证SP】累计获取舰船经验6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161562,7 +162145,7 @@ pg.task_data_template = {
 		}
 	},
 	[41100] = {
-		name = "【通行证SP】累计获取舰船经验7",
+		name = "一期·【通行证SP】累计获取舰船经验7",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161598,7 +162181,7 @@ pg.task_data_template = {
 		}
 	},
 	[41101] = {
-		name = "【通行证SP】累计获取舰船经验8",
+		name = "一期·【通行证SP】累计获取舰船经验8",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161634,7 +162217,7 @@ pg.task_data_template = {
 		}
 	},
 	[41102] = {
-		name = "【通行证SP】累计获取舰船经验10",
+		name = "一期·【通行证SP】累计获取舰船经验9",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -161670,7 +162253,7 @@ pg.task_data_template = {
 		}
 	},
 	[41103] = {
-		name = "【通行证SP】累计获取舰船经验12",
+		name = "一期·【通行证SP】累计获取舰船经验10",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -161706,7 +162289,7 @@ pg.task_data_template = {
 		}
 	},
 	[41104] = {
-		name = "【通行证SP】累计登陆1",
+		name = "一期·【通行证SP】累计登陆1",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161740,7 +162323,7 @@ pg.task_data_template = {
 		}
 	},
 	[41105] = {
-		name = "【通行证SP】累计登陆2",
+		name = "一期·【通行证SP】累计登陆2",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -161774,7 +162357,7 @@ pg.task_data_template = {
 		}
 	},
 	[41106] = {
-		name = "【通行证SP】累计登陆4",
+		name = "一期·【通行证SP】累计登陆3",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -161808,7 +162391,7 @@ pg.task_data_template = {
 		}
 	},
 	[41107] = {
-		name = "【通行证SP】累计登陆5",
+		name = "一期·【通行证SP】累计登陆4",
 		guild_coin_award = 0,
 		award = 100001,
 		type = 6,
@@ -161842,7 +162425,7 @@ pg.task_data_template = {
 		}
 	},
 	[41108] = {
-		name = "【通行证SP】累计登陆7",
+		name = "一期·【通行证SP】累计登陆5",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161876,7 +162459,7 @@ pg.task_data_template = {
 		}
 	},
 	[41109] = {
-		name = "【通行证SP】累计登陆8",
+		name = "一期·【通行证SP】累计登陆6",
 		guild_coin_award = 0,
 		award = 100002,
 		type = 6,
@@ -161910,7 +162493,7 @@ pg.task_data_template = {
 		}
 	},
 	[41110] = {
-		name = "【通行证SP】累计登陆9",
+		name = "一期·【通行证SP】累计登陆7",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -161944,7 +162527,7 @@ pg.task_data_template = {
 		}
 	},
 	[41111] = {
-		name = "【通行证SP】累计登陆10",
+		name = "一期·【通行证SP】累计登陆8",
 		guild_coin_award = 0,
 		award = 100003,
 		type = 6,
@@ -161978,7 +162561,7 @@ pg.task_data_template = {
 		}
 	},
 	[41112] = {
-		name = "【通行证第一周】任务一",
+		name = "二期·【通行证第一周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162014,7 +162597,7 @@ pg.task_data_template = {
 		}
 	},
 	[41113] = {
-		name = "【通行证第一周】任务二",
+		name = "二期·【通行证第一周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162048,7 +162631,7 @@ pg.task_data_template = {
 		}
 	},
 	[41114] = {
-		name = "【通行证第一周】任务三",
+		name = "二期·【通行证第一周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162082,7 +162665,7 @@ pg.task_data_template = {
 		}
 	},
 	[41115] = {
-		name = "【通行证第一周】任务四",
+		name = "二期·【通行证第一周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162116,7 +162699,7 @@ pg.task_data_template = {
 		}
 	},
 	[41116] = {
-		name = "【通行证第一周】任务五",
+		name = "二期·【通行证第一周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162155,7 +162738,7 @@ pg.task_data_template = {
 		}
 	},
 	[41117] = {
-		name = "【通行证第一周】任务六",
+		name = "二期·【通行证第一周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162189,7 +162772,7 @@ pg.task_data_template = {
 		}
 	},
 	[41118] = {
-		name = "【通行证第一周】任务七",
+		name = "二期·【通行证第一周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -162230,7 +162813,7 @@ pg.task_data_template = {
 		}
 	},
 	[41119] = {
-		name = "【通行证第二周】任务一",
+		name = "二期·【通行证第二周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162266,7 +162849,7 @@ pg.task_data_template = {
 		}
 	},
 	[41120] = {
-		name = "【通行证第二周】任务二",
+		name = "二期·【通行证第二周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162300,7 +162883,7 @@ pg.task_data_template = {
 		}
 	},
 	[41121] = {
-		name = "【通行证第二周】任务三",
+		name = "二期·【通行证第二周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162334,7 +162917,7 @@ pg.task_data_template = {
 		}
 	},
 	[41122] = {
-		name = "【通行证第二周】任务四",
+		name = "二期·【通行证第二周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162368,7 +162951,7 @@ pg.task_data_template = {
 		}
 	},
 	[41123] = {
-		name = "【通行证第二周】任务五",
+		name = "二期·【通行证第二周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162404,7 +162987,7 @@ pg.task_data_template = {
 		}
 	},
 	[41124] = {
-		name = "【通行证第二周】任务六",
+		name = "二期·【通行证第二周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162438,7 +163021,7 @@ pg.task_data_template = {
 		}
 	},
 	[41125] = {
-		name = "【通行证第二周】任务七",
+		name = "二期·【通行证第二周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -162479,7 +163062,7 @@ pg.task_data_template = {
 		}
 	},
 	[41126] = {
-		name = "【通行证第三周】任务一",
+		name = "二期·【通行证第三周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162515,7 +163098,7 @@ pg.task_data_template = {
 		}
 	},
 	[41127] = {
-		name = "【通行证第三周】任务二",
+		name = "二期·【通行证第三周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162549,7 +163132,7 @@ pg.task_data_template = {
 		}
 	},
 	[41128] = {
-		name = "【通行证第三周】任务三",
+		name = "二期·【通行证第三周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162583,7 +163166,7 @@ pg.task_data_template = {
 		}
 	},
 	[41129] = {
-		name = "【通行证第三周】任务四",
+		name = "二期·【通行证第三周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162617,7 +163200,7 @@ pg.task_data_template = {
 		}
 	},
 	[41130] = {
-		name = "【通行证第三周】任务五",
+		name = "二期·【通行证第三周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162651,7 +163234,7 @@ pg.task_data_template = {
 		}
 	},
 	[41131] = {
-		name = "【通行证第三周】任务六",
+		name = "二期·【通行证第三周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162685,7 +163268,7 @@ pg.task_data_template = {
 		}
 	},
 	[41132] = {
-		name = "【通行证第三周】任务七",
+		name = "二期·【通行证第三周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -162726,7 +163309,7 @@ pg.task_data_template = {
 		}
 	},
 	[41133] = {
-		name = "【通行证第四周】任务一",
+		name = "二期·【通行证第四周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162760,7 +163343,7 @@ pg.task_data_template = {
 		}
 	},
 	[41134] = {
-		name = "【通行证第四周】任务二",
+		name = "二期·【通行证第四周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162794,7 +163377,7 @@ pg.task_data_template = {
 		}
 	},
 	[41135] = {
-		name = "【通行证第四周】任务三",
+		name = "二期·【通行证第四周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -162828,7 +163411,7 @@ pg.task_data_template = {
 		}
 	},
 	[41136] = {
-		name = "【通行证第四周】任务四",
+		name = "二期·【通行证第四周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162862,7 +163445,7 @@ pg.task_data_template = {
 		}
 	},
 	[41137] = {
-		name = "【通行证第四周】任务五",
+		name = "二期·【通行证第四周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162896,7 +163479,7 @@ pg.task_data_template = {
 		}
 	},
 	[41138] = {
-		name = "【通行证第四周】任务六",
+		name = "二期·【通行证第四周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -162932,7 +163515,7 @@ pg.task_data_template = {
 		}
 	},
 	[41139] = {
-		name = "【通行证第四周】任务七",
+		name = "二期·【通行证第四周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -162973,7 +163556,7 @@ pg.task_data_template = {
 		}
 	},
 	[41140] = {
-		name = "【通行证第五周】任务一",
+		name = "二期·【通行证第五周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163007,7 +163590,7 @@ pg.task_data_template = {
 		}
 	},
 	[41141] = {
-		name = "【通行证第五周】任务二",
+		name = "二期·【通行证第五周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163046,7 +163629,7 @@ pg.task_data_template = {
 		}
 	},
 	[41142] = {
-		name = "【通行证第五周】任务三",
+		name = "二期·【通行证第五周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163080,7 +163663,7 @@ pg.task_data_template = {
 		}
 	},
 	[41143] = {
-		name = "【通行证第五周】任务四",
+		name = "二期·【通行证第五周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163116,7 +163699,7 @@ pg.task_data_template = {
 		}
 	},
 	[41144] = {
-		name = "【通行证第五周】任务五",
+		name = "二期·【通行证第五周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163150,7 +163733,7 @@ pg.task_data_template = {
 		}
 	},
 	[41145] = {
-		name = "【通行证第五周】任务六",
+		name = "二期·【通行证第五周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163184,7 +163767,7 @@ pg.task_data_template = {
 		}
 	},
 	[41146] = {
-		name = "【通行证第五周】任务七",
+		name = "二期·【通行证第五周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -163225,7 +163808,7 @@ pg.task_data_template = {
 		}
 	},
 	[41147] = {
-		name = "【通行证第六周】任务一",
+		name = "二期·【通行证第六周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163259,7 +163842,7 @@ pg.task_data_template = {
 		}
 	},
 	[41148] = {
-		name = "【通行证第六周】任务二",
+		name = "二期·【通行证第六周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163295,7 +163878,7 @@ pg.task_data_template = {
 		}
 	},
 	[41149] = {
-		name = "【通行证第六周】任务三",
+		name = "二期·【通行证第六周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163329,7 +163912,7 @@ pg.task_data_template = {
 		}
 	},
 	[41150] = {
-		name = "【通行证第六周】任务四",
+		name = "二期·【通行证第六周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163365,7 +163948,7 @@ pg.task_data_template = {
 		}
 	},
 	[41151] = {
-		name = "【通行证第六周】任务五",
+		name = "二期·【通行证第六周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163399,7 +163982,7 @@ pg.task_data_template = {
 		}
 	},
 	[41152] = {
-		name = "【通行证第六周】任务六",
+		name = "二期·【通行证第六周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163433,7 +164016,7 @@ pg.task_data_template = {
 		}
 	},
 	[41153] = {
-		name = "【通行证第六周】任务七",
+		name = "二期·【通行证第六周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -163474,7 +164057,7 @@ pg.task_data_template = {
 		}
 	},
 	[41154] = {
-		name = "【通行证第七周】任务一",
+		name = "二期·【通行证第七周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163508,7 +164091,7 @@ pg.task_data_template = {
 		}
 	},
 	[41155] = {
-		name = "【通行证第七周】任务二",
+		name = "二期·【通行证第七周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163542,7 +164125,7 @@ pg.task_data_template = {
 		}
 	},
 	[41156] = {
-		name = "【通行证第七周】任务三",
+		name = "二期·【通行证第七周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163576,7 +164159,7 @@ pg.task_data_template = {
 		}
 	},
 	[41157] = {
-		name = "【通行证第七周】任务四",
+		name = "二期·【通行证第七周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163612,7 +164195,7 @@ pg.task_data_template = {
 		}
 	},
 	[41158] = {
-		name = "【通行证第七周】任务五",
+		name = "二期·【通行证第七周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163646,7 +164229,7 @@ pg.task_data_template = {
 		}
 	},
 	[41159] = {
-		name = "【通行证第七周】任务六",
+		name = "二期·【通行证第七周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163680,7 +164263,7 @@ pg.task_data_template = {
 		}
 	},
 	[41160] = {
-		name = "【通行证第七周】任务七",
+		name = "二期·【通行证第七周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -163721,7 +164304,7 @@ pg.task_data_template = {
 		}
 	},
 	[41161] = {
-		name = "【通行证第八周】任务一",
+		name = "二期·【通行证第八周】任务1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163755,7 +164338,7 @@ pg.task_data_template = {
 		}
 	},
 	[41162] = {
-		name = "【通行证第八周】任务二",
+		name = "二期·【通行证第八周】任务2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163789,7 +164372,7 @@ pg.task_data_template = {
 		}
 	},
 	[41163] = {
-		name = "【通行证第八周】任务三",
+		name = "二期·【通行证第八周】任务3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -163825,7 +164408,7 @@ pg.task_data_template = {
 		}
 	},
 	[41164] = {
-		name = "【通行证第八周】任务四",
+		name = "二期·【通行证第八周】任务4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163859,7 +164442,7 @@ pg.task_data_template = {
 		}
 	},
 	[41165] = {
-		name = "【通行证第八周】任务五",
+		name = "二期·【通行证第八周】任务5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163893,7 +164476,7 @@ pg.task_data_template = {
 		}
 	},
 	[41166] = {
-		name = "【通行证第八周】任务六",
+		name = "二期·【通行证第八周】任务6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -163927,7 +164510,7 @@ pg.task_data_template = {
 		}
 	},
 	[41167] = {
-		name = "【通行证第八周】任务七",
+		name = "二期·【通行证第八周】任务7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -163968,7 +164551,7 @@ pg.task_data_template = {
 		}
 	},
 	[41168] = {
-		name = "【通行证SP】累计周任务PT1",
+		name = "二期·【通行证SP】累计周任务PT1",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -164004,7 +164587,7 @@ pg.task_data_template = {
 		}
 	},
 	[41169] = {
-		name = "【通行证SP】累计周任务PT2",
+		name = "二期·【通行证SP】累计周任务PT2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -164040,7 +164623,7 @@ pg.task_data_template = {
 		}
 	},
 	[41170] = {
-		name = "【通行证SP】累计周任务PT3",
+		name = "二期·【通行证SP】累计周任务PT3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -164076,7 +164659,7 @@ pg.task_data_template = {
 		}
 	},
 	[41171] = {
-		name = "【通行证SP】累计周任务PT4",
+		name = "二期·【通行证SP】累计周任务PT4",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -164112,7 +164695,7 @@ pg.task_data_template = {
 		}
 	},
 	[41172] = {
-		name = "【通行证SP】累计周任务PT5",
+		name = "二期·【通行证SP】累计周任务PT5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164148,7 +164731,7 @@ pg.task_data_template = {
 		}
 	},
 	[41173] = {
-		name = "【通行证SP】累计周任务PT6",
+		name = "二期·【通行证SP】累计周任务PT6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164184,7 +164767,7 @@ pg.task_data_template = {
 		}
 	},
 	[41174] = {
-		name = "【通行证SP】累计周任务PT7",
+		name = "二期·【通行证SP】累计周任务PT7",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164220,7 +164803,7 @@ pg.task_data_template = {
 		}
 	},
 	[41175] = {
-		name = "【通行证SP】累计周任务PT8",
+		name = "二期·【通行证SP】累计周任务PT8",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164256,7 +164839,7 @@ pg.task_data_template = {
 		}
 	},
 	[41176] = {
-		name = "【通行证SP】累计周任务PT9",
+		name = "二期·【通行证SP】累计周任务PT9",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -164292,7 +164875,7 @@ pg.task_data_template = {
 		}
 	},
 	[41177] = {
-		name = "【通行证SP】累计建造1",
+		name = "二期·【通行证SP】累计建造1",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164326,7 +164909,7 @@ pg.task_data_template = {
 		}
 	},
 	[41178] = {
-		name = "【通行证SP】累计建造2",
+		name = "二期·【通行证SP】累计建造2",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164360,7 +164943,7 @@ pg.task_data_template = {
 		}
 	},
 	[41179] = {
-		name = "【通行证SP】累计建造3",
+		name = "二期·【通行证SP】累计建造3",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164394,7 +164977,7 @@ pg.task_data_template = {
 		}
 	},
 	[41180] = {
-		name = "【通行证SP】累计建造4",
+		name = "二期·【通行证SP】累计建造4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164428,7 +165011,7 @@ pg.task_data_template = {
 		}
 	},
 	[41181] = {
-		name = "【通行证SP】累计建造5",
+		name = "二期·【通行证SP】累计建造5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164462,7 +165045,7 @@ pg.task_data_template = {
 		}
 	},
 	[41182] = {
-		name = "【通行证SP】累计建造6",
+		name = "二期·【通行证SP】累计建造6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164496,7 +165079,7 @@ pg.task_data_template = {
 		}
 	},
 	[41183] = {
-		name = "【通行证SP】累计建造7",
+		name = "二期·【通行证SP】累计建造7",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164530,7 +165113,7 @@ pg.task_data_template = {
 		}
 	},
 	[41184] = {
-		name = "【通行证SP】累计建造8",
+		name = "二期·【通行证SP】累计建造8",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164564,7 +165147,7 @@ pg.task_data_template = {
 		}
 	},
 	[41185] = {
-		name = "【通行证SP】累计消耗石油1",
+		name = "二期·【通行证SP】累计消耗石油1",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164598,7 +165181,7 @@ pg.task_data_template = {
 		}
 	},
 	[41186] = {
-		name = "【通行证SP】累计消耗石油2",
+		name = "二期·【通行证SP】累计消耗石油2",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164632,7 +165215,7 @@ pg.task_data_template = {
 		}
 	},
 	[41187] = {
-		name = "【通行证SP】累计消耗石油3",
+		name = "二期·【通行证SP】累计消耗石油3",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164666,7 +165249,7 @@ pg.task_data_template = {
 		}
 	},
 	[41188] = {
-		name = "【通行证SP】累计消耗石油4",
+		name = "二期·【通行证SP】累计消耗石油4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164700,7 +165283,7 @@ pg.task_data_template = {
 		}
 	},
 	[41189] = {
-		name = "【通行证SP】累计消耗石油5",
+		name = "二期·【通行证SP】累计消耗石油5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164734,7 +165317,7 @@ pg.task_data_template = {
 		}
 	},
 	[41190] = {
-		name = "【通行证SP】累计消耗石油6",
+		name = "二期·【通行证SP】累计消耗石油6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164768,7 +165351,7 @@ pg.task_data_template = {
 		}
 	},
 	[41191] = {
-		name = "【通行证SP】累计消耗石油7",
+		name = "二期·【通行证SP】累计消耗石油7",
 		guild_coin_award = 0,
 		award = 100404,
 		type = 6,
@@ -164802,7 +165385,7 @@ pg.task_data_template = {
 		}
 	},
 	[41192] = {
-		name = "【通行证SP】累计消耗石油8",
+		name = "二期·【通行证SP】累计消耗石油8",
 		guild_coin_award = 0,
 		award = 100404,
 		type = 6,
@@ -164836,7 +165419,7 @@ pg.task_data_template = {
 		}
 	},
 	[41193] = {
-		name = "【通行证SP】累计消耗石油9",
+		name = "二期·【通行证SP】累计消耗石油9",
 		guild_coin_award = 0,
 		award = 100404,
 		type = 6,
@@ -164870,7 +165453,7 @@ pg.task_data_template = {
 		}
 	},
 	[41194] = {
-		name = "【通行证SP】累计消耗石油10",
+		name = "二期·【通行证SP】累计消耗石油10",
 		guild_coin_award = 0,
 		award = 100404,
 		type = 6,
@@ -164904,7 +165487,7 @@ pg.task_data_template = {
 		}
 	},
 	[41195] = {
-		name = "【通行证SP】累计获取舰船经验1",
+		name = "二期·【通行证SP】累计获取舰船经验1",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164940,7 +165523,7 @@ pg.task_data_template = {
 		}
 	},
 	[41196] = {
-		name = "【通行证SP】累计获取舰船经验2",
+		name = "二期·【通行证SP】累计获取舰船经验2",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -164976,7 +165559,7 @@ pg.task_data_template = {
 		}
 	},
 	[41197] = {
-		name = "【通行证SP】累计获取舰船经验3",
+		name = "二期·【通行证SP】累计获取舰船经验3",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165012,7 +165595,7 @@ pg.task_data_template = {
 		}
 	},
 	[41198] = {
-		name = "【通行证SP】累计获取舰船经验4",
+		name = "二期·【通行证SP】累计获取舰船经验4",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165048,7 +165631,7 @@ pg.task_data_template = {
 		}
 	},
 	[41199] = {
-		name = "【通行证SP】累计获取舰船经验5",
+		name = "二期·【通行证SP】累计获取舰船经验5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165084,7 +165667,7 @@ pg.task_data_template = {
 		}
 	},
 	[41200] = {
-		name = "【通行证SP】累计获取舰船经验6",
+		name = "二期·【通行证SP】累计获取舰船经验6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165120,7 +165703,7 @@ pg.task_data_template = {
 		}
 	},
 	[41201] = {
-		name = "【通行证SP】累计获取舰船经验7",
+		name = "二期·【通行证SP】累计获取舰船经验7",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165156,7 +165739,7 @@ pg.task_data_template = {
 		}
 	},
 	[41202] = {
-		name = "【通行证SP】累计获取舰船经验8",
+		name = "二期·【通行证SP】累计获取舰船经验8",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165192,7 +165775,7 @@ pg.task_data_template = {
 		}
 	},
 	[41203] = {
-		name = "【通行证SP】累计获取舰船经验10",
+		name = "二期·【通行证SP】累计获取舰船经验9",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -165228,7 +165811,7 @@ pg.task_data_template = {
 		}
 	},
 	[41204] = {
-		name = "【通行证SP】累计获取舰船经验12",
+		name = "二期·【通行证SP】累计获取舰船经验10",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -165264,7 +165847,7 @@ pg.task_data_template = {
 		}
 	},
 	[41205] = {
-		name = "【通行证SP】累计登陆1",
+		name = "二期·【通行证SP】累计登陆1",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165298,7 +165881,7 @@ pg.task_data_template = {
 		}
 	},
 	[41206] = {
-		name = "【通行证SP】累计登陆2",
+		name = "二期·【通行证SP】累计登陆2",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -165332,7 +165915,7 @@ pg.task_data_template = {
 		}
 	},
 	[41207] = {
-		name = "【通行证SP】累计登陆4",
+		name = "二期·【通行证SP】累计登陆3",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -165366,7 +165949,7 @@ pg.task_data_template = {
 		}
 	},
 	[41208] = {
-		name = "【通行证SP】累计登陆5",
+		name = "二期·【通行证SP】累计登陆4",
 		guild_coin_award = 0,
 		award = 100405,
 		type = 6,
@@ -165400,7 +165983,7 @@ pg.task_data_template = {
 		}
 	},
 	[41209] = {
-		name = "【通行证SP】累计登陆7",
+		name = "二期·【通行证SP】累计登陆5",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165434,7 +166017,7 @@ pg.task_data_template = {
 		}
 	},
 	[41210] = {
-		name = "【通行证SP】累计登陆8",
+		name = "二期·【通行证SP】累计登陆6",
 		guild_coin_award = 0,
 		award = 100406,
 		type = 6,
@@ -165468,7 +166051,7 @@ pg.task_data_template = {
 		}
 	},
 	[41211] = {
-		name = "【通行证SP】累计登陆9",
+		name = "二期·【通行证SP】累计登陆7",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -165502,7 +166085,7 @@ pg.task_data_template = {
 		}
 	},
 	[41212] = {
-		name = "【通行证SP】累计登陆10",
+		name = "二期·【通行证SP】累计登陆8",
 		guild_coin_award = 0,
 		award = 100407,
 		type = 6,
@@ -165536,7 +166119,7 @@ pg.task_data_template = {
 		}
 	},
 	[41213] = {
-		name = "【通行证第一周】任务一",
+		name = "三期·【通行证第一周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -165572,7 +166155,7 @@ pg.task_data_template = {
 		}
 	},
 	[41214] = {
-		name = "【通行证第一周】任务二",
+		name = "三期·【通行证第一周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -165606,7 +166189,7 @@ pg.task_data_template = {
 		}
 	},
 	[41215] = {
-		name = "【通行证第一周】任务三",
+		name = "三期·【通行证第一周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -165640,7 +166223,7 @@ pg.task_data_template = {
 		}
 	},
 	[41216] = {
-		name = "【通行证第一周】任务四",
+		name = "三期·【通行证第一周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -165674,7 +166257,7 @@ pg.task_data_template = {
 		}
 	},
 	[41217] = {
-		name = "【通行证第一周】任务五",
+		name = "三期·【通行证第一周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -165713,7 +166296,7 @@ pg.task_data_template = {
 		}
 	},
 	[41218] = {
-		name = "【通行证第一周】任务六",
+		name = "三期·【通行证第一周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -165747,7 +166330,7 @@ pg.task_data_template = {
 		}
 	},
 	[41219] = {
-		name = "【通行证第一周】任务七",
+		name = "三期·【通行证第一周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -165788,7 +166371,7 @@ pg.task_data_template = {
 		}
 	},
 	[41220] = {
-		name = "【通行证第二周】任务一",
+		name = "三期·【通行证第二周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -165824,7 +166407,7 @@ pg.task_data_template = {
 		}
 	},
 	[41221] = {
-		name = "【通行证第二周】任务二",
+		name = "三期·【通行证第二周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -165858,7 +166441,7 @@ pg.task_data_template = {
 		}
 	},
 	[41222] = {
-		name = "【通行证第二周】任务三",
+		name = "三期·【通行证第二周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -165892,7 +166475,7 @@ pg.task_data_template = {
 		}
 	},
 	[41223] = {
-		name = "【通行证第二周】任务四",
+		name = "三期·【通行证第二周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -165926,7 +166509,7 @@ pg.task_data_template = {
 		}
 	},
 	[41224] = {
-		name = "【通行证第二周】任务五",
+		name = "三期·【通行证第二周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -165962,7 +166545,7 @@ pg.task_data_template = {
 		}
 	},
 	[41225] = {
-		name = "【通行证第二周】任务六",
+		name = "三期·【通行证第二周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -165996,7 +166579,7 @@ pg.task_data_template = {
 		}
 	},
 	[41226] = {
-		name = "【通行证第二周】任务七",
+		name = "三期·【通行证第二周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -166037,7 +166620,7 @@ pg.task_data_template = {
 		}
 	},
 	[41227] = {
-		name = "【通行证第三周】任务一",
+		name = "三期·【通行证第三周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166073,7 +166656,7 @@ pg.task_data_template = {
 		}
 	},
 	[41228] = {
-		name = "【通行证第三周】任务二",
+		name = "三期·【通行证第三周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166107,7 +166690,7 @@ pg.task_data_template = {
 		}
 	},
 	[41229] = {
-		name = "【通行证第三周】任务三",
+		name = "三期·【通行证第三周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166141,7 +166724,7 @@ pg.task_data_template = {
 		}
 	},
 	[41230] = {
-		name = "【通行证第三周】任务四",
+		name = "三期·【通行证第三周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166175,7 +166758,7 @@ pg.task_data_template = {
 		}
 	},
 	[41231] = {
-		name = "【通行证第三周】任务五",
+		name = "三期·【通行证第三周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166209,7 +166792,7 @@ pg.task_data_template = {
 		}
 	},
 	[41232] = {
-		name = "【通行证第三周】任务六",
+		name = "三期·【通行证第三周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166243,7 +166826,7 @@ pg.task_data_template = {
 		}
 	},
 	[41233] = {
-		name = "【通行证第三周】任务七",
+		name = "三期·【通行证第三周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -166284,7 +166867,7 @@ pg.task_data_template = {
 		}
 	},
 	[41234] = {
-		name = "【通行证第四周】任务一",
+		name = "三期·【通行证第四周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166318,7 +166901,7 @@ pg.task_data_template = {
 		}
 	},
 	[41235] = {
-		name = "【通行证第四周】任务二",
+		name = "三期·【通行证第四周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166352,7 +166935,7 @@ pg.task_data_template = {
 		}
 	},
 	[41236] = {
-		name = "【通行证第四周】任务三",
+		name = "三期·【通行证第四周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166386,7 +166969,7 @@ pg.task_data_template = {
 		}
 	},
 	[41237] = {
-		name = "【通行证第四周】任务四",
+		name = "三期·【通行证第四周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166420,7 +167003,7 @@ pg.task_data_template = {
 		}
 	},
 	[41238] = {
-		name = "【通行证第四周】任务五",
+		name = "三期·【通行证第四周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166454,7 +167037,7 @@ pg.task_data_template = {
 		}
 	},
 	[41239] = {
-		name = "【通行证第四周】任务六",
+		name = "三期·【通行证第四周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166490,7 +167073,7 @@ pg.task_data_template = {
 		}
 	},
 	[41240] = {
-		name = "【通行证第四周】任务七",
+		name = "三期·【通行证第四周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -166531,7 +167114,7 @@ pg.task_data_template = {
 		}
 	},
 	[41241] = {
-		name = "【通行证第五周】任务一",
+		name = "三期·【通行证第五周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166565,7 +167148,7 @@ pg.task_data_template = {
 		}
 	},
 	[41242] = {
-		name = "【通行证第五周】任务二",
+		name = "三期·【通行证第五周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166604,7 +167187,7 @@ pg.task_data_template = {
 		}
 	},
 	[41243] = {
-		name = "【通行证第五周】任务三",
+		name = "三期·【通行证第五周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166638,7 +167221,7 @@ pg.task_data_template = {
 		}
 	},
 	[41244] = {
-		name = "【通行证第五周】任务四",
+		name = "三期·【通行证第五周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166674,7 +167257,7 @@ pg.task_data_template = {
 		}
 	},
 	[41245] = {
-		name = "【通行证第五周】任务五",
+		name = "三期·【通行证第五周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166708,7 +167291,7 @@ pg.task_data_template = {
 		}
 	},
 	[41246] = {
-		name = "【通行证第五周】任务六",
+		name = "三期·【通行证第五周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166742,7 +167325,7 @@ pg.task_data_template = {
 		}
 	},
 	[41247] = {
-		name = "【通行证第五周】任务七",
+		name = "三期·【通行证第五周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -166783,7 +167366,7 @@ pg.task_data_template = {
 		}
 	},
 	[41248] = {
-		name = "【通行证第六周】任务一",
+		name = "三期·【通行证第六周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166817,7 +167400,7 @@ pg.task_data_template = {
 		}
 	},
 	[41249] = {
-		name = "【通行证第六周】任务二",
+		name = "三期·【通行证第六周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166853,7 +167436,7 @@ pg.task_data_template = {
 		}
 	},
 	[41250] = {
-		name = "【通行证第六周】任务三",
+		name = "三期·【通行证第六周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -166887,7 +167470,7 @@ pg.task_data_template = {
 		}
 	},
 	[41251] = {
-		name = "【通行证第六周】任务四",
+		name = "三期·【通行证第六周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166923,7 +167506,7 @@ pg.task_data_template = {
 		}
 	},
 	[41252] = {
-		name = "【通行证第六周】任务五",
+		name = "三期·【通行证第六周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166957,7 +167540,7 @@ pg.task_data_template = {
 		}
 	},
 	[41253] = {
-		name = "【通行证第六周】任务六",
+		name = "三期·【通行证第六周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -166991,7 +167574,7 @@ pg.task_data_template = {
 		}
 	},
 	[41254] = {
-		name = "【通行证第六周】任务七",
+		name = "三期·【通行证第六周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -167032,7 +167615,7 @@ pg.task_data_template = {
 		}
 	},
 	[41255] = {
-		name = "【通行证第七周】任务一",
+		name = "三期·【通行证第七周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167066,7 +167649,7 @@ pg.task_data_template = {
 		}
 	},
 	[41256] = {
-		name = "【通行证第七周】任务二",
+		name = "三期·【通行证第七周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167100,7 +167683,7 @@ pg.task_data_template = {
 		}
 	},
 	[41257] = {
-		name = "【通行证第七周】任务三",
+		name = "三期·【通行证第七周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167134,7 +167717,7 @@ pg.task_data_template = {
 		}
 	},
 	[41258] = {
-		name = "【通行证第七周】任务四",
+		name = "三期·【通行证第七周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167170,7 +167753,7 @@ pg.task_data_template = {
 		}
 	},
 	[41259] = {
-		name = "【通行证第七周】任务五",
+		name = "三期·【通行证第七周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167204,7 +167787,7 @@ pg.task_data_template = {
 		}
 	},
 	[41260] = {
-		name = "【通行证第七周】任务六",
+		name = "三期·【通行证第七周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167238,7 +167821,7 @@ pg.task_data_template = {
 		}
 	},
 	[41261] = {
-		name = "【通行证第七周】任务七",
+		name = "三期·【通行证第七周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -167279,7 +167862,7 @@ pg.task_data_template = {
 		}
 	},
 	[41262] = {
-		name = "【通行证第八周】任务一",
+		name = "三期·【通行证第八周】任务1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167313,7 +167896,7 @@ pg.task_data_template = {
 		}
 	},
 	[41263] = {
-		name = "【通行证第八周】任务二",
+		name = "三期·【通行证第八周】任务2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167347,7 +167930,7 @@ pg.task_data_template = {
 		}
 	},
 	[41264] = {
-		name = "【通行证第八周】任务三",
+		name = "三期·【通行证第八周】任务3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167383,7 +167966,7 @@ pg.task_data_template = {
 		}
 	},
 	[41265] = {
-		name = "【通行证第八周】任务四",
+		name = "三期·【通行证第八周】任务4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167417,7 +168000,7 @@ pg.task_data_template = {
 		}
 	},
 	[41266] = {
-		name = "【通行证第八周】任务五",
+		name = "三期·【通行证第八周】任务5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167451,7 +168034,7 @@ pg.task_data_template = {
 		}
 	},
 	[41267] = {
-		name = "【通行证第八周】任务六",
+		name = "三期·【通行证第八周】任务6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167485,7 +168068,7 @@ pg.task_data_template = {
 		}
 	},
 	[41268] = {
-		name = "【通行证第八周】任务七",
+		name = "三期·【通行证第八周】任务7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -167526,7 +168109,7 @@ pg.task_data_template = {
 		}
 	},
 	[41269] = {
-		name = "【通行证SP】累计周任务PT1",
+		name = "三期·【通行证SP】累计周任务PT1",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167562,7 +168145,7 @@ pg.task_data_template = {
 		}
 	},
 	[41270] = {
-		name = "【通行证SP】累计周任务PT2",
+		name = "三期·【通行证SP】累计周任务PT2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167598,7 +168181,7 @@ pg.task_data_template = {
 		}
 	},
 	[41271] = {
-		name = "【通行证SP】累计周任务PT3",
+		name = "三期·【通行证SP】累计周任务PT3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167634,7 +168217,7 @@ pg.task_data_template = {
 		}
 	},
 	[41272] = {
-		name = "【通行证SP】累计周任务PT4",
+		name = "三期·【通行证SP】累计周任务PT4",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -167670,7 +168253,7 @@ pg.task_data_template = {
 		}
 	},
 	[41273] = {
-		name = "【通行证SP】累计周任务PT5",
+		name = "三期·【通行证SP】累计周任务PT5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167706,7 +168289,7 @@ pg.task_data_template = {
 		}
 	},
 	[41274] = {
-		name = "【通行证SP】累计周任务PT6",
+		name = "三期·【通行证SP】累计周任务PT6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167742,7 +168325,7 @@ pg.task_data_template = {
 		}
 	},
 	[41275] = {
-		name = "【通行证SP】累计周任务PT7",
+		name = "三期·【通行证SP】累计周任务PT7",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167778,7 +168361,7 @@ pg.task_data_template = {
 		}
 	},
 	[41276] = {
-		name = "【通行证SP】累计周任务PT8",
+		name = "三期·【通行证SP】累计周任务PT8",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167814,7 +168397,7 @@ pg.task_data_template = {
 		}
 	},
 	[41277] = {
-		name = "【通行证SP】累计周任务PT9",
+		name = "三期·【通行证SP】累计周任务PT9",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -167850,7 +168433,7 @@ pg.task_data_template = {
 		}
 	},
 	[41278] = {
-		name = "【通行证SP】累计建造1",
+		name = "三期·【通行证SP】累计建造1",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167884,7 +168467,7 @@ pg.task_data_template = {
 		}
 	},
 	[41279] = {
-		name = "【通行证SP】累计建造2",
+		name = "三期·【通行证SP】累计建造2",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167918,7 +168501,7 @@ pg.task_data_template = {
 		}
 	},
 	[41280] = {
-		name = "【通行证SP】累计建造3",
+		name = "三期·【通行证SP】累计建造3",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167952,7 +168535,7 @@ pg.task_data_template = {
 		}
 	},
 	[41281] = {
-		name = "【通行证SP】累计建造4",
+		name = "三期·【通行证SP】累计建造4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -167986,7 +168569,7 @@ pg.task_data_template = {
 		}
 	},
 	[41282] = {
-		name = "【通行证SP】累计建造5",
+		name = "三期·【通行证SP】累计建造5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168020,7 +168603,7 @@ pg.task_data_template = {
 		}
 	},
 	[41283] = {
-		name = "【通行证SP】累计建造6",
+		name = "三期·【通行证SP】累计建造6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168054,7 +168637,7 @@ pg.task_data_template = {
 		}
 	},
 	[41284] = {
-		name = "【通行证SP】累计建造7",
+		name = "三期·【通行证SP】累计建造7",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168088,7 +168671,7 @@ pg.task_data_template = {
 		}
 	},
 	[41285] = {
-		name = "【通行证SP】累计建造8",
+		name = "三期·【通行证SP】累计建造8",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168122,7 +168705,7 @@ pg.task_data_template = {
 		}
 	},
 	[41286] = {
-		name = "【通行证SP】累计消耗石油1",
+		name = "三期·【通行证SP】累计消耗石油1",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168156,7 +168739,7 @@ pg.task_data_template = {
 		}
 	},
 	[41287] = {
-		name = "【通行证SP】累计消耗石油2",
+		name = "三期·【通行证SP】累计消耗石油2",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168190,7 +168773,7 @@ pg.task_data_template = {
 		}
 	},
 	[41288] = {
-		name = "【通行证SP】累计消耗石油3",
+		name = "三期·【通行证SP】累计消耗石油3",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168224,7 +168807,7 @@ pg.task_data_template = {
 		}
 	},
 	[41289] = {
-		name = "【通行证SP】累计消耗石油4",
+		name = "三期·【通行证SP】累计消耗石油4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168258,7 +168841,7 @@ pg.task_data_template = {
 		}
 	},
 	[41290] = {
-		name = "【通行证SP】累计消耗石油5",
+		name = "三期·【通行证SP】累计消耗石油5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168292,7 +168875,7 @@ pg.task_data_template = {
 		}
 	},
 	[41291] = {
-		name = "【通行证SP】累计消耗石油6",
+		name = "三期·【通行证SP】累计消耗石油6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168326,7 +168909,7 @@ pg.task_data_template = {
 		}
 	},
 	[41292] = {
-		name = "【通行证SP】累计消耗石油7",
+		name = "三期·【通行证SP】累计消耗石油7",
 		guild_coin_award = 0,
 		award = 100408,
 		type = 6,
@@ -168360,7 +168943,7 @@ pg.task_data_template = {
 		}
 	},
 	[41293] = {
-		name = "【通行证SP】累计消耗石油8",
+		name = "三期·【通行证SP】累计消耗石油8",
 		guild_coin_award = 0,
 		award = 100408,
 		type = 6,
@@ -168394,7 +168977,7 @@ pg.task_data_template = {
 		}
 	},
 	[41294] = {
-		name = "【通行证SP】累计消耗石油9",
+		name = "三期·【通行证SP】累计消耗石油9",
 		guild_coin_award = 0,
 		award = 100408,
 		type = 6,
@@ -168428,7 +169011,7 @@ pg.task_data_template = {
 		}
 	},
 	[41295] = {
-		name = "【通行证SP】累计消耗石油10",
+		name = "三期·【通行证SP】累计消耗石油10",
 		guild_coin_award = 0,
 		award = 100408,
 		type = 6,
@@ -168462,7 +169045,7 @@ pg.task_data_template = {
 		}
 	},
 	[41296] = {
-		name = "【通行证SP】累计获取舰船经验1",
+		name = "三期·【通行证SP】累计获取舰船经验1",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168498,7 +169081,7 @@ pg.task_data_template = {
 		}
 	},
 	[41297] = {
-		name = "【通行证SP】累计获取舰船经验2",
+		name = "三期·【通行证SP】累计获取舰船经验2",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168534,7 +169117,7 @@ pg.task_data_template = {
 		}
 	},
 	[41298] = {
-		name = "【通行证SP】累计获取舰船经验3",
+		name = "三期·【通行证SP】累计获取舰船经验3",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168570,7 +169153,7 @@ pg.task_data_template = {
 		}
 	},
 	[41299] = {
-		name = "【通行证SP】累计获取舰船经验4",
+		name = "三期·【通行证SP】累计获取舰船经验4",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168606,7 +169189,7 @@ pg.task_data_template = {
 		}
 	},
 	[41300] = {
-		name = "【通行证SP】累计获取舰船经验5",
+		name = "三期·【通行证SP】累计获取舰船经验5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168642,7 +169225,7 @@ pg.task_data_template = {
 		}
 	},
 	[41301] = {
-		name = "【通行证SP】累计获取舰船经验6",
+		name = "三期·【通行证SP】累计获取舰船经验6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168678,7 +169261,7 @@ pg.task_data_template = {
 		}
 	},
 	[41302] = {
-		name = "【通行证SP】累计获取舰船经验7",
+		name = "三期·【通行证SP】累计获取舰船经验7",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168714,7 +169297,7 @@ pg.task_data_template = {
 		}
 	},
 	[41303] = {
-		name = "【通行证SP】累计获取舰船经验8",
+		name = "三期·【通行证SP】累计获取舰船经验8",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168750,7 +169333,7 @@ pg.task_data_template = {
 		}
 	},
 	[41304] = {
-		name = "【通行证SP】累计获取舰船经验10",
+		name = "三期·【通行证SP】累计获取舰船经验9",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -168786,7 +169369,7 @@ pg.task_data_template = {
 		}
 	},
 	[41305] = {
-		name = "【通行证SP】累计获取舰船经验12",
+		name = "三期·【通行证SP】累计获取舰船经验10",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -168822,7 +169405,7 @@ pg.task_data_template = {
 		}
 	},
 	[41306] = {
-		name = "【通行证SP】累计登陆1",
+		name = "三期·【通行证SP】累计登陆1",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168856,7 +169439,7 @@ pg.task_data_template = {
 		}
 	},
 	[41307] = {
-		name = "【通行证SP】累计登陆2",
+		name = "三期·【通行证SP】累计登陆2",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -168890,7 +169473,7 @@ pg.task_data_template = {
 		}
 	},
 	[41308] = {
-		name = "【通行证SP】累计登陆4",
+		name = "三期·【通行证SP】累计登陆3",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -168924,7 +169507,7 @@ pg.task_data_template = {
 		}
 	},
 	[41309] = {
-		name = "【通行证SP】累计登陆5",
+		name = "三期·【通行证SP】累计登陆4",
 		guild_coin_award = 0,
 		award = 100409,
 		type = 6,
@@ -168958,7 +169541,7 @@ pg.task_data_template = {
 		}
 	},
 	[41310] = {
-		name = "【通行证SP】累计登陆7",
+		name = "三期·【通行证SP】累计登陆5",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -168992,7 +169575,7 @@ pg.task_data_template = {
 		}
 	},
 	[41311] = {
-		name = "【通行证SP】累计登陆8",
+		name = "三期·【通行证SP】累计登陆6",
 		guild_coin_award = 0,
 		award = 100410,
 		type = 6,
@@ -169026,7 +169609,7 @@ pg.task_data_template = {
 		}
 	},
 	[41312] = {
-		name = "【通行证SP】累计登陆9",
+		name = "三期·【通行证SP】累计登陆7",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -169060,7 +169643,7 @@ pg.task_data_template = {
 		}
 	},
 	[41313] = {
-		name = "【通行证SP】累计登陆10",
+		name = "三期·【通行证SP】累计登陆8",
 		guild_coin_award = 0,
 		award = 100411,
 		type = 6,
@@ -169089,6 +169672,3564 @@ pg.task_data_template = {
 			{
 				1,
 				4003,
+				240
+			}
+		}
+	},
+	[41314] = {
+		name = "四期·【通行证第一周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "艦隊を出撃させ、60回A評価で勝利せよ！",
+		count_inherit = 0,
+		sub_type = 23,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41314,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41315] = {
+		name = "四期·【通行证第一周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "装備を10回強化する",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41315,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41316] = {
+		name = "四期·【通行证第一周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "寮舎食料を30000補充する",
+		count_inherit = 0,
+		sub_type = 60,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41316,
+		target_num = 30000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41317] = {
+		name = "四期·【通行证第一周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "任意の装備箱を20個開けよ！",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41317,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41318] = {
+		name = "四期·【通行证第一周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "「艦船経験値パックT1」を40個使用する",
+		count_inherit = 0,
+		sub_type = 120,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "16501",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41318,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[41319] = {
+		name = "四期·【通行证第一周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "装備を60回「廃棄」せよ！",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41319,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41320] = {
+		name = "四期·【通行证第一周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（一週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41320,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41314,
+			41315,
+			41316,
+			41317,
+			41318,
+			41319
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41321] = {
+		name = "四期·【通行证第二周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "艦隊を出撃させ、敵中枢艦隊を20回撃破せよ！",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41321,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41322] = {
+		name = "四期·【通行证第二周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "コアデータを累計150個入手する",
+		count_inherit = 0,
+		sub_type = 130,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "59900",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41322,
+		target_num = 150,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41323] = {
+		name = "四期·【通行证第二周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "軍事委託を15回行う",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41323,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41324] = {
+		name = "四期·【通行证第二周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "デイリーチャレンジを12回行う",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41324,
+		target_num = 12,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41325] = {
+		name = "四期·【通行证第二周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "高速建造材を20個消費する",
+		count_inherit = 0,
+		sub_type = 120,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "15003",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41325,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"GETBOAT"
+		}
+	},
+	[41326] = {
+		name = "四期·【通行证第二周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "物資拠出Ⅰ任務を12回クリアする",
+		count_inherit = 0,
+		sub_type = 402,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41326,
+		target_num = 12,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41327] = {
+		name = "四期·【通行证第二周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（二週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41327,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41321,
+			41322,
+			41323,
+			41324,
+			41325,
+			41326
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41328] = {
+		name = "四期·【通行证第三周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "艦隊を出撃させ、80回勝利する",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41328,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41329] = {
+		name = "四期·【通行证第三周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "艦を5隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41329,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41330] = {
+		name = "四期·【通行证第三周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "キューブを10個入手する",
+		count_inherit = 0,
+		sub_type = 130,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "20001",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41330,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41331] = {
+		name = "四期·【通行证第三周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "通常海域ハードを12回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41331,
+		target_num = 12,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41332] = {
+		name = "四期·【通行证第三周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "戦術訓練（スキル強化）を20回行う",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41332,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41333] = {
+		name = "四期·【通行证第三周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "演習を30回行おう！",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41333,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41334] = {
+		name = "四期·【通行证第三周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（三週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41334,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41328,
+			41329,
+			41330,
+			41331,
+			41332,
+			41333
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41335] = {
+		name = "四期·【通行证第四周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "セイレーン作戦のエリアに出撃し、5回戦闘を行う",
+		count_inherit = 0,
+		sub_type = 304,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41335,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41336] = {
+		name = "四期·【通行证第四周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "艦を15隻退役する",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41336,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41337] = {
+		name = "四期·【通行证第四周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "科学研究を10回行う",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41337,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41338] = {
+		name = "四期·【通行证第四周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "任意の敵を1600隻撃破する",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41338,
+		target_num = 1600,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41339] = {
+		name = "四期·【通行证第四周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "オフニャを20回訓練する",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41339,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41340] = {
+		name = "四期·【通行证第四周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "ウィークリー任務Ptを800貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41340,
+		target_num = 800,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41341] = {
+		name = "四期·【通行证第四周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（四週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41341,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41335,
+			41336,
+			41337,
+			41338,
+			41339,
+			41340
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41342] = {
+		name = "四期·【通行证第五周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "任意の装備箱を10個開けよ！",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41342,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41343] = {
+		name = "四期·【通行证第五周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "「艦船経験値パックT1」を20個使用する",
+		count_inherit = 0,
+		sub_type = 120,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "16501",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41343,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[41344] = {
+		name = "四期·【通行证第五周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "装備を30回「廃棄」せよ！",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41344,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41345] = {
+		name = "四期·【通行证第五周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、120回A評価で勝利せよ！",
+		count_inherit = 0,
+		sub_type = 23,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41345,
+		target_num = 120,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41346] = {
+		name = "四期·【通行证第五周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "装備を20回強化する",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41346,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41347] = {
+		name = "四期·【通行证第五周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "寮舎食料を60000補充する",
+		count_inherit = 0,
+		sub_type = 60,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41347,
+		target_num = 60000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41348] = {
+		name = "四期·【通行证第五周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（五週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41348,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41342,
+			41343,
+			41344,
+			41345,
+			41346,
+			41347
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41349] = {
+		name = "四期·【通行证第六周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "デイリーチャレンジを6回行う",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41349,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41350] = {
+		name = "四期·【通行证第六周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "高速建造材を10個消費する",
+		count_inherit = 0,
+		sub_type = 120,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "15003",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41350,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"GETBOAT"
+		}
+	},
+	[41351] = {
+		name = "四期·【通行证第六周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "物資拠出Ⅰ任務を6回クリアする",
+		count_inherit = 0,
+		sub_type = 402,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41351,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41352] = {
+		name = "四期·【通行证第六周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、敵中枢艦隊を40回撃破せよ！",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41352,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41353] = {
+		name = "四期·【通行证第六周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "コアデータを累計300個入手する",
+		count_inherit = 0,
+		sub_type = 130,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "59900",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41353,
+		target_num = 300,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41354] = {
+		name = "四期·【通行证第六周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "軍事委託を30回行う",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41354,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41355] = {
+		name = "四期·【通行证第六周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（六週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41355,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41349,
+			41350,
+			41351,
+			41352,
+			41353,
+			41354
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41356] = {
+		name = "四期·【通行证第七周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "通常海域ハードを6回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41356,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41357] = {
+		name = "四期·【通行证第七周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "戦術訓練（スキル強化）を10回行う",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41357,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41358] = {
+		name = "四期·【通行证第七周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "演習を15回行おう！",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41358,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41359] = {
+		name = "四期·【通行证第七周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、160回勝利する",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41359,
+		target_num = 160,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41360] = {
+		name = "四期·【通行证第七周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を10隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41360,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41361] = {
+		name = "四期·【通行证第七周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "キューブを20個入手する",
+		count_inherit = 0,
+		sub_type = 130,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "20001",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41361,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41362] = {
+		name = "四期·【通行证第七周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（七週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41362,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41356,
+			41357,
+			41358,
+			41359,
+			41360,
+			41361
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41363] = {
+		name = "四期·【通行证第八周】任务1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "任意の敵を800隻撃破する",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41363,
+		target_num = 800,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41364] = {
+		name = "四期·【通行证第八周】任务2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "オフニャを10回訓練する",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41364,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41365] = {
+		name = "四期·【通行证第八周】任务3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "ウィークリー任務Ptを400貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 1,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41365,
+		target_num = 400,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41366] = {
+		name = "四期·【通行证第八周】任务4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "セイレーン作戦のエリアに出撃し、10回戦闘を行う",
+		count_inherit = 0,
+		sub_type = 304,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41366,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41367] = {
+		name = "四期·【通行证第八周】任务5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を30隻退役する",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41367,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41368] = {
+		name = "四期·【通行证第八周】任务6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "科学研究を20回行う",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 2,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41368,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41369] = {
+		name = "四期·【通行证第八周】任务7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "シーズン任務の週次任務（八週目）を全クリア",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41369,
+		target_num = 6,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			41363,
+			41364,
+			41365,
+			41366,
+			41367,
+			41368
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41370] = {
+		name = "四期·【通行证SP】累计周任务PT1",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "ウィークリー任務Ptを100貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41370,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41371] = {
+		name = "四期·【通行证SP】累计周任务PT2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "ウィークリー任務Ptを300貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41371,
+		target_num = 300,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41372] = {
+		name = "四期·【通行证SP】累计周任务PT3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "ウィークリー任務Ptを600貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41372,
+		target_num = 600,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41373] = {
+		name = "四期·【通行证SP】累计周任务PT4",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "ウィークリー任務Ptを1000貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41373,
+		target_num = 1000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41374] = {
+		name = "四期·【通行证SP】累计周任务PT5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "ウィークリー任務Ptを1500貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41374,
+		target_num = 1500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41375] = {
+		name = "四期·【通行证SP】累计周任务PT6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "ウィークリー任務Ptを2000貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41375,
+		target_num = 2000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41376] = {
+		name = "四期·【通行证SP】累计周任务PT7",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "ウィークリー任務Ptを2500貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41376,
+		target_num = 2500,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41377] = {
+		name = "四期·【通行证SP】累计周任务PT8",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "ウィークリー任務Ptを3000貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41377,
+		target_num = 3000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41378] = {
+		name = "四期·【通行证SP】累计周任务PT9",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "ウィークリー任務Ptを4000貯める",
+		count_inherit = 0,
+		sub_type = 161,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41378,
+		target_num = 4000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		},
+		scene = {
+			"TASK"
+		}
+	},
+	[41379] = {
+		name = "四期·【通行证SP】累计建造1",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を10隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41379,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41380] = {
+		name = "四期·【通行证SP】累计建造2",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を20隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41380,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41381] = {
+		name = "四期·【通行证SP】累计建造3",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を30隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41381,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41382] = {
+		name = "四期·【通行证SP】累计建造4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を40隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41382,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41383] = {
+		name = "四期·【通行证SP】累计建造5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を50隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41383,
+		target_num = 50,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41384] = {
+		name = "四期·【通行证SP】累计建造6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を60隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41384,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41385] = {
+		name = "四期·【通行证SP】累计建造7",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を70隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41385,
+		target_num = 70,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41386] = {
+		name = "四期·【通行证SP】累计建造8",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦を80隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41386,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41387] = {
+		name = "四期·【通行证SP】累计消耗石油1",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "燃料を2000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41387,
+		target_num = 2000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41388] = {
+		name = "四期·【通行证SP】累计消耗石油2",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "燃料を4000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41388,
+		target_num = 4000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41389] = {
+		name = "四期·【通行证SP】累计消耗石油3",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "燃料を6000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41389,
+		target_num = 6000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41390] = {
+		name = "四期·【通行证SP】累计消耗石油4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "燃料を8000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41390,
+		target_num = 8000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41391] = {
+		name = "四期·【通行证SP】累计消耗石油5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "燃料を10000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41391,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41392] = {
+		name = "四期·【通行证SP】累计消耗石油6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "燃料を12000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41392,
+		target_num = 12000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41393] = {
+		name = "四期·【通行证SP】累计消耗石油7",
+		guild_coin_award = 0,
+		award = 100612,
+		type = 6,
+		desc = "燃料を15000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41393,
+		target_num = 15000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				180
+			}
+		}
+	},
+	[41394] = {
+		name = "四期·【通行证SP】累计消耗石油8",
+		guild_coin_award = 0,
+		award = 100612,
+		type = 6,
+		desc = "燃料を18000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41394,
+		target_num = 18000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				180
+			}
+		}
+	},
+	[41395] = {
+		name = "四期·【通行证SP】累计消耗石油9",
+		guild_coin_award = 0,
+		award = 100612,
+		type = 6,
+		desc = "燃料を21000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41395,
+		target_num = 21000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				180
+			}
+		}
+	},
+	[41396] = {
+		name = "四期·【通行证SP】累计消耗石油10",
+		guild_coin_award = 0,
+		award = 100612,
+		type = 6,
+		desc = "燃料を24000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41396,
+		target_num = 24000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				180
+			}
+		}
+	},
+	[41397] = {
+		name = "四期·【通行证SP】累计获取舰船经验1",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を25万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41397,
+		target_num = 250000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41398] = {
+		name = "四期·【通行证SP】累计获取舰船经验2",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を50万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41398,
+		target_num = 500000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41399] = {
+		name = "四期·【通行证SP】累计获取舰船经验3",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を75万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41399,
+		target_num = 750000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41400] = {
+		name = "四期·【通行证SP】累计获取舰船经验4",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を100万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41400,
+		target_num = 1000000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41401] = {
+		name = "四期·【通行证SP】累计获取舰船经验5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を125万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41401,
+		target_num = 1250000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41402] = {
+		name = "四期·【通行证SP】累计获取舰船经验6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を150万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41402,
+		target_num = 1500000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41403] = {
+		name = "四期·【通行证SP】累计获取舰船经验7",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を175万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41403,
+		target_num = 1750000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41404] = {
+		name = "四期·【通行证SP】累计获取舰船经验8",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を200万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41404,
+		target_num = 2000000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41405] = {
+		name = "四期·【通行证SP】累计获取舰船经验9",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を250万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41405,
+		target_num = 2500000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41406] = {
+		name = "四期·【通行证SP】累计获取舰船经验10",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "艦隊を出撃させ、累計獲得経験値を300万蓄積させる",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_id = "",
+		id = 41406,
+		target_num = 3000000,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[41407] = {
+		name = "四期·【通行证SP】累计登陆1",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "月ログインスタンプを1回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41407,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41408] = {
+		name = "四期·【通行证SP】累计登陆2",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "月ログインスタンプを3回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41408,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41409] = {
+		name = "四期·【通行证SP】累计登陆3",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "月ログインスタンプを5回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41409,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41410] = {
+		name = "四期·【通行证SP】累计登陆4",
+		guild_coin_award = 0,
+		award = 100613,
+		type = 6,
+		desc = "月ログインスタンプを7回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41410,
+		target_num = 7,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				60
+			}
+		}
+	},
+	[41411] = {
+		name = "四期·【通行证SP】累计登陆5",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "月ログインスタンプを10回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41411,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41412] = {
+		name = "四期·【通行证SP】累计登陆6",
+		guild_coin_award = 0,
+		award = 100614,
+		type = 6,
+		desc = "月ログインスタンプを14回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41412,
+		target_num = 14,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				120
+			}
+		}
+	},
+	[41413] = {
+		name = "四期·【通行证SP】累计登陆7",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "月ログインスタンプを21回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41413,
+		target_num = 21,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
+				240
+			}
+		}
+	},
+	[41414] = {
+		name = "四期·【通行证SP】累计登陆8",
+		guild_coin_award = 0,
+		award = 100615,
+		type = 6,
+		desc = "月ログインスタンプを28回押す",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 1,
+		scene = "",
+		id = 41414,
+		target_num = 28,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4004,
 				240
 			}
 		}
@@ -186496,6 +190637,20 @@ pg.task_data_template = {
 		17452,
 		17453,
 		17454,
+		17455,
+		17456,
+		17457,
+		17458,
+		17459,
+		17460,
+		17461,
+		17462,
+		17463,
+		17464,
+		17465,
+		17466,
+		17467,
+		17468,
 		30201,
 		30202,
 		31001,
@@ -186954,6 +191109,107 @@ pg.task_data_template = {
 		41311,
 		41312,
 		41313,
+		41314,
+		41315,
+		41316,
+		41317,
+		41318,
+		41319,
+		41320,
+		41321,
+		41322,
+		41323,
+		41324,
+		41325,
+		41326,
+		41327,
+		41328,
+		41329,
+		41330,
+		41331,
+		41332,
+		41333,
+		41334,
+		41335,
+		41336,
+		41337,
+		41338,
+		41339,
+		41340,
+		41341,
+		41342,
+		41343,
+		41344,
+		41345,
+		41346,
+		41347,
+		41348,
+		41349,
+		41350,
+		41351,
+		41352,
+		41353,
+		41354,
+		41355,
+		41356,
+		41357,
+		41358,
+		41359,
+		41360,
+		41361,
+		41362,
+		41363,
+		41364,
+		41365,
+		41366,
+		41367,
+		41368,
+		41369,
+		41370,
+		41371,
+		41372,
+		41373,
+		41374,
+		41375,
+		41376,
+		41377,
+		41378,
+		41379,
+		41380,
+		41381,
+		41382,
+		41383,
+		41384,
+		41385,
+		41386,
+		41387,
+		41388,
+		41389,
+		41390,
+		41391,
+		41392,
+		41393,
+		41394,
+		41395,
+		41396,
+		41397,
+		41398,
+		41399,
+		41400,
+		41401,
+		41402,
+		41403,
+		41404,
+		41405,
+		41406,
+		41407,
+		41408,
+		41409,
+		41410,
+		41411,
+		41412,
+		41413,
+		41414,
 		50001,
 		50002,
 		50003,

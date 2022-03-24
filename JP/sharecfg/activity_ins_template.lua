@@ -7605,6 +7605,78 @@ pg.activity_ins_template = {
 			2584
 		}
 	},
+	{
+		ship_group = 60107,
+		name = "PompeyTheGreat",
+		sculpture = "pangpeimagenuo",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 289,
+		id = 289,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 60304,
+		name = "Trieste",
+		sculpture = "diliyasite",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 290,
+		id = 290,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 60702,
+		name = "orepmI",
+		sculpture = "diguo",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 291,
+		id = 291,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30401,
+		name = "BarrowYoko",
+		sculpture = "jingang_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 292,
+		id = 292,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30164,
+		name = "Ooshio",
+		sculpture = "dachao_5",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 293,
+		id = 293,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10806,
+		name = "CharmArcher",
+		sculpture = "sheshuiyu_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 294,
+		id = 294,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -7893,6 +7965,12 @@ pg.activity_ins_template = {
 		285,
 		286,
 		287,
-		288
+		288,
+		289,
+		290,
+		291,
+		292,
+		293,
+		294
 	}
 }

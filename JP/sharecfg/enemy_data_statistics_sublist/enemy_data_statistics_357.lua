@@ -730,184 +730,81 @@ pg.enemy_data_statistics_357 = {
 		equipment_list = {},
 		buff_list = {}
 	},
-	[900001] = {
-		cannon = 130,
-		name = "ラフィー",
-		battle_unit_type = 90,
+	[15700001] = {
+		cannon = 5,
+		luck_growth = 0,
+		hit_growth = 144,
 		speed_growth = 0,
-		luck = 0,
+		pilot_ai_template_id = 20005,
 		air = 0,
-		id = 900001,
-		reload = 150,
-		nationality = 1,
-		antiaircraft = 200,
-		hit_growth = 0,
+		speed = 15,
+		dodge = 0,
+		id = 15700001,
+		cannon_growth = 300,
+		fog_fx = "",
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "lafei_g",
+		luck = 0,
+		reload = 150,
+		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90167,
-		durability = 150000,
+		torpedo = 27,
+		base = 90429,
+		durability = 105,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 35,
+		torpedo_growth = 3000,
+		antiaircraft = 25,
+		battle_unit_type = 25,
 		armor = 0,
+		durability_growth = 4000,
+		bubble_fx = "",
 		antisub = 0,
-		prefab = "lafei_g",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 250,
-		durability_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					-0.37,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.53,
-					0.39,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.37,
-					0.97,
-					0
-				}
-			}
+		antiaircraft_growth = 800,
+		specific_fx_scale = {},
+		equipment_list = {
+			1001001,
+			1001006,
+			1001011
 		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.293,
-							0.826,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							2.57,
-							-0.13
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		}
+		buff_list = {}
 	},
-	[900002] = {
-		cannon = 130,
-		name = "ジャベリン",
-		battle_unit_type = 90,
+	[15700002] = {
+		cannon = 10,
+		luck_growth = 0,
+		hit_growth = 144,
 		speed_growth = 0,
-		luck = 0,
+		pilot_ai_template_id = 20005,
 		air = 0,
-		id = 900002,
-		reload = 150,
-		nationality = 2,
-		antiaircraft = 200,
-		hit_growth = 0,
+		speed = 15,
+		dodge = 0,
+		id = 15700002,
+		cannon_growth = 800,
+		fog_fx = "",
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "biaoqiang_g",
+		luck = 0,
+		reload = 150,
+		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90167,
-		durability = 150000,
+		torpedo = 22,
+		base = 90430,
+		durability = 180,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 35,
+		torpedo_growth = 2000,
+		antiaircraft = 45,
+		battle_unit_type = 30,
 		armor = 0,
+		durability_growth = 5920,
+		bubble_fx = "",
 		antisub = 0,
-		prefab = "biaoqiang_g",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 250,
-		durability_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					0.855,
-					0.424,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.545,
-					0.537,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.855,
-					0.424,
-					0
-				}
-			}
+		antiaircraft_growth = 1600,
+		specific_fx_scale = {},
+		equipment_list = {
+			1001016,
+			1001021
 		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.487,
-							0.32,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.354,
-							0.977,
-							0
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		}
+		buff_list = {}
 	}
 }

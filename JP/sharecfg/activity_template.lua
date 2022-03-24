@@ -40,17 +40,13 @@ pg.activity_template = {
 		login_pop = 99,
 		config_id = 6,
 		is_show = 1,
+		config_client = "",
 		id = 6,
 		config_data = {},
 		page_info = {
 			ui_name = "monthsignpage",
 			ui_name2 = "monthsignpage_special",
 			class_name = "MonthSignPage"
-		},
-		config_client = {
-			4,
-			21,
-			1
 		}
 	},
 	[7] = {
@@ -4709,7 +4705,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4278,
-		is_show = 20,
+		is_show = 17,
 		config_data = {},
 		time = {
 			timer,
@@ -4748,44 +4744,18 @@ pg.activity_template = {
 	},
 	[4279] = {
 		mark = 20220310,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4279,
 		config_data = {
 			1370001,
 			1370002,
 			1370003
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					3,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -4793,12 +4763,13 @@ pg.activity_template = {
 	},
 	[4280] = {
 		mark = 20220310,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4280,
 		config_data = {
@@ -4808,82 +4779,29 @@ pg.activity_template = {
 			17452,
 			17453,
 			17454
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					3,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4281] = {
 		mark = 20220310,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
 		config_data = "activity_drop_4281",
+		title_res_tag = "",
 		id = 4281,
-		time = {
-			timer,
-			{
-				{
-					2022,
-					3,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
-			buildship_tip = "「エスキモー」出現率UP！",
+			buildship_tip = "爱斯基摩人 建造概率UP！",
 			rate_tip = {
-				"<color=#ffde38>SSレア</color>：7%",
-				"<color=#d797ff>Sレア</color>：12%",
-				"<color=#3dc6ff>レア</color>：26%",
-				"ノーマル：55%",
-				"<color=#d797ff>エスキモー</color>：1.4%(<color=#92fc63>up!</color>)"
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：26%",
+				"普通舰船：55%",
+				"<color=#d797ff>爱斯基摩人</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -4967,6 +4885,454 @@ pg.activity_template = {
 		},
 		config_client = {
 			id = 970402
+		}
+	},
+	[4286] = {
+		mark = 20220324,
+		id = 4286,
+		title_res_tag = "yidalisp_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 20,
+		config_data = {
+			1630001,
+			1630002,
+			1630003,
+			1630004,
+			1630041,
+			1630051
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliSPMainPage",
+			ui_name = "YidaliSPMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4287] = {
+		mark = 20220324,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4287,
+		config_data = {
+			17456,
+			17457,
+			17458,
+			17459,
+			17460,
+			17461,
+			17462,
+			17463,
+			17464,
+			17465,
+			17466,
+			17467,
+			17468
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4288] = {
+		mark = 20220324,
+		id = 4288,
+		title_res_tag = "yidalisp_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4288,
+		is_show = 19,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliSPPtPage",
+			ui_name = "YidaliSPPtPage"
+		},
+		config_client = {
+			linkActID = 4286
+		}
+	},
+	[4289] = {
+		mark = 20220324,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4289,
+		config_data = {
+			1635001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4290] = {
+		mark = 20220324,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4290,
+		config_data = {
+			1658,
+			1659,
+			1660,
+			1661,
+			1662,
+			1663,
+			1664,
+			1665,
+			1666,
+			1667,
+			1668,
+			1669,
+			1670,
+			1671,
+			1672,
+			1673,
+			1674,
+			1675,
+			1676,
+			1677,
+			1678
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_pata",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			use_secretary = false,
+			painting = "pangpeimagenuo_pt",
+			pt_id = 243
+		}
+	},
+	[4292] = {
+		mark = 20220324,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4292,
+		config_data = {
+			17455
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4293] = {
+		mark = 20220324,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4293,
+		config_data = {
+			289,
+			290,
+			291,
+			292,
+			293,
+			294
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4294] = {
+		mark = 20220324,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		id = 4294,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "「インペロ」、「フォーミダブル」などが出現率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>インペロ</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>フォーミダブル</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>ポンペオ・マーニョ</color>：0.5%",
+				" ",
+				"<color=#d797ff>トリエステ</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4295] = {
+		mark = 20220324,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 243,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4295,
+		time = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[7001] = {
@@ -5146,6 +5512,66 @@ pg.activity_template = {
 				"battlepass_main_tip_2202",
 				"battlepass_main_help_2202",
 				"cruise_task_help_2202"
+			}
+		}
+	},
+	[7004] = {
+		mark = 20220324,
+		id = 7004,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage4"
+		},
+		config_client = {
+			map_name = "map_202204",
+			spine_name = "chess_qiye",
+			tips = {
+				"battlepass_main_tip_2204",
+				"battlepass_main_help_2204",
+				"cruise_task_help_2204"
 			}
 		}
 	},
@@ -7323,9 +7749,19 @@ pg.activity_template = {
 		4281,
 		4282,
 		4283,
+		4286,
+		4287,
+		4288,
+		4289,
+		4290,
+		4292,
+		4293,
+		4294,
+		4295,
 		7001,
 		7002,
 		7003,
+		7004,
 		10006,
 		10056,
 		10129,

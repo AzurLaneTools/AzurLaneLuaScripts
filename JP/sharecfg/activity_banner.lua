@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4278",
+		param = "4286",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2022,
 					3,
-					10
+					24
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					24
+					4,
+					7
 				},
 				{
 					23,
@@ -39,7 +39,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectname = "light"
+				projectname = "new"
 			}
 		},
 		time = {
@@ -47,7 +47,7 @@ pg.activity_banner = {
 				{
 					2022,
 					3,
-					10
+					24
 				},
 				{
 					0,
@@ -58,8 +58,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					24
+					4,
+					7
 				},
 				{
 					23,
@@ -82,7 +82,7 @@ pg.activity_banner = {
 				{
 					2022,
 					3,
-					10
+					24
 				},
 				{
 					0,
@@ -93,8 +93,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					23
+					4,
+					6
 				},
 				{
 					23,
@@ -119,7 +119,7 @@ pg.activity_banner = {
 				{
 					2022,
 					3,
-					10
+					24
 				},
 				{
 					0,
@@ -130,8 +130,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					23
+					4,
+					6
 				},
 				{
 					23,
@@ -142,16 +142,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4261",
 		id = 5,
 		pic = "temp5",
-		type = 3,
+		type = 2,
+		param = {
+			"scene back yard"
+		},
 		time = {
 			{
 				{
 					2022,
-					2,
-					17
+					3,
+					24
 				},
 				{
 					0,
@@ -162,8 +164,40 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					16
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "7004",
+		id = 6,
+		pic = "temp6",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					14
 				},
 				{
 					23,
@@ -175,8 +209,8 @@ pg.activity_banner = {
 	},
 	{
 		param = "4259",
-		id = 6,
-		pic = "temp6",
+		id = 7,
+		pic = "temp7",
 		type = 3,
 		time = {
 			{
@@ -195,43 +229,6 @@ pg.activity_banner = {
 				{
 					2022,
 					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 7,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					2,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					2,
 					16
 				},
 				{
@@ -259,7 +256,7 @@ pg.activity_banner = {
 				{
 					2022,
 					3,
-					10
+					24
 				},
 				{
 					0,
@@ -270,8 +267,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					23
+					4,
+					6
 				},
 				{
 					23,

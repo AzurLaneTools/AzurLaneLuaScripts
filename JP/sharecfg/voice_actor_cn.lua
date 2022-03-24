@@ -1207,5 +1207,13 @@ pg.voice_actor_CN = {
 	[307] = {
 		code = 307,
 		actor_name = "芝崎典子"
+	},
+	[308] = {
+		code = 308,
+		actor_name = "会沢紗弥"
+	},
+	[309] = {
+		code = 309,
+		actor_name = "大森日雅"
 	}
 }

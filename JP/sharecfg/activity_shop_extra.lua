@@ -2522,6 +2522,45 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[85] = {
+		commodity_type = 7,
+		activity = 7004,
+		commodity_id = 107067,
+		id = 85,
+		num = 1,
+		num_limit = 1,
+		order = 15,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2599,6 +2638,7 @@ pg.activity_shop_extra = {
 		81,
 		82,
 		83,
-		84
+		84,
+		85
 	}
 }

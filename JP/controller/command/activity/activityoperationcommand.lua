@@ -517,13 +517,21 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 
 				uv5 = {}
 			end
-		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS and uv6.cmd == 1 then
-			uv3:sendNotification(ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT, {
-				number = uv4.number[1],
-				callback = uv2,
-				awards = uv5
-			})
-			coroutine.yield()
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS then
+			if uv6.cmd == 1 then
+				uv3:sendNotification(ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT, {
+					number = uv4.number[1],
+					callback = uv2,
+					awards = uv5
+				})
+				coroutine.yield()
+			end
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_APRIL_REWARD then
+			if uv6.cmd == 1 then
+				uv1.data1 = uv6.arg1
+			elseif uv6.cmd == 2 then
+				uv1.data2 = 1
+			end
 		end
 
 		if #uv5 > 0 then

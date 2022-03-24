@@ -100495,6 +100495,56 @@ _G.pg.equip_data_statistics[60753] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[60781] = {
+	type = 99,
+	name = "航空攻击展示-帝国I",
+	speciality = "なし",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "航空攻撃サンプル用",
+	id = 60781,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60781
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[60782] = {
+	id = 60782,
+	name = "航空攻击展示-帝国II",
+	base = 60781,
+	weapon_id = {
+		60782
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[60783] = {
+	id = 60783,
+	name = "航空攻击展示-帝国III",
+	base = 60781,
+	weapon_id = {
+		60783
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[61007] = {
 	type = 1,
 	name = "0",
@@ -111034,6 +111084,59 @@ _G.pg.equip_data_statistics[79822] = {
 	base = 79821,
 	weapon_id = {
 		60772
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[79831] = {
+	type = 1,
+	name = "专属弹幕-庞培·马格诺I",
+	speciality = "なし",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "スキル弾幕",
+	id = 79831,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60791
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[79832] = {
+	id = 79832,
+	name = "专属弹幕-庞培·马格诺II",
+	base = 79821,
+	weapon_id = {
+		60792
 	},
 	hidden_skill_id = {}
 }
@@ -126423,6 +126526,514 @@ _G.pg.equip_data_statistics[95913] = {
 	base = 95900,
 	weapon_id = {
 		95913
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95920] = {
+	attribute_3 = "antiaircraft",
+	name = "135mm連装砲Model1938",
+	speciality = "追尾",
+	type = 1,
+	tech = 1,
+	ammo = 3,
+	damage = "4 x 4",
+	nationality = 6,
+	descrip = "カピターニ・ロマーニ級が装備していた135mm主砲",
+	rarity = 3,
+	value_3 = 5,
+	id = 95920,
+	value_2 = 7,
+	icon = "55920",
+	torpedo_ammo = 0,
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			1,
+			2300
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			2300
+		},
+		{
+			4,
+			1001
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		95920
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DD",
+		"MG"
+	}
+}
+
+_G.pg.equip_data_statistics[95921] = {
+	id = 95921,
+	damage = "5 x 4",
+	base = 95920,
+	weapon_id = {
+		95921
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95922] = {
+	id = 95922,
+	damage = "6 x 4",
+	base = 95920,
+	weapon_id = {
+		95922
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95923] = {
+	id = 95923,
+	damage = "6 x 4",
+	base = 95920,
+	weapon_id = {
+		95923
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95924] = {
+	id = 95924,
+	damage = "7 x 4",
+	base = 95920,
+	weapon_id = {
+		95924
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95925] = {
+	id = 95925,
+	damage = "8 x 4",
+	base = 95920,
+	weapon_id = {
+		95925
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95926] = {
+	id = 95926,
+	damage = "9 x 4",
+	base = 95920,
+	weapon_id = {
+		95926
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95940] = {
+	attribute_3 = "antiaircraft",
+	name = "135mm連装砲Model1938",
+	speciality = "追尾",
+	type = 1,
+	tech = 2,
+	ammo = 7,
+	damage = "4 x 4",
+	nationality = 6,
+	descrip = "カピターニ・ロマーニ級が装備していた135mm主砲",
+	rarity = 4,
+	value_3 = 10,
+	id = 95940,
+	value_2 = 15,
+	icon = "55920",
+	torpedo_ammo = 0,
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		4
+	},
+	ammo_info = {
+		{
+			1,
+			2310
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			2310
+		},
+		{
+			4,
+			1001
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		95940
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DD",
+		"MG",
+		"SAP"
+	}
+}
+
+_G.pg.equip_data_statistics[95941] = {
+	id = 95941,
+	damage = "5 x 4",
+	base = 95940,
+	weapon_id = {
+		95941
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95942] = {
+	id = 95942,
+	damage = "6 x 4",
+	base = 95940,
+	weapon_id = {
+		95942
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95943] = {
+	id = 95943,
+	damage = "7 x 4",
+	base = 95940,
+	weapon_id = {
+		95943
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95944] = {
+	id = 95944,
+	damage = "8 x 4",
+	base = 95940,
+	weapon_id = {
+		95944
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95945] = {
+	id = 95945,
+	damage = "9 x 4",
+	base = 95940,
+	weapon_id = {
+		95945
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95946] = {
+	id = 95946,
+	damage = "10 x 4",
+	base = 95940,
+	weapon_id = {
+		95946
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95947] = {
+	id = 95947,
+	damage = "11 x 4",
+	base = 95940,
+	weapon_id = {
+		95947
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95948] = {
+	id = 95948,
+	damage = "12 x 4",
+	base = 95940,
+	weapon_id = {
+		95948
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95949] = {
+	id = 95949,
+	damage = "13 x 4",
+	base = 95940,
+	weapon_id = {
+		95949
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95950] = {
+	id = 95950,
+	damage = "14 x 4",
+	base = 95940,
+	weapon_id = {
+		95950
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95960] = {
+	attribute_3 = "antiaircraft",
+	name = "135mm連装砲Model1938",
+	speciality = "追尾",
+	type = 1,
+	tech = 3,
+	ammo = 7,
+	damage = "4 x 4",
+	nationality = 6,
+	descrip = "カピターニ・ロマーニ級が装備していた135mm主砲",
+	rarity = 5,
+	value_3 = 15,
+	id = 95960,
+	value_2 = 30,
+	icon = "55920",
+	torpedo_ammo = 0,
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		4
+	},
+	ammo_info = {
+		{
+			1,
+			2310
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			2310
+		},
+		{
+			4,
+			1001
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		95960
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DD",
+		"MG",
+		"SAP"
+	}
+}
+
+_G.pg.equip_data_statistics[95961] = {
+	id = 95961,
+	damage = "5 x 4",
+	base = 95960,
+	weapon_id = {
+		95961
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95962] = {
+	id = 95962,
+	damage = "6 x 4",
+	base = 95960,
+	weapon_id = {
+		95962
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95963] = {
+	id = 95963,
+	damage = "7 x 4",
+	base = 95960,
+	weapon_id = {
+		95963
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95964] = {
+	id = 95964,
+	damage = "8 x 4",
+	base = 95960,
+	weapon_id = {
+		95964
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95965] = {
+	id = 95965,
+	damage = "9 x 4",
+	base = 95960,
+	weapon_id = {
+		95965
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95966] = {
+	id = 95966,
+	damage = "10 x 4",
+	base = 95960,
+	weapon_id = {
+		95966
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95967] = {
+	id = 95967,
+	damage = "11 x 4",
+	base = 95960,
+	weapon_id = {
+		95967
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95968] = {
+	id = 95968,
+	damage = "13 x 4",
+	base = 95960,
+	weapon_id = {
+		95968
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95969] = {
+	id = 95969,
+	damage = "15 x 4",
+	base = 95960,
+	weapon_id = {
+		95969
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95970] = {
+	id = 95970,
+	damage = "17 x 4",
+	base = 95960,
+	weapon_id = {
+		95970
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95971] = {
+	id = 95971,
+	anti_siren = 100,
+	damage = "17 x 4",
+	base = 95960,
+	weapon_id = {
+		95971
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95972] = {
+	id = 95972,
+	anti_siren = 200,
+	damage = "17 x 4",
+	base = 95960,
+	weapon_id = {
+		95972
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95973] = {
+	id = 95973,
+	anti_siren = 300,
+	damage = "17 x 4",
+	base = 95960,
+	weapon_id = {
+		95973
 	},
 	hidden_skill_id = {}
 }

@@ -3366,6 +3366,76 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[1003] = {
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22春)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		subject = "クルーズパス(22春)",
+		extra_gem = 0,
+		name_display = "クルーズパス(22春)",
+		limit_arg = 1,
+		money = 1220,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass4",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 1003,
+		airijp_id = "com.yostarjp.azurlane.seasonpass4",
+		extra_service_item = {
+			{
+				1,
+				4004,
+				1500
+			},
+			{
+				8,
+				59281,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4004,
+				1500
+			}
+		},
+		sub_display = {
+			7004,
+			1500
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -3406,6 +3476,7 @@ pg.pay_data_display = {
 		37,
 		1000,
 		1001,
-		1002
+		1002,
+		1003
 	}
 }

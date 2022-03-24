@@ -2438,6 +2438,26 @@ pg.memory_group = {
 			2038
 		}
 	},
+	[212] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 212,
+		title = "幻像の塔・発見編",
+		memories = {
+			2050,
+			2051,
+			2052,
+			2053,
+			2054,
+			2055,
+			2056,
+			2057,
+			2058,
+			2059,
+			2060
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3687,6 +3707,7 @@ pg.memory_group = {
 		209,
 		210,
 		211,
+		212,
 		501,
 		502,
 		503,

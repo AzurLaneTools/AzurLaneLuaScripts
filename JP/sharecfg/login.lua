@@ -1,5 +1,38 @@
 pg = pg or {}
 pg.login = {
+	[0] = {
+		id = 0,
+		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			timer,
+			{
+				{
+					2022,
+					3,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	{
 		id = 1,
 		login_static = "login",
@@ -272,6 +305,7 @@ pg.login = {
 		5,
 		7,
 		8,
-		9
+		9,
+		0
 	}
 }

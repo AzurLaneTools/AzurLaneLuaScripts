@@ -993,32 +993,42 @@ function slot0.updateClouds(slot0)
 	end
 end
 
+function slot0.RefreshMapBG(slot0)
+	slot0:SwitchBG(slot0.currentBG, nil, true)
+end
+
 function slot0.updateCouldAnimator(slot0, slot1, slot2)
 	if slot1 then
-		slot3 = nil
-		slot4 = slot0.mapTFs[slot2]
+		function slot3(slot0)
+			slot1 = Vector3.one
 
-		function slot5()
-			slot0 = Vector3.one
-
-			if uv0.transform.rect.width > 0 and uv0.transform.rect.height > 0 then
-				slot0.x = uv0.transform.parent.rect.width / uv0.transform.rect.width
-				slot0.y = uv0.transform.parent.rect.height / uv0.transform.rect.height
+			if tf(slot0).rect.width > 0 and slot0.rect.height > 0 then
+				slot1.x = slot0.parent.rect.width / slot0.rect.width
+				slot1.y = slot0.parent.rect.height / slot0.rect.height
 			end
 
-			uv0.transform.localScale = slot0
+			slot0.localScale = slot1
+
+			if uv0.contextData.map:getConfig("ani_controller") and #slot3 > 0 then
+				_.each(slot3, function (slot0)
+					if slot0[1] == 1 then
+						slot1 = slot0[2][1]
+
+						if not IsNil(uv0:Find(slot0[2][2])) then
+							setActive(slot3, getProxy(ChapterProxy):getChapterById(slot1, true):isClear())
+						end
+					end
+				end)
+			end
 		end
 
-		slot6 = slot0.loader
+		slot4 = slot0.loader
 
-		table.insert(slot0.mapGroup, slot6:GetPrefab("ui/" .. slot1, slot1, function (slot0)
+		table.insert(slot0.mapGroup, slot4:GetPrefab("ui/" .. slot1, slot1, function (slot0)
 			slot0:SetActive(true)
-
-			uv0 = slot0
-
-			setParent(slot0, uv1)
-			pg.ViewUtils.SetSortingOrder(slot0, ChapterConst.LayerWeightMap + uv2 * 2 - 1)
-			uv3()
+			setParent(slot0, uv0.mapTFs[uv1])
+			pg.ViewUtils.SetSortingOrder(slot0, ChapterConst.LayerWeightMap + uv1 * 2 - 1)
+			uv2(slot0)
 		end))
 	end
 end
@@ -1840,6 +1850,16 @@ function slot0.trackChapter(slot0, slot1, slot2)
 			coroutine.yield()
 		end
 
+		if uv2:isTriesLimit() and not uv2:enoughTimes2Start() then
+			if uv2:IsSpChapter() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
+			end
+
+			return
+		end
+
 		if uv3 then
 			uv3()
 		end
@@ -2074,17 +2094,26 @@ function slot0.switchToMap(slot0, slot1)
 	end
 end
 
-function slot0.SwitchBG(slot0, slot1, slot2)
+function slot0.SwitchBG(slot0, slot1, slot2, slot3)
 	if not slot1 or #slot1 <= 0 then
 		existCall(slot2)
 
 		return
+	elseif slot3 then
+		-- Nothing
 	elseif table.equal(slot0.currentBG, slot1) then
 		return
 	end
 
 	slot0.currentBG = slot1
-	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.mapGroup) do
+		slot0.loader:ClearRequest(slot8)
+	end
+
+	table.clear(slot0.mapGroup)
+
+	slot4 = {}
 
 	table.ParallelIpairsAsync(slot1, function (slot0, slot1, slot2)
 		table.insert(uv0.mapGroup, uv0.loader:GetSpriteDirect("levelmap/" .. slot1.BG, "", function (slot0)
@@ -2148,16 +2177,6 @@ end
 function slot0.SwitchMapBG(slot0, slot1, slot2)
 	slot3, slot4, slot5 = slot0:GetMapBG(slot1, slot2)
 
-	if not slot3 or #slot3 <= 0 or table.equal(slot0.currentBG, slot3) then
-		return
-	end
-
-	for slot9, slot10 in ipairs(slot0.mapGroup) do
-		slot0.loader:ClearRequest(slot10)
-	end
-
-	table.clear(slot0.mapGroup)
-
 	if not slot4 then
 		slot0:SwitchBG(slot3)
 
@@ -2182,7 +2201,7 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 		uv0[slot5],
 		uv0[slot5 + 1]
 	}, function (slot0)
-		return getProxy(ChapterProxy):getMapById(slot0)
+		return getProxy(ChapterProxy):getMapById(slot0, true)
 	end), function (slot0)
 		return slot0:isAllChaptersClear()
 	end) then

@@ -260,6 +260,72 @@ pg.ship_meta_breakout = {
 		pre_id = 9705013,
 		weapon_ids = {}
 	},
+	[9705021] = {
+		breakout_view = "【揺灯の力-山城】習得/主砲砲座+1/主砲補正+5%",
+		gold = 500,
+		breakout_id = 9705022,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705021,
+		item1 = 21010,
+		pre_id = 0,
+		weapon_ids = {
+			34000,
+			34000
+		}
+	},
+	[9705022] = {
+		breakout_view = "副砲砲座+2/主砲補正+10%",
+		gold = 1500,
+		breakout_id = 9705023,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705022,
+		item1 = 21010,
+		pre_id = 9705021,
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[9705023] = {
+		breakout_view = "【揺灯の力-山城】強化/主砲補正+15%",
+		gold = 2500,
+		breakout_id = 9705024,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705023,
+		item1 = 21010,
+		pre_id = 9705022,
+		weapon_ids = {
+			34000,
+			34000
+		}
+	},
+	[9705024] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705024,
+		item1 = 21010,
+		pre_id = 9705023,
+		weapon_ids = {}
+	},
 	[9706011] = {
 		breakout_view = "【炬火の力-飛鷹】習得/攻撃機数+1/艦載機補正+3%",
 		gold = 500,
@@ -622,6 +688,10 @@ pg.ship_meta_breakout = {
 		9705012,
 		9705013,
 		9705014,
+		9705021,
+		9705022,
+		9705023,
+		9705024,
 		9706011,
 		9706012,
 		9706013,

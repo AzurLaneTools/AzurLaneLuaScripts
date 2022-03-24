@@ -532,10 +532,24 @@ function slot0.NeedShopShowHelp(slot0)
 	return false
 end
 
+function slot0.GetTag7Furnitures(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(pg.furniture_data_template.all) do
+		slot9 = pg.furniture_shop_template[slot7]
+
+		if pg.furniture_data_template[slot7].tag == 7 and slot9 and slot9.not_for_sale == 0 and pg.TimeMgr.GetInstance():inTime(slot9.time) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
 function slot0.IsShowRedDot(slot0)
 	slot1 = getProxy(DormProxy)
 
-	return slot1:isLackOfFood() or slot1:havePopEvent()
+	return slot1:isLackOfFood() or slot1:havePopEvent() or getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture()
 end
 
 return slot0
