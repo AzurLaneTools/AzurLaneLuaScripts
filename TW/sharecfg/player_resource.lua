@@ -865,11 +865,6 @@ pg.player_resource = {
 		name = "synchronize_shaenhuosite",
 		itemid = 21906
 	},
-	[40296] = {
-		id = 40296,
-		name = "Twomamori2",
-		itemid = 70079
-	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -919,6 +914,11 @@ pg.player_resource = {
 		id = 40275,
 		name = "Twouxiang_pt",
 		itemid = 59143
+	},
+	[40296] = {
+		id = 40296,
+		name = "Twomamori2",
+		itemid = 70079
 	},
 	[40461] = {
 		id = 40461,
@@ -1450,9 +1450,6 @@ pg.player_resource = {
 		synchronize_shaenhuosite = {
 			3007
 		},
-		Twomamori2 = {
-			40296
-		},
 		twhongran_pt = {
 			3106
 		},
@@ -1482,6 +1479,9 @@ pg.player_resource = {
 		},
 		Twouxiang_pt = {
 			40275
+		},
+		Twomamori2 = {
+			40296
 		},
 		skinTicket40461 = {
 			40461
@@ -1664,7 +1664,6 @@ pg.player_resource = {
 		3005,
 		3006,
 		3007,
-		40296,
 		3106,
 		3137,
 		4001,
@@ -1675,6 +1674,7 @@ pg.player_resource = {
 		4276,
 		100004,
 		40275,
+		40296,
 		40461,
 		40588
 	}

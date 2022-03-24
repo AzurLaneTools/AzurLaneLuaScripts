@@ -17032,7 +17032,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 14,
+		is_show = 26,
 		config_data = {
 			11,
 			12,
