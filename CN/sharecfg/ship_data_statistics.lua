@@ -220134,6 +220134,502 @@ pg.ship_data_statistics = {
 			"Navigatori-Class"
 		}
 	},
+	[601071] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "庞培·马格诺",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601070,
+		english_name = "RN Pompeo Magno",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			457,
+			21,
+			64,
+			29,
+			0,
+			76,
+			0,
+			73,
+			59,
+			51.6,
+			75,
+			51
+		},
+		attrs_growth = {
+			12831,
+			286,
+			833,
+			642,
+			0,
+			531,
+			0,
+			1125,
+			1095,
+			0,
+			0,
+			579
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Capitani Romani-class"
+		}
+	},
+	[601072] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "庞培·马格诺",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601070,
+		english_name = "RN Pompeo Magno",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			568,
+			26,
+			80,
+			36,
+			0,
+			76,
+			0,
+			73,
+			59,
+			51.6,
+			75,
+			64
+		},
+		attrs_growth = {
+			12831,
+			286,
+			833,
+			642,
+			0,
+			531,
+			0,
+			1125,
+			1095,
+			0,
+			0,
+			579
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Capitani Romani-class"
+		}
+	},
+	[601073] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "庞培·马格诺",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601070,
+		english_name = "RN Pompeo Magno",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			791,
+			36,
+			111,
+			51,
+			0,
+			76,
+			0,
+			73,
+			59,
+			51.6,
+			75,
+			89
+		},
+		attrs_growth = {
+			12831,
+			286,
+			833,
+			642,
+			0,
+			531,
+			0,
+			1125,
+			1095,
+			0,
+			0,
+			579
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Capitani Romani-class"
+		}
+	},
+	[601074] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "庞培·马格诺",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601070,
+		english_name = "RN Pompeo Magno",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1126,
+			52,
+			159,
+			72,
+			0,
+			76,
+			0,
+			73,
+			59,
+			51.6,
+			75,
+			127
+		},
+		attrs_growth = {
+			12831,
+			286,
+			833,
+			642,
+			0,
+			531,
+			0,
+			1125,
+			1095,
+			0,
+			0,
+			579
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Capitani Romani-class"
+		}
+	},
 	[602011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -222148,6 +222644,510 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Pola",
 			"Zara-Class"
+		}
+	},
+	[603041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "的里雅斯特",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 603040,
+		english_name = "RN Trieste",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 603041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			630,
+			44,
+			35,
+			36,
+			0,
+			61,
+			0,
+			39,
+			10,
+			28.8,
+			48,
+			0
+		},
+		attrs_growth = {
+			15877,
+			610,
+			485,
+			782,
+			0,
+			422,
+			0,
+			613,
+			482,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			351
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Trento-Class"
+		}
+	},
+	[603042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "的里雅斯特",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 603040,
+		english_name = "RN Trieste",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 603042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			784,
+			55,
+			44,
+			45,
+			0,
+			61,
+			0,
+			39,
+			10,
+			28.8,
+			48,
+			0
+		},
+		attrs_growth = {
+			15877,
+			610,
+			485,
+			782,
+			0,
+			422,
+			0,
+			613,
+			482,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			352
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Trento-Class"
+		}
+	},
+	[603043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "的里雅斯特",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 603040,
+		english_name = "RN Trieste",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 603043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1091,
+			77,
+			61,
+			62,
+			0,
+			61,
+			0,
+			39,
+			10,
+			28.8,
+			48,
+			0
+		},
+		attrs_growth = {
+			15877,
+			610,
+			485,
+			782,
+			0,
+			422,
+			0,
+			613,
+			482,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			353
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.55,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Trento-Class"
+		}
+	},
+	[603044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "的里雅斯特",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 603040,
+		english_name = "RN Trieste",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 603044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1552,
+			109,
+			87,
+			89,
+			0,
+			61,
+			0,
+			39,
+			10,
+			28.8,
+			48,
+			0
+		},
+		attrs_growth = {
+			15877,
+			610,
+			485,
+			782,
+			0,
+			422,
+			0,
+			613,
+			482,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			354
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.7,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Trento-Class"
 		}
 	},
 	[605011] = {
@@ -224620,6 +225620,502 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Aquila"
+		}
+	},
+	[607021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "帝国",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607020,
+		english_name = "RN Impero",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1235,
+			0,
+			0,
+			63,
+			82,
+			45,
+			0,
+			31,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			30130,
+			0,
+			0,
+			1329,
+			1011,
+			310,
+			0,
+			466,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			150,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Impero"
+		}
+	},
+	[607022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "帝国",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607020,
+		english_name = "RN Impero",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1536,
+			0,
+			0,
+			78,
+			102,
+			45,
+			0,
+			31,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			30130,
+			0,
+			0,
+			1329,
+			1011,
+			310,
+			0,
+			466,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			150,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Impero"
+		}
+	},
+	[607023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "帝国",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607020,
+		english_name = "RN Impero",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2139,
+			0,
+			0,
+			109,
+			143,
+			45,
+			0,
+			31,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			30130,
+			0,
+			0,
+			1329,
+			1011,
+			310,
+			0,
+			466,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			150,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Impero"
+		}
+	},
+	[607024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "帝国",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607020,
+		english_name = "RN Impero",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3043,
+			0,
+			0,
+			155,
+			204,
+			45,
+			0,
+			31,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			30130,
+			0,
+			0,
+			1329,
+			1011,
+			310,
+			0,
+			466,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			150,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Impero"
 		}
 	},
 	[608011] = {
@@ -284130,6 +285626,506 @@ pg.ship_data_statistics = {
 			"Fuso"
 		}
 	},
+	[9705021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山城·META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705020,
+		english_name = "Yamashiro.META",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1322,
+			78,
+			0,
+			44,
+			0,
+			54,
+			0,
+			17,
+			6,
+			23,
+			14,
+			0
+		},
+		attrs_growth = {
+			22757,
+			970,
+			0,
+			594,
+			0,
+			375,
+			0,
+			249,
+			159,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YamashiroMETA",
+			"Yamashiro"
+		}
+	},
+	[9705022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山城·META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705020,
+		english_name = "Yamashiro.META",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1644,
+			97,
+			0,
+			55,
+			0,
+			54,
+			0,
+			17,
+			6,
+			23,
+			14,
+			0
+		},
+		attrs_growth = {
+			22757,
+			970,
+			0,
+			594,
+			0,
+			375,
+			0,
+			249,
+			159,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YamashiroMETA",
+			"Yamashiro"
+		}
+	},
+	[9705023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山城·META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705020,
+		english_name = "Yamashiro.META",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2289,
+			136,
+			0,
+			76,
+			0,
+			54,
+			0,
+			17,
+			6,
+			23,
+			14,
+			0
+		},
+		attrs_growth = {
+			22757,
+			970,
+			0,
+			594,
+			0,
+			375,
+			0,
+			249,
+			159,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YamashiroMETA",
+			"Yamashiro"
+		}
+	},
+	[9705024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山城·META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705020,
+		english_name = "Yamashiro.META",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3256,
+			194,
+			0,
+			108,
+			0,
+			54,
+			0,
+			17,
+			6,
+			23,
+			14,
+			0
+		},
+		attrs_growth = {
+			22757,
+			970,
+			0,
+			594,
+			0,
+			375,
+			0,
+			249,
+			159,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YamashiroMETA",
+			"Yamashiro"
+		}
+	},
 	[9706011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -324541,6 +326537,10 @@ pg.ship_data_statistics = {
 		601062,
 		601063,
 		601064,
+		601071,
+		601072,
+		601073,
+		601074,
 		602011,
 		602012,
 		602013,
@@ -324557,6 +326557,10 @@ pg.ship_data_statistics = {
 		603032,
 		603033,
 		603034,
+		603041,
+		603042,
+		603043,
+		603044,
 		605011,
 		605012,
 		605013,
@@ -324577,6 +326581,10 @@ pg.ship_data_statistics = {
 		607012,
 		607013,
 		607014,
+		607021,
+		607022,
+		607023,
+		607024,
 		608011,
 		608012,
 		608013,
@@ -325048,6 +327056,10 @@ pg.ship_data_statistics = {
 		9705012,
 		9705013,
 		9705014,
+		9705021,
+		9705022,
+		9705023,
+		9705024,
 		9706011,
 		9706012,
 		9706013,

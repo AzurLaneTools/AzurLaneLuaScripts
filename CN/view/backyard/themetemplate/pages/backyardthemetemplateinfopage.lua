@@ -99,6 +99,7 @@ function slot0.UpdatePurchaseBtn(slot0)
 			id = slot0
 		}):inTime() and slot1:canPurchaseByDormMoeny()
 	end))
+	setActive(slot0.purchaseAllBtn, false)
 end
 
 return slot0

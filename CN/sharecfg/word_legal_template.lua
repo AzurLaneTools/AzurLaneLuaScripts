@@ -3765,6 +3765,17 @@ function temp()
 			["改"] = {
 				this = true
 			}
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5551,6 +5562,32 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["的"] = {
+		["里"] = {
+			["雅"] = {
+				["斯"] = {
+					["特"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["帝"] = {
+		["国"] = {
+			this = true
 		}
 	}
 end

@@ -79,7 +79,11 @@ end
 
 function slot0.onConfirm(slot0)
 	if slot0.chapter:isTriesLimit() and not slot1:enoughTimes2Start() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
+		if slot1:IsSpChapter() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
+		end
 
 		return
 	end
@@ -942,7 +946,11 @@ function slot0.setOnHard(slot0, slot1)
 
 	onButton(slot0, slot0.btnGo, function ()
 		if uv0:isTriesLimit() and not uv0:enoughTimes2Start() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
+			if uv0:IsSpChapter() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
+			end
 
 			return
 		end

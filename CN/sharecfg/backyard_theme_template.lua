@@ -3233,7 +3233,7 @@ pg.backyard_theme_template = {
 		desc = "享受欢乐的学园生活啾！",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "sc2themeicon",
 		deblocking = 1,
 		order = 79,
@@ -3480,6 +3480,42 @@ pg.backyard_theme_template = {
 			86301
 		}
 	},
+	[87] = {
+		Cfg_1 = 5,
+		name = "校园之风",
+		hot = 1,
+		is_view = 1,
+		id = 87,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "暖风吹过，新的学期要开始啦！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "sc3themeicon",
+		deblocking = 1,
+		order = 88,
+		ids = {
+			87001,
+			87002,
+			87101,
+			87102,
+			87107,
+			87112,
+			87113,
+			87115,
+			87116,
+			87117,
+			87118,
+			87121,
+			87123,
+			87124,
+			87126,
+			87127,
+			87130,
+			87131
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3558,6 +3594,7 @@ pg.backyard_theme_template = {
 		83,
 		84,
 		85,
-		86
+		86,
+		87
 	}
 }

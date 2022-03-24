@@ -888,6 +888,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[26] = {
+		spine_extra = "",
+		describe = "特殊家具：庞培·马格诺号驱逐舰1:100舰船模型",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "luomatongshuaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "庞培·马格诺号船模",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "chuanmo/luomatongshuai",
+		canputon = 0,
+		id = 26,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[101] = {
 		spine_extra = "",
 		describe = "内测期间完成指定任务，由司令部发放的荣耀之证\n<color=#ffde38>——纪念在2017.4.18—4.26的光荣作战</color>",
@@ -8403,6 +8440,80 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100036] = {
+		spine_extra = "",
+		describe = "解开科学之谜啾！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "球状闪电发生器",
+		themeId = 0,
+		icon = "qiuzhuangshandianfashengqiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100036,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiuzhuangshandianfashengqiB",
+				"normal"
+			},
+			{
+				"qiuzhuangshandianfashengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -105393,6 +105504,707 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[87001] = {
+		spine_extra = "",
+		describe = "暖风吹过，新的学期要开始啦！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "校园之风地板",
+		effect = "",
+		advice = 0,
+		icon = "dibansc3icon",
+		spine_action_replace = "",
+		picture = "sc3/dibansc3",
+		comfortable = 4,
+		canputon = 0,
+		id = 87001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87002] = {
+		spine_extra = "",
+		describe = "暖风吹过，新的学期要开始啦！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "校园之风墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbisc3icon",
+		spine_action_replace = "",
+		picture = "sc3/qiangbisc3",
+		comfortable = 4,
+		canputon = 0,
+		id = 87002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87101] = {
+		spine_extra = "",
+		describe = "正在招人的社团有…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gonggaobansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园公告板",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/gonggaobansc3",
+		canputon = 0,
+		id = 87101,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87102] = {
+		spine_extra = "",
+		describe = "白天是不会开灯的。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 1,
+		icon = "dengsc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园路灯",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/dengsc3",
+		canputon = 0,
+		id = 87102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87107] = {
+		spine_extra = "",
+		describe = "校园中的点滴绿意。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 1,
+		icon = "guanmusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园灌木",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/guanmusc3",
+		canputon = 0,
+		id = 87107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87112] = {
+		spine_extra = "",
+		describe = "学而时习之，不亦乐…啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiudiaoxiangsc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学者啾雕像",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/jiujiudiaoxiangsc3",
+		canputon = 0,
+		id = 87112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87113] = {
+		spine_extra = "",
+		describe = "要迟到了要迟到了啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "jkjiusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "水手服啾",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/jkjiusc3",
+		canputon = 0,
+		id = 87113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87115] = {
+		spine_extra = "",
+		describe = "下个被苹果砸出灵感的会是谁？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pingguoshusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园行道树",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/pingguoshusc3",
+		canputon = 0,
+		id = 87115,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87116] = {
+		spine_extra = "",
+		describe = "一日之计在于晨，跑起来~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shibanlusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园石板路",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "sc3/shibanlusc3",
+		canputon = 0,
+		id = 87116,
+		can_rotate = 0,
+		size = {
+			5,
+			15
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87117] = {
+		spine_extra = "",
+		describe = "好，中午就在水池边吃便当吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuichisc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园水池",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/shuichisc3",
+		canputon = 0,
+		id = 87117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-144
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/shuichisc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87118] = {
+		spine_extra = "",
+		describe = "又到了樱花散落的季节…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "shusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园樱树",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/shusc3",
+		canputon = 0,
+		id = 87118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87121] = {
+		spine_extra = "",
+		describe = "叽叽~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "songshusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园小松鼠",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/songshusc3",
+		canputon = 0,
+		id = 87121,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87123] = {
+		spine_extra = "",
+		describe = "进图书馆请保持安静~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tushuguansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园图书馆",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/tushuguansc3",
+		canputon = 0,
+		id = 87123,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87124] = {
+		spine_extra = "",
+		describe = "这里是通往教室的捷径！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaodaosc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园小径",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/xiaodaosc3",
+		canputon = 0,
+		id = 87124,
+		can_rotate = 0,
+		size = {
+			12,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-77.3,
+					-50.9
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/xiaodaosc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87126] = {
+		spine_extra = "",
+		describe = "在蓝天下享受美食吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yecantansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "午休餐毯",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/yecantansc3",
+		canputon = 0,
+		id = 87126,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					40,
+					30
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87127] = {
+		spine_extra = "",
+		describe = "走累了就休息下！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "yizisc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园长椅",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/yizisc3",
+		canputon = 0,
+		id = 87127,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87130] = {
+		spine_extra = "",
+		describe = "还有多久才能放学呢…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhonglousc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园钟楼",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/zhonglousc3",
+		canputon = 0,
+		id = 87130,
+		can_rotate = 0,
+		size = {
+			9,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87131] = {
+		spine_extra = "",
+		describe = "马上就要上课了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuanlousc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园教学楼",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/zhuanlousc3",
+		canputon = 0,
+		id = 87131,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -105418,6 +106230,7 @@ pg.furniture_data_template = {
 		23,
 		24,
 		25,
+		26,
 		101,
 		102,
 		103,
@@ -105551,6 +106364,7 @@ pg.furniture_data_template = {
 		100033,
 		100034,
 		100035,
+		100036,
 		200001,
 		200002,
 		200003,
@@ -107764,6 +108578,24 @@ pg.furniture_data_template = {
 		86117,
 		86119,
 		86122,
-		86301
+		86301,
+		87001,
+		87002,
+		87101,
+		87102,
+		87107,
+		87112,
+		87113,
+		87115,
+		87116,
+		87117,
+		87118,
+		87121,
+		87123,
+		87124,
+		87126,
+		87127,
+		87130,
+		87131
 	}
 }

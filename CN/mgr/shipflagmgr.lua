@@ -43,8 +43,8 @@ slot2 = {
 	inActivity = function ()
 		slot0 = {}
 
-		for slot6, slot7 in pairs(_.values(getProxy(FleetProxy):getActivityFleets())) do
-			slot0[slot6] = _.flatten(_.map(_.values(slot7), function (slot0)
+		for slot5, slot6 in pairs(getProxy(FleetProxy):getActivityFleets()) do
+			slot0[slot5] = _.flatten(_.map(_.values(slot6), function (slot0)
 				return slot0.ships
 			end))
 		end

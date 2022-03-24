@@ -54,7 +54,17 @@ function slot0.getRestDays(slot0)
 	slot3.month = slot3.month + 1
 	slot3.day = 0
 
-	return math.max(os.date("%d", os.time(slot3)) - slot2.day + 1, 1)
+	print(slot0.__cname, ">>>", "month : ", slot3.month, "osTime(next):", os.time(slot3), "serverTime:", slot1:GetServerTime())
+
+	slot4 = os.date("%d", os.time(slot3))
+
+	print(slot0.__cname, "<<<", "osdate:", slot4, "serverDate:", slot2.day)
+
+	slot5 = math.max(slot4 - slot2.day + 1, 1)
+
+	print(slot0.__cname, "<<>>", "calcdate:", slot5)
+
+	return slot5
 end
 
 function slot0.GetRestTime(slot0)

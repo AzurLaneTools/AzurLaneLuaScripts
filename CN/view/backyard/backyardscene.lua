@@ -62,6 +62,7 @@ function slot0.init(slot0)
 	slot0.buffTip = slot0:findTF("main/rightPanel/buffListPanel/tip")
 	slot0.UIMain = pg.UIMgr.GetInstance().OverlayMain
 	slot0.shopBtn = slot0:findTF("shop_btn", slot0.bottomPanel)
+	slot0.shopTip = slot0:findTF("shop_btn/tip", slot0.bottomPanel)
 	slot0.shareBtn = slot0:findTF("share_btn", slot0.bottomPanel)
 	slot0.themeTemplateBtn = slot0:findTF("theme_template_btn", slot0.bottomPanel)
 	slot0.renameBox = slot0:findTF("rename_box")
@@ -112,6 +113,11 @@ function slot0.didEnter(slot0)
 	onToggle(slot0, slot0.eyeBtn, function (slot0)
 		uv0:switch2View(slot0)
 	end, SFX_PANEL)
+	slot0:UpdateShopTip()
+end
+
+function slot0.UpdateShopTip(slot0)
+	setActive(slot0.shopTip, getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture())
 end
 
 function slot0.OnLoaded(slot0)

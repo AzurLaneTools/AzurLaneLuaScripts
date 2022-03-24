@@ -29688,6 +29688,75 @@ _G.pg.ship_data_breakout[601064] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.ship_data_breakout[601071] = {
+	use_gold = 1000,
+	breakout_view = "获得专属弹幕I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 60107,
+	breakout_id = 601072,
+	level = 10,
+	id = 601071,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		79831
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[601072] = {
+	use_gold = 3000,
+	breakout_view = "主炮底座+1/鱼雷预装填+1/防空炮效率提高10%",
+	use_char_num = 1,
+	use_char = 60107,
+	breakout_id = 601073,
+	level = 30,
+	id = 601072,
+	icon = "10001",
+	pre_id = 601071,
+	use_item = {},
+	weapon_ids = {
+		107,
+		107
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[601073] = {
+	use_gold = 10000,
+	breakout_view = "专属弹幕升级/全武器效率提高5%",
+	use_char_num = 2,
+	use_char = 60107,
+	breakout_id = 601074,
+	level = 70,
+	id = 601073,
+	icon = "10001",
+	pre_id = 601072,
+	use_item = {},
+	weapon_ids = {
+		79832
+	},
+	ultimate_bonus = {
+		"AUX"
+	}
+}
+
+_G.pg.ship_data_breakout[601074] = {
+	use_gold = 0,
+	breakout_view = "无",
+	use_char_num = 0,
+	use_char = 60107,
+	breakout_id = 0,
+	level = 0,
+	id = 601074,
+	icon = "10001",
+	pre_id = 601073,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.ship_data_breakout[602011] = {
 	use_gold = 1000,
 	breakout_view = "获得专属弹幕I/主炮效率提高5%",
@@ -29951,6 +30020,73 @@ _G.pg.ship_data_breakout[603034] = {
 	id = 603034,
 	icon = "10001",
 	pre_id = 603033,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603041] = {
+	use_gold = 500,
+	breakout_view = "获得全弹发射I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 60304,
+	breakout_id = 603042,
+	level = 10,
+	id = 603041,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		75211
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603042] = {
+	use_gold = 1500,
+	breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+	use_char_num = 1,
+	use_char = 60304,
+	breakout_id = 603043,
+	level = 30,
+	id = 603042,
+	icon = "10001",
+	pre_id = 603041,
+	use_item = {},
+	weapon_ids = {
+		105,
+		105
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603043] = {
+	use_gold = 2500,
+	breakout_view = "全弹发射弹幕升级/鱼雷效率提高15%",
+	use_char_num = 2,
+	use_char = 60304,
+	breakout_id = 603044,
+	level = 70,
+	id = 603043,
+	icon = "10001",
+	pre_id = 603042,
+	use_item = {},
+	weapon_ids = {
+		75212
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[603044] = {
+	use_gold = 0,
+	breakout_view = "无",
+	use_char_num = 0,
+	use_char = 60304,
+	breakout_id = 0,
+	level = 0,
+	id = 603044,
+	icon = "10001",
+	pre_id = 603043,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}
@@ -30308,6 +30444,79 @@ _G.pg.ship_data_breakout[607014] = {
 	id = 607014,
 	icon = "10001",
 	pre_id = 607013,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607021] = {
+	use_gold = 1000,
+	breakout_view = "所有鱼雷机+1/鱼雷机效率提高5%",
+	use_char_num = 1,
+	use_char = 60702,
+	breakout_id = 607022,
+	level = 10,
+	id = 607021,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60781,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607022] = {
+	use_gold = 3000,
+	breakout_view = "所有轰炸机+1/轰炸机效率提高10%",
+	use_char_num = 1,
+	use_char = 60702,
+	breakout_id = 607023,
+	level = 30,
+	id = 607022,
+	icon = "10001",
+	pre_id = 607021,
+	use_item = {},
+	weapon_ids = {
+		60782,
+		54014,
+		60782,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607023] = {
+	use_gold = 10000,
+	breakout_view = "所有舰载机+1/鱼雷机效率提高15%/第一武器栏位可以装备轰炸机",
+	use_char_num = 2,
+	use_char = 60702,
+	breakout_id = 607024,
+	level = 70,
+	id = 607023,
+	icon = "10001",
+	pre_id = 607022,
+	use_item = {},
+	weapon_ids = {
+		60783,
+		54015,
+		60783,
+		54015
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[607024] = {
+	use_gold = 0,
+	breakout_view = "无",
+	use_char_num = 0,
+	use_char = 60702,
+	breakout_id = 0,
+	level = 0,
+	id = 607024,
+	icon = "10001",
+	pre_id = 607023,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}
