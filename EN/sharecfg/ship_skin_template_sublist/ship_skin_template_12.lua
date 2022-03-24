@@ -1,105 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_12 = {
-	[306080] = {
-		ship_group = 30608,
-		name = "Chitose",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 306080,
-		group_index = 0,
-		prefab = "qiansui",
-		painting = "qiansui",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Zuihou-class aircraft carrier – Chitose. ",
-		voice_actor = 244,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.745,
-					1.131,
-					0
-				}
-			},
-			plane = {
-				{
-					1.723,
-					1.184,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[306081] = {
 		ship_group = 30608,
 		name = "Summer Shine",
@@ -8557,6 +8457,133 @@ pg.ship_skin_template_12 = {
 							-0.46,
 							1.64,
 							-0.86
+						}
+					}
+				}
+			}
+		}
+	},
+	[401210] = {
+		ship_group = 40121,
+		name = "Wilhelm Heidkamp (Z21)",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 401210,
+		group_index = 0,
+		prefab = "z21",
+		painting = "z21",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 28,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Type 1936-class destroyer, Z21 Wilheim Heidkamp.",
+		voice_actor = 59,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.45,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.45,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.45,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.17,
+							0.42,
+							-0.17
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							1.73,
+							-0.93
 						}
 					}
 				}

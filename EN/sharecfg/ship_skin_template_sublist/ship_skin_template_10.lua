@@ -1,121 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_10 = {
-	[301811] = {
-		ship_group = 30181,
-		name = "New Year's Comfort",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "126",
-		id = 301811,
-		group_index = 1,
-		prefab = "xia_2",
-		painting = "xia_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70297,
-		shop_type_id = 2,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Warm and comforting clothes... Warm and comforting red bean soup... Ahh, I love New Year's.",
-		voice_actor = 216,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.446,
-					0.96,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.449,
-					0.973,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.007,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.433,
-					0.933,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[301812] = {
 		ship_group = 30181,
 		name = "At School with Foo",
@@ -9332,6 +9216,120 @@ pg.ship_skin_template_10 = {
 						{
 							-0.34,
 							2.48,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[303128] = {
+		ship_group = 30312,
+		name = "Lily-White Vow",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 303128,
+		group_index = 8,
+		prefab = "aidang_h",
+		painting = "aidang_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 21,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Commander... Ahh, from now on, shouldn't I call you \"darling?\" Come and hold my hand... Ah, at times like these, I just can't help but to want to eat you up, dar~ling~",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.33,
+					0.71,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.33,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					0.72,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.46,
 							0
 						}
 					}

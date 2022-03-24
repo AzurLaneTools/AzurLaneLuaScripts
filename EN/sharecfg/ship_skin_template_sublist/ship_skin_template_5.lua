@@ -9120,18 +9120,18 @@ pg.ship_skin_template_5 = {
 		},
 		smoke = {}
 	},
-	[202084] = {
-		ship_group = 20208,
-		name = "谢菲尔德换装",
+	[202100] = {
+		ship_group = 20210,
+		name = "Gloucester",
 		bullet_skin_secondary = "",
-		hand_id = 13,
+		hand_id = 1,
 		bgm = "",
 		illustrator2 = -1,
 		bg = "",
-		id = 202084,
-		group_index = 4,
-		prefab = "xiefeierde_5",
-		painting = "xiefeierde_5",
+		id = 202100,
+		group_index = 0,
+		prefab = "geluosite",
+		painting = "geluosite",
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
@@ -9141,7 +9141,7 @@ pg.ship_skin_template_5 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
-		skin_type = 0,
+		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -9150,8 +9150,8 @@ pg.ship_skin_template_5 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "占坑",
-		voice_actor = 88,
+		desc = "Gloucester-class light cruiser – Gloucester (HMS Gloucester.)",
+		voice_actor = 108,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -9191,29 +9191,29 @@ pg.ship_skin_template_5 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.884,
-					1.108,
+					1.12,
+					0.92,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.89,
-					1.172,
+					1.18,
+					0.91,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.058,
-					0.026,
+					0,
+					0.02,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					0.84,
-					1.165,
+					1.15,
+					0.72,
 					0
 				}
 			}
@@ -9225,8 +9225,8 @@ pg.ship_skin_template_5 = {
 					{
 						"smoke",
 						{
-							-0.39,
-							2.2,
+							-0.71,
+							1.92,
 							0
 						}
 					}

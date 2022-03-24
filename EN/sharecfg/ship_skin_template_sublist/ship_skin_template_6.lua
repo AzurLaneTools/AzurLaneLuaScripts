@@ -1,119 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
-	[202100] = {
-		ship_group = 20210,
-		name = "Gloucester",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202100,
-		group_index = 0,
-		prefab = "geluosite",
-		painting = "geluosite",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Gloucester-class light cruiser – Gloucester (HMS Gloucester.)",
-		voice_actor = 108,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.12,
-					0.92,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.18,
-					0.91,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.15,
-					0.72,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.71,
-							1.92,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[202101] = {
 		ship_group = 20210,
 		name = "Brilliance in Purple",
@@ -9390,6 +9276,122 @@ pg.ship_skin_template_6 = {
 		smoke = {
 			{
 				40,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203091] = {
+		ship_group = 20309,
+		name = "Sunlit Tulips",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 203091,
+		group_index = 1,
+		prefab = "susaikesi_2",
+		painting = "susaikesi_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70215,
+		shop_type_id = 6,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "What are you spacing out for? Have you not gotten tired of staring at all the swimsuits yet? Good grief... Are you able to help set up the parasol or the beach chairs at least?",
+		voice_actor = 135,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.573,
+					0.155,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.515,
+					0.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.043,
+					-0.013,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.523,
+					0.181,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
 				{
 					{
 						"smoke",
