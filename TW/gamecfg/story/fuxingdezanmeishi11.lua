@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……不行！维内托大人，飞机在“抵达”墙壁之前遇到了某种奇怪的阻碍。",
+			say = "唔……不行！維內托大人，飛機在“抵達”牆壁之前遇到了某種奇怪的阻礙。",
 			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒不是具体撞上了什么……明明舰载机的引擎在正常运行飞行高度也没有发生变化，但是就像遇到了某种“阻力”一样无法穿过墙壁。",
+			say = "倒不是具體撞上了什麼……明明艦載機的引擎在正常運行飛行高度也沒有發生變化，但是就像遇到了某種“阻力\"一樣無法穿過牆壁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然……侦察机虽然不能直接穿越迷宫墙，但是从上方飞过没问题！通过俯视侦察我可以清晰的了解到迷宫结构！",
+			say = "當然……偵察機雖然不能直接穿越迷宮牆，但是從上方飛過沒問題！通過俯視偵察我可以清晰的了解到迷宮結構！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "维内托大人，这里是陷阱。塞壬既然拥有构建这样复杂迷宫的能力，就肯定有能力完全阻止我们接近这片海域。",
+			say = "維內托大人，這裡是陷阱。塞壬既然擁有構建這樣複雜迷宮的能力，就肯定有能力完全阻止我們接近這片海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是它们却让我们看到了可行的道路……仿佛是在对我们挑衅说，想要找回失踪的舰队就老老实实进入迷宫探索吧。",
+			say = "可是它們卻讓我們看到了可行的道路……彷彿是在對我們挑釁說，想要找回失蹤的艦隊就老老實實進入迷宮探索吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个我当然清楚，不过……我们也没有太多选择。",
+			say = "這個我當然清楚，不過……我們也沒有太多選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "文琴佐舰队大概率已经深入了迷宫之中，利托里奥她们大概也…………",
+			say = "文琴佐艦隊大概已經深入了迷宮之中，利托里奧她們大概也…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本镜面海域就是一个易入难出的陷阱，再加上这样复杂的迷宫，没有航空引导的她们根本不可能靠自己的力量开出来。",
+			say = "原本鏡面海域就是一個易入難出的陷阱，再加上這樣複雜的迷宮，沒有航空引導的她們根本不可能靠自己的力量開出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在有能力救援她们的只有我们了。",
+			say = "現在有能力救援她們的只有我們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "呵呵……天鹰，你的服役真是太及时了。有了来自雄鹰双目的指引，区区迷宫怎么可能挡住我们前进的脚步！",
+			say = "呵呵……天鷹，妳的服役真是太及時了。有了來自雄鷹雙目的指引，區區迷宮怎麼可能擋住我們前進的腳步！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

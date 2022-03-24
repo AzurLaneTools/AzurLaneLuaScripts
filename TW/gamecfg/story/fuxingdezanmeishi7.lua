@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "撒丁帝国塔兰托港·稍早前",
+			say = "薩丁帝國塔蘭托港·稍早前",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			hidePaintObj = true,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "风向逆风，能见度良好，海面平稳，今天是一个适合舰载机飞行的好天气呢~",
+			say = "風向逆風，能見度良好，海面平穩，今天是一個適合艦載機飛行的好天氣呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好。出航准备已经完成了么，天鹰？",
+			say = "很好。出航準備已經完成了嗎，天鷹？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "没问题，维内托大人。舰装各模块运行正常，舰载机队也反复检查过了。",
+			say = "沒問題，維內托大人。艦裝各模組運行正常，艦載機隊也反覆檢查過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就……让我们开始吧~",
+			say = "那就……讓我們開始吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，维内托大人。战斗机编队起飞，为舰队取得天空上的优势吧！",
+			say = "是，維內托大人。戰鬥機編隊起飛，為艦隊取得天空上的優勢吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
-			say = "伴随着悦耳的引擎声，一架架舰载机冲出天鹰的航空甲板，飞向了蔚蓝的天空。",
+			say = "伴隨著悅耳的引擎聲，一架架艦載機衝出天鷹的航空甲板，飛向了蔚藍的天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国花费了大量的心血就是为了今天……航空甲板，弹射系统，舰载机……",
+			say = "帝國花費了大量的心血就是為了今天……航空甲板，彈射系統，艦載機……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "虽然有着来自铁血的技术支援，但是研发过程还是异常辛苦……每一个模块的突破都仿佛在翻越一座高山。",
+			say = "雖然有著來自鐵血的技術支援，但是研發過程還是異常辛苦……每一個模組的突破都彷彿在翻越一座高山。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "帝国的禁卫军有着严重的航空短板，并在此前与皇家的战斗中暴露无遗。",
+			say = "帝國的禁衛軍有著嚴重的航空短板，並在此前與皇家的戰鬥中暴露無遺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "但是，在帝国研发部门无数个日夜的努力下，我们终于将短板补齐了。",
+			say = "但是，在帝國研發部門無數個日夜的努力下，我們終於將短板補齊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从此刻开始，帝国海军拥有了双翼，帝国之鹰将会自由的翱翔于陆间海之上！",
+			say = "從此刻開始，帝國海軍擁有了雙翼，帝國之鷹將會自由的翱翔於地中海之上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "雄鹰双翼所至之处，皆为撒丁帝国力量所至之处！",
+			say = "雄鷹雙翼所至之處，皆為薩丁帝國力量所至之處！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "元老院居然还在有人担心使用航空母舰将会导致大舰巨炮的消亡。",
+			say = "元老院居然還在有人擔心使用航空母艦將會導致大艦巨炮的消亡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "真是一群落后于时代的古董……也许在曾经确实出现过这样的担心。",
+			say = "真是一群落後於時代的古董……也許在過去確實出現過這樣的擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是在舰船自由驰骋的今日，不论是航空母舰还是战列舰都是舰队中必不可缺的存在。",
+			say = "但是在艦船自由馳騁的今日，不論是航空母艦還是戰列艦都是艦隊中必不可缺的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "像皇家那样的海空协同作战战术，我们也终于可以尝试了啊……",
+			say = "像皇家那樣的海空協同作戰戰術，我們也終於可以嘗試了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "不、不止如此，我们要在皇家的基础上开发出适合撒丁帝国风格的全新战术来！",
+			say = "不、不止如此，我們要在皇家的基礎上開發出適合薩丁帝國風格的全新戰術來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_port_talantuo",
 			hidePaintObj = true,
 			dir = 1,
-			say = "随着耳边的引擎声渐渐散去，不知不觉，所有战斗机均已经盘旋在蓝天之上了。",
+			say = "隨著耳邊的引擎聲漸漸散去，不知不覺，所有戰鬥機均已經盤旋在藍天之上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "维内托大人……您是…在想什么么？如果我有做的不好的地方请随时纠正我！",
+			say = "維內托大人……您是…在想什麼嗎？如果我有做的不好的地方請隨時糾正我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，你才是航空战的专家，我怎么有东西能教你呢。你做的很出色，我只是……稍微有些看入神了而已。",
+			say = "呵呵，妳才是航空戰的專家，我怎麼有東西能教妳呢。妳做的很出色，我只是……稍微有些看入神了而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这段时间以来辛苦你了，天鹰。不过今后也许还会更加辛苦哦。",
+			say = "這段時間以來辛苦妳了，天鷹。不過今後也許還會更加辛苦哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "为帝国尽忠是我作为禁卫军的职责，不论多么艰苦的任务都放心交给我吧。",
+			say = "為帝國盡忠是我作為禁衛軍的職責，不論多麼艱苦的任務都放心交給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，很有气势。",
+			say = "很好，很有氣勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "大家快看，天上的飞机正在变换位置哎！",
+			say = "大家快看，天上的飛機正在變換位置哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "这个应该就是被叫做航空编队的舰载机队形吧。",
+			say = "這個應該就是被叫做航空編隊的艦載機隊形吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，航空编队~！根据任务需要，将机群排列成不同的队形可以更好的发挥出舰载机的效能哦，",
+			say = "沒錯，航空編隊~！根據任務需要，將機群排列成不同的隊形可以更好的發揮出艦載機的效能哦，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "好厉害~！不过，现在是什么队形呀，有些看不出来……",
+			say = "好厲害~！不過，現在是什麼隊形呀，有些看不出來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……哎？看不出来么……！呜，看来编队队形的部分还需要再刻苦练习一下才是……！",
+			say = "……哎？看不出來嗎……！嗚，看來編隊隊形的部分還需要再刻苦練習一下才是……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -119027,6 +119027,1668 @@ _G.pg.equip_data_statistics[95563] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[95600] = {
+	tech = 1,
+	name = "三聯裝152mm主炮Model1934",
+	speciality = "鎖定",
+	type = 2,
+	descrip = "薩丁帝國製造的改良型輕巡洋艦主炮",
+	ammo = 1,
+	damage = "5 x 6",
+	nationality = 6,
+	rarity = 3,
+	id = 95600,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 12,
+	icon = "55600",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1713
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1713
+		},
+		{
+			4,
+			1110
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		95600
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.equip_data_statistics[95601] = {
+	id = 95601,
+	damage = "5 x 6",
+	base = 95600,
+	weapon_id = {
+		95601
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95602] = {
+	id = 95602,
+	damage = "6 x 6",
+	base = 95600,
+	weapon_id = {
+		95602
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95603] = {
+	id = 95603,
+	damage = "7 x 6",
+	base = 95600,
+	weapon_id = {
+		95603
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95604] = {
+	id = 95604,
+	damage = "8 x 6",
+	base = 95600,
+	weapon_id = {
+		95604
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95605] = {
+	id = 95605,
+	damage = "9 x 6",
+	base = 95600,
+	weapon_id = {
+		95605
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95606] = {
+	id = 95606,
+	damage = "10 x 6",
+	base = 95600,
+	weapon_id = {
+		95606
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95640] = {
+	tech = 3,
+	name = "三聯裝152mm主炮Model1934",
+	speciality = "鎖定",
+	type = 2,
+	descrip = "薩丁帝國製造的改良型輕巡洋艦主炮",
+	ammo = 1,
+	damage = "6 x 6",
+	nationality = 6,
+	rarity = 5,
+	id = 95640,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "55600",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1713
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1713
+		},
+		{
+			4,
+			1110
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		95640
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.equip_data_statistics[95641] = {
+	id = 95641,
+	damage = "6 x 6",
+	base = 95640,
+	weapon_id = {
+		95641
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95642] = {
+	id = 95642,
+	damage = "7 x 6",
+	base = 95640,
+	weapon_id = {
+		95642
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95643] = {
+	id = 95643,
+	damage = "8 x 6",
+	base = 95640,
+	weapon_id = {
+		95643
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95644] = {
+	id = 95644,
+	damage = "9 x 6",
+	base = 95640,
+	weapon_id = {
+		95644
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95645] = {
+	id = 95645,
+	damage = "10 x 6",
+	base = 95640,
+	weapon_id = {
+		95645
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95646] = {
+	id = 95646,
+	damage = "11 x 6",
+	base = 95640,
+	weapon_id = {
+		95646
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95647] = {
+	id = 95647,
+	damage = "12 x 6",
+	base = 95640,
+	weapon_id = {
+		95647
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95648] = {
+	id = 95648,
+	damage = "13 x 6",
+	base = 95640,
+	weapon_id = {
+		95648
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95649] = {
+	id = 95649,
+	damage = "14 x 6",
+	base = 95640,
+	weapon_id = {
+		95649
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95650] = {
+	id = 95650,
+	damage = "15 x 6",
+	base = 95640,
+	weapon_id = {
+		95650
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95651] = {
+	id = 95651,
+	anti_siren = 100,
+	damage = "15 x 6",
+	base = 95640,
+	weapon_id = {
+		95651
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95652] = {
+	id = 95652,
+	anti_siren = 200,
+	damage = "15 x 6",
+	base = 95640,
+	weapon_id = {
+		95652
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95653] = {
+	id = 95653,
+	anti_siren = 300,
+	damage = "15 x 6",
+	base = 95640,
+	weapon_id = {
+		95653
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95700] = {
+	tech = 1,
+	name = "潛艇用533mm魚雷Si 270",
+	speciality = "雷擊",
+	type = 13,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "42 x 2",
+	nationality = 6,
+	rarity = 3,
+	id = 95700,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 12,
+	icon = "55700",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1836
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1836
+		},
+		{
+			4,
+			1601
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		95700
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		8,
+		17
+	},
+	part_sub = {
+		8,
+		17
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"SS",
+		"TP"
+	}
+}
+
+_G.pg.equip_data_statistics[95701] = {
+	id = 95701,
+	damage = "50 x 2",
+	base = 95700,
+	weapon_id = {
+		95701
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95702] = {
+	id = 95702,
+	damage = "58 x 2",
+	base = 95700,
+	weapon_id = {
+		95702
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95703] = {
+	id = 95703,
+	damage = "66 x 2",
+	base = 95700,
+	weapon_id = {
+		95703
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95704] = {
+	id = 95704,
+	damage = "74 x 2",
+	base = 95700,
+	weapon_id = {
+		95704
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95705] = {
+	id = 95705,
+	damage = "82 x 2",
+	base = 95700,
+	weapon_id = {
+		95705
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95706] = {
+	id = 95706,
+	damage = "90 x 2",
+	base = 95700,
+	weapon_id = {
+		95706
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95720] = {
+	rarity = 2,
+	name = "G.50箭式戰鬥機",
+	speciality = "空戰",
+	type = 7,
+	tech = 1,
+	ammo = 5,
+	nationality = 6,
+	descrip = "说明未填写",
+	id = 95720,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 5,
+	icon = "55720",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50700
+		},
+		{
+			5,
+			52200
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		95720,
+		86000
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.equip_data_statistics[95721] = {
+	id = 95721,
+	base = 95720,
+	ammo_info = {
+		{
+			6,
+			50701
+		},
+		{
+			5,
+			52201
+		}
+	},
+	weapon_id = {
+		95721,
+		86001
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95722] = {
+	id = 95722,
+	base = 95720,
+	ammo_info = {
+		{
+			6,
+			50702
+		},
+		{
+			5,
+			52202
+		}
+	},
+	weapon_id = {
+		95722,
+		86002
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95723] = {
+	id = 95723,
+	base = 95720,
+	ammo_info = {
+		{
+			6,
+			50703
+		},
+		{
+			5,
+			52203
+		}
+	},
+	weapon_id = {
+		95723,
+		86003
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95740] = {
+	rarity = 3,
+	name = "G.50箭式戰鬥機",
+	speciality = "空戰",
+	type = 7,
+	tech = 2,
+	ammo = 5,
+	nationality = 6,
+	descrip = "说明未填写",
+	id = 95740,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 12,
+	icon = "55720",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50720
+		},
+		{
+			5,
+			52220
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		95740,
+		86020
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.equip_data_statistics[95741] = {
+	id = 95741,
+	base = 95740,
+	ammo_info = {
+		{
+			6,
+			50721
+		},
+		{
+			5,
+			52221
+		}
+	},
+	weapon_id = {
+		95741,
+		86021
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95742] = {
+	id = 95742,
+	base = 95740,
+	ammo_info = {
+		{
+			6,
+			50722
+		},
+		{
+			5,
+			52222
+		}
+	},
+	weapon_id = {
+		95742,
+		86022
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95743] = {
+	id = 95743,
+	base = 95740,
+	ammo_info = {
+		{
+			6,
+			50723
+		},
+		{
+			5,
+			52223
+		}
+	},
+	weapon_id = {
+		95743,
+		86023
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95744] = {
+	id = 95744,
+	base = 95740,
+	ammo_info = {
+		{
+			6,
+			50724
+		},
+		{
+			5,
+			52224
+		}
+	},
+	weapon_id = {
+		95744,
+		86024
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95745] = {
+	id = 95745,
+	base = 95740,
+	ammo_info = {
+		{
+			6,
+			50725
+		},
+		{
+			5,
+			52225
+		}
+	},
+	weapon_id = {
+		95745,
+		86025
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95746] = {
+	id = 95746,
+	base = 95740,
+	ammo_info = {
+		{
+			6,
+			50726
+		},
+		{
+			5,
+			52226
+		}
+	},
+	weapon_id = {
+		95746,
+		86026
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95760] = {
+	rarity = 4,
+	name = "G.50箭式戰鬥機",
+	speciality = "空戰",
+	type = 7,
+	tech = 3,
+	ammo = 5,
+	nationality = 6,
+	descrip = "说明未填写",
+	id = 95760,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "55720",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50740
+		},
+		{
+			5,
+			52240
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		95760,
+		86040
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.equip_data_statistics[95761] = {
+	id = 95761,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50741
+		},
+		{
+			5,
+			52241
+		}
+	},
+	weapon_id = {
+		95761,
+		86041
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95762] = {
+	id = 95762,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50742
+		},
+		{
+			5,
+			52242
+		}
+	},
+	weapon_id = {
+		95762,
+		86042
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95763] = {
+	id = 95763,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50743
+		},
+		{
+			5,
+			52243
+		}
+	},
+	weapon_id = {
+		95763,
+		86043
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95764] = {
+	id = 95764,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50744
+		},
+		{
+			5,
+			52244
+		}
+	},
+	weapon_id = {
+		95764,
+		86044
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95765] = {
+	id = 95765,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50745
+		},
+		{
+			5,
+			52245
+		}
+	},
+	weapon_id = {
+		95765,
+		86045
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95766] = {
+	id = 95766,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50746
+		},
+		{
+			5,
+			52246
+		}
+	},
+	weapon_id = {
+		95766,
+		86046
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95767] = {
+	id = 95767,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50747
+		},
+		{
+			5,
+			52247
+		}
+	},
+	weapon_id = {
+		95767,
+		86047
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95768] = {
+	id = 95768,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50748
+		},
+		{
+			5,
+			52248
+		}
+	},
+	weapon_id = {
+		95768,
+		86048
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95769] = {
+	id = 95769,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50749
+		},
+		{
+			5,
+			52249
+		}
+	},
+	weapon_id = {
+		95769,
+		86049
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95770] = {
+	id = 95770,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50750
+		},
+		{
+			5,
+			52250
+		}
+	},
+	weapon_id = {
+		95770,
+		86050
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95771] = {
+	id = 95771,
+	anti_siren = 100,
+	base = 95760,
+	ammo_info = {
+		{
+			6,
+			50751
+		},
+		{
+			5,
+			52251
+		}
+	},
+	weapon_id = {
+		95771,
+		86051
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95800] = {
+	rarity = 2,
+	name = "Re.2001公羊",
+	speciality = "空戰",
+	type = 7,
+	tech = 1,
+	ammo = 5,
+	nationality = 6,
+	descrip = "说明未填写",
+	id = 95800,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 5,
+	icon = "55800",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50000
+		},
+		{
+			6,
+			50700
+		},
+		{
+			5,
+			52200
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		95800,
+		86060
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.equip_data_statistics[95801] = {
+	id = 95801,
+	base = 95800,
+	ammo_info = {
+		{
+			6,
+			50001
+		},
+		{
+			6,
+			50701
+		},
+		{
+			5,
+			52201
+		}
+	},
+	weapon_id = {
+		95801,
+		86061
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95802] = {
+	id = 95802,
+	base = 95800,
+	ammo_info = {
+		{
+			6,
+			50002
+		},
+		{
+			6,
+			50702
+		},
+		{
+			5,
+			52202
+		}
+	},
+	weapon_id = {
+		95802,
+		86062
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95803] = {
+	id = 95803,
+	base = 95800,
+	ammo_info = {
+		{
+			6,
+			50003
+		},
+		{
+			6,
+			50703
+		},
+		{
+			5,
+			52203
+		}
+	},
+	weapon_id = {
+		95803,
+		86063
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95820] = {
+	rarity = 3,
+	name = "Re.2001公羊",
+	speciality = "空戰",
+	type = 7,
+	tech = 2,
+	ammo = 5,
+	nationality = 6,
+	descrip = "说明未填写",
+	id = 95820,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 12,
+	icon = "55800",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50020
+		},
+		{
+			6,
+			50720
+		},
+		{
+			5,
+			52220
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		95820,
+		86080
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.equip_data_statistics[95821] = {
+	id = 95821,
+	base = 95820,
+	ammo_info = {
+		{
+			6,
+			50021
+		},
+		{
+			6,
+			50721
+		},
+		{
+			5,
+			52221
+		}
+	},
+	weapon_id = {
+		95821,
+		86081
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95822] = {
+	id = 95822,
+	base = 95820,
+	ammo_info = {
+		{
+			6,
+			50022
+		},
+		{
+			6,
+			50722
+		},
+		{
+			5,
+			52222
+		}
+	},
+	weapon_id = {
+		95822,
+		86082
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95823] = {
+	id = 95823,
+	base = 95820,
+	ammo_info = {
+		{
+			6,
+			50023
+		},
+		{
+			6,
+			50723
+		},
+		{
+			5,
+			52223
+		}
+	},
+	weapon_id = {
+		95823,
+		86083
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95824] = {
+	id = 95824,
+	base = 95820,
+	ammo_info = {
+		{
+			6,
+			50024
+		},
+		{
+			6,
+			50724
+		},
+		{
+			5,
+			52224
+		}
+	},
+	weapon_id = {
+		95824,
+		86084
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95825] = {
+	id = 95825,
+	base = 95820,
+	ammo_info = {
+		{
+			6,
+			50025
+		},
+		{
+			6,
+			50725
+		},
+		{
+			5,
+			52225
+		}
+	},
+	weapon_id = {
+		95825,
+		86085
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95826] = {
+	id = 95826,
+	base = 95820,
+	ammo_info = {
+		{
+			6,
+			50026
+		},
+		{
+			6,
+			50726
+		},
+		{
+			5,
+			52226
+		}
+	},
+	weapon_id = {
+		95826,
+		86086
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95840] = {
+	rarity = 4,
+	name = "Re.2001公羊",
+	speciality = "空戰",
+	type = 7,
+	tech = 3,
+	ammo = 5,
+	nationality = 6,
+	descrip = "说明未填写",
+	id = 95840,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "55800",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50040
+		},
+		{
+			6,
+			50740
+		},
+		{
+			5,
+			52240
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		95840,
+		86100
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.equip_data_statistics[95841] = {
+	id = 95841,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50041
+		},
+		{
+			6,
+			50741
+		},
+		{
+			5,
+			52241
+		}
+	},
+	weapon_id = {
+		95841,
+		86101
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95842] = {
+	id = 95842,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50042
+		},
+		{
+			6,
+			50742
+		},
+		{
+			5,
+			52242
+		}
+	},
+	weapon_id = {
+		95842,
+		86102
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95843] = {
+	id = 95843,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50043
+		},
+		{
+			6,
+			50743
+		},
+		{
+			5,
+			52243
+		}
+	},
+	weapon_id = {
+		95843,
+		86103
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95844] = {
+	id = 95844,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50044
+		},
+		{
+			6,
+			50744
+		},
+		{
+			5,
+			52244
+		}
+	},
+	weapon_id = {
+		95844,
+		86104
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95845] = {
+	id = 95845,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50045
+		},
+		{
+			6,
+			50745
+		},
+		{
+			5,
+			52245
+		}
+	},
+	weapon_id = {
+		95845,
+		86105
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95846] = {
+	id = 95846,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50046
+		},
+		{
+			6,
+			50746
+		},
+		{
+			5,
+			52246
+		}
+	},
+	weapon_id = {
+		95846,
+		86106
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95847] = {
+	id = 95847,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50047
+		},
+		{
+			6,
+			50747
+		},
+		{
+			5,
+			52247
+		}
+	},
+	weapon_id = {
+		95847,
+		86107
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95848] = {
+	id = 95848,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50048
+		},
+		{
+			6,
+			50748
+		},
+		{
+			5,
+			52248
+		}
+	},
+	weapon_id = {
+		95848,
+		86108
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95849] = {
+	id = 95849,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50049
+		},
+		{
+			6,
+			50749
+		},
+		{
+			5,
+			52249
+		}
+	},
+	weapon_id = {
+		95849,
+		86109
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95850] = {
+	id = 95850,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50050
+		},
+		{
+			6,
+			50750
+		},
+		{
+			5,
+			52250
+		}
+	},
+	weapon_id = {
+		95850,
+		86110
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[95851] = {
+	id = 95851,
+	anti_siren = 100,
+	base = 95840,
+	ammo_info = {
+		{
+			6,
+			50051
+		},
+		{
+			6,
+			50751
+		},
+		{
+			5,
+			52251
+		}
+	},
+	weapon_id = {
+		95851,
+		86111
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[100000] = {
 	type = 0,
 	name = "裝備模板",
@@ -119419,6 +121081,368 @@ _G.pg.equip_data_statistics[630024] = {
 	},
 	part_sub = {
 		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630050] = {
+	type = 2,
+	name = "【愚人节活动2022】金布里特殊钻头",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630050,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630050
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630053] = {
+	type = 2,
+	name = "【愚人节活动2022】紫布里武器",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630053,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630053
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630054] = {
+	type = 2,
+	name = "【愚人节活动2022】紫布里武器",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630054,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630054
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630055] = {
+	type = 5,
+	name = "【愚人节活动2022】紫布里四联鱼雷",
+	speciality = "雷击",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630055,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630055
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630056] = {
+	type = 11,
+	name = "【愚人节活动2022】彩布里主炮武器",
+	speciality = "跨射",
+	tech = 3,
+	rarity = 4,
+	ammo = 1,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630056,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630056
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630057] = {
+	type = 2,
+	name = "【愚人节活动2022】彩布里特殊弹幕",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630057,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630057
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630058] = {
+	type = 5,
+	name = "【愚人节活动2022】彩布里五联鱼雷",
+	speciality = "雷击",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630058,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630058
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630059] = {
+	type = 9,
+	name = "【愚人节活动2022】金布里鱼雷机",
+	speciality = "轰炸",
+	tech = 3,
+	rarity = 5,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630059,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630059
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630060] = {
+	type = 8,
+	name = "【愚人节活动2022】金布里轰炸机",
+	speciality = "雷击",
+	tech = 3,
+	rarity = 5,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630060,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630060
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
 	},
 	equip_parameters = {},
 	label = {}

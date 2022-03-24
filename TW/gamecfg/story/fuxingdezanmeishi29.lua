@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "story-6",
 			dir = 1,
-			say = "哟，“米诺陶诺斯”，我们来迷宫里讨伐你了哦。",
+			say = "喲，“米諾陶洛斯”，我們來迷宮裡討伐妳了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 605010,
 			dir = 1,
-			say = "根据装备判断是塞壬的测试者呢。塞壬的人型指挥者通常也是镜面海域的控制者，只要解决了你就等于解决了整片区域的塞壬问题吧！",
+			say = "根據裝備判斷是塞壬的測試者呢。塞壬的人型指揮者通常也是鏡面海域的控制者，只要解決了妳就等於解決了整片區域的塞壬問題吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "——————与计算中分毫不差。",
+			say = "…………與計算中分毫不差。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "就算是这样的重现也没有出现任何预料之外的变化————",
+			say = "就算是這樣的重現也沒有出現任何預料之外的變化……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能让我们彻底走出过去的阴影，某种意义上还要感谢你准备的机关。",
+			say = "能讓我們徹底走出過去的陰影，某種意義上還要感謝妳準備的機關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			actor = 605010,
 			dir = 1,
-			say = "现在撒丁帝国将会真正驶向辉煌的未来，至于你，该到退场的时间了！",
+			say = "現在薩丁帝國將會真正駛向輝煌的未來，至於妳，該到退場的時間了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "均是封闭的环境，对于场景的不完全重现，均没有接触过“变量”————",
+			say = "均是封閉的環境，對於場景的不完全重現，均沒有接觸過“變量”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "为什么之前发生了变化而这次没有————究竟区别在哪里————无法得出有效结论。",
+			say = "為什麼之前發生了變化而這次沒有……究竟區別在哪裡……無法得出有效結論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			actor = 605010,
 			dir = 1,
-			say = "喂，测试者，你有在听么！",
+			say = "喂，測試者，妳有在聽嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "更多的测试是必要的，正在对当前结果进行汇总以纳入归纳————————",
+			say = "更多的測試是必要的，正在對當前結果進行匯總以納入歸納…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于我们的发问完全没有反应，听说塞壬人型指挥者都是能够正常交流的存在，情报有误？",
+			say = "對於我們的發問完全沒有反應，聽說塞壬人型指揮者都是能夠正常交流的存在，情報有誤？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			actor = 607010,
 			dir = 1,
-			say = "会不会是故障之类的……或者说塞壬的测试者就是这样不理人的性格……？",
+			say = "會不會是故障之類的……或者說塞壬的測試者就是這樣不理人的性格……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			actor = 605010,
 			dir = 1,
-			say = "我不知道……我也是第一次实际当面见到测试者……",
+			say = "我不知道……我也是第一次實際當面見到測試者……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要动手么…？既然确定了是罪魁祸首，我们干脆点直接上吧！",
+			say = "要動手嗎…？既然確定了是罪魁禍首，我們乾脆點直接上吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			actor = 601040,
 			dir = 1,
-			say = "在这种情况下打过去，应该说不够堂堂正正，或者说缺乏开战感……总有种说不出来的感觉。",
+			say = "在這種情況下打過去，應該說不夠堂堂正正，或者說缺乏開戰感……總有種說不出來的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。现在发起攻击的话总有一种趁人不备进行偷袭的感觉……就和皇家喜欢做的事一样。",
+			say = "同感。現在發起攻擊的話總有一種趁人不備進行偷襲的感覺……就和皇家喜歡做的事一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果真的是因为故障无法行动的话，请务保留一些完整的部件拆下来，唔呼呼……",
+			say = "如果真的是因為故障無法行動的話，請務保留一些完整的部件拆下來，唔呼呼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "————————数据汇总完毕。主炮发射准备中————————",
+			say = "————————數據匯總完畢。主炮發射準備中————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇哇！测试者巨大的主炮好像要开火了哎！",
+			say = "嗚哇哇！測試者巨大的主炮好像要開火了哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "切，没有出故障啊，真遗憾………………",
+			say = "切，沒有出故障啊，真遺憾………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我们也可以无所顾虑的全力攻击了！各舰准备开火，来堂堂正正的一决胜负吧，测试者！",
+			say = "那我們也可以無所顧慮的全力攻擊了！各艦準備開火，來堂堂正正的一決勝負吧，測試者！",
 			effects = {
 				{
 					active = true,

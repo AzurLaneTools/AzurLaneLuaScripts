@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从刚才的战斗情况来看，这批塞壬果然没有获得任何额外的火力提升。",
+			say = "從剛才的戰鬥情況來看，這批塞壬果然沒有獲得任何額外的火力提升。",
 			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的只是单纯更换了一种夸张的特殊涂装而已啊……",
+			say = "真的只是單純更換了一種誇張的特殊塗裝而已啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "大家注意，前方又发现了一支舰队……成员构成是……皇家舰队？",
+			say = "大家注意，前方又發現了一支艦隊……成員構成是……皇家艦隊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "维内托大人，在前方的舰队中发现了皇家量产型的身影！",
+			say = "維內托大人，在前方的艦隊中發現了皇家量產型的身影！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不可能，皇家舰队现在正驻扎在马耳他呢，怎么可能先我们一步来到这种地方。",
+			say = "不可能，皇家艦隊現在正駐紮在馬爾他呢，怎麼可能先我們一步來到這種地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有没有可能是……",
+			say = "有沒有可能是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有可能的利托里奥，光辉才不会兴师动众只为了专门来给你一个惊喜。",
+			say = "沒有可能的利托里奧，光輝才不會興師動眾只為了專門來給妳一個驚喜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "哈哈，说的也是~那么答案就很明显了，前方正等着我们的是塞壬的皇家棋子舰队。",
+			say = "哈哈，說的也是~那麼答案就很明顯了，前方正等著我們的是塞壬的皇家棋子艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "天鹰，你能看清棋子舰队的具体成员么？",
+			say = "天鷹，妳能看清棋子艦隊的具體成員嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这支舰队没有舰载机护航，我让侦察机接近一些看看！",
+			say = "這支艦隊沒有艦載機護航，我讓偵察機接近一些看看！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……我看到了光辉、厌战、可畏……还有一些皇家的巡洋舰和驱逐舰！",
+			say = "唔……我看到了光輝、厭戰、可畏……還有一些皇家的巡洋艦和驅逐艦！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "都是些熟面孔啊……先是用特殊涂装的塞壬让我们想起帝国最辉煌的时刻，然后用这些皇家棋子来提醒我们最不堪回首的时刻么？",
+			say = "都是些熟面孔啊……先是用特殊塗裝的塞壬讓我們想起帝國最輝煌的時刻，然後用這些皇家棋子來提醒我們最不堪回首的時刻嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这倒是它们一贯以来的伎俩了……",
+			say = "這倒是它們一貫以來的伎倆了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，如果塞壬在做这种打算那它们可要失望了！",
+			say = "哼，如果塞壬在做這種打算那它們可要失望了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当时的失败不过是一时疏忽，撒丁帝国早就已经走出了那段黑暗的阴霾。",
+			say = "當時的失敗不過是一時疏忽，薩丁帝國早就已經走出了那段黑暗的陰霾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "现在是缔造未来之时，吾等岂会因为小小的往昔幻影而动摇！",
+			say = "現在是締造未來之時，吾等豈會因為小小的往昔幻影而動搖！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过就是………唉………",
+			say = "不過就是………唉………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算是棋子，光辉小姐和可畏小姐还是那么迷人……要亲手摧毁这份美丽的赝品果然还是有些心痛啊~",
+			say = "就算是棋子，光輝小姐和可畏小姐還是那麼迷人……要親手摧毀這份美麗的贗品果然還是有些心痛啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……皇家航母就全部交给利托里奥负责，托里拆利等待突袭厌战的时机，天鹰在确保制空权后再考虑对海支援。",
+			say = "……皇家航母就全部交給利托里奧負責，托里切利等待突襲厭戰的時機，天鷹在確保制空權後再考慮對海支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其余诸舰自由选择目标开火，向无耻的塞壬展现帝国禁卫军的强大吧！",
+			say = "其餘諸艦自由選擇目標開火，向無恥的塞壬展現帝國禁衛軍的強大吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "敌方舰队全灭，战斗结束。我们的损失统计呢？",
+			say = "敵方艦隊全滅，戰鬥結束。我們的損失統計呢？",
 			bgm = "battle-boss-italy",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 601040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总计只有几处擦伤，舰队损伤轻微。",
+			say = "總計只有幾處擦傷，艦隊損傷輕微。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 602010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵……真正的皇家舰队要是这么好对付就好了啊。",
+			say = "呵……真正的皇家艦隊要是這麼好對付就好了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬再怎么试图模仿我们，生产出来的终究不过是些劣质的赝品。",
+			say = "塞壬再怎麼試圖模仿我們，終究生產出來的終究不過是些劣質的贗品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 602010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的荣耀、辉煌与传承它们真是一点都不了解。",
+			say = "我們的榮耀、輝煌與傳承它們真是一點都不了解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 602010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在惨痛的失败之后帝国集中全力进行了航空兵器突破，我们也都进行了刻苦的夜战训练。",
+			say = "在慘痛的失敗之後帝國集中全力進行了航空兵器突破，我們也都進行了刻苦的夜戰訓練。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 602010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算是真正的皇家舰队来了我们也有取胜的能力，更何况是这些棋子舰队。",
+			say = "就算是真正的皇家艦隊來了我們也有取勝的能力，更何況是這些棋子艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 601060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是呀，现在这样的程度就算再来无数遍我们也不————咦？！！！迷、迷宫的墙壁开始发生变化了！？！",
+			say = "是呀，現在這樣的程度就算再來無數遍我們也不————咦？！！！迷、迷宮的牆壁開始發生變化了！？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 601050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "开玩笑吧，怎么会有这种事…………？！",
+			say = "開玩笑吧，怎麼會有這種事…………？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			say = "在略显轻松的战斗结束，众人正在悠闲地统计战果之时，四周高耸的迷宫墙毫无征兆的发生了变化。",
+			say = "在略顯輕鬆的戰鬥結束，眾人正在悠閒地統計戰果之時，四周高聳的迷宮牆毫無徵兆的發生了變化。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			say = "看似厚重的墙壁碎裂成无数小段，然后无声且快速的开始了重新排列。",
+			say = "看似厚重的牆壁碎裂成無數小段，然後無聲且快速的開始了重新排列。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			say = "只用了数秒时间，占据着海域主体的巨大迷宫就完成了一轮完全彻底的结构变化。",
+			say = "只用了數秒時間，佔據著海域主體的巨大迷宮就完成了一輪完全徹底的結構變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "呜……之前规划的航线全都作废了……怎么会这样……",
+			say = "嗚……之前規劃的航線全都作廢了……怎麼會這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本只要利用天鹰小姐的侦察机，就算再复杂的迷宫也拦不住我们。",
+			say = "原本只要利用天鷹小姐的偵察機，就算再复雜的迷宮也攔不住我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "但是如果迷宫本身会变化的话一切侦察都没有意义了……",
+			say = "但是如果迷宮本身會變化的話一切偵察都沒有意義了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔呼呼…真的是这么样么。",
+			say = "唔呼呼…真的是這麼樣嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 608010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们在迷宫中航行了这么久，一路上塞壬有的是机会通过操纵迷宫变化来干扰我们，但是它们都没有。",
+			say = "我們在迷宮中航行了這麼久，一路上塞壬有的是機會通過操縱迷宮變化來干擾我們，但是它們都沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种剧烈变化绝对有着某些条件限制。或者是触发某个机关，或者是必须等待足够的充能时间……",
+			say = "這種劇烈變化絕對有著某些條件限制。或者是觸發某個機關，或者是必須等待足夠的充能時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也就是说直到下一次变化之前，我们能够拥有足够的时间重新规划航线并推进探索进度么？",
+			say = "也就是說直到下一次變化之前，我們能夠擁有足夠的時間重新規劃航線並推進探索進度嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔呼呼…我是这么认为的。",
+			say = "唔呼呼…我是這麼認為的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "那我们接下来要做的事就很简单了！达雷科，不要灰心，这次让我们一起来规划航路吧！",
+			say = "那我們接下來要做的事就很簡單了！達雷科，不要灰心，這次讓我們一起來規劃航路吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "海上遭遇挫折是常有的事，航海家可不能被这点挫折折服……既然迷宫变化了，我们的航线也跟着改变就是。",
+			say = "海上遭遇挫折是常有的事，航海家可不能被這點挫折折服……既然迷宮變化了，我們的航線也跟著改變就是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "……西南风，西北风~嗯！你们说的对，这不过是伟大航程中的一个小小挫折而已！",
+			say = "……西南風，西北風~嗯！妳們說的對，這不過是偉大航程中的一個小小挫折而已！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "天鹰小姐，你只管进行快速侦察，接下来的事就交给我们吧！",
+			say = "天鷹小姐，妳只管進行快速偵察，接下來的事就交給我們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我明白了！再复杂的迷宫也无法躲避来自空中的注视……侦察机，全数起飞！",
+			say = "我明白了！再複雜的迷宮也無法躲避來自空中的注視……偵察機，全數起飛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

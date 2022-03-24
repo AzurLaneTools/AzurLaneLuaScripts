@@ -16,7 +16,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……是一个比预想中还要麻烦的大迷宫呢。",
+			say = "唔……是一個比預想中還要麻煩的大迷宮呢。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "没想到别说出口，就连看起来像迷宫中心点的位置都没找到…………而且还有不少无法侦查的区域。",
+			say = "沒想到別說出口，就連看起來像迷宮中心點的位置都沒找到…………而且還有不少無法偵查的區域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "托里拆利，你有什么想法么？",
+			say = "托里切利，妳有什麼想法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……哎？我、我的看法么…………嗯，我确实有一些想法…………",
+			say = "……哎？我、我的看法嗎…………嗯，我確實有一些想法…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "结合现有情报，最合理的解释就是塞壬利用某种装置生成了大量屏障，然后将其伪装成了迷宫的样式……",
+			say = "結合現有情報，最合理的解釋就是塞壬利用某種裝置生成了大量屏障，然後將其偽裝成了迷宮的樣式……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "也许是某种和塞壬护盾原理相同的装置，不过规模上要夸张许多……或许装置本身就是镜面海域维持设备的一部分也说不定。",
+			say = "也許是某種和塞壬護盾原理相同的裝置，不過規模上要誇張許多……或許裝置本身就是鏡面海域維持設備的一部分也說不定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "想要突破屏障，破坏这些设备或者它们的供能系统是最简单的方式…不过塞壬可能早就将装置藏在了复杂的迷宫结构中。",
+			say = "想要突破屏障，破壞這些設備或者它們的供能系統是最簡單的方式…不過塞壬可能早就將裝置藏在了複雜的迷宮結構中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "虽然可以尝试一下直接破坏，不过大概率仅凭我们的火力是无法击穿的。",
+			say = "雖然可以嘗試一下直接破壞，不過大概僅憑我們的火力是無法擊穿的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "塞壬既然有能力维持这样夸张的屏障迷宫，应该也会设置有屏障之间彼此传导冲击和补充能量的装置……",
+			say = "塞壬既然有能力維持這樣誇張的屏障迷宮，應該也會設置有屏障之間彼此傳導衝擊和補充能量的裝置……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "……也就是说除了顺着迷宫前进以外，我们没有别的选择了么？",
+			say = "……也就是說除了順著迷宮前進以外，我們沒有別的選擇了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "目前看起来是这样的。因为不是实体，塞壬说不定还在其中准备了更多的机关……",
+			say = "目前看起來是這樣的。因為不是實體，塞壬說不定還在其中準備了更多的機關……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "好、好厉害……托里拆利你平时在角落里的时候其实是一个人研究这些么！",
+			say = "好、好厲害……托里切利妳平時在角落裡的時候其實是一個人研究這些嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔呼呼…我只是喜欢呆在角落里而已。研究这些只是兴趣、顺便的事……",
+			say = "唔呼呼…我只是喜歡待在角落裡而已。研究這些只是興趣、順便的事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说到克里特岛上的迷宫，指的就是那个神话中残暴怪物米诺陶诺斯居住的克诺索斯迷宫吧……",
+			say = "說到克里特島上的迷宮，指的就是那個神話中殘暴怪物米諾陶洛斯居住的克諾索斯迷宮吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我有种塞壬在前方的迷宫中准备了某中特殊强敌的预感，进去之后大家需要格外注意才是。",
+			say = "我有種塞壬在前方的迷宮中準備了某中特殊強敵的預感，進去之後大家需要格外注意才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "既然要决定探索迷宫的话，得尽快规划航行路线才行哦！",
+			say = "既然要決定探索迷宮的話，得盡快規劃航行路線才行哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，这件工作就拜托你了哟，帝国舰队的航海家。用天鹰收集到的情报为我们规划一条正确的航路吧。",
+			say = "嗯，這件工作就拜託妳了喲，帝國艦隊的航海家。用天鷹收集到的情報為我們規劃一條正確的航路吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "是，维内托大人！请放心交给我吧~！",
+			say = "是，維內托大人！請放心交給我吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也有一种预感，本次行动我们一定会成功的。",
+			say = "我也有一種預感，本次行動我們一定會成功的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "然后本次行动，将会为撒丁帝国史献上一页新的辉煌！",
+			say = "然後本次行動，將會為薩丁帝國史獻上一頁新的輝煌！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

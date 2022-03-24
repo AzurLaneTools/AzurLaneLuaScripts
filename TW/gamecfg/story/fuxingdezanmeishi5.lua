@@ -16,7 +16,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "咦？！！通讯器收到求救信号，周边有船队遭到塞壬袭击了！",
+			say = "咦？！！通訊器收到求救訊號，周邊有船隊遭到塞壬襲擊了！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "来得正好，省下我们寻找的功夫了。",
+			say = "來的正好，省下我們尋找的功夫了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "托里拆利，立刻通知周边舰队避让，敌人就交给我们来解决吧。",
+			say = "托里切利，立刻通知周邊艦隊避讓，敵人就交給我們來解決吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "没问题————",
+			say = "沒問題————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "啊，等一下。记得跟周边所有船只说清楚，是撒丁帝国海军正在为它们提供保护哦！",
+			say = "啊，等一下。記得跟周邊所有船隻說清楚，是薩丁帝國海軍正在為它們提供保護哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈哈哈，撒丁帝国禁卫军，列阵迎敌！",
+			say = "哈哈哈，薩丁帝國禁衛軍，列陣迎敵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

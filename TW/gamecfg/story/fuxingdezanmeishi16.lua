@@ -15,7 +15,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家请在前方驶入左边的岔道，根据天鹰小姐给出的情报接下来应该从这边走~！",
+			say = "大家請在前方駛入左邊的岔道，根據天鷹小姐給出的情報接下來應該從這邊走~！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有了盘旋的雄鹰与出色的领航员，虽然需要花的时间长一些，不过突破迷宫的困境也只是时间问题了。",
+			say = "有了盤旋的雄鷹與出色的領航員，雖然需要花的時間長一些，不過突破迷宮的困境也只是時間問題了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "维内托大人，前方区域发现了多支塞壬舰队，似乎是想在我们转入岔路之后包围我们！",
+			say = "維內托大人，前方區域發現了多支塞壬艦隊，似乎是想在我們轉入岔路之後包圍我們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "型号是…………嗯……？敌人是没有见过的全新型号！",
+			say = "型號是…………嗯……？敵人是沒有見過的全新型號！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "全新型号的塞壬？！",
+			say = "全新型號的塞壬？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "嚯~如鲜血一般红艳，如黄金一般闪耀，这还真是……充满热情的设计啊！",
+			say = "嚯~如鮮血一般紅艷，如黃金一般閃耀，這還真是……充滿熱情的設計啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对面的搭载武器并没有发生明显变化，也许是新的型号，也许只是一种特殊的涂装……",
+			say = "對面的搭載武器並沒有發生明顯變化，也許是新的型號，也許只是一種特殊的塗裝……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……利用大量罗穆路斯的主题色能完美抓住所有人的眼球，塞壬居然也能有些出乎意料的设计啊。",
+			say = "……利用大量羅穆盧斯的主題色完美能抓住所有人的眼球，塞壬居然也能有些出乎意料的設計啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯~我也很中意！曾经帝国就是在这样金色与红色的一支支鹰旗下，粉碎了一批又一批的敌人！",
+			say = "嗯~我也很中意！曾經帝國就是在這樣金色與紅色的一支支鷹旗下，粉碎了一批又一批的敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "这种设计用在塞壬的量产型上不但浪费而且僭越，作为文明破坏者的塞壬没有资格使用这样的装饰！",
+			say = "這種設計用在塞壬的量產型上不但浪費而且僭越，作為文明破壞者的塞壬沒有資格使用這樣的裝飾！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "没错，让我们用炮火——————",
+			say = "沒錯，讓我們用炮火——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过当然，我们可就不一样了~虽然没有鹰旗，不过我们已经拥有翱翔天际的雄鹰了。",
+			say = "不過當然，我們可就不一樣了~雖然沒有鷹旗，不過我們已經擁有翱翔天際的雄鷹了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "作为罗穆路斯的正统继承者，没有人能够比我们撒丁帝国更适合使用这样的涂装了吧~！。",
+			say = "作為羅馬帝國的正統繼承者，沒有人能夠比我們薩丁帝國更適合使用這樣的塗裝了吧~！ 。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "大家觉得怎么样，等回去之后我们也为帝国舰队的量产型设计一套？",
+			say = "大家覺得怎麼樣，等回去之後我們也為帝國艦隊的量產型設計一套？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "利托里奥……这么夸张的涂装只会让量产型成为漂浮在海上的完美标靶……",
+			say = "利托里奧……這麼誇張的塗裝只會讓量產型成為漂浮在海上的完美標靶……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "嗯，就和写着“往这里打”没什么区别。",
+			say = "嗯，就和寫著“往這裡打”沒什麼區別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "我也觉得稍微有点……对于舰载机来说，使用这样涂装的船只将会比平常目标更加显眼，更容易被选为打击对象哦……",
+			say = "我也覺得稍微有點……對於艦載機來說，使用這樣塗裝的船隻將會比平常目標更加顯眼，更容易被選為打擊對象哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对于潜艇的观测和袭击来说也一样，唔呼呼……",
+			say = "對於潛艇的觀測和襲擊來說也一樣，唔呼呼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吸引火力，从另一种角度上说不就是无比耀眼么？",
+			say = "吸引火力，從另一種角度上說不就是無比耀眼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "那将会是一支从最远方就能让敌人感到震撼的、象征着帝国海军强大实力的舰队。",
+			say = "那將會是一隻從最遠方就能讓敵人感到震撼的、象徵著帝國海軍強大實力的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "就算是明显的标靶又如何？只要我们牢牢掌掌控着陆间海的天空与水下，敌人的飞机与潜艇也就不是威胁了嘛！",
+			say = "就算是明顯的標靶又如何？只要我們牢牢掌掌控著地中海的天空與水下，敵人的飛機與潛艇也就不是威脅了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "利托里奥……这个过于革新的提案总之我先记下了，细节部分等到回去之后，让我们再仔细认真的讨论一下吧…………",
+			say = "利托里奧……這個過於革新的提案總之我先記下了，細節部分等到回去之後，讓我們再仔細認真的討論一下吧…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

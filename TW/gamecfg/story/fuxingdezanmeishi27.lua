@@ -11,7 +11,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "疼疼疼疼！…………呜呜呜，我挂彩了……",
+			say = "疼疼疼疼！…………嗚嗚嗚，我掛彩了……",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事吧？让我看看————嗯，不用担心，只是小伤。",
+			say = "沒事吧？讓我看看————嗯，不用擔心，只是小傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actor = 607010,
 			dir = 1,
-			say = "大家都没有受到严重的损伤，只是些战斗力低下的棋子真是太好了……",
+			say = "大家都沒有受到嚴重的損傷，只是些戰鬥力低下的棋子真是太好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "虽然是轻量复刻版，再经历一次果然还是不好受……",
+			say = "雖然是輕量復刻版，再經歷一次果然還是不好受……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			actor = 605010,
 			dir = 1,
-			say = "三、二、一……迷宫没有发生变化，很好！看来我们终于可以解决迷宫变动的机关了，大家继续前进吧！",
+			say = "三、二、一……迷宮沒有發生變化，很好！看來我們終於可以解決迷宮變動的機關了，大家繼續前進吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

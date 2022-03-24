@@ -341,6 +341,17 @@ function temp()
 					}
 				}
 			}
+		},
+		["布"] = {
+			["魯"] = {
+				["齊"] = {
+					["公"] = {
+						["爵"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -890,6 +901,16 @@ function temp()
 			["圖"] = {
 				this = true
 			}
+		},
+		["北"] = {
+			["風"] = {
+				this = true
+			}
+		},
+		["南"] = {
+			["風"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -993,6 +1014,23 @@ function temp()
 			["拉"] = {
 				["斯"] = {
 					this = true
+				}
+			}
+		},
+		["科"] = {
+			["洛"] = {
+				["索"] = {
+					["·"] = {
+						["達"] = {
+							["·"] = {
+								["雷"] = {
+									["科"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1453,6 +1491,9 @@ function temp()
 		},
 		["天"] = {
 			["鵝"] = {
+				this = true
+			},
+			["城"] = {
 				this = true
 			}
 		},
@@ -2293,6 +2334,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["鷹"] = {
+			this = true
 		}
 	}
 end
@@ -2775,6 +2819,9 @@ function temp()
 			["者"] = {
 				this = true
 			}
+		},
+		["風"] = {
+			this = true
 		}
 	}
 end
@@ -3598,7 +3645,18 @@ temp()
 function temp()
 	uv0["飛"] = {
 		["鷹"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
 		["龍"] = {
 			this = true,
@@ -4695,6 +4753,42 @@ function temp()
 		["洛"] = {
 			["夫"] = {
 				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["維"] = {
+		["托"] = {
+			["里"] = {
+				["奧"] = {
+					["·"] = {
+						["維"] = {
+							["內"] = {
+								["托"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["托"] = {
+		["里"] = {
+			["切"] = {
+				["利"] = {
+					this = true
+				}
 			}
 		}
 	}

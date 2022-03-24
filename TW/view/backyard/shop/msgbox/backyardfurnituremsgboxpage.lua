@@ -22,14 +22,11 @@ function slot0.OnLoaded(slot0)
 	slot0.energyGreen = slot0:findTF("frame/energy/green")
 	slot0.energyTxt = slot0:findTF("frame/energy/Text"):GetComponent(typeof(Text))
 	slot0.closeBtn = slot0:findTF("frame/close_btn")
+	slot0.btns = slot0:findTF("frame/btns")
 	slot0.goldPurchaseBtn = slot0:findTF("frame/btns/gold_purchase_btn")
-
-	setText(slot0.goldPurchaseBtn:Find("Text"), i18n("word_buy"))
-
 	slot0.gemPurchaseBtn = slot0:findTF("frame/btns/gem_purchase_btn")
-
-	setText(slot0.gemPurchaseBtn:Find("Text"), i18n("word_buy"))
-
+	slot0.goldPurchaseIcon = slot0:findTF("frame/btns/gold_purchase_btn/content/icon")
+	slot0.gemPurchaseIcon = slot0:findTF("frame/btns/gem_purchase_btn/content/icon")
 	slot0.gemTxt = slot0:findTF("res_gem/Text"):GetComponent(typeof(Text))
 	slot0.goldTxt = slot0:findTF("res_gold/Text"):GetComponent(typeof(Text))
 	slot0.gemAddBtn = slot0:findTF("res_gem/jiahao")
@@ -40,6 +37,8 @@ function slot0.OnLoaded(slot0)
 	slot0.skinMark = slot0:findTF("frame/skin_mark")
 	slot0.skinDesc = slot0:findTF("frame/skin_desc")
 	slot0.skinDescTxt = slot0.skinDesc:Find("Text"):GetComponent(typeof(Text))
+	slot0.purchaseTr = slot0:findTF("frame/purchase_desc")
+	slot0.purchase = slot0:findTF("frame/purchase_desc/Text"):GetComponent(typeof(Text))
 
 	setText(slot0:findTF("frame/count/price/label"), i18n("backyard_theme_total_print"))
 	setActive(slot0.rawIcon, false)
@@ -121,6 +120,14 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:UpdateRes()
 	slot0:UpdateSkinType()
 	slot0:Show()
+	setActive(slot0.purchaseTr, false)
+	setAnchoredPosition(slot0.btns, {
+		y = 173
+	})
+	setText(slot0.gemPurchaseBtn:Find("content/Text"), i18n("word_buy"))
+	setText(slot0.goldPurchaseBtn:Find("content/Text"), i18n("word_buy"))
+	setActive(slot0.goldPurchaseIcon, true)
+	setActive(slot0.gemPurchaseIcon, true)
 end
 
 function slot0.UpdateSkinType(slot0)

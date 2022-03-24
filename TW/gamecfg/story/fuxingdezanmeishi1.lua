@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "撒丁帝国塔兰托港 ·宴会厅",
+			say = "薩丁帝國塔蘭托港 ·宴會廳",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "唔……终于连热闹的宴会厅也变得冷清下来了……",
+			say = "唔……終於連熱鬧的宴會廳也變得冷清下來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "宴会终有结束之时，别太失落了，西南风。",
+			say = "宴會終有結束之時，別太失落了，西南風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "哎……如果皇家和重樱也能按计划出席该多好啊……明明准备得那么辛苦！还有那么多好吃的！",
+			say = "哎……如果皇家和重櫻也能按計劃出席該多好啊……明明準備得那麼辛苦！還有那麼多好吃的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "是啊~要是我肯定走不了！眼前就有这么华丽的宴会，不享受一下实在是太可惜了~！",
+			say = "是啊~要是我肯定走不了！眼前就有這麼華麗的宴會，不享受一下實在是太可惜了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比之下，我觉得还是铁血的腓特烈大帝更有气度一些。",
+			say = "相比之下，我覺得還是鐵血的腓特烈大帝更有氣度一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "嗯，腓特烈大帝好像没传说中那么可怕！虽然有着一股上位者的威严，但是一直都在微笑，说话举止也很有修养！",
+			say = "嗯，腓特烈大帝好像沒傳說中那麼可怕！雖然有著一股上位者的威嚴，但是一直都在微笑，說話舉止也很有修養！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，她是一位和俾斯麦不相上下的优秀外交官与领导者。",
+			say = "沒錯，她是一位和俾斯麥不相上下的優秀外交官與領導者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "维内托大人，欢迎回来~您辛苦了！",
+			say = "維內托大人，歡迎回來~您辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，相比要继续护送下去的利托里奥，我只是在近海稍微送了铁血舰队一段路而已，不算辛苦哦。",
+			say = "呵呵，相比要繼續護送下去的利托里奧，我只是在近海稍微送了鐵血艦隊一段路而已，不算辛苦哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "腓特烈大帝已经返回铁血了么？",
+			say = "腓特烈大帝已經返回鐵血了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "不，她说突然想来一场罗马之旅，顺便去和元老院商量一些东西。",
+			say = "不，她說突然想來一場羅馬之旅，順便去和元老院商量一些東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "……这是、临时决定的行程？",
+			say = "……這是、臨時決定的行程？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起来是的，真是一个随性的人啊~",
+			say = "看起來是的，真是一個隨性的人啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "铁血马上就要和重樱进行联合作战了，这么悠闲没问题吧……",
+			say = "鐵血馬上就要和重櫻進行聯合作戰了，這麼悠閒沒問題吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "不也挺好嘛~有种整个世界都在停战协议生效之后变得和平的感觉~真想趁这个时候来个世界巡游啊！",
+			say = "不也挺好嘛~有種整個世界都在停戰協議生效之後變得和平的感覺~真想趁這個時候來個世界巡游啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "我记得、停火协议的范围仅限于NA海域内……",
+			say = "我記得、停火協議的範圍僅限於NA海域內……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哎？！是这样么……等等，那我们的陆间海要怎么办啊！？",
+			say = "哎？！是這樣嗎……等等，那我們的地中海要怎麼辦啊！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心，陆间海也是位于停火协议覆盖范围内的……啊，稍等一下。",
+			say = "放心，地中海也是位於停火協議覆蓋範圍內的……啊，稍等一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "怎么了，利托里奥，铁血舰队那边出什么问题了么？",
+			say = "怎麼了，利托里奧，鐵血艦隊那邊出什麼問題了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "铁血舰队一切正常，倒是我们这边出了点突发情况……",
+			say = "鐵血艦隊一切正常，倒是我們這邊出了點突發情況……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "资料也发到你那里去了，详细情况面谈吧。我现在正在返航途中，你在会议厅里稍微等一下哦。",
+			say = "資料也發到妳那裡去了，詳細情況面談吧。我現在正在返航途中，妳在會議廳裡稍微等一下哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "明白了。诸位，看来发生了一些需要我去处理的紧急事件，暂且失陪。",
+			say = "明白了。諸位，看來發生了一些需要我去處理的緊急事件，暫且失陪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "嗯！这里的收拾工作交给我们，维内托大人就放心去忙吧~",
+			say = "嗯！這裡的收拾工作交給我們，維內托大人就放心去忙吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "西北风西北风！你觉得到底出了什么事呀？",
+			say = "西北風西北風！妳覺得到底出了情況呀？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "不清楚。不过也许……你想要出门航行的计划可能很快就要实现了……",
+			say = "不清楚。不過也許……妳想要出門航行的計劃可能很快就要實現了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,47 +528,47 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「七丘之上，有过一个伟大帝国。」</size>",
+					"<size=51>「七丘之上，有過一個偉大帝國。」</size>",
 					1
 				},
 				{
-					"<size=51>「黑海是帝国的池塘，陆间海是帝国的花园。」</size>",
+					"<size=51>「黑海是帝國的池塘，地中海是帝國的花園。」</size>",
 					2
 				},
 				{
-					"<size=51>「欧罗巴是帝国的武库，阿非利加是帝国的粮仓。」</size>",
+					"「歐羅巴是帝國的武庫，阿非利加是帝國的糧倉。」",
 					3
 				},
 				{
-					"<size=51>「从哈德良长城上的火炬到亚历山大港中的灯塔，帝国的光辉普照黎庶。」</size> ",
+					"「從哈德良長城上的火炬到亞歷山大港中的燈塔，帝國的光輝普照黎庶。」",
 					5
 				},
 				{
-					"<size=51>「然后，帝国沉沦了。」</size>",
+					"<size=51>「然後，帝國沉淪了。」</size>",
 					6
 				},
 				{
-					"<size=51>「在漫长的战争中，帝国耗尽了力量。」</size>",
+					"「在漫長的戰爭中，帝國耗盡了力量。」",
 					7
 				},
 				{
-					"<size=51>「在轰鸣的炮火中，帝国迎来了毁灭。」</size>",
+					"「在轟鳴的炮火中，帝國迎來了毀滅。」",
 					8
 				},
 				{
-					"<size=51>「但是，帝国的光辉从未消散。」</size>",
+					"<size=51>「但是，帝國的光輝從未消散。」</size>",
 					9
 				},
 				{
-					"<size=51>「七丘仍在，七丘之上的帝国仍在。」</size>",
+					"<size=51>「七丘仍在，七丘之上的帝國仍在。」</size>",
 					10
 				},
 				{
-					"<size=51>「新的征程，自此而启。」</size>",
+					"<size=51>「新的征程，自此而啟。」</size>",
 					11
 				},
 				{
-					"<size=51>      ——————撒丁帝国诗歌·节选</size>",
+					"<size=51>      ——————薩丁帝國詩歌·節選</size>",
 					13
 				}
 			}

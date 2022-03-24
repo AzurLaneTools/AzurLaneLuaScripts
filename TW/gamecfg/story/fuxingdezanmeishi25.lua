@@ -15,7 +15,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家注意！相似的航路与“皇家”舰队又在前方出现了…………",
+			say = "大家注意！相似的航路與“皇家”艦隊又在前方出現了…………",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "唔……果然还是要进行迎击吧！",
+			say = "唔……果然還是要進行迎擊吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "且慢。在刚刚情绪激动之时确实看漏了很多信息……",
+			say = "且慢。在剛剛情緒激動之時確實看漏了很多訊息……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "你们仔细看，那支棋子舰队似乎并没有什么进攻意图。",
+			say = "你們仔細看，那支棋子艦隊似乎並沒有什麼進攻意圖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "真的哎……并没有明显向我们的方向行驶来，武器也没有瞄准的迹象。",
+			say = "真的哎……並沒有明顯向我們的方向行駛來，武器也沒有瞄準的跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "好像就在前方等待着我们一样…！",
+			say = "好像就在前方等待著我們一樣…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "等着我们做什么……等着被我们摧毁么？",
+			say = "等著我們做什麼……等著被我們摧毀嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "然后在棋子舰队全灭之后迷宫就会发生变化，我们也会进入一个新的循环……",
+			say = "然後在棋子艦隊全滅之後迷宮就會發生變化，我們也會進入一個新的循環……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "没想到居然是这样……看来必须得想出一个突破循环的办法才行啊……",
+			say = "沒想到居然是這樣……看來必須得想出一個突破循環的辦法才行啊……",
 			blackBg = TRUE,
 			typewriter = {
 				speed = 0.05,

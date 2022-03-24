@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大小姐的学习日记\n\n<size=45>六 缺少的东西</size>",
+					"大小姐的學習日記\n\n<size=45>六 缺少的東西</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "天鹰姐姐，这个……要不要尝尝？",
+			say = "天鷹姐姐，這個……要不要嚐嚐？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "好可爱的小点心～！谢谢你，独角兽小姐。",
+			say = "好可愛的小點心～！謝謝妳，獨角獸小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对，现在应该叫直接叫独角兽就好了，对吧~作为交换，你们也来尝尝撒丁帝国的特色点心吧~",
+			say = "不對，現在應該叫直接叫獨角獸就好了，對吧~作為交換，妳們也來嚐嚐薩丁帝國的特色點心吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，谢谢~",
+			say = "哎呀，謝謝~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸嘿嘿，谢谢天鹰姐姐～",
+			say = "欸嘿嘿，謝謝天鷹姐姐～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "在稍远的地方悄悄观察了一会。",
+			say = "在稍遠的地方悄悄觀察了一會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "没有像和利托里奥她们“练习”时那样陷入奇怪的状况，看来是没什么问题了。",
+			say = "沒有像和利托里奧她們“練習”時那樣陷入奇怪的狀況，看來是沒什麼問題了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之前也从同伴们那得到了各种建议，现在回想起来，也许真的是我乱想太多了吧。",
+			say = "之前也從同伴們那得到了各種建議，現在回想起來，也許真的是我亂想太多了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "说起来有些难为情，其实我之前好像时常会在意光辉小姐的事情……",
+			say = "說起來有些難為情，其實我之前好像時常會在意光輝小姐的事情……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，是这样吗？",
+			say = "哎呀，是這樣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "嗯，其实也没有那么夸张，只是稍微有些在意…的程度吧。",
+			say = "嗯，其實也沒有那麼誇張，只是稍微有些在意…的程度吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "有一种“自己总有一天也要成为光辉小姐这样实力出色又充满魅力的女性”的感觉。",
+			say = "有一種“自己總有一天也要成為光輝小姐這樣實力出色又充滿魅力的女性”的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵~多谢夸奖~不过…看你现在的样子，我觉得你已经是位实力出色又充满魅力的女性了哦？",
+			say = "呵呵~多謝誇獎~不過…看妳現在的樣子，我覺得妳已經是位實力出色又充滿魅力的女性了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "咦…？是、是这样吗？",
+			say = "咦…？是、是這樣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "独角兽也是这么觉得的哦…天鹰姐姐…举止很自然…成熟又温柔……",
+			say = "獨角獸也是這麼覺得的哦…天鷹姐姐…舉止很自然…成熟又溫柔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，天鹰小姐只要抬头挺胸，做最自然的自己就好了。",
+			say = "嗯，天鷹小姐只要抬頭挺胸，做最自然的自己就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "听完光辉和独角兽的话，天鹰露出了释怀的笑容。",
+			say = "聽完光輝和獨角獸的話，天鷹露出了釋懷的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "似乎天鹰一直以来的心结，自认为有所“欠缺”的部分，已经在不知不觉间消融了。",
+			say = "似乎天鷹一直以來的心結，自認為有所“欠缺”的部分，已經在不知不覺間消融了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果说我和之前有什么变化的话……",
+			say = "如果說我和之前有什麼變化的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "那一定是多亏了现在正在看着我的人吧。",
+			say = "那一定是多虧了現在正在看著我的人吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是这样的吧，指挥官大人♪～",
+			say = "是這樣的吧，指揮官大人♪～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

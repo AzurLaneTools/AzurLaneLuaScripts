@@ -900,6 +900,11 @@ pg.name_code = {
 		name = "飛龍·META",
 		code = "飛龍·META"
 	},
+	[192] = {
+		id = 192,
+		name = "追風",
+		code = "追風"
+	},
 	[207] = {
 		id = 207,
 		name = "山风",
@@ -909,6 +914,11 @@ pg.name_code = {
 		id = 210,
 		name = "扶桑·META",
 		code = "扶桑·META"
+	},
+	[220] = {
+		id = 220,
+		name = "飛鷹·META",
+		code = "飛鷹·META"
 	},
 	[250] = {
 		id = 250,

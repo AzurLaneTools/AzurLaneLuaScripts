@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "维内托大人，我们又一次粉碎了面前出现的“皇家”舰队。",
+			say = "維內托大人，我們又一次粉碎了面前出現的“皇家”艦隊。",
 			bgm = "battle-boss-italy",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 607010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我感觉对于舰载机的操纵正变得越来越熟练，很快就能和皇家的淑女们正面较量一下了呢！",
+			say = "我感覺對於艦載機的操縱正變得越來越熟練，很快就能和皇家的淑女們正面較量一下了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯、大家的表现都很出色…………",
+			say = "嗯、大家的表現都很出色…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "你怎么闷闷不乐的，维内托？对我们取得的成就还不满意么？",
+			say = "妳怎麼悶悶不樂的，維內托？對我們取得的成就還不滿意嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "……成就？你是指在变化的迷宫中一遍又一遍的消灭塞壬的棋子舰队么？",
+			say = "……成就？妳是指在變化的迷宮中一遍又一遍的消滅塞壬的棋子艦隊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "睁开你的眼睛看看周围，利托里奥，你已经完全陷入塞壬的陷阱了！",
+			say = "睜開妳的眼睛看看周圍，利托里奧，妳已經完全陷入塞壬的陷阱了！",
 			effects = {
 				{
 					active = true,
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "哈？你在说什么？除了周围漂浮的敌人残骸之外，我没有感受到任何陷阱！",
+			say = "哈？妳在說什麼？除了周圍漂浮的敵人殘骸之外，我沒有感受到任何陷阱！",
 			effects = {
 				{
 					active = false,
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "现在是帝国的辉煌之时，而这样的辉煌是在你我的领导下完成的！",
+			say = "現在是帝國的輝煌之時，而這樣的輝煌是在妳我的領導下完成的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "你难道没有感受到么，帝国正在我们的领导下走向复兴啊，维内托！",
+			say = "妳難道沒有感受到嗎，帝國正在我們的領導下走向復興啊，維內托！",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -198,7 +198,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "复兴帝国是一场战斗的胜利就能做到么？我们所追求的目标是如此轻而易举就能完成的么？",
+			say = "復興帝國是一場戰鬥的勝利就能做到嗎？我們所追求的目標是如此輕而易舉就能完成的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "当然不是！我们需要的不是一次胜利，而是一次又一次接连不断的胜利！",
+			say = "當然不是！我們需要的不是一次勝利，而是一次又一次接連不斷的勝利！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "在皇家限制我们在阿非利加的利益时我们忍了，铁血试图介入陆间海事务时我们也忍了，因为什么？",
+			say = "在皇家限制我們在阿非利加的利益時我們忍了，鐵血試圖介入地中海事務時我們也忍了，因為什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "就是因为我们坚信现在失去的一切在不久的未来将会由我们亲手夺回来！",
+			say = "就是因為我們堅信現在失去的一切在不久的未來將會由我們親手奪回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "而现在不就是一个最好的开端么？帝国海军现在已经今非昔比，帝国的荣耀正在我们手中书写！",
+			say = "而現在不就是一個最好的開端嗎？帝國海軍現在已經今非昔比，帝國的榮耀正在我們手中書寫！",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -292,7 +292,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你还是没有从过去的失败中走出来啊，利托里奥。",
+			say = "……妳還是沒有從過去的失敗中走出來啊，利托里奧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "你在说什么？我早就走出来了，而且已经开始迈向崭新的未来了不是么！",
+			say = "妳在說什麼？我早就走出來了，而且已經開始邁向嶄新的未來了不是嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，你没有走出来。",
+			say = "不，妳沒有走出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……可能我也没什么说这种话的资格。包括你，包括我，也包括我们每一个人，其实整个帝国都没有走出来。",
+			say = "……可能我也沒什麼說這種話的資格。包括妳，包括我，也包括我們每一個人，其實整個帝國都沒有走出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们所做的只是单纯的视而不见，然后擅自开始走向新的未来而已……",
+			say = "我們所做的只是單純的視而不見，然後擅自開始走向新的未來而已……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一直以来，我们甚至都没有哪怕正视过那些隐藏在失败之后的问题。",
+			say = "一直以來，我們甚至都沒有哪怕正視過那些隱藏在失敗之後的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们所谓的反思，都只是将失败简单归结于设备落后、准备不足与皇家的无耻。",
+			say = "我們所謂的反思，都只是將失敗簡單歸結於設備落後、準備不足與皇家的無恥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是我们在心里的某处其实都知道，事情不是这样的，至少不是这样简单的。",
+			say = "可是我們在心裡的某處其實都知道，事情不是這樣的，至少不是這樣簡單的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道不是么，利托里奥，还有阿布鲁奇公爵？",
+			say = "難道不是嗎，利托里奧，還有阿布魯齊公爵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥，你是有些莽撞，但是你从不盲目。至于阿布鲁奇公爵，你更是一位冷静而又经验丰富的战士。",
+			say = "利托里奧，妳是有些莽撞，但是妳從不盲目。至於阿布魯齊公爵，妳更是一位冷靜而又經驗豐富的戰士。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可就算是这样的我们，还是因为塞壬的一点设计就陷入空前的混乱之中……",
+			say = "可就算是這樣的我們，還是因為塞壬的一點設計就陷入空前的混亂之中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一次次向我们呈现过去的幻影，一次次引导我们进行发泄般的胜利，最后将我们引向疯狂，从而永远的迷失在迷宫之中……",
+			say = "一次次向我們呈現過去的幻影，一次次引導我們進行發洩般的勝利，最後將我們引向瘋狂，從而永遠的迷失在迷宮之中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是塞壬真正在利用这个迷宫对我们所做的事。",
+			say = "這就是塞壬真正在利用這個迷宮對我們所做的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬准确抓到了我们深埋在心中的弱点，然后只依靠无形的机关就让帝国最精锐的舰队轻易抵达了自我毁灭的边缘。",
+			say = "塞壬準確抓到了我們深埋在心中的弱點，然後只依靠無形的機關就讓帝國最精銳的艦隊輕易抵達了自我毀滅的邊緣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……塞壬也许并不是对我们一无所知，而是了解的过于清楚了。",
+			say = "……塞壬也許並不是對我們一無所知，而是了解的過於清楚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "清楚到做事会直接跳过中间过程，放弃基本的委婉，因此才让我们产生了塞壬什么都不懂的错觉。",
+			say = "清楚到做事會直接跳過中間過程，放棄基本的委婉，因此才讓我們產生了塞壬什麼都不懂的錯覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这不是一件真正令人感到毛骨悚然的事么？",
+			say = "這不是一件真正令人感到毛骨悚然的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "抱歉，维内托……………………我今天，好像确实有些太激动了。",
+			say = "抱歉，維內托……………………我今天，好像確實有些太激動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "……我也是在不知不觉中就，有些疯狂了……毫无疑问，这是我的失职行为。",
+			say = "……我也是在不知不覺中就，有些瘋狂了……毫無疑問，這是我的失職行為。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "非常抱歉维内托大人！是我还不够成熟……",
+			say = "非常抱歉維內托大人！是我還不夠成熟……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "身为航海家的我居然迷失了方向……超，超级对不起！！",
+			say = "身為航海家的我居然迷失了方向……超，超級對不起！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗……好啦，又不是在开检讨大会，周围还有无数敌人在看着哦？",
+			say = "噗……好啦，又不是在開檢討大會，周圍還有無數敵人在看著哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "虽然现在身处困境的情况并没有好转，不过至少大家先冷静下来，然后再一起思考对策吧！",
+			say = "雖然現在身處困境的情況並沒有好轉，不過至少大家先冷靜下來，然後再一起思考對策吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

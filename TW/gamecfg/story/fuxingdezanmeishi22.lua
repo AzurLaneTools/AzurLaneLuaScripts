@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "blueocean-image",
 			dir = 1,
-			say = "敌舰全部沉没，战斗结束。",
+			say = "敵艦全部沉沒，戰鬥結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这种情况说不定反而是某种幸运。我们的航空母舰才刚刚服役，塞壬就“慷慨”的拿来这么多杂兵来帮助我们磨合战术。",
+			say = "呵呵，這種情況說不定反而是某種幸運。我們的航空母艦才剛剛服役，塞壬就“慷慨”的拿來這麼多雜兵來幫助我們磨合戰術。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 607010,
 			dir = 1,
-			say = "我会珍惜机会磨炼舰载机操纵技术的，接下来也请尽管分配作战任务给我吧！",
+			say = "我會珍惜機會磨煉艦載機操縱技術的，接下來也請儘管分配作戰任務給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "放心，海域中藏匿的无数塞壬都是你自由狩猎的目标。",
+			say = "放心，海域中藏匿的無數塞壬都是妳自由狩獵的目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 602010,
 			dir = 1,
-			say = "这已经是第几场胜利了呢，我已经有点记不清了。",
+			say = "這已經是第幾場勝利了呢，我已經有點記不清了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然迷宫又发生了变化，但是我们正切切实实的向着爱琴海的中心前进，相信那里就是迷宫的中心吧。",
+			say = "雖然迷宮又發生了變化，但是我們正切切實實的向著愛琴海的中心前進，相信那裡就是迷宮的中心吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论迷宫变化多少次，我都会为大家规划出正确的道路的！",
+			say = "不論迷宮變化多少次，我都會為大家規劃出正確的道路的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			actor = 601050,
 			dir = 1,
-			say = "我也会努力战斗，消灭更多敌人！",
+			say = "我也會努力戰鬥，消滅更多敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、也一样。",
+			say = "我、也一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "呵，塞壬想通过不断送上皇家棋子来提醒我们曾经的失败，但看来起到了完全相反的效果啊。",
+			say = "呵，塞壬想通過不斷送上皇家棋子來提醒我們曾經的失敗，但看來起到了完全相反的鮮果啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "今日的胜利已证明，帝国已经完全走出了名为失败的阴影，一场又一场的胜利将会使帝国变得更加辉煌！",
+			say = "今日的勝利已證明，帝國已經完全走出了名為失敗的陰影，一場又一場的勝利將會使帝國變得更加輝煌！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……利托里奥，你是不是有点过于情绪高涨了？",
+			say = "……利托里奧，妳是不是有點過於情緒高漲了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "有么？我倒是没什么感觉……如果硬要说有的话，也许是我被现在帝国在战斗中所展现的力量所感动了吧！",
+			say = "有嗎？我倒是沒什麼感覺……如果硬要說有的話，也許是我被現在帝國在戰鬥中所展現的力量所感動了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我有种不好的预感，利托里奥……这些弱小的敌人明显是塞壬故意设置的，它们肯定有所用意……",
+			say = "我有種不好的預感，利托里奧……這些弱小的敵人明顯是塞壬故意設置的，它們肯定有所用意……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "有所用意又如何？不管出现任何敌人，皆由我们的炮火粉碎就好，不……现在还要加上我们的舰载机才对~！",
+			say = "有所用意又如何？不管出現任何敵人，皆由我們的炮火粉碎就好，不……現在還要加上我們的艦載機才對~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队继续前进，前方还有下一场胜利在等着我们呢！",
+			say = "艦隊繼續前進，前方還有下一場勝利在等著我們呢！",
 			effects = {
 				{
 					active = true,
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "眾人",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

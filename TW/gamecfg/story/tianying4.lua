@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大小姐的学习日记\n\n<size=45>四 演习与战斗训练</size>",
+					"大小姐的學習日記\n\n<size=45>四 演習與戰鬥訓練</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在出发之前，天鹰朝这边优雅的行了一个礼。",
+			say = "在出發之前，天鷹朝這邊優雅的行了一個禮。",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "指挥官大人，感谢您特意安排了这场演习……我真不知道应该怎么回报你才好……",
+			say = "指揮官大人，感謝您特意安排了這場演習……我真不知道應該怎麼回報你才好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦…不是特别演习，只是正好今天举办的航母演习可以让我临时参加么？",
+			say = "咦…不是特別演習，只是正好今天舉辦的航母演習可以讓我臨時參加嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼，没关系~虽然天鹰稍微有点搞错了原因，但是我对于指挥官大人的感谢之情是不会变的哦！",
+			say = "呼呼，沒關係~雖然天鷹稍微有點搞錯了原因，但是我對於指揮官大人的感謝之情是不會變的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "因为天鹰对于身为航空母舰的能力抱有疑问，所以安排她参加了这场航空演习。",
+			say = "因為天鷹對於身為航空母艦的能力抱有疑問，所以安排她參加了這場航空演習。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "在那边的是齐柏林小姐！好想跟她聊聊啊！",
+			say = "在那邊的是齊柏林小姐！好想跟她聊聊啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "还有{namecode:86}小姐和{namecode:85}小姐！真是一场令人期待的演习啊……",
+			say = "還有{namecode:86}小姐和{namecode:85}小姐！真是一場令人期待的演習啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "天鹰绝对不会浪费这次宝贵的学习机会的~",
+			say = "天鷹絕對不會浪費這次寶貴的學習機會的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "希望她真的能在演习中发现一直想要寻找的不足之处就好了。",
+			say = "希望她真的能在演習中發現一直想要尋找的不足之處就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "指挥官大人在看着呢……这次演习绝对不能失败。",
+			say = "指揮官大人在看著呢……這次演習絕對不能失敗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "从同伴那里学到的操纵方法…嗯，应该是这种感觉……舰载机，起飞！",
+			say = "從同伴那裡學到的操縱方法…嗯，應該是這種感覺……艦載機，起飛！",
 			effects = {
 				{
 					active = true,
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "翱翔的机群、银色的长发与红白绿三色相间的披风在碧蓝的水天之间构成了一副非常优雅美丽的画面。",
+			say = "翱翔的機群、銀色的長髮與紅白綠三色相間的披風在碧藍的水天之間構成了一副非常優雅美麗的畫面。",
 			effects = {
 				{
 					active = false,
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "天鹰宛如指挥者般摇动着手杖，空中的舰载机群随之变化为各种队形————",
+			say = "天鷹宛如指揮者般搖動著手杖，空中的艦載機群隨之變化為各種隊形————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,38 +307,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "完全没有最初那种略显生疏的感觉了，她私下一定进行了很多刻苦训练吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 407030,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "和最开始的时候真是有了飞跃版的提升呢，你也是这么觉得的吧，指挥官？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "铁血的彼得·斯特拉塞不知何时出现在了身边。",
+			say = "完全沒有最初那種略顯生疏的感覺了，她私下一定進行了很多刻苦訓練吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +324,38 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从天鹰展现出的潜力来看，光辉最好还是有些危机意识比较好。",
+			say = "和最開始的時候真是有了飛躍版的提升呢，你也是這麼覺得的吧，指揮官？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "鐵血的彼得·史特拉塞不知何時出現在了身邊。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 407030,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "從天鷹展現出的潛力來看，光輝最好還是有些危機意識比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "她所在意的“有所欠缺的地方”，说不定已经在她的努力中不知不觉间消失了哦。",
+			say = "她所在意的“有所欠缺的地方”，說不定已經在她的努力中不知不覺間消失了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果你想真正帮到她的话，比起盲目寻找，不如多多揣摩她的想法如何？",
+			say = "如果你想真正幫到她的話，比起盲目尋找，不如多多揣摩她的想法如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "在听了和天鹰多少有些渊源的史特拉塞的建议后，我将视线重新挪回了演习海域。",
+			say = "在聽了和天鷹多少有些淵源的史特塞拉的建議後，我將視線重新挪回了演習海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "在那里的只有充满了优雅与自信的天鹰，之前办公室中略显焦急的少女判若两人——",
+			say = "在那裡的只有充滿了優雅與自信的天鷹，之前辦公室中略顯焦急的少女判若兩人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "story-italy",
 			dir = 1,
-			say = "唔呼呼……发现维内托大人了……",
+			say = "唔呼呼……發現維內托大人了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "托里拆利？啊！你是和利托里奥的前锋舰队一起出发的对吧！",
+			say = "托里切利？啊！妳是和利托里奧的前鋒艦隊一起出發的對吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥人呢？！现在舰队情况怎么样？！……你们要不要紧？有人受伤了么！",
+			say = "利托里奧人呢？！現在艦隊情況怎麼樣？！……妳們要不要緊？有人受傷了嗎！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			actor = 608010,
 			dir = 1,
-			say = "不、不用担心……维内托大人，我们的情况很好。",
+			say = "不用擔心，維內托大人，我們的情況很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			actor = 608010,
 			dir = 1,
-			say = "虽然在进入镜面海域后遭遇了小股塞壬的袭击，但敌人已经被我们消灭了。",
+			say = "雖然在進入鏡面海域後遭遇了小股塞壬的襲擊，但敵人已經被我們消滅了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			actor = 608010,
 			dir = 1,
-			say = "至于说利托里奥大人，她现在的情况更可以说是……好得不得了。",
+			say = "至於說利托里奧大人，她現在的情況更可以說是……好得不得了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与气氛格格不入的我还是就像这样早早一个人退场的好，唔呼呼……",
+			say = "與氣氛格格不入的我還是就像這樣早早一個人退場的好，唔呼呼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……“与气氛格格不入”是什么意思？",
+			say = "唔……“與氣氛格格不入”是什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大概就是，一直以来利托里奥的风格吧……",
+			say = "大概就是，一直以來利托里奧的風格吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在舰队正停泊在大迷宫的入口水道附近修整，各位请跟随我来……",
+			say = "現在艦隊正停泊在大迷宮的入口水道附近修整，各位請跟隨我來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

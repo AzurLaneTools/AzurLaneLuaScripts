@@ -15,7 +15,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 607010,
 			nameColor = "#a9f548",
-			say = "前方发现了一支正在与塞壬交战的舰队！大概有十余艘运输船，一些量产型和……两艘舰船！",
+			say = "前方發現了一支正在與塞壬交戰的艦隊！大概有十餘艘運輸船，一些量產型和……兩艘艦船！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这支应该就是我们寻找多时的失联艺术品舰队吧。不过两艘舰船……护航成员不是只有文琴佐一人么？",
+			say = "這隻應該就是我們尋找多時的失聯藝術品艦隊吧。不過兩艘艦船……護航成員不是只有文琴佐一人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 607010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……另一艘看风格也许是北方联合的驱逐舰，具体是谁我认不清…………",
+			say = "唔……另一艘看風格也許是北方聯合的驅逐艦，具體是誰我認不清…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北方联合的人很少在驻扎地之外露面，也不怎么参加联合行动，你不认识也难怪。",
+			say = "北方聯合的人很少在駐紮地之外露面，也不怎麼參加聯合行動，妳不認識也難怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题在于北方联合的驱逐舰为什么会出现在这里，而且还和我们的艺术品运输舰队在一起…………",
+			say = "問題在於北方聯合的驅逐艦為什麼會出現在這裡，而且還和我們的藝術品運輸艦隊在一起…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其他情况呢，敌方的规模怎么样？",
+			say = "其他情況呢，敵方的規模怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 607010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "并不多，只靠两艘驱逐舰配合量产型应付起来应该没有问题。",
+			say = "並不多，只靠兩艘驅逐艦配合量產型應付起來應該沒有問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 607010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……在她们航线与我们航线的中间有一个被海雾覆盖的巨大区域，我无法进行有效侦察。",
+			say = "不過……在她們航線與我們航線的中間有一個被海霧覆蓋的巨大區域，我無法進行有效偵察。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，看来那里就是迷宫的中心区域呢。",
+			say = "呵，看來那裡就是迷宮的中心區域呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 602010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "神话中血腥残暴的牛头怪米诺陶诺斯所居住的区域，不知道塞壬在那些迷雾里隐藏了什么“惊喜”。",
+			say = "神話中血腥殘暴的牛頭怪米諾陶洛斯所居住的區域，不知道塞壬在那些迷霧裡隱藏了什麼“驚喜”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 605010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果让文琴佐在我们之前开进去就危险了。天鹰，想办法提醒她们减速，其余诸舰做好决战准备。",
+			say = "如果讓文琴佐在我們之前開進去就危險了。天鷹，想辦法提醒她們減速，其餘諸艦做好決戰準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "让我们清空迷宫中心区域开启汇合道路，完成本次行动的目标吧！",
+			say = "讓我們清空迷宮中心區域開啟匯合道路，完成本次行動的目標吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

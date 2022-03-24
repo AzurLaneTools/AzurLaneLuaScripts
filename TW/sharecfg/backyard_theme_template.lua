@@ -2568,6 +2568,41 @@ pg.backyard_theme_template = {
 			77116
 		}
 	},
+	[78] = {
+		Cfg_1 = 5,
+		name = "啾啾聖堂",
+		hot = 1,
+		is_view = 1,
+		id = 78,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "薩丁知名觀光地——「神聖的威光護佑著你~」",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "ydl2themeicon",
+		deblocking = 1,
+		order = 77,
+		ids = {
+			78001,
+			78002,
+			78101,
+			78102,
+			78103,
+			78104,
+			78105,
+			78106,
+			78107,
+			78108,
+			78109,
+			78110,
+			78111,
+			78112,
+			78113,
+			78114,
+			78115
+		}
+	},
 	[79] = {
 		Cfg_1 = 5,
 		name = "765事務所",
@@ -2731,6 +2766,7 @@ pg.backyard_theme_template = {
 		75,
 		76,
 		77,
+		78,
 		79,
 		84
 	}

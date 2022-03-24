@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在仿佛由伯罗奔尼撒半岛上全部飞机所汇聚的庞大机群轰炸下，塞壬的“歌声”很快就从海域中消失了。",
+			say = "在彷彿由伯羅奔尼撒半島上全部飛機所匯聚的龐大機群轟炸下，塞壬的“歌聲”很快就從海域中消失了。",
 			side = 2,
 			bgName = "bg_italyv2_4",
 			hidePaintObj = true,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italyv2_4",
-			say = "失去了干扰手段的测试者也没有坚持更长时间便彻底消失在水面之上。",
+			say = "失去了干擾手段的測試者也沒有堅持更長時間便徹底消失在水面之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italyv2_4",
-			say = "伴随着逐渐远去的机群轰鸣声，大迷宫逐渐变得模糊，然后如同真正的海市蜃楼一般从海天之间消散了。",
+			say = "伴隨著逐漸遠去的機群轟鳴聲，大迷宮逐漸變得模糊，然後如同真正的海市蜃樓一般從海天之間消散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看吧看吧~我就跟你说，我们撒丁帝国的舰队可是很厉害的！",
+			say = "看吧看吧~我就跟妳說，我們薩丁帝國的艦隊可是很厲害的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 701060,
-			say = "唔嗯~是一支很有精神的舰队，从正面消灭了测试者，很厉害哦！",
+			say = "唔嗯~是一支很有精神的艦隊，從正面消滅了測試者，很厲害哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不过我们的舰队也不差，如果有机会来北方联合的话，我一定带你好好参观一下！",
+			say = "不過我們的艦隊也不差，如果有機會來北方聯合的話，我一定帶妳好好參觀一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601030,
-			say = "真的么？！那就约好了哦~！",
+			say = "真的嗎？！那就約好了哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，两位在连续战斗之后还能这么有精神真是太好了。",
+			say = "呵呵，兩位在連續戰鬥之後還能這麼有精神真是太好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "维内托大人，统计完毕。除了将近四成的量产型损失之外没有其他损失，所有运输船完好无损。",
+			say = "維內托大人，統計完畢。除了將近四成的量產型損失之外沒有其他損失，所有運輸船完好無損。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "量产型损失了四成啊……算了，总之元老院和我们的货物平安无事就好。",
+			say = "量產型損失了四成啊……算了，總之元老院和我們的貨物平安無事就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家在本次行动中的表现都很出色。特别是天鹰，你释放的雄鹰对于整场行动起到了至关重要的作用，简直让人看不出是第一次来到战场一般的熟练呢~",
+			say = "大家在本次行動中的表現都很出色。特別是天鷹，妳釋放的雄鷹對於整場行動起到了至關重要的作用，簡直讓人看不出是第一次來到戰場一般的熟練呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "多谢夸奖，维内托大人！在这次战斗中我深刻认识到了实战中舰载机的重要性与自身尚且存在的不足之处。",
+			say = "多謝誇獎，維內托大人！在這次戰鬥中我深刻認識到了實戰中艦載機的重要性與自身尚且存在的不足之處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "我会在回去之后继续刻苦训练……尽快成长为不输给皇家光辉级的优秀的航空母舰！",
+			say = "我會在回去之後繼續刻苦訓練……盡快成長為不輸給皇家光輝級的優秀的航空母艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我就拭目以待了哦。终有一天，这片陆间海将会变为能够让帝国雄鹰自由翱翔的狩猎场吧……",
+			say = "那我就拭目以待了哦。終有一天，這片地中海將會變為能夠讓帝國雄鷹自由翱翔的狩獵場吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "在出发之前真没想到本次搜索失联舰队的行动竟会是如此的跌宕起伏……",
+			say = "在出發之前真沒想到本次搜索失聯艦隊的行動竟會是如此的跌宕起伏……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "如同海市蜃楼却拥有实体的大迷宫、充满罗穆路斯风格的塞壬涂装、无限重复的“皇家”舰队，最后居然与空军一起战胜了强大的测试者。",
+			say = "如同海市蜃樓卻擁有實體的大迷宮、充滿羅穆盧斯風格的塞壬塗裝、無限重複的“皇家”艦隊，最後居然與空軍一起戰勝了強大的測試者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "困扰多时的塞壬要塞被清除，艺术品舰队完好无损，甚至还增加了一位来自北方联合的信使。",
+			say = "困擾多時的塞壬要塞被清除，藝術品艦隊完好無損，甚至還增加了一位來自北方聯合的信使。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "帝国舰队也通过这一战真正走出了束缚内心多时的迷宫……",
+			say = "帝國艦隊也通過這一戰真正走出了束縛內心多時的迷宮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "如此具有史诗感的伟大胜利，简直值得写成歌剧前往各个大剧院演出了不是么~？",
+			say = "如此具有史詩感的偉大勝利，簡直值得寫成歌劇前往各個大劇院演出了不是嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "啊话说维内托，你把行动圆满成功的消息告诉元老院了么，那边什么反应~？",
+			say = "啊話說維內托，妳把行動圓滿成功的消息告訴元老院了嗎，那邊什麼反應~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "…………不行，还是联络不上。",
+			say = "…………不行，還是聯絡不上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "……联络不上？和哪里，元老院么？",
+			say = "……聯絡不上？和哪裡，元老院嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "对。战斗结束之后我就和元老院进行了联系，但是通讯一直连接不上。会不会是那边出了什么事…………？",
+			say = "對。戰鬥結束之後我就和元老院進行了聯繫，但是通訊一直連接不上。會不會是那邊出了什麼事…………？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么可能~！元老院可是位于帝国的心脏罗马啊。别担心，大概只是一时故障而已，一会儿再试试吧~",
+			say = "怎麼可能~！元老院可是位於帝國的心臟羅馬啊。別擔心，大概只是一時故障而已，一會兒再試試吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "说的也是~大家都整备完成了么？让我们列队凯旋吧，在罗马还有一场盛大的庆功等待着我们呢！",
+			say = "說的也是~大家都整備完成了嗎？讓我們列隊凱旋吧，在羅馬還有一場盛大的慶功等待著我們呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

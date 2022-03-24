@@ -247,6 +247,10 @@ function slot2.onManualMissileReady(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
+function slot2.onTorpedoButtonPush(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2)
+end
+
 function slot2.onBeforeFatalDamage(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
@@ -379,6 +383,14 @@ function slot2.onBulletCollide(slot0, slot1, slot2, slot3)
 end
 
 function slot2.onBombBulletBang(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	slot0:onTrigger(slot1, slot2)
+end
+
+function slot2.onTorpedoBulletBang(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end

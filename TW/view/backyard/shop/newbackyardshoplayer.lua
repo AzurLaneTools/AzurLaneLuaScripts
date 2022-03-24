@@ -103,6 +103,7 @@ function slot0.init(slot0)
 	}
 	slot0.contextData.furnitureMsgBox = BackYardFurnitureMsgBoxPage.New(slot0._tf, slot0.event)
 	slot0.contextData.themeMsgBox = BackYardThemeMsgBoxPage.New(slot0._tf, slot0.event)
+	slot0.contextData.themeAllMsgBox = BackYardThemeMsgBoxForAllPage.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
@@ -121,6 +122,7 @@ function slot0.didEnter(slot0)
 	slot0:InitPageFooter()
 	slot0:UpdateRes()
 	triggerButton(slot0.btns[slot0.contextData.page or uv1])
+	getProxy(SettingsProxy):UpdateNewThemeValue()
 end
 
 function slot0.UpdateRes(slot0)
@@ -153,11 +155,22 @@ function slot0.InitPageFooter(slot0)
 
 			uv0.pageType = uv1
 
+			if uv1 == 5 then
+				getProxy(SettingsProxy):UpdateNewGemFurnitureValue()
+				uv0:UpdateSpecialPageFooter()
+			end
+
 			return true
 		end)
 
 		slot0.btns[slot4] = slot6
 	end
+
+	slot0:UpdateSpecialPageFooter()
+end
+
+function slot0.UpdateSpecialPageFooter(slot0)
+	setActive(slot0.btns[5]:Find("new"), getProxy(SettingsProxy):IsTipNewGemFurniture())
 end
 
 function slot0.willExit(slot0)

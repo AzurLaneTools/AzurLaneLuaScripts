@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大小姐的学习日记\n\n<size=45>二 学习优雅的课程</size>",
+					"大小姐的學習日記\n\n<size=45>二 學習優雅的課程</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此，感觉自己在茶会上的举止，无法与美丽的皇家小姐们相提并论么……",
+			say = "原來如此，感覺自己在茶會上的舉止，無法與美麗的皇家小姐們相提並論嗎……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后在指挥官的建议下，前来寻求我阿布鲁奇公爵路易·迪·萨伏伊、以及利托里奥阁下的帮助——",
+			say = "然後在指揮官的建議下，前來尋求我阿布魯齊公爵路易·迪·薩伏伊、以及利托里奧閣下的幫助——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "是的…百忙之中多有打扰，两位能帮帮我么…？",
+			say = "是的…百忙之中多有打擾，兩位能幫幫我嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "乐意之至，既然是撒丁帝国同伴的请求，我利托里奥自然义不容辞~！",
+			say = "樂意之至，既然是薩丁帝國同伴的請求，我利托里奧自然義不容辭~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "同为撒丁帝国的贵族，就让我来给你一些指导与建议吧。",
+			say = "同為薩丁帝國的貴族，就讓我來給妳一些指導與建議吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢~！",
+			say = "非常感謝~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "那么，就同指挥官阁下提议的那般，开始我们的“茶会”吧。",
+			say = "那麼，就同指揮官閣下提議的那般，開始我們的“茶會”吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "好的！那就请两位多多指教…了？",
+			say = "好的！那就請兩位多多指教…了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "好厉害…！居然用佩剑直接将瓶口打开了？！",
+			say = "好厲害…！居然用佩劍直接將瓶口打開了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，谢谢利托里奥大人，真是精致的酒杯啊。",
+			say = "啊，謝謝利托里奧大人，真是精緻的酒杯啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "能为像你这般美丽的小姐服务，本就是我的荣幸，何必这么见外呢~",
+			say = "能為像妳這般美麗的小姐服務，本就是我的榮幸，何必這麼見外呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "指挥官觉得如何，手持玫瑰酒杯的天鹰是不是格外迷人？",
+			say = "指揮官覺得如何，手持玫瑰酒杯的天鷹是不是格外迷人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "总感觉主题变得混乱了起来。",
+			say = "總感覺主題變得混亂了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "利托里奥阁下，如今的首要事项是帮助天鹰小姐练习“优雅”，还是不要太跑题了吧。",
+			say = "利托里奧閣下，如今的首要事項是幫助天鷹小姐練習“優雅”，還是不要太離題了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "不过，天鹰小姐，即便是如此美丽的蔷薇，与你一比，也仿佛是萤火之于皓月…",
+			say = "不過，天鷹小姐，即便是如此美麗的薔薇，與妳一比，也彷彿是螢火之於皓月…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "若不主动表现一下，而令这般美丽不能为世人所知，岂不是太过可惜了？",
+			say = "若不主動表現一下，而令這般美麗不能為世人所知，豈不是太過可惜了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "多主动表现一下…么？",
+			say = "多主動表現一下…嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "没错。没有比不能意识到自己的美丽更让人遗憾的事了。",
+			say = "沒錯。沒有比不能意識到自己的美麗更讓人遺憾的事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "正好在此处就有擅长于展现自身的美丽与风格的人，你可以尽管参考！",
+			say = "正好在此處就有擅長於展現自身的美麗與風格的人，妳可以儘管參考！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "原来如此…我应该再积极一点，甚至大胆一点才对么？",
+			say = "原來如此…我應該再積極一點，甚至大膽一點才對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "比如像这样把瓶子拿起来…然后……嗯，应该就是这个感觉了！指挥官大人，天鹰这就给你表演一下那个……哇啊！？",
+			say = "比如像這樣把瓶子拿起來…然後……嗯，應該就是這個感覺了！指揮官大人，天鷹這就給你表演一下那個……哇啊！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "扶住了险些撒出红酒的她，总算是回避了被淋湿的惨剧。",
+			say = "扶住了險些灑出紅酒的她，總算是迴避了被淋濕的慘劇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "指挥官大人，非常抱歉……",
+			say = "指揮官大人，非常抱歉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，我多少有些明白了，目前的自己欠缺的其实并不是“优雅”呢，呵呵。",
+			say = "不過，我多少有些明白了，目前的自己欠缺的其實並不是“優雅”呢，呵呵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "虽然发生了一点小麻烦，不过事情总算有些进展了。",
+			say = "雖然發生了一點小麻煩，不過事情總算有些進展了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

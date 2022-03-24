@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "西陆间海·爱琴海边缘海域",
+			say = "西地中海·愛琴海邊緣海域",
 			side = 2,
 			bgName = "bg_italyv2_1",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~~~~爱琴海，古典文明的摇篮。每次来到这里总是这样的令人心旷神怡~",
+			say = "啊~~~~愛琴海，古典文明的搖籃。每次來到這裡總是那麼令人心曠神怡~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "嗯，虽然也会偶有诡变的气候，不过今天无疑是个好天气。",
+			say = "嗯，雖然也會偶有詭變的氣候，不過今天無疑是個好天氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "往来舰队络绎不绝，展现出一片生机与活力之象，还是这样和平的陆间海最为美丽啊。",
+			say = "往來艦隊絡繹不絕，展現出一片生機與活力之象，還是這樣和平的地中海最為美麗啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "……决定了！我今后环球航行的第一站一定要选在爱琴海~！",
+			say = "……決定了！我今後環球航行的第一站一定要選在愛琴海~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后说不定就会呆在这里就不想走了吧~~~",
+			say = "然後說不定就會待在這裡就不想走了吧~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哎？！不、不会吧。大概……",
+			say = "哎？！不、不會吧。大概……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……提醒一下，往来运输船队的防卫力量明显加强了。",
+			say = "……提醒一下，往來運輸船隊的防衛力量明顯加強了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "咦，真的哎！以前明明不是这个样子的！",
+			say = "咦，真的哎！以前明明不是這個樣子的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些应该是对于愈演愈烈的塞壬袭击而采取的应对措施吧。",
+			say = "這些應該是對於愈演愈烈的塞壬襲擊而採取的應對措施吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "……不过，基本都是各大航运公司自己的护航军舰，我们的舰队呢？",
+			say = "……不過，基本都是各大航運公司自己的護航軍艦，我們的艦隊呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然西陆间海被皇家夺去了一大部分，不过东陆间海应该一直在我们的控制下才对。",
+			say = "雖然西地中海被皇家奪去了一大部分，不過東地中海應該一直在我們的控制下才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "这个嘛……元老院之前判定皇家并不会继续向东陆间海推进，塞壬袭击也是偶发现象，所以为了节约燃料就把护航编队给撤了……",
+			say = "這個嘛……元老院之前判定皇家並不會繼續向東地中海推進塞壬襲擊也是偶發現象，所以為了節約燃料就把護航編隊給撤了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "“反正各大贸易公司都组建了自己的护航编队，这种小事就靠他们自己吧。”我记得当时的结束语是这么说的。",
+			say = "“反正各大貿易公司都組建了自己的護航編隊，這種小事就靠他們自己吧。”我記得當時的結束語是這麼說的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "…………………………是那边做决定的风格……",
+			say = "…………………………是那邊做決定的風格……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "……原来如此，没想到居然是因为这种理由就把护航编队裁撤了啊。",
+			say = "……原來如此，沒想到居然是因為這種理由就把護航編隊裁撤了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "等等……所以之前为艺术品舰队进行护航的舰船只有文琴佐一艘驱逐舰也是基于这个理由么？",
+			say = "等等……所以之前為藝術品艦隊進行護航的艦船只有文琴佐一艘驅逐艦也是基於這個理由嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "原本元老院为了节约成本连量产型都不想派一艘哦？",
+			say = "原本元老院為了節約成本連量產型都不想派一艘哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "太离谱了……这是元老院自己的船队吧……？",
+			say = "太離譜了……這是元老院自己的船隊吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "维内托和我也觉得太离谱就去问了一下，结果被以什么护航属于后勤事务不属于舰队事务，出事了元老院会自己承担责任之类的借口给搪塞回来了。",
+			say = "維內托和我也覺得太離譜就去問了一下，結果被以什麼護航屬於後勤事務不屬於艦隊事務，出事了元老院會自己承擔責任之類的藉口給搪塞回來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "加派文琴佐和量产型驱逐舰队还是维内托用特权强硬要求加进去的呢。",
+			say = "加派文琴佐和量產型驅逐艦隊還是維內托用特權強硬要求加進去的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "唉……要不是那支船队里也有我们的货物，我们才不想管这种麻烦事。",
+			say = "唉……要不是那支船隊裡也有我們的貨物，我們才不想管這種麻煩事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "结果现在出事之后不还是只能像这样拜托我们再去把东西夺回来么，早知今日何必当初……",
+			say = "結果現在出事之後不還是只能像這樣拜託我們再去把東西奪回來嗎，早知今日何必當初……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "订正一下，元老院姑且是在让空军白白浪费了一天时间之后，才来向我们求助的。",
+			say = "訂正一下，元老院姑且是在讓空軍白白浪費了一天時間之後，才來向我們求助的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "那就更让人愤怒了，空军怎么可能靠得住……时间已经过去了这么久，要是文琴佐有点意外的话……！",
+			say = "那就更讓人憤怒了，空軍怎麼可能靠得住……時間已經過去了這麼久，要是文琴佐有點意外的話……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "哈哈哈，大家都消消气~事情既然已经发生了，再怎么抱怨也没用，今天可不是元老院批斗会哦。",
+			say = "哈哈哈，大家都消消氣~事情既然已經發生了，再怎麼抱怨也沒用，今天可不是元老院批鬥會哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "虽然这件事有一个不幸的开端，但也正因如此，才有了我们今天这次规模恢弘的帝国舰队行动。",
+			say = "雖然這件事有一個不幸的開端，但也正因如此，才有了我們今天這次規模恢弘的帝國艦隊行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "我们已经消沉的太久，已经太久没有在陆间海的水面上如此自豪的行驶着了。",
+			say = "我們已經消沉的太久，已經太久沒有在地中海的水面上如此自豪的行駛著了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "今天是我们将帝国的光芒重新投射在陆间海上之时，亦是我们的荣耀之时。大家都挺起胸膛，向世人展现我们的威仪吧。",
+			say = "今天是我們將帝國的光芒重新投射在地中海上之時，亦是我們的榮耀之時。大家都挺起胸膛，向世人展現我們的威儀吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不错，不论是艺术品、运输舰队、失踪的同伴还是帝国的辉煌与荣耀，从我们手上失去的东西，我们应该像这样亲手夺回来！",
+			say = "……不錯，不論是藝術品、運輸艦隊、失蹤的同伴還是帝國的輝煌與榮耀，從我們手上失去的東西，我們應該像這樣親手奪回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯~很有气势！",
+			say = "嗯~很有氣勢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "这次事件之后元老院应该会考虑护航工作的安排，我以后也可以经常来玩了吧！",
+			say = "這次事件之後元老院應該會考慮護航工作的安排，我以後也可以經常來玩了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……我也要说点什么么……？那就，哦——加油————",
+			say = "呃……我也要說點什麼嗎……？那就，哦——加油————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂~！托里拆利下潜跑掉了！等等！~！",
+			say = "喂~！托里切利下潛跑掉了！等等！~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

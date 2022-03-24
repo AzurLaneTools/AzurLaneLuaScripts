@@ -86,8 +86,9 @@ function slot0.getOpenTime(slot0)
 	slot2 = pg.activity_template[slot0.activityId].time
 	slot3 = slot2[2][1]
 	slot4 = slot2[3][1]
+	slot5 = slot2[3][2]
 
-	return string.format("%d.%d.%d~%d.%d.%d", slot3[1], slot3[2], slot3[3], slot4[1], slot4[2], slot4[3])
+	return string.format("%d.%d.%d~%d.%d.%d %d:%d:%d", slot3[1], slot3[2], slot3[3], slot4[1], slot4[2], slot4[3], slot5[1], slot5[2], slot5[3])
 end
 
 function slot0.getStartTime(slot0)

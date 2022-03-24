@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "稍早前 马耳他岛·皇家海军驻地",
+			say = "稍早前 馬爾他島·皇家海軍駐地",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在文件堆积如山的办公桌前，光辉今日也在沉思着。",
+			say = "在文件堆積如山的辦公桌前，光輝今日也在沉思著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“致美丽的光辉女士………………”唉，不论看多少遍都一样。",
+			say = "“至美麗的光輝女士………………”唉，不論看多少遍都一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥真的会不经思考就提出这种夸张的联合作战邀请么……",
+			say = "利托里奧真的會不經思考就提出這種誇張的聯合作戰邀請嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是说这次邀请另有深意…………完全猜不透她们的态度啊。",
+			say = "還是說這次邀請另有深意…………完全猜不透她們的態度啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			dir = 1,
-			say = "光辉放下撒丁帝国的邀请函，然后再一次拿起旁边的另一份文件。",
+			say = "光輝再一次放下薩丁帝國的邀請函，然後再一次拿起旁邊的另一份文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "黎塞留的这份也没把关键问题说清楚……",
+			say = "黎胥留的這份也沒把關鍵問題說清楚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血决定缓和局势肯定是另有所图，可究竟有哪些底牌，是什么企图…………",
+			say = "鐵血決定緩和局勢肯定是另有所圖，可究竟有哪些底牌，是什麼企圖…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怂恿撒丁帝国或者维希教廷海军来进攻马耳他么………………",
+			say = "慫恿薩丁帝國或者維希教廷海軍來進攻馬爾他嗎………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全搞不懂…………哎，警报声？",
+			say = "完全搞不懂…………哎，警報聲？",
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202030,
-			say = "光辉，附近来客人了哦。",
+			say = "光輝，附近來客人了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "……维希教廷还是撒丁帝国？",
+			say = "……維希教廷還是薩丁帝國？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202030,
-			say = "是塞壬哦。而且袭击目标不是我们，虽然目前还不能肯定，不过看上去是向着撒丁帝国的首都罗马去的。",
+			say = "是塞壬哦。而且襲擊目標不是我們，雖然目前還不能肯定，不過看上去是向著薩丁帝國的首都羅馬去的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "从哪儿来的塞壬舰队……？而且对罗马发动突袭…………？",
+			say = "從哪兒來的塞壬艦隊……？而且對羅馬發動突襲…………？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202030,
-			say = "详细情报正在整理中，你最好也来看一下，真是不得了的规模……",
+			say = "詳細情報正在整理中，妳最好也來看一下，真是不得了的規模……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………………………撒丁帝国主力正在爱琴海执行任务，罗马这边恐怕没什么防御能力吧。",
+			say = "…………………………薩丁帝國主力正在愛琴海執行任務，羅馬這邊恐怕沒什麼防禦能力吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“光辉女士，腓特烈大帝手中还有很多底牌。她现在决定让局势降温只是因为这是一种更容易让其达到目的方式而已。”",
+			say = "“光輝女士，腓特烈大帝手中還有很多底牌。她現在決定讓局勢降溫只是因為這是一種更容易讓其達到目的方式而已。”",
 			effects = {
 				{
 					active = true,
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“为了陆间海的真正和平与稳定，请皇家陆间海舰队在大型作战期间无论如何一定要留在马耳他坐镇，以备不测。”",
+			say = "“為了地中海的真正和平與穩定，請皇家地中海艦隊在大型作戰期間無論如何一定要留在馬爾他坐鎮，以備不測。”",
 			effects = {
 				{
 					active = true,
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "现在究竟应该怎么做才好呢………………",
+			say = "現在究竟應該怎麼做才好呢………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

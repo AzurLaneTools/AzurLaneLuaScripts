@@ -19,6 +19,7 @@ function slot0.OnLoaded(slot0)
 	slot0.gemAddBtn = slot0:findTF("res_gem/jiahao")
 	slot0.goldAddBtn = slot0:findTF("res_gold/jiahao")
 	slot0.purchaseBtn = slot0:findTF("purchase_btn")
+	slot0.purchaseAllBtn = slot0:findTF("purchase_all_btn")
 end
 
 function slot0.OnInit(slot0)
@@ -37,6 +38,9 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.purchaseBtn, function ()
 		uv0.contextData.themeMsgBox:ExecuteAction("SetUp", uv0.themeVO, uv0.dorm, uv0.player)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.purchaseAllBtn, function ()
+		uv0.contextData.themeAllMsgBox:ExecuteAction("SetUp", uv0.themeVO, uv0.dorm, uv0.player)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.leftArrBtn, function ()
 		if uv0.OnPrevTheme then
@@ -176,11 +180,15 @@ end
 
 function slot0.UpdatePurchaseBtn(slot0)
 	slot1 = slot0.themeVO
+	slot1 = slot1:GetFurnitures()
 	slot2 = slot0.dorm
 	slot2 = slot2:GetAllFurniture()
 
-	setActive(slot0.purchaseBtn, _.any(slot1:GetFurnitures(), function (slot0)
+	setActive(slot0.purchaseBtn, _.any(slot1, function (slot0)
 		return not uv0[slot0]
+	end))
+	setActive(slot0.purchaseAllBtn, _.any(slot1, function (slot0)
+		return uv0.dorm:GetOwnFurnitrueCount(slot0) < pg.furniture_data_template[slot0].count
 	end))
 end
 

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大小姐的学习日记\n\n<size=45>五 再挑战</size>",
+					"大小姐的學習日記\n\n<size=45>五 再挑戰</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "再次和伙伴们商量之后，得到了一点共识，那便是——天鹰并没有特别明显的“欠缺”之处。",
+			say = "再次和夥伴們商量之後，得到了一點共識，那便是——天鷹並沒有特別明顯的“欠缺”之處。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "秘书舰的工作虽然不能说十全十美，但也属于平均水准以上的程度。",
+			say = "秘書艦的工作雖然不能說十全十美，但也屬於平均水準以上的程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "性格开朗、温柔大方的她能迅速和港区的其他同伴拉近关系。很多时候缺少的只是一个认识的契机而已。",
+			say = "性格開朗、溫柔大方的她能迅速和港區的其他同伴拉近關係。很多時候缺少的只是一個認識的契機而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,87 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "至于“迷糊”……也许确实有一点吧，不过能看出她为了解决这一问题而做出的努力。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 607010,
-			say = "指挥官大人，我为了让日程表看起来更方便，在上面加了不少标记哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 607010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "比如说，标记了四个圈的，是不好拒绝、一定要参加的工作…只有一个圈的，交给同伴们就可以。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 607010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "然后这里标记了三角形和星型则是——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "她的秘书舰专用记事本上充满了各种各样可爱的标记，虽然并不简洁，但十分有用。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "嗯，这个就当是她的可爱之处就好。",
+			say = "至於“迷糊”……也許確實有一點吧，不過能看出她為了解決這一問題而做出的努力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +99,87 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "指挥官大人，真的非常感谢您满足了我那么多毫无道理的要求。",
+			say = "指揮官大人，我為了讓日程表看起來更方便，在上面加了不少標記哦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 607010,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "比如說，標記了四個圈的，是不好拒絕、一定要參加的工作…只有一個圈的，交給同伴們就可以。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 607010,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "然後這裡標記了三角形和星型則是——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "她的秘書艦專用記事本上充滿了各種各樣可愛的標記，雖然並不簡潔，但十分有用。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "嗯，這個就當是她的可愛之處就好。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 607010,
+			say = "指揮官大人，真的非常感謝您滿足了我那麼多毫無道理的要求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "虽然最后也没有找到我身上所欠缺的东西。",
+			say = "雖然最後也沒有找到我身上所欠缺的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "但是在这段过程中，天鹰受益匪浅！",
+			say = "但是在這段過程中，天鷹受益匪淺！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "天鹰的笑容中已经看不出任何焦虑的影子了，不过就这样结束真的好么……",
+			say = "天鷹的笑容中已經看不出任何焦慮的影子了，不過就這樣結束真的好嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "然后是，下周光辉小姐的茶会，如果方便的话，请指挥官大人替我——",
+			say = "然後是，下周光輝小姐的茶會，如果方便的話，請指揮官大人替我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			},
 			options = {
 				{
-					content = "建议天鹰再“挑战”一下",
+					content = "建議天鷹再“挑戰”一下",
 					flag = 1
 				}
 			}
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "指挥官大人？",
+			say = "指揮官大人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "采纳了利托里奥建议的她，只要在茶会上不犯迷糊的话，应该是可以完美应付这样的场合的。",
+			say = "採納了利托里奧建議的她，只要在茶會上不犯迷糊的話，應該是可以完美應付這樣的場合的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "况且茶会的主办者是光辉，不论如何也不会出现“麻烦”的结果。",
+			say = "況且茶會的主辦者是光輝，不論如何也不會出現“麻煩”的結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "不是和天鹰一起，而是让我一个人试着再挑战一次…？",
+			say = "不是和天鷹一起，而是讓我一個人試著再挑戰一次…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "……呜，既然您这么说了，我也要有所觉悟才行呢……",
+			say = "……嗚，既然您這麼說了，我也要有所覺悟才行呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "天鹰的表情变得严肃起来……有干劲是好事，但千万不要思虑过度哦……",
+			say = "天鷹的表情變得嚴肅起來……有幹勁是好事，但千萬不要思慮過度哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2505,6 +2505,76 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[4901] = {
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:科羅拉多限定換裝和其他獎勵",
+		name = "特許巡遊憑證(二期)",
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		subject = "特許巡遊憑證",
+		extra_gem = 0,
+		name_display = "特許巡遊憑證",
+		limit_arg = 1,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.hkmanjuu.azurlane.battlepass2",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 4901,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass2",
+		extra_service_item = {
+			{
+				1,
+				4002,
+				1500
+			},
+			{
+				8,
+				59254,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4002,
+				1500
+			}
+		},
+		sub_display = {
+			45901,
+			1500
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2536,6 +2606,7 @@ pg.pay_data_display = {
 		4014,
 		4015,
 		4016,
-		4900
+		4900,
+		4901
 	}
 }

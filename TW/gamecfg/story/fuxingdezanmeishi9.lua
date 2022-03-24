@@ -15,7 +15,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人，侦察机没有发现任何失联舰船，不过有几架飞机在侦察时失去了联络……",
+			say = "維內托大人，偵察機沒有發現任何失聯艦船，不過有幾架飛機在偵察時失去了聯絡……",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "非常抱歉，是我舰载机操控技术还不够熟练……",
+			say = "非常抱歉，是我艦載機操控技術還不夠熟練……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在飞行时失去联络……不，出问题的大概不是你的技术，而是这片海域本身吧。",
+			say = "在飛行時失去聯絡……不，出問題的大概不是你的技術，而是這片海域本身吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "你的舰载机毫无征兆的失踪了，就和利托里奥的舰队以及文琴佐护航的艺术品舰队一样。",
+			say = "妳的艦載機毫無徵兆的失蹤了，就和利托里奧的艦隊以及文琴佐護航的藝術品艦隊一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "看来之前猜测的不错，这片海域中确实有塞壬设下的机关。镜面海域的性质我记得是……",
+			say = "看來之前猜測的不錯，這片海域中確實有塞壬設下的機關。鏡面海域的性質我記得是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海域内与外界隔绝，干扰强烈，通常拥有众多敌人与反常的气候现象。",
+			say = "海域內與外界隔絕，干擾強烈，通常擁有眾多敵人與反常的氣候現象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错。除了这些铁血提供的资料之外，龙骑兵的报告里也有对于镜面海域性质的描述。",
+			say = "沒錯。除了這些鐵血提供的資料之外，龍騎兵的報告裡也有對於鏡面海域性質描述。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "拥有这些资料的话……作为前期准备来说足够了。",
+			say = "擁有這些資料的話……作為前期準備來說足夠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬肯定在前方的镜面海域中等着我们，而利托里奥……八成是因为轻敌冒进而被诱入陷阱了……",
+			say = "塞壬肯定在前方的鏡面海域中等著我們，而利托里奧……八成是因為輕敵冒進而被誘入陷阱了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唉，她那边千万别出什么事才好…………",
+			say = "唉，她那邊千萬別出什麼事才好…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

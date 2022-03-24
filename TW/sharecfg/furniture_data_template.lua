@@ -3900,6 +3900,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[194] = {
+		spine_extra = "",
+		describe = "添加有幻想要素的克諾索斯迷宮微縮模型。——授予在「復興的讚美詩」行動中獲得傑出成就者的紀念章",
+		gain_by = "復興的讚美詩",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "ydl2xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "迷宮",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/ydl2xunzhang",
+		canputon = 0,
+		id = 194,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[197] = {
 		spine_extra = "",
 		describe = "給人一股滿滿的安心感~",
@@ -75303,6 +75340,816 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[78001] = {
+		spine_extra = "",
+		describe = "薩丁知名觀光地——「神聖的威光護佑著你~」",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "啾啾聖堂地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanydl2icon",
+		spine_action_replace = "",
+		picture = "ydl2/dibanydl2",
+		comfortable = 4,
+		canputon = 0,
+		id = 78001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78002] = {
+		spine_extra = "",
+		describe = "薩丁知名觀光地——「神聖的威光護佑著你~」",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "啾啾聖堂壁紙",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiydl2icon",
+		spine_action_replace = "",
+		picture = "ydl2/qiangbiydl2",
+		comfortable = 4,
+		canputon = 0,
+		id = 78002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78101] = {
+		spine_extra = "",
+		describe = "聖潔光芒籠罩你我~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "1ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂蠟燭",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ydl2/1ydl2",
+		canputon = 0,
+		id = 78101,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78102] = {
+		spine_extra = "",
+		describe = "堅固的白色石柱。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "2ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂石柱",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ydl2/2ydl2",
+		canputon = 0,
+		id = 78102,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78103] = {
+		spine_extra = "",
+		describe = "“那邊的，第二小節搶拍了啾！”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "3ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾唱詩班",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ydl2/3ydl2",
+		canputon = 0,
+		id = 78103,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78104] = {
+		spine_extra = "",
+		describe = "下面彈奏一首…歡樂頌啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "4ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂管風琴",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ydl2/4ydl2",
+		canputon = 0,
+		id = 78104,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78105] = {
+		spine_extra = "",
+		describe = "以清水洗滌身心啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 78,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "5ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂水池",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ydl2/5ydl2",
+		canputon = 0,
+		id = 78105,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					3,
+					-80
+				},
+				{
+					-1,
+					1
+				},
+				"ydl2/5ydl2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78106] = {
+		spine_extra = "",
+		describe = "裝飾著聖潔白花的花瓶。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "6ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂花瓶",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ydl2/6ydl2",
+		canputon = 0,
+		id = 78106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78107] = {
+		spine_extra = "",
+		describe = "聖者的雕像啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "7ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂雕像",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ydl2/7ydl2",
+		canputon = 0,
+		id = 78107,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78108] = {
+		spine_extra = "",
+		describe = "聖潔的光輝籠罩你我~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "8ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂燭台",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ydl2/8ydl2",
+		canputon = 0,
+		id = 78108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78109] = {
+		spine_extra = "",
+		describe = "造型考究的圍欄。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "9ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂圍欄",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ydl2/9ydl2",
+		canputon = 0,
+		id = 78109,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78110] = {
+		spine_extra = "",
+		describe = "好好坐下，聆聽神父的教誨啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 78,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "10ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂座椅",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ydl2/10ydl2",
+		canputon = 0,
+		id = 78110,
+		can_rotate = 0,
+		size = {
+			9,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					151,
+					90
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					63,
+					49
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-40,
+					-3
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-119,
+					-41
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78111] = {
+		spine_extra = "",
+		describe = "咳咳，今天講述的內容是……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 78,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "11ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "神父啾",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ydl2/11ydl2",
+		canputon = 0,
+		id = 78111,
+		can_rotate = 0,
+		size = {
+			9,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-228,
+					80
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-257,
+					17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78112] = {
+		spine_extra = "",
+		describe = "聖潔光芒籠罩你我~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "12ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂燭台(小)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ydl2/12ydl2",
+		canputon = 0,
+		id = 78112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78113] = {
+		spine_extra = "",
+		describe = "聖堂的大講壇。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 78,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "13ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂講壇",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ydl2/13ydl2",
+		canputon = 0,
+		id = 78113,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					79,
+					7
+				},
+				{
+					-1,
+					1
+				},
+				"ydl2/13ydl2_using",
+				0,
+				{
+					{
+						26,
+						214
+					},
+					{
+						662,
+						630
+					},
+					"ydl2/13ydl2_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78114] = {
+		spine_extra = "",
+		describe = "點綴聖堂的綠意。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "14ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂花壇",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ydl2/14ydl2",
+		canputon = 0,
+		id = 78114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78115] = {
+		spine_extra = "",
+		describe = "造型考究的圍欄。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 78,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "15ydl2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "聖堂圍欄2",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ydl2/15ydl2",
+		canputon = 0,
+		id = 78115,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78116] = {
+		belong = 1,
+		describe = "要畫出世上最完美的畫作啾！",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 78,
+		count = 1,
+		is_3d_obj = 0,
+		name = "聖堂畫師啾",
+		tag = 7,
+		icon = "Aydl2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 78116,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Aydl2B",
+				"normal"
+			},
+			{
+				"Aydl2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"Aydl2CharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"Aydl2CharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Aydl2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[79001] = {
 		spine_extra = "",
 		describe = "歡迎來到765事務所！",
@@ -78758,6 +79605,7 @@ pg.furniture_data_template = {
 		190,
 		191,
 		192,
+		194,
 		197,
 		198,
 		199,
@@ -80383,6 +81231,24 @@ pg.furniture_data_template = {
 		77117,
 		77118,
 		77119,
+		78001,
+		78002,
+		78101,
+		78102,
+		78103,
+		78104,
+		78105,
+		78106,
+		78107,
+		78108,
+		78109,
+		78110,
+		78111,
+		78112,
+		78113,
+		78114,
+		78115,
+		78116,
 		79001,
 		79002,
 		79101,

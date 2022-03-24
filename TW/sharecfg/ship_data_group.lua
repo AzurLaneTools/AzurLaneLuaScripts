@@ -8873,6 +8873,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[507] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 222,
+		code = 507,
+		group_type = 30185,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"月度簽到",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[271] = {
 		trans_skin = 301329,
 		redirect_id = 101,
@@ -11592,6 +11623,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：蒼紅的迴響",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[510] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 308,
+		code = 510,
+		group_type = 30407,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：小小軍師成長記",
 				{
 					""
 				},
@@ -14863,6 +14925,130 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[506] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 412,
+		code = 506,
+		group_type = 60106,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[504] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 413,
+		code = 504,
+		group_type = 60104,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[505] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 414,
+		code = 505,
+		group_type = 60105,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[501] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 417,
+		code = 501,
+		group_type = 60201,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[414] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -14870,7 +15056,7 @@ pg.ship_data_group = {
 		type = 3,
 		nationality = 6,
 		handbook_type = 0,
-		index_id = 417,
+		index_id = 418,
 		code = 414,
 		group_type = 60301,
 		trans_type = 0,
@@ -14901,7 +15087,7 @@ pg.ship_data_group = {
 		type = 3,
 		nationality = 6,
 		handbook_type = 0,
-		index_id = 418,
+		index_id = 420,
 		code = 413,
 		group_type = 60302,
 		trans_type = 0,
@@ -14925,6 +15111,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[500] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 5,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 422,
+		code = 500,
+		group_type = 60501,
+		trans_type = 0,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[410] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -14932,7 +15149,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 6,
 		handbook_type = 0,
-		index_id = 421,
+		index_id = 423,
 		code = 410,
 		group_type = 60502,
 		trans_type = 0,
@@ -14963,7 +15180,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 6,
 		handbook_type = 0,
-		index_id = 422,
+		index_id = 424,
 		code = 411,
 		group_type = 60505,
 		trans_type = 0,
@@ -14994,7 +15211,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 6,
 		handbook_type = 0,
-		index_id = 423,
+		index_id = 425,
 		code = 412,
 		group_type = 60506,
 		trans_type = 0,
@@ -15018,6 +15235,68 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[502] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 426,
+		code = 502,
+		group_type = 60701,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[503] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 8,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 428,
+		code = 503,
+		group_type = 60801,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[499] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -15025,7 +15304,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 426,
+		index_id = 429,
 		code = 499,
 		group_type = 70108,
 		trans_type = 0,
@@ -15056,7 +15335,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 427,
+		index_id = 430,
 		code = 497,
 		group_type = 70107,
 		trans_type = 0,
@@ -15087,7 +15366,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 428,
+		index_id = 431,
 		code = 431,
 		group_type = 70102,
 		trans_type = 0,
@@ -15118,7 +15397,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 429,
+		index_id = 432,
 		code = 491,
 		group_type = 70106,
 		trans_type = 0,
@@ -15149,7 +15428,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 431,
+		index_id = 434,
 		code = 432,
 		group_type = 70103,
 		trans_type = 0,
@@ -15180,7 +15459,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 432,
+		index_id = 435,
 		code = 433,
 		group_type = 70104,
 		trans_type = 0,
@@ -15211,7 +15490,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 435,
+		index_id = 438,
 		code = 262,
 		group_type = 70201,
 		trans_type = 0,
@@ -15260,7 +15539,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 436,
+		index_id = 439,
 		code = 434,
 		group_type = 70202,
 		trans_type = 2,
@@ -15300,7 +15579,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 437,
+		index_id = 440,
 		code = 498,
 		group_type = 70206,
 		trans_type = 0,
@@ -15331,7 +15610,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 438,
+		index_id = 441,
 		code = 435,
 		group_type = 70204,
 		trans_type = 0,
@@ -15362,7 +15641,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 439,
+		index_id = 442,
 		code = 436,
 		group_type = 70203,
 		trans_type = 0,
@@ -15393,7 +15672,7 @@ pg.ship_data_group = {
 		type = 3,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 440,
+		index_id = 443,
 		code = 496,
 		group_type = 70301,
 		trans_type = 0,
@@ -15424,7 +15703,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 441,
+		index_id = 444,
 		code = 437,
 		group_type = 70501,
 		trans_type = 0,
@@ -15455,7 +15734,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 442,
+		index_id = 445,
 		code = 440,
 		group_type = 70504,
 		trans_type = 0,
@@ -15486,7 +15765,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 7,
 		handbook_type = 0,
-		index_id = 443,
+		index_id = 446,
 		code = 441,
 		group_type = 70505,
 		trans_type = 0,
@@ -15517,7 +15796,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 447,
+		index_id = 450,
 		code = 348,
 		group_type = 80102,
 		trans_type = 1,
@@ -15557,7 +15836,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 449,
+		index_id = 452,
 		code = 395,
 		group_type = 80104,
 		trans_type = 0,
@@ -15588,7 +15867,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 450,
+		index_id = 453,
 		code = 347,
 		group_type = 80101,
 		trans_type = 0,
@@ -15619,7 +15898,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 453,
+		index_id = 456,
 		code = 349,
 		group_type = 80201,
 		trans_type = 2,
@@ -15659,7 +15938,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 454,
+		index_id = 457,
 		code = 454,
 		group_type = 80202,
 		trans_type = 0,
@@ -15690,7 +15969,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 455,
+		index_id = 458,
 		code = 453,
 		group_type = 80501,
 		trans_type = 0,
@@ -15721,7 +16000,7 @@ pg.ship_data_group = {
 		type = 7,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 456,
+		index_id = 459,
 		code = 458,
 		group_type = 80701,
 		trans_type = 0,
@@ -15752,7 +16031,7 @@ pg.ship_data_group = {
 		type = 8,
 		nationality = 8,
 		handbook_type = 0,
-		index_id = 457,
+		index_id = 460,
 		code = 350,
 		group_type = 80801,
 		trans_type = 0,
@@ -15783,7 +16062,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 458,
+		index_id = 461,
 		code = 351,
 		group_type = 90101,
 		trans_type = 1,
@@ -15823,7 +16102,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 459,
+		index_id = 462,
 		code = 452,
 		group_type = 90102,
 		trans_type = 0,
@@ -15854,7 +16133,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 460,
+		index_id = 463,
 		code = 457,
 		group_type = 90103,
 		trans_type = 0,
@@ -15885,7 +16164,7 @@ pg.ship_data_group = {
 		type = 1,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 461,
+		index_id = 464,
 		code = 394,
 		group_type = 90111,
 		trans_type = 0,
@@ -15916,7 +16195,7 @@ pg.ship_data_group = {
 		type = 2,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 463,
+		index_id = 466,
 		code = 456,
 		group_type = 90201,
 		trans_type = 0,
@@ -15947,7 +16226,7 @@ pg.ship_data_group = {
 		type = 3,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 465,
+		index_id = 468,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -15978,7 +16257,7 @@ pg.ship_data_group = {
 		type = 4,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 466,
+		index_id = 469,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -16009,7 +16288,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 467,
+		index_id = 470,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -16040,7 +16319,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 468,
+		index_id = 471,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -17395,6 +17674,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30006] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 6,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30006,
+		code = 30006,
+		group_type = 970601,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9706011
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -17596,6 +17909,7 @@ pg.ship_data_group = {
 		269,
 		270,
 		369,
+		507,
 		271,
 		272,
 		274,
@@ -17671,6 +17985,7 @@ pg.ship_data_group = {
 		207,
 		383,
 		367,
+		510,
 		320,
 		208,
 		209,
@@ -17760,11 +18075,18 @@ pg.ship_data_group = {
 		258,
 		259,
 		415,
+		506,
+		504,
+		505,
+		501,
 		414,
 		413,
+		500,
 		410,
 		411,
 		412,
+		502,
+		503,
 		499,
 		497,
 		431,
@@ -17837,6 +18159,7 @@ pg.ship_data_group = {
 		20017,
 		30001,
 		30002,
-		30005
+		30005,
+		30006
 	}
 }

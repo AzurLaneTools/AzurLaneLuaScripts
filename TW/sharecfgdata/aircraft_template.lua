@@ -119070,6 +119070,158 @@ _G.pg.aircraft_template[620511] = {
 	}
 }
 
+_G.pg.aircraft_template[630059] = {
+	attack_power = 2,
+	name = "【2022愚人节】金布里鱼雷机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "plane_zhifeiji",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 3.33,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 630059,
+	icon = "plane_zhifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 4013,
+	speed = 30,
+	max_hp = 104,
+	scale = 1,
+	weapon_ID = {
+		630051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[630060] = {
+	attack_power = 2,
+	name = "【2022愚人节】金布里轰炸机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "plane_zhifeiji",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 630060,
+	icon = "plane_zhifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 5,
+	hp_growth = 3466,
+	speed = 40,
+	max_hp = 90,
+	scale = 1,
+	weapon_ID = {
+		630052
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.aircraft_template[650010] = {
 	attack_power = 2,
 	name = "【2020法系活动A2】精英贝亚恩级量产型 战斗机",
@@ -143847,7 +143999,8 @@ _G.pg.aircraft_template[1000810] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000825
+		1000825,
+		1000910
 	},
 	position_offset = {
 		0,
@@ -143926,7 +144079,8 @@ _G.pg.aircraft_template[1000811] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000826
+		1000826,
+		1000911
 	},
 	position_offset = {
 		0,
@@ -144005,7 +144159,8 @@ _G.pg.aircraft_template[1000812] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000827
+		1000827,
+		1000912
 	},
 	position_offset = {
 		0,
@@ -144084,7 +144239,8 @@ _G.pg.aircraft_template[1000813] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000828
+		1000828,
+		1000913
 	},
 	position_offset = {
 		0,
@@ -144163,7 +144319,8 @@ _G.pg.aircraft_template[1000814] = {
 		stay = 2
 	},
 	weapon_ID = {
-		1000829
+		1000829,
+		1000914
 	},
 	position_offset = {
 		0,

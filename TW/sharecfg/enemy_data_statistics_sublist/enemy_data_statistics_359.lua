@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_359 = {
+	[14701201] = {
+		cannon = 28,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 1600,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		battle_unit_type = 90,
+		dodge = 14,
+		base = 90534,
+		durability_growth = 125600,
+		antiaircraft = 115,
+		reload_growth = 0,
+		dodge_growth = 198,
+		speed = 20,
+		luck = 4,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 3600,
+		torpedo = 52,
+		durability = 1480,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 14701201,
+		equipment_list = {
+			1101071,
+			1101076,
+			1101081,
+			1101086,
+			769001
+		}
+	},
 	[14701202] = {
 		cannon = 30,
 		reload = 150,
@@ -325,7 +363,7 @@ pg.enemy_data_statistics_359 = {
 	},
 	[14701303] = {
 		cannon = 170,
-		name = "测试者-？？？",
+		name = "測試者-？？？",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -414,7 +452,7 @@ pg.enemy_data_statistics_359 = {
 	},
 	[14701304] = {
 		cannon = 170,
-		name = "测试者-？？？",
+		name = "測試者-？？？",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -503,7 +541,7 @@ pg.enemy_data_statistics_359 = {
 	},
 	[14701305] = {
 		cannon = 170,
-		name = "测试者-？？？",
+		name = "測試者-？？？",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -592,7 +630,7 @@ pg.enemy_data_statistics_359 = {
 	},
 	[14701306] = {
 		cannon = 170,
-		name = "测试者",
+		name = "測試者",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -765,53 +803,6 @@ pg.enemy_data_statistics_359 = {
 		equipment_list = {
 			1000607,
 			1000612
-		},
-		buff_list = {}
-	},
-	[14702003] = {
-		cannon = 18,
-		luck_growth = 0,
-		hit_growth = 144,
-		speed_growth = 0,
-		pilot_ai_template_id = 20004,
-		air = 0,
-		speed = 15,
-		dodge = 0,
-		id = 14702003,
-		cannon_growth = 1800,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		reload = 150,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 17,
-		base = 90125,
-		durability = 1190,
-		armor_growth = 0,
-		torpedo_growth = 1250,
-		antiaircraft = 95,
-		battle_unit_type = 35,
-		armor = 0,
-		durability_growth = 35200,
-		bubble_fx = "",
-		antisub = 0,
-		antiaircraft_growth = 1400,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		equipment_list = {
-			1000617,
-			1000622,
-			1000627
 		},
 		buff_list = {}
 	}

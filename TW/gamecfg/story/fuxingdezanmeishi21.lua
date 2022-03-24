@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……前方又发现了一支棋子皇家舰队，配置和规模…………与之前相同！",
+			say = "唔……前方又發現了一支棋子皇家艦隊，配置和規模…………與之前相同！",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？与之前相同……？",
+			say = "咦？與之前相同……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“现在这样的程度就算再来无数遍我们也不怕”，不会是你之前的建议被塞壬采纳了吧？",
+			say = "“現在這樣的程度就算再來無數遍我們也不怕”，不會是妳之前的建議被塞壬採納了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎哎哎！？！是这样么！都怪我，不该乱说的……",
+			say = "哎哎哎！？！是這樣嗎！都怪我，不該亂說的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……别介意、西南风在开玩笑呢。",
+			say = "……別介意、西南風在開玩笑呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿嘿~不过万一塞壬真的听了我的建议的话……那就把接下来这个也采纳吧！",
+			say = "嘿嘿嘿~不過萬一塞壬真的聽了我的建議的話……那就把接下來這個也採納吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "塞壬————————快把这个烦人的大迷宫解除吧——————！",
+			say = "塞壬————————快把這個煩人的大迷宮解除吧——————！",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "完全没反应呢，哎嘿~",
+			say = "完全沒反應呢，哎嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，就算收集了无数数据，塞壬果然什么都不明白。面对现在的帝国舰队，这种东西来几次都一样！",
+			say = "哼，就算收集了無數數據，塞壬果然什麼都不明白。面對現在的帝國艦隊，這種東西來幾次都一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			actor = 602010,
 			dir = 1,
-			say = "我们绝不会重蹈覆辙，更不会为过去的梦魇所困。",
+			say = "我們絕不會重蹈覆轍，更不會為過去的夢魘所困。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说的不错~！诸位不必有所保留，火力全开，粉碎敌人！",
+			say = "說的不錯~！諸位不必有所保留，火力全開，粉碎敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

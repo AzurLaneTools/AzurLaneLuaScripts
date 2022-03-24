@@ -17,10 +17,14 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	slot7 = slot0:GetBulletData()
 
 	uv1.Battle.PlayBattleSFX(slot7:GetTemplate().hit_sfx)
+	slot7:BuffTrigger(uv1.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_BANG, {
+		_bullet = slot7,
+		equipIndex = slot7:GetWeapon():GetEquipmentIndex()
+	})
 
-	slot10 = nil
+	slot11 = nil
 
-	function slot11(slot0)
+	function slot12(slot0)
 		if uv0.decay then
 			uv1:UpdateDistanceInfo()
 		end
@@ -39,11 +43,11 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 		end
 	end
 
-	((not slot0:GetBulletData():GetTemplate().hit_type.range or slot6:SpawnColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.range, slot5.time, slot11)) and slot6:SpawnCubeArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.width, slot5.height, slot5.time, slot11)):SetDiveFilter(slot7:GetDiveFilter())
+	((not slot0:GetBulletData():GetTemplate().hit_type.range or slot6:SpawnColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.range, slot5.time, slot12)) and slot6:SpawnCubeArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.width, slot5.height, slot5.time, slot12)):SetDiveFilter(slot7:GetDiveFilter())
 
-	slot12, slot13 = uv0.GetFXPool():GetFX(slot0:GetFXID())
+	slot13, slot14 = uv0.GetFXPool():GetFX(slot0:GetFXID())
 
-	pg.EffectMgr.GetInstance():PlayBattleEffect(slot12, slot13:Add(slot0:GetTf().localPosition), true)
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot13, slot14:Add(slot0:GetTf().localPosition), true)
 
 	if slot7:GetPierceCount() <= 0 then
 		slot6:RemoveBulletUnit(slot7:GetUniqueID())

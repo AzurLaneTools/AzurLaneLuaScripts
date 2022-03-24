@@ -122928,6 +122928,502 @@ pg.ship_data_statistics = {
 			"Akizuki-Class"
 		}
 	},
+	[301851] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "追風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301850,
+		english_name = "IJN Oite",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301851,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			252,
+			11,
+			77,
+			24,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			42,
+			48
+		},
+		attrs_growth = {
+			7171,
+			151,
+			962,
+			535,
+			0,
+			518,
+			0,
+			1032,
+			1327,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
+		}
+	},
+	[301852] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "追風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301850,
+		english_name = "IJN Oite",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301852,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			313,
+			14,
+			96,
+			30,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			42,
+			60
+		},
+		attrs_growth = {
+			7171,
+			151,
+			962,
+			535,
+			0,
+			518,
+			0,
+			1032,
+			1327,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
+		}
+	},
+	[301853] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "追風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301850,
+		english_name = "IJN Oite",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301853,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			436,
+			19,
+			134,
+			42,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			42,
+			84
+		},
+		attrs_growth = {
+			7171,
+			151,
+			962,
+			535,
+			0,
+			518,
+			0,
+			1032,
+			1327,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
+		}
+	},
+	[301854] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "追風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301850,
+		english_name = "IJN Oite",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301854,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			620,
+			27,
+			191,
+			60,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			42,
+			119
+		},
+		attrs_growth = {
+			7171,
+			151,
+			962,
+			535,
+			0,
+			518,
+			0,
+			1032,
+			1327,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
+		}
+	},
 	[301874] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -138791,6 +139287,502 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Kongo-Class",
+			"special"
+		}
+	},
+	[304071] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小天城",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 304070,
+		english_name = "IJN Amagi",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 304071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1189,
+			69,
+			32,
+			34,
+			0,
+			52,
+			0,
+			21,
+			10,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			32656,
+			890,
+			440,
+			737,
+			0,
+			363,
+			0,
+			370,
+			263,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Amagi-Class",
+			"special"
+		}
+	},
+	[304072] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小天城",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 304070,
+		english_name = "IJN Amagi",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 304072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1479,
+			86,
+			40,
+			42,
+			0,
+			52,
+			0,
+			21,
+			10,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			32656,
+			890,
+			440,
+			737,
+			0,
+			363,
+			0,
+			370,
+			263,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Amagi-Class",
+			"special"
+		}
+	},
+	[304073] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小天城",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 304070,
+		english_name = "IJN Amagi",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 304073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2059,
+			120,
+			56,
+			59,
+			0,
+			52,
+			0,
+			21,
+			10,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			32656,
+			890,
+			440,
+			737,
+			0,
+			363,
+			0,
+			370,
+			263,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Amagi-Class",
+			"special"
+		}
+	},
+	[304074] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小天城",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 304070,
+		english_name = "IJN Amagi",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 304074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2929,
+			172,
+			79,
+			84,
+			0,
+			52,
+			0,
+			21,
+			10,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			32656,
+			890,
+			440,
+			737,
+			0,
+			363,
+			0,
+			370,
+			263,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Amagi-Class",
 			"special"
 		}
 	},
@@ -192081,6 +193073,2006 @@ pg.ship_data_statistics = {
 			"Soldati-Class"
 		}
 	},
+	[601041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西北風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601040,
+		english_name = "RN Maestrale",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			296,
+			20,
+			55,
+			30,
+			0,
+			77,
+			0,
+			73,
+			80,
+			45.6,
+			56,
+			47
+		},
+		attrs_growth = {
+			8311,
+			279,
+			734,
+			652,
+			0,
+			534,
+			0,
+			1125,
+			1474,
+			0,
+			0,
+			542
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西北風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601040,
+		english_name = "RN Maestrale",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			368,
+			25,
+			69,
+			37,
+			0,
+			77,
+			0,
+			73,
+			80,
+			45.6,
+			56,
+			59
+		},
+		attrs_growth = {
+			8311,
+			279,
+			734,
+			652,
+			0,
+			534,
+			0,
+			1125,
+			1474,
+			0,
+			0,
+			542
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西北風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601040,
+		english_name = "RN Maestrale",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			513,
+			35,
+			96,
+			52,
+			0,
+			77,
+			0,
+			73,
+			80,
+			45.6,
+			56,
+			82
+		},
+		attrs_growth = {
+			8311,
+			279,
+			734,
+			652,
+			0,
+			534,
+			0,
+			1125,
+			1474,
+			0,
+			0,
+			542
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西北風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601040,
+		english_name = "RN Maestrale",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			729,
+			50,
+			136,
+			74,
+			0,
+			77,
+			0,
+			73,
+			80,
+			45.6,
+			56,
+			117
+		},
+		attrs_growth = {
+			8311,
+			279,
+			734,
+			652,
+			0,
+			534,
+			0,
+			1125,
+			1474,
+			0,
+			0,
+			542
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西南風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601050,
+		english_name = "RN Libeccio",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			290,
+			21,
+			56,
+			29,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			42,
+			45
+		},
+		attrs_growth = {
+			8138,
+			295,
+			746,
+			629,
+			0,
+			534,
+			0,
+			1125,
+			1445,
+			0,
+			0,
+			522
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西南風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601050,
+		english_name = "RN Libeccio",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			361,
+			26,
+			70,
+			36,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			42,
+			56
+		},
+		attrs_growth = {
+			8138,
+			295,
+			746,
+			629,
+			0,
+			534,
+			0,
+			1125,
+			1445,
+			0,
+			0,
+			522
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西南風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601050,
+		english_name = "RN Libeccio",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			502,
+			37,
+			97,
+			50,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			42,
+			78
+		},
+		attrs_growth = {
+			8138,
+			295,
+			746,
+			629,
+			0,
+			534,
+			0,
+			1125,
+			1445,
+			0,
+			0,
+			522
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "西南風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601050,
+		english_name = "RN Libeccio",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			714,
+			53,
+			139,
+			71,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			42,
+			112
+		},
+		attrs_growth = {
+			8138,
+			295,
+			746,
+			629,
+			0,
+			534,
+			0,
+			1125,
+			1445,
+			0,
+			0,
+			522
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Maestrale-Class"
+		}
+	},
+	[601061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "尼科洛索·達·雷科",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601060,
+		english_name = "RN Nicoloso da Recco",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			301,
+			21,
+			52,
+			32,
+			0,
+			73,
+			0,
+			68,
+			77,
+			39.6,
+			82,
+			51
+		},
+		attrs_growth = {
+			8445,
+			295,
+			702,
+			696,
+			0,
+			510,
+			0,
+			1050,
+			1427,
+			0,
+			0,
+			576
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Navigatori-Class"
+		}
+	},
+	[601062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "尼科洛索·達·雷科",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601060,
+		english_name = "RN Nicoloso da Recco",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			374,
+			26,
+			65,
+			40,
+			0,
+			73,
+			0,
+			68,
+			77,
+			39.6,
+			82,
+			64
+		},
+		attrs_growth = {
+			8445,
+			295,
+			702,
+			696,
+			0,
+			510,
+			0,
+			1050,
+			1427,
+			0,
+			0,
+			576
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.15,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Navigatori-Class"
+		}
+	},
+	[601063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "尼科洛索·達·雷科",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601060,
+		english_name = "RN Nicoloso da Recco",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			521,
+			37,
+			90,
+			55,
+			0,
+			73,
+			0,
+			68,
+			77,
+			39.6,
+			82,
+			89
+		},
+		attrs_growth = {
+			8445,
+			295,
+			702,
+			696,
+			0,
+			510,
+			0,
+			1050,
+			1427,
+			0,
+			0,
+			576
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.15,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Navigatori-Class"
+		}
+	},
+	[601064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "尼科洛索·達·雷科",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 601060,
+		english_name = "RN Nicoloso da Recco",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 601064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			741,
+			53,
+			129,
+			79,
+			0,
+			73,
+			0,
+			68,
+			77,
+			39.6,
+			82,
+			126
+		},
+		attrs_growth = {
+			8445,
+			295,
+			702,
+			696,
+			0,
+			510,
+			0,
+			1050,
+			1427,
+			0,
+			0,
+			576
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Navigatori-Class"
+		}
+	},
+	[602011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿布魯齊公爵",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 602010,
+		english_name = "RN Duca degli Abruzzi",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 602011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			760,
+			29,
+			60,
+			71,
+			0,
+			66,
+			0,
+			59,
+			31,
+			35.56,
+			85,
+			23
+		},
+		attrs_growth = {
+			18842,
+			407,
+			790,
+			1475,
+			0,
+			462,
+			0,
+			875,
+			612,
+			0,
+			0,
+			288
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			251
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Condottieri-Class",
+			"V"
+		}
+	},
+	[602012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿布魯齊公爵",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 602010,
+		english_name = "RN Duca degli Abruzzi",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 602012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			945,
+			36,
+			75,
+			88,
+			0,
+			66,
+			0,
+			59,
+			31,
+			35.56,
+			85,
+			29
+		},
+		attrs_growth = {
+			18842,
+			407,
+			790,
+			1475,
+			0,
+			462,
+			0,
+			875,
+			612,
+			0,
+			0,
+			288
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			252
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.35,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Condottieri-Class",
+			"V"
+		}
+	},
+	[602013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿布魯齊公爵",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 602010,
+		english_name = "RN Duca degli Abruzzi",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 602013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1316,
+			51,
+			104,
+			123,
+			0,
+			66,
+			0,
+			59,
+			31,
+			35.56,
+			85,
+			40
+		},
+		attrs_growth = {
+			18842,
+			407,
+			790,
+			1475,
+			0,
+			462,
+			0,
+			875,
+			612,
+			0,
+			0,
+			288
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			253
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Condottieri-Class",
+			"V"
+		}
+	},
+	[602014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿布魯齊公爵",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 602010,
+		english_name = "RN Duca degli Abruzzi",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 602014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1872,
+			73,
+			149,
+			175,
+			0,
+			66,
+			0,
+			59,
+			31,
+			35.56,
+			85,
+			58
+		},
+		attrs_growth = {
+			18842,
+			407,
+			790,
+			1475,
+			0,
+			462,
+			0,
+			875,
+			612,
+			0,
+			0,
+			288
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			254
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.6,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Condottieri-Class",
+			"V"
+		}
+	},
 	[603011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -193083,6 +196075,502 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Zara",
 			"Zara-Class"
+		}
+	},
+	[605011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "維托里奧·維內托",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 605010,
+		english_name = "RN Vittorio Veneto",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 605011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1410,
+			82,
+			0,
+			45,
+			0,
+			58,
+			0,
+			19,
+			8,
+			30,
+			80,
+			0
+		},
+		attrs_growth = {
+			38136,
+			1011,
+			0,
+			990,
+			0,
+			406,
+			0,
+			307,
+			217,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vittorio Veneto-Class"
+		}
+	},
+	[605012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "維托里奧·維內托",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 605010,
+		english_name = "RN Vittorio Veneto",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 605012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1754,
+			102,
+			0,
+			56,
+			0,
+			58,
+			0,
+			19,
+			8,
+			30,
+			80,
+			0
+		},
+		attrs_growth = {
+			38136,
+			1011,
+			0,
+			990,
+			0,
+			406,
+			0,
+			307,
+			217,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vittorio Veneto-Class"
+		}
+	},
+	[605013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "維托里奧·維內托",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 605010,
+		english_name = "RN Vittorio Veneto",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 605013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2441,
+			143,
+			0,
+			78,
+			0,
+			58,
+			0,
+			19,
+			8,
+			30,
+			80,
+			0
+		},
+		attrs_growth = {
+			38136,
+			1011,
+			0,
+			990,
+			0,
+			406,
+			0,
+			307,
+			217,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vittorio Veneto-Class"
+		}
+	},
+	[605014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "維托里奧·維內托",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 605010,
+		english_name = "RN Vittorio Veneto",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 605014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3473,
+			204,
+			0,
+			112,
+			0,
+			58,
+			0,
+			19,
+			8,
+			30,
+			80,
+			0
+		},
+		attrs_growth = {
+			38136,
+			1011,
+			0,
+			990,
+			0,
+			406,
+			0,
+			307,
+			217,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vittorio Veneto-Class"
 		}
 	},
 	[605021] = {
@@ -194563,6 +198051,1466 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		}
+	},
+	[607011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天鷹",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607010,
+		english_name = "RN Aquila",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1093,
+			0,
+			0,
+			69,
+			76,
+			47,
+			0,
+			35,
+			12,
+			30,
+			40,
+			0
+		},
+		attrs_growth = {
+			26660,
+			0,
+			0,
+			1446,
+			951,
+			325,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			148,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Aquila"
+		}
+	},
+	[607012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天鷹",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607010,
+		english_name = "RN Aquila",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1360,
+			0,
+			0,
+			86,
+			95,
+			47,
+			0,
+			35,
+			12,
+			30,
+			40,
+			0
+		},
+		attrs_growth = {
+			26660,
+			0,
+			0,
+			1446,
+			951,
+			325,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			148,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Aquila"
+		}
+	},
+	[607013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天鷹",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607010,
+		english_name = "RN Aquila",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1893,
+			0,
+			0,
+			120,
+			132,
+			47,
+			0,
+			35,
+			12,
+			30,
+			40,
+			0
+		},
+		attrs_growth = {
+			26660,
+			0,
+			0,
+			1446,
+			951,
+			325,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			148,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Aquila"
+		}
+	},
+	[607014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天鷹",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 607010,
+		english_name = "RN Aquila",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 607014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2693,
+			0,
+			0,
+			171,
+			188,
+			47,
+			0,
+			35,
+			12,
+			30,
+			40,
+			0
+		},
+		attrs_growth = {
+			26660,
+			0,
+			0,
+			1446,
+			951,
+			325,
+			0,
+			513,
+			259,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			148,
+			148,
+			149
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			4
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Aquila"
+		}
+	},
+	[608011] = {
+		raid_distance = 30,
+		oxy_max = 208,
+		name = "托里切利",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 608010,
+		english_name = "RN Torricelli",
+		attack_duration = 6,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 608011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			245,
+			7,
+			96,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			16,
+			0
+		},
+		attrs_growth = {
+			6968,
+			102,
+			1154,
+			0,
+			0,
+			214,
+			0,
+			900,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					3
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-3
+				},
+				{
+					-3,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Brin-Class"
+		}
+	},
+	[608012] = {
+		raid_distance = 30,
+		oxy_max = 208,
+		name = "托里切利",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 608010,
+		english_name = "RN Torricelli",
+		attack_duration = 6,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 608012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			305,
+			9,
+			120,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			16,
+			0
+		},
+		attrs_growth = {
+			6968,
+			102,
+			1154,
+			0,
+			0,
+			214,
+			0,
+			900,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					3
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-3
+				},
+				{
+					-3,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Brin-Class"
+		}
+	},
+	[608013] = {
+		raid_distance = 30,
+		oxy_max = 208,
+		name = "托里切利",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 608010,
+		english_name = "RN Torricelli",
+		attack_duration = 6,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 608013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			424,
+			13,
+			168,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			16,
+			0
+		},
+		attrs_growth = {
+			6968,
+			102,
+			1154,
+			0,
+			0,
+			214,
+			0,
+			900,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					3
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-3
+				},
+				{
+					-3,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Brin-Class"
+		}
+	},
+	[608014] = {
+		raid_distance = 30,
+		oxy_max = 208,
+		name = "托里切利",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 608010,
+		english_name = "RN Torricelli",
+		attack_duration = 6,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 6,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 608014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			603,
+			18,
+			239,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			16,
+			0
+		},
+		attrs_growth = {
+			6968,
+			102,
+			1154,
+			0,
+			0,
+			214,
+			0,
+			900,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					3
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-3
+				},
+				{
+					-3,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Brin-Class"
 		}
 	},
 	[701021] = {
@@ -240388,6 +245336,358 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900312] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "泛用型布里",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 100000,
+		english_name = "UNIV Universal Bulin",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900312,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900313] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "試作型布里MKII",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 100010,
+		english_name = "UNIV Trial Bulin MKII",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900313,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900314] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "特裝型布里MKIII",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 100020,
+		english_name = "UNIV Specialized Bulin Custom MKIII",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 6,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900314,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			630056,
+			630057,
+			630058
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[900907] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -242241,6 +247541,506 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"FusoMETA",
 			"Fuso"
+		}
+	},
+	[9706011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "飛鷹·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyō.META",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1128,
+			0,
+			0,
+			48,
+			61,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			17
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.05,
+			0.95
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class",
+			"Hiyō"
+		}
+	},
+	[9706012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "飛鷹·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyō.META",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1403,
+			0,
+			0,
+			60,
+			76,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			21
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.88,
+			1.08,
+			0.98
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class",
+			"Hiyō"
+		}
+	},
+	[9706013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "飛鷹·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyō.META",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1953,
+			0,
+			0,
+			83,
+			106,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			30
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.93,
+			1.13,
+			1.03
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class",
+			"Hiyō"
+		}
+	},
+	[9706014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "飛鷹·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyō.META",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2779,
+			0,
+			0,
+			118,
+			152,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			43
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class",
+			"Hiyō"
 		}
 	},
 	[9707011] = {
@@ -264256,6 +270056,10 @@ pg.ship_data_statistics = {
 		301842,
 		301843,
 		301844,
+		301851,
+		301852,
+		301853,
+		301854,
 		301874,
 		302011,
 		302012,
@@ -264382,6 +270186,10 @@ pg.ship_data_statistics = {
 		304062,
 		304063,
 		304064,
+		304071,
+		304072,
+		304073,
+		304074,
 		305011,
 		305012,
 		305013,
@@ -264743,6 +270551,22 @@ pg.ship_data_statistics = {
 		601022,
 		601023,
 		601024,
+		601041,
+		601042,
+		601043,
+		601044,
+		601051,
+		601052,
+		601053,
+		601054,
+		601061,
+		601062,
+		601063,
+		601064,
+		602011,
+		602012,
+		602013,
+		602014,
 		603011,
 		603012,
 		603013,
@@ -264751,6 +270575,10 @@ pg.ship_data_statistics = {
 		603022,
 		603023,
 		603024,
+		605011,
+		605012,
+		605013,
+		605014,
 		605021,
 		605022,
 		605023,
@@ -264763,6 +270591,14 @@ pg.ship_data_statistics = {
 		605062,
 		605063,
 		605064,
+		607011,
+		607012,
+		607013,
+		607014,
+		608011,
+		608012,
+		608013,
+		608014,
 		701021,
 		701022,
 		701023,
@@ -265130,6 +270966,9 @@ pg.ship_data_statistics = {
 		900282,
 		900310,
 		900311,
+		900312,
+		900313,
+		900314,
 		900907,
 		900908,
 		900909,
@@ -265145,6 +270984,10 @@ pg.ship_data_statistics = {
 		9705012,
 		9705013,
 		9705014,
+		9706011,
+		9706012,
+		9706013,
+		9706014,
 		9707011,
 		9707012,
 		9707013,

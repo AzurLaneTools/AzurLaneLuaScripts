@@ -12,7 +12,7 @@ return {
 			bgName = "bg_italyv2_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "轰——————————！",
+			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "结果已确认，塞壬舰队全数击沉，作战结束。",
+			say = "結果已確認，塞壬艦隊全數擊沉，作戰結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "在我佣兵队长级巡洋舰阿布鲁齐公爵路易·迪·萨伏伊号面前，区区塞壬不堪一击。",
+			say = "在我傭兵隊長級巡洋艦阿布魯齊公爵路易·迪·薩伏伊號面前，區區塞壬不堪一擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "实际上这些塞壬也确实是不堪一击的老旧的型号就是了……有趣。",
+			say = "實際上這些塞壬也確實是不堪一擊的老舊的型號就是了……有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "（是早先潜入陆间海的塞壬无法升级它们的舰队么…还是说…………）",
+			say = "（是早先潛入地中海的塞壬無法升級它們的艦隊嗎…還是說…………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好~我们取得了本次行动中的第一场胜利！向周围区域广播吧，塞壬威胁已经被撒丁帝国舰队清除，往来船队可以自由通航了。",
+			say = "很好~我們取得了本次行動中的第一場勝利！向周圍區域廣播吧，塞壬威脅已經被薩丁帝國艦隊清除，往來船隊可以自由通航了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "是————咦？通讯器里没有收到任何船舶回应。",
+			say = "是————咦？通訊器裡沒有收到任何船舶回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "嗯？不应该啊，这里的航线这么繁忙，再发一次试试看吧。",
+			say = "嗯？不應該啊，這裡的航線這麼繁忙，再發一次試試看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "唔………………不行，还是没有任何回应！",
+			say = "唔………………不行，還是沒有任何回應！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这难道是…………",
+			say = "這難道是…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "镜面海域…………！",
+			say = "鏡面海域…………！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从突如其来的海况变化、无法与外界通讯的通讯阻断，这里毫无疑问是资料记录中的镜面海域！！！！",
+			say = "從突如其來的海況變化、無法與外界通訊的通訊阻斷，這裡毫無疑問是資料記錄中的鏡面海域！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哎？！这里就是镜面海域么！好厉害~！我还是第一次进来！",
+			say = "哎？！這裡就是鏡面海域嗎！好厲害~！我還是第一次進來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "不光是你，对于我们所有人来说都应该是第一次……这是我们在陆间海中首次确认塞壬镜面海域的存在。",
+			say = "不光是你，對於我們所有人來說都應該是第一次……這是我們在地中海中首次確認塞壬鏡面海域的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……呵呵，果然中奖了啊。",
+			say = "……呵呵，果然中獎了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陆间海中的塞壬一直以来无法根除的原因是因为它们在海中存在据点，而塞壬的据点几乎可以认定就隐藏在镜面海域之中。",
+			say = "地中海中的塞壬一直以來無法根除的原因是因為它們在海中存在據點，而塞壬的據點幾乎可以認定就隱藏在鏡面海域之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "终于……我们也找到这里，总算有一个把它们一网打尽的机会了！",
+			say = "終於……我們也找到這裡，總算有一個把它們一網打盡的機會了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "大、大家快看北方！半空中好像有什么东西出现了！！",
+			say = "大、大家快看北方！半空中好像有什麼東西出現了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那些是………………海市蜃楼？",
+			say = "那些是………………海市蜃樓？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

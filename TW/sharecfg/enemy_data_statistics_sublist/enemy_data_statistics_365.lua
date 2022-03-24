@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_365 = {
+	[14704201] = {
+		cannon = 210,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 2500,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		battle_unit_type = 90,
+		dodge = 11,
+		base = 90531,
+		durability_growth = 368400,
+		antiaircraft = 235,
+		reload_growth = 0,
+		dodge_growth = 156,
+		speed = 20,
+		luck = 18,
+		hit = 32,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 3600,
+		torpedo = 0,
+		durability = 23200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		id = 14704201,
+		fog_fx = "",
+		antisub = 0,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			1101094,
+			1101114,
+			1101119,
+			1101124,
+			1101099
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
 	[14704202] = {
 		cannon = 145,
 		reload = 150,
@@ -86,7 +133,7 @@ pg.enemy_data_statistics_365 = {
 	},
 	[14704301] = {
 		cannon = 330,
-		name = "测试者",
+		name = "測試者",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -171,7 +218,7 @@ pg.enemy_data_statistics_365 = {
 	},
 	[14705001] = {
 		cannon = 750,
-		name = "测试者",
+		name = "測試者",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -666,47 +713,6 @@ pg.enemy_data_statistics_365 = {
 			1100220,
 			1100600,
 			1100455
-		}
-	},
-	[15000004] = {
-		cannon = 35,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 2000,
-		pilot_ai_template_id = 20004,
-		air = 0,
-		battle_unit_type = 60,
-		dodge = 0,
-		base = 90573,
-		durability_growth = 33600,
-		antiaircraft = 40,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 1200,
-		torpedo = 0,
-		durability = 650,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		id = 15000004,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"appearsmall",
-			"ouxiang_xinxin_BB"
-		},
-		equipment_list = {
-			1100190,
-			1100915,
-			1100920,
-			1100470
 		}
 	}
 }

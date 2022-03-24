@@ -1429,6 +1429,177 @@ pg.map_event_list = {
 		event_list_loop = {},
 		help_pictures = {}
 	},
+	[1500004] = {
+		help_open = 1,
+		chapter_id = 1500004,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[1500005] = {
+		help_open = 0,
+		chapter_id = 1500005,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[1500006] = {
+		help_open = 0,
+		chapter_id = 1500006,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			460,
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469,
+			470,
+			471
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[1500024] = {
+		help_open = 1,
+		chapter_id = 1500024,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[1500025] = {
+		help_open = 0,
+		chapter_id = 1500025,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[1500026] = {
+		help_open = 0,
+		chapter_id = 1500026,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			460,
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469,
+			470,
+			471
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[1500041] = {
+		help_open = 0,
+		chapter_id = 1500041,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			472,
+			473,
+			474,
+			475,
+			476,
+			477,
+			478,
+			479,
+			480,
+			481,
+			482
+		},
+		event_list_loop = {
+			482
+		},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
 	[1540001] = {
 		help_open = 1,
 		chapter_id = 1540001,
@@ -1647,6 +1818,13 @@ pg.map_event_list = {
 		1480025,
 		1480026,
 		1490017,
+		1500004,
+		1500005,
+		1500006,
+		1500024,
+		1500025,
+		1500026,
+		1500041,
 		1540001,
 		1540002,
 		1540003,
