@@ -8456,7 +8456,7 @@ pg.fleet_tech_ship_template = {
 		}
 	},
 	[60107] = {
-		max_star = 5,
+		max_star = 6,
 		id = 60107,
 		pt_get = 26,
 		pt_upgrage = 52,

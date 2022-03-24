@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！非常感谢邀请，我能叫上{namecode:96}姐么？",
+			say = "哎？！非常感谢邀请，我能叫上{namecode:95}姐么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

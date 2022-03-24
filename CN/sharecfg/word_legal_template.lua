@@ -5593,3 +5593,21 @@ function temp()
 end
 
 temp()
+
+function temp()
+	uv0["庞"] = {
+		["培"] = {
+			["·"] = {
+				["马"] = {
+					["格"] = {
+						["诺"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
