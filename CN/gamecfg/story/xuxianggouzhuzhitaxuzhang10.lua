@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一点确实有些奇怪……这里已经是海域中心了，却没有遇到设么像样的敌人。",
+			say = "这一点确实有些奇怪……这里已经是海域中心了，却没有遇到什么像样的敌人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
