@@ -1507,7 +1507,7 @@ _G.pg.equip_data_statistics[140] = {
 
 _G.pg.equip_data_statistics[141] = {
 	type = 10,
-	name = "Default Depth Charge (Destroyer) ",
+	name = "Default Depth Charge (Destroyer)",
 	speciality = "Anti\nsubmarine",
 	tech = 1,
 	rarity = 1,
@@ -1578,7 +1578,7 @@ _G.pg.equip_data_statistics[144] = {
 
 _G.pg.equip_data_statistics[147] = {
 	type = 10,
-	name = "Default Depth Charge (Light Cruiser) ",
+	name = "Default Depth Charge (Light Cruiser)",
 	speciality = "Anti\nsubmarine",
 	tech = 1,
 	rarity = 1,
@@ -6816,7 +6816,7 @@ _G.pg.equip_data_statistics[893] = {
 
 _G.pg.equip_data_statistics[940] = {
 	type = 10,
-	name = "Action Report: Operation AF ",
+	name = "Action Report: Operation AF",
 	speciality = "N/A",
 	tech = 0,
 	value_2 = 0,
@@ -7079,7 +7079,7 @@ _G.pg.equip_data_statistics[973] = {
 
 _G.pg.equip_data_statistics[980] = {
 	type = 10,
-	name = "Intel Report - Expedition Log ",
+	name = "Intel Report - Expedition Log",
 	speciality = "N/A",
 	tech = 0,
 	value_2 = 100,
@@ -37472,7 +37472,7 @@ _G.pg.equip_data_statistics[18047] = {
 
 _G.pg.equip_data_statistics[18060] = {
 	rarity = 5,
-	name = "TBD Devastator (VT-8 Squadron) ",
+	name = "TBD Devastator (VT-8 Squadron)",
 	speciality = "Torpedo",
 	type = 8,
 	tech = 0,
@@ -52092,7 +52092,7 @@ _G.pg.equip_data_statistics[26351] = {
 
 _G.pg.equip_data_statistics[26360] = {
 	tech = 0,
-	name = "Single 20mm Mk II Oerlikon AA Gun Mount ",
+	name = "Single 20mm Mk II Oerlikon AA Gun Mount",
 	speciality = "Anti-Air",
 	type = 6,
 	descrip = "No description",
@@ -53958,7 +53958,7 @@ _G.pg.equip_data_statistics[26653] = {
 
 _G.pg.equip_data_statistics[26660] = {
 	tech = 0,
-	name = "Sextuple 40mm Bofors AA Gun Mount ",
+	name = "Sextuple 40mm Bofors AA Gun Mount",
 	speciality = "Anti-Air",
 	type = 6,
 	descrip = "No description",
@@ -56780,7 +56780,7 @@ _G.pg.equip_data_statistics[27313] = {
 
 _G.pg.equip_data_statistics[27320] = {
 	rarity = 5,
-	name = "Sea Hornet ",
+	name = "Sea Hornet",
 	speciality = "Air",
 	type = 7,
 	tech = 0,
@@ -61774,7 +61774,7 @@ _G.pg.equip_data_statistics[29313] = {
 
 _G.pg.equip_data_statistics[30000] = {
 	tech = 0,
-	name = "Twin 356mm 41st Year Type Naval Gun Mount ",
+	name = "Twin 356mm 41st Year Type Naval Gun Mount",
 	speciality = "Volley",
 	type = 4,
 	descrip = "No description",
@@ -67084,7 +67084,7 @@ _G.pg.equip_data_statistics[34047] = {
 
 _G.pg.equip_data_statistics[34060] = {
 	tech = 0,
-	name = "Twin 356mm 41st Year Type Naval Gun Mount ",
+	name = "Twin 356mm 41st Year Type Naval Gun Mount",
 	speciality = "Volley",
 	type = 4,
 	descrip = "No description",
@@ -72019,7 +72019,7 @@ _G.pg.equip_data_statistics[35573] = {
 
 _G.pg.equip_data_statistics[35580] = {
 	tech = 0,
-	name = "Type 95 Kai Pure Oxygen Submarine Torpedo ",
+	name = "Type 95 Kai Pure Oxygen Submarine Torpedo",
 	speciality = "Torpedo",
 	type = 13,
 	descrip = "No description",
@@ -78520,7 +78520,7 @@ _G.pg.equip_data_statistics[37353] = {
 
 _G.pg.equip_data_statistics[37400] = {
 	rarity = 5,
-	name = "Kawanishi N1K3-A Shiden Kai 2 ",
+	name = "Kawanishi N1K3-A Shiden Kai 2",
 	speciality = "Air",
 	type = 7,
 	tech = 0,
@@ -81836,7 +81836,7 @@ _G.pg.equip_data_statistics[38253] = {
 
 _G.pg.equip_data_statistics[38300] = {
 	rarity = 5,
-	name = "Prototype Saiun Kai ",
+	name = "Prototype Saiun Kai",
 	speciality = "Torpedo",
 	type = 8,
 	tech = 0,
@@ -87654,7 +87654,7 @@ _G.pg.equip_data_statistics[42071] = {
 
 _G.pg.equip_data_statistics[42080] = {
 	tech = 0,
-	name = "Prototype Twin 150mm SK C/28 Main Gun Mount ",
+	name = "Prototype Twin 150mm SK C/28 Main Gun Mount",
 	speciality = "Lock",
 	type = 2,
 	descrip = "No description",
@@ -88623,7 +88623,7 @@ _G.pg.equip_data_statistics[42251] = {
 
 _G.pg.equip_data_statistics[42300] = {
 	tech = 1,
-	name = "Single 150mm TbtsK C/36 Main Gun Mount ",
+	name = "Single 150mm TbtsK C/36 Main Gun Mount",
 	speciality = "Lock",
 	type = 2,
 	descrip = "Single-barreled 150mm gun that was used on the Type 1936A destroyer class. Can be equipped by CLs and some DDs. ",
@@ -92209,7 +92209,7 @@ _G.pg.equip_data_statistics[45153] = {
 
 _G.pg.equip_data_statistics[45200] = {
 	tech = 1,
-	name = "533mm Quintuple Magnetic Torpedo Mount ",
+	name = "533mm Quintuple Magnetic Torpedo Mount",
 	speciality = "Torpedo",
 	type = 5,
 	descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -92379,7 +92379,7 @@ _G.pg.equip_data_statistics[45210] = {
 
 _G.pg.equip_data_statistics[45220] = {
 	tech = 2,
-	name = "533mm Quintuple Magnetic Torpedo Mount ",
+	name = "533mm Quintuple Magnetic Torpedo Mount",
 	speciality = "Torpedo",
 	type = 5,
 	descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -92549,7 +92549,7 @@ _G.pg.equip_data_statistics[45230] = {
 
 _G.pg.equip_data_statistics[45240] = {
 	tech = 3,
-	name = "533mm Quintuple Magnetic Torpedo Mount ",
+	name = "533mm Quintuple Magnetic Torpedo Mount",
 	speciality = "Torpedo",
 	type = 5,
 	descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -123241,7 +123241,7 @@ _G.pg.equip_data_statistics[90913] = {
 
 _G.pg.equip_data_statistics[91000] = {
 	tech = 0,
-	name = "Prototype Triple 406mm /50 Main Gun Mount ",
+	name = "Prototype Triple 406mm /50 Main Gun Mount",
 	speciality = "Volley",
 	type = 4,
 	descrip = "No description",
@@ -125125,7 +125125,7 @@ _G.pg.equip_data_statistics[95153] = {
 
 _G.pg.equip_data_statistics[95160] = {
 	tech = 0,
-	name = "Prototype Twin 90mm Model 1939 High Angle Gun ",
+	name = "Prototype Twin 90mm Model 1939 High Angle Gun",
 	speciality = "Anti-Air",
 	type = 6,
 	descrip = "No description",
@@ -129190,7 +129190,7 @@ _G.pg.equip_data_statistics[95851] = {
 
 _G.pg.equip_data_statistics[95900] = {
 	tech = 0,
-	name = "Prototype Triple 406mm Model 1940 Main Gun ",
+	name = "Prototype Triple 406mm Model 1940 Main Gun",
 	speciality = "Volley",
 	type = 4,
 	descrip = "No description",
