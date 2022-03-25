@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一種說法認為，在過去神話中出現的生物其實是在歷史各種各樣傭兵團的誇張表現哦，比如名叫塞壬的佣兵團之類的。",
+			say = "一種說法認為，在過去神話中出現的生物其實是在歷史各種各樣傭兵團的誇張表現哦，比如名叫塞壬的傭兵團之類的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "如果作為實際的對手，當然是正常的佣兵團最好…………",
+			say = "如果作為實際的對手，當然是正常的傭兵團最好…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2490,7 +2490,7 @@ pg.ship_skin_template_15 = {
 	},
 	[601030] = {
 		ship_group = 60103,
-		name = "文琴佐·焦贝蒂",
+		name = "文琴佐‧焦貝蒂",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
