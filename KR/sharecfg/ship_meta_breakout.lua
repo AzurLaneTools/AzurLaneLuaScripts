@@ -260,6 +260,72 @@ pg.ship_meta_breakout = {
 		pre_id = 9705013,
 		weapon_ids = {}
 	},
+	[9705021] = {
+		breakout_view = "스킬 [일렁이는 불꽃·{namecode:79}] 습득 / 주포 발사 수 +1 / 주포 효율 +5%",
+		gold = 500,
+		breakout_id = 9705022,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705021,
+		item1 = 21010,
+		pre_id = 0,
+		weapon_ids = {
+			34000,
+			34000
+		}
+	},
+	[9705022] = {
+		breakout_view = "부포 발사 수 +2 / 주포 효율 +10%",
+		gold = 1500,
+		breakout_id = 9705023,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705022,
+		item1 = 21010,
+		pre_id = 9705021,
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[9705023] = {
+		breakout_view = "[일렁이는 불꽃·{namecode:79}] 레벨업 / 주포 효율 +15%",
+		gold = 2500,
+		breakout_id = 9705024,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705023,
+		item1 = 21010,
+		pre_id = 9705022,
+		weapon_ids = {
+			34000,
+			34000
+		}
+	},
+	[9705024] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705024,
+		item1 = 21010,
+		pre_id = 9705023,
+		weapon_ids = {}
+	},
 	[9706011] = {
 		breakout_view = "스킬 [섬멸의 횃불·{namecode:220}] 습득/모든 뇌격기+1/ 함재기 효율 +3%",
 		gold = 500,
@@ -573,7 +639,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707033] = {
-		breakout_view = "[일렁이는 불꽃·{namecode:205}] 레벨업/함재기 탑재량 +1 / 폭격기 효율 +15%",
+		breakout_view = "[일렁이는 불꽃·{namecode:205}] 레벨업 / 함재기 탑재량 +1 / 폭격기 효율 +15%",
 		gold = 10000,
 		breakout_id = 9707034,
 		repair = 0,
@@ -622,6 +688,10 @@ pg.ship_meta_breakout = {
 		9705012,
 		9705013,
 		9705014,
+		9705021,
+		9705022,
+		9705023,
+		9705024,
 		9706011,
 		9706012,
 		9706013,

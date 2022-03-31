@@ -2362,6 +2362,37 @@ pg.memory_group = {
 			2038
 		}
 	},
+	[212] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 212,
+		title = "한정 이벤트: 허상의 탑·프롤로그",
+		memories = {
+			2050,
+			2051,
+			2052,
+			2053,
+			2054,
+			2055,
+			2056,
+			2057,
+			2058,
+			2059,
+			2060
+		}
+	},
+	[213] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 213,
+		title = "부린의 맹세",
+		memories = {
+			2061,
+			2062
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3607,6 +3638,8 @@ pg.memory_group = {
 		209,
 		210,
 		211,
+		212,
+		213,
 		501,
 		502,
 		503,

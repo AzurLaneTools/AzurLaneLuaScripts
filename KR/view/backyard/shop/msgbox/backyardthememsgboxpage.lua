@@ -29,6 +29,17 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:UpdateBtns()
 	slot0:UpdatePrice()
 	slot0:Show()
+
+	slot0.purchase.text = i18n("purchase_backyard_theme_desc_for_onekey")
+
+	setActive(slot0.purchaseTr, true)
+	setAnchoredPosition(slot0.btns, {
+		y = 215
+	})
+	setText(slot0.gemPurchaseBtn:Find("content/Text"), i18n("fur_onekey_buy"))
+	setText(slot0.goldPurchaseBtn:Find("content/Text"), i18n("fur_onekey_buy"))
+	setActive(slot0.goldPurchaseIcon, false)
+	setActive(slot0.gemPurchaseIcon, false)
 end
 
 function slot0.UpdateMainInfo(slot0)

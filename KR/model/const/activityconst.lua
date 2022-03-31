@@ -71,6 +71,7 @@ slot0.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD = 77
 slot0.ACTIVITY_TYPE_SHAKE_BEADS = 78
 slot0.ACTIVITY_TYPE_WORLDINPICTURE = 79
 slot0.ACTIVITY_TYPE_BUILD_FREE = 80
+slot0.ACTIVITY_TYPE_APRIL_REWARD = 81
 slot0.HIDE_PT_PANELS = false
 slot0.WITHOUT_ACTIVITY = 0
 slot0.MONOPOLY_OP_THROW = 1
@@ -109,7 +110,7 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 		{
 			2022,
 			3,
-			3
+			31
 		},
 		{
 			0,
@@ -120,8 +121,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2022,
-			3,
-			16
+			4,
+			13
 		},
 		{
 			23,

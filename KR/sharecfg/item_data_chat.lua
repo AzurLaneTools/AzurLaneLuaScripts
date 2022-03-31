@@ -13,7 +13,7 @@ pg.item_data_chat = {
 		name = "1주년 기념",
 		id = 101,
 		time_second = 0,
-		desc = "1년 동안 분투 하신 지휘관님들께 바침.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득.</color>",
+		desc = "1년 동안 분투 하신 지휘관님들께 바침.<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득.</color>",
 		scene = {}
 	},
 	[102] = {
@@ -21,7 +21,7 @@ pg.item_data_chat = {
 		name = "2주년 기념",
 		id = 102,
 		time_second = 0,
-		desc = "2년 동안 분투 하신 지휘관님들께 바침.\n<color=#A7A7AAFF>한정 이벤트에 참여하면 획득 가능.</color>",
+		desc = "2년 동안 분투 하신 지휘관님들께 바침.<color=#A7A7AAFF>한정 이벤트에 참여하면 획득 가능.</color>",
 		scene = {}
 	},
 	[103] = {
@@ -29,7 +29,15 @@ pg.item_data_chat = {
 		name = "3주년 기념",
 		id = 103,
 		time_second = 0,
-		desc = "3년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.\n<color=#A7A7AAFF>3주년 한정 이벤트에 참여하여 획득</color> ",
+		desc = "3년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.<color=#A7A7AAFF>3주년 한정 이벤트에 참여하여 획득</color> ",
+		scene = {}
+	},
+	[104] = {
+		time_limit_type = 0,
+		name = "4주년 기념",
+		id = 104,
+		time_second = 0,
+		desc = "4년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.<color=#A7A7AAFF>4주년 한정 이벤트에 참여하여 획득</color> ",
 		scene = {}
 	},
 	[300] = {
@@ -37,7 +45,7 @@ pg.item_data_chat = {
 		name = "소집자",
 		id = 300,
 		time_second = 2592000,
-		desc = "<color=#ffffff>동원 지령에 대한 응답에 감사드립니다, 지휘관님.</color>\n<color=#A7A7AAFF>유효기간 30일</color>",
+		desc = "<color=#ffffff>동원 지령에 대한 응답에 감사드립니다, 지휘관님.</color><color=#A7A7AAFF>유효기간 30일</color>",
 		scene = {}
 	},
 	[301] = {
@@ -45,7 +53,7 @@ pg.item_data_chat = {
 		name = "도전 모드 말풍선",
 		id = 301,
 		time_second = 2592000,
-		desc = "<color=#ffffff>X작전 첫 회 완료 시 획득할 수 있습니다.</color>\n<color=#A7A7AAFF>유효기간 30일</color>",
+		desc = "<color=#ffffff>X작전 첫 회 완료 시 획득할 수 있습니다.</color><color=#A7A7AAFF>유효기간 30일</color>",
 		scene = {}
 	},
 	all = {
@@ -53,6 +61,7 @@ pg.item_data_chat = {
 		101,
 		102,
 		103,
+		104,
 		300,
 		301
 	}

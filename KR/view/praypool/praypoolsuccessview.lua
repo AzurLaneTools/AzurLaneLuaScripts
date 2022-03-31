@@ -67,7 +67,7 @@ function slot0.initUI(slot0)
 
 			return true
 		end, function (slot0)
-			uv0:emit(PrayPoolConst.START_BUILD_SHIP_EVENT, uv1.id, slot0)
+			uv0:emit(PrayPoolConst.START_BUILD_SHIP_EVENT, uv1.id, slot0, 0)
 		end, function (slot0)
 			return i18n("build_ship_tip", slot0, uv0.name, slot0 * uv0.use_gold, slot0 * uv0.number_1, uv1(slot0) and COLOR_GREEN or COLOR_RED)
 		end)

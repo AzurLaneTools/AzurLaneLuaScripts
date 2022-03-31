@@ -1015,10 +1015,10 @@ pg.activity_template_headhunting = {
 			1000079
 		}
 	},
-	[20851] = {
+	[20990] = {
 		man_num = 2,
 		pt = 220,
-		id = 20851,
+		id = 20990,
 		level = 1,
 		target = {
 			25,
@@ -1227,6 +1227,6 @@ pg.activity_template_headhunting = {
 		20417,
 		20542,
 		20727,
-		20851
+		20990
 	}
 }

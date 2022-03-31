@@ -9317,6 +9317,15 @@ function temp()
 					["·"] = {
 						["改"] = {
 							this = true
+						},
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
 						}
 					}
 				}
@@ -9640,7 +9649,18 @@ function temp()
 				["르"] = {
 					["스"] = {
 						["트"] = {
-							this = true
+							this = true,
+							["·"] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -9784,6 +9804,15 @@ function temp()
 		["렌"] = {
 			["토"] = {
 				this = true
+			}
+		},
+		["리"] = {
+			["에"] = {
+				["스"] = {
+					["테"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -10185,6 +10214,36 @@ function temp()
 						}
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["폼"] = {
+		["페"] = {
+			["오"] = {
+				[" "] = {
+					["마"] = {
+						["뇨"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["임"] = {
+		["페"] = {
+			["로"] = {
+				this = true
 			}
 		}
 	}

@@ -3167,6 +3167,76 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[1003] = {
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 엔터프라이즈 캐릭터 스킨 및 기타 보상",
+		name = "특허 투어 패스(2022.4)",
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		subject = "특허 투어 패스",
+		extra_gem = 0,
+		name_display = "특허 투어 패스",
+		limit_arg = 1,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "alkrgift31",
+		first_pay_double = 0,
+		extra_service = 4,
+		id = 1003,
+		airijp_id = "com.yostarjp.azurlane.seasonpass4",
+		extra_service_item = {
+			{
+				1,
+				4004,
+				1500
+			},
+			{
+				8,
+				59281,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4004,
+				1500
+			}
+		},
+		sub_display = {
+			7004,
+			1500
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -3205,6 +3275,7 @@ pg.pay_data_display = {
 		37,
 		1000,
 		1001,
-		1002
+		1002,
+		1003
 	}
 }

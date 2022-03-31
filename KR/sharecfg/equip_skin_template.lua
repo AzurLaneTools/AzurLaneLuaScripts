@@ -14539,7 +14539,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "어서 소원을 빌어쥬!",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14568,7 +14568,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "매번 마주칠 때마다 기대돼쥬!",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14598,7 +14598,7 @@ pg.equip_skin_template = {
 		orbit_ui_bound = "",
 		type = 1,
 		desc = "행성급 공격을 받아라쥬!",
-		themeid = 99,
+		themeid = 101,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
@@ -14627,7 +14627,7 @@ pg.equip_skin_template = {
 		bullet_name = "",
 		desc = "별들이 둘러싸고 있는 기분을 느껴봐쥬!",
 		type = 1,
-		themeid = 99,
+		themeid = 101,
 		name = "쥬쥬 성단",
 		rarity = 4,
 		orbit_combat = "shebei_xingqiu",
@@ -14664,6 +14664,153 @@ pg.equip_skin_template = {
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	},
+	[2005] = {
+		mirror = 0,
+		bullet_name = "",
+		desc = "어둡거나 밝고, 차거나 기우는 달~",
+		type = 1,
+		themeid = 101,
+		name = "새틀라이트 문",
+		rarity = 4,
+		orbit_combat = "shebei_yuexiang",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_yuexiangui",
+		derivate_bullet = "",
+		id = 2005,
+		icon = "96152",
+		ship_skin_id = 0,
+		derivate_torpedo = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				-0.11,
+				-0.69
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-7,
+				-114
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2006] = {
+		name = "제미니 포탄",
+		bullet_name = "paodan_shuangxingpaodan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "넌 나를 감싸고, 난 너를 감싸고~",
+		themeid = 101,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96113",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		id = 2006,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2007] = {
+		mirror = 0,
+		bullet_name = "",
+		desc = "별빛을 타고 광대한 우주를 누벼요!",
+		type = 1,
+		themeid = 101,
+		name = "달빛 나비",
+		rarity = 4,
+		orbit_combat = "shebei_xingyunzhiyi",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xingyunzhiyiui",
+		derivate_bullet = "",
+		id = 2007,
+		icon = "96153",
+		ship_skin_id = 0,
+		derivate_torpedo = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.22,
+				-0.32,
+				-1.01
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-103
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2008] = {
+		name = "오무아무아 어뢰",
+		bullet_name = "yulei_aomomo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "기이한 천체일까요, 미지의 비행선일까요!?",
+		themeid = 101,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96122",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		id = 2008,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
 		}
 	},
 	all = {
@@ -15174,6 +15321,10 @@ pg.equip_skin_template = {
 		2001,
 		2002,
 		2003,
-		2004
+		2004,
+		2005,
+		2006,
+		2007,
+		2008
 	}
 }

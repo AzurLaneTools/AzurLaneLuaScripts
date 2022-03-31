@@ -45,6 +45,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>3년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n3주년 한정 이벤트에 참여하여 획득",
 		scene = {}
 	},
+	[105] = {
+		time_limit_type = 0,
+		name = "4주년 기념",
+		gain_by = "",
+		id = 105,
+		time_second = 0,
+		desc = "<color=#ffffff>4년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n4주년 한정 이벤트에 참여하여 획득",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "한계 챌린저 ",
@@ -144,6 +153,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （21.12.23-22.03.20）",
 		scene = {}
 	},
+	[212] = {
+		time_limit_type = 0,
+		name = "한계 챌린저 XII",
+		gain_by = "",
+		id = 212,
+		time_second = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （22.03.31-22.06.26）",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "소환자",
@@ -165,7 +183,7 @@ pg.item_data_frame = {
 	[302] = {
 		time_limit_type = 0,
 		name = "메탈 블러드의 맹세",
-		gain_by = "铁血、音符与誓言",
+		gain_by = "메탈 블러드, 음표 & 맹세",
 		id = 302,
 		time_second = 0,
 		desc = "<color=#ffffff>적색의 피, 단단한 철로 굳건하게 형성된 의지</color>\n[메탈 블러드, 음표 & 맹세] 이벤트에서 획득 가능",
@@ -174,7 +192,7 @@ pg.item_data_frame = {
 	[303] = {
 		time_limit_type = 0,
 		name = "자유의 날개",
-		gain_by = "箱庭疗法",
+		gain_by = "샌드 플레이",
 		id = 303,
 		time_second = 0,
 		desc = "<color=#ffffff>「——푸른 자유 의지를 위하여, 신이여 유니온을 보호하소서」</color>\n「샌드 플레이」이벤트에서 획득합니다",
@@ -183,7 +201,7 @@ pg.item_data_frame = {
 	[304] = {
 		time_limit_type = 0,
 		name = "영광의 휘장",
-		gain_by = "神圣的悲喜剧",
+		gain_by = "디바인 트래지코미디",
 		id = 304,
 		time_second = 0,
 		desc = "<color=#ffffff>「세계에 사르데냐 엠파이어의 영광과 위엄을 알리자!」 </Color>\n [디바인 트래지코미디] 이벤트에서 획득 가능",
@@ -192,7 +210,7 @@ pg.item_data_frame = {
 	[305] = {
 		time_limit_type = 0,
 		name = "사쿠라 엠파이어의 의식 ",
-		gain_by = "浮樱影华",
+		gain_by = "빛나는 벚꽃의 그림자",
 		id = 305,
 		time_second = 0,
 		desc = "<color=#ffffff>「신앙을 받들어 사쿠라 엠파이어의 미래의 광명을 기원해요.」</color>\n「빛나는 벚꽃의 그림자」 이벤트 획득 ",
@@ -201,7 +219,7 @@ pg.item_data_frame = {
 	[306] = {
 		time_limit_type = 0,
 		name = "연합의 증명",
-		gain_by = "北境序曲",
+		gain_by = "동절의 북해",
 		id = 306,
 		time_second = 0,
 		desc = "<color=#ffffff>「동지들이여! 힘을 모으자! 이 세계를 우리 손으로 바꾸자!」 </color>\n「동절의 북해」 이벤트 획득 ",
@@ -210,7 +228,7 @@ pg.item_data_frame = {
 	[307] = {
 		time_limit_type = 0,
 		name = "빛나는 날개",
-		gain_by = "微层混合",
+		gain_by = "어둠을 쫓는 은익",
 		id = 307,
 		time_second = 0,
 		desc = "<Color=#ffffff>「두려움을 모르는 번개가 어둠을 가르고 우리가 나아갈 방향을 밝게 비춘다」</color>\n「어둠을 쫓는 은익」이벤트 획득 ",
@@ -219,7 +237,7 @@ pg.item_data_frame = {
 	[308] = {
 		time_limit_type = 0,
 		name = "아이리스의 찬양",
-		gain_by = "穹顶下的圣咏曲",
+		gain_by = "하늘 아래의 찬송가",
 		id = 308,
 		time_second = 0,
 		desc = "<color=#ffffff>과거의 찬송가가 다시 천공에 울려 퍼지기를, Vive la Iris!</color>\n「하늘 아래의 찬송가」 이벤트 획득",
@@ -228,7 +246,7 @@ pg.item_data_frame = {
 	[309] = {
 		time_limit_type = 0,
 		name = "로열의 왕관",
-		gain_by = "永夜幻光",
+		gain_by = "영원한 밤의 환광",
 		id = 309,
 		time_second = 0,
 		desc = "<color=#ffffff>로열 네이비의 영광을 위해 싸워라, God Save The Queen </color>\n이벤트「영원한 밤의 환광」을 통해 획득",
@@ -237,7 +255,7 @@ pg.item_data_frame = {
 	[311] = {
 		time_limit_type = 0,
 		name = "물에 비친 나비의 그림자",
-		gain_by = "蝶海梦花",
+		gain_by = "접해몽화",
 		id = 311,
 		time_second = 0,
 		desc = "<color=#ffffff>「현실에서도 꿈에서도, 희망의 빛이 영원하기를 바란다.」</color>\n「나비 바다 꿈의 꽃」 이벤트 획득",
@@ -246,7 +264,7 @@ pg.item_data_frame = {
 	[312] = {
 		time_limit_type = 0,
 		name = "메탈 블러드의 용기",
-		gain_by = "负象限作战",
+		gain_by = "부상한 작전",
 		id = 312,
 		time_second = 0,
 		desc = "<color=#ffffff>「냉철한 용기로 새빨간 메탈 블러드의 의지를 다시 되새긴다.」</color>\n「부상한 작전」 이벤트 획득",
@@ -255,7 +273,7 @@ pg.item_data_frame = {
 	[313] = {
 		time_limit_type = 0,
 		name = "빙화의 휘장",
-		gain_by = "破晓冰华",
+		gain_by = "새벽녘에 비치는 빙화",
 		id = 313,
 		time_second = 0,
 		desc = "<color=#ffffff>「\"밀실\"에 숨겨진 비밀을 탐색해 보세요!」</color>\n「새벽녘에 비치는 빙화」이벤트 획득",
@@ -264,7 +282,7 @@ pg.item_data_frame = {
 	[314] = {
 		time_limit_type = 0,
 		name = "제국의 기둥",
-		gain_by = "复兴的赞美诗",
+		gain_by = "부흥의 찬송가",
 		id = 314,
 		time_second = 0,
 		desc = "<color=#ffffff>「견고한 기둥을 세워 새로운 제국을 이룩하고, 함께 영광을 위해 싸우자!」</color>\n「부흥의 찬송가」 이벤트 획득",
@@ -273,7 +291,7 @@ pg.item_data_frame = {
 	[315] = {
 		time_limit_type = 0,
 		name = "전광의 날개",
-		gain_by = "镜位螺旋",
+		gain_by = "비추는 나선의 경해",
 		id = 315,
 		time_second = 0,
 		desc = "<color=#ffffff>「이글 유니온 최대 최강의 Black Dragon 등장! 함께 세상을 뒤흔들자!」</color>\n「비추는 나선의 경해」 이벤트 획득",
@@ -282,7 +300,7 @@ pg.item_data_frame = {
 	[316] = {
 		time_limit_type = 0,
 		name = "용궁의 증명",
-		gain_by = "碧海光粼",
+		gain_by = "맑고 푸른 바다",
 		id = 316,
 		time_second = 0,
 		desc = "<color=#ffffff>「용궁의 수수께끼를 풀고 진정한 보물을 찾을 수 있기를」</color>\n「맑고 푸른 바다」 이벤트 획득.",
@@ -291,7 +309,7 @@ pg.item_data_frame = {
 	[317] = {
 		time_limit_type = 0,
 		name = "역행의 무지개",
-		gain_by = "逆转彩虹之塔",
+		gain_by = "역행하는 무지개 탑",
 		id = 317,
 		time_second = 0,
 		desc = "<color=#ffffff>「위로는 신의 국가를 향해, 아래로는 저승을 향해. 역행하는 무지개를 넘어, 미지를 향해 나아가자.」</color>\n「역행하는 무지개 탑」이벤트 획득.",
@@ -300,7 +318,7 @@ pg.item_data_frame = {
 	[318] = {
 		time_limit_type = 0,
 		name = "극한의 별",
-		gain_by = "深度回音",
+		gain_by = "깊게 울리는 메아리",
 		id = 318,
 		time_second = 0,
 		desc = "<color=#ffffff>「극지 임무에서 탁월한 공헌을 한 동지에게 가장 숭고한 경의를 표한다.」——「깊게 울리는 메아리」 이벤트 획득</color>",
@@ -348,6 +366,7 @@ pg.item_data_frame = {
 		102,
 		103,
 		104,
+		105,
 		201,
 		202,
 		203,
@@ -359,6 +378,7 @@ pg.item_data_frame = {
 		209,
 		210,
 		211,
+		212,
 		300,
 		301,
 		302,

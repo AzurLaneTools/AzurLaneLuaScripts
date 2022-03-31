@@ -788,6 +788,10 @@ function slot9.CastTorpedo(slot0)
 
 	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
 		slot1:Prepar()
+
+		for slot5, slot6 in ipairs(slot0._unitList) do
+			slot6:TriggerBuff(uv0.BuffEffectType.ON_TORPEDO_BUTTON_PUSH)
+		end
 	end
 end
 

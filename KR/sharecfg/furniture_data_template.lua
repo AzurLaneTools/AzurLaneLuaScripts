@@ -740,6 +740,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[26] = {
+		spine_extra = "",
+		describe = "특수 가구: 폼페오 마뇨 구축함 1:100 함선 모형",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "luomatongshuaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "폼페오 마뇨 모형",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "chuanmo/luomatongshuai",
+		canputon = 0,
+		id = 26,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[102] = {
 		spine_extra = "",
 		describe = "USS Arizona 1915.6.19─1941.12.7",
@@ -4864,6 +4901,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[222] = {
+		spine_extra = "",
+		describe = "오늘부터 의자매를 맺는다 푸링!——아니, 원래부터 그랬던 것 같기도 푸링?",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "sanbuliicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "부린의 맹세",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 222,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanbuli",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -7245,6 +7325,83 @@ pg.furniture_data_template = {
 				1
 			},
 			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100035] = {
+		spine_extra = "",
+		describe = "내 속도를 추월할 사람은 아무도 없다고~~~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "초고속 모의 스키장",
+		themeId = 0,
+		icon = "huaxuetaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100035,
+		can_rotate = 0,
+		size = {
+			6,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaxuetaiB",
+				"normal"
+			},
+			{
+				"huaxuetaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
 		},
 		followBone = {
 			"char",
@@ -95990,6 +96147,707 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[87001] = {
+		spine_extra = "",
+		describe = "따뜻한 바람이 불어와요. 새 학기 시작!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "쥬쥬 캠퍼스 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibansc3icon",
+		spine_action_replace = "",
+		picture = "sc3/dibansc3",
+		comfortable = 4,
+		canputon = 0,
+		id = 87001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87002] = {
+		spine_extra = "",
+		describe = "따뜻한 바람이 불어와요. 새 학기 시작!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "쥬쥬 캠퍼스 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbisc3icon",
+		spine_action_replace = "",
+		picture = "sc3/qiangbisc3",
+		comfortable = 4,
+		canputon = 0,
+		id = 87002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87101] = {
+		spine_extra = "",
+		describe = "모집 중인 동아리가…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gonggaobansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 게시판",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/gonggaobansc3",
+		canputon = 0,
+		id = 87101,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87102] = {
+		spine_extra = "",
+		describe = "낮에는 불이 켜지지 않아요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 1,
+		icon = "dengsc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 가로등",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/dengsc3",
+		canputon = 0,
+		id = 87102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87107] = {
+		spine_extra = "",
+		describe = "캠퍼스 경치를 푸르게!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 1,
+		icon = "guanmusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 관목",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/guanmusc3",
+		canputon = 0,
+		id = 87107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87112] = {
+		spine_extra = "",
+		describe = "배우고 때로는 그것을 익히…쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiudiaoxiangsc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "학자쥬 조각상",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/jiujiudiaoxiangsc3",
+		canputon = 0,
+		id = 87112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87113] = {
+		spine_extra = "",
+		describe = "지각, 지각하겠어쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "jkjiusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "세일러복쥬",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/jkjiusc3",
+		canputon = 0,
+		id = 87113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87115] = {
+		spine_extra = "",
+		describe = "떨어지는 사과에 영감을 받을 다음 사람은 누구일까요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pingguoshusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 가로수",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/pingguoshusc3",
+		canputon = 0,
+		id = 87115,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87116] = {
+		spine_extra = "",
+		describe = "하루중 가장 귀중한 시간은 새벽이에요, 힘내요~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shibanlusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 돌길",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "sc3/shibanlusc3",
+		canputon = 0,
+		id = 87116,
+		can_rotate = 0,
+		size = {
+			5,
+			15
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87117] = {
+		spine_extra = "",
+		describe = "좋아, 점심에 분수대 근처에서 도시락 먹자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuichisc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 분수",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/shuichisc3",
+		canputon = 0,
+		id = 87117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-144
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/shuichisc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87118] = {
+		spine_extra = "",
+		describe = "벚꽃이 날리는 계절이 돌아왔어요…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "shusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 벚꽃",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sc3/shusc3",
+		canputon = 0,
+		id = 87118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87121] = {
+		spine_extra = "",
+		describe = "찍찍~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "songshusc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 다람쥐",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/songshusc3",
+		canputon = 0,
+		id = 87121,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87123] = {
+		spine_extra = "",
+		describe = "도서관에서는 정숙해 주세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tushuguansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 도서관",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/tushuguansc3",
+		canputon = 0,
+		id = 87123,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87124] = {
+		spine_extra = "",
+		describe = "강의실로 가는 지름길이에요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaodaosc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 오솔길",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/xiaodaosc3",
+		canputon = 0,
+		id = 87124,
+		can_rotate = 0,
+		size = {
+			12,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-77.3,
+					-50.9
+				},
+				{
+					-1,
+					1
+				},
+				"sc3/xiaodaosc3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87126] = {
+		spine_extra = "",
+		describe = "푸른 하늘 아래 맛있는 음식을 즐겨요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 87,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yecantansc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "오후 피크닉",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/yecantansc3",
+		canputon = 0,
+		id = 87126,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					40,
+					30
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87127] = {
+		spine_extra = "",
+		describe = "지치면 쉬어 가요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "yizisc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 벤치",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sc3/yizisc3",
+		canputon = 0,
+		id = 87127,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87130] = {
+		spine_extra = "",
+		describe = "수업 언제 끝나지…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhonglousc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 시계탑",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/zhonglousc3",
+		canputon = 0,
+		id = 87130,
+		can_rotate = 0,
+		size = {
+			9,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[87131] = {
+		spine_extra = "",
+		describe = "곧 수업 시간이에요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 87,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuanlousc3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캠퍼스 강의동",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sc3/zhuanlousc3",
+		canputon = 0,
+		id = 87131,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -96011,6 +96869,7 @@ pg.furniture_data_template = {
 		23,
 		24,
 		25,
+		26,
 		102,
 		104,
 		105,
@@ -96093,6 +96952,7 @@ pg.furniture_data_template = {
 		219,
 		220,
 		221,
+		222,
 		100002,
 		100003,
 		100004,
@@ -96126,6 +96986,7 @@ pg.furniture_data_template = {
 		100032,
 		100033,
 		100034,
+		100035,
 		200001,
 		200002,
 		200003,
@@ -98151,6 +99012,24 @@ pg.furniture_data_template = {
 		86117,
 		86119,
 		86122,
-		86301
+		86301,
+		87001,
+		87002,
+		87101,
+		87102,
+		87107,
+		87112,
+		87113,
+		87115,
+		87116,
+		87117,
+		87118,
+		87121,
+		87123,
+		87124,
+		87126,
+		87127,
+		87130,
+		87131
 	}
 }

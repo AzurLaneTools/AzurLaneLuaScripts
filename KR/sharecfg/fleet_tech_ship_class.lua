@@ -2197,6 +2197,17 @@ pg.fleet_tech_ship_class = {
 			60106
 		}
 	},
+	[60105] = {
+		shiptype = 1,
+		name = "카피타니 로마니급",
+		nation = 6,
+		id = 60105,
+		t_level_1 = 132,
+		t_level = 10,
+		ships = {
+			60107
+		}
+	},
 	[60201] = {
 		shiptype = 2,
 		name = "두카 델리 아브루치급",
@@ -2228,7 +2239,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 133,
 		t_level = 5,
 		ships = {
-			60301
+			60301,
+			60304
 		}
 	},
 	[60501] = {
@@ -2275,6 +2287,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 6,
 		ships = {
 			60701
+		}
+	},
+	[60702] = {
+		shiptype = 7,
+		name = "베네토급",
+		nation = 6,
+		id = 60702,
+		t_level_1 = 135,
+		t_level = 7,
+		ships = {
+			60702
 		}
 	},
 	[60801] = {
@@ -2861,6 +2884,7 @@ pg.fleet_tech_ship_class = {
 		60102,
 		60103,
 		60104,
+		60105,
 		60201,
 		60301,
 		60302,
@@ -2868,6 +2892,7 @@ pg.fleet_tech_ship_class = {
 		60502,
 		60503,
 		60701,
+		60702,
 		60801,
 		70101,
 		70102,

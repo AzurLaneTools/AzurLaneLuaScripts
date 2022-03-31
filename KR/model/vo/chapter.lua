@@ -223,6 +223,10 @@ function slot0.isTypeDefence(slot0)
 	return slot0:getPlayType() == ChapterConst.TypeDefence
 end
 
+function slot0.IsSpChapter(slot0)
+	return getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):getMapType() == Map.ACT_EXTRA and slot0:getPlayType() == ChapterConst.TypeRange
+end
+
 function slot0.getConfig(slot0, slot1)
 	if slot0:isLoop() then
 		if pg.chapter_template_loop[slot0.id][slot1] ~= nil then

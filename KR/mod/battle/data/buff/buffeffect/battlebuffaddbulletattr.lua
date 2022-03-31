@@ -64,8 +64,27 @@ function slot1.onBombBulletBang(slot0, slot1, slot2, slot3)
 	slot0:calcBulletAttr(slot3)
 end
 
+function slot1.onTorpedoBulletBang(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	slot0:displacementConvert(slot3)
+	slot0:calcBulletAttr(slot3)
+end
+
 function slot1.displacementConvert(slot0, slot1)
-	slot0._number = math.min(math.max(slot1._bullet:GetCurrentDistance() - slot0._displacementConvert.base, 0) * slot0._displacementConvert.rate, slot0._displacementConvert.max)
+	slot3 = slot1._bullet:GetCurrentDistance()
+	slot4 = slot0._displacementConvert.base
+	slot6 = slot0._displacementConvert.max
+
+	if slot0._displacementConvert.rate > 0 then
+		slot0._number = math.min(math.max(slot3 - slot4, 0) * slot5, slot6)
+	elseif slot5 < 0 then
+		slot0._number = math.min(math.max(0, slot6 + (slot3 - slot4) * slot5), slot6)
+	elseif slot5 == 0 then
+		slot0._number = 0
+	end
 end
 
 function slot1.calcBulletAttr(slot0, slot1)

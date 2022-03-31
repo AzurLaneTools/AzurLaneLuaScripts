@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 20862
+		act_id = 20989
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 20958
@@ -805,7 +805,7 @@ pg.activity_const = {
 		act_id = 20872
 	},
 	RETUREN_AWARD_1 = {
-		act_id = 20851
+		act_id = 20990
 	},
 	CATCH_TREASURE_ID = {
 		act_id = 20849
