@@ -1,5 +1,239 @@
 pg = pg or {}
 pg.ship_skin_template_18 = {
+	[900186] = {
+		ship_group = 900186,
+		name = "哥倫比亞",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900186,
+		group_index = 0,
+		prefab = "gelunbiya",
+		painting = "gelunbiya",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "克利夫兰级轻巡洋舰—哥伦比亚，舷号CL-56",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.16,
+					1.27,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.16,
+					1.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.16,
+					1.27,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					0.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							0.48,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.53,
+							0.47,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900187] = {
+		ship_group = 900187,
+		name = "蒙彼利埃",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900187,
+		group_index = 0,
+		prefab = "mengbiliai",
+		painting = "mengbiliai",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "克利夫兰级轻巡洋舰—蒙彼利埃，舷号CL-57",
+		voice_actor = 131,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.18,
+					1.24,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.14,
+					0.13,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.11,
+					1.2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.39,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
 	[900188] = {
 		ship_group = 900188,
 		name = "克里夫蘭",
@@ -7167,232 +7401,6 @@ pg.ship_skin_template_18 = {
 						{
 							0.34,
 							0.854,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900259] = {
-		ship_group = 900259,
-		name = "{namecode:91}",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 900259,
-		group_index = 0,
-		prefab = "chicheng",
-		painting = "chicheng",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 8,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:91}号航空母舰",
-		voice_actor = 44,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.931,
-					1.059,
-					0
-				}
-			},
-			plane = {
-				{
-					0.492,
-					0.393,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.478,
-							0.432,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.384,
-							0.853,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900260] = {
-		ship_group = 900260,
-		name = "{namecode:92}",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 900260,
-		group_index = 0,
-		prefab = "jiahe",
-		painting = "jiahe",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 8,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:92}号航空母舰",
-		voice_actor = 9,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-1.059,
-					0.492,
-					0
-				}
-			},
-			plane = {
-				{
-					0.946,
-					0.204,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.799,
-							0.453,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.304,
-							0.977,
 							0
 						}
 					}

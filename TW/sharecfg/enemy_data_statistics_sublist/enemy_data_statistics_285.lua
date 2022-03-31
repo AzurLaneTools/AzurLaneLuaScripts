@@ -517,7 +517,7 @@ pg.enemy_data_statistics_285 = {
 		air_growth = 0,
 		antiaircraft_growth = 0,
 		base = 90261,
-		durability = 82800,
+		durability = 314159,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		luck_growth = 0,
@@ -527,13 +527,7 @@ pg.enemy_data_statistics_285 = {
 		armor = 0,
 		antisub = 0,
 		fog_fx = "",
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 4
-			}
-		}
+		equipment_list = {}
 	},
 	[13500101] = {
 		cannon = 4,

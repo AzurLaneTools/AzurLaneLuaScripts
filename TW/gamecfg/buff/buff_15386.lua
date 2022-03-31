@@ -16,6 +16,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -54,6 +55,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -92,6 +94,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -130,6 +133,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -168,6 +172,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -206,6 +211,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -244,6 +250,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -282,6 +289,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -320,6 +328,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -358,6 +367,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					minTargetNumber = 1,
 					skill_id = 15384,
 					nationality = 6,
 					check_target = {
@@ -404,6 +414,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				minTargetNumber = 1,
 				skill_id = 15384,
 				nationality = 6,
 				check_target = {

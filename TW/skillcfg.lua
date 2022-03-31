@@ -2577,6 +2577,9 @@ pg.skillCfg = {
 	skill_9702 = require("GameCfg.skill.skill_9702"),
 	skill_9703 = require("GameCfg.skill.skill_9703"),
 	skill_9709 = require("GameCfg.skill.skill_9709"),
+	skill_9711 = require("GameCfg.skill.skill_9711"),
+	skill_9712 = require("GameCfg.skill.skill_9712"),
+	skill_9713 = require("GameCfg.skill.skill_9713"),
 	skill_98000 = require("GameCfg.skill.skill_98000"),
 	skill_98010 = require("GameCfg.skill.skill_98010")
 }

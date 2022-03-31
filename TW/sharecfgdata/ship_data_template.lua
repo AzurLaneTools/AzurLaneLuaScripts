@@ -79485,10 +79485,12 @@ _G.pg.ship_data_template[900313] = {
 		25
 	},
 	buff_list = {
-		15
+		15,
+		9711
 	},
 	buff_list_display = {
-		15
+		15,
+		9711
 	},
 	hide_buff_list = {}
 }

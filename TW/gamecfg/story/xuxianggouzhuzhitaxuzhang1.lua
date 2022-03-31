@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "唔嗯…好像有些道理……伟大的庞贝队长也心动了！",
+			say = "唔嗯…好像有些道理……伟大的庞培队长也心动了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "没问题！不过也许等不到港区的增援到达，塞壬就被伟大的庞贝队长及其同伴摆平了哦！",
+			say = "没问题！不过也许等不到港区的增援到达，塞壬就被伟大的庞培队长及其同伴摆平了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

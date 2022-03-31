@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！非常感谢邀请，我能叫上{namecode:96}姐么？",
+			say = "哎？！非常感谢邀请，我能叫上{namecode:95}姐么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一点确实有些奇怪……这里已经是海域中心了，却没有遇到设么像样的敌人。",
+			say = "这一点确实有些奇怪……这里已经是海域中心了，却没有遇到什么像样的敌人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

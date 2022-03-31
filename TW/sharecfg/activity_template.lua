@@ -627,6 +627,55 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4291] = {
+		mark = 20220324,
+		id = 4291,
+		title_res_tag = "AprilFool2022",
+		type = 81,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 18,
+		config_data = {
+			97114
+		},
+		time = {
+			timer,
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AprilFool2022Page",
+			ui_name = "AprilFool2022Page"
+		},
+		config_client = {
+			{},
+			"BULIZHISHI1",
+			stageid = 1360003,
+			autounlock = 86400
+		}
+	},
 	[2001] = {
 		mark = 20180327,
 		time = "stop",
@@ -14838,7 +14887,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 40570,
-		is_show = 19,
+		is_show = 15,
 		config_data = {},
 		time = {
 			timer,
@@ -14954,7 +15003,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 40575,
-		is_show = 22,
+		is_show = 17,
 		config_data = {},
 		time = {
 			timer,
@@ -15126,7 +15175,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 6,
-		is_show = 21,
+		is_show = 16,
 		config_data = {},
 		time = {
 			timer,
@@ -17103,6 +17152,7 @@ pg.activity_template = {
 		4067,
 		4076,
 		4254,
+		4291,
 		2001,
 		2002,
 		2003,

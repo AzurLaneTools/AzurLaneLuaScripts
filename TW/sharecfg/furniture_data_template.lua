@@ -4462,6 +4462,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[222] = {
+		spine_extra = "",
+		describe = "今天起我們結為姐妹purin！——不對，好像本來就是buli？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "sanbuliicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "布里之誓",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 222,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanbuli",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "飛高高～飛高高～…唔！？太高了太高了！！QAQ",
@@ -79616,6 +79659,7 @@ pg.furniture_data_template = {
 		210,
 		214,
 		215,
+		222,
 		100002,
 		100003,
 		100004,

@@ -245450,7 +245450,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Universal-Bulin"
+		}
 	},
 	[900313] = {
 		raid_distance = 0,
@@ -245458,7 +245460,7 @@ pg.ship_data_statistics = {
 		name = "試作型布里MKII",
 		type = 1,
 		oxy_cost = 0,
-		skin_id = 100010,
+		skin_id = 900313,
 		english_name = "UNIV Trial Bulin MKII",
 		attack_duration = 0,
 		star = 5,
@@ -245686,7 +245688,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Trial-Bulin-MKII"
+		}
 	},
 	[900907] = {
 		raid_distance = 0,
