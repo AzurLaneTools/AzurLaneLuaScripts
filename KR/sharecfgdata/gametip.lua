@@ -31,7 +31,7 @@ _G.pg.gametip.new_airi_error_code_100114 = {
 }
 
 _G.pg.gametip.new_airi_error_code_100115 = {
-	tip = "Account binding success; Device ID is banned, failed to acquire Access Token"
+	tip = "Device ID is banned during login creation"
 }
 
 _G.pg.gametip.new_airi_error_code_100116 = {
@@ -9465,7 +9465,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "xxx, 포미더블 등 캐릭터 건조 확률 UP!"
+	tip = "임페로, 포미더블 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -11341,7 +11341,7 @@ _G.pg.gametip.pray_build_help = {
 			info = "4. 지휘관은 해당 건조 내 캐릭터 2명을 희망 캐릭터로 \n설정하실 수 있습니다."
 		},
 		{
-			info = "5. 7월 22일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
+			info = "5. 1월 27일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
 		},
 		{
 			info = "6. 건조 조건이 따로 있는 캐릭터는 희망 캐릭터로 선택하실 \n수 없으며, 희망 건조 캐릭터 리스트에 출현하지 않습니다."
