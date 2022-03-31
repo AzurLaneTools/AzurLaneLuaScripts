@@ -154298,7 +154298,7 @@ _G.pg.item_data_statistics[59797] = {
 }
 
 _G.pg.item_data_statistics[59798] = {
-	display = "이벤트 「쥬쥬 모험기」완료 감사 기념",
+	display = "특별 감사 기념",
 	name = "특별 기념 코인",
 	max_num = 0,
 	type = 1,
