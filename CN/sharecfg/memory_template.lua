@@ -20515,6 +20515,28 @@ pg.memory_template = {
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
 		is_open = 0
 	},
+	[2061] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "布里三结义？",
+		condition = "开始「布里之誓」活动",
+		story = "BULIZHISHI1",
+		id = 2061,
+		icon = "memory_bulizhishi",
+		is_open = 0
+	},
+	[2062] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "布里战塞壬！",
+		condition = "遭遇「布里之誓」 BOSS",
+		story = "1360003",
+		id = 2062,
+		icon = "memory_bulizhishi",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -23008,6 +23030,8 @@ pg.memory_template = {
 		2058,
 		2059,
 		2060,
+		2061,
+		2062,
 		10011,
 		10012,
 		10013,

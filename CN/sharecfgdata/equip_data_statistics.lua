@@ -130416,6 +130416,368 @@ _G.pg.equip_data_statistics[630024] = {
 	label = {}
 }
 
+_G.pg.equip_data_statistics[630050] = {
+	type = 2,
+	name = "【愚人节活动2022】金布里特殊钻头",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630050,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630050
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630053] = {
+	type = 2,
+	name = "【愚人节活动2022】紫布里武器",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630053,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630053
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630054] = {
+	type = 2,
+	name = "【愚人节活动2022】紫布里武器",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630054,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630054
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630055] = {
+	type = 5,
+	name = "【愚人节活动2022】紫布里四联鱼雷",
+	speciality = "雷击",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630055,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630055
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630056] = {
+	type = 11,
+	name = "【愚人节活动2022】彩布里主炮武器",
+	speciality = "跨射",
+	tech = 3,
+	rarity = 4,
+	ammo = 1,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630056,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630056
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630057] = {
+	type = 2,
+	name = "【愚人节活动2022】彩布里特殊弹幕",
+	speciality = "锁定",
+	tech = 3,
+	rarity = 4,
+	ammo = 2,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630057,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630057
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630058] = {
+	type = 5,
+	name = "【愚人节活动2022】彩布里五联鱼雷",
+	speciality = "雷击",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630058,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630058
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630059] = {
+	type = 9,
+	name = "【愚人节活动2022】金布里鱼雷机",
+	speciality = "轰炸",
+	tech = 3,
+	rarity = 5,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630059,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630059
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[630060] = {
+	type = 8,
+	name = "【愚人节活动2022】金布里轰炸机",
+	speciality = "雷击",
+	tech = 3,
+	rarity = 5,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630060,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630060
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {}
+}
+
 _G.pg.equip_data_statistics[650601] = {
 	tech = 0,
 	name = "【2020法系活动剧情用】双联装155mm主炮Mle1920",

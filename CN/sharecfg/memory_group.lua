@@ -2468,6 +2468,17 @@ pg.memory_group = {
 			2060
 		}
 	},
+	[213] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 213,
+		title = "布里之誓",
+		memories = {
+			2061,
+			2062
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3719,6 +3730,7 @@ pg.memory_group = {
 		210,
 		211,
 		212,
+		213,
 		501,
 		502,
 		503,

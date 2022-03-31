@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_289 = {
+	[14102005] = {
+		cannon = 33,
+		battle_unit_type = 35,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 20004,
+		air = 0,
+		speed = 15,
+		dodge = 0,
+		luck = 0,
+		id = 14102005,
+		cannon_growth = 1500,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 3,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		rarity = 2,
+		base = 90113,
+		durability = 580,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		torpedo = 20,
+		durability_growth = 28000,
+		antisub = 0,
+		antiaircraft = 35,
+		antiaircraft_growth = 1000,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.35,
+							1.17,
+							0.51
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.39,
+							1.41,
+							0.54
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.02,
+							1.82,
+							0.76
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1101027,
+			1101032,
+			1100492
+		}
+	},
 	[14102006] = {
 		cannon = 8,
 		name = "鹩级量产型",
@@ -748,44 +830,6 @@ pg.enemy_data_statistics_289 = {
 		},
 		equipment_list = {
 			1000865
-		}
-	},
-	[14200101] = {
-		cannon = 6,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 468,
-		rarity = 4,
-		air = 0,
-		torpedo = 54,
-		dodge = 15,
-		durability_growth = 18800,
-		antiaircraft = 20,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 222,
-		hit_growth = 210,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 50,
-		base = 90473,
-		durability = 510,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		luck_growth = 0,
-		speed = 33,
-		armor = 0,
-		id = 14200101,
-		antiaircraft_growth = 1638,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1100445,
-			1100020,
-			729001,
-			1100185
 		}
 	}
 }
