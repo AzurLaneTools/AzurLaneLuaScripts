@@ -5176,6 +5176,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[222] = {
+		spine_extra = "",
+		describe = "時は違えども兄弟の契りを…なんか違うプリン？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "sanbuliicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ブリの誓い",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 222,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanbuli",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[223] = {
 		spine_extra = "",
 		describe = "「じゃんじゃん買っていいにゃ！」「買い過ぎに注意、でございます…フフフ」",
@@ -98779,6 +98822,7 @@ pg.furniture_data_template = {
 		217,
 		218,
 		221,
+		222,
 		223,
 		100002,
 		100003,

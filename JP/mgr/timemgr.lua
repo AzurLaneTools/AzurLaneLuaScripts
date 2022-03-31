@@ -127,7 +127,7 @@ end
 
 function slot1._SetServerTime_(slot0, slot1, slot2, slot3)
 	if PLATFORM_CODE == PLATFORM_US then
-		SERVER_SERVER_DAYLIGHT_SAVEING_TIME = true
+		SERVER_DAYLIGHT_SAVEING_TIME = false
 	end
 
 	slot0._isdstClient = os.date("*t").isdst
@@ -161,6 +161,8 @@ function slot1.GetServerHour(slot0)
 end
 
 function slot1.Table2ServerTime(slot0, slot1)
+	slot1.isdst = slot0._isdstClient
+
 	if slot0._isdstClient ~= SERVER_DAYLIGHT_SAVEING_TIME then
 		if SERVER_DAYLIGHT_SAVEING_TIME then
 			return slot0._AnchorDelta + os.time(slot1) - uv0

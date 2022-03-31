@@ -1037,8 +1037,8 @@ pg.ship_skin_template_19 = {
 		}
 	},
 	[900313] = {
-		ship_group = 900313,
-		name = "？？？？？",
+		ship_group = 10001,
+		name = "試作型ブリMKII",
 		bullet_skin_secondary = "",
 		hand_id = 0,
 		bgm = "",
@@ -1046,13 +1046,13 @@ pg.ship_skin_template_19 = {
 		bg = "",
 		id = 900313,
 		group_index = 0,
-		prefab = "bisimai",
-		painting = "unknown1_xinshou",
+		prefab = "kin",
+		painting = "kin",
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
-		illustrator = -1,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1065,8 +1065,8 @@ pg.ship_skin_template_19 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "无描述",
-		voice_actor = -1,
+		desc = "試作型ブリMKII。SSレアのキャラの限界突破に使用可能。",
+		voice_actor = 72,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -1106,31 +1106,29 @@ pg.ship_skin_template_19 = {
 		bound_bone = {
 			cannon = {
 				{
-					0,
-					0,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0,
-					0,
+					-0.02,
+					0.6,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0,
-					0,
+					-0.02,
+					0.6,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					0,
-					0,
+					-0.02,
+					0.6,
 					0
 				}
+			},
+			remote = {
+				-30,
+				0,
+				0
 			}
 		},
 		smoke = {
@@ -1140,8 +1138,8 @@ pg.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							-0.81,
-							0.402,
+							0.266,
+							0.329,
 							0
 						}
 					}
@@ -1153,9 +1151,9 @@ pg.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							0.63,
-							0.433,
-							0
+							-0.436,
+							2.45,
+							-0.16
 						}
 					}
 				}

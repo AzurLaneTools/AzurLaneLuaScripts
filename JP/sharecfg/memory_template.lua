@@ -20196,6 +20196,28 @@ pg.memory_template = {
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
 		is_open = 0
 	},
+	[2061] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ブリたちの結義？",
+		condition = "「ブリの誓い」イベント開始 ",
+		story = "BULIZHISHI1",
+		id = 2061,
+		icon = "memory_bulizhishi",
+		is_open = 0
+	},
+	[2062] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ブリ三姉妹VSセイレーン！",
+		condition = "「ブリの誓い」ボスに遭遇",
+		story = "1360003",
+		id = 2062,
+		icon = "memory_bulizhishi",
+		is_open = 0
+	},
 	[10000] = {
 		type = 1,
 		subtitle = "",
@@ -22924,6 +22946,8 @@ pg.memory_template = {
 		2058,
 		2059,
 		2060,
+		2061,
+		2062,
 		10000,
 		10001,
 		10002,

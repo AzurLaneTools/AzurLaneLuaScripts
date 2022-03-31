@@ -442,6 +442,10 @@ function slot0.SetPortMarkList(slot0, slot1, slot2)
 end
 
 function slot0.UpdatePortMark(slot0, slot1, slot2, slot3)
+	if not slot0.portEntranceList[slot1] then
+		return
+	end
+
 	slot4 = nil
 
 	if slot2 ~= nil and tobool(slot0.markPortDic.goods[slot1]) ~= slot2 then
@@ -456,6 +460,8 @@ function slot0.UpdatePortMark(slot0, slot1, slot2, slot3)
 	if slot3 ~= nil and tobool(slot0.markPortDic.new[slot1]) ~= slot3 then
 		slot0.markPortDic.new[slot1] = slot3
 		slot4 = slot4 or {}
+
+		warning(slot1)
 
 		for slot8, slot9 in ipairs(slot0.portEntranceList[slot1]) do
 			slot4[slot9] = true
