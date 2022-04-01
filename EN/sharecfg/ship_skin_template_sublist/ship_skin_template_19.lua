@@ -1162,14 +1162,14 @@ pg.ship_skin_template_19 = {
 		bg = "",
 		id = 900313,
 		group_index = 0,
-		prefab = "bisimai",
-		painting = "unknown1_xinshou",
+		prefab = "kin",
+		painting = "kin",
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
-		illustrator = -1,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1183,7 +1183,7 @@ pg.ship_skin_template_19 = {
 		main_UI_FX = "",
 		special_effects = "",
 		desc = "No description",
-		voice_actor = -1,
+		voice_actor = 72,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -1223,31 +1223,29 @@ pg.ship_skin_template_19 = {
 		bound_bone = {
 			cannon = {
 				{
-					0,
-					0,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0,
-					0,
+					-0.02,
+					0.6,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0,
-					0,
+					-0.02,
+					0.6,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					0,
-					0,
+					-0.02,
+					0.6,
 					0
 				}
+			},
+			remote = {
+				-30,
+				0,
+				0
 			}
 		},
 		smoke = {
@@ -1257,8 +1255,8 @@ pg.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							-0.81,
-							0.402,
+							0.266,
+							0.329,
 							0
 						}
 					}
@@ -1270,9 +1268,9 @@ pg.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							0.63,
-							0.433,
-							0
+							-0.436,
+							2.45,
+							-0.16
 						}
 					}
 				}
@@ -2956,7 +2954,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "",
+		desc = "Are you this fleet's Commander, Milord? I see. You have great potential, but your skills need some refinement. I wonder what's the best way to train you... You'll see soon enough – stay alert until then!",
 		voice_actor = 71,
 		spine_offset = "",
 		gyro = 0,

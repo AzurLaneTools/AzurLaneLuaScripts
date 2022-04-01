@@ -77,11 +77,11 @@ function slot0.ShouldAcceptTasksIfReturner(slot0)
 	end)()
 end
 
-function slot0.getDataConfigTable(slot0)
+function slot0.getDataConfigTable(slot0, slot1)
 	if slot0:IsInviter() then
-		return pg.activity_template_headhunting
+		return pg.activity_template_headhunting[slot0.id][slot1]
 	elseif slot0:IsReturner() then
-		return pg.activity_template_returnner
+		return pg.activity_template_returnner[slot0.id][slot1]
 	end
 end
 

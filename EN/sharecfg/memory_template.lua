@@ -19459,6 +19459,28 @@ pg.memory_template = {
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
 		is_open = 0
 	},
+	[2061] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Band of Bulins",
+		condition = "Begin the \"Band of Bulins\" event.",
+		story = "BULIZHISHI1",
+		id = 2061,
+		icon = "memory_bulizhishi",
+		is_open = 0
+	},
+	[2062] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "The Showdown of a Lifetime",
+		condition = "Get the boss of \"Band of Bulins\" to appear.",
+		story = "1360003",
+		id = 2062,
+		icon = "memory_bulizhishi",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -21856,6 +21878,8 @@ pg.memory_template = {
 		2058,
 		2059,
 		2060,
+		2061,
+		2062,
 		10011,
 		10012,
 		10013,

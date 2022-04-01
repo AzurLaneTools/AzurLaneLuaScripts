@@ -13399,8 +13399,8 @@ _G.pg.item_data_statistics[30502] = {
 }
 
 _G.pg.item_data_statistics[30503] = {
-	display = "使用后可从「开学祭」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(开学祭)",
+	display = "Can be opened to receive 1 School Festival event gear skin of your choosing.",
+	name = "Selection Gear Skin Box (School Festival)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,

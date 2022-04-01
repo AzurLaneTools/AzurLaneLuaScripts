@@ -1140,6 +1140,18 @@ pg.skill_data_display = {
 		id = 9703,
 		name = "Hang In There, Data!"
 	},
+	[9711] = {
+		id = 9711,
+		name = "Band of Bulin·purin"
+	},
+	[9712] = {
+		id = 9712,
+		name = "Band of Bulin·buli"
+	},
+	[9713] = {
+		id = 9713,
+		name = "Band of Bulin·burin"
+	},
 	[10010] = {
 		id = 10010,
 		name = "Baptismal Flames"
@@ -7974,6 +7986,9 @@ pg.skill_data_display = {
 		9701,
 		9702,
 		9703,
+		9711,
+		9712,
+		9713,
 		10010,
 		10020,
 		10030,

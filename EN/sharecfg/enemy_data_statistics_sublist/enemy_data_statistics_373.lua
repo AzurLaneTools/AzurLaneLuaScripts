@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_373 = {
+	[900013] = {
+		cannon = 200,
+		name = "Hood",
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		hit_growth = 0,
+		dodge = 0,
+		base = 90218,
+		durability_growth = 0,
+		antiaircraft = 220,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 35,
+		luck = 0,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 100,
+		durability = 180000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		air = 0,
+		id = 900013,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 4
+			}
+		}
+	},
 	[900014] = {
 		cannon = 150,
 		name = "Prinz Eugen",
@@ -630,42 +668,6 @@ pg.enemy_data_statistics_373 = {
 		fog_fx = "",
 		equipment_list = {
 			989009
-		}
-	},
-	[909006] = {
-		cannon = 145,
-		armor = 0,
-		air = 0,
-		cannon_growth = 0,
-		hit_growth = 0,
-		reload = 150,
-		speed_growth = 0,
-		dodge = 0,
-		torpedo = 0,
-		speed = 15,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		star = 2,
-		hit = 600,
-		antisub_growth = 0,
-		rarity = 2,
-		air_growth = 0,
-		base = 90130,
-		durability = 7200,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 50,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		id = 909006,
-		battle_unit_type = 35,
-		antisub = 0,
-		torpedo_growth = 0,
-		fog_fx = "",
-		equipment_list = {
-			989010
 		}
 	}
 }
