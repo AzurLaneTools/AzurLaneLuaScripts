@@ -13,6 +13,7 @@ slot0.STATE_CANCEL_INTERACT = 10
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
+	slot0.rawShip = slot1
 	slot0.configId = slot1.configId
 	slot0.prefab = slot1:getPrefab()
 	slot0.attachments = slot1:getAttachmentPrefab()
@@ -30,7 +31,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.GetRawShip(slot0)
-	return getProxy(BayProxy):RawGetShipById(slot0.id)
+	return slot0.rawShip
 end
 
 function slot0.GetLevel(slot0)

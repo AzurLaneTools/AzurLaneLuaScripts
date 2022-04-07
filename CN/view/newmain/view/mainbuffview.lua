@@ -70,6 +70,7 @@ end
 
 function slot0.UpdateFreeUsageSkinTag(slot0)
 	slot1 = slot0.skinFreeUsageTag or Object.Instantiate(slot0.buffs[1], slot0.buffs[1].transform.parent).transform
+	slot0.skinFreeUsageTag = slot1
 	slot3 = slot1:GetComponent(typeof(Image))
 	slot3.sprite = GetSpriteFromAtlas("ui/mainui_atlas", "huanzhuangtiyan")
 
@@ -78,7 +79,9 @@ function slot0.UpdateFreeUsageSkinTag(slot0)
 		uv0:emit(NewMainScene.ON_SKIN_FREEUSAGE_DESC, uv0:GetFreeUsageSkins())
 	end, SFX_PANEL)
 
-	slot1.anchoredPosition = Vector3(-104, -34.5, 0)
+	slot1.anchoredPosition = Vector3(-169, -18, 0)
+
+	setActive(slot0.skinFreeUsageTag, true)
 end
 
 function slot0.GetFreeUsageSkins(slot0)

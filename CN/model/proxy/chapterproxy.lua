@@ -171,6 +171,7 @@ function slot0.register(slot0)
 	slot0.chaptersExtend = {}
 
 	slot0:buildMaps()
+	slot0:buildRemasterInfo()
 end
 
 function slot0.setEliteCache(slot0, slot1)
@@ -1071,20 +1072,24 @@ function slot0.StopAutoFight(slot0)
 	slot0:SetChapterAutoFlag(slot1.id, false)
 end
 
-function slot0.checkRemasterInfomation(slot0)
-	if not slot0.remasterInfo then
-		slot0.remasterInfo = {}
+function slot0.buildRemasterInfo(slot0)
+	slot0.remasterInfo = {}
 
-		for slot4, slot5 in ipairs(pg.re_map_template.all) do
-			if #pg.re_map_template[slot5].character_gain > 0 then
-				slot7, slot8, slot9 = unpack(slot6)
-				slot0.remasterInfo[slot7] = {
-					count = 0,
-					receive = false,
-					max = slot9
-				}
-			end
+	for slot4, slot5 in ipairs(pg.re_map_template.all) do
+		if #pg.re_map_template[slot5].character_gain > 0 then
+			slot7, slot8, slot9 = unpack(slot6)
+			slot0.remasterInfo[slot7] = {
+				count = 0,
+				receive = false,
+				max = slot9
+			}
 		end
+	end
+end
+
+function slot0.checkRemasterInfomation(slot0)
+	if not slot0.checkRemaster then
+		slot0.checkRemaster = true
 
 		slot0:sendNotification(GAME.CHAPTER_REMASTER_INFO_REQUEST)
 	end

@@ -300,6 +300,8 @@ function slot0.handleNotification(slot0, slot1)
 	end
 
 	if not slot0.isResScene then
+		slot0:updateResPanel(slot2)
+
 		return
 	end
 
@@ -309,13 +311,17 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.balance = slot0.balance - 1
 	end
 
+	slot0:updateResPanel(slot2)
+end
+
+function slot0.updateResPanel(slot0, slot1)
 	if not slot0:IsEnable() then
 		slot0:SetDirty(true)
 
 		return
 	end
 
-	if slot2 == PlayerProxy.UPDATED or slot2 == GAME.GUILD_GET_USER_INFO_DONE or slot2 == GAME.GET_PUBLIC_GUILD_USER_DATA_DONE then
+	if slot1 == PlayerProxy.UPDATED or slot1 == GAME.GUILD_GET_USER_INFO_DONE or slot1 == GAME.GET_PUBLIC_GUILD_USER_DATA_DONE then
 		slot0:Flush()
 	end
 end

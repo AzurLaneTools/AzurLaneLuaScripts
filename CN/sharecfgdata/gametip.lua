@@ -9743,11 +9743,11 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "波拉、扎拉、利托里奥等角色 建造追加！"
+	tip = "巴尔的摩、阿拉巴马 建造追加！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "应瑞、肇和、佩内洛珀 建造追加！"
+	tip = "艾伦·萨姆纳、史蒂芬·波特、伯明翰 建造追加！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
