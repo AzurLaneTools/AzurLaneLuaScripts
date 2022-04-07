@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "Click the button for help",
+				dir = 1,
 				mode = 2,
 				posY = 180.11,
-				dir = 1,
 				posX = 538.63,
+				text = ({
+					"Click the button for help"
+				})[1],
 				ui = {
 					path = "",
 					pathIndex = -1

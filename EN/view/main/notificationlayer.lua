@@ -216,7 +216,7 @@ function slot0.didEnter(slot0)
 	else
 		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 			groupName = slot0:getGroupNameFromData(),
-			weight = slot0:getWeightFromData()
+			weight = slot0:getWeightFromData() + 1
 		})
 	end
 
@@ -353,7 +353,9 @@ function slot0.showChangeRoomPanel(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0.changeRoomPanel)
+	slot1:BlurPanel(slot0.changeRoomPanel, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	slot0.inputTF.text = tostring(slot0.player.chatRoomId)
 	slot0.tempRoomSendBits = uv0.ChannelBits.send
@@ -428,7 +430,9 @@ function slot0.closeChangeRoomPanel(slot0)
 
 		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			weight = LayerWeightConst.SECOND_LAYER
+		})
 	end
 
 	setActive(slot0.changeRoomPanel, false)

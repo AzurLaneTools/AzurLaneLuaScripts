@@ -70,7 +70,8 @@ function slot0.BlurTip(slot0)
 		pbList = {
 			slot0.emptyTip:Find("EmptyTip")
 		},
-		groupName = LayerWeightConst.GROUP_COLLECTION
+		groupName = LayerWeightConst.GROUP_COLLECTION,
+		weight = LayerWeightConst.BASE_LAYER - 1
 	})
 	slot0.emptyTip:SetSiblingIndex(0)
 

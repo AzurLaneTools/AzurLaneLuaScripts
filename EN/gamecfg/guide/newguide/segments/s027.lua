@@ -1,17 +1,22 @@
+slot0 = {
+	"Commander, please Tap <color=#ff7d36>Attack</color>",
+	"Enemy flagship ahead! Tap the target to continue moving!"
+}
+
 return {
 	id = "S027",
 	events = {
 		{
 			alpha = 0.335,
 			style = {
-				text = "Commander, please Tap <color=#ff7d36>Attack</color>",
+				dir = 1,
 				mode = 2,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -31,11 +36,11 @@ return {
 				2
 			},
 			style = {
-				text = "Enemy flagship ahead! Tap the target to continue moving!",
+				dir = 1,
 				mode = 2,
 				posY = 218.62,
-				dir = 1,
-				posX = 20.04
+				posX = 20.04,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
@@ -69,11 +74,11 @@ return {
 				4
 			},
 			style = {
-				text = "Enemy flagship ahead! Tap the target to continue moving!",
+				dir = 1,
 				mode = 2,
 				posY = 218.62,
-				dir = 1,
-				posX = 20.04
+				posX = 20.04,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",

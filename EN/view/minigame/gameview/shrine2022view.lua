@@ -528,7 +528,7 @@ function slot0.getShipGameData(slot0)
 end
 
 function slot0.PrintLog(slot0, ...)
-	if Application.isEditor then
+	if IsUnityEditor then
 		print(...)
 	end
 end

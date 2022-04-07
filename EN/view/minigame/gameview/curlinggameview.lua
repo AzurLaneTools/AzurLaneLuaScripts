@@ -1237,7 +1237,7 @@ function slot0.AddDebugInput(slot0)
 		return
 	end
 
-	if Application.isEditor then
+	if IsUnityEditor then
 		-- Nothing
 	end
 end

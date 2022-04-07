@@ -23,6 +23,9 @@ end
 function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:Display(slot1)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 function slot0.Display(slot0, slot1)
@@ -45,6 +48,7 @@ function slot0.Display(slot0, slot1)
 end
 
 function slot0.OnDestroy(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
 return slot0

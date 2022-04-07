@@ -4125,6 +4125,58 @@ _G.pg.shop_template[43008] = {
 	}
 }
 
+_G.pg.shop_template[43009] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "8000功勋兑换昆西",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43009,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		103091
+	}
+}
+
+_G.pg.shop_template[43010] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "8000功勋兑换文森斯",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43010,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		103101
+	}
+}
+
 _G.pg.shop_template[43011] = {
 	is_auto_use = 0,
 	resource_type = 3,
@@ -4252,6 +4304,58 @@ _G.pg.shop_template[43015] = {
 	limit_args = {},
 	effect_args = {
 		202251
+	}
+}
+
+_G.pg.shop_template[43020] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "20000功勋兑换约克公爵",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 3,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43020,
+	resource_num = 20000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		205071
+	}
+}
+
+_G.pg.shop_template[43021] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "8000功勋兑换鲁莽",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43021,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		801031
 	}
 }
 
@@ -15648,10 +15752,11 @@ _G.pg.shop_template[70082] = {
 	desc = "购买皮肤:阿斯托利亚校服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 8900,
+	order = 8540,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -15662,32 +15767,6 @@ _G.pg.shop_template[70082] = {
 	limit_args = {},
 	effect_args = {
 		103081
-	},
-	time = {
-		{
-			{
-				2021,
-				11,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				1
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -15699,10 +15778,11 @@ _G.pg.shop_template[70083] = {
 	desc = "购买皮肤:昆西泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 8900,
+	order = 8540,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -15713,32 +15793,6 @@ _G.pg.shop_template[70083] = {
 	limit_args = {},
 	effect_args = {
 		103091
-	},
-	time = {
-		{
-			{
-				2021,
-				11,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				1
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -15750,10 +15804,11 @@ _G.pg.shop_template[70084] = {
 	desc = "购买皮肤:文森斯睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 8900,
+	order = 8540,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -15764,32 +15819,6 @@ _G.pg.shop_template[70084] = {
 	limit_args = {},
 	effect_args = {
 		103101
-	},
-	time = {
-		{
-			{
-				2021,
-				11,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				1
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -17249,10 +17278,11 @@ _G.pg.shop_template[70140] = {
 	desc = "购买皮肤：文森斯JK-悠哉进行曲",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 8900,
+	order = 8540,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -17263,32 +17293,6 @@ _G.pg.shop_template[70140] = {
 	limit_args = {},
 	effect_args = {
 		103102
-	},
-	time = {
-		{
-			{
-				2021,
-				11,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				1
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -33115,7 +33119,7 @@ _G.pg.shop_template[70525] = {
 	desc = "购买皮肤:巴尔的摩和服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
 	order = 8666,
@@ -35155,7 +35159,7 @@ _G.pg.shop_template[70566] = {
 	desc = "购买皮肤:龙骧JK",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
 	order = 8559,

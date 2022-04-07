@@ -19,7 +19,7 @@ function slot4.Ctor(slot0)
 end
 
 function slot4.ActiveMainCemera(slot0)
-	setActive(pg.UIMgr.GetInstance():GetMainCamera(), slot0)
+	CameraMgr.instance:SetActiveMainCamera(slot0)
 end
 
 function slot4.Initialize(slot0)
@@ -42,6 +42,7 @@ function slot4.Initialize(slot0)
 end
 
 function slot4.Clear(slot0)
+	slot0.ActiveMainCemera(false)
 	LeanTween.cancel(go(slot0._camera))
 	slot0:Deactive()
 	slot0:StopShake()
@@ -57,8 +58,11 @@ function slot4.Clear(slot0)
 end
 
 function slot4.SetMapData(slot0, slot1, slot2, slot3, slot4)
-	slot0._boundFix:SetMapData(slot1, slot2, slot3, slot4)
+	slot5, slot6, slot7, slot8 = slot0._boundFix:SetMapData(slot1, slot2, slot3, slot4)
+
 	slot0._followPilot:SetGoldenRation(slot0._camera:ScreenToWorldPoint(Vector3(uv0._actualWidth * uv1.CAMERA_GOLDEN_RATE, 0, 0)).x)
+
+	return slot5, slot6, slot7, slot8
 end
 
 function slot4.SetFocusFleet(slot0, slot1)

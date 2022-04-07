@@ -1,14 +1,20 @@
+slot0 = {
+	"Weapons enhanced! Firepower increased!！！",
+	"Tap back to stop viewing character details.",
+	"Tap back to leave the dock."
+}
+
 return {
 	id = "S019",
 	events = {
 		{
 			alpha = 0,
 			style = {
-				text = "Weapons enhanced! Firepower increased!！！",
+				dir = -1,
 				mode = 2,
 				posY = -301,
-				dir = -1,
-				posX = 422
+				posX = 422,
+				text = slot0[1]
 			},
 			ui = {
 				hideChildEvent = true,
@@ -42,11 +48,11 @@ return {
 		{
 			alpha = 0.344,
 			style = {
-				text = "Tap back to stop viewing character details.",
+				dir = -1,
 				mode = 2,
 				posY = 211.84,
-				dir = -1,
-				posX = -105.86
+				posX = -105.86,
+				text = slot0[2]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
@@ -64,11 +70,11 @@ return {
 			alpha = 0.376,
 			waitScene = "DockyardScene",
 			style = {
-				text = "Tap back to leave the dock.",
+				dir = -1,
 				mode = 2,
 				posY = 230.33,
-				dir = -1,
-				posX = -231.7
+				posX = -231.7,
+				text = slot0[3]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back",

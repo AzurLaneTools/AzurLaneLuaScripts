@@ -1,17 +1,24 @@
+slot0 = {
+	"Head to the Lab!",
+	"Now enter the META Lab!",
+	"Here you can claim rewards based on how many Sync Points you’ve accumulated!",
+	"Better claim them sooner rather than later! Tap here!"
+}
+
 return {
 	id = "NG0023",
 	events = {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Head to the Lab!",
+				dir = 1,
 				mode = 2,
 				posY = -308.7,
-				dir = 1,
-				posX = 199.3
+				posX = 199.3,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/technologyButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/technologyButton",
 				triggerType = {
 					1
 				},
@@ -27,11 +34,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Now enter the META Lab!",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 286.9
+				posX = 286.9,
+				text = slot0[2]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/SelectTechnologyUI(Clone)/frame/bg/meta_btn",
@@ -51,21 +58,21 @@ return {
 			alpha = 0.4,
 			waitScene = "MetaCharacterScene",
 			style = {
-				text = "Here you can claim rewards based on how many Sync Points you’ve accumulated!",
+				dir = 1,
 				mode = 1,
 				posY = -236.99,
-				dir = 1,
-				posX = -419.8
+				posX = -419.8,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "Better claim them sooner rather than later! Tap here!",
+				dir = 1,
 				mode = 2,
 				posY = -236.99,
-				dir = 1,
 				posX = -419.8,
+				text = slot0[4],
 				ui = {
 					path = "UICamera/Canvas/UIMain/MetaCharacterUI(Clone)/HidePanel/ActTimeTip"
 				}

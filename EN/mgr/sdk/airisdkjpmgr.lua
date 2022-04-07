@@ -58,7 +58,7 @@ function AiriLogin(slot0)
 			})
 		end
 
-		print("AiriLogin failed")
+		originalPrint("AiriLogin failed")
 	end
 end
 
@@ -192,7 +192,7 @@ return {
 		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp" or NetConst.GATEWAY_PORT == 30101 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
 	end,
 	CheckPretest = function ()
-		return Application.isEditor or uv0.CheckPreAudit()
+		return IsUnityEditor or uv0.CheckPreAudit()
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
@@ -343,12 +343,12 @@ return {
 	GetChannelUID = function ()
 		slot0 = uv0.channelUID
 
-		print("channelUID : " .. slot0)
+		originalPrint("channelUID : " .. slot0)
 
 		return slot0
 	end,
 	GetTransCode = function ()
-		if Application.isEditor then
+		if IsUnityEditor then
 			return "NULL"
 		else
 			return uv0.loginRet.MIGRATIONCODE
@@ -393,7 +393,7 @@ return {
 		if slot1 == 0 then
 			return true
 		else
-			print("SDK Error Code:" .. slot1)
+			originalPrint("SDK Error Code:" .. slot1)
 
 			if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("new_airi_error_code_other") .. slot2)

@@ -1,3 +1,9 @@
+slot0 = {
+	"Commander, please Tap <color=#ff7d36>Attack</color>",
+	"Our fleet is even more perfect now~! We can definitely take down Hornet!",
+	"Tap <color=#ff7d36>Battle</color> to start the battle!"
+}
+
 return {
 	id = "S026",
 	events = {
@@ -5,14 +11,14 @@ return {
 			alpha = 0.491,
 			code = 2,
 			style = {
-				text = "Commander, please Tap <color=#ff7d36>Attack</color>",
+				dir = 1,
 				mode = 2,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -27,11 +33,11 @@ return {
 			alpha = 0.406,
 			waitScene = "LevelScene",
 			style = {
-				text = "Our fleet is even more perfect now~! We can definitely take down Hornet!",
+				dir = 1,
 				mode = 2,
 				posY = -200,
-				dir = 1,
-				posX = -190
+				posX = -190,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
@@ -52,11 +58,11 @@ return {
 		{
 			alpha = 0.409,
 			style = {
-				text = "Tap <color=#ff7d36>Battle</color> to start the battle!",
+				dir = 1,
 				mode = 2,
 				posY = -68.93,
-				dir = 1,
-				posX = 241.87
+				posX = 241.87,
+				text = slot0[3]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/right/start",

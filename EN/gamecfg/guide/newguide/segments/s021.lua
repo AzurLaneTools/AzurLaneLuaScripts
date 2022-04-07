@@ -1,17 +1,27 @@
+slot0 = {
+	"Let's add your new ship to your <color=#ff7d36>formation</color>.",
+	"Commander, do you remember what to do?",
+	"Tap the empty slot in your team to <color=#ff7d36>add</color> another ship.",
+	"Select a ship to deploy.",
+	"Next, tap <color=#ff7d36>confirm</color>.",
+	"The vanguard is full! Our power shouldn't be underestimated!",
+	"Let's head back to the main screen!"
+}
+
 return {
 	id = "S021",
 	events = {
 		{
 			alpha = 0.19,
 			style = {
-				text = "Let's add your new ship to your <color=#ff7d36>formation</color>.",
+				dir = 1,
 				mode = 2,
 				posY = 104.87,
-				dir = 1,
-				posX = 4.77
+				posX = 4.77,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,21 +36,21 @@ return {
 			alpha = 0.414,
 			waitScene = "FormationUI",
 			style = {
-				text = "Commander, do you remember what to do?",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.385,
 			style = {
-				text = "Tap the empty slot in your team to <color=#ff7d36>add</color> another ship.",
+				dir = 1,
 				mode = 2,
 				posY = 240,
-				dir = 1,
-				posX = -88.52
+				posX = -88.52,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
@@ -57,11 +67,11 @@ return {
 		{
 			alpha = 0.279,
 			style = {
-				text = "Select a ship to deploy.",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
@@ -84,11 +94,11 @@ return {
 		{
 			alpha = 0.293,
 			style = {
-				text = "Next, tap <color=#ff7d36>confirm</color>.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 239.42
+				posX = 239.42,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
@@ -106,21 +116,21 @@ return {
 			alpha = 0.441,
 			waitScene = "FormationUI",
 			style = {
-				text = "The vanguard is full! Our power shouldn't be underestimated!",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[6]
 			}
 		},
 		{
 			alpha = 0.462,
 			style = {
-				text = "Let's head back to the main screen!",
+				dir = -1,
 				mode = 2,
 				posY = 226.21,
-				dir = -1,
-				posX = -130.49
+				posX = -130.49,
+				text = slot0[7]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",

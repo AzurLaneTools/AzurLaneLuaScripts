@@ -172,6 +172,7 @@ function slot0.onInitMemoryGroup(slot0, slot1)
 
 	onButton(slot0, slot1, function ()
 		if uv0.memoryGroupInfos[uv1] then
+			PlayerPrefs.DeleteKey("MEMORY_GROUP_NOTIFICATION" .. getProxy(PlayerProxy):getRawData().id .. " " .. slot0.id)
 			uv0.viewParent:ShowSubMemories(slot0)
 		end
 	end, SOUND_BACK)
@@ -184,18 +185,11 @@ function slot0.onUpdateMemoryGroup(slot0, slot1, slot2)
 
 	slot3 = slot0.memoryGroups[slot1]
 	slot0.memoryGroupInfos[slot2] = slot3
-	slot5 = tf(slot2)
 
-	setText(slot5:Find("title"), HXSet.hxLan(slot3.title))
-
-	slot4 = slot0.loader
-	slot8 = tf(slot2)
-
-	slot4:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot8:Find("BG"))
-
-	slot7 = tf(slot2)
-
-	setText(slot7:Find("count"), _.reduce(slot3.memories, 0, function (slot0, slot1)
+	setText(tf(slot2):Find("title"), HXSet.hxLan(slot3.title))
+	slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", tf(slot2):Find("BG"))
+	setActive(tf(slot2):Find("Tip"), PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. getProxy(PlayerProxy):getRawData().id .. " " .. slot3.id, 0) == 1)
+	setText(tf(slot2):Find("count"), _.reduce(slot3.memories, 0, function (slot0, slot1)
 		if pg.memory_template[slot1].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot2.story, true) then
 			slot0 = slot0 + 1
 		end
@@ -210,23 +204,47 @@ function slot0.Return2MemoryGroup(slot0)
 	end
 
 	slot2 = 0
-	slot3 = 0
 
-	for slot7, slot8 in ipairs(slot0.memoryGroups) do
-		if slot8.id == slot1 then
-			slot3 = slot7
+	for slot6, slot7 in ipairs(slot0.memoryGroups) do
+		if slot7.id == slot1 then
+			slot2 = slot6
 
 			break
 		end
 	end
 
-	if slot3 > 0 then
-		slot5 = slot0.memoryGroupsGrid.cellSize.y + slot0.memoryGroupsGrid.spacing.y
-		slot6 = slot0.memoryGroupsGrid.constraintCount
-		slot2 = Mathf.Clamp01((slot5 * math.floor((slot3 - 1) / slot6) + slot0.memoryGroupList.paddingFront) / (slot5 * math.ceil(#slot0.memoryGroups / slot6) - slot0.memoryGroupViewport.rect.height))
+	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, slot0:GetIndexRatio(slot2))
+end
+
+function slot0.SwitchReddotMemory(slot0)
+	slot1 = 0
+	slot2 = getProxy(PlayerProxy):getRawData().id
+
+	for slot6, slot7 in ipairs(slot0.memoryGroups) do
+		if PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. slot2 .. " " .. slot7.id, 0) == 1 then
+			slot1 = slot6
+
+			break
+		end
 	end
 
-	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, slot2)
+	if slot1 == 0 then
+		return
+	end
+
+	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, slot0:GetIndexRatio(slot1))
+end
+
+function slot0.GetIndexRatio(slot0, slot1)
+	slot2 = 0
+
+	if slot1 > 0 then
+		slot4 = slot0.memoryGroupsGrid.cellSize.y + slot0.memoryGroupsGrid.spacing.y
+		slot5 = slot0.memoryGroupsGrid.constraintCount
+		slot2 = Mathf.Clamp01((slot4 * math.floor((slot1 - 1) / slot5) + slot0.memoryGroupList.paddingFront) / (slot4 * math.ceil(#slot0.memoryGroups / slot5) - slot0.memoryGroupViewport.rect.height))
+	end
+
+	return slot2
 end
 
 function slot0.UpdateView(slot0)

@@ -20,9 +20,9 @@ function slot3.AddArrowBar(slot0, slot1)
 	setImageSprite(findTF(slot0._arrowBar, "icon"), LoadSprite("qicon/" .. slot0._unitData:GetTemplate().painting) or LoadSprite("heroicon/unknown"))
 end
 
-function slot3.UpdateHPBarPostition(slot0)
+function slot3.UpdateHPBarPosition(slot0)
 	if not slot0._inViewArea then
-		uv0.super.UpdateHPBarPostition(slot0)
+		uv0.super.UpdateHPBarPosition(slot0)
 	end
 end
 

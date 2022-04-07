@@ -93,8 +93,8 @@ function slot0.LoadSpine(slot0, slot1)
 			return
 		end
 
-		slot0 = uv1.model.transform
-		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
+		slot0 = uv1.modelRoot.transform
+		uv1.model:GetComponent("SkeletonGraphic").raycastTarget = false
 		slot0.anchoredPosition3D = Vector3.zero
 		slot0.localScale = Vector3.one
 
@@ -102,7 +102,7 @@ function slot0.LoadSpine(slot0, slot1)
 		uv1:SetParent(uv0.model)
 
 		uv0.modelComps = {
-			slot0:GetComponent("SpineAnimUI")
+			uv1.model:GetComponent("SpineAnimUI")
 		}
 		uv0.spineRole = uv1
 

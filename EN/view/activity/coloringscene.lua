@@ -329,11 +329,11 @@ function slot0.updateCells(slot0)
 	slot4:AddDragFunc(function (slot0, slot1)
 		uv0 = true
 
-		if not Application.isEditor then
+		if not IsUnityEditor then
 			uv1.zoom.enabled = Input.touchCount == 2
 		end
 
-		if Application.isEditor or not uv1.zoom.enabled then
+		if IsUnityEditor or not uv1.zoom.enabled then
 			slot2 = uv1.bg.anchoredPosition
 			slot2.x = slot2.x + slot1.delta.x * uv2.x
 			slot2.x = math.clamp(slot2.x, -uv1.bg.rect.width * (uv1.bg.localScale.x - 1), 0)

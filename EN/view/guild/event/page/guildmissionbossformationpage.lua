@@ -65,7 +65,10 @@ function slot0.OnInit(slot0)
 		uv0:emit(GuildEventMediator.ON_RECOMM_BOSS_BATTLE_SHIPS, uv0.fleet.id)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clearBtn, function ()
-		uv0.contextData.editBossFleet = {}
+		if not uv0.contextData.editBossFleet then
+			uv0.contextData.editBossFleet = {}
+		end
+
 		slot0 = uv0.contextData.bossFormationIndex or GuildBossMission.MAIN_FLEET_ID
 		slot1 = Clone(uv0.fleet)
 

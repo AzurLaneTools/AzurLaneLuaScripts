@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.re_map_template = {
 	{
-		id = 1,
+		memory_group = 108,
 		name = "红染常驻复刻",
 		activity_type = 1,
-		memory_group = 108,
+		id = 1,
 		bg = "temp_hongran",
 		order = 1,
 		config_data = {
@@ -20,26 +20,97 @@ pg.re_map_template = {
 			2100014,
 			2100015,
 			2100016
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100016,
+			307061,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					307061
+				},
+				"B3、D3"
+			},
+			{
+				{
+					2,
+					11032
+				},
+				"D2"
+			},
+			{
+				{
+					2,
+					11033
+				},
+				"D3"
+			}
 		}
 	},
 	{
-		id = 2,
+		memory_group = 101,
 		name = "Z舰队常驻复刻",
 		activity_type = 2,
-		memory_group = 101,
+		id = 2,
 		bg = "temp_zjiandui",
 		order = 2,
 		config_data = {
 			2200001,
 			2200002,
 			2200003
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					4,
+					205061
+				},
+				"SP3"
+			},
+			{
+				{
+					4,
+					201231
+				},
+				"SP2、SP3"
+			},
+			{
+				{
+					2,
+					11012
+				},
+				"SP3"
+			}
 		}
 	},
 	[4] = {
-		id = 4,
+		memory_group = 123,
 		name = "凛冬常驻复刻",
 		activity_type = 1,
-		memory_group = 123,
+		id = 4,
 		bg = "temp_lingdong",
 		order = 4,
 		config_data = {
@@ -55,26 +126,90 @@ pg.re_map_template = {
 			2100034,
 			2100035,
 			2100036
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100036,
+			205071,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					205071
+				},
+				"B3、D3"
+			},
+			{
+				{
+					4,
+					201271
+				},
+				"B2、D2、D3"
+			},
+			{
+				{
+					2,
+					11026
+				},
+				"D3"
+			}
 		}
 	},
 	[5] = {
-		id = 5,
+		memory_group = 117,
 		name = "围剿斯佩伯爵』常驻复刻",
 		activity_type = 2,
-		memory_group = 117,
+		id = 5,
 		bg = "temp_sipei",
 		order = 5,
 		config_data = {
 			2200011,
 			2200012,
 			2200013
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					2,
+					11029
+				},
+				"SP3"
+			},
+			{
+				{
+					2,
+					11014
+				},
+				"SP2"
+			}
 		}
 	},
 	[6] = {
-		id = 6,
+		memory_group = 102,
 		name = "异色格常驻复刻",
 		activity_type = 1,
-		memory_group = 102,
+		id = 6,
 		bg = "temp_yisege",
 		order = 7,
 		config_data = {
@@ -94,13 +229,59 @@ pg.re_map_template = {
 			2100056,
 			2100057,
 			2100058
+		},
+		chapter_progress = {
+			12,
+			25,
+			37,
+			50,
+			62,
+			75,
+			87,
+			100,
+			12,
+			25,
+			37,
+			50,
+			62,
+			75,
+			87,
+			100
+		},
+		character_gain = {
+			2100058,
+			401461,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					401461
+				},
+				"B4、D4"
+			},
+			{
+				{
+					4,
+					404021
+				},
+				"B2、D2、D3、D4"
+			},
+			{
+				{
+					2,
+					11029
+				},
+				"D1"
+			}
 		}
 	},
 	[7] = {
-		id = 7,
+		memory_group = 115,
 		name = "坠落之翼常驻复刻",
 		activity_type = 1,
-		memory_group = 115,
+		id = 7,
 		bg = "temp_zhuiluo",
 		order = 6,
 		config_data = {
@@ -116,13 +297,55 @@ pg.re_map_template = {
 			2100074,
 			2100075,
 			2100076
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100076,
+			105121,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					105121
+				},
+				"B3、D3"
+			},
+			{
+				{
+					4,
+					105111
+				},
+				"B1、D1、D2、D3"
+			},
+			{
+				{
+					2,
+					11001
+				},
+				"D3"
+			}
 		}
 	},
 	[8] = {
-		id = 8,
+		memory_group = 133,
 		name = "鸢尾之华常驻复刻",
 		activity_type = 1,
-		memory_group = 133,
+		id = 8,
 		bg = "temp_yuanwei",
 		order = 9,
 		config_data = {
@@ -138,13 +361,55 @@ pg.re_map_template = {
 			2100094,
 			2100095,
 			2100096
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100096,
+			801011,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					801011
+				},
+				"B3、D3"
+			},
+			{
+				{
+					2,
+					11038
+				},
+				"D2"
+			},
+			{
+				{
+					2,
+					11039
+				},
+				"D3"
+			}
 		}
 	},
 	[9] = {
-		id = 9,
+		memory_group = 131,
 		name = "墨染的钢铁之花常驻复刻",
 		activity_type = 1,
-		memory_group = 131,
+		id = 9,
 		bg = "temp_moran",
 		order = 10,
 		config_data = {
@@ -160,26 +425,97 @@ pg.re_map_template = {
 			2100114,
 			2100115,
 			2100116
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100116,
+			301491,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					301491
+				},
+				"B2、D2"
+			},
+			{
+				{
+					4,
+					304011
+				},
+				"B1、D1、D2"
+			},
+			{
+				{
+					2,
+					11001
+				},
+				"D2"
+			}
 		}
 	},
 	[10] = {
-		id = 10,
+		memory_group = 109,
 		name = "光荣的一战常驻复刻",
 		activity_type = 2,
-		memory_group = 109,
+		id = 10,
 		bg = "temp_guangrong",
 		order = 8,
 		config_data = {
 			2200021,
 			2200022,
 			2200023
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					4,
+					207061
+				},
+				"SP3"
+			},
+			{
+				{
+					4,
+					201031
+				},
+				"SP2"
+			},
+			{
+				{
+					2,
+					11017
+				},
+				"SP2"
+			}
 		}
 	},
 	[11] = {
-		id = 11,
+		memory_group = 148,
 		name = "苍红的回响常驻复刻",
 		activity_type = 1,
-		memory_group = 148,
+		id = 11,
 		bg = "temp_tiancheng",
 		order = 11,
 		config_data = {
@@ -195,13 +531,83 @@ pg.re_map_template = {
 			2100134,
 			2100135,
 			2100136
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100136,
+			305071,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					305071
+				},
+				"B3、D3"
+			},
+			{
+				{
+					4,
+					301791
+				},
+				"A3、B2、C3、D2"
+			},
+			{
+				{
+					2,
+					11013
+				},
+				"D3"
+			}
+		}
+	},
+	[12] = {
+		memory_group = 132,
+		name = "月光下的序曲",
+		activity_type = 2,
+		id = 12,
+		bg = "temp_xinaoerliang",
+		order = 14,
+		config_data = {
+			2200031,
+			2200032,
+			2200033
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					2,
+					11006
+				},
+				"SP3"
+			}
 		}
 	},
 	[13] = {
-		id = 13,
+		memory_group = 158,
 		name = "俾斯麦常驻复刻",
 		activity_type = 1,
-		memory_group = 158,
+		id = 13,
 		bg = "temp_bisimai",
 		order = 12,
 		config_data = {
@@ -217,13 +623,55 @@ pg.re_map_template = {
 			2100154,
 			2100155,
 			2100156
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100156,
+			205051,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					205051
+				},
+				"B3、D3"
+			},
+			{
+				{
+					4,
+					201291
+				},
+				"B1、B2、B3、D1、D2、D3"
+			},
+			{
+				{
+					4,
+					404021
+				},
+				"B2、B3、D2、D3"
+			}
 		}
 	},
 	[14] = {
-		id = 14,
+		memory_group = 172,
 		name = "偶像一期常驻复刻",
 		activity_type = 2,
-		memory_group = 172,
+		id = 14,
 		bg = "temp_ouxiang",
 		order = 13,
 		config_data = {
@@ -232,6 +680,30 @@ pg.re_map_template = {
 			2200043,
 			2200044,
 			2200045
+		},
+		chapter_progress = {
+			20,
+			40,
+			60,
+			80,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					2,
+					30315
+				},
+				"SP1、SP2、SP3、SP4、SP5"
+			},
+			{
+				{
+					2,
+					11039
+				},
+				"SP5"
+			}
 		}
 	},
 	all = {
@@ -245,6 +717,7 @@ pg.re_map_template = {
 		9,
 		10,
 		11,
+		12,
 		13,
 		14
 	}

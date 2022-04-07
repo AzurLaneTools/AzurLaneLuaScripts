@@ -1,17 +1,28 @@
+slot0 = {
+	"Let's add your new ship to your <color=#ff7d36>formation</color>.",
+	"Keep in mind that <color=#ffde38>destroyers, light cruisers, and heavy cruisers</color> may only be deployed to your team's vanguard!",
+	"<color=#ffde38>Carriers and battleships</color> must be placed towards the back in the main fleet.",
+	"Tap <color=#ff7d36>add</color> to select a new ship.",
+	"Select a ship to deploy.",
+	"Next, tap <color=#ff7d36>confirm</color>.",
+	"Look! Your new ship is in formation! Fleet firepower has been greatly improved!",
+	"Let's head back to the main screen!"
+}
+
 return {
 	id = "S004",
 	events = {
 		{
 			alpha = 0.328,
 			style = {
-				text = "Let's add your new ship to your <color=#ff7d36>formation</color>.",
+				dir = -1,
 				mode = 2,
 				posY = -275,
-				dir = -1,
-				posX = 348
+				posX = 348,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,31 +37,31 @@ return {
 			alpha = 0.574,
 			waitScene = "FormationUI",
 			style = {
-				text = "Keep in mind that <color=#ffde38>destroyers, light cruisers, and heavy cruisers</color> may only be deployed to your team's vanguard!",
+				dir = 1,
 				mode = 1,
 				posY = -100,
-				dir = 1,
-				posX = 300
+				posX = 300,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.321,
 			style = {
-				text = "<color=#ffde38>Carriers and battleships</color> must be placed towards the back in the main fleet.",
+				dir = -1,
 				mode = 1,
 				posY = 200,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.371,
 			style = {
-				text = "Tap <color=#ff7d36>add</color> to select a new ship.",
+				dir = -1,
 				mode = 2,
 				posY = 122.82,
-				dir = -1,
-				posX = 243.5
+				posX = 243.5,
+				text = slot0[4]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_2/tip",
@@ -68,11 +79,11 @@ return {
 			alpha = 0.482,
 			waitScene = "DockyardScene",
 			style = {
-				text = "Select a ship to deploy.",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
@@ -95,11 +106,11 @@ return {
 		{
 			alpha = 0.363,
 			style = {
-				text = "Next, tap <color=#ff7d36>confirm</color>.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[6]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
@@ -118,21 +129,21 @@ return {
 			code = -1,
 			waitScene = "FormationUI",
 			style = {
-				text = "Look! Your new ship is in formation! Fleet firepower has been greatly improved!",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[7]
 			}
 		},
 		{
 			alpha = 0.45,
 			style = {
-				text = "Let's head back to the main screen!",
+				dir = -1,
 				mode = 2,
 				posY = 215.7,
-				dir = -1,
-				posX = -95.62
+				posX = -95.62,
+				text = slot0[8]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",

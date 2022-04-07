@@ -2,7 +2,7 @@ slot0 = class("ChargeCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	if (PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP) and not pg.SdkMgr.GetInstance():CheckAiriCanBuy() then
-		print("wait for a second, Do not click quickly~")
+		originalPrint("wait for a second, Do not click quickly~")
 
 		return
 	end
@@ -33,21 +33,21 @@ function slot0.execute(slot0, slot1)
 			if uv0.tradeNoPrev ~= slot0.pay_id then
 				if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():GetIsPlatform() then
 					if pg.SdkMgr.GetInstance():CheckAudit() then
-						print("serverTag:audit 请求购买物品")
+						originalPrint("serverTag:audit 请求购买物品")
 						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "audit", slot0.pay_id)
 					elseif pg.SdkMgr.GetInstance():CheckPreAudit() then
-						print("serverTag:preAudit 请求购买物品")
+						originalPrint("serverTag:preAudit 请求购买物品")
 						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "preAudit", slot0.pay_id)
 					elseif pg.SdkMgr.GetInstance():CheckPretest() then
-						print("serverTag:preTest 请求购买物品")
+						originalPrint("serverTag:preTest 请求购买物品")
 						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "preAudit", slot0.pay_id)
 					else
-						print("serverTag:production 请求购买物品")
+						originalPrint("serverTag:production 请求购买物品")
 						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "production", slot0.pay_id)
 					end
 
-					print("请求购买的airijp_id为：" .. uv1:getConfig("airijp_id"))
-					print("请求购买的id为：" .. slot0.pay_id)
+					originalPrint("请求购买的airijp_id为：" .. uv1:getConfig("airijp_id"))
+					originalPrint("请求购买的id为：" .. slot0.pay_id)
 				else
 					slot1 = uv1:firstPayDouble() and uv2
 					slot3 = getProxy(PlayerProxy):getData()

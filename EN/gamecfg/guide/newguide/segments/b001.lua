@@ -1,3 +1,12 @@
+slot0 = {
+	"Commander! Let me show you how to control your fleet.",
+	"First, <color=#ff7d36>move the joystick</color> to get the fleet moving!",
+	"Characters will <color=#ff7d36>fire their weapons automatically</color>, but you also have more firepower available at your disposal.",
+	"Tap the button below to <color=#ff7d36>unleash a barrage for torpedoes</color>!",
+	"When you confront a defensive enemy force, use your main ship's <color=#ff7d36>volley</color>!",
+	"Tap on the main gun icon. <color=#ff7d36>Press, hold, and move the joystick</color> to control your aim."
+}
+
 return {
 	id = "B001",
 	events = {
@@ -27,11 +36,11 @@ return {
 				"ShowStick"
 			},
 			style = {
-				text = "Commander! Let me show you how to control your fleet.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
@@ -40,11 +49,11 @@ return {
 				"ShowStick"
 			},
 			style = {
-				text = "First, <color=#ff7d36>move the joystick</color> to get the fleet moving!",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area",
@@ -59,11 +68,11 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				text = "Characters will <color=#ff7d36>fire their weapons automatically</color>, but you also have more firepower available at your disposal.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			}
 		},
 		{
@@ -84,11 +93,11 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				text = "Tap the button below to <color=#ff7d36>unleash a barrage for torpedoes</color>!",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl",
@@ -103,11 +112,11 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				text = "When you confront a defensive enemy force, use your main ship's <color=#ff7d36>volley</color>!",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			}
 		},
 		{
@@ -128,11 +137,11 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				text = "Tap on the main gun icon. <color=#ff7d36>Press, hold, and move the joystick</color> to control your aim.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[6]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl",

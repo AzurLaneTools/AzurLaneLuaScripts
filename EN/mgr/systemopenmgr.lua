@@ -15,7 +15,7 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 	if uv0 and slot1 == GAME.LOAD_SCENE and slot2.context.mediator then
 		slot5 = slot2.context.mediator.__cname
 
-		if getProxy(PlayerProxy) and slot4:getData() then
+		if getProxy(PlayerProxy) and slot4:getRawData() then
 			slot7, slot8 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot6.level, slot5)
 
 			if not slot7 then
@@ -49,7 +49,7 @@ function slot4(slot0)
 	slot2 = uv0[14].name
 
 	if uv0[14].level == slot0 then
-		if pg.NewStoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO1") or Application.isEditor then
+		if pg.NewStoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO1") or IsUnityEditor then
 			return true
 		else
 			return false, i18n("no_open_system_tip", slot2, slot1)
@@ -79,12 +79,12 @@ function slot0.isOpenSystem(slot0, slot1, slot2)
 	end
 end
 
-function slot5(slot0, slot1)
-	for slot6, slot7 in pairs(_.sort(uv0.all, function (slot0, slot1)
+function slot5(slot0)
+	for slot5, slot6 in pairs(_.sort(uv0.all, function (slot0, slot1)
 		return uv0[slot1].level < uv0[slot0].level
 	end)) do
-		if uv0[slot7].level <= slot0 then
-			return slot8
+		if uv0[slot6].level <= slot0 then
+			return slot7
 		end
 	end
 end
@@ -94,14 +94,14 @@ function slot0.notification(slot0, slot1)
 		return
 	end
 
-	if uv1(slot1, getProxy(PlayerProxy):getData()) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot4.story_id and slot4.story_id ~= "" and not slot0.active and not pg.NewStoryMgr.GetInstance():IsPlayed(slot4.story_id) and not pg.SeriesGuideMgr.GetInstance():isNotFinish() then
+	if uv1(slot1) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot2.story_id and slot2.story_id ~= "" and not slot0.active and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2.story_id) and not pg.SeriesGuideMgr.GetInstance():isNotFinish() then
 		slot0.active = true
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
 			hideNo = true,
 			hideClose = true,
-			content = i18n("open_system_tip", slot4.name),
+			content = i18n("open_system_tip", slot2.name),
 			weight = LayerWeightConst.TOP_LAYER,
 			onYes = function ()
 				uv0:doSystemGuide(uv1.id)
@@ -111,7 +111,7 @@ function slot0.notification(slot0, slot1)
 end
 
 function slot0.doSystemGuide(slot0, slot1)
-	if Application.isEditor and not ENABLE_GUIDE then
+	if IsUnityEditor and not ENABLE_GUIDE then
 		return
 	end
 

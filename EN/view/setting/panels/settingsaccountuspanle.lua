@@ -196,7 +196,9 @@ function slot0.checkAiriGenCodeCounter_US(slot0)
 				setText(uv0.yostarGenTxt, "Generate")
 				uv0:clearAiriGenCodeTimer_US()
 			end
-		end, 1, -1):Start()
+		end, 1, -1)
+
+		slot0.genCodeTimer:Start()
 	end
 end
 

@@ -53,18 +53,24 @@ end
 function slot0.SkinTagTip(slot0)
 	triggerToggle(slot0, false)
 
-	if #_.select(getProxy(ShipSkinProxy):GetAllSkins(), function (slot0)
-		return slot0.type == Goods.TYPE_SKIN and type(slot0:getConfig("time")) == "table" and slot0.genre ~= ShopArgs.SkinShopTimeLimit
-	end) > 0 then
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(getProxy(ShipSkinProxy):GetAllSkins()) do
+		if slot7.type == Goods.TYPE_SKIN and type(slot7:getConfig("time")) == "table" and slot7.genre ~= ShopArgs.SkinShopTimeLimit then
+			table.insert(slot2, pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7:getConfig("time")[1]))
+		end
+	end
+
+	if #slot2 > 0 then
 		table.sort(slot2, function (slot0, slot1)
-			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1:getConfig("time")[1]) < pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig("time")[1])
+			return slot1 < slot0
 		end)
 
-		if PlayerPrefs.GetInt("Ever_Enter_Skin_Shop_", 0) < pg.TimeMgr.GetInstance():parseTimeFromConfig(slot2[1]:getConfig("time")[1]) then
-			uv0.SkinTime = slot5
-
-			triggerToggle(slot0, true)
+		if PlayerPrefs.GetInt("Ever_Enter_Skin_Shop_", 0) < slot2[1] then
+			uv0.SkinTime = slot4
 		end
+
+		triggerToggle(slot0, slot6)
 	end
 end
 

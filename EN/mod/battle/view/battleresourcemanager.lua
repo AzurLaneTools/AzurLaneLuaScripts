@@ -19,7 +19,6 @@ function slot5.Init(slot0)
 	slot0._resCacheList = {}
 	slot0._allPool = {}
 	slot0._ob2Pool = {}
-	slot0._shaders = {}
 	slot1 = GameObject()
 
 	slot1:SetActive(false)
@@ -49,7 +48,6 @@ function slot5.Clear(slot0)
 	slot0._resCacheList = {}
 	slot0._ob2Pool = {}
 	slot0._allPool = {}
-	slot0._shaders = {}
 
 	Object.Destroy(slot0._poolRoot)
 
@@ -274,17 +272,17 @@ function slot5.InstBullet(slot0, slot1, slot2)
 	end
 end
 
-function slot5.InstFX(slot0, slot1)
-	slot3 = nil
+function slot5.InstFX(slot0, slot1, slot2)
+	slot4 = nil
 
 	if slot0._allPool[slot0.GetFXPath(slot1)] then
-		slot3 = slot0:popPool(slot4)
-	elseif slot0._resCacheList[slot2] ~= nil then
-		slot0:InitPool(slot2, slot0._resCacheList[slot2])
+		slot4 = slot0:popPool(slot5, slot2)
+	elseif slot0._resCacheList[slot3] ~= nil then
+		slot0:InitPool(slot3, slot0._resCacheList[slot3])
 
-		slot3 = slot0:popPool(slot0._allPool[slot2])
+		slot4 = slot0:popPool(slot0._allPool[slot3], slot2)
 	else
-		ResourceMgr.Inst:getAssetAsync(slot2, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		ResourceMgr.Inst:getAssetAsync(slot3, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if not uv0._poolRoot then
 				uv1.Destroy(slot0)
 
@@ -294,14 +292,14 @@ function slot5.InstFX(slot0, slot1)
 			end
 		end), true, true)
 
-		slot3 = GameObject(slot1 .. "临时假obj")
+		slot4 = GameObject(slot1 .. "临时假obj")
 
-		slot3:SetActive(false)
+		slot4:SetActive(false)
 
-		slot0._resCacheList[slot2] = slot3
+		slot0._resCacheList[slot3] = slot4
 	end
 
-	return slot3
+	return slot4
 end
 
 function slot5.InstOrbit(slot0, slot1)
@@ -401,7 +399,7 @@ function slot5.GetCommanderHrzIcon(slot0, slot1)
 end
 
 function slot5.GetShader(slot0, slot1)
-	return slot0._shaders[slot1]
+	return pg.ShaderMgr.GetInstance():GetShader(uv0.BATTLE_SHADER[slot1])
 end
 
 function slot5.AddPreloadResource(slot0, slot1)
@@ -432,10 +430,6 @@ function slot5.StartPreload(slot0, slot1, slot2)
 		slot4 = slot4 + 1
 	end
 
-	for slot8, slot9 in pairs(uv0.BATTLE_SHADER) do
-		slot4 = slot4 + 1
-	end
-
 	function slot5()
 		if not uv0._poolRoot then
 			return
@@ -462,21 +456,13 @@ function slot5.StartPreload(slot0, slot1, slot2)
 		pg.CriMgr:LoadBattleCV(slot9, slot5)
 	end
 
-	for slot9, slot10 in pairs(uv0.BATTLE_SHADER) do
-		ResourceMgr.Inst:LoadAssetAsync(pg.ShaderMgr.GetInstance().shaders, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			uv0._shaders[uv1] = slot0
-
-			uv2()
-		end), false, false)
-	end
-
 	for slot9, slot10 in pairs(slot0._preloadList) do
 		if slot0.GetResName(slot9) == "" or slot0._resCacheList[slot9] ~= nil then
 			slot5()
 		elseif string.find(slot9, "herohrzicon/") or string.find(slot9, "qicon/") or string.find(slot9, "squareicon/") or string.find(slot9, "commanderhrz/") or string.find(slot9, "AircraftIcon/") then
 			ResourceMgr.Inst:getAssetAsync(slot9, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if slot0 == nil then
-					print("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
+					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
 					if not uv1._poolRoot then
 						uv2.Destroy(slot0)
@@ -494,7 +480,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 		elseif string.find(slot9, "shiptype/") then
 			ResourceMgr.Inst:getAssetAsync("shiptype", string.split(slot9, "/")[2], typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if slot0 == nil then
-					print("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
+					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
 					if not uv1._poolRoot then
 						uv2.Destroy(slot0)
@@ -514,7 +500,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 
 			PoolMgr.GetInstance():GetPainting(slot11 .. ((PlayerPrefs.GetInt(BATTLE_HIDE_BG, 1) <= 0 or PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot11 .. "_n"))) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot11, 0) ~= 0 and "_n" or ""), true, function (slot0)
 				if slot0 == nil then
-					print("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
+					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
 					if not uv1._poolRoot then
 						uv2.ClearPaintingRes(uv0, slot0)
@@ -535,7 +521,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 		elseif string.find(slot9, "Char/") then
 			slot0:LoadSpineAsset(slot11, function (slot0)
 				if slot0 == nil then
-					print("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
+					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
 					slot0 = SpineAnim.AnimChar(uv1, slot0)
 
@@ -558,7 +544,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 		elseif string.find(slot9, "UI/") then
 			LoadAndInstantiateAsync("UI", slot11, function (slot0)
 				if slot0 == nil then
-					print("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
+					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
 					if not uv1._poolRoot then
 						uv2.Destroy(slot0)
@@ -579,7 +565,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 		else
 			ResourceMgr.Inst:getAssetAsync(slot9, slot11, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if slot0 == nil then
-					print("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
+					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
 					if not uv1._poolRoot then
 						uv2.Destroy(slot0)
@@ -845,7 +831,7 @@ function slot5.GetWeaponResource(slot0, slot1)
 				slot2[#slot2 + 1] = slot14
 			end
 		end
-	elseif slot3.type == uv1.EquipmentType.SCOUT or slot3.type == uv1.EquipmentType.PASSIVE_SCOUT then
+	elseif slot3.type == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot3.type == uv1.EquipmentType.STRIKE_AIRCRAFT then
 		slot2 = uv2.GetAircraftResource(slot0, nil, slot1)
 	elseif slot3.type == uv1.EquipmentType.PREVIEW_ARICRAFT then
 		for slot7, slot8 in ipairs(slot3.bullet_ID) do

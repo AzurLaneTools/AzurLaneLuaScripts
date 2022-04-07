@@ -1,3 +1,11 @@
+slot0 = {
+	"Looks like our port has Submarines too, now!",
+	"This is our first Submarine! Let's start assembling a Submarine Fleet right away!",
+	"Now we've created our first Submarine Fleet!",
+	"Be prepared to face enemy Submarines, and don't forget to equip Anti-Sub gear!",
+	"You can tap the Help button for more details on Anti-Sub gear!"
+}
+
 return {
 	id = "NG002",
 	events = {
@@ -10,16 +18,16 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Looks like our port has Submarines too, now!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[1]
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/taskButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/taskButton"
 			}
 		},
 		{
@@ -34,7 +42,7 @@ return {
 		{
 			ui = {
 				delay = 1,
-				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/taskBGCenter/right_panel/content/10302/frame/get_btn"
+				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/mask/content/10302/frame/get_btn"
 			}
 		},
 		{
@@ -65,11 +73,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "This is our first Submarine! Let's start assembling a Submarine Fleet right away!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[2]
 			}
 		},
 		{
@@ -79,7 +87,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton"
 			}
 		},
 		{
@@ -111,21 +119,21 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Now we've created our first Submarine Fleet!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "Be prepared to face enemy Submarines, and don't forget to equip Anti-Sub gear!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[4]
 			}
 		},
 		{
@@ -135,7 +143,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/dockBtn"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/dockBtn"
 			}
 		},
 		{
@@ -153,11 +161,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "You can tap the Help button for more details on Anti-Sub gear!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[5]
 			}
 		},
 		{

@@ -22,6 +22,14 @@ function slot0.OnLoaded(slot0)
 	slot0.innerMsgboxCancelBtn = slot0.innerMsgbox:Find("btns/btn2")
 	slot0.scrollTitleText = slot0.innerMsgbox:Find("bound/title"):GetComponent(typeof(Text))
 	slot0.scrollText = slot0.innerMsgbox:Find("bound/scrollrect/Text"):GetComponent(typeof(Text))
+
+	setText(slot0.cancelBtn:Find("text"), i18n("word_cancel"))
+	setText(slot0.deleteBtn:Find("text"), i18n("word_delete"))
+	setText(slot0.saveBtn:Find("text"), i18n("word_save"))
+	setText(slot0.applyBtn:Find("text"), i18n("backyard_theme_word_apply"))
+	setText(slot0.innerMsgboxComfirmBtn:Find("text"), i18n("word_ok"))
+	setText(slot0.innerMsgboxCancelBtn:Find("text"), i18n("word_cancel"))
+	setText(slot0:findTF("frame/bound/input/Placeholder"), i18n("enter_theme_name"))
 end
 
 function slot0.OnInit(slot0)
@@ -61,9 +69,7 @@ function slot0.OnInit(slot0)
 		slot1 = uv0
 
 		slot1:emit(BackYardDecorationMediator.APPLY_THEME, uv0.theme, function (slot0, slot1)
-			uv0.contextData.applyCnt = ((uv0.contextData.applyCnt or 0) + 1) % 5
-
-			gcAll(uv0.contextData.applyCnt == 0)
+			gcAll(false)
 
 			if slot0 then
 				uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, uv0.theme.id, slot1, uv1)
@@ -177,6 +183,11 @@ function slot0.HideInnerMsgBox(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	if not IsNil(slot0.iconRaw.texture) then
+		Object.Destroy(slot0.iconRaw.texture)
+
+		slot0.iconRaw.texture = nil
+	end
 end
 
 return slot0

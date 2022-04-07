@@ -55,7 +55,6 @@ function slot0.init(slot0)
 	slot0.settingBtn = slot0:findTF("blur_panel/adapt/left_length/frame/setting")
 	slot0.settingPanel = DockyardQuickSelectSettingPage.New(slot0._tf, slot0.event)
 
-	slot0.settingPanel:Load()
 	slot0.settingPanel:OnSettingChanged(function ()
 		uv0:unselecteAllShips()
 	end)
@@ -131,7 +130,13 @@ function slot0.init(slot0)
 		setActive(slot3, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
 	end
 
-	slot0.shipContainer = slot0.contextData.selectFriend and slot0:findTF("main/friend_container/ships"):GetComponent("LScrollRect") or slot0:findTF("main/ship_container/ships"):GetComponent("LScrollRect")
+	if slot0.contextData.selectFriend then
+		slot0.shipContainer = slot0:findTF("main/friend_container/ships"):GetComponent("LScrollRect")
+	else
+		slot0.shipContainer = slot0:findTF("main/ship_container/ships"):GetComponent("LScrollRect")
+	end
+
+	slot0.shipContainer.enabled = true
 	slot0.shipContainer.decelerationRate = 0.07
 
 	setActive(slot0:findTF("main/ship_container"), not slot0.contextData.selectFriend)
@@ -252,7 +257,7 @@ function slot0.onInitItem(slot0, slot1)
 
 	slot3 = GetOrAddComponent(slot2.go, "UILongPressTrigger").onLongPressed
 
-	if slot0.contextData.preView == BackYardShipInfoLayer.__cname then
+	if slot0.contextData.preView == NewBackYardShipInfoLayer.__cname then
 		slot3:RemoveAllListeners()
 		slot3:AddListener(function ()
 			if uv0.shipVO then
@@ -732,7 +737,6 @@ function slot0.UpdateGuildViewEquipmentsBtn(slot0)
 end
 
 function slot0.didEnter(slot0)
-	go(slot0.shipContainer):SetActive(true)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
 	setActive(slot0.stampBtn, getProxy(TaskProxy):mingshiTouchFlagEnabled() and slot0.contextData.mode ~= uv0.MODE_GUILD_BOSS)
 	slot0:UpdateGuildViewEquipmentsBtn()
@@ -781,7 +785,7 @@ function slot0.didEnter(slot0)
 		setActive(slot0, false)
 	end)
 
-	slot0.isFormTactics = slot0.contextData.prevPage == "NavalTacticsMediator"
+	slot0.isFormTactics = slot0.contextData.prevPage == "NewNavalTacticsMediator"
 	slot2 = slot0:findTF("off", slot1):GetComponent("Image")
 	slot3 = slot0:findTF("on", slot1):GetComponent("Image")
 
@@ -1113,7 +1117,8 @@ function slot0.didEnter(slot0)
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60033)
 
 	onButton(slot0, slot0.settingBtn, function ()
-		uv0.settingPanel:Show()
+		uv0.settingPanel:Load()
+		uv0.settingPanel:ActionInvoke("Show")
 	end)
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
 end
@@ -1594,6 +1599,8 @@ function slot0.willExit(slot0)
 			DockyardScene.commonTag = slot0.commonTag
 		end
 	end
+
+	slot0.shipContainer.enabled = false
 
 	for slot4, slot5 in pairs(slot0.scrollItems) do
 		slot5:clear()

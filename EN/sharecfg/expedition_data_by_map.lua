@@ -13080,6 +13080,50 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200030] = {
+		map = 2200030,
+		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "white",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1130000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200040] = {
 		map = 2200040,
 		name = "Passionate Polaris|| ||CHAPTER SP||E.X.",
@@ -13581,6 +13625,7 @@ pg.expedition_data_by_map = {
 		2200000,
 		2200010,
 		2200020,
+		2200030,
 		2200040,
 		9920001,
 		9920002,

@@ -3,12 +3,12 @@ return {
 	events = {
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/liveButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/liveButton"
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/MainUISecondaryPanel/frame/bg/commander_btn"
+				path = "/OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/commander_btn"
 			}
 		}
 	}

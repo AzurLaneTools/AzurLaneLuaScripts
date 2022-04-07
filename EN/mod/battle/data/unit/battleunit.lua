@@ -490,11 +490,11 @@ function slot9.setWeapon(slot0, slot1)
 					slot0._manualTorpedoList[#slot0._manualTorpedoList + 1] = slot13
 
 					slot0._weaponQueue:AppendWeapon(slot13)
-				elseif slot14 ~= uv1.EquipmentType.PASSIVE_SCOUT then
+				elseif slot14 ~= uv1.EquipmentType.STRIKE_AIRCRAFT then
 					slot0:AddAutoWeapon(slot13)
 				end
 
-				if slot14 == uv1.EquipmentType.SCOUT or slot14 == uv1.EquipmentType.PASSIVE_SCOUT then
+				if slot14 == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot14 == uv1.EquipmentType.STRIKE_AIRCRAFT then
 					slot0._hiveList[#slot0._hiveList + 1] = slot13
 				end
 

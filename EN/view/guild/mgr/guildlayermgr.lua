@@ -21,6 +21,7 @@ function slot0.BlurTopPanel(slot0, slot1)
 	end
 
 	setParent(slot1, slot0.overlayMain)
+	slot1:SetAsFirstSibling()
 end
 
 function slot0.OnShowMsgBox(slot0)

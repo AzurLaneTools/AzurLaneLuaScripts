@@ -47,8 +47,6 @@ end
 
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
-
-	slot0.resPanel:setResources(slot1)
 end
 
 function slot0.setFirstChargeIds(slot0, slot1)
@@ -69,6 +67,10 @@ function slot0.setNormalGroupList(slot0, slot1)
 	slot0:addRefreshTimer(GetZeroTime())
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.init(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("adapt/top", slot0.blurPanel)
@@ -84,9 +86,7 @@ function slot0.init(slot0)
 	slot0.giftToggle = slot0:findTF("toggle_list/gift_toggle", slot0.viewContainer)
 	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)
 	slot0.giftTip = slot0:findTF("tip", slot0.giftToggle)
-	slot0.resPanel = PlayerResource.New()
 
-	slot0.resPanel:setParent(slot0:findTF("res", slot0.top), false)
 	setText(slot0:findTF("light/title", slot0.diamondToggle), i18n("shop_diamond_title"))
 	setText(slot0:findTF("dark/title", slot0.diamondToggle), i18n("shop_diamond_title"))
 	setText(slot0:findTF("light/title", slot0.giftToggle), i18n("shop_gift_title"))
@@ -177,12 +177,6 @@ end
 
 function slot0.willExit(slot0)
 	slot0:unBlurView()
-
-	if slot0.resPanel then
-		slot0.resPanel:exit()
-
-		slot0.resPanel = nil
-	end
 
 	if slot0.heartsTimer then
 		slot0.heartsTimer:Stop()

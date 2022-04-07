@@ -285,7 +285,7 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 
 	function slot4()
 		setActive(uv0.buildAni, false)
-		setParent(uv0.buildAni, uv0._tf, false)
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.buildAni.transform, uv0._tf)
 
 		uv0.isPlayAnim = false
 
@@ -319,10 +319,9 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 		end, 4.5)
 
 		uv0.aniTimer:Start()
-
-		slot0 = GameObject.Find("Overlay/UIOverlay")
-
-		setParent(uv0.buildAni, GameObject.Find("Overlay/UIOverlay"), false)
+		pg.UIMgr.GetInstance():BlurPanel(uv0.buildAni.transform, false, {
+			weight = LayerWeightConst.SECOND_LAYER
+		})
 		setActive(uv0.buildAni, true)
 
 		if uv2 and uv2.build_voice ~= "" then

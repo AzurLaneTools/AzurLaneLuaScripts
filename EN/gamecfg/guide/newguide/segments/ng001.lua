@@ -1,24 +1,33 @@
+slot0 = {
+	"Commander, we've received a Distress Signal! Something terrible might've happened...",
+	"Tap the Distress Signal button and search for the Signal's source!",
+	"Also, I've heard that increasing your Signal Sensitivity lets you locate Signals in later Chapters...",
+	"But that comes later! For now, just search for the source of that Distress Signal!",
+	"You found the source! Now, initiate a Rescue Mission immediately! If you dilly-dally, the Signal will disappear!",
+	"You will run into enemy Submarines during Rescue Missions! Make sure you bring ships with the gear and stats needed to fight them!"
+}
+
 return {
 	id = "NG001",
 	events = {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Commander, we've received a Distress Signal! Something terrible might've happened...",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[1]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "Tap the Distress Signal button and search for the Signal's source!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[2]
 			}
 		},
 		{
@@ -36,21 +45,21 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Also, I've heard that increasing your Signal Sensitivity lets you locate Signals in later Chapters...",
+				dir = 1,
 				mode = 1,
 				posY = -70,
-				dir = 1,
-				posX = -190
+				posX = -190,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "But that comes later! For now, just search for the source of that Distress Signal!",
+				dir = 1,
 				mode = 1,
 				posY = -70,
-				dir = 1,
-				posX = -190
+				posX = -190,
+				text = slot0[4]
 			}
 		},
 		{
@@ -67,11 +76,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "You found the source! Now, initiate a Rescue Mission immediately! If you dilly-dally, the Signal will disappear!",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			}
 		},
 		{
@@ -85,12 +94,12 @@ return {
 		},
 		{
 			style = {
-				text = "You will run into enemy Submarines during Rescue Missions! Make sure you bring ships with the gear and stats needed to fight them!",
-				mode = 1,
 				alpha = 0.4,
+				mode = 1,
 				posY = -65,
 				dir = 1,
-				posX = -135
+				posX = -135,
+				text = slot0[6]
 			}
 		}
 	}

@@ -5,7 +5,7 @@ return {
 			delay = 0,
 			code = 2,
 			alpha = 0.4,
-			waitScene = "MainUI",
+			waitScene = "NewMainScene",
 			style = {
 				text = "Commander, the Naval HQ has dispatched a shipgirl who will be able to fight underwater. Let's go meet her!",
 				mode = 1,

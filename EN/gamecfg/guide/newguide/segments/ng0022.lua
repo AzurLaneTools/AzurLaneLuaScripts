@@ -1,9 +1,19 @@
+slot0 = {
+	"Tap to open the Gear R&D interface.",
+	"Here, you can view the R&D pathways for the various pieces of gear you have.",
+	"Drag the screen to view the possible products of each R&D pathway.",
+	"Drag the screen to view the possible products of each R&D pathway.",
+	"Gear R&D will use a piece of gear as its base material.",
+	"It will also require Coins and a certain amount of Gear Mats which can be earned from Operation Siren.",
+	"Once you have everything you need, tap the Develop button to create your new gear!"
+}
+
 return {
 	id = "NG0022",
 	events = {
 		{
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/technologyButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/technologyButton",
 				triggerType = {
 					1
 				},
@@ -18,11 +28,11 @@ return {
 		},
 		{
 			style = {
-				text = "Tap to open the Gear R&D interface.",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = -60.9
+				posX = -60.9,
+				text = slot0[1]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/SelectTechnologyUI(Clone)/frame/bg/transform_btn",
@@ -41,11 +51,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Here, you can view the R&D pathways for the various pieces of gear you have.",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
 				posX = -396.33,
+				text = slot0[2],
 				ui = {
 					path = "/UICamera/Canvas/UIMain/EquipmentTransformTreeUI(Clone)/Adapt/Left/EquipmentTypes/ViewPort/Content"
 				}
@@ -53,21 +63,21 @@ return {
 		},
 		{
 			style = {
-				text = "Drag the screen to view the possible products of each R&D pathway.",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = -65.8
+				posX = -65.8,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "Drag the screen to view the possible products of each R&D pathway.",
+				dir = 1,
 				mode = 1,
 				posY = -253.44,
-				dir = 1,
-				posX = 151.52
+				posX = 151.52,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/EquipmentTransformTreeUI(Clone)/Adapt/Right/ViewPort/Content/11060/Item",
@@ -86,11 +96,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Gear R&D will use a piece of gear as its base material.",
+				dir = -1,
 				mode = 1,
 				posY = -251.52,
-				dir = -1,
 				posX = -122.97,
+				text = slot0[5],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/EquipmentTransformUI(Clone)/Adapt/SourceEquip/Item"
 				}
@@ -99,11 +109,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "It will also require Coins and a certain amount of Gear Mats which can be earned from Operation Siren.",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
 				posX = -396.56,
+				text = slot0[6],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/EquipmentTransformUI(Clone)/Adapt/MaterialModule1/Item"
 				}
@@ -112,11 +122,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Once you have everything you need, tap the Develop button to create your new gear!",
+				dir = 1,
 				mode = 1,
 				posY = -215.3,
-				dir = 1,
 				posX = 337.29,
+				text = slot0[7],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/EquipmentTransformUI(Clone)/Adapt/ComposePanel"
 				}

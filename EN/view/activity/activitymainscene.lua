@@ -284,7 +284,7 @@ function slot0.loadActivityPanel(slot0, slot1, slot2)
 	elseif slot4 and not slot1 then
 		slot0:emit(ActivityMediator.CLOSE_LAYER, slot4.mediator)
 	else
-		print("------活动id为" .. slot2.id .. "类型为" .. slot2:getConfig("type") .. "的页面不存在")
+		originalPrint("------活动id为" .. slot2.id .. "类型为" .. slot2:getConfig("type") .. "的页面不存在")
 	end
 end
 

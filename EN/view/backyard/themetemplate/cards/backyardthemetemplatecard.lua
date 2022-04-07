@@ -1,15 +1,14 @@
 slot0 = class("BackYardThemeTemplateCard", import("...Shop.cards.BackYardThemeCard"))
 
 function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
-	setActive(slot0.discountTF, false)
-
-	slot0.discountTxt.text = ""
+	slot0._go = slot1
+	slot0._tf = slot1.transform
+	slot0.content = slot0._tf:Find("content")
+	slot0.mask = slot0.content:Find("mask")
+	slot0.label = slot0.content:Find("label")
 	slot0.iconRaw = slot0.content:Find("icon_raw"):GetComponent(typeof(RawImage))
+	slot0.selected = slot0.content:Find("benti_s")
 
-	setActive(slot0.icon.gameObject, false)
-	setActive(slot0.hotTF, false)
-	setActive(slot0.newTF, false)
 	setActive(slot0.label, true)
 	setAnchoredPosition(slot0.mask, {
 		y = 33
@@ -66,6 +65,16 @@ function slot0.UpdateSelected(slot0, slot1)
 		setAnchoredPosition(slot0.mask, {
 			y = slot3
 		})
+	end
+end
+
+function slot0.Dispose(slot0)
+	uv0.super.Dispose(slot0)
+
+	if not IsNil(slot0.iconRaw.texture) then
+		Object.Destroy(slot0.iconRaw.texture)
+
+		slot0.iconRaw.texture = nil
 	end
 end
 

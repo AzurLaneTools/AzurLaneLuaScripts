@@ -72,5 +72,5 @@ function slot1.MakeBloodBar(slot0, slot1)
 	end
 
 	slot1:AddHPBar(slot2)
-	slot1:UpdateHPBarPostition()
+	slot1:UpdateHPBarPosition()
 end

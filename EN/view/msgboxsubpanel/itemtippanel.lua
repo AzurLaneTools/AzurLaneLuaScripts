@@ -274,14 +274,8 @@ function slot0.OnRefresh(slot0, slot1)
 				end, SFX_PANEL)
 			end
 
-			slot11 = slot2:Find("mask/title"):GetComponent("ScrollText")
-			slot11.enabled = false
-
 			Canvas.ForceUpdateCanvases()
-
-			slot11.enabled = true
-
-			slot11:SetText(slot4)
+			changeToScrollText(slot2:Find("title"), slot4)
 		end
 	end)
 end

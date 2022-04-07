@@ -37,7 +37,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.firstLadyTime = slot2:STimeDescC(slot1.first_lady_time, "%Y-%m-%d %H:%M")
 	slot0.unMarryShipId = 100001
 	slot0.medalList = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY):getConfig("config_data") or {}
-	slot0.furnitures = getProxy(DormProxy):getFurnitrues()
+	slot0.furnitures = getProxy(DormProxy):getRawData():getFurnitrues()
 end
 
 function slot0.hasGuild(slot0)

@@ -108,7 +108,8 @@ function slot1.Init(slot0, slot1)
 		uv0._helpList = uv0._helpPanel:Find("list")
 		uv0._helpTpl = uv0._helpPanel:Find("list/help_tpl")
 		uv0._worldResetPanel = uv0._window:Find("world_reset_panel")
-		uv0._worldShopBtn = uv0._go.transform:Find("window/world_shop_btn")
+		uv0._worldShopBtn = uv0._window:Find("world_shop_btn")
+		uv0._remasterPanel = uv0._window:Find("remaster_info")
 		uv0._obtainPanel = uv0._window:Find("obtain_panel")
 		uv0._otherPanel = uv0._window:Find("other_panel")
 		uv0._countSelect = uv0._window:Find("count_select")
@@ -882,6 +883,23 @@ function slot1.commonSetting(slot0, slot1)
 		slot0._discountDate:GetComponent(typeof(Text)).text = slot0.settings.discount.date
 	end
 
+	setActive(slot0._remasterPanel, slot0.settings.remaster)
+
+	if slot0.settings.remaster then
+		slot7 = slot0.settings.remaster
+
+		setText(slot0._remasterPanel:Find("content/Text"), slot7.word)
+		setText(slot0._remasterPanel:Find("content/count"), slot7.number or "")
+		setText(slot0._remasterPanel:Find("btn/pic"), slot7.btn_text)
+		onButton(slot0, slot0._remasterPanel:Find("btn"), function ()
+			if uv0.btn_call then
+				uv0.btn_call()
+			end
+
+			uv1:hide()
+		end)
+	end
+
 	slot7 = slot0.settings.hideNo or false
 	slot8 = slot0.settings.hideYes or false
 	slot10 = slot0.settings.onYes or function ()
@@ -1074,14 +1092,10 @@ end
 function slot1.Loaded(slot0, slot1)
 	uv0.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		groupName = slot1.groupName,
-		weight = slot1.weight,
-		blurLevelCamera = slot1.blurLevelCamera
+		weight = slot1.weight or LayerWeightConst.SECOND_LAYER,
+		blurLevelCamera = slot1.blurLevelCamera,
+		parent = slot1.parent
 	})
-
-	if slot1.parent then
-		setParent(slot0._tf, slot1.parent)
-	end
-
 	uv0.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)
 end
 

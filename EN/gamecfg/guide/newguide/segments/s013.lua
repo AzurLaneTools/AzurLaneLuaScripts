@@ -1,17 +1,23 @@
+slot0 = {
+	"Let's check out your <color=#ff7d36>storage</color>.",
+	"Tap <color=#ff7d36>to select tech pack</color>.",
+	"Tap <color=#ff7d36>use</color> to open the tech pack."
+}
+
 return {
 	id = "S013",
 	events = {
 		{
 			alpha = 0.327,
 			style = {
-				text = "Let's check out your <color=#ff7d36>storage</color>.",
+				dir = -1,
 				mode = 2,
 				posY = -50.56,
-				dir = -1,
-				posX = -163.2
+				posX = -163.2,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/equipButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/equipButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,11 +32,11 @@ return {
 			alpha = 0.547,
 			waitScene = "StoreHouseScene",
 			style = {
-				text = "Tap <color=#ff7d36>to select tech pack</color>.",
-				mode = 2,
-				posY = 191.3,
 				dir = 1,
-				posX = -93.8
+				mode = 2,
+				posY = 65,
+				posX = -93.8,
+				text = slot0[2]
 			},
 			spriteui = {
 				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid",
@@ -52,11 +58,11 @@ return {
 		{
 			alpha = 0.298,
 			style = {
-				text = "Tap <color=#ff7d36>use</color> to open the tech pack.",
+				dir = 1,
 				mode = 2,
 				posY = -252,
-				dir = 1,
-				posX = -393
+				posX = -393,
+				text = slot0[3]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/ItemInfoUI(Clone)/window/actions/use_button",

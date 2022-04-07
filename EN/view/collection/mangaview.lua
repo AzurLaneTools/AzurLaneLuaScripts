@@ -95,7 +95,7 @@ function slot0.addListener(slot0)
 			end
 		}
 
-		if Application.isEditor then
+		if IsUnityEditor then
 			PlayerPrefs.SetInt("mangaVersion", 0)
 		end
 

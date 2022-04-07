@@ -20,11 +20,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.newTF = findTF(slot0._tf, "new")
 	slot0.skinMark = findTF(slot0._tf, "skin_mark")
 	slot0.maskUnOpen = findTF(slot0._tf, "mask1")
+	slot0.countDownTm = findTF(slot0._tf, "time/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.Update(slot0, slot1)
-	slot0.countDownTm = findTF(slot0._tf, "time/Text"):GetComponent(typeof(ScrollText))
-
 	if slot0.group then
 		slot0.group.alpha = 1
 	end
@@ -72,7 +71,8 @@ function slot0.Update(slot0, slot1)
 		slot0:UpdateCountdown(slot10)
 	else
 		slot0:DestoryTimer()
-		slot0.countDownTm:SetText("")
+
+		slot0.countDownTm.text = ""
 	end
 
 	slot0:UpdateSkinType()
@@ -95,7 +95,8 @@ function slot0.UpdateCountdown(slot0, slot1)
 		slot0 = ""
 
 		if uv1 < uv0:GetServerTime() then
-			uv2.countDownTm:SetText("")
+			uv2.countDownTm.text = ""
+
 			uv2:DestoryTimer()
 
 			return
@@ -107,8 +108,7 @@ function slot0.UpdateCountdown(slot0, slot1)
 
 		if (math.floor(slot2 / 86400) > 0 and i18n("time_remaining_tip") .. slot3 .. i18n("word_date") or math.floor(slot2 / 3600) > 0 and i18n("time_remaining_tip") .. slot4 .. i18n("word_hour") or math.floor(slot2 / 60) > 0 and i18n("time_remaining_tip") .. slot5 .. i18n("word_minute") or i18n("time_remaining_tip") .. slot2 .. i18n("word_second")) ~= uv2.prevStr then
 			uv2.prevStr = slot0
-
-			uv2.countDownTm:SetText(slot0)
+			uv2.countDownTm.text = slot0
 		end
 	end, 1, -1)
 

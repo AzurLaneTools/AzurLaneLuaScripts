@@ -249,7 +249,7 @@ function slot6.updateWeaponList(slot0)
 	end
 
 	for slot6, slot7 in ipairs(slot0._unit:GetAllWeapon()) do
-		if slot7:GetType() ~= uv0.PASSIVE_SCOUT and slot8 ~= uv0.FLEET_ANTI_AIR then
+		if slot7:GetType() ~= uv0.STRIKE_AIRCRAFT and slot8 ~= uv0.FLEET_ANTI_AIR then
 			slot9 = cloneTplTo(slot0._weaponTpl, slot0._weaponContainer)
 
 			Canvas.ForceUpdateCanvases()

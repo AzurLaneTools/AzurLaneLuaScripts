@@ -1757,7 +1757,7 @@ _G.pg.gametip.backyard_backyardGranaryLayer_noShip = {
 }
 
 _G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
-	tip = "In                         everything "
+	tip = "In                 everything "
 }
 
 _G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
@@ -3670,19 +3670,25 @@ _G.pg.gametip.levelScene_remaster_do_not_open = {
 _G.pg.gametip.levelScene_remaster_help_tip = {
 	tip = {
 		{
-			info = "About <color=#92fc63>Data Keys:</color>\nYou can use <color=#92fc63>Data Keys</color> to gain temporary access to the stages of certain past events from the <color=#92fc63>War Archives</color> screen.\nAny progress you may have made on an event stage prior to its implementation to the <color=#92fc63>War Archives</color> feature does not carry over."
+			info = "- Data Keys Info -\n· You can use Data Keys to play on event stages found on the War Archives screen.\n· Any progress you've made on an event stage prior to its addition to the War Archives does not carry over."
 		},
 		{
-			info = "1. You can acquire 4 Data Keys a day by tapping the \"Collect\" button in the War Archives interface."
+			info = "\n· You can acquire <color=#92fc63>4</color> Data Keys a day from the War Archives menu."
 		},
 		{
-			info = "2. You can store up to 60 Data Keys in total. Any Data Keys that you attempt to collect beyond that amount will be lost."
+			info = "· You can store up to <color=#92fc63>60</color> Data Keys at a time. Any Data Keys you collect beyond this point will be <color=#92fc63>discarded</color>."
 		},
 		{
-			info = "3. A Data Key can be consumed to grant one attempt on a selected event stage."
+			info = "· Using 1 Data Key lets you do <color=#92fc63>1 run</color> on any archived event stage of your choosing."
 		},
 		{
-			info = "4. Data Keys will not be refunded if you retreat from a stage."
+			info = "· You can play on any stage from a given archived event, except for EX Stages, if applicable."
+		},
+		{
+			info = "· Completing the last stage of an archived event will unlock all its associated event cutscenes. You can view these from the Memories menu."
+		},
+		{
+			info = "· You can receive an SR ship by defeating the Boss Fleet a total of 60 times on certain archived event stages. You can only get 1 SR this way from each applicable event stage."
 		}
 	}
 }
@@ -9347,7 +9353,7 @@ _G.pg.gametip.ai_change_2 = {
 }
 
 _G.pg.gametip.activity_shop_lable = {
-	tip = "*Available During:<color=#68F9D7>$1</color>"
+	tip = "*Available During:<color=#FFCF81>$1</color>"
 }
 
 _G.pg.gametip.word_bilibili = {
@@ -9819,7 +9825,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Rate UP for Impero, Formidable, and more!"
+	tip = "Build 200 times to receive a guaranteed copy of Kronshtadt! (Up to 4 copies can be claimed this way)"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -10856,7 +10862,7 @@ _G.pg.gametip.no_item_selected_tip = {
 }
 
 _G.pg.gametip.backyard_traning_tip = {
-	tip = "Training grants EXP over time and improves Morale recovery."
+	tip = "<size=30>Training grants EXP over time and improves Morale recovery.</size>"
 }
 
 _G.pg.gametip.backyard_rest_tip = {
@@ -13740,162 +13746,6 @@ _G.pg.gametip.res_music_new_tip = {
 
 _G.pg.gametip.apple_link_title = {
 	tip = "Account Link Complete"
-}
-
-_G.pg.gametip.facebook_link_title = {
-	tip = "Facebook Account:$1"
-}
-
-_G.pg.gametip.verification_code_req_tip1 = {
-	tip = "The e-mail box cannot be left blank."
-}
-
-_G.pg.gametip.verification_code_req_tip2 = {
-	tip = "Verification request successful! Please check your e-mail for the verification code."
-}
-
-_G.pg.gametip.verification_code_req_tip3 = {
-	tip = "Email and Verification Code cannot be empty"
-}
-
-_G.pg.gametip.yostar_link_title = {
-	tip = "Yostar Account:$1"
-}
-
-_G.pg.gametip.pay_cancel = {
-	tip = "Cancel Payment"
-}
-
-_G.pg.gametip.order_error = {
-	tip = "Balance Calculation Failed"
-}
-
-_G.pg.gametip.pay_fail = {
-	tip = "Payment Failed"
-}
-
-_G.pg.gametip.user_cancel = {
-	tip = "Cancelled by Player"
-}
-
-_G.pg.gametip.system_error = {
-	tip = "System Error"
-}
-
-_G.pg.gametip.time_out = {
-	tip = "You are not logged in or afk too long"
-}
-
-_G.pg.gametip.server_error = {
-	tip = "Server communication Error"
-}
-
-_G.pg.gametip.data_error = {
-	tip = "Data Verification Failed"
-}
-
-_G.pg.gametip.share_success = {
-	tip = "Sharing Successfully"
-}
-
-_G.pg.gametip.shoot_screen_fail = {
-	tip = "Screenshot Failed"
-}
-
-_G.pg.gametip.server_name = {
-	tip = "Event Server"
-}
-
-_G.pg.gametip.non_support_share = {
-	tip = "Commander, the \"Share\" option is still unavailable."
-}
-
-_G.pg.gametip.save_success = {
-	tip = "Data Saved Successfully"
-}
-
-_G.pg.gametip.word_guild_join_err1 = {
-	tip = "You can't join multiple guilds."
-}
-
-_G.pg.gametip.task_empty_tip_1 = {
-	tip = "No events available now!"
-}
-
-_G.pg.gametip.task_empty_tip_2 = {
-	tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!"
-}
-
-_G.pg.gametip["airi_error_code_ 100210"] = {
-	tip = "TW Failed to authorize, unable to login"
-}
-
-_G.pg.gametip["airi_error_code_ 100211"] = {
-	tip = "TW Unable to login, please bind your account first"
-}
-
-_G.pg.gametip["airi_error_code_ 100212"] = {
-	tip = "TW Login verification failed."
-}
-
-_G.pg.gametip["airi_error_code_ 100610"] = {
-	tip = "TW Failed to authorize, unable to bind"
-}
-
-_G.pg.gametip["airi_error_code_ 100611"] = {
-	tip = "TW Already binded to another user"
-}
-
-_G.pg.gametip["airi_error_code_ 100612"] = {
-	tip = "TW Login verification failed, unable to bind"
-}
-
-_G.pg.gametip["airi_error_code_ 100710"] = {
-	tip = "TW Failed to authorize, unable to unbind"
-}
-
-_G.pg.gametip["airi_error_code_ 100711"] = {
-	tip = "TW The account is not binded to any user"
-}
-
-_G.pg.gametip["airi_error_code_ 100712"] = {
-	tip = "TW Invalid login verification, unable to unbind"
-}
-
-_G.pg.gametip["airi_error_code_ 100810"] = {
-	tip = "FB Failed to authorize, unable to login"
-}
-
-_G.pg.gametip["airi_error_code_ 100811"] = {
-	tip = "FB Unable to login, please bind your account first"
-}
-
-_G.pg.gametip["airi_error_code_ 100812"] = {
-	tip = "FB Login verification failed, unable to login"
-}
-
-_G.pg.gametip["airi_error_code_ 100813"] = {
-	tip = "FB Failed to authorize, unable to bind"
-}
-
-_G.pg.gametip["airi_error_code_ 100814"] = {
-	tip = "FB Already binded to another user"
-}
-
-_G.pg.gametip["airi_error_code_ 100815"] = {
-	tip = "FB Login verification failed, unable to bind"
-}
-
-_G.pg.gametip["airi_error_code_ 100816"] = {
-	tip = "FB Failed to authorize, unable to unbind"
-}
-
-_G.pg.gametip["airi_error_code_ 100817"] = {
-	tip = "FB The account is not binded to any user"
-}
-
-_G.pg.gametip["airi_error_code_ 100818"] = {
-	tip = "FB Login verification failed, unable to unbind"
 }
 
 _G.pg.gametip.retire_setting_help = {
@@ -17564,7 +17414,7 @@ _G.pg.gametip.LevelSignal_intensity = {
 }
 
 _G.pg.gametip.backyard_longpress_ship_tip = {
-	tip = "Tap and hold to view detailed character information."
+	tip = "<size=30>Tap and hold to view detailed character information.</size>"
 }
 
 _G.pg.gametip.common_npc_formation_tip = {
@@ -18143,6 +17993,14 @@ _G.pg.gametip.target_get_tip = {
 
 _G.pg.gametip.fleet_select_title = {
 	tip = "Select Fleet"
+}
+
+_G.pg.gametip.backyard_rename_title = {
+	tip = "Rename Dorm"
+}
+
+_G.pg.gametip.backyard_rename_tip = {
+	tip = "Enter a new Dorm name."
 }
 
 _G.pg.gametip.equip_add = {
@@ -19834,4 +19692,252 @@ _G.pg.gametip.fur_all_buy = {
 
 _G.pg.gametip.fur_onekey_buy = {
 	tip = "Buy Set"
+}
+
+_G.pg.gametip.backyard_food_shop_tip = {
+	tip = "Will cost:"
+}
+
+_G.pg.gametip.dorm_2f_lock = {
+	tip = "Locked"
+}
+
+_G.pg.gametip.word_get_way = {
+	tip = "Acquisition method:"
+}
+
+_G.pg.gametip.word_get_date = {
+	tip = "Acquisition date:"
+}
+
+_G.pg.gametip.enter_theme_name = {
+	tip = "Enter a name for your Dorm theme."
+}
+
+_G.pg.gametip.enter_extend_food_label = {
+	tip = "Expand"
+}
+
+_G.pg.gametip.backyard_extend_tip_1 = {
+	tip = "Need "
+}
+
+_G.pg.gametip.backyard_extend_tip_2 = {
+	tip = "Expansion License "
+}
+
+_G.pg.gametip.backyard_extend_tip_3 = {
+	tip = "You have:"
+}
+
+_G.pg.gametip.backyard_extend_tip_4 = {
+	tip = ""
+}
+
+_G.pg.gametip.email_text = {
+	tip = "Email"
+}
+
+_G.pg.gametip.emailhold_text = {
+	tip = "  a Verification Code will be sent to this email "
+}
+
+_G.pg.gametip.code_text = {
+	tip = "Verification Code"
+}
+
+_G.pg.gametip.codehold_text = {
+	tip = "  your Verification Code "
+}
+
+_G.pg.gametip.genBtn_text = {
+	tip = "Generate"
+}
+
+_G.pg.gametip.desc_text = {
+	tip = "The Verification Code will expire in 30 minutes once it's been sent to your inbox."
+}
+
+_G.pg.gametip.loginBtn_text = {
+	tip = "Confirm"
+}
+
+_G.pg.gametip.verification_code_req_tip1 = {
+	tip = "The e-mail box cannot be left blank."
+}
+
+_G.pg.gametip.verification_code_req_tip2 = {
+	tip = "Verification request successful! Please check your e-mail for the verification code."
+}
+
+_G.pg.gametip.verification_code_req_tip3 = {
+	tip = "Email and Verification Code cannot be empty"
+}
+
+_G.pg.gametip.levelScene_remaster_story_tip = {
+	tip = "You've unlocked the cutscenes of $1.\nThey can be viewed through the Memories menu."
+}
+
+_G.pg.gametip.levelScene_remaster_unlock_tip = {
+	tip = "Unlocked by clearing $1 - $2 in the War Archives."
+}
+
+_G.pg.gametip.linkBtn_text = {
+	tip = "Confirm"
+}
+
+_G.pg.gametip.yostar_link_title = {
+	tip = "Yostar Account:$1"
+}
+
+_G.pg.gametip.level_remaster_tip1 = {
+	tip = "SR Stage"
+}
+
+_G.pg.gametip.level_remaster_tip2 = {
+	tip = "Sortie"
+}
+
+_G.pg.gametip.level_remaster_tip3 = {
+	tip = "Collect"
+}
+
+_G.pg.gametip.level_remaster_tip4 = {
+	tip = "$1 Boss Fleets sunk"
+}
+
+_G.pg.gametip.pay_cancel = {
+	tip = "Cancel Payment"
+}
+
+_G.pg.gametip.order_error = {
+	tip = "Balance Calculation Failed"
+}
+
+_G.pg.gametip.pay_fail = {
+	tip = "Payment Failed"
+}
+
+_G.pg.gametip.user_cancel = {
+	tip = "Cancelled by Player"
+}
+
+_G.pg.gametip.system_error = {
+	tip = "System Error"
+}
+
+_G.pg.gametip.time_out = {
+	tip = "You are not logged in or afk too long"
+}
+
+_G.pg.gametip.server_error = {
+	tip = "Server communication Error"
+}
+
+_G.pg.gametip.data_error = {
+	tip = "Data Verification Failed"
+}
+
+_G.pg.gametip.share_success = {
+	tip = "Sharing Successfully"
+}
+
+_G.pg.gametip.shoot_screen_fail = {
+	tip = "Screenshot Failed"
+}
+
+_G.pg.gametip.server_name = {
+	tip = "Event Server"
+}
+
+_G.pg.gametip.non_support_share = {
+	tip = "Commander, the \"Share\" option is still unavailable."
+}
+
+_G.pg.gametip.save_success = {
+	tip = "Data Saved Successfully"
+}
+
+_G.pg.gametip.word_guild_join_err1 = {
+	tip = "You can't join multiple guilds."
+}
+
+_G.pg.gametip.task_empty_tip_1 = {
+	tip = "No events available now!"
+}
+
+_G.pg.gametip.task_empty_tip_2 = {
+	tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!"
+}
+
+_G.pg.gametip["airi_error_code_ 100210"] = {
+	tip = "TW Failed to authorize, unable to login"
+}
+
+_G.pg.gametip["airi_error_code_ 100211"] = {
+	tip = "TW Unable to login, please bind your account first"
+}
+
+_G.pg.gametip["airi_error_code_ 100212"] = {
+	tip = "TW Login verification failed."
+}
+
+_G.pg.gametip["airi_error_code_ 100610"] = {
+	tip = "TW Failed to authorize, unable to bind"
+}
+
+_G.pg.gametip["airi_error_code_ 100611"] = {
+	tip = "TW Already binded to another user"
+}
+
+_G.pg.gametip["airi_error_code_ 100612"] = {
+	tip = "TW Login verification failed, unable to bind"
+}
+
+_G.pg.gametip["airi_error_code_ 100710"] = {
+	tip = "TW Failed to authorize, unable to unbind"
+}
+
+_G.pg.gametip["airi_error_code_ 100711"] = {
+	tip = "TW The account is not binded to any user"
+}
+
+_G.pg.gametip["airi_error_code_ 100712"] = {
+	tip = "TW Invalid login verification, unable to unbind"
+}
+
+_G.pg.gametip["airi_error_code_ 100810"] = {
+	tip = "FB Failed to authorize, unable to login"
+}
+
+_G.pg.gametip["airi_error_code_ 100811"] = {
+	tip = "FB Unable to login, please bind your account first"
+}
+
+_G.pg.gametip["airi_error_code_ 100812"] = {
+	tip = "FB Login verification failed, unable to login"
+}
+
+_G.pg.gametip["airi_error_code_ 100813"] = {
+	tip = "FB Failed to authorize, unable to bind"
+}
+
+_G.pg.gametip["airi_error_code_ 100814"] = {
+	tip = "FB Already binded to another user"
+}
+
+_G.pg.gametip["airi_error_code_ 100815"] = {
+	tip = "FB Login verification failed, unable to bind"
+}
+
+_G.pg.gametip["airi_error_code_ 100816"] = {
+	tip = "FB Failed to authorize, unable to unbind"
+}
+
+_G.pg.gametip["airi_error_code_ 100817"] = {
+	tip = "FB The account is not binded to any user"
+}
+
+_G.pg.gametip["airi_error_code_ 100818"] = {
+	tip = "FB Login verification failed, unable to unbind"
 }

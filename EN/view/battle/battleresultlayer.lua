@@ -210,7 +210,10 @@ function slot0.didEnter(slot0)
 	slot1.localPosition = Vector3(0, 25, 0)
 	slot2 = pg.UIMgr.GetInstance()
 
-	slot2:BlurPanel(slot0._tf, true)
+	slot2:BlurPanel(slot0._tf, true, {
+		lockGlobalBlur = true
+	})
+	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
 	slot2 = LeanTween.scale(slot0._grade, Vector3(0.88, 0.88, 1), uv0.DURATION_WIN_SCALE)

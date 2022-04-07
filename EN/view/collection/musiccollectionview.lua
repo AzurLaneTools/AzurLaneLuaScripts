@@ -956,7 +956,7 @@ function slot0.playMusic(slot0)
 	slot2 = slot0:getMusicConfigForShowByIndex(slot0.curMidddleIndex).music
 
 	if not slot0.cueData then
-		slot0.cueData = CueData.New()
+		slot0.cueData = CueData.GetCueData()
 	end
 
 	slot0.cueData.channelName = pg.CriMgr.C_GALLERY_MUSIC

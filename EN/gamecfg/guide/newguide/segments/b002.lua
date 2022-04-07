@@ -1,3 +1,9 @@
+slot0 = {
+	"Your flagship's <color=#ff7d36>Aerial Support</color> is ready.",
+	"Clear the battlefield! Get ready for <color=#ff7d36>air support</color>!",
+	"Witness the power of our fighters! Use them when you need a leg up. They can also <color=#ff7d36>destroy enemy barrages</color>!"
+}
+
 return {
 	id = "B002",
 	events = {
@@ -13,11 +19,11 @@ return {
 				}
 			},
 			style = {
-				text = "Your flagship's <color=#ff7d36>Aerial Support</color> is ready. ",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
@@ -26,11 +32,11 @@ return {
 				"ShowSkill3"
 			},
 			style = {
-				text = "Clear the battlefield! Get ready for <color=#ff7d36>air support</color>!",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl",
@@ -45,11 +51,11 @@ return {
 				"ReleaseAfter"
 			},
 			style = {
-				text = "Witness the power of our fighters! Use them when you need a leg up. They can also <color=#ff7d36>destroy enemy barrages</color>!",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			}
 		}
 	}

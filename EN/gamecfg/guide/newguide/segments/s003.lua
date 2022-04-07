@@ -1,3 +1,8 @@
+slot0 = {
+	"First, let's <color=#ffde38>lock</color> this character in.",
+	"Let's head back to the main screen again."
+}
+
 return {
 	id = "S003",
 	events = {
@@ -19,11 +24,11 @@ return {
 		{
 			alpha = 0.214,
 			style = {
-				text = "First, let's <color=#ffde38>lock</color> this character in.",
+				dir = -1,
 				mode = 1,
 				posY = 250,
-				dir = -1,
-				posX = 450
+				posX = 450,
+				text = slot0[1]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -40,11 +45,11 @@ return {
 		{
 			alpha = 0.446,
 			style = {
-				text = "Let's head back to the main screen again.",
+				dir = -1,
 				mode = 2,
 				posY = 213.63,
-				dir = -1,
-				posX = -194.88
+				posX = -194.88,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",

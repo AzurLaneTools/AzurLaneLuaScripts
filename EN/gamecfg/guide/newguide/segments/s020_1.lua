@@ -1,17 +1,23 @@
+slot0 = {
+	"Use your mission rewards to <color=#ff7d36>build a new ship</color>.",
+	"You've got enough resources! Tap <color=#ffde38>build</color> to get started.",
+	"Now tap <color=#ff7d36>confirm</color> to build your new ship."
+}
+
 return {
 	id = "S020_1",
 	events = {
 		{
 			alpha = 0.375,
 			style = {
-				text = "Use your mission rewards to <color=#ff7d36>build a new ship</color>.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/buildButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/buildButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -25,11 +31,11 @@ return {
 		{
 			alpha = 0.408,
 			style = {
-				text = "You've got enough resources! Tap <color=#ffde38>build</color> to get started.",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 205.91
+				posX = 205.91,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
@@ -46,11 +52,11 @@ return {
 		{
 			alpha = 0.318,
 			style = {
-				text = "Now tap <color=#ff7d36>confirm</color> to build your new ship.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",

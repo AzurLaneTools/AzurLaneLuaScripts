@@ -41,6 +41,13 @@ function slot6.SetBound(slot0, slot1, slot2)
 	slot0:SetTargetZ()
 end
 
+function slot6.SetViewBoundData(slot0, slot1, slot2, slot3, slot4)
+	slot0._cameraTop = slot1 + 3
+	slot0._cameraBottom = slot2 - 3
+	slot0._cameraLeft = slot3 - 3
+	slot0._cameraRight = slot4 + 5
+end
+
 function slot6.Update(slot0, slot1)
 	slot0._pos:Add(slot0._speed)
 	slot0:UpdateSpeed()
@@ -58,6 +65,7 @@ end
 function slot6.Init(slot0)
 	slot0._aliveState = true
 	slot0._speed = Vector3.zero
+	slot0._pos = Vector3.zero
 	slot0._undefeated = false
 end
 
@@ -262,7 +270,16 @@ function slot6.SetIFF(slot0, slot1)
 end
 
 function slot6.SetPosition(slot0, slot1)
-	slot0._pos = Clone(slot1)
+	slot0._pos:Set(slot1.x, slot1.y, slot1.z)
+end
+
+function slot6.IsOutViewBound(slot0)
+	slot1 = slot0:GetPosition()
+	slot3 = slot1.z
+
+	if slot0._cameraRight < slot1.x or slot0._cameraTop < slot3 or slot3 < slot0._cameraBottom then
+		return true
+	end
 end
 
 function slot6.GetDistance(slot0, slot1)

@@ -12,6 +12,17 @@ function slot0.GetTitleEn(slot0)
 	return "  / OTHER SETTINGS"
 end
 
+function slot0.OnInit(slot0, ...)
+	uv0.super.OnInit(slot0, ...)
+
+	slot2 = pg.BrightnessMgr.GetInstance():IsPermissionGranted()
+
+	if PlayerPrefs.GetInt("AUTOFIGHT_BATTERY_SAVEMODE", 0) > 0 and not slot2 then
+		PlayerPrefs.SetInt("AUTOFIGHT_BATTERY_SAVEMODE", 0)
+		PlayerPrefs.Save()
+	end
+end
+
 function slot0.OnItemSwitch(slot0, slot1, slot2)
 	if slot1.id == 1 then
 		pg.PushNotificationMgr.GetInstance():setSwitchShipName(slot2)
@@ -56,13 +67,42 @@ function slot0.OnCommonServerItemSwitch(slot0, slot1, slot2)
 end
 
 function slot0.OnAutoFightBatterySaveModeItemSwitch(slot0, slot1, slot2)
-	PlayerPrefs.SetInt(_G[slot1.name], slot2 and 1 or 0)
-	PlayerPrefs.Save()
+	function slot3()
+		triggerToggle(uv0.uilist.container:GetChild(uv1.id - 1):Find("off"), true)
+	end
 
-	slot4 = slot0.uilist.container:GetChild(slot1.id)
+	slot4 = pg.BrightnessMgr.GetInstance()
 
-	triggerToggle(slot4:Find(slot2 and "on" or "off"), true)
-	uv0.SetGrayOption(slot4, slot2)
+	seriesAsync({
+		function (slot0)
+			if not uv0 or uv1:IsPermissionGranted() then
+				return slot0()
+			end
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("words_autoFight_right"),
+				onYes = function ()
+					uv0:RequestPremission(function (slot0)
+						if slot0 then
+							uv0()
+						else
+							uv1()
+						end
+					end)
+				end,
+				onNo = uv2
+			})
+		end,
+		function (slot0)
+			PlayerPrefs.SetInt(_G[uv0.name], uv1 and 1 or 0)
+			PlayerPrefs.Save()
+
+			slot2 = uv2.uilist.container:GetChild(uv0.id)
+
+			triggerToggle(slot2:Find(uv1 and "on" or "off"), true)
+			uv3.SetGrayOption(slot2, uv1)
+		end
+	})
 end
 
 function slot0.OnAutoFightDownFrameItemSwitch(slot0, slot1, slot2)

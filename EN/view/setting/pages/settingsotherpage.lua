@@ -50,9 +50,13 @@ function slot0.GetPanels(slot0)
 
 	if PLATFORM_CODE == PLATFORM_CH then
 		table.insert(slot1, SettingsAgreementPanle)
+
+		if LuaHelper.GetCHPackageType() == 1 then
+			table.insert(slot1, SettingsAccountCHPanle)
+		end
 	end
 
-	if PLATFORM_CODE == PLATFORM_JP then
+	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		table.insert(slot1, SettingsAccountSpecialPanel)
 	end
 

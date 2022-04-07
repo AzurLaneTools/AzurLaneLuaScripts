@@ -36,7 +36,7 @@ function slot0.init()
 	if PLATFORM_CODE == PLATFORM_CH then
 		slot0 = nil
 
-		if PathMgr.FileExists((not Application.isEditor or PathMgr.getAssetBundle("../localization.txt")) and Application.persistentDataPath .. "/localization.txt") then
+		if PathMgr.FileExists((not IsUnityEditor or PathMgr.getAssetBundle("../localization.txt")) and Application.persistentDataPath .. "/localization.txt") then
 			if string.gsub(PathMgr.ReadAllLines(slot0)[0], "%w+%s*=%s*", "") == "true" then
 				uv0.codeMode = true
 			end
@@ -87,7 +87,7 @@ function slot0.switchCodeMode()
 		PlayerPrefs.SetInt(uv0.codeModeKey, uv0.codeMode and 1 or 0)
 		PlayerPrefs.Save()
 		uv0.update()
-		print("anti hx mode: " .. (uv0.codeMode and "on" or "off"))
+		originalPrint("anti hx mode: " .. (uv0.codeMode and "on" or "off"))
 	end
 end
 

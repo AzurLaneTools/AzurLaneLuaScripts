@@ -6,14 +6,14 @@ function slot0.getUIName(slot0)
 	return "dailylevelui"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.init(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0.backBtn = slot0:findTF("back_button", slot0.topPanel)
-	slot0.resPanel = PlayerResource.New()
-
-	SetParent(slot0.resPanel._go, slot0:findTF("res", slot0.topPanel), false)
-
 	slot0.listPanel = slot0:findTF("list_panel")
 	slot0.content = slot0:findTF("list", slot0.listPanel)
 
@@ -56,8 +56,6 @@ function slot0.setShips(slot0, slot1)
 end
 
 function slot0.updateRes(slot0, slot1)
-	slot0.resPanel:setResources(slot1)
-
 	slot0.player = slot1
 end
 
@@ -404,10 +402,8 @@ function slot0.DoSelectedAnimation(slot0, slot1, slot2, slot3)
 			uv0.stageScrollRect.enabled = false
 
 			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel, true, {
-				groupName = LayerWeightConst.GROUP_DAILY
-			})
-			pg.UIMgr.GetInstance():BlurPanel(uv0.blurPanel, true, {
-				groupName = LayerWeightConst.GROUP_DAILY
+				groupName = LayerWeightConst.GROUP_DAILY,
+				weight = LayerWeightConst.BASE_LAYER - 1
 			})
 
 			uv1.sizeDelta = Vector2(uv1.sizeDelta.x, 0)
@@ -444,7 +440,6 @@ function slot0.DoUnselectAnimtion(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			pg.UIMgr.GetInstance():UnblurPanel(uv0.selectedPanel, uv0._tf)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0._tf)
 			setActive(uv0.selectedPanel, false)
 
 			slot1 = uv1:GetComponent(typeof(LayoutElement))
@@ -638,7 +633,6 @@ end
 function slot0.willExit(slot0)
 	if slot0.selectedStage then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectedPanel, slot0._tf)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0._tf)
 	end
 
 	slot0:clearTween()
@@ -647,12 +641,6 @@ function slot0.willExit(slot0)
 		slot0.checkAniTimer:Stop()
 
 		slot0.checkAniTimer = nil
-	end
-
-	if slot0.resPanel then
-		slot0.resPanel:exit()
-
-		slot0.resPanel = nil
 	end
 end
 

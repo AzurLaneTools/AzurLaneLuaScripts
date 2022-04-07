@@ -74,7 +74,7 @@ function slot0.GetPurchasableCnt(slot0)
 	if slot0:getConfig("commodity_type") == DROP_TYPE_SKIN then
 		return getProxy(ShipSkinProxy):hasSkin(slot2) and 0 or 1
 	elseif slot1 == DROP_TYPE_FURNITURE then
-		return math.min(pg.furniture_data_template[slot2].count - getProxy(DormProxy):getFurnitrueCount(slot2), slot0:getConfig("num_limit") - slot0.buyCount)
+		return math.min(pg.furniture_data_template[slot2].count - getProxy(DormProxy):getRawData():GetOwnFurnitrueCount(slot2), slot0:getConfig("num_limit") - slot0.buyCount)
 	elseif slot0:getConfig("limit_args") and slot3 ~= "" and #slot3 > 0 and slot3[1] == 1 then
 		slot5 = slot3[3]
 

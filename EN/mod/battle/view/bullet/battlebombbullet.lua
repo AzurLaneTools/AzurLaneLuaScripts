@@ -32,5 +32,8 @@ function slot4.onBulletExplode(slot0, slot1)
 end
 
 function slot4.UpdatePosition(slot0)
-	slot0._tf.localPosition = Vector3.Lerp(slot0._tf.localPosition, slot0:GetPosition(), uv0.BulletMotionRate)
+	slot1 = Vector3.Lerp(slot0._tf.localPosition, slot0:GetPosition(), uv0.BulletMotionRate)
+	slot0._tf.localPosition = slot1
+
+	slot0._cacheTFPos:Set(slot1.x, slot1.y, slot1.z)
 end

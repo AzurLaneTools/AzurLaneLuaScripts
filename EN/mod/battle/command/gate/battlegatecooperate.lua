@@ -101,7 +101,7 @@ function slot0.Exit(slot0, slot1)
 				end
 			end
 		else
-			print("finish stage error: can not find submarine fleet.")
+			originalPrint("finish stage error: can not find submarine fleet.")
 		end
 	end
 

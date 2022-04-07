@@ -32,7 +32,7 @@ slot0.CVBattleKey = {
 slot6 = false
 
 function slot7(...)
-	if uv0 and Application.isEditor then
+	if uv0 and IsUnityEditor then
 		print(...)
 	end
 end
@@ -412,6 +412,27 @@ function slot0.ExistExCv(slot0, slot1, slot2, slot3)
 	if slot4 then
 		return HXSet.hxLan(slot4), slot5
 	end
+end
+
+function slot0.GetCvDataForShip(slot0, slot1)
+	if slot1 == "" then
+		return nil
+	end
+
+	slot2 = slot0:getCVIntimacy()
+	slot4, slot5, slot6, slot7, slot8, slot9 = nil
+
+	if string.split(slot1, "_")[1] == "main" then
+		slot4, slot6, slot5 = ShipWordHelper.GetWordAndCV(slot0.skinId, slot3[1], tonumber(slot3[2]), nil, slot2)
+		slot7 = ShipWordHelper.GetL2dCvCalibrate(slot0.skinId, slot3[1], tonumber(slot3[2]))
+		slot8 = ShipWordHelper.GetL2dSoundEffect(slot0.skinId, slot3[1], tonumber(slot3[2]))
+	else
+		slot4, slot6, slot5 = ShipWordHelper.GetWordAndCV(slot0.skinId, slot1, nil, , slot2)
+		slot7 = ShipWordHelper.GetL2dCvCalibrate(slot0.skinId, slot1)
+		slot8 = ShipWordHelper.GetL2dSoundEffect(slot0.skinId, slot1)
+	end
+
+	return slot4, slot6, slot5, slot7, slot8, slot7 == -1
 end
 
 return slot0

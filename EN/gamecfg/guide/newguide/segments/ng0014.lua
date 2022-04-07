@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Tap the Help button for details on Challenge Mode!",
+				dir = -1,
 				mode = 1,
 				posY = -63.794,
-				dir = -1,
-				posX = -663
+				posX = -663,
+				text = ({
+					"Tap the Help button for details on Challenge Mode!"
+				})[1]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/ChallengeMainUI(Clone)/ForNorth/Award/HelpBtn"

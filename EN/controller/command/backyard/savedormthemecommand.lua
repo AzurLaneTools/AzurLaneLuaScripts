@@ -1,7 +1,7 @@
 slot0 = class("SaveDormThemeCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot4, slot5 = Dorm.checkData(slot1:getBody().furnitureputList, getProxy(DormProxy):getData().level)
+	slot4, slot5 = CourtYardRawDataChecker.Check(slot1:getBody().furnitureputList, getProxy(DormProxy):getRawData().level)
 
 	if not slot4 then
 		pg.TipsMgr.GetInstance():ShowTips(slot5)

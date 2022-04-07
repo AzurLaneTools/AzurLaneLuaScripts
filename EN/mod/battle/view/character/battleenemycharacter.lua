@@ -76,14 +76,6 @@ function slot2.OnUpdateHP(slot0, slot1)
 	end
 end
 
-function slot2.UpdateHPBarPostition(slot0)
-	if not slot0._hideHP then
-		slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
-
-		slot0._HPBarTf.position = slot0._hpBarPos
-	end
-end
-
 function slot2.AddModel(slot0, slot1)
 	uv0.super.AddModel(slot0, slot1)
 

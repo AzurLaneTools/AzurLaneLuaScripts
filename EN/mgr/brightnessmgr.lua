@@ -27,6 +27,12 @@ function slot1.Init(slot0, slot1)
 end
 
 function slot1.AwakeForAWhile(slot0)
+	if not slot0:IsPermissionGranted() then
+		slot0:ExitManualMode()
+
+		return
+	end
+
 	BrightnessHelper.SetScreenBrightness(slot0.originalBrightnessValue)
 	slot0:SetDelayTask()
 end
@@ -72,6 +78,20 @@ function slot1.ExitManualMode(slot0)
 	slot0:ClearTask()
 
 	slot0.manulStatus = false
+end
+
+function slot1.IsPermissionGranted(slot0)
+	return BrightnessHelper.IsHavePermission()
+end
+
+function slot1.RequestPremission(slot0, slot1)
+	BrightnessHelper.SetScreenBrightness(BrightnessHelper.GetValue())
+
+	if slot1 then
+		FrameTimer.New(function ()
+			uv0(uv1:IsPermissionGranted())
+		end, 2):Start()
+	end
 end
 
 function slot1.SetScreenNeverSleep(slot0, slot1)

@@ -1389,6 +1389,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -1422,12 +1432,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -2039,12 +2048,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -3387,6 +3395,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3491,6 +3509,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3520,6 +3548,16 @@ pg.ship_data_group = {
 				"Event: Moonlit Overture",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -4050,17 +4088,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Guild shop exchange",
 				{
 					"SHOP",
@@ -4098,17 +4125,6 @@ pg.ship_data_group = {
 				"Event: Fallen Wings",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			},
@@ -5430,17 +5446,6 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
-			{
-				"Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"Guild shop exchange",
 				{
@@ -8942,17 +8947,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Honor medal exchange",
 				{
 					"GETBOAT",
@@ -8994,12 +8988,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Munition shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -10141,6 +10134,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10603,12 +10606,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -10654,12 +10656,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11063,12 +11064,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11105,12 +11105,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11578,17 +11577,6 @@ pg.ship_data_group = {
 				"Event: Visitors Dyed in Red",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			}
@@ -12939,17 +12927,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Honor medal exchange",
 				{
 					"GETBOAT",
@@ -13340,12 +13317,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Honor medal exchange",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -14946,12 +14922,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -15177,12 +15152,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Honor medal exchange",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15291,12 +15265,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Honor medal exchange",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15756,17 +15729,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Guild shop exchange",
 				{
 					"SHOP",
@@ -16154,12 +16116,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Honor medal exchange",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -17131,12 +17092,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -17175,12 +17135,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Light ship Construction",
+				"Guild shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -18586,12 +18545,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Munition shop exchange",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -18628,12 +18586,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Honor medal exchange",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0

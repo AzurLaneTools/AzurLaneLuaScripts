@@ -1,3 +1,13 @@
+slot0 = {
+	"You've unlocked Comf-Forts!",
+	"You can put a Meowfficer in a Comf-Fort, and it will receive EXP over time!",
+	"Once a day, you can clean the Comf-Forts, play with your Meowfficers, or feed them!",
+	"Cleaning will upgrade your Comf-Forts! The more Meowfficers you have housed, the more upgrade points you'll get!",
+	"Feeding, meanwhile, will give EXP to all your housed Meowfficers!",
+	"Lastly, playing with your Meowfficers has a chance of rewarding you with Cat Box Quick Finishers and Furniture Coins! The more Meowfficers you have, the better the rewards!",
+	"If you want some more info, just tap the Help button!~"
+}
+
 return {
 	id = "NG0029",
 	events = {
@@ -7,11 +17,11 @@ return {
 				1
 			},
 			style = {
-				text = "You've unlocked Comf-Forts!",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/right_panel/commanders/box/home",
@@ -30,11 +40,11 @@ return {
 				2
 			},
 			style = {
-				text = "You've unlocked Comf-Forts!",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/right_panel/commanders/box/home",
@@ -56,11 +66,11 @@ return {
 				}
 			},
 			style = {
-				text = "You can put a Meowfficer in a Comf-Fort, and it will receive EXP over time!",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 41.84
+				posX = 41.84,
+				text = slot0[2]
 			}
 		},
 		{
@@ -105,11 +115,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Once a day, you can clean the Comf-Forts, play with your Meowfficers, or feed them!",
+				dir = -1,
 				mode = 1,
 				posY = 245.9,
-				dir = -1,
 				posX = -382.13,
+				text = slot0[3],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble"
 				}
@@ -118,11 +128,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Cleaning will upgrade your Comf-Forts! The more Meowfficers you have housed, the more upgrade points you'll get!",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/clean",
@@ -139,11 +149,11 @@ return {
 			alpha = 0.4,
 			delay = 1,
 			style = {
-				text = "Feeding, meanwhile, will give EXP to all your housed Meowfficers!",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/feed",
@@ -166,11 +176,11 @@ return {
 				}
 			},
 			style = {
-				text = "Lastly, playing with your Meowfficers has a chance of rewarding you with Cat Box Quick Finishers and Furniture Coins! The more Meowfficers you have, the better the rewards!",
+				dir = -1,
 				mode = 1,
 				posY = 122.14,
-				dir = -1,
-				posX = -340.6
+				posX = -340.6,
+				text = slot0[6]
 			}
 		},
 		{
@@ -198,11 +208,11 @@ return {
 				2
 			},
 			style = {
-				text = "If you want some more info, just tap the Help button!~",
+				dir = -1,
 				mode = 1,
 				posY = -200,
-				dir = -1,
-				posX = -500
+				posX = -500,
+				text = slot0[7]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/left_panel/help_btn",
@@ -217,11 +227,11 @@ return {
 				1
 			},
 			style = {
-				text = "If you want some more info, just tap the Help button!~",
+				dir = -1,
 				mode = 1,
 				posY = -200,
-				dir = -1,
-				posX = -500
+				posX = -500,
+				text = slot0[7]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/left_panel/help_btn",

@@ -2,7 +2,7 @@ return {
 	{
 		index = 1,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -15,7 +15,7 @@ return {
 		index = 2,
 		end_segment = "S003",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -34,7 +34,7 @@ return {
 	{
 		index = 3,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -46,7 +46,7 @@ return {
 	{
 		index = 4,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -58,7 +58,7 @@ return {
 	{
 		index = 5,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -70,7 +70,7 @@ return {
 	{
 		index = 6,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -83,7 +83,7 @@ return {
 		index = 7,
 		interrupt = true,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -95,7 +95,7 @@ return {
 	{
 		index = 8,
 		view = {
-			"MainUI",
+			"NewMainScene",
 			"LevelScene"
 		},
 		condition = {
@@ -104,7 +104,7 @@ return {
 				40004
 			},
 			func = function (slot0, slot1)
-				if slot0 == "MainUI" then
+				if slot0 == "NewMainScene" then
 					return pg.SeriesGuideMgr.CODES.MAINUI, 7
 				elseif slot0 == "LevelScene" then
 					if not slot1 then
@@ -126,7 +126,7 @@ return {
 		index = 9,
 		end_segment = "S010",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -139,7 +139,7 @@ return {
 		index = 10,
 		end_segment = "S012",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -152,7 +152,7 @@ return {
 		index = 11,
 		end_segment = "S014",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -165,7 +165,7 @@ return {
 		index = 12,
 		end_segment = "S016",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -178,7 +178,7 @@ return {
 		index = 13,
 		end_segment = "S012",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -190,7 +190,7 @@ return {
 	{
 		index = 14,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		condition = {
 			arg = {
@@ -215,7 +215,7 @@ return {
 		index = 15,
 		end_segment = "S019",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -228,7 +228,7 @@ return {
 		index = 16,
 		end_segment = "S012",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -240,7 +240,7 @@ return {
 	{
 		index = 17,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -270,7 +270,7 @@ return {
 		index = 18,
 		end_segment = "S003",
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -289,7 +289,7 @@ return {
 	{
 		index = 19,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -301,7 +301,7 @@ return {
 	{
 		index = 20,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -313,7 +313,7 @@ return {
 	{
 		index = 21,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -325,7 +325,7 @@ return {
 	{
 		index = 22,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -337,7 +337,7 @@ return {
 	{
 		index = 23,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -350,7 +350,7 @@ return {
 		index = 24,
 		interrupt = true,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -362,7 +362,7 @@ return {
 	{
 		index = 25,
 		view = {
-			"MainUI",
+			"NewMainScene",
 			"LevelScene"
 		},
 		condition = {
@@ -371,7 +371,7 @@ return {
 				40004
 			},
 			func = function (slot0, slot1)
-				if slot0 == "MainUI" then
+				if slot0 == "NewMainScene" then
 					return pg.SeriesGuideMgr.CODES.MAINUI, 24
 				elseif slot0 == "LevelScene" then
 					if not slot1 then
@@ -392,7 +392,7 @@ return {
 	{
 		index = 26,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -405,7 +405,7 @@ return {
 		index = 27,
 		interrupt = true,
 		view = {
-			"MainUI"
+			"NewMainScene"
 		},
 		segment = {
 			{
@@ -418,7 +418,7 @@ return {
 		index = 28,
 		end_segment = "S029",
 		view = {
-			"MainUI",
+			"NewMainScene",
 			"LevelScene"
 		},
 		condition = {
@@ -427,7 +427,7 @@ return {
 				40004
 			},
 			func = function (slot0, slot1)
-				if slot0 == "MainUI" then
+				if slot0 == "NewMainScene" then
 					return pg.SeriesGuideMgr.CODES.MAINUI, 27
 				elseif slot0 == "LevelScene" then
 					if not slot1 then

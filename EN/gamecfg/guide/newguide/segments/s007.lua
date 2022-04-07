@@ -1,3 +1,9 @@
+slot0 = {
+	"Our next mission is to support the Eagles' aviation fleet combat drills. Tap <color=#ff7d36>Attack</color> to get started.",
+	"We've located Hornet! Let's move towards the target.~",
+	"Let's <color=#ff7d36>evade</color> the enemies this time."
+}
+
 return {
 	id = "S007",
 	events = {
@@ -5,14 +11,14 @@ return {
 			alpha = 0.422,
 			code = 2,
 			style = {
-				text = "Our next mission is to support the Eagles' aviation fleet combat drills. Tap <color=#ff7d36>Attack</color> to get started.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -28,11 +34,11 @@ return {
 			code = 2,
 			waitScene = "LevelScene",
 			style = {
-				text = "We've located Hornet! Let's move towards the target.~",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
@@ -50,11 +56,11 @@ return {
 			alpha = 0.297,
 			code = 1,
 			style = {
-				text = "Let's <color=#ff7d36>evade</color> the enemies this time.",
+				dir = 1,
 				mode = 2,
 				posY = -295,
-				dir = 1,
-				posX = -297
+				posX = -297,
+				text = slot0[3]
 			},
 			baseui = {
 				path = "OverlayCamera/Overlay/UIMain/top/LevelAmbushView(Clone)/window/dodge_button"

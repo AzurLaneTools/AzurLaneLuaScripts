@@ -38,6 +38,7 @@ slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
 slot0.ON_VOTE_BOOK = "LevelMediator2:ON_VOTE_BOOK"
 slot0.GET_CHAPTER_DROP_SHIP_LIST = "LevelMediator2:GET_CHAPTER_DROP_SHIP_LIST"
+slot0.ON_CHAPTER_REMASTER_AWARD = "LevelMediator2:ON_CHAPTER_REMASTER_AWARD"
 slot0.ENTER_WORLD = "LevelMediator2:ENTER_WORLD"
 
 function slot0.register(slot0)
@@ -422,6 +423,11 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ENTER_WORLD, function (slot0)
 		uv0:sendNotification(GAME.ENTER_WORLD)
 	end)
+	slot0:bind(uv0.ON_CHAPTER_REMASTER_AWARD, function (slot0, slot1)
+		uv0:sendNotification(GAME.CHAPTER_REMASTER_AWARD_RECEIVE, {
+			chapterId = slot1
+		})
+	end)
 
 	slot0.player = slot1:getData()
 
@@ -573,7 +579,10 @@ function slot0.listNotificationInterests(slot0)
 		GAME.VOTE_BOOK_BE_UPDATED_DONE,
 		BagProxy.ITEM_UPDATED,
 		ChapterProxy.CHAPTER_AUTO_FIGHT_FLAG_UPDATED,
-		ChapterProxy.CHAPTER_SKIP_PRECOMBAT_UPDATED
+		ChapterProxy.CHAPTER_SKIP_PRECOMBAT_UPDATED,
+		ChapterProxy.CHAPTER_REMASTER_INFO_UPDATED,
+		GAME.CHAPTER_REMASTER_INFO_REQUEST_DONE,
+		GAME.CHAPTER_REMASTER_AWARD_RECEIVE_DONE
 	}
 end
 
@@ -1011,15 +1020,6 @@ function slot0.handleNotification(slot0, slot1)
 			slot4 = slot0.viewComponent
 
 			slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-				if getProxy(ChapterProxy).remasterDailyCount > 0 then
-					slot1 = uv0.viewComponent.levelRemasterView
-
-					SetActive(slot1.getRemasterTF, false)
-					SetActive(slot1.gotRemasterTF, true)
-					removeOnButton(slot1.getRemasterTF)
-					setText(slot1.numsTxt, slot0.remasterTickets .. "/" .. pg.gameset.reactivity_ticket_max.key_value)
-				end
-
 				uv0.viewComponent:updateRemasterTicket()
 			end)
 		elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
@@ -1029,14 +1029,14 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateFleet(getProxy(FleetProxy):getData())
 			slot0.viewComponent:updateFleetSelect()
 		elseif slot2 == GAME.SUBMIT_TASK_DONE then
-			if slot0.contextData.map:isSkirmish() then
+			if slot0.contextData.map and slot0.contextData.map:isSkirmish() then
 				slot0.viewComponent:updateMapItems()
 			end
 
 			slot4 = slot0.viewComponent
 
 			slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-				if uv0.contextData.map:isSkirmish() and uv0.contextData.TaskToSubmit then
+				if uv0.contextData.map and uv0.contextData.map:isSkirmish() and uv0.contextData.TaskToSubmit then
 					uv0.contextData.TaskToSubmit = nil
 
 					uv0:sendNotification(GAME.SUBMIT_TASK, uv0.contextData.TaskToSubmit)
@@ -1056,6 +1056,11 @@ function slot0.handleNotification(slot0, slot1)
 			end
 
 			slot0:getViewComponent().levelStageView:ActionInvoke("UpdateSkipPreCombatMark")
+		elseif slot2 == ChapterProxy.CHAPTER_REMASTER_INFO_UPDATED or slot2 == GAME.CHAPTER_REMASTER_INFO_REQUEST_DONE then
+			slot0.viewComponent:updateRemasterInfo()
+			slot0.viewComponent:updateRemasterBtnTip()
+		elseif slot2 == GAME.CHAPTER_REMASTER_AWARD_RECEIVE_DONE then
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
 		end
 	end
 end
@@ -1122,6 +1127,46 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 			end
 
 			uv0.viewComponent:switchToMap(slot0)
+		end,
+		function (slot0)
+			if getProxy(ChapterProxy):getMapById(uv0:getConfig("map")):isRemaster() then
+				slot3 = slot2:getRemaster()
+				slot4 = pg.re_map_template[slot3]
+
+				if _.any(Map.GetRearChaptersOfRemaster(slot3), function (slot0)
+					return slot0 == uv0.id
+				end) then
+					if _.any(pg.memory_group[slot4.memory_group].memories, function (slot0)
+						return not pg.NewStoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].story, true)
+					end) then
+						_.each(slot7, function (slot0)
+							slot2, slot3 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(pg.memory_template[slot0].story)
+
+							pg.NewStoryMgr.GetInstance():SetPlayedFlag(slot2)
+						end)
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							yesText = "text_go",
+							content = i18n("levelScene_remaster_story_tip", pg.memory_group[slot6].title),
+							weight = LayerWeightConst.SECOND_LAYER,
+							onYes = function ()
+								uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
+									page = WorldMediaCollectionScene.PAGE_MEMORTY,
+									memoryGroup = uv1
+								})
+							end,
+							onNo = function ()
+								PlayerPrefs.SetInt("MEMORY_GROUP_NOTIFICATION" .. getProxy(PlayerProxy):getRawData().id .. " " .. uv0, 1)
+								PlayerPrefs.Save()
+								uv1()
+							end
+						})
+
+						return
+					end
+				end
+			end
+
+			slot0()
 		end,
 		function (slot0)
 			slot1 = uv0 and uv0.AutoFightFlag

@@ -1,35 +1,43 @@
+slot0 = {
+	"HQ is extremely impressed with your performance, Commander. They've given you permission to start working on your second fleet!",
+	"Head to the formation menu to put your second fleet, Fleet 2, together. Tap confirm to head directly there.",
+	"Tap the button on the right to switch to Fleet 2.",
+	"This is where you can begin changing Fleet 2's formation.",
+	"The flames of war are raging. Battles will only get harder from here on out. Give 'em hell, Commander!"
+}
+
 return {
 	id = "SYG006",
 	events = {
 		{
 			alpha = 0.332,
 			style = {
-				text = "HQ is extremely impressed with your performance, Commander. They've given you permission to start working on your second fleet!",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
 			alpha = 0.413,
 			style = {
-				text = "Head to the formation menu to put your second fleet, Fleet 2, together. Tap confirm to head directly there.",
-				mode = 2,
 				scene = "BIANDUI",
+				mode = 2,
 				posY = 0,
 				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.462,
 			style = {
-				text = "Tap the button on the right to switch to Fleet 2.",
+				dir = 1,
 				mode = 2,
 				posY = 87,
-				dir = 1,
-				posX = 228.09
+				posX = 228.09,
+				text = slot0[3]
 			},
 			ui = {
 				hideAnimtor = true,
@@ -47,21 +55,21 @@ return {
 		{
 			alpha = 0.442,
 			style = {
-				text = "This is where you can begin changing Fleet 2's formation.",
+				dir = -1,
 				mode = 2,
 				posY = 121.8,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			}
 		},
 		{
 			alpha = 0.44,
 			style = {
-				text = "The flames of war are raging. Battles will only get harder from here on out. Give 'em hell, Commander!",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			}
 		}
 	}

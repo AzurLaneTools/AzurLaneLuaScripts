@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.367,
 			style = {
-				text = "Head back to the main screen.",
+				dir = -1,
 				mode = 2,
 				posY = 223.26,
-				dir = -1,
-				posX = -136.21
+				posX = -136.21,
+				text = ({
+					"Head back to the main screen."
+				})[1]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",

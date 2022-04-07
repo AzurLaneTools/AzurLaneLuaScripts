@@ -8,6 +8,7 @@ function slot0.OnLoaded(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.msgbox = BackYardDecorationMsgBox.New(slot0._parentTf.parent.parent.parent, slot0._event, slot0.contextData)
+	slot0.refreshList = {}
 end
 
 function slot0.OnDisplayList(slot0)
@@ -60,18 +61,6 @@ function slot1(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetUseageFlag(slot0, slot1)
-	if not slot0.temps then
-		slot0.temps = {}
-	end
-
-	if not slot0.temps[slot1.id] then
-		slot0.temps[slot1.id] = slot0:IsUsing(slot1)
-	end
-
-	return slot0.temps[slot1.id]
-end
-
 function slot0.SortDisplays(slot0)
 	table.sort(slot0.displays, function (slot0, slot1)
 		return uv0(slot0, slot1, uv1.orderMode)
@@ -109,9 +98,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot4 = slot0.lastDiaplys[slot1 + 1]
-
-	slot3:Update(slot4, slot0:GetUseageFlag(slot4))
+	slot3:Update(slot0.lastDiaplys[slot1 + 1], false)
 end
 
 function slot0.OnThemeUpdated(slot0)
@@ -133,17 +120,21 @@ end
 function slot0.OnApplyThemeAfter(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.themeVO.id == slot1 then
-			slot6:Update(slot6.themeVO, slot0:GetUseageFlag(slot6.themeVO))
+			slot6:Update(slot6.themeVO, false)
 		end
 	end
 end
 
 function slot0.SetTotalCount(slot0)
-	slot0.lastDiaplys = {}
+	if not slot0.searchKey or slot0.searchKey == "" then
+		slot0.lastDiaplys = slot0.displays
+	else
+		slot0.lastDiaplys = {}
 
-	for slot4, slot5 in ipairs(slot0.displays) do
-		if slot5.id == "" or slot5:MatchSearchKey(slot0.searchKey) then
-			table.insert(slot0.lastDiaplys, slot5)
+		for slot4, slot5 in ipairs(slot0.displays) do
+			if slot5.id == "" or slot5:MatchSearchKey(slot0.searchKey) then
+				table.insert(slot0.lastDiaplys, slot5)
+			end
 		end
 	end
 
@@ -154,49 +145,17 @@ function slot0.OnSearchKeyChanged(slot0)
 	slot0:SetTotalCount()
 end
 
-function slot0.IsUsing(slot0, slot1)
-	if slot1.id == "" then
-		return false
-	end
-
-	for slot5, slot6 in pairs(slot0.temps) do
-		if slot5 == slot1.id and slot6 == true then
-			return true
-		elseif slot5 ~= slot1.id and slot6 == true then
-			return false
-		end
-	end
-
-	if not slot0.currHouse then
-		slot0.currHouse = {}
-
-		GetCanBePutFurnituresForThemeCommand.GetCurrFloorHouse(slot0.currHouse)
-	end
-
-	if not slot0.otherHouse then
-		slot0.otherHouse = {}
-
-		GetCanBePutFurnituresForThemeCommand.GetOtherFloorHouse(slot0.otherHouse)
-	end
-
-	slot4 = nil
-	slot6 = nil
-
-	return (function (slot0)
-		if uv0:IsSystem() then
-			for slot4, slot5 in pairs(slot0) do
-				if slot5:getConfig("themeId") ~= uv0.id then
-					return false
-				end
-			end
-		end
-
-		return true
-	end)(slot0.otherHouse) and slot1:IsUsing(slot0.otherHouse) or slot2(slot0.currHouse) and slot1:IsUsing(slot0.currHouse)
-end
-
 function slot0.OnDestroy(slot0)
 	slot0.msgbox:Destroy()
+
+	slot1 = pairs
+	slot2 = slot0.cards or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		slot5:Dispose()
+	end
+
+	slot0.cards = nil
 end
 
 function slot0.OnBackPressed(slot0)

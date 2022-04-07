@@ -51,7 +51,7 @@ function slot0.execute(slot0, slot1)
 
 			uv1:performance(uv0, slot0, uv1:updateActivityData(uv0, slot0, uv2, slot1), slot1)
 		else
-			print("activity op ret code: " .. slot0.result)
+			originalPrint("activity op ret code: " .. slot0.result)
 			print("activity op ret code: " .. slot0.result, uv0.cmd, uv0.arg1)
 
 			if uv3 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN or uv3 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN or uv3 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN or uv3 == ActivityConst.ACTIVITY_TYPE_REFLUX then

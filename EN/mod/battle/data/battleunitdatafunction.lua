@@ -237,7 +237,7 @@ function slot31.CreateWeaponUnit(slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv2.Battle.BattleAntiAirUnit.New()
 	elseif slot8 == uv1.EquipmentType.FLEET_ANTI_AIR or slot8 == uv1.EquipmentType.FLEET_RANGE_ANTI_AIR then
 		slot6 = uv2.Battle.BattleWeaponUnit.New()
-	elseif slot8 == uv1.EquipmentType.SCOUT or slot8 == uv1.EquipmentType.PASSIVE_SCOUT then
+	elseif slot8 == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot8 == uv1.EquipmentType.STRIKE_AIRCRAFT then
 		slot6 = uv2.Battle.BattleHiveUnit.New()
 	elseif slot8 == uv1.EquipmentType.SPECIAL then
 		slot6 = uv2.Battle.BattleSpecialWeapon.New()
@@ -280,7 +280,7 @@ function slot31.CreateWeaponUnit(slot0, slot1, slot2, slot3, slot4)
 		slot6:HostOnEnemy()
 	end
 
-	if slot7.type == uv1.EquipmentType.SCOUT or slot7.type == uv1.EquipmentType.PASSIVE_SCOUT then
+	if slot7.type == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot7.type == uv1.EquipmentType.STRIKE_AIRCRAFT then
 		slot6:EnterCoolDown()
 	end
 

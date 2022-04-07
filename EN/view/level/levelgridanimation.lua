@@ -9,25 +9,20 @@ function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if not slot1:GetModel() then
+	if not slot1:GetSpineRole() then
 		slot3()
 
 		return
 	end
 
-	slot6 = slot4:GetComponent("SkeletonGraphic")
-
-	slot1:SetAction(slot2 and ChapterConst.ShipSwimAction or ChapterConst.ShipIdleAction)
+	slot4:SetAction(slot2 and ChapterConst.ShipSwimAction or ChapterConst.ShipIdleAction)
 	slot1:PlayShuiHua()
 	slot0:frozen()
-
-	slot0.tweens[LeanTween.value(slot4, slot2 and 1 or 0, slot2 and 0 or 1, slot0.contextData.chapterVO:GetQuickPlayFlag() and 0.1 or 0.3):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
-		uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
-
-		if not IsNil(uv1.tfAmmo) then
-			uv1.tfAmmo.anchoredPosition = Vector2.Lerp(uv2, uv3, slot0)
+	slot4:TweenShining(slot0.contextData.chapterVO:GetQuickPlayFlag() and 0.1 or 0.3, nil, slot2 and 1 or 0, slot2 and 0 or 1, Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), false, false, function (slot0)
+		if not IsNil(uv0.tfAmmo) then
+			uv0.tfAmmo.anchoredPosition = Vector2.Lerp(uv1, uv2, slot0)
 		end
-	end)):setOnComplete(System.Action(function ()
+	end, function ()
 		if uv0.exited then
 			return
 		end
@@ -38,7 +33,7 @@ function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 		if uv3 then
 			uv3()
 		end
-	end)).id] = true
+	end)
 end
 
 function slot0.TeleportCellByPortalWithCameraMove(slot0, slot1, slot2, slot3, slot4)
@@ -68,46 +63,32 @@ function slot0.TeleportFleetByPortal(slot0, slot1, slot2, slot3, slot4)
 		return
 	end
 
-	if not slot1:GetModel() then
+	if not slot1:GetSpineRole() then
 		slot4()
 
 		return
 	end
 
-	slot9 = slot8:GetComponent("SkeletonGraphic")
-
 	slot0:frozen()
-
-	slot11 = nil
-	slot0.tweens[LeanTween.value(slot8, 1, 0, slot5:GetQuickPlayFlag() and 0.1 or 0.3):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
-		uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
-	end)):setOnComplete(System.Action(function ()
+	slot8:TweenShining(slot5:GetQuickPlayFlag() and 0.1 or 0.3, nil, 1, 0, Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), false, false, nil, function ()
 		if uv0.exited then
 			return
 		end
 
-		uv0.tweens[uv1] = nil
-
-		if uv2 then
-			uv2()
+		if uv1 then
+			uv1()
 		end
 
-		uv0:updateFleet(table.indexof(uv0.cellFleets, uv3))
-
-		uv1 = LeanTween.value(uv4, 0, 1, uv5):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
-			uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
-		end)):setOnComplete(System.Action(function ()
+		uv0:updateFleet(table.indexof(uv0.cellFleets, uv2))
+		uv3:TweenShining(uv4, nil, 0, 1, Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), false, false, nil, function ()
 			if uv0.exited then
 				return
 			end
 
-			uv0.tweens[uv1] = nil
-
 			uv0:unfrozen()
-			existCall(uv2)
-		end)).id
-		uv0.tweens[uv1] = true
-	end)).id] = true
+			existCall(uv1)
+		end)
+	end)
 end
 
 function slot0.adjustCameraFocus(slot0, slot1)

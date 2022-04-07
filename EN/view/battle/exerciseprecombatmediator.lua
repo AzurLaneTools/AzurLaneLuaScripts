@@ -26,51 +26,31 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:SetShips(slot0.ships)
 
-	slot3 = getProxy(FleetProxy)
+	slot2 = slot0.contextData.system
 	slot4 = nil
+	slot4 = getProxy(FleetProxy):getData()
 
-	if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT or slot2 == SYSTEM_ACT_BOSS then
-		slot4 = slot0.contextData.fleets
-	else
-		slot4 = slot3:getData()
-
-		if slot0.contextData.EdittingFleet then
-			slot3.EdittingFleet = slot0.contextData.EdittingFleet
-			slot0.contextData.EdittingFleet = nil
-		end
-
-		if slot3.EdittingFleet ~= nil then
-			slot4[slot3.EdittingFleet.id] = slot3.EdittingFleet
-		end
+	if slot0.contextData.EdittingFleet then
+		slot3.EdittingFleet = slot0.contextData.EdittingFleet
+		slot0.contextData.EdittingFleet = nil
 	end
 
-	slot0.viewComponent:SetFleets(slot4)
-	slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy):getData())
-
-	if slot2 == SYSTEM_DUEL then
-		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
-	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT or slot2 == SYSTEM_ACT_BOSS then
-		slot0.viewComponent:SetCurrentFleet(slot4[1].id)
-
-		for slot11, slot12 in ipairs(slot4) do
-			if slot12:isSubmarineFleet() and slot12:isLegalToFight() then
-				slot0.viewComponent:SetSubFlag(true)
-
-				break
-			end
-		end
-
-		if pg.activity_event_worldboss[getProxy(ActivityProxy):getActivityById(slot0.contextData.actID):getConfig("config_id")] then
-			slot0.viewComponent:SetTicketItemID(slot11.ticket)
-		end
-	elseif slot2 == SYSTEM_SUB_ROUTINE then
-		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
-		slot0.viewComponent:SetCurrentFleet(slot0.contextData.fleetID)
-	else
-		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
-		slot0.viewComponent:SetCurrentFleet(slot5.combatFleetId)
+	if slot3.EdittingFleet ~= nil then
+		slot4[slot3.EdittingFleet.id] = slot3.EdittingFleet
 	end
 
+	slot5 = slot0.viewComponent
+
+	slot5:SetFleets(slot4)
+
+	slot5 = getProxy(PlayerProxy)
+	slot7 = slot0.viewComponent
+
+	slot7:SetPlayerInfo(slot5:getData())
+
+	slot7 = slot0.viewComponent
+
+	slot7:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
 	slot0:bind(uv0.ON_CHANGE_FLEET, function (slot0, slot1)
 		uv0:changeFleet(slot1)
 	end)

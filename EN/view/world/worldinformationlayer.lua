@@ -80,9 +80,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEl)
 	slot0:OnUpdateDailyTask()
 	triggerToggle(slot0.toggleAll, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		blurLevelCamera = true
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 end
 
 function slot0.willExit(slot0)

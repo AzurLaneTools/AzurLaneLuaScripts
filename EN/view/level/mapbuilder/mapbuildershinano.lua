@@ -118,7 +118,7 @@ function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 
 				pg.CriMgr.GetInstance():StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
-				slot1 = CueData.New()
+				slot1 = CueData.GetCueData()
 				slot1.channelName = pg.CriMgr.C_SE
 				slot1.cueSheetName = "se-ui"
 				slot1.cueName = "ui-qiehuan"

@@ -143,6 +143,16 @@ function slot0.updateShips(slot0, slot1)
 	end)
 end
 
+function slot0.getTeamByName(slot0, slot1)
+	slot2 = {}
+
+	for slot7, slot8 in ipairs(slot0[slot1]) do
+		table.insert(slot2, slot8.id)
+	end
+
+	return slot2
+end
+
 function slot0.flushShips(slot0)
 	slot0.name = getProxy(FleetProxy):getFleetById(slot0.fleetId) and slot2.name ~= "" and slot2.name or Fleet.DEFAULT_NAME[slot0.fleetId] or Fleet.DEFAULT_NAME[slot0.id]
 
@@ -302,22 +312,25 @@ function slot0.removeShip(slot0, slot1)
 	end
 end
 
-function slot0.switchShip(slot0, slot1, slot2)
-	slot3, slot4, slot5, slot6 = nil
+function slot0.switchShip(slot0, slot1, slot2, slot3)
+	slot4 = slot0:getShipsByTeam(slot1, false)
+	slot5 = slot4[slot2].id
+	slot6 = slot4[slot3].id
+	slot7, slot8, slot9, slot10 = nil
 
-	for slot10, slot11 in pairs(slot0.ships) do
-		if slot10 == slot1 then
-			slot4 = table.indexof(slot0[slot11:getTeamType()], slot11)
+	for slot14, slot15 in pairs(slot0.ships) do
+		if slot14 == slot5 then
+			slot8 = table.indexof(slot0[slot15:getTeamType()], slot15)
 		end
 
-		if slot10 == slot2 then
-			slot6 = table.indexof(slot0[slot11:getTeamType()], slot11)
+		if slot14 == slot6 then
+			slot10 = table.indexof(slot0[slot15:getTeamType()], slot15)
 		end
 	end
 
-	if slot3 == slot5 and slot4 ~= slot6 then
-		slot0[slot5][slot6] = slot0[slot3][slot4]
-		slot0[slot3][slot4] = slot0[slot5][slot6]
+	if slot7 == slot9 and slot8 ~= slot10 then
+		slot0[slot9][slot10] = slot0[slot7][slot8]
+		slot0[slot7][slot8] = slot0[slot9][slot10]
 	end
 end
 

@@ -87,18 +87,10 @@ end
 
 function slot0.InitFurnitures(slot0, slot1)
 	function slot2(slot0, slot1, slot2)
-		slot3 = GameObject.New()
-		slot3.name = slot1.name
+		GetOrAddComponent(slot1, typeof(RectTransform)).pivot = Vector2(0, 0)
 
-		SetParent(slot3, uv0.pathContainer)
-
-		slot4 = GetOrAddComponent(slot3, typeof(Image))
-		GetOrAddComponent(slot3, typeof(RectTransform)).pivot = Vector2(0, 0)
-		slot4.sprite = slot1
-
-		slot4:SetNativeSize()
 		table.insert(uv0.furnitures, GuildDynamicFurniture.New({
-			go = slot3,
+			go = slot1,
 			grid = uv0:GetGrid(slot0.position[1], slot0.position[2]),
 			path = uv0.path,
 			size = Vector2(slot0.size[1], slot0.size[2]),
@@ -114,9 +106,11 @@ function slot0.InitFurnitures(slot0, slot1)
 
 	for slot8, slot9 in ipairs(uv0.furnitures) do
 		table.insert(slot3, function (slot0)
-			GetSpriteFromAtlasAsync("furniture/guild/" .. uv0.name, "", function (slot0)
-				uv0(uv1, slot0, uv2)
-			end)
+			slot1 = ResourceMgr.Inst
+
+			slot1:getAssetAsync("furnitrues/guild/" .. uv0.name, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				uv1(uv2, Object.Instantiate(slot0, uv0.pathContainer), uv3)
+			end), true, true)
 		end)
 	end
 

@@ -302,6 +302,8 @@ function slot2.ExitBattle(slot0)
 
 	slot0._timeScale = nil
 	slot0._timescalerCache = nil
+
+	gcAll(true)
 end
 
 function slot2.Stop(slot0, slot1)
@@ -317,7 +319,6 @@ function slot2.disableCommon(slot0)
 	slot0._dataProxy:ClearAirFighterTimer()
 	slot0._dataProxy:KillAllAircraft()
 	slot0._sceneMediator:AllBulletNeutralize()
-	slot0._sceneMediator:AllCharAnimAutoCalcComplex(false)
 	uv0.Battle.BattleCameraUtil.GetInstance():StopShake()
 	uv0.Battle.BattleCameraUtil.GetInstance():Deactive()
 	slot0._uiMediator:DisableComponent()

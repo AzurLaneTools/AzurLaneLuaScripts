@@ -1,14 +1,21 @@
+slot0 = {
+	"Tap here to change Quick Retire settings.",
+	"In the top part, select which ship rarities you would like to prioritize.",
+	"In the bottom part, select what you would like to do for duplicate copies of ships you already own.",
+	"Tap on the Help button to view detailed Quick Retire conditions"
+}
+
 return {
 	id = "NG0019",
 	events = {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Tap here to change Quick Retire settings.",
+				dir = -1,
 				mode = 1,
 				posY = -285,
-				dir = -1,
-				posX = -302
+				posX = -302,
+				text = slot0[1]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/setting",
@@ -27,31 +34,31 @@ return {
 		{
 			alpha = 0.1,
 			style = {
-				text = "In the top part, select which ship rarities you would like to prioritize.",
+				dir = 1,
 				mode = 1,
 				posY = 101.6,
-				dir = 1,
-				posX = -56.2
+				posX = -56.2,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.1,
 			style = {
-				text = "In the bottom part, select what you would like to do for duplicate copies of ships you already own.",
+				dir = 1,
 				mode = 1,
 				posY = -159.6,
-				dir = 1,
-				posX = 13.3
+				posX = 13.3,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "Tap on the Help button to view detailed Quick Retire conditions",
+				dir = -1,
 				mode = 1,
 				posY = 150.7,
-				dir = -1,
-				posX = 224.01
+				posX = 224.01,
+				text = slot0[4]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/DockyardQuickSelectSettingUI(Clone)/window/top/bg/obtain/title/title_en/info",

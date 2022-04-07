@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Start by going to the Buy menu to purchase a Cat Box from Akashi!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = ({
+					"Start by going to the Buy menu to purchase a Cat Box from Akashi!"
+				})[1]
 			}
 		},
 		{
@@ -18,12 +20,12 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/CommanderReserveUI(Clone)/frame/bg1/Button"
+				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderReserveUI(Clone)/frame/bg1/Button"
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
+				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
 			}
 		},
 		{
@@ -39,7 +41,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/CommanderReserveUI(Clone)/bg",
+				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderReserveUI(Clone)/bg",
 				fingerPos = {
 					posY = -400,
 					posX = 500

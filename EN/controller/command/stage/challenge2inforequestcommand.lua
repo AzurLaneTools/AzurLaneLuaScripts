@@ -26,7 +26,7 @@ function slot0.execute(slot0, slot1)
 
 			uv2:sendNotification(GAME.CHALLENGE2_INFO_DONE)
 		else
-			print("reqquest challenge info fail, data.result: " .. slot0.result)
+			originalPrint("reqquest challenge info fail, data.result: " .. slot0.result)
 		end
 	end)
 end

@@ -60,10 +60,10 @@ function slot0.register(slot0)
 					uv1.contextData.oneStepFinishEventCount = uv1.contextData.oneStepFinishEventCount - 1
 
 					if uv1.contextData.oneStepFinishEventCount <= 0 then
-						uv1:sendNotification(GAME.TACTICS_META_LEVELMAX_SHOW_BOX)
+						MainMetaSkillSequence.New():Execute()
 					end
 				else
-					uv1:sendNotification(GAME.TACTICS_META_LEVELMAX_SHOW_BOX)
+					MainMetaSkillSequence.New():Execute()
 				end
 			end
 		})

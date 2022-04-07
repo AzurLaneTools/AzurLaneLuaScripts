@@ -1,3 +1,11 @@
+slot0 = {
+	"Let's check out <color=#ffde38>build</color> details!",
+	"Tap <color=#ffde38>queue</color> to see construction progress.",
+	"It takes time to build a new ship.",
+	"But I can't wait any longer~. Tap <color=#ffde38>Finish now</color> to instantly complete construction!",
+	"Tap confirm to use the <color=#ffde38>Quick Finisher</color>."
+}
+
 return {
 	id = "S002",
 	events = {
@@ -5,14 +13,14 @@ return {
 			alpha = 0.422,
 			code = 2,
 			style = {
-				text = "Let's check out <color=#ffde38>build</color> details!",
+				dir = 1,
 				mode = 1,
 				posY = -132.4,
-				dir = 1,
-				posX = 423.25
+				posX = 423.25,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/buildButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/buildButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -28,11 +36,11 @@ return {
 			code = 2,
 			waitScene = "BuildShipScene",
 			style = {
-				text = "Tap <color=#ffde38>queue</color> to see construction progress.",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/tagRoot/queue_btn",
@@ -50,21 +58,21 @@ return {
 			alpha = 0.322,
 			waitScene = "BuildShipDetailLayer",
 			style = {
-				text = "It takes time to build a new ship.",
+				dir = -1,
 				mode = 1,
 				posY = 160,
-				dir = -1,
-				posX = 450
+				posX = 450,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.359,
 			style = {
-				text = "But I can't wait any longer~. Tap <color=#ffde38>Finish now</color> to instantly complete construction!",
+				dir = -1,
 				mode = 1,
 				posY = 160,
-				dir = -1,
-				posX = 450
+				posX = 450,
+				text = slot0[4]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/BuildShipDetailUI1(Clone)/list_single_line/content/project_1/frame/buiding/quick_btn",
@@ -86,11 +94,11 @@ return {
 		{
 			alpha = 0.341,
 			style = {
-				text = "Tap confirm to use the <color=#ffde38>Quick Finisher</color>.",
+				dir = -1,
 				mode = 1,
 				posY = 250,
-				dir = -1,
-				posX = 450
+				posX = 450,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",

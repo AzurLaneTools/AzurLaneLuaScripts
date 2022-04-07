@@ -26,7 +26,9 @@ function slot8.InitBattle(slot0, slot1)
 	slot0:InitData(slot1)
 	slot0:DispatchEvent(uv2.Event.New(uv3.STAGE_DATA_INIT_FINISH))
 	slot0._cameraUtil:Initialize()
-	slot0._cameraUtil:SetMapData(slot0:GetTotalBounds())
+
+	slot0._cameraTop, slot0._cameraBottom, slot0._cameraLeft, slot0._cameraRight = slot0._cameraUtil:SetMapData(slot0:GetTotalBounds())
+
 	slot0:InitWeatherData()
 	slot0:InitUserShipsData(slot0._battleInitData.MainUnitList, slot0._battleInitData.VanguardUnitList, uv4.FRIENDLY_CODE, slot0._battleInitData.SubUnitList)
 	slot0:InitUserAidData()
@@ -1481,6 +1483,7 @@ function slot8.doCreateAirUnit(slot0, slot1, slot2, slot3, slot4)
 
 	slot0._cldSystem:InitAircraftCld(slot2)
 	slot2:SetBound(slot0._leftZoneUpperBound, slot0._leftZoneLowerBound)
+	slot2:SetViewBoundData(slot0._cameraTop, slot0._cameraBottom, slot0._cameraLeft, slot0._cameraRight)
 	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_UNIT, {
 		unit = slot2,
 		type = slot3

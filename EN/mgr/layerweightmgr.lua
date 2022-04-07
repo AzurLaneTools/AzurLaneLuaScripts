@@ -24,11 +24,33 @@ function slot1.Init(slot0, slot1)
 	slot0.UIMain = rtf(GameObject.Find("UICamera/Canvas/UIMain"))
 	slot0.OverlayMain = rtf(GameObject.Find("OverlayCamera/Overlay/UIMain"))
 	slot0.OverlayAdapt = rtf(GameObject.Find("OverlayCamera/Overlay/UIAdapt"))
+	slot0.OverlayTop = rtf(GameObject.Find("OverlayCamera/Overlay/UIOverlay"))
 	slot0.storeUIs = {}
 
 	if slot1 ~= nil then
 		slot1()
 	end
+end
+
+function slot1.CreateRefreshHandler(slot0)
+	if not slot0.luHandle then
+		slot0.luHandle = LateUpdateBeat:CreateListener(slot0.Refresh, slot0)
+
+		LateUpdateBeat:AddListener(slot0.luHandle)
+	end
+end
+
+function slot1.ClearRefreshHandler(slot0)
+	if slot0.luHandle then
+		LateUpdateBeat:RemoveListener(slot0.luHandle)
+
+		slot0.luHandle = nil
+	end
+end
+
+function slot1.Refresh(slot0)
+	slot0:LayerSortHandler()
+	slot0:ClearRefreshHandler()
 end
 
 function slot1.Add2Overlay(slot0, slot1, slot2, slot3)
@@ -37,6 +59,7 @@ function slot1.Add2Overlay(slot0, slot1, slot2, slot3)
 	slot3.pbList = slot3.pbList or {}
 	slot3.weight = slot3.weight or LayerWeightConst.BASE_LAYER
 	slot3.overlayType = slot3.overlayType or LayerWeightConst.OVERLAY_UI_MAIN
+	slot3.visible = true
 	slot4 = nil
 	slot3.blurCamList = slot3.blurCamList or (not slot0.lvCamera.enabled or {
 		uv0.UIMgr.CameraLevel
@@ -44,23 +67,15 @@ function slot1.Add2Overlay(slot0, slot1, slot2, slot3)
 		uv0.UIMgr.CameraUI
 	}
 
-	if slot2.gameObject.name == "ResPanel(Clone)" then
-		return
-	end
-
-	if slot1 == LayerWeightConst.UI_TYPE_SYSTEM and #slot0.storeUIs > 0 or slot1 == LayerWeightConst.UI_TYPE_SUB then
+	if slot1 == LayerWeightConst.UI_TYPE_SYSTEM and #slot0.storeUIs > 0 or slot1 == LayerWeightConst.UI_TYPE_SUB or slot1 == LayerWeightConst.UI_TYPE_OVERLAY_FOREVER then
 		slot0:Log("ui：" .. slot2.gameObject.name .. " 加入了ui层级管理, weight:" .. slot3.weight)
 		slot0:ClearBlurData(slot0:DelList(slot2))
 		table.insert(slot0.storeUIs, slot3)
-		slot0:LayerSortHandler()
+		slot0:CreateRefreshHandler()
 	end
 end
 
 function slot1.DelFromOverlay(slot0, slot1, slot2)
-	if slot1.gameObject.name == "ResPanel(Clone)" then
-		return
-	end
-
 	slot0:Log("ui：" .. slot1.gameObject.name .. " 去除了ui层级管理")
 
 	if slot0:DelList(slot1) ~= nil then
@@ -69,14 +84,12 @@ function slot1.DelFromOverlay(slot0, slot1, slot2)
 		end
 
 		slot6 = GetOrAddComponent(slot5, typeof(CanvasGroup))
-		slot6.interactable = true
-		slot6.blocksRaycasts = true
 
 		slot0:CheckRecycleAdaptObj(slot4, slot2)
 		slot0:ClearBlurData(slot3)
 	end
 
-	slot0:LayerSortHandler()
+	slot0:CreateRefreshHandler()
 end
 
 function slot1.DelList(slot0, slot1)
@@ -103,6 +116,19 @@ function slot1.ClearBlurData(slot0, slot1)
 	if slot1.pbList ~= nil then
 		uv0.UIMgr.GetInstance():RevertPBMaterial(slot1.pbList)
 	end
+
+	if slot1.lockGlobalBlur then
+		slot3 = slot1.blurCamList
+
+		for slot7, slot8 in ipairs({
+			uv0.UIMgr.CameraUI,
+			uv0.UIMgr.CameraLevel
+		}) do
+			if table.contains(slot3, slot8) then
+				uv0.UIMgr.GetInstance():UnblurCamera(slot8, slot2)
+			end
+		end
+	end
 end
 
 function slot1.LayerSortHandler(slot0)
@@ -115,68 +141,93 @@ function slot1.LayerSortHandler(slot0)
 	slot4 = nil
 	slot5 = false
 	slot6 = false
-	slot7 = {}
-	slot8 = nil
-	slot9 = 0
+	slot7 = false
+	slot8 = {}
+	slot9 = nil
 	slot10 = 0
+	slot11 = 0
+	slot12 = #slot0.storeUIs
 
-	for slot14 = #slot0.storeUIs, 1, -1 do
-		slot15 = slot0.storeUIs[slot14]
-		slot17 = slot15.ui
-		slot18 = slot15.pbList
-		slot19 = slot15.globalBlur
-		slot20 = slot15.groupName
-		slot21 = slot15.overlayType
-		slot22 = slot15.hideLowerLayer
-		slot23 = slot15.staticBlur
-		slot24 = slot15.blurCamList
-		slot25 = slot14 == #slot0.storeUIs
+	for slot16 = #slot0.storeUIs, 1, -1 do
+		slot17 = slot0.storeUIs[slot16]
+		slot19 = slot17.ui
+		slot20 = slot17.pbList
+		slot21 = slot17.globalBlur
+		slot22 = slot17.lockGlobalBlur
+		slot23 = slot17.groupName
+		slot24 = slot17.overlayType
+		slot25 = slot17.hideLowerLayer
+		slot26 = slot17.staticBlur
+		slot27 = slot17.blurCamList
+		slot28 = slot17.visible
+		slot29 = slot17.parent
+		slot30 = slot16 == slot12
 
-		if slot15.type == LayerWeightConst.UI_TYPE_SYSTEM then
+		if slot17.type == LayerWeightConst.UI_TYPE_SYSTEM then
 			slot1 = true
 		end
 
-		if slot25 then
-			if slot20 ~= nil then
-				slot4 = slot20
+		if slot30 then
+			if slot23 ~= nil then
+				slot4 = slot23
 			end
 
-			slot5 = slot19
-			slot6 = slot23
-			slot7 = slot24
-			slot8 = slot15
+			slot5 = slot21
+			slot6 = slot22
+			slot7 = slot26
+			slot8 = slot27
+			slot9 = slot17
 		end
 
-		function slot26()
+		function slot31()
 			uv0:ShowOrHideTF(uv1, true)
-			uv0:SetToOverlayParent(uv1, uv2, uv3)
 
-			if not uv4 and #uv5 > 0 then
-				table.insertto(uv6, uv5)
+			if uv2 ~= nil then
+				uv0:SetSpecificParent(uv1, uv2)
+			elseif uv3 == LayerWeightConst.OVERLAY_UI_TOP then
+				uv0:SetToOverlayParent(uv1, uv3)
+			else
+				uv0:SetToOverlayParent(uv1, uv3, uv4)
+			end
+
+			if uv5 and not uv6 and #uv7 > 0 then
+				table.insertto(uv8, uv7)
 			end
 		end
 
-		if slot16 == LayerWeightConst.UI_TYPE_SUB then
-			if slot25 then
-				slot26()
-			elseif slot4 ~= nil and slot4 == slot20 then
-				slot26()
+		function slot32()
+			uv0:SetToOrigin(uv1, uv2, uv3, uv4.interactableAlways)
+
+			if uv5 or uv6 then
+				uv0:ShowOrHideTF(uv1, false)
 			else
-				slot0:SetToOrigin(slot17, slot21, slot10, slot15.interactableAlways)
+				uv0:ShowOrHideTF(uv1, true)
 
-				if slot1 or slot2 then
-					slot0:ShowOrHideTF(slot17, false)
-				else
-					slot0:ShowOrHideTF(slot17, true)
-
-					if #slot18 > 0 then
-						uv0.UIMgr.GetInstance():RevertPBMaterial(slot18)
-					end
+				if #uv7 > 0 then
+					uv8.UIMgr.GetInstance():RevertPBMaterial(uv7)
 				end
 			end
 		end
 
-		if slot22 then
+		if slot18 == LayerWeightConst.UI_TYPE_SUB then
+			if slot30 then
+				slot31()
+			elseif slot4 ~= nil and slot4 == slot23 then
+				slot31()
+			else
+				slot32()
+			end
+		elseif slot18 == LayerWeightConst.UI_TYPE_OVERLAY_FOREVER then
+			if slot30 then
+				slot12 = slot16 - 1
+
+				slot31()
+			else
+				slot32()
+			end
+		end
+
+		if slot25 then
 			slot2 = true
 		end
 	end
@@ -188,24 +239,32 @@ function slot1.LayerSortHandler(slot0)
 	end
 
 	if slot5 then
-		for slot14, slot15 in ipairs({
+		for slot16, slot17 in ipairs({
 			uv0.UIMgr.CameraUI,
 			uv0.UIMgr.CameraLevel
 		}) do
-			if table.contains(slot7, slot15) then
-				uv0.UIMgr.GetInstance():BlurCamera(slot15, slot6)
+			if table.contains(slot8, slot17) then
+				uv0.UIMgr.GetInstance():BlurCamera(slot17, slot7, slot6)
 			else
-				uv0.UIMgr.GetInstance():UnblurCamera(slot15)
+				uv0.UIMgr.GetInstance():UnblurCamera(slot17)
 			end
 		end
 	else
-		for slot14, slot15 in ipairs({
+		for slot16, slot17 in ipairs({
 			uv0.UIMgr.CameraUI,
 			uv0.UIMgr.CameraLevel
 		}) do
-			uv0.UIMgr.GetInstance():UnblurCamera(slot15)
+			uv0.UIMgr.GetInstance():UnblurCamera(slot17)
 		end
 	end
+end
+
+function slot1.SetSpecificParent(slot0, slot1, slot2)
+	SetParent(slot1, slot2, false)
+
+	slot3 = GetOrAddComponent(slot1, typeof(CanvasGroup))
+	slot3.interactable = true
+	slot3.blocksRaycasts = true
 end
 
 function slot1.SetToOverlayParent(slot0, slot1, slot2, slot3)
@@ -219,7 +278,10 @@ function slot1.SetToOverlayParent(slot0, slot1, slot2, slot3)
 			slot4.name = slot0:GetAdatpObjName(slot1)
 
 			SetParent(slot1, slot4, false)
+			SetParent(slot4, slot0.OverlayMain, false)
 		end
+	elseif slot2 == LayerWeightConst.OVERLAY_UI_TOP then
+		SetParent(slot1, slot0.OverlayTop, false)
 	else
 		SetParent(slot1, slot0.OverlayMain, false)
 	end
@@ -256,8 +318,8 @@ function slot1.SetToOrigin(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot6 = GetOrAddComponent(slot5, typeof(CanvasGroup))
-	slot6.interactable = slot4 and true or false
-	slot6.blocksRaycasts = slot4 and true or false
+	slot6.interactable = slot4
+	slot6.blocksRaycasts = slot4
 end
 
 function slot1.SortStoreUIs(slot0)
@@ -295,6 +357,18 @@ function slot1.ShowOrHideTF(slot0, slot1, slot2)
 	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = slot2 and 1 or 0
 end
 
+function slot1.SetVisibleViaLayer(slot0, slot1, slot2)
+	setActiveViaLayer(slot1, slot2)
+
+	for slot6, slot7 in pairs(slot0.storeUIs) do
+		if slot7.ui == slot1 then
+			slot7.visible = slot2
+
+			slot0:CreateRefreshHandler()
+		end
+	end
+end
+
 function slot1.switchOriginParent(slot0)
 	if slot0.lvCamera.enabled then
 		slot0.uiOrigin:SetParent(slot0.lvParent, false)
@@ -319,8 +393,6 @@ function slot1.GetAdaptObj(slot0)
 
 		slot1 = slot2:AddComponent(typeof(RectTransform))
 	end
-
-	SetParent(slot1, slot0.OverlayMain, false)
 
 	slot1.anchorMin = Vector2.zero
 	slot1.anchorMax = Vector2.one
@@ -373,5 +445,5 @@ function slot1.Log(slot0, slot1)
 		return
 	end
 
-	print(slot1)
+	originalPrint(slot1)
 end

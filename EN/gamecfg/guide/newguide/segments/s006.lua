@@ -1,3 +1,10 @@
+slot0 = {
+	"Our next mission is to support the Eagles' aviation fleet combat drills. Tap <color=#ff7d36>Attack</color> to get started.",
+	"Hornet must be hiding somewhere here. If you can crush her then the sea is yours!",
+	"Commander, we must first test your skills in defeating the enemy vanguard.",
+	"We've located Hornet! Let's move towards the target.~"
+}
+
 return {
 	id = "S006",
 	events = {
@@ -5,14 +12,14 @@ return {
 			alpha = 0.434,
 			code = 2,
 			style = {
-				text = "Our next mission is to support the Eagles' aviation fleet combat drills. Tap <color=#ff7d36>Attack</color> to get started.",
+				dir = 1,
 				mode = 2,
 				posY = 61.61,
-				dir = 1,
-				posX = 261.62
+				posX = 261.62,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,21 +33,21 @@ return {
 		{
 			alpha = 0.405,
 			style = {
-				text = "Hornet must be hiding somewhere here. If you can crush her then the sea is yours!",
+				dir = 1,
 				mode = 2,
 				posY = -351,
-				dir = 1,
-				posX = -257
+				posX = -257,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.384,
 			style = {
-				text = "Commander, we must first test your skills in defeating the enemy vanguard.",
+				dir = 1,
 				mode = 2,
 				posY = -351,
-				dir = 1,
-				posX = -257
+				posX = -257,
+				text = slot0[3]
 			},
 			baseui = {
 				delay = 0.2,
@@ -51,11 +58,11 @@ return {
 		{
 			alpha = 0.163,
 			style = {
-				text = "We've located Hornet! Let's move towards the target.~",
+				dir = 1,
 				mode = 2,
 				posY = -351,
-				dir = 1,
-				posX = -257
+				posX = -257,
+				text = slot0[4]
 			},
 			ui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_6/attachment",

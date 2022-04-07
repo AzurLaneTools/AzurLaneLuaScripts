@@ -89639,6 +89639,11 @@ _G.pg.item_data_statistics[57607] = {
 	display_icon = {
 		{
 			4,
+			205051,
+			1
+		},
+		{
+			4,
 			404011,
 			1
 		},
@@ -90963,6 +90968,11 @@ _G.pg.item_data_statistics[57625] = {
 	icon = "Props/54000",
 	id = 57625,
 	display_icon = {
+		{
+			4,
+			205051,
+			1
+		},
 		{
 			4,
 			404011,
@@ -95003,6 +95013,11 @@ _G.pg.item_data_statistics[57687] = {
 	display_icon = {
 		{
 			4,
+			605021,
+			1
+		},
+		{
+			4,
 			205011,
 			1
 		},
@@ -96312,6 +96327,11 @@ _G.pg.item_data_statistics[57705] = {
 	icon = "Props/54000",
 	id = 57705,
 	display_icon = {
+		{
+			4,
+			605021,
+			1
+		},
 		{
 			4,
 			205011,

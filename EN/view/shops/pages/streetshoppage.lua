@@ -72,10 +72,6 @@ function slot0.GenHelpContent(slot0, slot1, slot2)
 end
 
 function slot0.OnInit(slot0)
-	slot0.resPanel = PlayerResource.New()
-	slot1 = slot0.resPanel
-
-	slot1:setParent(slot0._tf, false)
 	onButton(slot0, slot0.helpBtn, function ()
 		table.sort(uv0.activitys, function (slot0, slot1)
 			return slot0:getStartTime() < slot1:getStartTime()
@@ -108,8 +104,29 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
+function slot0.Show(slot0)
+	uv0.super.Show(slot0)
+
+	slot1 = nil
+
+	if slot0.openAgain then
+		slot1 = {
+			showType = PlayerResUI.TYPE_ALL
+		}
+	else
+		slot0.openAgain = true
+	end
+
+	pg.playerResUI:SetActive(true, defaultValue(slot1, true))
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+	pg.playerResUI:SetActive(false)
+end
+
 function slot0.OnUpdatePlayer(slot0)
-	slot0.resPanel:setResources(slot0.player)
+	slot1 = slot0.player
 end
 
 function slot0.OnSetUp(slot0)
@@ -209,7 +226,6 @@ end
 
 function slot0.OnDestroy(slot0)
 	slot0:RemoveTimer()
-	slot0.resPanel:exit()
 end
 
 return slot0

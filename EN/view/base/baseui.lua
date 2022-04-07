@@ -24,6 +24,7 @@ function slot0.Ctor(slot0)
 	slot0._isLoaded = false
 	slot0._go = nil
 	slot0._tf = nil
+	slot0._isCachedView = false
 end
 
 function slot0.setContextData(slot0, slot1)
@@ -32,6 +33,14 @@ end
 
 function slot0.getUIName(slot0)
 	return nil
+end
+
+function slot0.needCache(slot0)
+	return false
+end
+
+function slot0.forceGC(slot0)
+	return false
 end
 
 function slot0.getGroupName(slot0)
@@ -67,57 +76,64 @@ end
 function slot0.load(slot0)
 	slot1 = nil
 	slot2 = Time.realtimeSinceStartup
+	slot3 = 0
 
 	seriesAsync({
+		function (slot0)
+			uv0:preload(slot0)
+		end,
 		function (slot0)
 			slot1 = PoolMgr.GetInstance()
 			slot3 = uv0
 
 			slot1:GetUI(slot3:getUIName(), true, function (slot0)
 				uv0 = slot0
+				uv1 = not IsNil(uv0)
 
-				print("Loaded " .. uv1:getUIName())
 				uv2()
 			end)
-		end,
-		function (slot0)
-			uv0:preload(slot0)
 		end
 	}, function ()
-		if IsNil(uv0) and PLATFORM_CODE == PLATFORM_CH then
-			ReflectionHelp.RefCallStaticMethod(typeof("BuglyAgent"), "ReportException", {
-				typeof("System.String"),
-				typeof("System.String"),
-				typeof("System.String")
-			}, {
-				"ui load Failed",
-				uv1:getUIName() .. " preload Failed",
-				debug.traceback()
-			})
+		if IsNil(uv0) then
+			if uv1:getUIName() == "LevelMainScene" and PLATFORM_CODE == PLATFORM_CH then
+				originalPrint("plural status: " .. PoolMgr.GetInstance():GetPluralStatus("ui/LevelMainSceneLevelMainScene"))
+				originalPrint("after load LevelMainScene firstLoad " .. tostring(uv2) .. " currentLoad " .. tostring(not IsNil(uv0)))
+				ReflectionHelp.RefCallStaticMethod(typeof("BuglyAgent"), "ReportException", {
+					typeof("System.String"),
+					typeof("System.String"),
+					typeof("System.String")
+				}, {
+					"ui load Failed",
+					"LevelMainScene preload Failed",
+					debug.traceback()
+				})
+			end
+
+			slot0 = PoolMgr.GetInstance()
+			slot2 = uv1
+
+			slot0:GetUI(slot2:getUIName(), false, function (slot0)
+				uv0 = slot0
+
+				originalPrint("Reload UI " .. tostring(uv1:getUIName()) .. " IsNil? " .. tostring(IsNil(uv0)))
+			end)
 		end
 
-		print("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv2)
+		originalPrint("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv3)
 		uv0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
-		uv0:SetActive(true)
-		uv1:onUILoaded(uv0)
 		uv1:PlayBGM()
+		uv1:onUILoaded(uv0)
 	end)
 end
 
 function slot0.PlayBGM(slot0)
-	if slot0:getBGM() and slot0.bgm ~= slot1 then
+	if slot0:getBGM() then
 		playBGM(slot1)
-
-		slot0.bgm = slot1
 	end
 end
 
 function slot0.SwitchToDefaultBGM(slot0)
-	slot1 = slot0:getBGM() or (not pg.UIMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.MainUI.default_bgm) and pg.voice_bgm.MainUI.bgm
-
-	playBGM(slot1)
-
-	slot0.bgm = slot1
+	playBGM(slot0:getBGM() or (not pg.UIMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.NewMainScene.default_bgm) and pg.voice_bgm.NewMainScene.bgm)
 end
 
 function slot0.isLoaded(slot0)
@@ -197,9 +213,12 @@ function slot0.onUILoaded(slot0, slot1)
 		table.insert(slot0.optionBtns, slot0:findTF(slot6))
 	end
 
+	setActiveViaLayer(slot0._tf, true)
 	slot0:init()
-	setActive(slot0._tf, not slot0.event:chectConnect(uv0.LOADED))
 	slot0:emit(uv0.LOADED)
+end
+
+function slot0.ResUISettings(slot0)
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
@@ -223,11 +242,15 @@ end
 
 function slot0.enter(slot0)
 	slot0:quickExit()
-	setActive(slot0._tf, true)
+	pg.playerResUI:SetActive(true, slot0:ResUISettings())
 
 	function slot1()
 		uv0:emit(uv1.DID_ENTER)
-		uv0:didEnter()
+
+		if not uv0._isCachedView then
+			uv0:didEnter()
+		end
+
 		uv0:emit(uv1.AVALIBLE)
 		uv0:onUIAnimEnd(function ()
 			pg.SeriesGuideMgr.GetInstance():start({
@@ -255,14 +278,14 @@ function slot0.enter(slot0)
 
 		if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot4 ~= nil then
 			if slot3:get_Item("enter") == nil then
-				print("cound not found enter animation")
+				originalPrint("cound not found enter animation")
 			else
 				slot3:Play("enter")
 			end
 		elseif slot3 ~= nil then
-			print("cound not found [UIEventTrigger] component")
+			originalPrint("cound not found [UIEventTrigger] component")
 		elseif slot4 ~= nil then
-			print("cound not found [Animation] component")
+			originalPrint("cound not found [Animation] component")
 		end
 	end
 
@@ -292,6 +315,7 @@ function slot0.exit(slot0)
 
 	function slot1()
 		uv0:willExit()
+		pg.playerResUI:SetActive(false)
 		uv0:detach()
 		pg.GuideMgr.GetInstance():onSceneExit({
 			view = uv0.__cname
@@ -360,6 +384,11 @@ end
 
 function slot0.setImageAmount(slot0, slot1, slot2)
 	slot1:GetComponent(typeof(Image)).fillAmount = slot2
+end
+
+function slot0.setVisible(slot0, slot1)
+	pg.playerResUI:SetActive(slot1, slot0:ResUISettings())
+	setActiveViaLayer(slot0._tf, slot1)
 end
 
 function slot0.onBackPressed(slot0)
