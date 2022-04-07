@@ -1757,7 +1757,7 @@ _G.pg.gametip.backyard_backyardGranaryLayer_noShip = {
 }
 
 _G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
-	tip = "In                 everything"
+	tip = "  In                 everything"
 }
 
 _G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
@@ -9833,7 +9833,7 @@ _G.pg.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "Cleveland µ added to standard build pool! "
+	tip = "Ying Swei, Chao Ho and Penelope added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_special_tip = {
@@ -19940,4 +19940,8 @@ _G.pg.gametip["airi_error_code_ 100817"] = {
 
 _G.pg.gametip["airi_error_code_ 100818"] = {
 	tip = "FB Login verification failed, unable to unbind"
+}
+
+_G.pg.gametip.facebook_link_title = {
+	tip = "Facebook Account:$1"
 }
