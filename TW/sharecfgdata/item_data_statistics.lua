@@ -121026,7 +121026,7 @@ _G.pg.item_data_statistics[59157] = {
 }
 
 _G.pg.item_data_statistics[59158] = {
-	display = "用於『小騎士的訓練日 』活動提升角色好感，活動結束後將會消失",
+	display = "用於『小騎士的訓練日』活動提升角色好感，活動結束後將會消失",
 	name = "友好度-小聲望",
 	max_num = 0,
 	type = 98,

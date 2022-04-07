@@ -4081,7 +4081,7 @@ _G.pg.gametip.create_player_success = {
 }
 
 _G.pg.gametip.login_newPlayerScene_invalideName = {
-	tip = "角色名字含有無效字元"
+	tip = "角色名字含有敏感字元"
 }
 
 _G.pg.gametip.login_newPlayerScene_name_tooShort = {

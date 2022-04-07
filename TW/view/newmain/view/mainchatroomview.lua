@@ -78,8 +78,6 @@ end
 
 function slot0.Refresh(slot0)
 	slot0:Update()
-	setActive(slot0._tf, false)
-	setActive(slot0._tf, true)
 end
 
 function slot0.Disable(slot0)
@@ -149,7 +147,7 @@ function slot0.MatchEmoji(slot0, slot1, slot2)
 	end
 
 	if not slot2.emojiId then
-		slot4 = slot5 and shortenString(slot4, 20) or shortenString(slot4, 24)
+		slot4 = slot5 and shortenString(slot4, 16) or shortenString(slot4, 20)
 	end
 
 	return string.gsub(slot4, ChatConst.EmojiIconCodeMatch, function (slot0)
