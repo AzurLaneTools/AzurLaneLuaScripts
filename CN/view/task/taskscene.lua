@@ -53,10 +53,6 @@ function slot0.getUIName(slot0)
 	return "TaskScene"
 end
 
-function slot0.preload(slot0, slot1)
-	PoolMgr.GetInstance():PreloadUI("TaskListPage", slot1)
-end
-
 function slot0.setTaskVOs(slot0, slot1)
 	slot0.contextData.taskVOsById = slot1
 end

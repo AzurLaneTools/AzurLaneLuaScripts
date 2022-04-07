@@ -115,17 +115,7 @@ function slot0.OnSkip(slot0)
 end
 
 function slot0.OnFinishAll(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.list) do
-		if slot6:getFinishTime() < pg.TimeMgr.GetInstance():GetServerTime() then
-			table.insert(slot1, function (slot0)
-				uv0:emit(CommissionInfoMediator.FINISH_CLASS, uv1.id, Student.CANCEL_TYPE_AUTO, slot0)
-			end)
-		end
-	end
-
-	seriesAsync(slot1)
+	slot0:emit(CommissionInfoMediator.FINISH_CLASS_ALL)
 end
 
 return slot0
