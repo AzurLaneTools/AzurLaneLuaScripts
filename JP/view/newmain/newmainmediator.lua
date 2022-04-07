@@ -130,6 +130,7 @@ function slot0.listNotificationInterests(slot0)
 		ChatProxy.NEW_MSG,
 		GuildProxy.NEW_MSG_ADDED,
 		GAME.GET_GUILD_INFO_DONE,
+		GAME.GET_GUILD_CHAT_LIST_DONE,
 		GAME.BEGIN_STAGE_DONE,
 		ChapterProxy.CHAPTER_TIMESUP,
 		TaskProxy.TASK_ADDED,
@@ -181,7 +182,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OnUpdatePlayer()
 	elseif slot2 == GAME.ON_OPEN_INS_LAYER then
 		slot0.viewComponent:emit(uv0.SKIP_INS)
-	elseif slot2 == NotificationProxy.FRIEND_REQUEST_ADDED or slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED or slot2 == FriendProxy.FRIEND_NEW_MSG or slot2 == FriendProxy.FRIEND_UPDATED or slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED or slot2 == GAME.GET_GUILD_INFO_DONE then
+	elseif slot2 == NotificationProxy.FRIEND_REQUEST_ADDED or slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED or slot2 == FriendProxy.FRIEND_NEW_MSG or slot2 == FriendProxy.FRIEND_UPDATED or slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED or slot2 == GAME.GET_GUILD_INFO_DONE or GAME.GET_GUILD_CHAT_LIST_DONE then
 		slot0.viewComponent:OnUpdateChatMsg()
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
