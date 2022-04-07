@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 			slot2 = slot1:getData()
 
 			slot2:setName(uv0)
-			slot1:updateDrom(slot2)
+			slot1:updateDrom(slot2, BackYardConst.DORM_UPDATE_TYPE_NAME)
 			uv1:sendNotification(GAME.BACKYARD_RENAME_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_rename_success"))
 		else

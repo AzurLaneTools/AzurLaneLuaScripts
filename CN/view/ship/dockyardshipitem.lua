@@ -168,30 +168,30 @@ function slot0.flush(slot0)
 			setActive(slot0.iconStatus, false)
 		end
 
-		if LOCK_PROPOSE then
-			return
-		end
-
-		slot7, slot8 = slot1:getIntimacyIcon()
-
-		if slot8 and not slot4 then
+		if not LOCK_PROPOSE then
 			if slot0.proposeTF.childCount == 0 then
-				slot0.proposeModel = LoadAndInstantiateSync("UI", "heartShipCard")
-				slot0.sg = GetComponent(slot0.proposeModel, "SkeletonGraphic")
+				if slot0:CheckHeartState() and not slot0.heartLoading then
+					slot0.heartLoading = true
 
-				slot0.proposeModel.transform:SetParent(slot0.proposeTF, false)
+					LoadAndInstantiateAsync("UI", "heartShipCard", function (slot0)
+						uv0.proposeModel = slot0
+						uv0.sg = GetComponent(uv0.proposeModel, "SkeletonGraphic")
 
-				slot10 = GetComponent(slot0.proposeModel, typeof(RectTransform))
-				slot10.localScale = Vector3(0.5, 0.5, 0.5)
-				slot10.rect.height = 40
-				slot10.rect.width = 40
-				slot10.localPosition = Vector3(0, 0, 0)
-				slot10.localRotation = Vector3(0, 0, 0)
+						uv0.proposeModel.transform:SetParent(uv0.proposeTF, false)
+
+						slot1 = GetComponent(uv0.proposeModel, typeof(RectTransform))
+						slot1.localScale = Vector3(0.5, 0.5, 0.5)
+						slot1.rect.height = 40
+						slot1.rect.width = 40
+						slot1.localPosition = Vector3(0, 0, 0)
+						slot1.localRotation = Vector3(0, 0, 0)
+						uv0.sg.enabled = uv0:CheckHeartState()
+						uv0.heartLoading = false
+					end)
+				end
+			else
+				slot0.sg.enabled = slot0:CheckHeartState()
 			end
-
-			slot0.sg.enabled = true
-		elseif slot0.proposeTF.childCount ~= 0 then
-			slot0.sg.enabled = false
 		end
 
 		if slot0.hpBar then
@@ -210,6 +210,16 @@ function slot0.flush(slot0)
 	slot0.quit:SetActive(not slot2)
 
 	slot0.btn.targetGraphic = slot2 and slot0.imageFrame or slot0.imageQuit
+end
+
+function slot0.CheckHeartState(slot0)
+	if tobool(slot0.shipVO) then
+		slot2, slot3 = slot0.shipVO:getIntimacyIcon()
+
+		return slot3 and not slot0.shipVO:isActivityNpc()
+	end
+
+	return false
 end
 
 slot2 = {

@@ -138,7 +138,7 @@ function slot0.play(slot0, slot1, slot2, slot3, slot4)
 
 	slot5, slot6 = slot0:canPlay()
 
-	print("play guide >>", slot1, slot5)
+	originalPrint("play guide >>", slot1, slot5)
 
 	slot0.erroCallback = slot4
 
@@ -792,7 +792,7 @@ function slot0.Finder(slot0)
 
 				if uv2 < uv0 then
 					if uv3 == 0 then
-						print("not found ui >>", uv4.path)
+						originalPrint("not found ui >>", uv4.path)
 						uv5:Clear()
 						uv4.notFound()
 

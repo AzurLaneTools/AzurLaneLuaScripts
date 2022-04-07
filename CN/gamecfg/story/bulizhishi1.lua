@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看两位都是英雄，不如我们结拜为异性姐妹，共同干出一番大事如何？",
+			say = "我看两位都是英雄，不如我们结拜为异姓姐妹，共同干出一番大事如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

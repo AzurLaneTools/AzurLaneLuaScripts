@@ -332,7 +332,6 @@ slot0.TaskTypePressingMap = 12
 slot0.FleetRedeploy = 1
 slot0.FleetExpansion = 2
 slot0.QuadBlinkDuration = 1
-slot0.QuadSpriteAtlas = "world/object/atlas"
 slot0.QuadSpriteWhite = "cell_white"
 slot0.TransportDisplayNormal = 0
 slot0.TransportDisplayGuideEnable = 1

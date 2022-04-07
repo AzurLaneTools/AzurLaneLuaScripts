@@ -14,7 +14,7 @@ end
 
 function GoLoginScene()
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -25,7 +25,7 @@ end
 
 function SDKLogined(slot0, slot1, slot2, slot3)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -51,7 +51,7 @@ end
 
 function SDKLogouted(slot0)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -63,7 +63,7 @@ end
 
 function PaySuccess(slot0, slot1)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -77,7 +77,7 @@ end
 
 function PayFailed(slot0, slot1)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -124,7 +124,7 @@ end
 
 function OnSDKInitFailed(slot0)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -138,7 +138,7 @@ end
 
 function ShowMsgBox(slot0)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -164,9 +164,23 @@ end
 function CloseAgreementView()
 end
 
+function OnDeleteAccountSuccess()
+	pg.m02:sendNotification(GAME.LOGOUT, {
+		code = 0
+	})
+end
+
+function OnDeleteAccountDisable()
+	pg.TipsMgr.GetInstance():ShowTips("功能未开启")
+end
+
+function OnDeleteAccountFailed()
+	pg.TipsMgr.GetInstance():ShowTips("注销失败")
+end
+
 return {
 	CheckPretest = function ()
-		return NetConst.GATEWAY_HOST == "line1-test-login-ios-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or NetConst.GATEWAY_HOST == "line1-test-login-bili-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or Application.isEditor
+		return NetConst.GATEWAY_HOST == "line1-test-login-ios-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or NetConst.GATEWAY_HOST == "line1-test-login-bili-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or IsUnityEditor
 	end,
 	CheckWorldTest = function ()
 		return NetConst.GATEWAY_PORT == 10080 and NetConst.GATEWAY_HOST == "blhx-test-world-ios-game.bilibiligame.net"
@@ -174,8 +188,6 @@ return {
 	InitSDK = function ()
 		if PLATFORM_CHT == PLATFORM_CODE then
 			uv0.sandboxKey = uv1
-		else
-			uv0.sandboxKey = uv2
 		end
 
 		uv0:Init()
@@ -231,6 +243,9 @@ return {
 	end,
 	BindCPU = function ()
 	end,
+	DeleteAccount = function ()
+		uv0:DeleteAccount()
+	end,
 	OnAndoridBackPress = function ()
 		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI or slot0 == PACKAGE_TYPE_SHAJOY then
 			if not IsNil(pg.MsgboxMgr.GetInstance()._go) then
@@ -268,14 +283,14 @@ return {
 	GetBiliServerId = function ()
 		slot0 = uv0.serverId
 
-		print("serverId : " .. slot0)
+		originalPrint("serverId : " .. slot0)
 
 		return slot0
 	end,
 	GetChannelUID = function ()
 		slot0 = uv0.channelUID
 
-		print("channelUID : " .. slot0)
+		originalPrint("channelUID : " .. slot0)
 
 		return slot0
 	end,

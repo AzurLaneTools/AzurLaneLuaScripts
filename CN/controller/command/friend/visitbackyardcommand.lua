@@ -41,6 +41,10 @@ function slot0.execute(slot0, slot1)
 		if not getProxy(DormProxy).friendData then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("data_erro"))
 		else
+			if not slot2.name or slot2.name == "" then
+				slot2.name = uv1.name
+			end
+
 			uv0:sendNotification(GAME.VISIT_BACKYARD_DONE, {
 				ships = slot1,
 				player = uv1,

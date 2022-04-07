@@ -163,7 +163,7 @@ function slot1.PushOil(slot0)
 end
 
 function slot1.PushBackyard(slot0)
-	if uv0.TimeMgr.GetInstance():GetServerTime() < getProxy(DormProxy):getData():getFoodLeftTime() then
+	if uv0.TimeMgr.GetInstance():GetServerTime() < getProxy(DormProxy):getRawData():getFoodLeftTime() then
 		slot3 = uv0.push_data_template[slot0.PUSH_TYPE_BACKYARD]
 
 		slot0:Push(slot3.title, slot3.content, slot2)
@@ -252,5 +252,5 @@ function slot1.PushGuildMissionFormation(slot0)
 end
 
 function slot1.log(slot0, slot1, slot2, slot3)
-	print(slot1, " - ", slot2, " - ", slot3 - os.time(), "s后推送")
+	originalPrint(slot1, " - ", slot2, " - ", slot3 - os.time(), "s后推送")
 end

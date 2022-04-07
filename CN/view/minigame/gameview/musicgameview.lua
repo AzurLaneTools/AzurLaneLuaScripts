@@ -1689,7 +1689,7 @@ function slot0.gameStepNew(slot0)
 	slot0.downingright_lastflag = slot0.downingright_flag
 	slot0.downingleft_lastflag = slot0.downingleft_flag
 
-	if Application.isEditor then
+	if IsUnityEditor then
 		if slot1 == 2 then
 			slot0.downingright_flag = Input.GetKey(KeyCode.J)
 			slot0.downingleft_flag = Input.GetKey(KeyCode.F)
@@ -1847,7 +1847,7 @@ function slot0.gameStep(slot0)
 	slot0.downingleft_lastflag = slot0.downingleft_flag
 	slot1 = slot0.game_dgree
 
-	if Application.isEditor then
+	if IsUnityEditor then
 		if slot1 == 2 then
 			slot0.downingright_flag = Input.GetKey(KeyCode.J)
 			slot0.downingleft_flag = Input.GetKey(KeyCode.F)

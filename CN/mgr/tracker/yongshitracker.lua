@@ -26,7 +26,7 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 	end
 
 	if slot1 == TRACKING_USER_LEVELUP then
-		print("tracking lvl:" .. slot3)
+		originalPrint("tracking lvl:" .. slot3)
 
 		slot5 = AiriUserEvent.New(slot4)
 
@@ -39,7 +39,7 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 		slot5:AddParam("user_id", slot2)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	elseif slot1 == TRACKING_PURCHASE_FIRST then
-		print("order id : " .. slot3)
+		originalPrint("order id : " .. slot3)
 
 		slot5 = AiriUserEvent.New(slot4)
 

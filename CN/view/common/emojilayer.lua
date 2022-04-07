@@ -48,7 +48,8 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	slot0:display()
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData()
+		groupName = slot0:getGroupNameFromData(),
+		weight = LayerWeightConst.SECOND_LAYER
 	})
 end
 

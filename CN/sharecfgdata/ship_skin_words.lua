@@ -44959,7 +44959,7 @@ _G.pg.ship_skin_words[607020] = {
 	upgrade = "呼啊......",
 	voice_key = 60702,
 	headtouch = "……指挥官，头发，很好玩么？",
-	feeling2 = "帝国的伟大是不需要理由的，是自然的、当然的、无需怀疑的……嗯，是维内托姐是这么说的。",
+	feeling2 = "帝国的伟大是不需要理由的，是自然的、当然的、无需怀疑的……嗯，维内托姐是这么说的。",
 	login = "你好啊。呵欠…我要睡了，出击的时候再叫我吧",
 	vote = "",
 	hp_warning = "……伟大的帝国现在才进入认真模式哦！",
@@ -53449,7 +53449,7 @@ _G.pg.ship_skin_words[900311] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900313] = {
+_G.pg.ship_skin_words[900324] = {
 	feeling1 = "居然能让本大人不喜欢你，要从另一个角度夸奖你一下！但是本大人才不会怒斥你，哇哈哈！享受这种虚无感吧！",
 	feeling3 = "既然你这么有耐心，告诉你一个小秘密吧，妹妹虽然总是自称比我聪明，但她才是最笨的那一个。哇哈哈，这就是长姐的仁慈呀喵！",
 	lose = "说起来为什么我会上战场purin.purin？！",
@@ -53478,7 +53478,7 @@ _G.pg.ship_skin_words[900313] = {
 	login = "左钻钻，右钻钻，有事没事都purin.purin一下~",
 	vote = "",
 	hp_warning = "",
-	id = 900313,
+	id = 900324,
 	detail = "这并不能证明你不是咸鱼purin！",
 	couple_encourage = {}
 }

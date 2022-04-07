@@ -4,10 +4,12 @@ function slot0.getUIName(slot0)
 	return "NewGuildUI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
-
-	slot0._resPanel:setResources(slot1)
 end
 
 function slot0.init(slot0)
@@ -17,11 +19,6 @@ function slot0.init(slot0)
 	slot0.joinBtn = slot0:findTF("create_panel/frame/join_btn")
 	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0.publicGuildBtn = slot0:findTF("create_panel/frame/public_btn")
-	slot0._playerResOb = slot0:findTF("playerRes", slot0.topPanel)
-	slot0._resPanel = PlayerResource.New()
-
-	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
-
 	slot0.backBtn = slot0:findTF("back", slot0.topPanel)
 
 	setActive(slot0.factionPanel, false)
@@ -206,12 +203,6 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
-	if slot0._resPanel then
-		slot0._resPanel:exit()
-
-		slot0._resPanel = nil
-	end
-
 	slot0.mainRedPage:Destroy()
 	slot0.mainBluePage:Destroy()
 end

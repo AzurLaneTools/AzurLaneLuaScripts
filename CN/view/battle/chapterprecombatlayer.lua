@@ -8,8 +8,11 @@ function slot0.getUIName(slot0)
 	return "ChapterPreCombatUI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.init(slot0)
-	slot0.eventTriggers = {}
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._popup = slot0:findTF("right/popup")
 	slot0._costText = slot0:findTF("right/popup/Text")
@@ -35,17 +38,10 @@ function slot0.init(slot0)
 		slot0._gridTFs[TeamType.Main][slot5] = slot0._gridFrame:Find("main_" .. slot5)
 	end
 
-	slot0._nextPage = slot0:findTF("middle/nextPage")
-	slot0._prevPage = slot0:findTF("middle/prevPage")
 	slot0._heroContainer = slot1:Find("HeroContainer")
 	slot0._strategy = slot1:Find("strategy")
 
 	setActive(slot0._strategy, true)
-
-	slot0._playerResOb = slot0:findTF("top/playerRes")
-	slot0._resPanel = PlayerResource.New()
-
-	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
 
 	slot0._spoilsContainer = slot0:findTF("right/infomation/spoils/items/items_container")
 	slot0._goals = slot0:findTF("right/infomation/goal")
@@ -54,8 +50,13 @@ function slot0.init(slot0)
 	slot0._starTpl = slot0:getTpl("star_tpl")
 	slot0._middle = slot0:findTF("middle")
 	slot0._right = slot0:findTF("right")
-	slot0.energyDescTF = slot0:findTF("energy_desc")
-	slot0.energyDescTextTF = slot0:findTF("energy_desc/Text")
+	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfo, slot0._gridTFs)
+
+	setmetatable({
+		Shift = function (slot0, slot1, slot2)
+		end
+	}, slot0._formationLogic)
+
 	slot0._fleet = slot0:findTF("middle/fleet")
 	slot0._ship_tpl = findTF(slot0._fleet, "shiptpl")
 	slot0._empty_tpl = findTF(slot0._fleet, "emptytpl")
@@ -78,6 +79,7 @@ function slot0.init(slot0)
 	setAnchoredPosition(slot0._right, {
 		x = 470
 	})
+	slot0:Register()
 end
 
 function slot0.uiStartAnimating(slot0)
@@ -171,23 +173,92 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.onBackPressed(slot0)
-	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		slot0:hideStrategyInfo()
-	else
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(slot0._backBtn)
-	end
+function slot0.Register(slot0)
+	slot1 = slot0._formationLogic
+
+	slot1:AddHeroInfoModify(function (slot0, slot1)
+		setAnchoredPosition(slot0, {
+			x = 0,
+			y = 0
+		})
+		SetActive(slot0, true)
+
+		slot0.name = "info"
+		slot3 = findTF(findTF(slot0, "info"), "stars")
+		slot5 = findTF(slot2, "energy")
+
+		if slot1:getEnergy() <= Ship.ENERGY_MID then
+			slot6, slot7 = slot1:getEnergyPrint()
+
+			if not GetSpriteFromAtlas("energy", slot6) then
+				warning("找不到疲劳")
+			end
+
+			setImageSprite(slot5, slot8)
+		end
+
+		setActive(slot5, slot4)
+
+		for slot10 = 1, slot1:getStar() do
+			cloneTplTo(uv0._starTpl, slot3)
+		end
+
+		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then
+			warning("找不到船形, shipConfigId: " .. slot1.configId)
+		end
+
+		setImageSprite(findTF(slot2, "type"), slot7, true)
+		setText(findTF(slot2, "frame/lv_contain/lv"), slot1.level)
+
+		slot8 = findTF(slot2, "blood")
+		slot10 = findTF(slot8, "fillarea/red")
+
+		setActive(findTF(slot8, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
+		setActive(slot10, slot1.hpRant < ChapterConst.HpGreen)
+
+		(ChapterConst.HpGreen <= slot1.hpRant and slot9 or slot10):GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
+
+		setActive(slot2:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
+
+		if slot13 then
+			slot17 = tostring(slot13 / 100)
+
+			if slot13 % 100 > 0 then
+				slot17 = slot17 .. "." .. tostring(slot16)
+			end
+
+			setText(slot14:Find("text"), string.format("EXP +%s%%", slot17))
+		end
+	end)
+
+	slot1 = slot0._formationLogic
+
+	slot1:AddShiftOnly(function (slot0)
+		uv0:updateView(false)
+	end)
+
+	slot1 = slot0._formationLogic
+
+	slot1:AddEndDrag(function ()
+		uv0:emit(ChapterPreCombatMediator.ON_SWITCH_SHIP, uv0.chapter.fleet)
+	end)
+
+	slot1 = slot0._formationLogic
+
+	slot1:AddCheckRemove(function (slot0, slot1)
+		slot0()
+	end)
 end
 
 function slot0.setPlayerInfo(slot0, slot1)
-	slot0._resPanel:setResources(slot1)
 end
 
 function slot0.updateChapter(slot0, slot1)
 	slot0.chapter = slot1
+	slot2 = slot0.chapter.fleet
 
+	slot0._formationLogic:SetFleetVO(slot2)
+	slot0._formationLogic:SetShipVOs(slot2.ships)
 	slot0:updateView(true)
 end
 
@@ -196,40 +267,22 @@ function slot0.setSubFlag(slot0, slot1)
 end
 
 function slot0.updateView(slot0, slot1)
-	slot2 = nil
+	slot0._formationLogic:ResetGrid(TeamType.Vanguard, true)
+	slot0._formationLogic:ResetGrid(TeamType.Main, true)
+	SetActive(slot0._gridTFs[TeamType.Main][1]:Find("flag"), true)
 
-	coroutine.wrap(function ()
-		pg.UIMgr.GetInstance():LoadingOn()
-		uv0:resetGrid(TeamType.Vanguard)
-		uv0:resetGrid(TeamType.Main)
-		SetActive(uv0._gridTFs[TeamType.Main][1]:Find("flag"), true)
+	if slot1 then
+		slot2 = slot0.chapter.fleet
 
-		if uv1 then
-			slot0 = uv0.chapter.fleet
-			slot1 = uv0.chapter
-			slot2 = uv0
+		slot0:updateStageView(slot0.chapter:getStageId(slot2.line.row, slot2.line.column))
+		slot0._formationLogic:LoadAllCharacter()
+	else
+		slot0._formationLogic:SetAllCharacterPos()
+	end
 
-			slot2:updateStageView(slot1:getStageId(slot0.line.row, slot0.line.column))
-			onNextTick(uv2)
-			coroutine.yield()
-
-			slot2 = uv0
-
-			slot2:loadAllCharacter(function ()
-				onNextTick(uv0)
-			end)
-			coroutine.yield()
-		else
-			uv0:setAllCharacterPos(true)
-		end
-
-		uv0:updateBattleFleetView()
-		onNextTick(uv2)
-		coroutine.yield()
-		uv0:updateStrategyIcon()
-		uv0:displayFleetInfo()
-		pg.UIMgr.GetInstance():LoadingOff()
-	end)()
+	slot0:updateBattleFleetView()
+	slot0:updateStrategyIcon()
+	slot0:displayFleetInfo()
 end
 
 function slot0.updateStageView(slot0, slot1)
@@ -359,344 +412,6 @@ function slot0.updateBattleFleetView(slot0)
 
 	slot1(slot0._fleet:Find("main"), slot2:getShipsByTeam(TeamType.Main, true))
 	slot1(slot0._fleet:Find("vanguard"), slot2:getShipsByTeam(TeamType.Vanguard, true))
-end
-
-function slot0.loadAllCharacter(slot0, slot1)
-	removeAllChildren(slot0._heroContainer)
-
-	slot0._characterList = {
-		[TeamType.Vanguard] = {},
-		[TeamType.Main] = {}
-	}
-
-	function slot2(slot0, slot1, slot2, slot3)
-		slot4 = slot0.model
-
-		if uv0.exited then
-			slot0:Dispose()
-
-			return
-		end
-
-		uv0._characterList[slot2][slot3] = slot0
-
-		tf(slot4):SetParent(uv0._heroContainer, false)
-
-		tf(slot4).localScale = Vector3(0.65, 0.65, 1)
-
-		pg.ViewUtils.SetLayer(tf(slot4), Layer.UI)
-		uv0:enabledCharacter(slot4, true, slot1, slot2)
-		uv0:setCharacterPos(slot2, slot3, slot4)
-		uv0:sortSiblingIndex()
-
-		slot5 = cloneTplTo(uv0._heroInfo, slot4)
-
-		setAnchoredPosition(slot5, {
-			x = 0,
-			y = 0
-		})
-
-		slot5.localScale = Vector3(2, 2, 1)
-
-		SetActive(slot5, true)
-
-		slot5.name = "info"
-		slot7 = findTF(findTF(slot5, "info"), "stars")
-		slot9 = findTF(slot6, "energy")
-
-		if slot1:getEnergy() <= Ship.ENERGY_MID then
-			slot10, slot11 = slot1:getEnergyPrint()
-
-			if not GetSpriteFromAtlas("energy", slot10) then
-				warning("找不到疲劳")
-			end
-
-			setImageSprite(slot9, slot12)
-		end
-
-		setActive(slot9, slot8)
-
-		for slot14 = 1, slot1:getStar() do
-			cloneTplTo(uv0._starTpl, slot7)
-		end
-
-		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then
-			warning("找不到船形, shipConfigId: " .. slot1.configId)
-		end
-
-		setImageSprite(findTF(slot6, "type"), slot11, true)
-		setText(findTF(slot6, "frame/lv_contain/lv"), slot1.level)
-
-		slot12 = findTF(slot6, "blood")
-		slot14 = findTF(slot12, "fillarea/red")
-
-		setActive(findTF(slot12, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
-		setActive(slot14, slot1.hpRant < ChapterConst.HpGreen)
-
-		(ChapterConst.HpGreen <= slot1.hpRant and slot13 or slot14):GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
-
-		setActive(slot6:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
-
-		if slot17 then
-			slot21 = tostring(slot17 / 100)
-
-			if slot17 % 100 > 0 then
-				slot21 = slot21 .. "." .. tostring(slot20)
-			end
-
-			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
-		end
-	end
-
-	function slot4(slot0)
-		for slot6, slot7 in ipairs(uv0.chapter.fleet:getShipsByTeam(slot0, false)) do
-			table.insert(uv1, function (slot0)
-				slot1 = SpineRole.New(uv0)
-
-				slot1:Load(function ()
-					uv0(uv1, uv2, uv3, uv4)
-					onNextTick(uv5)
-				end)
-			end)
-		end
-	end
-
-	slot4(TeamType.Vanguard)
-	slot4(TeamType.Main)
-	seriesAsync({}, function (slot0)
-		if uv0 then
-			uv0()
-		end
-	end)
-end
-
-function slot0.showEnergyDesc(slot0, slot1, slot2)
-	if LeanTween.isTweening(go(slot0.energyDescTF)) then
-		LeanTween.cancel(go(slot0.energyDescTF))
-
-		slot0.energyDescTF.localScale = Vector3.one
-	end
-
-	setText(slot0.energyDescTextTF, slot2)
-
-	slot0.energyDescTF.position = slot1
-
-	setActive(slot0.energyDescTF, true)
-
-	slot3 = LeanTween.scale(slot0.energyDescTF, Vector3.zero, 0.2)
-	slot3 = slot3:setDelay(1)
-	slot3 = slot3:setFrom(Vector3.one)
-
-	slot3:setOnComplete(System.Action(function ()
-		uv0.energyDescTF.localScale = Vector3.one
-
-		setActive(uv0.energyDescTF, false)
-	end))
-end
-
-function slot0.setAllCharacterPos(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0._characterList[TeamType.Vanguard]) do
-		slot0:setCharacterPos(TeamType.Vanguard, slot5, tf(slot6.model), slot1)
-	end
-
-	for slot5, slot6 in ipairs(slot0._characterList[TeamType.Main]) do
-		slot0:setCharacterPos(TeamType.Main, slot5, tf(slot6.model), slot1)
-	end
-
-	slot0:sortSiblingIndex()
-end
-
-function slot0.setCharacterPos(slot0, slot1, slot2, slot3, slot4)
-	SetActive(slot3, true)
-
-	slot6 = slot0._gridTFs[slot1][slot2].localPosition
-
-	LeanTween.cancel(go(slot3))
-
-	if slot4 then
-		tf(slot3).localPosition = Vector3(slot6.x + 2, slot6.y - 80, slot6.z)
-
-		LeanTween.moveLocalY(go(slot3), slot6.y - 110, 0.5):setDelay(0.5)
-	else
-		tf(slot3).localPosition = Vector3(slot6.x + 2, slot6.y - 110, slot6.z)
-	end
-
-	SetActive(slot5:Find("shadow"), true)
-	slot3:GetComponent("SpineAnimUI"):SetAction("stand", 0)
-end
-
-function slot0.resetGrid(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0._gridTFs[slot1]) do
-		SetActive(slot7:Find("shadow"), false)
-	end
-end
-
-function slot0.switchToEditMode(slot0)
-	function slot1(slot0)
-		for slot4, slot5 in ipairs(slot0) do
-			if tf(slot5.model):Find("mouseChild") then
-				slot8 = slot7:GetComponent("EventTriggerListener")
-				uv0.eventTriggers[slot8] = true
-
-				if slot8 then
-					slot8:RemovePointEnterFunc()
-				end
-
-				if slot4 == uv0._shiftIndex then
-					slot7:GetComponent(typeof(Image)).enabled = true
-				end
-			end
-		end
-	end
-
-	slot1(slot0._characterList[TeamType.Vanguard])
-	slot1(slot0._characterList[TeamType.Main])
-
-	slot0._shiftIndex = nil
-
-	slot0:updateView(false)
-end
-
-function slot0.switchToShiftMode(slot0, slot1, slot2)
-	for slot6 = 1, 3 do
-		setActive(slot0._gridTFs[TeamType.Vanguard][slot6]:Find("tip"), false)
-		setActive(slot0._gridTFs[TeamType.Main][slot6]:Find("tip"), false)
-		setActive(slot0._gridTFs[slot2][slot6]:Find("shadow"), false)
-	end
-
-	for slot7, slot8 in ipairs(slot0._characterList[slot2]) do
-		if slot8.model ~= slot1 then
-			LeanTween.moveLocalY(slot9, slot0._gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
-
-			slot11 = tf(slot9)
-			slot11 = slot11:Find("mouseChild")
-			slot11 = slot11:GetComponent("EventTriggerListener")
-			slot0.eventTriggers[slot11] = true
-
-			slot11:AddPointEnterFunc(function ()
-				for slot3, slot4 in ipairs(uv0) do
-					if slot4.model == uv1 then
-						uv2:shift(uv2._shiftIndex, slot3, uv3)
-
-						break
-					end
-				end
-			end)
-		else
-			slot0._shiftIndex = slot7
-			tf(slot9):Find("mouseChild"):GetComponent(typeof(Image)).enabled = false
-		end
-
-		slot9:GetComponent("SpineAnimUI"):SetAction("normal", 0)
-	end
-end
-
-function slot0.shift(slot0, slot1, slot2, slot3)
-	slot4 = slot0._characterList[slot3]
-	slot6 = slot0.chapter.fleet
-	slot7 = slot6:getShipsByTeam(slot3, false)
-	slot8 = slot4[slot2].model
-	slot10 = slot0._gridTFs[slot3][slot1].localPosition
-	tf(slot8).localPosition = Vector3(slot10.x + 2, slot10.y - 80, slot10.z)
-
-	LeanTween.cancel(slot8)
-
-	slot4[slot2] = slot4[slot1]
-	slot4[slot1] = slot4[slot2]
-
-	slot6:switchShip(slot7[slot1].id, slot7[slot2].id)
-
-	slot0._shiftIndex = slot2
-
-	slot0:sortSiblingIndex()
-end
-
-function slot0.sortSiblingIndex(slot0)
-	slot1 = 3
-	slot2 = 0
-
-	while slot1 > 0 do
-		slot4 = slot0._characterList[TeamType.Vanguard][slot1]
-
-		if slot0._characterList[TeamType.Main][slot1] then
-			tf(slot3.model):SetSiblingIndex(slot2)
-
-			slot2 = slot2 + 1
-		end
-
-		if slot4 then
-			tf(slot4.model):SetSiblingIndex(slot2)
-
-			slot2 = slot2 + 1
-		end
-
-		slot1 = slot1 - 1
-	end
-end
-
-function slot0.enabledTeamCharacter(slot0, slot1, slot2)
-	slot4 = slot0.chapter.fleet[slot1]
-
-	for slot8, slot9 in ipairs(slot0._characterList[slot1]) do
-		slot0:enabledCharacter(slot9.model, slot2, slot4[slot8], slot1)
-	end
-end
-
-function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
-	if slot2 then
-		slot5, slot6, slot7 = tf(slot1):Find("mouseChild")
-
-		if slot5 then
-			SetActive(slot5, true)
-		else
-			slot5 = GameObject("mouseChild")
-			slot8 = tf(slot5)
-
-			slot8:SetParent(tf(slot1))
-
-			tf(slot5).localPosition = Vector3.zero
-			slot6 = GetOrAddComponent(slot5, "ModelDrag")
-			slot7 = GetOrAddComponent(slot5, "EventTriggerListener")
-			slot0.eventTriggers[slot7] = true
-
-			slot6:Init()
-
-			slot8 = slot5:GetComponent(typeof(RectTransform))
-			slot8.sizeDelta = Vector2(2.5, 2.5)
-			slot8.pivot = Vector2(0.5, 0)
-			slot8.anchoredPosition = Vector2(0, 0)
-			slot9 = 0
-			slot10 = 0
-			slot11 = 0
-			slot12 = 0
-
-			slot7:AddBeginDragFunc(function ()
-				uv0 = UnityEngine.Screen.width
-				uv1 = UnityEngine.Screen.height
-				uv2 = rtf(uv3._tf).rect.width / uv0
-				uv4 = rtf(uv3._tf).rect.height / uv1
-
-				LeanTween.cancel(go(uv5))
-				uv3:switchToShiftMode(uv5, uv6)
-				uv5:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
-				tf(uv5):SetParent(uv3._moveLayer, false)
-				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
-			end)
-			slot7:AddDragFunc(function (slot0, slot1)
-				rtf(uv0).anchoredPosition = Vector2((slot1.position.x - uv1 / 2) * uv2 + 20, (slot1.position.y - uv3 / 2) * uv4 - 20)
-			end)
-			slot7:AddDragEndFunc(function (slot0, slot1)
-				uv0:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
-				tf(uv0):SetParent(uv1._heroContainer, false)
-				uv1:emit(ChapterPreCombatMediator.ON_SWITCH_SHIP, uv1.chapter.fleet)
-				uv1:switchToEditMode()
-				uv1:sortSiblingIndex()
-				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
-			end)
-		end
-	else
-		SetActive(tf(slot1):Find("mouseChild"), false)
-	end
 end
 
 function slot0.displayFleetInfo(slot0)
@@ -846,43 +561,23 @@ function slot0.hideStrategyInfo(slot0)
 	end
 end
 
-function slot0.recycleCharacterList(slot0, slot1, slot2)
-	for slot6, slot7 in ipairs(slot1) do
-		if slot2[slot6] then
-			slot2[slot6]:Dispose()
-
-			slot2[slot6] = nil
-		end
+function slot0.onBackPressed(slot0)
+	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
+		slot0:hideStrategyInfo()
+	else
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
+		triggerButton(slot0._backBtn)
 	end
 end
 
 function slot0.willExit(slot0)
-	if slot0._resPanel then
-		slot0._resPanel:exit()
-
-		slot0._resPanel = nil
-	end
-
-	if slot0.eventTriggers then
-		for slot4, slot5 in pairs(slot0.eventTriggers) do
-			ClearEventTrigger(slot4)
-		end
-
-		slot0.eventTriggers = nil
-	end
-
 	setParent(slot0.strategyInfo, slot0._tf)
+	slot0._formationLogic:Destroy()
 
-	if slot0.tweens then
-		cancelTweens(slot0.tweens)
-	end
+	slot0._formationLogic = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-
-	slot1 = slot0.chapter.fleet
-
-	slot0:recycleCharacterList(slot1:getShipsByTeam(TeamType.Main, false), slot0._characterList[TeamType.Main])
-	slot0:recycleCharacterList(slot1:getShipsByTeam(TeamType.Vanguard, false), slot0._characterList[TeamType.Vanguard])
 end
 
 return slot0

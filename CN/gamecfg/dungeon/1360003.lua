@@ -383,9 +383,9 @@ return {
 						vanguard_unitList = {
 							{
 								exp = 10,
-								configId = 900313,
-								tmpID = 900313,
-								skinId = 900313,
+								configId = 900324,
+								tmpID = 900324,
+								skinId = 900324,
 								oil_at_end = 55,
 								id = 1,
 								level = 125,

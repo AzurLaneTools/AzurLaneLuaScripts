@@ -50,8 +50,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.filterData = _.select(slot0.filterConfig.all, function (slot0)
 		return uv0.filterConfig[slot0].is_view == 1
 	end)
-	slot0.totalThemeCnt = #slot0.filterData
-	slot0.themes = slot0:GetThemes()
+	slot0.themes = pg.furniture_data_template.get_id_list_by_themeId
 end
 
 function slot0.OnLoaded(slot0)
@@ -60,6 +59,11 @@ function slot0.OnLoaded(slot0)
 	slot0.sortContainer = slot0:findTF("bg/frame/sorts/sort_container")
 	slot0.filterContainer = slot0:findTF("bg/frame/filters/rect_view/conent/theme_panel")
 	slot0.selectedAllBtn = slot0:findTF("bg/frame/filters/rect_view/conent/all_panel/sort_tpl")
+
+	setText(slot0:findTF("bg/frame/title"), i18n("indexsort_sort"))
+	setText(slot0:findTF("bg/frame/title_filter"), i18n("indexsort_index"))
+	setText(slot0.selectedAllBtn:Find("Text"), i18n("index_all"))
+	setText(slot0:findTF("bg/frame/confirm_btn/Text"), i18n("word_ok"))
 end
 
 function slot0.setFilterData(slot0, slot1)
@@ -208,20 +212,6 @@ function slot0.isSelectedNone(slot0)
 	return #slot0.filterData == 0 and slot0.otherTFToggle.isOn == false
 end
 
-function slot0.GetThemes(slot0)
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(pg.furniture_data_template.all) do
-		if not slot2[slot1[slot7].themeId] then
-			slot2[slot8.themeId] = {}
-		end
-
-		table.insert(slot2[slot8.themeId], slot7)
-	end
-
-	return slot2
-end
-
 function slot0.filter(slot0)
 	if table.getCount(slot0.furnitures) == 0 then
 		return
@@ -328,16 +318,14 @@ function slot0.sort(slot0, slot1)
 		slot2[slot9] = slot2[slot9] + 1
 	end
 
-	slot4 = GetCanBePutFurnituresForThemeCommand.GetAllFloorFurnitures()
-
 	table.sort(slot1, function (slot0, slot1)
 		return uv0.SortForDecorate(slot0, slot1, {
 			uv1.sortData[1],
 			uv1.sortData[2],
 			uv1.dorm,
 			uv1.orderMode,
-			uv2,
-			uv3
+			{},
+			uv2
 		})
 	end)
 

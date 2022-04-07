@@ -10,6 +10,7 @@ function slot0.GenerateData(slot0)
 			slot0.parent = slot1.parent
 			slot0.scale = slot1.scale
 			slot0.gyro = slot0:GetShipSkinConfig().gyro or 0
+			slot0.shipL2dId = slot0:GetShipSkinConfig().ship_l2d_id
 			slot0.position = slot1.position + BuildVector3(slot0:GetShipSkinConfig().live2d_offset)
 		end,
 		GetShipName = function (slot0)
@@ -37,6 +38,93 @@ end
 slot1 = nil
 
 function slot2(slot0)
+	slot1 = {
+		ctor = function (slot0)
+			slot0.drawAbleName = uv0.draw_able_name
+			slot0.parameterName = uv0.parameter
+			slot0.mode = uv0.mode
+			slot0.startValue = uv0.start_value
+			slot0.range = uv0.range
+			slot0.offsetX = uv0.offset_x
+			slot0.offsetY = uv0.offset_y
+			slot0.smooth = uv0.smooth / 1000
+			slot0.revert = uv0.revert / 1000
+			slot0.ignoreReact = uv0.ignore_react == 1
+			slot0.gyro = uv0.gyro == 1
+			slot0.active = false
+			slot0.parameterCom = nil
+			slot0.parameterValue = slot0.startValue
+			slot0.parameterTargetValue = slot0.startValue
+			slot0.parameterSmooth = 0
+			slot0.mouseInputDown = Vector2(0, 0)
+		end,
+		startDrag = function (slot0)
+			if not slot0.active then
+				slot0.active = true
+				slot0.mouseInputDown = Input.mousePosition
+				slot0.parameterTargetValue = slot0.startValue
+			end
+		end,
+		stopDrag = function (slot0)
+			if slot0.active then
+				slot0.active = false
+				slot0.parameterTargetValue = slot0.startValue
+			end
+		end,
+		dispose = function (slot0)
+			slot0.active = false
+			slot0.parameterCom = nil
+			slot0.parameterValue = slot0.startValue
+			slot0.parameterTargetValue = slot0.startValue
+			slot0.parameterSmooth = 0
+			slot0.mouseInputDown = Vector2(0, 0)
+		end,
+		setParameterCom = function (slot0, slot1)
+			slot0.parameterCom = slot1
+		end,
+		getParameterValue = function (slot0)
+			if not slot0.parameterCom then
+				return nil
+			end
+
+			if slot0.active then
+				if slot0.gyro then
+					slot1 = Input.gyro and Input.gyro.attitude or Vector3.zero
+				else
+					slot1 = Input.mousePosition
+
+					if slot0.offsetX and slot0.offsetX ~= 0 then
+						slot0.parameterTargetValue = (slot1.x - slot0.mouseInputDown.x) / slot0.offsetX
+					elseif slot0.offsetX and slot0.offsetY ~= 0 then
+						slot0.parameterTargetValue = (slot1.y - slot0.mouseInputDown.y) / slot0.offsetY
+					else
+						return slot0.startValue
+					end
+
+					if slot0.parameterTargetValue and slot0.parameterTargetValue < slot0.range[1] then
+						slot0.parameterTargetValue = slot0.range[1]
+					elseif slot0.parameterTargetValue and slot0.range[2] < slot0.parameterTargetValue then
+						slot0.parameterTargetValue = slot0.range[2]
+					end
+				end
+			end
+
+			if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
+				return nil
+			end
+
+			slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
+
+			return slot0.parameterValue
+		end
+	}
+
+	slot1:ctor()
+
+	return slot1
+end
+
+function slot3(slot0)
 	slot1 = slot0.live2dData:GetShipSkinConfig()
 	slot3 = slot1.lip_smoothing
 
@@ -49,7 +137,7 @@ function slot2(slot0)
 	end
 end
 
-function slot3(slot0)
+function slot4(slot0)
 	if slot0.live2dData:GetShipSkinConfig().l2d_para_range ~= nil and type(slot2) == "table" then
 		for slot6, slot7 in pairs(slot2) do
 			slot0.liveCom:SetParaRange(slot6, slot7)
@@ -57,7 +145,7 @@ function slot3(slot0)
 	end
 end
 
-function slot4(slot0, slot1, slot2)
+function slot5(slot0, slot1, slot2)
 	if (not slot0.live2dAction or slot2) and uv0.action2Id[slot1] then
 		slot0.liveCom:SetAction(slot3)
 
@@ -65,13 +153,13 @@ function slot4(slot0, slot1, slot2)
 	end
 end
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot0.liveCom:SetCenterPart("Drawables/TouchHead", Vector3.zero)
 
 	slot0.liveCom.DampingTime = 0.3
 end
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -81,6 +169,7 @@ function slot6(slot0, slot1)
 	slot0._tf.localScale = slot0.live2dData.scale
 	slot0._tf.localPosition = slot0.live2dData.position
 	slot0.liveCom = slot1:GetComponent(typeof(Live2dChar))
+	slot0._animator = slot1:GetComponent(typeof(Animator))
 
 	slot0.liveCom:SetReactMotions(uv0.idleActions)
 	slot0.liveCom:SetAction(uv0.action2Id.idle)
@@ -106,12 +195,58 @@ function slot6(slot0, slot1)
 	end
 
 	slot0.liveCom:SetTouchParts(uv0.assistantTouchParts)
-	setActive(slot0.live2dData.parent, true)
-	uv1(slot0)
+
+	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
+		slot0.drags = {}
+		slot0.dragParts = {}
+		slot0.ignoreReact = false
+
+		for slot6, slot7 in ipairs(slot0.live2dData.shipL2dId) do
+			if pg.ship_l2d[slot7] and slot0.liveCom:GetCubismParameter(slot8.parameter) then
+				slot10 = uv1(slot8)
+
+				slot10:setParameterCom(slot9)
+				slot0.liveCom:AddParameterValue(slot10.parameterName, slot10.startValue, CubismParameterBlendMode.Additive)
+				table.insert(slot0.drags, slot10)
+				table.insert(slot0.dragParts, slot10.drawAbleName)
+			end
+		end
+
+		slot0.liveCom:SetDragParts(slot0.dragParts)
+		slot0.liveCom:SetMouseInputActions(System.Action(function ()
+			if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 then
+				uv0.drags[uv0.liveCom:GetDragPart()]:startDrag()
+			end
+		end), System.Action(function ()
+			if uv0.drags and #uv0.drags > 0 then
+				for slot3 = 1, #uv0.drags do
+					uv0.drags[slot3]:stopDrag()
+				end
+			end
+		end))
+
+		slot0.timer = Timer.New(function ()
+			for slot3 = 1, #uv0.drags do
+				if uv0.drags[slot3]:getParameterValue() then
+					if uv0.drags[slot3].active and uv0.drags[slot3].ignoreReact ~= uv0.ignoreReact then
+						uv0.ignoreReact = uv0.drags[slot3].ignoreReact
+
+						uv0.liveCom:IgonreReactPos(uv0.ignoreReact)
+					end
+
+					uv0.liveCom:ChangeParameterData(uv0.drags[slot3].parameterCom, slot4)
+				end
+			end
+		end, 0.03333333333333333, -1)
+
+		slot0.timer:Start()
+	end
+
 	uv2(slot0)
 	uv3(slot0)
+	uv4(slot0)
 
-	slot0.state = uv4.STATE_INITED
+	slot0.state = uv5.STATE_INITED
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
@@ -129,65 +264,20 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 
 	if slot0.live2dData.gyro == 1 then
-		slot0.gryoIndex = 10
-		slot0.DampingTime = 0.5
-		slot0.gyroEmptyIndex = 0
 		Input.gyro.enabled = true
-
-		LateUpdateBeat:Add(slot0.charLateUpdate, slot0)
 	end
 end
 
-function slot0.charLateUpdate(slot0)
-	if slot0.gyroEmptyIndex >= 3 then
+function slot0.SetVisible(slot0, slot1)
+	if not slot0:IsLoaded() then
 		return
 	end
 
-	if slot0.liveCom then
-		if not slot0.curReactPos then
-			slot0.curReactPos = ReflectionHelp.RefGetField(typeof("Live2dChar"), "reactPos", slot0.liveCom)
-			slot0.targetReactPos = slot0:getAttritudePos()
-			slot0.velocityVector = Vector3.zero
-		end
-
-		slot0.curReactPos, slot0.velocityVector = Vector3.SmoothDamp(slot0.curReactPos, slot0.targetReactPos, slot0.velocityVector, slot0.DampingTime)
-
-		ReflectionHelp.RefSetField(typeof("Live2dChar"), "reactPos", slot0.liveCom, slot0.curReactPos)
-
-		if slot0.gryoIndex == 0 then
-			slot0.targetReactPos, slot0.gyroAttitute = slot0:getAttritudePos()
-
-			if slot0.gyroAttitute.x == 0 and slot0.gyroAttitute.y == 0 then
-				slot0.gyroEmptyIndex = slot0.gyroEmptyIndex + 1
-			end
-
-			slot0.velocityVector.x = 0
-			slot0.velocityVector.y = 0
-			slot0.velocityVector.z = 0
-		end
-
-		slot0.gryoIndex = slot0.gryoIndex - 1 < 0 and 10 or slot0.gryoIndex - 1
-	end
-end
-
-function slot0.getAttritudePos(slot0)
-	if not slot0.attriPos then
-		slot0.attriPos = Vector3.zero
+	if not slot1 then
+		uv0(slot0, "idle", true)
 	end
 
-	slot1 = Input.gyro and Input.gyro.attitude or Vector3.zero
-	slot0.attriPos.x = slot1.x * 5 - 1
-	slot0.attriPos.y = slot1.y * 5 - 1
-
-	if math.sign(slot0.attriPos.x) ~= math.sign(slot1.x) then
-		slot0.attriPos.x = 0
-	end
-
-	if math.sign(slot0.attriPos.y) ~= math.sign(slot1.y) then
-		slot0.attriPos.y = 0
-	end
-
-	return slot0.attriPos, slot1
+	slot0._animator.enabled = slot1
 end
 
 function slot0.IsLoaded(slot0)
@@ -205,6 +295,10 @@ function slot0.TriggerAction(slot0, slot1, slot2, slot3, slot4)
 	slot0.animEventCB = slot4
 
 	uv0(slot0, slot1, slot3)
+end
+
+function slot0.Reset(slot0)
+	slot0.live2dAction = nil
 end
 
 function slot0.CheckStopDrag(slot0)
@@ -229,9 +323,15 @@ function slot0.Dispose(slot0)
 
 	slot0.live2dRequestId = nil
 
-	if slot0.live2dData.gyro then
-		LateUpdateBeat:Remove(slot0.charLateUpdate, slot0)
+	if slot0.drags then
+		for slot4 = 1, #slot0.drags do
+			slot0.drags[slot4]:dispose()
+		end
 
+		slot0.drags = {}
+	end
+
+	if slot0.live2dData.gyro then
 		Input.gyro.enabled = false
 	end
 

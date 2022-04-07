@@ -3,7 +3,7 @@ slot0 = class("BackYardSelfThemeTemplate", import(".BackYardBaseThemeTemplate"))
 function slot0.GetAllFurniture(slot0)
 	if not slot0.furnitruesByIds then
 		slot1 = slot0:GetRawPutList()
-		slot2 = getProxy(DormProxy):getData().level
+		slot2 = getProxy(DormProxy):getRawData().level
 		slot4 = {}
 
 		for slot8, slot9 in ipairs(slot0:GetWarpFurnitures()) do
@@ -75,16 +75,18 @@ function slot0.IsUsing(slot0, slot1)
 		return false, Vector2(slot3, slot4)
 	end
 
-	function slot5(slot0)
-		slot1 = {}
+	slot5 = {}
 
-		for slot5, slot6 in pairs(uv0) do
-			if slot6:getConfig("id") == slot0 then
-				table.insert(slot1, slot6)
-			end
+	for slot9, slot10 in pairs(slot1) do
+		if slot0:IsSystem() and slot10:getConfig("themeId") ~= slot0.id then
+			return false, 0
 		end
 
-		return slot1
+		if not slot5[slot10:getConfig("id")] then
+			slot5[slot11] = {}
+		end
+
+		table.insert(slot5[slot11], slot10)
 	end
 
 	for slot9, slot10 in pairs(slot2) do
@@ -97,9 +99,10 @@ function slot0.IsUsing(slot0, slot1)
 				return false, 2
 			end
 
+			slot12 = slot5[slot10.id] or {}
 			slot13 = false
 
-			for slot17, slot18 in ipairs(slot5(slot10.id)) do
+			for slot17, slot18 in ipairs(slot12) do
 				if slot18:isSame(slot10) then
 					slot13 = true
 

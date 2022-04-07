@@ -686,7 +686,7 @@ end
 function slot0.updateCameraCanvas(slot0)
 	slot4 = 1
 
-	if CameraUtil.AspectRatio > UnityEngine.Screen.width / UnityEngine.Screen.height then
+	if CameraMgr.instance.AspectRatio > UnityEngine.Screen.width / UnityEngine.Screen.height then
 		slot4 = slot1 / slot5
 	elseif slot1 < slot5 then
 		slot4 = slot5 / slot1

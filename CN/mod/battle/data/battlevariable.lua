@@ -21,7 +21,7 @@ function slot1.Init()
 
 	uv0._lastCameraPos = nil
 
-	if CameraUtil.AspectRatio <= UnityEngine.Screen.width / UnityEngine.Screen.height then
+	if 1.7777777777777777 <= UnityEngine.Screen.width / UnityEngine.Screen.height then
 		uv0._actualWidth = slot1 * slot2
 		uv0._actualHeight = slot1
 		slot4 = (slot0 - uv0._actualWidth) * 0.5

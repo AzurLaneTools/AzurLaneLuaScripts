@@ -157,7 +157,7 @@ function slot0.getMilitaryExerciseActivity(slot0)
 end
 
 function slot0.getPanelActivities(slot0)
-	return _(_.values(slot0.data)):chain():filter(function (slot0)
+	function slot1(slot0)
 		slot1 = slot0:getConfig("type")
 
 		if slot0:isShow() and not slot0:isAfterShow() then
@@ -169,13 +169,25 @@ function slot0.getPanelActivities(slot0)
 		end
 
 		return slot2 and not slot0:isEnd()
-	end):sort(function (slot0, slot1)
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot1(slot7) then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	table.sort(slot2, function (slot0, slot1)
 		if slot0:getConfig("login_pop") == slot1:getConfig("login_pop") then
 			return slot0.id < slot1.id
 		else
 			return slot3 < slot2
 		end
-	end):value()
+	end)
+
+	return slot2
 end
 
 function slot0.checkHxActivity(slot0, slot1)
@@ -199,12 +211,10 @@ function slot0.getBannerDisplays(slot0)
 end
 
 function slot0.getActiveBannerByType(slot0, slot1)
-	if #_(pg.activity_banner.all):chain():map(function (slot0)
-		return pg.activity_banner[slot0]
-	end):filter(function (slot0)
-		return pg.TimeMgr.GetInstance():inTime(slot0.time) and slot0.type == uv0
-	end):value() > 0 then
-		return slot2[1]
+	for slot6, slot7 in ipairs(pg.activity_banner.get_id_list_by_type[slot1]) do
+		if pg.TimeMgr.GetInstance():inTime(pg.activity_banner[slot7].time) then
+			return slot8
+		end
 	end
 
 	return nil
@@ -321,6 +331,10 @@ end
 
 function slot0.getActivityById(slot0, slot1)
 	return Clone(slot0.data[slot1])
+end
+
+function slot0.RawGetActivityById(slot0, slot1)
+	return slot0.data[slot1]
 end
 
 function slot0.updateActivity(slot0, slot1)

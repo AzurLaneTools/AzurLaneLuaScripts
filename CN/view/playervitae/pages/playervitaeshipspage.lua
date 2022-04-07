@@ -249,6 +249,8 @@ function slot0.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	slot0:Hide()
+
 	for slot4, slot5 in pairs(slot0.cards) do
 		for slot9, slot10 in pairs(slot5) do
 			slot10:Dispose()

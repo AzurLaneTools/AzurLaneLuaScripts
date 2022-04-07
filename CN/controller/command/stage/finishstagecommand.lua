@@ -84,11 +84,11 @@ end
 
 function slot0.RequestFailStandardProcess(slot0, slot1)
 	if slot1.result == 2 then
-		print("stage_finishStage error--" .. slot1.result)
+		originalPrint("stage_finishStage error--" .. slot1.result)
 		pg.TipsMgr.GetInstance():ShowTips(errorTip("stage_finishStage", slot1.result))
 		slot0:sendNotification(GAME.FINISH_STAGE_ERROR, {})
 	else
-		print("stage_finishStage error--" .. slot1.result)
+		originalPrint("stage_finishStage error--" .. slot1.result)
 		pg.TipsMgr.GetInstance():ShowTips(errorTip("stage_finishStage", slot1.result))
 	end
 end

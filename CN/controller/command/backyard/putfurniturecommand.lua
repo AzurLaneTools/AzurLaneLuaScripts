@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot7 = slot2.floor or slot6.floor
-	slot10, slot11 = Dorm.checkData(slot3, slot6:getData().level)
+	slot10, slot11 = CourtYardRawDataChecker.Check(slot3, slot6:getData().level)
 
 	if not slot10 then
 		if slot5 then
@@ -34,13 +34,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	for slot16, slot17 in pairs(slot3) do
-		if (slot6:getFurniById(slot16):getConfig("type") == Furniture.TYPE_WALLPAPER or slot19 == Furniture.TYPE_FLOORPAPER) and slot6:getWallPaper(slot19) then
-			slot20:clearPosition()
-		end
+		slot18 = slot6:getFurniById(slot16)
+		slot23 = slot17.y
 
-		slot24 = slot17.y
-
-		slot18:updatePosition(Vector2(slot17.x, slot24))
+		slot18:updatePosition(Vector2(slot17.x, slot23))
 
 		slot18.dir = slot17.dir
 		slot18.child = slot17.child
@@ -49,13 +46,13 @@ function slot0.execute(slot0, slot1)
 
 		slot6:updateFurniture(slot18)
 
-		slot20 = {}
+		slot19 = {}
 
-		for slot24, slot25 in pairs(slot17.child) do
-			table.insert(slot20, {
-				id = tostring(slot24),
-				x = slot25.x,
-				y = slot25.y
+		for slot23, slot24 in pairs(slot17.child) do
+			table.insert(slot19, {
+				id = tostring(slot23),
+				x = slot24.x,
+				y = slot24.y
 			})
 		end
 
@@ -65,7 +62,7 @@ function slot0.execute(slot0, slot1)
 			x = slot17.x,
 			y = slot17.y,
 			dir = slot17.dir,
-			child = slot20,
+			child = slot19,
 			parent = slot17.parent
 		})
 	end
@@ -80,10 +77,6 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot0:sendNotification(GAME.PUT_FURNITURE_DONE)
-
-	if pg.backyard then
-		pg.backyard:sendNotification(BACKYARD.PUT_FURNITURE_DONE)
-	end
 
 	if slot5 then
 		slot5(true)

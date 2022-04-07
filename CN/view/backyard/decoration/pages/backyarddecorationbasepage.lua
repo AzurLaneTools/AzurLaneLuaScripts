@@ -28,6 +28,14 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	slot0:UpdateFliterData()
 end
 
+function slot0.Show(slot0)
+	setActiveViaLayer(slot0._tf, true)
+end
+
+function slot0.Hide(slot0)
+	setActiveViaLayer(slot0._tf, false)
+end
+
 function slot0.DormUpdated(slot0, slot1)
 	slot0.dorm = slot1
 

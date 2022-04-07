@@ -1,3 +1,12 @@
+slot0 = {
+	"新兵，让我来教你如何控制舰队吧",
+	"首先，<color=#ff7d36>拖动摇杆</color>试着让舰队移动起来吧！",
+	"角色会<color=#ff7d36>自动使用武器</color>攻击，但还有更厉害的武器哦~",
+	"点击下方按钮<color=#ff7d36>发射鱼雷</color>！",
+	"面对敌方护盾防御时，就可以使用主力舰队<color=#ff7d36>主炮跨射</color>",
+	"点击主炮按钮发射主炮，<color=#ff7d36>长按主炮并拖动摇杆</color>可调整攻击位置"
+}
+
 return {
 	id = "B001",
 	events = {
@@ -27,11 +36,11 @@ return {
 				"ShowStick"
 			},
 			style = {
-				text = "新兵，让我来教你如何控制舰队吧",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
@@ -40,11 +49,11 @@ return {
 				"ShowStick"
 			},
 			style = {
-				text = "首先，<color=#ff7d36>拖动摇杆</color>试着让舰队移动起来吧！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area",
@@ -59,11 +68,11 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				text = "角色会<color=#ff7d36>自动使用武器</color>攻击，但还有更厉害的武器哦~",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			}
 		},
 		{
@@ -84,11 +93,11 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				text = "点击下方按钮<color=#ff7d36>发射鱼雷</color>！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl",
@@ -103,11 +112,11 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				text = "面对敌方护盾防御时，就可以使用主力舰队<color=#ff7d36>主炮跨射</color>",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			}
 		},
 		{
@@ -128,11 +137,11 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				text = "点击主炮按钮发射主炮，<color=#ff7d36>长按主炮并拖动摇杆</color>可调整攻击位置",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[6]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl",

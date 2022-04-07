@@ -5,6 +5,10 @@ function slot0.getUIName(slot0)
 	return "MilitaryExerciseUI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.setShips(slot0, slot1)
 	slot0.ships = slot1
 end
@@ -64,15 +68,7 @@ function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/backBtn")
 	slot0._normalUIMain = pg.UIMgr.GetInstance().UIMain
 	slot0._overlayUIMain = pg.UIMgr.GetInstance().OverlayMain
-	slot0.playerResOb = slot0:findTF("playerRes")
-	slot0.resPanel = PlayerResource.New()
-
-	tf(slot0.resPanel._go):SetParent(tf(slot0.playerResOb), false)
-
 	slot0.top = findTF(slot0._tf, "blur_panel/adapt/top")
-
-	SetParent(slot0.playerResOb, slot0.top)
-
 	slot0.awardPanel = slot0:findTF("award_info_panel")
 
 	setActive(slot0.awardPanel, false)
@@ -91,7 +87,6 @@ end
 function slot0.updatePlayer(slot0, slot1)
 	slot0.player = slot1
 
-	slot0.resPanel:setResources(slot1)
 	setText(findTF(slot0:findTF("bottom/player_info"), "statistics_panel/exploit_bg/score"), slot1.exploit)
 end
 
@@ -134,7 +129,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("bottom/buttons/award_btn"), function ()
 		uv0.isOpenAwards = true
 
-		pg.UIMgr.GetInstance():BlurPanel(uv0.awardPanel)
+		pg.UIMgr.GetInstance():BlurPanel(uv0.awardPanel, false, {
+			weight = LayerWeightConst.SECOND_LAYER
+		})
 
 		if not uv0.isInitAward then
 			uv0:initAwards()
@@ -415,12 +412,6 @@ function slot0.willExit(slot0)
 	end
 
 	slot0:closeAwards()
-
-	if slot0.resPanel then
-		slot0.resPanel:exit()
-
-		slot0.resPanel = nil
-	end
 end
 
 return slot0

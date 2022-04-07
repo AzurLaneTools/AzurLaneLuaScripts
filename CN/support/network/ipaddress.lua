@@ -111,7 +111,7 @@ function slot1.Ctor(slot0)
 
 	slot0.requestUrl = uv0
 
-	if not Application.isEditor then
+	if not IsUnityEditor then
 		VersionMgr.Inst:WebRequest(slot0.requestUrl, function (slot0, slot1)
 			uv0.exportIP = slot1
 			uv0.isSpecialIP = uv0:CheckExportIP()

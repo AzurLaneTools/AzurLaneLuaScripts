@@ -14,7 +14,7 @@ function slot0.register(slot0)
 			uv0.contextData.onDeattch = nil
 		end
 
-		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BackYardMediator) then
+		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(CourtYardMediator) then
 			slot2.data.skipToCharge = true
 		end
 
@@ -28,8 +28,8 @@ function slot0.register(slot0)
 			})
 		end
 	end)
-	slot0.viewComponent:SetDorm(getProxy(DormProxy):getData())
-	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getData())
+	slot0.viewComponent:SetDorm(getProxy(DormProxy):getRawData())
+	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 end
 
 function slot0.remove(slot0)
@@ -55,7 +55,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.BUY_FURNITURE_DONE then
 		slot0.viewComponent:FurnituresUpdated(slot4)
 	elseif slot2 == DormProxy.DORM_UPDATEED then
-		slot0.viewComponent:DormUpdated(getProxy(DormProxy):getData())
+		slot0.viewComponent:DormUpdated(getProxy(DormProxy):getRawData())
 	end
 end
 

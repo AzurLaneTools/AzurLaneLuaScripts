@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 		NetConst.PROXY_GATEWAY_HOST = slot0.proxyHost
 		NetConst.PROXY_GATEWAY_PORT = slot0.proxyPort
 
-		print("switch to:", NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT)
+		originalPrint("switch to:", NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT)
 		pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 			user = uv0
 		})

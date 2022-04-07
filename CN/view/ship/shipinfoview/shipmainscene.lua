@@ -10,6 +10,10 @@ function slot0.getUIName(slot0)
 	return "ShipMainScene"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.preload(slot0, slot1)
 	slot2 = getProxy(BayProxy)
 	slot3 = slot2:getShipById(slot0.contextData.shipId)
@@ -35,10 +39,6 @@ function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:GetShareData():SetPlayer(slot1)
-
-	if slot0._resPanel then
-		slot0._resPanel:setResources(slot1)
-	end
 end
 
 function slot0.setShipList(slot0, slot1)
@@ -220,11 +220,6 @@ function slot0.initShip(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
 		groupName = LayerWeightConst.GROUP_SHIPINFOUI
 	})
-
-	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/playerRes")
-	slot0._resPanel = PlayerResource.New()
-
-	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
 end
 
 function slot0.initPages(slot0)
@@ -1187,13 +1182,11 @@ function slot0.paintView(slot0)
 		slot3 = slot3 + 1
 	end
 
-	for slot8 = 1, tf(pg.UIMgr.GetInstance().OverlayMain).childCount do
-		if slot4:GetChild(slot8 - 1).gameObject.activeSelf then
-			slot1[#slot1 + 1] = slot9
+	slot4 = slot0.shipDetailView
 
-			setActive(slot9, false)
-		end
-	end
+	slot4:Hide()
+	setActive(slot0.blurPanel, false)
+	setActive(pg.playerResUI._go, false)
 
 	slot1[#slot1 + 1] = slot0.chat
 
@@ -1201,28 +1194,28 @@ function slot0.paintView(slot0)
 	setActive(slot0.common, false)
 
 	slot0.mainMask.enabled = false
-	slot5 = slot0.mainMask
+	slot4 = slot0.mainMask
 
-	slot5:PerformClipping()
+	slot4:PerformClipping()
 
-	slot5 = slot0.nowPainting
-	slot6 = slot5.anchoredPosition.x
-	slot7 = slot5.anchoredPosition.y
-	slot10 = slot0._tf.rect.width / UnityEngine.Screen.width
-	slot11 = slot0._tf.rect.height / UnityEngine.Screen.height
-	slot12 = slot5.rect.width / 2
-	slot13 = slot5.rect.height / 2
-	slot14, slot15 = nil
-	slot16 = GetOrAddComponent(slot0.background, "MultiTouchZoom")
+	slot4 = slot0.nowPainting
+	slot5 = slot4.anchoredPosition.x
+	slot6 = slot4.anchoredPosition.y
+	slot9 = slot0._tf.rect.width / UnityEngine.Screen.width
+	slot10 = slot0._tf.rect.height / UnityEngine.Screen.height
+	slot11 = slot4.rect.width / 2
+	slot12 = slot4.rect.height / 2
+	slot13, slot14 = nil
+	slot15 = GetOrAddComponent(slot0.background, "MultiTouchZoom")
 
-	slot16:SetZoomTarget(slot0.nowPainting)
+	slot15:SetZoomTarget(slot0.nowPainting)
 
-	slot17 = GetOrAddComponent(slot0.background, "EventTriggerListener")
-	slot18 = true
-	slot19 = false
+	slot16 = GetOrAddComponent(slot0.background, "EventTriggerListener")
+	slot17 = true
+	slot18 = false
 
-	slot17:AddPointDownFunc(function (slot0)
-		if Input.touchCount == 1 or Application.isEditor then
+	slot16:AddPointDownFunc(function (slot0)
+		if Input.touchCount == 1 or IsUnityEditor then
 			uv0 = true
 			uv1 = true
 		elseif Input.touchCount >= 2 then
@@ -1230,17 +1223,17 @@ function slot0.paintView(slot0)
 			uv0 = false
 		end
 	end)
-	slot17:AddPointUpFunc(function (slot0)
+	slot16:AddPointUpFunc(function (slot0)
 		if Input.touchCount <= 2 then
 			uv0 = true
 		end
 	end)
-	slot17:AddBeginDragFunc(function (slot0, slot1)
+	slot16:AddBeginDragFunc(function (slot0, slot1)
 		uv0 = false
 		uv1 = slot1.position.x * uv2 - uv3 - tf(uv4.nowPainting).localPosition.x
 		uv5 = slot1.position.y * uv6 - uv7 - tf(uv4.nowPainting).localPosition.y
 	end)
-	slot17:AddDragFunc(function (slot0, slot1)
+	slot16:AddDragFunc(function (slot0, slot1)
 		if uv0 then
 			slot2 = tf(uv1.nowPainting).localPosition
 			tf(uv1.nowPainting).localPosition = Vector3(slot1.position.x * uv2 - uv3 - uv4, slot1.position.y * uv5 - uv6 - uv7, -22)
@@ -1268,6 +1261,10 @@ function slot0.paintView(slot0)
 		uv2.enabled = false
 		uv3.enabled = false
 
+		slot0.shipDetailView:Show()
+		setActive(slot0.blurPanel, true)
+		setActive(pg.playerResUI._go, true)
+
 		for slot5, slot6 in ipairs(uv4) do
 			setActive(slot6, true)
 		end
@@ -1290,9 +1287,9 @@ function slot0.paintView(slot0)
 		slot0.inPaintingView = false
 	end
 
-	slot20 = SwitchPanel(slot0.shipInfo, uv2, nil, uv1 * 2)
+	slot19 = SwitchPanel(slot0.shipInfo, uv2, nil, uv1 * 2)
 
-	slot20:setOnComplete(System.Action(function ()
+	slot19:setOnComplete(System.Action(function ()
 		uv0.enabled = true
 		uv1.enabled = true
 		uv2.background:GetComponent("Button").enabled = true

@@ -52,6 +52,11 @@ function slot0.OnUpdate(slot0, slot1)
 			uv1.onClose()
 		end
 	end, SFX_PANEL)
+
+	if slot1.onShow then
+		slot1.onShow()
+	end
+
 	slot0._tf:SetAsLastSibling()
 	slot0:Show()
 end

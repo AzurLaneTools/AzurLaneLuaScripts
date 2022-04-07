@@ -1,17 +1,27 @@
+slot0 = {
+	"让我们前往<color=#ff7d36>船坞</color>",
+	"选择一名角色，查看她的详细情况",
+	"点击<color=#ff7d36>装备</color>按钮，查看她当前使用的装备",
+	"在这里能看到该角色所有武器的装备情况哦！",
+	"点击<color=#ff7d36>装备栏</color>添加新装备",
+	"选择刚刚制作的新装备",
+	"点击确认按钮"
+}
+
 return {
 	id = "S017",
 	events = {
 		{
 			alpha = 0.183,
 			style = {
-				text = "让我们前往<color=#ff7d36>船坞</color>",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/dockBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/dockBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,14 +36,14 @@ return {
 			alpha = 0.351,
 			waitScene = "DockyardScene",
 			style = {
-				text = "选择一名角色，查看她的详细情况",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
+				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				pathIndex = 0,
 				image = {
 					isChild = true,
@@ -54,11 +64,11 @@ return {
 			alpha = 0.363,
 			waitScene = "ShipMainScene",
 			style = {
-				text = "点击<color=#ff7d36>装备</color>按钮，查看她当前使用的装备",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = -366.9
+				posX = -366.9,
+				text = slot0[3]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/root/equpiment_toggle",
@@ -75,21 +85,21 @@ return {
 		{
 			alpha = 0.367,
 			style = {
-				text = "在这里能看到该角色所有武器的装备情况哦！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			}
 		},
 		{
 			alpha = 0.339,
 			style = {
-				text = "点击<color=#ff7d36>装备栏</color>添加新装备",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 13.5
+				posX = 13.5,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/equipment_r_container(Adapt)/equipment_r_container/equipment_r/equipment/equipment_r2",
@@ -107,11 +117,11 @@ return {
 			alpha = 0.418,
 			waitScene = "StoreHouseScene",
 			style = {
-				text = "选择刚刚制作的新装备",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0.37
+				posX = 0.37,
+				text = slot0[6]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/equipment_scrollview/equipment_grid",
@@ -129,11 +139,11 @@ return {
 			alpha = 0.215,
 			waitScene = "EquipmentInfoLayer",
 			style = {
-				text = "点击确认按钮",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[7]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/EquipmentInfoUI(Clone)/replace/actions/action_button_2",

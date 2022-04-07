@@ -6,6 +6,30 @@ slot4 = 3
 slot5 = 4
 slot6 = 0.3
 
+function slot0.Type2Tag(slot0)
+	if not uv0.types then
+		uv0.types = {
+			"subtitle_main",
+			"subtitle_brach",
+			"subtitle_daily",
+			"subtitle_week",
+			"subtitle_brach",
+			"subtitle_activity",
+			nil,
+			nil,
+			nil,
+			nil,
+			nil,
+			nil,
+			"subtitle_week",
+			[26.0] = "subtitle_activity",
+			[36.0] = "subtitle_activity"
+		}
+	end
+
+	return uv0.types[slot0]
+end
+
 function slot0.Ctor(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
@@ -14,7 +38,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.viewComponent = slot2
 	slot0.frame = slot0._tf:Find("frame")
 	slot0.descTxt = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
-	slot0.tagTF = slot0._tf:Find("frame/tag")
+	slot0.tagTF = slot0._tf:Find("frame/tag"):GetComponent(typeof(Image))
 	slot0.rewardPanel = slot0._tf:Find("frame/awards")
 	slot0._rewardModel = slot0.rewardPanel:GetChild(0)
 	slot0.progressBar = slot0._tf:Find("frame/slider"):GetComponent(typeof(Slider))
@@ -43,9 +67,7 @@ function slot0.update(slot0, slot1)
 	end
 
 	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("desc"))
-
-	slot0:setSpriteTo("taskTagOb/" .. slot1:GetRealType(), slot0.tagTF)
-
+	slot0.tagTF.sprite = GetSpriteFromAtlas("ui/TaskUI_atlas", uv0.Type2Tag(slot1:GetRealType()))
 	slot2 = slot1:getConfig("target_num")
 
 	slot0:updateAwards(slot1:getConfig("award_display"))
@@ -212,14 +234,6 @@ function slot0.updateAwards(slot0, slot1)
 				uv0.viewComponent:emit(TaskMediator.ON_DROP, uv1)
 			end, SFX_PANEL)
 		end
-	end
-end
-
-function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
-	slot2:GetComponent(typeof(Image)).sprite = slot0.viewComponent._tf:Find(slot1):GetComponent(typeof(Image)).sprite
-
-	if slot3 then
-		slot4:SetNativeSize()
 	end
 end
 

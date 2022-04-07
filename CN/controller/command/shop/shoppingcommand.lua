@@ -273,7 +273,7 @@ function slot0.execute(slot0, slot1)
 					awards = uv0.is_auto_use == 1 and slot1 or {}
 				})
 			else
-				print(slot0.result)
+				originalPrint(slot0.result)
 
 				if slot0.result == 4400 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("shopping_error_time_limit"))

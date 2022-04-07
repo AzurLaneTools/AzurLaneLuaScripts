@@ -1,9 +1,19 @@
+slot0 = {
+	"点击打开装备研发界面",
+	"可以查看不同类型装备的研发路线。",
+	"拖动屏幕可查看研发路线的后续内容。",
+	"点击查看所选装备的研发详情。",
+	"目标研发装备需要使用所选装备作为素材。",
+	"同时需要消耗物资和一定数量的研发素材，研发素材可在大型作战中获取。",
+	"满足全部条件后点击改造按钮，即可完成装备研发，获取目标装备。"
+}
+
 return {
 	id = "NG0022",
 	events = {
 		{
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/technologyButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/technologyButton",
 				triggerType = {
 					1
 				},
@@ -18,11 +28,11 @@ return {
 		},
 		{
 			style = {
-				text = "点击打开装备研发界面",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = -60.9
+				posX = -60.9,
+				text = slot0[1]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/SelectTechnologyUI(Clone)/frame/bg/transform_btn",
@@ -41,11 +51,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "可以查看不同类型装备的研发路线。",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
 				posX = -396.33,
+				text = slot0[2],
 				ui = {
 					path = "/UICamera/Canvas/UIMain/EquipmentTransformTreeUI(Clone)/Adapt/Left/EquipmentTypes/ViewPort/Content"
 				}
@@ -53,21 +63,21 @@ return {
 		},
 		{
 			style = {
-				text = "拖动屏幕可查看研发路线的后续内容。",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = -65.8
+				posX = -65.8,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击查看所选装备的研发详情。",
+				dir = 1,
 				mode = 1,
 				posY = -253.44,
-				dir = 1,
-				posX = 151.52
+				posX = 151.52,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/EquipmentTransformTreeUI(Clone)/Adapt/Right/ViewPort/Content/11060/Item",
@@ -86,11 +96,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "目标研发装备需要使用所选装备作为素材。",
+				dir = -1,
 				mode = 1,
 				posY = -251.52,
-				dir = -1,
 				posX = -122.97,
+				text = slot0[5],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/EquipmentTransformUI(Clone)/Adapt/SourceEquip/Item"
 				}
@@ -99,11 +109,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "同时需要消耗物资和一定数量的研发素材，研发素材可在大型作战中获取。",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
 				posX = -396.56,
+				text = slot0[6],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/EquipmentTransformUI(Clone)/Adapt/MaterialModule1/Item"
 				}
@@ -112,11 +122,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "满足全部条件后点击改造按钮，即可完成装备研发，获取目标装备。",
+				dir = 1,
 				mode = 1,
 				posY = -215.3,
-				dir = 1,
 				posX = 337.29,
+				text = slot0[7],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/EquipmentTransformUI(Clone)/Adapt/ComposePanel"
 				}

@@ -10,6 +10,7 @@ PLATFORM_KR = 3
 PLATFORM_US = 4
 PLATFORM_CHT = 5
 PLATFORM_CODE = PLATFORM_CH
+IsUnityEditor = UnityEngine.Application.isEditor
 
 require("Include")
 require("tolua.reflection")
@@ -19,46 +20,41 @@ math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
 
-print("C# Ver.... " .. CSharpVersion)
+originalPrint("C# Ver.... " .. CSharpVersion)
 
 PLATFORM = LuaHelper.GetPlatformInt()
 SDK_EXIT_CODE = 99
 
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
-function luaIdeDebugFunc()
-	breakInfoFun = require("LuaDebugjit")("localhost", 7003)
-	time = Timer.New(breakInfoFun, 0.5, -1, 1)
+if IsUnityEditor then
+	function luaIdeDebugFunc()
+		breakInfoFun = require("LuaDebugjit")("localhost", 7003)
+		time = Timer.New(breakInfoFun, 0.5, -1, 1)
 
-	time:Start()
-	print("luaIdeDebugFunc")
+		time:Start()
+		print("luaIdeDebugFunc")
+	end
 end
 
 if (PLATFORM_CODE == PLATFORM_CH and CSharpVersion < 48 or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM == 8 then
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
-if PLATFORM_CODE == PLATFORM_JP then
-	slot0 = tf(GameObject.Find("LevelCamera/Canvas/UIMain/LevelGrid"))
-
-	RemoveComponent(slot0, typeof(Image))
-
-	slot0.offsetMin = Vector2(-200, -200)
-	slot0.offsetMax = Vector2(200, 200)
-
-	setActive(slot0:Find("DragLayer"), true)
-end
-
 slot0 = pg.TimeMgr.GetInstance()
 
 slot0:Init()
+
+slot0 = pg.TimeMgr.GetInstance()
+
+slot0:_SetServerTime_(VersionMgr.Inst.timestamp, VersionMgr.Inst.monday0oclockTimestamp, VersionMgr.Inst.realStartUpTimeWhenSetServerTime)
 
 slot0 = pg.PushNotificationMgr.GetInstance()
 
 slot0:Init()
 
 function OnApplicationPause(slot0)
-	print("OnApplicationPause: " .. tostring(slot0))
+	originalPrint("OnApplicationPause: " .. tostring(slot0))
 
 	if not pg.m02 then
 		return
@@ -239,13 +235,15 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.BrightnessMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.ConfigTablePreloadMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end
 }, function (slot0)
 	pg.SdkMgr.GetInstance():QueryWithProduct()
 	print("loading cost: " .. os.clock() - uv0)
-	CameraUtil.SetOnlyAdaptMainCam(true)
 	VersionMgr.Inst:DestroyUI()
 
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")) then
@@ -270,19 +268,8 @@ seriesAsync({
 
 	pg.m02:registerCommand(GAME.STARTUP, StartupCommand)
 	pg.m02:sendNotification(GAME.STARTUP)
+
+	pg.playerResUI = PlayerResUI.New()
+
 	pg.SdkMgr.GetInstance():GoSDkLoginScene()
-
-	if Application.isEditor then
-		slot2 = pg.UIMgr.GetInstance()
-
-		slot2:AddDebugButton("QATool", function ()
-			DebugMgr.Inst:Switch2QATool()
-		end)
-	end
-
-	slot2 = pg.UIMgr.GetInstance()
-
-	slot2:AddDebugButton("Print", function ()
-		getProxy(TechnologyNationProxy):printNationPointLog()
-	end)
 end)

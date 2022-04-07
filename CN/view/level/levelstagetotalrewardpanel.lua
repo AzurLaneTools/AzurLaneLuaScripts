@@ -368,8 +368,6 @@ function slot0.GetParentView(slot0)
 end
 
 function slot0.HandleShowMsgBox(slot0, slot1)
-	slot1.blurLevelCamera = true
-
 	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1)
 end
 

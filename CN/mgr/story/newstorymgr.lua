@@ -14,8 +14,8 @@ require("Mgr/Story/Include")
 slot8 = true
 
 function slot9(...)
-	if uv0 and Application.isEditor then
-		print(...)
+	if uv0 and IsUnityEditor then
+		originalPrint(...)
 	end
 end
 
@@ -26,7 +26,7 @@ slot10 = {
 	"US"
 }
 
-function LoadStory(slot0)
+function slot11(slot0)
 	slot1 = uv0[PLATFORM_CODE]
 
 	if slot0 == "index" then
@@ -106,7 +106,7 @@ function slot0.IsPlayed(slot0, slot1, slot2)
 	return slot5 and slot6
 end
 
-function slot11(slot0)
+function slot12(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0) do
@@ -118,11 +118,11 @@ end
 
 function slot0.StoryName2StoryId(slot0, slot1)
 	if not uv0.indexs then
-		uv0.indexs = uv1(LoadStory("index"))
+		uv0.indexs = uv1(uv2("index"))
 	end
 
 	if not uv0.againIndexs then
-		uv0.againIndexs = uv1(LoadStory("index_again"))
+		uv0.againIndexs = uv1(uv2("index_again"))
 	end
 
 	return uv0.indexs[slot1], uv0.againIndexs[slot1]
@@ -130,11 +130,11 @@ end
 
 function slot0.StoryId2StoryName(slot0, slot1)
 	if not uv0.indexIds then
-		uv0.indexIds = LoadStory("index")
+		uv0.indexIds = uv1("index")
 	end
 
 	if not uv0.againIndexIds then
-		uv0.againIndexIds = LoadStory("index_again")
+		uv0.againIndexIds = uv1("index_again")
 	end
 
 	return uv0.indexIds[slot1], uv0.againIndexIds[slot1]
@@ -142,7 +142,7 @@ end
 
 function slot0.StoryLinkNames(slot0, slot1)
 	if not uv0.linkNames then
-		uv0.linkNames = LoadStory("index_link")
+		uv0.linkNames = uv1("index_link")
 	end
 
 	return uv0.linkNames[slot1]
@@ -283,7 +283,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	if not LoadStory(slot1) then
+	if not uv1(slot1) then
 		slot6(false)
 		uv0("not exist story file")
 

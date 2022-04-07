@@ -2,7 +2,7 @@ slot1 = TxwyKrSdkMgr.inst
 
 function GoLoginScene()
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -13,7 +13,7 @@ end
 
 function SDKLogined(slot0, slot1, slot2, slot3)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -31,7 +31,7 @@ end
 
 function SDKLogouted(slot0)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -43,7 +43,7 @@ end
 
 function PaySuccess(slot0, slot1)
 	if not pg.m02 then
-		print("game is not start")
+		originalPrint("game is not start")
 
 		return
 	end
@@ -70,7 +70,7 @@ end
 
 return {
 	CheckPretest = function ()
-		return NetConst.GATEWAY_HOST == "bl-kr-test.xdg.com" and NetConst.GATEWAY_PORT == 30001 or Application.isEditor
+		return NetConst.GATEWAY_HOST == "bl-kr-test.xdg.com" and NetConst.GATEWAY_PORT == 30001 or IsUnityEditor
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
@@ -128,7 +128,7 @@ return {
 		function slot1(slot0, slot1)
 			for slot5, slot6 in ipairs(pg.pay_data_display.all) do
 				if pg.pay_data_display[slot6].id_str == slot0 and slot7.money ~= slot1 then
-					print(string.format("<color=#ff0000>%s的商品价格和本地的价格不同</color> 本地价格：%s, 服务器价格：%s", slot7.name, slot7.money, slot1))
+					originalPrint(string.format("<color=#ff0000>%s的商品价格和本地的价格不同</color> 本地价格：%s, 服务器价格：%s", slot7.name, slot7.money, slot1))
 				end
 			end
 		end
@@ -163,14 +163,14 @@ return {
 	GetBiliServerId = function ()
 		slot0 = uv0.serverId
 
-		print("serverId : " .. slot0)
+		originalPrint("serverId : " .. slot0)
 
 		return slot0
 	end,
 	GetChannelUID = function ()
 		slot0 = uv0.channelUID
 
-		print("channelUID : " .. slot0)
+		originalPrint("channelUID : " .. slot0)
 
 		return slot0
 	end,

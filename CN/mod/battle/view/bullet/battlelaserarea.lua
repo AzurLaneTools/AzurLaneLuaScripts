@@ -8,13 +8,7 @@ slot0.Battle.BattleLaserArea = slot4
 slot4.__name = "BattleLaserArea"
 
 function slot4.Update(slot0, slot1)
-	slot2 = slot0._bulletData:GetSpeed()
-
-	slot0._curSpeed:Set(slot2.x, slot2.y, slot2.z)
-
-	if slot0._bulletData:GetVerticalSpeed() ~= 0 then
-		slot0._curSpeed.y = slot0._curSpeed.y + slot3
+	if slot0._bulletData:GetSpeed().x ~= 0 or slot2.z ~= 0 or slot2.y ~= 0 then
+		slot0:UpdatePosition()
 	end
-
-	slot0:UpdatePosition()
 end

@@ -3346,6 +3346,12 @@ _G.pg.gametip.levelScene_remaster_help_tip = {
 		},
 		{
 			info = "4.在特殊作战关卡中撤退不返还档案密钥"
+		},
+		{
+			info = "5.作战档案关卡中剧情会在通关指定关卡后一次性全部解锁，而非随着进度推进逐步解锁，具体解锁条件可前往对应回忆界面查看"
+		},
+		{
+			info = "6.部分作战档案关卡新增可打捞角色保底，通关指定关卡60次可获取对应角色，该奖励只能获取一次"
 		}
 	}
 }
@@ -4084,7 +4090,7 @@ _G.pg.gametip.create_player_success = {
 }
 
 _G.pg.gametip.login_newPlayerScene_invalideName = {
-	tip = "角色名字含有非法字符"
+	tip = "角色名字含有敏感字符"
 }
 
 _G.pg.gametip.login_newPlayerScene_name_tooShort = {
@@ -18024,6 +18030,14 @@ _G.pg.gametip.fleet_select_title = {
 	tip = "舰队选择"
 }
 
+_G.pg.gametip.backyard_rename_title = {
+	tip = "请录入名称"
+}
+
+_G.pg.gametip.backyard_rename_tip = {
+	tip = "输入后宅名称"
+}
+
 _G.pg.gametip.equip_add = {
 	tip = "— 点击添加装备 —"
 }
@@ -19657,4 +19671,68 @@ _G.pg.gametip.fur_all_buy = {
 
 _G.pg.gametip.fur_onekey_buy = {
 	tip = "购买整套"
+}
+
+_G.pg.gametip.backyard_food_shop_tip = {
+	tip = "需要花费："
+}
+
+_G.pg.gametip.dorm_2f_lock = {
+	tip = "未解锁"
+}
+
+_G.pg.gametip.word_get_way = {
+	tip = "获取方式:"
+}
+
+_G.pg.gametip.word_get_date = {
+	tip = "获取日期:"
+}
+
+_G.pg.gametip.enter_theme_name = {
+	tip = "输入主题名"
+}
+
+_G.pg.gametip.enter_extend_food_label = {
+	tip = "扩充"
+}
+
+_G.pg.gametip.backyard_extend_tip_1 = {
+	tip = "扩建需要消耗"
+}
+
+_G.pg.gametip.backyard_extend_tip_2 = {
+	tip = " 个扩展许可证"
+}
+
+_G.pg.gametip.backyard_extend_tip_3 = {
+	tip = "剩余扩展许可证："
+}
+
+_G.pg.gametip.backyard_extend_tip_4 = {
+	tip = " 个"
+}
+
+_G.pg.gametip.levelScene_remaster_story_tip = {
+	tip = "剧情「$1」已全部解锁，\n可以前往回忆界面查看。"
+}
+
+_G.pg.gametip.levelScene_remaster_unlock_tip = {
+	tip = "※通关「作战档案」-$1 $2解锁全部剧情"
+}
+
+_G.pg.gametip.level_remaster_tip1 = {
+	tip = "产出关卡："
+}
+
+_G.pg.gametip.level_remaster_tip2 = {
+	tip = "出击"
+}
+
+_G.pg.gametip.level_remaster_tip3 = {
+	tip = "领取"
+}
+
+_G.pg.gametip.level_remaster_tip4 = {
+	tip = "击破$1敌方旗舰次数"
 }

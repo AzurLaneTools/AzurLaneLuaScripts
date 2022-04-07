@@ -4,7 +4,7 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.isNewPlayer
 
-	print("loading player data: " .. slot2.id)
+	originalPrint("loading player data: " .. slot2.id)
 
 	slot5 = slot0.facade
 
@@ -183,10 +183,10 @@ function slot0.execute(slot0, slot1)
 	slot5:Send(11001, {
 		timestamp = 0
 	}, 11002, function (slot0)
-		print("player loaded: " .. slot0.timestamp)
+		originalPrint("player loaded: " .. slot0.timestamp)
 		pg.TimeMgr.GetInstance():SetServerTime(slot0.timestamp, slot0.monday_0oclock_timestamp)
 
-		slot2 = getProxy(PlayerProxy):getData()
+		slot2 = getProxy(PlayerProxy):getRawData()
 
 		if uv0 then
 			pg.PushNotificationMgr.GetInstance():Reset()
@@ -202,18 +202,19 @@ function slot0.execute(slot0, slot1)
 
 		pg.SdkMgr.GetInstance():EnterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime, slot2.level, slot2:getTotalGem())
 		slot5:recordLoginedServer(slot4.uid, slot6.id)
+		uv1:sendNotification(GAME.GET_SEASON_INFO)
 		uv1:sendNotification(GAME.GET_GUILD_INFO)
 		uv1:sendNotification(GAME.GET_PUBLIC_GUILD_USER_DATA, {})
-		uv1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
 		uv1:sendNotification(GAME.REQUEST_MINI_GAME, {
 			type = MiniGameRequestCommand.REQUEST_HUB_DATA
 		})
 		pg.SdkMgr.GetInstance():BindCPU()
-		getProxy(PlayerProxy):setInited(true)
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()
 		pg.NewStoryMgr.GetInstance():Fix()
 		getProxy(SettingsProxy):ResetTimeLimitSkinShopTip()
+		getProxy(PlayerProxy):setInited(true)
+		uv1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
 	end, nil, 60)
 end
 

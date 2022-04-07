@@ -84,9 +84,7 @@ pg.share_template = {
 			120
 		},
 		hidden_comps = {
-			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/main",
-			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/decorateBtn",
-			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/back"
+			"/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main"
 		}
 	},
 	{

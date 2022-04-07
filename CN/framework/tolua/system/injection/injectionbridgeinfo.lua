@@ -4526,7 +4526,7 @@ return {
 	BaseResourceMgr = {
 		_loadAssetBundleAsync = 9764,
 		_LoadAssetAsync = 9772,
-		["LoadAssetAsync_AssetBundle_UnityAction<Object>_bool_bool"] = 9771,
+		LoadAllAssetAsync = 10016,
 		loadAssetBundleAsync = 9763,
 		LoadAssetSync_AssetBundle_string_bool_bool = 9758,
 		_loadAssetBundleTotallyAsync = 9762,
@@ -4534,19 +4534,23 @@ return {
 		AssetExist = 9755,
 		unloadUnusedAssetBundles = 9776,
 		["LoadAssetAsync_AssetBundle_string_UnityAction<Object>_bool_bool"] = 9770,
-		loadAssetBundleTotallyAsync = 9761,
 		ClearBundleRef_AssetBundle_bool = 9773,
-		getAssetSync_string_string_Type_bool_bool = 9759,
-		["getAssetAsync_string_string_Type_UnityAction<Object>_bool_bool"] = 9765,
-		CheckAsyncWaiting = 9768,
-		Init = 9753,
 		ClearBundleRefTotally = 9774,
 		["getAssetAsync_string_string_UnityAction<Object>_bool_bool"] = 9766,
+		ResUnloadAsync = 9928,
+		loadAssetBundleTotallyAsync = 9761,
+		Init = 9753,
+		getAssetSync_string_string_Type_bool_bool = 9759,
+		["getAssetAsync_string_string_Type_UnityAction<Object>_bool_bool"] = 9765,
+		_ResUnloadAsyncHandler = 9929,
 		dumpAssetBundles = 9777,
-		getAssetSync_string_string_bool_bool = 9760,
+		["LoadAssetAsync_AssetBundle_UnityAction<Object>_bool_bool"] = 9771,
 		loadAssetBundleSync = 9756,
+		getAssetSync_string_string_bool_bool = 9760,
 		_getAssetAsync = 9767,
+		_LoadAllAssetAsync = 10017,
 		GetAllDependencies = 9754,
+		CheckAsyncWaiting = 9768,
 		LoadAssetSync_AssetBundle_string_Type_bool_bool = 9757,
 		["LoadAssetAsync_AssetBundle_string_Type_UnityAction<Object>_bool_bool"] = 9769,
 		Awake = 9752
@@ -4558,20 +4562,23 @@ return {
 		loadAssetBundleAsync = 9479,
 		get_UnloadDependencyImmediately = 9488,
 		loadAssetBundleTotallyAsync = 9478,
-		unloadUnusedAssetBundles = 9484,
+		LoadAllAssetAsync = 9977,
 		AssetExist = 9474,
 		set_UnloadDependencyImmediately = 9491,
-		loadAssetBundleSync = 9475,
+		unloadUnusedAssetBundles = 9484,
 		LoadAssetSync = 9476,
 		getAssetAsync = 9480,
 		ClearBundleRef = 9482,
+		ResUnloadAsync = 9905,
+		loadAssetBundleSync = 9475,
 		Init = 9472,
 		ClearBundleRefTotally = 9483,
 		get_UseMultiDependence = 9489,
 		get_LogLoad = 9487,
 		Register = 9471,
-		dumpAssetBundles = 9485,
 		getAssetSync = 9477,
+		dumpAssetBundles = 9485,
+		_LoadAllAssetAsync = 9978,
 		GetAllDependencies = 9473,
 		set_LogLoad = 9490
 	},
@@ -4579,19 +4586,25 @@ return {
 		GetBgNameByindex = 7982
 	},
 	BilibiliCallBackListerner = {
+		OnShareFailed = 10047,
 		AccountInvalid = 3084,
-		CloseAgreementView = 9796,
 		OnFetchFreeHostErro = 8101,
-		LoginFailed = 3082,
 		OnShowPrivateFailed = 9795,
+		LoginFailed = 3082,
+		OnDeleteAccount = 10190,
 		LoginSuccess = 3081,
 		InitSuccess = 3079,
 		SetChannelId = 3085,
 		InitFailed = 3080,
 		OnBuglyInited = 9797,
+		PayFailed = 3087,
+		CloseAgreementView = 9796,
 		OnFetchFreeHostFailed = 8100,
 		OnFetchFreeHostSuccess = 8099,
-		PayFailed = 3087,
+		DeleteAccountDisable = 10192,
+		DeleteAccountSuccess = 10191,
+		OnShareSuccess = 10046,
+		DeleteAccountFailed = 10193,
 		OnShowPrivateSuccess = 9794,
 		GameExit = 3088,
 		OnShowLicenceSucces = 9792,
@@ -4600,8 +4613,8 @@ return {
 		LoginOut = 3083
 	},
 	BilibiliSdkMgr = {
-		EnterServer = 3125,
 		Logout = 3129,
+		EnterServer = 3125,
 		LevelUp_int = 3126,
 		set_payId = 3104,
 		set_isTencent = 3102,
@@ -4610,36 +4623,38 @@ return {
 		get_loginType = 3111,
 		get_isTencent = 3103,
 		PrintJson = 3132,
-		ShowPrivate = 9799,
+		LocalLogout = 3113,
 		DCStop = 3122,
 		LoginPlatform = 3119,
-		LocalLogout = 3113,
-		get_sandboxKey = 3097,
+		ShowPrivate = 9799,
+		callSdkApi = 3131,
 		get_serverName = 3095,
-		GetFreeUrl = 8104,
+		OnLoginGatewayFailed = 3118,
 		get_channelUID = 3108,
-		LevelUp = 3127,
+		GetFreeUrl = 8104,
 		GoLoginScene = 3112,
 		set_isPlatform = 3100,
-		onBackPressed = 3128,
+		LevelUp = 3127,
 		get_inst = 3094,
 		Login = 3116,
+		isHuawei = 3130,
 		get_isInitDataSDK = 3099,
-		Init = 3114,
+		get_payId = 3105,
 		set_isInitDataSDK = 3098,
-		ChooseServer = 3124,
 		set_channelUID = 3109,
+		ChooseServer = 3124,
 		get_isLocalExit = 3107,
 		set_sandboxKey = 3096,
-		callSdkApi = 3131,
-		OnLoginGatewayFailed = 3118,
+		get_sandboxKey = 3097,
+		ShareWithImage = 10048,
 		ClearLoginData = 9798,
 		set_isLocalExit = 3106,
 		get_isPlatform = 3101,
+		DeleteAccount = 10194,
 		InitData = 3121,
-		isHuawei = 3130,
+		onBackPressed = 3128,
 		OnLoginTimeOut = 3120,
-		get_payId = 3105,
+		Init = 3114,
 		set_isLoginGetWay = 8102,
 		get_serverId = 3110,
 		CreateRole = 3123,
@@ -4735,10 +4750,20 @@ return {
 		StopLoader = 507
 	},
 	BulletRotation = {
-		SetSpeed = 3142,
 		Update = 3145,
+		SetSpeed = 3142,
+		OnDisable = 9966,
 		Start = 3143,
 		OnEnable = 3144
+	},
+	BulletRotationMgr = {
+		Awake = 9931,
+		Update = 9935,
+		RegisterBullet = 9933,
+		UpdateBullet = 9936,
+		get_Inst = 9930,
+		Start = 9932,
+		UnregisterBullet = 9934
 	},
 	ButtonEventExtend = {
 		get_onPointerDown = 8185,
@@ -4775,6 +4800,42 @@ return {
 		Archive = 3618,
 		Load = 3613
 	},
+	CameraMgr = {
+		SetAdaptBattleCamera = 9945,
+		ResetPadding = 9943,
+		Adapt = 9940,
+		Update = 9939,
+		SetActiveMainCamera = 9946,
+		get_instance = 9937,
+		Padding = 9942,
+		AdaptTo = 9941,
+		Awake = 9938,
+		Revert = 9944
+	},
+	CameraMgrWrap = {
+		set_finalHeight = 9926,
+		get_AspectRatio = 9916,
+		Adapt = 9907,
+		op_Equality = 9912,
+		get_finalHeight = 9918,
+		get_AutoAdapt = 9913,
+		set_CurrentWidth = 9922,
+		set_finalWidth = 9925,
+		set_mainCamera = 9927,
+		set_CurrentHeight = 9923,
+		AdaptTo = 9908,
+		SetActiveMainCamera = 9911,
+		SetAdaptBattleCamera = 9910,
+		get_instance = 9920,
+		set_AspectRatio = 9924,
+		Revert = 9909,
+		set_AutoAdapt = 9921,
+		Register = 9906,
+		get_CurrentHeight = 9915,
+		get_CurrentWidth = 9914,
+		get_mainCamera = 9919,
+		get_finalWidth = 9917
+	},
 	CameraTextureSup = {
 		SetTexture = 947,
 		Update = 948,
@@ -4788,7 +4849,12 @@ return {
 		Revert = 3725
 	},
 	ChannelData = {
-		CheckSingleKey = 8015
+		DelCurLoadingCue = 10020,
+		DelCurCue = 9949,
+		CheckSingleLoadingKey = 10018,
+		CheckSingleKey = 8015,
+		SetCurCue = 9948,
+		SetCurLoadingCue = 10019
 	},
 	ChannelDataWrap = {
 		set_channelType = 7660,
@@ -4906,6 +4972,14 @@ return {
 		OnStandlone = 3167,
 		UpdatePos_Vector3 = 9811
 	},
+	["Coffee.UIExtensions.AnimatableProperty"] = {
+		OnBeforeSerialize = 10054,
+		get_type = 10052,
+		get_id = 10050,
+		set_id = 10051,
+		OnAfterDeserialize = 10055,
+		UpdateMaterialProperties = 10053
+	},
 	["Coffee.UIExtensions.UIMirrorReflection"] = {
 		AddMirrorReflectedQuad = 9851,
 		GetLerpFactor = 9852,
@@ -4922,6 +4996,60 @@ return {
 		get_targetGraphic = 9841,
 		ModifyMesh = 9850
 	},
+	["Coffee.UIExtensions.UIParticle"] = {
+		get_scale3D = 10084,
+		OnDisable = 10110,
+		RefreshParticles_GameObject = 10102,
+		Pause = 10095,
+		Stop = 10096,
+		UpdateMaterialProperties = 10106,
+		set_ignoreCanvasScaler = 10079,
+		OnEnable = 10108,
+		set_raycastTarget = 10077,
+		UpdateMaterialProperties_Renderer_int = 10107,
+		get_materials = 10088,
+		["UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize"] = 10116,
+		set_shrinkByMaterial = 10081,
+		OnDidApplyAnimationProperties = 10112,
+		get_scale = 10082,
+		get_bakedMesh = 10086,
+		get_materialForRendering = 10089,
+		GetModifiedMaterial = 10105,
+		set_scale = 10083,
+		SetParticleSystemInstance_GameObject_bool = 10099,
+		SetParticleSystemPrefab = 10100,
+		SetParticleSystemInstance_GameObject = 10098,
+		get_ignoreCanvasScaler = 10078,
+		Clear = 10097,
+		["UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize"] = 10115,
+		get_particles = 10087,
+		OnValidate = 10114,
+		get_activeMeshIndices = 10090,
+		UpdateGeometry = 10111,
+		UpdateMaterial = 10103,
+		get_cachedPosition = 10092,
+		set_scale3D = 10085,
+		get_shrinkByMaterial = 10080,
+		set_activeMeshIndices = 10091,
+		RefreshParticles = 10101,
+		Start = 10109,
+		set_cachedPosition = 10093,
+		Play = 10094,
+		ClearPreviousMaterials = 10104,
+		get_raycastTarget = 10076,
+		InitializeIfNeeded = 10113
+	},
+	["Coffee.UIExtensions.UIParticleUpdater"] = {
+		CanBakeMesh = 10125,
+		BakeMesh = 10124,
+		InitializeOnLoad = 10119,
+		Register = 10117,
+		GetScaledMatrix = 10123,
+		Refresh = 10120,
+		ModifyScale = 10122,
+		Unregister = 10118,
+		Refresh_UIParticle = 10121
+	},
 	["Coffee.UIExtensions.UIVertexUtil"] = {
 		Bilerp_UIVertex_UIVertex_UIVertex_UIVertex_float_float = 9857,
 		AddQuadToStream = 9855,
@@ -4930,6 +5058,58 @@ return {
 		Bilerp_Vector3_Vector3_Vector3_Vector3_float_float = 9859,
 		Bilerp_Vector4_Vector4_Vector4_Vector4_float_float = 9860,
 		Bilerp_Color_Color_Color_Color_float_float = 9861
+	},
+	["Coffee.UIParticleExtensions.BakingCamera"] = {
+		Create = 10058,
+		get_Instance = 10057,
+		get_InstanceForPrefab = 10056,
+		GetCamera = 10060,
+		Awake = 10059
+	},
+	["Coffee.UIParticleExtensions.CombineInstanceArrayPool"] = {
+		["Get_List<CombineInstance>"] = 10133,
+		["Get_List<CombineInstanceEx>_int"] = 10134,
+		Init = 10132
+	},
+	["Coffee.UIParticleExtensions.CombineInstanceEx"] = {
+		Clear = 10062,
+		Combine = 10061,
+		Push = 10063
+	},
+	["Coffee.UIParticleExtensions.ListExtensions"] = {
+		SequenceEqualFast = 10127,
+		CountFast = 10128
+	},
+	["Coffee.UIParticleExtensions.MeshHelper"] = {
+		Clear = 10070,
+		Get = 10067,
+		set_activeMeshIndices = 10065,
+		GetTemporaryMesh = 10068,
+		Push = 10069,
+		DiscardTemporaryMesh = 10072,
+		get_activeMeshIndices = 10064,
+		CombineMesh = 10071,
+		Init = 10066
+	},
+	["Coffee.UIParticleExtensions.MeshPool"] = {
+		Return = 10131,
+		Rent = 10130,
+		Init = 10129
+	},
+	["Coffee.UIParticleExtensions.ModifiedMaterial"] = {
+		DestroyImmediate = 10075,
+		Remove = 10074,
+		Add = 10073
+	},
+	["Coffee.UIParticleExtensions.ParticleSystemExtensions"] = {
+		GetIndex = 10136,
+		SortForRendering = 10135,
+		Exec = 10139,
+		GetMaterialHash = 10137,
+		GetTextureForSprite = 10138
+	},
+	["Coffee.UIParticleExtensions.SpriteExtensions"] = {
+		GetActualTexture = 10126
 	},
 	Collider2DFilter = {
 		Awake = 3169,
@@ -4952,6 +5132,15 @@ return {
 		CheckSocket = 3012,
 		Dispose = 3010,
 		OnSend = 3021
+	},
+	CPUPerformanceLevelWrap = {
+		get_Low = 9983,
+		IntToEnum = 9985,
+		get_Mid = 9984,
+		CheckType = 9981,
+		get_None = 9982,
+		Push = 9980,
+		Register = 9979
 	},
 	["CriAtomDebugDetail.Utility"] = {
 		PtrToStringAutoOrNull = 223
@@ -5432,9 +5621,9 @@ return {
 		CallbackFromNative = 199
 	},
 	CriWareMgr = {
-		ChangeChannelType = 7994,
+		PlaySound = 8001,
 		GetCueInfo = 7998,
-		SetDspBus = 7995,
+		PlayVoice = 8009,
 		StopVoice = 8010,
 		PlayAndCreatePlaybackInfo = 8005,
 		get_Inst = 7985,
@@ -5442,17 +5631,17 @@ return {
 		CreateDefaultChannels = 7991,
 		PlayBattleSE = 8013,
 		GetInstance = 7987,
-		StopSE = 8012,
-		PlayVoice = 8009,
+		StopBattleSE = 8014,
+		ChangeChannelType = 7994,
 		CheckHasCue = 9230,
 		RemoveDspBus = 7996,
-		StopSound = 8002,
+		StopSE = 8012,
 		Init = 7989,
 		PlayBGM = 8007,
 		Update = 8000,
-		PlaySound = 8001,
+		StopSound = 8002,
 		GetChannelData = 7997,
-		StopBattleSE = 8014,
+		UnloadCueSheet = 8004,
 		LoadAndRegister = 7990,
 		DebugPrint = 8006,
 		RemoveChannel = 7993,
@@ -5462,7 +5651,8 @@ return {
 		OnGUI = 7988,
 		TryGetCuePlayData = 7999,
 		StopBGM = 8008,
-		UnloadCueSheet = 8004
+		PlayAnySE = 9947,
+		SetDspBus = 7995
 	},
 	CriWareMgr_CRI_CHANNEL_TYPEWrap = {
 		IntToEnum = 7703,
@@ -5529,8 +5719,13 @@ return {
 		set_fadeTime = 7751
 	},
 	CueData = {
+		Clone = 10021,
+		GetCueDataAndInit = 9950,
+		ParseKey = 8017,
+		NewCueData = 9952,
+		RecycleCueData = 9953,
 		GetKey = 8016,
-		ParseKey = 8017
+		GetCueData = 9951
 	},
 	CueDataWrap = {
 		get_channelName = 7757,
@@ -5559,7 +5754,8 @@ return {
 		ClearEvent = 8019,
 		Reset = 8021,
 		Dispose = 8022,
-		CheckAllPlaybackEnd = 8020
+		CheckAllPlaybackEnd = 8020,
+		OnRecycle = 10022
 	},
 	CVUpdateMgr = {
 		Awake = 2847,
@@ -5580,6 +5776,31 @@ return {
 		Active = 2853,
 		Deactive = 2854,
 		ActiveQATool = 2857
+	},
+	DevicePerformanceLevelWrap = {
+		get_Low = 9990,
+		IntToEnum = 9993,
+		get_Mid = 9991,
+		CheckType = 9988,
+		get_None = 9989,
+		Push = 9987,
+		Register = 9986,
+		get_High = 9992
+	},
+	DevicePerformanceUtil = {
+		GetCPULevel = 10143,
+		GetDeviceLevel = 10142,
+		GetDevicePerformanceLevel = 10140,
+		GetDeviceCPULevel = 10141,
+		GetDefaultFps = 10144
+	},
+	DevicePerformanceUtilWrap = {
+		GetCPULevel = 9998,
+		Register = 9994,
+		GetDeviceLevel = 9997,
+		GetDevicePerformanceLevel = 9995,
+		GetDeviceCPULevel = 9996,
+		GetDefaultFps = 9999
 	},
 	DftAniEvent = {
 		SetStartEvent = 943,
@@ -7260,14 +7481,15 @@ return {
 		GetLayerWeight = 478
 	},
 	["Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"] = {
-		set_LastRms = 3174,
+		get_LastRms = 3173,
 		Update = 3177,
 		get_Target = 3175,
+		set_LastRms = 3174,
 		OnDestroy = 3180,
 		Start = 3178,
 		OnEnable = 3179,
 		get_AtomSource = 3171,
-		get_LastRms = 3173,
+		LateUpdate = 10049,
 		set_AtomSource = 3172,
 		set_Target = 3176
 	},
@@ -7279,6 +7501,41 @@ return {
 		SavePartOpacities = 488,
 		Refresh = 485,
 		OnEnable = 490
+	},
+	Live2D_Cubism_Core_CubismModelWrap = {
+		get_Parameters = 10156,
+		get_OnDynamicDrawableData = 10161,
+		op_Equality = 10154,
+		Register = 10150,
+		InstantiateFrom = 10151,
+		get_Moc = 10155,
+		get_CanvasInformation = 10159,
+		get_IsRevived = 10160,
+		Live2D_Cubism_Core_CubismModel_DynamicDrawableDataHandler = 10163,
+		ResetMocReference = 10152,
+		set_OnDynamicDrawableData = 10162,
+		get_Drawables = 10158,
+		ForceUpdateNow = 10153,
+		get_Parts = 10157
+	},
+	Live2D_Cubism_Core_CubismParameterWrap = {
+		get_Value = 10166,
+		get_MinimumValue = 10168,
+		get_DefaultValue = 10170,
+		Register = 10164,
+		get_MaximumValue = 10169,
+		op_Equality = 10165,
+		get_Id = 10167,
+		set_Value = 10171
+	},
+	Live2D_Cubism_Framework_CubismParameterBlendModeWrap = {
+		get_Additive = 10176,
+		IntToEnum = 10178,
+		CheckType = 10174,
+		Push = 10173,
+		get_Override = 10175,
+		get_Multiply = 10177,
+		Register = 10172
 	},
 	Live2D_Cubism_Framework_MouthMovement_CubismCriSrcMouthInputWrap = {
 		op_Equality = 527,
@@ -7682,35 +7939,38 @@ return {
 	},
 	LuaHelper = {
 		ScreenToLocal = 3786,
-		GetPlatform = 3784,
 		SetConfVal = 9870,
-		GetCHPackageType = 9869,
+		GetPlatform = 3784,
+		SetTransformLocalPos = 3794,
 		CopyTransformInfoGO = 3791,
-		CloneOb = 3781,
-		ShowOb = 3783,
-		SetParticleMain = 3800,
-		triggerEndDrag = 3806,
-		GetPlatformInt = 3785,
-		SetTransformPos = 3793,
-		UpdateTFLocalPos = 3788,
-		getHostByDomain = 3802,
 		SetParticleEndEvent = 3799,
+		GetPlatformInt = 3785,
+		GetAgeRating = 8198,
+		triggerEndDrag = 3806,
+		SetGOParentTF = 3790,
+		SetTransformPos = 3793,
+		SetActiveForLua = 10145,
 		SetGOParentGO = 3789,
 		ResetTF = 3798,
+		getHostByDomain = 3802,
+		SetParentForLua = 10146,
+		WrapContent = 3804,
+		getGuid = 3805,
+		FilterEmoji = 3803,
+		SetTransformAngle = 3795,
+		ShowOb = 3783,
+		GetCHPackageType = 9869,
+		CloneOb = 3781,
+		SetParticleMain = 3800,
+		Vibrate = 3807,
+		UpdateTFLocalPos = 3788,
 		SetTransformLocalAngle = 3796,
 		SetParticleSpeed = 3801,
-		GetAgeRating = 8198,
-		SetGOParentTF = 3790,
-		SetTransformLocalPos = 3794,
+		GetOrAddComponentForLua = 9967,
 		UnityGC = 3782,
-		Vibrate = 3807,
 		CopyTransformInfoTF = 3792,
-		WrapContent = 3804,
-		FilterEmoji = 3803,
 		GetWorldCorners = 3787,
-		getGuid = 3805,
-		SetTFChildActive = 3797,
-		SetTransformAngle = 3795
+		SetTFChildActive = 3797
 	},
 	["LuaPerfect.ObjectCache"] = {
 		ClearAll = 9305,
@@ -9160,6 +9420,20 @@ return {
 		AddStartEvent = 2715,
 		Awake = 2709
 	},
+	PathAssetPackUtil = {
+		initSingle = 9958,
+		ReadAllText = 9963,
+		ReadAllLines = 9964,
+		FileExists = 9962,
+		initMode = 9956,
+		get_Inst = 9957,
+		ReadAllBytes = 9965,
+		transAbsPathToAssetPackApkPath = 9960,
+		get_IsAssetPackMode = 9955,
+		Init = 9954,
+		GetApkFileStream = 9961,
+		initApkZipInfo = 9959
+	},
 	PathMgr = {
 		getPlatformName = 2931,
 		getLuaName = 2923,
@@ -9276,7 +9550,20 @@ return {
 		Register = 7865
 	},
 	PinchZoom = {
-		Update = 2720
+		Update = 2720,
+		ZoomFunc = 10189
+	},
+	PinchZoomWrap = {
+		op_Equality = 10180,
+		get_processing = 10181,
+		set_max = 10186,
+		Register = 10179,
+		get_max = 10182,
+		get_rectTransforms = 10184,
+		set_rectTransforms = 10188,
+		set_min = 10187,
+		get_min = 10183,
+		set_processing = 10185
 	},
 	PlaybackInfo = {
 		SetStartTime = 8032,
@@ -9340,9 +9627,56 @@ return {
 		set_layer = 8444,
 		GetMapScreenPos = 8437
 	},
+	PoolDataWrap = {
+		_CreatePoolData = 10001,
+		set_id = 10003,
+		get_id = 10002,
+		Register = 10000
+	},
 	ReceiveWindow = {
 		initBuffer = 3063,
 		ParsePackets = 3064
+	},
+	RenderGroupInfo = {
+		AddRenderer = 10031,
+		GetCount = 10033,
+		RemoveRenderer = 10032
+	},
+	RenderLayerInfo = {
+		GetOrderNum = 10028,
+		ReturnOrderNum = 10029,
+		CompareOrder = 10030
+	},
+	RenderOrder = {
+		OnDestroy = 10042,
+		InitChildRenderer = 10037,
+		RemoveRenderer = 10040,
+		ChangeLayer = 10036,
+		OnEnable = 10035,
+		SortRenderer = 10038,
+		AddRenderer = 10039,
+		Awake = 10034,
+		OnDisable = 10041
+	},
+	RenderOrderMgr = {
+		AddRender = 10024,
+		GetInstance = 10023,
+		GetRendererKey = 10026,
+		RemoveRender = 10025,
+		GetLayerInfo = 10027
+	},
+	RenderOrderMgrWrap = {
+		RemoveRender = 10007,
+		GetInstance = 10005,
+		AddRender = 10006,
+		Register = 10004
+	},
+	RenderOrderWrap = {
+		set_layer = 10012,
+		Register = 10008,
+		op_Equality = 10010,
+		get_layer = 10011,
+		ChangeLayer = 10009
 	},
 	RenderQueueSetter = {
 		GetModifiedMaterial = 3511
@@ -9366,13 +9700,16 @@ return {
 		Init = 2948,
 		getAssetSync_string_string_Type_bool_bool = 2954,
 		["getAssetAsync_string_string_UnityAction<Object>_bool_bool"] = 2959,
-		CheckAsyncWaiting = 9470,
 		dumpAssetBundles = 2968,
-		getAssetSync_string_string_bool_bool = 2955,
+		LoadShaderAndCached = 10043,
+		CheckAsyncWaiting = 9470,
 		loadAssetBundleSync = 2951,
+		getAssetSync_string_string_bool_bool = 2955,
 		_getAssetAsync = 2960,
+		GetShader = 10044,
 		GetAllDependencies = 2949,
 		LoadAssetSync_AssetBundle_string_Type_bool_bool = 2952,
+		OutputShaderCached = 10045,
 		["LoadAssetAsync_AssetBundle_string_Type_UnityAction<Object>_bool_bool"] = 2961,
 		Awake = 2947
 	},
@@ -9425,6 +9762,7 @@ return {
 		SaveTextureToLocal = 9302,
 		TakeMultiCam = 3831,
 		TakePhotoMultiCam = 3832,
+		TakePhoto_Camera_int_int_Rect = 9968,
 		Take = 3830,
 		EncodeToJPG = 8202,
 		TakePhoto_Camera_int_int = 9301,
@@ -9437,11 +9775,12 @@ return {
 		PreCalFunc = 3838,
 		ResetBaseAnchor = 8203,
 		SetText = 3836,
-		SetMaskEnable = 3842,
+		SetVisible = 9969,
 		OnEnable = 3844,
 		StartTweenVertical = 3840,
-		Init = 3835,
+		SetMaskEnable = 3842,
 		OnDestroy = 3846,
+		Init = 3835,
 		StartTween = 3839,
 		Awake = 3834,
 		OnDisable = 3845
@@ -10085,16 +10424,23 @@ return {
 		OnEnable = 3661
 	},
 	UIUtil = {
-		ClearMaterial = 3865,
-		ClearImageSprite = 3864,
+		SetUIActiveViaCG = 9975,
+		SetUIActiveViaLayer = 9970,
 		ClearSharedMaterial = 3866,
-		ClearTextureRef = 3863,
+		SetUIActive_Mask2DHandler = 9974,
 		SetLayerRecursively = 3862,
 		IsPrefab = 3867,
-		AddCameraTexture = 3861,
+		ClearImageSprite = 3864,
 		preLoadFont = 3869,
+		ClearTextureRef = 3863,
 		IsGameObject = 3868,
-		ClearChildren = 3870
+		ClearChildren = 3870,
+		ClearMaterial = 3865,
+		SetUIActiveViaLayerForChild = 9976,
+		AddCameraTexture = 3861,
+		SetUIActive_ScrollTextHandler = 9973,
+		SetUIActive_ParticleHandler = 9972,
+		SetUIActive_RendererHandler = 9971
 	},
 	UniPasteBoard = {
 		GetClipBoardString = 3664,
@@ -10343,17 +10689,18 @@ return {
 		SetColor = 3439
 	},
 	["UnityEngine.UI.RichText"] = {
-		ApplyGradientEffect = 3542,
-		AddListener = 3532,
 		["CalculateLayoutWithImage_string_IList<UICharInfo>&_IList<UIVertex>&"] = 9824,
-		OnPointerClick = 3545,
+		AddListener = 3532,
+		ApplyGradientEffect = 3542,
+		OnEnable = 3527,
 		RichStringProjection = 9899,
 		ApplyStrikeEffect = 3544,
 		SetImageDirty = 3534,
-		OnEnable = 3527,
+		OnPointerClick = 3545,
 		ApplyUnderlineEffect = 3543,
 		OnDestroy = 3528,
 		RemoveAllListeners = 3533,
+		CalculateLayoutWithImage_string = 9904,
 		ApplyShadowEffect = 3540,
 		ApplyOutlineEffect = 3541,
 		ClearSprite = 3531,
@@ -11641,11 +11988,13 @@ return {
 		DoUpdateD = 9681,
 		FindF = 9676,
 		Clear = 9682,
-		DoUpdateF = 9679,
+		DoVerify = 10014,
 		UpdateF = 9678,
+		VerifyHashesFile = 10013,
 		StartVerify = 9683,
 		VerifyResources = 9684,
 		UpdateD = 9680,
+		DoUpdateF = 9679,
 		CheckF = 9677
 	},
 	["YongShi.BundleWizardRuntime.DownloadMgrBase"] = {
@@ -11670,10 +12019,11 @@ return {
 	["YongShi.BundleWizardRuntime.HashUtil"] = {
 		Compare = 9720,
 		CalcMD5_string = 9724,
-		HashFile = 9722,
+		CompareNew2 = 10015,
 		CompareNew = 9721,
 		BytesToString = 9723,
-		["CalcMD5_byte[]"] = 9725
+		["CalcMD5_byte[]"] = 9725,
+		HashFile = 9722
 	},
 	["YongShi.BundleWizardRuntime.PathUtil"] = {
 		GetPlatformName_BuildTarget = 9739,
@@ -11719,49 +12069,52 @@ return {
 		get_cachedHashMap = 9590,
 		set_cachedHashPath = 9600,
 		set_downloadTotal = 9610,
-		get_downPath = 9586,
+		get_toUpdate = 9592,
 		get__cachedStreamWriter = 9594,
 		get_remoteHashFileName = 9577,
-		set_localVersion = 9601,
+		get_downPath = 9586,
 		set_serverVersion = 9602,
-		set_maxRetryTimes = 9611,
+		set_downPath = 9608,
 		set_cdnURLArr = 9603,
-		set_remoteHashFileName = 9599,
+		set_localVersion = 9601,
 		get_state = 9584,
 		AppendHashFile = 9570,
 		NeedD = 9566,
-		get_serverVersion = 9580,
-		set_toDelete = 9613,
-		set_toUpdate = 9614,
+		set_maxRetryTimes = 9611,
+		set_remoteHashFileName = 9599,
+		set_toDelAndUpdate = 9903,
 		get_toDelete = 9591,
 		Register = 9562,
-		get_toUpdate = 9592,
+		get_serverVersion = 9580,
 		op_Equality = 9574,
 		get_downloadCount = 9587,
 		set_GroupData = 9617,
 		set_errorCode = 9607,
 		get_localVersionFile = 9575,
-		set_useCacheVersion = 9604,
+		set_toDelete = 9613,
 		get_useCacheVersion = 9582,
+		set_toUpdate = 9614,
+		set_useCacheVersion = 9604,
 		SetV = 9563,
-		UpdateHashFile = 9571,
 		get_webRequest = 9593,
-		set_localVersionFile = 9597,
 		set_state = 9606,
-		CheckD = 9568,
-		get_localHashFile = 9576,
+		UpdateFileDownloadStates = 9901,
+		set_localVersionFile = 9597,
 		get_localVersion = 9579,
-		GetCurrentServer = 9564,
-		OnError = 9565,
+		UpdateHashFile = 9571,
+		CheckD = 9568,
 		get_cachedHashPath = 9578,
-		get_CurrentVersion = 9596,
+		get_localHashFile = 9576,
+		GetCurrentServer = 9564,
 		set_localHashFile = 9598,
+		get_toDelAndUpdate = 9902,
 		CheckUpdateType = 9567,
 		get_switchPackageFlag = 9583,
 		set_webRequest = 9615,
 		get_cdnURLArr = 9581,
 		RewriteHashFile = 9569,
 		CloseCachedStreamWriter = 9572,
+		get_CurrentVersion = 9596,
 		set_downloadCount = 9609,
 		get_GroupData = 9595,
 		get_errorCode = 9585,
@@ -11769,7 +12122,7 @@ return {
 		get_downloadTotal = 9588,
 		set_switchPackageFlag = 9605,
 		UpdateVersionFile = 9573,
-		set_downPath = 9608,
+		OnError = 9565,
 		get_maxRetryTimes = 9589
 	},
 	YongShi_BundleWizardRuntime_DownloadMgrWrap = {
@@ -11840,14 +12193,19 @@ return {
 	["YSDownloadCore.YsDownloadSDK"] = {
 		get_Instance = 9892
 	},
+	["YSToolCore.YsAndroidWebViewCallback"] = {
+		receiveWebViewMsg = 10147
+	},
 	["YSToolCore.YsToolCallback"] = {
-		getBrightnessMode = 9894,
+		didreceiveWebViewMessage = 10148,
 		ShowLog = 9895,
-		Awake = 9893
+		Awake = 9893,
+		getBrightnessMode = 9894
 	},
 	["YSToolCore.YsToolEvent"] = {
 		get_Instance = 9896,
-		HandleBrightMode = 9897
+		HandleBrightMode = 9897,
+		HandleWebViewMsg = 10149
 	},
 	["YSToolCore.YsToolSDK"] = {
 		get_Instance = 9898

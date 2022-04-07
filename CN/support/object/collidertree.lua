@@ -258,7 +258,7 @@ function slot5.GetCldListGradient(slot0, slot1, slot2, slot3, slot4)
 	slot7[4] = slot7[1] + slot8
 	slot9 = uv0.CldNode.New()
 
-	slot9:UpdateBox(Vector3(uv1(slot7[1].x, slot7[2].x, slot7[3].x, slot7[4].x), 0, uv1(slot7[1].z, slot7[2].z, slot7[3].z, slot7[4].z)), Vector3(uv2(slot7[1].x, slot7[2].x, slot7[3].x, slot7[4].x), 0, uv2(slot7[1].z, slot7[2].z, slot7[3].z, slot7[4].z)))
+	slot9:UpdateStaticBox(Vector3(uv1(slot7[1].x, slot7[2].x, slot7[3].x, slot7[4].x), 0, uv1(slot7[1].z, slot7[2].z, slot7[3].z, slot7[4].z)), Vector3(uv2(slot7[1].x, slot7[2].x, slot7[3].x, slot7[4].x), 0, uv2(slot7[1].z, slot7[2].z, slot7[3].z, slot7[4].z)))
 
 	slot12 = slot0:GetCldList(slot9, nil)
 

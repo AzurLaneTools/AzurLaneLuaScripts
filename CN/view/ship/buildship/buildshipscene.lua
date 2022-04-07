@@ -15,6 +15,10 @@ function slot0.getUIName(slot0)
 	return "BuildShipUI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.setPools(slot0, slot1)
 	slot0.pools = {}
 
@@ -25,8 +29,6 @@ end
 
 function slot0.setPlayer(slot0, slot1)
 	slot0.contextData.player = slot1
-
-	slot0.resPanel:setResources(slot1)
 end
 
 function slot0.setUseItem(slot0, slot1)
@@ -36,7 +38,7 @@ function slot0.setUseItem(slot0, slot1)
 	})
 
 	if slot0.poolsPage and slot0.poolsPage:GetLoaded() then
-		slot0.poolsPage:UpdateItem()
+		slot0.poolsPage:UpdateItem(slot0.contextData.itemVO.count)
 	end
 end
 
@@ -81,11 +83,6 @@ function slot0.init(slot0)
 		slot0:findTF("adapt/left_length/frame/tagRoot/pray_btn", slot0.blurPanel)
 	}
 	slot0.tip = slot0.toggles[2]:Find("tip")
-	slot0.resPanel = PlayerResource.New()
-	slot0._playerResOb = slot0:findTF("res", slot0.topPanel)
-
-	tf(slot0.resPanel._go):SetParent(tf(slot0._playerResOb), false)
-
 	slot0.contextData.msgbox = BuildShipMsgBox.New(slot0._tf, slot0.event)
 	slot0.contextData.helpWindow = BuildShipHelpWindow.New(slot0._tf, slot0.event)
 	slot0.poolsPage = BuildShipPoolsPage.New(slot0._tf, slot0.event, slot0.contextData)
@@ -193,13 +190,6 @@ function slot0.willExit(slot0)
 	slot0.contextData.msgbox:Destroy()
 	slot0.contextData.helpWindow:Destroy()
 	slot0.poolsPage:Destroy()
-
-	if slot0.resPanel then
-		slot0.resPanel:exit()
-
-		slot0.resPanel = nil
-	end
-
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 

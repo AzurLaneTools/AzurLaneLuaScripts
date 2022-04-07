@@ -169,7 +169,7 @@ function slot0.getItemById(slot0, slot1)
 end
 
 function slot0.getItemCountById(slot0, slot1)
-	return slot0:getItemById(slot1) and slot2.count or 0
+	return slot0.data[slot1] and slot2.count or 0
 end
 
 function slot0.getBoxCount(slot0)

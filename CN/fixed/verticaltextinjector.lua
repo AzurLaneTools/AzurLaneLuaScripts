@@ -133,7 +133,7 @@ InjectByName("VerticalText", {
 				slot11
 			})
 
-			for slot11 = 0, ReflectionHelp.RefCallMethod(typeof("UnityEngine.TextGenerator"), "GetLinesArray", slot2.cachedTextGenerator).Length - 1 do
+			for slot11 = 0, ReflectionHelp.RefGetProperty(typeof("UnityEngine.TextGenerator"), "lines", slot2.cachedTextGenerator).Count - 1 do
 				slot12 = slot7 > slot11 + 1 and uv0(slot5[slot11 + 1]) or utf8_len(slot2.text)
 				slot13 = 0
 

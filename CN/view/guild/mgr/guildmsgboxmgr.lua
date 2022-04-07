@@ -2,11 +2,6 @@ pg = pg or {}
 pg.GuildMsgBoxMgr = singletonClass("GuildMsgBoxMgr")
 slot0 = pg.GuildMsgBoxMgr
 
-function slot0.Ctor(slot0)
-	slot0.ignores = {}
-	slot0.refreshTime = pg.TimeMgr.GetInstance():GetServerTime()
-end
-
 function slot0.Init(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetUI("GuildMsgBoxUI", true, function (slot0)
@@ -29,15 +24,6 @@ function slot0.Init(slot0, slot1)
 
 		uv0.contextTxt = findTF(uv0._go, "frame/content/Text"):GetComponent(typeof(Text))
 
-		onButton(uv0, uv0.cancelBtn, function ()
-			uv0:Hide()
-		end, SFX_PANEL)
-		onButton(uv0, uv0._tf, function ()
-			uv0:Hide()
-		end, SFX_PANEL)
-		onButton(uv0, findTF(uv0._go, "frame/close"), function ()
-			uv0:Hide()
-		end, SFX_PANEL)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.isInited = true
@@ -57,6 +43,8 @@ function slot0.Notification(slot0, slot1)
 		else
 			slot0:RefreshView(slot1)
 		end
+	elseif slot1.OnNo then
+		slot1.OnNo()
 	end
 end
 
@@ -73,6 +61,27 @@ function slot0.RefreshView(slot0, slot1)
 		end
 
 		uv1:Close()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.cancelBtn, function ()
+		if uv0.OnNo then
+			uv0.OnNo()
+		end
+
+		uv1:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0._tf, function ()
+		if uv0.OnNo then
+			uv0.OnNo()
+		end
+
+		uv1:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, findTF(slot0._go, "frame/close"), function ()
+		if uv0.OnNo then
+			uv0.OnNo()
+		end
+
+		uv1:Hide()
 	end, SFX_PANEL)
 	pg.UIMgr:GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.TOP_LAYER,
@@ -269,75 +278,6 @@ function slot0.NotificationForWorld(slot0, slot1)
 	end
 
 	slot0.shouldShowBattleTip = nil
-end
-
-function slot0.NotificationForMain(slot0)
-	if not getProxy(GuildProxy):getRawData() then
-		return
-	end
-
-	if not slot1:GetActiveEvent() or not slot2:IsParticipant() then
-		return
-	end
-
-	function slot3()
-		uv0:Notification({
-			condition = function ()
-				slot2, slot3 = getProxy(GuildProxy):getRawData():GetActiveEvent():AnyMissionFirstFleetCanFroamtion()
-
-				if slot2 and not table.contains(uv0.ignores, slot3.id) then
-					table.insert(uv0.ignores, slot3.id)
-
-					return true
-				end
-
-				return false
-			end,
-			content = i18n("guild_operation_event_occurrence"),
-			OnYes = function ()
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GUILD, {
-					page = "battle"
-				})
-			end
-		})
-	end
-
-	function slot4(slot0, slot1)
-		pg.m02:sendNotification(GAME.GUILD_REFRESH_MISSION, {
-			force = true,
-			id = slot0,
-			callback = slot1
-		})
-
-		uv0.refreshTime = pg.TimeMgr.GetInstance():GetServerTime()
-	end
-
-	slot5 = pg.TimeMgr.GetInstance():GetServerTime() - slot0.refreshTime > 900
-	slot6, slot7 = slot2:AnyMissionFirstFleetCanFroamtion()
-
-	if slot6 and slot7 and table.contains(slot0.ignores, slot7.id) then
-		return
-	end
-
-	if slot6 then
-		slot3()
-	elseif slot5 then
-		if slot2:GetUnlockMission() then
-			slot4(slot8.id, function ()
-				if uv0:GetUnlockMission() and slot0.id ~= uv1 then
-					uv2(slot0.id, uv3)
-				else
-					uv3()
-				end
-			end)
-
-			return
-		end
-
-		slot3()
-	else
-		slot3()
-	end
 end
 
 function slot0.GetShouldShowBattleTip(slot0)

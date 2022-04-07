@@ -98,11 +98,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 			end, slot2)
 		end
 	}, function ()
-		setActive(uv0._spinePaintingData.parent, true)
-		setActive(uv0._spinePaintingData.effectParent, true)
-
-		if uv1 then
-			uv1(uv0)
+		if uv0 then
+			uv0(uv1)
 		end
 	end)
 end
@@ -134,6 +131,11 @@ function slot0.DoAction(slot0, slot1)
 	end
 end
 
+function slot0.SetVisible(slot0, slot1)
+	setActive(slot0._spinePaintingData.effectParent, slot1)
+	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
+end
+
 function slot0.SetAction(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.spineAnimList) do
 		slot7:SetAction("normal", 0)
@@ -141,9 +143,6 @@ function slot0.SetAction(slot0, slot1, slot2)
 end
 
 function slot0.Dispose(slot0)
-	setActive(slot0._spinePaintingData.effectParent, false)
-	setActive(slot0._spinePaintingData.parent, false)
-
 	if slot0._spinePaintingData then
 		slot0._spinePaintingData:Clear()
 	end

@@ -18,17 +18,15 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.BuildConfig(slot0)
-	slot1 = pg.equip_data_statistics[slot0.configId]
-	slot2 = pg.equip_data_template[slot0.configId]
 	slot0.config = setmetatable({}, {
 		__index = function (slot0, slot1)
-			return uv0[slot1] or uv1[slot1]
+			if slot1 == AttributeType.CD and (pg.equip_data_statistics[uv0.configId].weapon_id or pg.equip_data_template[uv0.configId].weapon_id) and #slot2 > 0 then
+				return pg.weapon_property[slot2[1]] and slot3.reload_max
+			end
+
+			return pg.equip_data_statistics[uv0.configId][slot1] or pg.equip_data_template[uv0.configId][slot1]
 		end
 	})
-
-	if slot0.config.weapon_id and #slot3 > 0 and pg.weapon_property[slot3[1]] then
-		slot0.config[AttributeType.CD] = slot4.reload_max
-	end
 end
 
 function slot0.GetAttributes(slot0)

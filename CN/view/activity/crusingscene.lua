@@ -647,6 +647,7 @@ function slot0.openBuyPanel(slot0)
 		tipExtra = i18n("battlepass_pay_tip"),
 		extraItems = slot4,
 		price = slot2:getConfig("money"),
+		isLocalPrice = slot2:IsLocalPrice(),
 		tagType = slot3,
 		isMonthCard = slot2:isMonthCard(),
 		tipBonus = nil,

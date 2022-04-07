@@ -160,54 +160,59 @@ function slot0.GetAllSkins(slot0)
 		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
 	end
 
-	for slot6, slot7 in ipairs(pg.shop_template.all) do
-		if pg.shop_template[slot7].genre == ShopArgs.SkinShop or slot8 == ShopArgs.SkinShopTimeLimit then
-			slot2(Goods.Create({
-				shop_id = slot7
-			}, Goods.TYPE_SKIN))
+	function slot3(slot0)
+		uv0(Goods.Create({
+			shop_id = slot0
+		}, Goods.TYPE_SKIN))
 
-			slot10, slot11 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot7].time)
+		slot2, slot3 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0].time)
 
-			if slot10 then
-				table.insert(slot1, slot9)
-			end
+		if slot2 then
+			table.insert(uv1, slot1)
 		end
 	end
 
-	slot3 = getProxy(ActivityProxy)
+	for slot7, slot8 in ipairs(pg.shop_template.get_id_list_by_genre[ShopArgs.SkinShop]) do
+		slot3(slot8)
+	end
 
-	for slot7, slot8 in ipairs(pg.activity_shop_extra.all) do
-		if pg.activity_shop_extra[slot8].commodity_type == DROP_TYPE_SKIN then
-			slot10 = slot3:getActivityById(slot9.activity)
+	for slot7, slot8 in ipairs(pg.shop_template.get_id_list_by_genre[ShopArgs.SkinShopTimeLimit]) do
+		slot3(slot8)
+	end
 
-			if slot9.activity == 0 and pg.TimeMgr.GetInstance():inTime(slot9.time) or slot10 and not slot10:isEnd() then
-				slot11 = Goods.Create({
-					shop_id = slot8
-				}, Goods.TYPE_ACTIVITY_EXTRA)
+	slot4 = getProxy(ActivityProxy)
 
-				slot2(slot11)
-				table.insert(slot1, slot11)
-			end
+	for slot9, slot10 in ipairs(pg.activity_shop_extra.get_id_list_by_commodity_type[DROP_TYPE_SKIN]) do
+		slot11 = pg.activity_shop_extra[slot10]
+		slot12 = slot4:getActivityById(slot11.activity)
+
+		if slot11.activity == 0 and pg.TimeMgr.GetInstance():inTime(slot11.time) or slot12 and not slot12:isEnd() then
+			slot13 = Goods.Create({
+				shop_id = slot10
+			}, Goods.TYPE_ACTIVITY_EXTRA)
+
+			slot2(slot13)
+			table.insert(slot1, slot13)
 		end
 	end
 
-	for slot7, slot8 in ipairs(pg.activity_shop_template.all) do
-		if pg.activity_shop_template[slot8].commodity_type == DROP_TYPE_SKIN and slot3:getActivityById(slot9.activity) and not slot10:isEnd() then
+	for slot10, slot11 in ipairs(pg.activity_shop_template.get_id_list_by_commodity_type[DROP_TYPE_SKIN]) do
+		if slot4:getActivityById(pg.activity_shop_template[slot11].activity) and not slot13:isEnd() then
 			slot2(Goods.Create({
-				shop_id = slot8
+				shop_id = slot11
 			}, Goods.TYPE_ACTIVITY))
 
 			if not _.any(slot1, function (slot0)
 				return slot0:getSkinId() == uv0:getSkinId()
 			end) then
-				table.insert(slot1, slot11)
+				table.insert(slot1, slot14)
 			end
 		end
 	end
 
-	for slot7 = #slot1, 1, -1 do
-		if slot0:InForbiddenSkinList(slot1[slot7]:getSkinId()) or not slot0:InShowTime(slot8) then
-			table.remove(slot1, slot7)
+	for slot10 = #slot1, 1, -1 do
+		if slot0:InForbiddenSkinList(slot1[slot10]:getSkinId()) or not slot0:InShowTime(slot11) then
+			table.remove(slot1, slot10)
 		end
 	end
 
@@ -323,11 +328,11 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 end
 
 function slot0.InShowTime(slot0, slot1)
-	if pg.ship_skin_template[slot1].skin_type == ShipSkin.SKIN_TYPE_SHOW_IN_TIME then
+	if pg.ship_skin_template_column_time[slot1] and slot2.time ~= "" and type(slot2.time) == "table" and #slot2.time > 0 then
 		return pg.TimeMgr.GetInstance():passTime(slot2.time)
-	else
-		return true
 	end
+
+	return true
 end
 
 function slot0.HasFashion(slot0, slot1)

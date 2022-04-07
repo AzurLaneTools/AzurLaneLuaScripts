@@ -4863,12 +4863,13 @@ pg.activity_template = {
 	},
 	[4286] = {
 		mark = 20220324,
-		id = 4286,
 		title_res_tag = "yidalisp_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 20,
+		id = 4286,
 		config_data = {
 			1630001,
 			1630002,
@@ -4876,33 +4877,6 @@ pg.activity_template = {
 			1630004,
 			1630041,
 			1630051
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "YidaliSPMainPage",
@@ -4914,12 +4888,13 @@ pg.activity_template = {
 	},
 	[4287] = {
 		mark = 20220324,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4287,
 		config_data = {
@@ -4936,33 +4911,6 @@ pg.activity_template = {
 			17466,
 			17467,
 			17468
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4288] = {
@@ -4972,7 +4920,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4288,
-		is_show = 19,
+		is_show = 13,
 		config_data = {},
 		time = {
 			timer,
@@ -5127,55 +5075,6 @@ pg.activity_template = {
 			pt_id = 243
 		}
 	},
-	[4291] = {
-		mark = 20220324,
-		id = 4291,
-		title_res_tag = "AprilFool2022",
-		type = 81,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 18,
-		config_data = {
-			97114
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		page_info = {
-			class_name = "AprilFool2022Page",
-			ui_name = "AprilFool2022Page"
-		},
-		config_client = {
-			{},
-			"BULIZHISHI1",
-			stageid = 1360003,
-			autounlock = 86400
-		}
-	},
 	[4292] = {
 		mark = 20220324,
 		title_res_tag = "",
@@ -5219,12 +5118,13 @@ pg.activity_template = {
 	},
 	[4293] = {
 		mark = 20220324,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4293,
 		config_data = {
@@ -5234,72 +5134,19 @@ pg.activity_template = {
 			292,
 			293,
 			294
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4294] = {
 		mark = 20220324,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4294,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -7540,7 +7387,6 @@ pg.activity_template = {
 		4288,
 		4289,
 		4290,
-		4291,
 		4292,
 		4293,
 		4294,

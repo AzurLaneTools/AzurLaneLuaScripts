@@ -62,4 +62,14 @@ function slot0.GetAddList(slot0)
 	return slot1
 end
 
+function slot0.OnDestroy(slot0)
+	uv0.super.OnDestroy(slot0)
+
+	if not IsNil(slot0.rawIcon.texture) then
+		Object.Destroy(slot0.rawIcon.texture)
+
+		slot0.rawIcon.texture = nil
+	end
+end
+
 return slot0

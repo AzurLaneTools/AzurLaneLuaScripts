@@ -24,7 +24,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = getProxy(BayProxy)
 
-			if uv0 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
+			if uv0 == 1 then
 				uv1.state_info_1 = pg.TimeMgr.GetInstance():GetServerTime()
 				uv1.state_info_2 = uv1:getTotalExp()
 
@@ -32,9 +32,9 @@ function slot0.execute(slot0, slot1)
 
 				if uv2.next_timestamp == 0 then
 					uv2:restNextTime()
-					uv3:updateDrom(uv2)
+					uv3:updateDrom(uv2, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 				end
-			elseif uv0 == BackYardShipInfoLayer.SHIP_REST_TYPE then
+			elseif uv0 == 2 then
 				uv1:updateState(Ship.STATE_REST)
 			end
 

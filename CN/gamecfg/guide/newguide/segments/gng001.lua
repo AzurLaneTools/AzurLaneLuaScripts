@@ -1,34 +1,41 @@
+slot0 = {
+	"攻坚队可以协助大舰队成员进行首领战",
+	"让我们试着派遣一名角色前往攻坚队吧！",
+	"点击此处编辑攻坚队",
+	"点击添加前往攻坚队的角色"
+}
+
 return {
 	id = "GNG001",
 	events = {
 		{
 			alpha = 0.433,
 			style = {
-				text = "攻坚队可以协助大舰队成员进行首领战",
+				dir = 1,
 				mode = 2,
 				posY = -223,
-				dir = 1,
-				posX = 495.2
+				posX = 495.2,
+				text = slot0[1]
 			}
 		},
 		{
 			alpha = 0.433,
 			style = {
-				text = "让我们试着派遣一名角色前往攻坚队吧！",
+				dir = 1,
 				mode = 2,
 				posY = -223,
-				dir = 1,
-				posX = 495.2
+				posX = 495.2,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.433,
 			style = {
-				text = "点击此处编辑攻坚队",
+				dir = 1,
 				mode = 2,
 				posY = -223,
-				dir = 1,
-				posX = 495.2
+				posX = 495.2,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/GuildEmptyUI(Clone)/GuildEventPage(Clone)/formation_btn",
@@ -47,11 +54,11 @@ return {
 		{
 			alpha = 0.383,
 			style = {
-				text = "点击添加前往攻坚队的角色",
+				dir = 1,
 				mode = 2,
 				posY = 267.65,
-				dir = 1,
-				posX = 17.53
+				posX = 17.53,
+				text = slot0[4]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/GuildEventFormationUI(Clone)/frame/ship1",

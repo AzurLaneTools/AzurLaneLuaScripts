@@ -1394,20 +1394,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -1436,20 +1435,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -1481,6 +1479,17 @@ pg.ship_data_group = {
 				"限时活动：箱庭疗法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -1688,6 +1697,17 @@ pg.ship_data_group = {
 				"限时活动：箱庭疗法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -2053,20 +2073,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -2592,6 +2611,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -2841,6 +2870,17 @@ pg.ship_data_group = {
 				"限时活动：箱庭疗法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -3596,6 +3636,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -4052,17 +4103,6 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"限时活动：坠落之翼",
 				{
 					""
@@ -4103,17 +4143,6 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"限时活动：坠落之翼",
 				{
@@ -4380,6 +4409,17 @@ pg.ship_data_group = {
 				"限时活动：箱庭疗法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5227,6 +5267,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5428,17 +5478,6 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
-			{
-				"进行特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"舰队商店兑换",
 				{
@@ -8825,17 +8864,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -8862,12 +8890,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行重型舰建造",
+				"军需商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -9954,20 +9981,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -10432,20 +10458,19 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -10483,20 +10508,19 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -10874,20 +10898,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -10916,20 +10939,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -11394,17 +11416,6 @@ pg.ship_data_group = {
 				"限时活动：红染的参访者",
 				{
 					""
-				},
-				0
-			},
-			{
-				"进行轻型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			},
@@ -12754,17 +12765,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -13140,20 +13140,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：归来与新生",
+				"荣誉勋章兑换（概率刷新）",
 				{
-					""
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			},
 			{
-				"进行重型舰建造",
+				"限时活动：归来与新生",
 				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -13737,6 +13736,16 @@ pg.ship_data_group = {
 				"限时活动：斯图尔特的硝烟",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -14672,20 +14681,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"舰队商店兑换",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"月度签到",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -14903,20 +14911,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：异色格",
+				"荣誉勋章兑换（概率刷新）",
 				{
-					""
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"限时活动：异色格",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -15017,20 +15024,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：异色格",
+				"荣誉勋章兑换（概率刷新）",
 				{
-					""
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"限时活动：异色格",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -15482,17 +15488,6 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"限时活动：围剿斯佩伯爵",
 				{
 					""
@@ -15862,20 +15857,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：异色格",
+				"荣誉勋章兑换（概率刷新）",
 				{
-					""
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			},
 			{
-				"进行重型舰建造",
+				"限时活动：异色格",
 				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -16827,12 +16821,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"进行轻型舰建造",
+				"舰队商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -16871,12 +16864,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"进行轻型舰建造",
+				"舰队商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -18381,12 +18373,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行轻型舰建造",
+				"军需商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -18416,20 +18407,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：光与影的鸢尾之华",
+				"荣誉勋章兑换（概率刷新）",
 				{
-					""
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"限时活动：光与影的鸢尾之华",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}

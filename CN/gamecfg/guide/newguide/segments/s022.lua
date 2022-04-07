@@ -1,14 +1,22 @@
+slot0 = {
+	"啊~作战失败！点击确定退出当前关卡",
+	"指挥官请点击<color=#ffde38>出击</color>",
+	"选择主线",
+	"再次选择<color=#ff7d36>近海演习</color>关卡",
+	"点击<color=#ff7d36>立刻前往</color>开始索敌！"
+}
+
 return {
 	id = "S022",
 	events = {
 		{
 			alpha = 0.276,
 			style = {
-				text = "啊~作战失败！点击确定退出当前关卡",
+				dir = 1,
 				mode = 1,
 				posY = 147.8,
-				dir = 1,
-				posX = 328.7
+				posX = 328.7,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -28,14 +36,14 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "指挥官请点击<color=#ffde38>出击</color>",
+				dir = 1,
 				mode = 1,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -53,11 +61,11 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "选择主线",
+				dir = -1,
 				mode = 1,
 				posY = -50,
-				dir = -1,
-				posX = 250
+				posX = 250,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
@@ -78,11 +86,11 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "再次选择<color=#ff7d36>近海演习</color>关卡",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				delay = 1.8,
@@ -114,11 +122,11 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				text = "点击<color=#ff7d36>立刻前往</color>开始索敌！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/start_button",

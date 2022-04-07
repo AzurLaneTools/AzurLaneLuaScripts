@@ -150,7 +150,7 @@ function slot0.execute(slot0, slot1)
 			})
 		end
 	elseif slot9 == 6 then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD)
 	elseif slot9 == 7 then
 		slot11 = nil
 
@@ -253,7 +253,7 @@ function slot0.execute(slot0, slot1)
 		end
 	elseif slot9 == 201 then
 		if slot10 == 0 then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD)
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD)
 		elseif slot10 == 1 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI)
 		end
