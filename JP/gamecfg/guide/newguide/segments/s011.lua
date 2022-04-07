@@ -1,17 +1,22 @@
+slot0 = {
+	"<color=#ff7d36>任務</color>をタップするわ",
+	"<color=#ff7d36>任務報酬</color>を受け取りなさいっ！"
+}
+
 return {
 	id = "S011",
 	events = {
 		{
 			alpha = 0.325,
 			style = {
-				text = "<color=#ff7d36>任務</color>をタップするわ",
+				dir = 1,
 				mode = 2,
 				posY = -123,
-				dir = 1,
-				posX = 87.7
+				posX = 87.7,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/taskButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/taskButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -41,11 +46,11 @@ return {
 			alpha = 0.375,
 			waitScene = "TaskScene",
 			style = {
-				text = "<color=#ff7d36>任務報酬</color>を受け取りなさいっ！",
+				dir = 1,
 				mode = 2,
 				posY = 183,
-				dir = 1,
-				posX = 474
+				posX = 474,
+				text = slot0[2]
 			},
 			ui = {
 				delay = 1,

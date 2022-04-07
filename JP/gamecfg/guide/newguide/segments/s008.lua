@@ -1,3 +1,11 @@
+slot0 = {
+	"今度の任務はユニオン空母艦隊の作戦演習を支援することね    <color=#ff7d36>出撃</color>をタップするわ",
+	"ホーネットの出現位置を特定したわ！目標地点まで全速前進よ！",
+	"失敗しちゃった…やるしかないわ！",
+	"<color=#ff7d36>迂回の成功率は艦隊の合計回避力によって決まるのよ</color>。回避力が足りなければ失敗することもあるわ",
+	"<color=#ff7d36>出撃</color>をタップして戦闘開始！    戦闘は<color=#ff7d36>艦ごとに燃料を消費する</color>のよ"
+}
+
 return {
 	id = "S008",
 	events = {
@@ -5,14 +13,14 @@ return {
 			alpha = 0.491,
 			code = 2,
 			style = {
-				text = "今度の任務はユニオン空母艦隊の作戦演習を支援することね    <color=#ff7d36>出撃</color>をタップするわ",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,11 +34,11 @@ return {
 		{
 			alpha = 0.406,
 			style = {
-				text = "ホーネットの出現位置を特定したわ！目標地点まで全速前進よ！",
+				dir = 1,
 				mode = 2,
 				posY = -351,
-				dir = 1,
-				posX = -257
+				posX = -257,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
@@ -52,32 +60,32 @@ return {
 			alpha = 0.346,
 			code = 1,
 			style = {
-				text = "失敗しちゃった…やるしかないわ！",
+				dir = 1,
 				mode = 2,
 				posY = -295,
-				dir = 1,
-				posX = -297
+				posX = -297,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.361,
 			code = 1,
 			style = {
-				text = "<color=#ff7d36>迂回の成功率は艦隊の合計回避力によって決まるのよ</color>。回避力が足りなければ失敗することもあるわ",
+				dir = 1,
 				mode = 2,
 				posY = -295,
-				dir = 1,
-				posX = -297
+				posX = -297,
+				text = slot0[4]
 			}
 		},
 		{
 			alpha = 0.409,
 			style = {
-				text = "<color=#ff7d36>出撃</color>をタップして戦闘開始！    戦闘は<color=#ff7d36>艦ごとに燃料を消費する</color>のよ",
+				dir = 1,
 				mode = 2,
 				posY = -68.93,
-				dir = 1,
-				posX = 241.87
+				posX = 241.87,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/right/start",

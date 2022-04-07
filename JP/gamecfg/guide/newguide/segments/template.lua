@@ -5,7 +5,7 @@ return {
 			delay = 0,
 			code = 2,
 			alpha = 0.4,
-			waitScene = "MainUI",
+			waitScene = "NewMainScene",
 			style = {
 				text = "水面下で戦闘できる艦船が新たに転属してきました。新しい仲間を迎えに行きましょう",
 				mode = 1,

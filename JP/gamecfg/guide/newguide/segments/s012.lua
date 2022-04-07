@@ -1,3 +1,8 @@
+slot0 = {
+	"前の画面に戻るわ",
+	"メイン画面に戻るわ"
+}
+
 return {
 	id = "S012",
 	events = {
@@ -5,11 +10,11 @@ return {
 			alpha = 0,
 			waitScene = "AwardInfoLayer",
 			style = {
-				text = "前の画面に戻るわ",
+				dir = -1,
 				mode = 2,
 				posY = -341,
-				dir = -1,
-				posX = 431
+				posX = 431,
+				text = slot0[1]
 			},
 			spriteui = {
 				defaultName = "white_dot",
@@ -32,11 +37,11 @@ return {
 		{
 			alpha = 0.367,
 			style = {
-				text = "メイン画面に戻るわ",
+				dir = -1,
 				mode = 2,
 				posY = 223.26,
-				dir = -1,
-				posX = -136.21
+				posX = -136.21,
+				text = slot0[2]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/TaskScene(Clone)/blur_panel/adapt/top/back_btn",

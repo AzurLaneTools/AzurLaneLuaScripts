@@ -14,8 +14,10 @@ function slot0.execute(slot0, slot1)
 		slot7:restNextTime()
 	end
 
-	slot6:updateDrom(slot7)
-	slot0:sendNotification(GAME.ADD_FOOD_DONE)
+	slot6:updateDrom(slot7, BackYardConst.DORM_UPDATE_TYPE_USEFOOD)
+	slot0:sendNotification(GAME.ADD_FOOD_DONE, {
+		id = slot3
+	})
 end
 
 return slot0

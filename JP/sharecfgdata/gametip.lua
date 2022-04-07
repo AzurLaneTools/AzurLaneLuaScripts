@@ -1161,12 +1161,12 @@ _G.pg.gametip.word_sell_out = {
 _G.pg.gametip.word_diamond_tip = {
 	tip = [[
 
-                        無償 <icon name=diamond w=0.8 h=0.8/> : $1
-                        有償 <icon name=diamond w=0.8 h=0.8/> : $2
-                        合計 <icon name=diamond w=0.8 h=0.8/> : $3<color=#92fc63><size=32>
+                        　　　　　　無償 <icon name=diamond w=0.8 h=0.8/> : $1
+                        　　　　　　有償 <icon name=diamond w=0.8 h=0.8/> : $2
+                        　　　　　　合計 <icon name=diamond w=0.8 h=0.8/> : $3<color=#92fc63><size=32>
 
              ※購入時は無償ダイヤから消費されます
- ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]]
+ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]]
 }
 
 _G.pg.gametip.word_contribution = {
@@ -3684,7 +3684,10 @@ _G.pg.gametip.levelScene_remaster_help_tip = {
 			info = "    4.<color=#92fc63>作戦履歴</color>内のイベントのエクストラステージ以外のステージに挑戦できます"
 		},
 		{
-			info = "    5.ステージ挑戦中に艦隊を撤退させても、消費したデータキーは返却されません"
+			info = "    5.作戦履歴で常設されたイベントのストーリーは、当該イベントの最後のステージをクリアすると一括で開放されます"
+		},
+		{
+			info = "    6.一部の作戦履歴のステージでは、敵中枢艦隊を60回撃破すると、1度だけSSR艦船を入手できます"
 		}
 	}
 }
@@ -9728,11 +9731,11 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "「ポーラ」「ザラ」「リットリオ」などが常設実装！"
+	tip = "「アラバマ」「ボルチモア」常設実装！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "「応瑞」「肇和」「ペネロピ」常設実装！"
+	tip = "「アレン・M・サムナー」「ステフェン・ポッター」などが常設実装！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
@@ -14274,8 +14277,24 @@ _G.pg.gametip.building_complete_tip = {
 	tip = "増築に成功しました"
 }
 
+_G.pg.gametip.backyard_theme_refresh_time_tip = {
+	tip = "请勿频繁刷新"
+}
+
 _G.pg.gametip.backyard_theme_total_print = {
 	tip = "合計"
+}
+
+_G.pg.gametip.backyard_theme_word_buy = {
+	tip = "購入"
+}
+
+_G.pg.gametip.backyard_theme_word_apply = {
+	tip = "適用"
+}
+
+_G.pg.gametip.backyard_theme_apply_success = {
+	tip = "保存しました"
 }
 
 _G.pg.gametip.words_visit_backyard_toggle = {
@@ -18143,6 +18162,14 @@ _G.pg.gametip.fleet_select_title = {
 	tip = "艦隊選択"
 }
 
+_G.pg.gametip.backyard_rename_title = {
+	tip = "寮舎名称"
+}
+
+_G.pg.gametip.backyard_rename_tip = {
+	tip = "寮舎の名称を入力"
+}
+
 _G.pg.gametip.equip_add = {
 	tip = "—タップで兵装を選択 —"
 }
@@ -19918,4 +19945,128 @@ _G.pg.gametip.fur_all_buy = {
 
 _G.pg.gametip.fur_onekey_buy = {
 	tip = "1個ずつ購入"
+}
+
+_G.pg.gametip.backyard_food_shop_tip = {
+	tip = "購入費用："
+}
+
+_G.pg.gametip.dorm_2f_lock = {
+	tip = "未開放"
+}
+
+_G.pg.gametip.word_get_way = {
+	tip = "入手方法:"
+}
+
+_G.pg.gametip.word_get_date = {
+	tip = "入手時間:"
+}
+
+_G.pg.gametip.enter_theme_name = {
+	tip = "テーマの名前を入力"
+}
+
+_G.pg.gametip.enter_extend_food_label = {
+	tip = "拡張"
+}
+
+_G.pg.gametip.backyard_extend_tip_1 = {
+	tip = "拡張許可書"
+}
+
+_G.pg.gametip.backyard_extend_tip_2 = {
+	tip = " 個を消費しますか？"
+}
+
+_G.pg.gametip.backyard_extend_tip_3 = {
+	tip = "所持数:"
+}
+
+_G.pg.gametip.backyard_extend_tip_4 = {
+	tip = " 個"
+}
+
+_G.pg.gametip.email_text = {
+	tip = "メールアドレス"
+}
+
+_G.pg.gametip.emailhold_text = {
+	tip = "入力したメールアドレスに認証コードを送信します"
+}
+
+_G.pg.gametip.code_text = {
+	tip = "認証コード"
+}
+
+_G.pg.gametip.codehold_text = {
+	tip = "認証コードを入力"
+}
+
+_G.pg.gametip.genBtn_text = {
+	tip = "送信する"
+}
+
+_G.pg.gametip.desc_text = {
+	tip = "上記認証コードは、送信より30分経過すると無効になります。"
+}
+
+_G.pg.gametip.loginBtn_text = {
+	tip = "ログイン"
+}
+
+_G.pg.gametip.verification_code_req_tip1 = {
+	tip = "メールアドレスを入力してください"
+}
+
+_G.pg.gametip.verification_code_req_tip2 = {
+	tip = "認証コードを送信しました"
+}
+
+_G.pg.gametip.verification_code_req_tip3 = {
+	tip = "メールアドレスと認証コードを入力してください"
+}
+
+_G.pg.gametip.levelScene_remaster_story_tip = {
+	tip = "ストーリー「$1」が開放されました。\n「図鑑」の「思い出」で確認できます"
+}
+
+_G.pg.gametip.levelScene_remaster_unlock_tip = {
+	tip = "※作戦履歴「$1 - $2」クリアで全ストーリー開放"
+}
+
+_G.pg.gametip.linkBtn_text = {
+	tip = "連携"
+}
+
+_G.pg.gametip.amazon_link_title = {
+	tip = "連携中のAmazon：$1"
+}
+
+_G.pg.gametip.amazon_unlink_btn_text = {
+	tip = "Amazonアカウント連携済み"
+}
+
+_G.pg.gametip.yostar_link_title = {
+	tip = "アカウント連携中"
+}
+
+_G.pg.gametip.yostar_unlink_btn_text = {
+	tip = "Yostarアカウント連携済み"
+}
+
+_G.pg.gametip.level_remaster_tip1 = {
+	tip = "出現海域"
+}
+
+_G.pg.gametip.level_remaster_tip2 = {
+	tip = "出撃へ"
+}
+
+_G.pg.gametip.level_remaster_tip3 = {
+	tip = "受取"
+}
+
+_G.pg.gametip.level_remaster_tip4 = {
+	tip = "$1敵中枢艦隊撃破回数"
 }

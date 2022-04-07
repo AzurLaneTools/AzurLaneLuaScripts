@@ -1,3 +1,9 @@
+slot0 = {
+	"主力艦隊の<color=#ff7d36>航空攻撃</color>は準備OKよ！",
+	"敵を一掃するわ！<color=#ff7d36>航空攻撃</color>ボタンをタップしてみて！",
+	"航空攻撃のちからを見たか！緊急時に使用すると、<color=#ff7d36>敵の弾幕</color>を消す効果もあるわ！"
+}
+
 return {
 	id = "B002",
 	events = {
@@ -13,11 +19,11 @@ return {
 				}
 			},
 			style = {
-				text = "主力艦隊の<color=#ff7d36>航空攻撃</color>は準備OKよ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
@@ -26,11 +32,11 @@ return {
 				"ShowSkill3"
 			},
 			style = {
-				text = "敵を一掃するわ！<color=#ff7d36>航空攻撃</color>ボタンをタップしてみて！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl",
@@ -45,11 +51,11 @@ return {
 				"ReleaseAfter"
 			},
 			style = {
-				text = "航空攻撃のちからを見たか！緊急時に使用すると、<color=#ff7d36>敵の弾幕</color>を消す効果もあるわ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			}
 		}
 	}

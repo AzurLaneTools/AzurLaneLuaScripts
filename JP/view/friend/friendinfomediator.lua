@@ -91,11 +91,11 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.VISIT_BACKYARD_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD, {
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD, {
 			ships = slot3.ships,
 			player = slot3.player,
 			dorm = slot3.dorm,
-			mode = BackYardConst.MODE_VISIT
+			mode = CourtYardConst.SYSTEM_VISIT
 		})
 	elseif slot2 == GAME.GET_BLACK_LIST_DONE or slot2 == GAME.FRIEND_ADD_BLACKLIST_DONE or slot2 == GAME.FRIEND_RELIEVE_BLACKLIST_DONE then
 		slot0.viewComponent:updateBlack()

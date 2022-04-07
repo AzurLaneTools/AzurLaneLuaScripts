@@ -223,7 +223,7 @@ function slot7.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot0._manualTorpedoList[#slot0._manualTorpedoList + 1] = slot7
 
 		slot0._weaponQueue:AppendManualTorpedo(slot7)
-	elseif slot8 == uv1.PASSIVE_SCOUT then
+	elseif slot8 == uv1.STRIKE_AIRCRAFT then
 		-- Nothing
 	elseif slot8 == uv1.FLEET_ANTI_AIR then
 		slot0:AddFleetAntiAirWeapon(slot7)
@@ -233,7 +233,7 @@ function slot7.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot0:AddAutoWeapon(slot7)
 	end
 
-	if slot8 == uv1.PASSIVE_SCOUT then
+	if slot8 == uv1.STRIKE_AIRCRAFT then
 		slot0._hiveList[#slot0._hiveList + 1] = slot7
 	end
 
@@ -252,7 +252,7 @@ end
 function slot7.RemoveWeapon(slot0, slot1)
 	slot3 = nil
 
-	if uv0.GetWeaponPropertyDataFromID(slot1).type == uv1.PASSIVE_SCOUT then
+	if uv0.GetWeaponPropertyDataFromID(slot1).type == uv1.STRIKE_AIRCRAFT then
 		for slot7, slot8 in ipairs(slot0._hiveList) do
 			if slot8:GetWeaponId() == slot1 then
 				slot3 = slot8
@@ -332,7 +332,7 @@ function slot7.RemoveWeaponByLabel(slot0, slot1)
 		return
 	end
 
-	if slot2:GetType() == uv0.PASSIVE_SCOUT then
+	if slot2:GetType() == uv0.STRIKE_AIRCRAFT then
 		for slot7, slot8 in ipairs(slot0._hiveList) do
 			if slot2 == slot8 then
 				table.remove(slot0._hiveList, slot7)
@@ -360,7 +360,7 @@ function slot7.RemoveWeaponByLabel(slot0, slot1)
 					break
 				end
 			end
-		elseif slot3 == uv0.SCOUT then
+		elseif slot3 == uv0.INTERCEPT_AIRCRAFT then
 			for slot7, slot8 in ipairs(slot0._autoWeaponList) do
 				if slot2 == slot8 then
 					slot0:RemoveAutoWeapon(slot2)

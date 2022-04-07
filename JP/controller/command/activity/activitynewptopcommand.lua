@@ -74,7 +74,7 @@ function slot0.execute(slot0, slot1)
 				callback = uv4
 			})
 		else
-			print(errorTip("", slot0.result))
+			originalPrint(errorTip("", slot0.result))
 		end
 	end)
 end

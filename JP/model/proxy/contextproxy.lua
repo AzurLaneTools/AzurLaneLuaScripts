@@ -48,6 +48,14 @@ function slot0.GetPrevContext(slot0, slot1)
 	return slot0.data[#slot0.data - slot1]
 end
 
+function slot0.RemoveContext(slot0, slot1)
+	for slot5 = #slot0.data, 1, -1 do
+		if slot1 == slot0.data[slot5] then
+			table.remove(slot0.data, slot5)
+		end
+	end
+end
+
 function slot0.PushContext2Prev(slot0, slot1, slot2)
 	table.insert(slot0.data, math.clamp(#slot0.data + 1 - (slot2 or 1), 1, #slot0.data + 1), slot1)
 end

@@ -5,12 +5,12 @@ function slot0.execute(slot0, slot1)
 	slot6 = getProxy(PlayerProxy):getData().displayTrophyList
 	slot7 = 0
 
-	while slot7 < PlayerInfoLayer.MAX_MEDAL_DISPLAY do
+	while slot7 < 5 do
 		if slot3[slot7] ~= slot6[slot7] then
 			break
 		end
 
-		if slot7 == PlayerInfoLayer.MAX_MEDAL_DISPLAY then
+		if slot7 == 5 then
 			return
 		end
 

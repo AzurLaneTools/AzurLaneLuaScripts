@@ -226,34 +226,6 @@ function DecorateClass(slot0, slot1)
 			return uv0[slot1] or uv1[slot1]
 		end
 	})
-
-	if Application.isEditor then
-		slot3 = {
-			"super",
-			"__cname",
-			"__ctype",
-			"__index",
-			"New",
-			"Ctor"
-		}
-
-		function slot4(slot0, slot1)
-			for slot5, slot6 in ipairs(slot0) do
-				if slot6 == slot1 then
-					return true
-				end
-			end
-
-			return false
-		end
-
-		for slot8 in pairs(slot1) do
-			if slot4(slot3, slot8) or not slot0[slot8] then
-				print("Override Field: " .. slot8 .. " in " .. slot1.__cname)
-			end
-		end
-	end
-
 	slot2.super = slot0
 	slot2.__cname = slot0.__cname .. " feat." .. slot1.__cname
 	slot2.__ctype = 2

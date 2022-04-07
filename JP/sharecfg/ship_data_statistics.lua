@@ -277805,122 +277805,6 @@ pg.ship_data_statistics = {
 			"Universal-Bulin"
 		}
 	},
-	[900313] = {
-		raid_distance = 0,
-		oxy_max = 0,
-		name = "試作型ブリMKII",
-		type = 1,
-		oxy_cost = 0,
-		skin_id = 900313,
-		english_name = "UNIV Trial Bulin MKII",
-		attack_duration = 0,
-		star = 5,
-		oxy_recovery = 0,
-		backyard_speed = "0.3",
-		rarity = 5,
-		nationality = 0,
-		oxy_recovery_bench = 0,
-		ammo = 0,
-		is_character = 0,
-		armor_type = 1,
-		huntingrange_level = 0,
-		id = 900313,
-		summon_offset = 0,
-		scale = 100,
-		attrs = {
-			175643,
-			50,
-			45,
-			133,
-			0,
-			64,
-			0,
-			46,
-			10,
-			28.4,
-			65,
-			0
-		},
-		attrs_growth = {
-			15110,
-			312,
-			0,
-			1168,
-			0,
-			340,
-			0,
-			888,
-			414,
-			0,
-			0,
-			262
-		},
-		attrs_growth_extra = {
-			3778,
-			738,
-			0,
-			597,
-			0,
-			800,
-			0,
-			0,
-			426,
-			0,
-			0,
-			353
-		},
-		lock = {},
-		cld_box = {
-			4,
-			5,
-			5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		fix_equip_list = {},
-		default_equip_list = {},
-		depth_charge_list = {
-			141
-		},
-		base_list = {
-			1,
-			2,
-			2
-		},
-		parallel_max = {
-			1,
-			1,
-			1
-		},
-		preload_count = {
-			0,
-			1,
-			0
-		},
-		equipment_proficiency = {
-			1,
-			1,
-			1
-		},
-		strategy_list = {},
-		hunting_range = {
-			{}
-		},
-		tag_list = {}
-	},
 	[900314] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -278787,6 +278671,122 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Plan-Class"
 		}
+	},
+	[900324] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "試作型ブリMKII",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 900324,
+		english_name = "UNIV Trial Bulin MKII",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900324,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
 	},
 	[900330] = {
 		raid_distance = 0,
@@ -325896,7 +325896,6 @@ pg.ship_data_statistics = {
 		900310,
 		900311,
 		900312,
-		900313,
 		900314,
 		900315,
 		900316,
@@ -325904,6 +325903,7 @@ pg.ship_data_statistics = {
 		900318,
 		900319,
 		900320,
+		900324,
 		900330,
 		900331,
 		900332,

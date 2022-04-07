@@ -1,3 +1,11 @@
+slot0 = {
+	"水面下で戦闘できる艦船が新たに転属してきました。新しい仲間を迎えに行きましょう",
+	"潜水艦が母港に配属されました！早速艦隊に編成しましょう！",
+	"潜水艦隊が編成されました！",
+	"敵の潜水艦が出現するステージでは、潜水艦対策に駆逐艦や軽巡洋艦に対潜兵装を装備する必要があります",
+	"対潜戦闘についての詳細はヘルプボタンで確認してください"
+}
+
 return {
 	id = "NG002",
 	events = {
@@ -10,16 +18,16 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "水面下で戦闘できる艦船が新たに転属してきました。新しい仲間を迎えに行きましょう",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[1]
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/taskButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/taskButton"
 			}
 		},
 		{
@@ -33,7 +41,8 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/taskBGCenter/right_panel/content/10302/frame/get_btn"
+				delay = 1,
+				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/mask/content/10302/frame/get_btn"
 			}
 		},
 		{
@@ -64,11 +73,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "潜水艦が母港に配属されました！早速艦隊に編成しましょう！",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[2]
 			}
 		},
 		{
@@ -78,7 +87,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton"
 			}
 		},
 		{
@@ -110,21 +119,21 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "潜水艦隊が編成されました！",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "敵の潜水艦が出現するステージでは、潜水艦対策に駆逐艦や軽巡洋艦に対潜兵装を装備する必要があります",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[4]
 			}
 		},
 		{
@@ -134,7 +143,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/dockBtn"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/dockBtn"
 			}
 		},
 		{
@@ -152,11 +161,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "対潜戦闘についての詳細はヘルプボタンで確認してください",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[5]
 			}
 		},
 		{

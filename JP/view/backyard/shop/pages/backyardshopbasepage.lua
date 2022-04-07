@@ -33,6 +33,14 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:OnSetUp()
 end
 
+function slot0.Show(slot0)
+	setActiveViaLayer(slot0._tf, true)
+end
+
+function slot0.Hide(slot0)
+	setActiveViaLayer(slot0._tf, false)
+end
+
 function slot0.ShowFurnitureMsgBox(slot0, slot1)
 	slot0.contextData.furnitureMsgBox:ExecuteAction("SetUp", slot1, slot0.dorm, slot0.player)
 end

@@ -1,14 +1,22 @@
+slot0 = {
+	"作戦失敗……前の画面に戻るわ",
+	"もう一度<color=#ffde38>出撃</color>するわ！",
+	"メイン海域を選択するわ",
+	"<color=#ff7d36>近海演習</color>に再チャレンジね！",
+	"<color=#ff7d36>出撃</color>で索敵開始！"
+}
+
 return {
 	id = "S022",
 	events = {
 		{
 			alpha = 0.276,
 			style = {
-				text = "作戦失敗……前の画面に戻るわ",
+				dir = 1,
 				mode = 1,
 				posY = 147.8,
-				dir = 1,
-				posX = 328.7
+				posX = 328.7,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -28,14 +36,14 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "もう一度<color=#ffde38>出撃</color>するわ！",
+				dir = 1,
 				mode = 1,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -53,11 +61,11 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "メイン海域を選択するわ",
+				dir = -1,
 				mode = 1,
 				posY = -50,
-				dir = -1,
-				posX = 250
+				posX = 250,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
@@ -78,11 +86,11 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "<color=#ff7d36>近海演習</color>に再チャレンジね！",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				delay = 1.8,
@@ -114,11 +122,11 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				text = "<color=#ff7d36>出撃</color>で索敵開始！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/start_button",

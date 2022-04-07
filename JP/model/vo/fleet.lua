@@ -283,6 +283,12 @@ function slot0.updateShips(slot0, slot1)
 	end
 end
 
+function slot0.switchShip(slot0, slot1, slot2, slot3)
+	slot4 = slot0:getTeamByName(slot1)
+	slot4[slot3] = slot4[slot2]
+	slot4[slot2] = slot4[slot3]
+end
+
 function slot0.getShipPos(slot0, slot1)
 	if not slot1 then
 		return
@@ -432,7 +438,7 @@ function slot0.getSkillNum(slot0)
 							slot2.yulei = slot2.yulei + 1
 						elseif slot23 == slot5.ANTI_AIR then
 							slot2.fangkongpao = slot2.fangkongpao + 1
-						elseif slot23 == slot5.SCOUT then
+						elseif slot23 == slot5.INTERCEPT_AIRCRAFT then
 							slot2.jianzaiji = slot2.jianzaiji + 1
 						end
 					end

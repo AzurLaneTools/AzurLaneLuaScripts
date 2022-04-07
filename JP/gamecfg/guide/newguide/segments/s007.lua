@@ -1,3 +1,9 @@
+slot0 = {
+	"今度の任務はユニオン空母艦隊の作戦演習を支援することね    <color=#ff7d36>出撃</color>をタップするわ",
+	"ホーネットの出現位置を特定したわ！目標地点まで全速前進よ！",
+	"迂回して戦闘の<color=#ff7d36>回避</color>を試してちょうだい"
+}
+
 return {
 	id = "S007",
 	events = {
@@ -5,14 +11,14 @@ return {
 			alpha = 0.422,
 			code = 2,
 			style = {
-				text = "今度の任務はユニオン空母艦隊の作戦演習を支援することね    <color=#ff7d36>出撃</color>をタップするわ",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -28,11 +34,11 @@ return {
 			code = 2,
 			waitScene = "LevelScene",
 			style = {
-				text = "ホーネットの出現位置を特定したわ！目標地点まで全速前進よ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
@@ -50,11 +56,11 @@ return {
 			alpha = 0.297,
 			code = 1,
 			style = {
-				text = "迂回して戦闘の<color=#ff7d36>回避</color>を試してちょうだい",
+				dir = 1,
 				mode = 2,
 				posY = -295,
-				dir = 1,
-				posX = -297
+				posX = -297,
+				text = slot0[3]
 			},
 			baseui = {
 				path = "OverlayCamera/Overlay/UIMain/top/LevelAmbushView(Clone)/window/dodge_button"

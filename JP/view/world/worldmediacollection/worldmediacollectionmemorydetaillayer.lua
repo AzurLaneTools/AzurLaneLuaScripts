@@ -105,19 +105,33 @@ function slot0.ShowSubMemories(slot0, slot1)
 	slot0.memories = _.map(slot1.memories, function (slot0)
 		return pg.memory_template[slot0]
 	end)
-	slot2 = slot0.memoryItemList
 
-	slot2:SetTotalCount(#slot0.memories, 0)
+	slot0.memoryItemList:SetTotalCount(#slot0.memories, 0)
 
-	slot5 = slot0._tf
-
-	setText(slot5:Find("ItemRect/ProgressText"), _.reduce(slot0.memories, 0, function (slot0, slot1)
+	slot2 = #slot0.memories
+	slot3 = _.reduce(slot0.memories, 0, function (slot0, slot1)
 		if slot1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot1.story, true) then
 			slot0 = slot0 + 1
 		end
 
 		return slot0
-	end) .. "/" .. #slot0.memories)
+	end)
+
+	setText(slot0._tf:Find("ItemRect/ProgressText"), slot3 .. "/" .. slot2)
+
+	slot5 = slot3 < slot2 and #_.filter(pg.re_map_template.all, function (slot0)
+		return pg.re_map_template[slot0].memory_group == uv0.id
+	end) > 0
+
+	setActive(slot0._tf:Find("ItemRect/UnlockTip"), slot5)
+
+	if slot5 then
+		slot8 = slot0._tf
+
+		setText(slot8:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot4[1])), function (slot0)
+			return getProxy(ChapterProxy):getChapterById(slot0, true):getConfig("chapter_name")
+		end), "/")))
+	end
 end
 
 function slot0.CleanList(slot0)

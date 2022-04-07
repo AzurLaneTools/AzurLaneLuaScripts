@@ -9,8 +9,18 @@ slot0.correspondingClass = {
 }
 slot3 = 0.5
 
+function slot0.forceGC(slot0)
+	return true
+end
+
 function slot0.getUIName(slot0)
 	return "LevelMainScene"
+end
+
+function slot0.ResUISettings(slot0)
+	return {
+		showType = PlayerResUI.TYPE_ALL
+	}
 end
 
 function slot0.getBGM(slot0)
@@ -139,9 +149,7 @@ function slot0.initUI(slot0)
 	slot0.chapterName = slot0:findTF("title_chapter/name", slot0.topChapter)
 	slot0.chapterNoTitle = slot0:findTF("title_chapter/chapter", slot0.topChapter)
 	slot0.resChapter = slot0:findTF("resources", slot0.topChapter)
-	slot0.resPanel = PlayerResource.New()
 
-	slot0.resPanel:setParent(slot0.resChapter, false)
 	setActive(slot0.topChapter, true)
 
 	slot0._voteBookBtn = slot0.topChapter:Find("vote_book")
@@ -194,6 +202,7 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.signalBtn, false)
 
+	slot0.remasterAwardBtn = slot0:findTF("btn_remaster_award", slot0.rightChapter)
 	slot0.btnNext = slot0:findTF("btn_next", slot0.rightChapter)
 	slot0.btnNextCol = slot0:findTF("btn_next/next_image", slot0.rightChapter)
 	slot0.countDown = slot0:findTF("event_btns/count_down", slot0.rightChapter)
@@ -253,22 +262,18 @@ function slot0.initUI(slot0)
 		slot3[slot7].sortingOrder = -1
 	end
 
-	slot4 = GameObject.Find("LevelCamera").transform
-	slot0.levelCam = slot4:GetComponent(typeof(Camera))
-	slot0.uiMain = slot4:Find("Canvas/UIMain")
+	slot4 = pg.UIMgr.GetInstance()
+	slot0.levelCam = slot4.levelCamera:GetComponent(typeof(Camera))
+	slot0.uiMain = slot4.LevelMain
 
 	setActive(slot0.uiMain, false)
 
-	GetOrAddComponent(slot0.uiMain, typeof(Image)).color = Color.New(0, 0, 0, 0.5)
-	slot0.uiCam = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
+	slot0.uiCam = slot4.uiCamera:GetComponent(typeof(Camera))
 	slot0.levelGrid = slot0.uiMain:Find("LevelGrid")
 
 	setActive(slot0.levelGrid, true)
 
 	slot0.dragLayer = slot0.levelGrid:Find("DragLayer")
-
-	setImageAlpha(slot0.dragLayer, 0.27450980392156865)
-
 	slot0.float = slot0:findTF("float")
 	slot0.clouds = slot0:findTF("clouds", slot0.float)
 
@@ -303,6 +308,8 @@ function slot0.initUI(slot0)
 	slot0.levelInfoView = LevelInfoView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
 	slot0:buildCommanderPanel()
+
+	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
 end
 
 function slot0.initEvents(slot0)
@@ -485,8 +492,7 @@ function slot0.didEnter(slot0)
 
 		uv0:displayRemasterPanel()
 		getProxy(ChapterProxy):setRemasterTip(false)
-		SetActive(uv0.remasterBtn:Find("tip"), false)
-		SetActive(uv0.entranceLayer:Find("btns/btn_remaster/tip"), false)
+		uv0:updateRemasterBtnTip()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.signalBtn, function ()
 		if uv0:isfrozen() then
@@ -534,8 +540,7 @@ function slot0.didEnter(slot0)
 
 		uv0:displayRemasterPanel()
 		getProxy(ChapterProxy):setRemasterTip(false)
-		SetActive(uv0.remasterBtn:Find("tip"), false)
-		SetActive(uv0.entranceLayer:Find("btns/btn_remaster/tip"), false)
+		uv0:updateRemasterBtnTip()
 	end, SFX_PANEL)
 	setActive(slot0.entranceLayer:Find("btns/btn_remaster"), OPEN_REMASTER)
 	onButton(slot0, slot0.entranceLayer:Find("btns/btn_challenge"), function ()
@@ -640,13 +645,7 @@ function slot0.didEnter(slot0)
 		slot0:tryPlaySubGuide()
 	end
 
-	if getProxy(ChapterProxy):ifShowRemasterTip() then
-		SetActive(slot0.remasterBtn:Find("tip"), true)
-		SetActive(slot0.entranceLayer:Find("btns/btn_remaster/tip"), true)
-	else
-		SetActive(slot0.remasterBtn:Find("tip"), false)
-		SetActive(slot0.entranceLayer:Find("btns/btn_remaster/tip"), false)
-	end
+	slot0:updateRemasterBtnTip()
 
 	if slot0.contextData.open_remaster then
 		slot0:displayRemasterPanel(slot0.contextData.isSP)
@@ -708,7 +707,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.levelRemasterView then
+	if slot0.levelRemasterView:isShowing() then
 		slot0:hideRemasterPanel()
 
 		return
@@ -801,8 +800,6 @@ function slot0.setShips(slot0, slot1)
 end
 
 function slot0.updateRes(slot0, slot1)
-	slot0.resPanel:setResources(slot1)
-
 	if slot0.levelStageView then
 		slot0.levelStageView:ActionInvoke("SetPlayer", slot1)
 	end
@@ -1080,6 +1077,7 @@ function slot0.updateActivityBtns(slot0)
 
 	setActive(slot0.activityBtn, slot10)
 	setActive(slot0.signalBtn, getProxy(ChapterProxy):getChapterById(304):isClear() and (slot6 == Map.SCENARIO or slot6 == Map.ELITE))
+	slot0:updateRemasterInfo()
 
 	if slot1 and slot2 then
 		setActive(slot0.actExtraBtn, underscore.any(slot11:getMapsByActivities(), function (slot0)
@@ -1131,6 +1129,75 @@ end
 
 function slot0.updateRemasterTicket(slot0)
 	setText(slot0.ticketTxt, getProxy(ChapterProxy).remasterTickets .. " / " .. pg.gameset.reactivity_ticket_max.key_value)
+
+	if slot0.levelRemasterView:isShowing() then
+		slot0.levelRemasterView:ActionInvoke("updateTicketDisplay")
+	end
+end
+
+function slot0.updateRemasterBtnTip(slot0)
+	slot2 = getProxy(ChapterProxy):ifShowRemasterTip() or slot1:anyRemasterAwardCanReceive()
+
+	SetActive(slot0.remasterBtn:Find("tip"), slot2)
+	SetActive(slot0.entranceLayer:Find("btns/btn_remaster/tip"), slot2)
+end
+
+function slot0.updateRemasterInfo(slot0)
+	if slot0.levelRemasterView:isShowing() then
+		slot0.levelRemasterView:ActionInvoke("flushOnly")
+	end
+
+	if not slot0.contextData.map then
+		return
+	end
+
+	slot2 = slot0.contextData.map:isRemaster() and pg.re_map_template[slot0.contextData.map:getRemaster()].character_gain
+
+	setActive(slot0.remasterAwardBtn, slot2 and #slot2 > 0 and checkExist(getProxy(ChapterProxy).remasterInfo[slot2[1]], {
+		"receive"
+	}) == false)
+
+	if isActive(slot0.remasterAwardBtn) then
+		slot3, slot4, slot5 = unpack(slot2)
+		slot6 = slot1.remasterInfo[slot3]
+
+		setText(slot0.remasterAwardBtn:Find("Text"), slot6.count .. "/" .. slot5)
+		updateDrop(slot0.remasterAwardBtn:Find("IconTpl"), {
+			type = DROP_TYPE_SHIP,
+			id = slot4
+		})
+		setActive(slot0.remasterAwardBtn:Find("tip"), slot5 <= slot6.count)
+		onButton(slot0, slot0.remasterAwardBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideYes = true,
+				hideNo = true,
+				type = MSGBOX_TYPE_SINGLE_ITEM,
+				drop = {
+					type = DROP_TYPE_SHIP,
+					id = uv0
+				},
+				weight = LayerWeightConst.TOP_LAYER,
+				remaster = {
+					word = i18n("level_remaster_tip4", pg.chapter_template[uv1].chapter_name),
+					number = uv2.count .. "/" .. uv3,
+					btn_text = i18n(uv2.count < uv3 and "level_remaster_tip2" or "level_remaster_tip3"),
+					btn_call = function ()
+						if uv0.count < uv1 then
+							slot1, slot2 = uv3:getMapById(pg.chapter_template[uv2].map):isUnlock()
+
+							if not slot1 then
+								pg.TipsMgr.GetInstance():ShowTips(slot2)
+							else
+								uv4:ShowSelectedMap(slot0)
+							end
+						else
+							uv4:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, uv2)
+						end
+					end
+				}
+			})
+		end, SFX_PANEl)
+	end
 end
 
 function slot0.updateCountDown(slot0)
@@ -1347,13 +1414,8 @@ function slot0.ShowSelectedMap(slot0, slot1, slot2)
 				uv0:setMap(uv1)
 				slot0()
 			end
-		end,
-		function (slot0)
-			if uv0 then
-				uv0()
-			end
 		end
-	})
+	}, slot2)
 end
 
 function slot0.setMap(slot0, slot1)
@@ -1494,13 +1556,13 @@ function slot0.updateChapterTF(slot0, slot1)
 end
 
 function slot0.tryPlayMapStory(slot0)
-	if Application.isEditor and not ENABLE_GUIDE then
+	if IsUnityEditor and not ENABLE_GUIDE then
 		return
 	end
 
 	seriesAsync({
 		function (slot0)
-			if uv0.contextData.map:getConfig("enter_story") and slot1 ~= "" and not pg.SystemOpenMgr.GetInstance().active then
+			if uv0.contextData.map:getConfig("enter_story") and slot1 ~= "" and not uv0.contextData.map:isRemaster() and not pg.SystemOpenMgr.GetInstance().active then
 				slot2 = pg.NewStoryMgr.GetInstance()
 
 				slot2:Play(slot1, function (slot0)
@@ -1843,7 +1905,7 @@ function slot0.trackChapter(slot0, slot1, slot2)
 
 		slot3 = uv2:getConfig("enter_story_limit")
 
-		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(slot3) then
+		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(slot3) and not slot0:isRemaster() then
 			ChapterOpCommand.PlayChapterStory(slot2, function ()
 				onNextTick(uv0)
 			end, uv2:isLoop() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. uv2.id, 1) == 1)
@@ -2087,6 +2149,7 @@ function slot0.switchToMap(slot0, slot1)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
 
 	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
+	slot0.canvasGroup.interactable = true
 
 	if slot0.ambushWarning and slot0.ambushWarning.activeSelf then
 		slot0.ambushWarning:SetActive(false)
@@ -2475,48 +2538,24 @@ function slot0.hideRepairWindow(slot0)
 end
 
 function slot0.displayRemasterPanel(slot0, slot1)
-	slot2 = getProxy(ChapterProxy)
-	slot3 = {}
+	slot2 = slot0.levelRemasterView
 
-	for slot7, slot8 in ipairs(pg.re_map_template.all) do
-		table.insert(slot3, pg.re_map_template[slot8])
-	end
+	slot2:Load()
 
-	table.sort(slot3, function (slot0, slot1)
-		return slot0.order < slot1.order
-	end)
+	slot3 = slot0.levelRemasterView
 
-	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
-	slot4 = slot0.levelRemasterView
+	slot3:ActionInvoke("Show")
 
-	slot4:Load()
+	slot3 = slot0.levelRemasterView
 
-	slot4 = slot0.levelRemasterView
-
-	slot4:ActionInvoke("set", slot3, slot2.remasterTickets, slot1)
-
-	slot6 = slot0.levelRemasterView
-
-	slot6:ActionInvoke("setCBFunc", function (slot0)
-		if not (PlayerPrefs.HasKey("remaster_lastmap_" .. slot0.id) and PlayerPrefs.GetInt("remaster_lastmap_" .. slot0.id) or pg.chapter_template[slot0.config_data[1]].map) then
-			return
-		end
-
-		slot2 = uv0
-
-		slot2:ShowSelectedMap(slot1, function ()
-			uv0:hideRemasterPanel()
-		end)
-	end, function ()
-		uv0:hideRemasterPanel()
-	end)
+	slot3:ActionInvoke("set", function (slot0)
+		uv0:ShowSelectedMap(slot0)
+	end, slot1)
 end
 
 function slot0.hideRemasterPanel(slot0)
-	if slot0.levelRemasterView then
-		slot0.levelRemasterView:Destroy()
-
-		slot0.levelRemasterView = nil
+	if slot0.levelRemasterView:isShowing() then
+		slot0.levelRemasterView:ActionInvoke("Hide")
 	end
 end
 
@@ -3327,8 +3366,6 @@ function slot0.setSpecialOperationTickets(slot0, slot1)
 end
 
 function slot0.HandleShowMsgBox(slot0, slot1)
-	slot1.blurLevelCamera = true
-
 	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1)
 end
 
@@ -3479,12 +3516,6 @@ function slot0.willExit(slot0)
 		slot0.newChapterCDTimer = nil
 	end
 
-	if slot0.resPanel then
-		slot0.resPanel:exit()
-
-		slot0.resPanel = nil
-	end
-
 	for slot7, slot8 in ipairs(slot0.damageTextActive) do
 		LeanTween.cancel(slot8)
 	end
@@ -3511,6 +3542,7 @@ function slot0.willExit(slot0)
 	end
 
 	slot0:RecordLastMapOnExit()
+	slot0.levelRemasterView:Destroy()
 end
 
 return slot0

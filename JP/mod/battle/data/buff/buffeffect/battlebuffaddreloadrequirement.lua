@@ -21,7 +21,7 @@ function slot2.onAttach(slot0, slot1, slot2)
 	if slot0._weaponType then
 		slot4 = nil
 
-		if (slot0._weaponType ~= uv0.EquipmentType.POINT_HIT_AND_LOCK or slot1:GetChargeList()) and (slot0._weaponType ~= uv0.EquipmentType.MANUAL_TORPEDO or slot1:GetTorpedoList()) and (slot0._weaponType ~= uv0.EquipmentType.SCOUT and slot0._weaponType ~= uv0.EquipmentType.PASSIVE_SCOUT or slot1:GetHiveList()) and (slot0._weaponType ~= uv0.EquipmentType.AIR_ASSIST or slot1:GetAirAssistList()) and slot1:GetAutoWeapons() then
+		if (slot0._weaponType ~= uv0.EquipmentType.POINT_HIT_AND_LOCK or slot1:GetChargeList()) and (slot0._weaponType ~= uv0.EquipmentType.MANUAL_TORPEDO or slot1:GetTorpedoList()) and (slot0._weaponType ~= uv0.EquipmentType.INTERCEPT_AIRCRAFT and slot0._weaponType ~= uv0.EquipmentType.STRIKE_AIRCRAFT or slot1:GetHiveList()) and (slot0._weaponType ~= uv0.EquipmentType.AIR_ASSIST or slot1:GetAirAssistList()) and slot1:GetAutoWeapons() then
 			for slot8, slot9 in ipairs(slot4) do
 				slot3[#slot3 + 1] = slot9
 			end

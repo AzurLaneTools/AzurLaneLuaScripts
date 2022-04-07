@@ -1,35 +1,43 @@
+slot0 = {
+	"この前の作戦で指揮官が大活躍したじゃない！上から第二艦隊の編成許可が下りたわ！",
+	"編成では第二艦隊の編成もできるね。確定をタップして、編成画面に行くわよ",
+	"右のボタンをタップして第二艦隊に切り替えるわ",
+	"第二艦隊はここで編成するのよ",
+	"これからも期待してあげるわ！"
+}
+
 return {
 	id = "SYG006",
 	events = {
 		{
 			alpha = 0.332,
 			style = {
-				text = "この前の作戦で指揮官が大活躍したじゃない！上から第二艦隊の編成許可が下りたわ！",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
 			alpha = 0.413,
 			style = {
-				text = "編成では第二艦隊の編成もできるね。確定をタップして、編成画面に行くわよ",
-				mode = 2,
 				scene = "BIANDUI",
+				mode = 2,
 				posY = 0,
 				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.462,
 			style = {
-				text = "右のボタンをタップして第二艦隊に切り替えるわ",
+				dir = 1,
 				mode = 2,
 				posY = 87,
-				dir = 1,
-				posX = 228.09
+				posX = 228.09,
+				text = slot0[3]
 			},
 			ui = {
 				hideAnimtor = true,
@@ -47,21 +55,21 @@ return {
 		{
 			alpha = 0.442,
 			style = {
-				text = "第二艦隊はここで編成するのよ",
+				dir = -1,
 				mode = 2,
 				posY = 121.8,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			}
 		},
 		{
 			alpha = 0.44,
 			style = {
-				text = "これからも期待してあげるわ！",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			}
 		}
 	}

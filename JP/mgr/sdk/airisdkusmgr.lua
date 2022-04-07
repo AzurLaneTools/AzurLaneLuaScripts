@@ -190,7 +190,7 @@ return {
 		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 	end,
 	CheckPretest = function ()
-		return Application.isEditor or uv0.CheckPreAudit()
+		return IsUnityEditor or uv0.CheckPreAudit()
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
@@ -325,7 +325,7 @@ return {
 		slot6 = pg.TimeMgr.GetInstance():STimeDescS(slot1.registerTime, "%Y-%m-%d %H:%M:%S")
 		slot7 = math.modf(slot1.rmb / 100)
 
-		print("uid:" .. slot1.id .. ",name:" .. slot1.name .. ",level" .. slot1.level .. ",serverId:" .. slot5.id .. " - " .. slot5.name .. ",rmb:" .. slot7 .. ",createTime:" .. slot6)
+		originalPrint("uid:" .. slot1.id .. ",name:" .. slot1.name .. ",level" .. slot1.level .. ",serverId:" .. slot5.id .. " - " .. slot5.name .. ",rmb:" .. slot7 .. ",createTime:" .. slot6)
 		uv0:OpenHelp(tostring(slot1.id), slot1.name, tostring(slot1.level), tostring(slot5.id .. " - " .. slot5.name), tostring(slot7), slot6)
 	end,
 	GetYostarUid = function ()
@@ -343,7 +343,7 @@ return {
 	GetChannelUID = function ()
 		slot0 = uv0.channelUID
 
-		print("channelUID : " .. slot0)
+		originalPrint("channelUID : " .. slot0)
 
 		return slot0
 	end,
@@ -383,7 +383,7 @@ return {
 				uv0.ClearAccountCache()
 			end
 
-			print("SDK Error Code:" .. slot1)
+			originalPrint("SDK Error Code:" .. slot1)
 
 			if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("new_airi_error_code_other") .. slot2)

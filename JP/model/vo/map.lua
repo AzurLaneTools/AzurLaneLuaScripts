@@ -78,6 +78,10 @@ function slot0.isRemaster(slot0)
 	return slot0.remasterId ~= nil
 end
 
+function slot0.getRemaster(slot0)
+	return slot0.remasterId
+end
+
 function slot0.getMapType(slot0)
 	return slot0:getConfig("type")
 end
@@ -219,6 +223,34 @@ end
 
 function slot0.GetChapterList(slot0)
 	return slot0.chapterIds
+end
+
+function slot0.GetRearChaptersOfRemaster(slot0)
+	if not slot0 or slot0 == 0 then
+		return
+	end
+
+	slot1 = getProxy(ChapterProxy)
+
+	table.Foreach(_.reduce(pg.re_map_template[slot0].config_data, {}, function (slot0, slot1)
+		slot0[slot5] = slot0[uv0:getMapById(uv0:getChapterById(slot1, true):getConfig("map")):getConfig("type")] or {}
+
+		table.insert(slot0[slot5], slot1)
+
+		return slot0
+	end), function (slot0, slot1)
+		slot2 = _.reduce(slot1, {}, function (slot0, slot1)
+			slot0[uv0:getChapterById(slot1, true):getConfig("pre_chapter")] = slot1
+
+			return slot0
+		end)
+
+		table.insert(uv1, _.max(_.filter(slot1, function (slot0)
+			return not uv0[slot0]
+		end)))
+	end)
+
+	return {}
 end
 
 function slot0.isActivity(slot0)

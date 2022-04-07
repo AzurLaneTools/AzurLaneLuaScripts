@@ -75,33 +75,18 @@ function slot0.getBackYardShips(slot0)
 	return slot1
 end
 
-function slot0.GetShipIdsByType(slot0, slot1)
-	slot2 = slot0:getTrainShipIds()
-	slot3 = slot0:getRestShipIds()
-	slot4 = {}
-	slot5 = {}
-
-	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
-		slot4 = slot2
-		slot5 = slot3
-	elseif slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
-		slot4 = slot3
-		slot5 = slot2
-	end
-
-	return slot4, slot5
-end
-
 function slot0.addShip(slot0, slot1)
 	slot0.data:addShip(slot1)
-	slot0:sendNotification(uv0.SHIP_ADDED, slot0:getShipById(slot1):clone())
-	slot0:updateDrom(slot0.data)
+
+	slot2 = slot0:getShipById(slot1)
+
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
 function slot0.exitYardById(slot0, slot1)
 	slot0.data:deleteShip(slot1)
 	slot0:sendNotification(uv0.SHIP_EXIT, slot0:getShipById(slot1))
-	slot0:updateDrom(slot0.data)
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
 function slot0.getShipById(slot0, slot1)
@@ -141,14 +126,11 @@ function slot0.addInimacyAndMoney(slot0, slot1, slot2, slot3)
 
 	slot5:updateStateInfo34(slot2, slot3)
 	slot4:updateShip(slot5)
-	slot0:sendNotification(uv0.INIMACY_AND_MONEY_ADD)
-
-	if pg.backyard then
-		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
-			name = BACKYARD.BOAT_HARVEST,
-			ship = slot5:clone()
-		})
-	end
+	slot0:sendNotification(uv0.INIMACY_AND_MONEY_ADD, {
+		id = slot1,
+		intimacy = slot2,
+		money = slot3
+	})
 end
 
 function slot0.isLackOfFood(slot0)
@@ -173,46 +155,6 @@ function slot0.havePopEvent(slot0)
 	end
 
 	return false
-end
-
-function slot0.getFurnitrues(slot0)
-	return Clone(slot0.data.furnitures)
-end
-
-function slot0.getFurnitrueCount(slot0, slot1)
-	slot3 = 0
-
-	for slot7, slot8 in pairs(slot0:getFurnitrues()) do
-		if slot8.configId == slot1 then
-			slot3 = slot3 + 1
-		end
-	end
-
-	return slot3
-end
-
-function slot0.getTempFurnitrues(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.data.furnitures) do
-		if pg.furniture_data_template[slot6.id] then
-			slot1[slot6.id] = slot6:clone()
-		end
-	end
-
-	return slot1
-end
-
-function slot0.getFurnitureCountByType(slot0, slot1)
-	slot2 = 0
-
-	for slot6, slot7 in pairs(slot0:getFurnitrues()) do
-		if slot7:getConfig("type") == slot1 then
-			slot2 = slot2 + 1
-		end
-	end
-
-	return slot2
 end
 
 function slot1(slot0, slot1)
@@ -247,7 +189,7 @@ end
 
 function slot0.addFurniture(slot0, slot1)
 	uv0(slot0, slot1)
-	slot0:updateDrom(slot0.data)
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 end
 
 function slot0.AddFurnitrues(slot0, slot1)
@@ -258,7 +200,7 @@ function slot0.AddFurnitrues(slot0, slot1)
 		}))
 	end
 
-	slot0:updateDrom(slot0.data)
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 end
 
 function slot0.updateFurniture(slot0, slot1)
@@ -268,20 +210,6 @@ end
 
 function slot0.getFurniById(slot0, slot1)
 	return Clone(slot0.data:getFurnitrueById(slot1))
-end
-
-function slot0.getPutFurnis(slot0)
-	return Clone(slot0.data:getPutFurnis())
-end
-
-function slot0.getWallPaper(slot0, slot1)
-	for slot5, slot6 in pairs(slot0:getFurnitrues()) do
-		slot7 = slot6:getConfig("type")
-
-		if slot6.position and slot1 == slot7 then
-			return slot6:clone()
-		end
-	end
 end
 
 function slot0.getFurnitrueCount(slot0, slot1)
@@ -302,11 +230,11 @@ function slot0.addDorm(slot0, slot1)
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inBackyard")
 end
 
-function slot0.updateDrom(slot0, slot1)
+function slot0.updateDrom(slot0, slot1, slot2)
 	slot0.data = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inBackyard")
-	slot0.facade:sendNotification(uv0.DORM_UPDATEED, slot1:clone())
+	slot0.facade:sendNotification(uv0.DORM_UPDATEED, {}, slot2)
 end
 
 function slot0.getData(slot0)
@@ -318,7 +246,7 @@ end
 function slot0.updateFood(slot0, slot1)
 	slot0.data:consumeFood(slot1)
 	slot0.data:restNextTime()
-	slot0:updateDrom(slot0.data)
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_UPDATEFOOD)
 end
 
 function slot0.getRestFood(slot0)

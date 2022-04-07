@@ -35,8 +35,9 @@ function slot0.Update(slot0, slot1, slot2)
 				end)
 			else
 				setActive(slot0.iconImg.gameObject, true)
-
-				slot0.iconImg.sprite = LoadSprite("furnitureicon/" .. slot1:getIcon())
+				LoadSpriteAtlasAsync("furnitureicon/" .. slot1:getIcon(), "", function (slot0)
+					uv0.iconImg.sprite = slot0
+				end)
 			end
 
 			slot5 = slot1.pos
@@ -47,7 +48,7 @@ function slot0.Update(slot0, slot1, slot2)
 
 			slot0.posTxt.text = slot5
 		else
-			GetSpriteFromAtlasAsync("furnitureicon/" .. slot1:getIcon(), "", function (slot0)
+			LoadSpriteAsync("furnitureicon/" .. slot1:getIcon(), function (slot0)
 				uv0.iconImg.sprite = slot0
 			end)
 		end
@@ -66,6 +67,16 @@ function slot0.UpdateState(slot0, slot1)
 		SetActive(slot0.maskTF, slot1)
 
 		slot0.showMask = slot1
+	end
+end
+
+function slot0.Dispose(slot0)
+	uv0.super.Dispose(slot0)
+
+	if not IsNil(slot0.rawIcon.texture) then
+		Object.Destroy(slot0.rawIcon.texture)
+
+		slot0.rawIcon.texture = nil
 	end
 end
 

@@ -4,16 +4,18 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "「アズールレーン」へようこそ！次は何をするか分からないときは…「新兵任務」をチェックしてね！",
+				dir = -1,
 				mode = 1,
 				posY = 172,
-				dir = -1,
-				posX = -337
+				posX = -337,
+				text = ({
+					"「アズールレーン」へようこそ！次は何をするか分からないときは…「新兵任務」をチェックしてね！"
+				})[1]
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/commanderPanel/link_btns/traningcamp"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/link_top/MainUIRecruitBtn(Clone)"
 			}
 		}
 	}

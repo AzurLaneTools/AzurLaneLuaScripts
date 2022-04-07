@@ -64,13 +64,17 @@ function slot2.Update(slot0)
 
 	if slot0._unitData:GetIFF() == uv0.Battle.BattleConfig.FOE_CODE then
 		slot0:UpdateHPPop()
-		slot0:UpdateHPBarPostition()
+		slot0:UpdateHPPopContainerPosition()
+		slot0:UpdateHPBarPosition()
 		slot0:UpdateHpBar()
 	end
 end
 
 function slot2.UpdatePosition(slot0)
-	slot0._tf.localPosition = slot0._unitData:GetPosition()
+	if not slot0._unitData:IsOutViewBound() then
+		slot0._tf.localPosition = slot0._unitData:GetPosition()
+	end
+
 	slot0._characterPos = slot0._unitData:GetPosition()
 end
 
@@ -88,7 +92,7 @@ function slot2.UpdateDirection(slot0)
 	end
 end
 
-function slot2.UpdateHPBarPostition(slot0)
+function slot2.UpdateHPBarPosition(slot0)
 	slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
 
 	slot0._HPBarTf.position = slot0._hpBarPos

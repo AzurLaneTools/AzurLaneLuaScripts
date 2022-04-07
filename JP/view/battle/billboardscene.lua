@@ -98,11 +98,10 @@ function slot0.updateToggles(slot0)
 		setActive(slot5, getProxy(ActivityProxy):getActivityById(slot4) and not slot6:isEnd())
 	end
 
-	Canvas.ForceUpdateCanvases()
-	setActive(slot0.toggleContainer, false)
 	setActive(slot0.toggleContainer, true)
+	Canvas.ForceUpdateCanvases()
 
-	slot0.toggleScrollRect:GetComponent(typeof(ScrollRect)).enabled = slot0.toggleScrollRect.rect.height < slot0.toggleContainer.rect.height
+	slot0.toggleContainer:GetComponent(typeof(ScrollRect)).enabled = slot0.toggleScrollRect.rect.height < slot0.toggleContainer.rect.height
 end
 
 function slot0.didEnter(slot0)
@@ -205,7 +204,14 @@ function slot0.filter(slot0, slot1, slot2)
 
 	slot0.rankRect:SetTotalCount(#slot0.displayRankVOs)
 	setActive(slot0.listEmptyTF, #slot0.displayRankVOs <= 0)
-	slot0.playerCard:update(slot0.playerRankVOs[slot0.page], slot2)
+
+	slot5 = slot0.playerRankVOs[slot0.page]
+
+	if PowerRank.TYPE_PT == slot1 then
+		slot0.playerCard:update(slot4[1], slot2)
+	else
+		slot0.playerCard:update(slot5, slot2)
+	end
 end
 
 function slot0.switchPage(slot0, slot1, slot2)

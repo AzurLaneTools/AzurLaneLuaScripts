@@ -1399,17 +1399,6 @@ pg.ship_data_group = {
 					""
 				},
 				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -1441,17 +1430,6 @@ pg.ship_data_group = {
 					""
 				},
 				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -1481,6 +1459,17 @@ pg.ship_data_group = {
 				"イベント：開かれし紺碧の砂箱",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -1688,6 +1677,17 @@ pg.ship_data_group = {
 				"イベント：開かれし紺碧の砂箱",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -2056,17 +2056,6 @@ pg.ship_data_group = {
 				"ログインスタンプ",
 				{
 					""
-				},
-				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			}
@@ -2592,6 +2581,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -2841,6 +2840,17 @@ pg.ship_data_group = {
 				"イベント：開かれし紺碧の砂箱",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -3638,6 +3648,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -4094,17 +4115,6 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"イベント：闇に堕ちた青き翼",
 				{
 					""
@@ -4145,17 +4155,6 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
-			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"イベント：闇に堕ちた青き翼",
 				{
@@ -4433,6 +4432,17 @@ pg.ship_data_group = {
 				"イベント：開かれし紺碧の砂箱",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5280,6 +5290,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5481,17 +5501,6 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
-			{
-				"特型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"ショップの大艦隊補給にて入手可能",
 				{
@@ -8983,17 +8992,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -9027,12 +9025,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"特別補給（ランダム出現）",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -10173,12 +10170,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -10662,12 +10658,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -10713,12 +10708,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11115,12 +11109,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11157,12 +11150,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11628,17 +11620,6 @@ pg.ship_data_group = {
 				"イベント：紅染の来訪者",
 				{
 					""
-				},
-				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			},
@@ -13000,17 +12981,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -13393,12 +13363,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"支援要請（ランダム出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -14023,6 +13992,16 @@ pg.ship_data_group = {
 				"イベント：南洋に靡く硝煙",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -14999,12 +14978,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -15219,12 +15197,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダム出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15333,12 +15310,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダム出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15798,17 +15774,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"ショップの大艦隊補給にて入手可能",
 				{
 					"SHOP",
@@ -16196,12 +16161,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"支援要請（ランダム出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -17173,12 +17137,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -17217,12 +17180,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -18727,12 +18689,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"特別補給（ランダム出現）",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -18769,12 +18730,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダム出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0

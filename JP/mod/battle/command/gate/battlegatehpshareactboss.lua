@@ -112,7 +112,7 @@ function slot0.Exit(slot0, slot1)
 				table.insert(slot11, slot18)
 			end
 		else
-			print("finish stage error: can not find submarin fleet.")
+			originalPrint("finish stage error: can not find submarin fleet.")
 		end
 	end
 

@@ -30,7 +30,7 @@ function slot2.Clear(slot0)
 end
 
 function slot2.GetFX(slot0, slot1, slot2)
-	LuaHelper.SetGOParentTF(uv0.Battle.BattleResourceManager.GetInstance():InstFX(slot1), slot2 or slot0._fxContainerTf, false)
+	LuaHelper.SetGOParentTF(uv0.Battle.BattleResourceManager.GetInstance():InstFX(slot1, true), slot2 or slot0._fxContainerTf, false)
 
 	slot4 = nil
 
@@ -49,7 +49,7 @@ function slot2.GetCharacterFX(slot0, slot1, slot2, slot3, slot4, slot5)
 		return slot0:GetFX(slot1)
 	end
 
-	slot6 = uv0.Battle.BattleResourceManager.GetInstance():InstFX(slot1)
+	slot6 = uv0.Battle.BattleResourceManager.GetInstance():InstFX(slot1, true)
 	slot7, slot8 = nil
 
 	if uv1[slot1] ~= nil then

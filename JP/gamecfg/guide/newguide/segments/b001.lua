@@ -1,3 +1,12 @@
+slot0 = {
+	"新兵、今からこのアマゾンが艦隊運動を教えてやるわ！",
+	"まずは<color=#ff7d36>スティックを引っ張って</color>艦を動かしなさい！",
+	"前列の<color=#ff7d36>前衛艦隊</color>は艦砲を使って<color=#ff7d36>自動で攻撃</color>してくれるわ！",
+	"次はボタンをタップして<color=#ff7d36>魚雷発射</color>よ！",
+	"硬い敵相手には後列の主力艦隊の<color=#ff7d36>主砲砲撃</color>が有効よ！",
+	"ボタンをタップすると主砲発射よ！<color=#ff7d36>ボタンを押し続ける</color>と手動照準もできるわ！"
+}
+
 return {
 	id = "B001",
 	events = {
@@ -27,11 +36,11 @@ return {
 				"ShowStick"
 			},
 			style = {
-				text = "新兵、今からこのアマゾンが艦隊運動を教えてやるわ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
@@ -40,11 +49,11 @@ return {
 				"ShowStick"
 			},
 			style = {
-				text = "まずは<color=#ff7d36>スティックを引っ張って</color>艦を動かしなさい！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area",
@@ -59,11 +68,11 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				text = "前列の<color=#ff7d36>前衛艦隊</color>は艦砲を使って<color=#ff7d36>自動で攻撃</color>してくれるわ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			}
 		},
 		{
@@ -84,11 +93,11 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				text = "次はボタンをタップして<color=#ff7d36>魚雷発射</color>よ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl",
@@ -103,11 +112,11 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				text = "硬い敵相手には後列の主力艦隊の<color=#ff7d36>主砲砲撃</color>が有効よ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			}
 		},
 		{
@@ -128,11 +137,11 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				text = "ボタンをタップすると主砲発射よ！<color=#ff7d36>ボタンを押し続ける</color>と手動照準もできるわ！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[6]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl",

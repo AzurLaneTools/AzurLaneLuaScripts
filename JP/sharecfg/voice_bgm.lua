@@ -32,7 +32,7 @@ pg.voice_bgm = {
 		default_bgm = "cw-level",
 		bgm = "cw-level"
 	},
-	BackYardScene = {
+	CourtYardScene = {
 		default_bgm = "backyard",
 		bgm = "backyard"
 	},
@@ -68,7 +68,7 @@ pg.voice_bgm = {
 		default_bgm = "main",
 		bgm = "main"
 	},
-	MainUI = {
+	NewMainScene = {
 		default_bgm = "main",
 		bgm = "main"
 	},

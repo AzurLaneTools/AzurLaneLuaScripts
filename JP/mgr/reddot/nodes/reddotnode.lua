@@ -10,6 +10,9 @@ function slot0.GetName(slot0)
 end
 
 function slot0.Init(slot0)
+end
+
+function slot0.RefreshSelf(slot0)
 	for slot4, slot5 in ipairs(slot0.types) do
 		pg.RedDotMgr.GetInstance():NotifyAll(slot5)
 	end

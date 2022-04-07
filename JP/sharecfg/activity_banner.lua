@@ -1,16 +1,22 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4286",
 		id = 1,
 		pic = "temp1",
-		type = 3,
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
 		time = {
 			{
 				{
 					2022,
-					3,
-					24
+					4,
+					7
 				},
 				{
 					0,
@@ -22,7 +28,7 @@ pg.activity_banner = {
 				{
 					2022,
 					4,
-					7
+					14
 				},
 				{
 					23,
@@ -37,17 +43,18 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene level",
 			{
-				projectname = "new"
+				open_remaster = true,
+				isSP = true
 			}
 		},
 		time = {
 			{
 				{
 					2022,
-					3,
-					24
+					4,
+					7
 				},
 				{
 					0,
@@ -59,7 +66,7 @@ pg.activity_banner = {
 				{
 					2022,
 					4,
-					7
+					14
 				},
 				{
 					23,
@@ -81,8 +88,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					24
+					4,
+					7
 				},
 				{
 					0,
@@ -94,7 +101,7 @@ pg.activity_banner = {
 				{
 					2022,
 					4,
-					6
+					14
 				},
 				{
 					23,
@@ -308,6 +315,26 @@ pg.activity_banner = {
 					59
 				}
 			}
+		}
+	},
+	get_id_list_by_type = {
+		[2] = {
+			1,
+			2,
+			3,
+			4,
+			5
+		},
+		[3] = {
+			6,
+			7,
+			8
+		},
+		[9] = {
+			9
+		},
+		[10] = {
+			10
 		}
 	},
 	all = {

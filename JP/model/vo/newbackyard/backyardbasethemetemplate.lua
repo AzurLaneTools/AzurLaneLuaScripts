@@ -1,7 +1,7 @@
 slot0 = class("BackYardBaseThemeTemplate", import("..BaseVO"))
 
 function slot0.BuildId(slot0)
-	return getProxy(PlayerProxy):getData().id .. slot0
+	return getProxy(PlayerProxy):getRawData().id .. slot0
 end
 
 function slot0.Ctor(slot0, slot1)
@@ -38,8 +38,9 @@ function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)
 			}
 		end
 
-		table.insert(slot0, BackyardFurnitureVO.New({
+		table.insert(slot0, BackyardThemeFurniture.New({
 			id = tonumber(slot7.id),
+			configId = slot7.configId or tonumber(slot7.id),
 			position = {
 				x = slot7.x,
 				y = slot7.y
@@ -260,11 +261,15 @@ function slot0.GetUsableFurnituresForFloor(slot0, slot1, slot2)
 end
 
 function slot0.MatchSearchKey(slot0, slot1)
-	return not string.lower(slot1 or "") or slot1 == "" or (function (slot0)
-		return string.find(string.lower(uv0:GetName()), slot0)
-	end)(slot1) or (function (slot0)
-		return string.find(string.lower(uv0:GetDesc()), slot0)
-	end)(slot1)
+	if not slot1 or slot1 == "" then
+		return true
+	else
+		return (function (slot0)
+			return string.find(string.lower(uv0:GetName()), slot0)
+		end)(string.lower(slot1)) or (function (slot0)
+			return string.find(string.lower(uv0:GetDesc()), slot0)
+		end)(slot1)
+	end
 end
 
 return slot0

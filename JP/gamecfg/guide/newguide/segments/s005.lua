@@ -1,14 +1,23 @@
+slot0 = {
+	"作戦失敗……確定をタップして前の画面に戻るわ",
+	"今度の任務はユニオン空母艦隊の作戦演習を支援することね    <color=#ffde38>出撃</color>をタップするわ",
+	"メイン海域を選択するわ",
+	"<color=#ff7d36>近海演習</color>を選んでちょうだい",
+	"ステージの詳細は表示されているわ",
+	"<color=#ff7d36>出撃</color>をタップして作戦海域に出撃よ！"
+}
+
 return {
 	id = "S005",
 	events = {
 		{
 			alpha = 0.276,
 			style = {
-				text = "作戦失敗……確定をタップして前の画面に戻るわ",
+				dir = 1,
 				mode = 1,
 				posY = 147.8,
-				dir = 1,
-				posX = 328.7
+				posX = 328.7,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -28,14 +37,14 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "今度の任務はユニオン空母艦隊の作戦演習を支援することね    <color=#ffde38>出撃</color>をタップするわ",
+				dir = 1,
 				mode = 1,
 				posY = -50,
-				dir = 1,
-				posX = 250
+				posX = 250,
+				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -53,11 +62,11 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "メイン海域を選択するわ",
+				dir = -1,
 				mode = 1,
 				posY = -50,
-				dir = -1,
-				posX = 250
+				posX = 250,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
@@ -78,11 +87,11 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "<color=#ff7d36>近海演習</color>を選んでちょうだい",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				delay = 1.8,
@@ -100,11 +109,11 @@ return {
 		{
 			alpha = 0.513,
 			style = {
-				text = "ステージの詳細は表示されているわ",
+				dir = 1,
 				mode = 2,
 				posY = -410,
-				dir = 1,
-				posX = -446
+				posX = -446,
+				text = slot0[5]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelStageInfoView(Clone)/panel/start_button",
@@ -121,11 +130,11 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				text = "<color=#ff7d36>出撃</color>をタップして作戦海域に出撃よ！",
+				dir = 1,
 				mode = 2,
 				posY = -164,
-				dir = 1,
-				posX = 270
+				posX = 270,
+				text = slot0[6]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/start_button",

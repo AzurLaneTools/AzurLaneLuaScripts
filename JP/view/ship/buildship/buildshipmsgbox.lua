@@ -93,7 +93,7 @@ function slot0.Show(slot0, slot1)
 	slot0.count = 1
 
 	slot0:updateTxt(slot0.count)
-	setActive(slot0._go, true)
+	setActiveViaLayer(slot0._go, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
@@ -103,7 +103,7 @@ function slot0.Hide(slot0)
 		slot0.count = 1
 		slot0.max = 1
 
-		setActive(slot0._go, false)
+		setActiveViaLayer(slot0._go, false)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)

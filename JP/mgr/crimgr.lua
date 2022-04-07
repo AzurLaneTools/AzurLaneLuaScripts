@@ -19,7 +19,7 @@ function slot1.Init(slot0, slot1)
 			uv0:InitCri(slot0)
 		end,
 		function (slot0)
-			slot1 = CueData.New()
+			slot1 = CueData.GetCueData()
 			slot1.cueSheetName = "se-ui"
 			slot1.channelName = uv0.C_SE
 
@@ -28,7 +28,7 @@ function slot1.Init(slot0, slot1)
 			end, true)
 		end,
 		function (slot0)
-			slot1 = CueData.New()
+			slot1 = CueData.GetCueData()
 			slot1.cueSheetName = "se-battle"
 			slot1.channelName = uv0.C_BATTLE_SE
 
@@ -88,35 +88,20 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 
 	if slot0.bgmName == "bgm-" .. slot1 then
 		return
-	elseif slot0.bgmName ~= nil and slot0.bgmPlaybackInfo == nil then
-		slot0:UnloadCueSheet(slot0.bgmName)
 	end
 
 	slot0.bgmName = slot3
-	slot0.bgmPlaybackInfo = nil
-	slot4 = nil
-
-	if uv0.NEXT_VER <= CSharpVersion then
-		slot4 = CriWareMgr.Inst:GetChannelData(uv0.C_BGM).curCueDataKey
-	end
 
 	CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
 		if slot0 == nil then
 			warning("Missing BGM :" .. (uv0 or "NIL"))
-		else
-			uv1.bgmPlaybackInfo = slot0
 		end
 	end)
-
-	if uv0.NEXT_VER <= CSharpVersion and slot4 ~= nil then
-		CriWareMgr.Inst:GetChannelData(uv0.C_BGM).curCueDataKey = slot4
-	end
 end
 
 function slot1.StopBGM(slot0, slot1)
 	CriWareMgr.Inst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
-	slot0.bgmPlaybackInfo = nil
 	slot0.bgmName = nil
 end
 
@@ -202,23 +187,11 @@ function slot1.StopCV_V3(slot0)
 end
 
 function slot1.PlaySE_V3(slot0, slot1, slot2)
-	if CriAtom.GetCueSheet("se-ui") and slot3.acb and slot3.acb:Exists(slot1) then
-		slot4 = CriWareMgr.Inst
-
-		slot4:PlaySE(slot1, nil, function (slot0)
-			if uv0 ~= nil then
-				uv0(slot0)
-			end
-		end)
-	end
-
-	if CriAtom.GetCueSheet("se-battle") and slot4.acb and slot4.acb:Exists(slot1) then
-		CriWareMgr.Inst:PlayBattleSE(slot1, nil, function (slot0)
-			if uv0 ~= nil then
-				uv0(slot0)
-			end
-		end)
-	end
+	CriWareMgr.Inst:PlayAnySE(slot1, nil, function (slot0)
+		if uv0 ~= nil then
+			uv0(slot0)
+		end
+	end)
 end
 
 function slot1.StopSE_V3(slot0)
@@ -231,7 +204,7 @@ function slot1.StopSEBattle_V3(slot0)
 end
 
 function slot1.LoadCueSheet(slot0, slot1, slot2)
-	slot3 = CueData.New()
+	slot3 = CueData.GetCueData()
 	slot3.cueSheetName = slot1
 
 	CriWareMgr.Inst:LoadCueSheet(slot3, function (slot0)

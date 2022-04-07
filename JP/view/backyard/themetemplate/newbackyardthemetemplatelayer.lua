@@ -16,7 +16,14 @@ function slot1(slot0, slot1, slot2)
 	end, SFX_PANEL)
 	(function (slot0, slot1)
 		setActive(slot0:Find("btn_di"), slot1)
+		setAnchoredPosition(slot0:Find("Text"), {
+			x = slot1 and 18 or 0
+		})
 	end)(slot1, false)
+end
+
+function slot0.forceGC(slot0)
+	return true
 end
 
 function slot0.getUIName(slot0)
@@ -24,9 +31,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	BackYardThemeTempalteUtil.Init()
-
-	slot0.tpl = slot0:findTF("adpter/list/tpl_theme")
+	slot0.tpl = slot0:findTF("adpter/list/tpl")
 	slot0.container = slot0:findTF("adpter/list")
 	slot0.pageContainer = slot0:findTF("pages")
 	slot0.container:GetComponent(typeof(VerticalLayoutGroup)).spacing = 40
@@ -266,6 +271,8 @@ function slot0.InitPages(slot0)
 
 		slot0.btns[slot4] = slot6
 	end
+
+	setActive(slot0.tpl, false)
 end
 
 function slot0.ActiveDefaultPage(slot0)
@@ -310,7 +317,7 @@ end
 function slot0.willExit(slot0)
 	slot0.listPage:Destroy()
 	slot0.contextData.msgBox:Destroy()
-	BackYardThemeTempalteUtil.Exit()
+	BackYardThemeTempalteUtil.ClearAllCache()
 end
 
 return slot0

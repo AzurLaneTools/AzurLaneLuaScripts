@@ -120,14 +120,14 @@ function slot0.init(slot0)
 		end, SOUND_BACK)
 	end
 
-	slot0.indexPanel = CommanderIndexPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
-	slot0.treePage = CommanderTreePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
-	slot0.renamePanel = CommanderRenamePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
-	slot0.msgboxPage = CommanderMsgBoxPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
-	slot0.reservePanel = CommanderReservePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+	slot0.indexPanel = CommanderIndexPage.New(slot0._tf, slot0.event)
+	slot0.treePage = CommanderTreePage.New(slot0._tf, slot0.event)
+	slot0.renamePanel = CommanderRenamePage.New(slot0._tf, slot0.event)
+	slot0.msgboxPage = CommanderMsgBoxPage.New(slot0._tf, slot0.event)
+	slot0.reservePanel = CommanderReservePage.New(slot0._tf, slot0.event)
 	slot0.detailPage = CommanderDetailPage.New(slot0.mainTF, slot0.event, slot0.contextData)
-	slot0.boxesPanel = CommanderBoxesPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
-	slot0.catterySettlementPage = CatterySettlementPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+	slot0.boxesPanel = CommanderBoxesPage.New(slot0._tf, slot0.event)
+	slot0.catterySettlementPage = CatterySettlementPage.New(slot0._tf, slot0.event)
 
 	slot0:enterAnim(function ()
 		if uv0.isMultSelectMode then
@@ -418,7 +418,7 @@ end
 function slot0.DisplayCatterySettlement(slot0)
 	slot1 = getProxy(CommanderProxy):GetCommanderHome()
 
-	print(slot1:ShouldSettleCattery(), slot0.contextData.fromMediatorName == MainUIMediator.__cname, not (pg.NewStoryMgr.GetInstance():IsRunning() or pg.GuideMgr.GetInstance():isRuning()))
+	print(slot1:ShouldSettleCattery(), slot0.contextData.fromMediatorName == NewMainMediator.__cname, not (pg.NewStoryMgr.GetInstance():IsRunning() or pg.GuideMgr.GetInstance():isRuning()))
 
 	if slot1 and slot1:ShouldSettleCattery() and slot2 and not slot3 then
 		slot0.catterySettlementPage:ExecuteAction("Show", Clone(slot1))
@@ -472,7 +472,7 @@ function slot0.paintingView(slot0)
 		slot14 = false
 
 		slot1:AddPointDownFunc(function (slot0)
-			if Input.touchCount == 1 or Application.isEditor then
+			if Input.touchCount == 1 or IsUnityEditor then
 				uv0 = true
 				uv1 = true
 			elseif Input.touchCount >= 2 then
@@ -534,6 +534,9 @@ function slot0.opeRenamePanel(slot0, slot1)
 			content = i18n("commander_rename_warning", slot0),
 			onYes = function ()
 				uv0:emit(CommandRoomMediator.ON_RENAME, uv1.id, uv2)
+			end,
+			onShow = function ()
+				uv0.renamePanel:Hide()
 			end
 		})
 	end

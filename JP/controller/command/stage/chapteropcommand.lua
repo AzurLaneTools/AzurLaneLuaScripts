@@ -63,6 +63,7 @@ function slot0.execute(slot0, slot1)
 
 							if uv1.win then
 								uv0.chapter:UpdateProgressOnRetreat()
+								slot1:addRemasterPassCount(uv0.chapter.id)
 							end
 
 							slot5 = pg.TimeMgr.GetInstance()
@@ -176,7 +177,7 @@ end
 function slot0.PrepareChapterRetreat(slot0)
 	seriesAsync({
 		function (slot0)
-			if getProxy(ChapterProxy):getActiveChapter():CheckChapterWillWin() then
+			if getProxy(ChapterProxy):getActiveChapter():CheckChapterWillWin() and not slot1:IsRemaster() then
 				slot1:UpdateProgressOnRetreat()
 
 				slot3 = slot1:getConfig("defeat_story")

@@ -37,7 +37,7 @@ function slot0.execute(slot0, slot1)
 				awards = slot1
 			})
 		else
-			print(slot0.result)
+			originalPrint(slot0.result)
 		end
 	end)
 end

@@ -15,7 +15,7 @@ function slot0.execute(slot0, slot1)
 
 		slot9:increaseTrainPos()
 		slot9:increaseRestPos()
-		slot8:updateDrom(slot9)
+		slot8:updateDrom(slot9, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 		slot0:sendNotification(GAME.EXTEND_BACKYARD_DONE)
 	elseif slot7.effect_args == ShopArgs.EffectDromFoodMax then
 		slot8 = getProxy(DormProxy)
@@ -23,7 +23,7 @@ function slot0.execute(slot0, slot1)
 
 		slot9:extendFoodCapacity(slot7.num)
 		slot9:increaseFoodExtendCount()
-		slot8:updateDrom(slot9)
+		slot8:updateDrom(slot9, BackYardConst.DORM_UPDATE_TYPE_EXTENDFOOD)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_extendCapacity_ok", slot7.num))
 	elseif slot7.effect_args == ShopArgs.EffectShopStreetFlash then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
@@ -54,7 +54,7 @@ function slot0.execute(slot0, slot1)
 		slot9 = slot8:getData()
 
 		slot9:setFloorNum(slot9.floorNum + 1)
-		slot8:updateDrom(slot9)
+		slot8:updateDrom(slot9, BackYardConst.DORM_UPDATE_TYPE_FLOOR)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 	elseif slot7.effect_args == ShopArgs.EffectSkillPos then
 		getProxy(NavalAcademyProxy):inCreaseKillClassNum()

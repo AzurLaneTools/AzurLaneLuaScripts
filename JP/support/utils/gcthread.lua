@@ -27,25 +27,45 @@ function slot0.GC(slot0, slot1)
 	end
 end
 
+function slot0.LuaGC(slot0, slot1)
+	if slot1 then
+		collectgarbage("collect")
+	elseif not slot0.running then
+		slot0.onLuaGC = true
+		slot0.running = true
+
+		slot0:CalcStep()
+
+		slot0.gctick = 0
+		slot0.gccost = 0
+
+		UpdateBeat:AddListener(slot0.gcHandle)
+	end
+end
+
 function slot0.GCFinal(slot0)
 	slot0.running = false
 
 	UpdateBeat:RemoveListener(slot0.gcHandle)
 
-	slot2 = PoolMgr.GetInstance():SpriteMemUsage()
-	slot3 = 24
+	if not slot0.onLuaGC then
+		slot2 = PoolMgr.GetInstance():SpriteMemUsage()
+		slot3 = 24
 
-	print("cached sprite size: " .. math.ceil(slot2 * 10) / 10 .. "/" .. slot3 .. "MB")
+		originalPrint("cached sprite size: " .. math.ceil(slot2 * 10) / 10 .. "/" .. slot3 .. "MB")
 
-	if slot3 < slot2 then
-		slot1:DestroyAllSprite()
-	else
-		Resources.UnloadUnusedAssets()
+		if slot3 < slot2 then
+			slot1:DestroyAllSprite()
+		else
+			ResourceMgr.Inst:ResUnloadAsync()
+		end
+
+		LuaHelper.UnityGC()
 	end
 
-	LuaHelper.UnityGC()
+	slot0.onLuaGC = false
 
-	if Application.isEditor then
+	if IsUnityEditor then
 		print("lua mem: " .. collectgarbage("count") * uv0.R1024 .. "MB")
 	end
 end
@@ -74,7 +94,7 @@ function slot0.CalcStep(slot0)
 end
 
 function slot0.StartWatch(slot0, slot1)
-	print("overhead: start watch")
+	originalPrint("overhead: start watch")
 
 	if slot1 < collectgarbage("count") * uv0.R1024 + 12 then
 		slot1 = slot2 + 12
@@ -82,7 +102,7 @@ function slot0.StartWatch(slot0, slot1)
 
 	slot0.watcher = Timer.New(function ()
 		if not uv0.running and uv2 < collectgarbage("count") * uv1.R1024 then
-			print("overhead: start gc " .. slot0 .. "MB")
+			originalPrint("overhead: start gc " .. slot0 .. "MB")
 
 			uv0.running = true
 
@@ -99,7 +119,7 @@ function slot0.StartWatch(slot0, slot1)
 end
 
 function slot0.StopWatch(slot0)
-	print("overhead: stop watch")
+	originalPrint("overhead: stop watch")
 
 	if slot0.watcher then
 		slot0.watcher:Stop()
@@ -112,9 +132,9 @@ function slot0.WatchStep(slot0)
 	slot1 = os.clock()
 
 	if collectgarbage("step", slot0.step) then
-		print("overhead: gc complete")
+		originalPrint("overhead: gc complete")
 
-		if Application.isEditor then
+		if IsUnityEditor then
 			print("lua mem: " .. collectgarbage("count") * uv0.R1024 .. "MB")
 		end
 

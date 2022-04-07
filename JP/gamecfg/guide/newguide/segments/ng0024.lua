@@ -1,24 +1,31 @@
+slot0 = {
+	"メタラボではMETA艦船の限界突破/ステータス強化/スキル習得・強化、さらに解析Ptの報酬受取が可能よ！",
+	"まずはスキルの習得・強化を見てみるわ！",
+	"META艦船のスキルは、まずここで習得しなければならないのね",
+	"教科書を消費して、スキルを習得させちゃうわ！"
+}
+
 return {
 	id = "NG0024",
 	events = {
 		{
 			alpha = 0.4,
 			style = {
-				text = "メタラボではMETA艦船の限界突破/ステータス強化/スキル習得・強化、さらに解析Ptの報酬受取が可能よ！",
+				dir = 1,
 				mode = 2,
 				posY = -230.2,
-				dir = 1,
-				posX = -332.5
+				posX = -332.5,
+				text = slot0[1]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "まずはスキルの習得・強化を見てみるわ！",
+				dir = 1,
 				mode = 2,
 				posY = -186.8,
-				dir = 1,
-				posX = 634.32
+				posX = 634.32,
+				text = slot0[2]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/MetaCharacterUI(Clone)/HidePanel/MenuPanel/TacticsBtn",
@@ -37,11 +44,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "META艦船のスキルは、まずここで習得しなければならないのね",
+				dir = 1,
 				mode = 2,
 				posY = -133,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/MetaCharacterTacticsUI(Clone)/SkillPanel/Skills/Content",
@@ -61,11 +68,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "教科書を消費して、スキルを習得させちゃうわ！",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 383.59
+				posX = 383.59,
+				text = slot0[4]
 			}
 		}
 	}

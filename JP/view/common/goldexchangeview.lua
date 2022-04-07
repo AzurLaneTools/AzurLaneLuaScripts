@@ -1,4 +1,4 @@
-slot0 = class("GoldExchangeView", import("..base.BaseUI"))
+slot0 = class("GoldExchangeView")
 slot0.itemid1 = 12
 slot0.itemid2 = 24
 slot0.const = 5
@@ -12,13 +12,17 @@ slot0.gemNum = {
 }
 
 function slot0.Ctor(slot0)
-	uv0.super.Ctor(slot0)
+	pg.DelegateInfo.New(slot0)
 
 	slot1 = PoolMgr.GetInstance()
 
 	slot1:GetUI("GoldExchangeWindow", false, function (slot0)
 		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
-		uv0:onUILoaded(slot0)
+
+		uv0._go = slot0
+		uv0._tf = slot0.transform
+
+		uv0:init()
 	end)
 end
 
@@ -30,7 +34,12 @@ function slot0.init(slot0)
 	slot0:updateView()
 end
 
-function slot0.willExit(slot0)
+function slot0.findTF(slot0, slot1, slot2)
+	return findTF(slot2 or slot0._tf, slot1)
+end
+
+function slot0.exit(slot0)
+	pg.DelegateInfo.Dispose(slot0)
 	slot0:overLayMyself(false)
 	PoolMgr.GetInstance():ReturnUI("GoldExchangeWindow", slot0._go)
 

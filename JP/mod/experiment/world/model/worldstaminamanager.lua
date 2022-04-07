@@ -204,9 +204,7 @@ function slot0.Show(slot0)
 	end
 
 	setActive(slot0.transform, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.transform, false, {
-		blurLevelCamera = true
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.transform, false)
 end
 
 function slot0.Hide(slot0)

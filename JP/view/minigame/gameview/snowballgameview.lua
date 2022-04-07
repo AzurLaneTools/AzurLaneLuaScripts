@@ -1261,7 +1261,7 @@ function slot0.AddDebugInput(slot0)
 		return
 	end
 
-	if Application.isEditor then
+	if IsUnityEditor then
 		if Input.GetKeyDown(KeyCode.W) and slot0.playerPosIndex and slot0.playerPosIndex > 1 then
 			slot0.playerPosIndex = slot0.playerPosIndex - 1
 

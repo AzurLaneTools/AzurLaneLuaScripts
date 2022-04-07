@@ -5,7 +5,7 @@ slot0.LoginSafeLock = 0
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
-	print("connect to game server - " .. slot2:getHost() .. ":" .. slot2:getPort())
+	originalPrint("connect to game server - " .. slot2:getHost() .. ":" .. slot2:getPort())
 
 	slot6 = getProxy(UserProxy):getData()
 
@@ -25,7 +25,7 @@ function slot0.execute(slot0, slot1)
 			device_id = pg.SdkMgr.GetInstance():GetDeviceId()
 		}, 10023, function (slot0)
 			if slot0.result == 0 then
-				print("connect success: " .. slot0.user_id)
+				originalPrint("connect success: " .. slot0.user_id)
 
 				if uv0.status == Server.STATUS.REGISTER_FULL and slot0.user_id == 0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("login_register_full"))
@@ -78,7 +78,7 @@ function slot0.execute(slot0, slot1)
 			slot10 = pg.ConnectionMgr.GetInstance()
 
 			slot10:Connect(slot3, slot4, function ()
-				print("server: " .. uv0.id .. " uid: " .. uv1.uid)
+				originalPrint("server: " .. uv0.id .. " uid: " .. uv1.uid)
 				uv2()
 			end, 6)
 		end

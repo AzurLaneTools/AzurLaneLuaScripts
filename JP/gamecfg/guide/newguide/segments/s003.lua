@@ -1,3 +1,8 @@
+slot0 = {
+	"手に入れた艦を<color=#ffde38>鍵付き</color>にするのを忘れないでね",
+	"メイン画面に戻るわ"
+}
+
 return {
 	id = "S003",
 	events = {
@@ -19,11 +24,11 @@ return {
 		{
 			alpha = 0.214,
 			style = {
-				text = "手に入れた艦を<color=#ffde38>鍵付き</color>にするのを忘れないでね",
+				dir = -1,
 				mode = 1,
 				posY = 250,
-				dir = -1,
-				posX = 450
+				posX = 450,
+				text = slot0[1]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -40,11 +45,11 @@ return {
 		{
 			alpha = 0.446,
 			style = {
-				text = "メイン画面に戻るわ",
+				dir = -1,
 				mode = 2,
 				posY = 213.63,
-				dir = -1,
-				posX = -194.88
+				posX = -194.88,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",

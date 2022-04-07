@@ -67,43 +67,28 @@ function slot2.SetActiveNoPassIcon(slot0, slot1)
 end
 
 function slot2.TweenShining(slot0)
-	if not slot0:GetModel() then
+	if not slot0:GetSpineRole() then
 		return
 	end
 
-	slot0:StopTween()
+	slot2 = Color.black
+	slot3 = Color.gray
+	slot2.a = 0
+	slot3.a = 0
 
-	slot2 = slot1:GetComponent("SkeletonGraphic")
-	slot3 = slot2.material
-	slot2.material = Material.New(Shader.Find("Spine/SkeletonGraphic (Additive)"))
-	slot6 = LeanTween.value(slot1, 0, 1, 0.2)
-	slot6 = slot6:setEase(LeanTweenType.easeInOutSine)
-	slot6 = slot6:setLoopPingPong(2)
-	slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
-		uv0:SetColor("_Color", Color.Lerp(Color.black, Color.gray, slot0))
-	end))
-	slot0.tweenId = slot6:setOnComplete(System.Action(function ()
-		if IsNil(uv0) then
-			return
-		end
-
-		uv0.material = uv1
-	end)).uniqueId
+	slot1:TweenShining(0.2, 2, 0, 1, slot2, slot3, true, true)
 end
 
 function slot2.StopTween(slot0)
-	if not slot0.tweenId then
+	if not slot0:GetSpineRole() then
 		return
 	end
 
-	LeanTween.cancel(slot0.tweenId, true)
-
-	slot0.tweenId = nil
+	slot1:StopTweenShining()
 end
 
 function slot2.unloadSpine(slot0)
-	slot0:StopTween()
-	uv0.super.unloadSpine(slot0)
+	uv0.super.UnloadSpine(slot0)
 end
 
 function slot2.Clear(slot0)

@@ -1,17 +1,22 @@
+slot0 = {
+	"<color=#ff7d36>出撃</color>をタップしてね",
+	"敵中枢艦隊発見！目標地をタップするのよ！"
+}
+
 return {
 	id = "S027",
 	events = {
 		{
 			alpha = 0.335,
 			style = {
-				text = "<color=#ff7d36>出撃</color>をタップしてね",
+				dir = 1,
 				mode = 2,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -31,11 +36,11 @@ return {
 				2
 			},
 			style = {
-				text = "敵中枢艦隊発見！目標地をタップするのよ！",
+				dir = 1,
 				mode = 2,
 				posY = 218.62,
-				dir = 1,
-				posX = 20.04
+				posX = 20.04,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
@@ -69,11 +74,11 @@ return {
 				4
 			},
 			style = {
-				text = "敵中枢艦隊発見！目標地をタップするのよ！",
+				dir = 1,
 				mode = 2,
 				posY = 218.62,
-				dir = 1,
-				posX = 20.04
+				posX = 20.04,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",

@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "ヘルプボタンをタップし、「通商破壊」の説明をチェック！",
+				dir = -1,
 				mode = 1,
 				posY = -63.794,
-				dir = -1,
-				posX = -663
+				posX = -663,
+				text = ({
+					"ヘルプボタンをタップし、「通商破壊」の説明をチェック！"
+				})[1]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/ChallengeMainUI(Clone)/ForNorth/Award/HelpBtn"

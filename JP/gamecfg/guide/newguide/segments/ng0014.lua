@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "ヘルプをタップして、チャレンジモードの詳細を確認してね！",
+				dir = -1,
 				mode = 1,
 				posY = -63.794,
-				dir = -1,
-				posX = -663
+				posX = -663,
+				text = ({
+					"ヘルプをタップして、チャレンジモードの詳細を確認してね！"
+				})[1]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/ChallengeMainUI(Clone)/ForNorth/Award/HelpBtn"

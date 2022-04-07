@@ -1,3 +1,13 @@
+slot0 = {
+	"「オフニャハウス」が開放されたわ",
+	"オフニャをハウスに配置すると、時間経過とともに経験値を手に入れられるの！",
+	"配置枠にオフニャが配置されていると、毎日一度ずつ、掃除や食糧補充、オフニャたちと遊ぶことができるわ！",
+	"掃除をすると、オフニャハウスが成長するわ！成長すると配置枠が増えたり、配置枠の外見を変更できるようになったりするの！",
+	"食糧補充をすると、配置中のオフニャが経験値を獲得できるわね！オフニャ・配置枠は1日1回しか行動できないから注意ね！",
+	"さらにオフニャと遊ぶと、ネコハコ加速材や家具コインが手に入る場合があるの！",
+	"ヘルプはここで確認できるわ！~"
+}
+
 return {
 	id = "NG0029",
 	events = {
@@ -7,11 +17,11 @@ return {
 				1
 			},
 			style = {
-				text = "「オフニャハウス」が開放されたわ",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/right_panel/commanders/box/home",
@@ -30,11 +40,11 @@ return {
 				2
 			},
 			style = {
-				text = "「オフニャハウス」が開放されたわ",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/right_panel/commanders/box/home",
@@ -56,11 +66,11 @@ return {
 				}
 			},
 			style = {
-				text = "オフニャをハウスに配置すると、時間経過とともに経験値を手に入れられるの！",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 41.84
+				posX = 41.84,
+				text = slot0[2]
 			}
 		},
 		{
@@ -105,11 +115,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "配置枠にオフニャが配置されていると、毎日一度ずつ、掃除や食糧補充、オフニャたちと遊ぶことができるわ！",
+				dir = -1,
 				mode = 1,
 				posY = 245.9,
-				dir = -1,
 				posX = -382.13,
+				text = slot0[3],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble"
 				}
@@ -118,11 +128,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "掃除をすると、オフニャハウスが成長するわ！成長すると配置枠が増えたり、配置枠の外見を変更できるようになったりするの！",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/clean",
@@ -139,11 +149,11 @@ return {
 			alpha = 0.4,
 			delay = 2,
 			style = {
-				text = "食糧補充をすると、配置中のオフニャが経験値を獲得できるわね！オフニャ・配置枠は1日1回しか行動できないから注意ね！",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/feed",
@@ -166,11 +176,11 @@ return {
 				}
 			},
 			style = {
-				text = "さらにオフニャと遊ぶと、ネコハコ加速材や家具コインが手に入る場合があるの！",
+				dir = -1,
 				mode = 1,
 				posY = 122.14,
-				dir = -1,
-				posX = -340.6
+				posX = -340.6,
+				text = slot0[6]
 			}
 		},
 		{
@@ -198,11 +208,11 @@ return {
 				2
 			},
 			style = {
-				text = "ヘルプはここで確認できるわ！",
+				dir = -1,
 				mode = 1,
 				posY = -200,
-				dir = -1,
-				posX = -500
+				posX = -500,
+				text = slot0[7]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/left_panel/help_btn",
@@ -217,11 +227,11 @@ return {
 				1
 			},
 			style = {
-				text = "ヘルプはここで確認できるわ！",
+				dir = -1,
 				mode = 1,
 				posY = -200,
-				dir = -1,
-				posX = -500
+				posX = -500,
+				text = slot0[7]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/left_panel/help_btn",

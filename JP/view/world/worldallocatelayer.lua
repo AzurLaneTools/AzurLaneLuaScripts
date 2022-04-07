@@ -119,9 +119,7 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		blurLevelCamera = true
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 end
 
 function slot0.showOrHideToggleMask(slot0, slot1)

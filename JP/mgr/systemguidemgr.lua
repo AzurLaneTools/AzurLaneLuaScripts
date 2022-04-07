@@ -57,7 +57,7 @@ function slot4(slot0, slot1, slot2)
 end
 
 function slot0.Play(slot0, slot1, slot2)
-	if Application.isEditor and not ENABLE_GUIDE then
+	if IsUnityEditor and not ENABLE_GUIDE then
 		if slot2 then
 			slot2()
 		end
@@ -119,7 +119,7 @@ function slot0.PlayDailyLevel(slot0, slot1)
 end
 
 function slot0.PlayBackYardThemeTemplate(slot0)
-	if not uv0("NG0020") and getProxy(DormProxy):getData():IsMaxLevel() then
+	if getProxy(DormProxy):getRawData():IsMaxLevel() and not pg.NewStoryMgr.GetInstance():GetPlayedFlag(90021) then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
 			hideNo = true,
