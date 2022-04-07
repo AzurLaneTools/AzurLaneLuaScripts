@@ -142,6 +142,7 @@ function slot0.listNotificationInterests(slot0)
 		CourtYardEvent._NO_POS_TO_ADD_SHIP,
 		CourtYardEvent._DRAG_ITEM,
 		CourtYardEvent._DRAG_ITEM_END,
+		CourtYardEvent._TOUCH_SHIP,
 		BackYardDecorationMediator.START_TAKE_THEME_PHOTO,
 		BackYardDecorationMediator.END_TAKE_THEME_PHOTO
 	}
@@ -198,7 +199,12 @@ function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
 	elseif slot1 == GAME.EXIT_SHIP_DONE then
 		_courtyard:GetController():ExitShip(slot2.id)
 	elseif slot1 == GAME.ADD_SHIP_DONE then
-		_courtyard:GetController():AddShip(getProxy(BayProxy):getShipById(slot2.id))
+		if ({
+			Ship.STATE_TRAIN,
+			Ship.STATE_REST
+		})[getProxy(DormProxy).floor] == getProxy(BayProxy):getShipById(slot2.id).state then
+			_courtyard:GetController():AddShip(slot4)
+		end
 	elseif slot1 == GAME.BACKYARD_ADD_INTIMACY_DONE then
 		_courtyard:GetController():ClearShipIntimacy(slot2.id)
 	elseif slot1 == GAME.EXTEND_BACKYARD_AREA_DONE then
@@ -233,6 +239,10 @@ function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
 		slot0.viewComponent:BlockEvents()
 	elseif slot1 == CourtYardEvent._DRAG_ITEM_END then
 		slot0.viewComponent:UnBlockEvents()
+	elseif slot1 == CourtYardEvent._TOUCH_SHIP and getProxy(TaskProxy):GetBackYardInterActionTask() then
+		pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
+			taskId = slot4.id
+		})
 	end
 end
 

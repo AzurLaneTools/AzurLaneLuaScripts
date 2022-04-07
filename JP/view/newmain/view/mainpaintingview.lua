@@ -10,7 +10,8 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._go = slot1.gameObject
 	slot0._bgTf = slot2
 	slot0._bgGo = slot2.gameObject
-	slot0.chatTf = slot1:Find("chat")
+	slot4 = slot1.parent
+	slot0.chatTf = slot4:Find("chat")
 	slot0.paintings = {
 		MainMeshImagePainting.New(slot0._tf, slot0.chatTf),
 		MainLive2dPainting.New(slot0._tf, slot0.chatTf),

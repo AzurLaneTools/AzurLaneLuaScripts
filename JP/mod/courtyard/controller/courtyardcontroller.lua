@@ -127,6 +127,7 @@ end
 
 function slot0.TouchShip(slot0, slot1)
 	slot0.storey:TouchShip(slot1)
+	_courtyard:SendNotification(CourtYardEvent._TOUCH_SHIP, slot1)
 end
 
 function slot0.GetShipInimacy(slot0, slot1)
