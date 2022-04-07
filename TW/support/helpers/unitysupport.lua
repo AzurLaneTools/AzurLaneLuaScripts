@@ -31,7 +31,7 @@ end
 destroy = Destroy
 
 function SetActive(slot0, slot1)
-	go(slot0):SetActive(tobool(slot1))
+	LuaHelper.SetActiveForLua(slot0, tobool(slot1))
 end
 
 setActive = SetActive
@@ -47,7 +47,7 @@ end
 setName = SetName
 
 function SetParent(slot0, slot1, slot2)
-	tf(slot0):SetParent(tf(slot1), tobool(slot2))
+	LuaHelper.SetParentForLua(slot0, slot1, tobool(slot2))
 end
 
 setParent = SetParent
@@ -154,18 +154,12 @@ function onButton(slot0, slot1, slot2, slot3, slot4)
 
 		uv0 = Time.frameCount
 
-		uv1()
+		if uv1 and uv2 then
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1)
+		end
+
+		uv3()
 	end)
-
-	if slot3 and uv1 then
-		slot8 = GetOrAddComponent(slot1, "ButtonEventExtend").onPointerDown
-
-		pg.DelegateInfo.Add(slot0, slot8)
-		slot8:RemoveAllListeners()
-		slot8:AddListener(function ()
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
-		end)
-	end
 end
 
 function removeOnButton(slot0)
@@ -329,19 +323,11 @@ function GetOrAddComponent(slot0, slot1)
 		slot2 = typeof(_G[slot1])
 	end
 
-	if slot0.GetComponent(slot0, slot2) ~= nil then
-		return slot3
-	else
-		return go(slot0):AddComponent(slot2)
-	end
+	return LuaHelper.GetOrAddComponentForLua(slot0, slot2)
 end
 
 function RemoveComponent(slot0, slot1)
 	if slot0.GetComponent(slot0, slot1) then
-		if slot1 == "Button" then
-			RemoveComponent(slot0, "ButtonEventExtend")
-		end
-
 		Object.Destroy(slot2)
 	end
 end
@@ -578,6 +564,14 @@ function setCanvasGroupAlpha(slot0, slot1)
 	GetComponent(slot0, typeof(CanvasGroup)).alpha = slot1
 end
 
+function setActiveViaLayer(slot0, slot1)
+	UIUtil.SetUIActiveViaLayer(go(slot0), slot1)
+end
+
+function setActiveViaCG(slot0, slot1)
+	UIUtil.SetUIActiveViaCG(go(slot0), slot1)
+end
+
 function getTextColor(slot0)
 	return GetComponent(slot0, typeof(Text)).color
 end
@@ -654,17 +648,7 @@ function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 	end)
 	slot8:AddPointUpFunc(function ()
 		uv0()
-
-		if uv1 then
-			uv1()
-		end
-	end)
-	slot8:AddPointExitFunc(function ()
-		uv0()
-
-		if uv1 then
-			uv1()
-		end
+		uv1()
 	end)
 
 	return slot8

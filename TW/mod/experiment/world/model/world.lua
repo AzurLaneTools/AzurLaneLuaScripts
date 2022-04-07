@@ -1169,6 +1169,22 @@ function slot0.TriggerAutoFight(slot0, slot1)
 		slot0.isAutoFight = slot1
 
 		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(slot1)
+
+		if slot1 then
+			if not LOCK_BATTERY_SAVEMODE and PlayerPrefs.GetInt(AUTOFIGHT_BATTERY_SAVEMODE, 0) == 1 and pg.BrightnessMgr.GetInstance():IsPermissionGranted() then
+				pg.BrightnessMgr.GetInstance():EnterManualMode()
+
+				if PlayerPrefs.GetInt(AUTOFIGHT_DOWN_FRAME, 0) == 1 then
+					getProxy(SettingsProxy):RecordFrameRate()
+
+					Application.targetFrameRate = 30
+				end
+			end
+		elseif not LOCK_BATTERY_SAVEMODE then
+			pg.BrightnessMgr.GetInstance():ExitManualMode()
+			getProxy(SettingsProxy):RestoreFrameRate()
+		end
+
 		pg.m02:sendNotification(GAME.WORLD_TRIGGER_AUTO_FIGHT)
 	end
 

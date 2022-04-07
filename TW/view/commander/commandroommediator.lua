@@ -146,7 +146,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_FETCH, function (slot0, slot1)
-		if Application.isEditor then
+		if IsUnityEditor then
 			uv0:addSubLayers(Context.New({
 				viewComponent = NewCommanderScene,
 				mediator = NewCommanderMediator,

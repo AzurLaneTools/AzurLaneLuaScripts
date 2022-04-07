@@ -7685,6 +7685,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[451] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 2,
+		handbook_type = 0,
+		index_id = 192,
+		code = 451,
+		group_type = 20404,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：小騎士的訓練日",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[129] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -10310,6 +10341,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[450] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 266,
+		code = 450,
+		group_type = 30183,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的迴響",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[370] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -10492,6 +10554,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[449] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 273,
+		code = 449,
+		group_type = 30182,
+		trans_type = 0,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的迴響",
 				{
 					""
 				},
@@ -11952,6 +12045,37 @@ pg.ship_data_group = {
 		index_id = 316,
 		code = 368,
 		group_type = 30507,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的迴響",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[215] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 5,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 317,
+		code = 215,
+		group_type = 30508,
 		trans_type = 0,
 		property_hexagon = {
 			"A",
@@ -17881,6 +18005,7 @@ pg.ship_data_group = {
 		126,
 		127,
 		128,
+		451,
 		129,
 		130,
 		131,
@@ -17948,12 +18073,14 @@ pg.ship_data_group = {
 		318,
 		319,
 		170,
+		450,
 		370,
 		293,
 		468,
 		295,
 		296,
 		297,
+		449,
 		182,
 		183,
 		186,
@@ -17994,6 +18121,7 @@ pg.ship_data_group = {
 		212,
 		213,
 		368,
+		215,
 		214,
 		425,
 		218,

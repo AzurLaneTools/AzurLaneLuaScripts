@@ -75,14 +75,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.count = slot1.num or slot1.number or slot1.count
 	slot0.name = slot1.name
 	slot0.extra = slot1.extra
-	slot2 = pg.item_data_template[slot0.configId]
 	slot0.itemConfigData = setmetatable({}, {
 		__index = function (slot0, slot1)
-			if not uv0 then
+			if not pg.item_data_template[uv0.configId] then
 				return nil
 			end
 
-			return uv0[slot1]
+			return slot2[slot1]
 		end
 	})
 end

@@ -14,6 +14,16 @@ function slot0.getUIName(slot0)
 	return "LevelStageView"
 end
 
+function slot0.Show(slot0)
+	uv0.super.Show(slot0)
+	pg.playerResUI:SetActive(true, true)
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+	pg.playerResUI:SetActive(false)
+end
+
 function slot0.OnInit(slot0)
 	slot0:InitUI()
 	slot0:AddListener()
@@ -30,12 +40,6 @@ function slot0.OnDestroy(slot0)
 		slot0.stageTimer = nil
 	end
 
-	if slot0.resPanel1 then
-		slot0.resPanel1:exit()
-
-		slot0.resPanel1 = nil
-	end
-
 	slot0:ClearSubViews()
 	slot0:DestroyAutoFightPanel()
 	slot0:DestroyWinConditionPanel()
@@ -46,10 +50,7 @@ slot1 = -300
 
 function slot0.InitUI(slot0)
 	slot0.topStage = slot0:findTF("top_stage", slot0._tf)
-	slot0.resStage = slot0:findTF("resources", slot0.topStage)
-	slot0.resPanel1 = PlayerResource.New()
 
-	slot0.resPanel1:setParent(slot0.resStage, false)
 	setActive(slot0.topStage, true)
 
 	slot0.bottomStage = slot0:findTF("bottom_stage", slot0._tf)
@@ -417,7 +418,6 @@ function slot0.SetGrid(slot0, slot1)
 end
 
 function slot0.SetPlayer(slot0, slot1)
-	slot0.resPanel1:setResources(slot1)
 end
 
 function slot0.SwitchToChapter(slot0, slot1)
@@ -1539,7 +1539,7 @@ function slot0.tryPlayChapterStory(slot0, slot1)
 			pg.SystemGuideMgr.GetInstance():PlayChapter(uv0, slot0)
 		end,
 		function (slot0)
-			if uv0:getConfig("story_refresh") and slot1[uv1] and slot2 ~= "" and type(slot2) == "string" then
+			if uv0:getConfig("story_refresh") and slot1[uv1] and slot2 ~= "" and type(slot2) == "string" and not uv0:IsRemaster() then
 				ChapterOpCommand.PlayChapterStory(slot2, slot0, uv0:IsAutoFight())
 
 				return
@@ -1548,7 +1548,7 @@ function slot0.tryPlayChapterStory(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if uv0:getConfig("story_refresh_boss") and slot1 ~= "" and type(slot1) == "string" and uv0:bossRefreshed() then
+			if uv0:getConfig("story_refresh_boss") and slot1 ~= "" and type(slot1) == "string" and not uv0:IsRemaster() and uv0:bossRefreshed() then
 				ChapterOpCommand.PlayChapterStory(slot1, slot0, uv0:IsAutoFight())
 
 				return
@@ -1952,8 +1952,6 @@ function slot0.DestroyAutoFightPanel(slot0)
 end
 
 function slot0.HandleShowMsgBox(slot0, slot1)
-	slot1.blurLevelCamera = true
-
 	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1)
 end
 

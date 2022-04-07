@@ -532,7 +532,7 @@ function slot0.isNormalActOn()
 end
 
 function slot0.isTecActOn()
-	slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "ShipBluePrintMediator")
+	slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "ShipBluePrintMediator")
 	slot5 = false
 	slot6 = false
 

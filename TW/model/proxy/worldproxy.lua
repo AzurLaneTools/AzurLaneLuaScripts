@@ -108,7 +108,7 @@ function slot0.BuildTestFunc(slot0)
 		end
 	end
 
-	if Application.isEditor then
+	if IsUnityEditor then
 		function display_world_debug_panel()
 			if pg.m02:retrieveMediator(WorldMediator.__cname) then
 				slot0.viewComponent:ShowSubView("DebugPanel")

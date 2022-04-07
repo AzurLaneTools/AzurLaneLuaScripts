@@ -76,7 +76,7 @@ function slot0.TweenObjects(slot0)
 	slot4.enabled = true
 
 	slot4:AddPointDownFunc(function (slot0)
-		if Input.touchCount == 1 or Application.isEditor then
+		if Input.touchCount == 1 or IsUnityEditor then
 			uv0.exitFlag = true
 			uv1 = true
 		elseif Input.touchCount >= 2 then

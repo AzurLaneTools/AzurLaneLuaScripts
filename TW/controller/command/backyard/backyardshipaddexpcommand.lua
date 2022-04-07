@@ -14,14 +14,10 @@ function slot0.execute(slot0, slot1)
 			if slot13.level ~= slot13:getMaxLevel() then
 				slot13:addExp(slot2)
 				slot5:updateShip(slot13)
-
-				if pg.backyard then
-					pg.backyard:sendNotification(BACKYARD.BOAT_ADDITION_DONE, {
-						type = BackYardConst.ADDITION_TYPE_EXP,
-						id = slot13.id,
-						exp = slot2
-					})
-				end
+				slot0:sendNotification(GAME.BACKYARD_SHIP_EXP_ADDED, {
+					id = slot13.id,
+					exp = slot2
+				})
 			end
 
 			slot6[slot13.id] = slot13

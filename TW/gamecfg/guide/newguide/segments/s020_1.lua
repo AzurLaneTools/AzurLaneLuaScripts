@@ -1,17 +1,23 @@
+slot0 = {
+	"使用任務獎勵<color=#ff7d36>建造新角色</color>吧",
+	"建造材料準備充足！ 點擊<color=#ffde38>開始建造</color>",
+	"點擊<color=#ff7d36>確定</color>開始建造"
+}
+
 return {
 	id = "S020_1",
 	events = {
 		{
 			alpha = 0.375,
 			style = {
-				text = "使用任務獎勵<color=#ff7d36>建造新角色</color>吧",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/buildButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/buildButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -25,11 +31,11 @@ return {
 		{
 			alpha = 0.408,
 			style = {
-				text = "建造材料準備充足！ 點擊<color=#ffde38>開始建造</color>",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 205.91
+				posX = 205.91,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
@@ -46,11 +52,11 @@ return {
 		{
 			alpha = 0.318,
 			style = {
-				text = "點擊<color=#ff7d36>確定</color>開始建造",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",

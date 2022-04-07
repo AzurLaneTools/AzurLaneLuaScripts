@@ -1,14 +1,23 @@
+slot0 = {
+	"啊~作戰失敗！點擊確定退出當前關卡",
+	"接下來我們的任務是支援白鷹航空艦隊的作戰演習    請點擊<color=#ffde38>出擊</color>",
+	"選擇主線",
+	"選擇<color=#ff7d36>近海演習</color>關卡",
+	"這裡顯示了關卡內的資訊",
+	"點擊<color=#ff7d36>立刻前往</color>開始索敵！"
+}
+
 return {
 	id = "S005",
 	events = {
 		{
 			alpha = 0.276,
 			style = {
-				text = "啊~作戰失敗！點擊確定退出當前關卡",
+				dir = 1,
 				mode = 1,
 				posY = 147.8,
-				dir = 1,
-				posX = 328.7
+				posX = 328.7,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -28,14 +37,14 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "接下來我們的任務是支援白鷹航空艦隊的作戰演習    請點擊<color=#ffde38>出擊</color>",
+				dir = 1,
 				mode = 1,
 				posY = -50,
-				dir = 1,
-				posX = 250
+				posX = 250,
+				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -53,11 +62,11 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "選擇主線",
+				dir = -1,
 				mode = 1,
 				posY = -50,
-				dir = -1,
-				posX = 250
+				posX = 250,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
@@ -78,11 +87,11 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "選擇<color=#ff7d36>近海演習</color>關卡",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				delay = 1.8,
@@ -100,11 +109,11 @@ return {
 		{
 			alpha = 0.513,
 			style = {
-				text = "這裡顯示了關卡內的資訊",
+				dir = 1,
 				mode = 2,
 				posY = -410,
-				dir = 1,
-				posX = -446
+				posX = -446,
+				text = slot0[5]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelStageInfoView(Clone)/panel/start_button",
@@ -121,11 +130,11 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				text = "點擊<color=#ff7d36>立刻前往</color>開始索敵！",
+				dir = 1,
 				mode = 2,
 				posY = -164,
-				dir = 1,
-				posX = 270
+				posX = 270,
+				text = slot0[6]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/start_button",

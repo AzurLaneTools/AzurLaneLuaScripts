@@ -4,6 +4,7 @@ slot0.CHAPTER_TIMESUP = "ChapterProxy:CHAPTER_TIMESUP"
 slot0.CHAPTER_CELL_UPDATED = "ChapterProxy:CHAPTER_CELL_UPDATED"
 slot0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED = "CHAPTERPROXY:CHAPTER_AUTO_FIGHT_FLAG_UPDATED"
 slot0.CHAPTER_SKIP_PRECOMBAT_UPDATED = "CHAPTERPROXY:CHAPTER_SKIP_PRECOMBAT_UPDATED"
+slot0.CHAPTER_REMASTER_INFO_UPDATED = "CHAPTERPROXY:CHAPTER_REMASTER_INFO_UPDATED"
 slot0.LAST_MAP_FOR_ACTIVITY = "last_map_for_activity"
 slot0.LAST_MAP = "last_map"
 
@@ -170,6 +171,7 @@ function slot0.register(slot0)
 	slot0.chaptersExtend = {}
 
 	slot0:buildMaps()
+	slot0:buildRemasterInfo()
 end
 
 function slot0.setEliteCache(slot0, slot1)
@@ -407,17 +409,20 @@ function slot0.getChapterById(slot0, slot1, slot2)
 end
 
 function slot0.updateChapter(slot0, slot1, slot2)
-	slot0.data[slot1.id] = slot1:clone()
+	slot0.data[slot1.id] = slot1
 
 	if slot0.data[slot1.id] then
 		slot0:removeChapterListener(slot3.id)
 	end
 
 	slot0:addChapterListener(slot4)
-	slot0.facade:sendNotification(uv0.CHAPTER_UPDATED, {
-		chapter = slot4,
-		dirty = defaultValue(slot2, 0)
-	})
+
+	if getProxy(PlayerProxy):getInited() then
+		slot0.facade:sendNotification(uv0.CHAPTER_UPDATED, {
+			chapter = slot4:clone(),
+			dirty = defaultValue(slot2, 0)
+		})
+	end
 
 	if slot4.fleet then
 		slot4.fleet:clearShipHpChange()
@@ -1038,7 +1043,7 @@ function slot0.SetChapterAutoFlag(slot0, slot1, slot2)
 		getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
 		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(true)
 
-		if not LOCK_BATTERY_SAVEMODE and PlayerPrefs.GetInt(AUTOFIGHT_BATTERY_SAVEMODE, 0) == 1 then
+		if not LOCK_BATTERY_SAVEMODE and PlayerPrefs.GetInt(AUTOFIGHT_BATTERY_SAVEMODE, 0) == 1 and pg.BrightnessMgr.GetInstance():IsPermissionGranted() then
 			pg.BrightnessMgr.GetInstance():EnterManualMode()
 
 			if PlayerPrefs.GetInt(AUTOFIGHT_DOWN_FRAME, 0) == 1 then
@@ -1065,6 +1070,63 @@ function slot0.StopAutoFight(slot0)
 	end
 
 	slot0:SetChapterAutoFlag(slot1.id, false)
+end
+
+function slot0.buildRemasterInfo(slot0)
+	slot0.remasterInfo = {}
+
+	for slot4, slot5 in ipairs(pg.re_map_template.all) do
+		if #pg.re_map_template[slot5].character_gain > 0 then
+			slot7, slot8, slot9 = unpack(slot6)
+			slot0.remasterInfo[slot7] = {
+				count = 0,
+				receive = false,
+				max = slot9
+			}
+		end
+	end
+end
+
+function slot0.checkRemasterInfomation(slot0)
+	if not slot0.checkRemaster then
+		slot0.checkRemaster = true
+
+		slot0:sendNotification(GAME.CHAPTER_REMASTER_INFO_REQUEST)
+	end
+end
+
+function slot0.addRemasterPassCount(slot0, slot1)
+	if not slot0.remasterInfo[slot1] then
+		return
+	end
+
+	if slot2.count < slot2.max then
+		slot2.count = slot2.count + 1
+
+		slot0:sendNotification(uv0.CHAPTER_REMASTER_INFO_UPDATED)
+	end
+end
+
+function slot0.markRemasterPassReceive(slot0, slot1)
+	if not slot0.remasterInfo[slot1] then
+		return
+	end
+
+	if not slot2.receive then
+		slot2.receive = true
+
+		slot0:sendNotification(uv0.CHAPTER_REMASTER_INFO_UPDATED)
+	end
+end
+
+function slot0.anyRemasterAwardCanReceive(slot0)
+	for slot4, slot5 in pairs(slot0.remasterInfo) do
+		if slot5.count == slot5.max and not slot5.receive then
+			return slot4
+		end
+	end
+
+	return false
 end
 
 return slot0

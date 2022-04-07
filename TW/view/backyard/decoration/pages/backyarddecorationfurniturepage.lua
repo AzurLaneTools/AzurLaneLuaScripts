@@ -1,19 +1,20 @@
 slot0 = class("BackYardDecorationFurniturePage", import(".BackYardDecorationBasePage"))
 
 function slot1(slot0)
-	if not uv0.tagsList then
-		uv0.tagsList = {
+	if not uv0.PageTypeList then
+		uv0.PageTypeList = {
+			0,
+			1,
+			7,
 			2,
+			3,
 			4,
 			5,
-			6,
-			7,
-			8,
-			3
+			6
 		}
 	end
 
-	return uv0.tagsList[slot0]
+	return uv0.PageTypeList[slot0]
 end
 
 function slot0.getUIName(slot0)
@@ -36,31 +37,26 @@ function slot0.OnDisplayList(slot0)
 	slot0:SortDisplays()
 end
 
-function slot2(slot0, slot1, slot2, slot3)
-	if (slot3[slot0.id].ownCnt <= slot3[slot0.id].putCnt and 0 or 1) == (slot3[slot1.id].ownCnt <= slot3[slot1.id].putCnt and 0 or 1) then
-		if slot2 == BackYardDecorationFilterPanel.ORDER_MODE_ASC then
-			return slot0.id < slot1.id
-		elseif slot2 == BackYardDecorationFilterPanel.ORDER_MODE_DASC then
-			return slot1.id < slot0.id
-		end
-	else
-		return slot6 < slot7
-	end
-end
-
 function slot0.SortDisplays(slot0)
 	if not slot0.contextData.filterPanel:GetLoaded() then
 		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0.displays) do
-			slot1[slot6.id] = {
-				putCnt = slot0.dorm:GetPutCntForFurniture(slot6),
-				ownCnt = slot6:GetOwnCnt()
-			}
+			slot1[slot6.id] = slot6:GetOwnCnt() <= slot0.dorm:GetPutCnt(slot6.configId) and 0 or 1
 		end
 
+		slot2 = slot0.orderMode
+
 		table.sort(slot0.displays, function (slot0, slot1)
-			return uv0(slot0, slot1, uv1.orderMode, uv2)
+			if uv0[slot0.id] == uv0[slot1.id] then
+				if uv1 == BackYardDecorationFilterPanel.ORDER_MODE_ASC then
+					return slot0.id < slot1.id
+				elseif uv1 == BackYardDecorationFilterPanel.ORDER_MODE_DASC then
+					return slot1.id < slot0.id
+				end
+			else
+				return slot2 < slot3
+			end
 		end)
 		slot0:SetTotalCount()
 
@@ -178,10 +174,13 @@ end
 
 function slot0.GetDisplays(slot0)
 	slot1 = {}
+	slot2 = slot0.dorm:GetAllFurniture()
+	slot5 = ipairs
+	slot6 = pg.furniture_data_template.get_id_list_by_tag[uv0(slot0.pageType)] or {}
 
-	for slot6, slot7 in pairs(slot0.dorm:GetAllFurniture()) do
-		if pg.furniture_data_template[slot7.id] and uv0(slot7:getConfig("tag")) == slot0.pageType then
-			table.insert(slot1, slot7)
+	for slot8, slot9 in slot5(slot6) do
+		if slot2[slot9] then
+			table.insert(slot1, slot10)
 		end
 	end
 
@@ -195,11 +194,15 @@ function slot0.OnFilterDone(slot0, slot1)
 end
 
 function slot0.SetTotalCount(slot0)
-	slot0.lastDiaplys = {}
+	if not slot0.searchKey or slot0.searchKey == "" then
+		slot0.lastDiaplys = slot0.displays
+	else
+		slot0.lastDiaplys = {}
 
-	for slot4, slot5 in ipairs(slot0.displays) do
-		if slot5:isMatchSearchKey(slot0.searchKey) then
-			table.insert(slot0.lastDiaplys, slot5)
+		for slot4, slot5 in ipairs(slot0.displays) do
+			if slot5:isMatchSearchKey(slot0.searchKey) then
+				table.insert(slot0.lastDiaplys, slot5)
+			end
 		end
 	end
 
@@ -216,6 +219,15 @@ function slot0.OnDestroy(slot0)
 
 		slot0.timer = nil
 	end
+
+	slot1 = pairs
+	slot2 = slot0.cards or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		slot5:Dispose()
+	end
+
+	slot0.cards = nil
 end
 
 return slot0

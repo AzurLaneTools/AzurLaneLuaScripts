@@ -365,7 +365,7 @@ function slot0.GameLoop(slot0)
 		end, SFX_PANEL)
 	end)
 
-	if Application.isEditor and AUTO_LINKLINK then
+	if IsUnityEditor and AUTO_LINKLINK then
 		setActive(slot0.helpBtn, true)
 		onButton(slot0, slot0.helpBtn, function ()
 			uv0 = nil

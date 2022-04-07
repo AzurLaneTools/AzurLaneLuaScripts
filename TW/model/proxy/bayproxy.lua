@@ -193,7 +193,7 @@ function slot0.generateLevelVertify(slot0)
 end
 
 function slot0.addShip(slot0, slot1, slot2)
-	slot0.data[slot1.id] = slot1:clone()
+	slot0.data[slot1.id] = slot1
 
 	uv0.recordShipLevelVertify(slot1)
 
@@ -219,7 +219,9 @@ function slot0.addShip(slot0, slot1, slot2)
 		end
 	end
 
-	slot0.facade:sendNotification(uv0.SHIP_ADDED, slot1:clone())
+	if getProxy(PlayerProxy):getInited() then
+		slot0.facade:sendNotification(uv0.SHIP_ADDED, slot1:clone())
+	end
 end
 
 function slot0.countShip(slot0, slot1)
@@ -403,7 +405,7 @@ function slot0.updateShip(slot0, slot1)
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_HIGHEST_LEVEL, slot0.shipHighestLevel)
 	end
 
-	slot0.data[slot1.id] = slot1:clone()
+	slot0.data[slot1.id] = slot1
 
 	uv0.recordShipLevelVertify(slot1)
 

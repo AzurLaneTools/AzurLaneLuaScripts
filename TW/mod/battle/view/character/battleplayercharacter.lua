@@ -107,6 +107,20 @@ function slot4.UpdateVectorBar(slot0)
 	slot0._vectorProgress.fillAmount = slot0._unitData:GetHPRate()
 end
 
+function slot4.UpdateUIComponentPosition(slot0)
+	uv0.super.UpdateUIComponentPosition(slot0)
+
+	if slot0._unitData:GetBornPosition() then
+		if not slot0._referenceVectorBorn then
+			slot0._referenceVectorBorn = Vector3.New(slot1.x, slot1.y, slot1.z)
+		else
+			slot0._referenceVectorBorn:Set(slot1.x, slot1.y, slot1.z)
+		end
+
+		uv1.Battle.BattleVariable.CameraPosToUICameraByRef(slot0._referenceVectorBorn)
+	end
+end
+
 function slot4.AddArrowBar(slot0, slot1)
 	uv0.super.AddArrowBar(slot0, slot1)
 
@@ -229,12 +243,6 @@ function slot4.onWillDie(slot0, slot1)
 				end
 			end
 		end
-	end
-end
-
-function slot4.SetSkeletonAutoCalcComplex(slot0)
-	if slot0._animator then
-		slot0._animator.autoCalcComplex = false
 	end
 end
 

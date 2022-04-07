@@ -57,12 +57,16 @@ slot0.INDEX_TO_SHOP_TYPE = {
 	}
 }
 
-function slot0.getCloneId(slot0, slot1)
-	if BackYardConst.SAME_ID_MODIFY_ID < slot0.configId then
-		return slot0.configId + slot1
+function slot0.StaticGetCloneId(slot0, slot1)
+	if BackYardConst.SAME_ID_MODIFY_ID < slot0 then
+		return slot0 + slot1
 	else
-		return slot0.configId * 10000000 + slot1
+		return slot0 * 10000000 + slot1
 	end
+end
+
+function slot0.getCloneId(slot0, slot1)
+	return uv0.StaticGetCloneId(slot0.configId, slot1)
 end
 
 function slot0.Ctor(slot0, slot1)
@@ -76,7 +80,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.floor = slot1.floor or 0
 	slot0.count = Mathf.Clamp(slot1.count or 0, 0, pg.furniture_data_template[slot0.configId].count)
 
-	if BackYardConst.SAME_ID_MODIFY_ID < slot0.configId and slot2 and slot2.count > 1 then
+	if BackYardConst.SAME_ID_MODIFY_ID < slot0.id and slot2 and slot2.count > 1 and slot0.id == slot0.configId then
 		for slot7 = 1, slot2.count - 1 do
 			slot8 = slot0.configId + slot7
 		end
@@ -254,6 +258,70 @@ end
 
 function slot0.IsShopType(slot0)
 	return slot0:bindShopConfigTable()[slot0.configId] ~= nil
+end
+
+function slot0._GetWeight(slot0)
+	slot2 = 3
+
+	if pg.furniture_data_template[slot0.configId].type == Furniture.TYPE_FLOORPAPER then
+		slot2 = 0
+	elseif slot1.type == Furniture.TYPE_WALLPAPER then
+		slot2 = 1
+	elseif slot0.parent ~= 0 and table.getCount(slot0.child) > 0 then
+		slot2 = 4
+	elseif slot0.parent ~= 0 then
+		slot2 = 5
+	elseif slot1.type == Furniture.TYPE_STAGE then
+		slot2 = 2
+	end
+
+	return slot2
+end
+
+function slot0._LoadWeight(slot0, slot1)
+	if uv0._GetWeight(slot0) == uv0._GetWeight(slot1) then
+		return slot0.id < slot1.id
+	else
+		return slot2 < slot3
+	end
+end
+
+function slot0.ToBackYardThemeFurnitrue(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.child) do
+		slot1[tonumber(slot5)] = {
+			x = slot6.x,
+			y = slot6.y
+		}
+	end
+
+	return BackyardThemeFurniture.New({
+		id = tonumber(slot0.id),
+		configId = slot0.configId or tonumber(slot0.id),
+		position = slot0.position,
+		dir = slot0.dir,
+		child = slot1,
+		parent = tonumber(slot0.parent) or 0,
+		floor = slot0.floor
+	})
+end
+
+function slot0.ToSaveData(slot0)
+	slot1 = slot0:ToBackYardThemeFurnitrue()
+	slot2 = slot1.position
+
+	return {
+		id = slot1.id,
+		configId = slot1.configId,
+		position = Vector2(slot2.x, slot2.y),
+		x = slot2.x,
+		y = slot2.y,
+		dir = slot1.dir,
+		child = slot1.child,
+		parent = slot1.parent,
+		floor = slot1.floor
+	}
 end
 
 return slot0

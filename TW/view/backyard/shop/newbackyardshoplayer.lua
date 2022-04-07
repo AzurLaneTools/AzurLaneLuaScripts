@@ -36,7 +36,14 @@ function slot10(slot0, slot1, slot2)
 	end, SFX_PANEL)
 	(function (slot0, slot1)
 		setActive(slot0:Find("btn_di"), slot1)
+		setAnchoredPosition(slot0:Find("Text"), {
+			x = slot1 and 18 or 0
+		})
 	end)(slot1, false)
+end
+
+function slot0.forceGC(slot0)
+	return true
 end
 
 function slot0.getUIName(slot0)
@@ -76,7 +83,7 @@ end
 
 function slot0.init(slot0)
 	slot0.pageContainer = slot0:findTF("pages")
-	slot0.btnTpl = slot0:getTpl("adpter/list/tpl")
+	slot0.btnTpl = slot0:findTF("adpter/list/tpl")
 	slot0.btnContainer = slot0:findTF("adpter/list")
 	slot0.backBtn = slot0:findTF("adpter/top/fanhui")
 	slot0.goldTxt = slot0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
@@ -137,7 +144,6 @@ function slot0.InitPageFooter(slot0)
 		slot6 = cloneTplTo(slot0.btnTpl, slot0.btnContainer)
 
 		setText(slot6:Find("Text"), uv0(slot4))
-		setText(slot6:Find("btn_di/Text"), uv0(slot4))
 		uv1(slot0, slot6, function ()
 			if uv0.pageType == uv1 then
 				return
@@ -155,22 +161,13 @@ function slot0.InitPageFooter(slot0)
 
 			uv0.pageType = uv1
 
-			if uv1 == 5 then
-				getProxy(SettingsProxy):UpdateNewGemFurnitureValue()
-				uv0:UpdateSpecialPageFooter()
-			end
-
 			return true
 		end)
 
 		slot0.btns[slot4] = slot6
 	end
 
-	slot0:UpdateSpecialPageFooter()
-end
-
-function slot0.UpdateSpecialPageFooter(slot0)
-	setActive(slot0.btns[5]:Find("new"), getProxy(SettingsProxy):IsTipNewGemFurniture())
+	setActive(slot0.btnTpl, false)
 end
 
 function slot0.willExit(slot0)

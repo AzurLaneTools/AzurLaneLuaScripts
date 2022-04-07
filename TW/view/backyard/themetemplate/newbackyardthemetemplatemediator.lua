@@ -18,7 +18,7 @@ slot0.GO_DECORATION = "NewBackYardThemeTemplateMediator:GO_DECORATION"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.GO_DECORATION, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD, {
 			openDecoration = true
 		})
 	end)
@@ -243,7 +243,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.BUY_FURNITURE_DONE then
 		slot0.viewComponent:FurnituresUpdated(slot4)
 	elseif slot2 == GAME.BACKYARD_APPLY_THEME_TEMPLATE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_apply_success"))
 	elseif slot2 == GAME.BACKYARD_SEARCH_THEME_TEMPLATE_DONE then
 		slot0.viewComponent:ShopSearchKeyChange(slot3.template)

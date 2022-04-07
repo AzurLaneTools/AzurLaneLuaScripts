@@ -121004,6 +121004,48 @@ _G.pg.item_data_statistics[59156] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59157] = {
+	display = "用於『蒼紅的迴響』活動兌換，活動結束後將會消失",
+	name = "Pt-櫻 ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/tiancheng_fk",
+	id = 59157,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59158] = {
+	display = "用於『小騎士的訓練日 』活動提升角色好感，活動結束後將會消失",
+	name = "友好度-小聲望",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xiaoshengwang_pt",
+	id = 59158,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59159] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -122259,6 +122301,27 @@ _G.pg.item_data_statistics[59301] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59301,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59302] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 40602,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59302,
 	display_icon = {},
 	price = {},
 	index = {}

@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "點擊按鈕查看幫助",
+				dir = 1,
 				mode = 2,
 				posY = 180.11,
-				dir = 1,
 				posX = 538.63,
+				text = ({
+					"點擊按鈕查看幫助"
+				})[1],
 				ui = {
 					path = "",
 					pathIndex = -1

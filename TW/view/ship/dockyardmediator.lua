@@ -32,7 +32,7 @@ function slot0.register(slot0)
 		end
 	end
 
-	if DockyardScene.MODE_DESTROY ~= slot0.contextData.mode and DockyardScene.MODE_OVERVIEW ~= slot0.contextData.mode and slot0.contextData.fromMediatorName ~= BackYardMediator.__cname and slot0.contextData.fromMediatorName ~= NavalAcademyMediator.__cname and not slot0.contextData.skipSelect then
+	if DockyardScene.MODE_DESTROY ~= slot0.contextData.mode and DockyardScene.MODE_OVERVIEW ~= slot0.contextData.mode and slot0.contextData.fromMediatorName ~= CourtYardMediator.__cname and slot0.contextData.fromMediatorName ~= NavalAcademyMediator.__cname and not slot0.contextData.skipSelect then
 		slot0.contextData.selectShipId = slot1.selectShipId
 
 		slot1:setSelectShipId(nil)

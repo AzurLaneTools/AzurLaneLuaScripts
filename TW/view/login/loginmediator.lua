@@ -67,6 +67,12 @@ function slot0.register(slot0)
 			end
 		})
 	end
+
+	pg.SdkMgr.GetInstance():EnterLoginScene()
+end
+
+function slot0.remove(slot0)
+	pg.SdkMgr.GetInstance():ExitLoginScene()
 end
 
 function slot0.loginProcessHandler(slot0)
@@ -95,7 +101,7 @@ function slot0.loginProcessHandler(slot0)
 			uv0.viewComponent:switchToAiriLogin()
 		end
 
-		if not Application.isEditor then
+		if not IsUnityEditor then
 			uv0:CheckMaintain()
 			coroutine.yield()
 		end
@@ -300,6 +306,7 @@ function slot0.handleNotification(slot0, slot1)
 		})
 	elseif slot2 == GAME.LOAD_PLAYER_DATA_DONE then
 		slot0.viewComponent:unloadExtraVoice()
+		getProxy(PlayerProxy):setFlag("login", true)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
 			isFromLogin = true
 		})

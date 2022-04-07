@@ -35,12 +35,9 @@ function slot0.init(slot0)
 	slot0.saveBtn = slot0:findTF("adpter/bottom/save")
 	slot0.clearBtn = slot0:findTF("adpter/bottom/clrear")
 	slot0.orderBtn = slot0:findTF("adpter/bottom/fliter_container/order")
-	slot1 = slot0.orderBtn
-	slot1 = slot1:Find("Text")
-	slot0.orderBtnTxt = slot1:GetComponent(typeof(Text))
+	slot0.orderBtnTxt = slot0.orderBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.filterBtn = slot0:findTF("adpter/bottom/fliter_container/filter")
-	slot1 = slot0.filterBtn
-	slot1 = slot1:Find("Text")
+	slot1 = slot0.filterBtn:Find("Text")
 	slot0.filterBtnTxt = slot1:GetComponent(typeof(Text))
 	slot0.filterBtnTxt.text = i18n("word_default")
 	slot0.searchInput = slot0:findTF("adpter/bottom/fliter_container/search")
@@ -59,6 +56,7 @@ function slot0.init(slot0)
 
 	slot0.contextData.furnitureDescMsgBox = BackYardDecorationDecBox.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.contextData.filterPanel = BackYardDecorationFilterPanel.New(slot0._tf, slot0.event, slot0.contextData)
+	slot0.tagUIList = UIItemList.New(slot0.tagsContainer, slot0.tagsContainer:Find("tag"))
 	slot0.pages = {
 		[uv0] = slot0.themePage,
 		[uv1] = slot0.furniturePage,
@@ -124,19 +122,16 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.showPutListBtn, function ()
 		uv0.putListPage:ExecuteAction("SetUp", 0, uv0.dorm, uv0.themes, uv0.orderMode)
 	end, SFX_PANEL)
-	seriesAsync({
-		function (slot0)
-			if uv0.themes then
-				slot0()
 
-				return
-			end
+	slot2 = slot0.tagUIList
 
-			uv0:emit(BackYardDecorationMediator.GET_CUSTOM_THEME, slot0)
+	slot2:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			uv0:UpdateTagTF(slot1 + 1, slot2)
 		end
-	}, function ()
-		uv0:InitPages()
-		uv0:ShowDefaultPage()
+	end)
+	onNextTick(function ()
+		uv0:emit(BackYardDecorationMediator.ON_SET_UP)
 	end)
 end
 
@@ -151,7 +146,7 @@ function slot0.UpdateDorm(slot0, slot1)
 		slot0.pages[slot0.pageType]:ExecuteAction("DormUpdated", slot0.dorm)
 	end
 
-	if slot0.putListPage:GetLoaded() then
+	if slot0.putListPage:GetLoaded() and slot0.putListPage:isShowing() then
 		slot0.putListPage:ExecuteAction("DormUpdated", slot0.dorm)
 	end
 end
@@ -200,27 +195,18 @@ function slot0.ThemeUpdated(slot0)
 	end
 end
 
-function slot0.InitPages(slot0)
-	slot0.btns = {}
-	slot1 = 0
-
-	for slot5, slot6 in ipairs(slot0.pages) do
-		slot7 = slot0.tagsContainer:GetChild(slot1)
-
-		onToggle(slot0, slot7, function (slot0)
-			if slot0 then
-				uv0:SwitchToPage(uv1)
-			end
-		end, SFX_PANEL)
-		setText(slot7:Find("Text"), uv0(slot5))
-
-		slot1 = slot1 + 1
-		slot0.btns[slot5] = slot7
-	end
+function slot0.UpdateTagTF(slot0, slot1, slot2)
+	onToggle(slot0, slot2, function (slot0)
+		if slot0 then
+			uv0:SwitchToPage(uv1)
+		end
+	end, SFX_PANEL)
+	setText(slot2:Find("Text"), uv0(slot1))
 end
 
-function slot0.ShowDefaultPage(slot0)
-	triggerToggle(slot0.btns[uv0], true)
+function slot0.InitPages(slot0)
+	slot0.tagUIList:align(#slot0.pages)
+	triggerToggle(slot0.tagsContainer:GetChild(uv0 - 1), true)
 end
 
 function slot0.SwitchToPage(slot0, slot1)
@@ -252,6 +238,7 @@ function slot0.willExit(slot0)
 	slot0.putListPage:Destroy()
 	slot0.contextData.furnitureDescMsgBox:Destroy()
 	slot0.contextData.filterPanel:Destroy()
+	BackYardThemeTempalteUtil.ClearAllCache()
 end
 
 function slot0.onBackPressed(slot0)

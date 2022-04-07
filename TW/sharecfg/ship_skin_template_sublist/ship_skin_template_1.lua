@@ -7427,5 +7427,114 @@ pg.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101361] = {
+		ship_group = 10136,
+		name = "小小學園偶像",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 101361,
+		group_index = 1,
+		prefab = "huobi_2",
+		painting = "huobi_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70111,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "穿上校服的霍比再次閃亮登場哦~指揮官，好看嗎？好看嗎？霍比也有成長哦~",
+		voice_actor = 151,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.048,
+					0.888,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.01,
+					0.848,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.177,
+					0.069,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

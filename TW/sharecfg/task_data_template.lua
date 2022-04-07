@@ -68359,6 +68359,782 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15547] = {
+		name = "『天城复刻』通关A1/C1",
+		guild_coin_award = 0,
+		award = 92927,
+		type = 6,
+		desc = "擊敗A1或C1敵方旗艦一次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15547,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180001,
+			1180011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40600
+			}
+		}
+	},
+	[15548] = {
+		name = "『天城复刻』通关A2/C2",
+		guild_coin_award = 0,
+		award = 92928,
+		type = 6,
+		desc = "擊敗A2或C2敵方旗艦一次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15548,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180002,
+			1180012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40600
+			}
+		}
+	},
+	[15549] = {
+		name = "『天城复刻』通关A3/C3",
+		guild_coin_award = 0,
+		award = 92929,
+		type = 6,
+		desc = "擊敗A3或C3敵方旗艦一次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15549,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180003,
+			1180013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59157,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40600
+			}
+		}
+	},
+	[15550] = {
+		name = "『天城复刻』通关B1/D1",
+		guild_coin_award = 0,
+		award = 92930,
+		type = 6,
+		desc = "擊敗B1或D1敵方旗艦一次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15550,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180004,
+			1180014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40601
+			}
+		}
+	},
+	[15551] = {
+		name = "『天城复刻』通关B2/D2",
+		guild_coin_award = 0,
+		award = 92931,
+		type = 6,
+		desc = "擊敗B2或D2敵方旗艦一次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15551,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180005,
+			1180015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40601
+			}
+		}
+	},
+	[15552] = {
+		name = "『天城复刻』通关B3/D3",
+		guild_coin_award = 0,
+		award = 92932,
+		type = 6,
+		desc = "擊敗B3或D3敵方旗艦一次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15552,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180006,
+			1180016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59157,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40601
+			}
+		}
+	},
+	[15553] = {
+		name = "『天城复刻』通关D3",
+		guild_coin_award = 0,
+		award = 92933,
+		type = 6,
+		desc = "通關D3<color=#92fc63>（勳章無法重複獲得）</color>",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1180016",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15553,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				140,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1180012,
+				chapterId = 1180016
+			}
+		}
+	},
+	[15554] = {
+		name = "『天城复刻』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 92934,
+		type = 6,
+		desc = "完成A1或C1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "15555",
+		auto_commit = 0,
+		story_id = "",
+		id = 15554,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180001,
+			1180011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40600
+			}
+		}
+	},
+	[15555] = {
+		name = "『天城复刻』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 92935,
+		type = 6,
+		desc = "完成A2或C2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "15556",
+		auto_commit = 0,
+		story_id = "",
+		id = 15555,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180002,
+			1180012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40600
+			}
+		}
+	},
+	[15556] = {
+		name = "『天城复刻』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 92936,
+		type = 6,
+		desc = "完成A3或C3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "15557",
+		auto_commit = 0,
+		story_id = "",
+		id = 15556,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180003,
+			1180013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40600
+			}
+		}
+	},
+	[15557] = {
+		name = "『天城复刻』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 92937,
+		type = 6,
+		desc = "完成B1或D1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "15558",
+		auto_commit = 0,
+		story_id = "",
+		id = 15557,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180004,
+			1180014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40601
+			}
+		}
+	},
+	[15558] = {
+		name = "『天城复刻』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 92938,
+		type = 6,
+		desc = "完成B2或D2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "15559",
+		auto_commit = 0,
+		story_id = "",
+		id = 15558,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180005,
+			1180015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40601
+			}
+		}
+	},
+	[15559] = {
+		name = "『天城复刻』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 92939,
+		type = 6,
+		desc = "完成B3或D3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15559,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1180006,
+			1180016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				40601
+			}
+		}
+	},
+	[15560] = {
+		name = "『天城复刻』日常建造",
+		guild_coin_award = 0,
+		award = 92940,
+		type = 36,
+		desc = "建造艦船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15560,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59157,
+				300
+			}
+		}
+	},
+	[15561] = {
+		name = "『天城复刻』日常出击",
+		guild_coin_award = 0,
+		award = 92941,
+		type = 36,
+		desc = "艦隊出征，獲得15次勝利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 15561,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59157,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15562] = {
+		name = "『天城复刻』日常困难本",
+		guild_coin_award = 0,
+		award = 92942,
+		type = 36,
+		desc = "通關1次任意困難關卡",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15562,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59157,
+				100
+			}
+		}
+	},
+	[15563] = {
+		name = "小声望npc临时加入",
+		guild_coin_award = 0,
+		award = 92982,
+		type = 6,
+		desc = "不该看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15563,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				204041,
+				1
+			}
+		}
+	},
+	[15564] = {
+		name = "登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 92990,
+		type = 6,
+		desc = "登入遊戲",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15564,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				153,
+				2
+			}
+		}
+	},
 	[15565] = {
 		name = "『法系SP』通关SP1",
 		guild_coin_award = 0,
@@ -118546,6 +119322,24 @@ pg.task_data_template = {
 		15532,
 		15533,
 		15534,
+		15547,
+		15548,
+		15549,
+		15550,
+		15551,
+		15552,
+		15553,
+		15554,
+		15555,
+		15556,
+		15557,
+		15558,
+		15559,
+		15560,
+		15561,
+		15562,
+		15563,
+		15564,
 		15565,
 		15566,
 		15567,

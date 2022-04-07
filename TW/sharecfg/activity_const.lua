@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 40590
+		act_id = 40598
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -505,7 +505,7 @@ pg.activity_const = {
 		act_id = 569
 	},
 	LITTLE_RENOWN_PAGE = {
-		act_id = 568
+		act_id = 40599
 	},
 	FRANCE_SP = {
 		act_id = 40341

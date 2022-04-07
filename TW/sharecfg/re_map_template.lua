@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.re_map_template = {
 	{
-		id = 1,
+		memory_group = 108,
 		name = "红染常驻复刻",
 		activity_type = 1,
-		memory_group = 108,
+		id = 1,
 		bg = "temp_hongran",
 		order = 1,
 		config_data = {
@@ -20,26 +20,97 @@ pg.re_map_template = {
 			2100014,
 			2100015,
 			2100016
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100016,
+			307061,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					307061
+				},
+				"B3、D3"
+			},
+			{
+				{
+					2,
+					11032
+				},
+				"D2"
+			},
+			{
+				{
+					2,
+					11033
+				},
+				"D3"
+			}
 		}
 	},
 	{
-		id = 2,
+		memory_group = 101,
 		name = "Z舰队常驻复刻",
 		activity_type = 2,
-		memory_group = 101,
+		id = 2,
 		bg = "temp_zjiandui",
 		order = 2,
 		config_data = {
 			2200001,
 			2200002,
 			2200003
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					4,
+					205061
+				},
+				"SP3"
+			},
+			{
+				{
+					4,
+					201231
+				},
+				"SP2、SP3"
+			},
+			{
+				{
+					2,
+					11012
+				},
+				"SP3"
+			}
 		}
 	},
 	[4] = {
-		id = 4,
+		memory_group = 123,
 		name = "凛冬常驻复刻",
 		activity_type = 1,
-		memory_group = 123,
+		id = 4,
 		bg = "temp_lingdong",
 		order = 4,
 		config_data = {
@@ -55,26 +126,90 @@ pg.re_map_template = {
 			2100034,
 			2100035,
 			2100036
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100036,
+			205071,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					205071
+				},
+				"B3、D3"
+			},
+			{
+				{
+					4,
+					201271
+				},
+				"B2、D2、D3"
+			},
+			{
+				{
+					2,
+					11026
+				},
+				"D3"
+			}
 		}
 	},
 	[5] = {
-		id = 5,
+		memory_group = 117,
 		name = "围剿斯佩伯爵』常驻复刻",
 		activity_type = 2,
-		memory_group = 117,
+		id = 5,
 		bg = "temp_sipei",
 		order = 5,
 		config_data = {
 			2200011,
 			2200012,
 			2200013
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					2,
+					11029
+				},
+				"SP3"
+			},
+			{
+				{
+					2,
+					11014
+				},
+				"SP2"
+			}
 		}
 	},
 	[6] = {
-		id = 6,
+		memory_group = 102,
 		name = "异色格常驻复刻",
 		activity_type = 1,
-		memory_group = 102,
+		id = 6,
 		bg = "temp_yisege",
 		order = 6,
 		config_data = {
@@ -94,13 +229,59 @@ pg.re_map_template = {
 			2100056,
 			2100057,
 			2100058
+		},
+		chapter_progress = {
+			12,
+			25,
+			37,
+			50,
+			62,
+			75,
+			87,
+			100,
+			12,
+			25,
+			37,
+			50,
+			62,
+			75,
+			87,
+			100
+		},
+		character_gain = {
+			2100058,
+			401461,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					401461
+				},
+				"B4、D4"
+			},
+			{
+				{
+					4,
+					404021
+				},
+				"B2、D2、D3、D4"
+			},
+			{
+				{
+					2,
+					11029
+				},
+				"D1"
+			}
 		}
 	},
 	[7] = {
-		id = 7,
+		memory_group = 115,
 		name = "坠落之翼常驻复刻",
 		activity_type = 1,
-		memory_group = 115,
+		id = 7,
 		bg = "temp_zhuiluo",
 		order = 7,
 		config_data = {
@@ -116,19 +297,90 @@ pg.re_map_template = {
 			2100074,
 			2100075,
 			2100076
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		character_gain = {
+			2100076,
+			105121,
+			60
+		},
+		drop_display = {
+			{
+				{
+					4,
+					105121
+				},
+				"B3、D3"
+			},
+			{
+				{
+					4,
+					105111
+				},
+				"B1、D1、D2、D3"
+			},
+			{
+				{
+					2,
+					11001
+				},
+				"D3"
+			}
 		}
 	},
 	[10] = {
-		id = 10,
+		memory_group = 109,
 		name = "光荣的一战常驻复刻",
 		activity_type = 2,
-		memory_group = 109,
+		id = 10,
 		bg = "temp_guangrong",
 		order = 10,
 		config_data = {
 			2200021,
 			2200022,
 			2200023
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					4,
+					207061
+				},
+				"SP3"
+			},
+			{
+				{
+					4,
+					201031
+				},
+				"SP2"
+			},
+			{
+				{
+					2,
+					11017
+				},
+				"SP2"
+			}
 		}
 	},
 	all = {

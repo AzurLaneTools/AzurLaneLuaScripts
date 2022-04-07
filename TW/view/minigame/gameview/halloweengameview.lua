@@ -1562,7 +1562,7 @@ function slot0.getGameTimes(slot0)
 end
 
 function slot0.getSoundData(slot0, slot1)
-	CueData.New().channelName = pg.CriMgr.C_GALLERY_MUSIC
+	CueData.GetCueData().channelName = pg.CriMgr.C_GALLERY_MUSIC
 	slot0.cueData.cueSheetName = musicName
 	slot0.cueData.cueName = ""
 end
@@ -1754,7 +1754,7 @@ function slot0.Update(slot0)
 end
 
 function slot0.AddDebugInput(slot0)
-	if Application.isEditor then
+	if IsUnityEditor then
 		if Input.GetKeyDown(KeyCode.A) then
 			slot0:changeDirect(uv0, true)
 		end

@@ -1,5 +1,9 @@
 slot0 = class("GuildMainScene", import("..base.BaseUI"))
 
+function slot0.forceGC(slot0)
+	return true
+end
+
 function slot0.getUIName(slot0)
 	return "GuildMainUI"
 end
@@ -37,10 +41,6 @@ function slot0.setGuildEvent(slot0, slot1)
 end
 
 function slot0.UpdateRes(slot0)
-	if slot0.resPanel then
-		slot0.resPanel:setResources(slot0.playerVO)
-	end
-
 	if slot0.guildRes and slot0.guildRes:GetLoaded() then
 		slot0.guildRes:Update(slot0.playerVO, slot0.guildVO)
 	end
@@ -91,10 +91,6 @@ function slot0.init(slot0)
 	slot0.topWidth = slot0._topPanel.rect.height
 	slot0.letfWidth = -1 * (slot0._leftLength.rect.width + 300)
 	slot0.logPage = GuildOfficeLogPage.New(slot0._tf, slot0.event)
-	slot0.resPanel = PlayerResource.New()
-
-	slot0.resPanel:setParent(slot0._playerResOb)
-
 	slot0.dynamicBg = GuildDynamicBG.New(slot0:findTF("dynamic_bg"))
 	Input.multiTouchEnabled = false
 end
@@ -125,7 +121,6 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	pg.GuildLayerMgr:GetInstance():BlurTopPanel(slot0.blurPanel)
 	onButton(slot0, slot0.back, function ()
 		uv0:emit(GuildMainMediator.ON_BACK)
 	end, SOUND_BACK)
@@ -140,6 +135,7 @@ function slot0.didEnter(slot0)
 	slot0.guildRes:ExecuteAction("Update", slot0.playerVO, slot0.guildVO)
 	slot0:initToggles()
 	slot0:UpdateRes()
+	pg.GuildLayerMgr:GetInstance():BlurTopPanel(slot0.blurPanel)
 
 	if slot0.guildVO:shouldRefreshCaptial() then
 		slot0:emit(GuildMainMediator.ON_FETCH_CAPITAL)
@@ -313,13 +309,10 @@ function slot0.openPage(slot0, slot1)
 
 	if slot1 == uv1 or slot1 == uv2 then
 		slot0.guildRes:Show()
-		setActive(slot0.resPanel._tf, false)
 	elseif slot1 == uv3 or slot1 == uv4 or slot1 == uv5 then
 		slot0.guildRes:Hide()
-		setActive(slot0.resPanel._tf, false)
 	else
 		slot0.guildRes:Hide()
-		setActive(slot0.resPanel._tf, true)
 	end
 
 	if slot0.themePage and slot0.themePage:GetLoaded() and slot0.themePage.isShowChatWindow then
@@ -415,7 +408,6 @@ function slot0.willExit(slot0)
 		slot0.themePage:Destroy()
 	end
 
-	slot0.resPanel:exit()
 	pg.GuildLayerMgr:GetInstance():Clear()
 	pg.GuildPaintingMgr:GetInstance():Exit()
 

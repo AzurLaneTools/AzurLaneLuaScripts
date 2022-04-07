@@ -36,10 +36,11 @@ function slot0.init(slot0)
 		"openMail"
 	}
 	slot0.panelState = slot0.panelStateList[1]
-	slot0.mailTFsById = {}
-	slot0.UIMgr = pg.UIMgr.GetInstance()
+	slot1 = pg.UIMgr.GetInstance()
 
-	slot0.UIMgr:BlurPanel(slot0._tf)
+	slot1:BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	slot0.msgBoxTF = slot0:findTF("msgbox")
 
@@ -49,7 +50,18 @@ function slot0.init(slot0)
 	slot0.msgCancelBtn = slot0:findTF("window/actions/cancel_button", slot0.msgBoxTF)
 	slot0.msgItemContainerTF = slot0:findTF("window/items/content/list/", slot0.msgBoxTF)
 	slot0.msgItemTF = slot0:getTpl("item", slot0.msgItemContainerTF)
-	slot0.msgContentTF = slot0:findTF("window/items/content/Text", slot0.msgBoxTF):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("window/items/content/Text", slot0.msgBoxTF)
+	slot0.msgContentTF = slot1:GetComponent(typeof(Text))
+	slot0.mailItemList = UIItemList.New(slot0.mailList, slot0.mailTpl)
+	slot1 = slot0.mailItemList
+
+	slot1:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
+		if slot0 == UIItemList.EventUpdate then
+			uv0:updateMail(uv0.filterMailVOs[slot1])
+		end
+	end)
 end
 
 function slot0.setMailData(slot0, slot1)
@@ -131,13 +143,13 @@ function slot0.didEnter(slot0)
 		uv0:emit(MailMediator.ON_TAKE_ALL)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggleNormal, function (slot0)
-		uv0:updateMailList()
+		uv0:checkToggle()
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggleMatter, function (slot0)
-		uv0:updateMailList()
+		uv0:checkToggle()
 	end, SFX_PANEL)
 
-	slot1 = slot0.mailPanel
+	slot1 = slot0.mailList
 	slot1 = slot1:GetComponent("UIPullToRefreshTrigger")
 	slot2 = slot0.pullToRefreshNewer
 	slot2:GetComponent("CanvasGroup").alpha = 0
@@ -173,7 +185,7 @@ function slot0.didEnter(slot0)
 		end
 	end)
 
-	slot4 = slot0.mailPanel
+	slot4 = slot0.mailList
 	slot4 = slot4:GetComponent("ScrollRect")
 
 	pg.DelegateInfo.Add(slot0, slot1.onDragEnd)
@@ -188,44 +200,34 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UnblurMailBox(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr._normalUIMain)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
+end
+
+function slot0.checkToggle(slot0)
+	if not getToggleState(slot0.toggleNormal) and not getToggleState(slot0.toggleMatter) then
+		slot0.frozenUpdateMailList = true
+
+		triggerToggle(slot0.toggleNormal, true)
+		triggerToggle(slot0.toggleMatter, true)
+
+		slot0.frozenUpdateMailList = false
+	end
+
+	if not slot0.frozenUpdateMailList then
+		slot0:updateMailList()
+	end
 end
 
 function slot0.updateMailList(slot0)
 	table.sort(slot0.mailVOs, Mail.sortByTime)
 
-	if not getToggleState(slot0.toggleNormal) and not getToggleState(slot0.toggleMatter) then
-		slot0.toggleNormal:GetComponent(typeof(Toggle)).isOn = true
-		slot0.toggleMatter:GetComponent(typeof(Toggle)).isOn = true
-	end
+	slot0.filterMailVOs = underscore.filter(slot0.mailVOs, function (slot0)
+		return uv0 and slot0.importantFlag ~= 1 or uv1 and slot0.importantFlag == 1
+	end)
 
-	slot4 = slot1 or slot3
-	slot5 = slot2 or slot3
-
-	for slot9, slot10 in ipairs(slot0.mailVOs) do
-		if slot0.mailTFsById[slot10.id] then
-			slot11:SetAsLastSibling()
-		else
-			slot0.mailTFsById[slot10.id] = cloneTplTo(slot0.mailTpl, slot0.mailList)
-
-			slot0:updateMail(slot10)
-		end
-
-		setActive(slot11, slot10.importantFlag ~= 1 and slot4 or slot10.importantFlag == 1 and slot5)
-	end
-
-	setActive(slot0.deleteAllButton, slot4 or not slot5)
-
-	if #slot0.mailVOs == 0 then
-		setActive(slot0.nullTpl, true)
-	else
-		setActive(slot0.nullTpl, false)
-	end
-
-	slot0:updateMailCount()
-end
-
-function slot0.updateMailCount(slot0)
+	slot0.mailItemList:align(#slot0.filterMailVOs)
+	setActive(slot0.deleteAllButton, getToggleState(slot0.toggleNormal) or not getToggleState(slot0.toggleMatter))
+	setActive(slot0.nullTpl, #slot0.mailVOs == 0)
 	setText(slot0.mailCount, slot0.totalCount .. "<color=#B1BAC9FF>/1000</color>")
 	slot0:showMailTip(#slot0.mailVOs ~= slot0.totalCount)
 end
@@ -261,56 +263,65 @@ function slot0.setLetterContent(slot0, slot1)
 	slot0.wordList:align(math.floor(slot0.wordText.rect.height / slot0.lineTpl.rect.height) + 1 + 1)
 end
 
-function slot0.openMail(slot0, slot1)
-	setActive(slot0.mailTFsById[slot1.id]:Find("check_mark"), true)
-
-	if slot0.preCheckMark and slot0.preCheckMark ~= slot2 then
-		setActive(slot0.preCheckMark, false)
+function slot0.updateMailMark(slot0, slot1)
+	if not slot0.lastOpenMailId then
+		return
 	end
 
-	slot0.preCheckMark = slot2
+	if table.getIndex(slot0.filterMailVOs, function (slot0)
+		return slot0.id == uv0.lastOpenMailId
+	end) then
+		setActive(slot0.mailList:GetChild(slot2 - 1):Find("check_mark"), slot1)
+	end
+end
 
+function slot0.openMail(slot0, slot1)
+	slot0:updateMailMark(false)
+
+	slot0.lastOpenMailId = slot1.id
+
+	slot0:updateMailMark(true)
 	slot0:setOrMovePanelState("openMail")
 
-	slot3 = slot0.letterPanel
+	slot2 = slot0.letterPanel
 
-	setText(findTF(slot3, "panel/main/contant/title"), slot1.title)
-	setText(findTF(slot3, "panel/main/contant/title"), i18n2(slot1.title))
-	setText(findTF(slot3, "panel/main/contant/date/date_bg/text"), os.date("%Y-%m-%d", slot1.date))
-	setText(findTF(slot3, "from/text"), slot1.sender)
+	setText(findTF(slot2, "panel/main/contant/title"), slot1.title)
+	setText(findTF(slot2, "panel/main/contant/title"), i18n2(slot1.title))
+	setText(findTF(slot2, "panel/main/contant/date/date_bg/text"), os.date("%Y-%m-%d", slot1.date))
+	setText(findTF(slot2, "from/text"), slot1.sender)
 	slot0:setLetterContent(slot1.content)
-	onButton(slot0, findTF(slot3, "get_button"), function ()
+	onButton(slot0, findTF(slot2, "get_button"), function ()
 		uv0:emit(MailMediator.ON_TAKE, uv1.id)
 	end, SFX_PANEL)
 
-	slot5 = 0
+	slot4 = 0
 
 	if slot1.attachFlag == slot1.ATTACHMENT_EXIST then
-		setButtonEnabled(slot4, true)
+		setButtonEnabled(slot3, true)
 
-		slot5 = 1
+		slot4 = 1
 	else
-		slot5 = slot1.attachFlag == slot1.ATTACHMENT_NONE and 2 or 3
+		slot4 = slot1.attachFlag == slot1.ATTACHMENT_NONE and 2 or 3
 
-		setButtonEnabled(slot4, false)
+		setButtonEnabled(slot3, false)
 	end
 
-	setActive(findTF(slot4, "get"), slot5 == 1)
-	setActive(findTF(slot4, "none"), slot5 == 2)
-	setActive(findTF(slot4, "got"), slot5 == 3)
-	setActive(findTF(slot4, "mask"), slot5 ~= 1)
+	setActive(findTF(slot3, "get"), slot4 == 1)
+	setActive(findTF(slot3, "none"), slot4 == 2)
+	setActive(findTF(slot3, "got"), slot4 == 3)
+	setActive(findTF(slot3, "mask"), slot4 ~= 1)
 	setActive(slot0.letterContant, true)
 	removeAllChildren(findTF(slot0.letterContant, "attachments"))
 
-	slot7 = false
+	slot6 = false
 
-	for slot11, slot12 in ipairs(slot1.attachments) do
-		slot0:setAttachment(cloneTplTo(slot0.attachmentTpl, slot6), slot12, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+	for slot10, slot11 in ipairs(slot1.attachments) do
+		slot0:setAttachment(cloneTplTo(slot0.attachmentTpl, slot5), slot11, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
 
-		slot7 = true
+		slot6 = true
 	end
 
-	setActive(slot6, slot7)
+	setActive(slot5, slot6)
 	setActive(slot0.radioImp:Find("on"), slot1.importantFlag == 1)
 	setActive(slot0.radioImp:Find("off"), slot1.importantFlag == 0)
 	onButton(slot0, slot0.radioImp, function ()
@@ -321,8 +332,6 @@ function slot0.openMail(slot0, slot1)
 			end
 		})
 	end, SFX_PANEL)
-
-	slot0.lastOpenMailId = slot1.id
 end
 
 function slot0.setAttachment(slot0, slot1, slot2, slot3)
@@ -369,80 +378,73 @@ function slot0.updateMail(slot0, slot1)
 		end
 	end
 
-	if slot0.mailTFsById[slot1.id] then
-		onButton(slot0, slot2, function ()
-			uv0:emit(MailMediator.ON_OPEN, uv1.id)
-		end, SFX_PANEL)
+	if not table.getIndex(slot0.filterMailVOs, function (slot0)
+		return slot0.id == uv0.id
+	end) then
+		return
+	end
 
-		slot3 = slot2:Find("check_mark")
+	slot3 = slot0.mailList:GetChild(slot2 - 1)
 
-		setActive(slot3, false)
-		onButton(slot0, slot3, function ()
-			setActive(uv0, false)
-			uv1:setOrMovePanelState("initial")
+	onButton(slot0, slot3, function ()
+		if uv0.lastOpenMailId == uv1.id then
+			uv0:updateMailMark(false)
+			uv0:setOrMovePanelState("initial")
 
-			uv1.lastOpenMailId = nil
-		end, SFX_PANEL)
-
-		slot4 = slot0:findTF("mask", slot2)
-
-		setActive(findTF(slot2, "tip_bg"), slot1.attachFlag ~= slot1.ATTACHMENT_NONE)
-
-		slot5 = slot1.attachFlag ~= slot1.ATTACHMENT_NONE
-
-		setActive(findTF(slot2, "res_icon"), not slot5)
-		setActive(findTF(slot2, "icon"), slot5)
-
-		if slot5 then
-			setText(findTF(slot2, "tip_bg/Text"), #slot1.attachments)
-			slot0:setAttachment(slot7, slot1.attachments[1], slot1.attachFlag == 2)
-			setActive(slot4, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+			uv0.lastOpenMailId = nil
 		else
-			if slot1.readFlag == 2 then
-				slot0:setSpriteTo("resources/mail_read", slot6, true)
-			else
-				slot0:setSpriteTo("resources/mail_unread", slot6, true)
-			end
+			uv0:emit(MailMediator.ON_OPEN, uv1.id)
+		end
+	end, SFX_PANEL)
 
-			setActive(slot4, slot1.readFlag == 2)
+	slot4 = slot0:findTF("mask", slot3)
+
+	setActive(findTF(slot3, "tip_bg"), slot1.attachFlag ~= slot1.ATTACHMENT_NONE)
+
+	slot5 = slot1.attachFlag ~= slot1.ATTACHMENT_NONE
+
+	setActive(findTF(slot3, "res_icon"), not slot5)
+	setActive(findTF(slot3, "icon"), slot5)
+
+	if slot5 then
+		setText(findTF(slot3, "tip_bg/Text"), #slot1.attachments)
+		slot0:setAttachment(slot7, slot1.attachments[1], slot1.attachFlag == 2)
+		setActive(slot4, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+	else
+		if slot1.readFlag == 2 then
+			slot0:setSpriteTo("resources/mail_read", slot6, true)
+		else
+			slot0:setSpriteTo("resources/mail_unread", slot6, true)
 		end
 
-		setText(findTF(slot2, "title"), shortenString(i18n2(slot1.title), 15))
-		setText(findTF(slot2, "date"), os.date("%Y-%m-%d %H:%M:%S", slot1.date))
-		setActive(slot2:Find("star"), slot1.importantFlag == 1)
+		setText(findTF(slot3, "title"), shortenString(i18n2(slot1.title), 15))
+		setActive(slot4, slot1.readFlag == 2)
+	end
 
-		if slot0.lastOpenMailId == slot1.id then
-			slot0:openMail(slot1)
-		end
+	setText(findTF(slot3, "title"), shortenString(slot1.title, 15))
+	setText(findTF(slot3, "date"), os.date("%Y-%m-%d %H:%M:%S", slot1.date))
+	setActive(slot3:Find("star"), slot1.importantFlag == 1)
+	setActive(slot3:Find("check_mark"), slot0.lastOpenMailId == slot1.id)
+
+	if slot0.lastOpenMailId == slot1.id then
+		slot0:openMail(slot1)
 	end
 end
 
 function slot0.removeMail(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.mailVOs) do
-		if slot6.id == slot1.id then
-			table.remove(slot0.mailVOs, slot5)
-
-			break
-		end
-	end
-
-	if slot0.mailTFsById[slot1.id] then
-		if slot0.preCheckMark == findTF(slot0.mailTFsById[slot1.id], "check_mark") then
-			slot0.preCheckMark = nil
-		end
-
-		Destroy(slot2)
-	end
-
-	if #slot0.mailVOs == 0 then
-		setActive(slot0.nullTpl, true)
+	if table.getIndex(slot0.mailVOs, function (slot0)
+		return slot0.id == uv0.id
+	end) then
+		table.remove(slot0.mailVOs, slot2)
 	end
 
 	if slot0.lastOpenMailId == slot1.id then
 		slot0:setOrMovePanelState("initial")
+
+		slot0.lastOpenMailId = nil
 	end
 
-	slot0:updateMailCount()
+	slot0:updateMailList()
 end
 
 function slot0.onDelete(slot0, slot1)

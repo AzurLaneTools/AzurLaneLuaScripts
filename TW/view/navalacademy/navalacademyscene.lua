@@ -5,6 +5,10 @@ function slot0.getUIName(slot0)
 	return pg.naval_academy_theme[pg.gameset.naval_academy_theme.description] and slot2.resource_path or "NavalAcademyUI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.SetOilResField(slot0, slot1)
 	slot0.oilResField = slot1
 end
@@ -23,8 +27,6 @@ end
 
 function slot0.UpdatePlayer(slot0, slot1)
 	slot0.player = slot1
-
-	slot0._resPanel:setResources(slot0.player)
 end
 
 function slot0.init(slot0)
@@ -44,10 +46,6 @@ function slot0.init(slot0)
 	}
 	slot0.shipsView = NavalAcademyShipsView.New(slot0)
 	slot0.resPage = ResourcePage.New(slot0._tf, slot0.event)
-	slot0._playerResOb = slot0:findTF("blur_container/adapt/top/playerRes")
-	slot0._resPanel = PlayerResource.New()
-
-	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
 end
 
 function slot0.didEnter(slot0)
@@ -136,7 +134,7 @@ function slot0.OnRemoveLayer(slot0, slot1)
 		slot0:EnableEffects(true)
 	end
 
-	if slot1.context.mediator == NavalTacticsMediator then
+	if slot1.context.mediator == NewNavalTacticsMediator then
 		slot0.buildings[5]:RefreshTip()
 	end
 end
@@ -214,12 +212,6 @@ function slot0.willExit(slot0)
 		Destroy(slot0.waveEffect)
 
 		slot0.waveEffect = nil
-	end
-
-	if slot0._resPanel then
-		slot0._resPanel:exit()
-
-		slot0._resPanel = nil
 	end
 
 	if slot0.bulinTip then

@@ -115783,7 +115783,7 @@ end)()
 		name = "智和勇的序盤",
 		count = 0,
 		pop_pic = "",
-		act_id = 40142,
+		act_id = 40600,
 		pos_y = "0.392708333",
 		is_ai = 1,
 		progress_boss = 50,
@@ -116379,7 +116379,7 @@ end)()
 		name = "將上桂的王手",
 		count = 0,
 		pop_pic = "",
-		act_id = 40142,
+		act_id = 40600,
 		pos_y = "0.052083333",
 		is_ai = 1,
 		progress_boss = 34,
@@ -116946,7 +116946,7 @@ end)()
 		name = "王與玉的交鋒",
 		count = 0,
 		pop_pic = "",
-		act_id = 40142,
+		act_id = 40600,
 		pos_y = "0.344791667",
 		is_ai = 1,
 		progress_boss = 34,
@@ -117609,7 +117609,7 @@ end)()
 		name = "落日下的追尋",
 		count = 0,
 		pop_pic = "",
-		act_id = 40143,
+		act_id = 40601,
 		pos_y = "0.227083333",
 		is_ai = 1,
 		progress_boss = 25,
@@ -118274,7 +118274,7 @@ end)()
 		name = "落幕後的曙光",
 		count = 0,
 		pop_pic = "",
-		act_id = 40143,
+		act_id = 40601,
 		pos_y = "0.052083333",
 		is_ai = 1,
 		progress_boss = 25,
@@ -118982,7 +118982,7 @@ end)()
 		name = "被繼承的意志",
 		count = 0,
 		pop_pic = "",
-		act_id = 40143,
+		act_id = 40601,
 		pos_y = "0.383333333",
 		is_ai = 1,
 		progress_boss = 25,
@@ -119664,7 +119664,7 @@ end)()
 		name = "智和勇的序盤",
 		count = 0,
 		pop_pic = "",
-		act_id = 40142,
+		act_id = 40600,
 		pos_y = "0.392708333",
 		is_ai = 1,
 		progress_boss = 34,
@@ -120302,7 +120302,7 @@ end)()
 		name = "將上桂的王手",
 		count = 0,
 		pop_pic = "",
-		act_id = 40142,
+		act_id = 40600,
 		pos_y = "0.052083333",
 		is_ai = 1,
 		progress_boss = 34,
@@ -120911,7 +120911,7 @@ end)()
 		name = "王與玉的交鋒",
 		count = 0,
 		pop_pic = "",
-		act_id = 40142,
+		act_id = 40600,
 		pos_y = "0.344791667",
 		is_ai = 1,
 		progress_boss = 25,
@@ -121616,7 +121616,7 @@ end)()
 		name = "落日下的追尋",
 		count = 0,
 		pop_pic = "",
-		act_id = 40143,
+		act_id = 40601,
 		pos_y = "0.227083333",
 		is_ai = 1,
 		progress_boss = 25,
@@ -121813,7 +121813,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
 		win_condition = {
 			{
 				1,
@@ -122323,7 +122327,7 @@ end)()
 		name = "落幕後的曙光",
 		count = 0,
 		pop_pic = "",
-		act_id = 40143,
+		act_id = 40601,
 		pos_y = "0.052083333",
 		is_ai = 1,
 		progress_boss = 20,
@@ -122523,7 +122527,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -123075,7 +123083,7 @@ end)()
 		name = "被繼承的意志",
 		count = 0,
 		pop_pic = "",
-		act_id = 40143,
+		act_id = 40601,
 		pos_y = "0.383333333",
 		is_ai = 1,
 		progress_boss = 20,
@@ -123276,7 +123284,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -123801,7 +123813,7 @@ end)()
 		name = "蒼與紅的試煉",
 		count = 0,
 		pop_pic = "",
-		act_id = 40143,
+		act_id = 40601,
 		pos_y = "0.2979",
 		is_ai = 0,
 		progress_boss = 100,
@@ -313130,7 +313142,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.444791667",
 		is_ai = 0,
-		progress_boss = 50,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -313672,7 +313684,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.088541667",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -314271,7 +314283,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.367708333",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -314937,7 +314949,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.090625",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -315553,7 +315565,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.1125",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -316271,7 +316283,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.4",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
@@ -316984,7 +316996,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.444791667",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -317567,7 +317579,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.088541667",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -318207,7 +318219,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.367708333",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -318915,7 +318927,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.090625",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -319119,7 +319131,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
 		win_condition = {
 			{
 				1,
@@ -319573,7 +319589,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.1125",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
@@ -319777,7 +319793,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -320333,7 +320353,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.4",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
@@ -320537,7 +320557,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -321580,7 +321604,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.111458333",
 		is_ai = 1,
-		progress_boss = 50,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -322135,7 +322159,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.3446875",
 		is_ai = 1,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -322780,7 +322804,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.15",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -323448,7 +323472,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.073958",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -324134,7 +324158,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.347395833",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -325529,7 +325553,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.111458333",
 		is_ai = 1,
-		progress_boss = 50,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -326125,7 +326149,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.3446875",
 		is_ai = 1,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -326811,7 +326835,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.15",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -327010,7 +327034,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
 		win_condition = {
 			{
 				1,
@@ -327520,7 +327548,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.073958",
 		is_ai = 1,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
@@ -327721,7 +327749,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -328247,7 +328279,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.347395833",
 		is_ai = 1,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
@@ -328450,7 +328482,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -329149,7 +329185,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.402083333",
 		is_ai = 0,
-		progress_boss = 50,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -329703,7 +329739,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.123958333",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -330397,7 +330433,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.379166667",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -331058,7 +331094,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.10625",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -331837,7 +331873,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.3875",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -332411,7 +332447,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.430208333",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -332995,7 +333031,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.076041667",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -333632,7 +333668,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.254166667",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -334425,7 +334461,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.402083333",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -335020,7 +335056,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.123958333",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -335757,7 +335793,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.379166667",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -336459,7 +336495,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.10625",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -337279,7 +337315,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.3875",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -337481,7 +337517,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
 		win_condition = {
 			{
 				1,
@@ -337894,7 +337934,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.430208333",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -338096,7 +338136,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
 		win_condition = {
 			{
 				1,
@@ -338517,7 +338561,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.076041667",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -338719,7 +338763,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -339195,7 +339243,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.254166667",
 		is_ai = 0,
-		progress_boss = 17,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -339397,7 +339445,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -340614,7 +340666,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.052083333",
 		is_ai = 1,
-		progress_boss = 50,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -341257,7 +341309,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.344791667",
 		is_ai = 1,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -341991,7 +342043,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.227083333",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -342663,7 +342715,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.052083333",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -343476,7 +343528,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.383333333",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -345094,7 +345146,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.052083333",
 		is_ai = 1,
-		progress_boss = 50,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -345778,7 +345830,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.344791667",
 		is_ai = 1,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -346553,7 +346605,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.227083333",
 		is_ai = 1,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -346760,7 +346812,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
 		win_condition = {
 			{
 				1,
@@ -347266,7 +347322,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.052083333",
 		is_ai = 1,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
@@ -347473,7 +347529,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -348120,7 +348180,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.383333333",
 		is_ai = 1,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
@@ -348329,7 +348389,11 @@ end)()
 		submarine_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -349563,7 +349627,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.294791667",
 		is_ai = 0,
-		progress_boss = 42,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -350048,7 +350112,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.080208333",
 		is_ai = 0,
-		progress_boss = 28,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -350563,7 +350627,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.313541667",
 		is_ai = 0,
-		progress_boss = 35,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -351147,7 +351211,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.079166667",
 		is_ai = 0,
-		progress_boss = 28,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -351830,7 +351894,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.373958333",
 		is_ai = 0,
-		progress_boss = 22,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -352571,7 +352635,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.34375",
 		is_ai = 0,
-		progress_boss = 34,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -353265,7 +353329,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.070833333",
 		is_ai = 0,
-		progress_boss = 25,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -353972,7 +354036,7 @@ end)()
 		act_id = 100001,
 		pos_y = "0.221875",
 		is_ai = 0,
-		progress_boss = 20,
+		progress_boss = 100,
 		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,

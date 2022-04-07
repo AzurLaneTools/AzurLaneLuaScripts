@@ -33,4 +33,16 @@ function slot0.Remove(slot0)
 	slot0:RemoveTimer()
 end
 
+function slot0.Resume(slot0)
+	if slot0.timer then
+		slot0.timer:Resume()
+	end
+end
+
+function slot0.Puase(slot0)
+	if slot0.timer then
+		slot0.timer:Pause()
+	end
+end
+
 return slot0

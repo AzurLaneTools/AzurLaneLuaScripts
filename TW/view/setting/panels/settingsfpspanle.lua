@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnUpdate(slot0)
-	if PlayerPrefs.GetInt("fps_limit", 30) == 30 then
+	if PlayerPrefs.GetInt("fps_limit", DevicePerformanceUtil.GetDefaultFps()) == 30 then
 		triggerToggle(slot0.fps30Toggle, true)
 	end
 

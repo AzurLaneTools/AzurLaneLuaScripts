@@ -32,7 +32,17 @@ function slot0.OnInit(slot0)
 	slot0.amazonUnlinkBtn = findTF(slot5, "unlink_amazon")
 	slot0.amazonLinkSign = findTF(slot5, "amazon_status")
 
-	setActive(slot5, false)
+	setButtonEnabled(slot0.amazonUnlinkBtn, false)
+	setText(findTF(slot0.amazonUnlinkBtn, "Text"), i18n("amazon_unlink_btn_text"))
+	setActive(slot5, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
+
+	slot6 = findTF(slot0.accountTwitterUI, "btn_layout/yostar_con")
+	slot0.yostarBtn = findTF(slot6, "bind_yostar")
+	slot0.yostarUnlinkBtn = findTF(slot6, "unlink_yostar")
+	slot0.yostarLinkSign = findTF(slot6, "yostar_status")
+
+	setButtonEnabled(slot0.yostarUnlinkBtn, false)
+	setText(findTF(slot0.yostarUnlinkBtn, "Text"), i18n("yostar_unlink_btn_text"))
 
 	slot0.transcodeUI = findTF(slot1, "page2")
 	slot0.uidTxt = findTF(slot0.transcodeUI, "account_name/Text")
@@ -69,6 +79,12 @@ function slot0.OnRegisterEvent(slot0)
 		setActive(uv0.accountTwitterUI, false)
 		setActive(uv0.transcodeUI, true)
 	end)
+	onButton(slot0, slot0.amazonBtn, function ()
+		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_AMAZON)
+	end)
+	onButton(slot0, slot0.yostarBtn, function ()
+		pg.m02:sendNotification(NewSettingsMediator.OPEN_YOSTAR_ALERT_VIEW)
+	end)
 end
 
 function slot0.OnUpdate(slot0)
@@ -80,6 +96,7 @@ function slot0.checkAllAccountState(slot0)
 	slot0:checkAccountTwitterView()
 	slot0:checkAccountAppleView()
 	slot0:checkAccountAmazonView()
+	slot0:checkAccountYostarView()
 end
 
 function slot0.showTranscode(slot0, slot1)
@@ -138,6 +155,18 @@ function slot0.checkAccountAmazonView(slot0)
 		if slot1 then
 			setText(slot0.amazonLinkSign, i18n("amazon_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_AMAZON)))
 		end
+	end
+end
+
+function slot0.checkAccountYostarView(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_YOSTAR)
+
+	setActive(slot0.yostarUnlinkBtn, slot1)
+	setActive(slot0.yostarLinkSign, slot1)
+	setActive(slot0.yostarBtn, not slot1)
+
+	if slot1 then
+		setText(slot0.yostarLinkSign, i18n("yostar_link_title"))
 	end
 end
 

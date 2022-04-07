@@ -24,7 +24,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	getProxy(SettingsProxy):Reset()
-	print("disconnect from server...-" .. tostring(slot2.code))
+	originalPrint("disconnect from server...-" .. tostring(slot2.code))
 	pg.ConnectionMgr.GetInstance():Disconnect()
 
 	BillboardMediator.time = nil

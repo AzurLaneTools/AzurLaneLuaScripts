@@ -1,0 +1,23 @@
+slot0 = class("CourtYardConst")
+slot0.SYSTEM_DEFAULT = 1
+slot0.SYSTEM_VISIT = 2
+slot0.DEPTH_TYPE_MAT = 0
+slot0.DEPTH_TYPE_SHIP = 1
+slot0.DEPTH_TYPE_FURNITURE = 2
+slot0.BELONG_FLOOR = 1
+slot0.BELONG_WALL = 2
+slot0.MAX_STOREY_LEVEL = 3
+slot0.OPEN_AREA_PRE_LEVEL = 4
+slot0.BACKYARD_RED = Color.New(1, 0.294, 0.08)
+slot0.BACKYARD_GREEN = Color.New(0.48, 1, 0.03)
+slot0.BACKYARD_BLUE = Color.New(0.3, 0.63, 0.95)
+slot0.OBJ_TYPE_SHIP = 1
+slot0.OBJ_TYPE_COMMOM = 2
+slot0.OBJ_TYPE_SPINE = 3
+slot0.MAP_SIZE = Vector4(24, 24, 0, 0)
+slot0.OUT_MAP_SIZE = Vector4(32, 32, 0, 0)
+slot0.SHIP_SCALE = 0.5
+slot0.SHIP_TYPE_SELF = 1
+slot0.SHIP_TYPE_OTHER = 2
+
+return slot0

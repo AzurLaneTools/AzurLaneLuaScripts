@@ -121,7 +121,7 @@ function slot6.InitJoystick(slot0)
 	slot1 = uv0.JOY_STICK_DEFAULT_PREFERENCE
 	slot2 = slot0._joystick
 
-	if Screen.dpi / CameraUtil.finalWidth * 5 <= 0 then
+	if Screen.dpi / CameraMgr.instance.finalWidth * 5 <= 0 then
 		slot3 = 1
 	end
 

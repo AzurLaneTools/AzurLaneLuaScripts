@@ -220,4 +220,44 @@ function slot0.addUsedEmojiIcon(slot0, slot1)
 	slot0:saveUsedEmojiIcon()
 end
 
+function slot0.GetAllTypeChatMessages(slot0, slot1)
+	slot2 = {}
+
+	if not getProxy(ChatProxy) then
+		return
+	end
+
+	_.each(slot3:getRawData(), function (slot0)
+		table.insert(uv0, slot0)
+	end)
+
+	if getProxy(GuildProxy):getRawData() then
+		_.each(slot4:getChatMsgs(), function (slot0)
+			table.insert(uv0, slot0)
+		end)
+	end
+
+	slot5 = getProxy(FriendProxy)
+
+	_.each(slot5:getCacheMsgList(), function (slot0)
+		table.insert(uv0, slot0)
+	end)
+
+	slot6 = _(slot2)
+	slot6 = slot6:chain()
+	slot6 = slot6:filter(function (slot0)
+		return not uv0:isInBlackList(slot0.playerId)
+	end)
+	slot6 = slot6:sort(function (slot0, slot1)
+		return slot0.timestamp < slot1.timestamp
+	end)
+	slot6 = NotificationLayer.ChannelBits.recv
+	slot7 = bit.lshift(1, ChatConst.ChannelAll)
+	slot2 = _.filter(slot6:value(), function (slot0)
+		return uv0 == uv1 or bit.band(uv0, bit.lshift(1, slot0.type)) > 0
+	end)
+
+	return _.slice(slot2, #slot2 - slot1 + 1, slot1)
+end
+
 return slot0

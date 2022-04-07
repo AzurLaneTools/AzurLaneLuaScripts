@@ -13,8 +13,16 @@ function slot0.execute(slot0, slot1)
 
 				return
 			elseif uv0.type == DROP_TYPE_EQUIP and uv0.template.shipId ~= nil then
+				slot3, slot4 = ShipStatus.ShipStatusCheck("onModify", getProxy(BayProxy):getShipById(uv0.template.shipId))
+
+				if not slot3 then
+					pg.TipsMgr.GetInstance():ShowTips(slot4)
+
+					return
+				end
+
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("equipment_upgrade_feedback_equipment_consume", getProxy(BayProxy):getShipById(uv0.template.shipId):getName(), uv0.template:getConfig("name")),
+					content = i18n("equipment_upgrade_feedback_equipment_consume", slot2:getName(), uv0.template:getConfig("name")),
 					onYes = slot0
 				})
 

@@ -24,7 +24,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.startBtn, function ()
 		uv0:emit(RivalInfoMediator.START_BATTLE)
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 	slot0:initRivalInfo()
 end
 

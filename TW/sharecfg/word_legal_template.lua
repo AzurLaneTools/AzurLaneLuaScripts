@@ -1523,6 +1523,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["聲"] = {
+			["望"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -1935,6 +1940,9 @@ function temp()
 			this = true
 		},
 		["春"] = {
+			this = true
+		},
+		["波"] = {
 			this = true
 		}
 	}
@@ -4790,6 +4798,26 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["花"] = {
+		["月"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["土"] = {
+		["佐"] = {
+			this = true
 		}
 	}
 end

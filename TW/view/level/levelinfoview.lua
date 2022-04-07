@@ -463,7 +463,7 @@ function slot0.getChapterAwards(slot0)
 end
 
 function slot0.initTestShowDrop(slot0, slot1, slot2)
-	if Application.isEditor then
+	if IsUnityEditor then
 		if IsNil(pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")) then
 			slot4 = GameObject.New("button_test_show_drop")
 
@@ -493,7 +493,7 @@ function slot0.initTestShowDrop(slot0, slot1, slot2)
 end
 
 function slot0.clearTestShowDrop(slot0)
-	if Application.isEditor and not IsNil(pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")) then
+	if IsUnityEditor and not IsNil(pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")) then
 		Destroy(slot2)
 	end
 end

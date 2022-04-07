@@ -302,8 +302,9 @@ slot0.PLAYER_SUB_BUBBLE_INTERVAL = 3
 slot0.MONSTER_SUB_KAMIKAZE_DUAL_K = 50
 slot0.MONSTER_SUB_KAMIKAZE_DUAL_P = 0.15
 slot0.BATTLE_SHADER = {
-	SEMI_TRANSPARENT = "assets/artresource/shader/unlit_colored_semitransparent.shader",
-	GRID_TRANSPARENT = "assets/artresource/shader/Skeleton-Colored_Additive.shader"
+	SEMI_TRANSPARENT = "M02/Unlit_Colored_Semitransparent",
+	GRID_TRANSPARENT = "M02/Skeleton Colored_Additive",
+	COLORED_ALPHA = "M02/Unlit Colored_Alpha"
 }
 slot0.BATTLE_DODGEM_STAGES = {
 	1140101,

@@ -1049,7 +1049,7 @@ function slot0.AddDebugInput(slot0)
 		return
 	end
 
-	slot1 = Application.isEditor and Input.GetKeyDown(KeyCode.Space) and slot0.playerController and slot0.playerController:useSpecial()
+	slot1 = IsUnityEditor and Input.GetKeyDown(KeyCode.Space) and slot0.playerController and slot0.playerController:useSpecial()
 end
 
 function slot0.CheckGet(slot0)

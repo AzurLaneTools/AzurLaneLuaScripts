@@ -1,3 +1,13 @@
+slot0 = {
+	"指揮官，新解鎖了喵窩功能，快來看看吧",
+	"把指揮喵放入空置的喵窩中後，會隨著時間自動獲得經驗",
+	"喵窩解鎖及0點刷新後放入未互動過的指揮喵可以進行互動，指揮官來試試吧",
+	"清掃會增加喵窩經驗，一次清掃對所有喵窩生效，進行互動的指揮喵越多，獲得的喵窩總經驗越多。",
+	"餵食會增加喵窩經驗與指揮喵經驗，一次餵食對所有喵窩生效，進行互動的指揮喵越多，獲得的收益越多。",
+	"逗喵會加喵窩經驗並有機率獲得喵箱訓練加速道具與傢俱幣，進行互動的指揮喵越多，獲得的總獎勵越多",
+	"點擊這裡可以查看具體的幫助訊息！要加油哦！拜拜~"
+}
+
 return {
 	id = "NG0029",
 	events = {
@@ -7,11 +17,11 @@ return {
 				1
 			},
 			style = {
-				text = "指揮官，新解鎖了喵窩功能，快來看看吧",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/right_panel/commanders/box/home",
@@ -30,11 +40,11 @@ return {
 				2
 			},
 			style = {
-				text = "指揮官，新解鎖了喵窩功能，快來看看吧",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/right_panel/commanders/box/home",
@@ -56,11 +66,11 @@ return {
 				}
 			},
 			style = {
-				text = "把指揮喵放入空置的喵窩中後，會隨著時間自動獲得經驗",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 41.84
+				posX = 41.84,
+				text = slot0[2]
 			}
 		},
 		{
@@ -105,11 +115,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "喵窩解鎖及0點刷新後放入未互動過的指揮喵可以進行互動，指揮官來試試吧",
+				dir = -1,
 				mode = 1,
 				posY = 245.9,
-				dir = -1,
 				posX = -382.13,
+				text = slot0[3],
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble"
 				}
@@ -118,11 +128,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "清掃會增加喵窩經驗，一次清掃對所有喵窩生效，進行互動的指揮喵越多，獲得的喵窩總經驗越多。",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/clean",
@@ -139,11 +149,11 @@ return {
 			alpha = 0.4,
 			delay = 2,
 			style = {
-				text = "餵食會增加喵窩經驗與指揮喵經驗，一次餵食對所有喵窩生效，進行互動的指揮喵越多，獲得的收益越多。",
+				dir = -1,
 				mode = 1,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/feed",
@@ -166,11 +176,11 @@ return {
 				}
 			},
 			style = {
-				text = "逗喵會加喵窩經驗並有機率獲得喵箱訓練加速道具與傢俱幣，進行互動的指揮喵越多，獲得的總獎勵越多",
+				dir = -1,
 				mode = 1,
 				posY = 122.14,
-				dir = -1,
-				posX = -340.6
+				posX = -340.6,
+				text = slot0[6]
 			}
 		},
 		{
@@ -198,11 +208,11 @@ return {
 				2
 			},
 			style = {
-				text = "點擊這裡可以查看具體的幫助訊息！要加油哦！拜拜~",
+				dir = -1,
 				mode = 1,
 				posY = -200,
-				dir = -1,
-				posX = -500
+				posX = -500,
+				text = slot0[7]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/left_panel/help_btn",
@@ -217,11 +227,11 @@ return {
 				1
 			},
 			style = {
-				text = "點擊這裡可以查看具體的幫助訊息！要加油哦！拜拜~",
+				dir = -1,
 				mode = 1,
 				posY = -200,
-				dir = -1,
-				posX = -500
+				posX = -500,
+				text = slot0[7]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/left_panel/help_btn",

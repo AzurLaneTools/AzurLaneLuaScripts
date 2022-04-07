@@ -39,7 +39,7 @@ function slot2.MakeBloodBar(slot0, slot1)
 	slot2 = nil
 
 	slot1:AddHPBar((not slot1:GetUnitData():IsPlayerAircraft() or slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleHPBarManager.HP_BAR_FRIENDLY)) and slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleHPBarManager.HP_BAR_FOE))
-	slot1:UpdateHPBarPostition()
+	slot1:UpdateHPBarPosition()
 end
 
 function slot2.SetHPBarWidth(slot0, slot1, slot2)

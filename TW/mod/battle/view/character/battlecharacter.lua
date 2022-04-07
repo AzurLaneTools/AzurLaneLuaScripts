@@ -31,7 +31,9 @@ function slot5.Init(slot0)
 	slot0._alwaysHideArrow = false
 	slot0._hideHP = false
 	slot0._referenceVector = Vector3.zero
+	slot0._referenceVectorCache = Vector3.zero
 	slot0._referenceVectorTemp = Vector3.zero
+	slot0._referenceUpdateFlag = false
 	slot0._referenceVectorBorn = nil
 	slot0._hpBarPos = Vector3.zero
 	slot0._arrowVector = Vector3.zero
@@ -198,7 +200,7 @@ function slot5.RemoveBlink(slot0, slot1)
 end
 
 function slot5.AddShaderColor(slot0, slot1)
-	slot0:GetTf():GetComponent(typeof(Renderer)).material:SetColor("_Color", slot1 or Color.New(0, 0, 0, 0))
+	SpineAnim.AddShaderColor(slot0._go, slot1 or Color.New(0, 0, 0, 0))
 end
 
 function slot5.GetPosition(slot0)
@@ -312,7 +314,12 @@ function slot5.Update(slot0)
 	slot0:UpdateHPPop()
 	slot0:UpdateAniEffect(slot1)
 	slot0:UpdateTagEffect(slot1)
-	slot0:UpdateHPBarPostition()
+
+	if slot0._referenceUpdateFlag then
+		slot0:UpdateHPBarPosition()
+		slot0:UpdateHPPopContainerPosition()
+	end
+
 	slot0:UpdateChatPosition()
 	slot0:UpdateHpBar()
 	slot0:updateSomkeFX()
@@ -475,7 +482,7 @@ function slot5.updateInvisible(slot0, slot1, slot2, slot3)
 		slot0:SwitchShader(uv0.GetInstance():GetShader(slot2), slot3)
 		slot0._animator:ChangeRenderQueue(2999)
 	else
-		slot0:SwitchShader()
+		slot0:SwitchShader(uv0.GetInstance():GetShader("COLORED_ALPHA"))
 		slot0._animator:ChangeRenderQueue(3000)
 	end
 
@@ -546,15 +553,9 @@ function slot5.spineSemiTransparentFade(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		slot0 = uv0._go:GetComponent(typeof(Renderer)).material
+		uv1 = uv1 or 0
 
-		if not uv1 or uv1 == 0 then
-			slot0:SetFloat("_Invisible", uv2)
-		else
-			LeanTween.value(uv0._go, uv3, uv2, uv1):setOnUpdate(System.Action_float(function (slot0)
-				uv0:SetFloat("_Invisible", slot0)
-			end))
-		end
+		SpineAnim.ShaderTransparentFade(uv0._go, uv2, uv3, uv1, "_Invisible")
 	end, 0.06)
 end
 
@@ -602,6 +603,11 @@ function slot5.UpdatePosition(slot0)
 	end
 
 	slot1 = slot0._unitData:GetPosition()
+
+	if slot0._unitData:GetSpeed() == Vector3.zero and slot0._characterPos == slot1 then
+		return
+	end
+
 	slot0._characterPos = slot1
 	slot0._tf.localPosition = slot1
 end
@@ -618,19 +624,18 @@ function slot5.UpdateUIComponentPosition(slot0)
 	uv0.Battle.BattleVariable.CameraPosToUICameraByRef(slot0._referenceVector)
 
 	slot0._referenceVector.z = 10
+	slot0._referenceUpdateFlag = not slot0._referenceVector:Equals(slot0._referenceVectorCache)
 
-	if slot0._unitData:GetBornPosition() then
-		if not slot0._referenceVectorBorn then
-			slot0._referenceVectorBorn = Vector3.New(slot2.x, slot2.y, slot2.z)
-		else
-			slot0._referenceVectorBorn:Set(slot2.x, slot2.y, slot2.z)
-		end
-
-		uv0.Battle.BattleVariable.CameraPosToUICameraByRef(slot0._referenceVectorBorn)
+	if slot0._referenceUpdateFlag then
+		slot0._referenceVectorCache:Copy(slot0._referenceVector)
 	end
 end
 
-function slot5.UpdateHPBarPostition(slot0)
+function slot5.UpdateHPPopContainerPosition(slot0)
+	slot0._hpPopContainerTF.position = slot0._referenceVector
+end
+
+function slot5.UpdateHPBarPosition(slot0)
 	if not slot0._hideHP then
 		slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
 
@@ -649,9 +654,6 @@ function slot5.SetBarHidden(slot0, slot1, slot2)
 			slot0._arrowBarTf.position = slot0._arrowVector
 		end
 	end
-end
-
-function slot5.SetSkeletonAutoCalcComplex(slot0, slot1)
 end
 
 function slot5.UpdateCastClockPosition(slot0)
@@ -724,6 +726,16 @@ function slot5.Dispose(slot0)
 		LeanTween.cancel(slot0._popGO)
 	end
 
+	if slot0._popNumBundle then
+		slot0._hpPopContainerTF = nil
+
+		slot0._popNumBundle:Clear()
+
+		slot0._popNumBundle = nil
+	end
+
+	slot0._popNumPool = nil
+
 	LeanTween.cancel(slot0._go)
 	Object.Destroy(slot0._popGO)
 
@@ -748,7 +760,6 @@ function slot5.Dispose(slot0)
 	slot0._popGO = nil
 	slot0._popTF = nil
 	slot0._cacheWeapon = nil
-	slot0._popNumPool = nil
 
 	for slot4, slot5 in pairs(slot0._allFX) do
 		uv0.GetInstance():DestroyOb(slot4)
@@ -776,7 +787,13 @@ function slot5.Dispose(slot0)
 	slot0._HPBarTf = nil
 	slot0._arrowBar = nil
 	slot0._arrowBarTf = nil
-	slot0._animator = nil
+
+	if slot0._animator then
+		slot0._animator:ClearOverrideMaterial()
+
+		slot0._animator = nil
+	end
+
 	slot0._skeleton = nil
 	slot0._posMatrix = nil
 	slot0._shockFX = nil
@@ -873,6 +890,8 @@ function slot5.AddPopNumPool(slot0, slot1)
 	slot0._hpPopIndex_get = 1
 	slot0._hpPopCount = 0
 	slot0._hpPopCatch = {}
+	slot0._popNumBundle = slot0._popNumPool:GetBundle(slot0._unitData:GetUnitType())
+	slot0._hpPopContainerTF = slot0._popNumBundle:GetContainer().transform
 end
 
 function slot5.AddArrowBar(slot0, slot1)
@@ -916,7 +935,7 @@ end
 
 function slot5.AddCloakBar(slot0, slot1)
 	slot0._cloakBarTf = slot1.transform
-	slot0._cloakBar = uv0.Battle.BattleCloakBar.New(slot1.transform)
+	slot0._cloakBar = uv0.Battle.BattleCloakBar.New(slot0._cloakBarTf)
 
 	slot0._cloakBar:ConfigCloak(slot0._unitData:GetCloak())
 	slot0._cloakBar:UpdateCloakProgress()
@@ -1010,7 +1029,7 @@ function slot5.UpdateHPPop(slot0)
 end
 
 function slot5._PlayHPPop(slot0, slot1)
-	slot8 = slot0._popNumPool:GetPop(slot1.isHeal, slot1.isCri, slot1.isMiss, slot1.dHP, slot1.font)
+	slot8 = slot0._popNumBundle:GetPop(slot1.isHeal, slot1.isCri, slot1.isMiss, slot1.dHP, slot1.font)
 
 	slot8:SetReferenceCharacter(slot0, slot1.posOffset or Vector3.zero)
 	slot8:Play()
@@ -1025,7 +1044,7 @@ function slot5._CalcHPPopCount(slot0)
 end
 
 function slot5.onUpdateScore(slot0, slot1)
-	slot3 = slot0._popNumPool:GetScorePop(slot1.Data.score)
+	slot3 = slot0._popNumBundle:GetScorePop(slot1.Data.score)
 
 	slot3:SetReferenceCharacter(slot0, Vector3.zero)
 	slot3:Play()
@@ -1172,8 +1191,6 @@ function slot5.SwitchShader(slot0, slot1, slot2)
 
 	if slot1 then
 		slot0._animator:ShiftShader(slot1, slot2)
-	else
-		slot0._animator:ClearOverrideMaterial()
 	end
 end
 

@@ -4419,93 +4419,196 @@ pg.activity_ins_template = {
 	[208] = {
 		ship_group = 60106,
 		name = "Captain.Da.Recco",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_208",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_208.jpg",
+		is_active = 0,
 		sculpture = "daleike",
 		id = 208,
 		group_id = 208,
 		order = 11,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				24
+			},
+			{
+				13,
+				28,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1827,
+			1831
+		}
 	},
 	[209] = {
 		ship_group = 60501,
 		name = "VV_Veneto",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_209",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ns_209.jpg",
+		is_active = 0,
 		sculpture = "weineituo",
 		id = 209,
 		group_id = 209,
 		order = 11,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				25
+			},
+			{
+				10,
+				9,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1835,
+			1838,
+			1840,
+			1842
+		}
 	},
 	[210] = {
 		ship_group = 60201,
 		name = "C_Abruzzi",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_210",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_210.jpg",
+		is_active = 0,
 		sculpture = "abuluqi",
 		id = 210,
 		group_id = 210,
 		order = 11,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				26
+			},
+			{
+				15,
+				23,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1845,
+			1848,
+			1850
+		}
 	},
 	[211] = {
 		ship_group = 60701,
 		name = "Aquila",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_211",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_211.jpg",
+		is_active = 0,
 		sculpture = "tianying",
 		id = 211,
 		group_id = 211,
 		order = 11,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				27
+			},
+			{
+				14,
+				42,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1853,
+			1856
+		}
 	},
 	[212] = {
 		ship_group = 60801,
 		name = "Torricelli",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_212",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_212.jpg",
+		is_active = 0,
 		sculpture = "tuolichaili",
 		id = 212,
 		group_id = 212,
 		order = 11,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				28
+			},
+			{
+				18,
+				52,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1861,
+			1863,
+			1866
+		}
 	},
 	[213] = {
 		ship_group = 60104,
 		name = "Maestrale",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_213",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_213.jpg",
+		is_active = 0,
 		sculpture = "xibeifeng",
 		id = 213,
 		group_id = 213,
 		order = 11,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				29
+			},
+			{
+				16,
+				35,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1869,
+			1872
+		}
 	},
 	[214] = {
 		ship_group = 60105,
 		name = "Libeccio",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_214",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_214.jpg",
+		is_active = 0,
 		sculpture = "xinanfeng",
 		id = 214,
 		group_id = 214,
 		order = 11,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				3,
+				30
+			},
+			{
+				20,
+				26,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1877,
+			1879,
+			1881
+		}
 	},
 	[235] = {
 		ship_group = 1070004,

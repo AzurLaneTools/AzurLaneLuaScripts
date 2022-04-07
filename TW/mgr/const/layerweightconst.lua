@@ -1,8 +1,10 @@
 LayerWeightConst = {
 	OVERLAY_UI_MAIN = "overlay_ui_main",
 	OVERLAY_UI_ADAPT = "overlay_ui_adapt",
+	OVERLAY_UI_TOP = "overlay_ui_top",
 	UI_TYPE_SYSTEM = "type_system",
 	UI_TYPE_SUB = "type_sub",
+	UI_TYPE_OVERLAY_FOREVER = "type_overlay_forever",
 	LOWER_LAYER = 50,
 	BASE_LAYER = 100,
 	SECOND_LAYER = 200,

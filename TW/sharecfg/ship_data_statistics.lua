@@ -87529,6 +87529,506 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[204041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小聲望",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 204040,
+		english_name = "HMS Renown",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 204041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1040,
+			65,
+			0,
+			57,
+			0,
+			56,
+			0,
+			22,
+			10,
+			32.58,
+			85,
+			0
+		},
+		attrs_growth = {
+			28563,
+			844,
+			0,
+			1218,
+			0,
+			391,
+			0,
+			360,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Renown-Class",
+			"special"
+		}
+	},
+	[204042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小聲望",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 204040,
+		english_name = "HMS Renown",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 204042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1294,
+			81,
+			0,
+			71,
+			0,
+			56,
+			0,
+			22,
+			10,
+			32.58,
+			85,
+			0
+		},
+		attrs_growth = {
+			28563,
+			844,
+			0,
+			1218,
+			0,
+			391,
+			0,
+			360,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Renown-Class",
+			"special"
+		}
+	},
+	[204043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小聲望",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 204040,
+		english_name = "HMS Renown",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 204043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1801,
+			113,
+			0,
+			99,
+			0,
+			56,
+			0,
+			22,
+			10,
+			32.58,
+			85,
+			0
+		},
+		attrs_growth = {
+			28563,
+			844,
+			0,
+			1218,
+			0,
+			391,
+			0,
+			360,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Renown-Class",
+			"special"
+		}
+	},
+	[204044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小聲望",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 204040,
+		english_name = "HMS Renown",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 204044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2562,
+			161,
+			0,
+			141,
+			0,
+			56,
+			0,
+			22,
+			10,
+			32.58,
+			85,
+			0
+		},
+		attrs_growth = {
+			28563,
+			844,
+			0,
+			1218,
+			0,
+			391,
+			0,
+			360,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Renown-Class",
+			"special"
+		}
+	},
 	[205011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -122432,6 +122932,998 @@ pg.ship_data_statistics = {
 			"pupu"
 		}
 	},
+	[301821] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "花月",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301820,
+		english_name = "IJN Hanazuki",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301821,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			394,
+			14,
+			70,
+			37,
+			0,
+			77,
+			0,
+			66,
+			67,
+			39.6,
+			65,
+			49
+		},
+		attrs_growth = {
+			11226,
+			198,
+			897,
+			813,
+			0,
+			538,
+			0,
+			1013,
+			1226,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Akizuki-Class"
+		}
+	},
+	[301822] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "花月",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301820,
+		english_name = "IJN Hanazuki",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301822,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			490,
+			18,
+			87,
+			46,
+			0,
+			77,
+			0,
+			66,
+			67,
+			39.6,
+			65,
+			61
+		},
+		attrs_growth = {
+			11226,
+			198,
+			897,
+			813,
+			0,
+			538,
+			0,
+			1013,
+			1226,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Akizuki-Class"
+		}
+	},
+	[301823] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "花月",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301820,
+		english_name = "IJN Hanazuki",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301823,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			682,
+			25,
+			122,
+			64,
+			0,
+			77,
+			0,
+			66,
+			67,
+			39.6,
+			65,
+			85
+		},
+		attrs_growth = {
+			11226,
+			198,
+			897,
+			813,
+			0,
+			538,
+			0,
+			1013,
+			1226,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Akizuki-Class"
+		}
+	},
+	[301824] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "花月",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301820,
+		english_name = "IJN Hanazuki",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301824,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			971,
+			35,
+			174,
+			92,
+			0,
+			77,
+			0,
+			66,
+			67,
+			39.6,
+			65,
+			122
+		},
+		attrs_growth = {
+			11226,
+			198,
+			897,
+			813,
+			0,
+			538,
+			0,
+			1013,
+			1226,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Akizuki-Class"
+		}
+	},
+	[301831] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "長波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301830,
+		english_name = "IJN Naganami",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301831,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			348,
+			12,
+			102,
+			29,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			55,
+			47
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1222,
+			634,
+			0,
+			548,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	},
+	[301832] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "長波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301830,
+		english_name = "IJN Naganami",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301832,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			433,
+			15,
+			127,
+			36,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			55,
+			59
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1222,
+			634,
+			0,
+			548,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.4,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	},
+	[301833] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "長波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301830,
+		english_name = "IJN Naganami",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301833,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			602,
+			21,
+			178,
+			50,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			55,
+			82
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1222,
+			634,
+			0,
+			548,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	},
+	[301834] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "長波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301830,
+		english_name = "IJN Naganami",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301834,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			857,
+			30,
+			254,
+			72,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			55,
+			117
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1222,
+			634,
+			0,
+			548,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.55,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	},
 	[301841] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -143264,6 +144756,502 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Tosa-Class",
 			"Kaga"
+		}
+	},
+	[305081] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "土佐",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305080,
+		english_name = "IJN Tosa",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305081,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1335,
+			81,
+			40,
+			37,
+			0,
+			53,
+			0,
+			22,
+			7,
+			26.5,
+			12,
+			0
+		},
+		attrs_growth = {
+			36231,
+			999,
+			554,
+			813,
+			0,
+			370,
+			0,
+			383,
+			234,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tosa-Class",
+			"Tosa"
+		}
+	},
+	[305082] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "土佐",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305080,
+		english_name = "IJN Tosa",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305082,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1661,
+			101,
+			50,
+			46,
+			0,
+			53,
+			0,
+			22,
+			7,
+			26.5,
+			12,
+			0
+		},
+		attrs_growth = {
+			36231,
+			999,
+			554,
+			813,
+			0,
+			370,
+			0,
+			383,
+			234,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tosa-Class",
+			"Tosa"
+		}
+	},
+	[305083] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "土佐",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305080,
+		english_name = "IJN Tosa",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305083,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2312,
+			141,
+			70,
+			64,
+			0,
+			53,
+			0,
+			22,
+			7,
+			26.5,
+			12,
+			0
+		},
+		attrs_growth = {
+			36231,
+			999,
+			554,
+			813,
+			0,
+			370,
+			0,
+			383,
+			234,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tosa-Class",
+			"Tosa"
+		}
+	},
+	[305084] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "土佐",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305080,
+		english_name = "IJN Tosa",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305084,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3289,
+			201,
+			99,
+			92,
+			0,
+			53,
+			0,
+			22,
+			7,
+			26.5,
+			12,
+			0
+		},
+		attrs_growth = {
+			36231,
+			999,
+			554,
+			813,
+			0,
+			370,
+			0,
+			383,
+			234,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tosa-Class",
+			"Tosa"
 		}
 	},
 	[305111] = {
@@ -245454,122 +247442,6 @@ pg.ship_data_statistics = {
 			"Universal-Bulin"
 		}
 	},
-	[900313] = {
-		raid_distance = 0,
-		oxy_max = 0,
-		name = "試作型布里MKII",
-		type = 1,
-		oxy_cost = 0,
-		skin_id = 900313,
-		english_name = "UNIV Trial Bulin MKII",
-		attack_duration = 0,
-		star = 5,
-		oxy_recovery = 0,
-		backyard_speed = "0.3",
-		rarity = 5,
-		nationality = 0,
-		oxy_recovery_bench = 0,
-		ammo = 0,
-		is_character = 0,
-		armor_type = 1,
-		huntingrange_level = 0,
-		id = 900313,
-		summon_offset = 0,
-		scale = 100,
-		attrs = {
-			175643,
-			50,
-			45,
-			133,
-			0,
-			64,
-			0,
-			46,
-			10,
-			28.4,
-			65,
-			0
-		},
-		attrs_growth = {
-			15110,
-			312,
-			0,
-			1168,
-			0,
-			340,
-			0,
-			888,
-			414,
-			0,
-			0,
-			262
-		},
-		attrs_growth_extra = {
-			3778,
-			738,
-			0,
-			597,
-			0,
-			800,
-			0,
-			0,
-			426,
-			0,
-			0,
-			353
-		},
-		lock = {},
-		cld_box = {
-			4,
-			5,
-			5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		fix_equip_list = {},
-		default_equip_list = {},
-		depth_charge_list = {
-			141
-		},
-		base_list = {
-			1,
-			2,
-			2
-		},
-		parallel_max = {
-			1,
-			1,
-			1
-		},
-		preload_count = {
-			0,
-			1,
-			0
-		},
-		equipment_proficiency = {
-			1,
-			1,
-			1
-		},
-		strategy_list = {},
-		hunting_range = {
-			{}
-		},
-		tag_list = {}
-	},
 	[900314] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -245691,6 +247563,122 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Trial-Bulin-MKII"
 		}
+	},
+	[900324] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "试作型布里MKII",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 900324,
+		english_name = "UNIV Trial Bulin MKII",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900324,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
 	},
 	[900907] = {
 		raid_distance = 0,
@@ -269775,6 +271763,10 @@ pg.ship_data_statistics = {
 		204032,
 		204033,
 		204034,
+		204041,
+		204042,
+		204043,
+		204044,
 		205011,
 		205012,
 		205013,
@@ -270056,6 +272048,14 @@ pg.ship_data_statistics = {
 		301812,
 		301813,
 		301814,
+		301821,
+		301822,
+		301823,
+		301824,
+		301831,
+		301832,
+		301833,
+		301834,
 		301841,
 		301842,
 		301843,
@@ -270222,6 +272222,10 @@ pg.ship_data_statistics = {
 		305072,
 		305073,
 		305074,
+		305081,
+		305082,
+		305083,
+		305084,
 		305111,
 		305112,
 		305113,
@@ -270971,8 +272975,8 @@ pg.ship_data_statistics = {
 		900310,
 		900311,
 		900312,
-		900313,
 		900314,
+		900324,
 		900907,
 		900908,
 		900909,

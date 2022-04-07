@@ -3,28 +3,46 @@ slot0 = pg
 slot0.SceneMgr = singletonClass("SceneMgr")
 slot1 = slot0.SceneMgr
 
+function slot1.Ctor(slot0)
+	slot0._cacheUI = {}
+	slot0._gcLimit = 3
+	slot0._gcCounter = 0
+end
+
 function slot1.prepare(slot0, slot1, slot2, slot3)
-	slot4 = slot2.viewComponent.New()
+	slot5 = slot2.viewComponent
+	slot6, slot7 = nil
 
-	slot4:setContextData(slot2.data)
+	if slot0._cacheUI[slot2.mediator.__cname] ~= nil then
+		slot0._cacheUI[slot4.__cname] = nil
+		slot6 = slot4.New(slot0._cacheUI[slot4.__cname])
 
-	slot5 = nil
-
-	function slot5()
-		uv0.event:disconnect(BaseUI.LOADED, uv1)
-
-		slot0 = uv2.mediator.New(uv0)
-
-		slot0:setContextData(uv2.data)
-		uv3:registerMediator(slot0)
-		uv4(slot0)
-	end
-
-	if slot4:isLoaded() then
-		slot5()
+		slot6:setContextData(slot2.data)
+		slot1:registerMediator(slot6)
+		slot3(slot6)
 	else
-		slot4.event:connect(BaseUI.LOADED, slot5)
-		slot4:load()
+		slot7 = slot5.New()
+
+		slot7:setContextData(slot2.data)
+
+		slot8 = nil
+
+		function slot8()
+			uv0.event:disconnect(BaseUI.LOADED, uv1)
+
+			uv2 = uv3.New(uv0)
+
+			uv2:setContextData(uv4.data)
+			uv5:registerMediator(uv2)
+			uv6(uv2)
+		end
+
+		if slot7:isLoaded() then
+			slot8()
+		else
+			slot7.event:connect(BaseUI.LOADED, slot8)
+			slot7:load()
+		end
 	end
 end
 
@@ -34,7 +52,7 @@ function slot1.prepareLayer(slot0, slot1, slot2, slot3, slot4)
 
 	if slot2 ~= nil then
 		if slot2:getContextByMediator(slot3.mediator) then
-			print("mediator already exist: " .. slot3.mediator.__cname)
+			originalPrint("mediator already exist: " .. slot3.mediator.__cname)
 			slot4(slot6)
 
 			return
@@ -79,7 +97,10 @@ function slot1.enter(slot0, slot1, slot2)
 	slot3 = #slot1
 
 	for slot7, slot8 in ipairs(slot1) do
-		slot9 = slot8.viewComponent
+		if slot8.viewComponent._isCachedView then
+			slot9:setVisible(true)
+		end
+
 		slot10 = nil
 
 		slot9.event:connect(BaseUI.AVALIBLE, function ()
@@ -124,7 +145,7 @@ function slot1.removeLayer(slot0, slot1, slot2, slot3)
 
 		table.insert(slot6, function (slot0)
 			if uv0 then
-				uv1:remove(uv0:getViewComponent(), function ()
+				uv1:remove(uv0, function ()
 					uv0:onContextRemoved()
 					uv1()
 				end)
@@ -171,28 +192,51 @@ function slot1.removeLayerMediator(slot0, slot1, slot2, slot3)
 	slot3(slot6)
 end
 
-function slot1.remove(slot0, slot1, slot2)
-	slot3 = nil
+function slot1.remove(slot0, slot1, slot2, slot3)
+	slot4 = slot1:getViewComponent()
 
-	function slot3()
-		uv0.event:disconnect(BaseUI.DID_EXIT, uv1)
-		uv0.event:clear()
-		uv2:gc(uv0)
-		uv3()
+	if slot0._cacheUI[slot1.__cname] ~= nil and slot5 ~= slot4 then
+		slot5.event:clear()
+		slot0:gc(slot5)
 	end
 
-	if slot1 == nil then
+	if slot4 == nil then
+		slot2()
+	elseif slot4:needCache() and not slot3 then
+		slot4:setVisible(false)
+
+		slot0._cacheUI[slot1.__cname] = slot4
+		slot4._isCachedView = true
+
 		slot2()
 	else
-		slot1.event:connect(BaseUI.DID_EXIT, slot3)
-		slot1:exit()
+		slot4._isCachedView = false
+
+		slot4.event:connect(BaseUI.DID_EXIT, function ()
+			uv0.event:clear()
+			uv1:gc(uv0)
+			uv2()
+		end)
+		slot4:exit()
 	end
 end
 
 function slot1.gc(slot0, slot1)
+	slot2 = slot1:forceGC()
+
 	table.clear(slot1)
 
 	slot1.exited = true
 
-	gcAll()
+	if not GCThread.GetInstance().running then
+		slot0._gcCounter = slot0._gcCounter + 1
+
+		if slot0._gcLimit <= slot0._gcCounter or slot2 then
+			slot0._gcCounter = 0
+
+			gcAll(false)
+		else
+			GCThread.GetInstance():LuaGC(false)
+		end
+	end
 end

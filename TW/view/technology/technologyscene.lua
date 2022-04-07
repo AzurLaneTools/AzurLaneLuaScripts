@@ -4,6 +4,10 @@ function slot0.getUIName(slot0)
 	return "TechnologyUI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.setTechnologys(slot0, slot1)
 	slot0.technologyVOs = slot1
 end
@@ -14,10 +18,6 @@ end
 
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
-
-	if slot0._resPanel then
-		slot0._resPanel:setResources(slot1)
-	end
 end
 
 function slot0.updateSettingsBtn(slot0)
@@ -150,10 +150,6 @@ function slot0.init(slot0)
 	slot0.techTimer = {}
 	slot0.refreshTimer = {}
 	slot0.cardtimer = {}
-	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/playerRes")
-	slot0._resPanel = PlayerResource.New()
-
-	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
 end
 
 function slot0.didEnter(slot0)
@@ -195,7 +191,6 @@ function slot0.didEnter(slot0)
 		uv0:cancelSelected()
 	end, SFX_PANEL)
 	slot0:updateRefreshBtn(slot0.flag)
-	slot0._resPanel:setResources(slot0.player)
 	slot0:updateSettingsBtn()
 end
 

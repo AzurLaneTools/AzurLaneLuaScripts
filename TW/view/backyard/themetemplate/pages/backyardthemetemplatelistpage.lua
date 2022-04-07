@@ -1,6 +1,10 @@
 slot0 = class("BackYardThemeTemplateListPage", import("...Shop.pages.BackYardThemePage"))
 slot0.nextClickRefreshTime = 0
 
+function slot0.getUIName(slot0)
+	return "BackYardThemeTemplateThemePage"
+end
+
 function slot0.LoadDetail(slot0)
 	setActive(slot0:findTF("adpter/descript"), false)
 end
@@ -15,6 +19,7 @@ function slot0.OnInit(slot0)
 		slot0:findTF("tip3")
 	}
 	slot0.goBtn = slot0:findTF("go_btn")
+	slot0.helpBtn = slot0:findTF("adpter/help")
 	slot1 = slot0:findTF("preview_raw")
 	slot0.rawImage = slot1:GetComponent(typeof(RawImage))
 	slot0.listRect = slot0:findTF("adpter/list")
@@ -24,7 +29,6 @@ function slot0.OnInit(slot0)
 
 	slot0.refreshBtns = slot0:findTF("refresh_btns")
 
-	setActive(slot0.refreshBtns, true)
 	setText(slot0.refreshBtns:Find("random/Text"), i18n("word_random"))
 	setText(slot0.refreshBtns:Find("hot/Text"), i18n("word_hot"))
 	setText(slot0.refreshBtns:Find("new/Text"), i18n("word_new"))
@@ -54,7 +58,6 @@ function slot0.OnInit(slot0)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot0.helpBtn, true)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -122,16 +125,10 @@ function slot0.UpdateArr(slot0)
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		setActive(slot0.arrLeftBtnShop, getProxy(DormProxy).PAGE > 1)
 		setActive(slot0.arrRightBtnShop, slot1 < getProxy(DormProxy).lastPages[getProxy(DormProxy).TYPE] or not getProxy(DormProxy).ClickPage)
-		setActive(slot0.arrLeftBtn, false)
-		setActive(slot0.arrRightBtn, false)
 	elseif slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
-		setActive(slot0.arrLeftBtn, false)
-		setActive(slot0.arrRightBtn, false)
 		setActive(slot0.arrLeftBtnShop, false)
 		setActive(slot0.arrRightBtnShop, false)
 	else
-		setActive(slot0.arrLeftBtn, true)
-		setActive(slot0.arrRightBtn, true)
 		setActive(slot0.arrLeftBtnShop, false)
 		setActive(slot0.arrRightBtnShop, false)
 	end
@@ -378,6 +375,9 @@ function slot0.Flush(slot0, slot1)
 
 	slot0:InitThemeList()
 	slot0:UpdateArr()
+
+	slot0.card = nil
+
 	onNextTick(function ()
 		uv0:ForceActiveFirstCard()
 	end)
@@ -461,6 +461,7 @@ function slot0.OnCardClick(slot0, slot1)
 				uv0.rawImage.texture = slot0
 
 				setActive(uv0.rawImage.gameObject, true)
+				uv0.rawImage:SetNativeSize()
 			end
 		end)
 		uv0.descPages:ExecuteAction("SetUp", uv0.pageType, uv1.template, uv0.dorm, uv0.player)
@@ -490,6 +491,12 @@ function slot0.OnDestroy(slot0)
 	slot0.contextData.infoPage:Destroy()
 	slot0.contextData.furnitureMsgBox:Destroy()
 	slot0.contextData.themeMsgBox:Destroy()
+
+	if not IsNil(slot0.rawImage.texture) then
+		Object.Destroy(slot0.rawImage.texture)
+
+		slot0.rawImage.texture = nil
+	end
 end
 
 return slot0

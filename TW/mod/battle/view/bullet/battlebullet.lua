@@ -12,29 +12,37 @@ function slot4.Ctor(slot0)
 	uv1.EventListener.AttachEventListener(slot0)
 
 	slot0.resMgr = uv1.Battle.BattleResourceManager.GetInstance()
-	slot0._oldSpeed = Vector3.zero
-	slot0._curSpeed = Vector3.zero
+	slot0._cacheSpeed = Vector3.zero
+	slot0._calcSpeed = Vector3.zero
+	slot0._cacheTFPos = Vector3.zero
 end
 
 function slot4.Update(slot0, slot1)
 	slot2 = slot0._bulletData:GetSpeed()
 
-	slot0._curSpeed:Set(slot2.x, slot2.y, slot2.z)
+	slot0._calcSpeed:Set(slot2.x, slot2.y, slot2.z)
 
 	if slot0._bulletData:GetVerticalSpeed() ~= 0 then
-		slot0._curSpeed.y = slot0._curSpeed.y + slot3
+		slot0._calcSpeed.y = slot0._calcSpeed.y + slot3
 	end
 
-	if slot0._oldSpeed ~= slot0._curSpeed then
-		slot0._rotateScript:SetSpeed(slot0._curSpeed)
-		slot0._oldSpeed:Set(slot0._curSpeed.x, slot0._curSpeed.y, slot0._curSpeed.z)
+	if slot0._cacheSpeed ~= slot0._calcSpeed then
+		slot0._rotateScript:SetSpeed(slot0._calcSpeed)
+		slot0._cacheSpeed:Set(slot0._calcSpeed.x, slot0._calcSpeed.y, slot0._calcSpeed.z)
 	end
 
-	slot0:UpdatePosition()
+	if math.abs(slot0._calcSpeed.x) >= 0.01 or math.abs(slot0._calcSpeed.z) >= 0.01 or math.abs(slot0._calcSpeed.y) >= 0.01 then
+		slot0:UpdatePosition()
+	elseif math.abs(slot0._cacheTFPos.x - slot0:GetPosition().x) >= 0.1 or math.abs(slot0._cacheTFPos.z - slot4.z) >= 0.1 or math.abs(slot0._cacheTFPos.y - slot4.y) >= 0.1 then
+		slot0:UpdatePosition()
+	end
 end
 
 function slot4.UpdatePosition(slot0)
-	slot0._tf.localPosition = slot0:GetPosition()
+	slot1 = slot0:GetPosition()
+	slot0._tf.localPosition = slot1
+
+	slot0._cacheTFPos:Set(slot1.x, slot1.y, slot1.z)
 end
 
 function slot4.DoOutRange(slot0)

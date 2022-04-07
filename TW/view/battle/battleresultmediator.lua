@@ -294,12 +294,12 @@ function slot0.register(slot0)
 		end
 	end
 
-	print("耗时：", slot0.contextData.statistics._totalTime, "秒")
-	print("编队基础油耗：", slot9)
+	originalPrint("耗时：", slot0.contextData.statistics._totalTime, "秒")
+	originalPrint("编队基础油耗：", slot9)
 
 	if slot0.contextData.statistics._enemyInfoList then
 		for slot13, slot14 in pairs(slot0.contextData.statistics._enemyInfoList) do
-			print("目标ID>>", slot14.id, "<< 受到伤害共 >>", slot14.damage, "<< 点")
+			originalPrint("目标ID>>", slot14.id, "<< 受到伤害共 >>", slot14.damage, "<< 点")
 		end
 	end
 

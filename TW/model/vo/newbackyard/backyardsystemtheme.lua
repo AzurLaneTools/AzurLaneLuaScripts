@@ -10,7 +10,7 @@ end
 function slot0.GetRawPutList(slot0)
 	slot0:CheckLevel()
 
-	slot1 = getProxy(DormProxy):getData().level
+	slot1 = getProxy(DormProxy):getRawData().level
 
 	if not slot0.putInfo then
 		pcall(function ()
@@ -26,7 +26,7 @@ function slot0.GetRawPutList(slot0)
 end
 
 function slot0.CheckLevel(slot0)
-	if slot0.level ~= getProxy(DormProxy):getData().level then
+	if slot0.level ~= getProxy(DormProxy):getRawData().level then
 		slot0.furnitruesByIds = nil
 		slot0.furnitures = nil
 		slot0.putInfo = nil
@@ -38,7 +38,7 @@ function slot0.GetAllFurniture(slot0)
 	slot0:CheckLevel()
 	uv0.super.GetAllFurniture(slot0)
 
-	if not slot0.furnitruesByIds and slot0:HasSameConfigId() then
+	if not slot0.furnitruesByIds then
 		slot0:CheckData()
 	end
 
@@ -49,18 +49,6 @@ function slot0.GetWarpFurnitures(slot0)
 	slot0:CheckLevel()
 
 	return uv0.super.GetWarpFurnitures(slot0)
-end
-
-function slot0.HasSameConfigId(slot0)
-	for slot5, slot6 in ipairs(slot0:GetWarpFurnitures()) do
-		for slot10, slot11 in ipairs(slot1) do
-			if slot5 ~= slot10 and slot6.id == slot11.id then
-				return true
-			end
-		end
-	end
-
-	return false
 end
 
 function slot0.CheckData(slot0)
@@ -85,21 +73,25 @@ function slot0.CheckData(slot0)
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot2) do
-		slot0.furnitruesByIds[slot8] = nil
+	slot4 = #slot2 > 0 or #slot3 > 0
+
+	for slot8, slot9 in ipairs(slot2) do
+		slot0.furnitruesByIds[slot9] = nil
 	end
 
-	for slot7, slot8 in pairs(slot3) do
-		if slot0.furnitruesByIds[slot8.pid] then
-			for slot13, slot14 in pairs(slot9.child) do
-				if slot13 == slot8.id then
-					slot9.child[slot8.id] = nil
+	for slot8, slot9 in pairs(slot3) do
+		if slot0.furnitruesByIds[slot9.pid] then
+			for slot14, slot15 in pairs(slot10.child) do
+				if slot14 == slot9.id then
+					slot10.child[slot9.id] = nil
 
 					break
 				end
 			end
 		end
 	end
+
+	return slot4
 end
 
 function slot0.bindConfigTable(slot0)
@@ -107,10 +99,10 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.IsOverTime(slot0)
+	slot1 = pg.furniture_shop_template
+
 	return _.all(slot0:getConfig("ids"), function (slot0)
-		return not Furniture.New({
-			id = slot0
-		}):IsShopType() or not slot1:inTime()
+		return not uv0[slot0] or not pg.TimeMgr.GetInstance():inTime(uv0[slot0].time)
 	end)
 end
 

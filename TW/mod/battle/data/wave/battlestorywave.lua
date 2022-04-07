@@ -18,27 +18,35 @@ function slot1.DoWave(slot0)
 	uv0.super.DoWave(slot0)
 
 	slot1 = true
+	slot2 = false
 
-	if slot0._param.progress then
-		if not getProxy(ChapterProxy):getActiveChapter() then
-			slot1 = false
-		elseif math.min(slot2.progress + slot2:getConfig("progress_boss"), 100) < slot0._param.progress then
+	if uv1.Battle.BattleDataProxy.GetInstance():GetInitData().battleType == SYSTEM_SCENARIO then
+		if getProxy(ChapterProxy):getActiveChapter(true) then
+			slot2 = slot4:IsAutoFight() or slot2
+		end
+
+		if slot0._param.progress then
+			if not slot4 then
+				slot1 = false
+			elseif math.min(slot4.progress + slot4:getConfig("progress_boss"), 100) < slot0._param.progress then
+				slot1 = false
+			end
+		end
+
+		if slot4 and getProxy(ChapterProxy):getMapById(slot4:getConfig("map")) and slot5:getRemaster() then
 			slot1 = false
 		end
 	end
 
 	if slot1 then
 		pg.MsgboxMgr.GetInstance():hide()
-
-		slot4 = getProxy(ChapterProxy) and slot3:getActiveChapter()
-
 		ChapterOpCommand.PlayChapterStory(slot0._storyID, function (slot0, slot1)
 			if slot0 then
 				uv0:doFail(slot1)
 			else
 				uv0:doPass(slot1)
 			end
-		end, slot4 and slot4:IsAutoFight())
+		end, slot2)
 		gcAll()
 	else
 		slot0:doPass()

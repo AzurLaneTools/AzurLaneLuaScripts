@@ -30,7 +30,7 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 	end
 
 	if slot1 == TRACKING_USER_LEVELUP then
-		print("tracking lvl:" .. slot3)
+		originalPrint("tracking lvl:" .. slot3)
 
 		slot5 = AiriUserEvent.New(slot4)
 
@@ -43,7 +43,7 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 		slot5:AddParam("user_id", slot2)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	elseif slot1 == TRACKING_PURCHASE_FIRST then
-		print("order id : " .. slot3)
+		originalPrint("order id : " .. slot3)
 
 		slot5 = AiriUserEvent.New(slot4)
 
@@ -86,7 +86,7 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 		YS2S.S2S(uv0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 	end
 
-	print("track done.")
+	originalPrint("track done.")
 end
 
 function slot0.YS_S2S(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
@@ -123,12 +123,12 @@ function slot0.YS_S2S(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		slot9 = slot9 .. slot14 .. "=" .. slot15 .. "&"
 	end
 
-	print(slot9)
+	originalPrint(slot9)
 
 	slot12 = VersionMgr.Inst
 
 	slot12:WebRequest(string.sub(slot9, 1, -2), function (slot0, slot1)
-		print("code:" .. slot0 .. " content:" .. slot1)
+		originalPrint("code:" .. slot0 .. " content:" .. slot1)
 	end)
 end
 

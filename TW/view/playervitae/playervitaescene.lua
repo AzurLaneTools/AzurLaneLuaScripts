@@ -51,15 +51,17 @@ function slot0.init(slot0)
 	slot0.painting = slot0:findTF("adapt/paint")
 	slot0.switchSkinBtn = slot0:findTF("adapt/swichSkin_btn")
 	slot0.replaceBtn = slot0:findTF("adapt/replace_btn")
-	slot1 = slot0:findTF("adapt/tpl")
+	slot1 = slot0:findTF("detail")
+	slot0.detailCg = GetOrAddComponent(slot1, typeof(CanvasGroup))
+	slot2 = slot0:findTF("adapt/tpl")
 	slot0.btns = {
-		PlayerVitaeSpineBtn.New(slot1),
-		PlayerVitaeBGBtn.New(slot1),
-		PlayerVitaeBMGBtn.New(slot1),
-		PlayerVitaeLive2dBtn.New(slot1)
+		PlayerVitaeSpineBtn.New(slot2),
+		PlayerVitaeBGBtn.New(slot2),
+		PlayerVitaeBMGBtn.New(slot2),
+		PlayerVitaeLive2dBtn.New(slot2)
 	}
 	slot0.shipsPage = PlayerVitaeShipsPage.New(slot0._tf, slot0.event)
-	slot0.detailPage = PlayerVitaeDetailPage.New(slot0.mainViewCg.gameObject, slot0.event, slot0.contextData)
+	slot0.detailPage = PlayerVitaeDetailPage.New(slot1, slot0.event, slot0.contextData)
 	slot0.contextData.renamePage = PlayerVitaeRenamePage.New(slot0._tf, slot0.event)
 	slot0.topFrame = slot0:findTF("top/frame")
 
@@ -134,6 +136,8 @@ end
 function slot0.ShowOrHideMainView(slot0, slot1)
 	slot0.mainViewCg.alpha = slot1 and 1 or 0
 	slot0.mainViewCg.blocksRaycasts = slot1
+	slot0.detailCg.alpha = slot1 and 1 or 0
+	slot0.detailCg.blocksRaycasts = slot1
 
 	if slot1 then
 		slot0:UpdatePainting()

@@ -36,8 +36,6 @@ function slot0.Show(slot0, slot1, slot2)
 		if uv1 then
 			uv1(slot0)
 		end
-
-		uv0:Hide()
 	end, SFX_PANEL)
 end
 

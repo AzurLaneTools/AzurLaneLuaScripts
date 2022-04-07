@@ -1,3 +1,11 @@
+slot0 = {
+	"接下來我們的任務是支援白鷹航空艦隊的作戰演習    請點擊<color=#ff7d36>出擊</color>",
+	"索敵結果顯示了大黃蜂可能出現的位置，讓我們朝著目標點前進吧~",
+	"哎呀~規避失敗啦，只能硬著頭皮上啦！",
+	"<color=#ff7d36>艦隊的總機動值將影響規避的結果</color>，如果機動值不足，很容易出現規避失敗的情況噢",
+	"點擊<color=#ff7d36>出擊</color>進行戰鬥！    出擊需要<color=#ff7d36>消耗石油，消耗值取決於出戰角色</color>"
+}
+
 return {
 	id = "S008",
 	events = {
@@ -5,14 +13,14 @@ return {
 			alpha = 0.491,
 			code = 2,
 			style = {
-				text = "接下來我們的任務是支援白鷹航空艦隊的作戰演習    請點擊<color=#ff7d36>出擊</color>",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,11 +34,11 @@ return {
 		{
 			alpha = 0.406,
 			style = {
-				text = "索敵結果顯示了大黃蜂可能出現的位置，讓我們朝著目標點前進吧~",
+				dir = 1,
 				mode = 2,
 				posY = -351,
-				dir = 1,
-				posX = -257
+				posX = -257,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
@@ -52,32 +60,32 @@ return {
 			alpha = 0.346,
 			code = 1,
 			style = {
-				text = "哎呀~規避失敗啦，只能硬著頭皮上啦！",
+				dir = 1,
 				mode = 2,
 				posY = -295,
-				dir = 1,
-				posX = -297
+				posX = -297,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.361,
 			code = 1,
 			style = {
-				text = "<color=#ff7d36>艦隊的總機動值將影響規避的結果</color>，如果機動值不足，很容易出現規避失敗的情況噢",
+				dir = 1,
 				mode = 2,
 				posY = -295,
-				dir = 1,
-				posX = -297
+				posX = -297,
+				text = slot0[4]
 			}
 		},
 		{
 			alpha = 0.409,
 			style = {
-				text = "點擊<color=#ff7d36>出擊</color>進行戰鬥！    出擊需要<color=#ff7d36>消耗石油，消耗值取決於出戰角色</color>",
+				dir = 1,
 				mode = 2,
 				posY = -68.93,
-				dir = 1,
-				posX = 241.87
+				posX = 241.87,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/right/start",

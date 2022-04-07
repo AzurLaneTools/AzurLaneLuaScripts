@@ -14,12 +14,6 @@ return {
 			end
 
 			return false
-		end,
-		UpdateButton = function (slot0, slot1)
-			setActive(slot1, true)
-			onButton(slot0, slot1, function ()
-				uv0:emit(MainUIMediator.GO_SINGLE_ACTIVITY, ActivityConst.DOA_PT_ID)
-			end, SFX_PANEL)
 		end
 	},
 	CurrentIconList = {

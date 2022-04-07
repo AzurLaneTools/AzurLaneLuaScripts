@@ -253,3 +253,11 @@ function table.shallowCopy(slot0)
 
 	return slot1
 end
+
+function table.getIndex(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0) do
+		if slot1(slot6) then
+			return slot5
+		end
+	end
+end

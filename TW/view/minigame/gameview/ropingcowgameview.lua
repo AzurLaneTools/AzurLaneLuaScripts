@@ -747,7 +747,7 @@ function slot0.AddDebugInput(slot0)
 		return
 	end
 
-	if Application.isEditor and Input.GetKeyDown(KeyCode.S) and slot0._playerController then
+	if IsUnityEditor and Input.GetKeyDown(KeyCode.S) and slot0._playerController then
 		slot0._playerController:throw()
 	end
 end

@@ -64,9 +64,6 @@ function slot0.register(slot0)
 		end
 
 		uv0.boxUsageCount = slot0.usage_count or 0
-		uv0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("CommanderProxy", 0, 10, function ()
-			uv0:notification()
-		end)
 
 		if not LOCK_CATTERY then
 			uv0:sendNotification(GAME.GET_COMMANDER_HOME)
@@ -154,7 +151,9 @@ end
 function slot0.addCommander(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 
-	slot0:sendNotification(uv0.COMMANDER_ADDED, slot1:clone())
+	if getProxy(PlayerProxy):getInited() then
+		slot0:sendNotification(uv0.COMMANDER_ADDED, slot1:clone())
+	end
 end
 
 function slot0.updateCommander(slot0, slot1)
@@ -179,12 +178,6 @@ function slot0.checkPrefabFleet(slot0, slot1)
 	end
 end
 
-function slot0.notification(slot0)
-	if slot0:haveFinishedBox() then
-		slot0:sendNotification(uv0.COMMANDER_BOX_FINISHED)
-	end
-end
-
 function slot0.haveFinishedBox(slot0)
 	for slot4, slot5 in pairs(slot0.boxes) do
 		if slot5:getState() == CommanderBox.STATE_FINISHED then
@@ -196,10 +189,6 @@ function slot0.haveFinishedBox(slot0)
 end
 
 function slot0.onRemove(slot0)
-	if slot0._mainUITimer then
-		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
-	end
-
 	slot0:RemoveCalcExpTimer()
 	uv0.super.onRemove(slot0)
 

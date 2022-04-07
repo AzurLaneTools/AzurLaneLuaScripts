@@ -5,32 +5,37 @@ slot1 = slot0.ShaderMgr
 
 function slot0.ShaderMgr.Init(slot0, slot1)
 	print("initializing shader manager...")
-	ResourceMgr.Inst:loadAssetBundleAsync("shader", function (slot0)
-		uv0.shaders = slot0
-
-		uv1()
+	parallelAsync({
+		function (slot0)
+			ResourceMgr.Inst:LoadShaderAndCached("shader", slot0, false, false)
+		end,
+		function (slot0)
+			ResourceMgr.Inst:LoadShaderAndCached("l2dshader", slot0, false, false)
+		end,
+		function (slot0)
+			ResourceMgr.Inst:LoadShaderAndCached("spineshader", slot0, false, false)
+		end,
+		function (slot0)
+			ResourceMgr.Inst:LoadShaderAndCached("spineshader2", slot0, false, false)
+		end
+	}, function ()
+		originalPrint("所有shader加载完成")
+		Shader.WarmupAllShaders()
+		uv0()
 	end)
 end
 
-function slot1.LoadShader(slot0, slot1, slot2, slot3)
-	if slot2 then
-		ResourceMgr.Inst:LoadAssetAsync(slot0.shaders, slot1, typeof(Shader), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			uv0(slot0)
-		end), false, false)
-	else
-		slot3(ResourceMgr.Inst:LoadAssetSync(slot0.shaders, slot1, typeof(Shader), false, false))
-	end
+function slot1.GetShader(slot0, slot1)
+	return ResourceMgr.Inst:GetShader(slot1)
 end
 
 function slot1.GetBlurMaterialSync(slot0)
 	if slot0.blurMaterial ~= nil then
 		return slot0.blurMaterial
 	else
-		slot0:LoadShader("MobileBlur", false, function (slot0)
-			uv0.blurMaterial = Material.New(slot0)
+		slot0.blurMaterial = Material.New(slot0:GetShader("Hidden/MobileBlur"))
 
-			uv0.blurMaterial:SetVector("_Parameter", Vector4.New(1, -1, 0, 0))
-		end)
+		slot0.blurMaterial:SetVector("_Parameter", Vector4.New(1, -1, 0, 0))
 
 		return slot0.blurMaterial
 	end
@@ -106,15 +111,13 @@ function slot1.BlurTexture(slot0, slot1)
 end
 
 function slot1.SetSpineUIOutline(slot0, slot1, slot2)
-	slot0:LoadShader("Unlit-Colored_Alpha_UI_Outline", false, function (slot0)
-		slot2 = Material.New(slot0)
+	slot5 = Material.New(slot0:GetShader("M02/Unlit Colored_Alpha_UI_Outline"))
 
-		slot2:SetColor("_OutlineColor", uv1)
-		slot2:SetFloat("_OutlineWidth", 5.75)
-		slot2:SetFloat("_ThresholdEnd", 0.2)
+	slot5:SetColor("_OutlineColor", slot2)
+	slot5:SetFloat("_OutlineWidth", 5.75)
+	slot5:SetFloat("_ThresholdEnd", 0.2)
 
-		GetComponent(uv0, "SkeletonGraphic").material = slot2
-	end)
+	GetComponent(slot1, "SkeletonGraphic").material = slot5
 end
 
 function slot1.DelSpineUIOutline(slot0, slot1)

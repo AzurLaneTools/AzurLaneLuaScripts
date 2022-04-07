@@ -1151,6 +1151,10 @@ _G.pg.gametip.battle_levelScene_lock = {
 	tip = "目標地圖尚未開放，請通關<color=#92fc63>前置關卡</color>"
 }
 
+_G.pg.gametip.battle_levelScene_lock_1 = {
+	tip = "該階段活動副本尚未開放"
+}
+
 _G.pg.gametip.battle_levelScene_hard_lock = {
 	tip = "目標地圖對應主線章節未通關，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
 }
@@ -9332,7 +9336,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "維托里奧·維內托、天鷹、西北風、西南風、尼科洛索·達‧雷科 建造機率UP！"
+	tip = "{namecode:81}、{namecode:161}、{namecode:29}、{namecode:185}、{namecode:144} 建造機率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -13464,8 +13468,24 @@ _G.pg.gametip.building_complete_tip = {
 	tip = "升級完成"
 }
 
+_G.pg.gametip.backyard_theme_refresh_time_tip = {
+	tip = "请勿频繁刷新"
+}
+
 _G.pg.gametip.backyard_theme_total_print = {
 	tip = "總價"
+}
+
+_G.pg.gametip.backyard_theme_word_buy = {
+	tip = "购买"
+}
+
+_G.pg.gametip.backyard_theme_word_apply = {
+	tip = "布置"
+}
+
+_G.pg.gametip.backyard_theme_apply_success = {
+	tip = "布置成功"
 }
 
 _G.pg.gametip.words_visit_backyard_toggle = {
@@ -17053,6 +17073,14 @@ _G.pg.gametip.fleet_select_title = {
 	tip = "艦隊選擇"
 }
 
+_G.pg.gametip.backyard_rename_title = {
+	tip = "請輸入名稱"
+}
+
+_G.pg.gametip.backyard_rename_tip = {
+	tip = "輸入後宅名稱"
+}
+
 _G.pg.gametip.equip_add = {
 	tip = "— 點擊添加裝備 —"
 }
@@ -17157,6 +17185,10 @@ _G.pg.gametip.tips_shakebeads = {
 
 _G.pg.gametip.gem_shop_xinzhi_tip = {
 	tip = "（本月已購買<color=#FF5C5CFF>$1</color>/15次）"
+}
+
+_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+	tip = "該傢俱無法旋轉"
 }
 
 _G.pg.gametip.chazi_tips = {
@@ -18324,4 +18356,68 @@ _G.pg.gametip.fur_all_buy = {
 
 _G.pg.gametip.fur_onekey_buy = {
 	tip = "購買整套"
+}
+
+_G.pg.gametip.backyard_food_shop_tip = {
+	tip = "需要花費："
+}
+
+_G.pg.gametip.dorm_2f_lock = {
+	tip = "未解鎖"
+}
+
+_G.pg.gametip.word_get_way = {
+	tip = "獲取方式："
+}
+
+_G.pg.gametip.word_get_date = {
+	tip = "獲取日期："
+}
+
+_G.pg.gametip.enter_theme_name = {
+	tip = "輸入主題名"
+}
+
+_G.pg.gametip.enter_extend_food_label = {
+	tip = "擴充"
+}
+
+_G.pg.gametip.backyard_extend_tip_1 = {
+	tip = "擴建需要消耗"
+}
+
+_G.pg.gametip.backyard_extend_tip_2 = {
+	tip = "個擴展許可證"
+}
+
+_G.pg.gametip.backyard_extend_tip_3 = {
+	tip = "剩餘擴展許可證："
+}
+
+_G.pg.gametip.backyard_extend_tip_4 = {
+	tip = " 個"
+}
+
+_G.pg.gametip.levelScene_remaster_story_tip = {
+	tip = "劇情「$1」已全部解鎖，可以前往回憶介面查看。"
+}
+
+_G.pg.gametip.levelScene_remaster_unlock_tip = {
+	tip = "※通關「作戰檔案」-$1 $2解鎖全部劇情"
+}
+
+_G.pg.gametip.level_remaster_tip1 = {
+	tip = "產出關卡："
+}
+
+_G.pg.gametip.level_remaster_tip2 = {
+	tip = "出擊"
+}
+
+_G.pg.gametip.level_remaster_tip3 = {
+	tip = "領取"
+}
+
+_G.pg.gametip.level_remaster_tip4 = {
+	tip = "擊破$1敵方旗艦次數"
 }

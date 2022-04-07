@@ -1,449 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
-	[201011] = {
-		ship_group = 20101,
-		name = "小小的管弦樂隊",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "107",
-		id = 201011,
-		group_index = 1,
-		prefab = "nvjiang_2",
-		painting = "nvjiang_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70102,
-		shop_type_id = 7,
-		air_bomb_skin = "",
-		illustrator = 15,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "說到宴會怎麼能少了管弦樂隊呢！我來負責組建一支由皇家的驅逐們構成的樂團吧！首先是…嗚哇哇哇，踩到斗篷了！",
-		voice_actor = 4,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.09,
-					1.11,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					1.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201019] = {
-		ship_group = 20101,
-		name = "女將.改",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201019,
-		group_index = 9,
-		prefab = "nvjiang_g",
-		painting = "nvjiang_g",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 15,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "知道選擇本小姐進行改造，還算你指揮官有點眼光~哼哼，做好心理準備吧，之後我會更加用心嚴格地“照顧”你這笨蛋指揮官的！",
-		voice_actor = 4,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.51,
-					1.23,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.02,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.57,
-					1.18,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.58,
-							2.11,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201020] = {
-		ship_group = 20102,
-		name = "阿卡司塔",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201020,
-		group_index = 0,
-		prefab = "akasita",
-		painting = "akasita",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 38,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "A級驅逐艦—阿卡司塔，舷號H09",
-		voice_actor = 110,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.83,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.83,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.08,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.83,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.58,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201021] = {
-		ship_group = 20102,
-		name = "外出模式",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201021,
-		group_index = 1,
-		prefab = "Akasita_2",
-		painting = "Akasita_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70066,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 38,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "啊，指揮官也要出門嗎？…不要用那種眼光看我嘛，我多少也是會出門的…順路的話…要一起嗎？",
-		voice_actor = 110,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.83,
-					1.229,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.8,
-					1.18,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.78,
-					1.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.58,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[201022] = {
 		ship_group = 20102,
 		name = "元宵燈會",
@@ -7588,6 +7144,604 @@ pg.ship_skin_template_5 = {
 						{
 							-0.39,
 							2.47,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202032] = {
+		ship_group = 20203,
+		name = "節日的“特別獎勵”",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "108",
+		id = 202032,
+		group_index = 2,
+		prefab = "ajiakesi_3",
+		painting = "ajiakesi_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70502,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 5,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "小豬仔，我可是傾盡心力為你準備了特~別的巧克力哦，呵呵~想要的話就過來拿吧——就在這裡哦~",
+		voice_actor = 34,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.173,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.198,
+					0.995,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.014,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.16,
+					1.002,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.47,
+							0
+						}
+					}
+				}
+			}
+		},
+		time = {
+			{
+				2021,
+				2,
+				14
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[202039] = {
+		ship_group = 20203,
+		name = "阿賈克斯.改",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202039,
+		group_index = 9,
+		prefab = "ajiakesi_g",
+		painting = "ajiakesi_g",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "看在我心情不錯的份上，今天就特別允許你舔我的腳好了。怎麼？還不快誠心誠意地感謝我的恩寵！",
+		voice_actor = 34,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.98,
+					0.82,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.98,
+					0.82,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.27,
+					0.21,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.98,
+					0.82,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.521,
+							0.29,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.431,
+							0.392,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202040] = {
+		ship_group = 20204,
+		name = "黛朵",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202040,
+		group_index = 0,
+		prefab = "daiduo",
+		painting = "daiduo",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "黛朵級輕巡洋艦—黛朵，舷號37 ",
+		voice_actor = 169,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.148,
+					0.936,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.19,
+					0.968,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.031,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.155,
+					0.919,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.558,
+							2.246,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
+	[202041] = {
+		ship_group = 20204,
+		name = "多愁的BIsqueDoll",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "135",
+		id = 202041,
+		group_index = 1,
+		prefab = "daiduo_2",
+		painting = "daiduo_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70374,
+		shop_type_id = 7,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "明明只是一介女僕，竟然想要換上華麗禮服站在主人身邊，黛朵竟然做出了這麼大膽的事…但是，但是，即使事後被主人責罰，黛朵也想…——呀？！主人！ ？",
+		voice_actor = 169,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.168,
+					1.041,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.144,
+					0.968,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.155,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.558,
+							2.246,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
+	[202070] = {
+		ship_group = 20207,
+		name = "南安普敦",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202070,
+		group_index = 0,
+		prefab = "nananpudun",
+		painting = "nananpudun",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "南安普敦級輕巡洋艦——南安普敦，舷號C83",
+		voice_actor = 187,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.47,
+					1.37,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.966,
+					1.004,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.991,
+					1.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.514,
+							2.394,
 							0
 						}
 					}

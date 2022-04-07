@@ -57,7 +57,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setUnreadMailCount(slot1.unread)
 	slot0.viewComponent:setMailCount(slot1.total)
 	slot0.viewComponent:setMailData(slot1:getMails())
-	slot0.viewComponent:updateMailList()
+	slot0.viewComponent:checkToggle()
 
 	if not slot1.init then
 		slot0:sendNotification(GAME.GET_MAIL_LIST, {

@@ -29,11 +29,11 @@ function slot0.Get(slot0, slot1, ...)
 end
 
 function EnterMultiWindow(slot0)
-	print(".......EnterMultiWindow")
+	originalPrint(".......EnterMultiWindow")
 end
 
 function ExitMultiWindow(slot0)
-	print(".......ExitMultiWindow")
+	originalPrint(".......ExitMultiWindow")
 end
 
 function slot0.InitSDK(slot0)
@@ -92,6 +92,10 @@ function slot0.OnAndoridBackPress(slot0)
 	slot0:Call("OnAndoridBackPress")
 end
 
+function slot0.DeleteAccount(slot0)
+	slot0:Call("DeleteAccount")
+end
+
 function slot0.GetChannelUID(slot0)
 	return slot0:Get("GetChannelUID")
 end
@@ -102,6 +106,26 @@ end
 
 function slot0.GetIsPlatform(slot0)
 	return slot0:Get("GetIsPlatform")
+end
+
+function slot0.EnterLoginScene(slot0)
+	slot0.inLoginScene = true
+end
+
+function slot0.ExitLoginScene(slot0)
+	slot0.inLoginScene = false
+end
+
+function slot0.IsInLoginScene(slot0)
+	return slot0.inLoginScene
+end
+
+function slot0.IsYunPackage(slot0)
+	return PLATFORM_CODE == PLATFORM_CH and slot0:GetChannelUID() == "yun"
+end
+
+function slot0.IsAUPackage(slot0)
+	return PLATFORM_CODE == PLATFORM_JP and slot0:GetChannelUID() == "2"
 end
 
 function slot0.GetYostarUid(slot0)
@@ -424,7 +448,7 @@ function InLoginScene()
 		return getProxy(UserProxy):GetLoginedFlag()
 	end
 
-	if getProxy(ContextProxy):getCurrentContext() and slot1.mediator == LoginMediator and not slot0() then
+	if pg.SdkMgr.GetInstance():IsInLoginScene() and not slot0() then
 		return true
 	end
 

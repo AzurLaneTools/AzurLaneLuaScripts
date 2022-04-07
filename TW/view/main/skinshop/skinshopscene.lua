@@ -19,8 +19,20 @@ slot3 = {
 	}
 }
 
+function slot0.forceGC(slot0)
+	return true
+end
+
 function slot0.getUIName(slot0)
 	return "SkinShopUI"
+end
+
+function slot0.ResUISettings(slot0)
+	return {
+		gemOffsetX = -400,
+		anim = true,
+		showType = PlayerResUI.TYPE_GEM
+	}
 end
 
 function slot0.setSkins(slot0, slot1)
@@ -41,12 +53,6 @@ end
 function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 	slot0.skinTicket = slot0.playerVO:getSkinTicket()
-
-	slot0._resPanel:setResources(slot1, {
-		false,
-		false,
-		true
-	})
 end
 
 function slot0.filterSkins(slot0)
@@ -97,11 +103,6 @@ function slot0.init(slot0)
 	slot0.bgType = false
 	slot0.defaultBg = slot0.bg1:GetComponent(typeof(Image)).sprite
 	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/playerRes")
-	slot0._resPanel = PlayerResource.New()
-
-	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
-
 	Input.multiTouchEnabled = false
 	slot0.viewMode = slot0.contextData.type or uv0.SHOP_TYPE_COMMON
 	slot0.hideObjToggleTF = slot0:findTF("hideObjToggle", slot0.rightPanel)
@@ -1152,10 +1153,6 @@ function slot0.willExit(slot0)
 	slot0.skinTimer = nil
 	slot0.contextData.key = nil
 	slot0.switchCnt = nil
-
-	slot0._resPanel:willExit()
-
-	slot0._resPanel = nil
 	slot0.contextData.skinId = nil
 end
 

@@ -1,17 +1,24 @@
+slot0 = {
+	"進入科研介面",
+	"現在解鎖了META研究室功能",
+	"通過與信標作戰可以獲取其同步值,累計同步值獲取豐厚獎勵",
+	"獎勵領取存在時間限制，過期後將消失，請指揮官注意時間"
+}
+
 return {
 	id = "NG0023",
 	events = {
 		{
 			alpha = 0.4,
 			style = {
-				text = "進入科研介面",
+				dir = 1,
 				mode = 2,
 				posY = -308.7,
-				dir = 1,
-				posX = 199.3
+				posX = 199.3,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/technologyButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/technologyButton",
 				triggerType = {
 					1
 				},
@@ -27,11 +34,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "現在解鎖了META研究室功能",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 286.9
+				posX = 286.9,
+				text = slot0[2]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/SelectTechnologyUI(Clone)/frame/bg/meta_btn",
@@ -51,21 +58,21 @@ return {
 			alpha = 0.4,
 			waitScene = "MetaCharacterScene",
 			style = {
-				text = "通過與信標作戰可以獲取其同步值,累計同步值獲取豐厚獎勵",
+				dir = 1,
 				mode = 1,
 				posY = -236.99,
-				dir = 1,
-				posX = -419.8
+				posX = -419.8,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "獎勵領取存在時間限制，過期後將消失，請指揮官注意時間",
+				dir = 1,
 				mode = 2,
 				posY = -236.99,
-				dir = 1,
 				posX = -419.8,
+				text = slot0[4],
 				ui = {
 					path = "UICamera/Canvas/UIMain/MetaCharacterUI(Clone)/HidePanel/ActTimeTip"
 				}

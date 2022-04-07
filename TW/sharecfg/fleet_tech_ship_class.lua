@@ -1162,6 +1162,7 @@ pg.fleet_tech_ship_class = {
 			30156,
 			30157,
 			30158,
+			30182,
 			30184
 		}
 	},
@@ -1189,6 +1190,7 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			30180,
+			30183,
 			30154
 		}
 	},
@@ -1398,7 +1400,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 96,
 		t_level = 7,
 		ships = {
-			30507
+			30507,
+			30508
 		}
 	},
 	[30505] = {

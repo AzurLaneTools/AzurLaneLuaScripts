@@ -1,14 +1,20 @@
+slot0 = {
+	"武器強化完畢！戰鬥力飛升！！",
+	"點擊返回按鈕退出角色詳情",
+	"點擊返回按鈕退出船塢"
+}
+
 return {
 	id = "S019",
 	events = {
 		{
 			alpha = 0,
 			style = {
-				text = "武器強化完畢！戰鬥力飛升！！",
+				dir = -1,
 				mode = 2,
 				posY = -301,
-				dir = -1,
-				posX = 422
+				posX = 422,
+				text = slot0[1]
 			},
 			ui = {
 				hideChildEvent = true,
@@ -42,11 +48,11 @@ return {
 		{
 			alpha = 0.344,
 			style = {
-				text = "點擊返回按鈕退出角色詳情",
+				dir = -1,
 				mode = 2,
 				posY = 211.84,
-				dir = -1,
-				posX = -105.86
+				posX = -105.86,
+				text = slot0[2]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
@@ -64,11 +70,11 @@ return {
 			alpha = 0.376,
 			waitScene = "DockyardScene",
 			style = {
-				text = "點擊返回按鈕退出船塢",
+				dir = -1,
 				mode = 2,
 				posY = 230.33,
-				dir = -1,
-				posX = -231.7
+				posX = -231.7,
+				text = slot0[3]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back",

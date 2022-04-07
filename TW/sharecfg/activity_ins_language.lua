@@ -7174,223 +7174,223 @@ pg.activity_ins_language = {
 		value = "論氣勢和意志，北方聯合不會輸任何人的！"
 	},
 	ins_208 = {
-		value = ""
+		value = "達雷科船長，新航路規劃中！"
 	},
 	ins_discuss_208_1 = {
-		value = ""
+		value = "這是在轉球玩嗎？好像很有趣！我也能轉轉嗎？"
 	},
 	ins_reply_208_1_1 = {
-		value = ""
+		value = "這是地球儀啦！我在看著地球儀規劃未來冒險的航路哦！"
 	},
 	ins_reply_208_1_2 = {
-		value = ""
+		value = "不過…這樣真的看得清嗎…？"
 	},
 	ins_reply_208_1_3 = {
-		value = ""
+		value = "達雷科船長自有特別的觀察技巧！"
 	},
 	ins_discuss_208_2 = {
-		value = ""
+		value = "未知的航路，代表著未知的冒險與財富，確實很讓人雀躍！"
 	},
 	ins_reply_208_2_1 = {
-		value = ""
+		value = "嘻嘻~不愧是德雷克，很懂嘛~"
 	},
 	ins_op_208_1_1 = {
-		value = ""
+		value = "真的不是在轉著玩？"
 	},
 	op_reply_208_1_1 = {
-		value = ""
+		value = "達雷科船長才沒那麼幼稚！"
 	},
 	ins_op_208_1_2 = {
-		value = ""
+		value = "下次再一起出海吧。"
 	},
 	op_reply_208_1_2 = {
-		value = ""
+		value = "嗯！"
 	},
 	ins_209 = {
-		value = ""
+		value = "拍出來的照片總是有些模糊…難道是相機壞了？"
 	},
 	ins_discuss_209_1 = {
-		value = ""
+		value = "也許是區區拍立得不足以將妳的美貌完全展示出來吧？"
 	},
 	ins_reply_209_1_1 = {
-		value = ""
+		value = "利托里奧，這個笑話有點冷…"
 	},
 	ins_reply_209_1_2 = {
-		value = ""
+		value = "哈哈，開開玩笑而已~"
 	},
 	ins_discuss_209_2 = {
-		value = ""
+		value = "維內托大人是在拍攝風景嗎？"
 	},
 	ins_reply_209_2_1 = {
-		value = ""
+		value = "是想把美麗的大海用照片的形式紀錄下來，不過似乎不太順利…"
 	},
 	ins_discuss_209_3 = {
-		value = ""
+		value = "影響成像效果的原因可能很多，要不要我回頭幫妳看看吧？"
 	},
 	ins_reply_209_3_1 = {
-		value = ""
+		value = "可以嗎？那就麻煩了！"
 	},
 	ins_discuss_209_4 = {
-		value = ""
+		value = "要不要試試三腳架？如果還是一直弄不好的話也可以來找我聊聊~"
 	},
 	ins_reply_209_4_1 = {
-		value = ""
+		value = "三腳架是嗎…我會試試的！"
 	},
 	ins_op_209_1_1 = {
-		value = ""
+		value = "我來幫妳拍吧？"
 	},
 	op_reply_209_1_1 = {
-		value = ""
+		value = "莫非指揮官有什麼特別的拍照秘訣？"
 	},
 	ins_210 = {
-		value = ""
+		value = "無論是用劍還是開瓶，都得保持薩丁貴族應有的風範才行。"
 	},
 	ins_discuss_210_1 = {
-		value = ""
+		value = "哇！？還能這麼開瓶的嗎？我也想學！"
 	},
 	ins_reply_210_1_1 = {
-		value = ""
+		value = "無論是開瓶還是飲酒，對妳都還太早了一些。"
 	},
 	ins_reply_210_1_2 = {
-		value = ""
+		value = "啊哈哈，但是看起來真的很有意思嘛~"
 	},
 	ins_discuss_210_2 = {
-		value = ""
+		value = "薩丁的赤紅之釀，確實名不虛傳。"
 	},
 	ins_reply_210_2_1 = {
-		value = ""
+		value = "下次再來開品酒會吧，隨時歡迎。"
 	},
 	ins_discuss_210_3 = {
-		value = ""
+		value = "有機會的話可以一起交流下劍術呢！"
 	},
 	ins_reply_210_3_1 = {
-		value = ""
+		value = "哦？能與鳶尾的伙伴們交流自然是好的，我很期待。"
 	},
 	ins_op_210_1_1 = {
-		value = ""
+		value = "不愧是阿布魯齊公爵"
 	},
 	op_reply_210_1_1 = {
-		value = ""
+		value = "過獎了。"
 	},
 	ins_211 = {
-		value = ""
+		value = "和鐵血夥伴的愉快下午茶~"
 	},
 	ins_discuss_211_1 = {
-		value = ""
+		value = "沒想到我也會有參加這種興高采烈的聚會的一天…"
 	},
 	ins_reply_211_1_1 = {
-		value = ""
+		value = "呵呵~精心準備的茶和點心沒有白費呢~下次再一起聊天吧~"
 	},
 	ins_reply_211_1_2 = {
-		value = ""
+		value = "茶和點心…確實都不錯。"
 	},
 	ins_discuss_211_2 = {
-		value = ""
+		value = "邀約，是認同的證明。高興一點也無妨。"
 	},
 	ins_reply_211_2_1 = {
-		value = ""
+		value = "哼，這種“愉快”的茶會，怎麼看都不適合我吧。"
 	},
 	ins_reply_211_2_2 = {
-		value = ""
+		value = "哎呀呀~Z46和齊柏林好像關係不錯？呵呵，下次來辦個三個人的小茶會吧~"
 	},
 	ins_reply_211_2_3 = {
-		value = ""
+		value = "…謝謝。"
 	},
 	ins_op_211_1_1 = {
-		value = ""
+		value = "令人不禁微笑的場面呢。"
 	},
 	op_reply_211_1_1 = {
-		value = ""
+		value = "和齊柏林聊天確實是一件很愉快的事情呢~"
 	},
 	ins_212 = {
-		value = ""
+		value = "唔呼呼…房間裡的蘑菇長出來了，可愛吧？"
 	},
 	ins_discuss_212_1 = {
-		value = ""
+		value = "這是…罐頭壞了？！"
 	},
 	ins_reply_212_1_1 = {
-		value = ""
+		value = "雖然很想吐槽回去…不過還是算了…這是我在房間裡培養的蘑菇…挺不錯的吧，呼呼…"
 	},
 	ins_discuss_212_2 = {
-		value = ""
+		value = "哇！這個能吃嗎？看起來好像很美味！"
 	},
 	ins_reply_212_2_1 = {
-		value = ""
+		value = "沒有毒，可以吃…大概，呼呼…要給你們一點嗎？"
 	},
 	ins_reply_212_2_2 = {
-		value = ""
+		value = "還、還是留著觀賞就好吧…！"
 	},
 	ins_discuss_212_3 = {
-		value = ""
+		value = "托里切利的房間…好像不錯，陰涼…又沒人打擾…我能偶爾去待會嗎？"
 	},
 	ins_reply_212_3_1 = {
-		value = ""
+		value = "倒是沒什麼問題…妳高興就好，呼呼"
 	},
 	ins_op_212_1_1 = {
-		value = ""
+		value = "真能在房間裡培養出蘑菇啊…"
 	},
 	op_reply_212_1_1 = {
-		value = ""
+		value = "只需要合適的環境和養分…說不定指揮官房間裡的也已經長出來了哦？開玩笑的，呼呼…"
 	},
 	ins_213 = {
-		value = ""
+		value = "今天的課題也順利完成了。"
 	},
 	ins_discuss_213_1 = {
-		value = ""
+		value = "嗯哼，西北風是個聰明又勤奮的好學生！值得表揚！"
 	},
 	ins_reply_213_1_1 = {
-		value = ""
+		value = "普、普通而已…您過獎了…"
 	},
 	ins_reply_213_1_2 = {
-		value = ""
+		value = "哈啊…真是一股清流…咱們這“有個性”的孩子實在太多了…"
 	},
 	ins_discuss_213_2 = {
-		value = ""
+		value = "嗚嗚，我們真的是姐妹艦嗎…為什麼我覺得這麼難？！"
 	},
 	ins_reply_213_2_1 = {
-		value = ""
+		value = "也沒那麼誇張…吧，妳看我教妳之後不是也差不多都完成了嗎？"
 	},
 	ins_reply_213_2_2 = {
-		value = ""
+		value = "下次也請救救我，西北風老師！！"
 	},
 	ins_op_213_1_1 = {
-		value = ""
+		value = "西北風果然是個好學生呢。"
 	},
 	op_reply_213_1_1 = {
-		value = ""
+		value = "功課本來就應該認真完成的。"
 	},
 	ins_op_213_1_2 = {
-		value = ""
+		value = "西南風…還好吧…？"
 	},
 	op_reply_213_1_2 = {
-		value = ""
+		value = "要是沒有西北風姐姐就真的不行了…"
 	},
 	ins_214 = {
-		value = ""
+		value = "哼哼，這樣一來西南風也是會泡茶的淑女了！"
 	},
 	ins_discuss_214_1 = {
-		value = ""
+		value = "只是最簡單的茶包吧…標籤已經出賣妳了…！"
 	},
 	ins_reply_214_1_1 = {
-		value = ""
+		value = "茶、茶包也是正宗的紅茶茶包嘛！"
 	},
 	ins_discuss_214_2 = {
-		value = ""
+		value = "能輕鬆喝到美味的紅茶…茶包萬歲…！"
 	},
 	ins_reply_214_2_1 = {
-		value = ""
+		value = "唔…雖然感覺方向不大對…不過還是…茶包萬歲！"
 	},
 	ins_discuss_214_3 = {
-		value = ""
+		value = "這是之前上街買的茶包吧…喝太多當心晚上睡不著哦…？"
 	},
 	ins_reply_214_3_1 = {
-		value = ""
+		value = "欸…？說起來…好像真的一點都不睏欸…"
 	},
 	ins_op_214_1_1 = {
-		value = ""
+		value = "茶包…也不錯吧。"
 	},
 	op_reply_214_1_1 = {
-		value = ""
+		value = "嘿嘿，下次我來泡茶給你喝吧，指揮官！"
 	},
 	ins_235 = {
 		value = "哎呀~這裡到底是哪裡呢～"

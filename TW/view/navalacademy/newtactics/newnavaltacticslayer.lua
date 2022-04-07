@@ -118,7 +118,10 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
 	slot0:SetPainting()
+	slot0.studentsPage:ExecuteAction("Show", slot0.students)
+end
 
+function slot0.Init(slot0)
 	if slot0.contextData.shipToLesson then
 		slot0.inAddStudentProcess = true
 
@@ -132,8 +135,6 @@ function slot0.didEnter(slot0)
 
 		slot0.contextData.metaShipID = nil
 	end
-
-	slot0.studentsPage:ExecuteAction("Show", slot0.students)
 end
 
 function slot0.SetPainting(slot0)

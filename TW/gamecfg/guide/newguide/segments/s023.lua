@@ -1,3 +1,9 @@
+slot0 = {
+	"指揮官請點擊<color=#ff7d36>出擊</color>",
+	"這次我們的艦隊已經比較完善啦~一定可以擊破大黃蜂的！擊破她的話就可以獲得演習的勝利了！快上吧",
+	"索敵結果顯示了大黃蜂可能出現的位置，讓我們朝著目標點前進吧~"
+}
+
 return {
 	id = "S023",
 	events = {
@@ -5,14 +11,14 @@ return {
 			alpha = 0.434,
 			code = 2,
 			style = {
-				text = "指揮官請點擊<color=#ff7d36>出擊</color>",
+				dir = 1,
 				mode = 2,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,21 +32,21 @@ return {
 		{
 			alpha = 0.405,
 			style = {
-				text = "這次我們的艦隊已經比較完善啦~一定可以擊破大黃蜂的！擊破她的話就可以獲得演習的勝利了！快上吧",
+				dir = 1,
 				mode = 2,
 				posY = -200,
-				dir = 1,
-				posX = -190
+				posX = -190,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.163,
 			style = {
-				text = "索敵結果顯示了大黃蜂可能出現的位置，讓我們朝著目標點前進吧~",
+				dir = 1,
 				mode = 2,
 				posY = -351,
-				dir = 1,
-				posX = -257
+				posX = -257,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_6/attachment",

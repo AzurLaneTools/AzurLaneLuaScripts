@@ -102,4 +102,14 @@ function slot0.UpdatePurchaseBtn(slot0)
 	setActive(slot0.purchaseAllBtn, false)
 end
 
+function slot0.OnDestroy(slot0)
+	uv0.super.OnDestroy(slot0)
+
+	if not IsNil(slot0.iconRaw.texture) then
+		Object.Destroy(slot0.iconRaw.texture)
+
+		slot0.iconRaw.texture = nil
+	end
+end
+
 return slot0

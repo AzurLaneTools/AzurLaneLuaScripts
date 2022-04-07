@@ -4,11 +4,13 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "點擊幫助查看按鈕說明",
+				dir = 1,
 				mode = 2,
 				posY = -382,
-				dir = 1,
-				posX = -245
+				posX = -245,
+				text = ({
+					"點擊幫助查看按鈕說明"
+				})[1]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/TecSpeedUpUI(Clone)/Window/HelpBtn",

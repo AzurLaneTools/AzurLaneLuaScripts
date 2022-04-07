@@ -46,8 +46,8 @@ function AiriLogin(slot0)
 		end)()
 
 		uv0.isCache = true
-	elseif slot0.R_CODE:ToInt() == 100233 then
-		if pg.TimeMgr.GetInstance():GetServerTime() < tonumber(string.sub(slot0.R_DELETETIME, 1, string.len(slot0.R_DELETETIME) - 3)) then
+	else
+		if slot0.R_CODE:ToInt() == 100233 and pg.TimeMgr.GetInstance():GetServerTime() < tonumber(string.sub(slot0.R_DELETETIME, 1, string.len(slot0.R_DELETETIME) - 3)) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot3, "%Y-%m-%d %H:%M:%S")),
@@ -57,8 +57,8 @@ function AiriLogin(slot0)
 				end
 			})
 		end
-	else
-		print("AiriLogin failed")
+
+		originalPrint("AiriLogin failed")
 	end
 end
 
@@ -192,7 +192,7 @@ return {
 		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp" or NetConst.GATEWAY_PORT == 30101 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
 	end,
 	CheckPretest = function ()
-		return Application.isEditor or uv0.CheckPreAudit()
+		return IsUnityEditor or uv0.CheckPreAudit()
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
@@ -343,12 +343,12 @@ return {
 	GetChannelUID = function ()
 		slot0 = uv0.channelUID
 
-		print("channelUID : " .. slot0)
+		originalPrint("channelUID : " .. slot0)
 
 		return slot0
 	end,
 	GetTransCode = function ()
-		if Application.isEditor then
+		if IsUnityEditor then
 			return "NULL"
 		else
 			return uv0.loginRet.MIGRATIONCODE
@@ -393,7 +393,7 @@ return {
 		if slot1 == 0 then
 			return true
 		else
-			print("SDK Error Code:" .. slot1)
+			originalPrint("SDK Error Code:" .. slot1)
 
 			if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("new_airi_error_code_other") .. slot2)

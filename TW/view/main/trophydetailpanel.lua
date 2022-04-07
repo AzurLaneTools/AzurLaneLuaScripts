@@ -100,7 +100,9 @@ function slot0.SetActive(slot0, slot1)
 	slot0._active = slot1
 
 	if slot1 then
-		pg.UIMgr.GetInstance():BlurPanel(slot0._go)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._go, false, {
+			weight = LayerWeightConst.SECOND_LAYER
+		})
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._go, slot0._parent)
 	end

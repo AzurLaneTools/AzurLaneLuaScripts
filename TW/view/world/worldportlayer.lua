@@ -444,9 +444,7 @@ function slot0.SetPage(slot0, slot1)
 	if slot0.page ~= slot1 then
 		if uv0.BlurPages[slot0.page or 0] ~= uv0.BlurPages[slot1] then
 			if uv0.BlurPages[slot1] then
-				pg.UIMgr.GetInstance():BlurPanel(slot0.rtBlurPanel, false, {
-					blurLevelCamera = true
-				})
+				pg.UIMgr.GetInstance():BlurPanel(slot0.rtBlurPanel, false)
 			else
 				pg.UIMgr.GetInstance():UnblurPanel(slot0.rtBlurPanel, slot0._tf)
 			end

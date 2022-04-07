@@ -6,7 +6,7 @@ slot2 = true
 
 function slot3(slot0)
 	if uv0 then
-		print(slot0)
+		originalPrint(slot0)
 	end
 end
 

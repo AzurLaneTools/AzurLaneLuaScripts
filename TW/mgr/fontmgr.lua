@@ -13,7 +13,10 @@ function slot0.FontMgr.Init(slot0, slot1)
 			ResourceMgr.Inst:getAssetAsync("font/zhunyuan", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				uv0.fonts.heiti = slot0
 
-				UIUtil.preLoadFont(slot0)
+				if PLATFORM_CODE == PLATFORM_CH then
+					-- Nothing
+				end
+
 				uv1()
 			end), false, false)
 		end,

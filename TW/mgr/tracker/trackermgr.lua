@@ -87,25 +87,25 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 
 	if slot1 == TRACKING_2D_RETENTION or slot1 == TRACKING_7D_RETENTION then
 		if PlayerPrefs.GetInt("tracking_" .. slot1, 0) <= 0 then
-			print("tracking type : " .. slot1 .. "   user_id:" .. slot9)
+			originalPrint("tracking type : " .. slot1 .. "   user_id:" .. slot9)
 			PlayerPrefs.SetInt(slot13, 1)
 			PlayerPrefs.Save()
 			slot0:Call("Tracking", slot1, slot9, slot2)
 		end
 	else
-		print("tracking type : " .. slot1 .. ",   user_id:" .. slot9 .. ",   data:" .. (slot2 or "nil"))
+		originalPrint("tracking type : " .. slot1 .. ",   user_id:" .. slot9 .. ",   data:" .. (slot2 or "nil"))
 		slot0:Call("Tracking", slot1, slot9, slot2, slot12)
 	end
 
 	if slot1 == TRACKING_PURCHASE_CLICK then
 		if slot2 == 1 then
-			print("tracking type : " .. TRACKING_PURCHASE_CLICK_MONTHLYCARD .. "   user_id:" .. slot9)
+			originalPrint("tracking type : " .. TRACKING_PURCHASE_CLICK_MONTHLYCARD .. "   user_id:" .. slot9)
 			slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_MONTHLYCARD, slot9, slot2)
 		elseif slot2 == 2 then
-			print("tracking type : " .. TRACKING_PURCHASE_CLICK_GIFTBAG .. "   user_id:" .. slot9)
+			originalPrint("tracking type : " .. TRACKING_PURCHASE_CLICK_GIFTBAG .. "   user_id:" .. slot9)
 			slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_GIFTBAG, slot9, slot2)
 		else
-			print("tracking type : " .. TRACKING_PURCHASE_CLICK_DIAMOND .. "   user_id:" .. slot9)
+			originalPrint("tracking type : " .. TRACKING_PURCHASE_CLICK_DIAMOND .. "   user_id:" .. slot9)
 			slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_DIAMOND, slot9, slot2)
 		end
 	end

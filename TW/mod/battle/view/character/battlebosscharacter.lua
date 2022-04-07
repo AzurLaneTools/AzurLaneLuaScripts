@@ -276,7 +276,7 @@ function slot2.SetHPBarCountText(slot0, slot1)
 	end
 end
 
-function slot2.UpdateHPBarPostition(slot0)
+function slot2.UpdateHPBarPosition(slot0)
 	if slot0._normalHPTF and not slot0._hideHP then
 		slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
 

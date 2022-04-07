@@ -1,3 +1,11 @@
+slot0 = {
+	"指揮官，軍部為港區派遣了能夠在水下作戰的艦船協助我們，快去迎接一下新的夥伴吧",
+	"歡迎港區的第一個潛艇！給我們的新夥伴編隊吧，指揮官！",
+	"這樣我們的第一支潛艇艦隊就誕生了！",
+	"不過，為了應對敵方也有可能出現潛艇的情況，請指揮官為艦船配備反潛設備",
+	"反潛設備的相關內容可以點擊説明按鈕查看詳細內容哦"
+}
+
 return {
 	id = "NG002",
 	events = {
@@ -10,16 +18,16 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "指揮官，軍部為港區派遣了能夠在水下作戰的艦船協助我們，快去迎接一下新的夥伴吧",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[1]
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/taskButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/taskButton"
 			}
 		},
 		{
@@ -34,7 +42,7 @@ return {
 		{
 			ui = {
 				delay = 1,
-				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/taskBGCenter/right_panel/content/10302/frame/get_btn"
+				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/mask/content/10302/frame/get_btn"
 			}
 		},
 		{
@@ -65,11 +73,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "歡迎港區的第一個潛艇！給我們的新夥伴編隊吧，指揮官！",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[2]
 			}
 		},
 		{
@@ -79,7 +87,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton"
 			}
 		},
 		{
@@ -111,21 +119,21 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "這樣我們的第一支潛艇艦隊就誕生了！",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "不過，為了應對敵方也有可能出現潛艇的情況，請指揮官為艦船配備反潛設備",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[4]
 			}
 		},
 		{
@@ -135,7 +143,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/dockBtn"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/dockBtn"
 			}
 		},
 		{
@@ -153,11 +161,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "反潛設備的相關內容可以點擊説明按鈕查看詳細內容哦",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[5]
 			}
 		},
 		{

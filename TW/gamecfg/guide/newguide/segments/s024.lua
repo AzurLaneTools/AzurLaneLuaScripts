@@ -1,3 +1,10 @@
+slot0 = {
+	"指揮官請點擊<color=#ff7d36>出擊</color>",
+	"這次我們的艦隊已經比較完善啦~一定可以擊破大黃蜂的！",
+	"可惡，又遭到了敵方艦隊的攔截！但是我們的<color=#ff7d36>總機動值已經提高</color>，輕而易舉的就能避開這種無謂的戰鬥",
+	"點擊<color=#ff7d36>規避</color>輕鬆甩掉他們的攔截吧！"
+}
+
 return {
 	id = "S024",
 	events = {
@@ -5,14 +12,14 @@ return {
 			alpha = 0.422,
 			code = 2,
 			style = {
-				text = "指揮官請點擊<color=#ff7d36>出擊</color>",
+				dir = 1,
 				mode = 2,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -28,11 +35,11 @@ return {
 			code = 2,
 			waitScene = "LevelScene",
 			style = {
-				text = "這次我們的艦隊已經比較完善啦~一定可以擊破大黃蜂的！",
+				dir = 1,
 				mode = 2,
 				posY = -200,
-				dir = 1,
-				posX = -190
+				posX = -190,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
@@ -53,22 +60,22 @@ return {
 				path = "OverlayCamera/Overlay/UIMain/top/LevelAmbushView(Clone)/window/dodge_button"
 			},
 			style = {
-				text = "可惡，又遭到了敵方艦隊的攔截！但是我們的<color=#ff7d36>總機動值已經提高</color>，輕而易舉的就能避開這種無謂的戰鬥",
+				dir = 1,
 				mode = 2,
 				posY = -304,
-				dir = 1,
-				posX = -190
+				posX = -190,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.297,
 			code = 1,
 			style = {
-				text = "點擊<color=#ff7d36>規避</color>輕鬆甩掉他們的攔截吧！",
+				dir = 1,
 				mode = 2,
 				posY = 167.08,
-				dir = 1,
-				posX = 23.41
+				posX = 23.41,
+				text = slot0[4]
 			}
 		},
 		{

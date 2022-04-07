@@ -1,17 +1,24 @@
+slot0 = {
+	"前往<color=#ff7d36>倉庫</color>介面",
+	"去看看現有的<color=#ff7d36>設計圖紙</color>吧",
+	"點擊製作按鈕<color=#ff7d36>製作裝備</color>吧！",
+	"就決定是你啦！點擊確定按鈕"
+}
+
 return {
 	id = "S015",
 	events = {
 		{
 			alpha = 0.271,
 			style = {
-				text = "前往<color=#ff7d36>倉庫</color>介面",
+				dir = -1,
 				mode = 2,
 				posY = -102.56,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/equipButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/equipButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -25,11 +32,11 @@ return {
 		{
 			alpha = 0.207,
 			style = {
-				text = "去看看現有的<color=#ff7d36>設計圖紙</color>吧",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/topItems/bottom_back/types/design",
@@ -47,11 +54,11 @@ return {
 			alpha = 0,
 			waitScene = "EquipmentDesignLayer",
 			style = {
-				text = "點擊製作按鈕<color=#ff7d36>製作裝備</color>吧！",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 210.07
+				posX = 210.07,
+				text = slot0[3]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
@@ -68,11 +75,11 @@ return {
 		{
 			alpha = 0.342,
 			style = {
-				text = "就決定是你啦！點擊確定按鈕",
+				dir = -1,
 				mode = 2,
 				posY = -2.69,
-				dir = -1,
-				posX = 202.1
+				posX = 202.1,
+				text = slot0[4]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/msg_panel/bg/confirm_btn",

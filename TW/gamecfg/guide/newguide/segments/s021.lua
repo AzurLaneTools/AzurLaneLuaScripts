@@ -1,17 +1,27 @@
+slot0 = {
+	"前往<color=#ff7d36>編隊</color>，將角色編入隊伍",
+	"指揮官還記得怎麼操作嗎？",
+	"點擊隊伍空位上的<color=#ff7d36>添加</color>",
+	"選擇需要上場的角色",
+	"點擊<color=#ff7d36>確定</color>按鈕",
+	"前鋒艦隊滿員啦！現在的實力可不容小覷",
+	"讓我們返回到主介面吧！"
+}
+
 return {
 	id = "S021",
 	events = {
 		{
 			alpha = 0.19,
 			style = {
-				text = "前往<color=#ff7d36>編隊</color>，將角色編入隊伍",
+				dir = 1,
 				mode = 2,
 				posY = 104.87,
-				dir = 1,
-				posX = 4.77
+				posX = 4.77,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,21 +36,21 @@ return {
 			alpha = 0.414,
 			waitScene = "FormationUI",
 			style = {
-				text = "指揮官還記得怎麼操作嗎？",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.385,
 			style = {
-				text = "點擊隊伍空位上的<color=#ff7d36>添加</color>",
+				dir = 1,
 				mode = 2,
 				posY = 240,
-				dir = 1,
-				posX = -88.52
+				posX = -88.52,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
@@ -57,11 +67,11 @@ return {
 		{
 			alpha = 0.279,
 			style = {
-				text = "選擇需要上場的角色",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
@@ -84,11 +94,11 @@ return {
 		{
 			alpha = 0.293,
 			style = {
-				text = "點擊<color=#ff7d36>確定</color>按鈕",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 239.42
+				posX = 239.42,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
@@ -106,21 +116,21 @@ return {
 			alpha = 0.441,
 			waitScene = "FormationUI",
 			style = {
-				text = "前鋒艦隊滿員啦！現在的實力可不容小覷",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[6]
 			}
 		},
 		{
 			alpha = 0.462,
 			style = {
-				text = "讓我們返回到主介面吧！",
+				dir = -1,
 				mode = 2,
 				posY = 226.21,
-				dir = -1,
-				posX = -130.49
+				posX = -130.49,
+				text = slot0[7]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",

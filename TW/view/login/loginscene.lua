@@ -646,7 +646,7 @@ function slot0.updateServerList(slot0, slot1)
 
 	removeAllChildren(slot0.servers)
 
-	if Application.isEditor then
+	if IsUnityEditor then
 		table.sort(slot2, function (slot0, slot1)
 			return string.byte(string.lower(slot1.name), 1) < string.byte(string.lower(slot0.name), 1)
 		end)

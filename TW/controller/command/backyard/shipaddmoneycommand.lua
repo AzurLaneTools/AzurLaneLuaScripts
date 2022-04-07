@@ -28,19 +28,9 @@ function slot0.execute(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddMoney_ok", slot2:getName(), slot3))
 			end
 
-			uv1:sendNotification(GAME.BACKYARD_ADD_MONEY_DONE)
-
-			if pg.backyard then
-				pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
-					name = BACKYARD.BOAT_HARVEST,
-					ship = slot2:clone()
-				})
-				pg.backyard:sendNotification(BACKYARD.BOAT_ADDITION_DONE, {
-					type = BackYardConst.ADDITION_TYPE_MONEY,
-					id = slot2:clone().id,
-					exp = slot3
-				})
-			end
+			uv1:sendNotification(GAME.BACKYARD_ADD_MONEY_DONE, {
+				id = uv0
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_shipAddMoney", slot0.result))
 		end

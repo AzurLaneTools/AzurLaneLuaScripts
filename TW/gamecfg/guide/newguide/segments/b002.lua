@@ -1,3 +1,9 @@
+slot0 = {
+	"我方旗艦的<color=#ff7d36>航空支援</color>已準備完畢 ",
+	"清除戰場準備！點擊<color=#ff7d36>航空支援</color>按鈕試試吧！",
+	"看到空中支援的威力了吧！ 緊急情況下釋放，還能<color=#ff7d36>消除敵方彈幕</color>呢！"
+}
+
 return {
 	id = "B002",
 	events = {
@@ -13,11 +19,11 @@ return {
 				}
 			},
 			style = {
-				text = "我方旗艦的<color=#ff7d36>航空支援</color>已準備完畢 ",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			}
 		},
 		{
@@ -26,11 +32,11 @@ return {
 				"ShowSkill3"
 			},
 			style = {
-				text = "清除戰場準備！點擊<color=#ff7d36>航空支援</color>按鈕試試吧！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl",
@@ -45,11 +51,11 @@ return {
 				"ReleaseAfter"
 			},
 			style = {
-				text = "看到空中支援的威力了吧！ 緊急情況下釋放，還能<color=#ff7d36>消除敵方彈幕</color>呢！",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			}
 		}
 	}

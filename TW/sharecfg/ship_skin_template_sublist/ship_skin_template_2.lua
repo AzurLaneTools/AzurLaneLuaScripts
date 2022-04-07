@@ -1,114 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101361] = {
-		ship_group = 10136,
-		name = "小小學園偶像",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 101361,
-		group_index = 1,
-		prefab = "huobi_2",
-		painting = "huobi_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70111,
-		shop_type_id = 4,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "穿上校服的霍比再次閃亮登場哦~指揮官，好看嗎？好看嗎？霍比也有成長哦~",
-		voice_actor = 151,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.048,
-					0.888,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.01,
-					0.848,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.177,
-					0.069,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101370] = {
 		ship_group = 10137,
 		name = "科爾克",
@@ -7544,6 +7435,220 @@ pg.ship_skin_template_2 = {
 							-0.375,
 							2.506,
 							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102240] = {
+		ship_group = 10224,
+		name = "克里夫蘭(μ兵裝)",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "121",
+		id = 102240,
+		group_index = 0,
+		prefab = "kelifulan_idol",
+		painting = "kelifulan_idol",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "輕巡洋艦克里夫蘭前來報到！雖然對這塊不是很熟悉，但是既然要做了自然會全力配合大家！指揮官，應援也拜託啦！",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					1.088,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					1.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.114,
+					1.107,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.369,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102250] = {
+		ship_group = 10225,
+		name = "比洛克西",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102250,
+		group_index = 0,
+		prefab = "biluokexi",
+		painting = "biluokexi",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "克里夫蘭級輕巡洋艦—比洛克西，舷號CL-80",
+		voice_actor = 217,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.17,
+					0.85,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					0.89,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.114,
+					0.89,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.17,
+							0
 						}
 					}
 				}

@@ -126,6 +126,22 @@ function slot0.SwitchPage(slot0, slot1)
 	end
 end
 
+function slot0.OpenYostarAlertView(slot0)
+	slot0.yostarAlertView = YostarAlertView.New(slot0._tf, slot0.event, {
+		isDestroyOnClose = true,
+		isLinkMode = true
+	})
+
+	slot0.yostarAlertView:Load()
+	slot0.yostarAlertView:ActionInvoke("Show")
+end
+
+function slot0.CloseYostarAlertView(slot0)
+	if slot0.yostarAlertView and slot0.yostarAlertView:CheckState(BaseSubView.STATES.INITED) then
+		slot0.yostarAlertView:Destroy()
+	end
+end
+
 function slot0.onBackPressed(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 

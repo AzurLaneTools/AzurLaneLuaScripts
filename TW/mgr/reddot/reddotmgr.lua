@@ -8,16 +8,17 @@ slot1 = true
 
 function slot2(...)
 	if uv0 then
-		print(...)
+		originalPrint(...)
 	end
 end
 
 slot0.TYPES = {
+	COURTYARD = 1,
+	MEMORY_REVIEW = 19,
+	ACT_RETURN = 16,
 	COMMANDER = 10,
 	EVENT = 15,
-	ACT_RETURN = 16,
 	BUILD = 4,
-	BACKYARD = 1,
 	SERVER = 12,
 	BLUEPRINT = 14,
 	ACT_NEWBIE = 17,
@@ -45,7 +46,7 @@ function slot0.Init(slot0, slot1)
 end
 
 function slot0.BindConditions(slot0)
-	slot0:BindCondition(uv0.TYPES.BACKYARD, function ()
+	slot0:BindCondition(uv0.TYPES.COURTYARD, function ()
 		return getProxy(DormProxy):IsShowRedDot()
 	end)
 	slot0:BindCondition(uv0.TYPES.TASK, function ()
@@ -86,7 +87,7 @@ function slot0.BindConditions(slot0)
 		end
 	end)
 	slot0:BindCondition(uv0.TYPES.SETTTING, function ()
-		return MainUIMediator.CanUpdateCV or PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0
+		return PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0
 	end)
 	slot0:BindCondition(uv0.TYPES.SERVER, function ()
 		return #getProxy(ServerNoticeProxy):getServerNotices(false) > 0 and getProxy(ServerNoticeProxy):hasNewNotice()
@@ -112,6 +113,13 @@ function slot0.BindConditions(slot0)
 	slot0:BindCondition(uv0.TYPES.VOTE_OREDER, function ()
 		return getProxy(VoteProxy):GetOrderBook()
 	end)
+	slot0:BindCondition(uv0.TYPES.MEMORY_REVIEW, function ()
+		slot0 = getProxy(PlayerProxy):getRawData().id
+
+		return _.any(pg.memory_group.all, function (slot0)
+			return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. uv0 .. " " .. slot0, 0) == 1
+		end)
+	end)
 end
 
 function slot0.BindCondition(slot0, slot1, slot2)
@@ -122,6 +130,8 @@ function slot0.RegisterRedDotNodes(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:RegisterRedDotNode(slot6)
 	end
+
+	slot0:_NotifyAll()
 end
 
 function slot0.RegisterRedDotNode(slot0, slot1)
@@ -140,6 +150,8 @@ function slot0.UnRegisterRedDotNodes(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:UnRegisterRedDotNode(slot6)
 	end
+
+	uv0.cache = {}
 end
 
 function slot0.UnRegisterRedDotNode(slot0, slot1)
@@ -155,23 +167,56 @@ function slot0.UnRegisterRedDotNode(slot0, slot1)
 	end
 end
 
-function slot0.NotifyAll(slot0, slot1)
-	slot2 = ipairs
-	slot3 = slot0.nodeList[slot1] or {}
-
-	for slot5, slot6 in slot2(slot3) do
-		slot6:SetData(slot0:CheckConditions(slot6:GetTypes()))
-	end
-end
-
-function slot0.CheckConditions(slot0, slot1)
+function slot3(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		if slot0.conditions[slot6]() then
-			return slot8
+		slot7 = nil
+
+		if uv0.cache[slot6] ~= nil then
+			slot7 = uv0.cache[slot6]
+		else
+			uv0.cache[slot6] = slot0.conditions[slot6]()
+		end
+
+		if slot7 then
+			return slot7
 		end
 	end
 
 	return false
+end
+
+function slot0.NotifyAll(slot0, slot1)
+	uv0.cache = {}
+	slot2 = ipairs
+	slot3 = slot0.nodeList[slot1] or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot6:SetData(uv1(slot0, slot6:GetTypes()))
+	end
+
+	uv0.cache = {}
+end
+
+function slot0._NotifyAll(slot0)
+	uv0.cache = {}
+	slot1 = {}
+
+	function slot2(slot0, slot1)
+		slot0:SetData(uv0(uv1, slot0:GetTypes()))
+		onNextTick(slot1)
+	end
+
+	for slot6, slot7 in pairs(slot0.nodeList) do
+		for slot11, slot12 in ipairs(slot7) do
+			table.insert(slot1, function (slot0)
+				uv0(uv1, slot0)
+			end)
+		end
+	end
+
+	seriesAsync(slot1, function ()
+		uv0.cache = {}
+	end)
 end
 
 function slot0.DebugNodes(slot0)
