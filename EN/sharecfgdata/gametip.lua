@@ -1753,11 +1753,11 @@ _G.pg.gametip.backyard_backyardGranaryLayer_word = {
 }
 
 _G.pg.gametip.backyard_backyardGranaryLayer_noShip = {
-	tip = "No girls are resting in the dorm right now, which means <color=#92fc63>none of these food will be consumed</color>."
+	tip = "The dorm is empty, <color=#92fc63>no food will be consumed.</color>"
 }
 
 _G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
-	tip = "In                 everything "
+	tip = "In                 everything"
 }
 
 _G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
@@ -9833,7 +9833,7 @@ _G.pg.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "Ying Swei, Chao Ho and Penelope added to standard build pool! "
+	tip = "Cleveland µ added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_special_tip = {
@@ -19791,7 +19791,7 @@ _G.pg.gametip.yostar_link_title = {
 }
 
 _G.pg.gametip.level_remaster_tip1 = {
-	tip = "SR Stage"
+	tip = "Drop Stage: "
 }
 
 _G.pg.gametip.level_remaster_tip2 = {

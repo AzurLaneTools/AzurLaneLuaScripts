@@ -49,10 +49,14 @@ function slot0.openTreePanel(slot0, slot1)
 		end
 	end)
 	slot0.treeList:align(#slot1:getTalentList())
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 function slot0.closeTreePanel(slot0)
 	setActive(slot0.treePanel, false)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)

@@ -1,13 +1,12 @@
 slot0 = class("LevelScene", import("..base.BaseUI"))
-slot1 = require("Mgr/Pool/PoolUtil")
-slot2 = import("view.level.MapBuilder.MapBuilder")
+slot1 = import("view.level.MapBuilder.MapBuilder")
 slot0.correspondingClass = {
-	[slot2.TYPENORMAL] = "MapBuilderNormal",
-	[slot2.TYPEESCORT] = "MapBuilderEscort",
-	[slot2.TYPESHINANO] = "MapBuilderShinano",
-	[slot2.TYPESKIRMISH] = "MapBuilderSkirmish"
+	[slot1.TYPENORMAL] = "MapBuilderNormal",
+	[slot1.TYPEESCORT] = "MapBuilderEscort",
+	[slot1.TYPESHINANO] = "MapBuilderShinano",
+	[slot1.TYPESKIRMISH] = "MapBuilderSkirmish"
 }
-slot3 = 0.5
+slot2 = 0.5
 
 function slot0.forceGC(slot0)
 	return true
@@ -285,7 +284,7 @@ function slot0.initUI(slot0)
 	slot0.destinationMarkTpl = slot0.resources.prefabItem[1]
 	slot0.championTpl = slot0.resources.prefabItem[3]
 	slot0.deadTpl = slot0.resources.prefabItem[4]
-	slot0.enemyTpl = slot0.resources.prefabItem[5]
+	slot0.enemyTpl = Instantiate(slot0.resources.prefabItem[5])
 	slot0.oniTpl = slot0.resources.prefabItem[6]
 	slot0.shipTpl = slot0.resources.prefabItem[8]
 	slot0.subTpl = slot0.resources.prefabItem[9]
@@ -2196,13 +2195,13 @@ function slot0.SwitchBG(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot4 = {
+slot3 = {
 	1520001,
 	1520002,
 	1520011,
 	1520012
 }
-slot5 = {
+slot4 = {
 	{
 		1420008,
 		"map_1420008",
@@ -2216,7 +2215,7 @@ slot5 = {
 		"map_1420011"
 	}
 }
-slot6 = {
+slot5 = {
 	1420001,
 	1420011
 }
@@ -3225,20 +3224,6 @@ function slot0.ShowCurtains(slot0, slot1)
 	setActive(slot0.curtain, slot1)
 end
 
-function slot0.ClearLoadedTemplates(slot0)
-	if not slot0.loadedTpls then
-		return
-	end
-
-	for slot4, slot5 in pairs(slot0.loadedTpls) do
-		if not IsNil(slot5) then
-			uv0.Destroy(slot5, true)
-		end
-	end
-
-	slot0.loadedTpls = nil
-end
-
 function slot0.frozen(slot0)
 	slot0.frozenCount = slot0.frozenCount + 1
 	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
@@ -3440,8 +3425,6 @@ function slot0.RecordLastMapOnExit(slot0)
 end
 
 function slot0.willExit(slot0)
-	slot1 = not IsNil(slot0._tf)
-
 	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
 	slot0:RemoveVoteBookTimer()
@@ -3450,14 +3433,12 @@ function slot0.willExit(slot0)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
 	end
 
-	slot0:ClearLoadedTemplates()
-
 	if slot0.levelFleetView and slot0.levelFleetView.selectIds then
 		slot0.contextData.selectedFleetIDs = {}
 
-		for slot5, slot6 in pairs(slot0.levelFleetView.selectIds) do
-			for slot10, slot11 in pairs(slot6) do
-				slot0.contextData.selectedFleetIDs[#slot0.contextData.selectedFleetIDs + 1] = slot11
+		for slot4, slot5 in pairs(slot0.levelFleetView.selectIds) do
+			for slot9, slot10 in pairs(slot5) do
+				slot0.contextData.selectedFleetIDs[#slot0.contextData.selectedFleetIDs + 1] = slot10
 			end
 		end
 	end
@@ -3478,26 +3459,22 @@ function slot0.willExit(slot0)
 	slot0:destroyStrikeAnim()
 	slot0:destroyTracking()
 	slot0:destroyUIAnims()
-
-	slot2 = not IsNil(slot0._tf)
-
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad_mark", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell", "")
 
-	slot6 = ""
+	slot4 = ""
 
-	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", slot6)
+	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", slot4)
 
-	for slot6, slot7 in pairs(slot0.mbDict) do
-		slot7:Destroy()
+	for slot4, slot5 in pairs(slot0.mbDict) do
+		slot5:Destroy()
 	end
 
 	slot0.mbDict = nil
-	slot3 = not IsNil(slot0._tf)
 
-	for slot7, slot8 in pairs(slot0.tweens) do
-		LeanTween.cancel(slot8)
+	for slot4, slot5 in pairs(slot0.tweens) do
+		LeanTween.cancel(slot5)
 	end
 
 	slot0.tweens = nil
@@ -3516,8 +3493,8 @@ function slot0.willExit(slot0)
 		slot0.newChapterCDTimer = nil
 	end
 
-	for slot7, slot8 in ipairs(slot0.damageTextActive) do
-		LeanTween.cancel(slot8)
+	for slot4, slot5 in ipairs(slot0.damageTextActive) do
+		LeanTween.cancel(slot5)
 	end
 
 	LeanTween.cancel(go(slot0.avoidText))
@@ -3525,22 +3502,18 @@ function slot0.willExit(slot0)
 	slot0.map.localScale = Vector3.one
 	slot0.map.pivot = Vector2(0.5, 0.5)
 	slot0.float.localScale = Vector3.one
-	slot7 = 0.5
-	slot0.float.pivot = Vector2(0.5, slot7)
+	slot4 = 0.5
+	slot0.float.pivot = Vector2(0.5, slot4)
 
-	for slot7, slot8 in ipairs(slot0.mapTFs) do
-		clearImageSprite(slot8)
+	for slot4, slot5 in ipairs(slot0.mapTFs) do
+		clearImageSprite(slot5)
 	end
 
 	_.each(slot0.cloudRTFs, function (slot0)
 		clearImageSprite(slot0)
 	end)
 	PoolMgr.GetInstance():DestroyAllSprite()
-
-	if not (slot1 and slot2 and slot3 and not IsNil(slot0._tf)) then
-		warning("On willExit", tostring(slot1), tostring(slot2), tostring(slot3), tostring(slot4))
-	end
-
+	Destroy(slot0.enemyTpl)
 	slot0:RecordLastMapOnExit()
 	slot0.levelRemasterView:Destroy()
 end

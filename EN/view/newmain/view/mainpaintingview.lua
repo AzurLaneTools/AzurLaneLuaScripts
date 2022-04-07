@@ -10,7 +10,8 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._go = slot1.gameObject
 	slot0._bgTf = slot2
 	slot0._bgGo = slot2.gameObject
-	slot0.chatTf = slot1:Find("chat")
+	slot4 = slot1.parent
+	slot0.chatTf = slot4:Find("chat")
 	slot0.paintings = {
 		MainMeshImagePainting.New(slot0._tf, slot0.chatTf),
 		MainLive2dPainting.New(slot0._tf, slot0.chatTf),
@@ -53,7 +54,7 @@ function slot0.Init(slot0, slot1, slot2)
 
 	slot0:AdjustPosition(slot1)
 
-	slot3, slot4 = slot0:GetAssistantStatus(slot1)
+	slot3, slot4 = uv0.GetAssistantStatus(slot1)
 	slot5 = slot0.paintings[slot3]
 
 	if slot0.painting then
@@ -64,12 +65,14 @@ function slot0.Init(slot0, slot1, slot2)
 
 	slot0.painting = slot5
 	slot0.state = slot3
+	slot0.bgToggle = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.painting.paintingName, 0)
 end
 
 function slot0.Refresh(slot0, slot1, slot2)
-	slot3 = slot0:GetAssistantStatus(slot1)
+	slot3 = uv0.GetAssistantStatus(slot1)
+	slot4 = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.painting.paintingName, 0)
 
-	if slot1.skinId == slot0.ship.skinId and slot0.state == slot3 then
+	if slot1.skinId == slot0.ship.skinId and slot0.state == slot3 and slot0.bgToggle == slot4 then
 		slot0.painting:Resume()
 
 		if slot2 then
@@ -100,19 +103,19 @@ function slot0.AdjustPosition(slot0, slot1)
 	end
 end
 
-function slot0.GetAssistantStatus(slot0, slot1)
-	slot2 = slot1:getPainting()
-	slot3 = getProxy(SettingsProxy)
-	slot5 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot2)))
-	slot7 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. slot2)))
-	slot8 = slot3:getCharacterSetting(slot1.id, SHIP_FLAG_BG)
+function slot0.GetAssistantStatus(slot0)
+	slot1 = slot0:getPainting()
+	slot2 = getProxy(SettingsProxy)
+	slot4 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot1)))
+	slot6 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. slot1)))
+	slot7 = slot2:getCharacterSetting(slot0.id, SHIP_FLAG_BG)
 
-	if slot3:getCharacterSetting(slot1.id, SHIP_FLAG_SP) and slot5 then
-		return uv0.STATE_SPINE_PAINTING, slot8
-	elseif slot3:getCharacterSetting(slot1.id, SHIP_FLAG_L2D) and slot7 then
-		return uv0.STATE_L2D, slot8
+	if slot2:getCharacterSetting(slot0.id, SHIP_FLAG_SP) and slot4 then
+		return uv0.STATE_SPINE_PAINTING, slot7
+	elseif slot2:getCharacterSetting(slot0.id, SHIP_FLAG_L2D) and slot6 then
+		return uv0.STATE_L2D, slot7
 	else
-		return uv0.STATE_PAINTING, slot8
+		return uv0.STATE_PAINTING, slot7
 	end
 end
 
