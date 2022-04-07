@@ -68,8 +68,9 @@ function slot0.Init(slot0, slot1)
 	slot0:ClearSpecailBg()
 
 	slot0.isSpecialBg = slot1:getShipBgPrint() ~= slot1:rarity2bgPrintForGet()
+	slot3, slot4 = MainPaintingView.GetAssistantStatus(slot1)
 
-	if slot0.isSpecialBg then
+	if slot0.isSpecialBg and slot4 then
 		slot0:SetSpecailBg(slot2)
 	else
 		slot0:SetCommonBg(uv0.GetBgAndBgm())
