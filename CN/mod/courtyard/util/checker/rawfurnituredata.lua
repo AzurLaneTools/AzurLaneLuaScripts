@@ -92,6 +92,14 @@ function slot0.InSide(slot0, slot1, slot2, slot3, slot4)
 		end)
 	end
 
+	if slot0.config.belong == 3 and slot0.x >= 24 then
+		return false
+	end
+
+	if slot0.config.belong == 4 and slot0.y >= 24 then
+		return false
+	end
+
 	return true
 end
 

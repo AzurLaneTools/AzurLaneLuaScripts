@@ -23,10 +23,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0.isShowMsgBox = true
 
 	setActive(slot0._tf, true)
-
-	slot3 = slot0._tf
-
-	slot3:SetAsLastSibling()
+	slot0._tf:SetAsLastSibling()
 	setInputText(slot0.input, "")
 	onButton(slot0, slot0.confirmBtn, function ()
 		if not getInputText(uv0.input) or slot0 == "" then
@@ -37,12 +34,16 @@ function slot0.Show(slot0, slot1, slot2)
 			uv1(slot0)
 		end
 	end, SFX_PANEL)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 function slot0.Hide(slot0)
 	slot0.isShowMsgBox = nil
 
 	setActive(slot0._tf, false)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)

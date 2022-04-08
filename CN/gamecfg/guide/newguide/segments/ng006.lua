@@ -20,12 +20,12 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderReserveUI(Clone)/frame/bg1/Button"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderReserveUI(Clone)/frame/bg1/Button"
 			}
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
 			}
 		},
 		{
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderReserveUI(Clone)/bg",
+				path = "/OverlayCamera/Overlay/UIMain/CommanderReserveUI(Clone)/bg",
 				fingerPos = {
 					posY = -400,
 					posX = 500

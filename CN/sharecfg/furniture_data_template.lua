@@ -51846,8 +51846,8 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						66,
-						114
+						38,
+						134
 					},
 					{
 						208,
@@ -51870,8 +51870,8 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						167,
-						47
+						211,
+						54
 					},
 					{
 						208,
@@ -51894,8 +51894,8 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						-44.5,
-						41
+						-80,
+						58
 					},
 					{
 						208,
@@ -51918,7 +51918,7 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						52,
+						57,
 						-14
 					},
 					{
