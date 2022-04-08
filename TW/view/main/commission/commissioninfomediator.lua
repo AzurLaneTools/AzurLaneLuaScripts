@@ -12,6 +12,7 @@ slot0.ON_INS = "CommissionInfoMediator:ON_INS"
 slot0.ON_UR_ACTIVITY = "CommanderInfoMediator:ON_UR_ACTIVITY"
 slot0.ON_CRUSING = "CommanderInfoMediator.ON_CRUSING"
 slot0.GET_CLASS_RES = "CommanderInfoMediator:GET_CLASS_RES"
+slot0.FINISH_CLASS_ALL = "CommanderInfoMediator:FINISH_CLASS_ALL"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
@@ -93,6 +94,9 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_INS, function (slot0)
 		uv0:sendNotification(GAME.ON_OPEN_INS_LAYER)
 		uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+	end)
+	slot0:bind(uv0.FINISH_CLASS_ALL, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
 	end)
 	slot0:Notify()
 end

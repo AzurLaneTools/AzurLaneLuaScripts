@@ -68,6 +68,10 @@ function slot0.InitClickEvent(slot0)
 end
 
 function slot0.TriggerPersonalTask(slot0, slot1)
+	if slot0.isFoldState then
+		return
+	end
+
 	if getProxy(TaskProxy):GetFlagShipInterActionTask() then
 		pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
 			taskId = slot3.id

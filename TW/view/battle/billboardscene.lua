@@ -21,6 +21,8 @@ function slot0.updateRankList(slot0, slot1, slot2, slot3, slot4)
 
 	if slot1 == PowerRank.TYPE_PT then
 		slot0.ptRanks[slot4] = slot2
+		slot0.playerPTRankVOMap = slot0.playerPTRankVOMap or {}
+		slot0.playerPTRankVOMap[slot4] = slot3
 	end
 
 	slot0.playerRankVOs[slot1] = slot3
@@ -208,7 +210,7 @@ function slot0.filter(slot0, slot1, slot2)
 	slot5 = slot0.playerRankVOs[slot0.page]
 
 	if PowerRank.TYPE_PT == slot1 then
-		slot0.playerCard:update(slot4[1], slot2)
+		slot0.playerCard:update(slot0.playerPTRankVOMap[slot2], slot2)
 	else
 		slot0.playerCard:update(slot5, slot2)
 	end

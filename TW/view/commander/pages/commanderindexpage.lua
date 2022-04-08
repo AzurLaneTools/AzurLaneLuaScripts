@@ -198,9 +198,7 @@ end
 function slot0.Show(slot0, slot1)
 	setActive(slot0._tf, true)
 	slot0:updateSelected(slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
 function slot0.updateSelected(slot0, slot1)
@@ -234,7 +232,7 @@ end
 function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 	slot0:resetData()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	setParent(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)
