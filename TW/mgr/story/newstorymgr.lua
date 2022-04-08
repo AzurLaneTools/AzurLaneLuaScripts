@@ -366,6 +366,9 @@ function slot0.RegistSkipBtn(slot0)
 		end
 
 		uv0:Puase()
+
+		uv0.isOpenMsgbox = true
+
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			parent = rtf(uv0._tf),
 			content = i18n("story_skip_confirm"),
@@ -374,6 +377,8 @@ function slot0.RegistSkipBtn(slot0)
 				uv1()
 			end,
 			onNo = function ()
+				uv0.isOpenMsgbox = false
+
 				uv0:Resume()
 			end,
 			weight = LayerWeightConst.TOP_LAYER
@@ -474,6 +479,10 @@ function slot0.Clear(slot0)
 
 	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
 	pg.m02:sendNotification(GAME.STORY_END)
+
+	if slot0.isOpenMsgbox then
+		pg.MsgboxMgr:GetInstance():hide()
+	end
 end
 
 function slot0.OnEnd(slot0, slot1)

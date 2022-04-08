@@ -156,7 +156,7 @@ function slot0.UpdateLesson(slot0, slot1, slot2, slot3, slot4)
 			uv0:UpdateSkill(uv4, uv3, uv5)
 		end
 	end, SFX_PANEL)
-	setText(slot1:Find("addition"), slot7 == 100 and "" or slot7 .. "%")
+	setText(slot1:Find("addition"), slot7 == 100 and "" or "EXP" .. slot7 .. "%")
 end
 
 function slot0.UpdatePosition(slot0, slot1, slot2)

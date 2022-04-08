@@ -197,6 +197,15 @@ function slot0.Show(slot0)
 	setActive(slot0.bg2, false)
 
 	slot0.skip = false
+
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.playBoxMove(slot0, slot1)

@@ -12,7 +12,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderBoxesUI(Clone)/frame/boxes/mask/content/frame"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/frame/boxes/mask/content/frame"
 			}
 		},
 		{
@@ -23,7 +23,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderBoxesUI(Clone)/frame/close_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/frame/close_btn"
 			}
 		}
 	}

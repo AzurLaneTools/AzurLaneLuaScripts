@@ -830,6 +830,10 @@ _G.pg.gametip.word_sell_out = {
 	tip = "已售罄"
 }
 
+_G.pg.gametip.word_sell_lock = {
+	tip = "未解鎖 "
+}
+
 _G.pg.gametip.word_diamond_tip = {
 	tip = [[
 免費<icon name=diamond w=0.7 h=0.7/>：$1
@@ -18356,6 +18360,10 @@ _G.pg.gametip.fur_all_buy = {
 
 _G.pg.gametip.fur_onekey_buy = {
 	tip = "購買整套"
+}
+
+_G.pg.gametip.tech_package_tip = {
+	tip = "只能購買一種禮包，禮包將發送到郵箱請注意查收\n購買標準版禮包後仍可花費差價升級為高級版"
 }
 
 _G.pg.gametip.backyard_food_shop_tip = {
