@@ -18,6 +18,9 @@ function slot0.OnInit(slot0)
 	slot0.model.localPosition = Vector3(0, 25, 0)
 	slot0.shadow = slot0._tf:Find("shadow")
 	slot0.shadow.localPosition = Vector3(0, 25, 0)
+
+	slot0.shadow:SetAsFirstSibling()
+
 	slot0.spineAnimUI = slot0.role.model:GetComponent(typeof(SpineAnimUI))
 	slot0.clickTF = slot0._tf:Find("click")
 	slot0.chatTF = slot0._tf:Find("chat")

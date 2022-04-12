@@ -238,6 +238,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.ConfigTablePreloadMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.CameraFixMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

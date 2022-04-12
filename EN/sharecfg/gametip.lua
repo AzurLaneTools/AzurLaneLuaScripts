@@ -17894,211 +17894,211 @@ cs.gametip = {
 	},
 	levelScene_remaster_unlock_tip = {
 		621478,
-		135,
+		178,
 		true
 	},
 	linkBtn_text = {
-		621613,
+		621656,
 		74,
 		true
 	},
 	yostar_link_title = {
-		621687,
+		621730,
 		89,
 		true
 	},
 	level_remaster_tip1 = {
-		621776,
+		621819,
 		86,
 		true
 	},
 	level_remaster_tip2 = {
-		621862,
+		621905,
 		80,
 		true
 	},
 	level_remaster_tip3 = {
-		621942,
+		621985,
 		81,
 		true
 	},
 	level_remaster_tip4 = {
-		622023,
+		622066,
 		93,
 		true
 	},
 	pay_cancel = {
-		622116,
+		622159,
 		79,
 		true
 	},
 	order_error = {
-		622195,
+		622238,
 		92,
 		true
 	},
 	pay_fail = {
-		622287,
+		622330,
 		77,
 		true
 	},
 	user_cancel = {
-		622364,
+		622407,
 		85,
 		true
 	},
 	system_error = {
-		622449,
+		622492,
 		79,
 		true
 	},
 	time_out = {
-		622528,
+		622571,
 		100,
 		true
 	},
 	server_error = {
-		622628,
+		622671,
 		93,
 		true
 	},
 	data_error = {
-		622721,
+		622764,
 		89,
 		true
 	},
 	share_success = {
-		622810,
+		622853,
 		88,
 		true
 	},
 	shoot_screen_fail = {
-		622898,
+		622941,
 		89,
 		true
 	},
 	server_name = {
-		622987,
+		623030,
 		78,
 		true
 	},
 	non_support_share = {
-		623065,
+		623108,
 		124,
 		true
 	},
 	save_success = {
-		623189,
+		623232,
 		90,
 		true
 	},
 	word_guild_join_err1 = {
-		623279,
+		623322,
 		106,
 		true
 	},
 	task_empty_tip_1 = {
-		623385,
+		623428,
 		95,
 		true
 	},
 	task_empty_tip_2 = {
-		623480,
+		623523,
 		151,
 		true
 	},
 	["airi_error_code_ 100210"] = {
-		623631,
+		623674,
 		117,
 		true
 	},
 	["airi_error_code_ 100211"] = {
-		623748,
+		623791,
 		128,
 		true
 	},
 	["airi_error_code_ 100212"] = {
-		623876,
+		623919,
 		107,
 		true
 	},
 	["airi_error_code_ 100610"] = {
-		623983,
+		624026,
 		116,
 		true
 	},
 	["airi_error_code_ 100611"] = {
-		624099,
+		624142,
 		111,
 		true
 	},
 	["airi_error_code_ 100612"] = {
-		624210,
+		624253,
 		122,
 		true
 	},
 	["airi_error_code_ 100710"] = {
-		624332,
+		624375,
 		118,
 		true
 	},
 	["airi_error_code_ 100711"] = {
-		624450,
+		624493,
 		118,
 		true
 	},
 	["airi_error_code_ 100712"] = {
-		624568,
+		624611,
 		125,
 		true
 	},
 	["airi_error_code_ 100810"] = {
-		624693,
+		624736,
 		117,
 		true
 	},
 	["airi_error_code_ 100811"] = {
-		624810,
+		624853,
 		128,
 		true
 	},
 	["airi_error_code_ 100812"] = {
-		624938,
+		624981,
 		123,
 		true
 	},
 	["airi_error_code_ 100813"] = {
-		625061,
+		625104,
 		116,
 		true
 	},
 	["airi_error_code_ 100814"] = {
-		625177,
+		625220,
 		111,
 		true
 	},
 	["airi_error_code_ 100815"] = {
-		625288,
+		625331,
 		122,
 		true
 	},
 	["airi_error_code_ 100816"] = {
-		625410,
+		625453,
 		118,
 		true
 	},
 	["airi_error_code_ 100817"] = {
-		625528,
+		625571,
 		118,
 		true
 	},
 	["airi_error_code_ 100818"] = {
-		625646,
+		625689,
 		124,
 		true
 	},
 	facebook_link_title = {
-		625770,
+		625813,
 		93,
 		true
 	}

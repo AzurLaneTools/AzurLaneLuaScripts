@@ -12,7 +12,10 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.ResUISettings(slot0)
-	return true
+	return {
+		showType = PlayerResUI.TYPE_ALL,
+		anim = not slot0.isInit
+	}
 end
 
 function slot0.needCache(slot0)
@@ -129,9 +132,6 @@ end
 function slot0.BlurView(slot0)
 	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0.mainCG.gameObject.transform, {
 		pbList = {
-			slot0.adpterView.topBg,
-			slot0.adpterView.bottomBg,
-			slot0.adpterView.rightBg,
 			slot0:findTF("main/frame/chatPreview"),
 			slot0:findTF("main/frame/eventPanel")
 		},
@@ -240,7 +240,6 @@ function slot0.setVisible(slot0, slot1)
 
 		slot3:Refresh()
 		slot0:PlayBgm(slot2)
-		slot0:PlayEnterAnimation()
 
 		slot3 = slot0.sequenceView
 

@@ -118,6 +118,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
 	slot0:SetPainting()
+	slot0:Init()
 	slot0.studentsPage:ExecuteAction("Show", slot0.students)
 end
 

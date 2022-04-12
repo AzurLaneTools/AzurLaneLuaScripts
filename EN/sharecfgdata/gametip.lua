@@ -19779,7 +19779,7 @@ _G.pg.gametip.levelScene_remaster_story_tip = {
 }
 
 _G.pg.gametip.levelScene_remaster_unlock_tip = {
-	tip = "Unlocked by clearing $1 - $2 in the War Archives."
+	tip = "*All associated event cutscenes will be unlocked after clearing $1 - $2 in the War Archives."
 }
 
 _G.pg.gametip.linkBtn_text = {

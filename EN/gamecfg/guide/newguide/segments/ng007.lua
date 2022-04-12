@@ -34,7 +34,7 @@ return {
 				text = slot0[2]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderBoxesUI(Clone)/frame/boxes/start_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/frame/boxes/start_btn"
 			}
 		},
 		{
@@ -51,7 +51,7 @@ return {
 			ui = {
 				scale = 1,
 				customSize = true,
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/content/list/2/icon",
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/content/list/2/icon",
 				triggerType = {
 					3
 				}
@@ -59,17 +59,17 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/start_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/start_btn"
 			}
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
 			}
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/CommanderBoxesUI(Clone)/frame/close_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/frame/close_btn"
 			}
 		}
 	}

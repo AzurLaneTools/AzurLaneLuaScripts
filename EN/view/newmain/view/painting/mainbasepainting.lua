@@ -238,6 +238,7 @@ end
 
 function slot0.StartChatAnimtion(slot0, slot1, slot2)
 	slot3 = getProxy(SettingsProxy):ShouldShipMainSceneWord() and 1 or 0
+	slot0.chatText:GetComponent(typeof(Text)).enabled = true
 	slot5 = slot1 > 0 and slot1 or 3
 
 	LeanTween.scale(rtf(slot0.chatTf.gameObject), Vector3.New(slot3, slot3, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
@@ -253,6 +254,8 @@ function slot0.StopChatAnimtion(slot0)
 	slot0.chatTf.localScale = Vector3.zero
 
 	slot0:OnEndChatting()
+
+	slot0.chatText:GetComponent(typeof(Text)).enabled = false
 end
 
 function slot0.OnStopVoice(slot0)
