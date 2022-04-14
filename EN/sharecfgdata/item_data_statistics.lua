@@ -9432,6 +9432,90 @@ _G.pg.item_data_statistics[30121] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30132] = {
+	display = "Can be used to obtain a T2 Retrofit Blueprint from the included options.",
+	name = "T2 General Retrofit Blueprint",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30132",
+	id = 30132,
+	display_icon = {
+		{
+			2,
+			18002,
+			1
+		},
+		{
+			2,
+			18012,
+			1
+		},
+		{
+			2,
+			18022,
+			1
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30133] = {
+	display = "Can be used to obtain a T3 Retrofit Blueprint from the included options.",
+	name = "T3 General Retrofit Blueprint",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30133",
+	id = 30133,
+	display_icon = {
+		{
+			2,
+			18003,
+			1
+		},
+		{
+			2,
+			18013,
+			1
+		},
+		{
+			2,
+			18023,
+			1
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30202] = {
 	display = "Can be used to obtain a piece of <color=#ffde38>SR gear</color> from the included options. ",
 	name = "SR Gear Development Pack ",
@@ -14449,6 +14533,417 @@ _G.pg.item_data_statistics[40015] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[40016] = {
+	display = "Contains a large amount of supplies.",
+	name = "PR Voucher & Blueprint Bundle - Series 1",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40016,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		},
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40017] = {
+	display = "Contains a large amount of supplies.",
+	name = "PR Voucher - Series 1",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_normal",
+	id = 40017,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40018] = {
+	display = "Contains a large amount of supplies.",
+	name = "PR Blueprint Pack - Series 1",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40018,
+	display_icon = {
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40019] = {
+	display = "Contains a large amount of supplies.",
+	name = "PR Voucher & Blueprint Bundle - Series 2",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	id = 40019,
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		},
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40020] = {
+	display = "Contains a large amount of supplies.",
+	name = "PR Voucher - Series 2",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_normal",
+	id = 40020,
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40021] = {
+	display = "Contains a large amount of supplies.",
+	name = "PR Blueprint Pack - Series 2",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	id = 40021,
+	display_icon = {
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40022] = {
+	display = "Contains a large amount of supplies.",
+	name = "Commander Level Boost Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/lv_70",
+	id = 40022,
+	display_icon = {
+		{
+			8,
+			40126,
+			1
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			4,
+			100011,
+			4
+		},
+		{
+			4,
+			100001,
+			4
+		},
+		{
+			3,
+			21426,
+			3
+		},
+		{
+			3,
+			31026,
+			3
+		},
+		{
+			3,
+			42226,
+			3
+		},
+		{
+			3,
+			32226,
+			3
+		},
+		{
+			3,
+			43026,
+			3
+		},
+		{
+			3,
+			13146,
+			3
+		},
+		{
+			3,
+			14326,
+			3
+		},
+		{
+			3,
+			24146,
+			3
+		},
+		{
+			3,
+			26526,
+			3
+		},
+		{
+			3,
+			16426,
+			3
+		},
+		{
+			3,
+			5146,
+			3
+		},
+		{
+			3,
+			45126,
+			3
+		},
+		{
+			3,
+			17246,
+			3
+		},
+		{
+			3,
+			47126,
+			3
+		},
+		{
+			3,
+			28126,
+			3
+		},
+		{
+			3,
+			38126,
+			3
+		},
+		{
+			3,
+			19126,
+			3
+		},
+		{
+			3,
+			49046,
+			3
+		},
+		{
+			3,
+			45426,
+			3
+		},
+		{
+			3,
+			35526,
+			3
+		},
+		{
+			3,
+			4046,
+			3
+		},
+		{
+			3,
+			1226,
+			3
+		},
+		{
+			3,
+			1326,
+			3
+		},
+		{
+			3,
+			1426,
+			3
+		},
+		{
+			3,
+			2126,
+			3
+		},
+		{
+			3,
+			2226,
+			3
+		},
+		{
+			3,
+			2426,
+			3
+		},
+		{
+			3,
+			2546,
+			3
+		},
+		{
+			3,
+			2606,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40023] = {
+	display = "Contains a large amount of supplies.",
+	name = "Skill Book Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxSkill",
+	id = 40023,
+	display_icon = {
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[40100] = {
 	display = "Contains 2 Promise Rings",
 	name = "Promise Crate",
@@ -14873,6 +15368,137 @@ _G.pg.item_data_statistics[40119] = {
 			1000
 		}
 	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40124] = {
+	display = [[
+Use this item to instantly unlock any Series 1 PR ship at Development Level 1. Eligible ships:
+Monarch, Neptune, Roon, Saint Louis, Ibuki, Izumo
+<color=#92fc63>If you already have all eligible ships</color>, using this item will instead give you the following: 
+Combat Data Pack - Series 1 x 300
+T3 General Retrofit Blueprint x 5
+T2 General Retrofit Blueprint x 10
+Wisdom Cube x 5
+Coins x 20,000]],
+	name = "PR Voucher - Series 1",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research1",
+	id = 40124,
+	display_icon = {
+		{
+			2,
+			20101,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40125] = {
+	display = [[
+Use this item to instantly unlock any Series 2 PR ship at Development Level 1. Eligible ships:
+Seattle, Georgia, Kitakaze, Gascogne
+<color=#92fc63>If you already have all eligible ships</color>, using this item will instead give you the following: 
+Combat Data Pack - Series 2 x 300
+T3 General Retrofit Blueprint x 5
+T2 General Retrofit Blueprint x 10
+Wisdom Cube x 5
+Coins x 20,000]],
+	name = "PR Voucher - Series 2",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research2",
+	id = 40125,
+	display_icon = {
+		{
+			2,
+			20102,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40126] = {
+	display = "This item will instantly raise your Commander Level to 70 upon purchase. Does nothing if your Commander Level is already at or above 70.",
+	name = "Instant Commander Level 70",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 23,
+	is_world = 0,
+	icon = "Props/lv_70",
+	id = 40126,
+	display_icon = {},
 	price = {},
 	index = {}
 }
@@ -151473,6 +152099,111 @@ _G.pg.item_data_statistics[59282] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59283] = {
+	display = "Used to exchange for items in \"Aurora Noctis.\" Will be removed after the event ends. ",
+	name = "Royal Coronet ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yingxiv2_pt",
+	id = 59283,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59284] = {
+	display = "A limited construction ticket for use during the \"Little Royal Knight\" event. Removed after the event ends.",
+	name = "Shipbuilding Support Ticket",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4298,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59284,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59285] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+	name = "Rental Outfit Voucher ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59285,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59286] = {
+	display = "Event: \"Today's Debut✩Tomorrow's Star!\" Friendship Point Reward ",
+	name = "Friendship Points ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xiaoshengwang_pt",
+	id = 59286,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59287] = {
+	display = "Used to exchange for a portrait frame. Expires after the event ends. ",
+	name = "Intel Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_y",
+	id = 59287,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -160051,6 +160782,27 @@ _G.pg.item_data_statistics[69000] = {
 	is_world = 0,
 	icon = "Props/guild_boss_damage",
 	id = 69000,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69001] = {
+	display = "Can be used to obtain the following gear:",
+	name = "Rapid Training Gear Pack",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lv70_equip",
+	id = 69001,
 	display_icon = {},
 	price = {},
 	index = {}

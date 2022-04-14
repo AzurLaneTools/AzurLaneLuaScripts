@@ -1129,7 +1129,11 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 			uv0.viewComponent:switchToMap(slot0)
 		end,
 		function (slot0)
-			if getProxy(ChapterProxy):getMapById(uv0:getConfig("map")):isRemaster() then
+			if not uv0 then
+				return slot0()
+			end
+
+			if getProxy(ChapterProxy):getMapById(uv1:getConfig("map")):isRemaster() then
 				slot3 = slot2:getRemaster()
 				slot4 = pg.re_map_template[slot3]
 

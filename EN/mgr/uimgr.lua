@@ -26,6 +26,10 @@ function slot1.Init(slot0, slot1)
 	slot0.OverlayEffect = slot0.overlayCamera:Find("Overlay/UIEffect")
 	slot0._cameraBlurPartial = slot0.uiCamera:GetComponent("UIPartialBlur")
 	slot0._levelCameraPartial = slot0.levelCamera:GetComponent("UIPartialBlur")
+
+	ReflectionHelp.RefCallMethod(typeof("UIPartialBlur"), "Cleanup", slot0._levelCameraPartial)
+
+	slot0._levelCameraPartial.blurCam = slot0.levelCameraComp
 	slot0.cameraBlurs = {
 		[uv0.CameraUI] = {
 			slot0.uiCamera:GetComponent("BlurOptimized"),
@@ -74,7 +78,7 @@ function slot1.Init(slot0, slot1)
 		end
 
 		slot0.downsample = 2
-		slot0.blurSize = 8
+		slot0.blurSize = 4
 		slot0.blurIterations = 1
 	end
 
@@ -84,7 +88,7 @@ function slot1.Init(slot0, slot1)
 		end
 
 		slot0.downsample = 2
-		slot0.blurSize = 8
+		slot0.blurSize = 1.5
 		slot0.blurIteration = 1
 	end
 
@@ -138,9 +142,6 @@ function slot1.Init(slot0, slot1)
 				SetActive(uv0.OverlayEffect, PlayerPrefs.GetInt(SHOW_TOUCH_EFFECT, 1) > 0)
 				uv1()
 			end)
-		end,
-		function (slot0)
-			uv0:InitBgmCfg(slot0)
 		end
 	}, slot1)
 end

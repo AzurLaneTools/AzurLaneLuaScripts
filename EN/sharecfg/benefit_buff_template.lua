@@ -1,6 +1,7 @@
 pg = pg or {}
 pg.benefit_buff_template = {
 	{
+		icon = "Props/haijungali",
 		name = "",
 		hide = 0,
 		max_time = 86400,
@@ -8,10 +9,11 @@ pg.benefit_buff_template = {
 		desc = "Dorm EXP bonus +5%",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/haijungali",
+		type_priority = 0,
 		benefit_type = "dorm_exp"
 	},
 	{
+		icon = "Props/huangjialiaoli",
 		name = "",
 		hide = 0,
 		max_time = 86400,
@@ -19,10 +21,11 @@ pg.benefit_buff_template = {
 		desc = "Dorm EXP bonus +10%",
 		benefit_effect = "10",
 		id = 2,
-		icon = "Props/huangjialiaoli",
+		type_priority = 0,
 		benefit_type = "dorm_exp"
 	},
 	{
+		icon = "Props/manhanquanxi",
 		name = "",
 		hide = 0,
 		max_time = 86400,
@@ -30,18 +33,19 @@ pg.benefit_buff_template = {
 		desc = "Dorm EXP bonus +20%",
 		benefit_effect = "20",
 		id = 3,
-		icon = "Props/manhanquanxi",
+		type_priority = 0,
 		benefit_type = "dorm_exp"
 	},
 	{
-		benefit_effect = "100",
+		icon = "Props/xinshou",
 		name = "EXP Bonus",
 		hide = 0,
 		max_time = 0,
-		id = 4,
-		icon = "Props/xinshou",
-		benefit_type = "rookie_battle_exp",
 		desc = "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 60.",
+		benefit_effect = "100",
+		id = 4,
+		type_priority = 0,
+		benefit_type = "rookie_battle_exp",
 		benefit_condition = {
 			"lv",
 			"<",
@@ -49,6 +53,7 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
+		icon = "more_oil",
 		name = "",
 		hide = 0,
 		max_time = 0,
@@ -56,10 +61,11 @@ pg.benefit_buff_template = {
 		desc = "",
 		benefit_effect = "100",
 		id = 5,
-		icon = "more_oil",
+		type_priority = 0,
 		benefit_type = "more_oil"
 	},
 	{
+		icon = "user_battle_exp",
 		name = "",
 		hide = 0,
 		max_time = 0,
@@ -67,10 +73,11 @@ pg.benefit_buff_template = {
 		desc = "",
 		benefit_effect = "100",
 		id = 6,
-		icon = "user_battle_exp",
+		type_priority = 0,
 		benefit_type = "user_battle_exp"
 	},
 	{
+		icon = "ship_battle_exp",
 		name = "",
 		hide = 0,
 		max_time = 0,
@@ -78,10 +85,11 @@ pg.benefit_buff_template = {
 		desc = "",
 		benefit_effect = "100",
 		id = 7,
-		icon = "ship_battle_exp",
+		type_priority = 0,
 		benefit_type = "ship_battle_exp"
 	},
 	{
+		icon = "extra_drop",
 		name = "",
 		hide = 0,
 		max_time = 0,
@@ -89,10 +97,11 @@ pg.benefit_buff_template = {
 		desc = "",
 		benefit_effect = "1",
 		id = 8,
-		icon = "extra_drop",
+		type_priority = 0,
 		benefit_type = "extra_drop"
 	},
 	{
+		icon = "extra_activity_drop",
 		name = "",
 		hide = 0,
 		max_time = 0,
@@ -100,10 +109,11 @@ pg.benefit_buff_template = {
 		desc = "Provide an extra drop for event stages and can&apos;t be used for the first drop of the day. ",
 		benefit_effect = "1",
 		id = 9,
-		icon = "extra_activity_drop",
+		type_priority = 0,
 		benefit_type = "extra_activity_drop"
 	},
 	{
+		icon = "Props/buff_qiaozhong_10",
 		name = "Academic Achievement",
 		hide = 0,
 		max_time = 86400,
@@ -111,10 +121,11 @@ pg.benefit_buff_template = {
 		desc = "Tactical Class lesson time is reduced. \nTime remaining: $1",
 		benefit_effect = "300",
 		id = 10,
-		icon = "Props/buff_qiaozhong_10",
+		type_priority = 0,
 		benefit_type = "skill_learncost_up"
 	},
 	{
+		icon = "Props/buff_qiaozhong_11",
 		name = "Career Success",
 		hide = 0,
 		max_time = 86400,
@@ -122,10 +133,11 @@ pg.benefit_buff_template = {
 		desc = "While sortieing in a Campaign, Hard Mode, or War Archives map, your ships deal slightly more DMG. \nTime remaining: $1",
 		benefit_effect = "522",
 		id = 11,
-		icon = "Props/buff_qiaozhong_11",
+		type_priority = 0,
 		benefit_type = "battle_buff"
 	},
 	{
+		icon = "Props/buff_qiaozhong_12",
 		name = "Fruitful Courtship",
 		hide = 0,
 		max_time = 86400,
@@ -133,18 +145,19 @@ pg.benefit_buff_template = {
 		desc = "Increases the rate at which your secretary ship gains Affection. \nTime remaining: $1",
 		benefit_effect = "1",
 		id = 12,
-		icon = "Props/buff_qiaozhong_12",
+		type_priority = 0,
 		benefit_type = "intimacy_up_extra"
 	},
 	{
-		benefit_effect = "3",
+		icon = "Props/xinshou",
 		name = "Combat Insight I",
 		hide = 0,
 		max_time = 0,
-		id = 13,
-		icon = "Props/xinshou",
-		benefit_type = "ship_battle_exp",
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 3%",
+		benefit_effect = "3",
+		id = 13,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -155,14 +168,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "4",
+		icon = "Props/xinshou",
 		name = "Combat Insight II",
 		hide = 0,
 		max_time = 0,
-		id = 14,
-		icon = "Props/xinshou",
-		benefit_type = "ship_battle_exp",
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 4%",
+		benefit_effect = "4",
+		id = 14,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -173,14 +187,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "5",
+		icon = "Props/xinshou",
 		name = "Combat Insight III",
 		hide = 0,
 		max_time = 0,
-		id = 15,
-		icon = "Props/xinshou",
-		benefit_type = "ship_battle_exp",
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 5%",
+		benefit_effect = "5",
+		id = 15,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -191,14 +206,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "500",
+		icon = "Props/buff_minigame_11",
 		name = "Battle Acumen I",
 		hide = 0,
 		max_time = 0,
-		id = 16,
-		icon = "Props/buff_minigame_11",
-		benefit_type = "battle_buff",
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 1%",
+		benefit_effect = "500",
+		id = 16,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -209,14 +225,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "502",
+		icon = "Props/buff_minigame_11",
 		name = "Battle Acumen II",
 		hide = 0,
 		max_time = 0,
-		id = 17,
-		icon = "Props/buff_minigame_11",
-		benefit_type = "battle_buff",
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 2%",
+		benefit_effect = "502",
+		id = 17,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -227,14 +244,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "504",
+		icon = "Props/buff_minigame_11",
 		name = "Battle Acumen III",
 		hide = 0,
 		max_time = 0,
-		id = 18,
-		icon = "Props/buff_minigame_11",
-		benefit_type = "battle_buff",
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 3%",
+		benefit_effect = "504",
+		id = 18,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -245,14 +263,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "300",
+		icon = "Props/buff_minigame_10",
 		name = "Efficient Education I",
 		hide = 0,
 		max_time = 0,
-		id = 19,
-		icon = "Props/buff_minigame_10",
-		benefit_type = "skill_learncost_up",
 		desc = "Reduces Tactical Class training time by 3%",
+		benefit_effect = "300",
+		id = 19,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -263,14 +282,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "400",
+		icon = "Props/buff_minigame_10",
 		name = "Efficient Education II",
 		hide = 0,
 		max_time = 0,
-		id = 20,
-		icon = "Props/buff_minigame_10",
-		benefit_type = "skill_learncost_up",
 		desc = "Reduces Tactical Class training time by 4%",
+		benefit_effect = "400",
+		id = 20,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -281,14 +301,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "500",
+		icon = "Props/buff_minigame_10",
 		name = "Efficient Education III",
 		hide = 0,
 		max_time = 0,
-		id = 21,
-		icon = "Props/buff_minigame_10",
-		benefit_type = "skill_learncost_up",
 		desc = "Reduces Tactical Class training time by 5%",
+		benefit_effect = "500",
+		id = 21,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -299,14 +320,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "3",
+		icon = "Props/buff_minigame_12",
 		name = "Leisurely Learning I",
 		hide = 0,
 		max_time = 0,
-		id = 22,
-		icon = "Props/buff_minigame_12",
-		benefit_type = "dorm_exp",
 		desc = "Increases EXP gained in the Dorm by 3%",
+		benefit_effect = "3",
+		id = 22,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -317,14 +339,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "4",
+		icon = "Props/buff_minigame_12",
 		name = "Leisurely Learning II",
 		hide = 0,
 		max_time = 0,
-		id = 23,
-		icon = "Props/buff_minigame_12",
-		benefit_type = "dorm_exp",
 		desc = "Increases EXP gained in the Dorm by 4%",
+		benefit_effect = "4",
+		id = 23,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -335,14 +358,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "5",
+		icon = "Props/buff_minigame_12",
 		name = "Leisurely Learning III",
 		hide = 0,
 		max_time = 0,
-		id = 24,
-		icon = "Props/buff_minigame_12",
-		benefit_type = "dorm_exp",
 		desc = "Increases EXP gained in the Dorm by 5%",
+		benefit_effect = "5",
+		id = 24,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
 			4113,
@@ -353,6 +377,7 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
+		icon = "Props/buff_urptup",
 		name = "Specialized Core Event Boost ",
 		hide = 0,
 		max_time = 0,
@@ -360,153 +385,163 @@ pg.benefit_buff_template = {
 		desc = "\"Dreamwaker's Butterfly\" Event Stages will drop twice the amount of Specialized Cores. ",
 		benefit_effect = "0",
 		id = 25,
-		icon = "Props/buff_urptup",
+		type_priority = 0,
 		benefit_type = "urpt_drop_up"
 	},
 	{
-		benefit_effect = "500",
-		name = "Vocal Appeal",
-		hide = 0,
-		max_time = 0,
-		id = 26,
 		icon = "Props/yanchangli1",
-		benefit_type = "battle_buff",
+		name = "Vocal Appeal",
+		hide = 0,
+		max_time = 0,
 		desc = "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 1.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "502",
-		name = "Vocal Appeal",
-		hide = 0,
-		max_time = 0,
-		id = 27,
-		icon = "Props/yanchangli2",
-		benefit_type = "battle_buff",
-		desc = "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 2.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "504",
-		name = "Vocal Appeal",
-		hide = 0,
-		max_time = 0,
-		id = 28,
-		icon = "Props/yanchangli3",
-		benefit_type = "battle_buff",
-		desc = "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 3.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "510",
-		name = "Glamorous Steps",
-		hide = 0,
-		max_time = 0,
-		id = 29,
-		icon = "Props/wudaoli1",
-		benefit_type = "battle_buff",
-		desc = "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 1.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "512",
-		name = "Glamorous Steps",
-		hide = 0,
-		max_time = 0,
-		id = 30,
-		icon = "Props/wudaoli2",
-		benefit_type = "battle_buff",
-		desc = "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 2.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "514",
-		name = "Glamorous Steps",
-		hide = 0,
-		max_time = 0,
-		id = 31,
-		icon = "Props/wudaoli3",
-		benefit_type = "battle_buff",
-		desc = "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 3.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "3",
-		name = "Memorable Performance",
-		hide = 0,
-		max_time = 0,
-		id = 32,
-		icon = "Props/biaoyanli1",
-		benefit_type = "ship_battle_exp",
-		desc = "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 3.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "4",
-		name = "Memorable Performance",
-		hide = 0,
-		max_time = 0,
-		id = 33,
-		icon = "Props/biaoyanli2",
-		benefit_type = "ship_battle_exp",
-		desc = "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 4.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
-		benefit_effect = "5",
-		name = "Memorable Performance",
-		hide = 0,
-		max_time = 0,
-		id = 34,
-		icon = "Props/biaoyanli3",
-		benefit_type = "ship_battle_exp",
-		desc = "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 5.0%.",
-		benefit_condition = {
-			"activity",
-			30746,
-			0
-		}
-	},
-	{
 		benefit_effect = "500",
+		id = 26,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli2",
+		name = "Vocal Appeal",
+		hide = 0,
+		max_time = 0,
+		desc = "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 2.0%.",
+		benefit_effect = "502",
+		id = 27,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli3",
+		name = "Vocal Appeal",
+		hide = 0,
+		max_time = 0,
+		desc = "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 3.0%.",
+		benefit_effect = "504",
+		id = 28,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli1",
+		name = "Glamorous Steps",
+		hide = 0,
+		max_time = 0,
+		desc = "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 1.0%.",
+		benefit_effect = "510",
+		id = 29,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli2",
+		name = "Glamorous Steps",
+		hide = 0,
+		max_time = 0,
+		desc = "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 2.0%.",
+		benefit_effect = "512",
+		id = 30,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli3",
+		name = "Glamorous Steps",
+		hide = 0,
+		max_time = 0,
+		desc = "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 3.0%.",
+		benefit_effect = "514",
+		id = 31,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/biaoyanli1",
+		name = "Memorable Performance",
+		hide = 0,
+		max_time = 0,
+		desc = "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 3.0%.",
+		benefit_effect = "3",
+		id = 32,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/biaoyanli2",
+		name = "Memorable Performance",
+		hide = 0,
+		max_time = 0,
+		desc = "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 4.0%.",
+		benefit_effect = "4",
+		id = 33,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/biaoyanli3",
+		name = "Memorable Performance",
+		hide = 0,
+		max_time = 0,
+		desc = "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 5.0%.",
+		benefit_effect = "5",
+		id = 34,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			30746,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli1",
 		name = "<color=#ff5c5c>POW</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
-		id = 35,
-		icon = "Props/yanchangli1",
-		benefit_type = "battle_buff",
 		desc = "Deal 1% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
+		benefit_effect = "500",
+		id = 35,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -514,14 +549,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "502",
+		icon = "Props/yanchangli2",
 		name = "<color=#ff5c5c>POW</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
-		id = 36,
-		icon = "Props/yanchangli2",
-		benefit_type = "battle_buff",
 		desc = "Deal 2% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
+		benefit_effect = "502",
+		id = 36,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -529,14 +565,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "504",
+		icon = "Props/yanchangli3",
 		name = "<color=#ff5c5c>POW </color>MAX:",
 		hide = 0,
 		max_time = 0,
-		id = 37,
-		icon = "Props/yanchangli3",
-		benefit_type = "battle_buff",
 		desc = "Deal 3% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
+		benefit_effect = "504",
+		id = 37,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -544,14 +581,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "300",
+		icon = "Props/buff_minigame_10",
 		name = "<color=#00BFFF>TEC</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
-		id = 38,
-		icon = "Props/buff_minigame_10",
-		benefit_type = "skill_learncost_up",
 		desc = "Training time in the Tactical Academy is reduced by 3%.",
+		benefit_effect = "300",
+		id = 38,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -559,14 +597,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "400",
+		icon = "Props/buff_minigame_10",
 		name = "<color=#00BFFF>TEC</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
-		id = 39,
-		icon = "Props/buff_minigame_10",
-		benefit_type = "skill_learncost_up",
 		desc = "Training time in the Tactical Academy is reduced by 4%.",
+		benefit_effect = "400",
+		id = 39,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -574,14 +613,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "500",
+		icon = "Props/buff_minigame_10",
 		name = "<color=#00BFFF>TEC</color> MAX:",
 		hide = 0,
 		max_time = 0,
-		id = 40,
-		icon = "Props/buff_minigame_10",
-		benefit_type = "skill_learncost_up",
 		desc = "Training time in the Tactical Academy is reduced by 5%.",
+		benefit_effect = "500",
+		id = 40,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -589,14 +629,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "3",
+		icon = "Props/biaoyanli1",
 		name = "<color=#ffde38>STM</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
-		id = 41,
-		icon = "Props/biaoyanli1",
-		benefit_type = "ship_battle_exp",
 		desc = "Earn 3% more EXP in Campaign, Hard Mode, Event, and War Archives stages.",
+		benefit_effect = "3",
+		id = 41,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -604,14 +645,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "4",
+		icon = "Props/biaoyanli2",
 		name = "<color=#ffde38>STM</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
-		id = 42,
-		icon = "Props/biaoyanli2",
-		benefit_type = "ship_battle_exp",
 		desc = "Earn 4% more EXP in Campaign, Hard Mode, Event, and War Archives stages.",
+		benefit_effect = "4",
+		id = 42,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -619,14 +661,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "5",
+		icon = "Props/biaoyanli3",
 		name = "<color=#ffde38>STM</color> MAX:",
 		hide = 0,
 		max_time = 0,
-		id = 43,
-		icon = "Props/biaoyanli3",
-		benefit_type = "ship_battle_exp",
 		desc = "Earn 5% more EXP in Campaign, Hard Mode, Event, and War Archives stages.",
+		benefit_effect = "5",
+		id = 43,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -634,14 +677,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "3",
+		icon = "Props/buff_minigame_12",
 		name = "<color=#FF69B4>APL</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
-		id = 44,
-		icon = "Props/buff_minigame_12",
-		benefit_type = "dorm_exp",
 		desc = "Earn 3% more EXP in the Dormitory.",
+		benefit_effect = "3",
+		id = 44,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -649,14 +693,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "4",
+		icon = "Props/buff_minigame_12",
 		name = "<color=#FF69B4>APL</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
-		id = 45,
-		icon = "Props/buff_minigame_12",
-		benefit_type = "dorm_exp",
 		desc = "Earn 4% more EXP in the Dormitory.",
+		benefit_effect = "4",
+		id = 45,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -664,14 +709,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "5",
+		icon = "Props/buff_minigame_12",
 		name = "<color=#FF69B4>APL</color> MAX:",
 		hide = 0,
 		max_time = 0,
-		id = 46,
-		icon = "Props/buff_minigame_12",
-		benefit_type = "dorm_exp",
 		desc = "Earn 5% more EXP in the Dormitory.",
+		benefit_effect = "5",
+		id = 46,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
 			30770,
@@ -679,6 +725,7 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
+		icon = "Props/xinshou",
 		name = "High-Efficiency Operation Description",
 		hide = 0,
 		max_time = 0,
@@ -686,10 +733,11 @@ pg.benefit_buff_template = {
 		desc = "2x Oil Consumption\n2x Rewards",
 		benefit_effect = "0",
 		id = 47,
-		icon = "Props/xinshou",
+		type_priority = 0,
 		benefit_type = "desc"
 	},
 	{
+		icon = "Props/xinshou",
 		name = "High-Efficiency Operation Bonus",
 		hide = 0,
 		max_time = 0,
@@ -697,18 +745,19 @@ pg.benefit_buff_template = {
 		desc = "Mood, Affection, Commander EXP, Meowfficer EXP, and Ship EXP Bonus",
 		benefit_effect = "100",
 		id = 48,
-		icon = "Props/xinshou",
+		type_priority = 0,
 		benefit_type = "chapter_up"
 	},
 	{
-		benefit_effect = "510",
-		name = "",
-		hide = 0,
-		max_time = 0,
-		id = 49,
 		icon = "Props/yanchangli1",
-		benefit_type = "battle_buff",
+		name = "",
+		hide = 0,
+		max_time = 0,
 		desc = "Your ships take 1.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "510",
+		id = 49,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -716,14 +765,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "512",
+		icon = "Props/yanchangli2",
 		name = "",
 		hide = 0,
 		max_time = 0,
-		id = 50,
-		icon = "Props/yanchangli2",
-		benefit_type = "battle_buff",
 		desc = "Your ships take 2.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "512",
+		id = 50,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -731,14 +781,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "514",
+		icon = "Props/yanchangli3",
 		name = "",
 		hide = 0,
 		max_time = 0,
-		id = 51,
-		icon = "Props/yanchangli3",
-		benefit_type = "battle_buff",
 		desc = "Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "514",
+		id = 51,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -746,14 +797,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "516",
-		name = "",
-		hide = 0,
-		max_time = 0,
-		id = 52,
 		icon = "Props/yanchangli2",
-		benefit_type = "battle_buff",
+		name = "",
+		hide = 0,
+		max_time = 0,
 		desc = "Your ships take 4.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "516",
+		id = 52,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -761,14 +813,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "518",
-		name = "",
-		hide = 0,
-		max_time = 0,
-		id = 53,
 		icon = "Props/yanchangli3",
-		benefit_type = "battle_buff",
+		name = "",
+		hide = 0,
+		max_time = 0,
 		desc = "Your ships take 5.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "518",
+		id = 53,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -776,14 +829,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "500",
-		name = "",
-		hide = 0,
-		max_time = 0,
-		id = 54,
 		icon = "Props/wudaoli1",
-		benefit_type = "battle_buff",
+		name = "",
+		hide = 0,
+		max_time = 0,
 		desc = "Your ships deal 1.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "500",
+		id = 54,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -791,14 +845,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "502",
+		icon = "Props/wudaoli2",
 		name = "",
 		hide = 0,
 		max_time = 0,
-		id = 55,
-		icon = "Props/wudaoli2",
-		benefit_type = "battle_buff",
 		desc = "Your ships deal 2.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "502",
+		id = 55,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -806,14 +861,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "504",
+		icon = "Props/wudaoli3",
 		name = "",
 		hide = 0,
 		max_time = 0,
-		id = 56,
-		icon = "Props/wudaoli3",
-		benefit_type = "battle_buff",
 		desc = "Your ships deal 3.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "504",
+		id = 56,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -821,29 +877,15 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "506",
-		name = "",
-		hide = 0,
-		max_time = 0,
-		id = 57,
 		icon = "Props/wudaoli2",
-		benefit_type = "battle_buff",
-		desc = "Your ships deal 4.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
-		benefit_condition = {
-			"activity",
-			4202,
-			0
-		}
-	},
-	{
-		benefit_effect = "508",
 		name = "",
 		hide = 0,
 		max_time = 0,
-		id = 58,
-		icon = "Props/wudaoli3",
+		desc = "Your ships deal 4.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "506",
+		id = 57,
+		type_priority = 0,
 		benefit_type = "battle_buff",
-		desc = "Your ships deal 5.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
 		benefit_condition = {
 			"activity",
 			4202,
@@ -851,14 +893,31 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "520",
+		icon = "Props/wudaoli3",
+		name = "",
+		hide = 0,
+		max_time = 0,
+		desc = "Your ships deal 5.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+		benefit_effect = "508",
+		id = 58,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
 		name = "",
 		hide = 0,
 		max_time = 86400,
-		id = 59,
-		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
 		desc = "Shoukaku's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 59,
+		type_priority = 0,
+		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
 			4203,
@@ -866,94 +925,112 @@ pg.benefit_buff_template = {
 		}
 	},
 	{
-		benefit_effect = "3",
+		icon = "Props/jianchuanqiyuan",
 		name = "",
 		hide = 0,
 		max_time = 86400,
-		id = 60,
-		icon = "Props/jianchuanqiyuan",
-		benefit_type = "ship_battle_exp",
 		desc = "Zuikaku's Blessings: Your ships earn 3.0% more EXP from Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
-		benefit_condition = {
-			"activity",
-			4203,
-			0
-		}
-	},
-	{
 		benefit_effect = "3",
-		name = "",
-		hide = 0,
-		max_time = 86400,
-		id = 61,
-		icon = "Props/jianchuanqiyuan",
-		benefit_type = "dorm_exp",
-		desc = "Le Malin's Blessings: Your ships earn 3.0% more EXP in the Dorm.\nBuff duration: $1",
-		benefit_condition = {
-			"activity",
-			4203,
-			0
-		}
-	},
-	{
-		benefit_effect = "3",
-		name = "",
-		hide = 0,
-		max_time = 86400,
-		id = 62,
-		icon = "Props/jianchuanqiyuan",
-		benefit_type = "dorm_exp",
-		desc = "Victorious' Blessings: Your ships earn 3.0% more EXP in the Dorm.\nBuff duration: $1",
-		benefit_condition = {
-			"activity",
-			4203,
-			0
-		}
-	},
-	{
-		benefit_effect = "520",
-		name = "",
-		hide = 0,
-		max_time = 86400,
-		id = 63,
-		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
-		desc = "Tirpitz's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
-		benefit_condition = {
-			"activity",
-			4203,
-			0
-		}
-	},
-	{
-		benefit_effect = "520",
-		name = "",
-		hide = 0,
-		max_time = 86400,
-		id = 64,
-		icon = "Props/jianchuanqiyuan",
-		benefit_type = "battle_buff",
-		desc = "Illustrious' Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
-		benefit_condition = {
-			"activity",
-			4203,
-			0
-		}
-	},
-	{
-		benefit_effect = "3",
-		name = "",
-		hide = 0,
-		max_time = 86400,
-		id = 65,
-		icon = "Props/jianchuanqiyuan",
+		id = 60,
+		type_priority = 0,
 		benefit_type = "ship_battle_exp",
-		desc = "Essex's Blessings: Your ships earn 3.0% more EXP from Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
 		benefit_condition = {
 			"activity",
 			4203,
 			0
 		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Le Malin's Blessings: Your ships earn 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 61,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Victorious' Blessings: Your ships earn 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 62,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Tirpitz's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 63,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Illustrious' Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 64,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Essex's Blessings: Your ships earn 3.0% more EXP from Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 65,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	[103] = {
+		icon = "Props/newserver_skill",
+		name = "Campaign Skill Leveling Bonus",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "The first 10 times a day you level a skill in the Tactical Class, you can complete the leveling instantly.",
+		benefit_effect = "10",
+		id = 103,
+		type_priority = 0,
+		benefit_type = "skill_learn_time"
 	},
 	all = {
 		1,
@@ -1020,6 +1097,7 @@ pg.benefit_buff_template = {
 		62,
 		63,
 		64,
-		65
+		65,
+		103
 	}
 }

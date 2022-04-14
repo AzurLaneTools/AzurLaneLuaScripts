@@ -54,9 +54,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	setActive(slot0.timeLimitTF, slot4)
 
 	if slot4 and slot5 then
-		slot8, slot9, slot10 = getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id):GetEndTime()
-
-		setText(slot0:findTF("Text", slot0.timeLimitTF), i18n("eventshop_time_hint", slot9 .. "." .. slot10))
+		setText(slot0:findTF("Text", slot0.timeLimitTF), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id).stopTime, "%m.%d")))
 	end
 
 	slot6, slot7 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))

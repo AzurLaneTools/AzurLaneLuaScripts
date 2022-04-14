@@ -73,7 +73,7 @@ function slot0.showUserAgreement(slot0, slot1)
 			uv1()
 		end
 	end)
-	onButton(slot0, slot0.self.closeUserAgreenTF, function ()
+	onButton(slot0, slot0.closeUserAgreenTF, function ()
 		setActive(uv0.userAgreenTF, false)
 	end)
 end

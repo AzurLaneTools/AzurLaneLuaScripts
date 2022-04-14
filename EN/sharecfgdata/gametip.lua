@@ -1162,6 +1162,10 @@ _G.pg.gametip.word_sell_out = {
 	tip = "Sold out"
 }
 
+_G.pg.gametip.word_sell_lock = {
+	tip = "Lock"
+}
+
 _G.pg.gametip.word_diamond_tip = {
 	tip = [[
 
@@ -2491,11 +2495,11 @@ _G.pg.gametip.mail_count = {
 }
 
 _G.pg.gametip.mail_takeAttachment_error_magazine_full = {
-	tip = "<color=#92fc63>Failed to collect.</color>Your <color=#92fc63>gear storage is full</color>."
+	tip = "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Gear Depot</color>."
 }
 
 _G.pg.gametip.mail_takeAttachment_error_dockYrad_full = {
-	tip = "<color=#92fc63>Failed to collect.</color>Because your <color=#92fc63>dock is full</color>."
+	tip = "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Dock</color>."
 }
 
 _G.pg.gametip.mail_confirm_set_important_flag = {
@@ -7053,6 +7057,10 @@ _G.pg.gametip.gold_max_tip_title = {
 	tip = "You can't hold any more Coins. "
 }
 
+_G.pg.gametip.expbook_max_tip_title = {
+	tip = "You cannot store any more EXP Packs."
+}
+
 _G.pg.gametip.resource_max_tip_shop = {
 	tip = "Unable to buy resource."
 }
@@ -9825,7 +9833,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Build 200 times to receive a guaranteed copy of Kronshtadt! (Up to 4 copies can be claimed this way)"
+	tip = "Rate UP for Howe, Perseus, Eagle, and more!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -18138,6 +18146,10 @@ The game ends when the timer reaches 0 or when you tap the End Game button.]]
 	}
 }
 
+_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+	tip = "This furniture cannot be rotated."
+}
+
 _G.pg.gametip.chazi_tips = {
 	tip = {
 		{
@@ -19694,6 +19706,39 @@ _G.pg.gametip.fur_onekey_buy = {
 	tip = "Buy Set"
 }
 
+_G.pg.gametip.littleRenown_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Little Renown will provisionally join your fleet. Sortie to various stages to accumulate Trust. Collect enough Trust to have Little Renown permanently join your fleet!"
+		},
+		{
+			info = "- How to Play -\n· During the event period, clear Main Story stages including and beyond Chapter 3 to obtain Trust. You will be able to collect rewards for accumulating a certain amount of Trust."
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Renown until you have formally recruited her to the fleet. You will also not be able to Retire her, Limit Break her, or Strengthen her."
+		},
+		{
+			info = "· If Little Renown is afloat in a fleet that defeats the Boss Fleet of a stage that grants Trust, the amount of Trust granted will be doubled."
+		},
+		{
+			info = "· If Little Renown has not been formally recruited by the end of the event, she will leave the Port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day."
+		},
+		{
+			info = "· Little Renown cannot participate in Operation Siren or META Showdowns until she has been formally recruited. Operation Siren battles also do not grant any Trust."
+		},
+		{
+			info = "· Little Renown cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
+}
+
+_G.pg.gametip.tech_package_tip = {
+	tip = "The PR Voucher can only be bought once for each series. You may buy the Blueprints separately after buying the Voucher.\nThe items will be sent to your Mailbox."
+}
+
 _G.pg.gametip.backyard_food_shop_tip = {
 	tip = "Will cost:"
 }
@@ -19944,4 +19989,118 @@ _G.pg.gametip["airi_error_code_ 100818"] = {
 
 _G.pg.gametip.facebook_link_title = {
 	tip = "Facebook Account:$1"
+}
+
+_G.pg.gametip.skill_learn_tip = {
+	tip = "You can quickly finish a class $1 more time(s) today."
+}
+
+_G.pg.gametip.build_count_tip = {
+	tip = "Total"
+}
+
+_G.pg.gametip.help_research_package = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/tecshipgifthelp",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.gametip.lv70_package_tip = {
+	tip = "Buying this pack will not affect your Commander Level as it's already at or above 70. You will only receive the other items. Buy this pack anyway?"
+}
+
+_G.pg.gametip.tech_select_tip1 = {
+	tip = "Eligible PR Ships"
+}
+
+_G.pg.gametip.tech_select_tip2 = {
+	tip = "Select a PR ship to unlock."
+}
+
+_G.pg.gametip.tech_select_tip3 = {
+	tip = "Already Unlocked"
+}
+
+_G.pg.gametip.tech_select_tip4 = {
+	tip = "All PRs Unlocked"
+}
+
+_G.pg.gametip.tech_select_tip5 = {
+	tip = "You will instead receive these items."
+}
+
+_G.pg.gametip.techpackage_item_use = {
+	tip = "Do you want to spend your PR Voucher to immediately unlock $1? \nShe will be added to your Dock at Development Level 1."
+}
+
+_G.pg.gametip.techpackage_item_use_confirm = {
+	tip = "As you've already unlocked all eligible PRs, you will instead receive the following items:"
+}
+
+_G.pg.gametip.newserver_shop_timelimit = {
+	tip = "Unlocked after $1."
+}
+
+_G.pg.gametip.tech_character_get = {
+	tip = "In Dock"
+}
+
+_G.pg.gametip.package_detail_tip = {
+	tip = "Detail "
+}
+
+_G.pg.gametip.event_ui_consume = {
+	tip = "Cost"
+}
+
+_G.pg.gametip.event_ui_recommend = {
+	tip = "Recommend"
+}
+
+_G.pg.gametip.event_ui_start = {
+	tip = "Start"
+}
+
+_G.pg.gametip.event_ui_giveup = {
+	tip = "Cancel"
+}
+
+_G.pg.gametip.event_ui_finish = {
+	tip = "Complete"
+}
+
+_G.pg.gametip.nav_tactics_sel_skill_title = {
+	tip = "Select Skill"
+}
+
+_G.pg.gametip.battle_result_confirm = {
+	tip = "Confirm"
+}
+
+_G.pg.gametip.battle_result_targets = {
+	tip = "Targets"
+}
+
+_G.pg.gametip.battle_result_continue = {
+	tip = "Touch to continue"
 }

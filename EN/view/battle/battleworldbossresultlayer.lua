@@ -528,7 +528,7 @@ function slot0.displayShips(slot0)
 			slot43 = findTF(slot31, "exp_text")
 			slot45 = findTF(slot31, "exp_progress"):GetComponent(typeof(Image))
 
-			setActive(findTF(slot31, "exp_buff"), slot0.expBuff)
+			setActive(findTF(slot31, "exp_buff_mask/exp_buff"), slot0.expBuff)
 
 			if slot0.expBuff then
 				setText(slot46, slot0.expBuff:getConfig("name"))

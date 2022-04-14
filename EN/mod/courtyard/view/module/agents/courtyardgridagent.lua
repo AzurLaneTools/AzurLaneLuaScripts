@@ -36,6 +36,7 @@ end
 function slot0.Clear(slot0)
 	for slot4, slot5 in ipairs(slot0.grids) do
 		slot5.transform.localScale = Vector3(1, 1, 1)
+		slot5.transform.eulerAngles = Vector3.zero
 		slot5:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 1)
 
 		slot0:GetPool():Enqueue(slot5)

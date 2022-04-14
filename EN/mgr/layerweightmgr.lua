@@ -84,6 +84,8 @@ function slot1.DelFromOverlay(slot0, slot1, slot2)
 		end
 
 		slot6 = GetOrAddComponent(slot5, typeof(CanvasGroup))
+		slot6.interactable = true
+		slot6.blocksRaycasts = true
 
 		slot0:CheckRecycleAdaptObj(slot4, slot2)
 		slot0:ClearBlurData(slot3)

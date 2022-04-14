@@ -82,13 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 30%",
-			"<color=#ffde38>Impero</color>: 2.0% (<color=#92fc63>UP!</color>)",
+			"<color=#ffde38>Howe</color>: 2.0% (<color=#92fc63>UP!</color>)",
 			" ",
-			"<color=#ffde38>Formidable</color>: 2.0% (<color=#92fc63>UP!</color>)",
+			"<color=#ffde38>Perseus</color>: 2.0% (<color=#92fc63>UP!</color>)",
 			" ",
-			"<color=#ffde38>Pompeo Magno</color>: 0.5% ",
+			"<color=#ffde38>Hermione</color>: 0.5% ",
 			" ",
-			"<color=#d797ff>Trieste</color>: 2.5% (<color=#92fc63>UP!</color>)"
+			"<color=#d797ff>Eagle</color>: 2.5% (<color=#92fc63>UP!</color>)",
+			" ",
+			"<color=#d797ff>Valiant</color>: 2.5% (<color=#92fc63>UP!</color>)"
 		}
 	},
 	{
@@ -231,6 +233,27 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Arkhangelsk</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "Campaign Pool ",
+		ship_icon = "1",
+		type = 2,
+		exchange_request = 40,
+		exchange_available_times = 1,
+		build_voice = "",
+		use_item = 20001,
+		build_anim = "building",
+		number_1 = 1,
+		id = 11,
+		icon = "build_11",
+		exchange_ship_id = 107061,
+		rate_tip = {
+			"<color=#ffde38>Super Rare</color>：7%",
+			"<color=#d797ff>Elite</color>：12%",
+			"<color=#3dc6ff>Rare</color>：51%",
+			"Common：30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -241,6 +264,7 @@ pg.ship_data_create_material = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

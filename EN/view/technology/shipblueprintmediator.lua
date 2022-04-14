@@ -2,6 +2,7 @@ slot0 = class("ShipBluePrintMediator", import("..base.ContextMediator"))
 slot0.ON_CLICK_SPEEDUP_BTN = "ShipBluePrintMediator:ON_CLICK_SPEEDUP_BTN"
 slot0.ON_START = "ShipBluePrintMediator:ON_START"
 slot0.ON_FINISHED = "ShipBluePrintMediator:ON_FINISHED"
+slot0.ON_ITEM_UNLOCK = "ShipBluePrintMediator:ON_ITEM_UNLOCK"
 slot0.ON_FINISH_TASK = "ShipBluePrintMediator:ON_FINISH_TASK"
 slot0.ON_MOD = "ShipBluePrintMediator:ON_MOD"
 slot0.ON_PURSUING = "ShipBluePrintMediator:ON_PURSUING"
@@ -43,6 +44,12 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_FINISHED, function (slot0, slot1)
 		uv0:sendNotification(GAME.FINISH_SHIP_BLUEPRINT, {
 			id = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_ITEM_UNLOCK, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ITEM_LOCK_SHIP_BLUPRINT, {
+			id = slot1,
+			itemId = slot2
 		})
 	end)
 	slot0:bind(uv0.ON_FINISH_TASK, function (slot0, slot1)
@@ -141,6 +148,7 @@ function slot0.listNotificationInterests(slot0)
 		TaskProxy.TASK_REMOVED,
 		GAME.SUBMIT_TASK_DONE,
 		GAME.FINISH_SHIP_BLUEPRINT_DONE,
+		GAME.ITEM_LOCK_SHIP_BLUPRINT_DONE,
 		GAME.STOP_BLUEPRINT_DONE,
 		GAME.MOD_BLUEPRINT_DONE,
 		BayProxy.SHIP_ADDED,
@@ -173,7 +181,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot6:finish()
 			slot5:updateBluePrint(slot6)
 		end
-	elseif GAME.FINISH_SHIP_BLUEPRINT_DONE == slot2 then
+	elseif slot2 == GAME.FINISH_SHIP_BLUEPRINT_DONE or slot2 == GAME.ITEM_LOCK_SHIP_BLUPRINT_DONE then
 		slot0:addSubLayers(Context.New({
 			mediator = NewShipMediator,
 			viewComponent = NewShipLayer,

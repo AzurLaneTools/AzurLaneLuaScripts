@@ -13,7 +13,7 @@ function slot0.OnLoaded(slot0)
 	slot0.paintingTF = slot0._parentTf:Find("paint")
 	slot0.bgImage = slot0._tf:GetComponent(typeof(Image))
 	slot0.setBtnX = slot0.setBtn.localPosition.x
-	slot0.isShowing = false
+	slot0.showing = false
 end
 
 function slot0.OnInit(slot0)
@@ -30,7 +30,7 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		if uv1.isShowing and not uv2 then
+		if uv1.showing and not uv2 then
 			if uv0 then
 				triggerToggle(uv1.setBtn, false)
 			end
@@ -118,7 +118,7 @@ function slot0.ShowOrHide(slot0, slot1, slot2)
 	end
 
 	slot0.flagShip = slot2
-	slot0.isShowing = slot1
+	slot0.showing = slot1
 end
 
 function slot0.Show(slot0)

@@ -491,7 +491,9 @@ function slot0.showAwakenCompleteAni(slot0, slot1)
 
 		slot0 = tf(uv0.awakenAni)
 
-		pg.UIMgr.GetInstance():BlurPanel(slot0)
+		pg.UIMgr.GetInstance():BlurPanel(slot0, false, {
+			weight = LayerWeightConst.TOP_LAYER
+		})
 		setText(uv0:findTF("window/desc", uv0.awakenAni), uv1)
 		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 			uv0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)

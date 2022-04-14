@@ -194,6 +194,9 @@ return {
 	CheckPretest = function ()
 		return IsUnityEditor or uv0.CheckPreAudit()
 	end,
+	CheckGoogleSimulator = function ()
+		return NetConst.GATEWAY_PORT == 4001 and NetConst.GATEWAY_HOST == "business.azurlane.jp"
+	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
 		uv1.AiriInit()
@@ -243,6 +246,8 @@ return {
 			uv1:NewBuy(slot0, Airisdk.BuyServerTag.preAudit, slot2)
 		elseif slot1 == "production" then
 			uv1:NewBuy(slot0, Airisdk.BuyServerTag.production, slot2)
+		elseif slot1 == "test" then
+			uv1:NewBuy(slot0, Airisdk.BuyServerTag.test, slot2)
 		end
 	end,
 	LinkSocial = function (slot0, slot1, slot2)

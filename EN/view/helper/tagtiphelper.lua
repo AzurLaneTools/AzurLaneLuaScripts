@@ -109,8 +109,6 @@ end
 
 function slot0.FreeBuildTicketTip(slot0, slot1)
 	if getProxy(ActivityProxy):IsShowFreeBuildMark(false) then
-		slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE)
-
 		setActive(slot0, true)
 		LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_VITEM, slot3:getConfig("config_client")[1]), "", slot0:Find("Image"))
 
@@ -128,9 +126,39 @@ function slot0.FreeBuildTicketTip(slot0, slot1)
 	end
 end
 
+function slot0.TecShipGiftTip(slot0)
+	slot1 = {
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008
+	}
+	slot4 = 30 <= getProxy(PlayerProxy):getData().level
+	slot5 = PlayerPrefs.GetInt("Tec_Ship_Gift_Enter_Tag", 0) > 0
+	slot6 = false
+
+	for slot10, slot11 in ipairs(pg.pay_data_display.all) do
+		if table.contains(slot1, slot11) then
+			slot6 = true
+
+			break
+		end
+	end
+
+	if slot6 and slot4 and not slot5 then
+		triggerToggle(slot0, true)
+	else
+		triggerToggle(slot0, false)
+	end
+end
+
 function slot0.SetFreeBuildMark()
 	if uv0.BuildMark then
-		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE) then
+		if getProxy(ActivityProxy):IsShowFreeBuildMark(false) then
 			PlayerPrefs.SetString("Free_Build_Ticket_" .. slot0.id, pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d"))
 			PlayerPrefs.Save()
 		end

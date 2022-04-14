@@ -23,7 +23,13 @@ function slot0.OnInit(slot0, slot1)
 
 	if slot0.vaild then
 		slot0.actions = slot1[3][2]
-		slot0.updateStrategy = slot0:InitUpdateStrategy(slot1)
+		slot0.strategyType = slot1[3][3][2] or 0
+
+		if slot0.strategyType == true then
+			slot0.strategyType = 1
+		end
+
+		slot0.updateStrategy = slot0:InitUpdateStrategy(slot0.strategyType)
 		slot0.loop = slot1[3][4][1] == 1
 		slot0.preheatAction = slot1[3][3][3]
 		slot0.tailAction = slot1[3][3][4]
@@ -31,9 +37,9 @@ function slot0.OnInit(slot0, slot1)
 end
 
 function slot0.InitUpdateStrategy(slot0, slot1)
-	if slot0.vaild then
-		return slot1[3][3][2] and CourtYardFollowInteraction.New(slot0) or CourtYardInteraction.New(slot0)
-	end
+	slot2 = nil
+
+	return (slot1 ~= 1 or CourtYardFollowInteraction.New(slot0)) and (slot1 ~= 2 or CourtYardMonglineInteraction.New(slot0)) and CourtYardInteraction.New(slot0)
 end
 
 function slot0.SetAnimators(slot0, slot1)

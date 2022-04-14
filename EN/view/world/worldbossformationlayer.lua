@@ -52,6 +52,9 @@ function slot0.init(slot0)
 
 	slot0._nextPage = slot0:findTF("middle/nextPage")
 	slot0._prevPage = slot0:findTF("middle/prevPage")
+
+	slot0:disableAllStepper()
+
 	slot0._heroContainer = slot1:Find("HeroContainer")
 	slot0._checkBtn = slot1:Find("checkBtn")
 	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")

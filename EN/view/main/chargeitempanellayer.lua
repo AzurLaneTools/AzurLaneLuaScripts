@@ -74,10 +74,30 @@ function slot0.addListener(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0.panelConfig.onYes then
-			uv0.panelConfig.onYes()
-			uv0:closeView()
+		function slot0()
+			if uv0.panelConfig.onYes then
+				uv0.panelConfig.onYes()
+				uv0:closeView()
+			end
 		end
+
+		if uv0.panelConfig.limitArgs and type(slot1) == "table" and slot1[1] and type(slot2) == "table" and #slot2 >= 2 then
+			slot4 = slot2[2]
+			slot5 = getProxy(PlayerProxy):getRawData()
+
+			if slot2[1] == "lv_70" and slot4 <= slot5.level then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("lv70_package_tip"),
+					onYes = function ()
+						uv0()
+					end
+				})
+
+				return
+			end
+		end
+
+		slot0()
 	end, SFX_PANEL)
 end
 

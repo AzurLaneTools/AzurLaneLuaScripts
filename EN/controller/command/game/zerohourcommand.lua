@@ -255,6 +255,7 @@ function slot0.mainHandler(slot0, slot1)
 		end, math.random(2, 5), 1):Start()
 	end
 
+	getProxy(NavalAcademyProxy):resetUsedDailyFinishCnt()
 	slot0:sendNotification(GAME.ZERO_HOUR_OP_DONE)
 end
 

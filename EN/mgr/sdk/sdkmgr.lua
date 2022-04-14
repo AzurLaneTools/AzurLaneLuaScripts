@@ -156,6 +156,10 @@ function slot0.CheckPretest(slot0)
 	return slot0:Get("CheckPretest")
 end
 
+function slot0.CheckGoogleSimulator(slot0)
+	return slot0:Get("CheckGoogleSimulator")
+end
+
 function slot0.CheckWorldTest(slot0)
 	if PLATFORM_CODE == PLATFORM_CH then
 		return slot0:Get("CheckWorldTest")

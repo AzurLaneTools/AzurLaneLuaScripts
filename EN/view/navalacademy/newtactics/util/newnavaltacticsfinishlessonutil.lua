@@ -76,12 +76,21 @@ function slot0.WhetherToContinue(slot0, slot1, slot2, slot3, slot4)
 		hideClose = true,
 		content = slot1 .. i18n("tactics_continue_to_learn"),
 		onYes = function ()
-			uv0:ContinuousLearning(uv1, uv2, uv3)
+			if uv0:ExistBook() then
+				uv0:ContinuousLearning(uv1, uv2, uv3)
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
+				uv0:NextOne()
+			end
 		end,
 		onNo = function ()
 			uv0:NextOne()
 		end
 	})
+end
+
+function slot0.ExistBook(slot0)
+	return #getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE) > 0
 end
 
 function slot0.ContinuousLearning(slot0, slot1, slot2, slot3)

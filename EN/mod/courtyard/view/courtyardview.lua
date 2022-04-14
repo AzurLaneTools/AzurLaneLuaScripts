@@ -59,6 +59,10 @@ function slot0.InitObjPool(slot0, slot1)
 	slot0.poolMgr:Init(slot1)
 end
 
+function slot0.GetCurrStorey(slot0)
+	return slot0.storeyModule
+end
+
 function slot0.Dispose(slot0)
 	if slot0.storeyModule then
 		slot0.storeyModule:Dispose()

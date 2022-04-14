@@ -4,61 +4,37 @@ function slot0.getUIName(slot0)
 	return "BuildShipPoolsPageUI"
 end
 
-function slot0.RefreshActivityBuildPool(slot0)
-	if _.detect(slot0.pools, function (slot0)
-		return slot0:IsActivity()
+function slot0.RefreshActivityBuildPool(slot0, slot1)
+	if underscore.detect(slot0.pools, function (slot0)
+		return slot0:IsActivity() and slot0.activityId == uv0.id
 	end) then
-		slot0:UpdateBuildPoolExchange(slot1)
+		slot0:UpdateBuildPoolExchange(slot2)
 	end
-end
-
-function slot0.UpdateActivityBuildPage(slot0, slot1)
-	slot0:Flush(slot1)
 end
 
 function slot0.RefreshFreeBuildActivity(slot0)
-	if slot0.freeAcTimer then
-		slot0.freeAcTimer:Stop()
-
-		slot0.freeAcTimer = nil
+	for slot4, slot5 in pairs(slot0.freeActTimer) do
+		slot5:Stop()
 	end
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE) and not slot1:isEnd() then
-		slot0.freeActivity = slot1
-		slot2 = {
-			type = DROP_TYPE_VITEM,
-			id = slot1:getConfig("config_client")[1],
-			count = slot1.data1
-		}
-		slot2.cfg = Item.GetConfig(slot2.type, slot2.id)
+	slot0.freeActTimer = {}
+	slot4 = ActivityConst.ACTIVITY_TYPE_BUILD_FREE
 
-		setActive(slot0.freeCount:Find("tip"), slot1.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 and slot2.count > 0)
-		LoadImageSpriteAtlasAsync(slot2.cfg.icon, "", slot0.freeCount:Find("icon"))
-		setText(slot0.ticketTF, slot1.data1)
-		onButton(slot0, slot0.freeCount, function ()
-			uv0:emit(BaseUI.ON_DROP, uv1)
-		end, SFX_PANEL)
+	for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot4)) do
+		if slot5:isEnd() == false then
+			slot0.freeActTimer[slot5.id] = Timer.New(function ()
+				uv0:emit(BuildShipMediator.ON_UPDATE_ACT)
+			end, slot5.stopTime - pg.TimeMgr.GetInstance():GetServerTime())
 
-		slot4 = slot0:findTF("gallery/item_bg/ticket")
-
-		LoadImageSpriteAtlasAsync(slot2.cfg.icon, "", slot4:Find("icon"))
-		setText(slot4:Find("name"), slot2.cfg.name)
-		setText(slot4:Find("tip"), i18n("build_ticket_description"))
-
-		slot0.freeAcTimer = Timer.New(function ()
-			uv0:emit(BuildShipMediator.ON_UPDATE_ACT)
-		end, slot0.freeActivity.stopTime - pg.TimeMgr.GetInstance():GetServerTime())
-
-		return
+			slot0.freeActTimer[slot5.id]:Start()
+		end
 	end
-
-	slot0.freeActivity = nil
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.quickCount = slot0:findTF("gallery/item")
+	slot0.quickCount = slot0:findTF("gallery/res_items/item")
 	slot0.useItemTF = slot0:findTF("Text", slot0.quickCount)
-	slot0.freeCount = slot0:findTF("gallery/ticket")
+	slot0.freeCount = slot0:findTF("gallery/res_items/ticket")
 	slot0.ticketTF = slot0:findTF("Text", slot0.freeCount)
 	slot0.patingTF = slot0:findTF("painting")
 	slot0.poolContainer = slot0:findTF("gallery/toggle_bg/toggles")
@@ -75,12 +51,11 @@ function slot0.OnLoaded(slot0)
 	slot0.buildPoolExchangeGetTxt = slot0.buildPoolExchangeGetBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.buildPoolExchangeName = slot0.buildPoolExchangeTF:Find("name"):GetComponent(typeof(Text))
 	slot0.tipSTxt = slot0:findTF("gallery/bg/type_intro/mask/title"):GetComponent("ScrollText")
+	slot0.tipTime = slot0._tf:Find("gallery/bg/time_text")
 	slot0.helpBtn = slot0:findTF("gallery/help_btn")
 	slot0.testBtn = slot0:findTF("gallery/test_btn")
-
-	setText(slot0:findTF("gallery/prints/intro/text"), i18n("build_pools_intro"))
-
 	slot0.activityTimer = {}
+	slot0.freeActTimer = {}
 end
 
 function slot0.OnInit(slot0)
@@ -94,46 +69,36 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.Show(slot0, slot1)
-	setActiveViaLayer(slot0._tf, true)
-
-	if not slot0.pools then
-		slot0:Flush(slot1)
-	end
-end
-
-function slot0.Flush(slot0, slot1)
-	slot0.pools = slot1
+function slot0.Flush(slot0, slot1, slot2)
+	slot3 = getProxy(ActivityProxy)
+	slot0.pools = underscore.filter(slot1, function (slot0)
+		return tobool(uv1) == (uv0:getBuildPoolActivity(slot0) and slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD or false)
+	end)
+	slot4 = slot0:ActivePool()
 
 	slot0:RemoveAllTimer()
-	removeAllChildren(slot0.poolContainer)
+	eachChild(slot0.poolContainer, function (slot0)
+		setActive(slot0, false)
+	end)
 
-	slot0.poolTFs = {}
+	for slot8, slot9 in ipairs(slot0.pools) do
+		setActive(slot0.poolContainer:Find(slot9:GetMark()), true)
 
-	for slot5, slot6 in ipairs(slot0.pools) do
-		slot7 = nil
-
-		if slot6:IsActivity() then
-			slot7 = cloneTplTo(slot0.activityTpl, slot0.poolContainer)
-
-			slot0:AddActivityTimer(slot6)
-		else
-			slot7 = cloneTplTo(slot0.tpls[slot6:GetPoolId()], slot0.poolContainer)
+		if slot9:IsActivity() then
+			slot0:AddActivityTimer(slot9)
 		end
 
-		slot8 = slot7:Find("frame")
+		slot12 = slot11:Find("frame")
 
-		onToggle(slot0, slot8, function (slot0)
+		onToggle(slot0, slot12, function (slot0)
 			if slot0 then
 				uv0:SwitchPool(uv1)
 			end
 		end, SFX_PANEL)
-
-		slot0.poolTFs[slot6:GetMark()] = slot8
+		triggerToggle(slot12, slot10 == slot4)
 	end
 
 	slot0:RefreshFreeBuildActivity()
-	slot0:ActivePool()
 	slot0:UpdateItem(slot0.contextData.itemVO.count)
 end
 
@@ -143,10 +108,17 @@ function slot0.ActivePool(slot0)
 	end)
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
 	slot3 = nil
-
-	triggerToggle(slot0.poolTFs[(not slot0.contextData.projectName or slot0.contextData.projectName) and (not BuildShipScene.projectName or (BuildShipScene.projectName ~= BuildShipPool.BUILD_POOL_MARK_NEW or slot1 or BuildShipPool.BUILD_POOL_MARK_HEAVY) and BuildShipScene.projectName) and (not slot1 or BuildShipPool.BUILD_POOL_MARK_NEW) and (slot2 and not slot2:isEnd() and (_.detect(slot0.pools, function (slot0)
+	slot3 = (not slot0.contextData.projectName or slot0.contextData.projectName) and (not BuildShipScene.projectName or (BuildShipScene.projectName ~= BuildShipPool.BUILD_POOL_MARK_NEW or slot1 or BuildShipPool.BUILD_POOL_MARK_HEAVY) and BuildShipScene.projectName) and (not slot1 or BuildShipPool.BUILD_POOL_MARK_NEW) and (slot2 and not slot2:isEnd() and (_.detect(slot0.pools, function (slot0)
 		return slot0.id == uv0
-	end) and slot5:GetMark() or BuildShipPool.BUILD_POOL_MARK_HEAVY) or slot0.contextData.projectName or BuildShipScene.projectName or BuildShipPool.BUILD_POOL_MARK_HEAVY)], true)
+	end) and slot5:GetMark() or BuildShipPool.BUILD_POOL_MARK_HEAVY) or slot0.contextData.projectName or BuildShipScene.projectName or BuildShipPool.BUILD_POOL_MARK_HEAVY)
+
+	if not underscore.any(slot0.pools, function (slot0)
+		return slot0:GetMark() == uv0
+	end) then
+		return slot0.pools[1]:GetMark()
+	else
+		return slot3
+	end
 end
 
 function slot0.UpdateItem(slot0, slot1)
@@ -155,15 +127,40 @@ function slot0.UpdateItem(slot0, slot1)
 end
 
 function slot0.UpdateTicket(slot0)
-	slot1 = false
+	if getProxy(ActivityProxy):getBuildFreeActivityByBuildId(slot0.pool.id) and not slot2:isEnd() then
+		slot3 = {
+			type = DROP_TYPE_VITEM,
+			id = slot2:getConfig("config_client")[1],
+			count = slot2.data1
+		}
+		slot3.cfg = Item.GetConfig(slot3.type, slot3.id)
 
-	if slot0.freeActivity and not slot0.freeActivity:isEnd() and table.contains(slot0.freeActivity:getConfig("config_data"), slot0.pool.id) then
-		slot1 = true
+		setActive(slot0.freeCount:Find("tip"), slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 and slot3.count > 0)
+		LoadImageSpriteAtlasAsync(slot3.cfg.icon, "", slot0.freeCount:Find("icon"))
+		setText(slot0.ticketTF, slot2.data1)
+		onButton(slot0, slot0.freeCount, function ()
+			uv0:emit(BaseUI.ON_DROP, uv1)
+		end, SFX_PANEL)
+
+		slot5 = slot0:findTF("gallery/item_bg/ticket")
+
+		LoadImageSpriteAtlasAsync(slot3.cfg.icon, "", slot5:Find("icon"))
+		setText(slot5:Find("name"), slot3.cfg.name)
+		setText(slot5:Find("tip"), i18n("build_ticket_description"))
 	end
 
-	setActive(slot0.freeCount, slot1)
+	slot3 = checkExist(slot1:getBuildPoolActivity(slot0.pool), {
+		"getConfig",
+		{
+			"type"
+		}
+	}) == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 
-	slot0.useTicket = slot1 and slot0.freeActivity.data1 > 0
+	setText(slot0:findTF("gallery/prints/intro/text"), slot3 and i18n("newserver_build_tip") or i18n("build_pools_intro"))
+	setActive(slot0.freeCount, tobool(slot2))
+	setActive(slot0.quickCount, not slot3)
+
+	slot0.useTicket = slot3 or slot2 and slot2.data1 > 0
 
 	setActive(slot0:findTF("gallery/item_bg/item"), not slot0.useTicket)
 	setActive(slot0:findTF("gallery/item_bg/gold"), not slot0.useTicket)
@@ -173,40 +170,46 @@ end
 function slot0.SwitchPool(slot0, slot1)
 	slot0.pool = slot1
 	slot0.buildPainting = nil
+	slot3 = getProxy(ActivityProxy):getBuildPoolActivity(slot1)
 
-	if PLATFORM_CODE == PLATFORM_CH and slot0.pool.activityId and slot0.pool.activityId ~= 0 then
-		slot0.buildPainting = pg.activity_template[slot0.pool.activityId] and slot2.config_client and slot2.config_client.build_painting and string.len(slot2.config_client.build_painting) ~= 0 and slot2.config_client.build_painting or nil
+	if PLATFORM_CODE == PLATFORM_CH and slot3 then
+		slot0.buildPainting = slot3:getConfig("config_client").build_painting
+	end
+
+	setActive(slot0.tipTime, slot3 and slot3:isVariableTime())
+
+	if isActive(slot0.tipTime) then
+		slot4 = pg.TimeMgr.GetInstance()
+
+		setText(slot0.tipTime, slot4:STimeDescC(slot3:getStartTime(), "%Y.%m.%d") .. " - " .. slot4:STimeDescC(slot3.stopTime, "%m.%d %H:%M"))
 	end
 
 	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
-	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(getProxy(ActivityProxy):getBuildActivityCfgByID(slot1:getConfigTable().id) and slot6.bg or "loadingbg/bg_" .. slot4.icon)
-	slot9 = i18n("buildship_" .. slot2 .. "_tip")
+	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(slot2:getBuildActivityCfgByID(slot1:getConfigTable().id) and slot7.bg or "loadingbg/bg_" .. slot6.icon)
 
-	if slot6 and slot6.buildship_tip then
-		slot9 = slot6.buildship_tip
-	end
-
-	slot11 = slot0.tipSTxt
-
-	slot11:SetText(HXSet.hxLan(slot9))
-	setText(slot0:findTF("gallery/item_bg/item/Text"), slot4.number_1)
-	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot4.use_gold)
+	slot0.tipSTxt:SetText(HXSet.hxLan(slot7 and slot7.buildship_tip or i18n("buildship_" .. slot4 .. "_tip")))
+	setText(slot0:findTF("gallery/item_bg/item/Text"), slot6.number_1)
+	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot6.use_gold)
 	slot0:UpdateBuildPoolExchange(slot1)
 	slot0:UpdateTestBtn(slot1)
-	slot0:UpdateBuildPoolPaiting(slot4)
-	onButton(slot0, slot0:findTF("gallery/start_btn"), function ()
-		slot0 = nil
+	slot0:UpdateBuildPoolPaiting(slot6)
 
-		if uv0.useTicket then
-			slot4 = uv0.freeActivity
-			slot0 = {
+	if slot0.useTicket then
+		onButton(slot0, slot0:findTF("gallery/start_btn"), function ()
+			if not uv0:getBuildFreeActivityByBuildId(uv1.pool.id) or slot0:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
+
+			uv1.contextData.msgbox:ExecuteAction("Show", {
 				isTicket = true,
 				itemVO = Item.New({
-					id = slot4:getConfig("config_client")[1],
-					count = uv0.freeActivity.data1
+					id = slot0:getConfig("config_client")[1],
+					count = slot0.data1
 				}),
-				buildPool = uv1,
-				max = MAX_BUILD_WORK_COUNT - uv0.contextData.startCount,
+				buildPool = uv2,
+				max = MAX_BUILD_WORK_COUNT - uv1.contextData.startCount,
 				onConfirm = function (slot0)
 					if uv0:IsActivity() then
 						uv1:emit(BuildShipMediator.ACT_ON_BUILD, uv0:GetActivityId(), uv2.id, slot0, true)
@@ -214,9 +217,11 @@ function slot0.SwitchPool(slot0, slot1)
 						uv1:emit(BuildShipMediator.ON_BUILD, uv2.id, slot0, true)
 					end
 				end
-			}
-		else
-			slot0 = {
+			})
+		end, SFX_UI_BUILDING_STARTBUILDING)
+	else
+		onButton(slot0, slot0:findTF("gallery/start_btn"), function ()
+			uv0.contextData.msgbox:ExecuteAction("Show", {
 				isTicket = false,
 				player = uv0.contextData.player,
 				itemVO = uv0.contextData.itemVO,
@@ -229,13 +234,11 @@ function slot0.SwitchPool(slot0, slot1)
 						uv1:emit(BuildShipMediator.ON_BUILD, uv2.id, slot0)
 					end
 				end
-			}
-		end
+			})
+		end, SFX_UI_BUILDING_STARTBUILDING)
+	end
 
-		uv0.contextData.msgbox:ExecuteAction("Show", slot0)
-	end, SFX_UI_BUILDING_STARTBUILDING)
-
-	BuildShipScene.projectName = slot2
+	BuildShipScene.projectName = slot4
 end
 
 function slot0.UpdateBuildPoolPaiting(slot0, slot1)
@@ -262,14 +265,18 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 	if slot2.exchange_request and slot3 > 0 and slot4 and slot4 > 0 and slot1:IsActivity() then
 		slot7 = slot1:GetActivity()
 		slot9 = slot7.data2
-		slot0.buildPoolExchangeTxt.text = "<color=#FFDF48>" .. slot7.data1 .. "</color>/" .. math.min(slot4, slot9 + 1) * slot3
+		slot0.buildPoolExchangeTxt.text = i18n("build_count_tip") .. "<color=#FFDF48>" .. slot7.data1 .. "</color>/" .. math.min(slot4, slot9 + 1) * slot3
 		slot11 = slot9 < slot4 and slot10 <= slot8
 
 		setActive(slot0.buildPoolExchangeGetBtnMark, slot11)
 
 		slot0.buildPoolExchangeGetTxt.text = slot9 .. "/" .. slot4
 		slot0.buildPoolExchangeName.text = SwitchSpecialChar(HXSet.hxLan(pg.ship_data_statistics[slot5].name), true)
+		slot13 = pg.ship_data_statistics[slot5].rarity
 
+		eachChild(slot0.buildPoolExchangeTF:Find("bg"), function (slot0)
+			setActive(slot0, slot0.name == tostring(uv0))
+		end)
 		onButton(slot0, slot0.buildPoolExchangeTF, function ()
 			if uv0 then
 				uv1:emit(BuildShipMediator.ON_BUILDPOOL_EXCHANGE, uv2.id)
@@ -334,29 +341,19 @@ function slot0.RemoveAllTimer(slot0)
 
 	slot0.activityTimer = {}
 
-	if slot0.freeAcTimer then
-		slot0.freeAcTimer:Stop()
-
-		slot0.freeAcTimer = nil
+	for slot4, slot5 in pairs(slot0.freeActTimer) do
+		slot5:Stop()
 	end
+
+	slot0.freeActTimer = {}
 end
 
-function slot0.ShowOrHide(slot0, slot1, slot2)
-	if slot0.isInit then
-		setActiveViaLayer(slot0._tf, slot1)
+function slot0.ShowOrHide(slot0, slot1)
+	if slot1 then
+		slot0:Show()
 	else
-		slot0.isInit = true
-
-		if slot1 then
-			slot0:Show(slot2)
-		else
-			slot0:Hide()
-		end
+		slot0:Hide()
 	end
-end
-
-function slot0.Hide(slot0)
-	setActiveViaLayer(slot0._tf, false)
 end
 
 function slot0.OnDestroy(slot0)

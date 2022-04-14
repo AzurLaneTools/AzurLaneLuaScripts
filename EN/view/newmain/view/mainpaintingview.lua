@@ -10,8 +10,13 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._go = slot1.gameObject
 	slot0._bgTf = slot2
 	slot0._bgGo = slot2.gameObject
-	slot4 = slot1.parent
-	slot0.chatTf = slot4:Find("chat")
+	slot0.chatTf = slot1.parent:Find("chat")
+	slot0.chatTxt = slot0.chatTf:Find("Text"):GetComponent(typeof(Text))
+
+	if PLATFORM_CODE == PLATFORM_US then
+		slot0.chatTxt.lineSpacing = 1.1
+	end
+
 	slot0.paintings = {
 		MainMeshImagePainting.New(slot0._tf, slot0.chatTf),
 		MainLive2dPainting.New(slot0._tf, slot0.chatTf),
@@ -145,6 +150,7 @@ end
 function slot0.EnableDragAndZoom(slot0)
 	slot0.isEnableDrag = true
 	slot1 = slot0._tf.parent.gameObject
+	slot2 = GetOrAddComponent(slot1, typeof(PinchZoom))
 	slot3 = GetOrAddComponent(slot1, typeof(EventTriggerListener))
 	slot4 = Vector3(0, 0, 0)
 
@@ -186,10 +192,15 @@ function slot0.EnableDragAndZoom(slot0)
 		setButtonEnabled(uv0, true)
 	end)
 
-	GetOrAddComponent(slot1, typeof(PinchZoom)).enabled = true
+	if not slot0.painting:IslimitYPos() then
+		slot2.enabled = true
+	end
+
 	slot3.enabled = true
 	Input.multiTouchEnabled = true
 	slot0.cg.blocksRaycasts = false
+
+	slot0:AdjustPosition(slot0.ship)
 end
 
 function slot0.DisableDragAndZoom(slot0)

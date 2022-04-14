@@ -10,27 +10,27 @@ function slot0.Ctor(slot0, slot1, slot2)
 		MainActSummaryBtn.New(slot3, slot2),
 		MainActEscortBtn.New(slot3, slot2),
 		MainActMapBtn.New(slot3, slot2),
-		MainActLotteryBtn.New(slot3, slot2)
+		MainActLotteryBtn.New(slot3, slot2),
+		MainActBossBtn.New(slot3, slot2)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot3.parent, slot2),
-		MainActTraingCampBtn.New(slot0.linkBtnTop, slot2),
-		MainActRefluxBtn.New(slot0.linkBtnTop, slot2)
+		MainActTraingCampBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
+		MainActRefluxBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
+		MainActNewServerBtn.New(slot0.linkBtnTop:Find("layout"), slot2)
 	}
 end
 
 function slot0.GetBtn(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.activityBtns) do
-		if isa(slot7, slot1) then
-			return slot2
+	for slot5, slot6 in ipairs(slot0.activityBtns) do
+		if isa(slot6, slot1) then
+			return slot6
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot0.specailBtns) do
-		if isa(slot7, slot1) then
-			return slot2
+	for slot5, slot6 in ipairs(slot0.specailBtns) do
+		if isa(slot6, slot1) then
+			return slot6
 		end
 	end
 

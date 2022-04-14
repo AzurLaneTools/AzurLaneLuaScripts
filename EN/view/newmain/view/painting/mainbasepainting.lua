@@ -54,7 +54,7 @@ function slot0.InitClickEvent(slot0)
 	onButton(slot0, slot0.container, function ()
 		uv0:OnClick()
 		uv0:TriggerPersonalTask(uv0.ship.groupId)
-	end, SFX_MAIN)
+	end)
 
 	slot1 = slot0.longPressEvent
 
@@ -136,7 +136,7 @@ function slot0.TriggerNextEventAuto(slot0)
 		uv0:_TriggerEvent(uv0.lastChatEvent)
 		uv0:OnTriggerEventAuto()
 		uv0:RemoveTimer()
-	end, 30, 1)
+	end, 30, 1, true)
 
 	slot0.timer:Start()
 end
@@ -182,7 +182,7 @@ function slot0.RegistChatSkipAction(slot0, slot1)
 		elseif uv0 == "event_complete" then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
 		end
-	end, SFX_MAIN)
+	end)
 end
 
 function slot0.PlayCvAndAnimation(slot0, slot1, slot2, slot3)

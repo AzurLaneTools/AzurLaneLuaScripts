@@ -1,14 +1,15 @@
 pg = pg or {}
 pg.pay_data_display = {
 	{
-		descrip = "Receive $1 Gems immediately and resources every day for \n30 days.",
-		name = "Trade License (30 days)",
+		subject = "Trade License",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "Trade License",
-		extra_gem = 0,
-		name_display = "Trade License (30 days)",
 		limit_arg = 7,
+		name = "Trade License (30 days)",
+		name_display = "Trade License (30 days)",
+		extra_gem = 0,
+		id = 1,
 		money = 799,
 		tag = 2,
 		gem = 500,
@@ -18,7 +19,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.passport1",
 		first_pay_double = 0,
 		extra_service = 2,
-		id = 1,
+		descrip = "Receive $1 Gems immediately and resources every day for \n30 days.",
 		airijp_id = "com.yostaren.azurlane.passport1",
 		extra_service_item = {
 			{
@@ -55,17 +56,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "Three Supplies",
-		name = "Novice sailing supplies",
+		subject = "Novice sailing supplies",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "Novice sailing supplies",
-		extra_gem = 0,
-		name_display = "Novice sailing supplies",
 		limit_arg = 1,
+		name = "Novice sailing supplies",
+		name_display = "Novice sailing supplies",
+		extra_gem = 0,
+		id = 2,
 		money = 99,
 		tag = 1,
 		gem = 0,
@@ -75,7 +78,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond101",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 2,
+		descrip = "Three Supplies",
 		airijp_id = "com.yostaren.azurlane.diamond101",
 		extra_service_item = {
 			{
@@ -112,18 +115,20 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "Get $1 Gems as bonus",
-		name = "Handful of Gems",
+		subject = "60 Gems",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "60 Gems",
-		extra_service_item = "0",
-		name_display = "Handful of Gems",
-		extra_gem = 0,
 		limit_arg = 10,
+		name = "Handful of Gems",
+		name_display = "Handful of Gems",
+		extra_service_item = "0",
+		extra_gem = 0,
+		id = 3,
 		money = 99,
 		tag = 0,
 		gem = 60,
@@ -133,22 +138,24 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond1",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 3,
+		descrip = "Get $1 Gems as bonus",
 		airijp_id = "com.yostaren.azurlane.diamond1",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "Get $1 Gems as bonus",
-		name = "Pile of Gems",
+		subject = "300 Gems",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "300 Gems",
-		extra_service_item = "0",
-		name_display = "Pile of Gems",
-		extra_gem = 30,
 		limit_arg = 10,
+		name = "Pile of Gems",
+		name_display = "Pile of Gems",
+		extra_service_item = "0",
+		extra_gem = 30,
+		id = 4,
 		money = 499,
 		tag = 0,
 		gem = 300,
@@ -158,22 +165,24 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond2",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 4,
+		descrip = "Get $1 Gems as bonus",
 		airijp_id = "com.yostaren.azurlane.diamond2",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "Get $1 Gems as bonus",
-		name = "Sack of Gems",
+		subject = "980 Gems",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "980 Gems",
-		extra_service_item = "0",
-		name_display = "Sack of Gems",
-		extra_gem = 150,
 		limit_arg = 0,
+		name = "Sack of Gems",
+		name_display = "Sack of Gems",
+		extra_service_item = "0",
+		extra_gem = 150,
+		id = 5,
 		money = 999,
 		tag = 0,
 		gem = 600,
@@ -183,22 +192,24 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond3",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 5,
+		descrip = "Get $1 Gems as bonus",
 		airijp_id = "com.yostaren.azurlane.diamond3",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "Get $1 Gems as bonus",
-		name = "Box of Gems",
+		subject = "1980 Gems",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "1980 Gems",
-		extra_service_item = "0",
-		name_display = "Box of Gems",
-		extra_gem = 360,
 		limit_arg = 0,
+		name = "Box of Gems",
+		name_display = "Box of Gems",
+		extra_service_item = "0",
+		extra_gem = 360,
+		id = 6,
 		money = 1999,
 		tag = 0,
 		gem = 1200,
@@ -208,22 +219,24 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond4",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 6,
+		descrip = "Get $1 Gems as bonus",
 		airijp_id = "com.yostaren.azurlane.diamond4",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "Get $1 Gems as bonus",
-		name = "Chest of Gems",
+		subject = "3280 Gems",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "3280 Gems",
-		extra_service_item = "0",
-		name_display = "Chest of Gems",
-		extra_gem = 880,
 		limit_arg = 0,
+		name = "Chest of Gems",
+		name_display = "Chest of Gems",
+		extra_service_item = "0",
+		extra_gem = 880,
+		id = 7,
 		money = 3999,
 		tag = 0,
 		gem = 2400,
@@ -233,22 +246,24 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond5",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 7,
+		descrip = "Get $1 Gems as bonus",
 		airijp_id = "com.yostaren.azurlane.diamond5",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "Get $1 Gems as bonus",
-		name = "Ship of Gems",
+		subject = "6480 Gems",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "6480 Gems",
-		extra_service_item = "0",
-		name_display = "Ship of Gems",
-		extra_gem = 2500,
 		limit_arg = 0,
+		name = "Ship of Gems",
+		name_display = "Ship of Gems",
+		extra_service_item = "0",
+		extra_gem = 2500,
+		id = 8,
 		money = 7999,
 		tag = 1,
 		gem = 4900,
@@ -258,21 +273,23 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond6",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 8,
+		descrip = "Get $1 Gems as bonus",
 		airijp_id = "com.yostaren.azurlane.diamond6",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[24] = {
-		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
-		name = "2020 Party Dress Lucky Bag",
+		subject = "2020 Party Dress Lucky Bag",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "2020 Party Dress Lucky Bag",
-		extra_gem = 0,
-		name_display = "2020 Party Dress Lucky Bag",
 		limit_arg = 1,
+		name = "2020 Party Dress Lucky Bag",
+		name_display = "2020 Party Dress Lucky Bag",
+		extra_gem = 0,
+		id = 24,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -281,7 +298,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond138",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 24,
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond138",
 		extra_service_item = {
 			{
@@ -364,17 +381,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[25] = {
-		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
-		name = "Shougatsu Lucky Bag 2021 ",
+		subject = "Shougatsu Lucky Bag 2021",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Shougatsu Lucky Bag 2021",
-		extra_gem = 0,
-		name_display = "Shougatsu Lucky Bag 2021 ",
 		limit_arg = 1,
+		name = "Shougatsu Lucky Bag 2021 ",
+		name_display = "Shougatsu Lucky Bag 2021 ",
+		extra_gem = 0,
+		id = 25,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -383,7 +402,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond142",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 25,
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond142",
 		extra_service_item = {
 			{
@@ -466,17 +485,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[26] = {
-		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
-		name = "Shougatsu Lucky Bag 2020 ",
+		subject = "Shougatsu Lucky Bag 2020",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Shougatsu Lucky Bag 2020",
-		extra_gem = 0,
-		name_display = "Shougatsu Lucky Bag 2020 ",
 		limit_arg = 1,
+		name = "Shougatsu Lucky Bag 2020 ",
+		name_display = "Shougatsu Lucky Bag 2020 ",
+		extra_gem = 0,
+		id = 26,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -485,7 +506,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond126",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 26,
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond126",
 		extra_service_item = {
 			{
@@ -568,17 +589,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[27] = {
-		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
-		name = "Lunar New Year Lucky Bag (2021)",
+		subject = "Lunar New Year Lucky Bag (2021)",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Lunar New Year Lucky Bag (2021)",
-		extra_gem = 0,
-		name_display = "Lunar New Year Lucky Bag (2021)",
 		limit_arg = 1,
+		name = "Lunar New Year Lucky Bag (2021)",
+		name_display = "Lunar New Year Lucky Bag (2021)",
+		extra_gem = 0,
+		id = 27,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -587,7 +610,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond143",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 27,
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond143",
 		extra_service_item = {
 			{
@@ -670,17 +693,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[28] = {
-		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
-		name = "Lunar New Year Lucky Bag (2020)",
+		subject = "Lunar New Year Lucky Bag (2020)",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Lunar New Year Lucky Bag (2020)",
-		extra_gem = 0,
-		name_display = "Lunar New Year Lucky Bag (2020)",
 		limit_arg = 1,
+		name = "Lunar New Year Lucky Bag (2020)",
+		name_display = "Lunar New Year Lucky Bag (2020)",
+		extra_gem = 0,
+		id = 28,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -689,7 +714,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond128",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 28,
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond128",
 		extra_service_item = {
 			{
@@ -772,17 +797,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[29] = {
-		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
-		name = "Exquisite Lucky Box 2021 ",
+		subject = "Exquisite Lucky Box 2021 ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Exquisite Lucky Box 2021 ",
-		extra_gem = 0,
-		name_display = "Exquisite Lucky Box 2021 ",
 		limit_arg = 1,
+		name = "Exquisite Lucky Box 2021 ",
+		name_display = "Exquisite Lucky Box 2021 ",
+		extra_gem = 0,
+		id = 29,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -791,7 +818,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond146",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 29,
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond146",
 		extra_service_item = {
 			{
@@ -874,17 +901,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[30] = {
-		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
-		name = "Exquisite Lucky Bag 2020 ",
+		subject = "Exquisite Lucky Bag 2020 ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Exquisite Lucky Bag 2020 ",
-		extra_gem = 0,
-		name_display = "Exquisite Lucky Bag 2020 ",
 		limit_arg = 1,
+		name = "Exquisite Lucky Bag 2020 ",
+		name_display = "Exquisite Lucky Bag 2020 ",
+		extra_gem = 0,
+		id = 30,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -893,7 +922,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond147",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 30,
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond147",
 		extra_service_item = {
 			{
@@ -976,19 +1005,21 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[31] = {
-		descrip = "Contains 1980 x Gems, 35x Universal T4 Plate, 1x Gear Lab Development Pack, and other rewards ",
-		name = "New Commanders Support Pack IV ",
+		subject = "New Commanders Support Pack IV ",
+		limit_group = 0,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
-		subject = "New Commanders Support Pack IV ",
-		extra_gem = 0,
-		name_display = "New Commanders Support Pack IV ",
 		limit_arg = 1,
+		name = "New Commanders Support Pack IV ",
+		name_display = "New Commanders Support Pack IV ",
+		extra_gem = 0,
+		id = 31,
 		money = 2999,
-		tag = 2,
+		tag = 1,
 		gem = 0,
 		limit_type = 2,
 		time = "always",
@@ -996,7 +1027,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond148",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 31,
+		descrip = "Contains 1980 x Gems, 35x Universal T4 Plate, 1x Gear Lab Development Pack, and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond148",
 		extra_service_item = {
 			{
@@ -1078,17 +1109,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[32] = {
-		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
-		name = "2021 Party Dress Lucky Box",
+		subject = "2021 Party Dress Lucky Box",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "2021 Party Dress Lucky Box",
-		extra_gem = 0,
-		name_display = "2021 Party Dress Lucky Box",
 		limit_arg = 1,
+		name = "2021 Party Dress Lucky Box",
+		name_display = "2021 Party Dress Lucky Box",
+		extra_gem = 0,
+		id = 32,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1097,7 +1130,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond151",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 32,
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond151",
 		extra_service_item = {
 			{
@@ -1180,17 +1213,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[33] = {
-		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
-		name = "2020 Party Dress Lucky Box",
+		subject = "2020 Party Dress Lucky Box",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "2020 Party Dress Lucky Box",
-		extra_gem = 0,
-		name_display = "2020 Party Dress Lucky Box",
 		limit_arg = 1,
+		name = "2020 Party Dress Lucky Box",
+		name_display = "2020 Party Dress Lucky Box",
+		extra_gem = 0,
+		id = 33,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1199,7 +1234,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond150",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 33,
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond150",
 		extra_service_item = {
 			{
@@ -1282,17 +1317,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[34] = {
-		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
-		name = "Shougatsu Lucky Box 2022 ",
+		subject = "Shougatsu Lucky Box 2022 ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Shougatsu Lucky Box 2022 ",
-		extra_gem = 0,
-		name_display = "Shougatsu Lucky Box 2022 ",
 		limit_arg = 1,
+		name = "Shougatsu Lucky Box 2022 ",
+		name_display = "Shougatsu Lucky Box 2022 ",
+		extra_gem = 0,
+		id = 34,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1301,7 +1338,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond154",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 34,
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond154",
 		extra_service_item = {
 			{
@@ -1384,17 +1421,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[35] = {
-		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
-		name = "Shougatsu Lucky Bag 2021 ",
+		subject = "Shougatsu Lucky Bag 2021 ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Shougatsu Lucky Bag 2021 ",
-		extra_gem = 0,
-		name_display = "Shougatsu Lucky Bag 2021 ",
 		limit_arg = 1,
+		name = "Shougatsu Lucky Bag 2021 ",
+		name_display = "Shougatsu Lucky Bag 2021 ",
+		extra_gem = 0,
+		id = 35,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1403,7 +1442,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond153",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 35,
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond153",
 		extra_service_item = {
 			{
@@ -1486,17 +1525,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[36] = {
-		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
-		name = "Lunar New Year Lucky Bag (2022)",
+		subject = "Lunar New Year Lucky Bag (2022)",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Lunar New Year Lucky Bag (2022)",
-		extra_gem = 0,
-		name_display = "Lunar New Year Lucky Bag (2022)",
 		limit_arg = 1,
+		name = "Lunar New Year Lucky Bag (2022)",
+		name_display = "Lunar New Year Lucky Bag (2022)",
+		extra_gem = 0,
+		id = 36,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1505,7 +1546,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond156",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 36,
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond156",
 		extra_service_item = {
 			{
@@ -1588,17 +1629,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[37] = {
-		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
-		name = "Lunar New Year Lucky Bag (2021)",
+		subject = "Lunar New Year Lucky Bag (2021)",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Lunar New Year Lucky Bag (2021)",
-		extra_gem = 0,
-		name_display = "Lunar New Year Lucky Bag (2021)",
 		limit_arg = 1,
+		name = "Lunar New Year Lucky Bag (2021)",
+		name_display = "Lunar New Year Lucky Bag (2021)",
+		extra_gem = 0,
+		id = 37,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1607,7 +1650,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond155",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 37,
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		airijp_id = "com.yostaren.azurlane.diamond155",
 		extra_service_item = {
 			{
@@ -1690,17 +1733,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[1000] = {
-		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
-		name = "Fair Winds Cruise Pass",
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
 		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
-		subject = "Fair Winds Cruise Pass",
-		extra_gem = 0,
-		name_display = "Fair Winds Cruise Pass",
 		limit_arg = 1,
+		name = "Fair Winds Cruise Pass",
+		name_display = "Fair Winds Cruise Pass",
+		extra_gem = 0,
+		id = 1000,
 		money = 999,
 		tag = 2,
 		gem = 0,
@@ -1709,7 +1754,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.passport2",
 		first_pay_double = 0,
 		extra_service = 4,
-		id = 1000,
+		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
 		airijp_id = "com.yostaren.azurlane.passport2",
 		extra_service_item = {
 			{
@@ -1760,17 +1805,19 @@ pg.pay_data_display = {
 			7001,
 			1500
 		},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[1001] = {
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		name = "Fair Winds Cruise Pass",
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
 		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
-		subject = "Fair Winds Cruise Pass",
-		extra_gem = 0,
-		name_display = "Fair Winds Cruise Pass",
 		limit_arg = 1,
+		name = "Fair Winds Cruise Pass",
+		name_display = "Fair Winds Cruise Pass",
+		extra_gem = 0,
+		id = 1001,
 		money = 999,
 		tag = 2,
 		gem = 0,
@@ -1779,7 +1826,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.passport3",
 		first_pay_double = 0,
 		extra_service = 4,
-		id = 1001,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		airijp_id = "com.yostaren.azurlane.passport3",
 		extra_service_item = {
 			{
@@ -1830,17 +1877,19 @@ pg.pay_data_display = {
 			7002,
 			1500
 		},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[1002] = {
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		name = "Fair Winds Cruise Pass",
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
 		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
-		subject = "Fair Winds Cruise Pass",
-		extra_gem = 0,
-		name_display = "Fair Winds Cruise Pass",
 		limit_arg = 1,
+		name = "Fair Winds Cruise Pass",
+		name_display = "Fair Winds Cruise Pass",
+		extra_gem = 0,
+		id = 1002,
 		money = 999,
 		tag = 2,
 		gem = 0,
@@ -1849,7 +1898,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.passport4",
 		first_pay_double = 0,
 		extra_service = 4,
-		id = 1002,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		airijp_id = "com.yostaren.azurlane.passport4",
 		extra_service_item = {
 			{
@@ -1900,17 +1949,19 @@ pg.pay_data_display = {
 			7003,
 			1500
 		},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[1003] = {
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		name = "Fair Winds Cruise Pass",
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
 		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
-		subject = "Fair Winds Cruise Pass",
-		extra_gem = 0,
-		name_display = "Fair Winds Cruise Pass",
 		limit_arg = 1,
+		name = "Fair Winds Cruise Pass",
+		name_display = "Fair Winds Cruise Pass",
+		extra_gem = 0,
+		id = 1003,
 		money = 999,
 		tag = 2,
 		gem = 0,
@@ -1919,7 +1970,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.passport5",
 		first_pay_double = 0,
 		extra_service = 4,
-		id = 1003,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		airijp_id = "com.yostaren.azurlane.passport5",
 		extra_service_item = {
 			{
@@ -1970,17 +2021,584 @@ pg.pay_data_display = {
 			7004,
 			1500
 		},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[2001] = {
+		subject = "PR Voucher - Series 1",
+		limit_group = 1,
+		descrip_extra = "",
+		type = 0,
+		limit_arg = 0,
+		name = "PR Voucher - Series 1",
+		name_display = "PR Voucher - Series 1",
+		extra_gem = 0,
+		id = 2001,
+		money = 1599,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_display",
+		id_str = "com.yostaren.azurlane.diamond158",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains one PR Voucher - Series 1 and 343 General Blueprints - Series 1.",
+		airijp_id = "com.yostaren.azurlane.diamond158",
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2002] = {
+		subject = "Voucher & Blueprint Bundle",
+		limit_group = 1,
+		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		type = 0,
+		limit_arg = 1,
+		name = "PR Voucher & Blueprint Bundle - Series 1",
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 1",
+		extra_gem = 0,
+		id = 2002,
+		money = 1599,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_promotion",
+		id_str = "com.yostaren.azurlane.diamond158",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.diamond158",
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2003] = {
+		subject = "Voucher",
+		limit_group = 1,
+		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		type = 0,
+		limit_arg = 2,
+		name = "PR Voucher - Series 1",
+		name_display = "PR Voucher - Series 1",
+		extra_gem = 0,
+		id = 2003,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_normal",
+		id_str = "com.yostaren.azurlane.diamond159",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.diamond159",
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2004] = {
+		subject = "Blueprints",
+		limit_group = 1,
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 1.",
+		type = 0,
+		limit_arg = 3,
+		name = "PR Blueprint Pack - Series 1",
+		name_display = "PR Blueprint Pack - Series 1",
+		extra_gem = 0,
+		id = 2004,
+		money = 699,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_promotion",
+		id_str = "com.yostaren.azurlane.diamond160",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.diamond160",
+		extra_service_item = {
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2005] = {
+		subject = "PR Voucher - Series 2",
+		limit_group = 2,
+		descrip_extra = "",
+		type = 0,
+		limit_arg = 0,
+		name = "PR Voucher - Series 2",
+		name_display = "PR Voucher - Series 2",
+		extra_gem = 0,
+		id = 2005,
+		money = 1599,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_display",
+		id_str = "com.yostaren.azurlane.diamond161",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains one PR Voucher - Series 2 and 343 General Blueprints - Series 2.",
+		airijp_id = "com.yostaren.azurlane.diamond161",
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2006] = {
+		subject = "PR Voucher & Blueprint Bundle - Series 2",
+		limit_group = 2,
+		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		type = 0,
+		limit_arg = 1,
+		name = "PR Voucher & Blueprint Bundle - Series 2",
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 2",
+		extra_gem = 0,
+		id = 2006,
+		money = 1599,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_promotion",
+		id_str = "com.yostaren.azurlane.diamond161",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.diamond161",
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2007] = {
+		subject = "Voucher",
+		limit_group = 2,
+		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		type = 0,
+		limit_arg = 2,
+		name = "PR Voucher - Series 2",
+		name_display = "PR Voucher - Series 2",
+		extra_gem = 0,
+		id = 2007,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_normal",
+		id_str = "com.yostaren.azurlane.diamond162",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.diamond162",
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2008] = {
+		subject = "Blueprints",
+		limit_group = 2,
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 2.",
+		type = 0,
+		limit_arg = 3,
+		name = "PR Blueprint Pack - Series 2",
+		name_display = "PR Blueprint Pack - Series 2",
+		extra_gem = 0,
+		id = 2008,
+		money = 699,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_promotion",
+		id_str = "com.yostaren.azurlane.diamond163",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.diamond163",
+		extra_service_item = {
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[2009] = {
+		subject = "Commander Level Boost Pack",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 1,
+		name = "Commander Level Boost Pack",
+		name_display = "Commander Level Boost Pack",
+		extra_gem = 0,
+		id = 2009,
+		money = 499,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "lv_70",
+		id_str = "com.yostaren.azurlane.diamond164",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Buying this pack will raise your Commander Level to 70 and grant you many useful items.",
+		airijp_id = "com.yostaren.azurlane.diamond164",
+		extra_service_item = {
+			{
+				2,
+				40126,
+				1
+			},
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				4,
+				100011,
+				4
+			},
+			{
+				4,
+				100001,
+				4
+			},
+			{
+				2,
+				69001,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40126,
+				1
+			},
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				4,
+				100011,
+				4
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"lv_70",
+				70
+			}
+		}
+	},
+	[2010] = {
+		subject = "Skill Book Pack",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 4,
+		name = "Skill Book Pack",
+		name_display = "Skill Book Pack",
+		extra_gem = 0,
+		id = 2010,
+		money = 299,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		id_str = "com.yostaren.azurlane.diamond165",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Buy to receive a large amount of Skill Books.",
+		airijp_id = "com.yostaren.azurlane.diamond165",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[100] = {
-		descrip = "Contains 1 x Nep Ship skin, 3 x Nep Gear skins, and other rewards.",
-		name = "Nep's Lucky Bag ",
+		subject = "Nep's Lucky Bag",
+		limit_group = 0,
 		descrip_extra = "*Nep's Lucky Bag will appear in your mailbox. \n* If you draw an already owned ship skin, you will be refunded 80% of the gem cost.",
 		type = 1,
-		subject = "Nep's Lucky Bag",
-		extra_gem = 0,
-		name_display = "Nep's Lucky Bag ",
 		limit_arg = 1,
+		name = "Nep's Lucky Bag ",
+		name_display = "Nep's Lucky Bag ",
+		extra_gem = 0,
+		id = 100,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1989,7 +2607,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond110",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 100,
+		descrip = "Contains 1 x Nep Ship skin, 3 x Nep Gear skins, and other rewards.",
 		airijp_id = "com.yostaren.azurlane.diamond110",
 		extra_service_item = {
 			{
@@ -2067,17 +2685,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[101] = {
-		descrip = "Contains 1 x School Girl Ship skin, 3 x School Gear skins, and other rewards.",
-		name = "Black Friday Lucky Bag ",
+		subject = "Black Friday Lucky Bag",
+		limit_group = 0,
 		descrip_extra = "*Black Friday Lucky Bag will appear in your mailbox. \n* If you draw an already owned ship skin, you will be refunded 100% of the gem cost.",
 		type = 1,
-		subject = "Black Friday Lucky Bag",
-		extra_gem = 0,
-		name_display = "Black Friday Lucky Bag ",
 		limit_arg = 1,
+		name = "Black Friday Lucky Bag ",
+		name_display = "Black Friday Lucky Bag ",
+		extra_gem = 0,
+		id = 101,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2086,7 +2706,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond111",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 101,
+		descrip = "Contains 1 x School Girl Ship skin, 3 x School Gear skins, and other rewards.",
 		airijp_id = "com.yostaren.azurlane.diamond111",
 		extra_service_item = {
 			{
@@ -2174,17 +2794,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[102] = {
-		descrip = "Contains 1 x Christmas Ship skin, 3 x Christmas Gear skins, and other rewards. ",
-		name = "Christmas Lucky Bag ",
+		subject = "Christmas Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*Christmas Lucky Bag will appear in your mailbox. \n* If you drew a ship skin that you already have, you will be refunded 80% of the gem cost. ",
 		type = 1,
-		subject = "Christmas Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Christmas Lucky Bag ",
 		limit_arg = 1,
+		name = "Christmas Lucky Bag ",
+		name_display = "Christmas Lucky Bag ",
+		extra_gem = 0,
+		id = 102,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2193,7 +2815,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond112",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 102,
+		descrip = "Contains 1 x Christmas Ship skin, 3 x Christmas Gear skins, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond112",
 		extra_service_item = {
 			{
@@ -2271,17 +2893,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[103] = {
-		descrip = "Contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
-		name = "Heartthrob Pack",
+		subject = "Heartthrob Pack",
+		limit_group = 0,
 		descrip_extra = "*The pack contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
 		type = 1,
-		subject = "Heartthrob Pack",
-		extra_gem = 0,
-		name_display = "Heartthrob Pack",
 		limit_arg = 1,
+		name = "Heartthrob Pack",
+		name_display = "Heartthrob Pack",
+		extra_gem = 0,
+		id = 103,
 		money = 999,
 		tag = 2,
 		gem = 0,
@@ -2290,7 +2914,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond113",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 103,
+		descrip = "Contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
 		airijp_id = "com.yostaren.azurlane.diamond113",
 		extra_service_item = {
 			{
@@ -2358,17 +2982,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[104] = {
-		descrip = "Contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
-		name = "Santa's Lucky Sack (Daily)",
+		subject = "Santa's Lucky Sack (Daily)",
+		limit_group = 0,
 		descrip_extra = "*The sack contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
 		type = 1,
-		subject = "Santa's Lucky Sack (Daily)",
-		extra_gem = 0,
-		name_display = "Santa's Lucky Sack (Daily)",
 		limit_arg = 1,
+		name = "Santa's Lucky Sack (Daily)",
+		name_display = "Santa's Lucky Sack (Daily)",
+		extra_gem = 0,
+		id = 104,
 		money = 499,
 		tag = 2,
 		gem = 0,
@@ -2377,7 +3003,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond114",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 104,
+		descrip = "Contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
 		airijp_id = "com.yostaren.azurlane.diamond114",
 		extra_service_item = {
 			{
@@ -2450,17 +3076,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[105] = {
-		descrip = "Contains 1 x Kimono Ship skin, 2019 x Gems, and other rewards. ",
-		name = "Shougatsu Lucky Bag (2019)",
+		subject = "Shogatsu Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Shogatsu Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Shougatsu Lucky Bag (2019)",
 		limit_arg = 1,
+		name = "Shougatsu Lucky Bag (2019)",
+		name_display = "Shougatsu Lucky Bag (2019)",
+		extra_gem = 0,
+		id = 105,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2469,7 +3097,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond115",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 105,
+		descrip = "Contains 1 x Kimono Ship skin, 2019 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond115",
 		extra_service_item = {
 			{
@@ -2547,17 +3175,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[106] = {
-		descrip = "Contains 1 x Ship skin, 2019 x Gems, and other rewards. ",
-		name = "Lunar New Year Lucky Bag (2019)",
+		subject = "Lunar New Year Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Lunar New Year Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Lunar New Year Lucky Bag (2019)",
 		limit_arg = 1,
+		name = "Lunar New Year Lucky Bag (2019)",
+		name_display = "Lunar New Year Lucky Bag (2019)",
+		extra_gem = 0,
+		id = 106,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2566,7 +3196,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond116",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 106,
+		descrip = "Contains 1 x Ship skin, 2019 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond116",
 		extra_service_item = {
 			{
@@ -2649,17 +3279,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[107] = {
-		descrip = "Contains 1 x random Ship skin (Winter‘s Crown), 3 x random Gear skins (Winter's Crown), and other rewards ",
-		name = "Glacier Blast ",
+		subject = "Glacier Blast ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Glacier Blast ",
-		extra_gem = 0,
-		name_display = "Glacier Blast ",
 		limit_arg = 1,
+		name = "Glacier Blast ",
+		name_display = "Glacier Blast ",
+		extra_gem = 0,
+		id = 107,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2668,7 +3300,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond117",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 107,
+		descrip = "Contains 1 x random Ship skin (Winter‘s Crown), 3 x random Gear skins (Winter's Crown), and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond117",
 		extra_service_item = {
 			{
@@ -2746,17 +3378,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[108] = {
-		descrip = "Contains 1 x random Ship skin (Hanami), 100 x Cognitive Chips, and other rewards",
-		name = "Hanami Lucky Bag ",
+		subject = "Hanami Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems.",
 		type = 1,
-		subject = "Hanami Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Hanami Lucky Bag ",
 		limit_arg = 1,
+		name = "Hanami Lucky Bag ",
+		name_display = "Hanami Lucky Bag ",
+		extra_gem = 0,
+		id = 108,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2765,7 +3399,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond118",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 108,
+		descrip = "Contains 1 x random Ship skin (Hanami), 100 x Cognitive Chips, and other rewards",
 		airijp_id = "com.yostaren.azurlane.diamond118",
 		extra_service_item = {
 			{
@@ -2843,17 +3477,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[109] = {
-		descrip = "Contains 1 x Random Blueprint, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins ",
-		name = "Research Supply (daily) ",
+		subject = "Research Supply (daily) ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox.",
 		type = 1,
-		subject = "Research Supply (daily) ",
-		extra_gem = 0,
-		name_display = "Research Supply (daily) ",
 		limit_arg = 1,
+		name = "Research Supply (daily) ",
+		name_display = "Research Supply (daily) ",
+		extra_gem = 0,
+		id = 109,
 		money = 499,
 		tag = 2,
 		gem = 0,
@@ -2862,7 +3498,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond119",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 109,
+		descrip = "Contains 1 x Random Blueprint, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins ",
 		airijp_id = "com.yostaren.azurlane.diamond119",
 		extra_service_item = {
 			{
@@ -2935,17 +3571,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[110] = {
-		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
-		name = "Scherzo Lucky Box ",
+		subject = "Scherzo Lucky Box ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Scherzo Lucky Box ",
-		extra_gem = 0,
-		name_display = "Scherzo Lucky Box ",
 		limit_arg = 1,
+		name = "Scherzo Lucky Box ",
+		name_display = "Scherzo Lucky Box ",
+		extra_gem = 0,
+		id = 110,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2954,7 +3592,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond120",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 110,
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond120",
 		extra_service_item = {
 			{
@@ -3032,17 +3670,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[111] = {
-		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
-		name = "1st Anniversary Lucky Bag ",
+		subject = "1st Anniversary Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's on sale value in Gems. ",
 		type = 1,
-		subject = "1st Anniversary Lucky Bag ",
-		extra_gem = 0,
-		name_display = "1st Anniversary Lucky Bag ",
 		limit_arg = 1,
+		name = "1st Anniversary Lucky Bag ",
+		name_display = "1st Anniversary Lucky Bag ",
+		extra_gem = 0,
+		id = 111,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3051,7 +3691,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond121",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 111,
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond121",
 		extra_service_item = {
 			{
@@ -3129,17 +3769,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[112] = {
-		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
-		name = "Yukata Lucky Bag",
+		subject = "Yukata Lucky Bag",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Yukata Lucky Bag",
-		extra_gem = 0,
-		name_display = "Yukata Lucky Bag",
 		limit_arg = 1,
+		name = "Yukata Lucky Bag",
+		name_display = "Yukata Lucky Bag",
+		extra_gem = 0,
+		id = 112,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3148,7 +3790,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond122",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 112,
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond122",
 		extra_service_item = {
 			{
@@ -3226,17 +3868,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[113] = {
-		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
-		name = "Full Dress Lucky Bag ",
+		subject = "Full Dress Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Full Dress Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Full Dress Lucky Bag ",
 		limit_arg = 1,
+		name = "Full Dress Lucky Bag ",
+		name_display = "Full Dress Lucky Bag ",
+		extra_gem = 0,
+		id = 113,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3245,7 +3889,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond123",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 113,
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond123",
 		extra_service_item = {
 			{
@@ -3323,17 +3967,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[114] = {
-		descrip = "Contains 1 x random Ship skin, 2450 x Gems, and other rewards ",
-		name = "Black Friday Lucky Box ",
+		subject = "Black Friday Lucky Box ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Black Friday Lucky Box ",
-		extra_gem = 0,
-		name_display = "Black Friday Lucky Box ",
 		limit_arg = 1,
+		name = "Black Friday Lucky Box ",
+		name_display = "Black Friday Lucky Box ",
+		extra_gem = 0,
+		id = 114,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3342,7 +3988,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond124",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 114,
+		descrip = "Contains 1 x random Ship skin, 2450 x Gems, and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond124",
 		extra_service_item = {
 			{
@@ -3425,17 +4071,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[115] = {
-		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
-		name = "Christmas Lucky Bag ",
+		subject = "Christmas Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Christmas Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Christmas Lucky Bag ",
 		limit_arg = 1,
+		name = "Christmas Lucky Bag ",
+		name_display = "Christmas Lucky Bag ",
+		extra_gem = 0,
+		id = 115,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3444,7 +4092,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond125",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 115,
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		airijp_id = "com.yostaren.azurlane.diamond125",
 		extra_service_item = {
 			{
@@ -3522,17 +4170,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[116] = {
-		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
-		name = "Shougatsu Lucky Bag (2020)",
+		subject = "Shougatsu Lucky Bag (2020)",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Shougatsu Lucky Bag (2020)",
-		extra_gem = 0,
-		name_display = "Shougatsu Lucky Bag (2020)",
 		limit_arg = 1,
+		name = "Shougatsu Lucky Bag (2020)",
+		name_display = "Shougatsu Lucky Bag (2020)",
+		extra_gem = 0,
+		id = 116,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3541,7 +4191,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond126",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 116,
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond126",
 		extra_service_item = {
 			{
@@ -3624,17 +4274,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[117] = {
-		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
-		name = "Shougatsu Lucky Bag (2019)",
+		subject = "Shougatsu Lucky Bag (2019)",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Shougatsu Lucky Bag (2019)",
-		extra_gem = 0,
-		name_display = "Shougatsu Lucky Bag (2019)",
 		limit_arg = 1,
+		name = "Shougatsu Lucky Bag (2019)",
+		name_display = "Shougatsu Lucky Bag (2019)",
+		extra_gem = 0,
+		id = 117,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -3643,7 +4295,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond127",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 117,
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond127",
 		extra_service_item = {
 			{
@@ -3721,17 +4373,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[118] = {
-		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
-		name = "Lunar New Year Lucky Bag (2020)",
+		subject = "Lunar New Year Lucky Bag (2020)",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Lunar New Year Lucky Bag (2020)",
-		extra_gem = 0,
-		name_display = "Lunar New Year Lucky Bag (2020)",
 		limit_arg = 1,
+		name = "Lunar New Year Lucky Bag (2020)",
+		name_display = "Lunar New Year Lucky Bag (2020)",
+		extra_gem = 0,
+		id = 118,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3740,7 +4394,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond128",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 118,
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond128",
 		extra_service_item = {
 			{
@@ -3823,17 +4477,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[119] = {
-		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
-		name = "Lunar New Year Lucky Bag (2019)",
+		subject = "Lunar New Year Lucky Bag (2019)",
+		limit_group = 0,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
-		subject = "Lunar New Year Lucky Bag (2019)",
-		extra_gem = 0,
-		name_display = "Lunar New Year Lucky Bag (2019)",
 		limit_arg = 1,
+		name = "Lunar New Year Lucky Bag (2019)",
+		name_display = "Lunar New Year Lucky Bag (2019)",
+		extra_gem = 0,
+		id = 119,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -3842,7 +4498,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond129",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 119,
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond129",
 		extra_service_item = {
 			{
@@ -3920,17 +4576,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[120] = {
-		descrip = "Contains 180 Gems, 2x Oil Reserve Supply (1000) Packs, and more!",
-		name = "New Commanders Support Pack I",
+		subject = "New Commanders Support Pack I",
+		limit_group = 0,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
-		subject = "New Commanders Support Pack I",
-		extra_gem = 0,
-		name_display = "New Commanders Support Pack I",
 		limit_arg = 1,
+		name = "New Commanders Support Pack I",
+		name_display = "New Commanders Support Pack I",
+		extra_gem = 0,
+		id = 120,
 		money = 299,
 		tag = 1,
 		gem = 0,
@@ -3940,7 +4598,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond130",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 120,
+		descrip = "Contains 180 Gems, 2x Oil Reserve Supply (1000) Packs, and more!",
 		airijp_id = "com.yostaren.azurlane.diamond130",
 		extra_service_item = {
 			{
@@ -4002,17 +4660,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[121] = {
-		descrip = "Contains 780 Gems, 2x T4 Gear Development Packs, 4x Oil Reserve Supply (1000) Packs, and more!",
-		name = "New Commanders Support Pack II",
+		subject = "New Commanders Support Pack II",
+		limit_group = 0,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
-		subject = "New Commanders Support Pack II",
-		extra_gem = 0,
-		name_display = "New Commanders Support Pack II",
 		limit_arg = 1,
+		name = "New Commanders Support Pack II",
+		name_display = "New Commanders Support Pack II",
+		extra_gem = 0,
+		id = 121,
 		money = 1199,
 		tag = 1,
 		gem = 0,
@@ -4022,7 +4682,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond131",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 121,
+		descrip = "Contains 780 Gems, 2x T4 Gear Development Packs, 4x Oil Reserve Supply (1000) Packs, and more!",
 		airijp_id = "com.yostaren.azurlane.diamond131",
 		extra_service_item = {
 			{
@@ -4109,17 +4769,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[122] = {
-		descrip = "Contains 1680 Gems, 4x T4 Gear Development Packs, 8x Oil Reserve Supply (1000) Packs, and more!",
-		name = "New Commanders Support Pack III",
+		subject = "New Commanders Support Pack III",
+		limit_group = 0,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
-		subject = "New Commanders Support Pack III",
-		extra_gem = 0,
-		name_display = "New Commanders Support Pack III",
 		limit_arg = 1,
+		name = "New Commanders Support Pack III",
+		name_display = "New Commanders Support Pack III",
+		extra_gem = 0,
+		id = 122,
 		money = 2599,
 		tag = 1,
 		gem = 0,
@@ -4129,7 +4791,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond132",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 122,
+		descrip = "Contains 1680 Gems, 4x T4 Gear Development Packs, 8x Oil Reserve Supply (1000) Packs, and more!",
 		airijp_id = "com.yostaren.azurlane.diamond132",
 		extra_service_item = {
 			{
@@ -4221,17 +4883,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[123] = {
-		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
-		name = "Crimson Echoes' Lucky Bag",
+		subject = "Crimson Echoes' Lucky Bag",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Crimson Echoes' Lucky Bag",
-		extra_gem = 0,
-		name_display = "Crimson Echoes' Lucky Bag",
 		limit_arg = 1,
+		name = "Crimson Echoes' Lucky Bag",
+		name_display = "Crimson Echoes' Lucky Bag",
+		extra_gem = 0,
+		id = 123,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -4240,7 +4904,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond133",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 123,
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond133",
 		extra_service_item = {
 			{
@@ -4318,17 +4982,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[124] = {
-		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
-		name = "Night Out Lucky Bag ",
+		subject = "Night Out Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
-		subject = "Night Out Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Night Out Lucky Bag ",
 		limit_arg = 1,
+		name = "Night Out Lucky Bag ",
+		name_display = "Night Out Lucky Bag ",
+		extra_gem = 0,
+		id = 124,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -4337,7 +5003,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond134",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 124,
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		airijp_id = "com.yostaren.azurlane.diamond134",
 		extra_service_item = {
 			{
@@ -4420,17 +5086,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[125] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Skybound Oratorio Lucky Bag",
+		subject = "Skybound Oratorio Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Skybound Oratorio Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Skybound Oratorio Lucky Bag",
 		limit_arg = 1,
+		name = "Skybound Oratorio Lucky Bag",
+		name_display = "Skybound Oratorio Lucky Bag",
+		extra_gem = 0,
+		id = 125,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4439,7 +5107,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond135",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 125,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond135",
 		extra_service_item = {
 			{
@@ -4517,17 +5185,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[126] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Aurora Noctis Lucky Bag ",
+		subject = "Aurora Noctis Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Aurora Noctis Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Aurora Noctis Lucky Bag ",
 		limit_arg = 1,
+		name = "Aurora Noctis Lucky Bag ",
+		name_display = "Aurora Noctis Lucky Bag ",
+		extra_gem = 0,
+		id = 126,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4536,7 +5206,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond136",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 126,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond136",
 		extra_service_item = {
 			{
@@ -4614,17 +5284,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[127] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Summer Scherzo Lucky Bag ",
+		subject = "Summer Scherzo Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Summer Scherzo Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Summer Scherzo Lucky Bag ",
 		limit_arg = 1,
+		name = "Summer Scherzo Lucky Bag ",
+		name_display = "Summer Scherzo Lucky Bag ",
+		extra_gem = 0,
+		id = 127,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4633,7 +5305,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond137",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 127,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond137",
 		extra_service_item = {
 			{
@@ -4711,17 +5383,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[128] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Shining Star Lucky Bag ",
+		subject = "Shining Star Lucky Bag ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Shining Star Lucky Bag ",
-		extra_gem = 0,
-		name_display = "Shining Star Lucky Bag ",
 		limit_arg = 1,
+		name = "Shining Star Lucky Bag ",
+		name_display = "Shining Star Lucky Bag ",
+		extra_gem = 0,
+		id = 128,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4730,7 +5404,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond139",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 128,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond139",
 		extra_service_item = {
 			{
@@ -4813,17 +5487,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[129] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Azur Black Friday Lucky Box ",
+		subject = "Azur Black Friday Lucky Box ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Azur Black Friday Lucky Box ",
-		extra_gem = 0,
-		name_display = "Azur Black Friday Lucky Box ",
 		limit_arg = 1,
+		name = "Azur Black Friday Lucky Box ",
+		name_display = "Azur Black Friday Lucky Box ",
+		extra_gem = 0,
+		id = 129,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4832,7 +5508,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond140",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 129,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond140",
 		extra_service_item = {
 			{
@@ -4915,17 +5591,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[130] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Crimson Black Friday Lucky Box ",
+		subject = "Crimson Black Friday Lucky Box ",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Crimson Black Friday Lucky Box ",
-		extra_gem = 0,
-		name_display = "Crimson Black Friday Lucky Box ",
 		limit_arg = 1,
+		name = "Crimson Black Friday Lucky Box ",
+		name_display = "Crimson Black Friday Lucky Box ",
+		extra_gem = 0,
+		id = 130,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4934,7 +5612,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond141",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 130,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond141",
 		extra_service_item = {
 			{
@@ -5017,17 +5695,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[131] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Dawn's Rime Lucky Pack",
+		subject = "Dawn's Rime Lucky Pack",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Dawn's Rime Lucky Pack",
-		extra_gem = 0,
-		name_display = "Dawn's Rime Lucky Pack",
 		limit_arg = 1,
+		name = "Dawn's Rime Lucky Pack",
+		name_display = "Dawn's Rime Lucky Pack",
+		extra_gem = 0,
+		id = 131,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -5036,7 +5716,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond144",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 131,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond144",
 		extra_service_item = {
 			{
@@ -5119,17 +5799,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[132] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Daedalian Hymn's Lucky Bag",
+		subject = "Daedalian Hymn's Lucky Bag",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Daedalian Hymn's Lucky Bag",
-		extra_gem = 0,
-		name_display = "Daedalian Hymn's Lucky Bag",
 		limit_arg = 1,
+		name = "Daedalian Hymn's Lucky Bag",
+		name_display = "Daedalian Hymn's Lucky Bag",
+		extra_gem = 0,
+		id = 132,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -5138,7 +5820,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond145",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 132,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond145",
 		extra_service_item = {
 			{
@@ -5221,17 +5903,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[133] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Microlayer Medley Lucky Box 2021",
+		subject = "Microlayer Medley Lucky Box 2021",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Microlayer Medley Lucky Box 2021",
-		extra_gem = 0,
-		name_display = "Microlayer Medley Lucky Box 2021",
 		limit_arg = 1,
+		name = "Microlayer Medley Lucky Box 2021",
+		name_display = "Microlayer Medley Lucky Box 2021",
+		extra_gem = 0,
+		id = 133,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -5240,7 +5924,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond149",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 133,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond149",
 		extra_service_item = {
 			{
@@ -5323,17 +6007,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[134] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Black Friday Lucky Music Box",
+		subject = "Black Friday Lucky Music Box",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Black Friday Lucky Music Box",
-		extra_gem = 0,
-		name_display = "Black Friday Lucky Music Box",
 		limit_arg = 1,
+		name = "Black Friday Lucky Music Box",
+		name_display = "Black Friday Lucky Music Box",
+		extra_gem = 0,
+		id = 134,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -5342,7 +6028,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond152",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 134,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond152",
 		extra_service_item = {
 			{
@@ -5425,17 +6111,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[135] = {
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		name = "Abyssal Refrain Lucky Pack",
+		subject = "Abyssal Refrain Lucky Pack",
+		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
-		subject = "Abyssal Refrain Lucky Pack",
-		extra_gem = 0,
-		name_display = "Abyssal Refrain Lucky Pack",
 		limit_arg = 1,
+		name = "Abyssal Refrain Lucky Pack",
+		name_display = "Abyssal Refrain Lucky Pack",
+		extra_gem = 0,
+		id = 135,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -5444,7 +6132,7 @@ pg.pay_data_display = {
 		id_str = "com.yostaren.azurlane.diamond157",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 135,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
 		airijp_id = "com.yostaren.azurlane.diamond157",
 		extra_service_item = {
 			{
@@ -5527,7 +6215,8 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	all = {
 		1,
@@ -5556,6 +6245,16 @@ pg.pay_data_display = {
 		1001,
 		1002,
 		1003,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
 		100,
 		101,
 		102,

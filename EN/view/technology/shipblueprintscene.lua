@@ -175,6 +175,7 @@ function slot0.init(slot0)
 	slot0.previewAttrContainer = slot0:findTF("content", slot0.previewAttrPanel)
 	slot0.helpBtn = slot0:findTF("helpBtn", slot0.top)
 	slot0.exchangeBtn = slot0:findTF("exchangeBtn", slot0.top)
+	slot0.itemUnlockBtn = slot0:findTF("itemUnlockBtn", slot0.top)
 	slot0.bottomWidth = slot0.bottomPanel.rect.height
 	slot0.topWidth = slot0.topPanel.rect.height * 2
 	slot0.taskTFs = {}
@@ -236,6 +237,29 @@ function slot0.didEnter(slot0)
 		end
 
 		uv0:emit(ShipBluePrintMediator.ON_FINISHED, uv0.contextData.shipBluePrintVO.id)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.itemUnlockBtn, function ()
+		if not uv0.contextData.shipBluePrintVO then
+			return
+		end
+
+		slot0 = uv0.contextData.shipBluePrintVO.id
+		slot1 = uv0.contextData.shipBluePrintVO:getUnlockItem()
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_CONTENT_ITEMS,
+			content = i18n("techpackage_item_use", HXSet.hxLan(uv0.contextData.shipBluePrintVO:getShipVO():getName()), Item.GetName(DROP_TYPE_ITEM, slot1)),
+			items = {
+				{
+					count = 1,
+					type = DROP_TYPE_ITEM,
+					id = slot1
+				}
+			},
+			onYes = function ()
+				uv0:emit(ShipBluePrintMediator.ON_ITEM_UNLOCK, uv1, uv2)
+			end
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.preViewBtn, function ()
 		uv0:openPreView()
@@ -444,19 +468,30 @@ function slot0.createShipItem(slot0, slot1)
 		go = slot1,
 		tf = tf(slot1)
 	}
-	slot3 = findTF(slot2.tf, "icon")
+	slot3 = slot2.tf
+	slot3 = slot3:Find("icon")
 	slot2.iconShip = slot3:GetComponent("Image")
-	slot3 = findTF(slot2.tf, "count")
+	slot3 = slot2.tf
+	slot3 = slot3:Find("count")
 	slot2.countTxt = slot3:GetComponent(typeof(Text))
-	slot2.seleted = findTF(slot2.tf, "selected")
-	slot2.maskLock = findTF(slot2.tf, "state/mask_lock")
-	slot2.maskDev = findTF(slot2.tf, "state/mask_dev")
-	slot2.tip = findTF(slot2.tf, "tip")
-	slot2.iconTF = findTF(slot2.tf, "icon")
+	slot3 = slot2.tf
+	slot2.seleted = slot3:Find("selected")
+	slot3 = slot2.tf
+	slot2.maskLock = slot3:Find("state/mask_lock")
+	slot3 = slot2.tf
+	slot2.maskItemUnlock = slot3:Find("state/mask_item_unlock")
+	slot3 = slot2.tf
+	slot2.maskDev = slot3:Find("state/mask_dev")
+	slot3 = slot2.tf
+	slot2.tip = slot3:Find("tip")
+	slot3 = slot2.tf
+	slot2.iconTF = slot3:Find("icon")
 	slot3 = slot2.tf
 	slot2.toggle = slot3:GetComponent("Toggle")
-	slot2.lvTF = findTF(slot2.tf, "dev_lv")
-	slot2.lvTextTF = findTF(slot2.tf, "dev_lv/Text")
+	slot3 = slot2.tf
+	slot2.lvTF = slot3:Find("dev_lv")
+	slot3 = slot2.tf
+	slot2.lvTextTF = slot3:Find("dev_lv/Text")
 	slot3 = slot2.tf
 	slot2.fateTF = slot3:Find("fate_lv")
 	slot3 = slot2.tf
@@ -469,6 +504,7 @@ function slot0.createShipItem(slot0, slot1)
 		if slot0.shipBluePrintVO.id < 0 then
 			setActive(slot0.seleted, false)
 			setActive(slot0.maskLock, false)
+			setActive(slot0.maskItemUnlock, false)
 			setActive(slot0.maskDev, false)
 			setActive(slot0.tip, false)
 			setActive(slot0.lvTF, false)
@@ -499,16 +535,19 @@ function slot0.createShipItem(slot0, slot1)
 			setText(slot0.lvTextTF, slot0.shipBluePrintVO.level)
 			setActive(slot0.seleted, false)
 			setActive(slot0.countTxt, true)
-			setActive(slot0.maskLock, slot1:isLock())
-			setActive(slot0.maskDev, slot1:isDeving())
+
+			slot4 = slot1:isDeving()
+			slot5 = slot1:getUnlockItem()
+			slot6 = slot1:canFateSimulation()
+
+			setActive(slot0.maskLock, slot1:isLock() and not slot5)
+			setActive(slot0.maskItemUnlock, slot3 and slot5)
+			setActive(slot0.maskDev, slot4)
 			setActive(slot0.tip, slot1:isFinished())
+			setActive(slot0.lvTF, not slot3 and not slot4 and not slot6)
+			setActive(slot0.fateTF, not slot3 and not slot4 and slot6)
 
-			slot3 = slot1:canFateSimulation()
-
-			setActive(slot0.lvTF, not slot1:isLock() and not slot1:isDeving() and not slot3)
-			setActive(slot0.fateTF, not slot1:isLock() and not slot1:isDeving() and slot3)
-
-			if slot3 then
+			if slot6 then
 				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "icon_phase_" .. slot0.shipBluePrintVO.fateLevel, slot0.fateImageTF, true)
 			end
 		end
@@ -659,6 +698,7 @@ function slot0.setSelectedBluePrint(slot0)
 
 	setActive(slot0.fittingPanel, slot2 and slot0.isFate)
 	setActive(slot0.modPanel, slot2 and not slot0.isFate)
+	setActive(slot0.itemUnlockBtn, not slot2 and slot1:getUnlockItem())
 
 	if slot1:isDeving() then
 		slot0:emit(ShipBluePrintMediator.ON_CHECK_TAKES, slot1.id)

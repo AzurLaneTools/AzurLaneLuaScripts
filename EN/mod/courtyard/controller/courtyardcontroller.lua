@@ -159,11 +159,11 @@ function slot0.ShipAnimtionFinish(slot0, slot1, slot2)
 	slot0.storey:ShipAnimtionFinish(slot1, slot2)
 end
 
-function slot0.GetEmptyCntForShip(slot0)
+function slot0.GetMaxCntForShip(slot0)
 	return #slot0.storey:GetEmptyPositions(CourtYardShip.New(Ship.New({
 		id = 999,
 		configId = 100001
-	})))
+	}))) + table.getCount(slot0.storey:GetShips())
 end
 
 function slot0.SelectFurniture(slot0, slot1)

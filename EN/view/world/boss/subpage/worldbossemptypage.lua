@@ -53,11 +53,8 @@ function slot0.Update(slot0)
 	setActive(slot0.noItem, not slot1)
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot2:isEnd() then
-		warning(slot2.id)
-
-		slot3 = slot2:getConfig("time")[2]
-		slot4 = slot2:getConfig("time")[3]
-		slot0.timeTxt.text = string.format("%d.%d.%d~%d.%d.%d", slot3[1][1], slot3[1][2], slot3[1][3], slot4[1][1], slot4[1][2], slot4[1][3])
+		slot3 = pg.TimeMgr.GetInstance()
+		slot0.timeTxt.text = slot3:STimeDescC(slot2:getStartTime(), "%Y.%m.%d") .. "~" .. slot3:STimeDescC(slot2.stopTime, "%Y.%m.%d")
 	else
 		slot0.timeTxt.text = ""
 	end

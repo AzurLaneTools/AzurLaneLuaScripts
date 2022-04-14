@@ -81,7 +81,7 @@ function slot0.AutoScroll(slot0)
 		end
 
 		uv0:ScrollTo(slot0)
-	end, 5, -1)
+	end, 5, -1, true)
 
 	slot0.timer:Start()
 end

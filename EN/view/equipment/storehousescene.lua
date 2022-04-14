@@ -1031,36 +1031,89 @@ function slot0.updateItem(slot0, slot1, slot2)
 
 	if not slot4 then
 		removeOnButton(slot3.go)
-	elseif slot4:getConfig("type") == Item.INVITATION_TYPE then
-		onButton(slot0, slot3.go, function ()
-			uv0:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.INVITATION, {
-				itemVO = uv1
-			})
-		end, SFX_PANEL)
-	elseif slot4:getConfig("type") == Item.ASSIGNED_TYPE or slot4:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
-		if underscore.any(pg.gameset.general_blueprint_list.description, function (slot0)
-			return uv0.id == slot0
-		end) then
+	else
+		if tobool(getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot4.id)) then
+			slot5 = getProxy(TechnologyProxy)
+
+			if underscore.detect(underscore.map(slot5:getItemCanUnlockBluePrint(slot4.id), function (slot0)
+				return uv0:getBluePrintById(slot0)
+			end), function (slot0)
+				return not slot0:isUnlock()
+			end) then
+				onButton(slot0, slot3.go, function ()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM,
+						item = uv0,
+						blueprints = uv1,
+						onYes = function ()
+							uv0:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.SHIPBLUEPRINT, {
+								shipBluePrintVO = uv1
+							})
+						end,
+						yesText = i18n("text_forward")
+					})
+				end, SFX_PANEL)
+			else
+				onButton(slot0, slot3.go, function ()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM,
+						windowSize = Vector2(1010, 685),
+						item = uv0,
+						blueprints = uv1,
+						onYes = function ()
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								type = MSGBOX_TYPE_ITEM_BOX,
+								content = i18n("techpackage_item_use_confirm"),
+								items = underscore.map(uv0:getConfig("display_icon"), function (slot0)
+									return {
+										type = slot0[1],
+										id = slot0[2],
+										count = slot0[3]
+									}
+								end),
+								onYes = function ()
+									uv0:emit(EquipmentMediator.ON_USE_ITEM, uv1.id, 1)
+								end
+							})
+						end
+					})
+				end, SFX_PANEL)
+			end
+
+			return
+		end
+
+		if slot4:getConfig("type") == Item.INVITATION_TYPE then
 			onButton(slot0, slot3.go, function ()
-				uv0.blueprintAssignedItemView:Load()
-				uv0.blueprintAssignedItemView:ActionInvoke("Show")
-				uv0.blueprintAssignedItemView:ActionInvoke("update", uv1.itemVO)
+				uv0:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.INVITATION, {
+					itemVO = uv1
+				})
+			end, SFX_PANEL)
+		elseif slot4:getConfig("type") == Item.ASSIGNED_TYPE or slot4:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
+			if underscore.any(pg.gameset.general_blueprint_list.description, function (slot0)
+				return uv0.id == slot0
+			end) then
+				onButton(slot0, slot3.go, function ()
+					uv0.blueprintAssignedItemView:Load()
+					uv0.blueprintAssignedItemView:ActionInvoke("Show")
+					uv0.blueprintAssignedItemView:ActionInvoke("update", uv1)
+				end, SFX_PANEL)
+			else
+				onButton(slot0, slot3.go, function ()
+					uv0.assignedItemView:Load()
+					uv0.assignedItemView:ActionInvoke("Show")
+					uv0.assignedItemView:ActionInvoke("update", uv1)
+				end, SFX_PANEL)
+			end
+		elseif slot4:getConfig("type") == Item.LOVE_LETTER_TYPE then
+			onButton(slot0, slot3.go, function ()
+				uv0:emit(uv1.ON_ITEM_EXTRA, uv2.id, uv2.extra)
 			end, SFX_PANEL)
 		else
 			onButton(slot0, slot3.go, function ()
-				uv0.assignedItemView:Load()
-				uv0.assignedItemView:ActionInvoke("Show")
-				uv0.assignedItemView:ActionInvoke("update", uv1.itemVO)
+				uv0:emit(uv1.ON_ITEM, uv2.id)
 			end, SFX_PANEL)
 		end
-	elseif slot4:getConfig("type") == Item.LOVE_LETTER_TYPE then
-		onButton(slot0, slot3.go, function ()
-			uv0:emit(uv1.ON_ITEM_EXTRA, uv2.id, uv2.extra)
-		end, SFX_PANEL)
-	else
-		onButton(slot0, slot3.go, function ()
-			uv0:emit(uv1.ON_ITEM, uv2.id)
-		end, SFX_PANEL)
 	end
 end
 
