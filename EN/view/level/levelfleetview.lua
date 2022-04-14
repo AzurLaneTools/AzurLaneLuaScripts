@@ -234,6 +234,7 @@ function slot0.InitUI(slot0)
 		GetComponent(slot0.rtCostLimit:Find("cost_noraml/Text"), typeof(Text)).fontSize = 27
 		GetComponent(slot0.rtCostLimit:Find("cost_boss/Text"), typeof(Text)).fontSize = 27
 		GetComponent(slot0.rtCostLimit:Find("cost_sub/Text"), typeof(Text)).fontSize = 27
+		slot0.rtCostLimit.offsetMax = Vector2.New(900, -25)
 	end
 
 	slot0.btnBack = slot0:findTF("panel/btnBack")

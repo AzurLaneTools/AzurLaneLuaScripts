@@ -315,7 +315,7 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 
 	if #slot1:getConfig("effect_args") > 0 then
 		if pg.item_data_statistics[slot9[1]] then
-			setText(slot0.name, slot10.name)
+			setScrollText(slot0.name, slot10.name)
 			slot0:updateImport(slot10.display_icon, slot10.display)
 		end
 
