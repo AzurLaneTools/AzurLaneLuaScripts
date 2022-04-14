@@ -20038,7 +20038,7 @@ _G.pg.gametip.tech_select_tip2 = {
 }
 
 _G.pg.gametip.tech_select_tip3 = {
-	tip = "Already Unlocked"
+	tip = "Unlocked"
 }
 
 _G.pg.gametip.tech_select_tip4 = {

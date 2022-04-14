@@ -152121,7 +152121,7 @@ _G.pg.item_data_statistics[59283] = {
 }
 
 _G.pg.item_data_statistics[59284] = {
-	display = "A limited construction ticket for use during the \"Little Royal Knight\" event. Removed after the event ends.",
+	display = "A limited construction ticket for use during the \"Aurora Noctis Rerun\" event. Removed after the event ends.",
 	name = "Shipbuilding Support Ticket",
 	max_num = 0,
 	type = 0,
@@ -152163,7 +152163,7 @@ _G.pg.item_data_statistics[59285] = {
 }
 
 _G.pg.item_data_statistics[59286] = {
-	display = "Event: \"Today's Debut✩Tomorrow's Star!\" Friendship Point Reward ",
+	display = "Event: \"Little Royal Knight\" Friendship Point Reward ",
 	name = "Friendship Points ",
 	max_num = 0,
 	type = 98,
@@ -160788,7 +160788,37 @@ _G.pg.item_data_statistics[69000] = {
 }
 
 _G.pg.item_data_statistics[69001] = {
-	display = "Can be used to obtain the following gear:",
+	display = [[
+Can be used to obtain the following gear:
++6 Twin 120mm Main Gun Mount T2*3
++6 Twin 100mm Type 98 High-Angle Gun T2*3
++6 Twin 150mm TbtsK C/36 Main Gun Mount T2*3
++6 Triple 155mm Main Gun Mount T2*3
++6 Twin 203mm (SK C/34) T2*3
++6 Triple 203mm Improved Main Gun Mount T3*3
++6 Triple 406mm Mk 6 Main Gun Mount T2*3
++6 Twin 381mm Main Gun Mount T3*3
++6 Twin 113mm AA Gun Mount T2*3
++6 Quadruple 40mm Bofors AA Gun Mount T2*3
++6 533mm Quadruple Torpedo Mount T3*3
++6 533mm Quadruple Magnetic Torpedo Mount T2*3
++6 F4U Corsair T3*3
++6 Messerschmitt Me-155A T2*3
++6 Barracuda T2*3
++6 Tenzan T2*3
++6 SB2C Helldiver T2*3
++6 Ju-87C Dive Bomber T3*3
++6 G7e Acoustic Homing Submarine Torpedo T2*3
++6 Type 95 Submarine Torpedo T2*3
++6 Basic Depth Charge Projector T3*3
++6 Fire Control Radar T2*3
++6 Anti-Torpedo Bulge T2*3
++6 Steam Catapult T2*3
++6 Aviation Oil Tank T2*3
++6 Autoloader T2*3
++6 Repair Toolkit T2*3
++6 Fire Suppressor T3*3
++6 Type 93 Pure Oxygen Torpedo T1*3]],
 	name = "Rapid Training Gear Pack",
 	max_num = 0,
 	type = 98,

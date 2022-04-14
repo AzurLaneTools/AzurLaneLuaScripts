@@ -18159,86 +18159,86 @@ cs.gametip = {
 	},
 	tech_select_tip3 = {
 		628713,
-		87,
+		79,
 		true
 	},
 	tech_select_tip4 = {
-		628800,
+		628792,
 		87,
 		true
 	},
 	tech_select_tip5 = {
-		628887,
+		628879,
 		108,
 		true
 	},
 	techpackage_item_use = {
-		628995,
+		628987,
 		194,
 		true
 	},
 	techpackage_item_use_confirm = {
-		629189,
+		629181,
 		174,
 		true
 	},
 	newserver_shop_timelimit = {
-		629363,
+		629355,
 		97,
 		true
 	},
 	tech_character_get = {
-		629460,
+		629452,
 		80,
 		true
 	},
 	package_detail_tip = {
-		629540,
+		629532,
 		80,
 		true
 	},
 	event_ui_consume = {
-		629620,
+		629612,
 		75,
 		true
 	},
 	event_ui_recommend = {
-		629695,
+		629687,
 		82,
 		true
 	},
 	event_ui_start = {
-		629777,
+		629769,
 		74,
 		true
 	},
 	event_ui_giveup = {
-		629851,
+		629843,
 		76,
 		true
 	},
 	event_ui_finish = {
-		629927,
+		629919,
 		78,
 		true
 	},
 	nav_tactics_sel_skill_title = {
-		630005,
+		629997,
 		94,
 		true
 	},
 	battle_result_confirm = {
-		630099,
+		630091,
 		83,
 		true
 	},
 	battle_result_targets = {
-		630182,
+		630174,
 		83,
 		true
 	},
 	battle_result_continue = {
-		630265,
+		630257,
 		94,
 		true
 	}
