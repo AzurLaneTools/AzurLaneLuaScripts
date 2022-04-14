@@ -2387,7 +2387,7 @@ pg.memory_group = {
 		subtype = 3,
 		type = 2,
 		id = 213,
-		title = "布里之誓",
+		title = "부린의 맹세",
 		memories = {
 			2061,
 			2062
