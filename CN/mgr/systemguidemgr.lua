@@ -155,7 +155,7 @@ function slot0.PlayCommander(slot0)
 		return not uv0(slot0)
 	end)) do
 		table.insert(slot3, function (slot0)
-			if uv0 == "NG006" and table.getCount(getProxy(CommanderProxy):getData()) >= 1 or uv0 == "NG007" and getProxy(BagProxy):getItemCountById(20012) ~= 1 or uv0 == "NG008" and getProxy(CommanderProxy):getBoxes()[1]:getState() ~= CommanderBox.STATE_FINISHED or uv0 == "NG009" and table.getCount(getProxy(CommanderProxy):getData()) ~= 1 then
+			if uv0 == "NG006" and table.getCount(getProxy(CommanderProxy):getData()) >= 1 or uv0 == "NG007" and getProxy(BagProxy):getItemCountById(20012) < 1 or uv0 == "NG008" and getProxy(CommanderProxy):getBoxes()[1]:getState() ~= CommanderBox.STATE_FINISHED or uv0 == "NG009" and table.getCount(getProxy(CommanderProxy):getData()) ~= 1 then
 				pg.m02:sendNotification(GAME.STORY_UPDATE, {
 					storyId = uv0
 				})

@@ -8,6 +8,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.tr = slot1.transform
 	slot0.dispatch = slot2
 	slot0.btn = slot0:findTF("btn").gameObject
+
+	setText(findTF(slot0.tr, "btn_recommend/text"), pg.gametip.event_ui_recommend.tip)
+	setText(findTF(slot0.tr, "btn_recommend_disable/text"), pg.gametip.event_ui_recommend.tip)
+	setText(findTF(slot0.tr, "consume/label"), pg.gametip.event_ui_consume.tip)
+	setText(findTF(slot0.tr, "btn/start/text"), pg.gametip.event_ui_start.tip)
+	setText(findTF(slot0.tr, "btn_disable/text"), pg.gametip.event_ui_start.tip)
+	setText(findTF(slot0.tr, "btn/giveup/text"), pg.gametip.event_ui_giveup.tip)
+	setText(findTF(slot0.tr, "btn/finish/text"), pg.gametip.event_ui_finish.tip)
+
 	slot0.conditions = findTF(slot0.tr, "conditions")
 	slot0.condition1 = findTF(slot0.conditions, "condition_1/mask/Text")
 	slot0.condition2 = findTF(slot0.conditions, "condition_2/mask/Text")

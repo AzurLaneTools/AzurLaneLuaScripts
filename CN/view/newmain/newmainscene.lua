@@ -153,6 +153,14 @@ function slot0._FoldPanels(slot0, slot1, slot2)
 end
 
 function slot0.FoldPanels(slot0, slot1)
+	if slot1 then
+		slot0.mainCG.blocksRaycasts = false
+	else
+		Timer.New(function ()
+			uv0.mainCG.blocksRaycasts = true
+		end, 0.5, 1):Start()
+	end
+
 	slot0:_FoldPanels(slot1, 0.5)
 	pg.playerResUI:Fold(slot1, 0.5)
 	slot0.paintingView:Fold(slot1, 0.5)
@@ -258,6 +266,7 @@ function slot0.setVisible(slot0, slot1)
 		slot0.actBtnView:Disable()
 		slot0.bannerView:Disable()
 		pg.redDotHelper:Disable()
+		slot0.buffDescPage:Disable()
 	end
 
 	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, slot1)

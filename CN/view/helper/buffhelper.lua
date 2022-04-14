@@ -3,12 +3,22 @@ slot0 = class("BuffHelper")
 function slot1(slot0, slot1)
 	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
 		if slot1 and not slot1:isEnd() then
-			if ActivityBuff.New(slot1.id, slot1:getConfig("config_id")):RookieBattleExpUsage() then
-				if getProxy(PlayerProxy):getRawData().level < slot3:GetRookieBattleExpMaxLevel() then
-					table.insert(slot0, slot3)
+			slot3 = {}
+
+			if slot1:getConfig("config_id") == 0 then
+				slot3 = slot1:getConfig("config_data")
+			else
+				table.insert(slot3, slot2)
+			end
+
+			for slot7, slot8 in ipairs(slot3) do
+				if ActivityBuff.New(slot1.id, slot8):RookieBattleExpUsage() then
+					if getProxy(PlayerProxy):getRawData().level < slot9:GetRookieBattleExpMaxLevel() then
+						table.insert(slot0, slot9)
+					end
+				elseif slot9:checkShow() then
+					table.insert(slot0, slot9)
 				end
-			elseif slot3:checkShow() then
-				table.insert(slot0, slot3)
 			end
 		end
 	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then

@@ -11,6 +11,9 @@ function slot0.OnLoaded(slot0)
 	slot0.confirmBtn = slot0:findTF("content/confirm_btn")
 	slot0.cancelBtn = slot0:findTF("content/cancel_btn")
 	slot0.closeBtn = slot0:findTF("content/btnBack")
+
+	setText(slot0.confirmBtn:Find("pic"), i18n("word_ok"))
+	setText(slot0.cancelBtn:Find("pic"), i18n("word_cancel"))
 end
 
 function slot0.OnInit(slot0)

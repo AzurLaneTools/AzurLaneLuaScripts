@@ -50,7 +50,7 @@ function slot0.OnShow(slot0, slot1)
 		end
 	end
 
-	slot7 = getProxy(ActivityProxy):getBuildTipActivityByID(slot2.id) and slot6 or slot2.rate_tip
+	slot7 = getProxy(ActivityProxy):getBuildActivityCfgByID(slot2.id) and slot6.rate_tip or slot2.rate_tip
 
 	for slot11 = 1, #slot7 do
 		slot12 = nil

@@ -15,6 +15,11 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0:UpdateDesc(slot1)
 
 	slot0._tf.localPosition = slot2
+	slot0._parentTf = slot0._tf.parent
+
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		overlayType = LayerWeightConst.OVERLAY_UI_TOP
+	})
 end
 
 function slot0.UpdateDesc(slot0, slot1)
@@ -70,8 +75,15 @@ end
 
 function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	slot0:RemoveCloseTimer()
 	slot0:RemoveDescTimer()
+end
+
+function slot0.Disable(slot0)
+	if slot0:GetLoaded() and slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 function slot0.OnDestroy(slot0)

@@ -64,4 +64,59 @@ function slot0.IsLocalPrice(slot0)
 	return slot0:getConfig("money") ~= slot0:RawGetConfig("money")
 end
 
+function slot0.isLevelLimit(slot0, slot1, slot2)
+	slot3, slot4 = slot0:getLevelLimit()
+
+	if slot2 and slot4 then
+		return false
+	end
+
+	return slot3 > 0 and slot1 < slot3
+end
+
+function slot0.getLevelLimit(slot0)
+	for slot5, slot6 in ipairs(slot0:getConfig("limit_args")) do
+		if type(slot6) == "table" and slot6[1] == "level" then
+			return slot6[2], slot6[3]
+		end
+	end
+
+	return 0
+end
+
+function slot0.isTecShipGift(slot0)
+	if slot0:getConfig("limit_type") == Goods.Tec_Ship_Gift_Type then
+		return true
+	else
+		return false
+	end
+end
+
+function slot0.isTecShipShowGift(slot0)
+	if slot0:isTecShipGift() then
+		if slot0:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Show then
+			return true
+		else
+			return false
+		end
+	else
+		return false
+	end
+end
+
+function slot0.getSameGroupTecShipGift(slot0)
+	slot1 = {}
+	slot2 = slot0:getConfig("limit_group")
+
+	for slot7, slot8 in ipairs(slot0:bindConfigTable().all) do
+		if slot3[slot8].limit_type == Goods.Tec_Ship_Gift_Type and slot9.limit_group == slot2 then
+			table.insert(slot1, Goods.Create({
+				shop_id = slot8
+			}, Goods.TYPE_CHARGE))
+		end
+	end
+
+	return slot1
+end
+
 return slot0

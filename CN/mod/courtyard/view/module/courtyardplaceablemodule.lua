@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.callbacks = {}
 	slot0.iconLoaded = false
 	slot0.pudding = false
+	slot0.completion = false
 	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.rect = _courtyard:GetView():GetRect()
 	slot0.floor = slot0.rect:Find("floor")
@@ -19,10 +20,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.gridsTF = slot0._tf:Find("grids")
 	slot0.childsTF = slot0._tf:Find("childs")
 	slot0.interactionTF = slot0._tf:Find("interaction")
+	slot0.bones = {}
 	slot0._tf.localScale = Vector3(slot0.data:GetDirection() == 1 and 1 or -1, 1, 1)
 
 	setParent(slot0._tf, slot0:GetParentTF())
 	slot0:UpdatePosition(slot0.data:GetPosition(), Vector3.zero)
+end
+
+function slot0.IsCompletion(slot0)
+	return slot0.completion and not slot0.doPuddingAniming
 end
 
 function slot0.OnIconLoaed(slot0)
@@ -35,6 +41,7 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.dragAgent = CourtYardDragAgent.New(slot0)
+	slot0.completion = true
 end
 
 function slot0.CreateWhenStoreyInit(slot0)
@@ -42,6 +49,30 @@ function slot0.CreateWhenStoreyInit(slot0)
 end
 
 function slot0.BlocksRaycasts(slot0, slot1)
+end
+
+slot1 = "follower_"
+
+function slot0.NewBoneFollower(slot0, slot1)
+	slot2 = uv0 .. slot1
+	slot3 = GameObject.New(slot2, typeof(RectTransform))
+	slot4 = slot3.transform
+
+	slot4:SetParent(slot0.interactionTF, false)
+
+	slot5 = GetOrAddComponent(slot3, typeof(Spine.Unity.BoneFollowerGraphic))
+	slot5.followLocalScale = true
+	slot5.skeletonGraphic = slot0:GetSpine():GetComponent("Spine.Unity.SkeletonGraphic")
+
+	slot5:SetBone(slot1)
+
+	slot0.bones[slot2] = slot4
+
+	return slot4.transform
+end
+
+function slot0.FindBoneFollower(slot0, slot1)
+	return slot0.bones[uv0 .. slot1]
 end
 
 function slot0.PuddingAnim(slot0)
@@ -117,6 +148,14 @@ function slot0.UpdatePosition(slot0, slot1, slot2)
 end
 
 function slot0.OnDispose(slot0)
+	for slot4, slot5 in pairs(slot0.bones) do
+		if not IsNil(slot5) then
+			Object.Destroy(slot5.gameObject)
+		end
+	end
+
+	slot0.bones = {}
+
 	if slot0.dragAgent then
 		slot0.dragAgent:Dispose()
 

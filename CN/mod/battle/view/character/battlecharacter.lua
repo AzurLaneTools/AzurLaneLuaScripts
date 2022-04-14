@@ -498,7 +498,10 @@ function slot5.onDetected(slot0, slot1)
 		slot0:RemoveCacheFX("shock")
 	end
 
-	slot0:UpdateCharacterDetected()
+	if slot0._unitData:GetIFF() == uv0.FOE_CODE then
+		slot0:UpdateCharacterDetected()
+	end
+
 	slot0:updateComponentVisible()
 end
 

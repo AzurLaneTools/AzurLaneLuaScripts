@@ -49,6 +49,8 @@ function slot0.register(slot0)
 		uv0:setStudents(slot4)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inClass")
 		uv0:CheckResFields()
+
+		uv0.dailyFinsihCnt = slot0.daily_finish_buff_cnt or 0
 	end)
 	slot0:on(22013, function (slot0)
 		uv0.course:SetProficiency(slot0.proficiency)
@@ -354,6 +356,20 @@ function slot0.IsShowTip(slot0)
 	end
 
 	return false
+end
+
+function slot0.getDailyFinishCnt(slot0)
+	return (_.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
+		return slot0:getConfig("benefit_type") == "skill_learn_time"
+	end) and tonumber(slot1:getConfig("benefit_effect")) or 0) - slot0.dailyFinsihCnt
+end
+
+function slot0.updateUsedDailyFinishCnt(slot0)
+	slot0.dailyFinsihCnt = slot0.dailyFinsihCnt + 1
+end
+
+function slot0.resetUsedDailyFinishCnt(slot0)
+	slot0.dailyFinsihCnt = 0
 end
 
 return slot0

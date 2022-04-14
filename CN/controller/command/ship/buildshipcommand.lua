@@ -26,7 +26,7 @@ function slot0.execute(slot0, slot1)
 
 			if uv1 then
 				slot1 = getProxy(ActivityProxy)
-				slot2 = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE)
+				slot2 = slot1:getBuildFreeActivityByBuildId(uv2)
 				slot2.data1 = slot2.data1 - uv0
 
 				slot1:updateActivity(slot2)

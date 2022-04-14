@@ -826,6 +826,10 @@ _G.pg.gametip.word_sell_out = {
 	tip = "已售罄"
 }
 
+_G.pg.gametip.word_sell_lock = {
+	tip = "未解锁"
+}
+
 _G.pg.gametip.word_contribution = {
 	tip = "贡献"
 }
@@ -6651,6 +6655,10 @@ _G.pg.gametip.gold_max_tip_title = {
 	tip = "物资已经达到上限"
 }
 
+_G.pg.gametip.expbook_max_tip_title = {
+	tip = "舰艇演习数据已经达到上限"
+}
+
 _G.pg.gametip.resource_max_tip_shop = {
 	tip = "无法购买资源"
 }
@@ -9739,7 +9747,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "帝国、可畏等角色建造概率UP！"
+	tip = "豪、英仙座等角色建造概率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -18162,6 +18170,10 @@ _G.pg.gametip.cowboy_tips = {
 	}
 }
 
+_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+	tip = "该家具无法旋转"
+}
+
 _G.pg.gametip.chazi_tips = {
 	tip = {
 		{
@@ -19673,6 +19685,39 @@ _G.pg.gametip.fur_onekey_buy = {
 	tip = "购买整套"
 }
 
+_G.pg.gametip.littleRenown_npc = {
+	tip = {
+		{
+			info = "「小骑士de训练日」说明："
+		},
+		{
+			info = "1.活动期间，玩家可获得临时npc角色「小声望」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+		},
+		{
+			info = "2.活动期间，击破普通难度主线第三章及之后章节或活动地图旗舰，可增加临时npc角色「小声望」的友好度。（不包括大型作战）"
+		},
+		{
+			info = "3.上阵「小声望」参与战斗，且未被击沉，可增加双倍友好度。"
+		},
+		{
+			info = "4.在活动结束前累计获得1000点好友度，可领取奖励并将临时角色「小声望」转化为永久角色。"
+		},
+		{
+			info = "5.在活动结束后，未完成转化的临时角色「小声望」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+		},
+		{
+			info = "6.npc角色无法参与大型作战"
+		},
+		{
+			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战"
+		}
+	}
+}
+
+_G.pg.gametip.tech_package_tip = {
+	tip = "只能购买一种礼包，礼包将发送到邮箱请注意查收\n购买标准版礼包后仍可花费差价升级为高级版"
+}
+
 _G.pg.gametip.backyard_food_shop_tip = {
 	tip = "需要花费："
 }
@@ -19735,4 +19780,167 @@ _G.pg.gametip.level_remaster_tip3 = {
 
 _G.pg.gametip.level_remaster_tip4 = {
 	tip = "击破$1敌方旗舰次数"
+}
+
+_G.pg.gametip.newserver_time = {
+	tip = "$1天$2时"
+}
+
+_G.pg.gametip.newserver_soldout = {
+	tip = "商品已售完"
+}
+
+_G.pg.gametip.skill_learn_tip = {
+	tip = "今日还有$1次快速完成技能学习的次数哦"
+}
+
+_G.pg.gametip.newserver_build_tip = {
+	tip = "本建造只能使用新手单次建造券哦！"
+}
+
+_G.pg.gametip.build_count_tip = {
+	tip = "累计"
+}
+
+_G.pg.gametip.help_research_package = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/tecshipgifthelp",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.gametip.lv70_package_tip = {
+	tip = "当前指挥官等级大于等于70级，购买即刻出战礼包后，指挥官等级将不会发生变化(可以正常获得礼包内其他物品)，是否确认购买"
+}
+
+_G.pg.gametip.tech_select_tip1 = {
+	tip = "角色未全部获得"
+}
+
+_G.pg.gametip.tech_select_tip2 = {
+	tip = "可于科研-开发船坞中选择一名角色\n快速研发并获取"
+}
+
+_G.pg.gametip.tech_select_tip3 = {
+	tip = "已获得"
+}
+
+_G.pg.gametip.tech_select_tip4 = {
+	tip = "角色全部获得"
+}
+
+_G.pg.gametip.tech_select_tip5 = {
+	tip = "使用后将获得以下道具"
+}
+
+_G.pg.gametip.techpackage_item_use = {
+	tip = "快速研发只能选定1名角色，是否确认研发$1？\n研发后会获得对应角色(等级与科研等级均为1级)\n<color=#ff5c5c>将消耗道具$2*1</color>"
+}
+
+_G.pg.gametip.techpackage_item_use_confirm = {
+	tip = "角色已全部获得，使用后将获得以下道具"
+}
+
+_G.pg.gametip.new_server_shop_sel_goods_tip = {
+	tip = "每件装备只能兑换一次"
+}
+
+_G.pg.gametip.new_server_shop_unopen_tip = {
+	tip = "尚未开放"
+}
+
+_G.pg.gametip.newserver_activity_tip = {
+	tip = {
+		{
+			info = "「新服开服庆典」活动说明：\n"
+		},
+		{
+			info = "<color=#92fc63>·活动时间</color>\n活动将于指挥官注册并第一次成功登陆游戏后第21天的次日23:59结束，请指挥官留意界面中活动剩余时间。\n"
+		},
+		{
+			info = [[
+<color=#92fc63>·活动任务</color>
+活动任务分为「每日任务」与「历程任务」,「每日任务」于每天0点刷新，「历程任务」只能完成一次，不会刷新；
+完成活动任务可获取「新服庆典Pt」，完成通关系列任务还可额外获得角色「皇家方舟」、「U-47」、「天狼星」。
+]]
+		},
+		{
+			info = [[
+<color=#92fc63>·活动商店</color>
+消耗「新服庆典Pt」可于活动商店中兑换角色「鲨」、「新手建造单抽券」、「心智魔方」等大量奖励；
+活动商店分为3个阶段，阶段1商品于首次登录后解锁，阶段2商品于首次登录的7天后解锁，阶段3商品于首次登录的14天后解锁；
+活动商店在活动结束后会额外开放7天，期间仍然可消耗「新服庆典Pt」兑换商品。
+]]
+		},
+		{
+			info = "<color=#92fc63>·庆典新手建造</color>\n庆典新手建造只能使用「新手单次建造券」，建造40次后，可于建造界面领取角色「企业」，领取角色后庆典新手建造将会关闭。"
+		}
+	}
+}
+
+_G.pg.gametip.newserver_shop_timelimit = {
+	tip = "该商品将于$1后解锁"
+}
+
+_G.pg.gametip.tech_character_get = {
+	tip = "角色已获得"
+}
+
+_G.pg.gametip.package_detail_tip = {
+	tip = "查看详情"
+}
+
+_G.pg.gametip.event_ui_consume = {
+	tip = "消耗:"
+}
+
+_G.pg.gametip.event_ui_recommend = {
+	tip = "推荐"
+}
+
+_G.pg.gametip.event_ui_start = {
+	tip = "开始"
+}
+
+_G.pg.gametip.event_ui_giveup = {
+	tip = "取消"
+}
+
+_G.pg.gametip.event_ui_finish = {
+	tip = "完成"
+}
+
+_G.pg.gametip.nav_tactics_sel_skill_title = {
+	tip = "选择技能"
+}
+
+_G.pg.gametip.battle_result_confirm = {
+	tip = "确定"
+}
+
+_G.pg.gametip.battle_result_targets = {
+	tip = "战斗评价"
+}
+
+_G.pg.gametip.battle_result_continue = {
+	tip = "点击继续"
 }

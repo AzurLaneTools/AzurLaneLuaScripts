@@ -648,7 +648,10 @@ function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 	end)
 	slot8:AddPointUpFunc(function ()
 		uv0()
-		uv1()
+
+		if uv1 then
+			uv1()
+		end
 	end)
 
 	return slot8

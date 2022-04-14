@@ -132,6 +132,10 @@ function slot0.init(slot0)
 	SetActive(slot0._levelText, false)
 
 	slot0._delayLeanList = {}
+
+	setText(findTF(slot0._confirmBtn, "Text"), i18n("battle_result_confirm"))
+	setText(findTF(slot0._bg, "jieuan01/tips/dianjijixu/bg20"), i18n("battle_result_continue"))
+	setText(findTF(slot0._conditions, "bg17"), i18n("battle_result_targets"))
 end
 
 function slot0.setGradeLabel(slot0)

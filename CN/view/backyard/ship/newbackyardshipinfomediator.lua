@@ -61,13 +61,15 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 end
 
 function slot0.GetMaxSel(slot0, slot1, slot2)
+	slot3 = 0
+
 	if slot2 == Ship.STATE_TRAIN then
-		max = slot1.exp_pos
+		slot3 = slot1.exp_pos
 	elseif slot2 == Ship.STATE_REST then
-		max = slot1.rest_pos
+		slot3 = slot1.rest_pos
 	end
 
-	return max
+	return slot3
 end
 
 function slot0.GetSelectedShips(slot0, slot1, slot2, slot3)
@@ -92,7 +94,7 @@ function slot0.GetSelectedShips(slot0, slot1, slot2, slot3)
 end
 
 function slot0.OnShip(slot0, slot1, slot2, slot3, slot4)
-	if slot0.contextData.MaxRsetPos < #slot4 + 1 then
+	if slot0.contextData.MaxRsetPos < #slot4 then
 		return false, i18n("backyard_no_pos_for_ship")
 	end
 

@@ -7,6 +7,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.nextTxt = findTF(slot0._tf, "next"):GetComponent(typeof(Text))
 	slot0.nameTxt = findTF(slot0._tf, "name"):GetComponent(typeof(Text))
 	slot0.levelTxt = findTF(slot0._tf, "name/level"):GetComponent(typeof(Text))
+
+	if PLATFORM_CODE == PLATFORM_US then
+		slot0.descTxt.lineSpacing = 1.1
+	end
 end
 
 function slot0.Enable(slot0)
@@ -22,7 +26,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.descTxt.text = slot1:GetTacticsDesc()
 
 	if slot2 and slot2 > 0 then
-		slot0.levelTxt.text = "Lv." .. slot1.level .. "    <color=#A9F548FF>+" .. slot2 .. "</color>"
+		slot0.levelTxt.text = "Lv." .. slot1.level .. "  <color=#A9F548FF>+" .. slot2 .. "</color>"
 	else
 		slot0.levelTxt.text = "Lv." .. slot1.level
 	end

@@ -87,10 +87,16 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OPEN_MAIL, function (slot0)
-		uv0:addSubLayers(Context.New({
-			mediator = MailMediator,
-			viewComponent = MailLayer
-		}))
+		if BATTLE_DEBUG then
+			uv0:sendNotification(GAME.BEGIN_STAGE, {
+				system = SYSTEM_DEBUG
+			})
+		else
+			uv0:addSubLayers(Context.New({
+				mediator = MailMediator,
+				viewComponent = MailLayer
+			}))
+		end
 	end)
 	slot0:bind(uv0.OPEN_NOTICE, function (slot0)
 		uv0:addSubLayers(Context.New({

@@ -21,7 +21,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.OnInit(slot0)
-	slot0.zoomAgent = slot0._tf:Find("bg"):GetComponent("Zoom")
+	slot0.zoomAgent = slot0._tf:Find("bg"):GetComponent("PinchZoom")
 	slot0.scrollrect = slot0._tf:Find("scroll_view")
 	slot0.bg = slot0._tf:Find("bg")
 	slot0.rectTF = slot0._tf:Find("bg/rect")
@@ -116,6 +116,16 @@ function slot0.OnInited(slot0)
 
 	slot0:RefreshDepth()
 	slot0:RefreshMatDepth()
+end
+
+function slot0.AllModulesAreCompletion(slot0)
+	for slot4, slot5 in pairs(slot0.modules) do
+		if not slot5:IsCompletion() then
+			return false
+		end
+	end
+
+	return true
 end
 
 function slot0.OnRemindSave(slot0)
@@ -237,6 +247,7 @@ function slot0.EnableZoom(slot0, slot1)
 end
 
 function slot0.RegisterOp(slot0, slot1)
+	setActive(slot0.rotationBtn, not slot1:DisableRotation())
 	onButton(slot0, slot0.rotationBtn, function ()
 		uv0:Emit("RotateFurniture", uv1.id)
 	end, SFX_PANEL)
@@ -348,7 +359,7 @@ function slot0.OnItemInterAction(slot0, slot1, slot2, slot3)
 		slot9 = slot4._tf
 
 		for slot13, slot14 in ipairs(slot6) do
-			slot9:SetParent(slot14)
+			slot9:SetParent(slot14, false)
 
 			slot9 = slot14
 		end
@@ -391,23 +402,15 @@ function slot0.AddInteractionFollower(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if IsNil(slot3.interactionTF:Find("follower_" .. slot4.bone)) then
-		slot8 = GameObject.New(slot6, typeof(RectTransform))
-
-		slot8.transform:SetParent(slot3.interactionTF, false)
-
-		slot9 = GetOrAddComponent(slot8, typeof(Spine.Unity.BoneFollowerGraphic))
-		slot9.followLocalScale = true
-		slot9.skeletonGraphic = slot3:GetSpine():GetComponent("Spine.Unity.SkeletonGraphic")
-
-		slot9:SetBone(slot5)
+	if IsNil(slot3:FindBoneFollower(slot4.bone)) then
+		slot6 = slot3:NewBoneFollower(slot5)
 	else
-		setActive(slot7, true)
+		setActive(slot6, true)
 	end
 
-	slot7.localScale = Vector3(1, 1, 1)
+	slot6.localScale = Vector3(1, 1, 1)
 
-	slot2:SetParent(slot7, false)
+	slot2:SetParent(slot6, false)
 end
 
 function slot0.ClearInteractionFollower(slot0, slot1, slot2, slot3)
@@ -415,7 +418,9 @@ function slot0.ClearInteractionFollower(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	setActive(slot3.interactionTF:Find("follower_" .. slot4.bone), false)
+	if not IsNil(slot3:FindBoneFollower(slot4.bone)) then
+		setActive(slot6, false)
+	end
 end
 
 function slot0.OnTouchItem(slot0, slot1)

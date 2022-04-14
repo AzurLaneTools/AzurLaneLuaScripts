@@ -5,7 +5,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.tpl = slot0:findTF("bufftpl")
+	slot0.group = slot0:findTF("buff_group")
+	slot0.tpl = slot0:findTF("bufftpl", slot0.group)
 	slot0.buffTip = slot0:findTF("tip")
 	slot0.buffTipTxt = slot0.buffTip:Find("Text"):GetComponent(typeof(Text))
 end

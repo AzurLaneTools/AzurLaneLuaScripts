@@ -54,6 +54,26 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_SHOP then
+		slot0.data2KeyValueList = {}
+		slot2 = ipairs
+		slot3 = slot1.date1_key_value_list or {}
+
+		for slot5, slot6 in slot2(slot3) do
+			slot7 = slot6.key
+			slot0.data2KeyValueList[slot7] = {
+				value = slot6.value,
+				dataMap = {}
+			}
+			slot9 = ipairs
+			slot10 = slot6.value_list or {}
+
+			for slot12, slot13 in slot9(slot10) do
+				slot0.data2KeyValueList[slot7].dataMap[slot13.key] = slot13.value
+			end
+		end
+	end
+
 	slot0.clientData1 = 0
 	slot0.clientList = {}
 end
@@ -347,7 +367,7 @@ function slot0.readyToAchieve(slot0)
 			return not WorldInPictureActiviyData.New(slot0):IsTravelAll() and slot4:GetTravelPoint() > 0 or slot4:GetDrawPoint() > 0 and slot4:AnyAreaCanDraw()
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_APRIL_REWARD then
 			if slot0.data1 == 0 then
-				if slot0:getConfig("config_client").autounlock <= pg.TimeMgr.GetInstance():GetServerTime() - pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2]) then
+				if slot0:getConfig("config_client").autounlock <= pg.TimeMgr.GetInstance():GetServerTime() - slot0:getStartTime() then
 					return true
 				end
 			elseif slot0.data1 ~= 0 and slot0.data2 == 0 then
@@ -499,11 +519,23 @@ end
 function slot0.getDayIndex(slot0)
 	slot2 = pg.TimeMgr.GetInstance()
 
-	return slot2:DiffDay(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2]), slot2:GetServerTime()) + 1
+	return slot2:DiffDay(slot0:getStartTime(), slot2:GetServerTime()) + 1
 end
 
 function slot0.getStartTime(slot0)
-	return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2])
+	slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
+
+	if slot2 and slot2[1] == "newuser" then
+		return slot0.stopTime - slot2[3] * 86400
+	else
+		return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2])
+	end
+end
+
+function slot0.isVariableTime(slot0)
+	slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
+
+	return slot2 and slot2[1] == "newuser"
 end
 
 function slot0.setSpecialData(slot0, slot1, slot2)
@@ -534,18 +566,10 @@ function slot0.canPermanentFinish(slot0)
 	return false
 end
 
-function slot0.GetEndTime(slot0)
-	slot2 = slot0:getConfig("time")[3]
-
-	return slot2[1][1], slot2[1][2], slot2[1][3]
-end
-
 function slot0.GetShopTime(slot0)
-	slot1 = slot0:getConfig("time")
-	slot2 = slot1[2]
-	slot3 = slot1[3]
+	slot1 = pg.TimeMgr.GetInstance()
 
-	return string.format("%s.%s.%s - %s.%s.%s", slot2[1][1] - 2000, slot2[1][2], slot2[1][3], slot3[1][1] - 2000, slot3[1][2], slot3[1][3])
+	return slot1:STimeDescC(slot0:getStartTime(), "%y.%m.%d") .. " - " .. slot1:STimeDescC(slot0.stopTime, "%y.%m.%d")
 end
 
 function slot0.GetCrusingUnreceiveAward(slot0)

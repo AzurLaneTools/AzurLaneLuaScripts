@@ -82,13 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>帝国</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>豪</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>可畏</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>英仙座</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>庞培·马格诺</color>：0.5%",
+			"<color=#ffde38>赫敏</color>：0.5%",
 			" ",
-			"<color=#d797ff>的里雅斯特</color>：2.5%<color=#92FC63>(up!)</color>"
+			"<color=#d797ff>鹰</color>：2.5%<color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#d797ff>英勇</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{
@@ -227,6 +229,27 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>阿尔汉格尔斯克</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "庆典新手建造",
+		ship_icon = "1",
+		type = 2,
+		exchange_request = 40,
+		exchange_available_times = 1,
+		build_voice = "",
+		use_item = 20001,
+		build_anim = "building",
+		number_1 = 1,
+		id = 11,
+		icon = "build_11",
+		exchange_ship_id = 107061,
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：51%",
+			"普通舰船：30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -237,6 +260,7 @@ pg.ship_data_create_material = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

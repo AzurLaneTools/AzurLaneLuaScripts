@@ -6345,7 +6345,10 @@ pg.furniture_data_template = {
 						"walk"
 					}
 				},
-				{},
+				{
+					nil,
+					2
+				},
 				{
 					0
 				}
@@ -38297,12 +38300,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						38,
-						38
+						0,
+						0
 					},
 					{
-						276,
-						251
+						159,
+						144
 					}
 				}
 			}
@@ -42259,8 +42262,8 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-78,
-					-78
+					-15,
+					-130
 				},
 				{
 					1,
@@ -42270,12 +42273,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						90,
-						280
+						-71,
+						50
 					},
 					{
-						680,
-						390
+						198,
+						135
 					}
 				}
 			},
@@ -42283,7 +42286,7 @@ pg.furniture_data_template = {
 				"wash",
 				{
 					73,
-					-28
+					-46
 				},
 				{
 					-1,
@@ -76807,8 +76810,8 @@ pg.furniture_data_template = {
 			{
 				"sit",
 				{
-					-13,
-					-30
+					9,
+					-35
 				},
 				{
 					-1,
@@ -76818,12 +76821,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						11,
-						43.8
+						-21,
+						-10
 					},
 					{
-						130,
-						70
+						58,
+						38
 					}
 				}
 			}
@@ -79718,7 +79721,10 @@ pg.furniture_data_template = {
 					0
 				}
 			},
-			{},
+			{
+				nil,
+				2
+			},
 			{
 				0,
 				0

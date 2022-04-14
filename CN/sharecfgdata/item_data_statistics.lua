@@ -9712,6 +9712,90 @@ _G.pg.item_data_statistics[30121] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30132] = {
+	display = "使用后可从T2改造图纸中任意选择一种获得1个",
+	name = "定向改造图纸T2",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30132",
+	id = 30132,
+	display_icon = {
+		{
+			2,
+			18002,
+			1
+		},
+		{
+			2,
+			18012,
+			1
+		},
+		{
+			2,
+			18022,
+			1
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30133] = {
+	display = "使用后可从T3改造图纸中任意选择一种获得1个",
+	name = "定向改造图纸T3",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30133",
+	id = 30133,
+	display_icon = {
+		{
+			2,
+			18003,
+			1
+		},
+		{
+			2,
+			18013,
+			1
+		},
+		{
+			2,
+			18023,
+			1
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30201] = {
 	display = [[
 包含一件本次活动的<color=#ffde38>限定装备</color>：
@@ -15021,6 +15105,417 @@ _G.pg.item_data_statistics[40015] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[40016] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(一期)·高级版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40016,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		},
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40017] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(一期)·标准版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_normal",
+	id = 40017,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40018] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(一期)·升级版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40018,
+	display_icon = {
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40019] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(二期)·高级版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	id = 40019,
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		},
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40020] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(二期)·标准版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_normal",
+	id = 40020,
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40021] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(二期)·升级版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	id = 40021,
+	display_icon = {
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40022] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "即刻出战礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/lv_70",
+	id = 40022,
+	display_icon = {
+		{
+			8,
+			40126,
+			1
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			4,
+			100011,
+			4
+		},
+		{
+			4,
+			100001,
+			4
+		},
+		{
+			3,
+			21426,
+			3
+		},
+		{
+			3,
+			31026,
+			3
+		},
+		{
+			3,
+			42226,
+			3
+		},
+		{
+			3,
+			32226,
+			3
+		},
+		{
+			3,
+			43026,
+			3
+		},
+		{
+			3,
+			13146,
+			3
+		},
+		{
+			3,
+			14326,
+			3
+		},
+		{
+			3,
+			24146,
+			3
+		},
+		{
+			3,
+			26526,
+			3
+		},
+		{
+			3,
+			16426,
+			3
+		},
+		{
+			3,
+			5146,
+			3
+		},
+		{
+			3,
+			45126,
+			3
+		},
+		{
+			3,
+			17246,
+			3
+		},
+		{
+			3,
+			47126,
+			3
+		},
+		{
+			3,
+			28126,
+			3
+		},
+		{
+			3,
+			38126,
+			3
+		},
+		{
+			3,
+			19126,
+			3
+		},
+		{
+			3,
+			49046,
+			3
+		},
+		{
+			3,
+			45426,
+			3
+		},
+		{
+			3,
+			35526,
+			3
+		},
+		{
+			3,
+			4046,
+			3
+		},
+		{
+			3,
+			1226,
+			3
+		},
+		{
+			3,
+			1326,
+			3
+		},
+		{
+			3,
+			1426,
+			3
+		},
+		{
+			3,
+			2126,
+			3
+		},
+		{
+			3,
+			2226,
+			3
+		},
+		{
+			3,
+			2426,
+			3
+		},
+		{
+			3,
+			2546,
+			3
+		},
+		{
+			3,
+			2606,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40023] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "舰艇教材礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxSkill",
+	id = 40023,
+	display_icon = {
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[40100] = {
 	display = "购买礼包可获得誓约之戒*2",
 	name = "比翼双飞",
@@ -15586,6 +16081,288 @@ _G.pg.item_data_statistics[40119] = {
 			2,
 			15008,
 			1000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40121] = {
+	display = "购买礼包可获得舰艇演习数据T2*100",
+	name = "舰船经验礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxExp",
+	id = 40121,
+	display_icon = {
+		{
+			2,
+			16502,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40122] = {
+	display = "购买礼包可获得大量教材奖励",
+	name = "舰艇教材礼包(新手)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxSkill_newserver",
+	id = 40122,
+	display_icon = {
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40124] = {
+	display = [[
+可于科研-开发船坞界面，从君主、海王星、罗恩、路易九世、{namecode:152}、{namecode:151}中选择并获取一位等级与科研等级均为1级的角色
+<color=#92fc63>上述角色全部获得时</color>，在仓库中使用此道具将会获得：
+科研测试数据·一期*300
+定向改造图纸T3*5
+定向改造图纸T2*10
+心智魔方*5
+物资*20000]],
+	name = "最高方案快速研发券·一期",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research1",
+	id = 40124,
+	display_icon = {
+		{
+			2,
+			20101,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40125] = {
+	display = [[
+可于科研-开发船坞界面，从西雅图、佐治亚、{namecode:164}、加斯科涅中选择并获取一位等级与科研等级均为1级的角色
+<color=#92fc63>上述角色全部获得时</color>，在仓库中使用此道具将会获得：
+科研测试数据·二期*300
+定向改造图纸T3*5
+定向改造图纸T2*10
+心智魔方*5
+物资*20000]],
+	name = "最高方案快速研发券·二期",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research2",
+	id = 40125,
+	display_icon = {
+		{
+			2,
+			20102,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40126] = {
+	display = "指挥官等级不足70级时，将直接变为70级(高于70级时该道具无效果)",
+	name = "指挥官等级70级",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 23,
+	is_world = 0,
+	icon = "Props/lv_70",
+	id = 40126,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40127] = {
+	display = "购买礼包可获得大量教材奖励",
+	name = "限时建造补给(新手)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxBuild_newserver",
+	id = 40127,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			1,
+			15000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40128] = {
+	display = "购买礼包可获得大量教材奖励",
+	name = "限时建造补给(高级)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxBuild2",
+	id = 40128,
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			1,
+			1,
+			30000
 		}
 	},
 	price = {},
@@ -160198,6 +160975,132 @@ _G.pg.item_data_statistics[59282] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59283] = {
+	display = "用于『永夜幻光』复刻活动兑换，活动结束后将会消失",
+	name = "荣誉之冠",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yingxiv2_pt",
+	id = 59283,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59284] = {
+	display = "于『永夜幻光』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4298,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59284,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59286] = {
+	display = "用于『小骑士的训练日』复刻活动提升角色好感，活动结束后将会消失",
+	name = "友好度-小声望",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xiaoshengwang_pt",
+	id = 59286,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59287] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_y",
+	id = 59287,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59288] = {
+	display = "于『新服开服庆典』活动中获取，可以在新手池中免费进行一次期间限定建造（活动结束后消失）",
+	name = "新手单次建造券",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 8001,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket_newserver",
+	id = 59288,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59289] = {
+	display = "用于『新服开服庆典』活动兑换，活动结束后将会消失",
+	name = "新服庆典Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/newserver_pt",
+	id = 59289,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
@@ -169543,6 +170446,57 @@ _G.pg.item_data_statistics[69000] = {
 	is_world = 0,
 	icon = "Props/guild_boss_damage",
 	id = 69000,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69001] = {
+	display = [[
+可以获得以下装备：
++6 双联装120mm主炮T2*3
++6 双联100mm98式高射炮T2*3
++6 双联装TbtsKC36式150mm主炮T2*3
++6 155mm三连装炮T2*3
++6 双联装203mmSKC主炮T2*3
++6 三联装203mm主炮改进型T3*3
++6 三联装406mm主炮Mk6T2*3
++6 双联装381mm主炮T3*3
++6 双联装113mm高射炮T2*3
++6 四联40mm博福斯对空机炮T2*3
++6 四联装533mm鱼雷T3*3
++6 四联装533mm磁性鱼雷T2*3
++6 F4U海盗T3*3
++6 Me-155A舰载战斗机T2*3
++6 梭鱼T2*3
++6 天山T2*3
++6 SB2C地狱俯冲者T2*3
++6 Ju-87C俯冲轰炸机T3*3
++6 潜艇用G7e声导鱼雷T2*3
++6 潜艇用95式纯氧鱼雷T2*3
++6 基础深弹投射器T3*3
++6 火控雷达T2*3
++6 防鱼雷隔舱T2*3
++6 液压弹射装置T2*3
++6 航空副油箱T2*3
++6 链式装弹机T2*3
++6 维修工具T2*3
++6 灭火器T3*3
++6 九三式纯氧鱼雷T1*3]],
+	name = "装备补给箱T3·即刻出战",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lv70_equip",
+	id = 69001,
 	display_icon = {},
 	price = {},
 	index = {}

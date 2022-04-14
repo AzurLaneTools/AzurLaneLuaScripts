@@ -122,7 +122,7 @@ function slot6(slot0, slot1, slot2, slot3)
 
 	for slot9, slot10 in pairs(slot2:GetBodyMasks()) do
 		slot11 = slot0:CloneTplTo(slot5, slot1:Find("interaction"), "body_mask" .. slot9)
-		slot11.localPosition = slot10.offset
+		slot11.anchoredPosition = slot10.offset
 		slot11.sizeDelta = slot10.size
 
 		if slot10.img then

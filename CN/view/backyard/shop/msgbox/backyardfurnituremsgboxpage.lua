@@ -31,6 +31,10 @@ function slot0.OnLoaded(slot0)
 	slot0.goldTxt = slot0:findTF("res_gold/Text"):GetComponent(typeof(Text))
 	slot0.gemAddBtn = slot0:findTF("res_gem/jiahao")
 	slot0.goldAddBtn = slot0:findTF("res_gold/jiahao")
+
+	setActive(slot0:findTF("res_gem"), false)
+	setActive(slot0:findTF("res_gold"), false)
+
 	slot0.maxCnt = slot0:findTF("frame/max_cnt"):GetComponent(typeof(Text))
 	slot0.maxBtn = slot0:findTF("frame/count/max")
 	slot0.maxBtnTxt = slot0.maxBtn:Find("Text"):GetComponent(typeof(Text))
