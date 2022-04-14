@@ -68,7 +68,11 @@ function slot0.Show(slot0)
 end
 
 function slot0.Hide(slot0)
-	slot0.icon.texture = nil
+	if not IsNil(slot0.icon.texture) then
+		Object.Destroy(slot0.icon.texture)
+
+		slot0.icon.texture = nil
+	end
 
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)

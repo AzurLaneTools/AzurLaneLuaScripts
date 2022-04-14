@@ -743,4 +743,8 @@ function slot0.HasCommander(slot0, slot1)
 	return false
 end
 
+function slot0.switchShip(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0:SwitchShip(slot4, slot5)
+end
+
 return slot0

@@ -125,30 +125,36 @@ function slot0.GetData(slot0)
 	slot2 = slot2:GetAllFurniture()
 
 	function slot3(slot0)
-		return not slot0:isNotForSale() and (not slot0:isForActivity() or uv0[slot0.id]) and not not slot0:inTime()
+		return pg.furniture_shop_template[slot0.id] and not slot0:isNotForSale() and (not slot0:isForActivity() or uv0[slot0.id]) and not not slot0:inTime()
 	end
 
 	function slot4(slot0)
-		return slot0:isMatchSearchKey(getInputText(uv0.searchInput))
-	end
-
-	function slot5(slot0, slot1)
-		slot2 = slot0:getConfig("tag")
-
-		if uv0.pageType == 5 then
-			return slot2 == 7
+		if not getInputText(uv0.searchInput) or slot1 == "" then
+			return true
 		else
-			slot4 = table.contains(slot1, slot0:getConfig("type")) and slot2 ~= 7
-
-			return slot4
+			return slot0:isMatchSearchKey(slot1)
 		end
 	end
 
-	for slot10, slot11 in ipairs(pg.furniture_shop_template.all) do
-		if slot3(slot2[slot11] or Furniture.New({
-			id = slot11
-		})) and slot5(slot12, uv0(slot0.pageType)) and slot4(slot12) then
-			table.insert(slot1, slot12)
+	function slot5(slot0)
+		if uv1(uv0[slot0] or Furniture.New({
+			id = slot0
+		})) and uv2(slot1) then
+			table.insert(uv3, slot1)
+		end
+	end
+
+	if slot0.pageType == 5 then
+		for slot9, slot10 in ipairs(pg.furniture_data_template.get_id_list_by_tag[7]) do
+			slot5(slot10)
+		end
+	else
+		slot7 = pg.furniture_data_template.get_id_list_by_type
+
+		for slot11, slot12 in ipairs(uv0(slot0.pageType)) do
+			for slot16, slot17 in ipairs(slot7[slot12]) do
+				slot5(slot17)
+			end
 		end
 	end
 

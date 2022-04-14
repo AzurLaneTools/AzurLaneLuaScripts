@@ -1,7 +1,7 @@
 slot0 = class("BackYardThemeTempalteUtil")
 slot1 = false
 slot2 = true
-slot3 = 1980
+slot3 = 1920
 slot4 = 1080
 slot0.TakeScale = 0.86
 slot0.HideGos = {}
@@ -9,8 +9,6 @@ slot0.ScaleGos = {}
 slot0.loader = {}
 slot5 = 7
 slot0.caches = {}
-slot0.overCnt = 0
-slot0.ForceSynGCCnt = 8
 
 function slot6(...)
 	if uv0 then
@@ -96,105 +94,37 @@ function slot14(slot0, slot1)
 	pg.OSSMgr.GetInstance():AsynUpdateLoad(uv2(slot0), uv1(slot0), slot1)
 end
 
-function slot15()
-	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/main"))
-	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardDecorationUI(Clone)"))
-	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/back"))
-	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/bg000"))
-
-	slot0 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/scroll_view")
-	slot1 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/bg").transform
-	slot1.localScale = Vector2(uv0.TakeScale, uv0.TakeScale, 1)
-
-	table.insert(uv0.ScaleGos, {
-		go = slot1,
-		scale = slot1.localScale.x
-	})
-
-	if GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/bg/furContain/drag") then
-		table.insert(uv0.HideGos, slot3)
-	end
-
-	for slot7, slot8 in ipairs(uv0.HideGos) do
-		setActive(slot8, false)
-	end
-
-	slot4 = slot0:GetComponent(typeof(ScrollRect)).normalizedPosition
-	uv0.normalizedPosition = slot4
-
-	scrollTo(slot0, slot4.x, 1)
-end
-
-function slot16()
-	for slot3, slot4 in ipairs(uv0.HideGos) do
-		setActive(slot4, true)
-	end
-
-	for slot3, slot4 in ipairs(uv0.ScaleGos) do
-		slot6 = slot4.scale
-		slot4.go.localScale = Vector3(slot6, slot6, slot6)
-	end
-
-	uv0.ScaleGos = {}
-	uv0.HideGos = {}
-
-	scrollTo(GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/scroll_view"), uv0.normalizedPosition.x, uv0.normalizedPosition.y)
-
-	uv0.normalizedPosition = nil
-end
-
 function slot0.FileExists(slot0)
 	return PathMgr.FileExists(uv0(slot0))
 end
 
-function slot17(slot0, slot1, slot2)
-	slot3 = UnityEngine.Texture2D.New(452, 324)
-	slot4 = uv0 / 2 - slot3.width / 2
-	slot7 = uv1 / 2 - slot3.height / 2 + slot3.height
-	slot8 = 0
-	slot9 = 0
+function slot0.TakePhoto(slot0)
+	slot1 = pg.UIMgr.GetInstance().UIMain.parent
 
-	for slot13 = slot4, slot4 + slot3.width do
-		slot8 = slot8 + 1
-		slot9 = 0
-
-		for slot17 = slot5, slot7 do
-			slot3:SetPixel(slot8, slot9 + 1, slot1:GetPixel(slot13, slot17))
-		end
-	end
-
-	slot3:Apply()
-
-	slot10 = uv2(slot0 .. "_icon")
-
-	onNextTick(function ()
-		ScreenShooter.SaveTextureToLocal(uv0, uv1, false)
-
-		if uv2 then
-			uv2()
-		end
-	end)
+	return ScreenShooter.TakePhoto(slot0, slot1.sizeDelta.x, slot1.sizeDelta.y)
 end
 
-function slot0.TakePhoto(slot0, slot1)
-	uv0()
+function slot0.TakeIcon(slot0)
+	slot1 = pg.UIMgr.GetInstance().UIMain.parent
+	slot2 = slot1.sizeDelta.x
+	slot4 = 426
+	slot5 = 320
 
-	slot2 = GameObject.Find("/UICamera")
-	slot3 = ScreenShooter.TakePhoto(slot2:GetComponent(typeof(Camera)), uv1, uv2)
+	return ScreenShooter.TakePhoto(slot0, slot2, slot2, UnityEngine.Rect.New(slot2 * 0.5 - slot4 * 0.5, slot1.sizeDelta.y * 0.5 - slot5 * 0.5, slot4, slot5))
+end
 
-	uv4(uv3(slot0))
-	uv5()
+function slot0.SavePhoto(slot0, slot1, slot2, slot3)
 	seriesAsync({
 		function (slot0)
-			onNextTick(function ()
-				uv0(uv1, uv2, uv3)
-			end)
+			ScreenShooter.SaveTextureToLocal(uv0(uv1 .. "_icon"), uv2, true)
+			slot0()
 		end,
 		function (slot0)
-			onNextTick(function ()
-				ScreenShooter.SaveTextureToLocal(uv0, uv1, false)
-				uv2()
-			end)
+			onNextTick(slot0)
+		end,
+		function (slot0)
+			ScreenShooter.SaveTextureToLocal(uv0(uv1), uv2, true)
+			slot0()
 		end
 	}, function ()
 		if uv0 then
@@ -203,53 +133,32 @@ function slot0.TakePhoto(slot0, slot1)
 	end)
 end
 
-function slot18(slot0)
+function slot15(slot0)
 	return _.detect(uv0.caches, function (slot0)
 		return slot0.name == uv0
 	end)
 end
 
-function slot19(slot0, slot1, slot2)
-	table.insert(uv0.loader, {
-		name = slot0,
-		md5 = slot1,
-		callback = slot2
-	})
+function slot16(slot0, slot1, slot2)
+	function slot3(slot0)
+		if slot0 then
+			uv0.CheckCache()
+			table.insert(uv0.caches, {
+				name = uv1,
+				asset = slot0
+			})
+		end
 
-	if #uv0.loader ~= 1 then
-		return
+		uv2(slot0)
 	end
 
-	slot3 = nil
-
-	(function ()
-		if #uv0.loader == 0 then
-			return
-		end
-
-		function slot1(slot0)
-			uv0.callback(slot0)
-			table.remove(uv1.loader, 1)
-
-			if slot0 then
-				uv1.CheckCache()
-				table.insert(uv1.caches, {
-					name = uv2,
-					asset = slot0
-				})
-			end
-
-			onNextTick(uv3)
-		end
-
-		if not uv0.loader[1].md5 or slot2 == "" then
-			slot1(nil)
-		elseif uv0.FileExists(slot0.name) and slot2 == uv3(uv4(uv1)) then
-			uv5(slot0.name, slot2, slot1)
-		else
-			uv6(slot0.name, slot2, slot1)
-		end
-	end)()
+	if not slot1 or slot1 == "" then
+		slot3(nil)
+	elseif uv0.FileExists(slot0) and slot1 == uv1(uv2(slot0)) then
+		uv3(slot0, slot1, slot3)
+	else
+		uv4(slot0, slot1, slot3)
+	end
 end
 
 function slot0.GetTexture(slot0, slot1, slot2)
@@ -280,15 +189,8 @@ end
 
 function slot0.CheckCache()
 	if uv1 <= #uv0.caches then
-		table.remove(uv0.caches, 1)
-
-		uv0.overCnt = uv0.overCnt + 1
-
-		if uv0.overCnt % uv0.ForceSynGCCnt == 0 then
-			gcAll(true)
-		else
-			gcAll(false)
-		end
+		uv0.ClearCache(1)
+		gcAll(false)
 	end
 end
 
@@ -296,10 +198,6 @@ function slot0.CheckSaveDirectory()
 	if not System.IO.Directory.Exists(uv0()) then
 		System.IO.Directory.CreateDirectory(slot0)
 	end
-end
-
-function slot0.Init(slot0)
-	uv0.CheckSaveDirectory()
 end
 
 function slot0.ClearCaches(slot0)
@@ -310,27 +208,33 @@ function slot0.ClearCaches(slot0)
 	for slot4, slot5 in ipairs(slot0) do
 		for slot9 = #uv0.caches, 1, -1 do
 			if uv0.caches[slot9].name == slot5 then
-				table.remove(uv0.caches, slot9)
+				uv0.ClearCache(slot9, destroy)
 			end
 		end
 	end
-
-	gcAll(true)
 end
 
-function slot0.ClearAllCache()
-	uv0.caches = {}
+function slot0.ClearCache(slot0, slot1)
+	slot2 = table.remove(uv0.caches, slot0)
 
-	gcAll(true)
+	if slot1 and not IsNil(slot2.asset) then
+		Object.Destroy(slot2.asset)
+	end
 end
 
 function slot0.ClearAllCacheAsyn(slot0)
+	for slot4, slot5 in pairs(uv0.caches) do
+		if not IsNil(slot5.asset) then
+			Object.Destroy(slot5.asset)
+		end
+	end
+
 	uv0.caches = {}
 
 	gcAll(false)
 end
 
-function slot0.Exit(slot0)
+function slot0.ClearAllCache(slot0)
 	uv0.loader = {}
 
 	uv0.ClearAllCacheAsyn()

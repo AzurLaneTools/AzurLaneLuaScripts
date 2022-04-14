@@ -1,17 +1,27 @@
+slot0 = {
+	"<color=#ff7d36>편성</color>은 이쪽이야.",
+	"편성하는 법 기억해?",
+	"비어있는 출격 칸의 <color=#ff7d36>편성</color>을 눌러봐.",
+	"함대에 편입시킬 함선을 선택해.",
+	"<color=#ff7d36>확인</color>버튼을 눌러.",
+	"선봉함대는 편성을 완료했어! 이번에는 완벽한걸!",
+	"메인 화면으로 돌아가자."
+}
+
 return {
 	id = "S021",
 	events = {
 		{
 			alpha = 0.19,
 			style = {
-				text = "<color=#ff7d36>편성</color>은 이쪽이야.",
+				dir = 1,
 				mode = 2,
 				posY = 104.87,
-				dir = 1,
-				posX = 4.77
+				posX = 4.77,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,21 +36,21 @@ return {
 			alpha = 0.414,
 			waitScene = "FormationUI",
 			style = {
-				text = "편성하는 법 기억해?",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.385,
 			style = {
-				text = "비어있는 출격 칸의 <color=#ff7d36>편성</color>을 눌러봐.",
+				dir = 1,
 				mode = 2,
 				posY = 240,
-				dir = 1,
-				posX = -88.52
+				posX = -88.52,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
@@ -57,11 +67,11 @@ return {
 		{
 			alpha = 0.279,
 			style = {
-				text = "함대에 편입시킬 함선을 선택해.",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
@@ -84,11 +94,11 @@ return {
 		{
 			alpha = 0.293,
 			style = {
-				text = "<color=#ff7d36>확인</color>버튼을 눌러.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 239.42
+				posX = 239.42,
+				text = slot0[5]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
@@ -106,21 +116,21 @@ return {
 			alpha = 0.441,
 			waitScene = "FormationUI",
 			style = {
-				text = "선봉함대는 편성을 완료했어! 이번에는 완벽한걸!",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[6]
 			}
 		},
 		{
 			alpha = 0.462,
 			style = {
-				text = "메인 화면으로 돌아가자.",
+				dir = -1,
 				mode = 2,
 				posY = 226.21,
-				dir = -1,
-				posX = -130.49
+				posX = -130.49,
+				text = slot0[7]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",

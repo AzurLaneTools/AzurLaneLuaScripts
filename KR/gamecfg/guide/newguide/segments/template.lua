@@ -5,7 +5,7 @@ return {
 			delay = 0,
 			code = 2,
 			alpha = 0.4,
-			waitScene = "MainUI",
+			waitScene = "NewMainScene",
 			style = {
 				text = "지휘관님, 군부에서 모항에 수중 작전을 펼칠 수 있는 함선을 파견해 왔습니다. 어서 새로운 동료들을 맞이해 주세요.",
 				mode = 1,

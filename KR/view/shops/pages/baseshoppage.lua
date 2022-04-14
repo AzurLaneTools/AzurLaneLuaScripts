@@ -70,8 +70,15 @@ end
 function slot0.UpdateShop(slot0, slot1)
 	slot0:SetShop(slot1)
 	pg.MsgboxMgr.GetInstance():hide()
-	slot0.contextData.singleWindow:ExecuteAction("Close")
-	slot0.contextData.multiWindow:ExecuteAction("Close")
+
+	if slot0.contextData.singleWindow:GetLoaded() and slot0.contextData.singleWindow:isShowing() then
+		slot0.contextData.singleWindow:ExecuteAction("Close")
+	end
+
+	if slot0.contextData.multiWindow:GetLoaded() and slot0.contextData.multiWindow:isShowing() then
+		slot0.contextData.multiWindow:ExecuteAction("Close")
+	end
+
 	slot0:OnUpdateAll()
 end
 

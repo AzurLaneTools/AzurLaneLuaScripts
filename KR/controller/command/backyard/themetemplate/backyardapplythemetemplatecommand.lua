@@ -13,17 +13,20 @@ function slot0.execute(slot0, slot1)
 			return
 		end
 
-		slot2 = uv0:getData()
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(slot0) do
+			slot2[slot7.id] = slot7
+		end
+
 		slot3 = {}
 
-		for slot7, slot8 in ipairs(slot0) do
-			slot3[slot8.id] = slot8
+		for slot7, slot8 in pairs(slot2) do
+			slot3[slot8.id] = slot8:ToSaveData()
 		end
 
 		pg.m02:sendNotification(GAME.PUT_FURNITURE, {
-			furnsPos = StartUpBackYardCommand.GetHouseByDorm({
-				furnitures = slot3
-			}):getSaveData(),
+			furnsPos = slot3,
 			floor = slot1,
 			callback = function (slot0, slot1)
 				if slot0 then
@@ -58,10 +61,12 @@ end
 
 function slot0.GetAllFloorFurnitures()
 	function slot0(slot0, slot1)
-		for slot9, slot10 in pairs(StartUpBackYardCommand.GetHouseByDorm({
-			furnitures = getProxy(DormProxy):getData():getFurnitrues(slot0)
-		}):GetFurnituresAndPapers()) do
-			slot1[slot10.id] = slot10
+		slot4 = {}
+
+		GetCanBePutFurnituresForThemeCommand.Furniture2ThemeFurnitures(getProxy(DormProxy):getData():getFurnitrues(slot0), slot4)
+
+		for slot8, slot9 in pairs(slot4) do
+			slot1[slot9.id] = slot9
 		end
 	end
 
@@ -108,7 +113,7 @@ function slot0.WarpList(slot0)
 	slot11 = {}
 
 	for slot15, slot16 in ipairs(slot0) do
-		slot17, slot18 = Dorm.checkFurnitrueData(slot16, slot9, slot7)
+		slot17, slot18 = CourtYardRawDataChecker.CheckFurnitrue(slot16, slot9, slot7)
 
 		if not slot17 and not table.contains(slot10, slot16.id) then
 			slot19 = pairs

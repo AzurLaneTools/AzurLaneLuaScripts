@@ -44,17 +44,17 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 	uv10 = true
 
 	uv2:Connect()
-	print("connect to - " .. slot1 .. ":" .. slot2)
+	originalPrint("connect to - " .. slot1 .. ":" .. slot2)
 end
 
 function slot1.ConnectByProxy(slot0)
 	VersionMgr.Inst:SetUseProxy(true)
 
 	if slot0:GetLastHost() ~= nil and slot0:GetLastPort() ~= "" then
-		print("switch proxy! reason: first connect error")
+		originalPrint("switch proxy! reason: first connect error")
 		slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), uv0)
 	else
-		print("not proxy -> logout")
+		originalPrint("not proxy -> logout")
 		uv1.m02:sendNotification(GAME.LOGOUT, {
 			code = uv2.erroCode or 3
 		})
@@ -88,7 +88,7 @@ function slot1.Reconnect(slot0, slot1)
 
 	slot0:stopHBTimer()
 	uv6:stopTimer()
-	print("reconnect --> " .. slot0:GetLastHost() .. ":" .. slot0:GetLastPort())
+	originalPrint("reconnect --> " .. slot0:GetLastHost() .. ":" .. slot0:GetLastPort())
 	slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), function ()
 		slot1 = getProxy(UserProxy):getData()
 
@@ -119,7 +119,7 @@ function slot1.Reconnect(slot0, slot1)
 			device_id = uv0.SdkMgr.GetInstance():GetDeviceId()
 		}, 10023, function (slot0)
 			if slot0.result == 0 then
-				print("reconnect success: " .. slot0.user_id, " - ", slot0.server_ticket)
+				originalPrint("reconnect success: " .. slot0.user_id, " - ", slot0.server_ticket)
 
 				uv0.token = slot0.server_ticket
 
@@ -151,7 +151,7 @@ function slot1.Reconnect(slot0, slot1)
 
 				uv6.GuideMgr.GetInstance():onReconneceted()
 			else
-				print("reconnect failed: " .. slot0.result)
+				originalPrint("reconnect failed: " .. slot0.result)
 				uv6.m02:sendNotification(GAME.LOGOUT, {
 					code = 199,
 					tip = slot0.result
@@ -370,7 +370,7 @@ function slot1.SetProxyHost(slot0, slot1, slot2)
 	uv0 = slot1
 	uv1 = slot2
 
-	print("Proxy host --> " .. uv0 .. ":" .. uv1)
+	originalPrint("Proxy host --> " .. uv0 .. ":" .. uv1)
 end
 
 function slot1.GetLastHost(slot0)
@@ -392,11 +392,11 @@ end
 function slot1.CheckProxyCounter(slot0)
 	uv0 = uv0 + 1
 
-	print("proxyCounter: " .. uv0)
+	originalPrint("proxyCounter: " .. uv0)
 
 	if not VersionMgr.Inst:OnProxyUsing() then
 		if uv0 == uv1 then
-			print("switch proxy! reason: " .. uv1 .. " error limit")
+			originalPrint("switch proxy! reason: " .. uv1 .. " error limit")
 			VersionMgr.Inst:SetUseProxy(true)
 		end
 	else
@@ -409,7 +409,7 @@ end
 function slot1.SwitchProxy(slot0)
 	if uv0 and uv0:IsSpecialIP() then
 		if not VersionMgr.Inst:OnProxyUsing() then
-			print("switch proxy! reason: tw specialIP send timeout")
+			originalPrint("switch proxy! reason: tw specialIP send timeout")
 			VersionMgr.Inst:SetUseProxy(true)
 		else
 			VersionMgr.Inst:SetUseProxy(false)

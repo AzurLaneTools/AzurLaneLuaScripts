@@ -4,11 +4,11 @@ function slot0.getUIName(slot0)
 	return "NewMeixiV4UI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.init(slot0)
-	slot0.resPanel = PlayerResource.New()
-
-	SetParent(slot0.resPanel._go, slot0:findTF("top/res"), false)
-
 	slot0.ani = slot0:findTF("TV01")
 	slot0.progress = slot0:findTF("progress/Text")
 	slot0.nodes = slot0:findTF("nodes")
@@ -48,8 +48,6 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.onUpdateRes(slot0, slot1)
-	slot0.resPanel:setResources(slot1)
-
 	slot0.player = slot1
 end
 
@@ -225,12 +223,6 @@ function slot0.getStory(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
-	if slot0.resPanel then
-		slot0.resPanel:exit()
-
-		slot0.resPanel = nil
-	end
-
 	setActive(slot0.storyTip, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.storyTip)
 end

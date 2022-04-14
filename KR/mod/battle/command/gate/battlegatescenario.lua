@@ -125,7 +125,7 @@ function slot0.Exit(slot0, slot1)
 
 			slot7 = slot7 + math.min(slot17, slot9:GetLimitOilCost(true)) * slot15
 		else
-			print("finish stage error: can not find submarine fleet.")
+			originalPrint("finish stage error: can not find submarine fleet.")
 		end
 	end
 

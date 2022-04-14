@@ -1,3 +1,11 @@
+slot0 = {
+	"지휘관, 사령부에서 모항에 잠수 작전을 도울 수 있는 함선소녀를 파견했대, 빨리 새로운 동료를 맞이하러 가보자!",
+	"웰컴! 첫 번째로 착임한 잠수함이네. 지휘관, 우리 새로운 동료를 함대에 편성해주자고!",
+	"이걸로 우리 첫 잠수함대가 탄생!",
+	"하지만 적 잠수함의 출현에 대비하기 위해선, 함선소녀들에게 대잠 장비를 준비해줘야겠지?",
+	"대잠 장비에 관련된 더 자세한 내용은 '도움말' 버튼을 터치하여 알아볼 수 있다구~"
+}
+
 return {
 	id = "NG002",
 	events = {
@@ -10,16 +18,16 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "지휘관, 사령부에서 모항에 잠수 작전을 도울 수 있는 함선소녀를 파견했대, 빨리 새로운 동료를 맞이하러 가보자!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[1]
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/taskButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/taskButton"
 			}
 		},
 		{
@@ -34,7 +42,7 @@ return {
 		{
 			ui = {
 				delay = 1,
-				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/taskBGCenter/right_panel/content/10302/frame/get_btn"
+				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/mask/content/10302/frame/get_btn"
 			}
 		},
 		{
@@ -65,11 +73,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "웰컴! 첫 번째로 착임한 잠수함이네. 지휘관, 우리 새로운 동료를 함대에 편성해주자고!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[2]
 			}
 		},
 		{
@@ -79,7 +87,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton"
 			}
 		},
 		{
@@ -111,21 +119,21 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "이걸로 우리 첫 잠수함대가 탄생!",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[3]
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "하지만 적 잠수함의 출현에 대비하기 위해선, 함선소녀들에게 대잠 장비를 준비해줘야겠지?",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[4]
 			}
 		},
 		{
@@ -135,7 +143,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/dockBtn"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/dockBtn"
 			}
 		},
 		{
@@ -153,11 +161,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "대잠 장비에 관련된 더 자세한 내용은 '도움말' 버튼을 터치하여 알아볼 수 있다구~",
+				dir = 1,
 				mode = 1,
 				posY = -110,
-				dir = 1,
-				posX = 200
+				posX = 200,
+				text = slot0[5]
 			}
 		},
 		{

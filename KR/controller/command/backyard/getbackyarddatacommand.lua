@@ -105,7 +105,7 @@ function slot0.checkFurnitures(slot0, slot1, slot2)
 	for slot6, slot7 in pairs(slot0) do
 		for slot11, slot12 in pairs(slot7) do
 			if slot12.position then
-				slot13, slot14 = Dorm.checkFurnitrueData(slot12, slot7, slot2)
+				slot13, slot14 = CourtYardRawDataChecker.CheckFurnitrue(slot12, slot7, slot2)
 
 				if not slot13 then
 					slot15 = pairs

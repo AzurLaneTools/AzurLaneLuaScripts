@@ -352,14 +352,6 @@ return {
 			child = {}
 		},
 		{
-			id = 79116,
-			parent = 0,
-			y = 12,
-			dir = 1,
-			x = 15,
-			child = {}
-		},
-		{
 			id = 79118,
 			parent = 0,
 			y = 10,

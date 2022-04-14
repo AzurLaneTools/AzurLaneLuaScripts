@@ -52,8 +52,20 @@ function slot0.OnUpdate(slot0, slot1)
 			uv1.onClose()
 		end
 	end, SFX_PANEL)
+
+	if slot1.onShow then
+		slot1.onShow()
+	end
+
 	slot0._tf:SetAsLastSibling()
 	slot0:Show()
+end
+
+function slot0.Show(slot0)
+	uv0.super.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 function slot0.Hide(slot0)
@@ -61,6 +73,7 @@ function slot0.Hide(slot0)
 	setText(slot0.text, "")
 	setText(slot0.text1, "")
 	setText(slot0.text2, "")
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)

@@ -47,6 +47,7 @@ function slot0.register(slot0)
 		slot4, slot5 = PlayerVitaeShipsPage.GetSlotMaxCnt()
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			skipSelect = true,
 			callbackQuit = true,
 			selectedMax = slot5,
 			hideTagFlags = ShipStatus.TAG_HIDE_ADMIRAL,

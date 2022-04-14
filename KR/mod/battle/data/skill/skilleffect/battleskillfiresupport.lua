@@ -1,11 +1,12 @@
 ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleDataFunction
-slot2 = class("BattleSkillFireSupport", slot0.Battle.BattleSkillEffect)
-slot0.Battle.BattleSkillFireSupport = slot2
-slot2.__name = "BattleSkillFireSupport"
+slot2 = slot0.Battle.BattleConst
+slot3 = class("BattleSkillFireSupport", slot0.Battle.BattleSkillEffect)
+slot0.Battle.BattleSkillFireSupport = slot3
+slot3.__name = "BattleSkillFireSupport"
 
-function slot2.Ctor(slot0, slot1)
+function slot3.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1, lv)
 
 	slot0._weaponID = slot0._tempData.arg_list.weapon_id
@@ -13,7 +14,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0._supportTargetArgList = slot0._tempData.arg_list.supportTarget.arg_list
 end
 
-function slot2.DoDataEffect(slot0, slot1, slot2)
+function slot3.DoDataEffect(slot0, slot1, slot2)
 	if slot0._weapon == nil then
 		slot3 = nil
 
@@ -24,7 +25,7 @@ function slot2.DoDataEffect(slot0, slot1, slot2)
 		slot4 = slot3[1]
 		slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
 
-		if BATTLE_DEBUG and slot0._weapon:GetType() == uv0.Battle.BattleConst.EquipmentType.SCOUT then
+		if BATTLE_DEBUG and (slot0._weapon:GetType() == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot0._weapon:GetType() == uv1.EquipmentType.STRIKE_AIRCRAFT) then
 			slot0._weapon:GetATKAircraftList()
 		end
 
@@ -43,11 +44,11 @@ function slot2.DoDataEffect(slot0, slot1, slot2)
 	end)
 end
 
-function slot2.DoDataEffectWithoutTarget(slot0, slot1)
+function slot3.DoDataEffectWithoutTarget(slot0, slot1)
 	slot0:DoDataEffect(slot1)
 end
 
-function slot2.Clear(slot0)
+function slot3.Clear(slot0)
 	uv0.super.Clear(slot0)
 
 	if slot0._weapon and not slot0._weapon:GetHost():IsAlive() then
@@ -55,7 +56,7 @@ function slot2.Clear(slot0)
 	end
 end
 
-function slot2.Interrupt(slot0)
+function slot3.Interrupt(slot0)
 	uv0.super.Interrupt(slot0)
 
 	if slot0._weapon then
@@ -64,12 +65,12 @@ function slot2.Interrupt(slot0)
 	end
 end
 
-function slot2.GetDamageSum(slot0)
+function slot3.GetDamageSum(slot0)
 	slot1 = 0
 
 	if not slot0._weapon then
 		slot1 = 0
-	elseif slot0._weapon:GetType() == uv0.Battle.BattleConst.EquipmentType.SCOUT then
+	elseif slot0._weapon:GetType() == uv0.EquipmentType.INTERCEPT_AIRCRAFT or slot0._weapon:GetType() == uv0.EquipmentType.STRIKE_AIRCRAFT then
 		for slot5, slot6 in ipairs(slot0._weapon:GetATKAircraftList()) do
 			for slot11, slot12 in ipairs(slot6:GetWeapon()) do
 				slot1 = slot1 + slot12:GetDamageSUM()

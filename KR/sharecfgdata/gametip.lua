@@ -31,7 +31,7 @@ _G.pg.gametip.new_airi_error_code_100114 = {
 }
 
 _G.pg.gametip.new_airi_error_code_100115 = {
-	tip = "Device ID is banned during login creation"
+	tip = "Account binding success; Device ID is banned, failed to acquire Access Token"
 }
 
 _G.pg.gametip.new_airi_error_code_100116 = {
@@ -3422,19 +3422,25 @@ _G.pg.gametip.levelScene_remaster_do_not_open = {
 _G.pg.gametip.levelScene_remaster_help_tip = {
 	tip = {
 		{
-			info = "<color=#92fc63>작전 문서</color> 설명: \n<color=#92fc63>작전 문서</color>란, 특수 작전 파일을 연구하여 모의 작전을 진행하는 시스템입니다. 과거 플레이한 <color=#92fc63>특수 작전 스테이지</color>의 공략 진척 상황은 이어지지 않습니다."
+			info = "작전 문서 설명:\n작전 문서란, 특수 작전 파일을 연구하여 모의 작전을 진행하는 시스템입니다. 과거 플레이한 특수 작전 스테이지 진척 상황은 이어지지 않습니다. "
 		},
 		{
-			info = " \n 1.<color=#92fc63>데이터 키</color>는 현재 상황에서는 매일 선택 화면에서 4개를 입수할 수 있습니다."
+			info = "    \n1.<color=#92fc63>데이터 키</color>는 현재 상황에서는 매일 선택 화면에서 4개를 입수할 수 있습니다."
 		},
 		{
-			info = " 2.<color=#92fc63>데이터 키</color>는 최대 60개까지 소지 가능합니다. 60개를 소지하고 있는상태에서 새로 입수한 <color=#92fc63>데이터 키</color>는 자동으로 제거됩니다."
+			info = "2.<color=#92fc63>데이터 키</color>는 최대 60개까지 소지 가능하며, 상한을 초과하여 입수한 <color=#92fc63>데이터 키</color>는 자동으로 사라집니다."
 		},
 		{
-			info = " 3.<color=#92fc63>데이터 키</color>를 사용하여, <color=#92fc63>선택한 특수 작전 스테이지</color>를 개방할 수 있습니다."
+			info = "3.<color=#92fc63>데이터 키</color>를 사용하여, 선택한 특수 작전 스테이지를 개방할 수 있습니다."
 		},
 		{
-			info = " 4. 특수 작전 스테이지에서 철수할 경우 데이터 키는 반환되지 않습니다."
+			info = "4.특수 작전 스테이지에서 철수할 경우 데이터 키는 반환되지 않습니다."
+		},
+		{
+			info = "5.작전 문서 스테이지 내 스토리는 지정 스테이지를 클리어하면 한꺼번에 해제되며, 진도에 따라 점차 해제되지 않습니다. 자세한 해제 조건은 해당 회상 화면에서 확인할 수 있습니다."
+		},
+		{
+			info = "6. 일부 작전 문서 스테이지에 함선 확정 인양 시스템 신규 추가. 지정 스테이지 60회 클리어 시 해당 함선 획득 가능. 1회만 획득 가능."
 		}
 	}
 }
@@ -3952,7 +3958,7 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 비콘·META 기능 설명
 
-1. <color=#92fc63>2022.1.13-2022.4.14점검 전</color>까지 「그나이제나우·META」의 도전이 한정개방됩니다. 「그나이제나우·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「그나이제나우·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
+1. <color=#92fc63>2022.4.14-2022.7.7점검 전</color>까지 「샤른호르스트·META」의 도전이 한정개방됩니다. 「샤른호르스트·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「샤른호르스트·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
  <color=#ff5c5c>주의: 동기화 수치는 기간 종료 후 사라집니다.</color>
 
 2. 「비콘 데이터」 획득 및 분석
@@ -3981,7 +3987,7 @@ _G.pg.gametip.world_boss_help_meta = {
  <color=#92fc63>작전 참여 시 네트워크 환경을 원활히 유지해 주세요.</color>
 
 6.화력 지원
-비콘·META 도전 31일째부터, 즉 2021.11.14~2022.1.13 기간 동안, 함대가 「그나이제나우·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.
+비콘·META 도전 31일째부터, 즉 2022.5.15~2022.7.7 기간 동안, 함대가 「샤른호르스트·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.
 ※자신이 발견한 비콘·META 전투 중에서만 적용되며, 매번 도전 시마다 발동 가능합니다.]]
 		}
 	}
@@ -4173,7 +4179,7 @@ _G.pg.gametip.create_player_success = {
 }
 
 _G.pg.gametip.login_newPlayerScene_invalideName = {
-	tip = "금칙어가 포함되어 있습니다."
+	tip = "캐릭터 이름에 부적절한 문구가 포함되었습니다."
 }
 
 _G.pg.gametip.login_newPlayerScene_name_tooShort = {
@@ -9469,11 +9475,11 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "폴라, 차라, 리토리오 건조추가！"
+	tip = "볼티모어, 앨라배마 건조추가！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "잉 루이、차오 호、페넬로피 건조추가！"
+	tip = "알렌 M. 섬너, 스테판 포터, 버밍햄 건조추가！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
@@ -13755,16 +13761,24 @@ _G.pg.gametip.building_complete_tip = {
 	tip = "업그레이드 완성"
 }
 
+_G.pg.gametip.backyard_theme_refresh_time_tip = {
+	tip = "잠시 후 새로고침 해주세요."
+}
+
 _G.pg.gametip.backyard_theme_total_print = {
 	tip = "총 가격"
 }
 
-_G.pg.gametip.towerclimbing_book_tip = {
-	tip = "이전의 수첩 수집 완성 후 해제 가능"
+_G.pg.gametip.backyard_theme_word_buy = {
+	tip = "구매"
 }
 
-_G.pg.gametip.towerclimbing_reward_tip = {
-	tip = "수첩 수집 완성 후 보상 수령 가능"
+_G.pg.gametip.backyard_theme_word_apply = {
+	tip = "배치"
+}
+
+_G.pg.gametip.backyard_theme_apply_success = {
+	tip = "배치 성공"
 }
 
 _G.pg.gametip.words_visit_backyard_toggle = {
@@ -16618,9 +16632,9 @@ _G.pg.gametip.meta_help = {
 		{
 			info = [[
 1. <color=#92fc63>정보 동기화</color>
-·<color=#92fc63>2022.1.134-2022.4.14점점 전</color>까지 「그나이제나우·META」의 「정보 동기화」가한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「그나이제나우·META」 캐릭터</color>를 획득할 수 있습니다.
+·<color=#92fc63>2022.4.14-2022.7.7점점 전</color>까지 「샤른호르스트·META」의 「정보 동기화」가한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「샤른호르스트·META」 캐릭터</color>를 획득할 수 있습니다.
 ·META 캐릭터 획득 후 캐릭터의 <color=#92fc63>「정보 동기화」</color> 모듈을 통해<color=#92fc63>기재된 시간</color> 동안 계속해서 육성 재료를 포함한 풍성한 보상을 획득할 수 있습니다.
-·주의:<color=#ff5c5c>「그나이제나우·META」의 「정보 동기화」는 기간 종료 후 잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
+·주의:<color=#ff5c5c>「샤른호르스트·META」의 「정보 동기화」는 기간 종료 후 잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
 
 2. <color=#92fc63>에너지 활성화</color>
 ·META 캐릭터가 지정된 레벨에 도달하면 해당되는 캐릭터 결정을 사용해 활성화를 진행할 수 있습니다. 활성화 후 캐릭터의 성급이 상승합니다.
@@ -17648,6 +17662,14 @@ _G.pg.gametip.target_get_tip = {
 
 _G.pg.gametip.fleet_select_title = {
 	tip = "함대 선택"
+}
+
+_G.pg.gametip.backyard_rename_title = {
+	tip = "숙소명칭"
+}
+
+_G.pg.gametip.backyard_rename_tip = {
+	tip = "숙소 명칭을 입력"
 }
 
 _G.pg.gametip.equip_add = {
@@ -19280,4 +19302,68 @@ _G.pg.gametip.fur_all_buy = {
 
 _G.pg.gametip.fur_onekey_buy = {
 	tip = "세트 구매"
+}
+
+_G.pg.gametip.backyard_food_shop_tip = {
+	tip = "필요 다이아:"
+}
+
+_G.pg.gametip.dorm_2f_lock = {
+	tip = "미개방"
+}
+
+_G.pg.gametip.word_get_way = {
+	tip = "획득 방법:"
+}
+
+_G.pg.gametip.word_get_date = {
+	tip = "획득 날짜:"
+}
+
+_G.pg.gametip.enter_theme_name = {
+	tip = "숙소 명칭을 입력"
+}
+
+_G.pg.gametip.enter_extend_food_label = {
+	tip = "확장"
+}
+
+_G.pg.gametip.backyard_extend_tip_1 = {
+	tip = "확장 허가서를 "
+}
+
+_G.pg.gametip.backyard_extend_tip_2 = {
+	tip = "개 사용하시겠습니까?"
+}
+
+_G.pg.gametip.backyard_extend_tip_3 = {
+	tip = "보유 수："
+}
+
+_G.pg.gametip.backyard_extend_tip_4 = {
+	tip = "개"
+}
+
+_G.pg.gametip.levelScene_remaster_story_tip = {
+	tip = "「$1」 스토리 모두 해제 완료.\n회상 화면으로 이동하여 확인할 수 있습니다."
+}
+
+_G.pg.gametip.levelScene_remaster_unlock_tip = {
+	tip = "※「작전 문서」-$1 $2 클리어 시 모든 스토리 해제"
+}
+
+_G.pg.gametip.level_remaster_tip1 = {
+	tip = "출현 해역:"
+}
+
+_G.pg.gametip.level_remaster_tip2 = {
+	tip = "출격"
+}
+
+_G.pg.gametip.level_remaster_tip3 = {
+	tip = "수령"
+}
+
+_G.pg.gametip.level_remaster_tip4 = {
+	tip = "$1 적 기함 처치 횟수"
 }

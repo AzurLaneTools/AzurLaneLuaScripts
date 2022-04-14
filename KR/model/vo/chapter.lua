@@ -1665,24 +1665,6 @@ function slot0.withNpc(slot0)
 	return Clone(nil)
 end
 
-function slot0.getDefeatStory(slot0, slot1)
-	if #slot0:getConfig("defeat_story_count") <= 0 then
-		return nil
-	end
-
-	slot4 = slot3
-
-	while slot4 > 0 do
-		if slot2[slot4] <= slot1 then
-			break
-		end
-
-		slot4 = slot4 - 1
-	end
-
-	return slot0:getConfig("defeat_story")[slot4]
-end
-
 function slot0.getFleet(slot0, slot1, slot2, slot3)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0.line.row == uv0 and slot0.line.column == uv1 and (not uv2 or slot0:getFleetType() == uv2) and slot0:isValid()
@@ -3219,6 +3201,10 @@ function slot0.GetLimitOilCost(slot0, slot1, slot2)
 	return slot0:getConfig("use_oil_limit")[slot1 and 3 or underscore.any(slot0:getConfig("boss_expedition_id"), function (slot0)
 		return uv0 == slot0
 	end) and 2 or 1] or 9999
+end
+
+function slot0.IsRemaster(slot0)
+	return getProxy(ChapterProxy):getMapById(slot0:getConfig("map")) and slot1:isRemaster()
 end
 
 return slot0

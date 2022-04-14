@@ -16,7 +16,7 @@ function slot0.OnLoaded(slot0)
 	slot0.lessonTimeTxt = slot1:GetComponent(typeof(Text))
 	slot0.skillCard = NewNavalTacticsSkillCard.New(slot0:findTF("skill/info"))
 	slot0.itemTpls = {
-		slot0:findTF("items/item")
+		slot0:findTF("items/scorll/content/item")
 	}
 	slot0.startPos = slot0.itemTpls[1].anchoredPosition
 	slot0.space = Vector2(60, 30)
@@ -60,9 +60,7 @@ function slot0.Show(slot0, slot1, slot2)
 
 	slot0.canBack = defaultValue(slot2, true)
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	if slot1 ~= slot0.student then
 		slot0.selLessonId = nil
@@ -119,7 +117,6 @@ function slot0.UpdateLessons(slot0, slot1, slot2)
 
 		setActive(slot8, true)
 		slot0:UpdateLesson(slot8, slot3[slot7], slot1, slot2)
-		slot0:UpdatePosition(slot8, slot7)
 	end
 
 	for slot7 = #slot0.itemTpls, #slot3 + 1, -1 do
@@ -159,7 +156,7 @@ function slot0.UpdateLesson(slot0, slot1, slot2, slot3, slot4)
 			uv0:UpdateSkill(uv4, uv3, uv5)
 		end
 	end, SFX_PANEL)
-	setText(slot1:Find("addition"), slot7 == 100 and "" or slot7 .. "%")
+	setText(slot1:Find("addition"), slot7 == 100 and "" or "EXP" .. slot7 .. "%")
 end
 
 function slot0.UpdatePosition(slot0, slot1, slot2)

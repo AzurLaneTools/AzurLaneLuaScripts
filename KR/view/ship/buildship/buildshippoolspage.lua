@@ -95,7 +95,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.Show(slot0, slot1)
-	uv0.super.Show(slot0)
+	setActiveViaLayer(slot0._tf, true)
 
 	if not slot0.pools then
 		slot0:Flush(slot1)
@@ -134,7 +134,7 @@ function slot0.Flush(slot0, slot1)
 
 	slot0:RefreshFreeBuildActivity()
 	slot0:ActivePool()
-	slot0:UpdateItem()
+	slot0:UpdateItem(slot0.contextData.itemVO.count)
 end
 
 function slot0.ActivePool(slot0)
@@ -149,8 +149,9 @@ function slot0.ActivePool(slot0)
 	end) and slot5:GetMark() or BuildShipPool.BUILD_POOL_MARK_HEAVY) or slot0.contextData.projectName or BuildShipScene.projectName or BuildShipPool.BUILD_POOL_MARK_HEAVY)], true)
 end
 
-function slot0.UpdateItem(slot0)
-	setText(slot0.useItemTF, slot0.contextData.itemVO.count)
+function slot0.UpdateItem(slot0, slot1)
+	setText(slot0.useItemTF, slot1)
+	Canvas.ForceUpdateCanvases()
 end
 
 function slot0.UpdateTicket(slot0)
@@ -341,11 +342,21 @@ function slot0.RemoveAllTimer(slot0)
 end
 
 function slot0.ShowOrHide(slot0, slot1, slot2)
-	if slot1 then
-		slot0:Show(slot2)
+	if slot0.isInit then
+		setActiveViaLayer(slot0._tf, slot1)
 	else
-		slot0:Hide()
+		slot0.isInit = true
+
+		if slot1 then
+			slot0:Show(slot2)
+		else
+			slot0:Hide()
+		end
 	end
+end
+
+function slot0.Hide(slot0)
+	setActiveViaLayer(slot0._tf, false)
 end
 
 function slot0.OnDestroy(slot0)

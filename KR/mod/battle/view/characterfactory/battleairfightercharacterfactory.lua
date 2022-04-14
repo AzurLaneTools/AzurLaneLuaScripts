@@ -36,5 +36,5 @@ function slot0.Battle.BattleAirFighterCharacterFactory.MakeBloodBar(slot0, slot1
 
 	slot1:AddHPBar(slot2)
 	slot2:SetActive(false)
-	slot1:UpdateHPBarPostition()
+	slot1:UpdateHPBarPosition()
 end

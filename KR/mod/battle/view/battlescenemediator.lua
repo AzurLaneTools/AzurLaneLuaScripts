@@ -55,13 +55,11 @@ end
 function slot5.InitPopNumPool(slot0)
 	slot0._popNumPool = uv0.Battle.BattlePopNumManager.GetInstance()
 
-	slot0._popNumPool:InitialPoolRoot(slot0._state:GetUI():findTF(uv0.Battle.BattlePopNumManager.CONTAINER_HP))
+	slot0._popNumPool:InitialBundlePool(slot0._state:GetUI():findTF("HPTextCharacterContainer/container"))
 end
 
 function slot5.InitPopScorePool(slot0)
-	slot0._popNumPool = uv0.Battle.BattlePopNumManager.GetInstance()
-
-	slot0._popNumPool:InitialScorePoolRoot(slot0._state:GetUI():findTF(uv0.Battle.BattlePopNumManager.CONTAINER_SCORE))
+	slot0._popNumPool:InitialScorePool()
 end
 
 function slot5.InitFlagShipMark(slot0)
@@ -376,7 +374,6 @@ function slot5.Update(slot0)
 		slot5:Update()
 	end
 
-	slot0._popNumPool:Update()
 	slot0:UpdateAntiAirArea()
 	slot0:UpdateAimBiasArea()
 	slot0:UpdateFlagShipMark()
@@ -385,14 +382,14 @@ end
 function slot5.UpdatePause(slot0)
 	for slot4, slot5 in pairs(slot0._characterList) do
 		slot5:UpdateUIComponentPosition()
-		slot5:UpdateHPBarPostition()
+		slot5:UpdateHPBarPosition()
 	end
 
 	for slot4, slot5 in pairs(slot0._aircraftList) do
 		slot5:UpdateUIComponentPosition()
 
 		if slot5:GetUnitData():GetUniqueID() == uv0.FOE_CODE then
-			slot5:UpdateHPBarPostition()
+			slot5:UpdateHPBarPosition()
 		end
 	end
 
@@ -668,17 +665,15 @@ function slot5.AllBulletNeutralize(slot0)
 
 	slot0._antiAirArea:SetActive(false)
 
-	for slot4, slot5 in pairs(slot0._bulletList) do
-		slot5:Neutrailze()
+	slot1 = 0
+
+	for slot5, slot6 in pairs(slot0._bulletList) do
+		slot1 = slot1 + 1
+
+		slot6:Neutrailze()
 	end
 
 	uv0.Battle.BattleBulletFactory.NeutralizeBullet()
-end
-
-function slot5.AllCharAnimAutoCalcComplex(slot0, slot1)
-	for slot5, slot6 in pairs(slot0._characterList) do
-		slot6:SetSkeletonAutoCalcComplex(slot1)
-	end
 end
 
 function slot5.Clear(slot0)

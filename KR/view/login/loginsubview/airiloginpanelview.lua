@@ -21,12 +21,14 @@ function slot0.OnInit(slot0)
 	slot0.twitterLoginBtn = slot0:findTF("twitter_login", slot0.jpLoginCon)
 	slot0.transcodeLoginBtn = slot0:findTF("transcode_login", slot0.jpLoginCon)
 	slot0.touristLoginBtn = slot0:findTF("tourist_login", slot0.jpLoginCon)
+	slot0.yostarLoginBtn = slot0:findTF("yostar_login", slot0.jpLoginCon)
 	slot0.firstAlertWin = slot0:findTF("empty_alert", slot0.airijpPanel)
 	slot0.appleToggleTf = slot0:findTF("window/content_bg/apple_toggle", slot0.firstAlertWin)
 	slot0.amazonToggleTf = slot0:findTF("window/content_bg/amazon_toggle", slot0.firstAlertWin)
 	slot0.twitterToggleTf = slot0:findTF("window/content_bg/twitter_toggle", slot0.firstAlertWin)
 	slot0.transcodeToggleTf = slot0:findTF("window/content_bg/transcode_toggle", slot0.firstAlertWin)
 	slot0.touristToggleTf = slot0:findTF("window/content_bg/tourist_toggle", slot0.firstAlertWin)
+	slot0.yostarToggleTf = slot0:findTF("window/content_bg/yostar_toggle", slot0.firstAlertWin)
 	slot0.alertCloseBtn = slot0:findTF("window/top/btnBack", slot0.firstAlertWin)
 	slot0.alertCancelBtn = slot0:findTF("window/button_container/custom_button_2", slot0.firstAlertWin)
 	slot0.alertSureBtn = slot0:findTF("window/button_container/custom_button_1", slot0.firstAlertWin)
@@ -41,6 +43,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0.twitterLoginBtn, PLATFORM_CODE == PLATFORM_JP)
 	setActive(slot0.transcodeLoginBtn, PLATFORM_CODE == PLATFORM_JP)
 	setActive(slot0.touristLoginBtn, false)
+	setActive(slot0.yostarLoginBtn, PLATFORM_CODE == PLATFORM_JP)
 	setActive(slot0.appleLoginBtn, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1")
 	setActive(slot0.appleToggleTf, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1")
 	setActive(slot0.amazonLoginBtn, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
@@ -99,6 +102,13 @@ function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.twitterLoginBtn, function ()
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
 	end)
+	onButton(slot0, slot0.yostarLoginBtn, function ()
+		uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
+			LoginSceneConst.DEFINE.YOSTAR_ALERT_VIEW,
+			LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
+			LoginSceneConst.DEFINE.PRESS_TO_LOGIN
+		})
+	end)
 	onButton(slot0, slot0.transcodeLoginBtn, function ()
 		uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
 			LoginSceneConst.DEFINE.TRANSCODE_ALERT_VIEW,
@@ -152,6 +162,7 @@ function slot0.InitEvent(slot0)
 		slot2 = getToggleState(uv0.touristToggleTf)
 		slot3 = getToggleState(uv0.appleToggleTf)
 		slot4 = getToggleState(uv0.amazonToggleTf)
+		slot5 = getToggleState(uv0.yostarToggleTf)
 
 		if getToggleState(uv0.twitterToggleTf) then
 			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
@@ -167,6 +178,12 @@ function slot0.InitEvent(slot0)
 			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_APPLE)
 		elseif slot4 then
 			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_AMAZON)
+		elseif slot5 then
+			uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
+				LoginSceneConst.DEFINE.YOSTAR_ALERT_VIEW,
+				LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
+				LoginSceneConst.DEFINE.PRESS_TO_LOGIN
+			})
 		end
 
 		uv1()

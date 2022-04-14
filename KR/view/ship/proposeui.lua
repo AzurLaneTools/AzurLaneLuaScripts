@@ -237,7 +237,7 @@ function slot0.didEnter(slot0)
 					slot6 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(uv0.shipVO.proposeTime, "%Y년%m월%d일", true))
 
 					if not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
-						GetComponent(uv0.intimacyDesc, "VerticalText").enabled = false
+						GetComponent(uv0.intimacyDesc, "VerticalText").enabled = true
 						slot6 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescC(uv0.shipVO.proposeTime, "%Y년%m월%d일"))
 					end
 
@@ -260,7 +260,9 @@ function slot0.didEnter(slot0)
 
 			setText(uv0.intimacyBuffDesc, "*" .. i18n(slot5 .. "_buff"))
 			uv0:loadChar()
-			pg.UIMgr.GetInstance():BlurPanel(uv0._tf)
+			pg.UIMgr.GetInstance():BlurPanel(uv0._tf, false, {
+				weight = LayerWeightConst.SECOND_LAYER
+			})
 			onButton(uv0, uv0.button, function ()
 				if uv0 then
 					slot0 = uv1.bagProxy:getItemCountById(uv1:getProposeItemId())
@@ -390,7 +392,9 @@ function slot0.willExit(slot0)
 		setActive(slot0.commonTF, true)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	if slot0.l2dChar then
 		slot0.l2dChar:ClearPics()
@@ -521,7 +525,7 @@ function slot0.stampWindow(slot0)
 		slot2 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y년%m월%d일", true))
 
 		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
-			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = false
+			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
 			slot2 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescC(slot0.shipVO.proposeTime, "%Y년%m월%d일"))
 		end
 
@@ -643,6 +647,7 @@ function slot0.showProposePanel(slot0)
 
 					uv0.transHand = tf(slot0)
 
+					setActive(uv0.transHand, false)
 					setParent(uv0.transHand, uv0.proposePanel)
 					uv0.transHand:SetAsFirstSibling()
 

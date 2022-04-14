@@ -1,14 +1,23 @@
+slot0 = {
+	"아앗! 작전 실패... 확인 버튼을 눌러 돌아가자...",
+	"이번 임무는 유니온 항모 함대의 작전 연습을 지원하는 거야.",
+	"메인 해역 선택",
+	"<color=#ff7d36>근해 연습</color>을 선택해줘.",
+	"스테이지의 상세정보가 표시되어있어.",
+	"<color=#ff7d36>출격</color>을 눌러 작전해역으로 출격이야!"
+}
+
 return {
 	id = "S005",
 	events = {
 		{
 			alpha = 0.276,
 			style = {
-				text = "아앗! 작전 실패... 확인 버튼을 눌러 돌아가자...",
+				dir = 1,
 				mode = 1,
 				posY = 147.8,
-				dir = 1,
-				posX = 328.7
+				posX = 328.7,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -28,14 +37,14 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "이번 임무는 유니온 항모 함대의 작전 연습을 지원하는 거야.",
+				dir = 1,
 				mode = 1,
 				posY = -50,
-				dir = 1,
-				posX = 250
+				posX = 250,
+				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -53,11 +62,11 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "메인 해역 선택",
+				dir = -1,
 				mode = 1,
 				posY = -50,
-				dir = -1,
-				posX = 250
+				posX = 250,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
@@ -78,11 +87,11 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "<color=#ff7d36>근해 연습</color>을 선택해줘.",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				delay = 1.8,
@@ -100,11 +109,11 @@ return {
 		{
 			alpha = 0.513,
 			style = {
-				text = "스테이지의 상세정보가 표시되어있어.",
+				dir = 1,
 				mode = 2,
 				posY = -410,
-				dir = 1,
-				posX = -446
+				posX = -446,
+				text = slot0[5]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelStageInfoView(Clone)/panel/start_button",
@@ -121,11 +130,11 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				text = "<color=#ff7d36>출격</color>을 눌러 작전해역으로 출격이야!",
+				dir = 1,
 				mode = 2,
 				posY = -164,
-				dir = 1,
-				posX = 270
+				posX = 270,
+				text = slot0[6]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/start_button",

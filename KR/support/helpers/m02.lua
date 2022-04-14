@@ -122,10 +122,6 @@ function getProxy(slot0)
 	return pg.m02:retrieveProxy(slot0.__cname)
 end
 
-function getBackYardProxy(slot0)
-	return pg.backyard:retrieveProxy(slot0.__cname)
-end
-
 function LoadAndInstantiateAsync(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot1 = HXSet.autoHxShift(slot0 .. "/", slot1)
 	slot5 = ResourceMgr.Inst
@@ -242,7 +238,7 @@ end
 function emojiText(slot0, slot1)
 	slot2 = ResourceMgr.Inst:loadAssetBundleSync("emojis")
 	slot4 = GetComponent(slot0, "MeshRenderer")
-	slot5 = Shader.Find("Unlit/Transparent")
+	slot5 = Shader.Find("UI/Unlit/Transparent")
 	slot8 = {}
 	slot9 = 0
 	GetComponent(slot0, "TextMesh").text = string.gsub(slot1, "#(%d+)#", function (slot0)
@@ -1178,7 +1174,7 @@ function GetOwnedpropCount(slot0)
 	elseif slot3 == DROP_TYPE_SHIP then
 		slot1 = getProxy(BayProxy):getConfigShipCount(slot0.id)
 	elseif slot3 == DROP_TYPE_FURNITURE then
-		slot1 = getProxy(DormProxy):getFurnitrueCount(slot0.id)
+		slot1 = getProxy(DormProxy):getRawData():GetOwnFurnitrueCount(slot0.id)
 	elseif slot3 == DROP_TYPE_STRATEGY then
 		slot2 = tobool(slot0.count)
 	elseif slot3 == DROP_TYPE_SKIN then
@@ -1904,12 +1900,6 @@ function cancelRich(slot0)
 	return slot0
 end
 
-function filterCharForiOS(slot0)
-end
-
-function filteAndDelTest(slot0)
-end
-
 function getSkillConfig(slot0)
 	if not require("GameCfg.buff.buff_" .. slot0) then
 		warning("找不到技能配置: " .. slot0)
@@ -2132,17 +2122,17 @@ function cameraPaintViewAdjust(slot0)
 		slot1 = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(CanvasScaler))
 
 		if slot0 then
-			CameraUtil.AutoAdapt = false
+			CameraMgr.instance.AutoAdapt = false
 
-			CameraUtil.Revert()
+			CameraMgr.instance:Revert()
 
 			slot1.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight
 			slot1.matchWidthOrHeight = 1
 		else
-			CameraUtil.AutoAdapt = true
-			CameraUtil.CurrentWidth = 1
-			CameraUtil.CurrentHeight = 1
-			CameraUtil.AspectRatio = 1.7777777777777777
+			CameraMgr.instance.AutoAdapt = true
+			CameraMgr.instance.CurrentWidth = 1
+			CameraMgr.instance.CurrentHeight = 1
+			CameraMgr.instance.AspectRatio = 1.7777777777777777
 			slot1.screenMatchMode = CanvasScaler.ScreenMatchMode.Expand
 		end
 
@@ -2172,7 +2162,7 @@ function openPortrait(slot0)
 
 	preOrientation = Input.deviceOrientation:ToString()
 
-	print("Begining Orientation:" .. preOrientation)
+	originalPrint("Begining Orientation:" .. preOrientation)
 
 	Screen.autorotateToPortrait = true
 	Screen.autorotateToPortraitUpsideDown = true
@@ -2186,7 +2176,7 @@ function closePortrait(slot0)
 	Screen.autorotateToPortrait = false
 	Screen.autorotateToPortraitUpsideDown = false
 
-	print("Closing Orientation:" .. preOrientation)
+	originalPrint("Closing Orientation:" .. preOrientation)
 
 	Screen.orientation = ScreenOrientation.LandscapeLeft
 	slot1 = Timer.New(function ()
@@ -3185,4 +3175,12 @@ function removeWorld()
 
 	uv0.world = nil
 	uv0 = nil
+end
+
+function switch(slot0, slot1, slot2)
+	if slot1[slot0] then
+		slot1[slot0](slot0)
+	else
+		slot2(slot0)
+	end
 end

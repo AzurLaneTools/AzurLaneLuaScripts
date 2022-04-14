@@ -5,7 +5,7 @@ pg.open_systems_limited = {
 		name = "숙소",
 		story_id = "SYG001",
 		id = 1,
-		mediator = "BackYardMediator",
+		mediator = "CourtYardMediator",
 		level = 8
 	},
 	{

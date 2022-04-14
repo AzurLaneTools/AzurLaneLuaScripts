@@ -12,7 +12,7 @@ function slot0.execute(slot0, slot1)
 			if slot4:getContextCount() > 0 then
 				slot6 = slot4:popContext()
 			else
-				print("could not pop more context")
+				originalPrint("could not pop more context")
 
 				break
 			end
@@ -24,7 +24,7 @@ function slot0.execute(slot0, slot1)
 			context = slot6
 		})
 	else
-		print("no more context in the stack")
+		originalPrint("no more context in the stack")
 	end
 end
 

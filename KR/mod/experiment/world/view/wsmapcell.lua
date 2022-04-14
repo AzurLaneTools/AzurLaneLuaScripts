@@ -143,8 +143,6 @@ function slot0.Update(slot0, slot1)
 		end
 
 		if slot2:InFog() then
-			setActive(slot0.rtFog, true)
-
 			if slot1 and slot5 > 0 then
 				setCanvasGroupAlpha(slot0.rtFog, 0)
 
@@ -160,16 +158,14 @@ function slot0.Update(slot0, slot1)
 			end
 		elseif slot1 and slot5 > 0 then
 			slot0.fogTimer = slot0.wsTimer:AddInMapTimer(function ()
-				uv0.fogUid = LeanTween.alphaCanvas(GetComponent(uv0.rtFog, typeof(CanvasGroup)), 0, uv1):setOnComplete(System.Action(function ()
-					setActive(uv0.rtFog, false)
-				end)).uniqueId
+				uv0.fogUid = LeanTween.alphaCanvas(GetComponent(uv0.rtFog, typeof(CanvasGroup)), 0, uv1).uniqueId
 
 				uv0.wsTimer:AddInMapTween(uv0.fogUid)
 			end, slot5)
 
 			slot0.fogTimer:Start()
 		else
-			setActive(slot0.rtFog, false)
+			setCanvasGroupAlpha(slot0.rtFog, 0)
 		end
 	end
 
@@ -217,10 +213,8 @@ function slot0.Update(slot0, slot1)
 end
 
 function slot0.UpdateFogImage(slot0)
-	slot2 = slot0.cell:LookSairenFog()
-
-	setActive(slot0.rtFog:Find("dark_fog"), not slot2)
-	setActive(slot0.rtFog:Find("sairen_fog"), slot2)
+	setImageAlpha(slot0.rtFog:Find("dark_fog"), slot0.cell:LookSairenFog() and 0 or 1)
+	setImageAlpha(slot0.rtFog:Find("sairen_fog"), slot2 and 1 or 0)
 end
 
 function slot0.GetWorldPos(slot0)

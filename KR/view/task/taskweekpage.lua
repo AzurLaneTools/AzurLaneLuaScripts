@@ -102,8 +102,10 @@ function slot0.DoDisablePtTaskAnim(slot0, slot1)
 
 	slot0._scrollView.enabled = false
 	slot3 = {}
+	slot4 = ipairs
+	slot5 = slot0.taskVOs or {}
 
-	for slot7, slot8 in ipairs(slot0.taskVOs) do
+	for slot7, slot8 in slot4(slot5) do
 		if slot8.isWeekTask then
 			if slot0:GetCard(slot8.id) then
 				table.insert(slot3, function (slot0)

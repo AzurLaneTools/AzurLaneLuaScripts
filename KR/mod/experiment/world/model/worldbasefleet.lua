@@ -166,4 +166,30 @@ function slot0.BuildFormationIds(slot0)
 	return slot1
 end
 
+function slot0.getTeamByName(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0[slot1]) do
+		if slot7:IsAlive() then
+			table.insert(slot2, slot7.id)
+		end
+	end
+
+	return slot2
+end
+
+function slot0.getFleetType(slot0)
+	return slot0:GetFleetType()
+end
+
+function slot0.getShipVOsDic(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(slot0:GetShipVOs()) do
+		slot1[slot7.id] = slot7
+	end
+
+	return slot1
+end
+
 return slot0

@@ -175,6 +175,7 @@ function slot0.ReturnSpineChar(slot0, slot1, slot2)
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
 		UIUtil.ClearChildren(slot2)
+		setActiveViaLayer(slot2.transform, true)
 		slot2:SetActive(false)
 		slot2.transform:SetParent(slot0.root, false)
 
@@ -250,7 +251,7 @@ slot6 = {
 slot7 = {
 	"ResPanel",
 	"WorldResPanel",
-	"MainUI",
+	"NewMainUI",
 	"DockyardUI",
 	"AwardInfoUI",
 	"SkillInfoUI",
@@ -274,8 +275,6 @@ function slot0.GetUI(slot0, slot1, slot2, slot3)
 			uv2(uv3)
 		end
 
-		slot0:SetActive(false)
-
 		if table.indexof(uv3, uv1) then
 			uv4.pools_plural[uv0 .. uv1].prefab:GetComponent(typeof(UIArchiver)):Clear()
 			slot0:GetComponent(typeof(UIArchiver)):Load(slot1)
@@ -296,10 +295,10 @@ function slot0.ReturnUI(slot0, slot1, slot2)
 		end
 
 		if table.indexof(uv1, slot1) or table.indexof(slot0.ui_tempCache, slot1) then
-			slot2:SetActive(false)
+			setActiveViaLayer(slot2.transform, false)
 			slot0.pools_plural[slot4]:Enqueue(slot2)
 		elseif table.indexof(uv2, slot1) then
-			slot2:SetActive(false)
+			setActiveViaLayer(slot2.transform, false)
 			slot2:GetComponent(typeof(UIArchiver)):Clear()
 			slot0.pools_plural[slot4]:Enqueue(slot2)
 		else
@@ -426,7 +425,7 @@ function slot0.ExcessPainting(slot0)
 		if slot0.paintingCount > 10 then
 			slot0.paintingCount = 0
 
-			Resources.UnloadUnusedAssets()
+			uv0.Inst:ResUnloadAsync()
 		end
 	end
 end
@@ -759,7 +758,7 @@ function slot0.PrintPools(slot0)
 		slot1 = slot1 .. "\n" .. slot5
 	end
 
-	print(slot1)
+	originalPrint(slot1)
 end
 
 return slot0

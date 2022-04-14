@@ -558,7 +558,7 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 					end)
 				end)
 			else
-				print("not found effect", slot10)
+				originalPrint("not found effect", slot10)
 			end
 		end
 	end

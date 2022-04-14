@@ -4,12 +4,12 @@ function slot0.getUIName(slot0)
 	return "SelectTechnologyUI"
 end
 
+function slot0.ResUISettings(slot0)
+	return true
+end
+
 function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
-
-	if slot0._resPanel then
-		slot0._resPanel:setResources(slot1)
-	end
 end
 
 function slot0.init(slot0)
@@ -36,11 +36,6 @@ function slot0.init(slot0)
 
 	slot0.helpBtn = slot0:findTF("help_btn")
 	slot0.lockedTpl = slot0:findTF("lockedTpl")
-	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/playerRes")
-	slot0._resPanel = PlayerResource.New()
-
-	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
-
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
 
 	if not OPEN_TEC_TREE_SYSTEM then
@@ -151,11 +146,6 @@ function slot0.notifyMeta(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
-	if slot0._resPanel then
-		slot0._resPanel:exit()
-
-		slot0._resPanel = nil
-	end
 end
 
 return slot0

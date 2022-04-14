@@ -13608,6 +13608,182 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100180] = {
+		map = 2100180,
+		name = "샌드 플레이·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA1",
+		ani_name = "Map_1230001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100190,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100181] = {
+		map = 2100181,
+		name = "샌드 플레이·하편| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA16",
+		ani_name = "Map_1230002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100191,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100190] = {
+		map = 2100190,
+		name = "샌드 플레이·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA1",
+		ani_name = "Map_1230003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100180,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100191] = {
+		map = 2100191,
+		name = "샌드 플레이·하편| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA16",
+		ani_name = "Map_1230004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100181,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -13805,6 +13981,50 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200050] = {
+		map = 2200050,
+		name = "솔로몬의 무사|| ||SP. CHAPTER||SP. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "white",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_5",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 2200051,
 		clouds_pos = {
 			{
 				332,
@@ -14297,11 +14517,16 @@ pg.expedition_data_by_map = {
 		2100161,
 		2100170,
 		2100171,
+		2100180,
+		2100181,
+		2100190,
+		2100191,
 		2200000,
 		2200010,
 		2200020,
 		2200030,
 		2200040,
+		2200050,
 		9920001,
 		9920002,
 		9920011,

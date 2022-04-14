@@ -91,9 +91,7 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		blurLevelCamera = true
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 	setActive(slot0._tf, true)
 	pg.CriMgr.GetInstance():PlayBGM("echo-loop", "sub_view")
 end

@@ -3,6 +3,8 @@ slot2 = class("ChampionCellView", DecorateClass(import(".EnemyCellView"), import
 function slot2.Ctor(slot0)
 	uv0.Ctor(slot0)
 	uv1.Ctor(slot0)
+
+	slot0.autoLoader = AutoLoader.New()
 end
 
 function slot2.InitChampionCellTransform(slot0)
@@ -40,29 +42,15 @@ function slot2.UpdateChampionCell(slot0, slot1, slot2, slot3)
 end
 
 function slot2.LoadSpine(slot0, slot1, slot2, slot3, slot4)
-	if slot0.lastPrefab == slot1 then
-		if not IsNil(slot0.model) then
-			existCall(slot4)
-		end
-
-		return
-	end
-
-	slot0:UnloadSpine()
-
-	slot0.lastPrefab = slot1
-	slot5 = slot0.spineLoader
-
-	slot5:GetSpine(slot1, function (slot0)
-		uv0:SetModel(slot0, uv1)
-		existCall(uv2)
-		uv0:LoadExtraEffects(uv3)
-	end, "spine")
+	uv0.LoadSpine(slot0, slot1, slot2, nil, function ()
+		existCall(uv0)
+		uv1:LoadExtraEffects(uv2)
+	end)
 end
 
 function slot2.LoadExtraEffects(slot0, slot1)
 	if slot1 and #slot1 > 0 then
-		slot3 = slot0.spineLoader
+		slot3 = slot0.autoLoader
 
 		slot3:LoadPrefab("effect/" .. slot1, slot1, function (slot0)
 			uv0._extraEffectList[uv1] = slot0
@@ -79,6 +67,10 @@ end
 function slot2.Clear(slot0)
 	uv0.ClearSpine(slot0)
 	uv1.Clear(slot0)
+
+	if slot0.autoLoader then
+		slot0.autoLoader:ClearRequests()
+	end
 end
 
 return slot2

@@ -53,10 +53,6 @@ function slot0.getUIName(slot0)
 	return "TaskScene"
 end
 
-function slot0.preload(slot0, slot1)
-	PoolMgr.GetInstance():PreloadUI("TaskListPage", slot1)
-end
-
 function slot0.setTaskVOs(slot0, slot1)
 	slot0.contextData.taskVOsById = slot1
 end
@@ -73,14 +69,6 @@ function slot0.init(slot0)
 	slot0.taskIconTpl = slot0:findTF("taskTagOb/task_icon_default")
 	slot0.weekTip = slot0:findTF("weekly/tip", slot0._tagRoot)
 	slot0.oneStepBtn = slot0:findTF("blur_panel/adapt/top/GetAllButton")
-	slot0.listEmptyTF = slot0:findTF("empty")
-
-	setActive(slot0.listEmptyTF, false)
-
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
-
-	setText(slot0.listEmptyTxt, i18n("list_empty_tip_taskscene"))
-
 	slot0.contextData.viewComponent = slot0
 	slot0.pageTF = slot0:findTF("pages")
 end
@@ -119,6 +107,7 @@ end
 
 function slot0.didEnter(slot0)
 	slot1 = TaskCommonPage.New(slot0.pageTF, slot0.event, slot0.contextData)
+	slot0.emptyPage = TaskEmptyListPage.New(slot0._tf, slot0.event)
 	slot0.pages = {
 		[uv0.PAGE_TYPE_SCENARIO] = slot1,
 		[uv0.PAGE_TYPE_BRANCH] = slot1,
@@ -173,7 +162,12 @@ function slot0.UpdatePage(slot0, slot1)
 	slot2 = uv0[slot1]
 
 	function slot3(slot0, slot1)
-		setActive(uv0.listEmptyTF, #slot1 <= 0)
+		if #slot1 <= 0 then
+			uv0.emptyPage:ExecuteAction("ShowOrHide", true)
+		elseif #slot1 > 0 and uv0.emptyPage:GetLoaded() then
+			uv0.emptyPage:ExecuteAction("ShowOrHide", false)
+		end
+
 		uv0:updateOneStepBtn(slot0)
 	end
 
@@ -306,6 +300,12 @@ end
 function slot0.willExit(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
+	end
+
+	if slot0.emptyPage then
+		slot0.emptyPage:Destroy()
+
+		slot0.emptyPage = nil
 	end
 
 	slot0.pages = nil

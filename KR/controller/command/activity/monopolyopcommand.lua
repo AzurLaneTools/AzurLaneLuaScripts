@@ -114,7 +114,7 @@ function slot0.execute(slot0, slot1)
 				uv0.callback()
 			end
 
-			print("Monopoly Activity erro code" .. slot0.result .. " cmd:" .. uv0.cmd)
+			originalPrint("Monopoly Activity erro code" .. slot0.result .. " cmd:" .. uv0.cmd)
 		end
 	end)
 end

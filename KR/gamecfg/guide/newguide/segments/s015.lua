@@ -1,17 +1,24 @@
+slot0 = {
+	"<color=#ff7d36>장비 창고</color>는 이쪽이야.",
+	"다음은 <color=#ff7d36>설계도</color>를 확인해보자.",
+	"<color=#ff7d36>제작</color> 버튼으로 장비를 제작하는 거야!",
+	"이걸로 정했다! 확인 버튼을 눌러봐."
+}
+
 return {
 	id = "S015",
 	events = {
 		{
 			alpha = 0.271,
 			style = {
-				text = "<color=#ff7d36>장비 창고</color>는 이쪽이야.",
+				dir = -1,
 				mode = 2,
 				posY = -102.56,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/equipButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/equipButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -25,11 +32,11 @@ return {
 		{
 			alpha = 0.207,
 			style = {
-				text = "다음은 <color=#ff7d36>설계도</color>를 확인해보자.",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[2]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/topItems/bottom_back/types/design",
@@ -47,11 +54,11 @@ return {
 			alpha = 0,
 			waitScene = "EquipmentDesignLayer",
 			style = {
-				text = "제작 버튼<color=#ff7d36>을 클릭하여 장비</color>를 제작합니다!",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 210.07
+				posX = 210.07,
+				text = slot0[3]
 			},
 			ui = {
 				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
@@ -68,11 +75,11 @@ return {
 		{
 			alpha = 0.342,
 			style = {
-				text = "이걸로 정했다! 확인 버튼을 눌러봐.",
+				dir = -1,
 				mode = 2,
 				posY = -2.69,
-				dir = -1,
-				posX = 202.1
+				posX = 202.1,
+				text = slot0[4]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/msg_panel/bg/confirm_btn",

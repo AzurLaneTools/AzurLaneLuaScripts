@@ -47,9 +47,10 @@ function slot0.init(slot0)
 	slot0.scroll = slot0:findTF("main/right_panel/center/bottom/scroll")
 	slot0.sprites = {}
 	slot0.timers = {}
-	slot0.UIMgr = pg.UIMgr.GetInstance()
 
-	slot0.UIMgr:BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 function slot0.SetImageByUrl(slot0, slot1, slot2, slot3)
@@ -350,9 +351,9 @@ function slot0.CloseCommentPanel(slot0)
 end
 
 function slot0.willExit(slot0)
-	slot4 = slot0.UIMgr._normalUIMain
+	slot4 = pg.UIMgr.GetInstance()._normalUIMain
 
-	slot0.UIMgr:UnblurPanel(slot0._tf, slot4)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot4)
 	slot0:ExitDetail()
 
 	slot0.sprites = nil

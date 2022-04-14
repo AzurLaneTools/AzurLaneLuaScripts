@@ -1,17 +1,23 @@
+slot0 = {
+	"<color=#ff7d36>장비 창고</color>는 이쪽이야.",
+	"<color=#ff7d36>장비 상자</color>를 선택해봐.",
+	"<color=#ff7d36>사용</color> 버튼으로 장비 상자를 열 수 있어."
+}
+
 return {
 	id = "S013",
 	events = {
 		{
 			alpha = 0.327,
 			style = {
-				text = "<color=#ff7d36>장비 창고</color>는 이쪽이야.",
+				dir = -1,
 				mode = 2,
 				posY = -50.56,
-				dir = -1,
-				posX = -163.2
+				posX = -163.2,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/equipButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/equipButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,11 +32,11 @@ return {
 			alpha = 0.547,
 			waitScene = "StoreHouseScene",
 			style = {
-				text = "<color=#ff7d36>장비 상자</color>를 선택해봐.",
-				mode = 2,
-				posY = 191.3,
 				dir = 1,
-				posX = -93.8
+				mode = 2,
+				posY = 65,
+				posX = -93.8,
+				text = slot0[2]
 			},
 			spriteui = {
 				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid",
@@ -52,11 +58,11 @@ return {
 		{
 			alpha = 0.298,
 			style = {
-				text = "<color=#ff7d36>사용</color> 버튼으로 장비 상자를 열 수 있어.",
+				dir = 1,
 				mode = 2,
 				posY = -252,
-				dir = 1,
-				posX = -393
+				posX = -393,
+				text = slot0[3]
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/ItemInfoUI(Clone)/window/actions/use_button",

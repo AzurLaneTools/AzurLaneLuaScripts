@@ -49,6 +49,7 @@ MonoBehaviour = UnityEngine.MonoBehaviour
 Component = UnityEngine.Component
 Application = UnityEngine.Application
 SystemInfo = UnityEngine.SystemInfo
+Gyroscope = UnityEngine.Gyroscope
 Screen = UnityEngine.Screen
 ScreenOrientation = UnityEngine.ScreenOrientation
 Camera = UnityEngine.Camera

@@ -48,7 +48,7 @@ function slot0.isAnyLearning(slot0)
 end
 
 function slot0.printInfo(slot0)
-	if Application.isEditor then
+	if IsUnityEditor then
 		print("---------------------------------------------------------------")
 		print("shipID", slot0.shipID)
 		print("curDayExp", slot0.curDayExp)

@@ -26,8 +26,8 @@ slot0.SWITCH_TO_OFFICE = "GuildOfficeMediator:SWITCH_TO_OFFICE"
 slot0.OPEN_SHOP = "GuildMainMediator:OPEN_SHOP"
 
 function slot0.register(slot0)
-	if getProxy(ContextProxy):getCurrentContext().mediator == NewGuildMediator then
-		slot1:popContext()
+	if getProxy(ContextProxy):GetPrevContext(1).mediator == NewGuildMediator then
+		slot1:RemoveContext(slot2)
 	end
 
 	slot3 = getProxy(GuildProxy)

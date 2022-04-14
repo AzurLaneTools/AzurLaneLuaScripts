@@ -1,3 +1,9 @@
+slot0 = {
+	"<color=#ff7d36>출격</color>을 눌러봐.",
+	"이 정도의 함대라면 분명 호넷을 쓰러뜨릴 수 있어!",
+	"회피 성공이야! 목표지점까지 거의 다 왔어!"
+}
+
 return {
 	id = "S025",
 	events = {
@@ -5,14 +11,14 @@ return {
 			alpha = 0.434,
 			code = 2,
 			style = {
-				text = "<color=#ff7d36>출격</color>을 눌러봐.",
+				dir = 1,
 				mode = 2,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -26,21 +32,21 @@ return {
 		{
 			alpha = 0.405,
 			style = {
-				text = "이 정도의 함대라면 분명 호넷을 쓰러뜨릴 수 있어!",
+				dir = 1,
 				mode = 1,
 				posY = -200,
-				dir = 1,
-				posX = -190
+				posX = -190,
+				text = slot0[2]
 			}
 		},
 		{
 			alpha = 0.163,
 			style = {
-				text = "회피 성공이야! 목표지점까지 거의 다 왔어!",
+				dir = 1,
 				mode = 2,
 				posY = 191.53,
-				dir = 1,
-				posX = 26.6
+				posX = 26.6,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_6/attachment",

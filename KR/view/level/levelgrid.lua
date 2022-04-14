@@ -839,7 +839,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 				slot4.tfAmmo.anchoredPosition = Vector2(-60, 85)
 			end
 
-			if not IsNil(slot4:GetModel()) and slot12 and slot0.lastSelectedId ~= slot5.id then
+			if slot4:GetSpineRole() and slot12 and slot0.lastSelectedId ~= slot5.id then
 				if not slot9 and not slot11 and slot0.lastSelectedId ~= -1 then
 					slot4:TweenShining()
 				end

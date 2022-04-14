@@ -56,33 +56,39 @@ function slot0.SelectShip(slot0, slot1)
 		table.insert(slot2, slot8.shipId)
 	end
 
-	slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-		selectedMax = 1,
-		prevPage = "NavalTacticsMediator",
-		ignoredIds = slot2,
-		hideTagFlags = ShipStatus.TAG_HIDE_TACTICES,
-		onShip = function (slot0, slot1, slot2)
-			slot3, slot4 = ShipStatus.ShipStatusCheck("inTactics", slot0, slot1)
+	slot0:addSubLayers(Context.New({
+		viewComponent = DockyardScene,
+		mediator = DockyardMediator,
+		data = {
+			selectedMax = 1,
+			prevPage = "NewNavalTacticsMediator",
+			ignoredIds = slot2,
+			hideTagFlags = ShipStatus.TAG_HIDE_TACTICES,
+			onShip = function (slot0, slot1, slot2)
+				slot3, slot4 = ShipStatus.ShipStatusCheck("inTactics", slot0, slot1)
 
-			if not slot3 then
-				return slot3, slot4
+				if not slot3 then
+					return slot3, slot4
+				end
+
+				return true
+			end,
+			onSelected = function (slot0)
+				if getProxy(BayProxy):RawGetShipById(slot0[1]):isMetaShip() then
+					uv0.contextData.metaShipID = slot1
+
+					return
+				end
+
+				uv0.contextData.shipToLesson = {
+					shipId = slot1,
+					index = uv1
+				}
+
+				uv0.viewComponent:Init()
 			end
-
-			return true
-		end,
-		onSelected = function (slot0)
-			if getProxy(BayProxy):RawGetShipById(slot0[1]):isMetaShip() then
-				uv0.contextData.metaShipID = slot1
-
-				return
-			end
-
-			uv0.contextData.shipToLesson = {
-				shipId = slot1,
-				index = uv1
-			}
-		end
-	})
+		}
+	}))
 end
 
 function slot0.listNotificationInterests(slot0)

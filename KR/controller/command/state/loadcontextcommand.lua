@@ -36,6 +36,7 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 	slot5 = pg.SceneMgr.GetInstance()
 	slot6, slot7 = nil
 	slot8 = {}
+	slot9 = slot2
 	slot2 = slot2 or getProxy(ContextProxy):getCurrentContext()
 
 	seriesAsync({
@@ -56,20 +57,6 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 			end
 		end,
 		function (slot0)
-			uv0:prepare(uv1.facade, uv2, function (slot0)
-				uv0 = slot0
-
-				uv1()
-			end)
-		end,
-		function (slot0)
-			uv0:prepareLayer(uv1.facade, nil, uv2, function (slot0)
-				uv0 = slot0
-
-				uv1()
-			end)
-		end,
-		function (slot0)
 			if uv0.cleanStack then
 				uv1:cleanContext()
 			end
@@ -78,12 +65,36 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 			slot0()
 		end,
 		function (slot0)
+			uv0:prepare(uv1.facade, uv2, function (slot0)
+				uv0:sendNotification(GAME.START_LOAD_SCENE, slot0)
+
+				uv1 = slot0
+
+				uv2()
+			end)
+		end,
+		function (slot0)
+			uv0:prepareLayer(uv1.facade, nil, uv2, function (slot0)
+				uv0:sendNotification(GAME.WILL_LOAD_LAYERS, #slot0)
+
+				uv1 = slot0
+
+				uv2()
+			end)
+		end,
+		function (slot0)
 			if uv0 then
 				table.SerialIpairsAsync(uv0, function (slot0, slot1, slot2)
-					uv0:remove(slot1.mediator:getViewComponent(), function ()
+					slot3 = false
+
+					if uv0 then
+						slot3 = uv0.mediator.__cname == slot1.mediator.__cname
+					end
+
+					uv1:remove(slot1.mediator, function ()
 						uv0.context:onContextRemoved()
 						uv1()
-					end)
+					end, slot3)
 				end, slot0)
 			else
 				slot0()
@@ -129,7 +140,8 @@ function slot0.loadLayer(slot0, slot1, slot2, slot3)
 			end)
 		end,
 		function (slot0)
-			uv0:enter(uv1, slot0)
+			uv0:sendNotification(GAME.WILL_LOAD_LAYERS, #uv1)
+			uv2:enter(uv1, slot0)
 		end,
 		function ()
 			if uv0 then

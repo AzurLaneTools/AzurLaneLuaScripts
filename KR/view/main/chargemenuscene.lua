@@ -17,12 +17,11 @@ function slot0.didEnter(slot0)
 	slot0:tryAutoOpenShop()
 end
 
-function slot0.willExit(slot0)
-	if slot0.resPanel then
-		slot0.resPanel:exit()
+function slot0.ResUISettings(slot0)
+	return true
+end
 
-		slot0.resPanel = nil
-	end
+function slot0.willExit(slot0)
 end
 
 function slot0.initData(slot0)
@@ -44,9 +43,6 @@ function slot0.findUI(slot0)
 	slot0.supplyShopBtn = slot0:findTF("supply_shop", slot0.menuTF)
 	slot0.monthCardTag = slot0:findTF("monthcard_tag", slot0.diamondShopBtn)
 	slot0.giftTag = slot0:findTF("tip", slot0.giftShopBtn)
-	slot0.resPanel = PlayerResource.New()
-
-	slot0.resPanel:setParent(slot0.resTF, false)
 end
 
 function slot0.addListener(slot0)
@@ -73,7 +69,6 @@ function slot0.addListener(slot0)
 end
 
 function slot0.updatePlayerRes(slot0)
-	slot0.resPanel:setResources(getProxy(PlayerProxy):getData())
 end
 
 function slot0.updatePanel(slot0)

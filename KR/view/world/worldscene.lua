@@ -19,6 +19,10 @@ slot0.optionsPath = {
 	"top/adapt/top_stage/option"
 }
 
+function slot0.forceGC(slot0)
+	return true
+end
+
 function slot0.getUIName(slot0)
 	return "WorldUI"
 end
@@ -50,21 +54,17 @@ function slot0.init(slot0)
 		uv0:Op(...)
 	end)
 
-	slot1 = GameObject.Find("LevelCamera").transform
-	slot0.camera = slot1:GetComponent(typeof(Camera))
-	slot0.rtUIMain = slot1:Find("Canvas/UIMain")
+	slot1 = pg.UIMgr.GetInstance()
+	slot0.camera = slot1.levelCamera:GetComponent(typeof(Camera))
+	slot0.rtUIMain = slot1.LevelMain
 
 	setActive(slot0.rtUIMain, false)
 
-	GetOrAddComponent(slot0.rtUIMain, typeof(Image)).color = Color.New(0, 0, 0, 0.5)
 	slot0.rtGrid = slot0.rtUIMain:Find("LevelGrid")
 
 	setActive(slot0.rtGrid, true)
 
 	slot0.rtDragLayer = slot0.rtGrid:Find("DragLayer")
-
-	setImageAlpha(slot0.rtDragLayer, 0)
-
 	slot0.rtEnvBG = slot0:findTF("main/bg")
 	slot0.rtTop = slot0:findTF("top")
 	slot0.rtTopAtlas = slot0.rtTop:Find("adapt/top_chapter")

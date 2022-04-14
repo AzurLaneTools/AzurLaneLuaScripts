@@ -20,16 +20,12 @@ function slot1.Init(slot0, slot1)
 	slot0.overlayCamera = tf(GameObject.Find("OverlayCamera"))
 	slot0.overlayCameraComp = slot0.overlayCamera:GetComponent("Camera")
 	slot0.UIMain = slot0.uiCamera:Find("Canvas/UIMain")
+	slot0.LevelMain = slot0.levelCamera:Find("Canvas/UIMain")
 	slot0.OverlayMain = slot0.overlayCamera:Find("Overlay/UIMain")
 	slot0.OverlayToast = slot0.overlayCamera:Find("Overlay/UIOverlay")
 	slot0.OverlayEffect = slot0.overlayCamera:Find("Overlay/UIEffect")
 	slot0._cameraBlurPartial = slot0.uiCamera:GetComponent("UIPartialBlur")
-	slot0._levelCameraPartial = GetOrAddComponent(slot0.levelCamera, "UIPartialBlur")
-	slot0._levelCameraPartial.blurShader = slot0._cameraBlurPartial.blurShader
-	slot0._levelCameraPartial.blurCam = slot0.levelCameraComp
-	slot0._levelCameraPartial.maskCam = slot0.overlayCameraComp
-	slot0._levelCameraPartial.enabled = false
-	slot7 = "UIStaticBlur"
+	slot0._levelCameraPartial = slot0.levelCamera:GetComponent("UIPartialBlur")
 	slot0.cameraBlurs = {
 		[uv0.CameraUI] = {
 			slot0.uiCamera:GetComponent("BlurOptimized"),
@@ -43,8 +39,13 @@ function slot1.Init(slot0, slot1)
 		},
 		[uv0.CameraOverlay] = {
 			slot0.overlayCamera:GetComponent("BlurOptimized"),
-			slot0.overlayCamera:GetComponent(slot7)
+			slot0.overlayCamera:GetComponent("UIStaticBlur")
 		}
+	}
+	slot0.camLockStatus = {
+		[uv0.CameraUI] = false,
+		[uv0.CameraLevel] = false,
+		[uv0.CameraOverlay] = false
 	}
 
 	function slot2(slot0)
@@ -67,11 +68,40 @@ function slot1.Init(slot0, slot1)
 		slot0.blurIteration = 4
 	end
 
-	for slot7, slot8 in ipairs(slot0.cameraBlurs) do
-		slot2(slot8[uv0.OptimizedBlur])
-		slot3(slot8[uv0.PartialBlur])
+	function slot4(slot0)
+		if slot0 == nil then
+			return
+		end
+
+		slot0.downsample = 2
+		slot0.blurSize = 8
+		slot0.blurIterations = 1
 	end
 
+	function slot5(slot0)
+		if slot0 == nil then
+			return
+		end
+
+		slot0.downsample = 2
+		slot0.blurSize = 8
+		slot0.blurIteration = 1
+	end
+
+	slot6 = DevicePerformanceUtil.GetDeviceLevel()
+
+	for slot10, slot11 in ipairs(slot0.cameraBlurs) do
+		if slot6 == DevicePerformanceLevel.Low then
+			slot4(slot11[uv0.OptimizedBlur])
+			slot5(slot11[uv0.PartialBlur])
+		else
+			slot2(slot11[uv0.OptimizedBlur])
+			slot3(slot11[uv0.PartialBlur])
+		end
+	end
+
+	slot0.defaultMaterial = Material.New(Shader.Find("UI/Default"))
+	slot0.partialBlurMaterial = Material.New(Shader.Find("UI/PartialBlur"))
 	slot0._debugPanel = DebugPanel.New()
 
 	setActive(slot0.uiCamera, false)
@@ -306,7 +336,7 @@ end
 
 function slot1.RevertPBMaterial(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		slot6:GetComponent(typeof(Image)).material = Material.New(Shader.Find("UI/Default")) or nil
+		slot6:GetComponent(typeof(Image)).material = slot0.defaultMaterial
 	end
 end
 
@@ -314,7 +344,7 @@ function slot1.UpdatePBEnable(slot0, slot1)
 	if slot1 then
 		if uv0 ~= nil then
 			for slot5, slot6 in ipairs(uv0) do
-				slot6:GetComponent(typeof(Image)).material = slot1 and Material.New(Shader.Find("UI/PartialBlur")) or nil
+				slot6:GetComponent(typeof(Image)).material = slot1 and slot0.partialBlurMaterial or nil
 			end
 		end
 
@@ -334,24 +364,36 @@ function slot1.UpdatePBEnable(slot0, slot1)
 	end
 end
 
-function slot1.BlurCamera(slot0, slot1, slot2)
-	slot3 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
-	slot4 = slot0.cameraBlurs[slot1][uv0.StaticBlur]
+function slot1.BlurCamera(slot0, slot1, slot2, slot3)
+	if not slot0.camLockStatus[slot1] then
+		slot4 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
+		slot5 = slot0.cameraBlurs[slot1][uv0.StaticBlur]
 
-	if slot2 then
-		slot3.enabled = true
-		slot3.staticBlur = true
-		slot4.enabled = false
-	else
-		slot3.enabled = true
-		slot3.staticBlur = false
-		slot4.enabled = false
+		if slot2 then
+			slot4.enabled = true
+			slot4.staticBlur = true
+			slot5.enabled = false
+		else
+			slot4.enabled = true
+			slot4.staticBlur = false
+			slot5.enabled = false
+		end
+
+		if slot3 then
+			slot0.camLockStatus[slot1] = true
+		end
 	end
 end
 
-function slot1.UnblurCamera(slot0, slot1)
-	slot0.cameraBlurs[slot1][uv0.StaticBlur].enabled = false
-	slot0.cameraBlurs[slot1][uv0.OptimizedBlur].enabled = false
+function slot1.UnblurCamera(slot0, slot1, slot2)
+	if not slot0.camLockStatus[slot1] or slot2 then
+		slot0.cameraBlurs[slot1][uv0.StaticBlur].enabled = false
+		slot0.cameraBlurs[slot1][uv0.OptimizedBlur].enabled = false
+
+		if slot2 then
+			slot0.camLockStatus[slot1] = false
+		end
+	end
 end
 
 function slot1.SetMainCamBlurTexture(slot0, slot1)
@@ -392,7 +434,7 @@ function slot1.InitBgmCfg(slot0, slot1)
 	slot0.isDefaultBGM = false
 
 	if OPEN_SPECIAL_IP_BGM and PLATFORM_CODE == PLATFORM_US then
-		if Application.isEditor then
+		if IsUnityEditor then
 			if slot1 then
 				slot1()
 			end
@@ -436,12 +478,12 @@ function slot1.InitBgmCfg(slot0, slot1)
 		VersionMgr.Inst:WebRequest("https://pro.ip-api.com/json/?key=TShzQlq7O9KuthI", function (slot0, slot1)
 			slot2 = uv0(slot1)
 
-			print("content: " .. slot1)
-			print("country is: " .. slot2)
+			originalPrint("content: " .. slot1)
+			originalPrint("country is: " .. slot2)
 
 			uv1.isDefaultBGM = uv2(slot2)
 
-			print("IP limit: " .. tostring(uv1.isDefaultBGM))
+			originalPrint("IP limit: " .. tostring(uv1.isDefaultBGM))
 
 			if uv3 then
 				uv3()

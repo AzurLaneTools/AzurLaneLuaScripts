@@ -1,17 +1,23 @@
+slot0 = {
+	"한 번 더 <color=#ff7d36>출격</color>하자!",
+	"적 중요 함대 발견! 목표지점을 눌러서, 전투속행!",
+	"<color=#ff7d36>출격</color>을 눌러서 전투 준비!"
+}
+
 return {
 	id = "S028",
 	events = {
 		{
 			alpha = 0.454,
 			style = {
-				text = "한 번 더 <color=#ff7d36>출격</color>하자!",
+				dir = 1,
 				mode = 2,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -28,11 +34,11 @@ return {
 		{
 			alpha = 0.211,
 			style = {
-				text = "적 중요 함대 발견! 목표지점을 눌러서, 전투속행!",
+				dir = 1,
 				mode = 2,
 				posY = 171.89,
-				dir = 1,
-				posX = 32.25
+				posX = 32.25,
+				text = slot0[2]
 			},
 			baseui = {
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
@@ -61,11 +67,11 @@ return {
 		{
 			alpha = 0.409,
 			style = {
-				text = "<color=#ff7d36>출격</color>을 눌러서 전투 준비!",
+				dir = 1,
 				mode = 2,
 				posY = -68.93,
-				dir = 1,
-				posX = 241.87
+				posX = 241.87,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/right/start",

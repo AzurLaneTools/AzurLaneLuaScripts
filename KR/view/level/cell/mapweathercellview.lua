@@ -27,7 +27,7 @@ function slot0.Update(slot0, slot1)
 					setActive(slot0, true)
 					uv0:OnLoadedPrefab(slot0, uv1)
 				end, "Weather" .. slot6)
-			elseif Application.isEditor then
+			elseif IsUnityEditor then
 				slot9 = GameObject("weatherID_" .. slot6)
 
 				slot0:GetLoader():RegisterLoaded("Weather" .. slot6, slot9)

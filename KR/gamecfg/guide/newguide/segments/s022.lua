@@ -1,14 +1,22 @@
+slot0 = {
+	"아앗! 작전 실패... 확인 버튼을 눌러 돌아가자...",
+	"한 번 더 <color=#ffde38>출격</color>하자!",
+	"메인 해역 선택",
+	"<color=#ff7d36>근해 연습</color>에 다시 도전해보자!",
+	"<color=#ff7d36>출격</color>으로 색적 개시!"
+}
+
 return {
 	id = "S022",
 	events = {
 		{
 			alpha = 0.276,
 			style = {
-				text = "아앗! 작전 실패... 확인 버튼을 눌러 돌아가자...",
+				dir = 1,
 				mode = 1,
 				posY = 147.8,
-				dir = 1,
-				posX = 328.7
+				posX = 328.7,
+				text = slot0[1]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
@@ -28,14 +36,14 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "한 번 더 <color=#ffde38>출격</color>하자!",
+				dir = 1,
 				mode = 1,
 				posY = -42,
-				dir = 1,
-				posX = 243
+				posX = 243,
+				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -53,11 +61,11 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				text = "메인 해역 선택",
+				dir = -1,
 				mode = 1,
 				posY = -50,
-				dir = -1,
-				posX = 250
+				posX = 250,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
@@ -78,11 +86,11 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "<color=#ff7d36>근해 연습</color>에 다시 도전해보자!",
+				dir = -1,
 				mode = 2,
 				posY = 0,
-				dir = -1,
-				posX = 0
+				posX = 0,
+				text = slot0[4]
 			},
 			ui = {
 				delay = 1.8,
@@ -114,11 +122,11 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				text = "<color=#ff7d36>출격</color>으로 색적 개시!",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[5]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/start_button",

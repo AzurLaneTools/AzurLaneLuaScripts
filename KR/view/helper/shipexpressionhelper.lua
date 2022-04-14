@@ -4,7 +4,7 @@ slot2 = pg.ship_skin_expression_ex
 slot3 = false
 
 function slot4(...)
-	if uv0 and Application.isEditor then
+	if uv0 and IsUnityEditor then
 		print(...)
 	end
 end

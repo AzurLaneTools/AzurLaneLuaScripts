@@ -127,7 +127,7 @@ function slot0.findUI(slot0)
 end
 
 function slot0.addListener(slot0)
-	if Application.isEditor then
+	if IsUnityEditor then
 		onButton(slot0, slot0:findTF("Logo", slot0.bg), function ()
 			for slot3 = 1, 4 do
 				PlayerPrefs.SetInt(uv0.Icecream_Save_Tag_Pre .. slot3, 0)

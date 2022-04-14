@@ -317,20 +317,20 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970401",
+		banner = "meta_entrance_970402",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9704011
+				autoOpenShipConfigID = 9704021
 			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(20945) and not slot1:isEnd()
+			return getProxy(ActivityProxy):getActivityById(4282) and not slot1:isEnd()
 		end,
 		isTip = function ()
-			slot0 = 970401
-			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970401)
+			slot0 = 970402
+			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970402)
 
 			slot1:setDataBeforeGet()
 
@@ -349,7 +349,7 @@ return {
 			end
 
 			if slot2 == false then
-				slot2 = getProxy(MetaCharacterProxy):getRedTag(970401)
+				slot2 = getProxy(MetaCharacterProxy):getRedTag(970402)
 			end
 
 			return slot2

@@ -48,7 +48,7 @@ function slot0.execute(slot0, slot1)
 			uv1:updateVoteGroup(uv2)
 			uv4:sendNotification(GAME.ON_NEW_VOTE_DONE)
 		else
-			print(slot0.result)
+			originalPrint(slot0.result)
 		end
 	end)
 end

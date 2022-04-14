@@ -98,6 +98,10 @@ function slot0.setSkinPri(slot0, slot1)
 	slot2.transform.localPosition = Vector3(0, 0, -10)
 
 	setParent(slot2, slot0._tf, false)
+	setActive(slot2, false)
+	onNextTick(function ()
+		setActive(uv0, true)
+	end)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_CHARGET)
 
 	slot0.cg.alpha = 1
@@ -279,7 +283,7 @@ function slot0.paintView(slot0)
 	slot18 = false
 
 	slot16:AddPointDownFunc(function (slot0)
-		if Input.touchCount == 1 or Application.isEditor then
+		if Input.touchCount == 1 or IsUnityEditor then
 			uv0 = true
 			uv1 = true
 		elseif Input.touchCount >= 2 then

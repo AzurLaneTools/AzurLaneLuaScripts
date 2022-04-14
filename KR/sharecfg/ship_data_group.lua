@@ -1394,20 +1394,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"출석 스탬프",
+				"함대 상점 교환",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"출석 스탬프",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -1436,20 +1435,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"월간 출석",
+				"함대 상점 교환",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"소형함 건조 진행",
+				"출석 스탬프",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -1481,6 +1479,17 @@ pg.ship_data_group = {
 				"한정 이벤트 : 샌드 플레이",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -1688,6 +1697,17 @@ pg.ship_data_group = {
 				"한정 이벤트 : 샌드 플레이",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -2053,20 +2073,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"출석 스탬프",
+				"함대 상점 교환",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"출석 스탬프",
 				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
+					""
 				},
 				0
 			}
@@ -2590,6 +2609,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -2839,6 +2868,17 @@ pg.ship_data_group = {
 				"한정 이벤트 : 샌드 플레이",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -3636,6 +3676,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -4099,12 +4150,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -4141,12 +4191,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -4411,6 +4460,17 @@ pg.ship_data_group = {
 				"한정 이벤트 : 샌드 플레이",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5248,6 +5308,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5445,17 +5515,6 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
-			{
-				"특형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"함대 상점 교환",
 				{
@@ -8917,12 +8976,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"중형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -8959,12 +9017,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"특별 보급 (공훈치 소비)",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -10080,12 +10137,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -10548,12 +10604,18 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"소형함 건조",
+				"출석 스탬프",
 				{
-					"GETBOAT",
+					""
+				},
+				0
+			},
+			{
+				"함대 상점 교환",
+				{
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -10592,12 +10654,18 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"소형함 건조",
+				"출석 스탬프",
 				{
-					"GETBOAT",
+					""
+				},
+				0
+			},
+			{
+				"함대 상점 교환",
+				{
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -10981,12 +11049,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조 진행",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11016,19 +11083,18 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"월간 출석",
+				"출석 스탬프",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조 진행",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -11509,12 +11575,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -12866,12 +12931,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"중형함 건조、특형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -13257,12 +13321,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -13885,6 +13948,16 @@ pg.ship_data_group = {
 				"이벤트：솔로몬의 무사",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -14868,12 +14941,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -15088,12 +15160,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15202,12 +15273,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15667,12 +15737,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -16055,12 +16124,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -17032,12 +17100,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"소형함 건조",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -17076,12 +17143,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"소형함 건조",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -18576,19 +18642,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 건조",
+				"특별 보급 (공훈치 소비)",
 				{
-					""
-				},
-				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -18625,12 +18683,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -21767,6 +21824,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30009] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30009,
+		code = 30009,
+		group_type = 970402,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: META 연구실-정보 동기화",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704021
+					}
+				},
+				0
+			}
+		}
+	},
 	[30010] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -22347,6 +22438,7 @@ pg.ship_data_group = {
 		30006,
 		30007,
 		30008,
+		30009,
 		30010
 	}
 }

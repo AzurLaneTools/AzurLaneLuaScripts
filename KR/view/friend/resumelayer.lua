@@ -81,7 +81,9 @@ function slot0.display(slot0, slot1)
 	if slot0.contextData.parent then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			weight = LayerWeightConst.SECOND_LAYER
+		})
 	end
 
 	slot2 = SeasonInfo.getMilitaryRank(slot1.score, slot1.rank)
@@ -129,7 +131,7 @@ function slot0.display(slot0, slot1)
 
 	removeAllChildren(slot0.resumeMedalList)
 
-	for slot12 = 1, PlayerInfoLayer.MAX_MEDAL_DISPLAY do
+	for slot12 = 1, 5 do
 		setActive(slot0:findTF("empty", cloneTplTo(slot0.resumeMedalTpl, slot0.resumeMedalList)), slot12 > #slot1.displayTrophyList)
 
 		if slot12 <= #slot1.displayTrophyList then

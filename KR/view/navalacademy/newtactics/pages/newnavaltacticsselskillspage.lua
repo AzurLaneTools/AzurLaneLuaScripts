@@ -45,9 +45,7 @@ end
 
 function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	if slot1 ~= slot0.student then
 		slot0.student = slot1

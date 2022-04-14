@@ -1,17 +1,23 @@
+slot0 = {
+	"방금 받은 임무 보상으로 한 번 더 <color=#ff7e00>건조</color>하는 거야.",
+	"자재는 충분하다고! <color=#ff7e00>확인</color>을 눌러서 건조를 시작하는 거야!",
+	"<color=#ff7e00>확인</color>을 누르도록 해."
+}
+
 return {
 	id = "S020_1",
 	events = {
 		{
 			alpha = 0.375,
 			style = {
-				text = "방금 받은 임무 보상으로 한 번 더 <color=#ff7e00>건조</color>하는 거야.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/buildButton",
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/buildButton",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -25,11 +31,11 @@ return {
 		{
 			alpha = 0.408,
 			style = {
-				text = "자재는 충분하다고! <color=#ff7e00>확인</color>을 눌러서 건조를 시작하는 거야!",
+				dir = 1,
 				mode = 1,
 				posY = 0,
-				dir = 1,
-				posX = 205.91
+				posX = 205.91,
+				text = slot0[2]
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
@@ -46,11 +52,11 @@ return {
 		{
 			alpha = 0.318,
 			style = {
-				text = "<color=#ff7e00>확인</color>을 누르도록 해.",
+				dir = 1,
 				mode = 2,
 				posY = 0,
-				dir = 1,
-				posX = 0
+				posX = 0,
+				text = slot0[3]
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",

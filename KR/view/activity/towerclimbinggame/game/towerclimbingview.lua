@@ -187,7 +187,7 @@ function slot0.Update(slot0)
 end
 
 function slot0.AddDebugInput(slot0)
-	if Application.isEditor then
+	if IsUnityEditor then
 		if Input.GetKeyDown(KeyCode.A) then
 			slot0.leftOffse = -0.06
 		end

@@ -100,6 +100,7 @@ function slot0.OnSelected(slot0)
 		slot0:ShowSubMemories(pg.memory_group[slot3])
 	else
 		slot0:MemoryFilter()
+		slot0:SwitchReddotMemory()
 	end
 end
 
@@ -143,6 +144,10 @@ function slot0.MemoryFilter(slot0)
 	slot1.buffer:Show()
 	slot1.buffer:MemoryFilter()
 	slot0:HideDetailLayer()
+end
+
+function slot0.SwitchReddotMemory(slot0)
+	slot0:GetGroupLayer().buffer:SwitchReddotMemory()
 end
 
 function slot0.ShowSubMemories(slot0, ...)

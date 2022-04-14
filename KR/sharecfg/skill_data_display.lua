@@ -1210,15 +1210,15 @@ pg.skill_data_display = {
 	},
 	[9711] = {
 		id = 9711,
-		name = "부린의 맹세"
+		name = "布里之誓·purin"
 	},
 	[9712] = {
 		id = 9712,
-		name = "부린의 맹세"
+		name = "布里之誓·buli"
 	},
 	[9713] = {
 		id = 9713,
-		name = "부린의 맹세"
+		name = "布里之誓·burin"
 	},
 	[10010] = {
 		id = 10010,

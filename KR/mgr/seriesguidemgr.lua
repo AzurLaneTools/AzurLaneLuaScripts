@@ -6,7 +6,7 @@ slot2 = 29
 
 function log(...)
 	if uv0 then
-		print(...)
+		originalPrint(...)
 	end
 end
 
@@ -236,7 +236,7 @@ function slot0.canPlay(slot0, slot1)
 		return false
 	end
 
-	if not slot0.player then
+	if not slot0.plevel then
 		log("player is nil")
 
 		return false
@@ -258,42 +258,42 @@ function slot0.canPlay(slot0, slot1)
 end
 
 function slot0.setPlayer(slot0, slot1)
-	slot0.player = slot1
-	slot0.currIndex = slot0.player.guideIndex
+	slot0.plevel = slot1.level
+	slot0.pguideIndex = slot1.guideIndex
+	slot0.currIndex = slot1.guideIndex
 
 	slot0:compatibleOldPlayer()
 end
 
 function slot0.dispose(slot0)
-	slot0.player = nil
+	slot0.plevel = nil
+	slot0.guideIndex = nil
 	slot0.protocols = {}
 	slot0.state = uv0.IDLE
 end
 
 function slot0.compatibleOldPlayer(slot0)
-	if not slot0.player then
+	if not slot0.plevel then
 		return
 	end
 
 	function slot1()
-		slot0 = getProxy(PlayerProxy)
-		slot1 = slot0:getData()
+		slot1 = getProxy(PlayerProxy):getRawData()
 		slot1.guideIndex = uv0
 
-		slot0:updatePlayer(slot1)
 		uv1:setPlayer(slot1)
 		uv1:updateIndex(slot1.guideIndex)
 	end
 
-	if slot0.player.level >= 5 and slot0.player.guideIndex < uv0 then
+	if slot0.plevel >= 5 and slot0.pguideIndex < uv0 then
 		slot1()
 
 		return
 	end
 
-	if slot0.player.guideIndex ~= uv0 then
+	if slot0.pguideIndex ~= uv0 then
 		pg.SystemGuideMgr.GetInstance():FixGuide(function ()
-			if uv0.player.guideIndex > 1 and uv0.player.guideIndex < 101 then
+			if uv0.pguideIndex > 1 and uv0.pguideIndex < 101 then
 				uv1()
 			end
 		end)
