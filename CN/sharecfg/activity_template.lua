@@ -4959,12 +4959,13 @@ pg.activity_template = {
 	},
 	[4289] = {
 		mark = 20220324,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4289,
 		config_data = {
@@ -4974,33 +4975,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4290] = {
@@ -5825,7 +5799,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 4309,
 		config_data = {
-			138001,
+			1425001,
 			5000,
 			50,
 			0.36,

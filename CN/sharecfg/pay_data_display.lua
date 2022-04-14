@@ -3485,12 +3485,12 @@ pg.pay_data_display = {
 		}
 	},
 	[2002] = {
-		subject = "高级版",
+		subject = "最高方案研发礼包(一期)高级版",
 		limit_group = 1,
 		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
 		type = 0,
 		limit_arg = 1,
-		name = "最高方案研发礼包(一期)·高级版",
+		name = "最高方案研发礼包(一期)高级版",
 		name_display = "高级版",
 		extra_gem = 0,
 		id = 2002,
@@ -3539,12 +3539,12 @@ pg.pay_data_display = {
 		}
 	},
 	[2003] = {
-		subject = "标准版",
+		subject = "最高方案研发礼包(一期)标准版",
 		limit_group = 1,
 		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
 		type = 0,
 		limit_arg = 2,
-		name = "最高方案研发礼包(一期)·标准版",
+		name = "最高方案研发礼包(一期)标准版",
 		name_display = "标准版",
 		extra_gem = 0,
 		id = 2003,
@@ -3583,12 +3583,12 @@ pg.pay_data_display = {
 		}
 	},
 	[2004] = {
-		subject = "高级版",
+		subject = "最高方案研发礼包(一期)升级版",
 		limit_group = 1,
 		descrip_extra = "升级为高级版后可获得定向蓝图·一期x343",
 		type = 0,
 		limit_arg = 3,
-		name = "最高方案研发礼包(一期)·升级版",
+		name = "最高方案研发礼包(一期)升级版",
 		name_display = "高级版",
 		extra_gem = 0,
 		id = 2004,
@@ -3681,12 +3681,12 @@ pg.pay_data_display = {
 		}
 	},
 	[2006] = {
-		subject = "高级版",
+		subject = "最高方案研发礼包(二期)高级版",
 		limit_group = 2,
 		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
 		type = 0,
 		limit_arg = 1,
-		name = "最高方案研发礼包(二期)·高级版",
+		name = "最高方案研发礼包(二期)高级版",
 		name_display = "高级版",
 		extra_gem = 0,
 		id = 2006,
@@ -3735,12 +3735,12 @@ pg.pay_data_display = {
 		}
 	},
 	[2007] = {
-		subject = "标准版",
+		subject = "最高方案研发礼包(二期)标准版",
 		limit_group = 2,
 		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
 		type = 0,
 		limit_arg = 2,
-		name = "最高方案研发礼包(二期)·标准版",
+		name = "最高方案研发礼包(二期)标准版",
 		name_display = "标准版",
 		extra_gem = 0,
 		id = 2007,
@@ -3779,12 +3779,12 @@ pg.pay_data_display = {
 		}
 	},
 	[2008] = {
-		subject = "高级版",
+		subject = "最高方案研发礼包(二期)升级版",
 		limit_group = 2,
 		descrip_extra = "升级为高级版后可获得定向蓝图·二期x343",
 		type = 0,
 		limit_arg = 3,
-		name = "最高方案研发礼包(二期)·升级版",
+		name = "最高方案研发礼包(二期)升级版",
 		name_display = "高级版",
 		extra_gem = 0,
 		id = 2008,
