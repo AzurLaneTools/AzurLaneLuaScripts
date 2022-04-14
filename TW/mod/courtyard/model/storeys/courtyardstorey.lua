@@ -366,22 +366,34 @@ function slot0.TouchShip(slot0, slot1)
 end
 
 function slot0.UpdateShipIntimacy(slot0, slot1, slot2)
-	slot0.ships[slot1]:ChangeInimacy(slot2)
+	if not slot0.ships[slot1] then
+		return
+	end
+
+	slot3:ChangeInimacy(slot2)
 end
 
 function slot0.UpdateShipCoin(slot0, slot1, slot2)
-	slot0.ships[slot1]:ChangeCoin(slot2)
+	if not slot0.ships[slot1] then
+		return
+	end
+
+	slot3:ChangeCoin(slot2)
 end
 
 function slot0.ClearShipIntimacy(slot0, slot1, slot2)
-	slot3 = slot0.ships[slot1]
+	if not slot0.ships[slot1] then
+		return
+	end
 
 	slot0:GetPlaceableArea(slot3):_ClearLockPosition(slot3)
 	slot3:ClearInimacy(slot2)
 end
 
 function slot0.ClearShipCoin(slot0, slot1)
-	slot2 = slot0.ships[slot1]
+	if not slot0.ships[slot1] then
+		return
+	end
 
 	slot0:GetPlaceableArea(slot2):_ClearLockPosition(slot2)
 	slot2:ClearCoin(value)

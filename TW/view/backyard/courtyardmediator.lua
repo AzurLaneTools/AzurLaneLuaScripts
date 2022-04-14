@@ -56,7 +56,7 @@ function slot0.register(slot0)
 			viewComponent = NewBackYardShipInfoLayer,
 			data = {
 				type = Ship.STATE_TRAIN,
-				MaxRsetPos = _courtyard:GetController():GetEmptyCntForShip()
+				MaxRsetPos = _courtyard:GetController():GetMaxCntForShip()
 			}
 		}))
 	end)
@@ -66,7 +66,7 @@ function slot0.register(slot0)
 			viewComponent = NewBackYardShipInfoLayer,
 			data = {
 				type = Ship.STATE_REST,
-				MaxRsetPos = _courtyard:GetController():GetEmptyCntForShip()
+				MaxRsetPos = _courtyard:GetController():GetMaxCntForShip()
 			}
 		}))
 	end)
