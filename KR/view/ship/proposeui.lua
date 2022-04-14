@@ -1203,7 +1203,9 @@ end
 
 function slot0.showExchangePanel(slot0)
 	setActive(slot0.exchangePanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.exchangePanel, slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.exchangePanel, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 function slot0.hideExchangePanel(slot0)

@@ -132456,7 +132456,7 @@ pg.task_data_template = {
 		}
 	},
 	[17008] = {
-		name = "邀请者可获得PT：30",
+		name = "초대자가 획득할 수 있는PT：30",
 		guild_coin_award = 0,
 		award = 96063,
 		type = 26,
@@ -132490,7 +132490,7 @@ pg.task_data_template = {
 		}
 	},
 	[17009] = {
-		name = "邀请者可获得PT：30",
+		name = "초대자가 획득할 수 있는PT：30",
 		guild_coin_award = 0,
 		award = 96064,
 		type = 26,
@@ -132575,7 +132575,7 @@ pg.task_data_template = {
 		}
 	},
 	[17010] = {
-		name = "邀请者可获得PT：30",
+		name = "초대자가 획득할 수 있는PT：30",
 		guild_coin_award = 0,
 		award = 96065,
 		type = 26,
@@ -132609,7 +132609,7 @@ pg.task_data_template = {
 		}
 	},
 	[17011] = {
-		name = "邀请者可获得PT：30",
+		name = "초대자가 획득할 수 있는PT：30",
 		guild_coin_award = 0,
 		award = 96066,
 		type = 26,
@@ -132694,7 +132694,7 @@ pg.task_data_template = {
 		}
 	},
 	[17012] = {
-		name = "邀请者可获得PT：25",
+		name = "초대자가 획득할 수 있는PT：25",
 		guild_coin_award = 0,
 		award = 96067,
 		type = 26,
@@ -132728,7 +132728,7 @@ pg.task_data_template = {
 		}
 	},
 	[17013] = {
-		name = "邀请者可获得PT：25",
+		name = "초대자가 획득할 수 있는PT：25",
 		guild_coin_award = 0,
 		award = 96068,
 		type = 26,
@@ -132813,7 +132813,7 @@ pg.task_data_template = {
 		}
 	},
 	[17014] = {
-		name = "邀请者可获得PT：25",
+		name = "초대자가 획득할 수 있는PT：25",
 		guild_coin_award = 0,
 		award = 96069,
 		type = 26,
@@ -132847,7 +132847,7 @@ pg.task_data_template = {
 		}
 	},
 	[17015] = {
-		name = "邀请者可获得PT：25",
+		name = "초대자가 획득할 수 있는PT：25",
 		guild_coin_award = 0,
 		award = 96070,
 		type = 26,
@@ -132932,7 +132932,7 @@ pg.task_data_template = {
 		}
 	},
 	[17016] = {
-		name = "邀请者可获得PT：20",
+		name = "초대자가 획득할 수 있는PT：20",
 		guild_coin_award = 0,
 		award = 96071,
 		type = 26,
@@ -132966,7 +132966,7 @@ pg.task_data_template = {
 		}
 	},
 	[17017] = {
-		name = "邀请者可获得PT：20",
+		name = "초대자가 획득할 수 있는PT：20",
 		guild_coin_award = 0,
 		award = 96072,
 		type = 26,
@@ -133051,7 +133051,7 @@ pg.task_data_template = {
 		}
 	},
 	[17018] = {
-		name = "邀请者可获得PT：20",
+		name = "초대자가 획득할 수 있는PT：20",
 		guild_coin_award = 0,
 		award = 96073,
 		type = 26,
@@ -133085,7 +133085,7 @@ pg.task_data_template = {
 		}
 	},
 	[17019] = {
-		name = "邀请者可获得PT：20",
+		name = "초대자가 획득할 수 있는PT：20",
 		guild_coin_award = 0,
 		award = 96074,
 		type = 26,
@@ -133170,7 +133170,7 @@ pg.task_data_template = {
 		}
 	},
 	[17020] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96075,
 		type = 26,
@@ -133204,7 +133204,7 @@ pg.task_data_template = {
 		}
 	},
 	[17021] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96076,
 		type = 26,
@@ -133289,7 +133289,7 @@ pg.task_data_template = {
 		}
 	},
 	[17022] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96077,
 		type = 26,
@@ -133323,7 +133323,7 @@ pg.task_data_template = {
 		}
 	},
 	[17023] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96078,
 		type = 26,
@@ -133408,7 +133408,7 @@ pg.task_data_template = {
 		}
 	},
 	[17024] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96079,
 		type = 26,
@@ -133442,7 +133442,7 @@ pg.task_data_template = {
 		}
 	},
 	[17025] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96080,
 		type = 26,
@@ -133527,7 +133527,7 @@ pg.task_data_template = {
 		}
 	},
 	[17026] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96081,
 		type = 26,
@@ -133561,7 +133561,7 @@ pg.task_data_template = {
 		}
 	},
 	[17027] = {
-		name = "邀请者可获得PT：15",
+		name = "초대자가 획득할 수 있는PT：15",
 		guild_coin_award = 0,
 		award = 96082,
 		type = 26,
@@ -133646,7 +133646,7 @@ pg.task_data_template = {
 		}
 	},
 	[17028] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96083,
 		type = 26,
@@ -133680,7 +133680,7 @@ pg.task_data_template = {
 		}
 	},
 	[17029] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96084,
 		type = 26,
@@ -133765,7 +133765,7 @@ pg.task_data_template = {
 		}
 	},
 	[17030] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96085,
 		type = 26,
@@ -133799,7 +133799,7 @@ pg.task_data_template = {
 		}
 	},
 	[17031] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96086,
 		type = 26,
@@ -133884,7 +133884,7 @@ pg.task_data_template = {
 		}
 	},
 	[17032] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96087,
 		type = 26,
@@ -133918,7 +133918,7 @@ pg.task_data_template = {
 		}
 	},
 	[17033] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96088,
 		type = 26,
@@ -134003,7 +134003,7 @@ pg.task_data_template = {
 		}
 	},
 	[17034] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96089,
 		type = 26,
@@ -134037,7 +134037,7 @@ pg.task_data_template = {
 		}
 	},
 	[17035] = {
-		name = "邀请者可获得PT：10",
+		name = "초대자가 획득할 수 있는PT：10",
 		guild_coin_award = 0,
 		award = 96090,
 		type = 26,
