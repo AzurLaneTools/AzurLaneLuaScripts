@@ -142,6 +142,10 @@ function slot0.ClearEmtptyTpls(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
+
 	for slot4, slot5 in ipairs(slot0.skillCards) do
 		slot5:Dispose()
 	end

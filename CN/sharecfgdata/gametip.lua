@@ -2145,11 +2145,11 @@ _G.pg.gametip.mail_count = {
 }
 
 _G.pg.gametip.mail_takeAttachment_error_magazine_full = {
-	tip = "<color=#92fc63>领取失败</color>您的<color=#92fc63>装备仓库已满</color>"
+	tip = "<color=#92fc63>领取失败</color>您的<color=#92fc63>装备仓库剩余空间不足</color>"
 }
 
 _G.pg.gametip.mail_takeAttachment_error_dockYrad_full = {
-	tip = "<color=#92fc63>领取失败</color>您的<color=#92fc63>船坞已满</color>"
+	tip = "<color=#92fc63>领取失败</color>您的<color=#92fc63>船坞剩余空间不足</color>"
 }
 
 _G.pg.gametip.mail_confirm_set_important_flag = {

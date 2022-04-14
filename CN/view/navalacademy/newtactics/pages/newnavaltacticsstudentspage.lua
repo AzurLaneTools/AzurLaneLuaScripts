@@ -93,7 +93,9 @@ function slot0.ClearDisableCards(slot0, slot1, slot2)
 end
 
 function slot0.GetCard(slot0, slot1)
-	return slot0.cards[uv0][slot1]
+	return underscore.detect(slot0.cards[uv0], function (slot0)
+		return slot0.index == uv0
+	end)
 end
 
 function slot0.OnDestroy(slot0)

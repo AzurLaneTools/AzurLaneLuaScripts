@@ -316,7 +316,7 @@ function slot8(slot0, slot1)
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
 
-	slot11 = slot1.drop.type == DROP_TYPE_ITEM and (slot1.drop.cfg.type == 11 or slot1.drop.cfg.type == 17)
+	slot11 = slot1.drop.type == DROP_TYPE_ITEM and (getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id) or slot1.drop.cfg.type == 11)
 
 	setActive(slot0._sigleItemPanel:Find("detail"), slot11)
 
@@ -324,6 +324,13 @@ function slot8(slot0, slot1)
 		slot12 = {
 			item2Row = true,
 			hideNo = true,
+			items = underscore.map(slot1.drop.cfg.display_icon, function (slot0)
+				return {
+					type = slot0[1],
+					id = slot0[2],
+					count = slot0[3]
+				}
+			end),
 			onYes = function ()
 				uv0(uv1, uv2)
 			end
@@ -332,45 +339,55 @@ function slot8(slot0, slot1)
 
 		function slot12.itemFunc(slot0)
 			if slot0.type == DROP_TYPE_EQUIP then
-				return
-			end
+				slot6.data = {
+					equipmentId = slot0.id,
+					type = EquipmentInfoMediator.TYPE_DISPLAY,
+					LayerWeightMgr_weight = uv1.weight or LayerWeightConst.SECOND_LAYER
+				}
 
-			uv0(uv1, {
-				drop = slot0,
-				onYes = function ()
-					uv0(uv1, uv2)
-				end,
-				onNo = function ()
-					uv0(uv1, uv2)
-				end
-			})
+				uv0.m02:sendNotification(GAME.LOAD_LAYERS, {
+					parentContext = getProxy(ContextProxy):getCurrentContext(),
+					context = Context.New({
+						mediator = EquipmentInfoMediator,
+						viewComponent = EquipmentInfoLayer
+					})
+				})
+			else
+				uv2(uv3, {
+					drop = slot0,
+					onYes = function ()
+						uv0(uv1, uv2)
+					end,
+					onNo = function ()
+						uv0(uv1, uv2)
+					end
+				})
+			end
 		end
 
-		switch(slot1.drop.cfg.type, {
-			[11] = function ()
-				setText(uv0, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("package_detail_tip") .. "</color></material>")
+		if getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id) then
+			slot12.content = i18n("techpackage_item_use_confirm")
+			slot12.items = underscore.map(slot1.drop.cfg.display_icon, function (slot0)
+				return {
+					type = slot0[1],
+					id = slot0[2],
+					count = slot0[3]
+				}
+			end)
 
-				uv1.items = underscore.map(uv2.drop.cfg.display_icon, function (slot0)
-					return {
-						type = slot0[1],
-						id = slot0[2]
-					}
-				end)
-				uv1.content = i18n("equip_skin_detail_tip")
-			end,
-			[17] = function ()
-				setText(uv0, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("tech_select_tip4") .. "</color></material>")
+			setText(slot10, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("tech_select_tip4") .. "</color></material>")
+		elseif slot1.drop.cfg.type == 11 then
+			slot12.content = i18n("equip_skin_detail_tip")
+			slot12.items = underscore.map(slot1.drop.cfg.display_icon, function (slot0)
+				return {
+					type = slot0[1],
+					id = slot0[2]
+				}
+			end)
 
-				uv1.items = underscore.map(uv2.drop.cfg.display_icon, function (slot0)
-					return {
-						type = slot0[1],
-						id = slot0[2],
-						count = slot0[3]
-					}
-				end)
-				uv1.content = i18n("techpackage_item_use_confirm")
-			end
-		})
+			setText(slot10, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("package_detail_tip") .. "</color></material>")
+		end
+
 		slot10:GetComponent("RichText"):AddListener(function (slot0, slot1)
 			uv0(uv1, uv2)
 		end)
