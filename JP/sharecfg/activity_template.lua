@@ -4985,12 +4985,13 @@ pg.activity_template = {
 	},
 	[4289] = {
 		mark = 20220324,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4289,
 		config_data = {
@@ -5000,33 +5001,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					3,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4290] = {
@@ -5892,7 +5866,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 4309,
 		config_data = {
-			138001,
+			1425001,
 			5000,
 			50,
 			0.36,
@@ -6287,65 +6261,7 @@ pg.activity_template = {
 			}
 		}
 	},
-	[8006] = {
-		mark = 20220414,
-		title_res_tag = "",
-		page_info = "",
-		type = 30,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		id = 8006,
-		config_data = {
-			103
-		},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2022,
-						3,
-						1
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2022,
-						4,
-						14
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2022,
-						5,
-						4
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
-		}
-	},
-	[8008] = {
+	[8009] = {
 		mark = 20220414,
 		config_client = "",
 		title_res_tag = "newserver_main",
@@ -6353,7 +6269,7 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 24,
 		is_show = 15,
-		id = 8008,
+		id = 8009,
 		config_data = {},
 		time = {
 			{
@@ -6361,8 +6277,8 @@ pg.activity_template = {
 				{
 					{
 						2022,
-						3,
-						1
+						5,
+						5
 					},
 					{
 						0,
@@ -6402,6 +6318,64 @@ pg.activity_template = {
 		page_info = {
 			class_name = "NewServerLoginPage",
 			ui_name = "NewServerLoginPage"
+		}
+	},
+	[8010] = {
+		mark = 20220414,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 8010,
+		config_data = {
+			103
+		},
+		time = {
+			{
+				"olduser",
+				{
+					{
+						2022,
+						5,
+						5
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2022,
+						4,
+						14
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2022,
+						5,
+						4
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
 		}
 	},
 	[10006] = {
@@ -8608,8 +8582,8 @@ pg.activity_template = {
 		7002,
 		7003,
 		7004,
-		8006,
-		8008,
+		8009,
+		8010,
 		10006,
 		10056,
 		10129,

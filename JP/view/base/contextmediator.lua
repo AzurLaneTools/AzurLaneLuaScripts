@@ -312,11 +312,7 @@ function slot0.addSubLayers(slot0, slot1, slot2, slot3)
 	slot0:sendNotification(GAME.LOAD_LAYERS, {
 		parentContext = slot6,
 		context = slot1,
-		callback = function ()
-			if uv0 then
-				uv0()
-			end
-		end
+		callback = slot3
 	})
 end
 

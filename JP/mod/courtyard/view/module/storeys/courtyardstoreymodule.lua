@@ -365,6 +365,8 @@ function slot0.OnItemInterAction(slot0, slot1, slot2, slot3)
 		end
 
 		slot8 = slot9
+		slot11 = slot4._tf.localScale
+		slot4._tf.localScale = Vector3(CourtYardCalcUtil.GetSign(slot5._tf.localScale.x) * slot11.x, slot11.y, 1)
 	end
 
 	slot4:SetSiblingIndex(slot3.id - 1)

@@ -20180,7 +20180,7 @@ _G.pg.gametip.tech_select_tip5 = {
 }
 
 _G.pg.gametip.techpackage_item_use = {
-	tip = "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？\n（艦船「$1」を入手でき、レベル・強化レベルは1）"
+	tip = "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？（艦船「$1」を入手でき、レベル・強化レベルは1）"
 }
 
 _G.pg.gametip.techpackage_item_use_confirm = {
@@ -20204,7 +20204,7 @@ _G.pg.gametip.event_ui_consume = {
 }
 
 _G.pg.gametip.event_ui_recommend = {
-	tip = "おすすめ"
+	tip = "オススメ"
 }
 
 _G.pg.gametip.event_ui_start = {
@@ -20212,7 +20212,7 @@ _G.pg.gametip.event_ui_start = {
 }
 
 _G.pg.gametip.event_ui_giveup = {
-	tip = "キャンセル"
+	tip = "中止"
 }
 
 _G.pg.gametip.event_ui_finish = {
