@@ -82,13 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>インペロ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ハウ</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>フォーミダブル</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>パーシュース</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>ポンペオ・マーニョ</color>：0.5%",
+			"<color=#ffde38>ハーマイオニー</color>：0.5%",
 			" ",
-			"<color=#d797ff>トリエステ</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>イーグル</color>：2.5%<color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#d797ff>ヴァリアント</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{
@@ -227,6 +229,27 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>アルハンゲリスク</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "新人指揮官建造",
+		ship_icon = "1",
+		type = 2,
+		exchange_request = 40,
+		exchange_available_times = 1,
+		build_voice = "",
+		use_item = 20001,
+		build_anim = "building",
+		number_1 = 1,
+		id = 11,
+		icon = "build_11",
+		exchange_ship_id = 107061,
+		rate_tip = {
+			"<color=#ffde38>SSレア</color>：7%",
+			"<color=#d797ff>Sレア</color>：12%",
+			"<color=#3dc6ff>レア</color>：51%",
+			"ノーマル：30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -237,6 +260,7 @@ pg.ship_data_create_material = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

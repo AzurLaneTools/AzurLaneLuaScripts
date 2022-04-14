@@ -263,6 +263,7 @@ slot0.TAG_HIDE_NORMAL = {
 }
 slot0.TAG_HIDE_CHALLENGE = {
 	inBackyard = true,
+	inEvent = true,
 	inFleet = true,
 	inClass = true,
 	inActivity = true,

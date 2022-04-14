@@ -197,21 +197,44 @@ end
 function slot0.InitUI(slot0)
 	slot0.tfShipTpl = slot0:findTF("panel/shiptpl")
 	slot0.tfEmptyTpl = slot0:findTF("panel/emptytpl")
-	slot4 = slot0.findTF
 	slot0.tfFleets = {
 		[FleetType.Normal] = {
 			slot0:findTF("panel/fleet/1"),
 			slot0:findTF("panel/fleet/2")
 		},
 		[FleetType.Submarine] = {
-			slot4(slot0, "panel/sub/1")
+			slot0:findTF("panel/sub/1")
 		}
 	}
+	slot1 = slot0:findTF("panel/RightTabs")
+	slot2 = PLATFORM_CODE == PLATFORM_US and slot0:findTF("panel/RightTabs/hTplBtn") or slot0:findTF("panel/RightTabs/vTplBtn")
+
+	for slot7 = 1, #{
+		"formation_btn",
+		"commander_btn",
+		"duty_btn",
+		"adjustment_btn"
+	} do
+		slot8 = Instantiate(slot2)
+		slot8.name = slot3[slot7]
+
+		SetParent(tf(slot8), slot1)
+		setActive(slot8, false)
+	end
+
 	slot0.tfLimit = slot0:findTF("panel/limit_list/limit")
 	slot0.tfLimitTips = slot0:findTF("panel/limit_list/limit_tip")
 	slot0.tfLimitElite = slot0:findTF("panel/limit_list/limit_elite")
 	slot0.tfLimitContainer = slot0:findTF("panel/limit_list/limit_elite/limit_list")
 	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
+
+	if PLATFORM_CODE == PLATFORM_US then
+		GetComponent(slot0.rtCostLimit:Find("text"), typeof(Text)).fontSize = 27
+		GetComponent(slot0.rtCostLimit:Find("cost_noraml/Text"), typeof(Text)).fontSize = 27
+		GetComponent(slot0.rtCostLimit:Find("cost_boss/Text"), typeof(Text)).fontSize = 27
+		GetComponent(slot0.rtCostLimit:Find("cost_sub/Text"), typeof(Text)).fontSize = 27
+	end
+
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.btnGo = slot0:findTF("panel/start_button")
 	slot0.formationToggle = slot0:findTF("panel/RightTabs/formation_btn")
@@ -222,35 +245,35 @@ function slot0.InitUI(slot0)
 	slot0.toggleList = slot0:findTF("mask/list")
 	slot0.toggles = {}
 
-	for slot4 = 0, slot0.toggleList.childCount - 1 do
-		table.insert(slot0.toggles, slot0.toggleList:Find("item" .. slot4 + 1))
+	for slot7 = 0, slot0.toggleList.childCount - 1 do
+		table.insert(slot0.toggles, slot0.toggleList:Find("item" .. slot7 + 1))
 	end
 
 	slot0.btnSp = slot0:findTF("panel/sp")
 	slot0.spMask = slot0:findTF("mask_sp")
 	slot0.dutyItems = {}
 
-	for slot4 = 1, 2 do
-		slot9 = slot4
-		slot5 = slot0._tf:Find(string.format("panel/fleet/%d/DutySelect", slot9))
-		slot0.dutyItems[slot4] = {}
+	for slot7 = 1, 2 do
+		slot12 = slot7
+		slot8 = slot0._tf:Find(string.format("panel/fleet/%d/DutySelect", slot12))
+		slot0.dutyItems[slot7] = {}
 
-		for slot9 = 1, 4 do
-			slot10 = slot5:Find("Item" .. slot9)
-			slot0.dutyItems[slot4][slot9] = slot10
+		for slot12 = 1, 4 do
+			slot13 = slot8:Find("Item" .. slot12)
+			slot0.dutyItems[slot7][slot12] = slot13
 
-			setText(slot10:Find("Text"), i18n("autofight_function" .. slot9))
+			setText(slot13:Find("Text"), i18n("autofight_function" .. slot12))
 		end
 	end
 
-	slot1 = slot0._tf:Find("panel/sub/1/DutySelect")
+	slot4 = slot0._tf:Find("panel/sub/1/DutySelect")
 	slot0.dutyItems[3] = {}
 
-	for slot5 = 1, 2 do
-		slot6 = slot1:Find("Item" .. slot5)
-		slot0.dutyItems[3][slot5] = slot6
+	for slot8 = 1, 2 do
+		slot9 = slot4:Find("Item" .. slot8)
+		slot0.dutyItems[3][slot8] = slot9
 
-		setText(slot6:Find("Text"), i18n("autofight_function" .. 6 - slot5))
+		setText(slot9:Find("Text"), i18n("autofight_function" .. 6 - slot8))
 	end
 
 	setActive(slot0.tfShipTpl, false)
@@ -289,20 +312,20 @@ function slot0.InitUI(slot0)
 	setText(slot0.dropDownSide:Find("Layout/Item3/Text"), i18n("fleet_antisub_range"))
 	setText(slot0.dropDown:Find("Investigation/Text"), i18n("level_scene_title_word_1"))
 
-	slot5 = "level_scene_title_word_3"
+	slot8 = "level_scene_title_word_3"
 
-	setText(slot0.dropDown:Find("Airsupport/Text"), i18n(slot5))
+	setText(slot0.dropDown:Find("Airsupport/Text"), i18n(slot8))
 
-	for slot5 = 1, 2 do
-		for slot9 = 1, 4 do
-			onButton(slot0, slot0.dutyItems[slot5][slot9], function ()
+	for slot8 = 1, 2 do
+		for slot12 = 1, 4 do
+			onButton(slot0, slot0.dutyItems[slot8][slot12], function ()
 				uv0:SetDuty(uv1, uv2)
 			end)
 		end
 	end
 
-	for slot5 = 1, 2 do
-		onButton(slot0, slot0.dutyItems[3][slot5], function ()
+	for slot8 = 1, 2 do
+		onButton(slot0, slot0.dutyItems[3][slot8], function ()
 			uv0:SetAutoSub(uv1 == 1)
 		end)
 	end
@@ -429,6 +452,7 @@ function slot0.set(slot0, slot1, slot2, slot3)
 			uv0:updateFleets()
 		end
 	end, SFX_PANEL)
+	setActive(slot0.formationToggle, true)
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	setActive(slot0.dutyToggle, slot0.dutyTabEnabled)
 	setActive(slot0.adjustmentToggle, false)
@@ -1056,6 +1080,7 @@ function slot0.setOnHard(slot0, slot1)
 			uv0:flush()
 		end
 	end, SFX_PANEL)
+	setActive(slot0.formationToggle, true)
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	setActive(slot0.dutyToggle, slot0.dutyTabEnabled)
 	setActive(slot0.adjustmentToggle, true)

@@ -51,7 +51,7 @@ return {
 				text = slot0[3]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/toggles/2(Clone)/frame",
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/toggles/light/frame",
 				pathIndex = -1,
 				triggerType = {
 					2

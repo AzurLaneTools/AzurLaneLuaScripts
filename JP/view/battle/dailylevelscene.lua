@@ -473,22 +473,27 @@ function slot0.UpdateBattleBtn(slot0, slot1)
 		uv0:OnOpenPreCombat(uv1)
 	end, SFX_PANEL)
 	setText(slot7:Find("Text"), i18n("daily_level_quick_battle_label2"))
-
-	slot8 = slot3:Find("mult")
-
-	onButton(slot0, slot8, function ()
+	onButton(slot0, slot3:Find("mult"), function ()
 		uv0:OnQuickBattle(uv1, uv2)
 	end, SFX_PANEL)
-	setText(slot8:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
-	setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
-
-	slot9 = slot3:Find("once")
-
-	onButton(slot0, slot9, function ()
+	onButton(slot0, slot3:Find("once"), function ()
 		uv0:OnQuickBattle(uv1, 1)
 	end, SFX_PANEL)
-	setText(slot9:Find("label"), i18n("daily_level_quick_battle_label3"))
-	setText(slot9:Find("Text"), "")
+
+	if PLATFORM_CODE == PLATFORM_US then
+		setText(slot8:Find("label_us"), i18n("daily_level_quick_battle_label1", " " .. "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>", COLOR_WHITE))
+		setText(slot9:Find("label_us"), i18n("daily_level_quick_battle_label3"))
+		setActive(slot8:Find("label_us"), true)
+		setActive(slot9:Find("label_us"), true)
+	else
+		setText(slot8:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
+		setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
+		setText(slot9:Find("label"), i18n("daily_level_quick_battle_label3"))
+		setText(slot9:Find("Text"), "")
+		setActive(slot8:Find("label"), true)
+		setActive(slot8:Find("Text"), true)
+		setActive(slot9:Find("label"), true)
+	end
 
 	if slot6 == 0 then
 		slot0:EnableOrDisable(slot1, false)

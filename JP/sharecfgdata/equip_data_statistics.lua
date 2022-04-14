@@ -12175,6 +12175,281 @@ _G.pg.equip_data_statistics[2547] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[2600] = {
+	type = 10,
+	name = "九三式酸素魚雷",
+	speciality = "なし",
+	tech = 1,
+	value_2 = 3,
+	ammo = 10,
+	nationality = 3,
+	descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
+	rarity = 4,
+	attribute_1 = "torpedo",
+	value_3 = 0,
+	torpedo_ammo = 1,
+	id = 2600,
+	icon = "2600",
+	value_1 = "18",
+	attribute_2 = "reload",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		8,
+		11,
+		17,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		8,
+		11,
+		17,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+_G.pg.equip_data_statistics[2601] = {
+	id = 2601,
+	value_1 = "20",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2602] = {
+	id = 2602,
+	value_2 = 4,
+	value_1 = "23",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2603] = {
+	id = 2603,
+	value_2 = 5,
+	value_1 = "26",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2604] = {
+	id = 2604,
+	value_2 = 6,
+	value_1 = "28",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2605] = {
+	id = 2605,
+	value_2 = 6,
+	value_1 = "31",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2606] = {
+	id = 2606,
+	value_2 = 7,
+	value_1 = "34",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2607] = {
+	id = 2607,
+	value_2 = 8,
+	value_1 = "36",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2608] = {
+	id = 2608,
+	value_2 = 9,
+	value_1 = "39",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2609] = {
+	id = 2609,
+	value_2 = 9,
+	value_1 = "42",
+	base = 2600,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2610] = {
+	value_2 = 10,
+	base = 2600,
+	id = 2610,
+	value_1 = "45",
+	torpedo_ammo = 2,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2620] = {
+	type = 10,
+	name = "九三式酸素魚雷",
+	speciality = "なし",
+	tech = 2,
+	value_2 = 3,
+	ammo = 10,
+	nationality = 3,
+	descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
+	rarity = 5,
+	attribute_1 = "torpedo",
+	value_3 = 0,
+	torpedo_ammo = 1,
+	id = 2620,
+	icon = "2600",
+	value_1 = "28",
+	attribute_2 = "reload",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		8,
+		11,
+		17,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		8,
+		11,
+		17,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+_G.pg.equip_data_statistics[2621] = {
+	id = 2621,
+	value_1 = "32",
+	base = 2620,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2622] = {
+	id = 2622,
+	value_2 = 4,
+	value_1 = "36",
+	base = 2620,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2623] = {
+	id = 2623,
+	value_2 = 5,
+	value_1 = "40",
+	base = 2620,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2624] = {
+	id = 2624,
+	value_2 = 6,
+	value_1 = "44",
+	base = 2620,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2625] = {
+	value_2 = 6,
+	base = 2620,
+	id = 2625,
+	value_1 = "49",
+	torpedo_ammo = 2,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2626] = {
+	value_2 = 7,
+	base = 2620,
+	id = 2626,
+	value_1 = "53",
+	torpedo_ammo = 2,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2627] = {
+	value_2 = 8,
+	base = 2620,
+	id = 2627,
+	value_1 = "57",
+	torpedo_ammo = 2,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2628] = {
+	value_2 = 9,
+	base = 2620,
+	id = 2628,
+	value_1 = "61",
+	torpedo_ammo = 2,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2629] = {
+	value_2 = 9,
+	base = 2620,
+	id = 2629,
+	value_1 = "65",
+	torpedo_ammo = 2,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[2630] = {
+	value_2 = 10,
+	base = 2620,
+	id = 2630,
+	value_1 = "70",
+	torpedo_ammo = 3,
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[2640] = {
 	type = 10,
 	name = "九三式酸素魚雷",

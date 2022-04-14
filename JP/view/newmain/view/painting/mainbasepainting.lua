@@ -54,7 +54,7 @@ function slot0.InitClickEvent(slot0)
 	onButton(slot0, slot0.container, function ()
 		uv0:OnClick()
 		uv0:TriggerPersonalTask(uv0.ship.groupId)
-	end, SFX_MAIN)
+	end)
 
 	slot1 = slot0.longPressEvent
 
@@ -136,7 +136,7 @@ function slot0.TriggerNextEventAuto(slot0)
 		uv0:_TriggerEvent(uv0.lastChatEvent)
 		uv0:OnTriggerEventAuto()
 		uv0:RemoveTimer()
-	end, 30, 1)
+	end, 30, 1, true)
 
 	slot0.timer:Start()
 end
@@ -182,7 +182,7 @@ function slot0.RegistChatSkipAction(slot0, slot1)
 		elseif uv0 == "event_complete" then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
 		end
-	end, SFX_MAIN)
+	end)
 end
 
 function slot0.PlayCvAndAnimation(slot0, slot1, slot2, slot3)
@@ -238,6 +238,7 @@ end
 
 function slot0.StartChatAnimtion(slot0, slot1, slot2)
 	slot3 = getProxy(SettingsProxy):ShouldShipMainSceneWord() and 1 or 0
+	slot0.chatText:GetComponent(typeof(Text)).enabled = true
 	slot5 = slot1 > 0 and slot1 or 3
 
 	LeanTween.scale(rtf(slot0.chatTf.gameObject), Vector3.New(slot3, slot3, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
@@ -253,6 +254,8 @@ function slot0.StopChatAnimtion(slot0)
 	slot0.chatTf.localScale = Vector3.zero
 
 	slot0:OnEndChatting()
+
+	slot0.chatText:GetComponent(typeof(Text)).enabled = false
 end
 
 function slot0.OnStopVoice(slot0)

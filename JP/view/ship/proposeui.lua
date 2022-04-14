@@ -204,6 +204,10 @@ function slot0.didEnter(slot0)
 				end
 			end
 
+			if PLATFORM_CODE == PLATFORM_US then
+				uv0:findTF("cover", uv0.window).sizeDelta = Vector2(1804, 970)
+			end
+
 			setIntimacyIcon(uv0.intimacyTF, uv0.shipVO:getIntimacyIcon())
 
 			slot1, slot2 = uv0.shipVO:getIntimacyDetail()
@@ -1199,7 +1203,9 @@ end
 
 function slot0.showExchangePanel(slot0)
 	setActive(slot0.exchangePanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.exchangePanel, slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.exchangePanel, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 function slot0.hideExchangePanel(slot0)

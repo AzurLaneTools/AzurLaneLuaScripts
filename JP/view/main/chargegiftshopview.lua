@@ -52,7 +52,11 @@ function slot0.initScrollRect(slot0, slot1, slot2, slot3)
 		slot1 = ChargeCard.New(slot0)
 
 		onButton(uv0, slot1.tr, function ()
-			uv0:confirm(uv1.goods)
+			if uv0.goods:isChargeType() and uv0.goods:isTecShipShowGift() then
+				uv1:emit(ChargeMediator.OPEN_TEC_SHIP_GIFT_SELL_LAYER, uv0.goods, uv1.chargedList)
+			else
+				uv1:confirm(uv0.goods)
+			end
 		end, SFX_PANEL)
 
 		uv0.chargeCardTable[slot0] = slot1
@@ -153,6 +157,7 @@ function slot0.confirm(slot0, slot1)
 				bonusItem = slot8,
 				extraDrop = slot6,
 				descExtra = slot1:getConfig("descrip_extra"),
+				limitArgs = slot1:getConfig("limit_args"),
 				onYes = function ()
 					if ChargeConst.isNeedSetBirth() then
 						uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
@@ -221,9 +226,15 @@ function slot0.updateGiftGoodsVOList(slot0)
 
 	for slot5, slot6 in pairs(pg.pay_data_display.all) do
 		if slot1[slot6].extra_service == Goods.ITEM_BOX or slot8 == Goods.PASS_ITEM then
-			table.insert(slot0.giftGoodsVOList, Goods.Create({
+			if Goods.Create({
 				shop_id = slot6
-			}, Goods.TYPE_CHARGE))
+			}, Goods.TYPE_CHARGE):isTecShipGift() then
+				if slot9:isTecShipShowGift() and slot0:fliteTecShipGift(slot9) then
+					table.insert(slot0.giftGoodsVOList, slot9)
+				end
+			else
+				table.insert(slot0.giftGoodsVOList, slot9)
+			end
 		end
 	end
 
@@ -361,6 +372,39 @@ end
 function slot0.reUpdateAll(slot0)
 	slot0:updateData()
 	slot0:updateScrollRect()
+end
+
+function slot0.fliteTecShipGift(slot0, slot1)
+	if slot1:isChargeType() and slot1:isTecShipShowGift() then
+		if slot1:isLevelLimit(slot0.player.level, true) then
+			return false
+		end
+
+		slot3, slot4, slot5 = nil
+
+		for slot9, slot10 in ipairs(slot1:getSameGroupTecShipGift()) do
+			if slot10:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Normal then
+				slot3 = slot10
+			elseif slot10:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.High then
+				slot4 = slot10
+			elseif slot10:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Up then
+				slot5 = slot10
+			end
+		end
+
+		slot6 = ChargeConst.getBuyCount(slot0.chargedList, slot3.id)
+		slot8 = ChargeConst.getBuyCount(slot0.chargedList, slot5.id)
+
+		if ChargeConst.getBuyCount(slot0.chargedList, slot4.id) > 0 then
+			return false
+		elseif slot6 > 0 and slot8 > 0 then
+			return false
+		else
+			return true
+		end
+	else
+		return true
+	end
 end
 
 return slot0

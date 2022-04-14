@@ -9,7 +9,7 @@ function slot0.Ctor(slot0)
 end
 
 function slot0.Load(slot0, slot1)
-	slot0:Unload()
+	slot0:ClearSound()
 
 	if ShipWordHelper.ExistVoiceKey(slot1) then
 		slot0:SetUp(ShipWordHelper.RawGetCVKey(slot1))
@@ -39,7 +39,7 @@ function slot0.SetUp(slot0, slot1)
 end
 
 function slot0.PlaySound(slot0, slot1)
-	if not slot0.playbackInfo or slot1 ~= slot0.prevCvPath or slot0.playbackInfo.cueData == nil then
+	if not slot0.playbackInfo or slot1 ~= slot0.prevCvPath or slot0.playbackInfo.channelPlayer == nil then
 		slot0:StopSound()
 
 		slot2 = pg.CriMgr.GetInstance()
@@ -131,7 +131,7 @@ function slot0.Unload(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+function slot0.ClearSound(slot0)
 	slot0:StopSound()
 	slot0:Unload()
 
@@ -140,6 +140,10 @@ function slot0.Dispose(slot0)
 
 		slot0.playbackInfo = nil
 	end
+end
+
+function slot0.Dispose(slot0)
+	slot0:ClearSound()
 
 	slot0.exited = true
 

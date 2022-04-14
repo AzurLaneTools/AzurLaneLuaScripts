@@ -136,11 +136,10 @@ function slot0.didEnter(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0._tf, false, {
+	slot1:OverlayPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER,
 		groupName = LayerWeightConst.GROUP_LEVELUI
 	})
-	setParent(slot0.strategyInfo, slot0._tf.parent)
 	onNextTick(function ()
 		if uv0.exited then
 			return
@@ -534,6 +533,9 @@ function slot0.displayStrategyInfo(slot0, slot1)
 
 	slot0.strategyPanel:attach(slot0)
 	slot0.strategyPanel:set(slot1)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.strategyPanel._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	function slot0.strategyPanel.onConfirm()
 		slot2 = pg.strategy_data_template[uv1.id]
@@ -557,6 +559,7 @@ end
 
 function slot0.hideStrategyInfo(slot0)
 	if slot0.strategyPanel then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.strategyPanel._tf)
 		slot0.strategyPanel:detach()
 	end
 end
@@ -572,12 +575,15 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
-	setParent(slot0.strategyInfo, slot0._tf)
+	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
+		slot0:hideStrategyInfo()
+	end
+
 	slot0._formationLogic:Destroy()
 
 	slot0._formationLogic = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

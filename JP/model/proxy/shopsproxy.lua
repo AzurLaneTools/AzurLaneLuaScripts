@@ -335,6 +335,14 @@ function slot0.UpdateMetaShopGoods(slot0, slot1, slot2)
 	})
 end
 
+function slot0.SetNewServerShop(slot0, slot1)
+	slot0.newServerShop = slot1
+end
+
+function slot0.GetNewServerShop(slot0)
+	return slot0.newServerShop
+end
+
 function slot0.remove(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()

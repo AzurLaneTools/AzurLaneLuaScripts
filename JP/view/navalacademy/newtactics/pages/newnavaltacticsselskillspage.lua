@@ -18,6 +18,7 @@ function slot0.OnLoaded(slot0)
 	}
 
 	setText(slot0.confrimBtn:Find("Image"), i18n("tactics_class_start"))
+	setText(slot0:findTF("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
 end
 
 function slot0.OnInit(slot0)
@@ -43,11 +44,12 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+function slot0.Show(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	if slot1 ~= slot0.student then
+		slot0.skillIndex = slot2
 		slot0.student = slot1
 		slot0.selSkill = nil
 		slot0.selIndex = nil
@@ -85,6 +87,19 @@ function slot0.UpdateSkillList(slot0, slot1)
 		slot0.toggleGroup:SetAllTogglesOff()
 		triggerToggle(slot0.skillCards[1]._tf, true)
 	end
+
+	if slot0.skillIndex then
+		slot0:TriggerDefault(slot3)
+	end
+end
+
+function slot0.TriggerDefault(slot0, slot1)
+	if slot0.skillIndex and slot2 > 0 then
+		triggerToggle(slot0.skillCards[slot2]._tf, true)
+		triggerButton(slot0.confrimBtn)
+	end
+
+	slot0.skillIndex = nil
 end
 
 function slot0.UpdateSkill(slot0, slot1, slot2)

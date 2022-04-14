@@ -36,6 +36,8 @@ MSGBOX_TYPE_META_SKILL_UNLOCK = 16
 MSGBOX_TYPE_SUBPATTERN = 17
 MSGBOX_TYPE_ACCOUNTDELETE = 18
 MSGBOX_TYPE_STRENGTHEN_BACK = 19
+MSGBOX_TYPE_CONTENT_ITEMS = 20
+MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM = 21
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -314,40 +316,63 @@ function slot8(slot0, slot1)
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
 
-	slot11 = slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11
+	slot11 = slot1.drop.type == DROP_TYPE_ITEM and (slot1.drop.cfg.type == 11 or slot1.drop.cfg.type == 17)
 
 	setActive(slot0._sigleItemPanel:Find("detail"), slot11)
 
 	if slot11 then
-		slot10:GetComponent("RichText"):AddListener(function (slot0, slot1)
-			slot2 = {
-				items = _.map(uv0.drop.cfg.display_icon, function (slot0)
+		slot12 = {
+			item2Row = true,
+			hideNo = true,
+			onYes = function ()
+				uv0(uv1, uv2)
+			end
+		}
+		slot12.onNo = slot12.onYes
+
+		function slot12.itemFunc(slot0)
+			if slot0.type == DROP_TYPE_EQUIP then
+				return
+			end
+
+			uv0(uv1, {
+				drop = slot0,
+				onYes = function ()
+					uv0(uv1, uv2)
+				end,
+				onNo = function ()
+					uv0(uv1, uv2)
+				end
+			})
+		end
+
+		switch(slot1.drop.cfg.type, {
+			[11] = function ()
+				setText(uv0, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("package_detail_tip") .. "</color></material>")
+
+				uv1.items = underscore.map(uv2.drop.cfg.display_icon, function (slot0)
 					return {
 						type = slot0[1],
 						id = slot0[2]
 					}
-				end),
-				content = i18n("equip_skin_detail_tip"),
-				item2Row = true,
-				hideNo = true,
-				itemFunc = function (slot0)
-					uv0(uv1, {
-						drop = slot0,
-						onYes = function ()
-							uv0(uv1, uv2)
-						end,
-						onNo = function ()
-							uv0(uv1, uv2)
-						end
-					})
-				end,
-				onYes = function ()
-					uv0(uv1, uv2)
-				end
-			}
-			slot2.onNo = slot2.onYes
+				end)
+				uv1.content = i18n("equip_skin_detail_tip")
+			end,
+			[17] = function ()
+				setText(uv0, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("tech_select_tip4") .. "</color></material>")
 
-			uv3(uv2, slot2)
+				uv1.items = underscore.map(uv2.drop.cfg.display_icon, function (slot0)
+					return {
+						type = slot0[1],
+						id = slot0[2],
+						count = slot0[3]
+					}
+				end)
+				uv1.content = i18n("techpackage_item_use_confirm")
+			end
+		})
+		slot10:GetComponent("RichText"):AddListener(function (slot0, slot1)
+			uv0(uv1, uv2)
 		end)
 	end
 
@@ -838,7 +863,6 @@ function slot1.commonSetting(slot0, slot1)
 	setActive(slot0._otherPanel, false)
 	setActive(slot0._worldResetPanel, false)
 	setActive(slot0._worldShopBtn, false)
-	setActive(slot0._otherPanel, false)
 	setActive(slot0._helpBgTF, false)
 	setActive(slot0._helpPanel, slot1.helps)
 
@@ -1182,59 +1206,84 @@ function slot1.ShowMsgBox(slot0, slot1)
 		table.insert(slot0.settingStack, slot1)
 	end
 
-	if (slot1.type or MSGBOX_TYPE_NORMAL) == MSGBOX_TYPE_NORMAL then
-		uv0(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_INPUT then
-		uv1(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_SINGLE_ITEM then
-		uv2(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_EXCHANGE then
-		uv3(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_DROP_ITEM then
-		uv4(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_ITEM_BOX then
-		uv5(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_HELP then
-		slot1.hideNo = defaultValue(slot1.hideNo, true)
-		slot1.hideYes = defaultValue(slot1.hideYes, true)
+	switch(slot1.type or MSGBOX_TYPE_NORMAL, {
+		[MSGBOX_TYPE_NORMAL] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_INPUT] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_SINGLE_ITEM] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_EXCHANGE] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_DROP_ITEM] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_ITEM_BOX] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_HELP] = function ()
+			uv0.hideNo = defaultValue(uv0.hideNo, true)
+			uv0.hideYes = defaultValue(uv0.hideYes, true)
 
-		uv6(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_SECONDPWD then
-		PoolMgr.GetInstance():GetUI("Msgbox4SECPWD", true, function (slot0)
-			uv0.pools.SedondaryUI = slot0
+			uv1(uv2, uv0)
+		end,
+		[MSGBOX_TYPE_SECONDPWD] = function ()
+			PoolMgr.GetInstance():GetUI("Msgbox4SECPWD", true, function (slot0)
+				uv0.pools.SedondaryUI = slot0
 
-			if uv1.onPreShow then
-				uv1.onPreShow()
-			end
+				if uv1.onPreShow then
+					uv1.onPreShow()
+				end
 
-			uv1.secondaryUI = slot0
+				uv1.secondaryUI = slot0
 
-			SetParent(slot0, uv0._otherPanel, false)
-			uv2(uv0, uv1)
-		end)
-	elseif slot2 == MSGBOX_TYPE_WORLD_RESET then
-		uv8(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_OBTAIN then
-		slot1.title = slot1.title or uv9.TITLE_OBTAIN
+				SetParent(slot0, uv0._otherPanel, false)
+				uv2(uv0, uv1)
+			end)
+		end,
+		[MSGBOX_TYPE_WORLD_RESET] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_OBTAIN] = function ()
+			uv0.title = uv0.title or uv1.TITLE_OBTAIN
 
-		uv10(slot0, slot1)
-	elseif slot2 == MSGBOX_TYPE_ITEMTIP then
-		slot0:GetPanel(ItemTipPanel).buffer:UpdateView(slot1)
-	elseif slot2 == MSGBOX_TYPE_JUST_FOR_SHOW then
-		slot0:GetPanel(ItemShowPanel).buffer:UpdateView(slot1)
-	elseif slot2 == MSGBOX_TYPE_MONTH_CARD_TIP then
-		slot0:GetPanel(MonthCardOutDateTipPanel).buffer:UpdateView(slot1)
-	elseif slot2 == MSGBOX_TYPE_STORY_CANCEL_TIP then
-		slot0:GetPanel(StoryCancelTipPanel).buffer:UpdateView(slot1)
-	elseif slot2 == MSGBOX_TYPE_META_SKILL_UNLOCK then
-		slot0:GetPanel(MetaSkillUnlockPanel).buffer:UpdateView(slot1)
-	elseif slot2 == MSGBOX_TYPE_SUBPATTERN then
-		slot0:GetPanel(slot1.patternClass).buffer:UpdateView(slot1)
-	elseif slot2 == MSGBOX_TYPE_ACCOUNTDELETE then
-		slot0:GetPanel(AccountDeletePanel).buffer:UpdateView(slot1)
-	elseif slot2 == MSGBOX_TYPE_STRENGTHEN_BACK then
-		slot0:GetPanel(StrengthenBackPanel).buffer:UpdateView(slot1)
-	end
+			uv2(uv3, uv0)
+		end,
+		[MSGBOX_TYPE_ITEMTIP] = function ()
+			uv0:GetPanel(ItemTipPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_JUST_FOR_SHOW] = function ()
+			uv0:GetPanel(ItemShowPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_MONTH_CARD_TIP] = function ()
+			uv0:GetPanel(MonthCardOutDateTipPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_STORY_CANCEL_TIP] = function ()
+			uv0:GetPanel(StoryCancelTipPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_META_SKILL_UNLOCK] = function ()
+			uv0:GetPanel(MetaSkillUnlockPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_SUBPATTERN] = function ()
+			uv0:GetPanel(uv1.patternClass).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_ACCOUNTDELETE] = function ()
+			uv0:GetPanel(AccountDeletePanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_STRENGTHEN_BACK] = function ()
+			uv0:GetPanel(StrengthenBackPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_CONTENT_ITEMS] = function ()
+			uv0:GetPanel(Msgbox4ContentItems).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM] = function ()
+			uv0:GetPanel(Msgbox4BlueprintUnlockItem).buffer:UpdateView(uv1)
+		end
+	})
 end
 
 function slot1.GetPanel(slot0, slot1)

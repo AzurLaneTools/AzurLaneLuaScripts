@@ -1158,6 +1158,10 @@ _G.pg.gametip.word_sell_out = {
 	tip = "売切れ"
 }
 
+_G.pg.gametip.word_sell_lock = {
+	tip = "未開放 "
+}
+
 _G.pg.gametip.word_diamond_tip = {
 	tip = [[
 
@@ -6995,6 +6999,10 @@ _G.pg.gametip.gold_max_tip_title = {
 	tip = "資金が上限になっています"
 }
 
+_G.pg.gametip.expbook_max_tip_title = {
+	tip = "経験値パックが上限になっています"
+}
+
 _G.pg.gametip.resource_max_tip_shop = {
 	tip = "資源を購入できません"
 }
@@ -9727,7 +9735,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "「インペロ」、「フォーミダブル」などが出現率UP！"
+	tip = "「ハウ」、「パーシュース」などが出現率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -18312,6 +18320,10 @@ _G.pg.gametip.cowboy_tips = {
 	}
 }
 
+_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+	tip = "この家具は回転できません"
+}
+
 _G.pg.gametip.chazi_tips = {
 	tip = {
 		{
@@ -19947,6 +19959,44 @@ _G.pg.gametip.fur_onekey_buy = {
 	tip = "1個ずつ購入"
 }
 
+_G.pg.gametip.littleRenown_npc = {
+	tip = {
+		{
+			info = "■概要\n「リトル　ロイヤルナイト」とは、イベント開始時に仮加入した【リトル・レナウン】の「友好度」を海域に出撃することで貯め、【リトル・レナウン】を正式加入させるイベントになります。"
+		},
+		{
+			info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
+		},
+		{
+			info = "2.【リトル・レナウン】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
+		},
+		{
+			info = "3.【リトル・レナウン】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【リトル・レナウン】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。"
+		},
+		{
+			info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【リトル・レナウン】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【リトル・レナウン】は母港からいなくなります。"
+		},
+		{
+			info = "5.友好度報酬は4/28（木）まで毎日1段階ずつ解放されます。"
+		},
+		{
+			info = "6.仮加入状態の【リトル・レナウン】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+		},
+		{
+			info = "7.仮加入状態の【リトル・レナウン】は大艦隊作戦には参加できません。"
+		}
+	}
+}
+
+_G.pg.gametip.tech_package_tip = {
+	tip = [[
+※交換アイテムは１回しか購入できません
+※交換アイテムのみを購入した場合、
+   交換アイテム＋強化ユニットセットを追加で
+   購入することはできません（強化ユニットセットは追加で購入できます）
+※購入したアイテムはメールボックスに送られます]]
+}
+
 _G.pg.gametip.backyard_food_shop_tip = {
 	tip = "購入費用："
 }
@@ -20069,4 +20119,118 @@ _G.pg.gametip.level_remaster_tip3 = {
 
 _G.pg.gametip.level_remaster_tip4 = {
 	tip = "$1敵中枢艦隊撃破回数"
+}
+
+_G.pg.gametip.skill_learn_tip = {
+	tip = "本日はあと$1回スキル強化を加速できますよ"
+}
+
+_G.pg.gametip.build_count_tip = {
+	tip = "累計"
+}
+
+_G.pg.gametip.help_research_package = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/tecshipgifthelp",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.gametip.lv70_package_tip = {
+	tip = "指揮官レベルが70以上であるため、購入すると指揮官レベルが変化せず、アイテムのみ入手します。購入を続けますか？"
+}
+
+_G.pg.gametip.tech_select_tip1 = {
+	tip = "PR艦船交換"
+}
+
+_G.pg.gametip.tech_select_tip2 = {
+	tip = "研究ドックの右上ボタンで使用すると艦船を開放可能"
+}
+
+_G.pg.gametip.tech_select_tip3 = {
+	tip = "入手済"
+}
+
+_G.pg.gametip.tech_select_tip4 = {
+	tip = "アイテム交換"
+}
+
+_G.pg.gametip.tech_select_tip5 = {
+	tip = "上記全艦船入手済の場合で使用するともらえる"
+}
+
+_G.pg.gametip.techpackage_item_use = {
+	tip = "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？\n（艦船「$1」を入手でき、レベル・強化レベルは1）"
+}
+
+_G.pg.gametip.techpackage_item_use_confirm = {
+	tip = "開放できる艦船が全部所持しているため、使用すると下記のアイテムを入手できます："
+}
+
+_G.pg.gametip.newserver_shop_timelimit = {
+	tip = "$1に開放されます"
+}
+
+_G.pg.gametip.tech_character_get = {
+	tip = "入手済"
+}
+
+_G.pg.gametip.package_detail_tip = {
+	tip = "詳細確認"
+}
+
+_G.pg.gametip.event_ui_consume = {
+	tip = "消費"
+}
+
+_G.pg.gametip.event_ui_recommend = {
+	tip = "おすすめ"
+}
+
+_G.pg.gametip.event_ui_start = {
+	tip = "開始"
+}
+
+_G.pg.gametip.event_ui_giveup = {
+	tip = "キャンセル"
+}
+
+_G.pg.gametip.event_ui_finish = {
+	tip = "完了"
+}
+
+_G.pg.gametip.nav_tactics_sel_skill_title = {
+	tip = "スキル確認"
+}
+
+_G.pg.gametip.battle_result_confirm = {
+	tip = "確 定"
+}
+
+_G.pg.gametip.battle_result_targets = {
+	tip = "戦 闘 評 価"
+}
+
+_G.pg.gametip.battle_result_continue = {
+	tip = "画面をタッチ"
 }

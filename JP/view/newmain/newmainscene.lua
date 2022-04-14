@@ -12,7 +12,10 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.ResUISettings(slot0)
-	return true
+	return {
+		showType = PlayerResUI.TYPE_ALL,
+		anim = not slot0.isInit
+	}
 end
 
 function slot0.needCache(slot0)
@@ -129,9 +132,6 @@ end
 function slot0.BlurView(slot0)
 	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0.mainCG.gameObject.transform, {
 		pbList = {
-			slot0.adpterView.topBg,
-			slot0.adpterView.bottomBg,
-			slot0.adpterView.rightBg,
 			slot0:findTF("main/frame/chatPreview"),
 			slot0:findTF("main/frame/eventPanel")
 		},
@@ -153,6 +153,14 @@ function slot0._FoldPanels(slot0, slot1, slot2)
 end
 
 function slot0.FoldPanels(slot0, slot1)
+	if slot1 then
+		slot0.mainCG.blocksRaycasts = false
+	else
+		Timer.New(function ()
+			uv0.mainCG.blocksRaycasts = true
+		end, 0.5, 1):Start()
+	end
+
 	slot0:_FoldPanels(slot1, 0.5)
 	pg.playerResUI:Fold(slot1, 0.5)
 	slot0.paintingView:Fold(slot1, 0.5)
@@ -240,7 +248,6 @@ function slot0.setVisible(slot0, slot1)
 
 		slot3:Refresh()
 		slot0:PlayBgm(slot2)
-		slot0:PlayEnterAnimation()
 
 		slot3 = slot0.sequenceView
 
@@ -259,6 +266,7 @@ function slot0.setVisible(slot0, slot1)
 		slot0.actBtnView:Disable()
 		slot0.bannerView:Disable()
 		pg.redDotHelper:Disable()
+		slot0.buffDescPage:Disable()
 	end
 
 	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, slot1)

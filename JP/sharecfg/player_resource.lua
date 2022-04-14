@@ -735,6 +735,31 @@ pg.player_resource = {
 		name = "skinTicket30",
 		itemid = 59282
 	},
+	[245] = {
+		id = 245,
+		name = "yingxiv2re_pt",
+		itemid = 59283
+	},
+	[246] = {
+		id = 246,
+		name = "skinTicket31",
+		itemid = 59285
+	},
+	[247] = {
+		id = 247,
+		name = "xiaoshengwang_pt2",
+		itemid = 59286
+	},
+	[248] = {
+		id = 248,
+		name = "yingxiv2re_frame_pt1",
+		itemid = 59287
+	},
+	[249] = {
+		id = 249,
+		name = "newserver_pt_220414",
+		itemid = 59289
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1357,6 +1382,21 @@ pg.player_resource = {
 		skinTicket30 = {
 			244
 		},
+		yingxiv2re_pt = {
+			245
+		},
+		skinTicket31 = {
+			246
+		},
+		xiaoshengwang_pt2 = {
+			247
+		},
+		yingxiv2re_frame_pt1 = {
+			248
+		},
+		newserver_pt_220414 = {
+			249
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1614,6 +1654,11 @@ pg.player_resource = {
 		242,
 		243,
 		244,
+		245,
+		246,
+		247,
+		248,
+		249,
 		950,
 		951,
 		952,

@@ -3089,9 +3089,10 @@ function getLoginConfig()
 
 	for slot5, slot6 in ipairs(pg.login.all) do
 		if pg.login[slot6].date ~= "stop" then
-			slot8 = pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[3])
+			slot7, slot8 = parseTimeConfig(pg.login[slot6].date)
+			slot10 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7[3])
 
-			if pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[2]) < slot0 and slot0 < slot8 then
+			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7[2]) < slot0 and slot0 < slot10 then
 				slot1 = slot6
 			end
 		end
@@ -3148,7 +3149,15 @@ end
 function switch(slot0, slot1, slot2)
 	if slot1[slot0] then
 		slot1[slot0](slot0)
-	else
+	elseif slot2 then
 		slot2(slot0)
+	end
+end
+
+function parseTimeConfig(slot0)
+	if type(slot0[1]) == "table" then
+		return slot0[2], slot0[1]
+	else
+		return slot0
 	end
 end

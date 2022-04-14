@@ -60,7 +60,7 @@ function slot0.canBuildShipByBuildId(slot0, slot1, slot2)
 	end
 
 	if slot2 then
-		slot6 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE)
+		slot6 = getProxy(ActivityProxy):getBuildFreeActivityByBuildId(slot0)
 		slot8 = Item.GetName(DROP_TYPE_VITEM, slot6:getConfig("config_client")[1])
 
 		if not slot6 or slot6:isEnd() then
@@ -139,6 +139,9 @@ function slot0.getPageFromPoolType(slot0)
 			6,
 			7,
 			8
+		},
+		[BuildShipScene.PAGE_NEWSERVER] = {
+			11
 		}
 	}) do
 		if table.contains(slot6, slot0) then

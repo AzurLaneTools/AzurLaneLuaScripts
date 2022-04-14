@@ -355,11 +355,11 @@ function slot0.UpdateWindow(slot0)
 		slot3 = slot4[2]
 	end
 
-	slot0.btn1Txt.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", slot2)
+	slot0.btn1Txt.sprite = GetSpriteFromAtlas("ui/NewBackYardTemplateUI_atlas", slot2)
 
 	slot0.btn1Txt:SetNativeSize()
 
-	slot0.btn2Txt.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", slot3)
+	slot0.btn2Txt.sprite = GetSpriteFromAtlas("ui/NewBackYardTemplateUI_atlas", slot3)
 
 	slot0.btn2Txt:SetNativeSize()
 end

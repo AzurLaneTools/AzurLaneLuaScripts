@@ -1898,7 +1898,10 @@ pg.furniture_data_template = {
 						"wash"
 					}
 				},
-				{},
+				{
+					nil,
+					2
+				},
 				{
 					2
 				}
@@ -1909,13 +1912,13 @@ pg.furniture_data_template = {
 					100
 				},
 				{
-					300,
-					400
+					150,
+					200
 				}
 			},
 			{
-				-50,
-				60
+				0,
+				-20
 			},
 			{
 				-1,
@@ -5590,7 +5593,10 @@ pg.furniture_data_template = {
 						"walk"
 					}
 				},
-				{},
+				{
+					nil,
+					2
+				},
 				{
 					0
 				}
@@ -22091,7 +22097,7 @@ pg.furniture_data_template = {
 				"sit",
 				{
 					0,
-					25.1
+					-45
 				},
 				{
 					1,
@@ -22104,8 +22110,8 @@ pg.furniture_data_template = {
 						50
 					},
 					{
-						200,
-						200
+						100,
+						100
 					}
 				}
 			}
@@ -33720,12 +33726,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						38,
-						38
+						0,
+						0
 					},
 					{
-						276,
-						251
+						159,
+						144
 					}
 				}
 			}
@@ -36131,8 +36137,8 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-78,
-					-78
+					-15,
+					-130
 				},
 				{
 					1,
@@ -36142,12 +36148,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						90,
-						280
+						-71,
+						50
 					},
 					{
-						680,
-						390
+						198,
+						135
 					}
 				}
 			},
@@ -36155,7 +36161,7 @@ pg.furniture_data_template = {
 				"wash",
 				{
 					73,
-					-28
+					-46
 				},
 				{
 					-1,
@@ -45463,8 +45469,8 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						66,
-						114
+						38,
+						134
 					},
 					{
 						208,
@@ -45487,8 +45493,8 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						167,
-						47
+						211,
+						54
 					},
 					{
 						208,
@@ -45511,8 +45517,8 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						-44.5,
-						41
+						-80,
+						58
 					},
 					{
 						208,
@@ -45535,7 +45541,7 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						52,
+						57,
 						-14
 					},
 					{
@@ -69268,8 +69274,8 @@ pg.furniture_data_template = {
 			{
 				"sit",
 				{
-					-13,
-					-30
+					9,
+					-35
 				},
 				{
 					-1,
@@ -69279,12 +69285,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						11,
-						43.8
+						-21,
+						-10
 					},
 					{
-						130,
-						70
+						58,
+						38
 					}
 				}
 			}
@@ -72179,7 +72185,10 @@ pg.furniture_data_template = {
 					0
 				}
 			},
-			{},
+			{
+				nil,
+				2
+			},
 			{
 				0,
 				0

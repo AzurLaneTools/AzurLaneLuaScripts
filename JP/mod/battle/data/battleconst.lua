@@ -192,7 +192,8 @@ slot0.BulletField = {
 slot0.BulletOutBound = {
 	COMMON = 0,
 	EXIST = 1,
-	RANDOM = 2
+	RANDOM = 2,
+	VISION = 3
 }
 slot0.AOEField = {
 	SURFACE = 1,

@@ -12,6 +12,7 @@ slot2 = {
 	SC_22001_CLASS_FIELD = slot0.FieldDescriptor(),
 	SC_22001_SKILL_CLASS_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_22001_SKILL_CLASS_NUM_FIELD = slot0.FieldDescriptor(),
+	SC_22001_DAILY_FINISH_BUFF_CNT_FIELD = slot0.FieldDescriptor(),
 	CS_22101_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_22102_STREET_FIELD = slot0.FieldDescriptor(),
 	CS_22201_ROOM_ID_FIELD = slot0.FieldDescriptor(),
@@ -32,6 +33,8 @@ slot2 = {
 	SC_22012_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_22013_PROFICIENCY_FIELD = slot0.FieldDescriptor(),
 	SC_22013_EXP_IN_WELL_FIELD = slot0.FieldDescriptor(),
+	CS_22014_ROOMID_FIELD = slot0.FieldDescriptor(),
+	SC_22015_RESULT_FIELD = slot0.FieldDescriptor(),
 	NAVALACADEMY_CLASS_PROFICIENCY_FIELD = slot0.FieldDescriptor(),
 	NAVALACADEMY_STUDENT_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	NAVALACADEMY_STUDENT_ENERGY_FIELD = slot0.FieldDescriptor(),
@@ -62,6 +65,8 @@ SC_22010 = slot0.Descriptor()
 CS_22011 = slot0.Descriptor()
 SC_22012 = slot0.Descriptor()
 SC_22013 = slot0.Descriptor()
+CS_22014 = slot0.Descriptor()
+SC_22015 = slot0.Descriptor()
 NAVALACADEMY_CLASS = slot0.Descriptor()
 NAVALACADEMY_STUDENT = slot0.Descriptor()
 SHOPPINGSTREET = slot0.Descriptor()
@@ -150,6 +155,15 @@ slot2.SC_22001_SKILL_CLASS_NUM_FIELD.has_default_value = false
 slot2.SC_22001_SKILL_CLASS_NUM_FIELD.default_value = 0
 slot2.SC_22001_SKILL_CLASS_NUM_FIELD.type = 13
 slot2.SC_22001_SKILL_CLASS_NUM_FIELD.cpp_type = 3
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.name = "daily_finish_buff_cnt"
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.full_name = "p22.sc_22001.daily_finish_buff_cnt"
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.number = 10
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.index = 9
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.label = 2
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.has_default_value = false
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.default_value = 0
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.type = 13
+slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD.cpp_type = 3
 SC_22001.name = "sc_22001"
 SC_22001.full_name = "p22.sc_22001"
 SC_22001.nested_types = {}
@@ -163,7 +177,8 @@ SC_22001.fields = {
 	slot2.SC_22001_CLASS_LV_UP_TIME_FIELD,
 	slot2.SC_22001_CLASS_FIELD,
 	slot2.SC_22001_SKILL_CLASS_LIST_FIELD,
-	slot2.SC_22001_SKILL_CLASS_NUM_FIELD
+	slot2.SC_22001_SKILL_CLASS_NUM_FIELD,
+	slot2.SC_22001_DAILY_FINISH_BUFF_CNT_FIELD
 }
 SC_22001.is_extendable = false
 SC_22001.extensions = {}
@@ -458,6 +473,42 @@ SC_22013.fields = {
 }
 SC_22013.is_extendable = false
 SC_22013.extensions = {}
+slot2.CS_22014_ROOMID_FIELD.name = "roomid"
+slot2.CS_22014_ROOMID_FIELD.full_name = "p22.cs_22014.roomid"
+slot2.CS_22014_ROOMID_FIELD.number = 1
+slot2.CS_22014_ROOMID_FIELD.index = 0
+slot2.CS_22014_ROOMID_FIELD.label = 2
+slot2.CS_22014_ROOMID_FIELD.has_default_value = false
+slot2.CS_22014_ROOMID_FIELD.default_value = 0
+slot2.CS_22014_ROOMID_FIELD.type = 13
+slot2.CS_22014_ROOMID_FIELD.cpp_type = 3
+CS_22014.name = "cs_22014"
+CS_22014.full_name = "p22.cs_22014"
+CS_22014.nested_types = {}
+CS_22014.enum_types = {}
+CS_22014.fields = {
+	slot2.CS_22014_ROOMID_FIELD
+}
+CS_22014.is_extendable = false
+CS_22014.extensions = {}
+slot2.SC_22015_RESULT_FIELD.name = "result"
+slot2.SC_22015_RESULT_FIELD.full_name = "p22.sc_22015.result"
+slot2.SC_22015_RESULT_FIELD.number = 1
+slot2.SC_22015_RESULT_FIELD.index = 0
+slot2.SC_22015_RESULT_FIELD.label = 2
+slot2.SC_22015_RESULT_FIELD.has_default_value = false
+slot2.SC_22015_RESULT_FIELD.default_value = 0
+slot2.SC_22015_RESULT_FIELD.type = 13
+slot2.SC_22015_RESULT_FIELD.cpp_type = 3
+SC_22015.name = "sc_22015"
+SC_22015.full_name = "p22.sc_22015"
+SC_22015.nested_types = {}
+SC_22015.enum_types = {}
+SC_22015.fields = {
+	slot2.SC_22015_RESULT_FIELD
+}
+SC_22015.is_extendable = false
+SC_22015.extensions = {}
 slot2.NAVALACADEMY_CLASS_PROFICIENCY_FIELD.name = "proficiency"
 slot2.NAVALACADEMY_CLASS_PROFICIENCY_FIELD.full_name = "p22.navalacademy_class.proficiency"
 slot2.NAVALACADEMY_CLASS_PROFICIENCY_FIELD.number = 1
@@ -671,6 +722,7 @@ SKILL_CLASS.is_extendable = false
 SKILL_CLASS.extensions = {}
 cs_22009 = slot0.Message(CS_22009)
 cs_22011 = slot0.Message(CS_22011)
+cs_22014 = slot0.Message(CS_22014)
 cs_22101 = slot0.Message(CS_22101)
 cs_22201 = slot0.Message(CS_22201)
 cs_22203 = slot0.Message(CS_22203)
@@ -680,6 +732,7 @@ sc_22001 = slot0.Message(SC_22001)
 sc_22010 = slot0.Message(SC_22010)
 sc_22012 = slot0.Message(SC_22012)
 sc_22013 = slot0.Message(SC_22013)
+sc_22015 = slot0.Message(SC_22015)
 sc_22102 = slot0.Message(SC_22102)
 sc_22202 = slot0.Message(SC_22202)
 sc_22204 = slot0.Message(SC_22204)

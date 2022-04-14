@@ -673,4 +673,15 @@ function slot0.getPursuingPrice(slot0, slot1)
 	return slot0:getConfig("price") * (slot1 or 100) / 100
 end
 
+function slot0.getUnlockItem(slot0)
+	slot1 = getProxy(BagProxy)
+	slot5 = "gain_item_id"
+
+	for slot5, slot6 in ipairs(slot0:getConfig(slot5)) do
+		if slot1:getItemCountById(slot6) > 0 then
+			return slot6
+		end
+	end
+end
+
 return slot0

@@ -16,7 +16,7 @@ pg.activity_const = {
 		act_id = 4124
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 4184
+		act_id = 4306
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
 		act_id = 10122

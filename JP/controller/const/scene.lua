@@ -82,11 +82,12 @@ SCENE = {
 	TASK = "scene task",
 	JIUJIU_EXPEDITION = "jiujiu expedition ",
 	WORLDINPICTURE = "world in picture",
+	NEW_SERVER_CARNIVAL = "new server carnival",
 	CREATE_PLAYER = "scene create player",
-	RESOLVESHIPS = "scene resolve ships",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
-	SHIPINFO = "scene shipinfo",
+	RESOLVESHIPS = "scene resolve ships",
 	BACK_CHARGE = "back charge",
+	SHIPINFO = "scene shipinfo",
 	WORLD_FORMATION = "scene world formation",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	DOALINK_ISLAND = "scene DOALink Island",
@@ -417,6 +418,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.WORLDINPICTURE then
 		slot0.mediator = WorldInPictureMediator
 		slot0.viewComponent = WorldInPictureScene
+	elseif slot1 == SCENE.NEW_SERVER_CARNIVAL then
+		slot0.mediator = NewServerCarnivalMediator
+		slot0.viewComponent = NewServerCarnivalScene
 	end
 
 	slot0.scene = slot1

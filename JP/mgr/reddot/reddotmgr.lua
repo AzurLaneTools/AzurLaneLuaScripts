@@ -25,6 +25,7 @@ slot0.TYPES = {
 	VOTE_OREDER = 18,
 	ATTIRE = 6,
 	FRIEND = 8,
+	NEW_SERVER = 20,
 	TASK = 2,
 	MAIL = 3,
 	GUILD = 5,
@@ -56,7 +57,7 @@ function slot0.BindConditions(slot0)
 		return getProxy(MailProxy):GetAttachmentCount()
 	end)
 	slot0:BindCondition(uv0.TYPES.BUILD, function ()
-		return getProxy(BuildShipProxy):getFinishCount() > 0 or getProxy(ActivityProxy):IsShowFreeBuildMark(true)
+		return getProxy(BuildShipProxy):getFinishCount() > 0 or tobool(getProxy(ActivityProxy):IsShowFreeBuildMark(true))
 	end)
 	slot0:BindCondition(uv0.TYPES.GUILD, function ()
 		return getProxy(GuildProxy):ShouldShowTip()
@@ -119,6 +120,9 @@ function slot0.BindConditions(slot0)
 		return _.any(pg.memory_group.all, function (slot0)
 			return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. uv0 .. " " .. slot0, 0) == 1
 		end)
+	end)
+	slot0:BindCondition(uv0.TYPES.NEW_SERVER, function ()
+		return NewServerCarnivalScene.isTip()
 	end)
 end
 

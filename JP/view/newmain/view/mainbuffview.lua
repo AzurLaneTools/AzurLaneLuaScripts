@@ -139,7 +139,7 @@ function slot0.UpdateBuff(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		slot0 = pg.UIMgr.GetInstance().UIMain:InverseTransformPoint(uv0.transform.position)
 
-		uv1:emit(NewMainScene.ON_BUFF_DESC, uv2, Vector3(slot0.x, slot0.y, 0))
+		uv1:emit(NewMainScene.ON_BUFF_DESC, uv2, Vector3(slot0.x, slot0.y - 55, 0))
 	end, SFX_PANEL)
 	setActive(slot1, true)
 end

@@ -194,6 +194,10 @@ function slot0.willExit(slot0)
 		slot0.live2dTimer = nil
 	end
 
+	if slot0.giftShopView then
+		slot0.giftShopView:OnDestroy()
+	end
+
 	slot0:stopCV()
 end
 
