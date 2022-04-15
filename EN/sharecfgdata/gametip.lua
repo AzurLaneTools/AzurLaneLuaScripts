@@ -20054,7 +20054,7 @@ _G.pg.gametip.techpackage_item_use = {
 }
 
 _G.pg.gametip.techpackage_item_use_confirm = {
-	tip = "As you've already unlocked all eligible PRs, you will instead receive the following items:"
+	tip = "With all eligible PRs unlocked, you will get:"
 }
 
 _G.pg.gametip.newserver_shop_timelimit = {

@@ -51506,7 +51506,11 @@ pg.task_data_template = {
 			11,
 			12,
 			13,
-			17
+			17,
+			18,
+			19,
+			20,
+			21
 		},
 		open_need = {},
 		award_display = {
@@ -144112,7 +144116,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		count_inherit = 0,
 		story_icon = "",
-		desc = "Defeat the boss of A3 or C3 10 times with Admiral Hipper at max Limit Break. Admiral Graf Spee must not sink in battle.",
+		desc = "Defeat the boss of A3 or C3 10 times with Admiral Hipper at max Limit Break. Admiral Hipper must not sink in battle.",
 		award_choice = "",
 		is_head = 1,
 		task_fold = 0,
