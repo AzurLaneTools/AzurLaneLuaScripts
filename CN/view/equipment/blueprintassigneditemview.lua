@@ -66,6 +66,12 @@ function slot0.OnInit(slot0)
 
 		uv0:updateValue()
 	end, SFX_PANEl)
+
+	if PLATFORM_CODE == PLATFORM_US then
+		slot1 = slot0:findTF("got/top/Text")
+		GetComponent(slot1, "Text").alignment = TextAnchor.MiddleLeft
+		slot1.offsetMin = Vector2.New(37, 0)
+	end
 end
 
 function slot0.GetBlueprintNeed(slot0, slot1)

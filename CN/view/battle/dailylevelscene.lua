@@ -481,10 +481,14 @@ function slot0.UpdateBattleBtn(slot0, slot1)
 	end, SFX_PANEL)
 
 	if PLATFORM_CODE == PLATFORM_US then
-		setText(slot8:Find("label_us"), i18n("daily_level_quick_battle_label1", " " .. "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>", COLOR_WHITE))
+		setText(slot8:Find("label_us"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
 		setText(slot9:Find("label_us"), i18n("daily_level_quick_battle_label3"))
+		setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
+		setText(slot9:Find("Text"), "")
 		setActive(slot8:Find("label_us"), true)
 		setActive(slot9:Find("label_us"), true)
+		setActive(slot8:Find("label"), false)
+		setActive(slot9:Find("label"), false)
 	else
 		setText(slot8:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
 		setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
