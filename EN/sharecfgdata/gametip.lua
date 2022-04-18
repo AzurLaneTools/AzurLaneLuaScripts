@@ -8372,7 +8372,7 @@ _G.pg.gametip.word_nowenergy = {
 }
 
 _G.pg.gametip.word_energy_recov_speed = {
-	tip = "Recovery Speed"
+	tip = "Recovery"
 }
 
 _G.pg.gametip.destroy_eliteship_tip = {
@@ -20066,7 +20066,7 @@ _G.pg.gametip.tech_character_get = {
 }
 
 _G.pg.gametip.package_detail_tip = {
-	tip = "Detail "
+	tip = "Detail"
 }
 
 _G.pg.gametip.event_ui_consume = {

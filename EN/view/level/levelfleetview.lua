@@ -63,7 +63,6 @@ function slot0.Hide(slot0)
 	setActive(slot0.dropDown, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0._tf, false)
-	warning("CLEAR")
 
 	slot0.spItemID = nil
 
@@ -234,7 +233,6 @@ function slot0.InitUI(slot0)
 		GetComponent(slot0.rtCostLimit:Find("cost_noraml/Text"), typeof(Text)).fontSize = 27
 		GetComponent(slot0.rtCostLimit:Find("cost_boss/Text"), typeof(Text)).fontSize = 27
 		GetComponent(slot0.rtCostLimit:Find("cost_sub/Text"), typeof(Text)).fontSize = 27
-		slot0.rtCostLimit.offsetMax = Vector2.New(900, -25)
 	end
 
 	slot0.btnBack = slot0:findTF("panel/btnBack")
@@ -1683,9 +1681,6 @@ end
 
 function slot0.setSPBuffSelected(slot0, slot1)
 	slot2 = pg.benefit_buff_template[slot1]
-
-	warning(slot1, tonumber(slot2.benefit_condition))
-
 	slot0.spItemID = tonumber(slot2.benefit_condition)
 
 	slot0:setTicketInfo(slot0.btnSp, slot0.spItemID)
@@ -1694,8 +1689,6 @@ function slot0.setSPBuffSelected(slot0, slot1)
 end
 
 function slot0.clearSPBuff(slot0)
-	warning("CLEAR")
-
 	slot0.spItemID = nil
 
 	slot0:setSPBtnFormByBuffCount()

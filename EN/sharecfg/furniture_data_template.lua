@@ -62450,15 +62450,15 @@ pg.furniture_data_template = {
 						"yun"
 					}
 				},
-				{},
+				{
+					nil,
+					2
+				},
 				{
 					0
 				}
 			},
-			{
-				nil,
-				2
-			},
+			{},
 			{
 				0,
 				0
