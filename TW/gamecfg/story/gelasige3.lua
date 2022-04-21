@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不不…明眼人都看得出來吧…我也覺得格拉斯哥她們很合適。",
+			say = "不不…明眼人都看得出來吧…我也覺得格拉斯哥他們很合適。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "聽著突擊者老師的柔聲安慰，格拉斯哥和那位交換了次眼神。",
+			say = "聽著游騎兵老師的柔聲安慰，格拉斯哥和那位交換了次眼神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

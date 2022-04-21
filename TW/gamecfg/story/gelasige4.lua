@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突擊者老師大騙子…這才不是一點“零碎的雜務”啊…",
+			say = "游騎兵老師大騙子…這才不是一點“零碎的雜務”啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 103071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…姐姐，都是因為妳不看前面，撞到格拉斯哥她們了……",
+			say = "…姐姐，都是因為妳不看前面，撞到格拉斯哥他們了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
