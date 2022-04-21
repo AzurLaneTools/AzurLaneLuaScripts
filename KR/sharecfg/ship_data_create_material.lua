@@ -82,13 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>SR</color>：12%",
 			"<color=#3dc6ff>R</color>：51%",
 			"N：30%",
-			"<color=#ffde38>임페로</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>하우</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>포미더블</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>퍼시어스</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>폼페오 마뇨</color>：0.5%",
+			"<color=#ffde38>허마이오니</color>：0.5%",
 			" ",
-			"<color=#d797ff>트리에스테</color>：2.5%<color=#92FC63>(up!)</color>"
+			"<color=#d797ff>이글</color>：2.5%<color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#d797ff>밸리언트</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{
@@ -227,6 +229,27 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>아르한겔스크</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "신입 지휘관 건조",
+		ship_icon = "1",
+		type = 2,
+		exchange_request = 40,
+		exchange_available_times = 1,
+		build_voice = "",
+		use_item = 20001,
+		build_anim = "building",
+		number_1 = 1,
+		id = 11,
+		icon = "build_11",
+		exchange_ship_id = 107061,
+		rate_tip = {
+			"<color=#ffde38>SSR</color>：7%",
+			"<color=#d797ff>SR</color>：12%",
+			"<color=#3dc6ff>R</color>：51%",
+			"N：30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -237,6 +260,7 @@ pg.ship_data_create_material = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

@@ -14013,6 +14013,77 @@ _G.pg.ship_data_breakout[205074] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.ship_data_breakout[205091] = {
+	use_gold = 1000,
+	breakout_view = "주포 발사 수 +1 / 주포 효율 +5%",
+	use_char_num = 1,
+	use_char = 20509,
+	breakout_id = 205092,
+	level = 10,
+	id = 205091,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		24000,
+		24000
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[205092] = {
+	use_gold = 3000,
+	breakout_view = "부포 발사 수 +2 / 주포 효율 +10%",
+	use_char_num = 1,
+	use_char = 20509,
+	breakout_id = 205093,
+	level = 30,
+	id = 205092,
+	icon = "10001",
+	pre_id = 205091,
+	use_item = {},
+	weapon_ids = {
+		21500,
+		21500,
+		21500
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[205093] = {
+	use_gold = 10000,
+	breakout_view = "주포 발사 수 +1 / 주포 효율 +15%",
+	use_char_num = 2,
+	use_char = 20509,
+	breakout_id = 205094,
+	level = 70,
+	id = 205093,
+	icon = "10001",
+	pre_id = 205092,
+	use_item = {},
+	weapon_ids = {
+		24000,
+		24000,
+		24000
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[205094] = {
+	use_gold = 0,
+	breakout_view = "없음",
+	use_char_num = 0,
+	use_char = 20509,
+	breakout_id = 0,
+	level = 0,
+	id = 205094,
+	icon = "10001",
+	pre_id = 205093,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.ship_data_breakout[205101] = {
 	use_gold = 500,
 	breakout_view = "주포 발사 수 +1 / 주포 효율 +5%",

@@ -19,7 +19,7 @@ end
 function slot0.canPurchase(slot0)
 	if slot0.type == Goods.TYPE_MILITARY then
 		return slot0.buyCount == 0
-	elseif slot0.type == Goods.TYPE_GIFT_PACKAGE or slot0.type == Goods.TYPE_SKIN or slot0.type == Goods.TYPE_WORLD then
+	elseif slot0.type == Goods.TYPE_GIFT_PACKAGE or slot0.type == Goods.TYPE_SKIN or slot0.type == Goods.TYPE_WORLD or slot0.type == Goods.TYPE_NEW_SERVER then
 		return slot0:getLimitCount() <= 0 or slot0.buyCount < slot1
 	else
 		return uv0.super.canPurchase(slot0)

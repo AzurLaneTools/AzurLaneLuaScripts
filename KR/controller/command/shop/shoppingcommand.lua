@@ -217,7 +217,7 @@ function slot0.execute(slot0, slot1)
 					slot3 = slot5.type
 
 					slot4:updateMeritorousShop(slot5)
-				elseif uv0.genre == ShopArgs.GiftPackage then
+				elseif uv0.genre == ShopArgs.GiftPackage or uv0.genre == ShopArgs.NewServerShop then
 					uv7:GetNormalByID(uv4):increaseBuyCount()
 				elseif uv0.genre == ShopArgs.SkinShop then
 					getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
@@ -322,7 +322,7 @@ function slot0.CheckGiftPackage(slot0, slot1)
 		return slot1, slot2, slot3, slot4, slot6
 	end
 
-	if slot1.genre == ShopArgs.GiftPackage then
+	if slot1.genre == ShopArgs.GiftPackage or slot1.genre == ShopArgs.NewServerShop then
 		slot6, slot7, slot8, slot9, slot10 = slot3(slot2[slot1.effect_args[1]].display_icon)
 		slot11 = getProxy(PlayerProxy):getRawData()
 
@@ -355,8 +355,8 @@ function slot0.CheckGiftPackage(slot0, slot1)
 		end
 
 		if slot10 then
-			return uv0.GIFT_CHECK_USER, function ()
-				return i18n("player_expResource_mail_fullBag")
+			return uv0.GIFT_CHECK_FAIL, function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("expbook_max_tip_title") .. i18n("resource_max_tip_shop"))
 			end
 		end
 	end

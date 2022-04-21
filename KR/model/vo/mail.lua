@@ -35,14 +35,29 @@ function slot0.hasAttachmentsType(slot0, slot1)
 end
 
 function slot0.OverflowShipExpAttachment(slot0)
-	slot1 = getProxy(BagProxy)
+	slot1 = {}
+	slot2 = underscore.rest(slot0.attachments, 1)
 
-	function slot2(slot0)
-		return slot0:getConfig("max_num") < uv0:getItemCountById(slot0.id) + slot0.count
+	while #slot2 > 0 do
+		if table.remove(slot2).type == DROP_TYPE_ITEM then
+			if table.contains(ITEM_ID_FUDAIS, slot3.id) then
+				slot2 = table.mergeArray(slot2, underscore.map(slot3:getConfig("display_icon"), function (slot0)
+					return Item.New({
+						type = slot0[1],
+						id = slot0[2],
+						count = slot0[3]
+					})
+				end))
+			elseif slot3:IsShipExpType() then
+				slot1[slot3.id] = defaultValue(slot1[slot3.id], 0) + slot3.count
+			end
+		end
 	end
 
-	for slot6, slot7 in pairs(slot0.attachments) do
-		if slot7.type == DROP_TYPE_ITEM and slot7:IsShipExpType() and slot2(slot7) then
+	slot3 = getProxy(BagProxy)
+
+	for slot7, slot8 in pairs(slot1) do
+		if pg.item_data_statistics[slot7].max_num < slot3:getItemCountById(slot7) + slot8 then
 			return true
 		end
 	end

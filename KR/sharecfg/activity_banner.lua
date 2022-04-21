@@ -1,21 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		param = "4299",
 		id = 1,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"metacharacter",
-			{
-				autoOpenShipConfigID = 9704020
-			}
-		},
+		pic = "temp1",
+		type = 3,
 		time = {
 			{
 				{
 					2022,
 					4,
-					14
+					21
 				},
 				{
 					0,
@@ -27,7 +22,7 @@ pg.activity_banner = {
 				{
 					2022,
 					4,
-					21
+					28
 				},
 				{
 					23,
@@ -39,13 +34,13 @@ pg.activity_banner = {
 	},
 	{
 		id = 2,
-		pic = "temp1",
+		pic = "temp2",
 		type = 2,
 		param = {
-			"scene level",
+			"scene get boat",
 			{
-				open_remaster = true,
-				isSP = false
+				projectname = "new",
+				page = 1
 			}
 		},
 		time = {
@@ -53,7 +48,7 @@ pg.activity_banner = {
 				{
 					2022,
 					4,
-					14
+					21
 				},
 				{
 					0,
@@ -65,7 +60,7 @@ pg.activity_banner = {
 				{
 					2022,
 					4,
-					21
+					28
 				},
 				{
 					23,
@@ -77,56 +72,25 @@ pg.activity_banner = {
 	},
 	{
 		id = 3,
-		pic = "temp2",
-		type = 2,
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = true
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					4,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
 		pic = "temp3",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
-		},
+		}
+	},
+	{
+		param = "4302",
+		id = 4,
+		pic = "temp4",
+		type = 3,
 		time = {
 			{
 				{
 					2022,
 					4,
-					14
+					21
 				},
 				{
 					0,
@@ -137,8 +101,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					4,
-					21
+					5,
+					4
 				},
 				{
 					23,
@@ -149,57 +113,11 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4307",
 		id = 5,
 		pic = "temp5",
-		type = 2,
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2022,
-					3,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "7004",
-		id = 6,
-		pic = "temp6",
 		type = 3,
 		time = {
-			{
-				{
-					2022,
-					4,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2022,
@@ -207,6 +125,18 @@ pg.activity_banner = {
 					21
 				},
 				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
 					23,
 					59,
 					59
@@ -215,16 +145,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4259",
-		id = 7,
-		pic = "temp7",
-		type = 3,
+		id = 6,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
 		time = {
 			{
 				{
 					2022,
-					2,
-					17
+					4,
+					21
 				},
 				{
 					0,
@@ -235,8 +167,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					3,
-					16
+					4,
+					27
 				},
 				{
 					23,
@@ -247,43 +179,85 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4189",
-		time = "stop",
-		type = 3,
+		id = 7,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		id = 8,
-		pic = "temp8"
+		pic = "temp8",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		param = "",
-		id = 9,
-		pic = "temp99",
+		time = "stop",
 		type = 9,
-		time = {
-			{
-				{
-					2022,
-					3,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 9,
+		pic = "temp99"
 	},
 	{
 		param = "해군 카레|단맛? 매운맛? 취향은 사람마다 제각각...<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
@@ -318,14 +292,14 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
-			2,
-			3,
 			4,
 			5
 		},
-		[3] = {
+		[2] = {
+			2,
+			3,
 			6,
 			7,
 			8

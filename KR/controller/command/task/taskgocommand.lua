@@ -208,7 +208,11 @@ function slot0.execute(slot0, slot1)
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)
 		end
 	elseif slot9 == 15 then
-		if slot10 == 0 then
+		if slot10 == 1 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
+				warp = NewShopsScene.TYPE_GUILD
+			})
+		elseif slot10 == 0 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP)
 		end
 	elseif slot9 == 17 then

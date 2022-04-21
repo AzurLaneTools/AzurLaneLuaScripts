@@ -79,6 +79,14 @@ function slot0.firstPayDouble(slot0)
 end
 
 function slot0.inTime(slot0)
+	if slot0.type == Goods.TYPE_NEW_SERVER then
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_GIFT) and not slot1:isEnd() then
+			return true, slot1.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+		else
+			return false
+		end
+	end
+
 	if not slot0:getConfig("time") then
 		return true
 	end

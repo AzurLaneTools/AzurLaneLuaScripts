@@ -3224,7 +3224,7 @@ pg.ship_skin_template_7 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "英王乔治五世级战列舰—豪，舷号32",
+		desc = "킹 조지 V급 전함—하우 (HMS Howe)",
 		voice_actor = 116,
 		spine_offset = "",
 		gyro = 0,
@@ -3301,6 +3301,121 @@ pg.ship_skin_template_7 = {
 						{
 							-0.45,
 							2.315,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
+	[205091] = {
+		ship_group = 20509,
+		name = "Noble Rouge",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "115",
+		id = 205091,
+		group_index = 1,
+		prefab = "hao_2",
+		painting = "hao_2",
+		shop_id = 70393,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "생각보다 꾸미는 데 시간이 많이 걸리네… 준비 끝났어, 출발하자, 지휘관… 지휘관? 계속 멍하니 있으면, 하늘 금방 어두워진다?",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.172,
+					1.213,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.153,
+					1.214,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.006,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.136,
+					1.144,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.26,
 							0.53
 						}
 					}
@@ -8991,126 +9106,6 @@ pg.ship_skin_template_7 = {
 							0.3,
 							0.87,
 							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[213021] = {
-		ship_group = 21302,
-		name = "테러 오브 핼러윈 ",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 213021,
-		group_index = 1,
-		prefab = "kongbu_2",
-		painting = "kongbu_2",
-		shop_id = 70115,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 8,
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "핼러윈엔 변장을 한다고 들었습니다만, 테러는 너무 어려운 옷은 만들 줄 몰라요……이런 느낌으로, 괜찮을까요……? ",
-		voice_actor = 1,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.329,
-					1.057,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.246,
-					1.033,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.864,
-					0.968,
-					0
-				}
-			},
-			plane = {
-				{
-					1.11,
-					1.157,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.528,
-							2.36,
-							0
 						}
 					}
 				}

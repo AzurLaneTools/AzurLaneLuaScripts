@@ -32,7 +32,7 @@ function slot0.InitSpecialTouch(slot0)
 		onButton(uv0, slot0, function ()
 			uv0:TriggerEvent(uv0:GetSpecialTouchEvent(uv1.name))
 			uv0:TriggerPersonalTask(uv0.ship.groupId)
-		end, SFX_MAIN)
+		end)
 	end)
 end
 

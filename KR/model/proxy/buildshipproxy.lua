@@ -29,15 +29,32 @@ end
 
 function slot0.GetPools(slot0)
 	slot1 = {}
+	slot6 = {
+		ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
+		slot7
+	}
+	slot7 = ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 
-	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1)) do
-		if slot7 and not slot7:isEnd() then
-			table.insert(slot1, BuildShipActivityPool.New({
-				activityId = slot7.id,
-				id = slot7:getConfig("config_id"),
+	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByTypes(slot6)) do
+		slot8 = {}
+
+		table.insert(slot8, function (slot0)
+			if uv0 and not uv0:isEnd() then
+				slot0()
+			end
+		end)
+		table.insert(slot8, function (slot0)
+			if uv0:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD or uv0.data2 < pg.ship_data_create_material[uv0:getConfig("config_id")].exchange_available_times then
+				slot0()
+			end
+		end)
+		seriesAsync(slot8, function ()
+			table.insert(uv0, BuildShipActivityPool.New({
+				activityId = uv1.id,
+				id = uv1:getConfig("config_id"),
 				mark = BuildShipPool.BUILD_POOL_MARK_NEW
 			}))
-		end
+		end)
 	end
 
 	table.insert(slot1, BuildShipPool.New({

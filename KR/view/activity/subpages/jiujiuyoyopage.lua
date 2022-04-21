@@ -44,10 +44,7 @@ end
 function slot0.OnDataSetting(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = pg.activity_template[slot0.activity:getConfig("config_client").taskActID].config_data
-	slot4 = slot0.activity
-	slot5 = slot4
-	slot6 = "time"
-	slot0.startTime = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.getConfig(slot5, slot6)[2])
+	slot0.startTime = slot0.activity:getStartTime()
 	slot0.totalNumList = {}
 	slot0.remainNumList = {}
 	slot0.remainTotalNum = 0

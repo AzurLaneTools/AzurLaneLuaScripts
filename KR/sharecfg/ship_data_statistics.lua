@@ -102576,6 +102576,502 @@ pg.ship_data_statistics = {
 			"KGV-Class"
 		}
 	},
+	[205091] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "하우",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 205090,
+		english_name = "HMS Howe",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 205091,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1334,
+			81,
+			0,
+			48,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28.3,
+			83,
+			0
+		},
+		attrs_growth = {
+			35548,
+			952,
+			0,
+			1051,
+			0,
+			406,
+			0,
+			371,
+			222,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV-Class"
+		}
+	},
+	[205092] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "하우",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 205090,
+		english_name = "HMS Howe",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 205092,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1659,
+			101,
+			0,
+			60,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28.3,
+			83,
+			0
+		},
+		attrs_growth = {
+			35548,
+			952,
+			0,
+			1051,
+			0,
+			406,
+			0,
+			371,
+			222,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV-Class"
+		}
+	},
+	[205093] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "하우",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 205090,
+		english_name = "HMS Howe",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 205093,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2310,
+			141,
+			0,
+			84,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28.3,
+			83,
+			0
+		},
+		attrs_growth = {
+			35548,
+			952,
+			0,
+			1051,
+			0,
+			406,
+			0,
+			371,
+			222,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV-Class"
+		}
+	},
+	[205094] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "하우",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 205090,
+		english_name = "HMS Howe",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 205094,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3286,
+			202,
+			0,
+			119,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28.3,
+			83,
+			0
+		},
+		attrs_growth = {
+			35548,
+			952,
+			0,
+			1051,
+			0,
+			406,
+			0,
+			371,
+			222,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV-Class"
+		}
+	},
 	[205101] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -324684,6 +325180,10 @@ pg.ship_data_statistics = {
 		205072,
 		205073,
 		205074,
+		205091,
+		205092,
+		205093,
+		205094,
 		205101,
 		205102,
 		205103,

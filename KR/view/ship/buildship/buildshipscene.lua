@@ -4,6 +4,7 @@ slot0.PAGE_QUEUE = 2
 slot0.PAGE_EXCHANGE = 3
 slot0.PAGE_UNSEAM = 4
 slot0.PAGE_PRAY = 5
+slot0.PAGE_NEWSERVER = 6
 slot0.PROJECTS = {
 	SPECIAL = "special",
 	ACTIVITY = "new",
@@ -51,23 +52,12 @@ function slot0.setFlagShip(slot0, slot1)
 end
 
 function slot0.RefreshActivityBuildPool(slot0, slot1)
-	slot0.poolsPage:RefreshActivityBuildPool()
-end
-
-function slot0.updateActivityBuildPage(slot0)
-	if slot0.contextData.msgbox and slot0.contextData.msgbox:GetLoaded() and slot0.contextData.msgbox:isShowing() then
-		slot0.contextData.msgbox:Hide()
-	end
-
-	if slot0.contextData.helpWindow and slot0.contextData.helpWindow:GetLoaded() and slot0.contextData.helpWindow:isShowing() then
-		slot0.contextData.helpWindow:Hide()
-	end
-
-	slot0.poolsPage:UpdateActivityBuildPage(slot0.pools)
+	slot0.poolsPage:RefreshActivityBuildPool(slot1)
 end
 
 function slot0.RefreshFreeBuildActivity(slot0)
 	slot0.poolsPage:RefreshFreeBuildActivity()
+	slot0.poolsPage:UpdateTicket()
 end
 
 function slot0.init(slot0)
@@ -80,7 +70,8 @@ function slot0.init(slot0)
 		slot0:findTF("adapt/left_length/frame/tagRoot/queue_btn", slot0.blurPanel),
 		slot0:findTF("adapt/left_length/frame/tagRoot/exchange_btn", slot0.blurPanel),
 		slot0:findTF("adapt/left_length/frame/tagRoot/unseam_btn", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/pray_btn", slot0.blurPanel)
+		slot0:findTF("adapt/left_length/frame/tagRoot/pray_btn", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/other_build_btn", slot0.blurPanel)
 	}
 	slot0.tip = slot0.toggles[2]:Find("tip")
 	slot0.contextData.msgbox = BuildShipMsgBox.New(slot0._tf, slot0.event)
@@ -117,21 +108,70 @@ function slot0.didEnter(slot0)
 		end, SFX_PANEL)
 	end
 
-	if getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) and not slot2:isEnd() then
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) and not slot3:isEnd() then
 		setActive(slot0.toggles[uv0.PAGE_PRAY], true)
 	else
 		setActive(slot0.toggles[uv0.PAGE_PRAY], false)
 	end
 
-	slot0.page = slot0.contextData.page or BuildShipScene.Page or uv0.PAGE_BUILD
+	if underscore.any(slot0.pools, function (slot0)
+		return checkExist(uv0:getBuildPoolActivity(slot0), {
+			"getConfig",
+			{
+				"type"
+			}
+		}) == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
+	end) then
+		setActive(slot0.toggles[uv0.PAGE_NEWSERVER], true)
+	else
+		setActive(slot0.toggles[uv0.PAGE_NEWSERVER], false)
+	end
 
-	triggerToggle(slot0.toggles[slot0.page], true)
-	PoolMgr.GetInstance():GetUI("al_bg01", true, function (slot0)
+	if not isActive(slot0.toggles[slot0.contextData.page or BuildShipScene.Page or pg.SeriesGuideMgr.GetInstance():isRunning() and uv0.PAGE_BUILD or uv0.PAGE_NEWSERVER]) then
+		slot4 = uv0.PAGE_BUILD
+	end
+
+	triggerToggle(slot0.toggles[slot4], true)
+
+	slot5 = PoolMgr.GetInstance()
+
+	slot5:GetUI("al_bg01", true, function (slot0)
 		slot0:SetActive(true)
 		setParent(slot0, uv0._tf)
 		slot0.transform:SetAsFirstSibling()
 	end)
 	TagTipHelper.SetFreeBuildMark()
+end
+
+function slot0.checkPage(slot0)
+	if slot0.contextData.msgbox and slot0.contextData.msgbox:GetLoaded() and slot0.contextData.msgbox:isShowing() then
+		slot0.contextData.msgbox:Hide()
+	end
+
+	if slot0.contextData.helpWindow and slot0.contextData.helpWindow:GetLoaded() and slot0.contextData.helpWindow:isShowing() then
+		slot0.contextData.helpWindow:Hide()
+	end
+
+	slot1 = getProxy(ActivityProxy)
+
+	if underscore.any(slot0.pools, function (slot0)
+		return checkExist(uv0:getBuildPoolActivity(slot0), {
+			"getConfig",
+			{
+				"type"
+			}
+		}) == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
+	end) then
+		setActive(slot0.toggles[uv0.PAGE_NEWSERVER], true)
+	else
+		setActive(slot0.toggles[uv0.PAGE_NEWSERVER], false)
+	end
+
+	if not isActive(slot0.toggles[uv0.PAGE_NEWSERVER]) and BuildShipScene.Page == uv0.PAGE_NEWSERVER then
+		triggerToggle(slot0.toggles[uv0.PAGE_BUILD], true)
+	else
+		slot0.poolsPage:Flush(slot0.pools)
+	end
 end
 
 function slot0.switchPage(slot0, slot1, slot2)
@@ -152,7 +192,11 @@ function slot0.switchPage(slot0, slot1, slot2)
 			slot0:emit(BuildShipMediator.CLOSE_EXCHANGE)
 		end
 	elseif slot1 == uv0.PAGE_BUILD then
-		slot0.poolsPage:ExecuteAction("ShowOrHide", slot2, slot0.pools)
+		slot0.poolsPage:ExecuteAction("ShowOrHide", slot2)
+		slot0.poolsPage:ExecuteAction("Flush", slot0.pools, false)
+	elseif slot1 == uv0.PAGE_NEWSERVER then
+		slot0.poolsPage:ExecuteAction("ShowOrHide", slot2)
+		slot0.poolsPage:ExecuteAction("Flush", slot0.pools, true)
 	elseif slot1 == uv0.PAGE_PRAY then
 		if slot2 then
 			slot0:emit(BuildShipMediator.OPEN_PRAY_PAGE)

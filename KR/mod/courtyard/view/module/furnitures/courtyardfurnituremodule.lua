@@ -47,7 +47,9 @@ function slot0.CreateWhenStoreyInit(slot0)
 end
 
 function slot0.BlocksRaycasts(slot0, slot1)
-	if slot0.data:CanClickWhenExitEditMode() and slot1 == false then
+	slot3 = #slot0.data:GetUsingSlots() > 0
+
+	if slot0.data:CanClickWhenExitEditMode() or slot3 and slot1 == false then
 		return
 	end
 
@@ -253,6 +255,7 @@ function slot0.OnDispose(slot0)
 	end
 
 	slot0.bodyMasks = nil
+	slot0.cg.blocksRaycasts = true
 
 	Object.Destroy(slot0._tf:GetComponent(typeof(ButtonEventExtend)))
 	Object.Destroy(slot0._tf:GetComponent(typeof(Button)))

@@ -14,6 +14,7 @@ function slot0.OnInit(slot0)
 	slot1 = findTF(slot0._tf, "timer_Text")
 	slot0.timeTxt = slot1:GetComponent(typeof(Text))
 	slot0.cancelBtn = findTF(slot0._tf, "cancel_btn")
+	slot0.quickFinishBtn = findTF(slot0._tf, "quick_finish_btn")
 
 	onButton(slot0, slot0.cancelBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -25,6 +26,9 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0._tf, "skill"), function ()
 		uv0:emit(NewNavalTacticsMediator.ON_SKILL, uv0.skillVO.id, uv0.skillVO)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.quickFinishBtn, function ()
+		uv0:emit(NewNavalTacticsMediator.ON_QUICK_FINISH, uv0.student.id)
 	end, SFX_PANEL)
 end
 
@@ -55,6 +59,7 @@ function slot0.OnUpdate(slot0, slot1)
 	end
 
 	slot0:AddTimer()
+	setActive(slot0.quickFinishBtn, getProxy(NavalAcademyProxy):getDailyFinishCnt() > 0)
 end
 
 function slot0.UpdateSkill(slot0)

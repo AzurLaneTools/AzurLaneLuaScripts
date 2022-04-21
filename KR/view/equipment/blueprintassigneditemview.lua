@@ -66,6 +66,12 @@ function slot0.OnInit(slot0)
 
 		uv0:updateValue()
 	end, SFX_PANEl)
+
+	if PLATFORM_CODE == PLATFORM_US then
+		slot1 = slot0:findTF("got/top/Text")
+		GetComponent(slot1, "Text").alignment = TextAnchor.MiddleLeft
+		slot1.offsetMin = Vector2.New(37, 0)
+	end
 end
 
 function slot0.GetBlueprintNeed(slot0, slot1)
@@ -74,6 +80,12 @@ function slot0.GetBlueprintNeed(slot0, slot1)
 	slot0.bagProxy = slot0.bagProxy or getProxy(BagProxy)
 
 	return math.max(slot2:getUseageMaxItem() + (slot0.isSwitch and slot2:getFateMaxLeftOver() or 0) - slot0.bagProxy:getItemCountById(slot2:getItemId()), 0)
+end
+
+function slot0.checkBlueprintIsUnlock(slot0, slot1)
+	slot0.technologyProxy = slot0.technologyProxy or getProxy(TechnologyProxy)
+
+	return slot0.technologyProxy:getBluePrintById(slot0.technologyProxy:GetBlueprint4Item(slot1)):isUnlock()
 end
 
 function slot0.updateValue(slot0)
@@ -137,6 +149,9 @@ function slot0.update(slot0, slot1)
 			setScrollText(slot2:Find("name_bg/Text"), HXSet.hxLan(uv0.displayDrops[slot1].cfg.name))
 
 			uv0.selectedItem = uv0.selectedItem or slot2
+
+			setText(slot2:Find("item/tip/Text"), i18n("tech_character_get"))
+			setActive(slot2:Find("item/tip"), uv0:checkBlueprintIsUnlock(uv0.displayDrops[slot1].id))
 		end
 	end)
 	slot0.ulist:align(#slot0.displayDrops)

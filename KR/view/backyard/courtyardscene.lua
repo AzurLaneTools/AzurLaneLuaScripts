@@ -145,6 +145,10 @@ function slot0.OnRemoveLayer(slot0, slot1)
 	end
 end
 
+function slot0.OnAddFurniture(slot0)
+	slot0.panels[3]:OnFlush(BackYardConst.DORM_UPDATE_TYPE_LEVEL)
+end
+
 function slot0.onBackPressed(slot0)
 	for slot4, slot5 in ipairs(slot0.panels) do
 		if slot5:onBackPressed() then

@@ -97,7 +97,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_UPDATE_ACT, function (slot0)
 		uv0.viewComponent:setPools(getProxy(BuildShipProxy):GetPools())
-		uv0.viewComponent:updateActivityBuildPage()
+		uv0.viewComponent:checkPage()
 	end)
 	slot0:bind(uv0.CLOSE_EXCHANGE, function (slot0)
 		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ExchangeShipMediator) then
@@ -224,6 +224,13 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3 then
 			if slot4:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
 				slot0.viewComponent:RefreshActivityBuildPool(slot4)
+			elseif slot5 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
+				if slot4.data2 < pg.ship_data_create_material[slot4:getConfig("config_id")].exchange_available_times then
+					slot0.viewComponent:RefreshActivityBuildPool(slot4)
+				else
+					slot0.viewComponent:setPools(getProxy(BuildShipProxy):GetPools())
+					slot0.viewComponent:checkPage()
+				end
 			elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILD_FREE then
 				slot0.viewComponent:RefreshFreeBuildActivity()
 			end

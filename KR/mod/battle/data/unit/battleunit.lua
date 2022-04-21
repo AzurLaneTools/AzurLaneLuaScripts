@@ -53,6 +53,7 @@ end
 function slot9.Init(slot0)
 	slot0._hostileCldList = {}
 	slot0._currentHPRate = 1
+	slot0._currentDMGRate = 0
 	slot0._tagCount = 0
 	slot0._tagIndex = 0
 	slot0._tagList = {}
@@ -1124,6 +1125,10 @@ end
 function slot9.SetCurrentHP(slot0, slot1)
 	slot0._currentHP = slot1
 	slot0._currentHPRate = slot0._currentHP / slot0:GetMaxHP()
+	slot0._currentDMGRate = 1 - slot0._currentHPRate
+
+	uv0.SetCurrent(slot0, "HPRate", slot0._currentHPRate)
+	uv0.SetCurrent(slot0, "DMGRate", slot0._currentDMGRate)
 end
 
 function slot9.GetAttr(slot0)

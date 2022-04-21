@@ -32,7 +32,9 @@ function slot0.init(slot0)
 	slot0.cancelBtn = slot0:findTF("main/cancel_btn")
 	slot0.okBtn = slot0:findTF("main/ok_btn")
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.TOP_LAYER
+	})
 
 	slot0.selectedIds = {}
 	slot0.selecteAllTF = slot0:findTF("main/all_toggle")
@@ -104,7 +106,7 @@ end
 
 function slot0.OnResolveEquipDone(slot0)
 	setActive(slot0.destroyConfirm, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	setActive(slot0.mainPanel, false)
 	slot0:unselecteAllEquips()
 end

@@ -15,7 +15,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/link_top/MainUIRecruitBtn(Clone)"
+				path = "/OverlayCamera/Overlay/UIMain/main/frame/link_top/layout/MainUIRecruitBtn(Clone)"
 			}
 		}
 	}

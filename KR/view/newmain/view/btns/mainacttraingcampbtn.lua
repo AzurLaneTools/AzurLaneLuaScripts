@@ -13,8 +13,6 @@ function slot0.OnClick(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0._tf.localPosition = Vector3(-184.5, -57)
-
 	pg.redDotHelper:AddNode(EffectRedDotNode.New(slot0._tf, {
 		pg.RedDotMgr.TYPES.ACT_NEWBIE
 	}))

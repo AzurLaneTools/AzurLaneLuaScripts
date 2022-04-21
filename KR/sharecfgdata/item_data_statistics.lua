@@ -9641,6 +9641,90 @@ _G.pg.item_data_statistics[30121] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30132] = {
+	display = "사용 시 T2 개조 도면 중 임의로 1가지 선택하여 획득 가능",
+	name = "지향형 개조 도면 T2",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30132",
+	id = 30132,
+	display_icon = {
+		{
+			2,
+			18002,
+			1
+		},
+		{
+			2,
+			18012,
+			1
+		},
+		{
+			2,
+			18022,
+			1
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30133] = {
+	display = "사용 시 T3 개조 도면 중 임의로 1가지 선택하여 획득 가능",
+	name = "지향형 개조 도면 T3",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30133",
+	id = 30133,
+	display_icon = {
+		{
+			2,
+			18003,
+			1
+		},
+		{
+			2,
+			18013,
+			1
+		},
+		{
+			2,
+			18023,
+			1
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30201] = {
 	display = [[
 이번 이벤트의 <color=#ffde38>한정 장비</color> 1개 획득:
@@ -14695,7 +14779,7 @@ _G.pg.item_data_statistics[40014] = {
 }
 
 _G.pg.item_data_statistics[40015] = {
-	display = "패키지 구매 시 대량의 재료 보상 획득 가능",
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "대형 작전 공략 지원팩",
 	max_num = 0,
 	type = 17,
@@ -14770,6 +14854,417 @@ _G.pg.item_data_statistics[40015] = {
 			4,
 			100011,
 			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40016] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "PR함 개발 패키지(제1기)-고급",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40016,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		},
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40017] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "PR함 개발 패키지(제1기)-일반",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_normal",
+	id = 40017,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40018] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "PR함 개발 패키지(제1기)-업그레이드",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40018,
+	display_icon = {
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40019] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "PR함 개발 패키지(제2기)-고급",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	id = 40019,
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		},
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40020] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "PR함 개발 패키지(제2기)-일반",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_normal",
+	id = 40020,
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40021] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "PR함 개발 패키지(제2기)-업그레이드",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	id = 40021,
+	display_icon = {
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40022] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "즉시 출격 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/lv_70",
+	id = 40022,
+	display_icon = {
+		{
+			8,
+			40126,
+			1
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			4,
+			100011,
+			4
+		},
+		{
+			4,
+			100001,
+			4
+		},
+		{
+			3,
+			21426,
+			3
+		},
+		{
+			3,
+			31026,
+			3
+		},
+		{
+			3,
+			42226,
+			3
+		},
+		{
+			3,
+			32226,
+			3
+		},
+		{
+			3,
+			43026,
+			3
+		},
+		{
+			3,
+			13146,
+			3
+		},
+		{
+			3,
+			14326,
+			3
+		},
+		{
+			3,
+			24146,
+			3
+		},
+		{
+			3,
+			26526,
+			3
+		},
+		{
+			3,
+			16426,
+			3
+		},
+		{
+			3,
+			5146,
+			3
+		},
+		{
+			3,
+			45126,
+			3
+		},
+		{
+			3,
+			17246,
+			3
+		},
+		{
+			3,
+			47126,
+			3
+		},
+		{
+			3,
+			28126,
+			3
+		},
+		{
+			3,
+			38126,
+			3
+		},
+		{
+			3,
+			19126,
+			3
+		},
+		{
+			3,
+			49046,
+			3
+		},
+		{
+			3,
+			45426,
+			3
+		},
+		{
+			3,
+			35526,
+			3
+		},
+		{
+			3,
+			4046,
+			3
+		},
+		{
+			3,
+			1226,
+			3
+		},
+		{
+			3,
+			1326,
+			3
+		},
+		{
+			3,
+			1426,
+			3
+		},
+		{
+			3,
+			2126,
+			3
+		},
+		{
+			3,
+			2226,
+			3
+		},
+		{
+			3,
+			2426,
+			3
+		},
+		{
+			3,
+			2546,
+			3
+		},
+		{
+			3,
+			2606,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40023] = {
+	display = "패키지 구매 시 대량의 아이템 보상 획득",
+	name = "스킬 교본 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxSkill",
+	id = 40023,
+	display_icon = {
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
 		}
 	},
 	price = {},
@@ -15365,6 +15860,135 @@ _G.pg.item_data_statistics[40119] = {
 			1000
 		}
 	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40124] = {
+	display = [[
+연구-개발 도크 화면에서 모나크, 넵튠, 론, 생 루이, 이부키, 이즈모 중 레벨1 및 개발 레벨1의 캐릭터 선택 획득 가능
+<color=#92fc63>위의 캐릭터 모두 보유 후</color>, 창고에서 아이템 사용 시 획득:
+연구 테스트 데이터·제1기*300
+지향형 개조 도면 T3*5
+지향형 개조 도면 T2*10
+성정 큐브*5
+물자*20000]],
+	name = "PR함 가속 개발권·제1기",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research1",
+	id = 40124,
+	display_icon = {
+		{
+			2,
+			20101,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40125] = {
+	display = [[
+연구-개발 도크 화면에서 시애틀, 조지아, 키타카제, 가스코뉴 중 레벨1 및 개발 레벨1의 캐릭터 선택 획득 가능
+<color=#92fc63>위의 캐릭터 모두 보유 후</color>, 창고에서 아이템 사용 시 획득:
+연구 테스트 데이터·제2기*300
+지향형 개조 도면 T3*5
+지향형 개조 도면 T2*10
+성정 큐브*5
+물자*20000]],
+	name = "PR함 가속 개발권·제2기",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research2",
+	id = 40125,
+	display_icon = {
+		{
+			2,
+			20102,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40126] = {
+	display = "지휘관 레벨이 70 미만일 경우, 즉시 70레벨까지 상승(70 이상일 경우 효과 없음)",
+	name = "지휘관 레벨 70",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 23,
+	is_world = 0,
+	icon = "Props/lv_70",
+	id = 40126,
+	display_icon = {},
 	price = {},
 	index = {}
 }
@@ -149418,7 +150042,7 @@ _G.pg.item_data_statistics[59157] = {
 
 _G.pg.item_data_statistics[59158] = {
 	display = "『꼬마 기사의 훈련일 』 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
-	name = "호감도-꼬마 리나운 ",
+	name = "호감도-꼬마 리나운",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -151868,6 +152492,111 @@ _G.pg.item_data_statistics[59282] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59282,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59283] = {
+	display = "『영원한 밤의 환광』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "영예의 왕관",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yingxiv2_pt",
+	id = 59283,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59284] = {
+	display = "『영원한 밤의 환광』 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
+	name = "1회 건조권",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 4298,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59284,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59285] = {
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59285,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59286] = {
+	display = "『꼬마 기사의 훈련일 』 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
+	name = "호감도-꼬마 리나운",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xiaoshengwang_pt",
+	id = 59286,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59287] = {
+	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "훈련 PT ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_y",
+	id = 59287,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -160449,6 +161178,57 @@ _G.pg.item_data_statistics[69000] = {
 	is_world = 0,
 	icon = "Props/guild_boss_damage",
 	id = 69000,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69001] = {
+	display = [[
+可以获得以下装备：
++6 双联装120mm主炮T2*3
++6 双联100mm98式高射炮T2*3
++6 双联装TbtsKC36式150mm主炮T2*3
++6 155mm三连装炮T2*3
++6 双联装203mmSKC主炮T2*3
++6 三联装203mm主炮改进型T3*3
++6 三联装406mm主炮Mk6T2*3
++6 双联装381mm主炮T3*3
++6 双联装113mm高射炮T2*3
++6 四联40mm博福斯对空机炮T2*3
++6 四联装533mm鱼雷T3*3
++6 四联装533mm磁性鱼雷T2*3
++6 F4U海盗T3*3
++6 Me-155A舰载战斗机T2*3
++6 梭鱼T2*3
++6 天山T2*3
++6 SB2C地狱俯冲者T2*3
++6 Ju-87C俯冲轰炸机T3*3
++6 潜艇用G7e声导鱼雷T2*3
++6 潜艇用95式纯氧鱼雷T2*3
++6 基础深弹投射器T3*3
++6 火控雷达T2*3
++6 防鱼雷隔舱T2*3
++6 液压弹射装置T2*3
++6 航空副油箱T2*3
++6 链式装弹机T2*3
++6 维修工具T2*3
++6 灭火器T3*3
++6 九三式纯氧鱼雷T1*3]],
+	name = "장비 보급 상자 T3·즉시 출격",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lv70_equip",
+	id = 69001,
 	display_icon = {},
 	price = {},
 	index = {}

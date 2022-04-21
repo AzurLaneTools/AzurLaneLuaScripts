@@ -316,31 +316,15 @@ function slot0.shiftCard(slot0, slot1, slot2, slot3)
 
 	slot0.shiftIndex = slot2
 
-	slot0:sortSiblingIndex()
+	slot0:sortCardSiblingIndex()
 end
 
-function slot0.sortSiblingIndex(slot0)
-	slot1 = {
+function slot0.sortCardSiblingIndex(slot0)
+	_.each({
 		TeamType.Main,
 		TeamType.Vanguard,
 		TeamType.Submarine
-	}
-	slot2 = 3
-	slot3 = 0
-
-	while slot2 > 0 do
-		_.each(slot1, function (slot0)
-			if uv0.characterList[slot0][uv1] then
-				uv0.characterList[slot0][uv1]:SetSiblingIndex(uv2)
-
-				uv2 = uv2 + 1
-			end
-		end)
-
-		slot2 = slot2 - 1
-	end
-
-	_.each(slot1, function (slot0)
+	}, function (slot0)
 		if #uv0.cards[slot0] > 0 then
 			for slot5 = 1, #slot1 do
 				slot1[slot5].tr:SetSiblingIndex(slot5 - 1)
@@ -607,8 +591,9 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 				uv2.shiftIndex = nil
 
 				uv2:updateUltimateTitle()
-				uv2:switchToEditMode()
-				uv2:sortSiblingIndex()
+				uv2.formationLogic:SwitchToDisplayMode()
+				uv2.formationLogic:SortSiblingIndex()
+				uv2:sortCardSiblingIndex()
 
 				uv2.carddrag = nil
 

@@ -9,6 +9,7 @@ slot0.OPEN_CHARGE_ITEM_PANEL = "ChargeMediator:OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_ITEM_BOX = "ChargeMediator:OPEN_CHARGE_ITEM_BOX"
 slot0.OPEN_CHARGE_BIRTHDAY = "ChargeMediator:OPEN_CHARGE_BIRTHDAY"
 slot0.OPEN_USER_AGREE = "ChargeMediator:OPEN_USER_AGREE"
+slot0.OPEN_TEC_SHIP_GIFT_SELL_LAYER = "ChargeMediator:OPEN_TEC_SHIP_GIFT_SELL_LAYER"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
@@ -73,6 +74,16 @@ function slot0.register(slot0)
 			viewComponent = ChargeJPUserAgreeLayer,
 			data = {
 				contentStr = slot1
+			}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_TEC_SHIP_GIFT_SELL_LAYER, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeTecShipGiftSellMediator,
+			viewComponent = ChargeTecShipGiftSellLayer,
+			data = {
+				showGoodVO = slot1,
+				chargedList = slot2
 			}
 		}))
 	end)

@@ -34,7 +34,7 @@ function slot0.OnDataSetting(slot0)
 		return true
 	end
 
-	if slot0.activity.data1 == 0 and slot0.activity:getConfig("config_client").autounlock <= pg.TimeMgr.GetInstance():GetServerTime() - pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.activity:getConfig("time")[2]) then
+	if slot0.activity.data1 == 0 and slot0.activity:getConfig("config_client").autounlock <= pg.TimeMgr.GetInstance():GetServerTime() - slot0.activity:getStartTime() then
 		slot0:emit(ActivityMediator.EVENT_OPERATION, {
 			arg1 = 1,
 			cmd = 1,

@@ -926,6 +926,10 @@ _G.pg.gametip.word_sell_out = {
 	tip = "품절"
 }
 
+_G.pg.gametip.word_sell_lock = {
+	tip = "미개방"
+}
+
 _G.pg.gametip.word_diamond_tip = {
 	tip = [[
 무료<icon name=diamond w=0.7 h=0.7/>: $1
@@ -2249,11 +2253,11 @@ _G.pg.gametip.mail_count = {
 }
 
 _G.pg.gametip.mail_takeAttachment_error_magazine_full = {
-	tip = "<color=#92fc63>수령 실패：</color>\n\n<color=#92fc63>장비 창고가 꽉 차 있습니다.</color>"
+	tip = "<color=#92fc63>수령 실패</color>. <color=#92fc63>창고 공간 부족</color>."
 }
 
 _G.pg.gametip.mail_takeAttachment_error_dockYrad_full = {
-	tip = "<color=#92fc63>수령 실패：</color>\n\n<color=#92fc63>도크가 꽉 차 있습니다.</color>"
+	tip = "<color=#92fc63>수령 실패</color>. <color=#92fc63>도크 공간 부족</color>."
 }
 
 _G.pg.gametip.mail_confirm_set_important_flag = {
@@ -6655,6 +6659,10 @@ _G.pg.gametip.oil_max_tip_title = {
 
 _G.pg.gametip.gold_max_tip_title = {
 	tip = "물자가 꽉 차 있습니다."
+}
+
+_G.pg.gametip.expbook_max_tip_title = {
+	tip = "함선 연습 데이터 최대치 도달"
 }
 
 _G.pg.gametip.resource_max_tip_shop = {
@@ -17796,6 +17804,10 @@ _G.pg.gametip.cowboy_tips = {
 	}
 }
 
+_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+	tip = "이 가구는 회전할 수 없음"
+}
+
 _G.pg.gametip.chazi_tips = {
 	tip = {
 		{
@@ -19304,6 +19316,39 @@ _G.pg.gametip.fur_onekey_buy = {
 	tip = "세트 구매"
 }
 
+_G.pg.gametip.littleRenown_npc = {
+	tip = {
+		{
+			info = "「꼬마 기사의 훈련일」 설명:"
+		},
+		{
+			info = "1. 이벤트 기간 동안, 임시 NPC 캐릭터 「꼬마 리나운」을 획득합니다. 임시 캐릭터는 서약, 퇴역, 강화 및 돌파 재료로 선택이 불가능합니다."
+		},
+		{
+			info = "2. 이벤트 기간 동안, 일반 난이도 메인 챕터 제3장 이상 또는 이벤트 맵의 기함 격파 시, 임시 NPC 캐릭터 「꼬마 리나운」의 우호도가 증가합니다(대형 작전 포함X)."
+		},
+		{
+			info = "3. 「꼬마 리나운」이 전투에 참여하여 격침당하지 않을 경우, 우호도가 2배로 증가합니다."
+		},
+		{
+			info = "4. 이벤트 종료 전에 우호도를 1000까지 누적하면, 보상을 획득하며 「꼬마 리나운」이 영구 캐릭터로 전환됩니다."
+		},
+		{
+			info = "5. 이벤트 종료 후, 전환되지 않은 임시 캐릭터 「꼬마 리나운」은 모항을 떠나며, 이미 소모한 강화, 돌파 등 성장 재료는 반환되지 않습니다."
+		},
+		{
+			info = "6. NPC 캐릭터는 대형 작전에 참여할 수 없습니다."
+		},
+		{
+			info = "7. NPC 캐릭터는 대함대 작전의 사건 파견, 지원 파견 및 보스전에 참여할 수 없습니다."
+		}
+	}
+}
+
+_G.pg.gametip.tech_package_tip = {
+	tip = "한 패키지만 구매할 수 있습니다. 패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.\n일반 패키지 구매 후에도 고급 패키지로 업그레이드 할 수 있습니다."
+}
+
 _G.pg.gametip.backyard_food_shop_tip = {
 	tip = "필요 다이아:"
 }
@@ -19366,4 +19411,118 @@ _G.pg.gametip.level_remaster_tip3 = {
 
 _G.pg.gametip.level_remaster_tip4 = {
 	tip = "$1 적 기함 처치 횟수"
+}
+
+_G.pg.gametip.skill_learn_tip = {
+	tip = "금일 남은 쾌속 스킬 습득 횟수: $1회"
+}
+
+_G.pg.gametip.build_count_tip = {
+	tip = "누적"
+}
+
+_G.pg.gametip.help_research_package = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/tecshipgifthelp",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.gametip.lv70_package_tip = {
+	tip = "지휘관 레벨이 70이상입니다. 즉시 출격 패키지 구매 후, 지휘관 레벨은 변하지 않습니다(패키지 내 기타 보상은 정상 획득). 구매하시겠습니까?"
+}
+
+_G.pg.gametip.tech_select_tip1 = {
+	tip = "캐릭터 해제 미완료"
+}
+
+_G.pg.gametip.tech_select_tip2 = {
+	tip = "과학연구-개발도크에서 캐릭터 1명을 선택하여 개발 가속 및 획득 가능"
+}
+
+_G.pg.gametip.tech_select_tip3 = {
+	tip = "해제됨"
+}
+
+_G.pg.gametip.tech_select_tip4 = {
+	tip = "캐릭터 해제 완료"
+}
+
+_G.pg.gametip.tech_select_tip5 = {
+	tip = "사용 시 다음 아이템 획득"
+}
+
+_G.pg.gametip.techpackage_item_use = {
+	tip = "가속 개발은 1명의 캐릭터만 선택할 수 있습니다. $1을(를) 개발하시겠습니까?\n개발 후 해당 캐릭터를 획득합니다(레벨1 및 개발 레벨1\n<color=#ff5c5c>$2*1 소모</color>"
+}
+
+_G.pg.gametip.techpackage_item_use_confirm = {
+	tip = "캐릭터 모두 획득함. 사용 시 다음 아이템을 획득합니다."
+}
+
+_G.pg.gametip.newserver_shop_timelimit = {
+	tip = "해당 상점은 $1 후 해제됩니다."
+}
+
+_G.pg.gametip.tech_character_get = {
+	tip = "획득함"
+}
+
+_G.pg.gametip.package_detail_tip = {
+	tip = "상세 확인"
+}
+
+_G.pg.gametip.event_ui_consume = {
+	tip = "소모:"
+}
+
+_G.pg.gametip.event_ui_recommend = {
+	tip = "추천"
+}
+
+_G.pg.gametip.event_ui_start = {
+	tip = "시작"
+}
+
+_G.pg.gametip.event_ui_giveup = {
+	tip = "취소"
+}
+
+_G.pg.gametip.event_ui_finish = {
+	tip = "완료"
+}
+
+_G.pg.gametip.nav_tactics_sel_skill_title = {
+	tip = "스킬 선택"
+}
+
+_G.pg.gametip.battle_result_confirm = {
+	tip = "확인"
+}
+
+_G.pg.gametip.battle_result_targets = {
+	tip = "전투 평가"
+}
+
+_G.pg.gametip.battle_result_continue = {
+	tip = "터치하여 계속하기"
 }

@@ -127,7 +127,12 @@ function slot0.UpdateMessage(slot0, slot1, slot2)
 		ChatProxy.InjectPublic(slot4, slot2, true)
 	elseif slot2:IsWorldBossNotify() then
 		slot4.supportRichText = true
-		slot4.text = i18n("ad_4", slot2.args.supportType, slot2.args.playerName, slot2.args.bossName, slot2.args.level)
+
+		if GetPerceptualSize(slot2.args.playerName .. slot2.args.bossName) - 18 > 0 then
+			slot6 = shortenString(slot6, GetPerceptualSize(slot6) - slot8)
+		end
+
+		slot4.text = i18n("ad_4", slot2.args.supportType, slot5, slot6, slot2.args.level)
 	else
 		slot4.supportRichText = slot2.emojiId ~= nil
 		slot4.text = slot0:MatchEmoji(slot4, slot2)

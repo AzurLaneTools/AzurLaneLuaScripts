@@ -58,7 +58,13 @@ function slot0.OnCardClick(slot0, slot1)
 	end
 
 	if slot1.goods:Selectable() then
-		slot0.purchaseWindow:ExecuteAction("Show", slot1.goods)
+		slot0.purchaseWindow:ExecuteAction("Show", {
+			id = slot1.goods.id,
+			count = slot1.goods:GetMaxCnt(),
+			type = slot1.goods:getConfig("type"),
+			price = slot1.goods:getConfig("price"),
+			displays = slot1.goods:getConfig("goods")
+		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			showOwned = true,

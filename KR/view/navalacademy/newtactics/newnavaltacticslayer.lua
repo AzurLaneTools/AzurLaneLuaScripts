@@ -67,9 +67,11 @@ function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("adpter/frame/btnBack")
 	slot0.option = slot0:findTF("adpter/frame/option")
 	slot0.stampBtn = slot0:findTF("stamp")
+	slot0.quickFinishPanel = slot0:findTF("painting/quick_finish", slot0.mainPanel)
+	slot0.quickFinishText = slot0:findTF("painting/quick_finish/Text", slot0.mainPanel)
 	slot0.studentsPage = NewNavalTacticsStudentsPage.New(slot0:findTF("adpter"), slot0.event)
 	slot0.unlockPage = NewNavalTacticsUnlockSlotPage.New(slot0._tf, slot0.event)
-	slot0.selSkillPage = NewNavalTacticsSelSkillsPage.New(slot0._tf, slot0.event)
+	slot0.selSkillPage = NewNavalTacticsSelSkillsPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.selLessonPage = NewNavalTacticsSelLessonPage.New(slot0._tf, slot0.event)
 	slot0.finishLessonUtil = NewNavalTacticsFinishLessonUtil.New(slot0.studentsPage, slot0.selLessonPage)
 end
@@ -119,6 +121,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	slot0:SetPainting()
 	slot0:Init()
+	slot0:OnUpdateQuickFinishPanel()
 	slot0.studentsPage:ExecuteAction("Show", slot0.students)
 end
 
@@ -126,7 +129,7 @@ function slot0.Init(slot0)
 	if slot0.contextData.shipToLesson then
 		slot0.inAddStudentProcess = true
 
-		slot0:AddStudent(slot0.contextData.shipToLesson.shipId, slot0.contextData.shipToLesson.index)
+		slot0:AddStudent(slot0.contextData.shipToLesson.shipId, slot0.contextData.shipToLesson.index, slot0.contextData.shipToLesson.skillIndex)
 
 		slot0.contextData.shipToLesson = nil
 	elseif slot0.contextData.metaShipID then
@@ -136,6 +139,11 @@ function slot0.Init(slot0)
 
 		slot0.contextData.metaShipID = nil
 	end
+end
+
+function slot0.OnUpdateQuickFinishPanel(slot0)
+	setActive(slot0.quickFinishPanel, getProxy(NavalAcademyProxy):getDailyFinishCnt() > 0)
+	setText(slot0.quickFinishText, i18n("skill_learn_tip", slot1))
 end
 
 function slot0.SetPainting(slot0)
@@ -169,11 +177,11 @@ function slot0.ShowMetaShipSkill(slot0, slot1)
 	end)
 end
 
-function slot0.AddStudent(slot0, slot1, slot2)
+function slot0.AddStudent(slot0, slot1, slot2, slot3)
 	slot0.selSkillPage:ExecuteAction("Show", Student.New({
 		id = slot2,
 		ship_id = slot1
-	}))
+	}), slot3)
 end
 
 function slot0.AddStudentFinish(slot0, slot1)

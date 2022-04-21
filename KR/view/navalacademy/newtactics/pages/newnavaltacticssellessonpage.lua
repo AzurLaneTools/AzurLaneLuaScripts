@@ -68,6 +68,8 @@ function slot0.Show(slot0, slot1, slot2)
 		slot0.student = slot1
 
 		slot0:Flush()
+	else
+		slot0:Flush()
 	end
 end
 
@@ -189,6 +191,10 @@ function slot0.UpdateSkill(slot0, slot1, slot2, slot3)
 end
 
 function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
+
 	slot0.skillCard:Dispose()
 
 	slot0.skillCard = nil

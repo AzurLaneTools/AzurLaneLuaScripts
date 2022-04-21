@@ -1,5 +1,120 @@
 pg = pg or {}
 pg.ship_skin_template_10 = {
+	[301842] = {
+		ship_group = 30184,
+		name = "신년 하네츠키 대전!",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 301842,
+		group_index = 2,
+		prefab = "liangyue_3",
+		painting = "liangyue_3",
+		shop_id = 70467,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 2,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "나는 니이즈키급 구축함 스즈츠키! 나 스즈츠키가 절대 너를 모항 대문을 통과하지 못하도록...... 와왁!? 또 잃어버렸어!",
+		voice_actor = 245,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.505,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.475,
+					0.995,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.499,
+					1.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.586,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301850] = {
 		ship_group = 30185,
 		name = "오이테",
@@ -9244,119 +9359,6 @@ pg.ship_skin_template_10 = {
 						{
 							-0.202,
 							2.461,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304021] = {
-		ship_group = 30402,
-		name = "은밀한 밀월 유람 ",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 304021,
-		group_index = 1,
-		prefab = "birui_2",
-		painting = "birui_2",
-		shop_id = 70091,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "벌써 이런 시간이네요……지휘관님, 함께 꿈 같은 순례를 하는 건 어떠신가요? ",
-		voice_actor = 76,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand2",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.36,
-					0.83,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.31,
-					0.85,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.11,
-					0.067,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.27,
-					0.79,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.3,
 							0
 						}
 					}

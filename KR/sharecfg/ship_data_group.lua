@@ -9028,6 +9028,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[461] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 5,
+		nationality = 2,
+		handbook_type = 0,
+		index_id = 202,
+		code = 461,
+		group_type = 20509,
+		trans_type = 0,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 영원한 밤의 환광",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[140] = {
 		trans_skin = 206019,
 		redirect_id = 101,
@@ -22094,6 +22125,7 @@ pg.ship_data_group = {
 		134,
 		135,
 		136,
+		461,
 		140,
 		142,
 		376,
