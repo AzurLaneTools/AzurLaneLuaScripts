@@ -376,22 +376,21 @@ end
 
 function slot0.OnClearItemInterAction(slot0, slot1, slot2, slot3)
 	slot4 = slot0:Item2Module(slot1)
-	slot5 = slot0:Item2Module(slot2)
 
-	if #slot2:GetUsingSlots() == 0 then
+	if isa(slot0:Item2Module(slot2), CourtYardFurnitureModule) and #slot2:GetUsingSlots() == 0 then
 		slot5:BlocksRaycasts(false)
 	end
 
-	slot7 = slot0:Item2Module(slot2)
+	slot6 = slot0:Item2Module(slot2)
 
 	if slot3:GetBodyMask() then
-		slot8 = slot5:GetBodyMask(slot3.id)
+		slot7 = slot5:GetBodyMask(slot3.id)
 
-		slot8:SetParent(slot5.interactionTF)
+		slot7:SetParent(slot5.interactionTF)
 
-		slot10 = slot2:GetBodyMasks()[slot3.id]
-		slot8.sizeDelta = slot10.size
-		slot8.anchoredPosition = slot10.offset
+		slot9 = slot2:GetBodyMasks()[slot3.id]
+		slot7.sizeDelta = slot9.size
+		slot7.anchoredPosition = slot9.offset
 	end
 
 	slot4._tf:SetParent(slot4:GetParentTF())

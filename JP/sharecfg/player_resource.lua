@@ -760,6 +760,11 @@ pg.player_resource = {
 		name = "newserver_pt_220414",
 		itemid = 59289
 	},
+	[250] = {
+		id = 250,
+		name = "gonghaijiandui_frame_pt",
+		itemid = 59305
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1397,6 +1402,9 @@ pg.player_resource = {
 		newserver_pt_220414 = {
 			249
 		},
+		gonghaijiandui_frame_pt = {
+			250
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1659,6 +1667,7 @@ pg.player_resource = {
 		247,
 		248,
 		249,
+		250,
 		950,
 		951,
 		952,

@@ -32,4 +32,11 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.heartUIItemList:align(slot2)
 end
 
+function slot0.OnFirstFlush(slot0)
+	uv0.super.OnFirstFlush(slot0)
+	onButton(slot0, slot0.battleBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LEVEL)
+	end, SFX_PANEL)
+end
+
 return slot0

@@ -49,12 +49,7 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 
 	slot11, slot12 = slot0:GetProgressColor()
 
-	if slot11 and slot12 then
-		setText(slot0:findTF("progressText", slot2), "<color=" .. slot11 .. ">" .. slot9 .. "</color><color=" .. slot12 .. ">/" .. slot10 .. "</color>")
-	else
-		setText(slot0:findTF("progressText", slot2), slot9 .. "/" .. slot10)
-	end
-
+	setText(slot0:findTF("progressText", slot2), (slot11 and setColorStr(slot9, slot11) or slot9) .. (slot12 and setColorStr("/" .. slot10, slot12) or "/" .. slot10))
 	setSlider(slot0:findTF("progress", slot2), 0, slot10, slot9)
 
 	slot14 = slot0:findTF("get_btn", slot2)

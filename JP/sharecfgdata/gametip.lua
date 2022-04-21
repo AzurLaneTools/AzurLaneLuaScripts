@@ -20234,3 +20234,55 @@ _G.pg.gametip.battle_result_targets = {
 _G.pg.gametip.battle_result_continue = {
 	tip = "画面をタッチ"
 }
+
+_G.pg.gametip.activity_kill = {
+	tip = "累計撃破"
+}
+
+_G.pg.gametip.battle_result_dmg = {
+	tip = "ダメージ"
+}
+
+_G.pg.gametip.battle_result_kill_count = {
+	tip = "撃破数"
+}
+
+_G.pg.gametip.battle_result_toggle_on = {
+	tip = "潜 水 艦 隊"
+}
+
+_G.pg.gametip.battle_result_toggle_off = {
+	tip = "出 撃 艦 隊"
+}
+
+_G.pg.gametip.battle_result_continue_battle = {
+	tip = "戦 闘 継 続"
+}
+
+_G.pg.gametip.battle_result_quit_battle = {
+	tip = "戦 闘 中 断"
+}
+
+_G.pg.gametip.pre_combat_team = {
+	tip = "出撃艦隊"
+}
+
+_G.pg.gametip.pre_combat_vanguard = {
+	tip = "前衛艦隊"
+}
+
+_G.pg.gametip.pre_combat_main = {
+	tip = "主力艦隊"
+}
+
+_G.pg.gametip.pre_combat_submarine = {
+	tip = "潜水艦隊"
+}
+
+_G.pg.gametip.destroy_confirm_access = {
+	tip = "確 定"
+}
+
+_G.pg.gametip.destroy_confirm_cancel = {
+	tip = "戻 る"
+}

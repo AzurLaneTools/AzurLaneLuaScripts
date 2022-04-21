@@ -13,7 +13,7 @@ function slot0.Make(slot0, slot1)
 		rtf(slot0).sizeDelta = Vector2.New(200, 500)
 
 		SetParent(slot0, uv1)
-		slot0.transform:SetSiblingIndex(1)
+		slot0.transform:SetSiblingIndex(2)
 		setActive(uv1, true)
 		uv2:OnIconLoaed()
 		uv2:Init()

@@ -272,7 +272,8 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			uv0:emit(BaseUI.ON_EQUIPMENT, {
 				type = EquipmentInfoMediator.TYPE_SHIP,
 				shipId = uv1.id,
-				pos = uv2
+				pos = uv2,
+				LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
 			})
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	else

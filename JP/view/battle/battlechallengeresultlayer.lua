@@ -34,6 +34,10 @@ function slot0.init(slot0)
 	uv0.super.init(slot0)
 
 	slot0._challengeBottomPanel = slot0:findTF("challenge_confirm", slot0._blurConatiner)
+
+	setText(findTF(slot0._challengeBottomPanel, "continue_btn/text"), i18n("battle_result_continue_battle"))
+	setText(findTF(slot0._challengeBottomPanel, "quit_btn/text"), i18n("battle_result_quit_battle"))
+
 	slot0._shareBtn = slot0:findTF("share_btn", slot0._challengeBottomPanel)
 	slot0._continueBtn = slot0:findTF("continue_btn", slot0._challengeBottomPanel)
 	slot0._quitBtn = slot0:findTF("quit_btn", slot0._challengeBottomPanel)

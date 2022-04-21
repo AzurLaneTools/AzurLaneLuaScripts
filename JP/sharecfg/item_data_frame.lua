@@ -324,6 +324,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>ソビエツキー・ソユーズが贈る、軍功が卓越した戦士への褒章品。</color>――「鳴動せし星霜の淵」イベントで入手可能",
 		scene = {}
 	},
+	[319] = {
+		time_limit_type = 0,
+		name = "瑠璃の特異点",
+		gain_by = "",
+		id = 319,
+		time_second = 0,
+		desc = "限定海域イベントをクリアで入手",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -424,6 +433,7 @@ pg.item_data_frame = {
 		316,
 		317,
 		318,
+		319,
 		401,
 		402,
 		403,

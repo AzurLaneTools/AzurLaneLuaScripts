@@ -42,6 +42,8 @@ function slot0.Occupy(slot0, slot1, slot2, slot3)
 		slot0.observer = slot3
 		slot0.state = uv1
 
+		slot2:WillInteraction(slot0)
+		slot1:WillInteraction(slot0)
 		slot0:OnAwake()
 		slot3:StartInteraction(slot0)
 		slot2:StartInteraction(slot0)
