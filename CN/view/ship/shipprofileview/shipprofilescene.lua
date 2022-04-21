@@ -114,6 +114,18 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.evaBtn, not slot0.contextData.showTrans)
 	onButton(slot0, slot0.viewBtn, function ()
+		if LeanTween.isTweening(uv0.chatTF.gameObject) then
+			LeanTween.cancel(uv0.chatTF.gameObject)
+
+			uv0.chatTF.localScale = Vector3(0, 0, 0)
+
+			if uv0.dailogueCallback then
+				uv0.dailogueCallback()
+
+				uv0.dailogueCallback = nil
+			end
+		end
+
 		uv0.paintingView:Start()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.shareBtn, function ()
@@ -658,11 +670,13 @@ function slot0.RemoveLive2DTimer(slot0)
 end
 
 function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
-	slot3 = slot3 or function ()
+	slot0.dailogueCallback = slot3 or function ()
 	end
 
 	if not slot1.wordData.textContent or slot4 == "" or slot4 == "nil" then
-		slot3()
+		slot0.dailogueCallback()
+
+		slot0.dailogueCallback = nil
 
 		return
 	end
@@ -677,7 +691,11 @@ function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
 	slot0:StopDailogue()
 	setActive(slot0.chatTF, true)
 	LeanTween.scale(rtf(slot0.chatTF.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setDelay(slot5 and slot5 or 0):setOnComplete(System.Action(function ()
-		LeanTween.scale(rtf(uv0.chatTF.gameObject), Vector3.New(0, 0, 1), uv1.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv1.CHAT_ANIMATION_TIME + uv2[1]):setOnComplete(System.Action(uv3))
+		LeanTween.scale(rtf(uv0.chatTF.gameObject), Vector3.New(0, 0, 1), uv1.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv1.CHAT_ANIMATION_TIME + uv2[1]):setOnComplete(System.Action(function ()
+			uv0.dailogueCallback()
+
+			uv0.dailogueCallback = nil
+		end))
 	end))
 end
 

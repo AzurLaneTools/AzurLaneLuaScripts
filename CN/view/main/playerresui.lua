@@ -1,5 +1,6 @@
 slot0 = class("PlayerResUI", pm.Mediator)
 slot0.GO_MALL = "PlayerResUI:GO_MALL"
+slot0.CHANGE_TOUCH_ABLE = "PlayerResUI:CHANGE_TOUCH_ABLE"
 slot1 = 1
 slot2 = 2
 slot3 = 3
@@ -98,7 +99,23 @@ function slot0.SetActive(slot0, slot1, slot2)
 	end
 end
 
+function slot0.PinUp(slot0, slot1)
+	slot0:SetActive(true, slot1)
+
+	slot0.pin = true
+end
+
+function slot0.UnPin(slot0)
+	slot0.pin = false
+
+	slot0:SetActive(false)
+end
+
 function slot0.Enable(slot0, slot1)
+	if slot0.pin then
+		return
+	end
+
 	if not slot1 then
 		if slot0:IsEnable() then
 			slot0:Disable()
@@ -131,6 +148,10 @@ function slot0.Enable(slot0, slot1)
 end
 
 function slot0.Disable(slot0)
+	if slot0.pin then
+		return
+	end
+
 	if not slot0:IsEnable() or slot0.balance ~= 1 then
 		return
 	end
@@ -289,7 +310,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE,
 		GAME.START_LOAD_SCENE,
 		GAME.WILL_LOAD_LAYERS,
-		GAME.REMOVE_LAYERS
+		GAME.REMOVE_LAYERS,
+		PlayerResUI.CHANGE_TOUCH_ABLE
 	}
 end
 
@@ -299,9 +321,22 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.balance = 1
 	end
 
+	if slot2 == PlayerResUI.CHANGE_TOUCH_ABLE then
+		slot3 = slot1:getBody()
+		slot4 = GetComponent(tf(slot0._go), typeof(CanvasGroup))
+		slot4.interactable = slot3
+		slot4.blocksRaycasts = slot3
+
+		return
+	end
+
 	if not slot0.isResScene then
 		slot0:updateResPanel(slot2)
 
+		return
+	end
+
+	if slot0.pin then
 		return
 	end
 

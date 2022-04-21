@@ -74,6 +74,10 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 end
 
 function slot0.checkActivityTask(slot0, slot1)
+	if slot1:isFinish() and not slot1:isReceive() then
+		return true
+	end
+
 	if slot0.itemTasks and table.contains(slot0.itemTasks, slot1.id) then
 		if slot0.gotFrameItem then
 			return false
@@ -90,11 +94,11 @@ function slot0.initItemFrame(slot0)
 		for slot6, slot7 in ipairs(slot2) do
 			if slot7:getConfig("config_client") then
 				slot8 = slot7:getConfig("config_client")
-				slot10 = slot8.item_frame_act and slot1:getActivityById(slot8.item_frame_act) or nil
+				slot10 = slot8.frame_item_act and slot1:getActivityById(slot8.frame_item_act) or nil
 
-				if slot8.item_frame and (not slot10 or slot10:isEnd()) and slot7:getConfig("config_data") and #slot11 > 0 then
+				if slot8.frame_item and (not slot10 or slot10:isEnd()) and slot7:getConfig("config_data") and #slot11 > 0 then
 					slot0.itemTasks = slot11
-					slot0.gotFrameItem = getProxy(AttireProxy).data.iconFrames[slot9].state == AttireFrame.STATE_UNLOCK
+					slot0.gotFrameItem = getProxy(AttireProxy).data.iconFrames[slot9]:getState() == AttireFrame.STATE_UNLOCK
 				end
 			end
 		end

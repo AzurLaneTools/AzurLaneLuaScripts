@@ -86,6 +86,9 @@ function slot0.Refresh(slot0, slot1, slot2)
 	else
 		slot0:Init(slot1, slot2)
 	end
+
+	setActive(slot0.chatTxt.gameObject, false)
+	setActive(slot0.chatTxt.gameObject, true)
 end
 
 function slot0.Disable(slot0)

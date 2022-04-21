@@ -26122,6 +26122,283 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5751] = {
+		name = "为什么秘书舰是我？",
+		guild_coin_award = 0,
+		award = 5541,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5752",
+		auto_commit = 0,
+		story_id = "AIDINGBAO1",
+		id = 5751,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5752] = {
+		name = "失落和笑容",
+		guild_coin_award = 0,
+		award = 5542,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO2",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "5753",
+		auto_commit = 0,
+		scene = "",
+		id = 5752,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5753] = {
+		name = "叹息的午后",
+		guild_coin_award = 0,
+		award = 5543,
+		type = 5,
+		desc = "爱丁堡上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO3",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "5754",
+		auto_commit = 0,
+		scene = "",
+		id = 5753,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5754] = {
+		name = "冒冒失失也要向前看",
+		guild_coin_award = 0,
+		award = 5544,
+		type = 5,
+		desc = "爱丁堡上阵完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 19,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO4",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "5755",
+		auto_commit = 0,
+		scene = "",
+		id = 5754,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5755] = {
+		name = "意想不到的邀请",
+		guild_coin_award = 0,
+		award = 5545,
+		type = 5,
+		desc = "爱丁堡好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO5",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "5756",
+		auto_commit = 0,
+		scene = "",
+		id = 5755,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5756] = {
+		name = "同甘共苦的二人",
+		guild_coin_award = 0,
+		award = 5546,
+		type = 5,
+		desc = "爱丁堡突破至满星",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO6",
+		quick_finish = 0,
+		level = 1,
+		target_id = "202114",
+		priority_type = 0,
+		next_task = "5757",
+		auto_commit = 0,
+		scene = "",
+		id = 5756,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5757] = {
+		name = "她的价值，大家都知道",
+		guild_coin_award = 0,
+		award = 5547,
+		type = 5,
+		desc = "爱丁堡等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO7",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 5757,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		name = "困难·近海演习",
 		guild_coin_award = 0,
@@ -204830,6 +205107,13 @@ pg.task_data_template = {
 		5745,
 		5746,
 		5747,
+		5751,
+		5752,
+		5753,
+		5754,
+		5755,
+		5756,
+		5757,
 		6001,
 		6002,
 		6003,

@@ -17317,6 +17317,36 @@ pg.activity_event_pt = {
 			7
 		}
 	},
+	[4316] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		drop_display = "",
+		end_time = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 4316,
+		link_id = 0,
+		pt_list = "",
+		id = 4316,
+		pt = 250,
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				319,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0
+		}
+	},
 	[1020] = {
 		convert_resource_type = 0,
 		unlock_story = "",
@@ -24051,6 +24081,92 @@ pg.activity_event_pt = {
 			7
 		}
 	},
+	[6010] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 3,
+		buff_group = "",
+		drop_display = "",
+		end_time = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 6010,
+		link_id = 0,
+		pt_list = "",
+		id = 6010,
+		pt = 0,
+		target = {
+			100,
+			200,
+			300,
+			500,
+			700,
+			1000,
+			1300,
+			1600,
+			2000
+		},
+		drop_client = {
+			{
+				5,
+				42101,
+				1
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				5,
+				42108,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			},
+			{
+				5,
+				42112,
+				1
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				5,
+				42115,
+				1
+			},
+			{
+				2,
+				54016,
+				15
+			},
+			{
+				7,
+				107032,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9
+		}
+	},
 	[100004] = {
 		convert_resource_type = 0,
 		unlock_story = "",
@@ -24224,6 +24340,7 @@ pg.activity_event_pt = {
 		4297,
 		4302,
 		4307,
+		4316,
 		1020,
 		1021,
 		1022,
@@ -24244,6 +24361,7 @@ pg.activity_event_pt = {
 		4008,
 		4100,
 		6006,
+		6010,
 		100004
 	}
 }

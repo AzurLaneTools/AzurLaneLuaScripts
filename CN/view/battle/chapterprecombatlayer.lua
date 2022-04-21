@@ -56,8 +56,13 @@ function slot0.init(slot0)
 		Shift = function (slot0, slot1, slot2)
 		end
 	}, slot0._formationLogic)
+	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
 
 	slot0._fleet = slot0:findTF("middle/fleet")
+
+	setText(findTF(slot0._fleet, "title_bg/Text"), i18n("pre_combat_team"))
+
 	slot0._ship_tpl = findTF(slot0._fleet, "shiptpl")
 	slot0._empty_tpl = findTF(slot0._fleet, "emptytpl")
 

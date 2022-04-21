@@ -324,6 +324,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「对在极地任务中做出卓越贡献的同志致以最崇高的敬意，欢迎回家！」</color>\n「深度回音」活动获取",
 		scene = {}
 	},
+	[319] = {
+		time_limit_type = 0,
+		name = "终幕奇点",
+		gain_by = "",
+		id = 319,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -424,6 +433,7 @@ pg.item_data_frame = {
 		316,
 		317,
 		318,
+		319,
 		401,
 		402,
 		404,

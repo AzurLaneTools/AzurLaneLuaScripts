@@ -25,8 +25,6 @@ function slot0.OnFurnitureUpdated(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.furniture:getConfig("id") == slot1:getConfig("id") then
 			slot6:Flush(slot1, slot0.dorm:GetPutCntForFurniture(slot1))
-
-			break
 		end
 	end
 end

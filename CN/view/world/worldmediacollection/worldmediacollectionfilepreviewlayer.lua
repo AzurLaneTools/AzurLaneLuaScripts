@@ -35,7 +35,9 @@ function slot0.didEnter(slot0)
 
 	slot3 = slot0.animBar:Find("Anim/Frame/Mask/Name")
 	slot4 = slot3:GetComponent(typeof(Text))
-	slot3:GetComponent(typeof(ScrollText)).enabled = false
+
+	RemoveComponent(slot3, typeof(ScrollText))
+
 	slot3.pivot = Vector2(0, 0.5)
 	slot3.anchorMin = Vector2(0, 0.5)
 	slot3.anchorMax = Vector2(0, 0.5)
@@ -43,29 +45,30 @@ function slot0.didEnter(slot0)
 	slot4.text = tostring(slot1.name or "")
 	slot2.preferredWidth = math.min(slot4.preferredWidth, slot0.animBar:Find("Anim/Frame/Mask"):GetComponent(typeof(LayoutElement)).preferredWidth)
 
-	function slot7()
+	function slot6()
 		onButton(uv0, uv0._tf, function ()
 			uv0:closeView()
 		end)
 	end
 
-	function slot8()
+	function slot7()
 		if uv1 < uv0.preferredWidth then
 			uv2.pivot = Vector2(0.5, 0.5)
 			uv2.anchorMin = Vector2(0.5, 0.5)
 			uv2.anchorMax = Vector2(0.5, 0.5)
-			uv3.enabled = true
+
+			setScrollText(uv2, uv3.name or "")
 		end
 	end
 
 	removeOnButton(slot0._tf)
 
 	if slot0.animBar:GetComponent(typeof(DftAniEvent)) then
-		slot9:SetTriggerEvent(slot8)
-		slot9:SetEndEvent(slot7)
+		slot8:SetTriggerEvent(slot7)
+		slot8:SetEndEvent(slot6)
 	else
-		slot8()
 		slot7()
+		slot6()
 	end
 
 	onButton(slot0, slot0.animBar:Find("Button"), function ()

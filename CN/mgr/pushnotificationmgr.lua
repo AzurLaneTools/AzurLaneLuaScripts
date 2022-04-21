@@ -75,48 +75,42 @@ function slot1.cancelAll(slot0)
 end
 
 function slot1.PushAll(slot0)
-	slot1 = uv0.SdkMgr.GetInstance():GetChannelUID() == "0"
-
-	if PLATFORM_CODE == PLATFORM_US and slot1 and CSharpVersion == 45 then
-		return
-	end
-
-	if getProxy(PlayerProxy) and slot2:getInited() then
+	if getProxy(PlayerProxy) and slot1:getInited() then
 		slot0:cancelAll()
 
-		if uv1[uv2.PUSH_TYPE_EVENT] then
+		if uv0[uv1.PUSH_TYPE_EVENT] then
 			slot0:PushEvent()
 		end
 
-		if uv1[uv2.PUSH_TYPE_GOLD] then
+		if uv0[uv1.PUSH_TYPE_GOLD] then
 			slot0:PushGold()
 		end
 
-		if uv1[uv2.PUSH_TYPE_OIL] then
+		if uv0[uv1.PUSH_TYPE_OIL] then
 			slot0:PushOil()
 		end
 
-		if uv1[uv2.PUSH_TYPE_BACKYARD] then
+		if uv0[uv1.PUSH_TYPE_BACKYARD] then
 			slot0:PushBackyard()
 		end
 
-		if uv1[uv2.PUSH_TYPE_SCHOOL] then
+		if uv0[uv1.PUSH_TYPE_SCHOOL] then
 			slot0:PushSchool()
 		end
 
-		if uv1[uv2.PUSH_TYPE_TECHNOLOGY] then
+		if uv0[uv1.PUSH_TYPE_TECHNOLOGY] then
 			slot0:PushTechnlogy()
 		end
 
-		if uv1[uv2.PUSH_TYPE_BLUEPRINT] then
+		if uv0[uv1.PUSH_TYPE_BLUEPRINT] then
 			slot0:PushBluePrint()
 		end
 
-		if uv1[uv2.PUSH_TYPE_COMMANDER] then
+		if uv0[uv1.PUSH_TYPE_COMMANDER] then
 			slot0:PushCommander()
 		end
 
-		if uv1[uv2.PUSH_TYPE_GUILD_MISSION_FORMATION] then
+		if uv0[uv1.PUSH_TYPE_GUILD_MISSION_FORMATION] then
 			slot0:PushGuildMissionFormation()
 		end
 	end

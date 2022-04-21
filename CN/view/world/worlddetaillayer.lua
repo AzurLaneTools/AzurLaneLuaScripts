@@ -145,6 +145,12 @@ function slot0.Register(slot0)
 
 	slot2 = slot0.formationLogic
 
+	slot2:AddCheckRemove(function (slot0, slot1, slot2, slot3, slot4)
+		slot0()
+	end)
+
+	slot2 = slot0.formationLogic
+
 	slot2:AddLongPress(function (slot0, slot1, slot2)
 		uv0:emit(WorldDetailMediator.OnShipInfo, slot1.id)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)

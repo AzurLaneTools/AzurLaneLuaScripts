@@ -19944,3 +19944,55 @@ _G.pg.gametip.battle_result_targets = {
 _G.pg.gametip.battle_result_continue = {
 	tip = "点击继续"
 }
+
+_G.pg.gametip.activity_kill = {
+	tip = "累计击沉"
+}
+
+_G.pg.gametip.battle_result_dmg = {
+	tip = "输出"
+}
+
+_G.pg.gametip.battle_result_kill_count = {
+	tip = "击杀"
+}
+
+_G.pg.gametip.battle_result_toggle_on = {
+	tip = "潜 艇 编 队"
+}
+
+_G.pg.gametip.battle_result_toggle_off = {
+	tip = "水 面 编 队"
+}
+
+_G.pg.gametip.battle_result_continue_battle = {
+	tip = "继 续 战 斗"
+}
+
+_G.pg.gametip.battle_result_quit_battle = {
+	tip = "退 出 挑 战"
+}
+
+_G.pg.gametip.pre_combat_team = {
+	tip = "出击舰队"
+}
+
+_G.pg.gametip.pre_combat_vanguard = {
+	tip = "先锋舰队"
+}
+
+_G.pg.gametip.pre_combat_main = {
+	tip = "主力舰队"
+}
+
+_G.pg.gametip.pre_combat_submarine = {
+	tip = "潜艇舰队"
+}
+
+_G.pg.gametip.destroy_confirm_access = {
+	tip = "确 定"
+}
+
+_G.pg.gametip.destroy_confirm_cancel = {
+	tip = "取 消"
+}

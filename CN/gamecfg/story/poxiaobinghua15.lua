@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "不是说好跟着她们一起前往萨摩斯么，怎么你一个人留在这里了！",
+			say = "不是说好跟着她们一起前往萨默斯么，怎么你一个人留在这里了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			oldPhoto = true,
 			actorName = "？？",
-			say = "就是提前想到了这种可能才决定让你跟着她们去萨摩斯执行任务的嘛……",
+			say = "就是提前想到了这种可能才决定让你跟着她们去萨默斯执行任务的嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

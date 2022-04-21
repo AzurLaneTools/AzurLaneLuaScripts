@@ -271,6 +271,10 @@ function slot0.GetMaskNames(slot0)
 	return slot1
 end
 
+function slot0.IsMultiMask(slot0)
+	return not slot0:IsSpine() and table.getCount(slot0:GetMaskNames()) > 0 and slot0:GetSlotCnt() > 1
+end
+
 function slot0.GetBodyMasks(slot0)
 	slot1 = {}
 
@@ -358,6 +362,10 @@ end
 
 function slot0.IsInteractionState(slot0)
 	return slot0.state == uv0.STATE_INTERACT
+end
+
+function slot0.WillInteraction(slot0, slot1)
+	slot0:DispatchEvent(CourtYardEvent.FURNITURE_WILL_INTERACTION, slot1)
 end
 
 function slot0.StartInteraction(slot0, slot1)

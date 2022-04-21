@@ -237,6 +237,17 @@ pg.activity_task_permanent = {
 			35117
 		}
 	},
+	[6010] = {
+		gametip = "可获得萨拉托加限定换装「异国的偶像？」",
+		banner_route = "permanent_salatuojia",
+		gametip_extra = "最快9日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6010,
+		activity_name = "异国的偶像？",
+		over_task_id = "",
+		eliminate_task_id = {}
+	},
 	all = {
 		6000,
 		6001,
@@ -247,6 +258,7 @@ pg.activity_task_permanent = {
 		6006,
 		6007,
 		6008,
-		6009
+		6009,
+		6010
 	}
 }
