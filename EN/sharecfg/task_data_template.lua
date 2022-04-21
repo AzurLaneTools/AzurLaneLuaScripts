@@ -25841,7 +25841,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5534,
 		type = 5,
-		desc = "Acquire 3 \"Torpedo Tempura]\" (will be automatically consumed.)",
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
 		count_inherit = 0,
 		sub_type = 1000,
 		target_id_2 = "",
@@ -26109,6 +26109,283 @@ pg.task_data_template = {
 			{
 				2,
 				18002,
+				2
+			}
+		}
+	},
+	[5751] = {
+		name = "Why Am I the Secretary?",
+		guild_coin_award = 0,
+		award = 5541,
+		type = 5,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5752",
+		auto_commit = 0,
+		story_id = "AIDINGBAO1",
+		id = 5751,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5752] = {
+		name = "Dejection and Smiles",
+		guild_coin_award = 0,
+		award = 5542,
+		type = 5,
+		desc = "Enhance any character 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO2",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "5753",
+		auto_commit = 0,
+		scene = "",
+		id = 5752,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5753] = {
+		name = "An Afternoon of Sighs",
+		guild_coin_award = 0,
+		award = 5543,
+		type = 5,
+		desc = "Sortie and obtain 20 victories with Edinburgh in the fleet.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO3",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "5754",
+		auto_commit = 0,
+		scene = "",
+		id = 5753,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5754] = {
+		name = "Even the Meek Move Forward",
+		guild_coin_award = 0,
+		award = 5544,
+		type = 5,
+		desc = "Complete 3 Daily Challenges with Edinburgh in the fleet.",
+		count_inherit = 0,
+		sub_type = 19,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO4",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "5755",
+		auto_commit = 0,
+		scene = "",
+		id = 5754,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5755] = {
+		name = "An Unexpected Invitation",
+		guild_coin_award = 0,
+		award = 5545,
+		type = 5,
+		desc = "Reach 100 Affinity with Edinburgh.",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO5",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "5756",
+		auto_commit = 0,
+		scene = "",
+		id = 5755,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5756] = {
+		name = "Partners Through Thick and Thin",
+		guild_coin_award = 0,
+		award = 5546,
+		type = 5,
+		desc = "Fully Limit Break Edinburgh.",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO6",
+		quick_finish = 0,
+		level = 1,
+		target_id = "202114",
+		priority_type = 0,
+		next_task = "5757",
+		auto_commit = 0,
+		scene = "",
+		id = 5756,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5757] = {
+		name = "Everyone Knows Her Worth",
+		guild_coin_award = 0,
+		award = 5547,
+		type = 5,
+		desc = "Get Edinburgh to Level 100.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "aidingbao",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "AIDINGBAO7",
+		quick_finish = 0,
+		level = 1,
+		target_id = "20211",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 5757,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
 				2
 			}
 		}
@@ -180762,6 +181039,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5745,
 		5746,
 		5747,
+		5751,
+		5752,
+		5753,
+		5754,
+		5755,
+		5756,
+		5757,
 		6001,
 		6002,
 		6003,

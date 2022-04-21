@@ -10,6 +10,10 @@ function slot0.OnLoaded(slot0)
 	slot0.closeBtn = slot0:findTF("window/top/btnBack")
 	slot0.cancelBtn = slot0:findTF("window/cancel_btn")
 	slot0.confirmBtn = slot0:findTF("window/confirm_btn")
+
+	setText(findTF(slot0.confirmBtn, "pic"), i18n("destroy_confirm_access"))
+	setText(findTF(slot0.cancelBtn, "pic"), i18n("destroy_confirm_cancel"))
+
 	slot0.shipList = UIItemList.New(slot0:findTF("window/content/ships"), slot0:findTF("window/content/ships/itemtpl"))
 	slot0.grid = slot0.shipList.container:GetComponent(typeof(GridLayoutGroup))
 	slot0.title = slot0:findTF("window/content/Text"):GetComponent(typeof(Text))

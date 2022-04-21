@@ -149391,7 +149391,7 @@ _G.pg.item_data_statistics[59145] = {
 }
 
 _G.pg.item_data_statistics[59146] = {
-	display = "Used to obtain a portrait frame. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Points ",
 	max_num = 0,
 	type = 98,
@@ -149559,7 +149559,7 @@ _G.pg.item_data_statistics[59153] = {
 }
 
 _G.pg.item_data_statistics[59154] = {
-	display = "Used to obtain a portrait frame. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Points ",
 	max_num = 0,
 	type = 98,
@@ -150357,7 +150357,7 @@ _G.pg.item_data_statistics[59194] = {
 }
 
 _G.pg.item_data_statistics[59191] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -150378,7 +150378,7 @@ _G.pg.item_data_statistics[59191] = {
 }
 
 _G.pg.item_data_statistics[59195] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -150483,7 +150483,7 @@ _G.pg.item_data_statistics[59199] = {
 }
 
 _G.pg.item_data_statistics[59200] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -150609,7 +150609,7 @@ _G.pg.item_data_statistics[59205] = {
 }
 
 _G.pg.item_data_statistics[59206] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -150735,7 +150735,7 @@ _G.pg.item_data_statistics[59211] = {
 }
 
 _G.pg.item_data_statistics[59212] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -150924,7 +150924,7 @@ _G.pg.item_data_statistics[59220] = {
 }
 
 _G.pg.item_data_statistics[59221] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -151134,7 +151134,7 @@ _G.pg.item_data_statistics[59231] = {
 }
 
 _G.pg.item_data_statistics[59232] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -151176,7 +151176,7 @@ _G.pg.item_data_statistics[59233] = {
 }
 
 _G.pg.item_data_statistics[59234] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -151323,7 +151323,7 @@ _G.pg.item_data_statistics[59242] = {
 }
 
 _G.pg.item_data_statistics[59243] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -151554,7 +151554,7 @@ _G.pg.item_data_statistics[59255] = {
 }
 
 _G.pg.item_data_statistics[59256] = {
-	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Pt",
 	max_num = 0,
 	type = 98,
@@ -152199,6 +152199,27 @@ _G.pg.item_data_statistics[59287] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_y",
 	id = 59287,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59305] = {
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
+	name = "Training Points ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59305,
 	display_icon = {},
 	price = {},
 	index = {}

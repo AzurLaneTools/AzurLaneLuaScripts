@@ -58,6 +58,7 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.SHIP_INIMACY_CHANGE, slot0.OnInimacyChange)
 	slot0:AddListener(CourtYardEvent.SHIP_COIN_CHANGE, slot0.OnCoinChange)
 	slot0:AddListener(CourtYardEvent.SHIP_UPDATE_INTERACTION, slot0.OnUpdateInteraction)
+	slot0:AddListener(CourtYardEvent.SHIP_WILL_INTERACTION, slot0.WillInterAction)
 	slot0:AddListener(CourtYardEvent.SHIP_START_INTERACTION, slot0.StartInterAction)
 	slot0:AddListener(CourtYardEvent.SHIP_STOP_INTERACTION, slot0.StopInterAction)
 end
@@ -70,6 +71,7 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.SHIP_INIMACY_CHANGE, slot0.OnInimacyChange)
 	slot0:RemoveListener(CourtYardEvent.SHIP_COIN_CHANGE, slot0.OnCoinChange)
 	slot0:RemoveListener(CourtYardEvent.SHIP_UPDATE_INTERACTION, slot0.OnUpdateInteraction)
+	slot0:RemoveListener(CourtYardEvent.SHIP_WILL_INTERACTION, slot0.WillInterAction)
 	slot0:RemoveListener(CourtYardEvent.SHIP_START_INTERACTION, slot0.StartInterAction)
 	slot0:RemoveListener(CourtYardEvent.SHIP_STOP_INTERACTION, slot0.StopInterAction)
 end
@@ -199,6 +201,9 @@ function slot0.ClearMove(slot0)
 	end
 end
 
+function slot0.WillInterAction(slot0, slot1)
+end
+
 function slot0.StartInterAction(slot0, slot1)
 	setActive(slot0.shadow, false)
 	setAnchoredPosition(slot0._tf, slot1:GetOffset())
@@ -209,13 +214,17 @@ end
 
 function slot0.StopInterAction(slot0)
 	setActive(slot0.shadow, true)
+	slot0:ResetTransform()
+end
 
+function slot0.ResetTransform(slot0)
 	slot0._tf.localScale = Vector3(uv0, uv0, 1)
 	slot0._tf.localEulerAngles = Vector3.zero
 end
 
 function slot0.OnDispose(slot0)
 	uv0.super.OnDispose(slot0)
+	slot0:ResetTransform()
 
 	if slot0.animator then
 		slot0.animator:Dispose()

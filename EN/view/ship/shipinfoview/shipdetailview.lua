@@ -592,7 +592,8 @@ function slot0.UpdateEquipments(slot0, slot1)
 					uv0:emit(BaseUI.ON_EQUIPMENT, {
 						type = EquipmentInfoMediator.TYPE_SHIP,
 						shipId = uv0:GetShipVO().id,
-						pos = uv2
+						pos = uv2,
+						LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
 					})
 				end
 			end, SFX_UI_DOCKYARD_EQUIPADD)

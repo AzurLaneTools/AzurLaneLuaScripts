@@ -20104,3 +20104,55 @@ _G.pg.gametip.battle_result_targets = {
 _G.pg.gametip.battle_result_continue = {
 	tip = "Touch to continue"
 }
+
+_G.pg.gametip.activity_kill = {
+	tip = "Total Enemies Sunk"
+}
+
+_G.pg.gametip.battle_result_dmg = {
+	tip = "Damage"
+}
+
+_G.pg.gametip.battle_result_kill_count = {
+	tip = "Enemies Sunk"
+}
+
+_G.pg.gametip.battle_result_toggle_on = {
+	tip = "Sub Fleet"
+}
+
+_G.pg.gametip.battle_result_toggle_off = {
+	tip = "Surface Fleet"
+}
+
+_G.pg.gametip.battle_result_continue_battle = {
+	tip = "Continue"
+}
+
+_G.pg.gametip.battle_result_quit_battle = {
+	tip = "Retreat"
+}
+
+_G.pg.gametip.pre_combat_team = {
+	tip = "Sortie Fleet"
+}
+
+_G.pg.gametip.pre_combat_vanguard = {
+	tip = "Vanguard Fleet"
+}
+
+_G.pg.gametip.pre_combat_main = {
+	tip = "Main Fleet"
+}
+
+_G.pg.gametip.pre_combat_submarine = {
+	tip = "Sub Fleet"
+}
+
+_G.pg.gametip.destroy_confirm_access = {
+	tip = "Confirm"
+}
+
+_G.pg.gametip.destroy_confirm_cancel = {
+	tip = "Cancel"
+}

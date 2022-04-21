@@ -18,6 +18,14 @@ function slot5.Ctor(slot0, slot1)
 	slot0._effectList = {}
 end
 
+function slot5.ClearEffect(slot0)
+	for slot4, slot5 in pairs(slot0._blinkIDList) do
+		slot0._owner:RemoveBlink(slot5)
+	end
+
+	slot0._blinkIDList = {}
+end
+
 function slot5.Dispose(slot0)
 	for slot4, slot5 in pairs(slot0._blinkIDList) do
 		slot0._owner:RemoveBlink(slot5)

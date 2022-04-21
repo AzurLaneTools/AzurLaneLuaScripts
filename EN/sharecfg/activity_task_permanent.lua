@@ -237,6 +237,17 @@ pg.activity_task_permanent = {
 			35117
 		}
 	},
+	[6010] = {
+		gametip = "Get an outfit for Saratoga!",
+		banner_route = "permanent_salatuojia",
+		gametip_extra = "Takes at least 9 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6010,
+		activity_name = "A Foreign Idol?",
+		over_task_id = "",
+		eliminate_task_id = {}
+	},
 	all = {
 		6000,
 		6001,
@@ -247,6 +258,7 @@ pg.activity_task_permanent = {
 		6006,
 		6007,
 		6008,
-		6009
+		6009,
+		6010
 	}
 }

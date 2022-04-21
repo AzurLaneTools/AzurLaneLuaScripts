@@ -18241,5 +18241,70 @@ cs.gametip = {
 		630204,
 		94,
 		true
+	},
+	activity_kill = {
+		630298,
+		86,
+		true
+	},
+	battle_result_dmg = {
+		630384,
+		78,
+		true
+	},
+	battle_result_kill_count = {
+		630462,
+		91,
+		true
+	},
+	battle_result_toggle_on = {
+		630553,
+		87,
+		true
+	},
+	battle_result_toggle_off = {
+		630640,
+		92,
+		true
+	},
+	battle_result_continue_battle = {
+		630732,
+		92,
+		true
+	},
+	battle_result_quit_battle = {
+		630824,
+		87,
+		true
+	},
+	pre_combat_team = {
+		630911,
+		82,
+		true
+	},
+	pre_combat_vanguard = {
+		630993,
+		88,
+		true
+	},
+	pre_combat_main = {
+		631081,
+		80,
+		true
+	},
+	pre_combat_submarine = {
+		631161,
+		84,
+		true
+	},
+	destroy_confirm_access = {
+		631245,
+		84,
+		true
+	},
+	destroy_confirm_cancel = {
+		631329,
+		83,
+		true
 	}
 }

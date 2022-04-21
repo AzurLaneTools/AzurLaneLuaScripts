@@ -324,6 +324,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>An award given by Sovetsky Soyuz to soldiers who went above and beyond.</color> Obtainable in the Abyssal Refrain event.",
 		scene = {}
 	},
+	[319] = {
+		time_limit_type = 0,
+		name = "Singularity at Rainbow's End",
+		gain_by = "",
+		id = 319,
+		time_second = 0,
+		desc = "Obtained from a limited event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -397,6 +406,7 @@ pg.item_data_frame = {
 		316,
 		317,
 		318,
+		319,
 		406,
 		411,
 		412,
