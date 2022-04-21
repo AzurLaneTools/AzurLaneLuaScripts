@@ -14042,7 +14042,7 @@ _G.pg.gametip.lose_condition_display_gangqu = {
 }
 
 _G.pg.gametip.re_battle = {
-	tip = "재도전 "
+	tip = "재도전"
 }
 
 _G.pg.gametip.keep_fate_tip = {

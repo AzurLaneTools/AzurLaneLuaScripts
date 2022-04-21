@@ -593,6 +593,10 @@ end
 
 function slot5.PlayAction(slot0, slot1)
 	slot0._animator:SetAction(slot1, 0, uv0.ActionLoop[slot1])
+
+	if slot1 == uv0.ActionName.VICTORY or slot1 == uv0.ActionName.VICTORY_SWIM then
+		slot0._effectOb:ClearEffect()
+	end
 end
 
 function slot5.SetAnimaSpeed(slot0, slot1)
@@ -739,7 +743,6 @@ function slot5.Dispose(slot0)
 
 	slot0._popNumPool = nil
 
-	LeanTween.cancel(slot0._go)
 	Object.Destroy(slot0._popGO)
 
 	if slot0._voicePlaybackInfo then
