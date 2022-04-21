@@ -42,13 +42,13 @@ function slot0.OnInit(slot0)
 		uv0:updateTxt(uv0.count)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.addBtn, function ()
-		uv0.count = math.min(uv0.count + 1, MAX_BUILD_WORK_COUNT)
-
-		if uv0.isTicket and uv0.itemVO.count < uv0.count then
-			uv0.count = math.min(uv0.count, uv0.itemVO.count)
-
+		if uv0.isTicket and uv0.itemVO.count <= uv0.count then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_not_enough", uv0.itemVO:getConfig("name")))
+
+			return
 		end
+
+		uv0.count = math.clamp(uv0.count + 1, 1, MAX_BUILD_WORK_COUNT)
 
 		uv0:updateTxt(uv0.count)
 	end, SFX_PANEL)
@@ -56,7 +56,7 @@ function slot0.OnInit(slot0)
 		uv0.count = MAX_BUILD_WORK_COUNT
 
 		if uv0.isTicket then
-			uv0.count = math.min(uv0.count, uv0.itemVO.count)
+			uv0.count = math.clamp(uv0.itemVO.count, 1, MAX_BUILD_WORK_COUNT)
 		end
 
 		uv0:updateTxt(uv0.count)

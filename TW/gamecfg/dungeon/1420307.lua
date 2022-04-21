@@ -62,9 +62,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13900044,
-							moveCast = true,
-							delay = 0,
+							reinforceDelay = 6,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -72,17 +73,7 @@ return {
 							},
 							buffList = {}
 						}
-					}
-				},
-				{
-					triggerType = 0,
-					waveIndex = 2001,
-					conditionType = 1,
-					preWaves = {
-						100
 					},
-					triggerParam = {},
-					spawn = {},
 					reinforcement = {
 						{
 							monsterTemplateID = 13900002,
@@ -113,8 +104,7 @@ return {
 								8001,
 								8007
 							}
-						},
-						reinforceDuration = 180
+						}
 					}
 				},
 				{

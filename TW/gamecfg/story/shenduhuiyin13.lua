@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "好人理查德",
-			say = "我是好人理查德，这里是萨摩斯岛哦。",
+			say = "我是好人理查德，这里是萨默斯岛哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "阿尔汉格尔斯克",
-			say = "萨摩斯岛，是爱琴海中的那个萨摩斯岛么？",
+			say = "萨默斯岛，是爱琴海中的那个萨默斯岛么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "好人理查德",
-			say = "嗯，是度假岛哦。不过前方的萨摩斯海洋鱼类研究所稍微有些危险，在很久之前就被封闭了。",
+			say = "嗯，是度假岛哦。不过前方的萨默斯海洋鱼类研究所稍微有些危险，在很久之前就被封闭了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听下来有两个值得在意的点，一个是禁止入内的萨摩斯海洋鱼类研究所，另一个是她不希望我们去的演习海域。",
+			say = "听下来有两个值得在意的点，一个是禁止入内的萨默斯海洋鱼类研究所，另一个是她不希望我们去的演习海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

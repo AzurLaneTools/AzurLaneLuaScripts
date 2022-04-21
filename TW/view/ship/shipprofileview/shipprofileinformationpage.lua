@@ -36,6 +36,7 @@ function slot0.OnInit(slot0)
 		uv0.cvLoader:Load(uv0.skin.id)
 		uv0:SetAuthorInfo()
 		uv0:UpdateCvList(uv0.isLive2d)
+		uv0:UpdateProfileInfo()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.voiceBtnJP, function ()
 		if pg.ship_skin_words[ShipGroup.getDefaultSkin(uv0.skin.ship_group).id].voice_key_2 < 0 then
@@ -50,6 +51,7 @@ function slot0.OnInit(slot0)
 		uv0.cvLoader:Load(uv0.skin.id)
 		uv0:SetAuthorInfo()
 		uv0:UpdateCvList(uv0.isLive2d)
+		uv0:UpdateProfileInfo()
 	end, SFX_PANEL)
 end
 

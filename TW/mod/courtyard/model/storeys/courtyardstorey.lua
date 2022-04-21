@@ -413,8 +413,8 @@ function slot0.ShipAnimtionFinish(slot0, slot1, slot2)
 
 	if slot2 == CourtYardShip.STATE_TOUCH or slot2 == CourtYardShip.STATE_GETAWARD then
 		slot3:ChangeState(CourtYardShip.STATE_IDLE)
-	elseif slot2 == CourtYardShip.STATE_INTERACT then
-		slot3:GetInterActionData():Continue(slot3)
+	elseif slot2 == CourtYardShip.STATE_INTERACT and slot3:GetInterActionData() then
+		slot4:Continue(slot3)
 	end
 end
 

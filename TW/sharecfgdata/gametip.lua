@@ -6552,6 +6552,10 @@ _G.pg.gametip.gold_max_tip_title = {
 	tip = "物資已經達到上限"
 }
 
+_G.pg.gametip.expbook_max_tip_title = {
+	tip = "艦艇演習數據已經達到上限"
+}
+
 _G.pg.gametip.resource_max_tip_shop = {
 	tip = "無法購買資源"
 }
@@ -13523,16 +13527,16 @@ _G.pg.gametip.backyard_unopen = {
 _G.pg.gametip.help_monopoly_car = {
 	tip = {
 		{
-			info = "活动说明："
+			info = "活動說明："
 		},
 		{
-			info = "1.活动期间，玩家首日可获得5个骰子，此后每日24点可\n获得5个骰子；骰子数量可累积"
+			info = "1.活動期間，玩家首日可獲得5次加速次數，此後每日24\n點可獲得5次；加速次數可累積"
 		},
 		{
-			info = "2.游戏中，根据玩家停留的格子可获得不同奖励，每次经\n过起点可获得200物资；"
+			info = "2.遊戲中，根據玩家停留的格子可獲得不同獎勵，每次經\n過起點可獲得200物資；"
 		},
 		{
-			info = "    ：获得一定数量物资；",
+			info = "    ：獲得一定數量物資；",
 			icon = {
 				path = "saichejinbi",
 				atlas = "attricon",
@@ -13542,7 +13546,7 @@ _G.pg.gametip.help_monopoly_car = {
 			}
 		},
 		{
-			info = "    ：获得一定数量石油；",
+			info = "    ：獲得一定數量石油；",
 			icon = {
 				path = "saicheshiyou",
 				atlas = "attricon",
@@ -13552,7 +13556,7 @@ _G.pg.gametip.help_monopoly_car = {
 			}
 		},
 		{
-			info = "    ：触发随机事件；",
+			info = "    ：觸發隨機事件；",
 			icon = {
 				path = "saicheminyun",
 				atlas = "attricon",
@@ -13562,7 +13566,7 @@ _G.pg.gametip.help_monopoly_car = {
 			}
 		},
 		{
-			info = "    ：触发随机奖励；",
+			info = "    ：觸發隨機獎勵；",
 			icon = {
 				path = "saichedaoju",
 				atlas = "attricon",
@@ -13572,7 +13576,7 @@ _G.pg.gametip.help_monopoly_car = {
 			}
 		},
 		{
-			info = "    ：触发随机移动事件；",
+			info = "    ：觸發隨機移動事件；",
 			icon = {
 				path = "saicheteshu",
 				atlas = "attricon",
@@ -18428,4 +18432,219 @@ _G.pg.gametip.level_remaster_tip3 = {
 
 _G.pg.gametip.level_remaster_tip4 = {
 	tip = "擊破$1敵方旗艦次數"
+}
+
+_G.pg.gametip.newserver_time = {
+	tip = "$1天$2時"
+}
+
+_G.pg.gametip.newserver_soldout = {
+	tip = "商品已售完"
+}
+
+_G.pg.gametip.skill_learn_tip = {
+	tip = "今日還有$1次快速完成技能學習的次數哦"
+}
+
+_G.pg.gametip.newserver_build_tip = {
+	tip = "本建造只能使用新手單次建造券哦！"
+}
+
+_G.pg.gametip.build_count_tip = {
+	tip = "累計"
+}
+
+_G.pg.gametip.help_research_package = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/tecshipgifthelp",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.gametip.lv70_package_tip = {
+	tip = "當前指揮官等級大於等於70級，購買即刻出戰禮包後，指揮官等級將不會發生變化(可以正常獲得禮包內其他物品)，是否確認購買"
+}
+
+_G.pg.gametip.tech_select_tip1 = {
+	tip = "角色未全部獲得"
+}
+
+_G.pg.gametip.tech_select_tip2 = {
+	tip = "可於科研-開發船塢中選擇一名角色\n快速研發並獲取"
+}
+
+_G.pg.gametip.tech_select_tip3 = {
+	tip = "已獲得"
+}
+
+_G.pg.gametip.tech_select_tip4 = {
+	tip = "角色全部獲得"
+}
+
+_G.pg.gametip.tech_select_tip5 = {
+	tip = "使用後將獲得以下道具"
+}
+
+_G.pg.gametip.techpackage_item_use = {
+	tip = "快速研發只能選定1名角色，是否確認研發$1？\n研發後會獲得對應角色(等級與科研等級均為1級)\n<color=#ff5c5c>將消耗道具$2*1</color>"
+}
+
+_G.pg.gametip.techpackage_item_use_confirm = {
+	tip = "角色已全部獲得，使用後將獲得以下道具"
+}
+
+_G.pg.gametip.new_server_shop_sel_goods_tip = {
+	tip = "每件裝備只能兌換一次"
+}
+
+_G.pg.gametip.new_server_shop_unopen_tip = {
+	tip = "尚未開放"
+}
+
+_G.pg.gametip.newserver_activity_tip = {
+	tip = {
+		{
+			info = "「新服开服庆典」活动说明：\n"
+		},
+		{
+			info = "<color=#92fc63>·活动时间</color>\n活动将于指挥官注册并第一次成功登陆游戏后第21天的次日23:59结束，请指挥官留意界面中活动剩余时间。\n"
+		},
+		{
+			info = [[
+<color=#92fc63>·活动任务</color>
+活动任务分为「每日任务」与「历程任务」,「每日任务」于每天0点刷新，「历程任务」只能完成一次，不会刷新；
+完成活动任务可获取「新服庆典Pt」，完成通关系列任务还可额外获得角色「皇家方舟」、「U-47」、「天狼星」。
+]]
+		},
+		{
+			info = [[
+<color=#92fc63>·活动商店</color>
+消耗「新服庆典Pt」可于活动商店中兑换角色「鲨」、「新手建造单抽券」、「心智魔方」等大量奖励；
+活动商店分为3个阶段，阶段1商品于首次登录后解锁，阶段2商品于首次登录的7天后解锁，阶段3商品于首次登录的14天后解锁；
+活动商店在活动结束后会额外开放7天，期间仍然可消耗「新服庆典Pt」兑换商品。
+]]
+		},
+		{
+			info = "<color=#92fc63>·庆典新手建造</color>\n庆典新手建造只能使用「新手单次建造券」，建造40次后，可于建造界面领取角色「企业」，领取角色后庆典新手建造将会关闭。"
+		}
+	}
+}
+
+_G.pg.gametip.newserver_shop_timelimit = {
+	tip = "該商品將於$1後解鎖"
+}
+
+_G.pg.gametip.tech_character_get = {
+	tip = "角色已獲得"
+}
+
+_G.pg.gametip.package_detail_tip = {
+	tip = "查看詳情"
+}
+
+_G.pg.gametip.event_ui_consume = {
+	tip = "消耗:"
+}
+
+_G.pg.gametip.event_ui_recommend = {
+	tip = "推薦"
+}
+
+_G.pg.gametip.event_ui_start = {
+	tip = "開始"
+}
+
+_G.pg.gametip.event_ui_giveup = {
+	tip = "取消"
+}
+
+_G.pg.gametip.event_ui_finish = {
+	tip = "完成"
+}
+
+_G.pg.gametip.nav_tactics_sel_skill_title = {
+	tip = "選擇技能"
+}
+
+_G.pg.gametip.battle_result_confirm = {
+	tip = "確定"
+}
+
+_G.pg.gametip.battle_result_targets = {
+	tip = "戰鬥評價"
+}
+
+_G.pg.gametip.battle_result_continue = {
+	tip = "點擊繼續"
+}
+
+_G.pg.gametip.activity_kill = {
+	tip = "累計擊沉"
+}
+
+_G.pg.gametip.battle_result_dmg = {
+	tip = "輸出"
+}
+
+_G.pg.gametip.battle_result_kill_count = {
+	tip = "擊殺"
+}
+
+_G.pg.gametip.battle_result_toggle_on = {
+	tip = "潛 艇 編 隊"
+}
+
+_G.pg.gametip.battle_result_toggle_off = {
+	tip = "水 面 編 隊"
+}
+
+_G.pg.gametip.battle_result_continue_battle = {
+	tip = "繼 續 戰 鬥"
+}
+
+_G.pg.gametip.battle_result_quit_battle = {
+	tip = "退 出 挑 戰"
+}
+
+_G.pg.gametip.pre_combat_team = {
+	tip = "出擊艦隊"
+}
+
+_G.pg.gametip.pre_combat_vanguard = {
+	tip = "先鋒艦隊"
+}
+
+_G.pg.gametip.pre_combat_main = {
+	tip = "主力艦隊"
+}
+
+_G.pg.gametip.pre_combat_submarine = {
+	tip = "潛艇艦隊"
+}
+
+_G.pg.gametip.destroy_confirm_access = {
+	tip = "確 定"
+}
+
+_G.pg.gametip.destroy_confirm_cancel = {
+	tip = "取 消"
 }

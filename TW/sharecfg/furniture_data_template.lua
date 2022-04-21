@@ -4825,7 +4825,10 @@ pg.furniture_data_template = {
 						"walk"
 					}
 				},
-				{},
+				{
+					nil,
+					2
+				},
 				{
 					0
 				}
@@ -5255,6 +5258,57 @@ pg.furniture_data_template = {
 					false,
 					nil,
 					"event:/ui/meow"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100014] = {
+		spine_extra = "",
+		describe = "人世皆攘攘/櫻花默然轉瞬逝/相對唯頃刻",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "springboxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾天氣盒(春)",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100014,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"springbox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_yinghua",
+					"action1"
 				}
 			}
 		},
@@ -27890,12 +27944,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						38,
-						38
+						0,
+						0
 					},
 					{
-						276,
-						251
+						159,
+						144
 					}
 				}
 			}
@@ -30301,8 +30355,8 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-78,
-					-78
+					-15,
+					-130
 				},
 				{
 					1,
@@ -30312,12 +30366,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						90,
-						280
+						-71,
+						50
 					},
 					{
-						680,
-						390
+						198,
+						135
 					}
 				}
 			},
@@ -30325,7 +30379,7 @@ pg.furniture_data_template = {
 				"wash",
 				{
 					73,
-					-28
+					-46
 				},
 				{
 					-1,
@@ -45184,7 +45238,7 @@ pg.furniture_data_template = {
 		belong = 1,
 		themeId = 42,
 		is_3d_obj = 0,
-		count = 2,
+		count = 3,
 		tag = 1,
 		icon = "caikoicon",
 		deblocking = 1,
@@ -45509,7 +45563,7 @@ pg.furniture_data_template = {
 		themeId = 42,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 2,
+		count = 3,
 		tag = 1,
 		icon = "gukoicon",
 		deblocking = 1,
@@ -45671,7 +45725,7 @@ pg.furniture_data_template = {
 		themeId = 42,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 2,
+		count = 3,
 		tag = 1,
 		icon = "shiwukoicon",
 		deblocking = 1,
@@ -45796,7 +45850,7 @@ pg.furniture_data_template = {
 		themeId = 42,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 2,
+		count = 3,
 		tag = 1,
 		icon = "yinliao1koicon",
 		deblocking = 1,
@@ -59432,8 +59486,8 @@ pg.furniture_data_template = {
 			{
 				"sit",
 				{
-					-13,
-					-30
+					9,
+					-35
 				},
 				{
 					-1,
@@ -59443,12 +59497,12 @@ pg.furniture_data_template = {
 				0,
 				{
 					{
-						11,
-						43.8
+						-21,
+						-10
 					},
 					{
-						130,
-						70
+						58,
+						38
 					}
 				}
 			}
@@ -62338,7 +62392,10 @@ pg.furniture_data_template = {
 						"yun"
 					}
 				},
-				{},
+				{
+					nil,
+					2
+				},
 				{
 					0
 				}
@@ -66515,6 +66572,1375 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[66001] = {
+		spine_extra = "",
+		describe = "狂歡！吶喊！我還可以再加速啾！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		icon = "dibancaricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "疾速狂熱賽道",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "Car/dibancar",
+		canputon = 0,
+		id = 66001,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66002] = {
+		spine_extra = "",
+		describe = "狂歡！吶喊！我還可以再加速啾！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		icon = "qiangbicaricon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "疾速狂熱牆壁",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "car/qiangbicar",
+		canputon = 0,
+		id = 66002,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66101] = {
+		spine_extra = "",
+		describe = "夜間比賽使用的路燈，要認清方向哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "1caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場路旗",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "car/1car",
+		canputon = 0,
+		id = 66101,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66102] = {
+		spine_extra = "",
+		describe = "迎風飄揚的路旗，映襯內心的不羈。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "2caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "旗幟",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "car/2car",
+		canputon = 0,
+		id = 66102,
+		can_rotate = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66103] = {
+		spine_extra = "",
+		describe = "場地維護，注意迴避啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "3caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽道路障",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "Car/3car",
+		canputon = 0,
+		id = 66103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66104] = {
+		spine_extra = "",
+		describe = "本次比賽由…全面贊助啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "4caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾贊助牌",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/4car",
+		canputon = 0,
+		id = 66104,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66105] = {
+		spine_extra = "",
+		describe = "注意控制車速啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "5caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "減速帶",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/5car",
+		canputon = 0,
+		id = 66105,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66106] = {
+		spine_extra = "",
+		describe = "不許抄近道啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "6caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽道阻隔",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "Car/6car",
+		canputon = 0,
+		id = 66106,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66107] = {
+		spine_extra = "",
+		describe = "這個旗號是什麼意思啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 66,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "7caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "指揮台",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/7car",
+		canputon = 0,
+		id = 66107,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					45.9,
+					94.3
+				},
+				{
+					1,
+					1
+				},
+				"car/7car_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66108] = {
+		spine_extra = "",
+		describe = "精彩的比賽馬上就要開始了啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "8caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾直播台",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Car/8car",
+		canputon = 0,
+		id = 66108,
+		can_rotate = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66109] = {
+		spine_extra = "",
+		describe = "啾？這塊區域不能開進來啾！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "9caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "禁行區標誌",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/9car",
+		canputon = 0,
+		id = 66109,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66110] = {
+		spine_extra = "",
+		describe = "需要換輪胎請先進維修區啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "10caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "備用輪胎",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "Car/10car",
+		canputon = 0,
+		id = 66110,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66111] = {
+		spine_extra = "",
+		describe = "收視率再創新高啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "11caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾轉播車",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Car/11car",
+		canputon = 0,
+		id = 66111,
+		can_rotate = 0,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66112] = {
+		spine_extra = "",
+		describe = "防止賽車意外衝出的護欄。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "12caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "邊界護欄",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/12car",
+		canputon = 0,
+		id = 66112,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66113] = {
+		spine_extra = "",
+		describe = "一棵長滿翠綠色葉子的行道樹。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "13caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場行道樹(夏)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/13car",
+		canputon = 0,
+		id = 66113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66114] = {
+		spine_extra = "",
+		describe = "一棵長滿金黃色葉子的行道樹。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "14caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場行道樹(秋)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/14car",
+		canputon = 0,
+		id = 66114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66115] = {
+		spine_extra = "",
+		describe = "夢想的起點，準備好加速了嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "15caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽道起終點",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Car/15car",
+		canputon = 0,
+		id = 66115,
+		can_rotate = 0,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66116] = {
+		spine_extra = "",
+		describe = "可以降低失控賽車速度的緩衝草坪。",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 66,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "16caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "緩衝草坪",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "Car/16car",
+		canputon = 0,
+		id = 66116,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66117] = {
+		spine_extra = "",
+		describe = "指示燈，用於在夜間提示選手方向。",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 66,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "17caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場指示燈(前)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"17car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66118] = {
+		spine_extra = "",
+		describe = "指示燈，用於在夜間提示選手方向。",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 66,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "18caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場指示燈(禁止)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"18car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66119] = {
+		spine_extra = "",
+		describe = "指示燈，用於在夜間提示選手方向。",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 66,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "19caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場指示燈(左)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66119,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"19car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66120] = {
+		spine_extra = "",
+		describe = "指示燈，用於在夜間提示選手方向。",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 66,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "20caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場指示燈(右)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"20car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66121] = {
+		spine_extra = "",
+		describe = "指示燈，用於在夜間提示選手方向。",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 66,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "21caricon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "賽場指示燈(後)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66121,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"21car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66122] = {
+		belong = 1,
+		describe = "讓狂熱的「赤焰」把賽場燃起來吧！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		count = 2,
+		is_3d_obj = 0,
+		name = "賽車「赤焰」",
+		tag = 7,
+		icon = "cheAicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66122,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheAB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66123] = {
+		belong = 1,
+		describe = "白色「尖牙」會撕碎所有阻攔在前的障礙！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		count = 1,
+		is_3d_obj = 0,
+		name = "賽車「尖牙」",
+		tag = 7,
+		icon = "cheBicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66123,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheBB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66124] = {
+		belong = 1,
+		describe = "怒濤巨浪將吞沒所有與「海神」為敵的對手！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		count = 1,
+		is_3d_obj = 0,
+		name = "賽車「海神」",
+		tag = 7,
+		icon = "cheCicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66124,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheCB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66125] = {
+		belong = 1,
+		describe = "加速再加速，「橙閃」將在直線賽道上超越一切！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		count = 1,
+		is_3d_obj = 0,
+		name = "賽車「橙閃」",
+		tag = 7,
+		icon = "cheDicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66125,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheDB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66126] = {
+		belong = 1,
+		describe = "靈動的「黃蜂」會把所有選手甩在身後！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		count = 1,
+		is_3d_obj = 0,
+		name = "賽車「黃蜂」",
+		tag = 7,
+		icon = "cheEicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66126,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheEB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66127] = {
+		belong = 1,
+		describe = "新款超級賽車，可以體驗駕駛艙啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 66,
+		count = 1,
+		is_3d_obj = 0,
+		name = "賽車展示台",
+		tag = 7,
+		icon = "22caricon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 66127,
+		can_rotate = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshicar",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"zhanshicarCharControl"
+			}
 		},
 		interAction_group = {}
 	},
@@ -79649,6 +81075,7 @@ pg.furniture_data_template = {
 			100008,
 			100009,
 			100010,
+			100014,
 			12002,
 			12102,
 			12103,
@@ -79764,6 +81191,7 @@ pg.furniture_data_template = {
 			100008,
 			100009,
 			100010,
+			100014,
 			12002,
 			12102,
 			12103,
@@ -82656,6 +84084,66 @@ pg.furniture_data_template = {
 			65120,
 			65301
 		},
+		[66] = {
+			66001,
+			66002,
+			66101,
+			66102,
+			66103,
+			66104,
+			66105,
+			66106,
+			66107,
+			66108,
+			66109,
+			66110,
+			66111,
+			66112,
+			66113,
+			66114,
+			66115,
+			66116,
+			66117,
+			66118,
+			66119,
+			66120,
+			66121,
+			66122,
+			66123,
+			66124,
+			66125,
+			66126,
+			66127,
+			66001,
+			66002,
+			66101,
+			66102,
+			66103,
+			66104,
+			66105,
+			66106,
+			66107,
+			66108,
+			66109,
+			66110,
+			66111,
+			66112,
+			66113,
+			66114,
+			66115,
+			66116,
+			66117,
+			66118,
+			66119,
+			66120,
+			66121,
+			66122,
+			66123,
+			66124,
+			66125,
+			66126,
+			66127
+		},
 		[69] = {
 			69001,
 			69002,
@@ -84229,6 +85717,27 @@ pg.furniture_data_template = {
 			65117,
 			65118,
 			65119,
+			66101,
+			66102,
+			66103,
+			66104,
+			66105,
+			66106,
+			66107,
+			66108,
+			66109,
+			66110,
+			66111,
+			66112,
+			66113,
+			66114,
+			66115,
+			66116,
+			66117,
+			66118,
+			66119,
+			66120,
+			66121,
 			69101,
 			69102,
 			69103,
@@ -84677,6 +86186,7 @@ pg.furniture_data_template = {
 			100008,
 			100009,
 			100010,
+			100014,
 			54104,
 			54105
 		},
@@ -84729,6 +86239,7 @@ pg.furniture_data_template = {
 			62001,
 			63001,
 			65001,
+			66001,
 			69001,
 			71001,
 			72001,
@@ -84791,6 +86302,7 @@ pg.furniture_data_template = {
 			62002,
 			63002,
 			65002,
+			66002,
 			69002,
 			71002,
 			72002,
@@ -85079,6 +86591,12 @@ pg.furniture_data_template = {
 			62118,
 			63117,
 			65120,
+			66122,
+			66123,
+			66124,
+			66125,
+			66126,
+			66127,
 			69118,
 			69119,
 			69120,
@@ -85155,6 +86673,7 @@ pg.furniture_data_template = {
 			62002,
 			63002,
 			65002,
+			66002,
 			69002,
 			71002,
 			72002,
@@ -85255,7 +86774,8 @@ pg.furniture_data_template = {
 			100006,
 			100007,
 			100009,
-			100010
+			100010,
+			100014
 		},
 		[2] = {
 			122,
@@ -86186,6 +87706,21 @@ pg.furniture_data_template = {
 			65118,
 			65119,
 			65120,
+			66101,
+			66102,
+			66103,
+			66104,
+			66105,
+			66106,
+			66107,
+			66108,
+			66110,
+			66111,
+			66112,
+			66113,
+			66114,
+			66115,
+			66127,
 			69101,
 			69102,
 			69103,
@@ -86420,6 +87955,11 @@ pg.furniture_data_template = {
 			51102,
 			52119,
 			62117,
+			66122,
+			66123,
+			66124,
+			66125,
+			66126,
 			69120,
 			73122,
 			77118,
@@ -86480,6 +88020,7 @@ pg.furniture_data_template = {
 			62001,
 			63001,
 			65001,
+			66001,
 			69001,
 			71001,
 			72001,
@@ -86564,6 +88105,13 @@ pg.furniture_data_template = {
 			62107,
 			62108,
 			65117,
+			66109,
+			66116,
+			66117,
+			66118,
+			66119,
+			66120,
+			66121,
 			71111,
 			72110,
 			73106,
@@ -87046,6 +88594,7 @@ pg.furniture_data_template = {
 		100008,
 		100009,
 		100010,
+		100014,
 		1001,
 		1002,
 		1101,
@@ -88448,6 +89997,35 @@ pg.furniture_data_template = {
 		65119,
 		65120,
 		65301,
+		66001,
+		66002,
+		66101,
+		66102,
+		66103,
+		66104,
+		66105,
+		66106,
+		66107,
+		66108,
+		66109,
+		66110,
+		66111,
+		66112,
+		66113,
+		66114,
+		66115,
+		66116,
+		66117,
+		66118,
+		66119,
+		66120,
+		66121,
+		66122,
+		66123,
+		66124,
+		66125,
+		66126,
+		66127,
 		69001,
 		69002,
 		69101,

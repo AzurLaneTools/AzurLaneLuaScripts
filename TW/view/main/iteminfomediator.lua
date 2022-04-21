@@ -37,14 +37,12 @@ function slot0.register(slot0)
 
 				slot4:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()
 					if table.contains(ITEM_ID_FUDAIS, uv0) then
-						uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
-							items = {
-								{
-									id = uv0,
-									type = DROP_TYPE_ITEM,
-									count = uv2
-								}
-							}
+						uv1:sendNotification(GAME.USE_FUDAI_ITEM, {
+							id = uv0,
+							count = uv2,
+							callback = function (slot0)
+								uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0)
+							end
 						})
 					else
 						uv1:sendNotification(GAME.USE_ITEM, {
@@ -68,7 +66,6 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		BagProxy.ITEM_UPDATED,
 		GAME.USE_ITEM_DONE,
-		GAME.OPEN_MAIL_ATTACHMENT_DONE,
 		GAME.FRAG_SELL_DONE
 	}
 end
@@ -84,14 +81,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:SetOperateCount(1)
 	elseif slot2 == GAME.FRAG_SELL_DONE then
 		slot0.viewComponent:SetOperateCount(1)
-	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE and slot3.items and #slot4 > 0 then
-		slot5 = slot0.viewComponent
-
-		slot5:emit(BaseUI.ON_ACHIEVE, slot4, function ()
-			if uv0.callback then
-				uv0.callback()
-			end
-		end)
 	end
 end
 

@@ -104,7 +104,7 @@ pg.activity_template = {
 		id = 7,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2017,
@@ -414,7 +414,7 @@ pg.activity_template = {
 			16058
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2020,
@@ -627,27 +627,121 @@ pg.activity_template = {
 			}
 		}
 	},
-	[4291] = {
-		mark = 20220324,
-		title_res_tag = "AprilFool2022",
-		time = "stop",
-		type = 81,
+	[8009] = {
+		mark = 20220421,
+		config_client = "",
+		title_res_tag = "newserver_main",
+		type = 3,
 		login_pop = 0,
-		config_id = 0,
-		is_show = 18,
-		id = 4291,
-		config_data = {
-			97114
+		config_id = 24,
+		is_show = 26,
+		id = 8009,
+		config_data = {},
+		time = {
+			{
+				"olduser",
+				{
+					{
+						2022,
+						5,
+						12
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2022,
+						4,
+						21
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2022,
+						5,
+						11
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
 		},
 		page_info = {
-			class_name = "AprilFool2022Page",
-			ui_name = "AprilFool2022Page"
+			class_name = "NewServerLoginPage",
+			ui_name = "NewServerLoginPage"
+		}
+	},
+	[8010] = {
+		mark = 20220421,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 8010,
+		config_data = {
+			103
 		},
-		config_client = {
-			{},
-			"BULIZHISHI1",
-			stageid = 1360003,
-			autounlock = 86400
+		time = {
+			{
+				"olduser",
+				{
+					{
+						2022,
+						5,
+						12
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2022,
+						4,
+						21
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2022,
+						5,
+						11
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
 		}
 	},
 	[2001] = {
@@ -1621,7 +1715,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40030,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -4075,7 +4169,7 @@ pg.activity_template = {
 			ui_name = "MaoziPtPage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -4562,7 +4656,7 @@ pg.activity_template = {
 		id = 40272,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -4626,7 +4720,7 @@ pg.activity_template = {
 			992
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -4683,7 +4777,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -4722,7 +4816,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40275,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -4760,7 +4854,7 @@ pg.activity_template = {
 		config_data = "",
 		id = 40276,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -5213,7 +5307,7 @@ pg.activity_template = {
 			14672
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -5254,7 +5348,7 @@ pg.activity_template = {
 			7
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -5295,7 +5389,7 @@ pg.activity_template = {
 			40293
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -5761,7 +5855,7 @@ pg.activity_template = {
 		is_show = 13,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -5792,7 +5886,7 @@ pg.activity_template = {
 			ui_name = "OutPostPtPage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -5884,7 +5978,7 @@ pg.activity_template = {
 			15510
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6036,7 +6130,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40321,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6098,7 +6192,7 @@ pg.activity_template = {
 			1105
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6152,7 +6246,7 @@ pg.activity_template = {
 		is_show = 19,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6200,7 +6294,7 @@ pg.activity_template = {
 			80201
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6466,7 +6560,7 @@ pg.activity_template = {
 			1429
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6581,7 +6675,7 @@ pg.activity_template = {
 			80202
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6715,7 +6809,7 @@ pg.activity_template = {
 		is_show = 7,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6746,7 +6840,7 @@ pg.activity_template = {
 			ui_name = "FranceIconTaskPage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6796,7 +6890,7 @@ pg.activity_template = {
 			15589
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6913,7 +7007,7 @@ pg.activity_template = {
 		is_show = 8,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -6966,7 +7060,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7005,7 +7099,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40351,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7067,7 +7161,7 @@ pg.activity_template = {
 			1152
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7125,7 +7219,7 @@ pg.activity_template = {
 			80203
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7164,7 +7258,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40354,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7257,7 +7351,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40358,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7380,7 +7474,7 @@ pg.activity_template = {
 		is_show = 10,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7411,7 +7505,7 @@ pg.activity_template = {
 			ui_name = "BritainframePage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7461,7 +7555,7 @@ pg.activity_template = {
 			15770
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7536,7 +7630,7 @@ pg.activity_template = {
 			14673
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7577,7 +7671,7 @@ pg.activity_template = {
 			7
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7618,7 +7712,7 @@ pg.activity_template = {
 			40367
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7655,7 +7749,7 @@ pg.activity_template = {
 		is_show = 11,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7708,7 +7802,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7747,7 +7841,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40372,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7808,7 +7902,7 @@ pg.activity_template = {
 			1176
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7864,7 +7958,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40374,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -7905,7 +7999,7 @@ pg.activity_template = {
 			15788
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8200,7 +8294,7 @@ pg.activity_template = {
 		id = 40387,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8263,7 +8357,7 @@ pg.activity_template = {
 			1499
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8320,7 +8414,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8359,7 +8453,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40390,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8400,7 +8494,7 @@ pg.activity_template = {
 			16833
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8454,7 +8548,7 @@ pg.activity_template = {
 			50028
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8508,7 +8602,7 @@ pg.activity_template = {
 			70092
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8570,7 +8664,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40395,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8729,7 +8823,7 @@ pg.activity_template = {
 			ui_name = "ShinanoframePage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8806,7 +8900,7 @@ pg.activity_template = {
 			}
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -8855,7 +8949,7 @@ pg.activity_template = {
 			15722
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9051,7 +9145,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9090,7 +9184,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40411,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9147,7 +9241,7 @@ pg.activity_template = {
 			15985
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9193,7 +9287,7 @@ pg.activity_template = {
 			1410027
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9249,7 +9343,7 @@ pg.activity_template = {
 			1410051
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9289,7 +9383,7 @@ pg.activity_template = {
 		is_show = 19,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9357,7 +9451,7 @@ pg.activity_template = {
 			1247
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9415,7 +9509,7 @@ pg.activity_template = {
 			16056
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9456,7 +9550,7 @@ pg.activity_template = {
 			16057
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9495,7 +9589,7 @@ pg.activity_template = {
 		id = 40419,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9538,7 +9632,7 @@ pg.activity_template = {
 			3
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9577,7 +9671,7 @@ pg.activity_template = {
 		id = 40421,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9632,7 +9726,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40423,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9706,7 +9800,7 @@ pg.activity_template = {
 		id = 40425,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9744,7 +9838,7 @@ pg.activity_template = {
 		config_data = "0",
 		id = 40426,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9792,7 +9886,7 @@ pg.activity_template = {
 		is_show = 17,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9837,7 +9931,7 @@ pg.activity_template = {
 		id = 40428,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9903,7 +9997,7 @@ pg.activity_template = {
 			}
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -9947,7 +10041,7 @@ pg.activity_template = {
 			16
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10013,7 +10107,7 @@ pg.activity_template = {
 			96149
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10094,7 +10188,7 @@ pg.activity_template = {
 			17043
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10135,7 +10229,7 @@ pg.activity_template = {
 			17036
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10173,7 +10267,7 @@ pg.activity_template = {
 		id = 40434,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10238,7 +10332,7 @@ pg.activity_template = {
 			1203
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10388,7 +10482,7 @@ pg.activity_template = {
 		config_data = "activity_drop_40441",
 		id = 40441,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10442,7 +10536,7 @@ pg.activity_template = {
 			1420003
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10482,7 +10576,7 @@ pg.activity_template = {
 		is_show = 25,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10528,7 +10622,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40444,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10574,7 +10668,7 @@ pg.activity_template = {
 			15991
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10612,7 +10706,7 @@ pg.activity_template = {
 		id = 40446,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10688,7 +10782,7 @@ pg.activity_template = {
 		id = 40448,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10786,7 +10880,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10825,7 +10919,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40452,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10910,7 +11004,7 @@ pg.activity_template = {
 		id = 40455,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -10975,7 +11069,7 @@ pg.activity_template = {
 			871
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11094,7 +11188,7 @@ pg.activity_template = {
 			80204
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11135,7 +11229,7 @@ pg.activity_template = {
 			14674
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11176,7 +11270,7 @@ pg.activity_template = {
 			7
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11217,7 +11311,7 @@ pg.activity_template = {
 			40462
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11296,7 +11390,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11335,7 +11429,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40467,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11410,7 +11504,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40469,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11473,7 +11567,7 @@ pg.activity_template = {
 			1591
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11531,7 +11625,7 @@ pg.activity_template = {
 			17235
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11619,7 +11713,7 @@ pg.activity_template = {
 		is_show = 14,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11677,7 +11771,7 @@ pg.activity_template = {
 			70104
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11865,7 +11959,7 @@ pg.activity_template = {
 		is_show = 20,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11896,7 +11990,7 @@ pg.activity_template = {
 			ui_name = "DexiV3framePage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11946,7 +12040,7 @@ pg.activity_template = {
 			16166
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -11983,7 +12077,7 @@ pg.activity_template = {
 		is_show = 19,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12056,7 +12150,7 @@ pg.activity_template = {
 			}
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12147,7 +12241,7 @@ pg.activity_template = {
 			}
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12252,7 +12346,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12291,7 +12385,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40493,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12409,7 +12503,7 @@ pg.activity_template = {
 		is_show = 21,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12475,7 +12569,7 @@ pg.activity_template = {
 			1314
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12614,7 +12708,7 @@ pg.activity_template = {
 			16219
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12653,7 +12747,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40506,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -12791,7 +12885,7 @@ pg.activity_template = {
 		id = 40512,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -12836,7 +12930,7 @@ pg.activity_template = {
 			16305
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -12875,7 +12969,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 40514,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13165,7 +13259,7 @@ pg.activity_template = {
 			14675
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13206,7 +13300,7 @@ pg.activity_template = {
 			7
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13253,7 +13347,7 @@ pg.activity_template = {
 			40523
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13291,7 +13385,7 @@ pg.activity_template = {
 		id = 40526,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13332,7 +13426,7 @@ pg.activity_template = {
 		id = 40527,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13373,7 +13467,7 @@ pg.activity_template = {
 		id = 40528,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13414,7 +13508,7 @@ pg.activity_template = {
 		id = 40529,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13455,7 +13549,7 @@ pg.activity_template = {
 		id = 40530,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13496,7 +13590,7 @@ pg.activity_template = {
 		id = 40531,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13537,7 +13631,7 @@ pg.activity_template = {
 		id = 40532,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13578,7 +13672,7 @@ pg.activity_template = {
 		id = 40533,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13619,7 +13713,7 @@ pg.activity_template = {
 		id = 40534,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13660,7 +13754,7 @@ pg.activity_template = {
 		id = 40535,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13702,7 +13796,7 @@ pg.activity_template = {
 		id = 40536,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13744,7 +13838,7 @@ pg.activity_template = {
 		id = 40537,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13786,7 +13880,7 @@ pg.activity_template = {
 		id = 40538,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13828,7 +13922,7 @@ pg.activity_template = {
 		id = 40539,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13870,7 +13964,7 @@ pg.activity_template = {
 		id = 40540,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13912,7 +14006,7 @@ pg.activity_template = {
 		id = 40541,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13954,7 +14048,7 @@ pg.activity_template = {
 		id = 40542,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -13996,7 +14090,7 @@ pg.activity_template = {
 		id = 40543,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14044,7 +14138,7 @@ pg.activity_template = {
 			31033
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14088,7 +14182,7 @@ pg.activity_template = {
 			31034
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14132,7 +14226,7 @@ pg.activity_template = {
 			31035
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14176,7 +14270,7 @@ pg.activity_template = {
 			31036
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14220,7 +14314,7 @@ pg.activity_template = {
 			31037
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14264,7 +14358,7 @@ pg.activity_template = {
 			31038
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14308,7 +14402,7 @@ pg.activity_template = {
 			31039
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14352,7 +14446,7 @@ pg.activity_template = {
 			31040
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14396,7 +14490,7 @@ pg.activity_template = {
 			31041
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14439,7 +14533,7 @@ pg.activity_template = {
 			80221
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14494,7 +14588,7 @@ pg.activity_template = {
 			ui_name = "MaoxiV2framePage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14582,7 +14676,7 @@ pg.activity_template = {
 			10
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14928,7 +15022,7 @@ pg.activity_template = {
 		is_show = 22,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -14959,7 +15053,7 @@ pg.activity_template = {
 			ui_name = "YidaliV2framePage"
 		},
 		config_client = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -15010,7 +15104,7 @@ pg.activity_template = {
 			16490
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -15074,7 +15168,7 @@ pg.activity_template = {
 		is_show = 21,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -15232,7 +15326,7 @@ pg.activity_template = {
 		is_show = 24,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -15298,7 +15392,7 @@ pg.activity_template = {
 			1398
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -15429,12 +15523,13 @@ pg.activity_template = {
 	},
 	[40592] = {
 		mark = 20220407,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40592,
 		config_data = {
@@ -15454,43 +15549,17 @@ pg.activity_template = {
 			15560,
 			15561,
 			15562
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40593] = {
 		mark = 20220407,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40593,
 		config_data = {
@@ -15500,38 +15569,11 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40594] = {
 		mark = 20220407,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -15539,34 +15581,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 40594,
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 40594
 	},
 	[40595] = {
 		mark = 20220407,
@@ -15575,10 +15591,10 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 40595,
-		is_show = 27,
+		is_show = 17,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -15643,7 +15659,7 @@ pg.activity_template = {
 			1128
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -15689,81 +15705,29 @@ pg.activity_template = {
 	},
 	[40597] = {
 		mark = 20220407,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40597,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[40598] = {
 		mark = 20220407,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 40598,
 		config_data = {
 			15563
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -15774,41 +15738,15 @@ pg.activity_template = {
 	},
 	[40599] = {
 		mark = 20220407,
-		config_client = "",
 		title_res_tag = "xiaoshengwang_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 40599,
 		is_show = 26,
+		config_client = "",
 		id = 40599,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "LittleRenownPage",
 			ui_name = "LittleRenownPage"
@@ -15816,12 +15754,13 @@ pg.activity_template = {
 	},
 	[40600] = {
 		mark = 20220407,
-		id = 40600,
 		title_res_tag = "tianchengfk",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 28,
+		id = 40600,
 		config_data = {
 			1180001,
 			1180002,
@@ -15829,33 +15768,6 @@ pg.activity_template = {
 			1180011,
 			1180012,
 			1180013
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "TianChengReMainPage",
@@ -15867,12 +15779,13 @@ pg.activity_template = {
 	},
 	[40601] = {
 		mark = 20220407,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 40601,
 		config_data = {
 			1180004,
@@ -15882,33 +15795,6 @@ pg.activity_template = {
 			1180015,
 			1180016,
 			1180021
-		},
-		time = {
-			timer,
-			{
-				{
-					2022,
-					4,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp15"
@@ -15928,7 +15814,7 @@ pg.activity_template = {
 			15564
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -16527,7 +16413,7 @@ pg.activity_template = {
 			203
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -16958,7 +16844,7 @@ pg.activity_template = {
 			}
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -17057,7 +16943,7 @@ pg.activity_template = {
 		id = 45031,
 		config_data = {},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -17097,7 +16983,7 @@ pg.activity_template = {
 			2
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -17178,6 +17064,373 @@ pg.activity_template = {
 		id = 45035,
 		config_data = {}
 	},
+	[45036] = {
+		mark = 20220421,
+		config_client = "",
+		title_res_tag = "monopoly_car",
+		type = 51,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 27,
+		id = 45036,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyCar.MonopolyCarPage",
+			ui_name = "MonopolyCarPage"
+		}
+	},
+	[45037] = {
+		mark = 20220421,
+		id = 45037,
+		title_res_tag = "TWxiaobeifa",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 24,
+		config_data = {
+			80228,
+			80229,
+			80230,
+			80231,
+			80232,
+			80233,
+			80234,
+			80235,
+			80236,
+			80237,
+			80238,
+			80239,
+			80240,
+			80241
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaobeiFaPage",
+			ui_name = "XiaobeiFaPage"
+		},
+		config_client = {
+			pt_id = 45037,
+			rank_act_id = 45038,
+			main_task = {
+				80234,
+				80238,
+				80241
+			}
+		}
+	},
+	[45038] = {
+		mark = 20220421,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 45037,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 45038,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[45039] = {
+		mark = 20220421,
+		id = 45039,
+		title_res_tag = "xixueguire",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 23,
+		config_data = {
+			{
+				15790
+			},
+			{
+				15791
+			},
+			{
+				15792
+			},
+			{
+				15793
+			},
+			{
+				15794
+			},
+			{
+				15795
+			},
+			{
+				15796
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XixueguiSkinPagere",
+			ui_name = "XixueguiSkinPagere"
+		},
+		config_client = {
+			story = {
+				{
+					"XIXUEGUI1"
+				},
+				{
+					"XIXUEGUI2"
+				},
+				{
+					"XIXUEGUI3"
+				},
+				{},
+				{
+					"XIXUEGUI4"
+				},
+				{},
+				{
+					"XIXUEGUI5"
+				}
+			}
+		}
+	},
+	[45040] = {
+		mark = 20220421,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 45040,
+		config_data = {
+			80242
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[45041] = {
+		mark = 20220421,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_45041",
+		id = 45041,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "大鳳、雪風、魯莽建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#ffde38>大鳳</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>雪風</color>：2.0%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#d797ff>魯莽</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[45042] = {
+		mark = 20220421,
+		config_client = "",
+		title_res_tag = "tw7daylogin",
+		type = 3,
+		login_pop = 3,
+		config_id = 26,
+		is_show = 25,
+		id = 45042,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TW7dayLoginPage",
+			ui_name = "tw7dayloginpage"
+		}
+	},
 	[45900] = {
 		mark = 20220127,
 		id = 45900,
@@ -17198,7 +17451,7 @@ pg.activity_template = {
 			9
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -17245,7 +17498,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 26,
+		is_show = 20,
 		config_data = {
 			11,
 			12,
@@ -17258,7 +17511,7 @@ pg.activity_template = {
 			19
 		},
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -17316,7 +17569,8 @@ pg.activity_template = {
 		4067,
 		4076,
 		4254,
-		4291,
+		8009,
+		8010,
 		2001,
 		2002,
 		2003,
@@ -17841,6 +18095,13 @@ pg.activity_template = {
 		45032,
 		45033,
 		45035,
+		45036,
+		45037,
+		45038,
+		45039,
+		45040,
+		45041,
+		45042,
 		45900,
 		45901
 	}

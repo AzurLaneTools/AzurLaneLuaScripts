@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助{namecode:98}搬运油桶，获得了奖励【石油*10】",
+			say = "幫助{namecode:98}搬運油桶，獲得了獎勵【石油*10】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

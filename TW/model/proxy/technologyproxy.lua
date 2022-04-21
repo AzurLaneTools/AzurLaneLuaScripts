@@ -370,4 +370,22 @@ function slot0.getPursuingDiscount(slot0)
 	return slot1[slot2][2]
 end
 
+function slot0.getItemCanUnlockBluePrint(slot0, slot1)
+	if not slot0.unlockItemDic then
+		slot0.unlockItemDic = {}
+
+		for slot5, slot6 in ipairs(pg.ship_data_blueprint.all) do
+			slot11 = "gain_item_id"
+
+			for slot11, slot12 in ipairs(slot0.bluePrintData[slot6]:getConfig(slot11)) do
+				slot0.unlockItemDic[slot12] = slot0.unlockItemDic[slot12] or {}
+
+				table.insert(slot0.unlockItemDic[slot12], slot6)
+			end
+		end
+	end
+
+	return slot0.unlockItemDic[slot1]
+end
+
 return slot0

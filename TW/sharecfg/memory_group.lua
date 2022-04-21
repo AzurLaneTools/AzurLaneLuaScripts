@@ -2633,6 +2633,22 @@ pg.memory_group = {
 			1527
 		}
 	},
+	[555] = {
+		icon = "title_chara_gelasige",
+		subtype = 0,
+		type = 3,
+		id = 555,
+		title = "『戀愛的季節到了』",
+		memories = {
+			1561,
+			1562,
+			1563,
+			1564,
+			1565,
+			1566,
+			1567
+		}
+	},
 	[556] = {
 		icon = "title_chara_beilaluosi",
 		subtype = 0,
@@ -2903,6 +2919,7 @@ pg.memory_group = {
 		552,
 		553,
 		554,
+		555,
 		556,
 		557,
 		559,

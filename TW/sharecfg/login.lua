@@ -6,7 +6,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -39,7 +39,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -72,7 +72,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -105,7 +105,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -138,7 +138,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2021,
@@ -171,7 +171,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -204,7 +204,7 @@ pg.login = {
 		login_cri = "loginbg",
 		bgm = "main-chunjie3",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -237,7 +237,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -270,7 +270,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2022,
@@ -303,7 +303,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "",
 		date = {
-			timer,
+			"timer",
 			{
 				{
 					2022,

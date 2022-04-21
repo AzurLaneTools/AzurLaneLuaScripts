@@ -6,6 +6,7 @@ slot0.ON_START = "NewNavalTacticsMediator:ON_START"
 slot0.ON_CANCEL = "NewNavalTacticsMediator:ON_CANCEL"
 slot0.ON_FINISH_ONE_ANIM = "NewNavalTacticsMediator:ON_FINISH_ONE_ANIM"
 slot0.ON_CANCEL_ADD_STUDENT = "NewNavalTacticsMediator:ON_CANCEL_ADD_STUDENT"
+slot0.ON_QUICK_FINISH = "NavalTacticsMediator:ON_QUICK_FINISH"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_CANCEL_ADD_STUDENT, function (slot0)
@@ -46,6 +47,11 @@ function slot0.register(slot0)
 			uv0.viewComponent.finishLessonUtil:Enter(slot1, slot2)
 		end
 	end)
+	slot0:bind(uv0.ON_QUICK_FINISH, function (slot0, slot1)
+		uv0:sendNotification(GAME.QUICK_FINISH_LEARN_TACTICS, {
+			shipId = slot1
+		})
+	end)
 	slot0.viewComponent:SetStudents(getProxy(NavalAcademyProxy):RawGetStudentList())
 end
 
@@ -77,6 +83,8 @@ function slot0.SelectShip(slot0, slot1)
 				if getProxy(BayProxy):RawGetShipById(slot0[1]):isMetaShip() then
 					uv0.contextData.metaShipID = slot1
 
+					uv0.viewComponent:Init()
+
 					return
 				end
 
@@ -100,7 +108,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CANCEL_LEARN_TACTICS,
 		uv0.ON_CANCEL_ADD_STUDENT,
 		GAME.TACTICS_META_UNLOCK_SKILL_DONE,
-		GAME.TACTICS_META_SWITCH_SKILL_DONE
+		GAME.TACTICS_META_SWITCH_SKILL_DONE,
+		GAME.QUICK_FINISH_LEARN_TACTICS_DONE
 	}
 end
 
@@ -125,6 +134,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OnUpdateMetaSkillPanel(slot3.metaShipID)
 	elseif slot2 == GAME.TACTICS_META_SWITCH_SKILL_DONE then
 		slot0.viewComponent:OnUpdateMetaSkillPanel(slot3.metaShipID)
+	elseif slot2 == GAME.QUICK_FINISH_LEARN_TACTICS_DONE then
+		slot0.viewComponent:BlockEvents()
+		slot0.viewComponent:OnUpdateQuickFinishPanel()
 	end
 end
 

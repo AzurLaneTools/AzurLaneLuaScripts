@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助{namecode:98}实验新研发的赛车装备，获得了奖励【五星装备设计图纸*4】",
+			say = "幫助{namecode:98}實驗新研發的賽車裝備，獲得了獎勵【五星裝備設計圖紙*4】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

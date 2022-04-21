@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "采用了新型油电混合动力，节省了油耗，获得了奖励【石油*100】",
+			say = "採用了新型油電混合動力，節省了油耗，獲得了獎勵【石油*100】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

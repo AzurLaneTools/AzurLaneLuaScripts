@@ -149,7 +149,7 @@ return {
 			}
 		}
 	},
-	time = 3,
+	time = 2.97,
 	name = "",
 	init_effect = "jinengchufablue",
 	picture = "",

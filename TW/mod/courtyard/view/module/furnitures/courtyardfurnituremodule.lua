@@ -12,9 +12,16 @@ function slot0.OnInit(slot0)
 	slot0.model = slot0._tf:Find("icon")
 	slot0.masksTF = slot0._tf:Find("masks")
 	slot0.masks = {}
+	slot0.isMultiMask = slot0:GetData():IsMultiMask()
 
 	for slot4, slot5 in pairs(slot0:GetData():GetMaskNames()) do
-		slot0.masks[slot4] = slot0.masksTF:Find("icon_front_" .. slot4)
+		slot6 = slot0.masksTF:Find("icon_front_" .. slot4)
+
+		if slot0.isMultiMask then
+			setParent(slot6, slot0.interactionTF)
+		end
+
+		slot0.masks[slot4] = slot6
 	end
 
 	slot0.archMask = slot0.masksTF:Find("icon_front_arch")
@@ -47,7 +54,9 @@ function slot0.CreateWhenStoreyInit(slot0)
 end
 
 function slot0.BlocksRaycasts(slot0, slot1)
-	if slot0.data:CanClickWhenExitEditMode() and slot1 == false then
+	slot3 = #slot0.data:GetUsingSlots() > 0
+
+	if slot0.data:CanClickWhenExitEditMode() or slot3 and slot1 == false then
 		return
 	end
 
@@ -81,6 +90,7 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.FURNITURE_OP_FLAG_CHANGE, slot0.EnableTrigger)
 	slot0:AddListener(CourtYardEvent.ROTATE_FURNITURE, slot0.OnDirChange)
 	slot0:AddListener(CourtYardEvent.FURNITURE_STATE_CHANGE, slot0.OnStateChange)
+	slot0:AddListener(CourtYardEvent.FURNITURE_WILL_INTERACTION, slot0.OnWillInterAction)
 	slot0:AddListener(CourtYardEvent.FURNITURE_START_INTERACTION, slot0.OnStartInterAction)
 	slot0:AddListener(CourtYardEvent.FURNITURE_UPDATE_INTERACTION, slot0.OnUpdateInteraction)
 	slot0:AddListener(CourtYardEvent.FURNITURE_STOP_INTERACTION, slot0.OnStopInterAction)
@@ -92,6 +102,7 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_OP_FLAG_CHANGE, slot0.EnableTrigger)
 	slot0:RemoveListener(CourtYardEvent.ROTATE_FURNITURE, slot0.OnDirChange)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_STATE_CHANGE, slot0.OnStateChange)
+	slot0:RemoveListener(CourtYardEvent.FURNITURE_WILL_INTERACTION, slot0.OnWillInterAction)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_START_INTERACTION, slot0.OnStartInterAction)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_UPDATE_INTERACTION, slot0.OnUpdateInteraction)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_STOP_INTERACTION, slot0.OnStopInterAction)
@@ -129,6 +140,14 @@ function slot0.OnDirChange(slot0, slot1)
 	slot0._tf.localScale = Vector3(slot1 == 1 and 1 or -1, 1, 1)
 end
 
+function slot0.OnWillInterAction(slot0, slot1)
+	if slot0.isMultiMask then
+		for slot5, slot6 in pairs(slot0.masks) do
+			slot6:SetAsLastSibling()
+		end
+	end
+end
+
 function slot0.OnStartInterAction(slot0, slot1)
 	if slot1:GetUsingAnimator() then
 		setActive(slot0:GetAnimator(slot2.key), true)
@@ -136,6 +155,12 @@ function slot0.OnStartInterAction(slot0, slot1)
 
 	if slot1:GetSkew() ~= Vector3.zero then
 		slot0._tf.localPosition = slot3
+	end
+
+	if slot0.isMultiMask then
+		for slot7, slot8 in pairs(slot0.masks) do
+			slot8:SetSiblingIndex(1 + 2 * (slot7 - 1))
+		end
 	end
 end
 
@@ -253,6 +278,7 @@ function slot0.OnDispose(slot0)
 	end
 
 	slot0.bodyMasks = nil
+	slot0.cg.blocksRaycasts = true
 
 	Object.Destroy(slot0._tf:GetComponent(typeof(ButtonEventExtend)))
 	Object.Destroy(slot0._tf:GetComponent(typeof(Button)))

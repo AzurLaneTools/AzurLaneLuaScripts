@@ -79,9 +79,6 @@ function slot0.init(slot0)
 	slot0._gradeLabelImg = slot0._gradeLabel:GetComponent(typeof(Image))
 	slot0.title = slot0:findTF("main/title")
 	slot0.subTitleTxt = slot0:findTF("main/title/Text"):GetComponent(typeof(Text))
-
-	setActive(slot0.title, true)
-
 	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
 	slot0.clearFX = slot0:findTF("clear")
 
@@ -398,6 +395,8 @@ function slot0.calcPlayerRank(slot0)
 end
 
 function slot0.displayShips(slot0)
+	setActive(slot0.title, true)
+
 	slot0._expTFs = {}
 	slot0._initExp = {}
 	slot0._skipExp = {}
@@ -528,7 +527,7 @@ function slot0.displayShips(slot0)
 			slot43 = findTF(slot31, "exp_text")
 			slot45 = findTF(slot31, "exp_progress"):GetComponent(typeof(Image))
 
-			setActive(findTF(slot31, "exp_buff"), slot0.expBuff)
+			setActive(findTF(slot31, "exp_buff_mask/exp_buff"), slot0.expBuff)
 
 			if slot0.expBuff then
 				setText(slot46, slot0.expBuff:getConfig("name"))

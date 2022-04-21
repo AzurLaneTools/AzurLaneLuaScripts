@@ -79,6 +79,11 @@ function slot0.CommonInit(slot0)
 	slot0._goals = slot0:findTF("right/infomation/target/goal")
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
+
+	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+
 	slot0._middle = slot0:findTF("middle")
 	slot0._right = slot0:findTF("right")
 

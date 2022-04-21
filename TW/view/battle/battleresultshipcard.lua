@@ -19,7 +19,7 @@ function slot0.init(slot0)
 	slot0._expProgress = findTF(slot0._expInfo, "exp_progress")
 	slot1 = slot0._expProgress
 	slot0._expImage = slot1:GetComponent(typeof(Image))
-	slot0._expBuff = findTF(slot0._expInfo, "exp_buff")
+	slot0._expBuff = findTF(slot0._expInfo, "exp_buff_mask/exp_buff")
 	slot1 = slot0._expTF
 	slot1 = slot1:GetComponent(typeof(DftAniEvent))
 
@@ -62,7 +62,7 @@ function slot0.setShipInfo(slot0)
 	setScrollText(slot0._nameTxt, slot0._oldShipVO:getName())
 	setActive(findTF(slot0._expContent, "mvp"), slot0._isMVP)
 	SetActive(slot0._expBuff, slot0._buffName ~= nil)
-	setText(slot0._expBuff, slot0._buffName or "")
+	setScrollText(slot0._expBuff, slot0._buffName or "")
 end
 
 function slot0.expAnimation(slot0)

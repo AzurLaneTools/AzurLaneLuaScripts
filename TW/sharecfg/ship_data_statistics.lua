@@ -80371,6 +80371,514 @@ pg.ship_data_statistics = {
 			"Sheffield"
 		}
 	},
+	[202261] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "格拉斯哥",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 202260,
+		english_name = "HMS Glasgow",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 202261,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			637,
+			28,
+			51,
+			65,
+			0,
+			63,
+			0,
+			54,
+			29,
+			32,
+			81,
+			24
+		},
+		attrs_growth = {
+			16057,
+			386,
+			688,
+			1378,
+			0,
+			440,
+			0,
+			793,
+			672,
+			0,
+			0,
+			293
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.2,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Town-Class"
+		}
+	},
+	[202262] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "格拉斯哥",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 202260,
+		english_name = "HMS Glasgow",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 202262,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			792,
+			35,
+			64,
+			81,
+			0,
+			63,
+			0,
+			54,
+			29,
+			32,
+			81,
+			30
+		},
+		attrs_growth = {
+			16057,
+			386,
+			688,
+			1378,
+			0,
+			440,
+			0,
+			793,
+			672,
+			0,
+			0,
+			293
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Town-Class"
+		}
+	},
+	[202263] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "格拉斯哥",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 202260,
+		english_name = "HMS Glasgow",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 202263,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1103,
+			49,
+			89,
+			113,
+			0,
+			63,
+			0,
+			54,
+			29,
+			32,
+			81,
+			42
+		},
+		attrs_growth = {
+			16057,
+			386,
+			688,
+			1378,
+			0,
+			440,
+			0,
+			793,
+			672,
+			0,
+			0,
+			293
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Town-Class"
+		}
+	},
+	[202264] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "格拉斯哥",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 202260,
+		english_name = "HMS Glasgow",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 202264,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1569,
+			69,
+			126,
+			161,
+			0,
+			63,
+			0,
+			54,
+			29,
+			32,
+			81,
+			59
+		},
+		attrs_growth = {
+			16057,
+			386,
+			688,
+			1378,
+			0,
+			440,
+			0,
+			793,
+			672,
+			0,
+			0,
+			293
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Town-Class"
+		}
+	},
 	[202271] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -210160,6 +210668,502 @@ pg.ship_data_statistics = {
 			"L'Adroit-Class"
 		}
 	},
+	[801031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "魯莽",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801030,
+		english_name = "FFNF Le Téméraire",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			253,
+			17,
+			75,
+			32,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			46
+		},
+		attrs_growth = {
+			7217,
+			241,
+			941,
+			704,
+			0,
+			490,
+			0,
+			1062,
+			1298,
+			0,
+			0,
+			532
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
+	[801032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "魯莽",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801030,
+		english_name = "FFNF Le Téméraire",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			315,
+			21,
+			93,
+			40,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			57
+		},
+		attrs_growth = {
+			7217,
+			241,
+			941,
+			704,
+			0,
+			490,
+			0,
+			1062,
+			1298,
+			0,
+			0,
+			532
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
+	[801033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "魯莽",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801030,
+		english_name = "FFNF Le Téméraire",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			438,
+			30,
+			130,
+			56,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			80
+		},
+		attrs_growth = {
+			7217,
+			241,
+			941,
+			704,
+			0,
+			490,
+			0,
+			1062,
+			1298,
+			0,
+			0,
+			532
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.1,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
+	[801034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "魯莽",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801030,
+		english_name = "FFNF Le Téméraire",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			624,
+			43,
+			186,
+			79,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			114
+		},
+		attrs_growth = {
+			7217,
+			241,
+			941,
+			704,
+			0,
+			490,
+			0,
+			1062,
+			1298,
+			0,
+			0,
+			532
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
 	[801041] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -271706,6 +272710,10 @@ pg.ship_data_statistics = {
 		202252,
 		202253,
 		202254,
+		202261,
+		202262,
+		202263,
+		202264,
 		202271,
 		202272,
 		202273,
@@ -272676,6 +273684,10 @@ pg.ship_data_statistics = {
 		801022,
 		801023,
 		801024,
+		801031,
+		801032,
+		801033,
+		801034,
 		801041,
 		801042,
 		801043,

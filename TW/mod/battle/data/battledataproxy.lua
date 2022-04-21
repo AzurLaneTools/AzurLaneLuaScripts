@@ -320,6 +320,7 @@ function slot8.InitStageData(slot0)
 	slot0._bulletLowerBound = slot0._totalLowerBound - 10
 	slot0._bulletLeftBound = slot0._totalLeftBound - 10
 	slot0._bulletRightBound = slot0._totalRightBound + 10
+	slot0._bulletUpperBoundVision = slot0._totalUpperBound + 10
 end
 
 function slot8.Clear(slot0)
@@ -694,7 +695,7 @@ function slot8.updateLoop(slot0, slot1)
 				-- Nothing
 			elseif slot16 == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:IsFragile() then
 				-- Nothing
-			elseif slot15 == uv1.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
+			elseif slot15 == uv1.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot15 == uv1.BulletOutBound.VISION and slot0._bulletUpperBoundVision < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
 				if slot11:GetExist() then
 					slot11:OutRange()
 				else

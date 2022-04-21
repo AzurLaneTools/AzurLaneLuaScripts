@@ -14465,6 +14465,94 @@ _G.pg.ship_skin_words[202250] = {
 	}
 }
 
+_G.pg.ship_skin_words[202260] = {
+	feeling1 = "為了我能正常完成女僕的工作，希望指揮官不要進入我周邊三米以內的區域。",
+	feeling3 = "指揮官，床單的顏色是要白色還是……綠色？跟我眼睛的顏色一樣？這、這樣啊。",
+	lose = "需要檢討……下次不會失敗了。",
+	propose = "感謝我與指揮官的相遇，感謝神明所賜予的奇蹟——儀式結束了吧，該回去了，工作還沒做完——欸，誓約之、之、之吻？那個，我，那個……！",
+	expedition = "委託隊已經返航了，請記得即時迎接她們。",
+	win_mvp = "呼…這樣的戰果還滿意嗎？",
+	home = "一路辛苦了，請好好休息。",
+	mission = "接到了新的任務，請記得看一下。",
+	touch2 = "！？我……我先失禮了……！",
+	voice_key_2 = -1,
+	skill = "優雅而不失莊嚴……！",
+	drop_descrip = "南安普敦級輕巡洋艦-格拉斯哥,舷號C21",
+	mail = "有新郵件，我這就幫指揮官取來。",
+	touch = "指揮官？還有什麼吩咐嗎？",
+	profile = "我是皇家輕巡，南安普敦級的格拉斯哥。曾參加過挪威戰役，北極護航戰等戰役。不過，我…那個，嗯，以前視力不太好，等伊莫金來了，一定要對她好好道歉——",
+	mission_complete = "任務獎勵，我先保管起來了。",
+	feeling4 = "問我平時的打扮？指揮官不是說我穿什麼都好看嗎？那就請自行想像吧。",
+	unlock = "城級巡洋艦，南安普敦級的格拉斯哥。很榮幸能夠來到指揮官的艦隊，請多指教。",
+	feeling5 = "床鋪過了，被子也曬過了，結果指揮官昨晚卻熬夜工作嗎…不不，我可沒生氣，熱心工作也挺好的不是嗎？",
+	main = "關於紐卡斯爾姐姐？怎麼…就算是姐姐我也沒有什麼告訴你的義務吧…才沒有呢！|謝菲雖然偶爾有些毒舌，但是個好孩子。|指揮官對漫畫之類的…算了，請不要在意。",
+	battle = "旗艦…嗎，我、我會認真作戰的！",
+	upgrade = "請放心，我不會辜負指揮官期待的。",
+	voice_key = 20226,
+	headtouch = "",
+	feeling2 = "指揮官，如果累了就請好好休息，不要再為我增添更多的麻煩了。",
+	login = "歡迎回來。茶已經泡好了。",
+	vote = "",
+	hp_warning = "還、還能堅持…！",
+	id = 202260,
+	detail = "沒想到這回連載的劇情竟然會那樣展開，接下來到底會……哇啊！？指、指揮官？！……咳咳！有事嗎？",
+	couple_encourage = {
+		{
+			{
+				20208,
+				20211,
+				20212,
+				20219
+			},
+			1,
+			"全力進攻，展現皇家的榮耀！",
+			0
+		},
+		{
+			{
+				20207
+			},
+			1,
+			"真的不考慮回歸女僕隊嗎？",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[202261] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "委託組回來了，我去迎接她們囉",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "因、因為指揮官說想看看我穿其他衣服的樣子我才……不是什麼“Cosplay”啦！我也是有去學院上課的啊！…這、這樣就行了吧？",
+	mail = "",
+	touch = "指揮官要來參觀社團活動？呃，我、我是回家部的……",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "因、因為指揮官說想看看我穿其他衣服的樣子我才……不是什麼“Cosplay”啦！我也是有去學院上課的啊！…這、這樣就行了吧？",
+	feeling5 = "",
+	main = "午餐怎麼說？要、要不要吃便當？雖然是我自己做的就是…|鐵血的Z23好像很擅長教別人東西呢。明明不是老師。反正我也不需要教就是了…|跟游騎兵借了新的漫畫雜誌，得快點看完才行。那段劇情的後續，超讓人期待的",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "歡迎回來，指揮官。我也剛從學院回來。唔…茶請再稍等片刻",
+	vote = "",
+	hp_warning = "",
+	id = 202261,
+	detail = "企業嗎？我知道哦。是曾經與我在比斯開灣一起奮戰過的那孩子吧？啊，是不同的企業嗎？…我、我知道的啦！",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[202270] = {
 	feeling1 = "指揮官…為什麼這麼頑固呢…",
 	feeling3 = "指揮官，你今天打算加班嗎？這樣的話，我稍後準備一壺咖啡帶去辦公室吧。欸？沒關係，不麻煩的。即使沒有要交給我的工作，只是在你身邊陪著你也好呀~",
@@ -16498,6 +16586,40 @@ _G.pg.ship_skin_words[205062] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[205064] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "為了指揮官的勝利——來一場與此相符的表演吧",
+	mission = "",
+	touch2 = "呵呵，再進一步可不行哦",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "指揮官嗎。不用擔心，既然我接受了這份工作自然會幹到最後——而且好久沒有這種想和人競爭的感覺了呢。哈哈",
+	mail = "",
+	touch = "有什麼在意的地方嗎",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "指揮官嗎。不用擔心，既然我接受了這份工作自然會幹到最後——而且好久沒有這種想和人競爭的感覺了呢。哈哈",
+	feeling5 = "",
+	main = "那些孩子們也在開車…方向盤姑且不說，油門是怎麼能踩下去的…？|不管比賽還是戰鬥，決定勝敗的並不只有性能，選手的技術，指揮官的指揮都可以成為逆轉形勢的關鍵——所以賭起勝負來才有意思啊|這身打扮的話不太方便吃飯啊…指揮官，我那份三明治就給你吃吧",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "回來了嗎？在來的路上沒有碰到其他姐妹吧？",
+	vote = "",
+	hp_warning = "",
+	id = 205064,
+	detail = "命運是很容易脫離軌跡的——在比賽裡駛出賽道有時也會很危險呢。指揮官，觀戰的時候注意一些",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[205070] = {
 	feeling1 = "稍微粗暴一點……也沒關係吧",
 	feeling3 = "汝的面龐無時無刻不在誘惑著余，吶，汝的鮮血，究竟能甜美到什麼地步呢？",
@@ -16580,6 +16702,40 @@ _G.pg.ship_skin_words[205072] = {
 	hp_warning = "",
 	id = 205072,
 	detail = "呵呵，汝的心跳聲清晰可聞呢，噗通、噗通…如此健康，如此動聽…",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[205073] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "比起香檳，還是紅酒更對余的喜好…無妨，就按照汝的期望慶祝一番吧",
+	home = "",
+	mission = "",
+	touch2 = "毒蛇貪戀禁果——汝的願望、本性、一切余都瞭如指掌。呵呵呵",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "俊美的阿多尼斯啊，為何汝不願選擇停留箱中享受寵愛呢——余這一身裝扮是否又能留住汝之心？呵呵呵",
+	mail = "",
+	touch = "滲人心脾？汝選的這件衣裝最能激起汝的感情——這點再明白不過了吧？",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "俊美的阿多尼斯啊，為何汝不願選擇停留箱中享受寵愛呢——余這一身裝扮是否又能留住汝之心？呵呵呵",
+	feeling5 = "",
+	main = "威爾斯，阿多尼斯豈能容妳奪去…念在汝之情面，獨占他的時間分汝三成也並無不可|啊啊，就是這個眼神，想要控制住自己但卻又隨時可能敗北的眼神——用那雙眼睛永遠取悅余吧|汝絕無取勝可能——無論是這場比賽的熱烈氣氛，還是甘甜而又絕對的余的存在——",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 205073,
+	detail = "會被人奪走的愛並非余所好。只有汝完全成為余之所有，才值得讓余花出十分的時間相伴——",
 	couple_encourage = {}
 }
 
@@ -20739,6 +20895,40 @@ _G.pg.ship_skin_words[301242] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[301249] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "辛苦了…雖然想這麼說，但是，指揮官要做的事情還有很多的樣子呢，要加油哦~",
+	mission = "",
+	touch2 = "想親身體會下我從外表看不出的變化嗎，指揮官~？",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "{namecode:129}，改造完成。似乎也沒什麼變化？指揮官，看來你還嫩著啊，很多東西光從外表是看不出來的哦？呵呵~",
+	mail = "",
+	touch = "哎呀，你就這麼在意我的尾巴嗎？算了，勉為其難地給你摸一會好了~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "{namecode:129}，改造完成。似乎也沒什麼變化？指揮官，看來你還嫩著啊，很多東西光從外表是看不出來的哦？呵呵~",
+	feeling5 = "",
+	main = "{namecode:30}姐姐也變得不那麼怕生了啊，看來真的給了姐姐不少照顧呢~|嗯？你在盯著女孩子的哪裡看呀~？真是個糟糕的指揮官|盯——嗯？我是在監督你哦，指揮官~這麼輕易地就被干擾到的話可不行呢~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "哦呀？今天倒是很準時嘛。",
+	vote = "",
+	hp_warning = "",
+	id = 301249,
+	detail = "~來到這個港區，又得到了改造…看來我的運氣也不算太差呢，呼呼~",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[301250] = {
 	feeling1 = "當了指揮官也有反抗期這種東西嗎？",
 	feeling3 = "雖然{namecode:32}有時候太黏人了，不過這正是所謂妹妹的可愛之處呢…指揮官，如果我也很黏你，你會覺得高興嗎？",
@@ -20829,6 +21019,40 @@ _G.pg.ship_skin_words[301251] = {
 	hp_warning = "",
 	id = 301251,
 	detail = "究竟是誰跟{namecode:32}灌輸了“大人的世界”什麼的奇怪觀念…指揮官，不會是你吧？",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[301259] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "辛苦囉~指揮官要來點茶嗎？",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "啊，這樣就算改造完成了吧？希望以後能幫上指揮官和27驅的大家更多的忙呢。",
+	mail = "",
+	touch = "唔唔，指揮官，你怎麼也像{namecode:32}一樣喜歡扯我衣角…",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "啊，這樣就算改造完成了吧？希望以後能幫上指揮官和27驅的大家更多的忙呢。",
+	feeling5 = "",
+	main = "{namecode:32}改造後的變化有些大呀。和她站在一起，我反而有些像妹妹了呢~|要是照顧人的能力也和火力一起提升就好了…{namecode:32}、{namecode:17}和{namecode:15}，沒法同時關照到她們三個人呀…|給，指揮官的便當，幫{namecode:32}做的時候一起做好了~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "今天也有得忙了呢。不過放心吧，我會在指揮官身邊輔助的~",
+	vote = "",
+	hp_warning = "",
+	id = 301259,
+	detail = "{namecode:32}比以前自立了很多了，不過，遇到困難的時候，還是會拉著我的衣角求助呢",
 	couple_encourage = {}
 }
 
@@ -23636,6 +23860,40 @@ _G.pg.ship_skin_words[301850] = {
 	}
 }
 
+_G.pg.ship_skin_words[301851] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "把眼睛蒙上真的會進步得更快嗎？ {namecode:124}？",
+	mission = "",
+	touch2 = "啊哇哇哇哇！？到、到底在幹嘛啊！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "指揮官也來海邊玩了嗎？什麼，注意安全？哼，區區打西瓜，對我來說就是小菜一…哦哦哦！？",
+	mail = "",
+	touch = "怎、怎麼了？",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "指揮官也來海邊玩了嗎？什麼，注意安全？哼，區區打西瓜，對我來說就是小菜一…哦哦哦！？",
+	feeling5 = "",
+	main = "可以打下去了嗎？指揮官你在哪？趕快給我提示…！|{namecode:134}做的炒麵！那個超棒的啊，指揮官你不想嚐嚐嗎？|感謝相助，{namecode:140}！下一把就要把這傢伙一刀兩斷！",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "！？突然幹什麼啊！",
+	feeling2 = "",
+	login = "不管了！既然如此，就特訓到能把這西瓜漂亮地打爛為止！",
+	vote = "",
+	hp_warning = "",
+	id = 301851,
+	detail = "好好看著吧指揮官，這就是我全心全意的一擊——又失敗了？！",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[302010] = {
 	feeling1 = "主人，能請你不要靠近{namecode:37}嗎？",
 	feeling3 = "比起出征{namecode:37}更喜歡待在港口，這裡才是{namecode:37}的家呢。有碧藍的海面和溫暖的太陽……嗚…呼呼…",
@@ -25445,6 +25703,40 @@ _G.pg.ship_skin_words[303114] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[303115] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "忘掉羞恥心，集中精神全力奮戰……這也算修行吧",
+	home = "總、總算回來了…圍觀的人越來越多，我一直期盼著指揮官的身影能快點出現……",
+	mission = "",
+	touch2 = "現、現在還是在工作時間…！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "嗚…這、這種不知廉恥的裝扮…要不是{namecode:67}一直說要有更多的生活體驗…欸？很適合我？謝、謝謝……",
+	mail = "",
+	touch = "欸？要調整下姿勢，才有更好的拍攝效果？那、那就…嗚…果然還是有點羞恥……",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "嗚…這、這種不知廉恥的裝扮…要不是{namecode:67}一直說要有更多的生活體驗…欸？很適合我？謝、謝謝……",
+	feeling5 = "",
+	main = "拍照的閃光燈多少有些刺眼。不過沒事的，指揮官，在下會認真對待每一個鏡頭。|這種時候臉上要時刻保持笑容？既然……是指揮官的提議，在下會試著改進|指揮官，能幫在下撐一下傘嗎？想把髮帶的蝴蝶結綁得更整齊一點…",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "這姿勢保持久了有些累人。不過通過這種訓練，能讓身體變柔軟一些也好…",
+	vote = "",
+	hp_warning = "",
+	id = 303115,
+	detail = "無論是什麼任務，只要接下來了，就必須全力以赴的完成——不、不過指揮官，能不要像這樣一直盯著我看嗎，有點…害羞……",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[303118] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -25637,6 +25929,40 @@ _G.pg.ship_skin_words[303123] = {
 	hp_warning = "",
 	id = 303123,
 	detail = "既然都換上了校服，感覺稱呼也要換一下了呢…指揮官，叫我“學姐”就可以了喲？嘻嘻…",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[303124] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "作為艦隊的形象代言人，這種程度的表現理所應當呢~",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "想讓姐姐來擔任“艦隊女郎”？沒問題~不過，要是指揮官接下來不更加努力的話，姐姐我可是會生氣的哦？",
+	mail = "",
+	touch = "指揮官，加油工作唷，姐姐我會一直陪在你身邊的~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "想讓姐姐來擔任“艦隊女郎”？沒問題~不過，要是指揮官接下來不更加努力的話，姐姐我可是會生氣的哦？",
+	feeling5 = "指揮官，姐姐的寫真集就交給你來拍囉，兩個人的時候，慢慢地……不過，總覺得，最後會變成指揮官專屬的寫真集呢，嘻嘻……",
+	main = "指揮官，累了嗎？呵呵，要在這裡躺會嗎～？哪裡？當然是這·裡·啦～|呼，一直保持這個姿勢果然還是有些費力呢，指揮官，可以過來扶姐姐起來嗎？|{namecode:98}說，想要出姐姐我的寫真集……指揮官，想看嗎？",
+	battle = "指揮官，加油指揮哦~",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官，今天工作也要加油哦~啾~（飛吻）",
+	vote = "",
+	hp_warning = "",
+	id = 303124,
+	detail = "雖說風格就是這樣，不過這套衣服的露出度也是格外的高呢……嘻嘻，直白的指揮官，姐姐並不討厭哦？",
 	couple_encourage = {}
 }
 
@@ -29532,6 +29858,40 @@ _G.pg.ship_skin_words[307051] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[307052] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "呼…趁著空檔稍微休息下吧~",
+	mission = "",
+	touch2 = "就算要沉浸在{namecode:95}的溫柔中，也請等到工作結束之後哦，指揮官~",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "呵呵，這點簡單的工作，我還是能夠勝任的。敬請期待我的表現吧，指揮官~",
+	mail = "",
+	touch = "頭髮有點亂了？啊，謝謝你的提醒，指揮官。",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "呵呵，這點簡單的工作，我還是能夠勝任的。敬請期待我的表現吧，指揮官~",
+	feeling5 = "",
+	main = "像這樣受到矚目的感覺，一旦習慣了，好像也不壞呢，呵呵~|這邊的工作結束以後，能帶我去兜個風嗎，指揮官~？把{namecode:96}那孩子也帶上~|嗯…？前輩沒來啊…可惜了~真想讓前輩看看指揮官現在的神情呢~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "今天的風，還挺舒服的呢~",
+	vote = "",
+	hp_warning = "",
+	id = 307052,
+	detail = "{namecode:96}…感覺那孩子會不太適應這樣的場面呢，指揮官，拜託你幫我多照顧一下她哦？",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[307060] = {
 	feeling1 = "指揮官，你想體驗一下——馬里亞納海戰時我的心情嗎？",
 	feeling3 = "我的命運一直和列星頓糾纏在一起……啊，指揮官，這句話不要告訴薩拉小姐，我可拿她沒轍……",
@@ -29641,6 +30001,40 @@ _G.pg.ship_skin_words[307061] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[307062] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "哈啊…維持著這樣的姿勢，感覺肩膀都有點酸了…",
+	mission = "",
+	touch2 = "指揮官，不會也對其他夥伴做了這樣的事情吧…？",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "雖說是我自願接下的工作，而且能幫上指揮官忙是很讓人高興啦，不過這身衣服…之、之前沒聽說露出度有這麼高啊…？",
+	mail = "",
+	touch = "還要保持這個姿勢嗎…？哎，為啥不能換個帥氣點的造型呢…",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "雖說是我自願接下的工作，而且能幫上指揮官忙是很讓人高興啦，不過這身衣服…之、之前沒聽說露出度有這麼高啊…？",
+	feeling5 = "",
+	main = "唔…總感覺跟{namecode:95}姐比起來還是差了點味道呢…啊，難道這就是所謂的“女子力”？|原來這個工作就只是擺造型給人拍嗎…？我還以為能親自開賽車呢…|呼……啊！不能鬆懈不能鬆懈…要隨時在鏡頭前保持最佳的狀態！",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "嘿嘿，不用擔心我啦，指揮官。這對我來說不過小場面而已~",
+	vote = "",
+	hp_warning = "",
+	id = 307062,
+	detail = "啊，說起來，{namecode:95}姐也答應了這個工作吧？雖然衣服款式和我的好像差不多，不過穿在{namecode:95}姐身上就是有不一樣的感覺呢",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[307070] = {
 	feeling1 = "一定是那些害蟲……（咬牙）指揮官大人，等著哦，{namecode:97}這就去把您身邊那些害蟲全都清理掉……",
 	feeling3 = "——那孩子送的禮物？啊，我處理掉了呢。這不是理所當然的嗎？只有{namecode:97}送的東西能留在您的桌上啊~",
@@ -29740,6 +30134,40 @@ _G.pg.ship_skin_words[307072] = {
 	hp_warning = "",
 	id = 307072,
 	detail = "這一身旗袍，原本是想要向逸仙師父借的，但是，師父那裡沒有適合{namecode:97}的尺碼呢，最後只好重新訂製了一套",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[307073] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "呵呵❤指揮官～",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "指揮官大人，{namecode:97}的賽車女郎裝扮…呵呵，看{namecode:97}的姿態，和精心準備的服裝~❤我是絕對不會輸給其他女孩子的！",
+	mail = "",
+	touch = "{namecode:97}是屬於指揮官一個人的模特哦~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "指揮官大人，{namecode:97}的賽車女郎裝扮…呵呵，看{namecode:97}的姿態，和精心準備的服裝~❤我是絕對不會輸給其他女孩子的！",
+	feeling5 = "",
+	main = "五航戰也好一航戰也好，這點面子上的問題{namecode:97}完全無所謂的。只要是為了指揮官，{namecode:97}願意做任何事情❤|就算一直在這等著指揮官{namecode:97}也不要緊，不過要是能跟在指揮官身邊{namecode:97}會更開心的~指揮官願意的話…嗯，即使指揮官不願意，{namecode:97}也會隨時跟在您身邊的~❤|呵呵呵，說起來，所謂的“賽車女郎”文化，也算是發源自重櫻的呢~…指揮官，不要在那感慨了，只要好好看著{namecode:97}就好❤",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官大人，要不要來幫{namecode:97}拍幾張照片呢？不是宣傳素材，而是“私人用”的……呵呵呵❤",
+	vote = "",
+	hp_warning = "",
+	id = 307073,
+	detail = "指揮官要不要乾脆開車參加比賽好了？為了指揮官拿到冠軍，{namecode:97}可以把其他參賽者全都給……不行…嗎？",
 	couple_encourage = {}
 }
 
@@ -38691,6 +39119,40 @@ _G.pg.ship_skin_words[801030] = {
 			0
 		}
 	}
+}
+
+_G.pg.ship_skin_words[801032] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "歡迎回來，指揮官！看我的啾啾抱枕攻擊！嘿嘿，是不是很香呀？",
+	mission = "",
+	touch2 = "軟綿綿的、搞搞搞搞錯地方了啦—///",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "怎麼樣？這件睡衣很可愛吧！嘿嘿，我超喜歡這件的呢~和倔強的是配套的哦♪",
+	mail = "",
+	touch = "啾啾玩偶軟綿綿的抱起來超舒服的哦！",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "怎麼樣？這件睡衣很可愛吧！嘿嘿，我超喜歡這件的呢~和倔強的是一套的哦♪",
+	feeling5 = "",
+	main = "睡前還有好多事想做所以暫時還不想睡呢~欸？時間太晚了不行？唔…那就早點睡吧！|今天過得很開心！明天一定會更開心的吧，指揮官！|咦？啾啾玩偶哪裡去了？啊！原來埋到被子裡去了呀~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "晚安指揮官！…其實還沒到睡覺的時間啦！嘿嘿，有被騙到嗎？",
+	vote = "",
+	hp_warning = "",
+	id = 801032,
+	detail = "這個棒棒糖是之前{namecode:33}給我的！啊，要對敦克爾克保密哦？不然下次她就得做一堆糖出來了~",
+	couple_encourage = {}
 }
 
 _G.pg.ship_skin_words[801040] = {

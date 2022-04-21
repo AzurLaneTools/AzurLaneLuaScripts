@@ -49,6 +49,11 @@ function slot0.init(slot0)
 	slot0._middle = slot0:findTF("middle")
 	slot0._right = slot0:findTF("right")
 	slot0._fleet = slot0:findTF("middle/fleet")
+
+	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(findTF(slot0._fleet, "title_bg/Text"), i18n("pre_combat_team"))
+
 	slot0._ship_tpl = findTF(slot0._fleet, "shiptpl")
 	slot0._empty_tpl = findTF(slot0._fleet, "emptytpl")
 
@@ -84,9 +89,12 @@ function slot0.uiStartAnimating(slot0)
 end
 
 function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0._middle, -840, nil, dur, delay, true, true)
-	shiftPanel(slot0._right, 470, nil, dur, delay, true, true)
-	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, dur, delay, true, true, nil, )
+	slot1 = 0
+	slot2 = 0.3
+
+	shiftPanel(slot0._middle, -840, nil, slot2, slot1, true, true)
+	shiftPanel(slot0._right, 470, nil, slot2, slot1, true, true)
+	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, slot2, slot1, true, true, nil, )
 end
 
 function slot0.didEnter(slot0)
@@ -100,6 +108,18 @@ function slot0.didEnter(slot0)
 		end))
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._startBtn, function ()
+		for slot4, slot5 in pairs(uv0.fleet.ships) do
+			slot6, slot7 = ShipStatus.ShipStatusConflict("inActivity", slot5, {
+				inActivity = false
+			})
+
+			if slot6 == ShipStatus.STATE_CHANGE_FAIL then
+				pg.TipsMgr.GetInstance():ShowTips(i18n(slot7))
+
+				return
+			end
+		end
+
 		uv0:emit(ChallengePreCombatMediator.ON_START)
 	end, SFX_UI_WEIGHANCHOR)
 	onToggle(slot0, slot0._autoToggle, function (slot0)

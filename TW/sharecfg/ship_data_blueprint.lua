@@ -98,6 +98,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40124
 		}
 	},
 	[29902] = {
@@ -198,6 +201,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40124
 		}
 	},
 	[39901] = {
@@ -298,6 +304,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40124
 		}
 	},
 	[39902] = {
@@ -398,6 +407,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40124
 		}
 	},
 	[49901] = {
@@ -498,6 +510,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40124
 		}
 	},
 	[89901] = {
@@ -598,6 +613,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40124
 		}
 	},
 	[19901] = {
@@ -698,6 +716,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40125
 		}
 	},
 	[19902] = {
@@ -798,6 +819,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40125
 		}
 	},
 	[39903] = {
@@ -898,6 +922,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40125
 		}
 	},
 	[39904] = {
@@ -987,7 +1014,8 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
-		}
+		},
+		gain_item_id = {}
 	},
 	[49902] = {
 		blueprint_version = 2,
@@ -1076,7 +1104,8 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
-		}
+		},
+		gain_item_id = {}
 	},
 	[99901] = {
 		blueprint_version = 2,
@@ -1177,6 +1206,9 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
+		},
+		gain_item_id = {
+			40125
 		}
 	},
 	[29903] = {
@@ -1266,7 +1298,8 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
-		}
+		},
+		gain_item_id = {}
 	},
 	[29904] = {
 		blueprint_version = 3,
@@ -1355,7 +1388,8 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
-		}
+		},
+		gain_item_id = {}
 	},
 	[49903] = {
 		blueprint_version = 3,
@@ -1444,7 +1478,8 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
-		}
+		},
+		gain_item_id = {}
 	},
 	[49904] = {
 		blueprint_version = 3,
@@ -1533,7 +1568,8 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
-		}
+		},
+		gain_item_id = {}
 	},
 	[89902] = {
 		blueprint_version = 3,
@@ -1623,7 +1659,8 @@ pg.ship_data_blueprint = {
 			100,
 			100,
 			100
-		}
+		},
+		gain_item_id = {}
 	},
 	all = {
 		29901,

@@ -56,8 +56,13 @@ function slot0.init(slot0)
 		Shift = function (slot0, slot1, slot2)
 		end
 	}, slot0._formationLogic)
+	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
 
 	slot0._fleet = slot0:findTF("middle/fleet")
+
+	setText(findTF(slot0._fleet, "title_bg/Text"), i18n("pre_combat_team"))
+
 	slot0._ship_tpl = findTF(slot0._fleet, "shiptpl")
 	slot0._empty_tpl = findTF(slot0._fleet, "emptytpl")
 
@@ -136,11 +141,10 @@ function slot0.didEnter(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0._tf, false, {
+	slot1:OverlayPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER,
 		groupName = LayerWeightConst.GROUP_LEVELUI
 	})
-	setParent(slot0.strategyInfo, slot0._tf.parent)
 	onNextTick(function ()
 		if uv0.exited then
 			return
@@ -534,6 +538,9 @@ function slot0.displayStrategyInfo(slot0, slot1)
 
 	slot0.strategyPanel:attach(slot0)
 	slot0.strategyPanel:set(slot1)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.strategyPanel._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	function slot0.strategyPanel.onConfirm()
 		slot2 = pg.strategy_data_template[uv1.id]
@@ -557,6 +564,7 @@ end
 
 function slot0.hideStrategyInfo(slot0)
 	if slot0.strategyPanel then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.strategyPanel._tf)
 		slot0.strategyPanel:detach()
 	end
 end
@@ -572,12 +580,15 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
-	setParent(slot0.strategyInfo, slot0._tf)
+	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
+		slot0:hideStrategyInfo()
+	end
+
 	slot0._formationLogic:Destroy()
 
 	slot0._formationLogic = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

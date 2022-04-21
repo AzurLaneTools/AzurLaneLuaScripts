@@ -189,6 +189,7 @@ slot2 = {
 	RESOURCE_NUM_FIELD = slot0.FieldDescriptor(),
 	KEYVALUELIST_KEY_FIELD = slot0.FieldDescriptor(),
 	KEYVALUELIST_VALUE_LIST_FIELD = slot0.FieldDescriptor(),
+	KEYVALUELIST_VALUE_FIELD = slot0.FieldDescriptor(),
 	KEYVALUE_KEY_FIELD = slot0.FieldDescriptor(),
 	KEYVALUE_VALUE_FIELD = slot0.FieldDescriptor(),
 	MULKEYVALUE_KEY_FIELD = slot0.FieldDescriptor(),
@@ -2748,13 +2749,23 @@ slot2.KEYVALUELIST_VALUE_LIST_FIELD.default_value = {}
 slot2.KEYVALUELIST_VALUE_LIST_FIELD.message_type = KEYVALUE
 slot2.KEYVALUELIST_VALUE_LIST_FIELD.type = 11
 slot2.KEYVALUELIST_VALUE_LIST_FIELD.cpp_type = 10
+slot2.KEYVALUELIST_VALUE_FIELD.name = "value"
+slot2.KEYVALUELIST_VALUE_FIELD.full_name = "p11.keyvaluelist.value"
+slot2.KEYVALUELIST_VALUE_FIELD.number = 3
+slot2.KEYVALUELIST_VALUE_FIELD.index = 2
+slot2.KEYVALUELIST_VALUE_FIELD.label = 1
+slot2.KEYVALUELIST_VALUE_FIELD.has_default_value = false
+slot2.KEYVALUELIST_VALUE_FIELD.default_value = 0
+slot2.KEYVALUELIST_VALUE_FIELD.type = 13
+slot2.KEYVALUELIST_VALUE_FIELD.cpp_type = 3
 KEYVALUELIST.name = "keyvaluelist"
 KEYVALUELIST.full_name = "p11.keyvaluelist"
 KEYVALUELIST.nested_types = {}
 KEYVALUELIST.enum_types = {}
 KEYVALUELIST.fields = {
 	slot2.KEYVALUELIST_KEY_FIELD,
-	slot2.KEYVALUELIST_VALUE_LIST_FIELD
+	slot2.KEYVALUELIST_VALUE_LIST_FIELD,
+	slot2.KEYVALUELIST_VALUE_FIELD
 }
 KEYVALUELIST.is_extendable = false
 KEYVALUELIST.extensions = {}

@@ -571,11 +571,20 @@ function slot0.handleNotification(slot0, slot1)
 			}))
 		end
 	elseif slot2 == GAME.UPGRADE_MAX_LEVEL_DONE then
+		slot0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, false)
+
+		slot0.maxLevelCallback = slot3.callback
 		slot4 = slot0.viewComponent
 
 		slot4:doUpgradeMaxLeveAnim(slot3.oldShip, slot3.newShip, function ()
+			if uv0.maxLevelCallback then
+				uv0.maxLevelCallback()
+
+				uv0.maxLevelCallback = nil
+			end
+
+			uv0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, true)
 			uv0.viewComponent:showAwakenCompleteAni(i18n("upgrade_to_next_maxlevel_succeed", uv1.newShip:getMaxLevel()))
-			uv1.callback()
 		end)
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		if slot3.context.mediator == ProposeMediator then
@@ -592,6 +601,16 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:RefreshShipExpItemUsagePage()
 	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		slot0.viewComponent:equipmentChange()
+	end
+end
+
+function slot0.remove(slot0)
+	if slot0.maxLevelCallback then
+		slot0.maxLevelCallback()
+
+		slot0.maxLevelCallback = nil
+
+		slot0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, true)
 	end
 end
 

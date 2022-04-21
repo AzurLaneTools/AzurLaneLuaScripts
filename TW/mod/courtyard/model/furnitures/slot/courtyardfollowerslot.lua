@@ -49,4 +49,16 @@ function slot0.OnStart(slot0)
 	end, slot0.user:GetInterActionTime(), 1):Start()
 end
 
+function slot0.GetBodyMask(slot0)
+	return false
+end
+
+function slot0.GetUsingAnimator(slot0)
+	return false
+end
+
+function slot0.GetFollower(slot0)
+	return nil
+end
+
 return slot0

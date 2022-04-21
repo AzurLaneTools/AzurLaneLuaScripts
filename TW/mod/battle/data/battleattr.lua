@@ -219,6 +219,8 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.level = slot1.level
 	slot3.formulaLevel = slot1.level
 	slot3.maxHP = slot1.durability
+	slot3.HPRate = 1
+	slot3.DMGRate = 0
 	slot3.cannonPower = slot1.cannon
 	slot3.torpedoPower = slot1.torpedo
 	slot3.antiAirPower = slot1.antiaircraft
@@ -294,6 +296,8 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	slot4.formulaLevel = slot3
 	slot5 = (slot3 - 1) / 1000
 	slot4.maxHP = math.ceil(slot2.durability + slot2.durability_growth * slot5)
+	slot4.HPRate = 1
+	slot4.DMGRate = 0
 	slot4.cannonPower = slot2.cannon + slot2.cannon_growth * slot5
 	slot4.torpedoPower = slot2.torpedo + slot2.torpedo_growth * slot5
 	slot4.antiAirPower = slot2.antiaircraft + slot2.antiaircraft_growth * slot5

@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在比赛中使用了氮气加速，前进三格",
+			say = "在比賽中使用了氮氣加速，前進三格",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,14 +1,15 @@
 pg = pg or {}
 pg.pay_data_display = {
 	{
-		descrip = "購買後立即獲得$1鑽，30日內每天獲得資源",
-		name = "貿易許可證（30日）",
+		subject = "貿易許可證",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "貿易許可證",
-		extra_gem = 0,
-		name_display = "貿易許可證（30日）",
 		limit_arg = 7,
+		name = "貿易許可證（30日）",
+		name_display = "貿易許可證（30日）",
+		extra_gem = 0,
+		id = 1,
 		money = 270,
 		tag = 2,
 		gem = 500,
@@ -18,7 +19,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.passport1",
 		first_pay_double = 0,
 		extra_service = 2,
-		id = 1,
+		descrip = "購買後立即獲得$1鑽，30日內每天獲得資源",
 		airijp_id = "com.yostarjp.azurlane.passport1",
 		extra_service_item = {
 			{
@@ -39,17 +40,19 @@ pg.pay_data_display = {
 		},
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "等3件物品",
-		name = "新手啟航補給",
+		subject = "新手起航補給",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "新手起航補給",
-		extra_gem = 0,
-		name_display = "新手啟航補給",
 		limit_arg = 1,
+		name = "新手啟航補給",
+		name_display = "新手啟航補給",
+		extra_gem = 0,
+		id = 2,
 		money = 33,
 		tag = 1,
 		gem = 30,
@@ -59,7 +62,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.diamond101",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 2,
+		descrip = "等3件物品",
 		airijp_id = "com.yostarjp.azurlane.diamond101",
 		extra_service_item = {
 			{
@@ -91,18 +94,20 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "額外贈送$1鑽",
-		name = "幾個鑽石",
+		subject = "鑽石*60",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "鑽石*60",
-		extra_service_item = "0",
-		name_display = "幾個鑽石",
-		extra_gem = 0,
 		limit_arg = 10,
+		name = "幾個鑽石",
+		name_display = "幾個鑽石",
+		extra_service_item = "0",
+		extra_gem = 0,
+		id = 3,
 		money = 33,
 		tag = 0,
 		gem = 60,
@@ -112,22 +117,24 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.diamond1",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 3,
+		descrip = "額外贈送$1鑽",
 		airijp_id = "com.yostarjp.azurlane.diamond1",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "額外贈送$1鑽",
-		name = "一小堆鑽石",
+		subject = "鑽石*300",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "鑽石*300",
-		extra_service_item = "0",
-		name_display = "一小堆鑽石",
-		extra_gem = 30,
 		limit_arg = 10,
+		name = "一小堆鑽石",
+		name_display = "一小堆鑽石",
+		extra_service_item = "0",
+		extra_gem = 30,
+		id = 4,
 		money = 170,
 		tag = 0,
 		gem = 300,
@@ -137,22 +144,24 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.diamond02",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 4,
+		descrip = "額外贈送$1鑽",
 		airijp_id = "com.yostarjp.azurlane.diamond2",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "額外贈送$1鑽",
-		name = "一大袋鑽石",
+		subject = "鑽石*980",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "鑽石*980",
-		extra_service_item = "0",
-		name_display = "一大袋鑽石",
-		extra_gem = 150,
 		limit_arg = 0,
+		name = "一大袋鑽石",
+		name_display = "一大袋鑽石",
+		extra_service_item = "0",
+		extra_gem = 150,
+		id = 5,
 		money = 330,
 		tag = 0,
 		gem = 600,
@@ -162,22 +171,24 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.diamond3",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 5,
+		descrip = "額外贈送$1鑽",
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "額外贈送$1鑽",
-		name = "一小箱鑽石",
+		subject = "鑽石*1980",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "鑽石*1980",
-		extra_service_item = "0",
-		name_display = "一小箱鑽石",
-		extra_gem = 360,
 		limit_arg = 0,
+		name = "一小箱鑽石",
+		name_display = "一小箱鑽石",
+		extra_service_item = "0",
+		extra_gem = 360,
+		id = 6,
 		money = 670,
 		tag = 0,
 		gem = 1200,
@@ -187,22 +198,24 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.diamond4",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 6,
+		descrip = "額外贈送$1鑽",
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "額外贈送$1鑽",
-		name = "一大箱鑽石",
+		subject = "鑽石*3280",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "鑽石*3280",
-		extra_service_item = "0",
-		name_display = "一大箱鑽石",
-		extra_gem = 880,
 		limit_arg = 0,
+		name = "一大箱鑽石",
+		name_display = "一大箱鑽石",
+		extra_service_item = "0",
+		extra_gem = 880,
+		id = 7,
 		money = 1320,
 		tag = 0,
 		gem = 2400,
@@ -212,22 +225,24 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.diamond5",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 7,
+		descrip = "額外贈送$1鑽",
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	{
-		descrip = "額外贈送$1鑽",
-		name = "一整船鑽石",
+		subject = "鑽石*6480",
+		limit_group = 0,
 		descrip_extra = "",
 		type = 0,
-		subject = "鑽石*6480",
-		extra_service_item = "0",
-		name_display = "一整船鑽石",
-		extra_gem = 2500,
 		limit_arg = 0,
+		name = "一整船鑽石",
+		name_display = "一整船鑽石",
+		extra_service_item = "0",
+		extra_gem = 2500,
+		id = 8,
 		money = 2690,
 		tag = 1,
 		gem = 4900,
@@ -237,21 +252,23 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.diamond6",
 		first_pay_double = 1,
 		extra_service = 0,
-		id = 8,
+		descrip = "額外贈送$1鑽",
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		display = {},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[16] = {
-		descrip = "可獲得一件角色換裝，2020鑽，3個外觀裝備箱，和大量其他獎勵",
-		name = "新年福袋2020",
+		subject = "新年福袋2020",
+		limit_group = 0,
 		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "新年福袋2020",
-		extra_gem = 0,
-		name_display = "新年福袋2020",
 		limit_arg = 1,
+		name = "新年福袋2020",
+		name_display = "新年福袋2020",
+		extra_gem = 0,
+		id = 16,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -260,7 +277,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package1",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 16,
+		descrip = "可獲得一件角色換裝，2020鑽，3個外觀裝備箱，和大量其他獎勵",
 		airijp_id = "com.yostarjp.azurlane.diamond110",
 		extra_service_item = {
 			{
@@ -338,17 +355,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[18] = {
-		descrip = "可獲得一件角色換裝，2020鑽，3個外觀裝備箱，和大量其他獎勵",
-		name = "春節福袋2020",
+		subject = "春節福袋2020",
+		limit_group = 0,
 		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "春節福袋2020",
-		extra_gem = 0,
-		name_display = "春節福袋2020",
 		limit_arg = 1,
+		name = "春節福袋2020",
+		name_display = "春節福袋2020",
+		extra_gem = 0,
+		id = 18,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -357,7 +376,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package2",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 18,
+		descrip = "可獲得一件角色換裝，2020鑽，3個外觀裝備箱，和大量其他獎勵",
 		airijp_id = "com.yostarjp.azurlane.diamond112",
 		extra_service_item = {
 			{
@@ -435,17 +454,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[20] = {
-		descrip = "可獲得180鑽，石油儲備箱(1000)x2和其他獎勵",
-		name = "新晉指揮官支援包·I",
+		subject = "新晉指揮官支援包·I ",
+		limit_group = 0,
 		descrip_extra = "*支援包將發送到郵箱，請注意查收。",
 		type = 0,
-		subject = "新晉指揮官支援包·I ",
-		extra_gem = 0,
-		name_display = "新晉指揮官支援包·I",
 		limit_arg = 1,
+		name = "新晉指揮官支援包·I",
+		name_display = "新晉指揮官支援包·I",
+		extra_gem = 0,
+		id = 20,
 		money = 100,
 		tag = 1,
 		gem = 0,
@@ -455,7 +476,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.libao1",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 20,
+		descrip = "可獲得180鑽，石油儲備箱(1000)x2和其他獎勵",
 		airijp_id = "com.yostarjp.azurlane.package101",
 		extra_service_item = {
 			{
@@ -517,17 +538,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[21] = {
-		descrip = "可獲得780鑽，定向裝備箱·超稀有x2，石油儲備箱(1000)x4和其他獎勵",
-		name = "新晉指揮官支援包·II",
+		subject = "新晉指揮官支援包·II ",
+		limit_group = 0,
 		descrip_extra = "*支援包將發送到郵箱，請注意查收。",
 		type = 0,
-		subject = "新晉指揮官支援包·II ",
-		extra_gem = 0,
-		name_display = "新晉指揮官支援包·II",
 		limit_arg = 1,
+		name = "新晉指揮官支援包·II",
+		name_display = "新晉指揮官支援包·II",
+		extra_gem = 0,
+		id = 21,
 		money = 390,
 		tag = 1,
 		gem = 0,
@@ -537,7 +560,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.libao2",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 21,
+		descrip = "可獲得780鑽，定向裝備箱·超稀有x2，石油儲備箱(1000)x4和其他獎勵",
 		airijp_id = "com.yostarjp.azurlane.package102",
 		extra_service_item = {
 			{
@@ -624,17 +647,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[22] = {
-		descrip = "可獲得1680鑽，定向裝備箱·超稀有x4，石油儲備箱(1000)x8和其他獎勵",
-		name = "新晉指揮官支援包·III",
+		subject = "新晉指揮官支援包·III ",
+		limit_group = 0,
 		descrip_extra = "*支援包將發送到郵箱，請注意查收。",
 		type = 0,
-		subject = "新晉指揮官支援包·III ",
-		extra_gem = 0,
-		name_display = "新晉指揮官支援包·III",
 		limit_arg = 1,
+		name = "新晉指揮官支援包·III",
+		name_display = "新晉指揮官支援包·III",
+		extra_gem = 0,
+		id = 22,
 		money = 870,
 		tag = 1,
 		gem = 0,
@@ -644,7 +669,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.libao3",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 22,
+		descrip = "可獲得1680鑽，定向裝備箱·超稀有x4，石油儲備箱(1000)x8和其他獎勵",
 		airijp_id = "com.yostarjp.azurlane.package103",
 		extra_service_item = {
 			{
@@ -736,17 +761,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[23] = {
-		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
-		name = "福袋",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "福袋",
 		limit_arg = 1,
+		name = "福袋",
+		name_display = "福袋",
+		extra_gem = 0,
+		id = 23,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -755,7 +782,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package3",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 23,
+		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
 		airijp_id = "com.yostarjp.azurlane.diamond114",
 		extra_service_item = {
 			{
@@ -838,17 +865,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4001] = {
-		descrip = "可獲得120鑽和定向部件x10",
-		name = "GP限時補給 ",
+		subject = "GP限時補給 ",
+		limit_group = 0,
 		descrip_extra = "*補給將發送到郵箱，請注意查收。",
 		type = 0,
-		subject = "GP限時補給 ",
-		extra_gem = 0,
-		name_display = "GP限時補給 ",
 		limit_arg = 1,
+		name = "GP限時補給 ",
+		name_display = "GP限時補給 ",
+		extra_gem = 0,
+		id = 4001,
 		money = 70,
 		tag = 2,
 		gem = 0,
@@ -857,7 +886,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.anzhuolibao1",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4001,
+		descrip = "可獲得120鑽和定向部件x10",
 		airijp_id = "com.hkmanjuu.azurlane.anzhuolibao1",
 		extra_service_item = {
 			{
@@ -913,17 +942,19 @@ pg.pay_data_display = {
 		ignorePlatform = {
 			2,
 			3
-		}
+		},
+		limit_args = {}
 	},
 	[4002] = {
-		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
-		name = "週年禮盒·I",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "週年禮盒·I",
 		limit_arg = 1,
+		name = "週年禮盒·I",
+		name_display = "週年禮盒·I",
+		extra_gem = 0,
+		id = 4002,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -932,7 +963,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package4",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4002,
+		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package4",
 		extra_service_item = {
 			{
@@ -1010,17 +1041,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4003] = {
-		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
-		name = "週年禮盒·II",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "週年禮盒·II",
 		limit_arg = 1,
+		name = "週年禮盒·II",
+		name_display = "週年禮盒·II",
+		extra_gem = 0,
+		id = 4003,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1029,7 +1062,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package5",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4003,
+		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package5",
 		extra_service_item = {
 			{
@@ -1107,17 +1140,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4004] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "新年福袋·I",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "新年福袋·I",
 		limit_arg = 1,
+		name = "新年福袋·I",
+		name_display = "新年福袋·I",
+		extra_gem = 0,
+		id = 4004,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1126,7 +1161,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package6",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4004,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package6",
 		extra_service_item = {
 			{
@@ -1209,17 +1244,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4005] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "新年福袋·II",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "新年福袋·II",
 		limit_arg = 1,
+		name = "新年福袋·II",
+		name_display = "新年福袋·II",
+		extra_gem = 0,
+		id = 4005,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1228,7 +1265,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package7",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4005,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package7",
 		extra_service_item = {
 			{
@@ -1311,17 +1348,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4006] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "2021春節福袋·I",
+		subject = "2021春節福袋·I",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "2021春節福袋·I",
-		extra_gem = 0,
-		name_display = "2021春節福袋·I",
 		limit_arg = 1,
+		name = "2021春節福袋·I",
+		name_display = "2021春節福袋·I",
+		extra_gem = 0,
+		id = 4006,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1330,7 +1369,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package8",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4006,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package8",
 		extra_service_item = {
 			{
@@ -1413,17 +1452,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4007] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "2021春節福袋·II",
+		subject = "2021春節福袋·II",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "2021春節福袋·II",
-		extra_gem = 0,
-		name_display = "2021春節福袋·II",
 		limit_arg = 1,
+		name = "2021春節福袋·II",
+		name_display = "2021春節福袋·II",
+		extra_gem = 0,
+		id = 4007,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1432,7 +1473,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package9",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4007,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package9",
 		extra_service_item = {
 			{
@@ -1515,17 +1556,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4008] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "福袋·I",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "福袋·I",
 		limit_arg = 1,
+		name = "福袋·I",
+		name_display = "福袋·I",
+		extra_gem = 0,
+		id = 4008,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1534,7 +1577,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package10",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4008,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package10",
 		extra_service_item = {
 			{
@@ -1617,17 +1660,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4009] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "福袋·II",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "福袋·II",
 		limit_arg = 1,
+		name = "福袋·II",
+		name_display = "福袋·II",
+		extra_gem = 0,
+		id = 4009,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1636,7 +1681,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package11",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4009,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package11",
 		extra_service_item = {
 			{
@@ -1719,17 +1764,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4010] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "二週年禮盒·I",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "二週年禮盒·I",
 		limit_arg = 1,
+		name = "二週年禮盒·I",
+		name_display = "二週年禮盒·I",
+		extra_gem = 0,
+		id = 4010,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1738,7 +1785,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package12",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4010,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package12",
 		extra_service_item = {
 			{
@@ -1821,17 +1868,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4011] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "二週年禮盒·II",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "二週年禮盒·II",
 		limit_arg = 1,
+		name = "二週年禮盒·II",
+		name_display = "二週年禮盒·II",
+		extra_gem = 0,
+		id = 4011,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -1840,7 +1889,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package13",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4011,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package13",
 		extra_service_item = {
 			{
@@ -1923,17 +1972,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4012] = {
-		descrip = "可獲得120鑽，定向部件x10和其他獎勵",
-		name = "限時補給禮包",
+		subject = "限時補給禮包",
+		limit_group = 0,
 		descrip_extra = "*補給將發送到郵箱，請注意查收。",
 		type = 0,
-		subject = "限時補給禮包",
-		extra_gem = 0,
-		name_display = "限時補給禮包",
 		limit_arg = 1,
+		name = "限時補給禮包",
+		name_display = "限時補給禮包",
+		extra_gem = 0,
+		id = 4012,
 		money = 70,
 		tag = 2,
 		gem = 0,
@@ -1942,7 +1993,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.tehuilibao1",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4012,
+		descrip = "可獲得120鑽，定向部件x10和其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.tehuilibao1",
 		extra_service_item = {
 			{
@@ -2025,17 +2076,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4013] = {
-		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
-		name = "新年福袋·I",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "新年福袋·I",
 		limit_arg = 1,
+		name = "新年福袋·I",
+		name_display = "新年福袋·I",
+		extra_gem = 0,
+		id = 4013,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -2044,7 +2097,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package14",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4013,
+		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package14",
 		extra_service_item = {
 			{
@@ -2127,17 +2180,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4014] = {
-		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
-		name = "新年福袋·II",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "新年福袋·II",
 		limit_arg = 1,
+		name = "新年福袋·II",
+		name_display = "新年福袋·II",
+		extra_gem = 0,
+		id = 4014,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -2146,7 +2201,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package15",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4014,
+		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package15",
 		extra_service_item = {
 			{
@@ -2229,17 +2284,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4015] = {
-		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
-		name = "春節福袋2022",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "春節福袋2022",
 		limit_arg = 1,
+		name = "春節福袋2022",
+		name_display = "春節福袋2022",
+		extra_gem = 0,
+		id = 4015,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -2248,7 +2305,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package16",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4015,
+		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package16",
 		extra_service_item = {
 			{
@@ -2331,17 +2388,19 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4016] = {
-		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
-		name = "春節福袋復刻（2021）",
+		subject = "福袋",
+		limit_group = 0,
 		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
-		subject = "福袋",
-		extra_gem = 0,
-		name_display = "春節福袋復刻（2021）",
 		limit_arg = 1,
+		name = "春節福袋復刻（2021）",
+		name_display = "春節福袋復刻（2021）",
+		extra_gem = 0,
+		id = 4016,
 		money = 990,
 		tag = 2,
 		gem = 0,
@@ -2350,7 +2409,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.package17",
 		first_pay_double = 0,
 		extra_service = 3,
-		id = 4016,
+		descrip = "可獲得一件角色換裝，2021鑽，和大量其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.package17",
 		extra_service_item = {
 			{
@@ -2433,17 +2492,388 @@ pg.pay_data_display = {
 			}
 		},
 		sub_display = {},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[4850] = {
+		subject = "最高方案研發禮包（一期）",
+		limit_group = 1,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		limit_arg = 0,
+		name = "最高方案研發禮包（一期）",
+		name_display = "最高方案研發禮包一期",
+		extra_gem = 0,
+		id = 4850,
+		money = 490,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_display",
+		id_str = "com.hkmanjuu.azurlane.keyan",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得最高方案快速研發券·一期*1，定向藍圖·一期*343",
+		airijp_id = "com.hkmanjuu.azurlane.keyan",
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[4851] = {
+		subject = "最高方案研發禮包（一期）高級版",
+		limit_group = 1,
+		descrip_extra = "*最高方案快速研發券·一期內容可能發生變化，點擊道具查看詳情",
+		type = 0,
+		limit_arg = 1,
+		name = "最高方案研發禮包（一期）高級版",
+		name_display = "高級版",
+		extra_gem = 0,
+		id = 4851,
+		money = 490,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_promotion",
+		id_str = "com.hkmanjuu.azurlane.keyan1",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "禮包内容",
+		airijp_id = "com.hkmanjuu.azurlane.keyan1",
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[4852] = {
+		subject = "最高方案研發禮包（一期）標準版",
+		limit_group = 1,
+		descrip_extra = "*最高方案快速研發券·一期內容可能發生變化，點擊道具查看詳情",
+		type = 0,
+		limit_arg = 2,
+		name = "最高方案研發禮包（一期）標準版",
+		name_display = "標準版",
+		extra_gem = 0,
+		id = 4852,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_normal",
+		id_str = "com.hkmanjuu.azurlane.keyan2",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "禮包内容",
+		airijp_id = "com.hkmanjuu.azurlane.keyan2",
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[4853] = {
+		subject = "最高方案研發禮包（一期）高級版",
+		limit_group = 1,
+		descrip_extra = "升級為高級版後可獲得定向藍圖·一期*343",
+		type = 0,
+		limit_arg = 3,
+		name = "最高方案研發禮包（一期）升級版",
+		name_display = "升級版",
+		extra_gem = 0,
+		id = 4853,
+		money = 190,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech1_promotion",
+		id_str = "com.hkmanjuu.azurlane.keyan3",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "禮包内容",
+		airijp_id = "com.hkmanjuu.azurlane.keyan3",
+		extra_service_item = {
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[4858] = {
+		subject = "即刻出戰禮包",
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到信箱，請注意查收。",
+		type = 0,
+		limit_arg = 1,
+		name = "即刻出戰禮包",
+		name_display = "即刻出戰禮包",
+		extra_gem = 0,
+		id = 4858,
+		money = 170,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "lv_70",
+		id_str = "com.hkmanjuu.azurlane.libao104",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "購買後指揮官等級將提升至70級同時獲得其他大量獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.libao104",
+		extra_service_item = {
+			{
+				2,
+				40126,
+				1
+			},
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				4,
+				100011,
+				4
+			},
+			{
+				4,
+				100001,
+				4
+			},
+			{
+				2,
+				69001,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40126,
+				1
+			},
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				4,
+				100011,
+				4
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"lv_70",
+				70
+			}
+		}
+	},
+	[4859] = {
+		subject = "艦艇教材禮包",
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到信箱，請注意查收。",
+		type = 0,
+		limit_arg = 4,
+		name = "艦艇教材禮包",
+		name_display = "艦艇教材禮包",
+		extra_gem = 0,
+		id = 4859,
+		money = 100,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		id_str = "com.hkmanjuu.azurlane.libao105",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得大量教材獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.libao105",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4900] = {
-		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:約克鎮限定換裝和其他獎勵",
-		name = "特許巡遊憑證",
+		subject = "特許巡遊憑證",
+		limit_group = 0,
 		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
 		type = 0,
-		subject = "特許巡遊憑證",
-		extra_gem = 0,
-		name_display = "特許巡遊憑證",
 		limit_arg = 1,
+		name = "特許巡遊憑證",
+		name_display = "特許巡遊憑證",
+		extra_gem = 0,
+		id = 4900,
 		money = 330,
 		tag = 2,
 		gem = 0,
@@ -2452,7 +2882,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.battlepass1",
 		first_pay_double = 0,
 		extra_service = 4,
-		id = 4900,
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:約克鎮限定換裝和其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.battlepass1",
 		extra_service_item = {
 			{
@@ -2503,17 +2933,19 @@ pg.pay_data_display = {
 			45900,
 			1500
 		},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	[4901] = {
-		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:科羅拉多限定換裝和其他獎勵",
-		name = "特許巡遊憑證（二期）",
+		subject = "特許巡遊憑證",
+		limit_group = 0,
 		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
 		type = 0,
-		subject = "特許巡遊憑證",
-		extra_gem = 0,
-		name_display = "特許巡遊憑證",
 		limit_arg = 1,
+		name = "特許巡遊憑證（二期）",
+		name_display = "特許巡遊憑證",
+		extra_gem = 0,
+		id = 4901,
 		money = 330,
 		tag = 2,
 		gem = 0,
@@ -2522,7 +2954,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.battlepass2",
 		first_pay_double = 0,
 		extra_service = 4,
-		id = 4901,
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:科羅拉多限定換裝和其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.battlepass2",
 		extra_service_item = {
 			{
@@ -2573,7 +3005,8 @@ pg.pay_data_display = {
 			45901,
 			1500
 		},
-		ignorePlatform = {}
+		ignorePlatform = {},
+		limit_args = {}
 	},
 	all = {
 		1,
@@ -2606,6 +3039,12 @@ pg.pay_data_display = {
 		4014,
 		4015,
 		4016,
+		4850,
+		4851,
+		4852,
+		4853,
+		4858,
+		4859,
 		4900,
 		4901
 	}

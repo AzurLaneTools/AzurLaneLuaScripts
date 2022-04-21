@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "捡到了一只躲在观众台下的小猫，获得了【喵箱SR型*1】",
+			say = "撿到了一隻躲在觀眾台下的小貓，獲得了【喵箱SR型*1】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

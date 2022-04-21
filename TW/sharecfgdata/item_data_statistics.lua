@@ -8958,6 +8958,90 @@ _G.pg.item_data_statistics[30121] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[30132] = {
+	display = "使用後可從T2改造圖紙中任意選擇一種獲得1個",
+	name = "定向改造圖紙T2",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30132",
+	id = 30132,
+	display_icon = {
+		{
+			2,
+			18002,
+			1
+		},
+		{
+			2,
+			18012,
+			1
+		},
+		{
+			2,
+			18022,
+			1
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[30133] = {
+	display = "使用後可從T3改造圖紙中任意選擇一種獲得1個",
+	name = "定向改造圖紙T3",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30133",
+	id = 30133,
+	display_icon = {
+		{
+			2,
+			18003,
+			1
+		},
+		{
+			2,
+			18013,
+			1
+		},
+		{
+			2,
+			18023,
+			1
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[30202] = {
 	display = "使用後可從以下指定<color=#ffde38>超稀有裝備</color>中任意選擇一個獲得",
 	name = "定向裝備箱·超稀有",
@@ -12788,6 +12872,331 @@ _G.pg.item_data_statistics[40014] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[40016] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "最高方案研發禮包(一期)·高級版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40016,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		},
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40017] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "最高方案研發禮包(一期)·標準版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_normal",
+	id = 40017,
+	display_icon = {
+		{
+			2,
+			40124,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40018] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "最高方案研發禮包(一期)·升級版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech1_promotion",
+	id = 40018,
+	display_icon = {
+		{
+			2,
+			42000,
+			343
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40022] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "即刻出戰禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/lv_70",
+	id = 40022,
+	display_icon = {
+		{
+			8,
+			40126,
+			1
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			4,
+			100011,
+			4
+		},
+		{
+			4,
+			100001,
+			4
+		},
+		{
+			3,
+			21426,
+			3
+		},
+		{
+			3,
+			31026,
+			3
+		},
+		{
+			3,
+			42226,
+			3
+		},
+		{
+			3,
+			32226,
+			3
+		},
+		{
+			3,
+			43026,
+			3
+		},
+		{
+			3,
+			13146,
+			3
+		},
+		{
+			3,
+			14326,
+			3
+		},
+		{
+			3,
+			24146,
+			3
+		},
+		{
+			3,
+			26526,
+			3
+		},
+		{
+			3,
+			16426,
+			3
+		},
+		{
+			3,
+			5146,
+			3
+		},
+		{
+			3,
+			45126,
+			3
+		},
+		{
+			3,
+			17246,
+			3
+		},
+		{
+			3,
+			47126,
+			3
+		},
+		{
+			3,
+			28126,
+			3
+		},
+		{
+			3,
+			38126,
+			3
+		},
+		{
+			3,
+			19126,
+			3
+		},
+		{
+			3,
+			49046,
+			3
+		},
+		{
+			3,
+			45426,
+			3
+		},
+		{
+			3,
+			35526,
+			3
+		},
+		{
+			3,
+			4046,
+			3
+		},
+		{
+			3,
+			1226,
+			3
+		},
+		{
+			3,
+			1326,
+			3
+		},
+		{
+			3,
+			1426,
+			3
+		},
+		{
+			3,
+			2126,
+			3
+		},
+		{
+			3,
+			2226,
+			3
+		},
+		{
+			3,
+			2426,
+			3
+		},
+		{
+			3,
+			2546,
+			3
+		},
+		{
+			3,
+			2606,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40023] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "艦艇教材禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxSkill",
+	id = 40023,
+	display_icon = {
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[40100] = {
 	display = "購買禮包可獲得誓約之戒*2",
 	name = "比翼雙飛",
@@ -13414,6 +13823,81 @@ _G.pg.item_data_statistics[40119] = {
 			1000
 		}
 	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40124] = {
+	display = [[
+可於科研-開發船塢界面，從君主、海王星、羅恩、路易九世、{namecode:152}、{namecode:151}中選擇一位並獲取等級與科研等級均為1級的角色
+<color=#92fc63>上述角色全部獲得時</color>，在倉庫中使用此道具將會獲得：
+科研測試數據·一期*300
+定向改造圖紙T3*5
+定向改造圖紙T2*10
+心智魔方*5
+物資*20000]],
+	name = "最高方案快速研發券·一期",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research1",
+	id = 40124,
+	display_icon = {
+		{
+			2,
+			20101,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[40126] = {
+	display = "指揮官等級不足70級時，將直接變為70級(高於70級時該道具無效果)",
+	name = "指揮官等級70級",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 23,
+	is_world = 0,
+	icon = "Props/lv_70",
+	id = 40126,
+	display_icon = {},
 	price = {},
 	index = {}
 }
@@ -122327,6 +122811,48 @@ _G.pg.item_data_statistics[59302] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59303] = {
+	display = "用於『啾啾總動員』累計兌換活動，活動結束後將會消失",
+	name = "啾啾",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	id = 59303,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59304] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59304,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "三笠收藏的驅逐船模-茳",
 	name = "船模-茳",
@@ -128683,6 +129209,57 @@ _G.pg.item_data_statistics[60233] = {
 	price = "",
 	id = 60233,
 	display_icon = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69001] = {
+	display = [[
+可以獲得以下裝備：
++6 雙聯裝120mm主炮T2*3
++6 雙聯100mm98式高射炮T2*3
++6 雙聯裝TbtsKC36式150mm主炮T2*3
++6 155mm三連裝炮T2*3
++6 雙聯裝203mmSKC主炮T2*3
++6 三聯裝203mm主炮改進型T3*3
++6 三聯裝406mm主炮Mk6T2*3
++6 雙聯裝381mm主炮T3*3
++6 雙聯裝113mm高射炮T2*3
++6 四聯40mm博福斯對空機炮T2*3
++6 四聯裝533mm魚雷T3*3
++6 四聯裝533mm磁性魚雷T2*3
++6 F4U海盜T3*3
++6 Me-155A艦載戰鬥機T2*3
++6 梭魚T2*3
++6 天山T2*3
++6 SB2C地獄俯衝者T2*3
++6 Ju-87C俯衝轟炸機T3*3
++6 潛艇用G7e聲導魚雷T2*3
++6 潛艇用95式純氧魚雷T2*3
++6 基礎深彈投射器T3*3
++6 火控雷達T2*3
++6 防魚雷隔艙T2*3
++6 液壓彈射裝置T2*3
++6 航空副油箱T2*3
++6 鍊式裝彈機T2*3
++6 維修工具T2*3
++6 滅火器T3*3
++6 九三式純氧魚雷T1*3]],
+	name = "裝備補給箱T3·即刻出戰",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lv70_equip",
+	id = 69001,
+	display_icon = {},
+	price = {},
 	index = {}
 }
 

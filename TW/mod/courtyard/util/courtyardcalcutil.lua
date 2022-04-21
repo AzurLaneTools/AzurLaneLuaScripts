@@ -42,4 +42,12 @@ function slot0.HalfProbability()
 	return uv0.IsHappen(50)
 end
 
+function slot0.GetSign(slot0)
+	if slot0 <= 0 then
+		return -1
+	else
+		return 1
+	end
+end
+
 return slot0

@@ -735,6 +735,36 @@ pg.player_resource = {
 		name = "skinTicket30",
 		itemid = 59282
 	},
+	[245] = {
+		id = 245,
+		name = "yingxiv2re_pt",
+		itemid = 59283
+	},
+	[246] = {
+		id = 246,
+		name = "skinTicket31",
+		itemid = 59285
+	},
+	[247] = {
+		id = 247,
+		name = "xiaoshengwang_pt2",
+		itemid = 59286
+	},
+	[248] = {
+		id = 248,
+		name = "yingxiv2re_frame_pt1",
+		itemid = 59287
+	},
+	[249] = {
+		id = 249,
+		name = "newserver_pt_220414",
+		itemid = 59289
+	},
+	[250] = {
+		id = 250,
+		name = "gonghaijiandui_frame_pt",
+		itemid = 59305
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -865,11 +895,6 @@ pg.player_resource = {
 		name = "synchronize_shaenhuosite",
 		itemid = 21906
 	},
-	[40296] = {
-		id = 40296,
-		name = "Twomamori2",
-		itemid = 70079
-	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -920,10 +945,25 @@ pg.player_resource = {
 		name = "Twouxiang_pt",
 		itemid = 59143
 	},
+	[40296] = {
+		id = 40296,
+		name = "Twomamori2",
+		itemid = 70079
+	},
 	[40461] = {
 		id = 40461,
 		name = "skinTicket40461",
 		itemid = 59245
+	},
+	[45037] = {
+		id = 45037,
+		name = "jiujiu_twfk",
+		itemid = 59303
+	},
+	[45040] = {
+		id = 45040,
+		name = "skinTicket45040",
+		itemid = 59304
 	},
 	[40602] = {
 		id = 40602,
@@ -1377,6 +1417,24 @@ pg.player_resource = {
 		skinTicket30 = {
 			244
 		},
+		yingxiv2re_pt = {
+			245
+		},
+		skinTicket31 = {
+			246
+		},
+		xiaoshengwang_pt2 = {
+			247
+		},
+		yingxiv2re_frame_pt1 = {
+			248
+		},
+		newserver_pt_220414 = {
+			249
+		},
+		gonghaijiandui_frame_pt = {
+			250
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1455,9 +1513,6 @@ pg.player_resource = {
 		synchronize_shaenhuosite = {
 			3007
 		},
-		Twomamori2 = {
-			40296
-		},
 		twhongran_pt = {
 			3106
 		},
@@ -1488,8 +1543,17 @@ pg.player_resource = {
 		Twouxiang_pt = {
 			40275
 		},
+		Twomamori2 = {
+			40296
+		},
 		skinTicket40461 = {
 			40461
+		},
+		jiujiu_twfk = {
+			45037
+		},
+		skinTicket45040 = {
+			45040
 		},
 		skinTicket40602 = {
 			40602
@@ -1646,6 +1710,12 @@ pg.player_resource = {
 		242,
 		243,
 		244,
+		245,
+		246,
+		247,
+		248,
+		249,
+		250,
 		950,
 		951,
 		952,
@@ -1672,7 +1742,6 @@ pg.player_resource = {
 		3005,
 		3006,
 		3007,
-		40296,
 		3106,
 		3137,
 		4001,
@@ -1683,7 +1752,10 @@ pg.player_resource = {
 		4276,
 		100004,
 		40275,
+		40296,
 		40461,
+		45037,
+		45040,
 		40602,
 		40588
 	}

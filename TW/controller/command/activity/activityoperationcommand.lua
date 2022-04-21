@@ -1,7 +1,7 @@
 slot0 = class("ActivityOperationCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	if getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot4 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
+	if getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot4 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY or slot4 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
 		slot5, slot6, slot7 = BuildShip.canBuildShipByBuildId(slot2.buildId, slot2.arg1, slot2.arg2 == 1)
 
 		if not slot5 then
@@ -57,7 +57,7 @@ function slot0.execute(slot0, slot1)
 				uv2.autoActionForbidden = true
 
 				getProxy(ActivityProxy):updateActivity(uv2)
-			elseif uv3 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+			elseif uv3 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or uv3 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
 				if slot0.result == 1 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("activity_build_end_tip"))
 				end
@@ -118,12 +118,12 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot3.data1_list, slot10)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 		slot3.data2 = 1
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY or slot5 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_SHIP, slot1.arg1)
 
 		if slot1.arg2 == 1 then
 			slot8 = getProxy(ActivityProxy)
-			slot9 = slot8:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE)
+			slot9 = slot8:getBuildFreeActivityByBuildId(slot1.buildId)
 			slot9.data1 = slot9.data1 - slot1.arg1
 
 			slot8:updateActivity(slot9)

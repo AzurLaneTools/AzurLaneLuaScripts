@@ -666,7 +666,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			20207,
 			20219,
-			20208
+			20208,
+			20226
 		}
 	},
 	[20203] = {
@@ -2224,6 +2225,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 133,
 		t_level = 6,
 		ships = {
+			80103,
 			80104
 		}
 	},

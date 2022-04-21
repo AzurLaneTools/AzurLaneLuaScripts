@@ -89,6 +89,7 @@ function slot0.doUpdateTaskByMap(slot0, slot1, slot2)
 end
 
 function slot0.addTask(slot0, slot1)
+	slot0.recycle[slot1.id] = nil
 	slot0.list[slot1.id] = slot1
 
 	slot0:addTaskListener(slot1)

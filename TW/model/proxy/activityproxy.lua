@@ -233,14 +233,7 @@ function slot0.findNextAutoActivity(slot0)
 	for slot7, slot8 in ipairs(slot0:getPanelActivities()) do
 		if slot8:isShow() and not slot8.autoActionForbidden then
 			if slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-				slot10 = slot8:getConfig("config_id")
-				slot12 = #pg.activity_7_day_sign[slot10].front_drops + 1
-
-				if slot10 == 3 then
-					slot12 = #slot11
-				end
-
-				if slot8.data1 < slot12 and not slot2:IsSameDay(slot3, slot8.data2) then
+				if slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) then
 					slot1 = slot8
 
 					break
@@ -384,28 +377,11 @@ function slot0.readyToAchieveByType(slot0, slot1)
 	return slot2
 end
 
-function slot0.getBuildBgActivityByID(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BUILD)) do
-		if not slot7:isEnd() and slot7:getConfig("config_client") and slot8.id == slot1 then
-			return slot8.bg
-		end
-	end
-
-	return nil
-end
-
-function slot0.getBuildTipActivityByID(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BUILD)) do
-		if not slot7:isEnd() and slot7:getConfig("config_client") and slot8.id == slot1 then
-			return slot8.rate_tip
-		end
-	end
-
-	return nil
-end
-
 function slot0.getBuildActivityCfgByID(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BUILD)) do
+	for slot6, slot7 in ipairs(slot0:getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_BUILD,
+		ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
+	})) do
 		if not slot7:isEnd() and slot7:getConfig("config_client") and slot8.id == slot1 then
 			return slot8
 		end
@@ -592,10 +568,32 @@ function slot0.getActivityParameter(slot0, slot1)
 end
 
 function slot0.IsShowFreeBuildMark(slot0, slot1)
-	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD_FREE) and not slot2:isEnd() and slot2.data1 > 0 and slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 then
-		return tobool(slot1) == (PlayerPrefs.GetString("Free_Build_Ticket_" .. slot2.id, "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d"))
-	else
-		return false
+	slot5 = ActivityConst.ACTIVITY_TYPE_BUILD_FREE
+
+	for slot5, slot6 in ipairs(slot0:getActivitiesByType(slot5)) do
+		if slot6 and not slot6:isEnd() and slot6.data1 > 0 and slot6.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 and tobool(slot1) == (PlayerPrefs.GetString("Free_Build_Ticket_" .. slot6.id, "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d")) then
+			return slot6
+		end
+	end
+
+	return false
+end
+
+function slot0.getBuildFreeActivityByBuildId(slot0, slot1)
+	slot5 = ActivityConst.ACTIVITY_TYPE_BUILD_FREE
+
+	for slot5, slot6 in ipairs(slot0:getActivitiesByType(slot5)) do
+		if underscore.any(slot6:getConfig("config_data"), function (slot0)
+			return slot0 == uv0
+		end) then
+			return slot6
+		end
+	end
+end
+
+function slot0.getBuildPoolActivity(slot0, slot1)
+	if slot1:IsActivity() then
+		return slot0:getActivityById(slot1.activityId)
 	end
 end
 

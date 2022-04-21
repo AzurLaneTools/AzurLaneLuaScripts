@@ -24,9 +24,7 @@ function slot1(slot0)
 		end
 	end
 
-	if not slot4 and slot0.tasklist[math.min(slot0.index, #slot0.tasklist)] then
-		slot4 = slot6[1]
-	end
+	slot4 = slot4 or slot1[math.min(slot0.index, #slot1)]
 
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then

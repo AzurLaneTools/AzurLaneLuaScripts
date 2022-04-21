@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在拉力赛表现优异，赢得了第一名，获得了奖励【物资*2000】",
+			say = "在拉力賽表現優異，贏得了第一名，獲得了獎勵【物資*2000】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

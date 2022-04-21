@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助打扫赛车场时，发现了掉落的图纸，获得了【四星装备设计图纸*6】",
+			say = "幫助打掃賽車場時，發現了掉落的圖紙，獲得了【四星裝備設計圖紙*6】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

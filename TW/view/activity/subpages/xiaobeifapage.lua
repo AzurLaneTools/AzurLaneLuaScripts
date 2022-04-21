@@ -19,11 +19,8 @@ function slot0.OnFirstFlush(slot0)
 	slot1 = slot0.activity
 
 	onButton(slot0, slot0.bonusList, function ()
-		slot0 = uv0:getConfig("config_data")
-
-		print(slot0)
-		uv1:emit(ActivityMediator.SHOW_AWARD_WINDOW, TaskAwardWindow, {
-			tasklist = slot0,
+		uv1:emit(ActivityMediator.SHOW_AWARD_WINDOW, PtTaskAwardWindow, {
+			tasklist = uv0:getConfig("config_data"),
 			ptId = uv0:getConfig("config_client").pt_id,
 			totalPt = getProxy(ActivityProxy):getActivityById(uv0:getConfig("config_client").rank_act_id).data1
 		})

@@ -490,6 +490,16 @@ function slot0.addExp(slot0, slot1)
 	end
 end
 
+function slot0.addExpToLevel(slot0, slot1)
+	if getConfigFromLevel1(pg.user_level, slot1).exp_start <= slot0:getLevelExpConfig().exp_start + slot0.exp then
+		print("EXP Overflow, Return")
+
+		return
+	end
+
+	slot0:addExp(slot2.exp_start - slot3.exp_start - slot0.exp)
+end
+
 function slot0.GetBuffs(slot0)
 	return slot0.buff_list
 end
@@ -507,7 +517,9 @@ function slot0.getTotalExp(slot0)
 end
 
 function slot0.canLevelUp(slot0)
-	return getConfigFromLevel1(pg.user_level, slot0.level + 1) and getConfigFromLevel1(pg.user_level, slot0.level) ~= slot1 and slot0:getLevelExpConfig().exp_interval <= slot0.exp
+	slot2 = slot0:getLevelExpConfig()
+
+	return getConfigFromLevel1(pg.user_level, slot0.level + 1) and slot2 ~= slot1 and slot2.exp_interval <= slot0.exp
 end
 
 function slot0.isSelf(slot0)

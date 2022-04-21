@@ -336,7 +336,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 151
+		key_value = 45037
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1888,7 +1888,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 40602
+		key_value = 45040
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2498,5 +2498,14 @@ pg.gameset = {
 	naval_academy_theme = {
 		description = "winter",
 		key_value = 0
+	},
+	package_lv = {
+		key_value = 0,
+		description = {
+			{
+				40126,
+				70
+			}
+		}
 	}
 }

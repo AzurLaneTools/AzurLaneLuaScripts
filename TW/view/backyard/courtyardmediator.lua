@@ -134,6 +134,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.LOAD_LAYERS,
 		GAME.REMOVE_LAYERS,
 		GAME.ON_APPLICATION_PAUSE,
+		GAME.BUY_FURNITURE_DONE,
 		CourtYardEvent._EXTEND,
 		CourtYardEvent._QUIT,
 		CourtYardEvent._ENTER_MODE,
@@ -198,6 +199,8 @@ function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
 		_courtyard:GetController():ClearShipCoin(slot2.id)
 	elseif slot1 == GAME.EXIT_SHIP_DONE then
 		_courtyard:GetController():ExitShip(slot2.id)
+	elseif slot1 == GAME.BUY_FURNITURE_DONE then
+		slot0.viewComponent:OnAddFurniture()
 	elseif slot1 == GAME.ADD_SHIP_DONE then
 		if ({
 			Ship.STATE_TRAIN,

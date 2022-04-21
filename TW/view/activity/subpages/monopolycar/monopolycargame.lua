@@ -10,9 +10,7 @@ slot6 = {
 	"yuekegongjue_2",
 	"weiershiqinwang_3",
 	"xianghe_3",
-	"ruihe_3",
-	"ougen_5",
-	"qiye_7"
+	"ruihe_3"
 }
 slot7 = {
 	"gaoxiong_5",
@@ -21,9 +19,7 @@ slot7 = {
 	"yuekegongjue_2",
 	"weiershiqinwang_3",
 	"xianghe_3",
-	"ruihe_3",
-	"ougen_5",
-	"qiye_7"
+	"ruihe_3"
 }
 slot8 = 0.6
 slot9 = "B-stand"

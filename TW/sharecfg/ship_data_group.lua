@@ -6643,6 +6643,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[423] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 2,
+		handbook_type = 0,
+		index_id = 166,
+		code = 423,
+		group_type = 20226,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[113] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -9528,7 +9563,7 @@ pg.ship_data_group = {
 		}
 	},
 	[174] = {
-		trans_skin = 0,
+		trans_skin = 301249,
 		redirect_id = 101,
 		hide = 0,
 		type = 1,
@@ -9546,8 +9581,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1061
+		},
 		description = {
 			{
 				"月度簽到",
@@ -9559,7 +9603,7 @@ pg.ship_data_group = {
 		}
 	},
 	[175] = {
-		trans_skin = 0,
+		trans_skin = 301259,
 		redirect_id = 101,
 		hide = 0,
 		type = 1,
@@ -9577,8 +9621,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1081
+		},
 		description = {
 			{
 				"月度簽到",
@@ -15953,6 +16006,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[359] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 8,
+		handbook_type = 0,
+		index_id = 451,
+		code = 359,
+		group_type = 80103,
+		trans_type = 0,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[395] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -17982,6 +18070,7 @@ pg.ship_data_group = {
 		110,
 		361,
 		111,
+		423,
 		113,
 		114,
 		115,
@@ -18231,6 +18320,7 @@ pg.ship_data_group = {
 		440,
 		441,
 		348,
+		359,
 		395,
 		347,
 		349,

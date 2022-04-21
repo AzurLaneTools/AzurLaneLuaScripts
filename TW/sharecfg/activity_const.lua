@@ -97,7 +97,7 @@ pg.activity_const = {
 		act_id = 40154
 	},
 	XIAOBEIFA_ACTIVITY_PT_ID = {
-		act_id = 151
+		act_id = 45037
 	},
 	MIKASA_MUSEUM_DAILY_TASK_ID = {
 		act_id = 271
@@ -325,7 +325,7 @@ pg.activity_const = {
 		act_id = 40157
 	},
 	SKIN_XIXUEGUI = {
-		act_id = 355
+		act_id = 45039
 	},
 	SUMMER_FEAST_ID = {
 		act_id = 356
@@ -526,7 +526,7 @@ pg.activity_const = {
 		act_id = 40482
 	},
 	MONOPOLY_CAR_PAGE = {
-		act_id = 620
+		act_id = 45036
 	},
 	U110BATTLE_RE_PAGE = {
 		act_id = 650
@@ -733,7 +733,7 @@ pg.activity_const = {
 		act_id = 40078
 	},
 	TWXIAOBEIFA_ID = {
-		act_id = 40117
+		act_id = 45037
 	},
 	NEW_ORLEANS_LOGIN = {
 		act_id = 40165

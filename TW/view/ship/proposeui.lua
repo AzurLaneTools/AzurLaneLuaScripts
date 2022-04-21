@@ -204,6 +204,10 @@ function slot0.didEnter(slot0)
 				end
 			end
 
+			if PLATFORM_CODE == PLATFORM_US then
+				uv0:findTF("cover", uv0.window).sizeDelta = Vector2(1804, 970)
+			end
+
 			setIntimacyIcon(uv0.intimacyTF, uv0.shipVO:getIntimacyIcon())
 
 			slot1, slot2 = uv0.shipVO:getIntimacyDetail()

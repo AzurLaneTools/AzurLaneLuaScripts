@@ -494,7 +494,9 @@ function slot0.showAwakenCompleteAni(slot0, slot1)
 
 		slot0 = tf(uv0.awakenAni)
 
-		pg.UIMgr.GetInstance():BlurPanel(slot0)
+		pg.UIMgr.GetInstance():BlurPanel(slot0, false, {
+			weight = LayerWeightConst.TOP_LAYER
+		})
 		setText(uv0:findTF("window/desc", uv0.awakenAni), uv1)
 		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 			uv0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)
@@ -1157,6 +1159,13 @@ function slot0.getInitmacyWords(slot0)
 end
 
 function slot0.paintView(slot0)
+	if LeanTween.isTweening(slot0.chat.gameObject) then
+		LeanTween.cancel(slot0.chat.gameObject)
+
+		slot0.chat.localScale = Vector3(0, 0, 0)
+		slot0.chatFlag = nil
+	end
+
 	slot0.character:GetComponent("Image").enabled = false
 	slot0.inPaintingView = true
 	slot1 = {}

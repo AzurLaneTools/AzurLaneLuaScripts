@@ -11,6 +11,7 @@ end
 
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._number = slot0._tempData.arg_list.number or 0
+	slot0._absorbRate = slot3.absorb or 0
 	slot0._restoreRate = 0
 	slot0._sumDMG = 0
 
@@ -29,7 +30,7 @@ function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
 	if slot2:GetCaster() and slot5:IsAlive() and slot5 ~= slot1 then
 		slot3.damage = math.ceil(slot4 * slot0._number)
 
-		if slot4 - slot3.damage > 0 then
+		if (slot4 - slot3.damage) * (1 - slot0._absorbRate) > 0 then
 			slot0._sumDMG = slot0._sumDMG + slot4
 
 			slot5:UpdateHP(-slot4, {

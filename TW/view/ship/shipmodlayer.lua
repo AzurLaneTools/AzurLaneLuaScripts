@@ -337,6 +337,12 @@ function slot0.tweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7
 	end
 end
 
+function slot0.getBuffExp()
+	return _.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
+		return slot0:getConfig("benefit_type") == "character_strengthen_exp"
+	end) and slot0:getConfig("benefit_effect") / 100 or 0
+end
+
 function slot0.getModExpAdditions(slot0, slot1)
 	slot3 = pg.ship_data_template[slot0.configId].group_type
 	slot4 = pg.ship_data_strengthen
@@ -358,7 +364,7 @@ function slot0.getModExpAdditions(slot0, slot1)
 			end
 		end
 
-		slot5[slot10] = slot11
+		slot5[slot10] = math.floor(slot11 * (1 + uv0.getBuffExp()))
 	end
 
 	return slot5

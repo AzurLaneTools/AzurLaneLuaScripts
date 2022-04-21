@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助赛车手调整装备，获得了奖励【强化部件T3*8】",
+			say = "幫助賽車手調整裝備，獲得了獎勵【強化部件T3*8】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

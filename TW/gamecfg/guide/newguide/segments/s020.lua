@@ -37,7 +37,7 @@ return {
 				dir = -1,
 				mode = 2,
 				posY = 125,
-				posX = -680,
+				posX = -520,
 				text = slot0[2]
 			},
 			ui = {
@@ -63,7 +63,7 @@ return {
 				text = slot0[3]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/toggles/3(Clone)/frame",
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/toggles/heavy/frame",
 				pathIndex = -1,
 				triggerType = {
 					2

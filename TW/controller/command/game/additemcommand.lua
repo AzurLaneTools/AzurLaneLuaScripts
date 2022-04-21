@@ -145,10 +145,24 @@ function slot0.execute(slot0, slot1)
 
 				slot5:updateActivity(slot6)
 			end
-		elseif slot4 == 22 and getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
-			slot6.data1 = slot6.data1 + slot2.count
+		elseif slot4 == 22 then
+			if getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
+				slot6.data1 = slot6.data1 + slot2.count
 
-			slot5:updateActivity(slot6)
+				slot5:updateActivity(slot6)
+			end
+		elseif slot4 == 23 then
+			slot6 = getProxy(PlayerProxy)
+			slot7 = slot6:getData()
+
+			slot7:addExpToLevel((function ()
+				for slot3, slot4 in ipairs(pg.gameset.package_lv.description) do
+					if uv0.id == slot4[1] then
+						return slot4[2]
+					end
+				end
+			end)())
+			slot6:updatePlayer(slot7)
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then
 		getProxy(EquipmentProxy):addEquipmentSkin(slot2.id, slot2.count)
