@@ -9479,7 +9479,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "임페로, 포미더블 등 캐릭터 건조 확률 UP!"
+	tip = "하우, 퍼시어스 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {

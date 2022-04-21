@@ -6043,6 +6043,9 @@ function temp()
 			["치"] = {
 				this = true
 			}
+		},
+		["우"] = {
+			this = true
 		}
 	}
 end
