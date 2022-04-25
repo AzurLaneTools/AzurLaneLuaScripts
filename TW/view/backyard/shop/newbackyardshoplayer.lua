@@ -161,13 +161,23 @@ function slot0.InitPageFooter(slot0)
 
 			uv0.pageType = uv1
 
+			if uv1 == 5 then
+				getProxy(SettingsProxy):UpdateNewGemFurnitureValue()
+				uv0:UpdateSpecialPageFooter()
+			end
+
 			return true
 		end)
 
 		slot0.btns[slot4] = slot6
 	end
 
+	slot0:UpdateSpecialPageFooter()
 	setActive(slot0.btnTpl, false)
+end
+
+function slot0.UpdateSpecialPageFooter(slot0)
+	setActive(slot0.btns[5]:Find("new"), getProxy(SettingsProxy):IsTipNewGemFurniture())
 end
 
 function slot0.willExit(slot0)

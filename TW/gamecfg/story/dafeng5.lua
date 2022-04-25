@@ -368,7 +368,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再也不会重蹈那时候的——",
+			say = "再也不會重蹈那时候的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
