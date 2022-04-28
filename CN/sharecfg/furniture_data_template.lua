@@ -5940,6 +5940,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[225] = {
+		spine_extra = "",
+		describe = "显眼的雄鹰图章，象征着铁血不羁的意志。授予在「虹彩的终幕曲」行动中获得杰出成就者的纪念章。",
+		gain_by = "虹彩的终幕曲",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "gonghaixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "虹彩纪念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/gonghaixunzhang",
+		canputon = 0,
+		id = 225,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -8564,6 +8601,56 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100037] = {
+		spine_extra = "",
+		describe = "今天会是什么天气呢~？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "tianqiyunduoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "随身云朵",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100037,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tianqiyunduo",
+				"normal"
+			},
+			[3] = {
+				{
+					-6,
+					189
+				},
+				"walk"
+			}
 		},
 		interAction_group = {}
 	},
@@ -106239,6 +106326,1028 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[88001] = {
+		spine_extra = "",
+		describe = "哼哼…欢迎来到我的城堡…啾",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "吸血鬼古堡地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanxxgicon",
+		spine_action_replace = "",
+		picture = "xxg/dibanxxg",
+		comfortable = 4,
+		canputon = 0,
+		id = 88001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88002] = {
+		spine_extra = "",
+		describe = "哼哼…欢迎来到我的城堡…啾",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "吸血鬼古堡墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbixxgicon",
+		spine_action_replace = "",
+		picture = "xxg/qiangbixxg",
+		comfortable = 4,
+		canputon = 0,
+		id = 88002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88101] = {
+		spine_extra = "",
+		describe = "金币是假的，真正的宝物是不会放在这么显眼的地方的！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baoxiangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡宝箱",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/baoxiangxxg",
+		canputon = 0,
+		id = 88101,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88102] = {
+		spine_extra = "",
+		describe = "聊天…得大声点才能听见了呢。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "changzhuoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "正餐长桌",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/changzhuoxxg",
+		canputon = 0,
+		id = 88102,
+		can_rotate = 0,
+		size = {
+			10,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88103] = {
+		spine_extra = "",
+		describe = "似乎很高档的地毯。",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "ditanxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "红色绒毯",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/ditanxxg",
+		canputon = 0,
+		id = 88103,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88105] = {
+		spine_extra = "",
+		describe = "弹奏一首…夜晚的独奏曲？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gangqinxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古典钢琴",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/gangqinxxg",
+		canputon = 0,
+		id = 88105,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88106] = {
+		spine_extra = "",
+		describe = "与古堡风格一致的楼梯。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gaotailoutixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡楼梯",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/gaotailoutixxg",
+		canputon = 0,
+		id = 88106,
+		can_rotate = 0,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88107] = {
+		spine_extra = "",
+		describe = "似乎…很好睡的样子。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guancaichuangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "棺材床",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/guancaichuangxxg",
+		canputon = 0,
+		id = 88107,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-30,
+					-47
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/guancaichuangxxg_using",
+				0,
+				{
+					{
+						27.6,
+						37.2
+					},
+					{
+						320.3,
+						360.6
+					},
+					"xxg/guancaichuangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88108] = {
+		spine_extra = "",
+		describe = "如果火熄灭了的话…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "huobazhuzixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡柱子",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/huobazhuzixxg",
+		canputon = 0,
+		id = 88108,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88110] = {
+		spine_extra = "",
+		describe = "那是谁？那是…恶魔…是恶魔啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiuemoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "恶魔啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/jiujiuemoxxg",
+		canputon = 0,
+		id = 88110,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88111] = {
+		spine_extra = "",
+		describe = "似乎马上就会动起来的样子…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiushixiangguixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "石像鬼啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/jiujiushixiangguixxg",
+		canputon = 0,
+		id = 88111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88112] = {
+		spine_extra = "",
+		describe = "敢把红酒洒出来，等着接受惩罚啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiutongxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡酒桶",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/jiutongxxg",
+		canputon = 0,
+		id = 88112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88113] = {
+		spine_extra = "",
+		describe = "似乎马上就会动起来的样子…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kaijiaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "铠甲啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/kaijiaxxg",
+		canputon = 0,
+		id = 88113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88114] = {
+		spine_extra = "",
+		describe = "调节氛围的蜡烛架。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lazhujiaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡蜡烛架",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/lazhujiaxxg",
+		canputon = 0,
+		id = 88114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88116] = {
+		spine_extra = "",
+		describe = "能令入侵者无法动弹的魔法阵。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "liumangxingfazhenxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡魔法阵",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/liumangxingfazhenxxg",
+		canputon = 0,
+		id = 88116,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					7,
+					-60
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88117] = {
+		spine_extra = "",
+		describe = "闯入者哟，报上名来！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wangzuoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡王座",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/wangzuoxxg",
+		canputon = 0,
+		id = 88117,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1.3,
+					-44.7
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/wangzuoxxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88118] = {
+		spine_extra = "",
+		describe = "是陷阱啊啊啊啊——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xianjingxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡陷阱",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/xianjingxxg",
+		canputon = 0,
+		id = 88118,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88119] = {
+		spine_extra = "",
+		describe = "来泡个舒服的玫瑰浴吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yugangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "玫瑰浴缸",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/yugangxxg",
+		canputon = 0,
+		id = 88119,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-48.4,
+					-96.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/yugangxxg_using",
+				0,
+				{
+					{
+						16.1,
+						8.4
+					},
+					{
+						300,
+						390
+					},
+					"xxg/yugangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88120] = {
+		spine_extra = "",
+		describe = "似乎坐起来不是很舒服的样子…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuoyi1xxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡座椅(正)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/zuoyi1xxg",
+		canputon = 0,
+		id = 88120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					15.2,
+					-27.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/zuoyi1xxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88123] = {
+		spine_extra = "",
+		describe = "似乎坐起来不是很舒服的样子…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuoyi2xxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡座椅(背)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/zuoyi2xxg",
+		canputon = 0,
+		id = 88123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88126] = {
+		spine_extra = "",
+		describe = "这就是只有勇者才能拔起来的……是陷阱啊啊啊啊——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "shizhongjianxianjingicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "石中剑(陷阱)",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 88126,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongjianxianjing",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[88301] = {
+		spine_extra = "",
+		describe = "唔…吊久了有点难受啾…",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "bianfujiuxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蝙蝠啾",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/bianfujiuxxg",
+		canputon = 0,
+		id = 88301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88303] = {
+		spine_extra = "",
+		describe = "夜晚的黑暗…越来越浓了——",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡之窗",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/chuangxxg",
+		canputon = 0,
+		id = 88303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88304] = {
+		spine_extra = "",
+		describe = "眼睛…是不是动了一下？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guahuaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古堡挂画",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/guahuaxxg",
+		canputon = 0,
+		id = 88304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88305] = {
+		spine_extra = "",
+		describe = "嘎嘎，有入侵者嘎嘎！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "wuyaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "乌鸦看守",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/wuyaxxg",
+		canputon = 0,
+		id = 88305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -106363,6 +107472,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100001,
 			100002,
 			100003,
@@ -106399,6 +107509,7 @@ pg.furniture_data_template = {
 			100034,
 			100035,
 			100036,
+			100037,
 			200001,
 			200002,
 			200003,
@@ -106547,6 +107658,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100001,
 			100002,
 			100003,
@@ -106583,6 +107695,7 @@ pg.furniture_data_template = {
 			100034,
 			100035,
 			100036,
+			100037,
 			200001,
 			200002,
 			200003,
@@ -111177,6 +112290,58 @@ pg.furniture_data_template = {
 			87127,
 			87130,
 			87131
+		},
+		[88] = {
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305,
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_tag = {
@@ -112681,7 +113846,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123
 		},
 		{
 			1108,
@@ -112988,6 +114171,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100001,
 			100002,
 			100003,
@@ -113024,6 +114208,7 @@ pg.furniture_data_template = {
 			100034,
 			100035,
 			100036,
+			100037,
 			31101,
 			54101,
 			54102,
@@ -113152,7 +114337,8 @@ pg.furniture_data_template = {
 			84185,
 			84186,
 			85126,
-			86122
+			86122,
+			88126
 		},
 		[4] = {
 			1001,
@@ -113230,7 +114416,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[3] = {
 			1002,
@@ -113308,7 +114495,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[5] = {
 			1301,
@@ -113584,7 +114772,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_type = {
@@ -113664,7 +114856,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[7] = {
 			1,
@@ -113774,6 +114967,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100001,
 			100002,
 			100004,
@@ -113816,6 +115010,7 @@ pg.furniture_data_template = {
 			206,
 			209,
 			213,
+			100037,
 			200001,
 			200002,
 			200003,
@@ -115286,7 +116481,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126
 		},
 		[11] = {
 			131,
@@ -115410,7 +116623,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[5] = {
 			1101,
@@ -115531,7 +116745,8 @@ pg.furniture_data_template = {
 			85102,
 			86106,
 			86119,
-			87116
+			87116,
+			88103
 		},
 		[3] = {
 			1108,
@@ -115986,7 +117201,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		},
 		[8] = {
 			17121
@@ -116134,6 +117353,7 @@ pg.furniture_data_template = {
 		220,
 		221,
 		222,
+		225,
 		100001,
 		100002,
 		100003,
@@ -116170,6 +117390,7 @@ pg.furniture_data_template = {
 		100034,
 		100035,
 		100036,
+		100037,
 		200001,
 		200002,
 		200003,
@@ -118401,6 +119622,31 @@ pg.furniture_data_template = {
 		87126,
 		87127,
 		87130,
-		87131
+		87131,
+		88001,
+		88002,
+		88101,
+		88102,
+		88103,
+		88105,
+		88106,
+		88107,
+		88108,
+		88110,
+		88111,
+		88112,
+		88113,
+		88114,
+		88116,
+		88117,
+		88118,
+		88119,
+		88120,
+		88123,
+		88126,
+		88301,
+		88303,
+		88304,
+		88305
 	}
 }

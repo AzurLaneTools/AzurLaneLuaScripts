@@ -322,7 +322,9 @@ function slot0.PlayParticleSystem(slot0, slot1, slot2, slot3, slot4)
 	slot5:GetPrefab("effect/" .. slot1, slot1, false, function (slot0)
 		setParent(slot0, uv0)
 
-		tf(slot0).localPosition = uv1
+		if uv1 then
+			tf(slot0).localPosition = uv1
+		end
 
 		slot0:GetComponent(typeof(ParticleSystem)):Play()
 

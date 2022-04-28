@@ -248,6 +248,7 @@ slot0.OpSubState = 9
 slot0.OpStory = 10
 slot0.OpBarrier = 16
 slot0.OpSubTeleport = 19
+slot0.OpPreClear = 30
 slot0.OpRequest = 49
 slot0.OpSwitch = 98
 slot0.OpSkipBattle = 99
@@ -295,6 +296,9 @@ slot0.StatusMissile2B = 35
 slot0.StatusMissile3B = 36
 slot0.StatusMissileInitB = 37
 slot0.StatusMaoxiv3 = 38
+slot0.StatusGonghai = 39
+slot0.StatusGonghai = 40
+slot0.StatusGonghai = 41
 slot0.StatusDefaultList = {
 	0
 }

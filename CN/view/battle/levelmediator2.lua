@@ -690,6 +690,16 @@ function slot0.handleNotification(slot0, slot1)
 
 						uv0.viewComponent.levelStageView:tryAutoTrigger()
 					end)
+				elseif slot0 == ChapterConst.OpPreClear then
+					slot4 = uv1.viewComponent.levelStageView
+
+					slot4:tryAutoAction(function ()
+						if not uv0.viewComponent.levelStageView then
+							return
+						end
+
+						uv0.viewComponent.levelStageView:tryAutoTrigger()
+					end)
 				elseif slot0 == ChapterConst.OpRetreat then
 					if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
 						slot5 = {}

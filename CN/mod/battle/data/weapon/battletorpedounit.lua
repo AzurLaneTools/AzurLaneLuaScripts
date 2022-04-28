@@ -17,7 +17,8 @@ end
 function slot1.TriggerBuffWhenSpawn(slot0, slot1)
 	slot2 = {
 		_bullet = slot1,
-		equipIndex = slot0._equipmentIndex
+		equipIndex = slot0._equipmentIndex,
+		bulletTag = slot1:GetExtraTag()
 	}
 
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BULLET_CREATE, slot2)

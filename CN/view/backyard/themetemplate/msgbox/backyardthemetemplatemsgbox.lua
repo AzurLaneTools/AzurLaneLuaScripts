@@ -49,7 +49,7 @@ function slot0.SetUp(slot0, slot1)
 	elseif slot2 == uv0.TYPE_IMAGE then
 		slot0.content1.text = slot1.content
 
-		BackYardThemeTempalteUtil.GetTexture(slot1.srpiteName, slot1.md5, function (slot0)
+		BackYardThemeTempalteUtil.GetNonCacheTexture(slot1.srpiteName, slot1.md5, function (slot0)
 			if not IsNil(uv0.icon) and slot0 then
 				uv0.icon.texture = slot0
 			end

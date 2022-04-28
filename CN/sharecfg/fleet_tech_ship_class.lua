@@ -1859,6 +1859,28 @@ pg.fleet_tech_ship_class = {
 			40206
 		}
 	},
+	[40205] = {
+		shiptype = 2,
+		name = "德累斯顿级",
+		nation = 4,
+		id = 40205,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			40207
+		}
+	},
+	[40206] = {
+		shiptype = 2,
+		name = "皮劳级",
+		nation = 4,
+		id = 40206,
+		t_level_1 = 2,
+		t_level = 1,
+		ships = {
+			40208
+		}
+	},
 	[40301] = {
 		shiptype = 3,
 		name = "希佩尔海军上将级",
@@ -1906,6 +1928,17 @@ pg.fleet_tech_ship_class = {
 			40310
 		}
 	},
+	[40305] = {
+		shiptype = 3,
+		name = "罗恩级",
+		nation = 4,
+		id = 40305,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			40311
+		}
+	},
 	[40401] = {
 		shiptype = 4,
 		name = "沙恩霍斯特级",
@@ -1927,6 +1960,28 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			49904
+		}
+	},
+	[40403] = {
+		shiptype = 4,
+		name = "塞德利茨",
+		nation = 4,
+		id = 40403,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			40403
+		}
+	},
+	[40404] = {
+		shiptype = 4,
+		name = "德弗林格尔级",
+		nation = 4,
+		id = 40404,
+		t_level_1 = 2,
+		t_level = 1,
+		ships = {
+			40404
 		}
 	},
 	[40501] = {
@@ -1961,6 +2016,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 9,
 		ships = {
 			40503
+		}
+	},
+	[40504] = {
+		shiptype = 5,
+		name = "赫尔戈兰级",
+		nation = 4,
+		id = 40504,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			40504
 		}
 	},
 	[40601] = {
@@ -2856,15 +2922,21 @@ pg.fleet_tech_ship_class = {
 		40202,
 		40203,
 		40204,
+		40205,
+		40206,
 		40301,
 		40302,
 		40303,
 		40304,
+		40305,
 		40401,
 		40402,
+		40403,
+		40404,
 		40501,
 		40502,
 		40503,
+		40504,
 		40601,
 		40602,
 		40701,

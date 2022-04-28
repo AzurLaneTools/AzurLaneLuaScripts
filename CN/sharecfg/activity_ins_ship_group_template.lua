@@ -1685,6 +1685,41 @@ pg.activity_ins_ship_group_template = {
 		name = "Mighty_Hood",
 		sculpture = "hude"
 	},
+	[40207] = {
+		ship_group = 40207,
+		name = "Emden ",
+		sculpture = "aimudeng"
+	},
+	[40404] = {
+		ship_group = 40404,
+		name = "Lützow ",
+		sculpture = "lvzuofu"
+	},
+	[40504] = {
+		ship_group = 40504,
+		name = "Thüringen ",
+		sculpture = "tulingen"
+	},
+	[40311] = {
+		ship_group = 40311,
+		name = "Yorck ",
+		sculpture = "yueke_ger"
+	},
+	[40208] = {
+		ship_group = 40208,
+		name = "Elbing ",
+		sculpture = "aierbin"
+	},
+	[40403] = {
+		ship_group = 40403,
+		name = "Seydlitz ",
+		sculpture = "saidelici"
+	},
+	[10136] = {
+		ship_group = 10136,
+		name = "Hobby",
+		sculpture = "huobi"
+	},
 	all = {
 		30701,
 		30702,
@@ -2022,6 +2057,13 @@ pg.activity_ins_ship_group_template = {
 		60702,
 		60107,
 		60304,
-		20403
+		20403,
+		40207,
+		40404,
+		40504,
+		40311,
+		40208,
+		40403,
+		10136
 	}
 }

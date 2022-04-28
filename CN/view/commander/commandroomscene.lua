@@ -913,6 +913,12 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.reservePanel and slot0.reservePanel:GetLoaded() and slot0.reservePanel:isShowing() then
+		slot0.reservePanel:Hide()
+
+		return
+	end
+
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 

@@ -27,6 +27,8 @@ function slot0.OnInitCard(slot0, slot1)
 end
 
 function slot0.SetUp(slot0, slot1, slot2, slot3)
+	slot0:Show()
+
 	slot0.template = slot1
 	slot0.dorm = slot2
 	slot0.target = slot3
@@ -35,7 +37,6 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:InitFurnitureList()
 	slot0:UpdateThemeInfo()
 	slot0:UpdateRes()
-	slot0:Show()
 end
 
 function slot0.InitFurnitureList(slot0)
@@ -94,11 +95,23 @@ function slot0.UpdateThemeInfo(slot0)
 end
 
 function slot0.UpdatePurchaseBtn(slot0)
-	setActive(slot0.purchaseBtn, not slot0.dorm:OwnThemeTemplateFurniture(slot0.template) and _.any(_.keys(slot0.template:GetFurnitureCnt()), function (slot0)
-		return Furniture.New({
-			id = slot0
-		}):inTime() and slot1:canPurchaseByDormMoeny()
-	end))
+	slot1 = slot0.dorm:OwnThemeTemplateFurniture(slot0.template)
+	slot3 = false
+
+	for slot7, slot8 in pairs(slot0.template:GetFurnitureCnt()) do
+		slot9 = Furniture.New({
+			id = slot7
+		})
+		slot10 = slot0.dorm:GetOwnFurnitrueCount(slot9.configId)
+
+		if slot9:inTime() and slot9:canPurchaseByDormMoeny() and slot10 < slot8 then
+			slot3 = true
+
+			break
+		end
+	end
+
+	setActive(slot0.purchaseBtn, not slot1 and slot3)
 	setActive(slot0.purchaseAllBtn, false)
 end
 

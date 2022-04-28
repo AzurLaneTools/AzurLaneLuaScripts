@@ -25,31 +25,14 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minTargetNumber = 1,
-				skill_id = 15382,
-				check_target = {
-					"TargetSelf",
-					"TargetShipTag"
-				},
-				ship_tag_list = {
-					"Impero"
-				}
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onAttach"
-			},
-			arg_list = {
 				maxTargetNumber = 0,
-				skill_id = 15383,
+				skill_id = 15550,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
 				},
 				ship_tag_list = {
-					"Impero"
+					"isInvincible_1"
 				}
 			}
 		}

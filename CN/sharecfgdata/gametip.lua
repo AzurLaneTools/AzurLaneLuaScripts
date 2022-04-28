@@ -9270,7 +9270,7 @@ _G.pg.gametip.ai_change_2 = {
 }
 
 _G.pg.gametip.activity_shop_lable = {
-	tip = "*兑换开放时间:<color=#68F9D7>$1</color>"
+	tip = "*兑换开放时间:<color=#FFCF81>$1</color>"
 }
 
 _G.pg.gametip.word_bilibili = {
@@ -9747,7 +9747,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "豪、英仙座等角色建造概率UP！"
+	tip = "埃姆登、吕佐夫等角色建造概率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -14922,7 +14922,7 @@ _G.pg.gametip.guild_cancel_tech_tip = {
 }
 
 _G.pg.gametip.guild_tech_consume_tip = {
-	tip = "需要消耗<icon name=guildicon w=0.7 h=0.7/>$1和<icon name=gold w=0.7 h=0.7/>$2，学习【$3】，是否确定？"
+	tip = "需要消耗<icon name=guildicon w=0.7 h=0.7/>$1和<icon name=gold w=0.7 h=0.7/>$2\n学习【$3】，是否确定？"
 }
 
 _G.pg.gametip.guild_tech_non_admin = {
@@ -19973,6 +19973,10 @@ _G.pg.gametip.battle_result_quit_battle = {
 	tip = "退 出 挑 战"
 }
 
+_G.pg.gametip.battle_result_share_battle = {
+	tip = "分 享 战 绩"
+}
+
 _G.pg.gametip.pre_combat_team = {
 	tip = "出击舰队"
 }
@@ -19995,4 +19999,37 @@ _G.pg.gametip.destroy_confirm_access = {
 
 _G.pg.gametip.destroy_confirm_cancel = {
 	tip = "取 消"
+}
+
+_G.pg.gametip.pt_count_tip = {
+	tip = "累计"
+}
+
+_G.pg.gametip.littleEugen_npc = {
+	tip = {
+		{
+			info = "「芝士奶酪要加糖！」说明："
+		},
+		{
+			info = "1.活动期间，玩家可获得临时npc角色「小欧根」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+		},
+		{
+			info = "2.活动期间，完成活动任务，可获得「芝士蛋糕」奖励，赠送「芝士蛋糕」可累积临时npc角色「小欧根」的友好度。"
+		},
+		{
+			info = "3.5月4日为止，每日解锁1个可达成的友好度阶段。"
+		},
+		{
+			info = "4.在活动结束前累计获得10000点友好度，可领取奖励并将临时角色「小欧根」转化为永久角色。"
+		},
+		{
+			info = "5.在活动结束后，未完成转化的临时角色「小欧根」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+		},
+		{
+			info = "6.npc角色无法参与大型作战。"
+		},
+		{
+			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
+		}
+	}
 }
