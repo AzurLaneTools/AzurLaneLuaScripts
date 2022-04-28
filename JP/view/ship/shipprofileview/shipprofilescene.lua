@@ -431,7 +431,7 @@ end
 
 function slot0.TweenPage(slot0, slot1)
 	if slot1 == uv0.INDEX_DETAIL then
-		LeanTween.moveX(rtf(slot0.leftProfile), -500, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveX(rtf(slot0.leftProfile), -700, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveY(rtf(slot0.live2DBtn._tf), -70, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveY(rtf(slot0.spinePaintingBtn), -70, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x, uv1):setEase(LeanTweenType.easeInOutSine)

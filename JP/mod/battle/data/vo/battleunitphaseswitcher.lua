@@ -81,6 +81,10 @@ function slot3.SetTemplateData(slot0, slot1)
 	slot0:switch(0)
 end
 
+function slot3.ForceSwitch(slot0, slot1)
+	slot0:switch(slot1)
+end
+
 function slot3.switch(slot0, slot1)
 	if slot1 == -1 or slot0._phaseList[slot1] == nil then
 		return

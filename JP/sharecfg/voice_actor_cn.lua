@@ -1215,5 +1215,25 @@ pg.voice_actor_CN = {
 	[309] = {
 		code = 309,
 		actor_name = "大森日雅"
+	},
+	[310] = {
+		code = 310,
+		actor_name = "井上ほの花"
+	},
+	[311] = {
+		code = 311,
+		actor_name = "田中有紀"
+	},
+	[312] = {
+		code = 312,
+		actor_name = "三上枝織"
+	},
+	[313] = {
+		code = 313,
+		actor_name = "関根明良"
+	},
+	[314] = {
+		code = 314,
+		actor_name = "杉山里穂"
 	}
 }

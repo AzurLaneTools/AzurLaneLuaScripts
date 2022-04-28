@@ -41,6 +41,10 @@ function slot0.NextOne(slot0)
 	end
 end
 
+function slot0.IsWorking(slot0)
+	return #slot0.queue > 0
+end
+
 function slot0.WaitForFinish(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot0.studentsPage
 

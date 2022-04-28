@@ -220,6 +220,16 @@ function slot0.readyToAchieve(slot0)
 			slot5 = ActivityPtData.New(slot0):CanGetAward()
 			slot6 = true
 
+			if slot0:getConfig("config_client") and slot0:getConfig("config_client").task_act_id and slot7 ~= 0 and pg.activity_template[slot7] and pg.activity_template[slot7].config_data and #slot9 > 0 then
+				taskProxy = getProxy(TaskProxy)
+
+				for slot13 = 1, #slot9 do
+					if taskProxy:getTaskById(slot9[slot13]) and slot14:isFinish() then
+						return true
+					end
+				end
+			end
+
 			if getProxy(VoteProxy):IsVoteBookAct(slot0.id) then
 				slot8 = nil
 

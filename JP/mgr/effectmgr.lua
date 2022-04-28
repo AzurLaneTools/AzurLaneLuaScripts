@@ -9,7 +9,7 @@ function slot1.Ctor(slot0)
 	})
 
 	function slot0.commonEffectEvent(slot0)
-		if uv0.effectCbMap[slot0] == nil and PLATFORM_CODE == PLATFORM_CH then
+		if uv0.effectCbMap[slot0] == nil then
 			uv1:DestroyOb(slot0)
 
 			return

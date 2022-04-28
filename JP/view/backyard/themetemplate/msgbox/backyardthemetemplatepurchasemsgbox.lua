@@ -12,6 +12,10 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:UpdateBtns()
 	slot0:UpdatePrice()
 	slot0:Show()
+
+	slot0.purchase.text = i18n("purchase_backyard_theme_desc_for_onekey")
+
+	setText(slot0.goldPurchaseBtn:Find("content/Text"), i18n("fur_onekey_buy"))
 end
 
 function slot0.UpdateMainInfo(slot0)

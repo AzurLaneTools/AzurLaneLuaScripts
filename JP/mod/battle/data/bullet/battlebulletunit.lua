@@ -367,6 +367,10 @@ function slot10.IsIndiscriminate(slot0)
 	return slot0._tempData.extra_param.indiscriminate
 end
 
+function slot10.GetExtraTag(slot0)
+	return slot0._tempData.extra_param.tag
+end
+
 function slot10.AppendDamageUnit(slot0, slot1)
 	slot0._damageList[#slot0._damageList + 1] = slot1
 end

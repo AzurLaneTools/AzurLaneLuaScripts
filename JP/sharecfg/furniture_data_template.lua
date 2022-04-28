@@ -5273,6 +5273,81 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[224] = {
+		spine_extra = "",
+		describe = "カレーラーメンの風呂の情報",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カレーラーメンの風呂",
+		spine = "",
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 0,
+		canputon = 0,
+		id = 224,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[225] = {
+		spine_extra = "",
+		describe = "鉄血の意志を表す作戦記章。「吟ずる瑠璃の楽章」に参加した指揮官に贈る",
+		gain_by = "吟ずる瑠璃の楽章",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "gonghaixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鉄血の作戦記章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/gonghaixunzhang",
+		canputon = 0,
+		id = 225,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -7738,6 +7813,80 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100036] = {
+		spine_extra = "",
+		describe = "「この天才メカニックが科学の秘密を――ソイヤッ！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "ボールライトニングジェネレーター",
+		themeId = 0,
+		icon = "qiuzhuangshandianfashengqiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100036,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiuzhuangshandianfashengqiB",
+				"normal"
+			},
+			{
+				"qiuzhuangshandianfashengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -98703,6 +98852,1028 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[88001] = {
+		spine_extra = "",
+		describe = "ククク…我が城へようこそピョ…",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "ヴァンパイア城の床",
+		effect = "",
+		advice = 0,
+		icon = "dibanxxgicon",
+		spine_action_replace = "",
+		picture = "xxg/dibanxxg",
+		comfortable = 4,
+		canputon = 0,
+		id = 88001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88002] = {
+		spine_extra = "",
+		describe = "ククク…我が城へようこそピョ…",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "ヴァンパイア城の壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbixxgicon",
+		spine_action_replace = "",
+		picture = "xxg/qiangbixxg",
+		comfortable = 4,
+		canputon = 0,
+		id = 88002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88101] = {
+		spine_extra = "",
+		describe = "持ち出し対策としてニセモノの金貨が入っている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baoxiangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "城の財宝",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/baoxiangxxg",
+		canputon = 0,
+		id = 88101,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88102] = {
+		spine_extra = "",
+		describe = "「さて、次の注文をヨルクに教えてもらえないかしら？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "changzhuoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアの晩餐",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/changzhuoxxg",
+		canputon = 0,
+		id = 88102,
+		can_rotate = 0,
+		size = {
+			10,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88103] = {
+		spine_extra = "",
+		describe = "「ふわふわぷかぷかー」「リュッツォウ、寝転びすぎ」",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "ditanxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアの絨毯",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/ditanxxg",
+		canputon = 0,
+		id = 88103,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88105] = {
+		spine_extra = "",
+		describe = "とある錬金術師の研究施設の中庭にも同じピアノがあるらしい",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gangqinxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアのピアノ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/gangqinxxg",
+		canputon = 0,
+		id = 88105,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88106] = {
+		spine_extra = "",
+		describe = "「あー、上がってきたんか？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gaotailoutixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアの階段",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/gaotailoutixxg",
+		canputon = 0,
+		id = 88106,
+		can_rotate = 0,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88107] = {
+		spine_extra = "",
+		describe = "「ヴァンパイアさん、サイズが違いすぎよ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guancaichuangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアの棺",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/guancaichuangxxg",
+		canputon = 0,
+		id = 88107,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-30,
+					-47
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/guancaichuangxxg_using",
+				0,
+				{
+					{
+						27.6,
+						37.2
+					},
+					{
+						320.3,
+						360.6
+					},
+					"xxg/guancaichuangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88108] = {
+		spine_extra = "",
+		describe = "火を消すとコインが出てくる噂",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "huobazhuzixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイア城の柱",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/huobazhuzixxg",
+		canputon = 0,
+		id = 88108,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88110] = {
+		spine_extra = "",
+		describe = "デビル饅頭は～♪……なんだっけ？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiuemoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "デビル饅頭",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/jiujiuemoxxg",
+		canputon = 0,
+		id = 88110,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88111] = {
+		spine_extra = "",
+		describe = "いつも大人しく来客者とにらめっこする饅頭",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiushixiangguixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ガーゴイル饅頭",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/jiujiushixiangguixxg",
+		canputon = 0,
+		id = 88111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88112] = {
+		spine_extra = "",
+		describe = "「こぼしたら罰金だぞ。気をつけろ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiutongxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ワイン樽",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/jiutongxxg",
+		canputon = 0,
+		id = 88112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88113] = {
+		spine_extra = "",
+		describe = "「もごもごもごもご…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kaijiaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "アーマード饅頭",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/kaijiaxxg",
+		canputon = 0,
+		id = 88113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88114] = {
+		spine_extra = "",
+		describe = "雰囲気出しに明るさは控えめ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lazhujiaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイア城のロウソク",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/lazhujiaxxg",
+		canputon = 0,
+		id = 88114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88116] = {
+		spine_extra = "",
+		describe = "「人間さんを縛り付けるのにちょうどいいですよ♡」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "liumangxingfazhenxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイア魔法陣",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/liumangxingfazhenxxg",
+		canputon = 0,
+		id = 88116,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					7,
+					-60
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88117] = {
+		spine_extra = "",
+		describe = "「今日は私があなたを支配する番よ？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wangzuoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアの玉座",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/wangzuoxxg",
+		canputon = 0,
+		id = 88117,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1.3,
+					-44.7
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/wangzuoxxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88118] = {
+		spine_extra = "",
+		describe = "落とし穴だ！…ボッシューーｽﾀｯ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xianjingxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイア城の罠",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/xianjingxxg",
+		canputon = 0,
+		id = 88118,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88119] = {
+		spine_extra = "",
+		describe = "薔薇の花弁を浮かべた粋なバスタブ…？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yugangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアのバスタブ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/yugangxxg",
+		canputon = 0,
+		id = 88119,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-48.4,
+					-96.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/yugangxxg_using",
+				0,
+				{
+					{
+						16.1,
+						8.4
+					},
+					{
+						300,
+						390
+					},
+					"xxg/yugangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88120] = {
+		spine_extra = "",
+		describe = "「ここで靴下が引っかかって破けちゃった…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuoyi1xxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイア城の椅子",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/zuoyi1xxg",
+		canputon = 0,
+		id = 88120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					15.2,
+					-27.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/zuoyi1xxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88123] = {
+		spine_extra = "",
+		describe = "「ここで靴下が引っかかって破けちゃった…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuoyi2xxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイア城の椅子",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/zuoyi2xxg",
+		canputon = 0,
+		id = 88123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88126] = {
+		spine_extra = "",
+		describe = "聖剣を抜いた者には……なんとぉ？！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "shizhongjianxianjingicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "城の聖剣",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 88126,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongjianxianjing",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[88301] = {
+		spine_extra = "",
+		describe = "饅頭ヴィジランテの夜は長い――",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "bianfujiuxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "バット饅頭",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/bianfujiuxxg",
+		canputon = 0,
+		id = 88301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88303] = {
+		spine_extra = "",
+		describe = "窓から飛び出したら城外――当然だけど？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイア城の窓",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/chuangxxg",
+		canputon = 0,
+		id = 88303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88304] = {
+		spine_extra = "",
+		describe = "饅頭芸術家による絵。異次元にも通じていそうなとてつもない魔力が感じ取れる",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guahuaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ヴァンパイアの絵画",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/guahuaxxg",
+		canputon = 0,
+		id = 88304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88305] = {
+		spine_extra = "",
+		describe = "カカカ、饅頭ではなくワシが見張っておるゾ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "wuyaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ザ・クロウ",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/wuyaxxg",
+		canputon = 0,
+		id = 88305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -98813,6 +99984,8 @@ pg.furniture_data_template = {
 			221,
 			222,
 			223,
+			224,
+			225,
 			100002,
 			100003,
 			100004,
@@ -98847,6 +100020,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			200001,
 			200002,
 			200003,
@@ -98977,6 +100151,8 @@ pg.furniture_data_template = {
 			221,
 			222,
 			223,
+			224,
+			225,
 			100002,
 			100003,
 			100004,
@@ -99011,6 +100187,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			200001,
 			200002,
 			200003,
@@ -103293,6 +104470,58 @@ pg.furniture_data_template = {
 			87127,
 			87130,
 			87131
+		},
+		[88] = {
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305,
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_tag = {
@@ -104702,7 +105931,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123
 		},
 		{
 			1108,
@@ -104958,6 +106205,8 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			224,
+			225,
 			100002,
 			100003,
 			100004,
@@ -104992,6 +106241,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			31101,
 			54104,
 			54105
@@ -105119,7 +106369,8 @@ pg.furniture_data_template = {
 			84185,
 			84186,
 			85126,
-			86122
+			86122,
+			88126
 		},
 		[4] = {
 			1001,
@@ -105193,7 +106444,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[3] = {
 			1002,
@@ -105268,7 +106520,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[5] = {
 			1301,
@@ -105529,7 +106782,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_type = {
@@ -105606,7 +106863,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[7] = {
 			1,
@@ -105705,6 +106963,8 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			224,
+			225,
 			100002,
 			100004,
 			100005,
@@ -105729,7 +106989,8 @@ pg.furniture_data_template = {
 			100029,
 			100031,
 			100033,
-			100035
+			100035,
+			100036
 		},
 		[2] = {
 			120,
@@ -107116,7 +108377,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126
 		},
 		[11] = {
 			143,
@@ -107235,7 +108514,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[5] = {
 			1101,
@@ -107356,7 +108636,8 @@ pg.furniture_data_template = {
 			85102,
 			86106,
 			86119,
-			87116
+			87116,
+			88103
 		},
 		[3] = {
 			1108,
@@ -107759,7 +109040,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		},
 		[8] = {
 			15119,
@@ -107894,6 +109179,8 @@ pg.furniture_data_template = {
 		221,
 		222,
 		223,
+		224,
+		225,
 		100002,
 		100003,
 		100004,
@@ -107928,6 +109215,7 @@ pg.furniture_data_template = {
 		100033,
 		100034,
 		100035,
+		100036,
 		200001,
 		200002,
 		200003,
@@ -110004,6 +111292,31 @@ pg.furniture_data_template = {
 		87126,
 		87127,
 		87130,
-		87131
+		87131,
+		88001,
+		88002,
+		88101,
+		88102,
+		88103,
+		88105,
+		88106,
+		88107,
+		88108,
+		88110,
+		88111,
+		88112,
+		88113,
+		88114,
+		88116,
+		88117,
+		88118,
+		88119,
+		88120,
+		88123,
+		88126,
+		88301,
+		88303,
+		88304,
+		88305
 	}
 }

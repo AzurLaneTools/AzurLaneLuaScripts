@@ -19,10 +19,10 @@ end
 function slot0.SetUp(slot0, slot1)
 	seriesAsync({
 		function (slot0)
-			pg.CriMgr:LoadCV(uv0, slot0)
+			pg.CriMgr.GetInstance():LoadCV(uv0, slot0)
 		end,
 		function (slot0)
-			pg.CriMgr:LoadBattleCV(uv0, slot0)
+			pg.CriMgr.GetInstance():LoadBattleCV(uv0, slot0)
 		end
 	}, function ()
 		slot0 = pg.CriMgr.GetCVBankName(uv0)
@@ -47,6 +47,8 @@ function slot0.PlaySound(slot0, slot1)
 		slot2:PlaySoundEffect_V3(slot1, function (slot0)
 			if slot0 then
 				uv0.playbackInfo = slot0
+
+				uv0.playbackInfo:SetIgnoreAutoUnload(true)
 			end
 		end)
 
@@ -113,7 +115,8 @@ end
 
 function slot0.StopSound(slot0)
 	if slot0.playbackInfo then
-		slot0.playbackInfo:PlaybackStop()
+		pg.CriMgr.GetInstance():StopPlaybackInfoForce(slot0.playbackInfo)
+		slot0.playbackInfo:SetIgnoreAutoUnload(false)
 	end
 end
 

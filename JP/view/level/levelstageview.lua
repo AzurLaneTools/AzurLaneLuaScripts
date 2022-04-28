@@ -180,12 +180,22 @@ function slot0.AddListener(slot0)
 		slot3 = slot0:getChapterCell(slot2.row, slot2.column)
 		slot4 = false
 
+		function slot5(slot0)
+			return pg.expedition_data_template[slot0.attachmentId].dungeon_id > 0
+		end
+
 		if slot0:existChampion(slot2.row, slot2.column) then
 			slot4 = true
+			slot6 = slot0:getChampion(slot2.row, slot2.column)
 
 			if chapter_skip_battle == 1 and pg.SdkMgr.GetInstance():CheckPretest() then
 				uv0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpSkipBattle,
+					id = slot1.id
+				})
+			elseif not slot5(slot6) then
+				uv0:emit(LevelMediator2.ON_OP, {
+					type = ChapterConst.OpPreClear,
 					id = slot1.id
 				})
 			elseif slot0:IsSkipPrecombat() then
@@ -194,7 +204,7 @@ function slot0.AddListener(slot0)
 				uv0:emit(LevelMediator2.ON_STAGE)
 			end
 		elseif slot3.attachment == ChapterConst.AttachAmbush and slot3.flag == ChapterConst.CellFlagAmbush then
-			slot5 = nil
+			slot6 = nil
 
 			coroutine.wrap(function ()
 				uv0:emit(LevelUIConst.DO_AMBUSH_WARNING, uv1)
@@ -211,6 +221,11 @@ function slot0.AddListener(slot0)
 				if chapter_skip_battle == 1 and pg.SdkMgr.GetInstance():CheckPretest() then
 					uv0:emit(LevelMediator2.ON_OP, {
 						type = ChapterConst.OpSkipBattle,
+						id = slot1.id
+					})
+				elseif not slot5(slot3) then
+					uv0:emit(LevelMediator2.ON_OP, {
+						type = ChapterConst.OpPreClear,
 						id = slot1.id
 					})
 				elseif slot0:IsSkipPrecombat() then
@@ -230,9 +245,9 @@ function slot0.AddListener(slot0)
 			end
 		elseif slot3.attachment == ChapterConst.AttachSupply and slot3.attachmentId > 0 then
 			slot4 = true
-			slot5, slot6 = slot0:getFleetAmmo(slot0.fleet)
+			slot6, slot7 = slot0:getFleetAmmo(slot0.fleet)
 
-			if slot6 < slot5 then
+			if slot7 < slot6 then
 				uv0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpSupply,
 					id = slot1.id
@@ -242,23 +257,23 @@ function slot0.AddListener(slot0)
 			end
 		elseif slot3.attachment == ChapterConst.AttachStory then
 			slot4 = true
-			slot6 = pg.map_event_template[slot3.attachmentId].gametip
+			slot7 = pg.map_event_template[slot3.attachmentId].gametip
 
 			if pg.map_event_template[slot3.attachmentId].memory == 0 then
 				return
 			end
 
-			slot7 = pg.NewStoryMgr.GetInstance()
-			slot8 = pg.ConnectionMgr.GetInstance()
+			slot8 = pg.NewStoryMgr.GetInstance()
+			slot9 = pg.ConnectionMgr.GetInstance()
 
-			slot8:Send(11017, {
-				story_id = slot5
+			slot9:Send(11017, {
+				story_id = slot6
 			}, 11018, function (slot0)
 			end)
 
-			slot8 = pg.NewStoryMgr.GetInstance()
+			slot9 = pg.NewStoryMgr.GetInstance()
 
-			slot8:Play(slot7:StoryId2StoryName(slot5), function (slot0, slot1)
+			slot9:Play(slot8:StoryId2StoryName(slot6), function (slot0, slot1)
 				slot3 = slot1 or 1
 
 				if uv0.flag == ChapterConst.CellFlagActive then

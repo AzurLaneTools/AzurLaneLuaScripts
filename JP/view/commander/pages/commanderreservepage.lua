@@ -227,6 +227,9 @@ function slot0.playBoxMove(slot0, slot1)
 end
 
 function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

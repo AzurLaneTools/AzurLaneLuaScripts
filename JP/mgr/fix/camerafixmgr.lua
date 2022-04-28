@@ -4,12 +4,17 @@ slot0 = pg.CameraFixMgr
 slot1 = 211
 
 function slot0.Init(slot0, slot1)
+	slot0.orientation = Screen.orientation
 	slot0.adpterTr = GameObject.Find("UICamera/Adpter").transform
 	slot0.leftPanel = slot0.adpterTr:Find("left")
 	slot0.rightPanel = slot0.adpterTr:Find("right")
 	slot0.topPanel = slot0.adpterTr:Find("top")
 	slot0.bottomPanel = slot0.adpterTr:Find("bottom")
-	slot0.cameraMgr = GameObject.Find("MainObject"):GetComponent("CameraMgr")
+	slot0.cameraMgr = CameraMgr.instance
+	slot0.paddingCanvas = slot0.adpterTr
+	slot0.shouldFix = false
+	slot0.AdatapBattleCam = false
+	slot0.AspectRatio = 1.7777777777777777
 
 	slot0:AddListener()
 	slot1()
@@ -27,31 +32,88 @@ function slot0.AddListener(slot0)
 end
 
 function slot0.LateUpdate(slot0)
-	if slot0.cameraMgr.CurrentWidth ~= Screen.width or slot0.cameraMgr.CurrentHeight ~= Screen.height then
+	if slot0.shouldFix then
+		slot0.shouldFix = false
+
+		slot0:AdaptTo()
+	end
+
+	if slot0.cameraMgr.CurrentWidth ~= Screen.width or slot0.cameraMgr.CurrentHeight ~= Screen.height or Screen.orientation ~= slot0.orientation then
+		slot0.shouldFix = true
+		slot0.orientation = Screen.orientation
 		slot0.cameraMgr.CurrentWidth = Screen.width
 		slot0.cameraMgr.CurrentHeight = Screen.height
-
-		slot0.cameraMgr:Adapt()
-		slot0:Check()
 	end
 end
 
-function slot0.Check(slot0)
-	if uv0 <= slot0.leftPanel.sizeDelta.x then
-		slot0.leftPanel.anchoredPosition = Vector2.zero
+function slot0.AdaptTo(slot0)
+	if slot0.AdatapBattleCam then
+		slot0.cameraMgr:AdaptTo(slot0.cameraMgr.mainCamera, Screen.width / Screen.height)
+		slot0:ResetPadding()
+	else
+		slot0.cameraMgr:AdaptTo(slot0.cameraMgr.mainCamera, slot0.AspectRatio)
+		slot0:Padding()
+	end
+end
+
+function slot0.Padding(slot0)
+	slot2 = slot0.paddingCanvas.sizeDelta.x
+	slot3 = slot0.paddingCanvas.sizeDelta.y
+	slot4 = 0
+	slot5 = 0
+
+	if slot0.AspectRatio >= slot0.cameraMgr.CurrentWidth / slot0.cameraMgr.CurrentHeight then
+		slot4 = slot2
+		slot5 = slot2 / slot1
+	else
+		slot5 = slot3
+		slot4 = slot3 * slot1
 	end
 
-	if uv0 <= slot0.rightPanel.sizeDelta.x then
-		slot0.rightPanel.anchoredPosition = Vector2.zero
+	slot7 = (slot2 - slot4) * 0.5
+
+	if (slot3 - slot5) * 0.5 > 0 then
+		slot9 = math.max(slot8, uv0)
+		slot0.topPanel.sizeDelta = Vector2(slot9, slot2)
+		slot0.bottomPanel.sizeDelta = Vector2(slot9, slot2)
+
+		if slot8 < uv0 then
+			slot10 = uv0 - slot8
+			slot0.topPanel.anchoredPosition3D = Vector3(0, slot10, 0)
+			slot0.bottomPanel.anchoredPosition3D = Vector3(0, -slot10, 0)
+		else
+			slot0.topPanel.anchoredPosition3D = Vector3(0, 0, 0)
+			slot0.bottomPanel.anchoredPosition3D = Vector3(0, 0, 0)
+		end
+	else
+		slot0.topPanel.sizeDelta = Vector2.zero
+		slot0.bottomPanel.sizeDelta = Vector2.zero
 	end
 
-	if uv0 <= slot0.topPanel.sizeDelta.x then
-		slot0.topPanel.anchoredPosition = Vector2.zero
-	end
+	if slot7 > 0 then
+		slot9 = math.max(slot7, uv0)
+		slot0.leftPanel.sizeDelta = Vector2(slot9, slot3)
+		slot0.rightPanel.sizeDelta = Vector2(slot9, slot3)
 
-	if uv0 <= slot0.bottomPanel.sizeDelta.x then
-		slot0.bottomPanel.anchoredPosition = Vector2.zero
+		if slot7 < uv0 then
+			slot10 = uv0 - slot7
+			slot0.leftPanel.anchoredPosition3D = Vector3(-slot10, 0, 0)
+			slot0.rightPanel.anchoredPosition3D = Vector3(slot10, 0, 0)
+		else
+			slot0.leftPanel.anchoredPosition3D = Vector3(0, 0, 0)
+			slot0.rightPanel.anchoredPosition3D = Vector3(0, 0, 0)
+		end
+	else
+		slot0.leftPanel.sizeDelta = Vector2.zero
+		slot0.rightPanel.sizeDelta = Vector2.zero
 	end
+end
+
+function slot0.ResetPadding(slot0)
+	slot0.topPanel.sizeDelta = Vector2.zero
+	slot0.bottomPanel.sizeDelta = Vector2.zero
+	slot0.leftPanel.sizeDelta = Vector2.zero
+	slot0.rightPanel.sizeDelta = Vector2.zero
 end
 
 function slot0.Clear(slot0)

@@ -2095,7 +2095,7 @@ pg.enemy_data_statistics_8 = {
 			cannon = {
 				{
 					-0.314,
-					0.203,
+					0.903,
 					0
 				}
 			},

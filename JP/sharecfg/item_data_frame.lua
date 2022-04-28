@@ -327,10 +327,10 @@ pg.item_data_frame = {
 	[319] = {
 		time_limit_type = 0,
 		name = "瑠璃の特異点",
-		gain_by = "",
+		gain_by = "瑠璃の特異点",
 		id = 319,
 		time_second = 0,
-		desc = "限定海域イベントをクリアで入手",
+		desc = "<color=#ffffff>開かれし扉の先は、新しい希望の未来</color>――「瑠璃の特異点」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {
