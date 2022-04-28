@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "阿瓦隆之门内侧·？？？",
+			say = "スカパ・フロー　特異点鏡面海域内",
 			side = 2,
 			bgName = "bg_endingsong_15",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "嗯……依靠这些设备的话，确实可以抵达一个补给据点。",
+			say = "これだけの資材と設備があれば、我々の補給拠点に辿り着けそうだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "不过你们确定要这么做么？",
+			say = "しかし、まさかお前からこんなふざけた申し出が出てくるとはな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "没有保证你们之后还能回来，也没有保证你们能在残酷的战斗中生存多久。",
+			say = "いくら「暗躍しているほうが似合う」と言われても…いや、素直に信じた私もどうかしている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "无须担心。铁血已经寻回了它的领袖，她的智慧必定能带给铁血，还有这个世界更光明的未来。",
+			say = "この世界の鉄血のことは心配しなくていいわ。あのMETA化の進行すら耐え抜いたビスマルクならうまくやってくれるはずよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "这里已经没有我需要做的事了，更需要我去做的事也不在这里。",
+			say = "それに、私はボウヤと毎日会えない以上、色々企んでいないとじっとしていられないのよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "你们呢，公海舰队的诸位？开弓没有回头箭哦。",
+			say = "お前はそれで構わないかもしれないが、この子たちは大丈夫なのか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "公海舰队将会追随腓特烈大帝的步伐。",
+			say = "リュッツォウは別にどっちでもいいけど？楽しければついていくし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "过去是，现在是，未来是，哪怕直至宇宙的尽头也是——",
+			say = "逆につまんなかったら帰らせてもらうよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "不过……你们那里至少有能睡觉的地方吧？",
+			say = "…………あれ？そもそも帰り方を教えてもらってないようだけど？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "有是有，不过质量就不敢保证了。",
+			say = "なんとかなる。あのフリードリヒも片道切符だけを手に旅するようなやつじゃない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "哼哼，不足的部分就让塞德利茨想办法解决一下就好了~",
+			say = "まあ、ザイドリッツがどうにかしてくれるよ。律儀だし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没问题，吕佐夫小姐。不论前路通向何方，我都会作为公海舰队的利刃与各位一同前进的。",
+			say = "それと律儀とどういう関係が…ですがザイドリッツ、鉄血のために役立てるなら努力します！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "有同伴的地方就是家……虽然不知道能为大家做到什么，不过埃尔宾会加油努力的！",
+			say = "エルビング達はきっと戻れない…「余燼」に沈められるかセイレーンに沈められるか………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "哼哼哼~人就要有恶人的样子，我们该退场了~",
+			say = "ふふふ、今度はちゃんと補佐役らしく働きたいものね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不要自顾自说些奇怪的帅气台词，也不要擅自把人算作恶人啊……",
+			say = "艦船に生まれ変わった以上戦闘が避けられないさ。というか補佐するのは誰に対してだい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "我不介意化身为邪恶军团的干部哦？",
+			say = "別に誰でも構わないわ。エムデンでもいいけど…そうね。あとで決めるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "让我们一同去征服新的世界，开辟新的未来吧！",
+			say = "あの指揮官が一番理想的だけどね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……已经完全代入角色了。",
+			say = "いつか叶うことを願うよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "好了，坐标设置完成，装置蓄能完毕，随时可以出发。",
+			say = "座標の設定はこれで大丈夫。そしてエネルギー充填も完了……そろそろ出発するか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "那就让我们起航吧。",
+			say = "ええ。案内を頼むわ。シャルンホルスト",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "前往余烬的据点，见证余烬的道路——————！",
+			say = "「余燼」の拠点で、あなたたちの奏でる楽章を聞かせてご覧なさい――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

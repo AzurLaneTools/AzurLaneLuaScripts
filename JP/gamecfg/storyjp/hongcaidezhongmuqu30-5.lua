@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：舰队损失超过预计的26.78%。",
+			say = "量産型戦闘ユニット損害、予想より26.78%超過",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：战况预测偏差值已超过30%。",
+			say = "戦況演算モジュールの予測値、マイナス30％",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：表层护盾承受压力即将到达临界值，预计将会在10秒内崩溃。",
+			say = "制御塔バリアの対射撃配置維持限界まで、残り10秒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "…………还是第一次见到计算出现如此夸张的偏差。",
+			say = "――誤差規模、想定値より超過",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "是因为应对这支往昔舰队的参数没能调整对么。",
+			say = "状況分析：鉄血艦船の攻撃パターンへの対応に遅れが発生",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "是因为计划舰的意外成长么。",
+			say = "状況分析：ホログラフィックによるメンタルジャミング失敗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "还是因为“指挥官”这一变量呢……",
+			say = "状況分析：指揮官による実験対象の協同・連帯・連携",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "指挥官，我们的航空舰队已成功突破了那座塔几乎坚不可摧的护盾！",
+			say = "バリアの消滅を確認！空母隊はこういうセイレーン施設の攻撃には役に立てないのではと心配してました…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "炸弹已经成功扔进去了哦！",
+			say = "あれだけじゃんじゃん爆弾を投下したからね、そりゃバリはオーバーヒートしちゃうわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "哼哼，对付装甲板，炮弹可比炸弹好用多了！",
+			say = "ふはーもう攻撃しちゃっていい？とりあえず一発…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们公海舰队也不能落后！用炮火粉碎那座塔厚重的装甲吧！！",
+			say = "めっちゃ効いてる！へぇ、リュッツォウたちの攻撃に対応できていないのって本当なんだ～",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "护盾在3.9s后就崩溃了……这样偏差值已经将近40%了啊。",
+			say = "バリアの再生、不可能。戦況演算モジュールの予測値、マイナス40％",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "……已经要危及到核心区了么。",
+			say = "制御塔データプロセッサーに被害の可能性――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，你们还是太慢了。",
+			say = "なし。時間切れ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "提示：蓄能进度已达到100%，局部清理程序可在30秒后正式执行。",
+			say = "制御塔のエネルギー充填完了。兵装発射準備までカウントダウンを150に設定",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "警告：此决定无法撤销，且会对实验场造成无法逆转的损伤，是否确认执行？",
+			say = "想定被害：実験場施設の壊滅、制御塔の副次的ダメージ、エネルギー再充填までのリソース補充によるタイムラグ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "确认执行，这场叛乱该结束了。",
+			say = "実験における不安定因子を除去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "指令已确认：现在开始进行局部清理倒计时，30、29、28————",
+			say = "発射準備完了。実験場リセットカウントダウン開始。149、148――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塔的光芒已经仿佛到达了临界点，震动频率也仿佛与脉搏发生了共鸣。",
+			say = "時間の流れがだんだんゆっくりしていき、制御塔の点滅はもはや脈拍と同程度に感じる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "四肢的感觉正在麻木，呼吸开始变得困难，思考也渐渐变得迟缓。",
+			say = "違う。時間の流れが同調しているのではない、振動と強光によって感覚器官が刺激され、自分の意識が混乱し始めただけだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			},
 			options = {
 				{
-					content = "所有人加大火力，不惜一切代价也要摧毁那座塔！",
+					content = "制御塔の破壊を命じる――",
 					flag = 1
 				}
 			}
@@ -354,7 +354,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "此刻，不分势力不分舰种，战场上的所有人都在为同一个目标不顾奋不顾身的发动着最为猛烈的进攻。",
+			say = "意識が朦朧としていく中で、最後の力を振り絞って通信機を手にした。未だに一部の火力は量産艦に引き付けられている、せめて――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "可是——————",
+			say = "「気をしっかり持ちなさい。可愛い人間さん」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,11 +378,11 @@ return {
 			},
 			options = {
 				{
-					content = "来不及了……",
+					content = "頼む……",
 					flag = 1
 				},
 				{
-					content = "我们无法突破塔的最后防御……",
+					content = "どうしてあなたが……",
 					flag = 1
 				}
 			}
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不错，你的判断是正确的，我们破坏不了这座塔。",
+			say = "…悔しいわ。最後の最後にあの塔を破壊するまで至らないなんて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你，我，白鹰舰队、铁血舰队、重樱舰队。",
+			say = "全ての攻撃を集中させることができれば、もしかしたら塔を破壊できて脱出することも叶うのかもしれないけど…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不论是往昔之影，亦或是未来之妄。",
+			say = "ボウヤが倒れ、共通の命令系統が機能しなくなった以上、全陣営の火力を集中させることは不可能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们现在手头的所有力量加在一起都破坏不了这座塔。",
+			say = "これが艦船の力の限界……か",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这就是我们现在力量的极限。",
+			say = "認めたくないけど、あなたの勝ちよ。コンパイラー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "15、14、13、12————",
+			say = "100、99、98、97――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,24 +489,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就差了一点……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			actor = 499020,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			say = "没错，就差了一点。而这一点将会导致我们的彻底失败。",
+			say = "「あのセイレーンのジャミングも、意識阻害も、エムデンには効かないわ」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +506,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们败局已定——————————",
+			say = "………通信？まさか、ボウヤの……？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			actor = 499020,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			say = "ふふふ、ふふふふ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "构建者肯定也是这么想的。",
+			say = "思えばこの作戦はボウヤからキューブの情報を引き出した時点で、もう私の手から離れていたのね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "毕竟这是经过它拼命计算得出的结果。",
+			say = "さすがボウヤ。セイレーンどころか、私すら出し抜くなんて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "机械到底只是机械而已，你觉得呢？",
+			say = "こちらフリードリヒ・デア・グローセよ。ボウヤ、大丈夫？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……………………？！",
+			say = "ああ。大丈夫だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,11 +598,11 @@ return {
 			},
 			options = {
 				{
-					content = "你有逆转局面的手段？！",
+					content = "全艦、火力を制御塔に集中せよ！",
 					flag = 1
 				},
 				{
-					content = "我们还能做什么……？！",
+					content = "雑魚に構うな！制御塔に集中攻撃せよ！",
 					flag = 2
 				}
 			}
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#ffff4d",
-			say = "不然呢，你以为我是带着你们所有人来陪葬的么？",
+			say = "無事で良かったわ。我が愛しいボウヤ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#ffff4d",
-			say = "不，我们已经没有能做的了，但除了我们呢？",
+			say = "では、私も最後の一手を",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "视野放宽一点，碧蓝航线的指挥官。",
+			say = "ボウヤからの命令よ。あの制御塔だけを攻撃しなさい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "既然差一点，那就再加一点不就好了？",
+			say = "今ならあなたが戦闘に参加しても、アビータに嗅ぎつけられることはないと思うわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "现在开始行动，让我们见识一下余烬的力量吧，沙恩霍斯特！",
+			say = "――仇を取らせてあげる。「余燼」…鉄血戦艦・シャルンホルスト！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "这一刻，我已经等候多时了。",
+			say = "ふん、言われなくてもそうするさ。フリードリヒ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "你在之前帮助过我，现在又让我见识到了如此振奋人心的可能性。",
+			say = "今やっとわかった。お前が言ってた「可能性」とやらの存在がどこまで心を奮い立たせるものなのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "塔的问题，就交给我吧。",
+			say = "ならばこのシャルンホルスト、全力をもってお前たちを支援しよう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "余烬沙恩霍斯特，现在加入战斗————",
+			say = "「余燼」の力、たっぷりと味わうがいい！セイレーン！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

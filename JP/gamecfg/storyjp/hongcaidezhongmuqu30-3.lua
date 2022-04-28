@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！重樱舰队加入战斗了！",
+			say = "後ろから艦載機が接近！これは…重桜の艦載機がセイレーンを攻撃し始めた！",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "重樱舰队终于选择不再冷眼旁观了么……很好，这样我们的胜算又大了一分。",
+			say = "赤城たちもついに決心がついたのか…！よし、これでこっちの勝算がさらに高まった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次是重樱么……那就来看看属于你们的记录吧。",
+			say = "無駄よ。海霧、起動",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海雾再次出现了。",
+			say = "急に言葉を発したコンパイラーのボディから、一瞬にして辺りを覆い尽くす規模の海霧が展開された。",
 			effects = {
 				{
 					active = true,
@@ -77,7 +77,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……啧。",
+			say = "………くっ！",
 			effects = {
 				{
 					active = true,
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:96}，你的伤……！",
+			say = "瑞鶴！その怪我は……！",
 			effects = {
 				{
 					active = true,
@@ -132,7 +132,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……别管我了，你们快走吧。",
+			say = "………私のことはいいから早く撤退して！",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "话虽如此，行动已经失败，作为诱饵的我们已经无路可逃了吧。",
+			say = "作戦は失敗したわ。囮である私たちはどこに逃げればいいの…？",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说的也是，已经无路可逃了呢……",
+			say = "…………そうね。ここから逃げたところで……",
 			effects = {
 				{
 					active = true,
@@ -199,7 +199,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到最后，我们好像都没帮上大家什么忙呢，啊哈哈……",
+			say = "あははは…頑張ろうって意気込んだのに、全然役に立てなかったね……",
 			effects = {
 				{
 					active = true,
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "更多的敌方舰载机过来了，{namecode:96}，{namecode:103}姐，你们还有飞机么……",
+			say = "向こうの艦載機が来たよ！千歳姉、瑞鶴、まだ飛べる艦載機は？！",
 			effects = {
 				{
 					active = true,
@@ -244,7 +244,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没有了。我们已经没有任何反击的能力，也没有任何反击的必要了……",
+			say = "ないわよそんなの。戦う力はもう残っていないって、最初からわかってたでしょ……",
 			effects = {
 				{
 					active = true,
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:103}姐，我的身体好沉……",
+			say = "怖いよ、千歳姉……",
 			effects = {
 				{
 					active = true,
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没事的，我会陪在你的身边的，让我们共赴黄泉吧。",
+			say = "大丈夫よ千代田。わ、私もここにいるよ……",
 			effects = {
 				{
 					active = true,
@@ -312,7 +312,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:95}姐，再等我一下，我们很快就能重逢了……",
+			say = "翔鶴姉……皆………",
 			effects = {
 				{
 					active = true,
@@ -331,7 +331,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……伴随着炸弹的呼啸声，海雾中的重樱舰队一艘接一艘消失在爆炸与火光中。",
+			say = "重桜の空母たちもまた、ゆっくりと海へと沈んでいく。",
 			effects = {
 				{
 					active = true,
@@ -353,7 +353,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那些……是白鹰的舰载机？",
+			say = "気をつけて瑞鶴、この幻像はただのまやかしじゃないわ",
 			effects = {
 				{
 					active = false,
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次莫名其妙幻象的主角变成我们了么？",
+			say = "……分かってる。バミューダ海域でユニオンが遭遇した幻像の話は指揮官からも聞かされたから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "白鹰的航空力量确实强大的，但我们也一样！",
+			say = "大丈夫よ神通。この程度の揺さぶりには負けないわ…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且用缺乏护卫的航母编队进行诱敌……？就算{namecode:91}前辈脑子真昏了头也不会做出这种决定的！",
+			say = "私は今、重桜の仲間たち…ううん、全ての艦船の仲間たちと、そして指揮官と一緒に戦っている！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这种景象在过去没有发生过，在未来也绝不会发生！",
+			say = "だからこんなことは絶対に起きないし、起こさせやしない！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "构建者，不要在继续用蛊惑人心的幻象拖延时间了！我们是不会动摇的。",
+			say = "みんな、気をしっかり持って！あの幻像に惑わされてはダメ！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "经历之事未必是真实的，未经历之事未必是虚假的。记录不会说谎。",
+			say = "記録は嘘をつかない。「再現」だろうと真実じゃないとは限らない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "{namecode:91}，你不是早就明白了么。",
+			say = "赤城、あなたはどうする？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "明白了，还要做出如此选择，无法理解。",
+			say = "あなたが見ている「風景」は、瑞鶴と違うはず",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "………………",
+			say = "ふふふ、ふふふふふ………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵，不要太得意忘形了，我们之间的关系自始至终都是相互利用而已。",
+			say = "セイレーン風情がつけあがるんじゃないわ。私たちはあくまで利用し合ってただけよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你对我们发动攻击，我们进行反击是理所应当的。",
+			say = "あんなものを見せたからと、私を操れると思ったら大間違いよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "重樱舰队全员准备战斗，粉碎构建者。给我打出重樱舰队的气势来！",
+			say = "全力を出すことを許可するわ。加賀、神通、私たちもアズールレーン……指揮官さまと一緒に戦うわよ",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -584,7 +584,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "领命。",
+			say = "ふん。了解だ",
 			effects = {
 				{
 					active = true,
@@ -606,7 +606,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，这才像是前辈们的一贯作风嘛————！",
+			say = "赤城先輩……！",
 			effects = {
 				{
 					active = false,

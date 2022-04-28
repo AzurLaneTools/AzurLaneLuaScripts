@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "罗马·大教堂",
+			say = "サディア帝都",
 			side = 2,
 			bgName = "bg_midgard_9",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "哈…………哈哈………哈哈哈…………哈哈哈哈……",
+			say = "ふふふ、ははははは♪",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "不行……要冷静不能笑…………噗哈哈哈哈！怎么忍得住啊？！",
+			say = "鉄血がセイレーンに宣戦布告…これは面白い展開になったわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "哈哈哈哈哈——！居然会发生这么具有戏剧性的展开……",
+			say = "うんうん、四大陣営の一角である鉄血がああなった以上、上層部の作戦計画は実行不可能",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道从哪里冒出来的俾斯麦接过了铁血阵营的领导权？",
+			say = "そしてこの混乱はもちろんアイリスにも波及して、「冠」を狙う争奪戦は前倒し",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "腓特烈大帝不再管事了？",
+			say = "そりゃそうよね！世界が混乱すればするほど、秩序を求める声もまた上がるもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "很好……很好…………很好很好很好！",
+			say = "そして…………このマルコ・ポーロもまた、混乱の世を治めようとする者の一人！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样一来，终于没有人能够再阻碍我了！",
+			say = "アイリスの「冠」を手に入れ、「神」の力を手にし、セイレーンを倒してサディアの威光をバーンっと！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "尽情欢呼，尽情颂扬吧！",
+			say = "さあ、大いなる光の野心を褒め讃えよう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于————",
+			say = "ついに――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 699010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "属于撒丁帝国，属于我马可波罗的时代终于要来临了————",
+			say = "サディア帝国の時代、マルコ・ポーロの時代がやってきたわ！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

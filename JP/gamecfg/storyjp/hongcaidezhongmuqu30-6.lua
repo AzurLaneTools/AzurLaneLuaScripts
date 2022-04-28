@@ -9,7 +9,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰————————！",
+			say = "―――――！！！",
 			continueBgm = true,
 			dir = 1,
 			bgm = "battle-inthememory",
@@ -64,7 +64,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "沙恩霍斯特·META的炮击在塔的内部引发了一连串爆炸，爆炸产生的巨大尘埃云几乎将塔完全吞没。",
+			say = "鉄血、ユニオン、重桜、そして「余燼」、全ての艦船が持つ最大火力の一斉射撃は、制御塔を爆発の嵐で包み込んだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……居然一轮炮击就击穿了？！",
+			say = "手応えはあった…いや、違う！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所有人注意，准备迎接冲击！",
+			say = "衝撃に備えろ、早く！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "塔身上强烈的光芒突然聚集成一点，在光点的周围，圆形的光晕有节奏地跳动了几下。",
+			say = "点滅していた塔の光が一点に集中したのち、円型のオーラとなって何回か収縮と拡大を繰り返した。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "然后球形的半透明“场”开始向外侧极速扩散，随之而来的爆炸声仿佛撕裂了海天。",
+			say = "そして次の瞬間、目に見えない衝撃波が制御塔を中心に広がっていき、天地を両断する大爆発がスカパ・フローの海に響いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "爆炸之后，塔变为了难以辨认的残骸，海域中的所有塞壬单位也同时停止了行动。",
+			say = "爆発の跡地には、塔の定礎となる部分だけがかろうじて残っていた。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "构建者的核心数据塔，确认摧毁。",
+			say = "コンパイラーの制御塔の破壊を確認した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "哇哦，真是华丽的收尾！META战列舰的实力真是令人大开眼界！",
+			say = "（あ、あれ？この人は…シャルンホルストじゃない？なぜしれっと鉄血艦隊と一緒に行動してるの！？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家注意，失去动力的塞壬舰载机正在从空中坠落，各舰注意规避，不要被伤到了！",
+			say = "セイレーンの艦載機が制御を失って一斉に墜落し始めた！皆、ぶつからないように回避を！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解~最后关头还不让人省心，要是在这种时候被砸伤可要错过庆功宴了。",
+			say = "最後の最後まで迷惑だね。ここで怪我したら打ち上げに出れなくなるよー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "埃尔德里奇……高兴。",
+			say = "エルドリッジ、ピリピリ…出し続ける……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你的表现的很棒哦，埃尔德里奇。",
+			say = "ああ、指揮官の乗艦は大きいからな。…エルドリッジ、よくやった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……埃尔德里奇……想要保护指挥官。",
+			say = "うん。エルドリッジ…指揮官…守った",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是一场出色的战斗，指挥官同志。",
+			say = "素晴らしい戦闘指揮だったな。同志指揮官",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "胜利了……？！！面对这种强的乱七八糟的敌人我们居然胜利了么？",
+			say = "き、きっとエルビングがセイレーンの攻撃で木端微塵になるって思ったから……だよね？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "太美好了……我一定是在做梦吧……",
+			say = "ううん。エムデンが指揮官の旗艦に登って、皆に命令をしなければ………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是现实哦，埃尔宾。我们战胜了无法想象的强敌，然后赢得了胜利。",
+			say = "すべてはエムデンの可愛い人間さんのおかげですわ。エムデンは何もしてませんでしたもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "好累……我感觉已经彻底燃尽了……记得把我拖回去，塞德利茨zZZZ",
+			say = "ふはー。眠い……ザイドリッツ、おんぶしてもらっていい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没问题，吕佐夫小姐。",
+			say = "お、おんぶですか？別に構いませんが……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过有人马上就要进入梦乡了就是了……",
+			say = "「さっきのことは秘密にしておくのよ。人間」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这样就算是赢得胜利了么……?",
+			say = "セイレーンの兵器の発射直前、ショックで自分が倒れそうになっていたときに助けてくれたのは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没错，我们胜利了。",
+			say = "私たちの勝ちだわ。ボウヤ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这是这么多年以来，我们对抗塞壬的第一场真正意义上的胜利。",
+			say = "セイレーンの撃退や多数の小規模鏡面海域の除去、「再現」そのものを制御する施設の破壊、上位個体の本体を無力化",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是不错的调度能力，我都想把你挖过来帮我办事了。",
+			say = "前の大戦も含めて今までにこれほどの勝利なんてなかったわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "怎么样，要不要考虑来我这里当指挥官？",
+			say = "私のところに来て、鉄血を支えてくれないかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,11 +500,11 @@ return {
 			},
 			options = {
 				{
-					content = "表示同意",
+					content = "急なスカウトだ……",
 					flag = 1
 				},
 				{
-					content = "果断拒绝",
+					content = "考えさせてほしい",
 					flag = 2
 				}
 			}
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "其实……我期待这一刻已经很久了。",
+			say = "分かっているわ。あなたは指揮官、陣営という概念に縛られない存在",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "呵呵，心里话最好还是藏在心里比较好哦，碧蓝航线的指挥官。",
+			say = "ふふふ、いまのは冗談よ。あなたが鉄血所属になったら――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#ffff4d",
-			say = "你要是真的来了我这边，恐怕今天我们所有人都走不出这片海域了。",
+			say = "そうね。おそらくは北方連合に滞在していた時以上に各陣営の子が暴走してしまうわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#ffff4d",
-			say = "那还真是令人遗憾。",
+			say = "こちらこそ、即答しないでほしいわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "不过我这个提案不会过期哟，你可以慢慢考虑~",
+			say = "もっとも、ボウヤは私にだけは甘えてもらってもかまわないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……铁血之后打算走向何方？",
+			say = "ビスマルクの帰還で、鉄血の行方はどうなるのだろう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "如你所见，如你所听。",
+			say = "鉄血の未来…そうね。ボウヤには楽しみにしていてほしいわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "接下来的铁血要重新在俾斯麦的领导下前进了，具体的细节去问她吧。",
+			say = "なに。ボウヤが聞くなら、ビスマルクは素直に答えてくれると思うけど？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "………………这还真是突然的变化，那你之后打算走向何方？",
+			say = "その口ぶりだと、まるで自分が鉄血から離れるかのようだが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不用担心我，我自有安排。",
+			say = "鉄血を離れるんじゃないわ。ただ…私は元々表舞台に立つよりは、色々暗躍しているほうが似合う女よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "对了，最后再送你一个情报吧————萨默斯岛。",
+			say = "それと、一つだけ置き土産をあげようかしら。「サモス島」を調べてみるといいわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "有时间的话去仔细调查一下如何？",
+			say = "そこにはボウヤが気になることがあるかと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……哪里有什么么？",
+			say = "気になること…それだけ言われてもなんとも言えないな。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "谁知道呢。",
+			say = "ふふふ。本当は私も詳しくはわからないのよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "好了，你们差不多该回去了。离开这里，享受欢呼与凯旋吧。",
+			say = "さて、そろそろアズールレーンのところに戻る時間じゃない？あっちの仲間たちが待っているわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次你们从正面堂堂正正击败了全力应战的塞壬构建者，昂首挺胸起来哟。",
+			say = "シャキッとしなさい。あなたは「再現」だけでなく、セイレーンの上位個体すら本当の意味で倒せたんだもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……那就祝你好运了，铁血的腓特烈大帝。",
+			say = "鉄血のセイレーンへの攻撃宣言。これはおそらく上層部でも想定してなかった事態だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "破败的塔下，庞大的碧蓝航线舰队与赤色中轴舰队分离，向着出口的方向驶去。",
+			say = "上層部の偉い方たちが仄暗い会議室で何が話すのか……考えるのはあとにしておこう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "外部世界的光顺着裂隙处照了进来，刺眼，又和煦——",
+			say = "スカパ・フローの海から、表では戦争状態の両陣営――アズールレーンとレッドアクシズの艦隊が出航する。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这一次，所有人都终于可以在阳光下睡个好觉了吧。",
+			say = "今日共に戦った記憶を忘れないよう誓って、各々は帰途についた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "陆间海·马耳他岛某处",
+			say = "地中海・某所",
 			side = 2,
 			bgName = "bg_italy_cg6",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原鸢尾教国枢机主教黎塞留，我们终于再次见面了。",
+			say = "また会えて嬉しいですよ。敬愛なるアイリス枢機卿リシュリュー殿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "最近还真是繁忙呢。",
+			say = "最近はさぞお忙しいようですけど、今日はどんな風の吹き回しで？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "好久不见，可怖。",
+			say = "お久しぶりですわ。テリブル",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "越来越多的同伴选择了自由鸢尾，因此我在阿非利加多花了一些时间。",
+			say = "そうですね…アイリスへ復帰する仲間たちを迎え入れることでバタバタしてましたけど、これでようやく南大陸から戻ってこれましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "不过接下来的一段时间我就会留在陆间海了。",
+			say = "しばらくはここには滞在しますので、今日はテリブルと久々にお話でもしようかと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "最初收到你前来的报告的时候我真的很吃惊……",
+			say = "どうします？私から話をしたほうがいいですか？それともテリブルから？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "凯比尔港之后就没了你的消息，你能平安无事真是再好不过了。",
+			say = "すみません、あなたは騎士姫と違って、どうもいつも話題がうまく掴めなくて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "客套话就免了。我们直入正题吧。",
+			say = "別にどっちからでも大丈夫ですよ？誘ったのは枢機卿様ですし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "好。你想和我面谈什么？凯比尔港究竟有什么我不知道的事？",
+			say = "じゃあ私からにしましょうか。テリブルはたしか、ヴィシアに度々行ってますよね？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "让·巴尔和其他人究竟发生了什么？",
+			say = "ジャン・バールは元気にしてますか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "你会问让·巴尔的问题，应该是在阿非利加见到了阿尔及利亚吧。",
+			say = "ええ。元気ですよ。色々あって表には出てこれませんが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "不仅如此，我还见到了加斯科涅……",
+			say = "それを聞いてホッとしましたわ。実は聖堂でアルジェリーと会いましたけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "我没想到维希教廷真能实现计划舰的研发，更没想到因此诞生的她会成为我们的敌人……",
+			say = "「再現」や上層部のことがあっての敵対はやむなしですが、ヴィシアが計画艦…そして黒いキューブの力を使っていましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让·巴尔究竟限于何等深渊之中，为什么要继续站在维希教廷那边？",
+			say = "仲間たちが無事ならいいですけど、テリブルも知っている通り、あの力は非常に危険なものです。どうしてアイリスに戻らないのでしょうか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "阿尔及利亚她们已经说的很明白了吧，祖国与同伴都在那边，所以她们也要在那边。",
+			say = "そういうことですか。何かと思いましたら…あちっ。コホン。すみません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "如果她们都和你一样逃跑了，有谁来守护祖国与同胞呢？",
+			say = "まあ簡単なことですよ。枢機卿様。ヴィシアは今「聖座」を巡って色々と抱え込んでいます。ふーふー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且，教廷骑士要听从教廷的命令，这是誓言。",
+			say = "騎士団は上層部から直接命令があって、そもそも動けませんし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "虽然不清楚枢机主教有没有发过这种誓言就是了……",
+			say = "「あっち」の仕事をしている子たちには内情を知ってる子が多いので、なおさら脱走させてはくださらないでしょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "……你还在生气。",
+			say = "……それと、私のせいでもありますよね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "你见过袭击完撒丁帝国返航的阿尔及利亚得知你抛弃祖国逃往皇家时的眼神么？",
+			say = "ジャン・バール様のときの「再現」のことですね。それで心にわだかまりができた子もいるとか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "你见过凯比尔港铺满水面的残骸么？",
+			say = "あの「再現」でのジャン・バール様の惨状ですもの。文句の一つや二つ、言いたくなるのもわかりましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "你见过奄奄一息的敦刻尔克与斯特拉斯堡的惨状么？",
+			say = "実際、指揮官があの場にいなければどうなっていたのでしょうね。ふふふ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家摧毁了我们的舰队，而铁血重建了它。",
+			say = "あっ…申し訳ございません。いつもの癖です。とにかくリシュリュー様",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "先抛下我们的是你。在我们最需要你的时候你并不在我们身边，请不要忘记这一点。",
+			say = "仲間たちに納得してもらえなければ、いくらリシュリュー様でもアイリスのご加護を受けている身だと証明ができないんです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "不好意思，既然审判庭认可你的行动，我也不应该多言。",
+			say = "苦労をお察ししますよ。上層部がいつまでリシュリュー様を野放しにしておく気か、不安で仕方がありませんもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "……之前我就隐约猜到了，你的销声匿迹果然与审判庭有关。",
+			say = "私は私の信ずる道を――神から示された道を進みますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "我的所行走的道路是正义的，不论遭受多少误解，我都会坚定不移的继续走下去。",
+			say = "たとえその道が艱難辛苦であろうとも、誰にも認められなくとも",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "正义么，也许吧，但正统呢？",
+			say = "素晴らしい志です。アイリスに戻る仲間たちが増えているのも頷けましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "……你究竟想说什么？",
+			say = "ねえ、でしたらテリブルも……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "「圣座冠冕」并没有遗失在战火之中，而是被人所托付，被人所保护，然后被人所藏匿。",
+			say = "すみませんリシュリュー様、私の今の身分はしばらく続けさせてください",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "你尝试说服昔日的同伴们，然后失败了。",
+			say = "ご自分の道が正しいと信じているように、私も私が進んでいる道は最善だと信じています",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "可如果用命令的方式呢？",
+			say = "しかし導きはさせてください。枢機卿様をより多くの仲間たちに認めさせるために……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "拥有资质且拥有圣座冠冕的人将会被视为鸢尾教国的正统。",
+			say = "聖座の宝の「冠」を手に入れることが一つの近道になりましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "到时候就不用打嘴仗了吧？",
+			say = "「冠」を有する者は我がアイリス教国の正統としてみなされ、上層部もああうるさく指示を出してはこなくなります",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "既然你自视为正义，如果再加上正统————",
+			say = "リシュリュー様こそ真にアイリスのご加護を預かりし、アイリスをより輝かしい未来へと導いてくださるお方",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "让鸢尾教国新生听起来也不是那么不可思议了，不是么？",
+			say = "そのような方がアイリスの統合を命じるのであれば、聞く耳を持たない者など出やしませんよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "……之前你建议我发信让皇家陆间海舰队加强马耳他的防备也和这件事有关么？",
+			say = "聖座の「冠」…テリブルには手がかりはありますか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯。",
+			say = "もちろんですとも。アイリスの救世主たるリシュリュー様には喜んでお教えしますよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "圣座冠冕就在马耳他？",
+			say = "はぁ……そうおだてなくてもいいですよ。あなたがここに来たってことは…「冠」はここの近くにあるんでしょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "很遗憾，不在哦。",
+			say = "あははは。「冠」の所在は私にもわかりません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "不过这里确实埋藏着能通向圣座冠冕藏匿地的「钥匙」。",
+			say = "ですがそれへと案内する「鍵」はこの地にあります",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而我就是代表审判庭来对你的行为进行评价，并在适时地时候将其托付给你的。",
+			say = "まあ、上層部の思惑としては、「鍵」の所在を都合のいい人にばらまくことなんですけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "你现在来告诉我这件事，说明时机已经成熟了？",
+			say = "私はリシュリュー様に「冠」を手に入れてほしいと思って",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯。有其他人也在打圣座冠冕的主意，而破碎动荡的鸢尾教国已经无法承受再一个背叛者，或是野心家了。",
+			say = "なにせ「冠」を探すレースの参加者は陣営とは関係ありませんもの。よく分からない人にアイリスの旗印に渡すのは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "至少你的行动已经充分证明了你并不属于那两者之中，不是么？",
+			say = "んー。よくあることですが今回は別ですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你想要力量，是因为你需要力量去做正确的事。",
+			say = "では改めて、アイリス教国枢機卿リシュリュー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			actor = 801070,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然如此，就由我们为你引导吧，那前往鸢尾教国力量顶峰的道路吧————",
+			say = "このル・ファンタスク級のル・テリブルがあなたを聖座の宝へと導きましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
