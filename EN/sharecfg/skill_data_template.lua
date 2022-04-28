@@ -59683,7 +59683,7 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		id = 15360,
 		type = 3,
 		max_level = 10,
-		desc = "When this ship fires her Main Guns: fires a $2 special barrage. \nWhen the battle starts, if this ship is NOT your Flagship and your Flagship has a \"Marvels of History\" skill: the higher percentage HP your Flagship has remaining, the shorter the reload time of her first Main Gun volley (at least 20,0.%; up to $1).",
+		desc = "When this ship fires her Main Guns: fires a $2 special barrage. \nWhen the battle starts, if this ship is NOT your Flagship and your Flagship has a \"Marvels of History\" skill: the higher percentage HP your Flagship has remaining, the shorter the reload time of her first Main Gun volley (at least 20.0%; up to $1).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -73610,7 +73610,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29701] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29701,
 		type = 1,
 		max_level = 1,
@@ -73624,7 +73624,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29702] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29702,
 		type = 1,
 		max_level = 1,
@@ -73666,7 +73666,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29721] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29721,
 		type = 1,
 		max_level = 1,
@@ -73680,7 +73680,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29722] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29722,
 		type = 1,
 		max_level = 1,
@@ -73694,7 +73694,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29731] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29731,
 		type = 1,
 		max_level = 1,
@@ -73708,7 +73708,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29732] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29732,
 		type = 1,
 		max_level = 1,
@@ -73722,7 +73722,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29741] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29741,
 		type = 1,
 		max_level = 1,
@@ -73736,7 +73736,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29742] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29742,
 		type = 1,
 		max_level = 1,
@@ -73750,7 +73750,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29751] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29751,
 		type = 1,
 		max_level = 1,
@@ -73764,7 +73764,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29752] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29752,
 		type = 1,
 		max_level = 1,
@@ -73778,7 +73778,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29761] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29761,
 		type = 1,
 		max_level = 1,
@@ -73792,7 +73792,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29762] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29762,
 		type = 1,
 		max_level = 1,
@@ -73806,7 +73806,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29771] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29771,
 		type = 1,
 		max_level = 1,
@@ -73820,7 +73820,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29772] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29772,
 		type = 1,
 		max_level = 1,
@@ -73834,7 +73834,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29781] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29781,
 		type = 1,
 		max_level = 1,
@@ -73848,7 +73848,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29782] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29782,
 		type = 1,
 		max_level = 1,
@@ -73862,7 +73862,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29791] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All-Out Assault I",
 		id = 29791,
 		type = 1,
 		max_level = 1,
@@ -73876,7 +73876,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29792] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All-Out Assault II",
 		id = 29792,
 		type = 1,
 		max_level = 1,
@@ -73946,7 +73946,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29821] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All Out Assault I",
 		id = 29821,
 		type = 1,
 		max_level = 1,
@@ -73960,7 +73960,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29822] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All Out Assault II ",
 		id = 29822,
 		type = 1,
 		max_level = 1,
@@ -73974,7 +73974,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29831] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All Out Assault I",
 		id = 29831,
 		type = 1,
 		max_level = 1,
@@ -73988,7 +73988,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29832] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All Out Assault II ",
 		id = 29832,
 		type = 1,
 		max_level = 1,
@@ -74002,7 +74002,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29841] = {
 		desc_get = "",
-		name = "All-Out Assault: I",
+		name = "All Out Assault I",
 		id = 29841,
 		type = 1,
 		max_level = 1,
@@ -74016,7 +74016,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 	},
 	[29842] = {
 		desc_get = "",
-		name = "All-Out Assault: II",
+		name = "All Out Assault II ",
 		id = 29842,
 		type = 1,
 		max_level = 1,

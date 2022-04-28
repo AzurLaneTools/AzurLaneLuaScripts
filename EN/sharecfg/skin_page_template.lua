@@ -14,8 +14,8 @@ pg.skin_page_template = {
 	},
 	{
 		id = 3,
-		name = "春之旗袍",
-		res = "chunzhiqipao",
+		name = "东煌意境",
+		res = "donghuang",
 		english_name = "Spring Festival "
 	},
 	{
@@ -62,7 +62,7 @@ pg.skin_page_template = {
 	},
 	[12] = {
 		id = 12,
-		name = "特别演习 ",
+		name = "特别演习",
 		res = "laoyuyanxi",
 		english_name = "Special Exercise "
 	},
@@ -86,13 +86,13 @@ pg.skin_page_template = {
 	},
 	[16] = {
 		id = 16,
-		name = "Carnival",
+		name = "嘉年华",
 		res = "jianianhua",
 		english_name = "Bunny Girl"
 	},
 	[17] = {
 		id = 17,
-		name = "Maid",
+		name = "女仆时间",
 		res = "nvpu",
 		english_name = "Maid"
 	},

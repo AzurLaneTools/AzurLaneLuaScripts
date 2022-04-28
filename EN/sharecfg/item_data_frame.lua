@@ -330,7 +330,7 @@ pg.item_data_frame = {
 		gain_by = "虹彩的终幕曲",
 		id = 319,
 		time_second = 0,
-		desc = "<color=#ffffff>Beyond the open door lies a new future.</color> Obtained from the \"Rondo at Rainbow's End\" event.",
+		desc = "<color=#ffffff>Beyond the open door lies a new future.</color>\nObtained from the \"Rondo at Rainbow's End\" event",
 		scene = {}
 	},
 	[406] = {

@@ -9833,7 +9833,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Rate UP for Howe, Perseus, Eagle, and more!"
+	tip = "Rate UP for Emden, Lützow, Seydlitz, and more!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {

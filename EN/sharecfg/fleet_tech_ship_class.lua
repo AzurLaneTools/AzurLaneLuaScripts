@@ -1964,7 +1964,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40403] = {
 		shiptype = 4,
-		name = "Seydlitz.",
+		name = "Seydlitz",
 		nation = 4,
 		id = 40403,
 		t_level_1 = 1,
