@@ -242,7 +242,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "確かに途中から別のことを考えていた。",
+					content = "ブリーフィングを続けさせる",
 					flag = 2
 				}
 			}
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_endingsong_1",
 			dir = 1,
 			optionFlag = 1,
-			say = "ブリーフィングを続けさせる",
+			say = "確かに途中から別のことを考えていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "極地のセイレーンの動向も心配だから、可能な限り早めに決着をつけたいね",
+			say = "極地のセイレーンの動向も心配だから、可能な限り早めに決着をつけたいところだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 5,
-			say = "帝都がセイレーンに急襲されて以来、上層部はもっぱら「守備を固めよ」との指示が出されているそうだ",
+			say = "帝都がセイレーンに急襲されて以来、上層部からもっぱら「守備を固めよ」との指示が出されているそうだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "それにフリードリヒの動向もまだ掴めていない。キューブの情報を探っているところだ",
+			say = "それにフリードリヒの動向もまだ掴めていない。キューブの情報を探っているらしい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1237,11 +1237,11 @@ return {
 					3
 				},
 				{
-					"<size=51>'――ビスマルクの計らい事か</size> ",
+					"<size=51>――ビスマルクの計らい事か</size> ",
 					4
 				},
 				{
-					"<size=51>'――はたまた小さな女王陛下の策謀か</size>",
+					"<size=51>――はたまた小さな女王陛下の策謀か</size>",
 					5
 				},
 				{

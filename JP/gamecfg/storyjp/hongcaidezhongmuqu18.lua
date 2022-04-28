@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·东北航道D区域",
+			say = "NA海域",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "在由喀琅施塔得带队的北方联合舰队前方，一个熟悉的身影正大摇大摆的向舰队靠近着。",
+			say = "クロンシュタットが率いる北方連合艦隊が海を進んでいく中、鉄血の艦船が一人、水平線の先に現れた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哟~好久不见啊我的老朋友。",
+			say = "これはこれは、クロンシュタットじゃない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这不是欧根亲王么，什么风把你吹过来了？",
+			say = "……プリンツ・オイゲンか？こんなところに出張ってくるとは",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "啊，停下，不要再继续接近了，否则我就要被迫开火了哦。",
+			say = "「再現」とはいえこれは任務でね。これ以上接近したら撃つわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "喂喂喂，你这人面对多年没见的老朋友也太冷淡了吧！",
+			say = "つれないわね。あんなに楽しくお酒を一緒に飲んだ仲なのに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "此一时彼一时咯。",
+			say = "今とは状況が違うでしょ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "这么久都没收到过你的消息了，最近在什么地方忙什么呢？",
+			say = "そうね。じゃあここで雑談でもしない？クロンシュタットは今何をしてるの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那自然是在需要我的地方做着需要我来做的事。",
+			say = "ふん、「仕事」のほかに何かあると思ってるの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "是怀念我们一起吃晚餐的时光了么？",
+			say = "とは言っても、もうオイゲンとお酒を飲むのは勘弁ね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "倒是有些想念，要是顺便能在饭桌上多告诉我些情报就好了。",
+			say = "残念。私は普通に飲みたかったし、ついでに北方連合のヒミツの話も聞きたかったのに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "哈哈哈，那就得看你的本事了。到底是你套到的情报多，还是被我套到的情报多。",
+			say = "こっちも鉄血のヒミツの話を色々聞きたいんだけど。オイゲンが酔ってないなら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "多年未见，你倒是没什么变化。",
+			say = "そういうところがキーロフよりあなたのほうが色々付き合いのよね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "你要是观察的更仔细点的话就会发现，我多少还是变了一些的，就跟你一样。",
+			say = "お酒を飲まないならご飯ぐらいは付き合ってやるわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "欸~是么？我倒觉得自己一直以来没什么变化哦。",
+			say = "ふふふ。なるほどね…行方不明だと聞いてどうしてるのかと思ったけど、クロンシュタットは全然変わってないわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "只是装作没什么变化而已吧。伪装是用来掩盖的，你在试图掩盖什么？",
+			say = "そっちこそ、フリードリヒのお使いであれこれやってるようじゃない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对往昔的怀念？对友人的思念？或者是什么更复杂的事——？",
+			say = "どうせ聞いても答えてくれないだろうから、目的を聞くのも無粋だろうけど。一つだけ忠告よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "作为老友的经验之谈来说，过度压抑情感可是一件非常危险的事哦。",
+			say = "思わせぶりなのもやり過ぎると、本当に自分がしたいことが分からなくなるわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "目光倒还是依旧那么敏锐~不过秘密让女人更女人，这一点上大家彼此彼此吧？",
+			say = "私は思わせぶっていつも失敗するクロンシュタットとは違うわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我倒是很乐意跟你彻夜长谈哦————在你作为俘虏跟我回去之后。",
+			say = "じゃあいつものように派手にやろうか！話はそのあとじっくり聞かせてもらうわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哎呀呀，要是这样可就麻烦了。我还有要做的事呢，可不能就这么被你抓住~",
+			say = "あはは、このプリンツ・オイゲンが簡単に捕まるとでも思って？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这是什么话。你人都来到这个距离了，接下来的事可由不得你了！",
+			say = "捕まえてやるわ。この距離でこの戦力、逃げられる前に火力を叩きつければ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "――――！！！",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……炮弹不受阻碍的穿过了身体……？你是幻影？",
+			say = "砲弾がすり抜けた…！？ちっ、ジャミングか…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "你们这次来势汹汹的，我也多少做了一些准备嘛~",
+			say = "そうよ。時間稼ぎに付き合ってくれてありがとう。クロンシュタット",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "铁血的技术进步，就让你们好好感受一下吧！",
+			say = "不本意だけど、一応はあなたたちが苦戦するような状況を作らないとね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "奥丁————！",
+			say = "オーディン、頼むわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499040,
-			say = "主神之枪充能完毕。",
+			say = "ああ。編纂竜骨、接続、エネルギー直結……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			actor = 499040,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "撕裂吧，冈格尼尔——————",
+			say = "穿て、ヘルテイトの轟雷！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

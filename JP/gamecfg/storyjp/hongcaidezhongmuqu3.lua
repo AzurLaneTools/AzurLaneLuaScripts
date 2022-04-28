@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "一隻作るだけでも、莫大な時間と予算をかけなけれなばならないと聞いているわ",
+			say = "一隻作るだけでも、莫大な時間と予算をかけなければならないと聞いているわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "（………保存されて、平和の世を謳歌できれば…）",
+			say = "（………保存されて、平和な世を謳歌できれば…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			actor = 499060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "貴女たちに見せたいものの準備は整ってあるわ",
+			say = "貴女たちに見せたいものの準備は整っているわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

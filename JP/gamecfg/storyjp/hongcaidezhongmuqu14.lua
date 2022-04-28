@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "（フリードリヒにまたしてやられたわね…）",
+			say = "（フリードリヒにしてやられたわね…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

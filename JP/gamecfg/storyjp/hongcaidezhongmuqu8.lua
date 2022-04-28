@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "フリードリヒ殿といえば、この場所で我々とともに戦った…いや、人違いか",
+			say = "フリードリヒ殿といえば、この場所で我々と共に戦った…いや、人違いか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本流を辿れば、きっとその仲間と同じ伝承だろう",
+			say = "本流を辿れば、きっとその仲間と同じ伝承でしょうね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "（見たこと以上に複雑な技術のようね。予想はしていたけど制限もかなり多いと）",
+			say = "（見た目以上に複雑な技術のようね。予想はしていたけど制限もかなり多いと）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "懐かしがってくれるのはいいわ。だがそれ以上の詮索は不要よ",
+			say = "懐かしがってくれるのはいいわ。だけどそれ以上の詮索は不要よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

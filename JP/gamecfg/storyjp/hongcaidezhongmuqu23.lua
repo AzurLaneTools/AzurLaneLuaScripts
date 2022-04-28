@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·斯卡帕湾近海",
+			say = "スカパ・フロー周辺海域",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，在斯卡帕湾外发现了铁血总旗舰腓特烈大帝的踪迹。",
+			say = "指揮官、鉄血艦隊の残存艦隊、そしてフリードリヒの場所が分かった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107060,
-			say = "其正与重樱舰队以及一支未知铁血舰队一同向着您所在的方向缓慢前进。",
+			say = "重桜艦隊とスカパ・フローの湾内から出て、指揮官の旗艦に向けて前進しているようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "达喀尔港的重樱舰队果然还是加入战斗了啊……",
+			say = "重桜艦隊……つまりダカールにいた赤城たちか。彼女たちがなぜここに？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "不过突然出现的未知舰队……？难道这就是腓特烈大帝拖延时间的原因么。",
+			say = "鉄血に加勢しこちらと最後の決戦を挑むため――いや違う。それなら「再現」にはならないはずだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705050,
-			say = "指挥官同志…………即将…………抵达…………",
+			say = "同志指揮官、こちら………到着し…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "嗯…………？通讯出现干扰了？",
+			say = "北方連合から通信が届いているが、ノイズがあってよく聞こえない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "埃尔德里奇，有什么异常情况么？",
+			say = "今更鉄血がジャミングを仕掛けてくるとは考えにくい。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……通讯系统，无异常。指挥官，我们没有被干扰。",
+			say = "指揮官の旗艦…通信機…問題ない…正常……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "也就是出问题的是北方联合舰队那边……",
+			say = "となると、ここで一番可能性が高いのは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，不好了！周围海域突然毫无征兆的出现了大量塞壬活动迹象！",
+			say = "悪い予感が的中したようね。セイレーンが動いているわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "塞壬……？NA海域的塞壬不是随着核心区的攻陷已经基本被清理干净了么？",
+			say = "NA海域のセイレーン、大人しくなったと思ってはいたが、こんな時に……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102160,
-			say = "我也不知道这些塞壬是从哪里冒出来的……",
+			say = "こいつら、どこからやってきたの…！指揮官、まずいわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "除了塞壬舰队之外，海域里还同时出现了多处镜面海域！",
+			say = "セイレーン艦隊だけじゃない！鏡面海域の反応も多数観測されたわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102160,
-			say = "北方联合舰队最先被波及的，详细情况正在评估中！",
+			say = "今北方連合が巻き込まれた！ほかの艦隊にも大至急確認をして――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，航空舰队周围观察到海雾生成，目前正在快速扩散中，预计舰队将会很快因卷入海雾与外界失去联系。",
+			say = "作戦海域全域に海霧が発生している！指揮官、艦隊を分散させられてはまずい！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们会尽快突破塞壬的阻碍与您汇合的，在此之前请谨慎行动。",
+			say = "すぐ合流する！指揮官はその場にとどまっていてくれ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这里是萨拉托加，我这边的情况也很不妙！一支预备舰队已经在镜面海域中失去联络了！",
+			say = "サラトガちゃんも！あわわわわ！量産艦がもう飲み込まれている！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我正在想办法接近你们的位置，但是很困难！",
+			say = "指揮官の位置まで辿り着けるかどうかは分からないけど、とにかく急ぐ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "不用着急，优先保护好自己。周边护卫舰队优先保证航空编队的安全！",
+			say = "全員が一箇所にまとまるとかえって一網打尽にされる恐れがある。ここは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105130,
-			say = "命令收到，现在开始调整航线。",
+			say = "まずは目となる空母艦隊を守ることに集中するだと！？…了解だ！進路を調整する！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103160,
-			say = "可恶……指挥官，我们无法及时赶到航空舰队的位置。突然出现的大量塞壬人型精英阻断了我们的航线！",
+			say = "こっちも向かっている…ちっ！指揮官すまない！人型のセイレーンの大群を発見した！ここで少し足止めする！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "各舰队推进速度放缓，不要优先向着斯卡帕湾前进了。",
+			say = "突然現れたセイレーンにより、スカパ・フローに向かっている各艦隊の足並みが乱れた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "航线受阻的舰队就近与身边的友军汇合，优先清理身边的敌人与镜面海域，自主决定行动目标。",
+			say = "近い友軍と合流し、セイレーンの奇襲に備えつつ海霧の解除方法を探す――不安定な通信の中でも仲間たちに指示を与えた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102160,
-			say = "到底是怎么回事……如此多的镜面海域肯定是早就设置好的……",
+			say = "哨戒艦隊と艦載機がいるというのに、セイレーンの活動がないこの海域で、いきなりこんな数の鏡面海域を展開するなんて信じられない…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是我们真的…………根本就没有检测到任何塞壬目标的活动啊，连一丝一毫迹象都没有！",
+			say = "どうしてこんなことに…セイレーンは私たちがここに来るのを待ち伏せしてたの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
-			say = "孟菲斯，不要慌乱。立刻联系皇家最近的空军基地，我们需要空军支援，越多越好。",
+			say = "通信が完全に使えなくなるうちに、まず救援を手配しなければ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "如果有可用舰队的话也让她们立刻出动。",
+			say = "鉄血と重桜も同じ海域にいるから、鏡面海域に巻き込まれた可能性は高い。ここはまずロイヤルに連絡しよう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "相信皇家为了护卫本土安全，肯定在附近多少留了一些舰队的。",
+			say = "あのスカパ・フローのことだから、普段から巡回している艦隊が配置されているはずだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是……遵命！",
+			say = "了解！ロイヤルに救援要請を出すわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "佐治亚，你那里情况怎么样？",
+			say = "そして、旗艦艦隊と距離が一番近いジョージアは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 199020,
-			say = "指挥官，我正在观察战场。",
+			say = "大丈夫だ指揮官、通信はまだ生きているぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actor = 199020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "海雾现象也许暗示着，本次袭击是由构建者发动的。",
+			say = "前の記録によれば、この海霧は「コンパイラー」という上位個体が制御しているようだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 199020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只要我们能锁定构建者的位置并消灭它，就能挫败此次塞壬的大规模伏击。",
+			say = "そいつを見つけ出して叩けば、海霧は解除されるはず",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "明白了，我这就让航空力量展开重点搜索。",
+			say = "海霧の中では艦載機の活動範囲は圧倒的に狭くなる。できれば数を増やして大規模な偵察を行えればいいのだが…。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "企业，萨拉托加，能收到么？",
+			say = "エンタープライズとサラトガたち空母機動艦隊との通信は……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			bgName = "bg_endingsong_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "通信",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "已经因为海雾阻断失去联系了么……",
+			say = "反応がない。海霧で通信の電波が遮断されているようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "白鹰海军最大最强的Black Dragon，{namecode:199}登场！",
+			say = "空母ばかりに気を取られて、この最大最強のブラックドラゴン・ニュージャージーのことを忘れてはダメよ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，好久不见~想我了么！",
+			say = "指揮官、大丈夫？まだ持ちこたえられる？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "{namecode:199}，来得正好！你那边情况怎么样？",
+			say = "ブリーフィングルーム中に元気な声が響いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "虽然有一半舰队暂时因为镜面海域失联，不过我带着另一半赶过来了哦！",
+			say = "鏡面海域に半分ぐらい巻き込まれたけど、まだ半分の戦力はあるわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107090,
-			say = "指挥官，对于构建者的侦察就交给我们吧，我们一定会在最短时间内把它找出来的！",
+			say = "コンパイラーの探索は任せてください！エセックス、全力をかけて艦隊の皆を助けてみせます！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "帮大忙了。",
+			say = "鏡面海域の規模と数がわからない以上、まずは海霧を解決しなければ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唉，真是被这突如其来的状况搞得一团糟啊。",
+			say = "（小声）指揮官、ここに来る途中に鉄血の量産艦隊も見たけど…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "我注意到了哦，塞壬只盯着我们发动攻击。撤离的铁血舰队就被它们直接放过去了。",
+			say = "セイレーンは私たちだけを攻撃して、鉄血艦隊には攻撃していなかったわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,11 +790,11 @@ return {
 			},
 			options = {
 				{
-					content = "这里是塞壬和铁血一起设下的陷阱！",
+					content = "セイレーンが、鉄血艦隊と…？",
 					flag = 1
 				},
 				{
-					content = "这是铁血和塞壬的配合行动……",
+					content = "両者は結託している…？",
 					flag = 2
 				}
 			}
@@ -808,7 +808,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "毫无疑问呢。以前虽然有过很多间接证据，不过这么光明正大的联合作战倒还是第一次。",
+			say = "分からないわ。ただ、セイレーンの介入があれば、「再現」の結果は十分変わりうるね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "到了危急关头，铁血也终于不加隐藏了啊。",
+			say = "セイレーンの離間の計だと思いたいけど、状況が状況だから、ここからは慎重にお願いね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107110,
-			say = "指挥官，我们发现构建者的位置了！",
+			say = "指揮官！コンパイラーと思わしき人型個体を発見した！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "它正带领着大量敌舰从东南方向您接近，似乎要与正面的腓特烈大帝一同对您进行夹击！",
+			say = "南東の方向から大群を引き連れてそちらに向かってる！…フリードリヒも北東から？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,7 +883,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "情况了解~不用担心，你去专心处理铁血总旗舰，后面的敌人就交给我了！",
+			say = "セイレーンは私が止めるわ！指揮官、フリードリヒは頼むわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "{namecode:199}舰队，全速出击~！",
+			say = "指揮官のところには行かせないんだから！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "塞壬也许会干涉本次作战，这种事态已经事先已经想到了。",
+			say = "今までの「再現」でもセイレーンが現れたケースは何度もあった。しかしどうしても深読みしてしまう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "所以才从本土带来了大量舰队，并从星海中带来了佐治亚与埃尔德里奇……",
+			say = "いくらフリードリヒでも、セイレーンの介入を作戦に組み込むとは思えない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			bgName = "bg_endingsong_4",
 			dir = 1,
 			blackBg = true,
-			say = "不过目前看起来，好像还是有些不太够啊……",
+			say = "この状況について、彼女はどう思っているのだろうか――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

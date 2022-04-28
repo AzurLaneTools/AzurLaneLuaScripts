@@ -306,7 +306,7 @@ pg.enemy_data_statistics_370 = {
 	},
 	[15803121] = {
 		cannon = 15,
-		name = "构建者α型",
+		name = "コンパイラーα型",
 		hit_growth = 280,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -347,7 +347,7 @@ pg.enemy_data_statistics_370 = {
 	},
 	[15803122] = {
 		cannon = 15,
-		name = "构建者β型",
+		name = "コンパイラーβ型",
 		hit_growth = 280,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -387,7 +387,7 @@ pg.enemy_data_statistics_370 = {
 	},
 	[15803123] = {
 		cannon = 22,
-		name = "构建者γ型",
+		name = "コンパイラーγ型",
 		hit_growth = 280,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,

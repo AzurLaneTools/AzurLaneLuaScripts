@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "エムデンさん、ここはまだ余力があるうちに撤退しましょうう！",
+			say = "エムデンさん、ここはまだ余力があるうちに撤退しましょう！",
 			effects = {
 				{
 					active = true,
@@ -1817,7 +1817,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "それにあの新型セイレーンが、私たちにとってどの程度の敵なのかも、調べる価値があるわ",
+			say = "それにその新型セイレーンが、私たちにとってどの程度の敵なのかも、調べる価値があるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

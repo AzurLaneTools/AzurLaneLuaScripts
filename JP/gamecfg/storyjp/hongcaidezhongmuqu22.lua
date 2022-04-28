@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斯卡帕湾周边海域·指挥舰内",
+			say = "スカパ・フロー周辺海域　旗艦ブリーフィングルーム",
 			side = 2,
 			bgName = "bg_endingsong_11",
 			dir = 1,
@@ -37,8 +37,8 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "指挥官……收到了好多、好多的通讯联络。",
+			actorName = "エルドリッジに任せる",
+			say = "エルドリッジ…連絡…受信がたくさん……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "要埃尔德里奇，读给你听么？",
+			actorName = "エルドリッジに任せる",
+			say = "エルドリッジ、読む？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,24 +66,24 @@ return {
 			},
 			options = {
 				{
-					content = "让埃尔德里奇来读。",
+					content = "エルドリッジに任せる ",
 					flag = 1
 				},
 				{
-					content = "还是自己看吧。",
+					content = "自分で確認する",
 					flag = 2
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "第一封……",
+			say = "一通目……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,13 +95,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“指挥官，铁血舰队，似乎……”",
+			say = "指揮官…鉄血艦隊、配置……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,13 +113,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“改变了，部署。”",
+			say = "変わった……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,13 +131,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“乌尔里希，已经向着，斯……卡帕湾撤退了。”",
+			say = "ウルリッヒ、みんな、スカパ・フローに撤退……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,13 +149,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“明明，没遭遇到，严重损失。”",
+			say = "ダメージ…与えなかった…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,13 +167,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“计划舰，战斗力，果然，不容小觑。”",
+			say = "計画艦…強い……よく戦った…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,13 +185,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“打起来，真的，很过瘾……”",
+			say = "艦隊の再編と……………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,13 +203,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“接下来，我需要，稍微，重整舰队……”",
+			say = "うん…艦隊の再編と…仲間の補給を…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,13 +221,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“在，安排好，受伤的，同伴……“",
+			say = "一度やってから…進む……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,13 +239,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“补充完，量产型，后再，继续前进……”",
+			say = "量産型も…補給補給……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,13 +257,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "エルドリッジに任せる",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“我们，决战时候，再见啦……来自，{namecode:199}。”",
+			say = "スカパ・フローで…会おう…ニュージャージーから………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "……让埃尔德里奇来读这些报告似乎有些太困难了，接下来还是自己看吧。",
+			say = "………エルドリッジは頑張ってくれているが、この調子だとしばらく終わらないな……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "一段时间后——",
+			say = "少し時間が経ち――",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "根据情报汇总，可以确认铁血舰队再次整体性改变了战术。",
+			say = "各艦隊からの情報をまとめると、鉄血艦隊の作戦がどうやら変わったようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "她们不再漫无止境的干扰与拖延，而是边打边撤，有序向斯卡帕湾方向集中。",
+			say = "今までのジャミングを利用したかく乱と遅滞をやめ、戦力をスカパ・フローに集中させている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "尚无法判断这是在阻止主力打击群前进失败之后做出的选择，还是斯卡帕湾方向已经没有继续拖延的必要了……",
+			say = "こちらの戦力の撃破を諦めているのか、それとも今まで「隠していた」ことをもう隠さないつもりなのかは分からない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "从各条战线上的情况来看，北方联合舰队主要与欧根亲王舰队智慧的舰队进行了交战，虽然损失轻微但推进速度最慢。",
+			say = "北方連合の艦隊はオイゲンやオーディンなどの鉄血艦と交戦したが、損害は大して受けていない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "NA海域舰队打击群则与提尔比茨指挥的舰队发生了交战，双方量产型损失严重，舰船也均有数艘受损。",
+			say = "ニュージャージーの艦隊はティルピッツ隊と交戦し、のちに撤退してきたウルリッヒとも遭遇したが損害は軽微。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "佐治亚的情况也相同，在与乌尔里希带领的主力舰队激战之后，双方互有损伤。",
+			say = "ジョージアは見事にウルリッヒ隊を撃退し、今は旗艦艦隊との合流に向けてこちらを目指している。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "看来计划舰的高战斗力很好缓解了铁血舰队数量不足的优势。",
+			say = "まとめると、鉄血は少ない戦力でも善戦してきたが、「再現」における敗北は免れないようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "不过只是缓解而已……要想逆转局势，铁血恐怕还需要更多的计划舰。",
+			say = "少なくともフリードリヒたちの目的は「鉄血を勝たせたい」わけではなさそうだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "而我们不会继续给铁血时间了。",
+			say = "一息ついて、現在の艦隊の進路をもう一度確認する。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "铁血似乎意图在斯卡帕湾进行决战，我们也是如此。",
+			say = "サラトガたちの予備艦隊はうまく旗艦艦隊と合流できそうだ。決戦の主戦力として申し分ない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_endingsong_11",
 			dir = 1,
 			blackBg = true,
-			say = "目前还有萨拉托加指挥的两支预备舰队可用，看来是时候投入战斗了————",
+			say = "あとはスカパ・フロ――の最後の戦いに向けて前進あるのみだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

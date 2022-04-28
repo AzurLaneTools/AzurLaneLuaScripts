@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "それより気になるわね……各陣営の関係",
+			say = "それより気になるね……各陣営の関係",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

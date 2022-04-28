@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "佐治亚",
+			actorName = "ジョージア",
 			side = 2,
 			bgName = "bg_endingsong_1",
 			dir = 1,
@@ -15,7 +15,7 @@ return {
 			bgm = "theme-highseasfleet",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，现在开始战况汇报。",
+			say = "さて、指揮官、ブリーフィングの時間だ",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,8 +40,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "目前，本次参战的几乎全部舰队均与铁血展开交战。",
+			actorName = "ジョージア",
+			say = "現在海域に展開中のほぼ全艦隊は既に鉄血艦隊と交戦に入っている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "铁血舰队数量虽然远不如我们，但依靠庞大的幻影与单体作战性能强大的计划舰，已经大幅拖慢了我们的时间表。",
+			actorName = "ジョージア",
+			say = "向こうの数は少ないが、ジャミングによるかく乱のせいでこちらの計画がだいぶ滞らされている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "我们所在的主力打击群受到的直接阻力最小，主要以遭遇到的大量幻影舰队为主，推进速度基本正常。",
+			actorName = "ジョージア",
+			say = "まずは旗艦艦隊、こちらはジャミングと幻影に遭遇しただけで、前進速度にほぼ問題はない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过北方联合舰队在与我们汇合途中遭遇了包含名为奥丁的计划舰在内的铁血舰队阻击，汇合时间推迟。",
+			actorName = "ジョージア",
+			say = "そして、北方連合艦隊は鉄血艦隊の迎撃を受けており、合流時間が予定より遅れる見込みだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}带领的NA海域舰队打击群也遭遇到了包含名为美因茨的计划舰在内的铁血舰队阻击。",
+			actorName = "ジョージア",
+			say = "さらに、ニュージャージーの艦隊も鉄血艦隊と交戦中だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "同时因后勤舰队遭遇到铁血狼群的猛烈进攻，{namecode:199}不得不分出一部分编队进行护航。",
+			actorName = "ジョージア",
+			say = "最後に、後詰めの予備戦力は鉄血潜水艦隊からの攻撃を受けている。これも進軍が遅れている原因の一つだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,8 +142,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "总体来说各舰队进展均不如预期，不过延后时间依然在可控范围内。",
+			actorName = "ジョージア",
+			say = "だが、予定より多少遅れているものの、計画を修正するほどのものではないだろう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,8 +159,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "……嗯？指挥官，插播一条最新消息。",
+			actorName = "ジョージア",
+			say = "………ん、これは？指揮官、最新情報が届いた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,8 +176,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "目标26,30,31已被确认为干扰幻影，现在从地图上排除。",
+			actorName = "ジョージア",
+			say = "信号源26、30、31はジャミングによる偽物だと判明した。今マップから消す",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "很好，又排除了一部分干扰。剩下的疑似目标还有多少？",
+			say = "鉄血によるジャミングシステムや、同時に行われたかく乱への対処のため、進軍が想定より遅れている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,8 +207,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "71处。",
+			actorName = "ジョージア",
+			say = "これで残りの信号源は71個だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			},
 			options = {
 				{
-					content = "……排除速度还能加快么？",
+					content = "骨が折れるな……",
 					flag = 1
 				}
 			}
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "拥有地利优势的铁血出动了大量陆基飞机，一定程度上抵消了我们的舰队航空优势。",
+			actorName = "ジョージア",
+			say = "航空偵察を行うにしても、あの光学迷彩はだいぶ巧妙に作られているのが厄介だ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,8 +247,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "况且铁血航空舰队的位置依然不明，如果继续增派侦察机队的话，舰队本身的安全将会承受巨大风险。",
+			actorName = "ジョージア",
+			say = "近づかなければ偽物かどうかわからないし、かといって低空で接近すれば防空砲火の餌食だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "……因为铁血直到此刻仍未登场的主力舰队，全军在海域中不得以更谨慎的方式行动。",
+			say = "それにこれほどの信号源の中で、どれが鉄血の主力艦隊かもわからない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "没想到会以这种形式重新领教到存在舰队的厉害。",
+			say = "噂に聞く鉄血のジャミング技術、さすがだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,24 +290,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "…………不得不说，铁血的拖延战术虽然意图明显，却依然极其有效。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，我认为任何拖延都是要有目的的。",
+			say = "戦力は依然としてこちらが圧倒的に有利だ。しかしこのままだといずれ作戦計画に影響が出てきてしまう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,64 +306,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "毫无目的的拖延不过是延后死亡的无用之功罢了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "没错。在此紧要关头，作为总旗舰的腓特烈大帝缺行踪不明，铁血的海外舰队也依然没有任何回援迹象。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "毫无疑问，腓特烈大帝是出于某些目的在有计划的拖延时间。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "而这个目的一旦达成，将对战局产生颠覆性影响……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "就是她究竟想要做什么呢……",
+			actorName = "ジョージア",
+			say = "いくら遅滞させてきたところで、こちらに損害を与えなければ進軍を止めることはできない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,8 +323,64 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "滴——————",
+			actorName = "ジョージア",
+			say = "それに、あのジャミングも時間はかかるが対処できるだろう",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "鉄血がこちらの進軍を遅らせたい理由は一体なんだ？援軍が来るまでの時間稼ぎか？それとも……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "フリードリヒが事前にキューブの情報を要請してきたのは、この「再現」に関係するからだろうか？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "特異点の話といい、時々彼女が一体何を狙っているのかわからないことがある。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "…………ちょっと頭が痛くなってきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +396,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "……指挥官，通讯器，在响。",
+			actorName = "通信",
+			say = "――――――――ー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +413,25 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "是后方司令部发来的通讯么？",
+			actorName = "エルドリッジ",
+			say = "………指揮官、通信機、鳴ってる",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_1",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "ジョージア",
+			say = "上層部からのお咎めの連絡かい？ふふ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "不对，接收到消息的是私人频道，而发信人是……",
+			say = "通信機のモニターには発信元が表示されていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_endingsong_1",
 			dir = 1,
 			blackBg = true,
-			say = "————苏维埃同盟？",
+			say = "ソビエツキー・ソユーズ………？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

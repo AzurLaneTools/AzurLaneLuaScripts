@@ -31,6 +31,7 @@ pg.enemy_data_statistics_369 = {
 		id = 15802303,
 		scale = 144,
 		appear_fx = {
+			"bossguangxiao",
 			"appearQ"
 		},
 		equipment_list = {
@@ -617,6 +618,9 @@ pg.enemy_data_statistics_369 = {
 		fog_fx = "",
 		antisub = 0,
 		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall"
+		},
 		equipment_list = {
 			1001093,
 			1001098

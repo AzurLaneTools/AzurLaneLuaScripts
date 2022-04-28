@@ -282,7 +282,7 @@ pg.enemy_data_statistics_372 = {
 	},
 	[15805001] = {
 		cannon = 750,
-		name = "构建者ω型",
+		name = "コンパイラーω型 ",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -582,7 +582,7 @@ pg.enemy_data_statistics_372 = {
 	},
 	[15805205] = {
 		cannon = 800,
-		name = "构建者ω型",
+		name = "コンパイラーω型 ",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 20011,

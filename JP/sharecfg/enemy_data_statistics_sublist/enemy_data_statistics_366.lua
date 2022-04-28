@@ -192,7 +192,7 @@ pg.enemy_data_statistics_366 = {
 	},
 	[15801121] = {
 		cannon = 6,
-		name = "构建者α型",
+		name = "コンパイラーα型",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -233,7 +233,7 @@ pg.enemy_data_statistics_366 = {
 	},
 	[15801122] = {
 		cannon = 6,
-		name = "构建者β型",
+		name = "コンパイラーβ型",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -273,7 +273,7 @@ pg.enemy_data_statistics_366 = {
 	},
 	[15801123] = {
 		cannon = 6,
-		name = "构建者γ型",
+		name = "コンパイラーγ型",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -476,7 +476,7 @@ pg.enemy_data_statistics_366 = {
 	},
 	[15801205] = {
 		cannon = 11,
-		name = "构建者α型",
+		name = "コンパイラーα型",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -511,7 +511,7 @@ pg.enemy_data_statistics_366 = {
 	},
 	[15801206] = {
 		cannon = 11,
-		name = "构建者β型",
+		name = "コンパイラーβ型",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -546,7 +546,7 @@ pg.enemy_data_statistics_366 = {
 	},
 	[15801207] = {
 		cannon = 11,
-		name = "构建者γ型",
+		name = "コンパイラーγ型",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -580,7 +580,7 @@ pg.enemy_data_statistics_366 = {
 		equipment_list = {}
 	},
 	[15801301] = {
-		cannon = 160,
+		cannon = 130,
 		reload = 150,
 		speed_growth = 0,
 		cannon_growth = 0,
@@ -599,7 +599,7 @@ pg.enemy_data_statistics_366 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		antiaircraft_growth = 0,
-		torpedo = 40,
+		torpedo = 100,
 		durability = 16500,
 		armor_growth = 0,
 		torpedo_growth = 0,
@@ -618,7 +618,7 @@ pg.enemy_data_statistics_366 = {
 	},
 	[15801302] = {
 		cannon = 75,
-		name = "构建者μ型",
+		name = "コンパイラーμ型",
 		hit_growth = 210,
 		speed_growth = 0,
 		fog_fx = "",
@@ -650,8 +650,7 @@ pg.enemy_data_statistics_366 = {
 		specific_fx_scale = {},
 		appear_fx = {
 			"bossguangxiao",
-			"appearQ",
-			"heisewuqi_stg"
+			"appearQ"
 		},
 		equipment_list = {}
 	}

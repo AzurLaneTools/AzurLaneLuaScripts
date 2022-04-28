@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斯卡帕湾锚地·内部海域",
+			say = "スカパ・フロー海域にて",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真安静啊……天上没有铁血的飞机，水面也没有铁血的舰队。",
+			say = "静かですね……鉄血の艦船もいませんし、「再現」の戦場とは大違いです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃吉尔与奥古斯特也留在这里与重樱的盟友防御斯卡帕湾，等待我们的归来。",
+			say = "エーギルとアウグストもここに残すわ。アズールレーンが来たら例の作戦を頼んだわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然腓特烈大帝是这么说的，不过之后她们就收到调动命令前往了前线。",
+			say = "と言ってましたけど、鉄血の戦力は軒並み向こうに回されているようです",
 			effects = {
 				{
 					active = false,
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们也就成了留在斯卡帕湾内的唯一驻防舰队了。",
+			say = "あの「再現」は、私たち重桜とは関係ないように思いましたが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 305020,
-			say = "呜呜呜……{namecode:79}之前的预感果然是对的，我们真的是被拉去当打手的！",
+			say = "赤城さんの話によると、アズールレーンが現れたら、機を見て加勢する、とのことでしたよね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301160,
-			say = "多么不幸的事件啊……要是幸运的{namecode:22}大人跟你们一起来就好了！",
+			say = "幸運の雪風様を最初から連れていけば、こんなことにはならなかったはずなのだ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307050,
-			say = "{namecode:96}还没有消息传回来么？",
+			say = "瑞鶴からはまだ連絡がないの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:96}正姐姐一同行动，只要外侧的斯卡帕湾没有失守，她们就很安全。",
+			say = "瑞鶴は赤城と一緒に行動している。ここにアズールレーンが攻め込まない限り無事なはずだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307050,
-			say = "说的也是……铁血临时改变了作战部署，说明前线形式已经很严峻了吧？",
+			say = "そうは言われましても、鉄血が戦力を「再現」に回したのは、それだけ不利になっているからではないでしょうか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从侦察情报来看，斯卡帕湾周边还算平静，不过在更远处已经能看到与碧蓝航线交火的铁血舰队了。",
+			say = "…………その可能性はある。ここまでまだ距離はあるが、偵察機が既に「再現」の戦闘の跡を観測できている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "根据航线判断，她们应该是向着斯卡帕湾而来的，想必这里的事已经暴露了。",
+			say = "そして、やつらは間違いなくこのスカパ・フローに向けて進軍してきている。我々がここにいるのを知ってなのかは知らないが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307050,
-			say = "仔细想想的话……不如说这件事能瞒到现在才是奇迹。皇家对于斯卡帕湾被占领这件事的反应也过于迟钝了……",
+			say = "ロイヤルの真意を確かめようとしているのかもしれませんね。ここが今どうなっているのかどうかも含めて各陣営の上層部は知りたいのではないでしょうか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307050,
-			say = "我们早就做好出发准备了，让我们去支援吧。",
+			say = "では、赤城先輩の連絡通りそちらに向かいます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307050,
-			say = "就算赶不上最初的战斗，也能在半路接应你们撤离。",
+			say = "…「再現」に巻き込まれないよう祈るしかありませんね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，就这么办吧。",
+			say = "分かった。今は赤城たちを――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "就在重樱众人通讯之时，远处原本趋于平静的漩涡又发出了巨大的轰鸣声。",
+			say = "その時、今まで何の動きもなかった特異点の「扉」から突如強烈な光が放たれた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "强光消散后，一个熟悉的红色身影出现在海面上。",
+			say = "エネルギーの奔流によって荒れた海に、真紅の着物を纏った人影が降り立った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐？！你们终于回来了！一切都进展顺利么？！",
+			say = "姉さま！？大丈夫か！？向こうの状況は――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，我刚刚经历了一场有趣的旅途哦。",
+			say = "ええ、瑞鶴も無事よ。ふふふ、面白いものを見させてもらったわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "看到了些有趣的东西，也得到了些有用的思路，不过具体就说来话长了。",
+			say = "今はそんな余裕がないし、あそこで見たことはあとで話すわ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "外面的情况怎么样？",
+			say = "ここにいるのが加賀と神通だけということは…「再現」に何か進展があったの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "碧蓝航线舰队已经察觉到了斯卡帕湾的异常，正在全力赶来，",
+			say = "ああ。アズールレーンの艦隊がこちらに向かっている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血也已经抽调了这里的全部防御力量赶去前线，整体状况大概不容乐观。",
+			say = "鉄血の戦力も遅滞させに回っているが、突破されるのも時間の問題だろう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我已经让在达喀尔港待机的舰队启程了，就算不能及时赶到也能在半路上支援我们。",
+			say = "翔鶴たちは既に出発したし、うまく行けばアズールレーンがここに辿り着く前に脱出できる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "兵力不足还采用这种部署，出现这样的局面也是必然的。",
+			say = "脱出はしないわ。加賀。この状況は作戦通りよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "你做的很好，{namecode:92}。我们之后可能确实需要更多兵力。",
+			say = "特異点の扉を守ってくれてご苦労よ。私たちも戦いに参加するわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "不过无须担心，诱惑敌方主力接近这里原本就是计划的一环就是了~",
+			say = "仲間を争いに巻き込むのではなく、これは私たち「艦船」としての戦い……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你看。",
+			say = "それにほら、加勢するのは私たちだけじゃないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "有些疑惑的{namecode:92}看向{namecode:91}所指的方向。",
+			say = "赤城の言葉の真意が分からず、加賀は指差された「扉」に再び目を向けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "熟悉的身影已经陆续通过阿瓦隆之门回到了海面上，可是光芒的闪烁却没有停止。",
+			say = "瑞鶴にフリードリヒ――次から次へと艦船が現れていく。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "一艘接着一艘，一支从未见过的舰队也一同穿过阿瓦隆之门来到了斯卡帕湾内。",
+			say = "だんだんと輝きを失っていく「扉」から、特異点の調査を終えた艦船達が元いた場所に帰還してきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐，这支舰队究竟是……？",
+			say = "あの鉄血の艦船たちは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "这就属于说来话长的部分了。",
+			say = "「META」ではなく、私たちと同じ普通の「艦船」よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不过在这个基础上，腓特烈大帝的部署看起来也没有那么不可思议了，不是么？",
+			say = "鉄血の新戦力、この「再現」の本当の狙いを実現するための、フリードリヒの新たな手札よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

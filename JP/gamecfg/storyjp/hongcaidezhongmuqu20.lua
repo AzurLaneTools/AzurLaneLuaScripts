@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "东大陆架C区域·指挥舰内",
+			say = "アズールレーン艦隊・ブリーフィングルーム",
 			side = 2,
 			bgName = "bg_endingsong_10",
 			dir = 1,
@@ -37,8 +37,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，现在开始战况汇报。",
+			actorName = "ジョージア",
+			say = "指揮官、これより状況のアップデートを説明する",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "根据苏维埃同盟的情报，舰队行动重点已经从排除铁血幻影转为了对斯卡帕湾进行包围。",
+			actorName = "ジョージア",
+			say = "ソビエツキー・ソユーズの「再現」の作戦通り、スカパ・フローに向けて艦隊は今進路を取っている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}稍早前发来的联络表示，其手下的一支舰队在向斯卡帕湾前进之时遭遇到铁血提尔比茨带领舰队的猛烈阻击。",
+			actorName = "ジョージア",
+			say = "先行しているニュージャージーからは、鉄血のジャミングと遅滞作戦が相変わらず進行中とのこと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "她本人所在的舰队也遭遇了自称奥古斯特与埃吉尔的两艘未知铁血计划舰的阻拦。",
+			actorName = "ジョージア",
+			say = "そして、鉄血の特別計画艦もついに姿を現した",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "同时根据{namecode:199}的情报，她发现了铁血前线总指挥乌尔里希·冯·胡腾的行踪。",
+			actorName = "ジョージア",
+			say = "一部はウルリッヒが率いる艦隊と共に、こちらに向けて前進してきている模様",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "其正带领着包括计划舰罗恩与美因茨在内的舰队主力向我们的方向直扑而来。",
+			actorName = "ジョージア",
+			say = "ジャミングへの対処の関係で戦力が分散しているため、足止めすることは難しいが、戦力的にこちらでも十分対応可能だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,8 +139,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}表示所有拦截企图均已失败，她已经改变作战部署，也希望我们一切小心。",
+			actorName = "ジョージア",
+			say = "なにせ指揮官のいる艦隊だからな。戦力の配置に不安は無いさ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "佐治亚，回复{namecode:199}我们了解了。",
+			say = "少なくとも本陣を強襲されて形勢逆転になるようなことはなさそうだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "同时向华盛顿和企业发报，敌方航空舰队正向着我方前进，护卫舰提高警惕，舰载机群升空待命，准备迎战。",
+			say = "敵の航空戦力も戦場に現れ始めているとのことで、予備艦隊にいるエンタープライズたちにも警戒を怠らないように指示した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,8 +184,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "遵命。",
+			actorName = "ジョージア",
+			say = "しかし、やはり特別計画艦か……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "真没想到铁血居然还有隐藏起来的计划舰……",
+			say = "強力な艦船であるため、作戦立案時には各陣営から心配の声が上がったと聞く。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "斯卡帕湾方向果然有问题，我们一改变部署，铁血的部署也变了。",
+			say = "ソユーズ独自の情報源を根拠に「特別計画艦は出てこない」として計画を押し切ったが、今思えばそれも作戦を通すための作り話だったのかもしれないな。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			},
 			options = {
 				{
-					content = "皇家的回复呢？",
+					content = "ロイヤルからの連絡は？",
 					flag = 1
 				}
 			}
@@ -235,8 +235,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "皇家LD司令部表示，其在开战不久后确实与斯卡帕湾失去了联络。",
+			actorName = "ジョージア",
+			say = "スカパ・フローの状況についてか？相変わらずはぐらかしているようだな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过之前一直在当成单纯的通讯故障进行排查。",
+			actorName = "ジョージア",
+			say = "通信障害が起きているから現状は不明だの、本作戦との関係性が低いため確保は不要だの、正直よく分からない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,8 +269,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "在上次斯卡帕湾遇袭之后那里就一直在进行重建，没有什么军事力量，也没有什么补给物资。",
+			actorName = "ジョージア",
+			say = "あの女王様からも気にするなとは言われているが、この「再現」にロイヤルは反論しなかったな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +286,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "虽然存在被铁血乘虚而入的可能性。",
+			actorName = "ジョージア",
+			say = "鉄血艦隊がそこにいる可能性は高いが…とはいえロイヤル艦隊が放棄していいような拠点ではない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,8 +303,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过那里一旦被包围就是死地，看不出战略价值所在。",
+			actorName = "ジョージア",
+			say = "何かを「隠す」としたら、今のスカパ・フローは最適と言えるだろう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "嗯……从常规来讲这个判断十分正确。",
+			say = "その可能性はもちろん考えた。鉄血への報復作戦が、なぜロイヤルの泊地を目標としているのか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "铁血没有丝毫道理抛下岌岌可危的前线，转而进攻一处基本丧失功能的锚地。",
+			say = "鉄血も鉄血で、そもそもスカパ・フローをなぜ急襲したか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,24 +346,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "不过腓特烈大帝的部署总是不走寻常路……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_10",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，关于袭来的铁血主力舰队，能否让我带领舰队前去迎战。",
+			say = "フリードリヒやエリザベスと今度会った時に一度詳しく聞いてみるしかない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,8 +362,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "乌尔里希·冯·胡滕是一位优秀的指挥者，铁血的计划舰同样不容小觑。",
+			actorName = "ジョージア",
+			say = "指揮官、ウルリッヒの艦隊のことだが、こちらに任せてもらえないか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,8 +379,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "本次我就是为了保护您的安全，为了应对现在这种局面而离开星海提前服役的。",
+			actorName = "ジョージア",
+			say = "いくら指揮官のいる艦隊の戦力が充実しているとはいえ、これ以上計画を遅らせるわけにもいかないだろう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +396,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "至此，除总旗舰腓特烈大帝之外，铁血在NA海域中的所有已知主力舰均已暴露行踪。",
+			actorName = "ジョージア",
+			say = "鉄血の計画艦がどれほどのものか、決してそのようなことを考えて手を挙げたのではないぞ？ははは",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +413,25 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "此时的斯卡帕湾必定防御空虚。指挥官请带领舰队直奔目的地，这里就交给我吧。",
+			actorName = "ジョージア",
+			say = "私が出撃したら、指揮官は残りの艦隊を率いてそのままスカパ・フローに直行してくれ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_10",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "ジョージア",
+			say = "鉄血艦隊のメンバーはあらかた把握しているし、フリードリヒは多分そこにいるだろう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,15 +442,15 @@ return {
 			},
 			options = {
 				{
-					content = "许可",
+					content = "出撃を許可する",
 					flag = 1
 				},
 				{
-					content = "注意安全",
+					content = "酸素コーラの補給を許可する",
 					flag = 2
 				},
 				{
-					content = "首次参战，可不要用力过猛哦?",
+					content = "ウルリッヒたちの真の目的は…",
 					flag = 3
 				}
 			}
@@ -462,9 +462,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			actorName = "佐治亚",
+			actorName = "ジョージア",
 			hidePaintObj = true,
-			say = "遵命。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "了解だ。戦艦ジョージア、これより出撃する！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,9 +481,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			actorName = "佐治亚",
+			actorName = "ジョージア",
 			hidePaintObj = true,
-			say = "遵命。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "了解だ。戦艦ジョージア、これより出撃する！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,13 +495,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "佐治亚",
+			actorName = "ジョージア",
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "相比指挥官您，铁血的乌尔里希·冯·胡滕恐怕更需要担心这件事~",
+			say = "確かに、「指揮官を狙う」にしても安直すぎるな…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,9 +518,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "佐治亚",
+			actorName = "ジョージア",
 			hidePaintObj = true,
-			say = "那么我去了。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "はははっ。帰ったらきっちり補給させてもらうぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

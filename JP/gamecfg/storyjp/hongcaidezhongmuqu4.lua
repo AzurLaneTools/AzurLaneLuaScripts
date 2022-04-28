@@ -278,9 +278,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			actor = 499020,
 			side = 2,
 			bgName = "bg_endingsong_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
 			say = "それに、私もあなたと同じく、この「再現」には参加しないつもりよ",
 			typewriter = {
 				speed = 0.05,

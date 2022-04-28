@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斯卡帕湾锚地·周边海域",
+			say = "スカパ・フロー　周辺海域",
 			side = 2,
 			bgName = "bg_endingsong_12",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "居然是来自俾斯麦的广播………这还真是令人震撼。",
+			say = "ビスマルクからのセイレーンへの攻撃宣言……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 307010,
-			say = "你不是说已经没有藏着的牌了么？",
+			say = "ねえフリードリヒ？これもあなたの手札の一枚なのかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "俾斯麦阁下可是操牌手，负责发牌之人哦。",
+			say = "違うわ。これはビスマルクの意思…あの子はカードではなく、プレイヤーよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "那她还真是做出了不得了的宣言，没想到你们会做出这种选择。",
+			say = "しかしこれですっきりしましたわね。セイレーンとの関係を断ち切ることが何を意味するか、あなたは分かっていて？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "如你所见，如你所听。",
+			say = "もちろん分かっているわ。これが鉄血の選んだ道よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这只是铁血的决定，我不会要求你们做出保持一致的。",
+			say = "別に重桜に無理強いはしない――あなたたちはあなたたちで選択するのよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "欸~刚舰船化没多久，居然遇到了这么多戏剧性展开！",
+			say = "「ふふふ、これは楽しいものを見せてもらったわ」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 402070,
-			say = "活着真是太好了。",
+			say = "エムデン、生きていてよかったですわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没错，只有活下去才能见证历史的发展。",
+			say = "生きていてこそ、歴史の変わり目を見届けられる…か",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "……我才刚理解之前的局势，现在的发展又看不懂了。",
+			say = "よくわからないけどーさっきまでアズールレーンと戦おうとしていたんじゃなかった？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "所以我们接下来不用和碧蓝航线来一场了对么？",
+			say = "やっぱりそれ、なし？敵はセイレーンだけでいいの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你想先打一打？",
+			say = "アズールレーンと戦いたいのかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "那倒也不用……我们跟她们无冤无仇，打一场也挺累的。",
+			say = "別に、仇とかないし、戦わなくてもいいけど？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果说与其他阵营之间是立场之争的话，与塞壬之间就是生存之战了。",
+			say = "レッドアクシズとアズールレーンはあくまで理念の争い、セイレーンとの争いとは全く違うものです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404030,
-			say = "此为最优先。",
+			say = "人類の敵はあくまでセイレーンですから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "没错，我现在对于塞壬依然有着满满仇恨哦！",
+			say = "ふふふ。そうね、あの記録の中のフネの無念を晴らしてあげようかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "刚才的那些量产型实在不够看，现在这些要更耐打吧？",
+			say = "ここに現れるセイレーンは、きっと鏡面海域のやつらより戦い甲斐があるでしょ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "越是强大的敌人，越有攻略的价值哦，呵呵呵~",
+			say = "ねえ？リュッツォウも強い敵と戦ったほうが楽しいわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "约克突然气场变得好像邪恶的反派……好可怕……",
+			say = "エルビングたち、きっとセイレーンに勝てなくて、仲間の足を引っ張っちゃって……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这种发言不是很符合我现在的气质么，哼哼~",
+			say = "そういうことよフリードリヒ、私たちも戦うわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "那么，我想已经不需要特意询问了。",
+			say = "こっちも、意志の確認をしなくて済んだわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 402070,
-			say = "那是当然，直接进行下一步计划吧。",
+			say = "では、エムデンたちに沈めるべき敵を示していただけないでしょうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们要去哪里打？",
+			say = "「誰を倒すか、エムデンたちに教えなさいな」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "构建者。既然出战，自然选择价值最高的目标。",
+			say = "「コンパイラー」という上位個体よ。そいつがこの異常気象を作り出しているわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "直接瞄准对面的舰队总指挥的斩首战术呢~不错！",
+			say = "いきなり敵の大将を狙うのか…いいね！気に入ったー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "就是对面的舰队指挥官已经开始行动了，我们也得加速，拖拖拉拉可就抢不到了！",
+			say = "あ。多分アズールレーン艦隊だってそいつを狙うだろうし、急がないと大将首取られちゃうよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "哦对，临行之前还有一件事。",
+			say = "ええ、今すぐ攻撃を開始するわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "奥古斯特，还有埃吉尔，能听到么？",
+			say = "アウグスト、エーギル、次のステップよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "玩够了就回来，要进行计划的下一步了。",
+			say = "この場にいるセイレーンを潰すことより、もっとしてほしいことがあるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499050,
-			say = "我们原本想在你回来之前赶回来呢，不知不觉已经这个时候了啊~",
+			say = "了解よ。あなたがこうも早く戻ってくるとは思ってなかったけどね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499060,
-			say = "遵命，我们这就返回「阿瓦隆之门」进行准备。",
+			say = "特異点の「扉」…この魔女に任せてちょうだい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "姐姐，我们怎么办？",
+			say = "姉さま、私たちはどうすればいい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "全员跟随在铁血舰队后方，但是在遭到攻击之前，重樱舰队不主动对任何一方发动进攻。",
+			say = "鉄血艦隊と一緒に行動するわよ。ただし攻撃されるまで交戦はしないで",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 307010,
-			say = "尤其是你，{namecode:96}，听到了么？",
+			say = "特に瑞鶴、大人しくしていなさい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ff5c5c",
-			say = "是……遵命。",
+			say = "は、はい……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
