@@ -1779,7 +1779,7 @@ pg.ship_skin_template_14 = {
 	},
 	[408024] = {
 		ship_group = 40802,
-		name = "languid red moon",
+		name = "languid red moon",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -1907,7 +1907,7 @@ pg.ship_skin_template_14 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "鉄血VIIC型潜水艦U-557 ",
+		desc = "鉄血VIIC型潜水艦U-557",
 		voice_actor = 160,
 		spine_offset = "",
 		gyro = 0,
