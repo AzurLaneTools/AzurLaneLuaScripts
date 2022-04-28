@@ -201,7 +201,8 @@ function slot0.onRegister(slot0)
 						mediator = NewSkinMediator,
 						viewComponent = NewSkinLayer,
 						data = {
-							skinId = uv1.id
+							skinId = uv1.id,
+							LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
 						},
 						onRemoved = slot0
 					}))

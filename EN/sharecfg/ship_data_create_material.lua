@@ -94,7 +94,7 @@ pg.ship_data_create_material = {
 			"",
 			"<color=#d797ff>Elbing</color>：2.5%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#d797ff>York</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Yorck</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

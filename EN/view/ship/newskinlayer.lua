@@ -41,7 +41,8 @@ function slot0.init(slot0)
 	slot0.selectPanel = slot0:findTF("select_ship_panel")
 	slot0.selectPanelCloseBtn = slot0:findTF("window/top/btnBack", slot0.selectPanel)
 	slot0.shipContent = slot0:findTF("window/sliders/scroll_rect/content", slot0.selectPanel)
-	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
+	slot1 = slot0._tf
+	slot0.shipCardTpl = slot1:GetComponent("ItemList").prefabItem[0]
 	slot0.confirmChangeBtn = slot0:findTF("window/exchange_btn", slot0.selectPanel)
 	slot0.flagShipToggle = slot0:findTF("window/flag_ship", slot0.selectPanel)
 
@@ -50,7 +51,12 @@ function slot0.init(slot0)
 	slot0.isTimeLimit = slot0.contextData.timeLimit
 
 	setActive(slot0.timelimit, slot0.isTimeLimit)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+
+	slot0.weightData = {
+		weight = slot0:getWeightFromData()
+	}
+
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, slot0.weightData)
 
 	slot0.isLoadBg = false
 end
@@ -178,7 +184,9 @@ function slot0.didEnter(slot0)
 		setActive(uv0.clickTF, false)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin)
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin, nil, {
+			weight = LayerWeightConst.TOP_LAYER
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if uv0.isInView or not uv0.isLoadBg then
@@ -352,7 +360,13 @@ function slot0.openSelectPanel(slot0)
 	slot0.selectIds = {}
 
 	setActive(slot0.selectPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.selectPanel)
+
+	slot5 = {
+		weight = slot6
+	}
+	slot6 = slot0:getWeightFromData() + 1
+
+	pg.UIMgr.GetInstance():BlurPanel(slot0.selectPanel, false, slot5)
 
 	slot0.shipCards = {}
 	slot1 = {}
