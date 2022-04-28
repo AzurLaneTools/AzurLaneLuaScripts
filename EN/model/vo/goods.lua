@@ -28,7 +28,7 @@ slot0.Tec_Ship_Gift_Arg = {
 	Show = 0,
 	Normal = 2
 }
-slot0.CUR_PACKET_ID = 135
+slot0.CUR_PACKET_ID = 136
 
 function slot0.Ctor(slot0)
 end

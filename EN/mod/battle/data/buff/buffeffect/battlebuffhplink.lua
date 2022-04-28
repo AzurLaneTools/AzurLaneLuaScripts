@@ -30,7 +30,7 @@ function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
 	if slot2:GetCaster() and slot5:IsAlive() and slot5 ~= slot1 then
 		slot3.damage = math.ceil(slot4 * slot0._number)
 
-		if (slot4 - slot3.damage) * (1 - slot0._absorbRate) > 0 then
+		if math.ceil((slot4 - slot3.damage) * (1 - slot0._absorbRate)) > 0 then
 			slot0._sumDMG = slot0._sumDMG + slot4
 
 			slot5:UpdateHP(-slot4, {

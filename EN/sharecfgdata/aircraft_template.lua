@@ -150356,6 +150356,3912 @@ _G.pg.aircraft_template[882004] = {
 	}
 }
 
+_G.pg.aircraft_template[891301] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动A3】塞壬执棋者II型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 891301,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		891305
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891302] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动A3】塞壬执棋者II型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 891302,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		891306
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891303] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动A3】塞壬执棋者II型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 891303,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		891307
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891304] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动A3】塞壬执棋者II型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 891304,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		891308
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891503] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891503,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70078
+	},
+	weapon_ID = {
+		891507,
+		891508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891504] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891504,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70079
+	},
+	weapon_ID = {
+		891507,
+		891508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891505] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891505,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70080
+	},
+	weapon_ID = {
+		891507,
+		891508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891506] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891506,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70081
+	},
+	weapon_ID = {
+		891507,
+		891508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891514] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891514,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70082
+	},
+	weapon_ID = {
+		891518
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891515] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891515,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70083
+	},
+	weapon_ID = {
+		891518
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891516] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891516,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70084
+	},
+	weapon_ID = {
+		891519
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891517] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891517,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70085
+	},
+	weapon_ID = {
+		891519
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891603] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型普通人形 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891603,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70078
+	},
+	weapon_ID = {
+		891605,
+		891606
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891604] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型普通人形 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891604,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70081
+	},
+	weapon_ID = {
+		891605,
+		891606
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891610] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891610,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70078
+	},
+	weapon_ID = {
+		891614,
+		891615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891611] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891611,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70079
+	},
+	weapon_ID = {
+		891614,
+		891615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891612] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891612,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70080
+	},
+	weapon_ID = {
+		891614,
+		891615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891613] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891613,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70081
+	},
+	weapon_ID = {
+		891614,
+		891615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891617] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891617,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70082
+	},
+	weapon_ID = {
+		891621
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891618] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891618,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70083
+	},
+	weapon_ID = {
+		891621
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891619] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891619,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70084
+	},
+	weapon_ID = {
+		891622
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[891620] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动B3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 891620,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70085
+	},
+	weapon_ID = {
+		891622
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892301] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动C3】塞壬执棋者II型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892301,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		892305
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892302] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动C3】塞壬执棋者II型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892302,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		892306
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892303] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动C3】塞壬执棋者II型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 892303,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		892307
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892304] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动C3】塞壬执棋者II型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 892304,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		892308
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892503] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892503,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70078
+	},
+	weapon_ID = {
+		892507,
+		892508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892504] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892504,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70079
+	},
+	weapon_ID = {
+		892507,
+		892508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892505] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892505,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70080
+	},
+	weapon_ID = {
+		892507,
+		892508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892506] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892506,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70081
+	},
+	weapon_ID = {
+		892507,
+		892508
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892514] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892514,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70082
+	},
+	weapon_ID = {
+		892518
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892515] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892515,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70083
+	},
+	weapon_ID = {
+		892518
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892516] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892516,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70084
+	},
+	weapon_ID = {
+		892519
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892517] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D2】BOSS 塞壬构建者μ型 第三波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892517,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70085
+	},
+	weapon_ID = {
+		892519
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892603] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型普通人形 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892603,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70078
+	},
+	weapon_ID = {
+		892605,
+		892606
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892604] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型普通人形 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 892604,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70081
+	},
+	weapon_ID = {
+		892605,
+		892606
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892610] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 892610,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70078
+	},
+	weapon_ID = {
+		892614,
+		892615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892611] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 892611,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70079
+	},
+	weapon_ID = {
+		892614,
+		892615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892612] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 892612,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70080
+	},
+	weapon_ID = {
+		892614,
+		892615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892613] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第一波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 892613,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70081
+	},
+	weapon_ID = {
+		892614,
+		892615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892617] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 340,
+	dodge = 1,
+	nationality = 3,
+	id = 892617,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70082
+	},
+	weapon_ID = {
+		892621
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892618] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 340,
+	dodge = 1,
+	nationality = 3,
+	id = 892618,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70083
+	},
+	weapon_ID = {
+		892621
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892619] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 340,
+	dodge = 1,
+	nationality = 3,
+	id = 892619,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70084
+	},
+	weapon_ID = {
+		892622
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892620] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动D3】塞壬构建者α型精英人形 第二波浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 340,
+	dodge = 1,
+	nationality = 3,
+	id = 892620,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70085
+	},
+	weapon_ID = {
+		892622
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892901] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动】剧情战 日系支援飞机 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "lingzhan21gai",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892901,
+	icon = "lingzhan21gai",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892904,
+		892905
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892902] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动】剧情战 日系支援飞机 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "97jiangong",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892902,
+	icon = "97jiangong",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892906
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892903] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动】剧情战 日系支援飞机 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "99shijianbao1",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892903,
+	icon = "99shijianbao1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892907
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892908] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动】剧情战 美系支援飞机 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "F4F",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892908,
+	icon = "F4F",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892904,
+		892905
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892909] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动】剧情战 美系支援飞机 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "tbd",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892909,
+	icon = "tbd",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892906
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[892910] = {
+	attack_power = 2,
+	name = "【2022公海舰队活动】剧情战 美系支援飞机 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sbdwuwei",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 892910,
+	icon = "sbdwuwei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892907
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.aircraft_template[950157] = {
 	attack_power = 2,
 	name = "挑战关卡8战斗机T1",
@@ -168230,7 +172136,7 @@ _G.pg.aircraft_template[1100810] = {
 	name = "德系舰载战斗机I",
 	type = 1,
 	accuracy = 23,
-	model_ID = "lingzhan21gai",
+	model_ID = "Me155A",
 	ACC_growth = 0,
 	crash_DMG = 36,
 	dodge = 1,
@@ -168307,7 +172213,7 @@ _G.pg.aircraft_template[1100811] = {
 	name = "德系舰载战斗机II",
 	type = 1,
 	accuracy = 23,
-	model_ID = "lingzhan21gai",
+	model_ID = "Me155A",
 	ACC_growth = 0,
 	crash_DMG = 48,
 	dodge = 1,
@@ -168384,7 +172290,7 @@ _G.pg.aircraft_template[1100812] = {
 	name = "德系舰载战斗机III",
 	type = 1,
 	accuracy = 23,
-	model_ID = "lingzhan21gai",
+	model_ID = "Me155A",
 	ACC_growth = 0,
 	crash_DMG = 62,
 	dodge = 1,
@@ -168461,7 +172367,7 @@ _G.pg.aircraft_template[1100813] = {
 	name = "德系舰载战斗机IV",
 	type = 1,
 	accuracy = 23,
-	model_ID = "lingzhan21gai",
+	model_ID = "Me155A",
 	ACC_growth = 0,
 	crash_DMG = 78,
 	dodge = 1,
@@ -168538,7 +172444,7 @@ _G.pg.aircraft_template[1100814] = {
 	name = "德系舰载战斗机V",
 	type = 1,
 	accuracy = 23,
-	model_ID = "lingzhan21gai",
+	model_ID = "Me155A",
 	ACC_growth = 0,
 	crash_DMG = 98,
 	dodge = 1,
@@ -168615,7 +172521,7 @@ _G.pg.aircraft_template[1100815] = {
 	name = "德系舰载鱼雷机I",
 	type = 2,
 	accuracy = 23,
-	model_ID = "97jiangong",
+	model_ID = "qibolin",
 	ACC_growth = 0,
 	crash_DMG = 52,
 	dodge = 1,
@@ -168691,7 +172597,7 @@ _G.pg.aircraft_template[1100816] = {
 	name = "德系舰载鱼雷机II",
 	type = 2,
 	accuracy = 23,
-	model_ID = "97jiangong",
+	model_ID = "qibolin",
 	ACC_growth = 0,
 	crash_DMG = 70,
 	dodge = 1,
@@ -168767,7 +172673,7 @@ _G.pg.aircraft_template[1100817] = {
 	name = "德系舰载鱼雷机III",
 	type = 2,
 	accuracy = 23,
-	model_ID = "97jiangong",
+	model_ID = "qibolin",
 	ACC_growth = 0,
 	crash_DMG = 90,
 	dodge = 1,
@@ -168843,7 +172749,7 @@ _G.pg.aircraft_template[1100818] = {
 	name = "德系舰载鱼雷机IV",
 	type = 2,
 	accuracy = 23,
-	model_ID = "97jiangong",
+	model_ID = "qibolin",
 	ACC_growth = 0,
 	crash_DMG = 112,
 	dodge = 1,
@@ -168919,7 +172825,7 @@ _G.pg.aircraft_template[1100819] = {
 	name = "德系舰载鱼雷机V",
 	type = 2,
 	accuracy = 23,
-	model_ID = "97jiangong",
+	model_ID = "qibolin",
 	ACC_growth = 0,
 	crash_DMG = 136,
 	dodge = 1,
@@ -168995,7 +172901,7 @@ _G.pg.aircraft_template[1100820] = {
 	name = "德系舰载轰炸机I",
 	type = 3,
 	accuracy = 23,
-	model_ID = "99shijianbao1",
+	model_ID = "JU87C",
 	ACC_growth = 0,
 	crash_DMG = 65,
 	dodge = 1,
@@ -169071,7 +172977,7 @@ _G.pg.aircraft_template[1100821] = {
 	name = "德系舰载轰炸机II",
 	type = 3,
 	accuracy = 23,
-	model_ID = "99shijianbao1",
+	model_ID = "JU87C",
 	ACC_growth = 0,
 	crash_DMG = 85,
 	dodge = 1,
@@ -169147,7 +173053,7 @@ _G.pg.aircraft_template[1100822] = {
 	name = "德系舰载轰炸机III",
 	type = 3,
 	accuracy = 23,
-	model_ID = "99shijianbao1",
+	model_ID = "JU87C",
 	ACC_growth = 0,
 	crash_DMG = 110,
 	dodge = 1,
@@ -169223,7 +173129,7 @@ _G.pg.aircraft_template[1100823] = {
 	name = "德系舰载轰炸机IV",
 	type = 3,
 	accuracy = 23,
-	model_ID = "99shijianbao1",
+	model_ID = "JU87C",
 	ACC_growth = 0,
 	crash_DMG = 140,
 	dodge = 1,
@@ -169299,7 +173205,7 @@ _G.pg.aircraft_template[1100824] = {
 	name = "德系舰载轰炸机V",
 	type = 3,
 	accuracy = 23,
-	model_ID = "99shijianbao1",
+	model_ID = "JU87C",
 	ACC_growth = 0,
 	crash_DMG = 175,
 	dodge = 1,

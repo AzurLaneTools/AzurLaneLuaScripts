@@ -1,465 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
-	[201020] = {
-		ship_group = 20102,
-		name = "Acasta",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201020,
-		group_index = 0,
-		prefab = "akasita",
-		painting = "akasita",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 38,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "A-class destroyer – Acasta, Hull Number H09.",
-		voice_actor = 110,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.83,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.83,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.08,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.83,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.58,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201021] = {
-		ship_group = 20102,
-		name = "Fashionable Outing",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201021,
-		group_index = 1,
-		prefab = "Akasita_2",
-		painting = "Akasita_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70066,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 38,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together?",
-		voice_actor = 110,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.83,
-					1.229,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.8,
-					1.18,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.78,
-					1.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.58,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201022] = {
-		ship_group = 20102,
-		name = "Lights of the Lantern Festival",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 201022,
-		group_index = 2,
-		prefab = "akasita_3",
-		painting = "akasita_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70315,
-		shop_type_id = 9999,
-		air_bomb_skin = "",
-		illustrator = 38,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "I heard you're supposed to hang lanterns up everywhere during the Spring Festival... so Ardent and I gave it a try! What do you think? Pretty cute, right? Um... I was talking about the lanterns...",
-		voice_actor = 110,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.108,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.117,
-					0.921,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.027,
-					-0.005,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.087,
-					1.027,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.591,
-							2.235,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201023] = {
-		ship_group = 20102,
-		name = "Monochromatic Marvel",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "145",
-		id = 201023,
-		group_index = 3,
-		prefab = "akasita_4",
-		painting = "akasita_4",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70549,
-		shop_type_id = 16,
-		air_bomb_skin = "",
-		illustrator = 38,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Come on, stop running around and behave already... Ah, Commander? Umm, I'm currently looking after these rabbits... Hm, you're thirsty? Um, give me a moment and I'll whip something up for you...",
-		voice_actor = 110,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.108,
-					1.17,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.117,
-					1.12,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.087,
-					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[201029] = {
 		ship_group = 20102,
 		name = "Acasta (Retrofit)",
@@ -9120,6 +8660,122 @@ pg.ship_skin_template_5 = {
 		},
 		smoke = {}
 	},
+	[202084] = {
+		ship_group = 20208,
+		name = "Bulletborne",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "156",
+		id = 202084,
+		group_index = 4,
+		prefab = "xiefeierde_5",
+		painting = "xiefeierde_5",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70689,
+		shop_type_id = 18,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Allow me to warn you ahead of time, Master. I will not come to your rescue if you spring another trap, so please mind your step henceforth... Just kidding. It is a maid's duty to aid her master, after all.",
+		voice_actor = 88,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.095,
+					1.123,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.882,
+					1.022,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.058,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.021,
+					1.293,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.548,
+							2.238,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202100] = {
 		ship_group = 20210,
 		name = "Gloucester",
@@ -9227,6 +8883,481 @@ pg.ship_skin_template_5 = {
 						{
 							-0.71,
 							1.92,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202101] = {
+		ship_group = 20210,
+		name = "Brilliance in Purple",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "127",
+		id = 202101,
+		group_index = 1,
+		prefab = "geluosite_2",
+		painting = "geluosite_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70311,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Gloucester, light cruiser of the Royal Maids, at your service for the Spring Festival... You say I look displeased? I beg your pardon, it's just... Such holidays are in fact quite busy for the Maids. We have much on our minds. It is none of your concern.",
+		voice_actor = 108,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.182,
+					0.685,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.224,
+					0.635,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.018,
+					0.033,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.187,
+					0.665,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.571,
+							2.1,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202110] = {
+		ship_group = 20211,
+		name = "Edinburgh",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202110,
+		group_index = 0,
+		prefab = "aidingbao",
+		painting = "aidingbao",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Edinburgh-Class light cruiser ー Edinburgh, Hull number 16!",
+		voice_actor = 75,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.401,
+					1.006,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.817,
+					0.552,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.325,
+					0.196,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.817,
+					0.552,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.521,
+							0.29,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.431,
+							0.392,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202111] = {
+		ship_group = 20211,
+		name = "The Library Fairy",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 202111,
+		group_index = 1,
+		prefab = "aidingbao_2",
+		painting = "aidingbao_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70051,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Why doesn't she have to go to school with me...she says she’s a maid for the Queen? Well, me too! You can be a maid and school girl at the same time...tsk tsk---",
+		voice_actor = 75,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.91,
+					1.23,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.817,
+					1.32,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.87,
+					1.2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202112] = {
+		ship_group = 20211,
+		name = "Candy Maid",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "119",
+		id = 202112,
+		group_index = 2,
+		prefab = "aidingbao_3",
+		painting = "aidingbao_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70254,
+		shop_type_id = 8,
+		air_bomb_skin = "",
+		illustrator = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?!",
+		voice_actor = 75,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.279,
+					0.463,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.319,
+					0.484,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.454,
+					0.433,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.24,
 							0
 						}
 					}

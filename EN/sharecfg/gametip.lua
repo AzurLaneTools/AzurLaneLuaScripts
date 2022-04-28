@@ -18277,34 +18277,49 @@ cs.gametip = {
 		87,
 		true
 	},
-	pre_combat_team = {
+	battle_result_share_battle = {
 		630911,
+		86,
+		true
+	},
+	pre_combat_team = {
+		630997,
 		82,
 		true
 	},
 	pre_combat_vanguard = {
-		630993,
+		631079,
 		88,
 		true
 	},
 	pre_combat_main = {
-		631081,
+		631167,
 		80,
 		true
 	},
 	pre_combat_submarine = {
-		631161,
+		631247,
 		84,
 		true
 	},
 	destroy_confirm_access = {
-		631245,
+		631331,
 		84,
 		true
 	},
 	destroy_confirm_cancel = {
-		631329,
+		631415,
 		83,
+		true
+	},
+	pt_count_tip = {
+		631498,
+		72,
+		true
+	},
+	littleEugen_npc = {
+		631570,
+		1353,
 		true
 	}
 }

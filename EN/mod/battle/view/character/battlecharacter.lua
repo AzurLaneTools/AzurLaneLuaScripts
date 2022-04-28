@@ -1173,7 +1173,7 @@ function slot5.Voice(slot0, slot1, slot2)
 		return
 	end
 
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1, function (slot0)
+	pg.CriMgr.GetInstance():PlayMultipleSound_V3(slot1, function (slot0)
 		if slot0 then
 			uv0._voiceKey = uv1
 			uv0._voicePlaybackInfo = slot0

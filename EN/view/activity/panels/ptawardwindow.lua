@@ -102,6 +102,9 @@ function slot0.Show(slot0, slot1)
 	elseif slot7 == 4 then
 		slot0.cntTitle = i18n("cumulative_victory_now_tip")
 		slot0.resTitle = i18n("cumulative_victory_target_tip")
+	elseif slot7 == 5 then
+		slot0.cntTitle = i18n("npcfriendly_total_count")
+		slot0.resTitle = i18n("npcfriendly_count")
 	else
 		slot0.cntTitle = i18n("pt_total_count", slot8)
 		slot0.resTitle = i18n("target_get_tip")
@@ -119,7 +122,7 @@ function slot0.Show(slot0, slot1)
 end
 
 function slot0.updateResIcon(slot0, slot1, slot2, slot3)
-	if slot3 == 2 or slot3 ~= 3 and slot3 ~= 4 then
+	if slot3 == 2 or slot3 ~= 3 and slot3 ~= 4 and slot3 ~= 5 then
 		if slot1 then
 			slot0.resIcon = pg.item_data_statistics[id2ItemId(slot1)].icon
 		elseif slot2 then

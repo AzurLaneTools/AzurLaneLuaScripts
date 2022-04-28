@@ -3127,6 +3127,47 @@ pg.backyard_theme_template = {
 			87131
 		}
 	},
+	[88] = {
+		Cfg_1 = 5,
+		name = "The Count's Castle",
+		hot = 1,
+		is_view = 1,
+		id = 88,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "\"Won't you stay for dinner? Don't be afraid – I won't bite.\"",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "xxgthemeicon",
+		deblocking = 1,
+		order = 89,
+		ids = {
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88118,
+			88119,
+			88120,
+			88123,
+			88301,
+			88303,
+			88304,
+			88305
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3196,6 +3237,7 @@ pg.backyard_theme_template = {
 		84,
 		85,
 		86,
-		87
+		87,
+		88
 	}
 }

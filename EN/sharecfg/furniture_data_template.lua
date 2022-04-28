@@ -4827,6 +4827,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[225] = {
+		effect = "",
+		name = "Medal of Iron Will",
+		gain_by = "Rondo at Rainbow's End",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 1,
+		picture = "chuanmo/gonghaixunzhang",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A campaign medal representing the Iron Blood's will. Awarded to Commanders who displayed excellence in the \"Rondo at Rainbow's End\" event.",
+		tag = 6,
+		icon = "gonghaixunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 225,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -6462,6 +6499,83 @@ pg.furniture_data_template = {
 			{
 				"tiaojiCharControl"
 			}
+		},
+		interAction_group = {}
+	},
+	[100027] = {
+		effect = "",
+		name = "Manjuu Bubble Blower",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The economy analogies practically write themselves.",
+		themeId = 0,
+		icon = "paopaojiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100027,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paopaojiB",
+				"normal"
+			},
+			{
+				"paopaojiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"stand2"
+					},
+					"tuozhuai2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -89742,6 +89856,1028 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[88001] = {
+		icon = "dibanxxgicon",
+		name = "Count's Castle Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 88,
+		picture = "xxg/dibanxxg",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "I wonder what the occupants' favorite color is...",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 88001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88002] = {
+		icon = "qiangbixxgicon",
+		name = "Count's Castle Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 88,
+		picture = "xxg/qiangbixxg",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Can't be red, that'd be too obvious.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 88002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88101] = {
+		effect = "",
+		name = "Castle Treasure Chest",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/baoxiangxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Good news: it's not a mimic. Bad news: the booty is fake.",
+		tag = 1,
+		icon = "baoxiangxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88101,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88102] = {
+		effect = "",
+		name = "Count's Castle Dining Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/changzhuoxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Tonight's dinner is – you guessed it – blood sausage.",
+		tag = 1,
+		icon = "changzhuoxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88102,
+		can_rotate = 0,
+		size = {
+			10,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88103] = {
+		effect = "",
+		name = "Count's Castle Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/ditanxxg",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "It used to be white.",
+		tag = 1,
+		icon = "ditanxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88103,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88105] = {
+		effect = "",
+		name = "Count's Castle Piano",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/gangqinxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"It plays itself? How eerie! ...What do you mean that's how a player piano works?\"",
+		tag = 1,
+		icon = "gangqinxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88105,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88106] = {
+		effect = "",
+		name = "Count's Castle Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/gaotailoutixxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Rise from your... ground floor?",
+		tag = 1,
+		icon = "gaotailoutixxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88106,
+		can_rotate = 0,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88107] = {
+		effect = "",
+		name = "Count's Castle Coffin",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xxg/guancaichuangxxg",
+		is_get_time_note = 0,
+		themeId = 88,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Human or vampire, it's a resting place all the same.",
+		tag = 1,
+		icon = "guancaichuangxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88107,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-30,
+					-47
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/guancaichuangxxg_using",
+				0,
+				{
+					{
+						27.6,
+						37.2
+					},
+					{
+						320.3,
+						360.6
+					},
+					"xxg/guancaichuangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88108] = {
+		effect = "",
+		name = "Count's Castle Pillar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/huobazhuzixxg",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Spray it with water to get a coin.",
+		tag = 1,
+		icon = "huobazhuzixxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88108,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88110] = {
+		effect = "",
+		name = "Devilmanjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/jiujiuemoxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "He gave up all he had to fight in the name of justice. Cue the theme song!",
+		tag = 1,
+		icon = "jiujiuemoxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88110,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88111] = {
+		effect = "",
+		name = "Gargoyle Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/jiujiushixiangguixxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "He's losing to a bird.",
+		tag = 1,
+		icon = "jiujiushixiangguixxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88112] = {
+		effect = "",
+		name = "Wine Barrel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/jiutongxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Stop whining and start wining.",
+		tag = 1,
+		icon = "jiutongxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88113] = {
+		effect = "",
+		name = "Armored Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/kaijiaxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"That manjuu's got armor! I want armor!\"",
+		tag = 1,
+		icon = "kaijiaxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88114] = {
+		effect = "",
+		name = "Count's Castle Candelabra",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/lazhujiaxxg",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Candelabra? Sure can do, brah.",
+		tag = 1,
+		icon = "lazhujiaxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88116] = {
+		effect = "",
+		name = "Count's Castle Magic Circle",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xxg/liumangxingfazhenxxg",
+		is_get_time_note = 0,
+		themeId = 88,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This is how you REALLY special summon a monster!",
+		tag = 1,
+		icon = "liumangxingfazhenxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88116,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					7,
+					-60
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88117] = {
+		effect = "",
+		name = "Count's Castle Throne",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xxg/wangzuoxxg",
+		is_get_time_note = 0,
+		themeId = 88,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The former seat of he who rejected his humanity.",
+		tag = 1,
+		icon = "wangzuoxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88117,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1.3,
+					-44.7
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/wangzuoxxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88118] = {
+		effect = "",
+		name = "Count's Castle Trapdoor",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/xianjingxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Ah, death pits. A platformer staple.",
+		tag = 1,
+		icon = "xianjingxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88118,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88119] = {
+		effect = "",
+		name = "Count's Castle Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xxg/yugangxxg",
+		is_get_time_note = 0,
+		themeId = 88,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Roses are red, horseshoe crab blood is blue. Have a dip in this, and you'll feel just like new.",
+		tag = 1,
+		icon = "yugangxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88119,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-48.4,
+					-96.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/yugangxxg_using",
+				0,
+				{
+					{
+						16.1,
+						8.4
+					},
+					{
+						300,
+						390
+					},
+					"xxg/yugangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88120] = {
+		effect = "",
+		name = "Count's Castle Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xxg/zuoyi1xxg",
+		is_get_time_note = 0,
+		themeId = 88,
+		count = 3,
+		is_3d_obj = 0,
+		describe = "\"Face me!\"",
+		tag = 1,
+		icon = "zuoyi1xxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					15.2,
+					-27.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/zuoyi1xxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88123] = {
+		effect = "",
+		name = "Count's Castle Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/zuoyi2xxg",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "\"What do you think you're doing, turning your back to me?\"",
+		tag = 1,
+		icon = "zuoyi2xxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88126] = {
+		effect = "",
+		name = "Sword in the Stone",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 88,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Try as you might, only King George can pull it out.",
+		tag = 7,
+		icon = "shizhongjianxianjingicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 88126,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongjianxianjing",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[88301] = {
+		effect = "",
+		name = "Batjuu",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/bianfujiuxxg",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "What's it doing? Just hanging out.",
+		tag = 5,
+		icon = "bianfujiuxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 88301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88303] = {
+		effect = "",
+		name = "Count's Castle Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/chuangxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's getting dark outside... Seems you'll have to stay the night.",
+		tag = 5,
+		icon = "chuangxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 88303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88304] = {
+		effect = "",
+		name = "Count's Castle Paintings",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/guahuaxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A collection of unsettling paintings. You feel like they might come to life if you stare for too long.",
+		tag = 5,
+		icon = "guahuaxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 88304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88305] = {
+		effect = "",
+		name = "A Real Crow",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 88,
+		is_get_time_note = 0,
+		picture = "xxg/wuyaxxg",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Not a manjuu in a costume. It's watching your every move.",
+		tag = 5,
+		icon = "wuyaxxgicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 88305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -89844,6 +90980,7 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			225,
 			100002,
 			100003,
 			100004,
@@ -89866,6 +91003,7 @@ pg.furniture_data_template = {
 			100023,
 			100025,
 			100026,
+			100027,
 			200001,
 			200002,
 			200003,
@@ -89987,6 +91125,7 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			225,
 			100002,
 			100003,
 			100004,
@@ -90009,6 +91148,7 @@ pg.furniture_data_template = {
 			100023,
 			100025,
 			100026,
+			100027,
 			200001,
 			200002,
 			200003,
@@ -93944,6 +95084,58 @@ pg.furniture_data_template = {
 			87127,
 			87130,
 			87131
+		},
+		[88] = {
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305,
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_tag = {
@@ -95230,7 +96422,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123
 		},
 		{
 			1108,
@@ -95468,6 +96678,7 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			225,
 			100002,
 			100003,
 			100004,
@@ -95490,6 +96701,7 @@ pg.furniture_data_template = {
 			100023,
 			100025,
 			100026,
+			100027,
 			31101,
 			54104,
 			54105
@@ -95609,7 +96821,8 @@ pg.furniture_data_template = {
 			84185,
 			84186,
 			85126,
-			86122
+			86122,
+			88126
 		},
 		[4] = {
 			1001,
@@ -95678,7 +96891,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[3] = {
 			1002,
@@ -95748,7 +96962,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[5] = {
 			1301,
@@ -95991,7 +97206,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_type = {
@@ -96063,7 +97282,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[7] = {
 			1,
@@ -96150,6 +97370,7 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			225,
 			100002,
 			100004,
 			100005,
@@ -96165,7 +97386,8 @@ pg.furniture_data_template = {
 			100018,
 			100023,
 			100025,
-			100026
+			100026,
+			100027
 		},
 		[2] = {
 			120,
@@ -97439,7 +98661,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126
 		},
 		[11] = {
 			131,
@@ -97550,7 +98790,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[5] = {
 			1101,
@@ -97659,7 +98900,8 @@ pg.furniture_data_template = {
 			85102,
 			86106,
 			86119,
-			87116
+			87116,
+			88103
 		},
 		[3] = {
 			1108,
@@ -98036,7 +99278,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		},
 		[8] = {
 			17121
@@ -98159,6 +99405,7 @@ pg.furniture_data_template = {
 		218,
 		221,
 		222,
+		225,
 		100002,
 		100003,
 		100004,
@@ -98181,6 +99428,7 @@ pg.furniture_data_template = {
 		100023,
 		100025,
 		100026,
+		100027,
 		200001,
 		200002,
 		200003,
@@ -100088,6 +101336,31 @@ pg.furniture_data_template = {
 		87126,
 		87127,
 		87130,
-		87131
+		87131,
+		88001,
+		88002,
+		88101,
+		88102,
+		88103,
+		88105,
+		88106,
+		88107,
+		88108,
+		88110,
+		88111,
+		88112,
+		88113,
+		88114,
+		88116,
+		88117,
+		88118,
+		88119,
+		88120,
+		88123,
+		88126,
+		88301,
+		88303,
+		88304,
+		88305
 	}
 }

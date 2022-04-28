@@ -1,344 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
-	[106550] = {
-		ship_group = 10655,
-		name = "Casablanca",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 106550,
-		group_index = 0,
-		prefab = "kasabulanka",
-		painting = "kasabulanka",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Casablanca-class escort carrier – Casablanca, Hull Number CVE-55.",
-		voice_actor = 226,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.178,
-					1.184,
-					0
-				}
-			},
-			plane = {
-				{
-					1.093,
-					1.161,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.515,
-							2.316,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[106551] = {
-		ship_group = 10655,
-		name = "Cheer Squad on Break",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "132",
-		id = 106551,
-		group_index = 1,
-		prefab = "kasabulanka_2",
-		painting = "kasabulanka_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70337,
-		shop_type_id = 13,
-		air_bomb_skin = "",
-		illustrator = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Phew... Can't train hard if you don't stay hydrated! Oh, Commander, good day! Did you come to watch us practice?",
-		voice_actor = 226,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.059,
-					1.073,
-					0
-				}
-			},
-			plane = {
-				{
-					0,
-					0.001,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.589,
-							2.301,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107010] = {
-		ship_group = 10701,
-		name = "Langley",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 107010,
-		group_index = 0,
-		prefab = "lanli",
-		painting = "lanli",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Langley-class aicraft carrier ー Langley, Hull Number CV-1!",
-		voice_actor = 50,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.38,
-					0.71,
-					-0.41
-				}
-			},
-			vicegun = {
-				{
-					0.38,
-					0.71,
-					-0.41
-				}
-			},
-			antiaircraft = {
-				{
-					-0.545,
-					0.636,
-					0
-				},
-				{
-					0.681,
-					0.704,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.545,
-					0.636,
-					0
-				},
-				{
-					0.681,
-					0.704,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.709,
-							0.36,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.607,
-							0.473,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[107019] = {
 		ship_group = 10701,
 		name = "Langley (Retrofit)",
@@ -8333,6 +7994,466 @@ pg.ship_skin_template_4 = {
 						{
 							-0.58,
 							2.11,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201020] = {
+		ship_group = 20102,
+		name = "Acasta",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201020,
+		group_index = 0,
+		prefab = "akasita",
+		painting = "akasita",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 38,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "A-class destroyer – Acasta, Hull Number H09.",
+		voice_actor = 110,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.83,
+					0.97,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.83,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.08,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.83,
+					0.97,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.58,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201021] = {
+		ship_group = 20102,
+		name = "Fashionable Outing",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201021,
+		group_index = 1,
+		prefab = "Akasita_2",
+		painting = "Akasita_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70066,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 38,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together?",
+		voice_actor = 110,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.83,
+					1.229,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.8,
+					1.18,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.78,
+					1.19,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.58,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201022] = {
+		ship_group = 20102,
+		name = "Lights of the Lantern Festival",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "102",
+		id = 201022,
+		group_index = 2,
+		prefab = "akasita_3",
+		painting = "akasita_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70315,
+		shop_type_id = 9999,
+		air_bomb_skin = "",
+		illustrator = 38,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I heard you're supposed to hang lanterns up everywhere during the Spring Festival... so Ardent and I gave it a try! What do you think? Pretty cute, right? Um... I was talking about the lanterns...",
+		voice_actor = 110,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.108,
+					0.97,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.117,
+					0.921,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.027,
+					-0.005,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.087,
+					1.027,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.591,
+							2.235,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201023] = {
+		ship_group = 20102,
+		name = "Monochromatic Marvel",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 201023,
+		group_index = 3,
+		prefab = "akasita_4",
+		painting = "akasita_4",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70549,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = 38,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Come on, stop running around and behave already... Ah, Commander? Umm, I'm currently looking after these rabbits... Hm, you're thirsty? Um, give me a moment and I'll whip something up for you...",
+		voice_actor = 110,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.108,
+					1.17,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.117,
+					1.12,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.087,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.35,
 							0
 						}
 					}

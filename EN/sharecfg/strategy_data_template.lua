@@ -634,6 +634,106 @@ pg.strategy_data_template = {
 		desc = "The synchronization process is causing hallucinations. \nBarrages will spawn during battle which inflict damage to both friends and foes alike.",
 		arg = {}
 	},
+	[8941] = {
+		buff_id = 0,
+		name = "Iron Blood Jamming",
+		type = 10,
+		iconSize = "",
+		id = 8941,
+		icon = "8941",
+		desc = "The Iron Blood's jamming prevents you from determining the size and type of the enemy's fleets on the tactical map.",
+		arg = {}
+	},
+	[8942] = {
+		buff_id = 8942,
+		name = "Singularity Fluctuations",
+		type = 10,
+		iconSize = "",
+		id = 8942,
+		icon = "8942",
+		desc = "The Singularity is having strange effects on the battlefield. Your ships deal 20% increased Main Gun DMG, your ships deal 20% decreased Airstrike DMG, and your BBs' Main Gun Spread is increased by 5.",
+		arg = {}
+	},
+	[8943] = {
+		buff_id = 0,
+		name = "Siren Jamming",
+		type = 10,
+		iconSize = "",
+		id = 8943,
+		icon = "8943",
+		desc = "The Sirens' jamming is having strange effects on the battlefield.",
+		arg = {}
+	},
+	[8944] = {
+		buff_id = 8944,
+		name = "Siren Jamming - Volatile Ether",
+		type = 10,
+		iconSize = "",
+		id = 8944,
+		icon = "8944",
+		desc = "Your fleet continuously takes Burn DMG during battle.",
+		arg = {}
+	},
+	[8945] = {
+		buff_id = 8945,
+		name = "Siren Jamming - Slowing Waves",
+		type = 10,
+		iconSize = "",
+		id = 8945,
+		icon = "8945",
+		desc = "Your fleet's SPD is greatly decreased.",
+		arg = {}
+	},
+	[8946] = {
+		buff_id = 8946,
+		name = "Siren Jamming - Chaotic Frequency",
+		type = 10,
+		iconSize = "",
+		id = 8946,
+		icon = "8946",
+		desc = "Your fleet will experience periodic bursts of electromagnetic interference during battle.",
+		arg = {}
+	},
+	[8953] = {
+		buff_id = 8953,
+		name = "Iron Blood Support",
+		type = 10,
+		iconSize = "",
+		id = 8953,
+		icon = "8953",
+		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
+		arg = {}
+	},
+	[8955] = {
+		buff_id = 8955,
+		name = "Iron Blood Support",
+		type = 10,
+		iconSize = "",
+		id = 8955,
+		icon = "8953",
+		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
+		arg = {}
+	},
+	[8957] = {
+		buff_id = 8957,
+		name = "Iron Blood Support",
+		type = 10,
+		iconSize = "",
+		id = 8957,
+		icon = "8953",
+		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
+		arg = {}
+	},
+	[8959] = {
+		buff_id = 8959,
+		name = "Iron Blood Support",
+		type = 10,
+		iconSize = "",
+		id = 8959,
+		icon = "8953",
+		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
+		arg = {}
+	},
 	[9211] = {
 		buff_id = 9211,
 		name = "Dragon Palace's Boon - White Waves",
@@ -1502,6 +1602,16 @@ pg.strategy_data_template = {
 		8918,
 		8919,
 		8920,
+		8941,
+		8942,
+		8943,
+		8944,
+		8945,
+		8946,
+		8953,
+		8955,
+		8957,
+		8959,
 		9211,
 		9212,
 		9213,

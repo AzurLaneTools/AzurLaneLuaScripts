@@ -39,6 +39,16 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "isInvincible_1"
+			}
+		},
+		{
 			type = "BattleBuffDeath",
 			trigger = {
 				"onUpdate"

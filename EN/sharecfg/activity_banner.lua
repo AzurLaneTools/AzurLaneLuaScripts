@@ -1,8 +1,45 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4316",
 		id = 1,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4320",
+		id = 2,
 		pic = "temp1",
 		type = 3,
 		time = {
@@ -10,7 +47,7 @@ pg.activity_banner = {
 				{
 					2022,
 					4,
-					21
+					28
 				},
 				{
 					0,
@@ -22,7 +59,7 @@ pg.activity_banner = {
 				{
 					2022,
 					5,
-					18
+					13
 				},
 				{
 					23,
@@ -33,60 +70,34 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4314",
-		id = 2,
-		pic = "temp2",
-		type = 3,
-		time = {
-			{
-				{
-					2022,
-					4,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4307",
 		id = 3,
-		pic = "temp3",
-		type = 3,
-		time = {
+		pic = "temp2",
+		type = 2,
+		param = {
+			"scene get boat",
 			{
-				{
-					2022,
-					4,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
+				projectname = "new",
+				page = 1
+			}
+		},
+		time = {
 			{
 				{
 					2022,
 					4,
 					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					13
 				},
 				{
 					23,
@@ -98,66 +109,200 @@ pg.activity_banner = {
 	},
 	{
 		id = 4,
-		pic = "temp4",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectname = "new",
-				page = 1
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp5",
-		time = "stop",
+		pic = "temp3",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp6",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene court yard"
-		}
-	},
-	{
-		id = 7,
-		pic = "temp7",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene shop",
+		},
+		time = {
 			{
-				warp = "shopstreet"
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4325",
+		id = 5,
+		pic = "temp4",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4330",
+		id = 6,
+		pic = "temp5",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4326",
+		id = 7,
+		pic = "temp6",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
 		id = 8,
 		pic = "temp8",
-		time = "stop",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene court yard"
+		},
+		time = {
 			{
-				wrap = 2
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
 		param = "",
-		time = "stop",
-		type = 9,
 		id = 9,
-		pic = "temp99"
+		pic = "temp99",
+		type = 9,
+		time = {
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		param = "Naval Curry|Sweet Curry or Hot Curry that is the question<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
@@ -192,17 +337,17 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[3] = {
-			1,
-			2,
-			3
-		},
 		[2] = {
+			1,
+			3,
 			4,
+			8
+		},
+		[3] = {
+			2,
 			5,
 			6,
-			7,
-			8
+			7
 		},
 		[9] = {
 			9

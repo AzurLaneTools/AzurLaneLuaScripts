@@ -453,7 +453,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 	end
 
 	for slot9, slot10 in pairs(slot0._battleCVList) do
-		pg.CriMgr:LoadBattleCV(slot9, slot5)
+		pg.CriMgr.GetInstance():LoadBattleCV(slot9, slot5)
 	end
 
 	for slot9, slot10 in pairs(slot0._preloadList) do

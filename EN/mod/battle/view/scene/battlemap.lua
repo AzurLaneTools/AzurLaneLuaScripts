@@ -49,6 +49,10 @@ function slot1.Ctor(slot0, slot1)
 					offset = slot19:GetTextureOffset("_SeaTex")
 				})
 			end
+
+			if slot17:GetComponent(typeof(Renderer)) then
+				slot19.sortingOrder = -1500
+			end
 		end
 
 		if slot7 == "sea" then
@@ -57,6 +61,7 @@ function slot1.Ctor(slot0, slot1)
 			if slot0._buffer then
 				slot0._bufferRenderer = slot0._buffer:GetComponent("SpriteRenderer")
 				slot0._bufferRenderer.color = Color.New(1, 1, 1, 0)
+				slot0._bufferRenderer.sortingOrder = -1500
 			end
 		end
 	end
@@ -117,6 +122,7 @@ function slot1.SetExposeLine(slot0, slot1, slot2, slot3)
 
 		slot4 = slot2:GetComponent("SpriteRenderer")
 		slot5 = slot4.bounds.extents.max
+		slot4.sortingOrder = -1500
 		slot6 = tf(slot2).localScale
 		tf(slot2).localScale = Vector3.New(uv2 * slot6.x, slot6.y, slot6.z)
 		slot7 = tf(slot2).localPosition

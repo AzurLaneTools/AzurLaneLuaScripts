@@ -174,5 +174,33 @@ pg.ship_spine_shift = {
 			-45,
 			5
 		}
+	},
+	aierbin = {
+		spine = "aierbin",
+		mainui_shift = {
+			20,
+			-18
+		}
+	},
+	aierbin_2 = {
+		spine = "aierbin_2",
+		mainui_shift = {
+			0,
+			-77
+		}
+	},
+	ougen_younv = {
+		spine = "ougen_younv",
+		mainui_shift = {
+			0,
+			16
+		}
+	},
+	u47_5 = {
+		spine = "u47_5",
+		mainui_shift = {
+			-30,
+			13
+		}
 	}
 }

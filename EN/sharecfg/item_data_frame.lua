@@ -327,10 +327,10 @@ pg.item_data_frame = {
 	[319] = {
 		time_limit_type = 0,
 		name = "Singularity at Rainbow's End",
-		gain_by = "",
+		gain_by = "虹彩的终幕曲",
 		id = 319,
 		time_second = 0,
-		desc = "Obtained from a limited event.",
+		desc = "<color=#ffffff>Beyond the open door lies a new future.</color> Obtained from the \"Rondo at Rainbow's End\" event.",
 		scene = {}
 	},
 	[406] = {

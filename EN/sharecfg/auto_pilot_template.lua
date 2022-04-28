@@ -8368,6 +8368,438 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[75008] = {
+		id = 75008,
+		name = "公海舰队构建体先停留两秒，激活后向上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -40,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = 4
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 2,
+				param = {
+					x = -25,
+					z = 50
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 2,
+				param = {
+					x = -240,
+					z = 0
+				}
+			}
+		}
+	},
+	[75009] = {
+		id = 75009,
+		name = "公海舰队构建体先停留两秒，激活后向下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -40,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = 4
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 2,
+				param = {
+					x = -25,
+					z = -50
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 2,
+				param = {
+					x = -240,
+					z = 0
+				}
+			}
+		}
+	},
+	[75010] = {
+		id = 75010,
+		name = "公海舰队构建体到达母体身边 上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -55,
+					z = 10
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[75011] = {
+		id = 75011,
+		name = "公海舰队构建体绕母体转小圈 上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 13,
+					antiClockWise = true,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[75012] = {
+		id = 75012,
+		name = "公海舰队构建体绕转大圈然后离场 上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 30,
+					antiClockWise = true,
+					duration = 9,
+					x = -10
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = 0,
+					z = 25
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -240,
+					z = 0
+				}
+			}
+		}
+	},
+	[75013] = {
+		id = 75013,
+		name = "公海舰队构建体到达母体身边 下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -55,
+					z = -10
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[75014] = {
+		id = 75014,
+		name = "公海舰队构建体绕母体转小圈 下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 13,
+					antiClockWise = false,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[75015] = {
+		id = 75015,
+		name = "公海舰队构建体绕转大圈然后离场 下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 30,
+					antiClockWise = false,
+					duration = 9,
+					x = -10
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = 0,
+					z = -25
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -240,
+					z = 0
+				}
+			}
+		}
+	},
+	[75016] = {
+		id = 70117,
+		name = "回中心点偏下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -10,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[75017] = {
+		id = 75017,
+		name = "构造体 三角形走位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = 0,
+					z = -30
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 2,
+				param = {
+					x = -55,
+					z = 0
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 2,
+				param = {
+					x = 30,
+					z = 60
+				}
+			},
+			{
+				index = 7,
+				to = 8,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 8,
+				to = 9,
+				type = 2,
+				param = {
+					x = 25,
+					z = -30
+				}
+			},
+			{
+				index = 9,
+				to = 10,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 10,
+				to = 11,
+				type = 2,
+				param = {
+					x = -27.5,
+					z = 0
+				}
+			},
+			{
+				index = 11,
+				to = 99,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[80000] = {
 		id = 80000,
 		name = "自爆船AI",

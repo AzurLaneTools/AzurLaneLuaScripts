@@ -1,112 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101410] = {
-		ship_group = 10141,
-		name = "Stanly",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101410,
-		group_index = 0,
-		prefab = "sitanli",
-		painting = "sitanli",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Fletcher-class destroyer - Stanly , Hull Number DD-478.",
-		voice_actor = 143,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.004,
-					0.816,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.968,
-					0.789,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101420] = {
 		ship_group = 10142,
 		name = "Smalley",
@@ -9132,6 +9025,236 @@ pg.ship_skin_template_2 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		}
+	},
+	[102264] = {
+		ship_group = 10226,
+		name = "Spring's Inspiration",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 102264,
+		group_index = 4,
+		prefab = "linuo_5",
+		painting = "linuo_5",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70652,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Check this out, Commander! Hehehe, I added a little firework launcher to my superhero gadgets. Cool, huh? ...Your interest lies more in my new look? But... the firework...",
+		voice_actor = 231,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.3,
+					1.087,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.034,
+					1.126,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.246,
+					1.168,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.572,
+							2.197,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102270] = {
+		ship_group = 10227,
+		name = "Marblehead",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102270,
+		group_index = 0,
+		prefab = "mabuerheide",
+		painting = "mabuerheide",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Omaha-class light cruiser – Marblehead, Hull Number CL-12.",
+		voice_actor = 230,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.972,
+					1.003,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.926,
+					0.989,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.931,
+					0.989,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.17,
+							0
+						}
+					}
+				}
+			}
 		}
 	}
 }

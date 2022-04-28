@@ -217,6 +217,14 @@ function slot0.StartLesson(slot0, slot1, slot2)
 	})
 end
 
+function slot0.onBackPressed(slot0)
+	if slot0.finishLessonUtil:IsWorking() then
+		return
+	end
+
+	uv0.super.onBackPressed(slot0)
+end
+
 function slot0.willExit(slot0)
 	if slot0.studentsPage then
 		slot0.studentsPage:Destroy()

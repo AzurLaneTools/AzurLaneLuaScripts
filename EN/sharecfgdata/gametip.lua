@@ -20133,6 +20133,10 @@ _G.pg.gametip.battle_result_quit_battle = {
 	tip = "Retreat"
 }
 
+_G.pg.gametip.battle_result_share_battle = {
+	tip = "Share"
+}
+
 _G.pg.gametip.pre_combat_team = {
 	tip = "Sortie Fleet"
 }
@@ -20155,4 +20159,34 @@ _G.pg.gametip.destroy_confirm_access = {
 
 _G.pg.gametip.destroy_confirm_cancel = {
 	tip = "Cancel"
+}
+
+_G.pg.gametip.pt_count_tip = {
+	tip = "Total"
+}
+
+_G.pg.gametip.littleEugen_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Little Prinz Eugen will provisionally join your fleet. Complete missions during the event to earn Cake Pts, which can be redeemed for Trust. Collect enough Trust to have Little Prinz Eugen permanently join your fleet!"
+		},
+		{
+			info = "- How to Play -\n· During the event period, completing the associated missions will reward you with Cake Pts. You can redeem these for Trust by tapping the bottom right button on the Sugary-Sweet Käsekuchen event banner. You will be able to collect rewards for accumulating a certain amount of Trust."
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Prinz Eugen until you have formally recruited her to the fleet. You will also not be able to Retire her, Limit Break her, or Strengthen her."
+		},
+		{
+			info = "· If Little Prinz Eugen has not been formally recruited by the end of the event, she will leave the Port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day."
+		},
+		{
+			info = "· Little Prinz Eugen cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Little Prinz Eugen cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
 }

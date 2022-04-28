@@ -13481,6 +13481,543 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[540] = {
+		name = "Bat Shell",
+		bullet_name = "zidan_bianfushimo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "It most definitely flies like a bat out of hell.",
+		themeid = 32,
+		id = 540,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93611",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[541] = {
+		name = "Silver Cross Shell",
+		bullet_name = "zidan_yinshizi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "It's no silver bullet, but it solves similar problems.",
+		themeid = 32,
+		id = 541,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93612",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[542] = {
+		name = "Wisp Shell",
+		bullet_name = "zidan_youhuo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Inflicts BRN, decreasing the opponent's ATK by 50%. Wait, wrong game...",
+		themeid = 32,
+		id = 542,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93613",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[543] = {
+		name = "Blood Moon Shell",
+		bullet_name = "paodan_hongyue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "DO NOT LOOK AT THE MOON. DO NOT LOOK AT THE NIGHT SKY.",
+		themeid = 32,
+		id = 543,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93614",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[544] = {
+		name = "Candelabra Shell",
+		bullet_name = "paodan_zhutai",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Blunt end towards target.",
+		themeid = 32,
+		id = 544,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93615",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[545] = {
+		name = "Magic Circle Shell",
+		bullet_name = "paodan_mofazhen",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "More like a magic sphere, really.",
+		themeid = 32,
+		id = 545,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93616",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[546] = {
+		name = "Stake Torpedo",
+		bullet_name = "yulei_jianmuzhuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Stake it all on your torpedoes hitting.",
+		themeid = 32,
+		id = 546,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93621",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[547] = {
+		name = "Rose Torpedo",
+		bullet_name = "yulei_meigui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "For all the Littorio wannabes.",
+		themeid = 32,
+		id = 547,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93622",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[548] = {
+		name = "Coffin Torpedo",
+		bullet_name = "yulei_guancai",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Sink your enemies AND get them ready for their funeral right away!",
+		themeid = 32,
+		id = 548,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93623",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[549] = {
+		name = "Count Manjuula(Torpedo)",
+		bullet_name = "feiji_bojue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Devours unsuspecting villagers by night, teaches children numbers by day.",
+		themeid = 32,
+		id = 549,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93631",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_guancai",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[550] = {
+		name = "Count Manjuula(Fighter)",
+		bullet_name = "feiji_bojue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Devours unsuspecting villagers by night, teaches children numbers by day.",
+		themeid = 32,
+		id = 550,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_hongyue",
+		orbit_ui = "",
+		icon = "93631",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[551] = {
+		name = "Count Manjuula(Bomber)",
+		bullet_name = "feiji_bojue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Devours unsuspecting villagers by night, teaches children numbers by day.",
+		themeid = 32,
+		id = 551,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_hongyue",
+		orbit_ui = "",
+		icon = "93631",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[552] = {
+		name = "Gargoyle Manjuu(Torpedo)",
+		bullet_name = "feiji_shixianggui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "He's really tired of the \"why so stone-faced?\" jokes.",
+		themeid = 32,
+		id = 552,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93632",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_jianmuzhuang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[553] = {
+		name = "Gargoyle Manjuu(Fighter)",
+		bullet_name = "feiji_shixianggui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "He's really tired of the \"why so stone-faced?\" jokes.",
+		themeid = 32,
+		id = 553,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhutai",
+		orbit_ui = "",
+		icon = "93632",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[554] = {
+		name = "Gargoyle Manjuu(Bomber)",
+		bullet_name = "feiji_shixianggui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "He's really tired of the \"why so stone-faced?\" jokes.",
+		themeid = 32,
+		id = 554,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhutai",
+		orbit_ui = "",
+		icon = "93632",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[555] = {
+		name = "Specter Manjuu(Torpedo)",
+		bullet_name = "feiji_fulingqishi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Scythes have souls too?",
+		themeid = 32,
+		id = 555,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93633",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_meigui",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[556] = {
+		name = "Specter Manjuu(Fighter)",
+		bullet_name = "feiji_fulingqishi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Scythes have souls too?",
+		themeid = 32,
+		id = 556,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_mofazhen",
+		orbit_ui = "",
+		icon = "93633",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[557] = {
+		name = "Specter Manjuu(Bomber)",
+		bullet_name = "feiji_fulingqishi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Scythes have souls too?",
+		themeid = 32,
+		id = 557,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_mofazhen",
+		orbit_ui = "",
+		icon = "93633",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "Joypad Shell (P)",
 		bullet_name = "Nep_bullet_shizi",
@@ -15241,6 +15778,24 @@ pg.equip_skin_template = {
 		535,
 		536,
 		537,
+		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		555,
+		556,
+		557,
 		1001,
 		1002,
 		1003,

@@ -2797,6 +2797,97 @@ pg.map_event_list = {
 		event_list_loop = {},
 		help_pictures = {}
 	},
+	[1640001] = {
+		help_open = 1,
+		chapter_id = 1640001,
+		event_list = {
+			714,
+			715,
+			716,
+			717
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[1640004] = {
+		help_open = 0,
+		chapter_id = 1640004,
+		event_list = {
+			718,
+			719,
+			720,
+			721
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[1640006] = {
+		help_open = 0,
+		chapter_id = 1640006,
+		event_list = {
+			709,
+			710,
+			711,
+			712
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1640021] = {
+		help_open = 1,
+		chapter_id = 1640021,
+		event_list = {
+			722,
+			723,
+			724,
+			725
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[1640024] = {
+		help_open = 0,
+		chapter_id = 1640024,
+		event_list = {
+			726,
+			727,
+			728,
+			729
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[1640026] = {
+		help_open = 0,
+		chapter_id = 1640026,
+		event_list = {
+			709,
+			710,
+			711,
+			712
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1640041] = {
+		help_open = 0,
+		chapter_id = 1640041,
+		event_list = {
+			713
+		},
+		event_list_loop = {
+			713
+		},
+		help_pictures = {}
+	},
 	all = {
 		1401,
 		1402,
@@ -2961,6 +3052,13 @@ pg.map_event_list = {
 		1620025,
 		1620026,
 		1620041,
-		1620051
+		1620051,
+		1640001,
+		1640004,
+		1640006,
+		1640021,
+		1640024,
+		1640026,
+		1640041
 	}
 }

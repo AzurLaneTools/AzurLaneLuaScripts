@@ -7310,5 +7310,476 @@ pg.ship_skin_expression_ex = {
 				"1"
 			}
 		}
+	},
+	aierbin = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		feeling4 = "",
+		win_mvp = "",
+		skill = "",
+		mission = "",
+		profile = "",
+		painting = "aierbin",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|1|3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"3"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	aimudeng = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		feeling4 = "",
+		expedition = "",
+		upgrade = "",
+		skill = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		painting = "aimudeng",
+		battle = "",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		feeling5 = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"2"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"4"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|3|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		}
+	},
+	lvzuofu = {
+		feeling1 = "",
+		feeling3 = "",
+		main_1 = "",
+		main_2 = "",
+		expedition = "",
+		lose = "",
+		home = "",
+		mission = "",
+		feeling4 = "",
+		skill = "",
+		painting = "lvzuofu",
+		profile = "",
+		mail = "",
+		touch = "",
+		main_3 = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"5"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"5"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"5"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"5|2|5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		}
+	},
+	ougen_younv = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		expedition = "",
+		feeling4 = "",
+		skill = "",
+		mission = "",
+		profile = "",
+		painting = "ougen_younv",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|1|4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		}
+	},
+	saidelici = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		feeling4 = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		profile = "",
+		feeling2 = "",
+		skill = "",
+		painting = "saidelici",
+		battle = "",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"4"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"5"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"5"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"|5|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"5"
+			}
+		}
+	},
+	tulingen = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		expedition = "",
+		win_mvp = "",
+		feeling4 = "",
+		mission = "",
+		skill = "",
+		profile = "",
+		painting = "tulingen",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"5"
+			}
+		},
+		home = {
+			{
+				1100,
+				"6"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"6|4|"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		}
+	},
+	yueke_ger = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		expedition = "",
+		feeling4 = "",
+		skill = "",
+		mission = "",
+		profile = "",
+		painting = "yueke_ger",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"5"
+			}
+		},
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"7"
+			}
+		}
 	}
 }

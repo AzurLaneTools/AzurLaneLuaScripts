@@ -1377,6 +1377,12 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 		end
 	elseif slot4.attachment == ChapterConst.AttachBarrier then
 		slot8 = AttachmentBarrierCell
+	elseif slot4.attachment == ChapterConst.AttachNone then
+		slot9.fadeAnim = slot0.attachmentCells[slot5] and (slot0.attachmentCells[slot5].class == StaticEggCellView or slot0.attachmentCells[slot5].class == StaticChampionCellView)
+	end
+
+	if slot9.fadeAnim then
+		slot0:PlayAttachmentEffect(slot1, slot2, "miwuxiaosan")
 	end
 
 	if slot0.attachmentCells[slot5] and slot10.class ~= slot8 then
