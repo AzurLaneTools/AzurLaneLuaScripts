@@ -135,6 +135,10 @@ function slot0.init(slot0)
 		[FleetType.Normal] = 1,
 		[FleetType.Submarine] = 1
 	}
+
+	setText(findTF(slot0._tf, "gear_score/main/line/Image/text1"), i18n("pre_combat_main"))
+	setText(findTF(slot0._tf, "gear_score/vanguard/line/Image/text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(slot0._tf, "gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 end
 
 function slot0.setShips(slot0, slot1)

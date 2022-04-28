@@ -342,4 +342,10 @@ function slot0.Dispose(slot0)
 	slot0.live2dAction = nil
 end
 
+function slot0.UpdateAtomSource(slot0)
+	slot1 = slot0._go:GetComponent("CubismCriSrcMouthInput")
+
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "AtomSource", slot1, ReflectionHelp.RefGetProperty(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "AtomSource", slot1))
+end
+
 return slot0

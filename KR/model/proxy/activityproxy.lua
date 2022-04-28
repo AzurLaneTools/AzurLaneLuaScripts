@@ -245,14 +245,7 @@ function slot0.findNextAutoActivity(slot0)
 	for slot7, slot8 in ipairs(slot0:getPanelActivities()) do
 		if slot8:isShow() and not slot8.autoActionForbidden then
 			if slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-				slot10 = slot8:getConfig("config_id")
-				slot12 = #pg.activity_7_day_sign[slot10].front_drops + 1
-
-				if slot10 == 3 then
-					slot12 = #slot11
-				end
-
-				if slot8.data1 < slot12 and not slot2:IsSameDay(slot3, slot8.data2) then
+				if slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) then
 					slot1 = slot8
 
 					break

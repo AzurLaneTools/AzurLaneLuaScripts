@@ -98,6 +98,10 @@ function slot0.ShouldResetPosition(slot0)
 	return slot0.state == uv0.STATE_STOP or slot0.state == uv0.STATE_CANCEL_INTERACT
 end
 
+function slot0.WillInteraction(slot0)
+	slot0:DispatchEvent(CourtYardEvent.SHIP_WILL_INTERACTION, slot)
+end
+
 function slot0.StartInteraction(slot0, slot1, slot2)
 	if slot2 then
 		slot0.interactionSlot = slot1

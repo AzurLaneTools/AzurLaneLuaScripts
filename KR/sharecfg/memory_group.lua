@@ -3526,6 +3526,22 @@ pg.memory_group = {
 			2047
 		}
 	},
+	[573] = {
+		icon = "title_chara_aidingbao",
+		subtype = 0,
+		type = 3,
+		id = 573,
+		title = "\"나\"만의 가치",
+		memories = {
+			2063,
+			2064,
+			2065,
+			2066,
+			2067,
+			2068,
+			2069
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3709,6 +3725,7 @@ pg.memory_group = {
 		569,
 		570,
 		571,
-		572
+		572,
+		573
 	}
 }

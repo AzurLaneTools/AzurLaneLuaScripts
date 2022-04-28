@@ -1155,6 +1155,13 @@ function slot0.getInitmacyWords(slot0)
 end
 
 function slot0.paintView(slot0)
+	if LeanTween.isTweening(slot0.chat.gameObject) then
+		LeanTween.cancel(slot0.chat.gameObject)
+
+		slot0.chat.localScale = Vector3(0, 0, 0)
+		slot0.chatFlag = nil
+	end
+
 	slot0.character:GetComponent("Image").enabled = false
 	slot0.inPaintingView = true
 	slot1 = {}

@@ -117,12 +117,12 @@ function slot0.Show(slot0)
 		slot0.openAgain = true
 	end
 
-	pg.playerResUI:SetActive(true, defaultValue(slot1, true))
+	pg.playerResUI:PinUp(defaultValue(slot1, true))
 end
 
 function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
-	pg.playerResUI:SetActive(false)
+	pg.playerResUI:UnPin()
 end
 
 function slot0.OnUpdatePlayer(slot0)
@@ -226,6 +226,10 @@ end
 
 function slot0.OnDestroy(slot0)
 	slot0:RemoveTimer()
+
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

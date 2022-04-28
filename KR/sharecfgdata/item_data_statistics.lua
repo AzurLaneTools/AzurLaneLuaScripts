@@ -152602,6 +152602,27 @@ _G.pg.item_data_statistics[59287] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59305] = {
+	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "훈련 PT ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59305,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",

@@ -19526,3 +19526,55 @@ _G.pg.gametip.battle_result_targets = {
 _G.pg.gametip.battle_result_continue = {
 	tip = "터치하여 계속하기"
 }
+
+_G.pg.gametip.activity_kill = {
+	tip = "누적 격침"
+}
+
+_G.pg.gametip.battle_result_dmg = {
+	tip = "대미지"
+}
+
+_G.pg.gametip.battle_result_kill_count = {
+	tip = "처치"
+}
+
+_G.pg.gametip.battle_result_toggle_on = {
+	tip = "잠수함 함대"
+}
+
+_G.pg.gametip.battle_result_toggle_off = {
+	tip = "수상 함대"
+}
+
+_G.pg.gametip.battle_result_continue_battle = {
+	tip = "계속 전투"
+}
+
+_G.pg.gametip.battle_result_quit_battle = {
+	tip = "돌아가기"
+}
+
+_G.pg.gametip.pre_combat_team = {
+	tip = "출격 함대"
+}
+
+_G.pg.gametip.pre_combat_vanguard = {
+	tip = "선봉함대"
+}
+
+_G.pg.gametip.pre_combat_main = {
+	tip = "주력함대"
+}
+
+_G.pg.gametip.pre_combat_submarine = {
+	tip = "잠수함대"
+}
+
+_G.pg.gametip.destroy_confirm_access = {
+	tip = "확인"
+}
+
+_G.pg.gametip.destroy_confirm_cancel = {
+	tip = "취소"
+}

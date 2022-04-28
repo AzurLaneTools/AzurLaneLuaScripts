@@ -324,6 +324,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「극지 임무에서 탁월한 공헌을 한 동지에게 가장 숭고한 경의를 표한다.」——「깊게 울리는 메아리」 이벤트 획득</color>",
 		scene = {}
 	},
+	[319] = {
+		time_limit_type = 0,
+		name = "유리의 특이점",
+		gain_by = "",
+		id = 319,
+		time_second = 0,
+		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -397,6 +406,7 @@ pg.item_data_frame = {
 		316,
 		317,
 		318,
+		319,
 		401,
 		402,
 		413,
