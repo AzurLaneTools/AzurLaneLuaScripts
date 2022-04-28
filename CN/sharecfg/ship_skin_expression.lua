@@ -33864,7 +33864,7 @@ pg.ship_skin_expression = {
 		skill = "",
 		detail = "5"
 	},
-	Lvzuofu_2 = {
+	lvzuofu_2 = {
 		default = "",
 		feeling3 = "11",
 		main_1 = "6",
@@ -33875,7 +33875,7 @@ pg.ship_skin_expression = {
 		unlock = "",
 		touch2 = "6",
 		main_2 = "10",
-		painting = "Lvzuofu_2",
+		painting = "lvzuofu_2",
 		lose = "4",
 		mail = "2",
 		touch = "1",

@@ -61,6 +61,7 @@ function slot1.Ctor(slot0, slot1)
 			if slot0._buffer then
 				slot0._bufferRenderer = slot0._buffer:GetComponent("SpriteRenderer")
 				slot0._bufferRenderer.color = Color.New(1, 1, 1, 0)
+				slot0._bufferRenderer.sortingOrder = -1500
 			end
 		end
 	end

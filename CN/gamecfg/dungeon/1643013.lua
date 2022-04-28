@@ -267,7 +267,7 @@ return {
 									switchParam = 6,
 									setAI = 10001,
 									addWeapon = {
-										891401
+										892401
 									},
 									removeWeapon = {}
 								},
@@ -279,11 +279,11 @@ return {
 									setAI = 70098,
 									addBuff = {},
 									addWeapon = {
-										891402,
-										891403
+										892402,
+										892403
 									},
 									removeWeapon = {
-										891401
+										892401
 									}
 								},
 								{
@@ -292,7 +292,7 @@ return {
 									switchTo = 4,
 									switchType = 1,
 									addWeapon = {
-										891404
+										892404
 									},
 									removeWeapon = {}
 								},
@@ -304,9 +304,9 @@ return {
 									setAI = 70058,
 									addWeapon = {},
 									removeWeapon = {
-										891402,
-										891403,
-										891404
+										892402,
+										892403,
+										892404
 									}
 								},
 								{
@@ -315,7 +315,7 @@ return {
 									switchTo = 6,
 									switchType = 1,
 									addWeapon = {
-										891410
+										892410
 									},
 									removeWeapon = {}
 								},
@@ -325,10 +325,10 @@ return {
 									switchTo = 7,
 									switchType = 1,
 									addWeapon = {
-										891405,
-										891406,
-										891407,
-										891408
+										892405,
+										892406,
+										892407,
+										892408
 									},
 									removeWeapon = {}
 								},
@@ -338,13 +338,13 @@ return {
 									switchTo = 8,
 									switchType = 1,
 									addWeapon = {
-										891409
+										892409
 									},
 									removeWeapon = {
-										891405,
-										891406,
-										891407,
-										891408
+										892405,
+										892406,
+										892407,
+										892408
 									}
 								},
 								{
@@ -355,8 +355,8 @@ return {
 									setAI = 10001,
 									addWeapon = {},
 									removeWeapon = {
-										891409,
-										891410
+										892409,
+										892410
 									}
 								},
 								{

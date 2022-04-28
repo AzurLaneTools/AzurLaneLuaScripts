@@ -740,6 +740,9 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["宾"] = {
+				this = true
 			}
 		},
 		["塞"] = {
@@ -771,6 +774,11 @@ function temp()
 		},
 		["吉"] = {
 			["尔"] = {
+				this = true
+			}
+		},
+		["姆"] = {
+			["登"] = {
 				this = true
 			}
 		}
@@ -1066,6 +1074,11 @@ function temp()
 				["林"] = {
 					this = true
 				}
+			}
+		},
+		["欧"] = {
+			["根"] = {
+				this = true
 			}
 		}
 	}
@@ -5605,6 +5618,44 @@ function temp()
 						}
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["塞"] = {
+		["德"] = {
+			["利"] = {
+				["茨"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["吕"] = {
+		["佐"] = {
+			["夫"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["图"] = {
+		["林"] = {
+			["根"] = {
+				this = true
 			}
 		}
 	}

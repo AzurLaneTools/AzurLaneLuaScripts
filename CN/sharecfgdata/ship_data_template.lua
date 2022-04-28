@@ -68170,7 +68170,7 @@ _G.pg.ship_data_template[402081] = {
 		5
 	},
 	equip_3 = {
-		5,
+		1,
 		6
 	},
 	equip_4 = {
@@ -68217,7 +68217,7 @@ _G.pg.ship_data_template[402082] = {
 		5
 	},
 	equip_3 = {
-		5,
+		1,
 		6
 	},
 	equip_4 = {
@@ -68265,7 +68265,7 @@ _G.pg.ship_data_template[402083] = {
 		5
 	},
 	equip_3 = {
-		5,
+		1,
 		6
 	},
 	equip_4 = {
@@ -68313,7 +68313,7 @@ _G.pg.ship_data_template[402084] = {
 		5
 	},
 	equip_3 = {
-		5,
+		1,
 		6
 	},
 	equip_4 = {

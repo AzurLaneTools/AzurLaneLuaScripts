@@ -195,11 +195,11 @@ function slot0.updateTaskList(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot8 then
-		setActive(findTF(slot14, "slider"), false)
 		setActive(findTF(slot14, "pahase"), false)
+		setSlider(findTF(slot14, "slider"), 0, 1, 1)
 	else
-		setActive(findTF(slot14, "slider"), true)
 		setActive(findTF(slot14, "pahase"), true)
+		setSlider(findTF(slot14, "slider"), 0, 1, slot7 / slot6)
 	end
 
 	setText(findTF(slot14, "desc"), slot10)
@@ -210,7 +210,6 @@ function slot0.updateTaskList(slot0, slot1, slot2, slot3, slot4)
 		setText(findTF(slot14, "pahase"), "")
 	end
 
-	setSlider(findTF(slot14, "slider"), 0, 1, slot7 / slot6)
 	updateDrop(findTF(slot14, "award"), slot11)
 	onButton(slot0, findTF(slot14, "award"), function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
@@ -220,7 +219,8 @@ function slot0.updateTaskList(slot0, slot1, slot2, slot3, slot4)
 	setActive(findTF(slot14, "go"), false)
 
 	if not slot9 then
-		-- Nothing
+		setActive(findTF(slot14, "go"), not slot8)
+		setActive(findTF(slot14, "got"), slot8)
 	elseif slot8 then
 		setActive(findTF(slot14, "got"), true)
 	elseif slot6 <= slot7 then

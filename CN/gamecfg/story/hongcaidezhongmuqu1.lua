@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "……这样一来，余烬飞龙的怀疑也算是揭开了一层。",
+			say = "……这样一来，余烬{namecode:94}的怀疑也算是揭开了一层。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
