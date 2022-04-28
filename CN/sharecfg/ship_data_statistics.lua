@@ -190575,8 +190575,8 @@ pg.ship_data_statistics = {
 		},
 		parallel_max = {
 			1,
-			1,
-			2
+			2,
+			1
 		},
 		preload_count = {
 			0,
@@ -190964,7 +190964,7 @@ pg.ship_data_statistics = {
 		},
 		preload_count = {
 			0,
-			0,
+			1,
 			0
 		},
 		equipment_proficiency = {
@@ -191092,7 +191092,7 @@ pg.ship_data_statistics = {
 		},
 		preload_count = {
 			0,
-			0,
+			1,
 			0
 		},
 		equipment_proficiency = {

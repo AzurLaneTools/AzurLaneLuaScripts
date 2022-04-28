@@ -276,7 +276,9 @@ return {
 								0,
 								55
 							},
-							buffList = {},
+							buffList = {
+								8671
+							},
 							bossData = {
 								hpBarNum = 80,
 								icon = ""

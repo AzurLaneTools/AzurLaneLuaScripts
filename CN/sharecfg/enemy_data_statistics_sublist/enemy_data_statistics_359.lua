@@ -517,7 +517,7 @@ pg.enemy_data_statistics_359 = {
 		equipment_list = {}
 	},
 	[15803301] = {
-		cannon = 280,
+		cannon = 170,
 		reload = 150,
 		speed_growth = 0,
 		cannon_growth = 0,
@@ -536,7 +536,7 @@ pg.enemy_data_statistics_359 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		antiaircraft_growth = 0,
-		torpedo = 80,
+		torpedo = 125,
 		durability = 86200,
 		armor_growth = 0,
 		torpedo_growth = 0,

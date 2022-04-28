@@ -354,6 +354,9 @@ pg.enemy_data_statistics_358 = {
 		fog_fx = "",
 		antisub = 0,
 		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall"
+		},
 		equipment_list = {
 			1001093,
 			1001098

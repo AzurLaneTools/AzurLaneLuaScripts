@@ -470,7 +470,7 @@ pg.enemy_data_statistics_355 = {
 		equipment_list = {}
 	},
 	[15801301] = {
-		cannon = 160,
+		cannon = 130,
 		reload = 150,
 		speed_growth = 0,
 		cannon_growth = 0,
@@ -489,7 +489,7 @@ pg.enemy_data_statistics_355 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		antiaircraft_growth = 0,
-		torpedo = 40,
+		torpedo = 100,
 		durability = 16500,
 		armor_growth = 0,
 		torpedo_growth = 0,
@@ -540,8 +540,7 @@ pg.enemy_data_statistics_355 = {
 		specific_fx_scale = {},
 		appear_fx = {
 			"bossguangxiao",
-			"appearQ",
-			"heisewuqi_stg"
+			"appearQ"
 		},
 		equipment_list = {}
 	},

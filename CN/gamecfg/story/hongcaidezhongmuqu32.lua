@@ -281,7 +281,7 @@ return {
 			actor = 900307,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "呈现在两位面前的就是新一代塞壬，你们觉得怎么样？！",
+			say = "呈现在两位面前的就是新一代安蒂克丝，你们觉得怎么样？！",
 			flashout = {
 				dur = 0.5,
 				alpha = {
