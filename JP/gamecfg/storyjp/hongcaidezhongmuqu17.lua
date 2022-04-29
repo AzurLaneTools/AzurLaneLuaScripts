@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "戦力は依然としてこちらが圧倒的に有利だ。しかしこのままだといずれ作戦計画に影響が出てきてしまう",
+			say = "戦力は依然としてこちらが圧倒的に有利だ。しかしこのままだといずれ作戦計画に影響が出てきてしまう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "通信",
-			say = "――――――――ー",
+			say = "―――――――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

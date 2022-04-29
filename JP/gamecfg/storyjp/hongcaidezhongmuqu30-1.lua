@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "そして我々の主砲ももはや二度と放てられなくなった。もはや戦闘能力をはく奪されたに等しい",
+			say = "そして我々の主砲ももはや二度と放てなくなった。もはや戦闘能力をはく奪されたに等しい",
 			effects = {
 				{
 					active = true,

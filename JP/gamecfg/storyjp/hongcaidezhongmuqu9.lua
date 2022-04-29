@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 6,
 			side = 2,
 			bgName = "bg_endingsong_5",
 			hidePaintObj = true,
@@ -662,7 +662,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,

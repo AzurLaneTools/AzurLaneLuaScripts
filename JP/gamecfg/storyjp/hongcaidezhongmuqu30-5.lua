@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "あれだけじゃんじゃん爆弾を投下したからね、そりゃバリはオーバーヒートしちゃうわよ",
+			say = "あれだけじゃんじゃん爆弾を投下したからね、そりゃバリアもオーバーヒートしちゃうわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

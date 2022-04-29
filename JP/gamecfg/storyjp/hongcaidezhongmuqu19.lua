@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "今はそんな余裕がないし、あそこで見たことはあとで話すわ。",
+			say = "今はそんな余裕がないし、あそこで見たことはあとで話すわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

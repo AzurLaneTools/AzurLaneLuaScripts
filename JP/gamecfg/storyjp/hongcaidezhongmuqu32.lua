@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actorName = "？？",
 			oldPhoto = true,
-			say = "そうでしょそうでしょ！オースt…【編纂：シンパンシャ】って絶対こういう嗜好があるよね～",
+			say = "そうでしょそうでしょ！オース…【編纂：シンパンシャ】って絶対こういう嗜好があるよね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

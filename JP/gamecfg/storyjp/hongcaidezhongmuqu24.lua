@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499020,
-			say = "ボウヤの言う通りよ。セイレーンをどう退治するかのための話をしたいわ",
+			say = "ボウヤの言う通りよ。セイレーンをどう退治するかの話をしたいわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "通信",
-			say = "こちらは鉄血艦隊旗艦、ビスマルク。スカパー・フローの鉄血艦船に告ぐ！",
+			say = "こちらは鉄血艦隊旗艦、ビスマルク。スカパ・フローの鉄血艦船に告ぐ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

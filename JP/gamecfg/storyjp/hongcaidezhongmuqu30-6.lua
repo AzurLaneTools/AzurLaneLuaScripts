@@ -410,7 +410,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "セイレーンの兵器の発射直前、ショックで自分が倒れそうになっていたときに助けてくれたのは――",
+			say = "セイレーンの兵器の発射直前、自分が倒れそうになっていたときに助けてくれたのは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,8 +510,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			actor = 499020,
 			side = 2,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			dir = 1,
 			optionFlag = 1,
 			say = "分かっているわ。あなたは指揮官、陣営という概念に縛られない存在",
 			typewriter = {

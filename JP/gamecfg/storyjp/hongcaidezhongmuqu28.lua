@@ -155,7 +155,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "じゃあ早くその施設を破壊しなきゃまずくない？",
+			say = "じゃあ早くその施設を破壊しないとまずくない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

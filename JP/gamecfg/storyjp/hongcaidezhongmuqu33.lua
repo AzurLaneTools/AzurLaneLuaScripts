@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 805010,
+			actor = 801070,
 			say = "私はリシュリュー様に「冠」を手に入れてほしいと思って",
 			typewriter = {
 				speed = 0.05,

@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "事前の打ち合わせもなく行われたユニオン・鉄血艦隊の見事な連携で、中心施設への道はついに開いた！",
+			say = "事前の打ち合わせがなかったにも関わらず、ユニオン・鉄血艦隊の見事な連携で中心施設への道がついに開かれた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			bgName = "bg_endingsong_14",
 			dir = 1,
 			blackBg = true,
-			say = "艦隊をそちらに届けて、あの制御塔を破壊すれば………っ！",
+			say = "艦隊を近づけて、あの制御塔を破壊すれば………っ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

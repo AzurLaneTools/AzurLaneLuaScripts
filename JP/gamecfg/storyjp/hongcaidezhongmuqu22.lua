@@ -37,7 +37,7 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			say = "エルドリッジ…連絡…受信がたくさん……",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			say = "エルドリッジ、読む？",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -239,7 +239,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -257,7 +257,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "エルドリッジに任せる",
+			actorName = "エルドリッジ",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -274,9 +274,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
+			dir = 1,
+			optionFlag = 1,
 			say = "………エルドリッジは頑張ってくれているが、この調子だとしばらく終わらないな……",
 			typewriter = {
 				speed = 0.05,
@@ -463,7 +464,7 @@ return {
 			bgName = "bg_endingsong_11",
 			dir = 1,
 			blackBg = true,
-			say = "あとはスカパ・フロ――の最後の戦いに向けて前進あるのみだ。",
+			say = "あとはスカパ・フローでの最後の戦いに向けて前進あるのみだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

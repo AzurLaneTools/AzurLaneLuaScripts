@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "そういうところがキーロフよりあなたのほうが色々付き合いのよね",
+			say = "そういうところがキーロフよりあなたのほうが色々付き合いやすいのよね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

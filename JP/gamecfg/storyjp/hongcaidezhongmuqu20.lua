@@ -483,7 +483,7 @@ return {
 			optionFlag = 2,
 			actorName = "ジョージア",
 			hidePaintObj = true,
-			say = "了解だ。戦艦ジョージア、これより出撃する！",
+			say = "はははっ。帰ったらきっちり補給させてもらうぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			optionFlag = 3,
 			actorName = "ジョージア",
 			hidePaintObj = true,
-			say = "はははっ。帰ったらきっちり補給させてもらうぞ",
+			say = "なぁに、どんな策があろうとこの力で打ち破るまでだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
