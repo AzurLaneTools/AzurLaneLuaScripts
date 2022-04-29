@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "虽然阵型已被打乱，不过数量依然客观。",
+			say = "虽然阵型已被打乱，不过数量依然可观。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

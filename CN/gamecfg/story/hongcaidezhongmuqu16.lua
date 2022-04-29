@@ -360,7 +360,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "赤城",
+			actorName = "{namecode:91}",
 			say = "腓特烈大帝，这才是你真正的计划么！从这里创造新的舰队，然后带着她们出去以奇制胜？！",
 			typewriter = {
 				speed = 0.05,
