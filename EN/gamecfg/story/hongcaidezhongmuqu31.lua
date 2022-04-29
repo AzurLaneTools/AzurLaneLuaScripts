@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "阿瓦隆之门内侧·？？？",
+			say = "Scapa Flow - Harbor",
 			side = 2,
 			bgName = "bg_endingsong_15",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "嗯……依靠这些设备的话，确实可以抵达一个补给据点。",
+			say = "We should be able to make it back to the resupply base with all these resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "不过你们确定要这么做么？",
+			say = "Have to say, this is one crazy idea, coming from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "没有保证你们之后还能回来，也没有保证你们能在残酷的战斗中生存多久。",
+			say = "You're sure you want to step down as the leader? Even if you work best behind the scenes, the fact remains...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "无须担心。铁血已经寻回了它的领袖，她的智慧必定能带给铁血，还有这个世界更光明的未来。",
+			say = "If you're worried about the Iron Blood of this world, don't be. Bismarck survived her METAmorphosis – she'll lead the Iron Blood well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "这里已经没有我需要做的事了，更需要我去做的事也不在这里。",
+			say = "Besides, since I can't see my child every day, I need to get back to devising plans, lest I get restless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "你们呢，公海舰队的诸位？开弓没有回头箭哦。",
+			say = "If you're fine with it, then fair enough, but what about these girls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "公海舰队将会追随腓特烈大帝的步伐。",
+			say = "I'm good with whatever, honestly. All I care about is having a good time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "过去是，现在是，未来是，哪怕直至宇宙的尽头也是——",
+			say = "And if I'm not having fun, I'll just bail back home when I feel like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "不过……你们那里至少有能睡觉的地方吧？",
+			say = "...Wait, how DO we get home? Nobody's told me that part yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "有是有，不过质量就不敢保证了。",
+			say = "We'll find a way. Friedrich's not the kind of woman who makes one-way trips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "哼哼，不足的部分就让塞德利茨想办法解决一下就好了~",
+			say = "Let's have Seydlitz fill in the blanks then. She's all about doing the right thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没问题，吕佐夫小姐。不论前路通向何方，我都会作为公海舰队的利刃与各位一同前进的。",
+			say = "I'm not sure that falls within the domain of \"doing the right thing,\" but whatever the case, I'll do everything in my power to serve the Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "有同伴的地方就是家……虽然不知道能为大家做到什么，不过埃尔宾会加油努力的！",
+			say = "I bet we're never coming back... We'll sink at the hands of the Ashes if the Sirens don't get us first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "哼哼哼~人就要有恶人的样子，我们该退场了~",
+			say = "After this job's over, I just want to settle down as someone's right hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不要自顾自说些奇怪的帅气台词，也不要擅自把人算作恶人啊……",
+			say = "There's no \"settling down\" now that we've been reborn as shipgirls. Fighting is what we do. Also, whose right hand?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "我不介意化身为邪恶军团的干部哦？",
+			say = "It doesn't really matter. Who knows, it could end up being Emden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "让我们一同去征服新的世界，开辟新的未来吧！",
+			say = "Although, my dream would be to serve the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……已经完全代入角色了。",
+			say = "I'm confident your dream will come true someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "好了，坐标设置完成，装置蓄能完毕，随时可以出发。",
+			say = "All right, I've plugged in the coordinates. Energy tanks are full. It's time to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "那就让我们起航吧。",
+			say = "Great. Please lead the way, Scharnhorst.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "前往余烬的据点，见证余烬的道路——————！",
+			say = "I'm dying to see the Ashes' base and hear their orchestra. What instruments will they play, I wonder?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

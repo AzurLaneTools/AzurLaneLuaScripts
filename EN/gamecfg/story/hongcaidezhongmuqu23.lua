@@ -316,7 +316,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "It's gotten to us too! We've already lost contact of a reserve fleet!",
+			say = "It's gotten to us too! We've already lost contact with a reserve fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 199020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "If we can locate her and defeat her, that will most likely cause the fog to disperse.",
+			say = "If we can locate and defeat her, that will most likely cause the fog to disperse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "{namecode:199}，来得正好！你那边情况怎么样？",
+			say = "A lively voice echoed through the briefing room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "Granted, the Sirens sometimes have objectives of their own, but I'd urge your to stay on your guard.",
+			say = "Granted, the Sirens sometimes have objectives of their own, but I'd urge you to stay on your guard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "{namecode:199}舰队，全速出击~！",
+			say = "I won't let you anywhere near the Commander, Siren scum!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

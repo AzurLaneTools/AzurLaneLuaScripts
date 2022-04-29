@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Scapa Flow Harbor",
+			say = "Scapa Flow - Harbor",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "我们的失败让铁血彻底失去了海上力量因此转而寻求与其他阵营联合是必然的。",
+			say = "\"The losses suffered by the Iron Blood forced them to seek other alliances.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "Conflict is human nature. When there is nobody left to, humans will make enemies of each other.",
+			say = "Conflict is human nature. In the absence of conflict, humans will make enemies of each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是公海舰队看待问题的方式么……",
+			say = "So this is the High Seas Fleet's world view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Alliances change with time. Any of our factions could be friend or foe depending on what date you turn the clock to.",
+			say = "Alliances are fluid. Yesterday's foes may be today's friends – and vice versa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Let us hope this alliance between us will last for a long time.",
+			say = "Let us just hope that our alliance is long-lasting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "刚刚{namecode:96}也说了跟你差不多的话呢~你是叫{namecode:92}对吧？",
+			say = "Hey, Zuikaku told me about you. You're... Kaga, was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "However, it takes an absurd amount of time and resources. Even the big four factions don't do it often.",
+			say = "However, it's not an efficient use of time or resources. None of the major factions do it often.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "If Amagi hadn't suffered the fate she did, I likely wouldn't been converted...",
+			say = "(If Amagi was still here with us... I might've never been converted into a carrier.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Okay, that's simply not going to happen.",
+			say = "I doubt that's going to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Hey, yeah... I coud've sworn she was with us a moment ago!",
+			say = "Hey, yeah... I could've sworn she was with us a moment ago!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Seeing as Ägir and August von Parseval are absent, I assume everything is proceeding according to plan?",
+			say = "Seeing as Ägir and August are absent, I assume everything is proceeding according to plan?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,7 +1024,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "You are strong and capable. Your friends all appreciate you. That is the truth, whether you accept it or not.",
+			say = "You are strong and capable. Your friends all appreciate you. That is the truth, whether you believe it or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1244,7 +1244,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "Think of it as a reward for for your efforts, if that makes you feel any better.",
+			say = "Think of it as a reward for your efforts, if that makes you feel any better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1391,7 +1391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵呵~现在正在上演的可是铁血乐章精彩的最终章。",
+			say = "Don't walk out during the intermission, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1410,7 +1410,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不论接下来发生什么事，都一定目不转睛的见证到最后哟。",
+			say = "Everyone here shall witness this performance until its very end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "theme-arbitrator-tower",
-			say = "就在白鹰、北方联合以及铁血舰队都奋战之时，重樱舰队依然选择了按兵不动。",
+			say = "While the Eagle Union, Northern Parliament, and Iron Blood fleets advanced, the Sakura Empire's fleet remained motionless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "（在这种战况下叫我怎么能忍住在一边冷眼旁观下去啊……）",
+			say = "(Akagi told us to stay here and wait... But how can we just watch from the sidelines while everyone else fights?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "（欸————有了！）",
+			say = "...That's just not my style!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,23 +54,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:96}突然向着侧面加速，几枚塞壬的炮弹落到在她的身边，是近失弹。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307060,
-			nameColor = "#ff5c5c",
-			side = 2,
-			hidePaintObj = true,
-			dir = 1,
-			say = "啊————被攻击了——————",
+			say = "Zuikaku suddenly swerved to the side, just as several Siren shells barely missed her original position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +70,23 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "被攻击了就要发动反击对吧——————舰载机群出动！",
+			say = "Woah, that was a close one! Looks like the Sirens brought the fight right to us, Akagi.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			nameColor = "#ff5c5c",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			say = "That gives us the green light to counterattack, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "………………",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "我可没违反命令哦，是塞壬先对我们开火的~！",
+			say = "Hey, those were the orders you gave! Now that we're under attack, we've got no choice but to fight back, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "随你便。",
+			say = "Alright. Knock yourself out then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那我就先上咯，重樱五航战所属，{namecode:96}号航空母舰现在加入战斗！",
+			say = "Thanks, Akagi! Zuikaku of the 5th CarDiv, sortieing!",
 			effects = {
 				{
 					active = true,

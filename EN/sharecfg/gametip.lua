@@ -18319,7 +18319,7 @@ cs.gametip = {
 	},
 	littleEugen_npc = {
 		631564,
-		1353,
+		1363,
 		true
 	}
 }

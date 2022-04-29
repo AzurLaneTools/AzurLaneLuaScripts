@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_13",
 			dir = 1,
-			say = "巨大的能量正在斯卡帕湾内汇聚着。",
+			say = "A massive burst of energy shot forth from the gateway at Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_13",
-			say = "先是一点金光出现，随即一道金色的光柱伴随着骇人的能量在空中划出一道光弧。",
+			say = "The entrance through the Mirror Sea expanded, turning into a huge glowing archway that reached into the skies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,80 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_13",
-			say = "然后光弧在指定区域的半空中切出一个大裂口，仿佛撕裂了空间本身一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_13",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "新泽西",
-			say = "哇哦，比我们之间见到的那次更夸张啊！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_13",
-			say = "如果之前的那次如同在镜子上打出一个小孔的话，现在就如同在时空中撕出了一道大裂隙。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_13",
-			say = "裂隙之内也不是司空见惯的燃烧海域，而是一片……极其独特的空间。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_13",
-			say = "映入眼帘的是由线条构成的建筑，五颜六色的光，无数游走的电流。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_13",
-			say = "仿佛正在窥探某种未来机械内部……也许用电子感来描述这片空间最为恰当。",
+			say = "Beyond the archway was a whole other dimension, more foreign than anything I'd seen before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,8 +55,8 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
-			say = "指挥官，大量塞壬正在从裂隙之内向外涌出！",
+			actorName = "New Jersey",
+			say = "Geesh, that's a lot bigger than the last one I saw...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +70,49 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_13",
-			say = "……何等惊人的数量，这些塞壬一直都隐藏在这片海域中么？",
+			say = "If the gateway was like a door to a parallel world, then this was like a massive crack in spacetime.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_13",
+			say = "It didn't feel like looking through a portal, more like peering behind the curtain of reality.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_13",
+			say = "Before our eyes was a vast cityscape of giant structures, lined with currents that pulsated with light like blood pumping through a heart.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_13",
+			say = "Perhaps the best comparison wasn't to a city, but rather an upscaled motherboard in some futuristic machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,8 +128,39 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
-			say = "没错，这就是隐藏在这片海域中的真正秘密————一处实验机关的塞壬主机。",
+			actorName = "Memphis",
+			say = "Multiple Siren signatures detected across the gateway!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_13",
+			say = "Like an immune system responding to a virus, the Sirens' defenses sprung to life and tried to purge us.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_13",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Friedrich der Große",
+			say = "The tower at the center of this Singularity is the command room where the Sirens control and review their experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,8 +176,8 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
-			say = "我也是花了很久才弄清楚它藏匿的位置，以及破坏其保护装置的手段的。",
+			actorName = "Friedrich der Große",
+			say = "The destruction at Scapa Flow was carried out from here too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
-			say = "虽然不能一劳永逸的解决问题——",
+			actorName = "Friedrich der Große",
+			say = "Now, bringing down this tower will of course not put a stop to the Sirens altogether...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,8 +210,8 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
-			say = "不过，这将会是一个很好的开始，不是么？",
+			actorName = "Friedrich der Große",
+			say = "But it makes for a good target for the start of our rebellion, does it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "全员向着裂隙之内进攻，为NA海域的作战画下一个迟来的句号吧！",
+			say = "\"Attacking the vulnerable brains of their operations rather than the endlessly reproducible vessels... Yes, let's do that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命。我将用炮火，为您开辟一条通向胜利的道路！",
+			say = "I'll clear a path for you! Make sure the Commander's fleet reaches that tower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各航空舰队注意，现在开始对涌出的塞壬机群进行压制，把它们全都堵回去！",
+			say = "Carrier Fleet, focus your fire on the Siren defenses! Don't let them near the Commander's fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解！企业前辈，请见证如今埃塞克斯级航母编队的实力吧！",
+			say = "Understood! Let's see who between you and me can sink the most Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "主力舰编队突击开始，我们要最先进入裂隙之中！为其余舰队开辟道路！",
+			say = "Battleship Fleet'll take care of their turrets and shit! Baltimore, support the carriers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "华盛顿，航空舰队的护卫现在由我们巡洋舰编队负责，你们放心向前冲吧！",
+			say = "Got it! Washington, Commander, be careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "极地舰队也不要落后，我们已经在路上耽误的太久了，接下来必须要拔得头筹才行！",
+			say = "The Northern Parliament fleet will accompany the flagship fleet. We know a thing or two about razing Siren installations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在从未有人涉足的塞壬主机空间中，不知道会收获多少新鲜情报呢~",
+			say = "Damn right. They're nothing a bit of brute force and high-caliber cannons can't fix!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也不要把我忘了哦~指挥官！这次我与我的舰队将会你同行。",
+			say = "Don't forget the girl whose firepower outpaced Compiler's mighty regeneration!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "有最大最强的Black Dragon做护卫，你就安心集中精神指挥吧！",
+			say = "Commander, I'm coming with you! I'll do the shooting so you can focus on the commanding!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知不觉中就变成了这样……感觉已经比NA海域大型作战还要热闹了……",
+			say = "I'm a little salty about being relegated to aerial support, but oh well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘛~这样的展开萨拉妹妹也不讨厌就是了！",
+			say = "You can count on me to do it right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………塞壬主机的位置，应该是不会轻易变动的吧？",
+			say = "\"So, Friedrich, am I right to assume that we need only destroy that tower?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不错。每一处主机的位置都是经过精心设计的。",
+			say = "Your heart already knows the answer. That tower is linked to the events of Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "既然如此……当年毁灭斯卡帕湾的巨大光束肯定也是从这里引导出来的吧……",
+			say = "That is true... Say, what are the chances the light that decimated Scapa Flow came from that tower?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "大概率。与我们刚才的做法类似，如此规模的能量依靠小型移动装置很难实现。",
+			say = "High, I'd say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "那必须要在这里为过去做个了断才行啊……",
+			say = "It seems to me then that one of the reasons we were brought back was to find this tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "既然决定了就赶快出击吧，磨蹭下去的话就要被抢先了哦~",
+			say = "Basically, we gotta take it down ASAP, or we're toast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "放心，里面塞壬的数量足够每个人把弹药打光的。",
+			say = "Indeed. It will take all our combined powers to destroy it. This is why I had you resupply back at Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:91}，你怎么说？",
+			say = "Akagi, will the Sakura Empire be accompanying us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "过去与未来相交相织么……此等场面，自然要进去一看。",
+			say = "Of course we will. I've told you before – I want to see your rondo to its conclusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "差不多也该有些想要参战的冲动了？",
+			say = "But you will only fight if provoked first, I assume?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "谁知道呢。我们的方针不变，在受到攻击之前不会对任何一方率先发动攻击。",
+			say = "We are merely audience members, not the performers. Our role is inherently passive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 307010,
-			say = "{namecode:92}、{namecode:96}、{namecode:39}，出发了。",
+			say = "Kaga, Zuikaku, Jintsuu – come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "居然出现了宛如决战时刻的场景……我已经紧张起来了……！",
+			say = "Man, the sheer scale of this battle... Even just moving forward feels tense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "要是{namecode:95}姐也来了就好了……",
+			say = "If only Shoukaku were here with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "不知道进入裂隙之后会有怎样的命运在等待着我们呢~",
+			say = "Akagi is the reason that she isn't. She doesn't wish to drag others into this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "你越说我越紧张了……",
+			say = "She is? Huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哎呀，我可是在给你打气哦？",
+			say = "The Sakura Empire has not openly declared war on the Sirens – unlike the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,24 +719,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "{namecode:39}收起折扇，轻轻地在{namecode:96}的头像敲打了一下。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 302130,
-			side = 2,
-			bgName = "bg_endingsong_12",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			say = "各阵营齐抛弃隔阂并肩与塞壬作战，这种场面已经很久没有出现过了哦。",
+			say = "Jintsuu nudged Zuikaku's shoulder with her folding fan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +736,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "而且这也是她一直想再次见到的场景……",
+			say = "Think about Lady Nagato, Mikasa, and all the others back home. Akagi wants to avoid involving them in a war that's not theirs to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +753,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "此刻应该昂首挺胸迎接变革之风，向着未来迈进之时岂有畏惧退缩之理？",
+			say = "Still, even though not all of the Sakura Empire is with us, the four of us are here today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +770,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "如果是她的话一定会这么说吧。",
+			say = "Along with many others we considered enemies until not long ago. This must be what she envisioned back then.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 302130,
+			side = 2,
+			bgName = "bg_endingsong_12",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ff5c5c",
+			say = "If she were here, I'm sure she would say something like, \"Don't fear the future, embrace it. Ride the waves of change and see where they take you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "{namecode:39}前辈，你指的她是指……？",
+			say = "Huh? Who are you talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "只是有些老气的自言自语罢了，不用在意~",
+			say = "Oh, nobody in particular. Just reminiscing for old times' sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ff5c5c",
-			say = "这样啊……那我们也赶紧跟上吧！就像当时的公海舰队一样，与昔日之敌一同踏入战场！",
+			say = "Oookay then... Anyway, we'd better hurry. Even if I'm not going to do much fighting myself, I don't want to miss a moment of this huge showdown with the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

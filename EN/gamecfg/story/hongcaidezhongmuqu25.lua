@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "Taking these Sirens down should be worth a lot more than those small fry back in the Mirror Sea.",
+			say = "Taking these Sirens down should be worth a lot more than those small fries back in the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "I, I don't think I'll ever be able to beat the Sirens... I'm just gonna drag everyone down and be a hindrance...",
+			say = "I-I don't think I'll ever be able to beat the Sirens... I'm just gonna drag everyone down and be a hindrance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "Going straight for the enemy's head, huh? A daring strategy - I like it!",
+			say = "Going straight for the enemy's head, huh? A daring strategy – I like it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 307010,
-			say = "尤其是你，{namecode:96}，听到了么？",
+			say = "That goes especially for you, Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

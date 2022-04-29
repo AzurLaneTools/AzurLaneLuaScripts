@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_12",
 			dir = 1,
-			say = "构建者机体拥有厚重的装甲、多层护盾与极高的维修能力以便在激烈的战场中保护构建者的安全。",
+			say = "Equipped with heavy armor, layers of defensive barriers, and powerful regeneration abilities, Compiler is one of the most durable high-ranking Sirens.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "但这也是有限度的。",
+			say = "However, that only means anything against a normal-sized fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "在承受了密集的，远超设计预期的火力后，构建者的防御在短时间内就被彻底瓦解了",
+			say = "Faced with a relentless barrage, the combined forces were able to break through her barriers much faster than she was able to regenerate them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "哦~这就是护盾啊？看上去确实很神奇，不过没有想象中厉害。",
+			say = "\"Weren't your defenses supposed to be impenetrable? What happened to that? Ahahaha!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "打破它轻轻松松~",
+			say = "Now, to pry apart that armor of yours~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "应对装甲层的时候虽然有点吃力，不过也不是不可击穿的！",
+			say = "I'll admit, she's incredibly resilient, but there's no way she'll be able to repair all this damage in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "但是它的进攻方式好烦啊，尤其是那些从水下的伸出来的触手……！",
+			say = "But we still have to watch out for her pesky attacks... Especially those damn tentacles!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "要是单独遇到的话，埃尔宾肯定一根都应付服来……",
+			say = "Those tentacles are going to mess me up and do unspeakable things to me... I already know it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "心智魔方真是神奇的技术……现在我能理解人类是怎么与塞壬战斗到今日的了。",
+			say = "Even a high-spec Siren like her won't be able to do a thing against the combined might of all us shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，你注意到了么？公海舰队的炮火相比我们的能够更好伤害构建者的护盾。",
+			say = "Those new Iron Blood ships seem like they're doing way more damage to her barriers than we are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "嗯……确实是一个值得注意的问题。",
+			say = "\"You're right. Those barriers that completely negate attacks from other ships are getting ripped apart by Emden's attacks.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "难道构建者的护盾没有针对公海舰队的攻击模式做出预设方案？",
+			say = "\"Wait... Is Compiler unable to adapt to their attacks?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "警告：护盾受损过快，充能系统已过载，无法继续修复。",
+			say = "Warning: Barrier module damaged. Energy charger overheating. Unable to sustain repairs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：装甲已被全部击穿，能源核心模块受损。",
+			say = "Warning: Armor destroyed. Damage to core module imminent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一切都结束了，构建者。你和你不知道哪里来的舰队将会再次变为海面上的废墟！",
+			say = "This is the end of the line for you, Compiler. You and your fleet are going straight back to the abyss you came from!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "公海舰队取得完全胜利！",
+			say = "Are we going to score a total victory here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "不……这一切只是个开始。",
+			say = "No... This is just the beginning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "此处相校于预设实验方案的偏差已远超危险阈值。",
+			say = "Deviation from experimental values has risen to a dangerous threshold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "必须要执行清理程序才行……",
+			say = "The reset sequence must be activated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "清理程序必须被执行……",
+			say = "The reset sequence must be activated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不，你已经没机会了。",
+			say = "You won't be able to do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "对于你来说，躯体确实只是没有意义的“容器”。",
+			say = "For you, your body is just another meaningless vessel. No matter how many times you fail, no matter how many times you're destroyed, you will be reborn again and again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你可以失败无数次，毁灭无数次，重生无数次。",
+			say = "By using the reset sequence, you might be able to destroy and recreate this Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "但是你的主机呢？",
+			say = "But what if this place also houses your program's mainframe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "对于机械来说，如果储存着数据的主机受损，你觉得会发生什么事？",
+			say = "What would happen to your data?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "……？！什么……难道这就是你选在这里背叛的原因？！",
+			say = "This place is...?! How did you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "可是你怎么会————",
+			say = "How?! Why?! Without the Sirens, you––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_endingsong_12",
 			dir = 1,
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "猛烈的炮击过后，腓特烈大帝面前的构建者彻底陷入了沉默。",
+			say = "Countless shells rained down on Compiler, the vessel falling silent after her consciousness is transferred away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,11 +561,11 @@ return {
 			},
 			options = {
 				{
-					content = "……为什么不让它把话说完？",
+					content = "\"Why didn't you let her finish?\"",
 					flag = 1
 				},
 				{
-					content = "“主机”是什么意思？",
+					content = "\"What did you mean when you said 'mainframe'?\"",
 					flag = 2
 				}
 			}
@@ -579,7 +579,7 @@ return {
 			actor = 499020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "因为没有必要。",
+			say = "Because I don't care what she had to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#ffff4d",
-			say = "就算不是专业领域的人员，主机的概念你应该多少还是了解的吧。",
+			say = "In layman's terms, the origin of the Sirens. The data center that allows them to operate in this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#ffff4d",
-			say = "你们的领航员-TB系统不也是依靠主机来维持各子节点的运作么？",
+			say = "If we are able to destroy it, the Sirens will lose their anchor to our world and our timeline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "埃吉尔、奥古斯特，现在开始执行最终环节，让阿瓦隆之门的光辉撕裂这片大海吧。",
+			say = "Ägir, August, you know what to do. Blow the gateway wide open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499060,
-			say = "命令已收到。功率投射将在十分钟后正式执行，请各舰队务必远离影响区域。",
+			say = "I shall see to it. Friedrich, evacuate everyone away from the gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499050,
-			say = "万一被卷进去，可不是回船厂大修就能解决的了哦~",
+			say = "If you get caught in its path, it'll cleave you in two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "撕裂这片大海指的又是……？",
+			say = "\"You're going to 'blow it wide open'?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "字面意思。以构建者的残骸为圆心的三海里区域，立刻把你所有的舰队都撤出来。",
+			say = "Quite literally. We will stretch the very fabric of the Mirror Sea and bring Compiler's mainframe to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			actor = 499020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "然后用你们的双眼去见证吧——这一切问题的答案！",
+			say = "Now... Your attention, please. It is time to play the final movement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

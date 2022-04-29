@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "罗马·大教堂",
+			say = "Capital of Sardegna",
 			side = 2,
 			bgName = "bg_midgard_9",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "哈…………哈哈………哈哈哈…………哈哈哈哈……",
+			say = "Bwahaha... Ahahahaha~♪",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "不行……要冷静不能笑…………噗哈哈哈哈！怎么忍得住啊？！",
+			say = "Get a load of this... The Iron Blood declared war against the Sirens! Bwahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "哈哈哈哈哈——！居然会发生这么具有戏剧性的展开……",
+			say = "And now Friedrich der Große stepped down and Bismarck returned from out of nowhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道从哪里冒出来的俾斯麦接过了铁血阵营的领导权？",
+			say = "Ahh, this is too funny... Gotta calm down...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "腓特烈大帝不再管事了？",
+			say = "I couldn't write a better script if I wanted to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "很好……很好…………很好很好很好！",
+			say = "I hear the cries of the world in turmoil... a world that cries out to be RULED!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样一来，终于没有人能够再阻碍我了！",
+			say = "And when I obtain the Crown of the Holy See, I shall then rule with the authority of God!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "尽情欢呼，尽情颂扬吧！",
+			say = "Even the Sirens will bow down before Sardegna's majestic light!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于————",
+			say = "At last, at long last!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 699010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "属于撒丁帝国，属于我马可波罗的时代终于要来临了————",
+			say = "The era of Sardegna... Nay, of Marco Polo, has finally arrived!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

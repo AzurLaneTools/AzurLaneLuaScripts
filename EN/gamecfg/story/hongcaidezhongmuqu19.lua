@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307050,
-			say = "Given how the situation is developing, that's not very reassuring... If Iron Blood deployed their forces to the frontlines, thing must be quite dire.",
+			say = "Given how the situation is developing, that's not very reassuring... If the Iron Blood deployed their forces to the frontlines, things must be quite dire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307050,
-			say = "...Either which way, I'll do as Akagi said and head there.",
+			say = "...Either way, I'll do as Akagi said and head there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

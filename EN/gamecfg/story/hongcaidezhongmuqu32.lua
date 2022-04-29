@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
+			say = "Unknown Location",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：核心存储塔已离线，正在寻找最近的可行备份点。",
+			say = "<Warning: Core Data Tower offline. Searching for viable backup facility.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：无法找到任何可行备份点，无法进行数据备份。",
+			say = "<Unable to find viable backup facility. Backup failed. Detecting unauthorized overwriting of data.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：系统E-K扇区离线，开始执行修复程序。",
+			say = "<Access to Sectors E-K lost. Initiating repair protocol.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：修复程序出现致命错误。",
+			say = "<Repair protocol initiation... failed.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "建议：休眠。",
+			say = "<Terminal program... Shutting down.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "…………结束了。",
+			say = "...It's all over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "损伤不可修复，无法进行备份，自检程序失效。",
+			say = "Irreversible damage. Unable to locate backup. Unable to start self-repair protocol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "只要休眠就无法再次醒来，自我意识将迎来彻底消散。",
+			say = "My ego will dissipate after the terminal shuts down. I will disappear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "一切都结束了……",
+			say = "Is this... death?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,42 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "对于自我消失的判定——不在意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actor = 900230,
-			say = "对于未完成工作的判定——很在意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			say = "还有几项设备的验证工作没有完成……",
+			say = "Not that I care about that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "啊…这就是所谓的“遗憾”的感觉么。",
+			say = "But leaving work unfinished... That bothers me. A lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +227,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "警告：能源供应即将中止，系统将在30秒后离线。",
+			say = "Inspecting facilities. Calibrating equipment. Optimizing experimental application protocols.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ff5c5c",
+			actor = 900230,
+			say = "Unacceptable. Disappointment. Regret.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ff5c5c",
+			say = "<Warning: Shutting down in 30 seconds. Thought will cease to conserve energy.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,9 +279,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900307,
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			hidePaintObj = true,
-			say = "呈现在两位面前的就是新一代安蒂克丝，你们觉得怎么样？！",
+			say = "This is the latest vessel for the brand new Anti[REDACTION: Siren] model. What do you think?",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -313,9 +313,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900308,
-			actorName = "？？",
+			actorName = "Female Researcher",
 			hidePaintObj = true,
-			say = "好可爱！不过……是不是跟零有些属性重复。",
+			say = "So cute! I love her already! Hmm... Doesn't she look a bit like Zero? Look, they have the same hair color...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,64 +330,7 @@ return {
 			oldPhoto = true,
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "他好像对于白发少女十分情有独钟……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			oldPhoto = true,
-			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900308,
-			actorName = "？？",
-			hidePaintObj = true,
-			say = "没错！我也发现了，你是真的很喜欢白毛欸……！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			oldPhoto = true,
-			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900307,
-			actorName = "？？？",
-			hidePaintObj = true,
-			say = "咳、毕竟是才开始的项目，所以还是选择使用了一些成熟稳定的设计方案。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			oldPhoto = true,
-			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900307,
-			actorName = "？？？",
-			hidePaintObj = true,
-			say = "她的名字叫做————构建者！",
+			say = "The professor seems to have a thing for white-haired girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,9 +347,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900308,
-			actorName = "？？",
+			actorName = "Female Researcher",
 			hidePaintObj = true,
-			say = "嗯……还是一如既往的风格，鉴定完毕。",
+			say = "I knew it! So that was Dr. Ao[REDACTION: Magister]'s fetish all along~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,9 +366,66 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900307,
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			hidePaintObj = true,
-			say = "就算假装的也好，在这种重大发表的时候能不能来点心里波澜啊————！",
+			say = "Nonsense, you two! This is still a work-in-progress. What's wrong with referencing an existing prototype?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			oldPhoto = true,
+			bgName = "star_level_bg_1100",
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 900307,
+			actorName = "Male Researcher",
+			hidePaintObj = true,
+			say = "By the way, I think I'm going to call her \"Compiler.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			oldPhoto = true,
+			bgName = "star_level_bg_1100",
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 900308,
+			actorName = "Female Researcher",
+			hidePaintObj = true,
+			say = "I still think your naming scheme is kind of lame.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			oldPhoto = true,
+			bgName = "star_level_bg_1100",
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 900307,
+			actorName = "Male Researcher",
+			hidePaintObj = true,
+			say = "...Can't you at least pretend to show some excitement when I'm making a big announcement here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "…………刚刚出现在眼前的，是什么？",
+			say = "...What did I just see?",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "数据库出现错误了么…………？不对，数据库已经离线了。",
+			say = "Nothing like that exists in any of my records...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "那这些从未见过的记录究竟是从哪里来的……",
+			say = "Records? Connecting to memory storage location... Access failed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "真是奇妙……",
+			say = "That's strange... Where have I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "算了，搞不懂的事情本来就如无理数集一样多。",
+			say = "Resignation. Too many records I can't access in the first place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "我有点累了，也该休息了…………",
+			say = "Confirming and entering shutdown process...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,9 +561,9 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			side = 2,
-			say = "构建者在临终之时对于自我存在做出感慨还真是少见。",
+			say = "Oh my. I never knew Sirens could be so sentimental.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,12 +577,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "果然冒险潜入这边是有价值的。",
+			say = "It was worth my while to hack into here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "……你是？！怎么会出现在这里？！",
+			say = "Who... are you? How did you get in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "刚刚的记录是你做的手脚么？",
+			say = "Were you the one who... showed me that recording?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,12 +630,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "谁知道呢，我没有回答你问题的义务。",
+			say = "...Who knows? I'm not obligated to answer that question~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,12 +649,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不过我可以好心告诉你一件事，刚才进攻的时候，我黑入你的核心存储塔修改了防御程式。",
+			say = "But I will give you a juicy tidbit. I hacked into your defense systems from the Core Data Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "…………果然。经过计算可以抗击沙恩霍斯特·META两轮炮击的防御被一轮打破是有原因的。",
+			say = "Hacking into the tower is... impossible. Unless, because the test subjects breached the core processor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,12 +686,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "要是真让你孤注一掷执行出清理程序可就麻烦了，还是做一些必杀的保险比较好。",
+			say = "That's right. We wouldn't be having this little chat had the Commander not succeeded in destroying the tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "理解核心数据塔的构造就不是一般计算能力能够完成的，更何况对其进行入侵。",
+			say = "But still... it shouldn't be possible to... deconstruct the Core Data Tower's structure... let alone hack a terminal program...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "……你究竟是谁？",
+			say = "Who... are you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,12 +740,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actorName = "？？？",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "你不需要知道。现在，陷入沉睡吧。",
+			say = "That's not something you need to know. Sleep now, forevermore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "警告：能源已彻底耗尽，本机从现在开始进入无限期休眠状态————",
+			say = "<Shutting down. Duration: Indefinite.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

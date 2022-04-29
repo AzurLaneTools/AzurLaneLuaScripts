@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斯卡帕湾周边海域·指挥舰内",
+			say = "Flagship Briefing Room - Near Scapa Flow",
 			side = 2,
 			bgName = "bg_endingsong_11",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			say = "Many messages... Come in...",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			say = "Should Eldridge... read?",
 			typewriter = {
 				speed = 0.05,
@@ -66,7 +66,7 @@ return {
 			},
 			options = {
 				{
-					content = "让埃尔德里奇来读。",
+					content = "\"Sure. Read them out loud for me.\"",
 					flag = 1
 				},
 				{
@@ -77,7 +77,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -239,7 +239,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -257,13 +257,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"Sure. Read them out loud for me.\"",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“我们，决战时候，再见啦……来自，{namecode:199}。”",
+			say = "See you... at Scapa Flow... From New Jersey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "\"Um, thanks, Eldridge. I think I'll read the rest for myself, if you don't mind.\"",
+			say = "\"Um, thanks, Eldridge. I'll read the rest for myself, if you don't mind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_endingsong_11",
 			dir = 1,
 			blackBg = true,
-			say = "I had all the right cards in my hand. All I had to do was bring them to the table.",
+			say = "I had all the right cards in my hand. All I had to do was lay them on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

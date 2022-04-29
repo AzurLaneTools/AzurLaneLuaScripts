@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！重樱舰队加入战斗了！",
+			say = "We've got planes coming in from behind us! It must be the Sakura fleet's air support!",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "重樱舰队终于选择不再冷眼旁观了么……很好，这样我们的胜算又大了一分。",
+			say = "\"Did Akagi finally make up her mind? Great news - that's going to increase our odds of winning.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次是重樱么……那就来看看属于你们的记录吧。",
+			say = "Fools. I will show you your truths as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海雾再次出现了。",
+			say = "Once again, Compiler's vessel blanketed the area with a dense sea fog.",
 			effects = {
 				{
 					active = true,
@@ -77,7 +77,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……啧。",
+			say = "Ugh...!",
 			effects = {
 				{
 					active = true,
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:96}，你的伤……！",
+			say = "Zuikaku, you're badly injured!",
 			effects = {
 				{
 					active = true,
@@ -132,7 +132,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……别管我了，你们快走吧。",
+			say = "Don't worry about me... Get out of here as quickly as you can!",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "话虽如此，行动已经失败，作为诱饵的我们已经无路可逃了吧。",
+			say = "The operation has failed, and we are the decoys. Where are we supposed to run...?",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说的也是，已经无路可逃了呢……",
+			say = "Beats me. Just, anywhere but here...",
 			effects = {
 				{
 					active = true,
@@ -199,7 +199,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到最后，我们好像都没帮上大家什么忙呢，啊哈哈……",
+			say = "Haha... I was so gung-ho about making a heroic last stand... But I couldn't do anything at all...",
 			effects = {
 				{
 					active = true,
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "更多的敌方舰载机过来了，{namecode:96}，{namecode:103}姐，你们还有飞机么……",
+			say = "There are more enemy planes coming at us! Chitose, Zuikaku, do you have any planes left?",
 			effects = {
 				{
 					active = true,
@@ -244,7 +244,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没有了。我们已经没有任何反击的能力，也没有任何反击的必要了……",
+			say = "Of course not. We never had a chance to begin with... We all knew that, didn't we?",
 			effects = {
 				{
 					active = true,
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:103}姐，我的身体好沉……",
+			say = "I'm scared, Chitose... I can't feel my body anymore...",
 			effects = {
 				{
 					active = true,
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没事的，我会陪在你的身边的，让我们共赴黄泉吧。",
+			say = "It's okay, Chiyoda. I'll... always be with you...",
 			effects = {
 				{
 					active = true,
@@ -312,7 +312,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:95}姐，再等我一下，我们很快就能重逢了……",
+			say = "Shoukaku... I'll be able to see you again, soon...",
 			effects = {
 				{
 					active = true,
@@ -331,7 +331,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……伴随着炸弹的呼啸声，海雾中的重樱舰队一艘接一艘消失在爆炸与火光中。",
+			say = "The shadows of the Sakura Empire's carriers rumbled and burst into flames before vanishing beneath the waves.",
 			effects = {
 				{
 					active = true,
@@ -353,7 +353,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那些……是白鹰的舰载机？",
+			say = "Keep your wits about you, Zuikaku. She's trying to get into your head.",
 			effects = {
 				{
 					active = false,
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次莫名其妙幻象的主角变成我们了么？",
+			say = "...I know. I've heard about a similar thing happening to the Eagle Union fleet inside the Bermuda Triangle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "白鹰的航空力量确实强大的，但我们也一样！",
+			say = "I'll be alright, Jintsuu. I know those illusions aren't really us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且用缺乏护卫的航母编队进行诱敌……？就算{namecode:91}前辈脑子真昏了头也不会做出这种决定的！",
+			say = "Right now, we're all allies... And we're even stronger when we fight together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这种景象在过去没有发生过，在未来也绝不会发生！",
+			say = "So something like this will never happen – and I'll fight to make sure of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "构建者，不要在继续用蛊惑人心的幻象拖延时间了！我们是不会动摇的。",
+			say = "Don't be deceived by her illusions, everyone! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "经历之事未必是真实的，未经历之事未必是虚假的。记录不会说谎。",
+			say = "What I have shown you is the truth. What you have experienced is false. History does not lie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "{namecode:91}，你不是早就明白了么。",
+			say = "You know this to be true, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "明白了，还要做出如此选择，无法理解。",
+			say = "After all, your reality is different from Zuikaku's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "………………",
+			say = "Hahaha... Ahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵，不要太得意忘形了，我们之间的关系自始至终都是相互利用而已。",
+			say = "How disappointing, Siren. Our relationship goes no deeper than mutually exploiting one another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你对我们发动攻击，我们进行反击是理所应当的。",
+			say = "You're mistaken if you think you can freely manipulate me to your convenience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "重樱舰队全员准备战斗，粉碎构建者。给我打出重樱舰队的气势来！",
+			say = "You have my permission to go all out. Let's show these Sirens the pride of the Sakura Empire!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -584,7 +584,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "领命。",
+			say = "Heh. Well said.",
 			effects = {
 				{
 					active = true,
@@ -606,7 +606,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，这才像是前辈们的一贯作风嘛————！",
+			say = "That's the Akagi I know!",
 			effects = {
 				{
 					active = false,

@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "Only a few days have passed since I returned from the Star of Seas… but I am still reeling from what I experienced there over those short few hours.",
+			say = "Only a few days have passed since I returned from the Sea of Stars... but I am still reeling from what I experienced there over those short few hours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "How is it possible for a plan of that scope to be kept secret for so long…",
+			say = "How is it possible for a plan of that scope to be kept secret for so long...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "Supposedly, the plan itself was set in motion before the war even began…",
+			say = "Supposedly, the plan itself was set in motion before the war even began...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "Many of the technological leaps made recently were actually tied to the servicing of the Star of Seas project.",
+			say = "Many of the technological leaps made recently were actually tied to the servicing of the Sea of Stars project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "But looking at it from another angle…",
+			say = "But looking at it from another angle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahem… Commander, are you listening?",
+			say = "Ahem... Commander, are you listening?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "\"Oh…\"",
+			say = "\"Oh...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_endingsong_1",
 			dir = 1,
 			optionFlag = 1,
-			say = "\"Sorry… My mind actually wandered off for a bit.\"",
+			say = "\"Sorry... My mind actually wandered off for a bit.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "*sigh*…",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Eldridge… will fetch a pillow.",
+			say = "Eldridge... will fetch a pillow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
-			say = "\"Thanks, but I'm good. It's probably better not to promote sleeping on the job…\"",
+			say = "\"Thanks, but I'm good. It's probably better not to promote sleeping on the job...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
-			say = "Apparently, it had been updated several times during the duration I was thinking about other things…",
+			say = "Apparently, it had been updated several times during the duration I was thinking about other things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
-			say = "\"The Northern Parliament fleets look a lot bigger than expected… What about holding down the Polar front?\"",
+			say = "\"The Northern Parliament fleets look a lot bigger than expected... What about holding down the Polar front?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 					flag = 5
 				},
 				{
-					content = "\"And finally, can we expect anything from the Dragon Empery?\"",
+					content = "\"Can we expect anything from the Dragon Empery?\"",
 					flag = 6
 				}
 			}
@@ -763,7 +763,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 6,
-			say = "The who…?",
+			say = "The who...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Uhh… Well, how do I put it… I was expecting to be on the front lines, doing something a bit more… glorious? Never expected I'd end up as the command ship and combat secretary.",
+			say = "Uhh... Well, how do I put it... I was expecting to be on the front lines, doing something a bit more... glorious? Never expected I'd end up as the command ship and combat secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "And to me, the Iron Blood always seems to have this capricious, unpredictable element to them… Until the dust settles, we don't know what tricks they'll have up their sleeve.",
+			say = "And to me, the Iron Blood always seems to have this capricious, unpredictable element to them... Until the dust settles, we don't know what tricks they'll have up their sleeve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Uhh, about Eldridge, she's…",
+			say = "Uhh, about Eldridge, she's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,7 +1117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Zzzz…",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1149,7 +1149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm… Commander, you still look pretty worn-out yourself.",
+			say = "Hmm... Commander, you still look pretty worn-out yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "\"I think I'll take you up on that bit of advice…\"",
+			say = "\"I think I'll take you up on that bit of advice...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499020,
-			say = "\"Operation Siren\" –– the Siren base that we captured, was never a base in the first place.",
+			say = "\"Operation Siren\" –– the Siren \"base\" that you captured, was never a base in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "……………………",
+			say = "\"Actually, we had a bit of outside help too.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499020,
-			say = "Omitter conducts field tests of experimental weapons, as well as carrying out repairs and upgrades.",
+			say = "Omitter conducts field tests of experimental weapons, as well as carries out repairs and upgrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499020,
-			say = "How is it possible that the Iron Blood, ravaged and destitute from the last great war, would ascend over the other camps technologically in such a short period of time?",
+			say = "How is it possible that the Iron Blood, ravaged and destitute from the last great war, would ascend over the other factions technologically in such a short period of time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,7 +947,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499020,
-			say = "为什么东煌的海岸线上会突然出现那堵不可逾越的「大风暴」？",
+			say = "The reason is the same – the Sirens chose these things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1830,7 +1830,7 @@ return {
 			actor = 499020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "But there is something I must attend to first. Best of luck to you––",
+			say = "But there is something I must attend to first. Best of luck to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

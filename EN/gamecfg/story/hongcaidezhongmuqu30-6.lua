@@ -9,7 +9,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			continueBgm = true,
 			dir = 1,
 			bgm = "battle-inthememory",
@@ -64,7 +64,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "沙恩霍斯特·META的炮击在塔的内部引发了一连串爆炸，爆炸产生的巨大尘埃云几乎将塔完全吞没。",
+			say = "The concerto of barrages from the Iron Blood, Eagle Union, and Sakura Empire ships was bolstered by the Ashes' sheer firepower. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……居然一轮炮击就击穿了？！",
+			say = "A stubborn one, aren't we? Wait... We broke through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所有人注意，准备迎接冲击！",
+			say = "Everyone, brace for impact!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "塔身上强烈的光芒突然聚集成一点，在光点的周围，圆形的光晕有节奏地跳动了几下。",
+			say = "The lights from the tower converged into a single point, becoming a circular aura that convulsed several times.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "然后球形的半透明“场”开始向外侧极速扩散，随之而来的爆炸声仿佛撕裂了海天。",
+			say = "In an instant, an invisible shockwave rippled out from the tower, followed by a massive explosion that shook the sky and the sea around Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "爆炸之后，塔变为了难以辨认的残骸，海域中的所有塞壬单位也同时停止了行动。",
+			say = "When the smoke cleared, only a pile of rubble remained at the original site of the tower.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "构建者的核心数据塔，确认摧毁。",
+			say = "Compiler's tower has been leveled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "哇哦，真是华丽的收尾！META战列舰的实力真是令人大开眼界！",
+			say = "(That person is... a META battleship? But why would she be taking orders from the Iron Blood?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家注意，失去动力的塞壬舰载机正在从空中坠落，各舰注意规避，不要被伤到了！",
+			say = "Watch out, everyone! All the Siren aircraft are going out of control and crashing! Find someplace safe to retreat to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解~最后关头还不让人省心，要是在这种时候被砸伤可要错过庆功宴了。",
+			say = "They're gonna be a thorn in our side even after we win, huh? We've already made it this far, so don't get yourselves hurt now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "埃尔德里奇……高兴。",
+			say = "Eldridge... will keep zapping things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你的表现的很棒哦，埃尔德里奇。",
+			say = "Great job keeping the Commander safe, Eldridge. The flagship is a big target compared to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……埃尔德里奇……想要保护指挥官。",
+			say = "Mm... Eldridge... will protect Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是一场出色的战斗，指挥官同志。",
+			say = "You led an excellent battle, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "胜利了……？！！面对这种强的乱七八糟的敌人我们居然胜利了么？",
+			say = "I-I can't believe I didn't get blown to bits by the Sirens... It must be some kind of fluke...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "太美好了……我一定是在做梦吧……",
+			say = "It's all thanks to you, Emden, for waking the Commander up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是现实哦，埃尔宾。我们战胜了无法想象的强敌，然后赢得了胜利。",
+			say = "Hmm? I didn't do anything in particular. My darling human is quite resilient, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "好累……我感觉已经彻底燃尽了……记得把我拖回去，塞德利茨zZZZ",
+			say = "Ugh, I'm totally wiped... Hey, Seydlitz, mind giving me a piggyback ride?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没问题，吕佐夫小姐。",
+			say = "I suppose it wouldn't kill me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过有人马上就要进入梦乡了就是了……",
+			say = "\"Keep what just happened between the three of us, human~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这样就算是赢得胜利了么……?",
+			say = "(What happened right before I was about to collapse when the superweapon was going to launch...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没错，我们胜利了。",
+			say = "We've won, my child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这是这么多年以来，我们对抗塞壬的第一场真正意义上的胜利。",
+			say = "For the first time ever, we've scored a real victory against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是不错的调度能力，我都想把你挖过来帮我办事了。",
+			say = "We've never been able to do more than push them back in the past. But now, we've eliminated one of their program terminals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "怎么样，要不要考虑来我这里当指挥官？",
+			say = "Say, won't you accompany me back home and assist the Iron Blood as we walk this new path?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,11 +500,11 @@ return {
 			},
 			options = {
 				{
-					content = "表示同意",
+					content = "\"You know I can't do that.\"",
 					flag = 1
 				},
 				{
-					content = "果断拒绝",
+					content = "\"Let me sleep on the idea first.\"",
 					flag = 2
 				}
 			}
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "其实……我期待这一刻已经很久了。",
+			say = "I'm well aware. As the Commander, you are not bound by faction loyalty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "呵呵，心里话最好还是藏在心里比较好哦，碧蓝航线的指挥官。",
+			say = "Entertain the idea, though. Let's suppose you were to formally ally with the Iron Blood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#ffff4d",
-			say = "你要是真的来了我这边，恐怕今天我们所有人都走不出这片海域了。",
+			say = "Well, I suppose first of all there'd be a massive outcry from girls of all factions. It'd be even worse than the time you stayed in the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#ffff4d",
-			say = "那还真是令人遗憾。",
+			say = "Of course. I need some time to prepare for a potential \"yes,\" myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "不过我这个提案不会过期哟，你可以慢慢考虑~",
+			say = "Though I certainly wouldn't mind accomodating you at my own place until I can arrange something proper, my child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……铁血之后打算走向何方？",
+			say = "\"Now that Bismarck is back in power, what direction do you expect the Iron Blood to go in?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "如你所见，如你所听。",
+			say = "Our course for the future? Excellent question. You'll see for yourself, sooner or later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "接下来的铁血要重新在俾斯麦的领导下前进了，具体的细节去问她吧。",
+			say = "Or you could ask Bismarck. She may just spill the beans to you, my child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "………………这还真是突然的变化，那你之后打算走向何方？",
+			say = "\"Are you hinting at some kind of departure from the Iron Blood on your part?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不用担心我，我自有安排。",
+			say = "Don't be silly. I just want to resume working behind the scenes, where I do best. I don't belong in front of a podium.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "对了，最后再送你一个情报吧————萨默斯岛。",
+			say = "Before I go, let me leave you with a gift. You'll want to pay a visit to Samos Island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "有时间的话去仔细调查一下如何？",
+			say = "All I can say is that you'll find something of intrigue there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……哪里有什么么？",
+			say = "\"Something of intrigue, huh. That's so vague I'm not sure what to think of it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "谁知道呢。",
+			say = "If I knew what it is, I would tell you a little more. Sadly, I don't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "好了，你们差不多该回去了。离开这里，享受欢呼与凯旋吧。",
+			say = "Now, shouldn't you be returning to the Azur Lane? Your girls are waiting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次你们从正面堂堂正正击败了全力应战的塞壬构建者，昂首挺胸起来哟。",
+			say = "Be proud of yourself, my child. Don't forget you are directly responsible for the elimination of a key Siren.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……那就祝你好运了，铁血的腓特烈大帝。",
+			say = "The Iron Blood's declaration of war on the Sirens came as a surprise to everyone, most likely even Naval HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "破败的塔下，庞大的碧蓝航线舰队与赤色中轴舰队分离，向着出口的方向驶去。",
+			say = "What might they be saying right now behind closed conference room doors? That was a question for future me to answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "外部世界的光顺着裂隙处照了进来，刺眼，又和煦——",
+			say = "Later that day, the Azur Lane and the Crimson Axis, both ostensibly still at war with one another, met in Scapa Flow harbor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这一次，所有人都终于可以在阳光下睡个好觉了吧。",
+			say = "Before both sides sailed home, they exchanged brief pleasantries – and a promise. A promise to never forget this day that they fought side by side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
