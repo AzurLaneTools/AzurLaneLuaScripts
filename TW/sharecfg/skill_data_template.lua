@@ -26861,7 +26861,7 @@ pg.skill_data_template = {
 	},
 	[12220] = {
 		desc_get = "",
-		name = "純潔之光 ",
+		name = "純潔之光",
 		id = 12220,
 		type = 3,
 		max_level = 10,

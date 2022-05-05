@@ -18634,7 +18634,7 @@ _G.pg.gametip.battle_result_quit_battle = {
 }
 
 _G.pg.gametip.battle_result_share_battle = {
-	tip = "分 享 战 绩"
+	tip = "分 享 戰 績 "
 }
 
 _G.pg.gametip.pre_combat_team = {

@@ -3760,7 +3760,7 @@ pg.ship_skin_template_15 = {
 	},
 	[605010] = {
 		ship_group = 60501,
-		name = "維內托",
+		name = "維托里奧·維內托",
 		bullet_skin_secondary = "",
 		hand_id = 1,
 		bgm = "",

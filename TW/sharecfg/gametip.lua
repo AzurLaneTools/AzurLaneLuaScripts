@@ -17134,41 +17134,41 @@ cs.gametip = {
 	},
 	battle_result_share_battle = {
 		540750,
-		96,
+		97,
 		true
 	},
 	pre_combat_team = {
-		540846,
+		540847,
 		82,
 		true
 	},
 	pre_combat_vanguard = {
-		540928,
+		540929,
 		86,
 		true
 	},
 	pre_combat_main = {
-		541014,
+		541015,
 		82,
 		true
 	},
 	pre_combat_submarine = {
-		541096,
+		541097,
 		87,
 		true
 	},
 	destroy_confirm_access = {
-		541183,
+		541184,
 		84,
 		true
 	},
 	destroy_confirm_cancel = {
-		541267,
+		541268,
 		84,
 		true
 	},
 	pt_count_tip = {
-		541351,
+		541352,
 		73,
 		true
 	}
