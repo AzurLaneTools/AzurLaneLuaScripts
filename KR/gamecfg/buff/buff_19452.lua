@@ -37,6 +37,16 @@ return {
 				attr = "isInvincible",
 				number = 1
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "isInvincible_1"
+			}
 		}
 	}
 }

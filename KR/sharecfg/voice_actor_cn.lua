@@ -1235,5 +1235,25 @@ pg.voice_actor_CN = {
 	{
 		code = 309,
 		actor_name = "Nichika Ōmori"
+	},
+	{
+		code = 310,
+		actor_name = "Inoue Honoka"
+	},
+	{
+		code = 311,
+		actor_name = "Tanaka Yuki"
+	},
+	{
+		code = 312,
+		actor_name = "Mikami Shiori"
+	},
+	{
+		code = 313,
+		actor_name = "Sekine Akira"
+	},
+	{
+		code = 314,
+		actor_name = "Sugiyama Riho"
 	}
 }

@@ -4944,6 +4944,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[225] = {
+		spine_extra = "",
+		describe = "눈에 띄는 독수리 인장은 메탈 블러드의 거침 없는 의지를 상징한다. 「레인보우 피날레」 작전에서 우수한 업적을 세운 자에게 수여하는 기념장.",
+		gain_by = "레인보우 피날레",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "gonghaixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "레인보우 기념장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/gonghaixunzhang",
+		canputon = 0,
+		id = 225,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -6778,7 +6815,7 @@ pg.furniture_data_template = {
 	},
 	[100027] = {
 		spine_extra = "",
-		describe = "거품을 타고~ 높이 날자~",
+		describe = "거품을 타고~ 멀리 날아가자~",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -6788,7 +6825,7 @@ pg.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "쥬쥬 거품 비행기",
+		name = "쥬쥬 거품기",
 		themeId = 0,
 		icon = "paopaojiicon",
 		deblocking = 1,
@@ -7409,6 +7446,80 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100036] = {
+		spine_extra = "",
+		describe = "과학의 수수께끼를 풀자쥬!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "라이트닝 볼 제네레이터",
+		themeId = 0,
+		icon = "qiuzhuangshandianfashengqiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100036,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiuzhuangshandianfashengqiB",
+				"normal"
+			},
+			{
+				"qiuzhuangshandianfashengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -96835,6 +96946,1028 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[88001] = {
+		spine_extra = "",
+		describe = "후후… 내 성에 온 걸 환영한다…쥬",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "뱀파이어 캐슬 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanxxgicon",
+		spine_action_replace = "",
+		picture = "xxg/dibanxxg",
+		comfortable = 4,
+		canputon = 0,
+		id = 88001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88002] = {
+		spine_extra = "",
+		describe = "후후… 내 성에 온 걸 환영한다…쥬",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "뱀파이어 캐슬 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbixxgicon",
+		spine_action_replace = "",
+		picture = "xxg/qiangbixxg",
+		comfortable = 4,
+		canputon = 0,
+		id = 88002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88101] = {
+		spine_extra = "",
+		describe = "금화는 가짜에요. 진짜 보물은 이렇게 잘 보이는 곳에 두지 않아요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baoxiangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 상자",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/baoxiangxxg",
+		canputon = 0,
+		id = 88101,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88102] = {
+		spine_extra = "",
+		describe = "크게… 얘기해야 말 소리가 들려요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "changzhuoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "정찬 테이블",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/changzhuoxxg",
+		canputon = 0,
+		id = 88102,
+		can_rotate = 0,
+		size = {
+			10,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88103] = {
+		spine_extra = "",
+		describe = "고급스러워 보이는 카펫.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "ditanxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "붉은 카펫",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/ditanxxg",
+		canputon = 0,
+		id = 88103,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88105] = {
+		spine_extra = "",
+		describe = "야밤의 독주곡을… 연주해볼까?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gangqinxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "클래식 피아노",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/gangqinxxg",
+		canputon = 0,
+		id = 88105,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88106] = {
+		spine_extra = "",
+		describe = "캐슬의 스타일에 맞는 계단.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gaotailoutixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 계단",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/gaotailoutixxg",
+		canputon = 0,
+		id = 88106,
+		can_rotate = 0,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88107] = {
+		spine_extra = "",
+		describe = "잠들기에… 좋아 보여요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guancaichuangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "관짝 침대",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/guancaichuangxxg",
+		canputon = 0,
+		id = 88107,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-30,
+					-47
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/guancaichuangxxg_using",
+				0,
+				{
+					{
+						27.6,
+						37.2
+					},
+					{
+						320.3,
+						360.6
+					},
+					"xxg/guancaichuangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88108] = {
+		spine_extra = "",
+		describe = "만약 불이 꺼지면…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "huobazhuzixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 기둥",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/huobazhuzixxg",
+		canputon = 0,
+		id = 88108,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88110] = {
+		spine_extra = "",
+		describe = "저게 누구야? 저건… 악마… 악마쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiuemoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "악마쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/jiujiuemoxxg",
+		canputon = 0,
+		id = 88110,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88111] = {
+		spine_extra = "",
+		describe = "금방이라도 움직일 것만 같아요…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiujiushixiangguixxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "가고일쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/jiujiushixiangguixxg",
+		canputon = 0,
+		id = 88111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88112] = {
+		spine_extra = "",
+		describe = "와인을 쏟으면 벌 받을 준비해쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiutongxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 와인통",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/jiutongxxg",
+		canputon = 0,
+		id = 88112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88113] = {
+		spine_extra = "",
+		describe = "금방이라도 움직일 것만 같아요…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kaijiaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "철갑쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/kaijiaxxg",
+		canputon = 0,
+		id = 88113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88114] = {
+		spine_extra = "",
+		describe = "분위기를 조절해줘요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lazhujiaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 촛불",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/lazhujiaxxg",
+		canputon = 0,
+		id = 88114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88116] = {
+		spine_extra = "",
+		describe = "침입자를 꼼짝 못하게 하는 마법진.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "liumangxingfazhenxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 마법진",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/liumangxingfazhenxxg",
+		canputon = 0,
+		id = 88116,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					7,
+					-60
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88117] = {
+		spine_extra = "",
+		describe = "침입자여, 이름을 대라!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wangzuoxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 왕좌",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/wangzuoxxg",
+		canputon = 0,
+		id = 88117,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1.3,
+					-44.7
+				},
+				{
+					-1,
+					1
+				},
+				"xxg/wangzuoxxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88118] = {
+		spine_extra = "",
+		describe = "함정이다아아아아아——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xianjingxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 함정",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/xianjingxxg",
+		canputon = 0,
+		id = 88118,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88119] = {
+		spine_extra = "",
+		describe = "편안하게 목욕하세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yugangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "장미 욕조",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xxg/yugangxxg",
+		canputon = 0,
+		id = 88119,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-48.4,
+					-96.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/yugangxxg_using",
+				0,
+				{
+					{
+						16.1,
+						8.4
+					},
+					{
+						300,
+						390
+					},
+					"xxg/yugangxxg_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88120] = {
+		spine_extra = "",
+		describe = "앉아도 별로 편하지 않아 보여요…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuoyi1xxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 의자(정면)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/zuoyi1xxg",
+		canputon = 0,
+		id = 88120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					15.2,
+					-27.4
+				},
+				{
+					1,
+					1
+				},
+				"xxg/zuoyi1xxg_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88123] = {
+		spine_extra = "",
+		describe = "앉아도 별로 편하지 않아 보여요…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuoyi2xxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 의자(후면)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/zuoyi2xxg",
+		canputon = 0,
+		id = 88123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88126] = {
+		spine_extra = "",
+		describe = "이게 바로 용자만이 뽑을 수 있다는…… 함정이다아아아아아——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 88,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "shizhongjianxianjingicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "엑스칼리버(함정)",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 88126,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongjianxianjing",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[88301] = {
+		spine_extra = "",
+		describe = "으… 오래 매달려 있으니까 힘들다쥬…",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "bianfujiuxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "박쥐쥬",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/bianfujiuxxg",
+		canputon = 0,
+		id = 88301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88303] = {
+		spine_extra = "",
+		describe = "밤의 어둠이… 점점 짙어지고 있어요——",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuangxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 창문",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/chuangxxg",
+		canputon = 0,
+		id = 88303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88304] = {
+		spine_extra = "",
+		describe = "눈이… 움직인 것 같은데?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guahuaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐슬 벽화",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xxg/guahuaxxg",
+		canputon = 0,
+		id = 88304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[88305] = {
+		spine_extra = "",
+		describe = "까악, 침입자다, 까악!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 88,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "wuyaxxgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "까마귀 간수",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xxg/wuyaxxg",
+		canputon = 0,
+		id = 88305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -96939,6 +98072,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100002,
 			100003,
 			100004,
@@ -96973,6 +98107,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			200001,
 			200002,
 			200003,
@@ -97093,6 +98228,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100002,
 			100003,
 			100004,
@@ -97127,6 +98263,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			200001,
 			200002,
 			200003,
@@ -101343,6 +102480,58 @@ pg.furniture_data_template = {
 			87127,
 			87130,
 			87131
+		},
+		[88] = {
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305,
+			88001,
+			88002,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_tag = {
@@ -102738,7 +103927,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88103,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123
 		},
 		{
 			1108,
@@ -102979,6 +104186,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100002,
 			100003,
 			100004,
@@ -103013,6 +104221,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			54104,
 			54105
 		},
@@ -103138,7 +104347,8 @@ pg.furniture_data_template = {
 			84185,
 			84186,
 			85126,
-			86122
+			86122,
+			88126
 		},
 		[4] = {
 			1001,
@@ -103211,7 +104421,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[3] = {
 			1002,
@@ -103285,7 +104496,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[5] = {
 			1301,
@@ -103540,7 +104752,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		}
 	},
 	get_id_list_by_type = {
@@ -103616,7 +104832,8 @@ pg.furniture_data_template = {
 			84002,
 			85002,
 			86002,
-			87002
+			87002,
+			88002
 		},
 		[7] = {
 			1,
@@ -103708,6 +104925,7 @@ pg.furniture_data_template = {
 			220,
 			221,
 			222,
+			225,
 			100002,
 			100004,
 			100005,
@@ -103732,7 +104950,8 @@ pg.furniture_data_template = {
 			100029,
 			100031,
 			100033,
-			100035
+			100035,
+			100036
 		},
 		[2] = {
 			122,
@@ -105110,7 +106329,25 @@ pg.furniture_data_template = {
 			87126,
 			87127,
 			87130,
-			87131
+			87131,
+			88101,
+			88102,
+			88105,
+			88106,
+			88107,
+			88108,
+			88110,
+			88111,
+			88112,
+			88113,
+			88114,
+			88116,
+			88117,
+			88118,
+			88119,
+			88120,
+			88123,
+			88126
 		},
 		[11] = {
 			131,
@@ -105229,7 +106466,8 @@ pg.furniture_data_template = {
 			84001,
 			85001,
 			86001,
-			87001
+			87001,
+			88001
 		},
 		[5] = {
 			1101,
@@ -105344,7 +106582,8 @@ pg.furniture_data_template = {
 			85102,
 			86106,
 			86119,
-			87116
+			87116,
+			88103
 		},
 		[3] = {
 			1108,
@@ -105732,7 +106971,11 @@ pg.furniture_data_template = {
 			85307,
 			85308,
 			85309,
-			86301
+			86301,
+			88301,
+			88303,
+			88304,
+			88305
 		},
 		[8] = {
 			17121
@@ -105860,6 +107103,7 @@ pg.furniture_data_template = {
 		220,
 		221,
 		222,
+		225,
 		100002,
 		100003,
 		100004,
@@ -105894,6 +107138,7 @@ pg.furniture_data_template = {
 		100033,
 		100034,
 		100035,
+		100036,
 		200001,
 		200002,
 		200003,
@@ -107937,6 +109182,31 @@ pg.furniture_data_template = {
 		87126,
 		87127,
 		87130,
-		87131
+		87131,
+		88001,
+		88002,
+		88101,
+		88102,
+		88103,
+		88105,
+		88106,
+		88107,
+		88108,
+		88110,
+		88111,
+		88112,
+		88113,
+		88114,
+		88116,
+		88117,
+		88118,
+		88119,
+		88120,
+		88123,
+		88126,
+		88301,
+		88303,
+		88304,
+		88305
 	}
 }

@@ -7709,6 +7709,78 @@ pg.activity_ins_template = {
 			2643
 		}
 	},
+	[295] = {
+		ship_group = 40207,
+		name = "Emden ",
+		sculpture = "aimudeng",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 295,
+		id = 295,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[296] = {
+		ship_group = 40404,
+		name = "Lützow ",
+		sculpture = "lvzuofu",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 296,
+		id = 296,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[297] = {
+		ship_group = 40208,
+		name = "Elbing ",
+		sculpture = "aierbin",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 297,
+		id = 297,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[298] = {
+		ship_group = 40311,
+		name = "Yorck ",
+		sculpture = "yueke_ger",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 298,
+		id = 298,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[299] = {
+		ship_group = 40504,
+		name = "Thüringen ",
+		sculpture = "tulingen",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 299,
+		id = 299,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[300] = {
+		ship_group = 40403,
+		name = "Seydlitz ",
+		sculpture = "saidelici",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 300,
+		id = 300,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -8001,6 +8073,12 @@ pg.activity_ins_template = {
 		291,
 		292,
 		293,
-		294
+		294,
+		295,
+		296,
+		297,
+		298,
+		299,
+		300
 	}
 }

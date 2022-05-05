@@ -19,7 +19,8 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	uv1.Battle.PlayBattleSFX(slot7:GetTemplate().hit_sfx)
 	slot7:BuffTrigger(uv1.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_BANG, {
 		_bullet = slot7,
-		equipIndex = slot7:GetWeapon():GetEquipmentIndex()
+		equipIndex = slot7:GetWeapon():GetEquipmentIndex(),
+		bulletTag = slot7:GetExtraTag()
 	})
 
 	slot11 = nil

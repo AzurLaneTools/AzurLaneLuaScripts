@@ -14,7 +14,8 @@ function slot1.OutRangeFunc(slot0)
 
 	slot0:BuffTrigger(uv1.Battle.BattleConst.BuffEffectType.ON_BOMB_BULLET_BANG, {
 		_bullet = slot0,
-		equipIndex = slot0:GetWeapon():GetEquipmentIndex()
+		equipIndex = slot0:GetWeapon():GetEquipmentIndex(),
+		bulletTag = slot0:GetExtraTag()
 	})
 
 	slot6 = nil

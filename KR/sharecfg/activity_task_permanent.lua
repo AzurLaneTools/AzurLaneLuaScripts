@@ -238,13 +238,13 @@ pg.activity_task_permanent = {
 		}
 	},
 	[6010] = {
-		gametip = "새러토가 한정 스킨 「이국의 아이돌?」 획득 가능",
+		gametip = "可获得萨拉托加限定换装「异国的偶像？」",
 		banner_route = "permanent_salatuojia",
-		gametip_extra = "9일만에 획득 가능",
+		gametip_extra = "最快9日获得",
 		over_pt = 0,
 		task_extra = "",
 		id = 6010,
-		activity_name = "이국의 아이돌?",
+		activity_name = "异国的偶像？",
 		over_task_id = "",
 		eliminate_task_id = {}
 	},

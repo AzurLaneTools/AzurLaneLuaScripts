@@ -5844,6 +5844,9 @@ function temp()
 		},
 		["베"] = {
 			this = true
+		},
+		["빙"] = {
+			this = true
 		}
 	}
 end
@@ -6998,6 +7001,21 @@ function temp()
 							}
 						}
 					}
+				},
+				["프"] = {
+					["린"] = {
+						["츠"] = {
+							[" "] = {
+								["오"] = {
+									["이"] = {
+										["겐"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -7927,6 +7945,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["르"] = {
+			["크"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8591,6 +8614,15 @@ function temp()
 			["이"] = {
 				["카"] = {
 					this = true
+				}
+			}
+		},
+		["이"] = {
+			["틀"] = {
+				["리"] = {
+					["츠"] = {
+						this = true
+					}
 				}
 			}
 		}
@@ -10246,6 +10278,38 @@ function temp()
 	uv0["임"] = {
 		["페"] = {
 			["로"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["엠"] = {
+		["덴"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["뤼"] = {
+		["초"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["튀"] = {
+		["링"] = {
+			["겐"] = {
 				this = true
 			}
 		}

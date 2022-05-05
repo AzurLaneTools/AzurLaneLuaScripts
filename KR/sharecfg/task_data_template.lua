@@ -152304,6 +152304,3025 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[17511] = {
+		name = "『公海舰队』角色收集：埃姆登",
+		guild_coin_award = 0,
+		award = 97240,
+		type = 6,
+		desc = "[엠덴] 한계돌파MAX 달성",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "402074",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17511,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				600
+			}
+		}
+	},
+	[17512] = {
+		name = "『公海舰队』角色收集：吕佐夫",
+		guild_coin_award = 0,
+		award = 97241,
+		type = 6,
+		desc = "[뤼초] 한계돌파MAX 달성",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "404044",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17512,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				600
+			}
+		}
+	},
+	[17513] = {
+		name = "『公海舰队』角色收集：塞德利茨",
+		guild_coin_award = 0,
+		award = 97242,
+		type = 6,
+		desc = "[자이틀리츠] 한계돌파MAX 달성",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "404034",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17513,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				600
+			}
+		}
+	},
+	[17514] = {
+		name = "『公海舰队』角色收集：埃尔宾",
+		guild_coin_award = 0,
+		award = 97243,
+		type = 6,
+		desc = "[엘빙] 한계돌파MAX 달성",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "402084",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17514,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				400
+			}
+		}
+	},
+	[17515] = {
+		name = "『公海舰队』角色收集：约克",
+		guild_coin_award = 0,
+		award = 97244,
+		type = 6,
+		desc = "[요르크] 한계돌파MAX 달성",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "403114",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17515,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				400
+			}
+		}
+	},
+	[17516] = {
+		name = "『公海舰队』角色收集：图林根",
+		guild_coin_award = 0,
+		award = 97245,
+		type = 6,
+		desc = "[튀링겐] 한계돌파MAX 달성",
+		count_inherit = 0,
+		sub_type = 35,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "405044",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17516,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				400
+			}
+		}
+	},
+	[17517] = {
+		name = "『公海舰队』角色刷关：伊丽莎白女王",
+		guild_coin_award = 0,
+		award = 97246,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 퀸 엘리자베스를 사용해 A2 혹은 C2의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17517,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640113,
+			1642113
+		},
+		target_id_2 = {
+			205014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17518] = {
+		name = "『公海舰队』角色刷关：赤城",
+		guild_coin_award = 0,
+		award = 97247,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 아카기를 사용해 A3 혹은 C3의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17518,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640213,
+			1642213
+		},
+		target_id_2 = {
+			307014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17519] = {
+		name = "『公海舰队』角色刷关：埃尔德里奇",
+		guild_coin_award = 0,
+		award = 97248,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 엘드릿지를 사용해 B2 혹은 D2의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17519,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1641113,
+			1643113
+		},
+		target_id_2 = {
+			101264
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17520] = {
+		name = "『公海舰队』角色刷关：苏维埃罗西亚",
+		guild_coin_award = 0,
+		award = 97249,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "한계돌파를 달성한 소비에츠카야 러시아를 사용해 B3 혹은 D3의 적 기함을 10회 격파하고 생존",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17520,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1641213,
+			1643213
+		},
+		target_id_2 = {
+			705054
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59305,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17521] = {
+		name = "小欧根npc临时加入",
+		guild_coin_award = 0,
+		award = 97290,
+		type = 6,
+		desc = "不该看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17521,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				403121,
+				1
+			}
+		}
+	},
+	[17522] = {
+		name = "『公海舰队』吸血鬼主题活动1",
+		guild_coin_award = 0,
+		award = 97298,
+		type = 26,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17522,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17523] = {
+		name = "『公海舰队』吸血鬼主题活动2",
+		guild_coin_award = 0,
+		award = 97299,
+		type = 26,
+		desc = "게임 로그인하기",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17523,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17524] = {
+		name = "『公海舰队』吸血鬼主题活动3",
+		guild_coin_award = 0,
+		award = 97300,
+		type = 26,
+		desc = "함선을 5번 강화한다",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17524,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[17525] = {
+		name = "『公海舰队』吸血鬼主题活动4",
+		guild_coin_award = 0,
+		award = 97301,
+		type = 26,
+		desc = "함선을 2척 퇴역시킨다",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17525,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17526] = {
+		name = "『公海舰队』吸血鬼主题活动5",
+		guild_coin_award = 0,
+		award = 97302,
+		type = 26,
+		desc = "전술학원에서 전술훈련을 2번 수행한다",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17526,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54032,
+				3
+			}
+		}
+	},
+	[17527] = {
+		name = "『公海舰队』吸血鬼主题活动6",
+		guild_coin_award = 0,
+		award = 97303,
+		type = 26,
+		desc = "숙소에서 식량을 5회 보충한다",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17527,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17528] = {
+		name = "『公海舰队』吸血鬼主题活动7",
+		guild_coin_award = 0,
+		award = 97304,
+		type = 26,
+		desc = "임의의 적함을 20척 격파한다",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17528,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[17529] = {
+		name = "『公海舰队』吸血鬼主题活动8",
+		guild_coin_award = 0,
+		award = 97305,
+		type = 26,
+		desc = "건조를 2회 수행한다",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17529,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17530] = {
+		name = "『公海舰队』吸血鬼主题活动9",
+		guild_coin_award = 0,
+		award = 97306,
+		type = 26,
+		desc = "임의의 장비상자 1개 오픈한다",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17530,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				1
+			}
+		}
+	},
+	[17531] = {
+		name = "『公海舰队』吸血鬼主题活动10",
+		guild_coin_award = 0,
+		award = 97307,
+		type = 26,
+		desc = "함선을 5번 강화한다",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17531,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17532] = {
+		name = "『公海舰队』吸血鬼主题活动11",
+		guild_coin_award = 0,
+		award = 97308,
+		type = 26,
+		desc = "군사의뢰를 2번 수행한다",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17532,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[17533] = {
+		name = "『公海舰队』吸血鬼主题活动12",
+		guild_coin_award = 0,
+		award = 97309,
+		type = 26,
+		desc = "숙소에서 식량을 5회 보충한다",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17533,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17534] = {
+		name = "『公海舰队』吸血鬼主题活动13",
+		guild_coin_award = 0,
+		award = 97310,
+		type = 26,
+		desc = "장비를 2번 강화한다",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17534,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				1
+			}
+		}
+	},
+	[17535] = {
+		name = "『公海舰队』吸血鬼主题活动14",
+		guild_coin_award = 0,
+		award = 97311,
+		type = 26,
+		desc = "함대를 출격시켜, 10회 S평가로 승리하라!",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17535,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				88117,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17536] = {
+		name = "『公海舰队』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 97312,
+		type = 6,
+		desc = "게임 로그인하기",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17536,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				254,
+				2
+			}
+		}
+	},
+	[17537] = {
+		name = "『公海舰队』通关EX",
+		guild_coin_award = 0,
+		award = 97313,
+		type = 6,
+		desc = "이벤트 해역 EX를 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1640051",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17537,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1640026,
+				chapterId = 1640051
+			}
+		}
+	},
+	[17538] = {
+		name = "『公海舰队』-日常建造",
+		guild_coin_award = 0,
+		award = 97314,
+		type = 36,
+		desc = "함선을 3척 「건조」하라!",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17538,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59307,
+				300
+			}
+		}
+	},
+	[17539] = {
+		name = "『公海舰队』-日常出击",
+		guild_coin_award = 0,
+		award = 97315,
+		type = 36,
+		desc = "전투에서 15번 승리하라!",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17539,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59307,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17540] = {
+		name = "『公海舰队』-日常困难本",
+		guild_coin_award = 0,
+		award = 97316,
+		type = 36,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "10101",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 17540,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59307,
+				150
+			}
+		}
+	},
+	[17541] = {
+		name = "『公海舰队』通关A1/C1",
+		guild_coin_award = 0,
+		award = 97317,
+		type = 6,
+		desc = "A1 혹은 C1 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17542",
+		auto_commit = 0,
+		story_id = "",
+		id = 17541,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640001,
+			1640021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59307,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17542] = {
+		name = "『公海舰队』通关A2/C2",
+		guild_coin_award = 0,
+		award = 97318,
+		type = 6,
+		desc = "A2 혹은 C2 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17543",
+		auto_commit = 0,
+		story_id = "",
+		id = 17542,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640002,
+			1640022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59307,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17543] = {
+		name = "『公海舰队』通关A3/C3",
+		guild_coin_award = 0,
+		award = 97319,
+		type = 6,
+		desc = "A3 혹은 C3 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17544",
+		auto_commit = 0,
+		story_id = "",
+		id = 17543,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640003,
+			1640023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59307,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17544] = {
+		name = "『公海舰队』通关B1/D1",
+		guild_coin_award = 0,
+		award = 97320,
+		type = 6,
+		desc = "B1 혹은 D1 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17545",
+		auto_commit = 0,
+		story_id = "",
+		id = 17544,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640004,
+			1640024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59307,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17545] = {
+		name = "『公海舰队』通关B2/D2",
+		guild_coin_award = 0,
+		award = 97321,
+		type = 6,
+		desc = "B2 혹은 D2 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17546",
+		auto_commit = 0,
+		story_id = "",
+		id = 17545,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640005,
+			1640025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59307,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17546] = {
+		name = "『公海舰队』通关B3/D3",
+		guild_coin_award = 0,
+		award = 97322,
+		type = 6,
+		desc = "B3 혹은 D3 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17547",
+		auto_commit = 0,
+		story_id = "",
+		id = 17546,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640006,
+			1640026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59307,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17547] = {
+		name = "『公海舰队』通关SP",
+		guild_coin_award = 0,
+		award = 97323,
+		type = 6,
+		desc = "SP를 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1640041",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17547,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1640025,
+				chapterId = 1640041
+			}
+		}
+	},
+	[17548] = {
+		name = "『公海舰队』通关D3",
+		guild_coin_award = 0,
+		award = 97324,
+		type = 6,
+		desc = "D3 클리어",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1640026",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17548,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				225,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1640012,
+				chapterId = 1640026
+			}
+		}
+	},
+	[17549] = {
+		name = "『公海舰队』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 97325,
+		type = 6,
+		desc = "A1 혹은 C1의 3성 수집 완료",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17550",
+		auto_commit = 0,
+		story_id = "",
+		id = 17549,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640001,
+			1640021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17550] = {
+		name = "『公海舰队』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 97326,
+		type = 6,
+		desc = "A2 혹은 C2의 3성 수집 완료",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17551",
+		auto_commit = 0,
+		story_id = "",
+		id = 17550,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640002,
+			1640022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17551] = {
+		name = "『公海舰队』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 97327,
+		type = 6,
+		desc = "A3 혹은 C3의 3성 수집 완료",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17552",
+		auto_commit = 0,
+		story_id = "",
+		id = 17551,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640003,
+			1640023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4320
+			}
+		}
+	},
+	[17552] = {
+		name = "『公海舰队』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 97328,
+		type = 6,
+		desc = "B1 혹은 D1의 3성 수집 완료",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17553",
+		auto_commit = 0,
+		story_id = "",
+		id = 17552,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640004,
+			1640024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17553] = {
+		name = "『公海舰队』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 97329,
+		type = 6,
+		desc = "B2 혹은 D2의 3성 수집 완료",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17554",
+		auto_commit = 0,
+		story_id = "",
+		id = 17553,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640005,
+			1640025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17554] = {
+		name = "『公海舰队』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 97330,
+		type = 6,
+		desc = "B3 혹은 D3의 3성 수집 완료",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17554,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1640006,
+			1640026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				4321
+			}
+		}
+	},
+	[17555] = {
+		name = "小欧根通常任务1",
+		guild_coin_award = 0,
+		award = 97331,
+		type = 26,
+		desc = "전투에서 20번 승리하라!",
+		count_inherit = 17556,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17556",
+		auto_commit = 0,
+		story_id = "",
+		id = 17555,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17556] = {
+		name = "小欧根通常任务2",
+		guild_coin_award = 0,
+		award = 97332,
+		type = 26,
+		desc = "전투에서 40번 승리하라!",
+		count_inherit = 17557,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17557",
+		auto_commit = 0,
+		story_id = "",
+		id = 17556,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17557] = {
+		name = "小欧根通常任务3",
+		guild_coin_award = 0,
+		award = 97333,
+		type = 26,
+		desc = "전투에서 60번 승리하라!",
+		count_inherit = 17558,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17558",
+		auto_commit = 0,
+		story_id = "",
+		id = 17557,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17558] = {
+		name = "小欧根通常任务4",
+		guild_coin_award = 0,
+		award = 97334,
+		type = 26,
+		desc = "전투에서 80번 승리하라!",
+		count_inherit = 17559,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17559",
+		auto_commit = 0,
+		story_id = "",
+		id = 17558,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17559] = {
+		name = "小欧根通常任务5",
+		guild_coin_award = 0,
+		award = 97335,
+		type = 26,
+		desc = "전투에서 100번 승리하라!",
+		count_inherit = 17560,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17560",
+		auto_commit = 0,
+		story_id = "",
+		id = 17559,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17560] = {
+		name = "小欧根通常任务6",
+		guild_coin_award = 0,
+		award = 97336,
+		type = 26,
+		desc = "전투에서 120번 승리하라!",
+		count_inherit = 17561,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17561",
+		auto_commit = 0,
+		story_id = "",
+		id = 17560,
+		target_num = 120,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17561] = {
+		name = "小欧根通常任务7",
+		guild_coin_award = 0,
+		award = 97337,
+		type = 26,
+		desc = "전투에서 140번 승리하라!",
+		count_inherit = 17562,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17562",
+		auto_commit = 0,
+		story_id = "",
+		id = 17561,
+		target_num = 140,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17562] = {
+		name = "小欧根通常任务8",
+		guild_coin_award = 0,
+		award = 97338,
+		type = 26,
+		desc = "전투에서 160번 승리하라!",
+		count_inherit = 17563,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17563",
+		auto_commit = 0,
+		story_id = "",
+		id = 17562,
+		target_num = 160,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17563] = {
+		name = "小欧根通常任务9",
+		guild_coin_award = 0,
+		award = 97339,
+		type = 26,
+		desc = "전투에서 180번 승리하라!",
+		count_inherit = 17564,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17564",
+		auto_commit = 0,
+		story_id = "",
+		id = 17563,
+		target_num = 180,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17564] = {
+		name = "小欧根通常任务10",
+		guild_coin_award = 0,
+		award = 97340,
+		type = 26,
+		desc = "전투에서 200번 승리하라!",
+		count_inherit = 17565,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17565",
+		auto_commit = 0,
+		story_id = "",
+		id = 17564,
+		target_num = 200,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17565] = {
+		name = "小欧根通常任务11",
+		guild_coin_award = 0,
+		award = 97341,
+		type = 26,
+		desc = "전투에서 240번 승리하라!",
+		count_inherit = 17566,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17566",
+		auto_commit = 0,
+		story_id = "",
+		id = 17565,
+		target_num = 240,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17566] = {
+		name = "小欧根通常任务12",
+		guild_coin_award = 0,
+		award = 97342,
+		type = 26,
+		desc = "전투에서 280번 승리하라!",
+		count_inherit = 17567,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17567",
+		auto_commit = 0,
+		story_id = "",
+		id = 17566,
+		target_num = 280,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17567] = {
+		name = "小欧根通常任务13",
+		guild_coin_award = 0,
+		award = 97343,
+		type = 26,
+		desc = "전투에서 320번 승리하라!",
+		count_inherit = 17568,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17568",
+		auto_commit = 0,
+		story_id = "",
+		id = 17567,
+		target_num = 320,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17568] = {
+		name = "小欧根通常任务14",
+		guild_coin_award = 0,
+		award = 97344,
+		type = 26,
+		desc = "전투에서 360번 승리하라!",
+		count_inherit = 17569,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17569",
+		auto_commit = 0,
+		story_id = "",
+		id = 17568,
+		target_num = 360,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17569] = {
+		name = "小欧根通常任务15",
+		guild_coin_award = 0,
+		award = 97345,
+		type = 26,
+		desc = "전투에서 400번 승리하라!",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17569,
+		target_num = 400,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17570] = {
+		name = "小欧根通常任务16",
+		guild_coin_award = 0,
+		award = 97346,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐를 포함한 함대를 출격시켜\n20회 승리한다.",
+		count_inherit = 17571,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17571",
+		auto_commit = 0,
+		story_id = "",
+		id = 17570,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17571] = {
+		name = "小欧根通常任务17",
+		guild_coin_award = 0,
+		award = 97347,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐를 포함한 함대를 출격시켜\n40회 승리한다.",
+		count_inherit = 17572,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17572",
+		auto_commit = 0,
+		story_id = "",
+		id = 17571,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17572] = {
+		name = "小欧根通常任务18",
+		guild_coin_award = 0,
+		award = 97348,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐를 포함한 함대를 출격시켜\n60회 승리한다.",
+		count_inherit = 17573,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17573",
+		auto_commit = 0,
+		story_id = "",
+		id = 17572,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17573] = {
+		name = "小欧根通常任务19",
+		guild_coin_award = 0,
+		award = 97349,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐를 포함한 함대를 출격시켜\n80회 승리한다.",
+		count_inherit = 17574,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17574",
+		auto_commit = 0,
+		story_id = "",
+		id = 17573,
+		target_num = 80,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17574] = {
+		name = "小欧根通常任务20",
+		guild_coin_award = 0,
+		award = 97350,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐를 포함한 함대를 출격시켜\n100회 승리한다.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17574,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17575] = {
+		name = "小欧根通常任务21",
+		guild_coin_award = 0,
+		award = 97351,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 10까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17576",
+		auto_commit = 0,
+		story_id = "",
+		id = 17575,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17576] = {
+		name = "小欧根通常任务22",
+		guild_coin_award = 0,
+		award = 97352,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 20까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17577",
+		auto_commit = 0,
+		story_id = "",
+		id = 17576,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17577] = {
+		name = "小欧根通常任务23",
+		guild_coin_award = 0,
+		award = 97353,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 30까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17578",
+		auto_commit = 0,
+		story_id = "",
+		id = 17577,
+		target_num = 30,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17578] = {
+		name = "小欧根通常任务24",
+		guild_coin_award = 0,
+		award = 97354,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 40까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17579",
+		auto_commit = 0,
+		story_id = "",
+		id = 17578,
+		target_num = 40,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17579] = {
+		name = "小欧根通常任务25",
+		guild_coin_award = 0,
+		award = 97355,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 50까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17580",
+		auto_commit = 0,
+		story_id = "",
+		id = 17579,
+		target_num = 50,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				600
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17580] = {
+		name = "小欧根通常任务26",
+		guild_coin_award = 0,
+		award = 97356,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 70까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17581",
+		auto_commit = 0,
+		story_id = "",
+		id = 17580,
+		target_num = 70,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				1000
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17581] = {
+		name = "小欧根通常任务27",
+		guild_coin_award = 0,
+		award = 97357,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 90까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17582",
+		auto_commit = 0,
+		story_id = "",
+		id = 17581,
+		target_num = 90,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				1000
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17582] = {
+		name = "小欧根通常任务28",
+		guild_coin_award = 0,
+		award = 97358,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 레벨을 100까지 달성한다.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17582,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				1000
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17583] = {
+		name = "小欧根通常任务29",
+		guild_coin_award = 0,
+		award = 97359,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 한계돌파를 1회 진행한다.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17584",
+		auto_commit = 0,
+		story_id = "",
+		id = 17583,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				1000
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17584] = {
+		name = "小欧根通常任务30",
+		guild_coin_award = 0,
+		award = 97360,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 한계돌파를 2회 진행한다.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17585",
+		auto_commit = 0,
+		story_id = "",
+		id = 17584,
+		target_num = 4,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				1500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17585] = {
+		name = "小欧根通常任务31",
+		guild_coin_award = 0,
+		award = 97361,
+		type = 26,
+		desc = "꼬마 프린츠 오이겐의 한계돌파를 3회 진행한다.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		target_id = "40312",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17585,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				2000
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	},
+	[17586] = {
+		name = "小欧根每日任务1",
+		guild_coin_award = 0,
+		award = 97362,
+		type = 36,
+		desc = "전투에서 15번 승리하라!",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17586,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[17587] = {
+		name = "小欧根每日任务2",
+		guild_coin_award = 0,
+		award = 97363,
+		type = 36,
+		desc = "임의의 메인 스테이지 어려움 모드를 3회 클리어",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 17587,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				252,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
 	[30201] = {
 		name = "전투승리-일상",
 		guild_coin_award = 0,
@@ -194602,6 +197621,83 @@ pg.task_data_template = {
 		17496,
 		17497,
 		17498,
+		17511,
+		17512,
+		17513,
+		17514,
+		17515,
+		17516,
+		17517,
+		17518,
+		17519,
+		17520,
+		17521,
+		17522,
+		17523,
+		17524,
+		17525,
+		17526,
+		17527,
+		17528,
+		17529,
+		17530,
+		17531,
+		17532,
+		17533,
+		17534,
+		17535,
+		17536,
+		17537,
+		17538,
+		17539,
+		17540,
+		17541,
+		17542,
+		17543,
+		17544,
+		17545,
+		17546,
+		17547,
+		17548,
+		17549,
+		17550,
+		17551,
+		17552,
+		17553,
+		17554,
+		17555,
+		17556,
+		17557,
+		17558,
+		17559,
+		17560,
+		17561,
+		17562,
+		17563,
+		17564,
+		17565,
+		17566,
+		17567,
+		17568,
+		17569,
+		17570,
+		17571,
+		17572,
+		17573,
+		17574,
+		17575,
+		17576,
+		17577,
+		17578,
+		17579,
+		17580,
+		17581,
+		17582,
+		17583,
+		17584,
+		17585,
+		17586,
+		17587,
 		30201,
 		30202,
 		30203,

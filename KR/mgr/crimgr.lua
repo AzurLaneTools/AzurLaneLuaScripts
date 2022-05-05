@@ -10,6 +10,7 @@ slot1.C_VOICE = "cv"
 slot1.C_SE = "C_SE"
 slot1.C_BATTLE_SE = "C_BATTLE_SE"
 slot1.C_GALLERY_MUSIC = "C_GALLERY_MUSIC"
+slot1.C_BATTLE_CV_EXTRA = "C_BATTLE_CV_EXTRA"
 slot1.NEXT_VER = 40
 
 function slot1.Init(slot0, slot1)
@@ -23,7 +24,7 @@ function slot1.Init(slot0, slot1)
 			slot1.cueSheetName = "se-ui"
 			slot1.channelName = uv0.C_SE
 
-			CriWareMgr.Inst:LoadCueSheet(slot1, function (slot0)
+			uv1.criInst:LoadCueSheet(slot1, function (slot0)
 				uv0()
 			end, true)
 		end,
@@ -32,7 +33,7 @@ function slot1.Init(slot0, slot1)
 			slot1.cueSheetName = "se-battle"
 			slot1.channelName = uv0.C_BATTLE_SE
 
-			CriWareMgr.Inst:LoadCueSheet(slot1, function (slot0)
+			uv1.criInst:LoadCueSheet(slot1, function (slot0)
 				uv0()
 			end, true)
 		end,
@@ -49,19 +50,27 @@ function slot1.InitCri(slot0, slot1)
 	slot0.criInitializer.atomConfig.useRandomSeedWithTime = true
 
 	slot0.criInitializer:Initialize()
-	CriWareMgr.Inst:Init(function ()
+
+	slot0.criInst = CriWareMgr.Inst
+
+	slot0.criInst:Init(function ()
 		CriAtom.SetCategoryVolume(uv0.Category_CV, uv1:getCVVolume())
 		CriAtom.SetCategoryVolume(uv0.Category_SE, uv1:getSEVolume())
 		CriAtom.SetCategoryVolume(uv0.Category_BGM, uv1:getBGMVolume())
-		CriWareMgr.Inst:RemoveChannel("C_VOICE")
+		uv1.criInst:RemoveChannel("C_VOICE")
 		Object.Destroy(GameObject.Find("CRIWARE/C_VOICE"))
-		CriWareMgr.Inst:CreateChannel(uv0.C_VOICE, CriWareMgr.CRI_CHANNEL_TYPE.MULTI_NOT_REPEAT)
+		uv1.criInst:CreateChannel(uv0.C_VOICE, CriWareMgr.CRI_CHANNEL_TYPE.MULTI_NOT_REPEAT)
 
 		CriWareMgr.C_VOICE = uv0.C_VOICE
+		slot0 = uv1.criInst:GetChannelData(uv0.C_VOICE)
 
-		CriWareMgr.Inst:CreateChannel(uv0.C_GALLERY_MUSIC, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
+		uv1.criInst:CreateChannel(uv0.C_GALLERY_MUSIC, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
 
-		CriWareMgr.Inst:GetChannelData(uv0.C_BGM).channelPlayer.loop = true
+		uv1.criInst:GetChannelData(uv0.C_BGM).channelPlayer.loop = true
+
+		uv1.criInst:CreateChannel(uv0.C_BATTLE_CV_EXTRA, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
+
+		uv1.criInst:GetChannelData(uv0.C_BATTLE_CV_EXTRA).channelPlayer.volume = 0.6
 
 		uv2()
 	end)
@@ -95,7 +104,7 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 
 	slot0.bgmName = slot3
 
-	CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+	slot0.criInst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
 		if slot0 == nil then
 			warning("Missing BGM :" .. (uv0 or "NIL"))
 		end
@@ -103,9 +112,13 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 end
 
 function slot1.StopBGM(slot0, slot1)
-	CriWareMgr.Inst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+	slot0.criInst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
 	slot0.bgmName = nil
+end
+
+function slot1.StopPlaybackInfoForce(slot0, slot1)
+	slot1.playback:Stop(true)
 end
 
 function slot1.LoadCV(slot0, slot1, slot2)
@@ -161,6 +174,14 @@ function slot1.PlaySoundEffect_V3(slot0, slot1, slot2)
 	end)
 end
 
+function slot1.PlayMultipleSound_V3(slot0, slot1, slot2)
+	slot0:CheckFModeEvent(slot1, function (slot0, slot1)
+		uv0:CreateCvMultipleHandler(slot0, slot1, uv1)
+	end, function (slot0)
+		uv0:PlaySE_V3(slot0, uv1)
+	end)
+end
+
 function slot1.StopSoundEffect_V3(slot0, slot1)
 	slot0:CheckFModeEvent(slot1, function (slot0, slot1)
 		uv0:StopCV_V3()
@@ -178,19 +199,83 @@ function slot1.UnloadSoundEffect_V3(slot0, slot1)
 end
 
 function slot1.PlayCV_V3(slot0, slot1, slot2, slot3)
-	CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
+	slot0.criInst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
 		if uv0 ~= nil then
 			uv0(slot0)
 		end
 	end)
 end
 
+function slot1.CreateCvMultipleHandler(slot0, slot1, slot2, slot3)
+	if not slot0.luHandle then
+		slot0.luHandle = LateUpdateBeat:CreateListener(slot0.LateCvHandler, slot0)
+
+		LateUpdateBeat:AddListener(slot0.luHandle)
+	end
+
+	slot0.cvCacheDataList = slot0.cvCacheDataList or {}
+	slot4 = true
+
+	for slot8, slot9 in ipairs(slot0.cvCacheDataList) do
+		if slot9[1] == slot1 and slot9[2] == slot2 then
+			slot4 = false
+
+			break
+		end
+	end
+
+	if slot4 then
+		slot0.cvCacheDataList[#slot0.cvCacheDataList + 1] = {
+			slot1,
+			slot2,
+			slot3
+		}
+	end
+end
+
+function slot1.LateCvHandler(slot0)
+	for slot4, slot5 in ipairs(slot0.cvCacheDataList) do
+		slot6 = slot5[1]
+		slot7 = slot5[2]
+		slot8 = slot5[3]
+
+		if slot4 == 1 then
+			slot0.criInst:PlayVoice(slot7, CriWareMgr.CRI_FADE_TYPE.NONE, slot6, function (slot0)
+				if uv0 ~= nil then
+					uv0(slot0)
+				end
+			end)
+		else
+			slot9 = CueData.GetCueData()
+			slot9.cueSheetName = slot6
+			slot9.channelName = uv0.C_BATTLE_CV_EXTRA
+			slot9.cueName = slot7
+
+			onDelayTick(function ()
+				uv0.criInst:PlaySound(uv1, CriWareMgr.CRI_FADE_TYPE.FADE_CROSS, function (slot0)
+					if uv0 ~= nil then
+						uv0(slot0)
+					end
+				end)
+			end, slot4 * 0.4)
+		end
+	end
+
+	slot0.cvCacheDataList = nil
+
+	if slot0.luHandle then
+		LateUpdateBeat:RemoveListener(slot0.luHandle)
+
+		slot0.luHandle = nil
+	end
+end
+
 function slot1.StopCV_V3(slot0)
-	CriWareMgr.Inst:GetChannelData(uv0.C_VOICE).channelPlayer:Stop()
+	slot0.criInst:GetChannelData(uv0.C_VOICE).channelPlayer:Stop()
 end
 
 function slot1.PlaySE_V3(slot0, slot1, slot2)
-	CriWareMgr.Inst:PlayAnySE(slot1, nil, function (slot0)
+	slot0.criInst:PlayAnySE(slot1, nil, function (slot0)
 		if uv0 ~= nil then
 			uv0(slot0)
 		end
@@ -198,25 +283,25 @@ function slot1.PlaySE_V3(slot0, slot1, slot2)
 end
 
 function slot1.StopSE_V3(slot0)
-	CriWareMgr.Inst:GetChannelData(uv0.C_SE).channelPlayer:Stop()
-	CriWareMgr.Inst:GetChannelData(uv0.C_BATTLE_SE).channelPlayer:Stop()
+	slot0.criInst:GetChannelData(uv0.C_SE).channelPlayer:Stop()
+	slot0.criInst:GetChannelData(uv0.C_BATTLE_SE).channelPlayer:Stop()
 end
 
 function slot1.StopSEBattle_V3(slot0)
-	CriWareMgr.Inst:GetChannelData(uv0.C_BATTLE_SE).channelPlayer:Stop()
+	slot0.criInst:GetChannelData(uv0.C_BATTLE_SE).channelPlayer:Stop()
 end
 
 function slot1.LoadCueSheet(slot0, slot1, slot2)
 	slot3 = CueData.GetCueData()
 	slot3.cueSheetName = slot1
 
-	CriWareMgr.Inst:LoadCueSheet(slot3, function (slot0)
+	slot0.criInst:LoadCueSheet(slot3, function (slot0)
 		uv0(slot0)
 	end, true)
 end
 
 function slot1.UnloadCueSheet(slot0, slot1)
-	CriWareMgr.Inst:UnloadCueSheet(slot1)
+	slot0.criInst:UnloadCueSheet(slot1)
 end
 
 function slot1.getCVVolume(slot0)

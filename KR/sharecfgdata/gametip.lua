@@ -8992,7 +8992,7 @@ _G.pg.gametip.ai_change_2 = {
 }
 
 _G.pg.gametip.activity_shop_lable = {
-	tip = "*교환 개방 시간 : <color=#68F9D7>$1</color>"
+	tip = "*교환 개방 시간 : <color=#FFCF81>$1</color>"
 }
 
 _G.pg.gametip.word_bilibili = {
@@ -9479,7 +9479,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "하우, 퍼시어스 등 캐릭터 건조 확률 UP!"
+	tip = "엠덴, 뤼초 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -19555,6 +19555,10 @@ _G.pg.gametip.battle_result_quit_battle = {
 	tip = "돌아가기"
 }
 
+_G.pg.gametip.battle_result_share_battle = {
+	tip = "分 享 战 绩"
+}
+
 _G.pg.gametip.pre_combat_team = {
 	tip = "출격 함대"
 }
@@ -19577,4 +19581,37 @@ _G.pg.gametip.destroy_confirm_access = {
 
 _G.pg.gametip.destroy_confirm_cancel = {
 	tip = "취소"
+}
+
+_G.pg.gametip.pt_count_tip = {
+	tip = "누적"
+}
+
+_G.pg.gametip.littleEugen_npc = {
+	tip = {
+		{
+			info = "「치즈치즈 설탕듬뿍!」 설명:"
+		},
+		{
+			info = "1. 이벤트 기간 동안, 임시 NPC 캐릭터 「꼬마 프린츠 오이겐」을 획득할 수 있습니다. 임시 캐릭터는 서약, 퇴역, 강화 및 돌파 재료로 선택이 불가능합니다."
+		},
+		{
+			info = "2. 이벤트 기간 동안, 이벤트 임무 완성 시, 「치즈 케이크」 보상을 획득하며, 「치즈 케이크」를 임시 선물하여 NPC 캐릭터 「꼬마 프린츠 오이겐」의 호감도를 누적할 수 있습니다."
+		},
+		{
+			info = "3. 5월 4일까지, 매일 호감도 단계가 1단계씩 해제됩니다."
+		},
+		{
+			info = "4. 이벤트 종료 전 10000 호감도를 누적 획득하면 보상을 획득하며 임시 캐릭터 「꼬마 프린츠 오이겐」이 영구 캐릭터로 전환됩니다."
+		},
+		{
+			info = "5. 이벤트 종료 후, 전환되지 않은 임시 캐릭터 「꼬마 프린츠 오이겐」은 모항을 떠나며, 이미 소모한 강화 및 돌파 등 성장 재료는 반환되지 않습니다."
+		},
+		{
+			info = "6. NPC 캐릭터는 대형 작전에 참여할 수 없습니다."
+		},
+		{
+			info = "7. NPC 캐릭터는 대함대 작전 내의 사건 파견, 지원 파견 및 보스전에 참여할 수 없습니다."
+		}
+	}
 }

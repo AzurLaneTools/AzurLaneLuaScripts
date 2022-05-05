@@ -3789,6 +3789,53 @@ _G.pg.equip_data_statistics[448] = {
 	}
 }
 
+_G.pg.equip_data_statistics[449] = {
+	tech = 1,
+	name = "展示用双联主炮",
+	speciality = "跨射",
+	type = 4,
+	descrip = "默认装备",
+	ammo = 3,
+	damage = "48 x 2",
+	nationality = 4,
+	rarity = 3,
+	id = 449,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 12,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1500
+		}
+	},
+	equip_info = {},
+	weapon_id = {
+		449
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"BB",
+		"MG"
+	}
+}
+
 _G.pg.equip_data_statistics[450] = {
 	type = 2,
 	name = "征战巨坦自带主炮-类152MK5+3",
@@ -107779,6 +107826,59 @@ _G.pg.equip_data_statistics[73122] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[73131] = {
+	type = 1,
+	name = "全弹发射-皮劳级I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 73131,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		73131
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[73132] = {
+	id = 73132,
+	name = "全弹发射-皮劳级II",
+	base = 73131,
+	weapon_id = {
+		73132
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[73211] = {
 	type = 1,
 	name = "0",
@@ -107934,6 +108034,59 @@ _G.pg.equip_data_statistics[73232] = {
 	base = 73231,
 	weapon_id = {
 		73232
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[73241] = {
+	type = 1,
+	name = "全弹发射-罗恩级I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 73241,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		73241
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[73242] = {
+	id = 73242,
+	name = "全弹发射-罗恩级II",
+	base = 73241,
+	weapon_id = {
+		73242
 	},
 	hidden_skill_id = {}
 }
@@ -113739,6 +113892,59 @@ _G.pg.equip_data_statistics[79832] = {
 	base = 79821,
 	weapon_id = {
 		60792
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[79841] = {
+	type = 1,
+	name = "专属弹幕-埃姆登I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79841,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		79841
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[79842] = {
+	id = 79842,
+	name = "专属弹幕-埃姆登II",
+	base = 79841,
+	weapon_id = {
+		79842
 	},
 	hidden_skill_id = {}
 }
@@ -131803,6 +132009,17 @@ _G.pg.equip_data_statistics[820860] = {
 		"CV",
 		"TB"
 	}
+}
+
+_G.pg.equip_data_statistics[892914] = {
+	id = 892914,
+	name = "【2022公海舰队剧情用】穿甲战列主炮",
+	damage = "207 x 2",
+	base = 14500,
+	weapon_id = {
+		892914
+	},
+	hidden_skill_id = {}
 }
 
 _G.pg.equip_data_statistics[960001] = {

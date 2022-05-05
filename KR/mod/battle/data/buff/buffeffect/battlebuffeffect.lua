@@ -21,6 +21,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0._behit = slot2.be_hit_condition
 	slot0._ammoTypeRequire = slot2.ammoType
 	slot0._ammoIndexRequire = slot2.ammoIndex
+	slot0._bulletTagRequire = slot2.bulletTag
 	slot0._buffStateIDRequire = slot2.buff_state_id
 	slot0._cloakRequire = slot2.cloak_state
 
@@ -191,6 +192,20 @@ function slot2.ammoRequire(slot0, slot1)
 	end
 end
 
+function slot2.bulletTagRequire(slot0, slot1)
+	if not slot0._bulletTagRequire then
+		return true
+	else
+		for slot5, slot6 in ipairs(slot0._bulletTagRequire) do
+			if table.contains(slot1, slot6) then
+				return true
+			else
+				return false
+			end
+		end
+	end
+end
+
 function slot2.buffStateRequire(slot0, slot1)
 	if not slot0._buffStateIDRequire then
 		return true
@@ -288,6 +303,10 @@ function slot2.onFoeDying(slot0, slot1, slot2, slot3)
 		if slot0:killerRequire(slot0._tempData.arg_list.killer, slot3.killer, slot1) then
 			slot0:onTrigger(slot1, slot2)
 		end
+	elseif slot0._tempData.arg_list.victimTag then
+		if slot0:victimRequire(slot0._tempData.arg_list.victimTag, slot3.unit, slot1) then
+			slot0:onTrigger(slot1, slot2)
+		end
 	else
 		slot0:onTrigger(slot1, slot2)
 	end
@@ -320,6 +339,14 @@ function slot2.killerRequire(slot0, slot1, slot2, slot3)
 	end
 
 	return false
+end
+
+function slot2.victimRequire(slot0, slot1, slot2, slot3)
+	if slot2:ContainsLabelTag(slot1) then
+		return true
+	else
+		return false
+	end
 end
 
 function slot2.onInitGame(slot0, slot1, slot2)

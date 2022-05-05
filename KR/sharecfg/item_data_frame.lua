@@ -327,7 +327,7 @@ pg.item_data_frame = {
 	[319] = {
 		time_limit_type = 0,
 		name = "유리의 특이점",
-		gain_by = "",
+		gain_by = "虹彩的终幕曲",
 		id = 319,
 		time_second = 0,
 		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>",

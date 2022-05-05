@@ -68,6 +68,16 @@ return {
 				attr = "immuneMaxAreaLimit",
 				number = 1
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 8527,
+				target = "TargetSelf"
+			}
 		}
 	}
 }

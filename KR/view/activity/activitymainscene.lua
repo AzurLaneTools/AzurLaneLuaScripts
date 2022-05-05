@@ -224,8 +224,8 @@ function slot0.flushTabs(slot0)
 			if slot0 == UIItemList.EventUpdate then
 				if uv0.pageDic[uv0.activities[slot1 + 1].id] ~= nil then
 					if slot3:getConfig("title_res_tag") then
-						setImageSprite(uv0:findTF("off/text", slot2), GetSpriteFromAtlas("ui/activityui_atlas", slot5 .. "_text") or GetSpriteFromAtlas("ui/activityui_atlas", "activity_text"), true)
-						setImageSprite(uv0:findTF("on/text", slot2), GetSpriteFromAtlas("ui/activityui_atlas", slot5 .. "_text_selected") or GetSpriteFromAtlas("ui/activityui_atlas", "activity_text_selected"), true)
+						setImageSprite(uv0:findTF("off/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot5 .. "_text", "") or GetSpriteFromAtlas("activityuitable/activity_text", ""), true)
+						setImageSprite(uv0:findTF("on/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot5 .. "_text_selected", "") or GetSpriteFromAtlas("activityuitable/activity_text_selected", ""), true)
 						setActive(uv0:findTF("red", slot2), slot3:readyToAchieve())
 						onToggle(uv0, slot2, function (slot0)
 							if slot0 then

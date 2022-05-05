@@ -13481,6 +13481,543 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[540] = {
+		name = "박쥐 총알",
+		bullet_name = "zidan_bianfushimo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "킥킥, 어둠 속에서 벌벌 떨어라!",
+		themeid = 32,
+		id = 540,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93611",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[541] = {
+		name = "실버 크로스 총알",
+		bullet_name = "zidan_yinshizi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "합! 귀신아 물러가라!",
+		themeid = 32,
+		id = 541,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93612",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[542] = {
+		name = "유령불 총알",
+		bullet_name = "zidan_youhuo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "불이지만 차가운 기운을 내뿜어요.",
+		themeid = 32,
+		id = 542,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93613",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[543] = {
+		name = "블러드문 포탄",
+		bullet_name = "paodan_hongyue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "강림하라, 위대한 블러드 문이여!",
+		themeid = 32,
+		id = 543,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93614",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[544] = {
+		name = "촛대 포탄",
+		bullet_name = "paodan_zhutai",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "어둠 속의 밝은 빛",
+		themeid = 32,
+		id = 544,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93615",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[545] = {
+		name = "마법진 포탄",
+		bullet_name = "paodan_mofazhen",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "마법진 구동 완료. 천벌을 받아라!",
+		themeid = 32,
+		id = 545,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93616",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[546] = {
+		name = "말뚝 어뢰",
+		bullet_name = "yulei_jianmuzhuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "찔리면 아프다구요!",
+		themeid = 32,
+		id = 546,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93621",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[547] = {
+		name = "장미 어뢰",
+		bullet_name = "yulei_meigui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "찔리면 아프다구요!",
+		themeid = 32,
+		id = 547,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93622",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[548] = {
+		name = "관짝 어뢰",
+		bullet_name = "yulei_guancai",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "누가 내 잠을 방해하는 거야!?",
+		themeid = 32,
+		id = 548,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93623",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[549] = {
+		name = "백작쥬(어뢰)",
+		bullet_name = "feiji_bojue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "후하하, 난 불멸의 밤의 귀족이다쥬!",
+		themeid = 32,
+		id = 549,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93631",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_guancai",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[550] = {
+		name = "백작쥬(전투)",
+		bullet_name = "feiji_bojue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "후하하, 난 불멸의 밤의 귀족이다쥬!",
+		themeid = 32,
+		id = 550,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_hongyue",
+		orbit_ui = "",
+		icon = "93631",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[551] = {
+		name = "백작쥬(폭격)",
+		bullet_name = "feiji_bojue",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "후하하, 난 불멸의 밤의 귀족이다쥬!",
+		themeid = 32,
+		id = 551,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_hongyue",
+		orbit_ui = "",
+		icon = "93631",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[552] = {
+		name = "가고일쥬(어뢰)",
+		bullet_name = "feiji_shixianggui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "이쪽은 지나갈 수 없다쥬~",
+		themeid = 32,
+		id = 552,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93632",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_jianmuzhuang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[553] = {
+		name = "가고일쥬(전투)",
+		bullet_name = "feiji_shixianggui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "이쪽은 지나갈 수 없다쥬~",
+		themeid = 32,
+		id = 553,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhutai",
+		orbit_ui = "",
+		icon = "93632",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[554] = {
+		name = "가고일쥬(폭격)",
+		bullet_name = "feiji_shixianggui",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "이쪽은 지나갈 수 없다쥬~",
+		themeid = 32,
+		id = 554,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhutai",
+		orbit_ui = "",
+		icon = "93632",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[555] = {
+		name = "유령 기사쥬(어뢰)",
+		bullet_name = "feiji_fulingqishi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "전장을 휩쓸자쥬!",
+		themeid = 32,
+		id = 555,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93633",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_meigui",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[556] = {
+		name = "유령 기사쥬(전투)",
+		bullet_name = "feiji_fulingqishi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "전장을 휩쓸자쥬!",
+		themeid = 32,
+		id = 556,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_mofazhen",
+		orbit_ui = "",
+		icon = "93633",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[557] = {
+		name = "유령 기사쥬(폭격)",
+		bullet_name = "feiji_fulingqishi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "전장을 휩쓸자쥬!",
+		themeid = 32,
+		id = 557,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_mofazhen",
+		orbit_ui = "",
+		icon = "93633",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "십자키 포탄(보라)",
 		bullet_name = "Nep_bullet_shizi",
@@ -15778,6 +16315,24 @@ pg.equip_skin_template = {
 		535,
 		536,
 		537,
+		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		555,
+		556,
+		557,
 		1001,
 		1002,
 		1003,
