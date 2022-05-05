@@ -23,6 +23,12 @@ function slot0.execute(slot0, slot1)
 
 		slot4:UpdateProgressAfterSkipBattle()
 		slot3:updateChapter(slot4)
+	elseif slot2.type == ChapterConst.OpPreClear then
+		slot3 = getProxy(ChapterProxy)
+		slot4 = slot3:getActiveChapter()
+
+		slot4:CleanCurrentEnemy()
+		slot3:updateChapter(slot4)
 	end
 
 	slot3 = pg.ConnectionMgr.GetInstance()
@@ -128,6 +134,8 @@ function slot0.execute(slot0, slot1)
 						uv0:doRequest()
 					elseif uv1.type == ChapterConst.OpSkipBattle then
 						uv0:doSkipBattle()
+					elseif uv1.type == ChapterConst.OpPreClear then
+						uv0:doSkipBattle()
 					elseif uv1.type == ChapterConst.OpSubTeleport then
 						uv0:doTeleportSub()
 						uv0:doTeleportByPortal()
@@ -199,8 +207,7 @@ function slot0.PrepareChapterRetreat(slot0)
 					if type(slot3) == "number" then
 						pg.m02:sendNotification(GAME.BEGIN_STAGE, {
 							system = SYSTEM_PERFORM,
-							stageId = slot3,
-							exitCallback = slot2
+							stageId = slot3
 						})
 					elseif type(slot3) == "string" then
 						if ChapterOpCommand.PlayChapterStory(slot3, slot2, not uv2 and uv0:IsAutoFight()) then

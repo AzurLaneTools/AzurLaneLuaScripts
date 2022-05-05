@@ -1602,10 +1602,6 @@ function slot0.selectFleets(slot0, slot1, slot2)
 		end
 	end
 
-	table.sort(slot3, function (slot0, slot1)
-		return slot0 < slot1
-	end)
-
 	return slot3
 end
 
@@ -2413,6 +2409,38 @@ function slot0.writeBack(slot0, slot1, slot2)
 			},
 			type = slot6
 		})
+	end
+end
+
+function slot0.CleanCurrentEnemy(slot0)
+	slot2 = slot0.fleet.line
+	slot3 = nil
+
+	if slot0:existChampion(slot2.row, slot2.column) then
+		slot3 = slot0:getChampion(slot2.row, slot2.column)
+
+		slot3:Iter()
+
+		if slot3.flag == ChapterConst.CellFlagDisabled then
+			slot0:RemoveChampion(slot3)
+		end
+
+		return
+	end
+
+	if slot0:getChapterCell(slot2.row, slot2.column).attachment == ChapterConst.AttachEnemy then
+		slot0:updateChapterCell(ChapterCell.New({
+			item_id = 0,
+			item_data = 0,
+			item_flag = 0,
+			pos = {
+				row = slot2.row,
+				column = slot2.column
+			},
+			item_type = ChapterConst.AttachNone
+		}))
+
+		return
 	end
 end
 

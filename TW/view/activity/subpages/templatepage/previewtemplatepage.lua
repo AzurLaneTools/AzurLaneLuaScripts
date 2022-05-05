@@ -69,6 +69,7 @@ function slot0.initBtn(slot0)
 				end
 
 				uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+					page = BuildShipScene.PAGE_BUILD,
 					projectName = BuildShipScene.PROJECTS.ACTIVITY
 				})
 			end)

@@ -5876,6 +5876,130 @@ _G.pg.equip_data_statistics[791] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[800] = {
+	type = 10,
+	name = "艇殼改良設計案",
+	speciality = "无",
+	tech = 2,
+	rarity = 4,
+	descrip = "通過對艇殼形狀的改良，減小了潛艇水下航行的阻力，提高了戰鬥中的航速與航程",
+	attribute_1 = "torpedo",
+	value_2 = 40,
+	icon = "800",
+	value_1 = "15",
+	attribute_2 = "durability",
+	attribute_3 = "raid_distance",
+	nationality = 4,
+	ammo = 10,
+	value_3 = -8,
+	id = 800,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6560
+	},
+	hidden_skill_id = {},
+	part_main = {
+		8,
+		17
+	},
+	part_sub = {
+		8,
+		17
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DEV"
+	}
+}
+
+_G.pg.equip_data_statistics[801] = {
+	id = 801,
+	value_2 = 45,
+	value_1 = "17",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[802] = {
+	id = 802,
+	value_2 = 50,
+	value_1 = "19",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[803] = {
+	id = 803,
+	value_2 = 55,
+	value_1 = "21",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[804] = {
+	id = 804,
+	value_2 = 60,
+	value_1 = "23",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[805] = {
+	id = 805,
+	value_2 = 65,
+	value_1 = "25",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[806] = {
+	id = 806,
+	value_2 = 70,
+	value_1 = "27",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[807] = {
+	id = 807,
+	value_2 = 75,
+	value_1 = "29",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[808] = {
+	id = 808,
+	value_2 = 80,
+	value_1 = "31",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[809] = {
+	id = 809,
+	value_2 = 90,
+	value_1 = "33",
+	base = 800,
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[810] = {
+	id = 810,
+	value_2 = 100,
+	value_1 = "35",
+	base = 800,
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[820] = {
 	type = 10,
 	name = "開拓者獎章",
@@ -113589,7 +113713,7 @@ _G.pg.equip_data_statistics[90400] = {
 	name = "四聯裝380mm主炮Mle1935",
 	speciality = "跨射",
 	type = 4,
-	descrip = "說明未填寫",
+	descrip = "黎胥留級戰列艦上搭載的四聯裝380mm主炮，戰巡和戰列可以使用",
 	ammo = 3,
 	damage = "40 x 4",
 	nationality = 8,
@@ -113704,7 +113828,7 @@ _G.pg.equip_data_statistics[90420] = {
 	name = "四聯裝380mm主炮Mle1935",
 	speciality = "跨射",
 	type = 4,
-	descrip = "說明未填寫",
+	descrip = "黎胥留級戰列艦上搭載的四聯裝380mm主炮，戰巡和戰列可以使用",
 	ammo = 2,
 	damage = "44 x 4",
 	nationality = 8,
@@ -113859,7 +113983,7 @@ _G.pg.equip_data_statistics[90440] = {
 	name = "四聯裝380mm主炮Mle1935",
 	speciality = "跨射",
 	type = 4,
-	descrip = "說明未填寫",
+	descrip = "黎胥留級戰列艦上搭載的四聯裝380mm主炮，戰巡和戰列可以使用",
 	ammo = 2,
 	damage = "48 x 4",
 	nationality = 8,

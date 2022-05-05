@@ -171,6 +171,16 @@ function slot0.GetTexture(slot0, slot1, slot2)
 	uv1(slot0, slot1, slot2)
 end
 
+function slot0.GetNonCacheTexture(slot0, slot1, slot2)
+	if not slot1 or slot1 == "" then
+		Finish(nil)
+	elseif uv0.FileExists(slot0) and slot1 == uv1(uv2(slot0)) then
+		uv3(slot0, slot1, slot2)
+	else
+		uv4(slot0, slot1, slot2)
+	end
+end
+
 function slot0.UploadTexture(slot0, slot1)
 	uv0(slot0, slot1)
 end

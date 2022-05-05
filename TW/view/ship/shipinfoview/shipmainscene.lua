@@ -728,7 +728,7 @@ end
 
 function slot0.StopPreVoice(slot0)
 	if slot0.preVoiceContent ~= nil then
-		pg.CriMgr:UnloadSoundEffect_V3(slot0.preVoiceContent)
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0.preVoiceContent)
 	end
 end
 
@@ -1219,10 +1219,7 @@ function slot0.paintView(slot0)
 	slot11 = slot4.rect.width / 2
 	slot12 = slot4.rect.height / 2
 	slot13, slot14 = nil
-	slot15 = GetOrAddComponent(slot0.background, "MultiTouchZoom")
-
-	slot15:SetZoomTarget(slot0.nowPainting)
-
+	slot15 = GetOrAddComponent(slot0.background, "PinchZoom")
 	slot16 = GetOrAddComponent(slot0.background, "EventTriggerListener")
 	slot17 = true
 	slot18 = false
@@ -1247,9 +1244,13 @@ function slot0.paintView(slot0)
 		uv5 = slot1.position.y * uv6 - uv7 - tf(uv4.nowPainting).localPosition.y
 	end)
 	slot16:AddDragFunc(function (slot0, slot1)
-		if uv0 then
-			slot2 = tf(uv1.nowPainting).localPosition
-			tf(uv1.nowPainting).localPosition = Vector3(slot1.position.x * uv2 - uv3 - uv4, slot1.position.y * uv5 - uv6 - uv7, -22)
+		if uv0.processing then
+			return
+		end
+
+		if uv1 then
+			slot2 = tf(uv2.nowPainting).localPosition
+			tf(uv2.nowPainting).localPosition = Vector3(slot1.position.x * uv3 - uv4 - uv5, slot1.position.y * uv6 - uv7 - uv8, -22)
 		end
 	end)
 	onButton(slot0, slot0.background, function ()
@@ -1273,6 +1274,7 @@ function slot0.paintView(slot0)
 
 		uv2.enabled = false
 		uv3.enabled = false
+		slot0.character.localScale = Vector3.one
 
 		slot0.shipDetailView:Show()
 		setActive(slot0.blurPanel, true)

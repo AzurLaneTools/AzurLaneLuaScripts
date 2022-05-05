@@ -3864,7 +3864,7 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2022.2.10-2022.5.5</color>期間限時開放「皇家方舟·META」的挑戰，在此期間指揮官可挑戰「皇家方舟·META」累計其同步值獲取<color=#92fc63>「皇家方舟·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2022.5.5-2022.7.28</color>期間限時開放「海倫娜·META」的挑戰，在此期間指揮官可挑戰「海倫娜·META」累計其同步值獲取<color=#92fc63>「海倫娜·META」角色</color>及其他豐厚獎勵
  <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -3893,7 +3893,7 @@ _G.pg.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2022.3.12~2022.5.5期間，艦隊挑戰「皇家方舟·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。 
+隨著信標·META挑戰的進行，從第31天開始，即2022.6.4~2022.7.28期間，艦隊挑戰「海倫娜·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。 
 ※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
@@ -8867,7 +8867,7 @@ _G.pg.gametip.ai_change_2 = {
 }
 
 _G.pg.gametip.activity_shop_lable = {
-	tip = "*兌換開放時間:<color=#FFCF81>$1</color>"
+	tip = "*兌換開放時間:<color=#68F9D7>$1</color>"
 }
 
 _G.pg.gametip.word_bilibili = {
@@ -9352,11 +9352,11 @@ _G.pg.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "黛朵、格洛斯特、比洛克西、最上、海爾賽·鮑威爾、布希 建造追加！"
+	tip = "雪風、魯莽、格拉斯哥、小貝法 建造追加！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "齊柏林伯爵、U-47、U-557建造追加！"
+	tip = "大鳳 建造追加！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -10213,7 +10213,7 @@ _G.pg.gametip.world_boss_help = {
 8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會記錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵
 9.獎勵將在「演習據點」完全耗盡後，通過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵
 10.活動期間，可以領取個人貢獻獎勵，個人貢獻獎勵需要當據點攻略進度和擁有的「貢獻值」達到指定要求後才能領取
-11.10.14-10.28期間可以參與演習戰鬥，獎勵領取的截止時間為11.3]]
+11.5.5-5.19期間可以參與演習戰鬥，獎勵領取的截止時間為5.26維護前]]
 		},
 		{
 			info = [[
@@ -11868,6 +11868,10 @@ _G.pg.gametip.word_normal_junhe = {
 
 _G.pg.gametip.word_hard = {
 	tip = "困難"
+}
+
+_G.pg.gametip.word_special_challenge_ticket = {
+	tip = "特別挑戰券"
 }
 
 _G.pg.gametip.tip_exchange_ticket = {
@@ -18297,6 +18301,10 @@ _G.pg.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "艦船為大世界艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
 }
 
+_G.pg.gametip.shipmodechange_reject_inactivity = {
+	tip = "艦船在限界挑戰/共鬥活動編成中，請調整編隊陣容後重試 "
+}
+
 _G.pg.gametip.fushun_game3_tip = {
 	tip = {
 		{
@@ -18625,6 +18633,10 @@ _G.pg.gametip.battle_result_quit_battle = {
 	tip = "退 出 挑 戰"
 }
 
+_G.pg.gametip.battle_result_share_battle = {
+	tip = "分 享 战 绩"
+}
+
 _G.pg.gametip.pre_combat_team = {
 	tip = "出擊艦隊"
 }
@@ -18647,4 +18659,8 @@ _G.pg.gametip.destroy_confirm_access = {
 
 _G.pg.gametip.destroy_confirm_cancel = {
 	tip = "取 消"
+}
+
+_G.pg.gametip.pt_count_tip = {
+	tip = "累计"
 }

@@ -53403,6 +53403,41 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14676] = {
+		name = "『限界挑战7』-积分任务",
+		guild_coin_award = 0,
+		award = 91196,
+		type = 6,
+		desc = "PT",
+		count_inherit = 0,
+		sub_type = 103,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 14676,
+		target_num = 8800,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				207,
+				1
+			}
+		}
+	},
 	[14730] = {
 		name = "『法系复刻活动』-日常建造",
 		guild_coin_award = 0,
@@ -58579,6 +58614,251 @@ pg.task_data_template = {
 		},
 		scene = {
 			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15031] = {
+		name = "牙买加皮肤任务1",
+		guild_coin_award = 0,
+		award = 91821,
+		type = 26,
+		desc = "擊沉任意敵人100艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15031,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15032] = {
+		name = "牙买加皮肤任务2",
+		guild_coin_award = 0,
+		award = 91822,
+		type = 26,
+		desc = "擊沉任意敵人150艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15032,
+		target_num = 150,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15033] = {
+		name = "牙买加皮肤任务3",
+		guild_coin_award = 0,
+		award = 91823,
+		type = 26,
+		desc = "擊沉任意敵人150艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15033,
+		target_num = 150,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[15034] = {
+		name = "牙买加皮肤任务4",
+		guild_coin_award = 0,
+		award = 91824,
+		type = 26,
+		desc = "擊沉任意敵人200艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15034,
+		target_num = 200,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15035] = {
+		name = "牙买加皮肤任务5",
+		guild_coin_award = 0,
+		award = 91825,
+		type = 26,
+		desc = "擊沉任意敵人250艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15035,
+		target_num = 250,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[15036] = {
+		name = "牙买加皮肤任务6",
+		guild_coin_award = 0,
+		award = 91826,
+		type = 26,
+		desc = "擊沉任意敵人300艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15036,
+		target_num = 300,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[15037] = {
+		name = "牙买加皮肤任务7",
+		guild_coin_award = 0,
+		award = 91827,
+		type = 26,
+		desc = "擊沉任意敵人300艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 15037,
+		target_num = 300,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				202172,
+				1
+			}
 		}
 	},
 	[15050] = {
@@ -121391,6 +121671,203 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[80243] = {
+		name = "2022埃塞克斯世界BOSS挑战券任务1",
+		guild_coin_award = 0,
+		award = 300285,
+		type = 36,
+		desc = "登入遊戲",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 80243,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				40615,
+				1
+			}
+		}
+	},
+	[80244] = {
+		name = "2022埃塞克斯世界BOSS挑战券任务2",
+		guild_coin_award = 0,
+		award = 300285,
+		type = 36,
+		desc = "通關1次任意主線困難關卡",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "10101",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 80244,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				40615,
+				1
+			}
+		}
+	},
+	[80245] = {
+		name = "2022埃塞克斯世界BOSS挑战券任务3",
+		guild_coin_award = 0,
+		award = 300285,
+		type = 36,
+		desc = "通關3次任意主線困難關卡",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "10101",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		id = 80245,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				40615,
+				1
+			}
+		}
+	},
+	[80246] = {
+		name = "2022埃塞克斯世界BOSS挑战券任务4",
+		guild_coin_award = 0,
+		award = 300285,
+		type = 36,
+		desc = "通關5次『特別演習·艾塞克斯級』任意難度關卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 80246,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1410001,
+			1410002,
+			1410003,
+			1410004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				40615,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE",
+			{
+				mediatorClass = ActivityBossMediatorTemplate,
+				viewClass = ActivityBossAisaikesiScene
+			}
+		}
+	},
+	[80247] = {
+		name = "2022埃塞克斯世界BOSS挑战券任务5",
+		guild_coin_award = 0,
+		award = 300285,
+		type = 36,
+		desc = "通關10次『特別演習·艾塞克斯級』任意難度關卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		id = 80247,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1410001,
+			1410002,
+			1410003,
+			1410004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				40615,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE",
+			{
+				mediatorClass = ActivityBossMediatorTemplate,
+				viewClass = ActivityBossAisaikesiScene
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -122720,6 +123197,7 @@ pg.task_data_template = {
 		14673,
 		14674,
 		14675,
+		14676,
 		14730,
 		14731,
 		14732,
@@ -122850,6 +123328,13 @@ pg.task_data_template = {
 		15028,
 		15029,
 		15030,
+		15031,
+		15032,
+		15033,
+		15034,
+		15035,
+		15036,
+		15037,
 		15050,
 		15051,
 		15052,
@@ -124445,6 +124930,11 @@ pg.task_data_template = {
 		80239,
 		80240,
 		80241,
-		80242
+		80242,
+		80243,
+		80244,
+		80245,
+		80246,
+		80247
 	}
 }

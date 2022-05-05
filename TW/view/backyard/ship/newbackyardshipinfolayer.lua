@@ -30,14 +30,12 @@ function slot0.init(slot0)
 	table.insert(slot0.cards[2], BackYardEmptyCard.New(slot0.addShipTpl, slot0.event))
 	table.insert(slot0.cards[3], BackYardExtendCard.New(slot0.extendShipTpl, slot0.event))
 	setText(slot0:findTF("frame/desc1"), i18n("backyard_longpress_ship_tip"))
+	pg.UIMgr.GetInstance():BlurPanel(slot0.mainPanel, false, {
+		weight = LayerWeightConst.BASE_LAYER
+	})
 end
 
 function slot0.didEnter(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:BlurPanel(slot0.mainPanel, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)

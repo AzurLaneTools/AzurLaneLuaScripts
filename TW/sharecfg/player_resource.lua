@@ -765,6 +765,26 @@ pg.player_resource = {
 		name = "gonghaijiandui_frame_pt",
 		itemid = 59305
 	},
+	[251] = {
+		id = 251,
+		name = "gonghaijiandui_pt",
+		itemid = 59307
+	},
+	[252] = {
+		id = 252,
+		name = "xiaoougen_pt",
+		itemid = 59308
+	},
+	[253] = {
+		id = 253,
+		name = "xiaoougen_youhao_pt",
+		itemid = 59309
+	},
+	[254] = {
+		id = 254,
+		name = "skinTicket32",
+		itemid = 59310
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -974,6 +994,16 @@ pg.player_resource = {
 		id = 40588,
 		name = "skinTicket40588",
 		itemid = 59301
+	},
+	[40614] = {
+		id = 40614,
+		name = "contribution_worldboss_tw411",
+		itemid = 80000
+	},
+	[40615] = {
+		id = 40615,
+		name = "worldboss_tw411_ticket",
+		itemid = 80001
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -1435,6 +1465,18 @@ pg.player_resource = {
 		gonghaijiandui_frame_pt = {
 			250
 		},
+		gonghaijiandui_pt = {
+			251
+		},
+		xiaoougen_pt = {
+			252
+		},
+		xiaoougen_youhao_pt = {
+			253
+		},
+		skinTicket32 = {
+			254
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1560,6 +1602,12 @@ pg.player_resource = {
 		},
 		skinTicket40588 = {
 			40588
+		},
+		contribution_worldboss_tw411 = {
+			40614
+		},
+		worldboss_tw411_ticket = {
+			40615
 		}
 	},
 	all = {
@@ -1716,6 +1764,10 @@ pg.player_resource = {
 		248,
 		249,
 		250,
+		251,
+		252,
+		253,
+		254,
 		950,
 		951,
 		952,
@@ -1757,6 +1809,8 @@ pg.player_resource = {
 		45037,
 		45040,
 		40602,
-		40588
+		40588,
+		40614,
+		40615
 	}
 }

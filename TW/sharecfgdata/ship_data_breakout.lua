@@ -3595,6 +3595,140 @@ _G.pg.ship_data_breakout[102184] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.ship_data_breakout[102191] = {
+	use_gold = 500,
+	breakout_view = "獲得全彈發射I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 10219,
+	breakout_id = 102192,
+	level = 10,
+	id = 102191,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		70121
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[102192] = {
+	use_gold = 1500,
+	breakout_view = "主炮底座+1/主炮效率提高10%",
+	use_char_num = 1,
+	use_char = 10219,
+	breakout_id = 102193,
+	level = 30,
+	id = 102192,
+	icon = "10001",
+	pre_id = 102191,
+	use_item = {},
+	weapon_ids = {
+		12100,
+		12100
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[102193] = {
+	use_gold = 2500,
+	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
+	use_char_num = 2,
+	use_char = 10219,
+	breakout_id = 102194,
+	level = 70,
+	id = 102193,
+	icon = "10001",
+	pre_id = 102192,
+	use_item = {},
+	weapon_ids = {
+		70122
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[102194] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 10219,
+	breakout_id = 0,
+	level = 0,
+	id = 102194,
+	icon = "10001",
+	pre_id = 102193,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[102201] = {
+	use_gold = 500,
+	breakout_view = "獲得全彈發射I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 10220,
+	breakout_id = 102202,
+	level = 10,
+	id = 102201,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		70141
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[102202] = {
+	use_gold = 1500,
+	breakout_view = "主炮底座+1/主炮效率提高10%",
+	use_char_num = 1,
+	use_char = 10220,
+	breakout_id = 102203,
+	level = 30,
+	id = 102202,
+	icon = "10001",
+	pre_id = 102201,
+	use_item = {},
+	weapon_ids = {
+		12100,
+		12100
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[102203] = {
+	use_gold = 2500,
+	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
+	use_char_num = 2,
+	use_char = 10220,
+	breakout_id = 102204,
+	level = 70,
+	id = 102203,
+	icon = "10001",
+	pre_id = 102202,
+	use_item = {},
+	weapon_ids = {
+		70142
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[102204] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 10220,
+	breakout_id = 0,
+	level = 0,
+	id = 102204,
+	icon = "10001",
+	pre_id = 102203,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.ship_data_breakout[102211] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",

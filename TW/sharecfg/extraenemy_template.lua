@@ -134,10 +134,10 @@ pg.extraenemy_template = {
 		id = 5,
 		background = "",
 		reward = {
-			93436,
-			93437,
-			93438,
-			93439
+			300281,
+			300282,
+			300283,
+			300284
 		},
 		reward_display = {
 			{

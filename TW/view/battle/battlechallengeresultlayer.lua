@@ -37,6 +37,7 @@ function slot0.init(slot0)
 
 	setText(findTF(slot0._challengeBottomPanel, "continue_btn/text"), i18n("battle_result_continue_battle"))
 	setText(findTF(slot0._challengeBottomPanel, "quit_btn/text"), i18n("battle_result_quit_battle"))
+	setText(findTF(slot0._challengeBottomPanel, "share_btn/text"), i18n("battle_result_share_battle"))
 
 	slot0._shareBtn = slot0:findTF("share_btn", slot0._challengeBottomPanel)
 	slot0._continueBtn = slot0:findTF("continue_btn", slot0._challengeBottomPanel)

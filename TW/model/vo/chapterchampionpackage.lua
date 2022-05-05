@@ -43,7 +43,7 @@ end
 
 function slot0.Iter(slot0)
 	if #slot0.idList <= 0 then
-		slot0.flag = 1
+		slot0.flag = ChapterConst.CellFlagDisabled
 
 		return
 	end

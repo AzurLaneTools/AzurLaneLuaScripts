@@ -573,6 +573,13 @@ function slot9.RemoveAutoWeaponByWeaponID(slot0, slot1)
 	end
 end
 
+function slot9.RemoveAllAutoWeapon(slot0)
+	for slot4, slot5 in ipairs(slot0._autoWeaponList) do
+		slot5:Clear()
+		slot0:RemoveAutoWeapon(slot5)
+	end
+end
+
 function slot9.AddFleetAntiAirWeapon(slot0, slot1)
 end
 

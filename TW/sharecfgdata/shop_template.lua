@@ -18757,9 +18757,9 @@ _G.pg.shop_template[70162] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				5,
+				5
 			},
 			{
 				0,
@@ -18769,9 +18769,9 @@ _G.pg.shop_template[70162] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				5,
+				18
 			},
 			{
 				23,
@@ -18808,9 +18808,9 @@ _G.pg.shop_template[70163] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				5,
+				5
 			},
 			{
 				0,
@@ -18820,9 +18820,9 @@ _G.pg.shop_template[70163] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				5,
+				18
 			},
 			{
 				23,
@@ -21049,9 +21049,9 @@ _G.pg.shop_template[70211] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				5,
+				5
 			},
 			{
 				0,
@@ -21061,9 +21061,9 @@ _G.pg.shop_template[70211] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				5,
+				18
 			},
 			{
 				23,
@@ -21355,9 +21355,9 @@ _G.pg.shop_template[70217] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				5,
+				5
 			},
 			{
 				0,
@@ -21367,9 +21367,9 @@ _G.pg.shop_template[70217] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				5,
+				18
 			},
 			{
 				23,
@@ -22955,6 +22955,57 @@ _G.pg.shop_template[70244] = {
 	}
 }
 
+_G.pg.shop_template[70245] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：埃塞克斯机车",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70245,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		107091
+	},
+	time = {
+		{
+			{
+				2022,
+				5,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				5,
+				18
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.shop_template[70246] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -22981,9 +23032,9 @@ _G.pg.shop_template[70246] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				23
+				2022,
+				5,
+				5
 			},
 			{
 				0,
@@ -22993,9 +23044,60 @@ _G.pg.shop_template[70246] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				5,
+				18
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[70248] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：晓机车",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 180,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70248,
+	resource_num = 780,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301092
+	},
+	time = {
+		{
+			{
+				2022,
+				5,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				5,
+				18
 			},
 			{
 				23,
@@ -23032,9 +23134,9 @@ _G.pg.shop_template[70249] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				30
+				2022,
+				5,
+				5
 			},
 			{
 				0,
@@ -23044,9 +23146,9 @@ _G.pg.shop_template[70249] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				5,
+				18
 			},
 			{
 				23,
@@ -29154,6 +29256,57 @@ _G.pg.shop_template[70389] = {
 	}
 }
 
+_G.pg.shop_template[70390] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:香格里拉皮肤",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70390,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		107382
+	},
+	time = {
+		{
+			{
+				2022,
+				5,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				5,
+				18
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.shop_template[70391] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -29180,9 +29333,9 @@ _G.pg.shop_template[70391] = {
 	time = {
 		{
 			{
-				2021,
-				9,
-				30
+				2022,
+				5,
+				5
 			},
 			{
 				0,
@@ -29192,9 +29345,9 @@ _G.pg.shop_template[70391] = {
 		},
 		{
 			{
-				2021,
-				10,
-				20
+				2022,
+				5,
+				18
 			},
 			{
 				23,
