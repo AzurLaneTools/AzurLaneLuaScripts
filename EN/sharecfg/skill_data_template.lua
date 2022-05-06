@@ -59683,7 +59683,7 @@ Increases this ship's Crit DMG dealt by $1. While this ship is afloat, for the f
 		id = 15360,
 		type = 3,
 		max_level = 10,
-		desc = "When this ship fires her Main Guns: fires a $2 special barrage. \nWhen the battle starts, if this ship is NOT your Flagship and your Flagship has a \"Marvels of History\" skill: the higher percentage HP your Flagship has remaining, the shorter the reload time of her first Main Gun volley (at least 20.0%; up to $1).",
+		desc = "Every battle, the first time this ship fires her Main Guns: fires a $2 special barrage. \nWhen the battle starts, if this ship is NOT your Flagship and your Flagship has a \"Marvels of History\" skill: the higher percentage HP your Flagship has remaining, the shorter the reload time of her first Main Gun volley (at least 20.0%; up to $1).",
 		system_transform = {},
 		world_death_mark = {
 			1

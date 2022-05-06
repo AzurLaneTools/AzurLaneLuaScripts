@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Though I'm not quite sure what \"plot armor is,\" Ikazuchi is right.",
+			say = "Though I'm not quite sure what \"plot armor\" is, Ikazuchi is right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

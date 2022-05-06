@@ -296,7 +296,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705023] = {
-		breakout_view = "Improve skill Flickering Light/Main gun base +1/Main gun efficiency +15%",
+		breakout_view = "Improve skill Flickering Light/Main gun efficiency +15%",
 		gold = 2500,
 		breakout_id = 9705024,
 		repair = 0,
