@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "…메탈 블러드의 지연 전술은 비록 의도가 뻔하지만 매우 효과적이라고 볼 수 있겠네요",
+			say = "…메탈 블러드의 지연 전술은 비록 의도가 뻔하지만 매우 효과적이라고 볼 수 있겠네",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

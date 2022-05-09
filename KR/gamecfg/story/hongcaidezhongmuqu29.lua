@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "당신들이… 에게르와 아우구스트?",
+			say = "당신들이… 에기르와 아우구스트?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

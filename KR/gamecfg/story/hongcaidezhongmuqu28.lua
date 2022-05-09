@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "극지 함대도 뒤처져서는 안되겠지요. 우린 오는 길에 너무 많은 시간을 지체했으니, 지금부턴 반드시 1등을 해야 합니다!",
+			say = "극지 함대도 뒤처져서는 안되겠지. 우린 오는 길에 너무 많은 시간을 지체했으니, 지금부턴 반드시 1등을 해야 한다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "어느새 이렇게 되어버렸군요… 이미 NA 해역의 대형 작전 때보다 더 시끌벅쩍한 것 같네요…",
+			say = "어느새 이렇게 되어버렸네... 이미 NA 해역의 대형 작전 때보다 더 시끌벅적한 것 같아...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…세이렌 본체의 위치는 쉽게 바뀌지 않겠죠?",
+			say = "…세이렌 본체의 위치가 쉽게 바뀌지는 않겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

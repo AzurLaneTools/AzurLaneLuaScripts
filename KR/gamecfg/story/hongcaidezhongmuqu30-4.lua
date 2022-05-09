@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "만약 부분 제거 프로그램의 저장 에너지가 100&에 도달한다면 우린 정말로 끝이야.",
+			say = "만약 부분 제거 프로그램의 저장 에너지가 100%에 도달한다면 우린 정말로 끝이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

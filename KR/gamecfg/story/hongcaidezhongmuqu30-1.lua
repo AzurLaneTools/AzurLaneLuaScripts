@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "그때 스캐퍼플로의 습격 역시 당신이 한 짓이죠?",
+			say = "그때 스캐퍼플로의 습격 역시 네가 한 짓이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…무슨 뜻이죠?",
+			say = "…무슨 뜻이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "안개 속에 우린 말한적 없는 말을 하고, 해본 적 없는 해동을 하고 있었어…",
+			say = "안개 속에 우린 말한적 없는 말을 하고, 해본 적 없는 행동을 하고 있었어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

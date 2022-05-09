@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "그럼 이제 저흰 누구랑 싸우는 거예요?",
+			say = "그럼 이제 우린 누구랑 싸우는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

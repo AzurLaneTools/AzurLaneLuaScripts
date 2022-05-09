@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "에~ 우리가 예전에 하고 싶었는데 못 했던 거잖아요~",
+			say = "에~ 우리가 예전에 하고 싶었는데 못 했던 거잖아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "사실 아무렇지도 않은데요…?",
+			say = "사실 아무렇지도 않은데…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "우리의 실패로 메탈 블러드는 해상에서의 힘을 완전히 잃었어요. 다른 진영과 연합하는 건 당연한 거죠.",
+			say = "우리의 실패로 메탈 블러드는 해상에서의 힘을 완전히 잃었어. 다른 진영과 연합하는 건 당연한 거지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이렇게 말하면 벽람항로의 분열도 의외가 아니기는 마찬가지겠지만 말이에요.",
+			say = "이렇게 말하면 벽람항로의 분열도 의외가 아니기는 마찬가지겠지만 말이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

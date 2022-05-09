@@ -299,7 +299,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "훌륭한 전투였습니다, 지휘관 동지.",
+			say = "훌륭한 전투였다, 지휘관 동지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "누군가 곧 꿈나라로 갈 예정인듯 싶은데요…",
+			say = "누군가 곧 꿈나라로 갈 예정인듯 싶은데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "드디어 모두가 햇살 아래에서 꿀잠을 잘 수 있게 되었네요.",
+			say = "드디어 모두가 햇살 아래에서 달콤한 잠을 잘 수 있게 되었네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

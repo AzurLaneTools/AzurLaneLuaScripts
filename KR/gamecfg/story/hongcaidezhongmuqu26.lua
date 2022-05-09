@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "헤———역시 저희와 목표가 같군요!",
+			say = "헤———역시 우리와 목표가 같군!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "임시로 조직된 연합군은 역시 어떤 조화도 기대할 수 없네요...",
+			say = "임시로 조직된 연합군은 역시 어떤 조화도 기대할 수 없구나...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705050,
-			say = "지휘관 동지, 수많은 장애물을 극복하고 드디어 공식적으로 합류했습니다.",
+			say = "지휘관 동지, 수많은 장애물을 극복하고 드디어 공식적으로 합류했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

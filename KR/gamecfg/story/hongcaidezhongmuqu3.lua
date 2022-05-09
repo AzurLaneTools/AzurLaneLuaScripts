@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(에길에 아우구스트 폰 파르제팔…. 메탈 블러드의 계획함들이군)",
+			say = "(에기르에 아우구스트 폰 파르제팔…. 메탈 블러드의 계획함들이군)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

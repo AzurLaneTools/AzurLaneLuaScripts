@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "오호라~ 이게 바로 방패라는 거군요? 신기해 보이긴 하지만 생각보다 대단하진 않네요.",
+			say = "오호라~ 이게 바로 방패라는 거군? 신기해 보이긴 하지만 생각보다 대단하진 않네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
