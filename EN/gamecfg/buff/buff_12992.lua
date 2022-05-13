@@ -22,7 +22,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -53,7 +56,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -84,7 +90,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -115,7 +124,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -146,7 +158,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -177,7 +192,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -208,7 +226,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -239,7 +260,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -270,7 +294,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}
@@ -301,7 +328,10 @@ return {
 				},
 				arg_list = {
 					skill_id = 12992,
-					target = "TargetShipTag",
+					target = {
+						"TargetAllHelp",
+						"TargetShipTag"
+					},
 					ship_tag_list = {
 						"Tashkent"
 					}

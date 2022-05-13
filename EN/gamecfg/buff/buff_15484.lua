@@ -10,12 +10,13 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffHP",
+			type = "BattleBuffAddTag",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
-				number = -3000
+				tag = "lvzuofuxunbao"
 			}
 		}
 	}

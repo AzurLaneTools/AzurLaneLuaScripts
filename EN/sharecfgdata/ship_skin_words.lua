@@ -1,4 +1,4 @@
-_G.pg.ship_skin_words[100000] = {
+_G.pg.base.ship_skin_words[100000] = {
 	feeling1 = "Wahh~! Commander is a big, big dummy!",
 	feeling3 = "Bulin is happy that she can help everyone get stronger, but she enjoys playing with you too, Commander! Bulin can help strengthen you... Aww, why not?",
 	lose = "Huh? Am I... no good in battle, buli?",
@@ -41,7 +41,7 @@ _G.pg.ship_skin_words[100000] = {
 	}
 }
 
-_G.pg.ship_skin_words[100001] = {
+_G.pg.base.ship_skin_words[100001] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Ehh? I thought I was supposed to be stronger, bulin?",
@@ -75,7 +75,7 @@ _G.pg.ship_skin_words[100001] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[100010] = {
+_G.pg.base.ship_skin_words[100010] = {
 	feeling1 = "You're pretty amazing to have gotten on my bad side! But I won't get angry just to appease you! Haha! Enjoy your emptiness!",
 	feeling3 = "I'll let you in on a little secret. My little sister keeps telling people that she's smarter than me. But truth is, she's dumber! I try to be nice and let her feel good about herself, like a big sister should. Ha!",
 	lose = "So why am I on the battlefield anyway, purin?!",
@@ -109,7 +109,7 @@ _G.pg.ship_skin_words[100010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[100020] = {
+_G.pg.base.ship_skin_words[100020] = {
 	feeling1 = "You've lost your way, but don't give up! Pull yourself together, bulin!",
 	feeling3 = "As thanks for always hanging with me, I'll let you borrow my Kitty Kabam Hammer for an hour, bulin! But don't use it for any mean stuff, okay?",
 	lose = "My batteries are out... My Kitty Kabam Hammer was never made for battle, bulin!",
@@ -161,7 +161,7 @@ _G.pg.ship_skin_words[100020] = {
 	}
 }
 
-_G.pg.ship_skin_words[101020] = {
+_G.pg.base.ship_skin_words[101020] = {
 	feeling1 = "You're scarier than any storm, Commander...",
 	feeling3 = "Commander, I cleaned your office earlier. Wouldn't you say it looks more orderly now? I could clean your bedroom too, if you'd like!",
 	lose = "I-I messed up...",
@@ -229,7 +229,7 @@ _G.pg.ship_skin_words[101020] = {
 	}
 }
 
-_G.pg.ship_skin_words[101021] = {
+_G.pg.base.ship_skin_words[101021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -263,7 +263,7 @@ _G.pg.ship_skin_words[101021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101022] = {
+_G.pg.base.ship_skin_words[101022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -297,7 +297,7 @@ _G.pg.ship_skin_words[101022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101030] = {
+_G.pg.base.ship_skin_words[101030] = {
 	feeling1 = "Can't you just let me sleep for a while?",
 	feeling3 = "Hmm, how should I say this... If you're free, would you like to take a nap together?",
 	lose = "What a pain... Might as well head back.",
@@ -331,7 +331,7 @@ _G.pg.ship_skin_words[101030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101031] = {
+_G.pg.base.ship_skin_words[101031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -365,7 +365,7 @@ _G.pg.ship_skin_words[101031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101039] = {
+_G.pg.base.ship_skin_words[101039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -399,7 +399,7 @@ _G.pg.ship_skin_words[101039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101040] = {
+_G.pg.base.ship_skin_words[101040] = {
 	feeling1 = "There's nothing I hate more than the listless!",
 	feeling3 = "My body? Don't pay it any attention. I've only had half of it replaced. I can still eat and sleep just fine. Nothing's wrong!",
 	lose = "Ow ow ow... My magazine's been...",
@@ -433,7 +433,7 @@ _G.pg.ship_skin_words[101040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101041] = {
+_G.pg.base.ship_skin_words[101041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -467,7 +467,7 @@ _G.pg.ship_skin_words[101041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101049] = {
+_G.pg.base.ship_skin_words[101049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -501,7 +501,7 @@ _G.pg.ship_skin_words[101049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101050] = {
+_G.pg.base.ship_skin_words[101050] = {
 	feeling1 = "You don't get to look at pictures of Sara anymore!",
 	feeling3 = "Commander, didn't you promise we'd go see Sara together? What are we waiting for? Let's go!",
 	lose = "Dammit~ I lost focus!",
@@ -535,7 +535,7 @@ _G.pg.ship_skin_words[101050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101051] = {
+_G.pg.base.ship_skin_words[101051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -569,7 +569,7 @@ _G.pg.ship_skin_words[101051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101060] = {
+_G.pg.base.ship_skin_words[101060] = {
 	feeling1 = "I'll go cheer someone else on instead. I might not be coming back today!",
 	feeling3 = "You don't look very energetic, Commander. Should I pat you on the head to cheer you up?",
 	lose = "Oh no... My cheering must not have worked...",
@@ -603,7 +603,7 @@ _G.pg.ship_skin_words[101060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101061] = {
+_G.pg.base.ship_skin_words[101061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -637,7 +637,7 @@ _G.pg.ship_skin_words[101061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101070] = {
+_G.pg.base.ship_skin_words[101070] = {
 	feeling1 = "(McCall continues licking her popsicle and acts like she didn't notice you.)",
 	feeling3 = "Tips for daydreaming? Empty your mind and don't think about anything. Don't forget about your popsicle before it melts, though...",
 	lose = "Whoa, I got so scared I dropped my popsicle...",
@@ -671,7 +671,7 @@ _G.pg.ship_skin_words[101070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101080] = {
+_G.pg.base.ship_skin_words[101080] = {
 	feeling1 = "Sorry, I've got some training to do, so I gotta go!",
 	feeling3 = "Want me to teach you how to run faster, Commander? There's quite a lot to it, actually.",
 	lose = "... I need to get back before everyone starts worrying about me.",
@@ -705,7 +705,7 @@ _G.pg.ship_skin_words[101080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101090] = {
+_G.pg.base.ship_skin_words[101090] = {
 	feeling1 = "S-sorry, I have to go check up on my little sisters...",
 	feeling3 = "Commander, can you help me a little bit? Thank you... You're stronger than me, after all... I'm a little jealous.",
 	lose = "*Sob*... You bullies... My sisters will hurt you if they find out about this!",
@@ -739,7 +739,7 @@ _G.pg.ship_skin_words[101090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101110] = {
+_G.pg.base.ship_skin_words[101110] = {
 	feeling1 = "You're the embodiment of evil itself, Commander!",
 	feeling3 = "Being partners in justice is never easy. But you've got Ausburne by your side, so I'm sure we'll be fine!",
 	lose = "I'll be back! Justice will prevail! *Sob*...",
@@ -802,7 +802,7 @@ _G.pg.ship_skin_words[101110] = {
 	}
 }
 
-_G.pg.ship_skin_words[101120] = {
+_G.pg.base.ship_skin_words[101120] = {
 	feeling1 = "You're so boring now, Commander...",
 	feeling3 = "Commander, I want to always be able to play tricks on you, but... Do you hate me for that?",
 	lose = "Damn it! My prank failed! Ahh, Spence, get outta the way, I'll end up bumping into you!",
@@ -836,7 +836,7 @@ _G.pg.ship_skin_words[101120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101130] = {
+_G.pg.base.ship_skin_words[101130] = {
 	feeling1 = "You think it's funny to call me by the wrong name?",
 	feeling3 = "... After being called sweet for so long, I think I'm starting to get used to it. ... You call me sweet because that's what girls are? I-is that a compliment?",
 	lose = "Why does everything have to hit me in the face?!",
@@ -870,7 +870,7 @@ _G.pg.ship_skin_words[101130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101140] = {
+_G.pg.base.ship_skin_words[101140] = {
 	feeling1 = "*Tsk* Could you just stop bothering me?",
 	feeling3 = "You're being surprisingly quiet, Commander. I'll keep you company for a while longer then.",
 	lose = "*Tsk* Too much trouble. I don't wanna play with these guys anymore.",
@@ -904,7 +904,7 @@ _G.pg.ship_skin_words[101140] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101150] = {
+_G.pg.base.ship_skin_words[101150] = {
 	feeling1 = "You're a bit scary, Commander...",
 	feeling3 = "My big sister said... that I can trust you, Commander...",
 	lose = "I-I'm so scared!",
@@ -938,7 +938,7 @@ _G.pg.ship_skin_words[101150] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101160] = {
+_G.pg.base.ship_skin_words[101160] = {
 	feeling1 = "Oh evil being who conspires against cuties... in the name of the moon, I will punish you!",
 	feeling3 = "I am cuteness, and cuteness is me. Don't you agree, Commander? Yay!",
 	lose = "Oh nooo! You didn't see anything, Commander! Got it?! *Sob*... I failed...",
@@ -972,7 +972,7 @@ _G.pg.ship_skin_words[101160] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101161] = {
+_G.pg.base.ship_skin_words[101161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1006,7 +1006,7 @@ _G.pg.ship_skin_words[101161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101170] = {
+_G.pg.base.ship_skin_words[101170] = {
 	feeling1 = "Zzzzzzz...",
 	feeling3 = "I thought you were a bit boring at first, Commander... But now that I've been thinking about it, I'm not really motivated about anything other than fighting, so we might be a decent match...",
 	lose = "Mmm... We lost... They weren't so easy were they?",
@@ -1057,7 +1057,7 @@ _G.pg.ship_skin_words[101170] = {
 	}
 }
 
-_G.pg.ship_skin_words[101172] = {
+_G.pg.base.ship_skin_words[101172] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1091,7 +1091,7 @@ _G.pg.ship_skin_words[101172] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101173] = {
+_G.pg.base.ship_skin_words[101173] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1125,7 +1125,7 @@ _G.pg.ship_skin_words[101173] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101174] = {
+_G.pg.base.ship_skin_words[101174] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1159,7 +1159,7 @@ _G.pg.ship_skin_words[101174] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101175] = {
+_G.pg.base.ship_skin_words[101175] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "...Laffey might have overeaten.",
@@ -1193,7 +1193,7 @@ _G.pg.ship_skin_words[101175] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101176] = {
+_G.pg.base.ship_skin_words[101176] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Nnh... Can't get motivated after all all...",
@@ -1227,7 +1227,7 @@ _G.pg.ship_skin_words[101176] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101177] = {
+_G.pg.base.ship_skin_words[101177] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1261,7 +1261,7 @@ _G.pg.ship_skin_words[101177] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101178] = {
+_G.pg.base.ship_skin_words[101178] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Sorry... for making you worry...",
@@ -1295,7 +1295,7 @@ _G.pg.ship_skin_words[101178] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101179] = {
+_G.pg.base.ship_skin_words[101179] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I... can still fight.",
@@ -1329,7 +1329,7 @@ _G.pg.ship_skin_words[101179] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101240] = {
+_G.pg.base.ship_skin_words[101240] = {
 	feeling1 = "Wait a bit... I'm just tidying up... I won't play any more tricks on you, Commander. Are you happy now?",
 	feeling3 = "You don't seem to be too angry about my pranks these days... It's making me feel a bit lonely. Hm? No, I'm not trying to be cocky!",
 	lose = "I would rather have stayed home and pranked the commander...",
@@ -1363,7 +1363,7 @@ _G.pg.ship_skin_words[101240] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101249] = {
+_G.pg.base.ship_skin_words[101249] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1397,7 +1397,7 @@ _G.pg.ship_skin_words[101249] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101250] = {
+_G.pg.base.ship_skin_words[101250] = {
 	feeling1 = "I don't even feel like getting angry anymore...",
 	feeling3 = "You're totally wrong if you think you've improved your relationship with me! ... I guess I'll admit it's improved.... But just a little!",
 	lose = "*Sob*... Commander, you big idiot!",
@@ -1456,7 +1456,7 @@ _G.pg.ship_skin_words[101250] = {
 	}
 }
 
-_G.pg.ship_skin_words[101251] = {
+_G.pg.base.ship_skin_words[101251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1490,7 +1490,7 @@ _G.pg.ship_skin_words[101251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101252] = {
+_G.pg.base.ship_skin_words[101252] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1524,7 +1524,7 @@ _G.pg.ship_skin_words[101252] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101253] = {
+_G.pg.base.ship_skin_words[101253] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Dang it... I told you I can't fight like this!",
@@ -1558,7 +1558,7 @@ _G.pg.ship_skin_words[101253] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101254] = {
+_G.pg.base.ship_skin_words[101254] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1592,7 +1592,7 @@ _G.pg.ship_skin_words[101254] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101259] = {
+_G.pg.base.ship_skin_words[101259] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1626,7 +1626,7 @@ _G.pg.ship_skin_words[101259] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101260] = {
+_G.pg.base.ship_skin_words[101260] = {
 	feeling1 = "... Commander, hate! (Eldridge is emitting sparks from her body to prevent you from approaching her.)",
 	feeling3 = "... Commander, fly. (Eldridge is looking at you like she wants you to pick her up, but she's emitting sparks!)",
 	lose = "... I want to go home...",
@@ -1669,7 +1669,7 @@ _G.pg.ship_skin_words[101260] = {
 	}
 }
 
-_G.pg.ship_skin_words[101261] = {
+_G.pg.base.ship_skin_words[101261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1703,7 +1703,7 @@ _G.pg.ship_skin_words[101261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101262] = {
+_G.pg.base.ship_skin_words[101262] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1737,7 +1737,7 @@ _G.pg.ship_skin_words[101262] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101263] = {
+_G.pg.base.ship_skin_words[101263] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1771,7 +1771,7 @@ _G.pg.ship_skin_words[101263] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101264] = {
+_G.pg.base.ship_skin_words[101264] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1805,7 +1805,7 @@ _G.pg.ship_skin_words[101264] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101265] = {
+_G.pg.base.ship_skin_words[101265] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1839,7 +1839,7 @@ _G.pg.ship_skin_words[101265] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101270] = {
+_G.pg.base.ship_skin_words[101270] = {
 	feeling1 = "You're the enemy of the bunnies, Commander!",
 	feeling3 = "Benson told me that I'm from Planet Bunny... Does she think I'm still a kid or something? But... but... I know for a fact that Santa is real!",
 	lose = "*Sob*... Planet Bunny won't let you off so easily!",
@@ -1873,7 +1873,7 @@ _G.pg.ship_skin_words[101270] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101271] = {
+_G.pg.base.ship_skin_words[101271] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1907,7 +1907,7 @@ _G.pg.ship_skin_words[101271] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101279] = {
+_G.pg.base.ship_skin_words[101279] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1941,7 +1941,7 @@ _G.pg.ship_skin_words[101279] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101290] = {
+_G.pg.base.ship_skin_words[101290] = {
 	feeling1 = "I'm never giving you any more candy ever again!",
 	feeling3 = "Hey, Commander, that candy you gave me the other day was really good. Where'd you get it?",
 	lose = "My... my sweets...",
@@ -1975,7 +1975,7 @@ _G.pg.ship_skin_words[101290] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101291] = {
+_G.pg.base.ship_skin_words[101291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2009,7 +2009,7 @@ _G.pg.ship_skin_words[101291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101300] = {
+_G.pg.base.ship_skin_words[101300] = {
 	feeling1 = "U-um... Please stop staring at me...!",
 	feeling3 = "C-Commander... I'm feeling a little troubled...",
 	lose = "*Pant*... *Pant*... T-the enemy hasn't caught up yet, have they?!",
@@ -2043,7 +2043,7 @@ _G.pg.ship_skin_words[101300] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101301] = {
+_G.pg.base.ship_skin_words[101301] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2077,7 +2077,7 @@ _G.pg.ship_skin_words[101301] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101310] = {
+_G.pg.base.ship_skin_words[101310] = {
 	feeling1 = "I'm never leaving my room... Never!",
 	feeling3 = "C-Commander, if you're free, then how about coming to my room and playing some games...?",
 	lose = "I-I really should've never left the base...",
@@ -2120,7 +2120,7 @@ _G.pg.ship_skin_words[101310] = {
 	}
 }
 
-_G.pg.ship_skin_words[101311] = {
+_G.pg.base.ship_skin_words[101311] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2154,7 +2154,7 @@ _G.pg.ship_skin_words[101311] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101312] = {
+_G.pg.base.ship_skin_words[101312] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2188,7 +2188,7 @@ _G.pg.ship_skin_words[101312] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101313] = {
+_G.pg.base.ship_skin_words[101313] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2222,7 +2222,7 @@ _G.pg.ship_skin_words[101313] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101314] = {
+_G.pg.base.ship_skin_words[101314] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2256,7 +2256,7 @@ _G.pg.ship_skin_words[101314] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101319] = {
+_G.pg.base.ship_skin_words[101319] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2290,7 +2290,7 @@ _G.pg.ship_skin_words[101319] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101330] = {
+_G.pg.base.ship_skin_words[101330] = {
 	feeling1 = "You need to learn to smile, Commander...",
 	feeling3 = "You know, I'm actually quite athletic! Check it out, I could hop side to side all day! ... *Pant*, *pant*... This is exhausting... I can't hop anymore...",
 	lose = "Nooo! Get those planes away from meee!",
@@ -2324,7 +2324,7 @@ _G.pg.ship_skin_words[101330] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101331] = {
+_G.pg.base.ship_skin_words[101331] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2358,7 +2358,7 @@ _G.pg.ship_skin_words[101331] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101340] = {
+_G.pg.base.ship_skin_words[101340] = {
 	feeling1 = "Everyone's saying to stay away from the commander... I wonder why?",
 	feeling3 = "There's nothing more relaxing than soaking in the sunlight! Commander, you come with me too~!",
 	lose = "I can't hold out any longer!",
@@ -2392,7 +2392,7 @@ _G.pg.ship_skin_words[101340] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101350] = {
+_G.pg.base.ship_skin_words[101350] = {
 	feeling1 = "I'm the only one on the planet who'd look after someone as sorry as you~ Poor little thing~",
 	feeling3 = "Hoho? You digging my jacket, Commander? Y'know, your style might just improve if you wear something like it! Hahahahah!",
 	lose = "I'll be back to smack the crap outta you dolts, just you waaaaaait!",
@@ -2447,7 +2447,7 @@ _G.pg.ship_skin_words[101350] = {
 	}
 }
 
-_G.pg.ship_skin_words[101351] = {
+_G.pg.base.ship_skin_words[101351] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2481,7 +2481,7 @@ _G.pg.ship_skin_words[101351] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101352] = {
+_G.pg.base.ship_skin_words[101352] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2515,7 +2515,7 @@ _G.pg.ship_skin_words[101352] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101360] = {
+_G.pg.base.ship_skin_words[101360] = {
 	feeling1 = "Commander is stupid, Commander is stupid! (makes face, wiggles tongue)",
 	feeling3 = "Commander, as a child star,the sense of lens is very important. I am also very cute today,right?",
 	lose = "This is just a little setback that’s all...",
@@ -2561,7 +2561,7 @@ _G.pg.ship_skin_words[101360] = {
 	}
 }
 
-_G.pg.ship_skin_words[101361] = {
+_G.pg.base.ship_skin_words[101361] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2595,7 +2595,7 @@ _G.pg.ship_skin_words[101361] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101370] = {
+_G.pg.base.ship_skin_words[101370] = {
 	feeling1 = "Commander, don’t you like the ice cream I made with hot sauce... such a meanie.",
 	feeling3 = "Come come~ There’s a rabbit hidden in my sleeves. Commander, do you want to see a magic trick? Wow... how did Mr. Rabbit suddenly slip away?",
 	lose = "Sigh... I hate it when I get injured, so annoying...",
@@ -2641,7 +2641,7 @@ _G.pg.ship_skin_words[101370] = {
 	}
 }
 
-_G.pg.ship_skin_words[101371] = {
+_G.pg.base.ship_skin_words[101371] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2675,7 +2675,7 @@ _G.pg.ship_skin_words[101371] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101380] = {
+_G.pg.base.ship_skin_words[101380] = {
 	feeling1 = "The incompetent will be weeded out by time. You are no exception.",
 	feeling3 = "\"What do I plan to do after the war is over?\" Hmm... I've never given this much thought, nor have I wanted to. However, why did you bring it up all of a sudden?",
 	lose = "Strategic retreat...",
@@ -2709,7 +2709,7 @@ _G.pg.ship_skin_words[101380] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101382] = {
+_G.pg.base.ship_skin_words[101382] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2743,7 +2743,7 @@ _G.pg.ship_skin_words[101382] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101390] = {
+_G.pg.base.ship_skin_words[101390] = {
 	feeling1 = "Cooking for someone you don't like is suffering...",
 	feeling3 = "My cooking would be perfect if I stopped trying to study weird things? Well, that's a darn shame! If you ask me, the element of surprise is the most important spice!",
 	lose = "Commander, I'm sorry...",
@@ -2786,7 +2786,7 @@ _G.pg.ship_skin_words[101390] = {
 	}
 }
 
-_G.pg.ship_skin_words[101392] = {
+_G.pg.base.ship_skin_words[101392] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2820,7 +2820,7 @@ _G.pg.ship_skin_words[101392] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101400] = {
+_G.pg.base.ship_skin_words[101400] = {
 	feeling1 = "Commander, listen up. If this continues on, I'll be keeping my distance from you...",
 	feeling3 = "Compared to Dewey, I'm only a tiny bit more... H-huh? I'm not chubby! Jeez, Commander, I'm not talking to you anymore!",
 	lose = "Oops, guess I lost... Commander, can you give me some candy to cheer me up...?",
@@ -2871,7 +2871,7 @@ _G.pg.ship_skin_words[101400] = {
 	}
 }
 
-_G.pg.ship_skin_words[101401] = {
+_G.pg.base.ship_skin_words[101401] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2905,7 +2905,7 @@ _G.pg.ship_skin_words[101401] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101410] = {
+_G.pg.base.ship_skin_words[101410] = {
 	feeling1 = "Stanly is now operating in disappointment mode! Hmph!",
 	feeling3 = "The other members of the Little Beaver Squad are fun to hang out with, but I still have the best time when I'm with you, Commander!",
 	lose = "Crap, gotta switch to retreat mode pronto!",
@@ -2948,7 +2948,7 @@ _G.pg.ship_skin_words[101410] = {
 	}
 }
 
-_G.pg.ship_skin_words[101411] = {
+_G.pg.base.ship_skin_words[101411] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2982,7 +2982,7 @@ _G.pg.ship_skin_words[101411] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101420] = {
+_G.pg.base.ship_skin_words[101420] = {
 	feeling1 = "Do whatever you want. I'm going back to training. See you.",
 	feeling3 = "Commander, want to go buy some workout equipment on our next day off? Using it properly will get you better results!",
 	lose = "Well, that's awkward...",
@@ -3025,7 +3025,7 @@ _G.pg.ship_skin_words[101420] = {
 	}
 }
 
-_G.pg.ship_skin_words[101421] = {
+_G.pg.base.ship_skin_words[101421] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3059,7 +3059,7 @@ _G.pg.ship_skin_words[101421] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101430] = {
+_G.pg.base.ship_skin_words[101430] = {
 	feeling1 = "Just you wait! When I become the most famous person at the port...!",
 	feeling3 = "It might be hard to stand out from the rest of the Fletchers, but... Commander, I know you'll be able to come up with something!",
 	lose = "Awww... P-please don't look at meeee...",
@@ -3093,7 +3093,7 @@ _G.pg.ship_skin_words[101430] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101431] = {
+_G.pg.base.ship_skin_words[101431] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3127,7 +3127,7 @@ _G.pg.ship_skin_words[101431] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101440] = {
+_G.pg.base.ship_skin_words[101440] = {
 	feeling1 = "Even if Commander is my enemy, I won't go soft!",
 	feeling3 = "Commander! Did I hear my name? Hah hah hah, just point me at the enemy and... You need me to deliver these documents? I'm not your errand girl!",
 	lose = "One little setback won't get me down!",
@@ -3161,7 +3161,7 @@ _G.pg.ship_skin_words[101440] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101441] = {
+_G.pg.base.ship_skin_words[101441] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3195,7 +3195,7 @@ _G.pg.ship_skin_words[101441] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101442] = {
+_G.pg.base.ship_skin_words[101442] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3229,7 +3229,7 @@ _G.pg.ship_skin_words[101442] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101450] = {
+_G.pg.base.ship_skin_words[101450] = {
 	feeling1 = "Okay, okay, calm yourself and I'll indulge you with a nice, heartwarming hug.",
 	feeling3 = "I've finished all my combat drills, so I'm gonna use my break time to run down to the store! Oh, before I forget, here's a special sticker for you! It's all good if you wanna trade it with someone later.",
 	lose = "Oh crap, I really whiffed this one... Thank god for that near miss back there... Umm, I'll do better next time.",
@@ -3298,7 +3298,7 @@ _G.pg.ship_skin_words[101450] = {
 	}
 }
 
-_G.pg.ship_skin_words[101451] = {
+_G.pg.base.ship_skin_words[101451] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3332,7 +3332,7 @@ _G.pg.ship_skin_words[101451] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101460] = {
+_G.pg.base.ship_skin_words[101460] = {
 	feeling1 = "Yeah, no, I'll find someplace less boring to hang out. Hit me up only if you've got business with me.",
 	feeling3 = "Hm? Why do I always just sit and stare when you take me in as the secretary? Becaaaause... you never explicitly ask for help? If you need something done, just like, tell me? I'm not the most attentive person in the universe, so sorry for that.",
 	lose = "Crap. I went too easy on 'em...",
@@ -3400,7 +3400,7 @@ _G.pg.ship_skin_words[101460] = {
 	}
 }
 
-_G.pg.ship_skin_words[101461] = {
+_G.pg.base.ship_skin_words[101461] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3434,7 +3434,7 @@ _G.pg.ship_skin_words[101461] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101470] = {
+_G.pg.base.ship_skin_words[101470] = {
 	feeling1 = "Just like I thought, things are better without me around...",
 	feeling3 = "Commander, are you curious about Mr. Bear? T-Then, I'll introduce him to you.",
 	lose = "Oww... Ugh, I want to go back to port...",
@@ -3477,7 +3477,7 @@ _G.pg.ship_skin_words[101470] = {
 	}
 }
 
-_G.pg.ship_skin_words[101471] = {
+_G.pg.base.ship_skin_words[101471] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3511,7 +3511,7 @@ _G.pg.ship_skin_words[101471] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101480] = {
+_G.pg.base.ship_skin_words[101480] = {
 	feeling1 = "I'd love to unscrew your thick skull and have a look at what's inside.",
 	feeling3 = "Hey, Cooper, I finished that \"morph item\" you asked about... No, Allen! Stop plastering stickers all over my stuff!",
 	lose = "I've gotta do thorough rigging maintenance when I get back!",
@@ -3570,7 +3570,7 @@ _G.pg.ship_skin_words[101480] = {
 	}
 }
 
-_G.pg.ship_skin_words[101481] = {
+_G.pg.base.ship_skin_words[101481] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3604,7 +3604,7 @@ _G.pg.ship_skin_words[101481] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101490] = {
+_G.pg.base.ship_skin_words[101490] = {
 	feeling1 = "Hmph... Our adventure went so badly all because you went and got the kelp curse put on you!",
 	feeling3 = "If that'll be all, do you mind if I go for a stroll around port? ...Awesome! Come along, Data 857!",
 	lose = "Fiddlesticks! Agghh... No regrets...",
@@ -3655,7 +3655,7 @@ _G.pg.ship_skin_words[101490] = {
 	}
 }
 
-_G.pg.ship_skin_words[101491] = {
+_G.pg.base.ship_skin_words[101491] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3689,7 +3689,7 @@ _G.pg.ship_skin_words[101491] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102010] = {
+_G.pg.base.ship_skin_words[102010] = {
 	feeling1 = "Something to eat? I'm actually full right now. No thanks, Commander.",
 	feeling3 = "Mmph... C-come on, surely you like your girls with a little more meat on them!",
 	lose = "Wait until I come back with a full belly!",
@@ -3723,7 +3723,7 @@ _G.pg.ship_skin_words[102010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102020] = {
+_G.pg.base.ship_skin_words[102020] = {
 	feeling1 = "I'm not a kid, okay!",
 	feeling3 = "You want to know more about me? Hmm... you may be the first person to treat me like an equal. I'm happy about that, I suppose.",
 	lose = "Phew... That was close... I nearly...",
@@ -3757,7 +3757,7 @@ _G.pg.ship_skin_words[102020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102030] = {
+_G.pg.base.ship_skin_words[102030] = {
 	feeling1 = "Commander, I'm thinking of resigning because you just don't seem like you're worth the effort.",
 	feeling3 = "It feels like I've been managing your personal affairs more than foreign affairs lately, Commander... Surely this isn't on purpose, is it?",
 	lose = "Now we won't have an advantage during the negotiations...",
@@ -3791,7 +3791,7 @@ _G.pg.ship_skin_words[102030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102040] = {
+_G.pg.base.ship_skin_words[102040] = {
 	feeling1 = "Get outta here, coward!",
 	feeling3 = "What's the matter? If you're okay with me then I can give you some advice!",
 	lose = "Tsk, I'll get you for this!",
@@ -3842,7 +3842,7 @@ _G.pg.ship_skin_words[102040] = {
 	}
 }
 
-_G.pg.ship_skin_words[102050] = {
+_G.pg.base.ship_skin_words[102050] = {
 	feeling1 = "SG, protect me...",
 	feeling3 = "My expression? Ah... it's because I left while we were on the losing end of the war... I might just not be so used to peace and happiness. But don't worry, I'll be fine!",
 	lose = "... Please, save me... Ignore the enemy, just let them go...",
@@ -3903,7 +3903,7 @@ _G.pg.ship_skin_words[102050] = {
 	}
 }
 
-_G.pg.ship_skin_words[102051] = {
+_G.pg.base.ship_skin_words[102051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "It's okay, there's always the next time...!",
@@ -3937,7 +3937,7 @@ _G.pg.ship_skin_words[102051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102052] = {
+_G.pg.base.ship_skin_words[102052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "It's okay, there's always next time...!",
@@ -3971,7 +3971,7 @@ _G.pg.ship_skin_words[102052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102059] = {
+_G.pg.base.ship_skin_words[102059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "It's okay, Helena. There's always next time...!",
@@ -4005,7 +4005,7 @@ _G.pg.ship_skin_words[102059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102060] = {
+_G.pg.base.ship_skin_words[102060] = {
 	feeling1 = "Sometimes I'm happy that I'm not actually your big sister...",
 	feeling3 = "The bigger the better, don't you think? ...Hey! What are you staring at?! Gee, sorry for not being big enough, I guess!",
 	lose = "Argh, this is bad... My big sister image is ruined...",
@@ -4039,7 +4039,7 @@ _G.pg.ship_skin_words[102060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102070] = {
+_G.pg.base.ship_skin_words[102070] = {
 	feeling1 = "Don't come near me! ...Sorry, I think you're a little scary, Commander...",
 	feeling3 = "Commander, can I go to bed with you again tonight? ... I feel very safe when I sleep next to you...",
 	lose = "That hurts! ... I can't feel my left foot... Someone come save me....!",
@@ -4073,7 +4073,7 @@ _G.pg.ship_skin_words[102070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102080] = {
+_G.pg.base.ship_skin_words[102080] = {
 	feeling1 = "Don't come near me! Your stupidity is contagious!",
 	feeling3 = "C'mon, Commander, let's have a race! Winner treats the loser to a snack!",
 	lose = "Huh? Who's this? Where am I...? How did I lose?!",
@@ -4124,7 +4124,7 @@ _G.pg.ship_skin_words[102080] = {
 	}
 }
 
-_G.pg.ship_skin_words[102081] = {
+_G.pg.base.ship_skin_words[102081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4158,7 +4158,7 @@ _G.pg.ship_skin_words[102081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102088] = {
+_G.pg.base.ship_skin_words[102088] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4192,7 +4192,7 @@ _G.pg.ship_skin_words[102088] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102089] = {
+_G.pg.base.ship_skin_words[102089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4226,7 +4226,7 @@ _G.pg.ship_skin_words[102089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102090] = {
+_G.pg.base.ship_skin_words[102090] = {
 	feeling1 = "Sorry, my sisters are waiting for me. I don't have time to deal with you.",
 	feeling3 = "Mm... I'm not trying to make myself look stronger than I am or anything, but honestly, I think there aren't many people like you who I can speak to like an equal...",
 	lose = "Ahaha... this isn't so good...",
@@ -4278,7 +4278,7 @@ _G.pg.ship_skin_words[102090] = {
 	}
 }
 
-_G.pg.ship_skin_words[102091] = {
+_G.pg.base.ship_skin_words[102091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4312,7 +4312,7 @@ _G.pg.ship_skin_words[102091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102092] = {
+_G.pg.base.ship_skin_words[102092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4346,7 +4346,7 @@ _G.pg.ship_skin_words[102092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102093] = {
+_G.pg.base.ship_skin_words[102093] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4380,7 +4380,7 @@ _G.pg.ship_skin_words[102093] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102094] = {
+_G.pg.base.ship_skin_words[102094] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4414,7 +4414,7 @@ _G.pg.ship_skin_words[102094] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102098] = {
+_G.pg.base.ship_skin_words[102098] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4448,7 +4448,7 @@ _G.pg.ship_skin_words[102098] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102100] = {
+_G.pg.base.ship_skin_words[102100] = {
 	feeling1 = "*Sigh*... So that's all, huh. I was wrong to get my hopes up.",
 	feeling3 = "Hm? You'd never have guessed that I'd be into ballet? ... What's that supposed to mean?! Laugh one more time and I'll punch you!",
 	lose = "Darn it... Reckless bunch of...",
@@ -4491,7 +4491,7 @@ _G.pg.ship_skin_words[102100] = {
 	}
 }
 
-_G.pg.ship_skin_words[102101] = {
+_G.pg.base.ship_skin_words[102101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4525,7 +4525,7 @@ _G.pg.ship_skin_words[102101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102102] = {
+_G.pg.base.ship_skin_words[102102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4559,7 +4559,7 @@ _G.pg.ship_skin_words[102102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102110] = {
+_G.pg.base.ship_skin_words[102110] = {
 	feeling1 = "Seems like I have to find another place...",
 	feeling3 = "Commander~ I only just joined this fleet and there's still plenty I don't know yet. So, could I ask you to accompany me on a short walk?",
 	lose = "Oh no, we lost... Well that sucks~",
@@ -4593,7 +4593,7 @@ _G.pg.ship_skin_words[102110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102120] = {
+_G.pg.base.ship_skin_words[102120] = {
 	feeling1 = "So that's who you are, huh, Commander?",
 	feeling3 = "I think people are jealous of me because mine are bigger than theirs… But personally I wish they were smaller. When they're big, you know, it's pretty inconvenient...",
 	lose = "I don't want to go to Mare Island again...",
@@ -4627,7 +4627,7 @@ _G.pg.ship_skin_words[102120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102121] = {
+_G.pg.base.ship_skin_words[102121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4661,7 +4661,7 @@ _G.pg.ship_skin_words[102121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102122] = {
+_G.pg.base.ship_skin_words[102122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4695,7 +4695,7 @@ _G.pg.ship_skin_words[102122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102123] = {
+_G.pg.base.ship_skin_words[102123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "They're staring at me... They're staring at me...!",
@@ -4729,7 +4729,7 @@ _G.pg.ship_skin_words[102123] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102124] = {
+_G.pg.base.ship_skin_words[102124] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "After all that trouble putting this on... This sucks...",
@@ -4780,7 +4780,7 @@ _G.pg.ship_skin_words[102124] = {
 	}
 }
 
-_G.pg.ship_skin_words[102130] = {
+_G.pg.base.ship_skin_words[102130] = {
 	feeling1 = "At least spare Helena...",
 	feeling3 = "Want me to help you clean your office, Commander? ... You don't!?",
 	lose = "Today is not my lucky day…",
@@ -4831,7 +4831,7 @@ _G.pg.ship_skin_words[102130] = {
 	}
 }
 
-_G.pg.ship_skin_words[102131] = {
+_G.pg.base.ship_skin_words[102131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4865,7 +4865,7 @@ _G.pg.ship_skin_words[102131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102132] = {
+_G.pg.base.ship_skin_words[102132] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4899,7 +4899,7 @@ _G.pg.ship_skin_words[102132] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102133] = {
+_G.pg.base.ship_skin_words[102133] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4933,7 +4933,7 @@ _G.pg.ship_skin_words[102133] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102140] = {
+_G.pg.base.ship_skin_words[102140] = {
 	feeling1 = "Guess my big sis can't tell good and bad people apart...",
 	feeling3 = "My big sis is... strong, cool, has a golden smile, and she could probably beat anyone in a fight... I want to be like her one day.",
 	lose = "Big sis... I'm sorry... I've stained the reputation of the Knights of the Sea...",
@@ -4994,7 +4994,7 @@ _G.pg.ship_skin_words[102140] = {
 	}
 }
 
-_G.pg.ship_skin_words[102141] = {
+_G.pg.base.ship_skin_words[102141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5028,7 +5028,7 @@ _G.pg.ship_skin_words[102141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102142] = {
+_G.pg.base.ship_skin_words[102142] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5062,7 +5062,7 @@ _G.pg.ship_skin_words[102142] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102150] = {
+_G.pg.base.ship_skin_words[102150] = {
 	feeling1 = "Commander, where's your dignity!?",
 	feeling3 = "I've relentlessly honed my skills in order to defeat all our enemies, but... is that really all there is to life?",
 	lose = "I'm still not... mature enough?",
@@ -5105,7 +5105,7 @@ _G.pg.ship_skin_words[102150] = {
 	}
 }
 
-_G.pg.ship_skin_words[102160] = {
+_G.pg.base.ship_skin_words[102160] = {
 	feeling1 = "Hmph. If it's about me ignoring you, you brought this upon yourself!",
 	feeling3 = "Who can blame you for being so captivated by me? Very well, I'll allow you to gawk a bit longer.",
 	lose = "To think that I would lose... how unsightly!",
@@ -5150,7 +5150,7 @@ _G.pg.ship_skin_words[102160] = {
 	}
 }
 
-_G.pg.ship_skin_words[102161] = {
+_G.pg.base.ship_skin_words[102161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5184,7 +5184,7 @@ _G.pg.ship_skin_words[102161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102162] = {
+_G.pg.base.ship_skin_words[102162] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5218,7 +5218,7 @@ _G.pg.ship_skin_words[102162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102163] = {
+_G.pg.base.ship_skin_words[102163] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5252,7 +5252,7 @@ _G.pg.ship_skin_words[102163] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102180] = {
+_G.pg.base.ship_skin_words[102180] = {
 	feeling1 = "I’m not tired, don’t touch my feet. Touch it again and I’ll kick you!",
 	feeling3 = "Just stay beside me like this, ok? Take a good look at me, and don’t doze off!",
 	lose = "A total loss… I can’t lift myself up…",
@@ -5298,7 +5298,7 @@ _G.pg.ship_skin_words[102180] = {
 	}
 }
 
-_G.pg.ship_skin_words[102181] = {
+_G.pg.base.ship_skin_words[102181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5332,7 +5332,7 @@ _G.pg.ship_skin_words[102181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102182] = {
+_G.pg.base.ship_skin_words[102182] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5366,7 +5366,7 @@ _G.pg.ship_skin_words[102182] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102190] = {
+_G.pg.base.ship_skin_words[102190] = {
 	feeling1 = "Commander, it's no fun being with you... I-I'm leaving!",
 	feeling3 = "Commander, this hairstyle is really popular right now. Um, I still think I prefer this other one though better though... Which do you prefer?",
 	lose = "*sniffle* Waaah... Commander, they're bullying me...",
@@ -5409,7 +5409,7 @@ _G.pg.ship_skin_words[102190] = {
 	}
 }
 
-_G.pg.ship_skin_words[102200] = {
+_G.pg.base.ship_skin_words[102200] = {
 	feeling1 = "Everybody's waiting for me! See ya, Commander!",
 	feeling3 = "I know how busy you are, Commander, and you still make time to come along with us... All right, from this day forward, I'm making the Commander an honorary member of our Explorers' Team!",
 	lose = "Commander, this is looking kinda bad...?",
@@ -5452,7 +5452,7 @@ _G.pg.ship_skin_words[102200] = {
 	}
 }
 
-_G.pg.ship_skin_words[102210] = {
+_G.pg.base.ship_skin_words[102210] = {
 	feeling1 = "Don't feel bad, Commander, it's not your fault that you're dumber than San Diego.",
 	feeling3 = "What should I do if there's stuff that I can't stop worrying about though...? Ah! Got it! That's what Commander is there for!",
 	lose = "Huhhh? Isn't that the way back home?",
@@ -5503,7 +5503,7 @@ _G.pg.ship_skin_words[102210] = {
 	}
 }
 
-_G.pg.ship_skin_words[102220] = {
+_G.pg.base.ship_skin_words[102220] = {
 	feeling1 = "I thought this might happen, but... I won't give up!",
 	feeling3 = "Um, I know I can be a little hard on you, Commander. But you get what I mean, don't you? ... Commander?",
 	lose = "Agh...! Go! I'll cover your retreat!",
@@ -5562,7 +5562,7 @@ _G.pg.ship_skin_words[102220] = {
 	}
 }
 
-_G.pg.ship_skin_words[102221] = {
+_G.pg.base.ship_skin_words[102221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5596,7 +5596,7 @@ _G.pg.ship_skin_words[102221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102230] = {
+_G.pg.base.ship_skin_words[102230] = {
 	feeling1 = "Commander, you should reflect on your actions thoroughly.",
 	feeling3 = "You think I'm overly stoic...? True, but I must be in order to repel the darkness that envelops the sea.",
 	lose = "What could I have done differently...",
@@ -5639,7 +5639,7 @@ _G.pg.ship_skin_words[102230] = {
 	}
 }
 
-_G.pg.ship_skin_words[102231] = {
+_G.pg.base.ship_skin_words[102231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5673,7 +5673,7 @@ _G.pg.ship_skin_words[102231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102232] = {
+_G.pg.base.ship_skin_words[102232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5707,7 +5707,7 @@ _G.pg.ship_skin_words[102232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102240] = {
+_G.pg.base.ship_skin_words[102240] = {
 	feeling1 = "Sorry, I've got more important stuff to do. I don't have time for you.",
 	feeling3 = "Maybe saying I grow bonsai as a hobby sounds too basic... Maybe it is... Gah, I'm at my wit's end! Commander, what do I write to make a decent self-introduction?",
 	lose = "I can't show myself to my sisters like this...",
@@ -5741,7 +5741,7 @@ _G.pg.ship_skin_words[102240] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102250] = {
+_G.pg.base.ship_skin_words[102250] = {
 	feeling1 = "Look, if you wanna do nothing all day, do it without involving me.",
 	feeling3 = "I sometimes enjoy talking with people about what we do on our off days... What? What's so weird about me bringing up people's hobbies? When I have time off, I enjoy myself. I'm no workaholic, you hear?",
 	lose = "Argh... This isn't over yet, you hear?!",
@@ -5785,7 +5785,7 @@ _G.pg.ship_skin_words[102250] = {
 	}
 }
 
-_G.pg.ship_skin_words[102251] = {
+_G.pg.base.ship_skin_words[102251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5819,7 +5819,7 @@ _G.pg.ship_skin_words[102251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102252] = {
+_G.pg.base.ship_skin_words[102252] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Argh! Interesting...!",
@@ -5853,7 +5853,7 @@ _G.pg.ship_skin_words[102252] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102253] = {
+_G.pg.base.ship_skin_words[102253] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5887,7 +5887,7 @@ _G.pg.ship_skin_words[102253] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102260] = {
+_G.pg.base.ship_skin_words[102260] = {
 	feeling1 = "They say you should never meet your heroes. Now I know why... Sigh...",
 	feeling3 = "There was a time when I was training really hard to become a superhero... But these huge things got in the way of my dreams... the flat girls don't know how good they have it...",
 	lose = "They say it's always darkest before the dawn... Mm. We'll try harder next time.",
@@ -5946,7 +5946,7 @@ _G.pg.ship_skin_words[102260] = {
 	}
 }
 
-_G.pg.ship_skin_words[102261] = {
+_G.pg.base.ship_skin_words[102261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5980,7 +5980,7 @@ _G.pg.ship_skin_words[102261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102262] = {
+_G.pg.base.ship_skin_words[102262] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6014,7 +6014,7 @@ _G.pg.ship_skin_words[102262] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102263] = {
+_G.pg.base.ship_skin_words[102263] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6048,7 +6048,7 @@ _G.pg.ship_skin_words[102263] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102264] = {
+_G.pg.base.ship_skin_words[102264] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6082,7 +6082,7 @@ _G.pg.ship_skin_words[102264] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102270] = {
+_G.pg.base.ship_skin_words[102270] = {
 	feeling1 = "You're uncool as heck, Commander. I'mma hit up Concord and hang with her instead...",
 	feeling3 = "I'm not really shy about my past as an ordinary girl. What's then is then, what's now is now, y'know? I think my new look better expresses who I am~ So anyway, as I was saying...",
 	lose = "I have to investigate into what went wrong this battle... Oh, uh, never mind I said anything!",
@@ -6138,7 +6138,7 @@ _G.pg.ship_skin_words[102270] = {
 	}
 }
 
-_G.pg.ship_skin_words[102271] = {
+_G.pg.base.ship_skin_words[102271] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6172,7 +6172,7 @@ _G.pg.ship_skin_words[102271] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102272] = {
+_G.pg.base.ship_skin_words[102272] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6206,7 +6206,7 @@ _G.pg.ship_skin_words[102272] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102273] = {
+_G.pg.base.ship_skin_words[102273] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6240,7 +6240,7 @@ _G.pg.ship_skin_words[102273] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102290] = {
+_G.pg.base.ship_skin_words[102290] = {
 	feeling1 = "Commander, I don't get you at all...",
 	feeling3 = "When life knocks you down, get back up on your feet. These are words I try to live by... Commander, why don't you give it a try as well?",
 	lose = "We've no choice but to retreat... I'm sorry, Commander!",
@@ -6291,7 +6291,7 @@ _G.pg.ship_skin_words[102290] = {
 	}
 }
 
-_G.pg.ship_skin_words[102291] = {
+_G.pg.base.ship_skin_words[102291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6325,7 +6325,7 @@ _G.pg.ship_skin_words[102291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102292] = {
+_G.pg.base.ship_skin_words[102292] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6359,7 +6359,7 @@ _G.pg.ship_skin_words[102292] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103010] = {
+_G.pg.base.ship_skin_words[103010] = {
 	feeling1 = "Hey, Commander, this isn't OK at all.",
 	feeling3 = "Are we going out? OK, I'll let you decide where we're going. I'm fine with going anywhere, so just pick whatever you want!",
 	lose = "Damn... This isn't OK at all...",
@@ -6393,7 +6393,7 @@ _G.pg.ship_skin_words[103010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103020] = {
+_G.pg.base.ship_skin_words[103020] = {
 	feeling1 = "Commander, that look in your eyes kinda creeps me out...",
 	feeling3 = "Commander, don't you ever get bored of lying around on the beach? Why don't we play some beach volleyball? Sun burn? No worries, Pensacola has already rubbed me down with sunscreen.",
 	lose = "Wuah! I'm out of armor-piercing shells... damn!",
@@ -6427,7 +6427,7 @@ _G.pg.ship_skin_words[103020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103030] = {
+_G.pg.base.ship_skin_words[103030] = {
 	feeling1 = "I'm getting distracted here, so do you think you could be quiet for a bit?",
 	feeling3 = "I have a buddy who's a bit noisy and little sisters who are pretty rowdy, so having a friend like you who's rather quiet feels pretty unusual...",
 	lose = "I knew we couldn't win that easily...",
@@ -6461,7 +6461,7 @@ _G.pg.ship_skin_words[103030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103040] = {
+_G.pg.base.ship_skin_words[103040] = {
 	feeling1 = "You still have a lot to learn about women, Commander...",
 	feeling3 = "Most people aren't very good at dealing with me. You have a peculiar taste in women, Commander...",
 	lose = "Oh no, my clothes are torn~!",
@@ -6495,7 +6495,7 @@ _G.pg.ship_skin_words[103040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103050] = {
+_G.pg.base.ship_skin_words[103050] = {
 	feeling1 = "You're no fun at all, Commander...",
 	feeling3 = "Bang! Ratatatata! ... Whew, today's been a lot of fun! I really love playing with you, Commander~",
 	lose = "Ooow... My head's spinning... I think I bumped into something even harder than me...",
@@ -6546,7 +6546,7 @@ _G.pg.ship_skin_words[103050] = {
 	}
 }
 
-_G.pg.ship_skin_words[103060] = {
+_G.pg.base.ship_skin_words[103060] = {
 	feeling1 = "Don't interrupt me when I'm fantasizing about Indy!",
 	feeling3 = "Commander, do you want to see some photos of Indy when she was little? I'll show them to you even if you say no!",
 	lose = "Dammit... I can't let my little sister see me like this!",
@@ -6580,7 +6580,7 @@ _G.pg.ship_skin_words[103060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103061] = {
+_G.pg.base.ship_skin_words[103061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6614,7 +6614,7 @@ _G.pg.ship_skin_words[103061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103069] = {
+_G.pg.base.ship_skin_words[103069] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6648,7 +6648,7 @@ _G.pg.ship_skin_words[103069] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103070] = {
+_G.pg.base.ship_skin_words[103070] = {
 	feeling1 = "... (It's not clear whether Indianapolis hasn't become aware of you yet or if she simply doesn't care about you.)",
 	feeling3 = "My sister's... always talking about how cute I am, but if she'd just focus a little more on herself, I'm sure she'd be popular... That's why I've always felt a little guilty about her...",
 	lose = "... Something feels wrong... must be that damn I-58.",
@@ -6707,7 +6707,7 @@ _G.pg.ship_skin_words[103070] = {
 	}
 }
 
-_G.pg.ship_skin_words[103071] = {
+_G.pg.base.ship_skin_words[103071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6741,7 +6741,7 @@ _G.pg.ship_skin_words[103071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103072] = {
+_G.pg.base.ship_skin_words[103072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6775,7 +6775,7 @@ _G.pg.ship_skin_words[103072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103080] = {
+_G.pg.base.ship_skin_words[103080] = {
 	feeling1 = "I'm getting a little pissed off... I know I said you can rely on me more, but...",
 	feeling3 = "I get along with my sisters very well, and like them a whole lot... But sometimes, I just can't help thinking... what if we were called the Astoria-class instead...",
 	lose = "Oh my, looks like we lost... Commander, let's get out of here~",
@@ -6809,7 +6809,7 @@ _G.pg.ship_skin_words[103080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103081] = {
+_G.pg.base.ship_skin_words[103081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6843,7 +6843,7 @@ _G.pg.ship_skin_words[103081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103082] = {
+_G.pg.base.ship_skin_words[103082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6877,7 +6877,7 @@ _G.pg.ship_skin_words[103082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103090] = {
+_G.pg.base.ship_skin_words[103090] = {
 	feeling1 = "Even if you're this kind of person, I won't give up on trying to help you! Probably...",
 	feeling3 = "Hurting others is more painful than being hurt yourself... Huh? Doesn't everyone feel that way?",
 	lose = "*Ugh*... Is this the best I could do?",
@@ -6911,7 +6911,7 @@ _G.pg.ship_skin_words[103090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103091] = {
+_G.pg.base.ship_skin_words[103091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6945,7 +6945,7 @@ _G.pg.ship_skin_words[103091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103100] = {
+_G.pg.base.ship_skin_words[103100] = {
 	feeling1 = "Commander?! How dangerous...",
 	feeling3 = "Commander... you're sure nice to everyone...",
 	lose = "Commander, we should run...",
@@ -6979,7 +6979,7 @@ _G.pg.ship_skin_words[103100] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103101] = {
+_G.pg.base.ship_skin_words[103101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7013,7 +7013,7 @@ _G.pg.ship_skin_words[103101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103102] = {
+_G.pg.base.ship_skin_words[103102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7047,7 +7047,7 @@ _G.pg.ship_skin_words[103102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103110] = {
+_G.pg.base.ship_skin_words[103110] = {
 	feeling1 = "Hmph, it seems I made the wrong decision... by relying on someone as useless as you...",
 	feeling3 = "You're curious about my whip? Well, I bought it on a whim long ago, but it's been surprisingly useful. Particularly when I'm pointing at a map.",
 	lose = "Now this is interesting. Hmph, fall back!",
@@ -7107,7 +7107,7 @@ _G.pg.ship_skin_words[103110] = {
 	}
 }
 
-_G.pg.ship_skin_words[103111] = {
+_G.pg.base.ship_skin_words[103111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7141,7 +7141,7 @@ _G.pg.ship_skin_words[103111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103112] = {
+_G.pg.base.ship_skin_words[103112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7175,7 +7175,7 @@ _G.pg.ship_skin_words[103112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103120] = {
+_G.pg.base.ship_skin_words[103120] = {
 	feeling1 = "You're like a little kid, Commander.",
 	feeling3 = "What do I do off-duty? Hmm. I hang out with my sisters, I go fishing, I take naps... Things like that.",
 	lose = "Neither will alone... nor strength alone... is enough.",
@@ -7250,7 +7250,7 @@ _G.pg.ship_skin_words[103120] = {
 	}
 }
 
-_G.pg.ship_skin_words[103121] = {
+_G.pg.base.ship_skin_words[103121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7284,7 +7284,7 @@ _G.pg.ship_skin_words[103121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103130] = {
+_G.pg.base.ship_skin_words[103130] = {
 	feeling1 = "It’s kinda boring talking to you...",
 	feeling3 = "There’s actually a few places in port that I am interested in investigating. Let’s go and explore them now! ...Work? We can still make it on time even if we wait a bit longer!",
 	lose = "Hey, the caught prey actually...",
@@ -7337,7 +7337,7 @@ _G.pg.ship_skin_words[103130] = {
 	}
 }
 
-_G.pg.ship_skin_words[103131] = {
+_G.pg.base.ship_skin_words[103131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7371,7 +7371,7 @@ _G.pg.ship_skin_words[103131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103132] = {
+_G.pg.base.ship_skin_words[103132] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7405,7 +7405,7 @@ _G.pg.ship_skin_words[103132] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103133] = {
+_G.pg.base.ship_skin_words[103133] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7439,7 +7439,7 @@ _G.pg.ship_skin_words[103133] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103138] = {
+_G.pg.base.ship_skin_words[103138] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Sorry for this, Commander. But I'll get 'em next time!",
@@ -7473,7 +7473,7 @@ _G.pg.ship_skin_words[103138] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103140] = {
+_G.pg.base.ship_skin_words[103140] = {
 	feeling1 = "Maybe you'll regret your jackassery if I tie you up and throw ya into the sea, eh, Puddin'?",
 	feeling3 = "Oh boy, what to do today~? Maybe I'll get up to some fun hijinks before Puddin' catches on to what I'm doing~",
 	lose = "Don't get bummed out~ I'll win twice as hard for you next time!",
@@ -7548,7 +7548,7 @@ _G.pg.ship_skin_words[103140] = {
 	}
 }
 
-_G.pg.ship_skin_words[103141] = {
+_G.pg.base.ship_skin_words[103141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7582,7 +7582,7 @@ _G.pg.ship_skin_words[103141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103160] = {
+_G.pg.base.ship_skin_words[103160] = {
 	feeling1 = "Commander, you ought to open your heart a little.",
 	feeling3 = "Let's not be overly formal and get to it: what do you wanna do next? I'm open to chat about pretty much whatever, so if anything's on your mind, just tell me.",
 	lose = "Even the good guys face setbacks sometimes...",
@@ -7633,7 +7633,7 @@ _G.pg.ship_skin_words[103160] = {
 	}
 }
 
-_G.pg.ship_skin_words[103161] = {
+_G.pg.base.ship_skin_words[103161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7667,7 +7667,7 @@ _G.pg.ship_skin_words[103161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103162] = {
+_G.pg.base.ship_skin_words[103162] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7701,7 +7701,7 @@ _G.pg.ship_skin_words[103162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103163] = {
+_G.pg.base.ship_skin_words[103163] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7735,7 +7735,7 @@ _G.pg.ship_skin_words[103163] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103164] = {
+_G.pg.base.ship_skin_words[103164] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7769,7 +7769,7 @@ _G.pg.ship_skin_words[103164] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103240] = {
+_G.pg.base.ship_skin_words[103240] = {
 	feeling1 = "Come back to your normal self already, Commander... If you really need it, you can cry into my chest and let it all out.",
 	feeling3 = "Things I like besides fighting? I chat people up all the time and give counseling over social media, sooo... I guess I like hanging out with people? Oh, hang on, gotta check this Juustagram message. One sec...",
 	lose = "Oops... Uhh, I think I messed up somewhere...",
@@ -7812,7 +7812,7 @@ _G.pg.ship_skin_words[103240] = {
 	}
 }
 
-_G.pg.ship_skin_words[103241] = {
+_G.pg.base.ship_skin_words[103241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7846,7 +7846,7 @@ _G.pg.ship_skin_words[103241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103242] = {
+_G.pg.base.ship_skin_words[103242] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7880,7 +7880,7 @@ _G.pg.ship_skin_words[103242] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103243] = {
+_G.pg.base.ship_skin_words[103243] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7914,7 +7914,7 @@ _G.pg.ship_skin_words[103243] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103250] = {
+_G.pg.base.ship_skin_words[103250] = {
 	feeling1 = "A control freak like you isn't fit to instruct us. Loosen up a bit, then try again.",
 	feeling3 = "How do I look, Commander? This outfit's more revealing than what I'm used to... D-does it really make me look cuter?",
 	lose = "Looks like we need to rehearse it from the top...",
@@ -7968,7 +7968,7 @@ _G.pg.ship_skin_words[103250] = {
 	}
 }
 
-_G.pg.ship_skin_words[105010] = {
+_G.pg.base.ship_skin_words[105010] = {
 	feeling1 = "I'm a bit disappointed in you...",
 	feeling3 = "Commander, Oklahoma told me about a nice shop around here. Wanna have a look? ... Hey, stop standing there like a pole! Let's go",
 	lose = "Tsk, wait and see how I take you on next time!",
@@ -8002,7 +8002,7 @@ _G.pg.ship_skin_words[105010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105019] = {
+_G.pg.base.ship_skin_words[105019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8036,7 +8036,7 @@ _G.pg.ship_skin_words[105019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105020] = {
+_G.pg.base.ship_skin_words[105020] = {
 	feeling1 = "I wonder if my eyes are lying...",
 	feeling3 = "Commander, want to go on a date with me? I know a lot of good shops around~",
 	lose = "*Cries*... I need to work even harder!",
@@ -8070,7 +8070,7 @@ _G.pg.ship_skin_words[105020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105029] = {
+_G.pg.base.ship_skin_words[105029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8104,7 +8104,7 @@ _G.pg.ship_skin_words[105029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105030] = {
+_G.pg.base.ship_skin_words[105030] = {
 	feeling1 = "You're such a coward...",
 	feeling3 = "You want to stand next to me?... Think carefully now. That is a very hard thing to do.",
 	lose = "I was a fool to have any expectations of your commanding abilities.",
@@ -8165,7 +8165,7 @@ _G.pg.ship_skin_words[105030] = {
 	}
 }
 
-_G.pg.ship_skin_words[105031] = {
+_G.pg.base.ship_skin_words[105031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8199,7 +8199,7 @@ _G.pg.ship_skin_words[105031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105040] = {
+_G.pg.base.ship_skin_words[105040] = {
 	feeling1 = "I wonder where I truly belong?",
 	feeling3 = "...Thank you for always listening to me... I've been feeling much better now...",
 	lose = "No more... Just this once, please let me have it my way...",
@@ -8252,7 +8252,7 @@ _G.pg.ship_skin_words[105040] = {
 	}
 }
 
-_G.pg.ship_skin_words[105041] = {
+_G.pg.base.ship_skin_words[105041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Time to evacuate? Understood!",
@@ -8286,7 +8286,7 @@ _G.pg.ship_skin_words[105041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105070] = {
+_G.pg.base.ship_skin_words[105070] = {
 	feeling1 = "You really are helpless...",
 	feeling3 = "Commander, you are still too weak. Come and train with me, and I will turn you into a proper Commander!",
 	lose = "Yes. Yes! This is the kind of challenge I'm looking for!",
@@ -8320,7 +8320,7 @@ _G.pg.ship_skin_words[105070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105080] = {
+_G.pg.base.ship_skin_words[105080] = {
 	feeling1 = "Commander, I'll go play on my own now~",
 	feeling3 = "*humming* Ah, Commander~ Just who I was looking for. I was thinking about taking you some place to have fun!",
 	lose = "Oof... Big sis will lecture me for sure!",
@@ -8354,7 +8354,7 @@ _G.pg.ship_skin_words[105080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105090] = {
+_G.pg.base.ship_skin_words[105090] = {
 	feeling1 = "Commander, please… don’t come any closer.",
 	feeling3 = "Commander, why do you care about me so much? Many people are afraid of me and keep their distance from me. Perhaps I've been too used to this. But recently, I’ve suddenly felt... so lonely.",
 	lose = "This is not the end of the line...",
@@ -8388,7 +8388,7 @@ _G.pg.ship_skin_words[105090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105092] = {
+_G.pg.base.ship_skin_words[105092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8422,7 +8422,7 @@ _G.pg.ship_skin_words[105092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105100] = {
+_G.pg.base.ship_skin_words[105100] = {
 	feeling1 = "A saying that I recently heard from my sister, “Never protest your loyalty to the weak”.",
 	feeling3 = "The war cannot be won by a single person. Without true sisters fighting alongside you and a reliable backline supporting you, no matter how strong you are, your defeat is inevitable!",
 	lose = "If only Oklahoma was here...",
@@ -8465,7 +8465,7 @@ _G.pg.ship_skin_words[105100] = {
 	}
 }
 
-_G.pg.ship_skin_words[105110] = {
+_G.pg.base.ship_skin_words[105110] = {
 	feeling1 = "Commander's laziness is almost beyond my bottom line.",
 	feeling3 = "I’m proud of my BIG SEVEN title. But aircraft carriers seem to be replacing us battleships in naval battles. I am losing myself in all this confusion: this strength that I possess... what is it for?",
 	lose = "I don't want to recall the humiliation I suffered on that day...!",
@@ -8499,7 +8499,7 @@ _G.pg.ship_skin_words[105110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105120] = {
+_G.pg.base.ship_skin_words[105120] = {
 	feeling1 = "Commander, I'm gonna get angry.",
 	feeling3 = "If you’re only going by appearances, every child in this fleet looks cute. But in terms of personality, they all have their unique quirks. To be honest, I am a bit envious of them. (strokes chin).",
 	lose = "Not so successful... let's try again next time.",
@@ -8533,7 +8533,7 @@ _G.pg.ship_skin_words[105120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105121] = {
+_G.pg.base.ship_skin_words[105121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8567,7 +8567,7 @@ _G.pg.ship_skin_words[105121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105130] = {
+_G.pg.base.ship_skin_words[105130] = {
 	feeling1 = "You are too weak, it’s no fun playing with you, go practice some more.",
 	feeling3 = "No, no, that’s not right. If we do it this way, won’t it end much the same like in the past? … Don’t try so hard? You sometimes say stuff like that… Hmm? That was a good smile from me just now?",
 	lose = "Oh, I will not forget you!",
@@ -8601,7 +8601,7 @@ _G.pg.ship_skin_words[105130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105140] = {
+_G.pg.base.ship_skin_words[105140] = {
 	feeling1 = "... I shall follow your orders.",
 	feeling3 = "I exist to help you achieve your goals, Commander. Other than that, I have no real value... A skirt? I've never worn something so fluffy before.",
 	lose = "I am sorry, Commander... It's a shame...!",
@@ -8669,7 +8669,7 @@ _G.pg.ship_skin_words[105140] = {
 	}
 }
 
-_G.pg.ship_skin_words[105141] = {
+_G.pg.base.ship_skin_words[105141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8703,7 +8703,7 @@ _G.pg.ship_skin_words[105141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105170] = {
+_G.pg.base.ship_skin_words[105170] = {
 	feeling1 = "Ah, so you're the kind of person who makes girls cry. Yeah, you'd better feel bad about it.",
 	feeling3 = "Look at that, you're already starting to chat me up. So, what's on your mind today? Something a bit more technical? Small talk about daily life? ...Oh, you want me to choose?",
 	lose = "Unbelievable... I'm actually getting cornered?! ...I'm not gonna be able to sleep 'til I figure out how to set things straight!",
@@ -8788,7 +8788,7 @@ _G.pg.ship_skin_words[105170] = {
 	}
 }
 
-_G.pg.ship_skin_words[105171] = {
+_G.pg.base.ship_skin_words[105171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8822,7 +8822,7 @@ _G.pg.ship_skin_words[105171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105190] = {
+_G.pg.base.ship_skin_words[105190] = {
 	feeling1 = "Your body is weak, Commander. Are you eating properly?",
 	feeling3 = "Seeing you challenging yourself with things you can't do is... interesting. It makes me want to explore my own limits, too.",
 	lose = "Sorry, I got distracted...",
@@ -8873,7 +8873,7 @@ _G.pg.ship_skin_words[105190] = {
 	}
 }
 
-_G.pg.ship_skin_words[105191] = {
+_G.pg.base.ship_skin_words[105191] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8907,7 +8907,7 @@ _G.pg.ship_skin_words[105191] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105200] = {
+_G.pg.base.ship_skin_words[105200] = {
 	feeling1 = "......Who the hell are you?",
 	feeling3 = "I've been gettin' along pretty well with the Sakura Empire girls. I thought they'd hold a grudge against me, but turns out that wasn't the case at all. Mhm, they're an interestin' bunch!",
 	lose = "Time to retreat? Fine...",
@@ -8958,7 +8958,7 @@ _G.pg.ship_skin_words[105200] = {
 	}
 }
 
-_G.pg.ship_skin_words[106010] = {
+_G.pg.base.ship_skin_words[106010] = {
 	feeling1 = "Commander... He can't see me... He can't see me...",
 	feeling3 = "The right answer is... BOO! Hahahahaah I Scared you! ... Ehhh... Commander, you suck at playing along...",
 	lose = "No... No way... Could they possibly have seen me?!",
@@ -9003,7 +9003,7 @@ _G.pg.ship_skin_words[106010] = {
 	}
 }
 
-_G.pg.ship_skin_words[106011] = {
+_G.pg.base.ship_skin_words[106011] = {
 	feeling1 = "Commander~ intruding into a person's room is against the law! I-I'm reporting you!",
 	feeling3 = "Are you free, Commander? Wanna play a game then? We can make plastic models too if you want.",
 	lose = "Ah, Long Island has become... Tired Island...",
@@ -9037,7 +9037,7 @@ _G.pg.ship_skin_words[106011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106013] = {
+_G.pg.base.ship_skin_words[106013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Oh no, my viewership is going down!",
@@ -9071,7 +9071,7 @@ _G.pg.ship_skin_words[106013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106019] = {
+_G.pg.base.ship_skin_words[106019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9105,7 +9105,7 @@ _G.pg.ship_skin_words[106019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106020] = {
+_G.pg.base.ship_skin_words[106020] = {
 	feeling1 = "Can you really make me stronger, Commander? ...I'm really worried...",
 	feeling3 = "You always give me the right ideas, Commander! As expected of a great coach! I, Bogue the pitcher, will follow you for life!",
 	lose = "Is this the end of the tournament...?",
@@ -9139,7 +9139,7 @@ _G.pg.ship_skin_words[106020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106029] = {
+_G.pg.base.ship_skin_words[106029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9173,7 +9173,7 @@ _G.pg.ship_skin_words[106029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106550] = {
+_G.pg.base.ship_skin_words[106550] = {
 	feeling1 = "So... you were the greatest obstacle to the development of the fleet...",
 	feeling3 = "I like movies and books. I adore stories with high and low points and emotionally touching scenes. As for my favorite genre, that would be... Umm, it's a secret!",
 	lose = "There's only so much I can do on the front lines as an escort carrier...",
@@ -9233,7 +9233,7 @@ _G.pg.ship_skin_words[106550] = {
 	}
 }
 
-_G.pg.ship_skin_words[106551] = {
+_G.pg.base.ship_skin_words[106551] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9267,7 +9267,7 @@ _G.pg.ship_skin_words[106551] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107010] = {
+_G.pg.base.ship_skin_words[107010] = {
 	feeling1 = "I never thought that there would be a student I cannot teach... It seems better for me to quit...",
 	feeling3 = "You seem to be getting better at this- Eh? It's thanks to me? Ah, well... y-you're welcome...",
 	lose = "*sobs* ... I'm not qualified as a teacher... Maybe I should go back to transporting coal...",
@@ -9301,7 +9301,7 @@ _G.pg.ship_skin_words[107010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107019] = {
+_G.pg.base.ship_skin_words[107019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9335,7 +9335,7 @@ _G.pg.ship_skin_words[107019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107020] = {
+_G.pg.base.ship_skin_words[107020] = {
 	feeling1 = "Oh dear, you are mistaken if you think I'm going to accept everything you do.",
 	feeling3 = "Recently, whenever I dream about the Coral Sea, you are there, Commander. It somehow makes me feel safe. I wonder why~",
 	lose = "Oh my~ we can't keep up with their pace. Should we retreat for now?",
@@ -9394,7 +9394,7 @@ _G.pg.ship_skin_words[107020] = {
 	}
 }
 
-_G.pg.ship_skin_words[107021] = {
+_G.pg.base.ship_skin_words[107021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9428,7 +9428,7 @@ _G.pg.ship_skin_words[107021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107030] = {
+_G.pg.base.ship_skin_words[107030] = {
 	feeling1 = "Pranks? I already stopped pulling them on you~ You're no fun for those",
 	feeling3 = "Commander, what's the greatest difference between me and my big sister? The answer, is my 'color' today!",
 	lose = "Oh dang~ I'll go back for repairs, and then have a good rest while I'm at it~",
@@ -9516,7 +9516,7 @@ _G.pg.ship_skin_words[107030] = {
 	}
 }
 
-_G.pg.ship_skin_words[107031] = {
+_G.pg.base.ship_skin_words[107031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9550,7 +9550,7 @@ _G.pg.ship_skin_words[107031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107032] = {
+_G.pg.base.ship_skin_words[107032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9584,7 +9584,7 @@ _G.pg.ship_skin_words[107032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107033] = {
+_G.pg.base.ship_skin_words[107033] = {
 	feeling1 = "Fakkyu! Fakkyufakkyu! Fakk! Yu!",
 	feeling3 = "",
 	lose = "Sorry, Commander... I lost the game...",
@@ -9618,7 +9618,7 @@ _G.pg.ship_skin_words[107033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107034] = {
+_G.pg.base.ship_skin_words[107034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9652,7 +9652,7 @@ _G.pg.ship_skin_words[107034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107035] = {
+_G.pg.base.ship_skin_words[107035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9686,7 +9686,7 @@ _G.pg.ship_skin_words[107035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107036] = {
+_G.pg.base.ship_skin_words[107036] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9720,7 +9720,7 @@ _G.pg.ship_skin_words[107036] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107037] = {
+_G.pg.base.ship_skin_words[107037] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9754,7 +9754,7 @@ _G.pg.ship_skin_words[107037] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107039] = {
+_G.pg.base.ship_skin_words[107039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9788,7 +9788,7 @@ _G.pg.ship_skin_words[107039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107040] = {
+_G.pg.base.ship_skin_words[107040] = {
 	feeling1 = "Maybe I should quit teaching...",
 	feeling3 = "Commander, you are a capable child if you are put into action. I feel a little happy.",
 	lose = "I can't let you see me like this, Commander.....",
@@ -9822,7 +9822,7 @@ _G.pg.ship_skin_words[107040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107049] = {
+_G.pg.base.ship_skin_words[107049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9856,7 +9856,7 @@ _G.pg.ship_skin_words[107049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107050] = {
+_G.pg.base.ship_skin_words[107050] = {
 	feeling1 = "So you truly will leave me one day...",
 	feeling3 = "Commander, you're weird... Even though I don't want to experience more painful departures, you keep stepping into my heart...",
 	lose = "Please retreat first, Commander.",
@@ -9932,7 +9932,7 @@ _G.pg.ship_skin_words[107050] = {
 	}
 }
 
-_G.pg.ship_skin_words[107051] = {
+_G.pg.base.ship_skin_words[107051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I, I have a feeling... like all the clout I had as a big sister is COMPLETELY GONE... after tonight...",
@@ -9966,7 +9966,7 @@ _G.pg.ship_skin_words[107051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107052] = {
+_G.pg.base.ship_skin_words[107052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Freedom... will never be extinguished...!",
@@ -10000,7 +10000,7 @@ _G.pg.ship_skin_words[107052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107060] = {
+_G.pg.base.ship_skin_words[107060] = {
 	feeling1 = "...Commander, you don't seem to have enough courage",
 	feeling3 = "All the lights in the sky are stars, just as all the lights on the seas are enemies... Commander, will there be a day where there's no more fighting?",
 	lose = "I've lost after giving my all. I'm not regretting this...",
@@ -10129,7 +10129,7 @@ _G.pg.ship_skin_words[107060] = {
 	}
 }
 
-_G.pg.ship_skin_words[107061] = {
+_G.pg.base.ship_skin_words[107061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10163,7 +10163,7 @@ _G.pg.ship_skin_words[107061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107062] = {
+_G.pg.base.ship_skin_words[107062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10197,7 +10197,7 @@ _G.pg.ship_skin_words[107062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107063] = {
+_G.pg.base.ship_skin_words[107063] = {
 	feeling1 = "Maybe I should just hit the road and never look back... ",
 	feeling3 = "",
 	lose = "Sometimes there really is a no-win scenario... ",
@@ -10231,7 +10231,7 @@ _G.pg.ship_skin_words[107063] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107064] = {
+_G.pg.base.ship_skin_words[107064] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "So I've... overstepped my limits...?",
@@ -10265,7 +10265,7 @@ _G.pg.ship_skin_words[107064] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107065] = {
+_G.pg.base.ship_skin_words[107065] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10299,7 +10299,7 @@ _G.pg.ship_skin_words[107065] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107066] = {
+_G.pg.base.ship_skin_words[107066] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10333,7 +10333,7 @@ _G.pg.ship_skin_words[107066] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107067] = {
+_G.pg.base.ship_skin_words[107067] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "This is why you never pop the champagne early...",
@@ -10367,7 +10367,7 @@ _G.pg.ship_skin_words[107067] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107068] = {
+_G.pg.base.ship_skin_words[107068] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10401,7 +10401,7 @@ _G.pg.ship_skin_words[107068] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107070] = {
+_G.pg.base.ship_skin_words[107070] = {
 	feeling1 = "Northampton, where are you~? (Hornet doesn't seem to notice you)",
 	feeling3 = "I'm a twintailed blonde but not a tsundere? Well sorry about that! That's because I, Hornet, am not a stereotypocal woman!",
 	lose = "Will I meet a new me?",
@@ -10461,7 +10461,7 @@ _G.pg.ship_skin_words[107070] = {
 	}
 }
 
-_G.pg.ship_skin_words[107071] = {
+_G.pg.base.ship_skin_words[107071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10495,7 +10495,7 @@ _G.pg.ship_skin_words[107071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107072] = {
+_G.pg.base.ship_skin_words[107072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10529,7 +10529,7 @@ _G.pg.ship_skin_words[107072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107080] = {
+_G.pg.base.ship_skin_words[107080] = {
 	feeling1 = "If you don’t want to get shot by me, then just stay away...",
 	feeling3 = "Someone saw a ghost on the roof last night? Hahaha, that was probably me practicing outdoors~ It’s very comfortable at night, no one bothers you, and you’re surrounded by stars. Commander, you want to come try?",
 	lose = "Umm... it seems that today’s status is not very good...",
@@ -10563,7 +10563,7 @@ _G.pg.ship_skin_words[107080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107090] = {
+_G.pg.base.ship_skin_words[107090] = {
 	feeling1 = "I wonder how Enterprise puts up with someone like you...",
 	feeling3 = "Jealousy? No, that's not the case. Enterprise is a true hero worthy of all the respect she gets. However, compared to her dazzling aura, I'm just...",
 	lose = "I won't let it end like this... I swear it!",
@@ -10597,7 +10597,7 @@ _G.pg.ship_skin_words[107090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107091] = {
+_G.pg.base.ship_skin_words[107091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10631,7 +10631,7 @@ _G.pg.ship_skin_words[107091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107092] = {
+_G.pg.base.ship_skin_words[107092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10665,7 +10665,7 @@ _G.pg.ship_skin_words[107092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107093] = {
+_G.pg.base.ship_skin_words[107093] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10699,7 +10699,7 @@ _G.pg.ship_skin_words[107093] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107110] = {
+_G.pg.base.ship_skin_words[107110] = {
 	feeling1 = "Commander, the way you're acting now makes you no different from a coward!",
 	feeling3 = "Oh, Commander! This– yeowwwch! Who decided it was a good idea to leave a trolley here?! Jeez, why does this always happen to me...Ah, um, nevermind, I'm fine! More importantly, when do I get to sortie?",
 	lose = "I have to go to the docks again...? Damnit, why is it always me... Y-you didn't hear anything!",
@@ -10743,7 +10743,7 @@ _G.pg.ship_skin_words[107110] = {
 	}
 }
 
-_G.pg.ship_skin_words[107111] = {
+_G.pg.base.ship_skin_words[107111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Gah, I gave up a run...",
@@ -10777,7 +10777,7 @@ _G.pg.ship_skin_words[107111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107140] = {
+_G.pg.base.ship_skin_words[107140] = {
 	feeling1 = "It seems I won't be able to save the Commander with my efforts alone...",
 	feeling3 = "There are many excellent allies here at the port. I... I'll have to work hard, won't I~♪",
 	lose = "Where did we go wrong...",
@@ -10831,7 +10831,7 @@ _G.pg.ship_skin_words[107140] = {
 	}
 }
 
-_G.pg.ship_skin_words[107141] = {
+_G.pg.base.ship_skin_words[107141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I guess we didn't rehearse enough...",
@@ -10865,7 +10865,7 @@ _G.pg.ship_skin_words[107141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107170] = {
+_G.pg.base.ship_skin_words[107170] = {
 	feeling1 = "I'd rather not talk to you right now.",
 	feeling3 = "Don't think I'm upset just because I have little to say. If anything, I'm probably thinking about something, or about how to express myself.",
 	lose = "Their power... surpasses even the \"Dragon's Jaws\"...?",
@@ -10917,7 +10917,7 @@ _G.pg.ship_skin_words[107170] = {
 	}
 }
 
-_G.pg.ship_skin_words[107171] = {
+_G.pg.base.ship_skin_words[107171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10951,7 +10951,7 @@ _G.pg.ship_skin_words[107171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107220] = {
+_G.pg.base.ship_skin_words[107220] = {
 	feeling1 = "Allow me to be blunt: what the hell is wrong with you?",
 	feeling3 = "A CVL might never rival an ordinary CV in terms of sheer power, but... I just want you to recognize what I'm capable of.",
 	lose = "Retreating is a legitimate tactic...",
@@ -11014,7 +11014,7 @@ _G.pg.ship_skin_words[107220] = {
 	}
 }
 
-_G.pg.ship_skin_words[107221] = {
+_G.pg.base.ship_skin_words[107221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11048,7 +11048,7 @@ _G.pg.ship_skin_words[107221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107222] = {
+_G.pg.base.ship_skin_words[107222] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11082,7 +11082,7 @@ _G.pg.ship_skin_words[107222] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107223] = {
+_G.pg.base.ship_skin_words[107223] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11116,7 +11116,7 @@ _G.pg.ship_skin_words[107223] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107224] = {
+_G.pg.base.ship_skin_words[107224] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11150,7 +11150,7 @@ _G.pg.ship_skin_words[107224] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107229] = {
+_G.pg.base.ship_skin_words[107229] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11184,7 +11184,7 @@ _G.pg.ship_skin_words[107229] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107230] = {
+_G.pg.base.ship_skin_words[107230] = {
 	feeling1 = "Honestly, I'd rather have Saratoga be the one giving me directions.",
 	feeling3 = "Ahem! So you were asking about my hobbies? I like to read books and... study Saratoga's battle style. In terms of combat prowess, I sincerely believe that Saratoga is in a class of her own, and wouldn't lose even to Enterprise herself.",
 	lose = "Still out of Saratoga's league...",
@@ -11244,7 +11244,7 @@ _G.pg.ship_skin_words[107230] = {
 	}
 }
 
-_G.pg.ship_skin_words[107231] = {
+_G.pg.base.ship_skin_words[107231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11278,7 +11278,7 @@ _G.pg.ship_skin_words[107231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107232] = {
+_G.pg.base.ship_skin_words[107232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11312,7 +11312,7 @@ _G.pg.ship_skin_words[107232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107290] = {
+_G.pg.base.ship_skin_words[107290] = {
 	feeling1 = "No one respects a worthless commander. You need to shape up! Come, I'll help you.",
 	feeling3 = "How will I spend my day off? I suppose I'll just lounge around by myself. That's how I like to relax, after all. It's not like I have any particular hobbies or anything... Aha, ahaha...",
 	lose = "Hm... I must carry this lesson on to the next battle...",
@@ -11346,7 +11346,7 @@ _G.pg.ship_skin_words[107290] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107291] = {
+_G.pg.base.ship_skin_words[107291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11380,7 +11380,7 @@ _G.pg.ship_skin_words[107291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107380] = {
+_G.pg.base.ship_skin_words[107380] = {
 	feeling1 = "You've been added to my confidential informee blacklist, Commander. Do keep that in mind.",
 	feeling3 = "Commander, no matter how pressed for time you may be, eating junk food will only impact your health negatively. Please, I urge you to have this more healthy sandwich I made.",
 	lose = "This wasn't... supposed to happen!",
@@ -11431,7 +11431,7 @@ _G.pg.ship_skin_words[107380] = {
 	}
 }
 
-_G.pg.ship_skin_words[107381] = {
+_G.pg.base.ship_skin_words[107381] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11465,7 +11465,7 @@ _G.pg.ship_skin_words[107381] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107382] = {
+_G.pg.base.ship_skin_words[107382] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11499,7 +11499,7 @@ _G.pg.ship_skin_words[107382] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107990] = {
+_G.pg.base.ship_skin_words[107990] = {
 	feeling1 = "Perhaps... You're the one who requires more learning, Commander...?",
 	feeling3 = "Why do I want to become the strongest shipgirl? So that I can protect my friends, defeat our enemies, and put an end to this war. That's why!",
 	lose = "I lost... S-so frustrating...!",
@@ -11583,7 +11583,7 @@ _G.pg.ship_skin_words[107990] = {
 	}
 }
 
-_G.pg.ship_skin_words[108010] = {
+_G.pg.base.ship_skin_words[108010] = {
 	feeling1 = "You're banned from the Torpedo Lovers Club!",
 	feeling3 = "Maya really packs a punch... I suppose she just got careless that time. Well, it is the job of a submarine to catch people off guard.",
 	lose = "Let... Lemme shoot off a few more at least!",
@@ -11617,7 +11617,7 @@ _G.pg.ship_skin_words[108010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108020] = {
+_G.pg.base.ship_skin_words[108020] = {
 	feeling1 = "Jeeeeeeerk!",
 	feeling3 = "My shoulders are so stiff after a long day of swimming... Oh, I have an idea! If a certain someone gives me a massage, I might just forget that really embarrassing thing they did!",
 	lose = "Time to get outta heeeere!",
@@ -11651,7 +11651,7 @@ _G.pg.ship_skin_words[108020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108021] = {
+_G.pg.base.ship_skin_words[108021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11685,7 +11685,7 @@ _G.pg.ship_skin_words[108021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108022] = {
+_G.pg.base.ship_skin_words[108022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11719,7 +11719,7 @@ _G.pg.ship_skin_words[108022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108030] = {
+_G.pg.base.ship_skin_words[108030] = {
 	feeling1 = "I hate you!",
 	feeling3 = "Sometimes, courage alone isn't enough... And that's when I need your strength, Commander! With your instructions, we can overcome anything!",
 	lose = "Bah... This happened just cause the sea is so salty...",
@@ -11762,7 +11762,7 @@ _G.pg.ship_skin_words[108030] = {
 	}
 }
 
-_G.pg.ship_skin_words[108031] = {
+_G.pg.base.ship_skin_words[108031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11796,7 +11796,7 @@ _G.pg.ship_skin_words[108031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108032] = {
+_G.pg.base.ship_skin_words[108032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11830,7 +11830,7 @@ _G.pg.ship_skin_words[108032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108040] = {
+_G.pg.base.ship_skin_words[108040] = {
 	feeling1 = "It's okay! You just need to bask in the sunshine for a bit, and your troubles will surely all go away!",
 	feeling3 = "There you are, Commander! Come here! ...What's wrong with me hugging you? Am I holding you too tight? That's not it? Then what is it?",
 	lose = "They nearly got us... But it won't go the same way next time!",
@@ -11883,7 +11883,7 @@ _G.pg.ship_skin_words[108040] = {
 	}
 }
 
-_G.pg.ship_skin_words[108041] = {
+_G.pg.base.ship_skin_words[108041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11917,7 +11917,7 @@ _G.pg.ship_skin_words[108041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108050] = {
+_G.pg.base.ship_skin_words[108050] = {
 	feeling1 = "You're really ruining it for the other members, you know that?",
 	feeling3 = "Hey, is that for me, Commander? Aww, how nice of you~ In return, I'll keep quiet about how you were ogling us while we practiced~",
 	lose = "Welp... I've got one final ace up my sleeve!",
@@ -11960,7 +11960,7 @@ _G.pg.ship_skin_words[108050] = {
 	}
 }
 
-_G.pg.ship_skin_words[108060] = {
+_G.pg.base.ship_skin_words[108060] = {
 	feeling1 = "There are tons of reasons nobody thinks you're hot. Cough up some dough, and I'll give you a crash course on why~ Ahaha~",
 	feeling3 = "It feels soooo good to sneak between that sleeping fox's tails and floof them~ Though I'll admit, it's not cool to disturb someone's sleep like that. Ahaha~",
 	lose = "They beat me once, so what? I'll get 'em next time!",
@@ -12015,7 +12015,7 @@ _G.pg.ship_skin_words[108060] = {
 	}
 }
 
-_G.pg.ship_skin_words[108061] = {
+_G.pg.base.ship_skin_words[108061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12049,7 +12049,7 @@ _G.pg.ship_skin_words[108061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108062] = {
+_G.pg.base.ship_skin_words[108062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12083,7 +12083,7 @@ _G.pg.ship_skin_words[108062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108070] = {
+_G.pg.base.ship_skin_words[108070] = {
 	feeling1 = "Commander, you're going to become even more of a loner at this rate...",
 	feeling3 = "Umm, I'm not a stalker. I'm not trying to make a hobby out of sneaking up on people either... It's just that, I like being with you, Commander... so I end up following you around... Ehehe.",
 	lose = "What should I do if everyone mistakes me for an enemy...?",
@@ -12117,7 +12117,7 @@ _G.pg.ship_skin_words[108070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108071] = {
+_G.pg.base.ship_skin_words[108071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12151,7 +12151,7 @@ _G.pg.ship_skin_words[108071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[112010] = {
+_G.pg.base.ship_skin_words[112010] = {
 	feeling1 = "Commander, as punishment for angering me, this injection will be painful",
 	feeling3 = "Yes, yes~ It seems you're too reliant on me recently~ Well, I'm happy that I'm so trusted, but Commander, you might become totally useless at this rate...",
 	lose = "I will not abandon everyone. Let's all return together.",
@@ -12210,7 +12210,7 @@ _G.pg.ship_skin_words[112010] = {
 	}
 }
 
-_G.pg.ship_skin_words[112011] = {
+_G.pg.base.ship_skin_words[112011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12244,7 +12244,7 @@ _G.pg.ship_skin_words[112011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[137030] = {
+_G.pg.base.ship_skin_words[137030] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12278,7 +12278,7 @@ _G.pg.ship_skin_words[137030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201010] = {
+_G.pg.base.ship_skin_words[201010] = {
 	feeling1 = "You're the biggest perv in the entire universe!",
 	feeling3 = "I may look like this but I'm an adult! --I said stop patting my head! Don't carry me in your hands! --I'm gonna get mad now! Like really, really mad! R-Roar!",
 	lose = "S-sometimes I botch something up as well! ... Shut up, shut up, shut u~p!",
@@ -12312,7 +12312,7 @@ _G.pg.ship_skin_words[201010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201011] = {
+_G.pg.base.ship_skin_words[201011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12346,7 +12346,7 @@ _G.pg.ship_skin_words[201011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201019] = {
+_G.pg.base.ship_skin_words[201019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12380,7 +12380,7 @@ _G.pg.ship_skin_words[201019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201020] = {
+_G.pg.base.ship_skin_words[201020] = {
 	feeling1 = "Keep it down, will you...",
 	feeling3 = "I know just the place to take a nap... You wanna come along and play hooky with me, Commander?",
 	lose = "I figure this outcome isn't something to celebrate...",
@@ -12414,7 +12414,7 @@ _G.pg.ship_skin_words[201020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201021] = {
+_G.pg.base.ship_skin_words[201021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12448,7 +12448,7 @@ _G.pg.ship_skin_words[201021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201022] = {
+_G.pg.base.ship_skin_words[201022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12482,7 +12482,7 @@ _G.pg.ship_skin_words[201022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201023] = {
+_G.pg.base.ship_skin_words[201023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12516,7 +12516,7 @@ _G.pg.ship_skin_words[201023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201029] = {
+_G.pg.base.ship_skin_words[201029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12550,7 +12550,7 @@ _G.pg.ship_skin_words[201029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201030] = {
+_G.pg.base.ship_skin_words[201030] = {
 	feeling1 = "I was mistaken for being so friendly with you... I'm sorry...",
 	feeling3 = "Commander, wanna eat something? I'll make it for you~ Don't worry, I know every food you like",
 	lose = "Wha! Hurry and retreat, or else we'll get heatstroke!",
@@ -12584,7 +12584,7 @@ _G.pg.ship_skin_words[201030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201031] = {
+_G.pg.base.ship_skin_words[201031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Woah! The chocolate's going to melt!",
@@ -12618,7 +12618,7 @@ _G.pg.ship_skin_words[201031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201032] = {
+_G.pg.base.ship_skin_words[201032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "There's going to be a penalty round for sure now...",
@@ -12652,7 +12652,7 @@ _G.pg.ship_skin_words[201032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201039] = {
+_G.pg.base.ship_skin_words[201039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12686,7 +12686,7 @@ _G.pg.ship_skin_words[201039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201060] = {
+_G.pg.base.ship_skin_words[201060] = {
 	feeling1 = "Commander... do you hate me...?",
 	feeling3 = "My hairstyle? Ehehe, it was born this way you know? It's as fluffy as a puppy~ Commander, wanna touch it?",
 	lose = "*cries*... I lost...",
@@ -12720,7 +12720,7 @@ _G.pg.ship_skin_words[201060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201070] = {
+_G.pg.base.ship_skin_words[201070] = {
 	feeling1 = "... ... Yes...?",
 	feeling3 = "There used to be 4 Single Barrels. Lil' A and Lil Y were retired because of submarine fighting, so now I'm left with Lil' B and Lil' X... I feel... a little bit lonely",
 	lose = "Sometimes we win, sometimes we lose. It's not such a big deal. ... Tsk...",
@@ -12754,7 +12754,7 @@ _G.pg.ship_skin_words[201070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201080] = {
+_G.pg.base.ship_skin_words[201080] = {
 	feeling1 = "I had enough already... *cries*...",
 	feeling3 = "Commander, do you think a small girl like me can become an idol?",
 	lose = "*cries* ...I can't grow up if I can't endure this after all...",
@@ -12788,7 +12788,7 @@ _G.pg.ship_skin_words[201080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201089] = {
+_G.pg.base.ship_skin_words[201089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12822,7 +12822,7 @@ _G.pg.ship_skin_words[201089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201090] = {
+_G.pg.base.ship_skin_words[201090] = {
 	feeling1 = "I'm even more adult than you are, Commander!",
 	feeling3 = "Commander... You know... I said mean stuff to you before... Well... T-that's right! I mean... ugh --It's nothing! Hmph!",
 	lose = "You ally ships should've tried harder! Ah, I-I'm sorry! I let my emotions got the better of me...",
@@ -12856,7 +12856,7 @@ _G.pg.ship_skin_words[201090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201099] = {
+_G.pg.base.ship_skin_words[201099] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12890,7 +12890,7 @@ _G.pg.ship_skin_words[201099] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201100] = {
+_G.pg.base.ship_skin_words[201100] = {
 	feeling1 = "Com-commander is scary... I wanna go home...",
 	feeling3 = "Did I... say something embarrassing...?",
 	lose = "*cries* Daddy... it's dangerous here... I want to go home...",
@@ -12924,7 +12924,7 @@ _G.pg.ship_skin_words[201100] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201101] = {
+_G.pg.base.ship_skin_words[201101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12958,7 +12958,7 @@ _G.pg.ship_skin_words[201101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201102] = {
+_G.pg.base.ship_skin_words[201102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12992,7 +12992,7 @@ _G.pg.ship_skin_words[201102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201103] = {
+_G.pg.base.ship_skin_words[201103] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13026,7 +13026,7 @@ _G.pg.ship_skin_words[201103] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201104] = {
+_G.pg.base.ship_skin_words[201104] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13060,7 +13060,7 @@ _G.pg.ship_skin_words[201104] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201105] = {
+_G.pg.base.ship_skin_words[201105] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13094,7 +13094,7 @@ _G.pg.ship_skin_words[201105] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201109] = {
+_G.pg.base.ship_skin_words[201109] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13128,7 +13128,7 @@ _G.pg.ship_skin_words[201109] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201110] = {
+_G.pg.base.ship_skin_words[201110] = {
 	feeling1 = "Commander, you have a weird smell!",
 	feeling3 = "Commander, there's something on your face... *lick* Eh? ....Why did I lick you? Well, my body moved on its own and....",
 	lose = "Whew! I'm glad we were quick to escape!",
@@ -13162,7 +13162,7 @@ _G.pg.ship_skin_words[201110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201119] = {
+_G.pg.base.ship_skin_words[201119] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13196,7 +13196,7 @@ _G.pg.ship_skin_words[201119] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201120] = {
+_G.pg.base.ship_skin_words[201120] = {
 	feeling1 = "Fortune is tearing us apart...",
 	feeling3 = "I-I have also wanted to talk to the Commander... Umm...",
 	lose = "Has God... given up on me?",
@@ -13239,7 +13239,7 @@ _G.pg.ship_skin_words[201120] = {
 	}
 }
 
-_G.pg.ship_skin_words[201121] = {
+_G.pg.base.ship_skin_words[201121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13273,7 +13273,7 @@ _G.pg.ship_skin_words[201121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201129] = {
+_G.pg.base.ship_skin_words[201129] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13307,7 +13307,7 @@ _G.pg.ship_skin_words[201129] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201130] = {
+_G.pg.base.ship_skin_words[201130] = {
 	feeling1 = "Commander, if you don't perk up, I won't pay pay attention to you anymore! Juuuust kidding~ of course that's a lie! Although, you still shouldn't disappoint me~",
 	feeling3 = "There is still much that I must learn, but as long as you're by my side, Commander, I'll be super motivated~!",
 	lose = "Ugh... are my abilities still lacking...?",
@@ -13350,7 +13350,7 @@ _G.pg.ship_skin_words[201130] = {
 	}
 }
 
-_G.pg.ship_skin_words[201140] = {
+_G.pg.base.ship_skin_words[201140] = {
 	feeling1 = "Even as the magnanimous Glowworm, I will not be giving any quarter to idiots!",
 	feeling3 = "I'm not gonna be 'cleared' by you Commander. Stupid, stu-pid!",
 	lose = "Ah~! W-wait a minute! My fighting has just begun! I shall return!",
@@ -13402,7 +13402,7 @@ _G.pg.ship_skin_words[201140] = {
 	}
 }
 
-_G.pg.ship_skin_words[201141] = {
+_G.pg.base.ship_skin_words[201141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13436,7 +13436,7 @@ _G.pg.ship_skin_words[201141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201160] = {
+_G.pg.base.ship_skin_words[201160] = {
 	feeling1 = "I abhor slovenly people!",
 	feeling3 = "A tea party...? Thank you for your consideration, but I still have to finish my training... B-but, I'd appreciate it if you could bring me a slice of cake...",
 	lose = "Don't stay here! Please withdraw immediately!",
@@ -13487,7 +13487,7 @@ _G.pg.ship_skin_words[201160] = {
 	}
 }
 
-_G.pg.ship_skin_words[201200] = {
+_G.pg.base.ship_skin_words[201200] = {
 	feeling1 = "...... (Hunter's companion barks at you)",
 	feeling3 = "There is no prey a hunter cannot take down. Any failure should be attributed to a lack of sufficient preparation.",
 	lose = "The hunter can become the hunted at any point...",
@@ -13530,7 +13530,7 @@ _G.pg.ship_skin_words[201200] = {
 	}
 }
 
-_G.pg.ship_skin_words[201210] = {
+_G.pg.base.ship_skin_words[201210] = {
 	feeling1 = "Commander, if you don't behave yourself, I am going to start disliking you. You hear me?",
 	feeling3 = "I've gotten closer to you now, Commander. Hehehe. But I'm gonna have to work harder~",
 	lose = "Ugh... I let my guard down...",
@@ -13589,7 +13589,7 @@ _G.pg.ship_skin_words[201210] = {
 	}
 }
 
-_G.pg.ship_skin_words[201212] = {
+_G.pg.base.ship_skin_words[201212] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13623,7 +13623,7 @@ _G.pg.ship_skin_words[201212] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201213] = {
+_G.pg.base.ship_skin_words[201213] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13657,7 +13657,7 @@ _G.pg.ship_skin_words[201213] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201214] = {
+_G.pg.base.ship_skin_words[201214] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13691,7 +13691,7 @@ _G.pg.ship_skin_words[201214] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201215] = {
+_G.pg.base.ship_skin_words[201215] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I guess I'm still a bit dumbstruck...",
@@ -13725,7 +13725,7 @@ _G.pg.ship_skin_words[201215] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201216] = {
+_G.pg.base.ship_skin_words[201216] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Aww... I promise to do better next time!",
@@ -13759,7 +13759,7 @@ _G.pg.ship_skin_words[201216] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201218] = {
+_G.pg.base.ship_skin_words[201218] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13793,7 +13793,7 @@ _G.pg.ship_skin_words[201218] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201219] = {
+_G.pg.base.ship_skin_words[201219] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13827,7 +13827,7 @@ _G.pg.ship_skin_words[201219] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201220] = {
+_G.pg.base.ship_skin_words[201220] = {
 	feeling1 = "Commander, have you come to dislike me...?",
 	feeling3 = "I haven't accomplished anything huge up to this point, but it won't be a problem dealing with your surroundings, Commander!",
 	lose = "This isn't good... after all...",
@@ -13861,7 +13861,7 @@ _G.pg.ship_skin_words[201220] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201221] = {
+_G.pg.base.ship_skin_words[201221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13895,7 +13895,7 @@ _G.pg.ship_skin_words[201221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201230] = {
+_G.pg.base.ship_skin_words[201230] = {
 	feeling1 = "Hmph. Licking my feet is suitable for foolish humans.",
 	feeling3 = "Since thou are so allured by me, are thou perhaps a pervert? A beast. Seeking respite? More excuses? Lo, I've seen what's under thine bed and read them all",
 	lose = "Ugh... I hate planes! I, Vampire, will not die!",
@@ -13929,7 +13929,7 @@ _G.pg.ship_skin_words[201230] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201231] = {
+_G.pg.base.ship_skin_words[201231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13963,7 +13963,7 @@ _G.pg.ship_skin_words[201231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201232] = {
+_G.pg.base.ship_skin_words[201232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13997,7 +13997,7 @@ _G.pg.ship_skin_words[201232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201233] = {
+_G.pg.base.ship_skin_words[201233] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14031,7 +14031,7 @@ _G.pg.ship_skin_words[201233] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201234] = {
+_G.pg.base.ship_skin_words[201234] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14065,7 +14065,7 @@ _G.pg.ship_skin_words[201234] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201238] = {
+_G.pg.base.ship_skin_words[201238] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14099,7 +14099,7 @@ _G.pg.ship_skin_words[201238] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201240] = {
+_G.pg.base.ship_skin_words[201240] = {
 	feeling1 = "Commander... do you hate me?",
 	feeling3 = "J-Juno... the Commander's fine being alone with me, so you don't have to be here...",
 	lose = "A-are we retreating...?",
@@ -14150,7 +14150,7 @@ _G.pg.ship_skin_words[201240] = {
 	}
 }
 
-_G.pg.ship_skin_words[201241] = {
+_G.pg.base.ship_skin_words[201241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14184,7 +14184,7 @@ _G.pg.ship_skin_words[201241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201250] = {
+_G.pg.base.ship_skin_words[201250] = {
 	feeling1 = "You are a halfhearted and lousy individual.",
 	feeling3 = "There is one thing I want to set straight with you; I'm not foul-mouthed, I simply say what's on my mind. For instance... do you have a thing for little children?",
 	lose = "Ugh... You will pay dearly for staining my dress! Know this!",
@@ -14227,7 +14227,7 @@ _G.pg.ship_skin_words[201250] = {
 	}
 }
 
-_G.pg.ship_skin_words[201260] = {
+_G.pg.base.ship_skin_words[201260] = {
 	feeling1 = "I should've known... You can't possibly protect me...",
 	feeling3 = "Duke of York is tough, cool, and... Hehe~ She must make you jealous, too~",
 	lose = "S-someone, help meeee!",
@@ -14261,7 +14261,7 @@ _G.pg.ship_skin_words[201260] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201261] = {
+_G.pg.base.ship_skin_words[201261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14295,7 +14295,7 @@ _G.pg.ship_skin_words[201261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201270] = {
+_G.pg.base.ship_skin_words[201270] = {
 	feeling1 = "Come on... Return to your former self, Commander...",
 	feeling3 = "I always have tons of fun hanging out with you!",
 	lose = "Time to make a sneaky exit~♫",
@@ -14329,7 +14329,7 @@ _G.pg.ship_skin_words[201270] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201290] = {
+_G.pg.base.ship_skin_words[201290] = {
 	feeling1 = "Commander, people have said you've become a deadbeat, but what is a deadbeat even...? Hmm, in any event, Echo will do everything possible to make you more productive~ Let's begin by having you greet me properly~",
 	feeling3 = "Commander, you can't give up so easily. You must get into shape~ Come on, take a stroll around the port with Echo~♪",
 	lose = "Ugh... don't bully meee...",
@@ -14363,7 +14363,7 @@ _G.pg.ship_skin_words[201290] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201320] = {
+_G.pg.base.ship_skin_words[201320] = {
 	feeling1 = "You're no fun at all, Commander...",
 	feeling3 = "Y-you saw my room? Well, when I get too bored, I end up taking apart the furniture... and then I don't know how to put it back together. But why, though?",
 	lose = "Oh noes... Sorry, Commander...",
@@ -14406,7 +14406,7 @@ _G.pg.ship_skin_words[201320] = {
 	}
 }
 
-_G.pg.ship_skin_words[201321] = {
+_G.pg.base.ship_skin_words[201321] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14440,7 +14440,7 @@ _G.pg.ship_skin_words[201321] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201330] = {
+_G.pg.base.ship_skin_words[201330] = {
 	feeling1 = "...If you keep this up, I'll be the only one left who's willing to keep looking after you, Commander...",
 	feeling3 = "Commander, haven't you been working a bit too hard recently? You need to make sure to get some rest when you can... If you fly too close to the sun, your wings will melt, and you'll fall down, you know? ...Huh? What am I saying...?",
 	lose = "If only I could have shot another volley of torpedoes...",
@@ -14491,7 +14491,7 @@ _G.pg.ship_skin_words[201330] = {
 	}
 }
 
-_G.pg.ship_skin_words[201331] = {
+_G.pg.base.ship_skin_words[201331] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14525,7 +14525,7 @@ _G.pg.ship_skin_words[201331] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201332] = {
+_G.pg.base.ship_skin_words[201332] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14559,7 +14559,7 @@ _G.pg.ship_skin_words[201332] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201333] = {
+_G.pg.base.ship_skin_words[201333] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14593,7 +14593,7 @@ _G.pg.ship_skin_words[201333] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202010] = {
+_G.pg.base.ship_skin_words[202010] = {
 	feeling1 = "Being unable to judge your distance with others is problematic, Commander.",
 	feeling3 = "I'm thinking of taking a walk, but I don't have a companion... Commander, want to take a walk with me?",
 	lose = "I've caused you trouble...",
@@ -14627,7 +14627,7 @@ _G.pg.ship_skin_words[202010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202019] = {
+_G.pg.base.ship_skin_words[202019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14661,7 +14661,7 @@ _G.pg.ship_skin_words[202019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202020] = {
+_G.pg.base.ship_skin_words[202020] = {
 	feeling1 = "Commander, work hard and aim to become a ☆magician☆",
 	feeling3 = "Living a real, normal life... Aaah, I'm doomed~ (mumbling to herself)...",
 	lose = "Ooo... Maybe my talent has yet to bloom?",
@@ -14695,7 +14695,7 @@ _G.pg.ship_skin_words[202020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202029] = {
+_G.pg.base.ship_skin_words[202029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14738,7 +14738,7 @@ _G.pg.ship_skin_words[202029] = {
 	}
 }
 
-_G.pg.ship_skin_words[202030] = {
+_G.pg.base.ship_skin_words[202030] = {
 	feeling1 = "So you broke... Oh well. Time to find a new toy, I guess",
 	feeling3 = "*giggles* I'm liking you more and more. I wonder if you can amuse me further, my cute little piggy~?",
 	lose = "Tsk... I'll pay you back for this next time!",
@@ -14807,7 +14807,7 @@ _G.pg.ship_skin_words[202030] = {
 	}
 }
 
-_G.pg.ship_skin_words[202031] = {
+_G.pg.base.ship_skin_words[202031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14841,7 +14841,7 @@ _G.pg.ship_skin_words[202031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202032] = {
+_G.pg.base.ship_skin_words[202032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14875,7 +14875,7 @@ _G.pg.ship_skin_words[202032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202039] = {
+_G.pg.base.ship_skin_words[202039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14909,7 +14909,7 @@ _G.pg.ship_skin_words[202039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202040] = {
+_G.pg.base.ship_skin_words[202040] = {
 	feeling1 = "Ahh... I beg you, Master, spare this pitiable maid your mistreatment...",
 	feeling3 = "There are many klutzes among the Royal Maids, yet Master looks after them and treats them with care... I, meanwhile, am just... Oh, I'm terribly sorry! No honourable maid should be openly jealous of her companions! But still... those klutzes are such cowards...",
 	lose = "I beg your forgiveness, Master! Please do not discard me like this broken doll...!",
@@ -14953,7 +14953,7 @@ _G.pg.ship_skin_words[202040] = {
 	}
 }
 
-_G.pg.ship_skin_words[202041] = {
+_G.pg.base.ship_skin_words[202041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14987,7 +14987,7 @@ _G.pg.ship_skin_words[202041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202070] = {
+_G.pg.base.ship_skin_words[202070] = {
 	feeling1 = "You know, Commander, if you keep pushing me like this I'm going to break.",
 	feeling3 = "Commander, you need not work yourself so hard, you know? Why not let, say... One of my maid sisters take some of your workload... Hmm?",
 	lose = "Aieeee! L-let us beat a hasty retreat!",
@@ -15038,7 +15038,7 @@ _G.pg.ship_skin_words[202070] = {
 	}
 }
 
-_G.pg.ship_skin_words[202071] = {
+_G.pg.base.ship_skin_words[202071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15072,7 +15072,7 @@ _G.pg.ship_skin_words[202071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202072] = {
+_G.pg.base.ship_skin_words[202072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15106,7 +15106,7 @@ _G.pg.ship_skin_words[202072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202080] = {
+_G.pg.base.ship_skin_words[202080] = {
 	feeling1 = "I see, Master, you are remarkably similar to a pest, morphologically. The world is full of mysteries.",
 	feeling3 = "To facilitate ease of reading, I took the liberty of organising and re-categorising all the books on your shelf. Please check the results.",
 	lose = "Master, please assign me to the rear... ",
@@ -15186,7 +15186,7 @@ _G.pg.ship_skin_words[202080] = {
 	}
 }
 
-_G.pg.ship_skin_words[202081] = {
+_G.pg.base.ship_skin_words[202081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15220,7 +15220,7 @@ _G.pg.ship_skin_words[202081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202082] = {
+_G.pg.base.ship_skin_words[202082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15254,7 +15254,7 @@ _G.pg.ship_skin_words[202082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202083] = {
+_G.pg.base.ship_skin_words[202083] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15288,7 +15288,7 @@ _G.pg.ship_skin_words[202083] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202084] = {
+_G.pg.base.ship_skin_words[202084] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15322,7 +15322,7 @@ _G.pg.ship_skin_words[202084] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202100] = {
+_G.pg.base.ship_skin_words[202100] = {
 	feeling1 = "I do not speak to things.",
 	feeling3 = "Master, you must keep a healthy, balanced diet. If you find it troublesome, I can cook your meals for you. Such is a maid's duty, after all.",
 	lose = "I beg your pardon, Master. I have failed you.",
@@ -15373,7 +15373,7 @@ _G.pg.ship_skin_words[202100] = {
 	}
 }
 
-_G.pg.ship_skin_words[202101] = {
+_G.pg.base.ship_skin_words[202101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15407,7 +15407,7 @@ _G.pg.ship_skin_words[202101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202110] = {
+_G.pg.base.ship_skin_words[202110] = {
 	feeling1 = "Since it's Commander, I have to be even more careful... *stare*...",
 	feeling3 = "I've been lectured by Bel again... Forgetting to lock doors when going out, and turning off the tap... What the heck! She's totally not like a little sister!",
 	lose = "Gh... the bullion...",
@@ -15474,7 +15474,7 @@ _G.pg.ship_skin_words[202110] = {
 	}
 }
 
-_G.pg.ship_skin_words[202111] = {
+_G.pg.base.ship_skin_words[202111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "M-my Belfast, are you ok?!",
@@ -15508,7 +15508,7 @@ _G.pg.ship_skin_words[202111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202112] = {
+_G.pg.base.ship_skin_words[202112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15542,7 +15542,7 @@ _G.pg.ship_skin_words[202112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202120] = {
+_G.pg.base.ship_skin_words[202120] = {
 	feeling1 = "Correcting her master is also a maid's duty...",
 	feeling3 = "This is something I made using the connections I have to the fleet. Please have a taste -- Is the taste to your liking?",
 	lose = "Please retreat first, master. I still have some matters to attend to.",
@@ -15576,7 +15576,7 @@ _G.pg.ship_skin_words[202120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202121] = {
+_G.pg.base.ship_skin_words[202121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15610,7 +15610,7 @@ _G.pg.ship_skin_words[202121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202122] = {
+_G.pg.base.ship_skin_words[202122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15644,7 +15644,7 @@ _G.pg.ship_skin_words[202122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202123] = {
+_G.pg.base.ship_skin_words[202123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15728,7 +15728,7 @@ _G.pg.ship_skin_words[202123] = {
 	}
 }
 
-_G.pg.ship_skin_words[202124] = {
+_G.pg.base.ship_skin_words[202124] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15762,7 +15762,7 @@ _G.pg.ship_skin_words[202124] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202125] = {
+_G.pg.base.ship_skin_words[202125] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15796,7 +15796,7 @@ _G.pg.ship_skin_words[202125] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202126] = {
+_G.pg.base.ship_skin_words[202126] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15830,7 +15830,7 @@ _G.pg.ship_skin_words[202126] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202128] = {
+_G.pg.base.ship_skin_words[202128] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15864,7 +15864,7 @@ _G.pg.ship_skin_words[202128] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202130] = {
+_G.pg.base.ship_skin_words[202130] = {
 	feeling1 = "I cannot acknowledge a commander like you!",
 	feeling3 = "Don't get carried away! I came here because of a tasty cake! It's still too early for me to acknowledge you!",
 	lose = "Ugh... How could I fall here... of all places...",
@@ -15898,7 +15898,7 @@ _G.pg.ship_skin_words[202130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202140] = {
+_G.pg.base.ship_skin_words[202140] = {
 	feeling1 = "Do you understand? Even the red string of fate is not absolute. I no longer think about anything concerning you anymore, Commander~",
 	feeling3 = "I like you Commander, but it's important for all of us to be together. I'm troubled~",
 	lose = "Hmph! ...I curse you to be destroyed by my allies!",
@@ -15932,7 +15932,7 @@ _G.pg.ship_skin_words[202140] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202150] = {
+_G.pg.base.ship_skin_words[202150] = {
 	feeling1 = "Commander, please refrain from making a fool of yourself in public.",
 	feeling3 = "The goddess, Aurora, was said to have \"rose-coloured fingers.\" Though the same can't be said for me, my fingers at least smell like roses. Commander, want to check for yourself?",
 	lose = "It seems I have not yet become accustomed to the battlefield...",
@@ -15984,7 +15984,7 @@ _G.pg.ship_skin_words[202150] = {
 	}
 }
 
-_G.pg.ship_skin_words[202151] = {
+_G.pg.base.ship_skin_words[202151] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16018,7 +16018,7 @@ _G.pg.ship_skin_words[202151] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202152] = {
+_G.pg.base.ship_skin_words[202152] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16052,7 +16052,7 @@ _G.pg.ship_skin_words[202152] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202153] = {
+_G.pg.base.ship_skin_words[202153] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16086,7 +16086,7 @@ _G.pg.ship_skin_words[202153] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202158] = {
+_G.pg.base.ship_skin_words[202158] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16120,7 +16120,7 @@ _G.pg.ship_skin_words[202158] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202160] = {
+_G.pg.base.ship_skin_words[202160] = {
 	feeling1 = "You need something, Commander? I'm kind of unavailable, really.",
 	feeling3 = "Oh yeah, anyone in the fleet you fancy? Want me to assist you with them? Come on now, don't get your knickers in a twist~ I can keep a secret~",
 	lose = "Commander, take everyone with you and retreat! Leg it...!",
@@ -16154,7 +16154,7 @@ _G.pg.ship_skin_words[202160] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202161] = {
+_G.pg.base.ship_skin_words[202161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16188,7 +16188,7 @@ _G.pg.ship_skin_words[202161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202170] = {
+_G.pg.base.ship_skin_words[202170] = {
 	feeling1 = "Unfortunately, Boss, it seems your Goals differ from mine...",
 	feeling3 = "An age of justice? That is not what I want. Where there is light, there is dark. Evil cannot be eradicated so easily, Boss.",
 	lose = "It's not pain I fear... it's being completely helpless... Ugh!",
@@ -16239,7 +16239,7 @@ _G.pg.ship_skin_words[202170] = {
 	}
 }
 
-_G.pg.ship_skin_words[202171] = {
+_G.pg.base.ship_skin_words[202171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16273,7 +16273,7 @@ _G.pg.ship_skin_words[202171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202172] = {
+_G.pg.base.ship_skin_words[202172] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16307,7 +16307,7 @@ _G.pg.ship_skin_words[202172] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202180] = {
+_G.pg.base.ship_skin_words[202180] = {
 	feeling1 = "You are more troublesome than a kitchen stain, Master.",
 	feeling3 = "Do I feel nervous? Well, Master is a nice person, and none of the ladies here are merchant ships, so I have nothing to be nervous about.",
 	lose = "A lady must be elegant, even in defeat... *Sob*...",
@@ -16341,7 +16341,7 @@ _G.pg.ship_skin_words[202180] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202190] = {
+_G.pg.base.ship_skin_words[202190] = {
 	feeling1 = "I have trouble keeping people at a distance. I apologize if this has caused any misunderstandings between us.",
 	feeling3 = "The weather report says rain today. Do bring an umbrella if you need to go out.",
 	lose = "I've brought such trouble upon you once again... what a dreadful shame.",
@@ -16388,7 +16388,7 @@ _G.pg.ship_skin_words[202190] = {
 	}
 }
 
-_G.pg.ship_skin_words[202191] = {
+_G.pg.base.ship_skin_words[202191] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16422,7 +16422,7 @@ _G.pg.ship_skin_words[202191] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202199] = {
+_G.pg.base.ship_skin_words[202199] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16456,7 +16456,7 @@ _G.pg.ship_skin_words[202199] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202210] = {
+_G.pg.base.ship_skin_words[202210] = {
 	feeling1 = "My apologies, but I believe it would be best if we maintained some distance.",
 	feeling3 = "Commander, would you like to come to my next lecture? It would be a great encouragement to all the girls.",
 	lose = "I've been thoroughly discredited...",
@@ -16490,7 +16490,7 @@ _G.pg.ship_skin_words[202210] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202211] = {
+_G.pg.base.ship_skin_words[202211] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16524,7 +16524,7 @@ _G.pg.ship_skin_words[202211] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202219] = {
+_G.pg.base.ship_skin_words[202219] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16558,7 +16558,7 @@ _G.pg.ship_skin_words[202219] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202220] = {
+_G.pg.base.ship_skin_words[202220] = {
 	feeling1 = "To think that there would be people who cannot comprehend Royal etiquette at all...",
 	feeling3 = "Please do not blame me for being too strict. Royal etiquette is not something can be easily mastered.",
 	lose = "It appears that I need to have higher expectations of myself.",
@@ -16592,7 +16592,7 @@ _G.pg.ship_skin_words[202220] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202221] = {
+_G.pg.base.ship_skin_words[202221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16626,7 +16626,7 @@ _G.pg.ship_skin_words[202221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202229] = {
+_G.pg.base.ship_skin_words[202229] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16660,7 +16660,7 @@ _G.pg.ship_skin_words[202229] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202200] = {
+_G.pg.base.ship_skin_words[202200] = {
 	feeling1 = "...I implore you to be more honourable, my slightly disappointing Master.",
 	feeling3 = "To me, there is nothing more honourable than to have the privilege of serving you, my honourable Master.",
 	lose = "How shameful... My honourable Master, it seems I have made a mess of myself. Please give this naughty maid her due punishment.",
@@ -16694,7 +16694,7 @@ _G.pg.ship_skin_words[202200] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202201] = {
+_G.pg.base.ship_skin_words[202201] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16728,7 +16728,7 @@ _G.pg.ship_skin_words[202201] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202202] = {
+_G.pg.base.ship_skin_words[202202] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16762,7 +16762,7 @@ _G.pg.ship_skin_words[202202] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202203] = {
+_G.pg.base.ship_skin_words[202203] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16796,7 +16796,7 @@ _G.pg.ship_skin_words[202203] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202230] = {
+_G.pg.base.ship_skin_words[202230] = {
 	feeling1 = "Someone like me deserves a Commander like this...",
 	feeling3 = "Fiji is always telling me to smile more. Is she right? Oh... Sorry, I must be boring you with this...",
 	lose = "Sorry. If only I had tried harder...",
@@ -16839,7 +16839,7 @@ _G.pg.ship_skin_words[202230] = {
 	}
 }
 
-_G.pg.ship_skin_words[202231] = {
+_G.pg.base.ship_skin_words[202231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16873,7 +16873,7 @@ _G.pg.ship_skin_words[202231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202232] = {
+_G.pg.base.ship_skin_words[202232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16907,7 +16907,7 @@ _G.pg.ship_skin_words[202232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202233] = {
+_G.pg.base.ship_skin_words[202233] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16941,7 +16941,7 @@ _G.pg.ship_skin_words[202233] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202240] = {
+_G.pg.base.ship_skin_words[202240] = {
 	feeling1 = "Commander, are you my... enemy?",
 	feeling3 = "Commander, why are you laughing? Did something funny happen? Won't you please tell me too?",
 	lose = "I failed... No, it can't be...",
@@ -16986,7 +16986,7 @@ _G.pg.ship_skin_words[202240] = {
 	}
 }
 
-_G.pg.ship_skin_words[202241] = {
+_G.pg.base.ship_skin_words[202241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17020,7 +17020,7 @@ _G.pg.ship_skin_words[202241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202242] = {
+_G.pg.base.ship_skin_words[202242] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17054,7 +17054,7 @@ _G.pg.ship_skin_words[202242] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202243] = {
+_G.pg.base.ship_skin_words[202243] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17088,7 +17088,7 @@ _G.pg.ship_skin_words[202243] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202244] = {
+_G.pg.base.ship_skin_words[202244] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17122,7 +17122,7 @@ _G.pg.ship_skin_words[202244] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202250] = {
+_G.pg.base.ship_skin_words[202250] = {
 	feeling1 = "To prevent harm from befalling the other members, I shall first eliminate you.",
 	feeling3 = "I'm playing very well? Master, you are able to follow in my footsteps as well... as long as you dedicate yourself to practicing every day.",
 	lose = "This failure was due to my incompetence. Sincerest apologies.",
@@ -17168,7 +17168,7 @@ _G.pg.ship_skin_words[202250] = {
 	}
 }
 
-_G.pg.ship_skin_words[202260] = {
+_G.pg.base.ship_skin_words[202260] = {
 	feeling1 = "Would you please be so kind as to maintain a distance of at least three metres from my person so that I may properly carry out my duties as a maid, \"Master?\"",
 	feeling3 = "Master, I've brought you a change of fresh white linens... You'd prefer green, like the color of my eyes? I, I see...",
 	lose = "Have to think on that one... Don't wanna lose again.",
@@ -17222,7 +17222,7 @@ _G.pg.ship_skin_words[202260] = {
 	}
 }
 
-_G.pg.ship_skin_words[202261] = {
+_G.pg.base.ship_skin_words[202261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17256,7 +17256,7 @@ _G.pg.ship_skin_words[202261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202270] = {
+_G.pg.base.ship_skin_words[202270] = {
 	feeling1 = "Commander, why are you so stubborn...",
 	feeling3 = "Commander, are you working overtime today? Then I'll bring over some coffee. ...Um, it's not a bother, you know? After all, being by your side no matter what is a Royal Maid's duty.",
 	lose = "Oh my, what a failure...",
@@ -17307,7 +17307,7 @@ _G.pg.ship_skin_words[202270] = {
 	}
 }
 
-_G.pg.ship_skin_words[202271] = {
+_G.pg.base.ship_skin_words[202271] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17341,7 +17341,7 @@ _G.pg.ship_skin_words[202271] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202272] = {
+_G.pg.base.ship_skin_words[202272] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17375,7 +17375,7 @@ _G.pg.ship_skin_words[202272] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202273] = {
+_G.pg.base.ship_skin_words[202273] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17409,7 +17409,7 @@ _G.pg.ship_skin_words[202273] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202274] = {
+_G.pg.base.ship_skin_words[202274] = {
 	feeling1 = "There has to be a cure for you out there somewhere... You're not beyond saving yet, I know it!",
 	feeling3 = "",
 	lose = "",
@@ -17443,7 +17443,7 @@ _G.pg.ship_skin_words[202274] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202280] = {
+_G.pg.base.ship_skin_words[202280] = {
 	feeling1 = "Did I let you down, Master? What a despicable maid I am...",
 	feeling3 = "I look good in my idol outfit? Thank you so much, Master...! Oh, does that mean I'm not a maid anymore?! Master, you aren't going to abandon me, are you...?!",
 	lose = "I can't sing as well as the Head Maid...",
@@ -17494,7 +17494,7 @@ _G.pg.ship_skin_words[202280] = {
 	}
 }
 
-_G.pg.ship_skin_words[202290] = {
+_G.pg.base.ship_skin_words[202290] = {
 	feeling1 = "Commander... aren't you acting a bit weird?",
 	feeling3 = "If I leave the uncompleted work here, I wonder if eventually, I won't have to do it anymore.",
 	lose = "I have been defeated. My sincerest apologies...",
@@ -17562,7 +17562,7 @@ _G.pg.ship_skin_words[202290] = {
 	}
 }
 
-_G.pg.ship_skin_words[202291] = {
+_G.pg.base.ship_skin_words[202291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17596,7 +17596,7 @@ _G.pg.ship_skin_words[202291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202292] = {
+_G.pg.base.ship_skin_words[202292] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17630,7 +17630,7 @@ _G.pg.ship_skin_words[202292] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202300] = {
+_G.pg.base.ship_skin_words[202300] = {
 	feeling1 = "I... Master, do you throw everyone to the wolves like this...?",
 	feeling3 = "It may be an exaggeration to say \"whenever, wherever,\" but... I simply wish to be there to serve you whenever you might need me... I'm sorry...",
 	lose = "Redouble our rescue efforts! Master, please retreat and leave the others to me!",
@@ -17664,7 +17664,7 @@ _G.pg.ship_skin_words[202300] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202301] = {
+_G.pg.base.ship_skin_words[202301] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17698,7 +17698,7 @@ _G.pg.ship_skin_words[202301] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203010] = {
+_G.pg.base.ship_skin_words[203010] = {
 	feeling1 = "Your Excellency, please go elsewhere for your time. I shall handle everything here.",
 	feeling3 = "Your Excellency, would you like to have tea together? If you're not done with your work yet, then please tend to it first. Of course, I will be with you.",
 	lose = "...I shouldn't be showing you manners when it comes to this.",
@@ -17745,7 +17745,7 @@ _G.pg.ship_skin_words[203010] = {
 	}
 }
 
-_G.pg.ship_skin_words[203019] = {
+_G.pg.base.ship_skin_words[203019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17779,7 +17779,7 @@ _G.pg.ship_skin_words[203019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203020] = {
+_G.pg.base.ship_skin_words[203020] = {
 	feeling1 = "Commander, you're in the way. Move aside, move aside",
 	feeling3 = "Commander, you are a good man and you have a prospective future. But after I think about it calmly, now is just not the time. I'm sorry!",
 	lose = "Commander, clumsy girls have their charms as well, wouldn't you say? Heh-hey~",
@@ -17813,7 +17813,7 @@ _G.pg.ship_skin_words[203020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203030] = {
+_G.pg.base.ship_skin_words[203030] = {
 	feeling1 = "I'm disappointed... We don't make a good team at all.",
 	feeling3 = "Hey, Commander! Ah, nothing, nothing... Just keep doing you work. I'm happy just looking at you, Commander.",
 	lose = "Ouch... Contestant Ken has been eliminated",
@@ -17847,7 +17847,7 @@ _G.pg.ship_skin_words[203030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203040] = {
+_G.pg.base.ship_skin_words[203040] = {
 	feeling1 = "... The sky is so blue...",
 	feeling3 = "Reconnaissance is a very important task! Huh, I'm losing focus? W-what are you saying? I'm just o-observing the weather...",
 	lose = "*Cries*... If only I had paid more attention...",
@@ -17881,7 +17881,7 @@ _G.pg.ship_skin_words[203040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203049] = {
+_G.pg.base.ship_skin_words[203049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17915,7 +17915,7 @@ _G.pg.ship_skin_words[203049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203050] = {
+_G.pg.base.ship_skin_words[203050] = {
 	feeling1 = "*Sob*...",
 	feeling3 = "Commander, could you tell me more stories...? This time I brought a fairytale book I want you to read to me...",
 	lose = "*Cries*... I'm not so suitable for combat after all...",
@@ -17949,7 +17949,7 @@ _G.pg.ship_skin_words[203050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203060] = {
+_G.pg.base.ship_skin_words[203060] = {
 	feeling1 = "I really can't compare to my sister...",
 	feeling3 = "I'm fine the way I am? Aha, you really know how to give compliments, Commander. Compared to my sister though, I'm still but an ugly duckling.",
 	lose = "Guh...! I can't fall here!",
@@ -17983,7 +17983,7 @@ _G.pg.ship_skin_words[203060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203070] = {
+_G.pg.base.ship_skin_words[203070] = {
 	feeling1 = "The attraction of my Force has diminished… Could that be because ultimately you were nothing more than a Faker…?",
 	feeling3 = "… The attraction of our Friendship grows ever greater! Come, hold my hand, and let us commune!",
 	lose = "Guh.... This is the Nightmare of Suda Bay!",
@@ -18034,7 +18034,7 @@ _G.pg.ship_skin_words[203070] = {
 	}
 }
 
-_G.pg.ship_skin_words[203071] = {
+_G.pg.base.ship_skin_words[203071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18068,7 +18068,7 @@ _G.pg.ship_skin_words[203071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203072] = {
+_G.pg.base.ship_skin_words[203072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18102,7 +18102,7 @@ _G.pg.ship_skin_words[203072] = {
 	detail = "Jamaica, Z36... Through this arduous battle, I have met many companions who also see through the veil. Now, I am no longer alone in my Rebellion against Fate!"
 }
 
-_G.pg.ship_skin_words[203078] = {
+_G.pg.base.ship_skin_words[203078] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Ahh... I tumble into the Nightmare's maws...",
@@ -18136,7 +18136,7 @@ _G.pg.ship_skin_words[203078] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203079] = {
+_G.pg.base.ship_skin_words[203079] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18170,7 +18170,7 @@ _G.pg.ship_skin_words[203079] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203080] = {
+_G.pg.base.ship_skin_words[203080] = {
 	feeling1 = "Please do not bring shame upon the royal family.",
 	feeling3 = "Living with the royal family means I cannot decide my own fate. It is great to have met someone as excellent as you, Commander.",
 	lose = "Curses... I shall have my revenge!",
@@ -18213,7 +18213,7 @@ _G.pg.ship_skin_words[203080] = {
 	}
 }
 
-_G.pg.ship_skin_words[203081] = {
+_G.pg.base.ship_skin_words[203081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18247,7 +18247,7 @@ _G.pg.ship_skin_words[203081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203089] = {
+_G.pg.base.ship_skin_words[203089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18281,7 +18281,7 @@ _G.pg.ship_skin_words[203089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203090] = {
+_G.pg.base.ship_skin_words[203090] = {
 	feeling1 = "London is too much of a people-pleaser, and all her coddling seems to have turned you into mush.",
 	feeling3 = "London is the type of person who would easily be deceived by a bad person, but still continue to smile despite knowing that... Jeez, just why does she have to have that kind of personality...",
 	lose = "This was due to my failure as a leader. Don't blame yourselves, everyone.",
@@ -18332,7 +18332,7 @@ _G.pg.ship_skin_words[203090] = {
 	}
 }
 
-_G.pg.ship_skin_words[203091] = {
+_G.pg.base.ship_skin_words[203091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18366,7 +18366,7 @@ _G.pg.ship_skin_words[203091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203092] = {
+_G.pg.base.ship_skin_words[203092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18400,7 +18400,7 @@ _G.pg.ship_skin_words[203092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204010] = {
+_G.pg.base.ship_skin_words[204010] = {
 	feeling1 = "Commander, you cannot continue like this.",
 	feeling3 = "Commander, you always ask me to accompany you for walks. Is something bothering you?",
 	lose = "...I am sorry, Commander... I failed to live up to your expectations.",
@@ -18459,7 +18459,7 @@ _G.pg.ship_skin_words[204010] = {
 	}
 }
 
-_G.pg.ship_skin_words[204020] = {
+_G.pg.base.ship_skin_words[204020] = {
 	feeling1 = "It's kinda boring being here with you... I'm heading out for a while!",
 	feeling3 = "My sister always says I'm too impatient, but I can't be bothered thinking everything through. Besides, you're always around, so I'll leave all the thinking to you, Commander!",
 	lose = "Ahh, the enemy was so persistent that I'm starving now... There's no way we could've won like this...",
@@ -18493,7 +18493,7 @@ _G.pg.ship_skin_words[204020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204030] = {
+_G.pg.base.ship_skin_words[204030] = {
 	feeling1 = "*Sigh* Seems like you must learn it the hard way.",
 	feeling3 = "Though I speak of being refined at all times, you need not force yourself, Commander. Your normal self is the most charming, after all.",
 	lose = "Victory and defeat are commonplace among those who fight, and it is we that have all the time in the world!",
@@ -18560,7 +18560,7 @@ _G.pg.ship_skin_words[204030] = {
 	}
 }
 
-_G.pg.ship_skin_words[204031] = {
+_G.pg.base.ship_skin_words[204031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18594,7 +18594,7 @@ _G.pg.ship_skin_words[204031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204032] = {
+_G.pg.base.ship_skin_words[204032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18628,7 +18628,7 @@ _G.pg.ship_skin_words[204032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204033] = {
+_G.pg.base.ship_skin_words[204033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18662,7 +18662,7 @@ _G.pg.ship_skin_words[204033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204038] = {
+_G.pg.base.ship_skin_words[204038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18696,7 +18696,7 @@ _G.pg.ship_skin_words[204038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204040] = {
+_G.pg.base.ship_skin_words[204040] = {
 	feeling1 = "Commander, please get your act together! Renown shall not abandon you!",
 	feeling3 = "Work is important, but taking breaks is also important! Coming from a Royal Knight, you're overworking yourself! After you finish this, please make sure to get some rest!",
 	lose = "My apologies, Commander...",
@@ -18730,7 +18730,7 @@ _G.pg.ship_skin_words[204040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205010] = {
+_G.pg.base.ship_skin_words[205010] = {
 	feeling1 = "You useless servant! I will have you relieved of your post!",
 	feeling3 = "I'm sitting here for just a moment because I like the mood! Don't start getting any strange ideas!",
 	lose = "How despicable! To have brought shame to the great Elizabeth! You better remember this!",
@@ -18808,7 +18808,7 @@ _G.pg.ship_skin_words[205010] = {
 	}
 }
 
-_G.pg.ship_skin_words[205011] = {
+_G.pg.base.ship_skin_words[205011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18842,7 +18842,7 @@ _G.pg.ship_skin_words[205011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205012] = {
+_G.pg.base.ship_skin_words[205012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18876,7 +18876,7 @@ _G.pg.ship_skin_words[205012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205013] = {
+_G.pg.base.ship_skin_words[205013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18910,7 +18910,7 @@ _G.pg.ship_skin_words[205013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205014] = {
+_G.pg.base.ship_skin_words[205014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18944,7 +18944,7 @@ _G.pg.ship_skin_words[205014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205015] = {
+_G.pg.base.ship_skin_words[205015] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18978,7 +18978,7 @@ _G.pg.ship_skin_words[205015] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205020] = {
+_G.pg.base.ship_skin_words[205020] = {
 	feeling1 = "Would you please not act like we're close...",
 	feeling3 = "I'm not very elegant? I'm sorry that I'm not like Hood or the others... No... I'm not talking about my body...",
 	lose = "My damage control isn't functioning?! I've lost control of my steering wheel as well! Why now, at such a critical moment?!",
@@ -19062,7 +19062,7 @@ _G.pg.ship_skin_words[205020] = {
 	}
 }
 
-_G.pg.ship_skin_words[205021] = {
+_G.pg.base.ship_skin_words[205021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19096,7 +19096,7 @@ _G.pg.ship_skin_words[205021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205022] = {
+_G.pg.base.ship_skin_words[205022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "If I were just a little faster...!",
@@ -19130,7 +19130,7 @@ _G.pg.ship_skin_words[205022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205029] = {
+_G.pg.base.ship_skin_words[205029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19164,7 +19164,7 @@ _G.pg.ship_skin_words[205029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205030] = {
+_G.pg.base.ship_skin_words[205030] = {
 	feeling1 = "I... don't even know what to tell you anymore... *Sigh*...",
 	feeling3 = "Just with results like these you want me to... You did all this yourself? Don't laugh! I suppose I can make an exception and admit that you did well this time. Hmph!",
 	lose = "To humiliate me like this... I'll get you back!",
@@ -19223,7 +19223,7 @@ _G.pg.ship_skin_words[205030] = {
 	}
 }
 
-_G.pg.ship_skin_words[205031] = {
+_G.pg.base.ship_skin_words[205031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19257,7 +19257,7 @@ _G.pg.ship_skin_words[205031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205032] = {
+_G.pg.base.ship_skin_words[205032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19291,7 +19291,7 @@ _G.pg.ship_skin_words[205032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205040] = {
+_G.pg.base.ship_skin_words[205040] = {
 	feeling1 = "Even I'm a bit disappointed...",
 	feeling3 = "Commander sure is gentle, always slowing down to match my pace when we're taking walks... I'm moved by details like this.",
 	lose = "I can still fight... but we should probably retreat, for now...",
@@ -19350,7 +19350,7 @@ _G.pg.ship_skin_words[205040] = {
 	}
 }
 
-_G.pg.ship_skin_words[205041] = {
+_G.pg.base.ship_skin_words[205041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19384,7 +19384,7 @@ _G.pg.ship_skin_words[205041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205043] = {
+_G.pg.base.ship_skin_words[205043] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19418,7 +19418,7 @@ _G.pg.ship_skin_words[205043] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205048] = {
+_G.pg.base.ship_skin_words[205048] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19452,7 +19452,7 @@ _G.pg.ship_skin_words[205048] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205050] = {
+_G.pg.base.ship_skin_words[205050] = {
 	feeling1 = "I favor those of character, and those who can cook. Commander, you are neither.",
 	feeling3 = "How's that, commander? Are you impressed by my cooking abilities? Here, have as much you desire. Seeing you enjoy my food pleases me.",
 	lose = "Do not be demoralized. Neither victory nor defeat are decided by a single battle.",
@@ -19503,7 +19503,7 @@ _G.pg.ship_skin_words[205050] = {
 	}
 }
 
-_G.pg.ship_skin_words[205051] = {
+_G.pg.base.ship_skin_words[205051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19537,7 +19537,7 @@ _G.pg.ship_skin_words[205051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205060] = {
+_G.pg.base.ship_skin_words[205060] = {
 	feeling1 = "Keep your distance. You are not qualified to command me...",
 	feeling3 = "You never know how many plans, hopes, and efforts would sink into the sea with you, Commander. So try not to die too easily.",
 	lose = "A horse may stumble even though he has four legs. Let's try again next time.",
@@ -19620,7 +19620,7 @@ _G.pg.ship_skin_words[205060] = {
 	}
 }
 
-_G.pg.ship_skin_words[205061] = {
+_G.pg.base.ship_skin_words[205061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19654,7 +19654,7 @@ _G.pg.ship_skin_words[205061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205062] = {
+_G.pg.base.ship_skin_words[205062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19688,7 +19688,7 @@ _G.pg.ship_skin_words[205062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205064] = {
+_G.pg.base.ship_skin_words[205064] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19722,7 +19722,7 @@ _G.pg.ship_skin_words[205064] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205070] = {
+_G.pg.base.ship_skin_words[205070] = {
 	feeling1 = "It would appear... that I must get a little more violent...",
 	feeling3 = "How thy visage tempts me so with each passing moment... I must ask of thee, just how sweet is thy blood?",
 	lose = "Ahh... why dost thou obstinately refuse to obey me...",
@@ -19773,7 +19773,7 @@ _G.pg.ship_skin_words[205070] = {
 	}
 }
 
-_G.pg.ship_skin_words[205072] = {
+_G.pg.base.ship_skin_words[205072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19807,7 +19807,7 @@ _G.pg.ship_skin_words[205072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205073] = {
+_G.pg.base.ship_skin_words[205073] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19841,7 +19841,7 @@ _G.pg.ship_skin_words[205073] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205090] = {
+_G.pg.base.ship_skin_words[205090] = {
 	feeling1 = "A kind deed to others is a kind deed to yourself – or so I was naive enough to believe...",
 	feeling3 = "Are you tired, Commander? Under the weather, perhaps? Heh, well, a nice cookie can fix that. Just eat one of these and you'll be right back to normal.",
 	lose = "Next time... victory will be ours.",
@@ -19902,7 +19902,7 @@ _G.pg.ship_skin_words[205090] = {
 	}
 }
 
-_G.pg.ship_skin_words[205091] = {
+_G.pg.base.ship_skin_words[205091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I hope misfortune befalls you.",
@@ -19936,7 +19936,7 @@ _G.pg.ship_skin_words[205091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205092] = {
+_G.pg.base.ship_skin_words[205092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19970,7 +19970,7 @@ _G.pg.ship_skin_words[205092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205100] = {
+_G.pg.base.ship_skin_words[205100] = {
 	feeling1 = "I had great expectations for you...",
 	feeling3 = "Y-you're better than I expected... F-fine, I won't go easy on you next time...!",
 	lose = "Ugh... H-how is this possible...",
@@ -20022,7 +20022,7 @@ _G.pg.ship_skin_words[205100] = {
 	}
 }
 
-_G.pg.ship_skin_words[205101] = {
+_G.pg.base.ship_skin_words[205101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20056,7 +20056,7 @@ _G.pg.ship_skin_words[205101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205102] = {
+_G.pg.base.ship_skin_words[205102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20090,7 +20090,7 @@ _G.pg.ship_skin_words[205102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206010] = {
+_G.pg.base.ship_skin_words[206010] = {
 	feeling1 = "Have you fallen to the forces of darkness, Commander...? I'll have to defeat you then!",
 	feeling3 = "Interests in anything besides dueling? Hmm... I've never thought about it. Will you show me something new, Commander?",
 	lose = "I won't surrender. My turn... Let me go!",
@@ -20124,7 +20124,7 @@ _G.pg.ship_skin_words[206010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206019] = {
+_G.pg.base.ship_skin_words[206019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "No one is truly undefeatable... If you give up now, you were never worthy of being my Commander.",
@@ -20158,7 +20158,7 @@ _G.pg.ship_skin_words[206019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206030] = {
+_G.pg.base.ship_skin_words[206030] = {
 	feeling1 = "Big brother, you're the worst...",
 	feeling3 = "When things become dangerous, Yuni will protect me-- It won't be dangerous because you are here, big brother? Ehehe. You are like my knight...",
 	lose = "Outside is... so scary... Can I go back...?",
@@ -20224,7 +20224,7 @@ _G.pg.ship_skin_words[206030] = {
 	}
 }
 
-_G.pg.ship_skin_words[206031] = {
+_G.pg.base.ship_skin_words[206031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20258,7 +20258,7 @@ _G.pg.ship_skin_words[206031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206032] = {
+_G.pg.base.ship_skin_words[206032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20292,7 +20292,7 @@ _G.pg.ship_skin_words[206032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206033] = {
+_G.pg.base.ship_skin_words[206033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20326,7 +20326,7 @@ _G.pg.ship_skin_words[206033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206034] = {
+_G.pg.base.ship_skin_words[206034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20360,7 +20360,7 @@ _G.pg.ship_skin_words[206034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206035] = {
+_G.pg.base.ship_skin_words[206035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20394,7 +20394,7 @@ _G.pg.ship_skin_words[206035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206036] = {
+_G.pg.base.ship_skin_words[206036] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20428,7 +20428,7 @@ _G.pg.ship_skin_words[206036] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206038] = {
+_G.pg.base.ship_skin_words[206038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Nng... I have to... be strong... for big brother...",
@@ -20462,7 +20462,7 @@ _G.pg.ship_skin_words[206038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206040] = {
+_G.pg.base.ship_skin_words[206040] = {
 	feeling1 = "How could my beloved fleet turn out like this...",
 	feeling3 = "It, it isn't really that shocking that I use polite language with the destroyer Elders... is it? B- but to me, those girls are also my Elders, worthy of respect!",
 	lose = "Forgive me, Elders...",
@@ -20505,7 +20505,7 @@ _G.pg.ship_skin_words[206040] = {
 	}
 }
 
-_G.pg.ship_skin_words[206041] = {
+_G.pg.base.ship_skin_words[206041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20539,7 +20539,7 @@ _G.pg.ship_skin_words[206041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206042] = {
+_G.pg.base.ship_skin_words[206042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20573,7 +20573,7 @@ _G.pg.ship_skin_words[206042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206050] = {
+_G.pg.base.ship_skin_words[206050] = {
 	feeling1 = "Commander, you've been in pretty rough shape recently. If there's something bothering you, it wouldn't hurt to let me know~",
 	feeling3 = "Every time I set sail, some seagulls will be flying overhead. Legend has it that this signifies a safe journey~ Every time I see these little guys, I always feel at ease.",
 	lose = "Drats, my flight deck caught on fire again... ",
@@ -20607,7 +20607,7 @@ _G.pg.ship_skin_words[206050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206051] = {
+_G.pg.base.ship_skin_words[206051] = {
 	feeling1 = "I have a commander who is as bitter as oversteeped green tea that has been left out and forgotten.",
 	feeling3 = "",
 	lose = "Ugh... there's this saying that \"for soldiers, both victory and defeat are standard issue.\"",
@@ -20641,7 +20641,7 @@ _G.pg.ship_skin_words[206051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206052] = {
+_G.pg.base.ship_skin_words[206052] = {
 	feeling1 = "Commander? It wouldn't hurt to go outside and do something else every now and then, all right?",
 	feeling3 = "",
 	lose = "",
@@ -20675,7 +20675,7 @@ _G.pg.ship_skin_words[206052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206060] = {
+_G.pg.base.ship_skin_words[206060] = {
 	feeling1 = "You really are like a can of rancid surströmming.",
 	feeling3 = "If you ask me, people should be able to say whatever they want... Oh, hello there, Commander. Just talking to myself.",
 	lose = "Damn, we lost... Sorry.",
@@ -20718,7 +20718,7 @@ _G.pg.ship_skin_words[206060] = {
 	}
 }
 
-_G.pg.ship_skin_words[206061] = {
+_G.pg.base.ship_skin_words[206061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20752,7 +20752,7 @@ _G.pg.ship_skin_words[206061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207010] = {
+_G.pg.base.ship_skin_words[207010] = {
 	feeling1 = "You're betraying everyone's trust in you by acting like this. Pull yourself together, for god's sake!",
 	feeling3 = "I'm not a frequent attendee at Royal Navy tea parties... Which isn't to say I don't want to, it's just... they bring out snacks at tea parties... What do you think I mean, Commander?! I'd gain weight, that's the problem! ...Sorry, I lost my cool for a sec there.",
 	lose = "Tsk, I've taken damage after fighting for so long... I'll need repairs when we return.",
@@ -20803,7 +20803,7 @@ _G.pg.ship_skin_words[207010] = {
 	}
 }
 
-_G.pg.ship_skin_words[207011] = {
+_G.pg.base.ship_skin_words[207011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20837,7 +20837,7 @@ _G.pg.ship_skin_words[207011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207020] = {
+_G.pg.base.ship_skin_words[207020] = {
 	feeling1 = "You can't compare with the destroyers, Commander...",
 	feeling3 = "I thought you were finally going to have me Court Martialed, Commander! I'm grateful to finally be recognized by you. It's nothing to be ashamed of? Commander, I, Ark Royal, will follow you forever!",
 	lose = "Damn, trapped!",
@@ -20889,7 +20889,7 @@ _G.pg.ship_skin_words[207020] = {
 	}
 }
 
-_G.pg.ship_skin_words[207021] = {
+_G.pg.base.ship_skin_words[207021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20923,7 +20923,7 @@ _G.pg.ship_skin_words[207021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207022] = {
+_G.pg.base.ship_skin_words[207022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20957,7 +20957,7 @@ _G.pg.ship_skin_words[207022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207023] = {
+_G.pg.base.ship_skin_words[207023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20991,7 +20991,7 @@ _G.pg.ship_skin_words[207023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207028] = {
+_G.pg.base.ship_skin_words[207028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21025,7 +21025,7 @@ _G.pg.ship_skin_words[207028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207029] = {
+_G.pg.base.ship_skin_words[207029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21059,7 +21059,7 @@ _G.pg.ship_skin_words[207029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207030] = {
+_G.pg.base.ship_skin_words[207030] = {
 	feeling1 = "Not even my light can reach the darkness within your heart?",
 	feeling3 = "Commander, while I'm like this, I take a special liking towards suprise night attacks. Seriously, I didn't mean it like that, but is the Commander into things like that?",
 	lose = "Let's retreat, lest I lose my life...",
@@ -21110,7 +21110,7 @@ _G.pg.ship_skin_words[207030] = {
 	}
 }
 
-_G.pg.ship_skin_words[207031] = {
+_G.pg.base.ship_skin_words[207031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21144,7 +21144,7 @@ _G.pg.ship_skin_words[207031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207032] = {
+_G.pg.base.ship_skin_words[207032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21178,7 +21178,7 @@ _G.pg.ship_skin_words[207032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207033] = {
+_G.pg.base.ship_skin_words[207033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21212,7 +21212,7 @@ _G.pg.ship_skin_words[207033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207035] = {
+_G.pg.base.ship_skin_words[207035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21246,7 +21246,7 @@ _G.pg.ship_skin_words[207035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207038] = {
+_G.pg.base.ship_skin_words[207038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21280,7 +21280,7 @@ _G.pg.ship_skin_words[207038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207040] = {
+_G.pg.base.ship_skin_words[207040] = {
 	feeling1 = "I'm fed up~! I'll knock you out stone cold!",
 	feeling3 = "My part in the pursuit of Bismarck and Operation Tungsten? I was just in the mood to help, I wasn't at all trying to earn any honours.",
 	lose = "Remaining dignified even in defeat: this is how one should lose a battle!",
@@ -21350,7 +21350,7 @@ _G.pg.ship_skin_words[207040] = {
 	}
 }
 
-_G.pg.ship_skin_words[207041] = {
+_G.pg.base.ship_skin_words[207041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21384,7 +21384,7 @@ _G.pg.ship_skin_words[207041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207042] = {
+_G.pg.base.ship_skin_words[207042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21418,7 +21418,7 @@ _G.pg.ship_skin_words[207042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207050] = {
+_G.pg.base.ship_skin_words[207050] = {
 	feeling1 = "I'm afraid I've contracted a disease that gives me a dreadful headache when you're nearby. Would you mind going someplace else?",
 	feeling3 = "My big sisters Illustrious and Victorious, like so many other ships you've gathered here, vouch for what a great commander you are. Now come, let this cake be a symbol of our new friendship. Take a bite, won't you?",
 	lose = "Why you miserab- Ahem! You are truly worthy adversaries, but next time victory will be mine!",
@@ -21469,7 +21469,7 @@ _G.pg.ship_skin_words[207050] = {
 	}
 }
 
-_G.pg.ship_skin_words[207051] = {
+_G.pg.base.ship_skin_words[207051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21503,7 +21503,7 @@ _G.pg.ship_skin_words[207051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207052] = {
+_G.pg.base.ship_skin_words[207052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21537,7 +21537,7 @@ _G.pg.ship_skin_words[207052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207060] = {
+_G.pg.base.ship_skin_words[207060] = {
 	feeling1 = "Commander, you're making me feel uncomfortable.",
 	feeling3 = "The kids in the sky have been working very hard. Can't they rest with me for a while? ... ... Commander, in times of war, is there no room for warmth?",
 	lose = "Next time, I'll scout out the enemy before we attack!",
@@ -21580,7 +21580,7 @@ _G.pg.ship_skin_words[207060] = {
 	}
 }
 
-_G.pg.ship_skin_words[207061] = {
+_G.pg.base.ship_skin_words[207061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21614,7 +21614,7 @@ _G.pg.ship_skin_words[207061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207062] = {
+_G.pg.base.ship_skin_words[207062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I must gain a better grasp of the situation on the battlefield.",
@@ -21648,7 +21648,7 @@ _G.pg.ship_skin_words[207062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207090] = {
+_G.pg.base.ship_skin_words[207090] = {
 	feeling1 = "Were my prayers for love and peace not even enough to reach the person closest by my side...?",
 	feeling3 = "Ah, Commander, wait a second... Here, use my handkerchief... Ehehe, there are some cake crumbs stuck on the corner of your mouth~",
 	lose = "For the sake of a world of love and peace, next time... you won't get away!",
@@ -21721,7 +21721,7 @@ _G.pg.ship_skin_words[207090] = {
 	}
 }
 
-_G.pg.ship_skin_words[207110] = {
+_G.pg.base.ship_skin_words[207110] = {
 	feeling1 = "I do hope my song can return you to normal, Commander...",
 	feeling3 = "At the Commander's request, I referenced a song by Comet and the girls. The gentle melody and soothing voices made me truly understand how idols can make people smile.",
 	lose = "It seems the power of song alone was not enough...",
@@ -21764,7 +21764,7 @@ _G.pg.ship_skin_words[207110] = {
 	}
 }
 
-_G.pg.ship_skin_words[213010] = {
+_G.pg.base.ship_skin_words[213010] = {
 	feeling1 = "Commander, if you fall into darkness, know that it will be me hunting your soul...",
 	feeling3 = "Whenever I'm afraid, all I have to do is think of my little sister. It gives me the strength to push on. Even though my sister can't be without me, I can't be without her either.",
 	lose = "Even if you manage to defeat me, you'll never escape the infinite darkness.",
@@ -21831,7 +21831,7 @@ _G.pg.ship_skin_words[213010] = {
 	}
 }
 
-_G.pg.ship_skin_words[213011] = {
+_G.pg.base.ship_skin_words[213011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21865,7 +21865,7 @@ _G.pg.ship_skin_words[213011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213012] = {
+_G.pg.base.ship_skin_words[213012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21899,7 +21899,7 @@ _G.pg.ship_skin_words[213012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213020] = {
+_G.pg.base.ship_skin_words[213020] = {
 	feeling1 = "Terror is terrified of you, Commander.",
 	feeling3 = "I remember my sister being with me, ever since the very first time I opened my eyes... She's always been there for me. She's my only family...",
 	lose = "*Cries*... I'll try to hold out until you tow me back to port, Commander...",
@@ -21950,7 +21950,7 @@ _G.pg.ship_skin_words[213020] = {
 	}
 }
 
-_G.pg.ship_skin_words[213021] = {
+_G.pg.base.ship_skin_words[213021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21984,7 +21984,7 @@ _G.pg.ship_skin_words[213021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213040] = {
+_G.pg.base.ship_skin_words[213040] = {
 	feeling1 = "Tee hee~ Commander, did you know you can use the Mark I as a blunt weapon? I'll show you! (Pow!)",
 	feeling3 = "Oh, Commander~! Com-man-der! Coooommaaaandeeeer! What? It was nothing. I just wanted to see your face~ Tee hee~",
 	lose = "Tsk. Lame.",
@@ -22035,7 +22035,7 @@ _G.pg.ship_skin_words[213040] = {
 	}
 }
 
-_G.pg.ship_skin_words[213041] = {
+_G.pg.base.ship_skin_words[213041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22069,7 +22069,7 @@ _G.pg.ship_skin_words[213041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213042] = {
+_G.pg.base.ship_skin_words[213042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22103,7 +22103,7 @@ _G.pg.ship_skin_words[213042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301010] = {
+_G.pg.base.ship_skin_words[301010] = {
 	feeling1 = "I thought the Commander would understand me...",
 	feeling3 = "Not sure how my sisters are faring… Although, since they are my sisters, I’m sure they’re prospering wherever they are!",
 	lose = "That hurts so much… Commander, let’s run away!",
@@ -22146,7 +22146,7 @@ _G.pg.ship_skin_words[301010] = {
 	}
 }
 
-_G.pg.ship_skin_words[301011] = {
+_G.pg.base.ship_skin_words[301011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Fight or run away to fight another day!",
@@ -22180,7 +22180,7 @@ _G.pg.ship_skin_words[301011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301012] = {
+_G.pg.base.ship_skin_words[301012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22214,7 +22214,7 @@ _G.pg.ship_skin_words[301012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301013] = {
+_G.pg.base.ship_skin_words[301013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22248,7 +22248,7 @@ _G.pg.ship_skin_words[301013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301014] = {
+_G.pg.base.ship_skin_words[301014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22282,7 +22282,7 @@ _G.pg.ship_skin_words[301014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301015] = {
+_G.pg.base.ship_skin_words[301015] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22316,7 +22316,7 @@ _G.pg.ship_skin_words[301015] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301020] = {
+_G.pg.base.ship_skin_words[301020] = {
 	feeling1 = "I, I don't want to hear your noise...",
 	feeling3 = "I don't like crowds. All the noise they make gives me headaches... I much prefer quiet places.",
 	lose = "They beat us... I'll cover our retreat!",
@@ -22375,7 +22375,7 @@ _G.pg.ship_skin_words[301020] = {
 	}
 }
 
-_G.pg.ship_skin_words[301021] = {
+_G.pg.base.ship_skin_words[301021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22409,7 +22409,7 @@ _G.pg.ship_skin_words[301021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301050] = {
+_G.pg.base.ship_skin_words[301050] = {
 	feeling1 = "I don't really want to get any closer.",
 	feeling3 = "Commander, you're always saying that my ears are cute... But why won't you touch them?",
 	lose = "It's okay... I'll recover quickly.",
@@ -22443,7 +22443,7 @@ _G.pg.ship_skin_words[301050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301051] = {
+_G.pg.base.ship_skin_words[301051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22477,7 +22477,7 @@ _G.pg.ship_skin_words[301051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301053] = {
+_G.pg.base.ship_skin_words[301053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22511,7 +22511,7 @@ _G.pg.ship_skin_words[301053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301054] = {
+_G.pg.base.ship_skin_words[301054] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22545,7 +22545,7 @@ _G.pg.ship_skin_words[301054] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301055] = {
+_G.pg.base.ship_skin_words[301055] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22579,7 +22579,7 @@ _G.pg.ship_skin_words[301055] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301056] = {
+_G.pg.base.ship_skin_words[301056] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "The concealment function that Yuubari added was not very useful...",
@@ -22613,7 +22613,7 @@ _G.pg.ship_skin_words[301056] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301057] = {
+_G.pg.base.ship_skin_words[301057] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22647,7 +22647,7 @@ _G.pg.ship_skin_words[301057] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301058] = {
+_G.pg.base.ship_skin_words[301058] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22681,7 +22681,7 @@ _G.pg.ship_skin_words[301058] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301059] = {
+_G.pg.base.ship_skin_words[301059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22715,7 +22715,7 @@ _G.pg.ship_skin_words[301059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301090] = {
+_G.pg.base.ship_skin_words[301090] = {
 	feeling1 = "Commander, you must cheer up!",
 	feeling3 = "Commander, do you perhaps wish to see my true right eye?",
 	lose = "Damn... I-I shall get you next time...",
@@ -22766,7 +22766,7 @@ _G.pg.ship_skin_words[301090] = {
 	}
 }
 
-_G.pg.ship_skin_words[301091] = {
+_G.pg.base.ship_skin_words[301091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22800,7 +22800,7 @@ _G.pg.ship_skin_words[301091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301092] = {
+_G.pg.base.ship_skin_words[301092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22834,7 +22834,7 @@ _G.pg.ship_skin_words[301092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301093] = {
+_G.pg.base.ship_skin_words[301093] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I m-must maintain my posture...!",
@@ -22868,7 +22868,7 @@ _G.pg.ship_skin_words[301093] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301100] = {
+_G.pg.base.ship_skin_words[301100] = {
 	feeling1 = "Commander, it seems like the only way to get you to open your eyes is to get a bit rough... *sigh*...",
 	feeling3 = "Akatsuki, you've been pretty gung-ho about getting the 6th DesDiv back together... Well, the name's not that important as long as we're all together. That's what I think anyway~",
 	lose = "Awww... Looks like I'll have to go back to port for repairs...",
@@ -22953,7 +22953,7 @@ _G.pg.ship_skin_words[301100] = {
 	}
 }
 
-_G.pg.ship_skin_words[301101] = {
+_G.pg.base.ship_skin_words[301101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22987,7 +22987,7 @@ _G.pg.ship_skin_words[301101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301110] = {
+_G.pg.base.ship_skin_words[301110] = {
 	feeling1 = "I see! This means that if I just let myself get washed away by the ocean then I can come back home...",
 	feeling3 = "It's my birthday tomorrow. Have you gotten a gift for me yet? You didn't know it was my birthday? Ah, well... see that pendant over there? Buy it and give it to someone you like, I'm sure they'll be delighted!",
 	lose = "I see...! Times like these you should P2GSOE2PTG4U! Pay to get someone else to play the game for you! Or you can just let me handle it instead!",
@@ -23030,7 +23030,7 @@ _G.pg.ship_skin_words[301110] = {
 	}
 }
 
-_G.pg.ship_skin_words[301111] = {
+_G.pg.base.ship_skin_words[301111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23064,7 +23064,7 @@ _G.pg.ship_skin_words[301111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301112] = {
+_G.pg.base.ship_skin_words[301112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23098,7 +23098,7 @@ _G.pg.ship_skin_words[301112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301113] = {
+_G.pg.base.ship_skin_words[301113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23132,7 +23132,7 @@ _G.pg.ship_skin_words[301113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301120] = {
+_G.pg.base.ship_skin_words[301120] = {
 	feeling1 = "Commander, no matter what you may become, I will always be with you.",
 	feeling3 = "A shared sorrow is one made half, and shared joy is one made double. So please feel free to talk to me about anything.",
 	lose = "Phew... Commander... you're very good at running away...",
@@ -23183,7 +23183,7 @@ _G.pg.ship_skin_words[301120] = {
 	}
 }
 
-_G.pg.ship_skin_words[301121] = {
+_G.pg.base.ship_skin_words[301121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23217,7 +23217,7 @@ _G.pg.ship_skin_words[301121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301122] = {
+_G.pg.base.ship_skin_words[301122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23251,7 +23251,7 @@ _G.pg.ship_skin_words[301122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301123] = {
+_G.pg.base.ship_skin_words[301123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23285,7 +23285,7 @@ _G.pg.ship_skin_words[301123] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301130] = {
+_G.pg.base.ship_skin_words[301130] = {
 	feeling1 = "Huh...? I got lost and ended up next to the commander... I'd better run...",
 	feeling3 = "Huh...? Commander? I realized a while back that I'm always by your side, did you cast some kind of magic on me?",
 	lose = "Gah... ow ow... what in the world hit me...?",
@@ -23319,7 +23319,7 @@ _G.pg.ship_skin_words[301130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301131] = {
+_G.pg.base.ship_skin_words[301131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "*Sob*... I messed up again...",
@@ -23353,7 +23353,7 @@ _G.pg.ship_skin_words[301131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301140] = {
+_G.pg.base.ship_skin_words[301140] = {
 	feeling1 = "Hmph! ({namecode:16} ignored you.)",
 	feeling3 = "\"Grr! Who will I bite today?\" How's that? Awfully violent, right? ... Good, now my sisters will stop telling me I'm like a dog outside of battle!",
 	lose = "Damn it, I can't believe… I lost…",
@@ -23405,7 +23405,7 @@ _G.pg.ship_skin_words[301140] = {
 	}
 }
 
-_G.pg.ship_skin_words[301141] = {
+_G.pg.base.ship_skin_words[301141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23439,7 +23439,7 @@ _G.pg.ship_skin_words[301141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301143] = {
+_G.pg.base.ship_skin_words[301143] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23473,7 +23473,7 @@ _G.pg.ship_skin_words[301143] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301144] = {
+_G.pg.base.ship_skin_words[301144] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23507,7 +23507,7 @@ _G.pg.ship_skin_words[301144] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301148] = {
+_G.pg.base.ship_skin_words[301148] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Commander... It's impossible to fight while wearing this stuff...",
@@ -23541,7 +23541,7 @@ _G.pg.ship_skin_words[301148] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301149] = {
+_G.pg.base.ship_skin_words[301149] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23575,7 +23575,7 @@ _G.pg.ship_skin_words[301149] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301150] = {
+_G.pg.base.ship_skin_words[301150] = {
 	feeling1 = "I curse you with bad luck! You idiot!",
 	feeling3 = "Luck comes when you least expect it, you know? For example, like this! (Shigure jumps) ... Commander, maybe you caught a glimpse of my underwear just now~?",
 	lose = "N... Not bad... You'd better remember this!",
@@ -23627,7 +23627,7 @@ _G.pg.ship_skin_words[301150] = {
 	}
 }
 
-_G.pg.ship_skin_words[301151] = {
+_G.pg.base.ship_skin_words[301151] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23661,7 +23661,7 @@ _G.pg.ship_skin_words[301151] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301152] = {
+_G.pg.base.ship_skin_words[301152] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23695,7 +23695,7 @@ _G.pg.ship_skin_words[301152] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301153] = {
+_G.pg.base.ship_skin_words[301153] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23729,7 +23729,7 @@ _G.pg.ship_skin_words[301153] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301159] = {
+_G.pg.base.ship_skin_words[301159] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23763,7 +23763,7 @@ _G.pg.ship_skin_words[301159] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301160] = {
+_G.pg.base.ship_skin_words[301160] = {
 	feeling1 = "You are not worthy of the luck of Yukikaze the Great~",
 	feeling3 = "You'd like to go to an amusement park with Yukikaze the Great? Hmph! There's no way that I'd do something so childish... Ahh! W-wait, let's talk this over! I'm sure there's some fun to be had at an amusement park!",
 	lose = "Hmph. I don't want anyone finding out that I lost, so I'm letting you go this time!",
@@ -23797,7 +23797,7 @@ _G.pg.ship_skin_words[301160] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301161] = {
+_G.pg.base.ship_skin_words[301161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23831,7 +23831,7 @@ _G.pg.ship_skin_words[301161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301162] = {
+_G.pg.base.ship_skin_words[301162] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23865,7 +23865,7 @@ _G.pg.ship_skin_words[301162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301168] = {
+_G.pg.base.ship_skin_words[301168] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23899,7 +23899,7 @@ _G.pg.ship_skin_words[301168] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301170] = {
+_G.pg.base.ship_skin_words[301170] = {
 	feeling1 = "I have no desire to see you anymore! Go away!",
 	feeling3 = "Although I lack any outstanding abilities, I can confidently say I will be outdone by none other! How so, you say? Hoho, because I am the one and only {namecode:19}!",
 	lose = "What a disgrace! I will not forget this!",
@@ -23933,7 +23933,7 @@ _G.pg.ship_skin_words[301170] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301171] = {
+_G.pg.base.ship_skin_words[301171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23967,7 +23967,7 @@ _G.pg.ship_skin_words[301171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301179] = {
+_G.pg.base.ship_skin_words[301179] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24001,7 +24001,7 @@ _G.pg.ship_skin_words[301179] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301180] = {
+_G.pg.base.ship_skin_words[301180] = {
 	feeling1 = "There exists no cure for your stupidity...",
 	feeling3 = "I will come in the dead of night and devour you soul… I said, and you actually believed it? It was in fact my embers that chased away so many pests, and yet you thought I would harm you? You tremendous fool…",
 	lose = "Curses upon you all…",
@@ -24035,7 +24035,7 @@ _G.pg.ship_skin_words[301180] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301181] = {
+_G.pg.base.ship_skin_words[301181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24069,7 +24069,7 @@ _G.pg.ship_skin_words[301181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301189] = {
+_G.pg.base.ship_skin_words[301189] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24112,7 +24112,7 @@ _G.pg.ship_skin_words[301189] = {
 	}
 }
 
-_G.pg.ship_skin_words[301200] = {
+_G.pg.base.ship_skin_words[301200] = {
 	feeling1 = "... I can't sleep with you next to me...",
 	feeling3 = "{namecode:130}... I promise I'll help you this time...!",
 	lose = "Where... am I? Who's shooting at me?",
@@ -24171,7 +24171,7 @@ _G.pg.ship_skin_words[301200] = {
 	}
 }
 
-_G.pg.ship_skin_words[301210] = {
+_G.pg.base.ship_skin_words[301210] = {
 	feeling1 = "C-Commander, i-if you get any closer then I'll s-shoot you!",
 	feeling3 = "Umm, C-Commander... C-can I ask you to be my... conversation practice partner...? I-I... want to make friends with everyone in the fleet...",
 	lose = "*Cries*... I really am not suited for combat...",
@@ -24215,7 +24215,7 @@ _G.pg.ship_skin_words[301210] = {
 	}
 }
 
-_G.pg.ship_skin_words[301211] = {
+_G.pg.base.ship_skin_words[301211] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24249,7 +24249,7 @@ _G.pg.ship_skin_words[301211] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301212] = {
+_G.pg.base.ship_skin_words[301212] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24283,7 +24283,7 @@ _G.pg.ship_skin_words[301212] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301219] = {
+_G.pg.base.ship_skin_words[301219] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24317,7 +24317,7 @@ _G.pg.ship_skin_words[301219] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301230] = {
+_G.pg.base.ship_skin_words[301230] = {
 	feeling1 = "Hehe~♪ That's the stuff~",
 	feeling3 = "I'm so glad we became friends, Commander!",
 	lose = "Oh nooo...",
@@ -24360,7 +24360,7 @@ _G.pg.ship_skin_words[301230] = {
 	}
 }
 
-_G.pg.ship_skin_words[301231] = {
+_G.pg.base.ship_skin_words[301231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24394,7 +24394,7 @@ _G.pg.ship_skin_words[301231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301232] = {
+_G.pg.base.ship_skin_words[301232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24428,7 +24428,7 @@ _G.pg.ship_skin_words[301232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301240] = {
+_G.pg.base.ship_skin_words[301240] = {
 	feeling1 = "What a pity... You're not even worth making fun of anymore~",
 	feeling3 = "Oh, so you plan to \"capture\" me? Give up already, it's no use~",
 	lose = "Ugh... I'll show you!",
@@ -24471,7 +24471,7 @@ _G.pg.ship_skin_words[301240] = {
 	}
 }
 
-_G.pg.ship_skin_words[301242] = {
+_G.pg.base.ship_skin_words[301242] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24505,7 +24505,7 @@ _G.pg.ship_skin_words[301242] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301249] = {
+_G.pg.base.ship_skin_words[301249] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24539,7 +24539,7 @@ _G.pg.ship_skin_words[301249] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301250] = {
+_G.pg.base.ship_skin_words[301250] = {
 	feeling1 = "Do all commanders go through a rebellious phase?",
 	feeling3 = "Although Yuugure is sometimes a bit clingy, that's part of what makes her cute. Hey Commander, if I was to cling to you, would you be happy?",
 	lose = "I wouldn't mind resting up in the docks if not for this whole getting beat up thing...",
@@ -24598,7 +24598,7 @@ _G.pg.ship_skin_words[301250] = {
 	}
 }
 
-_G.pg.ship_skin_words[301251] = {
+_G.pg.base.ship_skin_words[301251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24632,7 +24632,7 @@ _G.pg.ship_skin_words[301251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301259] = {
+_G.pg.base.ship_skin_words[301259] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24666,7 +24666,7 @@ _G.pg.ship_skin_words[301259] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301260] = {
+_G.pg.base.ship_skin_words[301260] = {
 	feeling1 = "Lord Commander, regarding tomorrow’s task— yes, I wish to confirm it all at once...",
 	feeling3 = "Ahh, it’s the Lord Commander! Why do I have smoke covered all over me? I’m not sure, I was trying to make coke pancakes.",
 	lose = "Hmm… I have to bother {namecode:98} again...",
@@ -24700,7 +24700,7 @@ _G.pg.ship_skin_words[301260] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301261] = {
+_G.pg.base.ship_skin_words[301261] = {
 	feeling1 = "",
 	feeling3 = "I baked a Royal Navy-style cake! I'm certain this time it'll be a hit!",
 	lose = "",
@@ -24734,7 +24734,7 @@ _G.pg.ship_skin_words[301261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301262] = {
+_G.pg.base.ship_skin_words[301262] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24768,7 +24768,7 @@ _G.pg.ship_skin_words[301262] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301263] = {
+_G.pg.base.ship_skin_words[301263] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24802,7 +24802,7 @@ _G.pg.ship_skin_words[301263] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301264] = {
+_G.pg.base.ship_skin_words[301264] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24836,7 +24836,7 @@ _G.pg.ship_skin_words[301264] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301269] = {
+_G.pg.base.ship_skin_words[301269] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24870,7 +24870,7 @@ _G.pg.ship_skin_words[301269] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301270] = {
+_G.pg.base.ship_skin_words[301270] = {
 	feeling1 = "... Your orders?",
 	feeling3 = "While I struggle with Your Grace's concepts of \"communication\" and \"games,\" still... I... can't say I dislike them.",
 	lose = "Your Grace, it is time to retreat. I will cover your withdrawal.",
@@ -24913,7 +24913,7 @@ _G.pg.ship_skin_words[301270] = {
 	}
 }
 
-_G.pg.ship_skin_words[301280] = {
+_G.pg.base.ship_skin_words[301280] = {
 	feeling1 = "No matter what you do, Commander, Kuroshio has no problem following you... But I'm not so forgiving. For her sake, Commander, en garde!",
 	feeling3 = "As a ninja, my sister is always very serious... And since I'm a puppeteer, I always thought it would be nice to make her laugh sometimes. That's kind of a tall order though, ahaha...",
 	lose = "Ugh! Commander! Quickly, take the others and run!",
@@ -24947,7 +24947,7 @@ _G.pg.ship_skin_words[301280] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301290] = {
+_G.pg.base.ship_skin_words[301290] = {
 	feeling1 = "If you manage to right all your wrongs, then maybe you'll earn my forgiveness!",
 	feeling3 = "People often say I'm too hasty, but isn't swift decision-making supposed to be a good thing? Plus, if you don't fight with all you've got, it could come back to haunt you! Hehehe!",
 	lose = "I-I'll reflect upon my errors...",
@@ -25125,7 +25125,7 @@ _G.pg.ship_skin_words[301290] = {
 	}
 }
 
-_G.pg.ship_skin_words[301291] = {
+_G.pg.base.ship_skin_words[301291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25159,7 +25159,7 @@ _G.pg.ship_skin_words[301291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301300] = {
+_G.pg.base.ship_skin_words[301300] = {
 	feeling1 = "You're more boring than I ever imagined, Commander.",
 	feeling3 = "My hobbies? 3 rounds of food and sleep and a bit of teasin' you. Hohoho~! That look there is what I wanted to see.",
 	lose = "Ugh... Should've known I can't keep up like this...",
@@ -25202,7 +25202,7 @@ _G.pg.ship_skin_words[301300] = {
 	}
 }
 
-_G.pg.ship_skin_words[301309] = {
+_G.pg.base.ship_skin_words[301309] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25236,7 +25236,7 @@ _G.pg.ship_skin_words[301309] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301310] = {
+_G.pg.base.ship_skin_words[301310] = {
 	feeling1 = "Sigh... Where did I go wrong with you...",
 	feeling3 = "Yeah... I'm pretty bad with electronics... You should teach me how to properly use them, Commander!",
 	lose = "Ugh... I'll be fine, just make a break for it, everyone...",
@@ -25270,7 +25270,7 @@ _G.pg.ship_skin_words[301310] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301319] = {
+_G.pg.base.ship_skin_words[301319] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25304,7 +25304,7 @@ _G.pg.ship_skin_words[301319] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301320] = {
+_G.pg.base.ship_skin_words[301320] = {
 	feeling1 = "Where's {namecode:34}... I miss her...",
 	feeling3 = "Comaindeeeer! Let's play together! What should we play? You pick, Comainder!",
 	lose = "*Sob*... Comainder...",
@@ -25338,7 +25338,7 @@ _G.pg.ship_skin_words[301320] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301321] = {
+_G.pg.base.ship_skin_words[301321] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25372,7 +25372,7 @@ _G.pg.ship_skin_words[301321] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301322] = {
+_G.pg.base.ship_skin_words[301322] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25406,7 +25406,7 @@ _G.pg.ship_skin_words[301322] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301323] = {
+_G.pg.base.ship_skin_words[301323] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25440,7 +25440,7 @@ _G.pg.ship_skin_words[301323] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301329] = {
+_G.pg.base.ship_skin_words[301329] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25474,7 +25474,7 @@ _G.pg.ship_skin_words[301329] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301330] = {
+_G.pg.base.ship_skin_words[301330] = {
 	feeling1 = "*Crying*... Commander is going to eat me...",
 	feeling3 = "I... sank the fastest of all Mutsuki-class destroyers... I'm scared of strangers... but I also want to make new friends...",
 	lose = "*Sob*... I don't taste good...",
@@ -25508,7 +25508,7 @@ _G.pg.ship_skin_words[301330] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301331] = {
+_G.pg.base.ship_skin_words[301331] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25542,7 +25542,7 @@ _G.pg.ship_skin_words[301331] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301339] = {
+_G.pg.base.ship_skin_words[301339] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25576,7 +25576,7 @@ _G.pg.ship_skin_words[301339] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301350] = {
+_G.pg.base.ship_skin_words[301350] = {
 	feeling1 = "Ack, the Commander is here, run!",
 	feeling3 = "Commander, quickly come help me~ I’ve lost something again!",
 	lose = "Sigh, Commander, I want to go home...",
@@ -25610,7 +25610,7 @@ _G.pg.ship_skin_words[301350] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301351] = {
+_G.pg.base.ship_skin_words[301351] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25644,7 +25644,7 @@ _G.pg.ship_skin_words[301351] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301370] = {
+_G.pg.base.ship_skin_words[301370] = {
 	feeling1 = "I'll do my missions for real! No need to worry!",
 	feeling3 = "All my sisters are so dumb and easy to trick... I'll prove it to you next time, Commander♪ But if someone else tries to tease them, I'll be angry!",
 	lose = "Ugh... It huuurts...",
@@ -25678,7 +25678,7 @@ _G.pg.ship_skin_words[301370] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301380] = {
+_G.pg.base.ship_skin_words[301380] = {
 	feeling1 = "Everyone warned me... not to get close to the commander...",
 	feeling3 = "Commander, please consort with me... Huh? That doesn't mean let's be friends? ",
 	lose = "Huh? Already retreating?",
@@ -25712,7 +25712,7 @@ _G.pg.ship_skin_words[301380] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301381] = {
+_G.pg.base.ship_skin_words[301381] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25746,7 +25746,7 @@ _G.pg.ship_skin_words[301381] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301390] = {
+_G.pg.base.ship_skin_words[301390] = {
 	feeling1 = "*Yawn*... I'm bored... Commandeeer! I'm gonna set off Peepsy if you don't do something fun with me!",
 	feeling3 = "The story of the boy who cried wolf...? Teehee, maybe I should set off Peepsy's alarm to show you that I'm not just all bark and no bite~!",
 	lose = "Waahhh...! Peepsy's nothing more than an alarm...!",
@@ -25795,7 +25795,7 @@ _G.pg.ship_skin_words[301390] = {
 	}
 }
 
-_G.pg.ship_skin_words[301391] = {
+_G.pg.base.ship_skin_words[301391] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25829,7 +25829,7 @@ _G.pg.ship_skin_words[301391] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301410] = {
+_G.pg.base.ship_skin_words[301410] = {
 	feeling1 = "Ahh~ *Nom* (Mikazuki doesn't seem to notice you.)",
 	feeling3 = "Clothes are so annoying... I hate getting dressed... I just want to eat taiyaki...",
 	lose = "I'm hungry...",
@@ -25863,7 +25863,7 @@ _G.pg.ship_skin_words[301410] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301411] = {
+_G.pg.base.ship_skin_words[301411] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25897,7 +25897,7 @@ _G.pg.ship_skin_words[301411] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301470] = {
+_G.pg.base.ship_skin_words[301470] = {
 	feeling1 = "Commander, I'm so sorry I wasn't able to help you...",
 	feeling3 = "Commander, um... would you like to go feed the seagulls with me? ...Yay! Here, let me give you some bread... Uh oh, I'm sorry! It fell...",
 	lose = "Don't worry about me... More importantly, are the others safe...?",
@@ -25957,7 +25957,7 @@ _G.pg.ship_skin_words[301470] = {
 	}
 }
 
-_G.pg.ship_skin_words[301471] = {
+_G.pg.base.ship_skin_words[301471] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25991,7 +25991,7 @@ _G.pg.ship_skin_words[301471] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301480] = {
+_G.pg.base.ship_skin_words[301480] = {
 	feeling1 = "Grrrrr! (Yamakaze is wary of you.)",
 	feeling3 = "Commander, Commander! I wanna play with you! We could call over Umikaze and Kawakaze, too!",
 	lose = "Bwaahh! Get me outta here!",
@@ -26043,7 +26043,7 @@ _G.pg.ship_skin_words[301480] = {
 	}
 }
 
-_G.pg.ship_skin_words[301481] = {
+_G.pg.base.ship_skin_words[301481] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26077,7 +26077,7 @@ _G.pg.ship_skin_words[301481] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301490] = {
+_G.pg.base.ship_skin_words[301490] = {
 	feeling1 = "In the end, you're just someone who can't exceed my expectations, Commander.",
 	feeling3 = "Have you not experienced war, too? Then why do you still believe in fairy tales like justice, love, or harmony...?",
 	lose = "I'm still... afloat. If that's good or bad, who can say...",
@@ -26137,7 +26137,7 @@ _G.pg.ship_skin_words[301490] = {
 	}
 }
 
-_G.pg.ship_skin_words[301491] = {
+_G.pg.base.ship_skin_words[301491] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26171,7 +26171,7 @@ _G.pg.ship_skin_words[301491] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301498] = {
+_G.pg.base.ship_skin_words[301498] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26205,7 +26205,7 @@ _G.pg.ship_skin_words[301498] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301540] = {
+_G.pg.base.ship_skin_words[301540] = {
 	feeling1 = "Everyone's been saying the Commander is a mean person... Commander, is that really true...?",
 	feeling3 = "Ugh... It's so scary at night... Commander, w-when it gets late, could you pretty please lead me to the dorm...?",
 	lose = "Ugh... S-stay away...!",
@@ -26248,7 +26248,7 @@ _G.pg.ship_skin_words[301540] = {
 	}
 }
 
-_G.pg.ship_skin_words[301541] = {
+_G.pg.base.ship_skin_words[301541] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26282,7 +26282,7 @@ _G.pg.ship_skin_words[301541] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301560] = {
+_G.pg.base.ship_skin_words[301560] = {
 	feeling1 = "I knew I probably wouldn't be of any use to you...",
 	feeling3 = "I'm trying my best not to cause trouble for people, but I don't know how... So instead I ended up making a lot of mistakes...",
 	lose = "I've failed yet again...",
@@ -26316,7 +26316,7 @@ _G.pg.ship_skin_words[301560] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301570] = {
+_G.pg.base.ship_skin_words[301570] = {
 	feeling1 = "Commander, I wonder if you've been cursed...",
 	feeling3 = "Aww.... m-my hair's all messed... Fusou's not here either, what should I do... Hm? You'd help me comb my hair? Thank you very much, Commander!",
 	lose = "O gods, please save us!",
@@ -26350,7 +26350,7 @@ _G.pg.ship_skin_words[301570] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301571] = {
+_G.pg.base.ship_skin_words[301571] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26384,7 +26384,7 @@ _G.pg.ship_skin_words[301571] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301580] = {
+_G.pg.base.ship_skin_words[301580] = {
 	feeling1 = "I would prefer it if you'd stay away from me.",
 	feeling3 = "I know that I can't always be by Harutsuki's side to help when she feels nervous. Yet, my body always acts on its own accord...",
 	lose = "They tricked us... Everyone, retreat! I will watch your backs...!",
@@ -26418,7 +26418,7 @@ _G.pg.ship_skin_words[301580] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301581] = {
+_G.pg.base.ship_skin_words[301581] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26452,7 +26452,7 @@ _G.pg.ship_skin_words[301581] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301582] = {
+_G.pg.base.ship_skin_words[301582] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26486,7 +26486,7 @@ _G.pg.ship_skin_words[301582] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301590] = {
+_G.pg.base.ship_skin_words[301590] = {
 	feeling1 = "Stay away from me, stupidity is contagious.",
 	feeling3 = "{namecode:128} and {namecode:127} are both so whimsical and wandering around. Those girls sure don’t have the temperment of being in the Navy. They still need to lean on me, being their big sister. Such a headache...",
 	lose = "Damn, give me… victory. Win or lose, that’s the way of life in the Navy.",
@@ -26530,7 +26530,7 @@ _G.pg.ship_skin_words[301590] = {
 	}
 }
 
-_G.pg.ship_skin_words[301591] = {
+_G.pg.base.ship_skin_words[301591] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26564,7 +26564,7 @@ _G.pg.ship_skin_words[301591] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301592] = {
+_G.pg.base.ship_skin_words[301592] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26598,7 +26598,7 @@ _G.pg.ship_skin_words[301592] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301600] = {
+_G.pg.base.ship_skin_words[301600] = {
 	feeling1 = "Hmph! I'm done playing with you! Hamakaze, Tanikaze, where are you?",
 	feeling3 = "Western Army, attack! Fire on the Eastern Army! Our next move will be... Oh no! Hideaki was lured away! That's unfair, General! Darn, now I'm... *Sob*...",
 	lose = "Hamakaze, Hamakaze where are you... You have to save me!",
@@ -26641,7 +26641,7 @@ _G.pg.ship_skin_words[301600] = {
 	}
 }
 
-_G.pg.ship_skin_words[301601] = {
+_G.pg.base.ship_skin_words[301601] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26675,7 +26675,7 @@ _G.pg.ship_skin_words[301601] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301602] = {
+_G.pg.base.ship_skin_words[301602] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26709,7 +26709,7 @@ _G.pg.ship_skin_words[301602] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301610] = {
+_G.pg.base.ship_skin_words[301610] = {
 	feeling1 = "Stupid meatheaded Commander...",
 	feeling3 = "I hope one day... Destroyer Division 17 can reunite here...",
 	lose = "I have to rescue the survivors...",
@@ -26743,7 +26743,7 @@ _G.pg.ship_skin_words[301610] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301611] = {
+_G.pg.base.ship_skin_words[301611] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26777,7 +26777,7 @@ _G.pg.ship_skin_words[301611] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301619] = {
+_G.pg.base.ship_skin_words[301619] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26811,7 +26811,7 @@ _G.pg.ship_skin_words[301619] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301620] = {
+_G.pg.base.ship_skin_words[301620] = {
 	feeling1 = "It's you... *Stares angrily*",
 	feeling3 = "Usually valley winds are only there during noon, but I'm always here!",
 	lose = "What could I have done better...",
@@ -26854,7 +26854,7 @@ _G.pg.ship_skin_words[301620] = {
 	}
 }
 
-_G.pg.ship_skin_words[301621] = {
+_G.pg.base.ship_skin_words[301621] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26888,7 +26888,7 @@ _G.pg.ship_skin_words[301621] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301629] = {
+_G.pg.base.ship_skin_words[301629] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26922,7 +26922,7 @@ _G.pg.ship_skin_words[301629] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301630] = {
+_G.pg.base.ship_skin_words[301630] = {
 	feeling1 = "Arashio... Where are you?",
 	feeling3 = "I had another nightmare yesterday. Commander, would you please stay with me tonight? That black abyss, not being able to see anything... I'm scared...",
 	lose = "If only I had upgraded my anti-air equipment a bit more...",
@@ -26981,7 +26981,7 @@ _G.pg.ship_skin_words[301630] = {
 	}
 }
 
-_G.pg.ship_skin_words[301631] = {
+_G.pg.base.ship_skin_words[301631] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27015,7 +27015,7 @@ _G.pg.ship_skin_words[301631] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301632] = {
+_G.pg.base.ship_skin_words[301632] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27049,7 +27049,7 @@ _G.pg.ship_skin_words[301632] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301633] = {
+_G.pg.base.ship_skin_words[301633] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27083,7 +27083,7 @@ _G.pg.ship_skin_words[301633] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301640] = {
+_G.pg.base.ship_skin_words[301640] = {
 	feeling1 = "I reckoned we'd never be able to understand each other...",
 	feeling3 = "Whether they're boys or girls, if they're talented 'n cute, I love 'em all the same~ It's not yer gender that matters, it's what's inside~",
 	lose = "Ya can't let a small setback getcha feelin' blue~",
@@ -27135,7 +27135,7 @@ _G.pg.ship_skin_words[301640] = {
 	}
 }
 
-_G.pg.ship_skin_words[301641] = {
+_G.pg.base.ship_skin_words[301641] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27169,7 +27169,7 @@ _G.pg.ship_skin_words[301641] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301642] = {
+_G.pg.base.ship_skin_words[301642] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27203,7 +27203,7 @@ _G.pg.ship_skin_words[301642] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301643] = {
+_G.pg.base.ship_skin_words[301643] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27237,7 +27237,7 @@ _G.pg.ship_skin_words[301643] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301644] = {
+_G.pg.base.ship_skin_words[301644] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27271,7 +27271,7 @@ _G.pg.ship_skin_words[301644] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301650] = {
+_G.pg.base.ship_skin_words[301650] = {
 	feeling1 = "I don't think I can be friends with you, Commander...",
 	feeling3 = "I've lost a lot of friends over the years... Asashio and them, Suzukaze, Umikaze... I'm so afraid to lose any more... I'll do anything for my friends...",
 	lose = "Wait! Please don't leave me heeere!",
@@ -27305,7 +27305,7 @@ _G.pg.ship_skin_words[301650] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301651] = {
+_G.pg.base.ship_skin_words[301651] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27339,7 +27339,7 @@ _G.pg.ship_skin_words[301651] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301660] = {
+_G.pg.base.ship_skin_words[301660] = {
 	feeling1 = "Oh, Asashio? There there, there's nothing to be afraid of... You'll have to excuse me, I need to stay with Asashio.",
 	feeling3 = "Did you have another nightmare? Aww, relax, Commander, everything will be okay.",
 	lose = "There's no need to worry, we'll win the next time!",
@@ -27392,7 +27392,7 @@ _G.pg.ship_skin_words[301660] = {
 	}
 }
 
-_G.pg.ship_skin_words[301661] = {
+_G.pg.base.ship_skin_words[301661] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27426,7 +27426,7 @@ _G.pg.ship_skin_words[301661] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301720] = {
+_G.pg.base.ship_skin_words[301720] = {
 	feeling1 = "Laaaaaame.",
 	feeling3 = "The massive Meowfficer's super fluffy... I mean, ripped. Built like a fridge!",
 	lose = "Time to scamper. Don't wanna be left behind.",
@@ -27485,7 +27485,7 @@ _G.pg.ship_skin_words[301720] = {
 	}
 }
 
-_G.pg.ship_skin_words[301721] = {
+_G.pg.base.ship_skin_words[301721] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27519,7 +27519,7 @@ _G.pg.ship_skin_words[301721] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301790] = {
+_G.pg.base.ship_skin_words[301790] = {
 	feeling1 = "Could you acknowledge the error of your ways before other girls start thinking poorly of you?",
 	feeling3 = "Different people must be treated in their own unique way. This is no secret to social success, but it will help make you more sociable.",
 	lose = "It seems I have not kept up with the times...",
@@ -27572,7 +27572,7 @@ _G.pg.ship_skin_words[301790] = {
 	}
 }
 
-_G.pg.ship_skin_words[301800] = {
+_G.pg.base.ship_skin_words[301800] = {
 	feeling1 = "Hmph. ...Leave me alone.",
 	feeling3 = "Oww... I tripped again... Can you give me a piggyback ride back home, Commander...?",
 	lose = "All we can do is place our hopes on the next one... ",
@@ -27606,7 +27606,7 @@ _G.pg.ship_skin_words[301800] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301801] = {
+_G.pg.base.ship_skin_words[301801] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27640,7 +27640,7 @@ _G.pg.ship_skin_words[301801] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301810] = {
+_G.pg.base.ship_skin_words[301810] = {
 	feeling1 = "Don't be sad, Commander. Kasumi will be your friend.",
 	feeling3 = "Commander, Foo and Kasumi will always stay by yourside, because you're our friend.",
 	lose = "Foo, make sure to... protect the others.",
@@ -27700,7 +27700,7 @@ _G.pg.ship_skin_words[301810] = {
 	}
 }
 
-_G.pg.ship_skin_words[301811] = {
+_G.pg.base.ship_skin_words[301811] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27734,7 +27734,7 @@ _G.pg.ship_skin_words[301811] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301812] = {
+_G.pg.base.ship_skin_words[301812] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27768,7 +27768,7 @@ _G.pg.ship_skin_words[301812] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301819] = {
+_G.pg.base.ship_skin_words[301819] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27802,7 +27802,7 @@ _G.pg.ship_skin_words[301819] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301820] = {
+_G.pg.base.ship_skin_words[301820] = {
 	feeling1 = "Commander, I do not wish to see you ostracized by anyone... But at this rate, I may not be able to do anything for you...",
 	feeling3 = "It's embarrassing to admit it, but... I tried to pick up gardening several times but kept getting stuck because I couldn't decide what I wanted to grow... Commander, do you have any flowers that you're partial towards? I want to make up my mind this time!",
 	lose = "I see, because of my indecisiveness... I am terribly sorry for dragging everyone down...",
@@ -27855,7 +27855,7 @@ _G.pg.ship_skin_words[301820] = {
 	}
 }
 
-_G.pg.ship_skin_words[301821] = {
+_G.pg.base.ship_skin_words[301821] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27889,7 +27889,7 @@ _G.pg.ship_skin_words[301821] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301822] = {
+_G.pg.base.ship_skin_words[301822] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27923,7 +27923,7 @@ _G.pg.ship_skin_words[301822] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301830] = {
+_G.pg.base.ship_skin_words[301830] = {
 	feeling1 = "Commander, if there's anything bothering you, please let me know. I'll be waiting for you... as long as it takes...",
 	feeling3 = "My tail is warm and fluffy, but Wakaba's is shinier in comparison... Hatsushimo's is slender, and Shimakaze's is tiny... Um, there are all different sorts!",
 	lose = "I'll have to work much harder if I want to become an ideal flagship...",
@@ -27978,7 +27978,7 @@ _G.pg.ship_skin_words[301830] = {
 	}
 }
 
-_G.pg.ship_skin_words[301831] = {
+_G.pg.base.ship_skin_words[301831] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28012,7 +28012,7 @@ _G.pg.ship_skin_words[301831] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301832] = {
+_G.pg.base.ship_skin_words[301832] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28046,7 +28046,7 @@ _G.pg.ship_skin_words[301832] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301833] = {
+_G.pg.base.ship_skin_words[301833] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28080,7 +28080,7 @@ _G.pg.ship_skin_words[301833] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301840] = {
+_G.pg.base.ship_skin_words[301840] = {
 	feeling1 = "Commander, you're gonna make me hate you...",
 	feeling3 = "Commander, you can rely on me as well! ...What?! You think you can one-up me...?!",
 	lose = "Guh... No matter what, we all have to make it back safely...!",
@@ -28142,7 +28142,7 @@ _G.pg.ship_skin_words[301840] = {
 	}
 }
 
-_G.pg.ship_skin_words[301841] = {
+_G.pg.base.ship_skin_words[301841] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28176,7 +28176,7 @@ _G.pg.ship_skin_words[301841] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301842] = {
+_G.pg.base.ship_skin_words[301842] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28210,7 +28210,7 @@ _G.pg.ship_skin_words[301842] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301850] = {
+_G.pg.base.ship_skin_words[301850] = {
 	feeling1 = "I expect no betterment from you. Go on, let your name be irreversibly tarnished.",
 	feeling3 = "You need an attendant for your outing? Understoo– Wait, why would you need an attendant for a tour of your own port? ...You want to \"hang out\" with me? What does that mean?",
 	lose = "We must start anew at boot camp...",
@@ -28253,7 +28253,7 @@ _G.pg.ship_skin_words[301850] = {
 	}
 }
 
-_G.pg.ship_skin_words[301851] = {
+_G.pg.base.ship_skin_words[301851] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28287,7 +28287,7 @@ _G.pg.ship_skin_words[301851] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301852] = {
+_G.pg.base.ship_skin_words[301852] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28321,7 +28321,7 @@ _G.pg.ship_skin_words[301852] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301860] = {
+_G.pg.base.ship_skin_words[301860] = {
 	feeling1 = "I guess we're all fated to be alone. You, me, and everyone else...",
 	feeling3 = "You're not a bad person, so we can be friends... Do I wish I had more friends? I'm... not gonna tell you.",
 	lose = "Ugh. I'm really out of it today...",
@@ -28372,7 +28372,7 @@ _G.pg.ship_skin_words[301860] = {
 	}
 }
 
-_G.pg.ship_skin_words[301861] = {
+_G.pg.base.ship_skin_words[301861] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28406,7 +28406,7 @@ _G.pg.ship_skin_words[301861] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302010] = {
+_G.pg.base.ship_skin_words[302010] = {
 	feeling1 = "Master, could you just stay away from me?",
 	feeling3 = "I much prefer staying in the port than going on sorties. This is my home; by the blue seas, beneath the warm and dazzling sunlight... *Yawn*... Mmhh... Zzzz...",
 	lose = "Dear me! ... Once I'm done developing new gear, I won't lose like this again!",
@@ -28440,7 +28440,7 @@ _G.pg.ship_skin_words[302010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302019] = {
+_G.pg.base.ship_skin_words[302019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Hmm... Looks like I haven't upgraded my equipment enough...",
@@ -28474,7 +28474,7 @@ _G.pg.ship_skin_words[302019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302040] = {
+_G.pg.base.ship_skin_words[302040] = {
 	feeling1 = "Come on, Commander, cheer up~!",
 	feeling3 = "Commander? Oh, nothing. I just wanted to say hi!",
 	lose = "*Cries* Commander, let's retreat...",
@@ -28517,7 +28517,7 @@ _G.pg.ship_skin_words[302040] = {
 	}
 }
 
-_G.pg.ship_skin_words[302041] = {
+_G.pg.base.ship_skin_words[302041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28551,7 +28551,7 @@ _G.pg.ship_skin_words[302041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302050] = {
+_G.pg.base.ship_skin_words[302050] = {
 	feeling1 = "Is Commander a demon?",
 	feeling3 = "Ah? A midnight adventure? That... it's not a good idea, is it? No, I'm not afraid!",
 	lose = "*Cries* ... Are they all demons?",
@@ -28585,7 +28585,7 @@ _G.pg.ship_skin_words[302050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302051] = {
+_G.pg.base.ship_skin_words[302051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28619,7 +28619,7 @@ _G.pg.ship_skin_words[302051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302052] = {
+_G.pg.base.ship_skin_words[302052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28653,7 +28653,7 @@ _G.pg.ship_skin_words[302052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302053] = {
+_G.pg.base.ship_skin_words[302053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28687,7 +28687,7 @@ _G.pg.ship_skin_words[302053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302059] = {
+_G.pg.base.ship_skin_words[302059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28721,7 +28721,7 @@ _G.pg.ship_skin_words[302059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302070] = {
+_G.pg.base.ship_skin_words[302070] = {
 	feeling1 = "I wonder if the fortune that foretold \"calamity\" was referring to you...",
 	feeling3 = "You want to know more about my Self? Well, she's also a part of me... Mm, if I were to put it simply, she's kind of like my familiar.",
 	lose = "It might be better to withdraw first...",
@@ -28780,7 +28780,7 @@ _G.pg.ship_skin_words[302070] = {
 	}
 }
 
-_G.pg.ship_skin_words[302071] = {
+_G.pg.base.ship_skin_words[302071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28814,7 +28814,7 @@ _G.pg.ship_skin_words[302071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302080] = {
+_G.pg.base.ship_skin_words[302080] = {
 	feeling1 = "Cowards shall never control a demon.",
 	feeling3 = "I've heard that Yuubari is responsible for developing new equipment. If possible, could you ask her to upgrade my equipment? For example, starting with my torpedoes...",
 	lose = "Even I have become obsolete...?",
@@ -28873,7 +28873,7 @@ _G.pg.ship_skin_words[302080] = {
 	}
 }
 
-_G.pg.ship_skin_words[302081] = {
+_G.pg.base.ship_skin_words[302081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28907,7 +28907,7 @@ _G.pg.ship_skin_words[302081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302082] = {
+_G.pg.base.ship_skin_words[302082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Dammit! You've ruined my tights and skirt!",
@@ -28941,7 +28941,7 @@ _G.pg.ship_skin_words[302082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302089] = {
+_G.pg.base.ship_skin_words[302089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28975,7 +28975,7 @@ _G.pg.ship_skin_words[302089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302090] = {
+_G.pg.base.ship_skin_words[302090] = {
 	feeling1 = "Don't touch me...",
 	feeling3 = "I look trigger happy? I actually prefer being an escort more than I do engaging in combat...",
 	lose = "Everyone, prepare to retreat... I'll cover the rear!",
@@ -29009,7 +29009,7 @@ _G.pg.ship_skin_words[302090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302099] = {
+_G.pg.base.ship_skin_words[302099] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29043,7 +29043,7 @@ _G.pg.ship_skin_words[302099] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302100] = {
+_G.pg.base.ship_skin_words[302100] = {
 	feeling1 = "Well, a hapless fellow like me was bound to get stuck with a hapless commander...",
 	feeling3 = "My horn, huh... Well, I don't really mind, but... it kind of sticks out, doesn't it? I don't really like the attention... *sigh*...",
 	lose = "So this is what I'm made of...",
@@ -29102,7 +29102,7 @@ _G.pg.ship_skin_words[302100] = {
 	}
 }
 
-_G.pg.ship_skin_words[302109] = {
+_G.pg.base.ship_skin_words[302109] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29136,7 +29136,7 @@ _G.pg.ship_skin_words[302109] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302110] = {
+_G.pg.base.ship_skin_words[302110] = {
 	feeling1 = "I've gotta warn my sister about how untrustworthy you are...",
 	feeling3 = "All Mogami-class cruisers were part of Cruiser Division 7, but because Kumano and Suzuya were launched later than me, it was I who had to look after Mogami. And for that reason, they aren't as close to her as I am.",
 	lose = "*Gah*...! This will serve as a lesson...!",
@@ -29179,7 +29179,7 @@ _G.pg.ship_skin_words[302110] = {
 	}
 }
 
-_G.pg.ship_skin_words[302120] = {
+_G.pg.base.ship_skin_words[302120] = {
 	feeling1 = "Think it's about time we say goodbye.",
 	feeling3 = "I can't settle until I've made right out of wrong with my fists. That's my way of life. It's why I try not to get involved in anyone's business; I just don't wanna cause any trouble.",
 	lose = "Owwww... Ahaha... Guess this is it...",
@@ -29230,7 +29230,7 @@ _G.pg.ship_skin_words[302120] = {
 	}
 }
 
-_G.pg.ship_skin_words[302129] = {
+_G.pg.base.ship_skin_words[302129] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29264,7 +29264,7 @@ _G.pg.ship_skin_words[302129] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302130] = {
+_G.pg.base.ship_skin_words[302130] = {
 	feeling1 = "You might as well just leave the fleet management to me.",
 	feeling3 = "Commander, it's okay to respect my opinions, but please have confidence in your own judgment. I wouldn't be standing by your side if I didn't believe in you.",
 	lose = "All ships, retreat! Do not make meaningless sacrifices.",
@@ -29298,7 +29298,7 @@ _G.pg.ship_skin_words[302130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302131] = {
+_G.pg.base.ship_skin_words[302131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29332,7 +29332,7 @@ _G.pg.ship_skin_words[302131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302139] = {
+_G.pg.base.ship_skin_words[302139] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29366,7 +29366,7 @@ _G.pg.ship_skin_words[302139] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302140] = {
+_G.pg.base.ship_skin_words[302140] = {
 	feeling1 = "My sisters chose you because you just let them mess around without being scolded? How strange...",
 	feeling3 = "What are my hobbies? ...I don't really have one in particular. But I enjoy reading and training... Oh, would you like to train together with me? Heheheh~",
 	lose = "Oh no! Commander, we should retreat immediately! Jintsuu said we shouldn't make meaningless sacrifices!",
@@ -29410,7 +29410,7 @@ _G.pg.ship_skin_words[302140] = {
 	}
 }
 
-_G.pg.ship_skin_words[302141] = {
+_G.pg.base.ship_skin_words[302141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29444,7 +29444,7 @@ _G.pg.ship_skin_words[302141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302200] = {
+_G.pg.base.ship_skin_words[302200] = {
 	feeling1 = "Even breathing the same air as you do is unpleasant, Commander~",
 	feeling3 = "Commander, why don't we have a chat? Yes, I'm curious as to what kind of person you are.",
 	lose = "How careless of me... I will undergo special training when we've returned. *Giggle*.",
@@ -29495,7 +29495,7 @@ _G.pg.ship_skin_words[302200] = {
 	}
 }
 
-_G.pg.ship_skin_words[302201] = {
+_G.pg.base.ship_skin_words[302201] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29529,7 +29529,7 @@ _G.pg.ship_skin_words[302201] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302202] = {
+_G.pg.base.ship_skin_words[302202] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29563,7 +29563,7 @@ _G.pg.ship_skin_words[302202] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302203] = {
+_G.pg.base.ship_skin_words[302203] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29597,7 +29597,7 @@ _G.pg.ship_skin_words[302203] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302210] = {
+_G.pg.base.ship_skin_words[302210] = {
 	feeling1 = "You seem to be in quite the hurry. For once, why don't you try calming down and reflecting upon your actions?",
 	feeling3 = "An invitation to a joint practice session together from Agano... How troubling. It's full of intent to bully. Even though I want to refuse, I can't think of an excuse. Instead, would you be willing to assign some official duties to me around that time?",
 	lose = "We have no choice but to pull back...",
@@ -29649,7 +29649,7 @@ _G.pg.ship_skin_words[302210] = {
 	}
 }
 
-_G.pg.ship_skin_words[302211] = {
+_G.pg.base.ship_skin_words[302211] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29683,7 +29683,7 @@ _G.pg.ship_skin_words[302211] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302212] = {
+_G.pg.base.ship_skin_words[302212] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29717,7 +29717,7 @@ _G.pg.ship_skin_words[302212] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302213] = {
+_G.pg.base.ship_skin_words[302213] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29751,7 +29751,7 @@ _G.pg.ship_skin_words[302213] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302214] = {
+_G.pg.base.ship_skin_words[302214] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29785,7 +29785,7 @@ _G.pg.ship_skin_words[302214] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302215] = {
+_G.pg.base.ship_skin_words[302215] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29819,7 +29819,7 @@ _G.pg.ship_skin_words[302215] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302218] = {
+_G.pg.base.ship_skin_words[302218] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29853,7 +29853,7 @@ _G.pg.ship_skin_words[302218] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303010] = {
+_G.pg.base.ship_skin_words[303010] = {
 	feeling1 = "(Furutaka ignores you as she passes by)",
 	feeling3 = "Commander~ Oww! ...Ehehe... Thanks, I almost fell again. I'm trying to pay more attention so that I don't trip as much, but I was so happy that I let my guard down.",
 	lose = "We lost... Too bad...",
@@ -29887,7 +29887,7 @@ _G.pg.ship_skin_words[303010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303019] = {
+_G.pg.base.ship_skin_words[303019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29930,7 +29930,7 @@ _G.pg.ship_skin_words[303019] = {
 	}
 }
 
-_G.pg.ship_skin_words[303020] = {
+_G.pg.base.ship_skin_words[303020] = {
 	feeling1 = "It seems that you'll never be able to earn my respect.",
 	feeling3 = "To make this pose, put your hands here... What? You're embarrassed by me touching you? ...I'm blushing? Wh-what nonsense!",
 	lose = "Tsk... Can't you work a bit harder?",
@@ -29964,7 +29964,7 @@ _G.pg.ship_skin_words[303020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303029] = {
+_G.pg.base.ship_skin_words[303029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29998,7 +29998,7 @@ _G.pg.ship_skin_words[303029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303030] = {
+_G.pg.base.ship_skin_words[303030] = {
 	feeling1 = "Maybe I should go conduct some interviews overseas...",
 	feeling3 = "It's been a while since since I've been stationed here, so I've managed to get some good information from everyone. At first they thought you were a shady person, but you seemed to have earned their trust. Good for you!",
 	lose = "I... Aoba... shouldn't be getting upset over this!",
@@ -30067,7 +30067,7 @@ _G.pg.ship_skin_words[303030] = {
 	}
 }
 
-_G.pg.ship_skin_words[303040] = {
+_G.pg.base.ship_skin_words[303040] = {
 	feeling1 = "It's not like I care what you do...",
 	feeling3 = "Don't be too hard on my sister... She actually has a lot of guilt buried in her heart.",
 	lose = "We need to call a meeting and review this performance...",
@@ -30110,7 +30110,7 @@ _G.pg.ship_skin_words[303040] = {
 	}
 }
 
-_G.pg.ship_skin_words[303060] = {
+_G.pg.base.ship_skin_words[303060] = {
 	feeling1 = "I'm sorry. I'm not sure I can deal with someone like you...",
 	feeling3 = "Oh, are you curious about the intel I've gathered? Mm, like how everyone at the port feels about you? Just kidding, of course♪",
 	lose = "It's because I wasn't able to get enough info on them...",
@@ -30181,7 +30181,7 @@ _G.pg.ship_skin_words[303060] = {
 	}
 }
 
-_G.pg.ship_skin_words[303070] = {
+_G.pg.base.ship_skin_words[303070] = {
 	feeling1 = "Stop slacking off, Commander!",
 	feeling3 = "Commander, remember to take breaks as needed. Your efficiency will be worse if you run out of stamina... Lap... pillow? It's fine by me... but will it really help you recover faster?",
 	lose = "It's all because I neglected my daily training... Everyone, I'm sorry...",
@@ -30215,7 +30215,7 @@ _G.pg.ship_skin_words[303070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303080] = {
+_G.pg.base.ship_skin_words[303080] = {
 	feeling1 = "I wasn't talking to you!",
 	feeling3 = "Hard work? Not at all. A genius like me doesn't need to work hard. I get stronger just by breathing.",
 	lose = "Damn it... just what went wrong?",
@@ -30249,7 +30249,7 @@ _G.pg.ship_skin_words[303080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303090] = {
+_G.pg.base.ship_skin_words[303090] = {
 	feeling1 = "Commander, if I am a nuisance to you, please let me know...",
 	feeling3 = "U-um.. I'm not very dexterous, but I'd like you to have this origami crane that I made... though I'm not sure you can really call it a crane. I've always wanted to do something like this...",
 	lose = "I... I can keep fighting!",
@@ -30292,7 +30292,7 @@ _G.pg.ship_skin_words[303090] = {
 	}
 }
 
-_G.pg.ship_skin_words[303091] = {
+_G.pg.base.ship_skin_words[303091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30326,7 +30326,7 @@ _G.pg.ship_skin_words[303091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303092] = {
+_G.pg.base.ship_skin_words[303092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30360,7 +30360,7 @@ _G.pg.ship_skin_words[303092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303110] = {
+_G.pg.base.ship_skin_words[303110] = {
 	feeling1 = "A sword has no eyes. It would be wise to avoid approaching me casually.",
 	feeling3 = "It might be pretty nice to just set aside my duties and have a relaxing conversation with you every once in a while, Commander.",
 	lose = "I was careless... I definitely will not fail next time!",
@@ -30394,7 +30394,7 @@ _G.pg.ship_skin_words[303110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303112] = {
+_G.pg.base.ship_skin_words[303112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30428,7 +30428,7 @@ _G.pg.ship_skin_words[303112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303113] = {
+_G.pg.base.ship_skin_words[303113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30462,7 +30462,7 @@ _G.pg.ship_skin_words[303113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303114] = {
+_G.pg.base.ship_skin_words[303114] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30496,7 +30496,7 @@ _G.pg.ship_skin_words[303114] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303115] = {
+_G.pg.base.ship_skin_words[303115] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30530,7 +30530,7 @@ _G.pg.ship_skin_words[303115] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303118] = {
+_G.pg.base.ship_skin_words[303118] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30564,7 +30564,7 @@ _G.pg.ship_skin_words[303118] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303120] = {
+_G.pg.base.ship_skin_words[303120] = {
 	feeling1 = "You've been naughty, Commander. Do you want to be punished so badly? *giggles*",
 	feeling3 = "Commander, would you like me to clean your ears? Come on, don't be shy. Just leave it to me~",
 	lose = "Oh my... this is a bit troublesome...",
@@ -30598,7 +30598,7 @@ _G.pg.ship_skin_words[303120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303121] = {
+_G.pg.base.ship_skin_words[303121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30632,7 +30632,7 @@ _G.pg.ship_skin_words[303121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303122] = {
+_G.pg.base.ship_skin_words[303122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30666,7 +30666,7 @@ _G.pg.ship_skin_words[303122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303123] = {
+_G.pg.base.ship_skin_words[303123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30700,7 +30700,7 @@ _G.pg.ship_skin_words[303123] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303124] = {
+_G.pg.base.ship_skin_words[303124] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30734,7 +30734,7 @@ _G.pg.ship_skin_words[303124] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303128] = {
+_G.pg.base.ship_skin_words[303128] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30768,7 +30768,7 @@ _G.pg.ship_skin_words[303128] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303130] = {
+_G.pg.base.ship_skin_words[303130] = {
 	feeling1 = "If you get too close to me, I’ll cut you down",
 	feeling3 = "I said don’t talk to me if-... You want to know more about me? Fine... as you wish.",
 	lose = "... It hurts... No, don't mind me.",
@@ -30802,7 +30802,7 @@ _G.pg.ship_skin_words[303130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303140] = {
+_G.pg.base.ship_skin_words[303140] = {
 	feeling1 = "Commander, let's try to do our best?",
 	feeling3 = "Commander, what would you like to have tonight? Um, you'd like me to decide? In that case, would you like vegetable cream stew or pork cutlets?",
 	lose = "I can... still fight! I don't want to lose anyone ever again...!",
@@ -30853,7 +30853,7 @@ _G.pg.ship_skin_words[303140] = {
 	}
 }
 
-_G.pg.ship_skin_words[303141] = {
+_G.pg.base.ship_skin_words[303141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30887,7 +30887,7 @@ _G.pg.ship_skin_words[303141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303170] = {
+_G.pg.base.ship_skin_words[303170] = {
 	feeling1 = "Mogami may often fail to recognize her own worth, but more and more people are starting to see how little you're worth.",
 	feeling3 = "You're... most interested in Suzuya? Of course, I'd be glad to give you the details... but just explaining things wouldn't be enough, right...?",
 	lose = "Ugh... I guess that's it...",
@@ -30940,7 +30940,7 @@ _G.pg.ship_skin_words[303170] = {
 	}
 }
 
-_G.pg.ship_skin_words[303180] = {
+_G.pg.base.ship_skin_words[303180] = {
 	feeling1 = "You're lame, you know that? Not tryin' to be mean, or anything, just saying. Listen, I've got a couple ideas for how to unlamify you.",
 	feeling3 = "Commandeeeer, I'm lonelyyyy. We can do whatever, just hang out with meeee. \"Find someone else?\" Wow, rude much? I wanna hang with you! C'mooon!",
 	lose = "Payback's-a comin', ya hear?!",
@@ -30999,7 +30999,7 @@ _G.pg.ship_skin_words[303180] = {
 	}
 }
 
-_G.pg.ship_skin_words[303181] = {
+_G.pg.base.ship_skin_words[303181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31033,7 +31033,7 @@ _G.pg.ship_skin_words[303181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303182] = {
+_G.pg.base.ship_skin_words[303182] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31067,7 +31067,7 @@ _G.pg.ship_skin_words[303182] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304010] = {
+_G.pg.base.ship_skin_words[304010] = {
 	feeling1 = "You do not deserve victory!",
 	feeling3 = "Will Zuikaku be fine on her own...? Mm... I'll watch her from here. From this distance, she probably won't notice me...",
 	lose = "Please rest at ease. This situation can still be salvaged.",
@@ -31136,7 +31136,7 @@ _G.pg.ship_skin_words[304010] = {
 	}
 }
 
-_G.pg.ship_skin_words[304011] = {
+_G.pg.base.ship_skin_words[304011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31170,7 +31170,7 @@ _G.pg.ship_skin_words[304011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304012] = {
+_G.pg.base.ship_skin_words[304012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31204,7 +31204,7 @@ _G.pg.ship_skin_words[304012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304013] = {
+_G.pg.base.ship_skin_words[304013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31238,7 +31238,7 @@ _G.pg.ship_skin_words[304013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304020] = {
+_G.pg.base.ship_skin_words[304020] = {
 	feeling1 = "What a pity...",
 	feeling3 = "That Kirishima... She's actually quite the popular one...",
 	lose = "Was I bested...?",
@@ -31281,7 +31281,7 @@ _G.pg.ship_skin_words[304020] = {
 	}
 }
 
-_G.pg.ship_skin_words[304021] = {
+_G.pg.base.ship_skin_words[304021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31315,7 +31315,7 @@ _G.pg.ship_skin_words[304021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304022] = {
+_G.pg.base.ship_skin_words[304022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31349,7 +31349,7 @@ _G.pg.ship_skin_words[304022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304023] = {
+_G.pg.base.ship_skin_words[304023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31383,7 +31383,7 @@ _G.pg.ship_skin_words[304023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304030] = {
+_G.pg.base.ship_skin_words[304030] = {
 	feeling1 = "I've lost all hope in you.",
 	feeling3 = "After a tough battle, I feel like eating a whole bucket full of rice.",
 	lose = "Gah... I'm sorry, but... a loss is a loss...",
@@ -31451,7 +31451,7 @@ _G.pg.ship_skin_words[304030] = {
 	}
 }
 
-_G.pg.ship_skin_words[304031] = {
+_G.pg.base.ship_skin_words[304031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31485,7 +31485,7 @@ _G.pg.ship_skin_words[304031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304032] = {
+_G.pg.base.ship_skin_words[304032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31519,7 +31519,7 @@ _G.pg.ship_skin_words[304032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304033] = {
+_G.pg.base.ship_skin_words[304033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31553,7 +31553,7 @@ _G.pg.ship_skin_words[304033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304040] = {
+_G.pg.base.ship_skin_words[304040] = {
 	feeling1 = "Well, guess even you have problems you won't tell others about...",
 	feeling3 = "Haruna and I are twins, but to me she feels more like an annoying little sister.",
 	lose = "Being able to meet one's demise in a battle of firepower might not be so unfortunate...",
@@ -31620,7 +31620,7 @@ _G.pg.ship_skin_words[304040] = {
 	}
 }
 
-_G.pg.ship_skin_words[304041] = {
+_G.pg.base.ship_skin_words[304041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31654,7 +31654,7 @@ _G.pg.ship_skin_words[304041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304042] = {
+_G.pg.base.ship_skin_words[304042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31688,7 +31688,7 @@ _G.pg.ship_skin_words[304042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304043] = {
+_G.pg.base.ship_skin_words[304043] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31722,7 +31722,7 @@ _G.pg.ship_skin_words[304043] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304044] = {
+_G.pg.base.ship_skin_words[304044] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31756,7 +31756,7 @@ _G.pg.ship_skin_words[304044] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304050] = {
+_G.pg.base.ship_skin_words[304050] = {
 	feeling1 = "Swineherds like you are quite hard to find these days.",
 	feeling3 = "Superior tactics can only make up for differences in strength to a limited extent... *cough* *cough* ...That is why becoming stronger is still of paramount importance, Commander.",
 	lose = "Did I... make a miscalculation...?",
@@ -31807,7 +31807,7 @@ _G.pg.ship_skin_words[304050] = {
 	}
 }
 
-_G.pg.ship_skin_words[304051] = {
+_G.pg.base.ship_skin_words[304051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "*cough* *cough*... I wonder if I am coming down with a cold...",
@@ -31841,7 +31841,7 @@ _G.pg.ship_skin_words[304051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304060] = {
+_G.pg.base.ship_skin_words[304060] = {
 	feeling1 = "Kongou! I- I never want to see this Commander again in my life!",
 	feeling3 = "Hrm... that's not right... Um.... Umm.... Commander? Can you help me with the parts I don't understand?",
 	lose = "....urk.... 'tis- 'tis but a trifle! A single defeat! Doesn't bother me at all...",
@@ -31908,7 +31908,7 @@ _G.pg.ship_skin_words[304060] = {
 	}
 }
 
-_G.pg.ship_skin_words[304070] = {
+_G.pg.base.ship_skin_words[304070] = {
 	feeling1 = "Commander, are you going insane because of my recent poor health...?",
 	feeling3 = "You want to see me grow up healthy and strong? Umm... I understand the importance of this as your subordinate and ship, but... should I be doing anything special?",
 	lose = "*cough* *cough*... I can't show something so unsightly to Akagi and the others...",
@@ -31962,7 +31962,7 @@ _G.pg.ship_skin_words[304070] = {
 	}
 }
 
-_G.pg.ship_skin_words[305010] = {
+_G.pg.base.ship_skin_words[305010] = {
 	feeling1 = "Milord, might you be the reincarnation of a god of calamity?",
 	feeling3 = "Milord, you seem exhausted as of late. Too much work is bad for your health. Please come with me, and allow me to purify you of your fatigue.",
 	lose = "Oh no... has my ammunition storage been cursed again?",
@@ -31996,7 +31996,7 @@ _G.pg.ship_skin_words[305010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305011] = {
+_G.pg.base.ship_skin_words[305011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32030,7 +32030,7 @@ _G.pg.ship_skin_words[305011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305012] = {
+_G.pg.base.ship_skin_words[305012] = {
 	feeling1 = "Milord, have you grown tired of me...?",
 	feeling3 = "",
 	lose = "",
@@ -32064,7 +32064,7 @@ _G.pg.ship_skin_words[305012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305019] = {
+_G.pg.base.ship_skin_words[305019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Oh... no, we can’t blame all failures on our curse.",
@@ -32098,7 +32098,7 @@ _G.pg.ship_skin_words[305019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305020] = {
+_G.pg.base.ship_skin_words[305020] = {
 	feeling1 = "You're so boring, Milord. I don't want to play with you anymore.",
 	feeling3 = "I love my sister, but she's a bit too quiet sometimes. Milord, I like spending time with you more because you'll play with me!",
 	lose = "Uu... Sister... where are you? *sobs*",
@@ -32132,7 +32132,7 @@ _G.pg.ship_skin_words[305020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305021] = {
+_G.pg.base.ship_skin_words[305021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32166,7 +32166,7 @@ _G.pg.ship_skin_words[305021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305022] = {
+_G.pg.base.ship_skin_words[305022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32200,7 +32200,7 @@ _G.pg.ship_skin_words[305022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305023] = {
+_G.pg.base.ship_skin_words[305023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32234,7 +32234,7 @@ _G.pg.ship_skin_words[305023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305024] = {
+_G.pg.base.ship_skin_words[305024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32268,7 +32268,7 @@ _G.pg.ship_skin_words[305024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305025] = {
+_G.pg.base.ship_skin_words[305025] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32302,7 +32302,7 @@ _G.pg.ship_skin_words[305025] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305026] = {
+_G.pg.base.ship_skin_words[305026] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32336,7 +32336,7 @@ _G.pg.ship_skin_words[305026] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305028] = {
+_G.pg.base.ship_skin_words[305028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32370,7 +32370,7 @@ _G.pg.ship_skin_words[305028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305029] = {
+_G.pg.base.ship_skin_words[305029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32404,7 +32404,7 @@ _G.pg.ship_skin_words[305029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305030] = {
+_G.pg.base.ship_skin_words[305030] = {
 	feeling1 = "Are you from the Army?",
 	feeling3 = "Compared to that time, life is a lot more vivid and entertaining now. Cheers, Commander!",
 	lose = "One... final... bombardment!",
@@ -32438,7 +32438,7 @@ _G.pg.ship_skin_words[305030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305039] = {
+_G.pg.base.ship_skin_words[305039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32472,7 +32472,7 @@ _G.pg.ship_skin_words[305039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305040] = {
+_G.pg.base.ship_skin_words[305040] = {
 	feeling1 = "My sword has no eyes, Commander. Watch yourself.",
 	feeling3 = "Ehehe... Commander, you look so cute after a few drinks~",
 	lose = "{namecode:76}... Sister...",
@@ -32506,7 +32506,7 @@ _G.pg.ship_skin_words[305040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305049] = {
+_G.pg.base.ship_skin_words[305049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32540,7 +32540,7 @@ _G.pg.ship_skin_words[305049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305050] = {
+_G.pg.base.ship_skin_words[305050] = {
 	feeling1 = "Your wish... is to repeat the errors of the past once more? Very well... I see...",
 	feeling3 = "I should spend more time with the others? Even if I tried to do that, I would not know how to behave, and they would be afraid of me all the same... Hey, what are you doing... why are you taking off my riggings?!",
 	lose = "Ugh... I have failed once again...",
@@ -32645,7 +32645,7 @@ _G.pg.ship_skin_words[305050] = {
 	}
 }
 
-_G.pg.ship_skin_words[305051] = {
+_G.pg.base.ship_skin_words[305051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32679,7 +32679,7 @@ _G.pg.ship_skin_words[305051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305052] = {
+_G.pg.base.ship_skin_words[305052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32713,7 +32713,7 @@ _G.pg.ship_skin_words[305052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305053] = {
+_G.pg.base.ship_skin_words[305053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32747,7 +32747,7 @@ _G.pg.ship_skin_words[305053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305058] = {
+_G.pg.base.ship_skin_words[305058] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32781,7 +32781,7 @@ _G.pg.ship_skin_words[305058] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305060] = {
+_G.pg.base.ship_skin_words[305060] = {
 	feeling1 = "Commander... Just, why?",
 	feeling3 = "I know some things you're happier if you don't know about, but... I still want to know! Besides, aren't there lots of things you're happier if you do know about them?",
 	lose = "Commander, it feels like my third turret's gonna...",
@@ -32824,7 +32824,7 @@ _G.pg.ship_skin_words[305060] = {
 	}
 }
 
-_G.pg.ship_skin_words[305061] = {
+_G.pg.base.ship_skin_words[305061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32858,7 +32858,7 @@ _G.pg.ship_skin_words[305061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305070] = {
+_G.pg.base.ship_skin_words[305070] = {
 	feeling1 = "You aren't one of the strong that I seek.",
 	feeling3 = "Why do I wish to become stronger? Does that really require a reason? If I had to choose... it would be to defeat Amagi.",
 	lose = "Kuh! I'll remember your face...",
@@ -32901,7 +32901,7 @@ _G.pg.ship_skin_words[305070] = {
 	}
 }
 
-_G.pg.ship_skin_words[305080] = {
+_G.pg.base.ship_skin_words[305080] = {
 	feeling1 = "Weaklings belong behind the shorelines. I have no business with someone who cannot handle even a tidal wave.",
 	feeling3 = "You are an odd one, remaining unfazed in the presence of the Sakura Empire's ships. Still, I do enjoy exchanging stories with you. What have you in store for me today?",
 	lose = "Gah, so even I overestimate my abilities at times...",
@@ -32952,7 +32952,7 @@ _G.pg.ship_skin_words[305080] = {
 	}
 }
 
-_G.pg.ship_skin_words[305081] = {
+_G.pg.base.ship_skin_words[305081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32986,7 +32986,7 @@ _G.pg.ship_skin_words[305081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305110] = {
+_G.pg.base.ship_skin_words[305110] = {
 	feeling1 = "You Showa-born brat!",
 	feeling3 = "If you don't have a plan to end a war, then you'd better not start one to begin with!",
 	lose = "So this what it must have felt like to suffer through the Battle of Dan-no-ura...",
@@ -33053,7 +33053,7 @@ _G.pg.ship_skin_words[305110] = {
 	}
 }
 
-_G.pg.ship_skin_words[305111] = {
+_G.pg.base.ship_skin_words[305111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33087,7 +33087,7 @@ _G.pg.ship_skin_words[305111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305112] = {
+_G.pg.base.ship_skin_words[305112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33121,7 +33121,7 @@ _G.pg.ship_skin_words[305112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305113] = {
+_G.pg.base.ship_skin_words[305113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33155,7 +33155,7 @@ _G.pg.ship_skin_words[305113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305118] = {
+_G.pg.base.ship_skin_words[305118] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Are you telling me it's impossible, even with the Commander at my back...?",
@@ -33189,7 +33189,7 @@ _G.pg.ship_skin_words[305118] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305120] = {
+_G.pg.base.ship_skin_words[305120] = {
 	feeling1 = "I'm so tired of bosses that can't handle their subordinates, like you.",
 	feeling3 = "Thought as much. I'll help you with your training, then! Come on, out of your room and into the fresh outdoors for some jogging! And later, we'll do some sparring!",
 	lose = "Dammit... Not enough firepower for the job, huh?",
@@ -33249,7 +33249,7 @@ _G.pg.ship_skin_words[305120] = {
 	}
 }
 
-_G.pg.ship_skin_words[305121] = {
+_G.pg.base.ship_skin_words[305121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33283,7 +33283,7 @@ _G.pg.ship_skin_words[305121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305140] = {
+_G.pg.base.ship_skin_words[305140] = {
 	feeling1 = "*Sigh*... I set myself up for disappointment by expecting any decent treatment... Can I at least ask you to not go too hard on me?",
 	feeling3 = "P-please! Offer your concern to other girls instead of me! You really don't need to constantly check how I'm doing just because I'm serving as your secretary!",
 	lose = "Whatever, it's done and over now... Look, I don't want everyone to see this!",
@@ -33358,7 +33358,7 @@ _G.pg.ship_skin_words[305140] = {
 	}
 }
 
-_G.pg.ship_skin_words[305141] = {
+_G.pg.base.ship_skin_words[305141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33392,7 +33392,7 @@ _G.pg.ship_skin_words[305141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305142] = {
+_G.pg.base.ship_skin_words[305142] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33426,7 +33426,7 @@ _G.pg.ship_skin_words[305142] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305143] = {
+_G.pg.base.ship_skin_words[305143] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33460,7 +33460,7 @@ _G.pg.ship_skin_words[305143] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306010] = {
+_G.pg.base.ship_skin_words[306010] = {
 	feeling1 = "So filthy... What? I'm not talking about you...",
 	feeling3 = "My eyepatch? Kinda just started wearing it on a whim. Plenty of people out there who dress like pirates, you know?",
 	lose = "It's pretty hard to ignore the damage done to my planes...",
@@ -33494,7 +33494,7 @@ _G.pg.ship_skin_words[306010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306020] = {
+_G.pg.base.ship_skin_words[306020] = {
 	feeling1 = "Commander, don't tell me you want to break up?!",
 	feeling3 = "I know all your favorite things, Commander.",
 	lose = "We lost? What are you saying, Commander? Don't you know Junyou ❀always❀ wins?",
@@ -33528,7 +33528,7 @@ _G.pg.ship_skin_words[306020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306030] = {
+_G.pg.base.ship_skin_words[306030] = {
 	feeling1 = "Is something the matter, Commander?",
 	feeling3 = "I look a bit like a courtesan? Hehe~ Well then, mister, it seems like tonight shall be our one and only night together. Let us feel the warmth of our embrace, then let the memories fade to nothing. How does that sound?",
 	lose = "I'm so sorry, Commander...",
@@ -33562,7 +33562,7 @@ _G.pg.ship_skin_words[306030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306031] = {
+_G.pg.base.ship_skin_words[306031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33596,7 +33596,7 @@ _G.pg.ship_skin_words[306031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306050] = {
+_G.pg.base.ship_skin_words[306050] = {
 	feeling1 = "Commander treats me like a li'l kid too... Yer makin' me sad...",
 	feeling3 = "I have no regrets 'bout what happened at the Coral Sea. I read we oughta accept our failures, else we won't learn from our mistakes! Eh? You think I'm amazin'?",
 	lose = "How could I lose to those guys?",
@@ -33630,7 +33630,7 @@ _G.pg.ship_skin_words[306050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306051] = {
+_G.pg.base.ship_skin_words[306051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33664,7 +33664,7 @@ _G.pg.ship_skin_words[306051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306059] = {
+_G.pg.base.ship_skin_words[306059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33698,7 +33698,7 @@ _G.pg.ship_skin_words[306059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306060] = {
+_G.pg.base.ship_skin_words[306060] = {
 	feeling1 = "No matter where you are, the top brass is all the same...",
 	feeling3 = "Commander, feel free to rely on me as you please. Should you will it, I will execute any command.",
 	lose = "Ugh... my body is all beat up...",
@@ -33732,7 +33732,7 @@ _G.pg.ship_skin_words[306060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306061] = {
+_G.pg.base.ship_skin_words[306061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33766,7 +33766,7 @@ _G.pg.ship_skin_words[306061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306062] = {
+_G.pg.base.ship_skin_words[306062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33800,7 +33800,7 @@ _G.pg.ship_skin_words[306062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306070] = {
+_G.pg.base.ship_skin_words[306070] = {
 	feeling1 = "Commander, for some reason, you seem really unapproachable...",
 	feeling3 = "Commander, are you interested in things like commendations or admonishments? ...N-No, it's nothing. I was just curious...",
 	lose = "I-I shall let you win just this once!",
@@ -33867,7 +33867,7 @@ _G.pg.ship_skin_words[306070] = {
 	}
 }
 
-_G.pg.ship_skin_words[306071] = {
+_G.pg.base.ship_skin_words[306071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33901,7 +33901,7 @@ _G.pg.ship_skin_words[306071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306080] = {
+_G.pg.base.ship_skin_words[306080] = {
 	feeling1 = "Commander. Get away from Chiyoda. As far as you possibly can.",
 	feeling3 = "I don't dislike having to pamper Chiyoda... If anything, I might actually find it quite endearing...",
 	lose = "We're pulling back. Chiyoda, please be safe...",
@@ -33960,7 +33960,7 @@ _G.pg.ship_skin_words[306080] = {
 	}
 }
 
-_G.pg.ship_skin_words[306081] = {
+_G.pg.base.ship_skin_words[306081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33994,7 +33994,7 @@ _G.pg.ship_skin_words[306081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306090] = {
+_G.pg.base.ship_skin_words[306090] = {
 	feeling1 = "Commander. Get away from Chitose. As far as you possibly can.",
 	feeling3 = "Commander, don't you want to try touching Chitose's hair too? Even though she prefers to keep her distance from others, if you ask, she absolutely won't be able to turn you down.",
 	lose = "Ugh... I want to bury my face in Chitose's jugs...",
@@ -34037,7 +34037,7 @@ _G.pg.ship_skin_words[306090] = {
 	}
 }
 
-_G.pg.ship_skin_words[306091] = {
+_G.pg.base.ship_skin_words[306091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34071,7 +34071,7 @@ _G.pg.ship_skin_words[306091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307010] = {
+_G.pg.base.ship_skin_words[307010] = {
 	feeling1 = "If Commander was cut up into little pieces, he would never be able to leave Akagi’s side or break her heart ever again... Ahahaha!",
 	feeling3 = "You belong to me, and me only, Commander! That's something you should never forget, even if you are in charge of an entire fleet... Or else...",
 	lose = "This wound is nothing compared to the thought of you abandoning me, Commander!",
@@ -34146,7 +34146,7 @@ _G.pg.ship_skin_words[307010] = {
 	}
 }
 
-_G.pg.ship_skin_words[307011] = {
+_G.pg.base.ship_skin_words[307011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34180,7 +34180,7 @@ _G.pg.ship_skin_words[307011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307012] = {
+_G.pg.base.ship_skin_words[307012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34214,7 +34214,7 @@ _G.pg.ship_skin_words[307012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307013] = {
+_G.pg.base.ship_skin_words[307013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "At least... protect my friends and compatriots...!",
@@ -34248,7 +34248,7 @@ _G.pg.ship_skin_words[307013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307014] = {
+_G.pg.base.ship_skin_words[307014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34282,7 +34282,7 @@ _G.pg.ship_skin_words[307014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307018] = {
+_G.pg.base.ship_skin_words[307018] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34316,7 +34316,7 @@ _G.pg.ship_skin_words[307018] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307020] = {
+_G.pg.base.ship_skin_words[307020] = {
 	feeling1 = "It seems like you're not the hero I was looking for...",
 	feeling3 = "Should you be defeated one day, it simply means that you were too weak. That much is a fact of nature. Though... because you are mine, I would at least avenge you.",
 	lose = "This pain... I shall return it tenfold!",
@@ -34382,7 +34382,7 @@ _G.pg.ship_skin_words[307020] = {
 	}
 }
 
-_G.pg.ship_skin_words[307021] = {
+_G.pg.base.ship_skin_words[307021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34416,7 +34416,7 @@ _G.pg.ship_skin_words[307021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307022] = {
+_G.pg.base.ship_skin_words[307022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34450,7 +34450,7 @@ _G.pg.ship_skin_words[307022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307023] = {
+_G.pg.base.ship_skin_words[307023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34484,7 +34484,7 @@ _G.pg.ship_skin_words[307023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307024] = {
+_G.pg.base.ship_skin_words[307024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34518,7 +34518,7 @@ _G.pg.ship_skin_words[307024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307025] = {
+_G.pg.base.ship_skin_words[307025] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34552,7 +34552,7 @@ _G.pg.ship_skin_words[307025] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307028] = {
+_G.pg.base.ship_skin_words[307028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34586,7 +34586,7 @@ _G.pg.ship_skin_words[307028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307030] = {
+_G.pg.base.ship_skin_words[307030] = {
 	feeling1 = "Please do your work.",
 	feeling3 = "My past? There isn't much worth mentioning, but if you're interested, I can tell you while we play...",
 	lose = "Impatience is unbecoming. We must reflect on our mistakes upon returning.",
@@ -34637,7 +34637,7 @@ _G.pg.ship_skin_words[307030] = {
 	}
 }
 
-_G.pg.ship_skin_words[307031] = {
+_G.pg.base.ship_skin_words[307031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34671,7 +34671,7 @@ _G.pg.ship_skin_words[307031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307032] = {
+_G.pg.base.ship_skin_words[307032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34705,7 +34705,7 @@ _G.pg.ship_skin_words[307032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307039] = {
+_G.pg.base.ship_skin_words[307039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34739,7 +34739,7 @@ _G.pg.ship_skin_words[307039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307040] = {
+_G.pg.base.ship_skin_words[307040] = {
 	feeling1 = "Haa! (Her fist stops next to your face) Stay away from me.",
 	feeling3 = "About acting more feminine... do you think Souryuu is more attractive because of her cold demeanor? Oh, and her ankles are amazing. It would be great if I could become like her.",
 	lose = "Win some, lose some. It's only normal.",
@@ -34790,7 +34790,7 @@ _G.pg.ship_skin_words[307040] = {
 	}
 }
 
-_G.pg.ship_skin_words[307041] = {
+_G.pg.base.ship_skin_words[307041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34824,7 +34824,7 @@ _G.pg.ship_skin_words[307041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307049] = {
+_G.pg.base.ship_skin_words[307049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34858,7 +34858,7 @@ _G.pg.ship_skin_words[307049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307050] = {
+_G.pg.base.ship_skin_words[307050] = {
 	feeling1 = "I think I just saw a future in which you were cut down by {namecode:91}, Commander.",
 	feeling3 = "Do I hold a grudge against the First and Second Carrier Divisions? Of course~ For them to leave us behind like that, wouldn’t anyone complain in that situation?",
 	lose = "Hiryuu-senpai may be willing to fight until the bitter end, but... that’s not my style. What a shame~",
@@ -34933,7 +34933,7 @@ _G.pg.ship_skin_words[307050] = {
 	}
 }
 
-_G.pg.ship_skin_words[307051] = {
+_G.pg.base.ship_skin_words[307051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "The flowers scatter in the wind...",
@@ -34967,7 +34967,7 @@ _G.pg.ship_skin_words[307051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307052] = {
+_G.pg.base.ship_skin_words[307052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35001,7 +35001,7 @@ _G.pg.ship_skin_words[307052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307060] = {
+_G.pg.base.ship_skin_words[307060] = {
 	feeling1 = "Commander, would you like a taste of the anguish I experienced during the Battle of the Marianas?",
 	feeling3 = "My fate always seems to be entertwined with Lexington’s... Ah~ Commander, please don’t tell Sara I said that. I can’t handle that girl.",
 	lose = "Am I going to be sunk... again...?",
@@ -35076,7 +35076,7 @@ _G.pg.ship_skin_words[307060] = {
 	}
 }
 
-_G.pg.ship_skin_words[307061] = {
+_G.pg.base.ship_skin_words[307061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35110,7 +35110,7 @@ _G.pg.ship_skin_words[307061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307062] = {
+_G.pg.base.ship_skin_words[307062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35144,7 +35144,7 @@ _G.pg.ship_skin_words[307062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307070] = {
+_G.pg.base.ship_skin_words[307070] = {
 	feeling1 = "Those insects... Just a second, my Commander, I need to do something about these impudent little insects...",
 	feeling3 = "... That gift she gave you? Oh, I threw that out. Why wouldn't I? Only my things belong on your desk~",
 	lose = "Why aren't you dead... why won't you all just DIE?!",
@@ -35178,7 +35178,7 @@ _G.pg.ship_skin_words[307070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307071] = {
+_G.pg.base.ship_skin_words[307071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35212,7 +35212,7 @@ _G.pg.ship_skin_words[307071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307072] = {
+_G.pg.base.ship_skin_words[307072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35246,7 +35246,7 @@ _G.pg.ship_skin_words[307072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307073] = {
+_G.pg.base.ship_skin_words[307073] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35292,7 +35292,7 @@ _G.pg.ship_skin_words[307073] = {
 	}
 }
 
-_G.pg.ship_skin_words[307078] = {
+_G.pg.base.ship_skin_words[307078] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "My Commander, please do not leave my side...!!",
@@ -35326,7 +35326,7 @@ _G.pg.ship_skin_words[307078] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307080] = {
+_G.pg.base.ship_skin_words[307080] = {
 	feeling1 = "From here, this one sees not any light...",
 	feeling3 = "To see destiny, yet to be unable to change it; or to be ignorant to the turning of fate... Which is the greater misfortune?",
 	lose = "Apologies... I have failed to meet your expectations...",
@@ -35360,7 +35360,7 @@ _G.pg.ship_skin_words[307080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307081] = {
+_G.pg.base.ship_skin_words[307081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35394,7 +35394,7 @@ _G.pg.ship_skin_words[307081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307090] = {
+_G.pg.base.ship_skin_words[307090] = {
 	feeling1 = "It seems I've been too lenient with you...",
 	feeling3 = "You're rather popular for a mere slave, aren't you? Hrrmm... what's this anxious feeling I have...?",
 	lose = "Hmph... You better not misunderstand, slave! I let them win!",
@@ -35428,7 +35428,7 @@ _G.pg.ship_skin_words[307090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307100] = {
+_G.pg.base.ship_skin_words[307100] = {
 	feeling1 = "My Commander's apologetic screams are truly music to my ears... hehehe.",
 	feeling3 = "Commander, if you wish it, I would perform forever for your eyes alone~ Indeed, this stage would belong only to my Commander for the rest of time♡",
 	lose = "Gah... that was close. I can't let the Commander see me like this...",
@@ -35474,7 +35474,7 @@ _G.pg.ship_skin_words[307100] = {
 	}
 }
 
-_G.pg.ship_skin_words[307110] = {
+_G.pg.base.ship_skin_words[307110] = {
 	feeling1 = "Are you telling me I can't be an idol...?!",
 	feeling3 = "Commander♡ My shoulders are sore from all my training~ Could you take me back to my room...? Actually, I think I'd rather rest in your room for a while, my Commander.",
 	lose = "Grrgh, miserable insects...!",
@@ -35517,7 +35517,7 @@ _G.pg.ship_skin_words[307110] = {
 	}
 }
 
-_G.pg.ship_skin_words[307120] = {
+_G.pg.base.ship_skin_words[307120] = {
 	feeling1 = "This simply won't do, Commander... I had no idea that the esteemed leader, the shining beacon of the fleet... would be such a decadent individual!",
 	feeling3 = "Oh, Commander, what are you trying to do? Checking on that packed warehouse? Or just heading out for a stroll? Ah! Don't tell me... you're going on date with someone?! ...Hey, are you listening to me?",
 	lose = "We lost?! Even though I did everything I could?! Ugh... How could things have gone so wrong??",
@@ -35568,7 +35568,7 @@ _G.pg.ship_skin_words[307120] = {
 	}
 }
 
-_G.pg.ship_skin_words[307121] = {
+_G.pg.base.ship_skin_words[307121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35602,7 +35602,7 @@ _G.pg.ship_skin_words[307121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308010] = {
+_G.pg.base.ship_skin_words[308010] = {
 	feeling1 = "It's all because I'm not trying hard enough, isn't it...",
 	feeling3 = "Would you like... a massage? A shoulder rub? Or maybe you want to use my thighs as a pillow? Hehehe~",
 	lose = "Oww, it hurts... I wanna go back to the Commander...",
@@ -35654,7 +35654,7 @@ _G.pg.ship_skin_words[308010] = {
 	}
 }
 
-_G.pg.ship_skin_words[308011] = {
+_G.pg.base.ship_skin_words[308011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35688,7 +35688,7 @@ _G.pg.ship_skin_words[308011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308012] = {
+_G.pg.base.ship_skin_words[308012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35722,7 +35722,7 @@ _G.pg.ship_skin_words[308012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308013] = {
+_G.pg.base.ship_skin_words[308013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35756,7 +35756,7 @@ _G.pg.ship_skin_words[308013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308020] = {
+_G.pg.base.ship_skin_words[308020] = {
 	feeling1 = "Commander? Never mind, must've been the wind. Hahaha!",
 	feeling3 = "Commander, wanna see which of us can hold their breath longest? The winner gets a massage from the loser! How's that sound?",
 	lose = "Oh, shoot... I messed up...",
@@ -35807,7 +35807,7 @@ _G.pg.ship_skin_words[308020] = {
 	}
 }
 
-_G.pg.ship_skin_words[308021] = {
+_G.pg.base.ship_skin_words[308021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35841,7 +35841,7 @@ _G.pg.ship_skin_words[308021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308022] = {
+_G.pg.base.ship_skin_words[308022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35875,7 +35875,7 @@ _G.pg.ship_skin_words[308022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308030] = {
+_G.pg.base.ship_skin_words[308030] = {
 	feeling1 = "Does this fleet exist only to wage war...?",
 	feeling3 = "\"A journey of a thousand miles begins with a single step?\" Hmm... I suppose I can start by saying hello to her...",
 	lose = "I've been found, huh... Next time, I've got to be sneakier...",
@@ -35909,7 +35909,7 @@ _G.pg.ship_skin_words[308030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308040] = {
+_G.pg.base.ship_skin_words[308040] = {
 	feeling1 = "Though I am very sorry that it has come to this, I must once again remind you that your poor work ethic has already affected the fleet.",
 	feeling3 = "...Is Commander really not coming today..? I'm going to die of loneliness... ... C-Commander?! Did you hear me just now??",
 	lose = "Is everyone safe?",
@@ -35952,7 +35952,7 @@ _G.pg.ship_skin_words[308040] = {
 	}
 }
 
-_G.pg.ship_skin_words[308041] = {
+_G.pg.base.ship_skin_words[308041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35986,7 +35986,7 @@ _G.pg.ship_skin_words[308041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308042] = {
+_G.pg.base.ship_skin_words[308042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36020,7 +36020,7 @@ _G.pg.ship_skin_words[308042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308050] = {
+_G.pg.base.ship_skin_words[308050] = {
 	feeling1 = "Leave... Leave me alone...",
 	feeling3 = "Everyone in the fleet gets along so well... Ehe... hehehe... Um, it's nothing... l-leave me alone...",
 	lose = "Time to slink away quietly...",
@@ -36063,7 +36063,7 @@ _G.pg.ship_skin_words[308050] = {
 	}
 }
 
-_G.pg.ship_skin_words[308051] = {
+_G.pg.base.ship_skin_words[308051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36097,7 +36097,7 @@ _G.pg.ship_skin_words[308051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308060] = {
+_G.pg.base.ship_skin_words[308060] = {
 	feeling1 = "I hate scum like you. Don't come near me ever again.",
 	feeling3 = "Tooru! I told you to quit tickling me with your Type A! ... Wait a sec, you're not Tooru!",
 	lose = "(Blub blub blub...)",
@@ -36140,7 +36140,7 @@ _G.pg.ship_skin_words[308060] = {
 	}
 }
 
-_G.pg.ship_skin_words[308061] = {
+_G.pg.base.ship_skin_words[308061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36174,7 +36174,7 @@ _G.pg.ship_skin_words[308061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312010] = {
+_G.pg.base.ship_skin_words[312010] = {
 	feeling1 = "Nya?! ({namecode:98}, completely frightened, escapes and observes you from behind a wall)",
 	feeling3 = "Commander... {namecode:98} is sleepy... ({namecode:98} ignores your reaction, curls up on your lap, and falls asleep)",
 	lose = "Nyooo~! Just wait until next time!",
@@ -36208,7 +36208,7 @@ _G.pg.ship_skin_words[312010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312011] = {
+_G.pg.base.ship_skin_words[312011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36242,7 +36242,7 @@ _G.pg.ship_skin_words[312011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312012] = {
+_G.pg.base.ship_skin_words[312012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36276,7 +36276,7 @@ _G.pg.ship_skin_words[312012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312013] = {
+_G.pg.base.ship_skin_words[312013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36310,7 +36310,7 @@ _G.pg.ship_skin_words[312013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312014] = {
+_G.pg.base.ship_skin_words[312014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36344,7 +36344,7 @@ _G.pg.ship_skin_words[312014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312018] = {
+_G.pg.base.ship_skin_words[312018] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36378,7 +36378,7 @@ _G.pg.ship_skin_words[312018] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[317010] = {
+_G.pg.base.ship_skin_words[317010] = {
 	feeling1 = "You just don't understand me either, do you, Commander?",
 	feeling3 = "You think I'm weird, do you? Heheh, maybe I am... Just remember: there are only so many things a regular submarine can do. That's something I learned during my short time in service.",
 	lose = "It's not good enough to be an ordinary submarine...",
@@ -36412,7 +36412,7 @@ _G.pg.ship_skin_words[317010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[319010] = {
+_G.pg.base.ship_skin_words[319010] = {
 	feeling1 = "I can bring you all the supplies in the world, but you don't seem to be capable of using them well...",
 	feeling3 = "I often play with the little destroyers. Like this... I put one on each shoulder and pretend like I'm some giant monster or robot... Yes, it's quite fun~♪",
 	lose = "Ugh... It's hard for me to keep up with the actual warships...",
@@ -36455,7 +36455,7 @@ _G.pg.ship_skin_words[319010] = {
 	}
 }
 
-_G.pg.ship_skin_words[319011] = {
+_G.pg.base.ship_skin_words[319011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Oww... My luck isn't so good today...",
@@ -36489,7 +36489,7 @@ _G.pg.ship_skin_words[319011] = {
 	detail = "If there's anything lacking about these hot springs, it's the fact that this place is too small... If you're not careful, it's easy to slip or to bump into various things..."
 }
 
-_G.pg.ship_skin_words[331050] = {
+_G.pg.base.ship_skin_words[331050] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36523,7 +36523,7 @@ _G.pg.ship_skin_words[331050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[331051] = {
+_G.pg.base.ship_skin_words[331051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I can't... let it end like this...!",
@@ -36557,7 +36557,7 @@ _G.pg.ship_skin_words[331051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[331052] = {
+_G.pg.base.ship_skin_words[331052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36591,7 +36591,7 @@ _G.pg.ship_skin_words[331052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[331053] = {
+_G.pg.base.ship_skin_words[331053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "This doesn't seem to work in IRL battles...",
@@ -36625,7 +36625,7 @@ _G.pg.ship_skin_words[331053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401010] = {
+_G.pg.base.ship_skin_words[401010] = {
 	feeling1 = "How disappointing, Commander. You’re no fun at all.",
 	feeling3 = "Life is short, Commander, and I want to live life on the edge. If you are going to be my partner, you have to keep up. Now, let’s see that smile!",
 	lose = "Not bad, fellas...",
@@ -36676,7 +36676,7 @@ _G.pg.ship_skin_words[401010] = {
 	}
 }
 
-_G.pg.ship_skin_words[401011] = {
+_G.pg.base.ship_skin_words[401011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36710,7 +36710,7 @@ _G.pg.ship_skin_words[401011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401019] = {
+_G.pg.base.ship_skin_words[401019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36744,7 +36744,7 @@ _G.pg.ship_skin_words[401019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401020] = {
+_G.pg.base.ship_skin_words[401020] = {
 	feeling1 = "I don't mind being near you, but I'm afraid that Lebe does.",
 	feeling3 = "You want to make small talk again? Why? You should know that the only answers I ever offer are nods and affirmations. Could it be that you actually like canned responses like that?",
 	lose = "I'll cover everyone. I'm quite good at these things, owing to Lebe's help. You may rest easy.",
@@ -36800,7 +36800,7 @@ _G.pg.ship_skin_words[401020] = {
 	}
 }
 
-_G.pg.ship_skin_words[401021] = {
+_G.pg.base.ship_skin_words[401021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36834,7 +36834,7 @@ _G.pg.ship_skin_words[401021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401022] = {
+_G.pg.base.ship_skin_words[401022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36868,7 +36868,7 @@ _G.pg.ship_skin_words[401022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401180] = {
+_G.pg.base.ship_skin_words[401180] = {
 	feeling1 = "It doesn't look like my smile will reach your heart, Commander...",
 	feeling3 = "A smile is always good, but when cruelty makes someone smile... it's kind of creepy...",
 	lose = "I'll always smile, even when defeated~!",
@@ -36902,7 +36902,7 @@ _G.pg.ship_skin_words[401180] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401190] = {
+_G.pg.base.ship_skin_words[401190] = {
 	feeling1 = "Zero points for you, Commander!",
 	feeling3 = "Commander, if I get MVP in the next battle, would you take me to a water park on your next day off?",
 	lose = "Ugh... Mission... failed. Commander, I'm terribly sorry.",
@@ -36936,7 +36936,7 @@ _G.pg.ship_skin_words[401190] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401200] = {
+_G.pg.base.ship_skin_words[401200] = {
 	feeling1 = "The moment I saw you, all the fatigue from running kicked in at once. I'm out, time to rest!",
 	feeling3 = "What's wrong? Something bugging you? I promise you'll feel better if we go run a marathon together!",
 	lose = "Oof... even I mess up sometimes... just sometimes~",
@@ -36970,7 +36970,7 @@ _G.pg.ship_skin_words[401200] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401210] = {
+_G.pg.base.ship_skin_words[401210] = {
 	feeling1 = "I'm having a bad day... Just stay away from me!",
 	feeling3 = "What kind of stuff do I like? Why should I tell you? Well, I guess those macaroons we had yesterday were pretty good.",
 	lose = "Ugh... I... I'll remember this!",
@@ -37004,7 +37004,7 @@ _G.pg.ship_skin_words[401210] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401230] = {
+_G.pg.base.ship_skin_words[401230] = {
 	feeling1 = "Commander, can you not bother me when I’m trying to study?",
 	feeling3 = "You’re a bit tired? Very well, getting rest is important. You want a lap pillow? I guess it’s fine... just for a little while...",
 	lose = "*sobs* ... No, I mustn’t cry...",
@@ -37047,7 +37047,7 @@ _G.pg.ship_skin_words[401230] = {
 	}
 }
 
-_G.pg.ship_skin_words[401231] = {
+_G.pg.base.ship_skin_words[401231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37081,7 +37081,7 @@ _G.pg.ship_skin_words[401231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401232] = {
+_G.pg.base.ship_skin_words[401232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Darn... I need more practice...",
@@ -37115,7 +37115,7 @@ _G.pg.ship_skin_words[401232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401233] = {
+_G.pg.base.ship_skin_words[401233] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37149,7 +37149,7 @@ _G.pg.ship_skin_words[401233] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401234] = {
+_G.pg.base.ship_skin_words[401234] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "What can I do? ... I don't want to get my dress dirty.",
@@ -37183,7 +37183,7 @@ _G.pg.ship_skin_words[401234] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401235] = {
+_G.pg.base.ship_skin_words[401235] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37217,7 +37217,7 @@ _G.pg.ship_skin_words[401235] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401236] = {
+_G.pg.base.ship_skin_words[401236] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Phew... I'll have to work even harder.",
@@ -37251,7 +37251,7 @@ _G.pg.ship_skin_words[401236] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401237] = {
+_G.pg.base.ship_skin_words[401237] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37285,7 +37285,7 @@ _G.pg.ship_skin_words[401237] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401238] = {
+_G.pg.base.ship_skin_words[401238] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I-I'm all right... but I'll have to train more after we get back...",
@@ -37319,7 +37319,7 @@ _G.pg.ship_skin_words[401238] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401239] = {
+_G.pg.base.ship_skin_words[401239] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37353,7 +37353,7 @@ _G.pg.ship_skin_words[401239] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401240] = {
+_G.pg.base.ship_skin_words[401240] = {
 	feeling1 = "Do you know the fate of mortals who have fallen to such depths of depravity?",
 	feeling3 = "Nothing in existence can stand before me without succumbing to abject terror... or so I thought. Why aren't you afraid of me!",
 	lose = "*pant*... *pant*... I don't have to hold back anymore, right? I'll destroy everything... every last bit of it...!!!",
@@ -37428,7 +37428,7 @@ _G.pg.ship_skin_words[401240] = {
 	}
 }
 
-_G.pg.ship_skin_words[401241] = {
+_G.pg.base.ship_skin_words[401241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37462,7 +37462,7 @@ _G.pg.ship_skin_words[401241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401250] = {
+_G.pg.base.ship_skin_words[401250] = {
 	feeling1 = "Mr. Anchor... I don't want to be here anymore...",
 	feeling3 = "Now, all my peers see me as being dedicated and responsible, and want to sortie or go on commissions with me. Commander also feels more at ease when I am around. Mr. Anchor, I've managed to make it!",
 	lose = "This battle... I'll have to reflect upon it thoroughly...",
@@ -37505,7 +37505,7 @@ _G.pg.ship_skin_words[401250] = {
 	}
 }
 
-_G.pg.ship_skin_words[401251] = {
+_G.pg.base.ship_skin_words[401251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37539,7 +37539,7 @@ _G.pg.ship_skin_words[401251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401260] = {
+_G.pg.base.ship_skin_words[401260] = {
 	feeling1 = "Commander, you're a failure!",
 	feeling3 = "Commander, you did a great job, like always! Continue to do your best tomorrow as well! ...You can tell that I'm complimenting you right now, no?",
 	lose = "We ended up losing... I'm really sorry, everyone!",
@@ -37582,7 +37582,7 @@ _G.pg.ship_skin_words[401260] = {
 	}
 }
 
-_G.pg.ship_skin_words[401261] = {
+_G.pg.base.ship_skin_words[401261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37616,7 +37616,7 @@ _G.pg.ship_skin_words[401261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401280] = {
+_G.pg.base.ship_skin_words[401280] = {
 	feeling1 = "I'll continue to support you until you reflect on your behavior and regain everyone's trust. Don't give up!",
 	feeling3 = "Did you want to take it easy for a bit? Sure, I don't mind covering for you. But, there's no replacement for the work you do... so please take care of it later~",
 	lose = "There's no need to feel down. Since we managed to retreat safely, there will always be a next time!",
@@ -37691,7 +37691,7 @@ _G.pg.ship_skin_words[401280] = {
 	}
 }
 
-_G.pg.ship_skin_words[401281] = {
+_G.pg.base.ship_skin_words[401281] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37725,7 +37725,7 @@ _G.pg.ship_skin_words[401281] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401350] = {
+_G.pg.base.ship_skin_words[401350] = {
 	feeling1 = "You're not the commander I was hoping for...",
 	feeling3 = "Commander is a bit like the idol of the fleet. Just by being there, you bring hope to everyone. I want to become the same kind of idol!",
 	lose = "Don't lose hope, everyone! We'll have another chance!",
@@ -37759,7 +37759,7 @@ _G.pg.ship_skin_words[401350] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401351] = {
+_G.pg.base.ship_skin_words[401351] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37793,7 +37793,7 @@ _G.pg.ship_skin_words[401351] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401360] = {
+_G.pg.base.ship_skin_words[401360] = {
 	feeling1 = "My bewitching eyes have foreseen your imminent destruction!",
 	feeling3 = "Heheh~ allow me to engrave the seal of the Devilish Idol upon your flesh! W-wait, I'm not done making the stamp yet!",
 	lose = "Ugh... a Devilish Idol never loses...!",
@@ -37836,7 +37836,7 @@ _G.pg.ship_skin_words[401360] = {
 	}
 }
 
-_G.pg.ship_skin_words[401460] = {
+_G.pg.base.ship_skin_words[401460] = {
 	feeling1 = "Perhaps what I seek... cannot be found here.",
 	feeling3 = "Friendship, enmity, love, hate... these are things that I have never experienced prior to coming here.",
 	lose = "Go and boast to the world. Be proud that you have bested me even once.",
@@ -37870,7 +37870,7 @@ _G.pg.ship_skin_words[401460] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401461] = {
+_G.pg.base.ship_skin_words[401461] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37904,7 +37904,7 @@ _G.pg.ship_skin_words[401461] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401462] = {
+_G.pg.base.ship_skin_words[401462] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37938,7 +37938,7 @@ _G.pg.ship_skin_words[401462] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401463] = {
+_G.pg.base.ship_skin_words[401463] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Have my lessons been so insufficient; or are my emotions simply deficient?",
@@ -37972,7 +37972,7 @@ _G.pg.ship_skin_words[401463] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401464] = {
+_G.pg.base.ship_skin_words[401464] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38006,7 +38006,7 @@ _G.pg.ship_skin_words[401464] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401465] = {
+_G.pg.base.ship_skin_words[401465] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38040,7 +38040,7 @@ _G.pg.ship_skin_words[401465] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402010] = {
+_G.pg.base.ship_skin_words[402010] = {
 	feeling1 = "Alright, time for me to punish you.",
 	feeling3 = "And I thought you were a good child, Commander... I guess you can still be trained... Hehe...",
 	lose = "Tsk... Do we still not have enough anti-air?",
@@ -38074,7 +38074,7 @@ _G.pg.ship_skin_words[402010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402020] = {
+_G.pg.base.ship_skin_words[402020] = {
 	feeling1 = "I don't want to play with you anymore...",
 	feeling3 = "I don't like being cooped up in the house, nor do I like that pesky Truant! When I look at it that way... isn't this my destiny?",
 	lose = "Uu... I let my guard down...",
@@ -38108,7 +38108,7 @@ _G.pg.ship_skin_words[402020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402029] = {
+_G.pg.base.ship_skin_words[402029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38142,7 +38142,7 @@ _G.pg.ship_skin_words[402029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402030] = {
+_G.pg.base.ship_skin_words[402030] = {
 	feeling1 = "Workplace harassment is a crime, Commander...",
 	feeling3 = "I'm so glad that you are an approachable superior. I can't really handle short-tempered people.",
 	lose = "Ugh... I failed again. P-please don't dismantle me...",
@@ -38176,7 +38176,7 @@ _G.pg.ship_skin_words[402030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402039] = {
+_G.pg.base.ship_skin_words[402039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38210,7 +38210,7 @@ _G.pg.ship_skin_words[402039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402040] = {
+_G.pg.base.ship_skin_words[402040] = {
 	feeling1 = "Stay... stay away...!",
 	feeling3 = "I won't faint anymore after I've gotten used to it... Also, Commander, being with you... makes me really happy.",
 	lose = "Wah... I'll be bitten... It's scary! I'm not going!",
@@ -38244,7 +38244,7 @@ _G.pg.ship_skin_words[402040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402041] = {
+_G.pg.base.ship_skin_words[402041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I'm so sorry, Commander... I, I'll do better next time!",
@@ -38278,7 +38278,7 @@ _G.pg.ship_skin_words[402041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402049] = {
+_G.pg.base.ship_skin_words[402049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I'm so sorry, Commander... I-I'll try harder next time!",
@@ -38312,7 +38312,7 @@ _G.pg.ship_skin_words[402049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402050] = {
+_G.pg.base.ship_skin_words[402050] = {
 	feeling1 = "You... really are an eyesore...",
 	feeling3 = "You want me to teach you how to make Brötchen? I don't mind, but I must warn you that I have high standards... Wait, are you perhaps using this as an excuse to get closer to me...?!",
 	lose = "How could this happen... It surely must've been my fault... I'm so sorry...",
@@ -38355,7 +38355,7 @@ _G.pg.ship_skin_words[402050] = {
 	}
 }
 
-_G.pg.ship_skin_words[402060] = {
+_G.pg.base.ship_skin_words[402060] = {
 	feeling1 = "You're pissin' me off to no end. Either sort yourself out, or leave me the hell alone!",
 	feeling3 = "To what do I owe this cuppa joe? ...The paperwork I did earlier? Ahahah, thanks! I'll have just a dash of milk.",
 	lose = "Welp, guess this one's fubared. My bad...",
@@ -38409,7 +38409,7 @@ _G.pg.ship_skin_words[402060] = {
 	}
 }
 
-_G.pg.ship_skin_words[402061] = {
+_G.pg.base.ship_skin_words[402061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Aw damn. I blew it...",
@@ -38443,7 +38443,7 @@ _G.pg.ship_skin_words[402061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402051] = {
+_G.pg.base.ship_skin_words[402051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38477,7 +38477,7 @@ _G.pg.ship_skin_words[402051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402070] = {
+_G.pg.base.ship_skin_words[402070] = {
 	feeling1 = "Oh dear. It seems Emden got carried away. Such a pity... Her only darling human, broken by her own hands.",
 	feeling3 = "Insistent on being a disobedient little human, aren't you? \"I like seeing a sweet human struggle so. Heehee.\"",
 	lose = "One can hardly call this a desired outcome, dear human. \"I get the impression you ordered a sortie without a moment of preparation.\"",
@@ -38511,7 +38511,7 @@ _G.pg.ship_skin_words[402070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402071] = {
+_G.pg.base.ship_skin_words[402071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38545,7 +38545,7 @@ _G.pg.ship_skin_words[402071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402080] = {
+_G.pg.base.ship_skin_words[402080] = {
 	feeling1 = "This is all my fault for wishing for a good Commander...",
 	feeling3 = "None of my shells ever land. Even when I take another shot, it just misses. All I do is waste ammunition... *sigh*...",
 	lose = "Sure enough, all battles I partake in end in defeat...",
@@ -38579,7 +38579,7 @@ _G.pg.ship_skin_words[402080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402081] = {
+_G.pg.base.ship_skin_words[402081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38613,7 +38613,7 @@ _G.pg.ship_skin_words[402081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403010] = {
+_G.pg.base.ship_skin_words[403010] = {
 	feeling1 = "You piece of trash! I told you to stay out of my sight!",
 	feeling3 = "Huh? Worried about me? Having an idiot like you worry about me doesn’t make me happy at all.",
 	lose = "C-c-c-curses! I can’t stand this, ahh!",
@@ -38662,7 +38662,7 @@ _G.pg.ship_skin_words[403010] = {
 	}
 }
 
-_G.pg.ship_skin_words[403012] = {
+_G.pg.base.ship_skin_words[403012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "This isn't much of a story to tell the others... Ugh...!",
@@ -38696,7 +38696,7 @@ _G.pg.ship_skin_words[403012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403030] = {
+_G.pg.base.ship_skin_words[403030] = {
 	feeling1 = "Mind getting out of my sight? You're a bit of an eyesore.",
 	feeling3 = "Commander~ I love you. Just kidding. Did your heart skip a beat?",
 	lose = "Hehehe... now you've done it...",
@@ -38765,7 +38765,7 @@ _G.pg.ship_skin_words[403030] = {
 	}
 }
 
-_G.pg.ship_skin_words[403031] = {
+_G.pg.base.ship_skin_words[403031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38799,7 +38799,7 @@ _G.pg.ship_skin_words[403031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403032] = {
+_G.pg.base.ship_skin_words[403032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38833,7 +38833,7 @@ _G.pg.ship_skin_words[403032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403033] = {
+_G.pg.base.ship_skin_words[403033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38867,7 +38867,7 @@ _G.pg.ship_skin_words[403033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403034] = {
+_G.pg.base.ship_skin_words[403034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "So this is what happens when you let your guard down...",
@@ -38901,7 +38901,7 @@ _G.pg.ship_skin_words[403034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403038] = {
+_G.pg.base.ship_skin_words[403038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38935,7 +38935,7 @@ _G.pg.ship_skin_words[403038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403040] = {
+_G.pg.base.ship_skin_words[403040] = {
 	feeling1 = "I have no interest in you anymore... I should find myself a new pet.",
 	feeling3 = "Lowly animal, root around for all you are worth to find something worthy of my attention. Ahahahaha~",
 	lose = "I'd sink to the bottom of the ocean before surrending to you animals!",
@@ -38969,7 +38969,7 @@ _G.pg.ship_skin_words[403040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403041] = {
+_G.pg.base.ship_skin_words[403041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39003,7 +39003,7 @@ _G.pg.ship_skin_words[403041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403042] = {
+_G.pg.base.ship_skin_words[403042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39037,7 +39037,7 @@ _G.pg.ship_skin_words[403042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403043] = {
+_G.pg.base.ship_skin_words[403043] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I have a banquet to attend, so I have no time to let myself get dragged through the mud by you lot~",
@@ -39071,7 +39071,7 @@ _G.pg.ship_skin_words[403043] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403044] = {
+_G.pg.base.ship_skin_words[403044] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39105,7 +39105,7 @@ _G.pg.ship_skin_words[403044] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403050] = {
+_G.pg.base.ship_skin_words[403050] = {
 	feeling1 = "No matter how you treat me, Commander, I will obey you...",
 	feeling3 = "These hands are for grasping victory... Even though I will never again be able to hug the people important to me, what's done is done.",
 	lose = "We've lost... But I'm not giving up! It's not over yet!",
@@ -39162,7 +39162,7 @@ _G.pg.ship_skin_words[403050] = {
 	}
 }
 
-_G.pg.ship_skin_words[403051] = {
+_G.pg.base.ship_skin_words[403051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Can I... count on you...?",
@@ -39196,7 +39196,7 @@ _G.pg.ship_skin_words[403051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403052] = {
+_G.pg.base.ship_skin_words[403052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I knew it... this totally reduces my fighting capabilities...",
@@ -39230,7 +39230,7 @@ _G.pg.ship_skin_words[403052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403053] = {
+_G.pg.base.ship_skin_words[403053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39264,7 +39264,7 @@ _G.pg.ship_skin_words[403053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403054] = {
+_G.pg.base.ship_skin_words[403054] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Have we been spending too much time on idol lessons...?",
@@ -39298,7 +39298,7 @@ _G.pg.ship_skin_words[403054] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403070] = {
+_G.pg.base.ship_skin_words[403070] = {
 	feeling1 = "Huh? There's no way I'd be able to work with an imbecile like you!",
 	feeling3 = "Here, my schedule... Huh?! Look, anyone can do this kind of simple bookkeeping. It's not like I need you or anything!",
 	lose = "Gaaah! I'll remember this!!",
@@ -39344,7 +39344,7 @@ _G.pg.ship_skin_words[403070] = {
 	}
 }
 
-_G.pg.ship_skin_words[403080] = {
+_G.pg.base.ship_skin_words[403080] = {
 	feeling1 = "Would you like to be my \"enemy,\" Commander...? Hehehe... hehehehehehe...!!!",
 	feeling3 = "I feel a certain emptiness after working at this idol thing for a while... Maybe it's the combat... could it be because I can't sink as many as I used to...?",
 	lose = "Hm... I still think we should be fighting with conventional weapons.",
@@ -39378,7 +39378,7 @@ _G.pg.ship_skin_words[403080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403090] = {
+_G.pg.base.ship_skin_words[403090] = {
 	feeling1 = "I don't know what made you this way, but if nobody else is gonna fix you, then I will! Just shut up and grab hold of my hand!",
 	feeling3 = "I just love listening to people talk about their history. Wish I had one... If I did, what'd it be like? I'm having fun just imagining it!",
 	lose = "Wait, we lost? How the heck?!",
@@ -39431,7 +39431,7 @@ _G.pg.ship_skin_words[403090] = {
 	}
 }
 
-_G.pg.ship_skin_words[403091] = {
+_G.pg.base.ship_skin_words[403091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39465,7 +39465,7 @@ _G.pg.ship_skin_words[403091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403100] = {
+_G.pg.base.ship_skin_words[403100] = {
 	feeling1 = "You're such a lame-ass... I'm gonna go hang with someone else.",
 	feeling3 = "Heya, Commander, I got those documents you asked for... Took longer than you expected? Yeah, uhh... I ran into Magdeburg and went jogging with her, then Heinrich and I played with Eisen, and after that... Yeah, I kinda lost track of time...",
 	lose = "Retreating already? Guess I'll do the same...",
@@ -39508,7 +39508,7 @@ _G.pg.ship_skin_words[403100] = {
 	}
 }
 
-_G.pg.ship_skin_words[403101] = {
+_G.pg.base.ship_skin_words[403101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39542,7 +39542,7 @@ _G.pg.ship_skin_words[403101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403110] = {
+_G.pg.base.ship_skin_words[403110] = {
 	feeling1 = "Heehee. You may be a worthless, hopeless imbecile, but I still have use for you.",
 	feeling3 = "There are certain things only you can do, so try not to become too dependent on me. Having said that... I wouldn't refuse if you offered to become my puppet.",
 	lose = "How unfortunate... If only we had more backbone.",
@@ -39576,7 +39576,7 @@ _G.pg.ship_skin_words[403110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403111] = {
+_G.pg.base.ship_skin_words[403111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39610,7 +39610,7 @@ _G.pg.ship_skin_words[403111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403120] = {
+_G.pg.base.ship_skin_words[403120] = {
 	feeling1 = "Sigh... what an absolute disappointment.",
 	feeling3 = "The Commander was still working when I got up from my nap. I wonder if they're getting enough rest... Well, it doesn't look that bad at least.",
 	lose = "So this is what defeat tastes like... Don't expect this to happen next time...!",
@@ -39644,7 +39644,7 @@ _G.pg.ship_skin_words[403120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404010] = {
+_G.pg.base.ship_skin_words[404010] = {
 	feeling1 = "Cowards have no right to stand on the battlefield!",
 	feeling3 = "You've got a pretty nice fleet here. Being here makes me feel like giving it my all.",
 	lose = "I won't lose next time!",
@@ -39678,7 +39678,7 @@ _G.pg.ship_skin_words[404010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404011] = {
+_G.pg.base.ship_skin_words[404011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39712,7 +39712,7 @@ _G.pg.ship_skin_words[404011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404020] = {
+_G.pg.base.ship_skin_words[404020] = {
 	feeling1 = "I assumed you were more intelligent, Commander...",
 	feeling3 = "\"The Ugly Sisters...\" Though we were given that epithet for our achievements, it still hurts a little. Commander, do you think I'm ugly?",
 	lose = "I let my guard down...",
@@ -39746,7 +39746,7 @@ _G.pg.ship_skin_words[404020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404021] = {
+_G.pg.base.ship_skin_words[404021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39780,7 +39780,7 @@ _G.pg.ship_skin_words[404021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404030] = {
+_G.pg.base.ship_skin_words[404030] = {
 	feeling1 = "This is all because I'm a worthless maggot... Commandant, I beg for your forgiveness!",
 	feeling3 = "I have complete faith in your decisions. Except... the worry that my service isn't all you hoped for lingers in the back of my mind. But, rest assured, it will not hinder me in combat!",
 	lose = "I failed by not following my orders... What a disgrace!",
@@ -39823,7 +39823,7 @@ _G.pg.ship_skin_words[404030] = {
 	}
 }
 
-_G.pg.ship_skin_words[404031] = {
+_G.pg.base.ship_skin_words[404031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39857,7 +39857,7 @@ _G.pg.ship_skin_words[404031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404040] = {
+_G.pg.base.ship_skin_words[404040] = {
 	feeling1 = "Ugh... I hate this place. I hate this place so much.",
 	feeling3 = "You follow a schedule? It's all about getting into habits, huh... I getcha. Can you show me what yours is like?",
 	lose = "Welp, we lost... This blows. I'm heading home.",
@@ -39924,7 +39924,7 @@ _G.pg.ship_skin_words[404040] = {
 	}
 }
 
-_G.pg.ship_skin_words[404041] = {
+_G.pg.base.ship_skin_words[404041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39958,7 +39958,7 @@ _G.pg.ship_skin_words[404041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405010] = {
+_G.pg.base.ship_skin_words[405010] = {
 	feeling1 = "Stay out of my sight.",
 	feeling3 = "You're not a bad commander... What? Is it so strange for me to give compliments? ... You're simply overreacting.",
 	lose = "For tarnishing my pride... next time, you will pay with your lives.",
@@ -40017,7 +40017,7 @@ _G.pg.ship_skin_words[405010] = {
 	}
 }
 
-_G.pg.ship_skin_words[405011] = {
+_G.pg.base.ship_skin_words[405011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40051,7 +40051,7 @@ _G.pg.ship_skin_words[405011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405012] = {
+_G.pg.base.ship_skin_words[405012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40085,7 +40085,7 @@ _G.pg.ship_skin_words[405012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405020] = {
+_G.pg.base.ship_skin_words[405020] = {
 	feeling1 = "In the end... are you just another incompetent fool, unable to command me?",
 	feeling3 = "Those who have nothing to lose also have nothing to fear... But is this kind of bravery really anything to be proud of?",
 	lose = "So this is... the frustration that comes from failure and fear.",
@@ -40119,7 +40119,7 @@ _G.pg.ship_skin_words[405020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405021] = {
+_G.pg.base.ship_skin_words[405021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40153,7 +40153,7 @@ _G.pg.ship_skin_words[405021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405022] = {
+_G.pg.base.ship_skin_words[405022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40187,7 +40187,7 @@ _G.pg.ship_skin_words[405022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405023] = {
+_G.pg.base.ship_skin_words[405023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40221,7 +40221,7 @@ _G.pg.ship_skin_words[405023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405030] = {
+_G.pg.base.ship_skin_words[405030] = {
 	feeling1 = "You sowed these seeds yourself. It's your mess to clean up, not mine.",
 	feeling3 = "Working for you is not the same as trusting you. The fact that you can command so many people... Or rather, be adored by so many, means you of all people should understand.",
 	lose = "I'll back off since we lost, but don't count on it happening again.",
@@ -40272,7 +40272,7 @@ _G.pg.ship_skin_words[405030] = {
 	}
 }
 
-_G.pg.ship_skin_words[405031] = {
+_G.pg.base.ship_skin_words[405031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Tsk, they got me...",
@@ -40306,7 +40306,7 @@ _G.pg.ship_skin_words[405031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405040] = {
+_G.pg.base.ship_skin_words[405040] = {
 	feeling1 = "I'll serve my duties as your subordinate, but don't expect me to be all smiles while doing so.",
 	feeling3 = "I might not approve of all of your decisions, but I do admire your resolution. You are exactly as a commander should be.",
 	lose = "I'll be back with some payback. Nobody likes to stay a loser.",
@@ -40340,7 +40340,7 @@ _G.pg.ship_skin_words[405040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405041] = {
+_G.pg.base.ship_skin_words[405041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40374,7 +40374,7 @@ _G.pg.ship_skin_words[405041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[406010] = {
+_G.pg.base.ship_skin_words[406010] = {
 	feeling1 = "Commander, I've got one word of advice for you. If your condition isn't great, make sure to take a break and sleep soundly. It won't do to have everyone else see you in bad shape.",
 	feeling3 = "Peter is quite brilliant, but she can also be quite dreary. I wish she'd loosen up about time and planning and all, and learn to just have fun sometimes.",
 	lose = "Ugh... I wonder if I'm still not used to my planes...",
@@ -40426,7 +40426,7 @@ _G.pg.ship_skin_words[406010] = {
 	}
 }
 
-_G.pg.ship_skin_words[406011] = {
+_G.pg.base.ship_skin_words[406011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40460,7 +40460,7 @@ _G.pg.ship_skin_words[406011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[406012] = {
+_G.pg.base.ship_skin_words[406012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40494,7 +40494,7 @@ _G.pg.ship_skin_words[406012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[406020] = {
+_G.pg.base.ship_skin_words[406020] = {
 	feeling1 = "It turns out you really were an inferior creature, all along...",
 	feeling3 = "If I give this kind of work to you, you'll surely be... very troubled! I-it's fine for me to trouble you...?",
 	lose = "Grr, how frustrating! Commander, Commander~!",
@@ -40558,7 +40558,7 @@ _G.pg.ship_skin_words[406020] = {
 	}
 }
 
-_G.pg.ship_skin_words[406021] = {
+_G.pg.base.ship_skin_words[406021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40592,7 +40592,7 @@ _G.pg.ship_skin_words[406021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407010] = {
+_G.pg.base.ship_skin_words[407010] = {
 	feeling1 = "You again...?",
 	feeling3 = "Does prayer really work? Will God ever respond? Nein. Gods are called as such because they are merciless.",
 	lose = "Next time, I shall grant you despair even worse than death.",
@@ -40626,7 +40626,7 @@ _G.pg.ship_skin_words[407010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407011] = {
+_G.pg.base.ship_skin_words[407011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40660,7 +40660,7 @@ _G.pg.ship_skin_words[407011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407020] = {
+_G.pg.base.ship_skin_words[407020] = {
 	feeling1 = "Hmph. Stay away from me. I'll find a way home by myself!",
 	feeling3 = "You fool, if you wanted my help, you should have asked... Since I'm able to eat delicious cake like this every day... maybe I wouldn't object to staying a little longer!",
 	lose = "It's n-not my fault! I-I just didn't get enough to eat!",
@@ -40718,7 +40718,7 @@ _G.pg.ship_skin_words[407020] = {
 	}
 }
 
-_G.pg.ship_skin_words[407030] = {
+_G.pg.base.ship_skin_words[407030] = {
 	feeling1 = "Officer, you're not worth my time.",
 	feeling3 = "Officer, the clock in your bedroom was off by two minutes. ...Oh, there's nothing for you to worry about, I've already taken care of it. You can't use the excuse that your clock is off anymore",
 	lose = "Time is far better spent contemplating how to avoid being destroyed, rather than foolhardily charging into destruction again and again.",
@@ -40781,7 +40781,7 @@ _G.pg.ship_skin_words[407030] = {
 	}
 }
 
-_G.pg.ship_skin_words[407031] = {
+_G.pg.base.ship_skin_words[407031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40815,7 +40815,7 @@ _G.pg.ship_skin_words[407031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407032] = {
+_G.pg.base.ship_skin_words[407032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Time waits for no one. Not even for you.",
@@ -40849,7 +40849,7 @@ _G.pg.ship_skin_words[407032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408010] = {
+_G.pg.base.ship_skin_words[408010] = {
 	feeling1 = "Enttäuscht...",
 	feeling3 = "Not to brag, but I have a pretty stunning service record. Go on, let me hear your applause!",
 	lose = "Damn... The Commander will avenge me for this!",
@@ -40883,7 +40883,7 @@ _G.pg.ship_skin_words[408010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408011] = {
+_G.pg.base.ship_skin_words[408011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40917,7 +40917,7 @@ _G.pg.ship_skin_words[408011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408020] = {
+_G.pg.base.ship_skin_words[408020] = {
 	feeling1 = "Give me some space.",
 	feeling3 = "So like, I can't really help with your work at all... But you'll let me stay here... You don't mind?",
 	lose = "So this is how it ends...",
@@ -40961,7 +40961,7 @@ _G.pg.ship_skin_words[408020] = {
 	}
 }
 
-_G.pg.ship_skin_words[408021] = {
+_G.pg.base.ship_skin_words[408021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40995,7 +40995,7 @@ _G.pg.ship_skin_words[408021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408022] = {
+_G.pg.base.ship_skin_words[408022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41029,7 +41029,7 @@ _G.pg.ship_skin_words[408022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408023] = {
+_G.pg.base.ship_skin_words[408023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Need to hurry back...!",
@@ -41063,7 +41063,7 @@ _G.pg.ship_skin_words[408023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408024] = {
+_G.pg.base.ship_skin_words[408024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Overextended, huh... Figures.",
@@ -41097,7 +41097,7 @@ _G.pg.ship_skin_words[408024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408030] = {
+_G.pg.base.ship_skin_words[408030] = {
 	feeling1 = "It's just my luck to run into a commander like you...",
 	feeling3 = "You wanna be friends with me? But I'm a bad luck magnet, and that might be annoying for... Nnh, why are you patting me on the head all of a sudden...",
 	lose = "Sigh... I'm used to it...",
@@ -41131,7 +41131,7 @@ _G.pg.ship_skin_words[408030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408040] = {
+_G.pg.base.ship_skin_words[408040] = {
 	feeling1 = "Please don't make that face again... okay?",
 	feeling3 = "Commander, you wanna see how I dive? Heh heh, Lord Bismarck said it looked pretty good. I'm proud of myself too.",
 	lose = "I won't fail like I did before... never again!",
@@ -41190,7 +41190,7 @@ _G.pg.ship_skin_words[408040] = {
 	}
 }
 
-_G.pg.ship_skin_words[408041] = {
+_G.pg.base.ship_skin_words[408041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41224,7 +41224,7 @@ _G.pg.ship_skin_words[408041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408050] = {
+_G.pg.base.ship_skin_words[408050] = {
 	feeling1 = "Uh... My friends are waiting for me, so sorry, gotta scamper.",
 	feeling3 = "The wild U-73 approaches quietly, waiting for her chance, and then POUNCES! ... Hahaha, I caught you, Commander!",
 	lose = "Oh nooo...! Ahaha... How the heck could we lose...",
@@ -41270,7 +41270,7 @@ _G.pg.ship_skin_words[408050] = {
 	}
 }
 
-_G.pg.ship_skin_words[408051] = {
+_G.pg.base.ship_skin_words[408051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41304,7 +41304,7 @@ _G.pg.ship_skin_words[408051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408052] = {
+_G.pg.base.ship_skin_words[408052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41338,7 +41338,7 @@ _G.pg.ship_skin_words[408052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408060] = {
+_G.pg.base.ship_skin_words[408060] = {
 	feeling1 = "I'm going for a ride! Tschüss~",
 	feeling3 = "Y'know, I really want to have an all-out race with the other factions' subs. I just know it's gonna get my blood pumping! How about it, Commander, wanna do me a favor? ",
 	lose = "Couldn't get out of the way in time...",
@@ -41372,7 +41372,7 @@ _G.pg.ship_skin_words[408060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408061] = {
+_G.pg.base.ship_skin_words[408061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41406,7 +41406,7 @@ _G.pg.ship_skin_words[408061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408070] = {
+_G.pg.base.ship_skin_words[408070] = {
 	feeling1 = "Sure can't count on you, huh, Commander. Guess that's cute in a way, though?",
 	feeling3 = "Hey, you're pretty chill~ I'm feelin' like this is the start of a good relationship~",
 	lose = "Oopsie... Guess I messed up a calculation...",
@@ -41440,7 +41440,7 @@ _G.pg.ship_skin_words[408070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408080] = {
+_G.pg.base.ship_skin_words[408080] = {
 	feeling1 = "Why won't you play with me...",
 	feeling3 = "Believe it or not, this hairstyle was born with meeeee. Mhm, I'm a shaaaark. Raaaawr!",
 	lose = "Codebooks, where are my codebooks... Goodie, they're safe...",
@@ -41474,7 +41474,7 @@ _G.pg.ship_skin_words[408080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408081] = {
+_G.pg.base.ship_skin_words[408081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41508,7 +41508,7 @@ _G.pg.ship_skin_words[408081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408082] = {
+_G.pg.base.ship_skin_words[408082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41542,7 +41542,7 @@ _G.pg.ship_skin_words[408082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408083] = {
+_G.pg.base.ship_skin_words[408083] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41576,7 +41576,7 @@ _G.pg.ship_skin_words[408083] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408084] = {
+_G.pg.base.ship_skin_words[408084] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41610,7 +41610,7 @@ _G.pg.ship_skin_words[408084] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408090] = {
+_G.pg.base.ship_skin_words[408090] = {
 	feeling1 = "You know where you belong? In a shark's stomach. Meh, whatever.",
 	feeling3 = "If ya think U-boat combat is that fascinating, you could always come with me on the next sortie. Oh wait, you can't stay underwater all that long, can ya? Then how's about I teach you how to dive like a pro?",
 	lose = "Whatever. Next time's gonna be much better.",
@@ -41660,7 +41660,7 @@ _G.pg.ship_skin_words[408090] = {
 	}
 }
 
-_G.pg.ship_skin_words[408091] = {
+_G.pg.base.ship_skin_words[408091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41694,7 +41694,7 @@ _G.pg.ship_skin_words[408091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408100] = {
+_G.pg.base.ship_skin_words[408100] = {
 	feeling1 = "Miss me with your lame ass! Laterrr!",
 	feeling3 = "Check out my massive rigging, it's big enough for two people! Hop on and I'll take ya some place far away!",
 	lose = "Well damn. Better luck next hunt, huh...",
@@ -41745,7 +41745,7 @@ _G.pg.ship_skin_words[408100] = {
 	}
 }
 
-_G.pg.ship_skin_words[408101] = {
+_G.pg.base.ship_skin_words[408101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41779,7 +41779,7 @@ _G.pg.ship_skin_words[408101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408110] = {
+_G.pg.base.ship_skin_words[408110] = {
 	feeling1 = "I just don't know what to do with inconsiderate jerks like you.",
 	feeling3 = "Patience is the most valuable trait a submarine can have. What lengths would you go, how long would you wait for someone dear to you, Commander? Hehehe~",
 	lose = "There's no turning this battle around... We should probably retreat.",
@@ -41839,7 +41839,7 @@ _G.pg.ship_skin_words[408110] = {
 	}
 }
 
-_G.pg.ship_skin_words[408111] = {
+_G.pg.base.ship_skin_words[408111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41873,7 +41873,7 @@ _G.pg.ship_skin_words[408111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408120] = {
+_G.pg.base.ship_skin_words[408120] = {
 	feeling1 = "You'll have to become a saint if you want my forgiveness! To start with... Lemme think... Okay, first of all, you've gotta get on everyone's good side.",
 	feeling3 = "If only I had a button that autocompleted one day's work. If I did, I'd press it for you every single day... No, don't be greedy, Commander! One press a day is all you'd get!",
 	lose = "Oh fudge! I'm gonna push the emergency resurface button! They're not watching me, are they?!",
@@ -41926,7 +41926,7 @@ _G.pg.ship_skin_words[408120] = {
 	}
 }
 
-_G.pg.ship_skin_words[408121] = {
+_G.pg.base.ship_skin_words[408121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41960,7 +41960,7 @@ _G.pg.ship_skin_words[408121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[431230] = {
+_G.pg.base.ship_skin_words[431230] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41994,7 +41994,7 @@ _G.pg.ship_skin_words[431230] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501010] = {
+_G.pg.base.ship_skin_words[501010] = {
 	feeling1 = "Commander, it's bloomring season for the hawthorne I grew around the Bohai Gulf. Can we go back and take a look?",
 	feeling3 = "Even if the day comes when I am no longer needed on the battlefield, I still want to watch over the Bohai Sea. I want to always be able to see the waters, dyed a shimmering vermillion in the sunset.",
 	lose = "Everyone, regroup. We can't retreat like this!",
@@ -42052,7 +42052,7 @@ _G.pg.ship_skin_words[501010] = {
 	}
 }
 
-_G.pg.ship_skin_words[501012] = {
+_G.pg.base.ship_skin_words[501012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42086,7 +42086,7 @@ _G.pg.ship_skin_words[501012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501019] = {
+_G.pg.base.ship_skin_words[501019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42120,7 +42120,7 @@ _G.pg.ship_skin_words[501019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501020] = {
+_G.pg.base.ship_skin_words[501020] = {
 	feeling1 = "Yikes! Chang Chun, Tai Yuan, Commander is coming!",
 	feeling3 = "*slaps rocket* Commander, this bad boy will take you all the way over the sky. Isn't it a beaut? I made it myself. Coming down? Don't worry about that, Chang Chun and I will be there to catch you. ",
 	lose = "Ugh... Sis'... where are you?",
@@ -42171,7 +42171,7 @@ _G.pg.ship_skin_words[501020] = {
 	}
 }
 
-_G.pg.ship_skin_words[501030] = {
+_G.pg.base.ship_skin_words[501030] = {
 	feeling1 = "Commander... that's unacceptable...",
 	feeling3 = "Hey Commander, how'd you get in here? Secret base? Ehehe~ I have no idea what you're talking about~ Oh, by the way, have you seen my snacks? W-wait, you can't eat that!",
 	lose = "Wow, I think I goofed up~",
@@ -42222,7 +42222,7 @@ _G.pg.ship_skin_words[501030] = {
 	}
 }
 
-_G.pg.ship_skin_words[501031] = {
+_G.pg.base.ship_skin_words[501031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42256,7 +42256,7 @@ _G.pg.ship_skin_words[501031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501039] = {
+_G.pg.base.ship_skin_words[501039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42290,7 +42290,7 @@ _G.pg.ship_skin_words[501039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501040] = {
+_G.pg.base.ship_skin_words[501040] = {
 	feeling1 = "An Shan, I... I'm a bit scared...",
 	feeling3 = "Commander, other than my sisters, you're my first friend. S-so, um, whatever you do, please do not get inside Fu Shun's home-made missile!",
 	lose = "Um... as expected, I still have a long way to go...",
@@ -42341,7 +42341,7 @@ _G.pg.ship_skin_words[501040] = {
 	}
 }
 
-_G.pg.ship_skin_words[501041] = {
+_G.pg.base.ship_skin_words[501041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42375,7 +42375,7 @@ _G.pg.ship_skin_words[501041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502010] = {
+_G.pg.base.ship_skin_words[502010] = {
 	feeling1 = "Commander... You don't seem to be the one I've been waiting for...",
 	feeling3 = "I am overjoyed to be able to return to your side once more, Commander.",
 	lose = "Give up? Why would I do that? I am not the same fragile Yat Sen as before.",
@@ -42419,7 +42419,7 @@ _G.pg.ship_skin_words[502010] = {
 	}
 }
 
-_G.pg.ship_skin_words[502018] = {
+_G.pg.base.ship_skin_words[502018] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42453,7 +42453,7 @@ _G.pg.ship_skin_words[502018] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502020] = {
+_G.pg.base.ship_skin_words[502020] = {
 	feeling1 = "As if I'd eat your buns!",
 	feeling3 = "Don't always try to change the subject to buns when we're discussing serious business, Commander! Do I look like I can be bought that easily? Ooo... mmm.... So delicious!",
 	lose = "My abilities... are inadequate...",
@@ -42496,7 +42496,7 @@ _G.pg.ship_skin_words[502020] = {
 	}
 }
 
-_G.pg.ship_skin_words[502021] = {
+_G.pg.base.ship_skin_words[502021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42530,7 +42530,7 @@ _G.pg.ship_skin_words[502021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502022] = {
+_G.pg.base.ship_skin_words[502022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42564,7 +42564,7 @@ _G.pg.ship_skin_words[502022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502023] = {
+_G.pg.base.ship_skin_words[502023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Oh, my outfit...",
@@ -42598,7 +42598,7 @@ _G.pg.ship_skin_words[502023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502024] = {
+_G.pg.base.ship_skin_words[502024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42632,7 +42632,7 @@ _G.pg.ship_skin_words[502024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502025] = {
+_G.pg.base.ship_skin_words[502025] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42666,7 +42666,7 @@ _G.pg.ship_skin_words[502025] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502026] = {
+_G.pg.base.ship_skin_words[502026] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42700,7 +42700,7 @@ _G.pg.ship_skin_words[502026] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502029] = {
+_G.pg.base.ship_skin_words[502029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42734,7 +42734,7 @@ _G.pg.ship_skin_words[502029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502030] = {
+_G.pg.base.ship_skin_words[502030] = {
 	feeling1 = "Commander... are you one of those \"bad guys\" that big sister talks about?",
 	feeling3 = "Big sister said I shouldn’t be alone with Commander... is it because she wants the buns all for herself? Then, I shall come visit Commander more often from now on!",
 	lose = "Big sister, where are you?",
@@ -42777,7 +42777,7 @@ _G.pg.ship_skin_words[502030] = {
 	}
 }
 
-_G.pg.ship_skin_words[502031] = {
+_G.pg.base.ship_skin_words[502031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42811,7 +42811,7 @@ _G.pg.ship_skin_words[502031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502032] = {
+_G.pg.base.ship_skin_words[502032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42845,7 +42845,7 @@ _G.pg.ship_skin_words[502032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502033] = {
+_G.pg.base.ship_skin_words[502033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Big sister, my clothes ripped... sew them for me...",
@@ -42879,7 +42879,7 @@ _G.pg.ship_skin_words[502033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502034] = {
+_G.pg.base.ship_skin_words[502034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42913,7 +42913,7 @@ _G.pg.ship_skin_words[502034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502035] = {
+_G.pg.base.ship_skin_words[502035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42947,7 +42947,7 @@ _G.pg.ship_skin_words[502035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502036] = {
+_G.pg.base.ship_skin_words[502036] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42981,7 +42981,7 @@ _G.pg.ship_skin_words[502036] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502039] = {
+_G.pg.base.ship_skin_words[502039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43015,7 +43015,7 @@ _G.pg.ship_skin_words[502039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502040] = {
+_G.pg.base.ship_skin_words[502040] = {
 	feeling1 = "...I have nothing to say to you.",
 	feeling3 = "Chao Ho has been complaining to you that I've been pushing my chores onto her, hasn't she? Don't listen to her. I've just been instructing my little sister, who has stubbornly been running away from her responsibilities, about the realities of being an adult. Hehe~",
 	lose = "Do I not have enough power... to stop the enemy's advance?",
@@ -43073,7 +43073,7 @@ _G.pg.ship_skin_words[502040] = {
 	}
 }
 
-_G.pg.ship_skin_words[502041] = {
+_G.pg.base.ship_skin_words[502041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43107,7 +43107,7 @@ _G.pg.ship_skin_words[502041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502050] = {
+_G.pg.base.ship_skin_words[502050] = {
 	feeling1 = "Don't talk to me like you know me!",
 	feeling3 = "Commander! Ying Swei... Ying Swei... she threatened to not share Ning Hai's steamed buns with me! And said I have to clean the room today! H-hurry up and do something about her!",
 	lose = "Guh... Am I still not strong enough yet...?",
@@ -43161,7 +43161,7 @@ _G.pg.ship_skin_words[502050] = {
 	}
 }
 
-_G.pg.ship_skin_words[502051] = {
+_G.pg.base.ship_skin_words[502051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43195,7 +43195,7 @@ _G.pg.ship_skin_words[502051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502070] = {
+_G.pg.base.ship_skin_words[502070] = {
 	feeling1 = "Please do not talk to me. I wish to be alone.",
 	feeling3 = "There are many forms of poetry, including the bold and uninhibited \"Boundless Waves\" style, as well as the gentle and reserved \"Country Jade\" style. Which do you prefer, Commander?",
 	lose = "I see... \"Even horses can stumble.\"",
@@ -43238,7 +43238,7 @@ _G.pg.ship_skin_words[502070] = {
 	}
 }
 
-_G.pg.ship_skin_words[502071] = {
+_G.pg.base.ship_skin_words[502071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43272,7 +43272,7 @@ _G.pg.ship_skin_words[502071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502080] = {
+_G.pg.base.ship_skin_words[502080] = {
 	feeling1 = "Hmph. Everything you've done and said, I'll hold against you forever!",
 	feeling3 = "If I'll ever have to make a tough life decision, I'll face it with solemn courage and thrust forward, like a river current cleaving through land! ....Hoo! Haah!",
 	lose = "Bweh... I'll get you for this!",
@@ -43315,7 +43315,7 @@ _G.pg.ship_skin_words[502080] = {
 	}
 }
 
-_G.pg.ship_skin_words[502081] = {
+_G.pg.base.ship_skin_words[502081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43349,7 +43349,7 @@ _G.pg.ship_skin_words[502081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[506010] = {
+_G.pg.base.ship_skin_words[506010] = {
 	feeling1 = "Seems like I set the bar too high for you.",
 	feeling3 = "War isn't fair. Backstab your enemy. Think two or three steps ahead of them, read their every move. Then... BAM! Victory comes just like that. Hehe.",
 	lose = "Ugh, just one move behind... While I hate conceding defeat, there won't be a next time. Hehe...",
@@ -43394,7 +43394,7 @@ _G.pg.ship_skin_words[506010] = {
 	}
 }
 
-_G.pg.ship_skin_words[506011] = {
+_G.pg.base.ship_skin_words[506011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43428,7 +43428,7 @@ _G.pg.ship_skin_words[506011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[520000] = {
+_G.pg.base.ship_skin_words[520000] = {
 	feeling1 = "指挥官，我在渤海湾养的山楂到花期了，可以回去看看吗？",
 	feeling3 = "即使有一天不再需要我去战斗，我也想永远守望着渤海，永远眺望着被晚霞染红的海面……",
 	lose = "整军再战，我们决不能就此退缩！",
@@ -43487,7 +43487,7 @@ _G.pg.ship_skin_words[520000] = {
 	}
 }
 
-_G.pg.ship_skin_words[521000] = {
+_G.pg.base.ship_skin_words[521000] = {
 	feeling1 = "指挥官，我在渤海湾养的山楂到花期了，可以回去看看吗？",
 	feeling3 = "即使有一天不再需要我去战斗，我也想永远守望着渤海，永远眺望着被晚霞染红的海面……",
 	lose = "整军再战，我们决不能就此退缩！",
@@ -43546,7 +43546,7 @@ _G.pg.ship_skin_words[521000] = {
 	}
 }
 
-_G.pg.ship_skin_words[601020] = {
+_G.pg.base.ship_skin_words[601020] = {
 	feeling1 = "Commander, I don't think that... Nevermind, your subordinate shall follow your order.",
 	feeling3 = "Commander, if you plan on going out, please let me be your bodyguard!",
 	lose = "Ugh... th-this subordinate will accept any punishment!",
@@ -43580,7 +43580,7 @@ _G.pg.ship_skin_words[601020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601021] = {
+_G.pg.base.ship_skin_words[601021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Ugh... I s-suppose I'm not cut out for this after all...",
@@ -43614,7 +43614,7 @@ _G.pg.ship_skin_words[601021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601030] = {
+_G.pg.base.ship_skin_words[601030] = {
 	feeling1 = "Sadly, there's no cure for your chronic hopelessness, Commander.",
 	feeling3 = "I was born in the historic port of Livorno, a dreamy city on the gorgeous Sardegnian west coast! You should visit it with me if you ever get the chance, Commander!",
 	lose = "Dangit... You won't discourage me so easily!",
@@ -43665,7 +43665,7 @@ _G.pg.ship_skin_words[601030] = {
 	}
 }
 
-_G.pg.ship_skin_words[601032] = {
+_G.pg.base.ship_skin_words[601032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43699,7 +43699,7 @@ _G.pg.ship_skin_words[601032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601040] = {
+_G.pg.base.ship_skin_words[601040] = {
 	feeling1 = "Keep your distance from me! Shoo, shoo...!!",
 	feeling3 = "Commander... Please look over this. It's a table of our recent mission earnings... I hope it can be of help to you...",
 	lose = "I've been defeated... What should I be saying...?",
@@ -43742,7 +43742,7 @@ _G.pg.ship_skin_words[601040] = {
 	}
 }
 
-_G.pg.ship_skin_words[601041] = {
+_G.pg.base.ship_skin_words[601041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43776,7 +43776,7 @@ _G.pg.ship_skin_words[601041] = {
 	detail = "Though I'm not able to build the Colosseum like Lady Veneto can, when it comes to the Leaning Tower, a cathedral, or a basilica... Um, I can kind of get the rough shape down!"
 }
 
-_G.pg.ship_skin_words[601050] = {
+_G.pg.base.ship_skin_words[601050] = {
 	feeling1 = "Knock knock! Yeah, I'm gonna keep thwacking you around until you behave!",
 	feeling3 = "Commander, I'm here to play! You're not busy right now, right? Ehehe, after all, Maestrale made this... silly-bus for me? In any case, it seems right!",
 	lose = "Starting emergency rescue procedures! Commander, make sure you keep me safe!",
@@ -43819,7 +43819,7 @@ _G.pg.ship_skin_words[601050] = {
 	}
 }
 
-_G.pg.ship_skin_words[601051] = {
+_G.pg.base.ship_skin_words[601051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43853,7 +43853,7 @@ _G.pg.ship_skin_words[601051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601060] = {
+_G.pg.base.ship_skin_words[601060] = {
 	feeling1 = "I'm going on a voyage! Without you! Buh-bye!",
 	feeling3 = "By Neptune's name! Look, Commander, there's an uncharted area on our map! Who knows what secrets it holds! We should go there on our next voyage!",
 	lose = "Err, what? Did I take us on the wrong course?",
@@ -43905,7 +43905,7 @@ _G.pg.ship_skin_words[601060] = {
 	}
 }
 
-_G.pg.ship_skin_words[601061] = {
+_G.pg.base.ship_skin_words[601061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43939,7 +43939,7 @@ _G.pg.ship_skin_words[601061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601070] = {
+_G.pg.base.ship_skin_words[601070] = {
 	feeling1 = "You're a terrible Commander, but if I can produce results in spite of you, people will think I'm really talented! There's always a silver lining, I tell you!",
 	feeling3 = "You came at just the right time, Commander! You see, um... Thing is, I could use a lot of help. I simply don't have enough time to run all those errands I promised to... I know, I know, but you'd be helping everyone out, not just me!",
 	lose = "We're defeated... My dignity has been destroyed and the fleet's reputation will plummet, dooming it to fade into obscurity... Oh, err, I didn't say anything!",
@@ -43984,7 +43984,7 @@ _G.pg.ship_skin_words[601070] = {
 	}
 }
 
-_G.pg.ship_skin_words[601071] = {
+_G.pg.base.ship_skin_words[601071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I'm dead tired... Commander, lower the top for me... I need a break from real life right now...",
@@ -44018,7 +44018,7 @@ _G.pg.ship_skin_words[601071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[602010] = {
+_G.pg.base.ship_skin_words[602010] = {
 	feeling1 = "You've proven yourself a spineless imbecile. Get out of my sight!",
 	feeling3 = "Don't fret over each and every obstacle you face, Commaner. Your subordinates will do all in their power to help.",
 	lose = "Alas, we must shamefully turn our backs on our foes...",
@@ -44052,7 +44052,7 @@ _G.pg.ship_skin_words[602010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[602011] = {
+_G.pg.base.ship_skin_words[602011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44086,7 +44086,7 @@ _G.pg.ship_skin_words[602011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603010] = {
+_G.pg.base.ship_skin_words[603010] = {
 	feeling1 = "Don't give up, Commander! If you just make amends for your mistakes, nobody's going to abandon you!",
 	feeling3 = "Please have some of this stamina-recovering coffee! ... Oh, does it taste bad? Let me try... Eww?! I might have mistook salt for sugar...",
 	lose = "It's okay, it's okay! This isn't anybody's fault!",
@@ -44120,7 +44120,7 @@ _G.pg.ship_skin_words[603010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603011] = {
+_G.pg.base.ship_skin_words[603011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44154,7 +44154,7 @@ _G.pg.ship_skin_words[603011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603020] = {
+_G.pg.base.ship_skin_words[603020] = {
 	feeling1 = "Terrible... There's absolutely nothing about this commander anyone could ever find appealing...",
 	feeling3 = "Despite her appearances, Pola is a really sensitive girl, you know? And anyone who dares to hurt her... even you, Commander, would not be easily forgiven.",
 	lose = "Ugh... Don't make me recall the humiliation I endured that night...!",
@@ -44197,7 +44197,7 @@ _G.pg.ship_skin_words[603020] = {
 	}
 }
 
-_G.pg.ship_skin_words[603021] = {
+_G.pg.base.ship_skin_words[603021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44231,7 +44231,7 @@ _G.pg.ship_skin_words[603021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603030] = {
+_G.pg.base.ship_skin_words[603030] = {
 	feeling1 = "A commander that acts in this manner is in need of some \"re-education.\"",
 	feeling3 = "Commander, focus on what you need to do. I'll take care of any annoying little obstacles in your way.",
 	lose = "My mantle's all dirty now. What a shame...",
@@ -44274,7 +44274,7 @@ _G.pg.ship_skin_words[603030] = {
 	}
 }
 
-_G.pg.ship_skin_words[603031] = {
+_G.pg.base.ship_skin_words[603031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Damn it... I'll remember this!",
@@ -44308,7 +44308,7 @@ _G.pg.ship_skin_words[603031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603040] = {
+_G.pg.base.ship_skin_words[603040] = {
 	feeling1 = "Are you happy now? Sigh... I'm going to fix you. You WILL learn some damn discipline.",
 	feeling3 = "Done with your job? Okay. Have a nice dinner, then treat yourself to a bath. You'll feel as good as new after a hard day's work, trust me.",
 	lose = "This is all on me for being too damn lenient!",
@@ -44351,7 +44351,7 @@ _G.pg.ship_skin_words[603040] = {
 	}
 }
 
-_G.pg.ship_skin_words[603041] = {
+_G.pg.base.ship_skin_words[603041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44385,7 +44385,7 @@ _G.pg.ship_skin_words[603041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605010] = {
+_G.pg.base.ship_skin_words[605010] = {
 	feeling1 = "It seems I must reassess the Empire's future...",
 	feeling3 = "Strenuous efforts on everyone's part will be necessary to spread the Empire's splendor across the world. That includes you, of course, Commander. Heehee~",
 	lose = "The enemy overpowering you by sheer force is the most easily acceptable reason for a defeat...",
@@ -44449,7 +44449,7 @@ _G.pg.ship_skin_words[605010] = {
 	}
 }
 
-_G.pg.ship_skin_words[605011] = {
+_G.pg.base.ship_skin_words[605011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44483,7 +44483,7 @@ _G.pg.ship_skin_words[605011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605020] = {
+_G.pg.base.ship_skin_words[605020] = {
 	feeling1 = "I apologize, Commander. I only wanted to push you in the right direction, but it seems that all I did was impede your progress...",
 	feeling3 = "Be more confident in yourself, Commander. To serve as the commander of Littorio means that have earned the trust of the most glorious ship in all the world. Aren't you proud?",
 	lose = "Defeated? No, we are simply not victorious yet.",
@@ -44517,7 +44517,7 @@ _G.pg.ship_skin_words[605020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605021] = {
+_G.pg.base.ship_skin_words[605021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44551,7 +44551,7 @@ _G.pg.ship_skin_words[605021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605022] = {
+_G.pg.base.ship_skin_words[605022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44585,7 +44585,7 @@ _G.pg.ship_skin_words[605022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605023] = {
+_G.pg.base.ship_skin_words[605023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44619,7 +44619,7 @@ _G.pg.ship_skin_words[605023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605050] = {
+_G.pg.base.ship_skin_words[605050] = {
 	feeling1 = "You will eventually pay the price for your arrogance.",
 	feeling3 = "Commander, what do you think about when you gaze up into the night sky? I always think back to that night... when the skies were ablaze with what looked like countless meteors.",
 	lose = "Ngh... Must I also bow my head to the passage of time...?",
@@ -44678,7 +44678,7 @@ _G.pg.ship_skin_words[605050] = {
 	}
 }
 
-_G.pg.ship_skin_words[605051] = {
+_G.pg.base.ship_skin_words[605051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44712,7 +44712,7 @@ _G.pg.ship_skin_words[605051] = {
 	detail = "It's always the normally quiet types that end up making the boldest statements at the beach..."
 }
 
-_G.pg.ship_skin_words[605060] = {
+_G.pg.base.ship_skin_words[605060] = {
 	feeling1 = "Seems you lack the mindset to be a worthy commander.",
 	feeling3 = "A little bit of harsh discipline is the right medicine for slouches who can't obey orders. \"It's not that simple\"? Well, I thought I was making a good suggestion...",
 	lose = "Am I out of my depth...?!",
@@ -44763,7 +44763,7 @@ _G.pg.ship_skin_words[605060] = {
 	}
 }
 
-_G.pg.ship_skin_words[605061] = {
+_G.pg.base.ship_skin_words[605061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44797,7 +44797,7 @@ _G.pg.ship_skin_words[605061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605062] = {
+_G.pg.base.ship_skin_words[605062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44831,7 +44831,7 @@ _G.pg.ship_skin_words[605062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[607010] = {
+_G.pg.base.ship_skin_words[607010] = {
 	feeling1 = "My Commander, are you still alive? ...Well, if I keep doing this, I'm sure you will come back to your senses...! *thwack*!",
 	feeling3 = "Miss Graf Zeppelin? In terms of our history, I'm quite similar to her, right? In that case, \"I shall hope that we may forge the bonds of camaraderie\"... Eheh~",
 	lose = "Ugh... Did I make a mistake somewhere...?",
@@ -44901,7 +44901,7 @@ _G.pg.ship_skin_words[607010] = {
 	}
 }
 
-_G.pg.ship_skin_words[607011] = {
+_G.pg.base.ship_skin_words[607011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44935,7 +44935,7 @@ _G.pg.ship_skin_words[607011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[607012] = {
+_G.pg.base.ship_skin_words[607012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44969,11 +44969,11 @@ _G.pg.ship_skin_words[607012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[607020] = {
+_G.pg.base.ship_skin_words[607020] = {
 	feeling1 = "Get out of my sight. I've no need for a snake like you.",
 	feeling3 = "Have you finally decided to pledge your loyalty to me? ...Hm? I suppose you are a brilliant Commander, but I am also brilliant. How about we swear an oath of mutual loyalty, then?",
 	lose = "They caught wind of my spaghetti planes? I see... Sorry. This is my fault.",
-	propose = "Hm? Is this a ring? You want to marry me? I should probably ask Veneto about this first... I don't have to commit right now, do I? All right, good. I love being free of responsibility because I'm so brilliant. I'll talk to you later then, Commander.",
+	propose = "Hm? Is this a ring? You want to marry me? I should probably tell Veneto about this first... Oh, I can do that later? All right, good. I love being free of responsibility because I'm so brilliant. I'll leave the formalities to you, Commander.",
 	expedition = "The commission team's back. Go give them my regards.",
 	win_mvp = "Daring to pick a fight with the brilliant Impero isn't heroic. It's just foolish.",
 	home = "You've returned. Now where's my thank-you for getting up to bid you welcome back?",
@@ -45020,7 +45020,7 @@ _G.pg.ship_skin_words[607020] = {
 	}
 }
 
-_G.pg.ship_skin_words[607021] = {
+_G.pg.base.ship_skin_words[607021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45054,7 +45054,7 @@ _G.pg.ship_skin_words[607021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[608010] = {
+_G.pg.base.ship_skin_words[608010] = {
 	feeling1 = "You're even edgier than I am... Hehehe...",
 	feeling3 = "Yuubari said thanks? I just gave her an idea for a c-cannon modification, that's all... Now she wants my help with it, too? Uhh, I'm gonna pass...",
 	lose = "I-I'm resurfacing and going back...",
@@ -45105,7 +45105,7 @@ _G.pg.ship_skin_words[608010] = {
 	}
 }
 
-_G.pg.ship_skin_words[608011] = {
+_G.pg.base.ship_skin_words[608011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45139,7 +45139,7 @@ _G.pg.ship_skin_words[608011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701020] = {
+_G.pg.base.ship_skin_words[701020] = {
 	feeling1 = "You're strange, comrade Commander. Everyone tells me not to talk to strange people, but wouldn't you be lonely then...?",
 	feeling3 = "Always I get told to stay away from strange people, but you're not strange, comrade Commander. Meaning it should be fine to accept food from you.",
 	lose = "Blahh... I've had a few drinks too many...",
@@ -45183,7 +45183,7 @@ _G.pg.ship_skin_words[701020] = {
 	}
 }
 
-_G.pg.ship_skin_words[701021] = {
+_G.pg.base.ship_skin_words[701021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45217,7 +45217,7 @@ _G.pg.ship_skin_words[701021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701022] = {
+_G.pg.base.ship_skin_words[701022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45251,7 +45251,7 @@ _G.pg.ship_skin_words[701022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701023] = {
+_G.pg.base.ship_skin_words[701023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45285,7 +45285,7 @@ _G.pg.ship_skin_words[701023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701030] = {
+_G.pg.base.ship_skin_words[701030] = {
 	feeling1 = "Comrade Commander, you're really quite an insipid person. You won't score any admirers that way.",
 	feeling3 = "Ahaha... Comrade Commander, we're already friends, right? So, uh, when they come to collect debts, could you... Hey, wait, why are you running!",
 	lose = "Woah, woah, time out! I'm not ready to retreat yet! Waaah!",
@@ -45328,7 +45328,7 @@ _G.pg.ship_skin_words[701030] = {
 	}
 }
 
-_G.pg.ship_skin_words[701031] = {
+_G.pg.base.ship_skin_words[701031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45362,7 +45362,7 @@ _G.pg.ship_skin_words[701031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701040] = {
+_G.pg.base.ship_skin_words[701040] = {
 	feeling1 = "Stay away from me, moron.",
 	feeling3 = "With a nickname like \"the Blue Cruiser,\" you'd expect me to be someone who's cute and well-behaved right? People are always disillusioned as all hell after meeting me... and, well, I can't blame them. What do you think, dear comrade?",
 	lose = "Curses! Tashkent can still fight!",
@@ -45414,7 +45414,7 @@ _G.pg.ship_skin_words[701040] = {
 	}
 }
 
-_G.pg.ship_skin_words[701041] = {
+_G.pg.base.ship_skin_words[701041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45448,7 +45448,7 @@ _G.pg.ship_skin_words[701041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701042] = {
+_G.pg.base.ship_skin_words[701042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Zzz... So tired...",
@@ -45482,7 +45482,7 @@ _G.pg.ship_skin_words[701042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701050] = {
+_G.pg.base.ship_skin_words[701050] = {
 	feeling1 = "I can do this by myself... I don't need your help.",
 	feeling3 = "Dear comrade, are you concerned about our teamwork? Heh, there's no need for concern. This kind of cooperation is second nature to us girls from the Northern Parliament.",
 	lose = "Were we out of step? But why...?",
@@ -45525,7 +45525,7 @@ _G.pg.ship_skin_words[701050] = {
 	}
 }
 
-_G.pg.ship_skin_words[701060] = {
+_G.pg.base.ship_skin_words[701060] = {
 	feeling1 = "I hate you! Stay away! One step closer and I'm gonna pummel you with snowballs!",
 	feeling3 = "Secret technique! Snow down the back of your neck! That oughta freshen you back up, or so Minsk said! ...Um, Commander... You're not upset, are you?",
 	lose = "Ehhhhh?! How could I lose?!",
@@ -45568,7 +45568,7 @@ _G.pg.ship_skin_words[701060] = {
 	}
 }
 
-_G.pg.ship_skin_words[701061] = {
+_G.pg.base.ship_skin_words[701061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45602,7 +45602,7 @@ _G.pg.ship_skin_words[701061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701070] = {
+_G.pg.base.ship_skin_words[701070] = {
 	feeling1 = "...Why exactly are you still here?",
 	feeling3 = "You might fool Gromky, but you can't fool me. If I catch you doing anything questionable, I won't hesitate to whack you with this thing. Mm, that'll be all.",
 	lose = "Ugh... That was a pretty garbage battle...",
@@ -45671,7 +45671,7 @@ _G.pg.ship_skin_words[701070] = {
 	}
 }
 
-_G.pg.ship_skin_words[701071] = {
+_G.pg.base.ship_skin_words[701071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45705,7 +45705,7 @@ _G.pg.ship_skin_words[701071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701080] = {
+_G.pg.base.ship_skin_words[701080] = {
 	feeling1 = "Comrade Commander... Are you a bad person...?",
 	feeling3 = "Have you been getting along with Gremyashchy? She's a bit rough to get along with at first, but if you're patient enough with her, I'm sure you'll be able to get along with her just fine in the future! I believe in you, Comrade Commander!",
 	lose = "Owww... I didn't think the enemy would be this organized...",
@@ -45775,7 +45775,7 @@ _G.pg.ship_skin_words[701080] = {
 	}
 }
 
-_G.pg.ship_skin_words[701081] = {
+_G.pg.base.ship_skin_words[701081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45809,7 +45809,7 @@ _G.pg.ship_skin_words[701081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701090] = {
+_G.pg.base.ship_skin_words[701090] = {
 	feeling1 = "Others can fix your machines when they break, but only you can make up for the mistakes you've made, Comrade!",
 	feeling3 = "Hmgh! Hurmph! ...What am I up to? Working on my rigging, obviously. Don't worry about the parts rough around the edges – I'll just sandpaper those down later! Ahh-ha-ha-haah!",
 	lose = "How come I've stopped moving?! Come on, rigging! Why aren't you working?!",
@@ -45861,7 +45861,7 @@ _G.pg.ship_skin_words[701090] = {
 	}
 }
 
-_G.pg.ship_skin_words[701091] = {
+_G.pg.base.ship_skin_words[701091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45895,7 +45895,7 @@ _G.pg.ship_skin_words[701091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701100] = {
+_G.pg.base.ship_skin_words[701100] = {
 	feeling1 = "Am I the cause of your sadness? Would you cheer up if I simply... disappeared?",
 	feeling3 = "More people are willing to talk to me than before... I think that's thanks to you, Commander. Thank you.",
 	lose = "Abandoning my comrades to save myself... I refuse to do that!",
@@ -45938,7 +45938,7 @@ _G.pg.ship_skin_words[701100] = {
 	}
 }
 
-_G.pg.ship_skin_words[701101] = {
+_G.pg.base.ship_skin_words[701101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45972,7 +45972,7 @@ _G.pg.ship_skin_words[701101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702010] = {
+_G.pg.base.ship_skin_words[702010] = {
 	feeling1 = "Even I am unable to shed a light into the darkness of your heart, Commander?",
 	feeling3 = "My hometown? It’s very beautiful. Although if you want to go there, you would need to be prepared for the cold. Me? I’ll be fine, even without clothes. Hehe... want proof?",
 	lose = "The Revolution shall not cease its march.",
@@ -46035,7 +46035,7 @@ _G.pg.ship_skin_words[702010] = {
 	}
 }
 
-_G.pg.ship_skin_words[702011] = {
+_G.pg.base.ship_skin_words[702011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "The coming of dawn... is yet deferred...",
@@ -46069,7 +46069,7 @@ _G.pg.ship_skin_words[702011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702012] = {
+_G.pg.base.ship_skin_words[702012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Looks like we got busted...",
@@ -46103,7 +46103,7 @@ _G.pg.ship_skin_words[702012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702020] = {
+_G.pg.base.ship_skin_words[702020] = {
 	feeling1 = "Scumbag...",
 	feeling3 = "*yaaawn*... What's this? Bedsheets and a soft pillow? Wow, how thoughtful of you! Now I can get myself a good nap! Right then... *yawn*... Zzz...",
 	lose = "Сожаление... And here I thought this fleet was stronger than this...",
@@ -46147,7 +46147,7 @@ _G.pg.ship_skin_words[702020] = {
 	}
 }
 
-_G.pg.ship_skin_words[702021] = {
+_G.pg.base.ship_skin_words[702021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Commander, I know I did wrong, and I'm sorry, so come on... Give me some of that fooood...!",
@@ -46181,7 +46181,7 @@ _G.pg.ship_skin_words[702021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702022] = {
+_G.pg.base.ship_skin_words[702022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "My ramen noodles have gotten all soggy! Ugh!",
@@ -46215,7 +46215,7 @@ _G.pg.ship_skin_words[702022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702029] = {
+_G.pg.base.ship_skin_words[702029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Owww, my back... That proves it, I'm not fit for these exhausting battles!",
@@ -46249,7 +46249,7 @@ _G.pg.ship_skin_words[702029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702030] = {
+_G.pg.base.ship_skin_words[702030] = {
 	feeling1 = "You may need some stricter training. Hm. Worrying...",
 	feeling3 = "Fraternizing with subordinates...? Yes, these among comrades who put our lives in each other's hands, trust is the most important thing. I hope you trust in me, Commander, the same way I trust in you.",
 	lose = "Hah... I can do better.",
@@ -46283,7 +46283,7 @@ _G.pg.ship_skin_words[702030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702031] = {
+_G.pg.base.ship_skin_words[702031] = {
 	feeling1 = "I think you need some training in this area, Commander...",
 	feeling3 = "",
 	lose = "Commander, I'm sorry...",
@@ -46317,7 +46317,7 @@ _G.pg.ship_skin_words[702031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702032] = {
+_G.pg.base.ship_skin_words[702032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46351,7 +46351,7 @@ _G.pg.ship_skin_words[702032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702033] = {
+_G.pg.base.ship_skin_words[702033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46385,7 +46385,7 @@ _G.pg.ship_skin_words[702033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702040] = {
+_G.pg.base.ship_skin_words[702040] = {
 	feeling1 = "It pains me to say, but I no longer consider you my comrade.",
 	feeling3 = "Splendid, Comrade Commander. You've chosen a path of your own. Now follow it and see where it takes you!",
 	lose = "Gah...! I cannot and will not succumb until our ambitions have been realized!",
@@ -46445,7 +46445,7 @@ _G.pg.ship_skin_words[702040] = {
 	}
 }
 
-_G.pg.ship_skin_words[702041] = {
+_G.pg.base.ship_skin_words[702041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46479,7 +46479,7 @@ _G.pg.ship_skin_words[702041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702042] = {
+_G.pg.base.ship_skin_words[702042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46513,7 +46513,7 @@ _G.pg.ship_skin_words[702042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702060] = {
+_G.pg.base.ship_skin_words[702060] = {
 	feeling1 = "Is there something wrong? I'm worried about you...",
 	feeling3 = "Oops, sorry, I lost track of time while chatting with a friend, and I forgot I was meeting with you today... Did I make you feel sad? I'm really sorry.",
 	lose = "We lost the battle... I'm sorry for messing up...",
@@ -46547,7 +46547,7 @@ _G.pg.ship_skin_words[702060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702061] = {
+_G.pg.base.ship_skin_words[702061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46581,7 +46581,7 @@ _G.pg.ship_skin_words[702061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[703010] = {
+_G.pg.base.ship_skin_words[703010] = {
 	feeling1 = "Use your head before ordering me around. If you can't even do that much, then I won't lift a finger for you.",
 	feeling3 = "Don't like my scoldings? Then do better! You're not about to tell me you actually ENJOY being scolded, I hope.",
 	lose = "...Tsk, all because of some small mistakes...",
@@ -46642,7 +46642,7 @@ _G.pg.ship_skin_words[703010] = {
 	}
 }
 
-_G.pg.ship_skin_words[703011] = {
+_G.pg.base.ship_skin_words[703011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46676,7 +46676,7 @@ _G.pg.ship_skin_words[703011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[703012] = {
+_G.pg.base.ship_skin_words[703012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "...Tsk. You little rats!",
@@ -46710,7 +46710,7 @@ _G.pg.ship_skin_words[703012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705010] = {
+_G.pg.base.ship_skin_words[705010] = {
 	feeling1 = "There is no future for those who mistake recklessness with courage, comrade.",
 	feeling3 = "I hope you don't take this the wrong way, comrade, but this fight is not just for all of us. It's also yours. Never settle with the status quo, and always seek to keep improving.",
 	lose = "Comrade, consider this not a defeat, but rather a warning. A sign that we are losing sight of our revolutionary spirit.",
@@ -46761,7 +46761,7 @@ _G.pg.ship_skin_words[705010] = {
 	}
 }
 
-_G.pg.ship_skin_words[705011] = {
+_G.pg.base.ship_skin_words[705011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46795,7 +46795,7 @@ _G.pg.ship_skin_words[705011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705012] = {
+_G.pg.base.ship_skin_words[705012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46829,7 +46829,7 @@ _G.pg.ship_skin_words[705012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705040] = {
+_G.pg.base.ship_skin_words[705040] = {
 	feeling1 = "I don't care. You are absolutely nothing to me. Just stay out of my way.",
 	feeling3 = "Oh, so you don't mind losing a bet if it means you get my help? I see. Well, regardless, it doesn't matter who wins a bet made on the spur of the moment. Now, what do you need assistance with, Comrade?",
 	lose = "Everyone makes mistakes, I suppose...",
@@ -46872,7 +46872,7 @@ _G.pg.ship_skin_words[705040] = {
 	}
 }
 
-_G.pg.ship_skin_words[705041] = {
+_G.pg.base.ship_skin_words[705041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46906,7 +46906,7 @@ _G.pg.ship_skin_words[705041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705050] = {
+_G.pg.base.ship_skin_words[705050] = {
 	feeling1 = "This negative attitude is unacceptable. You must be forcibly reeducated.",
 	feeling3 = "Comrade Commander, what is this? You wish to deepen your relationship with me as an individual, not a representative of the Northern Parliament? Well, such subjective decisions are acceptable.",
 	lose = "Gah, how humiliating... to think a material defect would surface at a time like this...!",
@@ -46968,7 +46968,7 @@ _G.pg.ship_skin_words[705050] = {
 	}
 }
 
-_G.pg.ship_skin_words[705051] = {
+_G.pg.base.ship_skin_words[705051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47002,7 +47002,7 @@ _G.pg.ship_skin_words[705051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705060] = {
+_G.pg.base.ship_skin_words[705060] = {
 	feeling1 = "You're a disgrace to your position! Apply yourself!",
 	feeling3 = "Ugh... I'm dog-tired... Ah, Commander. Haven't you been working yourself into the ground too? Just don't go completely overboard, okay?",
 	lose = "All ships, withdraw! ...You haven't seen the last of us!",
@@ -47053,7 +47053,7 @@ _G.pg.ship_skin_words[705060] = {
 	}
 }
 
-_G.pg.ship_skin_words[705061] = {
+_G.pg.base.ship_skin_words[705061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47087,7 +47087,7 @@ _G.pg.ship_skin_words[705061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[707010] = {
+_G.pg.base.ship_skin_words[707010] = {
 	feeling1 = "A nice person doesn't cause trouble for their friends, got it?",
 	feeling3 = "Commander~ Want some vodka? Oh, you can't drink during work hours, huh... Well, just let me know when you're done here~♪",
 	lose = "So this is defeat... But, the final victory will eventually be ours!",
@@ -47142,7 +47142,7 @@ _G.pg.ship_skin_words[707010] = {
 	}
 }
 
-_G.pg.ship_skin_words[707011] = {
+_G.pg.base.ship_skin_words[707011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47176,7 +47176,7 @@ _G.pg.ship_skin_words[707011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[718010] = {
+_G.pg.base.ship_skin_words[718010] = {
 	feeling1 = "If you hope to gain my trust, you're putting in quite a lackluster effort, Comrade.",
 	feeling3 = "One person can only do so much alone. I have my comrades to thank for having made it this far. Likewise, Comrade, if you need my assistance, I'm absolutely willing to give it.",
 	lose = "It's all my fault this happened! Dammit... I apologize for my poor judgment!",
@@ -47233,7 +47233,7 @@ _G.pg.ship_skin_words[718010] = {
 	}
 }
 
-_G.pg.ship_skin_words[718011] = {
+_G.pg.base.ship_skin_words[718011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47267,7 +47267,7 @@ _G.pg.ship_skin_words[718011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801010] = {
+_G.pg.base.ship_skin_words[801010] = {
 	feeling1 = "So... I guess this is the kind of person that you are, Commander...",
 	feeling3 = "In order to realize their ideals and ambitions, even family members may part ways and eventually meet each other on the battlefield... It's so tragic...",
 	lose = "Sometimes... things like this can happen as well...",
@@ -47310,7 +47310,7 @@ _G.pg.ship_skin_words[801010] = {
 	}
 }
 
-_G.pg.ship_skin_words[801020] = {
+_G.pg.base.ship_skin_words[801020] = {
 	feeling1 = "If the knights found out that I had sworn fealty to a person like you... I don't know if they'd blame me or pity me...",
 	feeling3 = "Why do I spend so much time training with the sword? Well, it's true that I don't plan on using it during sorties, but being able to keep myself sharp and in shape is surely an asset on the battlefield!",
 	lose = "I swear... to take this defeat to heart!",
@@ -47353,7 +47353,7 @@ _G.pg.ship_skin_words[801020] = {
 	}
 }
 
-_G.pg.ship_skin_words[801021] = {
+_G.pg.base.ship_skin_words[801021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47387,7 +47387,7 @@ _G.pg.ship_skin_words[801021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801022] = {
+_G.pg.base.ship_skin_words[801022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47421,7 +47421,7 @@ _G.pg.ship_skin_words[801022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801023] = {
+_G.pg.base.ship_skin_words[801023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47455,7 +47455,7 @@ _G.pg.ship_skin_words[801023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801029] = {
+_G.pg.base.ship_skin_words[801029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47489,7 +47489,7 @@ _G.pg.ship_skin_words[801029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801030] = {
+_G.pg.base.ship_skin_words[801030] = {
 	feeling1 = "Commander, you're not going to have any friends left!",
 	feeling3 = "I have a play date with my friends today! Commander, want to join us?",
 	lose = "Ehh? I lost...?",
@@ -47532,7 +47532,7 @@ _G.pg.ship_skin_words[801030] = {
 	}
 }
 
-_G.pg.ship_skin_words[801031] = {
+_G.pg.base.ship_skin_words[801031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47566,7 +47566,7 @@ _G.pg.ship_skin_words[801031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801032] = {
+_G.pg.base.ship_skin_words[801032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47600,7 +47600,7 @@ _G.pg.ship_skin_words[801032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801040] = {
+_G.pg.base.ship_skin_words[801040] = {
 	feeling1 = "I wonder if there's a chant that'll turn you invisible...",
 	feeling3 = "Watch this coin closely, Commander. Left... right... left... right... Yes, you're feeling veeery sleepy... Oh. I suppose my hypnosis didn't quite work on you...",
 	lose = "If only I had a spell that could protect us all...!",
@@ -47643,7 +47643,7 @@ _G.pg.ship_skin_words[801040] = {
 	}
 }
 
-_G.pg.ship_skin_words[801041] = {
+_G.pg.base.ship_skin_words[801041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47677,7 +47677,7 @@ _G.pg.ship_skin_words[801041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801070] = {
+_G.pg.base.ship_skin_words[801070] = {
 	feeling1 = "If you wish to make a confession, better to turn to the Cardinal rather than to me.",
 	feeling3 = "You'd like to have a chat? Let's see then... Between life, freedom, and love, which is most important to you, Commander? Hehe, don't be alarmed that I suddenly sprang that question on you. I simply wanted to see how you'd react~",
 	lose = "The warriors of Iris Libre must not falter.",
@@ -47736,7 +47736,7 @@ _G.pg.ship_skin_words[801070] = {
 	}
 }
 
-_G.pg.ship_skin_words[801071] = {
+_G.pg.base.ship_skin_words[801071] = {
 	feeling1 = "Zzzzz",
 	feeling3 = "Zzzzz",
 	lose = "I knew it, I'm just not good enough... Unlike some of those Eagle Union destroyers...",
@@ -47770,7 +47770,7 @@ _G.pg.ship_skin_words[801071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801080] = {
+_G.pg.base.ship_skin_words[801080] = {
 	feeling1 = "We both have goals to work towards! I'll strive to be a full Templar Knight, and thou should strive to be a half-decent commander!",
 	feeling3 = "Lord Commander, if you ever feel anxious before a battle, simply put your hands together and pray, like... \"Iris, watch over our souls,\" and you'll be fine!",
 	lose = "Th-thou may crush my body, but my spirit will live on...! Wait, that doesn't sound right...",
@@ -47837,7 +47837,7 @@ _G.pg.ship_skin_words[801080] = {
 	}
 }
 
-_G.pg.ship_skin_words[801081] = {
+_G.pg.base.ship_skin_words[801081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47871,7 +47871,7 @@ _G.pg.ship_skin_words[801081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802010] = {
+_G.pg.base.ship_skin_words[802010] = {
 	feeling1 = "I can't feel any passion coming from you, Commander...",
 	feeling3 = "Because we focus on the details, we can see the beauty of everyday things. I believe a true romanticist values even the smallest of life's beautiful things.",
 	lose = "Oh, dear... Perhaps I left my guard too low.",
@@ -47905,7 +47905,7 @@ _G.pg.ship_skin_words[802010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802011] = {
+_G.pg.base.ship_skin_words[802011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47939,7 +47939,7 @@ _G.pg.ship_skin_words[802011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802012] = {
+_G.pg.base.ship_skin_words[802012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47973,7 +47973,7 @@ _G.pg.ship_skin_words[802012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802013] = {
+_G.pg.base.ship_skin_words[802013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48007,7 +48007,7 @@ _G.pg.ship_skin_words[802013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802019] = {
+_G.pg.base.ship_skin_words[802019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48041,7 +48041,7 @@ _G.pg.ship_skin_words[802019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802020] = {
+_G.pg.base.ship_skin_words[802020] = {
 	feeling1 = "...If you are a demon, I will not hesitate to cut you down with my sword... If if is just that you have strayed from the righteous path, then repent, now!",
 	feeling3 = "This blade does not exist to be wielded for my sake. I wield this blade for you, my homeland of Iris Libre, and for all in the fleet...",
 	lose = "No, I can't stop here...",
@@ -48084,7 +48084,7 @@ _G.pg.ship_skin_words[802020] = {
 	}
 }
 
-_G.pg.ship_skin_words[802021] = {
+_G.pg.base.ship_skin_words[802021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48118,7 +48118,7 @@ _G.pg.ship_skin_words[802021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[805010] = {
+_G.pg.base.ship_skin_words[805010] = {
 	feeling1 = "Those who refuse to stop marching shall face the path of ruin... Make sure you keep that in mind.",
 	feeling3 = "Commander, please have a seat. What would you like to drink? ...There's no need to be on guard. Even someone like me lives an ordinary life when not on duty or performing religious rites. A person cannot live on faith alone. Sometimes, you just need a drink or two. Hehe.",
 	lose = "Is this... also a trial from Heaven...?",
@@ -48208,7 +48208,7 @@ _G.pg.ship_skin_words[805010] = {
 	}
 }
 
-_G.pg.ship_skin_words[805011] = {
+_G.pg.base.ship_skin_words[805011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48242,7 +48242,7 @@ _G.pg.ship_skin_words[805011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[805012] = {
+_G.pg.base.ship_skin_words[805012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48276,7 +48276,7 @@ _G.pg.ship_skin_words[805012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[807010] = {
+_G.pg.base.ship_skin_words[807010] = {
 	feeling1 = "\"You are the most outstanding, exceptional commander I have ever met.\" – You can only hope to hear me say these words in your most outlandish dreams.",
 	feeling3 = "A \"grimoire\"? Hmm... And you say L'Opiniâtre told you this? It's certainly an amusing allegory. Now, I'm afraid I must take my leave for a while, as I have business to attend to.",
 	lose = "I sincerely apologize, Commander. I take full responsibility for this defeat.",
@@ -48338,7 +48338,7 @@ _G.pg.ship_skin_words[807010] = {
 	}
 }
 
-_G.pg.ship_skin_words[807011] = {
+_G.pg.base.ship_skin_words[807011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48372,7 +48372,7 @@ _G.pg.ship_skin_words[807011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[808010] = {
+_G.pg.base.ship_skin_words[808010] = {
 	feeling1 = "Oh, Commander, could you get back to work? I have more fun when you're not around.",
 	feeling3 = "Salut~! Wanna go have some fun, Commander? Let's take a walk around town, go shopping, then fall asleep in a grass field~",
 	lose = "Oops, we lost... Commander, think we should flee?",
@@ -48406,7 +48406,7 @@ _G.pg.ship_skin_words[808010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[808011] = {
+_G.pg.base.ship_skin_words[808011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48440,7 +48440,7 @@ _G.pg.ship_skin_words[808011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[808012] = {
+_G.pg.base.ship_skin_words[808012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48474,7 +48474,7 @@ _G.pg.ship_skin_words[808012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901010] = {
+_G.pg.base.ship_skin_words[901010] = {
 	feeling1 = "Woah, Commander... I, I think I'll be training solo today!",
 	feeling3 = "Commander, you'll help me study? Yay! Thank you so much! I'll be sure to... Huuhh? Wait, I have to memorize all this?! S-sorry, I have a stomachache!",
 	lose = "Merdé! Time to retreat!",
@@ -48517,7 +48517,7 @@ _G.pg.ship_skin_words[901010] = {
 	}
 }
 
-_G.pg.ship_skin_words[901011] = {
+_G.pg.base.ship_skin_words[901011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48551,7 +48551,7 @@ _G.pg.ship_skin_words[901011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901012] = {
+_G.pg.base.ship_skin_words[901012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48585,7 +48585,7 @@ _G.pg.ship_skin_words[901012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901019] = {
+_G.pg.base.ship_skin_words[901019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48619,7 +48619,7 @@ _G.pg.ship_skin_words[901019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901020] = {
+_G.pg.base.ship_skin_words[901020] = {
 	feeling1 = "Commander, please be quiet. I can't even hear my own thoughts over your ruckus...",
 	feeling3 = "Listen up, me, if I keep overthinking everything, I won't notice what's going on around me... and then won't be able to become a mature and compassionate woman...",
 	lose = "Hmm... I knew I should have aimed a bit more to the left on that last shot... Oh, I'm sorry... I should be retreating right now...!",
@@ -48670,7 +48670,7 @@ _G.pg.ship_skin_words[901020] = {
 	}
 }
 
-_G.pg.ship_skin_words[901021] = {
+_G.pg.base.ship_skin_words[901021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48704,7 +48704,7 @@ _G.pg.ship_skin_words[901021] = {
 	detail = "The book I last read took place on the beach, if I remember properly... It was a murder mystery on the beach, right?"
 }
 
-_G.pg.ship_skin_words[901030] = {
+_G.pg.base.ship_skin_words[901030] = {
 	feeling1 = "You know, I've learned something, Commander. People who can't introspect probably won't make many friends...",
 	feeling3 = "Something that's bothered me lately? Well, Tartu asked me for advice on becoming more ladylike, so I thoughtlessly recommended this detective novel I've been reading, and she apparently got hooked on reading it... It feels like that was a mistake, you know?",
 	lose = "Huh? You're asking for my opinion on what went wrong? Dunno, that's your job to find out, Commander!",
@@ -48747,7 +48747,7 @@ _G.pg.ship_skin_words[901030] = {
 	}
 }
 
-_G.pg.ship_skin_words[901031] = {
+_G.pg.base.ship_skin_words[901031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48781,7 +48781,7 @@ _G.pg.ship_skin_words[901031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901032] = {
+_G.pg.base.ship_skin_words[901032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "So yeah, I'm thinking it's time for me to scoot! Phew... Good thing I picked a non-cumbersome dress...",
@@ -48815,7 +48815,7 @@ _G.pg.ship_skin_words[901032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901110] = {
+_G.pg.base.ship_skin_words[901110] = {
 	feeling1 = "...... (Le Malin seems to have fallen asleep)",
 	feeling3 = "I, I did say that I was ready to take your orders at any time, but... there's just too much work after all...... Tired... Can't work anymore... Please let me go on leave...",
 	lose = "I won't admit defeat... I haven't lost yet!!",
@@ -48858,7 +48858,7 @@ _G.pg.ship_skin_words[901110] = {
 	}
 }
 
-_G.pg.ship_skin_words[901111] = {
+_G.pg.base.ship_skin_words[901111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I really can't get any work done today after all... I just want to head back and relax already...",
@@ -48892,7 +48892,7 @@ _G.pg.ship_skin_words[901111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901112] = {
+_G.pg.base.ship_skin_words[901112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "So hot...... Why must we sortie in this kind of weather?!",
@@ -48926,7 +48926,7 @@ _G.pg.ship_skin_words[901112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901113] = {
+_G.pg.base.ship_skin_words[901113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I wouldn't have signed up if I knew this was going to happen...",
@@ -48960,7 +48960,7 @@ _G.pg.ship_skin_words[901113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901120] = {
+_G.pg.base.ship_skin_words[901120] = {
 	feeling1 = "This... must be carte blanche to loaf around as much as I want...",
 	feeling3 = "Lessons, offers, training, and rehearsals... There's too much stuff to do... I can't deal with this anymore! I'm gonna pass out at this rate... Just looking at the schedule is making me want to crawl back into bed... Maybe I should do just that today~",
 	lose = "There's no time for regrets...!",
@@ -49019,7 +49019,7 @@ _G.pg.ship_skin_words[901120] = {
 	}
 }
 
-_G.pg.ship_skin_words[902010] = {
+_G.pg.base.ship_skin_words[902010] = {
 	feeling1 = "If you wanna quit being a commander, I could refer you to a decent new job.",
 	feeling3 = "I've got some of Dunkerque's handmade mousse cake! Here, have a slice. Nah, nah, don't thank me, thank the girl who made it!",
 	lose = "Oops, I've been beaten... Just let me fight another time!",
@@ -49070,7 +49070,7 @@ _G.pg.ship_skin_words[902010] = {
 	}
 }
 
-_G.pg.ship_skin_words[902011] = {
+_G.pg.base.ship_skin_words[902011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49104,7 +49104,7 @@ _G.pg.ship_skin_words[902011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[902012] = {
+_G.pg.base.ship_skin_words[902012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49138,7 +49138,7 @@ _G.pg.ship_skin_words[902012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[902013] = {
+_G.pg.base.ship_skin_words[902013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49172,7 +49172,7 @@ _G.pg.ship_skin_words[902013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[903010] = {
+_G.pg.base.ship_skin_words[903010] = {
 	feeling1 = "If you're truly planning on leading everyone to victory, you'll need to put more heart into it, instead of being this tepid.",
 	feeling3 = "Don't tense up like that, Commander, relax! ...And quietly accept your fate... Letting yourself be taken care of is for your own benefit, you know~♪",
 	lose = "Even with these enhancements, I'm still not strong enough...",
@@ -49223,7 +49223,7 @@ _G.pg.ship_skin_words[903010] = {
 	}
 }
 
-_G.pg.ship_skin_words[903011] = {
+_G.pg.base.ship_skin_words[903011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49257,7 +49257,7 @@ _G.pg.ship_skin_words[903011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[903020] = {
+_G.pg.base.ship_skin_words[903020] = {
 	feeling1 = "Oh, Commander. I've been looking into the documents that need to be prepared for your formal retirement. Are you ready to start the process?",
 	feeling3 = "Commander, won't you drink a little with me? Are you perhaps bad at holding your alcohol? That's alright. Just take a little sip, like this... and try slowly tasting it with your throat... That's it... Don't you taste it?... The cool, rich flavor of maturity.",
 	lose = "It seems that I lost... But don't worry, Commander. Let's prepare carefully and try again.",
@@ -49319,7 +49319,7 @@ _G.pg.ship_skin_words[903020] = {
 	}
 }
 
-_G.pg.ship_skin_words[903021] = {
+_G.pg.base.ship_skin_words[903021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49353,7 +49353,7 @@ _G.pg.ship_skin_words[903021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[904010] = {
+_G.pg.base.ship_skin_words[904010] = {
 	feeling1 = "Ça faisait longtemps, Commander. There's no need to worry about me; I've been doing fine.",
 	feeling3 = "Back then, none of us had a choice... so I don't blame the Royal Navy for what happened. Quite the contrary - if it wasn't for them, we might not be fighting together now.",
 	lose = "T'en fais pas... a defeat here is not the end.",
@@ -49387,7 +49387,7 @@ _G.pg.ship_skin_words[904010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[904011] = {
+_G.pg.base.ship_skin_words[904011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49421,7 +49421,7 @@ _G.pg.ship_skin_words[904011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[904012] = {
+_G.pg.base.ship_skin_words[904012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49455,7 +49455,7 @@ _G.pg.ship_skin_words[904012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905010] = {
+_G.pg.base.ship_skin_words[905010] = {
 	feeling1 = "Seems you've mistaken a wolf for a dog... Hmph, don't start crying if you get bit cause of it.",
 	feeling3 = "Stop looking so intimidated. Long as you won't betray me, I won't betray you.",
 	lose = "My payback comes with interest... Before long, you'll know how much!",
@@ -49506,7 +49506,7 @@ _G.pg.ship_skin_words[905010] = {
 	}
 }
 
-_G.pg.ship_skin_words[905011] = {
+_G.pg.base.ship_skin_words[905011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Hmph. Still better than going to that banquet...",
@@ -49540,7 +49540,7 @@ _G.pg.ship_skin_words[905011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905012] = {
+_G.pg.base.ship_skin_words[905012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49574,7 +49574,7 @@ _G.pg.ship_skin_words[905012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905013] = {
+_G.pg.base.ship_skin_words[905013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49608,7 +49608,7 @@ _G.pg.ship_skin_words[905013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905030] = {
+_G.pg.base.ship_skin_words[905030] = {
 	feeling1 = "Master evaluated as unbeneficial to the improvement of Gascogne's idol talents. Activating autonomous learning module. Please step away from Gascogne.",
 	feeling3 = "Emotional activity was detected during musical performance on stage. Requesting investigation into origin of this phenomenon.",
 	lose = "Gascogne requesting immediate termination of current protocol and enabling of default combat mode.",
@@ -49642,7 +49642,7 @@ _G.pg.ship_skin_words[905030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900001] = {
+_G.pg.base.ship_skin_words[900001] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49676,7 +49676,7 @@ _G.pg.ship_skin_words[900001] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900002] = {
+_G.pg.base.ship_skin_words[900002] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49710,7 +49710,7 @@ _G.pg.ship_skin_words[900002] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900003] = {
+_G.pg.base.ship_skin_words[900003] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49744,7 +49744,7 @@ _G.pg.ship_skin_words[900003] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900004] = {
+_G.pg.base.ship_skin_words[900004] = {
 	feeling1 = "...the sky is so blue.",
 	feeling3 = "Reconnaissance is a very important task! Eh, losing focus? Wh-what are you saying, I'm just ob-observing the weather.",
 	lose = "Wuu...if only I paid more attention.",
@@ -49778,7 +49778,7 @@ _G.pg.ship_skin_words[900004] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900005] = {
+_G.pg.base.ship_skin_words[900005] = {
 	feeling1 = "Wuu...",
 	feeling3 = "Commander...can you tell more stories to Norfolk...this time I brought a fairy tale book I want to listen to...",
 	lose = "Wuwuwu...I'm not suitable for combat afterall...",
@@ -49812,7 +49812,7 @@ _G.pg.ship_skin_words[900005] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900006] = {
+_G.pg.base.ship_skin_words[900006] = {
 	feeling1 = "Sigh, seems like you have to learn it the hard way.",
 	feeling3 = "I talk about being refined at all times, but Commander need not to force yourself to comply. Your normal self is most charming.",
 	lose = "Victory and defeat are commonplace among those who fight, and we have all the time in the world.",
@@ -49879,7 +49879,7 @@ _G.pg.ship_skin_words[900006] = {
 	}
 }
 
-_G.pg.ship_skin_words[900007] = {
+_G.pg.base.ship_skin_words[900007] = {
 	feeling1 = "Keep your distance. You are not qualified to command me...",
 	feeling3 = "You never know how many plans, hopes, and efforts would sink into the sea with you, Commander. Don't die too easily.",
 	lose = "A horse may stumble even though he has four legs. Let's try again next time.",
@@ -49913,7 +49913,7 @@ _G.pg.ship_skin_words[900007] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900040] = {
+_G.pg.base.ship_skin_words[900040] = {
 	feeling1 = "I don't really want to get any closer.",
 	feeling3 = "Commander, you're always saying that my ears are cute... But why won't you touch them?",
 	lose = "It's okay... I'll recover quickly.",
@@ -49947,7 +49947,7 @@ _G.pg.ship_skin_words[900040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900041] = {
+_G.pg.base.ship_skin_words[900041] = {
 	feeling1 = "A sword has no eyes. It would be wise to avoid approaching me casually.",
 	feeling3 = "It might be pretty nice to just set aside my duties and have a relaxing conversation with you every once in a while, Commander.",
 	lose = "I was careless... I definitely will not fail next time!",
@@ -49981,7 +49981,7 @@ _G.pg.ship_skin_words[900041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900042] = {
+_G.pg.base.ship_skin_words[900042] = {
 	feeling1 = "You've been naughty, Commander. Do you want to be punished so badly? *giggles*",
 	feeling3 = "Commander, would you like me to clean your ears? Come on, don't be shy. Just leave it to me~",
 	lose = "Oh my... this is a bit troublesome...",
@@ -50015,7 +50015,7 @@ _G.pg.ship_skin_words[900042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900043] = {
+_G.pg.base.ship_skin_words[900043] = {
 	feeling1 = "I think I just saw a future in which you were cut down by {namecode:91}, Commander.",
 	feeling3 = "Do I hold a grudge against the First and Second Carrier Divisions? Of course~ For them to leave us behind like that, wouldn’t anyone complain in that situation?",
 	lose = "Hiryuu-senpai may be willing to fight until the bitter end, but... that’s not my style. What a shame~",
@@ -50090,7 +50090,7 @@ _G.pg.ship_skin_words[900043] = {
 	}
 }
 
-_G.pg.ship_skin_words[900044] = {
+_G.pg.base.ship_skin_words[900044] = {
 	feeling1 = "Commander, would you like a taste of the anguish I experienced during the Battle of the Marianas?",
 	feeling3 = "My fate always seems to be entertwined with Lexington’s... Ah~ Commander, please don’t tell Sara I said that. I can’t handle that girl.",
 	lose = "Am I going to be sunk... again...?",
@@ -50165,7 +50165,7 @@ _G.pg.ship_skin_words[900044] = {
 	}
 }
 
-_G.pg.ship_skin_words[900045] = {
+_G.pg.base.ship_skin_words[900045] = {
 	feeling1 = "You Showa-born brat!",
 	feeling3 = "If you don't have a plan to end a war, then you'd better not start one to begin with!",
 	lose = "So this what it must have felt like to suffer through the Battle of Dan-no-ura...",
@@ -50232,7 +50232,7 @@ _G.pg.ship_skin_words[900045] = {
 	}
 }
 
-_G.pg.ship_skin_words[900046] = {
+_G.pg.base.ship_skin_words[900046] = {
 	feeling1 = "What a pity...",
 	feeling3 = "That Kirishima... She's actually quite the popular one...",
 	lose = "Was I bested...?",
@@ -50275,7 +50275,7 @@ _G.pg.ship_skin_words[900046] = {
 	}
 }
 
-_G.pg.ship_skin_words[900132] = {
+_G.pg.base.ship_skin_words[900132] = {
 	feeling1 = "SG, protect me...",
 	feeling3 = "My expression? Ah... it's because I left while we were on the losing end of the war... I might just not be so used to peace and happiness. But don't worry, I'll be fine!",
 	lose = "... Please, save me... Ignore the enemy, just let them go...",
@@ -50336,7 +50336,7 @@ _G.pg.ship_skin_words[900132] = {
 	}
 }
 
-_G.pg.ship_skin_words[900133] = {
+_G.pg.base.ship_skin_words[900133] = {
 	feeling1 = "Commander, I'm gonna get angry.",
 	feeling3 = "If you’re only going by appearances, every child in this fleet looks cute. But in terms of personality, they all have their unique quirks. To be honest, I am a bit envious of them. (strokes chin).",
 	lose = "Not so successful... let's try again next time.",
@@ -50370,7 +50370,7 @@ _G.pg.ship_skin_words[900133] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900134] = {
+_G.pg.base.ship_skin_words[900134] = {
 	feeling1 = "You are too weak, it’s no fun playing with you, go practice some more.",
 	feeling3 = "No, no, that’s not right. If we do it this way, won’t it end much the same like in the past? … Don’t try so hard? You sometimes say stuff like that… Hmm? That was a good smile from me just now?",
 	lose = "Oh, I will not forget you!",
@@ -50404,7 +50404,7 @@ _G.pg.ship_skin_words[900134] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900135] = {
+_G.pg.base.ship_skin_words[900135] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50438,7 +50438,7 @@ _G.pg.ship_skin_words[900135] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900161] = {
+_G.pg.base.ship_skin_words[900161] = {
 	feeling1 = "Would you please not act like we're close...",
 	feeling3 = "I'm not very elegant? I'm sorry that I'm not like Hood or the others... No... I'm not talking about my body...",
 	lose = "My damage control isn't functioning?! I've lost control of my steering wheel as well! Why now, at such a critical moment?!",
@@ -50514,7 +50514,7 @@ _G.pg.ship_skin_words[900161] = {
 	}
 }
 
-_G.pg.ship_skin_words[900162] = {
+_G.pg.base.ship_skin_words[900162] = {
 	feeling1 = "",
 	feeling3 = "诶，指挥官也在这里呀。秘密基地？诶嘿嘿，我不太清楚呢~说回来，指挥官看到我的点心了吗？不，那东西可不能吃",
 	lose = "",
@@ -50548,7 +50548,7 @@ _G.pg.ship_skin_words[900162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900180] = {
+_G.pg.base.ship_skin_words[900180] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Never again... will I repeat the failures of the past! ",
@@ -50582,7 +50582,7 @@ _G.pg.ship_skin_words[900180] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900181] = {
+_G.pg.base.ship_skin_words[900181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Never again... will I repeat the failures of the past! ",
@@ -50616,7 +50616,7 @@ _G.pg.ship_skin_words[900181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900182] = {
+_G.pg.base.ship_skin_words[900182] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Never again... will I repeat the failures of the past! ",
@@ -50650,7 +50650,7 @@ _G.pg.ship_skin_words[900182] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900183] = {
+_G.pg.base.ship_skin_words[900183] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50684,7 +50684,7 @@ _G.pg.ship_skin_words[900183] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900184] = {
+_G.pg.base.ship_skin_words[900184] = {
 	feeling1 = "...Commander, you don't seem to have enough courage",
 	feeling3 = "All the lights in the sky are stars, just as all the lights on the seas are enemies... Commander, will there be a day where there's no more fighting?",
 	lose = "I've lost after giving my all. I'm not regretting this...",
@@ -50770,7 +50770,7 @@ _G.pg.ship_skin_words[900184] = {
 	}
 }
 
-_G.pg.ship_skin_words[900185] = {
+_G.pg.base.ship_skin_words[900185] = {
 	feeling1 = "Commander, where's your dignity!?",
 	feeling3 = "I've relentlessly honed my skills in order to defeat all our enemies, but... is that really all there is to life?",
 	lose = "I'm still not... mature enough?",
@@ -50813,7 +50813,7 @@ _G.pg.ship_skin_words[900185] = {
 	}
 }
 
-_G.pg.ship_skin_words[900186] = {
+_G.pg.base.ship_skin_words[900186] = {
 	feeling1 = "*Sigh*... So that's all, huh. I was wrong to get my hopes up.",
 	feeling3 = "Hm? You'd never have guessed that I'd be into ballet? ... What's that supposed to mean?! Laugh one more time and I'll punch you!",
 	lose = "Darn it... Reckless bunch of...",
@@ -50856,7 +50856,7 @@ _G.pg.ship_skin_words[900186] = {
 	}
 }
 
-_G.pg.ship_skin_words[900187] = {
+_G.pg.base.ship_skin_words[900187] = {
 	feeling1 = "Guess my big sis can't tell good and bad people apart...",
 	feeling3 = "My big sis is... strong, cool, has a golden smile, and she could probably beat anyone in a fight... I want to be like her one day.",
 	lose = "Big sis... I'm sorry... I've stained the reputation of the Knights of the Sea...",
@@ -50899,7 +50899,7 @@ _G.pg.ship_skin_words[900187] = {
 	}
 }
 
-_G.pg.ship_skin_words[900188] = {
+_G.pg.base.ship_skin_words[900188] = {
 	feeling1 = "Sorry, my sisters are waiting for me. I don't have time to deal with you.",
 	feeling3 = "Mm... I'm not trying to make myself look stronger than I am or anything, but honestly, I think there aren't many people like you who I can speak to like an equal...",
 	lose = "Ahaha... this isn't so good...",
@@ -50951,7 +50951,7 @@ _G.pg.ship_skin_words[900188] = {
 	}
 }
 
-_G.pg.ship_skin_words[900235] = {
+_G.pg.base.ship_skin_words[900235] = {
 	feeling1 = "Wahh~! Commander is a big, big dummy!",
 	feeling3 = "Bulin is happy that she can help everyone get stronger, but she enjoys playing with you too, Commander! Bulin can help strengthen you... Aww, why not?",
 	lose = "Huh? Am I... no good in battle, buli?",
@@ -50985,7 +50985,7 @@ _G.pg.ship_skin_words[900235] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900240] = {
+_G.pg.base.ship_skin_words[900240] = {
 	feeling1 = "Zzzzzzz...",
 	feeling3 = "I thought you were a bit boring at first, Commander... But now that I've been thinking about it, I'm not really motivated about anything other than fighting, so we might be a decent match...",
 	lose = "Mmm... We lost... They weren't so easy were they?",
@@ -51036,7 +51036,7 @@ _G.pg.ship_skin_words[900240] = {
 	}
 }
 
-_G.pg.ship_skin_words[900241] = {
+_G.pg.base.ship_skin_words[900241] = {
 	feeling1 = "Commander, if you don't behave yourself, I am going to start disliking you. You hear me?",
 	feeling3 = "I've gotten closer to you now, Commander. Hehehe. But I'm gonna have to work harder~",
 	lose = "Ugh... I let my guard down...",
@@ -51095,7 +51095,7 @@ _G.pg.ship_skin_words[900241] = {
 	}
 }
 
-_G.pg.ship_skin_words[900242] = {
+_G.pg.base.ship_skin_words[900242] = {
 	feeling1 = "Commander, can you not bother me when I’m trying to study?",
 	feeling3 = "You’re a bit tired? Very well, getting rest is important. You want a lap pillow? I guess it’s fine... just for a little while...",
 	lose = "*sobs* ... No, I mustn’t cry...",
@@ -51138,7 +51138,7 @@ _G.pg.ship_skin_words[900242] = {
 	}
 }
 
-_G.pg.ship_skin_words[900243] = {
+_G.pg.base.ship_skin_words[900243] = {
 	feeling1 = "I don't really want to get any closer.",
 	feeling3 = "Commander, you're always saying that my ears are cute... But why won't you touch them?",
 	lose = "It's okay... I'll recover quickly.",
@@ -51172,7 +51172,7 @@ _G.pg.ship_skin_words[900243] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900244] = {
+_G.pg.base.ship_skin_words[900244] = {
 	feeling1 = "In the end... are you just another incompetent fool, unable to command me?",
 	feeling3 = "Those who have nothing to lose also have nothing to fear... But is this kind of bravery really anything to be proud of?",
 	lose = "So this is... the frustration that comes from failure and fear.",
@@ -51206,7 +51206,7 @@ _G.pg.ship_skin_words[900244] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900245] = {
+_G.pg.base.ship_skin_words[900245] = {
 	feeling1 = "You again...?",
 	feeling3 = "Does prayer really work? Will God ever respond? Nein. Gods are called as such because they are merciless.",
 	lose = "Next time, I shall grant you despair even worse than death.",
@@ -51240,7 +51240,7 @@ _G.pg.ship_skin_words[900245] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900246] = {
+_G.pg.base.ship_skin_words[900246] = {
 	feeling1 = "I assumed you were more intelligent, Commander...",
 	feeling3 = "\"The Ugly Sisters...\" Though we were given that epithet for our achievements, it still hurts a little. Commander, do you think I'm ugly?",
 	lose = "I let my guard down...",
@@ -51274,7 +51274,7 @@ _G.pg.ship_skin_words[900246] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900247] = {
+_G.pg.base.ship_skin_words[900247] = {
 	feeling1 = "I think I just saw a future in which you were cut down by {namecode:91}, Commander.",
 	feeling3 = "Do I hold a grudge against the First and Second Carrier Divisions? Of course~ For them to leave us behind like that, wouldn’t anyone complain in that situation?",
 	lose = "Hiryuu-senpai may be willing to fight until the bitter end, but... that’s not my style. What a shame~",
@@ -51308,7 +51308,7 @@ _G.pg.ship_skin_words[900247] = {
 	detail = "The melody of my flute is a requiem for the dead. Shall I play it for you?"
 }
 
-_G.pg.ship_skin_words[900248] = {
+_G.pg.base.ship_skin_words[900248] = {
 	feeling1 = "Commander, would you like a taste of the anguish I experienced during the Battle of the Marianas?",
 	feeling3 = "My fate always seems to be entertwined with Lexington’s... Ah~ Commander, please don’t tell Sara I said that. I can’t handle that girl.",
 	lose = "Am I going to be sunk... again...?",
@@ -51342,7 +51342,7 @@ _G.pg.ship_skin_words[900248] = {
 	detail = "That Grey Ghost... I’d like to duel her just once."
 }
 
-_G.pg.ship_skin_words[900249] = {
+_G.pg.base.ship_skin_words[900249] = {
 	feeling1 = "You're so boring, Milord. I don't want to play with you anymore.",
 	feeling3 = "I love my sister, but she's a bit too quiet sometimes. Milord, I like spending time with you more because you'll play with me!",
 	lose = "Uu... Sister... where are you? *sobs*",
@@ -51376,7 +51376,7 @@ _G.pg.ship_skin_words[900249] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900250] = {
+_G.pg.base.ship_skin_words[900250] = {
 	feeling1 = "Commander, I'm gonna get angry.",
 	feeling3 = "If you’re only going by appearances, every child in this fleet looks cute. But in terms of personality, they all have their unique quirks. To be honest, I am a bit envious of them. (strokes chin).",
 	lose = "Not so successful... let's try again next time.",
@@ -51410,7 +51410,7 @@ _G.pg.ship_skin_words[900250] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900251] = {
+_G.pg.base.ship_skin_words[900251] = {
 	feeling1 = "You are too weak, it’s no fun playing with you, go practice some more.",
 	feeling3 = "No, no, that’s not right. If we do it this way, won’t it end much the same like in the past? … Don’t try so hard? You sometimes say stuff like that… Hmm? That was a good smile from me just now?",
 	lose = "Oh, I will not forget you!",
@@ -51444,7 +51444,7 @@ _G.pg.ship_skin_words[900251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900252] = {
+_G.pg.base.ship_skin_words[900252] = {
 	feeling1 = "...Commander, you don't seem to have enough courage",
 	feeling3 = "All the lights in the sky are stars, just as all the lights on the seas are enemies... Commander, will there be a day where there's no more fighting?",
 	lose = "I've lost after giving my all. I'm not regretting this...",
@@ -51478,7 +51478,7 @@ _G.pg.ship_skin_words[900252] = {
 	detail = "Want to look at my medal collection?"
 }
 
-_G.pg.ship_skin_words[900253] = {
+_G.pg.base.ship_skin_words[900253] = {
 	feeling1 = "It would appear... that I must get a little more violent...",
 	feeling3 = "How thy visage tempts me so with each passing moment... I must ask of thee, just how sweet is thy blood?",
 	lose = "Ahh... why dost thou obstinately refuse to obey me...",
@@ -51529,7 +51529,7 @@ _G.pg.ship_skin_words[900253] = {
 	}
 }
 
-_G.pg.ship_skin_words[900254] = {
+_G.pg.base.ship_skin_words[900254] = {
 	feeling1 = "I'm fed up~! I'll knock you out stone cold!",
 	feeling3 = "My part in the pursuit of Bismarck and Operation Tungsten? I was just in the mood to help, I wasn't at all trying to earn any honours.",
 	lose = "Remaining dignified even in defeat: this is how one should lose a battle!",
@@ -51580,7 +51580,7 @@ _G.pg.ship_skin_words[900254] = {
 	}
 }
 
-_G.pg.ship_skin_words[900255] = {
+_G.pg.base.ship_skin_words[900255] = {
 	feeling1 = "You Showa-born brat!",
 	feeling3 = "If you don't have a plan to end a war, then you'd better not start one to begin with!",
 	lose = "So this what it must have felt like to suffer through the Battle of Dan-no-ura...",
@@ -51647,7 +51647,7 @@ _G.pg.ship_skin_words[900255] = {
 	}
 }
 
-_G.pg.ship_skin_words[900256] = {
+_G.pg.base.ship_skin_words[900256] = {
 	feeling1 = "Your body is weak, Commander. Are you eating properly?",
 	feeling3 = "Seeing you challenging yourself with things you can't do is... interesting. It makes me want to explore my own limits, too.",
 	lose = "Sorry, I got distracted...",
@@ -51698,7 +51698,7 @@ _G.pg.ship_skin_words[900256] = {
 	}
 }
 
-_G.pg.ship_skin_words[900257] = {
+_G.pg.base.ship_skin_words[900257] = {
 	feeling1 = "*Sigh* Seems like you must learn it the hard way.",
 	feeling3 = "Though I speak of being refined at all times, you need not force yourself, Commander. Your normal self is the most charming, after all.",
 	lose = "Victory and defeat are commonplace among those who fight, and it is we that have all the time in the world!",
@@ -51765,7 +51765,7 @@ _G.pg.ship_skin_words[900257] = {
 	}
 }
 
-_G.pg.ship_skin_words[900258] = {
+_G.pg.base.ship_skin_words[900258] = {
 	feeling1 = "You can't compare with the destroyers, Commander...",
 	feeling3 = "I thought you were finally going to have me Court Martialed, Commander! I'm grateful to finally be recognized by you. It's nothing to be ashamed of? Commander, I, Ark Royal, will follow you forever!",
 	lose = "Damn, trapped!",
@@ -51817,7 +51817,7 @@ _G.pg.ship_skin_words[900258] = {
 	}
 }
 
-_G.pg.ship_skin_words[900259] = {
+_G.pg.base.ship_skin_words[900259] = {
 	feeling1 = "If Commander was cut up into little pieces, he would never be able to leave Akagi’s side or break her heart ever again... Ahahaha!",
 	feeling3 = "You belong to me, and me only, Commander! That's something you should never forget, even if you are in charge of an entire fleet... Or else...",
 	lose = "This wound is nothing compared to the thought of you abandoning me, Commander!",
@@ -51892,7 +51892,7 @@ _G.pg.ship_skin_words[900259] = {
 	}
 }
 
-_G.pg.ship_skin_words[900260] = {
+_G.pg.base.ship_skin_words[900260] = {
 	feeling1 = "It seems like you're not the hero I was looking for...",
 	feeling3 = "Should you be defeated one day, it simply means that you were too weak. That much is a fact of nature. Though... because you are mine, I would at least avenge you.",
 	lose = "This pain... I shall return it tenfold!",
@@ -51958,7 +51958,7 @@ _G.pg.ship_skin_words[900260] = {
 	}
 }
 
-_G.pg.ship_skin_words[900261] = {
+_G.pg.base.ship_skin_words[900261] = {
 	feeling1 = "Commander, you cannot continue like this.",
 	feeling3 = "Commander, you always ask me to accompany you for walks. Is something bothering you?",
 	lose = "...I am sorry, Commander... I failed to live up to your expectations.",
@@ -52017,7 +52017,7 @@ _G.pg.ship_skin_words[900261] = {
 	}
 }
 
-_G.pg.ship_skin_words[900262] = {
+_G.pg.base.ship_skin_words[900262] = {
 	feeling1 = "I favor those of character, and those who can cook. Commander, you are neither.",
 	feeling3 = "How's that, commander? Are you impressed by my cooking abilities? Here, have as much you desire. Seeing you enjoy my food pleases me.",
 	lose = "Do not be demoralized. Neither victory nor defeat are decided by a single battle.",
@@ -52068,7 +52068,7 @@ _G.pg.ship_skin_words[900262] = {
 	}
 }
 
-_G.pg.ship_skin_words[900263] = {
+_G.pg.base.ship_skin_words[900263] = {
 	feeling1 = "Would you please not act like we're close...",
 	feeling3 = "I'm not very elegant? I'm sorry that I'm not like Hood or the others... No... I'm not talking about my body...",
 	lose = "My damage control isn't functioning?! I've lost control of my steering wheel as well! Why now, at such a critical moment?!",
@@ -52102,7 +52102,7 @@ _G.pg.ship_skin_words[900263] = {
 	detail = "Don't be blinded by statistics. Victory depends on far more!"
 }
 
-_G.pg.ship_skin_words[900264] = {
+_G.pg.base.ship_skin_words[900264] = {
 	feeling1 = "Not even my light can reach the darkness within your heart?",
 	feeling3 = "Commander, while I'm like this, I take a special liking towards suprise night attacks. Seriously, I didn't mean it like that, but is the Commander into things like that?",
 	lose = "Let's retreat, lest I lose my life...",
@@ -52153,7 +52153,7 @@ _G.pg.ship_skin_words[900264] = {
 	}
 }
 
-_G.pg.ship_skin_words[900265] = {
+_G.pg.base.ship_skin_words[900265] = {
 	feeling1 = "I'm afraid I've contracted a disease that gives me a dreadful headache when you're nearby. Would you mind going someplace else?",
 	feeling3 = "My big sisters Illustrious and Victorious, like so many other ships you've gathered here, vouch for what a great commander you are. Now come, let this cake be a symbol of our new friendship. Take a bite, won't you?",
 	lose = "Why you miserab- Ahem! You are truly worthy adversaries, but next time victory will be mine!",
@@ -52204,7 +52204,7 @@ _G.pg.ship_skin_words[900265] = {
 	}
 }
 
-_G.pg.ship_skin_words[900266] = {
+_G.pg.base.ship_skin_words[900266] = {
 	feeling1 = "This negative attitude is unacceptable. You must be forcibly reeducated.",
 	feeling3 = "Comrade Commander, what is this? You wish to deepen your relationship with me as an individual, not a representative of the Northern Parliament? Well, such subjective decisions are acceptable.",
 	lose = "Gah, how humiliating... to think a material defect would surface at a time like this...!",
@@ -52266,7 +52266,7 @@ _G.pg.ship_skin_words[900266] = {
 	}
 }
 
-_G.pg.ship_skin_words[900267] = {
+_G.pg.base.ship_skin_words[900267] = {
 	feeling1 = "There is no future for those who mistake recklessness with courage, comrade.",
 	feeling3 = "I hope you don't take this the wrong way, comrade, but this fight is not just for all of us. It's also yours. Never settle with the status quo, and always seek to keep improving.",
 	lose = "Comrade, consider this not a defeat, but rather a warning. A sign that we are losing sight of our revolutionary spirit.",
@@ -52317,7 +52317,7 @@ _G.pg.ship_skin_words[900267] = {
 	}
 }
 
-_G.pg.ship_skin_words[900268] = {
+_G.pg.base.ship_skin_words[900268] = {
 	feeling1 = "Pranks? I already stopped pulling them on you~ You're no fun for those",
 	feeling3 = "Commander, what's the greatest difference between me and my big sister? The answer, is my 'color' today!",
 	lose = "Oh dang~ I'll go back for repairs, and then have a good rest while I'm at it~",
@@ -52351,7 +52351,7 @@ _G.pg.ship_skin_words[900268] = {
 	detail = "If you keep on peeping where you shouldn't, even kids will not be talking to you~"
 }
 
-_G.pg.ship_skin_words[900269] = {
+_G.pg.base.ship_skin_words[900269] = {
 	feeling1 = "I wonder how Enterprise puts up with someone like you...",
 	feeling3 = "Jealousy? No, that's not the case. Enterprise is a true hero worthy of all the respect she gets. However, compared to her dazzling aura, I'm just...",
 	lose = "I won't let it end like this... I swear it!",
@@ -52385,7 +52385,7 @@ _G.pg.ship_skin_words[900269] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900270] = {
+_G.pg.base.ship_skin_words[900270] = {
 	feeling1 = "Commander, the way you're acting now makes you no different from a coward!",
 	feeling3 = "Oh, Commander! This– yeowwwch! Who decided it was a good idea to leave a trolley here?! Jeez, why does this always happen to me...Ah, um, nevermind, I'm fine! More importantly, when do I get to sortie?",
 	lose = "I have to go to the docks again...? Damnit, why is it always me... Y-you didn't hear anything!",
@@ -52429,7 +52429,7 @@ _G.pg.ship_skin_words[900270] = {
 	}
 }
 
-_G.pg.ship_skin_words[900271] = {
+_G.pg.base.ship_skin_words[900271] = {
 	feeling1 = "I'd rather not talk to you right now.",
 	feeling3 = "Don't think I'm upset just because I have little to say. If anything, I'm probably thinking about something, or about how to express myself.",
 	lose = "Their power... surpasses even the \"Dragon's Jaws\"...?",
@@ -52481,7 +52481,7 @@ _G.pg.ship_skin_words[900271] = {
 	}
 }
 
-_G.pg.ship_skin_words[900272] = {
+_G.pg.base.ship_skin_words[900272] = {
 	feeling1 = "Those who refuse to stop marching shall face the path of ruin... Make sure you keep that in mind.",
 	feeling3 = "",
 	lose = "Is this... also a trial from Heaven...?",
@@ -52515,7 +52515,7 @@ _G.pg.ship_skin_words[900272] = {
 	detail = "Place your faith in me. Follow my lead. Offer up your prayers. Seek the Lord. Only then will the path of God be opened..."
 }
 
-_G.pg.ship_skin_words[900273] = {
+_G.pg.base.ship_skin_words[900273] = {
 	feeling1 = "\"You are the most outstanding, exceptional commander I have ever met.\" – You can only hope to hear me say these words in your most outlandish dreams.",
 	feeling3 = "A \"grimoire\"? Hmm... And you say L'Opini?tre told you this? It's certainly an amusing allegory. Now, I'm afraid I must take my leave for a while, as I have business to attend to.",
 	lose = "I sincerely apologize, Commander. I take full responsibility for this defeat.",
@@ -52577,7 +52577,7 @@ _G.pg.ship_skin_words[900273] = {
 	}
 }
 
-_G.pg.ship_skin_words[900274] = {
+_G.pg.base.ship_skin_words[900274] = {
 	feeling1 = "A kind deed to others is a kind deed to yourself – or so I was naive enough to believe...",
 	feeling3 = "Are you tired, Commander? Under the weather, perhaps? Heh, well, a nice cookie can fix that. Just eat one of these and you'll be right back to normal.",
 	lose = "Next time... victory will be ours.",
@@ -52638,7 +52638,7 @@ _G.pg.ship_skin_words[900274] = {
 	}
 }
 
-_G.pg.ship_skin_words[900275] = {
+_G.pg.base.ship_skin_words[900275] = {
 	feeling1 = "I had great expectations for you...",
 	feeling3 = "Y-you're better than I expected... F-fine, I won't go easy on you next time...!",
 	lose = "Ugh... H-how is this possible...",
@@ -52690,7 +52690,7 @@ _G.pg.ship_skin_words[900275] = {
 	}
 }
 
-_G.pg.ship_skin_words[900276] = {
+_G.pg.base.ship_skin_words[900276] = {
 	feeling1 = "You really are like a can of rancid surstr?mming.",
 	feeling3 = "If you ask me, people should be able to say whatever they want... Oh, hello there, Commander. Just talking to myself.",
 	lose = "Damn, we lost... Sorry.",
@@ -52733,7 +52733,7 @@ _G.pg.ship_skin_words[900276] = {
 	}
 }
 
-_G.pg.ship_skin_words[900277] = {
+_G.pg.base.ship_skin_words[900277] = {
 	feeling1 = "You're betraying everyone's trust in you by acting like this. Pull yourself together, for god's sake!",
 	feeling3 = "",
 	lose = "Tsk, I've taken damage after fighting for so long... I'll need repairs when we return.",
@@ -52784,7 +52784,7 @@ _G.pg.ship_skin_words[900277] = {
 	}
 }
 
-_G.pg.ship_skin_words[900278] = {
+_G.pg.base.ship_skin_words[900278] = {
 	feeling1 = "Your wish... is to repeat the errors of the past once more? Very well... I see...",
 	feeling3 = "I should spend more time with the others? Even if I tried to do that, I would not know how to behave, and they would be afraid of me all the same... Hey, what are you doing... why are you taking off my riggings?!",
 	lose = "Ugh... I have failed once again...",
@@ -52818,7 +52818,7 @@ _G.pg.ship_skin_words[900278] = {
 	detail = "Everyone's faces are full of laughter here... I think I am rather fond of this place!"
 }
 
-_G.pg.ship_skin_words[900279] = {
+_G.pg.base.ship_skin_words[900279] = {
 	feeling1 = "Maybe I should quit teaching...",
 	feeling3 = "Commander, you are a capable child if you are put into action. I feel a little happy.",
 	lose = "I can't let you see me like this, Commander.....",
@@ -52852,7 +52852,7 @@ _G.pg.ship_skin_words[900279] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900280] = {
+_G.pg.base.ship_skin_words[900280] = {
 	feeling1 = "It seems like you're not the hero I was looking for...",
 	feeling3 = "Should you be defeated one day, it simply means that you were too weak. That much is a fact of nature. Though... because you are mine, I would at least avenge you.",
 	lose = "This pain... I shall return it tenfold!",
@@ -52918,7 +52918,7 @@ _G.pg.ship_skin_words[900280] = {
 	}
 }
 
-_G.pg.ship_skin_words[900281] = {
+_G.pg.base.ship_skin_words[900281] = {
 	feeling1 = "Is something the matter, Commander?",
 	feeling3 = "I look a bit like a courtesan? Hehe~ Well then, mister, it seems like tonight shall be our one and only night together. Let us feel the warmth of our embrace, then let the memories fade to nothing. How does that sound?",
 	lose = "I'm so sorry, Commander...",
@@ -52952,7 +52952,7 @@ _G.pg.ship_skin_words[900281] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900282] = {
+_G.pg.base.ship_skin_words[900282] = {
 	feeling1 = "Even I'm a bit disappointed...",
 	feeling3 = "Commander sure is gentle, always slowing down to match my pace when we're taking walks... I'm moved by details like this.",
 	lose = "I can still fight... but we should probably retreat, for now...",
@@ -53011,7 +53011,7 @@ _G.pg.ship_skin_words[900282] = {
 	}
 }
 
-_G.pg.ship_skin_words[900283] = {
+_G.pg.base.ship_skin_words[900283] = {
 	feeling1 = "You're so boring, Milord. I don't want to play with you anymore.",
 	feeling3 = "I love my sister, but she's a bit too quiet sometimes. Milord, I like spending time with you more because you'll play with me!",
 	lose = "Uu... Sister... where are you? *sobs*",
@@ -53045,7 +53045,7 @@ _G.pg.ship_skin_words[900283] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900310] = {
+_G.pg.base.ship_skin_words[900310] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "Ehh? I thought I was supposed to be stronger, bulin?",
@@ -53079,7 +53079,7 @@ _G.pg.ship_skin_words[900310] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900311] = {
+_G.pg.base.ship_skin_words[900311] = {
 	feeling1 = "You're pretty amazing to have gotten on my bad side! But I won't get angry just to appease you! Haha! Enjoy your emptiness!",
 	feeling3 = "I'll let you in on a little secret. My little sister keeps telling people that she's smarter than me. But truth is, she's dumber! I try to be nice and let her feel good about herself, like a big sister should. Ha!",
 	lose = "So why am I on the battlefield anyway, purin?!",
@@ -53113,7 +53113,7 @@ _G.pg.ship_skin_words[900311] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900324] = {
+_G.pg.base.ship_skin_words[900324] = {
 	feeling1 = "居然能让本大人不喜欢你，要从另一个角度夸奖你一下！但是本大人才不会怒斥你，哇哈哈！享受这种虚无感吧！",
 	feeling3 = "既然你这么有耐心，告诉你一个小秘密吧，妹妹虽然总是自称比我聪明，但她才是最笨的那一个。哇哈哈，这就是长姐的仁慈呀喵！",
 	lose = "说起来为什么我会上战场purin.purin？！",
@@ -53147,7 +53147,7 @@ _G.pg.ship_skin_words[900324] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900350] = {
+_G.pg.base.ship_skin_words[900350] = {
 	feeling1 = "舰队的事务就请交给我吧",
 	feeling3 = "指挥官，虽然尊重我的意见是好事，不过您只要贯彻自己的想法就好，而且如果我不赞同您的话，是不会站在您身边的，呵呵",
 	lose = "全军撤退，不要产生无谓的牺牲",
@@ -53181,7 +53181,7 @@ _G.pg.ship_skin_words[900350] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900351] = {
+_G.pg.base.ship_skin_words[900351] = {
 	feeling1 = "啊，让女孩子落泪可不行啊，指挥官。你该好好反省下自己了！",
 	feeling3 = "不知不觉间，大家也熟络起来了呢~下次想聊什么？舰装技术？还是日常生活？……欸，我来选吗？",
 	lose = "不敢相信，我们居然被敌人压制住了……在找出还击的方法之前，我是不会休息的！",
@@ -53266,7 +53266,7 @@ _G.pg.ship_skin_words[900351] = {
 	}
 }
 
-_G.pg.ship_skin_words[9702010] = {
+_G.pg.base.ship_skin_words[9702010] = {
 	feeling1 = "If you intend to close your heart to me, then what happens to you is no longer of any concern to me.",
 	feeling3 = "Even if I can see everything, too often I cannot grasp any of it... I never wish to experience that sorrow again. Commander, I'm sure you'll be able to succeed where I failed.",
 	lose = "How could I have overlooked something? I don't understand... Very well, so be it.",
@@ -53311,7 +53311,7 @@ _G.pg.ship_skin_words[9702010] = {
 	}
 }
 
-_G.pg.ship_skin_words[9704010] = {
+_G.pg.base.ship_skin_words[9704010] = {
 	feeling1 = "These were the only \"commands\" you could come up with? What a joke.",
 	feeling3 = "You seem to be quite drawn to me. I'm not sure what about me would warrant your fancy, so I don't know if you're stubborn or just a simpleton.",
 	lose = "Withdraw? Haha... Ahahaha! ...It hasn't ended yet, so why are we to withdraw?",
@@ -53354,7 +53354,7 @@ _G.pg.ship_skin_words[9704010] = {
 	}
 }
 
-_G.pg.ship_skin_words[9704020] = {
+_G.pg.base.ship_skin_words[9704020] = {
 	feeling1 = "A weakling such as you isn't fit to command a fleet.",
 	feeling3 = "There must be some people here who strive to push their limits. Introduce me to them, would you?",
 	lose = "This isn't over! I will NOT retreat!",
@@ -53388,7 +53388,7 @@ _G.pg.ship_skin_words[9704020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9705010] = {
+_G.pg.base.ship_skin_words[9705010] = {
 	feeling1 = "There is nothing more I can do for you at this point, Commander...",
 	feeling3 = "Are you... concerned about me, Commander? You have no reason to be. I pray to the gods each day so that they bestow us all with their blessings and protection.",
 	lose = "This curse cannot be lifted... Then so be it.",
@@ -53422,7 +53422,7 @@ _G.pg.ship_skin_words[9705010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9705020] = {
+_G.pg.base.ship_skin_words[9705020] = {
 	feeling1 = "I know you can hear me, Milord. Come out of hiding and own up to your mistakes like a decent person!",
 	feeling3 = "Why does at least one girl always call it quits partway through our training? And why do you always stick up for the quitters, Milord? The whole fleet will stagnate if people keep dropping out...",
 	lose = "What went wrong? Please don't tell me one of you wasn't even trying...",
@@ -53456,7 +53456,7 @@ _G.pg.ship_skin_words[9705020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9706010] = {
+_G.pg.base.ship_skin_words[9706010] = {
 	feeling1 = "What a gutless Commander you are...",
 	feeling3 = "...My eyepatch? Don't worry, it's no impediment in battle.",
 	lose = "This is unacceptable! I'll crush you all next time!",
@@ -53490,7 +53490,7 @@ _G.pg.ship_skin_words[9706010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9706020] = {
+_G.pg.base.ship_skin_words[9706020] = {
 	feeling1 = "I'm a grown woman now. It's time to put my childhood behind...",
 	feeling3 = "Commander... How do you feel about lifelong friends? Err, I mean, in the context of fictional stories... and things like that...",
 	lose = "Whatever comes next, I've made my peace...",
@@ -53524,7 +53524,7 @@ _G.pg.ship_skin_words[9706020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9707010] = {
+_G.pg.base.ship_skin_words[9707010] = {
 	feeling1 = "Leave me alone.",
 	feeling3 = "On the battlefield, even a moment's hesitation can invite total destruction. Thinking about nothing other than how to defeat the enemy - that's my fighting style.",
 	lose = "Sister... I'm sorry...",
@@ -53558,7 +53558,7 @@ _G.pg.ship_skin_words[9707010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9707020] = {
+_G.pg.base.ship_skin_words[9707020] = {
 	feeling1 = "Let me offer a word of advice, if you'll even listen: turn around and leave while you still can, Commander.",
 	feeling3 = "A ship who's lost her way is fated to go under. The same is true for people. Do you have the strength to keep yourself on the right course, Commander?",
 	lose = "Don't bet on all future battles ending in your safe escape.",
@@ -53617,7 +53617,7 @@ _G.pg.ship_skin_words[9707020] = {
 	}
 }
 
-_G.pg.ship_skin_words[9707030] = {
+_G.pg.base.ship_skin_words[9707030] = {
 	feeling1 = "When danger approaches, don't wait until you regret it. It'll be too late by then.",
 	feeling3 = "Hanafuda? That's a word I haven't heard in a while... If you're interested, I don't mind playing a round with you after work.",
 	lose = "We don't have much time left...",
@@ -53660,7 +53660,7 @@ _G.pg.ship_skin_words[9707030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100010] = {
+_G.pg.base.ship_skin_words[10100010] = {
 	feeling1 = "Huh? What was that? I can't hear you, I've got bananas stuck in my ears.",
 	feeling3 = "I've got an idea! Commander, you should visit Planeptune sometime! I'm sure everyone would love to meet you!",
 	lose = "We regret to inform you that Neppy has been defeated.",
@@ -53713,7 +53713,7 @@ _G.pg.ship_skin_words[10100010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100020] = {
+_G.pg.base.ship_skin_words[10100020] = {
 	feeling1 = "Could you please just get out of my sight already?",
 	feeling3 = "A friend of mine would like to have lunch with you next time. You don't mind, right? I'll be there too, of course. I mean, someone has to be there to make sure you don't get ahead of yourself and do anything weird.",
 	lose = "I will never forget this defeat. And that is why I will grow stronger.",
@@ -53766,7 +53766,7 @@ _G.pg.ship_skin_words[10100020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100030] = {
+_G.pg.base.ship_skin_words[10100030] = {
 	feeling1 = "...Who are you?",
 	feeling3 = "Oh, what a coincidence. I was just thinking I should come see you. Anyway, today I've got this novel for you to read...",
 	lose = "I'm astonished they've cornered us like this...",
@@ -53817,7 +53817,7 @@ _G.pg.ship_skin_words[10100030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100040] = {
+_G.pg.base.ship_skin_words[10100040] = {
 	feeling1 = "Could I just return home to Leanbox?",
 	feeling3 = "I would like to hold a meetup for fellow MMO enthusiasts today! Surely you will be part of it, Commander? I will move forward under the premise that you and I will be in attendance.",
 	lose = "So this is how defeat feels... I see. That battle was so enjoyable that it made my heart race.",
@@ -53878,7 +53878,7 @@ _G.pg.ship_skin_words[10100040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100050] = {
+_G.pg.base.ship_skin_words[10100050] = {
 	feeling1 = "I never thought you would disappoint me this badly...",
 	feeling3 = "Oh, it's you. You came at just the right time. There's a stage I can't clear in this game and I was hoping you could help me with it.",
 	lose = "Everyone else ends up suffering just because I'm so powerless...",
@@ -53931,7 +53931,7 @@ _G.pg.ship_skin_words[10100050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100051] = {
+_G.pg.base.ship_skin_words[10100051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -53965,7 +53965,7 @@ _G.pg.ship_skin_words[10100051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10100060] = {
+_G.pg.base.ship_skin_words[10100060] = {
 	feeling1 = "You should know what will happen if you try to get any closer.",
 	feeling3 = "Looks like you've been hard at work. Since I happen to be free right now, why don't I help you out?",
 	lose = "So this is the bitterness of defeat? However.... next time, I'll win for sure.",
@@ -54016,7 +54016,7 @@ _G.pg.ship_skin_words[10100060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100061] = {
+_G.pg.base.ship_skin_words[10100061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54050,7 +54050,7 @@ _G.pg.ship_skin_words[10100061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10100070] = {
+_G.pg.base.ship_skin_words[10100070] = {
 	feeling1 = "I don't want to see your sorry mug at all!",
 	feeling3 = "Even though you're an unreliable commander, I still have some expectations for you.",
 	lose = "If you hold me back again... I'll end you.",
@@ -54101,7 +54101,7 @@ _G.pg.ship_skin_words[10100070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100071] = {
+_G.pg.base.ship_skin_words[10100071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54135,7 +54135,7 @@ _G.pg.ship_skin_words[10100071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10100080] = {
+_G.pg.base.ship_skin_words[10100080] = {
 	feeling1 = "I have nothing to say to you.",
 	feeling3 = "Haven't you been relying on me a bit too much recently? No, it doesn't bother me... but if this continues, one can't help but to be concerned about your abilities as a commander.",
 	lose = "To think I would make such a mistake... I won't lose next time.",
@@ -54188,7 +54188,7 @@ _G.pg.ship_skin_words[10100080] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100081] = {
+_G.pg.base.ship_skin_words[10100081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54222,7 +54222,7 @@ _G.pg.ship_skin_words[10100081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10400010] = {
+_G.pg.base.ship_skin_words[10400010] = {
 	feeling1 = "Fakkyu!",
 	feeling3 = "Now we add sound effects, plus some subtitles... Wow, you're a fast learner, Commander. Keep at it and before long you'll be able to make even better videos!",
 	lose = "That one didn't count! It's the next one that'll matter!",
@@ -54275,7 +54275,7 @@ _G.pg.ship_skin_words[10400010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10400011] = {
+_G.pg.base.ship_skin_words[10400011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54309,7 +54309,7 @@ _G.pg.ship_skin_words[10400011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10400020] = {
+_G.pg.base.ship_skin_words[10400020] = {
 	feeling1 = "Can I just drop the act now?",
 	feeling3 = "As I thought, there are more things I must learn in order to relate to everyone...! Commander, please grant me your guidance and support!",
 	lose = "How could an intelligent super A.I. like myself lose...",
@@ -54352,7 +54352,7 @@ _G.pg.ship_skin_words[10400020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10400030] = {
+_G.pg.base.ship_skin_words[10400030] = {
 	feeling1 = "Relax, I'm not inviting you to my concert anyway.",
 	feeling3 = "I need to practice my singing, dancing, and talking skills for my concert! Then I'll have to prepare a stage... Aaahhh, there's so fakking much I need to do!",
 	lose = "... I'll make up for it at my next concert!",
@@ -54395,7 +54395,7 @@ _G.pg.ship_skin_words[10400030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10400040] = {
+_G.pg.base.ship_skin_words[10400040] = {
 	feeling1 = "AAAaaaaAAAAAaaaaaAAAAAAHHH!!!111!eleven!!",
 	feeling3 = "Huh? Stream a horror game? No, I don't want to... I really, really, really don't want to!",
 	lose = "Okay, I'm getting ticked off now! I'm not forgetting this, ever!",
@@ -54438,7 +54438,7 @@ _G.pg.ship_skin_words[10400040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500010] = {
+_G.pg.base.ship_skin_words[10500010] = {
 	feeling1 = "Commander, you really suck at this, huh... Oh well~ I'll help you out. Let's clear this stage together!",
 	feeling3 = "Woah, we really stayed up late chatting, didn't we... But doing this every once in a while is pretty fun. Right, Commander~♫",
 	lose = "Nya! Isn't this difficulty setting a bit strange, nya?!",
@@ -54502,7 +54502,7 @@ _G.pg.ship_skin_words[10500010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500011] = {
+_G.pg.base.ship_skin_words[10500011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54536,7 +54536,7 @@ _G.pg.ship_skin_words[10500011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500020] = {
+_G.pg.base.ship_skin_words[10500020] = {
 	feeling1 = "I-I need to speak up…",
 	feeling3 = "It seems like this world also has soo soooo many things that I need to study. But I... will never give up! Can't stop, won't stop~",
 	lose = "At times like this, let's let out a roar and calm down!",
@@ -54570,7 +54570,7 @@ _G.pg.ship_skin_words[10500020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500021] = {
+_G.pg.base.ship_skin_words[10500021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54604,7 +54604,7 @@ _G.pg.ship_skin_words[10500021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500030] = {
+_G.pg.base.ship_skin_words[10500030] = {
 	feeling1 = "I, Minato Aqua, will soon be graduating from this post. While it has been a short while, thank you for all you've done for me all this time.",
 	feeling3 = "Useless maid?! Failen Angel?! You're so cruel, Commander! If it's just something like warming up the bath, I can do it with no issues!",
 	lose = "I'm donezo!! I'm sorry, I'm sorry, I'm sorry, I'm telling you, I'm really sorry!!!",
@@ -54656,7 +54656,7 @@ _G.pg.ship_skin_words[10500030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500031] = {
+_G.pg.base.ship_skin_words[10500031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "*Breathes in* ...Eh, did I just black out?",
@@ -54690,7 +54690,7 @@ _G.pg.ship_skin_words[10500031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500040] = {
+_G.pg.base.ship_skin_words[10500040] = {
 	feeling1 = "Then you're giving me all the cute girls?",
 	feeling3 = "Do you like a sweet, pure voice? Well then... Hehe, pretty neat, huh? I'm pretty good at doing voices~",
 	lose = "Waaaah! How could a genius like me be defeated…",
@@ -54742,7 +54742,7 @@ _G.pg.ship_skin_words[10500040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500041] = {
+_G.pg.base.ship_skin_words[10500041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54776,7 +54776,7 @@ _G.pg.ship_skin_words[10500041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500050] = {
+_G.pg.base.ship_skin_words[10500050] = {
 	feeling1 = "Ay must speak like a puppy as punishment for losing! Now... Woof…",
 	feeling3 = "Sorry, Ay am easily amused! But as the saying goes, \"she who laughs much is blessed with luck.\" Which means soon everyone will start to like me!",
 	lose = "Ay am defeated... More training is necessary... Wait, no it's not!",
@@ -54819,7 +54819,7 @@ _G.pg.ship_skin_words[10500050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500051] = {
+_G.pg.base.ship_skin_words[10500051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54853,7 +54853,7 @@ _G.pg.ship_skin_words[10500051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500060] = {
+_G.pg.base.ship_skin_words[10500060] = {
 	feeling1 = "Aaahh! The broadcast is still going?! I already said \"see you later,\" so why is this thing still on? I don't get it!",
 	feeling3 = "\"Shion's Growth Plan...?\" In other words, you're going to buy gifts for me? H-hey! I don't want kids' toys!",
 	lose = "Neeeeee! That's too bad... But because I'm a genius, I'm allowed to mess up every now and then... right...?",
@@ -54897,7 +54897,7 @@ _G.pg.ship_skin_words[10500060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500061] = {
+_G.pg.base.ship_skin_words[10500061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54931,7 +54931,7 @@ _G.pg.ship_skin_words[10500061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500070] = {
+_G.pg.base.ship_skin_words[10500070] = {
 	feeling1 = "Honestly, Commander, you can't just half-ass this~. Head pats are a special treat! Now I want you to show me the cool Commander in charge~",
 	feeling3 = "Commander! Commaaander! Ehehe, I just felt like calling you~",
 	lose = "Oof... Wait, wait, wait...! Wait just a moment…",
@@ -54974,7 +54974,7 @@ _G.pg.ship_skin_words[10500070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500071] = {
+_G.pg.base.ship_skin_words[10500071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55008,7 +55008,7 @@ _G.pg.ship_skin_words[10500071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600010] = {
+_G.pg.base.ship_skin_words[10600010] = {
 	feeling1 = "I hate you, I hate you, I hate you! If you keep this up, I'll only hate you even more!",
 	feeling3 = "There are so many amazing maids in the port! But I won't let them outdo me!",
 	lose = "I lost... What should I do, Commander...",
@@ -55051,7 +55051,7 @@ _G.pg.ship_skin_words[10600010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600011] = {
+_G.pg.base.ship_skin_words[10600011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55085,7 +55085,7 @@ _G.pg.ship_skin_words[10600011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600020] = {
+_G.pg.base.ship_skin_words[10600020] = {
 	feeling1 = "Ughh... I just want to go back to my Grammy's place...",
 	feeling3 = "Commander, won't you come shopping with me later? I want to buy some souvenirs for Grammy!",
 	lose = "Ohh~... I'm all out of energy~",
@@ -55137,7 +55137,7 @@ _G.pg.ship_skin_words[10600020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600021] = {
+_G.pg.base.ship_skin_words[10600021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55171,7 +55171,7 @@ _G.pg.ship_skin_words[10600021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600030] = {
+_G.pg.base.ship_skin_words[10600030] = {
 	feeling1 = "Commander... I'm more than angry with you at this point. Reflect on your poor behavior.",
 	feeling3 = "I see the Sakura Empire has its own disciples of ninjutsu... Hm? You wish to see mine? Err, I'm afraid... I can't do that. You aren't meant to openly show them to people.",
 	lose = "Mgh... How could this happen...",
@@ -55216,7 +55216,7 @@ _G.pg.ship_skin_words[10600030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600031] = {
+_G.pg.base.ship_skin_words[10600031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55250,7 +55250,7 @@ _G.pg.ship_skin_words[10600031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600040] = {
+_G.pg.base.ship_skin_words[10600040] = {
 	feeling1 = "This port might be an interesting place, but you? You're not very dependable... I guess the responsibility for whipping you into shape falls on me, the part-timer~",
 	feeling3 = "Everyone looks extraordinary when fighting, but I guess they're really just normal girls when they're not. I've even found some friends who like comic books, heheh.",
 	lose = "We lost... I can't believe it...",
@@ -55301,7 +55301,7 @@ _G.pg.ship_skin_words[10600040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600041] = {
+_G.pg.base.ship_skin_words[10600041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55335,7 +55335,7 @@ _G.pg.ship_skin_words[10600041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600050] = {
+_G.pg.base.ship_skin_words[10600050] = {
 	feeling1 = "I'm taking Misaki back. Farewell.",
 	feeling3 = "If Misaki's having fun, it's fine, but... the moment you do anything weird, you'll regret it!",
 	lose = "It's all your fault, you silly dog...",
@@ -55386,7 +55386,7 @@ _G.pg.ship_skin_words[10600050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600051] = {
+_G.pg.base.ship_skin_words[10600051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55420,7 +55420,7 @@ _G.pg.ship_skin_words[10600051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600060] = {
+_G.pg.base.ship_skin_words[10600060] = {
 	feeling1 = "You... You are a boring human...",
 	feeling3 = "This port abounds with curious \"take-knowledge-ease.\" Commander, might I ask for a tour? Hehehe, you know quite a bit, don't you?",
 	lose = "To corner me like so... One must always be on their guard...",
@@ -55471,7 +55471,7 @@ _G.pg.ship_skin_words[10600060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600061] = {
+_G.pg.base.ship_skin_words[10600061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55505,7 +55505,7 @@ _G.pg.ship_skin_words[10600061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600070] = {
+_G.pg.base.ship_skin_words[10600070] = {
 	feeling1 = "You can't give up after losing just one single bet, Commander. Life, as we all know, is one big series of wins and losses!",
 	feeling3 = "Heheh, let me show you this dealing method I learned a while back, Commander!",
 	lose = "Dammiiiiit! Next time, I swear it... Next time!",
@@ -55548,7 +55548,7 @@ _G.pg.ship_skin_words[10600070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600071] = {
+_G.pg.base.ship_skin_words[10600071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55582,7 +55582,7 @@ _G.pg.ship_skin_words[10600071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700010] = {
+_G.pg.base.ship_skin_words[10700010] = {
 	feeling1 = "Oops, sorry, I was busy reading the script. What were you saying?",
 	feeling3 = "Ow, oww... Oh, hi, Commander. It's nothing serious, I just tripped in the corridor... A bandaid? Aww, thank you so much!",
 	lose = "Urgh... Sorry for tripping up... I'll work on it so we win next time!",
@@ -55641,7 +55641,7 @@ _G.pg.ship_skin_words[10700010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700011] = {
+_G.pg.base.ship_skin_words[10700011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55675,7 +55675,7 @@ _G.pg.ship_skin_words[10700011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700020] = {
+_G.pg.base.ship_skin_words[10700020] = {
 	feeling1 = "Did you need something?",
 	feeling3 = "An idol's work isn't limited to only singing. However, improving your singing skills will aid in any job... That's what I think.",
 	lose = "...Ugh! If only I had practiced singing a bit more...",
@@ -55726,7 +55726,7 @@ _G.pg.ship_skin_words[10700020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700021] = {
+_G.pg.base.ship_skin_words[10700021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55760,7 +55760,7 @@ _G.pg.ship_skin_words[10700021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700030] = {
+_G.pg.base.ship_skin_words[10700030] = {
 	feeling1 = "Oh. So you were here all along?",
 	feeling3 = "I have a close friend who's been with me all the way since my childhood. Isn't that right, Bunny-bun?",
 	lose = "I, Iori Minase... lost? I'll take some more lessons, and I swear I won't lose next time!",
@@ -55819,7 +55819,7 @@ _G.pg.ship_skin_words[10700030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700031] = {
+_G.pg.base.ship_skin_words[10700031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55853,7 +55853,7 @@ _G.pg.ship_skin_words[10700031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700040] = {
+_G.pg.base.ship_skin_words[10700040] = {
 	feeling1 = "Sorry, I just... I just don't know what to talk about with you.",
 	feeling3 = "Good day to you, Commander. I went for a stroll just today and got lost on the way... Would you please show me the way to the dormitory?",
 	lose = "Is everyone okay? We should find a safe place to retreat to, quick!",
@@ -55912,7 +55912,7 @@ _G.pg.ship_skin_words[10700040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700041] = {
+_G.pg.base.ship_skin_words[10700041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55946,7 +55946,7 @@ _G.pg.ship_skin_words[10700041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700050] = {
+_G.pg.base.ship_skin_words[10700050] = {
 	feeling1 = "What about our last concert could we improve on...? Oh, excuse me, but I don't have the time right now.",
 	feeling3 = "Well done today, Commander. You're keeping yourself busy as always. Say, do you need help with something? I've got some spare time right now.",
 	lose = "I suppose this means my prediction was wrong... I'll have to fix the kinks in the system!",
@@ -56005,7 +56005,7 @@ _G.pg.ship_skin_words[10700050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700051] = {
+_G.pg.base.ship_skin_words[10700051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56039,7 +56039,7 @@ _G.pg.ship_skin_words[10700051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700060] = {
+_G.pg.base.ship_skin_words[10700060] = {
 	feeling1 = "It's hopeless... We can't clear the stage like this, Commander~ ...Please work a bit harder, Commander~",
 	feeling3 = "Let's see... Let's put a blackboard eraser above the door to the office, and a toy rat on the chair... Woaoh! You're already back, Commander?! Tsk. Foiled again~",
 	lose = "Uh oh! My HP gauge is red!!! Retreaaat!",
@@ -56098,7 +56098,7 @@ _G.pg.ship_skin_words[10700060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700061] = {
+_G.pg.base.ship_skin_words[10700061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56132,7 +56132,7 @@ _G.pg.ship_skin_words[10700061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700070] = {
+_G.pg.base.ship_skin_words[10700070] = {
 	feeling1 = "Wowow, even though I had the Commander pull for me, I didn't get a single Rare character!",
 	feeling3 = "Save me, Commander! I got caught pulling a prank, and now I'm getting chased around! Let me hide over here for a bit~!",
 	lose = "Uegh! This wasn't in the job description~! Hurry up and retreat!",
@@ -56191,7 +56191,7 @@ _G.pg.ship_skin_words[10700070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700071] = {
+_G.pg.base.ship_skin_words[10700071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56225,7 +56225,7 @@ _G.pg.ship_skin_words[10700071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800010] = {
+_G.pg.base.ship_skin_words[10800010] = {
 	feeling1 = "Ah... Um...",
 	feeling3 = "Hum hum~♪ Oh, good morning, Commander. Hehe, yeah, I'm in a pretty good mood...",
 	lose = "No way, I messed up?! Hurry up and retreat, everyone!",
@@ -56284,7 +56284,7 @@ _G.pg.ship_skin_words[10800010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800011] = {
+_G.pg.base.ship_skin_words[10800011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56318,7 +56318,7 @@ _G.pg.ship_skin_words[10800011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800020] = {
+_G.pg.base.ship_skin_words[10800020] = {
 	feeling1 = "Ahaha... Wow, you really are worthless.",
 	feeling3 = "There you are, Commander. Want to tag along with me to the store? I need to restock my sculpting materials and all that~",
 	lose = "The hell? How are these guys so strong? Doesn't make any damn sense...",
@@ -56377,7 +56377,7 @@ _G.pg.ship_skin_words[10800020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800021] = {
+_G.pg.base.ship_skin_words[10800021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56411,7 +56411,7 @@ _G.pg.ship_skin_words[10800021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800030] = {
+_G.pg.base.ship_skin_words[10800030] = {
 	feeling1 = "Sigh... Looks like you were just another of those guys in the end...",
 	feeling3 = "Hold up, why have you been staring at my face for so long... Eh, you want to know why I wear this mask? Well, there are a few reasons...",
 	lose = "Wait, nobody told me they were this strong. I can't believe they wouldn't pull their punches against a weak girl like me!",
@@ -56470,7 +56470,7 @@ _G.pg.ship_skin_words[10800030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800031] = {
+_G.pg.base.ship_skin_words[10800031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56504,7 +56504,7 @@ _G.pg.ship_skin_words[10800031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800040] = {
+_G.pg.base.ship_skin_words[10800040] = {
 	feeling1 = "H-hey, need something from me?",
 	feeling3 = "Commander, you on Juustagram as well? If so, gimme your ID so I can follow you~!",
 	lose = "Stop! Time out! I give up, so stop firing at meeee!",
@@ -56563,7 +56563,7 @@ _G.pg.ship_skin_words[10800040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800041] = {
+_G.pg.base.ship_skin_words[10800041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56597,7 +56597,7 @@ _G.pg.ship_skin_words[10800041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800050] = {
+_G.pg.base.ship_skin_words[10800050] = {
 	feeling1 = "Look, I... I'm sorry.",
 	feeling3 = "What is it this time? Hey, wait... That's one of my plushes. Thanks for bringing it to me, Commander.",
 	lose = "Okay, this is so not good... We've gotta get out of here, guys!",
@@ -56672,7 +56672,7 @@ _G.pg.ship_skin_words[10800050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800051] = {
+_G.pg.base.ship_skin_words[10800051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56706,7 +56706,7 @@ _G.pg.ship_skin_words[10800051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800060] = {
+_G.pg.base.ship_skin_words[10800060] = {
 	feeling1 = "Commander, you're the exact type of person that I don't want to become when I grow up.",
 	feeling3 = "When I look at this rigging, I can't help but think of you. I wonder what you're up to, my friend, the coolest one in the world...",
 	lose = "Ehhhh, no way, no way! I've actually been useless this whole time?!",
@@ -56765,7 +56765,7 @@ _G.pg.ship_skin_words[10800060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800061] = {
+_G.pg.base.ship_skin_words[10800061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56799,7 +56799,7 @@ _G.pg.ship_skin_words[10800061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800070] = {
+_G.pg.base.ship_skin_words[10800070] = {
 	feeling1 = "I don't know what I was expecting from a world without kaijus...",
 	feeling3 = "What is my goal in this new place...? Right now, I honestly don't know. I'll figure it out one day.",
 	lose = "We lost... But we should be able to do better next time.",
@@ -56858,7 +56858,7 @@ _G.pg.ship_skin_words[10800070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800071] = {
+_G.pg.base.ship_skin_words[10800071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56892,7 +56892,7 @@ _G.pg.ship_skin_words[10800071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299010] = {
+_G.pg.base.ship_skin_words[299010] = {
 	feeling1 = "Commander, did you know how high my expectations were for you at first? What a shame, for you shall now never know.",
 	feeling3 = "The correct answer is - to do everything in your power to prevent that situation from occurring in the first place. Heehee~ Commander, if you wish to woo me, you will have to use your brain more~",
 	lose = "I shall not repeat this mistake again.",
@@ -56960,7 +56960,7 @@ _G.pg.ship_skin_words[299010] = {
 	}
 }
 
-_G.pg.ship_skin_words[299011] = {
+_G.pg.base.ship_skin_words[299011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56994,7 +56994,7 @@ _G.pg.ship_skin_words[299011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299020] = {
+_G.pg.base.ship_skin_words[299020] = {
 	feeling1 = "Are you saying that I am inferior to them?!",
 	feeling3 = "Love needs no repayment. No matter how much the Royal Family neglects me, my loyalty to them is unwavering.",
 	lose = "Am I... being discarded yet again?",
@@ -57045,7 +57045,7 @@ _G.pg.ship_skin_words[299020] = {
 	}
 }
 
-_G.pg.ship_skin_words[299021] = {
+_G.pg.base.ship_skin_words[299021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57079,7 +57079,7 @@ _G.pg.ship_skin_words[299021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299022] = {
+_G.pg.base.ship_skin_words[299022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57113,7 +57113,7 @@ _G.pg.ship_skin_words[299022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399010] = {
+_G.pg.base.ship_skin_words[399010] = {
 	feeling1 = "Had I known I would have to serve a person like you, I never would have manifested during this era...",
 	feeling3 = "I'm cool, you say...? If anything, I am somewhat jealous of how everyone can always have a smile on their faces... In contrast, I simply do not know how to express my emotions...",
 	lose = "Ugh... I must increase my training multifold.",
@@ -57147,7 +57147,7 @@ _G.pg.ship_skin_words[399010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399011] = {
+_G.pg.base.ship_skin_words[399011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57181,7 +57181,7 @@ _G.pg.ship_skin_words[399011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399012] = {
+_G.pg.base.ship_skin_words[399012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57215,7 +57215,7 @@ _G.pg.ship_skin_words[399012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399013] = {
+_G.pg.base.ship_skin_words[399013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57249,7 +57249,7 @@ _G.pg.ship_skin_words[399013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399014] = {
+_G.pg.base.ship_skin_words[399014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57283,7 +57283,7 @@ _G.pg.ship_skin_words[399014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399020] = {
+_G.pg.base.ship_skin_words[399020] = {
 	feeling1 = "You lack what it takes to order me to swing this blade.",
 	feeling3 = "*Sigh*... Why do you always make that miserable face, Commander? It's so miserable that... it makes me want to scold you...",
 	lose = "Damn... I can... still fight...!",
@@ -57317,7 +57317,7 @@ _G.pg.ship_skin_words[399020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399021] = {
+_G.pg.base.ship_skin_words[399021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57351,7 +57351,7 @@ _G.pg.ship_skin_words[399021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499010] = {
+_G.pg.base.ship_skin_words[499010] = {
 	feeling1 = "Commander... YOU WILL PAY!",
 	feeling3 = "It is our destiny to kill one another on the battlefield... So, wouldn't you say it's normal to revel in the killing just a little bit?",
 	lose = "Aww... Did we fall prey to an ambush...?",
@@ -57385,7 +57385,7 @@ _G.pg.ship_skin_words[499010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499011] = {
+_G.pg.base.ship_skin_words[499011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57419,7 +57419,7 @@ _G.pg.ship_skin_words[499011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899010] = {
+_G.pg.base.ship_skin_words[899010] = {
 	feeling1 = "My sisters in arms here may be righteous, but not you. Prepare to face divine punishment, sinner.",
 	feeling3 = "I see my sisters in arms smile every day as if without a worry in the world. Perhaps this is their Canaan...",
 	lose = "My Lord, why have you abandoned me...",
@@ -57453,7 +57453,7 @@ _G.pg.ship_skin_words[899010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899011] = {
+_G.pg.base.ship_skin_words[899011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57487,7 +57487,7 @@ _G.pg.ship_skin_words[899011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899012] = {
+_G.pg.base.ship_skin_words[899012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57521,7 +57521,7 @@ _G.pg.ship_skin_words[899012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199010] = {
+_G.pg.base.ship_skin_words[199010] = {
 	feeling1 = "Hm? My party? You're not invited, so be a good commander and get back to work.",
 	feeling3 = "I love throwing parties, but I'm not gonna FORCE anyone to show up to 'em. But I guarantee anyone who does show up is gonna have a heckin' good time, even the super-introverts!",
 	lose = "Man, if only we'd brought more firepower~",
@@ -57574,7 +57574,7 @@ _G.pg.ship_skin_words[199010] = {
 	}
 }
 
-_G.pg.ship_skin_words[199011] = {
+_G.pg.base.ship_skin_words[199011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57608,7 +57608,7 @@ _G.pg.ship_skin_words[199011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199012] = {
+_G.pg.base.ship_skin_words[199012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57642,7 +57642,7 @@ _G.pg.ship_skin_words[199012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199013] = {
+_G.pg.base.ship_skin_words[199013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57676,7 +57676,7 @@ _G.pg.ship_skin_words[199013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199020] = {
+_G.pg.base.ship_skin_words[199020] = {
 	feeling1 = "You are unworthy of my power...",
 	feeling3 = "Sorties and battles really get my blood pumping, but every once in a while it's nice to relax.",
 	lose = "All we can do... is fall back?",
@@ -57710,7 +57710,7 @@ _G.pg.ship_skin_words[199020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199021] = {
+_G.pg.base.ship_skin_words[199021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57744,7 +57744,7 @@ _G.pg.ship_skin_words[199021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199022] = {
+_G.pg.base.ship_skin_words[199022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57778,7 +57778,7 @@ _G.pg.ship_skin_words[199022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199023] = {
+_G.pg.base.ship_skin_words[199023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57812,7 +57812,7 @@ _G.pg.ship_skin_words[199023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399030] = {
+_G.pg.base.ship_skin_words[399030] = {
 	feeling1 = "Commander, if you continue to squander your talents, then one day...",
 	feeling3 = "My sisters always give me lots of candy whenever they see me. I, I suppose I can share them with you, Commander...",
 	lose = "Impossible... h-how did I miscalculate...?",
@@ -57846,7 +57846,7 @@ _G.pg.ship_skin_words[399030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399031] = {
+_G.pg.base.ship_skin_words[399031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57880,7 +57880,7 @@ _G.pg.ship_skin_words[399031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399040] = {
+_G.pg.base.ship_skin_words[399040] = {
 	feeling1 = "Commander, I'm worried about you... You can do better, can't you?",
 	feeling3 = "I'd like to get to know the other Sakura girls, and the others besides. What do you think of holding a mixer...? I could provide... the refreshments! Hehehe.",
 	lose = "We lost... How will I tell the Commander...?",
@@ -57939,7 +57939,7 @@ _G.pg.ship_skin_words[399040] = {
 	}
 }
 
-_G.pg.ship_skin_words[399041] = {
+_G.pg.base.ship_skin_words[399041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57973,7 +57973,7 @@ _G.pg.ship_skin_words[399041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399048] = {
+_G.pg.base.ship_skin_words[399048] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58007,7 +58007,7 @@ _G.pg.ship_skin_words[399048] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499020] = {
+_G.pg.base.ship_skin_words[499020] = {
 	feeling1 = "I wonder if you’re properly repenting yet...?",
 	feeling3 = "Things such as courage have no value on the battlefield. Only those who approach Laplace’s demon shall approach victory.",
 	lose = "Please await our next performance...",
@@ -58058,7 +58058,7 @@ _G.pg.ship_skin_words[499020] = {
 	}
 }
 
-_G.pg.ship_skin_words[499021] = {
+_G.pg.base.ship_skin_words[499021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58092,7 +58092,7 @@ _G.pg.ship_skin_words[499021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499028] = {
+_G.pg.base.ship_skin_words[499028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58126,7 +58126,7 @@ _G.pg.ship_skin_words[499028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[999010] = {
+_G.pg.base.ship_skin_words[999010] = {
 	feeling1 = "Gascogne is a weapon and a warship. No other definitions are applicable.",
 	feeling3 = "Phenomena known as \"emotions\" and \"impulses\" occur when interacting with members of the fleet. Requesting instructions for achieving satisfactory interaction.",
 	lose = "Failure is intolerable. Proposal: improve Gascogne's capabilities, or terminate system.",
@@ -58160,7 +58160,7 @@ _G.pg.ship_skin_words[999010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[999011] = {
+_G.pg.base.ship_skin_words[999011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58194,7 +58194,7 @@ _G.pg.ship_skin_words[999011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299030] = {
+_G.pg.base.ship_skin_words[299030] = {
 	feeling1 = "Hrmph... Why'd the first love of my life have to be such a disappointment?",
 	feeling3 = "Hey, Owner! I was playing with this Sakura Empire girl earlier, and I got to touch her cat ears! REAL cat ears! Aren't you jealous? ...What? You did that ages ago? Hrmph, well there goes my brief moment of triumph!",
 	lose = "Why don't we slink away before they notice?",
@@ -58271,7 +58271,7 @@ _G.pg.ship_skin_words[299030] = {
 	}
 }
 
-_G.pg.ship_skin_words[299031] = {
+_G.pg.base.ship_skin_words[299031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58305,7 +58305,7 @@ _G.pg.ship_skin_words[299031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299032] = {
+_G.pg.base.ship_skin_words[299032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58339,7 +58339,7 @@ _G.pg.ship_skin_words[299032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299033] = {
+_G.pg.base.ship_skin_words[299033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58373,7 +58373,7 @@ _G.pg.ship_skin_words[299033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299040] = {
+_G.pg.base.ship_skin_words[299040] = {
 	feeling1 = "I am willing to turn a blind eye to a few accidents, but if you keep doing this intentionally, don't expect any mercy from me.",
 	feeling3 = "Oh right, Commander. Did you have any interest in navigation... or rather, adventure? I've been recruiting mates. If you're interested, let's go look for treasure or uninhabited islands or something!",
 	lose = "How humiliating... I'll get you back for this! Just you wait!",
@@ -58416,7 +58416,7 @@ _G.pg.ship_skin_words[299040] = {
 	}
 }
 
-_G.pg.ship_skin_words[299041] = {
+_G.pg.base.ship_skin_words[299041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58450,7 +58450,7 @@ _G.pg.ship_skin_words[299041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499030] = {
+_G.pg.base.ship_skin_words[499030] = {
 	feeling1 = "To think that my first commander would be this pathetic... How depressing.",
 	feeling3 = "If I am lacking in actual battle experience, there is nothing to do but humbly accumulate more. Commander, I won't mince words - please send me out on more battles.",
 	lose = "Hm. I'll consider this as valuable practical experience.",
@@ -58495,7 +58495,7 @@ _G.pg.ship_skin_words[499030] = {
 	}
 }
 
-_G.pg.ship_skin_words[499040] = {
+_G.pg.base.ship_skin_words[499040] = {
 	feeling1 = "I am not even disappointed, I simply wonder how someone as lousy as you became a commander in the first place.",
 	feeling3 = "Mourn for my fallen comrades? If I were to stop and mourn for every lost soul, I would never win the war.",
 	lose = "Impossible... My plan should have been flawless...!",
@@ -58529,7 +58529,7 @@ _G.pg.ship_skin_words[499040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499041] = {
+_G.pg.base.ship_skin_words[499041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58563,7 +58563,7 @@ _G.pg.ship_skin_words[499041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899020] = {
+_G.pg.base.ship_skin_words[899020] = {
 	feeling1 = "The hope you brought was but a false light. Why, Commander, must you torment me so?",
 	feeling3 = "Trees bury their roots deep into the ground to avoid being blown away, and fish swim upstream to propagate their kind. Though they know they are fated to return to nothingness, living things defy their circumstances to the best of their ability.",
 	lose = "Our true destination still awaits.",
@@ -58614,7 +58614,7 @@ _G.pg.ship_skin_words[899020] = {
 	}
 }
 
-_G.pg.ship_skin_words[899021] = {
+_G.pg.base.ship_skin_words[899021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58648,7 +58648,7 @@ _G.pg.ship_skin_words[899021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199030] = {
+_G.pg.base.ship_skin_words[199030] = {
 	feeling1 = "Patpat. Teacher, it's okay, don't cry... Anchorage... won't cry either... Smile like this, okay?",
 	feeling3 = "Teacher~! I'll give you this bunny rabbit! ...Here!",
 	lose = "Oh no, I lost... Bad guys are scary...",
@@ -58707,7 +58707,7 @@ _G.pg.ship_skin_words[199030] = {
 	}
 }
 
-_G.pg.ship_skin_words[399050] = {
+_G.pg.base.ship_skin_words[399050] = {
 	feeling1 = "Scum. Stay away from me.",
 	feeling3 = "Not too bad. You might actually be able to keep pace with me... Hmph. But if you become complacent or regress, I'll cast you aside faster than anyone else.",
 	lose = "L-let's get out of here! ....H-has anyone seen my katana?!",
@@ -58752,7 +58752,7 @@ _G.pg.ship_skin_words[399050] = {
 	}
 }
 
-_G.pg.ship_skin_words[399051] = {
+_G.pg.base.ship_skin_words[399051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58786,7 +58786,7 @@ _G.pg.ship_skin_words[399051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499050] = {
+_G.pg.base.ship_skin_words[499050] = {
 	feeling1 = "You are undisciplined trash not worthy of my compassion.",
 	feeling3 = "I'm going for a drink, and you shall accompany me, Commander. Get as drunk as you wish. I'll overlook whatever silly things you say while under the influence.",
 	lose = "Nobody, and I mean NOBODY denies me my victory! I shall return with a vengeance!",
@@ -58838,7 +58838,7 @@ _G.pg.ship_skin_words[499050] = {
 	}
 }
 
-_G.pg.ship_skin_words[499060] = {
+_G.pg.base.ship_skin_words[499060] = {
 	feeling1 = "I have nothing to say to those who cannot fight.",
 	feeling3 = "Zeppelin and I both know what you are. An insignificant insect, triying to defy your destiny. Having said that... I believe a soul like you isn't meant to blindly accept their destiny.",
 	lose = "For every victor, there must also be a loser...",
@@ -58897,7 +58897,7 @@ _G.pg.ship_skin_words[499060] = {
 	}
 }
 
-_G.pg.ship_skin_words[499061] = {
+_G.pg.base.ship_skin_words[499061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "I suppose my unfamiliarity with this role is to blame.",
@@ -58931,7 +58931,7 @@ _G.pg.ship_skin_words[499061] = {
 	detail = "Order me around as you please. A lowly maid deserves no pity or modesty from her defiant conqueror."
 }
 
-_G.pg.ship_skin_words[699010] = {
+_G.pg.base.ship_skin_words[699010] = {
 	feeling1 = "If not for your position, I would've sent you away to... Never you mind. Hmph!",
 	feeling3 = "You possess insight and views superior to those of commonplace boors. But, as it stands, you could use some more... well, ambition.",
 	lose = "You wretches... I will inflict this humiliation back at you a hundred times over!",
@@ -58982,7 +58982,7 @@ _G.pg.ship_skin_words[699010] = {
 	}
 }
 
-_G.pg.ship_skin_words[699011] = {
+_G.pg.base.ship_skin_words[699011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",

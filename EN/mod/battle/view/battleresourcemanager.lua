@@ -460,7 +460,9 @@ function slot5.StartPreload(slot0, slot1, slot2)
 		if slot0.GetResName(slot9) == "" or slot0._resCacheList[slot9] ~= nil then
 			slot5()
 		elseif string.find(slot9, "herohrzicon/") or string.find(slot9, "qicon/") or string.find(slot9, "squareicon/") or string.find(slot9, "commanderhrz/") or string.find(slot9, "AircraftIcon/") then
-			ResourceMgr.Inst:getAssetAsync(slot9, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			slot12, slot13 = HXSet.autoHxShiftPath(slot9, slot11)
+
+			ResourceMgr.Inst:getAssetAsync(slot12, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if slot0 == nil then
 					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else

@@ -1,6 +1,7 @@
 slot0 = class("NewBackYardShipInfoMediator", import("...base.ContextMediator"))
 slot0.EXTEND = "NewBackYardShipInfoMediator:EXTEND"
 slot0.OPEN_CHUANWU = "NewBackYardShipInfoMediator:OPEN_CHUANWU"
+slot0.UPDATE_SHIPS = "NewBackYardShipInfoMediator:UPDATE_SHIPS"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.EXTEND, function (slot0, slot1)
@@ -33,8 +34,8 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 		end,
 		onSelected = function (slot0, slot1)
 			uv0:OnSelected(uv1, uv2, slot0, function ()
-				uv0.viewComponent:UpdateSlots()
-				uv1()
+				uv0:sendNotification(uv1.UPDATE_SHIPS)
+				uv2()
 			end)
 		end,
 		priorEquipUpShipIDList = {}
@@ -180,7 +181,8 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.EXTEND_BACKYARD_DONE
+		GAME.EXTEND_BACKYARD_DONE,
+		uv0.UPDATE_SHIPS
 	}
 end
 
@@ -189,6 +191,8 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.EXTEND_BACKYARD_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardShipInfoMediator_ok_unlock"))
+		slot0.viewComponent:UpdateSlots()
+	elseif slot2 == uv0.UPDATE_SHIPS then
 		slot0.viewComponent:UpdateSlots()
 	end
 end

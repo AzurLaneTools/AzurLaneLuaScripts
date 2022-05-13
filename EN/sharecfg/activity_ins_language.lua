@@ -9850,184 +9850,184 @@ pg.activity_ins_language = {
 		value = "Yea lol I look like a sakura empire submarine"
 	},
 	ins_295 = {
-		value = ""
+		value = "Oh, Emden, what shall your next move be, hmm?"
 	},
 	ins_discuss_295_1 = {
-		value = ""
+		value = "TIL people still play chess (tabletop chess at that) in current year"
 	},
 	ins_reply_295_1_1 = {
-		value = ""
+		value = "It's quite enjoyable, actually. There is a reason it's been around for centuries. Won't you give it a try?"
 	},
 	ins_reply_295_1_2 = {
-		value = ""
+		value = "eh, maybe one day"
 	},
 	ins_discuss_295_2 = {
-		value = ""
+		value = "It seems another worthy opponent has appeared... I, Valiant, challenge you to a game of chess!"
 	},
 	ins_reply_295_2_1 = {
-		value = ""
+		value = "Challenge accepted. Emden shall be waiting for you in the library."
 	},
 	ins_discuss_295_3 = {
-		value = ""
+		value = "Are you playing against yourself? You do you, but you'd learn more by playing another opponent."
 	},
 	ins_reply_295_3_1 = {
-		value = ""
+		value = "\"That is exactly what Emden's doing.\""
 	},
 	ins_op_295_1_1 = {
-		value = ""
+		value = "We should clearly do a port chess tournament."
 	},
 	op_reply_295_1_1 = {
-		value = ""
+		value = "Good idea, my darling human. Emden shall seize the title of Grandmaster."
 	},
 	ins_296 = {
-		value = ""
+		value = "randomly went to this pastry shop and got their weekly special. it was simply *chef's kiss*"
 	},
 	ins_discuss_296_1 = {
-		value = ""
+		value = "That shop's really famous. They have a new special every week, and it always sells out fast."
 	},
 	ins_reply_296_1_1 = {
-		value = ""
+		value = "wow really? pretty lucky i managed to get some then"
 	},
 	ins_reply_296_1_2 = {
-		value = ""
+		value = "We must be quick if we're to try it for ourselves! Spee, meet me outside!"
 	},
 	ins_reply_296_1_3 = {
-		value = ""
+		value = "hey no rush, i've bought some for you girls too"
 	},
 	ins_discuss_296_2 = {
-		value = ""
+		value = "I'm curious to try one. Are there any left?"
 	},
 	ins_reply_296_2_1 = {
-		value = ""
+		value = "nope i already snagged all they had but if you want one, come get it"
 	},
 	ins_reply_296_2_2 = {
-		value = ""
+		value = "For free? How generous. Save a seat at the table for me."
 	},
 	ins_op_296_1_1 = {
-		value = ""
+		value = "Can confirm and would recommend."
 	},
 	op_reply_296_1_1 = {
-		value = ""
+		value = "awesome you could join us, commander. let's go looking for some nice shops together sometime"
 	},
 	ins_297 = {
-		value = ""
+		value = "Sigh... Every time I bring my umbrella, expecting rain, it always turns sunny."
 	},
 	ins_discuss_297_1 = {
-		value = ""
+		value = "the weather's random like that. don't let it get to you"
 	},
 	ins_reply_297_1_1 = {
-		value = ""
+		value = "I'm not *too* bothered since this happens every single time, but still..."
 	},
 	ins_discuss_297_2 = {
-		value = ""
+		value = "Sunshine is nice, so what's the problem? Frankly, I'd be glad."
 	},
 	ins_reply_297_2_1 = {
-		value = ""
+		value = "The problem is, it's proof that nothing ever goes as I wished. It's my curse..."
 	},
 	ins_discuss_297_3 = {
-		value = ""
+		value = "If what you say is true, you should wish for the opposite of what you want. Have you tried that?"
 	},
 	ins_reply_297_3_1 = {
-		value = ""
+		value = "Yes, I have. Good things always come to those I wish misfortune upon..."
 	},
 	ins_op_297_1_1 = {
-		value = ""
+		value = "Don't weep! Smile for me and outshine the sun."
 	},
 	op_reply_297_1_1 = {
-		value = ""
+		value = "Thanks, Commander... You're too kind to worthless old me. I hope... you'll face terrible misfortune from now on."
 	},
 	ins_298 = {
-		value = ""
+		value = "I claim the depot. Henceforth it shall be known as the independent republic of Yorcktown."
 	},
 	ins_discuss_298_1 = {
-		value = ""
+		value = "whoa new country just dropped. ruled by a shipgirl too!"
 	},
 	ins_reply_298_1_1 = {
-		value = ""
+		value = "I'm kidding, of course. Me and the manjuus are just reorganizing the shelves."
 	},
 	ins_reply_298_1_2 = {
-		value = ""
+		value = "laaame. i wanted to defect so i won't have to do work"
 	},
 	ins_discuss_298_2 = {
-		value = ""
+		value = "Thanks, nya. I owe you bigtime for this, nya."
 	},
 	ins_reply_298_2_1 = {
-		value = ""
+		value = "Don't thank me, thank the diligent manjuus. They did all the work."
 	},
 	ins_op_298_1_1 = {
-		value = ""
+		value = "Stellar work, Yorck! I knew I could count on you."
 	},
 	op_reply_298_1_1 = {
-		value = ""
+		value = "Please, it was nothing. Besides, it's my pleasure to carry out your orders."
 	},
 	ins_299 = {
-		value = ""
+		value = "Everything happens for a reason. Don't intervene with nature."
 	},
 	ins_discuss_299_1 = {
-		value = ""
+		value = "Are you sure? Their screws are flying loose..."
 	},
 	ins_reply_299_1_1 = {
-		value = ""
+		value = "They're built to take a serious beating. This damage only amounts to a scratch for them."
 	},
 	ins_discuss_299_2 = {
-		value = ""
+		value = "Thank you for reassuring me, Thüringen... I panicked when Fishy pounced a fellow rigging."
 	},
 	ins_reply_299_2_1 = {
-		value = ""
+		value = "Boys will be boys. All is fine as long as it doesn't get ugly."
 	},
 	ins_discuss_299_3 = {
-		value = ""
+		value = "omg I'm so sorry!! eisen's usually a good boy, I don't know what got into him!"
 	},
 	ins_reply_299_3_1 = {
-		value = ""
+		value = "Oh it's no big deal! The whole thing just surprised me, that's all."
 	},
 	ins_op_299_1_1 = {
-		value = ""
+		value = "Oh dear. Was anyone hurt?"
 	},
 	op_reply_299_1_1 = {
-		value = ""
+		value = "Nope, no injuries. I made sure of that."
 	},
 	ins_op_299_1_2 = {
-		value = ""
+		value = "Status report. How are the riggings?"
 	},
 	op_reply_299_1_2 = {
-		value = ""
+		value = "Only minor damage. A few repairs and they'll be as good as new."
 	},
 	ins_300 = {
-		value = ""
+		value = "I've completed my patrol of the port. Nothing suspicious to report!"
 	},
 	ins_discuss_300_1 = {
-		value = ""
+		value = "Feels great pulling the reins, doesn't it?"
 	},
 	ins_reply_300_1_1 = {
-		value = ""
+		value = "Affirmative. My steed was also very trusty, which helped greatly."
 	},
 	ins_discuss_300_2 = {
-		value = ""
+		value = "Soon we'll have enough horse riders to form a port cavalry corp."
 	},
 	ins_reply_300_2_1 = {
-		value = ""
+		value = "Hmm... While I do like that idea, we should pass it by the Commandant first."
 	},
 	ins_discuss_300_3 = {
-		value = ""
+		value = "I've rode piggyback, I wanna try horseback next!"
 	},
 	ins_reply_300_3_1 = {
-		value = ""
+		value = "Those are two very different things, I'm afraid."
 	},
 	ins_reply_300_3_2 = {
-		value = ""
+		value = "Well, both involve pulling the reins of something. Or someone. Heheh."
 	},
 	ins_op_300_1_1 = {
-		value = ""
+		value = "You look awesome riding horseback."
 	},
 	op_reply_300_1_1 = {
-		value = ""
+		value = "Thank you for the compliment! I have long to go before I master the art of riding, however."
 	},
 	ins_op_300_1_2 = {
-		value = ""
+		value = "Excellent work! You make me proud."
 	},
 	op_reply_300_1_2 = {
-		value = ""
+		value = "You flatter me, Commandant! I am only doing my duty."
 	},
 	all = {
 		ins_op_1_1_1,

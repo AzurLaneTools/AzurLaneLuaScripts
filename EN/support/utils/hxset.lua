@@ -105,62 +105,86 @@ end
 function slot0.update()
 	slot0 = uv0.codeMode and uv0.codeNameMap or uv0.nameCodeMap
 	slot1 = uv0.codeMode and uv0.codeNameMap_EN or uv0.nameCodeMap_EN
-
-	for slot5, slot6 in pairs(pg.ship_data_statistics) do
-		if uv0.isHXNation(slot6.nationality) and slot0[slot6.name] then
-			slot6.name = slot0[slot6.name]
-		end
-
-		for slot10, slot11 in pairs(slot1) do
-			slot6.english_name = string.gsub(slot6.english_name or "", slot10, slot11)
-		end
-	end
-
-	for slot5, slot6 in pairs(pg.fleet_tech_ship_class) do
-		if slot6.name then
-			slot7, slot8 = string.gsub(slot6.name, "级", "")
-
-			if uv0.isHXNation(slot6.nation) and slot0[slot7] then
-				slot6.name = slot0[slot7] .. (slot8 > 0 and "级" or "")
-			end
-		end
-	end
-
-	setmetatable(pg.enemy_data_statistics, {
+	slot2 = pg.ship_data_statistics
+	pg.ship_data_statistics = setmetatable({}, {
 		__index = function (slot0, slot1)
-			if pg.enemy_data_statistics.indexs[slot1] == nil then
-				return nil
+			if uv0[slot1] == nil then
+				return slot2
+			elseif slot2.name == nil then
+				slot0[slot1] = slot2
+
+				return slot0[slot1]
 			end
 
-			if pg[pg.enemy_data_statistics.subList[slot2]] == nil then
-				require("ShareCfg.enemy_data_statistics_subList." .. slot3)
+			slot0[slot1] = {}
+
+			if uv1.isHXNation(slot2.nationality) and uv2[slot2.name] then
+				slot0[slot1].name = uv2[slot2.name]
 			end
 
-			slot6 = nil
+			if slot2.english_name and #slot2.english_name > 0 then
+				slot0[slot1].english_name = slot2.english_name
 
-			if rawget(pg[slot3][slot1], "base") ~= nil then
-				rawset(slot4, "base", nil)
-
-				slot6 = slot0[slot5]
+				for slot6, slot7 in pairs(uv3) do
+					slot0[slot1].english_name = string.gsub(slot0[slot1].english_name or "", slot6, slot7)
+				end
 			end
 
-			if not getmetatable(slot4) then
-				setmetatable(slot4, {
-					__index = function (slot0, slot1)
-						if not rawget(uv0, slot1) and uv1 then
-							slot2 = rawget(uv1, slot1)
-						end
+			setmetatable(slot0[slot1], {
+				__index = slot2
+			})
 
-						if slot1 == "name" and uv2.isHXNation(slot0.nationality) and uv3[slot2] then
-							slot2 = uv3[slot2]
-						end
+			return slot0[slot1]
+		end
+	})
+	slot3 = pg.fleet_tech_ship_class
+	pg.fleet_tech_ship_class = setmetatable({}, {
+		__index = function (slot0, slot1)
+			if uv0[slot1] == nil then
+				return slot2
+			elseif slot2.name == nil then
+				slot0[slot1] = slot2
 
-						return slot2
-					end
+				return slot0[slot1]
+			end
+
+			slot3, slot4 = string.gsub(slot2.name, "级", "")
+
+			if uv1.isHXNation(slot2.nation) and uv2[slot3] then
+				slot0[slot1] = setmetatable({
+					name = uv2[slot3] .. (slot4 > 0 and "级" or "")
+				}, {
+					__index = slot2
 				})
+			else
+				slot0[slot1] = slot2
 			end
 
-			return slot4
+			return slot0[slot1]
+		end
+	})
+	slot4 = pg.enemy_data_statistics
+	pg.enemy_data_statistics = setmetatable({}, {
+		__index = function (slot0, slot1)
+			if uv0[slot1] == nil then
+				return slot2
+			elseif slot2.name == nil then
+				slot0[slot1] = slot2
+
+				return slot0[slot1]
+			end
+
+			if uv1.isHXNation(slot2.nationality) and uv2[slot2.name] then
+				slot0[slot1] = setmetatable({
+					name = uv2[slot2.name]
+				}, {
+					__index = slot2
+				})
+			else
+				slot0[slot1] = slot2
+			end
+
+			return slot0[slot1]
 		end
 	})
 end
@@ -203,7 +227,8 @@ slot0.hxPathList = {
 	"char",
 	"shipmodels",
 	"technologycard",
-	"shipdesignicon"
+	"shipdesignicon",
+	"herohrzicon"
 }
 slot0.folderBundle = {
 	"paintingface"

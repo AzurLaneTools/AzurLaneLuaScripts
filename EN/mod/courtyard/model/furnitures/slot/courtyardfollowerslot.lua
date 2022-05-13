@@ -26,6 +26,10 @@ function slot0.Occupy(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot0.OnAwake(slot0)
+	slot0:ClearTimer()
+end
+
 function slot0.Clear(slot0, slot1)
 	if slot0:IsUsing() then
 		slot0:Empty()
@@ -44,9 +48,28 @@ function slot0.OnStart(slot0)
 		action = slot0.aciton,
 		slot = slot0
 	})
-	Timer.New(function ()
+
+	slot0.timer = Timer.New(function ()
 		uv0:End()
-	end, slot0.user:GetInterActionTime(), 1):Start()
+	end, slot0.user:GetInterActionTime(), 1)
+
+	slot0.timer:Start()
+end
+
+function slot0.ClearTimer(slot0)
+	if slot0.timer then
+		slot0.timer:Stop()
+
+		slot0.timer = nil
+	end
+end
+
+function slot0.OnStop(slot0)
+	slot0:ClearTimer()
+end
+
+function slot0.OnEnd(slot0)
+	slot0:ClearTimer()
 end
 
 function slot0.GetBodyMask(slot0)

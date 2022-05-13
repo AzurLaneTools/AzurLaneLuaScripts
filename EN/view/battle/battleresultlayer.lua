@@ -153,6 +153,14 @@ function slot0.init(slot0)
 	end
 
 	setText(findTF(slot0._conditions, "bg17"), i18n("battle_result_targets"))
+
+	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
+	slot0._ratioFitter.enabled = true
+	slot0._ratioFitter.aspectRatio = pg.CameraFixMgr.GetInstance().targetRatio
+	slot1 = pg.CameraFixMgr.GetInstance()
+	slot0.camEventId = slot1:bind(pg.CameraFixMgr.ASPECT_RATIO_UPDATE, function (slot0, slot1)
+		uv0._ratioFitter.aspectRatio = slot1
+	end)
 end
 
 function slot0.setGradeLabel(slot0)
@@ -1254,6 +1262,8 @@ function slot0.willExit(slot0)
 
 		slot0.metaExpView = nil
 	end
+
+	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)
 end
 
 return slot0

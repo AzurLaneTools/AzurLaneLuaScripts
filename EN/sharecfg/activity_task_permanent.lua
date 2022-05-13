@@ -248,6 +248,66 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6011] = {
+		gametip = "Get an outfit for Javelin!",
+		banner_route = "permanent_biaoqiang",
+		gametip_extra = "Takes at least 9 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6011,
+		activity_name = "Monthly Manga Javelin",
+		over_task_id = "",
+		eliminate_task_id = {
+			35118,
+			35119,
+			35120,
+			35121,
+			35122,
+			35123,
+			35124,
+			35125,
+			35126,
+			35127,
+			35128,
+			35129,
+			35130,
+			35131,
+			35132,
+			35133,
+			35134,
+			35135
+		}
+	},
+	[6012] = {
+		gametip = "Get an outfit for U-73!",
+		banner_route = "permanent_u73",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6012,
+		activity_name = "Science Rules!",
+		over_task_id = "",
+		eliminate_task_id = {
+			35136,
+			35137,
+			35138,
+			35139,
+			35140,
+			35141,
+			35142,
+			35143,
+			35144,
+			35145,
+			35146,
+			35147,
+			35148,
+			35149,
+			35150,
+			35151,
+			35152,
+			35153
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -259,6 +319,8 @@ pg.activity_task_permanent = {
 		6007,
 		6008,
 		6009,
-		6010
+		6010,
+		6011,
+		6012
 	}
 }

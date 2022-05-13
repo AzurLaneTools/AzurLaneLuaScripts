@@ -134,7 +134,7 @@ function slot1.castSkill(slot0, slot1, slot2, slot3)
 		end
 
 		if slot11 then
-			slot0:spell(slot10)
+			slot0:spell(slot10, slot2)
 		end
 	end
 
@@ -145,12 +145,12 @@ function slot1.IsInCD(slot0, slot1)
 	return slot1 < slot0._nextEffectTime
 end
 
-function slot1.spell(slot0, slot1)
+function slot1.spell(slot0, slot1, slot2)
 	slot0._skill = slot0._skill or uv0.Battle.BattleSkillUnit.GenerateSpell(slot0._skill_id, slot0._level, slot1, attData)
 
-	if attach and attach.target then
+	if slot2 and slot2.target then
 		slot0._skill:SetTarget({
-			attach.target
+			slot2.target
 		})
 	end
 

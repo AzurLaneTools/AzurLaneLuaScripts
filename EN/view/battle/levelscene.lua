@@ -623,11 +623,6 @@ function slot0.didEnter(slot0)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot6)
 	slot0:initMapBtn(slot0.btnPrev, -1)
 	slot0:initMapBtn(slot0.btnNext, 1)
-
-	for slot12, slot13 in ipairs(getProxy(ContextProxy):getContextByMediator(LevelMediator2).children) do
-		slot0.levelCamIndices = slot0.levelCamIndices + 1
-	end
-
 	slot0:emit(LevelMediator2.ON_EVENT_LIST_UPDATE)
 
 	if slot0.contextData.editEliteChapter then
@@ -767,27 +762,18 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = 0
-	slot5 = nil
+	slot3 = nil
+	slot4 = getProxy(ChapterProxy)
 
-	function slot5()
-		uv0 = uv0 + 1
-
-		if uv0 == uv1 and not uv2.exited then
-			uv2.preloadLevelDone = true
-
-			existCall(uv3)
-		end
-	end
-
-	slot6 = getProxy(ChapterProxy)
-	slot7 = slot0:GetMapBG(slot6:getMapById(slot1))
-	slot4 = 1 + #slot7
-
-	table.ParallelIpairsAsync(slot7, function (slot0, slot1, slot2)
+	table.ParallelIpairsAsync(slot0:GetMapBG(slot4:getMapById(slot1)), function (slot0, slot1, slot2)
 		GetSpriteFromAtlasAsync("levelmap/" .. slot1.BG, "", slot2)
-	end, slot5)
-	slot5()
+	end, function ()
+		if not uv0.exited then
+			uv0.preloadLevelDone = true
+
+			existCall(uv1)
+		end
+	end)
 end
 
 function slot0.selectMap(slot0)

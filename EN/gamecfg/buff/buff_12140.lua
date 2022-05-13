@@ -41,7 +41,10 @@ return {
 			},
 			arg_list = {
 				buff_id = 12142,
-				target = "TargetShipTag",
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Tirpitz"
 				}

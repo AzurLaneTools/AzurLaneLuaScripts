@@ -28,7 +28,7 @@ function slot0.register(slot0)
 		if slot2 then
 			slot0:bind(uv0.USE_ITEM, function (slot0, slot1, slot2)
 				if not UseItemCommand.Check(getProxy(BagProxy):getItemById(slot1), slot2) then
-					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+					uv0.viewComponent:doClose()
 
 					return
 				end
@@ -41,7 +41,7 @@ function slot0.register(slot0)
 							id = uv0,
 							count = uv2,
 							callback = function (slot0)
-								uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0)
+								uv0:sendNotification(GAME.USE_ITEM_DONE, slot0)
 							end
 						})
 					else

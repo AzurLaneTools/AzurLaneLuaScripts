@@ -337,8 +337,7 @@ slot1 = {
 	},
 	inActivity = {
 		isActivityNpc = 0,
-		inEvent = 0,
-		inActivity = 0
+		inEvent = 0
 	},
 	inEvent = {
 		inEvent = 0,

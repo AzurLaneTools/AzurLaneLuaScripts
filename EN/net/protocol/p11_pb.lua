@@ -9,6 +9,7 @@ slot2 = {
 	CS_11001_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
 	SC_11002_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
 	SC_11002_MONDAY_0OCLOCK_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
+	SC_11002_SHIP_COUNT_FIELD = slot0.FieldDescriptor(),
 	SC_11003_ID_FIELD = slot0.FieldDescriptor(),
 	SC_11003_NAME_FIELD = slot0.FieldDescriptor(),
 	SC_11003_LEVEL_FIELD = slot0.FieldDescriptor(),
@@ -210,6 +211,8 @@ slot2 = {
 	CS_11703_INDEX_FIELD = slot0.FieldDescriptor(),
 	SC_11704_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_11704_DATA_FIELD = slot0.FieldDescriptor(),
+	CS_11800_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_11801_SHIP_COUNT_FIELD = slot0.FieldDescriptor(),
 	INS_MESSAGE_ID_FIELD = slot0.FieldDescriptor(),
 	INS_MESSAGE_TIME_FIELD = slot0.FieldDescriptor(),
 	INS_MESSAGE_TEXT_FIELD = slot0.FieldDescriptor(),
@@ -310,6 +313,8 @@ CS_11701 = slot0.Descriptor()
 SC_11702 = slot0.Descriptor()
 CS_11703 = slot0.Descriptor()
 SC_11704 = slot0.Descriptor()
+CS_11800 = slot0.Descriptor()
+SC_11801 = slot0.Descriptor()
 INS_MESSAGE = slot0.Descriptor()
 INS_PLAYER = slot0.Descriptor()
 INS_NPC = slot0.Descriptor()
@@ -377,13 +382,23 @@ slot2.SC_11002_MONDAY_0OCLOCK_TIMESTAMP_FIELD.has_default_value = false
 slot2.SC_11002_MONDAY_0OCLOCK_TIMESTAMP_FIELD.default_value = 0
 slot2.SC_11002_MONDAY_0OCLOCK_TIMESTAMP_FIELD.type = 13
 slot2.SC_11002_MONDAY_0OCLOCK_TIMESTAMP_FIELD.cpp_type = 3
+slot2.SC_11002_SHIP_COUNT_FIELD.name = "ship_count"
+slot2.SC_11002_SHIP_COUNT_FIELD.full_name = "p11.sc_11002.ship_count"
+slot2.SC_11002_SHIP_COUNT_FIELD.number = 3
+slot2.SC_11002_SHIP_COUNT_FIELD.index = 2
+slot2.SC_11002_SHIP_COUNT_FIELD.label = 2
+slot2.SC_11002_SHIP_COUNT_FIELD.has_default_value = false
+slot2.SC_11002_SHIP_COUNT_FIELD.default_value = 0
+slot2.SC_11002_SHIP_COUNT_FIELD.type = 13
+slot2.SC_11002_SHIP_COUNT_FIELD.cpp_type = 3
 SC_11002.name = "sc_11002"
 SC_11002.full_name = "p11.sc_11002"
 SC_11002.nested_types = {}
 SC_11002.enum_types = {}
 SC_11002.fields = {
 	slot2.SC_11002_TIMESTAMP_FIELD,
-	slot2.SC_11002_MONDAY_0OCLOCK_TIMESTAMP_FIELD
+	slot2.SC_11002_MONDAY_0OCLOCK_TIMESTAMP_FIELD,
+	slot2.SC_11002_SHIP_COUNT_FIELD
 }
 SC_11002.is_extendable = false
 SC_11002.extensions = {}
@@ -3045,6 +3060,42 @@ SC_11704.fields = {
 }
 SC_11704.is_extendable = false
 SC_11704.extensions = {}
+slot2.CS_11800_TYPE_FIELD.name = "type"
+slot2.CS_11800_TYPE_FIELD.full_name = "p11.cs_11800.type"
+slot2.CS_11800_TYPE_FIELD.number = 1
+slot2.CS_11800_TYPE_FIELD.index = 0
+slot2.CS_11800_TYPE_FIELD.label = 2
+slot2.CS_11800_TYPE_FIELD.has_default_value = false
+slot2.CS_11800_TYPE_FIELD.default_value = 0
+slot2.CS_11800_TYPE_FIELD.type = 13
+slot2.CS_11800_TYPE_FIELD.cpp_type = 3
+CS_11800.name = "cs_11800"
+CS_11800.full_name = "p11.cs_11800"
+CS_11800.nested_types = {}
+CS_11800.enum_types = {}
+CS_11800.fields = {
+	slot2.CS_11800_TYPE_FIELD
+}
+CS_11800.is_extendable = false
+CS_11800.extensions = {}
+slot2.SC_11801_SHIP_COUNT_FIELD.name = "ship_count"
+slot2.SC_11801_SHIP_COUNT_FIELD.full_name = "p11.sc_11801.ship_count"
+slot2.SC_11801_SHIP_COUNT_FIELD.number = 1
+slot2.SC_11801_SHIP_COUNT_FIELD.index = 0
+slot2.SC_11801_SHIP_COUNT_FIELD.label = 2
+slot2.SC_11801_SHIP_COUNT_FIELD.has_default_value = false
+slot2.SC_11801_SHIP_COUNT_FIELD.default_value = 0
+slot2.SC_11801_SHIP_COUNT_FIELD.type = 13
+slot2.SC_11801_SHIP_COUNT_FIELD.cpp_type = 3
+SC_11801.name = "sc_11801"
+SC_11801.full_name = "p11.sc_11801"
+SC_11801.nested_types = {}
+SC_11801.enum_types = {}
+SC_11801.fields = {
+	slot2.SC_11801_SHIP_COUNT_FIELD
+}
+SC_11801.is_extendable = false
+SC_11801.extensions = {}
 slot2.INS_MESSAGE_ID_FIELD.name = "id"
 slot2.INS_MESSAGE_ID_FIELD.full_name = "p11.ins_message.id"
 slot2.INS_MESSAGE_ID_FIELD.number = 1
@@ -3296,6 +3347,7 @@ cs_11607 = slot0.Message(CS_11607)
 cs_11609 = slot0.Message(CS_11609)
 cs_11701 = slot0.Message(CS_11701)
 cs_11703 = slot0.Message(CS_11703)
+cs_11800 = slot0.Message(CS_11800)
 groupinfo = slot0.Message(GROUPINFO)
 ins_message = slot0.Message(INS_MESSAGE)
 ins_npc = slot0.Message(INS_NPC)
@@ -3345,3 +3397,4 @@ sc_11610 = slot0.Message(SC_11610)
 sc_11700 = slot0.Message(SC_11700)
 sc_11702 = slot0.Message(SC_11702)
 sc_11704 = slot0.Message(SC_11704)
+sc_11801 = slot0.Message(SC_11801)

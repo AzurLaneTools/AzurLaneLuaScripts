@@ -7,8 +7,6 @@ function slot0.register(slot0)
 	slot0.groupListInCount = {}
 	slot0.nationToPoint = {}
 	slot0.ifShowRedPoint = false
-	slot0.timer = nil
-	slot0.leftTime = 0
 	slot0.techList = {}
 
 	slot0:on(64000, function (slot0)
@@ -282,12 +280,6 @@ function slot0.calculateTecBuff(slot0)
 end
 
 function slot0.setTimer(slot0)
-	if slot0.timer then
-		slot0.timer:Stop()
-
-		slot0.leftTime = 0
-	end
-
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.studyID ~= 0 then
 			slot9 = pg.fleet_tech_group[slot4].techs[(table.indexof(pg.fleet_tech_group[slot4].techs, slot5.completeID, 1) or 0) + 1]
@@ -300,22 +292,12 @@ function slot0.setTimer(slot0)
 
 				return
 			else
-				slot0.leftTime = slot6 - slot7
-				slot0.timer = Timer.New(function ()
-					uv0.leftTime = uv0.leftTime - 1
-
-					if uv0.leftTime == 0 then
-						uv0:sendNotification(GAME.FINISH_CAMP_TEC, {
-							tecID = uv1,
-							levelID = uv2
-						})
-						uv0.timer:Stop()
-
-						uv0.leftTime = 0
-					end
-				end, 1, -1)
-
-				slot0.timer:Start()
+				onDelayTick(function ()
+					uv0:sendNotification(GAME.FINISH_CAMP_TEC, {
+						tecID = uv1,
+						levelID = uv2
+					})
+				end, slot6 - slot7)
 
 				return
 			end
@@ -410,7 +392,11 @@ function slot0.getNationPoint(slot0, slot1)
 end
 
 function slot0.getLeftTime(slot0)
-	return slot0.leftTime
+	if slot0.techList[slot0:getStudyingTecItem()] then
+		return slot1.finishTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 and slot4 or 0
+	else
+		return 0
+	end
 end
 
 function slot0.getTecBuff(slot0)

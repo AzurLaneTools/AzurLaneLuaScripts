@@ -20,31 +20,16 @@ function slot1.Init()
 	end
 
 	uv0._lastCameraPos = nil
+	slot0 = pg.UIMgr.GetInstance():GetMainCamera()
 
-	if 1.7777777777777777 <= UnityEngine.Screen.width / UnityEngine.Screen.height then
-		uv0._actualWidth = slot1 * slot2
-		uv0._actualHeight = slot1
-		slot4 = (slot0 - uv0._actualWidth) * 0.5
-		uv0._leftBottomVector = Vector3(slot4, 0, 0)
-		uv0._rightTopVector = Vector3(slot0 - slot4, slot1, 0)
-	else
-		uv0._actualWidth = slot0
-		uv0._actualHeight = slot0 / slot2
-		slot4 = (slot1 - uv0._actualHeight) * 0.5
-		uv0._leftBottomVector = Vector3(0, slot4, 0)
-		uv0._rightTopVector = Vector3(slot0, slot1 - slot4, 0)
-	end
+	setActive(slot0, true)
 
-	slot4 = pg.UIMgr.GetInstance():GetMainCamera()
-
-	setActive(slot4, true)
-
-	uv0._camera = slot4:GetComponent(typeof(Camera))
+	uv0._camera = slot0:GetComponent(typeof(Camera))
 	uv0._cameraTF = uv0._camera.transform
 	uv0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
-	slot5 = math.deg2Rad * uv0._cameraTF.localEulerAngles.x
-	uv0._camera_radian_x_sin = math.sin(slot5)
-	uv0._camera_radian_x_cos = math.cos(slot5)
+	slot1 = math.deg2Rad * uv0._cameraTF.localEulerAngles.x
+	uv0._camera_radian_x_sin = math.sin(slot1)
+	uv0._camera_radian_x_cos = math.cos(slot1)
 	uv0._camera_radian_x_tan = uv0._camera_radian_x_sin / uv0._camera_radian_x_cos
 	uv0.CameraNormalHeight = uv0._camera_radian_x_cos * uv1.CAMERA_SIZE + uv1.CAMERA_BASE_HEIGH
 	uv0.CameraFocusHeight = uv0._camera_radian_x_cos * uv1.CAST_CAM_ZOOM_SIZE + uv1.CAMERA_BASE_HEIGH
@@ -57,8 +42,6 @@ function slot1.Clear()
 	uv0.MapSpeedFacotrList = nil
 	uv0.IFFFactorList = nil
 	uv0._lastCameraPos = nil
-	uv0._leftBottomVector = nil
-	uv0._rightTopVector = nil
 	uv0._camera = nil
 	uv0._cameraTF = nil
 	uv0._uiCamera = nil
@@ -86,17 +69,18 @@ function slot1.UpdateCameraPositionArgs()
 		uv0._lastCameraSize = slot1
 	end
 
-	slot2 = uv0._camera:ScreenToWorldPoint(uv0._leftBottomVector)
-	slot3 = uv0._camera:ScreenToWorldPoint(uv0._rightTopVector)
-	slot4 = uv0._uiCamera:ScreenToWorldPoint(uv0._leftBottomVector)
-	slot5 = uv0._uiCamera:ScreenToWorldPoint(uv0._rightTopVector)
-	uv1 = slot2.x
-	uv2 = slot4.x
-	uv3 = (slot5.x - slot4.x) / (slot3.x - slot2.x)
-	slot6 = slot2.y * 0.866 + slot2.z * 0.5
-	uv4 = slot6
-	uv5 = slot4.y
-	uv6 = (slot5.y - slot4.y) / (slot3.y * 0.866 + slot3.z * 0.5 - slot6)
+	slot2 = pg.CameraFixMgr.GetInstance()
+	slot3 = uv0._camera:ScreenToWorldPoint(slot2.leftBottomVector)
+	slot4 = uv0._camera:ScreenToWorldPoint(slot2.rightTopVector)
+	slot5 = uv0._uiCamera:ScreenToWorldPoint(slot2.leftBottomVector)
+	slot6 = uv0._uiCamera:ScreenToWorldPoint(slot2.rightTopVector)
+	uv1 = slot3.x
+	uv2 = slot5.x
+	uv3 = (slot6.x - slot5.x) / (slot4.x - slot3.x)
+	slot7 = slot3.y * 0.866 + slot3.z * 0.5
+	uv4 = slot7
+	uv5 = slot5.y
+	uv6 = (slot6.y - slot5.y) / (slot4.y * 0.866 + slot4.z * 0.5 - slot7)
 end
 
 function slot1.CameraPosToUICamera(slot0)

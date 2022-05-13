@@ -511,40 +511,40 @@ function slot0.autoFinishTask(slot0)
 	end, slot1, nil)
 end
 
-function slot0.canFinishTask(slot0)
-	slot1 = false
+function slot0.canFinishTask(slot0, slot1)
+	slot2 = false
 
-	for slot5, slot6 in pairs(slot0.curTask) do
-		if (slot0.taskProxy:getTaskById(slot6) or slot0.taskProxy:getFinishTaskById(slot6)):getTaskStatus() == 1 then
-			slot1 = true
+	for slot6, slot7 in pairs(slot0) do
+		if (slot1:getTaskById(slot7) or slot1:getFinishTaskById(slot7)):getTaskStatus() == 1 then
+			slot2 = true
 
 			break
 		end
 	end
 
-	return slot1
+	return slot2
 end
 
-function slot0.canAddProgress(slot0)
-	slot1 = false
+function slot0.canAddProgress(slot0, slot1)
+	slot2 = false
 
-	for slot5, slot6 in pairs(slot0.subPtDate) do
-		slot7, slot8, slot9 = slot6:GetResProgress()
+	for slot6, slot7 in pairs(slot1) do
+		slot8, slot9, slot10 = slot7:GetResProgress()
 
-		if slot0.resNum >= slot8 - slot7 and slot6:CanGetNextAward() then
-			slot1 = true
+		if slot0 >= slot9 - slot8 and slot7:CanGetNextAward() then
+			slot2 = true
 
 			break
 		end
 	end
 
-	return slot1
+	return slot2
 end
 
 function slot0.canGetPtAward(slot0)
 	slot1 = false
 
-	for slot5, slot6 in pairs(slot0.subPtDate) do
+	for slot5, slot6 in pairs(slot0) do
 		if slot6:CanGetAward() then
 			slot1 = true
 
@@ -570,30 +570,62 @@ function slot0.isFinishAllAct(slot0)
 end
 
 function slot0.isNewTask(slot0)
-	slot0.playerId = getProxy(PlayerProxy):getData().id
-
-	if PlayerPrefs.GetInt("wwf_todo_task_num_" .. slot0.playerId) == 0 and not slot0.todoTaskNum == 0 or slot1 < slot0.todoTaskNum then
+	if PlayerPrefs.GetInt("wwf_todo_task_num_" .. getProxy(PlayerProxy):getData().id) == 0 and not slot0 == 0 or slot2 < slot0 then
 		return true
 	else
 		return false
 	end
 end
 
-function slot0.IsShowRed(slot0)
-	slot1 = pg.activity_template[ActivityConst.WWF_TASK_ID]
-	slot0.resID = slot1.config_client.convertRes
-	slot0.subActivities = slot1.config_client.ptActID
-	slot0.taskList = slot1.config_data
+function slot0.IsShowRed()
+	slot0 = pg.activity_template[ActivityConst.WWF_TASK_ID]
+	slot1 = slot0.config_client.convertRes
+	slot3 = slot0.config_data
+	slot4 = {}
 
-	slot0:initPtData()
-	slot0:initTaskData()
+	for slot8, slot9 in ipairs(slot0.config_client.ptActID) do
+		slot10 = getProxy(ActivityProxy):getActivityById(slot9)
 
-	if slot0:isFinishAllAct() then
+		if slot4[slot9] then
+			slot4[slot9]:Update(slot10)
+		else
+			slot4[slot9] = ActivityPtData.New(slot10)
+		end
+	end
+
+	slot6 = getProxy(PlayerProxy):getRawData():getResource(slot1)
+	slot7 = getProxy(TaskProxy)
+	slot8 = {}
+	slot9 = 0
+
+	for slot13, slot14 in ipairs(slot3) do
+		if slot7:getTaskById(slot14) or slot7:getFinishTaskById(slot14) then
+			table.insert(slot8, slot15.id)
+
+			if slot15:getTaskStatus() == 0 then
+				slot9 = slot9 + 1
+			end
+		end
+	end
+
+	if (function ()
+		slot0 = true
+
+		for slot4, slot5 in pairs(uv0) do
+			if slot5:CanGetNextAward() then
+				slot0 = false
+
+				break
+			end
+		end
+
+		return slot0
+	end)() then
 		return false
 	else
-		slot2 = slot0:canFinishTask() or slot0:canGetPtAward() or slot0:canAddProgress() or slot0:isNewTask()
+		slot11 = uv0.canFinishTask(slot8, slot7) or uv0.canGetPtAward(slot4) or uv0.canAddProgress(slot6, slot4) or uv0.isNewTask(slot9)
 
-		return slot2
+		return slot11
 	end
 
 	return false

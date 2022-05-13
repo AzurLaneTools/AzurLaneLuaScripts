@@ -70,6 +70,8 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.DISABLE_ROTATE_ITEM, slot0.OnDisableRotation)
 	slot0:AddListener(CourtYardEvent.TAKE_PHOTO, slot0.OnTakePhoto)
 	slot0:AddListener(CourtYardEvent.END_TAKE_PHOTO, slot0.OnEndTakePhoto)
+	slot0:AddListener(CourtYardEvent.ENTER_ARCH, slot0.OnEnterArch)
+	slot0:AddListener(CourtYardEvent.EXIT_ARCH, slot0.OnExitArch)
 end
 
 function slot0.RemoveListeners(slot0)
@@ -105,6 +107,8 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.DISABLE_ROTATE_ITEM, slot0.OnDisableRotation)
 	slot0:RemoveListener(CourtYardEvent.TAKE_PHOTO, slot0.OnTakePhoto)
 	slot0:RemoveListener(CourtYardEvent.END_TAKE_PHOTO, slot0.OnEndTakePhoto)
+	slot0:RemoveListener(CourtYardEvent.ENTER_ARCH, slot0.OnEnterArch)
+	slot0:RemoveListener(CourtYardEvent.EXIT_ARCH, slot0.OnExitArch)
 end
 
 function slot0.OnInited(slot0)
@@ -312,10 +316,24 @@ end
 
 function slot0.OnChildItem(slot0, slot1, slot2)
 	slot0:Item2Module(slot2):AddChild(slot0:Item2Module(slot1))
+
+	if isa(slot1, CourtYardShip) then
+		slot4:BlocksRaycasts(true)
+	end
 end
 
 function slot0.OnUnChildItem(slot0, slot1, slot2)
 	slot0:Item2Module(slot2):RemoveChild(slot0:Item2Module(slot1))
+
+	if isa(slot1, CourtYardShip) then
+		slot4:BlocksRaycasts(false)
+	end
+end
+
+function slot0.OnEnterArch(slot0, slot1, slot2)
+end
+
+function slot0.OnExitArch(slot0, slot1, slot2)
 end
 
 function slot0.OnAddMatItem(slot0)

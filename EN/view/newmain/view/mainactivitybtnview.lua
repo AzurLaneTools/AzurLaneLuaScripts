@@ -46,7 +46,7 @@ function slot0.OnRemoveLayer(slot0, slot1)
 		slot2 = slot0:GetBtn(MainActInsBtn)
 	end
 
-	if slot2 then
+	if slot2 and slot2:InShowTime() then
 		slot2:OnInit()
 	end
 end

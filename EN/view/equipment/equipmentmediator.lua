@@ -199,8 +199,8 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.USE_ITEM_DONE then
-		if table.getCount(slot3) ~= 0 then
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+		if #slot3 > 0 then
+			slot0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
 				animation = true,
 				items = slot3
 			})
@@ -212,7 +212,7 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.viewComponent:setEquipmentUpdate()
 
-		if table.getCount(slot3) ~= 0 then
+		if #slot3 > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3
 			})
@@ -224,7 +224,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == uv0.BATCHDESTROY_MODE then
 		slot0.viewComponent:SwitchToDestroy()
 	elseif slot2 == GAME.REVERT_EQUIPMENT_DONE then
-		if table.getCount(slot3.awards) > 0 then
+		if #slot3.awards > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3.awards
 			})

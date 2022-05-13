@@ -16,6 +16,7 @@ function slot4.Ctor(slot0)
 	slot0._camera = pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera))
 	slot0._cameraTF = slot0._camera.transform
 	slot0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
+	slot0._cameraFixMgr = pg.CameraFixMgr.GetInstance()
 end
 
 function slot4.ActiveMainCemera(slot0)
@@ -60,7 +61,7 @@ end
 function slot4.SetMapData(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6, slot7, slot8 = slot0._boundFix:SetMapData(slot1, slot2, slot3, slot4)
 
-	slot0._followPilot:SetGoldenRation(slot0._camera:ScreenToWorldPoint(Vector3(uv0._actualWidth * uv1.CAMERA_GOLDEN_RATE, 0, 0)).x)
+	slot0._followPilot:SetGoldenRation(slot0._camera:ScreenToWorldPoint(Vector3(pg.CameraFixMgr.GetInstance().actualWidth * uv0.CAMERA_GOLDEN_RATE, 0, 0)).x - slot0._cameraTF.position.x)
 
 	return slot5, slot6, slot7, slot8
 end
@@ -99,14 +100,16 @@ end
 
 function slot4.setArrowPoint(slot0)
 	slot1 = 1
-	slot0._arrowLeftBottomPos = slot0._uiCamera:ScreenToWorldPoint(uv0._leftBottomVector) + Vector3(slot1, slot1, 0)
-	slot0._arrowRightTopPos = slot0._uiCamera:ScreenToWorldPoint(uv0._rightTopVector) - Vector3(slot1, slot1, 0)
-	slot0._arrowCenterPos = (slot0._arrowLeftBottomPos + slot0._arrowRightTopPos) * 0.5
-	slot0._arrowFieldHalfWidth = slot0._arrowRightTopPos.x - slot0._arrowCenterPos.x
-	slot0._arrowRightHorizon = slot0._arrowRightTopPos.x + 4
-	slot0._arrowTopHorizon = slot0._arrowRightTopPos.y + 4
-	slot0._arrowBottomHorizon = slot0._arrowLeftBottomPos.y - 4
-	slot0._arrowLeftHorizon = slot0._arrowLeftBottomPos.x - 3.75
+	slot2 = slot0._uiCamera:ScreenToWorldPoint(slot0._cameraFixMgr.leftBottomVector) + Vector3(slot1, slot1, 0)
+	slot3 = slot0._uiCamera:ScreenToWorldPoint(slot0._cameraFixMgr.rightTopVector) - Vector3(slot1, slot1, 0)
+	slot0._arrowCenterPos = (slot2 + slot3) * 0.5
+	slot0._arrowRightHorizon = slot3.x + 4
+	slot0._arrowTopHorizon = slot3.y + 4
+	slot0._arrowBottomHorizon = slot2.y - 4
+	slot0._arrowLeftHorizon = slot2.x - 3.75
+	slot0._arrowLeftBottomPos_notch = slot0._uiCamera:ScreenToWorldPoint(slot0._cameraFixMgr.notchAdaptLBVector) + Vector3(slot1, slot1, 0)
+	slot0._arrowRightTopPos_notch = slot0._uiCamera:ScreenToWorldPoint(slot0._cameraFixMgr.notchAdaptRTVector) - Vector3(slot1, slot1, 0)
+	slot0._arrowFieldHalfWidth_notch = slot0._arrowRightTopPos_notch.x - slot0._arrowCenterPos.x
 end
 
 function slot4.Update(slot0)
@@ -294,8 +297,8 @@ function slot4.ResetFocus(slot0)
 end
 
 function slot4.GetCharacterArrowBarPosition(slot0, slot1, slot2)
-	slot3 = slot0._arrowLeftBottomPos
-	slot4 = slot0._arrowRightTopPos
+	slot3 = slot0._arrowLeftBottomPos_notch
+	slot4 = slot0._arrowRightTopPos_notch
 	slot5 = slot0._arrowCenterPos
 
 	if slot0._arrowLeftHorizon <= slot1.x and slot1.x < slot0._arrowRightHorizon and slot0._arrowBottomHorizon <= slot1.y and slot1.y <= slot0._arrowTopHorizon then
@@ -312,7 +315,7 @@ function slot4.GetCharacterArrowBarPosition(slot0, slot1, slot2)
 			slot10 = slot5.x - slot1.x
 		end
 
-		if slot4.y < slot6 / slot10 * slot0._arrowFieldHalfWidth then
+		if slot4.y < slot6 / slot10 * slot0._arrowFieldHalfWidth_notch then
 			slot9 = slot10 / slot6 * (slot4.y - slot5.y)
 		elseif slot8 < slot3.y then
 			slot9 = slot10 / slot6 * (slot3.y - slot5.y)

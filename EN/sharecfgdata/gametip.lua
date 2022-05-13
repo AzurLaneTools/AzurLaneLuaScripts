@@ -1,1172 +1,1172 @@
-_G.pg.gametip["new_airi_error_code_-1"] = {
+_G.pg.base.gametip["new_airi_error_code_-1"] = {
 	tip = "Unknown Error"
 }
 
-_G.pg.gametip.new_airi_error_code_0 = {
+_G.pg.base.gametip.new_airi_error_code_0 = {
 	tip = "Success"
 }
 
-_G.pg.gametip.new_airi_error_code_100100 = {
+_G.pg.base.gametip.new_airi_error_code_100100 = {
 	tip = "Device ID is banned"
 }
 
-_G.pg.gametip.new_airi_error_code_100110 = {
+_G.pg.base.gametip.new_airi_error_code_100110 = {
 	tip = "Verification failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100111 = {
+_G.pg.base.gametip.new_airi_error_code_100111 = {
 	tip = "Account creation failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100112 = {
+_G.pg.base.gametip.new_airi_error_code_100112 = {
 	tip = "Account creation success; Account binding failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100113 = {
+_G.pg.base.gametip.new_airi_error_code_100113 = {
 	tip = "Account binding success; Verification failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100114 = {
+_G.pg.base.gametip.new_airi_error_code_100114 = {
 	tip = "IP is restricted during login creation"
 }
 
-_G.pg.gametip.new_airi_error_code_100115 = {
+_G.pg.base.gametip.new_airi_error_code_100115 = {
 	tip = "Device ID is banned during login creation"
 }
 
-_G.pg.gametip.new_airi_error_code_100116 = {
+_G.pg.base.gametip.new_airi_error_code_100116 = {
 	tip = "UID is banned during login creation"
 }
 
-_G.pg.gametip.new_airi_error_code_100117 = {
+_G.pg.base.gametip.new_airi_error_code_100117 = {
 	tip = "Missing parameters"
 }
 
-_G.pg.gametip.new_airi_error_code_100120 = {
+_G.pg.base.gametip.new_airi_error_code_100120 = {
 	tip = "Login failed, IP is restricted"
 }
 
-_G.pg.gametip.new_airi_error_code_100130 = {
+_G.pg.base.gametip.new_airi_error_code_100130 = {
 	tip = "Login failed, UID is banned"
 }
 
-_G.pg.gametip.new_airi_error_code_100140 = {
+_G.pg.base.gametip.new_airi_error_code_100140 = {
 	tip = "Access Token verification failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100150 = {
+_G.pg.base.gametip.new_airi_error_code_100150 = {
 	tip = "UID does not match with Transcode"
 }
 
-_G.pg.gametip.new_airi_error_code_100160 = {
+_G.pg.base.gametip.new_airi_error_code_100160 = {
 	tip = "User birthday has already been added"
 }
 
-_G.pg.gametip.new_airi_error_code_100170 = {
+_G.pg.base.gametip.new_airi_error_code_100170 = {
 	tip = "Invalid birthday format"
 }
 
-_G.pg.gametip.new_airi_error_code_100180 = {
+_G.pg.base.gametip.new_airi_error_code_100180 = {
 	tip = "The third party account is not bound with any game account"
 }
 
-_G.pg.gametip.new_airi_error_code_100190 = {
+_G.pg.base.gametip.new_airi_error_code_100190 = {
 	tip = "Failed to verify the third party parameter"
 }
 
-_G.pg.gametip.new_airi_error_code_100200 = {
+_G.pg.base.gametip.new_airi_error_code_100200 = {
 	tip = "The third party account is already bound with another UID"
 }
 
-_G.pg.gametip.new_airi_error_code_100210 = {
+_G.pg.base.gametip.new_airi_error_code_100210 = {
 	tip = "The third party account does not match with the one bound to this account"
 }
 
-_G.pg.gametip.new_airi_error_code_100211 = {
+_G.pg.base.gametip.new_airi_error_code_100211 = {
 	tip = "Platform binding error"
 }
 
-_G.pg.gametip.new_airi_error_code_100212 = {
+_G.pg.base.gametip.new_airi_error_code_100212 = {
 	tip = "Platform unbinding error"
 }
 
-_G.pg.gametip.new_airi_error_code_100213 = {
+_G.pg.base.gametip.new_airi_error_code_100213 = {
 	tip = "Unable to unbind the account"
 }
 
-_G.pg.gametip.new_airi_error_code_100220 = {
+_G.pg.base.gametip.new_airi_error_code_100220 = {
 	tip = "Authorization canceled"
 }
 
-_G.pg.gametip.new_airi_error_code_100221 = {
+_G.pg.base.gametip.new_airi_error_code_100221 = {
 	tip = "FB authorization failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100222 = {
+_G.pg.base.gametip.new_airi_error_code_100222 = {
 	tip = "TW authorization failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100223 = {
+_G.pg.base.gametip.new_airi_error_code_100223 = {
 	tip = "Google authorization failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100224 = {
+_G.pg.base.gametip.new_airi_error_code_100224 = {
 	tip = "Unable to use Google service"
 }
 
-_G.pg.gametip.new_airi_error_code_100225 = {
+_G.pg.base.gametip.new_airi_error_code_100225 = {
 	tip = "Google authorization was canceled by user"
 }
 
-_G.pg.gametip.new_airi_error_code_100226 = {
+_G.pg.base.gametip.new_airi_error_code_100226 = {
 	tip = "Unable to login during another login request"
 }
 
-_G.pg.gametip.new_airi_error_code_100227 = {
+_G.pg.base.gametip.new_airi_error_code_100227 = {
 	tip = "Failed to login with the current account"
 }
 
-_G.pg.gametip.new_airi_error_code_100228 = {
+_G.pg.base.gametip.new_airi_error_code_100228 = {
 	tip = "The account was already deleted by user"
 }
 
-_G.pg.gametip.new_airi_error_code_100229 = {
+_G.pg.base.gametip.new_airi_error_code_100229 = {
 	tip = "Account deletion cannot be performed repeatedly"
 }
 
-_G.pg.gametip.new_airi_error_code_100231 = {
+_G.pg.base.gametip.new_airi_error_code_100231 = {
 	tip = "Failed to restore, the account was deleted completely"
 }
 
-_G.pg.gametip.new_airi_error_code_100232 = {
+_G.pg.base.gametip.new_airi_error_code_100232 = {
 	tip = "Unable to restore, no deletion history of the account"
 }
 
-_G.pg.gametip.new_airi_error_code_100233 = {
+_G.pg.base.gametip.new_airi_error_code_100233 = {
 	tip = "Unable to login, the account was deleted"
 }
 
-_G.pg.gametip.new_airi_error_code_100234 = {
+_G.pg.base.gametip.new_airi_error_code_100234 = {
 	tip = "The account is not authorized to login"
 }
 
-_G.pg.gametip.new_airi_error_code_100230 = {
+_G.pg.base.gametip.new_airi_error_code_100230 = {
 	tip = "Initialization failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100240 = {
+_G.pg.base.gametip.new_airi_error_code_100240 = {
 	tip = "Apple authorization information does not match"
 }
 
-_G.pg.gametip.new_airi_error_code_100241 = {
+_G.pg.base.gametip.new_airi_error_code_100241 = {
 	tip = "User cancelled Apple authorization request"
 }
 
-_G.pg.gametip.new_airi_error_code_100242 = {
+_G.pg.base.gametip.new_airi_error_code_100242 = {
 	tip = "Apple authorization request failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100243 = {
+_G.pg.base.gametip.new_airi_error_code_100243 = {
 	tip = "Invalid response from Apple authorization request"
 }
 
-_G.pg.gametip.new_airi_error_code_100244 = {
+_G.pg.base.gametip.new_airi_error_code_100244 = {
 	tip = "Failed to process Apple authorization request"
 }
 
-_G.pg.gametip.new_airi_error_code_100245 = {
+_G.pg.base.gametip.new_airi_error_code_100245 = {
 	tip = "Apple authorization request failed for unknown reason"
 }
 
-_G.pg.gametip.new_airi_error_code_100246 = {
+_G.pg.base.gametip.new_airi_error_code_100246 = {
 	tip = "System version does not support Apple authorization"
 }
 
-_G.pg.gametip.new_airi_error_code_100300 = {
+_G.pg.base.gametip.new_airi_error_code_100300 = {
 	tip = "Invalid email address format"
 }
 
-_G.pg.gametip.new_airi_error_code_100301 = {
+_G.pg.base.gametip.new_airi_error_code_100301 = {
 	tip = "Email addresses do not match"
 }
 
-_G.pg.gametip.new_airi_error_code_100302 = {
+_G.pg.base.gametip.new_airi_error_code_100302 = {
 	tip = "Verification code request is too frequent"
 }
 
-_G.pg.gametip.new_airi_error_code_100303 = {
+_G.pg.base.gametip.new_airi_error_code_100303 = {
 	tip = "Verification failed"
 }
 
-_G.pg.gametip.new_airi_error_code_100304 = {
+_G.pg.base.gametip.new_airi_error_code_100304 = {
 	tip = "Verification failed too many times"
 }
 
-_G.pg.gametip.new_airi_error_code_100305 = {
+_G.pg.base.gametip.new_airi_error_code_100305 = {
 	tip = "The account is banned"
 }
 
-_G.pg.gametip.new_airi_error_code_100306 = {
+_G.pg.base.gametip.new_airi_error_code_100306 = {
 	tip = "Verification code cannot be empty"
 }
 
-_G.pg.gametip.new_airi_error_code_100404 = {
+_G.pg.base.gametip.new_airi_error_code_100404 = {
 	tip = "Network error"
 }
 
-_G.pg.gametip.new_airi_error_code_200100 = {
+_G.pg.base.gametip.new_airi_error_code_200100 = {
 	tip = "User birthday is required"
 }
 
-_G.pg.gametip.new_airi_error_code_200110 = {
+_G.pg.base.gametip.new_airi_error_code_200110 = {
 	tip = "Monthly purchase limit exceeded"
 }
 
-_G.pg.gametip.new_airi_error_code_200120 = {
+_G.pg.base.gametip.new_airi_error_code_200120 = {
 	tip = "Item does not exist please check the SKU"
 }
 
-_G.pg.gametip.new_airi_error_code_200130 = {
+_G.pg.base.gametip.new_airi_error_code_200130 = {
 	tip = "Payment method does not exist"
 }
 
-_G.pg.gametip.new_airi_error_code_200140 = {
+_G.pg.base.gametip.new_airi_error_code_200140 = {
 	tip = "serverTag does not exist"
 }
 
-_G.pg.gametip.new_airi_error_code_200150 = {
+_G.pg.base.gametip.new_airi_error_code_200150 = {
 	tip = "Payment receipt verification failed"
 }
 
-_G.pg.gametip.new_airi_error_code_200160 = {
+_G.pg.base.gametip.new_airi_error_code_200160 = {
 	tip = "Invalid purchase request"
 }
 
-_G.pg.gametip.new_airi_error_code_200170 = {
+_G.pg.base.gametip.new_airi_error_code_200170 = {
 	tip = "Purchase request failed on game server"
 }
 
-_G.pg.gametip.new_airi_error_code_200180 = {
+_G.pg.base.gametip.new_airi_error_code_200180 = {
 	tip = "It takes a long time for searching the purchase result"
 }
 
-_G.pg.gametip.new_airi_error_code_200190 = {
+_G.pg.base.gametip.new_airi_error_code_200190 = {
 	tip = "Order ID does not exist"
 }
 
-_G.pg.gametip.new_airi_error_code_200200 = {
+_G.pg.base.gametip.new_airi_error_code_200200 = {
 	tip = "Order status tracking timed out"
 }
 
-_G.pg.gametip.new_airi_error_code_200210 = {
+_G.pg.base.gametip.new_airi_error_code_200210 = {
 	tip = "productid does not exist on payment backend"
 }
 
-_G.pg.gametip.new_airi_error_code_200220 = {
+_G.pg.base.gametip.new_airi_error_code_200220 = {
 	tip = "Payment backend response - payment failed"
 }
 
-_G.pg.gametip.new_airi_error_code_200230 = {
+_G.pg.base.gametip.new_airi_error_code_200230 = {
 	tip = "Payment backend response - payment canceled"
 }
 
-_G.pg.gametip.new_airi_error_code_200240 = {
+_G.pg.base.gametip.new_airi_error_code_200240 = {
 	tip = "Current API version does not support the request"
 }
 
-_G.pg.gametip.new_airi_error_code_200250 = {
+_G.pg.base.gametip.new_airi_error_code_200250 = {
 	tip = "Invalid parameters provided to API"
 }
 
-_G.pg.gametip.new_airi_error_code_200260 = {
+_G.pg.base.gametip.new_airi_error_code_200260 = {
 	tip = "Fatal error during API operation"
 }
 
-_G.pg.gametip.new_airi_error_code_200270 = {
+_G.pg.base.gametip.new_airi_error_code_200270 = {
 	tip = "The request is not supported by the Play store on current device"
 }
 
-_G.pg.gametip.new_airi_error_code_200280 = {
+_G.pg.base.gametip.new_airi_error_code_200280 = {
 	tip = "Item has already been purchased, not consumed yet"
 }
 
-_G.pg.gametip.new_airi_error_code_200290 = {
+_G.pg.base.gametip.new_airi_error_code_200290 = {
 	tip = "Item has already been purchased, failed to consume"
 }
 
-_G.pg.gametip.new_airi_error_code_200300 = {
+_G.pg.base.gametip.new_airi_error_code_200300 = {
 	tip = "Unable to purchase the requested item"
 }
 
-_G.pg.gametip.new_airi_error_code_200310 = {
+_G.pg.base.gametip.new_airi_error_code_200310 = {
 	tip = "Unable to connect to Google Play service"
 }
 
-_G.pg.gametip.new_airi_error_code_200320 = {
+_G.pg.base.gametip.new_airi_error_code_200320 = {
 	tip = "Request reached maximum timeout before receiving any response from Google Play"
 }
 
-_G.pg.gametip.new_airi_error_code_200330 = {
+_G.pg.base.gametip.new_airi_error_code_200330 = {
 	tip = "Network connection is turned off"
 }
 
-_G.pg.gametip.new_airi_error_code_200340 = {
+_G.pg.base.gametip.new_airi_error_code_200340 = {
 	tip = "Payment canceled by user"
 }
 
-_G.pg.gametip.new_airi_error_code_200350 = {
+_G.pg.base.gametip.new_airi_error_code_200350 = {
 	tip = "Item ID search failed"
 }
 
-_G.pg.gametip.new_airi_error_code_200360 = {
+_G.pg.base.gametip.new_airi_error_code_200360 = {
 	tip = "Connection to play services failed"
 }
 
-_G.pg.gametip.new_airi_error_code_300100 = {
+_G.pg.base.gametip.new_airi_error_code_300100 = {
 	tip = "System sharing failed"
 }
 
-_G.pg.gametip.ad_0 = {
+_G.pg.base.gametip.ad_0 = {
 	tip = ""
 }
 
-_G.pg.gametip.ad_1 = {
+_G.pg.base.gametip.ad_1 = {
 	tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> constructs <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.ad_2 = {
+_G.pg.base.gametip.ad_2 = {
 	tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> loots<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.ad_3 = {
+_G.pg.base.gametip.ad_3 = {
 	tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> gets <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.word_back = {
+_G.pg.base.gametip.word_back = {
 	tip = "Back"
 }
 
-_G.pg.gametip.word_backyardMoney = {
+_G.pg.base.gametip.word_backyardMoney = {
 	tip = "Decor Tokens"
 }
 
-_G.pg.gametip.word_cancel = {
+_G.pg.base.gametip.word_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.word_cmdClose = {
+_G.pg.base.gametip.word_cmdClose = {
 	tip = "Not yet open"
 }
 
-_G.pg.gametip.word_delete = {
+_G.pg.base.gametip.word_delete = {
 	tip = "Delete"
 }
 
-_G.pg.gametip.word_dockyard = {
+_G.pg.base.gametip.word_dockyard = {
 	tip = "Dock"
 }
 
-_G.pg.gametip.word_dockyardUpgrade = {
+_G.pg.base.gametip.word_dockyardUpgrade = {
 	tip = "Limit Break"
 }
 
-_G.pg.gametip.word_dockyardDestroy = {
+_G.pg.base.gametip.word_dockyardDestroy = {
 	tip = "Retire"
 }
 
-_G.pg.gametip.word_shipInfoScene_equip = {
+_G.pg.base.gametip.word_shipInfoScene_equip = {
 	tip = "Ship Gear"
 }
 
-_G.pg.gametip.word_shipInfoScene_reinfomation = {
+_G.pg.base.gametip.word_shipInfoScene_reinfomation = {
 	tip = "Limit Break"
 }
 
-_G.pg.gametip.word_shipInfoScene_infomation = {
+_G.pg.base.gametip.word_shipInfoScene_infomation = {
 	tip = "Ship Details"
 }
 
-_G.pg.gametip.word_editFleet = {
+_G.pg.base.gametip.word_editFleet = {
 	tip = "Edit Formation"
 }
 
-_G.pg.gametip.word_exp = {
+_G.pg.base.gametip.word_exp = {
 	tip = "EXP"
 }
 
-_G.pg.gametip.word_expAdd = {
+_G.pg.base.gametip.word_expAdd = {
 	tip = "EXP +$1"
 }
 
-_G.pg.gametip.word_exp_chinese = {
+_G.pg.base.gametip.word_exp_chinese = {
 	tip = "EXP"
 }
 
-_G.pg.gametip.word_exist = {
+_G.pg.base.gametip.word_exist = {
 	tip = "Exit"
 }
 
-_G.pg.gametip.word_equip = {
+_G.pg.base.gametip.word_equip = {
 	tip = "Gear"
 }
 
-_G.pg.gametip.word_equipDestory = {
+_G.pg.base.gametip.word_equipDestory = {
 	tip = "Destroy"
 }
 
-_G.pg.gametip.word_food = {
+_G.pg.base.gametip.word_food = {
 	tip = "Snacks"
 }
 
-_G.pg.gametip.word_get = {
+_G.pg.base.gametip.word_get = {
 	tip = "Receive"
 }
 
-_G.pg.gametip.word_got = {
+_G.pg.base.gametip.word_got = {
 	tip = "Granted"
 }
 
-_G.pg.gametip.word_not_get = {
+_G.pg.base.gametip.word_not_get = {
 	tip = "Ungranted "
 }
 
-_G.pg.gametip.word_next_level = {
+_G.pg.base.gametip.word_next_level = {
 	tip = "Next level"
 }
 
-_G.pg.gametip.word_intimacy = {
+_G.pg.base.gametip.word_intimacy = {
 	tip = "Affinity"
 }
 
-_G.pg.gametip.word_is = {
+_G.pg.base.gametip.word_is = {
 	tip = "Yes"
 }
 
-_G.pg.gametip.word_date = {
+_G.pg.base.gametip.word_date = {
 	tip = "d"
 }
 
-_G.pg.gametip.word_hour = {
+_G.pg.base.gametip.word_hour = {
 	tip = "h"
 }
 
-_G.pg.gametip.word_minute = {
+_G.pg.base.gametip.word_minute = {
 	tip = "m"
 }
 
-_G.pg.gametip.word_second = {
+_G.pg.base.gametip.word_second = {
 	tip = "s"
 }
 
-_G.pg.gametip.word_lv = {
+_G.pg.base.gametip.word_lv = {
 	tip = "Lv."
 }
 
-_G.pg.gametip.word_proficiency = {
+_G.pg.base.gametip.word_proficiency = {
 	tip = "Proficiency"
 }
 
-_G.pg.gametip.word_material = {
+_G.pg.base.gametip.word_material = {
 	tip = "Items"
 }
 
-_G.pg.gametip.word_notExist = {
+_G.pg.base.gametip.word_notExist = {
 	tip = "Does not exist"
 }
 
-_G.pg.gametip.word_ok = {
+_G.pg.base.gametip.word_ok = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.word_preview = {
+_G.pg.base.gametip.word_preview = {
 	tip = "Preview"
 }
 
-_G.pg.gametip.word_rarity = {
+_G.pg.base.gametip.word_rarity = {
 	tip = "Rarity"
 }
 
-_G.pg.gametip.word_speedUp = {
+_G.pg.base.gametip.word_speedUp = {
 	tip = "Speed Up "
 }
 
-_G.pg.gametip.word_succeed = {
+_G.pg.base.gametip.word_succeed = {
 	tip = "Success"
 }
 
-_G.pg.gametip.word_start = {
+_G.pg.base.gametip.word_start = {
 	tip = "Start "
 }
 
-_G.pg.gametip.word_kiss = {
+_G.pg.base.gametip.word_kiss = {
 	tip = "*Mwah!*"
 }
 
-_G.pg.gametip.word_take = {
+_G.pg.base.gametip.word_take = {
 	tip = "Collect"
 }
 
-_G.pg.gametip.word_takeOk = {
+_G.pg.base.gametip.word_takeOk = {
 	tip = "Collected"
 }
 
-_G.pg.gametip.word_many = {
+_G.pg.base.gametip.word_many = {
 	tip = "Many"
 }
 
-_G.pg.gametip.word_normal_2 = {
+_G.pg.base.gametip.word_normal_2 = {
 	tip = "So so"
 }
 
-_G.pg.gametip.word_simple = {
+_G.pg.base.gametip.word_simple = {
 	tip = "Rare"
 }
 
-_G.pg.gametip.word_save = {
+_G.pg.base.gametip.word_save = {
 	tip = "Save"
 }
 
-_G.pg.gametip.word_levelup = {
+_G.pg.base.gametip.word_levelup = {
 	tip = "Level Up"
 }
 
-_G.pg.gametip.word_serverLoadVindicate = {
+_G.pg.base.gametip.word_serverLoadVindicate = {
 	tip = "<color=#a2a2a2>Maintenance</color>"
 }
 
-_G.pg.gametip.word_serverLoadNormal = {
+_G.pg.base.gametip.word_serverLoadNormal = {
 	tip = "<material=outline c=#252525FF x=1 y=-1><color=#A9F548FF>Normal</color></material>"
 }
 
-_G.pg.gametip.word_serverLoadFull = {
+_G.pg.base.gametip.word_serverLoadFull = {
 	tip = "<color=#C41717FF>Full</color>"
 }
 
-_G.pg.gametip.word_registerFull = {
+_G.pg.base.gametip.word_registerFull = {
 	tip = "<color=#C41717FF>Too full</color>"
 }
 
-_G.pg.gametip.word_synthesize = {
+_G.pg.base.gametip.word_synthesize = {
 	tip = "Total"
 }
 
-_G.pg.gametip.word_synthesize_power = {
+_G.pg.base.gametip.word_synthesize_power = {
 	tip = "Total Stats"
 }
 
-_G.pg.gametip.word_achieved_item = {
+_G.pg.base.gametip.word_achieved_item = {
 	tip = "Time joined"
 }
 
-_G.pg.gametip.word_formation = {
+_G.pg.base.gametip.word_formation = {
 	tip = "Deploy"
 }
 
-_G.pg.gametip.word_teach = {
+_G.pg.base.gametip.word_teach = {
 	tip = "Teach"
 }
 
-_G.pg.gametip.word_study = {
+_G.pg.base.gametip.word_study = {
 	tip = "Learn"
 }
 
-_G.pg.gametip.word_destroy = {
+_G.pg.base.gametip.word_destroy = {
 	tip = "Retire"
 }
 
-_G.pg.gametip.word_upgrade = {
+_G.pg.base.gametip.word_upgrade = {
 	tip = "Limit Break"
 }
 
-_G.pg.gametip.word_train = {
+_G.pg.base.gametip.word_train = {
 	tip = "Rest"
 }
 
-_G.pg.gametip.word_rest = {
+_G.pg.base.gametip.word_rest = {
 	tip = "Rest"
 }
 
-_G.pg.gametip.word_capacity = {
+_G.pg.base.gametip.word_capacity = {
 	tip = "Inventory: "
 }
 
-_G.pg.gametip.word_operation = {
+_G.pg.base.gametip.word_operation = {
 	tip = "Join Event"
 }
 
-_G.pg.gametip.word_intensify_phase = {
+_G.pg.base.gametip.word_intensify_phase = {
 	tip = "Enhance Phase"
 }
 
-_G.pg.gametip.word_systemClose = {
+_G.pg.base.gametip.word_systemClose = {
 	tip = "Commander, you haven't unlocked this feature yet!"
 }
 
-_G.pg.gametip.word_attr_antisub = {
+_G.pg.base.gametip.word_attr_antisub = {
 	tip = "ASW "
 }
 
-_G.pg.gametip.word_attr_cannon = {
+_G.pg.base.gametip.word_attr_cannon = {
 	tip = "FP "
 }
 
-_G.pg.gametip.word_attr_torpedo = {
+_G.pg.base.gametip.word_attr_torpedo = {
 	tip = "TRP "
 }
 
-_G.pg.gametip.word_attr_antiaircraft = {
+_G.pg.base.gametip.word_attr_antiaircraft = {
 	tip = "AA "
 }
 
-_G.pg.gametip.word_attr_air = {
+_G.pg.base.gametip.word_attr_air = {
 	tip = "AVI "
 }
 
-_G.pg.gametip.word_attr_durability = {
+_G.pg.base.gametip.word_attr_durability = {
 	tip = "HP"
 }
 
-_G.pg.gametip.word_attr_armor = {
+_G.pg.base.gametip.word_attr_armor = {
 	tip = "Armor"
 }
 
-_G.pg.gametip.word_attr_reload = {
+_G.pg.base.gametip.word_attr_reload = {
 	tip = "RLD "
 }
 
-_G.pg.gametip.word_attr_speed = {
+_G.pg.base.gametip.word_attr_speed = {
 	tip = "Speed"
 }
 
-_G.pg.gametip.word_attr_luck = {
+_G.pg.base.gametip.word_attr_luck = {
 	tip = "OIL "
 }
 
-_G.pg.gametip.word_attr_range = {
+_G.pg.base.gametip.word_attr_range = {
 	tip = "Range"
 }
 
-_G.pg.gametip.word_attr_range_view = {
+_G.pg.base.gametip.word_attr_range_view = {
 	tip = "Range"
 }
 
-_G.pg.gametip.word_attr_hit = {
+_G.pg.base.gametip.word_attr_hit = {
 	tip = "Hit"
 }
 
-_G.pg.gametip.word_attr_dodge = {
+_G.pg.base.gametip.word_attr_dodge = {
 	tip = "EVA "
 }
 
-_G.pg.gametip.word_attr_luck1 = {
+_G.pg.base.gametip.word_attr_luck1 = {
 	tip = "LCK "
 }
 
-_G.pg.gametip.word_attr_damage = {
+_G.pg.base.gametip.word_attr_damage = {
 	tip = "DMG"
 }
 
-_G.pg.gametip.word_attr_healthy = {
+_G.pg.base.gametip.word_attr_healthy = {
 	tip = "Healing"
 }
 
-_G.pg.gametip.word_attr_cd = {
+_G.pg.base.gametip.word_attr_cd = {
 	tip = "FR"
 }
 
-_G.pg.gametip.word_attr_speciality = {
+_G.pg.base.gametip.word_attr_speciality = {
 	tip = "Special"
 }
 
-_G.pg.gametip.word_attr_level = {
+_G.pg.base.gametip.word_attr_level = {
 	tip = "Max Level"
 }
 
-_G.pg.gametip.word_shipState_npc = {
+_G.pg.base.gametip.word_shipState_npc = {
 	tip = "Temporary Recruits cannot participate."
 }
 
-_G.pg.gametip.word_shipState_fight = {
+_G.pg.base.gametip.word_shipState_fight = {
 	tip = "She's currently in battle!"
 }
 
-_G.pg.gametip.word_shipState_world = {
+_G.pg.base.gametip.word_shipState_world = {
 	tip = "This character is participating in Operation Siren. "
 }
 
-_G.pg.gametip.word_shipState_rest = {
+_G.pg.base.gametip.word_shipState_rest = {
 	tip = "She's currently resting..."
 }
 
-_G.pg.gametip.word_shipState_study = {
+_G.pg.base.gametip.word_shipState_study = {
 	tip = "She's currently in class!"
 }
 
-_G.pg.gametip.word_shipState_tactics = {
+_G.pg.base.gametip.word_shipState_tactics = {
 	tip = "She's currently in class!"
 }
 
-_G.pg.gametip.word_shipState_collect = {
+_G.pg.base.gametip.word_shipState_collect = {
 	tip = "She's currently on commission!"
 }
 
-_G.pg.gametip.word_shipState_event = {
+_G.pg.base.gametip.word_shipState_event = {
 	tip = "She's in the middle of a special ops!"
 }
 
-_G.pg.gametip.word_shipState_activity = {
+_G.pg.base.gametip.word_shipState_activity = {
 	tip = "This ship is already assigned to a special fleet. "
 }
 
-_G.pg.gametip.word_shipState_sham = {
+_G.pg.base.gametip.word_shipState_sham = {
 	tip = "She's in the middle of a simulation!"
 }
 
-_G.pg.gametip.word_shipType_quZhu = {
+_G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "Destroyer"
 }
 
-_G.pg.gametip.word_shipType_qinXun = {
+_G.pg.base.gametip.word_shipType_qinXun = {
 	tip = "Light Cruiser"
 }
 
-_G.pg.gametip.word_shipType_zhongXun = {
+_G.pg.base.gametip.word_shipType_zhongXun = {
 	tip = "Heavy Cruiser"
 }
 
-_G.pg.gametip.word_shipType_zhanLie = {
+_G.pg.base.gametip.word_shipType_zhanLie = {
 	tip = "Battleship"
 }
 
-_G.pg.gametip.word_shipType_hangMu = {
+_G.pg.base.gametip.word_shipType_hangMu = {
 	tip = "Carrier"
 }
 
-_G.pg.gametip.word_shipType_weiXiu = {
+_G.pg.base.gametip.word_shipType_weiXiu = {
 	tip = "Repair"
 }
 
-_G.pg.gametip.word_shipType_other = {
+_G.pg.base.gametip.word_shipType_other = {
 	tip = "Other"
 }
 
-_G.pg.gametip.word_shipType_all = {
+_G.pg.base.gametip.word_shipType_all = {
 	tip = "All ships"
 }
 
-_G.pg.gametip.word_gem = {
+_G.pg.base.gametip.word_gem = {
 	tip = "Gems"
 }
 
-_G.pg.gametip.word_freeGem = {
+_G.pg.base.gametip.word_freeGem = {
 	tip = "Gems"
 }
 
-_G.pg.gametip.word_gem_icon = {
+_G.pg.base.gametip.word_gem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.word_freeGem_icon = {
+_G.pg.base.gametip.word_freeGem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.word_exploit = {
+_G.pg.base.gametip.word_exploit = {
 	tip = "Merit"
 }
 
-_G.pg.gametip.word_rankScore = {
+_G.pg.base.gametip.word_rankScore = {
 	tip = "Points"
 }
 
-_G.pg.gametip.word_battery = {
+_G.pg.base.gametip.word_battery = {
 	tip = "ニココイン"
 }
 
-_G.pg.gametip.word_oil = {
+_G.pg.base.gametip.word_oil = {
 	tip = "Oil"
 }
 
-_G.pg.gametip.word_gold = {
+_G.pg.base.gametip.word_gold = {
 	tip = "Coins"
 }
 
-_G.pg.gametip.word_oilField = {
+_G.pg.base.gametip.word_oilField = {
 	tip = "Oilfield"
 }
 
-_G.pg.gametip.word_goldField = {
+_G.pg.base.gametip.word_goldField = {
 	tip = "Coins Port"
 }
 
-_G.pg.gametip.word_ema = {
+_G.pg.base.gametip.word_ema = {
 	tip = "Emas"
 }
 
-_G.pg.gametip.word_ema1 = {
+_G.pg.base.gametip.word_ema1 = {
 	tip = "Emas"
 }
 
-_G.pg.gametip.word_pt = {
+_G.pg.base.gametip.word_pt = {
 	tip = "Points"
 }
 
-_G.pg.gametip.word_omamori = {
+_G.pg.base.gametip.word_omamori = {
 	tip = "Sakura Amulet"
 }
 
-_G.pg.gametip.word_yisegefuke_pt = {
+_G.pg.base.gametip.word_yisegefuke_pt = {
 	tip = "Points"
 }
 
-_G.pg.gametip.word_faxipt = {
+_G.pg.base.gametip.word_faxipt = {
 	tip = "Iris Écu"
 }
 
-_G.pg.gametip.word_count_2 = {
+_G.pg.base.gametip.word_count_2 = {
 	tip = "<color=$1>$2つ</color>"
 }
 
-_G.pg.gametip.word_clear = {
+_G.pg.base.gametip.word_clear = {
 	tip = "Sort"
 }
 
-_G.pg.gametip.word_buy = {
+_G.pg.base.gametip.word_buy = {
 	tip = "Buy"
 }
 
-_G.pg.gametip.word_happy = {
+_G.pg.base.gametip.word_happy = {
 	tip = "<color=#4FFF00>Happy</color>"
 }
 
-_G.pg.gametip.word_normal = {
+_G.pg.base.gametip.word_normal = {
 	tip = "<color=#46F200>Normal</color>"
 }
 
-_G.pg.gametip.word_tired = {
+_G.pg.base.gametip.word_tired = {
 	tip = "<color=#FCD400>Tired</color>"
 }
 
-_G.pg.gametip.word_angry = {
+_G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>Angry</color>"
 }
 
-_G.pg.gametip.word_secondseach = {
+_G.pg.base.gametip.word_secondseach = {
 	tip = "/wave"
 }
 
-_G.pg.gametip.word_max_page = {
+_G.pg.base.gametip.word_max_page = {
 	tip = "Max"
 }
 
-_G.pg.gametip.word_least_page = {
+_G.pg.base.gametip.word_least_page = {
 	tip = "Min"
 }
 
-_G.pg.gametip.word_week = {
+_G.pg.base.gametip.word_week = {
 	tip = "w"
 }
 
-_G.pg.gametip.word_day = {
+_G.pg.base.gametip.word_day = {
 	tip = "d"
 }
 
-_G.pg.gametip.word_use = {
+_G.pg.base.gametip.word_use = {
 	tip = "Use"
 }
 
-_G.pg.gametip.word_use_batch = {
+_G.pg.base.gametip.word_use_batch = {
 	tip = "Use $1"
 }
 
-_G.pg.gametip.word_discount = {
+_G.pg.base.gametip.word_discount = {
 	tip = "0% price"
 }
 
-_G.pg.gametip.word_threaten_exclude = {
+_G.pg.base.gametip.word_threaten_exclude = {
 	tip = "Eliminate Threat"
 }
 
-_G.pg.gametip.word_threaten = {
+_G.pg.base.gametip.word_threaten = {
 	tip = "Threat"
 }
 
-_G.pg.gametip.word_comingSoon = {
+_G.pg.base.gametip.word_comingSoon = {
 	tip = "Coming soon"
 }
 
-_G.pg.gametip.word_lightArmor = {
+_G.pg.base.gametip.word_lightArmor = {
 	tip = "Light"
 }
 
-_G.pg.gametip.word_mediumArmor = {
+_G.pg.base.gametip.word_mediumArmor = {
 	tip = "Medium"
 }
 
-_G.pg.gametip.word_heavyarmor = {
+_G.pg.base.gametip.word_heavyarmor = {
 	tip = "Heavy"
 }
 
-_G.pg.gametip.word_level_upperLimit = {
+_G.pg.base.gametip.word_level_upperLimit = {
 	tip = "Max Level"
 }
 
-_G.pg.gametip.word_level_require = {
+_G.pg.base.gametip.word_level_require = {
 	tip = "Level Req."
 }
 
-_G.pg.gametip.word_materal_no_enough = {
+_G.pg.base.gametip.word_materal_no_enough = {
 	tip = "Not enough items"
 }
 
-_G.pg.gametip.word_default = {
+_G.pg.base.gametip.word_default = {
 	tip = "Default"
 }
 
-_G.pg.gametip.word_count = {
+_G.pg.base.gametip.word_count = {
 	tip = "Amount"
 }
 
-_G.pg.gametip.word_kind = {
+_G.pg.base.gametip.word_kind = {
 	tip = "Type"
 }
 
-_G.pg.gametip.word_piece = {
+_G.pg.base.gametip.word_piece = {
 	tip = "x"
 }
 
-_G.pg.gametip.word_main_fleet = {
+_G.pg.base.gametip.word_main_fleet = {
 	tip = "Main fleet"
 }
 
-_G.pg.gametip.word_vanguard_fleet = {
+_G.pg.base.gametip.word_vanguard_fleet = {
 	tip = "Vanguard"
 }
 
-_G.pg.gametip.word_theme = {
+_G.pg.base.gametip.word_theme = {
 	tip = "Theme"
 }
 
-_G.pg.gametip.word_recommend = {
+_G.pg.base.gametip.word_recommend = {
 	tip = "Rec."
 }
 
-_G.pg.gametip.word_wallpaper = {
+_G.pg.base.gametip.word_wallpaper = {
 	tip = "Wall\npaper"
 }
 
-_G.pg.gametip.word_furniture = {
+_G.pg.base.gametip.word_furniture = {
 	tip = "Furni"
 }
 
-_G.pg.gametip.word_decorate = {
+_G.pg.base.gametip.word_decorate = {
 	tip = "Décor"
 }
 
-_G.pg.gametip.word_special = {
+_G.pg.base.gametip.word_special = {
 	tip = "Special"
 }
 
-_G.pg.gametip.word_expand = {
+_G.pg.base.gametip.word_expand = {
 	tip = "Expand"
 }
 
-_G.pg.gametip.word_wall = {
+_G.pg.base.gametip.word_wall = {
 	tip = "Wall"
 }
 
-_G.pg.gametip.word_floorpaper = {
+_G.pg.base.gametip.word_floorpaper = {
 	tip = "Floor"
 }
 
-_G.pg.gametip.word_collection = {
+_G.pg.base.gametip.word_collection = {
 	tip = "Collection"
 }
 
-_G.pg.gametip.word_mat = {
+_G.pg.base.gametip.word_mat = {
 	tip = "Carpet"
 }
 
-_G.pg.gametip.word_comfort_level = {
+_G.pg.base.gametip.word_comfort_level = {
 	tip = "Comfort"
 }
 
-_G.pg.gametip.word_room = {
+_G.pg.base.gametip.word_room = {
 	tip = "Room $1"
 }
 
-_G.pg.gametip.word_equipment_all = {
+_G.pg.base.gametip.word_equipment_all = {
 	tip = "All"
 }
 
-_G.pg.gametip.word_equipment_cannon = {
+_G.pg.base.gametip.word_equipment_cannon = {
 	tip = "Artillery"
 }
 
-_G.pg.gametip.word_equipment_torpedo = {
+_G.pg.base.gametip.word_equipment_torpedo = {
 	tip = "Torpedo"
 }
 
-_G.pg.gametip.word_equipment_aircraft = {
+_G.pg.base.gametip.word_equipment_aircraft = {
 	tip = "Aircraft"
 }
 
-_G.pg.gametip.word_equipment_small_cannon = {
+_G.pg.base.gametip.word_equipment_small_cannon = {
 	tip = "DD Main Gun"
 }
 
-_G.pg.gametip.word_equipment_medium_cannon = {
+_G.pg.base.gametip.word_equipment_medium_cannon = {
 	tip = "CL Main Gun"
 }
 
-_G.pg.gametip.word_equipment_big_cannon = {
+_G.pg.base.gametip.word_equipment_big_cannon = {
 	tip = "BB Main Gun"
 }
 
-_G.pg.gametip.word_equipment_warship_torpedo = {
+_G.pg.base.gametip.word_equipment_warship_torpedo = {
 	tip = "Surface Torpedo"
 }
 
-_G.pg.gametip.word_equipment_submarine_torpedo = {
+_G.pg.base.gametip.word_equipment_submarine_torpedo = {
 	tip = "Sub Torpedo"
 }
 
-_G.pg.gametip.word_equipment_antiaircraft = {
+_G.pg.base.gametip.word_equipment_antiaircraft = {
 	tip = "Anti-Air"
 }
 
-_G.pg.gametip.word_equipment_fighter = {
+_G.pg.base.gametip.word_equipment_fighter = {
 	tip = "Fighter"
 }
 
-_G.pg.gametip.word_equipment_bomber = {
+_G.pg.base.gametip.word_equipment_bomber = {
 	tip = "Dive Bomber"
 }
 
-_G.pg.gametip.word_equipment_torpedo_bomber = {
+_G.pg.base.gametip.word_equipment_torpedo_bomber = {
 	tip = "Torp Bomber"
 }
 
-_G.pg.gametip.word_equipment_equip = {
+_G.pg.base.gametip.word_equipment_equip = {
 	tip = "Auxiliary"
 }
 
-_G.pg.gametip.word_equipment_type = {
+_G.pg.base.gametip.word_equipment_type = {
 	tip = "Type"
 }
 
-_G.pg.gametip.word_equipment_rarity = {
+_G.pg.base.gametip.word_equipment_rarity = {
 	tip = "Rarity"
 }
 
-_G.pg.gametip.word_equipment_intensify = {
+_G.pg.base.gametip.word_equipment_intensify = {
 	tip = "Enhance"
 }
 
-_G.pg.gametip.word_equipment_special = {
+_G.pg.base.gametip.word_equipment_special = {
 	tip = "Other "
 }
 
-_G.pg.gametip.word_primary_weapons = {
+_G.pg.base.gametip.word_primary_weapons = {
 	tip = "Main Weapon"
 }
 
-_G.pg.gametip.word_main_cannons = {
+_G.pg.base.gametip.word_main_cannons = {
 	tip = "Main Gun"
 }
 
-_G.pg.gametip.word_shipboard_aircraft = {
+_G.pg.base.gametip.word_shipboard_aircraft = {
 	tip = "Aircraft"
 }
 
-_G.pg.gametip.word_sub_cannons = {
+_G.pg.base.gametip.word_sub_cannons = {
 	tip = "Secondary Gun "
 }
 
-_G.pg.gametip.word_sub_weapons = {
+_G.pg.base.gametip.word_sub_weapons = {
 	tip = "Auxiliary Weapon"
 }
 
-_G.pg.gametip.word_torpedo = {
+_G.pg.base.gametip.word_torpedo = {
 	tip = "Torpedo"
 }
 
-_G.pg.gametip["word_ air_defense_artillery"] = {
+_G.pg.base.gametip["word_ air_defense_artillery"] = {
 	tip = "Anti-Air"
 }
 
-_G.pg.gametip.word_air_defense_artillery = {
+_G.pg.base.gametip.word_air_defense_artillery = {
 	tip = "Anti-Air"
 }
 
-_G.pg.gametip.word_device = {
+_G.pg.base.gametip.word_device = {
 	tip = "Auxiliary"
 }
 
-_G.pg.gametip.word_cannon = {
+_G.pg.base.gametip.word_cannon = {
 	tip = "Main Gun "
 }
 
-_G.pg.gametip.word_fighter = {
+_G.pg.base.gametip.word_fighter = {
 	tip = "Fighter"
 }
 
-_G.pg.gametip.word_bomber = {
+_G.pg.base.gametip.word_bomber = {
 	tip = "Dive Bomber"
 }
 
-_G.pg.gametip.word_attacker = {
+_G.pg.base.gametip.word_attacker = {
 	tip = "Torpedo Bomber"
 }
 
-_G.pg.gametip.word_seaplane = {
+_G.pg.base.gametip.word_seaplane = {
 	tip = "Reconnaissance"
 }
 
-_G.pg.gametip.word_submarine_torpedo = {
+_G.pg.base.gametip.word_submarine_torpedo = {
 	tip = "Submarine Torpedo"
 }
 
-_G.pg.gametip.word_missile = {
+_G.pg.base.gametip.word_missile = {
 	tip = "Missile"
 }
 
-_G.pg.gametip.word_online = {
+_G.pg.base.gametip.word_online = {
 	tip = "Online"
 }
 
-_G.pg.gametip.word_apply = {
+_G.pg.base.gametip.word_apply = {
 	tip = "Apply"
 }
 
-_G.pg.gametip.word_star = {
+_G.pg.base.gametip.word_star = {
 	tip = "Stars"
 }
 
-_G.pg.gametip.word_level = {
+_G.pg.base.gametip.word_level = {
 	tip = "Lv."
 }
 
-_G.pg.gametip.word_mod_value = {
+_G.pg.base.gametip.word_mod_value = {
 	tip = "Enhancement"
 }
 
-_G.pg.gametip.word_wait = {
+_G.pg.base.gametip.word_wait = {
 	tip = ""
 }
 
-_G.pg.gametip.word_consume = {
+_G.pg.base.gametip.word_consume = {
 	tip = "Cost"
 }
 
-_G.pg.gametip.word_sell_out = {
+_G.pg.base.gametip.word_sell_out = {
 	tip = "Sold out"
 }
 
-_G.pg.gametip.word_sell_lock = {
+_G.pg.base.gametip.word_sell_lock = {
 	tip = "Lock"
 }
 
-_G.pg.gametip.word_diamond_tip = {
+_G.pg.base.gametip.word_diamond_tip = {
 	tip = [[
 
                         無償<icon name=diamond w=0.7 h=0.7/>: $1
@@ -1176,611 +1176,611 @@ _G.pg.gametip.word_diamond_tip = {
            ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]]
 }
 
-_G.pg.gametip.word_contribution = {
+_G.pg.base.gametip.word_contribution = {
 	tip = "贡献"
 }
 
-_G.pg.gametip.word_guild_res = {
+_G.pg.base.gametip.word_guild_res = {
 	tip = "舰队资源"
 }
 
-_G.pg.gametip.word_fit = {
+_G.pg.base.gametip.word_fit = {
 	tip = "Apply to"
 }
 
-_G.pg.gametip.word_equipment_skin = {
+_G.pg.base.gametip.word_equipment_skin = {
 	tip = "外装"
 }
 
-_G.pg.gametip.word_activity = {
+_G.pg.base.gametip.word_activity = {
 	tip = "活动"
 }
 
-_G.pg.gametip.word_urgency_event = {
+_G.pg.base.gametip.word_urgency_event = {
 	tip = "紧急事件"
 }
 
-_G.pg.gametip.word_shop = {
+_G.pg.base.gametip.word_shop = {
 	tip = "Shop"
 }
 
-_G.pg.gametip.word_facility = {
+_G.pg.base.gametip.word_facility = {
 	tip = "设施"
 }
 
-_G.pg.gametip.word_cv_key_main = {
+_G.pg.base.gametip.word_cv_key_main = {
 	tip = "Main screen "
 }
 
-_G.pg.gametip.channel_name_1 = {
+_G.pg.base.gametip.channel_name_1 = {
 	tip = "All"
 }
 
-_G.pg.gametip.channel_name_2 = {
+_G.pg.base.gametip.channel_name_2 = {
 	tip = "World"
 }
 
-_G.pg.gametip.channel_name_3 = {
+_G.pg.base.gametip.channel_name_3 = {
 	tip = "Notice"
 }
 
-_G.pg.gametip.channel_name_4 = {
+_G.pg.base.gametip.channel_name_4 = {
 	tip = "Friends"
 }
 
-_G.pg.gametip.channel_name_5 = {
+_G.pg.base.gametip.channel_name_5 = {
 	tip = "Guild"
 }
 
-_G.pg.gametip.common_wait = {
+_G.pg.base.gametip.common_wait = {
 	tip = "Commander, please wait a moment "
 }
 
-_G.pg.gametip.common_ship_type = {
+_G.pg.base.gametip.common_ship_type = {
 	tip = "Ship type"
 }
 
-_G.pg.gametip.common_dont_remind_dur_login = {
+_G.pg.base.gametip.common_dont_remind_dur_login = {
 	tip = "Don't show again"
 }
 
-_G.pg.gametip.common_activity_end = {
+_G.pg.base.gametip.common_activity_end = {
 	tip = "This event <color=#92fc63>has already ended</color>"
 }
 
-_G.pg.gametip.common_activity_notStartOrEnd = {
+_G.pg.base.gametip.common_activity_notStartOrEnd = {
 	tip = "This event <color=#92fc63>has not yet started</color> or <color=#92fc63>has already ended</color>"
 }
 
-_G.pg.gametip.common_activity_not_start = {
+_G.pg.base.gametip.common_activity_not_start = {
 	tip = "This event <color=#92fc63>is currently closed</color>"
 }
 
-_G.pg.gametip.common_error = {
+_G.pg.base.gametip.common_error = {
 	tip = "System error: "
 }
 
-_G.pg.gametip.common_no_gold = {
+_G.pg.base.gametip.common_no_gold = {
 	tip = "You don't have enough <color=#92fc63>Coins</color>!"
 }
 
-_G.pg.gametip.common_no_oil = {
+_G.pg.base.gametip.common_no_oil = {
 	tip = "You don't have enough <color=#92fc63>Oil</color>!"
 }
 
-_G.pg.gametip.common_no_rmb = {
+_G.pg.base.gametip.common_no_rmb = {
 	tip = "You don't have enough <color=#92fc63>Gems</color>!"
 }
 
-_G.pg.gametip.common_count_noenough = {
+_G.pg.base.gametip.common_count_noenough = {
 	tip = "0 time remaining"
 }
 
-_G.pg.gametip.common_no_dorm_gold = {
+_G.pg.base.gametip.common_no_dorm_gold = {
 	tip = "You don't have enough <color=#92fc63>Decor Tokens</color>!"
 }
 
-_G.pg.gametip.common_no_resource = {
+_G.pg.base.gametip.common_no_resource = {
 	tip = "You don't have enough resources!"
 }
 
-_G.pg.gametip.common_no_item = {
+_G.pg.base.gametip.common_no_item = {
 	tip = "You don't have enough <color=#92fc63>[$1]</color>!"
 }
 
-_G.pg.gametip.common_no_item_1 = {
+_G.pg.base.gametip.common_no_item_1 = {
 	tip = "Not enough items"
 }
 
-_G.pg.gametip.common_use_item_sos_max = {
+_G.pg.base.gametip.common_use_item_sos_max = {
 	tip = "You cannot receive any more Signals."
 }
 
-_G.pg.gametip.common_use_item_sos_used = {
+_G.pg.base.gametip.common_use_item_sos_used = {
 	tip = "Number of Distress Signals +$1"
 }
 
-_G.pg.gametip.common_no_x = {
+_G.pg.base.gametip.common_no_x = {
 	tip = "You don't have enough <color=#92fc63>$1</color>!"
 }
 
-_G.pg.gametip.common_limit_cmd = {
+_G.pg.base.gametip.common_limit_cmd = {
 	tip = "Commander, now is not the time to give this command~!"
 }
 
-_G.pg.gametip.common_limit_type = {
+_G.pg.base.gametip.common_limit_type = {
 	tip = "Commander, the command you want to give doesn't work for the selected ships~!"
 }
 
-_G.pg.gametip.common_limit_equip = {
+_G.pg.base.gametip.common_limit_equip = {
 	tip = "Gear type error"
 }
 
-_G.pg.gametip.common_buy_success = {
+_G.pg.base.gametip.common_buy_success = {
 	tip = "Purchased!"
 }
 
-_G.pg.gametip.common_limit_level = {
+_G.pg.base.gametip.common_limit_level = {
 	tip = "Unlocked at Commander <color=#92fc63>lv. $1</color>"
 }
 
-_G.pg.gametip.common_shopId_noFound = {
+_G.pg.base.gametip.common_shopId_noFound = {
 	tip = "Item ID not found"
 }
 
-_G.pg.gametip.common_today_buy_limit = {
+_G.pg.base.gametip.common_today_buy_limit = {
 	tip = "Daily purchase limit"
 }
 
-_G.pg.gametip.common_not_enter_room = {
+_G.pg.base.gametip.common_not_enter_room = {
 	tip = "Not in room"
 }
 
-_G.pg.gametip.common_test_ship = {
+_G.pg.base.gametip.common_test_ship = {
 	tip = "This is an experimental ship"
 }
 
-_G.pg.gametip.common_entry_inhibited = {
+_G.pg.base.gametip.common_entry_inhibited = {
 	tip = "Log In Disabled"
 }
 
-_G.pg.gametip.common_refresh_count_insufficient = {
+_G.pg.base.gametip.common_refresh_count_insufficient = {
 	tip = "Out of refreshes"
 }
 
-_G.pg.gametip.common_get_player_info_erro = {
+_G.pg.base.gametip.common_get_player_info_erro = {
 	tip = "Failed to retrieve player info"
 }
 
-_G.pg.gametip.common_no_open = {
+_G.pg.base.gametip.common_no_open = {
 	tip = "Not yet open"
 }
 
-_G.pg.gametip["common_already owned"] = {
+_G.pg.base.gametip["common_already owned"] = {
 	tip = "Have"
 }
 
-_G.pg.gametip.common_not_get_ship = {
+_G.pg.base.gametip.common_not_get_ship = {
 	tip = "Unowned Characters"
 }
 
-_G.pg.gametip.common_sale_out = {
+_G.pg.base.gametip.common_sale_out = {
 	tip = "Sold out"
 }
 
-_G.pg.gametip.common_skin_out_of_stock = {
+_G.pg.base.gametip.common_skin_out_of_stock = {
 	tip = "Coming soon"
 }
 
-_G.pg.gametip.common_go_home = {
+_G.pg.base.gametip.common_go_home = {
 	tip = "Would you like to return to the main menu? "
 }
 
-_G.pg.gametip.dont_remind_today = {
+_G.pg.base.gametip.dont_remind_today = {
 	tip = "Notified"
 }
 
-_G.pg.gametip.dont_remind_session = {
+_G.pg.base.gametip.dont_remind_session = {
 	tip = "Notified"
 }
 
-_G.pg.gametip.battle_no_oil = {
+_G.pg.base.gametip.battle_no_oil = {
 	tip = "Oh... Out of Oil again... I'm so hungry that I can't even fight..."
 }
 
-_G.pg.gametip.battle_emptyBlock = {
+_G.pg.base.gametip.battle_emptyBlock = {
 	tip = "The required weapon is not equipped"
 }
 
-_G.pg.gametip.battle_duel_main_rage = {
+_G.pg.base.gametip.battle_duel_main_rage = {
 	tip = "Both sides' <color=#92fc63>vanguards have been destroyed</color>. Battle accelerated."
 }
 
-_G.pg.gametip.battle_main_emergent = {
+_G.pg.base.gametip.battle_main_emergent = {
 	tip = "<color=#92fc63>$1</color> has been heavily damaged. Watch out for enemy ships!"
 }
 
-_G.pg.gametip.battle_battleMediator_goOnFight = {
+_G.pg.base.gametip.battle_battleMediator_goOnFight = {
 	tip = "Continue"
 }
 
-_G.pg.gametip.battle_battleMediator_existFight = {
+_G.pg.base.gametip.battle_battleMediator_existFight = {
 	tip = "Leave"
 }
 
-_G.pg.gametip.battle_battleMediator_clear_warning = {
+_G.pg.base.gametip.battle_battleMediator_clear_warning = {
 	tip = "Are you sure you wish to retreat? Your Challenge Mode progress will be reset, and your score will be finalized based upon the previous cleared stage. "
 }
 
-_G.pg.gametip.battle_battleMediator_quest_exist = {
+_G.pg.base.gametip.battle_battleMediator_quest_exist = {
 	tip = "If you give up now, you'll lose the\n<color=#92fc63>resources, items, and ships you've collected.</color>Are you sure you want to exit?"
 }
 
-_G.pg.gametip.battle_levelMediator_ok_takeResource = {
+_G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
 	tip = "Resources collected"
 }
 
-_G.pg.gametip.battle_result_time_limit = {
+_G.pg.base.gametip.battle_result_time_limit = {
 	tip = "Destroy all enemies within $1 seconds"
 }
 
-_G.pg.gametip.battle_result_sink_limit = {
+_G.pg.base.gametip.battle_result_sink_limit = {
 	tip = "Lose less than $1 ships"
 }
 
-_G.pg.gametip.battle_result_undefeated = {
+_G.pg.base.gametip.battle_result_undefeated = {
 	tip = "No casualties"
 }
 
-_G.pg.gametip.battle_result_victory = {
+_G.pg.base.gametip.battle_result_victory = {
 	tip = "Claim victory"
 }
 
-_G.pg.gametip.battle_result_defeat_all_enemys = {
+_G.pg.base.gametip.battle_result_defeat_all_enemys = {
 	tip = "Defeat all enemy ships"
 }
 
-_G.pg.gametip.battle_result_base_score = {
+_G.pg.base.gametip.battle_result_base_score = {
 	tip = "Stage cleared:"
 }
 
-_G.pg.gametip.battle_result_dead_score = {
+_G.pg.base.gametip.battle_result_dead_score = {
 	tip = "Casualties * $1:"
 }
 
-_G.pg.gametip.battle_result_score = {
+_G.pg.base.gametip.battle_result_score = {
 	tip = "Cargo Ships sunk * $1:"
 }
 
-_G.pg.gametip.battle_result_score_total = {
+_G.pg.base.gametip.battle_result_score_total = {
 	tip = "Total:"
 }
 
-_G.pg.gametip.battle_result_total_damage = {
+_G.pg.base.gametip.battle_result_total_damage = {
 	tip = "Total Damage:"
 }
 
-_G.pg.gametip.battle_result_contribution = {
+_G.pg.base.gametip.battle_result_contribution = {
 	tip = "Contributions Earned:"
 }
 
-_G.pg.gametip.battle_result_total_score = {
+_G.pg.base.gametip.battle_result_total_score = {
 	tip = "Total Score:"
 }
 
-_G.pg.gametip.battle_result_max_combo = {
+_G.pg.base.gametip.battle_result_max_combo = {
 	tip = "Max COMBO:"
 }
 
-_G.pg.gametip.battle_levelScene_0Oil = {
+_G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "Oil Production is 0"
 }
 
-_G.pg.gametip.battle_levelScene_0Gold = {
+_G.pg.base.gametip.battle_levelScene_0Gold = {
 	tip = "Coins Production is 0"
 }
 
-_G.pg.gametip.battle_levelScene_noRaderCount = {
+_G.pg.base.gametip.battle_levelScene_noRaderCount = {
 	tip = "Out of scans"
 }
 
-_G.pg.gametip.battle_levelScene_lock = {
+_G.pg.base.gametip.battle_levelScene_lock = {
 	tip = "This stage is currently unavailable. Please clear the <color=#92fc63>required</color> stage first."
 }
 
-_G.pg.gametip.battle_levelScene_hard_lock = {
+_G.pg.base.gametip.battle_levelScene_hard_lock = {
 	tip = "You have not completed the corresponding Main Campaign stage required to enter this stage. Please clear the <color=#92fc63>required</color> stage first."
 }
 
-_G.pg.gametip.battle_levelScene_close = {
+_G.pg.base.gametip.battle_levelScene_close = {
 	tip = "This event stage is currently unavailable."
 }
 
-_G.pg.gametip.battle_levelScene_chapter_lock = {
+_G.pg.base.gametip.battle_levelScene_chapter_lock = {
 	tip = "This stage is currently unavailable. Please clear the <color=#92fc63>required</color> stage first."
 }
 
-_G.pg.gametip.battle_preCombatLayer_changeFormationError = {
+_G.pg.base.gametip.battle_preCombatLayer_changeFormationError = {
 	tip = "Formation switch error. Please check your formations."
 }
 
-_G.pg.gametip.battle_preCombatLayer_changeFormationNumberError = {
+_G.pg.base.gametip.battle_preCombatLayer_changeFormationNumberError = {
 	tip = "Your fleets need to have at least <color=#92fc63>$1</color> girls in them to battle!"
 }
 
-_G.pg.gametip.battle_preCombatLayer_ready = {
+_G.pg.base.gametip.battle_preCombatLayer_ready = {
 	tip = "The fleet is ready to attack at a moment's notice"
 }
 
-_G.pg.gametip.battle_preCombatLayer_quest_leaveFleet = {
+_G.pg.base.gametip.battle_preCombatLayer_quest_leaveFleet = {
 	tip = "Remove <color=#92fc63>$1</color> from formation?"
 }
 
-_G.pg.gametip.battle_preCombatLayer_clear_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 	tip = "Are you sure you want to clear the selected formation?"
 }
 
-_G.pg.gametip.battle_preCombatLayer_auto_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
 	tip = "Are you sure you want to use the recommended formation?"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
 	tip = "Save this fleet formation?"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_march = {
+_G.pg.base.gametip.battle_preCombatLayer_save_march = {
 	tip = "Save fleet formation and exit?"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_success = {
+_G.pg.base.gametip.battle_preCombatLayer_save_success = {
 	tip = "Formation saved."
 }
 
-_G.pg.gametip.battle_preCombatLayer_time_limit = {
+_G.pg.base.gametip.battle_preCombatLayer_time_limit = {
 	tip = "Finish battle in $1 seconds"
 }
 
-_G.pg.gametip.battle_preCombatLayer_sink_limit = {
+_G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
 	tip = "Lose less than $1 ships"
 }
 
-_G.pg.gametip.battle_preCombatLayer_undefeated = {
+_G.pg.base.gametip.battle_preCombatLayer_undefeated = {
 	tip = "All ships must survive "
 }
 
-_G.pg.gametip.battle_preCombatLayer_victory = {
+_G.pg.base.gametip.battle_preCombatLayer_victory = {
 	tip = "Defeat all enemies"
 }
 
-_G.pg.gametip.battle_preCombatLayer_time_hold = {
+_G.pg.base.gametip.battle_preCombatLayer_time_hold = {
 	tip = "Do battle for $1 seconds"
 }
 
-_G.pg.gametip.battle_preCombatLayer_damage_before_end = {
+_G.pg.base.gametip.battle_preCombatLayer_damage_before_end = {
 	tip = "Deal as much damage as possible in the allotted time. "
 }
 
-_G.pg.gametip.battle_preCombatLayer_destory_transport_ship = {
+_G.pg.base.gametip.battle_preCombatLayer_destory_transport_ship = {
 	tip = "Sink $1 or more Cargo Ships. "
 }
 
-_G.pg.gametip.battle_preCombatMediator_leastLimit = {
+_G.pg.base.gametip.battle_preCombatMediator_leastLimit = {
 	tip = "Fleet 1 may not be empty!"
 }
 
-_G.pg.gametip.battle_preCombatMediator_timeout = {
+_G.pg.base.gametip.battle_preCombatMediator_timeout = {
 	tip = "<color=#92fc63>You're out of time!</color> Battle failed. Tap to return to main screen."
 }
 
-_G.pg.gametip.battle_preCombatMediator_activity_timeout = {
+_G.pg.base.gametip.battle_preCombatMediator_activity_timeout = {
 	tip = "The event has <color=#92fc63>already ended</color>. Tap to return to the stage selection screen. "
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_collecTimeDefault = {
+_G.pg.base.gametip.battle_resourceSiteLayer_collecTimeDefault = {
 	tip = "Harvesting time: <color=#92fc63>--:--:--</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_collecTime = {
+_G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
 	tip = "Harvesting time: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_maxLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_maxLv = {
 	tip = "Highest level: <color=#92fc63>Lv. $1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_avgLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_avgLv = {
 	tip = "Average level: <color=#92fc63>Lv. $1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_shipTypeCount = {
+_G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
 	tip = "$1 x$2"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_maxLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_maxLv = {
 	tip = "Highest level has not reached <color=#92fc63>lv. $1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_avgLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_avgLv = {
 	tip = "Average level has not reached <color=#92fc63>lv. $1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
 	tip = "Missing <color=#92fc63>$1 x$2</color> in team"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_collecting = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_collecting = {
 	tip = "Harvesting..."
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_not5Ship = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_not5Ship = {
 	tip = "At least <color=#92fc63>5 characters</color> required"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_limit = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
 	tip = "Requirements not met: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_endError_notStar = {
+_G.pg.base.gametip.battle_resourceSiteLayer_endError_notStar = {
 	tip = "Harvesting not yet begun."
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_quest_end = {
+_G.pg.base.gametip.battle_resourceSiteLayer_quest_end = {
 	tip = "Commander, you'll lose this resource node if you call your ship back. Are you sure?"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_noSite = {
+_G.pg.base.gametip.battle_resourceSiteMediator_noSite = {
 	tip = "Resource node does not exist."
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_fight = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
 	tip = "She's currently <color=#92fc63>in battle</color>!"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_rest = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_rest = {
 	tip = "She's currently resting..."
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_study = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_study = {
 	tip = "She's currently in class!"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_event = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_event = {
 	tip = "She's currently on commission!"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_same = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_same = {
 	tip = "May not select an identical ship."
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_ok_end = {
+_G.pg.base.gametip.battle_resourceSiteMediator_ok_end = {
 	tip = "Ship recalled."
 }
 
-_G.pg.gametip.battle_autobot_unlock = {
+_G.pg.base.gametip.battle_autobot_unlock = {
 	tip = "Auto combat unlocked!"
 }
 
-_G.pg.gametip.tips_confirm_teleport_sub = {
+_G.pg.base.gametip.tips_confirm_teleport_sub = {
 	tip = "To change the <color=#92fc63FF>Submarine Fleet's</color> position from <color=#92fc63FF>$1</color> to <color=#92fc63FF>$2</color>, they must be moved <color=#92fc63FF>$3</color> tiles, which will cost <color=#92fc63FF>$4</color> Oil. Continue? "
 }
 
-_G.pg.gametip.backyard_addExp_Info = {
+_G.pg.base.gametip.backyard_addExp_Info = {
 	tip = "Commander, everyone rested up while you were gone during\n||<color=#FAFAF7FF>$1</color>|| ||  You used up ||<color=#A9F548FF>$2</color>|| snacks, and received ||<color=#A9F548FF>$3</color>|| EXP."
 }
 
-_G.pg.gametip.backyard_extendCapacity_error = {
+_G.pg.base.gametip.backyard_extendCapacity_error = {
 	tip = "Expansion failed: "
 }
 
-_G.pg.gametip.backyard_extendCapacity_ok = {
+_G.pg.base.gametip.backyard_extendCapacity_ok = {
 	tip = "Supplies storage expanded! Storage capacity increased by <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.backyard_addShip_error = {
+_G.pg.base.gametip.backyard_addShip_error = {
 	tip = "Failed to add ship: "
 }
 
-_G.pg.gametip.backyard_buyFurniture_error = {
+_G.pg.base.gametip.backyard_buyFurniture_error = {
 	tip = "Failed to purchase decoration: "
 }
 
-_G.pg.gametip.backyard_extendBackYard_error = {
+_G.pg.base.gametip.backyard_extendBackYard_error = {
 	tip = "Failed to expand ship slots: "
 }
 
-_G.pg.gametip.backyard_addFood_error = {
+_G.pg.base.gametip.backyard_addFood_error = {
 	tip = "Failed to add snacks: "
 }
 
-_G.pg.gametip.backyard_addFood_ok = {
+_G.pg.base.gametip.backyard_addFood_ok = {
 	tip = "Restocking complete! Supplies <color=#92fc63>+$1</color>."
 }
 
-_G.pg.gametip.backyard_putFurniture_ok = {
+_G.pg.base.gametip.backyard_putFurniture_ok = {
 	tip = "Saved!"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodCountLimit = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodCountLimit = {
 	tip = "You don't have enough snacks."
 }
 
-_G.pg.gametip.backyard_shipAddInimacy_ok = {
+_G.pg.base.gametip.backyard_shipAddInimacy_ok = {
 	tip = "<color=#92fc63>$1</color>'s Affinity <color=#92fc63>increased</color>."
 }
 
-_G.pg.gametip.backyard_shipAddInimacy_error = {
+_G.pg.base.gametip.backyard_shipAddInimacy_error = {
 	tip = "Affinity increase failed: "
 }
 
-_G.pg.gametip.backyard_shipAddMoney_ok = {
+_G.pg.base.gametip.backyard_shipAddMoney_ok = {
 	tip = "<color=#92fc63>$1</color> made an unexpected discovery! Decor Tokens <color=#92fc63>+$2</color>."
 }
 
-_G.pg.gametip.backyard_shipAddMoney_error = {
+_G.pg.base.gametip.backyard_shipAddMoney_error = {
 	tip = "Failed to collect Coins: "
 }
 
-_G.pg.gametip.backyard_shipExit_error = {
+_G.pg.base.gametip.backyard_shipExit_error = {
 	tip = "Failed to leave dorm: "
 }
 
-_G.pg.gametip.backyard_shipSpeedUpEnergy_error = {
+_G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
 	tip = "Speed up failed."
 }
 
-_G.pg.gametip.backyard_shipAlreadyExit = {
+_G.pg.base.gametip.backyard_shipAlreadyExit = {
 	tip = "Ships has already left."
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_full = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
 	tip = "<color=red>Restocking failed! Supplies are already full.</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_buyCountLimit = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_buyCountLimit = {
 	tip = "May only purchase <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_error_noResource = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_error_noResource = {
 	tip = "You don't have enough <color=#92fc63>$1</color> to make this purchase!"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noFood = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
 	tip = "Commander, there's nothing to eat~ We're starving!"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noTimer = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noTimer = {
 	tip = "<color=#92fc63>Add snacks</color> to rest up your girls and grant them additional EXP!"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_word = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 	tip = "This one? Or that one... It all looks delicious!"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noShip = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
 	tip = "The dorm is empty, <color=#92fc63>no food will be consumed.</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
 	tip = "  In                 everything"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 	tip = "will be eaten up~"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
 	tip = "Expand Supply Capacity from  <color=#92fc63>$1</color> to <color=#92fc63>$2</color>."
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_error_entendFail = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_error_entendFail = {
 	tip = "<color=#92fc63>You don't have the required resources to expand storage.</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_buy_max_count = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 	tip = "<color=#92fc63>Supplies limit reached.</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent1 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
 	tip = [[
 <size=28>The total comfort is currently affected by the
 number of furniture items in the following slots:
@@ -1788,7 +1788,7 @@ Wallpaper:<color=#92fc63>$2</color>/Floor:<color=#92fc63>$5</color>/Furniture:<c
 Décor:<color=#92fc63>$4</color>/Carpet:<color=#92fc63>$6</color>/Wall Décor:<color=#92fc63>$7</color></size>]]
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent2 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
 	tip = [[
 <size=37>$1</size><size=28>
 Bonus EXP Gain:<color=#92fc63>+$2%</color></size><size=28>
@@ -1798,319 +1798,319 @@ Current expansions: <color=#92fc63>$3</color>
 </size>]]
 }
 
-_G.pg.gametip.backyard_buyExtendItem_question = {
+_G.pg.base.gametip.backyard_buyExtendItem_question = {
 	tip = "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent1_1 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent1_1 = {
 	tip = "<color=#CC0000>Hard</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent2_2 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent2_2 = {
 	tip = "<color=#FFBB11>Normal</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent3_3 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent3_3 = {
 	tip = "<color=#00EEFF>Comfortable</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_quest_clearButton = {
+_G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
 	tip = "<color=#92fc63>Clear</color> current decorations?"
 }
 
-_G.pg.gametip.backyard_backyardScene_quest_saveFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
 	tip = "<color=#92fc63>Save</color> current settings?"
 }
 
-_G.pg.gametip.backyard_backyardScene_restSuccess = {
+_G.pg.base.gametip.backyard_backyardScene_restSuccess = {
 	tip = "<color=#92fc63>Reset!</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_clearSuccess = {
+_G.pg.base.gametip.backyard_backyardScene_clearSuccess = {
 	tip = "<color=#92fc63>Cleared!</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_name = {
+_G.pg.base.gametip.backyard_backyardScene_name = {
 	tip = "<color=#92fc63>$1's Dorm</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
+_G.pg.base.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
 	tip = " has finished resting and has left the dorm."
 }
 
-_G.pg.gametip.backyard_backyardScene_timeRest = {
+_G.pg.base.gametip.backyard_backyardScene_timeRest = {
 	tip = "Time left: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_showAddExpInfo = {
+_G.pg.base.gametip.backyard_backyardScene_showAddExpInfo = {
 	tip = "Resting time: <color=#92fc63>$1</color> - EXP added: <color=#92fc63>$2</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_error_noPosPutFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
 	tip = "This doesn't fit anywhere."
 }
 
-_G.pg.gametip.backyard_backyardScene_error_noFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_error_noFurniture = {
 	tip = "You don't have any furniture to decorate."
 }
 
-_G.pg.gametip.backyard_backyardScene_error_canNotRotate = {
+_G.pg.base.gametip.backyard_backyardScene_error_canNotRotate = {
 	tip = "<color=#92fc63>May not rotate</color> this location."
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
 	tip = "Unlock this row for <color=#92fc63>$1 Gems</color>?"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
 	tip = "<color=#92fc63>You're running low on supplies.</color> Restock now?"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
 	tip = "You must spend <color=#92fc63>Quick Finishers</color> to speed up. Speed up now?"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
 	tip = "You don't have enough Quick Finishers."
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
 	tip = "She's currently resting in the dorm!"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_fight = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_fight = {
 	tip = "She's currently resting in the dorm!"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_study = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_study = {
 	tip = "She's currently in class!"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_collect = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_collect = {
 	tip = "She's currently on commission!"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_event = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_event = {
 	tip = "She's currently running special ops!"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
 	tip = "She's currently deployed for battle. Do you want to <color=#92fc63>remove her from the fleet formation</color>?"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
 	tip = "At least 1 ship must be deployed to Vanguard."
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
 	tip = "At least 1 ship must be deployed to Main Fleet."
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
 	tip = "Ship added!"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
 	tip = "Unlocked!"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_noFood = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
 	tip = "You don't have enough snacks."
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_fullEnergy = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fullEnergy = {
 	tip = "This ship's energy is full."
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
 	tip = "This is the last ship in this formation. Unable to complete action."
 }
 
-_G.pg.gametip.backyard_open_2floor = {
+_G.pg.base.gametip.backyard_open_2floor = {
 	tip = "Spend $1 Gems to unlock the second floor?\n<color=#FF4B14>No new training slots will unlock with second floor.</color> For decoration only!"
 }
 
-_G.pg.gametip.backyarad_theme_replace = {
+_G.pg.base.gametip.backyarad_theme_replace = {
 	tip = "Some decorations from the \"$1\" theme are already in use and have not been moved."
 }
 
-_G.pg.gametip.backyard_extendArea_ok = {
+_G.pg.base.gametip.backyard_extendArea_ok = {
 	tip = "Dorm expanded!"
 }
 
-_G.pg.gametip.backyard_extendArea_erro = {
+_G.pg.base.gametip.backyard_extendArea_erro = {
 	tip = "Failed to expand dorm: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.backyard_extendArea_tip = {
+_G.pg.base.gametip.backyard_extendArea_tip = {
 	tip = "Required: Expansion License:||$1|| ||You have: ||$2||"
 }
 
-_G.pg.gametip.backyard_notPosition_shipExit = {
+_G.pg.base.gametip.backyard_notPosition_shipExit = {
 	tip = "Dorm is full. Ship has left the dorm."
 }
 
-_G.pg.gametip.backyard_no_ship_tip = {
+_G.pg.base.gametip.backyard_no_ship_tip = {
 	tip = "Ship does not exist."
 }
 
-_G.pg.gametip.backyard_energy_qiuck_up_tip = {
+_G.pg.base.gametip.backyard_energy_qiuck_up_tip = {
 	tip = "You'll need to give <color=#A9F548FF>$1 cups</color> of Coffee for full energy restoration!\n\nCoffee left: <color=$2>$3 cups</color>"
 }
 
-_G.pg.gametip.backyard_cant_put_tip = {
+_G.pg.base.gametip.backyard_cant_put_tip = {
 	tip = "Unable to place."
 }
 
-_G.pg.gametip.backyard_cant_buy_tip = {
+_G.pg.base.gametip.backyard_cant_buy_tip = {
 	tip = "Unable to purchase!"
 }
 
-_G.pg.gametip.backyard_theme_lock_tip = {
+_G.pg.base.gametip.backyard_theme_lock_tip = {
 	tip = "This theme is <color=#92fc63>not yet open</color>."
 }
 
-_G.pg.gametip.backyard_theme_open_tip = {
+_G.pg.base.gametip.backyard_theme_open_tip = {
 	tip = "To unlock:\nReach Commander lv. <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.backyard_theme_furniture_buy_tip = {
+_G.pg.base.gametip.backyard_theme_furniture_buy_tip = {
 	tip = "Spend <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material> Decor Tokens to buy <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>?"
 }
 
-_G.pg.gametip.backyard_cannot_repeat_purchase = {
+_G.pg.base.gametip.backyard_cannot_repeat_purchase = {
 	tip = "May not purchase again."
 }
 
-_G.pg.gametip.backyard_theme_bought = {
+_G.pg.base.gametip.backyard_theme_bought = {
 	tip = "Purchased"
 }
 
-_G.pg.gametip.backyard_interAction_no_open = {
+_G.pg.base.gametip.backyard_interAction_no_open = {
 	tip = "Furniture interaction not yet unlocked."
 }
 
-_G.pg.gametip.backyard_theme_no_exist = {
+_G.pg.base.gametip.backyard_theme_no_exist = {
 	tip = "Theme does not exist."
 }
 
-_G.pg.gametip.backayrd_theme_delete_sucess = {
+_G.pg.base.gametip.backayrd_theme_delete_sucess = {
 	tip = "Theme deleted."
 }
 
-_G.pg.gametip.backayrd_theme_delete_erro = {
+_G.pg.base.gametip.backayrd_theme_delete_erro = {
 	tip = "Failed to delete theme."
 }
 
-_G.pg.gametip.backyard_ship_on_furnitrue = {
+_G.pg.base.gametip.backyard_ship_on_furnitrue = {
 	tip = "There's a girl on this furniture! Continue moving?"
 }
 
-_G.pg.gametip.backyard_save_empty_theme = {
+_G.pg.base.gametip.backyard_save_empty_theme = {
 	tip = "Unable to save empty themes."
 }
 
-_G.pg.gametip.backyard_theme_name_forbid = {
+_G.pg.base.gametip.backyard_theme_name_forbid = {
 	tip = "Theme name contains illegal characters."
 }
 
-_G.pg.gametip.backyard_getResource_emptry = {
+_G.pg.base.gametip.backyard_getResource_emptry = {
 	tip = "You were too slow..."
 }
 
-_G.pg.gametip.backyard_no_pos_for_ship = {
+_G.pg.base.gametip.backyard_no_pos_for_ship = {
 	tip = "You don't have enough space in your dorm! You can only choose this much."
 }
 
-_G.pg.gametip.equipment_destroyEquipments_error_noEquip = {
+_G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
 	tip = "Gear does not exist."
 }
 
-_G.pg.gametip.equipment_destroyEquipments_error_notEnoughEquip = {
+_G.pg.base.gametip.equipment_destroyEquipments_error_notEnoughEquip = {
 	tip = "Not enough gear."
 }
 
-_G.pg.gametip.equipment_equipDevUI_error_noPos = {
+_G.pg.base.gametip.equipment_equipDevUI_error_noPos = {
 	tip = "Your gear storage is full."
 }
 
-_G.pg.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
+_G.pg.base.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
 	tip = "Unable to equip: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.equipment_equipmentScene_selectError_more = {
+_G.pg.base.gametip.equipment_equipmentScene_selectError_more = {
 	tip = "May select up to <color=#92fc63>$1</color> pieces of gear"
 }
 
-_G.pg.gametip.equipment_newEquipLayer_getNewEquip = {
+_G.pg.base.gametip.equipment_newEquipLayer_getNewEquip = {
 	tip = "Gear received: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.equipment_select_materials_tip = {
+_G.pg.base.gametip.equipment_select_materials_tip = {
 	tip = " "
 }
 
-_G.pg.gametip.equipment_select_device_tip = {
+_G.pg.base.gametip.equipment_select_device_tip = {
 	tip = "Please select required gear."
 }
 
-_G.pg.gametip.equipment_cant_unload = {
+_G.pg.base.gametip.equipment_cant_unload = {
 	tip = "<color=#92fc63>Your gear storage is full.</color> Unable to unequip gear."
 }
 
-_G.pg.gametip.equipment_max_level = {
+_G.pg.base.gametip.equipment_max_level = {
 	tip = "Gear level cap"
 }
 
-_G.pg.gametip.equipment_upgrade_costcheck_error = {
+_G.pg.base.gametip.equipment_upgrade_costcheck_error = {
 	tip = "Please confirm the amount of material will be spend for upgrading "
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_fragment = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_fragment = {
 	tip = "Insufficient <color=#92fc63>$1</color>. "
 }
 
-_G.pg.gametip.exercise_count_insufficient = {
+_G.pg.base.gametip.exercise_count_insufficient = {
 	tip = "<color=#92fc63>You don't have enough exercises.</color>"
 }
 
-_G.pg.gametip.exercise_clear_fleet_tip = {
+_G.pg.base.gametip.exercise_clear_fleet_tip = {
 	tip = "Are you sure you want to <color=#92fc63>remove the defensive vanguard/main fleet</color> and name them as Fleet 1?"
 }
 
-_G.pg.gametip.exercise_fleet_exit_tip = {
+_G.pg.base.gametip.exercise_fleet_exit_tip = {
 	tip = "This ship is currently part of an <color=#92fc63>Arena defensive fleet</color>. Are you sure you want to remove them?"
 }
 
-_G.pg.gametip.exercise_replace_rivals_ok_tip = {
+_G.pg.base.gametip.exercise_replace_rivals_ok_tip = {
 	tip = "Opponents updated!"
 }
 
-_G.pg.gametip.exercise_replace_rivals_question = {
+_G.pg.base.gametip.exercise_replace_rivals_question = {
 	tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of opponents?"
 }
 
-_G.pg.gametip.exercise_count_recover_tip = {
+_G.pg.base.gametip.exercise_count_recover_tip = {
 	tip = "(Recover in <color=#92fc63>$1</color>)"
 }
 
-_G.pg.gametip.exercise_shop_refresh_tip = {
+_G.pg.base.gametip.exercise_shop_refresh_tip = {
 	tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of items?"
 }
 
-_G.pg.gametip.exercise_shop_buy_tip = {
+_G.pg.base.gametip.exercise_shop_buy_tip = {
 	tip = "Exchange <color=#92fc63>$1</color> Merit for this item?"
 }
 
-_G.pg.gametip.exercise_formation_title = {
+_G.pg.base.gametip.exercise_formation_title = {
 	tip = "Exercise Defensive Force"
 }
 
-_G.pg.gametip.exercise_time_tip = {
+_G.pg.base.gametip.exercise_time_tip = {
 	tip = "Current season: $1"
 }
 
-_G.pg.gametip.exercise_rule_tip = {
+_G.pg.base.gametip.exercise_rule_tip = {
 	tip = [[
 1. Each Exercise season lasts <color=#92fc63>14</color> days. As you rise through the ranks each season, you will earn more and more Merits.
 2. Winning an Exercise Battle will earn you Merits based on your current Military Rank. If you lose, you will still earn <color=#92fc63>half</color> the rewards of a victory.
@@ -2125,123 +2125,123 @@ _G.pg.gametip.exercise_rule_tip = {
 11. At the end of the season, all players will have their Military Rank and Current Rank reset. However, <color=#92fc63>all Merits earned will persist between seasons.</color> ]]
 }
 
-_G.pg.gametip.exercise_award_tip = {
+_G.pg.base.gametip.exercise_award_tip = {
 	tip = "During each Exercise season, you will be rewarded the following upon earning each rank for the first time: "
 }
 
-_G.pg.gametip.dock_yard_left_tips = {
+_G.pg.base.gametip.dock_yard_left_tips = {
 	tip = "Select characters to <color=#92fc63>$1</color>: "
 }
 
-_G.pg.gametip.fleet_error_no_fleet = {
+_G.pg.base.gametip.fleet_error_no_fleet = {
 	tip = "Fleet does not exist."
 }
 
-_G.pg.gametip.fleet_repairShips_error_fullEnergy = {
+_G.pg.base.gametip.fleet_repairShips_error_fullEnergy = {
 	tip = "Your ships are already fully energized!"
 }
 
-_G.pg.gametip.fleet_repairShips_error_noResource = {
+_G.pg.base.gametip.fleet_repairShips_error_noResource = {
 	tip = "You don't have enough Coins!"
 }
 
-_G.pg.gametip.fleet_repairShips_quest = {
+_G.pg.base.gametip.fleet_repairShips_quest = {
 	tip = "Spend <color=#92fc63>$1</color> Coins to restore energy to all ships?"
 }
 
-_G.pg.gametip.fleet_fleetRaname_error = {
+_G.pg.base.gametip.fleet_fleetRaname_error = {
 	tip = "Failed to rename: "
 }
 
-_G.pg.gametip.fleet_updateFleet_error = {
+_G.pg.base.gametip.fleet_updateFleet_error = {
 	tip = "Failed to update fleet: "
 }
 
-_G.pg.gametip.friend_acceptFriendRequest_error = {
+_G.pg.base.gametip.friend_acceptFriendRequest_error = {
 	tip = "Failed to accept friend request: "
 }
 
-_G.pg.gametip.friend_deleteFriend_error = {
+_G.pg.base.gametip.friend_deleteFriend_error = {
 	tip = "Failed to delete friend: "
 }
 
-_G.pg.gametip.friend_fetchFriendMsg_error = {
+_G.pg.base.gametip.friend_fetchFriendMsg_error = {
 	tip = "Failed to retrieve message: "
 }
 
-_G.pg.gametip.friend_rejectFriendRequest_error = {
+_G.pg.base.gametip.friend_rejectFriendRequest_error = {
 	tip = "Failed to reject friend request: "
 }
 
-_G.pg.gametip.friend_searchFriend_noPlayer = {
+_G.pg.base.gametip.friend_searchFriend_noPlayer = {
 	tip = "Unable to check this player."
 }
 
-_G.pg.gametip.friend_sendFriendMsg_error = {
+_G.pg.base.gametip.friend_sendFriendMsg_error = {
 	tip = "Failed to send message: "
 }
 
-_G.pg.gametip.friend_sendFriendMsg_error_noFriend = {
+_G.pg.base.gametip.friend_sendFriendMsg_error_noFriend = {
 	tip = "You are not friends with this player."
 }
 
-_G.pg.gametip.friend_sendFriendRequest_error = {
+_G.pg.base.gametip.friend_sendFriendRequest_error = {
 	tip = "Failed to send request: "
 }
 
-_G.pg.gametip.friend_addblacklist_error = {
+_G.pg.base.gametip.friend_addblacklist_error = {
 	tip = "Failed to blacklist: "
 }
 
-_G.pg.gametip.friend_relieveblacklist_error = {
+_G.pg.base.gametip.friend_relieveblacklist_error = {
 	tip = "Failed to remove from blacklist: "
 }
 
-_G.pg.gametip.friend_sendFriendRequest_success = {
+_G.pg.base.gametip.friend_sendFriendRequest_success = {
 	tip = "Friend request sent!"
 }
 
-_G.pg.gametip.friend_relieveblacklist_success = {
+_G.pg.base.gametip.friend_relieveblacklist_success = {
 	tip = "Removed from blacklist!"
 }
 
-_G.pg.gametip.friend_addblacklist_success = {
+_G.pg.base.gametip.friend_addblacklist_success = {
 	tip = "Added to blacklist."
 }
 
-_G.pg.gametip.friend_confirm_add_blacklist = {
+_G.pg.base.gametip.friend_confirm_add_blacklist = {
 	tip = "Are you sure you want to blacklist <color=#92fc63>$1</color>?\n(View your blacklist from your friends menu)"
 }
 
-_G.pg.gametip.friend_relieve_backlist_tip = {
+_G.pg.base.gametip.friend_relieve_backlist_tip = {
 	tip = "Player is on your blacklist. Would you like to remove them from your blacklist?"
 }
 
-_G.pg.gametip.friend_player_is_friend_tip = {
+_G.pg.base.gametip.friend_player_is_friend_tip = {
 	tip = "You are already friends with this player."
 }
 
-_G.pg.gametip.friend_searchFriend_wait_time = {
+_G.pg.base.gametip.friend_searchFriend_wait_time = {
 	tip = "May search again in $1 seconds"
 }
 
-_G.pg.gametip.lesson_classOver_error = {
+_G.pg.base.gametip.lesson_classOver_error = {
 	tip = "Failed to collect rewards: "
 }
 
-_G.pg.gametip.lesson_endToLearn_error = {
+_G.pg.base.gametip.lesson_endToLearn_error = {
 	tip = "Class failed: "
 }
 
-_G.pg.gametip.lesson_startToLearn_error = {
+_G.pg.base.gametip.lesson_startToLearn_error = {
 	tip = "Failed to begin class: "
 }
 
-_G.pg.gametip.tactics_lesson_cancel = {
+_G.pg.base.gametip.tactics_lesson_cancel = {
 	tip = "If you cancel class, only partial EXP will be granted and you will <color=#92fc63>lose your textbook</color>. Continue canceling this class?"
 }
 
-_G.pg.gametip.tactics_lesson_system_introduce = {
+_G.pg.base.gametip.tactics_lesson_system_introduce = {
 	tip = {
 		{
 			icon = {
@@ -2266,439 +2266,439 @@ _G.pg.gametip.tactics_lesson_system_introduce = {
 	}
 }
 
-_G.pg.gametip.tactics_lesson_start_tip = {
+_G.pg.base.gametip.tactics_lesson_start_tip = {
 	tip = "Are you sure you want to spend <color=#92fc63>1</color><color=#92fc63> \"$1\" </color>to train <color=#92fc63>$2's</color> <color=#92fc63>$3</color> skill?"
 }
 
-_G.pg.gametip.tactics_noskill_erro = {
+_G.pg.base.gametip.tactics_noskill_erro = {
 	tip = "Skill must exist."
 }
 
-_G.pg.gametip.tactics_max_level = {
+_G.pg.base.gametip.tactics_max_level = {
 	tip = "This skill is already fully leveled up!"
 }
 
-_G.pg.gametip.tactics_end_to_learn = {
+_G.pg.base.gametip.tactics_end_to_learn = {
 	tip = "<color=#92fc63>$1</color> has finished class! Her <color=#92fc63>$2</color> skill received <color=#92fc63>$3</color> EXP."
 }
 
-_G.pg.gametip.tactics_continue_to_learn = {
+_G.pg.base.gametip.tactics_continue_to_learn = {
 	tip = "Continue to learn a new book?"
 }
 
-_G.pg.gametip.tactics_should_exist_skill = {
+_G.pg.base.gametip.tactics_should_exist_skill = {
 	tip = "Skill must exist."
 }
 
-_G.pg.gametip.tactics_skill_level_up = {
+_G.pg.base.gametip.tactics_skill_level_up = {
 	tip = "(Skill leveled up from lv. $1 to lv. $2!) "
 }
 
-_G.pg.gametip.tactics_no_lesson = {
+_G.pg.base.gametip.tactics_no_lesson = {
 	tip = "Not enough Textbook"
 }
 
-_G.pg.gametip.tactics_lesson_full = {
+_G.pg.base.gametip.tactics_lesson_full = {
 	tip = "Classes are full."
 }
 
-_G.pg.gametip.tactics_lesson_repeated = {
+_G.pg.base.gametip.tactics_lesson_repeated = {
 	tip = "She's already in class!"
 }
 
-_G.pg.gametip.login_gate_not_ready = {
+_G.pg.base.gametip.login_gate_not_ready = {
 	tip = "Server not open."
 }
 
-_G.pg.gametip.login_game_not_ready = {
+_G.pg.base.gametip.login_game_not_ready = {
 	tip = "Game server not open."
 }
 
-_G.pg.gametip.login_game_rigister_full = {
+_G.pg.base.gametip.login_game_rigister_full = {
 	tip = "Maximum registered player limit reached."
 }
 
-_G.pg.gametip.login_game_login_full = {
+_G.pg.base.gametip.login_game_login_full = {
 	tip = "Too many players are logged into this server. Please wait and try again."
 }
 
-_G.pg.gametip.login_game_banned = {
+_G.pg.base.gametip.login_game_banned = {
 	tip = "Account frozen. Please contact customer support."
 }
 
-_G.pg.gametip.login_game_frequence = {
+_G.pg.base.gametip.login_game_frequence = {
 	tip = "Please do not repeatedly try to log into this server."
 }
 
-_G.pg.gametip.login_createNewPlayer_full = {
+_G.pg.base.gametip.login_createNewPlayer_full = {
 	tip = "Too many players are registered on this server."
 }
 
-_G.pg.gametip.login_createNewPlayer_error = {
+_G.pg.base.gametip.login_createNewPlayer_error = {
 	tip = "Registration failed: "
 }
 
-_G.pg.gametip.login_createNewPlayer_error_nameNull = {
+_G.pg.base.gametip.login_createNewPlayer_error_nameNull = {
 	tip = "Please give yourself a name!"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_lingBo = {
+_G.pg.base.gametip.login_newPlayerScene_word_lingBo = {
 	tip = "Special Destroyer Ayanami here! They call me \"Ghost\". Commander, what's your name?"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_yingHuoChong = {
+_G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
 	tip = "Wow! It's the new Commander! Did you come here to play with Glowworm? You better watch out for my headbutt!"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_laFei = {
+_G.pg.base.gametip.login_newPlayerScene_word_laFei = {
 	tip = "I'm Laffey, a Benson class ship... I'm... pretty good at night battles... Commander... what's your name?"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_biaoqiang = {
+_G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
 	tip = "I'm Javelin! Commander, I've already told you my name... Now you have to tell me yours!"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_z23 = {
+_G.pg.base.gametip.login_newPlayerScene_word_z23 = {
 	tip = "Commander, did you really forget to tell me your name? Or do you just want me to call you Commander?"
 }
 
-_G.pg.gametip.login_newPlayerScene_randomName = {
+_G.pg.base.gametip.login_newPlayerScene_randomName = {
 	tip = "Random name"
 }
 
-_G.pg.gametip.login_newPlayerScene_error_notChoiseShip = {
+_G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
 	tip = "No character selected"
 }
 
-_G.pg.gametip.login_newPlayerScene_inputName = {
+_G.pg.base.gametip.login_newPlayerScene_inputName = {
 	tip = "Enter name"
 }
 
-_G.pg.gametip.login_loginMediator_kickOtherLogin = {
+_G.pg.base.gametip.login_loginMediator_kickOtherLogin = {
 	tip = "Your account is logged in on another device."
 }
 
-_G.pg.gametip.login_loginMediator_kickServerClose = {
+_G.pg.base.gametip.login_loginMediator_kickServerClose = {
 	tip = "Server Maintenance"
 }
 
-_G.pg.gametip.login_loginMediator_kickIntError = {
+_G.pg.base.gametip.login_loginMediator_kickIntError = {
 	tip = "Network Error"
 }
 
-_G.pg.gametip.login_loginMediator_kickTimeError = {
+_G.pg.base.gametip.login_loginMediator_kickTimeError = {
 	tip = "Offline for too long."
 }
 
-_G.pg.gametip.login_loginMediator_vertifyFail = {
+_G.pg.base.gametip.login_loginMediator_vertifyFail = {
 	tip = "Data validation failed."
 }
 
-_G.pg.gametip.login_loginMediator_dataExpired = {
+_G.pg.base.gametip.login_loginMediator_dataExpired = {
 	tip = "Login data Expired"
 }
 
-_G.pg.gametip.login_loginMediator_kickLoginOut = {
+_G.pg.base.gametip.login_loginMediator_kickLoginOut = {
 	tip = "Connection lost."
 }
 
-_G.pg.gametip.login_loginMediator_serverLoginErro = {
+_G.pg.base.gametip.login_loginMediator_serverLoginErro = {
 	tip = "Connection to server lost."
 }
 
-_G.pg.gametip.login_loginMediator_kickUndefined = {
+_G.pg.base.gametip.login_loginMediator_kickUndefined = {
 	tip = "Connection error - [$1]"
 }
 
-_G.pg.gametip.login_loginMediator_loginSuccess = {
+_G.pg.base.gametip.login_loginMediator_loginSuccess = {
 	tip = "Login successful!"
 }
 
-_G.pg.gametip.login_loginMediator_quest_RegisterSuccess = {
+_G.pg.base.gametip.login_loginMediator_quest_RegisterSuccess = {
 	tip = "Registration complete! Preparing to log in..."
 }
 
-_G.pg.gametip.login_loginMediator_registerFail_error = {
+_G.pg.base.gametip.login_loginMediator_registerFail_error = {
 	tip = "Registration failed: "
 }
 
-_G.pg.gametip.login_loginMediator_userLoginFail_error = {
+_G.pg.base.gametip.login_loginMediator_userLoginFail_error = {
 	tip = "Registration failed: "
 }
 
-_G.pg.gametip.login_loginMediator_serverLoginFail_error = {
+_G.pg.base.gametip.login_loginMediator_serverLoginFail_error = {
 	tip = "Failed to log in: "
 }
 
-_G.pg.gametip.login_loginScene_error_noUserName = {
+_G.pg.base.gametip.login_loginScene_error_noUserName = {
 	tip = "Username may not be empty."
 }
 
-_G.pg.gametip.login_loginScene_error_noPassword = {
+_G.pg.base.gametip.login_loginScene_error_noPassword = {
 	tip = "Password may not be empty."
 }
 
-_G.pg.gametip.login_loginScene_error_diffPassword = {
+_G.pg.base.gametip.login_loginScene_error_diffPassword = {
 	tip = "Passwords do not match."
 }
 
-_G.pg.gametip.login_loginScene_error_noMailBox = {
+_G.pg.base.gametip.login_loginScene_error_noMailBox = {
 	tip = "Email may not be empty."
 }
 
-_G.pg.gametip.login_loginScene_choiseServer = {
+_G.pg.base.gametip.login_loginScene_choiseServer = {
 	tip = "Please select a server."
 }
 
-_G.pg.gametip.login_loginScene_server_vindicate = {
+_G.pg.base.gametip.login_loginScene_server_vindicate = {
 	tip = "Server is under maintenance."
 }
 
-_G.pg.gametip.login_loginScene_server_full = {
+_G.pg.base.gametip.login_loginScene_server_full = {
 	tip = "Server is full."
 }
 
-_G.pg.gametip.login_loginScene_server_disabled = {
+_G.pg.base.gametip.login_loginScene_server_disabled = {
 	tip = "Server down."
 }
 
-_G.pg.gametip.login_register_full = {
+_G.pg.base.gametip.login_register_full = {
 	tip = "Too many players registered."
 }
 
-_G.pg.gametip.system_database_busy = {
+_G.pg.base.gametip.system_database_busy = {
 	tip = "Database is busy. Please try again later."
 }
 
-_G.pg.gametip.mail_getMailList_error_noNewMail = {
+_G.pg.base.gametip.mail_getMailList_error_noNewMail = {
 	tip = "No new mail."
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noMail = {
+_G.pg.base.gametip.mail_takeAttachment_error_noMail = {
 	tip = "Mail does not exist: $1"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noAttach = {
+_G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
 	tip = "Failed to collect rewards."
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noWorld = {
+_G.pg.base.gametip.mail_takeAttachment_error_noWorld = {
 	tip = "Unable to collect item; Operation Siren must be unlocked first."
 }
 
-_G.pg.gametip.mail_takeAttachment_error_reWorld = {
+_G.pg.base.gametip.mail_takeAttachment_error_reWorld = {
 	tip = "Since Operation Siren was reset, the collected items will be converted into Supply Shop Vouchers. Continue?"
 }
 
-_G.pg.gametip.mail_count = {
+_G.pg.base.gametip.mail_count = {
 	tip = "Includes <color=#92fc63>$1</color> reward(s)"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_magazine_full = {
+_G.pg.base.gametip.mail_takeAttachment_error_magazine_full = {
 	tip = "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Gear Depot</color>."
 }
 
-_G.pg.gametip.mail_takeAttachment_error_dockYrad_full = {
+_G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 	tip = "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Dock</color>."
 }
 
-_G.pg.gametip.mail_confirm_set_important_flag = {
+_G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "Mark as important"
 }
 
-_G.pg.gametip.mail_confirm_cancel_important_flag = {
+_G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 	tip = "Unmark as important"
 }
 
-_G.pg.gametip.main_mailLayer_mailBoxClear = {
+_G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "Mailbox has been cleared"
 }
 
-_G.pg.gametip.main_mailLayer_noNewMail = {
+_G.pg.base.gametip.main_mailLayer_noNewMail = {
 	tip = "No new mail."
 }
 
-_G.pg.gametip.main_mailLayer_takeAttach = {
+_G.pg.base.gametip.main_mailLayer_takeAttach = {
 	tip = "Collect Rewards"
 }
 
-_G.pg.gametip.main_mailLayer_noAttach = {
+_G.pg.base.gametip.main_mailLayer_noAttach = {
 	tip = "No rewards"
 }
 
-_G.pg.gametip.main_mailLayer_attachTaken = {
+_G.pg.base.gametip.main_mailLayer_attachTaken = {
 	tip = "Rewards collected"
 }
 
-_G.pg.gametip.main_mailLayer_quest_clear = {
+_G.pg.base.gametip.main_mailLayer_quest_clear = {
 	tip = "Are you sure you want to delete all read mails? <color=#92fc63>(Mail with rewards will not be deleted)</color>"
 }
 
-_G.pg.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
+_G.pg.base.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
 	tip = "<color=#92fc63>There are uncollected rewards.</color> Are you sure you want to delete this message?"
 }
 
-_G.pg.gametip.main_mailLayer_quest_deleteNotRead = {
+_G.pg.base.gametip.main_mailLayer_quest_deleteNotRead = {
 	tip = "<color=#92fc63>You have not read this message yet.</color> Are you sure you want to delete this message?"
 }
 
-_G.pg.gametip.main_mailMediator_mailDelete = {
+_G.pg.base.gametip.main_mailMediator_mailDelete = {
 	tip = "Mail deleted"
 }
 
-_G.pg.gametip.main_mailMediator_attachTaken = {
+_G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "Rewards collected"
 }
 
-_G.pg.gametip.main_mailMediator_notingToTake = {
+_G.pg.base.gametip.main_mailMediator_notingToTake = {
 	tip = "No rewards available."
 }
 
-_G.pg.gametip.main_mailMediator_takeALot = {
+_G.pg.base.gametip.main_mailMediator_takeALot = {
 	tip = "Big Harvest"
 }
 
-_G.pg.gametip.main_navalAcademyScene_systemClose = {
+_G.pg.base.gametip.main_navalAcademyScene_systemClose = {
 	tip = "Commander, you haven't unlocked this feature yet!"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_startClass = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_startClass = {
 	tip = "<color=#92fc63>Class is starting! Please take your seats~!</color>"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_stopClass = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_stopClass = {
 	tip = "Your girls are studying hard! Are you sure you want them to skip class?\n<color=#92fc63>(They won't earn stat bonuses if they skip class)</color>"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_Classover_long = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_long = {
 	tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>; <color=#92fc63>$4 +$5</color>!"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_Classover_short = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_short = {
 	tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>!"
 }
 
-_G.pg.gametip.main_navalAcademyScene_upgrade_complete = {
+_G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
 	tip = "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!"
 }
 
-_G.pg.gametip.main_navalAcademyScene_class_upgrade_complete = {
+_G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
 	tip = "$1 upgrade successful"
 }
 
-_G.pg.gametip.main_navalAcademyScene_work_done = {
+_G.pg.base.gametip.main_navalAcademyScene_work_done = {
 	tip = "No available missions."
 }
 
-_G.pg.gametip.main_notificationLayer_searchInput = {
+_G.pg.base.gametip.main_notificationLayer_searchInput = {
 	tip = "Please enter player ID or name."
 }
 
-_G.pg.gametip.main_notificationLayer_noInput = {
+_G.pg.base.gametip.main_notificationLayer_noInput = {
 	tip = "Please write a message!"
 }
 
-_G.pg.gametip.main_notificationLayer_noFriend = {
+_G.pg.base.gametip.main_notificationLayer_noFriend = {
 	tip = "You don't have any friends."
 }
 
-_G.pg.gametip.main_notificationLayer_deleteFriend = {
+_G.pg.base.gametip.main_notificationLayer_deleteFriend = {
 	tip = "Delete Friend"
 }
 
-_G.pg.gametip.main_notificationLayer_sendButton = {
+_G.pg.base.gametip.main_notificationLayer_sendButton = {
 	tip = "Please enter a message..."
 }
 
-_G.pg.gametip.main_notificationLayer_addFriendError_addSelf = {
+_G.pg.base.gametip.main_notificationLayer_addFriendError_addSelf = {
 	tip = "You can't friend yourself!"
 }
 
-_G.pg.gametip.main_notificationLayer_addFriendError_friendAlready = {
+_G.pg.base.gametip.main_notificationLayer_addFriendError_friendAlready = {
 	tip = "You're already friends with this player."
 }
 
-_G.pg.gametip.main_notificationLayer_quest_deletFriend = {
+_G.pg.base.gametip.main_notificationLayer_quest_deletFriend = {
 	tip = "Are you sure you want to delete <color=#92fc63>$1</color>?"
 }
 
-_G.pg.gametip.main_notificationLayer_quest_request = {
+_G.pg.base.gametip.main_notificationLayer_quest_request = {
 	tip = " wants to be your friend. Would you like to accept their request?"
 }
 
-_G.pg.gametip.main_notificationLayer_enter_room = {
+_G.pg.base.gametip.main_notificationLayer_enter_room = {
 	tip = "Entered room <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.main_notificationLayer_not_roomId = {
+_G.pg.base.gametip.main_notificationLayer_not_roomId = {
 	tip = "Please enter room number"
 }
 
-_G.pg.gametip.main_notificationLayer_roomId_invaild = {
+_G.pg.base.gametip.main_notificationLayer_roomId_invaild = {
 	tip = "Room number is invalid!"
 }
 
-_G.pg.gametip.main_notificationMediator_sendFriendRequest = {
+_G.pg.base.gametip.main_notificationMediator_sendFriendRequest = {
 	tip = "Friend request sent."
 }
 
-_G.pg.gametip.main_notificationMediator_beFriend = {
+_G.pg.base.gametip.main_notificationMediator_beFriend = {
 	tip = "You are now friends with <color=#92fc63>$1</color>!"
 }
 
-_G.pg.gametip.main_notificationMediator_deleteFriend = {
+_G.pg.base.gametip.main_notificationMediator_deleteFriend = {
 	tip = "You are no longer friends with <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.main_notificationMediator_room_max_number = {
+_G.pg.base.gametip.main_notificationMediator_room_max_number = {
 	tip = "Chatroom is full."
 }
 
-_G.pg.gametip.main_playerInfoLayer_inputName = {
+_G.pg.base.gametip.main_playerInfoLayer_inputName = {
 	tip = "Enter name"
 }
 
-_G.pg.gametip.main_playerInfoLayer_inputManifesto = {
+_G.pg.base.gametip.main_playerInfoLayer_inputManifesto = {
 	tip = "Please enter your motto."
 }
 
-_G.pg.gametip.main_playerInfoLayer_quest_changeName = {
+_G.pg.base.gametip.main_playerInfoLayer_quest_changeName = {
 	tip = "This will cost <color=#92fc63>100 Gems</color>. Continue?"
 }
 
-_G.pg.gametip.main_playerInfoLayer_error_changeNameNoGem = {
+_G.pg.base.gametip.main_playerInfoLayer_error_changeNameNoGem = {
 	tip = "You don't have enough Gems."
 }
 
-_G.pg.gametip.main_settingsScene_quest_exist = {
+_G.pg.base.gametip.main_settingsScene_quest_exist = {
 	tip = "Are you sure you want to logout?"
 }
 
-_G.pg.gametip.coloring_color_missmatch = {
+_G.pg.base.gametip.coloring_color_missmatch = {
 	tip = "The color you have chosen cannot be used"
 }
 
-_G.pg.gametip.coloring_color_not_enough = {
+_G.pg.base.gametip.coloring_color_not_enough = {
 	tip = "You do not have enough paint"
 }
 
-_G.pg.gametip.coloring_erase_all_warning = {
+_G.pg.base.gametip.coloring_erase_all_warning = {
 	tip = "Resetting will clear all of the currently painted boxes of their color. Are you sure you would like to reset?"
 }
 
-_G.pg.gametip.coloring_erase_warning = {
+_G.pg.base.gametip.coloring_erase_warning = {
 	tip = "Once you clear all the boxes of their color, you will not be reimbursed for the paint you have used. Are you sure you would like to clear them?"
 }
 
-_G.pg.gametip.coloring_lock = {
+_G.pg.base.gametip.coloring_lock = {
 	tip = "Locked"
 }
 
-_G.pg.gametip.coloring_wait_open = {
+_G.pg.base.gametip.coloring_wait_open = {
 	tip = "Claimable"
 }
 
-_G.pg.gametip.coloring_help_tip = {
+_G.pg.base.gametip.coloring_help_tip = {
 	tip = {
 		{
 			info = "- How to Play:"
@@ -2727,7 +2727,7 @@ Page 7: An Shan-class destroyer – An Shan]]
 	}
 }
 
-_G.pg.gametip.link_link_help_tip = {
+_G.pg.base.gametip.link_link_help_tip = {
 	tip = {
 		{
 			info = " How to Play:\n"
@@ -2756,731 +2756,731 @@ _G.pg.gametip.link_link_help_tip = {
 	}
 }
 
-_G.pg.gametip.player_changeManifesto_ok = {
+_G.pg.base.gametip.player_changeManifesto_ok = {
 	tip = "Motto updated!"
 }
 
-_G.pg.gametip.player_changeManifesto_error = {
+_G.pg.base.gametip.player_changeManifesto_error = {
 	tip = "Failed to update motto: "
 }
 
-_G.pg.gametip.player_changePlayerIcon_ok = {
+_G.pg.base.gametip.player_changePlayerIcon_ok = {
 	tip = "Secretary changed!"
 }
 
-_G.pg.gametip.player_changePlayerIcon_error = {
+_G.pg.base.gametip.player_changePlayerIcon_error = {
 	tip = "Failed to change secretary: "
 }
 
-_G.pg.gametip.player_changePlayerName_ok = {
+_G.pg.base.gametip.player_changePlayerName_ok = {
 	tip = "Name changed!"
 }
 
-_G.pg.gametip.player_changePlayerName_error = {
+_G.pg.base.gametip.player_changePlayerName_error = {
 	tip = "Failed to change name: "
 }
 
-_G.pg.gametip.player_changePlayerName_error_2015 = {
+_G.pg.base.gametip.player_changePlayerName_error_2015 = {
 	tip = "Name is being used by another player."
 }
 
-_G.pg.gametip.player_harvestResource_error = {
+_G.pg.base.gametip.player_harvestResource_error = {
 	tip = "Failed to collect resources: "
 }
 
-_G.pg.gametip.player_harvestResource_error_fullBag = {
+_G.pg.base.gametip.player_harvestResource_error_fullBag = {
 	tip = "Resource storage is full! Unable to collect."
 }
 
-_G.pg.gametip.player_change_chat_room_erro = {
+_G.pg.base.gametip.player_change_chat_room_erro = {
 	tip = "Failed to change chat channels."
 }
 
-_G.pg.gametip.prop_destroyProp_error_noItem = {
+_G.pg.base.gametip.prop_destroyProp_error_noItem = {
 	tip = "Unable to find this item."
 }
 
-_G.pg.gametip.prop_destroyProp_error_canNotSell = {
+_G.pg.base.gametip.prop_destroyProp_error_canNotSell = {
 	tip = "This item may not be sold."
 }
 
-_G.pg.gametip.prop_destroyProp_error_notEnoughItem = {
+_G.pg.base.gametip.prop_destroyProp_error_notEnoughItem = {
 	tip = "Commander, you don't have that many items to sell!"
 }
 
-_G.pg.gametip.prop_destroyProp_error = {
+_G.pg.base.gametip.prop_destroyProp_error = {
 	tip = "Failed to sell items: "
 }
 
-_G.pg.gametip.resourceSite_error_noSite = {
+_G.pg.base.gametip.resourceSite_error_noSite = {
 	tip = "Resource node does not exist."
 }
 
-_G.pg.gametip.resourceSite_beginScanMap_ok = {
+_G.pg.base.gametip.resourceSite_beginScanMap_ok = {
 	tip = "Scan successful!"
 }
 
-_G.pg.gametip.resourceSite_beginScanMap_error = {
+_G.pg.base.gametip.resourceSite_beginScanMap_error = {
 	tip = "Radar scan failed: "
 }
 
-_G.pg.gametip.resourceSite_collectResource_error = {
+_G.pg.base.gametip.resourceSite_collectResource_error = {
 	tip = "Failed to retrieve resource point: "
 }
 
-_G.pg.gametip.resourceSite_finishResourceSite_error = {
+_G.pg.base.gametip.resourceSite_finishResourceSite_error = {
 	tip = "Failed to complete harvesting: "
 }
 
-_G.pg.gametip.resourceSite_startResourceSite_error = {
+_G.pg.base.gametip.resourceSite_startResourceSite_error = {
 	tip = "Failed to sail to resource node: "
 }
 
-_G.pg.gametip.ship_error_noShip = {
+_G.pg.base.gametip.ship_error_noShip = {
 	tip = "Character does not exist: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_addStarExp_error = {
+_G.pg.base.gametip.ship_addStarExp_error = {
 	tip = "Failed to add ship EXP: "
 }
 
-_G.pg.gametip.ship_buildShip_error = {
+_G.pg.base.gametip.ship_buildShip_error = {
 	tip = "Failed to build ship: "
 }
 
-_G.pg.gametip.ship_buildShip_error_noTemplate = {
+_G.pg.base.gametip.ship_buildShip_error_noTemplate = {
 	tip = "Ship build config not found: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_buildShip_error_notEnoughItem = {
+_G.pg.base.gametip.ship_buildShip_error_notEnoughItem = {
 	tip = "You don't have enough resources."
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error = {
+_G.pg.base.gametip.ship_buildShipImmediately_error = {
 	tip = "Failed to speed up: "
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_noSHip = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
 	tip = "No ships at dock."
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_finished = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_finished = {
 	tip = "Construction complete!"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_noItem = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
 	tip = "You don't have any Quick Finishers."
 }
 
-_G.pg.gametip.ship_buildShip_not_position = {
+_G.pg.base.gametip.ship_buildShip_not_position = {
 	tip = "Construction queue is full. Unable to receive ship."
 }
 
-_G.pg.gametip.ship_buildBatchShip = {
+_G.pg.base.gametip.ship_buildBatchShip = {
 	tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?"
 }
 
-_G.pg.gametip.ship_buildSingleShip = {
+_G.pg.base.gametip.ship_buildSingleShip = {
 	tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>1 high performance ships</color>?"
 }
 
-_G.pg.gametip.ship_buildShip_succeed = {
+_G.pg.base.gametip.ship_buildShip_succeed = {
 	tip = "Ship received!"
 }
 
-_G.pg.gametip.ship_buildShip_list_empty = {
+_G.pg.base.gametip.ship_buildShip_list_empty = {
 	tip = "Construction queue is empty."
 }
 
-_G.pg.gametip.ship_buildship_tip = {
+_G.pg.base.gametip.ship_buildship_tip = {
 	tip = "Cost to build 1 <color=#92fc63>$4</color>:\n<color=#92fc63>$1 Coins</color> and <color=#92fc63>$2 $3</color>."
 }
 
-_G.pg.gametip.ship_destoryShips_error = {
+_G.pg.base.gametip.ship_destoryShips_error = {
 	tip = "Failed to retire ship: "
 }
 
-_G.pg.gametip.ship_equipToShip_ok = {
+_G.pg.base.gametip.ship_equipToShip_ok = {
 	tip = "<color=#92fc63>$1</color> equipped!"
 }
 
-_G.pg.gametip.ship_equipToShip_error = {
+_G.pg.base.gametip.ship_equipToShip_error = {
 	tip = "Failed to equip: "
 }
 
-_G.pg.gametip.ship_equipToShip_error_noEquip = {
+_G.pg.base.gametip.ship_equipToShip_error_noEquip = {
 	tip = "Gear does not exist."
 }
 
-_G.pg.gametip.ship_equip_check = {
+_G.pg.base.gametip.ship_equip_check = {
 	tip = "You can toggle this element on/off from the Settings menu"
 }
 
-_G.pg.gametip.ship_getShip_error = {
+_G.pg.base.gametip.ship_getShip_error = {
 	tip = "Failed to deploy ship: "
 }
 
-_G.pg.gametip.ship_getShip_error_noShip = {
+_G.pg.base.gametip.ship_getShip_error_noShip = {
 	tip = "No ships at dock."
 }
 
-_G.pg.gametip.ship_getShip_error_notFinish = {
+_G.pg.base.gametip.ship_getShip_error_notFinish = {
 	tip = "Construction not yet complete."
 }
 
-_G.pg.gametip.ship_getShip_error_full = {
+_G.pg.base.gametip.ship_getShip_error_full = {
 	tip = "<color=#92fc63>Your dock is full.</color> Unable to receive ship!"
 }
 
-_G.pg.gametip.ship_modShip_error = {
+_G.pg.base.gametip.ship_modShip_error = {
 	tip = "Failed to enhance ship: "
 }
 
-_G.pg.gametip.ship_modShip_error_notEnoughGold = {
+_G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
 	tip = "<color=#92fc63>Not enough Coins</color>"
 }
 
-_G.pg.gametip.ship_remouldShip_error = {
+_G.pg.base.gametip.ship_remouldShip_error = {
 	tip = "Limit Break failed: "
 }
 
-_G.pg.gametip.ship_unequipFromShip_ok = {
+_G.pg.base.gametip.ship_unequipFromShip_ok = {
 	tip = "<color=#FFD700FF>$1</color> unequipped."
 }
 
-_G.pg.gametip.ship_unequipFromShip_error = {
+_G.pg.base.gametip.ship_unequipFromShip_error = {
 	tip = "Failed to unequip gear: "
 }
 
-_G.pg.gametip.ship_unequipFromShip_error_noEquip = {
+_G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
 	tip = "No gear in this slot."
 }
 
-_G.pg.gametip.ship_unequip_all_tip = {
+_G.pg.base.gametip.ship_unequip_all_tip = {
 	tip = "Are you sure you want to unequip all gear?"
 }
 
-_G.pg.gametip.ship_unequip_all_success = {
+_G.pg.base.gametip.ship_unequip_all_success = {
 	tip = "Gear <color=#FF0000>unequipped</color>."
 }
 
-_G.pg.gametip.ship_updateShipLock_ok_lock = {
+_G.pg.base.gametip.ship_updateShipLock_ok_lock = {
 	tip = "<color=#92fc63>$1</color> locked."
 }
 
-_G.pg.gametip.ship_updateShipLock_ok_unlock = {
+_G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
 	tip = "<color=#92fc63>$1</color> unlocked."
 }
 
-_G.pg.gametip.ship_updateShipLock_error = {
+_G.pg.base.gametip.ship_updateShipLock_error = {
 	tip = "Failed to change lock status: "
 }
 
-_G.pg.gametip.ship_upgradeStar_error = {
+_G.pg.base.gametip.ship_upgradeStar_error = {
 	tip = "Limit Break failed: "
 }
 
-_G.pg.gametip.ship_upgradeStar_error_4010 = {
+_G.pg.base.gametip.ship_upgradeStar_error_4010 = {
 	tip = "Selected materials include a ship currently in \"Mirror Sea\"."
 }
 
-_G.pg.gametip.ship_upgradeStar_error_lvLimit = {
+_G.pg.base.gametip.ship_upgradeStar_error_lvLimit = {
 	tip = "May not Limit Break at current <color=#92fc63>level</color>."
 }
 
-_G.pg.gametip.ship_upgradeStar_error_noEnoughMatrail = {
+_G.pg.base.gametip.ship_upgradeStar_error_noEnoughMatrail = {
 	tip = "Insufficient materials."
 }
 
-_G.pg.gametip.ship_upgradeStar_notConfig = {
+_G.pg.base.gametip.ship_upgradeStar_notConfig = {
 	tip = "Unable to find Limit Break config <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.ship_upgradeStar_maxLevel = {
+_G.pg.base.gametip.ship_upgradeStar_maxLevel = {
 	tip = "Limit Break cap already reached!"
 }
 
-_G.pg.gametip.ship_upgradeStar_select_material_tip = {
+_G.pg.base.gametip.ship_upgradeStar_select_material_tip = {
 	tip = "Select Limit Break items"
 }
 
-_G.pg.gametip.ship_exchange_question = {
+_G.pg.base.gametip.ship_exchange_question = {
 	tip = "Exchange <color=#92fc63>$1</color> Medals for <color=#92fc63>$2</color>?"
 }
 
-_G.pg.gametip.ship_exchange_medalCount_noEnough = {
+_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
 	tip = "You don't have enough Medals."
 }
 
-_G.pg.gametip.ship_exchange_erro = {
+_G.pg.base.gametip.ship_exchange_erro = {
 	tip = "Exchange failed: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_exchange_confirm = {
+_G.pg.base.gametip.ship_exchange_confirm = {
 	tip = "Exchange $1 Medals for $2?"
 }
 
-_G.pg.gametip.ship_exchange_tip = {
+_G.pg.base.gametip.ship_exchange_tip = {
 	tip = "1. You will receive Medals of Honor when retiring a ship.\n2. You may exchange Medals for new ships.\n3. The Exchange Shop refreshes every day at <color=#92fc63>06:00</color> and <color=#92fc63>18:00</color>."
 }
 
-_G.pg.gametip.ship_vo_fighting = {
+_G.pg.base.gametip.ship_vo_fighting = {
 	tip = "Selected character is already attacking."
 }
 
-_G.pg.gametip.ship_vo_event = {
+_G.pg.base.gametip.ship_vo_event = {
 	tip = "Selected character is deployed on special ops."
 }
 
-_G.pg.gametip.ship_vo_isCharacter = {
+_G.pg.base.gametip.ship_vo_isCharacter = {
 	tip = "Selected character is your Secretary and may not perform this action."
 }
 
-_G.pg.gametip.ship_vo_inBackyardRest = {
+_G.pg.base.gametip.ship_vo_inBackyardRest = {
 	tip = "Selected character is currently resting."
 }
 
-_G.pg.gametip.ship_vo_inClass = {
+_G.pg.base.gametip.ship_vo_inClass = {
 	tip = "Selected character is in class!"
 }
 
-_G.pg.gametip.ship_vo_moveout_backyard = {
+_G.pg.base.gametip.ship_vo_moveout_backyard = {
 	tip = "Leave the dorm?"
 }
 
-_G.pg.gametip.ship_vo_moveout_formation = {
+_G.pg.base.gametip.ship_vo_moveout_formation = {
 	tip = "Remove from formation?"
 }
 
-_G.pg.gametip.ship_vo_mainFleet_must_hasShip = {
+_G.pg.base.gametip.ship_vo_mainFleet_must_hasShip = {
 	tip = "At least 1 ship must be deployed to the Main Fleet."
 }
 
-_G.pg.gametip.ship_vo_vanguardFleet_must_hasShip = {
+_G.pg.base.gametip.ship_vo_vanguardFleet_must_hasShip = {
 	tip = "At least 1 ship must be deployed to the Vanguard."
 }
 
-_G.pg.gametip.ship_vo_getWordsUndefined = {
+_G.pg.base.gametip.ship_vo_getWordsUndefined = {
 	tip = "Oh no! We're experiencing some sort of random error!"
 }
 
-_G.pg.gametip.ship_vo_locked = {
+_G.pg.base.gametip.ship_vo_locked = {
 	tip = "This ship is locked."
 }
 
-_G.pg.gametip.ship_vo_mainFleet_exist_same_ship = {
+_G.pg.base.gametip.ship_vo_mainFleet_exist_same_ship = {
 	tip = "May not deploy 2 of the same ship to Main Fleet."
 }
 
-_G.pg.gametip.ship_vo_vanguardFleet_exist_same_ship = {
+_G.pg.base.gametip.ship_vo_vanguardFleet_exist_same_ship = {
 	tip = "May not deploy 2 of the same ship to Vanguard."
 }
 
-_G.pg.gametip.ship_buildShipMediator_startBuild = {
+_G.pg.base.gametip.ship_buildShipMediator_startBuild = {
 	tip = "Building..."
 }
 
-_G.pg.gametip.ship_buildShipMediator_finishBuild = {
+_G.pg.base.gametip.ship_buildShipMediator_finishBuild = {
 	tip = "Construction complete!"
 }
 
-_G.pg.gametip.ship_buildShipScene_quest_quickFinish = {
+_G.pg.base.gametip.ship_buildShipScene_quest_quickFinish = {
 	tip = "You must spend <color=#92fc63>$1</color> x Quick Finisher to complete construction.\n\nQuick Finishers left: <color=#92fc63>$3</color>"
 }
 
-_G.pg.gametip.ship_dockyardMediator_destroy = {
+_G.pg.base.gametip.ship_dockyardMediator_destroy = {
 	tip = "Ship retired."
 }
 
-_G.pg.gametip.ship_dockyardScene_capacity = {
+_G.pg.base.gametip.ship_dockyardScene_capacity = {
 	tip = "Dock capacity:"
 }
 
-_G.pg.gametip.ship_dockyardScene_noRole = {
+_G.pg.base.gametip.ship_dockyardScene_noRole = {
 	tip = "You have not selected a character."
 }
 
-_G.pg.gametip.ship_dockyardScene_error_choiseRoleMore = {
+_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
 	tip = "Must select at least <color=#92fc63>$1</color> character(s)"
 }
 
-_G.pg.gametip.ship_dockyardScene_error_choiseRoleLess = {
+_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleLess = {
 	tip = "May select up to <color=#92fc63>$1</color> characters"
 }
 
-_G.pg.gametip.ship_formationMediator_leastLimit = {
+_G.pg.base.gametip.ship_formationMediator_leastLimit = {
 	tip = "Fleet 1 may not be empty!"
 }
 
-_G.pg.gametip.ship_formationMediator_changeNameSuccess = {
+_G.pg.base.gametip.ship_formationMediator_changeNameSuccess = {
 	tip = "Fleet name changed!"
 }
 
-_G.pg.gametip.ship_formationMediator_changeNameError_sameShip = {
+_G.pg.base.gametip.ship_formationMediator_changeNameError_sameShip = {
 	tip = "Only one ship by the same name may be deployed to each fleet."
 }
 
-_G.pg.gametip.ship_formationMediator_addShipError_overlimit = {
+_G.pg.base.gametip.ship_formationMediator_addShipError_overlimit = {
 	tip = "Fleet may only have <color=#92fc63>$1</color> <color=#92fc63>$2</color>."
 }
 
-_G.pg.gametip.ship_formationMediator_replaceError_onlyShip = {
+_G.pg.base.gametip.ship_formationMediator_replaceError_onlyShip = {
 	tip = "Selected ship, <color=#92fc63>$1</color>, is a unique <color=#92fc63>$2</color> and may not be changed!"
 }
 
-_G.pg.gametip.ship_formationMediator_quest_replace = {
+_G.pg.base.gametip.ship_formationMediator_quest_replace = {
 	tip = "The selected ship is already deployed to <color=#92fc63>$1</color>. Continue switching?"
 }
 
-_G.pg.gametip.ship_formationMediaror_trash_warning = {
+_G.pg.base.gametip.ship_formationMediaror_trash_warning = {
 	tip = "$1 must have at least <color=#92fc63>1 ship in the Vanguard</color> and <color=#92fc63>1 ship in the Main Fleet</color>. Confirm to clear $1 or cancel to go back."
 }
 
-_G.pg.gametip.ship_formationUI_fleetName1 = {
+_G.pg.base.gametip.ship_formationUI_fleetName1 = {
 	tip = "Fleet 1"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName2 = {
+_G.pg.base.gametip.ship_formationUI_fleetName2 = {
 	tip = "Fleet 2"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName3 = {
+_G.pg.base.gametip.ship_formationUI_fleetName3 = {
 	tip = "Fleet 3"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName4 = {
+_G.pg.base.gametip.ship_formationUI_fleetName4 = {
 	tip = "Fleet 4"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName5 = {
+_G.pg.base.gametip.ship_formationUI_fleetName5 = {
 	tip = "Fleet 5"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName6 = {
+_G.pg.base.gametip.ship_formationUI_fleetName6 = {
 	tip = "Fleet 6"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName11 = {
+_G.pg.base.gametip.ship_formationUI_fleetName11 = {
 	tip = "Submarine 1"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName12 = {
+_G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "Submarine 2"
 }
 
-_G.pg.gametip.ship_formationUI_exercise_fleetName = {
+_G.pg.base.gametip.ship_formationUI_exercise_fleetName = {
 	tip = "Exercise Fleet"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_world = {
+_G.pg.base.gametip.ship_formationUI_fleetName_world = {
 	tip = "Participating Fleets "
 }
 
-_G.pg.gametip.ship_formationUI_changeFormationError_flag = {
+_G.pg.base.gametip.ship_formationUI_changeFormationError_flag = {
 	tip = "Formation switch error. Please check your formations!"
 }
 
-_G.pg.gametip.ship_formationUI_changeFormationError_countError = {
+_G.pg.base.gametip.ship_formationUI_changeFormationError_countError = {
 	tip = "Not enough ships in fleet."
 }
 
-_G.pg.gametip.ship_formationUI_removeError_onlyShip = {
+_G.pg.base.gametip.ship_formationUI_removeError_onlyShip = {
 	tip = "<color=#92fc63>$1</color> is a unique <color=#92fc63>$3</color> and may not be recalled!"
 }
 
-_G.pg.gametip.ship_formationUI_quest_remove = {
+_G.pg.base.gametip.ship_formationUI_quest_remove = {
 	tip = "Are you sure you want to recall <color=#92fc63>$1</color>?"
 }
 
-_G.pg.gametip.ship_newShipLayer_get = {
+_G.pg.base.gametip.ship_newShipLayer_get = {
 	tip = "Receive <color=#92fc63>$1</color> - <color=#92fc63>$2</color>"
 }
 
-_G.pg.gametip.ship_newSkinLayer_get = {
+_G.pg.base.gametip.ship_newSkinLayer_get = {
 	tip = "Receive <color=#92fc63>$1</color> skin - <color=#92fc63>$2</color>"
 }
 
-_G.pg.gametip.ship_newSkin_name = {
+_G.pg.base.gametip.ship_newSkin_name = {
 	tip = "$1"
 }
 
-_G.pg.gametip.ship_shipInfoMediator_destory = {
+_G.pg.base.gametip.ship_shipInfoMediator_destory = {
 	tip = "Ship retired."
 }
 
-_G.pg.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
+_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
 	tip = "Slot is locked. Please limit break selected ship to unlock."
 }
 
-_G.pg.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
+_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
 	tip = "Enhance Ship"
 }
 
-_G.pg.gametip.ship_shipInfoScene_effect = {
+_G.pg.base.gametip.ship_shipInfoScene_effect = {
 	tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipInfoScene_effect1or2 = {
+_G.pg.base.gametip.ship_shipInfoScene_effect1or2 = {
 	tip = "Current bonus: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_shipInfoScene_modLvMax = {
+_G.pg.base.gametip.ship_shipInfoScene_modLvMax = {
 	tip = "This limit break is already fully upgraded."
 }
 
-_G.pg.gametip.ship_shipInfoScene_choiseMod = {
+_G.pg.base.gametip.ship_shipInfoScene_choiseMod = {
 	tip = "Please select something to limit break."
 }
 
-_G.pg.gametip.ship_shipModLayer_effect = {
+_G.pg.base.gametip.ship_shipModLayer_effect = {
 	tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipModLayer_effect1or2 = {
+_G.pg.base.gametip.ship_shipModLayer_effect1or2 = {
 	tip = "Current bonus: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_shipModLayer_modSuccess = {
+_G.pg.base.gametip.ship_shipModLayer_modSuccess = {
 	tip = "Enhanced!"
 }
 
-_G.pg.gametip.ship_mod_no_addition_tip = {
+_G.pg.base.gametip.ship_mod_no_addition_tip = {
 	tip = "Enhancing <color=#92fc63>has no buffs</color>. Continue?"
 }
 
-_G.pg.gametip.ship_shipModMediator_choiseMaterial = {
+_G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
 	tip = "Please select materials to use during limit break."
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeLvOver1 = {
+_G.pg.base.gametip.ship_shipModMediator_noticeLvOver1 = {
 	tip = "Level > Lv. 1"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeStarOver4 = {
+_G.pg.base.gametip.ship_shipModMediator_noticeStarOver4 = {
 	tip = "Stars > 4★"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeSameButLargerStar = {
+_G.pg.base.gametip.ship_shipModMediator_noticeSameButLargerStar = {
 	tip = "Same with higher stars"
 }
 
-_G.pg.gametip.ship_shipModMediator_quest = {
+_G.pg.base.gametip.ship_shipModMediator_quest = {
 	tip = "Ship selected as material is <color=#92fc63>$1</color>. Continue limit break?"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_levelError = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_levelError = {
 	tip = "Level is too low."
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_noMaterail = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_noMaterail = {
 	tip = "Insufficient materials."
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_ok = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_ok = {
 	tip = "Limit break complete!"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_effect = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_effect = {
 	tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_effect1or2 = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_effect1or2 = {
 	tip = "Current bonus: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
 	tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
 	tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
 	tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as an enhancing material. Continue enhancing?"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_advanced_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
 	tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as a limit break material. Continue to limit break?"
 }
 
-_G.pg.gametip.ship_mod_exp_to_attr_tip = {
+_G.pg.base.gametip.ship_mod_exp_to_attr_tip = {
 	tip = "*Use an identical ship as enhancing materials for 2x EXP"
 }
 
-_G.pg.gametip.ship_max_star = {
+_G.pg.base.gametip.ship_max_star = {
 	tip = "This ship's <color=#92fc63>stars have been fully upgraded</color>!"
 }
 
-_G.pg.gametip.ship_skill_unlock_tip = {
+_G.pg.base.gametip.ship_skill_unlock_tip = {
 	tip = "Limit break to unlock"
 }
 
-_G.pg.gametip.ship_lock_tip = {
+_G.pg.base.gametip.ship_lock_tip = {
 	tip = "Do you want to <color=#92fc63>lock</color> this ship?"
 }
 
-_G.pg.gametip.ship_destroy_uncommon_tip = {
+_G.pg.base.gametip.ship_destroy_uncommon_tip = {
 	tip = "You are about to retire an <color=#92fc63>Elite or better</color> ship. Continue retiring ships?"
 }
 
-_G.pg.gametip.ship_destroy_advanced_tip = {
+_G.pg.base.gametip.ship_destroy_advanced_tip = {
 	tip = "You are about to retire a lv. 2 or higher ship. Continue retiring ships?"
 }
 
-_G.pg.gametip.ship_energy_mid_desc = {
+_G.pg.base.gametip.ship_energy_mid_desc = {
 	tip = "Normal\nWill not receive Affinity during attacks"
 }
 
-_G.pg.gametip.ship_energy_low_desc = {
+_G.pg.base.gametip.ship_energy_low_desc = {
 	tip = "Exhausted\nAffinity will be reduced if you attack"
 }
 
-_G.pg.gametip.ship_energy_low_warn = {
+_G.pg.base.gametip.ship_energy_low_warn = {
 	tip = "$2's ($1) Mood is very low. Her Affinity will be reduced if you force her to attack."
 }
 
-_G.pg.gametip.ship_energy_low_warn_no_exp = {
+_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
 	tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue? "
 }
 
-_G.pg.gametip.test_ship_intensify_tip = {
+_G.pg.base.gametip.test_ship_intensify_tip = {
 	tip = "Engineers can't be enhanced!"
 }
 
-_G.pg.gametip.test_ship_upgrade_tip = {
+_G.pg.base.gametip.test_ship_upgrade_tip = {
 	tip = "There's no need to limit break Engineers!"
 }
 
-_G.pg.gametip.shop_buyItem_ok = {
+_G.pg.base.gametip.shop_buyItem_ok = {
 	tip = "Purchase complete! Received <color=#92fc63>$2 x$1</color>!"
 }
 
-_G.pg.gametip.shop_buyItem_error = {
+_G.pg.base.gametip.shop_buyItem_error = {
 	tip = "Failed to purchase: "
 }
 
-_G.pg.gametip.shop_extendMagazine_error = {
+_G.pg.base.gametip.shop_extendMagazine_error = {
 	tip = "Failed to expand arsenal: "
 }
 
-_G.pg.gametip.shop_entendShipYard_error = {
+_G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "Failed to expand dock: "
 }
 
-_G.pg.gametip.stage_beginStage_error = {
+_G.pg.base.gametip.stage_beginStage_error = {
 	tip = "Failed to begin stage: "
 }
 
-_G.pg.gametip.stage_beginStage_error_fleetEmpty = {
+_G.pg.base.gametip.stage_beginStage_error_fleetEmpty = {
 	tip = "Fleet may not be empty!"
 }
 
-_G.pg.gametip.stage_beginStage_error_teamEmpty = {
+_G.pg.base.gametip.stage_beginStage_error_teamEmpty = {
 	tip = "<color=#92fc63>$1</color> requires at least <color=#92fc63>$2 ships</color>!"
 }
 
-_G.pg.gametip.stage_beginStage_error_noEnergy = {
+_G.pg.base.gametip.stage_beginStage_error_noEnergy = {
 	tip = "Your ships are <color=#92fc63>fatigued</color>!"
 }
 
-_G.pg.gametip.stage_beginStage_error_noResource = {
+_G.pg.base.gametip.stage_beginStage_error_noResource = {
 	tip = "Your ships are <color=#92fc63>out of Oil</color>!"
 }
 
-_G.pg.gametip.stage_beginStage_error_noTicket = {
+_G.pg.base.gametip.stage_beginStage_error_noTicket = {
 	tip = "You need more Challenge Tickets to play this stage. "
 }
 
-_G.pg.gametip.stage_finishStage_error = {
+_G.pg.base.gametip.stage_finishStage_error = {
 	tip = "Stage may not be completed: "
 }
 
-_G.pg.gametip.levelScene_map_lock = {
+_G.pg.base.gametip.levelScene_map_lock = {
 	tip = "<color=#92fc63>Complete this chapter</color> in order to unlock the next."
 }
 
-_G.pg.gametip.levelScene_chapter_lock = {
+_G.pg.base.gametip.levelScene_chapter_lock = {
 	tip = "Please complete <color=#92fc63>the previous stage</color>."
 }
 
-_G.pg.gametip.levelScene_chapter_strategying = {
+_G.pg.base.gametip.levelScene_chapter_strategying = {
 	tip = "Stage <color=#92fc63>$1</color> in progress..."
 }
 
-_G.pg.gametip.levelScene_threat_to_rule_out = {
+_G.pg.base.gametip.levelScene_threat_to_rule_out = {
 	tip = "Eliminate Threat $1"
 }
 
-_G.pg.gametip.levelScene_whether_to_retreat = {
+_G.pg.base.gametip.levelScene_whether_to_retreat = {
 	tip = "Commander, are you really sure you want to <color=#92fc63>retreat</color>?"
 }
 
-_G.pg.gametip.levelScene_who_to_retreat = {
+_G.pg.base.gametip.levelScene_who_to_retreat = {
 	tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?"
 }
 
-_G.pg.gametip.levelScene_who_to_exchange = {
+_G.pg.base.gametip.levelScene_who_to_exchange = {
 	tip = "Are you sure you want to swap fleet positions? "
 }
 
-_G.pg.gametip.levelScene_time_out = {
+_G.pg.base.gametip.levelScene_time_out = {
 	tip = "Battle time exceeded."
 }
 
-_G.pg.gametip.levelScene_nothing = {
+_G.pg.base.gametip.levelScene_nothing = {
 	tip = "There's nothing here."
 }
 
-_G.pg.gametip.levelScene_notCargo = {
+_G.pg.base.gametip.levelScene_notCargo = {
 	tip = "No treasure chest found."
 }
 
-_G.pg.gametip.levelScene_openCargo_erro = {
+_G.pg.base.gametip.levelScene_openCargo_erro = {
 	tip = "Failed to open treasure chest."
 }
 
-_G.pg.gametip.levelScene_chapter_notInStrategy = {
+_G.pg.base.gametip.levelScene_chapter_notInStrategy = {
 	tip = "Not in progress..."
 }
 
-_G.pg.gametip.levelScene_retreat_erro = {
+_G.pg.base.gametip.levelScene_retreat_erro = {
 	tip = "Failed to retreat."
 }
 
-_G.pg.gametip.levelScene_strategying = {
+_G.pg.base.gametip.levelScene_strategying = {
 	tip = "In progress..."
 }
 
-_G.pg.gametip.levelScene_tracking_erro = {
+_G.pg.base.gametip.levelScene_tracking_erro = {
 	tip = "Defeat"
 }
 
-_G.pg.gametip.levelScene_tracking_error_3001 = {
+_G.pg.base.gametip.levelScene_tracking_error_3001 = {
 	tip = "A ship is currently under commission. Unable to attack."
 }
 
-_G.pg.gametip.levelScene_chapter_unlock_tip = {
+_G.pg.base.gametip.levelScene_chapter_unlock_tip = {
 	tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter."
 }
 
-_G.pg.gametip.levelScene_chapter_win = {
+_G.pg.base.gametip.levelScene_chapter_win = {
 	tip = "Boss defeated! Stage complete."
 }
 
-_G.pg.gametip.levelScene_sham_win = {
+_G.pg.base.gametip.levelScene_sham_win = {
 	tip = "Mirror Sea battle complete."
 }
 
-_G.pg.gametip.levelScene_escort_win = {
+_G.pg.base.gametip.levelScene_escort_win = {
 	tip = "The transport ship has arrived at its goal. Escort mission complete!"
 }
 
-_G.pg.gametip.levelScene_escort_lose = {
+_G.pg.base.gametip.levelScene_escort_lose = {
 	tip = "The transport ship has taken critical damage. Escort mission failed."
 }
 
-_G.pg.gametip.levelScene_escort_help_tip = {
+_G.pg.base.gametip.levelScene_escort_help_tip = {
 	tip = {
 		{
 			info = "About Maritime Escort:"
@@ -3509,27 +3509,27 @@ _G.pg.gametip.levelScene_escort_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_escort_retreat = {
+_G.pg.base.gametip.levelScene_escort_retreat = {
 	tip = "Would you like to retreat and end this Maritime Escort run?\nYour daily run will NOT be refunded.\nYou will still receive some rewards. "
 }
 
-_G.pg.gametip.levelScene_oni_retreat = {
+_G.pg.base.gametip.levelScene_oni_retreat = {
 	tip = "Commander, you will not be rewarded from Grand Capture if you retreat. \n (Still considered a victory for this stage) "
 }
 
-_G.pg.gametip.levelScene_oni_win = {
+_G.pg.base.gametip.levelScene_oni_win = {
 	tip = "Special Target captured, success!"
 }
 
-_G.pg.gametip.levelScene_oni_lose = {
+_G.pg.base.gametip.levelScene_oni_lose = {
 	tip = "Special Target has fled, capture failed!"
 }
 
-_G.pg.gametip.levelScene_bomb_retreat = {
+_G.pg.base.gametip.levelScene_bomb_retreat = {
 	tip = "Capturing "
 }
 
-_G.pg.gametip.levelScene_sphunt_help_tip = {
+_G.pg.base.gametip.levelScene_sphunt_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3579,7 +3579,7 @@ _G.pg.gametip.levelScene_sphunt_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_bomb_help_tip = {
+_G.pg.base.gametip.levelScene_bomb_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3611,67 +3611,67 @@ _G.pg.gametip.levelScene_bomb_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_chapter_timeout = {
+_G.pg.base.gametip.levelScene_chapter_timeout = {
 	tip = "Attack time exceeded. Fleet has returned to harbor."
 }
 
-_G.pg.gametip.levelScene_chapter_level_limit = {
+_G.pg.base.gametip.levelScene_chapter_level_limit = {
 	tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this stage."
 }
 
-_G.pg.gametip.levelScene_chapter_count_tip = {
+_G.pg.base.gametip.levelScene_chapter_count_tip = {
 	tip = "Today's Attempts: "
 }
 
-_G.pg.gametip.levelScene_tracking_error_retry = {
+_G.pg.base.gametip.levelScene_tracking_error_retry = {
 	tip = "Failed to activate stage. Please try again."
 }
 
-_G.pg.gametip.levelScene_destroy_torpedo = {
+_G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "Successfully defused naval mine. "
 }
 
-_G.pg.gametip.levelScene_sub_refresh_count_not_enough = {
+_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
 	tip = "You are not receiving any Distress Signals."
 }
 
-_G.pg.gametip.levelScene_jump_to_sub_confirm = {
+_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
 	tip = "Signal source located. Would you like to head to \"$1\" in Chapter $2?"
 }
 
-_G.pg.gametip.levelScene_signal_help_tip = {
+_G.pg.base.gametip.levelScene_signal_help_tip = {
 	tip = "About Distress Signals"
 }
 
-_G.pg.gametip.levelScene_search_area = {
+_G.pg.base.gametip.levelScene_search_area = {
 	tip = "[Signal Range: up to Chapter $1]"
 }
 
-_G.pg.gametip.levelScene_new_chapter_coming = {
+_G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "New Chapter(s): "
 }
 
-_G.pg.gametip.levelScene_chapter_open_count_down = {
+_G.pg.base.gametip.levelScene_chapter_open_count_down = {
 	tip = "Open time:"
 }
 
-_G.pg.gametip.levelScene_chapter_not_open = {
+_G.pg.base.gametip.levelScene_chapter_not_open = {
 	tip = "Not open yet"
 }
 
-_G.pg.gametip.levelScene_activate_remaster = {
+_G.pg.base.gametip.levelScene_activate_remaster = {
 	tip = "Unlocking this stage requires <color=#ffde38>1 Data Key</color>.\nWould you like to unlock this stage?"
 }
 
-_G.pg.gametip.levelScene_remaster_tickets_not_enough = {
+_G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "You do not have enough Data Keys."
 }
 
-_G.pg.gametip.levelScene_remaster_do_not_open = {
+_G.pg.base.gametip.levelScene_remaster_do_not_open = {
 	tip = "This is not yet available."
 }
 
-_G.pg.gametip.levelScene_remaster_help_tip = {
+_G.pg.base.gametip.levelScene_remaster_help_tip = {
 	tip = {
 		{
 			info = "- Data Keys Info -\n· You can use Data Keys to play on event stages found on the War Archives screen.\n· Any progress you've made on an event stage prior to its addition to the War Archives does not carry over."
@@ -3697,11 +3697,11 @@ _G.pg.gametip.levelScene_remaster_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_activate_loop_mode_failed = {
+_G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
 	tip = "You must reach 100% completion on this map to unlock Clearing Mode."
 }
 
-_G.pg.gametip.levelScene_coastalgun_help_tip = {
+_G.pg.base.gametip.levelScene_coastalgun_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3733,15 +3733,15 @@ _G.pg.gametip.levelScene_coastalgun_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_select_SP_OP = {
+_G.pg.base.gametip.levelScene_select_SP_OP = {
 	tip = "Select Item"
 }
 
-_G.pg.gametip.levelScene_unselect_SP_OP = {
+_G.pg.base.gametip.levelScene_unselect_SP_OP = {
 	tip = "No Item"
 }
 
-_G.pg.gametip.levelScene_select_SP_OP_reminder = {
+_G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 	tip = [[
 Would you like to use a High-Efficiency Combat Logistics Plan? 
 When used, increases the Oil cost during the sortie by 100%;
@@ -3749,171 +3749,171 @@ At the end of battle, increases the Commander EXP, Meowfficer EXP, and Ship EXP 
 Morale drain and Affection gain are also increased by 100%. ]]
 }
 
-_G.pg.gametip.tack_tickets_max_warning = {
+_G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? "
 }
 
-_G.pg.gametip.error_refresh_sub_chapter = {
+_G.pg.base.gametip.error_refresh_sub_chapter = {
 	tip = "You cannot initiate any more Rescue Missions. "
 }
 
-_G.pg.gametip.world_battle_count = {
+_G.pg.base.gametip.world_battle_count = {
 	tip = "交战次数说明文本占坑"
 }
 
-_G.pg.gametip.world_fleetName1 = {
+_G.pg.base.gametip.world_fleetName1 = {
 	tip = "1st Fleet"
 }
 
-_G.pg.gametip.world_fleetName2 = {
+_G.pg.base.gametip.world_fleetName2 = {
 	tip = "2nd Fleet"
 }
 
-_G.pg.gametip.world_fleetName3 = {
+_G.pg.base.gametip.world_fleetName3 = {
 	tip = "3rd Fleet"
 }
 
-_G.pg.gametip.world_fleetName4 = {
+_G.pg.base.gametip.world_fleetName4 = {
 	tip = "4th Fleet"
 }
 
-_G.pg.gametip.world_fleetName5 = {
+_G.pg.base.gametip.world_fleetName5 = {
 	tip = "Sub Fleet"
 }
 
-_G.pg.gametip.world_ship_repair_1 = {
+_G.pg.base.gametip.world_ship_repair_1 = {
 	tip = "Conducting basic repairs on $1 costs: \n$2 <icon name=world_money w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.world_ship_repair_2 = {
+_G.pg.base.gametip.world_ship_repair_2 = {
 	tip = "Conducting complete repairs on $1 costs: \n$2 <icon name=world_money w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.world_ship_repair_all = {
+_G.pg.base.gametip.world_ship_repair_all = {
 	tip = "Repairing all participating ships costs: \n$1 <icon name=world_money w=0.7 h=0.7/> "
 }
 
-_G.pg.gametip.world_ship_repair_no_need = {
+_G.pg.base.gametip.world_ship_repair_no_need = {
 	tip = "No ships need repair. "
 }
 
-_G.pg.gametip.world_event_teleport_alter = {
+_G.pg.base.gametip.world_event_teleport_alter = {
 	tip = "If you move to another zone, fleets currently in battle will automatically retreat. "
 }
 
-_G.pg.gametip.world_transport_battle_alter = {
+_G.pg.base.gametip.world_transport_battle_alter = {
 	tip = "A fleet is currently in combat. Unable to leave this zone. "
 }
 
-_G.pg.gametip.world_transport_locked = {
+_G.pg.base.gametip.world_transport_locked = {
 	tip = "The current zone has not been secured yet. Please move a fleet to the edge of the map to enter an adjacent zone. "
 }
 
-_G.pg.gametip.world_target_count = {
+_G.pg.base.gametip.world_target_count = {
 	tip = "$1 available reward(s) "
 }
 
-_G.pg.gametip.world_target_filter_tip1 = {
+_G.pg.base.gametip.world_target_filter_tip1 = {
 	tip = "All"
 }
 
-_G.pg.gametip.world_target_filter_tip2 = {
+_G.pg.base.gametip.world_target_filter_tip2 = {
 	tip = "Unfinished"
 }
 
-_G.pg.gametip.world_target_get_all = {
+_G.pg.base.gametip.world_target_get_all = {
 	tip = "Claim all available rewards?"
 }
 
-_G.pg.gametip.world_target_goto = {
+_G.pg.base.gametip.world_target_goto = {
 	tip = "Enter Zone "
 }
 
-_G.pg.gametip.world_help_tip = {
+_G.pg.base.gametip.world_help_tip = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_dangerbattle_confirm = {
+_G.pg.base.gametip.world_dangerbattle_confirm = {
 	tip = "The fleet you are about to engage is much stronger than usual! \nAre you sure you want to fight it? "
 }
 
-_G.pg.gametip.world_stamina_exchange = {
+_G.pg.base.gametip.world_stamina_exchange = {
 	tip = "Insufficient AP. Would you like to spend <icon name=oil w=0.7 h=0.7/> $1 to restore $2 AP?"
 }
 
-_G.pg.gametip.world_stamina_not_enough = {
+_G.pg.base.gametip.world_stamina_not_enough = {
 	tip = "Insufficient AP."
 }
 
-_G.pg.gametip.world_stamina_recover = {
+_G.pg.base.gametip.world_stamina_recover = {
 	tip = "*If you have less than 200 AP, you will regenerate <color=#92fc63>1</color> AP every <color=#92fc63>10 minutes</color>. "
 }
 
-_G.pg.gametip.world_stamina_text = {
+_G.pg.base.gametip.world_stamina_text = {
 	tip = "Spend <color=#92fc63>$1</color> Oil to refill <color=#92fc63>$2</color> AP? (weekly refills available: <color=#92fc63>$3/$4</color>)"
 }
 
-_G.pg.gametip.world_stamina_text2 = {
+_G.pg.base.gametip.world_stamina_text2 = {
 	tip = "Spent <color=#92fc63>$1</color> Oil to recover <color=#92fc63>$2</color> AP."
 }
 
-_G.pg.gametip.world_stamina_resetwarning = {
+_G.pg.base.gametip.world_stamina_resetwarning = {
 	tip = "Notice: Operation Siren is about to <color=#ff5c5c>reset</color>.\nYou will only carry over a maximum of <color=#ff5c5c>$1 AP</color> after reset,\nso please plan your combat strategy accordingly! "
 }
 
-_G.pg.gametip.world_ship_healthy = {
+_G.pg.base.gametip.world_ship_healthy = {
 	tip = "The selected ship does not need any repairs. \nAre you sure you want to use this item? "
 }
 
-_G.pg.gametip.world_map_dangerous = {
+_G.pg.base.gametip.world_map_dangerous = {
 	tip = "该海域过于危险，禁止进入"
 }
 
-_G.pg.gametip.world_map_not_open = {
+_G.pg.base.gametip.world_map_not_open = {
 	tip = "Zone is unavailable."
 }
 
-_G.pg.gametip.world_map_locked_stage = {
+_G.pg.base.gametip.world_map_locked_stage = {
 	tip = "Zone is unavailable."
 }
 
-_G.pg.gametip.world_map_locked_border = {
+_G.pg.base.gametip.world_map_locked_border = {
 	tip = "Secure Nearby Zones"
 }
 
-_G.pg.gametip.world_item_allocate_panel_fleet_info_text = {
+_G.pg.base.gametip.world_item_allocate_panel_fleet_info_text = {
 	tip = "得到了塞壬的祝福，舰娘的状态被强化了！"
 }
 
-_G.pg.gametip.world_redeploy_not_change = {
+_G.pg.base.gametip.world_redeploy_not_change = {
 	tip = "You did not change your fleet. Are you done changing your formation? "
 }
 
-_G.pg.gametip.world_redeploy_warn = {
+_G.pg.base.gametip.world_redeploy_warn = {
 	tip = "Redeploying the fleet will also remove the fleet stationed at port. Are you sure you want to continue? "
 }
 
-_G.pg.gametip.world_redeploy_cost_tip = {
+_G.pg.base.gametip.world_redeploy_cost_tip = {
 	tip = "Redeploying the fleet will cost $1 AP. Are you sure you wish to continue? \n(Current AP: $2; The shorter the time since this command was last used, the greater the AP cost will be.) "
 }
 
-_G.pg.gametip.world_redeploy_tip = {
+_G.pg.base.gametip.world_redeploy_tip = {
 	tip = "Fleet not yet formed. "
 }
 
-_G.pg.gametip.world_fleet_choose = {
+_G.pg.base.gametip.world_fleet_choose = {
 	tip = "<color=#80e742>Fighting in Operation Siren will not affect Morale or consume Oil. </color>"
 }
 
-_G.pg.gametip.world_fleet_formation_not_valid = {
+_G.pg.base.gametip.world_fleet_formation_not_valid = {
 	tip = "The formation of $1 must be changed. "
 }
 
-_G.pg.gametip.world_fleet_in_vortex = {
+_G.pg.base.gametip.world_fleet_in_vortex = {
 	tip = "The fleet has been caught in a Maelstrom and has restricted movement. "
 }
 
-_G.pg.gametip.world_stage_help = {
+_G.pg.base.gametip.world_stage_help = {
 	tip = {
 		disableScroll = true,
 		pageMode = true,
@@ -3932,27 +3932,27 @@ _G.pg.gametip.world_stage_help = {
 	}
 }
 
-_G.pg.gametip.world_transport_disable = {
+_G.pg.base.gametip.world_transport_disable = {
 	tip = "Unable to leave through this zone. Confirm?"
 }
 
-_G.pg.gametip.world_ap = {
+_G.pg.base.gametip.world_ap = {
 	tip = "AP"
 }
 
-_G.pg.gametip.world_resource_tip_1 = {
+_G.pg.base.gametip.world_resource_tip_1 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_resource_tip_2 = {
+_G.pg.base.gametip.world_resource_tip_2 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_instruction_all_1 = {
+_G.pg.base.gametip.world_instruction_all_1 = {
 	tip = "This feature has not been released yet. "
 }
 
-_G.pg.gametip.world_instruction_help_1 = {
+_G.pg.base.gametip.world_instruction_help_1 = {
 	tip = {
 		{
 			info = "About Orders:"
@@ -3993,235 +3993,235 @@ _G.pg.gametip.world_instruction_help_1 = {
 	}
 }
 
-_G.pg.gametip.world_instruction_redeploy_1 = {
+_G.pg.base.gametip.world_instruction_redeploy_1 = {
 	tip = "Fleet Redeployment can only be carried out in a port. "
 }
 
-_G.pg.gametip.world_instruction_redeploy_2 = {
+_G.pg.base.gametip.world_instruction_redeploy_2 = {
 	tip = "The fleet has been redeployed. HP and Resolve have been restored. "
 }
 
-_G.pg.gametip.world_instruction_redeploy_3 = {
+_G.pg.base.gametip.world_instruction_redeploy_3 = {
 	tip = "You are carrying an Energy Matrix and are unable to redeploy your fleet. "
 }
 
-_G.pg.gametip.world_instruction_morale_1 = {
+_G.pg.base.gametip.world_instruction_morale_1 = {
 	tip = "Spend $1 AP to restore\nthe HP and Resolve of your fleet,\nand remove all \"Tolls of War\" debuffs? "
 }
 
-_G.pg.gametip.world_instruction_morale_2 = {
+_G.pg.base.gametip.world_instruction_morale_2 = {
 	tip = "Fleet already has max Resolve."
 }
 
-_G.pg.gametip.world_instruction_morale_3 = {
+_G.pg.base.gametip.world_instruction_morale_3 = {
 	tip = "Fleet Resolve restored."
 }
 
-_G.pg.gametip.world_instruction_morale_4 = {
+_G.pg.base.gametip.world_instruction_morale_4 = {
 	tip = "*You will not be able to use this command again for a period of time."
 }
 
-_G.pg.gametip.world_instruction_submarine_1 = {
+_G.pg.base.gametip.world_instruction_submarine_1 = {
 	tip = "This command cannot be issued in this zone."
 }
 
-_G.pg.gametip.world_instruction_submarine_2 = {
+_G.pg.base.gametip.world_instruction_submarine_2 = {
 	tip = "Spend $1 AP to call in submarine support? "
 }
 
-_G.pg.gametip.world_instruction_submarine_3 = {
+_G.pg.base.gametip.world_instruction_submarine_3 = {
 	tip = "The submarine fleet is already sortieing."
 }
 
-_G.pg.gametip.world_instruction_submarine_4 = {
+_G.pg.base.gametip.world_instruction_submarine_4 = {
 	tip = "Cannot request support because the sub fleet has not been set up yet."
 }
 
-_G.pg.gametip.world_instruction_submarine_5 = {
+_G.pg.base.gametip.world_instruction_submarine_5 = {
 	tip = "The submarine fleet has left the zone."
 }
 
-_G.pg.gametip.world_instruction_submarine_6 = {
+_G.pg.base.gametip.world_instruction_submarine_6 = {
 	tip = "If you move to another zone, your submarine fleet will be put on standby. Are you sure you want to leave this zone?"
 }
 
-_G.pg.gametip.world_instruction_submarine_7 = {
+_G.pg.base.gametip.world_instruction_submarine_7 = {
 	tip = "Spend $1 AP to resupply your submarine fleet's HP and ammo? "
 }
 
-_G.pg.gametip.world_instruction_submarine_8 = {
+_G.pg.base.gametip.world_instruction_submarine_8 = {
 	tip = "*The shorter the time since this command was last used,\nthe greater the AP cost will be."
 }
 
-_G.pg.gametip.world_instruction_submarine_9 = {
+_G.pg.base.gametip.world_instruction_submarine_9 = {
 	tip = "Automatically call submarines \nif the command costs less than or equal to\nAP during Auto Search."
 }
 
-_G.pg.gametip.world_instruction_submarine_10 = {
+_G.pg.base.gametip.world_instruction_submarine_10 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_instruction_submarine_11 = {
+_G.pg.base.gametip.world_instruction_submarine_11 = {
 	tip = "Auto-Call setting saved."
 }
 
-_G.pg.gametip.world_instruction_detect_1 = {
+_G.pg.base.gametip.world_instruction_detect_1 = {
 	tip = "Spent $1 AP to request reconnaissance?"
 }
 
-_G.pg.gametip.world_instruction_detect_2 = {
+_G.pg.base.gametip.world_instruction_detect_2 = {
 	tip = "Conducted aerial reconnaissance."
 }
 
-_G.pg.gametip.world_instruction_supply_1 = {
+_G.pg.base.gametip.world_instruction_supply_1 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_instruction_supply_2 = {
+_G.pg.base.gametip.world_instruction_supply_2 = {
 	tip = "$1 until this command can be given again. "
 }
 
-_G.pg.gametip.world_item_recycle_1 = {
+_G.pg.base.gametip.world_item_recycle_1 = {
 	tip = "The following items will be converted when Operation Siren resets:"
 }
 
-_G.pg.gametip.world_item_recycle_2 = {
+_G.pg.base.gametip.world_item_recycle_2 = {
 	tip = "The following items will be lost when Operation Siren resets:"
 }
 
-_G.pg.gametip.world_item_origin = {
+_G.pg.base.gametip.world_item_origin = {
 	tip = "This items can be obtained in the following manner"
 }
 
-_G.pg.gametip.world_shop_bag_unactivated = {
+_G.pg.base.gametip.world_shop_bag_unactivated = {
 	tip = "The shop cannot be accessed because Operation Siren has not been unlocked yet. "
 }
 
-_G.pg.gametip.world_shop_preview_tip = {
+_G.pg.base.gametip.world_shop_preview_tip = {
 	tip = "Purchase is available after reset"
 }
 
-_G.pg.gametip.world_shop_init_notice = {
+_G.pg.base.gametip.world_shop_init_notice = {
 	tip = "Operation Siren has reset. Would you like to go to the shop?"
 }
 
-_G.pg.gametip.world_map_title_tips_en = {
+_G.pg.base.gametip.world_map_title_tips_en = {
 	tip = "OPERATION INFO"
 }
 
-_G.pg.gametip.world_map_title_tips = {
+_G.pg.base.gametip.world_map_title_tips = {
 	tip = "Operation Info "
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_1 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_1 = {
 	tip = "Offense Boost "
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_2 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
 	tip = "Survival Boost "
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_3 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_3 = {
 	tip = "Combat Interference "
 }
 
-_G.pg.gametip.world_mapbuff_compare_txt = {
+_G.pg.base.gametip.world_mapbuff_compare_txt = {
 	tip = "Adaptive Tuning"
 }
 
-_G.pg.gametip.world_wind_move = {
+_G.pg.base.gametip.world_wind_move = {
 	tip = "Cannot proceed to the target zone. Please first move the fleet that is in the target zone. "
 }
 
-_G.pg.gametip.world_battle_pause = {
+_G.pg.base.gametip.world_battle_pause = {
 	tip = "OPERATION"
 }
 
-_G.pg.gametip.world_battle_pause2 = {
+_G.pg.base.gametip.world_battle_pause2 = {
 	tip = "Operation Siren "
 }
 
-_G.pg.gametip.world_task_samemap = {
+_G.pg.base.gametip.world_task_samemap = {
 	tip = "Unable to accept new missions until all unfinished missions in this zone are completed. "
 }
 
-_G.pg.gametip.world_task_maplock = {
+_G.pg.base.gametip.world_task_maplock = {
 	tip = "You may not leave this zone yet because there are still unfinished missions. Please check\"Information\" for more details. Confirm？"
 }
 
-_G.pg.gametip.world_task_goto0 = {
+_G.pg.base.gametip.world_task_goto0 = {
 	tip = "There are no missions in this zone."
 }
 
-_G.pg.gametip.world_task_goto3 = {
+_G.pg.base.gametip.world_task_goto3 = {
 	tip = "The fleet has already been deployed to the target zone."
 }
 
-_G.pg.gametip.world_task_view1 = {
+_G.pg.base.gametip.world_task_view1 = {
 	tip = "Mission Location："
 }
 
-_G.pg.gametip.world_task_view2 = {
+_G.pg.base.gametip.world_task_view2 = {
 	tip = "Current Location："
 }
 
-_G.pg.gametip.world_task_view3 = {
+_G.pg.base.gametip.world_task_view3 = {
 	tip = "Unknown "
 }
 
-_G.pg.gametip.world_task_refuse1 = {
+_G.pg.base.gametip.world_task_refuse1 = {
 	tip = "You cannot accept any more Daily Missions. "
 }
 
-_G.pg.gametip.world_daily_task_lock = {
+_G.pg.base.gametip.world_daily_task_lock = {
 	tip = "Complete Chapter 4 of Operation Siren to unlock daily mission."
 }
 
-_G.pg.gametip.world_daily_task_none = {
+_G.pg.base.gametip.world_daily_task_none = {
 	tip = "No missions currently available."
 }
 
-_G.pg.gametip.world_daily_task_none_2 = {
+_G.pg.base.gametip.world_daily_task_none_2 = {
 	tip = ""
 }
 
-_G.pg.gametip.world_sairen_title = {
+_G.pg.base.gametip.world_sairen_title = {
 	tip = "Siren-Controlled "
 }
 
-_G.pg.gametip.world_sairen_description1 = {
+_G.pg.base.gametip.world_sairen_description1 = {
 	tip = "Siren Control: <color=#3dc6ff>$1%</color>"
 }
 
-_G.pg.gametip.world_sairen_description2 = {
+_G.pg.base.gametip.world_sairen_description2 = {
 	tip = "Siren Control: <color=#ffde38>$1%</color>"
 }
 
-_G.pg.gametip.world_sairen_description3 = {
+_G.pg.base.gametip.world_sairen_description3 = {
 	tip = "Siren Control: <color=#ff5c5c>$1%</color>"
 }
 
-_G.pg.gametip.world_low_morale = {
+_G.pg.base.gametip.world_low_morale = {
 	tip = "You are unable to start a boss battle because your fleet Resolve is low. \nYou can restore Resolve by issuing a Regroup and Rest command or by winning battles. "
 }
 
-_G.pg.gametip.world_recycle_notice = {
+_G.pg.base.gametip.world_recycle_notice = {
 	tip = "Operation Siren has been reset. Leave the current screen?"
 }
 
-_G.pg.gametip.world_recycle_item_transform = {
+_G.pg.base.gametip.world_recycle_item_transform = {
 	tip = "Operation Siren has been reset, and unused items have been converted into Supply Shop Vouchers:"
 }
 
-_G.pg.gametip.world_exit_tip = {
+_G.pg.base.gametip.world_exit_tip = {
 	tip = "Return to the home screen? "
 }
 
-_G.pg.gametip.world_consume_carry_tips = {
+_G.pg.base.gametip.world_consume_carry_tips = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_boss_help_meta = {
+_G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
@@ -4294,27 +4294,27 @@ The later in the META Showdown season it is, the greater the damage inflicted by
 	}
 }
 
-_G.pg.gametip.world_close = {
+_G.pg.base.gametip.world_close = {
 	tip = "Operation Siren is unavailable at this time. "
 }
 
-_G.pg.gametip.world_catsearch_success = {
+_G.pg.base.gametip.world_catsearch_success = {
 	tip = "Commencing Meowfficer item retrieval operations... "
 }
 
-_G.pg.gametip.world_catsearch_stop = {
+_G.pg.base.gametip.world_catsearch_stop = {
 	tip = "Are you sure you want to stop retrieving items and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
 }
 
-_G.pg.gametip.world_catsearch_fleetcheck = {
+_G.pg.base.gametip.world_catsearch_fleetcheck = {
 	tip = "Are you sure you want to redeploy your fleet and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
 }
 
-_G.pg.gametip.world_catsearch_leavemap = {
+_G.pg.base.gametip.world_catsearch_leavemap = {
 	tip = "Are you sure you want to withdraw from this zone and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
 }
 
-_G.pg.gametip.world_catsearch_help_1 = {
+_G.pg.base.gametip.world_catsearch_help_1 = {
 	tip = [[
 Retrieval progress will proceed as your <color=#ffde38>fleet operations advance</color>. 
 Are you sure you want to cancel the item retrieval?
@@ -4322,11 +4322,11 @@ Are you sure you want to cancel the item retrieval?
 <color=#92fc63>(If cancelled, partial awards will be rewarded immediately.)</color> ]]
 }
 
-_G.pg.gametip.world_catsearch_help_2 = {
+_G.pg.base.gametip.world_catsearch_help_2 = {
 	tip = "Potential Rewards: "
 }
 
-_G.pg.gametip.world_catsearch_help_3 = {
+_G.pg.base.gametip.world_catsearch_help_3 = {
 	tip = {
 		{
 			icon = {
@@ -4351,975 +4351,975 @@ _G.pg.gametip.world_catsearch_help_3 = {
 	}
 }
 
-_G.pg.gametip.world_catsearch_help_4 = {
+_G.pg.base.gametip.world_catsearch_help_4 = {
 	tip = "Retrieving... "
 }
 
-_G.pg.gametip.world_catsearch_help_5 = {
+_G.pg.base.gametip.world_catsearch_help_5 = {
 	tip = "This Meowfficer’s skills will not apply, as they are busy retrieving an item. "
 }
 
-_G.pg.gametip.world_catsearch_help_6 = {
+_G.pg.base.gametip.world_catsearch_help_6 = {
 	tip = "You may receive the following rewards: "
 }
 
-_G.pg.gametip.world_level_prefix = {
+_G.pg.base.gametip.world_level_prefix = {
 	tip = "LV.$1"
 }
 
-_G.pg.gametip.world_map_level = {
+_G.pg.base.gametip.world_map_level = {
 	tip = "Operation Level:\nYour current Operation Level is <color=#92fc63>$1</color>. Please consider challenging stages with an equal or lower Corrosion Level. "
 }
 
-_G.pg.gametip.world_movelimit_event_text = {
+_G.pg.base.gametip.world_movelimit_event_text = {
 	tip = "Can't leave now due to unfinished missions in this zone. Confirm？"
 }
 
-_G.pg.gametip.world_mapbuff_tip = {
+_G.pg.base.gametip.world_mapbuff_tip = {
 	tip = "All enemies within this zone are strengthened."
 }
 
-_G.pg.gametip.world_sametask_tip = {
+_G.pg.base.gametip.world_sametask_tip = {
 	tip = "Unable to accept mission: Only one of the same mission can be active."
 }
 
-_G.pg.gametip.world_expedition_reward_display = {
+_G.pg.base.gametip.world_expedition_reward_display = {
 	tip = "Rewards"
 }
 
-_G.pg.gametip.world_expedition_reward_display2 = {
+_G.pg.base.gametip.world_expedition_reward_display2 = {
 	tip = "$1% HP"
 }
 
-_G.pg.gametip.world_complete_item_tip = {
+_G.pg.base.gametip.world_complete_item_tip = {
 	tip = "Unable to purchase the Operation Siren Data Logger after controlling all zones."
 }
 
-_G.pg.gametip.task_notfound_error = {
+_G.pg.base.gametip.task_notfound_error = {
 	tip = "Unable to find mission config. Update may be required. Error ID: "
 }
 
-_G.pg.gametip.task_submitTask_error = {
+_G.pg.base.gametip.task_submitTask_error = {
 	tip = "Failed to submit mission: "
 }
 
-_G.pg.gametip.task_submitTask_error_client = {
+_G.pg.base.gametip.task_submitTask_error_client = {
 	tip = "Failed to submit mission: "
 }
 
-_G.pg.gametip.task_submitTask_error_notFinish = {
+_G.pg.base.gametip.task_submitTask_error_notFinish = {
 	tip = "You have not completed this mission yet."
 }
 
-_G.pg.gametip.task_taskMediator_getItem = {
+_G.pg.base.gametip.task_taskMediator_getItem = {
 	tip = "Items received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>"
 }
 
-_G.pg.gametip.task_taskMediator_getResource = {
+_G.pg.base.gametip.task_taskMediator_getResource = {
 	tip = "Resources received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>"
 }
 
-_G.pg.gametip.task_taskMediator_getEquip = {
+_G.pg.base.gametip.task_taskMediator_getEquip = {
 	tip = "Gear received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>"
 }
 
-_G.pg.gametip.task_target_chapter_in_progress = {
+_G.pg.base.gametip.task_target_chapter_in_progress = {
 	tip = "Another action is in progress on the target mission map. Unable to accept mission."
 }
 
-_G.pg.gametip.task_level_notenough = {
+_G.pg.base.gametip.task_level_notenough = {
 	tip = "需要达到$1级才能进行任务"
 }
 
-_G.pg.gametip.loading_tip_ShaderMgr = {
+_G.pg.base.gametip.loading_tip_ShaderMgr = {
 	tip = "Rendering visuals..."
 }
 
-_G.pg.gametip.loading_tip_FontMgr = {
+_G.pg.base.gametip.loading_tip_FontMgr = {
 	tip = "Creating fonts..."
 }
 
-_G.pg.gametip.loading_tip_TipsMgr = {
+_G.pg.base.gametip.loading_tip_TipsMgr = {
 	tip = "Getting stickers..."
 }
 
-_G.pg.gametip.loading_tip_MsgboxMgr = {
+_G.pg.base.gametip.loading_tip_MsgboxMgr = {
 	tip = "Loading dialog...."
 }
 
-_G.pg.gametip.loading_tip_GuideMgr = {
+_G.pg.base.gametip.loading_tip_GuideMgr = {
 	tip = "Connecting to counselor...."
 }
 
-_G.pg.gametip.loading_tip_PoolMgr = {
+_G.pg.base.gametip.loading_tip_PoolMgr = {
 	tip = "Adding paint..."
 }
 
-_G.pg.gametip.loading_tip_FModMgr = {
+_G.pg.base.gametip.loading_tip_FModMgr = {
 	tip = "Making noise..."
 }
 
-_G.pg.gametip.loading_tip_StoryMgr = {
+_G.pg.base.gametip.loading_tip_StoryMgr = {
 	tip = "Writing scripts..."
 }
 
-_G.pg.gametip.energy_desc_happy = {
+_G.pg.base.gametip.energy_desc_happy = {
 	tip = "She seems pretty happy. Think she'll be more powerful?"
 }
 
-_G.pg.gametip.energy_desc_normal = {
+_G.pg.base.gametip.energy_desc_normal = {
 	tip = "She's in normal spirits. She'll probably fight with normal power."
 }
 
-_G.pg.gametip.energy_desc_tired = {
+_G.pg.base.gametip.energy_desc_tired = {
 	tip = "She's tired. It'll be hard for her to use her true power."
 }
 
-_G.pg.gametip.energy_desc_angry = {
+_G.pg.base.gametip.energy_desc_angry = {
 	tip = "She's exhausted. She needs to rest, now!"
 }
 
-_G.pg.gametip.create_player_success = {
+_G.pg.base.gametip.create_player_success = {
 	tip = "Character created."
 }
 
-_G.pg.gametip.login_newPlayerScene_invalideName = {
+_G.pg.base.gametip.login_newPlayerScene_invalideName = {
 	tip = "Character name contains illegal characters."
 }
 
-_G.pg.gametip.login_newPlayerScene_name_tooShort = {
+_G.pg.base.gametip.login_newPlayerScene_name_tooShort = {
 	tip = "Name is too short."
 }
 
-_G.pg.gametip.login_newPlayerScene_name_existOtherChar = {
+_G.pg.base.gametip.login_newPlayerScene_name_existOtherChar = {
 	tip = "May not contain special characters."
 }
 
-_G.pg.gametip.login_newPlayerScene_name_tooLong = {
+_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
 	tip = "Name is too long."
 }
 
-_G.pg.gametip.equipment_updateGrade_tip = {
+_G.pg.base.gametip.equipment_updateGrade_tip = {
 	tip = "Find these materials and I can help you upgrade gear!"
 }
 
-_G.pg.gametip.equipment_upgrade_ok = {
+_G.pg.base.gametip.equipment_upgrade_ok = {
 	tip = "Gear upgraded!"
 }
 
-_G.pg.gametip.equipment_cant_upgrade = {
+_G.pg.base.gametip.equipment_cant_upgrade = {
 	tip = "Gear could not be upgraded."
 }
 
-_G.pg.gametip.equipment_upgrade_erro = {
+_G.pg.base.gametip.equipment_upgrade_erro = {
 	tip = "Failed to upgrade weapon!"
 }
 
-_G.pg.gametip.collection_nostar = {
+_G.pg.base.gametip.collection_nostar = {
 	tip = "Not enough stars."
 }
 
-_G.pg.gametip.collection_getResource_error = {
+_G.pg.base.gametip.collection_getResource_error = {
 	tip = "Failed to collect rewards: "
 }
 
-_G.pg.gametip.collection_hadAward = {
+_G.pg.base.gametip.collection_hadAward = {
 	tip = "Reward has been collected."
 }
 
-_G.pg.gametip.collection_lock = {
+_G.pg.base.gametip.collection_lock = {
 	tip = "Locked"
 }
 
-_G.pg.gametip.collection_fetched = {
+_G.pg.base.gametip.collection_fetched = {
 	tip = "This has already been collected!"
 }
 
-_G.pg.gametip.buyProp_noResource_error = {
+_G.pg.base.gametip.buyProp_noResource_error = {
 	tip = "You don't have enough <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.refresh_shopStreet_ok = {
+_G.pg.base.gametip.refresh_shopStreet_ok = {
 	tip = "Manual refresh complete!"
 }
 
-_G.pg.gametip.refresh_shopStreet_erro = {
+_G.pg.base.gametip.refresh_shopStreet_erro = {
 	tip = "Failed to manually refresh."
 }
 
-_G.pg.gametip.shopStreet_upgrade_done = {
+_G.pg.base.gametip.shopStreet_upgrade_done = {
 	tip = "Shop leveled up!"
 }
 
-_G.pg.gametip.shopStreet_refresh_max_count = {
+_G.pg.base.gametip.shopStreet_refresh_max_count = {
 	tip = "You're out of daily refreshes!"
 }
 
-_G.pg.gametip.buy_countLimit = {
+_G.pg.base.gametip.buy_countLimit = {
 	tip = "Item is currently sold out "
 }
 
-_G.pg.gametip.buy_item_quest = {
+_G.pg.base.gametip.buy_item_quest = {
 	tip = "Are you sure you want to buy this item?"
 }
 
-_G.pg.gametip.refresh_shopStreet_question = {
+_G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=30>(Bought <size=30><color=#FF0000>$3</color></size> times today)</size>"
 }
 
-_G.pg.gametip.event_start_success = {
+_G.pg.base.gametip.event_start_success = {
 	tip = "Commission has begun!"
 }
 
-_G.pg.gametip.event_start_fail = {
+_G.pg.base.gametip.event_start_fail = {
 	tip = "Failed to begin commission."
 }
 
-_G.pg.gametip.event_finish_success = {
+_G.pg.base.gametip.event_finish_success = {
 	tip = "Commission complete!"
 }
 
-_G.pg.gametip.event_finish_fail = {
+_G.pg.base.gametip.event_finish_fail = {
 	tip = "Failed to complete commission."
 }
 
-_G.pg.gametip.event_giveup_success = {
+_G.pg.base.gametip.event_giveup_success = {
 	tip = "Commission has been abandoned!"
 }
 
-_G.pg.gametip.event_giveup_fail = {
+_G.pg.base.gametip.event_giveup_fail = {
 	tip = "Failed to abandon commission."
 }
 
-_G.pg.gametip.event_flush_success = {
+_G.pg.base.gametip.event_flush_success = {
 	tip = "Manual refresh complete!"
 }
 
-_G.pg.gametip.event_flush_fail = {
+_G.pg.base.gametip.event_flush_fail = {
 	tip = "Failed to manually refresh."
 }
 
-_G.pg.gametip.event_flush_not_enough = {
+_G.pg.base.gametip.event_flush_not_enough = {
 	tip = "You're out of refreshes."
 }
 
-_G.pg.gametip.event_start = {
+_G.pg.base.gametip.event_start = {
 	tip = "Start"
 }
 
-_G.pg.gametip.event_finish = {
+_G.pg.base.gametip.event_finish = {
 	tip = "Complete"
 }
 
-_G.pg.gametip.event_giveup = {
+_G.pg.base.gametip.event_giveup = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.event_minimus_ship_numbers = {
+_G.pg.base.gametip.event_minimus_ship_numbers = {
 	tip = "You need at least <color=#92fc63>$1 ships</color> in your fleet to proceed with this mission."
 }
 
-_G.pg.gametip.event_confirm_giveup = {
+_G.pg.base.gametip.event_confirm_giveup = {
 	tip = "Are you sure you want to abandon this mission?"
 }
 
-_G.pg.gametip.event_confirm_flush = {
+_G.pg.base.gametip.event_confirm_flush = {
 	tip = "One of these missions is in progress. Are you sure you want to refresh the mission list?"
 }
 
-_G.pg.gametip.event_fleet_busy = {
+_G.pg.base.gametip.event_fleet_busy = {
 	tip = "Please complete commissions in progress before accepting another."
 }
 
-_G.pg.gametip.event_same_type_not_allowed = {
+_G.pg.base.gametip.event_same_type_not_allowed = {
 	tip = "May not add a ship of the same type."
 }
 
-_G.pg.gametip.event_condition_ship_level = {
+_G.pg.base.gametip.event_condition_ship_level = {
 	tip = "Have at least <color=#92fc63>1</color> <color=#92fc63>lv. $1</color> ship."
 }
 
-_G.pg.gametip.event_condition_ship_count = {
+_G.pg.base.gametip.event_condition_ship_count = {
 	tip = "Have at least <color=#92fc63>$1</color> ships in team."
 }
 
-_G.pg.gametip.event_condition_ship_type = {
+_G.pg.base.gametip.event_condition_ship_type = {
 	tip = "<color=#92fc63>$1</color> only"
 }
 
-_G.pg.gametip.event_level_unreached = {
+_G.pg.base.gametip.event_level_unreached = {
 	tip = "Fleet level is too low."
 }
 
-_G.pg.gametip.event_type_unreached = {
+_G.pg.base.gametip.event_type_unreached = {
 	tip = "Fleet contains wrong type of ships."
 }
 
-_G.pg.gametip.event_oil_consume = {
+_G.pg.base.gametip.event_oil_consume = {
 	tip = "This commission will expend <icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color> Oil."
 }
 
-_G.pg.gametip.event_type_unlimit = {
+_G.pg.base.gametip.event_type_unlimit = {
 	tip = "Any type"
 }
 
-_G.pg.gametip.dailyLevel_restCount_notEnough = {
+_G.pg.base.gametip.dailyLevel_restCount_notEnough = {
 	tip = "You're out of daily stage challenges. "
 }
 
-_G.pg.gametip.dailyLevel_unopened = {
+_G.pg.base.gametip.dailyLevel_unopened = {
 	tip = "Not open"
 }
 
-_G.pg.gametip.dailyLevel_opened = {
+_G.pg.base.gametip.dailyLevel_opened = {
 	tip = "Open"
 }
 
-_G.pg.gametip.playerinfo_ship_is_already_flagship = {
+_G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
 	tip = "She's already your Secretary!"
 }
 
-_G.pg.gametip.playerinfo_mask_word = {
+_G.pg.base.gametip.playerinfo_mask_word = {
 	tip = "Contains blocked words."
 }
 
-_G.pg.gametip.just_now = {
+_G.pg.base.gametip.just_now = {
 	tip = "Just now"
 }
 
-_G.pg.gametip.several_minutes_before = {
+_G.pg.base.gametip.several_minutes_before = {
 	tip = "<color=#92fc63>$1</color>m ago"
 }
 
-_G.pg.gametip.several_hours_before = {
+_G.pg.base.gametip.several_hours_before = {
 	tip = "<color=#92fc63>$1</color>hr ago"
 }
 
-_G.pg.gametip.several_days_before = {
+_G.pg.base.gametip.several_days_before = {
 	tip = "<color=#92fc63>$1d ago</color>"
 }
 
-_G.pg.gametip.long_time_offline = {
+_G.pg.base.gametip.long_time_offline = {
 	tip = "Inactive"
 }
 
-_G.pg.gametip.dont_send_message_frequently = {
+_G.pg.base.gametip.dont_send_message_frequently = {
 	tip = "Do not spam the chat. "
 }
 
-_G.pg.gametip.no_activity = {
+_G.pg.base.gametip.no_activity = {
 	tip = "No available events."
 }
 
-_G.pg.gametip.which_day = {
+_G.pg.base.gametip.which_day = {
 	tip = "Day <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.which_day_2 = {
+_G.pg.base.gametip.which_day_2 = {
 	tip = "Day $1"
 }
 
-_G.pg.gametip.invalidate_evaluation = {
+_G.pg.base.gametip.invalidate_evaluation = {
 	tip = "Comment contains blocked content."
 }
 
-_G.pg.gametip.chapter_no = {
+_G.pg.base.gametip.chapter_no = {
 	tip = "Chapter <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.reconnect_tip = {
+_G.pg.base.gametip.reconnect_tip = {
 	tip = "Network connection failed. Reconnect now?\n[$1]"
 }
 
-_G.pg.gametip.like_ship_success = {
+_G.pg.base.gametip.like_ship_success = {
 	tip = "Action complete!"
 }
 
-_G.pg.gametip.eva_ship_success = {
+_G.pg.base.gametip.eva_ship_success = {
 	tip = "Comment submitted!"
 }
 
-_G.pg.gametip.zan_ship_eva_success = {
+_G.pg.base.gametip.zan_ship_eva_success = {
 	tip = "Review complete!"
 }
 
-_G.pg.gametip.zan_ship_eva_error_7 = {
+_G.pg.base.gametip.zan_ship_eva_error_7 = {
 	tip = "You've already reviewed this comment!"
 }
 
-_G.pg.gametip.eva_count_limit = {
+_G.pg.base.gametip.eva_count_limit = {
 	tip = "You can't leave any more comments today."
 }
 
-_G.pg.gametip.attribute_durability = {
+_G.pg.base.gametip.attribute_durability = {
 	tip = "HP"
 }
 
-_G.pg.gametip.attribute_cannon = {
+_G.pg.base.gametip.attribute_cannon = {
 	tip = "FP "
 }
 
-_G.pg.gametip.attribute_torpedo = {
+_G.pg.base.gametip.attribute_torpedo = {
 	tip = "TRP "
 }
 
-_G.pg.gametip.attribute_antiaircraft = {
+_G.pg.base.gametip.attribute_antiaircraft = {
 	tip = "AA "
 }
 
-_G.pg.gametip.attribute_air = {
+_G.pg.base.gametip.attribute_air = {
 	tip = "AVI "
 }
 
-_G.pg.gametip.attribute_reload = {
+_G.pg.base.gametip.attribute_reload = {
 	tip = "RLD "
 }
 
-_G.pg.gametip.attribute_cd = {
+_G.pg.base.gametip.attribute_cd = {
 	tip = "FR "
 }
 
-_G.pg.gametip.attribute_armor_type = {
+_G.pg.base.gametip.attribute_armor_type = {
 	tip = "Armor Type"
 }
 
-_G.pg.gametip.attribute_armor = {
+_G.pg.base.gametip.attribute_armor = {
 	tip = "Armor"
 }
 
-_G.pg.gametip.attribute_hit = {
+_G.pg.base.gametip.attribute_hit = {
 	tip = "Hit"
 }
 
-_G.pg.gametip.attribute_speed = {
+_G.pg.base.gametip.attribute_speed = {
 	tip = "Speed"
 }
 
-_G.pg.gametip.attribute_luck = {
+_G.pg.base.gametip.attribute_luck = {
 	tip = "LCK "
 }
 
-_G.pg.gametip.attribute_dodge = {
+_G.pg.base.gametip.attribute_dodge = {
 	tip = "EVA "
 }
 
-_G.pg.gametip.attribute_expend = {
+_G.pg.base.gametip.attribute_expend = {
 	tip = "OIL "
 }
 
-_G.pg.gametip.attribute_damage = {
+_G.pg.base.gametip.attribute_damage = {
 	tip = "DMG"
 }
 
-_G.pg.gametip.attribute_healthy = {
+_G.pg.base.gametip.attribute_healthy = {
 	tip = "Healing"
 }
 
-_G.pg.gametip.attribute_speciality = {
+_G.pg.base.gametip.attribute_speciality = {
 	tip = "Special"
 }
 
-_G.pg.gametip.attribute_range = {
+_G.pg.base.gametip.attribute_range = {
 	tip = "Range"
 }
 
-_G.pg.gametip.attribute_angle = {
+_G.pg.base.gametip.attribute_angle = {
 	tip = "Firing Angle"
 }
 
-_G.pg.gametip.attribute_scatter = {
+_G.pg.base.gametip.attribute_scatter = {
 	tip = "Spread Range"
 }
 
-_G.pg.gametip.attribute_ammo = {
+_G.pg.base.gametip.attribute_ammo = {
 	tip = "Ammo"
 }
 
-_G.pg.gametip.attribute_antisub = {
+_G.pg.base.gametip.attribute_antisub = {
 	tip = "ASW "
 }
 
-_G.pg.gametip.attribute_sonarRange = {
+_G.pg.base.gametip.attribute_sonarRange = {
 	tip = "ASR "
 }
 
-_G.pg.gametip.attribute_sonarInterval = {
+_G.pg.base.gametip.attribute_sonarInterval = {
 	tip = "FREQ "
 }
 
-_G.pg.gametip.attribute_oxy_max = {
+_G.pg.base.gametip.attribute_oxy_max = {
 	tip = "OXY "
 }
 
-_G.pg.gametip.attribute_dodge_limit = {
+_G.pg.base.gametip.attribute_dodge_limit = {
 	tip = "Evasion Limit "
 }
 
-_G.pg.gametip.attribute_intimacy = {
+_G.pg.base.gametip.attribute_intimacy = {
 	tip = "Intimacy"
 }
 
-_G.pg.gametip.attribute_max_distance_damage = {
+_G.pg.base.gametip.attribute_max_distance_damage = {
 	tip = "Explosion dropoff "
 }
 
-_G.pg.gametip.attribute_anti_siren = {
+_G.pg.base.gametip.attribute_anti_siren = {
 	tip = "OPS Damage Boost "
 }
 
-_G.pg.gametip.attribute_add_new = {
+_G.pg.base.gametip.attribute_add_new = {
 	tip = "New!"
 }
 
-_G.pg.gametip.skill = {
+_G.pg.base.gametip.skill = {
 	tip = "Skills"
 }
 
-_G.pg.gametip.cd_normal = {
+_G.pg.base.gametip.cd_normal = {
 	tip = "FR"
 }
 
-_G.pg.gametip.intensify = {
+_G.pg.base.gametip.intensify = {
 	tip = "Enhance"
 }
 
-_G.pg.gametip.change = {
+_G.pg.base.gametip.change = {
 	tip = "Change"
 }
 
-_G.pg.gametip.formation_switch_failed = {
+_G.pg.base.gametip.formation_switch_failed = {
 	tip = "No fleet to change with."
 }
 
-_G.pg.gametip.formation_switch_success = {
+_G.pg.base.gametip.formation_switch_success = {
 	tip = "Changed to $1."
 }
 
-_G.pg.gametip.formation_switch_tip = {
+_G.pg.base.gametip.formation_switch_tip = {
 	tip = "Current fleet cannot be formed. Auto switching to <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.formation_reform_tip = {
+_G.pg.base.gametip.formation_reform_tip = {
 	tip = "Unable to form fleet. Would you like to edit your formation?"
 }
 
-_G.pg.gametip.formation_invalide = {
+_G.pg.base.gametip.formation_invalide = {
 	tip = "No available fleets. Unable to battle."
 }
 
-_G.pg.gametip.chapter_ap_not_enough = {
+_G.pg.base.gametip.chapter_ap_not_enough = {
 	tip = "You don't have enough AP."
 }
 
-_G.pg.gametip.formation_forbid_when_in_chapter = {
+_G.pg.base.gametip.formation_forbid_when_in_chapter = {
 	tip = "Fleet is currently attacking at sea. Unable to edit formation."
 }
 
-_G.pg.gametip.military_forbid_when_in_chapter = {
+_G.pg.base.gametip.military_forbid_when_in_chapter = {
 	tip = "Fleet is currently attacking at sea. Unable to being exercise."
 }
 
-_G.pg.gametip.confirm_app_exit = {
+_G.pg.base.gametip.confirm_app_exit = {
 	tip = "Are you sure you want to quit the game?"
 }
 
-_G.pg.gametip.friend_info_page_tip = {
+_G.pg.base.gametip.friend_info_page_tip = {
 	tip = "Select a friend to visit "
 }
 
-_G.pg.gametip.friend_search_page_tip = {
+_G.pg.base.gametip.friend_search_page_tip = {
 	tip = "Display up to <color=#92fc63>$1</color>  players"
 }
 
-_G.pg.gametip.friend_request_page_tip = {
+_G.pg.base.gametip.friend_request_page_tip = {
 	tip = "Save up to <color=#92fc63>$1</color> most recent friend requests"
 }
 
-_G.pg.gametip.friend_id_copy_ok = {
+_G.pg.base.gametip.friend_id_copy_ok = {
 	tip = "Your UID has been copied!"
 }
 
-_G.pg.gametip.friend_inpout_key_tip = {
+_G.pg.base.gametip.friend_inpout_key_tip = {
 	tip = "Please enter query..."
 }
 
-_G.pg.gametip.remove_friend_tip = {
+_G.pg.base.gametip.remove_friend_tip = {
 	tip = "Are you sure you want to delete this friend? "
 }
 
-_G.pg.gametip.friend_request_msg_placeholder = {
+_G.pg.base.gametip.friend_request_msg_placeholder = {
 	tip = "Your message..."
 }
 
-_G.pg.gametip.friend_request_msg_title = {
+_G.pg.base.gametip.friend_request_msg_title = {
 	tip = "Sending a request"
 }
 
-_G.pg.gametip.friend_max_count = {
+_G.pg.base.gametip.friend_max_count = {
 	tip = "Friends list <color=#92fc63>is full</color>! Unable to add friend."
 }
 
-_G.pg.gametip.friend_add_ok = {
+_G.pg.base.gametip.friend_add_ok = {
 	tip = "Friend added!"
 }
 
-_G.pg.gametip.friend_max_count_1 = {
+_G.pg.base.gametip.friend_max_count_1 = {
 	tip = "This person's friends list is full."
 }
 
-_G.pg.gametip.friend_no_request = {
+_G.pg.base.gametip.friend_no_request = {
 	tip = "No requests found."
 }
 
-_G.pg.gametip.reject_all_friend_ok = {
+_G.pg.base.gametip.reject_all_friend_ok = {
 	tip = "All friend requests rejected."
 }
 
-_G.pg.gametip.reject_friend_ok = {
+_G.pg.base.gametip.reject_friend_ok = {
 	tip = "Friend request rejected."
 }
 
-_G.pg.gametip.friend_offline = {
+_G.pg.base.gametip.friend_offline = {
 	tip = "Friend is offline."
 }
 
-_G.pg.gametip.friend_msg_forbid = {
+_G.pg.base.gametip.friend_msg_forbid = {
 	tip = "May not send requests with <color=#92fc63>blocked characters</color>."
 }
 
-_G.pg.gametip.dont_add_self = {
+_G.pg.base.gametip.dont_add_self = {
 	tip = "Commander, you can't friend yourself!"
 }
 
-_G.pg.gametip.friend_already_add = {
+_G.pg.base.gametip.friend_already_add = {
 	tip = "You're already friends with this player."
 }
 
-_G.pg.gametip.friend_not_add = {
+_G.pg.base.gametip.friend_not_add = {
 	tip = "You aren't friends with this player."
 }
 
-_G.pg.gametip.friend_send_msg_erro_tip = {
+_G.pg.base.gametip.friend_send_msg_erro_tip = {
 	tip = "Player is offline. Unable to send message."
 }
 
-_G.pg.gametip.friend_send_msg_null_tip = {
+_G.pg.base.gametip.friend_send_msg_null_tip = {
 	tip = "Unable to send message."
 }
 
-_G.pg.gametip.friend_search_succeed = {
+_G.pg.base.gametip.friend_search_succeed = {
 	tip = "Search complete!"
 }
 
-_G.pg.gametip.friend_request_msg_sent = {
+_G.pg.base.gametip.friend_request_msg_sent = {
 	tip = "Request sent!"
 }
 
-_G.pg.gametip.friend_resume_ship_count = {
+_G.pg.base.gametip.friend_resume_ship_count = {
 	tip = "Ships Owned:"
 }
 
-_G.pg.gametip.friend_resume_title_metal = {
+_G.pg.base.gametip.friend_resume_title_metal = {
 	tip = "Highest rank: "
 }
 
-_G.pg.gametip.friend_resume_collection_rate = {
+_G.pg.base.gametip.friend_resume_collection_rate = {
 	tip = "Collection:"
 }
 
-_G.pg.gametip.friend_resume_attack_count = {
+_G.pg.base.gametip.friend_resume_attack_count = {
 	tip = "Attacks: "
 }
 
-_G.pg.gametip.friend_resume_attack_win_rate = {
+_G.pg.base.gametip.friend_resume_attack_win_rate = {
 	tip = "ATK-WR:"
 }
 
-_G.pg.gametip.friend_resume_manoeuvre_count = {
+_G.pg.base.gametip.friend_resume_manoeuvre_count = {
 	tip = "Exercises: "
 }
 
-_G.pg.gametip.friend_resume_manoeuvre_win_rate = {
+_G.pg.base.gametip.friend_resume_manoeuvre_win_rate = {
 	tip = "EXER-WR:"
 }
 
-_G.pg.gametip.friend_resume_fleet_gs = {
+_G.pg.base.gametip.friend_resume_fleet_gs = {
 	tip = "Fleet Power:"
 }
 
-_G.pg.gametip.friend_event_count = {
+_G.pg.base.gametip.friend_event_count = {
 	tip = "Commissions: "
 }
 
-_G.pg.gametip.firend_relieve_blacklist_ok = {
+_G.pg.base.gametip.firend_relieve_blacklist_ok = {
 	tip = "Removed!"
 }
 
-_G.pg.gametip.firend_relieve_blacklist_tip = {
+_G.pg.base.gametip.firend_relieve_blacklist_tip = {
 	tip = "Are you sure you want to remove $1 from your blacklist?"
 }
 
-_G.pg.gametip.word_shipNation_all = {
+_G.pg.base.gametip.word_shipNation_all = {
 	tip = "All factions"
 }
 
-_G.pg.gametip.word_shipNation_baiYing = {
+_G.pg.base.gametip.word_shipNation_baiYing = {
 	tip = "Eagle Union"
 }
 
-_G.pg.gametip.word_shipNation_huangJia = {
+_G.pg.base.gametip.word_shipNation_huangJia = {
 	tip = "Royal Navy"
 }
 
-_G.pg.gametip.word_shipNation_chongYing = {
+_G.pg.base.gametip.word_shipNation_chongYing = {
 	tip = "Sakura Empire"
 }
 
-_G.pg.gametip.word_shipNation_tieXue = {
+_G.pg.base.gametip.word_shipNation_tieXue = {
 	tip = "Iron Blood"
 }
 
-_G.pg.gametip.word_shipNation_dongHuang = {
+_G.pg.base.gametip.word_shipNation_dongHuang = {
 	tip = "Dragon Empery"
 }
 
-_G.pg.gametip.word_shipNation_saDing = {
+_G.pg.base.gametip.word_shipNation_saDing = {
 	tip = "Sardegna Empire "
 }
 
-_G.pg.gametip.word_shipNation_beiLian = {
+_G.pg.base.gametip.word_shipNation_beiLian = {
 	tip = "Northern Parliament"
 }
 
-_G.pg.gametip.word_shipNation_other = {
+_G.pg.base.gametip.word_shipNation_other = {
 	tip = "Other"
 }
 
-_G.pg.gametip.word_shipNation_np = {
+_G.pg.base.gametip.word_shipNation_np = {
 	tip = "Neptune"
 }
 
-_G.pg.gametip.word_shipNation_ziyou = {
+_G.pg.base.gametip.word_shipNation_ziyou = {
 	tip = "Iris Libre"
 }
 
-_G.pg.gametip.word_shipNation_weixi = {
+_G.pg.base.gametip.word_shipNation_weixi = {
 	tip = "Vichya Dominion"
 }
 
-_G.pg.gametip.word_shipNation_bili = {
+_G.pg.base.gametip.word_shipNation_bili = {
 	tip = "哔哩哔哩"
 }
 
-_G.pg.gametip.word_shipNation_um = {
+_G.pg.base.gametip.word_shipNation_um = {
 	tip = "Utawarerumono "
 }
 
-_G.pg.gametip.word_shipNation_ai = {
+_G.pg.base.gametip.word_shipNation_ai = {
 	tip = "KizunaAI"
 }
 
-_G.pg.gametip.word_shipNation_holo = {
+_G.pg.base.gametip.word_shipNation_holo = {
 	tip = "hololive"
 }
 
-_G.pg.gametip.word_shipNation_doa = {
+_G.pg.base.gametip.word_shipNation_doa = {
 	tip = "Venus Vacation "
 }
 
-_G.pg.gametip.word_shipNation_imas = {
+_G.pg.base.gametip.word_shipNation_imas = {
 	tip = "The Idolmaster "
 }
 
-_G.pg.gametip.word_shipNation_link = {
+_G.pg.base.gametip.word_shipNation_link = {
 	tip = "Collab "
 }
 
-_G.pg.gametip.word_shipNation_ssss = {
+_G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
 }
 
-_G.pg.gametip.word_reset = {
+_G.pg.base.gametip.word_reset = {
 	tip = "Reset"
 }
 
-_G.pg.gametip.word_asc = {
+_G.pg.base.gametip.word_asc = {
 	tip = "Ascending"
 }
 
-_G.pg.gametip.word_desc = {
+_G.pg.base.gametip.word_desc = {
 	tip = "Descending"
 }
 
-_G.pg.gametip.word_own = {
+_G.pg.base.gametip.word_own = {
 	tip = "Owned "
 }
 
-_G.pg.gametip.word_own1 = {
+_G.pg.base.gametip.word_own1 = {
 	tip = "Owned:"
 }
 
-_G.pg.gametip.oil_buy_limit_tip = {
+_G.pg.base.gametip.oil_buy_limit_tip = {
 	tip = "<size=22>(Daily purchases left: <color=#FF0000>$1</color>/$2)</size>"
 }
 
-_G.pg.gametip.friend_resume_title = {
+_G.pg.base.gametip.friend_resume_title = {
 	tip = "Resume"
 }
 
-_G.pg.gametip.friend_resume_data_title = {
+_G.pg.base.gametip.friend_resume_data_title = {
 	tip = "Data"
 }
 
-_G.pg.gametip.batch_destroy = {
+_G.pg.base.gametip.batch_destroy = {
 	tip = "Multi Recycle"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_tip = {
 	tip = "Select gear to recycle: "
 }
 
-_G.pg.gametip.equipment_select_device_destroy_bonus_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_bonus_tip = {
 	tip = "Items received:"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_nobonus_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
 	tip = "No materials"
 }
 
-_G.pg.gametip.ship_equip_profiiency = {
+_G.pg.base.gametip.ship_equip_profiiency = {
 	tip = "Efficiency: $1%"
 }
 
-_G.pg.gametip.no_open_system_tip = {
+_G.pg.base.gametip.no_open_system_tip = {
 	tip = "Reach Commander <color=#92fc63>lv. $2</color> to unlock <color=#92fc63>$1</color>."
 }
 
-_G.pg.gametip.open_system_tip = {
+_G.pg.base.gametip.open_system_tip = {
 	tip = "$1 is now unlocked!"
 }
 
-_G.pg.gametip.charge_start_tip = {
+_G.pg.base.gametip.charge_start_tip = {
 	tip = "Buy to receive $2 Gems"
 }
 
-_G.pg.gametip.charge_double_gem_tip = {
+_G.pg.base.gametip.charge_double_gem_tip = {
 	tip = "Extra bonus gems $1"
 }
 
-_G.pg.gametip.charge_month_card_lefttime_tip = {
+_G.pg.base.gametip.charge_month_card_lefttime_tip = {
 	tip = "Trade License: \n$1 days left"
 }
 
-_G.pg.gametip.charge_title = {
+_G.pg.base.gametip.charge_title = {
 	tip = "Spend $1 to buy $3 x$2"
 }
 
-_G.pg.gametip.charge_extra_gem_tip = {
+_G.pg.base.gametip.charge_extra_gem_tip = {
 	tip = "Extra bonus gems $1"
 }
 
-_G.pg.gametip.charge_month_card_title = {
+_G.pg.base.gametip.charge_month_card_title = {
 	tip = "Extra bonus gems $1 now and items every day for a month"
 }
 
-_G.pg.gametip.charge_items_title = {
+_G.pg.base.gametip.charge_items_title = {
 	tip = "Items received"
 }
 
-_G.pg.gametip.setting_interface_save_success = {
+_G.pg.base.gametip.setting_interface_save_success = {
 	tip = "Control Settings Saved"
 }
 
-_G.pg.gametip.setting_interface_revert_check = {
+_G.pg.base.gametip.setting_interface_revert_check = {
 	tip = "Are you sure you want to reset your battle formation?"
 }
 
-_G.pg.gametip.setting_interface_cancel_check = {
+_G.pg.base.gametip.setting_interface_cancel_check = {
 	tip = "Discard your changes?"
 }
 
-_G.pg.gametip.event_special_update = {
+_G.pg.base.gametip.event_special_update = {
 	tip = "Urgent Commission: $1!"
 }
 
-_G.pg.gametip.no_notice_tip = {
+_G.pg.base.gametip.no_notice_tip = {
 	tip = "There aren't any current announcements!"
 }
 
-_G.pg.gametip.energy_desc_1 = {
+_G.pg.base.gametip.energy_desc_1 = {
 	tip = "Your girl needs rest!\n<color=#FF552E>(Continuing to attack will lower Affinity)</color>"
 }
 
-_G.pg.gametip.energy_desc_2 = {
+_G.pg.base.gametip.energy_desc_2 = {
 	tip = "Feeling pretty unhappy...\nHow about resting for a while?"
 }
 
-_G.pg.gametip.energy_desc_3 = {
+_G.pg.base.gametip.energy_desc_3 = {
 	tip = "I hope we're all this happy every day!"
 }
 
-_G.pg.gametip.energy_desc_4 = {
+_G.pg.base.gametip.energy_desc_4 = {
 	tip = "Something good is going to happen~!\n<color=#92fc63>(EXP bonus)</color>"
 }
 
-_G.pg.gametip.intimacy_desc_1 = {
+_G.pg.base.gametip.intimacy_desc_1 = {
 	tip = "$1 is upset with you."
 }
 
-_G.pg.gametip.intimacy_desc_2 = {
+_G.pg.base.gametip.intimacy_desc_2 = {
 	tip = "$1 wants to know you better."
 }
 
-_G.pg.gametip.intimacy_desc_3 = {
+_G.pg.base.gametip.intimacy_desc_3 = {
 	tip = "$1 thinks you're a trustworthy Commander."
 }
 
-_G.pg.gametip.intimacy_desc_4 = {
+_G.pg.base.gametip.intimacy_desc_4 = {
 	tip = "$1 is so happy and only wants to be with you!"
 }
 
-_G.pg.gametip.intimacy_desc_5 = {
+_G.pg.base.gametip.intimacy_desc_5 = {
 	tip = "$1 looks at you with eyes full of love."
 }
 
-_G.pg.gametip.intimacy_desc_6 = {
+_G.pg.base.gametip.intimacy_desc_6 = {
 	tip = "$1 is willing to trust her life with you."
 }
 
-_G.pg.gametip.intimacy_desc_7 = {
+_G.pg.base.gametip.intimacy_desc_7 = {
 	tip = "$1 is willing to trust her life with you."
 }
 
-_G.pg.gametip.intimacy_desc_1_buff = {
+_G.pg.base.gametip.intimacy_desc_1_buff = {
 	tip = "Current buff: None"
 }
 
-_G.pg.gametip.intimacy_desc_2_buff = {
+_G.pg.base.gametip.intimacy_desc_2_buff = {
 	tip = "Current buff: None"
 }
 
-_G.pg.gametip.intimacy_desc_3_buff = {
+_G.pg.base.gametip.intimacy_desc_3_buff = {
 	tip = "Current buff: All base stats (except speed and gear) +1%"
 }
 
-_G.pg.gametip.intimacy_desc_4_buff = {
+_G.pg.base.gametip.intimacy_desc_4_buff = {
 	tip = "Current buff: All base stats (except speed and gear) +3%"
 }
 
-_G.pg.gametip.intimacy_desc_5_buff = {
+_G.pg.base.gametip.intimacy_desc_5_buff = {
 	tip = "Current buff: All base stats (except speed and gear) +6%"
 }
 
-_G.pg.gametip.intimacy_desc_6_buff = {
+_G.pg.base.gametip.intimacy_desc_6_buff = {
 	tip = "Current buff: All base stats (except speed and gear) +9%"
 }
 
-_G.pg.gametip.intimacy_desc_7_buff = {
+_G.pg.base.gametip.intimacy_desc_7_buff = {
 	tip = "Current buff: All base stats (except speed and gear) +12%"
 }
 
-_G.pg.gametip.intimacy_desc_propose = {
+_G.pg.base.gametip.intimacy_desc_propose = {
 	tip = [[
 Love will guide the way, our hearts bound by an eternal promise!
 We share our smile, our words unspoken.
@@ -5328,27 +5328,27 @@ From this day forth, our fates are bound together.
 Promise date: $1]]
 }
 
-_G.pg.gametip.intimacy_desc_1_detail = {
+_G.pg.base.gametip.intimacy_desc_1_detail = {
 	tip = "$1 is upset with you.\n<color=#fad545><size=18>(No buff)</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_2_detail = {
+_G.pg.base.gametip.intimacy_desc_2_detail = {
 	tip = "$1 wants to know you better.\n<color=#fad545><size=18>(No buff)</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_3_detail = {
+_G.pg.base.gametip.intimacy_desc_3_detail = {
 	tip = "$1 thinks you're a trustworthy Commander.\n<color=#92fc63><size=18>All stats (except Speed) +1%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_4_detail = {
+_G.pg.base.gametip.intimacy_desc_4_detail = {
 	tip = "$1 is so happy and only wants to be with you!\n<color=#92fc63><size=18>All stats (except Speed) +3%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_5_detail = {
+_G.pg.base.gametip.intimacy_desc_5_detail = {
 	tip = "$1 looks at you with eyes full of love.\n<color=#92fc63><size=18>All stats (except Speed) +6%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_6_detail = {
+_G.pg.base.gametip.intimacy_desc_6_detail = {
 	tip = [[
 Love will guide the way, our hearts bound by an eternal promise!
 We share our smile, our words unspoken.
@@ -5357,7 +5357,7 @@ From this day forth, our fates are bound together.
 Promise date: $1]]
 }
 
-_G.pg.gametip.intimacy_desc_7_detail = {
+_G.pg.base.gametip.intimacy_desc_7_detail = {
 	tip = [[
 Love will guide the way, our hearts bound by an eternal promise!
 We share our smile, our words unspoken.
@@ -5366,79 +5366,79 @@ From this day forth, our fates are bound together.
 Promise date: $1]]
 }
 
-_G.pg.gametip.intimacy_desc_ring = {
+_G.pg.base.gametip.intimacy_desc_ring = {
 	tip = "1 Promise Ring"
 }
 
-_G.pg.gametip.intimacy_desc_tiara = {
+_G.pg.base.gametip.intimacy_desc_tiara = {
 	tip = "1 Unity Tiara"
 }
 
-_G.pg.gametip.intimacy_desc_day = {
+_G.pg.base.gametip.intimacy_desc_day = {
 	tip = ""
 }
 
-_G.pg.gametip.word_propose_cost_tip1 = {
+_G.pg.base.gametip.word_propose_cost_tip1 = {
 	tip = "Would you like to use <color=#92fc63>1</color> Unity Tiara? (Held: <color=#92fc63>$1</color>)\nAfter using this item, your ship's Affinity stat bonus will be increased by <color=#92fc63>3%</color>.\n*You will not be able to change this character's name. "
 }
 
-_G.pg.gametip.word_propose_cost_tip2 = {
+_G.pg.base.gametip.word_propose_cost_tip2 = {
 	tip = "Are you sure you want to convert <color=#92fc63>1</color> Promise Ring into <color=#92fc63>1</color> Unity Tiara?\nYou cannot convert the Unity Tiara back into a Promise Ring.\n*You will not be able to change this character's name. "
 }
 
-_G.pg.gametip.word_propose_tiara_tip = {
+_G.pg.base.gametip.word_propose_tiara_tip = {
 	tip = "A tiara that symbolizes the deep bond you share with your friends."
 }
 
-_G.pg.gametip.charge_title_getitem = {
+_G.pg.base.gametip.charge_title_getitem = {
 	tip = "May receive the following items: "
 }
 
-_G.pg.gametip.charge_title_getitem_soon = {
+_G.pg.base.gametip.charge_title_getitem_soon = {
 	tip = "Receive after purchase: "
 }
 
-_G.pg.gametip.charge_title_getitem_month = {
+_G.pg.base.gametip.charge_title_getitem_month = {
 	tip = "Receive every day for 30 days:"
 }
 
-_G.pg.gametip.charge_limit_all = {
+_G.pg.base.gametip.charge_limit_all = {
 	tip = "Purchases: $1/$2"
 }
 
-_G.pg.gametip.charge_limit_daily = {
+_G.pg.base.gametip.charge_limit_daily = {
 	tip = "Available today: $1"
 }
 
-_G.pg.gametip.charge_limit_weekly = {
+_G.pg.base.gametip.charge_limit_weekly = {
 	tip = "Available this week: $1"
 }
 
-_G.pg.gametip.charge_error = {
+_G.pg.base.gametip.charge_error = {
 	tip = "Purchase failed."
 }
 
-_G.pg.gametip.charge_success = {
+_G.pg.base.gametip.charge_success = {
 	tip = "Gems added!"
 }
 
-_G.pg.gametip.charge_level_limit = {
+_G.pg.base.gametip.charge_level_limit = {
 	tip = "Level is too low."
 }
 
-_G.pg.gametip.ship_drop_desc_default = {
+_G.pg.base.gametip.ship_drop_desc_default = {
 	tip = "Received a ship"
 }
 
-_G.pg.gametip.charge_limit_lv = {
+_G.pg.base.gametip.charge_limit_lv = {
 	tip = "Unlocks lv. $1"
 }
 
-_G.pg.gametip.charge_time_out = {
+_G.pg.base.gametip.charge_time_out = {
 	tip = "Payment in progress. Please be patient while we send your items."
 }
 
-_G.pg.gametip.help_shipinfo_equip = {
+_G.pg.base.gametip.help_shipinfo_equip = {
 	tip = {
 		{
 			icon = {
@@ -5506,7 +5506,7 @@ _G.pg.gametip.help_shipinfo_equip = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_detail = {
+_G.pg.base.gametip.help_shipinfo_detail = {
 	tip = {
 		{
 			icon = {
@@ -5580,7 +5580,7 @@ _G.pg.gametip.help_shipinfo_detail = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_intensify = {
+_G.pg.base.gametip.help_shipinfo_intensify = {
 	tip = {
 		{
 			icon = {
@@ -5648,7 +5648,7 @@ _G.pg.gametip.help_shipinfo_intensify = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_upgrate = {
+_G.pg.base.gametip.help_shipinfo_upgrate = {
 	tip = {
 		{
 			icon = {
@@ -5716,7 +5716,7 @@ _G.pg.gametip.help_shipinfo_upgrate = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_maxlevel = {
+_G.pg.base.gametip.help_shipinfo_maxlevel = {
 	tip = {
 		{
 			icon = {
@@ -5784,7 +5784,7 @@ _G.pg.gametip.help_shipinfo_maxlevel = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_actnpc = {
+_G.pg.base.gametip.help_shipinfo_actnpc = {
 	tip = {
 		{
 			info = [[
@@ -5820,7 +5820,7 @@ NPC can’t participate Operation Siren or Guild activities.]]
 	}
 }
 
-_G.pg.gametip.help_backyard = {
+_G.pg.base.gametip.help_backyard = {
 	tip = {
 		{
 			icon = {
@@ -5886,7 +5886,7 @@ _G.pg.gametip.help_backyard = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_fashion = {
+_G.pg.base.gametip.help_shipinfo_fashion = {
 	tip = {
 		{
 			info = [[
@@ -5898,7 +5898,7 @@ Skin:
 	}
 }
 
-_G.pg.gametip.help_shipinfo_attr = {
+_G.pg.base.gametip.help_shipinfo_attr = {
 	tip = {
 		{
 			info = "1.Stats Details:"
@@ -6049,7 +6049,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 	}
 }
 
-_G.pg.gametip.help_equipment = {
+_G.pg.base.gametip.help_equipment = {
 	tip = {
 		{
 			info = [[
@@ -6080,7 +6080,7 @@ used as the main gun of Battleships and Battlecruisers
 	}
 }
 
-_G.pg.gametip.help_equipment_skin = {
+_G.pg.base.gametip.help_equipment_skin = {
 	tip = {
 		{
 			info = [[
@@ -6111,7 +6111,7 @@ used as the main gun of Battleships and Battlecruisers
 	}
 }
 
-_G.pg.gametip.help_daily_task = {
+_G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
@@ -6161,7 +6161,7 @@ Defeat small/medium/large fleets.
 	}
 }
 
-_G.pg.gametip.help_build = {
+_G.pg.base.gametip.help_build = {
 	tip = [[
 				<size=23>$1 Construct Rate:</size>
 
@@ -6173,7 +6173,7 @@ _G.pg.gametip.help_build = {
 									]]
 }
 
-_G.pg.gametip.help_build_1 = {
+_G.pg.base.gametip.help_build_1 = {
 	tip = [[
 				<size=23>$1 Construct Rate:</size>
 
@@ -6189,7 +6189,7 @@ _G.pg.gametip.help_build_1 = {
 							<color=#966af6>   Zeppy</color>：2.5%<color=#92fc63>(up!)</color>]]
 }
 
-_G.pg.gametip.help_build_2 = {
+_G.pg.base.gametip.help_build_2 = {
 	tip = [[
 				<size=23>$1 Construct Rate:</size>
 
@@ -6201,7 +6201,7 @@ _G.pg.gametip.help_build_2 = {
 									]]
 }
 
-_G.pg.gametip.help_build_4 = {
+_G.pg.base.gametip.help_build_4 = {
 	tip = [[
 				<size=23>$1 Construct Rate:</size>
 
@@ -6219,7 +6219,7 @@ _G.pg.gametip.help_build_4 = {
 ]]
 }
 
-_G.pg.gametip.help_build_5 = {
+_G.pg.base.gametip.help_build_5 = {
 	tip = [[
 						<size=23>$1 Construct Rate:</size>
 
@@ -6238,7 +6238,7 @@ _G.pg.gametip.help_build_5 = {
 ]]
 }
 
-_G.pg.gametip.help_shipinfo_hunting = {
+_G.pg.base.gametip.help_shipinfo_hunting = {
 	tip = {
 		{
 			info = [[
@@ -6262,231 +6262,231 @@ Attack/Support Range Level:
 	}
 }
 
-_G.pg.gametip.shop_extendship_success = {
+_G.pg.base.gametip.shop_extendship_success = {
 	tip = "Dock expanded!"
 }
 
-_G.pg.gametip.shop_extendequip_success = {
+_G.pg.base.gametip.shop_extendequip_success = {
 	tip = "Gear storage expanded!"
 }
 
-_G.pg.gametip.naval_academy_res_desc_cateen = {
+_G.pg.base.gametip.naval_academy_res_desc_cateen = {
 	tip = "This is where our girls get all their tasty meals! Upgrade to increase <color=#92fc63>Oil production</color> and <color=#92fc63>capacity</color>."
 }
 
-_G.pg.gametip.naval_academy_res_desc_shop = {
+_G.pg.base.gametip.naval_academy_res_desc_shop = {
 	tip = "Upgrade the Academy's Merchant to increase <color=#92fc63>Coins production</color> and <color=#92fc63>capacity</color>."
 }
 
-_G.pg.gametip.naval_academy_res_desc_class = {
+_G.pg.base.gametip.naval_academy_res_desc_class = {
 	tip = "Upgrading the Lecture Hall will increase <color=#92fc63>Proficiency Limit</color>, <color=#92fc63>Proficiency Gain Rate</color>, and <color=#92fc63>EXP Data Production</color>."
 }
 
-_G.pg.gametip.number_1 = {
+_G.pg.base.gametip.number_1 = {
 	tip = "1"
 }
 
-_G.pg.gametip.number_2 = {
+_G.pg.base.gametip.number_2 = {
 	tip = "2"
 }
 
-_G.pg.gametip.number_3 = {
+_G.pg.base.gametip.number_3 = {
 	tip = "3"
 }
 
-_G.pg.gametip.number_4 = {
+_G.pg.base.gametip.number_4 = {
 	tip = "4"
 }
 
-_G.pg.gametip.number_5 = {
+_G.pg.base.gametip.number_5 = {
 	tip = "5"
 }
 
-_G.pg.gametip.number_6 = {
+_G.pg.base.gametip.number_6 = {
 	tip = "6"
 }
 
-_G.pg.gametip.number_7 = {
+_G.pg.base.gametip.number_7 = {
 	tip = "7"
 }
 
-_G.pg.gametip.number_8 = {
+_G.pg.base.gametip.number_8 = {
 	tip = "8"
 }
 
-_G.pg.gametip.number_9 = {
+_G.pg.base.gametip.number_9 = {
 	tip = "9"
 }
 
-_G.pg.gametip.number_10 = {
+_G.pg.base.gametip.number_10 = {
 	tip = "10"
 }
 
-_G.pg.gametip.military_shop_no_open_tip = {
+_G.pg.base.gametip.military_shop_no_open_tip = {
 	tip = "Reach Commander <color=#92fc63>lv. 15</color> to unlock the <color=#92fc63>Munitions Shop</color>."
 }
 
-_G.pg.gametip.switch_to_shop_tip_1 = {
+_G.pg.base.gametip.switch_to_shop_tip_1 = {
 	tip = "You don't have enough materials. Care to buy some from the shop?"
 }
 
-_G.pg.gametip.switch_to_shop_tip_2 = {
+_G.pg.base.gametip.switch_to_shop_tip_2 = {
 	tip = "You don't have enough $1. Care to buy some from the shop?"
 }
 
-_G.pg.gametip.switch_to_shop_tip_3 = {
+_G.pg.base.gametip.switch_to_shop_tip_3 = {
 	tip = "You don't have enough $1. Care to buy some?"
 }
 
-_G.pg.gametip.switch_to_shop_tip_noPos = {
+_G.pg.base.gametip.switch_to_shop_tip_noPos = {
 	tip = "Please sort or expand your storage!"
 }
 
-_G.pg.gametip.text_noPos_clear = {
+_G.pg.base.gametip.text_noPos_clear = {
 	tip = "Sort"
 }
 
-_G.pg.gametip.text_noPos_buy = {
+_G.pg.base.gametip.text_noPos_buy = {
 	tip = "Expand"
 }
 
-_G.pg.gametip.text_noPos_intensify = {
+_G.pg.base.gametip.text_noPos_intensify = {
 	tip = "Enhance "
 }
 
-_G.pg.gametip.switch_to_shop_tip_noDockyard = {
+_G.pg.base.gametip.switch_to_shop_tip_noDockyard = {
 	tip = "Please sort or expand your dock!"
 }
 
-_G.pg.gametip.commission_no_open = {
+_G.pg.base.gametip.commission_no_open = {
 	tip = " "
 }
 
-_G.pg.gametip.commission_open_tip = {
+_G.pg.base.gametip.commission_open_tip = {
 	tip = "Clear stage $1 to unlock"
 }
 
-_G.pg.gametip.commission_idle = {
+_G.pg.base.gametip.commission_idle = {
 	tip = "Idle..."
 }
 
-_G.pg.gametip.commission_urgency = {
+_G.pg.base.gametip.commission_urgency = {
 	tip = "Urgent commission: "
 }
 
-_G.pg.gametip.commission_normal = {
+_G.pg.base.gametip.commission_normal = {
 	tip = "Commission: "
 }
 
-_G.pg.gametip.commission_get_award = {
+_G.pg.base.gametip.commission_get_award = {
 	tip = "Rewards collected: $1 x$2"
 }
 
-_G.pg.gametip.activity_build_end_tip = {
+_G.pg.base.gametip.activity_build_end_tip = {
 	tip = "Event has already ended. Unable to build."
 }
 
-_G.pg.gametip.event_over_time_expired = {
+_G.pg.base.gametip.event_over_time_expired = {
 	tip = "Commission expired."
 }
 
-_G.pg.gametip.mail_sender_default = {
+_G.pg.base.gametip.mail_sender_default = {
 	tip = "Headquarters"
 }
 
-_G.pg.gametip.exchangecode_title = {
+_G.pg.base.gametip.exchangecode_title = {
 	tip = "Enter code..."
 }
 
-_G.pg.gametip.exchangecode_use_placeholder = {
+_G.pg.base.gametip.exchangecode_use_placeholder = {
 	tip = "Letters and numbers only"
 }
 
-_G.pg.gametip.exchangecode_use_ok = {
+_G.pg.base.gametip.exchangecode_use_ok = {
 	tip = "Code exchanged! Rewards have been sent via mail."
 }
 
-_G.pg.gametip.exchangecode_use_error = {
+_G.pg.base.gametip.exchangecode_use_error = {
 	tip = "Code could not be used. "
 }
 
-_G.pg.gametip.exchangecode_use_error_3 = {
+_G.pg.base.gametip.exchangecode_use_error_3 = {
 	tip = "Code has expired."
 }
 
-_G.pg.gametip.exchangecode_use_error_6 = {
+_G.pg.base.gametip.exchangecode_use_error_6 = {
 	tip = "Code has been used too many times."
 }
 
-_G.pg.gametip.exchangecode_use_error_7 = {
+_G.pg.base.gametip.exchangecode_use_error_7 = {
 	tip = "Code has already been used."
 }
 
-_G.pg.gametip.exchangecode_use_error_8 = {
+_G.pg.base.gametip.exchangecode_use_error_8 = {
 	tip = "Code does not exist."
 }
 
-_G.pg.gametip.exchangecode_use_error_9 = {
+_G.pg.base.gametip.exchangecode_use_error_9 = {
 	tip = "Code does not exist."
 }
 
-_G.pg.gametip.exchangecode_use_error_16 = {
+_G.pg.base.gametip.exchangecode_use_error_16 = {
 	tip = "Code has been used."
 }
 
-_G.pg.gametip.exchangecode_use_error_20 = {
+_G.pg.base.gametip.exchangecode_use_error_20 = {
 	tip = "Code does not exist."
 }
 
-_G.pg.gametip.text_noRes_tip = {
+_G.pg.base.gametip.text_noRes_tip = {
 	tip = "Still need: $1"
 }
 
-_G.pg.gametip.text_noRes_info_tip = {
+_G.pg.base.gametip.text_noRes_info_tip = {
 	tip = "<color=#FF0000>$2 $1</color>"
 }
 
-_G.pg.gametip.text_noRes_info_tip_link = {
+_G.pg.base.gametip.text_noRes_info_tip_link = {
 	tip = " and "
 }
 
-_G.pg.gametip.text_noRes_info_tip2 = {
+_G.pg.base.gametip.text_noRes_info_tip2 = {
 	tip = "<color=#FF0000>$1</color> x<color=#FF0000>$2</color>"
 }
 
-_G.pg.gametip.text_shop_noRes_tip = {
+_G.pg.base.gametip.text_shop_noRes_tip = {
 	tip = "Commander, you still need $1!"
 }
 
-_G.pg.gametip.text_shop_enoughRes_tip = {
+_G.pg.base.gametip.text_shop_enoughRes_tip = {
 	tip = "Commander, you can't hold any more Coins!"
 }
 
-_G.pg.gametip.text_buy_fashion_tip = {
+_G.pg.base.gametip.text_buy_fashion_tip = {
 	tip = "Spend $1 Gems to buy $2?"
 }
 
-_G.pg.gametip.equip_part_title = {
+_G.pg.base.gametip.equip_part_title = {
 	tip = "Use"
 }
 
-_G.pg.gametip.equip_part_main_title = {
+_G.pg.base.gametip.equip_part_main_title = {
 	tip = "Use (Main)"
 }
 
-_G.pg.gametip.equip_part_sub_title = {
+_G.pg.base.gametip.equip_part_sub_title = {
 	tip = "Use (Auxiliary)"
 }
 
-_G.pg.gametip.equipment_upgrade_overlimit = {
+_G.pg.base.gametip.equipment_upgrade_overlimit = {
 	tip = "Fully enhanced."
 }
 
-_G.pg.gametip.err_name_existOtherChar = {
+_G.pg.base.gametip.err_name_existOtherChar = {
 	tip = "No special characters allowed."
 }
 
-_G.pg.gametip.help_battle_rule = {
+_G.pg.base.gametip.help_battle_rule = {
 	tip = {
 		{
 			icon = {
@@ -6536,7 +6536,7 @@ _G.pg.gametip.help_battle_rule = {
 	}
 }
 
-_G.pg.gametip.help_battle_warspite = {
+_G.pg.base.gametip.help_battle_warspite = {
 	tip = {
 		{
 			icon = {
@@ -6562,7 +6562,7 @@ _G.pg.gametip.help_battle_warspite = {
 	}
 }
 
-_G.pg.gametip.help_battle_defense = {
+_G.pg.base.gametip.help_battle_defense = {
 	tip = {
 		{
 			icon = {
@@ -6618,35 +6618,35 @@ _G.pg.gametip.help_battle_defense = {
 	}
 }
 
-_G.pg.gametip.backyard_theme_set_tip = {
+_G.pg.base.gametip.backyard_theme_set_tip = {
 	tip = "Select which action to perform on <color=#5FD500>$1</color>."
 }
 
-_G.pg.gametip.backyard_theme_save_tip = {
+_G.pg.base.gametip.backyard_theme_save_tip = {
 	tip = "Are you sure you want to save the current dorm layout as \n<color=#5FD500>$1</color>?"
 }
 
-_G.pg.gametip.backyard_theme_defaultname = {
+_G.pg.base.gametip.backyard_theme_defaultname = {
 	tip = "Custom Theme"
 }
 
-_G.pg.gametip.backyard_rename_success = {
+_G.pg.base.gametip.backyard_rename_success = {
 	tip = "Dorm name changed!"
 }
 
-_G.pg.gametip.ship_set_skin_success = {
+_G.pg.base.gametip.ship_set_skin_success = {
 	tip = "Skin changed!"
 }
 
-_G.pg.gametip.ship_set_skin_error = {
+_G.pg.base.gametip.ship_set_skin_error = {
 	tip = "Failed to change skins: "
 }
 
-_G.pg.gametip.equip_part_tip = {
+_G.pg.base.gametip.equip_part_tip = {
 	tip = "*Tap to see which ships can use"
 }
 
-_G.pg.gametip.help_battle_auto = {
+_G.pg.base.gametip.help_battle_auto = {
 	tip = {
 		{
 			line = true,
@@ -6673,19 +6673,19 @@ _G.pg.gametip.help_battle_auto = {
 	}
 }
 
-_G.pg.gametip.gold_buy_tip = {
+_G.pg.base.gametip.gold_buy_tip = {
 	tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>100</color></size> to buy <size=25><color=#92fc63>3000</color></size><size=24> Coins</size>"
 }
 
-_G.pg.gametip.oil_buy_tip = {
+_G.pg.base.gametip.oil_buy_tip = {
 	tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>$1</color></size> to buy <size=25><color=#92fc63>$2</color></size><size=24> Oil</size><size=2>\n\n</size><size=22>(Already bought <size=25><color=#FF0000>$3</color></size> times today)</size>"
 }
 
-_G.pg.gametip.text_iknow = {
+_G.pg.base.gametip.text_iknow = {
 	tip = "Got it"
 }
 
-_G.pg.gametip.help_oil_buy_limit = {
+_G.pg.base.gametip.help_oil_buy_limit = {
 	tip = {
 		{
 			line = true,
@@ -6709,783 +6709,783 @@ _G.pg.gametip.help_oil_buy_limit = {
 	}
 }
 
-_G.pg.gametip.text_nofood_yes = {
+_G.pg.base.gametip.text_nofood_yes = {
 	tip = "Give Food"
 }
 
-_G.pg.gametip.text_nofood_no = {
+_G.pg.base.gametip.text_nofood_no = {
 	tip = "Ignore"
 }
 
-_G.pg.gametip.tip_add_task = {
+_G.pg.base.gametip.tip_add_task = {
 	tip = "New mission: $1"
 }
 
-_G.pg.gametip.collection_award_ship = {
+_G.pg.base.gametip.collection_award_ship = {
 	tip = "$1 research complete! Now in construction queue."
 }
 
-_G.pg.gametip.guild_create_sucess = {
+_G.pg.base.gametip.guild_create_sucess = {
 	tip = "Guild created!"
 }
 
-_G.pg.gametip.guild_create_error = {
+_G.pg.base.gametip.guild_create_error = {
 	tip = "Failed to create guild."
 }
 
-_G.pg.gametip.guild_create_error_noname = {
+_G.pg.base.gametip.guild_create_error_noname = {
 	tip = "Guild name may not be empty."
 }
 
-_G.pg.gametip.guild_create_error_nofaction = {
+_G.pg.base.gametip.guild_create_error_nofaction = {
 	tip = "Please select a faction for the guild."
 }
 
-_G.pg.gametip.guild_create_error_nopolicy = {
+_G.pg.base.gametip.guild_create_error_nopolicy = {
 	tip = "Guild policy may not be empty."
 }
 
-_G.pg.gametip.guild_create_error_nomanifesto = {
+_G.pg.base.gametip.guild_create_error_nomanifesto = {
 	tip = "Guild motto may not be empty."
 }
 
-_G.pg.gametip.guild_create_error_nomoney = {
+_G.pg.base.gametip.guild_create_error_nomoney = {
 	tip = "You don't have enough Gems!"
 }
 
-_G.pg.gametip.guild_tip_dissolve = {
+_G.pg.base.gametip.guild_tip_dissolve = {
 	tip = "Once a Guild is disbanded, the Guild status (including member activity, Guild funding, Guild tech level, etc) will be erased and cannot be restored. All uncollected supplies and Action Reports will be permanently lost. Are you sure you wish to disband the Guild? "
 }
 
-_G.pg.gametip.guild_tip_quit = {
+_G.pg.base.gametip.guild_tip_quit = {
 	tip = "Are you sure you want to leave the guild?"
 }
 
-_G.pg.gametip.guild_create_confirm = {
+_G.pg.base.gametip.guild_create_confirm = {
 	tip = "Spend <icon name=diamond w=0.7 h=0.7/>$1 to create a guild?"
 }
 
-_G.pg.gametip.guild_apply_erro = {
+_G.pg.base.gametip.guild_apply_erro = {
 	tip = "Failed to send guild application."
 }
 
-_G.pg.gametip.guild_dissolve_erro = {
+_G.pg.base.gametip.guild_dissolve_erro = {
 	tip = "Failed to dissolve guild."
 }
 
-_G.pg.gametip.guild_fire_erro = {
+_G.pg.base.gametip.guild_fire_erro = {
 	tip = "Failed to kick guild member."
 }
 
-_G.pg.gametip.guild_impeach_erro = {
+_G.pg.base.gametip.guild_impeach_erro = {
 	tip = "Failed to impeach Guild Admiral."
 }
 
-_G.pg.gametip.guild_quit_erro = {
+_G.pg.base.gametip.guild_quit_erro = {
 	tip = "Failed to leave guild."
 }
 
-_G.pg.gametip.guild_accept_erro = {
+_G.pg.base.gametip.guild_accept_erro = {
 	tip = "Failed to accept application."
 }
 
-_G.pg.gametip.guild_reject_erro = {
+_G.pg.base.gametip.guild_reject_erro = {
 	tip = "Failed to reject application."
 }
 
-_G.pg.gametip.guild_modify_erro = {
+_G.pg.base.gametip.guild_modify_erro = {
 	tip = "Failed to change info."
 }
 
-_G.pg.gametip.guild_setduty_erro = {
+_G.pg.base.gametip.guild_setduty_erro = {
 	tip = "Failed to set positions."
 }
 
-_G.pg.gametip.guild_apply_sucess = {
+_G.pg.base.gametip.guild_apply_sucess = {
 	tip = "Application has been sent!"
 }
 
-_G.pg.gametip.guild_no_exist = {
+_G.pg.base.gametip.guild_no_exist = {
 	tip = "Guild does not exist."
 }
 
-_G.pg.gametip.guild_dissolve_sucess = {
+_G.pg.base.gametip.guild_dissolve_sucess = {
 	tip = "Guild has been dissolved!"
 }
 
-_G.pg.gametip.guild_commder_in_impeach_time = {
+_G.pg.base.gametip.guild_commder_in_impeach_time = {
 	tip = "Guild Admiral is being impeached."
 }
 
-_G.pg.gametip.guild_impeach_sucess = {
+_G.pg.base.gametip.guild_impeach_sucess = {
 	tip = "Impeachment successful!"
 }
 
-_G.pg.gametip.guild_quit_sucess = {
+_G.pg.base.gametip.guild_quit_sucess = {
 	tip = "You have left the guild."
 }
 
-_G.pg.gametip.guild_member_max_count = {
+_G.pg.base.gametip.guild_member_max_count = {
 	tip = "The guild is full!"
 }
 
-_G.pg.gametip.guild_new_member_join = {
+_G.pg.base.gametip.guild_new_member_join = {
 	tip = "A new player has joined the guild."
 }
 
-_G.pg.gametip.guild_player_in_cd_time = {
+_G.pg.base.gametip.guild_player_in_cd_time = {
 	tip = "Target player left another guild less than 24 hours ago and may not join your guild at this time."
 }
 
-_G.pg.gametip.guild_player_already_join = {
+_G.pg.base.gametip.guild_player_already_join = {
 	tip = "Player was already a guild member."
 }
 
-_G.pg.gametip.guild_rejecet_apply_sucess = {
+_G.pg.base.gametip.guild_rejecet_apply_sucess = {
 	tip = "Application rejected."
 }
 
-_G.pg.gametip.guild_should_input_keyword = {
+_G.pg.base.gametip.guild_should_input_keyword = {
 	tip = "Your search query is empty."
 }
 
-_G.pg.gametip.guild_search_sucess = {
+_G.pg.base.gametip.guild_search_sucess = {
 	tip = "Search complete!"
 }
 
-_G.pg.gametip.guild_list_refresh_sucess = {
+_G.pg.base.gametip.guild_list_refresh_sucess = {
 	tip = "List of guilds has been refreshed."
 }
 
-_G.pg.gametip.guild_info_update = {
+_G.pg.base.gametip.guild_info_update = {
 	tip = "Guild info updated."
 }
 
-_G.pg.gametip.guild_duty_id_is_null = {
+_G.pg.base.gametip.guild_duty_id_is_null = {
 	tip = "Posts may not be empty."
 }
 
-_G.pg.gametip.guild_player_is_null = {
+_G.pg.base.gametip.guild_player_is_null = {
 	tip = "Players may not be empty."
 }
 
-_G.pg.gametip.guild_duty_commder_max_count = {
+_G.pg.base.gametip.guild_duty_commder_max_count = {
 	tip = "All Vice Admiral posts are filled."
 }
 
-_G.pg.gametip.guild_set_duty_sucess = {
+_G.pg.base.gametip.guild_set_duty_sucess = {
 	tip = "Post settings updated!"
 }
 
-_G.pg.gametip.guild_policy_power = {
+_G.pg.base.gametip.guild_policy_power = {
 	tip = "Best"
 }
 
-_G.pg.gametip.guild_policy_relax = {
+_G.pg.base.gametip.guild_policy_relax = {
 	tip = "Casual"
 }
 
-_G.pg.gametip.guild_faction_blhx = {
+_G.pg.base.gametip.guild_faction_blhx = {
 	tip = "Azur Lane"
 }
 
-_G.pg.gametip.guild_faction_cszz = {
+_G.pg.base.gametip.guild_faction_cszz = {
 	tip = "Crimson Axis"
 }
 
-_G.pg.gametip.guild_faction_unknown = {
+_G.pg.base.gametip.guild_faction_unknown = {
 	tip = "????"
 }
 
-_G.pg.gametip.guild_faction_meta = {
+_G.pg.base.gametip.guild_faction_meta = {
 	tip = "META"
 }
 
-_G.pg.gametip.guild_word_commder = {
+_G.pg.base.gametip.guild_word_commder = {
 	tip = "Admiral"
 }
 
-_G.pg.gametip.guild_word_deputy_commder = {
+_G.pg.base.gametip.guild_word_deputy_commder = {
 	tip = "Vice Admiral"
 }
 
-_G.pg.gametip.guild_word_picked = {
+_G.pg.base.gametip.guild_word_picked = {
 	tip = "Elite"
 }
 
-_G.pg.gametip.guild_word_ordinary = {
+_G.pg.base.gametip.guild_word_ordinary = {
 	tip = "Normal"
 }
 
-_G.pg.gametip.guild_word_home = {
+_G.pg.base.gametip.guild_word_home = {
 	tip = "Home"
 }
 
-_G.pg.gametip.guild_word_member = {
+_G.pg.base.gametip.guild_word_member = {
 	tip = "Members"
 }
 
-_G.pg.gametip.guild_word_apply = {
+_G.pg.base.gametip.guild_word_apply = {
 	tip = "Apply"
 }
 
-_G.pg.gametip.guild_faction_change_tip = {
+_G.pg.base.gametip.guild_faction_change_tip = {
 	tip = "You must wait at least 30 days before changing factions again. Are you sure you want to change your faction?"
 }
 
-_G.pg.gametip.guild_msg_is_null = {
+_G.pg.base.gametip.guild_msg_is_null = {
 	tip = "Unable to send empty messages."
 }
 
-_G.pg.gametip.guild_log_new_guild_join = {
+_G.pg.base.gametip.guild_log_new_guild_join = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has joined the guild!"
 }
 
-_G.pg.gametip.guild_log_duty_change = {
+_G.pg.base.gametip.guild_log_duty_change = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> is now $2!"
 }
 
-_G.pg.gametip.guild_log_quit = {
+_G.pg.base.gametip.guild_log_quit = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has left the guild."
 }
 
-_G.pg.gametip.guild_log_fire = {
+_G.pg.base.gametip.guild_log_fire = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> was kicked from the guild."
 }
 
-_G.pg.gametip.guild_leave_cd_time = {
+_G.pg.base.gametip.guild_leave_cd_time = {
 	tip = "You must wait 24 hours after leaving your guild to join another."
 }
 
-_G.pg.gametip.guild_sort_time = {
+_G.pg.base.gametip.guild_sort_time = {
 	tip = "Time"
 }
 
-_G.pg.gametip.guild_sort_level = {
+_G.pg.base.gametip.guild_sort_level = {
 	tip = "Lv."
 }
 
-_G.pg.gametip.guild_sort_duty = {
+_G.pg.base.gametip.guild_sort_duty = {
 	tip = "Post"
 }
 
-_G.pg.gametip.guild_fire_tip = {
+_G.pg.base.gametip.guild_fire_tip = {
 	tip = "Are you sure you want to kick this player?"
 }
 
-_G.pg.gametip.guild_impeach_tip = {
+_G.pg.base.gametip.guild_impeach_tip = {
 	tip = "Are you sure you want to impeach the Admiral?"
 }
 
-_G.pg.gametip.guild_set_duty_title = {
+_G.pg.base.gametip.guild_set_duty_title = {
 	tip = "Appoint $1 as: "
 }
 
-_G.pg.gametip.guild_search_list_max_count = {
+_G.pg.base.gametip.guild_search_list_max_count = {
 	tip = "Display $1 lines"
 }
 
-_G.pg.gametip.guild_sort_all = {
+_G.pg.base.gametip.guild_sort_all = {
 	tip = "All"
 }
 
-_G.pg.gametip.guild_sort_blhx = {
+_G.pg.base.gametip.guild_sort_blhx = {
 	tip = "Azur Lane"
 }
 
-_G.pg.gametip.guild_sort_cszz = {
+_G.pg.base.gametip.guild_sort_cszz = {
 	tip = "Crimson Axis"
 }
 
-_G.pg.gametip.guild_sort_power = {
+_G.pg.base.gametip.guild_sort_power = {
 	tip = "Best"
 }
 
-_G.pg.gametip.guild_sort_relax = {
+_G.pg.base.gametip.guild_sort_relax = {
 	tip = "Casual"
 }
 
-_G.pg.gametip.guild_join_cd = {
+_G.pg.base.gametip.guild_join_cd = {
 	tip = "You must wait 24 hours after leaving your guild to join another."
 }
 
-_G.pg.gametip.guild_name_invaild = {
+_G.pg.base.gametip.guild_name_invaild = {
 	tip = "This name is already in use."
 }
 
-_G.pg.gametip.guild_apply_full = {
+_G.pg.base.gametip.guild_apply_full = {
 	tip = "Guild's list of applications is full."
 }
 
-_G.pg.gametip.guild_member_full = {
+_G.pg.base.gametip.guild_member_full = {
 	tip = "This Guild is full. "
 }
 
-_G.pg.gametip.guild_fire_duty_limit = {
+_G.pg.base.gametip.guild_fire_duty_limit = {
 	tip = "May only kick players with less authority than yourself."
 }
 
-_G.pg.gametip.guild_fire_succeed = {
+_G.pg.base.gametip.guild_fire_succeed = {
 	tip = "Kicked!"
 }
 
-_G.pg.gametip.guild_duty_tip_1 = {
+_G.pg.base.gametip.guild_duty_tip_1 = {
 	tip = "<color=#7FAFFF>Current Rank</color>"
 }
 
-_G.pg.gametip.guild_duty_tip_2 = {
+_G.pg.base.gametip.guild_duty_tip_2 = {
 	tip = "<color=#C3C3C3>Non-promotion</color>"
 }
 
-_G.pg.gametip.battle_repair_special_tip = {
+_G.pg.base.gametip.battle_repair_special_tip = {
 	tip = "Are you sure you want to use an \n<color=#a0ff40>Elite management team</color>?"
 }
 
-_G.pg.gametip.battle_repair_normal_name = {
+_G.pg.base.gametip.battle_repair_normal_name = {
 	tip = "Daily free chances: "
 }
 
-_G.pg.gametip.battle_repair_special_name = {
+_G.pg.base.gametip.battle_repair_special_name = {
 	tip = "Daily bonus chances: "
 }
 
-_G.pg.gametip.oil_max_tip_title = {
+_G.pg.base.gametip.oil_max_tip_title = {
 	tip = "You can't hold any more Oil. "
 }
 
-_G.pg.gametip.gold_max_tip_title = {
+_G.pg.base.gametip.gold_max_tip_title = {
 	tip = "You can't hold any more Coins. "
 }
 
-_G.pg.gametip.expbook_max_tip_title = {
+_G.pg.base.gametip.expbook_max_tip_title = {
 	tip = "You cannot store any more EXP Packs."
 }
 
-_G.pg.gametip.resource_max_tip_shop = {
+_G.pg.base.gametip.resource_max_tip_shop = {
 	tip = "Unable to buy resource."
 }
 
-_G.pg.gametip.resource_max_tip_event = {
+_G.pg.base.gametip.resource_max_tip_event = {
 	tip = "Unable to collect commission reward."
 }
 
-_G.pg.gametip.resource_max_tip_battle = {
+_G.pg.base.gametip.resource_max_tip_battle = {
 	tip = "You will be unable to receive Coins as rewards from this attack. Continue?"
 }
 
-_G.pg.gametip.resource_max_tip_collect = {
+_G.pg.base.gametip.resource_max_tip_collect = {
 	tip = "Unable to receive collection reward."
 }
 
-_G.pg.gametip.resource_max_tip_mail = {
+_G.pg.base.gametip.resource_max_tip_mail = {
 	tip = "Unable to collect rewards from mail."
 }
 
-_G.pg.gametip.resource_max_tip_eventstart = {
+_G.pg.base.gametip.resource_max_tip_eventstart = {
 	tip = "Unable to accept commission"
 }
 
-_G.pg.gametip.resource_max_tip_destroy = {
+_G.pg.base.gametip.resource_max_tip_destroy = {
 	tip = "Unable to recycle gear."
 }
 
-_G.pg.gametip.resource_max_tip_retire = {
+_G.pg.base.gametip.resource_max_tip_retire = {
 	tip = "Unable to retire."
 }
 
-_G.pg.gametip.resource_max_tip_retire_1 = {
+_G.pg.base.gametip.resource_max_tip_retire_1 = {
 	tip = "Your Oil storage is full, no Oil refund for retiring this ship. Continue?"
 }
 
-_G.pg.gametip.new_version_tip = {
+_G.pg.base.gametip.new_version_tip = {
 	tip = "Commander, your game is out of date! Please restart the game and download the update."
 }
 
-_G.pg.gametip.guild_request_msg_title = {
+_G.pg.base.gametip.guild_request_msg_title = {
 	tip = "Enter application message..."
 }
 
-_G.pg.gametip.guild_request_msg_placeholder = {
+_G.pg.base.gametip.guild_request_msg_placeholder = {
 	tip = "Please wait patiently after application is submitted."
 }
 
-_G.pg.gametip.ship_upgrade_unequip_tip = {
+_G.pg.base.gametip.ship_upgrade_unequip_tip = {
 	tip = "This limit break will change <color=$2>$1</color>'s gear selections. Some gear will be unequipped. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.destination_can_not_reach = {
+_G.pg.base.gametip.destination_can_not_reach = {
 	tip = "Unable to reach target location."
 }
 
-_G.pg.gametip.destination_can_not_reach_safety = {
+_G.pg.base.gametip.destination_can_not_reach_safety = {
 	tip = "Unable to safely reach target location."
 }
 
-_G.pg.gametip.destination_not_in_range = {
+_G.pg.base.gametip.destination_not_in_range = {
 	tip = "Can't reach the target in this turn"
 }
 
-_G.pg.gametip.level_ammo_enough = {
+_G.pg.base.gametip.level_ammo_enough = {
 	tip = "Commander, your fleet ammo is full! There's no need to resupply."
 }
 
-_G.pg.gametip.level_ammo_supply = {
+_G.pg.base.gametip.level_ammo_supply = {
 	tip = "Ammo supplies. Ammo +$1, $2/3 remaining"
 }
 
-_G.pg.gametip.level_ammo_empty = {
+_G.pg.base.gametip.level_ammo_empty = {
 	tip = "Ammo supplies. Ammo +$1. Ammo resupplies exhausted."
 }
 
-_G.pg.gametip.level_ammo_supply_p1 = {
+_G.pg.base.gametip.level_ammo_supply_p1 = {
 	tip = "Ammo supplies. Ammo +$1."
 }
 
-_G.pg.gametip.level_flare_supply = {
+_G.pg.base.gametip.level_flare_supply = {
 	tip = "You've retrieved a supply of flares. The fleet that retrieved them will be able to fire flares during the next $1 battle(s). "
 }
 
-_G.pg.gametip.chat_level_not_enough = {
+_G.pg.base.gametip.chat_level_not_enough = {
 	tip = "Commander, you need to be lv. $1 in order to chat!"
 }
 
-_G.pg.gametip.chat_msg_inform = {
+_G.pg.base.gametip.chat_msg_inform = {
 	tip = "This information has already been reported and is under review."
 }
 
-_G.pg.gametip.chat_msg_ban = {
+_G.pg.base.gametip.chat_msg_ban = {
 	tip = "You have been muted as we have received multiple reports about your messages.\n\nYou will be unmuted at: $1"
 }
 
-_G.pg.gametip.month_card_set_ratio_success = {
+_G.pg.base.gametip.month_card_set_ratio_success = {
 	tip = "Resource ratio changed."
 }
 
-_G.pg.gametip.month_card_set_ratio_not_change = {
+_G.pg.base.gametip.month_card_set_ratio_not_change = {
 	tip = "Already changed to this ratio."
 }
 
-_G.pg.gametip.charge_ship_bag_max = {
+_G.pg.base.gametip.charge_ship_bag_max = {
 	tip = "Your dock has been fully expanded."
 }
 
-_G.pg.gametip.charge_equip_bag_max = {
+_G.pg.base.gametip.charge_equip_bag_max = {
 	tip = "Your storage has been fully expanded."
 }
 
-_G.pg.gametip.login_wait_tip = {
+_G.pg.base.gametip.login_wait_tip = {
 	tip = "Server is currently busy, please wait.\n(Position in queue: $1)"
 }
 
-_G.pg.gametip.ship_equip_exchange_tip = {
+_G.pg.base.gametip.ship_equip_exchange_tip = {
 	tip = "Take <color=#a0ff40>$1</color>'s <color=#a0ff40>$2</color> and equip it to <color=#a0ff40>$3</color>?"
 }
 
-_G.pg.gametip.ship_rename_success = {
+_G.pg.base.gametip.ship_rename_success = {
 	tip = "Name changed successfully!"
 }
 
-_G.pg.gametip.formation_chapter_lock = {
+_G.pg.base.gametip.formation_chapter_lock = {
 	tip = "Clear chapter $1 to unlock Fleet $2!"
 }
 
-_G.pg.gametip.elite_disable_unsatisfied = {
+_G.pg.base.gametip.elite_disable_unsatisfied = {
 	tip = "Must get full stars in entire chapter."
 }
 
-_G.pg.gametip.elite_disable_ship_escort = {
+_G.pg.base.gametip.elite_disable_ship_escort = {
 	tip = "One of the ships in your fleet is on a commission. Unable to attack."
 }
 
-_G.pg.gametip.elite_disable_formation_unsatisfied = {
+_G.pg.base.gametip.elite_disable_formation_unsatisfied = {
 	tip = "Formation requirements not met. Unable to attack."
 }
 
-_G.pg.gametip.elite_disable_no_fleet = {
+_G.pg.base.gametip.elite_disable_no_fleet = {
 	tip = "No fleets currently available. Unable to attack."
 }
 
-_G.pg.gametip.elite_disable_property_unsatisfied = {
+_G.pg.base.gametip.elite_disable_property_unsatisfied = {
 	tip = "Attack requirements not met. Unable to proceed."
 }
 
-_G.pg.gametip.elite_disable_unusable = {
+_G.pg.base.gametip.elite_disable_unusable = {
 	tip = "Hard mode for this map is not yet available."
 }
 
-_G.pg.gametip.elite_warp_to_latest_map = {
+_G.pg.base.gametip.elite_warp_to_latest_map = {
 	tip = "Viewing newest chapter."
 }
 
-_G.pg.gametip.elite_fleet_confirm = {
+_G.pg.base.gametip.elite_fleet_confirm = {
 	tip = "$1 <color=#ff0000>does not meet</color> requirements to attack and may not enter battle. Would you like to continue your attack?"
 }
 
-_G.pg.gametip.elite_condition_level = {
+_G.pg.base.gametip.elite_condition_level = {
 	tip = "Average Level"
 }
 
-_G.pg.gametip.elite_condition_durability = {
+_G.pg.base.gametip.elite_condition_durability = {
 	tip = "Total HP"
 }
 
-_G.pg.gametip.elite_condition_cannon = {
+_G.pg.base.gametip.elite_condition_cannon = {
 	tip = "Total FP"
 }
 
-_G.pg.gametip.elite_condition_torpedo = {
+_G.pg.base.gametip.elite_condition_torpedo = {
 	tip = "Total TRP"
 }
 
-_G.pg.gametip.elite_condition_antiaircraft = {
+_G.pg.base.gametip.elite_condition_antiaircraft = {
 	tip = "Total AA"
 }
 
-_G.pg.gametip.elite_condition_air = {
+_G.pg.base.gametip.elite_condition_air = {
 	tip = "Total AVI"
 }
 
-_G.pg.gametip.elite_condition_antisub = {
+_G.pg.base.gametip.elite_condition_antisub = {
 	tip = "Total ASW"
 }
 
-_G.pg.gametip.elite_condition_dodge = {
+_G.pg.base.gametip.elite_condition_dodge = {
 	tip = "Total EVA"
 }
 
-_G.pg.gametip.elite_condition_reload = {
+_G.pg.base.gametip.elite_condition_reload = {
 	tip = "Total RLD"
 }
 
-_G.pg.gametip.elite_condition_fleet_totle_level = {
+_G.pg.base.gametip.elite_condition_fleet_totle_level = {
 	tip = "Fleets with at least 480 total level"
 }
 
-_G.pg.gametip.common_compare_larger = {
+_G.pg.base.gametip.common_compare_larger = {
 	tip = ">"
 }
 
-_G.pg.gametip.common_compare_equal = {
+_G.pg.base.gametip.common_compare_equal = {
 	tip = "="
 }
 
-_G.pg.gametip.common_compare_smaller = {
+_G.pg.base.gametip.common_compare_smaller = {
 	tip = "<"
 }
 
-_G.pg.gametip.common_compare_not_less_than = {
+_G.pg.base.gametip.common_compare_not_less_than = {
 	tip = "≥"
 }
 
-_G.pg.gametip.common_compare_not_more_than = {
+_G.pg.base.gametip.common_compare_not_more_than = {
 	tip = "≤"
 }
 
-_G.pg.gametip.level_scene_formation_active_already = {
+_G.pg.base.gametip.level_scene_formation_active_already = {
 	tip = "This has already been activated."
 }
 
-_G.pg.gametip.level_scene_not_enough = {
+_G.pg.base.gametip.level_scene_not_enough = {
 	tip = "You don't have enough to use this."
 }
 
-_G.pg.gametip.level_scene_full_hp = {
+_G.pg.base.gametip.level_scene_full_hp = {
 	tip = "All ships in selected fleet already have full HP. Unable to use!"
 }
 
-_G.pg.gametip.level_click_to_move = {
+_G.pg.base.gametip.level_click_to_move = {
 	tip = "Tap anywhere on the map to move."
 }
 
-_G.pg.gametip.common_hardmode = {
+_G.pg.base.gametip.common_hardmode = {
 	tip = "Hard"
 }
 
-_G.pg.gametip.common_elite_no_quota = {
+_G.pg.base.gametip.common_elite_no_quota = {
 	tip = "You may not challenge any more Hard stages today."
 }
 
-_G.pg.gametip.common_food = {
+_G.pg.base.gametip.common_food = {
 	tip = "Snacks"
 }
 
-_G.pg.gametip.common_no_limit = {
+_G.pg.base.gametip.common_no_limit = {
 	tip = "Unlimited"
 }
 
-_G.pg.gametip.common_proficiency = {
+_G.pg.base.gametip.common_proficiency = {
 	tip = "Efficiency"
 }
 
-_G.pg.gametip.backyard_food_remind = {
+_G.pg.base.gametip.backyard_food_remind = {
 	tip = "Your storage limit will be exceeded if you continue using <color=yellow>$1</color>. Continue?"
 }
 
-_G.pg.gametip.backyard_food_count = {
+_G.pg.base.gametip.backyard_food_count = {
 	tip = "Current supplies limit: $1"
 }
 
-_G.pg.gametip.sham_ship_level_limit = {
+_G.pg.base.gametip.sham_ship_level_limit = {
 	tip = "Ships must be at least lv. $1"
 }
 
-_G.pg.gametip.sham_count_limit = {
+_G.pg.base.gametip.sham_count_limit = {
 	tip = "This Simulation battle is complete."
 }
 
-_G.pg.gametip.sham_count_reset = {
+_G.pg.base.gametip.sham_count_reset = {
 	tip = "This Simulation battle is complete.\nReset now?"
 }
 
-_G.pg.gametip.sham_team_limit = {
+_G.pg.base.gametip.sham_team_limit = {
 	tip = "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet."
 }
 
-_G.pg.gametip.sham_formation_invalid = {
+_G.pg.base.gametip.sham_formation_invalid = {
 	tip = "Commander, the fleet couldn't be formed. Please edit its formation!"
 }
 
-_G.pg.gametip.sham_my_assist_ship_level_limit = {
+_G.pg.base.gametip.sham_my_assist_ship_level_limit = {
 	tip = "Support ship must be at least lv. $1"
 }
 
-_G.pg.gametip.sham_reset_confirm = {
+_G.pg.base.gametip.sham_reset_confirm = {
 	tip = "Current stage is not yet complete. Are you sure you want to reset this stage?"
 }
 
-_G.pg.gametip.sham_battle_help_tip = {
+_G.pg.base.gametip.sham_battle_help_tip = {
 	tip = ""
 }
 
-_G.pg.gametip.sham_reset_err_limit = {
+_G.pg.base.gametip.sham_reset_err_limit = {
 	tip = "You've already used all of your daily resets."
 }
 
-_G.pg.gametip.sham_ship_equip_forbid_1 = {
+_G.pg.base.gametip.sham_ship_equip_forbid_1 = {
 	tip = "Your fleet is not full. You will be unable to change ships or gear after you begin. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.sham_ship_equip_forbid_2 = {
+_G.pg.base.gametip.sham_ship_equip_forbid_2 = {
 	tip = "You will be unable to change ships or gear after you begin. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.sham_enter_error_friend_ship_expired = {
+_G.pg.base.gametip.sham_enter_error_friend_ship_expired = {
 	tip = "Friend's support ship has changed. Please select again."
 }
 
-_G.pg.gametip.sham_can_not_change_ship = {
+_G.pg.base.gametip.sham_can_not_change_ship = {
 	tip = "You may not change support ships during Simulation."
 }
 
-_G.pg.gametip.sham_friend_ship_tip = {
+_G.pg.base.gametip.sham_friend_ship_tip = {
 	tip = "You have not selected any support. Once you enter battle, you will be unable to add support. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.inform_sueecss = {
+_G.pg.base.gametip.inform_sueecss = {
 	tip = "Report submitted."
 }
 
-_G.pg.gametip.inform_failed = {
+_G.pg.base.gametip.inform_failed = {
 	tip = "Failed to submit report."
 }
 
-_G.pg.gametip.inform_player = {
+_G.pg.base.gametip.inform_player = {
 	tip = "Report player: $1"
 }
 
-_G.pg.gametip.inform_select_type = {
+_G.pg.base.gametip.inform_select_type = {
 	tip = "Please select content to report."
 }
 
-_G.pg.gametip.inform_chat_msg = {
+_G.pg.base.gametip.inform_chat_msg = {
 	tip = "Chat content is empty."
 }
 
-_G.pg.gametip.inform_sueecss_tip = {
+_G.pg.base.gametip.inform_sueecss_tip = {
 	tip = "Thank you for helping keep the community of Azur Lane safe for all Commanders!"
 }
 
-_G.pg.gametip.ship_remould_max_level = {
+_G.pg.base.gametip.ship_remould_max_level = {
 	tip = "You've reached the maximum number of improvements."
 }
 
-_G.pg.gametip.ship_remould_material_ship_no_enough = {
+_G.pg.base.gametip.ship_remould_material_ship_no_enough = {
 	tip = "Not enough ships selected as material."
 }
 
-_G.pg.gametip.ship_remould_material_ship_on_exist = {
+_G.pg.base.gametip.ship_remould_material_ship_on_exist = {
 	tip = "Selected material ship does not exist."
 }
 
-_G.pg.gametip.ship_remould_material_unlock_skill = {
+_G.pg.base.gametip.ship_remould_material_unlock_skill = {
 	tip = "Learn skill $1"
 }
 
-_G.pg.gametip.ship_remould_prev_lock = {
+_G.pg.base.gametip.ship_remould_prev_lock = {
 	tip = "Locked."
 }
 
-_G.pg.gametip.ship_remould_need_level = {
+_G.pg.base.gametip.ship_remould_need_level = {
 	tip = "Lvl: $1"
 }
 
-_G.pg.gametip.ship_remould_need_star = {
+_G.pg.base.gametip.ship_remould_need_star = {
 	tip = "$1 stars"
 }
 
-_G.pg.gametip.ship_remould_finished = {
+_G.pg.base.gametip.ship_remould_finished = {
 	tip = "Completed"
 }
 
-_G.pg.gametip.ship_remould_no_item = {
+_G.pg.base.gametip.ship_remould_no_item = {
 	tip = "Not enough items."
 }
 
-_G.pg.gametip.ship_remould_no_gold = {
+_G.pg.base.gametip.ship_remould_no_gold = {
 	tip = "You don't have enough Coins!"
 }
 
-_G.pg.gametip.ship_remould_no_material = {
+_G.pg.base.gametip.ship_remould_no_material = {
 	tip = "Not enough items"
 }
 
-_G.pg.gametip.ship_remould_selecte_exceed = {
+_G.pg.base.gametip.ship_remould_selecte_exceed = {
 	tip = "You've selected more than 1 ship."
 }
 
-_G.pg.gametip.ship_remould_sueecss = {
+_G.pg.base.gametip.ship_remould_sueecss = {
 	tip = "Improved!"
 }
 
-_G.pg.gametip.ship_remould_warning_102174 = {
+_G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
 }
 
-_G.pg.gametip.ship_remould_warning_102284 = {
+_G.pg.base.gametip.ship_remould_warning_102284 = {
 	tip = "After retrofit, <color=#92fc63>\"Radar Scan\"</color>will be\nupgraded to <color=#92fc63>\"Radar Scan Plus\".</color> "
 }
 
-_G.pg.gametip.ship_remould_warning_107984 = {
+_G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
 }
 
-_G.pg.gametip.ship_remould_warning_201514 = {
+_G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
 }
 
-_G.pg.gametip.ship_remould_warning_203114 = {
+_G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
 }
 
-_G.pg.gametip.ship_remould_warning_205124 = {
+_G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "<color=#92fc63>The Warrior's Prowess</color> will be used to complete the retrofit.\nWould you like to continue? "
 }
 
-_G.pg.gametip.ship_remould_warning_301534 = {
+_G.pg.base.gametip.ship_remould_warning_301534 = {
 	tip = "The skill <color=#92fc63>Foo and Friends</color> will be upgraded upon retrofit completion."
 }
 
-_G.pg.gametip.ship_remould_warning_301874 = {
+_G.pg.base.gametip.ship_remould_warning_301874 = {
 	tip = [[
 The <color=#92fc63>Eau de Barbecue</color> will be used to complete the retrofit.
 Would you like to continue?
@@ -7497,7 +7497,7 @@ Fully retrofitting this ship will have the following effects:
 <color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault III</color>.]]
 }
 
-_G.pg.gametip.ship_remould_warning_310014 = {
+_G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
@@ -7505,7 +7505,7 @@ Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be 
  Would you like to continue?]]
 }
 
-_G.pg.gametip.ship_remould_warning_310024 = {
+_G.pg.base.gametip.ship_remould_warning_310024 = {
 	tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
@@ -7513,7 +7513,7 @@ Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be 
  Would you like to continue?]]
 }
 
-_G.pg.gametip.ship_remould_warning_310034 = {
+_G.pg.base.gametip.ship_remould_warning_310034 = {
 	tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
@@ -7521,7 +7521,7 @@ Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be 
  Would you like to continue?]]
 }
 
-_G.pg.gametip.ship_remould_warning_310044 = {
+_G.pg.base.gametip.ship_remould_warning_310044 = {
 	tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
@@ -7529,7 +7529,7 @@ Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be 
  Would you like to continue?]]
 }
 
-_G.pg.gametip.ship_remould_warning_303154 = {
+_G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
 When retrofitted, <color=#92fc63>$1</color>'s hull type will change.
 The weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.
@@ -7537,11 +7537,11 @@ Would you like to proceed with the retrofit?
 <color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]]
 }
 
-_G.pg.gametip.ship_remould_warning_402134 = {
+_G.pg.base.gametip.ship_remould_warning_402134 = {
 	tip = "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? "
 }
 
-_G.pg.gametip.ship_remould_warning_702124 = {
+_G.pg.base.gametip.ship_remould_warning_702124 = {
 	tip = [[
 <size=35>Retrofitting <color=#92fc63>$1</color> will change her
 <color=#92fc63>Main Gun (Light Cruiser)</color> gear slot into a
@@ -7551,7 +7551,7 @@ Are you sure you want to continue?
 <material=underline c=#92fc63 event=clickDetail>Tap here for details.</material></color></size>]]
 }
 
-_G.pg.gametip.ship_remould_warning_520014 = {
+_G.pg.base.gametip.ship_remould_warning_520014 = {
 	tip = [[
 Completing the retrofit will change the ship's designation into:
 Guided-Missile Destroyer (Vanguard Mode)
@@ -7559,7 +7559,7 @@ Her stats and combat performance may change significantly.
 Proceed with retrofit?]]
 }
 
-_G.pg.gametip.ship_remould_warning_521014 = {
+_G.pg.base.gametip.ship_remould_warning_521014 = {
 	tip = [[
 Completing the retrofit will change the ship's designation into:
 Guided-Missile Destroyer (Main Fleet Mode)
@@ -7567,7 +7567,7 @@ Her stats and combat performance may change significantly.
 Proceed with retrofit?]]
 }
 
-_G.pg.gametip.ship_remould_warning_520034 = {
+_G.pg.base.gametip.ship_remould_warning_520034 = {
 	tip = [[
 Completing the retrofit will change the ship's designation into:
 Guided-Missile Destroyer (Vanguard Mode)
@@ -7575,7 +7575,7 @@ Her stats and combat performance may change significantly.
 Proceed with retrofit?]]
 }
 
-_G.pg.gametip.ship_remould_warning_521034 = {
+_G.pg.base.gametip.ship_remould_warning_521034 = {
 	tip = [[
 Completing the retrofit will change the ship's designation into:
 Guided-Missile Destroyer (Main Fleet Mode)
@@ -7583,235 +7583,235 @@ Her stats and combat performance may change significantly.
 Proceed with retrofit?]]
 }
 
-_G.pg.gametip.word_soundfiles_download_title = {
+_G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "Download Language Pack"
 }
 
-_G.pg.gametip.word_soundfiles_download = {
+_G.pg.base.gametip.word_soundfiles_download = {
 	tip = "Start Download"
 }
 
-_G.pg.gametip.word_soundfiles_checking_title = {
+_G.pg.base.gametip.word_soundfiles_checking_title = {
 	tip = "Checking..."
 }
 
-_G.pg.gametip.word_soundfiles_checking = {
+_G.pg.base.gametip.word_soundfiles_checking = {
 	tip = "Checking..."
 }
 
-_G.pg.gametip.word_soundfiles_checkend_title = {
+_G.pg.base.gametip.word_soundfiles_checkend_title = {
 	tip = "Language pack verification complete."
 }
 
-_G.pg.gametip.word_soundfiles_checkend = {
+_G.pg.base.gametip.word_soundfiles_checkend = {
 	tip = "Tap to update"
 }
 
-_G.pg.gametip.word_soundfiles_noneedupdate = {
+_G.pg.base.gametip.word_soundfiles_noneedupdate = {
 	tip = "Latest"
 }
 
-_G.pg.gametip.word_soundfiles_checkfailed = {
+_G.pg.base.gametip.word_soundfiles_checkfailed = {
 	tip = "Failed to verify language pack."
 }
 
-_G.pg.gametip.word_soundfiles_retry = {
+_G.pg.base.gametip.word_soundfiles_retry = {
 	tip = "Tap to retry"
 }
 
-_G.pg.gametip.word_soundfiles_update = {
+_G.pg.base.gametip.word_soundfiles_update = {
 	tip = "Updating..."
 }
 
-_G.pg.gametip.word_soundfiles_update_end_title = {
+_G.pg.base.gametip.word_soundfiles_update_end_title = {
 	tip = "Language pack updated!"
 }
 
-_G.pg.gametip.word_soundfiles_update_end = {
+_G.pg.base.gametip.word_soundfiles_update_end = {
 	tip = "Update complete!"
 }
 
-_G.pg.gametip.word_soundfiles_update_failed = {
+_G.pg.base.gametip.word_soundfiles_update_failed = {
 	tip = "Failed to update language pack."
 }
 
-_G.pg.gametip.word_soundfiles_update_retry = {
+_G.pg.base.gametip.word_soundfiles_update_retry = {
 	tip = "Tap to retry"
 }
 
-_G.pg.gametip.word_live2dfiles_download_title = {
+_G.pg.base.gametip.word_live2dfiles_download_title = {
 	tip = "Download Character Live2D Pack"
 }
 
-_G.pg.gametip.word_live2dfiles_download = {
+_G.pg.base.gametip.word_live2dfiles_download = {
 	tip = "Initiating Download "
 }
 
-_G.pg.gametip.word_live2dfiles_checking_title = {
+_G.pg.base.gametip.word_live2dfiles_checking_title = {
 	tip = "Verifying..."
 }
 
-_G.pg.gametip.word_live2dfiles_checking = {
+_G.pg.base.gametip.word_live2dfiles_checking = {
 	tip = "Verifying"
 }
 
-_G.pg.gametip.word_live2dfiles_checkend_title = {
+_G.pg.base.gametip.word_live2dfiles_checkend_title = {
 	tip = "Character Live2D Pack Verification Completed"
 }
 
-_G.pg.gametip.word_live2dfiles_checkend = {
+_G.pg.base.gametip.word_live2dfiles_checkend = {
 	tip = "Tap to update"
 }
 
-_G.pg.gametip.word_live2dfiles_noneedupdate = {
+_G.pg.base.gametip.word_live2dfiles_noneedupdate = {
 	tip = "Latest"
 }
 
-_G.pg.gametip.word_live2dfiles_checkfailed = {
+_G.pg.base.gametip.word_live2dfiles_checkfailed = {
 	tip = "Character Live2D Pack Verification Failed"
 }
 
-_G.pg.gametip.word_live2dfiles_retry = {
+_G.pg.base.gametip.word_live2dfiles_retry = {
 	tip = "Tap to Retry"
 }
 
-_G.pg.gametip.word_live2dfiles_update = {
+_G.pg.base.gametip.word_live2dfiles_update = {
 	tip = "Updating..."
 }
 
-_G.pg.gametip.word_live2dfiles_update_end_title = {
+_G.pg.base.gametip.word_live2dfiles_update_end_title = {
 	tip = "Character Live2D Pack Update Completed"
 }
 
-_G.pg.gametip.word_live2dfiles_update_end = {
+_G.pg.base.gametip.word_live2dfiles_update_end = {
 	tip = "Update Completed"
 }
 
-_G.pg.gametip.word_live2dfiles_update_failed = {
+_G.pg.base.gametip.word_live2dfiles_update_failed = {
 	tip = "Character Live2D Pack Update Failed"
 }
 
-_G.pg.gametip.word_live2dfiles_update_retry = {
+_G.pg.base.gametip.word_live2dfiles_update_retry = {
 	tip = "Tap to Retry"
 }
 
-_G.pg.gametip.word_live2dfiles_main_update_tip = {
+_G.pg.base.gametip.word_live2dfiles_main_update_tip = {
 	tip = "Current Live2D Data Needs To Be Updated, Update Now?"
 }
 
-_G.pg.gametip.achieve_propose_tip = {
+_G.pg.base.gametip.achieve_propose_tip = {
 	tip = "Unlocked skins $1!"
 }
 
-_G.pg.gametip.mingshi_get_tip = {
+_G.pg.base.gametip.mingshi_get_tip = {
 	tip = "Found a Peculiar Material!"
 }
 
-_G.pg.gametip.mingshi_task_tip_1 = {
+_G.pg.base.gametip.mingshi_task_tip_1 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>items stockpile</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_2 = {
+_G.pg.base.gametip.mingshi_task_tip_2 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>O</color>>\nThe next target is... <<color=#a0ff40>researching tactics</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_3 = {
+_G.pg.base.gametip.mingshi_task_tip_3 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>U</color>>\nThe next target is... <<color=#a0ff40>the Munitions Shop</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_4 = {
+_G.pg.base.gametip.mingshi_task_tip_4 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>C</color>>\nThe next target is... <<color=#a0ff40>accepting a mission</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_5 = {
+_G.pg.base.gametip.mingshi_task_tip_5 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>your formation</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_6 = {
+_G.pg.base.gametip.mingshi_task_tip_6 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>taking a rest</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_7 = {
+_G.pg.base.gametip.mingshi_task_tip_7 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>K</color>>\nThe next target is... <<color=#a0ff40>looking at your collection</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_8 = {
+_G.pg.base.gametip.mingshi_task_tip_8 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>a journey's beginning</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_9 = {
+_G.pg.base.gametip.mingshi_task_tip_9 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>S</color>>\nThe next target is... <<color=#a0ff40>the land of victory</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_10 = {
+_G.pg.base.gametip.mingshi_task_tip_10 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>H</color>>\nThe last target is... <<color=#a0ff40>the land of joy and sorrow</color>>!"
 }
 
-_G.pg.gametip.mingshi_task_tip_11 = {
+_G.pg.base.gametip.mingshi_task_tip_11 = {
 	tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>I30</color>>\nThe first target is... <<color=#a0ff40>anchoring</color>>!"
 }
 
-_G.pg.gametip.word_propose_changename_title = {
+_G.pg.base.gametip.word_propose_changename_title = {
 	tip = "$1 is about to become your exclusive ship. Do you want to rename her?"
 }
 
-_G.pg.gametip.word_propose_changename_tip1 = {
+_G.pg.base.gametip.word_propose_changename_tip1 = {
 	tip = "Show custom ship names (change in settings)"
 }
 
-_G.pg.gametip.word_propose_changename_tip2 = {
+_G.pg.base.gametip.word_propose_changename_tip2 = {
 	tip = "*May change name once every 30 days"
 }
 
-_G.pg.gametip.word_propose_ring_tip = {
+_G.pg.base.gametip.word_propose_ring_tip = {
 	tip = "Put a ring on your ship!"
 }
 
-_G.pg.gametip.word_rename_time_tip = {
+_G.pg.base.gametip.word_rename_time_tip = {
 	tip = "Please wait another $1 days before naming this exclusive ship!"
 }
 
-_G.pg.gametip.word_rename_switch_tip = {
+_G.pg.base.gametip.word_rename_switch_tip = {
 	tip = "Custom names hidden. Head to Settings - Notifications to enable."
 }
 
-_G.pg.gametip.word_ssr = {
+_G.pg.base.gametip.word_ssr = {
 	tip = "SR"
 }
 
-_G.pg.gametip.word_sr = {
+_G.pg.base.gametip.word_sr = {
 	tip = "Elite"
 }
 
-_G.pg.gametip.word_r = {
+_G.pg.base.gametip.word_r = {
 	tip = "R"
 }
 
-_G.pg.gametip.ship_renameShip_error = {
+_G.pg.base.gametip.ship_renameShip_error = {
 	tip = "Failed to rename ship."
 }
 
-_G.pg.gametip.ship_renameShip_error_4 = {
+_G.pg.base.gametip.ship_renameShip_error_4 = {
 	tip = "You can't do this at the current time!"
 }
 
-_G.pg.gametip.ship_renameShip_error_2011 = {
+_G.pg.base.gametip.ship_renameShip_error_2011 = {
 	tip = "Name is too long!"
 }
 
-_G.pg.gametip.ship_proposeShip_error = {
+_G.pg.base.gametip.ship_proposeShip_error = {
 	tip = "Failed to promise."
 }
 
-_G.pg.gametip.ship_proposeShip_error_1 = {
+_G.pg.base.gametip.ship_proposeShip_error_1 = {
 	tip = "Invalid operation."
 }
 
-_G.pg.gametip.word_rename_time_warning = {
+_G.pg.base.gametip.word_rename_time_warning = {
 	tip = "You won't be able to rename your ship for another 30 days. Are you sure you want to rename <color=#a0ff40>$1</color> to <color=#a0ff40>$2</color>?"
 }
 
-_G.pg.gametip.word_propose_cost_tip = {
+_G.pg.base.gametip.word_propose_cost_tip = {
 	tip = [[
 <size=30>You will need to use <color=#a0ff40>1</color> Promise Ring. 
 (You have <color=#a0ff40>$1</color>)</size>
@@ -7820,447 +7820,447 @@ _G.pg.gametip.word_propose_cost_tip = {
 She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 }
 
-_G.pg.gametip.evaluate_too_loog = {
+_G.pg.base.gametip.evaluate_too_loog = {
 	tip = "Comment is too long."
 }
 
-_G.pg.gametip.evaluate_ban_word = {
+_G.pg.base.gametip.evaluate_ban_word = {
 	tip = "Comment contains blocked words."
 }
 
-_G.pg.gametip.activity_level_easy_tip = {
+_G.pg.base.gametip.activity_level_easy_tip = {
 	tip = "Note: You need to <color=#a0ff40>clear stages on Normal</color> in order to unlock Hard mode."
 }
 
-_G.pg.gametip.activity_level_difficulty_tip = {
+_G.pg.base.gametip.activity_level_difficulty_tip = {
 	tip = "Note: While in Hard mode, if you <color=#a0ff40>abandon a Hard stage</color>, you will lose progress for that stage."
 }
 
-_G.pg.gametip.activity_level_limit_tip = {
+_G.pg.base.gametip.activity_level_limit_tip = {
 	tip = "<color=#a0ff40>Reach Commander lv. 50 or clear on Normal</color> to unlock Hard mode."
 }
 
-_G.pg.gametip.activity_level_inwarime_tip = {
+_G.pg.base.gametip.activity_level_inwarime_tip = {
 	tip = "Stage <color=#a0ff40>$1</color> is currently in progress. Please recall your fleet in order to switch to a different difficulty."
 }
 
-_G.pg.gametip.activity_level_pass_easy_tip = {
+_G.pg.base.gametip.activity_level_pass_easy_tip = {
 	tip = "You must first <color=#a0ff40>clear this stage on Normal</color> in order to unlock Hard mode."
 }
 
-_G.pg.gametip.activity_level_is_closed = {
+_G.pg.base.gametip.activity_level_is_closed = {
 	tip = "The event stage is closed."
 }
 
-_G.pg.gametip.activity_switch_tip = {
+_G.pg.base.gametip.activity_switch_tip = {
 	tip = "If you switch to Normal mode, <color=#a0ff40>all progress on Hard mode will be lost</color>. (Note: You must clear the stage on Normal again in order to unlock Hard mode)"
 }
 
-_G.pg.gametip.reduce_sp3_pass_count = {
+_G.pg.base.gametip.reduce_sp3_pass_count = {
 	tip = "SP3クリア回数"
 }
 
-_G.pg.gametip.qiuqiu_count = {
+_G.pg.base.gametip.qiuqiu_count = {
 	tip = "目標数"
 }
 
-_G.pg.gametip.qiuqiu_total_count = {
+_G.pg.base.gametip.qiuqiu_total_count = {
 	tip = "累計数"
 }
 
-_G.pg.gametip.npcfriendly_count = {
+_G.pg.base.gametip.npcfriendly_count = {
 	tip = "Target Affection:"
 }
 
-_G.pg.gametip.npcfriendly_total_count = {
+_G.pg.base.gametip.npcfriendly_total_count = {
 	tip = "Affection:"
 }
 
-_G.pg.gametip.longxiang_count = {
+_G.pg.base.gametip.longxiang_count = {
 	tip = "J Talisman target: "
 }
 
-_G.pg.gametip.longxiang_total_count = {
+_G.pg.base.gametip.longxiang_total_count = {
 	tip = "J Talisman total: "
 }
 
-_G.pg.gametip.pt_count = {
+_G.pg.base.gametip.pt_count = {
 	tip = "Target $1:"
 }
 
-_G.pg.gametip.pt_total_count = {
+_G.pg.base.gametip.pt_total_count = {
 	tip = "In possession $1"
 }
 
-_G.pg.gametip.remould_ship_ok = {
+_G.pg.base.gametip.remould_ship_ok = {
 	tip = "Improved!"
 }
 
-_G.pg.gametip.remould_ship_count_more = {
+_G.pg.base.gametip.remould_ship_count_more = {
 	tip = "You've selected more than 1 ship."
 }
 
-_G.pg.gametip.word_should_input = {
+_G.pg.base.gametip.word_should_input = {
 	tip = "Your search query is empty."
 }
 
-_G.pg.gametip.simulation_advantage_counting = {
+_G.pg.base.gametip.simulation_advantage_counting = {
 	tip = "Enemy using special tactic in $1s"
 }
 
-_G.pg.gametip.simulation_disadvantage_counting = {
+_G.pg.base.gametip.simulation_disadvantage_counting = {
 	tip = "Enemy using special tactic in $1s"
 }
 
-_G.pg.gametip.simulation_enhancing = {
+_G.pg.base.gametip.simulation_enhancing = {
 	tip = "Enemy has used a special tactic, increasing Reload and DMG!"
 }
 
-_G.pg.gametip.simulation_enhanced = {
+_G.pg.base.gametip.simulation_enhanced = {
 	tip = "Enemy has activated a special tactics."
 }
 
-_G.pg.gametip.word_skill_desc_get = {
+_G.pg.base.gametip.word_skill_desc_get = {
 	tip = "(Capped $1)"
 }
 
-_G.pg.gametip.word_skill_desc_learn = {
+_G.pg.base.gametip.word_skill_desc_learn = {
 	tip = "($1)"
 }
 
-_G.pg.gametip.chapter_tip_aovid_succeed = {
+_G.pg.base.gametip.chapter_tip_aovid_succeed = {
 	tip = "Evaded!"
 }
 
-_G.pg.gametip.chapter_tip_aovid_failed = {
+_G.pg.base.gametip.chapter_tip_aovid_failed = {
 	tip = "Failed to evade."
 }
 
-_G.pg.gametip.chapter_tip_change = {
+_G.pg.base.gametip.chapter_tip_change = {
 	tip = "Switch formations: $1"
 }
 
-_G.pg.gametip.chapter_tip_use = {
+_G.pg.base.gametip.chapter_tip_use = {
 	tip = "Strategy in use: $1"
 }
 
-_G.pg.gametip.chapter_tip_with_npc = {
+_G.pg.base.gametip.chapter_tip_with_npc = {
 	tip = "Preparing to begin <color=#D6341DFF>event stage mission</color>.\n<color=#D6341DFF>NPC $1</color> will join the first attacking fleet vanguard.\nPlease leave an open slot in your first attacking fleet."
 }
 
-_G.pg.gametip.chapter_tip_bp_ammo = {
+_G.pg.base.gametip.chapter_tip_bp_ammo = {
 	tip = "Appropriate battle preparations have granted Ammo +2."
 }
 
-_G.pg.gametip.build_ship_tip = {
+_G.pg.base.gametip.build_ship_tip = {
 	tip = "Cost to build $2 <color=#D6341DFF>x$1</color>:\n<color=$5>$3 Coins</color> and <color=$5>$4 Wisdom Cubes</color>"
 }
 
-_G.pg.gametip.auto_battle_limit_tip = {
+_G.pg.base.gametip.auto_battle_limit_tip = {
 	tip = "Clear Stage 1-3 to unlock auto combat."
 }
 
-_G.pg.gametip.build_ship_quickly_buy_stone = {
+_G.pg.base.gametip.build_ship_quickly_buy_stone = {
 	tip = "Spend<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>Gems to buy <color=$3>$2</color> $4"
 }
 
-_G.pg.gametip.build_ship_quickly_buy_tool = {
+_G.pg.base.gametip.build_ship_quickly_buy_tool = {
 	tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
 }
 
-_G.pg.gametip.ship_profile_voice_locked = {
+_G.pg.base.gametip.ship_profile_voice_locked = {
 	tip = "Unlock requirements not yet met."
 }
 
-_G.pg.gametip.ship_profile_skin_locked = {
+_G.pg.base.gametip.ship_profile_skin_locked = {
 	tip = "Skin not yet unlocked."
 }
 
-_G.pg.gametip.ship_profile_words = {
+_G.pg.base.gametip.ship_profile_words = {
 	tip = "Quotes"
 }
 
-_G.pg.gametip.ship_profile_action_words = {
+_G.pg.base.gametip.ship_profile_action_words = {
 	tip = "Action Quotes"
 }
 
-_G.pg.gametip.ship_profile_label_common = {
+_G.pg.base.gametip.ship_profile_label_common = {
 	tip = "General"
 }
 
-_G.pg.gametip.ship_profile_label_diff = {
+_G.pg.base.gametip.ship_profile_label_diff = {
 	tip = "Expressions"
 }
 
-_G.pg.gametip.level_fleet_lease_one_ship = {
+_G.pg.base.gametip.level_fleet_lease_one_ship = {
 	tip = "You must leave at least 1 attacking fleet."
 }
 
-_G.pg.gametip.level_fleet_not_enough = {
+_G.pg.base.gametip.level_fleet_not_enough = {
 	tip = "Failed to form this fleet. Unable to attack."
 }
 
-_G.pg.gametip.level_fleet_outof_limit = {
+_G.pg.base.gametip.level_fleet_outof_limit = {
 	tip = "You may use any more attacking fleets."
 }
 
-_G.pg.gametip.vote_success = {
+_G.pg.base.gametip.vote_success = {
 	tip = "Voted!"
 }
 
-_G.pg.gametip.vote_not_enough = {
+_G.pg.base.gametip.vote_not_enough = {
 	tip = "You do not have enough Ballots. "
 }
 
-_G.pg.gametip.vote_love_not_enough = {
+_G.pg.base.gametip.vote_love_not_enough = {
 	tip = "You don't have enough special votes left."
 }
 
-_G.pg.gametip.vote_love_limit = {
+_G.pg.base.gametip.vote_love_limit = {
 	tip = "Vote on this character first today before using a special vote."
 }
 
-_G.pg.gametip.vote_love_confirm = {
+_G.pg.base.gametip.vote_love_confirm = {
 	tip = "Are you sure you want to use a special vote?"
 }
 
-_G.pg.gametip.vote_primary_rule = {
+_G.pg.base.gametip.vote_primary_rule = {
 	tip = ""
 }
 
-_G.pg.gametip.vote_final_title1 = {
+_G.pg.base.gametip.vote_final_title1 = {
 	tip = "Runoff!"
 }
 
-_G.pg.gametip.vote_final_rule1 = {
+_G.pg.base.gametip.vote_final_rule1 = {
 	tip = "12 characters will be selected at the beginning of the event. Voting remains open for 10 days. Total votes are reset to zero before the event starts."
 }
 
-_G.pg.gametip.vote_final_title2 = {
+_G.pg.base.gametip.vote_final_title2 = {
 	tip = "Event Rewards"
 }
 
-_G.pg.gametip.vote_final_rule2 = {
+_G.pg.base.gametip.vote_final_rule2 = {
 	tip = "Wedding dresses will be made for characters based on rankings. If the champion already has a wedding dress, the second place character will receive the dress."
 }
 
-_G.pg.gametip.vote_vote_time = {
+_G.pg.base.gametip.vote_vote_time = {
 	tip = "Voting window: $1 - $2"
 }
 
-_G.pg.gametip.vote_vote_count = {
+_G.pg.base.gametip.vote_vote_count = {
 	tip = "$1 votes"
 }
 
-_G.pg.gametip.vote_vote_group = {
+_G.pg.base.gametip.vote_vote_group = {
 	tip = "Group $1"
 }
 
-_G.pg.gametip.vote_rank_refresh_time = {
+_G.pg.base.gametip.vote_rank_refresh_time = {
 	tip = "*Rankings refresh every 30 minutes"
 }
 
-_G.pg.gametip.vote_rank_in_current_server = {
+_G.pg.base.gametip.vote_rank_in_current_server = {
 	tip = "*Rankings are for current server only"
 }
 
-_G.pg.gametip.words_auto_battle_label = {
+_G.pg.base.gametip.words_auto_battle_label = {
 	tip = "Auto Combat Alert "
 }
 
-_G.pg.gametip.words_show_ship_name_label = {
+_G.pg.base.gametip.words_show_ship_name_label = {
 	tip = "Custom Ship Name"
 }
 
-_G.pg.gametip.words_rare_ship_vibrate = {
+_G.pg.base.gametip.words_rare_ship_vibrate = {
 	tip = "New Ship Buzz"
 }
 
-_G.pg.gametip.words_display_ship_get_effect = {
+_G.pg.base.gametip.words_display_ship_get_effect = {
 	tip = "Identical Ships"
 }
 
-_G.pg.gametip.words_show_touch_effect = {
+_G.pg.base.gametip.words_show_touch_effect = {
 	tip = "Show tap marker"
 }
 
-_G.pg.gametip.words_bg_fit_mode = {
+_G.pg.base.gametip.words_bg_fit_mode = {
 	tip = "Auto-adjust loading \nscreen aspect ratio"
 }
 
-_G.pg.gametip.words_battle_hide_bg = {
+_G.pg.base.gametip.words_battle_hide_bg = {
 	tip = "Hide skin backgrounds in battle "
 }
 
-_G.pg.gametip.words_battle_expose_line = {
+_G.pg.base.gametip.words_battle_expose_line = {
 	tip = "Toggle in-combat CV detection line "
 }
 
-_G.pg.gametip.words_autoFight_battery_savemode = {
+_G.pg.base.gametip.words_autoFight_battery_savemode = {
 	tip = "Auto-Search Battery Saver"
 }
 
-_G.pg.gametip.words_autoFight_battery_savemode_des = {
+_G.pg.base.gametip.words_autoFight_battery_savemode_des = {
 	tip = "When toggled on, reduces screen brightness 20 seconds after starting Auto-Search."
 }
 
-_G.pg.gametip.words_autoFIght_down_frame = {
+_G.pg.base.gametip.words_autoFIght_down_frame = {
 	tip = "Auto-Search FPS Reduction"
 }
 
-_G.pg.gametip.words_autoFIght_down_frame_des = {
+_G.pg.base.gametip.words_autoFIght_down_frame_des = {
 	tip = "When toggled on, reduces game FPS when battery saver mode is active."
 }
 
-_G.pg.gametip.words_autoFight_tips = {
+_G.pg.base.gametip.words_autoFight_tips = {
 	tip = "Requires \"Auto-Search Battery Saver\" to be ON."
 }
 
-_G.pg.gametip.words_autoFight_right = {
+_G.pg.base.gametip.words_autoFight_right = {
 	tip = "You may need modify permissions in your device's system settings to enable Battery Saver."
 }
 
-_G.pg.gametip.activity_puzzle_get1 = {
+_G.pg.base.gametip.activity_puzzle_get1 = {
 	tip = "<color=#A9F548FF>How to get: \nmission 7</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get2 = {
+_G.pg.base.gametip.activity_puzzle_get2 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 2-1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get3 = {
+_G.pg.base.gametip.activity_puzzle_get3 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 2-3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get4 = {
+_G.pg.base.gametip.activity_puzzle_get4 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 3-1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get5 = {
+_G.pg.base.gametip.activity_puzzle_get5 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 3-3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get6 = {
+_G.pg.base.gametip.activity_puzzle_get6 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 3-4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get7 = {
+_G.pg.base.gametip.activity_puzzle_get7 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 2-2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get8 = {
+_G.pg.base.gametip.activity_puzzle_get8 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 2-4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get9 = {
+_G.pg.base.gametip.activity_puzzle_get9 = {
 	tip = "<color=#A9F548FF>How to get: Normal difficulty 3-2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get10 = {
+_G.pg.base.gametip.activity_puzzle_get10 = {
 	tip = "<color=#A9F548FF>How to get: \nmission 1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get11 = {
+_G.pg.base.gametip.activity_puzzle_get11 = {
 	tip = "<color=#A9F548FF>How to get: \nmission 2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get12 = {
+_G.pg.base.gametip.activity_puzzle_get12 = {
 	tip = "<color=#A9F548FF>How to get: \nmission 3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get13 = {
+_G.pg.base.gametip.activity_puzzle_get13 = {
 	tip = "<color=#A9F548FF>How to get: \nmission 4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get14 = {
+_G.pg.base.gametip.activity_puzzle_get14 = {
 	tip = "<color=#A9F548FF>How to get: \nmission 5</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get15 = {
+_G.pg.base.gametip.activity_puzzle_get15 = {
 	tip = "<color=#A9F548FF>How to get: \nmission 6</color>"
 }
 
-_G.pg.gametip.word_stopremain_build = {
+_G.pg.base.gametip.word_stopremain_build = {
 	tip = "Do not show again"
 }
 
-_G.pg.gametip.word_stopremain_default = {
+_G.pg.base.gametip.word_stopremain_default = {
 	tip = "Do not show again"
 }
 
-_G.pg.gametip.transcode_desc = {
+_G.pg.base.gametip.transcode_desc = {
 	tip = "·引き続ぎパスワードの有効期間は<color=#FF0000>7日間</color>です。期間を過ぎた場合は旧端末から発行し直して下さい。\n·引続ぎパスワードを使ったデータ引き続ぎは、<color=#ff0000>30日間</color>で実行できます。"
 }
 
-_G.pg.gametip.transcode_empty_tip = {
+_G.pg.base.gametip.transcode_empty_tip = {
 	tip = "Please enter UID and transfer code"
 }
 
-_G.pg.gametip.set_birth_title = {
+_G.pg.base.gametip.set_birth_title = {
 	tip = "Set Birthday"
 }
 
-_G.pg.gametip.set_birth_confirm_tip = {
+_G.pg.base.gametip.set_birth_confirm_tip = {
 	tip = "Confirm your birthday: $1"
 }
 
-_G.pg.gametip.set_birth_empty_tip = {
+_G.pg.base.gametip.set_birth_empty_tip = {
 	tip = "Enter a valid birthday"
 }
 
-_G.pg.gametip.set_birth_success = {
+_G.pg.base.gametip.set_birth_success = {
 	tip = "Birthday set successfully!"
 }
 
-_G.pg.gametip.clear_transcode_cache_confirm = {
+_G.pg.base.gametip.clear_transcode_cache_confirm = {
 	tip = "Are you sure you want to clear the transfer code?"
 }
 
-_G.pg.gametip.clear_transcode_cache_success = {
+_G.pg.base.gametip.clear_transcode_cache_success = {
 	tip = "Transfer Code cleared."
 }
 
-_G.pg.gametip.exchange_item_success = {
+_G.pg.base.gametip.exchange_item_success = {
 	tip = "Redeemed!"
 }
 
-_G.pg.gametip.give_up_cloth_change = {
+_G.pg.base.gametip.give_up_cloth_change = {
 	tip = "Do you want to apply the skin later?"
 }
 
-_G.pg.gametip.err_cloth_change_noship = {
+_G.pg.base.gametip.err_cloth_change_noship = {
 	tip = "Not received: $1"
 }
 
-_G.pg.gametip.need_break_tip = {
+_G.pg.base.gametip.need_break_tip = {
 	tip = "Limit break required."
 }
 
-_G.pg.gametip.max_level_notice = {
+_G.pg.base.gametip.max_level_notice = {
 	tip = "Current level cap reached! Limit break to increase level cap to lv. $1."
 }
 
-_G.pg.gametip.new_skin_no_choose = {
+_G.pg.base.gametip.new_skin_no_choose = {
 	tip = "You have not selected a ship to change. Close without making any changes?"
 }
 
-_G.pg.gametip.sure_resume_volume = {
+_G.pg.base.gametip.sure_resume_volume = {
 	tip = "Restore default volume settings?"
 }
 
-_G.pg.gametip.course_class_not_ready = {
+_G.pg.base.gametip.course_class_not_ready = {
 	tip = "The teacher and students aren't here yet! Class can't begin until they arrive."
 }
 
-_G.pg.gametip.course_student_max_level = {
+_G.pg.base.gametip.course_student_max_level = {
 	tip = "One of the students is fully leveled up. Unable to begin class!"
 }
 
-_G.pg.gametip.course_stop_confirm = {
+_G.pg.base.gametip.course_stop_confirm = {
 	tip = "End the lecture now?"
 }
 
-_G.pg.gametip.course_class_help = {
+_G.pg.base.gametip.course_class_help = {
 	tip = {
 		{
 			info = [[
@@ -8283,379 +8283,379 @@ By upgrading the Lecture Hall, you will be able to increase your EXP production 
 	}
 }
 
-_G.pg.gametip.course_class_name = {
+_G.pg.base.gametip.course_class_name = {
 	tip = "Today's Lecture: $1"
 }
 
-_G.pg.gametip.course_proficiency_not_enough = {
+_G.pg.base.gametip.course_proficiency_not_enough = {
 	tip = "You do not have enough Proficiency."
 }
 
-_G.pg.gametip.course_state_rest = {
+_G.pg.base.gametip.course_state_rest = {
 	tip = "Setting Up"
 }
 
-_G.pg.gametip.course_state_lession = {
+_G.pg.base.gametip.course_state_lession = {
 	tip = "Elapsed Time:"
 }
 
-_G.pg.gametip.course_energy_not_enough = {
+_G.pg.base.gametip.course_energy_not_enough = {
 	tip = "<color=#92fc63>$1</color> has too low Morale to attend the Lecture."
 }
 
-_G.pg.gametip.course_proficiency_tip = {
+_G.pg.base.gametip.course_proficiency_tip = {
 	tip = "When you sortie with ships that are <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>Level $1</color></material> or higher, the Lecture Hall will automatically store <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material> of the EXP they earn in the form of Proficiency."
 }
 
-_G.pg.gametip.course_sunday_tip = {
+_G.pg.base.gametip.course_sunday_tip = {
 	tip = "Self-study in progress. Double Proficiency gained from sorties."
 }
 
-_G.pg.gametip.course_exit_confirm = {
+_G.pg.base.gametip.course_exit_confirm = {
 	tip = "The Lecture has not started yet. Would you like to leave the Lecture Hall?"
 }
 
-_G.pg.gametip.course_learning = {
+_G.pg.base.gametip.course_learning = {
 	tip = "A Lecture has already commenced."
 }
 
-_G.pg.gametip.time_remaining_tip = {
+_G.pg.base.gametip.time_remaining_tip = {
 	tip = "Time left: "
 }
 
-_G.pg.gametip.propose_intimacy_tip = {
+_G.pg.base.gametip.propose_intimacy_tip = {
 	tip = "Reach 100 Affinity\n   (Current: $1)"
 }
 
-_G.pg.gametip.no_found_record_equipment = {
+_G.pg.base.gametip.no_found_record_equipment = {
 	tip = "No spare $1 gear found. Would you like the system to search for similar gear of a different enhance level?"
 }
 
-_G.pg.gametip.sec_floor_limit_tip = {
+_G.pg.base.gametip.sec_floor_limit_tip = {
 	tip = "Unlocks after first floor of dorm is expanded."
 }
 
-_G.pg.gametip.guild_shop_flash_success = {
+_G.pg.base.gametip.guild_shop_flash_success = {
 	tip = "Refreshed!"
 }
 
-_G.pg.gametip.destroy_high_rarity_tip = {
+_G.pg.base.gametip.destroy_high_rarity_tip = {
 	tip = "<color=#92fc63>Elite and above</color>"
 }
 
-_G.pg.gametip.destroy_high_level_tip = {
+_G.pg.base.gametip.destroy_high_level_tip = {
 	tip = "<color=#92fc63>$1 is higher than lv. 1</color>"
 }
 
-_G.pg.gametip.destroy_eliteequipment_tip = {
+_G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "You are about to destroy $1 gear.\nAre you sure you want to continue?"
 }
 
-_G.pg.gametip.destroy_high_intensify_tip = {
+_G.pg.base.gametip.destroy_high_intensify_tip = {
 	tip = "<color=#92fc63>$1 enhanced</color>"
 }
 
-_G.pg.gametip.destroy_inHardFormation_tip = {
+_G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "<color=#92fc63>In Hard Mode</color>"
 }
 
-_G.pg.gametip.ship_quick_change_noequip = {
+_G.pg.base.gametip.ship_quick_change_noequip = {
 	tip = "Unable to find usable gear."
 }
 
-_G.pg.gametip.ship_quick_change_nofreeequip = {
+_G.pg.base.gametip.ship_quick_change_nofreeequip = {
 	tip = "No spare gear matches your requirements."
 }
 
-_G.pg.gametip.word_nowenergy = {
+_G.pg.base.gametip.word_nowenergy = {
 	tip = "Current Mood"
 }
 
-_G.pg.gametip.word_energy_recov_speed = {
+_G.pg.base.gametip.word_energy_recov_speed = {
 	tip = "Recovery"
 }
 
-_G.pg.gametip.destroy_eliteship_tip = {
+_G.pg.base.gametip.destroy_eliteship_tip = {
 	tip = "You've selected a $1 ship. Continue?"
 }
 
-_G.pg.gametip.err_resloveequip_nochoice = {
+_G.pg.base.gametip.err_resloveequip_nochoice = {
 	tip = "You have not selected any gear."
 }
 
-_G.pg.gametip.take_nothing = {
+_G.pg.base.gametip.take_nothing = {
 	tip = "There's nothing to collect."
 }
 
-_G.pg.gametip.take_all_mail = {
+_G.pg.base.gametip.take_all_mail = {
 	tip = "Are you sure you want to collect <color=#92fc63>$1 rewards</color> from mail?\nYou will receive: "
 }
 
-_G.pg.gametip.buy_furniture_overtime = {
+_G.pg.base.gametip.buy_furniture_overtime = {
 	tip = "Unable to purchase this decoration at this time."
 }
 
-_G.pg.gametip.twitter_login_tips = {
+_G.pg.base.gametip.twitter_login_tips = {
 	tip = "You will lose your current account progress if you use 3rd-party logins, continue? "
 }
 
-_G.pg.gametip.data_erro = {
+_G.pg.base.gametip.data_erro = {
 	tip = "寮舎データにエラーが発生しました"
 }
 
-_G.pg.gametip.login_failed = {
+_G.pg.base.gametip.login_failed = {
 	tip = "ログイン失敗"
 }
 
-_G.pg.gametip["not yet completed"] = {
+_G.pg.base.gametip["not yet completed"] = {
 	tip = "尚未完成"
 }
 
-_G.pg.gametip.escort_less_count_to_combat = {
+_G.pg.base.gametip.escort_less_count_to_combat = {
 	tip = "You cannot run this any more today. "
 }
 
-_G.pg.gametip.ten_even_draw = {
+_G.pg.base.gametip.ten_even_draw = {
 	tip = "$1回交換する"
 }
 
-_G.pg.gametip.ten_even_draw_confirm = {
+_G.pg.base.gametip.ten_even_draw_confirm = {
 	tip = "$1回交換しますか？"
 }
 
-_G.pg.gametip.level_risk_level_desc = {
+_G.pg.base.gametip.level_risk_level_desc = {
 	tip = " $1\n\n"
 }
 
-_G.pg.gametip.level_risk_level_mitigation_rate = {
+_G.pg.base.gametip.level_risk_level_mitigation_rate = {
 	tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> "
 }
 
-_G.pg.gametip.level_diffcult_chapter_state_safety = {
+_G.pg.base.gametip.level_diffcult_chapter_state_safety = {
 	tip = "<size=24>After reaching 100% completion on this map, you may directly attack the <color=#92fc63>enemy flagships</color> .</size>"
 }
 
-_G.pg.gametip.level_chapter_state_high_risk = {
+_G.pg.base.gametip.level_chapter_state_high_risk = {
 	tip = "<color=#EE2C00>【Threat: Lethal】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_risk = {
+_G.pg.base.gametip.level_chapter_state_risk = {
 	tip = "<color=#FFAF59>【Threat: Med】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_low_risk = {
+_G.pg.base.gametip.level_chapter_state_low_risk = {
 	tip = "<color=#8AFBF3>【Threat: Low】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_safety = {
+_G.pg.base.gametip.level_chapter_state_safety = {
 	tip = "<color=#92fc63>【Threat: Safe】</color>"
 }
 
-_G.pg.gametip.open_skill_class_success = {
+_G.pg.base.gametip.open_skill_class_success = {
 	tip = "Successfully Unlocked Skill Slot "
 }
 
-_G.pg.gametip.backyard_sort_tag_default = {
+_G.pg.base.gametip.backyard_sort_tag_default = {
 	tip = "ID"
 }
 
-_G.pg.gametip.backyard_sort_tag_price = {
+_G.pg.base.gametip.backyard_sort_tag_price = {
 	tip = "Price "
 }
 
-_G.pg.gametip.backyard_sort_tag_comfortable = {
+_G.pg.base.gametip.backyard_sort_tag_comfortable = {
 	tip = "Comfort"
 }
 
-_G.pg.gametip.backyard_sort_tag_size = {
+_G.pg.base.gametip.backyard_sort_tag_size = {
 	tip = "Size"
 }
 
-_G.pg.gametip.backyard_filter_tag_other = {
+_G.pg.base.gametip.backyard_filter_tag_other = {
 	tip = "Other"
 }
 
-_G.pg.gametip.word_status_inFight = {
+_G.pg.base.gametip.word_status_inFight = {
 	tip = "<size=20>Engaged</size>"
 }
 
-_G.pg.gametip.word_status_inPVP = {
+_G.pg.base.gametip.word_status_inPVP = {
 	tip = "<size=20>Exercising</size>"
 }
 
-_G.pg.gametip.word_status_inEvent = {
+_G.pg.base.gametip.word_status_inEvent = {
 	tip = "<size=20>In action</size>"
 }
 
-_G.pg.gametip.word_status_inEventFinished = {
+_G.pg.base.gametip.word_status_inEventFinished = {
 	tip = "<size=20>Completed</size>"
 }
 
-_G.pg.gametip.word_status_inTactics = {
+_G.pg.base.gametip.word_status_inTactics = {
 	tip = "<size=20>Studying</size>"
 }
 
-_G.pg.gametip.word_status_inClass = {
+_G.pg.base.gametip.word_status_inClass = {
 	tip = "<size=20>In class</size>"
 }
 
-_G.pg.gametip.word_status_rest = {
+_G.pg.base.gametip.word_status_rest = {
 	tip = "<size=20>Resting</size>"
 }
 
-_G.pg.gametip.word_status_train = {
+_G.pg.base.gametip.word_status_train = {
 	tip = "<size=20>Training</size>"
 }
 
-_G.pg.gametip.word_status_challenge = {
+_G.pg.base.gametip.word_status_challenge = {
 	tip = "In Challenge Mode "
 }
 
-_G.pg.gametip.word_status_world = {
+_G.pg.base.gametip.word_status_world = {
 	tip = "Operation Siren "
 }
 
-_G.pg.gametip.word_status_inHardFormation = {
+_G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "In Hard Mode"
 }
 
-_G.pg.gametip.challenge_rule = {
+_G.pg.base.gametip.challenge_rule = {
 	tip = "gametips:challenge_rule"
 }
 
-_G.pg.gametip.challenge_exit_warning = {
+_G.pg.base.gametip.challenge_exit_warning = {
 	tip = "Retreating from this battle will end your Challenge Mode run and finalize the score you had before this current level. \nAre you sure you wish to retreat?"
 }
 
-_G.pg.gametip.challenge_fleet_type_fail = {
+_G.pg.base.gametip.challenge_fleet_type_fail = {
 	tip = "You've already selected two ships of the same type."
 }
 
-_G.pg.gametip.challenge_current_level = {
+_G.pg.base.gametip.challenge_current_level = {
 	tip = "Current Level: Round $1"
 }
 
-_G.pg.gametip.challenge_current_score = {
+_G.pg.base.gametip.challenge_current_score = {
 	tip = "Points Earned: $1"
 }
 
-_G.pg.gametip.challenge_total_score = {
+_G.pg.base.gametip.challenge_total_score = {
 	tip = "High Score: $1"
 }
 
-_G.pg.gametip.challenge_current_progress = {
+_G.pg.base.gametip.challenge_current_progress = {
 	tip = "Challenge Mode Round $1"
 }
 
-_G.pg.gametip.challenge_count_unlimit = {
+_G.pg.base.gametip.challenge_count_unlimit = {
 	tip = "Endless Mode"
 }
 
-_G.pg.gametip.challenge_no_fleet = {
+_G.pg.base.gametip.challenge_no_fleet = {
 	tip = "No eligible fleet, unable to sortie."
 }
 
-_G.pg.gametip.equipment_skin_unload = {
+_G.pg.base.gametip.equipment_skin_unload = {
 	tip = "The weapon Skin has been unapplied and stored in your storage"
 }
 
-_G.pg.gametip.equipment_skin_no_old_ship = {
+_G.pg.base.gametip.equipment_skin_no_old_ship = {
 	tip = "The (old ship) does not exist"
 }
 
-_G.pg.gametip.equipment_skin_no_old_skinorequipment = {
+_G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
 	tip = "The (old ship) has no weapon or weapon skin equipped/applied"
 }
 
-_G.pg.gametip.equipment_skin_no_new_ship = {
+_G.pg.base.gametip.equipment_skin_no_new_ship = {
 	tip = "The ship does not exist"
 }
 
-_G.pg.gametip.equipment_skin_no_new_equipment = {
+_G.pg.base.gametip.equipment_skin_no_new_equipment = {
 	tip = "The ship has no weapon equipped"
 }
 
-_G.pg.gametip.equipment_skin_count_noenough = {
+_G.pg.base.gametip.equipment_skin_count_noenough = {
 	tip = "Not enough weapon skin"
 }
 
-_G.pg.gametip.equipment_skin_replace_done = {
+_G.pg.base.gametip.equipment_skin_replace_done = {
 	tip = "Weapon skin change successful"
 }
 
-_G.pg.gametip.equipment_skin_unload_failed = {
+_G.pg.base.gametip.equipment_skin_unload_failed = {
 	tip = "Failed to apply skin on the new ship"
 }
 
-_G.pg.gametip.equipment_skin_unmatch_equipment = {
+_G.pg.base.gametip.equipment_skin_unmatch_equipment = {
 	tip = "Weapon skin does not much your weapon, it has been unapplied stored in your storage"
 }
 
-_G.pg.gametip.equipment_skin_no_equipment_tip = {
+_G.pg.base.gametip.equipment_skin_no_equipment_tip = {
 	tip = "Unable to apply the weapon skin, please equip a weapon first"
 }
 
-_G.pg.gametip.activity_pool_awards_empty = {
+_G.pg.base.gametip.activity_pool_awards_empty = {
 	tip = "This phase has been completed"
 }
 
-_G.pg.gametip.activity_switch_award_pool_failed = {
+_G.pg.base.gametip.activity_switch_award_pool_failed = {
 	tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 }
 
-_G.pg.gametip.shop_street_activity_tip = {
+_G.pg.base.gametip.shop_street_activity_tip = {
 	tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>$1</COLOR>)!"
 }
 
-_G.pg.gametip.shop_street_Equipment_skin_box_help = {
+_G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
 	tip = "<color=#A1E400FF>$1</COLOR>Sale Period:<color=#A1E400FF>$2</COLOR>"
 }
 
-_G.pg.gametip.twitter_link_title = {
+_G.pg.base.gametip.twitter_link_title = {
 	tip = "Twitter Account:$1"
 }
 
-_G.pg.gametip.battle_result_boss_destruct = {
+_G.pg.base.gametip.battle_result_boss_destruct = {
 	tip = "Defeat the boss before it self-destructs"
 }
 
-_G.pg.gametip.battle_preCombatLayer_boss_destruct = {
+_G.pg.base.gametip.battle_preCombatLayer_boss_destruct = {
 	tip = "Defeat the boss before it self-destructs"
 }
 
-_G.pg.gametip.destory_important_equipment_tip = {
+_G.pg.base.gametip.destory_important_equipment_tip = {
 	tip = "Confirm to dissemble <color=#FFDE00FF>“$1”</color>? Type in the name of the equipment to continue."
 }
 
-_G.pg.gametip.destory_important_equipment_input_erro = {
+_G.pg.base.gametip.destory_important_equipment_input_erro = {
 	tip = "Name does not match"
 }
 
-_G.pg.gametip.activity_hit_monster_nocount = {
+_G.pg.base.gametip.activity_hit_monster_nocount = {
 	tip = "Insufficient credits"
 }
 
-_G.pg.gametip.activity_hit_monster_death = {
+_G.pg.base.gametip.activity_hit_monster_death = {
 	tip = "The Nian has already been defeated"
 }
 
-_G.pg.gametip.activity_hit_monster_help = {
+_G.pg.base.gametip.activity_hit_monster_help = {
 	tip = "年獣ミニゲームルール"
 }
 
-_G.pg.gametip.activity_hit_monster_erro = {
+_G.pg.base.gametip.activity_hit_monster_erro = {
 	tip = "Attack failed "
 }
 
-_G.pg.gametip.activity_xiaotiane_progress = {
+_G.pg.base.gametip.activity_xiaotiane_progress = {
 	tip = "Progress: \n$1/$2"
 }
 
-_G.pg.gametip.activity_hit_monster_reset_tip = {
+_G.pg.base.gametip.activity_hit_monster_reset_tip = {
 	tip = "Would you like to play Fu Shun's Great Adventure again? Completing this challenge multiple times will not yield additional rewards. "
 }
 
-_G.pg.gametip.answer_help_tip = {
+_G.pg.base.gametip.answer_help_tip = {
 	tip = {
 		{
 			info = "                                       游戏规则\n"
@@ -8666,39 +8666,39 @@ _G.pg.gametip.answer_help_tip = {
 	}
 }
 
-_G.pg.gametip.answer_answer_role = {
+_G.pg.base.gametip.answer_answer_role = {
 	tip = "下一题由【$1】同学来回答问题\n（请选择【$1】认为正确的答案噢）"
 }
 
-_G.pg.gametip.answer_exit_tip = {
+_G.pg.base.gametip.answer_exit_tip = {
 	tip = "正在答题中，是否退出？"
 }
 
-_G.pg.gametip.equip_skin_detail_tip = {
+_G.pg.base.gametip.equip_skin_detail_tip = {
 	tip = "It contains Gear Skins listed below:"
 }
 
-_G.pg.gametip.emoji_type_0 = {
+_G.pg.base.gametip.emoji_type_0 = {
 	tip = "Recent"
 }
 
-_G.pg.gametip.emoji_type_1 = {
+_G.pg.base.gametip.emoji_type_1 = {
 	tip = "Default"
 }
 
-_G.pg.gametip.emoji_type_2 = {
+_G.pg.base.gametip.emoji_type_2 = {
 	tip = "Animated"
 }
 
-_G.pg.gametip.emoji_type_3 = {
+_G.pg.base.gametip.emoji_type_3 = {
 	tip = "Pixel "
 }
 
-_G.pg.gametip.emoji_type_4 = {
+_G.pg.base.gametip.emoji_type_4 = {
 	tip = "Cartoon "
 }
 
-_G.pg.gametip.card_pairs_help_tip = {
+_G.pg.base.gametip.card_pairs_help_tip = {
 	tip = {
 		{
 			info = "Event Information："
@@ -8727,23 +8727,23 @@ _G.pg.gametip.card_pairs_help_tip = {
 	}
 }
 
-_G.pg.gametip.card_pairs_tips = {
+_G.pg.base.gametip.card_pairs_tips = {
 	tip = "You cannot acquire any more Mooncake today. Would you still like to play the game?"
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_failed = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
 	tip = "This ship is at the Max Level.\nFor now, you cannot Cognitively Awaken it any further."
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_tip = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_tip = {
 	tip = "The resources below will be used to induce a Cognitive Awakening and increase this ship's Level Cap.\nLevel Cap increase after Cognitive Awakening:"
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_succeed = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
 	tip = "Cognitive Awakening Complete\nThis ship's Level Cap has increased to Level <color=#92fc63FF>$1</color>"
 }
 
-_G.pg.gametip.extra_chapter_socre_tip = {
+_G.pg.base.gametip.extra_chapter_socre_tip = {
 	tip = [[
 Current Record: <color=#92fc63>$1</color>
 
@@ -8752,167 +8752,167 @@ Record Best: <color=#92fc63>$2</color>
 $3]]
 }
 
-_G.pg.gametip.extra_chapter_record_updated = {
+_G.pg.base.gametip.extra_chapter_record_updated = {
 	tip = "New Record"
 }
 
-_G.pg.gametip.extra_chapter_record_not_updated = {
+_G.pg.base.gametip.extra_chapter_record_not_updated = {
 	tip = "Record Unchanged"
 }
 
-_G.pg.gametip.extra_chapter_locked_tip = {
+_G.pg.base.gametip.extra_chapter_locked_tip = {
 	tip = "Pass Hard Mode to unlock EX Mode"
 }
 
-_G.pg.gametip.extra_chapter_locked_tip_1 = {
+_G.pg.base.gametip.extra_chapter_locked_tip_1 = {
 	tip = "Unlocks once you have completed the last stage of the event on Normal Mode. "
 }
 
-_G.pg.gametip.player_name_change_time_lv_tip = {
+_G.pg.base.gametip.player_name_change_time_lv_tip = {
 	tip = "Identity Change will be available when you reach lv.<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.player_name_change_time_limit_tip = {
+_G.pg.base.gametip.player_name_change_time_limit_tip = {
 	tip = "Subsequent Identity Change will be available after <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.player_name_change_windows_tip = {
+_G.pg.base.gametip.player_name_change_windows_tip = {
 	tip = "*It will cost you <color=#92fc63>$1:$2</color> to change your name, you will not be able to do it again in <color=#92fc63>30</color> days."
 }
 
-_G.pg.gametip.player_name_change_warning = {
+_G.pg.base.gametip.player_name_change_warning = {
 	tip = "It will cost you <color=#92fc63>$1</color> <color=#92fc63>$2</color>, are you sure you want to change your Commander’s name to <color=#92fc63>$3</color>?"
 }
 
-_G.pg.gametip.player_name_change_success = {
+_G.pg.base.gametip.player_name_change_success = {
 	tip = "Identity Change Successful"
 }
 
-_G.pg.gametip.player_name_change_failed = {
+_G.pg.base.gametip.player_name_change_failed = {
 	tip = "Identity Change Failed"
 }
 
-_G.pg.gametip.same_player_name_tip = {
+_G.pg.base.gametip.same_player_name_tip = {
 	tip = "You cannot use this name "
 }
 
-_G.pg.gametip.task_is_not_existence = {
+_G.pg.base.gametip.task_is_not_existence = {
 	tip = "Mission $1 unavailable now."
 }
 
-_G.pg.gametip.cannot_build_multiple_printblue = {
+_G.pg.base.gametip.cannot_build_multiple_printblue = {
 	tip = "Would you like to pause <color=#92fc63>$1</color>'s development and start on <color=#92fc63>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#92fc63>24 hours</color>. "
 }
 
-_G.pg.gametip.printblue_build_success = {
+_G.pg.base.gametip.printblue_build_success = {
 	tip = "Development started."
 }
 
-_G.pg.gametip.printblue_build_erro = {
+_G.pg.base.gametip.printblue_build_erro = {
 	tip = "Development failed."
 }
 
-_G.pg.gametip.blueprint_mod_success = {
+_G.pg.base.gametip.blueprint_mod_success = {
 	tip = "Successfully enhanced."
 }
 
-_G.pg.gametip.blueprint_mod_erro = {
+_G.pg.base.gametip.blueprint_mod_erro = {
 	tip = "Failed to enhance."
 }
 
-_G.pg.gametip.technology_refresh_sucess = {
+_G.pg.base.gametip.technology_refresh_sucess = {
 	tip = "Successfully updated Research Project list."
 }
 
-_G.pg.gametip.technology_refresh_erro = {
+_G.pg.base.gametip.technology_refresh_erro = {
 	tip = "Failed to update Research Project list."
 }
 
-_G.pg.gametip.change_technology_refresh_sucess = {
+_G.pg.base.gametip.change_technology_refresh_sucess = {
 	tip = "Successfully changed Research Projects."
 }
 
-_G.pg.gametip.change_technology_refresh_erro = {
+_G.pg.base.gametip.change_technology_refresh_erro = {
 	tip = "Failed to change Research Projects."
 }
 
-_G.pg.gametip.technology_start_up = {
+_G.pg.base.gametip.technology_start_up = {
 	tip = "Research started."
 }
 
-_G.pg.gametip.technology_start_erro = {
+_G.pg.base.gametip.technology_start_erro = {
 	tip = "Research failed."
 }
 
-_G.pg.gametip.technology_stop_success = {
+_G.pg.base.gametip.technology_stop_success = {
 	tip = "Successfully suspended research."
 }
 
-_G.pg.gametip.technology_stop_erro = {
+_G.pg.base.gametip.technology_stop_erro = {
 	tip = "Failed to suspend research."
 }
 
-_G.pg.gametip.technology_finish_success = {
+_G.pg.base.gametip.technology_finish_success = {
 	tip = "Successfully completed Research."
 }
 
-_G.pg.gametip.technology_finish_erro = {
+_G.pg.base.gametip.technology_finish_erro = {
 	tip = "Failed to complete Research."
 }
 
-_G.pg.gametip.blueprint_stop_success = {
+_G.pg.base.gametip.blueprint_stop_success = {
 	tip = "Successfully suspended development."
 }
 
-_G.pg.gametip.blueprint_stop_erro = {
+_G.pg.base.gametip.blueprint_stop_erro = {
 	tip = "Failed to suspend development."
 }
 
-_G.pg.gametip.blueprint_destory_tip = {
+_G.pg.base.gametip.blueprint_destory_tip = {
 	tip = "You can not retire Priority ships."
 }
 
-_G.pg.gametip.blueprint_task_update_tip = {
+_G.pg.base.gametip.blueprint_task_update_tip = {
 	tip = "The development progress of a ship has been updated. Please inspect your Shipyard."
 }
 
-_G.pg.gametip.blueprint_mod_addition_lock = {
+_G.pg.base.gametip.blueprint_mod_addition_lock = {
 	tip = "Will be unlocked at Dev. Level $1."
 }
 
-_G.pg.gametip.blueprint_mod_word_unlock = {
+_G.pg.base.gametip.blueprint_mod_word_unlock = {
 	tip = "Unlocks voice line: $1"
 }
 
-_G.pg.gametip.blueprint_mod_skin_unlock = {
+_G.pg.base.gametip.blueprint_mod_skin_unlock = {
 	tip = "Acquire skin: $1 "
 }
 
-_G.pg.gametip.blueprint_build_consume = {
+_G.pg.base.gametip.blueprint_build_consume = {
 	tip = "Spend $1 to commence development?"
 }
 
-_G.pg.gametip.blueprint_stop_tip = {
+_G.pg.base.gametip.blueprint_stop_tip = {
 	tip = "Would you like to suspend development? The items and resources you've spent will not be refunded."
 }
 
-_G.pg.gametip.technology_canot_refresh = {
+_G.pg.base.gametip.technology_canot_refresh = {
 	tip = "You can not update the list when a Research Project is underway."
 }
 
-_G.pg.gametip.technology_refresh_tip = {
+_G.pg.base.gametip.technology_refresh_tip = {
 	tip = "Would you like to update the Research Project list?"
 }
 
-_G.pg.gametip.technology_is_actived = {
+_G.pg.base.gametip.technology_is_actived = {
 	tip = "You are currently researching a project."
 }
 
-_G.pg.gametip.technology_stop_tip = {
+_G.pg.base.gametip.technology_stop_tip = {
 	tip = "Would you like to suspend research? The items and resources you've spent will not be refunded."
 }
 
-_G.pg.gametip.technology_help_text = {
+_G.pg.base.gametip.technology_help_text = {
 	tip = {
 		{
 			info = [[
@@ -8946,55 +8946,55 @@ Setting an active Catch-Up ship is done through the Research Focus menu.]]
 	}
 }
 
-_G.pg.gametip.blueprint_build_time_tip = {
+_G.pg.base.gametip.blueprint_build_time_tip = {
 	tip = "Once you start or resume development, you can not change which ship to develop for 24 hours.\n\nWould you like to proceed?"
 }
 
-_G.pg.gametip.blueprint_cannot_build_tip = {
+_G.pg.base.gametip.blueprint_cannot_build_tip = {
 	tip = "$1 remaining until you can change which ship to develop."
 }
 
-_G.pg.gametip.technology_task_none_tip = {
+_G.pg.base.gametip.technology_task_none_tip = {
 	tip = "-Nothing-"
 }
 
-_G.pg.gametip.technology_task_build_tip = {
+_G.pg.base.gametip.technology_task_build_tip = {
 	tip = "The following resources or items will be spent to commence research: $1"
 }
 
-_G.pg.gametip.blueprint_commit_tip = {
+_G.pg.base.gametip.blueprint_commit_tip = {
 	tip = "$1 will be spent to complete the development mission. Would you like to proceed?"
 }
 
-_G.pg.gametip.buleprint_need_level_tip = {
+_G.pg.base.gametip.buleprint_need_level_tip = {
 	tip = "The corresponding ship will be unlocked at Level $1."
 }
 
-_G.pg.gametip.blueprint_max_level_tip = {
+_G.pg.base.gametip.blueprint_max_level_tip = {
 	tip = "The maximum level has already been achieved."
 }
 
-_G.pg.gametip.ship_profile_voice_locked_intimacy = {
+_G.pg.base.gametip.ship_profile_voice_locked_intimacy = {
 	tip = "Coming Soon"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_propose = {
+_G.pg.base.gametip.ship_profile_voice_locked_propose = {
 	tip = "Coming Soon"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_propose_imas = {
+_G.pg.base.gametip.ship_profile_voice_locked_propose_imas = {
 	tip = "Coming Soon"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_design = {
+_G.pg.base.gametip.ship_profile_voice_locked_design = {
 	tip = "Coming Soon"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_meta = {
+_G.pg.base.gametip.ship_profile_voice_locked_meta = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.help_technolog0 = {
+_G.pg.base.gametip.help_technolog0 = {
 	tip = {
 		{
 			icon = {
@@ -9026,7 +9026,7 @@ _G.pg.gametip.help_technolog0 = {
 	}
 }
 
-_G.pg.gametip.help_technolog = {
+_G.pg.base.gametip.help_technolog = {
 	tip = {
 		{
 			icon = {
@@ -9076,15 +9076,15 @@ _G.pg.gametip.help_technolog = {
 	}
 }
 
-_G.pg.gametip.hide_chat_warning = {
+_G.pg.base.gametip.hide_chat_warning = {
 	tip = "Turning off chat to hide messages."
 }
 
-_G.pg.gametip.show_chat_warning = {
+_G.pg.base.gametip.show_chat_warning = {
 	tip = "Turning on chat to display messages."
 }
 
-_G.pg.gametip.help_shipblueprintui = {
+_G.pg.base.gametip.help_shipblueprintui = {
 	tip = {
 		{
 			info = [[
@@ -9140,7 +9140,7 @@ Please note that the ships' stats and loadouts are preset in this mode, and may 
 	}
 }
 
-_G.pg.gametip.help_shipblueprintui_luck = {
+_G.pg.base.gametip.help_shipblueprintui_luck = {
 	tip = {
 		{
 			info = [[
@@ -9155,63 +9155,63 @@ Fate Simulation:
 	}
 }
 
-_G.pg.gametip.anniversary_task_title_1 = {
+_G.pg.base.gametip.anniversary_task_title_1 = {
 	tip = "Commander, I still clearly remember the way the birds chirped when our eyes first met."
 }
 
-_G.pg.gametip.anniversary_task_title_2 = {
+_G.pg.base.gametip.anniversary_task_title_2 = {
 	tip = "Though things were a bit rough at first, you strove, strategized, and sometimes even wished your way towards success."
 }
 
-_G.pg.gametip.anniversary_task_title_3 = {
+_G.pg.base.gametip.anniversary_task_title_3 = {
 	tip = "Before I met you, I felt alone in the world, almost crushed by the bleakness of reality."
 }
 
-_G.pg.gametip.anniversary_task_title_4 = {
+_G.pg.base.gametip.anniversary_task_title_4 = {
 	tip = "But now, when I think about your smile in the first rays of the dawn, I am inspired to sing about the future yet to come."
 }
 
-_G.pg.gametip.anniversary_task_title_5 = {
+_G.pg.base.gametip.anniversary_task_title_5 = {
 	tip = "Though the road ahead of me will be treacherous, there is only one direction that I can go now."
 }
 
-_G.pg.gametip.anniversary_task_title_6 = {
+_G.pg.base.gametip.anniversary_task_title_6 = {
 	tip = "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again."
 }
 
-_G.pg.gametip.anniversary_task_title_7 = {
+_G.pg.base.gametip.anniversary_task_title_7 = {
 	tip = "But I believe that the light of dawn will not abandon me. I know that I will be able to find my way to your side."
 }
 
-_G.pg.gametip.anniversary_task_title_8 = {
+_G.pg.base.gametip.anniversary_task_title_8 = {
 	tip = "As I wandered, there were those that mocked me for being silly or directionless."
 }
 
-_G.pg.gametip.anniversary_task_title_9 = {
+_G.pg.base.gametip.anniversary_task_title_9 = {
 	tip = "But someone grabbed onto my hand, perhaps feeling sorry for my helplessness. She became my first friend."
 }
 
-_G.pg.gametip.anniversary_task_title_10 = {
+_G.pg.base.gametip.anniversary_task_title_10 = {
 	tip = "As I slowly opened up to her, she painstakingly etched my story into her picture book."
 }
 
-_G.pg.gametip.anniversary_task_title_11 = {
+_G.pg.base.gametip.anniversary_task_title_11 = {
 	tip = "With her support, my heart began to thaw, and I started to grow again."
 }
 
-_G.pg.gametip.anniversary_task_title_12 = {
+_G.pg.base.gametip.anniversary_task_title_12 = {
 	tip = "More and more people are cheering me on now. I don't want to show them my tears anymore."
 }
 
-_G.pg.gametip.anniversary_task_title_13 = {
+_G.pg.base.gametip.anniversary_task_title_13 = {
 	tip = "I can already see your shadow ahead of me. With just a few more steps, I'll be able to reach you at last."
 }
 
-_G.pg.gametip.anniversary_task_title_14 = {
+_G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "I can't wait until I can see you once more. When the birds resume their song once more..."
 }
 
-_G.pg.gametip.help_sos = {
+_G.pg.base.gametip.help_sos = {
 	tip = {
 		{
 			info = [[
@@ -9238,19 +9238,19 @@ Combat Encounters
 	}
 }
 
-_G.pg.gametip.sos_lock = {
+_G.pg.base.gametip.sos_lock = {
 	tip = "救援海域は開放されていません "
 }
 
-_G.pg.gametip.charge_scene_buy_confirm = {
+_G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
 }
 
-_G.pg.gametip.charge_scene_batch_buy_tip = {
+_G.pg.base.gametip.charge_scene_batch_buy_tip = {
 	tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>gems to buy <color=$3>$2</color>$4?"
 }
 
-_G.pg.gametip.help_level_ui = {
+_G.pg.base.gametip.help_level_ui = {
 	tip = {
 		{
 			icon = {
@@ -9348,119 +9348,119 @@ _G.pg.gametip.help_level_ui = {
 	}
 }
 
-_G.pg.gametip.guild_modify_info_tip = {
+_G.pg.base.gametip.guild_modify_info_tip = {
 	tip = "Are you sure you want to use<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?"
 }
 
-_G.pg.gametip.ai_change_1 = {
+_G.pg.base.gametip.ai_change_1 = {
 	tip = "The Submarine Fleet is now in Support Mode."
 }
 
-_G.pg.gametip.ai_change_2 = {
+_G.pg.base.gametip.ai_change_2 = {
 	tip = "The Submarine Fleet is now in Attack Mode."
 }
 
-_G.pg.gametip.activity_shop_lable = {
+_G.pg.base.gametip.activity_shop_lable = {
 	tip = "*Available During:<color=#FFCF81>$1</color>"
 }
 
-_G.pg.gametip.word_bilibili = {
+_G.pg.base.gametip.word_bilibili = {
 	tip = "bili小电池"
 }
 
-_G.pg.gametip.levelScene_tracking_error_pre = {
+_G.pg.base.gametip.levelScene_tracking_error_pre = {
 	tip = "Available after <color=#92fc63>$1</color> cleared"
 }
 
-_G.pg.gametip.ship_limit_notice = {
+_G.pg.base.gametip.ship_limit_notice = {
 	tip = "*The Submarine Fleet's stats do not count towards the Status Requirements. "
 }
 
-_G.pg.gametip.idle = {
+_G.pg.base.gametip.idle = {
 	tip = "Pause"
 }
 
-_G.pg.gametip.main_1 = {
+_G.pg.base.gametip.main_1 = {
 	tip = "Main Menu\n1"
 }
 
-_G.pg.gametip.main_2 = {
+_G.pg.base.gametip.main_2 = {
 	tip = "Main Menu\n2"
 }
 
-_G.pg.gametip.main_3 = {
+_G.pg.base.gametip.main_3 = {
 	tip = "Main Menu\n3"
 }
 
-_G.pg.gametip.complete = {
+_G.pg.base.gametip.complete = {
 	tip = "Commi-\nssion"
 }
 
-_G.pg.gametip.login = {
+_G.pg.base.gametip.login = {
 	tip = "Login"
 }
 
-_G.pg.gametip.home = {
+_G.pg.base.gametip.home = {
 	tip = "Return"
 }
 
-_G.pg.gametip.mail = {
+_G.pg.base.gametip.mail = {
 	tip = "Mail\nTips"
 }
 
-_G.pg.gametip.mission = {
+_G.pg.base.gametip.mission = {
 	tip = "Mission\nTips"
 }
 
-_G.pg.gametip.mission_complete = {
+_G.pg.base.gametip.mission_complete = {
 	tip = "Mission\nComplete"
 }
 
-_G.pg.gametip.wedding = {
+_G.pg.base.gametip.wedding = {
 	tip = "Pledge"
 }
 
-_G.pg.gametip.touch_head = {
+_G.pg.base.gametip.touch_head = {
 	tip = "Head\nTouch"
 }
 
-_G.pg.gametip.touch_body = {
+_G.pg.base.gametip.touch_body = {
 	tip = "Touch"
 }
 
-_G.pg.gametip.touch_special = {
+_G.pg.base.gametip.touch_special = {
 	tip = "Touch\n3"
 }
 
-_G.pg.gametip.gold = {
+_G.pg.base.gametip.gold = {
 	tip = "Funds"
 }
 
-_G.pg.gametip.oil = {
+_G.pg.base.gametip.oil = {
 	tip = "Oil"
 }
 
-_G.pg.gametip.diamond = {
+_G.pg.base.gametip.diamond = {
 	tip = "Gems"
 }
 
-_G.pg.gametip.word_photo_mode = {
+_G.pg.base.gametip.word_photo_mode = {
 	tip = "Photo"
 }
 
-_G.pg.gametip.word_video_mode = {
+_G.pg.base.gametip.word_video_mode = {
 	tip = "Rec"
 }
 
-_G.pg.gametip.word_save_ok = {
+_G.pg.base.gametip.word_save_ok = {
 	tip = "Successfully saved to your photo album"
 }
 
-_G.pg.gametip.word_save_video = {
+_G.pg.base.gametip.word_save_video = {
 	tip = "Record Complete \n Do you want to save it?"
 }
 
-_G.pg.gametip.reflux_help_tip = {
+_G.pg.base.gametip.reflux_help_tip = {
 	tip = {
 		{
 			info = "How To Get Akashi Points:"
@@ -9492,79 +9492,79 @@ _G.pg.gametip.reflux_help_tip = {
 	}
 }
 
-_G.pg.gametip.reflux_pt_not_enough = {
+_G.pg.base.gametip.reflux_pt_not_enough = {
 	tip = "You do not have enough Akashi Points."
 }
 
-_G.pg.gametip.reflux_word_1 = {
+_G.pg.base.gametip.reflux_word_1 = {
 	tip = "Time Left:"
 }
 
-_G.pg.gametip.reflux_word_2 = {
+_G.pg.base.gametip.reflux_word_2 = {
 	tip = "Unlocked"
 }
 
-_G.pg.gametip.ship_hunting_level_tips = {
+_G.pg.base.gametip.ship_hunting_level_tips = {
 	tip = "*Total ASR is the sum of ASR from limit break and gear."
 }
 
-_G.pg.gametip.acquisitionmode_is_not_open = {
+_G.pg.base.gametip.acquisitionmode_is_not_open = {
 	tip = "This method is not unlocked yet."
 }
 
-_G.pg.gametip.collect_chapter_is_activation = {
+_G.pg.base.gametip.collect_chapter_is_activation = {
 	tip = "Your are on a mission, do you want to retreat?"
 }
 
-_G.pg.gametip.levelScene_chapter_is_activation = {
+_G.pg.base.gametip.levelScene_chapter_is_activation = {
 	tip = "You are exploring Stage <color=#92fc63>$1</color>, \nplease choose to continue or retreat now"
 }
 
-_G.pg.gametip.resource_verify_warn = {
+_G.pg.base.gametip.resource_verify_warn = {
 	tip = "Do you wish to initiate data repair? The process will take some time. This will not affect your gameplay but may hinder the optimal performance of your phone. "
 }
 
-_G.pg.gametip.resource_verify_fail = {
+_G.pg.base.gametip.resource_verify_fail = {
 	tip = "Game resource restoration complete. Restart the game and begin updating. Tap confirm to close the game. $1"
 }
 
-_G.pg.gametip.resource_verify_success = {
+_G.pg.base.gametip.resource_verify_success = {
 	tip = "Game resource restoration complete."
 }
 
-_G.pg.gametip.resource_clear_all = {
+_G.pg.base.gametip.resource_clear_all = {
 	tip = "Would you like to clear your cache data? \nThe game will automatically restart upon completion. "
 }
 
-_G.pg.gametip.acl_oil_count = {
+_G.pg.base.gametip.acl_oil_count = {
 	tip = "Spent Oil:"
 }
 
-_G.pg.gametip.acl_oil_total_count = {
+_G.pg.base.gametip.acl_oil_total_count = {
 	tip = "Total Spent Oil:"
 }
 
-_G.pg.gametip.word_take_video_tip = {
+_G.pg.base.gametip.word_take_video_tip = {
 	tip = "Tips: Tap the button on the right side to stop recording."
 }
 
-_G.pg.gametip.word_snapshot_share_title = {
+_G.pg.base.gametip.word_snapshot_share_title = {
 	tip = "Azur Lane | Sharing Agreement"
 }
 
-_G.pg.gametip.word_snapshot_share_agreement = {
+_G.pg.base.gametip.word_snapshot_share_agreement = {
 	tip = "You agree to use the sharing function reasonably and lawfully in accordance with this agreement. Unless otherwise agreed, any pictures, videos and other contents that you share, save, use, and publish through this function is for your personal non-commercial use only; information that you share with other social platforms (including but not limited to photos, videos, etc.) is provided by you,and you are responsible for any information given."
 }
 
-_G.pg.gametip.skin_remain_time = {
+_G.pg.base.gametip.skin_remain_time = {
 	tip = "Expires in "
 }
 
-_G.pg.gametip.word_museum_1 = {
+_G.pg.base.gametip.word_museum_1 = {
 	tip = "No more Model Parts can be obtained today. "
 }
 
-_G.pg.gametip.word_museum_help = {
+_G.pg.base.gametip.word_museum_help = {
 	tip = {
 		{
 			info = "Event Details:"
@@ -9587,7 +9587,7 @@ _G.pg.gametip.word_museum_help = {
 	}
 }
 
-_G.pg.gametip.goldship_help_tip = {
+_G.pg.base.gametip.goldship_help_tip = {
 	tip = {
 		{
 			info = "- How to Play:"
@@ -9616,7 +9616,7 @@ _G.pg.gametip.goldship_help_tip = {
 	}
 }
 
-_G.pg.gametip.metalgearsub_help_tip = {
+_G.pg.base.gametip.metalgearsub_help_tip = {
 	tip = {
 		{
 			info = "\"One Small Promise\" Event Details:"
@@ -9648,219 +9648,219 @@ _G.pg.gametip.metalgearsub_help_tip = {
 	}
 }
 
-_G.pg.gametip.acl_gold_count = {
+_G.pg.base.gametip.acl_gold_count = {
 	tip = "Target Coins:"
 }
 
-_G.pg.gametip.acl_gold_total_count = {
+_G.pg.base.gametip.acl_gold_total_count = {
 	tip = "Total Coins Spent:"
 }
 
-_G.pg.gametip.discount_time = {
+_G.pg.base.gametip.discount_time = {
 	tip = "<color=grey>Time left on discount</color> <color=#92fc63>$1</color> "
 }
 
-_G.pg.gametip.commander_talent_not_exist = {
+_G.pg.base.gametip.commander_talent_not_exist = {
 	tip = "Talent error: this Talent already exists."
 }
 
-_G.pg.gametip.commander_replace_talent_not_exist = {
+_G.pg.base.gametip.commander_replace_talent_not_exist = {
 	tip = "Talent error: this Talent is from before a game update."
 }
 
-_G.pg.gametip.commander_talent_learned = {
+_G.pg.base.gametip.commander_talent_learned = {
 	tip = "Learned the following Talent: $1."
 }
 
-_G.pg.gametip.commander_talent_learn_erro = {
+_G.pg.base.gametip.commander_talent_learn_erro = {
 	tip = "Failed to learn the following Talent: $1."
 }
 
-_G.pg.gametip.commander_not_exist = {
+_G.pg.base.gametip.commander_not_exist = {
 	tip = "This Meowfficer does not exist."
 }
 
-_G.pg.gametip.commander_fleet_not_exist = {
+_G.pg.base.gametip.commander_fleet_not_exist = {
 	tip = "This fleet does not exist."
 }
 
-_G.pg.gametip.commander_fleet_pos_not_exist = {
+_G.pg.base.gametip.commander_fleet_pos_not_exist = {
 	tip = "A Meowfficer has not been assigned."
 }
 
-_G.pg.gametip.commander_equip_to_fleet_erro = {
+_G.pg.base.gametip.commander_equip_to_fleet_erro = {
 	tip = "Could not assign the following Meowfficer: $1."
 }
 
-_G.pg.gametip.commander_acquire_erro = {
+_G.pg.base.gametip.commander_acquire_erro = {
 	tip = "The following Meowfficer could not be obtained: $1."
 }
 
-_G.pg.gametip.commander_lock_erro = {
+_G.pg.base.gametip.commander_lock_erro = {
 	tip = "The following could not be locked: $1."
 }
 
-_G.pg.gametip.commander_reset_talent_time_no_rearch = {
+_G.pg.base.gametip.commander_reset_talent_time_no_rearch = {
 	tip = "You must wait before you can reset these Talents again."
 }
 
-_G.pg.gametip.commander_reset_talent_is_not_need = {
+_G.pg.base.gametip.commander_reset_talent_is_not_need = {
 	tip = "Talents could not be reset."
 }
 
-_G.pg.gametip.commander_reset_talent_success = {
+_G.pg.base.gametip.commander_reset_talent_success = {
 	tip = "Talents have been reset."
 }
 
-_G.pg.gametip.commander_reset_talent_erro = {
+_G.pg.base.gametip.commander_reset_talent_erro = {
 	tip = "The following Talent could not be reset: $1."
 }
 
-_G.pg.gametip.commander_can_not_be_upgrade = {
+_G.pg.base.gametip.commander_can_not_be_upgrade = {
 	tip = "The selected Meowfficer cannot level up."
 }
 
-_G.pg.gametip.commander_anyone_is_in_fleet = {
+_G.pg.base.gametip.commander_anyone_is_in_fleet = {
 	tip = "The selected Meowfficer is already in a fleet."
 }
 
-_G.pg.gametip.commander_is_in_fleet = {
+_G.pg.base.gametip.commander_is_in_fleet = {
 	tip = "The selected Meowfficer is currently sortieing."
 }
 
-_G.pg.gametip.commander_play_erro = {
+_G.pg.base.gametip.commander_play_erro = {
 	tip = "Failed to Enhance $1."
 }
 
-_G.pg.gametip.ship_equip_same_group_equipment = {
+_G.pg.base.gametip.ship_equip_same_group_equipment = {
 	tip = "You can only equip 1 Unique gear piece. "
 }
 
-_G.pg.gametip.summary_page_un_rearch = {
+_G.pg.base.gametip.summary_page_un_rearch = {
 	tip = "Unclaimed "
 }
 
-_G.pg.gametip.commander_exp_overflow_tip = {
+_G.pg.base.gametip.commander_exp_overflow_tip = {
 	tip = "The Meowfficer will receive wasted EXP due to going beyond the level cap. Would you like to continue?"
 }
 
-_G.pg.gametip.commander_reset_talent_tip = {
+_G.pg.base.gametip.commander_reset_talent_tip = {
 	tip = "Would you like to reset this Meowfficer's Talents?"
 }
 
-_G.pg.gametip.commander_reset_talent = {
+_G.pg.base.gametip.commander_reset_talent = {
 	tip = "Resettable"
 }
 
-_G.pg.gametip.commander_select_min_cnt = {
+_G.pg.base.gametip.commander_select_min_cnt = {
 	tip = "You must select $1 or more Meowfficers."
 }
 
-_G.pg.gametip.commander_select_max = {
+_G.pg.base.gametip.commander_select_max = {
 	tip = "You cannot select any more Meowfficers."
 }
 
-_G.pg.gametip.commander_lock_done = {
+_G.pg.base.gametip.commander_lock_done = {
 	tip = "Meowfficer locked."
 }
 
-_G.pg.gametip.commander_unlock_done = {
+_G.pg.base.gametip.commander_unlock_done = {
 	tip = "Meowfficer unlocked."
 }
 
-_G.pg.gametip.commander_get_1 = {
+_G.pg.base.gametip.commander_get_1 = {
 	tip = "Your daily first Cat Box is free of charge, nya!"
 }
 
-_G.pg.gametip.commander_get = {
+_G.pg.base.gametip.commander_get = {
 	tip = "Would you like to spend $1 Coins and purchase $2 Cat Box(es)?"
 }
 
-_G.pg.gametip.commander_build_done = {
+_G.pg.base.gametip.commander_build_done = {
 	tip = "Commenced Meowfficer training!"
 }
 
-_G.pg.gametip.commander_build_erro = {
+_G.pg.base.gametip.commander_build_erro = {
 	tip = "Failed to train Meowfficer(s): $1"
 }
 
-_G.pg.gametip.commander_get_skills_done = {
+_G.pg.base.gametip.commander_get_skills_done = {
 	tip = "Failed to fetch list of learnable Talents."
 }
 
-_G.pg.gametip.collection_way_is_unopen = {
+_G.pg.base.gametip.collection_way_is_unopen = {
 	tip = "You cannot obtain this now."
 }
 
-_G.pg.gametip.commander_can_not_select_same_group = {
+_G.pg.base.gametip.commander_can_not_select_same_group = {
 	tip = "You cannot assign 2 Meowfficers of the same type to one fleet."
 }
 
-_G.pg.gametip.commander_capcity_is_max = {
+_G.pg.base.gametip.commander_capcity_is_max = {
 	tip = "The Cattery is full, nya..."
 }
 
-_G.pg.gametip.commander_reserve_count_is_max = {
+_G.pg.base.gametip.commander_reserve_count_is_max = {
 	tip = "You cannot buy any more than this."
 }
 
-_G.pg.gametip.commander_build_pool_tip = {
+_G.pg.base.gametip.commander_build_pool_tip = {
 	tip = "Do you wish to use $2 $1(s) to train this Meowfficer? "
 }
 
-_G.pg.gametip.commander_select_matiral_erro = {
+_G.pg.base.gametip.commander_select_matiral_erro = {
 	tip = "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>"
 }
 
-_G.pg.gametip.commander_material_is_rarity = {
+_G.pg.base.gametip.commander_material_is_rarity = {
 	tip = "You have selected an SR Meowfficer. Would you like to continue?"
 }
 
-_G.pg.gametip.commander_material_is_maxLevel = {
+_G.pg.base.gametip.commander_material_is_maxLevel = {
 	tip = "This Meowfficer is at the max level; it will not gain any EXP from Enhancing. Would you like to continue?"
 }
 
-_G.pg.gametip.charge_commander_bag_max = {
+_G.pg.base.gametip.charge_commander_bag_max = {
 	tip = "The Cattery has been fully expanded. You cannot purchase any more slots."
 }
 
-_G.pg.gametip.shop_extendcommander_success = {
+_G.pg.base.gametip.shop_extendcommander_success = {
 	tip = "Slots purchased. The Cattery was successfully expanded."
 }
 
-_G.pg.gametip.commander_skill_point_noengough = {
+_G.pg.base.gametip.commander_skill_point_noengough = {
 	tip = "This Meowfficer does not have any Talent Points."
 }
 
-_G.pg.gametip.buildship_new_tip = {
+_G.pg.base.gametip.buildship_new_tip = {
 	tip = "Rate UP for Emden, Lützow, and more!"
 }
 
-_G.pg.gametip.buildship_heavy_tip = {
+_G.pg.base.gametip.buildship_heavy_tip = {
 	tip = "Admiral Hipper µ and Gascogne µ added to standard build pool! "
 }
 
-_G.pg.gametip.buildship_light_tip = {
+_G.pg.base.gametip.buildship_light_tip = {
 	tip = "Ying Swei, Chao Ho and Penelope added to standard build pool! "
 }
 
-_G.pg.gametip.buildship_special_tip = {
+_G.pg.base.gametip.buildship_special_tip = {
 	tip = "Akagi µ added to standard build pool! "
 }
 
-_G.pg.gametip.open_skill_pos = {
+_G.pg.base.gametip.open_skill_pos = {
 	tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
 }
 
-_G.pg.gametip.open_skill_pos_discount = {
+_G.pg.base.gametip.open_skill_pos_discount = {
 	tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color> to unlock the slot , \nDo you wish to proceed?"
 }
 
-_G.pg.gametip.event_recommend_fail = {
+_G.pg.base.gametip.event_recommend_fail = {
 	tip = "Does not match Commissions requirements "
 }
 
-_G.pg.gametip.newplayer_help_tip = {
+_G.pg.base.gametip.newplayer_help_tip = {
 	tip = {
 		{
 			info = "Rookie Missions Info:"
@@ -9897,83 +9897,83 @@ disappear.]]
 	}
 }
 
-_G.pg.gametip.newplayer_notice_1 = {
+_G.pg.base.gametip.newplayer_notice_1 = {
 	tip = "Unlocked after completing all Easy missions"
 }
 
-_G.pg.gametip.newplayer_notice_2 = {
+_G.pg.base.gametip.newplayer_notice_2 = {
 	tip = "Unlocked after completing all Hard missions"
 }
 
-_G.pg.gametip.newplayer_notice_3 = {
+_G.pg.base.gametip.newplayer_notice_3 = {
 	tip = "Unlocked after completing all Exams"
 }
 
-_G.pg.gametip.newplayer_notice_4 = {
+_G.pg.base.gametip.newplayer_notice_4 = {
 	tip = "Receive Portland after claiming victory"
 }
 
-_G.pg.gametip.newplayer_notice_5 = {
+_G.pg.base.gametip.newplayer_notice_5 = {
 	tip = "Receive Nelson after claiming victory"
 }
 
-_G.pg.gametip.newplayer_notice_6 = {
+_G.pg.base.gametip.newplayer_notice_6 = {
 	tip = "Claim victory, select one of the following: Hood, \nEnterprise, San Diego, or Illustrious"
 }
 
-_G.pg.gametip.newplayer_notice_7 = {
+_G.pg.base.gametip.newplayer_notice_7 = {
 	tip = "Unlocked after completing previous mission"
 }
 
-_G.pg.gametip.newplayer_notice_8 = {
+_G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
 }
 
-_G.pg.gametip.tec_notice_1 = {
+_G.pg.base.gametip.tec_notice_1 = {
 	tip = "Complete all PR1 Catch-Up missions"
 }
 
-_G.pg.gametip.tec_notice_2 = {
+_G.pg.base.gametip.tec_notice_2 = {
 	tip = "Complete all PR2 Catch-Up missions "
 }
 
-_G.pg.gametip.tec_notice_3 = {
+_G.pg.base.gametip.tec_notice_3 = {
 	tip = "Complete all PR3 Catch-Up missions "
 }
 
-_G.pg.gametip.tec_notice_not_open_tip = {
+_G.pg.base.gametip.tec_notice_not_open_tip = {
 	tip = "Unlocks after completing the previous set of missions"
 }
 
-_G.pg.gametip.apply_permission_camera_tip1 = {
+_G.pg.base.gametip.apply_permission_camera_tip1 = {
 	tip = "To use AR recording game feature, need to grant permission to access recording function."
 }
 
-_G.pg.gametip.apply_permission_camera_tip2 = {
+_G.pg.base.gametip.apply_permission_camera_tip2 = {
 	tip = "You have turned off recording permission, please confirm permission in the game settings menu."
 }
 
-_G.pg.gametip.apply_permission_camera_tip3 = {
+_G.pg.base.gametip.apply_permission_camera_tip3 = {
 	tip = "You refused to authorize camera permission, unable to use AR recording game feature."
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip1 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
 	tip = "To use AR Record game feature, need permission to access Record."
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip2 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
 	tip = "You have turned off Record permission, please confirm Record permission in the game settings menu."
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip3 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip3 = {
 	tip = "You refused to authorize Record permission, unable to use AR Recording game feature."
 }
 
-_G.pg.gametip.nine_choose_one = {
+_G.pg.base.gametip.nine_choose_one = {
 	tip = "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. "
 }
 
-_G.pg.gametip.help_commander_info = {
+_G.pg.base.gametip.help_commander_info = {
 	tip = {
 		{
 			icon = {
@@ -10053,7 +10053,7 @@ _G.pg.gametip.help_commander_info = {
 	}
 }
 
-_G.pg.gametip.help_commander_play = {
+_G.pg.base.gametip.help_commander_play = {
 	tip = {
 		{
 			icon = {
@@ -10133,7 +10133,7 @@ _G.pg.gametip.help_commander_play = {
 	}
 }
 
-_G.pg.gametip.help_commander_ability = {
+_G.pg.base.gametip.help_commander_ability = {
 	tip = {
 		{
 			icon = {
@@ -10213,15 +10213,15 @@ _G.pg.gametip.help_commander_ability = {
 	}
 }
 
-_G.pg.gametip.story_skip_confirm = {
+_G.pg.base.gametip.story_skip_confirm = {
 	tip = "Are you sure you want to skip story cutscene? Skipped story scenes can be replayed in <color=#A1E400FF>Collection>Memories</COLOR>."
 }
 
-_G.pg.gametip.commander_ability_replace_warning = {
+_G.pg.base.gametip.commander_ability_replace_warning = {
 	tip = "The above Talent will be replaced by the one the Meowfficer is about to learn. Would you like to continue? "
 }
 
-_G.pg.gametip.help_command_room = {
+_G.pg.base.gametip.help_command_room = {
 	tip = {
 		{
 			icon = {
@@ -10301,11 +10301,11 @@ _G.pg.gametip.help_command_room = {
 	}
 }
 
-_G.pg.gametip.commander_build_rate_tip = {
+_G.pg.base.gametip.commander_build_rate_tip = {
 	tip = "Cat Box procurement rates: Rare: 60%; Elite: 35%; Super Rare: 5%."
 }
 
-_G.pg.gametip.help_activity_bossbattle = {
+_G.pg.base.gametip.help_activity_bossbattle = {
 	tip = {
 		{
 			info = "                                         ※作战手册※\n"
@@ -10332,115 +10332,115 @@ _G.pg.gametip.help_activity_bossbattle = {
 	}
 }
 
-_G.pg.gametip.commander_is_in_fleet_already = {
+_G.pg.base.gametip.commander_is_in_fleet_already = {
 	tip = "This Meowfficer is already assigned to a fleet."
 }
 
-_G.pg.gametip.commander_material_is_in_fleet_tip = {
+_G.pg.base.gametip.commander_material_is_in_fleet_tip = {
 	tip = "This Meowfficer is assigned to a fleet.\nWould you like to remove it?"
 }
 
-_G.pg.gametip.commander_main_pos = {
+_G.pg.base.gametip.commander_main_pos = {
 	tip = "Command Cat"
 }
 
-_G.pg.gametip.commander_assistant_pos = {
+_G.pg.base.gametip.commander_assistant_pos = {
 	tip = "Staff Cat"
 }
 
-_G.pg.gametip.comander_repalce_tip = {
+_G.pg.base.gametip.comander_repalce_tip = {
 	tip = "This Meowfficer is already assigned to the $2 slot in $1.\nWould you like to assign it to your chosen fleet instead?"
 }
 
-_G.pg.gametip.commander_lock_tip = {
+_G.pg.base.gametip.commander_lock_tip = {
 	tip = "Would you like to lock this Meowfficer?"
 }
 
-_G.pg.gametip.commander_is_in_battle = {
+_G.pg.base.gametip.commander_is_in_battle = {
 	tip = "This Meowfficer is currently sortieing."
 }
 
-_G.pg.gametip.commander_rename_warning = {
+_G.pg.base.gametip.commander_rename_warning = {
 	tip = "Would you like to change this Meowfficer's name to $1?"
 }
 
-_G.pg.gametip.commander_rename_coldtime_tip = {
+_G.pg.base.gametip.commander_rename_coldtime_tip = {
 	tip = "You can only change a Meowfficer's name once every 24 hours."
 }
 
-_G.pg.gametip.commander_rename_success_tip = {
+_G.pg.base.gametip.commander_rename_success_tip = {
 	tip = "Name change successful."
 }
 
-_G.pg.gametip.amercian_notice_1 = {
+_G.pg.base.gametip.amercian_notice_1 = {
 	tip = "Confirm using <color=#92fc63>$1</color> Battle Stars to redeem <color=#92fc63>$2</color>"
 }
 
-_G.pg.gametip.amercian_notice_2 = {
+_G.pg.base.gametip.amercian_notice_2 = {
 	tip = "※Acquire target reward to unlock the next phase"
 }
 
-_G.pg.gametip.amercian_notice_3 = {
+_G.pg.base.gametip.amercian_notice_3 = {
 	tip = "Period：2019.2.21~3.20"
 }
 
-_G.pg.gametip.amercian_notice_4 = {
+_G.pg.base.gametip.amercian_notice_4 = {
 	tip = "Battle Star"
 }
 
-_G.pg.gametip.amercian_notice_5 = {
+_G.pg.base.gametip.amercian_notice_5 = {
 	tip = "The prize pool is still locked."
 }
 
-_G.pg.gametip.amercian_notice_6 = {
+_G.pg.base.gametip.amercian_notice_6 = {
 	tip = "You have reached the limit for oil or supplies, excess resources will be unavailable if you continue to replenish, do you wish to continue?"
 }
 
-_G.pg.gametip.ranking_word_1 = {
+_G.pg.base.gametip.ranking_word_1 = {
 	tip = "Total Power"
 }
 
-_G.pg.gametip.ranking_word_2 = {
+_G.pg.base.gametip.ranking_word_2 = {
 	tip = "Collection Rate"
 }
 
-_G.pg.gametip.ranking_word_3 = {
+_G.pg.base.gametip.ranking_word_3 = {
 	tip = "Promises Made"
 }
 
-_G.pg.gametip.ranking_word_4 = {
+_G.pg.base.gametip.ranking_word_4 = {
 	tip = "Challenge Score"
 }
 
-_G.pg.gametip.ranking_word_5 = {
+_G.pg.base.gametip.ranking_word_5 = {
 	tip = "Rank"
 }
 
-_G.pg.gametip.ranking_word_6 = {
+_G.pg.base.gametip.ranking_word_6 = {
 	tip = "Military Rank"
 }
 
-_G.pg.gametip.ranking_word_7 = {
+_G.pg.base.gametip.ranking_word_7 = {
 	tip = "Highest Rank"
 }
 
-_G.pg.gametip.ranking_word_8 = {
+_G.pg.base.gametip.ranking_word_8 = {
 	tip = "Name"
 }
 
-_G.pg.gametip.ranking_word_9 = {
+_G.pg.base.gametip.ranking_word_9 = {
 	tip = "Score"
 }
 
-_G.pg.gametip.ranking_word_10 = {
+_G.pg.base.gametip.ranking_word_10 = {
 	tip = "Contribution Pt"
 }
 
-_G.pg.gametip.spece_illegal_tip = {
+_G.pg.base.gametip.spece_illegal_tip = {
 	tip = "Cannot uses spaces"
 }
 
-_G.pg.gametip.utaware_warmup_notice = {
+_G.pg.base.gametip.utaware_warmup_notice = {
 	tip = {
 		{
 			info = "活动说明："
@@ -10463,7 +10463,7 @@ _G.pg.gametip.utaware_warmup_notice = {
 	}
 }
 
-_G.pg.gametip.utaware_formal_notice = {
+_G.pg.base.gametip.utaware_formal_notice = {
 	tip = {
 		{
 			info = "通过一次SP4后，在如下章节解开线索，探寻隐藏的故事"
@@ -10500,167 +10500,167 @@ _G.pg.gametip.utaware_formal_notice = {
 	}
 }
 
-_G.pg.gametip.npc_learn_skill_tip = {
+_G.pg.base.gametip.npc_learn_skill_tip = {
 	tip = "When the event period ends, you will lose this ship if she has not been Formally Recruited. Any items used to train her skills will NOT be refunded. Continue anyway?"
 }
 
-_G.pg.gametip.npc_upgrade_max_level = {
+_G.pg.base.gametip.npc_upgrade_max_level = {
 	tip = "You cannot perform Cognitive Awakening on Temporary Recruits."
 }
 
-_G.pg.gametip.npc_propse_tip = {
+_G.pg.base.gametip.npc_propse_tip = {
 	tip = "You cannot Oath Temporary Recruits."
 }
 
-_G.pg.gametip.npc_strength_tip = {
+_G.pg.base.gametip.npc_strength_tip = {
 	tip = "If this Temporary Recruit leaves the port, any items or materials used to Strengthen her will NOT be refunded. Continue anyway?"
 }
 
-_G.pg.gametip.npc_breakout_tip = {
+_G.pg.base.gametip.npc_breakout_tip = {
 	tip = "If this Temporary Recruit leaves the port, any items or materials used to Limit Break her will NOT be refunded. Continue anyway?"
 }
 
-_G.pg.gametip.word_chuansong = {
+_G.pg.base.gametip.word_chuansong = {
 	tip = "Furniture Tokens "
 }
 
-_G.pg.gametip.npc_evaluation_tip = {
+_G.pg.base.gametip.npc_evaluation_tip = {
 	tip = "You can't Like or Comment on ships that haven't been recruited"
 }
 
-_G.pg.gametip.map_event_skip = {
+_G.pg.base.gametip.map_event_skip = {
 	tip = "Skip stories"
 }
 
-_G.pg.gametip.map_event_stop_tip = {
+_G.pg.base.gametip.map_event_stop_tip = {
 	tip = "Step on <color=#92fc63>mechanisms</color> to remove obstacles of the same color."
 }
 
-_G.pg.gametip.map_event_stop_battle_tip = {
+_G.pg.base.gametip.map_event_stop_battle_tip = {
 	tip = "<color=#92fc63>Defeat designated enemies</color> to remove the Restricted status. "
 }
 
-_G.pg.gametip.map_event_stop_battle_tip_2 = {
+_G.pg.base.gametip.map_event_stop_battle_tip_2 = {
 	tip = "Destroy the enemies on the special tiles to lift the seal. "
 }
 
-_G.pg.gametip.map_event_stop_story_tip = {
+_G.pg.base.gametip.map_event_stop_story_tip = {
 	tip = "<color=#92fc63>Step on an event tile</color> to remove the Restricted status. "
 }
 
-_G.pg.gametip.map_event_save_nekone = {
+_G.pg.base.gametip.map_event_save_nekone = {
 	tip = "Successfully Rescued <color=#92fc63>Nekone</color>"
 }
 
-_G.pg.gametip.map_event_save_rurutie = {
+_G.pg.base.gametip.map_event_save_rurutie = {
 	tip = "Successfully Rescued <color=#92fc63>Rulutieh</color>"
 }
 
-_G.pg.gametip.map_event_memory_collected = {
+_G.pg.base.gametip.map_event_memory_collected = {
 	tip = "Successfully unlocked hidden story <color=#92fc63>$1</color>!"
 }
 
-_G.pg.gametip.map_event_save_kizuna = {
+_G.pg.base.gametip.map_event_save_kizuna = {
 	tip = "Successfully Rescued <color=#92fc63>Kizuna AI</color> "
 }
 
-_G.pg.gametip.five_choose_one = {
+_G.pg.base.gametip.five_choose_one = {
 	tip = "Using this will give you <color=#92fc63>$1</color> and a commemorative item.\nWould you like to use your Holy Night Gift? "
 }
 
-_G.pg.gametip.ship_preference_common = {
+_G.pg.base.gametip.ship_preference_common = {
 	tip = "Set ship as Favorite."
 }
 
-_G.pg.gametip.draw_big_luck_1 = {
+_G.pg.base.gametip.draw_big_luck_1 = {
 	tip = "You will have a lucky New Year's nya!"
 }
 
-_G.pg.gametip.draw_big_luck_2 = {
+_G.pg.base.gametip.draw_big_luck_2 = {
 	tip = "How fortunate nya! You're making me jealous nya~"
 }
 
-_G.pg.gametip.draw_big_luck_3 = {
+_G.pg.base.gametip.draw_big_luck_3 = {
 	tip = "Something good will surely come your way today nya!"
 }
 
-_G.pg.gametip.draw_medium_luck_1 = {
+_G.pg.base.gametip.draw_medium_luck_1 = {
 	tip = "It looks like today is your lucky day nya!"
 }
 
-_G.pg.gametip.draw_medium_luck_2 = {
+_G.pg.base.gametip.draw_medium_luck_2 = {
 	tip = "Luck is on your side, so keep at it nya!"
 }
 
-_G.pg.gametip.draw_medium_luck_3 = {
+_G.pg.base.gametip.draw_medium_luck_3 = {
 	tip = "I hope you'll share some of your luck with me nya!"
 }
 
-_G.pg.gametip.draw_little_luck_1 = {
+_G.pg.base.gametip.draw_little_luck_1 = {
 	tip = "Your luck will improve from this point on nya!"
 }
 
-_G.pg.gametip.draw_little_luck_2 = {
+_G.pg.base.gametip.draw_little_luck_2 = {
 	tip = "Luck and hard work are both important nya~"
 }
 
-_G.pg.gametip.draw_little_luck_3 = {
+_G.pg.base.gametip.draw_little_luck_3 = {
 	tip = "Your luck might improve if you come to my shop nya~"
 }
 
-_G.pg.gametip.ship_preference_non = {
+_G.pg.base.gametip.ship_preference_non = {
 	tip = "Unset ship as Favorite."
 }
 
-_G.pg.gametip.school_title_dajiangtang = {
+_G.pg.base.gametip.school_title_dajiangtang = {
 	tip = "Lecture Hall "
 }
 
-_G.pg.gametip.school_title_zhihuimiao = {
+_G.pg.base.gametip.school_title_zhihuimiao = {
 	tip = "Cattery "
 }
 
-_G.pg.gametip.school_title_shitang = {
+_G.pg.base.gametip.school_title_shitang = {
 	tip = "Canteen "
 }
 
-_G.pg.gametip.school_title_xiaomaibu = {
+_G.pg.base.gametip.school_title_xiaomaibu = {
 	tip = "Merchant "
 }
 
-_G.pg.gametip.school_title_shangdian = {
+_G.pg.base.gametip.school_title_shangdian = {
 	tip = "Munition"
 }
 
-_G.pg.gametip.school_title_xueyuan = {
+_G.pg.base.gametip.school_title_xueyuan = {
 	tip = "Tactical Class"
 }
 
-_G.pg.gametip.school_title_shoucang = {
+_G.pg.base.gametip.school_title_shoucang = {
 	tip = "Medallion "
 }
 
-_G.pg.gametip.tag_level_fighting = {
+_G.pg.base.gametip.tag_level_fighting = {
 	tip = "In Progress"
 }
 
-_G.pg.gametip.tag_level_oni = {
+_G.pg.base.gametip.tag_level_oni = {
 	tip = "特殊单位"
 }
 
-_G.pg.gametip.tag_level_bomb = {
+_G.pg.base.gametip.tag_level_bomb = {
 	tip = "英系轰炸"
 }
 
-_G.pg.gametip.ui_word_levelui2_inevent = {
+_G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "In action"
 }
 
-_G.pg.gametip.exit_backyard_exp_display = {
+_G.pg.base.gametip.exit_backyard_exp_display = {
 	tip = "$1 received $2 EXP through training."
 }
 
-_G.pg.gametip.help_monopoly = {
+_G.pg.base.gametip.help_monopoly = {
 	tip = {
 		{
 			info = "Rules:"
@@ -10736,11 +10736,11 @@ _G.pg.gametip.help_monopoly = {
 	}
 }
 
-_G.pg.gametip.md5_error = {
+_G.pg.base.gametip.md5_error = {
 	tip = "An error has occurred. Please restart the game."
 }
 
-_G.pg.gametip.world_boss_help = {
+_G.pg.base.gametip.world_boss_help = {
 	tip = {
 		{
 			info = "<color=#92fc63>- Overview -</color>"
@@ -10801,19 +10801,19 @@ Be aware that you will not be able to claim this reward if your Mailbox is compl
 	}
 }
 
-_G.pg.gametip.world_boss_tip = {
+_G.pg.base.gametip.world_boss_tip = {
 	tip = "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! "
 }
 
-_G.pg.gametip.world_boss_award_limit = {
+_G.pg.base.gametip.world_boss_award_limit = {
 	tip = "Unlocks when the progress gauge reaches <color=#FFDE00FF>$1%</color>. "
 }
 
-_G.pg.gametip.backyard_is_loading = {
+_G.pg.base.gametip.backyard_is_loading = {
 	tip = "Loading furniture... "
 }
 
-_G.pg.gametip.levelScene_loop_help_tip = {
+_G.pg.base.gametip.levelScene_loop_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -10841,55 +10841,55 @@ Enabling Clearing Mode affects a stage in the following ways:
 	}
 }
 
-_G.pg.gametip.no_airspace_competition = {
+_G.pg.base.gametip.no_airspace_competition = {
 	tip = "No Aerial Combat "
 }
 
-_G.pg.gametip.air_supremacy_value = {
+_G.pg.base.gametip.air_supremacy_value = {
 	tip = "Air Control Degree"
 }
 
-_G.pg.gametip.read_the_user_agreement = {
+_G.pg.base.gametip.read_the_user_agreement = {
 	tip = "Please scroll to the bottom of the Terms of Service first."
 }
 
-_G.pg.gametip.award_max_warning = {
+_G.pg.base.gametip.award_max_warning = {
 	tip = "Resources or items that exceed the maximum limit will be lost. Do you still wish to continue?"
 }
 
-_G.pg.gametip.sub_item_warning = {
+_G.pg.base.gametip.sub_item_warning = {
 	tip = "Do you wish to turn in these items to complete the mission?"
 }
 
-_G.pg.gametip.select_award_warning = {
+_G.pg.base.gametip.select_award_warning = {
 	tip = "Please select one of the following rewards"
 }
 
-_G.pg.gametip.no_item_selected_tip = {
+_G.pg.base.gametip.no_item_selected_tip = {
 	tip = "Rewards have not yet been collected"
 }
 
-_G.pg.gametip.backyard_traning_tip = {
+_G.pg.base.gametip.backyard_traning_tip = {
 	tip = "<size=30>Training grants EXP over time and improves Morale recovery.</size>"
 }
 
-_G.pg.gametip.backyard_rest_tip = {
+_G.pg.base.gametip.backyard_rest_tip = {
 	tip = "Resting greatly improves Morale recovery."
 }
 
-_G.pg.gametip.backyard_class_tip = {
+_G.pg.base.gametip.backyard_class_tip = {
 	tip = "Attending Lectures grants EXP over time."
 }
 
-_G.pg.gametip.medal_notice_1 = {
+_G.pg.base.gametip.medal_notice_1 = {
 	tip = "Show highes rank "
 }
 
-_G.pg.gametip.medal_notice_2 = {
+_G.pg.base.gametip.medal_notice_2 = {
 	tip = "Display "
 }
 
-_G.pg.gametip.medal_help_tip = {
+_G.pg.base.gametip.medal_help_tip = {
 	tip = {
 		{
 			info = "- About Medals:"
@@ -10939,115 +10939,115 @@ _G.pg.gametip.medal_help_tip = {
 	}
 }
 
-_G.pg.gametip.trophy_achieved = {
+_G.pg.base.gametip.trophy_achieved = {
 	tip = "Medal Unlocked!"
 }
 
-_G.pg.gametip.text_shop = {
+_G.pg.base.gametip.text_shop = {
 	tip = "Shop"
 }
 
-_G.pg.gametip.text_confirm = {
+_G.pg.base.gametip.text_confirm = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.text_cancel = {
+_G.pg.base.gametip.text_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.text_cancel_fight = {
+_G.pg.base.gametip.text_cancel_fight = {
 	tip = "Leave battle"
 }
 
-_G.pg.gametip.text_goon_fight = {
+_G.pg.base.gametip.text_goon_fight = {
 	tip = "Continue"
 }
 
-_G.pg.gametip.text_exit = {
+_G.pg.base.gametip.text_exit = {
 	tip = "Exit"
 }
 
-_G.pg.gametip.text_clear = {
+_G.pg.base.gametip.text_clear = {
 	tip = "Clear"
 }
 
-_G.pg.gametip.text_apply = {
+_G.pg.base.gametip.text_apply = {
 	tip = "Requests "
 }
 
-_G.pg.gametip.text_buy = {
+_G.pg.base.gametip.text_buy = {
 	tip = "Buy"
 }
 
-_G.pg.gametip.text_forward = {
+_G.pg.base.gametip.text_forward = {
 	tip = "Go"
 }
 
-_G.pg.gametip.text_prepage = {
+_G.pg.base.gametip.text_prepage = {
 	tip = "Prev"
 }
 
-_G.pg.gametip.text_nextpage = {
+_G.pg.base.gametip.text_nextpage = {
 	tip = "Next"
 }
 
-_G.pg.gametip.text_exchange = {
+_G.pg.base.gametip.text_exchange = {
 	tip = "Exchange"
 }
 
-_G.pg.gametip.text_retreat = {
+_G.pg.base.gametip.text_retreat = {
 	tip = "Retreat"
 }
 
-_G.pg.gametip.level_scene_title_word_1 = {
+_G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "Recon value:"
 }
 
-_G.pg.gametip.level_scene_title_word_2 = {
+_G.pg.base.gametip.level_scene_title_word_2 = {
 	tip = "Chance of encounter:"
 }
 
-_G.pg.gametip.level_scene_title_word_3 = {
+_G.pg.base.gametip.level_scene_title_word_3 = {
 	tip = "Current ACV:"
 }
 
-_G.pg.gametip.level_scene_title_word_4 = {
+_G.pg.base.gametip.level_scene_title_word_4 = {
 	tip = "Airspace:"
 }
 
-_G.pg.gametip.level_scene_title_word_5 = {
+_G.pg.base.gametip.level_scene_title_word_5 = {
 	tip = "Rec. ACV:"
 }
 
-_G.pg.gametip.ambush_display_0 = {
+_G.pg.base.gametip.ambush_display_0 = {
 	tip = "In action"
 }
 
-_G.pg.gametip.ambush_display_1 = {
+_G.pg.base.gametip.ambush_display_1 = {
 	tip = "Safe"
 }
 
-_G.pg.gametip.ambush_display_2 = {
+_G.pg.base.gametip.ambush_display_2 = {
 	tip = "V.Low"
 }
 
-_G.pg.gametip.ambush_display_3 = {
+_G.pg.base.gametip.ambush_display_3 = {
 	tip = "Low"
 }
 
-_G.pg.gametip.ambush_display_4 = {
+_G.pg.base.gametip.ambush_display_4 = {
 	tip = "Medium"
 }
 
-_G.pg.gametip.ambush_display_5 = {
+_G.pg.base.gametip.ambush_display_5 = {
 	tip = "High"
 }
 
-_G.pg.gametip.ambush_display_6 = {
+_G.pg.base.gametip.ambush_display_6 = {
 	tip = "Danger"
 }
 
-_G.pg.gametip.black_white_grid_notice = {
+_G.pg.base.gametip.black_white_grid_notice = {
 	tip = {
 		{
 			info = "Event Description："
@@ -11093,23 +11093,23 @@ purification has failed.]]
 	}
 }
 
-_G.pg.gametip.black_white_grid_reset = {
+_G.pg.base.gametip.black_white_grid_reset = {
 	tip = "Confirm Placement?"
 }
 
-_G.pg.gametip.black_white_grid_switch_tip = {
+_G.pg.base.gametip.black_white_grid_switch_tip = {
 	tip = "This Board is still in Progress"
 }
 
-_G.pg.gametip.no_way_to_escape = {
+_G.pg.base.gametip.no_way_to_escape = {
 	tip = "Can't escape!"
 }
 
-_G.pg.gametip.word_attr_ac = {
+_G.pg.base.gametip.word_attr_ac = {
 	tip = "Airspace Control"
 }
 
-_G.pg.gametip.help_battle_ac = {
+_G.pg.base.gametip.help_battle_ac = {
 	tip = {
 		{
 			info = [[
@@ -11144,7 +11144,7 @@ The following factors determine how high the stage's ACV is:
 	}
 }
 
-_G.pg.gametip.help_attribute_dodge_limit = {
+_G.pg.base.gametip.help_attribute_dodge_limit = {
 	tip = {
 		{
 			info = [[
@@ -11156,27 +11156,27 @@ The chance for an aircraft to avoid enemy Anti-Air fire depends on the AVI stat 
 	}
 }
 
-_G.pg.gametip.refuse_friend = {
+_G.pg.base.gametip.refuse_friend = {
 	tip = "Really decline this request?"
 }
 
-_G.pg.gametip.refuse_and_add_into_bl = {
+_G.pg.base.gametip.refuse_and_add_into_bl = {
 	tip = "Decline and blacklist?"
 }
 
-_G.pg.gametip.tech_simulate_closed = {
+_G.pg.base.gametip.tech_simulate_closed = {
 	tip = "You have not yet unlocked the Battle Simulation feature."
 }
 
-_G.pg.gametip.tech_simulate_quit = {
+_G.pg.base.gametip.tech_simulate_quit = {
 	tip = "Would you like to end the Battle Simulation?"
 }
 
-_G.pg.gametip.technology_uplevel_error_no_res = {
+_G.pg.base.gametip.technology_uplevel_error_no_res = {
 	tip = "Spend <color=#A9F548>$1</color> coins to unlock this tech level?\n Duration: <color=#A9F548>$2</color>\n Upgrade:<color=#A9F548>Lv.$3->Lv.$4</color> "
 }
 
-_G.pg.gametip.help_technologytree = {
+_G.pg.base.gametip.help_technologytree = {
 	tip = {
 		{
 			info = [[
@@ -11213,27 +11213,27 @@ About Tech Points:
 	}
 }
 
-_G.pg.gametip.tech_change_version_mark = {
+_G.pg.base.gametip.tech_change_version_mark = {
 	tip = "Research Preference "
 }
 
-_G.pg.gametip.technology_uplevel_error_studying = {
+_G.pg.base.gametip.technology_uplevel_error_studying = {
 	tip = "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
 }
 
-_G.pg.gametip.fate_attr_word = {
+_G.pg.base.gametip.fate_attr_word = {
 	tip = "Results of Fate Simulation:"
 }
 
-_G.pg.gametip.fate_phase_word = {
+_G.pg.base.gametip.fate_phase_word = {
 	tip = "Research Progress: "
 }
 
-_G.pg.gametip.blueprint_simulation_confirm = {
+_G.pg.base.gametip.blueprint_simulation_confirm = {
 	tip = "Would you like to start a Battle Simulation?<color=#ff5c5c> Note:the ship's stats and abilities may differ from its fully developed equivalent.</color>"
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation?<color=#ff5c5c> Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>
 Equipped gear:<color=#92fc63>
@@ -11242,7 +11242,7 @@ Prototype Triple 152mm Main Gun (DP MK17)
 Quadruple 40mm Bofors Gun</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>
 Equipped gear:<color=#92fc63>
@@ -11251,7 +11251,7 @@ Twin 127mm MK12 Dual Gun
 Quadruple 40mm Bofors Gun</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
 Equipped gear:<color=#92fc63>
@@ -11260,7 +11260,7 @@ Quadruple 610mm Torpedo
 Prototype 40mm AA Gun (Type 5)</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
 Equipped gear:<color=#92fc63>
@@ -11269,7 +11269,7 @@ Twin 100mm (Type 98) AA Gun
 Prototype 40mm AA Gun (Type 5)</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
 Equipped gear:<color=#92fc63>
@@ -11278,7 +11278,7 @@ Twin 150mm Main Gun (TbtsK C/36)
 Twin 105mm AA Gun (SK C)</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_99901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
 Equipped gear:<color=#92fc63>
@@ -11287,7 +11287,7 @@ Triple 152mm Main Gun (Mle 1930)
 Twin 37mm AA Gun (Mle 1936)</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_29903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
 Equipped gear:<color=#92fc63>
@@ -11296,7 +11296,7 @@ Quadruple 533mm Torpedo
 Twin 40mm Bofors STAAG</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_29904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
 Equipped gear:<color=#92fc63>
@@ -11305,7 +11305,7 @@ Quadruple 533mm Torpedo
 Sextuple Bofors 40mm AA Gun</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
 Equipped gear:<color=#92fc63>
@@ -11314,7 +11314,7 @@ Quadruple 533mm Magnetic Torpedo
 Twin 105mm AA Gun (SK C)</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
 Equipped gear:<color=#92fc63>
@@ -11323,7 +11323,7 @@ Quadruple 533mm Magnetic Torpedo
 Twin 105mm AA Gun (SK C)</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_89902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
 Equipped gear:<color=#92fc63>
@@ -11332,7 +11332,7 @@ Triple 152mm Main Gun (Mle 1930)
 Twin 37mm AA Gun (Mle 1936)</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation?
 Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
@@ -11342,7 +11342,7 @@ Triple 203mm Mk 15 Main Gun Mount
 Quadruple 28mm "Chicago Piano" AA Gun Mount</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39905 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation?
 Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
@@ -11352,7 +11352,7 @@ Prototype Tenrai
 Prototype Saiun Kai</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49905 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation?
 Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
@@ -11362,7 +11362,7 @@ Prototype Triple 305mm SK C/39 Main Gun Mount
 Twin 105mm SK C/33 AA Gun Mount</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49906 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation?
 Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
@@ -11372,7 +11372,7 @@ Ju-87C Dive Bomber
 Ju-87 D-4</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_69901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 	tip = [[
 <size=28>Would you like to start a Battle Simulation?
 Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
@@ -11382,19 +11382,19 @@ Triple 152mm Model 1934 Main Gun Mount
 Prototype Twin 90mm High Angle Gun Mount</color></size>]]
 }
 
-_G.pg.gametip.electrotherapy_wanning = {
+_G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "The electrified area is about to expand"
 }
 
-_G.pg.gametip.siren_chase_warning = {
+_G.pg.base.gametip.siren_chase_warning = {
 	tip = "Expanding Hazard Zone"
 }
 
-_G.pg.gametip.memorybook_get_award_tip = {
+_G.pg.base.gametip.memorybook_get_award_tip = {
 	tip = "You must unlock all \"Port Memories\" to receive the \"Commemorative Pyoko-Pyoko Medal\""
 }
 
-_G.pg.gametip.memorybook_notice = {
+_G.pg.base.gametip.memorybook_notice = {
 	tip = {
 		{
 			info = "Event Description："
@@ -11411,15 +11411,15 @@ _G.pg.gametip.memorybook_notice = {
 	}
 }
 
-_G.pg.gametip.word_votes = {
+_G.pg.base.gametip.word_votes = {
 	tip = "得票数量"
 }
 
-_G.pg.gametip.number_0 = {
+_G.pg.base.gametip.number_0 = {
 	tip = "0"
 }
 
-_G.pg.gametip.intimacy_desc_propose_vertical = {
+_G.pg.base.gametip.intimacy_desc_propose_vertical = {
 	tip = [[
 Love shall be our guide, and forever shall we stand side by side.
 Our bond is our bliss, and for its permanence we shall wish.
@@ -11429,139 +11429,139 @@ From now till forever, our fates are bound together.
  $1 ]]
 }
 
-_G.pg.gametip.without_selected_ship = {
+_G.pg.base.gametip.without_selected_ship = {
 	tip = "Not enough items"
 }
 
-_G.pg.gametip.index_all = {
+_G.pg.base.gametip.index_all = {
 	tip = "All"
 }
 
-_G.pg.gametip.index_fleetfront = {
+_G.pg.base.gametip.index_fleetfront = {
 	tip = "Vanguard "
 }
 
-_G.pg.gametip.index_fleetrear = {
+_G.pg.base.gametip.index_fleetrear = {
 	tip = "Main "
 }
 
-_G.pg.gametip.index_shipType_quZhu = {
+_G.pg.base.gametip.index_shipType_quZhu = {
 	tip = "DD"
 }
 
-_G.pg.gametip.index_shipType_qinXun = {
+_G.pg.base.gametip.index_shipType_qinXun = {
 	tip = "CL"
 }
 
-_G.pg.gametip.index_shipType_zhongXun = {
+_G.pg.base.gametip.index_shipType_zhongXun = {
 	tip = "CA"
 }
 
-_G.pg.gametip.index_shipType_zhanLie = {
+_G.pg.base.gametip.index_shipType_zhanLie = {
 	tip = "BB"
 }
 
-_G.pg.gametip.index_shipType_hangMu = {
+_G.pg.base.gametip.index_shipType_hangMu = {
 	tip = "CV"
 }
 
-_G.pg.gametip.index_shipType_weiXiu = {
+_G.pg.base.gametip.index_shipType_weiXiu = {
 	tip = "Repair"
 }
 
-_G.pg.gametip.index_shipType_qianTing = {
+_G.pg.base.gametip.index_shipType_qianTing = {
 	tip = "SS"
 }
 
-_G.pg.gametip.index_other = {
+_G.pg.base.gametip.index_other = {
 	tip = "Others"
 }
 
-_G.pg.gametip.index_rare2 = {
+_G.pg.base.gametip.index_rare2 = {
 	tip = "Common"
 }
 
-_G.pg.gametip.index_rare3 = {
+_G.pg.base.gametip.index_rare3 = {
 	tip = "Rare"
 }
 
-_G.pg.gametip.index_rare4 = {
+_G.pg.base.gametip.index_rare4 = {
 	tip = "Elite"
 }
 
-_G.pg.gametip.index_rare5 = {
+_G.pg.base.gametip.index_rare5 = {
 	tip = "Super Rare"
 }
 
-_G.pg.gametip.index_rare6 = {
+_G.pg.base.gametip.index_rare6 = {
 	tip = "Ultra"
 }
 
-_G.pg.gametip.warning_mail_max_1 = {
+_G.pg.base.gametip.warning_mail_max_1 = {
 	tip = "Your mailbox has almost reached its capacity of (<color=#FF5C5C>$1</color>/1,000.) Please check your mail!"
 }
 
-_G.pg.gametip.warning_mail_max_2 = {
+_G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "Your mailbox is full!"
 }
 
-_G.pg.gametip.return_award_bind_success = {
+_G.pg.base.gametip.return_award_bind_success = {
 	tip = "UID entry successful."
 }
 
-_G.pg.gametip.return_award_bind_erro = {
+_G.pg.base.gametip.return_award_bind_erro = {
 	tip = "UID entry failed $1."
 }
 
-_G.pg.gametip.rename_commander_erro = {
+_G.pg.base.gametip.rename_commander_erro = {
 	tip = "Failed to change username."
 }
 
-_G.pg.gametip.change_display_medal_success = {
+_G.pg.base.gametip.change_display_medal_success = {
 	tip = "Changed Medal display settings."
 }
 
-_G.pg.gametip.limit_skin_time_day = {
+_G.pg.base.gametip.limit_skin_time_day = {
 	tip = "Time left: $1 day(s)"
 }
 
-_G.pg.gametip.limit_skin_time_day_min = {
+_G.pg.base.gametip.limit_skin_time_day_min = {
 	tip = "Time left: $1 hour(s)"
 }
 
-_G.pg.gametip.limit_skin_time_min = {
+_G.pg.base.gametip.limit_skin_time_min = {
 	tip = "Time left: $1 minute(s)"
 }
 
-_G.pg.gametip.limit_skin_time_overtime = {
+_G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "Your rental period for this skin has concluded."
 }
 
-_G.pg.gametip.award_window_pt_title = {
+_G.pg.base.gametip.award_window_pt_title = {
 	tip = "Returnee points:"
 }
 
-_G.pg.gametip.return_have_participated_in_act = {
+_G.pg.base.gametip.return_have_participated_in_act = {
 	tip = "You have already participated in this event."
 }
 
-_G.pg.gametip.input_returner_code = {
+_G.pg.base.gametip.input_returner_code = {
 	tip = "Enter UID"
 }
 
-_G.pg.gametip.dress_up_success = {
+_G.pg.base.gametip.dress_up_success = {
 	tip = "Successfully changed chat settings."
 }
 
-_G.pg.gametip.already_have_the_skin = {
+_G.pg.base.gametip.already_have_the_skin = {
 	tip = "You already have this skin."
 }
 
-_G.pg.gametip.exchange_limit_skin_tip = {
+_G.pg.base.gametip.exchange_limit_skin_tip = {
 	tip = "Would you like to use $1 Rental Outfit Voucher(s)\n and gain access to \"$2\" for $3 days and $4 hours?"
 }
 
-_G.pg.gametip.returner_help = {
+_G.pg.base.gametip.returner_help = {
 	tip = {
 		{
 			info = [[
@@ -11583,27 +11583,27 @@ Event Information:
 	}
 }
 
-_G.pg.gametip.attire_time_stamp = {
+_G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1D$2H$3M"
 }
 
-_G.pg.gametip.warning_pray_build_pool = {
+_G.pg.base.gametip.warning_pray_build_pool = {
 	tip = "Once you begin focusing your wishes, <color=#FF5C5C>they cannot be changed</color>.\nAre you sure you want to wish for this?"
 }
 
-_G.pg.gametip.error_pray_select_ship_max = {
+_G.pg.base.gametip.error_pray_select_ship_max = {
 	tip = "Your wish pool is full."
 }
 
-_G.pg.gametip.tip_pray_build_pool_success = {
+_G.pg.base.gametip.tip_pray_build_pool_success = {
 	tip = "Your wish has been granted."
 }
 
-_G.pg.gametip.tip_pray_build_pool_fail = {
+_G.pg.base.gametip.tip_pray_build_pool_fail = {
 	tip = "This wish cannot be granted."
 }
 
-_G.pg.gametip.pray_build_help = {
+_G.pg.base.gametip.pray_build_help = {
 	tip = {
 		{
 			info = "Event Description: \n"
@@ -11653,31 +11653,31 @@ _G.pg.gametip.pray_build_help = {
 	}
 }
 
-_G.pg.gametip.bismarck_award_tip = {
+_G.pg.base.gametip.bismarck_award_tip = {
 	tip = "Complete all tasks to earn an award."
 }
 
-_G.pg.gametip.bismarck_chapter_desc = {
+_G.pg.base.gametip.bismarck_chapter_desc = {
 	tip = "Participate in \"Scherzo of Iron and Blood\" and complete tasks to acquire rare items. "
 }
 
-_G.pg.gametip.returner_push_success = {
+_G.pg.base.gametip.returner_push_success = {
 	tip = "Automatic UID Search enabled. "
 }
 
-_G.pg.gametip.returner_max_count = {
+_G.pg.base.gametip.returner_max_count = {
 	tip = "The Returning or new Commander list is full."
 }
 
-_G.pg.gametip.returner_push_tip = {
+_G.pg.base.gametip.returner_push_tip = {
 	tip = "Enabling Automatic UID Search will input your UID in the fields of Returning or new Commanders looking for Active Commander UIDs. Would you like to continue?"
 }
 
-_G.pg.gametip.returner_match_tip = {
+_G.pg.base.gametip.returner_match_tip = {
 	tip = "A <color=#FF5C5C>random Active Commander's</color> UID will be input and you will become eligible for Returnee Missions. Would you like to continue?"
 }
 
-_G.pg.gametip.challenge_help = {
+_G.pg.base.gametip.challenge_help = {
 	tip = {
 		{
 			info = "About Challenge Mode:"
@@ -11732,39 +11732,39 @@ _G.pg.gametip.challenge_help = {
 	}
 }
 
-_G.pg.gametip.challenge_casual_reset = {
+_G.pg.base.gametip.challenge_casual_reset = {
 	tip = "Your Challenge run was ended early.\nTotal score: $1"
 }
 
-_G.pg.gametip.challenge_infinite_reset = {
+_G.pg.base.gametip.challenge_infinite_reset = {
 	tip = "Your Challenge run was ended early.\nChallenge Stages cleared: $1"
 }
 
-_G.pg.gametip.challenge_normal_reset = {
+_G.pg.base.gametip.challenge_normal_reset = {
 	tip = "Would you like to end this Challenge run now?"
 }
 
-_G.pg.gametip.challenge_casual_click_switch = {
+_G.pg.base.gametip.challenge_casual_click_switch = {
 	tip = "You are currently playing on Normal Mode.\nTotal score: $1.\nWould you like to change modes?"
 }
 
-_G.pg.gametip.challenge_infinite_click_switch = {
+_G.pg.base.gametip.challenge_infinite_click_switch = {
 	tip = "You are currently playing on Endless Mode.\nCurrent Stage: $1.\nWould you like to change modes?"
 }
 
-_G.pg.gametip.challenge_season_update = {
+_G.pg.base.gametip.challenge_season_update = {
 	tip = "The Challenge Stage lineup has changed."
 }
 
-_G.pg.gametip.challenge_season_update_casual_clear = {
+_G.pg.base.gametip.challenge_season_update_casual_clear = {
 	tip = "Total score: $1\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?"
 }
 
-_G.pg.gametip.challenge_season_update_infinite_clear = {
+_G.pg.base.gametip.challenge_season_update_infinite_clear = {
 	tip = "Current Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?"
 }
 
-_G.pg.gametip.challenge_season_update_casual_switch = {
+_G.pg.base.gametip.challenge_season_update_casual_switch = {
 	tip = [[
 You are currently playing on Normal Mode.
 Total score: $1.
@@ -11772,7 +11772,7 @@ Since the Challenge Stage lineup has changed, this won't affect your high score.
 Would you like to change modes?]]
 }
 
-_G.pg.gametip.challenge_season_update_infinite_switch = {
+_G.pg.base.gametip.challenge_season_update_infinite_switch = {
 	tip = [[
 You are currently playing on Endless Mode.
 Current Stage: $1.
@@ -11780,171 +11780,171 @@ Since the Challenge Stage lineup has changed, this won't affect your Stage Clear
 Would you like to change modes?]]
 }
 
-_G.pg.gametip.challenge_combat_score = {
+_G.pg.base.gametip.challenge_combat_score = {
 	tip = "Stage Score: $1"
 }
 
-_G.pg.gametip.challenge_share_progress = {
+_G.pg.base.gametip.challenge_share_progress = {
 	tip = "Challenges Cleared:"
 }
 
-_G.pg.gametip.challenge_share = {
+_G.pg.base.gametip.challenge_share = {
 	tip = "Stage "
 }
 
-_G.pg.gametip.challenge_expire_warn = {
+_G.pg.base.gametip.challenge_expire_warn = {
 	tip = "The date has changed. Your results from this battle will not affect your high score."
 }
 
-_G.pg.gametip.challenge_normal_tip = {
+_G.pg.base.gametip.challenge_normal_tip = {
 	tip = "Clear the Challenge Stages and aim for a personal high score!"
 }
 
-_G.pg.gametip.challenge_unlimited_tip = {
+_G.pg.base.gametip.challenge_unlimited_tip = {
 	tip = "You can attempt the Challenge Stages as many times as you like!"
 }
 
-_G.pg.gametip.commander_prefab_rename_success = {
+_G.pg.base.gametip.commander_prefab_rename_success = {
 	tip = "Name change successful."
 }
 
-_G.pg.gametip.commander_prefab_name = {
+_G.pg.base.gametip.commander_prefab_name = {
 	tip = "Team $1"
 }
 
-_G.pg.gametip.commander_prefab_rename_time = {
+_G.pg.base.gametip.commander_prefab_rename_time = {
 	tip = "You cannot rename this until $1 seconds have passed."
 }
 
-_G.pg.gametip.commander_build_solt_deficiency = {
+_G.pg.base.gametip.commander_build_solt_deficiency = {
 	tip = "Only up to 10 Cat Boxes can be prepared for training at a time."
 }
 
-_G.pg.gametip.commander_select_box_tip = {
+_G.pg.base.gametip.commander_select_box_tip = {
 	tip = "Commence training for $1 Cat Box(es)? A maximum of 4 can be trained simultaneously."
 }
 
-_G.pg.gametip.challenge_end_tip = {
+_G.pg.base.gametip.challenge_end_tip = {
 	tip = "This event has concluded. "
 }
 
-_G.pg.gametip.pass_times = {
+_G.pg.base.gametip.pass_times = {
 	tip = "Stage clears."
 }
 
-_G.pg.gametip.list_empty_tip_billboardui = {
+_G.pg.base.gametip.list_empty_tip_billboardui = {
 	tip = "No ranking data available."
 }
 
-_G.pg.gametip.list_empty_tip_equipmentdesignui = {
+_G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
 	tip = "You don't have any blueprints."
 }
 
-_G.pg.gametip.list_empty_tip_storehouseui_equip = {
+_G.pg.base.gametip.list_empty_tip_storehouseui_equip = {
 	tip = "You don't have any gear."
 }
 
-_G.pg.gametip.list_empty_tip_storehouseui_item = {
+_G.pg.base.gametip.list_empty_tip_storehouseui_item = {
 	tip = "You don't have any materials."
 }
 
-_G.pg.gametip.list_empty_tip_eventui = {
+_G.pg.base.gametip.list_empty_tip_eventui = {
 	tip = "No urgent commissions available."
 }
 
-_G.pg.gametip.list_empty_tip_guildrequestui = {
+_G.pg.base.gametip.list_empty_tip_guildrequestui = {
 	tip = "No pending Guild applications."
 }
 
-_G.pg.gametip.list_empty_tip_joinguildui = {
+_G.pg.base.gametip.list_empty_tip_joinguildui = {
 	tip = "Found no Guilds matching your search criteria."
 }
 
-_G.pg.gametip.list_empty_tip_friendui = {
+_G.pg.base.gametip.list_empty_tip_friendui = {
 	tip = "Your friends list is empty."
 }
 
-_G.pg.gametip.list_empty_tip_friendui_search = {
+_G.pg.base.gametip.list_empty_tip_friendui_search = {
 	tip = "Found no commanders matching your search criteria."
 }
 
-_G.pg.gametip.list_empty_tip_friendui_request = {
+_G.pg.base.gametip.list_empty_tip_friendui_request = {
 	tip = "You have no pending friend requests."
 }
 
-_G.pg.gametip.list_empty_tip_friendui_black = {
+_G.pg.base.gametip.list_empty_tip_friendui_black = {
 	tip = "There are no commanders on your blacklist."
 }
 
-_G.pg.gametip.list_empty_tip_dockyardui = {
+_G.pg.base.gametip.list_empty_tip_dockyardui = {
 	tip = "Found no ships matching your filter criteria."
 }
 
-_G.pg.gametip.list_empty_tip_taskscene = {
+_G.pg.base.gametip.list_empty_tip_taskscene = {
 	tip = "There are no missions available."
 }
 
-_G.pg.gametip.empty_tip_mailboxui = {
+_G.pg.base.gametip.empty_tip_mailboxui = {
 	tip = "You don't have any mail."
 }
 
-_G.pg.gametip.words_settings_unlock_ship = {
+_G.pg.base.gametip.words_settings_unlock_ship = {
 	tip = "Unlocking ships"
 }
 
-_G.pg.gametip.words_settings_resolve_equip = {
+_G.pg.base.gametip.words_settings_resolve_equip = {
 	tip = "Scrapping gears"
 }
 
-_G.pg.gametip.words_settings_unlock_commander = {
+_G.pg.base.gametip.words_settings_unlock_commander = {
 	tip = "Unlocking Meowfficers"
 }
 
-_G.pg.gametip.words_settings_create_inherit = {
+_G.pg.base.gametip.words_settings_create_inherit = {
 	tip = "Create Bind Code"
 }
 
-_G.pg.gametip.tips_fail_secondarypwd_much_times = {
+_G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
 	tip = "Your Secondary Password is incorrect. Please try again after <color=#92FC63>%s</color>."
 }
 
-_G.pg.gametip.words_desc_unlock = {
+_G.pg.base.gametip.words_desc_unlock = {
 	tip = "This is a Secondary Password-restricted function."
 }
 
-_G.pg.gametip.words_desc_resolve_equip = {
+_G.pg.base.gametip.words_desc_resolve_equip = {
 	tip = "This is a Secondary Password-restricted function."
 }
 
-_G.pg.gametip.words_desc_create_inherit = {
+_G.pg.base.gametip.words_desc_create_inherit = {
 	tip = "Create Bind Code"
 }
 
-_G.pg.gametip.words_desc_close_password = {
+_G.pg.base.gametip.words_desc_close_password = {
 	tip = "Disable Secondary Password feature"
 }
 
-_G.pg.gametip.words_desc_change_settings = {
+_G.pg.base.gametip.words_desc_change_settings = {
 	tip = "Change Secondary Password-restricted functions"
 }
 
-_G.pg.gametip.words_set_password = {
+_G.pg.base.gametip.words_set_password = {
 	tip = "Change Secondary Password"
 }
 
-_G.pg.gametip.words_information = {
+_G.pg.base.gametip.words_information = {
 	tip = "Info"
 }
 
-_G.pg.gametip.Word_Ship_Exp_Buff = {
+_G.pg.base.gametip.Word_Ship_Exp_Buff = {
 	tip = "EXP Rate+ "
 }
 
-_G.pg.gametip.secondarypassword_incorrectpwd_error = {
+_G.pg.base.gametip.secondarypassword_incorrectpwd_error = {
 	tip = "Your Secondary Password is incorrect. You have <color=#FF5C5C>%d</color> attempts remaining."
 }
 
-_G.pg.gametip.secondary_password_help = {
+_G.pg.base.gametip.secondary_password_help = {
 	tip = {
 		{
 			info = "The Secondary Password feature's purpose is to ensure that only the account's owner can perform certain actions. The owner can make it necessary to enter the correct password to retire ships or scrap gear, for instance."
@@ -11970,7 +11970,7 @@ _G.pg.gametip.secondary_password_help = {
 	}
 }
 
-_G.pg.gametip.comic_help = {
+_G.pg.base.gametip.comic_help = {
 	tip = {
 		{
 			info = "1. Color in the manga panels by clearing the time-limited daily missions!"
@@ -11984,19 +11984,19 @@ _G.pg.gametip.comic_help = {
 	}
 }
 
-_G.pg.gametip.secondarypassword_illegal_tip = {
+_G.pg.base.gametip.secondarypassword_illegal_tip = {
 	tip = "Contains sensitive info, please re-enter "
 }
 
-_G.pg.gametip.pt_cosume = {
+_G.pg.base.gametip.pt_cosume = {
 	tip = "Cost:$1"
 }
 
-_G.pg.gametip.secondarypassword_confirm_tips = {
+_G.pg.base.gametip.secondarypassword_confirm_tips = {
 	tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? "
 }
 
-_G.pg.gametip.help_tempesteve = {
+_G.pg.base.gametip.help_tempesteve = {
 	tip = {
 		{
 			info = "Event Info:"
@@ -12024,67 +12024,67 @@ _G.pg.gametip.help_tempesteve = {
 	}
 }
 
-_G.pg.gametip.word_rest_times = {
+_G.pg.base.gametip.word_rest_times = {
 	tip = "<color=#FFDE38FF>Uses Left: %s</color> "
 }
 
-_G.pg.gametip.common_buy_gold_success = {
+_G.pg.base.gametip.common_buy_gold_success = {
 	tip = "Successfully purchased <color=#92fc63>$1</color> Coins! "
 }
 
-_G.pg.gametip.harbour_bomb_tip = {
+_G.pg.base.gametip.harbour_bomb_tip = {
 	tip = "The harbor has been destroyed!"
 }
 
-_G.pg.gametip.submarine_approach = {
+_G.pg.base.gametip.submarine_approach = {
 	tip = "Submarines Detected"
 }
 
-_G.pg.gametip.submarine_approach_desc = {
+_G.pg.base.gametip.submarine_approach_desc = {
 	tip = "Enemy submarines have appeared on the map!"
 }
 
-_G.pg.gametip.desc_quick_play = {
+_G.pg.base.gametip.desc_quick_play = {
 	tip = "Fast Forward"
 }
 
-_G.pg.gametip.text_win_condition = {
+_G.pg.base.gametip.text_win_condition = {
 	tip = "Win conditions:"
 }
 
-_G.pg.gametip.text_lose_condition = {
+_G.pg.base.gametip.text_lose_condition = {
 	tip = "Loss conditions:"
 }
 
-_G.pg.gametip.text_rest_HP = {
+_G.pg.base.gametip.text_rest_HP = {
 	tip = "Harbor integrity:"
 }
 
-_G.pg.gametip.desc_defense_reward = {
+_G.pg.base.gametip.desc_defense_reward = {
 	tip = "The rewards you receive are based on how effective your defense was."
 }
 
-_G.pg.gametip.desc_base_hp = {
+_G.pg.base.gametip.desc_base_hp = {
 	tip = "Harbor integrity: $1/$2"
 }
 
-_G.pg.gametip.map_event_open = {
+_G.pg.base.gametip.map_event_open = {
 	tip = "A blocked tile was created."
 }
 
-_G.pg.gametip.word_reward = {
+_G.pg.base.gametip.word_reward = {
 	tip = "Rewards"
 }
 
-_G.pg.gametip.tips_dispense_completed = {
+_G.pg.base.gametip.tips_dispense_completed = {
 	tip = "Filling complete"
 }
 
-_G.pg.gametip.tips_firework_completed = {
+_G.pg.base.gametip.tips_firework_completed = {
 	tip = "Fireworks production complete"
 }
 
-_G.pg.gametip.help_summer_feast = {
+_G.pg.base.gametip.help_summer_feast = {
 	tip = {
 		{
 			info = [[
@@ -12109,11 +12109,11 @@ Playing minigames without Game Tickets will not award prizes or stamps.]]
 	}
 }
 
-_G.pg.gametip.help_firework_produce = {
+_G.pg.base.gametip.help_firework_produce = {
 	tip = "Press the Start button to begin filling the fireworks. The Fill Gauge will continuously move. There will be three Fill attempts - press the button at the appropriate time on each attempt to finish filling the fireworks.The total Fill amount can be seen on the horizontal bar at the right-hand side of the screen.Prizes are given depending on total fill amount: First-tier prize: <color=#c80a00>140%-160%</color> Second-tier prize: <color=#e66f00>120%-140% 160-180%</color>Third-tier prize: <color=#ffea01>90-120% 180-210%</color>All other fill amounts will result in a booby prize."
 }
 
-_G.pg.gametip.help_firework = {
+_G.pg.base.gametip.help_firework = {
 	tip = {
 		{
 			info = [[
@@ -12147,7 +12147,7 @@ you will need to use the Fireworks Workshop again.]]
 	}
 }
 
-_G.pg.gametip.help_summer_shrine = {
+_G.pg.base.gametip.help_summer_shrine = {
 	tip = {
 		{
 			info = [[
@@ -12162,7 +12162,7 @@ Making a Donation when you have no Visits will still consume resources but grant
 	}
 }
 
-_G.pg.gametip.help_summer_food = {
+_G.pg.base.gametip.help_summer_food = {
 	tip = {
 		{
 			info = [[
@@ -12203,7 +12203,7 @@ Fewer than 5 points: Booby prize]]
 	}
 }
 
-_G.pg.gametip.help_summer_shooting = {
+_G.pg.base.gametip.help_summer_shooting = {
 	tip = {
 		{
 			info = [[
@@ -12226,7 +12226,7 @@ Fewer than 10 points: Booby prize]]
 	}
 }
 
-_G.pg.gametip.help_summer_stamp = {
+_G.pg.base.gametip.help_summer_stamp = {
 	tip = {
 		{
 			info = "Use Game Tickets to play minigames in order to earn stamps.Stamps earned are displayed in the \"Stamps\" booklet.When 14 stamps have been collected,click on the button on the left-hand side of the booklet to get Juno’s limited outfit."
@@ -12234,23 +12234,23 @@ _G.pg.gametip.help_summer_stamp = {
 	}
 }
 
-_G.pg.gametip.tips_summergame_exit = {
+_G.pg.base.gametip.tips_summergame_exit = {
 	tip = "A minigame is currently in progress. If you leave now, you won't earn any prizes. Are you sure you want to leave?"
 }
 
-_G.pg.gametip.tips_shrine_buff = {
+_G.pg.base.gametip.tips_shrine_buff = {
 	tip = "You spent 5 Coins and received a blessing"
 }
 
-_G.pg.gametip.tips_shrine_nobuff = {
+_G.pg.base.gametip.tips_shrine_nobuff = {
 	tip = "You spent 5 Coins but your prayers fall upon deaf ears. Perhaps you need more Shrine Visits."
 }
 
-_G.pg.gametip.paint_hide_other_obj_tip = {
+_G.pg.base.gametip.paint_hide_other_obj_tip = {
 	tip = "Hide background objects"
 }
 
-_G.pg.gametip.help_vote = {
+_G.pg.base.gametip.help_vote = {
 	tip = {
 		{
 			info = [[
@@ -12336,75 +12336,75 @@ Chapter 14: 1,150 Points.]]
 	}
 }
 
-_G.pg.gametip.tips_firework_exit = {
+_G.pg.base.gametip.tips_firework_exit = {
 	tip = "The fireworks have not yet been completed. Are you sure you want to leave?"
 }
 
-_G.pg.gametip.result_firework_produce = {
+_G.pg.base.gametip.result_firework_produce = {
 	tip = "Fireworks production has been completed. Your final rating: "
 }
 
-_G.pg.gametip.tag_level_narrative = {
+_G.pg.base.gametip.tag_level_narrative = {
 	tip = "Story"
 }
 
-_G.pg.gametip.vote_get_book = {
+_G.pg.base.gametip.vote_get_book = {
 	tip = "You obtained a Certificate of Support."
 }
 
-_G.pg.gametip.vote_book_is_over = {
+_G.pg.base.gametip.vote_book_is_over = {
 	tip = "The Popularity Poll has concluded."
 }
 
-_G.pg.gametip.vote_fame_tip = {
+_G.pg.base.gametip.vote_fame_tip = {
 	tip = "Tap the winners of the popularity vote to receive a commemorative chat border! $1, $2, $3"
 }
 
-_G.pg.gametip.word_maintain = {
+_G.pg.base.gametip.word_maintain = {
 	tip = "post-maintenance "
 }
 
-_G.pg.gametip.name_zhanliejahe = {
+_G.pg.base.gametip.name_zhanliejahe = {
 	tip = "{namecode:92}(BB)"
 }
 
-_G.pg.gametip.change_skin_secretary_ship_success = {
+_G.pg.base.gametip.change_skin_secretary_ship_success = {
 	tip = "Secretary Set Successfully"
 }
 
-_G.pg.gametip.change_skin_secretary_ship = {
+_G.pg.base.gametip.change_skin_secretary_ship = {
 	tip = "Set Secretary"
 }
 
-_G.pg.gametip.word_billboard = {
+_G.pg.base.gametip.word_billboard = {
 	tip = "Rankings"
 }
 
-_G.pg.gametip.word_easy = {
+_G.pg.base.gametip.word_easy = {
 	tip = "Easy"
 }
 
-_G.pg.gametip.word_normal_junhe = {
+_G.pg.base.gametip.word_normal_junhe = {
 	tip = "Normal"
 }
 
-_G.pg.gametip.word_hard = {
+_G.pg.base.gametip.word_hard = {
 	tip = "Hard"
 }
 
-_G.pg.gametip.word_special_challenge_ticket = {
+_G.pg.base.gametip.word_special_challenge_ticket = {
 	tip = "Bonus Ticket"
 }
 
-_G.pg.gametip.tip_exchange_ticket = {
+_G.pg.base.gametip.tip_exchange_ticket = {
 	tip = "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?"
 }
 
-_G.pg.gametip.dont_remind = {
+_G.pg.base.gametip.dont_remind = {
 	tip = "Hide reminder "
 }
 
-_G.pg.gametip.worldbossex_help = {
+_G.pg.base.gametip.worldbossex_help = {
 	tip = {
 		{
 			info = [[
@@ -12436,83 +12436,83 @@ depends on the amount of damage dealt to the boss.
 	}
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_easy = {
+_G.pg.base.gametip.ship_formationUI_fleetName_easy = {
 	tip = "Easy"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_normal = {
+_G.pg.base.gametip.ship_formationUI_fleetName_normal = {
 	tip = "Normal"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_hard = {
+_G.pg.base.gametip.ship_formationUI_fleetName_hard = {
 	tip = "Hard"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_extra = {
+_G.pg.base.gametip.ship_formationUI_fleetName_extra = {
 	tip = "EX"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_easy_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_easy_ss = {
 	tip = "Sub Fleet - Easy"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_normal_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_normal_ss = {
 	tip = "Sub Fleet - Normal"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_hard_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_hard_ss = {
 	tip = "Sub Fleet - Hard"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_extra_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
 	tip = "Sub Fleet - EX"
 }
 
-_G.pg.gametip.text_consume = {
+_G.pg.base.gametip.text_consume = {
 	tip = "Cost"
 }
 
-_G.pg.gametip.text_inconsume = {
+_G.pg.base.gametip.text_inconsume = {
 	tip = "NO"
 }
 
-_G.pg.gametip.pt_ship_now = {
+_G.pg.base.gametip.pt_ship_now = {
 	tip = "Enemies Defeated: "
 }
 
-_G.pg.gametip.pt_ship_goal = {
+_G.pg.base.gametip.pt_ship_goal = {
 	tip = "Goal:"
 }
 
-_G.pg.gametip.option_desc1 = {
+_G.pg.base.gametip.option_desc1 = {
 	tip = "When toggled ON, displays the custom names that other commanders have given their ships."
 }
 
-_G.pg.gametip.option_desc2 = {
+_G.pg.base.gametip.option_desc2 = {
 	tip = "When toggled ON, your device will vibrate after completing a battle in Auto mode."
 }
 
-_G.pg.gametip.option_desc3 = {
+_G.pg.base.gametip.option_desc3 = {
 	tip = "When toggled ON, your device will vibrate when obtaining a ship of Elite rarity or higher."
 }
 
-_G.pg.gametip.option_desc4 = {
+_G.pg.base.gametip.option_desc4 = {
 	tip = "When toggled OFF, skips the acquisition screen when obtaining a Rare or Common ship already registered in your encyclopedia."
 }
 
-_G.pg.gametip.option_desc5 = {
+_G.pg.base.gametip.option_desc5 = {
 	tip = "When toggled ON, displays a tap effect when you tap the screen."
 }
 
-_G.pg.gametip.option_desc6 = {
+_G.pg.base.gametip.option_desc6 = {
 	tip = "When toggled ON, the loading display will adapt to your device's aspect ratio."
 }
 
-_G.pg.gametip.option_desc10 = {
+_G.pg.base.gametip.option_desc10 = {
 	tip = "Enabling this option hides background art in skins during battle "
 }
 
-_G.pg.gametip.option_desc11 = {
+_G.pg.base.gametip.option_desc11 = {
 	tip = [[
 Display Carrier Detection line
 
@@ -12549,7 +12549,7 @@ Each carrier has a separate Detection Gauge, and the higher their AVI stat, the 
 The Detection Gauge will not decrease in Exercise Battles. Additionally, once the opponent’s fleet gets near enough to your Main Fleet, all of your carriers will enter the Detected state.]]
 }
 
-_G.pg.gametip.music_collection = {
+_G.pg.base.gametip.music_collection = {
 	tip = {
 		{
 			info = "How to Play:"
@@ -12578,7 +12578,7 @@ You may claim rewards up until 11/18, 23:59]]
 	}
 }
 
-_G.pg.gametip.music_main = {
+_G.pg.base.gametip.music_main = {
 	tip = {
 		{
 			info = "The \"Universe in Unison\" event will run from <color=#92fc63>10/29 to 11/11</color>"
@@ -12609,7 +12609,7 @@ Building interface.
 	}
 }
 
-_G.pg.gametip.music_juus = {
+_G.pg.base.gametip.music_juus = {
 	tip = {
 		{
 			info = "\"Juustagram\" Information:"
@@ -12628,7 +12628,7 @@ After leaving a comment on a post, you may receive a reply after a period of tim
 	}
 }
 
-_G.pg.gametip.doa_collection = {
+_G.pg.base.gametip.doa_collection = {
 	tip = {
 		{
 			info = [[
@@ -12652,35 +12652,35 @@ Collect all <color=#92fc63>14</color> to get a piece of limited furniture,
 	}
 }
 
-_G.pg.gametip.ins_word_day = {
+_G.pg.base.gametip.ins_word_day = {
 	tip = "$1 days ago "
 }
 
-_G.pg.gametip.ins_word_hour = {
+_G.pg.base.gametip.ins_word_hour = {
 	tip = "$1 hours ago"
 }
 
-_G.pg.gametip.ins_word_minu = {
+_G.pg.base.gametip.ins_word_minu = {
 	tip = "$1 minutes ago"
 }
 
-_G.pg.gametip.ins_word_like = {
+_G.pg.base.gametip.ins_word_like = {
 	tip = "$1 Likes"
 }
 
-_G.pg.gametip.ins_click_like_success = {
+_G.pg.base.gametip.ins_click_like_success = {
 	tip = "You Liked this post."
 }
 
-_G.pg.gametip.ins_push_comment_success = {
+_G.pg.base.gametip.ins_push_comment_success = {
 	tip = "You left a comment on this post."
 }
 
-_G.pg.gametip.skinshop_live2d_fliter_failed = {
+_G.pg.base.gametip.skinshop_live2d_fliter_failed = {
 	tip = "No outfits to display under current filter settings "
 }
 
-_G.pg.gametip.help_music_game = {
+_G.pg.base.gametip.help_music_game = {
 	tip = {
 		{
 			info = [[
@@ -12714,15 +12714,15 @@ GOOD or PERFECT rating.]]
 	}
 }
 
-_G.pg.gametip.restart_music_game = {
+_G.pg.base.gametip.restart_music_game = {
 	tip = "Would you like to stop the song and start over?"
 }
 
-_G.pg.gametip.reselect_music_game = {
+_G.pg.base.gametip.reselect_music_game = {
 	tip = "Would you like to stop and return to the song select screen?"
 }
 
-_G.pg.gametip.hololive_goodmorning = {
+_G.pg.base.gametip.hololive_goodmorning = {
 	tip = {
 		{
 			info = [[
@@ -12737,7 +12737,7 @@ _G.pg.gametip.hololive_goodmorning = {
 	}
 }
 
-_G.pg.gametip.hololive_lianliankan = {
+_G.pg.base.gametip.hololive_lianliankan = {
 	tip = {
 		{
 			info = [[
@@ -12759,7 +12759,7 @@ _G.pg.gametip.hololive_lianliankan = {
 	}
 }
 
-_G.pg.gametip.hololive_dalaozhang = {
+_G.pg.base.gametip.hololive_dalaozhang = {
 	tip = {
 		{
 			info = [[
@@ -12774,7 +12774,7 @@ _G.pg.gametip.hololive_dalaozhang = {
 	}
 }
 
-_G.pg.gametip.hololive_dashenling = {
+_G.pg.base.gametip.hololive_dashenling = {
 	tip = {
 		{
 			info = [[
@@ -12793,15 +12793,15 @@ _G.pg.gametip.hololive_dashenling = {
 	}
 }
 
-_G.pg.gametip.pocky_jiujiu = {
+_G.pg.base.gametip.pocky_jiujiu = {
 	tip = "Manjuu Manufactory"
 }
 
-_G.pg.gametip.pocky_jiujiu_desc = {
+_G.pg.base.gametip.pocky_jiujiu_desc = {
 	tip = "The Manjuus are hard at work today..."
 }
 
-_G.pg.gametip.pocky_help = {
+_G.pg.base.gametip.pocky_help = {
 	tip = {
 		{
 			info = "Event Instructions:"
@@ -12818,7 +12818,7 @@ _G.pg.gametip.pocky_help = {
 	}
 }
 
-_G.pg.gametip.secretary_help = {
+_G.pg.base.gametip.secretary_help = {
 	tip = {
 		{
 			info = "About Secretary Groups:\n"
@@ -12844,39 +12844,39 @@ _G.pg.gametip.secretary_help = {
 	}
 }
 
-_G.pg.gametip.secretary_unlock2 = {
+_G.pg.base.gametip.secretary_unlock2 = {
 	tip = "Clear stage 3-4 \nto unlock "
 }
 
-_G.pg.gametip.secretary_unlock3 = {
+_G.pg.base.gametip.secretary_unlock3 = {
 	tip = "Clear stage 6-4 \nto unlock "
 }
 
-_G.pg.gametip.secretary_unlock4 = {
+_G.pg.base.gametip.secretary_unlock4 = {
 	tip = "Clear stage 9-4 \nto unlock "
 }
 
-_G.pg.gametip.secretary_unlock5 = {
+_G.pg.base.gametip.secretary_unlock5 = {
 	tip = "Clear stage 12-4 \nto unlock "
 }
 
-_G.pg.gametip.secretary_closed = {
+_G.pg.base.gametip.secretary_closed = {
 	tip = "Not open"
 }
 
-_G.pg.gametip.confirm_unlock = {
+_G.pg.base.gametip.confirm_unlock = {
 	tip = "Are you sure you want to unlock $1?"
 }
 
-_G.pg.gametip.secretary_pos_save = {
+_G.pg.base.gametip.secretary_pos_save = {
 	tip = "Would you like to save the current secretary ship placement?"
 }
 
-_G.pg.gametip.secretary_pos_save_success = {
+_G.pg.base.gametip.secretary_pos_save_success = {
 	tip = "Save successful"
 }
 
-_G.pg.gametip.collection_help = {
+_G.pg.base.gametip.collection_help = {
 	tip = {
 		{
 			icon = {
@@ -12908,159 +12908,159 @@ _G.pg.gametip.collection_help = {
 	}
 }
 
-_G.pg.gametip.juese_tiyan = {
+_G.pg.base.gametip.juese_tiyan = {
 	tip = "Would you like to try out this character? (Stats shown during testing are for reference only, <color=#ff5c5c>Actual performance when acquired may differ.</color>)"
 }
 
-_G.pg.gametip.resolve_amount_prefix = {
+_G.pg.base.gametip.resolve_amount_prefix = {
 	tip = "Disassemble amount:"
 }
 
-_G.pg.gametip.compose_amount_prefix = {
+_G.pg.base.gametip.compose_amount_prefix = {
 	tip = "Combine amount:"
 }
 
-_G.pg.gametip.help_sub_limits = {
+_G.pg.base.gametip.help_sub_limits = {
 	tip = "Hide/Show ASR"
 }
 
-_G.pg.gametip.help_sub_display = {
+_G.pg.base.gametip.help_sub_display = {
 	tip = "Attack Mode/Support Mode"
 }
 
-_G.pg.gametip.confirm_unlock_ship_main = {
+_G.pg.base.gametip.confirm_unlock_ship_main = {
 	tip = "This ship is currently secretary, and cannot be selected again"
 }
 
-_G.pg.gametip.msgbox_text_confirm = {
+_G.pg.base.gametip.msgbox_text_confirm = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.msgbox_text_shop = {
+_G.pg.base.gametip.msgbox_text_shop = {
 	tip = "Shop "
 }
 
-_G.pg.gametip.msgbox_text_cancel = {
+_G.pg.base.gametip.msgbox_text_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.msgbox_text_cancel_g = {
+_G.pg.base.gametip.msgbox_text_cancel_g = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.msgbox_text_cancel_fight = {
+_G.pg.base.gametip.msgbox_text_cancel_fight = {
 	tip = "Leave battle"
 }
 
-_G.pg.gametip.msgbox_text_goon_fight = {
+_G.pg.base.gametip.msgbox_text_goon_fight = {
 	tip = "Continue"
 }
 
-_G.pg.gametip.msgbox_text_exit = {
+_G.pg.base.gametip.msgbox_text_exit = {
 	tip = "Exit"
 }
 
-_G.pg.gametip.msgbox_text_clear = {
+_G.pg.base.gametip.msgbox_text_clear = {
 	tip = "Clear"
 }
 
-_G.pg.gametip.msgbox_text_apply = {
+_G.pg.base.gametip.msgbox_text_apply = {
 	tip = "Send"
 }
 
-_G.pg.gametip.msgbox_text_buy = {
+_G.pg.base.gametip.msgbox_text_buy = {
 	tip = "Purchase"
 }
 
-_G.pg.gametip.msgbox_text_noPos_buy = {
+_G.pg.base.gametip.msgbox_text_noPos_buy = {
 	tip = "Expand"
 }
 
-_G.pg.gametip.msgbox_text_noPos_clear = {
+_G.pg.base.gametip.msgbox_text_noPos_clear = {
 	tip = "Sort"
 }
 
-_G.pg.gametip.msgbox_text_noPos_intensify = {
+_G.pg.base.gametip.msgbox_text_noPos_intensify = {
 	tip = "Enhance"
 }
 
-_G.pg.gametip.msgbox_text_forward = {
+_G.pg.base.gametip.msgbox_text_forward = {
 	tip = "Go"
 }
 
-_G.pg.gametip.msgbox_text_iknow = {
+_G.pg.base.gametip.msgbox_text_iknow = {
 	tip = "Got it"
 }
 
-_G.pg.gametip.msgbox_text_prepage = {
+_G.pg.base.gametip.msgbox_text_prepage = {
 	tip = "Next"
 }
 
-_G.pg.gametip.msgbox_text_nextpage = {
+_G.pg.base.gametip.msgbox_text_nextpage = {
 	tip = "Prev"
 }
 
-_G.pg.gametip.msgbox_text_exchange = {
+_G.pg.base.gametip.msgbox_text_exchange = {
 	tip = "Exchange"
 }
 
-_G.pg.gametip.msgbox_text_retreat = {
+_G.pg.base.gametip.msgbox_text_retreat = {
 	tip = "Retreat"
 }
 
-_G.pg.gametip.msgbox_text_go = {
+_G.pg.base.gametip.msgbox_text_go = {
 	tip = "Go"
 }
 
-_G.pg.gametip.msgbox_text_consume = {
+_G.pg.base.gametip.msgbox_text_consume = {
 	tip = "Cost"
 }
 
-_G.pg.gametip.msgbox_text_inconsume = {
+_G.pg.base.gametip.msgbox_text_inconsume = {
 	tip = "NO"
 }
 
-_G.pg.gametip.msgbox_text_unlock = {
+_G.pg.base.gametip.msgbox_text_unlock = {
 	tip = "Unlock"
 }
 
-_G.pg.gametip.msgbox_text_save = {
+_G.pg.base.gametip.msgbox_text_save = {
 	tip = "Save "
 }
 
-_G.pg.gametip.common_flag_ship = {
+_G.pg.base.gametip.common_flag_ship = {
 	tip = "Secretary"
 }
 
-_G.pg.gametip.fenjie_lantu_tip = {
+_G.pg.base.gametip.fenjie_lantu_tip = {
 	tip = "You can only analyze Prototype Blueprints after reaching Development Level 30 with that corresponding ship."
 }
 
-_G.pg.gametip.msgbox_text_analyse = {
+_G.pg.base.gametip.msgbox_text_analyse = {
 	tip = "Analyze"
 }
 
-_G.pg.gametip.fragresolve_empty_tip = {
+_G.pg.base.gametip.fragresolve_empty_tip = {
 	tip = "There are no Prototype Blueprints that can currently be analyzed."
 }
 
-_G.pg.gametip.confirm_unlock_lv = {
+_G.pg.base.gametip.confirm_unlock_lv = {
 	tip = "Are you sure you want to unlock $2 ($1)?"
 }
 
-_G.pg.gametip.shops_rest_day = {
+_G.pg.base.gametip.shops_rest_day = {
 	tip = "Store refreshes in :"
 }
 
-_G.pg.gametip.title_limit_time = {
+_G.pg.base.gametip.title_limit_time = {
 	tip = "「Event」"
 }
 
-_G.pg.gametip.seven_choose_one = {
+_G.pg.base.gametip.seven_choose_one = {
 	tip = "You may choose only one New Year's gift. \nWould you like <color=#92fc63>$1</color>'s gift? \nYou will receive this character and her greeting. "
 }
 
-_G.pg.gametip.help_newyear_feast = {
+_G.pg.base.gametip.help_newyear_feast = {
 	tip = {
 		{
 			info = [[
@@ -13087,7 +13087,7 @@ You may also quit the minigame at any time without losing a Ticket, but you will
 	}
 }
 
-_G.pg.gametip.help_newyear_shrine = {
+_G.pg.base.gametip.help_newyear_shrine = {
 	tip = {
 		{
 			info = [[
@@ -13119,7 +13119,7 @@ The expiration of the education blessing will not cause any lesson in progress t
 	}
 }
 
-_G.pg.gametip.help_newyear_stamp = {
+_G.pg.base.gametip.help_newyear_stamp = {
 	tip = {
 		{
 			info = "You can acquire Stamps by playing Kinu's New Year Training while in possession of a Ticket.\n\nCollect 7 Stamps to receive the skin!"
@@ -13127,11 +13127,11 @@ _G.pg.gametip.help_newyear_stamp = {
 	}
 }
 
-_G.pg.gametip.pt_reconfirm = {
+_G.pg.base.gametip.pt_reconfirm = {
 	tip = "Would you like to buy <color=#ff5c5c>$1</color>?"
 }
 
-_G.pg.gametip.qte_game_help = {
+_G.pg.base.gametip.qte_game_help = {
 	tip = {
 		{
 			icon = {
@@ -13163,43 +13163,43 @@ _G.pg.gametip.qte_game_help = {
 	}
 }
 
-_G.pg.gametip.word_equipskin_type = {
+_G.pg.base.gametip.word_equipskin_type = {
 	tip = "Type "
 }
 
-_G.pg.gametip.word_equipskin_all = {
+_G.pg.base.gametip.word_equipskin_all = {
 	tip = "All "
 }
 
-_G.pg.gametip.word_equipskin_cannon = {
+_G.pg.base.gametip.word_equipskin_cannon = {
 	tip = "Artillery "
 }
 
-_G.pg.gametip.word_equipskin_tarpedo = {
+_G.pg.base.gametip.word_equipskin_tarpedo = {
 	tip = "Torpedoes "
 }
 
-_G.pg.gametip.word_equipskin_aircraft = {
+_G.pg.base.gametip.word_equipskin_aircraft = {
 	tip = "Aircraft "
 }
 
-_G.pg.gametip.word_equipskin_aux = {
+_G.pg.base.gametip.word_equipskin_aux = {
 	tip = "Gear"
 }
 
-_G.pg.gametip.msgbox_repair = {
+_G.pg.base.gametip.msgbox_repair = {
 	tip = "Repair Assets"
 }
 
-_G.pg.gametip.msgbox_repair_l2d = {
+_G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "Repair Live2D"
 }
 
-_G.pg.gametip.word_no_cache = {
+_G.pg.base.gametip.word_no_cache = {
 	tip = "There are no assets to repair."
 }
 
-_G.pg.gametip.pile_game_notice = {
+_G.pg.base.gametip.pile_game_notice = {
 	tip = {
 		{
 			info = [[
@@ -13219,7 +13219,7 @@ You will receive 1 Ticket each day for the duration of the event.
 	}
 }
 
-_G.pg.gametip.help_chunjie_stamp = {
+_G.pg.base.gametip.help_chunjie_stamp = {
 	tip = {
 		{
 			info = [[
@@ -13236,7 +13236,7 @@ Please note that you can only receive Stamps through the Manjuu Tower minigame. 
 	}
 }
 
-_G.pg.gametip.help_chunjie_feast = {
+_G.pg.base.gametip.help_chunjie_feast = {
 	tip = {
 		{
 			info = [[
@@ -13253,7 +13253,7 @@ _G.pg.gametip.help_chunjie_feast = {
 	}
 }
 
-_G.pg.gametip.help_chunjie_jiulou = {
+_G.pg.base.gametip.help_chunjie_jiulou = {
 	tip = {
 		{
 			info = [[
@@ -13267,35 +13267,35 @@ _G.pg.gametip.help_chunjie_jiulou = {
 	}
 }
 
-_G.pg.gametip.special_animal1 = {
+_G.pg.base.gametip.special_animal1 = {
 	tip = "[Uranami's Collection of Cuties - #1] Axofrostl: a strange creature with the power to rapidly freeze its prey. It builds its nest in frozen lakes."
 }
 
-_G.pg.gametip.special_animal2 = {
+_G.pg.base.gametip.special_animal2 = {
 	tip = "[Uranami's Collection of Cuties - #2] Paranoebill: this bird flies with telekinesis, rather than its wings. It is peaceful and a conscientious objector, but will use its power for self-defense if necessary."
 }
 
-_G.pg.gametip.special_animal3 = {
+_G.pg.base.gametip.special_animal3 = {
 	tip = "[Uranami's Collection of Cuties - #3] Pinnisphere: it puffs itself up into a ball by filling its lungs beyond capacity. Apparently it's just a party trick."
 }
 
-_G.pg.gametip.special_animal4 = {
+_G.pg.base.gametip.special_animal4 = {
 	tip = "[Uranami's Collection of Cuties - #4] Uniqorn: a rare creature of mythological origins, said to only associate with other Uniqorns. It communicates telepathically and can fly."
 }
 
-_G.pg.gametip.special_animal5 = {
+_G.pg.base.gametip.special_animal5 = {
 	tip = "[Uranami's Collection of Cuties - #5] Inwanshirible: somehow, this dog learned how to make itself nearly invisible. Keyword: nearly. Its fluffy butt remains in full view."
 }
 
-_G.pg.gametip.special_animal6 = {
+_G.pg.base.gametip.special_animal6 = {
 	tip = "[Uranami's Collection of Cuties - #6] Swolejuu: after rigorous lifting, a mountain of oats, and mastering the art of ridiculing binoclards, this little bird became ABSOLUTELY RIPPED, BROTHER."
 }
 
-_G.pg.gametip.special_animal7 = {
+_G.pg.base.gametip.special_animal7 = {
 	tip = "[Uranami's Collection of Cuties - #7] Meunchkus: it secretes a rainbow-colored liquid through its mouth. Accounts from people who'd rather remain anonymous claim \"it also tastes like a rainbow.\""
 }
 
-_G.pg.gametip.bulin_help = {
+_G.pg.base.gametip.bulin_help = {
 	tip = {
 		{
 			info = [[
@@ -13309,67 +13309,67 @@ to earn special rewards.]]
 	}
 }
 
-_G.pg.gametip.super_bulin = {
+_G.pg.base.gametip.super_bulin = {
 	tip = "Would you like to proceed to the bonus stage?"
 }
 
-_G.pg.gametip.super_bulin_tip = {
+_G.pg.base.gametip.super_bulin_tip = {
 	tip = "Tap here to get bonking, bulin!"
 }
 
-_G.pg.gametip.bulin_tip1 = {
+_G.pg.base.gametip.bulin_tip1 = {
 	tip = "Sortie nya! Target 1-2 nya!"
 }
 
-_G.pg.gametip.bulin_tip2 = {
+_G.pg.base.gametip.bulin_tip2 = {
 	tip = "Make sure you clean up your item stash nya!"
 }
 
-_G.pg.gametip.bulin_tip3 = {
+_G.pg.base.gametip.bulin_tip3 = {
 	tip = "Sortie nya! Target 2-2 nya!"
 }
 
-_G.pg.gametip.bulin_tip4 = {
+_G.pg.base.gametip.bulin_tip4 = {
 	tip = "Nya? Maybe check the dockyard nya?"
 }
 
-_G.pg.gametip.bulin_tip5 = {
+_G.pg.base.gametip.bulin_tip5 = {
 	tip = "Sortie nya! Target 1-4 nya!"
 }
 
-_G.pg.gametip.bulin_tip6 = {
+_G.pg.base.gametip.bulin_tip6 = {
 	tip = "Don't forget to feed the kids nya!"
 }
 
-_G.pg.gametip.bulin_tip7 = {
+_G.pg.base.gametip.bulin_tip7 = {
 	tip = "Sortie nya! Target 2-4 nya!"
 }
 
-_G.pg.gametip.bulin_tip8 = {
+_G.pg.base.gametip.bulin_tip8 = {
 	tip = "Check out the cherry blossoms in the schoolyard nya!"
 }
 
-_G.pg.gametip.bulin_tip9 = {
+_G.pg.base.gametip.bulin_tip9 = {
 	tip = "Drop by the store and get some more goodies nya!"
 }
 
-_G.pg.gametip.bulin_tip_other1 = {
+_G.pg.base.gametip.bulin_tip_other1 = {
 	tip = "Get a hint? You can only get one every 20 minutes."
 }
 
-_G.pg.gametip.bulin_tip_other2 = {
+_G.pg.base.gametip.bulin_tip_other2 = {
 	tip = "Hints are on cooldown."
 }
 
-_G.pg.gametip.bulin_tip_other3 = {
+_G.pg.base.gametip.bulin_tip_other3 = {
 	tip = "Quit the stage? You won't get any rewards."
 }
 
-_G.pg.gametip.monopoly_left_count = {
+_G.pg.base.gametip.monopoly_left_count = {
 	tip = "Dice: "
 }
 
-_G.pg.gametip.help_chunjie_monopoly = {
+_G.pg.base.gametip.help_chunjie_monopoly = {
 	tip = {
 		{
 			info = "Rules:"
@@ -13439,23 +13439,23 @@ _G.pg.gametip.help_chunjie_monopoly = {
 	}
 }
 
-_G.pg.gametip.monoply_drop_ship_step = {
+_G.pg.base.gametip.monoply_drop_ship_step = {
 	tip = "Complete $1 more laps to earn the limited outfit, \"Style of the East.\""
 }
 
-_G.pg.gametip.lanternRiddles_wait_for_reanswer = {
+_G.pg.base.gametip.lanternRiddles_wait_for_reanswer = {
 	tip = "Please wait before attempting this riddle again"
 }
 
-_G.pg.gametip.lanternRiddles_answer_is_wrong = {
+_G.pg.base.gametip.lanternRiddles_answer_is_wrong = {
 	tip = "Sorry, please try again!"
 }
 
-_G.pg.gametip.lanternRiddles_answer_is_right = {
+_G.pg.base.gametip.lanternRiddles_answer_is_right = {
 	tip = "Congratulations!"
 }
 
-_G.pg.gametip.lanternRiddles_gametip = {
+_G.pg.base.gametip.lanternRiddles_gametip = {
 	tip = {
 		{
 			info = [[
@@ -13469,67 +13469,67 @@ If you get a question wrong, you will have to wait a period of time before you c
 	}
 }
 
-_G.pg.gametip.LanternRiddle_wait_time_tip = {
+_G.pg.base.gametip.LanternRiddle_wait_time_tip = {
 	tip = "Next Attempt: "
 }
 
-_G.pg.gametip.LinkLinkGame_BestTime = {
+_G.pg.base.gametip.LinkLinkGame_BestTime = {
 	tip = "Record:"
 }
 
-_G.pg.gametip.LinkLinkGame_CurTime = {
+_G.pg.base.gametip.LinkLinkGame_CurTime = {
 	tip = "Time:"
 }
 
-_G.pg.gametip.sort_attribute = {
+_G.pg.base.gametip.sort_attribute = {
 	tip = "Stat"
 }
 
-_G.pg.gametip.sort_intimacy = {
+_G.pg.base.gametip.sort_intimacy = {
 	tip = "Affinity"
 }
 
-_G.pg.gametip.index_skin = {
+_G.pg.base.gametip.index_skin = {
 	tip = "Has Skin"
 }
 
-_G.pg.gametip.index_reform = {
+_G.pg.base.gametip.index_reform = {
 	tip = "Retrofit Available"
 }
 
-_G.pg.gametip.index_reform_cw = {
+_G.pg.base.gametip.index_reform_cw = {
 	tip = "Retrofit Available"
 }
 
-_G.pg.gametip.index_strengthen = {
+_G.pg.base.gametip.index_strengthen = {
 	tip = "Enhanceable"
 }
 
-_G.pg.gametip.index_special = {
+_G.pg.base.gametip.index_special = {
 	tip = "Special"
 }
 
-_G.pg.gametip.index_propose_skin = {
+_G.pg.base.gametip.index_propose_skin = {
 	tip = "Pledge Outfit "
 }
 
-_G.pg.gametip.index_not_obtained = {
+_G.pg.base.gametip.index_not_obtained = {
 	tip = "Not Obtained"
 }
 
-_G.pg.gametip.index_no_limit = {
+_G.pg.base.gametip.index_no_limit = {
 	tip = "No Limit"
 }
 
-_G.pg.gametip.index_awakening = {
+_G.pg.base.gametip.index_awakening = {
 	tip = "Can Cog. Aw."
 }
 
-_G.pg.gametip.index_not_lvmax = {
+_G.pg.base.gametip.index_not_lvmax = {
 	tip = "Not Max Lvl"
 }
 
-_G.pg.gametip.decodegame_gametip = {
+_G.pg.base.gametip.decodegame_gametip = {
 	tip = {
 		{
 			info = [[
@@ -13562,75 +13562,75 @@ After completing intel decryption, collect the corresponding rewards from the bo
 	}
 }
 
-_G.pg.gametip.indexsort_sort = {
+_G.pg.base.gametip.indexsort_sort = {
 	tip = "Sort"
 }
 
-_G.pg.gametip.indexsort_index = {
+_G.pg.base.gametip.indexsort_index = {
 	tip = "Index"
 }
 
-_G.pg.gametip.indexsort_camp = {
+_G.pg.base.gametip.indexsort_camp = {
 	tip = "Faction"
 }
 
-_G.pg.gametip.indexsort_type = {
+_G.pg.base.gametip.indexsort_type = {
 	tip = "Type"
 }
 
-_G.pg.gametip.indexsort_rarity = {
+_G.pg.base.gametip.indexsort_rarity = {
 	tip = "Rarity"
 }
 
-_G.pg.gametip.indexsort_extraindex = {
+_G.pg.base.gametip.indexsort_extraindex = {
 	tip = "Extra"
 }
 
-_G.pg.gametip.indexsort_sorteng = {
+_G.pg.base.gametip.indexsort_sorteng = {
 	tip = "Sort"
 }
 
-_G.pg.gametip.indexsort_indexeng = {
+_G.pg.base.gametip.indexsort_indexeng = {
 	tip = "Index"
 }
 
-_G.pg.gametip.indexsort_campeng = {
+_G.pg.base.gametip.indexsort_campeng = {
 	tip = "Faction"
 }
 
-_G.pg.gametip.indexsort_rarityeng = {
+_G.pg.base.gametip.indexsort_rarityeng = {
 	tip = "Rarity"
 }
 
-_G.pg.gametip.indexsort_typeeng = {
+_G.pg.base.gametip.indexsort_typeeng = {
 	tip = "TYPE"
 }
 
-_G.pg.gametip.fightfail_up = {
+_G.pg.base.gametip.fightfail_up = {
 	tip = "Would you like to retreat and return to the map select screen?"
 }
 
-_G.pg.gametip.fightfail_equip = {
+_G.pg.base.gametip.fightfail_equip = {
 	tip = "Would you like to retreat and go to the Dock to enhance gear?"
 }
 
-_G.pg.gametip.fight_strengthen = {
+_G.pg.base.gametip.fight_strengthen = {
 	tip = "Would you like to retreat and go to the Dock to enhance or Limit Break ships?"
 }
 
-_G.pg.gametip.fightfail_noequip = {
+_G.pg.base.gametip.fightfail_noequip = {
 	tip = "No gear has been equipped."
 }
 
-_G.pg.gametip.fightfail_choiceequip = {
+_G.pg.base.gametip.fightfail_choiceequip = {
 	tip = "Select a ship with gear you would like to enhance."
 }
 
-_G.pg.gametip.fightfail_choicestrengthen = {
+_G.pg.base.gametip.fightfail_choicestrengthen = {
 	tip = "Select a ship that you would like to enhance or Limit Break."
 }
 
-_G.pg.gametip.sofmap_attention = {
+_G.pg.base.gametip.sofmap_attention = {
 	tip = {
 		{
 			info = "Clear the following stages to earn different amounts of <color=#92fc63>\"Akashi Coupons\"</color>\n-Main Campaign stages after Chapter 3 \n-SP1, SP2, or SP3"
@@ -13638,27 +13638,27 @@ _G.pg.gametip.sofmap_attention = {
 	}
 }
 
-_G.pg.gametip.sofmapsd_1 = {
+_G.pg.base.gametip.sofmapsd_1 = {
 	tip = "Oh nyeow! \nI've dropped my coupons in the ocean, nya! Help me out, Commander! "
 }
 
-_G.pg.gametip.sofmapsd_2 = {
+_G.pg.base.gametip.sofmapsd_2 = {
 	tip = "Hand them in to me, \nand I'll give you some rewards, nya!"
 }
 
-_G.pg.gametip.sofmapsd_3 = {
+_G.pg.base.gametip.sofmapsd_3 = {
 	tip = "Hehehe! This'll boost my sales, nya!"
 }
 
-_G.pg.gametip.sofmapsd_4 = {
+_G.pg.base.gametip.sofmapsd_4 = {
 	tip = "We've hit our sales goal, nya! \nThanks a bunch, Commander!"
 }
 
-_G.pg.gametip.inform_level_limit = {
+_G.pg.base.gametip.inform_level_limit = {
 	tip = "Reporting is available after reaching Commander Lv. 20 "
 }
 
-_G.pg.gametip["3match_tip"] = {
+_G.pg.base.gametip["3match_tip"] = {
 	tip = {
 		{
 			icon = {
@@ -13696,67 +13696,67 @@ _G.pg.gametip["3match_tip"] = {
 	}
 }
 
-_G.pg.gametip.retire_selectzero = {
+_G.pg.base.gametip.retire_selectzero = {
 	tip = "No ships fit the specified conditions for quick retire. "
 }
 
-_G.pg.gametip.undermist_tip = {
+_G.pg.base.gametip.undermist_tip = {
 	tip = "No available missions. Please wait until tomorrow to unlock more."
 }
 
-_G.pg.gametip.retire_1 = {
+_G.pg.base.gametip.retire_1 = {
 	tip = "If you <color=#92fc63>own a ship</color> that has been <color=#92fc63>fully Limit Broken</color>, this option determines what you want to do with the corresponding duplicate ships."
 }
 
-_G.pg.gametip.retire_2 = {
+_G.pg.base.gametip.retire_2 = {
 	tip = "If you <color=#ff5c5c>own multiple copies of a ship</color> that <color=#92fc63>has not been fully Limit Broken</color>, this option determines what you want to do with those copies."
 }
 
-_G.pg.gametip.retire_3 = {
+_G.pg.base.gametip.retire_3 = {
 	tip = "Prioritize Level 1 ships"
 }
 
-_G.pg.gametip.retire_rarity = {
+_G.pg.base.gametip.retire_rarity = {
 	tip = "Prioritize Rarity $1"
 }
 
-_G.pg.gametip.retire_title = {
+_G.pg.base.gametip.retire_title = {
 	tip = "Quick Retire Options"
 }
 
-_G.pg.gametip.res_unlock_tip = {
+_G.pg.base.gametip.res_unlock_tip = {
 	tip = "Unlock by spending the following resources"
 }
 
-_G.pg.gametip.res_wifi_tip = {
+_G.pg.base.gametip.res_wifi_tip = {
 	tip = "You are currently not on a Wi-Fi network. Downloading may use up a large amount of cellular data. Continue with download anyway?"
 }
 
-_G.pg.gametip.res_downloading = {
+_G.pg.base.gametip.res_downloading = {
 	tip = "Downloading"
 }
 
-_G.pg.gametip.res_pic_new_tip = {
+_G.pg.base.gametip.res_pic_new_tip = {
 	tip = "$1 new illustrations were added in this update. Come take a look!"
 }
 
-_G.pg.gametip.res_music_no_pre_tip = {
+_G.pg.base.gametip.res_music_no_pre_tip = {
 	tip = "First Track"
 }
 
-_G.pg.gametip.res_music_no_next_tip = {
+_G.pg.base.gametip.res_music_no_next_tip = {
 	tip = "Last Track"
 }
 
-_G.pg.gametip.res_music_new_tip = {
+_G.pg.base.gametip.res_music_new_tip = {
 	tip = "This update adds $1 music"
 }
 
-_G.pg.gametip.apple_link_title = {
+_G.pg.base.gametip.apple_link_title = {
 	tip = "Account Link Complete"
 }
 
-_G.pg.gametip.retire_setting_help = {
+_G.pg.base.gametip.retire_setting_help = {
 	tip = {
 		{
 			info = [[
@@ -13773,83 +13773,83 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 	}
 }
 
-_G.pg.gametip.activity_shop_exchange_count = {
+_G.pg.base.gametip.activity_shop_exchange_count = {
 	tip = "Limit:"
 }
 
-_G.pg.gametip.shops_msgbox_exchange_count = {
+_G.pg.base.gametip.shops_msgbox_exchange_count = {
 	tip = "Purchase amount:"
 }
 
-_G.pg.gametip.shops_msgbox_output = {
+_G.pg.base.gametip.shops_msgbox_output = {
 	tip = "Will get:"
 }
 
-_G.pg.gametip.shop_word_exchange = {
+_G.pg.base.gametip.shop_word_exchange = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.shop_word_cancel = {
+_G.pg.base.gametip.shop_word_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.title_item_ways = {
+_G.pg.base.gametip.title_item_ways = {
 	tip = "<color=#92fc63>$1</color> can be obtained through the following methods "
 }
 
-_G.pg.gametip.item_lack_title = {
+_G.pg.base.gametip.item_lack_title = {
 	tip = "<color=#92fc63>$1</color> can be obtained through the following methods "
 }
 
-_G.pg.gametip.oil_buy_tip_2 = {
+_G.pg.base.gametip.oil_buy_tip_2 = {
 	tip = "You need <size=28><color=#ff5c5c>$4</color></size> Oil. Would you like to spend <color=#92fc63>$1</color><icon name=diamond w=0.7 h=0.7/> to buy <size=28><color=#92fc63>$2</color></size> Oil?<size=28><color=#a2a2a2>\n\n(You have purchased Oil <size=28><color=#ff5c5c>$3</color></size> times today.)</color></size>"
 }
 
-_G.pg.gametip.target_chapter_is_lock = {
+_G.pg.base.gametip.target_chapter_is_lock = {
 	tip = "This chapter has not been unlocked yet. "
 }
 
-_G.pg.gametip.ship_book = {
+_G.pg.base.gametip.ship_book = {
 	tip = "<color=#92fc63>Textbook</color>"
 }
 
-_G.pg.gametip.month_sign_resign = {
+_G.pg.base.gametip.month_sign_resign = {
 	tip = "补签"
 }
 
-_G.pg.gametip.collect_tip = {
+_G.pg.base.gametip.collect_tip = {
 	tip = "Some selected ships are busy. Unable to form commission fleet. "
 }
 
-_G.pg.gametip.collect_tip2 = {
+_G.pg.base.gametip.collect_tip2 = {
 	tip = "Some selected ships are busy. Unable to form commission fleet. "
 }
 
-_G.pg.gametip.word_weakness = {
+_G.pg.base.gametip.word_weakness = {
 	tip = "Weak Point "
 }
 
-_G.pg.gametip.special_operation_tip1 = {
+_G.pg.base.gametip.special_operation_tip1 = {
 	tip = "No consumables available."
 }
 
-_G.pg.gametip.special_operation_tip2 = {
+_G.pg.base.gametip.special_operation_tip2 = {
 	tip = "No consumables available."
 }
 
-_G.pg.gametip.area_lock = {
+_G.pg.base.gametip.area_lock = {
 	tip = "This zone has not been unlocked. "
 }
 
-_G.pg.gametip.equipment_upgrade_equipped_tag = {
+_G.pg.base.gametip.equipment_upgrade_equipped_tag = {
 	tip = "Equipped : "
 }
 
-_G.pg.gametip.equipment_upgrade_spare_tag = {
+_G.pg.base.gametip.equipment_upgrade_spare_tag = {
 	tip = "In Depot : "
 }
 
-_G.pg.gametip.equipment_upgrade_help = {
+_G.pg.base.gametip.equipment_upgrade_help = {
 	tip = {
 		{
 			info = "- About Gear R&D:"
@@ -13881,59 +13881,59 @@ _G.pg.gametip.equipment_upgrade_help = {
 	}
 }
 
-_G.pg.gametip.equipment_upgrade_title = {
+_G.pg.base.gametip.equipment_upgrade_title = {
 	tip = "Upgrading "
 }
 
-_G.pg.gametip.equipment_upgrade_coin_consume = {
+_G.pg.base.gametip.equipment_upgrade_coin_consume = {
 	tip = "Cost"
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_source_chosen = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_source_chosen = {
 	tip = "Select Gear "
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_materials_consume = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_materials_consume = {
 	tip = "Cost: "
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_materials = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_materials = {
 	tip = "Insufficient materials "
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_equipment_consume = {
+_G.pg.base.gametip.equipment_upgrade_feedback_equipment_consume = {
 	tip = "The <color=#92fc63>$2</color> equipped by <color=#92fc63>$1</color> will be consumed during Gear R&D. "
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
+_G.pg.base.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
 	tip = "Insufficient gear. Please craft more in the Depot. "
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_feedback_source_chosen = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_feedback_source_chosen = {
 	tip = "Select Gear "
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_equipment = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_equipment = {
 	tip = "Insufficient gear. "
 }
 
-_G.pg.gametip.equipment_upgrade_equipped_unavailable = {
+_G.pg.base.gametip.equipment_upgrade_equipped_unavailable = {
 	tip = "<color=#92fc63>$2</color> was sent to the Depot because it cannot be equipped on <color=#92fc63>$1</color>. "
 }
 
-_G.pg.gametip.equipment_upgrade_initial_node = {
+_G.pg.base.gametip.equipment_upgrade_initial_node = {
 	tip = "This gear can't be created in Gear Lab "
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_compose_tip = {
+_G.pg.base.gametip.equipment_upgrade_feedback_compose_tip = {
 	tip = "Performing Gear R&D will expend the items required for the gear's construction. Continue?"
 }
 
-_G.pg.gametip.discount_coupon_tip = {
+_G.pg.base.gametip.discount_coupon_tip = {
 	tip = "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
 }
 
-_G.pg.gametip.pizzahut_help = {
+_G.pg.base.gametip.pizzahut_help = {
 	tip = {
 		{
 			info = [[
@@ -13950,7 +13950,7 @@ In this mode, you will be able to use any combination of ingredients.
 	}
 }
 
-_G.pg.gametip.towerclimbing_gametip = {
+_G.pg.base.gametip.towerclimbing_gametip = {
 	tip = {
 		{
 			info = [[
@@ -13967,7 +13967,7 @@ During the event, you will earn one Credit every day,up to a maximum of seven (7
 	}
 }
 
-_G.pg.gametip.qingdianguangchang_help = {
+_G.pg.base.gametip.qingdianguangchang_help = {
 	tip = {
 		{
 			info = [[
@@ -13990,19 +13990,19 @@ Manjuu Game Shop]]
 	}
 }
 
-_G.pg.gametip.building_tip = {
+_G.pg.base.gametip.building_tip = {
 	tip = "Insufficient building materials. Please complete <color=#92fc63>Event missions</color> to get more. "
 }
 
-_G.pg.gametip.building_upgrade_tip = {
+_G.pg.base.gametip.building_upgrade_tip = {
 	tip = "Are you sure you want to upgrade? Building materials will be consumed."
 }
 
-_G.pg.gametip.msgbox_text_upgrade = {
+_G.pg.base.gametip.msgbox_text_upgrade = {
 	tip = "Upgrade"
 }
 
-_G.pg.gametip.towerclimbing_sign_help = {
+_G.pg.base.gametip.towerclimbing_sign_help = {
 	tip = {
 		{
 			info = [[
@@ -14025,183 +14025,183 @@ any Credits, or give any rewards.]]
 	}
 }
 
-_G.pg.gametip.building_complete_tip = {
+_G.pg.base.gametip.building_complete_tip = {
 	tip = "Upgrade Complete "
 }
 
-_G.pg.gametip.backyard_theme_refresh_time_tip = {
+_G.pg.base.gametip.backyard_theme_refresh_time_tip = {
 	tip = "Please wait before refreshing"
 }
 
-_G.pg.gametip.backyard_theme_total_print = {
+_G.pg.base.gametip.backyard_theme_total_print = {
 	tip = "Total"
 }
 
-_G.pg.gametip.backyard_theme_shop_title = {
+_G.pg.base.gametip.backyard_theme_shop_title = {
 	tip = "Explore Loadouts"
 }
 
-_G.pg.gametip.backyard_theme_mine_title = {
+_G.pg.base.gametip.backyard_theme_mine_title = {
 	tip = "My Loadout"
 }
 
-_G.pg.gametip.backyard_theme_collection_title = {
+_G.pg.base.gametip.backyard_theme_collection_title = {
 	tip = "My Favorites"
 }
 
-_G.pg.gametip.backyard_theme_ban_upload_tip = {
+_G.pg.base.gametip.backyard_theme_ban_upload_tip = {
 	tip = "Your uploaded loadout has been reported, and you are not currently able to use the Upload feature\nBan time remaining: $1"
 }
 
-_G.pg.gametip.backyard_theme_upload_over_maxcnt = {
+_G.pg.base.gametip.backyard_theme_upload_over_maxcnt = {
 	tip = "Maximum number of uploaded loadouts exceeded.\nPlease delete old uploaded loadouts and try again."
 }
 
-_G.pg.gametip.backyard_theme_apply_tip1 = {
+_G.pg.base.gametip.backyard_theme_apply_tip1 = {
 	tip = "You do not own all the furniture for this loadout. Please continue arranging furniture or head to the Furniture Store."
 }
 
-_G.pg.gametip.backyard_theme_word_buy = {
+_G.pg.base.gametip.backyard_theme_word_buy = {
 	tip = "Buy"
 }
 
-_G.pg.gametip.backyard_theme_word_apply = {
+_G.pg.base.gametip.backyard_theme_word_apply = {
 	tip = "Apply"
 }
 
-_G.pg.gametip.backyard_theme_apply_success = {
+_G.pg.base.gametip.backyard_theme_apply_success = {
 	tip = "Loadout Saved"
 }
 
-_G.pg.gametip.backyard_theme_unload_success = {
+_G.pg.base.gametip.backyard_theme_unload_success = {
 	tip = "Upload Cancelled"
 }
 
-_G.pg.gametip.backyard_theme_upload_success = {
+_G.pg.base.gametip.backyard_theme_upload_success = {
 	tip = "Uploaded"
 }
 
-_G.pg.gametip.backyard_theme_delete_success = {
+_G.pg.base.gametip.backyard_theme_delete_success = {
 	tip = "Deleted"
 }
 
-_G.pg.gametip.backyard_theme_apply_tip2 = {
+_G.pg.base.gametip.backyard_theme_apply_tip2 = {
 	tip = "Are you sure you want to Quicksave this loadout?"
 }
 
-_G.pg.gametip.backyard_theme_upload_cnt = {
+_G.pg.base.gametip.backyard_theme_upload_cnt = {
 	tip = "Uploaded Loadouts: $1/$2"
 }
 
-_G.pg.gametip.backyard_theme_upload_time = {
+_G.pg.base.gametip.backyard_theme_upload_time = {
 	tip = "Upload Time:"
 }
 
-_G.pg.gametip.backyard_theme_word_like = {
+_G.pg.base.gametip.backyard_theme_word_like = {
 	tip = "Likes"
 }
 
-_G.pg.gametip.backyard_theme_word_collection = {
+_G.pg.base.gametip.backyard_theme_word_collection = {
 	tip = "Favorites"
 }
 
-_G.pg.gametip.backyard_theme_cancel_collection = {
+_G.pg.base.gametip.backyard_theme_cancel_collection = {
 	tip = "Are you sure you want to unfavorite this?"
 }
 
-_G.pg.gametip.backyard_theme_inform_them = {
+_G.pg.base.gametip.backyard_theme_inform_them = {
 	tip = "\nLoadout ID: $1"
 }
 
-_G.pg.gametip.open_backyard_theme_template_tip = {
+_G.pg.base.gametip.open_backyard_theme_template_tip = {
 	tip = "Furniture loadout templates are now available!"
 }
 
-_G.pg.gametip.backyard_theme_cancel_template_upload_tip = {
+_G.pg.base.gametip.backyard_theme_cancel_template_upload_tip = {
 	tip = "Are you sure you want to take down this uploaded loadout? Once taken down, you will lose all Likes and Favorites associated with that loadout."
 }
 
-_G.pg.gametip.backyard_theme_delete_themplate_tip = {
+_G.pg.base.gametip.backyard_theme_delete_themplate_tip = {
 	tip = "Are you sure you want to delete this loadout? Once deleted, you will lose all Likes and Favorites associated with that loadout."
 }
 
-_G.pg.gametip.backyard_theme_template_be_delete_tip = {
+_G.pg.base.gametip.backyard_theme_template_be_delete_tip = {
 	tip = "This loadout has already been deleted."
 }
 
-_G.pg.gametip.backyard_theme_template_collection_cnt_max = {
+_G.pg.base.gametip.backyard_theme_template_collection_cnt_max = {
 	tip = "Your favorite loadouts list is full!"
 }
 
-_G.pg.gametip.backyard_theme_template_collection_cnt = {
+_G.pg.base.gametip.backyard_theme_template_collection_cnt = {
 	tip = "Favorite Loadouts:"
 }
 
-_G.pg.gametip.words_visit_backyard_toggle = {
+_G.pg.base.gametip.words_visit_backyard_toggle = {
 	tip = "Allow friends to \nvisit your Dorm"
 }
 
-_G.pg.gametip.words_show_friend_backyardship_toggle = {
+_G.pg.base.gametip.words_show_friend_backyardship_toggle = {
 	tip = "Display the secretary \nof friends visiting your Dorm"
 }
 
-_G.pg.gametip.words_show_my_backyardship_toggle = {
+_G.pg.base.gametip.words_show_my_backyardship_toggle = {
 	tip = "Show your secretary \nship after visiting a friend's Dorm"
 }
 
-_G.pg.gametip.option_desc7 = {
+_G.pg.base.gametip.option_desc7 = {
 	tip = "When toggled on, allows your friends to visit your Dorm."
 }
 
-_G.pg.gametip.option_desc8 = {
+_G.pg.base.gametip.option_desc8 = {
 	tip = "When toggled on, displays the secretary of friends visiting your Dorm."
 }
 
-_G.pg.gametip.option_desc9 = {
+_G.pg.base.gametip.option_desc9 = {
 	tip = "When toggled on, your friends will be able to see your secretary ship after you visit their Dorm."
 }
 
-_G.pg.gametip.backyard_unopen = {
+_G.pg.base.gametip.backyard_unopen = {
 	tip = "Dorm has not been made public"
 }
 
-_G.pg.gametip.backyard_shop_refresh_frequently = {
+_G.pg.base.gametip.backyard_shop_refresh_frequently = {
 	tip = "You're tapping too rapidly. Please try again in $1 second(s)"
 }
 
-_G.pg.gametip.word_random = {
+_G.pg.base.gametip.word_random = {
 	tip = "Random"
 }
 
-_G.pg.gametip.word_hot = {
+_G.pg.base.gametip.word_hot = {
 	tip = "Hot"
 }
 
-_G.pg.gametip.word_new = {
+_G.pg.base.gametip.word_new = {
 	tip = "New"
 }
 
-_G.pg.gametip.backyard_decoration_theme_template_delete_tip = {
+_G.pg.base.gametip.backyard_decoration_theme_template_delete_tip = {
 	tip = "Are you sure you wish to delete this loadout? Likes and Favorites will not be retained once deleted!"
 }
 
-_G.pg.gametip.backyard_not_found_theme_template = {
+_G.pg.base.gametip.backyard_not_found_theme_template = {
 	tip = "No corresponding loadout found."
 }
 
-_G.pg.gametip.backyard_apply_theme_template_erro = {
+_G.pg.base.gametip.backyard_apply_theme_template_erro = {
 	tip = "Failed to apply loadout."
 }
 
-_G.pg.gametip.backyard_theme_template_list_is_empty = {
+_G.pg.base.gametip.backyard_theme_template_list_is_empty = {
 	tip = "No usable furniture."
 }
 
-_G.pg.gametip.BackYard_collection_be_delete_tip = {
+_G.pg.base.gametip.BackYard_collection_be_delete_tip = {
 	tip = "Some loadouts have been removed your favorites due to deletion by their uploaders. "
 }
 
-_G.pg.gametip.help_monopoly_car = {
+_G.pg.base.gametip.help_monopoly_car = {
 	tip = {
 		{
 			info = "Event Rules:"
@@ -14265,7 +14265,7 @@ _G.pg.gametip.help_monopoly_car = {
 	}
 }
 
-_G.pg.gametip.help_monopoly_3th = {
+_G.pg.base.gametip.help_monopoly_3th = {
 	tip = {
 		{
 			info = "Event Duration: <color=#92fc63>1/27/2022 – 2/9/2022</color>"
@@ -14284,319 +14284,319 @@ _G.pg.gametip.help_monopoly_3th = {
 	}
 }
 
-_G.pg.gametip.backYard_missing_furnitrue_tip = {
+_G.pg.base.gametip.backYard_missing_furnitrue_tip = {
 	tip = "Missing these items "
 }
 
-_G.pg.gametip.win_condition_display_qijian = {
+_G.pg.base.gametip.win_condition_display_qijian = {
 	tip = "Defeat the enemy boss fleet."
 }
 
-_G.pg.gametip.win_condition_display_qijian_tip = {
+_G.pg.base.gametip.win_condition_display_qijian_tip = {
 	tip = "Boss defeated! Stage complete."
 }
 
-_G.pg.gametip.win_condition_display_shangchuan = {
+_G.pg.base.gametip.win_condition_display_shangchuan = {
 	tip = "The transport ship arrives at the designated location."
 }
 
-_G.pg.gametip.win_condition_display_shangchuan_tip = {
+_G.pg.base.gametip.win_condition_display_shangchuan_tip = {
 	tip = "The cargo ship has safely reached its destination. Mission complete! "
 }
 
-_G.pg.gametip.win_condition_display_judian = {
+_G.pg.base.gametip.win_condition_display_judian = {
 	tip = "Destroy all enemy bases."
 }
 
-_G.pg.gametip.win_condition_display_tuoli = {
+_G.pg.base.gametip.win_condition_display_tuoli = {
 	tip = "Any fleet reaches the escape point."
 }
 
-_G.pg.gametip.win_condition_display_tuoli_tip = {
+_G.pg.base.gametip.win_condition_display_tuoli_tip = {
 	tip = "You've stepped on an escape tile. "
 }
 
-_G.pg.gametip.lose_condition_display_quanmie = {
+_G.pg.base.gametip.lose_condition_display_quanmie = {
 	tip = "All your fleets are defeated."
 }
 
-_G.pg.gametip.lose_condition_display_gangqu = {
+_G.pg.base.gametip.lose_condition_display_gangqu = {
 	tip = "All your fleets are defeated, or the port's health reaches 0."
 }
 
-_G.pg.gametip.re_battle = {
+_G.pg.base.gametip.re_battle = {
 	tip = "Retry "
 }
 
-_G.pg.gametip.keep_fate_tip = {
+_G.pg.base.gametip.keep_fate_tip = {
 	tip = "Reserve Blueprints required for <color=#92fc63>Fate Simulation</color>"
 }
 
-_G.pg.gametip.equip_info_1 = {
+_G.pg.base.gametip.equip_info_1 = {
 	tip = "DMG"
 }
 
-_G.pg.gametip.equip_info_2 = {
+_G.pg.base.gametip.equip_info_2 = {
 	tip = "Base RoF"
 }
 
-_G.pg.gametip.equip_info_3 = {
+_G.pg.base.gametip.equip_info_3 = {
 	tip = "Effective RoF"
 }
 
-_G.pg.gametip.equip_info_4 = {
+_G.pg.base.gametip.equip_info_4 = {
 	tip = "Skill"
 }
 
-_G.pg.gametip.equip_info_5 = {
+_G.pg.base.gametip.equip_info_5 = {
 	tip = "Ammo Type"
 }
 
-_G.pg.gametip.equip_info_6 = {
+_G.pg.base.gametip.equip_info_6 = {
 	tip = "Shell Velocity"
 }
 
-_G.pg.gametip.equip_info_7 = {
+_G.pg.base.gametip.equip_info_7 = {
 	tip = "Torp Speed"
 }
 
-_G.pg.gametip.equip_info_8 = {
+_G.pg.base.gametip.equip_info_8 = {
 	tip = "Armor Mod."
 }
 
-_G.pg.gametip.equip_info_9 = {
+_G.pg.base.gametip.equip_info_9 = {
 	tip = "Area of Effect"
 }
 
-_G.pg.gametip.equip_info_10 = {
+_G.pg.base.gametip.equip_info_10 = {
 	tip = "AA Range"
 }
 
-_G.pg.gametip.equip_info_11 = {
+_G.pg.base.gametip.equip_info_11 = {
 	tip = "AA Angle"
 }
 
-_G.pg.gametip.equip_info_12 = {
+_G.pg.base.gametip.equip_info_12 = {
 	tip = "Spread Range"
 }
 
-_G.pg.gametip.equip_info_13 = {
+_G.pg.base.gametip.equip_info_13 = {
 	tip = "Specialty"
 }
 
-_G.pg.gametip.equip_info_14 = {
+_G.pg.base.gametip.equip_info_14 = {
 	tip = "Gear Properties"
 }
 
-_G.pg.gametip.equip_info_15 = {
+_G.pg.base.gametip.equip_info_15 = {
 	tip = "Eff. Range"
 }
 
-_G.pg.gametip.equip_info_16 = {
+_G.pg.base.gametip.equip_info_16 = {
 	tip = "Firing Angle"
 }
 
-_G.pg.gametip.equip_info_17 = {
+_G.pg.base.gametip.equip_info_17 = {
 	tip = "Shell Range"
 }
 
-_G.pg.gametip.equip_info_18 = {
+_G.pg.base.gametip.equip_info_18 = {
 	tip = "Spread Angle"
 }
 
-_G.pg.gametip.equip_info_19 = {
+_G.pg.base.gametip.equip_info_19 = {
 	tip = "Faction"
 }
 
-_G.pg.gametip.equip_info_20 = {
+_G.pg.base.gametip.equip_info_20 = {
 	tip = "Plane Speed"
 }
 
-_G.pg.gametip.equip_info_21 = {
+_G.pg.base.gametip.equip_info_21 = {
 	tip = "Plane HP"
 }
 
-_G.pg.gametip.equip_info_22 = {
+_G.pg.base.gametip.equip_info_22 = {
 	tip = "Max Plane Eva."
 }
 
-_G.pg.gametip.equip_info_23 = {
+_G.pg.base.gametip.equip_info_23 = {
 	tip = "Equippable by"
 }
 
-_G.pg.gametip.equip_info_24 = {
+_G.pg.base.gametip.equip_info_24 = {
 	tip = "Armaments"
 }
 
-_G.pg.gametip.equip_info_25 = {
+_G.pg.base.gametip.equip_info_25 = {
 	tip = ""
 }
 
-_G.pg.gametip.equip_info_26 = {
+_G.pg.base.gametip.equip_info_26 = {
 	tip = "After Upgrade"
 }
 
-_G.pg.gametip.equip_info_27 = {
+_G.pg.base.gametip.equip_info_27 = {
 	tip = ""
 }
 
-_G.pg.gametip.equip_info_28 = {
+_G.pg.base.gametip.equip_info_28 = {
 	tip = "Damage Modifier "
 }
 
-_G.pg.gametip.equip_info_29 = {
+_G.pg.base.gametip.equip_info_29 = {
 	tip = "???"
 }
 
-_G.pg.gametip.equip_info_30 = {
+_G.pg.base.gametip.equip_info_30 = {
 	tip = "???"
 }
 
-_G.pg.gametip.equip_info_31 = {
+_G.pg.base.gametip.equip_info_31 = {
 	tip = "FR "
 }
 
-_G.pg.gametip.equip_info_extralevel_0 = {
+_G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "Level 0"
 }
 
-_G.pg.gametip.equip_info_extralevel_1 = {
+_G.pg.base.gametip.equip_info_extralevel_1 = {
 	tip = "Level 1"
 }
 
-_G.pg.gametip.equip_info_extralevel_2 = {
+_G.pg.base.gametip.equip_info_extralevel_2 = {
 	tip = "Level 2"
 }
 
-_G.pg.gametip.equip_info_extralevel_3 = {
+_G.pg.base.gametip.equip_info_extralevel_3 = {
 	tip = "Level 3"
 }
 
-_G.pg.gametip.tec_settings_btn_word = {
+_G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "Research Focus"
 }
 
-_G.pg.gametip.tec_tendency_0 = {
+_G.pg.base.gametip.tec_tendency_0 = {
 	tip = "No Focus"
 }
 
-_G.pg.gametip.tec_tendency_1 = {
+_G.pg.base.gametip.tec_tendency_1 = {
 	tip = "PR1 Focus"
 }
 
-_G.pg.gametip.tec_tendency_2 = {
+_G.pg.base.gametip.tec_tendency_2 = {
 	tip = "PR2 Focus"
 }
 
-_G.pg.gametip.tec_tendency_3 = {
+_G.pg.base.gametip.tec_tendency_3 = {
 	tip = "PR3 Focus"
 }
 
-_G.pg.gametip.tec_tendency_4 = {
+_G.pg.base.gametip.tec_tendency_4 = {
 	tip = "PR4 Focus"
 }
 
-_G.pg.gametip.tec_tendency_cur_0 = {
+_G.pg.base.gametip.tec_tendency_cur_0 = {
 	tip = "Research Focus \no Focus "
 }
 
-_G.pg.gametip.tec_tendency_cur_1 = {
+_G.pg.base.gametip.tec_tendency_cur_1 = {
 	tip = "Research Focus / Series 1"
 }
 
-_G.pg.gametip.tec_tendency_cur_2 = {
+_G.pg.base.gametip.tec_tendency_cur_2 = {
 	tip = "Research Focus / Series 2"
 }
 
-_G.pg.gametip.tec_tendency_cur_3 = {
+_G.pg.base.gametip.tec_tendency_cur_3 = {
 	tip = "Research Focus / Series 3"
 }
 
-_G.pg.gametip.tec_target_catchup_none = {
+_G.pg.base.gametip.tec_target_catchup_none = {
 	tip = "Research Focus / Not Selected "
 }
 
-_G.pg.gametip.tec_target_catchup_selected = {
+_G.pg.base.gametip.tec_target_catchup_selected = {
 	tip = "Research Focus"
 }
 
-_G.pg.gametip.tec_tendency_cur_4 = {
+_G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "Research Focus / Series 4"
 }
 
-_G.pg.gametip.tec_target_catchup_none_1 = {
+_G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "PR1 / Not Selected"
 }
 
-_G.pg.gametip.tec_target_catchup_none_2 = {
+_G.pg.base.gametip.tec_target_catchup_none_2 = {
 	tip = "PR2 / Not Selected"
 }
 
-_G.pg.gametip.tec_target_catchup_none_3 = {
+_G.pg.base.gametip.tec_target_catchup_none_3 = {
 	tip = "PR3 / Not Selected"
 }
 
-_G.pg.gametip.tec_target_catchup_selected_1 = {
+_G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "PR1 / Selected"
 }
 
-_G.pg.gametip.tec_target_catchup_selected_2 = {
+_G.pg.base.gametip.tec_target_catchup_selected_2 = {
 	tip = "PR2 / Selected"
 }
 
-_G.pg.gametip.tec_target_catchup_selected_3 = {
+_G.pg.base.gametip.tec_target_catchup_selected_3 = {
 	tip = "PR3 / Selected"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_1 = {
+_G.pg.base.gametip.tec_target_catchup_finish_1 = {
 	tip = "PR1 / Complete"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_2 = {
+_G.pg.base.gametip.tec_target_catchup_finish_2 = {
 	tip = "PR2 / Complete"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_3 = {
+_G.pg.base.gametip.tec_target_catchup_finish_3 = {
 	tip = "PR3 / Complete"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_4 = {
+_G.pg.base.gametip.tec_target_catchup_finish_4 = {
 	tip = "PR4 / Complete"
 }
 
-_G.pg.gametip.tec_target_catchup_dr_finish_tip = {
+_G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
 	tip = "Catch-Up Complete"
 }
 
-_G.pg.gametip.tec_target_catchup_all_finish_tip = {
+_G.pg.base.gametip.tec_target_catchup_all_finish_tip = {
 	tip = "Catch-Up Complete"
 }
 
-_G.pg.gametip.tec_target_catchup_show_the_finished_version = {
+_G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
 	tip = "Show completed catch-ups"
 }
 
-_G.pg.gametip.tec_target_catchup_pry_char = {
+_G.pg.base.gametip.tec_target_catchup_pry_char = {
 	tip = "PR Ships"
 }
 
-_G.pg.gametip.tec_target_catchup_dr_char = {
+_G.pg.base.gametip.tec_target_catchup_dr_char = {
 	tip = "DR Ships"
 }
 
-_G.pg.gametip.tec_target_need_print = {
+_G.pg.base.gametip.tec_target_need_print = {
 	tip = "Required BPs:"
 }
 
-_G.pg.gametip.tec_target_catchup_progress = {
+_G.pg.base.gametip.tec_target_catchup_progress = {
 	tip = "Progress"
 }
 
-_G.pg.gametip.tec_target_catchup_select_tip = {
+_G.pg.base.gametip.tec_target_catchup_select_tip = {
 	tip = "Would you like to prioritize $1 Research?"
 }
 
-_G.pg.gametip.tec_target_catchup_help_tip = {
+_G.pg.base.gametip.tec_target_catchup_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -14614,131 +14614,131 @@ In the case of events which grant Blueprints, these are counted separately from 
 	}
 }
 
-_G.pg.gametip.tec_speedup_title = {
+_G.pg.base.gametip.tec_speedup_title = {
 	tip = "Accelerated Research "
 }
 
-_G.pg.gametip.tec_speedup_progress = {
+_G.pg.base.gametip.tec_speedup_progress = {
 	tip = "$10K/$20K "
 }
 
-_G.pg.gametip.tec_speedup_overflow = {
+_G.pg.base.gametip.tec_speedup_overflow = {
 	tip = "$1 excess EXP from this Data Pack will not be converted. Are you sure you want to use this Data Pack?"
 }
 
-_G.pg.gametip.tec_speedup_help_tip = {
+_G.pg.base.gametip.tec_speedup_help_tip = {
 	tip = "Accelerated Research allows you to convert Combat Data Packs into EXP progress towards Combat Data Collection Research missions.\nCombat Data Packs can be obtained through special missions."
 }
 
-_G.pg.gametip.click_back_tip = {
+_G.pg.base.gametip.click_back_tip = {
 	tip = "Tap to Return "
 }
 
-_G.pg.gametip.tech_catchup_sentence_pauses = {
+_G.pg.base.gametip.tech_catchup_sentence_pauses = {
 	tip = "—"
 }
 
-_G.pg.gametip.tec_act_catchup_btn_word = {
+_G.pg.base.gametip.tec_act_catchup_btn_word = {
 	tip = "Blueprint Boost"
 }
 
-_G.pg.gametip.tec_catchup_errorfix = {
+_G.pg.base.gametip.tec_catchup_errorfix = {
 	tip = "The special beginners' PR1 Research Missions will be reset once. (These missions will not be reset if you've already completed them 2 times)"
 }
 
-_G.pg.gametip.guild_duty_is_too_low = {
+_G.pg.base.gametip.guild_duty_is_too_low = {
 	tip = "Complete missions and donate materials to get 100 Guild Tokens."
 }
 
-_G.pg.gametip.guild_trainee_duty_change_tip = {
+_G.pg.base.gametip.guild_trainee_duty_change_tip = {
 	tip = "This action requires you to have 100 Guild Tokens."
 }
 
-_G.pg.gametip.guild_not_exist_donate_task = {
+_G.pg.base.gametip.guild_not_exist_donate_task = {
 	tip = "This mission no longer exists."
 }
 
-_G.pg.gametip.guild_week_task_state_is_wrong = {
+_G.pg.base.gametip.guild_week_task_state_is_wrong = {
 	tip = "Guild Mission status cannot be read."
 }
 
-_G.pg.gametip.guild_get_week_done = {
+_G.pg.base.gametip.guild_get_week_done = {
 	tip = "New Guild Missions have already been posted."
 }
 
-_G.pg.gametip.guild_public_awards = {
+_G.pg.base.gametip.guild_public_awards = {
 	tip = "Guild rewards:"
 }
 
-_G.pg.gametip.guild_private_awards = {
+_G.pg.base.gametip.guild_private_awards = {
 	tip = "Member rewards:"
 }
 
-_G.pg.gametip.guild_task_selecte_tip = {
+_G.pg.base.gametip.guild_task_selecte_tip = {
 	tip = "You are about to accept the following Guild Mission: $1. Once you've accepted it, you will not be able to change to another one for the rest of the week. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.guild_task_accept = {
+_G.pg.base.gametip.guild_task_accept = {
 	tip = "You are about to accept [$1]'s [$2], but you have already capped your individual contributions this week. Completing [$3] will not grant you <color=#FF5C5CFF>Guild Tokens</color>, but you will still be able to contribute to your Guild's <color=#92FC63FF>mission completion</color>. Continue?"
 }
 
-_G.pg.gametip.guild_commander_and_sub_op = {
+_G.pg.base.gametip.guild_commander_and_sub_op = {
 	tip = "Only the Guild Leader and Officers may carry out this action."
 }
 
-_G.pg.gametip["guild_donate_times_not enough"] = {
+_G.pg.base.gametip["guild_donate_times_not enough"] = {
 	tip = "Today’s contribution attempts have been used up."
 }
 
-_G.pg.gametip.guild_donate_success = {
+_G.pg.base.gametip.guild_donate_success = {
 	tip = "Successful contribution."
 }
 
-_G.pg.gametip.guild_left_donate_cnt = {
+_G.pg.base.gametip.guild_left_donate_cnt = {
 	tip = "Remaining daily contributions: $1"
 }
 
-_G.pg.gametip.guild_donate_tip = {
+_G.pg.base.gametip.guild_donate_tip = {
 	tip = "You are about to contribute <color=#92FC63FF>$2 $1</color> to the Guild (Currently held: <color=$4>$3</color>). Are you sure you want to continue?"
 }
 
-_G.pg.gametip.guild_donate_addition_capital_tip = {
+_G.pg.base.gametip.guild_donate_addition_capital_tip = {
 	tip = "Guild Funds increased by $1."
 }
 
-_G.pg.gametip.guild_donate_addition_techpoint_tip = {
+_G.pg.base.gametip.guild_donate_addition_techpoint_tip = {
 	tip = "Guild Contribution Level increased by $1."
 }
 
-_G.pg.gametip.guild_donate_capital_toplimit = {
+_G.pg.base.gametip.guild_donate_capital_toplimit = {
 	tip = "You are unable to contribute any more Guild Funds today. "
 }
 
-_G.pg.gametip.guild_donate_techpoint_toplimit = {
+_G.pg.base.gametip.guild_donate_techpoint_toplimit = {
 	tip = "You are unable to contribute any more Tech Points today. "
 }
 
-_G.pg.gametip.guild_supply_no_open = {
+_G.pg.base.gametip.guild_supply_no_open = {
 	tip = "Guild Supplies currently unavailable."
 }
 
-_G.pg.gametip.guild_supply_award_got = {
+_G.pg.base.gametip.guild_supply_award_got = {
 	tip = "Guild Supplies already collected."
 }
 
-_G.pg.gametip.guild_new_member_get_award_tip = {
+_G.pg.base.gametip.guild_new_member_get_award_tip = {
 	tip = "Guild Supplies are not available to new members until one day after joining the Guild."
 }
 
-_G.pg.gametip.guild_start_supply_consume_tip = {
+_G.pg.base.gametip.guild_start_supply_consume_tip = {
 	tip = "Spend $1 Guild Funds to purchase Guild Supplies?"
 }
 
-_G.pg.gametip.guild_left_supply_day = {
+_G.pg.base.gametip.guild_left_supply_day = {
 	tip = "$1 day(s) left"
 }
 
-_G.pg.gametip.guild_supply_help_tip = {
+_G.pg.base.gametip.guild_supply_help_tip = {
 	tip = {
 		{
 			info = "Supplies distributed by the Guild management. Contains the following items:"
@@ -14767,483 +14767,483 @@ _G.pg.gametip.guild_supply_help_tip = {
 	}
 }
 
-_G.pg.gametip.guild_op_only_administrator = {
+_G.pg.base.gametip.guild_op_only_administrator = {
 	tip = "Only the Guild Leader and Officers may carry out this action."
 }
 
-_G.pg.gametip.guild_shop_refresh_done = {
+_G.pg.base.gametip.guild_shop_refresh_done = {
 	tip = "Shop refreshed."
 }
 
-_G.pg.gametip.guild_shop_cnt_no_enough = {
+_G.pg.base.gametip.guild_shop_cnt_no_enough = {
 	tip = "You cannot purchase this."
 }
 
-_G.pg.gametip.guild_shop_refresh_all_tip = {
+_G.pg.base.gametip.guild_shop_refresh_all_tip = {
 	tip = "Would you like to spend $2 <color=#92fc63>$1</color><icon name=guildicon w=0.7 h=0.7/> to refresh the shop lineup?"
 }
 
-_G.pg.gametip.guild_shop_exchange_tip = {
+_G.pg.base.gametip.guild_shop_exchange_tip = {
 	tip = "Would you like to exchange for this item?"
 }
 
-_G.pg.gametip.guild_shop_label_1 = {
+_G.pg.base.gametip.guild_shop_label_1 = {
 	tip = "Select an item to exchange for："
 }
 
-_G.pg.gametip.guild_shop_label_2 = {
+_G.pg.base.gametip.guild_shop_label_2 = {
 	tip = "Stock"
 }
 
-_G.pg.gametip.guild_shop_label_3 = {
+_G.pg.base.gametip.guild_shop_label_3 = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.guild_shop_label_4 = {
+_G.pg.base.gametip.guild_shop_label_4 = {
 	tip = "Cost"
 }
 
-_G.pg.gametip.guild_shop_label_5 = {
+_G.pg.base.gametip.guild_shop_label_5 = {
 	tip = "Select an character to exchange for："
 }
 
-_G.pg.gametip.guild_shop_must_select_goods = {
+_G.pg.base.gametip.guild_shop_must_select_goods = {
 	tip = "Select an item to exchange for："
 }
 
-_G.pg.gametip.guild_not_exist_activation_tech = {
+_G.pg.base.gametip.guild_not_exist_activation_tech = {
 	tip = "There are no operational Guild Tech facilities."
 }
 
-_G.pg.gametip.guild_not_exist_tech = {
+_G.pg.base.gametip.guild_not_exist_tech = {
 	tip = "There are no Guild Tech facilities."
 }
 
-_G.pg.gametip.guild_cancel_only_once_pre_day = {
+_G.pg.base.gametip.guild_cancel_only_once_pre_day = {
 	tip = "A research target can only be changed once a day."
 }
 
-_G.pg.gametip.guild_tech_is_max_level = {
+_G.pg.base.gametip.guild_tech_is_max_level = {
 	tip = "This facility has reached the highest level."
 }
 
-_G.pg.gametip.guild_tech_gold_no_enough = {
+_G.pg.base.gametip.guild_tech_gold_no_enough = {
 	tip = "You lack the funds needed to upgrade this facility."
 }
 
-_G.pg.gametip.guild_tech_guildgold_no_enough = {
+_G.pg.base.gametip.guild_tech_guildgold_no_enough = {
 	tip = "You lack the Guild Tokens needed to upgrade this facility."
 }
 
-_G.pg.gametip.guild_tech_upgrade_done = {
+_G.pg.base.gametip.guild_tech_upgrade_done = {
 	tip = "Facility's level has increased."
 }
 
-_G.pg.gametip.guild_exist_activation_tech = {
+_G.pg.base.gametip.guild_exist_activation_tech = {
 	tip = "You can only upgrade one facility at a time."
 }
 
-_G.pg.gametip.guild_tech_gold_desc = {
+_G.pg.base.gametip.guild_tech_gold_desc = {
 	tip = "Coins Storage Cap +$1"
 }
 
-_G.pg.gametip.guild_tech_oil_desc = {
+_G.pg.base.gametip.guild_tech_oil_desc = {
 	tip = "Oil Storage Cap +$1"
 }
 
-_G.pg.gametip.guild_tech_shipbag_desc = {
+_G.pg.base.gametip.guild_tech_shipbag_desc = {
 	tip = "Dock Slots +$1"
 }
 
-_G.pg.gametip.guild_tech_equipbag_desc = {
+_G.pg.base.gametip.guild_tech_equipbag_desc = {
 	tip = "Warehouse Slots +$1"
 }
 
-_G.pg.gametip.guild_box_gold_desc = {
+_G.pg.base.gametip.guild_box_gold_desc = {
 	tip = "Cat Box Cost -$1"
 }
 
-_G.pg.gametip.guidl_r_box_time_desc = {
+_G.pg.base.gametip.guidl_r_box_time_desc = {
 	tip = "Rare Cat Box Training Time -$1"
 }
 
-_G.pg.gametip.guidl_sr_box_time_desc = {
+_G.pg.base.gametip.guidl_sr_box_time_desc = {
 	tip = "Elite Cat Box Training Time -$2"
 }
 
-_G.pg.gametip.guidl_ssr_box_time_desc = {
+_G.pg.base.gametip.guidl_ssr_box_time_desc = {
 	tip = "Super Rare Cat Box Training Time -$3"
 }
 
-_G.pg.gametip.guild_member_max_cnt_desc = {
+_G.pg.base.gametip.guild_member_max_cnt_desc = {
 	tip = "Guild Roster Size +$1"
 }
 
-_G.pg.gametip.guild_tech_livness_no_enough = {
+_G.pg.base.gametip.guild_tech_livness_no_enough = {
 	tip = "This facility's upgrade cost is increased because you currently need <color=#ff5c5c>$1</color> more Guild Contribution points. Do you want to continue with the facility upgrade?"
 }
 
-_G.pg.gametip.guild_tech_livness_no_enough_label = {
+_G.pg.base.gametip.guild_tech_livness_no_enough_label = {
 	tip = "Buildable at $1 Guild Tokens"
 }
 
-_G.pg.gametip.guild_ship_attr_desc = {
+_G.pg.base.gametip.guild_ship_attr_desc = {
 	tip = "The Guild's $1 has $2 when $3 during operations."
 }
 
-_G.pg.gametip.guild_start_tech_group_tip = {
+_G.pg.base.gametip.guild_start_tech_group_tip = {
 	tip = "You are about to begin researching $1. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.guild_cancel_tech_tip = {
+_G.pg.base.gametip.guild_cancel_tech_tip = {
 	tip = "You are about to stop developing $1 (progress will be retained). Are you sure you want to stop? "
 }
 
-_G.pg.gametip.guild_tech_consume_tip = {
+_G.pg.base.gametip.guild_tech_consume_tip = {
 	tip = "Upgrading $3 will cost $1<icon name=guildicon w=0.7 h=0.7/> and $2<icon name=gold w=0.7 h=0.7/>. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.guild_tech_non_admin = {
+_G.pg.base.gametip.guild_tech_non_admin = {
 	tip = "Only the Guild Leader and Officers may carry out this action."
 }
 
-_G.pg.gametip.guild_tech_label_max_level = {
+_G.pg.base.gametip.guild_tech_label_max_level = {
 	tip = "Level Cap:"
 }
 
-_G.pg.gametip.guild_tech_label_dev_progress = {
+_G.pg.base.gametip.guild_tech_label_dev_progress = {
 	tip = "Progress:"
 }
 
-_G.pg.gametip.guild_tech_label_condition = {
+_G.pg.base.gametip.guild_tech_label_condition = {
 	tip = "New progress milestone has been reached."
 }
 
-_G.pg.gametip.guild_tech_donate_target = {
+_G.pg.base.gametip.guild_tech_donate_target = {
 	tip = "You must attain $1 progress first."
 }
 
-_G.pg.gametip.guild_not_exist = {
+_G.pg.base.gametip.guild_not_exist = {
 	tip = "This Guild does not exist."
 }
 
-_G.pg.gametip.guild_not_exist_battle = {
+_G.pg.base.gametip.guild_not_exist_battle = {
 	tip = "This Guild Operation has never occurred."
 }
 
-_G.pg.gametip.guild_battle_is_end = {
+_G.pg.base.gametip.guild_battle_is_end = {
 	tip = "This Guild Operation has aleady ended."
 }
 
-_G.pg.gametip.guild_battle_is_exist = {
+_G.pg.base.gametip.guild_battle_is_exist = {
 	tip = "A Guild Operation is already in progress."
 }
 
-_G.pg.gametip.guild_guildgold_no_enough_for_battle = {
+_G.pg.base.gametip.guild_guildgold_no_enough_for_battle = {
 	tip = "There are not enough Guild Funds to commence a Guild Operation."
 }
 
-_G.pg.gametip.guild_event_start_tip1 = {
+_G.pg.base.gametip.guild_event_start_tip1 = {
 	tip = "A new Guild Operation has been started. Press the button to refresh this screen."
 }
 
-_G.pg.gametip.guild_event_start_tip2 = {
+_G.pg.base.gametip.guild_event_start_tip2 = {
 	tip = "A new Guild Operation could not be started as another one is already in progress."
 }
 
-_G.pg.gametip.guild_word_may_happen_event = {
+_G.pg.base.gametip.guild_word_may_happen_event = {
 	tip = "Possible Events"
 }
 
-_G.pg.gametip.guild_battle_award = {
+_G.pg.base.gametip.guild_battle_award = {
 	tip = "Rewards:"
 }
 
-_G.pg.gametip.guild_word_consume = {
+_G.pg.base.gametip.guild_word_consume = {
 	tip = "Cost:"
 }
 
-_G.pg.gametip.guild_start_event_consume_tip = {
+_G.pg.base.gametip.guild_start_event_consume_tip = {
 	tip = "Would you like to spend $1 Guild Funds and commence $2?"
 }
 
-_G.pg.gametip.guild_start_event_consume_tip_extra = {
+_G.pg.base.gametip.guild_start_event_consume_tip_extra = {
 	tip = "The Guild has launched <color=#ff5c5c>$3</color> operations this month. Do you want to spend $1 to commence operation $2? "
 }
 
-_G.pg.gametip.guild_word_consume_for_battle = {
+_G.pg.base.gametip.guild_word_consume_for_battle = {
 	tip = "Cost: "
 }
 
-_G.pg.gametip.guild_level_no_enough = {
+_G.pg.base.gametip.guild_level_no_enough = {
 	tip = "The Guild does not meet the level requirement to start a Guild Operation."
 }
 
-_G.pg.gametip.guild_open_event_info_when_exist_active = {
+_G.pg.base.gametip.guild_open_event_info_when_exist_active = {
 	tip = "The current operation cannot be changed because $1 is in progress."
 }
 
-_G.pg.gametip.guild_join_event_cnt_label = {
+_G.pg.base.gametip.guild_join_event_cnt_label = {
 	tip = "Monthly Attempts Available:"
 }
 
-_G.pg.gametip.guild_join_event_max_cnt_tip = {
+_G.pg.base.gametip.guild_join_event_max_cnt_tip = {
 	tip = "Insufficient number of attempts."
 }
 
-_G.pg.gametip.guild_join_event_progress_label = {
+_G.pg.base.gametip.guild_join_event_progress_label = {
 	tip = "Progress:"
 }
 
-_G.pg.gametip.guild_join_event_exist_finished_mission_tip = {
+_G.pg.base.gametip.guild_join_event_exist_finished_mission_tip = {
 	tip = "This operation is already in progress. If you join now, you will be unable to claim the rewards from already completed operation events. \nAre you sure you want to join?"
 }
 
-_G.pg.gametip.guild_event_not_exist = {
+_G.pg.base.gametip.guild_event_not_exist = {
 	tip = "This Guild Event no longer exists."
 }
 
-_G.pg.gametip.guild_fleet_can_not_edit = {
+_G.pg.base.gametip.guild_fleet_can_not_edit = {
 	tip = "Guild Fleet composition cannot be changed."
 }
 
-_G.pg.gametip.guild_fleet_exist_same_kind_ship = {
+_G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
 	tip = "This ship is already supporting this Guild Operation. "
 }
 
-_G.pg.gametip.guild_event_exist_same_kind_ship = {
+_G.pg.base.gametip.guild_event_exist_same_kind_ship = {
 	tip = "Guild Fleet composition cannot be changed as there are 2 of the same ship."
 }
 
-_G.pg.gametip.guidl_event_ship_in_event = {
+_G.pg.base.gametip.guidl_event_ship_in_event = {
 	tip = "This ship is assigned to another mission and cannot be used."
 }
 
-_G.pg.gametip.guild_event_start_done = {
+_G.pg.base.gametip.guild_event_start_done = {
 	tip = "Successfully Dispatched "
 }
 
-_G.pg.gametip.guild_fleet_update_done = {
+_G.pg.base.gametip.guild_fleet_update_done = {
 	tip = "Fleet composition has been updated."
 }
 
-_G.pg.gametip.guild_event_is_lock = {
+_G.pg.base.gametip.guild_event_is_lock = {
 	tip = "This Guild Event is unavailable."
 }
 
-_G.pg.gametip.guild_event_is_finish = {
+_G.pg.base.gametip.guild_event_is_finish = {
 	tip = "The Guild Event has concluded. Head to Action Report to claim your rewards."
 }
 
-_G.pg.gametip.guild_fleet_not_save_tip = {
+_G.pg.base.gametip.guild_fleet_not_save_tip = {
 	tip = "The fleet formation has not been updated. Return to the previous screen?"
 }
 
-_G.pg.gametip.guild_word_battle_area = {
+_G.pg.base.gametip.guild_word_battle_area = {
 	tip = "Zone:"
 }
 
-_G.pg.gametip.guild_word_battle_type = {
+_G.pg.base.gametip.guild_word_battle_type = {
 	tip = "Type:"
 }
 
-_G.pg.gametip.guild_wrod_battle_target = {
+_G.pg.base.gametip.guild_wrod_battle_target = {
 	tip = "Objectives:"
 }
 
-_G.pg.gametip.guild_event_recomm_ship_failed = {
+_G.pg.base.gametip.guild_event_recomm_ship_failed = {
 	tip = "There are no ships that meet the conditions."
 }
 
-_G.pg.gametip.guild_event_start_event_tip = {
+_G.pg.base.gametip.guild_event_start_event_tip = {
 	tip = "Once dispatched, you will not be able to change this formation until the operation ends. Would you like to continue?"
 }
 
-_G.pg.gametip.guild_word_sea = {
+_G.pg.base.gametip.guild_word_sea = {
 	tip = "Zone "
 }
 
-_G.pg.gametip.guild_word_score_addition = {
+_G.pg.base.gametip.guild_word_score_addition = {
 	tip = "Rating Increased:"
 }
 
-_G.pg.gametip.guild_word_effect_addition = {
+_G.pg.base.gametip.guild_word_effect_addition = {
 	tip = "Efficiency Increased:"
 }
 
-_G.pg.gametip.guild_curr_fleet_can_not_edit = {
+_G.pg.base.gametip.guild_curr_fleet_can_not_edit = {
 	tip = "Fleet formation cannot be changed."
 }
 
-_G.pg.gametip.guild_next_edit_fleet_time = {
+_G.pg.base.gametip.guild_next_edit_fleet_time = {
 	tip = "A new dispatch can be issued in $1."
 }
 
-_G.pg.gametip.guild_event_info_desc1 = {
+_G.pg.base.gametip.guild_event_info_desc1 = {
 	tip = "The combined $1 of the $5 ships participating in this Guild Event must be at least $2: <color=$3>$4/$5</color>"
 }
 
-_G.pg.gametip.guild_event_info_desc2 = {
+_G.pg.base.gametip.guild_event_info_desc2 = {
 	tip = "Total combined $1: <color=$2>$3/$4</color>"
 }
 
-_G.pg.gametip.guild_join_member_cnt = {
+_G.pg.base.gametip.guild_join_member_cnt = {
 	tip = "Participants:"
 }
 
-_G.pg.gametip.guild_total_effect = {
+_G.pg.base.gametip.guild_total_effect = {
 	tip = "Total Efficiency:"
 }
 
-_G.pg.gametip.guild_word_people = {
+_G.pg.base.gametip.guild_word_people = {
 	tip = ""
 }
 
-_G.pg.gametip.guild_event_info_desc3 = {
+_G.pg.base.gametip.guild_event_info_desc3 = {
 	tip = "$1 ships (now: $2)"
 }
 
-_G.pg.gametip.guild_not_exist_boss = {
+_G.pg.base.gametip.guild_not_exist_boss = {
 	tip = "No data on this boss exists."
 }
 
-_G.pg.gametip.guild_ship_from = {
+_G.pg.base.gametip.guild_ship_from = {
 	tip = "from:"
 }
 
-_G.pg.gametip.guild_boss_formation_1 = {
+_G.pg.base.gametip.guild_boss_formation_1 = {
 	tip = "Up to 3 support ships belonging to players from your Guild can be chosen."
 }
 
-_G.pg.gametip.guild_boss_formation_2 = {
+_G.pg.base.gametip.guild_boss_formation_2 = {
 	tip = "1 support ship from this guild member's list can be chosen."
 }
 
-_G.pg.gametip.guild_boss_formation_3 = {
+_G.pg.base.gametip.guild_boss_formation_3 = {
 	tip = "You cannot select 2 of the same ship."
 }
 
-_G.pg.gametip.guild_boss_cnt_no_enough = {
+_G.pg.base.gametip.guild_boss_cnt_no_enough = {
 	tip = "Insufficient challenge attempts remaining."
 }
 
-_G.pg.gametip.guild_boss_fleet_cnt_invaild = {
+_G.pg.base.gametip.guild_boss_fleet_cnt_invaild = {
 	tip = "There was an error in your fleet formation. "
 }
 
-_G.pg.gametip.guild_boss_formation_not_exist_self_ship = {
+_G.pg.base.gametip.guild_boss_formation_not_exist_self_ship = {
 	tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 of your own ships."
 }
 
-_G.pg.gametip.guild_boss_formation_exist_event_ship = {
+_G.pg.base.gametip.guild_boss_formation_exist_event_ship = {
 	tip = "$1 is out on a commission and cannot join the boss battle. "
 }
 
-_G.pg.gametip.guild_fleet_is_legal = {
+_G.pg.base.gametip.guild_fleet_is_legal = {
 	tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 ship."
 }
 
-_G.pg.gametip.guild_battle_result_boss_is_death = {
+_G.pg.base.gametip.guild_battle_result_boss_is_death = {
 	tip = "This boss battle has already ended. "
 }
 
-_G.pg.gametip.guild_must_edit_fleet = {
+_G.pg.base.gametip.guild_must_edit_fleet = {
 	tip = "Updated Support Fleet list."
 }
 
-_G.pg.gametip.guild_ship_in_battle = {
+_G.pg.base.gametip.guild_ship_in_battle = {
 	tip = "$1 is in a battle. The support ship list will be updated once the battle ends."
 }
 
-_G.pg.gametip.guild_ship_in_assult_fleet = {
+_G.pg.base.gametip.guild_ship_in_assult_fleet = {
 	tip = "This ship is already in your Support Fleet."
 }
 
-_G.pg.gametip.guild_event_exist_assult_ship = {
+_G.pg.base.gametip.guild_event_exist_assult_ship = {
 	tip = "The chosen support ship cannot participate in this Guild Event."
 }
 
-_G.pg.gametip.guild_formation_erro_in_boss_battle = {
+_G.pg.base.gametip.guild_formation_erro_in_boss_battle = {
 	tip = "The support ship cannot be changed as a boss battle is taking place."
 }
 
-_G.pg.gametip.guild_get_report_failed = {
+_G.pg.base.gametip.guild_get_report_failed = {
 	tip = "Failed to read Action Report data."
 }
 
-_G.pg.gametip.guild_report_get_all = {
+_G.pg.base.gametip.guild_report_get_all = {
 	tip = "Claim All"
 }
 
-_G.pg.gametip.guild_can_not_get_tip = {
+_G.pg.base.gametip.guild_can_not_get_tip = {
 	tip = "You cannot claim rewards as you did not participate in this Guild Event."
 }
 
-_G.pg.gametip.guild_not_exist_notifycation = {
+_G.pg.base.gametip.guild_not_exist_notifycation = {
 	tip = "There is are no entries on the Guild's message board."
 }
 
-_G.pg.gametip.guild_exist_report_award_when_exit = {
+_G.pg.base.gametip.guild_exist_report_award_when_exit = {
 	tip = "You still have unclaimed Guild rewards. Would you like to go claim them? "
 }
 
-_G.pg.gametip.guild_report_tooltip = {
+_G.pg.base.gametip.guild_report_tooltip = {
 	tip = "Only 20 rewards can be stored on the Action Report screen. When this amount is surpassed, unclaimed rewards will start being replaced in chronological order."
 }
 
-_G.pg.gametip.word_guildgold = {
+_G.pg.base.gametip.word_guildgold = {
 	tip = "Guild Tokens"
 }
 
-_G.pg.gametip.guild_member_rank_title_donate = {
+_G.pg.base.gametip.guild_member_rank_title_donate = {
 	tip = "Contributions"
 }
 
-_G.pg.gametip.guild_member_rank_title_finish_cnt = {
+_G.pg.base.gametip.guild_member_rank_title_finish_cnt = {
 	tip = "Completions"
 }
 
-_G.pg.gametip.guild_member_rank_title_join_cnt = {
+_G.pg.base.gametip.guild_member_rank_title_join_cnt = {
 	tip = "Participations"
 }
 
-_G.pg.gametip.guild_donate_log = {
+_G.pg.base.gametip.guild_donate_log = {
 	tip = "$1 $2 spent $4 $3 and completed a Contribution Mission. Guild Funds increased by $5."
 }
 
-_G.pg.gametip.guild_supply_log = {
+_G.pg.base.gametip.guild_supply_log = {
 	tip = "$1 $2 spent $3 Guild Funds and bought Guild Supplies for $4 day(s)."
 }
 
-_G.pg.gametip.guild_weektask_log = {
+_G.pg.base.gametip.guild_weektask_log = {
 	tip = "Guild Mission $1 has been completed. Guild Funds increased by $2."
 }
 
-_G.pg.gametip.guild_battle_log = {
+_G.pg.base.gametip.guild_battle_log = {
 	tip = "$1 $2 spent $3 Guild Funds and commenced a Guild Battle."
 }
 
-_G.pg.gametip.guild_tech_change_log = {
+_G.pg.base.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 has changed Guild Tech development to $3. "
 }
 
-_G.pg.gametip.guild_log_title = {
+_G.pg.base.gametip.guild_log_title = {
 	tip = "Guild Log"
 }
 
-_G.pg.gametip.guild_use_donateitem_success = {
+_G.pg.base.gametip.guild_use_donateitem_success = {
 	tip = "Contribution attempts restored by +$1."
 }
 
-_G.pg.gametip.guild_use_battleitem_success = {
+_G.pg.base.gametip.guild_use_battleitem_success = {
 	tip = "Guild Operation participations restored by +$1."
 }
 
-_G.pg.gametip.not_exist_guild_use_item = {
+_G.pg.base.gametip.not_exist_guild_use_item = {
 	tip = "This item cannot be used as you are not in a Guild. "
 }
 
-_G.pg.gametip.guild_member_tip = {
+_G.pg.base.gametip.guild_member_tip = {
 	tip = {
 		{
 			info = "- User Management Info:"
@@ -15308,7 +15308,7 @@ _G.pg.gametip.guild_member_tip = {
 	}
 }
 
-_G.pg.gametip.guild_tech_tip = {
+_G.pg.base.gametip.guild_tech_tip = {
 	tip = {
 		{
 			info = "- Guild Tech Info:\n"
@@ -15353,7 +15353,7 @@ The number of progress increments that can be made in one day is determined by t
 	}
 }
 
-_G.pg.gametip.guild_office_tip = {
+_G.pg.base.gametip.guild_office_tip = {
 	tip = {
 		{
 			info = "About Guild Logistics:"
@@ -15406,7 +15406,7 @@ _G.pg.gametip.guild_office_tip = {
 	}
 }
 
-_G.pg.gametip.guild_event_help_tip = {
+_G.pg.base.gametip.guild_event_help_tip = {
 	tip = {
 		{
 			info = "Guild Operations Info:\n\n"
@@ -15468,7 +15468,7 @@ _G.pg.gametip.guild_event_help_tip = {
 	}
 }
 
-_G.pg.gametip.guild_mission_info_tip = {
+_G.pg.base.gametip.guild_mission_info_tip = {
 	tip = {
 		{
 			info = "1. Completing a Guild Event:"
@@ -15494,7 +15494,7 @@ _G.pg.gametip.guild_mission_info_tip = {
 	}
 }
 
-_G.pg.gametip.guild_public_tech_tip = {
+_G.pg.base.gametip.guild_public_tech_tip = {
 	tip = {
 		{
 			info = "Public Guild Tech Info:："
@@ -15514,7 +15514,7 @@ _G.pg.gametip.guild_public_tech_tip = {
 	}
 }
 
-_G.pg.gametip.guild_public_office_tip = {
+_G.pg.base.gametip.guild_public_office_tip = {
 	tip = {
 		{
 			info = "Contributing Materials Info:"
@@ -15528,11 +15528,11 @@ _G.pg.gametip.guild_public_office_tip = {
 	}
 }
 
-_G.pg.gametip.guild_tech_price_inc_tip = {
+_G.pg.base.gametip.guild_tech_price_inc_tip = {
 	tip = "This facility's upgrade cost is increased as you do not meet the <color=#92fc63>Guild Tech</color> leveling criteria. Do you want to continue with the facility upgrade?"
 }
 
-_G.pg.gametip.guild_boss_fleet_desc = {
+_G.pg.base.gametip.guild_boss_fleet_desc = {
 	tip = [[
 1. A Guild Operation boss fleet can consist of up to <color=#92fc63>9</color> ships.
 2. Both your Vanguard Fleet and Main Fleet must contain at least <color=#92fc63>1</color> of your own ships.
@@ -15540,103 +15540,103 @@ _G.pg.gametip.guild_boss_fleet_desc = {
 4. The boss is defeated once their HP is reduced to 0, and the Guild Operation will conclude. The boss can only be fought once a day.]]
 }
 
-_G.pg.gametip.guild_boss_formation_exist_invaild_ship = {
+_G.pg.base.gametip.guild_boss_formation_exist_invaild_ship = {
 	tip = "Your boss fleet composition has changed as another member altered their Support Fleet lineup."
 }
 
-_G.pg.gametip.guild_exist_unreceived_supply_award = {
+_G.pg.base.gametip.guild_exist_unreceived_supply_award = {
 	tip = "<color=red>Unclaimed</color>"
 }
 
-_G.pg.gametip.word_shipState_guild_event = {
+_G.pg.base.gametip.word_shipState_guild_event = {
 	tip = "This ship is participating in Guild Operation and cannot be retired."
 }
 
-_G.pg.gametip.word_shipState_guild_boss = {
+_G.pg.base.gametip.word_shipState_guild_boss = {
 	tip = "There are ships currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.commander_is_in_guild = {
+_G.pg.base.gametip.commander_is_in_guild = {
 	tip = "There are Meowfficers currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.guild_assult_ship_recommend = {
+_G.pg.base.gametip.guild_assult_ship_recommend = {
 	tip = "Successfully set recommended support ship."
 }
 
-_G.pg.gametip.guild_cancel_assult_ship_recommend = {
+_G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
 	tip = "Recommended support ship cleared."
 }
 
-_G.pg.gametip.guild_assult_ship_recommend_conflict = {
+_G.pg.base.gametip.guild_assult_ship_recommend_conflict = {
 	tip = "This ship has already been set as recommended."
 }
 
-_G.pg.gametip.guild_recommend_limit = {
+_G.pg.base.gametip.guild_recommend_limit = {
 	tip = "You've already reached your limit of 9 recommended ships."
 }
 
-_G.pg.gametip.guild_cancel_assult_ship_recommend_conflict = {
+_G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
 	tip = "The recommended status of this ship has already been cleared."
 }
 
-_G.pg.gametip.guild_mission_complate = {
+_G.pg.base.gametip.guild_mission_complate = {
 	tip = "Guild mission completed:"
 }
 
-_G.pg.gametip.guild_operation_event_occurrence = {
+_G.pg.base.gametip.guild_operation_event_occurrence = {
 	tip = "A new event has started in the guild operation. Would you like to check it?"
 }
 
-_G.pg.gametip.guild_transfer_president_confirm = {
+_G.pg.base.gametip.guild_transfer_president_confirm = {
 	tip = "The Guild Master rank will be transferred to $1. After this transfer, you will be demoted to a normal member. Continue with this transfer?"
 }
 
-_G.pg.gametip.guild_damage_ranking = {
+_G.pg.base.gametip.guild_damage_ranking = {
 	tip = "Rank"
 }
 
-_G.pg.gametip.guild_total_damage = {
+_G.pg.base.gametip.guild_total_damage = {
 	tip = "Damage"
 }
 
-_G.pg.gametip.guild_donate_list_updated = {
+_G.pg.base.gametip.guild_donate_list_updated = {
 	tip = "Available contribution attempts have been refreshed."
 }
 
-_G.pg.gametip.guild_donate_list_update_failed = {
+_G.pg.base.gametip.guild_donate_list_update_failed = {
 	tip = "Unable to refresh available contribution attempts."
 }
 
-_G.pg.gametip.guild_tip_quit_operation = {
+_G.pg.base.gametip.guild_tip_quit_operation = {
 	tip = "Leaving your current Guild will not restore the number of monthly Guild Operation participations you have. Are you sure you want to leave your Guild?"
 }
 
-_G.pg.gametip.guild_tip_grand_fleet_is_frozen = {
+_G.pg.base.gametip.guild_tip_grand_fleet_is_frozen = {
 	tip = "This Guild has been frozen and cannot be joined."
 }
 
-_G.pg.gametip.guild_tip_operation_time_is_not_ample = {
+_G.pg.base.gametip.guild_tip_operation_time_is_not_ample = {
 	tip = "Due to the short remaining time on this Guild Operation (fewer than 7 days), you may be unable to fully complete this operation depending on progress. Are you sure you wish to expend one of your monthly attempts and participate in this Guild Operation?"
 }
 
-_G.pg.gametip.guild_time_remaining_tip = {
+_G.pg.base.gametip.guild_time_remaining_tip = {
 	tip = "Time Remaining: "
 }
 
-_G.pg.gametip.multiple_ship_energy_low_desc = {
+_G.pg.base.gametip.multiple_ship_energy_low_desc = {
 	tip = "Exhausted\nAffinity will be reduced if you attack"
 }
 
-_G.pg.gametip.multiple_ship_energy_low_warn = {
+_G.pg.base.gametip.multiple_ship_energy_low_warn = {
 	tip = "Exhausted\nAffinity will be reduced if you attack"
 }
 
-_G.pg.gametip.us_error_download_painting = {
+_G.pg.base.gametip.us_error_download_painting = {
 	tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
 }
 
-_G.pg.gametip.help_rollingBallGame = {
+_G.pg.base.gametip.help_rollingBallGame = {
 	tip = {
 		{
 			info = [[
@@ -15665,7 +15665,7 @@ receive any rewards.]]
 	}
 }
 
-_G.pg.gametip.rolling_ball_help = {
+_G.pg.base.gametip.rolling_ball_help = {
 	tip = {
 		{
 			info = [[
@@ -15680,7 +15680,7 @@ How to Play:
 	}
 }
 
-_G.pg.gametip.help_jiujiu_expedition_game = {
+_G.pg.base.gametip.help_jiujiu_expedition_game = {
 	tip = {
 		{
 			info = [[
@@ -15703,31 +15703,31 @@ as explored, respectively.]]
 	}
 }
 
-_G.pg.gametip.jiujiu_expedition_game_stg_desc = {
+_G.pg.base.gametip.jiujiu_expedition_game_stg_desc = {
 	tip = "Stage $1 Exploration Progress "
 }
 
-_G.pg.gametip.build_ship_accumulative = {
+_G.pg.base.gametip.build_ship_accumulative = {
 	tip = "Total: "
 }
 
-_G.pg.gametip.destory_ship_before_tip = {
+_G.pg.base.gametip.destory_ship_before_tip = {
 	tip = "Are you sure you want to select this ship? "
 }
 
-_G.pg.gametip.destory_ship_input_erro = {
+_G.pg.base.gametip.destory_ship_input_erro = {
 	tip = "Please input the numbers on the screen. "
 }
 
-_G.pg.gametip.destroy_ur_rarity_tip = {
+_G.pg.base.gametip.destroy_ur_rarity_tip = {
 	tip = "You have selected a ship of <color=#92fc63>UR</color> rarity. \nPlease enter the following into the box below: <color=#92fc63>$1</color> "
 }
 
-_G.pg.gametip.destory_ur_pt_overflowa = {
+_G.pg.base.gametip.destory_ur_pt_overflowa = {
 	tip = "*You have already earned the maximum number of <color=#92fc63>Specialized \nCores</color> for this month. Any <color=#ff5c5c>excess <color=#92fc63>Specialized Cores</color> will be lost.</color> "
 }
 
-_G.pg.gametip.jiujiu_expedition_help = {
+_G.pg.base.gametip.jiujiu_expedition_help = {
 	tip = {
 		{
 			info = [[
@@ -15746,31 +15746,31 @@ and earn great rewards!]]
 	}
 }
 
-_G.pg.gametip.shop_label_unlimt_cnt = {
+_G.pg.base.gametip.shop_label_unlimt_cnt = {
 	tip = "Infinite "
 }
 
-_G.pg.gametip.jiujiu_expedition_book_tip = {
+_G.pg.base.gametip.jiujiu_expedition_book_tip = {
 	tip = "Unlocks after you complete the previous collection."
 }
 
-_G.pg.gametip.jiujiu_expedition_reward_tip = {
+_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
 	tip = "Explore the minigame stages to receive rewards!"
 }
 
-_G.pg.gametip.jiujiu_expedition_amount_tip = {
+_G.pg.base.gametip.jiujiu_expedition_amount_tip = {
 	tip = "You have no Exploration Points. Log in later during the event to receive more. "
 }
 
-_G.pg.gametip.jiujiu_expedition_stg_tip = {
+_G.pg.base.gametip.jiujiu_expedition_stg_tip = {
 	tip = "Unlocks after you clear the previous stage."
 }
 
-_G.pg.gametip.trade_card_tips1 = {
+_G.pg.base.gametip.trade_card_tips1 = {
 	tip = "Shop "
 }
 
-_G.pg.gametip.trade_card_tips2 = {
+_G.pg.base.gametip.trade_card_tips2 = {
 	tip = [[
 Heads up, nya. 
 The Trade License you purchased expired on $1, nya. 
@@ -15778,7 +15778,7 @@ You can renew your license to continue receiving rewards every day, nya!
 Come visit my shop and see what's on offer, nya~]]
 }
 
-_G.pg.gametip.trade_card_tips3 = {
+_G.pg.base.gametip.trade_card_tips3 = {
 	tip = [[
 Heads up, nya. 
 The Trade License you purchased will expire on $1, nya. 
@@ -15786,11 +15786,11 @@ You can extend your license to continue receiving rewards every day, nya!
 Come visit my shop and see what's on offer, nya~]]
 }
 
-_G.pg.gametip.trade_card_tips4 = {
+_G.pg.base.gametip.trade_card_tips4 = {
 	tip = "$1 / $2 / $3 "
 }
 
-_G.pg.gametip.ur_exchange_help_tip = {
+_G.pg.base.gametip.ur_exchange_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -15808,11 +15808,11 @@ There is a cap to how many cores you can earn in one month. This cap resets at m
 	}
 }
 
-_G.pg.gametip.fleet_antisub_range = {
+_G.pg.base.gametip.fleet_antisub_range = {
 	tip = "SS Detection"
 }
 
-_G.pg.gametip.fleet_antisub_range_tip = {
+_G.pg.base.gametip.fleet_antisub_range_tip = {
 	tip = {
 		{
 			info = [[
@@ -15833,11 +15833,11 @@ Important note: any bonus points to the ASW stat gained from gear, skills, Meowf
 	}
 }
 
-_G.pg.gametip.practise_idol_tip = {
+_G.pg.base.gametip.practise_idol_tip = {
 	tip = "Would you like to begin rehearsing $1? "
 }
 
-_G.pg.gametip.practise_idol_help = {
+_G.pg.base.gametip.practise_idol_help = {
 	tip = {
 		{
 			info = [[
@@ -15858,31 +15858,31 @@ If you're not sure what your current rehearsal level is, you can check it from t
 	}
 }
 
-_G.pg.gametip.upgrade_idol_tip = {
+_G.pg.base.gametip.upgrade_idol_tip = {
 	tip = "Rehearsals will grant your fleets\nbuffs for the remainder of the event. "
 }
 
-_G.pg.gametip.upgrade_complete_tip = {
+_G.pg.base.gametip.upgrade_complete_tip = {
 	tip = "Rehearsal complete! "
 }
 
-_G.pg.gametip.upgrade_introduce_tip = {
+_G.pg.base.gametip.upgrade_introduce_tip = {
 	tip = "Raise your $1 Level to MAX to get bonus rewards! "
 }
 
-_G.pg.gametip.collect_idol_tip = {
+_G.pg.base.gametip.collect_idol_tip = {
 	tip = "You may reset an item's position by dragging it back to the selection frame. "
 }
 
-_G.pg.gametip.hand_account_tip = {
+_G.pg.base.gametip.hand_account_tip = {
 	tip = "Can be unlocked by collecting certain items. "
 }
 
-_G.pg.gametip.hand_account_resetting_tip = {
+_G.pg.base.gametip.hand_account_resetting_tip = {
 	tip = "Are you sure you want to reset this page? "
 }
 
-_G.pg.gametip.help_candymagic = {
+_G.pg.base.gametip.help_candymagic = {
 	tip = {
 		{
 			info = [[
@@ -15908,11 +15908,11 @@ the flashlight on the right side of the screen.]]
 	}
 }
 
-_G.pg.gametip.award_overflow_tip = {
+_G.pg.base.gametip.award_overflow_tip = {
 	tip = "A portion of your rewards will exceed your resource limit. Please collect them manually. "
 }
 
-_G.pg.gametip.hunter_npc = {
+_G.pg.base.gametip.hunter_npc = {
 	tip = {
 		{
 			info = "Summary: During the Hunter of the Fjord event, you can earn Friendship Points for Hunter. She will upgrade from a Temporary Recruit to a full addition to your dock once you've earned enough Friendship Points with her."
@@ -15938,7 +15938,7 @@ _G.pg.gametip.hunter_npc = {
 	}
 }
 
-_G.pg.gametip.venusvolleyball_help = {
+_G.pg.base.gametip.venusvolleyball_help = {
 	tip = {
 		{
 			info = [[
@@ -15966,19 +15966,19 @@ their desired character to play with.]]
 	}
 }
 
-_G.pg.gametip.venusvolleyball_rule_tip = {
+_G.pg.base.gametip.venusvolleyball_rule_tip = {
 	tip = "Earn $1 points first "
 }
 
-_G.pg.gametip.venusvolleyball_return_tip = {
+_G.pg.base.gametip.venusvolleyball_return_tip = {
 	tip = "Are you sure you want to quit? You will not be able to get match completion rewards. "
 }
 
-_G.pg.gametip.venusvolleyball_suspend_tip = {
+_G.pg.base.gametip.venusvolleyball_suspend_tip = {
 	tip = "Resume the match? "
 }
 
-_G.pg.gametip.doa_main = {
+_G.pg.base.gametip.doa_main = {
 	tip = {
 		{
 			info = [[
@@ -16006,7 +16006,7 @@ Event rewards may picked up through
 	}
 }
 
-_G.pg.gametip.doa_pt_help = {
+_G.pg.base.gametip.doa_pt_help = {
 	tip = {
 		{
 			info = [[
@@ -16029,31 +16029,31 @@ to see the bonuses provided by each stat level.]]
 	}
 }
 
-_G.pg.gametip.doa_pt_complete = {
+_G.pg.base.gametip.doa_pt_complete = {
 	tip = "Upgrade Complete "
 }
 
-_G.pg.gametip.doa_pt_up = {
+_G.pg.base.gametip.doa_pt_up = {
 	tip = "Are you sure you want to upgrade $1? "
 }
 
-_G.pg.gametip.doa_liliang = {
+_G.pg.base.gametip.doa_liliang = {
 	tip = "POW"
 }
 
-_G.pg.gametip.doa_jiqiao = {
+_G.pg.base.gametip.doa_jiqiao = {
 	tip = "TEC"
 }
 
-_G.pg.gametip.doa_tili = {
+_G.pg.base.gametip.doa_tili = {
 	tip = "STM"
 }
 
-_G.pg.gametip.doa_meili = {
+_G.pg.base.gametip.doa_meili = {
 	tip = "APL"
 }
 
-_G.pg.gametip.snowball_help = {
+_G.pg.base.gametip.snowball_help = {
 	tip = {
 		{
 			info = [[
@@ -16085,7 +16085,7 @@ the game will not count towards completing a match.]]
 	}
 }
 
-_G.pg.gametip.help_xinnian2021_feast = {
+_G.pg.base.gametip.help_xinnian2021_feast = {
 	tip = {
 		{
 			info = [[
@@ -16101,7 +16101,7 @@ Limited Construction: Build brand new limited ships.]]
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__qiaozhong = {
+_G.pg.base.gametip.help_xinnian2021__qiaozhong = {
 	tip = {
 		{
 			info = [[
@@ -16128,7 +16128,7 @@ and the buff duration will be reset.
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__meishiyemian = {
+_G.pg.base.gametip.help_xinnian2021__meishiyemian = {
 	tip = {
 		{
 			info = [[
@@ -16147,7 +16147,7 @@ not receive any rewards.]]
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__meishi = {
+_G.pg.base.gametip.help_xinnian2021__meishi = {
 	tip = {
 		{
 			info = [[
@@ -16178,7 +16178,7 @@ next character that appears on-screen.
 	}
 }
 
-_G.pg.gametip.help_act_event = {
+_G.pg.base.gametip.help_act_event = {
 	tip = {
 		{
 			icon = {
@@ -16204,111 +16204,111 @@ _G.pg.gametip.help_act_event = {
 	}
 }
 
-_G.pg.gametip.autofight = {
+_G.pg.base.gametip.autofight = {
 	tip = "Auto-Search"
 }
 
-_G.pg.gametip.autofight_errors_tip = {
+_G.pg.base.gametip.autofight_errors_tip = {
 	tip = "No valid enemy found. Auto-Search Mode has been disabled."
 }
 
-_G.pg.gametip.autofight_special_operation_tip = {
+_G.pg.base.gametip.autofight_special_operation_tip = {
 	tip = "In Auto-Search Mode, your fleets will prioritize fighting the enemy <color=#92fc63>flagship fleet</color>. If you want to use High-Efficiency Combat Logistics Plans, <color=#92fc63>please assign them to be used again</color>."
 }
 
-_G.pg.gametip.autofight_formation = {
+_G.pg.base.gametip.autofight_formation = {
 	tip = "Formation"
 }
 
-_G.pg.gametip.autofight_cat = {
+_G.pg.base.gametip.autofight_cat = {
 	tip = "Meowfficer"
 }
 
-_G.pg.gametip.autofight_function = {
+_G.pg.base.gametip.autofight_function = {
 	tip = "Role"
 }
 
-_G.pg.gametip.autofight_function1 = {
+_G.pg.base.gametip.autofight_function1 = {
 	tip = "Escorts"
 }
 
-_G.pg.gametip.autofight_function2 = {
+_G.pg.base.gametip.autofight_function2 = {
 	tip = "Flagships"
 }
 
-_G.pg.gametip.autofight_function3 = {
+_G.pg.base.gametip.autofight_function3 = {
 	tip = "All Enemies"
 }
 
-_G.pg.gametip.autofight_function4 = {
+_G.pg.base.gametip.autofight_function4 = {
 	tip = "Standby"
 }
 
-_G.pg.gametip.autofight_function5 = {
+_G.pg.base.gametip.autofight_function5 = {
 	tip = "Auto-Call Subs "
 }
 
-_G.pg.gametip.autofight_rewards = {
+_G.pg.base.gametip.autofight_rewards = {
 	tip = "Total Rewards"
 }
 
-_G.pg.gametip.autofight_rewards_none = {
+_G.pg.base.gametip.autofight_rewards_none = {
 	tip = "No rewards earned."
 }
 
-_G.pg.gametip.autofight_leave = {
+_G.pg.base.gametip.autofight_leave = {
 	tip = "Exit"
 }
 
-_G.pg.gametip.autofight_onceagain = {
+_G.pg.base.gametip.autofight_onceagain = {
 	tip = "Continue"
 }
 
-_G.pg.gametip.autofight_entrust = {
+_G.pg.base.gametip.autofight_entrust = {
 	tip = "Urgent Commission Posted: $1"
 }
 
-_G.pg.gametip.autofight_task = {
+_G.pg.base.gametip.autofight_task = {
 	tip = "Mission Completed: $1"
 }
 
-_G.pg.gametip.autofight_effect = {
+_G.pg.base.gametip.autofight_effect = {
 	tip = "Adaptability Increased: Offensive +$1, Survival +$2, Tactical +$3"
 }
 
-_G.pg.gametip.autofight_file = {
+_G.pg.base.gametip.autofight_file = {
 	tip = "Files Retrieved: $1"
 }
 
-_G.pg.gametip.autofight_discovery = {
+_G.pg.base.gametip.autofight_discovery = {
 	tip = "Exploration Goals Achieved:$1"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_dead = {
+_G.pg.base.gametip.autofight_tip_bigworld_dead = {
 	tip = "Auto Search has been disabled\ndue to your fleet being defeated."
 }
 
-_G.pg.gametip.autofight_tip_bigworld_begin = {
+_G.pg.base.gametip.autofight_tip_bigworld_begin = {
 	tip = "Auto Search has been enabled for this fleet."
 }
 
-_G.pg.gametip.autofight_tip_bigworld_stop = {
+_G.pg.base.gametip.autofight_tip_bigworld_stop = {
 	tip = "Auto Search has been disabled for this fleet."
 }
 
-_G.pg.gametip.autofight_tip_bigworld_suspend = {
+_G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "Auto Search has been disabled because there are no more visible exploration targets."
 }
 
-_G.pg.gametip.autofight_farm = {
+_G.pg.base.gametip.autofight_farm = {
 	tip = "Clearing Mode"
 }
 
-_G.pg.gametip.autofight_story = {
+_G.pg.base.gametip.autofight_story = {
 	tip = "The story will start playing shortly. "
 }
 
-_G.pg.gametip.fushun_adventure_help = {
+_G.pg.base.gametip.fushun_adventure_help = {
 	tip = {
 		{
 			info = "- Minigame Rules:"
@@ -16340,15 +16340,15 @@ Large Nianjuu: 30 pts
 	}
 }
 
-_G.pg.gametip.autofight_change_tip = {
+_G.pg.base.gametip.autofight_change_tip = {
 	tip = "The status of this fleet has automatically been set to <color=#92fc63>All Enemies</color>."
 }
 
-_G.pg.gametip.autofight_selectprops_tip = {
+_G.pg.base.gametip.autofight_selectprops_tip = {
 	tip = "Add Item"
 }
 
-_G.pg.gametip.help_chunjie2021_feast = {
+_G.pg.base.gametip.help_chunjie2021_feast = {
 	tip = {
 		{
 			info = "Event Duration: 2/4/2021 - 2/19/2021\nSpring Festival Event Contents:"
@@ -16374,47 +16374,47 @@ _G.pg.gametip.help_chunjie2021_feast = {
 	}
 }
 
-_G.pg.gametip.valentinesday__txt1_tip = {
+_G.pg.base.gametip.valentinesday__txt1_tip = {
 	tip = "If you want to enjoy delicious chocolate, you'll have to gather the ingredients first."
 }
 
-_G.pg.gametip.valentinesday__txt2_tip = {
+_G.pg.base.gametip.valentinesday__txt2_tip = {
 	tip = "Do you need me to feed you the chocolate? Ehehe~"
 }
 
-_G.pg.gametip.valentinesday__txt3_tip = {
+_G.pg.base.gametip.valentinesday__txt3_tip = {
 	tip = "There seems to... not be enough cocoa powder... Zzzzz"
 }
 
-_G.pg.gametip.valentinesday__txt4_tip = {
+_G.pg.base.gametip.valentinesday__txt4_tip = {
 	tip = "The chocolate is ready. Don't forget to pick up your reward."
 }
 
-_G.pg.gametip.valentinesday__txt5_tip = {
+_G.pg.base.gametip.valentinesday__txt5_tip = {
 	tip = "You should collect some chocolate ingredients first."
 }
 
-_G.pg.gametip.valentinesday__txt6_tip = {
+_G.pg.base.gametip.valentinesday__txt6_tip = {
 	tip = "The chocolate has been completed. Please enjoy it, Master."
 }
 
-_G.pg.gametip.valentinesday__shop_tip = {
+_G.pg.base.gametip.valentinesday__shop_tip = {
 	tip = "Would you like to go to the Outfit Store?"
 }
 
-_G.pg.gametip.wwf_bamboo_tip1 = {
+_G.pg.base.gametip.wwf_bamboo_tip1 = {
 	tip = "Da Bao's Friend(Ning Hai)"
 }
 
-_G.pg.gametip.wwf_bamboo_tip2 = {
+_G.pg.base.gametip.wwf_bamboo_tip2 = {
 	tip = "Baobao's Buddy(Ping Hai)"
 }
 
-_G.pg.gametip.wwf_bamboo_tip3 = {
+_G.pg.base.gametip.wwf_bamboo_tip3 = {
 	tip = "Not enough Tasty Bamboo. Complete missions to get more!"
 }
 
-_G.pg.gametip.wwf_bamboo_help = {
+_G.pg.base.gametip.wwf_bamboo_help = {
 	tip = {
 		{
 			info = [[
@@ -16436,11 +16436,11 @@ Daily: Can be completed every day, resetting at 0:00 every day.]]
 	}
 }
 
-_G.pg.gametip.wwf_guide_tip = {
+_G.pg.base.gametip.wwf_guide_tip = {
 	tip = "Check your event-limited tasks here!"
 }
 
-_G.pg.gametip.securitycake_help = {
+_G.pg.base.gametip.securitycake_help = {
 	tip = {
 		{
 			info = [[
@@ -16471,7 +16471,7 @@ Regarding Minigames and the Early Summer Invitation
 	}
 }
 
-_G.pg.gametip.icecream_help = {
+_G.pg.base.gametip.icecream_help = {
 	tip = {
 		{
 			info = [[
@@ -16486,387 +16486,387 @@ How to Play
 	}
 }
 
-_G.pg.gametip.icecream_make_tip = {
+_G.pg.base.gametip.icecream_make_tip = {
 	tip = "Stage $1 explored"
 }
 
-_G.pg.gametip.query_role = {
+_G.pg.base.gametip.query_role = {
 	tip = "Searching..."
 }
 
-_G.pg.gametip.query_role_none = {
+_G.pg.base.gametip.query_role_none = {
 	tip = "No Data "
 }
 
-_G.pg.gametip.query_role_button = {
+_G.pg.base.gametip.query_role_button = {
 	tip = "Results found."
 }
 
-_G.pg.gametip.query_role_fail = {
+_G.pg.base.gametip.query_role_fail = {
 	tip = "Search failed."
 }
 
-_G.pg.gametip.cumulative_victory_target_tip = {
+_G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "Total Victories:"
 }
 
-_G.pg.gametip.cumulative_victory_now_tip = {
+_G.pg.base.gametip.cumulative_victory_now_tip = {
 	tip = "Current Victories:"
 }
 
-_G.pg.gametip.word_files_repair = {
+_G.pg.base.gametip.word_files_repair = {
 	tip = "Tap to repair "
 }
 
-_G.pg.gametip.repair_setting_label = {
+_G.pg.base.gametip.repair_setting_label = {
 	tip = "Repair assets "
 }
 
-_G.pg.gametip.voice_control = {
+_G.pg.base.gametip.voice_control = {
 	tip = "Volume"
 }
 
-_G.pg.gametip.index_equip = {
+_G.pg.base.gametip.index_equip = {
 	tip = "Equipped "
 }
 
-_G.pg.gametip.index_without_limit = {
+_G.pg.base.gametip.index_without_limit = {
 	tip = "No Limit"
 }
 
-_G.pg.gametip.meta_learn_skill = {
+_G.pg.base.gametip.meta_learn_skill = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_joint_boss_not_found = {
+_G.pg.base.gametip.world_joint_boss_not_found = {
 	tip = "Unable to battle this target. Please try another target. "
 }
 
-_G.pg.gametip.world_joint_boss_is_death = {
+_G.pg.base.gametip.world_joint_boss_is_death = {
 	tip = "Coordinates have expired. Please try another target. "
 }
 
-_G.pg.gametip.world_joint_whitout_guild = {
+_G.pg.base.gametip.world_joint_whitout_guild = {
 	tip = "You haven’t joined a Guild yet. "
 }
 
-_G.pg.gametip.world_joint_whitout_friend = {
+_G.pg.base.gametip.world_joint_whitout_friend = {
 	tip = "You don’t have any friends yet :( "
 }
 
-_G.pg.gametip.world_joint_call_support_failed = {
+_G.pg.base.gametip.world_joint_call_support_failed = {
 	tip = "Unable to send support request."
 }
 
-_G.pg.gametip.world_joint_call_support_success = {
+_G.pg.base.gametip.world_joint_call_support_success = {
 	tip = "Support request sent successfully."
 }
 
-_G.pg.gametip.world_joint_call_friend_support_txt = {
+_G.pg.base.gametip.world_joint_call_friend_support_txt = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_joint_call_guild_support_txt = {
+_G.pg.base.gametip.world_joint_call_guild_support_txt = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_joint_call_world_support_txt = {
+_G.pg.base.gametip.world_joint_call_world_support_txt = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.ad_4 = {
+_G.pg.base.gametip.ad_4 = {
 	tip = "$1 <material=underline c=#92fc63><color=#92fc63>$2</color></material> has invited you to challenge <material=underline><color=#FFDE38FF>$3</color></material> "
 }
 
-_G.pg.gametip.world_word_expired = {
+_G.pg.base.gametip.world_word_expired = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_word_guild_member = {
+_G.pg.base.gametip.world_word_guild_member = {
 	tip = "Guild member"
 }
 
-_G.pg.gametip.world_word_guild_player = {
+_G.pg.base.gametip.world_word_guild_player = {
 	tip = "player"
 }
 
-_G.pg.gametip.world_joint_boss_award_expired = {
+_G.pg.base.gametip.world_joint_boss_award_expired = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_joint_not_refresh_frequently = {
+_G.pg.base.gametip.world_joint_not_refresh_frequently = {
 	tip = "Please try again later. "
 }
 
-_G.pg.gametip.world_joint_exit_battle_tip = {
+_G.pg.base.gametip.world_joint_exit_battle_tip = {
 	tip = "Would you like to end the battle and head to META Showdown?"
 }
 
-_G.pg.gametip.world_boss_get_item = {
+_G.pg.base.gametip.world_boss_get_item = {
 	tip = "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? "
 }
 
-_G.pg.gametip.world_boss_ask_help = {
+_G.pg.base.gametip.world_boss_ask_help = {
 	tip = "A support request cannot be sent to this channel. "
 }
 
-_G.pg.gametip.world_joint_count_no_enough = {
+_G.pg.base.gametip.world_joint_count_no_enough = {
 	tip = "Insufficient challenge attempts remaining. "
 }
 
-_G.pg.gametip.world_boss_none = {
+_G.pg.base.gametip.world_boss_none = {
 	tip = "Coordinates have expired. Please try another target. "
 }
 
-_G.pg.gametip.world_boss_fleet = {
+_G.pg.base.gametip.world_boss_fleet = {
 	tip = "META Showdown Fleet "
 }
 
-_G.pg.gametip.world_max_challenge_cnt = {
+_G.pg.base.gametip.world_max_challenge_cnt = {
 	tip = "This battle is already full. Please try another target. "
 }
 
-_G.pg.gametip.world_reset_success = {
+_G.pg.base.gametip.world_reset_success = {
 	tip = "Operation Siren progress has been reset. "
 }
 
-_G.pg.gametip.world_map_dangerous_confirm = {
+_G.pg.base.gametip.world_map_dangerous_confirm = {
 	tip = "A high-difficulty battle has been unlocked. Be careful - you’ll only get to challenge this enemy once, so make sure you’re prepared. "
 }
 
-_G.pg.gametip.world_map_version = {
+_G.pg.base.gametip.world_map_version = {
 	tip = "This zone will be reset because assets have been updated. "
 }
 
-_G.pg.gametip.world_resource_fill = {
+_G.pg.base.gametip.world_resource_fill = {
 	tip = "Unable to hold any more Supply Shop Vouchers. "
 }
 
-_G.pg.gametip.meta_sys_lock_tip = {
+_G.pg.base.gametip.meta_sys_lock_tip = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_story_lock = {
+_G.pg.base.gametip.meta_story_lock = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_acttime_limit = {
+_G.pg.base.gametip.meta_acttime_limit = {
 	tip = "Limited "
 }
 
-_G.pg.gametip.meta_pt_left = {
+_G.pg.base.gametip.meta_pt_left = {
 	tip = "$1 Days Left"
 }
 
-_G.pg.gametip.meta_syn_rate = {
+_G.pg.base.gametip.meta_syn_rate = {
 	tip = "资讯同步率"
 }
 
-_G.pg.gametip.meta_repair_rate = {
+_G.pg.base.gametip.meta_repair_rate = {
 	tip = "Fortification Rate "
 }
 
-_G.pg.gametip.meta_story_tip_1 = {
+_G.pg.base.gametip.meta_story_tip_1 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_story_tip_2 = {
+_G.pg.base.gametip.meta_story_tip_2 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_pt_get_way = {
+_G.pg.base.gametip.meta_pt_get_way = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_pt_point = {
+_G.pg.base.gametip.meta_pt_point = {
 	tip = "Sync Point "
 }
 
-_G.pg.gametip.meta_award_get = {
+_G.pg.base.gametip.meta_award_get = {
 	tip = "Collect"
 }
 
-_G.pg.gametip.meta_award_got = {
+_G.pg.base.gametip.meta_award_got = {
 	tip = "Collected"
 }
 
-_G.pg.gametip.meta_repair = {
+_G.pg.base.gametip.meta_repair = {
 	tip = "Fortify Bonus:"
 }
 
-_G.pg.gametip.meta_repair_success = {
+_G.pg.base.gametip.meta_repair_success = {
 	tip = "Rigging Fortification successful. "
 }
 
-_G.pg.gametip.meta_repair_effect_unlock = {
+_G.pg.base.gametip.meta_repair_effect_unlock = {
 	tip = "Obtained at $1% Fortification Rate. "
 }
 
-_G.pg.gametip.meta_repair_effect_special = {
+_G.pg.base.gametip.meta_repair_effect_special = {
 	tip = "Fortification Rate reached $1%. "
 }
 
-_G.pg.gametip.meta_energy_ship_level_need = {
+_G.pg.base.gametip.meta_energy_ship_level_need = {
 	tip = "Level Requirement: $1/$2"
 }
 
-_G.pg.gametip.meta_energy_ship_repairrate_need = {
+_G.pg.base.gametip.meta_energy_ship_repairrate_need = {
 	tip = "Fortification Rate Req: $1/$2"
 }
 
-_G.pg.gametip.meta_energy_active_box_tip = {
+_G.pg.base.gametip.meta_energy_active_box_tip = {
 	tip = "Are you sure you want this ship to undergo Somatic Activation? (The ship will gain a ★ afterwards) "
 }
 
-_G.pg.gametip.meta_break = {
+_G.pg.base.gametip.meta_break = {
 	tip = "*This ship will gain a ★ after Somatic Activation. "
 }
 
-_G.pg.gametip.meta_energy_preview_title = {
+_G.pg.base.gametip.meta_energy_preview_title = {
 	tip = "Final stats at Max Fortification: "
 }
 
-_G.pg.gametip.meta_energy_preview_tip = {
+_G.pg.base.gametip.meta_energy_preview_tip = {
 	tip = "*Does not include effects from affection or oath. "
 }
 
-_G.pg.gametip.meta_exp_per_day = {
+_G.pg.base.gametip.meta_exp_per_day = {
 	tip = "Daily EXP "
 }
 
-_G.pg.gametip.meta_skill_unlock = {
+_G.pg.base.gametip.meta_skill_unlock = {
 	tip = "Select the skill to learn. "
 }
 
-_G.pg.gametip.meta_unlock_skill_tip = {
+_G.pg.base.gametip.meta_unlock_skill_tip = {
 	tip = "The following materials are required to learn \n<color=#92fc63>$2</color>: "
 }
 
-_G.pg.gametip.meta_unlock_skill_select = {
+_G.pg.base.gametip.meta_unlock_skill_select = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_switch_skill_disable = {
+_G.pg.base.gametip.meta_switch_skill_disable = {
 	tip = "Unable to switch to learning a new skill today. "
 }
 
-_G.pg.gametip.meta_switch_skill_box_title = {
+_G.pg.base.gametip.meta_switch_skill_box_title = {
 	tip = "Would you like to start learning $1? "
 }
 
-_G.pg.gametip.meta_cur_pt = {
+_G.pg.base.gametip.meta_cur_pt = {
 	tip = "Sync Points "
 }
 
-_G.pg.gametip.meta_toast_fullexp = {
+_G.pg.base.gametip.meta_toast_fullexp = {
 	tip = "No more EXP can be earned today. "
 }
 
-_G.pg.gametip.meta_toast_tactics = {
+_G.pg.base.gametip.meta_toast_tactics = {
 	tip = "Research EXP "
 }
 
-_G.pg.gametip.meta_skillbtn_tactics = {
+_G.pg.base.gametip.meta_skillbtn_tactics = {
 	tip = "Upgrade "
 }
 
-_G.pg.gametip.meta_destroy_tip = {
+_G.pg.base.gametip.meta_destroy_tip = {
 	tip = "META ships cannot be retired. "
 }
 
-_G.pg.gametip.meta_voice_name_feeling1 = {
+_G.pg.base.gametip.meta_voice_name_feeling1 = {
 	tip = "Let Down"
 }
 
-_G.pg.gametip.meta_voice_name_feeling2 = {
+_G.pg.base.gametip.meta_voice_name_feeling2 = {
 	tip = "Stranger"
 }
 
-_G.pg.gametip.meta_voice_name_feeling3 = {
+_G.pg.base.gametip.meta_voice_name_feeling3 = {
 	tip = "Friend"
 }
 
-_G.pg.gametip.meta_voice_name_feeling4 = {
+_G.pg.base.gametip.meta_voice_name_feeling4 = {
 	tip = "Synced"
 }
 
-_G.pg.gametip.meta_voice_name_feeling5 = {
+_G.pg.base.gametip.meta_voice_name_feeling5 = {
 	tip = "Love"
 }
 
-_G.pg.gametip.meta_voice_name_propose = {
+_G.pg.base.gametip.meta_voice_name_propose = {
 	tip = "Oath"
 }
 
-_G.pg.gametip.world_boss_ad = {
+_G.pg.base.gametip.world_boss_ad = {
 	tip = "[$1] Lv. $2 "
 }
 
-_G.pg.gametip.world_boss_drop_title = {
+_G.pg.base.gametip.world_boss_drop_title = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_boss_pt_recove_desc = {
+_G.pg.base.gametip.world_boss_pt_recove_desc = {
 	tip = "$1 Challenge Attempts will be restored each day at midnight. "
 }
 
-_G.pg.gametip.world_boss_progress_item_desc = {
+_G.pg.base.gametip.world_boss_progress_item_desc = {
 	tip = "Analyze the<color=#92fc63> META Coordinates </color>you’ve collected during Operation Siren to unlock an META Showdown. Once analyzed, any leftover META Coordinates will be consumed. If the amount of stored META Coordinates has reached its max, you will not be able to obtain any more META Coordinates.\nDaily Analysis Attempts: $1/$2\nMETA Coordinates collected: $3 "
 }
 
-_G.pg.gametip.world_joint_max_challenge_people_cnt = {
+_G.pg.base.gametip.world_joint_max_challenge_people_cnt = {
 	tip = "This battle is already full. "
 }
 
-_G.pg.gametip.equip_ammo_type_1 = {
+_G.pg.base.gametip.equip_ammo_type_1 = {
 	tip = "AP"
 }
 
-_G.pg.gametip.equip_ammo_type_2 = {
+_G.pg.base.gametip.equip_ammo_type_2 = {
 	tip = "HE"
 }
 
-_G.pg.gametip.equip_ammo_type_3 = {
+_G.pg.base.gametip.equip_ammo_type_3 = {
 	tip = "Normal "
 }
 
-_G.pg.gametip.equip_ammo_type_4 = {
+_G.pg.base.gametip.equip_ammo_type_4 = {
 	tip = "Magnetic "
 }
 
-_G.pg.gametip.equip_ammo_type_5 = {
+_G.pg.base.gametip.equip_ammo_type_5 = {
 	tip = "Normal "
 }
 
-_G.pg.gametip.equip_ammo_type_6 = {
+_G.pg.base.gametip.equip_ammo_type_6 = {
 	tip = "Beehive"
 }
 
-_G.pg.gametip.equip_ammo_type_7 = {
+_G.pg.base.gametip.equip_ammo_type_7 = {
 	tip = "SAP"
 }
 
-_G.pg.gametip.equip_ammo_type_8 = {
+_G.pg.base.gametip.equip_ammo_type_8 = {
 	tip = "Fixed-Depth"
 }
 
-_G.pg.gametip.equip_ammo_type_9 = {
+_G.pg.base.gametip.equip_ammo_type_9 = {
 	tip = "Contact"
 }
 
-_G.pg.gametip.equip_ammo_type_10 = {
+_G.pg.base.gametip.equip_ammo_type_10 = {
 	tip = "None "
 }
 
-_G.pg.gametip.equip_ammo_type_11 = {
+_G.pg.base.gametip.equip_ammo_type_11 = {
 	tip = "Missile"
 }
 
-_G.pg.gametip.common_daily_limit = {
+_G.pg.base.gametip.common_daily_limit = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_help = {
+_G.pg.base.gametip.meta_help = {
 	tip = {
 		{
 			info = "- About the META Lab:"
@@ -16928,303 +16928,303 @@ _G.pg.gametip.meta_help = {
 	}
 }
 
-_G.pg.gametip.world_boss_daily_limit = {
+_G.pg.base.gametip.world_boss_daily_limit = {
 	tip = "Insufficient analysis attempts. "
 }
 
-_G.pg.gametip.common_go_to_analyze = {
+_G.pg.base.gametip.common_go_to_analyze = {
 	tip = "Analyze "
 }
 
-_G.pg.gametip.world_boss_not_reach_target = {
+_G.pg.base.gametip.world_boss_not_reach_target = {
 	tip = "Insufficient META Coordinates. "
 }
 
-_G.pg.gametip.special_transform_limit_reach = {
+_G.pg.base.gametip.special_transform_limit_reach = {
 	tip = "Unable to obtain more copies of this retrofit item "
 }
 
-_G.pg.gametip.meta_pt_notenough = {
+_G.pg.base.gametip.meta_pt_notenough = {
 	tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
 }
 
-_G.pg.gametip.meta_boss_unlock = {
+_G.pg.base.gametip.meta_boss_unlock = {
 	tip = "Clear the first chapter of <color=#92fc63>Operation Siren</color> to unlock META Showdown for the ability to obtain META ships. "
 }
 
-_G.pg.gametip.word_take_effect = {
+_G.pg.base.gametip.word_take_effect = {
 	tip = "In Effect "
 }
 
-_G.pg.gametip.world_boss_challenge_cnt = {
+_G.pg.base.gametip.world_boss_challenge_cnt = {
 	tip = "Participants: "
 }
 
-_G.pg.gametip.word_shipNation_meta = {
+_G.pg.base.gametip.word_shipNation_meta = {
 	tip = "???"
 }
 
-_G.pg.gametip.world_word_friend = {
+_G.pg.base.gametip.world_word_friend = {
 	tip = "Friends "
 }
 
-_G.pg.gametip.world_word_world = {
+_G.pg.base.gametip.world_word_world = {
 	tip = "Global"
 }
 
-_G.pg.gametip.world_word_guild = {
+_G.pg.base.gametip.world_word_guild = {
 	tip = "Fleet"
 }
 
-_G.pg.gametip.world_collection_1 = {
+_G.pg.base.gametip.world_collection_1 = {
 	tip = "Progress:"
 }
 
-_G.pg.gametip.world_collection_2 = {
+_G.pg.base.gametip.world_collection_2 = {
 	tip = "Progress:"
 }
 
-_G.pg.gametip.world_collection_3 = {
+_G.pg.base.gametip.world_collection_3 = {
 	tip = "Progress:"
 }
 
-_G.pg.gametip.zero_hour_command_error = {
+_G.pg.base.gametip.zero_hour_command_error = {
 	tip = "An error has occurred due to a data update or daily rollover. "
 }
 
-_G.pg.gametip.commander_is_in_bigworld = {
+_G.pg.base.gametip.commander_is_in_bigworld = {
 	tip = "This Meowfficer is participating in Operation Siren. "
 }
 
-_G.pg.gametip.world_collection_back = {
+_G.pg.base.gametip.world_collection_back = {
 	tip = "Tap to return "
 }
 
-_G.pg.gametip.archives_whether_to_retreat = {
+_G.pg.base.gametip.archives_whether_to_retreat = {
 	tip = "Are you sure you want to <color=#92fc63>retreat</color>? Your Data Key will not be refunded if you retreat."
 }
 
-_G.pg.gametip.world_fleet_stop = {
+_G.pg.base.gametip.world_fleet_stop = {
 	tip = "Your fleet has stopped moving. "
 }
 
-_G.pg.gametip.world_setting_title = {
+_G.pg.base.gametip.world_setting_title = {
 	tip = "Operation Siren Settings "
 }
 
-_G.pg.gametip.world_setting_quickmode = {
+_G.pg.base.gametip.world_setting_quickmode = {
 	tip = "Reduce TB Guidance "
 }
 
-_G.pg.gametip.world_setting_quickmodetip = {
+_G.pg.base.gametip.world_setting_quickmodetip = {
 	tip = "Disable TB's repeated instruction dialogue "
 }
 
-_G.pg.gametip.world_setting_submititem = {
+_G.pg.base.gametip.world_setting_submititem = {
 	tip = "Auto use items during Auto Search"
 }
 
-_G.pg.gametip.world_setting_submititemtip = {
+_G.pg.base.gametip.world_setting_submititemtip = {
 	tip = "When enabled: During Auto Search mode, items will automatically be used when encountering events that normally require the use of items.\nWhen disabled: During Auto Search mode, events that normally require the use of items will be ignored."
 }
 
-_G.pg.gametip.world_setting_mapauto = {
+_G.pg.base.gametip.world_setting_mapauto = {
 	tip = "Default to Auto Mode in secured zones"
 }
 
-_G.pg.gametip.world_setting_mapautotip = {
+_G.pg.base.gametip.world_setting_mapautotip = {
 	tip = "When enabled, your fleets will default to using Auto Mode in zones you've secured."
 }
 
-_G.pg.gametip.world_boss_maintenance = {
+_G.pg.base.gametip.world_boss_maintenance = {
 	tip = "You are unable to begin an META Showdown immediately before server maintenance. "
 }
 
-_G.pg.gametip.world_boss_inbattle = {
+_G.pg.base.gametip.world_boss_inbattle = {
 	tip = "You are currently in an META Showdown, and are unable to begin another one. "
 }
 
-_G.pg.gametip.world_automode_title_1 = {
+_G.pg.base.gametip.world_automode_title_1 = {
 	tip = "Strategic Search "
 }
 
-_G.pg.gametip.world_automode_title_2 = {
+_G.pg.base.gametip.world_automode_title_2 = {
 	tip = ""
 }
 
-_G.pg.gametip.world_automode_cancel = {
+_G.pg.base.gametip.world_automode_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.world_automode_confirm = {
+_G.pg.base.gametip.world_automode_confirm = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.world_automode_start_tip1 = {
+_G.pg.base.gametip.world_automode_start_tip1 = {
 	tip = "No zones meet the set conditions."
 }
 
-_G.pg.gametip.world_automode_start_tip2 = {
+_G.pg.base.gametip.world_automode_start_tip2 = {
 	tip = "Insufficient AP."
 }
 
-_G.pg.gametip.world_automode_start_tip3 = {
+_G.pg.base.gametip.world_automode_start_tip3 = {
 	tip = "This zone has not yet been secured."
 }
 
-_G.pg.gametip.world_automode_start_tip4 = {
+_G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "Unable to leave this zone."
 }
 
-_G.pg.gametip.world_automode_setting_1 = {
+_G.pg.base.gametip.world_automode_setting_1 = {
 	tip = "Auto-Search by Corrosion Level:"
 }
 
-_G.pg.gametip.world_automode_setting_1_1 = {
+_G.pg.base.gametip.world_automode_setting_1_1 = {
 	tip = "4 and under"
 }
 
-_G.pg.gametip.world_automode_setting_1_2 = {
+_G.pg.base.gametip.world_automode_setting_1_2 = {
 	tip = "5"
 }
 
-_G.pg.gametip.world_automode_setting_1_3 = {
+_G.pg.base.gametip.world_automode_setting_1_3 = {
 	tip = "6"
 }
 
-_G.pg.gametip.world_automode_setting_1_4 = {
+_G.pg.base.gametip.world_automode_setting_1_4 = {
 	tip = "All Zones"
 }
 
-_G.pg.gametip.world_automode_setting_2 = {
+_G.pg.base.gametip.world_automode_setting_2 = {
 	tip = "Choose the zones you'd like to Strategic Search:"
 }
 
-_G.pg.gametip.world_automode_setting_2_1 = {
+_G.pg.base.gametip.world_automode_setting_2_1 = {
 	tip = "Repeat this zone"
 }
 
-_G.pg.gametip.world_automode_setting_2_2 = {
+_G.pg.base.gametip.world_automode_setting_2_2 = {
 	tip = "Select random zones"
 }
 
-_G.pg.gametip.world_automode_setting_all_1 = {
+_G.pg.base.gametip.world_automode_setting_all_1 = {
 	tip = "When encountering the Mysterious Merchant:"
 }
 
-_G.pg.gametip.world_automode_setting_all_1_1 = {
+_G.pg.base.gametip.world_automode_setting_all_1_1 = {
 	tip = "Stop Strategic Search"
 }
 
-_G.pg.gametip.world_automode_setting_all_1_2 = {
+_G.pg.base.gametip.world_automode_setting_all_1_2 = {
 	tip = "Continue Strategic Search"
 }
 
-_G.pg.gametip.world_automode_setting_all_2 = {
+_G.pg.base.gametip.world_automode_setting_all_2 = {
 	tip = "Display reminders to analyze META Coordinates:"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_1 = {
+_G.pg.base.gametip.world_automode_setting_all_2_1 = {
 	tip = "Never"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_2 = {
+_G.pg.base.gametip.world_automode_setting_all_2_2 = {
 	tip = "Every 100 Coordinates"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_3 = {
+_G.pg.base.gametip.world_automode_setting_all_2_3 = {
 	tip = "Every 200 Coordinates"
 }
 
-_G.pg.gametip.world_automode_setting_all_3 = {
+_G.pg.base.gametip.world_automode_setting_all_3 = {
 	tip = "Automatically exchange items:"
 }
 
-_G.pg.gametip.world_automode_setting_all_3_1 = {
+_G.pg.base.gametip.world_automode_setting_all_3_1 = {
 	tip = "No"
 }
 
-_G.pg.gametip.world_automode_setting_all_3_2 = {
+_G.pg.base.gametip.world_automode_setting_all_3_2 = {
 	tip = "Yes"
 }
 
-_G.pg.gametip.world_automode_setting_all_4 = {
+_G.pg.base.gametip.world_automode_setting_all_4 = {
 	tip = "Pause when encountering a Siren construct?"
 }
 
-_G.pg.gametip.world_automode_setting_all_4_1 = {
+_G.pg.base.gametip.world_automode_setting_all_4_1 = {
 	tip = "YES"
 }
 
-_G.pg.gametip.world_automode_setting_all_4_2 = {
+_G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "NO"
 }
 
-_G.pg.gametip.world_collection_task_tip_1 = {
+_G.pg.base.gametip.world_collection_task_tip_1 = {
 	tip = "Purchase failed. You still have an active File Mission."
 }
 
-_G.pg.gametip.area_putong = {
+_G.pg.base.gametip.area_putong = {
 	tip = "Explorable"
 }
 
-_G.pg.gametip.area_anquan = {
+_G.pg.base.gametip.area_anquan = {
 	tip = "Secured"
 }
 
-_G.pg.gametip.area_yaosai = {
+_G.pg.base.gametip.area_yaosai = {
 	tip = "Stronghold"
 }
 
-_G.pg.gametip.area_yaosai_2 = {
+_G.pg.base.gametip.area_yaosai_2 = {
 	tip = "Siren-Occupied Zone"
 }
 
-_G.pg.gametip.area_shenyuan = {
+_G.pg.base.gametip.area_shenyuan = {
 	tip = "Abyssal"
 }
 
-_G.pg.gametip.area_yinmi = {
+_G.pg.base.gametip.area_yinmi = {
 	tip = "Hidden"
 }
 
-_G.pg.gametip.area_renwu = {
+_G.pg.base.gametip.area_renwu = {
 	tip = "Mission"
 }
 
-_G.pg.gametip.area_zhuxian = {
+_G.pg.base.gametip.area_zhuxian = {
 	tip = "Campaign"
 }
 
-_G.pg.gametip.area_dangan = {
+_G.pg.base.gametip.area_dangan = {
 	tip = "File Zones"
 }
 
-_G.pg.gametip.charge_trade_no_error = {
+_G.pg.base.gametip.charge_trade_no_error = {
 	tip = "Incorrect Order ID. Please try again."
 }
 
-_G.pg.gametip.world_reset_1 = {
+_G.pg.base.gametip.world_reset_1 = {
 	tip = "Operation SIren resets in <color=#92fc63>$1</color> day(s) "
 }
 
-_G.pg.gametip.world_reset_2 = {
+_G.pg.base.gametip.world_reset_2 = {
 	tip = "Operation SIren resets in <color=#92fc63>$1</color> tomorrow "
 }
 
-_G.pg.gametip.world_reset_3 = {
+_G.pg.base.gametip.world_reset_3 = {
 	tip = "Re-enter Operation Siren to reset "
 }
 
-_G.pg.gametip.guild_is_frozen_when_start_tech = {
+_G.pg.base.gametip.guild_is_frozen_when_start_tech = {
 	tip = "This Guild is currently frozen."
 }
 
-_G.pg.gametip.world_boss_unactivated = {
+_G.pg.base.gametip.world_boss_unactivated = {
 	tip = "Operation Siren has reset. Please reorganize your fleet to continue."
 }
 
-_G.pg.gametip.world_reset_tip = {
+_G.pg.base.gametip.world_reset_tip = {
 	tip = {
 		{
 			info = [[
@@ -17277,159 +17277,159 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	}
 }
 
-_G.pg.gametip.spring_invited_2021 = {
+_G.pg.base.gametip.spring_invited_2021 = {
 	tip = "This invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\n(You will obtain this ship and her commemorative item.)"
 }
 
-_G.pg.gametip.charge_error_count_limit = {
+_G.pg.base.gametip.charge_error_count_limit = {
 	tip = "Unable to make any more purchases today."
 }
 
-_G.pg.gametip.levelScene_select_sp = {
+_G.pg.base.gametip.levelScene_select_sp = {
 	tip = "A High-Efficiency Combat Logisitics Plan has been set."
 }
 
-_G.pg.gametip.word_adjustFleet = {
+_G.pg.base.gametip.word_adjustFleet = {
 	tip = "Adjust"
 }
 
-_G.pg.gametip.levelScene_select_noitem = {
+_G.pg.base.gametip.levelScene_select_noitem = {
 	tip = "Out of consumable items."
 }
 
-_G.pg.gametip.story_setting_label = {
+_G.pg.base.gametip.story_setting_label = {
 	tip = "Text Auto-Scroll Speed"
 }
 
-_G.pg.gametip.login_arrears_tips = {
+_G.pg.base.gametip.login_arrears_tips = {
 	tip = "Fraudulent chargeback activity has been detected on your account. You are only able to log in to the following server(s): $1"
 }
 
-_G.pg.gametip.Supplement_pay1 = {
+_G.pg.base.gametip.Supplement_pay1 = {
 	tip = "Fraudulent chargeback activity has been confirmed on your account. Please resolve the disputed amount or contact customer support."
 }
 
-_G.pg.gametip.Supplement_pay2 = {
+_G.pg.base.gametip.Supplement_pay2 = {
 	tip = "Fraudulent chargeback activity has been confirmed on your account. Please resolve the disputed amount shown to the right, or contact customer support."
 }
 
-_G.pg.gametip.Supplement_pay3 = {
+_G.pg.base.gametip.Supplement_pay3 = {
 	tip = "All purchases have been successfully processed, and you are now able to log back in to the game. Thank you for your cooperation."
 }
 
-_G.pg.gametip.Supplement_pay4 = {
+_G.pg.base.gametip.Supplement_pay4 = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.world_ship_repair = {
+_G.pg.base.gametip.world_ship_repair = {
 	tip = "Please select target:"
 }
 
-_G.pg.gametip.Supplement_pay5 = {
+_G.pg.base.gametip.Supplement_pay5 = {
 	tip = "Tap on a confirmed case of fraudulent chargeback activity to view details and how to resolve the dispute."
 }
 
-_G.pg.gametip.area_unkown = {
+_G.pg.base.gametip.area_unkown = {
 	tip = "Unknown Sector"
 }
 
-_G.pg.gametip.Supplement_pay6 = {
+_G.pg.base.gametip.Supplement_pay6 = {
 	tip = "Purchased:"
 }
 
-_G.pg.gametip.Supplement_pay7 = {
+_G.pg.base.gametip.Supplement_pay7 = {
 	tip = "Refunded:"
 }
 
-_G.pg.gametip.Supplement_pay8 = {
+_G.pg.base.gametip.Supplement_pay8 = {
 	tip = "Left:$1"
 }
 
-_G.pg.gametip.world_battle_damage = {
+_G.pg.base.gametip.world_battle_damage = {
 	tip = "The <color=#ff5c5c>Tolls of War</color> debuff can be cleared with a Regroup and Rest command or by repairing your ships at a port. "
 }
 
-_G.pg.gametip.setting_story_speed_1 = {
+_G.pg.base.gametip.setting_story_speed_1 = {
 	tip = "Slow"
 }
 
-_G.pg.gametip.setting_story_speed_2 = {
+_G.pg.base.gametip.setting_story_speed_2 = {
 	tip = "Normal"
 }
 
-_G.pg.gametip.setting_story_speed_3 = {
+_G.pg.base.gametip.setting_story_speed_3 = {
 	tip = "Fast"
 }
 
-_G.pg.gametip.setting_story_speed_4 = {
+_G.pg.base.gametip.setting_story_speed_4 = {
 	tip = "Very Fast"
 }
 
-_G.pg.gametip.story_autoplay_setting_label = {
+_G.pg.base.gametip.story_autoplay_setting_label = {
 	tip = "Story Autoplay"
 }
 
-_G.pg.gametip.story_autoplay_setting_1 = {
+_G.pg.base.gametip.story_autoplay_setting_1 = {
 	tip = "Disabled"
 }
 
-_G.pg.gametip.story_autoplay_setting_2 = {
+_G.pg.base.gametip.story_autoplay_setting_2 = {
 	tip = "Enabled"
 }
 
-_G.pg.gametip.meta_shop_exchange_limit = {
+_G.pg.base.gametip.meta_shop_exchange_limit = {
 	tip = ""
 }
 
-_G.pg.gametip.meta_shop_unexchange_label = {
+_G.pg.base.gametip.meta_shop_unexchange_label = {
 	tip = ""
 }
 
-_G.pg.gametip.daily_level_quick_battle_label2 = {
+_G.pg.base.gametip.daily_level_quick_battle_label2 = {
 	tip = "Battle"
 }
 
-_G.pg.gametip.daily_level_quick_battle_label1 = {
+_G.pg.base.gametip.daily_level_quick_battle_label1 = {
 	tip = "Quick\nBattle x"
 }
 
-_G.pg.gametip.dailyLevel_quickfinish = {
+_G.pg.base.gametip.dailyLevel_quickfinish = {
 	tip = "Carrying out quick battles will grant rewards according to the total number of battle attempts.\nCommander EXP and Ship EXP will not be granted from quick battles, and Morale/Affection will not be affected.\nAre you sure you want to continue? "
 }
 
-_G.pg.gametip.daily_level_quick_battle_label3 = {
+_G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "Quick\nBattle "
 }
 
-_G.pg.gametip.LevelSignal = {
+_G.pg.base.gametip.LevelSignal = {
 	tip = "SOS Signal"
 }
 
-_G.pg.gametip.LevelSignal_go = {
+_G.pg.base.gametip.LevelSignal_go = {
 	tip = "Sortie"
 }
 
-_G.pg.gametip.LevelSignal_search = {
+_G.pg.base.gametip.LevelSignal_search = {
 	tip = "Search"
 }
 
-_G.pg.gametip.LevelSignal_times = {
+_G.pg.base.gametip.LevelSignal_times = {
 	tip = "Search Attempts"
 }
 
-_G.pg.gametip.LevelSignal_intensity = {
+_G.pg.base.gametip.LevelSignal_intensity = {
 	tip = "Signal Strength"
 }
 
-_G.pg.gametip.backyard_longpress_ship_tip = {
+_G.pg.base.gametip.backyard_longpress_ship_tip = {
 	tip = "<size=30>Tap and hold to view detailed character information.</size>"
 }
 
-_G.pg.gametip.common_npc_formation_tip = {
+_G.pg.base.gametip.common_npc_formation_tip = {
 	tip = "Temporary Recruits cannot participate."
 }
 
-_G.pg.gametip.gametip_xiaotiancheng = {
+_G.pg.base.gametip.gametip_xiaotiancheng = {
 	tip = {
 		{
 			info = "Summary: During the Young Tactician's Learning Log event, you can earn Trust for Amagi-chan. She will upgrade from a Temporary Recruit to a full addition to your dock once you've earned enough Trust with her."
@@ -17455,87 +17455,87 @@ _G.pg.gametip.gametip_xiaotiancheng = {
 	}
 }
 
-_G.pg.gametip.guild_task_autoaccept_1 = {
+_G.pg.base.gametip.guild_task_autoaccept_1 = {
 	tip = "A new Guild mission has been received: $1"
 }
 
-_G.pg.gametip.guild_task_autoaccept_2 = {
+_G.pg.base.gametip.guild_task_autoaccept_2 = {
 	tip = "A new Guild mission was automatically added: $1"
 }
 
-_G.pg.gametip.task_lock = {
+_G.pg.base.gametip.task_lock = {
 	tip = "Unlocked at level $1"
 }
 
-_G.pg.gametip.week_task_pt_name = {
+_G.pg.base.gametip.week_task_pt_name = {
 	tip = "Activity Points"
 }
 
-_G.pg.gametip.week_task_award_preview_label = {
+_G.pg.base.gametip.week_task_award_preview_label = {
 	tip = "Rewards"
 }
 
-_G.pg.gametip.week_task_title_label = {
+_G.pg.base.gametip.week_task_title_label = {
 	tip = "Weekly Activity Rewards"
 }
 
-_G.pg.gametip.cattery_op_clean_success = {
+_G.pg.base.gametip.cattery_op_clean_success = {
 	tip = "Your Comf-Forts have been cleaned!"
 }
 
-_G.pg.gametip.cattery_op_feed_success = {
+_G.pg.base.gametip.cattery_op_feed_success = {
 	tip = "You fed your Meowfficer(s)!"
 }
 
-_G.pg.gametip.cattery_op_play_success = {
+_G.pg.base.gametip.cattery_op_play_success = {
 	tip = "You played with your Meowfficer(s)!"
 }
 
-_G.pg.gametip.cattery_style_change_success = {
+_G.pg.base.gametip.cattery_style_change_success = {
 	tip = "The Comf-Fort theme has been changed."
 }
 
-_G.pg.gametip.cattery_add_commander_success = {
+_G.pg.base.gametip.cattery_add_commander_success = {
 	tip = "Meowfficer added."
 }
 
-_G.pg.gametip.cattery_remove_commander_success = {
+_G.pg.base.gametip.cattery_remove_commander_success = {
 	tip = "Meowfficer removed."
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_1 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_1 = {
 	tip = "How many Cat Box Quick Finishers would you like to use?"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_2 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_2 = {
 	tip = "Training time reduced by 20 min per Quick Finisher"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_3 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_3 = {
 	tip = "Time remaining after use:  "
 }
 
-_G.pg.gametip.commander_box_was_finished = {
+_G.pg.base.gametip.commander_box_was_finished = {
 	tip = "Meowfficer training complete."
 }
 
-_G.pg.gametip.comander_tool_cnt_is_reclac = {
+_G.pg.base.gametip.comander_tool_cnt_is_reclac = {
 	tip = "The required amount of Cat Box Quick Finishers has changed."
 }
 
-_G.pg.gametip.comander_tool_max_cnt = {
+_G.pg.base.gametip.comander_tool_max_cnt = {
 	tip = "Held: $1"
 }
 
-_G.pg.gametip.commander_op_play_level = {
+_G.pg.base.gametip.commander_op_play_level = {
 	tip = "Food Level: $1"
 }
 
-_G.pg.gametip.commander_op_feed_level = {
+_G.pg.base.gametip.commander_op_feed_level = {
 	tip = "Play Level: $1"
 }
 
-_G.pg.gametip.cat_home_help = {
+_G.pg.base.gametip.cat_home_help = {
 	tip = {
 		{
 			info = [[
@@ -17559,95 +17559,95 @@ Upgrading your Comf-Forts will give you access to additional Comf-Fort slots, Co
 	}
 }
 
-_G.pg.gametip.cat_accelfrate_notenough = {
+_G.pg.base.gametip.cat_accelfrate_notenough = {
 	tip = "You do not have enough Cat Box Quick Finishers."
 }
 
-_G.pg.gametip.cat_home_unlock = {
+_G.pg.base.gametip.cat_home_unlock = {
 	tip = "Comf-Forts are unlocked by leveling your Cat Lodge."
 }
 
-_G.pg.gametip.cat_sleep_notplay = {
+_G.pg.base.gametip.cat_sleep_notplay = {
 	tip = "You cannot select this Meowfficer as it is in a Comf-Fort."
 }
 
-_G.pg.gametip.cathome_style_unlock = {
+_G.pg.base.gametip.cathome_style_unlock = {
 	tip = "Comf-Fort themes are unlocked by leveling your Cat Lodge."
 }
 
-_G.pg.gametip.commander_is_in_cattery = {
+_G.pg.base.gametip.commander_is_in_cattery = {
 	tip = "This Meowfficer is in a Comf-Fort. "
 }
 
-_G.pg.gametip.cat_home_interaction = {
+_G.pg.base.gametip.cat_home_interaction = {
 	tip = "You've already done the following daily actions:"
 }
 
-_G.pg.gametip.cat_accelerate_left = {
+_G.pg.base.gametip.cat_accelerate_left = {
 	tip = "Actions left:"
 }
 
-_G.pg.gametip.common_clean = {
+_G.pg.base.gametip.common_clean = {
 	tip = "Clean"
 }
 
-_G.pg.gametip.common_feed = {
+_G.pg.base.gametip.common_feed = {
 	tip = "Feed"
 }
 
-_G.pg.gametip.common_play = {
+_G.pg.base.gametip.common_play = {
 	tip = "Play"
 }
 
-_G.pg.gametip.game_stopwords = {
+_G.pg.base.gametip.game_stopwords = {
 	tip = "Text box is now being hidden."
 }
 
-_G.pg.gametip.game_openwords = {
+_G.pg.base.gametip.game_openwords = {
 	tip = "Text box is now being displayed."
 }
 
-_G.pg.gametip.amusementpark_shop_enter = {
+_G.pg.base.gametip.amusementpark_shop_enter = {
 	tip = "Welcome to the Souvenir Shop! Anything catch your eye?"
 }
 
-_G.pg.gametip.amusementpark_shop_exchange = {
+_G.pg.base.gametip.amusementpark_shop_exchange = {
 	tip = "Sorry, but you'll need more tickets. Why don't you try your hand at finishing some more missions?"
 }
 
-_G.pg.gametip.amusementpark_shop_success = {
+_G.pg.base.gametip.amusementpark_shop_success = {
 	tip = "Enjoy your prize!"
 }
 
-_G.pg.gametip.amusementpark_shop_special = {
+_G.pg.base.gametip.amusementpark_shop_special = {
 	tip = "Check out these exclusive prizes! Act fast to snag 'em up!"
 }
 
-_G.pg.gametip.amusementpark_shop_end = {
+_G.pg.base.gametip.amusementpark_shop_end = {
 	tip = "Sorry, but we're all sold out!"
 }
 
-_G.pg.gametip.amusementpark_shop_0 = {
+_G.pg.base.gametip.amusementpark_shop_0 = {
 	tip = "Commander, looks like you have a bunch of tickets over there. Need some help spending them?"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel1 = {
+_G.pg.base.gametip.amusementpark_shop_carousel1 = {
 	tip = "♫~Fly me to the moon, and let me play among the stars~♫"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel2 = {
+_G.pg.base.gametip.amusementpark_shop_carousel2 = {
 	tip = "♫~Life blooms like a flower, far away or by the road~♫"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel3 = {
+_G.pg.base.gametip.amusementpark_shop_carousel3 = {
 	tip = "Take your time! I'll just be singing over here while I wait~"
 }
 
-_G.pg.gametip.amusementpark_shop_exchange2 = {
+_G.pg.base.gametip.amusementpark_shop_exchange2 = {
 	tip = "Are you sure you want to \nspend $1  <icon name=Props/AmusementparkshopPT w=0.7 h=0.7/>  to get $2 $3?"
 }
 
-_G.pg.gametip.amusementpark_help = {
+_G.pg.base.gametip.amusementpark_help = {
 	tip = {
 		{
 			info = [[
@@ -17684,7 +17684,7 @@ Regarding Minigames and the Early Summer Invitation
 	}
 }
 
-_G.pg.gametip.amusementpark_shop_help = {
+_G.pg.base.gametip.amusementpark_shop_help = {
 	tip = {
 		{
 			info = [[
@@ -17696,7 +17696,7 @@ How to Play
 	}
 }
 
-_G.pg.gametip.handshake_game_help = {
+_G.pg.base.gametip.handshake_game_help = {
 	tip = {
 		{
 			info = [[
@@ -17713,7 +17713,7 @@ _G.pg.gametip.handshake_game_help = {
 	}
 }
 
-_G.pg.gametip.MeixiV4_help = {
+_G.pg.base.gametip.MeixiV4_help = {
 	tip = {
 		{
 			info = "\"Silver Archives\" Prelude Event Info:"
@@ -17745,19 +17745,19 @@ _G.pg.gametip.MeixiV4_help = {
 	}
 }
 
-_G.pg.gametip.activity_permanent_total = {
+_G.pg.base.gametip.activity_permanent_total = {
 	tip = "Mini-Event Gallery "
 }
 
-_G.pg.gametip.word_investigate = {
+_G.pg.base.gametip.word_investigate = {
 	tip = "Recon "
 }
 
-_G.pg.gametip.ambush_display_none = {
+_G.pg.base.gametip.ambush_display_none = {
 	tip = "None "
 }
 
-_G.pg.gametip.activity_permanent_help = {
+_G.pg.base.gametip.activity_permanent_help = {
 	tip = {
 		{
 			info = [[
@@ -17771,27 +17771,27 @@ The Mini-Event Gallery lets you choose and replay old mini-events.
 	}
 }
 
-_G.pg.gametip.activity_permanent_tips1 = {
+_G.pg.base.gametip.activity_permanent_tips1 = {
 	tip = "<size=40>Would you like to replay the <color=#92fc63>$1</color> mini-event?</size>"
 }
 
-_G.pg.gametip.activity_permanent_tips2 = {
+_G.pg.base.gametip.activity_permanent_tips2 = {
 	tip = "You've completed the mini-event. Tap to confirm and \nreturn to the Mini-Event Gallery."
 }
 
-_G.pg.gametip.activity_permanent_tips3 = {
+_G.pg.base.gametip.activity_permanent_tips3 = {
 	tip = "Finish the current active mini-event before replaying another one."
 }
 
-_G.pg.gametip.activity_permanent_tips4 = {
+_G.pg.base.gametip.activity_permanent_tips4 = {
 	tip = "You can only replay 1 mini-event at a time. Finish your currently active mini-event to replay a different one."
 }
 
-_G.pg.gametip.activity_permanent_finished = {
+_G.pg.base.gametip.activity_permanent_finished = {
 	tip = "Completed"
 }
 
-_G.pg.gametip.idolmaster_main = {
+_G.pg.base.gametip.idolmaster_main = {
 	tip = {
 		{
 			info = [[
@@ -17819,27 +17819,27 @@ The Concert Venue is host to the following things:
 	}
 }
 
-_G.pg.gametip.idolmaster_game_tip1 = {
+_G.pg.base.gametip.idolmaster_game_tip1 = {
 	tip = "Would you like to resume the game?"
 }
 
-_G.pg.gametip.idolmaster_game_tip2 = {
+_G.pg.base.gametip.idolmaster_game_tip2 = {
 	tip = "Would you like to quit the game?"
 }
 
-_G.pg.gametip.idolmaster_game_tip3 = {
+_G.pg.base.gametip.idolmaster_game_tip3 = {
 	tip = "Current Score"
 }
 
-_G.pg.gametip.idolmaster_game_tip4 = {
+_G.pg.base.gametip.idolmaster_game_tip4 = {
 	tip = "High Score"
 }
 
-_G.pg.gametip.idolmaster_game_tip5 = {
+_G.pg.base.gametip.idolmaster_game_tip5 = {
 	tip = "Score"
 }
 
-_G.pg.gametip.idolmaster_collection = {
+_G.pg.base.gametip.idolmaster_collection = {
 	tip = {
 		{
 			info = "- Event Period: <color=#92fc63>7/22 – 8/4</color>\n· During this \"Azur Anthem\" event, you can gather a total of <color=#92fc63>14</color> Idol Profiles to receive the special <color=#92fc63>765 Production Trophy</color> furniture.\n"
@@ -17859,191 +17859,191 @@ _G.pg.gametip.idolmaster_collection = {
 	}
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling1 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling1 = {
 	tip = "Disappointed "
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling2 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling2 = {
 	tip = "Stranger"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling3 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling3 = {
 	tip = "Friend "
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling4 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
 	tip = "Colleague "
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling5 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling5 = {
 	tip = "Partner "
 }
 
-_G.pg.gametip.idolmaster_voice_name_propose = {
+_G.pg.base.gametip.idolmaster_voice_name_propose = {
 	tip = "Oath "
 }
 
-_G.pg.gametip.cartoon_all = {
+_G.pg.base.gametip.cartoon_all = {
 	tip = "All"
 }
 
-_G.pg.gametip.cartoon_notall = {
+_G.pg.base.gametip.cartoon_notall = {
 	tip = "Unread"
 }
 
-_G.pg.gametip.cartoon_haveno = {
+_G.pg.base.gametip.cartoon_haveno = {
 	tip = "You have not unlocked any comics."
 }
 
-_G.pg.gametip.res_cartoon_new_tip = {
+_G.pg.base.gametip.res_cartoon_new_tip = {
 	tip = "Comics have been updated!"
 }
 
-_G.pg.gametip.memory_actiivty_ex = {
+_G.pg.base.gametip.memory_actiivty_ex = {
 	tip = "Event"
 }
 
-_G.pg.gametip.memory_activity_sp = {
+_G.pg.base.gametip.memory_activity_sp = {
 	tip = "Special"
 }
 
-_G.pg.gametip.memory_activity_daily = {
+_G.pg.base.gametip.memory_activity_daily = {
 	tip = "Perm"
 }
 
-_G.pg.gametip.memory_activity_others = {
+_G.pg.base.gametip.memory_activity_others = {
 	tip = "Misc"
 }
 
-_G.pg.gametip.battle_end_title = {
+_G.pg.base.gametip.battle_end_title = {
 	tip = "Battle Results"
 }
 
-_G.pg.gametip.battle_end_subtitle1 = {
+_G.pg.base.gametip.battle_end_subtitle1 = {
 	tip = "Rewards"
 }
 
-_G.pg.gametip.battle_end_subtitle2 = {
+_G.pg.base.gametip.battle_end_subtitle2 = {
 	tip = "Tactical Learning"
 }
 
-_G.pg.gametip.meta_skill_dailyexp = {
+_G.pg.base.gametip.meta_skill_dailyexp = {
 	tip = "Daily EXP"
 }
 
-_G.pg.gametip.meta_skill_learn = {
+_G.pg.base.gametip.meta_skill_learn = {
 	tip = "*Tap to change the skill you'd like to upgrade."
 }
 
-_G.pg.gametip.meta_skill_maxtip = {
+_G.pg.base.gametip.meta_skill_maxtip = {
 	tip = "$1's selected skill has reached its max level. Would you like to head to the META Lab to change the skill being upgraded?"
 }
 
-_G.pg.gametip.meta_tactics_detail = {
+_G.pg.base.gametip.meta_tactics_detail = {
 	tip = "Details"
 }
 
-_G.pg.gametip.meta_tactics_unlock = {
+_G.pg.base.gametip.meta_tactics_unlock = {
 	tip = "Unlocked"
 }
 
-_G.pg.gametip.meta_tactics_switch = {
+_G.pg.base.gametip.meta_tactics_switch = {
 	tip = "Upgraded"
 }
 
-_G.pg.gametip.meta_skill_maxtip2 = {
+_G.pg.base.gametip.meta_skill_maxtip2 = {
 	tip = "Max Level"
 }
 
-_G.pg.gametip.activity_permanent_progress = {
+_G.pg.base.gametip.activity_permanent_progress = {
 	tip = "Progress:"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_1 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_1 = {
 	tip = "While you were gone for"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_2 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_2 = {
 	tip = "your Meowfficers had a nice nap, nya!"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_3 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_3 = {
 	tip = "They earned a total of"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_4 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_4 = {
 	tip = "EXP, nya~"
 }
 
-_G.pg.gametip.blueprint_catchup_by_gold_confirm = {
+_G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "Enhancing will cost $1 Coins. Do you wish to continue? "
 }
 
-_G.pg.gametip.tec_tip_no_consumption = {
+_G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "Free"
 }
 
-_G.pg.gametip.tec_tip_material_stock = {
+_G.pg.base.gametip.tec_tip_material_stock = {
 	tip = "Owned"
 }
 
-_G.pg.gametip.tec_tip_to_consumption = {
+_G.pg.base.gametip.tec_tip_to_consumption = {
 	tip = "Cost "
 }
 
-_G.pg.gametip.onebutton_max_tip = {
+_G.pg.base.gametip.onebutton_max_tip = {
 	tip = "Batch Analysis "
 }
 
-_G.pg.gametip.target_get_tip = {
+_G.pg.base.gametip.target_get_tip = {
 	tip = "Total Drops"
 }
 
-_G.pg.gametip.fleet_select_title = {
+_G.pg.base.gametip.fleet_select_title = {
 	tip = "Select Fleet"
 }
 
-_G.pg.gametip.backyard_rename_title = {
+_G.pg.base.gametip.backyard_rename_title = {
 	tip = "Rename Dorm"
 }
 
-_G.pg.gametip.backyard_rename_tip = {
+_G.pg.base.gametip.backyard_rename_tip = {
 	tip = "Enter a new Dorm name."
 }
 
-_G.pg.gametip.equip_add = {
+_G.pg.base.gametip.equip_add = {
 	tip = "— Tap to select gear —"
 }
 
-_G.pg.gametip.equipskin_add = {
+_G.pg.base.gametip.equipskin_add = {
 	tip = "— Tap to remove gear skin — "
 }
 
-_G.pg.gametip.equipskin_none = {
+_G.pg.base.gametip.equipskin_none = {
 	tip = "— Cannot use the selected skin —"
 }
 
-_G.pg.gametip.equipskin_typewrong = {
+_G.pg.base.gametip.equipskin_typewrong = {
 	tip = "— Cannot use the selected skin —"
 }
 
-_G.pg.gametip.equipskin_typewrong_en = {
+_G.pg.base.gametip.equipskin_typewrong_en = {
 	tip = "Gear Skin Unavailable "
 }
 
-_G.pg.gametip.user_is_banned = {
+_G.pg.base.gametip.user_is_banned = {
 	tip = "This account has been suspended.\nSuspension Time: ($1) "
 }
 
-_G.pg.gametip.user_is_forever_banned = {
+_G.pg.base.gametip.user_is_forever_banned = {
 	tip = "This account has been banned. "
 }
 
-_G.pg.gametip.old_class_is_close = {
+_G.pg.base.gametip.old_class_is_close = {
 	tip = "The Lecture Hall is being updated. You cannot add shipgirls. "
 }
 
-_G.pg.gametip.activity_event_building = {
+_G.pg.base.gametip.activity_event_building = {
 	tip = {
 		{
 			info = [[
@@ -18068,7 +18068,7 @@ You'll receive 1 minigame voucher every day during the event period. Any unspent
 	}
 }
 
-_G.pg.gametip.salvage_tips = {
+_G.pg.base.gametip.salvage_tips = {
 	tip = {
 		{
 			info = [[
@@ -18102,7 +18102,7 @@ The minigame ends when the timer reaches 0, or when you tap the Return button.]]
 	}
 }
 
-_G.pg.gametip.tips_shakebeads = {
+_G.pg.base.gametip.tips_shakebeads = {
 	tip = {
 		{
 			info = [[
@@ -18121,11 +18121,11 @@ White (4 available) - T4 Sakura Tech Pack (x2)]]
 	}
 }
 
-_G.pg.gametip.gem_shop_xinzhi_tip = {
+_G.pg.base.gametip.gem_shop_xinzhi_tip = {
 	tip = "Bought $1/15 times this month "
 }
 
-_G.pg.gametip.cowboy_tips = {
+_G.pg.base.gametip.cowboy_tips = {
 	tip = {
 		{
 			info = [[
@@ -18146,11 +18146,11 @@ The game ends when the timer reaches 0 or when you tap the End Game button.]]
 	}
 }
 
-_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+_G.pg.base.gametip.backyard_backyardScene_Disable_Rotation = {
 	tip = "This furniture cannot be rotated."
 }
 
-_G.pg.gametip.chazi_tips = {
+_G.pg.base.gametip.chazi_tips = {
 	tip = {
 		{
 			info = [[
@@ -18165,7 +18165,7 @@ _G.pg.gametip.chazi_tips = {
 	}
 }
 
-_G.pg.gametip.catchteasure_help = {
+_G.pg.base.gametip.catchteasure_help = {
 	tip = {
 		{
 			info = [[
@@ -18177,99 +18177,99 @@ To get the invitation, you have to play the Manjuu Salvaging Crew minigame once 
 	}
 }
 
-_G.pg.gametip.unlock_tips = {
+_G.pg.base.gametip.unlock_tips = {
 	tip = "Unlocks on Day $1 "
 }
 
-_G.pg.gametip.class_label_tran = {
+_G.pg.base.gametip.class_label_tran = {
 	tip = "Convert"
 }
 
-_G.pg.gametip.class_label_gen = {
+_G.pg.base.gametip.class_label_gen = {
 	tip = "Producing"
 }
 
-_G.pg.gametip.class_attr_store = {
+_G.pg.base.gametip.class_attr_store = {
 	tip = "Capacity "
 }
 
-_G.pg.gametip.class_attr_proficiency = {
+_G.pg.base.gametip.class_attr_proficiency = {
 	tip = "Proficiency Limit"
 }
 
-_G.pg.gametip.class_attr_getproficiency = {
+_G.pg.base.gametip.class_attr_getproficiency = {
 	tip = "Proficiency Gain"
 }
 
-_G.pg.gametip.class_attr_costproficiency = {
+_G.pg.base.gametip.class_attr_costproficiency = {
 	tip = "EXP Production"
 }
 
-_G.pg.gametip.class_label_upgrading = {
+_G.pg.base.gametip.class_label_upgrading = {
 	tip = "Upgrading"
 }
 
-_G.pg.gametip.class_label_upgradetime = {
+_G.pg.base.gametip.class_label_upgradetime = {
 	tip = "Upgrade Time"
 }
 
-_G.pg.gametip.class_label_oilfield = {
+_G.pg.base.gametip.class_label_oilfield = {
 	tip = "Oil Production"
 }
 
-_G.pg.gametip.class_label_goldfield = {
+_G.pg.base.gametip.class_label_goldfield = {
 	tip = "Coin Production"
 }
 
-_G.pg.gametip.class_res_maxlevel_tip = {
+_G.pg.base.gametip.class_res_maxlevel_tip = {
 	tip = "Max Level"
 }
 
-_G.pg.gametip.ship_exp_item_title = {
+_G.pg.base.gametip.ship_exp_item_title = {
 	tip = "Boost EXP "
 }
 
-_G.pg.gametip.ship_exp_item_label_clear = {
+_G.pg.base.gametip.ship_exp_item_label_clear = {
 	tip = "Clear"
 }
 
-_G.pg.gametip.ship_exp_item_label_recom = {
+_G.pg.base.gametip.ship_exp_item_label_recom = {
 	tip = "Auto"
 }
 
-_G.pg.gametip.ship_exp_item_label_confirm = {
+_G.pg.base.gametip.ship_exp_item_label_confirm = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.player_expResource_mail_fullBag = {
+_G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "You won't be able to collect resources that exceed the storage limit. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.tec_nation_award_finish = {
+_G.pg.base.gametip.tec_nation_award_finish = {
 	tip = "-Collected-"
 }
 
-_G.pg.gametip.coures_exp_overflow_tip = {
+_G.pg.base.gametip.coures_exp_overflow_tip = {
 	tip = "The <color=#ffde38>$1</color> EXP exceeding this ship's level cap will be lost. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.coures_exp_npc_tip = {
+_G.pg.base.gametip.coures_exp_npc_tip = {
 	tip = "Temporary characters who have not officially joined your fleet will leave after the event period ends. Are you sure you want to continue?"
 }
 
-_G.pg.gametip.coures_level_tip = {
+_G.pg.base.gametip.coures_level_tip = {
 	tip = "<color=#E0E0E0>* EXP Data Packs can be given to ships to boost their EXP.</color>"
 }
 
-_G.pg.gametip.coures_tip_material_stock = {
+_G.pg.base.gametip.coures_tip_material_stock = {
 	tip = "Held:"
 }
 
-_G.pg.gametip.coures_tip_exceeded_lv = {
+_G.pg.base.gametip.coures_tip_exceeded_lv = {
 	tip = "You've reached the maximum level cap."
 }
 
-_G.pg.gametip.eatgame_tips = {
+_G.pg.base.gametip.eatgame_tips = {
 	tip = {
 		{
 			info = [[
@@ -18285,31 +18285,31 @@ Play the Port Eating Contest minigame for a total of 7 days to get Yuudachi's ex
 	}
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_gunner = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
 	tip = "Hits needed to activate All-Out Assault halved "
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_torpedo = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_torpedo = {
 	tip = "Decreased torpedo spread angle "
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_aux = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "+30% stats gained from auxiliary gear "
 }
 
-_G.pg.gametip.map_event_lighthouse_tip_1 = {
+_G.pg.base.gametip.map_event_lighthouse_tip_1 = {
 	tip = "Lighthouse controlled. Searchlight support may activate during combat."
 }
 
-_G.pg.gametip.battlepass_main_tip_2110 = {
+_G.pg.base.gametip.battlepass_main_tip_2110 = {
 	tip = "During the campaign season (10/1 – 11/30), complete Cruise Missions to get great rewards, including Fuso META! "
 }
 
-_G.pg.gametip.battlepass_main_time = {
+_G.pg.base.gametip.battlepass_main_time = {
 	tip = "$1 d $2 hr"
 }
 
-_G.pg.gametip.battlepass_main_help_2110 = {
+_G.pg.base.gametip.battlepass_main_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -18347,7 +18347,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2110 = {
+_G.pg.base.gametip.cruise_task_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -18365,299 +18365,299 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.cruise_task_phase = {
+_G.pg.base.gametip.cruise_task_phase = {
 	tip = "Progress Level"
 }
 
-_G.pg.gametip.cruise_task_tips = {
+_G.pg.base.gametip.cruise_task_tips = {
 	tip = "Completed"
 }
 
-_G.pg.gametip.battlepass_task_quickfinish1 = {
+_G.pg.base.gametip.battlepass_task_quickfinish1 = {
 	tip = "Automatically completing this Cruise Mission will cost $1 Cruise Mission Voucher(s).\n(You currently have $2.)\nWould you like to continue?"
 }
 
-_G.pg.gametip.battlepass_task_quickfinish2 = {
+_G.pg.base.gametip.battlepass_task_quickfinish2 = {
 	tip = "You don't have enough Cruise Mission Vouchers. Would you like to use Gems to purchase more?\n(Cruise Mission Voucher(s) needed: $1)"
 }
 
-_G.pg.gametip.battlepass_task_quickfinish3 = {
+_G.pg.base.gametip.battlepass_task_quickfinish3 = {
 	tip = "Item used "
 }
 
-_G.pg.gametip.cruise_task_unlock = {
+_G.pg.base.gametip.cruise_task_unlock = {
 	tip = "Unlocks after $1 d $2 hr."
 }
 
-_G.pg.gametip.cruise_task_week = {
+_G.pg.base.gametip.cruise_task_week = {
 	tip = "Week $1"
 }
 
-_G.pg.gametip.battlepass_pay_timelimit = {
+_G.pg.base.gametip.battlepass_pay_timelimit = {
 	tip = "Remaining: $1"
 }
 
-_G.pg.gametip.battlepass_pay_acquire = {
+_G.pg.base.gametip.battlepass_pay_acquire = {
 	tip = "Buy Now to Get:"
 }
 
-_G.pg.gametip.battlepass_pay_attention = {
+_G.pg.base.gametip.battlepass_pay_attention = {
 	tip = "Would you like to head to the Cruise Missions to receive your rewards?"
 }
 
-_G.pg.gametip.battlepass_acquire_attention = {
+_G.pg.base.gametip.battlepass_acquire_attention = {
 	tip = "The Cruise Missions campaign season ends in $1 d $2 hr. You haven't received these rewards yet: "
 }
 
-_G.pg.gametip.battlepass_pay_tip = {
+_G.pg.base.gametip.battlepass_pay_tip = {
 	tip = "Unlock these Fair Winds Cruise rewards:"
 }
 
-_G.pg.gametip.battlepass_main_tip1 = {
+_G.pg.base.gametip.battlepass_main_tip1 = {
 	tip = "During the campaign season, complete cruise missions and accumulate [icon] to get great rewards, including Fusou META, blueprints, and more!"
 }
 
-_G.pg.gametip.battlepass_main_tip2 = {
+_G.pg.base.gametip.battlepass_main_tip2 = {
 	tip = "Unlock the Fair Winds Cruise Pass [icon] to get an exclusive outfit for Yorktown, as well as additional Fair Winds rewards!"
 }
 
-_G.pg.gametip.battlepass_main_tip3 = {
+_G.pg.base.gametip.battlepass_main_tip3 = {
 	tip = "During the campaign season, complete Cruise Missions and accumulate [icon] to get an exclusive skin for Yorktown, Gems, and more!"
 }
 
-_G.pg.gametip.battlepass_complete = {
+_G.pg.base.gametip.battlepass_complete = {
 	tip = "You've completed your Cruise Missions!"
 }
 
-_G.pg.gametip.shop_free_tag = {
+_G.pg.base.gametip.shop_free_tag = {
 	tip = "Free"
 }
 
-_G.pg.gametip.quick_equip_tip1 = {
+_G.pg.base.gametip.quick_equip_tip1 = {
 	tip = "In Use"
 }
 
-_G.pg.gametip.quick_equip_tip2 = {
+_G.pg.base.gametip.quick_equip_tip2 = {
 	tip = "Filter"
 }
 
-_G.pg.gametip.quick_equip_tip3 = {
+_G.pg.base.gametip.quick_equip_tip3 = {
 	tip = "Depot"
 }
 
-_G.pg.gametip.quick_equip_tip4 = {
+_G.pg.base.gametip.quick_equip_tip4 = {
 	tip = "No eligible gear."
 }
 
-_G.pg.gametip.quick_equip_tip5 = {
+_G.pg.base.gametip.quick_equip_tip5 = {
 	tip = "Please select the gear to change from the menu."
 }
 
-_G.pg.gametip.quick_equip_tip6 = {
+_G.pg.base.gametip.quick_equip_tip6 = {
 	tip = "Would you like to unequip the <color=#22ff22>$2</color> which is equipped on <color=#22ff22>$1</color>?"
 }
 
-_G.pg.gametip.retire_importantequipment_tips = {
+_G.pg.base.gametip.retire_importantequipment_tips = {
 	tip = "You cannot batch-scrap important gear. Proceed to the Depot if you wish to do this. "
 }
 
-_G.pg.gametip.settle_rewards_title = {
+_G.pg.base.gametip.settle_rewards_title = {
 	tip = "Clearing Rewards Obtained"
 }
 
-_G.pg.gametip.settle_rewards_subtitle = {
+_G.pg.base.gametip.settle_rewards_subtitle = {
 	tip = "SETTLE REWARDS"
 }
 
-_G.pg.gametip.total_rewards_subtitle = {
+_G.pg.base.gametip.total_rewards_subtitle = {
 	tip = "TOTAL REWARDS"
 }
 
-_G.pg.gametip.settle_rewards_text = {
+_G.pg.base.gametip.settle_rewards_text = {
 	tip = "Clearing Rewards"
 }
 
-_G.pg.gametip.use_oil_limit_help = {
+_G.pg.base.gametip.use_oil_limit_help = {
 	tip = "The Fuel cost of this battle (<icon name=oil w=0.7 h=0.7/>$1) exceeds the Fuel cost limit. It will be reduced to the maximum of <icon name=oil w=0.7 h=0.7/>$2."
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_tip = {
+_G.pg.base.gametip.formationScene_use_oil_limit_tip = {
 	tip = "Clearing Mode Cost Limit"
 }
 
-_G.pg.gametip.index_awakening2 = {
+_G.pg.base.gametip.index_awakening2 = {
 	tip = "Can Cog. AW+ "
 }
 
-_G.pg.gametip.index_upgrade = {
+_G.pg.base.gametip.index_upgrade = {
 	tip = "Can Lim. Brk. "
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_enemy = {
+_G.pg.base.gametip.formationScene_use_oil_limit_enemy = {
 	tip = "Escort"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_flagship = {
+_G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 	tip = "Flagship"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_submarine = {
+_G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "Subs"
 }
 
-_G.pg.gametip.attr_durability = {
+_G.pg.base.gametip.attr_durability = {
 	tip = "HP"
 }
 
-_G.pg.gametip.attr_armor = {
+_G.pg.base.gametip.attr_armor = {
 	tip = "Armor"
 }
 
-_G.pg.gametip.attr_reload = {
+_G.pg.base.gametip.attr_reload = {
 	tip = "RLD"
 }
 
-_G.pg.gametip.attr_cannon = {
+_G.pg.base.gametip.attr_cannon = {
 	tip = "FP"
 }
 
-_G.pg.gametip.attr_torpedo = {
+_G.pg.base.gametip.attr_torpedo = {
 	tip = "TRP"
 }
 
-_G.pg.gametip.attr_motion = {
+_G.pg.base.gametip.attr_motion = {
 	tip = "EVA"
 }
 
-_G.pg.gametip.attr_antiaircraft = {
+_G.pg.base.gametip.attr_antiaircraft = {
 	tip = "AA"
 }
 
-_G.pg.gametip.attr_air = {
+_G.pg.base.gametip.attr_air = {
 	tip = "AVI"
 }
 
-_G.pg.gametip.attr_hit = {
+_G.pg.base.gametip.attr_hit = {
 	tip = "ACC"
 }
 
-_G.pg.gametip.attr_antisub = {
+_G.pg.base.gametip.attr_antisub = {
 	tip = "ASW"
 }
 
-_G.pg.gametip.attr_oxy_max = {
+_G.pg.base.gametip.attr_oxy_max = {
 	tip = "OXY"
 }
 
-_G.pg.gametip.attr_ammo = {
+_G.pg.base.gametip.attr_ammo = {
 	tip = "AMO"
 }
 
-_G.pg.gametip.attr_hunting_range = {
+_G.pg.base.gametip.attr_hunting_range = {
 	tip = "ASR"
 }
 
-_G.pg.gametip.attr_luck = {
+_G.pg.base.gametip.attr_luck = {
 	tip = "LCK"
 }
 
-_G.pg.gametip.attr_consume = {
+_G.pg.base.gametip.attr_consume = {
 	tip = "Cost"
 }
 
-_G.pg.gametip.monthly_card_tip = {
+_G.pg.base.gametip.monthly_card_tip = {
 	tip = ""
 }
 
-_G.pg.gametip.shopping_error_time_limit = {
+_G.pg.base.gametip.shopping_error_time_limit = {
 	tip = "This pack is currently unavailable for purchase."
 }
 
-_G.pg.gametip.world_total_power = {
+_G.pg.base.gametip.world_total_power = {
 	tip = "Power"
 }
 
-_G.pg.gametip.world_mileage = {
+_G.pg.base.gametip.world_mileage = {
 	tip = "Total Distance"
 }
 
-_G.pg.gametip.world_pressing = {
+_G.pg.base.gametip.world_pressing = {
 	tip = "Zones Cleared"
 }
 
-_G.pg.gametip.Settings_title_FPS = {
+_G.pg.base.gametip.Settings_title_FPS = {
 	tip = "Frame Rate Settings"
 }
 
-_G.pg.gametip.Settings_title_Notification = {
+_G.pg.base.gametip.Settings_title_Notification = {
 	tip = "Push Notifications"
 }
 
-_G.pg.gametip.Settings_title_Other = {
+_G.pg.base.gametip.Settings_title_Other = {
 	tip = "Game Settings"
 }
 
-_G.pg.gametip.Settings_title_LoginJP = {
+_G.pg.base.gametip.Settings_title_LoginJP = {
 	tip = "Transfer Code"
 }
 
-_G.pg.gametip.Settings_title_Redeem = {
+_G.pg.base.gametip.Settings_title_Redeem = {
 	tip = "Gift Code"
 }
 
-_G.pg.gametip.Settings_title_AdjustScr = {
+_G.pg.base.gametip.Settings_title_AdjustScr = {
 	tip = "UI Adjustment"
 }
 
-_G.pg.gametip.Settings_title_Secpw = {
+_G.pg.base.gametip.Settings_title_Secpw = {
 	tip = "Password Setup"
 }
 
-_G.pg.gametip.Settings_title_Secpwlimop = {
+_G.pg.base.gametip.Settings_title_Secpwlimop = {
 	tip = "Password Restrictions"
 }
 
-_G.pg.gametip.Settings_title_agreement = {
+_G.pg.base.gametip.Settings_title_agreement = {
 	tip = "Terms of Use"
 }
 
-_G.pg.gametip.Settings_title_sound = {
+_G.pg.base.gametip.Settings_title_sound = {
 	tip = "Audio Settings"
 }
 
-_G.pg.gametip.Settings_title_resUpdate = {
+_G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "Download Assets"
 }
 
-_G.pg.gametip.equipment_info_change_tip = {
+_G.pg.base.gametip.equipment_info_change_tip = {
 	tip = "The name of the following equipment has changed."
 }
 
-_G.pg.gametip.equipment_info_change_name_a = {
+_G.pg.base.gametip.equipment_info_change_name_a = {
 	tip = "Twin 203mm Mle 1924 Main Gun Mount"
 }
 
-_G.pg.gametip.equipment_info_change_name_b = {
+_G.pg.base.gametip.equipment_info_change_name_b = {
 	tip = "Twin 203mm Mle 1931 Main Gun Mount"
 }
 
-_G.pg.gametip.equipment_info_change_text_before = {
+_G.pg.base.gametip.equipment_info_change_text_before = {
 	tip = "Before"
 }
 
-_G.pg.gametip.equipment_info_change_text_after = {
+_G.pg.base.gametip.equipment_info_change_text_after = {
 	tip = "After"
 }
 
-_G.pg.gametip.equipment_info_change_strengthen = {
+_G.pg.base.gametip.equipment_info_change_strengthen = {
 	tip = "Due to a change in upgrade material requirements, your upgraded <color=#FFDE38>$1</color> has been reset to +0, and the materials used have been refunded to you via in-game mail. "
 }
 
-_G.pg.gametip.world_boss_progress_tip_title = {
+_G.pg.base.gametip.world_boss_progress_tip_title = {
 	tip = "Coordinate Analysis \nReminder"
 }
 
-_G.pg.gametip.world_boss_progress_tip_desc = {
+_G.pg.base.gametip.world_boss_progress_tip_desc = {
 	tip = [[
 When toggled, this function determines how often you will receive pop-up prompts when collecting Coordinates during Operation Siren.
 OFF: Never
@@ -18665,7 +18665,7 @@ Every 100: Reminders will appear at 100 and 200 Coordinates
 Every 200: Reminders will appear only at 200 Coordinates]]
 }
 
-_G.pg.gametip.ssss_main_help = {
+_G.pg.base.gametip.ssss_main_help = {
 	tip = {
 		{
 			info = [[
@@ -18700,43 +18700,43 @@ The Grid Academy campaign encompasses the following:
 	}
 }
 
-_G.pg.gametip.mini_game_time = {
+_G.pg.base.gametip.mini_game_time = {
 	tip = "Time Left:"
 }
 
-_G.pg.gametip.mini_game_score = {
+_G.pg.base.gametip.mini_game_score = {
 	tip = "Score:"
 }
 
-_G.pg.gametip.mini_game_leave = {
+_G.pg.base.gametip.mini_game_leave = {
 	tip = "Quit the game?"
 }
 
-_G.pg.gametip.mini_game_pause = {
+_G.pg.base.gametip.mini_game_pause = {
 	tip = "Unpause the game?"
 }
 
-_G.pg.gametip.mini_game_cur_score = {
+_G.pg.base.gametip.mini_game_cur_score = {
 	tip = "Current Score:"
 }
 
-_G.pg.gametip.mini_game_high_score = {
+_G.pg.base.gametip.mini_game_high_score = {
 	tip = "High Score:"
 }
 
-_G.pg.gametip.monopoly_world_tip1 = {
+_G.pg.base.gametip.monopoly_world_tip1 = {
 	tip = "* Tap to move"
 }
 
-_G.pg.gametip.monopoly_world_tip2 = {
+_G.pg.base.gametip.monopoly_world_tip2 = {
 	tip = "During the event period, you'll receive $1 moves every day.\nTap on the controller to move around the board and collect rewards!\nClear 1 more lap to get:"
 }
 
-_G.pg.gametip.monopoly_world_tip3 = {
+_G.pg.base.gametip.monopoly_world_tip3 = {
 	tip = "During the event period, you'll receive $1 moves every day.\nTap on the controller to move around the board and collect rewards!"
 }
 
-_G.pg.gametip.help_monopoly_world = {
+_G.pg.base.gametip.help_monopoly_world = {
 	tip = {
 		{
 			info = "Rules:"
@@ -18809,111 +18809,111 @@ Lap 5: "Replica Dyna Rex" Furniture, 300 Arclight Crystals.]]
 	}
 }
 
-_G.pg.gametip.ssssmedal_tip = {
+_G.pg.base.gametip.ssssmedal_tip = {
 	tip = "Collect Siren data files ($1/12) to earn the SSSS Commemoration!"
 }
 
-_G.pg.gametip.ssssmedal_name = {
+_G.pg.base.gametip.ssssmedal_name = {
 	tip = "<color=#946EFF>Name:</color> "
 }
 
-_G.pg.gametip.ssssmedal_belonging = {
+_G.pg.base.gametip.ssssmedal_belonging = {
 	tip = "<color=#946EFF>Type:</color> "
 }
 
-_G.pg.gametip.ssssmedal_name1 = {
+_G.pg.base.gametip.ssssmedal_name1 = {
 	tip = "Augmented Scavenger: Wanderer"
 }
 
-_G.pg.gametip.ssssmedal_name2 = {
+_G.pg.base.gametip.ssssmedal_name2 = {
 	tip = "Augmented Chaser: Guardian"
 }
 
-_G.pg.gametip.ssssmedal_name3 = {
+_G.pg.base.gametip.ssssmedal_name3 = {
 	tip = "Augmented Navigator: Invader"
 }
 
-_G.pg.gametip.ssssmedal_name4 = {
+_G.pg.base.gametip.ssssmedal_name4 = {
 	tip = "Augmented Smasher: Annihilator"
 }
 
-_G.pg.gametip.ssssmedal_name5 = {
+_G.pg.base.gametip.ssssmedal_name5 = {
 	tip = "Augmented Conductor: Moderator"
 }
 
-_G.pg.gametip.ssssmedal_name6 = {
+_G.pg.base.gametip.ssssmedal_name6 = {
 	tip = "Purity"
 }
 
-_G.pg.gametip.ssssmedal_belonging1 = {
+_G.pg.base.gametip.ssssmedal_belonging1 = {
 	tip = "Enforcer"
 }
 
-_G.pg.gametip.ssssmedal_belonging2 = {
+_G.pg.base.gametip.ssssmedal_belonging2 = {
 	tip = "Some higher-up?"
 }
 
-_G.pg.gametip.ssssmedal_desc1 = {
+_G.pg.base.gametip.ssssmedal_desc1 = {
 	tip = "An augmented Scavenger-type Siren, capable of coursing through the waves at high speeds."
 }
 
-_G.pg.gametip.ssssmedal_desc2 = {
+_G.pg.base.gametip.ssssmedal_desc2 = {
 	tip = "An augmented Chaser-type Siren, versatile and boasting well-rounded firepower."
 }
 
-_G.pg.gametip.ssssmedal_desc3 = {
+_G.pg.base.gametip.ssssmedal_desc3 = {
 	tip = "An augmented Navigator-type Siren, sturdier but at the expense of lower maneuverability."
 }
 
-_G.pg.gametip.ssssmedal_desc4 = {
+_G.pg.base.gametip.ssssmedal_desc4 = {
 	tip = "An augmented Smasher-type Siren, equipped with extremely powerful firearms."
 }
 
-_G.pg.gametip.ssssmedal_desc5 = {
+_G.pg.base.gametip.ssssmedal_desc5 = {
 	tip = "An augmented Conductor-type Siren, enhanced with dedicated carrier-based aircraft and anti-air guns."
 }
 
-_G.pg.gametip.ssssmedal_desc6 = {
+_G.pg.base.gametip.ssssmedal_desc6 = {
 	tip = "How many times are you going to lose your memory..."
 }
 
-_G.pg.gametip.show_fate_demand_count = {
+_G.pg.base.gametip.show_fate_demand_count = {
 	tip = "Display number required for <color=#92fc63>Fate Simulation</color>."
 }
 
-_G.pg.gametip.show_design_demand_count = {
+_G.pg.base.gametip.show_design_demand_count = {
 	tip = "Display number required for <color=#92fc63>Dev Lv. 30</color>."
 }
 
-_G.pg.gametip.blueprint_select_overflow = {
+_G.pg.base.gametip.blueprint_select_overflow = {
 	tip = "You already have enough blueprints."
 }
 
-_G.pg.gametip.blueprint_select_overflow_tip = {
+_G.pg.base.gametip.blueprint_select_overflow_tip = {
 	tip = "You are exchanging for <color=#ff5c5c>$2</color> more <color=#22ff22>$1</color> than you need."
 }
 
-_G.pg.gametip.blueprint_exchange_empty_tip = {
+_G.pg.base.gametip.blueprint_exchange_empty_tip = {
 	tip = "No exchange items currently available."
 }
 
-_G.pg.gametip.blueprint_exchange_select_display = {
+_G.pg.base.gametip.blueprint_exchange_select_display = {
 	tip = "Number Selected / Number Needed"
 }
 
-_G.pg.gametip.build_rate_title = {
+_G.pg.base.gametip.build_rate_title = {
 	tip = "Build Rates"
 }
 
-_G.pg.gametip.build_pools_intro = {
+_G.pg.base.gametip.build_pools_intro = {
 	tip = "Use Wisdom Cubes and Coins to expand your fleet! "
 }
 
-_G.pg.gametip.build_detail_intro = {
+_G.pg.base.gametip.build_detail_intro = {
 	tip = "Max Simultaneous Orders:"
 }
 
-_G.pg.gametip.ssss_game_tip = {
+_G.pg.base.gametip.ssss_game_tip = {
 	tip = {
 		{
 			info = [[
@@ -18934,7 +18934,7 @@ _G.pg.gametip.ssss_game_tip = {
 	}
 }
 
-_G.pg.gametip.ssss_medal_tip = {
+_G.pg.base.gametip.ssss_medal_tip = {
 	tip = {
 		{
 			info = [[
@@ -18947,11 +18947,11 @@ _G.pg.gametip.ssss_medal_tip = {
 	}
 }
 
-_G.pg.gametip.battlepass_main_tip_2112 = {
+_G.pg.base.gametip.battlepass_main_tip_2112 = {
 	tip = "During the campaign season (12/1/2021 - 1/31/2022), complete Cruise Missions to get great rewards, including <color=#854747>Hiyou META</color>."
 }
 
-_G.pg.gametip.battlepass_main_help_2112 = {
+_G.pg.base.gametip.battlepass_main_help_2112 = {
 	tip = {
 		{
 			info = [[
@@ -18989,7 +18989,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2112 = {
+_G.pg.base.gametip.cruise_task_help_2112 = {
 	tip = {
 		{
 			info = [[
@@ -19007,7 +19007,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.littleSanDiego_npc = {
+_G.pg.base.gametip.littleSanDiego_npc = {
 	tip = {
 		{
 			info = [[
@@ -19026,107 +19026,107 @@ During the event, Li'l Sandy will provisionally join your fleet. Sortie to vario
 	}
 }
 
-_G.pg.gametip.tag_ship_unlocked = {
+_G.pg.base.gametip.tag_ship_unlocked = {
 	tip = "Entry Unlocked"
 }
 
-_G.pg.gametip.tag_ship_locked = {
+_G.pg.base.gametip.tag_ship_locked = {
 	tip = "Entry Locked"
 }
 
-_G.pg.gametip.acceleration_tips_1 = {
+_G.pg.base.gametip.acceleration_tips_1 = {
 	tip = "<color=#66472a><size=34>Do you want to use $1 Cat Box Quick Finisher(s) to speed up training $2 time(s)?</size></color>"
 }
 
-_G.pg.gametip.acceleration_tips_2 = {
+_G.pg.base.gametip.acceleration_tips_2 = {
 	tip = "<color=#827c7c><size=26>(Training will be complete for: $1 Rare Cat Box(es), $2 Elite Cat Box(es), and $3 Super Rare Cat Box(es)</size></color>"
 }
 
-_G.pg.gametip.noacceleration_tips = {
+_G.pg.base.gametip.noacceleration_tips = {
 	tip = "Currently no Cat Box needs speed up."
 }
 
-_G.pg.gametip.word_shipskin = {
+_G.pg.base.gametip.word_shipskin = {
 	tip = "Motif"
 }
 
-_G.pg.gametip.settings_sound_title_bgm = {
+_G.pg.base.gametip.settings_sound_title_bgm = {
 	tip = " BGM Volume"
 }
 
-_G.pg.gametip.settings_sound_title_effct = {
+_G.pg.base.gametip.settings_sound_title_effct = {
 	tip = " SFX Volume"
 }
 
-_G.pg.gametip.settings_sound_title_cv = {
+_G.pg.base.gametip.settings_sound_title_cv = {
 	tip = " Voice Volume"
 }
 
-_G.pg.gametip.setting_resdownload_title_gallery = {
+_G.pg.base.gametip.setting_resdownload_title_gallery = {
 	tip = "Update Gallery"
 }
 
-_G.pg.gametip.setting_resdownload_title_live2d = {
+_G.pg.base.gametip.setting_resdownload_title_live2d = {
 	tip = "Update Live2D"
 }
 
-_G.pg.gametip.setting_resdownload_title_music = {
+_G.pg.base.gametip.setting_resdownload_title_music = {
 	tip = "Update BGM"
 }
 
-_G.pg.gametip.setting_resdownload_title_sound = {
+_G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "Update Voices"
 }
 
-_G.pg.gametip.settings_battle_title = {
+_G.pg.base.gametip.settings_battle_title = {
 	tip = "Control Adjustment"
 }
 
-_G.pg.gametip.settings_battle_tip = {
+_G.pg.base.gametip.settings_battle_tip = {
 	tip = "Tap the Edit button to adjust the placement of your controls"
 }
 
-_G.pg.gametip.settings_battle_Btn_edit = {
+_G.pg.base.gametip.settings_battle_Btn_edit = {
 	tip = "Edit"
 }
 
-_G.pg.gametip.settings_battle_Btn_reset = {
+_G.pg.base.gametip.settings_battle_Btn_reset = {
 	tip = "Default"
 }
 
-_G.pg.gametip.settings_battle_Btn_save = {
+_G.pg.base.gametip.settings_battle_Btn_save = {
 	tip = "Save"
 }
 
-_G.pg.gametip.settings_battle_Btn_cancel = {
+_G.pg.base.gametip.settings_battle_Btn_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.settings_pwd_label_close = {
+_G.pg.base.gametip.settings_pwd_label_close = {
 	tip = "Disabled"
 }
 
-_G.pg.gametip.settings_pwd_label_open = {
+_G.pg.base.gametip.settings_pwd_label_open = {
 	tip = "Enabled"
 }
 
-_G.pg.gametip.word_frame = {
+_G.pg.base.gametip.word_frame = {
 	tip = " FPS"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_label = {
+_G.pg.base.gametip.Settings_title_Redeem_input_label = {
 	tip = "Serial Code:"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_submit = {
+_G.pg.base.gametip.Settings_title_Redeem_input_submit = {
 	tip = "Submit"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_placeholder = {
+_G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
 	tip = "Only accepts alphanumeric characters"
 }
 
-_G.pg.gametip.CurlingGame_tips1 = {
+_G.pg.base.gametip.CurlingGame_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19144,7 +19144,7 @@ _G.pg.gametip.CurlingGame_tips1 = {
 	}
 }
 
-_G.pg.gametip.maid_task_tips1 = {
+_G.pg.base.gametip.maid_task_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19162,31 +19162,31 @@ _G.pg.gametip.maid_task_tips1 = {
 	}
 }
 
-_G.pg.gametip.shop_diamond_title = {
+_G.pg.base.gametip.shop_diamond_title = {
 	tip = "Gems"
 }
 
-_G.pg.gametip.shop_gift_title = {
+_G.pg.base.gametip.shop_gift_title = {
 	tip = "Packs"
 }
 
-_G.pg.gametip.shop_item_title = {
+_G.pg.base.gametip.shop_item_title = {
 	tip = "Items"
 }
 
-_G.pg.gametip.shop_charge_level_limit = {
+_G.pg.base.gametip.shop_charge_level_limit = {
 	tip = " Unlocks at Lv."
 }
 
-_G.pg.gametip.backhill_cantupbuilding = {
+_G.pg.base.gametip.backhill_cantupbuilding = {
 	tip = "The $1 must be upgraded before you can proceed."
 }
 
-_G.pg.gametip.pray_cant_tips = {
+_G.pg.base.gametip.pray_cant_tips = {
 	tip = "Hang up Ema to receive Offerings to use at the Shrine."
 }
 
-_G.pg.gametip.help_xinnian2022_feast = {
+_G.pg.base.gametip.help_xinnian2022_feast = {
 	tip = {
 		{
 			info = [[
@@ -19221,7 +19221,7 @@ The New Year Port campaign encompasses the following:
 	}
 }
 
-_G.pg.gametip.Pray_activity_tips1 = {
+_G.pg.base.gametip.Pray_activity_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19245,11 +19245,11 @@ In addition to providing buffs, hanging up Ema will also grant you 1 Origami Cra
 	}
 }
 
-_G.pg.gametip.backhill_notenoughbuilding = {
+_G.pg.base.gametip.backhill_notenoughbuilding = {
 	tip = "Earn more Upgrade Permits by completing  <color=#92fc63>Tonic and Tea</color> event missions."
 }
 
-_G.pg.gametip.help_xinnian2022_z28 = {
+_G.pg.base.gametip.help_xinnian2022_z28 = {
 	tip = {
 		{
 			info = [[
@@ -19264,7 +19264,7 @@ The Fireworks Workshop allows you to create your own unique fireworks and send t
 	}
 }
 
-_G.pg.gametip.help_xinnian2022_firework = {
+_G.pg.base.gametip.help_xinnian2022_firework = {
 	tip = {
 		{
 			info = [[
@@ -19281,119 +19281,119 @@ The Fireworks Workshop allows you to create your own unique fireworks and send t
 	}
 }
 
-_G.pg.gametip.settings_title_account_del = {
+_G.pg.base.gametip.settings_title_account_del = {
 	tip = "Account"
 }
 
-_G.pg.gametip.settings_text_account_del = {
+_G.pg.base.gametip.settings_text_account_del = {
 	tip = "Account Deletion"
 }
 
-_G.pg.gametip.settings_text_account_del_desc = {
+_G.pg.base.gametip.settings_text_account_del_desc = {
 	tip = "Deleting your account will erase your Azur Lane game progress across all servers. Any bind codes and other authentication data associated with accounts on third-party sites will also be deleted."
 }
 
-_G.pg.gametip.settings_text_account_del_confirm = {
+_G.pg.base.gametip.settings_text_account_del_confirm = {
 	tip = "Request received. Your account will be deleted soon."
 }
 
-_G.pg.gametip.settings_text_account_del_btn = {
+_G.pg.base.gametip.settings_text_account_del_btn = {
 	tip = "Delete"
 }
 
-_G.pg.gametip.box_account_del_input = {
+_G.pg.base.gametip.box_account_del_input = {
 	tip = "Write $1 in the box below to start the deletion process."
 }
 
-_G.pg.gametip.box_account_del_target = {
+_G.pg.base.gametip.box_account_del_target = {
 	tip = "Delete"
 }
 
-_G.pg.gametip.box_account_del_click = {
+_G.pg.base.gametip.box_account_del_click = {
 	tip = "Tap to write..."
 }
 
-_G.pg.gametip.box_account_del_success_content = {
+_G.pg.base.gametip.box_account_del_success_content = {
 	tip = "Your account will be deleted in $1."
 }
 
-_G.pg.gametip.box_account_reborn_content = {
+_G.pg.base.gametip.box_account_reborn_content = {
 	tip = "Your account is due to be deleted in $1 day(s). Logging in to the game will cancel your deletion request.\nLog in anyway?"
 }
 
-_G.pg.gametip.tip_account_del_dismatch = {
+_G.pg.base.gametip.tip_account_del_dismatch = {
 	tip = "The data you input is incorrect."
 }
 
-_G.pg.gametip.tip_account_del_reborn = {
+_G.pg.base.gametip.tip_account_del_reborn = {
 	tip = "Your account deletion request has been canceled."
 }
 
-_G.pg.gametip.player_manifesto_placeholder = {
+_G.pg.base.gametip.player_manifesto_placeholder = {
 	tip = "Write something..."
 }
 
-_G.pg.gametip.box_ship_del_click = {
+_G.pg.base.gametip.box_ship_del_click = {
 	tip = "Tap to input "
 }
 
-_G.pg.gametip.box_equipment_del_click = {
+_G.pg.base.gametip.box_equipment_del_click = {
 	tip = "Tap to input "
 }
 
-_G.pg.gametip.change_player_name_title = {
+_G.pg.base.gametip.change_player_name_title = {
 	tip = "Change Username"
 }
 
-_G.pg.gametip.change_player_name_subtitle = {
+_G.pg.base.gametip.change_player_name_subtitle = {
 	tip = "Write your username."
 }
 
-_G.pg.gametip.change_player_name_input_tip = {
+_G.pg.base.gametip.change_player_name_input_tip = {
 	tip = "Write your username."
 }
 
-_G.pg.gametip.tactics_class_start = {
+_G.pg.base.gametip.tactics_class_start = {
 	tip = "Start"
 }
 
-_G.pg.gametip.tactics_class_cancel = {
+_G.pg.base.gametip.tactics_class_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.tactics_class_get_exp = {
+_G.pg.base.gametip.tactics_class_get_exp = {
 	tip = "Skill EXP"
 }
 
-_G.pg.gametip.tactics_class_spend_time = {
+_G.pg.base.gametip.tactics_class_spend_time = {
 	tip = "Time Needed"
 }
 
-_G.pg.gametip.build_ticket_description = {
+_G.pg.base.gametip.build_ticket_description = {
 	tip = "*Removed after the event ends."
 }
 
-_G.pg.gametip.build_ticket_expire_warning = {
+_G.pg.base.gametip.build_ticket_expire_warning = {
 	tip = "$1 of these items are about to expire."
 }
 
-_G.pg.gametip.tip_build_ticket_expired = {
+_G.pg.base.gametip.tip_build_ticket_expired = {
 	tip = "The event has ended. $1 can no longer be used."
 }
 
-_G.pg.gametip.tip_build_ticket_exchange_expired = {
+_G.pg.base.gametip.tip_build_ticket_exchange_expired = {
 	tip = "The Limited Construction period has ended; you are no longer able to use $1."
 }
 
-_G.pg.gametip.tip_build_ticket_not_enough = {
+_G.pg.base.gametip.tip_build_ticket_not_enough = {
 	tip = "Insufficient $1."
 }
 
-_G.pg.gametip.build_ship_tip_use_ticket = {
+_G.pg.base.gametip.build_ship_tip_use_ticket = {
 	tip = "The following items will be consumed to build <color=#ffff00>$1 time(s)</color>:\n<color=$5>$4 x$3</color>"
 }
 
-_G.pg.gametip.springfes_tips1 = {
+_G.pg.base.gametip.springfes_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19418,15 +19418,15 @@ The Spring Pavilion campaign encompasses the following:
 	}
 }
 
-_G.pg.gametip.worldinpicture_tavel_point_tip = {
+_G.pg.base.gametip.worldinpicture_tavel_point_tip = {
 	tip = "Insufficient Exploration Points."
 }
 
-_G.pg.gametip.worldinpicture_draw_point_tip = {
+_G.pg.base.gametip.worldinpicture_draw_point_tip = {
 	tip = "Insufficient Landmark Points."
 }
 
-_G.pg.gametip.worldinpicture_help = {
+_G.pg.base.gametip.worldinpicture_help = {
 	tip = {
 		{
 			info = [[
@@ -19444,7 +19444,7 @@ _G.pg.gametip.worldinpicture_help = {
 	}
 }
 
-_G.pg.gametip.worldinpicture_task_help = {
+_G.pg.base.gametip.worldinpicture_task_help = {
 	tip = {
 		{
 			info = [[
@@ -19462,59 +19462,59 @@ _G.pg.gametip.worldinpicture_task_help = {
 	}
 }
 
-_G.pg.gametip.worldinpicture_not_area_can_draw = {
+_G.pg.base.gametip.worldinpicture_not_area_can_draw = {
 	tip = "There are no available Landmark tiles."
 }
 
-_G.pg.gametip.missile_attack_area_confirm = {
+_G.pg.base.gametip.missile_attack_area_confirm = {
 	tip = "Launch Strike"
 }
 
-_G.pg.gametip.missile_attack_area_cancel = {
+_G.pg.base.gametip.missile_attack_area_cancel = {
 	tip = "Cancel Strike"
 }
 
-_G.pg.gametip.shipchange_alert_infleet = {
+_G.pg.base.gametip.shipchange_alert_infleet = {
 	tip = "This ship is assigned to another fleet. Remove ship from that fleet?"
 }
 
-_G.pg.gametip.shipchange_alert_inpvp = {
+_G.pg.base.gametip.shipchange_alert_inpvp = {
 	tip = "This ship is assigned to your exercise attack fleet. Remove ship from that fleet?"
 }
 
-_G.pg.gametip.shipchange_alert_inexercise = {
+_G.pg.base.gametip.shipchange_alert_inexercise = {
 	tip = "This ship is assigned to your exercise defense fleet. Remove ship from that fleet?"
 }
 
-_G.pg.gametip.shipchange_alert_inworld = {
+_G.pg.base.gametip.shipchange_alert_inworld = {
 	tip = "This ship is assigned to an Operation Siren fleet. Remove ship from that fleet?"
 }
 
-_G.pg.gametip.shipchange_alert_inguildbossevent = {
+_G.pg.base.gametip.shipchange_alert_inguildbossevent = {
 	tip = "This ship is assigned to a Guild boss fight fleet. Remove ship from that fleet?"
 }
 
-_G.pg.gametip.shipchange_alert_indiff = {
+_G.pg.base.gametip.shipchange_alert_indiff = {
 	tip = "This ship is assigned to another fleet. Remove ship from that fleet?"
 }
 
-_G.pg.gametip.shipmodechange_reject_1stfleet_only = {
+_G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 	tip = "You cannot leave Fleet 1 without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
 }
 
-_G.pg.gametip.shipmodechange_reject_worldfleet_only = {
+_G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "You cannot leave this fleet without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
 }
 
-_G.pg.gametip.shipmodechange_reject_inactivity = {
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
 	tip = "This ship is assigned to a Challenge/Contribution-type event fleet. Replace her with a different ship and try again."
 }
 
-_G.pg.gametip.monopoly3thre_tip = {
+_G.pg.base.gametip.monopoly3thre_tip = {
 	tip = "※Commanders who already own this outfit will instead receive Coins."
 }
 
-_G.pg.gametip.fushun_game3_tip = {
+_G.pg.base.gametip.fushun_game3_tip = {
 	tip = {
 		{
 			info = [[
@@ -19538,11 +19538,11 @@ You will receive 1 Minigame Point daily up to February 2nd. Finishing the miniga
 	}
 }
 
-_G.pg.gametip.battlepass_main_tip_2202 = {
+_G.pg.base.gametip.battlepass_main_tip_2202 = {
 	tip = "Complete Cruise Missions between 1/2 - 31/3 to receive <color=#854747>Junyou META</color> and other rewards!"
 }
 
-_G.pg.gametip.battlepass_main_help_2202 = {
+_G.pg.base.gametip.battlepass_main_help_2202 = {
 	tip = {
 		{
 			info = [[
@@ -19580,7 +19580,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2202 = {
+_G.pg.base.gametip.cruise_task_help_2202 = {
 	tip = {
 		{
 			info = [[
@@ -19598,11 +19598,11 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.battlepass_main_tip_2204 = {
+_G.pg.base.gametip.battlepass_main_tip_2204 = {
 	tip = "Complete Cruise Missions between 1/4 - 31/5 to receive <color=#854747>Yamashiro META</color> and other rewards!"
 }
 
-_G.pg.gametip.battlepass_main_help_2204 = {
+_G.pg.base.gametip.battlepass_main_help_2204 = {
 	tip = {
 		{
 			info = [[
@@ -19640,7 +19640,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2204 = {
+_G.pg.base.gametip.cruise_task_help_2204 = {
 	tip = {
 		{
 			info = [[
@@ -19658,55 +19658,55 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.attrset_reset = {
+_G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
 
-_G.pg.gametip.attrset_save = {
+_G.pg.base.gametip.attrset_save = {
 	tip = "Save"
 }
 
-_G.pg.gametip.attrset_ask_save = {
+_G.pg.base.gametip.attrset_ask_save = {
 	tip = "Are you sure you want to save your current settings?"
 }
 
-_G.pg.gametip.attrset_save_success = {
+_G.pg.base.gametip.attrset_save_success = {
 	tip = "Successfully saved."
 }
 
-_G.pg.gametip.attrset_disable = {
+_G.pg.base.gametip.attrset_disable = {
 	tip = "Unable to change settings - affected ships are currently sortieing."
 }
 
-_G.pg.gametip.attrset_input_ill = {
+_G.pg.base.gametip.attrset_input_ill = {
 	tip = "Input error."
 }
 
-_G.pg.gametip.eventshop_time_hint = {
+_G.pg.base.gametip.eventshop_time_hint = {
 	tip = "Exchange shop available until $1 maintenance."
 }
 
-_G.pg.gametip.purchase_backyard_theme_desc_for_onekey = {
+_G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
 	tip = "Buy one of every furniture in the set."
 }
 
-_G.pg.gametip.purchase_backyard_theme_desc_for_all = {
+_G.pg.base.gametip.purchase_backyard_theme_desc_for_all = {
 	tip = "Buy everything in this set."
 }
 
-_G.pg.gametip.sp_no_quota = {
+_G.pg.base.gametip.sp_no_quota = {
 	tip = "You cannot sortie any more today."
 }
 
-_G.pg.gametip.fur_all_buy = {
+_G.pg.base.gametip.fur_all_buy = {
 	tip = "Buy All"
 }
 
-_G.pg.gametip.fur_onekey_buy = {
+_G.pg.base.gametip.fur_onekey_buy = {
 	tip = "Buy Set"
 }
 
-_G.pg.gametip.littleRenown_npc = {
+_G.pg.base.gametip.littleRenown_npc = {
 	tip = {
 		{
 			info = "- Overview -\nDuring the event, Little Renown will provisionally join your fleet. Sortie to various stages to accumulate Trust. Collect enough Trust to have Little Renown permanently join your fleet!"
@@ -19735,271 +19735,271 @@ _G.pg.gametip.littleRenown_npc = {
 	}
 }
 
-_G.pg.gametip.tech_package_tip = {
+_G.pg.base.gametip.tech_package_tip = {
 	tip = "The PR Voucher can only be bought once for each series. You may buy the Blueprints separately after buying the Voucher.\nThe items will be sent to your Mailbox."
 }
 
-_G.pg.gametip.backyard_food_shop_tip = {
+_G.pg.base.gametip.backyard_food_shop_tip = {
 	tip = "Will cost:"
 }
 
-_G.pg.gametip.dorm_2f_lock = {
+_G.pg.base.gametip.dorm_2f_lock = {
 	tip = "Locked"
 }
 
-_G.pg.gametip.word_get_way = {
+_G.pg.base.gametip.word_get_way = {
 	tip = "Acquisition method:"
 }
 
-_G.pg.gametip.word_get_date = {
+_G.pg.base.gametip.word_get_date = {
 	tip = "Acquisition date:"
 }
 
-_G.pg.gametip.enter_theme_name = {
+_G.pg.base.gametip.enter_theme_name = {
 	tip = "Enter a name for your Dorm theme."
 }
 
-_G.pg.gametip.enter_extend_food_label = {
+_G.pg.base.gametip.enter_extend_food_label = {
 	tip = "Expand"
 }
 
-_G.pg.gametip.backyard_extend_tip_1 = {
+_G.pg.base.gametip.backyard_extend_tip_1 = {
 	tip = "Need "
 }
 
-_G.pg.gametip.backyard_extend_tip_2 = {
+_G.pg.base.gametip.backyard_extend_tip_2 = {
 	tip = "Expansion License "
 }
 
-_G.pg.gametip.backyard_extend_tip_3 = {
+_G.pg.base.gametip.backyard_extend_tip_3 = {
 	tip = "You have:"
 }
 
-_G.pg.gametip.backyard_extend_tip_4 = {
+_G.pg.base.gametip.backyard_extend_tip_4 = {
 	tip = ""
 }
 
-_G.pg.gametip.email_text = {
+_G.pg.base.gametip.email_text = {
 	tip = "Email"
 }
 
-_G.pg.gametip.emailhold_text = {
+_G.pg.base.gametip.emailhold_text = {
 	tip = "  a Verification Code will be sent to this email "
 }
 
-_G.pg.gametip.code_text = {
+_G.pg.base.gametip.code_text = {
 	tip = "Verification Code"
 }
 
-_G.pg.gametip.codehold_text = {
+_G.pg.base.gametip.codehold_text = {
 	tip = "  your Verification Code "
 }
 
-_G.pg.gametip.genBtn_text = {
+_G.pg.base.gametip.genBtn_text = {
 	tip = "Generate"
 }
 
-_G.pg.gametip.desc_text = {
+_G.pg.base.gametip.desc_text = {
 	tip = "The Verification Code will expire in 30 minutes once it's been sent to your inbox."
 }
 
-_G.pg.gametip.loginBtn_text = {
+_G.pg.base.gametip.loginBtn_text = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.verification_code_req_tip1 = {
+_G.pg.base.gametip.verification_code_req_tip1 = {
 	tip = "The e-mail box cannot be left blank."
 }
 
-_G.pg.gametip.verification_code_req_tip2 = {
+_G.pg.base.gametip.verification_code_req_tip2 = {
 	tip = "Verification request successful! Please check your e-mail for the verification code."
 }
 
-_G.pg.gametip.verification_code_req_tip3 = {
+_G.pg.base.gametip.verification_code_req_tip3 = {
 	tip = "Email and Verification Code cannot be empty"
 }
 
-_G.pg.gametip.levelScene_remaster_story_tip = {
+_G.pg.base.gametip.levelScene_remaster_story_tip = {
 	tip = "You've unlocked the cutscenes of $1.\nThey can be viewed through the Memories menu."
 }
 
-_G.pg.gametip.levelScene_remaster_unlock_tip = {
-	tip = "*All associated event cutscenes will be unlocked after clearing $1 - $2 in the War Archives."
+_G.pg.base.gametip.levelScene_remaster_unlock_tip = {
+	tip = "*All associated event cutscenes will be unlocked after clearing\n $1 - $2 in the War Archives."
 }
 
-_G.pg.gametip.linkBtn_text = {
+_G.pg.base.gametip.linkBtn_text = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.yostar_link_title = {
+_G.pg.base.gametip.yostar_link_title = {
 	tip = "Yostar Account:$1"
 }
 
-_G.pg.gametip.level_remaster_tip1 = {
+_G.pg.base.gametip.level_remaster_tip1 = {
 	tip = "Drop Stage: "
 }
 
-_G.pg.gametip.level_remaster_tip2 = {
+_G.pg.base.gametip.level_remaster_tip2 = {
 	tip = "Sortie"
 }
 
-_G.pg.gametip.level_remaster_tip3 = {
+_G.pg.base.gametip.level_remaster_tip3 = {
 	tip = "Collect"
 }
 
-_G.pg.gametip.level_remaster_tip4 = {
+_G.pg.base.gametip.level_remaster_tip4 = {
 	tip = "$1 Boss Fleets sunk"
 }
 
-_G.pg.gametip.pay_cancel = {
+_G.pg.base.gametip.pay_cancel = {
 	tip = "Cancel Payment"
 }
 
-_G.pg.gametip.order_error = {
+_G.pg.base.gametip.order_error = {
 	tip = "Balance Calculation Failed"
 }
 
-_G.pg.gametip.pay_fail = {
+_G.pg.base.gametip.pay_fail = {
 	tip = "Payment Failed"
 }
 
-_G.pg.gametip.user_cancel = {
+_G.pg.base.gametip.user_cancel = {
 	tip = "Cancelled by Player"
 }
 
-_G.pg.gametip.system_error = {
+_G.pg.base.gametip.system_error = {
 	tip = "System Error"
 }
 
-_G.pg.gametip.time_out = {
+_G.pg.base.gametip.time_out = {
 	tip = "You are not logged in or afk too long"
 }
 
-_G.pg.gametip.server_error = {
+_G.pg.base.gametip.server_error = {
 	tip = "Server communication Error"
 }
 
-_G.pg.gametip.data_error = {
+_G.pg.base.gametip.data_error = {
 	tip = "Data Verification Failed"
 }
 
-_G.pg.gametip.share_success = {
+_G.pg.base.gametip.share_success = {
 	tip = "Sharing Successfully"
 }
 
-_G.pg.gametip.shoot_screen_fail = {
+_G.pg.base.gametip.shoot_screen_fail = {
 	tip = "Screenshot Failed"
 }
 
-_G.pg.gametip.server_name = {
+_G.pg.base.gametip.server_name = {
 	tip = "Event Server"
 }
 
-_G.pg.gametip.non_support_share = {
+_G.pg.base.gametip.non_support_share = {
 	tip = "Commander, the \"Share\" option is still unavailable."
 }
 
-_G.pg.gametip.save_success = {
+_G.pg.base.gametip.save_success = {
 	tip = "Data Saved Successfully"
 }
 
-_G.pg.gametip.word_guild_join_err1 = {
+_G.pg.base.gametip.word_guild_join_err1 = {
 	tip = "You can't join multiple guilds."
 }
 
-_G.pg.gametip.task_empty_tip_1 = {
+_G.pg.base.gametip.task_empty_tip_1 = {
 	tip = "No events available now!"
 }
 
-_G.pg.gametip.task_empty_tip_2 = {
+_G.pg.base.gametip.task_empty_tip_2 = {
 	tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!"
 }
 
-_G.pg.gametip["airi_error_code_ 100210"] = {
+_G.pg.base.gametip["airi_error_code_ 100210"] = {
 	tip = "TW Failed to authorize, unable to login"
 }
 
-_G.pg.gametip["airi_error_code_ 100211"] = {
+_G.pg.base.gametip["airi_error_code_ 100211"] = {
 	tip = "TW Unable to login, please bind your account first"
 }
 
-_G.pg.gametip["airi_error_code_ 100212"] = {
+_G.pg.base.gametip["airi_error_code_ 100212"] = {
 	tip = "TW Login verification failed."
 }
 
-_G.pg.gametip["airi_error_code_ 100610"] = {
+_G.pg.base.gametip["airi_error_code_ 100610"] = {
 	tip = "TW Failed to authorize, unable to bind"
 }
 
-_G.pg.gametip["airi_error_code_ 100611"] = {
+_G.pg.base.gametip["airi_error_code_ 100611"] = {
 	tip = "TW Already binded to another user"
 }
 
-_G.pg.gametip["airi_error_code_ 100612"] = {
+_G.pg.base.gametip["airi_error_code_ 100612"] = {
 	tip = "TW Login verification failed, unable to bind"
 }
 
-_G.pg.gametip["airi_error_code_ 100710"] = {
+_G.pg.base.gametip["airi_error_code_ 100710"] = {
 	tip = "TW Failed to authorize, unable to unbind"
 }
 
-_G.pg.gametip["airi_error_code_ 100711"] = {
+_G.pg.base.gametip["airi_error_code_ 100711"] = {
 	tip = "TW The account is not binded to any user"
 }
 
-_G.pg.gametip["airi_error_code_ 100712"] = {
+_G.pg.base.gametip["airi_error_code_ 100712"] = {
 	tip = "TW Invalid login verification, unable to unbind"
 }
 
-_G.pg.gametip["airi_error_code_ 100810"] = {
+_G.pg.base.gametip["airi_error_code_ 100810"] = {
 	tip = "FB Failed to authorize, unable to login"
 }
 
-_G.pg.gametip["airi_error_code_ 100811"] = {
+_G.pg.base.gametip["airi_error_code_ 100811"] = {
 	tip = "FB Unable to login, please bind your account first"
 }
 
-_G.pg.gametip["airi_error_code_ 100812"] = {
+_G.pg.base.gametip["airi_error_code_ 100812"] = {
 	tip = "FB Login verification failed, unable to login"
 }
 
-_G.pg.gametip["airi_error_code_ 100813"] = {
+_G.pg.base.gametip["airi_error_code_ 100813"] = {
 	tip = "FB Failed to authorize, unable to bind"
 }
 
-_G.pg.gametip["airi_error_code_ 100814"] = {
+_G.pg.base.gametip["airi_error_code_ 100814"] = {
 	tip = "FB Already binded to another user"
 }
 
-_G.pg.gametip["airi_error_code_ 100815"] = {
+_G.pg.base.gametip["airi_error_code_ 100815"] = {
 	tip = "FB Login verification failed, unable to bind"
 }
 
-_G.pg.gametip["airi_error_code_ 100816"] = {
+_G.pg.base.gametip["airi_error_code_ 100816"] = {
 	tip = "FB Failed to authorize, unable to unbind"
 }
 
-_G.pg.gametip["airi_error_code_ 100817"] = {
+_G.pg.base.gametip["airi_error_code_ 100817"] = {
 	tip = "FB The account is not binded to any user"
 }
 
-_G.pg.gametip["airi_error_code_ 100818"] = {
+_G.pg.base.gametip["airi_error_code_ 100818"] = {
 	tip = "FB Login verification failed, unable to unbind"
 }
 
-_G.pg.gametip.facebook_link_title = {
+_G.pg.base.gametip.facebook_link_title = {
 	tip = "Facebook Account:$1"
 }
 
-_G.pg.gametip.skill_learn_tip = {
+_G.pg.base.gametip.skill_learn_tip = {
 	tip = "You can quickly finish a class $1 more time(s) today."
 }
 
-_G.pg.gametip.build_count_tip = {
+_G.pg.base.gametip.build_count_tip = {
 	tip = "Total"
 }
 
-_G.pg.gametip.help_research_package = {
+_G.pg.base.gametip.help_research_package = {
 	tip = {
 		{
 			icon = {
@@ -20025,147 +20025,151 @@ _G.pg.gametip.help_research_package = {
 	}
 }
 
-_G.pg.gametip.lv70_package_tip = {
+_G.pg.base.gametip.lv70_package_tip = {
 	tip = "Buying this pack will not affect your Commander Level as it's already at or above 70. You will only receive the other items. Buy this pack anyway?"
 }
 
-_G.pg.gametip.tech_select_tip1 = {
+_G.pg.base.gametip.tech_select_tip1 = {
 	tip = "Eligible PR Ships"
 }
 
-_G.pg.gametip.tech_select_tip2 = {
+_G.pg.base.gametip.tech_select_tip2 = {
 	tip = "Select a PR ship to unlock."
 }
 
-_G.pg.gametip.tech_select_tip3 = {
+_G.pg.base.gametip.tech_select_tip3 = {
 	tip = "Unlocked"
 }
 
-_G.pg.gametip.tech_select_tip4 = {
+_G.pg.base.gametip.tech_select_tip4 = {
 	tip = "All PRs Unlocked"
 }
 
-_G.pg.gametip.tech_select_tip5 = {
+_G.pg.base.gametip.tech_select_tip5 = {
 	tip = "You will instead receive these items."
 }
 
-_G.pg.gametip.techpackage_item_use = {
+_G.pg.base.gametip.techpackage_item_use = {
 	tip = "Do you want to spend your PR Voucher to immediately unlock $1? \nShe will be added to your Dock at Development Level 1."
 }
 
-_G.pg.gametip.techpackage_item_use_confirm = {
+_G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "With all eligible PRs unlocked, you will get:"
 }
 
-_G.pg.gametip.newserver_shop_timelimit = {
+_G.pg.base.gametip.newserver_shop_timelimit = {
 	tip = "Unlocked after $1."
 }
 
-_G.pg.gametip.tech_character_get = {
+_G.pg.base.gametip.tech_character_get = {
 	tip = "In Dock"
 }
 
-_G.pg.gametip.package_detail_tip = {
+_G.pg.base.gametip.package_detail_tip = {
 	tip = "Detail"
 }
 
-_G.pg.gametip.event_ui_consume = {
+_G.pg.base.gametip.event_ui_consume = {
 	tip = "Cost"
 }
 
-_G.pg.gametip.event_ui_recommend = {
+_G.pg.base.gametip.event_ui_recommend = {
 	tip = "Recommend"
 }
 
-_G.pg.gametip.event_ui_start = {
+_G.pg.base.gametip.event_ui_start = {
 	tip = "Start"
 }
 
-_G.pg.gametip.event_ui_giveup = {
+_G.pg.base.gametip.event_ui_giveup = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.event_ui_finish = {
+_G.pg.base.gametip.event_ui_finish = {
 	tip = "Complete"
 }
 
-_G.pg.gametip.nav_tactics_sel_skill_title = {
+_G.pg.base.gametip.nav_tactics_sel_skill_title = {
 	tip = "Select Skill"
 }
 
-_G.pg.gametip.battle_result_confirm = {
+_G.pg.base.gametip.battle_result_confirm = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.battle_result_targets = {
+_G.pg.base.gametip.battle_result_targets = {
 	tip = "Targets"
 }
 
-_G.pg.gametip.battle_result_continue = {
+_G.pg.base.gametip.battle_result_continue = {
 	tip = "Touch to continue"
 }
 
-_G.pg.gametip.activity_kill = {
+_G.pg.base.gametip.activity_kill = {
 	tip = "Total Enemies Sunk"
 }
 
-_G.pg.gametip.battle_result_dmg = {
+_G.pg.base.gametip.battle_result_dmg = {
 	tip = "Damage"
 }
 
-_G.pg.gametip.battle_result_kill_count = {
+_G.pg.base.gametip.battle_result_kill_count = {
 	tip = "Enemies Sunk"
 }
 
-_G.pg.gametip.battle_result_toggle_on = {
+_G.pg.base.gametip.battle_result_toggle_on = {
 	tip = "Sub Fleet"
 }
 
-_G.pg.gametip.battle_result_toggle_off = {
+_G.pg.base.gametip.battle_result_toggle_off = {
 	tip = "Surface Fleet"
 }
 
-_G.pg.gametip.battle_result_continue_battle = {
+_G.pg.base.gametip.battle_result_continue_battle = {
 	tip = "Continue"
 }
 
-_G.pg.gametip.battle_result_quit_battle = {
+_G.pg.base.gametip.battle_result_quit_battle = {
 	tip = "Retreat"
 }
 
-_G.pg.gametip.battle_result_share_battle = {
+_G.pg.base.gametip.battle_result_share_battle = {
 	tip = "Share"
 }
 
-_G.pg.gametip.pre_combat_team = {
+_G.pg.base.gametip.pre_combat_team = {
 	tip = "Sortie Fleet"
 }
 
-_G.pg.gametip.pre_combat_vanguard = {
+_G.pg.base.gametip.pre_combat_vanguard = {
 	tip = "Vanguard Fleet"
 }
 
-_G.pg.gametip.pre_combat_main = {
+_G.pg.base.gametip.pre_combat_main = {
 	tip = "Main Fleet"
 }
 
-_G.pg.gametip.pre_combat_submarine = {
+_G.pg.base.gametip.pre_combat_submarine = {
 	tip = "Sub Fleet"
 }
 
-_G.pg.gametip.destroy_confirm_access = {
+_G.pg.base.gametip.destroy_confirm_access = {
 	tip = "Confirm"
 }
 
-_G.pg.gametip.destroy_confirm_cancel = {
+_G.pg.base.gametip.destroy_confirm_cancel = {
 	tip = "Cancel"
 }
 
-_G.pg.gametip.pt_count_tip = {
+_G.pg.base.gametip.pt_count_tip = {
 	tip = "Total"
 }
 
-_G.pg.gametip.littleEugen_npc = {
+_G.pg.base.gametip.dockyard_data_loss_detected = {
+	tip = "A dock data synchronization error has occurred. Return to the login screen?"
+}
+
+_G.pg.base.gametip.littleEugen_npc = {
 	tip = {
 		{
 			info = "- Overview -\nDuring the event, Little Prinz Eugen will provisionally join your fleet. Complete missions during the event to earn Cake Pts, which can be redeemed for Trust. Collect enough Trust to have Little Prinz Eugen permanently join your fleet!"

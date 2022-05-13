@@ -213,21 +213,8 @@ function slot0.buildMaps(slot0)
 end
 
 function slot0.initChapters(slot0)
-	uv0.MapToChapters = {}
-	uv0.FormationToChapters = {}
-
-	for slot4, slot5 in ipairs(pg.chapter_template.all) do
-		slot6 = pg.chapter_template[slot5]
-		uv0.MapToChapters[slot6.map] = uv0.MapToChapters[slot6.map] or {}
-
-		table.insert(uv0.MapToChapters[slot6.map], slot5)
-
-		if slot6.type == Chapter.CustomFleet then
-			uv0.FormationToChapters[slot6.formation] = uv0.FormationToChapters[slot6.formation] or {}
-
-			table.insert(uv0.FormationToChapters[slot6.formation], slot5)
-		end
-	end
+	uv0.MapToChapters = pg.chapter_template.get_id_list_by_map
+	uv0.FormationToChapters = pg.chapter_template.get_id_list_by_formation
 end
 
 function slot0.buildBaseMaps(slot0)

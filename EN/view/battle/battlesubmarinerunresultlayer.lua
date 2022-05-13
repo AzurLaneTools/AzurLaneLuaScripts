@@ -59,6 +59,14 @@ function slot0.init(slot0)
 	LoadImageSpriteAsync(slot5, slot3, false)
 	SetActive(slot0._levelText, false)
 	SetActive(slot0:findTF("main/conditions"), false)
+
+	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
+	slot0._ratioFitter.enabled = true
+	slot0._ratioFitter.aspectRatio = pg.CameraFixMgr.GetInstance().targetRatio
+	slot9 = pg.CameraFixMgr.GetInstance()
+	slot0.camEventId = slot9:bind(pg.CameraFixMgr.ASPECT_RATIO_UPDATE, function (slot0, slot1)
+		uv0._ratioFitter.aspectRatio = slot1
+	end)
 end
 
 function slot0.didEnter(slot0)
@@ -143,6 +151,7 @@ end
 function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)
 end
 
 return slot0
