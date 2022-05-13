@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "지휘관님 조심하세요!",
+			say = "상관님 조심하세요!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "지휘관님, 다친 곳은 없나요?!",
+			say = "상관님, 다친 곳은 없나요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 404031,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "유감스럽지만 그렇네요, 지휘관님.",
+			say = "유감스럽지만 그렇네요, 상관님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "오이겐이 이곳에서 지휘관님이 함정에 빠지면 바로 마지막 스테이지로 가라고 했어요… 아무튼 우선 여기서 올라가 볼까요?",
+			say = "오이겐이 이곳에서 상관님이 함정에 빠지면 바로 마지막 스테이지로 가라고 했어요… 아무튼 우선 여기서 올라가 볼까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "역시 지휘관님이네요. 드디어 이 '오래된 성'에서 탈출하셨어요——",
+			say = "역시 상관님이네요. 드디어 이 '오래된 성'에서 탈출하셨어요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

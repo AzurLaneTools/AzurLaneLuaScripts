@@ -330,7 +330,7 @@ pg.item_data_frame = {
 		gain_by = "虹彩的终幕曲",
 		id = 319,
 		time_second = 0,
-		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>",
+		desc = "<color=#ffffff>이는 종말이자 시초이다.——「레인보우 피날레」 이벤트 획득</color>",
 		scene = {}
 	},
 	[401] = {

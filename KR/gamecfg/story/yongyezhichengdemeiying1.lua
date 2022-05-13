@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "바로 여기입니다. 지휘관님, 제가 안대를 벗겨 드리도록 하죠.",
+			say = "바로 여기입니다. 상관님, 제가 안대를 벗겨 드리도록 하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "지휘관님, 괜찮으십니까? 혹시 불편한 부분이라도 있으신가요?",
+			say = "상관님, 괜찮으십니까? 혹시 불편한 부분이라도 있으신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그렇다면 이제 제가 지휘관님께 이 '밀실'에 대한 배경을 설명해드리겠습니다.",
+			say = "그렇다면 이제 제가 상관님께 이 '밀실'에 대한 배경을 설명해드리겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "사실... 이곳은 추격전부터 시작되는 부분인데 오이겐이 말하길 테스트 플레이인데다가 지휘관님에겐 일종의 휴식 시간이라고 해서 일단 스킵했습니다.",
+			say = "사실... 이곳은 추격전부터 시작되는 부분인데 오이겐이 말하길 테스트 플레이인데다가 상관님에겐 일종의 휴식 시간이라고 해서 일단 스킵했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404031,
-			say = "참, 이 작은 통신기는 오이겐이 지휘관님께 드리라고 한 물건입니다.",
+			say = "참, 이 작은 통신기는 오이겐이 상관님께 드리라고 한 물건입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404031,
-			say = "이번에 저와 다른 몇몇 동료들이 이 성의 'NPC' 역할을 수행해 지휘관님께 몰입감 넘치는 경험을 선사할 예정입니다.",
+			say = "이번에 저와 다른 몇몇 동료들이 이 성의 'NPC' 역할을 수행해 상관님께 몰입감 넘치는 경험을 선사할 예정입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "지휘관님의 플레이를 기대하겠습니다! 재밌게 즐겨주셔야 해요.",
+			say = "상관님의 플레이를 기대하겠습니다! 재밌게 즐겨주셔야 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
