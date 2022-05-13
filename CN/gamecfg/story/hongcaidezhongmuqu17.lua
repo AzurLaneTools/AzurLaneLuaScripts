@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "……因为铁血直到此刻仍未登场的主力舰队，全军在海域中不得以更谨慎的方式行动。",
+			say = "……因为铁血直到此刻仍未登场的主力舰队，全军在海域中不以更谨慎的方式行动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

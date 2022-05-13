@@ -39,6 +39,12 @@ function slot8.InitBattle(slot0, slot1)
 	slot0:DispatchEvent(uv2.Event.New(uv3.COMMON_DATA_INIT_FINISH, {}))
 end
 
+function slot8.OnCameraRatioUpdate(slot0)
+	slot0._cameraTop, slot0._cameraBottom, slot0._cameraLeft, slot0._cameraRight = slot0._cameraUtil:SetMapData(slot0:GetTotalBounds())
+
+	slot0._cameraUtil:setArrowPoint()
+end
+
 function slot8.Start(slot0)
 	slot0._startTimeStamp = pg.TimeMgr.GetInstance():GetCombatTime()
 end

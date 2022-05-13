@@ -8608,7 +8608,7 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		describe = "今天会是什么天气呢~？",
 		gain_by = "",
-		type = 2,
+		type = 14,
 		dir = 0,
 		dorm_id = 0,
 		rarity = 4,
@@ -115010,7 +115010,6 @@ pg.furniture_data_template = {
 			206,
 			209,
 			213,
-			100037,
 			200001,
 			200002,
 			200003,
@@ -116537,7 +116536,8 @@ pg.furniture_data_template = {
 		},
 		[14] = {
 			214,
-			100019
+			100019,
+			100037
 		},
 		[13] = {
 			100015,

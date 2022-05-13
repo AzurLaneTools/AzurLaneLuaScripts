@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:96}正姐姐一同行动，只要外侧的斯卡帕湾没有失守，她们就很安全。",
+			say = "{namecode:96}正和姐姐一同行动，只要外侧的斯卡帕湾没有失守，她们就很安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

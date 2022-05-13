@@ -27,10 +27,13 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				minTargetNumber = 1,
-				skill_id = 13720,
 				target = "TargetSelf",
+				skill_id = 13720,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Birmingham"
 				}

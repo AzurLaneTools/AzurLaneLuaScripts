@@ -3,7 +3,12 @@ slot0 = class("CancelLearnTacticsCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.type
-	slot6 = getProxy(NavalAcademyProxy):getStudentById(slot2.shipId)
+
+	if not getProxy(NavalAcademyProxy):ExistStudent(slot2.shipId) then
+		return
+	end
+
+	slot6 = slot5:getStudentById(slot3)
 	slot7 = slot2.callback
 	slot8 = slot2.onConfirm
 	slot10 = getProxy(BayProxy):getShipById(slot6.shipId)

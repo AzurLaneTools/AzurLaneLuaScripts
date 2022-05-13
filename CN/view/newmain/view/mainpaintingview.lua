@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._bgTf = slot2
 	slot0._bgGo = slot2.gameObject
 	slot0.chatTf = slot1.parent:Find("chat")
+	slot0.chatPos = slot0.chatTf.anchoredPosition
 	slot0.chatTxt = slot0.chatTf:Find("Text"):GetComponent(typeof(Text))
 
 	if PLATFORM_CODE == PLATFORM_US then
@@ -128,8 +129,6 @@ function slot0.GetAssistantStatus(slot0)
 end
 
 function slot0.Fold(slot0, slot1, slot2)
-	slot0.painting:Fold(slot1)
-
 	if slot1 then
 		slot4 = Vector3(0 - slot0.painting:GetOffset(), 0, 0)
 
@@ -139,10 +138,16 @@ function slot0.Fold(slot0, slot1, slot2)
 		LeanTween.cancel(slot0._tf.gameObject)
 		LeanTween.cancel(slot0._bgTf.gameObject)
 		slot0:AdjustPosition(slot0.ship)
+
+		slot0.chatTf.anchoredPosition = slot0.chatPos
 	end
+
+	slot0.painting:Fold(slot1, slot2)
 end
 
 function slot0.EnableOrDisableMove(slot0, slot1)
+	slot0.painting:EnableOrDisableMove(slot1)
+
 	if slot1 then
 		slot0:EnableDragAndZoom()
 	else

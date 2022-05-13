@@ -23,23 +23,23 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	end
 end
 
-function slot1.spell(slot0, slot1)
-	slot2 = math.random()
+function slot1.spell(slot0, slot1, slot2)
+	slot3 = math.random()
 
-	for slot6, slot7 in pairs(slot0._skillIDList) do
-		slot9 = slot7[2]
+	for slot7, slot8 in pairs(slot0._skillIDList) do
+		slot10 = slot8[2]
 
-		if slot7[1] <= slot2 and slot2 < slot9 then
-			slot0._skillList[slot6] = slot0._skillList[slot6] or uv0.Battle.BattleSkillUnit.GenerateSpell(slot6, slot0._level, slot1, attData)
-			slot10 = slot0._skillList[slot6]
+		if slot8[1] <= slot3 and slot3 < slot10 then
+			slot0._skillList[slot7] = slot0._skillList[slot7] or uv0.Battle.BattleSkillUnit.GenerateSpell(slot7, slot0._level, slot1, attData)
+			slot11 = slot0._skillList[slot7]
 
-			if attach and attach.target then
-				slot10:SetTarget({
-					attach.target
+			if slot2 and slot2.target then
+				slot11:SetTarget({
+					slot2.target
 				})
 			end
 
-			slot10:Cast(slot1, slot0._commander)
+			slot11:Cast(slot1, slot0._commander)
 		end
 	end
 end

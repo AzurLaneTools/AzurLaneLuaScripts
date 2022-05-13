@@ -31,10 +31,6 @@ function slot0.register(slot0)
 			end
 		end
 
-		if #uv0.metaShipIDList > 0 then
-			getProxy(MetaCharacterProxy):requestMetaTacticsInfo(uv0.metaShipIDList)
-		end
-
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end)
 	slot0:on(12031, function (slot0)

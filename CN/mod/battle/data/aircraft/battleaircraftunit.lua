@@ -45,7 +45,7 @@ function slot6.SetViewBoundData(slot0, slot1, slot2, slot3, slot4)
 	slot0._cameraTop = slot1 + 3
 	slot0._cameraBottom = slot2 - 3
 	slot0._cameraLeft = slot3 - 3
-	slot0._cameraRight = slot4 + 5
+	slot0._cameraRight = slot4 + 10
 end
 
 function slot6.Update(slot0, slot1)

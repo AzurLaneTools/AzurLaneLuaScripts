@@ -41,9 +41,12 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				check_target = "TargetShipTag",
-				target = "TargetSelf",
 				buff_id = 15141,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"danyaokuifa"
 				}
@@ -56,9 +59,12 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				check_target = "TargetShipTag",
-				target = "TargetSelf",
 				buff_id = 15144,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"danyaokuifa"
 				}
@@ -70,10 +76,13 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				buff_id = 15142,
-				target = "TargetSelf",
 				maxTargetNumber = 0,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"danyaokuifa"
 				}

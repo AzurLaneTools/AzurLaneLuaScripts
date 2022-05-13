@@ -2399,7 +2399,7 @@ pg.gameset = {
 		key_value = 0
 	},
 	permanent_mark = {
-		description = "20211028",
+		description = "20220513",
 		key_value = 0
 	},
 	vow_prop_conversion = {
@@ -2527,7 +2527,7 @@ pg.gameset = {
 		key_value = 43200
 	},
 	naval_academy_theme = {
-		description = "winter",
+		description = "spring",
 		key_value = 0
 	},
 	package_lv = {

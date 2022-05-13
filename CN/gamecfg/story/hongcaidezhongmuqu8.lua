@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "但是埃姆登确在这里，所以我也在这里了哦。",
+			say = "但是埃姆登的确在这里，所以我也在这里了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "我计划的里只有埃姆登，仅此而已。",
+			say = "我的计划里只有埃姆登，仅此而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "可是我感觉到了违和感。腓特烈大帝，你就究竟是什么？",
+			say = "可是我感觉到了违和感。腓特烈大帝，你究竟是什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

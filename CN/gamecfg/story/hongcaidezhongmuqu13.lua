@@ -800,7 +800,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "大家注意观察我的动作，尽快熟悉一下这幅是身体，然后消灭敌人吧~",
+			say = "大家注意观察我的动作，尽快熟悉一下这幅身体，然后消灭敌人吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

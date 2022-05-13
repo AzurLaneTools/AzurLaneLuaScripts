@@ -74,11 +74,10 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onBeHit"
+				"onHPRatioUpdate"
 			},
 			arg_list = {
-				rant = 10000,
-				target = "TargetSelf",
+				hpUpperBound = 1,
 				skill_id = 10280,
 				time = 8
 			}

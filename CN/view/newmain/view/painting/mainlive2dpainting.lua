@@ -175,6 +175,10 @@ function slot0.GetOffset(slot0)
 	return slot0.live2dContainer.localPosition.x
 end
 
+function slot0.GetCenterPos(slot0)
+	return slot0.chatTf.parent:InverseTransformPoint(slot0.live2dContainer.position)
+end
+
 function slot0.IslimitYPos(slot0)
 	return slot0.ship:getPainting() == "biaoqiang" or slot1 == "z23" or slot1 == "lafei" or slot1 == "lingbo" or slot1 == "mingshi" or slot1 == "xuefeng"
 end

@@ -1,4 +1,4 @@
-_G.pg.ship_skin_words[100000] = {
+_G.pg.base.ship_skin_words[100000] = {
 	feeling1 = "哇——！指挥官是笨蛋，笨~蛋，笨——蛋！",
 	feeling3 = "虽然能让大家变强很高兴，但是和指挥官一起玩也很高兴buli！作为报答，布里也让指挥官变强吧！……欸，不行吗？！",
 	lose = "咦？人家……好像不是战斗buli？",
@@ -41,7 +41,7 @@ _G.pg.ship_skin_words[100000] = {
 	}
 }
 
-_G.pg.ship_skin_words[100001] = {
+_G.pg.base.ship_skin_words[100001] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "咦？为什么感觉完全没有变强buli？",
@@ -75,7 +75,7 @@ _G.pg.ship_skin_words[100001] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[100010] = {
+_G.pg.base.ship_skin_words[100010] = {
 	feeling1 = "居然能让本大人不喜欢你，要从另一个角度夸奖你一下！但是本大人才不会怒斥你，哇哈哈！享受这种虚无感吧！",
 	feeling3 = "既然你这么有耐心，告诉你一个小秘密吧，妹妹虽然总是自称比我聪明，但她才是最笨的那一个。哇哈哈，这就是长姐的仁慈呀喵！",
 	lose = "说起来为什么我会上战场purin.purin？！",
@@ -109,7 +109,7 @@ _G.pg.ship_skin_words[100010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[100020] = {
+_G.pg.base.ship_skin_words[100020] = {
 	feeling1 = "即使指挥官变成了这样…布里也是不会放弃你的burin！快振作起来burin！",
 	feeling3 = "指挥官总是愿意和我玩，那我也要报答指挥官！这次，就破例把“超级喵喵1号”借给指挥官玩1个小时burin！不准拿去干坏事哦？",
 	lose = "能量耗尽了burin…“超级喵喵1号”，果然不能用于实战吗…",
@@ -161,7 +161,7 @@ _G.pg.ship_skin_words[100020] = {
 	}
 }
 
-_G.pg.ship_skin_words[101020] = {
+_G.pg.base.ship_skin_words[101020] = {
 	feeling1 = "指挥官…比风暴更让人感觉害怕……",
 	feeling3 = "指挥官，刚才杜威整理了一下指挥室，有感觉变得比较整齐了吗？有需要的话，房间也可以帮您整理哦",
 	lose = "又…失败了",
@@ -229,7 +229,7 @@ _G.pg.ship_skin_words[101020] = {
 	}
 }
 
-_G.pg.ship_skin_words[101021] = {
+_G.pg.base.ship_skin_words[101021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -263,7 +263,7 @@ _G.pg.ship_skin_words[101021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101022] = {
+_G.pg.base.ship_skin_words[101022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -297,7 +297,7 @@ _G.pg.ship_skin_words[101022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101030] = {
+_G.pg.base.ship_skin_words[101030] = {
 	feeling1 = "能让我安静地睡一会儿吗？",
 	feeling3 = "唔，怎么说呢……有空的话，一起午睡？",
 	lose = "好麻烦，果然还是回去吧",
@@ -331,7 +331,7 @@ _G.pg.ship_skin_words[101030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101031] = {
+_G.pg.base.ship_skin_words[101031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -365,7 +365,7 @@ _G.pg.ship_skin_words[101031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101039] = {
+_G.pg.base.ship_skin_words[101039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -399,7 +399,7 @@ _G.pg.ship_skin_words[101039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101040] = {
+_G.pg.base.ship_skin_words[101040] = {
 	feeling1 = "我最讨厌无精打采的人了！",
 	feeling3 = "身体？不用在意啦，只不过是换了半个身体而已，能吃能睡，没什么不对！",
 	lose = "疼…居然把本大人的弹药库给……",
@@ -433,7 +433,7 @@ _G.pg.ship_skin_words[101040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101041] = {
+_G.pg.base.ship_skin_words[101041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -467,7 +467,7 @@ _G.pg.ship_skin_words[101041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101049] = {
+_G.pg.base.ship_skin_words[101049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -501,7 +501,7 @@ _G.pg.ship_skin_words[101049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101050] = {
+_G.pg.base.ship_skin_words[101050] = {
 	feeling1 = "小加加的照片再也不会给你看了！",
 	feeling3 = "指挥官，不是约好了一起观察小加加吗？别愣着了赶紧走吧",
 	lose = ">.<~可恶~照片都跑焦了！",
@@ -535,7 +535,7 @@ _G.pg.ship_skin_words[101050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101051] = {
+_G.pg.base.ship_skin_words[101051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -569,7 +569,7 @@ _G.pg.ship_skin_words[101051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101060] = {
+_G.pg.base.ship_skin_words[101060] = {
 	feeling1 = "我去给别人加油了，今天可能不回来了",
 	feeling3 = "指挥官看上去没什么精神耶，要不要克雷文给你摸摸头的鼓励呀？",
 	lose = "呜~~一定是我的鼓励没有传达到……",
@@ -603,7 +603,7 @@ _G.pg.ship_skin_words[101060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101061] = {
+_G.pg.base.ship_skin_words[101061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -637,7 +637,7 @@ _G.pg.ship_skin_words[101061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101070] = {
+_G.pg.base.ship_skin_words[101070] = {
 	feeling1 = "（麦考尔只是继续舔冰棍，并不理你）",
 	feeling3 = "发呆的心得？大脑放空，什么都不去想，不过冰棒经常会掉就是了……",
 	lose = "喔……吓得我棒棒都掉了……",
@@ -671,7 +671,7 @@ _G.pg.ship_skin_words[101070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101080] = {
+_G.pg.base.ship_skin_words[101080] = {
 	feeling1 = "抱歉，我还要练习，先走了",
 	feeling3 = "指挥官，要我教你怎么样才能跑的更快吗？这门学问可是很深的",
 	lose = "……得赶快回家了，不能让大家担心呐",
@@ -705,7 +705,7 @@ _G.pg.ship_skin_words[101080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101090] = {
+_G.pg.base.ship_skin_words[101090] = {
 	feeling1 = "对，对不起，我要去照顾妹妹了！",
 	feeling3 = "指挥官，能来帮我一下吗——谢谢，果然指挥官比我要有力气呀，稍微有点羡慕呢",
 	lose = "呜……欺负我……被妹妹们知道了的话你会很惨的！",
@@ -739,7 +739,7 @@ _G.pg.ship_skin_words[101090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101110] = {
+_G.pg.base.ship_skin_words[101110] = {
 	feeling1 = "指挥官你这邪恶的化身！",
 	feeling3 = "正义的伙伴可是很难当的，不过指挥官有我奥斯本在一定没问题",
 	lose = "我还会回来的！正义一定会胜利的！呜呜…",
@@ -802,7 +802,7 @@ _G.pg.ship_skin_words[101110] = {
 	}
 }
 
-_G.pg.ship_skin_words[101120] = {
+_G.pg.base.ship_skin_words[101120] = {
 	feeling1 = "现在的指挥官真是无聊啊……",
 	feeling3 = "指挥官啊，我总是想捉弄你……你会不会讨厌我呢……",
 	lose = "可、可恶，恶作剧失败了……啊，前面的斯彭斯快闪边上点，要撞上了、撞上了！",
@@ -836,7 +836,7 @@ _G.pg.ship_skin_words[101120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101130] = {
+_G.pg.base.ship_skin_words[101130] = {
 	feeling1 = "叫错名字这种事情有意思么？",
 	feeling3 = "……被指挥官你叫多了总觉得奥利奥也不错了——女孩子都是甜甜的？……这算是夸奖吗（///）",
 	lose = "呜……为什么都往脸上打啦！",
@@ -870,7 +870,7 @@ _G.pg.ship_skin_words[101130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101140] = {
+_G.pg.base.ship_skin_words[101140] = {
 	feeling1 = "啧，能别来烦我吗？",
 	feeling3 = "指挥官你意外的安静欸，那我就多待会吧",
 	lose = "啧，好麻烦，不想陪他们玩了",
@@ -904,7 +904,7 @@ _G.pg.ship_skin_words[101140] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101150] = {
+_G.pg.base.ship_skin_words[101150] = {
 	feeling1 = "指挥官好可怕……（发抖）",
 	feeling3 = "姐姐说……指挥官是值得信任的人……",
 	lose = "呜哇……好、好可怕啊！",
@@ -938,7 +938,7 @@ _G.pg.ship_skin_words[101150] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101160] = {
+_G.pg.base.ship_skin_words[101160] = {
 	feeling1 = "你就是想要对美少女图谋不轨的化身吧……我本森今天就要代表月亮消灭你！",
 	feeling3 = "美少女就是我，我就是美少女，指挥官也这么觉得吧，yeah！",
 	lose = "呜哇哇啊啊啊！指挥官你什么也没看到什么也没看到！好、好失败……",
@@ -972,7 +972,7 @@ _G.pg.ship_skin_words[101160] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101161] = {
+_G.pg.base.ship_skin_words[101161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1006,7 +1006,7 @@ _G.pg.ship_skin_words[101161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101170] = {
+_G.pg.base.ship_skin_words[101170] = {
 	feeling1 = "Zzzzzzzzz……",
 	feeling3 = "一开始，感觉指挥官有点无聊……不过仔细想想，我除了战斗也很没干劲，说不定我和指挥官很合得来喔……",
 	lose = "唔……输了……对面不是新手吧……？",
@@ -1057,7 +1057,7 @@ _G.pg.ship_skin_words[101170] = {
 	}
 }
 
-_G.pg.ship_skin_words[101171] = {
+_G.pg.base.ship_skin_words[101171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1091,7 +1091,7 @@ _G.pg.ship_skin_words[101171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101172] = {
+_G.pg.base.ship_skin_words[101172] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1125,7 +1125,7 @@ _G.pg.ship_skin_words[101172] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101173] = {
+_G.pg.base.ship_skin_words[101173] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1159,7 +1159,7 @@ _G.pg.ship_skin_words[101173] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101174] = {
+_G.pg.base.ship_skin_words[101174] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1193,7 +1193,7 @@ _G.pg.ship_skin_words[101174] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101175] = {
+_G.pg.base.ship_skin_words[101175] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "……可能吃多了",
@@ -1227,7 +1227,7 @@ _G.pg.ship_skin_words[101175] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101176] = {
+_G.pg.base.ship_skin_words[101176] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呼…果然还是提不起劲…",
@@ -1261,7 +1261,7 @@ _G.pg.ship_skin_words[101176] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101177] = {
+_G.pg.base.ship_skin_words[101177] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1295,7 +1295,7 @@ _G.pg.ship_skin_words[101177] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101178] = {
+_G.pg.base.ship_skin_words[101178] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "让指挥官担心了，对不起……",
@@ -1329,7 +1329,7 @@ _G.pg.ship_skin_words[101178] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101179] = {
+_G.pg.base.ship_skin_words[101179] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "拉菲…还能战斗",
@@ -1363,7 +1363,7 @@ _G.pg.ship_skin_words[101179] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101240] = {
+_G.pg.base.ship_skin_words[101240] = {
 	feeling1 = "啊等等，我正在收拾一些道具，以后不会对指挥官恶作剧了，开心吗？",
 	feeling3 = "最近我恶作剧你都不生气了，总觉得有点寂寞呢……嗯？我才没有得了便宜还卖乖啦",
 	lose = "还不如回家捉弄指挥官呢……",
@@ -1406,7 +1406,7 @@ _G.pg.ship_skin_words[101240] = {
 	}
 }
 
-_G.pg.ship_skin_words[101249] = {
+_G.pg.base.ship_skin_words[101249] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1440,7 +1440,7 @@ _G.pg.ship_skin_words[101249] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101250] = {
+_G.pg.base.ship_skin_words[101250] = {
 	feeling1 = "哈曼已经气都不想生了……",
 	feeling3 = "要是以为和哈曼关系有改善那就大错特错了！……不过只有一点的话，还是可以承认的………（小声）",
 	lose = "呜……指挥官，大笨蛋！",
@@ -1499,7 +1499,7 @@ _G.pg.ship_skin_words[101250] = {
 	}
 }
 
-_G.pg.ship_skin_words[101251] = {
+_G.pg.base.ship_skin_words[101251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1533,7 +1533,7 @@ _G.pg.ship_skin_words[101251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101252] = {
+_G.pg.base.ship_skin_words[101252] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1567,7 +1567,7 @@ _G.pg.ship_skin_words[101252] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101253] = {
+_G.pg.base.ship_skin_words[101253] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜…穿着这一身果然很难战斗嘛！",
@@ -1601,7 +1601,7 @@ _G.pg.ship_skin_words[101253] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101254] = {
+_G.pg.base.ship_skin_words[101254] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1635,7 +1635,7 @@ _G.pg.ship_skin_words[101254] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101259] = {
+_G.pg.base.ship_skin_words[101259] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1669,7 +1669,7 @@ _G.pg.ship_skin_words[101259] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101260] = {
+_G.pg.base.ship_skin_words[101260] = {
 	feeling1 = "……指挥官，讨厌。（埃尔德里奇浑身发电不让你靠近她）",
 	feeling3 = "……指挥官，飞飞。（埃尔德里奇看起来很希望你抱她起来飞飞，但是她在发电！）",
 	lose = "……想回家",
@@ -1712,7 +1712,7 @@ _G.pg.ship_skin_words[101260] = {
 	}
 }
 
-_G.pg.ship_skin_words[101261] = {
+_G.pg.base.ship_skin_words[101261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1746,7 +1746,7 @@ _G.pg.ship_skin_words[101261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101262] = {
+_G.pg.base.ship_skin_words[101262] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1780,7 +1780,7 @@ _G.pg.ship_skin_words[101262] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101263] = {
+_G.pg.base.ship_skin_words[101263] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1814,7 +1814,7 @@ _G.pg.ship_skin_words[101263] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101264] = {
+_G.pg.base.ship_skin_words[101264] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1848,7 +1848,7 @@ _G.pg.ship_skin_words[101264] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101265] = {
+_G.pg.base.ship_skin_words[101265] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1882,7 +1882,7 @@ _G.pg.ship_skin_words[101265] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101270] = {
+_G.pg.base.ship_skin_words[101270] = {
 	feeling1 = "指挥官是兔兔的敌人！",
 	feeling3 = "本森姐姐说贝利是兔兔星来的，贝利又不是小孩子了……但是但是，圣诞老人一定是存在的！",
 	lose = "呜呜，兔兔星不会放过你们的……",
@@ -1916,7 +1916,7 @@ _G.pg.ship_skin_words[101270] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101271] = {
+_G.pg.base.ship_skin_words[101271] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1950,7 +1950,7 @@ _G.pg.ship_skin_words[101271] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101279] = {
+_G.pg.base.ship_skin_words[101279] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -1984,7 +1984,7 @@ _G.pg.ship_skin_words[101279] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101290] = {
+_G.pg.base.ship_skin_words[101290] = {
 	feeling1 = "糖果，不会再分给你了",
 	feeling3 = "指挥官，上次的巧克力还蛮好吃的，是在哪买的？",
 	lose = "我、我的糖果……",
@@ -2018,7 +2018,7 @@ _G.pg.ship_skin_words[101290] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101291] = {
+_G.pg.base.ship_skin_words[101291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2052,7 +2052,7 @@ _G.pg.ship_skin_words[101291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101300] = {
+_G.pg.base.ship_skin_words[101300] = {
 	feeling1 = "那、那个，可以不要盯着我看吗？",
 	feeling3 = "指、指挥官，请不要总做出一些让我困扰的事……",
 	lose = "哈……哈……敌、敌人人没有追上来吧",
@@ -2086,7 +2086,7 @@ _G.pg.ship_skin_words[101300] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101301] = {
+_G.pg.base.ship_skin_words[101301] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2120,7 +2120,7 @@ _G.pg.ship_skin_words[101301] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101310] = {
+_G.pg.base.ship_skin_words[101310] = {
 	feeling1 = "我不会从房间里出来的，绝不！",
 	feeling3 = "指、指挥官，现在很闲的话要不要一起去我的房间玩电子游戏……",
 	lose = "果、果然还是不出来比较好",
@@ -2163,7 +2163,7 @@ _G.pg.ship_skin_words[101310] = {
 	}
 }
 
-_G.pg.ship_skin_words[101311] = {
+_G.pg.base.ship_skin_words[101311] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2197,7 +2197,7 @@ _G.pg.ship_skin_words[101311] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101312] = {
+_G.pg.base.ship_skin_words[101312] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2231,7 +2231,7 @@ _G.pg.ship_skin_words[101312] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101313] = {
+_G.pg.base.ship_skin_words[101313] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2265,7 +2265,7 @@ _G.pg.ship_skin_words[101313] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101314] = {
+_G.pg.base.ship_skin_words[101314] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2299,7 +2299,7 @@ _G.pg.ship_skin_words[101314] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101319] = {
+_G.pg.base.ship_skin_words[101319] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2333,7 +2333,7 @@ _G.pg.ship_skin_words[101319] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101330] = {
+_G.pg.base.ship_skin_words[101330] = {
 	feeling1 = "指挥官，笑一个嘛……",
 	feeling3 = "其实我是很灵活的呢！嘿，看我的反复横跳！……呼，呼，好累……要不行了……",
 	lose = "不，不要，不要飞过来！",
@@ -2367,7 +2367,7 @@ _G.pg.ship_skin_words[101330] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101331] = {
+_G.pg.base.ship_skin_words[101331] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2401,7 +2401,7 @@ _G.pg.ship_skin_words[101331] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101340] = {
+_G.pg.base.ship_skin_words[101340] = {
 	feeling1 = "姐妹们都叫我不要靠近指挥官……为什么呢？",
 	feeling3 = "只要能晒着太阳，我就感到十分安心呢。指挥官，一起吧！",
 	lose = "坚持不住了啦！",
@@ -2435,7 +2435,7 @@ _G.pg.ship_skin_words[101340] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101350] = {
+_G.pg.base.ship_skin_words[101350] = {
 	feeling1 = "想你这样的废柴指挥官，除了贝奇之外应该没人愿意照顾了吧？嚯嚯嚯，真是可怜呢！",
 	feeling3 = "哦？贝奇这身大衣很时髦对吧？指挥官穿上这种感觉的服装的话，或许也会变帅呢，哈哈哈！",
 	lose = "哼，给我等着，下次贝奇一定给你好看！",
@@ -2483,7 +2483,7 @@ _G.pg.ship_skin_words[101350] = {
 	}
 }
 
-_G.pg.ship_skin_words[101351] = {
+_G.pg.base.ship_skin_words[101351] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2517,7 +2517,7 @@ _G.pg.ship_skin_words[101351] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101352] = {
+_G.pg.base.ship_skin_words[101352] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2551,7 +2551,7 @@ _G.pg.ship_skin_words[101352] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101360] = {
+_G.pg.base.ship_skin_words[101360] = {
 	feeling1 = "指挥官笨蛋笨蛋大笨蛋！（吐舌头，略略略）",
 	feeling3 = "指挥官，作为一个童星，镜头感可是很重要的。今天的我也很可爱吧！",
 	lose = "小小挫折而已啦……",
@@ -2597,7 +2597,7 @@ _G.pg.ship_skin_words[101360] = {
 	}
 }
 
-_G.pg.ship_skin_words[101361] = {
+_G.pg.base.ship_skin_words[101361] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2631,7 +2631,7 @@ _G.pg.ship_skin_words[101361] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101370] = {
+_G.pg.base.ship_skin_words[101370] = {
 	feeling1 = "指挥官，不喜欢我做的冰淇淋拌辣酱么……小气鬼。",
 	feeling3 = "来啦来啦~科尔克的袖子里藏着兔子哦，指挥官想不想看变戏法？呜哇……怎么兔子先生突然溜了。",
 	lose = "呜…我讨厌受伤，讨厌啦…  ",
@@ -2677,7 +2677,7 @@ _G.pg.ship_skin_words[101370] = {
 	}
 }
 
-_G.pg.ship_skin_words[101371] = {
+_G.pg.base.ship_skin_words[101371] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2711,7 +2711,7 @@ _G.pg.ship_skin_words[101371] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101380] = {
+_G.pg.base.ship_skin_words[101380] = {
 	feeling1 = "无能者终将被时间所过滤，你也一样。",
 	feeling3 = "“战争结束之后的打算？”我没有考虑过这个问题，也从来没想过去考虑。不过，你为什么要突然问这个……",
 	lose = "战略性撤退……",
@@ -2745,7 +2745,7 @@ _G.pg.ship_skin_words[101380] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101382] = {
+_G.pg.base.ship_skin_words[101382] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2779,7 +2779,7 @@ _G.pg.ship_skin_words[101382] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101390] = {
+_G.pg.base.ship_skin_words[101390] = {
 	feeling1 = "为不喜欢的人做饭原来是这么痛苦的事啊……",
 	feeling3 = "要是我不研究些奇怪的菜式就完美了？那可真是抱歉呢！不过我觉得呢，惊喜也是很重要的哦！",
 	lose = "指挥官，对不起……",
@@ -2822,7 +2822,7 @@ _G.pg.ship_skin_words[101390] = {
 	}
 }
 
-_G.pg.ship_skin_words[101392] = {
+_G.pg.base.ship_skin_words[101392] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2856,7 +2856,7 @@ _G.pg.ship_skin_words[101392] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101400] = {
+_G.pg.base.ship_skin_words[101400] = {
 	feeling1 = "指挥官，听我说哦~再这样下去，我也要稍微离你远一点才好了……",
 	feeling3 = "和杜威比起来稍微有一点…哼，才不胖呢！真是的，不理指挥官了啦！",
 	lose = "啊呜…真的输了…指挥官，能给点糖果安慰一下吗…？",
@@ -2907,7 +2907,7 @@ _G.pg.ship_skin_words[101400] = {
 	}
 }
 
-_G.pg.ship_skin_words[101401] = {
+_G.pg.base.ship_skin_words[101401] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -2941,7 +2941,7 @@ _G.pg.ship_skin_words[101401] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101410] = {
+_G.pg.base.ship_skin_words[101410] = {
 	feeling1 = "现在的斯坦利正处于失望模式！哼！",
 	feeling3 = "虽然小海狸分队的其它同伴也很有趣，不过还是和指挥官在一起最开心！",
 	lose = "糟了，赶紧启动逃——撤退模式！",
@@ -2984,7 +2984,7 @@ _G.pg.ship_skin_words[101410] = {
 	}
 }
 
-_G.pg.ship_skin_words[101420] = {
+_G.pg.base.ship_skin_words[101420] = {
 	feeling1 = "啊，你继续窝着就好，我去锻炼了，拜拜",
 	feeling3 = "指挥官，下次休息日一起去买护具怎么样，有好的装备辅助，可是能让效果事半功倍的",
 	lose = "这里的空气有点糟糕啊……",
@@ -3027,7 +3027,7 @@ _G.pg.ship_skin_words[101420] = {
 	}
 }
 
-_G.pg.ship_skin_words[101421] = {
+_G.pg.base.ship_skin_words[101421] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3061,7 +3061,7 @@ _G.pg.ship_skin_words[101421] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101430] = {
+_G.pg.base.ship_skin_words[101430] = {
 	feeling1 = "哼，等我变成了港区的明星，你就等着后悔吧！",
 	feeling3 = "要想从那么多的姐妹们中脱颖而出确实有些难呢……指挥官！你一定知道有什么办法的吧！",
 	lose = "呜呜，不，不要看这边啦……",
@@ -3095,7 +3095,7 @@ _G.pg.ship_skin_words[101430] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101431] = {
+_G.pg.base.ship_skin_words[101431] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3129,7 +3129,7 @@ _G.pg.ship_skin_words[101431] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101440] = {
+_G.pg.base.ship_skin_words[101440] = {
 	feeling1 = "即使敌人是指挥官，我也不会手软的！",
 	feeling3 = "指挥官，库珀来了！来吧，无论什么样的敌人都给你打败！……把这些资料送过去？唔嗯嗯……真是的，不要小看库珀啊！",
 	lose = "一次的失败，阻挡不了我对胜利的追求！",
@@ -3163,7 +3163,7 @@ _G.pg.ship_skin_words[101440] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101441] = {
+_G.pg.base.ship_skin_words[101441] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3197,7 +3197,7 @@ _G.pg.ship_skin_words[101441] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101442] = {
+_G.pg.base.ship_skin_words[101442] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3231,7 +3231,7 @@ _G.pg.ship_skin_words[101442] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101450] = {
+_G.pg.base.ship_skin_words[101450] = {
 	feeling1 = "好啦好啦，心情不好就来撒撒娇吧~姐姐温暖的怀抱借给你哦~",
 	feeling3 = "呼~今天的训练顺利完成！接下来就是休息时间了。…啊，抓住指挥官！这个星星贴纸送给和我一起辛苦的你——就贴额头上好了~",
 	lose = "放松过头了啊，还好只是近失弹…我会反省的啦~",
@@ -3300,7 +3300,7 @@ _G.pg.ship_skin_words[101450] = {
 	}
 }
 
-_G.pg.ship_skin_words[101451] = {
+_G.pg.base.ship_skin_words[101451] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3334,7 +3334,7 @@ _G.pg.ship_skin_words[101451] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101460] = {
+_G.pg.base.ship_skin_words[101460] = {
 	feeling1 = "没意思……我去别的地方了，有事叫我。",
 	feeling3 = "你说“为什么我只是在旁边看着”……因为你也没说让我帮忙呀？有事要拜托的话，说就好了嘛。眼神暗示这种我可不懂。",
 	lose = "哎呀，放松过头了……",
@@ -3402,7 +3402,7 @@ _G.pg.ship_skin_words[101460] = {
 	}
 }
 
-_G.pg.ship_skin_words[101461] = {
+_G.pg.base.ship_skin_words[101461] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3436,7 +3436,7 @@ _G.pg.ship_skin_words[101461] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101470] = {
+_G.pg.base.ship_skin_words[101470] = {
 	feeling1 = "果然，我不适合在这里…",
 	feeling3 = "指挥官，你对小熊感兴趣吗？那，我稍微为你介绍一下…？",
 	lose = "好痛…呜…我想回港口…",
@@ -3479,7 +3479,7 @@ _G.pg.ship_skin_words[101470] = {
 	}
 }
 
-_G.pg.ship_skin_words[101471] = {
+_G.pg.base.ship_skin_words[101471] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3513,7 +3513,7 @@ _G.pg.ship_skin_words[101471] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101480] = {
+_G.pg.base.ship_skin_words[101480] = {
 	feeling1 = "要是你的脑袋上有螺丝的话，我一定得拧开来看看里面是什么怪东西……",
 	feeling3 = "库珀，你上次说的什么“变身道具”已经做好了。……等等，艾伦，不要擅自往上面贴奇怪的贴纸！",
 	lose = "哎…回去得好好维修一下这身装备了。",
@@ -3572,7 +3572,7 @@ _G.pg.ship_skin_words[101480] = {
 	}
 }
 
-_G.pg.ship_skin_words[101481] = {
+_G.pg.base.ship_skin_words[101481] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3606,7 +3606,7 @@ _G.pg.ship_skin_words[101481] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[101490] = {
+_G.pg.base.ship_skin_words[101490] = {
 	feeling1 = "诅咒你下次探险的时候全身沾满海带……",
 	feeling3 = "指挥官，如果暂时没有什么需要我做的，我可以在港区里随便逛逛吗？…耶！DATA-857，我们出发！",
 	lose = "结果为大失败？！啊…已经，没有什么好留恋的了…",
@@ -3657,7 +3657,7 @@ _G.pg.ship_skin_words[101490] = {
 	}
 }
 
-_G.pg.ship_skin_words[101491] = {
+_G.pg.base.ship_skin_words[101491] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -3691,7 +3691,7 @@ _G.pg.ship_skin_words[101491] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102010] = {
+_G.pg.base.ship_skin_words[102010] = {
 	feeling1 = "吃的？我自己有啦，不麻烦指挥官了",
 	feeling3 = "欸……有、有点肉的女孩子才可爱！指挥官你一定是这样想的对不对？！",
 	lose = "呜哇！等我吃饱了回来要你们好看！",
@@ -3725,7 +3725,7 @@ _G.pg.ship_skin_words[102010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102020] = {
+_G.pg.base.ship_skin_words[102020] = {
 	feeling1 = "罗利可不是小孩子！！！",
 	feeling3 = "想了解我？嗯……您可能是第一个平等地对我这么说的人呢……稍微有点开心",
 	lose = "呼，好险，差一点……",
@@ -3759,7 +3759,7 @@ _G.pg.ship_skin_words[102020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102030] = {
+_G.pg.base.ship_skin_words[102030] = {
 	feeling1 = "我在考虑向您辞职，指挥官似乎并不值得我付出汗水",
 	feeling3 = "感觉最近比起外交事务，指挥官的私人事务反而处理的要多一点……您该不会是故意的吧？",
 	lose = "这下谈判要没有优势了……",
@@ -3793,7 +3793,7 @@ _G.pg.ship_skin_words[102030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102040] = {
+_G.pg.base.ship_skin_words[102040] = {
 	feeling1 = "胆小鬼，离我远点！",
 	feeling3 = "怎么了？如果我可以的话就跟我商量吧！",
 	lose = "嘁，给我记住！",
@@ -3844,7 +3844,7 @@ _G.pg.ship_skin_words[102040] = {
 	}
 }
 
-_G.pg.ship_skin_words[102050] = {
+_G.pg.base.ship_skin_words[102050] = {
 	feeling1 = "SG，快来保护我……",
 	feeling3 = "表情？啊……因为我离开的时候战况还是相当不利的呢……对于和平啊，欢笑啊之类的……稍微有些不适应，不过不用担心，海伦娜没问题的！",
 	lose = "……拜托先救我~不要再和敌人纠缠了",
@@ -3929,7 +3929,7 @@ _G.pg.ship_skin_words[102050] = {
 	}
 }
 
-_G.pg.ship_skin_words[102051] = {
+_G.pg.base.ship_skin_words[102051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "没关系，还有下一次……！",
@@ -3963,7 +3963,7 @@ _G.pg.ship_skin_words[102051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102052] = {
+_G.pg.base.ship_skin_words[102052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "没关系，还有下一次……！",
@@ -3997,7 +3997,7 @@ _G.pg.ship_skin_words[102052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102059] = {
+_G.pg.base.ship_skin_words[102059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "没关系，还有下一次……！",
@@ -4031,7 +4031,7 @@ _G.pg.ship_skin_words[102059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102060] = {
+_G.pg.base.ship_skin_words[102060] = {
 	feeling1 = "我不是你这种家伙的亲姐姐真是太好了……",
 	feeling3 = "大就是好，多就是美，你不觉得吗？……喂！你在看哪里？不够大还真是抱歉啊！",
 	lose = "呃，糟糕，我的作为姐姐的形象……",
@@ -4065,7 +4065,7 @@ _G.pg.ship_skin_words[102060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102070] = {
+_G.pg.base.ship_skin_words[102070] = {
 	feeling1 = "不要靠近我！——对不起……觉得指挥官有点可怕……",
 	feeling3 = "指挥官，今天能一起睡吗……和指挥官一起睡很安心……",
 	lose = "好痛！……左脚、左脚不能动了……谁来，救救我……",
@@ -4099,7 +4099,7 @@ _G.pg.ship_skin_words[102070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102080] = {
+_G.pg.base.ship_skin_words[102080] = {
 	feeling1 = "指挥官不要靠近我，笨蛋会传染的！",
 	feeling3 = "喂喂，指挥官，来赛跑吧，赢了的人请吃饭！",
 	lose = "咦，这里是谁，我是哪儿，怎么就输了？！",
@@ -4150,7 +4150,7 @@ _G.pg.ship_skin_words[102080] = {
 	}
 }
 
-_G.pg.ship_skin_words[102081] = {
+_G.pg.base.ship_skin_words[102081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4184,7 +4184,7 @@ _G.pg.ship_skin_words[102081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102088] = {
+_G.pg.base.ship_skin_words[102088] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4218,7 +4218,7 @@ _G.pg.ship_skin_words[102088] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102089] = {
+_G.pg.base.ship_skin_words[102089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4252,7 +4252,7 @@ _G.pg.ship_skin_words[102089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102090] = {
+_G.pg.base.ship_skin_words[102090] = {
 	feeling1 = "抱歉，还有姐妹在等我，没时间陪你",
 	feeling3 = "嗯……虽然我也不是强迫自己心胸宽广，不过指挥官这样能平等聊天的对象还真不多呢……",
 	lose = "欸嘿……好像有点不大妙呢……？",
@@ -4304,7 +4304,7 @@ _G.pg.ship_skin_words[102090] = {
 	}
 }
 
-_G.pg.ship_skin_words[102091] = {
+_G.pg.base.ship_skin_words[102091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4338,7 +4338,7 @@ _G.pg.ship_skin_words[102091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102092] = {
+_G.pg.base.ship_skin_words[102092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4372,7 +4372,7 @@ _G.pg.ship_skin_words[102092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102093] = {
+_G.pg.base.ship_skin_words[102093] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4406,7 +4406,7 @@ _G.pg.ship_skin_words[102093] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102094] = {
+_G.pg.base.ship_skin_words[102094] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4440,7 +4440,7 @@ _G.pg.ship_skin_words[102094] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102098] = {
+_G.pg.base.ship_skin_words[102098] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4474,7 +4474,7 @@ _G.pg.ship_skin_words[102098] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102100] = {
+_G.pg.base.ship_skin_words[102100] = {
 	feeling1 = "哈啊……看来你也不过如此，有所期待是我的错",
 	feeling3 = "什么？没想到我居然会喜欢芭蕾舞？你什么意思？再笑我可锤你了哦？",
 	lose = "啧……这帮不要命的家伙……",
@@ -4517,7 +4517,7 @@ _G.pg.ship_skin_words[102100] = {
 	}
 }
 
-_G.pg.ship_skin_words[102101] = {
+_G.pg.base.ship_skin_words[102101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4551,7 +4551,7 @@ _G.pg.ship_skin_words[102101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102102] = {
+_G.pg.base.ship_skin_words[102102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4585,7 +4585,7 @@ _G.pg.ship_skin_words[102102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102110] = {
+_G.pg.base.ship_skin_words[102110] = {
 	feeling1 = "看来要找下一个地方了呢……",
 	feeling3 = "指挥官~我刚刚对舰队熟悉起来，还有很多想知道的东西，能不能陪我出去走走呀？",
 	lose = "哎呀，输掉了呢，真可惜",
@@ -4619,7 +4619,7 @@ _G.pg.ship_skin_words[102110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102120] = {
+_G.pg.base.ship_skin_words[102120] = {
 	feeling1 = "指挥官也不过是这样的人吗……",
 	feeling3 = "总是被大家羡慕或者嫉妒，好像胸部比我本人还要重要一样，我倒是希望它能小一点，而且本来就不太方便……",
 	lose = "我可不想再去一次马雷岛……",
@@ -4670,7 +4670,7 @@ _G.pg.ship_skin_words[102120] = {
 	}
 }
 
-_G.pg.ship_skin_words[102121] = {
+_G.pg.base.ship_skin_words[102121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4704,7 +4704,7 @@ _G.pg.ship_skin_words[102121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102122] = {
+_G.pg.base.ship_skin_words[102122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4738,7 +4738,7 @@ _G.pg.ship_skin_words[102122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102123] = {
+_G.pg.base.ship_skin_words[102123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "糟了糟了衣服破了要被看到了……",
@@ -4772,7 +4772,7 @@ _G.pg.ship_skin_words[102123] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102124] = {
+_G.pg.base.ship_skin_words[102124] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "讨厌，刚刚好不容易才换上的衣服…",
@@ -4806,7 +4806,7 @@ _G.pg.ship_skin_words[102124] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102130] = {
+_G.pg.base.ship_skin_words[102130] = {
 	feeling1 = "指挥官，至少请不要对海伦娜……",
 	feeling3 = "指挥官，我来帮你整理下卧室吧~咦，不可以！？",
 	lose = "看来今天不宜战斗呢……",
@@ -4857,7 +4857,7 @@ _G.pg.ship_skin_words[102130] = {
 	}
 }
 
-_G.pg.ship_skin_words[102131] = {
+_G.pg.base.ship_skin_words[102131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4891,7 +4891,7 @@ _G.pg.ship_skin_words[102131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102132] = {
+_G.pg.base.ship_skin_words[102132] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4925,7 +4925,7 @@ _G.pg.ship_skin_words[102132] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102133] = {
+_G.pg.base.ship_skin_words[102133] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -4959,7 +4959,7 @@ _G.pg.ship_skin_words[102133] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102140] = {
+_G.pg.base.ship_skin_words[102140] = {
 	feeling1 = "大姐头果然看走眼了吗……",
 	feeling3 = "大姐头又厉害又酷，而且总是笑的很帅，就好像没有什么能打倒她一样，我的梦想就是有一天变成她那样",
 	lose = "对不起…大姐头…丢了海上骑士的脸…",
@@ -5020,7 +5020,7 @@ _G.pg.ship_skin_words[102140] = {
 	}
 }
 
-_G.pg.ship_skin_words[102141] = {
+_G.pg.base.ship_skin_words[102141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5054,7 +5054,7 @@ _G.pg.ship_skin_words[102141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102142] = {
+_G.pg.base.ship_skin_words[102142] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5088,7 +5088,7 @@ _G.pg.ship_skin_words[102142] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102150] = {
+_G.pg.base.ship_skin_words[102150] = {
 	feeling1 = "指挥官，你的气概呢！？",
 	feeling3 = "一心一意地磨练自身的技艺，专心致志地打倒眼前的敌人——仅仅做到这些就足够了吗？",
 	lose = "我……还不够成熟吗……",
@@ -5131,7 +5131,7 @@ _G.pg.ship_skin_words[102150] = {
 	}
 }
 
-_G.pg.ship_skin_words[102160] = {
+_G.pg.base.ship_skin_words[102160] = {
 	feeling1 = "哼，被我无视，是你咎由自取！",
 	feeling3 = "被我迷住也是没办法的事。行吧，就允许你多发一下呆~",
 	lose = "居然会失败……真狼狈。",
@@ -5176,7 +5176,7 @@ _G.pg.ship_skin_words[102160] = {
 	}
 }
 
-_G.pg.ship_skin_words[102161] = {
+_G.pg.base.ship_skin_words[102161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5210,7 +5210,7 @@ _G.pg.ship_skin_words[102161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102162] = {
+_G.pg.base.ship_skin_words[102162] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5244,7 +5244,7 @@ _G.pg.ship_skin_words[102162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102163] = {
+_G.pg.base.ship_skin_words[102163] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5278,7 +5278,7 @@ _G.pg.ship_skin_words[102163] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102180] = {
+_G.pg.base.ship_skin_words[102180] = {
 	feeling1 = "我现在不累，不要碰我的脚哦。再碰就踢你！",
 	feeling3 = "就这样多陪我一下不也挺好嘛。好好看着我，别发呆！",
 	lose = "大失败……提不起劲了……",
@@ -5324,7 +5324,7 @@ _G.pg.ship_skin_words[102180] = {
 	}
 }
 
-_G.pg.ship_skin_words[102181] = {
+_G.pg.base.ship_skin_words[102181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5358,7 +5358,7 @@ _G.pg.ship_skin_words[102181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102182] = {
+_G.pg.base.ship_skin_words[102182] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5392,7 +5392,7 @@ _G.pg.ship_skin_words[102182] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102190] = {
+_G.pg.base.ship_skin_words[102190] = {
 	feeling1 = "跟指挥官相处好无聊，我要回去了！",
 	feeling3 = "指挥官，这个发型现在好像很流行哦，不过我还是喜欢这个，你觉得哪个比较好看？",
 	lose = "呜呜呜，指挥官，他们欺负我……",
@@ -5435,7 +5435,7 @@ _G.pg.ship_skin_words[102190] = {
 	}
 }
 
-_G.pg.ship_skin_words[102200] = {
+_G.pg.base.ship_skin_words[102200] = {
 	feeling1 = "大家在等我，指挥官拜拜~",
 	feeling3 = "嘿嘿，虽然指挥官很忙，却还愿意陪我们到处跑，从今天起，你就是我们探险队的名誉顾问啦！",
 	lose = "指挥官，情况好像有点不妙……？",
@@ -5478,7 +5478,7 @@ _G.pg.ship_skin_words[102200] = {
 	}
 }
 
-_G.pg.ship_skin_words[102210] = {
+_G.pg.base.ship_skin_words[102210] = {
 	feeling1 = "指挥官，不要难过，比圣地亚哥笨并不是你的错",
 	feeling3 = "要是遇到了一些怎么样都忘不掉的问题要怎么办呢……啊，我知道了，这个时候只要找指挥官就好了吧！",
 	lose = "欸欸？那边不是回去的方向吗？",
@@ -5529,7 +5529,7 @@ _G.pg.ship_skin_words[102210] = {
 	}
 }
 
-_G.pg.ship_skin_words[102220] = {
+_G.pg.base.ship_skin_words[102220] = {
 	feeling1 = "果然变成这样子了吗。但是，我是不会放弃的！",
 	feeling3 = "我说话可能不太好听，但是，我想指挥官能明白我的意思的。呃……对，对吧，指挥官？",
 	lose = "呜…我、我来掩护大家撤退！",
@@ -5588,7 +5588,7 @@ _G.pg.ship_skin_words[102220] = {
 	}
 }
 
-_G.pg.ship_skin_words[102221] = {
+_G.pg.base.ship_skin_words[102221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5622,7 +5622,7 @@ _G.pg.ship_skin_words[102221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102230] = {
+_G.pg.base.ship_skin_words[102230] = {
 	feeling1 = "指挥官，希望你能好好自我反省一下…",
 	feeling3 = "对自己太过严格了…？大概…是这样的吧…只是，为了早日驱除笼罩在这片大海上的黑暗，总要付出更多的努力才行",
 	lose = "我该…怎么办才好？",
@@ -5665,7 +5665,7 @@ _G.pg.ship_skin_words[102230] = {
 	}
 }
 
-_G.pg.ship_skin_words[102231] = {
+_G.pg.base.ship_skin_words[102231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5699,7 +5699,7 @@ _G.pg.ship_skin_words[102231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102232] = {
+_G.pg.base.ship_skin_words[102232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5733,7 +5733,7 @@ _G.pg.ship_skin_words[102232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102240] = {
+_G.pg.base.ship_skin_words[102240] = {
 	feeling1 = "抱歉，这边很忙的，没时间管你",
 	feeling3 = "兴趣是盆栽这个会不会太老气了啊…怎么办呢…啊啊这种事谁知道啊！指挥官，这个自我介绍要怎么写才好？",
 	lose = "可不能让哥伦比亚她们看到这个样子啊…",
@@ -5767,7 +5767,7 @@ _G.pg.ship_skin_words[102240] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102250] = {
+_G.pg.base.ship_skin_words[102250] = {
 	feeling1 = "指挥官，如果你只是想无所事事度日的话，我可没工夫陪你",
 	feeling3 = "有时候，我也会和同伴们聊聊假期里该做的事…怎么，觉得这话由我说出口挺奇怪？该工作时就得努力工作，到假期时就该好好放松。我可不是什么工作狂哦？",
 	lose = "可恶……我是不会就此罢休的！",
@@ -5811,7 +5811,7 @@ _G.pg.ship_skin_words[102250] = {
 	}
 }
 
-_G.pg.ship_skin_words[102251] = {
+_G.pg.base.ship_skin_words[102251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5845,7 +5845,7 @@ _G.pg.ship_skin_words[102251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102252] = {
+_G.pg.base.ship_skin_words[102252] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "哼…有点意思…！",
@@ -5879,7 +5879,7 @@ _G.pg.ship_skin_words[102252] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102253] = {
+_G.pg.base.ship_skin_words[102253] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -5913,7 +5913,7 @@ _G.pg.ship_skin_words[102253] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102260] = {
+_G.pg.base.ship_skin_words[102260] = {
 	feeling1 = "原来近距离接触偶像会幻灭的说法是真的啊……唉……",
 	feeling3 = "以前我也有憧憬成为英雄而想锻炼自己的时候，但是这个……一点剧烈运动就会晃得很厉害……我好羡慕平胸的舰船们啊……",
 	lose = "事情在变好前，总会变得更糟……嗯，下次继续努力！",
@@ -5972,7 +5972,7 @@ _G.pg.ship_skin_words[102260] = {
 	}
 }
 
-_G.pg.ship_skin_words[102261] = {
+_G.pg.base.ship_skin_words[102261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6006,7 +6006,7 @@ _G.pg.ship_skin_words[102261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102262] = {
+_G.pg.base.ship_skin_words[102262] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6040,7 +6040,7 @@ _G.pg.ship_skin_words[102262] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102263] = {
+_G.pg.base.ship_skin_words[102263] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6074,7 +6074,7 @@ _G.pg.ship_skin_words[102263] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102264] = {
+_G.pg.base.ship_skin_words[102264] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6108,7 +6108,7 @@ _G.pg.ship_skin_words[102264] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102270] = {
+_G.pg.base.ship_skin_words[102270] = {
 	feeling1 = "指挥官好无聊啊，还是去找斐济玩吧",
 	feeling3 = "嗯……也不是刻意想要掩饰，过去是过去，现在是现在，而且我觉得奔放一点更适合我~所以说，请多指教啦~",
 	lose = "要回去做战局分析了呢……啊，没什么！",
@@ -6164,7 +6164,7 @@ _G.pg.ship_skin_words[102270] = {
 	}
 }
 
-_G.pg.ship_skin_words[102271] = {
+_G.pg.base.ship_skin_words[102271] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6198,7 +6198,7 @@ _G.pg.ship_skin_words[102271] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102272] = {
+_G.pg.base.ship_skin_words[102272] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6232,7 +6232,7 @@ _G.pg.ship_skin_words[102272] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102273] = {
+_G.pg.base.ship_skin_words[102273] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6266,7 +6266,7 @@ _G.pg.ship_skin_words[102273] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102290] = {
+_G.pg.base.ship_skin_words[102290] = {
 	feeling1 = "感觉指挥官好难懂……",
 	feeling3 = "每当遇到困难时，我总会告诉自己，再努力一下……指挥官，你也可以试试？",
 	lose = "只能撤退了么……指挥官，对不起……",
@@ -6317,7 +6317,7 @@ _G.pg.ship_skin_words[102290] = {
 	}
 }
 
-_G.pg.ship_skin_words[102291] = {
+_G.pg.base.ship_skin_words[102291] = {
 	feeling1 = "感觉指挥官好难懂……",
 	feeling3 = "每当遇到困难时，我总会告诉自己，再努力一下……指挥官，你也可以试试？",
 	lose = "只能撤退了么……指挥官，对不起……",
@@ -6351,7 +6351,7 @@ _G.pg.ship_skin_words[102291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[102292] = {
+_G.pg.base.ship_skin_words[102292] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6385,7 +6385,7 @@ _G.pg.ship_skin_words[102292] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103010] = {
+_G.pg.base.ship_skin_words[103010] = {
 	feeling1 = "指挥官，你完全不OK啊！",
 	feeling3 = "出去走走？OK啊，去哪里你来定吧，我都行，只要你高兴就好",
 	lose = "可恶……这一点也不OK……",
@@ -6419,7 +6419,7 @@ _G.pg.ship_skin_words[103010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103020] = {
+_G.pg.base.ship_skin_words[103020] = {
 	feeling1 = "指挥官的眼神，有点恶心……",
 	feeling3 = "指挥官，躺在沙滩上很没意思吧，快起来和我一起打排球！晒伤？没关系啊，彭萨科拉姐姐已经帮我涂过防晒油了",
 	lose = "呜哇！穿甲弹已经没有了……可恶！",
@@ -6453,7 +6453,7 @@ _G.pg.ship_skin_words[103020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103030] = {
+_G.pg.base.ship_skin_words[103030] = {
 	feeling1 = "你这样会让我分神的，能不能安静一点？",
 	feeling3 = "我有一个比较吵闹的朋友，妹妹们也都比较活泼，像是指挥官这样也比较安静的朋友倒是比较少见……",
 	lose = "我早就知道不会这么简单就结束的……",
@@ -6487,7 +6487,7 @@ _G.pg.ship_skin_words[103030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103040] = {
+_G.pg.base.ship_skin_words[103040] = {
 	feeling1 = "指挥官，有关女人心你要学的还有很多呢……",
 	feeling3 = "不少人都不擅长应付姐姐我这样的，真亏你愿意和我做朋友呢……",
 	lose = "哎呀，衣服都破了呢~",
@@ -6521,7 +6521,7 @@ _G.pg.ship_skin_words[103040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103050] = {
+_G.pg.base.ship_skin_words[103050] = {
 	feeling1 = "指挥官一点也不好玩……",
 	feeling3 = "呯！哒哒哒哒哒！……嗯，今天也玩的很痛快！果然还是和指挥官一起玩最开心了~",
 	lose = "呜哎~头、头晕晕的……撞到了比自己硬的东西了……",
@@ -6572,7 +6572,7 @@ _G.pg.ship_skin_words[103050] = {
 	}
 }
 
-_G.pg.ship_skin_words[103060] = {
+_G.pg.base.ship_skin_words[103060] = {
 	feeling1 = "别妨碍我沉迷印第！",
 	feeling3 = "指挥官，要一起来看印第小时候的照片吗？虽然就算你说不想看我也会给你看的",
 	lose = "可恶，一定不能被妹妹看到我这幅模样！",
@@ -6606,7 +6606,7 @@ _G.pg.ship_skin_words[103060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103061] = {
+_G.pg.base.ship_skin_words[103061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6640,7 +6640,7 @@ _G.pg.ship_skin_words[103061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103069] = {
+_G.pg.base.ship_skin_words[103069] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6674,7 +6674,7 @@ _G.pg.ship_skin_words[103069] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103070] = {
+_G.pg.base.ship_skin_words[103070] = {
 	feeling1 = "……（你并不清楚波利斯是真的没有反应还是只是不想理你）",
 	feeling3 = "姐姐……虽然总说我可爱，但她要是稍微花点时间在自己身上一定会非常受欢迎的……所以我一直觉得有些对不起姐姐……",
 	lose = "……情况好像不太妙……一定是可恶的{namecode:156}",
@@ -6733,7 +6733,7 @@ _G.pg.ship_skin_words[103070] = {
 	}
 }
 
-_G.pg.ship_skin_words[103071] = {
+_G.pg.base.ship_skin_words[103071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6767,7 +6767,7 @@ _G.pg.ship_skin_words[103071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103072] = {
+_G.pg.base.ship_skin_words[103072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6801,7 +6801,7 @@ _G.pg.ship_skin_words[103072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103080] = {
+_G.pg.base.ship_skin_words[103080] = {
 	feeling1 = "我有点生气了……明明说过了有什么事依赖我就好了的……",
 	feeling3 = "虽然和妹妹们相处得很好，我也很喜欢她们，不过有时候就是忍不住去想呢……如果，如果这一级还是叫阿斯托利亚级就好了呢……",
 	lose = "哎呀，输了啊……指挥官，我们快跑吧~",
@@ -6835,7 +6835,7 @@ _G.pg.ship_skin_words[103080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103081] = {
+_G.pg.base.ship_skin_words[103081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6869,7 +6869,7 @@ _G.pg.ship_skin_words[103081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103082] = {
+_G.pg.base.ship_skin_words[103082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6903,7 +6903,7 @@ _G.pg.ship_skin_words[103082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103090] = {
+_G.pg.base.ship_skin_words[103090] = {
 	feeling1 = "即、即使是这样的指挥官，我也不会放弃帮助你的！大、大概…",
 	feeling3 = "伤害他人的时候，自己会比被伤害时还痛苦……咦，大家不都是这样吗？",
 	lose = "呜……我只能做到这样了吗",
@@ -6937,7 +6937,7 @@ _G.pg.ship_skin_words[103090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103091] = {
+_G.pg.base.ship_skin_words[103091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -6971,7 +6971,7 @@ _G.pg.ship_skin_words[103091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103100] = {
+_G.pg.base.ship_skin_words[103100] = {
 	feeling1 = "指挥官？！好危险……",
 	feeling3 = "指挥官……不论对谁都很温柔…",
 	lose = "指挥官，要准备跑了…",
@@ -7005,7 +7005,7 @@ _G.pg.ship_skin_words[103100] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103101] = {
+_G.pg.base.ship_skin_words[103101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7039,7 +7039,7 @@ _G.pg.ship_skin_words[103101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103102] = {
+_G.pg.base.ship_skin_words[103102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7073,7 +7073,7 @@ _G.pg.ship_skin_words[103102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103110] = {
+_G.pg.base.ship_skin_words[103110] = {
 	feeling1 = "啊，看来我的眼光有问题啊……找了这么个废柴……",
 	feeling3 = "好奇这根鞭子吗，其实只是过去随便买的，用着还挺顺手就一直用着了，用来指地图的时候还是挺好用的",
 	lose = "这样才有意思，撤退！",
@@ -7133,7 +7133,7 @@ _G.pg.ship_skin_words[103110] = {
 	}
 }
 
-_G.pg.ship_skin_words[103111] = {
+_G.pg.base.ship_skin_words[103111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7167,7 +7167,7 @@ _G.pg.ship_skin_words[103111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103112] = {
+_G.pg.base.ship_skin_words[103112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7201,7 +7201,7 @@ _G.pg.ship_skin_words[103112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103120] = {
+_G.pg.base.ship_skin_words[103120] = {
 	feeling1 = "简直像小孩一样呢，指挥官…",
 	feeling3 = "平常的娱乐活动吗？好像也没有什么特别的…和姐妹们聊天、钓鱼、睡觉…之类的？",
 	lose = "无论是光凭信念，还是光凭力量都是不行的呢…",
@@ -7276,7 +7276,7 @@ _G.pg.ship_skin_words[103120] = {
 	}
 }
 
-_G.pg.ship_skin_words[103121] = {
+_G.pg.base.ship_skin_words[103121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7310,7 +7310,7 @@ _G.pg.ship_skin_words[103121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103130] = {
+_G.pg.base.ship_skin_words[103130] = {
 	feeling1 = "和你聊天有点无趣啊……",
 	feeling3 = "其实港区里也有几个我比较在意的地方。现在就出发去探索吧！……工作？等下再做也不迟啦！",
 	lose = "嘁，到手的猎物却……",
@@ -7363,7 +7363,7 @@ _G.pg.ship_skin_words[103130] = {
 	}
 }
 
-_G.pg.ship_skin_words[103131] = {
+_G.pg.base.ship_skin_words[103131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7397,7 +7397,7 @@ _G.pg.ship_skin_words[103131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103132] = {
+_G.pg.base.ship_skin_words[103132] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7431,7 +7431,7 @@ _G.pg.ship_skin_words[103132] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103133] = {
+_G.pg.base.ship_skin_words[103133] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7465,7 +7465,7 @@ _G.pg.ship_skin_words[103133] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103138] = {
+_G.pg.base.ship_skin_words[103138] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "抱歉，指挥官，下次一定干掉敌人的！",
@@ -7499,11 +7499,11 @@ _G.pg.ship_skin_words[103138] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103140] = {
+_G.pg.base.ship_skin_words[103140] = {
 	feeling1 = "要不要把你绑了沉海里反省反省呢……",
 	feeling3 = "今天做点什么好呢~要不，趁小布丁不注意的时候，给他制造点小麻烦？说不定很有趣呢！",
 	lose = "别愁眉苦脸的啦~下次会帮你赢回来的！",
-	propose = "哎，誓约仪式啊，怪麻烦的……算啦算啦，这次就迁就你好了~下次就轮到小布丁迁就我了哦？做好心理准备吧，毕竟我可是个贪得无厌的人呢——特别是在在对小布丁的时候~",
+	propose = "哎，誓约仪式啊，怪麻烦的……算啦算啦，这次就迁就你好了~下次就轮到小布丁迁就我了哦？做好心理准备吧，毕竟我可是个贪得无厌的人呢——特别是在对小布丁的时候~",
 	expedition = "迎接委托队？和我好像没啥关系欸……能认识有趣的人？好，我一起去！",
 	win_mvp = "收工！一群杂鱼而已，不值一提啦~",
 	home = "发现小布丁一只！让我看看他接下来是打算工作还是偷懒——",
@@ -7574,7 +7574,7 @@ _G.pg.ship_skin_words[103140] = {
 	}
 }
 
-_G.pg.ship_skin_words[103141] = {
+_G.pg.base.ship_skin_words[103141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7608,7 +7608,7 @@ _G.pg.ship_skin_words[103141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103160] = {
+_G.pg.base.ship_skin_words[103160] = {
 	feeling1 = "指挥官，还是要更大度一点比较好啊",
 	feeling3 = "刻板的话就不用多说了，之后还需要我做什么呢？指挥官没问题的话，我什么忙都能帮的，尽管告诉我吧",
 	lose = "通往正义的道路总是充满坎坷.....",
@@ -7659,7 +7659,7 @@ _G.pg.ship_skin_words[103160] = {
 	}
 }
 
-_G.pg.ship_skin_words[103161] = {
+_G.pg.base.ship_skin_words[103161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7693,7 +7693,7 @@ _G.pg.ship_skin_words[103161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103162] = {
+_G.pg.base.ship_skin_words[103162] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7727,7 +7727,7 @@ _G.pg.ship_skin_words[103162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103163] = {
+_G.pg.base.ship_skin_words[103163] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7761,7 +7761,7 @@ _G.pg.ship_skin_words[103163] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103164] = {
+_G.pg.base.ship_skin_words[103164] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7795,7 +7795,7 @@ _G.pg.ship_skin_words[103164] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103240] = {
+_G.pg.base.ship_skin_words[103240] = {
 	feeling1 = "快点找回原来的你吧。要不，我把胸口借给你哭着发泄一下？",
 	feeling3 = "战斗以外喜欢做的事情？我每天都和大家打招呼，在社交网络上解决大家的烦恼…这样想的话，大概是人际交往？啊，又有新消息了呢，我先回复一下~",
 	lose = "哎呀…我好像把事情搞砸了呢",
@@ -7838,7 +7838,7 @@ _G.pg.ship_skin_words[103240] = {
 	}
 }
 
-_G.pg.ship_skin_words[103241] = {
+_G.pg.base.ship_skin_words[103241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7872,7 +7872,7 @@ _G.pg.ship_skin_words[103241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103242] = {
+_G.pg.base.ship_skin_words[103242] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7906,7 +7906,7 @@ _G.pg.ship_skin_words[103242] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103243] = {
+_G.pg.base.ship_skin_words[103243] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -7940,7 +7940,7 @@ _G.pg.ship_skin_words[103243] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[103250] = {
+_G.pg.base.ship_skin_words[103250] = {
 	feeling1 = "这么紧逼自己可没法引领大家啊。还是要放松一点比较好哦。",
 	feeling3 = "指挥官，这身衣服如何？你看，这里还有个开口…果、果然还是这样看起来更“可爱”吧…///",
 	lose = "是不是要重新彩排了呀…",
@@ -7994,7 +7994,7 @@ _G.pg.ship_skin_words[103250] = {
 	}
 }
 
-_G.pg.ship_skin_words[105010] = {
+_G.pg.base.ship_skin_words[105010] = {
 	feeling1 = "对你稍微有点失望……",
 	feeling3 = "指挥官，前阵子俄克拉荷马告诉了我个好地方，要不要去购物？哎呀，别愣着了，走走走",
 	lose = "嘁，下次看我怎么收拾你们！",
@@ -8028,7 +8028,7 @@ _G.pg.ship_skin_words[105010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105019] = {
+_G.pg.base.ship_skin_words[105019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8062,7 +8062,7 @@ _G.pg.ship_skin_words[105019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105020] = {
+_G.pg.base.ship_skin_words[105020] = {
 	feeling1 = "我看走眼了呢……",
 	feeling3 = "指挥官指挥官，要和我去约会吗~我有收藏不少好店哦！",
 	lose = "呜……我要更加努力才行！",
@@ -8096,7 +8096,7 @@ _G.pg.ship_skin_words[105020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105029] = {
+_G.pg.base.ship_skin_words[105029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8130,7 +8130,7 @@ _G.pg.ship_skin_words[105029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105030] = {
+_G.pg.base.ship_skin_words[105030] = {
 	feeling1 = "你还真是个胆小鬼啊……",
 	feeling3 = "想要和我站在一起？……你要想好，这可是非常，非常难的事",
 	lose = "稍微有点期待你指挥能力的我也是太轻率了",
@@ -8191,7 +8191,7 @@ _G.pg.ship_skin_words[105030] = {
 	}
 }
 
-_G.pg.ship_skin_words[105031] = {
+_G.pg.base.ship_skin_words[105031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8225,7 +8225,7 @@ _G.pg.ship_skin_words[105031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105040] = {
+_G.pg.base.ship_skin_words[105040] = {
 	feeling1 = "哪里才是我的居所呢……",
 	feeling3 = "……谢谢你每次都听我说这么多话……我感觉好多了……",
 	lose = "亚利桑那有点不行了，请让我任性这一回……",
@@ -8278,7 +8278,7 @@ _G.pg.ship_skin_words[105040] = {
 	}
 }
 
-_G.pg.ship_skin_words[105041] = {
+_G.pg.base.ship_skin_words[105041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "该撤退了对吧…嗯！",
@@ -8312,7 +8312,7 @@ _G.pg.ship_skin_words[105041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105070] = {
+_G.pg.base.ship_skin_words[105070] = {
 	feeling1 = "你还真是扶不起啊……",
 	feeling3 = "指挥官，你太弱了，来跟我一起锻炼一下，我会把你打造成合格的指挥官的",
 	lose = "呵，太棒了，这才是我寻找的对手……！",
@@ -8346,7 +8346,7 @@ _G.pg.ship_skin_words[105070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105080] = {
+_G.pg.base.ship_skin_words[105080] = {
 	feeling1 = "指挥官，我一个人先去玩了哦~",
 	feeling3 = "哼~哼~哼~♪啊指挥官~我正想找你一起玩呢，你来得正好",
 	lose = "咕！这下要被姐姐骂了……",
@@ -8380,7 +8380,7 @@ _G.pg.ship_skin_words[105080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105090] = {
+_G.pg.base.ship_skin_words[105090] = {
 	feeling1 = "指挥官，请不要…靠近我。",
 	feeling3 = "指挥官为什么要这么在意我呢？许多人都畏惧我，不愿意靠近我，大概，我早就已经习惯了吧。但是，最近突然觉得…有点寂寞呢。",
 	lose = "这绝对不是我的终点…",
@@ -8414,7 +8414,7 @@ _G.pg.ship_skin_words[105090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105091] = {
+_G.pg.base.ship_skin_words[105091] = {
 	feeling1 = "指挥官……本质上不是个坏孩子呢。",
 	feeling3 = "指挥官，夜晚一起去港口外转转如何？放心吧，我会好好保护您的。咦，在海上可没有“醉驾”这种说法哦，嘻嘻。",
 	lose = "唔……大意了呢。",
@@ -8457,7 +8457,7 @@ _G.pg.ship_skin_words[105091] = {
 	}
 }
 
-_G.pg.ship_skin_words[105092] = {
+_G.pg.base.ship_skin_words[105092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8491,7 +8491,7 @@ _G.pg.ship_skin_words[105092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105100] = {
+_G.pg.base.ship_skin_words[105100] = {
 	feeling1 = "唯懦弱者不可以效忠，我曾经听姐姐说过这句话呢",
 	feeling3 = "战争终究不是一个人的战斗，如果没有生死相依的同袍与终始支持的后方，战力再强也逃不过败亡的命运",
 	lose = "如果俄克拉荷马在的话……",
@@ -8534,7 +8534,7 @@ _G.pg.ship_skin_words[105100] = {
 	}
 }
 
-_G.pg.ship_skin_words[105101] = {
+_G.pg.base.ship_skin_words[105101] = {
 	feeling1 = "唯懦弱者不可以效忠，我曾经听姐姐说过这句话呢",
 	feeling3 = "战争终究不是一个人的战斗，如果没有生死相依的同袍与终始支持的后方，战力再强也逃不过败亡的命运",
 	lose = "如果俄克拉荷马在的话……",
@@ -8568,7 +8568,7 @@ _G.pg.ship_skin_words[105101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105110] = {
+_G.pg.base.ship_skin_words[105110] = {
 	feeling1 = "指挥官的怠惰差不多要超过我能忍受的底线了呢",
 	feeling3 = "Big Seven，是我引以为傲的称号。但是，航母们似乎要取代我们在海战中的地位了。我开始陷入迷惘：自己拥有的这份力量，如今究竟是为了什么而存在的？",
 	lose = "又想让我回忆起那一天遭受的屈辱吗…！",
@@ -8602,7 +8602,7 @@ _G.pg.ship_skin_words[105110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105111] = {
+_G.pg.base.ship_skin_words[105111] = {
 	feeling1 = "指挥官好无趣啊",
 	feeling3 = "喜欢的事情就要大胆去做。如何，你有这种勇气吗？",
 	lose = "没有什么是能一直一帆风顺的……",
@@ -8653,7 +8653,7 @@ _G.pg.ship_skin_words[105111] = {
 	}
 }
 
-_G.pg.ship_skin_words[105120] = {
+_G.pg.base.ship_skin_words[105120] = {
 	feeling1 = "指挥官，我要生气了哦？",
 	feeling3 = "只是外表的话，舰队里每个孩子都很可爱哦，但她们同时也都很有个性，说实话，姐姐稍微有些羡慕她们呢（托腮）",
 	lose = "没那么顺利呢……下次再努力吧",
@@ -8687,7 +8687,7 @@ _G.pg.ship_skin_words[105120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105121] = {
+_G.pg.base.ship_skin_words[105121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8721,7 +8721,7 @@ _G.pg.ship_skin_words[105121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105130] = {
+_G.pg.base.ship_skin_words[105130] = {
 	feeling1 = "你这家伙太弱了，我跟这种家伙可玩不来，再去练练吧",
 	feeling3 = "不对不对，这样的话不就和过去一样了吗……不用勉强？你这家伙有时候也会说些好话耶……欸，刚才笑的就很好？",
 	lose = "啧，我记住你了！",
@@ -8755,7 +8755,7 @@ _G.pg.ship_skin_words[105130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105140] = {
+_G.pg.base.ship_skin_words[105140] = {
 	feeling1 = "…………我会听从你的命令",
 	feeling3 = "我是为了实现指挥官的目标而存在的，除此之外我没有任何价值——裙子？那种轻飘飘的东西我没有穿过",
 	lose = "抱歉，指挥官……这是我的耻辱……！",
@@ -8839,7 +8839,7 @@ _G.pg.ship_skin_words[105140] = {
 	}
 }
 
-_G.pg.ship_skin_words[105141] = {
+_G.pg.base.ship_skin_words[105141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8873,7 +8873,7 @@ _G.pg.ship_skin_words[105141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105170] = {
+_G.pg.base.ship_skin_words[105170] = {
 	feeling1 = "啊，让女孩子落泪可不行啊，指挥官。你该好好反省下自己了！",
 	feeling3 = "不知不觉间，大家也熟络起来了呢~下次想聊什么？舰装技术？还是日常生活？……欸，我来选吗？",
 	lose = "不敢相信，我们居然被敌人压制住了……在找出还击的方法之前，我是不会休息的！",
@@ -8958,7 +8958,7 @@ _G.pg.ship_skin_words[105170] = {
 	}
 }
 
-_G.pg.ship_skin_words[105171] = {
+_G.pg.base.ship_skin_words[105171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -8992,7 +8992,7 @@ _G.pg.ship_skin_words[105171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105190] = {
+_G.pg.base.ship_skin_words[105190] = {
 	feeling1 = "指挥官的身体，有点弱呢。有好好吃饭吗？",
 	feeling3 = "总是在挑战自己做不到的事情的指挥官……很有趣呢。害得我也有点、想试试自己的极限在哪里了。",
 	lose = "抱歉，我刚才走神了……",
@@ -9043,7 +9043,7 @@ _G.pg.ship_skin_words[105190] = {
 	}
 }
 
-_G.pg.ship_skin_words[105191] = {
+_G.pg.base.ship_skin_words[105191] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9077,7 +9077,7 @@ _G.pg.ship_skin_words[105191] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[105200] = {
+_G.pg.base.ship_skin_words[105200] = {
 	feeling1 = "…………你是谁来着？",
 	feeling3 = "和重樱的孩子们，成了好朋友。原本以为她们会讨厌我的。成为了朋友之后，感觉重樱也很有趣……",
 	lose = "要撤退了吗？…好吧",
@@ -9128,7 +9128,7 @@ _G.pg.ship_skin_words[105200] = {
 	}
 }
 
-_G.pg.ship_skin_words[106010] = {
+_G.pg.base.ship_skin_words[106010] = {
 	feeling1 = "指挥官看不到我，指挥官看不到我……",
 	feeling3 = "我的回答是……呜哇！吓你一跳！——欸……指挥官都不配合一下的嘛……",
 	lose = "可……可恶……难道她们能看见我？！",
@@ -9173,7 +9173,7 @@ _G.pg.ship_skin_words[106010] = {
 	}
 }
 
-_G.pg.ship_skin_words[106011] = {
+_G.pg.base.ship_skin_words[106011] = {
 	feeling1 = "指挥官，私闯少女房间是犯法的哦，我要报警了",
 	feeling3 = "指挥官很闲嘛，要一起玩游戏吗？做模型也可以",
 	lose = "啊，长岛小姐，提不起劲……",
@@ -9207,7 +9207,7 @@ _G.pg.ship_skin_words[106011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106013] = {
+_G.pg.base.ship_skin_words[106013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "糟了，长岛的人气正在下降…",
@@ -9241,7 +9241,7 @@ _G.pg.ship_skin_words[106013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106019] = {
+_G.pg.base.ship_skin_words[106019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9275,7 +9275,7 @@ _G.pg.ship_skin_words[106019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106020] = {
+_G.pg.base.ship_skin_words[106020] = {
 	feeling1 = "指挥官真的能让我变强吗，我很怀疑……",
 	feeling3 = "指挥官总是能给我正确的意见，不愧是名教练！投手博格，一生都会追随您！",
 	lose = "这场淘汰赛只能止步于此了吗……",
@@ -9309,7 +9309,7 @@ _G.pg.ship_skin_words[106020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106029] = {
+_G.pg.base.ship_skin_words[106029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9343,7 +9343,7 @@ _G.pg.ship_skin_words[106029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[106550] = {
+_G.pg.base.ship_skin_words[106550] = {
 	feeling1 = "原来…指挥官才是这支舰队发展的最大阻碍吗…",
 	feeling3 = "我喜欢各种各样的小说和电影，扣人心弦的精彩情节，让人回味无穷。…嗯？喜欢什么样的主题？这个嘛…暂时保密？",
 	lose = "果然护航航母的前线战斗能力还是有极限的吗…",
@@ -9403,7 +9403,7 @@ _G.pg.ship_skin_words[106550] = {
 	}
 }
 
-_G.pg.ship_skin_words[106551] = {
+_G.pg.base.ship_skin_words[106551] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9437,7 +9437,7 @@ _G.pg.ship_skin_words[106551] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107010] = {
+_G.pg.base.ship_skin_words[107010] = {
 	feeling1 = "没想到居然遇到了连我都没办法的学生……我还是去辞职吧……",
 	feeling3 = "最近居然有了点起色——欸？是因为我吗？喔……谢、谢谢……",
 	lose = "呜……简直是教师失格……我还是辞职回家运煤去吧",
@@ -9471,7 +9471,7 @@ _G.pg.ship_skin_words[107010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107019] = {
+_G.pg.base.ship_skin_words[107019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9505,7 +9505,7 @@ _G.pg.ship_skin_words[107019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107020] = {
+_G.pg.base.ship_skin_words[107020] = {
 	feeling1 = "要是以为姐姐什么都会包容那可就大错特错了唷",
 	feeling3 = "最近梦到珊瑚海的时候身边总会出现指挥官的身影，让人安心了许多，为什么呢~",
 	lose = "哎呀……已经跟不上他们的节奏了，还是先撤退吧？",
@@ -9564,7 +9564,7 @@ _G.pg.ship_skin_words[107020] = {
 	}
 }
 
-_G.pg.ship_skin_words[107021] = {
+_G.pg.base.ship_skin_words[107021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9598,7 +9598,7 @@ _G.pg.ship_skin_words[107021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107030] = {
+_G.pg.base.ship_skin_words[107030] = {
 	feeling1 = "恶作剧？已经不会对指挥官做了哦，因为没有兴致了",
 	feeling3 = "指挥官，萨拉妹妹和她的姐姐最大的差别是什么呢~答案就是萨拉妹妹今天的颜色哦~",
 	lose = "欸嘿，可以趁回家维修的时候好好休息一下了~",
@@ -9686,7 +9686,7 @@ _G.pg.ship_skin_words[107030] = {
 	}
 }
 
-_G.pg.ship_skin_words[107031] = {
+_G.pg.base.ship_skin_words[107031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9720,7 +9720,7 @@ _G.pg.ship_skin_words[107031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107032] = {
+_G.pg.base.ship_skin_words[107032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9754,7 +9754,7 @@ _G.pg.ship_skin_words[107032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107033] = {
+_G.pg.base.ship_skin_words[107033] = {
 	feeling1 = "花Q～！花Q花Q！花～～Q～！",
 	feeling3 = "",
 	lose = "对不起，指挥官…输掉了……",
@@ -9788,7 +9788,7 @@ _G.pg.ship_skin_words[107033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107034] = {
+_G.pg.base.ship_skin_words[107034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9822,7 +9822,7 @@ _G.pg.ship_skin_words[107034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107035] = {
+_G.pg.base.ship_skin_words[107035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9856,7 +9856,7 @@ _G.pg.ship_skin_words[107035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107036] = {
+_G.pg.base.ship_skin_words[107036] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9890,7 +9890,7 @@ _G.pg.ship_skin_words[107036] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107037] = {
+_G.pg.base.ship_skin_words[107037] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9924,7 +9924,7 @@ _G.pg.ship_skin_words[107037] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107039] = {
+_G.pg.base.ship_skin_words[107039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -9958,7 +9958,7 @@ _G.pg.ship_skin_words[107039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107040] = {
+_G.pg.base.ship_skin_words[107040] = {
 	feeling1 = "看来是我辞职的时候了……",
 	feeling3 = "指挥官是只要认真做就能做好的类型呢，稍微有些开心呐",
 	lose = "这副失败的样子被指挥官看到的话……绝，绝对不行！",
@@ -9992,7 +9992,7 @@ _G.pg.ship_skin_words[107040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107049] = {
+_G.pg.base.ship_skin_words[107049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10026,7 +10026,7 @@ _G.pg.ship_skin_words[107049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107050] = {
+_G.pg.base.ship_skin_words[107050] = {
 	feeling1 = "果然，指挥官也终将离我而去……",
 	feeling3 = "指挥官是个很奇怪的人……明明我不想再有悲伤的离别了，你却一而再再而三地闯进我的内心……",
 	lose = "请尽快先撤退吧，指挥官",
@@ -10102,7 +10102,7 @@ _G.pg.ship_skin_words[107050] = {
 	}
 }
 
-_G.pg.ship_skin_words[107051] = {
+_G.pg.base.ship_skin_words[107051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "这、这下，作为姐姐的尊严完全一扫而空了呢……",
@@ -10136,7 +10136,7 @@ _G.pg.ship_skin_words[107051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107052] = {
+_G.pg.base.ship_skin_words[107052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "自由…是不会消失的…！",
@@ -10170,7 +10170,7 @@ _G.pg.ship_skin_words[107052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107060] = {
+_G.pg.base.ship_skin_words[107060] = {
 	feeling1 = "…指挥官似乎欠缺勇敢呢",
 	feeling3 = "天上的光全都是星星，海上的光全都是敌人……指挥官，真的会有没有斗争的那一天吗？",
 	lose = "全力而败，也没什么怨言",
@@ -10299,7 +10299,7 @@ _G.pg.ship_skin_words[107060] = {
 	}
 }
 
-_G.pg.ship_skin_words[107061] = {
+_G.pg.base.ship_skin_words[107061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10333,7 +10333,7 @@ _G.pg.ship_skin_words[107061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107062] = {
+_G.pg.base.ship_skin_words[107062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10367,7 +10367,7 @@ _G.pg.ship_skin_words[107062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107063] = {
+_G.pg.base.ship_skin_words[107063] = {
 	feeling1 = "是不是应该义无反顾地继续前进呢…",
 	feeling3 = "",
 	lose = "人生…有时真的可能有解不开的死局啊…",
@@ -10401,7 +10401,7 @@ _G.pg.ship_skin_words[107063] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107064] = {
+_G.pg.base.ship_skin_words[107064] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "还是太勉强了…吗……",
@@ -10435,7 +10435,7 @@ _G.pg.ship_skin_words[107064] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107065] = {
+_G.pg.base.ship_skin_words[107065] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10469,7 +10469,7 @@ _G.pg.ship_skin_words[107065] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107066] = {
+_G.pg.base.ship_skin_words[107066] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10503,7 +10503,7 @@ _G.pg.ship_skin_words[107066] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107067] = {
+_G.pg.base.ship_skin_words[107067] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "在旅途中兴奋过了头的缘故么…",
@@ -10537,7 +10537,7 @@ _G.pg.ship_skin_words[107067] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107068] = {
+_G.pg.base.ship_skin_words[107068] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10571,7 +10571,7 @@ _G.pg.ship_skin_words[107068] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107070] = {
+_G.pg.base.ship_skin_words[107070] = {
 	feeling1 = "北安普顿，你在哪里~（大黄蜂并没有注意到你）",
 	feeling3 = "金发双马尾却不傲娇？那还真是抱歉，我大黄蜂可从来不知道别扭两个字怎么写！",
 	lose = "会有全新的我吗？",
@@ -10655,7 +10655,7 @@ _G.pg.ship_skin_words[107070] = {
 	}
 }
 
-_G.pg.ship_skin_words[107071] = {
+_G.pg.base.ship_skin_words[107071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10689,7 +10689,7 @@ _G.pg.ship_skin_words[107071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107072] = {
+_G.pg.base.ship_skin_words[107072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10723,7 +10723,7 @@ _G.pg.ship_skin_words[107072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107080] = {
+_G.pg.base.ship_skin_words[107080] = {
 	feeling1 = "不想被我射中的话，就请离远点……",
 	feeling3 = "有人晚上看到屋顶上有鬼影？啊哈哈，那应该是我正在室外练习吧~晚上很舒服哦，没有人打扰，星星也很多，指挥官要不要也来试试？",
 	lose = "唔……看起来今天的状态不太好……",
@@ -10757,7 +10757,7 @@ _G.pg.ship_skin_words[107080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107090] = {
+_G.pg.base.ship_skin_words[107090] = {
 	feeling1 = "原来企业前辈一直忍受着这样的指挥官……",
 	feeling3 = "嫉妒？不，我从未这么想过，前辈是值得我们每一个人尊敬的英雄。只是那种一直处在前辈光环之下的感觉，让我多少感到有些……",
 	lose = "绝对…不会就这么结束的！",
@@ -10808,7 +10808,7 @@ _G.pg.ship_skin_words[107090] = {
 	}
 }
 
-_G.pg.ship_skin_words[107091] = {
+_G.pg.base.ship_skin_words[107091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10842,7 +10842,7 @@ _G.pg.ship_skin_words[107091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107092] = {
+_G.pg.base.ship_skin_words[107092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10876,7 +10876,7 @@ _G.pg.ship_skin_words[107092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107093] = {
+_G.pg.base.ship_skin_words[107093] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -10910,7 +10910,7 @@ _G.pg.ship_skin_words[107093] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107110] = {
+_G.pg.base.ship_skin_words[107110] = {
 	feeling1 = "指挥官啊，你现在的所作所为，和懦夫可没有半点区别啊",
 	feeling3 = "哟，指挥官！下午好——啊好疼…是谁把推车放在这里的啊！我怎么又碰上这种倒霉的事情……呃，没，没什么。那个，我是说，有我的出击任务吗？",
 	lose = "又要去维修了么…(小声)怎么倒霉的总是我…—不，没什么",
@@ -10954,7 +10954,7 @@ _G.pg.ship_skin_words[107110] = {
 	}
 }
 
-_G.pg.ship_skin_words[107111] = {
+_G.pg.base.ship_skin_words[107111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "啊，被对手打了个全垒打呢…",
@@ -10988,7 +10988,7 @@ _G.pg.ship_skin_words[107111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107140] = {
+_G.pg.base.ship_skin_words[107140] = {
 	feeling1 = "果然仅凭我已经无法帮助到指挥官了吗…",
 	feeling3 = "港区里有许多优秀的伙伴呢，我也…必须更加努力才行。",
 	lose = "究竟是在哪一步出了问题…",
@@ -11003,7 +11003,7 @@ _G.pg.ship_skin_words[107140] = {
 	drop_descrip = "埃塞克斯级航空母舰—{namecode:194}，舷号CV-14",
 	mail = "有你的信件，快看看吧，错过什么重要的信息就不好了~",
 	touch = "分心可不行哦，指挥官。还是说…我在这里让你无法专心工作了？呵呵~开玩笑的~",
-	profile = "我是埃塞克斯级六号舰，也是第一位“长舰体”的埃塞克斯级。我曾经被叫做“汉考克”，之后后改成了“{namecode:194}”，以纪念那场意义重大的战争。……嗯，差不多就这些吧。",
+	profile = "我是埃塞克斯级六号舰，也是第一位“长舰体”的埃塞克斯级。我曾经被叫做“汉考克”，之后改成了“{namecode:194}”，以纪念那场意义重大的战争。……嗯，差不多就这些吧。",
 	mission_complete = "任务完成的很出色哦，指挥官果然很优秀呢~",
 	feeling4 = "跟指挥官的事情，好像真的在港区传开了呢…啊哈哈~……那样反而正好？…指、指挥官！？",
 	unlock = "你好，我是今天开始入驻港区的{namecode:194}——您看起来和传闻一样，是位十分优秀的指挥官呢，作为搞好关系的第一步，要不要来一个问候的拥抱呢？呵呵~",
@@ -11042,7 +11042,7 @@ _G.pg.ship_skin_words[107140] = {
 	}
 }
 
-_G.pg.ship_skin_words[107141] = {
+_G.pg.base.ship_skin_words[107141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "看来排练得还是不够呢…",
@@ -11076,7 +11076,7 @@ _G.pg.ship_skin_words[107141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107170] = {
+_G.pg.base.ship_skin_words[107170] = {
 	feeling1 = "我现在不想和你说话",
 	feeling3 = "…当我面无表情保持沉默的时候，并不是在生气，只是单纯地在想事情，或者在想该怎么表达所想的事情而已",
 	lose = "这是…堪比龙颚（dragon jaw）的强敌吗……！",
@@ -11128,7 +11128,7 @@ _G.pg.ship_skin_words[107170] = {
 	}
 }
 
-_G.pg.ship_skin_words[107171] = {
+_G.pg.base.ship_skin_words[107171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11162,7 +11162,7 @@ _G.pg.ship_skin_words[107171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107220] = {
+_G.pg.base.ship_skin_words[107220] = {
 	feeling1 = "我就直接问了，你到底在打算什么？",
 	feeling3 = "轻型航母或许没有办法在战斗力上超越正规航母……不过只要您能认可我的实力，那便足够了。",
 	lose = "撤退也是战斗的一环……",
@@ -11225,7 +11225,7 @@ _G.pg.ship_skin_words[107220] = {
 	}
 }
 
-_G.pg.ship_skin_words[107221] = {
+_G.pg.base.ship_skin_words[107221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11259,7 +11259,7 @@ _G.pg.ship_skin_words[107221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107222] = {
+_G.pg.base.ship_skin_words[107222] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11293,7 +11293,7 @@ _G.pg.ship_skin_words[107222] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107223] = {
+_G.pg.base.ship_skin_words[107223] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11327,7 +11327,7 @@ _G.pg.ship_skin_words[107223] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107224] = {
+_G.pg.base.ship_skin_words[107224] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11361,7 +11361,7 @@ _G.pg.ship_skin_words[107224] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107229] = {
+_G.pg.base.ship_skin_words[107229] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11395,7 +11395,7 @@ _G.pg.ship_skin_words[107229] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107230] = {
+_G.pg.base.ship_skin_words[107230] = {
 	feeling1 = "看来还是听萨拉托加的指示比较好呢",
 	feeling3 = "我的爱好？看书，还有研究萨拉托加前辈的战斗方式吧…很奇怪吗？我认为萨拉托加前辈即使比起企业也不会输的",
 	lose = "看来我离萨拉托加还差得远呢……",
@@ -11455,7 +11455,7 @@ _G.pg.ship_skin_words[107230] = {
 	}
 }
 
-_G.pg.ship_skin_words[107231] = {
+_G.pg.base.ship_skin_words[107231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11489,7 +11489,7 @@ _G.pg.ship_skin_words[107231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107232] = {
+_G.pg.base.ship_skin_words[107232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11523,7 +11523,7 @@ _G.pg.ship_skin_words[107232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107290] = {
+_G.pg.base.ship_skin_words[107290] = {
 	feeling1 = "废柴一样的指挥官，谁都不会喜欢吧…请振作一些，我会帮您重新回到正轨的！",
 	feeling3 = "休息日的时候怎么过…？自己一个人待着…吧？感觉那样最能放松自己呢。毕竟我也没有什么特别的爱好…啊哈哈……",
 	lose = "唔…要记住这次教训才行呢…",
@@ -11557,7 +11557,7 @@ _G.pg.ship_skin_words[107290] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107291] = {
+_G.pg.base.ship_skin_words[107291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11591,7 +11591,7 @@ _G.pg.ship_skin_words[107291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107380] = {
+_G.pg.base.ship_skin_words[107380] = {
 	feeling1 = "您已经在失信名单上了，请好自为之吧，指挥官。",
 	feeling3 = "指挥官，即便是赶时间，也不应该进食垃圾食品，这样很伤身体，这是我做的三明治，请用这个吧。",
 	lose = "不应该…是这样的…！",
@@ -11642,7 +11642,7 @@ _G.pg.ship_skin_words[107380] = {
 	}
 }
 
-_G.pg.ship_skin_words[107381] = {
+_G.pg.base.ship_skin_words[107381] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11676,7 +11676,7 @@ _G.pg.ship_skin_words[107381] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107382] = {
+_G.pg.base.ship_skin_words[107382] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11710,7 +11710,7 @@ _G.pg.ship_skin_words[107382] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[107990] = {
+_G.pg.base.ship_skin_words[107990] = {
 	feeling1 = "也许，指挥官才是需要好好学习的那位……？",
 	feeling3 = "为什么要成为最强？……因为，只有最强的英雄，才能打败强敌，保护同伴，终结纷争！",
 	lose = "输掉了……好，好不甘心…！",
@@ -11794,7 +11794,7 @@ _G.pg.ship_skin_words[107990] = {
 	}
 }
 
-_G.pg.ship_skin_words[108010] = {
+_G.pg.base.ship_skin_words[108010] = {
 	feeling1 = "你被开除鱼雷爱好者籍啦！",
 	feeling3 = "实际上{namecode:68}真的很强呢…果然那时候只是大意了吧。不过，毕竟偷袭才是我们潜艇的强项嘛～",
 	lose = "至、至少让我多射几发鱼雷！",
@@ -11828,7 +11828,7 @@ _G.pg.ship_skin_words[108010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108020] = {
+_G.pg.base.ship_skin_words[108020] = {
 	feeling1 = "（扮鬼脸）笨——蛋！",
 	feeling3 = "说起来，刚刚游完泳，肩膀有点酸呢……要是有人能帮我放松一下肩膀的话，说不定我就能把这几天看到的指挥官的秘密都忘掉了呢~",
 	lose = "逃咯！",
@@ -11879,7 +11879,7 @@ _G.pg.ship_skin_words[108020] = {
 	}
 }
 
-_G.pg.ship_skin_words[108021] = {
+_G.pg.base.ship_skin_words[108021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11913,7 +11913,7 @@ _G.pg.ship_skin_words[108021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108022] = {
+_G.pg.base.ship_skin_words[108022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -11947,7 +11947,7 @@ _G.pg.ship_skin_words[108022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108030] = {
+_G.pg.base.ship_skin_words[108030] = {
 	feeling1 = "我不喜欢你！",
 	feeling3 = "光靠勇气是不能轻松胜利的！…这时候就需要依靠指挥官的力量啦！指挥官，有你的指示，我们就能跨过一切困难！",
 	lose = "呜呜呜，海水…好咸……",
@@ -11990,7 +11990,7 @@ _G.pg.ship_skin_words[108030] = {
 	}
 }
 
-_G.pg.ship_skin_words[108031] = {
+_G.pg.base.ship_skin_words[108031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12024,7 +12024,7 @@ _G.pg.ship_skin_words[108031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108032] = {
+_G.pg.base.ship_skin_words[108032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12058,7 +12058,7 @@ _G.pg.ship_skin_words[108032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108040] = {
+_G.pg.base.ship_skin_words[108040] = {
 	feeling1 = "没事的，指挥官只要多晒晒太阳，把烦恼的事情都晒走，一定能振作起来的！",
 	feeling3 = "啊，发现指挥官啦！我抱！……这样会让指挥官很困扰？是，是我太用力了吗！不是的？那是因为什么呢？",
 	lose = "好险好险……下次可不会这样了！",
@@ -12111,7 +12111,7 @@ _G.pg.ship_skin_words[108040] = {
 	}
 }
 
-_G.pg.ship_skin_words[108041] = {
+_G.pg.base.ship_skin_words[108041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12145,7 +12145,7 @@ _G.pg.ship_skin_words[108041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108050] = {
+_G.pg.base.ship_skin_words[108050] = {
 	feeling1 = "光辉她们都感到很难过哦？",
 	feeling3 = "哦，指挥官带慰问品来了？真细心啊~啊，在大家认真练习的时候摸鱼看外面的事情，要替我保密哦☆",
 	lose = "这时候应该选择的是…虽然可耻但是有用的战术！",
@@ -12188,7 +12188,7 @@ _G.pg.ship_skin_words[108050] = {
 	}
 }
 
-_G.pg.ship_skin_words[108060] = {
+_G.pg.base.ship_skin_words[108060] = {
 	feeling1 = "哼哼，指挥官缺乏魅力是有原因的，要不要我来教你几招？乖乖准备好学费哦~（耳语）哈哈~",
 	feeling3 = "真想趁那位爱睡觉的大狐狸睡着的时候，埋进她的尾巴堆里呀。那样一定超级舒服吧~不过，打扰人家睡觉也不太好吧，嘻嘻~",
 	lose = "也就失败了一次而已，再来！",
@@ -12243,7 +12243,7 @@ _G.pg.ship_skin_words[108060] = {
 	}
 }
 
-_G.pg.ship_skin_words[108061] = {
+_G.pg.base.ship_skin_words[108061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12277,7 +12277,7 @@ _G.pg.ship_skin_words[108061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108062] = {
+_G.pg.base.ship_skin_words[108062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12311,7 +12311,7 @@ _G.pg.ship_skin_words[108062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108070] = {
+_G.pg.base.ship_skin_words[108070] = {
 	feeling1 = "指挥官，你这样下去会越来越孤独的…",
 	feeling3 = "我没有跟着别人的恶趣味啦，更不是跟踪狂什么的…只是跟着指挥官比较有趣啦，所以就…嘿嘿。",
 	lose = "我是不是又被自己的同伴认错了……",
@@ -12345,7 +12345,7 @@ _G.pg.ship_skin_words[108070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[108071] = {
+_G.pg.base.ship_skin_words[108071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12379,7 +12379,7 @@ _G.pg.ship_skin_words[108071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[112010] = {
+_G.pg.base.ship_skin_words[112010] = {
 	feeling1 = "指挥官，作为让姐姐生气的代价，这一针会很痛哦",
 	feeling3 = "来了来了~总觉得指挥官最近越来越依赖我了，虽然被人信任是很高兴，不过要是把指挥官变成废柴就不好了……",
 	lose = "我不会丢下大家的，一起回去吧",
@@ -12438,7 +12438,7 @@ _G.pg.ship_skin_words[112010] = {
 	}
 }
 
-_G.pg.ship_skin_words[112011] = {
+_G.pg.base.ship_skin_words[112011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12472,7 +12472,7 @@ _G.pg.ship_skin_words[112011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[137030] = {
+_G.pg.base.ship_skin_words[137030] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12506,7 +12506,7 @@ _G.pg.ship_skin_words[137030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201010] = {
+_G.pg.base.ship_skin_words[201010] = {
 	feeling1 = "你这宇宙超级无敌大变态！",
 	feeling3 = "别看我这样我可是大人了！——别随便摸我头，也别随便把我抱起来——我生气了，我真的要生气了哦！嘎、嘎喔！",
 	lose = "失误是难、难免的嘛！~~啰嗦—啰嗦—啰嗦！",
@@ -12540,7 +12540,7 @@ _G.pg.ship_skin_words[201010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201011] = {
+_G.pg.base.ship_skin_words[201011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12574,7 +12574,7 @@ _G.pg.ship_skin_words[201011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201019] = {
+_G.pg.base.ship_skin_words[201019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12608,7 +12608,7 @@ _G.pg.ship_skin_words[201019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201020] = {
+_G.pg.base.ship_skin_words[201020] = {
 	feeling1 = "能稍微安静点吗……",
 	feeling3 = "我有一个可以睡觉的好地方呢……指挥官要一起来偷懒吗？",
 	lose = "这结果真是让人兴奋不起来啊……",
@@ -12642,7 +12642,7 @@ _G.pg.ship_skin_words[201020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201021] = {
+_G.pg.base.ship_skin_words[201021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12676,7 +12676,7 @@ _G.pg.ship_skin_words[201021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201022] = {
+_G.pg.base.ship_skin_words[201022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12710,7 +12710,7 @@ _G.pg.ship_skin_words[201022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201023] = {
+_G.pg.base.ship_skin_words[201023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12744,7 +12744,7 @@ _G.pg.ship_skin_words[201023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201029] = {
+_G.pg.base.ship_skin_words[201029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12778,7 +12778,7 @@ _G.pg.ship_skin_words[201029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201030] = {
+_G.pg.base.ship_skin_words[201030] = {
 	feeling1 = "原来熟悉只是错觉吗……抱歉",
 	feeling3 = "指挥官，要吃东西吗？我给你做哦~放心吧，你喜欢什么我都记下了",
 	lose = "好烫！不快点撤退降温的话我会中暑的！",
@@ -12829,7 +12829,7 @@ _G.pg.ship_skin_words[201030] = {
 	}
 }
 
-_G.pg.ship_skin_words[201031] = {
+_G.pg.base.ship_skin_words[201031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "哇哇！巧克力要融化了！",
@@ -12863,7 +12863,7 @@ _G.pg.ship_skin_words[201031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201032] = {
+_G.pg.base.ship_skin_words[201032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜，这下要接受惩罚游戏了…",
@@ -12897,7 +12897,7 @@ _G.pg.ship_skin_words[201032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201039] = {
+_G.pg.base.ship_skin_words[201039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -12931,7 +12931,7 @@ _G.pg.ship_skin_words[201039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201060] = {
+_G.pg.base.ship_skin_words[201060] = {
 	feeling1 = "指挥官……讨厌我了吗……",
 	feeling3 = "发型吗？欸嘿嘿，这个是天生的呢，和狗狗一样，指挥官要摸摸看吗？",
 	lose = "呜……输掉了……",
@@ -12965,7 +12965,7 @@ _G.pg.ship_skin_words[201060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201070] = {
+_G.pg.base.ship_skin_words[201070] = {
 	feeling1 = "………………嗯？",
 	feeling3 = "单装炮原本是有4个的呢，为了反潜小A和小Y光荣退役了，现在只有小B和小X陪着我……寂寞……还是有一点的",
 	lose = "有胜利就会有失败，没什么大不了的……啧……",
@@ -12999,7 +12999,7 @@ _G.pg.ship_skin_words[201070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201080] = {
+_G.pg.base.ship_skin_words[201080] = {
 	feeling1 = "咱要回家，呜呜呜呜……",
 	feeling3 = "指挥官，你说像咱这样的小船，真的能成为偶像吗？",
 	lose = "呜，果然不能吃苦就当不了大人吗……",
@@ -13033,7 +13033,7 @@ _G.pg.ship_skin_words[201080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201089] = {
+_G.pg.base.ship_skin_words[201089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13067,7 +13067,7 @@ _G.pg.ship_skin_words[201089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201090] = {
+_G.pg.base.ship_skin_words[201090] = {
 	feeling1 = "指挥官还没我成熟呢……",
 	feeling3 = "指挥官……那个……之前对你说了很过分的话……那个……对，对，对……呜——没什么啦，哼！",
 	lose = "你们这些队友能起点好作用么！啊，对、对不起，我太粗鲁了……",
@@ -13101,7 +13101,7 @@ _G.pg.ship_skin_words[201090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201099] = {
+_G.pg.base.ship_skin_words[201099] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13135,7 +13135,7 @@ _G.pg.ship_skin_words[201099] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201100] = {
+_G.pg.base.ship_skin_words[201100] = {
 	feeling1 = "指、指挥官好可怕……小天鹅想回家……",
 	feeling3 = "小天鹅之前是不是……说了些难为情的话呢……",
 	lose = "呜呜~爸爸…这里好危险啊……咱还是回老家吧……",
@@ -13169,7 +13169,7 @@ _G.pg.ship_skin_words[201100] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201101] = {
+_G.pg.base.ship_skin_words[201101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13203,7 +13203,7 @@ _G.pg.ship_skin_words[201101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201102] = {
+_G.pg.base.ship_skin_words[201102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13237,7 +13237,7 @@ _G.pg.ship_skin_words[201102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201103] = {
+_G.pg.base.ship_skin_words[201103] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13271,7 +13271,7 @@ _G.pg.ship_skin_words[201103] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201104] = {
+_G.pg.base.ship_skin_words[201104] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13305,7 +13305,7 @@ _G.pg.ship_skin_words[201104] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201105] = {
+_G.pg.base.ship_skin_words[201105] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13339,7 +13339,7 @@ _G.pg.ship_skin_words[201105] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201109] = {
+_G.pg.base.ship_skin_words[201109] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13373,7 +13373,7 @@ _G.pg.ship_skin_words[201109] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201110] = {
+_G.pg.base.ship_skin_words[201110] = {
 	feeling1 = "指挥官身上好难闻！",
 	feeling3 = "指挥官，脸上有脏东西喔，不要动，我来帮你舔掉……欸，为什么是舔？……那个，身体不由自主的就……",
 	lose = "呼！还好跑得快！",
@@ -13407,7 +13407,7 @@ _G.pg.ship_skin_words[201110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201119] = {
+_G.pg.base.ship_skin_words[201119] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13441,7 +13441,7 @@ _G.pg.ship_skin_words[201119] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201120] = {
+_G.pg.base.ship_skin_words[201120] = {
 	feeling1 = "命运……在将我们分开……",
 	feeling3 = "我、我以前也、想跟指挥官搭话的……那个……",
 	lose = "神……抛弃我了么……",
@@ -13484,7 +13484,7 @@ _G.pg.ship_skin_words[201120] = {
 	}
 }
 
-_G.pg.ship_skin_words[201121] = {
+_G.pg.base.ship_skin_words[201121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13518,7 +13518,7 @@ _G.pg.ship_skin_words[201121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201129] = {
+_G.pg.base.ship_skin_words[201129] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13552,7 +13552,7 @@ _G.pg.ship_skin_words[201129] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201130] = {
+_G.pg.base.ship_skin_words[201130] = {
 	feeling1 = "指挥官再不打起精神，以后就不管你了哦~哈哈，骗你的！不过不要再让我失望了哦~",
 	feeling3 = "要学习的东西还有很多，而且，有指挥官在身边陪伴的话，就更有动力了～！",
 	lose = "呜…是我的能力还有不足吗……",
@@ -13595,7 +13595,7 @@ _G.pg.ship_skin_words[201130] = {
 	}
 }
 
-_G.pg.ship_skin_words[201140] = {
+_G.pg.base.ship_skin_words[201140] = {
 	feeling1 = "就算是宽容的萤火虫大人，对笨蛋也是绝不宽容的！",
 	feeling3 = "指挥官~~会被你攻略的是笨~蛋～笨——蛋！！",
 	lose = "啊~太…太过分啦！我的战斗才刚开始！I Shall Return！",
@@ -13647,7 +13647,7 @@ _G.pg.ship_skin_words[201140] = {
 	}
 }
 
-_G.pg.ship_skin_words[201141] = {
+_G.pg.base.ship_skin_words[201141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13681,7 +13681,7 @@ _G.pg.ship_skin_words[201141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201160] = {
+_G.pg.base.ship_skin_words[201160] = {
 	feeling1 = "我最讨厌不认真的人了！",
 	feeling3 = "茶会吗？非常抱歉，我还有训练没有完成……不过，能请您帮我带一块蛋糕吗？",
 	lose = "立刻撤退，不要恋战！",
@@ -13732,7 +13732,7 @@ _G.pg.ship_skin_words[201160] = {
 	}
 }
 
-_G.pg.ship_skin_words[201200] = {
+_G.pg.base.ship_skin_words[201200] = {
 	feeling1 = "……（猎人的小伙伴在冲你狂吠不止）",
 	feeling3 = "对于猎人而言，没有不能猎杀的猎物，只有不够充分的准备",
 	lose = "猎人与猎物的关系可不是一成不变的",
@@ -13775,7 +13775,7 @@ _G.pg.ship_skin_words[201200] = {
 	}
 }
 
-_G.pg.ship_skin_words[201210] = {
+_G.pg.base.ship_skin_words[201210] = {
 	feeling1 = "指挥官，再不自重一点的话标枪可就真的不喜欢你了！",
 	feeling3 = "感觉和指挥官的距离越来越近了呢，嘻嘻，不过还要再努力一点哦~",
 	lose = "啧，大意了！",
@@ -13834,7 +13834,7 @@ _G.pg.ship_skin_words[201210] = {
 	}
 }
 
-_G.pg.ship_skin_words[201211] = {
+_G.pg.base.ship_skin_words[201211] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13868,7 +13868,7 @@ _G.pg.ship_skin_words[201211] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201212] = {
+_G.pg.base.ship_skin_words[201212] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13902,7 +13902,7 @@ _G.pg.ship_skin_words[201212] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201213] = {
+_G.pg.base.ship_skin_words[201213] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13936,7 +13936,7 @@ _G.pg.ship_skin_words[201213] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201214] = {
+_G.pg.base.ship_skin_words[201214] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -13970,7 +13970,7 @@ _G.pg.ship_skin_words[201214] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201215] = {
+_G.pg.base.ship_skin_words[201215] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "果然还是有点迷茫啊…",
@@ -14004,7 +14004,7 @@ _G.pg.ship_skin_words[201215] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201216] = {
+_G.pg.base.ship_skin_words[201216] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜…标枪，会继续加油的！",
@@ -14038,7 +14038,7 @@ _G.pg.ship_skin_words[201216] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201218] = {
+_G.pg.base.ship_skin_words[201218] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14072,7 +14072,7 @@ _G.pg.ship_skin_words[201218] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201219] = {
+_G.pg.base.ship_skin_words[201219] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14106,7 +14106,7 @@ _G.pg.ship_skin_words[201219] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201220] = {
+_G.pg.base.ship_skin_words[201220] = {
 	feeling1 = "指挥官……讨厌我了吗……",
 	feeling3 = "虽然我过去一直没有做出什么成绩，不过指挥官的家务之类的我一定没问题的！",
 	lose = "结果……还是不行么……",
@@ -14140,7 +14140,7 @@ _G.pg.ship_skin_words[201220] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201221] = {
+_G.pg.base.ship_skin_words[201221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14174,7 +14174,7 @@ _G.pg.ship_skin_words[201221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201230] = {
+_G.pg.base.ship_skin_words[201230] = {
 	feeling1 = "哼，愚笨的下仆只配舔我的脚",
 	feeling3 = "呐，这么讨好人家，难道汝是萝莉控吗？真是禽兽呢。还要狡辩吗？床底下的H书，我可都翻过哦~",
 	lose = "啊……飞机什么的最讨厌了！可恶，吸血鬼是不会死的",
@@ -14208,7 +14208,7 @@ _G.pg.ship_skin_words[201230] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201231] = {
+_G.pg.base.ship_skin_words[201231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14242,7 +14242,7 @@ _G.pg.ship_skin_words[201231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201232] = {
+_G.pg.base.ship_skin_words[201232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14276,7 +14276,7 @@ _G.pg.ship_skin_words[201232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201233] = {
+_G.pg.base.ship_skin_words[201233] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14310,7 +14310,7 @@ _G.pg.ship_skin_words[201233] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201234] = {
+_G.pg.base.ship_skin_words[201234] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14344,7 +14344,7 @@ _G.pg.ship_skin_words[201234] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201238] = {
+_G.pg.base.ship_skin_words[201238] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14378,7 +14378,7 @@ _G.pg.ship_skin_words[201238] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201240] = {
+_G.pg.base.ship_skin_words[201240] = {
 	feeling1 = "指挥官……讨厌我吗？",
 	feeling3 = "天、天后，我一个人面对指挥官也不会紧张啦，不用特意陪我……",
 	lose = "要、要撤退了吗！？",
@@ -14429,7 +14429,7 @@ _G.pg.ship_skin_words[201240] = {
 	}
 }
 
-_G.pg.ship_skin_words[201241] = {
+_G.pg.base.ship_skin_words[201241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14463,7 +14463,7 @@ _G.pg.ship_skin_words[201241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201250] = {
+_G.pg.base.ship_skin_words[201250] = {
 	feeling1 = "扭扭捏捏，不是个好人",
 	feeling3 = "指挥官，有一点你要搞清楚，我只是想到什么说什么，可不是毒舌，比如说“你是萝○控吧”就是我发自内心的想法",
 	lose = "咕……弄脏我裙子的代价可是很高的，给我记住了",
@@ -14506,7 +14506,7 @@ _G.pg.ship_skin_words[201250] = {
 	}
 }
 
-_G.pg.ship_skin_words[201260] = {
+_G.pg.base.ship_skin_words[201260] = {
 	feeling1 = "保护我……做不到吗……",
 	feeling3 = "约克公爵既威风又帅气，还……嘻嘻，原来指挥官也会嫉妒呀",
 	lose = "谁、谁都行，救救我——",
@@ -14540,7 +14540,7 @@ _G.pg.ship_skin_words[201260] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201261] = {
+_G.pg.base.ship_skin_words[201261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14574,7 +14574,7 @@ _G.pg.ship_skin_words[201261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201270] = {
+_G.pg.base.ship_skin_words[201270] = {
 	feeling1 = "赶快变回……原来那个指挥官啊……",
 	feeling3 = "和指挥官在一起，无论什么时候都很快乐~",
 	lose = "悄悄地~灰溜溜地~撤出战场~♫",
@@ -14608,7 +14608,7 @@ _G.pg.ship_skin_words[201270] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201290] = {
+_G.pg.base.ship_skin_words[201290] = {
 	feeling1 = "听大家说，指挥官快要变成废柴了呢~废柴是什么意思呢？（歪头）哈哈，不管啦，我会努力让指挥官变得更好。首先，要每天坚持和我打招呼哦~（摸头）",
 	feeling3 = "现在就气喘吁吁可不行，指挥官，要经常锻炼哦~走吧，我陪你跑遍整个港区。",
 	lose = "唔……不要欺负人嘛……",
@@ -14642,7 +14642,7 @@ _G.pg.ship_skin_words[201290] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201320] = {
+_G.pg.base.ship_skin_words[201320] = {
 	feeling1 = "指挥官好严肃，好没劲……",
 	feeling3 = "欸，我的宿舍怎么乱糟糟的？唔，因为我有时候太无聊了，就把很多家具拆开来看看，但是组装回去的时候就多了不少东西……这是为什么呢……",
 	lose = "呜，指挥官，对不起……",
@@ -14685,7 +14685,7 @@ _G.pg.ship_skin_words[201320] = {
 	}
 }
 
-_G.pg.ship_skin_words[201321] = {
+_G.pg.base.ship_skin_words[201321] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14719,7 +14719,7 @@ _G.pg.ship_skin_words[201321] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201330] = {
+_G.pg.base.ship_skin_words[201330] = {
 	feeling1 = "唔…再这样下去，就只有伊卡洛斯会愿意陪在指挥官身边了…",
 	feeling3 = "指挥官最近是不是有点努力过头了…？要注意适当的休息哦。一口气飞得太快太高的话，可是会被太阳融掉翅膀，掉到海里死掉的哦？…嗯？这个好像是哪里看到过的传说故事的情节呢",
 	lose = "如果刚才能再来一次鱼雷齐射的话…",
@@ -14770,7 +14770,7 @@ _G.pg.ship_skin_words[201330] = {
 	}
 }
 
-_G.pg.ship_skin_words[201331] = {
+_G.pg.base.ship_skin_words[201331] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14804,7 +14804,7 @@ _G.pg.ship_skin_words[201331] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201332] = {
+_G.pg.base.ship_skin_words[201332] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14838,7 +14838,7 @@ _G.pg.ship_skin_words[201332] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[201333] = {
+_G.pg.base.ship_skin_words[201333] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14872,7 +14872,7 @@ _G.pg.ship_skin_words[201333] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202010] = {
+_G.pg.base.ship_skin_words[202010] = {
 	feeling1 = "不掌握好和他人的距离可是很要命的哦，指挥官",
 	feeling3 = "想要附近走走又找不到人一起，指挥官你能陪我一下吗？",
 	lose = "给您添麻烦了……",
@@ -14906,7 +14906,7 @@ _G.pg.ship_skin_words[202010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202019] = {
+_G.pg.base.ship_skin_words[202019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -14940,7 +14940,7 @@ _G.pg.ship_skin_words[202019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202020] = {
+_G.pg.base.ship_skin_words[202020] = {
 	feeling1 = "指挥官，你就继续以魔法师为目标努力吧！",
 	feeling3 = "现充什么的……呜呜~我是不行的……",
 	lose = "呜……我的才能大概是还未绽放吧？",
@@ -14974,7 +14974,7 @@ _G.pg.ship_skin_words[202020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202029] = {
+_G.pg.base.ship_skin_words[202029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15017,7 +15017,7 @@ _G.pg.ship_skin_words[202029] = {
 	}
 }
 
-_G.pg.ship_skin_words[202030] = {
+_G.pg.base.ship_skin_words[202030] = {
 	feeling1 = "玩坏了吗……算了，找些新的玩具吧",
 	feeling3 = "呵呵呵，我越来越喜欢你了呢，你能让我愉悦到什么地步呢，亲爱的小·猪·仔~",
 	lose = "嘁……下次，我让你们吃沙",
@@ -15086,7 +15086,7 @@ _G.pg.ship_skin_words[202030] = {
 	}
 }
 
-_G.pg.ship_skin_words[202031] = {
+_G.pg.base.ship_skin_words[202031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15120,7 +15120,7 @@ _G.pg.ship_skin_words[202031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202032] = {
+_G.pg.base.ship_skin_words[202032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15154,7 +15154,7 @@ _G.pg.ship_skin_words[202032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202039] = {
+_G.pg.base.ship_skin_words[202039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15188,7 +15188,7 @@ _G.pg.ship_skin_words[202039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202040] = {
+_G.pg.base.ship_skin_words[202040] = {
 	feeling1 = "啊啊…怎么会这样…主人果然是要把可怜的黛朵给……",
 	feeling3 = "女仆队的伙伴们有很多地方很迷糊，所以主人才会更加关心她们吧……相比之下，黛朵就……不，没什么！嫉妒姐妹舰什么的可不是女仆该做的事…！只是……（小声）迷糊属性什么的，不是很卑鄙吗…",
 	lose = "主人，非常抱歉！请不要像这孩子一样抛弃黛朵…！",
@@ -15232,7 +15232,7 @@ _G.pg.ship_skin_words[202040] = {
 	}
 }
 
-_G.pg.ship_skin_words[202041] = {
+_G.pg.base.ship_skin_words[202041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15266,7 +15266,7 @@ _G.pg.ship_skin_words[202041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202070] = {
+_G.pg.base.ship_skin_words[202070] = {
 	feeling1 = "指挥官，弦绷得太紧的话，随时都可能断掉的哦？",
 	feeling3 = "指挥官，其实没必要让自己这么累的吧？比如……让女仆队的姐妹们来帮点忙之类的？",
 	lose = "疼疼疼疼！赶，赶紧撤退吧！",
@@ -15317,7 +15317,7 @@ _G.pg.ship_skin_words[202070] = {
 	}
 }
 
-_G.pg.ship_skin_words[202071] = {
+_G.pg.base.ship_skin_words[202071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15351,7 +15351,7 @@ _G.pg.ship_skin_words[202071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202072] = {
+_G.pg.base.ship_skin_words[202072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15385,7 +15385,7 @@ _G.pg.ship_skin_words[202072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202080] = {
+_G.pg.base.ship_skin_words[202080] = {
 	feeling1 = "原来主人是类似害虫的构造吗，世上真是充满了不可思议的事呢",
 	feeling3 = "为了方便阅读，我把主人珍藏的书籍重新分类以后摆放了一遍，您可以回头检查一下我的成果",
 	lose = "主人，殿后的工作就交给我吧",
@@ -15465,7 +15465,7 @@ _G.pg.ship_skin_words[202080] = {
 	}
 }
 
-_G.pg.ship_skin_words[202081] = {
+_G.pg.base.ship_skin_words[202081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15499,7 +15499,7 @@ _G.pg.ship_skin_words[202081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202082] = {
+_G.pg.base.ship_skin_words[202082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15533,7 +15533,7 @@ _G.pg.ship_skin_words[202082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202083] = {
+_G.pg.base.ship_skin_words[202083] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15567,7 +15567,7 @@ _G.pg.ship_skin_words[202083] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202084] = {
+_G.pg.base.ship_skin_words[202084] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15601,7 +15601,7 @@ _G.pg.ship_skin_words[202084] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202100] = {
+_G.pg.base.ship_skin_words[202100] = {
 	feeling1 = "我不会对着木头谏言。",
 	feeling3 = "主人，为了健康，您该注意饮食均衡。觉得麻烦的话，就让我为您准备一日三餐吧，这也是女仆应该做的",
 	lose = "对不起，主人，这次是我辜负了您的期望。",
@@ -15652,7 +15652,7 @@ _G.pg.ship_skin_words[202100] = {
 	}
 }
 
-_G.pg.ship_skin_words[202101] = {
+_G.pg.base.ship_skin_words[202101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15686,7 +15686,7 @@ _G.pg.ship_skin_words[202101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202110] = {
+_G.pg.base.ship_skin_words[202110] = {
 	feeling1 = "正因为是指挥官，才要更加防范……（盯）",
 	feeling3 = "又被贝法训斥了，什么出门记得关灯、水龙头也要好好拧紧。什么嘛，那家伙一点也不像妹妹！",
 	lose = "咕……我的金块……",
@@ -15753,7 +15753,7 @@ _G.pg.ship_skin_words[202110] = {
 	}
 }
 
-_G.pg.ship_skin_words[202111] = {
+_G.pg.base.ship_skin_words[202111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "我、我的“贝法”没事吧！？",
@@ -15787,7 +15787,7 @@ _G.pg.ship_skin_words[202111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202112] = {
+_G.pg.base.ship_skin_words[202112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15821,7 +15821,7 @@ _G.pg.ship_skin_words[202112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202120] = {
+_G.pg.base.ship_skin_words[202120] = {
 	feeling1 = "矫正主人也是女仆的义务呢……",
 	feeling3 = "稍微借用了一下舰队的渠道才入手的呢，来，请品尝吧——不知还合您的口味吗？",
 	lose = "指挥官，请先行撤退吧，我还有些事要做（微笑）",
@@ -15905,7 +15905,7 @@ _G.pg.ship_skin_words[202120] = {
 	}
 }
 
-_G.pg.ship_skin_words[202121] = {
+_G.pg.base.ship_skin_words[202121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15939,7 +15939,7 @@ _G.pg.ship_skin_words[202121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202122] = {
+_G.pg.base.ship_skin_words[202122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -15973,7 +15973,7 @@ _G.pg.ship_skin_words[202122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202123] = {
+_G.pg.base.ship_skin_words[202123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16007,7 +16007,7 @@ _G.pg.ship_skin_words[202123] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202124] = {
+_G.pg.base.ship_skin_words[202124] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16041,7 +16041,7 @@ _G.pg.ship_skin_words[202124] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202125] = {
+_G.pg.base.ship_skin_words[202125] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16075,7 +16075,7 @@ _G.pg.ship_skin_words[202125] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202126] = {
+_G.pg.base.ship_skin_words[202126] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16109,7 +16109,7 @@ _G.pg.ship_skin_words[202126] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202128] = {
+_G.pg.base.ship_skin_words[202128] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16143,7 +16143,7 @@ _G.pg.ship_skin_words[202128] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202130] = {
+_G.pg.base.ship_skin_words[202130] = {
 	feeling1 = "果然你这种指挥官我绝对无法认同！",
 	feeling3 = "别得意忘形了，我只是觉得你这里的点心不错，想得到我的承认你还早得很呢！",
 	lose = "咕……我……怎能在这里倒下……",
@@ -16177,7 +16177,7 @@ _G.pg.ship_skin_words[202130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202140] = {
+_G.pg.base.ship_skin_words[202140] = {
 	feeling1 = "明白了吧，命运也不是绝对的，我已经对指挥官没有感觉了哦~",
 	feeling3 = "虽然很喜欢指挥官，但也想和大家一起玩呢，好伤脑筋呀~",
 	lose = "哼……诅咒你被友军打脸哦！",
@@ -16211,7 +16211,7 @@ _G.pg.ship_skin_words[202140] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202150] = {
+_G.pg.base.ship_skin_words[202150] = {
 	feeling1 = "指挥官，公共场合请不要做些让人困扰的事",
 	feeling3 = "名为欧若拉的女神据说别名“玫瑰色的手指”，虽然我没有那么厉害，不过手指上也有些种玫瑰时的余味，指挥官要闻一闻吗？",
 	lose = "还是有些不适应战场呢……",
@@ -16263,7 +16263,7 @@ _G.pg.ship_skin_words[202150] = {
 	}
 }
 
-_G.pg.ship_skin_words[202151] = {
+_G.pg.base.ship_skin_words[202151] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16297,7 +16297,7 @@ _G.pg.ship_skin_words[202151] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202152] = {
+_G.pg.base.ship_skin_words[202152] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16331,7 +16331,7 @@ _G.pg.ship_skin_words[202152] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202153] = {
+_G.pg.base.ship_skin_words[202153] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16365,7 +16365,7 @@ _G.pg.ship_skin_words[202153] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202158] = {
+_G.pg.base.ship_skin_words[202158] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16399,7 +16399,7 @@ _G.pg.ship_skin_words[202158] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202160] = {
+_G.pg.base.ship_skin_words[202160] = {
 	feeling1 = "指挥官，找我有什么事吗？我很忙的",
 	feeling3 = "说起来，舰队里有没有你很在意的女孩子？要不要我给你助攻一下？不要害羞嘛，我不会把你说出去的~",
 	lose = "指挥官，带大家撤退，不然的话……！",
@@ -16433,7 +16433,7 @@ _G.pg.ship_skin_words[202160] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202161] = {
+_G.pg.base.ship_skin_words[202161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16467,7 +16467,7 @@ _G.pg.ship_skin_words[202161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202170] = {
+_G.pg.base.ship_skin_words[202170] = {
 	feeling1 = "真是遗憾，boss，看来我们注视的远方并不相同……",
 	feeling3 = "正义的时代？我并没有渴求那种东西。有光就会有影，boss，所谓的恶并没有那么简单就可以根绝",
 	lose = "我不害怕疼痛，我害怕的是一事无成……可恶！",
@@ -16518,7 +16518,7 @@ _G.pg.ship_skin_words[202170] = {
 	}
 }
 
-_G.pg.ship_skin_words[202171] = {
+_G.pg.base.ship_skin_words[202171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16552,7 +16552,7 @@ _G.pg.ship_skin_words[202171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202172] = {
+_G.pg.base.ship_skin_words[202172] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16586,7 +16586,7 @@ _G.pg.ship_skin_words[202172] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202180] = {
+_G.pg.base.ship_skin_words[202180] = {
 	feeling1 = "唔，指挥官……比厨房的污垢还要棘手呢",
 	feeling3 = "冷静吗？唔，指挥官是个好人，而且这里有好多友善的姐姐，不像在船厂时，周围都是商船呢，这不是没有什么好慌张的吗？",
 	lose = "淑女……要优雅地承认失败……呜……",
@@ -16620,7 +16620,7 @@ _G.pg.ship_skin_words[202180] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202190] = {
+_G.pg.base.ship_skin_words[202190] = {
 	feeling1 = "我并不擅长把握人与人之间的距离，如果让您产生了什么误解，我很抱歉。",
 	feeling3 = "天气预报似乎说一会要下雨，如果您要出门的话，请带上这把伞。",
 	lose = "非常惭愧，又要给指挥官您添麻烦了……",
@@ -16667,7 +16667,7 @@ _G.pg.ship_skin_words[202190] = {
 	}
 }
 
-_G.pg.ship_skin_words[202191] = {
+_G.pg.base.ship_skin_words[202191] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16701,7 +16701,7 @@ _G.pg.ship_skin_words[202191] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202199] = {
+_G.pg.base.ship_skin_words[202199] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16735,7 +16735,7 @@ _G.pg.ship_skin_words[202199] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202210] = {
+_G.pg.base.ship_skin_words[202210] = {
 	feeling1 = "对不起，我觉得我们保持一些距离会比较好",
 	feeling3 = "下次大讲堂上课的时候，指挥官要不也来看看吧？这样对来参加的孩子们是一种鼓励呢",
 	lose = "颜面扫地啊…",
@@ -16769,7 +16769,7 @@ _G.pg.ship_skin_words[202210] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202211] = {
+_G.pg.base.ship_skin_words[202211] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16803,7 +16803,7 @@ _G.pg.ship_skin_words[202211] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202219] = {
+_G.pg.base.ship_skin_words[202219] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16837,7 +16837,7 @@ _G.pg.ship_skin_words[202219] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202220] = {
+_G.pg.base.ship_skin_words[202220] = {
 	feeling1 = "果然皇家的礼仪不是人人都能领悟的呢……",
 	feeling3 = "请您不要怪我太严厉，皇家的礼仪并不是那么容易就能掌握的东西。",
 	lose = "…看来我对自身的要求还不够……",
@@ -16871,7 +16871,7 @@ _G.pg.ship_skin_words[202220] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202221] = {
+_G.pg.base.ship_skin_words[202221] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16905,7 +16905,7 @@ _G.pg.ship_skin_words[202221] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202229] = {
+_G.pg.base.ship_skin_words[202229] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -16939,7 +16939,7 @@ _G.pg.ship_skin_words[202229] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202200] = {
+_G.pg.base.ship_skin_words[202200] = {
 	feeling1 = "……请骄傲起来，我那令人遗憾的主人",
 	feeling3 = "我最骄傲的地方就在于能够找到并侍奉您，我骄傲的主人",
 	lose = "失策…请惩罚犯了错误的女仆吧，我…骄傲的主人",
@@ -16973,7 +16973,7 @@ _G.pg.ship_skin_words[202200] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202201] = {
+_G.pg.base.ship_skin_words[202201] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17007,7 +17007,7 @@ _G.pg.ship_skin_words[202201] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202202] = {
+_G.pg.base.ship_skin_words[202202] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17041,7 +17041,7 @@ _G.pg.ship_skin_words[202202] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202203] = {
+_G.pg.base.ship_skin_words[202203] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17075,7 +17075,7 @@ _G.pg.ship_skin_words[202203] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202230] = {
+_G.pg.base.ship_skin_words[202230] = {
 	feeling1 = "果然，我这样的人只配遇到同样糟糕的人…",
 	feeling3 = "斐济总是说“确捷你应该再多笑一笑”，我应该怎么做才好呢……啊，对不起，因为这种无聊的事来问指挥官…",
 	lose = "对不起，要是我再能干一些就好了…",
@@ -17118,7 +17118,7 @@ _G.pg.ship_skin_words[202230] = {
 	}
 }
 
-_G.pg.ship_skin_words[202231] = {
+_G.pg.base.ship_skin_words[202231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17152,7 +17152,7 @@ _G.pg.ship_skin_words[202231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202232] = {
+_G.pg.base.ship_skin_words[202232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17186,7 +17186,7 @@ _G.pg.ship_skin_words[202232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202233] = {
+_G.pg.base.ship_skin_words[202233] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17220,7 +17220,7 @@ _G.pg.ship_skin_words[202233] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202240] = {
+_G.pg.base.ship_skin_words[202240] = {
 	feeling1 = "指挥官，你也是……我的敌人吗？",
 	feeling3 = "指挥官，您一直在笑哦？是遇到了什么开心的事情吗？能不能，也和我说说呢？",
 	lose = "输了……不，这样子可不行……",
@@ -17265,7 +17265,7 @@ _G.pg.ship_skin_words[202240] = {
 	}
 }
 
-_G.pg.ship_skin_words[202241] = {
+_G.pg.base.ship_skin_words[202241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17299,7 +17299,7 @@ _G.pg.ship_skin_words[202241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202242] = {
+_G.pg.base.ship_skin_words[202242] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17333,7 +17333,7 @@ _G.pg.ship_skin_words[202242] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202243] = {
+_G.pg.base.ship_skin_words[202243] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17367,7 +17367,7 @@ _G.pg.ship_skin_words[202243] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202244] = {
+_G.pg.base.ship_skin_words[202244] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17401,7 +17401,7 @@ _G.pg.ship_skin_words[202244] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202250] = {
+_G.pg.base.ship_skin_words[202250] = {
 	feeling1 = "在让其她成员伤心之前，就先让我先行把主人处理了吧。",
 	feeling3 = "我弹奏得很好吗？只要指挥官愿意，您也可以像我一样——前提是每天都记得练习。",
 	lose = "因为我的原因搞砸了，万分抱歉。",
@@ -17447,7 +17447,7 @@ _G.pg.ship_skin_words[202250] = {
 	}
 }
 
-_G.pg.ship_skin_words[202260] = {
+_G.pg.base.ship_skin_words[202260] = {
 	feeling1 = "为了我能正常完成女仆的工作，希望指挥官不要进入我周边三米以内的区域。",
 	feeling3 = "指挥官，床单的颜色是要白色还是……绿色？跟我眼睛的颜色一样？这、这样啊。",
 	lose = "需要检讨……下次不会失败了。",
@@ -17501,7 +17501,7 @@ _G.pg.ship_skin_words[202260] = {
 	}
 }
 
-_G.pg.ship_skin_words[202261] = {
+_G.pg.base.ship_skin_words[202261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17535,7 +17535,7 @@ _G.pg.ship_skin_words[202261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202270] = {
+_G.pg.base.ship_skin_words[202270] = {
 	feeling1 = "指挥官…为什么这么顽固呢…",
 	feeling3 = "指挥官，你今天打算加班吗？这样的话，我稍后准备一壶咖啡带去办公室吧。欸？没关系，不麻烦的。即使没有要交给我的工作，只是在你身边陪着你也好呀~",
 	lose = "哎呀呀，失败了呢…",
@@ -17586,7 +17586,7 @@ _G.pg.ship_skin_words[202270] = {
 	}
 }
 
-_G.pg.ship_skin_words[202271] = {
+_G.pg.base.ship_skin_words[202271] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17620,7 +17620,7 @@ _G.pg.ship_skin_words[202271] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202272] = {
+_G.pg.base.ship_skin_words[202272] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17654,7 +17654,7 @@ _G.pg.ship_skin_words[202272] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202273] = {
+_G.pg.base.ship_skin_words[202273] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17688,7 +17688,7 @@ _G.pg.ship_skin_words[202273] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202274] = {
+_G.pg.base.ship_skin_words[202274] = {
 	feeling1 = "能治好的药…一定有的！指挥官还不是无可救药…放心吧！",
 	feeling3 = "",
 	lose = "",
@@ -17722,7 +17722,7 @@ _G.pg.ship_skin_words[202274] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202280] = {
+_G.pg.base.ship_skin_words[202280] = {
 	feeling1 = "黛朵让主人失望了吗…？黛朵真是没用的女仆……",
 	feeling3 = "偶像服很合适…谢谢主人的赞赏！！…啊、难道这是表示黛朵作为女仆不及格…！？主人，难道…难道要抛弃黛朵了………！？",
 	lose = "没法像女仆长唱得那么好啊…呜……",
@@ -17773,7 +17773,7 @@ _G.pg.ship_skin_words[202280] = {
 	}
 }
 
-_G.pg.ship_skin_words[202290] = {
+_G.pg.base.ship_skin_words[202290] = {
 	feeling1 = "指挥官好像…变得有些奇怪？",
 	feeling3 = "现在完不成的工作，稍微放一放，也许就不再需要做了呢，嗯。",
 	lose = "我们输了，对不起…",
@@ -17841,7 +17841,7 @@ _G.pg.ship_skin_words[202290] = {
 	}
 }
 
-_G.pg.ship_skin_words[202291] = {
+_G.pg.base.ship_skin_words[202291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17875,7 +17875,7 @@ _G.pg.ship_skin_words[202291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202292] = {
+_G.pg.base.ship_skin_words[202292] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17909,7 +17909,7 @@ _G.pg.ship_skin_words[202292] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202300] = {
+_G.pg.base.ship_skin_words[202300] = {
 	feeling1 = "主，主人会抛下大家吗ー？？",
 	feeling3 = "确实，“无论何时无论何处”这种说法有点夸张了…可是我想着无论何时，只要被主人传唤了都能侍奉…抱歉…",
 	lose = "抓紧救助！主人，伙伴们就交给我，撤退吧！",
@@ -17943,7 +17943,7 @@ _G.pg.ship_skin_words[202300] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[202301] = {
+_G.pg.base.ship_skin_words[202301] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -17977,7 +17977,7 @@ _G.pg.ship_skin_words[202301] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203010] = {
+_G.pg.base.ship_skin_words[203010] = {
 	feeling1 = "阁下，请你去别的地方随便做些什么吧，我会把事情都处理好的",
 	feeling3 = "阁下，要一起喝茶吗？不过要是工作还没做完的话，就请先努力吧。当然，我会陪着你的",
 	lose = "……我不该和你们拘泥于礼节的",
@@ -18040,7 +18040,7 @@ _G.pg.ship_skin_words[203010] = {
 	}
 }
 
-_G.pg.ship_skin_words[203019] = {
+_G.pg.base.ship_skin_words[203019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18074,7 +18074,7 @@ _G.pg.ship_skin_words[203019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203020] = {
+_G.pg.base.ship_skin_words[203020] = {
 	feeling1 = "指挥官，碍事，请让一让（笑）",
 	feeling3 = "指挥官虽然是个好人而且又很有未来不过冷静想想觉得太快了所以对不起！",
 	lose = "指挥官不觉得简单的事情反而做不好的女孩子更可爱吗，欸嘿~",
@@ -18108,7 +18108,7 @@ _G.pg.ship_skin_words[203020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203030] = {
+_G.pg.base.ship_skin_words[203030] = {
 	feeling1 = "Disappointed……指挥官和肯特合不来啊",
 	feeling3 = "Hey，指挥官！啊，没事没事你继续做自己的事就好了，我看着指挥官就很开心啦",
 	lose = "Ouch……肯特选手，惨遭淘汰……",
@@ -18142,7 +18142,7 @@ _G.pg.ship_skin_words[203030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203040] = {
+_G.pg.base.ship_skin_words[203040] = {
 	feeling1 = "……天空真蓝呢",
 	feeling3 = "侦查可是很重要的事！欸，走神？说、说什么呢，我只是在观、观察天气而已",
 	lose = "呜……要是集中精神一点就好了",
@@ -18176,7 +18176,7 @@ _G.pg.ship_skin_words[203040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203049] = {
+_G.pg.base.ship_skin_words[203049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18210,7 +18210,7 @@ _G.pg.ship_skin_words[203049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203050] = {
+_G.pg.base.ship_skin_words[203050] = {
 	feeling1 = "呜……",
 	feeling3 = "指挥官……能再给诺福克讲故事吗……这次我带了想听的故事书……",
 	lose = "呜呜呜……果然我不适合战斗……",
@@ -18244,7 +18244,7 @@ _G.pg.ship_skin_words[203050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203060] = {
+_G.pg.base.ship_skin_words[203060] = {
 	feeling1 = "果然我离姐姐还差远了…………",
 	feeling3 = "我这样也很好？哎呀指挥官真是会说好话呢，比起姐姐，我只不过是丑小鸭而已",
 	lose = "咕……！还不能在这里倒下",
@@ -18278,7 +18278,7 @@ _G.pg.ship_skin_words[203060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203070] = {
+_G.pg.base.ship_skin_words[203070] = {
 	feeling1 = "力量<Force>的吸引消失了……你原来只是赝品<Faker>吗……",
 	feeling3 = "……力量<Friendship>之间的吸引越来越大了，握住我的手，让它们好好交流吧",
 	lose = "咕……这是索达湾的梦魇<Nightmare>！",
@@ -18329,7 +18329,7 @@ _G.pg.ship_skin_words[203070] = {
 	}
 }
 
-_G.pg.ship_skin_words[203071] = {
+_G.pg.base.ship_skin_words[203071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18363,7 +18363,7 @@ _G.pg.ship_skin_words[203071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203072] = {
+_G.pg.base.ship_skin_words[203072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18397,7 +18397,7 @@ _G.pg.ship_skin_words[203072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203078] = {
+_G.pg.base.ship_skin_words[203078] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "咕……要被梦魇<Nightmare>吞噬了…",
@@ -18431,7 +18431,7 @@ _G.pg.ship_skin_words[203078] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203079] = {
+_G.pg.base.ship_skin_words[203079] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18465,7 +18465,7 @@ _G.pg.ship_skin_words[203079] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203080] = {
+_G.pg.base.ship_skin_words[203080] = {
 	feeling1 = "请不要让皇室蒙羞！",
 	feeling3 = "生在皇家就意味着我的命运不受自己掌控，能遇到你这样优秀的指挥官真是太好了",
 	lose = "可恶……下次一定会雪耻的！",
@@ -18508,7 +18508,7 @@ _G.pg.ship_skin_words[203080] = {
 	}
 }
 
-_G.pg.ship_skin_words[203081] = {
+_G.pg.base.ship_skin_words[203081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18542,7 +18542,7 @@ _G.pg.ship_skin_words[203081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203089] = {
+_G.pg.base.ship_skin_words[203089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18576,7 +18576,7 @@ _G.pg.ship_skin_words[203089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203090] = {
+_G.pg.base.ship_skin_words[203090] = {
 	feeling1 = "姐姐就是就是太好说话，才把你这种人都给惯坏了",
 	feeling3 = "姐姐是会对谁都会付出很多的，即使是不值得付出的人……嗯？不是在说你啦…还是说，你觉得自己是那样的人？",
 	lose = "大家不要难过，是我没有做好队长的职责",
@@ -18627,7 +18627,7 @@ _G.pg.ship_skin_words[203090] = {
 	}
 }
 
-_G.pg.ship_skin_words[203091] = {
+_G.pg.base.ship_skin_words[203091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18661,7 +18661,7 @@ _G.pg.ship_skin_words[203091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[203092] = {
+_G.pg.base.ship_skin_words[203092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18695,7 +18695,7 @@ _G.pg.ship_skin_words[203092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204010] = {
+_G.pg.base.ship_skin_words[204010] = {
 	feeling1 = "指挥官，你这样下去是不行的",
 	feeling3 = "指挥官，你总是叫我出来陪你散步，是遇上什么烦心事了么？",
 	lose = "……对不起，指挥官……我辜负了您的信任",
@@ -18754,7 +18754,7 @@ _G.pg.ship_skin_words[204010] = {
 	}
 }
 
-_G.pg.ship_skin_words[204020] = {
+_G.pg.base.ship_skin_words[204020] = {
 	feeling1 = "指挥官身边一点也不好玩，我要出门了！",
 	feeling3 = "姐姐老批评我太冲动，不过对我来说动脑子太麻烦了，而且现在有指挥官在，动脑的事都交给你就好啦！",
 	lose = "拖这么久，我肚子都饿了，怎么可能赢嘛……",
@@ -18788,7 +18788,7 @@ _G.pg.ship_skin_words[204020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204030] = {
+_G.pg.base.ship_skin_words[204030] = {
 	feeling1 = "唉……看来不下猛药不行了呢",
 	feeling3 = "虽然我常把时刻保持优雅挂在嘴边，但是这并不意味着指挥官需要配合我，您平常的样子才是最有魅力的",
 	lose = "胜败乃兵家常事，而我们有的是时间",
@@ -18855,7 +18855,7 @@ _G.pg.ship_skin_words[204030] = {
 	}
 }
 
-_G.pg.ship_skin_words[204031] = {
+_G.pg.base.ship_skin_words[204031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18889,7 +18889,7 @@ _G.pg.ship_skin_words[204031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204032] = {
+_G.pg.base.ship_skin_words[204032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18923,7 +18923,7 @@ _G.pg.ship_skin_words[204032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204033] = {
+_G.pg.base.ship_skin_words[204033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18957,7 +18957,7 @@ _G.pg.ship_skin_words[204033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204038] = {
+_G.pg.base.ship_skin_words[204038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -18991,7 +18991,7 @@ _G.pg.ship_skin_words[204038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[204040] = {
+_G.pg.base.ship_skin_words[204040] = {
 	feeling1 = "指挥官，要振作起来！无论如何，我都是不会抛弃你的！",
 	feeling3 = "休息和工作同样重要。就算以骑士的标准来看，指挥官每天也太辛苦了。这份工作结束之后，快去放松一下吧。",
 	lose = "对不起，指挥官…",
@@ -19025,7 +19025,7 @@ _G.pg.ship_skin_words[204040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205010] = {
+_G.pg.base.ship_skin_words[205010] = {
 	feeling1 = "你这个没用的臣子，本王要辞了你！",
 	feeling3 = "本王只是比较喜欢这里的环境才过来坐坐，你可别会错意了！",
 	lose = "可恶！！！竟敢令我伊丽莎白蒙羞！给我记住！",
@@ -19103,7 +19103,7 @@ _G.pg.ship_skin_words[205010] = {
 	}
 }
 
-_G.pg.ship_skin_words[205011] = {
+_G.pg.base.ship_skin_words[205011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19137,7 +19137,7 @@ _G.pg.ship_skin_words[205011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205012] = {
+_G.pg.base.ship_skin_words[205012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19171,7 +19171,7 @@ _G.pg.ship_skin_words[205012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205013] = {
+_G.pg.base.ship_skin_words[205013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19205,7 +19205,7 @@ _G.pg.ship_skin_words[205013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205014] = {
+_G.pg.base.ship_skin_words[205014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19239,7 +19239,7 @@ _G.pg.ship_skin_words[205014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205015] = {
+_G.pg.base.ship_skin_words[205015] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19273,7 +19273,7 @@ _G.pg.ship_skin_words[205015] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205020] = {
+_G.pg.base.ship_skin_words[205020] = {
 	feeling1 = "请你不要摆出一副好像你和我很熟的样子",
 	feeling3 = "没有什么贵族气质吗？不像胡德她们那样还真是对不起呢……我才没有在说欧派……",
 	lose = "损管，舵机怎么又不好控制了？嘁！居然在这个时候",
@@ -19357,7 +19357,7 @@ _G.pg.ship_skin_words[205020] = {
 	}
 }
 
-_G.pg.ship_skin_words[205021] = {
+_G.pg.base.ship_skin_words[205021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19391,7 +19391,7 @@ _G.pg.ship_skin_words[205021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205022] = {
+_G.pg.base.ship_skin_words[205022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "如果能再快一些的话…！",
@@ -19425,7 +19425,7 @@ _G.pg.ship_skin_words[205022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205029] = {
+_G.pg.base.ship_skin_words[205029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19459,7 +19459,7 @@ _G.pg.ship_skin_words[205029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205030] = {
+_G.pg.base.ship_skin_words[205030] = {
 	feeling1 = "我已经不知道说你什么好了……哈……",
 	feeling3 = "这点成绩就想让我……这都是你做的？…………笑什么笑，这一次就破例承认你干得不错好了，哼！",
 	lose = "竟然让我蒙羞……给我记住",
@@ -19518,7 +19518,7 @@ _G.pg.ship_skin_words[205030] = {
 	}
 }
 
-_G.pg.ship_skin_words[205031] = {
+_G.pg.base.ship_skin_words[205031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19552,7 +19552,7 @@ _G.pg.ship_skin_words[205031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205032] = {
+_G.pg.base.ship_skin_words[205032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19586,7 +19586,7 @@ _G.pg.ship_skin_words[205032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205040] = {
+_G.pg.base.ship_skin_words[205040] = {
 	feeling1 = "就算是罗德尼也有点失望了呢……",
 	feeling3 = "指挥官真是很温柔呢，一起散步时总是会照顾我放慢速度，这种细节，我很感动哦",
 	lose = "虽然还能战斗……不过还是先撤退吧",
@@ -19645,7 +19645,7 @@ _G.pg.ship_skin_words[205040] = {
 	}
 }
 
-_G.pg.ship_skin_words[205041] = {
+_G.pg.base.ship_skin_words[205041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19679,7 +19679,7 @@ _G.pg.ship_skin_words[205041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205042] = {
+_G.pg.base.ship_skin_words[205042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19713,7 +19713,7 @@ _G.pg.ship_skin_words[205042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205043] = {
+_G.pg.base.ship_skin_words[205043] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19747,7 +19747,7 @@ _G.pg.ship_skin_words[205043] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205048] = {
+_G.pg.base.ship_skin_words[205048] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19781,7 +19781,7 @@ _G.pg.ship_skin_words[205048] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205050] = {
+_G.pg.base.ship_skin_words[205050] = {
 	feeling1 = "指挥官，我喜欢有个性或者会做饭的人，而你，不行",
 	feeling3 = "呵呵，指挥官，怎么样，我的厨艺令你满意吗？尽管吃吧，看到你这么满足，我也很高兴",
 	lose = "无需气馁，真正的胜负可不是一场战斗能左右的",
@@ -19832,7 +19832,7 @@ _G.pg.ship_skin_words[205050] = {
 	}
 }
 
-_G.pg.ship_skin_words[205051] = {
+_G.pg.base.ship_skin_words[205051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19866,7 +19866,7 @@ _G.pg.ship_skin_words[205051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205060] = {
+_G.pg.base.ship_skin_words[205060] = {
 	feeling1 = "请离我远点，你没有资格驱使我……",
 	feeling3 = "你永远不知道有多少计划、希望和努力会随着你的逝去而沉入大海，所以，可别随便死了，指挥官",
 	lose = "A horse may stumble though he has four legs，下次再一雪前耻吧",
@@ -19949,7 +19949,7 @@ _G.pg.ship_skin_words[205060] = {
 	}
 }
 
-_G.pg.ship_skin_words[205061] = {
+_G.pg.base.ship_skin_words[205061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -19983,7 +19983,7 @@ _G.pg.ship_skin_words[205061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205062] = {
+_G.pg.base.ship_skin_words[205062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20017,7 +20017,7 @@ _G.pg.ship_skin_words[205062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205064] = {
+_G.pg.base.ship_skin_words[205064] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20051,7 +20051,7 @@ _G.pg.ship_skin_words[205064] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205070] = {
+_G.pg.base.ship_skin_words[205070] = {
 	feeling1 = "稍微粗暴一点……也没关系吧",
 	feeling3 = "汝的面庞无时无刻不在诱惑着余，呐，汝的鲜血，究竟能甜美到什么地步呢？",
 	lose = "啊啊…为何、总是不肯乖乖顺从呢...  ",
@@ -20102,7 +20102,7 @@ _G.pg.ship_skin_words[205070] = {
 	}
 }
 
-_G.pg.ship_skin_words[205072] = {
+_G.pg.base.ship_skin_words[205072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20136,7 +20136,7 @@ _G.pg.ship_skin_words[205072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205073] = {
+_G.pg.base.ship_skin_words[205073] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20170,7 +20170,7 @@ _G.pg.ship_skin_words[205073] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205090] = {
+_G.pg.base.ship_skin_words[205090] = {
 	feeling1 = "以为善意必定能得到善意的回应…我还是太天真了么",
 	feeling3 = "指挥官心情不好？还是累了？这种时候，来点小饼干就好了。心情和精神都可以很快恢复的哦。",
 	lose = "下次…不会再输了。",
@@ -20231,7 +20231,7 @@ _G.pg.ship_skin_words[205090] = {
 	}
 }
 
-_G.pg.ship_skin_words[205091] = {
+_G.pg.base.ship_skin_words[205091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "讨厌的噩运…",
@@ -20265,7 +20265,7 @@ _G.pg.ship_skin_words[205091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205092] = {
+_G.pg.base.ship_skin_words[205092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20299,7 +20299,7 @@ _G.pg.ship_skin_words[205092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205100] = {
+_G.pg.base.ship_skin_words[205100] = {
 	feeling1 = "本来还对你有点期待的…",
 	feeling3 = "没、没想到侍从你的棋艺还挺厉害的啊。以、以后我就稍微认真点对付你吧！",
 	lose = "呜…怎么会这样…",
@@ -20351,7 +20351,7 @@ _G.pg.ship_skin_words[205100] = {
 	}
 }
 
-_G.pg.ship_skin_words[205101] = {
+_G.pg.base.ship_skin_words[205101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20385,7 +20385,7 @@ _G.pg.ship_skin_words[205101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[205102] = {
+_G.pg.base.ship_skin_words[205102] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20419,7 +20419,7 @@ _G.pg.ship_skin_words[205102] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206010] = {
+_G.pg.base.ship_skin_words[206010] = {
 	feeling1 = "指挥官，你要堕落成黑暗决斗者了吗……那我只能打倒你了",
 	feeling3 = "决斗之外的兴趣吗……我倒是没有想过，指挥官愿意教我吗？",
 	lose = "我是不会投降的，我的回合……不要拉我！",
@@ -20470,7 +20470,7 @@ _G.pg.ship_skin_words[206010] = {
 	}
 }
 
-_G.pg.ship_skin_words[206019] = {
+_G.pg.base.ship_skin_words[206019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "不败只不过是幻想，指挥官……你如果在这里气馁，那就不配做我的指挥官",
@@ -20504,7 +20504,7 @@ _G.pg.ship_skin_words[206019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206030] = {
+_G.pg.base.ship_skin_words[206030] = {
 	feeling1 = "哥哥…差劲…",
 	feeling3 = "遇到危险的时候，优酱会保护我的——有哥哥在就不会有危险？嘻嘻，哥哥好像独角兽的骑士呢…",
 	lose = "外面…好可怕…独角兽可以回家吗 …哥哥？",
@@ -20570,7 +20570,7 @@ _G.pg.ship_skin_words[206030] = {
 	}
 }
 
-_G.pg.ship_skin_words[206031] = {
+_G.pg.base.ship_skin_words[206031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20604,7 +20604,7 @@ _G.pg.ship_skin_words[206031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206032] = {
+_G.pg.base.ship_skin_words[206032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20638,7 +20638,7 @@ _G.pg.ship_skin_words[206032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206033] = {
+_G.pg.base.ship_skin_words[206033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20672,7 +20672,7 @@ _G.pg.ship_skin_words[206033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206034] = {
+_G.pg.base.ship_skin_words[206034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20706,7 +20706,7 @@ _G.pg.ship_skin_words[206034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206035] = {
+_G.pg.base.ship_skin_words[206035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20740,7 +20740,7 @@ _G.pg.ship_skin_words[206035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206036] = {
+_G.pg.base.ship_skin_words[206036] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20774,7 +20774,7 @@ _G.pg.ship_skin_words[206036] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206038] = {
+_G.pg.base.ship_skin_words[206038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜呜…在哥哥面前…要坚强…",
@@ -20808,7 +20808,7 @@ _G.pg.ship_skin_words[206038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206040] = {
+_G.pg.base.ship_skin_words[206040] = {
 	feeling1 = "我所憧憬的舰队，不该是这样的……",
 	feeling3 = "欸，对驱逐前辈们也使用敬语吓到她们了吗……唔，但是对我来说，果然还是值得尊敬的前辈呢",
 	lose = "对不起，前辈们……",
@@ -20851,7 +20851,7 @@ _G.pg.ship_skin_words[206040] = {
 	}
 }
 
-_G.pg.ship_skin_words[206041] = {
+_G.pg.base.ship_skin_words[206041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20885,7 +20885,7 @@ _G.pg.ship_skin_words[206041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206042] = {
+_G.pg.base.ship_skin_words[206042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -20919,7 +20919,7 @@ _G.pg.ship_skin_words[206042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206050] = {
+_G.pg.base.ship_skin_words[206050] = {
 	feeling1 = "最近的指挥官，状态有些不好呢。有什么烦恼，向我倾诉也是可以的哦？",
 	feeling3 = "每次出航时，总会有一些海鸥在头顶上飞翔呢，据说这是航行安全的意象喔~每次看到这些小家伙们的身姿总会感到心情舒畅呢~",
 	lose = "讨厌，飞行甲板又被烧焦了…",
@@ -20953,7 +20953,7 @@ _G.pg.ship_skin_words[206050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206051] = {
+_G.pg.base.ship_skin_words[206051] = {
 	feeling1 = "现在的指挥官就如同放久了的绿茶一样苦涩呢…",
 	feeling3 = "",
 	lose = "唔……有句话叫，胜败乃兵家常事。",
@@ -20987,7 +20987,7 @@ _G.pg.ship_skin_words[206051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206052] = {
+_G.pg.base.ship_skin_words[206052] = {
 	feeling1 = "指挥官？偶尔做点别的事换换心情比较好哦？",
 	feeling3 = "",
 	lose = "",
@@ -21021,7 +21021,7 @@ _G.pg.ship_skin_words[206052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[206060] = {
+_G.pg.base.ship_skin_words[206060] = {
 	feeling1 = "指挥官，就像腌熟了的鲱鱼罐头一样呢…",
 	feeling3 = "大家…都能好好说出想说的话呢……没什么，你好，指挥官。",
 	lose = "…对不起，失败了",
@@ -21064,7 +21064,7 @@ _G.pg.ship_skin_words[206060] = {
 	}
 }
 
-_G.pg.ship_skin_words[206061] = {
+_G.pg.base.ship_skin_words[206061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21098,7 +21098,7 @@ _G.pg.ship_skin_words[206061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207010] = {
+_G.pg.base.ship_skin_words[207010] = {
 	feeling1 = "你现在的模样，真的对得起对你付出那么多的大家吗？好好反省一下吧！",
 	feeling3 = "皇家有挺多茶会点心会之类的呢。总不去的话，感觉太不合群。去的话，什么都不吃好像也挺奇怪…放开来吃就好了？开、开什么玩笑！那些可都是卡路、…啊…咳咳，没，没什么，稍微有些失态了，抱歉。",
 	lose = "嘁，持续的作战导致了损伤么……回去整修吧。",
@@ -21149,7 +21149,7 @@ _G.pg.ship_skin_words[207010] = {
 	}
 }
 
-_G.pg.ship_skin_words[207011] = {
+_G.pg.base.ship_skin_words[207011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21183,7 +21183,7 @@ _G.pg.ship_skin_words[207011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207020] = {
+_G.pg.base.ship_skin_words[207020] = {
 	feeling1 = "果然指挥官完全比不上驱逐妹妹们……",
 	feeling3 = "本人一开始还在想终于要被指挥官送去海军法庭了，能被接受真是太好了——没什么丢人的？……指挥官，皇家方舟将一生追随你！",
 	lose = "嘁，被摆了一道！",
@@ -21235,7 +21235,7 @@ _G.pg.ship_skin_words[207020] = {
 	}
 }
 
-_G.pg.ship_skin_words[207021] = {
+_G.pg.base.ship_skin_words[207021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21269,7 +21269,7 @@ _G.pg.ship_skin_words[207021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207022] = {
+_G.pg.base.ship_skin_words[207022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21303,7 +21303,7 @@ _G.pg.ship_skin_words[207022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207023] = {
+_G.pg.base.ship_skin_words[207023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21337,7 +21337,7 @@ _G.pg.ship_skin_words[207023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207028] = {
+_G.pg.base.ship_skin_words[207028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21371,7 +21371,7 @@ _G.pg.ship_skin_words[207028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207029] = {
+_G.pg.base.ship_skin_words[207029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21405,7 +21405,7 @@ _G.pg.ship_skin_words[207029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207030] = {
+_G.pg.base.ship_skin_words[207030] = {
 	feeling1 = "连光辉都无法触及指挥官心中的黑暗吗……",
 	feeling3 = "指挥官，别看我这样，我意外的喜欢夜袭哦……真是的，不是指那方面啦~不过您呢，喜欢吗？",
 	lose = "请退下吧，否则我将赌上性命……",
@@ -21456,7 +21456,7 @@ _G.pg.ship_skin_words[207030] = {
 	}
 }
 
-_G.pg.ship_skin_words[207031] = {
+_G.pg.base.ship_skin_words[207031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21490,7 +21490,7 @@ _G.pg.ship_skin_words[207031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207032] = {
+_G.pg.base.ship_skin_words[207032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21524,7 +21524,7 @@ _G.pg.ship_skin_words[207032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207033] = {
+_G.pg.base.ship_skin_words[207033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21558,7 +21558,7 @@ _G.pg.ship_skin_words[207033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207035] = {
+_G.pg.base.ship_skin_words[207035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21592,7 +21592,7 @@ _G.pg.ship_skin_words[207035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207038] = {
+_G.pg.base.ship_skin_words[207038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21626,7 +21626,7 @@ _G.pg.ship_skin_words[207038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207040] = {
+_G.pg.base.ship_skin_words[207040] = {
 	feeling1 = "揍你啰——！",
 	feeling3 = "围剿俾斯麦和钨作战？我只是一时兴起帮了点忙啦，可没有什么成为武勋舰的打算…",
 	lose = "失败时保持美丽的身姿，乃败者的礼仪",
@@ -21696,7 +21696,7 @@ _G.pg.ship_skin_words[207040] = {
 	}
 }
 
-_G.pg.ship_skin_words[207041] = {
+_G.pg.base.ship_skin_words[207041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21730,7 +21730,7 @@ _G.pg.ship_skin_words[207041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207042] = {
+_G.pg.base.ship_skin_words[207042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21764,7 +21764,7 @@ _G.pg.ship_skin_words[207042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207050] = {
+_G.pg.base.ship_skin_words[207050] = {
 	feeling1 = "抱歉，我得了指挥官一靠近就会头疼的病，可以稍微离我远一点吗？",
 	feeling3 = "不光是光辉姐姐和胜利姐姐，竟然能把这么多舰船团结在一起，指挥官真是有包容力呢。作为友好的象征…呵呵…这块蛋糕，请享用吧？",
 	lose = "你们这些可……咳，可敬的敌人，下次我会赢回来的！",
@@ -21815,7 +21815,7 @@ _G.pg.ship_skin_words[207050] = {
 	}
 }
 
-_G.pg.ship_skin_words[207051] = {
+_G.pg.base.ship_skin_words[207051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21849,7 +21849,7 @@ _G.pg.ship_skin_words[207051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207052] = {
+_G.pg.base.ship_skin_words[207052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21883,7 +21883,7 @@ _G.pg.ship_skin_words[207052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207060] = {
+_G.pg.base.ship_skin_words[207060] = {
 	feeling1 = "指挥官，你让我觉得有点不舒服",
 	feeling3 = "看到天上的孩子们很辛苦，所以想让它们休息一会……指挥官，在战争中，真的没有温柔存在的余裕吗？",
 	lose = "下、下次一定能提前侦察到！",
@@ -21926,7 +21926,7 @@ _G.pg.ship_skin_words[207060] = {
 	}
 }
 
-_G.pg.ship_skin_words[207061] = {
+_G.pg.base.ship_skin_words[207061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -21960,7 +21960,7 @@ _G.pg.ship_skin_words[207061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207062] = {
+_G.pg.base.ship_skin_words[207062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "要再多把握下战场状况才行……",
@@ -21994,7 +21994,7 @@ _G.pg.ship_skin_words[207062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[207090] = {
+_G.pg.base.ship_skin_words[207090] = {
 	feeling1 = "爱与和平的愿望，就连最亲近的指挥官也没能感受到吗，呜呜……",
 	feeling3 = "啊，指挥官，不要动！（摸索）用光辉的手帕……这样……嘿嘿，指挥官，帮你擦掉嘴边剩下的蛋糕啦！",
 	lose = "呜…为了爱与和平，下，下次绝对不会饶过你们的！",
@@ -22067,7 +22067,7 @@ _G.pg.ship_skin_words[207090] = {
 	}
 }
 
-_G.pg.ship_skin_words[207110] = {
+_G.pg.base.ship_skin_words[207110] = {
 	feeling1 = "希望光辉的歌能把指挥官呼唤回来……",
 	feeling3 = "经过指挥官的指点，这次参考了一下天鹅她们推荐的歌。轻柔的旋律，和治愈人心的歌声……偶像果然能给人们带来笑容呢",
 	lose = "仅凭歌声的力量还是不够吗…",
@@ -22110,7 +22110,7 @@ _G.pg.ship_skin_words[207110] = {
 	}
 }
 
-_G.pg.ship_skin_words[213010] = {
+_G.pg.base.ship_skin_words[213010] = {
 	feeling1 = "指挥官，你如果想堕入黑暗，就请做好被黑暗界收割的准备吧……",
 	feeling3 = "每当害怕的时候，只要想着还有妹妹在就能坚持下去了，某种意义上来说妹妹虽然不能没有我，我也不能没有她呢",
 	lose = "你可以打败我，但绝对没办驱除那无止境的黑暗",
@@ -22177,7 +22177,7 @@ _G.pg.ship_skin_words[213010] = {
 	}
 }
 
-_G.pg.ship_skin_words[213011] = {
+_G.pg.base.ship_skin_words[213011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22211,7 +22211,7 @@ _G.pg.ship_skin_words[213011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213012] = {
+_G.pg.base.ship_skin_words[213012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22245,7 +22245,7 @@ _G.pg.ship_skin_words[213012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213020] = {
+_G.pg.base.ship_skin_words[213020] = {
 	feeling1 = "恐怖，开始觉得指挥官有点恐怖了……",
 	feeling3 = "我只记得张开眼的时候姐姐就在身边了……从那之后她一直和我在一起，所以姐姐是我唯一的亲人……",
 	lose = "呜……我、我会坚持到指挥官拖我回港的……",
@@ -22296,7 +22296,7 @@ _G.pg.ship_skin_words[213020] = {
 	}
 }
 
-_G.pg.ship_skin_words[213021] = {
+_G.pg.base.ship_skin_words[213021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22330,7 +22330,7 @@ _G.pg.ship_skin_words[213021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213040] = {
+_G.pg.base.ship_skin_words[213040] = {
 	feeling1 = "嘻嘻，指挥官，Mark I也可以当“质量兵器”用哦？像这样——（哐！）",
 	feeling3 = "指挥官，指·挥·官~指-挥-官！欸？没事啦，我就是想看看你的脸，嘻嘻~",
 	lose = "嘁……真没意思",
@@ -22382,7 +22382,7 @@ _G.pg.ship_skin_words[213040] = {
 	}
 }
 
-_G.pg.ship_skin_words[213041] = {
+_G.pg.base.ship_skin_words[213041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22416,7 +22416,7 @@ _G.pg.ship_skin_words[213041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[213042] = {
+_G.pg.base.ship_skin_words[213042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22450,7 +22450,7 @@ _G.pg.ship_skin_words[213042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301010] = {
+_G.pg.base.ship_skin_words[301010] = {
 	feeling1 = "原本以为指挥官是能理解我的……",
 	feeling3 = "妹妹们不知道现在过得怎么样…不过既然是我的妹妹，肯定在哪里坚强地生活着吧～嗯！",
 	lose = "好疼好疼……指挥官我们快跑吧！",
@@ -22493,7 +22493,7 @@ _G.pg.ship_skin_words[301010] = {
 	}
 }
 
-_G.pg.ship_skin_words[301011] = {
+_G.pg.base.ship_skin_words[301011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "逃掉了就不算输！",
@@ -22527,7 +22527,7 @@ _G.pg.ship_skin_words[301011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301012] = {
+_G.pg.base.ship_skin_words[301012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22561,7 +22561,7 @@ _G.pg.ship_skin_words[301012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301013] = {
+_G.pg.base.ship_skin_words[301013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22595,7 +22595,7 @@ _G.pg.ship_skin_words[301013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301014] = {
+_G.pg.base.ship_skin_words[301014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22629,7 +22629,7 @@ _G.pg.ship_skin_words[301014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301015] = {
+_G.pg.base.ship_skin_words[301015] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22663,7 +22663,7 @@ _G.pg.ship_skin_words[301015] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301020] = {
+_G.pg.base.ship_skin_words[301020] = {
 	feeling1 = "（盖住耳朵）我、我不想听到你的声音…",
 	feeling3 = "人多的时候，各种各样的声音传到耳朵里，头会疼…还是安静的地方适合{namecode:3}。",
 	lose = "呜，输了…掩护同伴，赶紧撤退吧…！",
@@ -22722,7 +22722,7 @@ _G.pg.ship_skin_words[301020] = {
 	}
 }
 
-_G.pg.ship_skin_words[301021] = {
+_G.pg.base.ship_skin_words[301021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22756,7 +22756,7 @@ _G.pg.ship_skin_words[301021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301050] = {
+_G.pg.base.ship_skin_words[301050] = {
 	feeling1 = "……不是很想靠近指挥官……",
 	feeling3 = "指挥官……你一直说{namecode:6}的耳朵可爱，但是为什么不摸摸看呢？",
 	lose = "没关系……我自己很快就会好起来的",
@@ -22825,7 +22825,7 @@ _G.pg.ship_skin_words[301050] = {
 	}
 }
 
-_G.pg.ship_skin_words[301051] = {
+_G.pg.base.ship_skin_words[301051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22859,7 +22859,7 @@ _G.pg.ship_skin_words[301051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301053] = {
+_G.pg.base.ship_skin_words[301053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22893,7 +22893,7 @@ _G.pg.ship_skin_words[301053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301054] = {
+_G.pg.base.ship_skin_words[301054] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22927,7 +22927,7 @@ _G.pg.ship_skin_words[301054] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301055] = {
+_G.pg.base.ship_skin_words[301055] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -22961,7 +22961,7 @@ _G.pg.ship_skin_words[301055] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301056] = {
+_G.pg.base.ship_skin_words[301056] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "{namecode:37}开发的隐蔽功能，没派上用场的说…",
@@ -22995,7 +22995,7 @@ _G.pg.ship_skin_words[301056] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301057] = {
+_G.pg.base.ship_skin_words[301057] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23029,7 +23029,7 @@ _G.pg.ship_skin_words[301057] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301058] = {
+_G.pg.base.ship_skin_words[301058] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23063,7 +23063,7 @@ _G.pg.ship_skin_words[301058] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301059] = {
+_G.pg.base.ship_skin_words[301059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23097,7 +23097,7 @@ _G.pg.ship_skin_words[301059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301090] = {
+_G.pg.base.ship_skin_words[301090] = {
 	feeling1 = "指挥官阁下，请振作起来！",
 	feeling3 = "指挥官，想看看我真正的右眼吗？",
 	lose = "咕……下、下一次……",
@@ -23148,7 +23148,7 @@ _G.pg.ship_skin_words[301090] = {
 	}
 }
 
-_G.pg.ship_skin_words[301091] = {
+_G.pg.base.ship_skin_words[301091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23182,7 +23182,7 @@ _G.pg.ship_skin_words[301091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301092] = {
+_G.pg.base.ship_skin_words[301092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23216,7 +23216,7 @@ _G.pg.ship_skin_words[301092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301093] = {
+_G.pg.base.ship_skin_words[301093] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "身、身体姿势不能歪！",
@@ -23250,7 +23250,7 @@ _G.pg.ship_skin_words[301093] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301100] = {
+_G.pg.base.ship_skin_words[301100] = {
 	feeling1 = "看来只有物理上的方法能让指挥官醒悟过来了呢……真是糟透了",
 	feeling3 = "{namecode:11}姐姐一直想重建第六驱逐队呢……我觉得嘛，只要大家都在一起，名号什么的就不用在意那么多的啦!",
 	lose = "哎呀呀…感觉又要回港修理了呢……",
@@ -23335,7 +23335,7 @@ _G.pg.ship_skin_words[301100] = {
 	}
 }
 
-_G.pg.ship_skin_words[301101] = {
+_G.pg.base.ship_skin_words[301101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23369,7 +23369,7 @@ _G.pg.ship_skin_words[301101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301110] = {
+_G.pg.base.ship_skin_words[301110] = {
 	feeling1 = "原来如此，从这里溜出去顺着洋流就能回到东京老家吗……",
 	feeling3 = "明天是{namecode:13}酱的生日，指挥官有准备礼物吗？诶？没听说过？总之……那个项链好像很不错啊，当做礼物的话舰船一定会很高兴的！",
 	lose = "原来如此，这种时候就应该找代打了吧！代打！要不然就让{namecode:13}大人来操纵试试吧！",
@@ -23412,7 +23412,7 @@ _G.pg.ship_skin_words[301110] = {
 	}
 }
 
-_G.pg.ship_skin_words[301111] = {
+_G.pg.base.ship_skin_words[301111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23446,7 +23446,7 @@ _G.pg.ship_skin_words[301111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301112] = {
+_G.pg.base.ship_skin_words[301112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23480,7 +23480,7 @@ _G.pg.ship_skin_words[301112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301113] = {
+_G.pg.base.ship_skin_words[301113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23514,7 +23514,7 @@ _G.pg.ship_skin_words[301113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301120] = {
+_G.pg.base.ship_skin_words[301120] = {
 	feeling1 = "不管指挥官先生变成什么样，{namecode:14}都会陪着你哦",
 	feeling3 = "痛苦的事情说出来就少一半，快乐的事情说出来就多一份。所以什么事都可以和{namecode:14}说哦",
 	lose = "呼……指挥官先生……跑的好快",
@@ -23565,7 +23565,7 @@ _G.pg.ship_skin_words[301120] = {
 	}
 }
 
-_G.pg.ship_skin_words[301121] = {
+_G.pg.base.ship_skin_words[301121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23599,7 +23599,7 @@ _G.pg.ship_skin_words[301121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301122] = {
+_G.pg.base.ship_skin_words[301122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23633,7 +23633,7 @@ _G.pg.ship_skin_words[301122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301123] = {
+_G.pg.base.ship_skin_words[301123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23667,7 +23667,7 @@ _G.pg.ship_skin_words[301123] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301130] = {
+_G.pg.base.ship_skin_words[301130] = {
 	feeling1 = "糟了……怎么会迷路到指挥官旁边……跑吧……（小声）",
 	feeling3 = "唔……？指挥官？最近回过神来总是会在指挥官旁边，指挥官身上有什么魔力吗？",
 	lose = "咕……好痛好痛……到底是被什么打到了啊……",
@@ -23701,7 +23701,7 @@ _G.pg.ship_skin_words[301130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301131] = {
+_G.pg.base.ship_skin_words[301131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜呜呜…又搞砸了…",
@@ -23735,7 +23735,7 @@ _G.pg.ship_skin_words[301131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301140] = {
+_G.pg.base.ship_skin_words[301140] = {
 	feeling1 = "哼（{namecode:16}对你的投喂毫不理睬）",
 	feeling3 = "嗷呜，今天咬谁！怎么样，是不是超凶？……好耶，这样姐妹们就不会说我战斗之外像条小狗了！",
 	lose = "混蛋，为什么……我居然输了……",
@@ -23787,7 +23787,7 @@ _G.pg.ship_skin_words[301140] = {
 	}
 }
 
-_G.pg.ship_skin_words[301141] = {
+_G.pg.base.ship_skin_words[301141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23821,7 +23821,7 @@ _G.pg.ship_skin_words[301141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301142] = {
+_G.pg.base.ship_skin_words[301142] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23855,7 +23855,7 @@ _G.pg.ship_skin_words[301142] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301143] = {
+_G.pg.base.ship_skin_words[301143] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23889,7 +23889,7 @@ _G.pg.ship_skin_words[301143] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301144] = {
+_G.pg.base.ship_skin_words[301144] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23923,7 +23923,7 @@ _G.pg.ship_skin_words[301144] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301148] = {
+_G.pg.base.ship_skin_words[301148] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "指挥官，穿着这件衣服打架好难啊！",
@@ -23957,7 +23957,7 @@ _G.pg.ship_skin_words[301148] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301149] = {
+_G.pg.base.ship_skin_words[301149] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -23991,7 +23991,7 @@ _G.pg.ship_skin_words[301149] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301150] = {
+_G.pg.base.ship_skin_words[301150] = {
 	feeling1 = "你就被噩运笼罩着吧，笨蛋！",
 	feeling3 = "所谓幸运呢，就是不经意间获得的才叫幸运哦，比如说，嘿！（跳）……指挥官，看到人家的胖次颜色了吗~",
 	lose = "真……真能干啊……我记住你了！",
@@ -24043,7 +24043,7 @@ _G.pg.ship_skin_words[301150] = {
 	}
 }
 
-_G.pg.ship_skin_words[301151] = {
+_G.pg.base.ship_skin_words[301151] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24077,7 +24077,7 @@ _G.pg.ship_skin_words[301151] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301152] = {
+_G.pg.base.ship_skin_words[301152] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24111,7 +24111,7 @@ _G.pg.ship_skin_words[301152] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301153] = {
+_G.pg.base.ship_skin_words[301153] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24145,7 +24145,7 @@ _G.pg.ship_skin_words[301153] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301159] = {
+_G.pg.base.ship_skin_words[301159] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24179,7 +24179,7 @@ _G.pg.ship_skin_words[301159] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301160] = {
+_G.pg.base.ship_skin_words[301160] = {
 	feeling1 = "你配不上{namecode:22}大人的运气呢~",
 	feeling3 = "你要去游乐园？哼，那种地方我成熟的{namecode:22}大人怎么可能喜欢……欸，只是跟我说一声？等等，等等等等，让我们好好谈谈吧，游乐园也是有可取之处的",
 	lose = "哼，要让你们在这里凋零我于心不忍……就放你们一马吧！",
@@ -24213,7 +24213,7 @@ _G.pg.ship_skin_words[301160] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301161] = {
+_G.pg.base.ship_skin_words[301161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24247,7 +24247,7 @@ _G.pg.ship_skin_words[301161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301162] = {
+_G.pg.base.ship_skin_words[301162] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24281,7 +24281,7 @@ _G.pg.ship_skin_words[301162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301168] = {
+_G.pg.base.ship_skin_words[301168] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24315,7 +24315,7 @@ _G.pg.ship_skin_words[301168] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301170] = {
+_G.pg.base.ship_skin_words[301170] = {
 	feeling1 = "你已经不再是吾辈的目标了，闪开！",
 	feeling3 = "虽然吾辈并没有特别突出的能力，不过吾辈有自信不会输给其他姐妹，为什么？哼哼，因为吾辈是{namecode:19}啊！",
 	lose = "此番屈辱，{namecode:19}记住了！",
@@ -24349,7 +24349,7 @@ _G.pg.ship_skin_words[301170] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301171] = {
+_G.pg.base.ship_skin_words[301171] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24383,7 +24383,7 @@ _G.pg.ship_skin_words[301171] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301179] = {
+_G.pg.base.ship_skin_words[301179] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24417,7 +24417,7 @@ _G.pg.ship_skin_words[301179] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301180] = {
+_G.pg.base.ship_skin_words[301180] = {
 	feeling1 = "无可救药……",
 	feeling3 = "我会在夜深人静的时候来吃掉指挥官你的灵魂……真信了？笨蛋，倒不如说我帮你赶走了好几只这样的东西……",
 	lose = "诅咒你们……",
@@ -24460,7 +24460,7 @@ _G.pg.ship_skin_words[301180] = {
 	}
 }
 
-_G.pg.ship_skin_words[301181] = {
+_G.pg.base.ship_skin_words[301181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24494,7 +24494,7 @@ _G.pg.ship_skin_words[301181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301189] = {
+_G.pg.base.ship_skin_words[301189] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24528,7 +24528,7 @@ _G.pg.ship_skin_words[301189] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301200] = {
+_G.pg.base.ship_skin_words[301200] = {
 	feeling1 = "……在你身边我睡不着……",
 	feeling3 = "{namecode:130}……这一次我一定会对你伸出手！",
 	lose = "我在哪？谁在打我？",
@@ -24587,7 +24587,7 @@ _G.pg.ship_skin_words[301200] = {
 	}
 }
 
-_G.pg.ship_skin_words[301210] = {
+_G.pg.base.ship_skin_words[301210] = {
 	feeling1 = "指、指挥官，再靠近我就开、开炮了！",
 	feeling3 = "指挥官，能、能和我一起练习对话吗……我也想和舰队的大家交朋友……",
 	lose = "呜呜果然我不适合战斗……",
@@ -24631,7 +24631,7 @@ _G.pg.ship_skin_words[301210] = {
 	}
 }
 
-_G.pg.ship_skin_words[301211] = {
+_G.pg.base.ship_skin_words[301211] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24665,7 +24665,7 @@ _G.pg.ship_skin_words[301211] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301212] = {
+_G.pg.base.ship_skin_words[301212] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24699,7 +24699,7 @@ _G.pg.ship_skin_words[301212] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301219] = {
+_G.pg.base.ship_skin_words[301219] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24733,7 +24733,7 @@ _G.pg.ship_skin_words[301219] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301230] = {
+_G.pg.base.ship_skin_words[301230] = {
 	feeling1 = "哎呀呀，指挥官……有点不行呢",
 	feeling3 = "能和指挥官成为朋友，真的太好了！",
 	lose = "呜哇……",
@@ -24776,7 +24776,7 @@ _G.pg.ship_skin_words[301230] = {
 	}
 }
 
-_G.pg.ship_skin_words[301231] = {
+_G.pg.base.ship_skin_words[301231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24810,7 +24810,7 @@ _G.pg.ship_skin_words[301231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301232] = {
+_G.pg.base.ship_skin_words[301232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24844,7 +24844,7 @@ _G.pg.ship_skin_words[301232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301240] = {
+_G.pg.base.ship_skin_words[301240] = {
 	feeling1 = "可惜…指挥官已经没有嘲弄的价值了呢~",
 	feeling3 = "啊，难道你是打算攻略我吗？放弃吧，没可能的~",
 	lose = "可恶……到时候有你们好看的……",
@@ -24887,7 +24887,7 @@ _G.pg.ship_skin_words[301240] = {
 	}
 }
 
-_G.pg.ship_skin_words[301242] = {
+_G.pg.base.ship_skin_words[301242] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24921,7 +24921,7 @@ _G.pg.ship_skin_words[301242] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301249] = {
+_G.pg.base.ship_skin_words[301249] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -24955,7 +24955,7 @@ _G.pg.ship_skin_words[301249] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301250] = {
+_G.pg.base.ship_skin_words[301250] = {
 	feeling1 = "当了指挥官也有反抗期这种东西吗？",
 	feeling3 = "虽然{namecode:32}有时候太粘人了，不过这正是所谓妹妹的可爱之处呢…指挥官，如果我也很黏你，你会觉得高兴吗？",
 	lose = "如果不是维修的话，我倒是不讨厌呆在船坞里呢……",
@@ -25014,7 +25014,7 @@ _G.pg.ship_skin_words[301250] = {
 	}
 }
 
-_G.pg.ship_skin_words[301251] = {
+_G.pg.base.ship_skin_words[301251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25048,7 +25048,7 @@ _G.pg.ship_skin_words[301251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301259] = {
+_G.pg.base.ship_skin_words[301259] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25082,7 +25082,7 @@ _G.pg.ship_skin_words[301259] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301260] = {
+_G.pg.base.ship_skin_words[301260] = {
 	feeling1 = "指挥官大人，关于明天的事项—嗯，我想一次确认完毕…",
 	feeling3 = "啊，是指挥官大人！黑烟？我不太清楚，刚才我在挑战炸可乐饼",
 	lose = "呜……又要劳烦{namecode:98}了……",
@@ -25128,7 +25128,7 @@ _G.pg.ship_skin_words[301260] = {
 	}
 }
 
-_G.pg.ship_skin_words[301261] = {
+_G.pg.base.ship_skin_words[301261] = {
 	feeling1 = "",
 	feeling3 = "这是我用从皇家学来的方法烘焙的蛋糕，这次绝对绝对是成功了的哦！",
 	lose = "",
@@ -25162,7 +25162,7 @@ _G.pg.ship_skin_words[301261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301262] = {
+_G.pg.base.ship_skin_words[301262] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25196,7 +25196,7 @@ _G.pg.ship_skin_words[301262] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301263] = {
+_G.pg.base.ship_skin_words[301263] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25230,7 +25230,7 @@ _G.pg.ship_skin_words[301263] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301264] = {
+_G.pg.base.ship_skin_words[301264] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25264,7 +25264,7 @@ _G.pg.ship_skin_words[301264] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301269] = {
+_G.pg.base.ship_skin_words[301269] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25298,7 +25298,7 @@ _G.pg.ship_skin_words[301269] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301270] = {
+_G.pg.base.ship_skin_words[301270] = {
 	feeling1 = "……请下令",
 	feeling3 = "主上想要和我进行的“交谈”也好，“游戏”也好，我都……不太理解，但是……并不讨厌",
 	lose = "主上，请带大家撤退，剩下的我会想办法",
@@ -25341,7 +25341,7 @@ _G.pg.ship_skin_words[301270] = {
 	}
 }
 
-_G.pg.ship_skin_words[301280] = {
+_G.pg.base.ship_skin_words[301280] = {
 	feeling1 = "无论指挥官变成什么样，{namecode:21}也会追随下去吧，但我不能容忍这种事，为了{namecode:21}，醒悟吧，指挥官！",
 	feeling3 = "姐姐在忍者里大概也是数一数二的死脑筋……所以我就选了给大家带来笑容的人偶戏希望有一天也能让她笑一笑，不过目前还没收到效果……",
 	lose = "呜哇，指挥官，快带上大家我们一起跑！",
@@ -25375,7 +25375,7 @@ _G.pg.ship_skin_words[301280] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301290] = {
+_G.pg.base.ship_skin_words[301290] = {
 	feeling1 = "只要你能够改正错误的话，我还是能原谅你的！",
 	feeling3 = "虽然经常被说太鲁莽…不过，有冲劲不也是一件好事吗？如果在战斗中没有全力以赴的话，反而很容易留下遗憾不是吗？嘿嘿~",
 	lose = "我，我会好好反省的……",
@@ -25553,7 +25553,7 @@ _G.pg.ship_skin_words[301290] = {
 	}
 }
 
-_G.pg.ship_skin_words[301291] = {
+_G.pg.base.ship_skin_words[301291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25587,7 +25587,7 @@ _G.pg.ship_skin_words[301291] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301300] = {
+_G.pg.base.ship_skin_words[301300] = {
 	feeling1 = "指挥官…意外地没什么意思呢……",
 	feeling3 = "嗯？平时的兴趣？吃饭睡觉逗指挥官？啊哈哈，没错，就是喜欢看指挥官这种一脸困扰的表情～",
 	lose = "呜咕……果然性能已经跟不上了吗……",
@@ -25630,7 +25630,7 @@ _G.pg.ship_skin_words[301300] = {
 	}
 }
 
-_G.pg.ship_skin_words[301309] = {
+_G.pg.base.ship_skin_words[301309] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25664,7 +25664,7 @@ _G.pg.ship_skin_words[301309] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301310] = {
+_G.pg.base.ship_skin_words[301310] = {
 	feeling1 = "哈啊…究竟是哪里的教育出了问题呢…",
 	feeling3 = "嗯…对于现代的电子机械什么的，果然还是不太擅长呢…指挥官能教教我怎么用吗？",
 	lose = "呜…大家不要管我，快走——",
@@ -25698,7 +25698,7 @@ _G.pg.ship_skin_words[301310] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301319] = {
+_G.pg.base.ship_skin_words[301319] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25732,7 +25732,7 @@ _G.pg.ship_skin_words[301319] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301320] = {
+_G.pg.base.ship_skin_words[301320] = {
 	feeling1 = "{namecode:34}在哪儿呢……好想她呀",
 	feeling3 = "指挥官~一~起~来~玩~吧！要玩什么好呢！指挥官来选吧！",
 	lose = "呜呜……指挥官……",
@@ -25766,7 +25766,7 @@ _G.pg.ship_skin_words[301320] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301321] = {
+_G.pg.base.ship_skin_words[301321] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25800,7 +25800,7 @@ _G.pg.ship_skin_words[301321] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301322] = {
+_G.pg.base.ship_skin_words[301322] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25834,7 +25834,7 @@ _G.pg.ship_skin_words[301322] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301323] = {
+_G.pg.base.ship_skin_words[301323] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25868,7 +25868,7 @@ _G.pg.ship_skin_words[301323] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301329] = {
+_G.pg.base.ship_skin_words[301329] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25902,7 +25902,7 @@ _G.pg.ship_skin_words[301329] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301330] = {
+_G.pg.base.ship_skin_words[301330] = {
 	feeling1 = "呜呜呜，{namecode:34}要被吃掉了……",
 	feeling3 = "我……是{namecode:33}级里最早掉队的……一直很怕生，也很想念大家……",
 	lose = "呜呜，{namecode:34}不好吃的……",
@@ -25936,7 +25936,7 @@ _G.pg.ship_skin_words[301330] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301331] = {
+_G.pg.base.ship_skin_words[301331] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -25970,7 +25970,7 @@ _G.pg.ship_skin_words[301331] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301339] = {
+_G.pg.base.ship_skin_words[301339] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26004,7 +26004,7 @@ _G.pg.ship_skin_words[301339] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301350] = {
+_G.pg.base.ship_skin_words[301350] = {
 	feeling1 = "哇啊，指挥官出现了！快跑！",
 	feeling3 = "指挥官，快来帮帮我~我又丢东西啦！！",
 	lose = "呜呜，指挥官，我要回家……",
@@ -26038,7 +26038,7 @@ _G.pg.ship_skin_words[301350] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301351] = {
+_G.pg.base.ship_skin_words[301351] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26072,7 +26072,7 @@ _G.pg.ship_skin_words[301351] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301370] = {
+_G.pg.base.ship_skin_words[301370] = {
 	feeling1 = "{namecode:133}会努力完成任务的，请指挥官放心",
 	feeling3 = "我家的姐妹们都笨笨的，特别好欺负，指挥官下次我表演给你看~啊不过，要是别人捉弄她们的话，我可是要生气的",
 	lose = "呜……好痛",
@@ -26106,7 +26106,7 @@ _G.pg.ship_skin_words[301370] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301380] = {
+_G.pg.base.ship_skin_words[301380] = {
 	feeling1 = "大家都说不要靠近指挥官……",
 	feeling3 = "指挥官，请和我交往吧……嗯？不是交朋友的意思吗？",
 	lose = "嗯？要准备撤退了吗？",
@@ -26140,7 +26140,7 @@ _G.pg.ship_skin_words[301380] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301381] = {
+_G.pg.base.ship_skin_words[301381] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26174,7 +26174,7 @@ _G.pg.ship_skin_words[301381] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301390] = {
+_G.pg.base.ship_skin_words[301390] = {
 	feeling1 = "哈啊……好无聊哦。指挥官如果不做点有趣的事情，p子就要因为无聊而大叫了哦？",
 	feeling3 = "嗯？《狼来了》的故事？呢嘻嘻，是让{namecode:160}不要光是口头上说说，偶尔也要真的拉响一次p子的意思吗？",
 	lose = "呜咕……p子，毕竟只是个报警器而已啊……",
@@ -26223,7 +26223,7 @@ _G.pg.ship_skin_words[301390] = {
 	}
 }
 
-_G.pg.ship_skin_words[301391] = {
+_G.pg.base.ship_skin_words[301391] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26257,7 +26257,7 @@ _G.pg.ship_skin_words[301391] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301410] = {
+_G.pg.base.ship_skin_words[301410] = {
 	feeling1 = "啊——呜（{namecode:126}并没有理会你）",
 	feeling3 = "穿衣服好麻烦，讨厌衣服……{namecode:126}只要有鲷鱼烧就好了",
 	lose = "饿了……",
@@ -26291,7 +26291,7 @@ _G.pg.ship_skin_words[301410] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301411] = {
+_G.pg.base.ship_skin_words[301411] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26325,7 +26325,7 @@ _G.pg.ship_skin_words[301411] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301470] = {
+_G.pg.base.ship_skin_words[301470] = {
 	feeling1 = "对不起，是我帮不上指挥官大人的忙……",
 	feeling3 = "指挥官大人，那个…要一起来喂海鸥吗？我把面包屑分给你……呀！对，对不起，面包屑撒掉了……",
 	lose = "{namecode:150}不要紧的…其他同伴们也没事吧…？",
@@ -26385,7 +26385,7 @@ _G.pg.ship_skin_words[301470] = {
 	}
 }
 
-_G.pg.ship_skin_words[301471] = {
+_G.pg.base.ship_skin_words[301471] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26419,7 +26419,7 @@ _G.pg.ship_skin_words[301471] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301480] = {
+_G.pg.base.ship_skin_words[301480] = {
 	feeling1 = "吓！——（{namecode:207}对你十分戒备）",
 	feeling3 = "指挥官！来陪{namecode:207}玩吧！把{namecode:150}和{namecode:158}也一起喊上！",
 	lose = "呜哇！快跑快跑！",
@@ -26471,7 +26471,7 @@ _G.pg.ship_skin_words[301480] = {
 	}
 }
 
-_G.pg.ship_skin_words[301481] = {
+_G.pg.base.ship_skin_words[301481] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26505,7 +26505,7 @@ _G.pg.ship_skin_words[301481] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301490] = {
+_G.pg.base.ship_skin_words[301490] = {
 	feeling1 = "你果然没有超出我的预期呢，指挥官",
 	feeling3 = "指挥官也是经历过战场的人，为什么还能够相信那些天真的东西呢？正义、爱、与和平什么的……",
 	lose = "没有沉…吗，也不知道算好事还是坏事",
@@ -26565,7 +26565,7 @@ _G.pg.ship_skin_words[301490] = {
 	}
 }
 
-_G.pg.ship_skin_words[301491] = {
+_G.pg.base.ship_skin_words[301491] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26599,7 +26599,7 @@ _G.pg.ship_skin_words[301491] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301498] = {
+_G.pg.base.ship_skin_words[301498] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26633,7 +26633,7 @@ _G.pg.ship_skin_words[301498] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301540] = {
+_G.pg.base.ship_skin_words[301540] = {
 	feeling1 = "大家都好像在说指挥官的坏话…指挥官真有那么差劲么…",
 	feeling3 = "呜…夜、夜路果然还是有点…指挥官…如果工作结束晚了，可以陪我走回宿舍吗？",
 	lose = "呜…不、不要过来…",
@@ -26676,7 +26676,7 @@ _G.pg.ship_skin_words[301540] = {
 	}
 }
 
-_G.pg.ship_skin_words[301541] = {
+_G.pg.base.ship_skin_words[301541] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26710,7 +26710,7 @@ _G.pg.ship_skin_words[301541] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301560] = {
+_G.pg.base.ship_skin_words[301560] = {
 	feeling1 = "果然是{namecode:125}太没用了……",
 	feeling3 = "为了不给大家拖后腿，{namecode:125}一直想努力，但是一直不知道该怎么做，反而更容易出错了…",
 	lose = "又失败了……",
@@ -26744,7 +26744,7 @@ _G.pg.ship_skin_words[301560] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301570] = {
+_G.pg.base.ship_skin_words[301570] = {
 	feeling1 = "殿下一定是中了什么诅咒……",
 	feeling3 = "呜呜，头，头发又乱了呢……{namecode:78}姐也不在……要，要帮我梳吗？谢，谢谢殿下！",
 	lose = "神明大人，请，请救救大家吧！",
@@ -26778,7 +26778,7 @@ _G.pg.ship_skin_words[301570] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301571] = {
+_G.pg.base.ship_skin_words[301571] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26812,7 +26812,7 @@ _G.pg.ship_skin_words[301571] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301580] = {
+_G.pg.base.ship_skin_words[301580] = {
 	feeling1 = "你最好离我远点。",
 	feeling3 = "{namecode:157}总是不够勇敢，虽然我也知道不能老是帮着她，但每次一看到她那样我就忍不住…",
 	lose = "可恶……我来掩护，大家快点撤退！",
@@ -26846,7 +26846,7 @@ _G.pg.ship_skin_words[301580] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301581] = {
+_G.pg.base.ship_skin_words[301581] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26880,7 +26880,7 @@ _G.pg.ship_skin_words[301581] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301582] = {
+_G.pg.base.ship_skin_words[301582] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26914,7 +26914,7 @@ _G.pg.ship_skin_words[301582] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301590] = {
+_G.pg.base.ship_skin_words[301590] = {
 	feeling1 = "离我远点，笨蛋会传染的",
 	feeling3 = "{namecode:128}和{namecode:127}两个丫头都轻飘飘的，一点也没有武将的风范和气度，还是要我这个大姐来撑场面，真是让人头疼……",
 	lose = "可恶，给我……胜、胜败乃兵家常事",
@@ -26958,7 +26958,7 @@ _G.pg.ship_skin_words[301590] = {
 	}
 }
 
-_G.pg.ship_skin_words[301591] = {
+_G.pg.base.ship_skin_words[301591] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -26992,7 +26992,7 @@ _G.pg.ship_skin_words[301591] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301592] = {
+_G.pg.base.ship_skin_words[301592] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27026,7 +27026,7 @@ _G.pg.ship_skin_words[301592] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301600] = {
+_G.pg.base.ship_skin_words[301600] = {
 	feeling1 = "走开，我不要跟尼玩了，{namecode:128}，{namecode:128}尼在哪儿？",
 	feeling3 = "西军突击！拿下东军！让我看看，接下来是……哇呀呀，小早川秀秋被策反啦！大将尼好坏，我要，我要，呜呜呜呜……",
 	lose = "{namecode:128}，{namecode:128}在哪儿，快来救我呜呜呜……",
@@ -27069,7 +27069,7 @@ _G.pg.ship_skin_words[301600] = {
 	}
 }
 
-_G.pg.ship_skin_words[301601] = {
+_G.pg.base.ship_skin_words[301601] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27103,7 +27103,7 @@ _G.pg.ship_skin_words[301601] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301602] = {
+_G.pg.base.ship_skin_words[301602] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27137,7 +27137,7 @@ _G.pg.ship_skin_words[301602] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301610] = {
+_G.pg.base.ship_skin_words[301610] = {
 	feeling1 = "指挥官，有勇无谋……",
 	feeling3 = "我期待着第十七驱逐队能在这里团聚……",
 	lose = "又要营救生还者了吗……",
@@ -27171,7 +27171,7 @@ _G.pg.ship_skin_words[301610] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301611] = {
+_G.pg.base.ship_skin_words[301611] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27205,7 +27205,7 @@ _G.pg.ship_skin_words[301611] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301619] = {
+_G.pg.base.ship_skin_words[301619] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27239,7 +27239,7 @@ _G.pg.ship_skin_words[301619] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301620] = {
+_G.pg.base.ship_skin_words[301620] = {
 	feeling1 = "指挥官先生……盯——",
 	feeling3 = "谷风只有白天才会存在，但我可不是哟～",
 	lose = "怎么办才好……",
@@ -27282,7 +27282,7 @@ _G.pg.ship_skin_words[301620] = {
 	}
 }
 
-_G.pg.ship_skin_words[301621] = {
+_G.pg.base.ship_skin_words[301621] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27316,7 +27316,7 @@ _G.pg.ship_skin_words[301621] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301629] = {
+_G.pg.base.ship_skin_words[301629] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27350,7 +27350,7 @@ _G.pg.ship_skin_words[301629] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301630] = {
+_G.pg.base.ship_skin_words[301630] = {
 	feeling1 = "{namecode:148}…你在哪呀？",
 	feeling3 = "昨天又做噩梦了。指挥官今天晚上能陪我一起睡吗？{namecode:145}很怕……怕梦见黑色的海底，怕看到什么都做不到的自己…",
 	lose = "只要再强化一下防空设备的话…",
@@ -27409,7 +27409,7 @@ _G.pg.ship_skin_words[301630] = {
 	}
 }
 
-_G.pg.ship_skin_words[301631] = {
+_G.pg.base.ship_skin_words[301631] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27443,7 +27443,7 @@ _G.pg.ship_skin_words[301631] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301632] = {
+_G.pg.base.ship_skin_words[301632] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27477,7 +27477,7 @@ _G.pg.ship_skin_words[301632] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301633] = {
+_G.pg.base.ship_skin_words[301633] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27511,7 +27511,7 @@ _G.pg.ship_skin_words[301633] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301640] = {
+_G.pg.base.ship_skin_words[301640] = {
 	feeling1 = "果然跟指挥官还是无法心意相通吗…",
 	feeling3 = "无论男女，只要是优秀又可爱的孩子，我都会动心哟。重要的不是性别，而是内在呢~",
 	lose = "只是一次失败而已，大家不要灰心哦",
@@ -27563,7 +27563,7 @@ _G.pg.ship_skin_words[301640] = {
 	}
 }
 
-_G.pg.ship_skin_words[301641] = {
+_G.pg.base.ship_skin_words[301641] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27597,7 +27597,7 @@ _G.pg.ship_skin_words[301641] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301642] = {
+_G.pg.base.ship_skin_words[301642] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27631,7 +27631,7 @@ _G.pg.ship_skin_words[301642] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301643] = {
+_G.pg.base.ship_skin_words[301643] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27665,7 +27665,7 @@ _G.pg.ship_skin_words[301643] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301644] = {
+_G.pg.base.ship_skin_words[301644] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27699,7 +27699,7 @@ _G.pg.ship_skin_words[301644] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301650] = {
+_G.pg.base.ship_skin_words[301650] = {
 	feeling1 = "咱和指挥官无法成为朋友呢……",
 	feeling3 = "咱以前失去过不少朋友呢，{namecode:145}她们，{namecode:149}、{namecode:150}……所以咱就好害怕，害怕失去朋友，然后想要为朋友做到更多……",
 	lose = "大家不要丢下我……",
@@ -27733,7 +27733,7 @@ _G.pg.ship_skin_words[301650] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301651] = {
+_G.pg.base.ship_skin_words[301651] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27767,7 +27767,7 @@ _G.pg.ship_skin_words[301651] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301660] = {
+_G.pg.base.ship_skin_words[301660] = {
 	feeling1 = "{namecode:145}亲？别怕别怕。指挥官，失陪了，我得陪陪她——",
 	feeling3 = "又做噩梦了？别怕别怕……指挥官，一切都会好的。",
 	lose = "没必要太过在意，下次能赢！",
@@ -27820,7 +27820,7 @@ _G.pg.ship_skin_words[301660] = {
 	}
 }
 
-_G.pg.ship_skin_words[301661] = {
+_G.pg.base.ship_skin_words[301661] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27854,7 +27854,7 @@ _G.pg.ship_skin_words[301661] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301720] = {
+_G.pg.base.ship_skin_words[301720] = {
 	feeling1 = "好无聊……",
 	feeling3 = "大大的指挥喵，蹭蹭…不对…戳戳…肌肉…可爱！",
 	lose = "赶紧回去吧？不要再有人消失不见了…",
@@ -27913,7 +27913,7 @@ _G.pg.ship_skin_words[301720] = {
 	}
 }
 
-_G.pg.ship_skin_words[301721] = {
+_G.pg.base.ship_skin_words[301721] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -27947,7 +27947,7 @@ _G.pg.ship_skin_words[301721] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301790] = {
+_G.pg.base.ship_skin_words[301790] = {
 	feeling1 = "趁其它人对你的评价进一步降低之前，赶紧认识到自己的问题吧",
 	feeling3 = "对待性格各异的同伴就要用不同的相处方式。这可不是善变，只是一点拉近关系的技巧而已。",
 	lose = "看来…还是有点跟不上时代了啊…",
@@ -28000,7 +28000,7 @@ _G.pg.ship_skin_words[301790] = {
 	}
 }
 
-_G.pg.ship_skin_words[301800] = {
+_G.pg.base.ship_skin_words[301800] = {
 	feeling1 = "欸……不要来烦我",
 	feeling3 = "呜呜，又摔跤了……指挥官，能背我回去吗？",
 	lose = "只能把希望留给下次了……",
@@ -28034,7 +28034,7 @@ _G.pg.ship_skin_words[301800] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301801] = {
+_G.pg.base.ship_skin_words[301801] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28068,7 +28068,7 @@ _G.pg.ship_skin_words[301801] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301810] = {
+_G.pg.base.ship_skin_words[301810] = {
 	feeling1 = "指挥官，不要难过，{namecode:180}做你的好朋友。",
 	feeling3 = "指挥官是{namecode:180}的好朋友，{namecode:180}和噗噗会一直陪着指挥官的。",
 	lose = "噗噗，保护大家",
@@ -28128,7 +28128,7 @@ _G.pg.ship_skin_words[301810] = {
 	}
 }
 
-_G.pg.ship_skin_words[301811] = {
+_G.pg.base.ship_skin_words[301811] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28162,7 +28162,7 @@ _G.pg.ship_skin_words[301811] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301812] = {
+_G.pg.base.ship_skin_words[301812] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28196,7 +28196,7 @@ _G.pg.ship_skin_words[301812] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301819] = {
+_G.pg.base.ship_skin_words[301819] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28230,7 +28230,7 @@ _G.pg.ship_skin_words[301819] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301820] = {
+_G.pg.base.ship_skin_words[301820] = {
 	feeling1 = "指挥官，{namecode:29}不想看到您就这么被大家疏远。但是再这样下去的话，恐怕{namecode:29}也没法帮到您了…",
 	feeling3 = "说起来有些惭愧，每次想试着自己种点什么的时候，都会演变成纠结养究竟种哪种花，结果最后还是没能动手……指挥官有喜欢的花吗？这次我想给自己下定决心试一试呢。",
 	lose = "果然还是太优柔寡断了吗…连累了大家，对不起…",
@@ -28283,7 +28283,7 @@ _G.pg.ship_skin_words[301820] = {
 	}
 }
 
-_G.pg.ship_skin_words[301821] = {
+_G.pg.base.ship_skin_words[301821] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28317,7 +28317,7 @@ _G.pg.ship_skin_words[301821] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301822] = {
+_G.pg.base.ship_skin_words[301822] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28351,7 +28351,7 @@ _G.pg.ship_skin_words[301822] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301830] = {
+_G.pg.base.ship_skin_words[301830] = {
 	feeling1 = "指挥官，遇到烦恼和不顺心的事，随时都可以向我倾诉哦，我会一直等着你的......",
 	feeling3 = "我的尾巴是暖暖的毛茸茸的那种，{namecode:141}的可能更有点光滑的感觉…还有{namecode:129}的那种细细的和{namecode:18}的一丁点的…嗯，各种各样的都有呢！",
 	lose = "要成为优秀的旗舰，看起来还有很长的路啊…",
@@ -28406,7 +28406,7 @@ _G.pg.ship_skin_words[301830] = {
 	}
 }
 
-_G.pg.ship_skin_words[301831] = {
+_G.pg.base.ship_skin_words[301831] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28440,7 +28440,7 @@ _G.pg.ship_skin_words[301831] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301832] = {
+_G.pg.base.ship_skin_words[301832] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28474,7 +28474,7 @@ _G.pg.ship_skin_words[301832] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301833] = {
+_G.pg.base.ship_skin_words[301833] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28508,7 +28508,7 @@ _G.pg.ship_skin_words[301833] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301840] = {
+_G.pg.base.ship_skin_words[301840] = {
 	feeling1 = "指挥官，我要讨厌你了哦？",
 	feeling3 = "指挥官，有什么事也可以尽管来拜托我哦！…欸？偶尔依赖依赖指挥官也没关系…？",
 	lose = "唔…无论如何，大家都要一起平安回去…！",
@@ -28570,7 +28570,7 @@ _G.pg.ship_skin_words[301840] = {
 	}
 }
 
-_G.pg.ship_skin_words[301841] = {
+_G.pg.base.ship_skin_words[301841] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28604,7 +28604,7 @@ _G.pg.ship_skin_words[301841] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301842] = {
+_G.pg.base.ship_skin_words[301842] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28638,7 +28638,7 @@ _G.pg.ship_skin_words[301842] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301850] = {
+_G.pg.base.ship_skin_words[301850] = {
 	feeling1 = "算了，也不期待你能有什么变化了…这样就好。",
 	feeling3 = "外出要护卫？好。…等等，为什么在自家的港区里走动还需要护卫？",
 	lose = "需要再磨练一下…",
@@ -28681,7 +28681,7 @@ _G.pg.ship_skin_words[301850] = {
 	}
 }
 
-_G.pg.ship_skin_words[301851] = {
+_G.pg.base.ship_skin_words[301851] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28715,7 +28715,7 @@ _G.pg.ship_skin_words[301851] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301852] = {
+_G.pg.base.ship_skin_words[301852] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28749,7 +28749,7 @@ _G.pg.ship_skin_words[301852] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[301860] = {
+_G.pg.base.ship_skin_words[301860] = {
 	feeling1 = "果然…大家都是注定孤独的吧…我也好，指挥官也好…",
 	feeling3 = "嗯，指挥官不是奇怪的人，可以和你做朋友。…其实是{namecode:203}自己想交朋友？…才、才不回答你。",
 	lose = "啊啊…我果然还是…",
@@ -28800,7 +28800,7 @@ _G.pg.ship_skin_words[301860] = {
 	}
 }
 
-_G.pg.ship_skin_words[301861] = {
+_G.pg.base.ship_skin_words[301861] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28834,7 +28834,7 @@ _G.pg.ship_skin_words[301861] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302010] = {
+_G.pg.base.ship_skin_words[302010] = {
 	feeling1 = "主人，能请你不要靠近{namecode:37}吗？",
 	feeling3 = "比起出征{namecode:37}更喜欢呆在港口，这里才是{namecode:37}的家呢。有碧蓝的海面和温暖的太阳……呜…呼呼…",
 	lose = "呜哇……等有了更好的装备后，就不会再输了！",
@@ -28868,7 +28868,7 @@ _G.pg.ship_skin_words[302010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302019] = {
+_G.pg.base.ship_skin_words[302019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "唔…看来装备更新还不够…",
@@ -28902,7 +28902,7 @@ _G.pg.ship_skin_words[302019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302040] = {
+_G.pg.base.ship_skin_words[302040] = {
 	feeling1 = "指挥官，请打起精神……",
 	feeling3 = "指挥官~哎？没事啦，就是突然想打个招呼，嘿嘿~",
 	lose = "呜哇，指挥官，我们先撤退吧",
@@ -28945,7 +28945,7 @@ _G.pg.ship_skin_words[302040] = {
 	}
 }
 
-_G.pg.ship_skin_words[302041] = {
+_G.pg.base.ship_skin_words[302041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -28979,7 +28979,7 @@ _G.pg.ship_skin_words[302041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302050] = {
+_G.pg.base.ship_skin_words[302050] = {
 	feeling1 = "指挥官是恶鬼吗？",
 	feeling3 = "诶？半夜去探险？那个……果然还是不好吧？不，我可不是在害怕！",
 	lose = "呜呜呜…它们都是恶鬼吗？",
@@ -29013,7 +29013,7 @@ _G.pg.ship_skin_words[302050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302051] = {
+_G.pg.base.ship_skin_words[302051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29047,7 +29047,7 @@ _G.pg.ship_skin_words[302051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302052] = {
+_G.pg.base.ship_skin_words[302052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29081,7 +29081,7 @@ _G.pg.ship_skin_words[302052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302053] = {
+_G.pg.base.ship_skin_words[302053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29115,7 +29115,7 @@ _G.pg.ship_skin_words[302053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302059] = {
+_G.pg.base.ship_skin_words[302059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29149,7 +29149,7 @@ _G.pg.ship_skin_words[302059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302070] = {
+_G.pg.base.ship_skin_words[302070] = {
 	feeling1 = "难道说…占卜里说的灾星就是指挥官吗……",
 	feeling3 = "是说“她”的事情吗？啊，也就是我的事情呢……嗯，用指挥官能理解的话来说，她就像是式神一样的存在吧。",
 	lose = "看来要先后撤了呢……",
@@ -29208,7 +29208,7 @@ _G.pg.ship_skin_words[302070] = {
 	}
 }
 
-_G.pg.ship_skin_words[302071] = {
+_G.pg.base.ship_skin_words[302071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29242,7 +29242,7 @@ _G.pg.ship_skin_words[302071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302080] = {
+_G.pg.base.ship_skin_words[302080] = {
 	feeling1 = "懦夫，永远也没法驾驭恶鬼。",
 	feeling3 = "哼，虽然{namecode:46}她们有各种一言难尽的地方，不过你还是能好好让她们派上用场呢，我替她们谢谢你了。——什么，我也有些一言难尽的地方……哪里？快给我详细说说！",
 	lose = "恶鬼，终究输给了时代么…",
@@ -29301,7 +29301,7 @@ _G.pg.ship_skin_words[302080] = {
 	}
 }
 
-_G.pg.ship_skin_words[302081] = {
+_G.pg.base.ship_skin_words[302081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29335,7 +29335,7 @@ _G.pg.ship_skin_words[302081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302082] = {
+_G.pg.base.ship_skin_words[302082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "可恶…！紧身裤跟裙子都…！",
@@ -29369,7 +29369,7 @@ _G.pg.ship_skin_words[302082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302089] = {
+_G.pg.base.ship_skin_words[302089] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29403,7 +29403,7 @@ _G.pg.ship_skin_words[302089] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302090] = {
+_G.pg.base.ship_skin_words[302090] = {
 	feeling1 = "别碰我……",
 	feeling3 = "看起来像是好战分子？这样吗……不过比起战斗，我更喜欢护卫之类的任务",
 	lose = "全队，准备撤退……我会在最后一个走",
@@ -29437,7 +29437,7 @@ _G.pg.ship_skin_words[302090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302099] = {
+_G.pg.base.ship_skin_words[302099] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29471,7 +29471,7 @@ _G.pg.ship_skin_words[302099] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302100] = {
+_G.pg.base.ship_skin_words[302100] = {
 	feeling1 = "反正，我这种倒霉的家伙，也只能摊上这样的指挥官了……",
 	feeling3 = "说到我的角……虽然不是很在意，但是额头长角不是会比较显眼吗，我实在是不太习惯在人群里被大家注目这种事……哈……",
 	lose = "果然我也就这种程度吗……",
@@ -29530,7 +29530,7 @@ _G.pg.ship_skin_words[302100] = {
 	}
 }
 
-_G.pg.ship_skin_words[302109] = {
+_G.pg.base.ship_skin_words[302109] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29564,7 +29564,7 @@ _G.pg.ship_skin_words[302109] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302110] = {
+_G.pg.base.ship_skin_words[302110] = {
 	feeling1 = "看来要提醒姐姐，这不是个值得信赖的指挥官了……",
 	feeling3 = "我们{namecode:57}型四个都隶属于第七战队，不过{namecode:60}和{namecode:59}她们两个要晚一点出生，所以我和姐姐比较亲近一点吧……而且姐姐也……比较需要照顾",
 	lose = "这个教训……我记住了",
@@ -29607,7 +29607,7 @@ _G.pg.ship_skin_words[302110] = {
 	}
 }
 
-_G.pg.ship_skin_words[302120] = {
+_G.pg.base.ship_skin_words[302120] = {
 	feeling1 = "是时候离开了",
 	feeling3 = "看到不平事我就要用拳头管一管，这是我的生存方式。不过我也知道会给其他人添麻烦，所以一直尽量不和人扯上关系",
 	lose = "……真疼啊，不过……呵，这样才对",
@@ -29667,7 +29667,7 @@ _G.pg.ship_skin_words[302120] = {
 	}
 }
 
-_G.pg.ship_skin_words[302129] = {
+_G.pg.base.ship_skin_words[302129] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29701,7 +29701,7 @@ _G.pg.ship_skin_words[302129] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302130] = {
+_G.pg.base.ship_skin_words[302130] = {
 	feeling1 = "舰队的事务就请交给我吧",
 	feeling3 = "指挥官，虽然尊重我的意见是好事，不过您只要贯彻自己的想法就好，而且如果我不赞同您的话，是不会站在您身边的，呵呵",
 	lose = "全军撤退，不要产生无谓的牺牲",
@@ -29735,7 +29735,7 @@ _G.pg.ship_skin_words[302130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302131] = {
+_G.pg.base.ship_skin_words[302131] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29769,7 +29769,7 @@ _G.pg.ship_skin_words[302131] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302139] = {
+_G.pg.base.ship_skin_words[302139] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29803,7 +29803,7 @@ _G.pg.ship_skin_words[302139] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302140] = {
+_G.pg.base.ship_skin_words[302140] = {
 	feeling1 = "姐姐们之所以会选择指挥官，难道只是因为指挥官什么都不会，正好能让她们可以自由发挥……？真奇怪…",
 	feeling3 = "欸？爱好啊……我倒是没想过呢，对我来说，读书和训练都挺开心哦，指挥官也来一起努力怎么样，嘻嘻？",
 	lose = "呼，指挥官，撤退吧，{namecode:39}姐说过，无谓的牺牲是不必要的",
@@ -29847,7 +29847,7 @@ _G.pg.ship_skin_words[302140] = {
 	}
 }
 
-_G.pg.ship_skin_words[302141] = {
+_G.pg.base.ship_skin_words[302141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29881,7 +29881,7 @@ _G.pg.ship_skin_words[302141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302200] = {
+_G.pg.base.ship_skin_words[302200] = {
 	feeling1 = "抱歉，指挥官你呼出的空气让我有些不快呢~",
 	feeling3 = "指挥官，来聊聊天吧，我也想知道我的指挥官是个怎么样的人~",
 	lose = "大意了呢…看来回去之后要特训了…",
@@ -29932,7 +29932,7 @@ _G.pg.ship_skin_words[302200] = {
 	}
 }
 
-_G.pg.ship_skin_words[302201] = {
+_G.pg.base.ship_skin_words[302201] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -29966,7 +29966,7 @@ _G.pg.ship_skin_words[302201] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302202] = {
+_G.pg.base.ship_skin_words[302202] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30000,7 +30000,7 @@ _G.pg.ship_skin_words[302202] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302203] = {
+_G.pg.base.ship_skin_words[302203] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30034,7 +30034,7 @@ _G.pg.ship_skin_words[302203] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302210] = {
+_G.pg.base.ship_skin_words[302210] = {
 	feeling1 = "指挥官，你太浮躁了。试着沉静下来反省一下自己如何？",
 	feeling3 = "{namecode:49}姐姐邀请我一起训练…唔…总觉得她又想要捉弄我了…不过推辞的话，好像又没有什么说得过去的理由…对了，指挥官，要不你在那个时间段给我安排一点工作吧！",
 	lose = "我们必须撤退了…",
@@ -30086,7 +30086,7 @@ _G.pg.ship_skin_words[302210] = {
 	}
 }
 
-_G.pg.ship_skin_words[302211] = {
+_G.pg.base.ship_skin_words[302211] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30120,7 +30120,7 @@ _G.pg.ship_skin_words[302211] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302212] = {
+_G.pg.base.ship_skin_words[302212] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30154,7 +30154,7 @@ _G.pg.ship_skin_words[302212] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302213] = {
+_G.pg.base.ship_skin_words[302213] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30188,7 +30188,7 @@ _G.pg.ship_skin_words[302213] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302214] = {
+_G.pg.base.ship_skin_words[302214] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30222,7 +30222,7 @@ _G.pg.ship_skin_words[302214] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302215] = {
+_G.pg.base.ship_skin_words[302215] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30256,7 +30256,7 @@ _G.pg.ship_skin_words[302215] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[302218] = {
+_G.pg.base.ship_skin_words[302218] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30290,7 +30290,7 @@ _G.pg.ship_skin_words[302218] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303010] = {
+_G.pg.base.ship_skin_words[303010] = {
 	feeling1 = "（{namecode:53}从你身边毫无停顿地跑了过去）",
 	feeling3 = "指挥官~哎呀！……嘿嘿，谢谢，差点又摔倒了，我其实还挺在乎自己冒失这个属性的，不过来到舰队后过的太高兴就不小心懈怠了",
 	lose = "输了吗，真可惜……",
@@ -30324,7 +30324,7 @@ _G.pg.ship_skin_words[303010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303019] = {
+_G.pg.base.ship_skin_words[303019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30367,7 +30367,7 @@ _G.pg.ship_skin_words[303019] = {
 	}
 }
 
-_G.pg.ship_skin_words[303020] = {
+_G.pg.base.ship_skin_words[303020] = {
 	feeling1 = "看来你这辈子都得不到我的承认了呢",
 	feeling3 = "这个姿势手要这样摆好……怎么，这点肢体接触你也要害羞吗？……是我在脸红？说什么蠢话！",
 	lose = "切……你能再努力一点吗？",
@@ -30401,7 +30401,7 @@ _G.pg.ship_skin_words[303020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303029] = {
+_G.pg.base.ship_skin_words[303029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30435,7 +30435,7 @@ _G.pg.ship_skin_words[303029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303030] = {
+_G.pg.base.ship_skin_words[303030] = {
 	feeling1 = "要不要去海外取材呢~",
 	feeling3 = "指挥官，我来舰队有些日子了，对大家也做了不少取材，一开始还觉得说不定是什么坏人，结果你被大家信任着呢，很厉害嘛~",
 	lose = "我是青……啧，算了，不能这么没志气",
@@ -30504,7 +30504,7 @@ _G.pg.ship_skin_words[303030] = {
 	}
 }
 
-_G.pg.ship_skin_words[303040] = {
+_G.pg.base.ship_skin_words[303040] = {
 	feeling1 = "指挥官想做什么就做什么吧",
 	feeling3 = "姐姐虽然是那个样子，其实心里一直很愧疚呢",
 	lose = "要回去开反省会了呢……",
@@ -30547,7 +30547,7 @@ _G.pg.ship_skin_words[303040] = {
 	}
 }
 
-_G.pg.ship_skin_words[303060] = {
+_G.pg.base.ship_skin_words[303060] = {
 	feeling1 = "抱歉，对像你这样的人，我有点…",
 	feeling3 = "指挥官对我手里的情报感兴趣吗~？比如说…港区的大家对指挥官的好感度之类的？呵呵~",
 	lose = "事前的情报收集还不够彻底么…",
@@ -30618,7 +30618,7 @@ _G.pg.ship_skin_words[303060] = {
 	}
 }
 
-_G.pg.ship_skin_words[303070] = {
+_G.pg.base.ship_skin_words[303070] = {
 	feeling1 = "指挥官也太散漫了！",
 	feeling3 = "指挥官，适当地休息一下吧，精力枯竭的话工作效率也会下降的。膝枕……吗？没问题，不过这样真的能恢复精力吗？",
 	lose = "都是因为我平日督促训练有所懈怠……大家……对不起了……",
@@ -30652,7 +30652,7 @@ _G.pg.ship_skin_words[303070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303080] = {
+_G.pg.base.ship_skin_words[303080] = {
 	feeling1 = "我没在和你说话！",
 	feeling3 = "努力？不，天资聪颖如我并不需要努力哦。只要还在呼吸，我就会变得更强哦",
 	lose = "可恶——到底是哪里出了差错？",
@@ -30686,7 +30686,7 @@ _G.pg.ship_skin_words[303080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303090] = {
+_G.pg.base.ship_skin_words[303090] = {
 	feeling1 = "指挥官大人，如果不喜欢和我待着的话，可以说出来……",
 	feeling3 = "虽然我手不太灵巧，虽然叠出的纸鹤已经不能算“纸鹤”了……但我还是要给您。总感觉应该这样做……",
 	lose = "我、我还能再战！",
@@ -30729,7 +30729,7 @@ _G.pg.ship_skin_words[303090] = {
 	}
 }
 
-_G.pg.ship_skin_words[303091] = {
+_G.pg.base.ship_skin_words[303091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30763,7 +30763,7 @@ _G.pg.ship_skin_words[303091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303092] = {
+_G.pg.base.ship_skin_words[303092] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30797,7 +30797,7 @@ _G.pg.ship_skin_words[303092] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303110] = {
+_G.pg.base.ship_skin_words[303110] = {
 	feeling1 = "刀剑无眼，还请不要随意靠近我身边",
 	feeling3 = "偶尔放下其他事情，像这样和指挥官说说话好像也不错呢",
 	lose = "大意了…下次一定不会失败的！",
@@ -30849,7 +30849,7 @@ _G.pg.ship_skin_words[303110] = {
 	}
 }
 
-_G.pg.ship_skin_words[303112] = {
+_G.pg.base.ship_skin_words[303112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30883,7 +30883,7 @@ _G.pg.ship_skin_words[303112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303113] = {
+_G.pg.base.ship_skin_words[303113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30917,7 +30917,7 @@ _G.pg.ship_skin_words[303113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303114] = {
+_G.pg.base.ship_skin_words[303114] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30951,7 +30951,7 @@ _G.pg.ship_skin_words[303114] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303115] = {
+_G.pg.base.ship_skin_words[303115] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -30985,7 +30985,7 @@ _G.pg.ship_skin_words[303115] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303118] = {
+_G.pg.base.ship_skin_words[303118] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31019,7 +31019,7 @@ _G.pg.ship_skin_words[303118] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303120] = {
+_G.pg.base.ship_skin_words[303120] = {
 	feeling1 = "对于不听话的指挥官…是不是该来点惩罚了呢…呵呵呵……",
 	feeling3 = "指挥官，要姐姐给你掏耳朵吗~来，不要客气，尽管交给姐姐我吧~",
 	lose = "哎呀呀，这下有点麻烦了……",
@@ -31078,7 +31078,7 @@ _G.pg.ship_skin_words[303120] = {
 	}
 }
 
-_G.pg.ship_skin_words[303121] = {
+_G.pg.base.ship_skin_words[303121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31112,7 +31112,7 @@ _G.pg.ship_skin_words[303121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303122] = {
+_G.pg.base.ship_skin_words[303122] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31146,7 +31146,7 @@ _G.pg.ship_skin_words[303122] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303123] = {
+_G.pg.base.ship_skin_words[303123] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31180,7 +31180,7 @@ _G.pg.ship_skin_words[303123] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303124] = {
+_G.pg.base.ship_skin_words[303124] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31214,7 +31214,7 @@ _G.pg.ship_skin_words[303124] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303128] = {
+_G.pg.base.ship_skin_words[303128] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31248,7 +31248,7 @@ _G.pg.ship_skin_words[303128] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303130] = {
+_G.pg.base.ship_skin_words[303130] = {
 	feeling1 = "靠近我的话，就斩了你",
 	feeling3 = "喂，说过别靠近我的——想了解我？……啧，随你喜欢吧",
 	lose = "……好痛……不，不需要在意我",
@@ -31282,7 +31282,7 @@ _G.pg.ship_skin_words[303130] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303140] = {
+_G.pg.base.ship_skin_words[303140] = {
 	feeling1 = "一起打起精神来吧，指挥官！",
 	feeling3 = "指挥官，今晚想吃什么？唔，我来决定吗…奶油炖菜和炸猪排如何？",
 	lose = "我……还能战斗，已经不想再失去任何人了……",
@@ -31333,7 +31333,7 @@ _G.pg.ship_skin_words[303140] = {
 	}
 }
 
-_G.pg.ship_skin_words[303141] = {
+_G.pg.base.ship_skin_words[303141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31367,7 +31367,7 @@ _G.pg.ship_skin_words[303141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303170] = {
+_G.pg.base.ship_skin_words[303170] = {
 	feeling1 = "{namecode:57}姐是自我评价太低，不过指挥官的话，大概要变成他人评价低了呢……",
 	feeling3 = "指挥官是对{namecode:59}自身感兴趣吗？说给您听自然是没问题的……真的光说明就可以了吗？",
 	lose = "唔…没办法呢……",
@@ -31420,7 +31420,7 @@ _G.pg.ship_skin_words[303170] = {
 	}
 }
 
-_G.pg.ship_skin_words[303180] = {
+_G.pg.base.ship_skin_words[303180] = {
 	feeling1 = "指挥官…不太行啊感觉~啊不是批评你啦，只不过我也有点小想法而已～",
 	feeling3 = "指挥官～{namecode:60}一个人好寂寞啊～什么都行来玩玩吧～ 找别人？好过分！{namecode:60}就是想找指挥官玩嘛～来啦来啦！",
 	lose = "这还怎么打呀~",
@@ -31479,7 +31479,7 @@ _G.pg.ship_skin_words[303180] = {
 	}
 }
 
-_G.pg.ship_skin_words[303181] = {
+_G.pg.base.ship_skin_words[303181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31513,7 +31513,7 @@ _G.pg.ship_skin_words[303181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[303182] = {
+_G.pg.base.ship_skin_words[303182] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31547,7 +31547,7 @@ _G.pg.ship_skin_words[303182] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304010] = {
+_G.pg.base.ship_skin_words[304010] = {
 	feeling1 = "你不配拥有胜利！",
 	feeling3 = "{namecode:96}一个人出击没问题吧……嗯，这个距离应该不会被她发现",
 	lose = "请放心，局势还没到不可挽回的地步",
@@ -31616,7 +31616,7 @@ _G.pg.ship_skin_words[304010] = {
 	}
 }
 
-_G.pg.ship_skin_words[304011] = {
+_G.pg.base.ship_skin_words[304011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31650,7 +31650,7 @@ _G.pg.ship_skin_words[304011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304012] = {
+_G.pg.base.ship_skin_words[304012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31684,7 +31684,7 @@ _G.pg.ship_skin_words[304012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304013] = {
+_G.pg.base.ship_skin_words[304013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31718,7 +31718,7 @@ _G.pg.ship_skin_words[304013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304020] = {
+_G.pg.base.ship_skin_words[304020] = {
 	feeling1 = "真遗憾……",
 	feeling3 = "{namecode:73}她……还真是受欢迎啊……",
 	lose = "被摆了一道吗……",
@@ -31761,7 +31761,7 @@ _G.pg.ship_skin_words[304020] = {
 	}
 }
 
-_G.pg.ship_skin_words[304021] = {
+_G.pg.base.ship_skin_words[304021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31795,7 +31795,7 @@ _G.pg.ship_skin_words[304021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304022] = {
+_G.pg.base.ship_skin_words[304022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31829,7 +31829,7 @@ _G.pg.ship_skin_words[304022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304023] = {
+_G.pg.base.ship_skin_words[304023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31863,7 +31863,7 @@ _G.pg.ship_skin_words[304023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304030] = {
+_G.pg.base.ship_skin_words[304030] = {
 	feeling1 = "死心吧——",
 	feeling3 = "激战之后，就应该吃一桶热腾腾的大米饭呢",
 	lose = "咕……很抱歉，但输了就是输了——",
@@ -31931,7 +31931,7 @@ _G.pg.ship_skin_words[304030] = {
 	}
 }
 
-_G.pg.ship_skin_words[304031] = {
+_G.pg.base.ship_skin_words[304031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31965,7 +31965,7 @@ _G.pg.ship_skin_words[304031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304032] = {
+_G.pg.base.ship_skin_words[304032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -31999,7 +31999,7 @@ _G.pg.ship_skin_words[304032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304033] = {
+_G.pg.base.ship_skin_words[304033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32033,7 +32033,7 @@ _G.pg.ship_skin_words[304033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304040] = {
+_G.pg.base.ship_skin_words[304040] = {
 	feeling1 = "指挥官肯定有什么苦衷的吧！",
 	feeling3 = "其实我和{namecode:72}算是双胞胎姐妹，而且对我来说，她更像个让人不省心的妹妹呢",
 	lose = "能在炮击战中谢幕，说不一定也是一种幸运……",
@@ -32100,7 +32100,7 @@ _G.pg.ship_skin_words[304040] = {
 	}
 }
 
-_G.pg.ship_skin_words[304041] = {
+_G.pg.base.ship_skin_words[304041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32134,7 +32134,7 @@ _G.pg.ship_skin_words[304041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304042] = {
+_G.pg.base.ship_skin_words[304042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32168,7 +32168,7 @@ _G.pg.ship_skin_words[304042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304043] = {
+_G.pg.base.ship_skin_words[304043] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32202,7 +32202,7 @@ _G.pg.ship_skin_words[304043] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304044] = {
+_G.pg.base.ship_skin_words[304044] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32236,7 +32236,7 @@ _G.pg.ship_skin_words[304044] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304050] = {
+_G.pg.base.ship_skin_words[304050] = {
 	feeling1 = "明主难寻呢……",
 	feeling3 = "策略只能弥补有限的实力之差，所以…咳咳…让自己变强才是最重要的，主上",
 	lose = "计算…出错了吗…",
@@ -32287,7 +32287,7 @@ _G.pg.ship_skin_words[304050] = {
 	}
 }
 
-_G.pg.ship_skin_words[304051] = {
+_G.pg.base.ship_skin_words[304051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "咳咳…稍微有点着凉了吗…",
@@ -32321,7 +32321,7 @@ _G.pg.ship_skin_words[304051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[304060] = {
+_G.pg.base.ship_skin_words[304060] = {
 	feeling1 = "{namecode:70}姐姐！我，我不想再见到这个指挥官了！",
 	feeling3 = "喂……不对……那、那个，指挥官，{namecode:71}遇到了不懂的地方，可以教教{namecode:71}吗？",
 	lose = "……呜，区、区区一场战斗的失败，{namecode:71}才不在乎…",
@@ -32388,7 +32388,7 @@ _G.pg.ship_skin_words[304060] = {
 	}
 }
 
-_G.pg.ship_skin_words[304070] = {
+_G.pg.base.ship_skin_words[304070] = {
 	feeling1 = "主上是不是因为最近身体不好，影响精神了呢……",
 	feeling3 = "希望{namecode:161}健健康康的，这个…作为主上的部下和舰船，健康管理自然是很重要的……{namecode:161}需要做一些更特别的事吗？",
 	lose = "咳咳…这副样子该怎么去见{namecode:91}她们呢…",
@@ -32442,7 +32442,7 @@ _G.pg.ship_skin_words[304070] = {
 	}
 }
 
-_G.pg.ship_skin_words[305010] = {
+_G.pg.base.ship_skin_words[305010] = {
 	feeling1 = "殿下是祸津日神的化身吗……！",
 	feeling3 = "殿下最近有些疲惫呢，过度工作可不是好习惯，请来我这边，我为您做一些能消除疲劳的仪式吧",
 	lose = "糟了，难道说弹药库又被诅咒了！？",
@@ -32485,7 +32485,7 @@ _G.pg.ship_skin_words[305010] = {
 	}
 }
 
-_G.pg.ship_skin_words[305011] = {
+_G.pg.base.ship_skin_words[305011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32519,7 +32519,7 @@ _G.pg.ship_skin_words[305011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305012] = {
+_G.pg.base.ship_skin_words[305012] = {
 	feeling1 = "殿下，是对我厌倦了吗…？",
 	feeling3 = "",
 	lose = "",
@@ -32553,7 +32553,7 @@ _G.pg.ship_skin_words[305012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305019] = {
+_G.pg.base.ship_skin_words[305019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜……不行，不能把失败都归到诅咒上",
@@ -32587,7 +32587,7 @@ _G.pg.ship_skin_words[305019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305020] = {
+_G.pg.base.ship_skin_words[305020] = {
 	feeling1 = "殿下好无趣……我不要找殿下玩了……",
 	feeling3 = "虽然我也很喜欢姐姐，不过姐姐太安静啦，还是殿下好，会陪我玩！",
 	lose = "呜……姐姐你在哪，呜呜呜呜……",
@@ -32630,7 +32630,7 @@ _G.pg.ship_skin_words[305020] = {
 	}
 }
 
-_G.pg.ship_skin_words[305021] = {
+_G.pg.base.ship_skin_words[305021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32664,7 +32664,7 @@ _G.pg.ship_skin_words[305021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305022] = {
+_G.pg.base.ship_skin_words[305022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32698,7 +32698,7 @@ _G.pg.ship_skin_words[305022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305023] = {
+_G.pg.base.ship_skin_words[305023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32732,7 +32732,7 @@ _G.pg.ship_skin_words[305023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305024] = {
+_G.pg.base.ship_skin_words[305024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32766,7 +32766,7 @@ _G.pg.ship_skin_words[305024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305025] = {
+_G.pg.base.ship_skin_words[305025] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32800,7 +32800,7 @@ _G.pg.ship_skin_words[305025] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305026] = {
+_G.pg.base.ship_skin_words[305026] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32834,7 +32834,7 @@ _G.pg.ship_skin_words[305026] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305028] = {
+_G.pg.base.ship_skin_words[305028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32868,7 +32868,7 @@ _G.pg.ship_skin_words[305028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305029] = {
+_G.pg.base.ship_skin_words[305029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32902,7 +32902,7 @@ _G.pg.ship_skin_words[305029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305030] = {
+_G.pg.base.ship_skin_words[305030] = {
 	feeling1 = "你是陆军吗！？",
 	feeling3 = "比起那时候，现在的娱乐生活可是丰富多了～指挥官，干杯！",
 	lose = "最后的……主炮……齐射——",
@@ -32936,7 +32936,7 @@ _G.pg.ship_skin_words[305030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305039] = {
+_G.pg.base.ship_skin_words[305039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -32970,7 +32970,7 @@ _G.pg.ship_skin_words[305039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305040] = {
+_G.pg.base.ship_skin_words[305040] = {
 	feeling1 = "指挥官，刀剑无眼，还请小心",
 	feeling3 = "嘿嘿，指挥官，你喝完酒后也挺可爱的嘛，我捏～",
 	lose = "{namecode:76}……姐姐……",
@@ -33004,7 +33004,7 @@ _G.pg.ship_skin_words[305040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305049] = {
+_G.pg.base.ship_skin_words[305049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33038,7 +33038,7 @@ _G.pg.ship_skin_words[305049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305050] = {
+_G.pg.base.ship_skin_words[305050] = {
 	feeling1 = "汝的愿望…就是让吾做和过去一样的事吗？吾…知道了",
 	feeling3 = "多和大家在一起？即使和她们在一起吾也不知道做什么，而且吾看得出来，她们在畏惧吾……汝在做什么，为什么要把吾的舰装脱下来……",
 	lose = "呜…又失败了吗…",
@@ -33143,7 +33143,7 @@ _G.pg.ship_skin_words[305050] = {
 	}
 }
 
-_G.pg.ship_skin_words[305051] = {
+_G.pg.base.ship_skin_words[305051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33177,7 +33177,7 @@ _G.pg.ship_skin_words[305051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305052] = {
+_G.pg.base.ship_skin_words[305052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33211,7 +33211,7 @@ _G.pg.ship_skin_words[305052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305053] = {
+_G.pg.base.ship_skin_words[305053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33245,7 +33245,7 @@ _G.pg.ship_skin_words[305053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305058] = {
+_G.pg.base.ship_skin_words[305058] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33279,7 +33279,7 @@ _G.pg.ship_skin_words[305058] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305060] = {
+_G.pg.base.ship_skin_words[305060] = {
 	feeling1 = "指挥官…为什么呢？",
 	feeling3 = "我知道的哟，有些事情搞明白了反而会让人更难过…但是我还是想弄明白～而且～有更多知道了会让人开心的事呀～",
 	lose = "指挥官，三号炮塔好像出了点问题…",
@@ -33322,7 +33322,7 @@ _G.pg.ship_skin_words[305060] = {
 	}
 }
 
-_G.pg.ship_skin_words[305061] = {
+_G.pg.base.ship_skin_words[305061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33356,7 +33356,7 @@ _G.pg.ship_skin_words[305061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305070] = {
+_G.pg.base.ship_skin_words[305070] = {
 	feeling1 = "你不是我追求的强者…",
 	feeling3 = "为什么想要变强？这种事不需要理由吧，不过硬要说的话，想要赢过{namecode:161}吧",
 	lose = "啧，我记住你们了！",
@@ -33399,7 +33399,7 @@ _G.pg.ship_skin_words[305070] = {
 	}
 }
 
-_G.pg.ship_skin_words[305080] = {
+_G.pg.base.ship_skin_words[305080] = {
 	feeling1 = "弱者就好好待在岸上吧。巨浪袭来的时候，我可没工夫照顾你。",
 	feeling3 = "在我们重樱的舰船面前也毫无惧色，指挥官你倒也是个十足的怪人…不过，跟你如此交谈也确实很愉快，所以，今天来聊些什么呢？",
 	lose = "看来，我偶尔也是会高估自己的呢…",
@@ -33450,7 +33450,7 @@ _G.pg.ship_skin_words[305080] = {
 	}
 }
 
-_G.pg.ship_skin_words[305081] = {
+_G.pg.base.ship_skin_words[305081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33484,7 +33484,7 @@ _G.pg.ship_skin_words[305081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305110] = {
+_G.pg.base.ship_skin_words[305110] = {
 	feeling1 = "昭和的笨蛋！",
 	feeling3 = "如果没有想好如何结束战争，就不该挑起战争！",
 	lose = "这就是坛之浦吗……",
@@ -33551,7 +33551,7 @@ _G.pg.ship_skin_words[305110] = {
 	}
 }
 
-_G.pg.ship_skin_words[305111] = {
+_G.pg.base.ship_skin_words[305111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33585,7 +33585,7 @@ _G.pg.ship_skin_words[305111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305112] = {
+_G.pg.base.ship_skin_words[305112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33619,7 +33619,7 @@ _G.pg.ship_skin_words[305112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305113] = {
+_G.pg.base.ship_skin_words[305113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33653,7 +33653,7 @@ _G.pg.ship_skin_words[305113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305118] = {
+_G.pg.base.ship_skin_words[305118] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "即使加上指挥官的努力，也不能成事吗…",
@@ -33687,7 +33687,7 @@ _G.pg.ship_skin_words[305118] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305120] = {
+_G.pg.base.ship_skin_words[305120] = {
 	feeling1 = "嘁，当你的手下真没意思……",
 	feeling3 = "嗯——好！就让我{namecode:80}来陪你锻炼锻炼！别老在室内待着，多出来动动吧，挥挥木刀什么的也好！",
 	lose = "咕…果然是火力还不够吗……",
@@ -33747,7 +33747,7 @@ _G.pg.ship_skin_words[305120] = {
 	}
 }
 
-_G.pg.ship_skin_words[305121] = {
+_G.pg.base.ship_skin_words[305121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33781,7 +33781,7 @@ _G.pg.ship_skin_words[305121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305140] = {
+_G.pg.base.ship_skin_words[305140] = {
 	feeling1 = "哈啊…无论在哪都一样没什么好事呢…至少请让我轻松一点吧…",
 	feeling3 = "比、比起我，请多关心关心其他人！不用像这样隔三岔五就来嘘寒问暖一下啦，我没问题的！",
 	lose = "好啦完事完事…不、不要在丢人的事情上这么显眼啊！",
@@ -33864,7 +33864,7 @@ _G.pg.ship_skin_words[305140] = {
 	}
 }
 
-_G.pg.ship_skin_words[305141] = {
+_G.pg.base.ship_skin_words[305141] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33898,7 +33898,7 @@ _G.pg.ship_skin_words[305141] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305142] = {
+_G.pg.base.ship_skin_words[305142] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33932,7 +33932,7 @@ _G.pg.ship_skin_words[305142] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[305143] = {
+_G.pg.base.ship_skin_words[305143] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -33966,7 +33966,7 @@ _G.pg.ship_skin_words[305143] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306010] = {
+_G.pg.base.ship_skin_words[306010] = {
 	feeling1 = "肮脏——不、我不是在说你哦",
 	feeling3 = "眼罩？知名的海盗不都是这样打扮的吗？",
 	lose = "舰载机们的战损也不能忽视……",
@@ -34000,7 +34000,7 @@ _G.pg.ship_skin_words[306010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306020] = {
+_G.pg.base.ship_skin_words[306020] = {
 	feeling1 = "指挥官难道想和{namecode:86}分手！？",
 	feeling3 = "指挥官的喜好，{namecode:86}全都了如指掌哦",
 	lose = "输了？指挥官你在说什么呢？{namecode:86}永远都在胜利哦~",
@@ -34034,7 +34034,7 @@ _G.pg.ship_skin_words[306020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306030] = {
+_G.pg.base.ship_skin_words[306030] = {
 	feeling1 = "指挥官，有什么事吗？",
 	feeling3 = "我看起来有点像花魁？呵呵，那么……官人，今夜便是我们最后一场幽会，请好好感受咱的温暖，然后忘了咱吧——这样如何？",
 	lose = "指挥官，万分抱歉……",
@@ -34068,7 +34068,7 @@ _G.pg.ship_skin_words[306030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306031] = {
+_G.pg.base.ship_skin_words[306031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34102,7 +34102,7 @@ _G.pg.ship_skin_words[306031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306050] = {
+_G.pg.base.ship_skin_words[306050] = {
 	feeling1 = "指挥官也把吾当小孩子……吾好伤心",
 	feeling3 = "吾对珊瑚海倒是没什么怨念，书上说大人就是要接受自己的失败，吾也就觉得不是什么大事了——欸，很了不起吗？",
 	lose = "呜……我、吾居然会败在这种货色的手下……",
@@ -34136,7 +34136,7 @@ _G.pg.ship_skin_words[306050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306051] = {
+_G.pg.base.ship_skin_words[306051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34170,7 +34170,7 @@ _G.pg.ship_skin_words[306051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306059] = {
+_G.pg.base.ship_skin_words[306059] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34204,7 +34204,7 @@ _G.pg.ship_skin_words[306059] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306060] = {
+_G.pg.base.ship_skin_words[306060] = {
 	feeling1 = "无论哪里的参谋和上级都是一样的呢……",
 	feeling3 = "主公，再多依赖吾一些也没关系。只要是主公的命令，无论什么吾都会执行",
 	lose = "咕……吾之躯体……已经残破不堪了……",
@@ -34238,7 +34238,7 @@ _G.pg.ship_skin_words[306060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306061] = {
+_G.pg.base.ship_skin_words[306061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34272,7 +34272,7 @@ _G.pg.ship_skin_words[306061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306062] = {
+_G.pg.base.ship_skin_words[306062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34306,7 +34306,7 @@ _G.pg.ship_skin_words[306062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306070] = {
+_G.pg.base.ship_skin_words[306070] = {
 	feeling1 = "总觉得指挥官散发着一股让人不想靠近的气息呢…",
 	feeling3 = "对于她人的批评或赞赏，指挥官是什么想法呢？没什么，我只是稍微有点好奇，不必在意…",
 	lose = "哼，这次就让你们一局吧",
@@ -34373,7 +34373,7 @@ _G.pg.ship_skin_words[306070] = {
 	}
 }
 
-_G.pg.ship_skin_words[306071] = {
+_G.pg.base.ship_skin_words[306071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34407,7 +34407,7 @@ _G.pg.ship_skin_words[306071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306080] = {
+_G.pg.base.ship_skin_words[306080] = {
 	feeling1 = "指挥官，能离{namecode:104}远一点吗？越远越好…",
 	feeling3 = "有一个老是缠着自己撒娇的妹妹还真是…倒也不是讨厌…嗯…怎么说呢……",
 	lose = "该撤退了…希望{namecode:104}能平安无事…",
@@ -34466,7 +34466,7 @@ _G.pg.ship_skin_words[306080] = {
 	}
 }
 
-_G.pg.ship_skin_words[306081] = {
+_G.pg.base.ship_skin_words[306081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34500,7 +34500,7 @@ _G.pg.ship_skin_words[306081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[306090] = {
+_G.pg.base.ship_skin_words[306090] = {
 	feeling1 = "指挥官，请离{namecode:103}姐远一点，越远越好…",
 	feeling3 = "指挥官，你想摸摸{namecode:103}姐那超级柔顺的头发吗？虽然她平时看起来有点凶凶的，不过只要你好好拜托的话，她一定不会拒绝的！",
 	lose = "呜呜呜…想埋在{namecode:103}姐的胸口哭…",
@@ -34543,7 +34543,7 @@ _G.pg.ship_skin_words[306090] = {
 	}
 }
 
-_G.pg.ship_skin_words[306091] = {
+_G.pg.base.ship_skin_words[306091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34577,7 +34577,7 @@ _G.pg.ship_skin_words[306091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307010] = {
+_G.pg.base.ship_skin_words[307010] = {
 	feeling1 = "只要把指挥官切成几块保存在身边，指挥官就不会老是让{namecode:91}伤心了呢……呵呵呵……",
 	feeling3 = "指挥官是我一个人的哦，即使您要管理舰队，只有这一点请不要忘了……不然的话……",
 	lose = "这点伤，比起想到被指挥官抛弃的痛可要差远了！",
@@ -34652,7 +34652,7 @@ _G.pg.ship_skin_words[307010] = {
 	}
 }
 
-_G.pg.ship_skin_words[307011] = {
+_G.pg.base.ship_skin_words[307011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34686,7 +34686,7 @@ _G.pg.ship_skin_words[307011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307012] = {
+_G.pg.base.ship_skin_words[307012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34720,7 +34720,7 @@ _G.pg.ship_skin_words[307012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307013] = {
+_G.pg.base.ship_skin_words[307013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "至少…要保护好重樱的同伴们…",
@@ -34754,7 +34754,7 @@ _G.pg.ship_skin_words[307013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307014] = {
+_G.pg.base.ship_skin_words[307014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34788,7 +34788,7 @@ _G.pg.ship_skin_words[307014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307018] = {
+_G.pg.base.ship_skin_words[307018] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34822,7 +34822,7 @@ _G.pg.ship_skin_words[307018] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307020] = {
+_G.pg.base.ship_skin_words[307020] = {
 	feeling1 = "看来你不是我追求的勇者…",
 	feeling3 = "如果有一天你输了，那只能说明你太弱了，弱者被淘汰也是正常，不过，谁让你是我的人呢，只好由我来替你报仇了",
 	lose = "这份痛楚……我会十倍奉还的！",
@@ -34904,7 +34904,7 @@ _G.pg.ship_skin_words[307020] = {
 	}
 }
 
-_G.pg.ship_skin_words[307021] = {
+_G.pg.base.ship_skin_words[307021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34938,7 +34938,7 @@ _G.pg.ship_skin_words[307021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307022] = {
+_G.pg.base.ship_skin_words[307022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -34972,7 +34972,7 @@ _G.pg.ship_skin_words[307022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307023] = {
+_G.pg.base.ship_skin_words[307023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35006,7 +35006,7 @@ _G.pg.ship_skin_words[307023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307024] = {
+_G.pg.base.ship_skin_words[307024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35040,7 +35040,7 @@ _G.pg.ship_skin_words[307024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307025] = {
+_G.pg.base.ship_skin_words[307025] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35074,7 +35074,7 @@ _G.pg.ship_skin_words[307025] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307028] = {
+_G.pg.base.ship_skin_words[307028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35108,7 +35108,7 @@ _G.pg.ship_skin_words[307028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307030] = {
+_G.pg.base.ship_skin_words[307030] = {
 	feeling1 = "请好好完成工作",
 	feeling3 = "我的过去？那可没有什么好听的，不过指挥官要是感兴趣，那就一边聊一边来一局吧",
 	lose = "焦躁是不可取的，回去需要好好反思一下了",
@@ -35159,7 +35159,7 @@ _G.pg.ship_skin_words[307030] = {
 	}
 }
 
-_G.pg.ship_skin_words[307031] = {
+_G.pg.base.ship_skin_words[307031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35193,7 +35193,7 @@ _G.pg.ship_skin_words[307031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307032] = {
+_G.pg.base.ship_skin_words[307032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35227,7 +35227,7 @@ _G.pg.ship_skin_words[307032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307039] = {
+_G.pg.base.ship_skin_words[307039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35261,7 +35261,7 @@ _G.pg.ship_skin_words[307039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307040] = {
+_G.pg.base.ship_skin_words[307040] = {
 	feeling1 = "哈！（拳头停在你的脸颊旁边）离我远点",
 	feeling3 = "要说女子力……你不觉得姐姐那样有点不近人情的感觉反而有魅力吗？还有姐姐的脚踝也超棒的！我要是有一天也能像姐姐一样就好了",
 	lose = "胜败乃兵家常事",
@@ -35312,7 +35312,7 @@ _G.pg.ship_skin_words[307040] = {
 	}
 }
 
-_G.pg.ship_skin_words[307041] = {
+_G.pg.base.ship_skin_words[307041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35346,7 +35346,7 @@ _G.pg.ship_skin_words[307041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307049] = {
+_G.pg.base.ship_skin_words[307049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35380,7 +35380,7 @@ _G.pg.ship_skin_words[307049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307050] = {
+_G.pg.base.ship_skin_words[307050] = {
 	feeling1 = "我似乎看到指挥官被{namecode:91}前·辈砍杀的未来了呢",
 	feeling3 = "对一二航战的不满？当然有啦——自说自话地抛弃了妹妹的姐姐，不可能不遭妹妹怨恨吧",
 	lose = "真遗憾~我可不会像{namecode:94}前·辈那样不知进退",
@@ -35455,7 +35455,7 @@ _G.pg.ship_skin_words[307050] = {
 	}
 }
 
-_G.pg.ship_skin_words[307051] = {
+_G.pg.base.ship_skin_words[307051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "花，随风消逝……",
@@ -35489,7 +35489,7 @@ _G.pg.ship_skin_words[307051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307052] = {
+_G.pg.base.ship_skin_words[307052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35523,7 +35523,7 @@ _G.pg.ship_skin_words[307052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307060] = {
+_G.pg.base.ship_skin_words[307060] = {
 	feeling1 = "指挥官，你想体验一下——马里亚纳海战时我的心情吗？",
 	feeling3 = "我的命运一直和列克星敦纠缠在一起……啊，指挥官，这句话不要告诉萨拉小姐，我可拿她没辙……",
 	lose = "又要与大炮巨舰……一同消亡了吗……",
@@ -35598,7 +35598,7 @@ _G.pg.ship_skin_words[307060] = {
 	}
 }
 
-_G.pg.ship_skin_words[307061] = {
+_G.pg.base.ship_skin_words[307061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35632,7 +35632,7 @@ _G.pg.ship_skin_words[307061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307062] = {
+_G.pg.base.ship_skin_words[307062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35666,7 +35666,7 @@ _G.pg.ship_skin_words[307062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307070] = {
+_G.pg.base.ship_skin_words[307070] = {
 	feeling1 = "一定是那些害虫……（咬牙）指挥官大人，等着哦，{namecode:97}这就去把您身边那些害虫全都清理掉……",
 	feeling3 = "——那孩子送的礼物？啊，我处理掉了呢。这不是理所当然的吗？只有{namecode:97}送的东西能留在您的桌上啊~",
 	lose = "大家都死掉就好了，全都去死就好了！！",
@@ -35712,7 +35712,7 @@ _G.pg.ship_skin_words[307070] = {
 	}
 }
 
-_G.pg.ship_skin_words[307071] = {
+_G.pg.base.ship_skin_words[307071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35746,7 +35746,7 @@ _G.pg.ship_skin_words[307071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307072] = {
+_G.pg.base.ship_skin_words[307072] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35780,7 +35780,7 @@ _G.pg.ship_skin_words[307072] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307073] = {
+_G.pg.base.ship_skin_words[307073] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35814,7 +35814,7 @@ _G.pg.ship_skin_words[307073] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307078] = {
+_G.pg.base.ship_skin_words[307078] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "指挥官大人，请不要离开{namecode:97}…！！",
@@ -35848,7 +35848,7 @@ _G.pg.ship_skin_words[307078] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307080] = {
+_G.pg.base.ship_skin_words[307080] = {
 	feeling1 = "在汝身旁，妾身看不到任何的光芒…",
 	feeling3 = "知晓命运，却无力改变；与一无所知，亦不知改变，究竟何者更加不幸呢…",
 	lose = "抱歉，是妾身辜负了诸位……",
@@ -35882,7 +35882,7 @@ _G.pg.ship_skin_words[307080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307081] = {
+_G.pg.base.ship_skin_words[307081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -35916,7 +35916,7 @@ _G.pg.ship_skin_words[307081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307090] = {
+_G.pg.base.ship_skin_words[307090] = {
 	feeling1 = "看起来，是我以前对你太宽容了呢……",
 	feeling3 = "区区手下，想不到居然还挺受欢迎的…唔唔…这股焦急的感觉是怎么回事……",
 	lose = "啧…手下，不要误会了，这、这是让他们的！",
@@ -35950,7 +35950,7 @@ _G.pg.ship_skin_words[307090] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[307100] = {
+_G.pg.base.ship_skin_words[307100] = {
 	feeling1 = "向{namecode:91}谢罪时的悲鸣…也许也能成为不错的音乐吧…呵呵",
 	feeling3 = "只要指挥官希望，{namecode:91}可以永远只为指挥官演出~没错，{namecode:91}的舞台，可以永远变成指挥官专属的舞台♡",
 	lose = "咕…好险。可不能被指挥官看到这副模样……",
@@ -35996,7 +35996,7 @@ _G.pg.ship_skin_words[307100] = {
 	}
 }
 
-_G.pg.ship_skin_words[307110] = {
+_G.pg.base.ship_skin_words[307110] = {
 	feeling1 = "难道说{namecode:97}不适合当偶像吗…？！",
 	feeling3 = "指挥官大人♡{namecode:97}因为练习现在全身肌肉酸痛~能不能送人家回宿舍呢……不，干脆送人家回指挥官房间休息吧~",
 	lose = "啧，明明只是一群害虫…！",
@@ -36039,7 +36039,7 @@ _G.pg.ship_skin_words[307110] = {
 	}
 }
 
-_G.pg.ship_skin_words[307120] = {
+_G.pg.base.ship_skin_words[307120] = {
 	feeling1 = "不行啊指挥官，身为舰队的总大将，怎么能颓废成这个样子呢？",
 	feeling3 = "指挥官，你准备去做什么呀？去检查塞满了各种装备的仓库？还是只想随便走走散个步？啊！难道是赶着和谁约会…那个你有在听吧？",
 	lose = "居然输了？！明明已经尽全力了呀…究竟是哪出了问题…",
@@ -36090,7 +36090,7 @@ _G.pg.ship_skin_words[307120] = {
 	}
 }
 
-_G.pg.ship_skin_words[307121] = {
+_G.pg.base.ship_skin_words[307121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36124,7 +36124,7 @@ _G.pg.ship_skin_words[307121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308010] = {
+_G.pg.base.ship_skin_words[308010] = {
 	feeling1 = "一定是人家还不够努力呢……",
 	feeling3 = "要按摩吗？要捶背吗？还是要在人家的膝枕上睡一会呢？诶嘿嘿~",
 	lose = "呜呜呜，好疼……好想回到指挥官身边……",
@@ -36176,7 +36176,7 @@ _G.pg.ship_skin_words[308010] = {
 	}
 }
 
-_G.pg.ship_skin_words[308011] = {
+_G.pg.base.ship_skin_words[308011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36210,7 +36210,7 @@ _G.pg.ship_skin_words[308011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308012] = {
+_G.pg.base.ship_skin_words[308012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36244,7 +36244,7 @@ _G.pg.ship_skin_words[308012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308013] = {
+_G.pg.base.ship_skin_words[308013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36278,7 +36278,7 @@ _G.pg.ship_skin_words[308013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308020] = {
+_G.pg.base.ship_skin_words[308020] = {
 	feeling1 = "指挥官？不对，是空气吧，哈哈。",
 	feeling3 = "指挥官，要来比赛憋气吗？输了的人要帮赢了的人按摩，怎么样？",
 	lose = "哎呀，好像有点放松过头了…",
@@ -36329,7 +36329,7 @@ _G.pg.ship_skin_words[308020] = {
 	}
 }
 
-_G.pg.ship_skin_words[308021] = {
+_G.pg.base.ship_skin_words[308021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36363,7 +36363,7 @@ _G.pg.ship_skin_words[308021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308022] = {
+_G.pg.base.ship_skin_words[308022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36397,7 +36397,7 @@ _G.pg.ship_skin_words[308022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308030] = {
+_G.pg.base.ship_skin_words[308030] = {
 	feeling1 = "这支舰队，也只是为了战争而存在的吗……",
 	feeling3 = "—不靠自己迈出这一步，永远不会有好的结果……吗？嗯…果然还是去和她好好聊一聊吧",
 	lose = "被发现了吗……下次要更隐秘一点",
@@ -36431,7 +36431,7 @@ _G.pg.ship_skin_words[308030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308040] = {
+_G.pg.base.ship_skin_words[308040] = {
 	feeling1 = "指挥官大人，虽然万分抱歉，但我还是不得不提醒您…您的懒散已经影响到了他人…",
 	feeling3 = "…今天指挥官大人不来吗……寂寞的要死掉了…——指挥、指挥官！？听到刚才的话了？？",
 	lose = "大家都还平安吧…？",
@@ -36474,7 +36474,7 @@ _G.pg.ship_skin_words[308040] = {
 	}
 }
 
-_G.pg.ship_skin_words[308041] = {
+_G.pg.base.ship_skin_words[308041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36508,7 +36508,7 @@ _G.pg.ship_skin_words[308041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308042] = {
+_G.pg.base.ship_skin_words[308042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36542,7 +36542,7 @@ _G.pg.ship_skin_words[308042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308050] = {
+_G.pg.base.ship_skin_words[308050] = {
 	feeling1 = "请让我一个人待着就好…",
 	feeling3 = "舰队里的大家关系都好好呀…呼呼…—欸？没、没什么，我是说，请让我一个人就好……",
 	lose = "悄悄地撤退吧…",
@@ -36585,7 +36585,7 @@ _G.pg.ship_skin_words[308050] = {
 	}
 }
 
-_G.pg.ship_skin_words[308051] = {
+_G.pg.base.ship_skin_words[308051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36619,7 +36619,7 @@ _G.pg.ship_skin_words[308051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[308060] = {
+_G.pg.base.ship_skin_words[308060] = {
 	feeling1 = "我最讨厌你了！离我远点！",
 	feeling3 = "{namecode:251}！别拿甲标的挠我痒！欸，。你不是{namecode:251}！？",
 	lose = "（咕嘟咕嘟咕嘟咕嘟）",
@@ -36662,7 +36662,7 @@ _G.pg.ship_skin_words[308060] = {
 	}
 }
 
-_G.pg.ship_skin_words[308061] = {
+_G.pg.base.ship_skin_words[308061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36696,7 +36696,7 @@ _G.pg.ship_skin_words[308061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312010] = {
+_G.pg.base.ship_skin_words[312010] = {
 	feeling1 = "喵？！（受惊的{namecode:98}迅速躲远，躲在墙后观察着你）",
 	feeling3 = "指挥官，{namecode:98}困了……（{namecode:98}毫不理会你的反应直接蜷缩在你的腿上睡了起来）",
 	lose = "呜喵，等我下次好好修理你们！",
@@ -36730,7 +36730,7 @@ _G.pg.ship_skin_words[312010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312011] = {
+_G.pg.base.ship_skin_words[312011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36764,7 +36764,7 @@ _G.pg.ship_skin_words[312011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312012] = {
+_G.pg.base.ship_skin_words[312012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36798,7 +36798,7 @@ _G.pg.ship_skin_words[312012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312013] = {
+_G.pg.base.ship_skin_words[312013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36832,7 +36832,7 @@ _G.pg.ship_skin_words[312013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312014] = {
+_G.pg.base.ship_skin_words[312014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36866,7 +36866,7 @@ _G.pg.ship_skin_words[312014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[312018] = {
+_G.pg.base.ship_skin_words[312018] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -36900,7 +36900,7 @@ _G.pg.ship_skin_words[312018] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[317010] = {
+_G.pg.base.ship_skin_words[317010] = {
 	feeling1 = "指挥官果然也不理解我呢……",
 	feeling3 = "指挥官果然也觉得我的兴趣有些古怪吗？呵呵，这也是没有办法的事。但是呢，指挥官，在我有限的潜艇生涯中，我注意到了，潜艇的力量，是有极限的……",
 	lose = "果然，光靠潜艇是没有用的呢……",
@@ -36934,7 +36934,7 @@ _G.pg.ship_skin_words[317010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[319010] = {
+_G.pg.base.ship_skin_words[319010] = {
 	feeling1 = "哪怕再多的物资，指挥官大概也无法运用好吧……",
 	feeling3 = "有些驱逐舰们喜欢和我玩游戏。嗯，就是那种，让她们坐在我的肩膀上，扮演大机器人之类的游戏…还是挺有趣的呢，嗯♪",
 	lose = "果然，和正规战斗舰船们一起作战还是太勉强了吗…",
@@ -36977,7 +36977,7 @@ _G.pg.ship_skin_words[319010] = {
 	}
 }
 
-_G.pg.ship_skin_words[319011] = {
+_G.pg.base.ship_skin_words[319011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "好疼疼…今天看来运气不是很好呢…",
@@ -37011,7 +37011,7 @@ _G.pg.ship_skin_words[319011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[331050] = {
+_G.pg.base.ship_skin_words[331050] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37045,7 +37045,7 @@ _G.pg.ship_skin_words[331050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[331051] = {
+_G.pg.base.ship_skin_words[331051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "不会…就这样结束…！",
@@ -37079,7 +37079,7 @@ _G.pg.ship_skin_words[331051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[331052] = {
+_G.pg.base.ship_skin_words[331052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37113,7 +37113,7 @@ _G.pg.ship_skin_words[331052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[331053] = {
+_G.pg.base.ship_skin_words[331053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "现实的战斗里发挥不了那么多效果的说…",
@@ -37147,7 +37147,7 @@ _G.pg.ship_skin_words[331053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401010] = {
+_G.pg.base.ship_skin_words[401010] = {
 	feeling1 = "不行啊指挥官，你完全不开心啊",
 	feeling3 = "生涯短暂啊，指挥官，我想尽全力的活着。作为我的伙伴，你可不能落后，来，笑一个！",
 	lose = "干得不错，伙计们……",
@@ -37198,7 +37198,7 @@ _G.pg.ship_skin_words[401010] = {
 	}
 }
 
-_G.pg.ship_skin_words[401011] = {
+_G.pg.base.ship_skin_words[401011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37232,7 +37232,7 @@ _G.pg.ship_skin_words[401011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401019] = {
+_G.pg.base.ship_skin_words[401019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37266,7 +37266,7 @@ _G.pg.ship_skin_words[401019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401020] = {
+_G.pg.base.ship_skin_words[401020] = {
 	feeling1 = "我就算了，请您尽量离Z1远一点",
 	feeling3 = "指挥官，又来找我聊天吗，想必您已经对我有所了解，我可不会为了顾及您的感受而说好话哦？还是说，您其实很享受这种感觉？",
 	lose = "我来殿后吧，请放心，托Z1的福，我很擅长这种事",
@@ -37322,7 +37322,7 @@ _G.pg.ship_skin_words[401020] = {
 	}
 }
 
-_G.pg.ship_skin_words[401021] = {
+_G.pg.base.ship_skin_words[401021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37356,7 +37356,7 @@ _G.pg.ship_skin_words[401021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401022] = {
+_G.pg.base.ship_skin_words[401022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37390,7 +37390,7 @@ _G.pg.ship_skin_words[401022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401180] = {
+_G.pg.base.ship_skin_words[401180] = {
 	feeling1 = "Z18的笑容传达不到指挥官的心里呢……",
 	feeling3 = "虽然笑容是好事，但是面对残忍的事却能笑出来的人果然很可怕呢",
 	lose = "即使输了也不能放弃笑容唷~",
@@ -37424,7 +37424,7 @@ _G.pg.ship_skin_words[401180] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401190] = {
+_G.pg.base.ship_skin_words[401190] = {
 	feeling1 = "现在的指挥官是0分！",
 	feeling3 = "指挥官，如果下次战斗我拿到了mvp，休息日的时候能不能陪我去水上乐园呢？",
 	lose = "呜…作战……失败，非常抱歉，指挥官……",
@@ -37458,7 +37458,7 @@ _G.pg.ship_skin_words[401190] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401200] = {
+_G.pg.base.ship_skin_words[401200] = {
 	feeling1 = "看到你跑步积累的疲劳全涌上来了！指挥官，再见，我去休息了",
 	feeling3 = "怎么啦？有什么烦心事？一起跑个马拉松的话心情肯定会变轻松的",
 	lose = "哎呀，偶尔状态不好而已嘛～偶尔～",
@@ -37492,7 +37492,7 @@ _G.pg.ship_skin_words[401200] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401210] = {
+_G.pg.base.ship_skin_words[401210] = {
 	feeling1 = "我现在心情很差，不要靠近我！",
 	feeling3 = "喜欢什么东西？我为什么要告诉你？不过昨天的马卡龙味道倒还不坏……",
 	lose = "呜……给、给我记住了！",
@@ -37526,7 +37526,7 @@ _G.pg.ship_skin_words[401210] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401230] = {
+_G.pg.base.ship_skin_words[401230] = {
 	feeling1 = "指挥官，我要学习了，能不要打扰我吗？",
 	feeling3 = "有点累了吗，嗯，休息也是很重要的。膝枕？真是没办法，就一会儿喔",
 	lose = "呜……不行，我不能哭……",
@@ -37569,7 +37569,7 @@ _G.pg.ship_skin_words[401230] = {
 	}
 }
 
-_G.pg.ship_skin_words[401231] = {
+_G.pg.base.ship_skin_words[401231] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37603,7 +37603,7 @@ _G.pg.ship_skin_words[401231] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401232] = {
+_G.pg.base.ship_skin_words[401232] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜…还要多加练习才行…",
@@ -37637,7 +37637,7 @@ _G.pg.ship_skin_words[401232] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401233] = {
+_G.pg.base.ship_skin_words[401233] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37671,7 +37671,7 @@ _G.pg.ship_skin_words[401233] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401234] = {
+_G.pg.base.ship_skin_words[401234] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "没办法……不是很想弄脏礼服呢",
@@ -37705,7 +37705,7 @@ _G.pg.ship_skin_words[401234] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401235] = {
+_G.pg.base.ship_skin_words[401235] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37739,7 +37739,7 @@ _G.pg.ship_skin_words[401235] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401236] = {
+_G.pg.base.ship_skin_words[401236] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呼，看来需要加倍努力了",
@@ -37773,7 +37773,7 @@ _G.pg.ship_skin_words[401236] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401237] = {
+_G.pg.base.ship_skin_words[401237] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37807,7 +37807,7 @@ _G.pg.ship_skin_words[401237] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401238] = {
+_G.pg.base.ship_skin_words[401238] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "指挥官，我没事…回去之后要加倍训练了呢",
@@ -37841,7 +37841,7 @@ _G.pg.ship_skin_words[401238] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401239] = {
+_G.pg.base.ship_skin_words[401239] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37875,7 +37875,7 @@ _G.pg.ship_skin_words[401239] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401240] = {
+_G.pg.base.ship_skin_words[401240] = {
 	feeling1 = "汝可知…堕落至极的凡人会有什么样的下场？",
 	feeling3 = "无论何种对手，感受到到吾之威势都会吓得落荒而逃！…为何汝对吾却没有任何惧意？",
 	lose = "哈啊…哈啊…已经……不用忍耐了吧？可以把一切的一切，都破坏殆尽了吧…？",
@@ -37950,7 +37950,7 @@ _G.pg.ship_skin_words[401240] = {
 	}
 }
 
-_G.pg.ship_skin_words[401241] = {
+_G.pg.base.ship_skin_words[401241] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -37984,7 +37984,7 @@ _G.pg.ship_skin_words[401241] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401250] = {
+_G.pg.base.ship_skin_words[401250] = {
 	feeling1 = "安可先生……我想离开这里……",
 	feeling3 = "现在大家都觉得我是一个认真，负责的人，都愿意和我一起出击，执行委托。指挥官也觉得有我在就能够放心了。安可先生，我做到了呢！",
 	lose = "这次的战斗……得认真检讨才行……",
@@ -38027,7 +38027,7 @@ _G.pg.ship_skin_words[401250] = {
 	}
 }
 
-_G.pg.ship_skin_words[401251] = {
+_G.pg.base.ship_skin_words[401251] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38061,7 +38061,7 @@ _G.pg.ship_skin_words[401251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401260] = {
+_G.pg.base.ship_skin_words[401260] = {
 	feeling1 = "指挥官，不合格！",
 	feeling3 = "嗯，今天指挥官做得很好，以后再接再厉！……这样指挥官就能理解我表达称赞的意思了吧。",
 	lose = "输了…大家，非常对不起！",
@@ -38104,7 +38104,7 @@ _G.pg.ship_skin_words[401260] = {
 	}
 }
 
-_G.pg.ship_skin_words[401261] = {
+_G.pg.base.ship_skin_words[401261] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38138,7 +38138,7 @@ _G.pg.ship_skin_words[401261] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401280] = {
+_G.pg.base.ship_skin_words[401280] = {
 	feeling1 = "在指挥官改正错误，被大家重新接纳之前，我会一直照顾你的。所以，不要放弃自己哦！",
 	feeling3 = "想要请个假休息一小会？可以哦，理由我来帮你想吧。不过，指挥官的工作，我可能没法帮上忙呢…之后一定要记得补上哦？",
 	lose = "指挥官，我们都已经安全撤退了，不要难过啦~下次一定能赢的！",
@@ -38213,7 +38213,7 @@ _G.pg.ship_skin_words[401280] = {
 	}
 }
 
-_G.pg.ship_skin_words[401281] = {
+_G.pg.base.ship_skin_words[401281] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38247,7 +38247,7 @@ _G.pg.ship_skin_words[401281] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401350] = {
+_G.pg.base.ship_skin_words[401350] = {
 	feeling1 = "你不是我期望的指挥官呢……",
 	feeling3 = "指挥官就像舰队的偶像一样，光是存在就能给大家带来希望，我也想变成这样的偶像呢！",
 	lose = "大家不要灰心，还有机会！",
@@ -38281,7 +38281,7 @@ _G.pg.ship_skin_words[401350] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401351] = {
+_G.pg.base.ship_skin_words[401351] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38315,7 +38315,7 @@ _G.pg.ship_skin_words[401351] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401360] = {
+_G.pg.base.ship_skin_words[401360] = {
 	feeling1 = "我已经看到了，指挥官终将破碎的宿命！",
 	feeling3 = "哼哼～就让恶魔之力也寄宿在你的身上吧——不要动，还没画完呢！",
 	lose = "咕…恶魔是不会就此败北的……！",
@@ -38358,7 +38358,7 @@ _G.pg.ship_skin_words[401360] = {
 	}
 }
 
-_G.pg.ship_skin_words[401460] = {
+_G.pg.base.ship_skin_words[401460] = {
 	feeling1 = "这里或许并没有我渴求的东西……",
 	feeling3 = "亲友、敌人、喜好、厌憎……来到这里之前，我什么都不曾拥有",
 	lose = "向世界炫耀吧，为击败过我而骄傲吧！",
@@ -38417,7 +38417,7 @@ _G.pg.ship_skin_words[401460] = {
 	}
 }
 
-_G.pg.ship_skin_words[401461] = {
+_G.pg.base.ship_skin_words[401461] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38451,7 +38451,7 @@ _G.pg.ship_skin_words[401461] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401462] = {
+_G.pg.base.ship_skin_words[401462] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38485,7 +38485,7 @@ _G.pg.ship_skin_words[401462] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401463] = {
+_G.pg.base.ship_skin_words[401463] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "是练习不足吗，亦或是…胸中的这股热情没能传达到…",
@@ -38519,7 +38519,7 @@ _G.pg.ship_skin_words[401463] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401464] = {
+_G.pg.base.ship_skin_words[401464] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38553,7 +38553,7 @@ _G.pg.ship_skin_words[401464] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[401465] = {
+_G.pg.base.ship_skin_words[401465] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38587,7 +38587,7 @@ _G.pg.ship_skin_words[401465] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402010] = {
+_G.pg.base.ship_skin_words[402010] = {
 	feeling1 = "好了，接下来是惩罚时间",
 	feeling3 = "本来还以为指挥官是更老实的孩子呢，不过这样也不赖就是了…从调教的意义上，呵呵呵…",
 	lose = "嘁…防空还是太薄弱了吗…",
@@ -38621,7 +38621,7 @@ _G.pg.ship_skin_words[402010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402020] = {
+_G.pg.base.ship_skin_words[402020] = {
 	feeling1 = "不想跟指挥官玩……",
 	feeling3 = "我既不喜欢宅在房间里，也不喜欢怠惰（Truant）那家伙……这么想，难不成这就是宿命……",
 	lose = "啊呜…大意了…",
@@ -38655,7 +38655,7 @@ _G.pg.ship_skin_words[402020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402029] = {
+_G.pg.base.ship_skin_words[402029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38689,7 +38689,7 @@ _G.pg.ship_skin_words[402029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402030] = {
+_G.pg.base.ship_skin_words[402030] = {
 	feeling1 = "职场骚扰可是犯罪哦，指挥官",
 	feeling3 = "您是平易近人的上级真是太好了……我对于那种暴躁的有点不会应对呢……",
 	lose = "呜…又失败了…不、不要拆我…",
@@ -38723,7 +38723,7 @@ _G.pg.ship_skin_words[402030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402039] = {
+_G.pg.base.ship_skin_words[402039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -38757,7 +38757,7 @@ _G.pg.ship_skin_words[402039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402040] = {
+_G.pg.base.ship_skin_words[402040] = {
 	feeling1 = "不、不要过来！",
 	feeling3 = "习惯之后就不会晕倒了，而且……跟指挥官在一起很……开心",
 	lose = "呜……会被咬的，好可怕，不敢过去！",
@@ -38791,7 +38791,7 @@ _G.pg.ship_skin_words[402040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402041] = {
+_G.pg.base.ship_skin_words[402041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "指挥官，对不起……不、不过，我会继续努力的！",
@@ -38825,7 +38825,7 @@ _G.pg.ship_skin_words[402041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402049] = {
+_G.pg.base.ship_skin_words[402049] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "指挥官，对不起……不、不过，我会继续努力的！",
@@ -38859,7 +38859,7 @@ _G.pg.ship_skin_words[402049] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402050] = {
+_G.pg.base.ship_skin_words[402050] = {
 	feeling1 = "指挥官…还真是碍眼啊……",
 	feeling3 = "想学习烤肠的做法？没问题哦。不过，事先说好，我可是很严格……等等，这该不会是指挥官用来接近我的手段吧？！",
 	lose = "怎么会这样…是我的责任，非常抱歉……",
@@ -38902,7 +38902,7 @@ _G.pg.ship_skin_words[402050] = {
 	}
 }
 
-_G.pg.ship_skin_words[402060] = {
+_G.pg.base.ship_skin_words[402060] = {
 	feeling1 = "喂，你惹我生气了。不早点改正错误的话，后果很严重的！",
 	feeling3 = "你说…这是为了报答上次帮你处理公务特地泡的咖啡…嗯！那我就欣然收下啦！再让我加点牛奶——",
 	lose = "那个……好像搞砸了？不好意思啦~",
@@ -38956,7 +38956,7 @@ _G.pg.ship_skin_words[402060] = {
 	}
 }
 
-_G.pg.ship_skin_words[402061] = {
+_G.pg.base.ship_skin_words[402061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "啊，搞砸了搞砸了……",
@@ -38990,7 +38990,7 @@ _G.pg.ship_skin_words[402061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402051] = {
+_G.pg.base.ship_skin_words[402051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39024,7 +39024,7 @@ _G.pg.ship_skin_words[402051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402070] = {
+_G.pg.base.ship_skin_words[402070] = {
 	feeling1 = "唔……莫非是我不小心玩坏了吗？真可惜啊……那么可爱的人类，很难再找到第二个了呢……",
 	feeling3 = "看人类你的样子，似乎是不打算乖乖就范呢~「我啊，其实挺喜欢欣赏猎物挣扎时的表情呢~呵呵呵~」",
 	lose = "这次的战斗，可不怎么理想啊，人类……「你该不会没做好准备就指挥出击了吧？」",
@@ -39058,7 +39058,7 @@ _G.pg.ship_skin_words[402070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402071] = {
+_G.pg.base.ship_skin_words[402071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39092,7 +39092,7 @@ _G.pg.ship_skin_words[402071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402080] = {
+_G.pg.base.ship_skin_words[402080] = {
 	feeling1 = "这肯定是期待了是个好指挥官的我的错呢……",
 	feeling3 = "反正我的攻击肯定打不中，就算打2倍…3倍的数量…肯定也打不中，还会浪费弹药…唉…",
 	lose = "是啊，连我都参加战斗了，肯定是会输的呢…",
@@ -39126,7 +39126,7 @@ _G.pg.ship_skin_words[402080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[402081] = {
+_G.pg.base.ship_skin_words[402081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39160,7 +39160,7 @@ _G.pg.ship_skin_words[402081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403010] = {
+_G.pg.base.ship_skin_words[403010] = {
 	feeling1 = "垃圾！别出现在我的视线中！",
 	feeling3 = "哈？担心我？被你这种人担心可高兴不起来",
 	lose = "可可可——可恶！好不甘心啊啊啊！",
@@ -39209,7 +39209,7 @@ _G.pg.ship_skin_words[403010] = {
 	}
 }
 
-_G.pg.ship_skin_words[403012] = {
+_G.pg.base.ship_skin_words[403012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "这可算不上什么旅行见闻…呃…！",
@@ -39243,7 +39243,7 @@ _G.pg.ship_skin_words[403012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403030] = {
+_G.pg.base.ship_skin_words[403030] = {
 	feeling1 = "能从我的眼前消失吗？有点碍眼呢……",
 	feeling3 = "指挥官，我喜欢你哦~——开玩笑的，心跳加速了吗～？",
 	lose = "呵呵呵呵呵……你们，很棒哦……",
@@ -39312,7 +39312,7 @@ _G.pg.ship_skin_words[403030] = {
 	}
 }
 
-_G.pg.ship_skin_words[403031] = {
+_G.pg.base.ship_skin_words[403031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39346,7 +39346,7 @@ _G.pg.ship_skin_words[403031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403032] = {
+_G.pg.base.ship_skin_words[403032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39380,7 +39380,7 @@ _G.pg.ship_skin_words[403032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403033] = {
+_G.pg.base.ship_skin_words[403033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39414,7 +39414,7 @@ _G.pg.ship_skin_words[403033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403034] = {
+_G.pg.base.ship_skin_words[403034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "大意就会这样呢……",
@@ -39448,7 +39448,7 @@ _G.pg.ship_skin_words[403034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403038] = {
+_G.pg.base.ship_skin_words[403038] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39482,7 +39482,7 @@ _G.pg.ship_skin_words[403038] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403040] = {
+_G.pg.base.ship_skin_words[403040] = {
 	feeling1 = "对你没兴趣了……找点新的宠物好了",
 	feeling3 = "区区低等动物，尽全力去找些能让我开心的东西吧，哈哈哈",
 	lose = "就算坐沉也不会向你们这些低等动物投降的",
@@ -39516,7 +39516,7 @@ _G.pg.ship_skin_words[403040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403041] = {
+_G.pg.base.ship_skin_words[403041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39550,7 +39550,7 @@ _G.pg.ship_skin_words[403041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403042] = {
+_G.pg.base.ship_skin_words[403042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39584,7 +39584,7 @@ _G.pg.ship_skin_words[403042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403043] = {
+_G.pg.base.ship_skin_words[403043] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "我还要参加宴会，所以就不和你们纠缠了~",
@@ -39618,7 +39618,7 @@ _G.pg.ship_skin_words[403043] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403044] = {
+_G.pg.base.ship_skin_words[403044] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39652,7 +39652,7 @@ _G.pg.ship_skin_words[403044] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403050] = {
+_G.pg.base.ship_skin_words[403050] = {
 	feeling1 = "无论是什么样的指挥官，斯佩伯爵都会为其效劳……",
 	feeling3 = "我的双手，是为了紧紧抓住胜利而存在的……即使无法再拥抱重要之人，那也无可奈何",
 	lose = "失败了吗……但还没有结束！",
@@ -39712,7 +39712,7 @@ _G.pg.ship_skin_words[403050] = {
 	}
 }
 
-_G.pg.ship_skin_words[403051] = {
+_G.pg.base.ship_skin_words[403051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "我可以……依赖大家吗……",
@@ -39746,7 +39746,7 @@ _G.pg.ship_skin_words[403051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403052] = {
+_G.pg.base.ship_skin_words[403052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "果然……战力衰退了呢……",
@@ -39780,7 +39780,7 @@ _G.pg.ship_skin_words[403052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403053] = {
+_G.pg.base.ship_skin_words[403053] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -39814,7 +39814,7 @@ _G.pg.ship_skin_words[403053] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403054] = {
+_G.pg.base.ship_skin_words[403054] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "难道说，是因为最近太过专注于偶像课程了吗……",
@@ -39848,7 +39848,7 @@ _G.pg.ship_skin_words[403054] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403070] = {
+_G.pg.base.ship_skin_words[403070] = {
 	feeling1 = "哈？跟你这种废物怎么可能合作啊！",
 	feeling3 = "日程表给你——哈！？这种管理的工作谁都能做吧！才不是专门留给你的呢！",
 	lose = "混蛋——！给我记住——！！",
@@ -39894,7 +39894,7 @@ _G.pg.ship_skin_words[403070] = {
 	}
 }
 
-_G.pg.ship_skin_words[403080] = {
+_G.pg.base.ship_skin_words[403080] = {
 	feeling1 = "指挥官也想成为“敌人”吗…？呵呵呵，哈哈哈哈哈……！！！",
 	feeling3 = "一直在搞偶像活动，总感觉内心某处有种莫名的空虚感…是不是因为战斗…不，应该说击沉敌人的机会变少了？",
 	lose = "嗯…果然还是用普通的武器战斗比较好吗……",
@@ -39928,7 +39928,7 @@ _G.pg.ship_skin_words[403080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403090] = {
+_G.pg.base.ship_skin_words[403090] = {
 	feeling1 = "虽然不知道指挥官是遇到了什么事才会变成现在这样…不过，如果一定要有人拉一把才能振作的话，就让我来吧！什么也不要说，抓紧我的手！",
 	feeling3 = "听港区里的舰船同伴们讲她们的故事，确实挺有意思的呢~若是我也有这么多的“经历”的话，现在会变成什么模样呢？光是想象都觉得挺有趣的啊~",
 	lose = "欸——？居然输了？！",
@@ -39981,7 +39981,7 @@ _G.pg.ship_skin_words[403090] = {
 	}
 }
 
-_G.pg.ship_skin_words[403091] = {
+_G.pg.base.ship_skin_words[403091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40015,7 +40015,7 @@ _G.pg.ship_skin_words[403091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403100] = {
+_G.pg.base.ship_skin_words[403100] = {
 	feeling1 = "指挥官好无聊……我去找别的同伴玩了！",
 	feeling3 = "喂——！指挥官，你要的资料拿过来了~比预想中的要晚？嗯……路上陪马格德堡跑了两圈，和海因里希一起逗了逗小铁，然后还有……所以就晚了点呢~",
 	lose = "大家都在撤退？那我也跟着后退吧！",
@@ -40058,7 +40058,7 @@ _G.pg.ship_skin_words[403100] = {
 	}
 }
 
-_G.pg.ship_skin_words[403101] = {
+_G.pg.base.ship_skin_words[403101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40092,7 +40092,7 @@ _G.pg.ship_skin_words[403101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403110] = {
+_G.pg.base.ship_skin_words[403110] = {
 	feeling1 = "呵呵呵，即使你悲惨无能，什么都做不到，对我而言你也是最合适的哦。",
 	feeling3 = "你有只有你才能做到的事，所以全部依靠我可不大好。但是呢…就算你成为我的牵线木偶，我也不会困扰哦？",
 	lose = "没办法…勇气不够呢…",
@@ -40126,7 +40126,7 @@ _G.pg.ship_skin_words[403110] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403111] = {
+_G.pg.base.ship_skin_words[403111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40160,7 +40160,7 @@ _G.pg.ship_skin_words[403111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[403120] = {
+_G.pg.base.ship_skin_words[403120] = {
 	feeling1 = "唉…真是大失所望…",
 	feeling3 = "指挥官，从我睡午觉到醒来为止都一直在工作呢。有好好休息吗…嗯，总算是不至于让我担心呢。",
 	lose = "这就是失败…别以为还会有下次…！",
@@ -40194,7 +40194,7 @@ _G.pg.ship_skin_words[403120] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404010] = {
+_G.pg.base.ship_skin_words[404010] = {
 	feeling1 = "缺乏勇气的人没有站上战场的资格!",
 	feeling3 = "你的舰队真是个不错的地方……在这里的话，也许我可以努力一下",
 	lose = "下次我可不会输！",
@@ -40228,7 +40228,7 @@ _G.pg.ship_skin_words[404010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404011] = {
+_G.pg.base.ship_skin_words[404011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40262,7 +40262,7 @@ _G.pg.ship_skin_words[404011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404020] = {
+_G.pg.base.ship_skin_words[404020] = {
 	feeling1 = "我以为你是位更加聪慧的指挥官……",
 	feeling3 = "“丑陋的姐妹”……虽然算是对我们成果的赞美，不过果然还是有点伤人，指挥官，我丑吗？",
 	lose = "太过大意了吗……",
@@ -40296,7 +40296,7 @@ _G.pg.ship_skin_words[404020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404021] = {
+_G.pg.base.ship_skin_words[404021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40330,7 +40330,7 @@ _G.pg.ship_skin_words[404021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404030] = {
+_G.pg.base.ship_skin_words[404030] = {
 	feeling1 = "都是因为我没用…长官，十分抱歉…！",
 	feeling3 = "我并非质疑长官的决定。只是…有些担心自己现在做的事情，是否就是长官所希望的……这些想法不会影响到任务的，请放心！",
 	lose = "因为自己没能遵守命令而失败了吗……实在是丢脸…！",
@@ -40373,7 +40373,7 @@ _G.pg.ship_skin_words[404030] = {
 	}
 }
 
-_G.pg.ship_skin_words[404031] = {
+_G.pg.base.ship_skin_words[404031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40407,7 +40407,7 @@ _G.pg.ship_skin_words[404031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[404040] = {
+_G.pg.base.ship_skin_words[404040] = {
 	feeling1 = "哈啊……好无聊，这里实在是无聊透了。",
 	feeling3 = "日程表？原来如此，你的日子是被各种计划赶着过的啊……哎，都有点同情你了。能让我看看都是些什么计划么？",
 	lose = "啊~啊…居然输了…讨厌讨厌，我要收工回去了！",
@@ -40474,7 +40474,7 @@ _G.pg.ship_skin_words[404040] = {
 	}
 }
 
-_G.pg.ship_skin_words[404041] = {
+_G.pg.base.ship_skin_words[404041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40508,7 +40508,7 @@ _G.pg.ship_skin_words[404041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405010] = {
+_G.pg.base.ship_skin_words[405010] = {
 	feeling1 = "请让我一个人静一静",
 	feeling3 = "你是个不错的指挥官呢……怎么了，我夸人很少见吗？……是你太大惊小怪了",
 	lose = "玷污我骄傲的罪，就在下回以命赎清吧",
@@ -40567,7 +40567,7 @@ _G.pg.ship_skin_words[405010] = {
 	}
 }
 
-_G.pg.ship_skin_words[405011] = {
+_G.pg.base.ship_skin_words[405011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40601,7 +40601,7 @@ _G.pg.ship_skin_words[405011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405012] = {
+_G.pg.base.ship_skin_words[405012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40635,7 +40635,7 @@ _G.pg.ship_skin_words[405012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405020] = {
+_G.pg.base.ship_skin_words[405020] = {
 	feeling1 = "结果……你也不过是个无法驱使我的无能指挥官吗……",
 	feeling3 = "一无所有，方能无所畏惧。但是这样的勇敢无畏，真的是值得夸耀的吗…？",
 	lose = "这就是……面对失败时的恐惧与不甘吗……？",
@@ -40678,7 +40678,7 @@ _G.pg.ship_skin_words[405020] = {
 	}
 }
 
-_G.pg.ship_skin_words[405021] = {
+_G.pg.base.ship_skin_words[405021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40712,7 +40712,7 @@ _G.pg.ship_skin_words[405021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405022] = {
+_G.pg.base.ship_skin_words[405022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40746,7 +40746,7 @@ _G.pg.ship_skin_words[405022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405023] = {
+_G.pg.base.ship_skin_words[405023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40780,7 +40780,7 @@ _G.pg.ship_skin_words[405023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405030] = {
+_G.pg.base.ship_skin_words[405030] = {
 	feeling1 = "自己弄的烂摊子，自己收拾去，别指望我会帮你。",
 	feeling3 = "为了你去做什么，和信任是两回事。你既然能同时指挥……咳，被这么多人所倾慕，不可能不理解这个吧。",
 	lose = "我们输了，撤退吧。不会有下次了。",
@@ -40831,7 +40831,7 @@ _G.pg.ship_skin_words[405030] = {
 	}
 }
 
-_G.pg.ship_skin_words[405031] = {
+_G.pg.base.ship_skin_words[405031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "搞砸了啊……",
@@ -40865,7 +40865,7 @@ _G.pg.ship_skin_words[405031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405040] = {
+_G.pg.base.ship_skin_words[405040] = {
 	feeling1 = "作为下属，我仍会支持你的行动。不过，你最好不要指望我能给你好脸色。",
 	feeling3 = "虽然并非所有的决策我都百分之百认可，但我很欣赏你果断的处事风格。身为舰队的指挥官，就该有这样的手腕。",
 	lose = "我会准备好相应的“复仇”再来的。输了就想赢回来，不是人之常情么？",
@@ -40899,7 +40899,7 @@ _G.pg.ship_skin_words[405040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[405041] = {
+_G.pg.base.ship_skin_words[405041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -40933,7 +40933,7 @@ _G.pg.ship_skin_words[405041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[406010] = {
+_G.pg.base.ship_skin_words[406010] = {
 	feeling1 = "给你点忠告吧，指挥官。状态不好的时候就请个假，睡个回笼觉，而不是把不好的状态暴露给所有人。",
 	feeling3 = "彼得虽然优秀，但多少有些太紧绷了。偶尔还是要抛开“时间”、“计划”这些烦人的词语，让自己放松一下才是。",
 	lose = "唔，对舰载机的运用还是不够熟练么……",
@@ -40985,7 +40985,7 @@ _G.pg.ship_skin_words[406010] = {
 	}
 }
 
-_G.pg.ship_skin_words[406011] = {
+_G.pg.base.ship_skin_words[406011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41019,7 +41019,7 @@ _G.pg.ship_skin_words[406011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[406012] = {
+_G.pg.base.ship_skin_words[406012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41053,7 +41053,7 @@ _G.pg.ship_skin_words[406012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[406020] = {
+_G.pg.base.ship_skin_words[406020] = {
 	feeling1 = "指挥官真是低等生物呢。",
 	feeling3 = "只要把这样的工作丢给指挥官，指挥官就会伤脑筋…会非常伤脑筋的！真的可以给指挥官这么添麻烦吗…？",
 	lose = "好不甘心！指挥官，指挥官～！",
@@ -41117,7 +41117,7 @@ _G.pg.ship_skin_words[406020] = {
 	}
 }
 
-_G.pg.ship_skin_words[406021] = {
+_G.pg.base.ship_skin_words[406021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41151,7 +41151,7 @@ _G.pg.ship_skin_words[406021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407010] = {
+_G.pg.base.ship_skin_words[407010] = {
 	feeling1 = "不是你吗……",
 	feeling3 = "向神明祈祷真的有用吗？主真的会有所回应吗？Nein，神之所以为神，就是因为没有仁慈",
 	lose = "下次一定会让你们体会到…比死还要深沉的绝望…",
@@ -41185,7 +41185,7 @@ _G.pg.ship_skin_words[407010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407011] = {
+_G.pg.base.ship_skin_words[407011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41219,7 +41219,7 @@ _G.pg.ship_skin_words[407011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407020] = {
+_G.pg.base.ship_skin_words[407020] = {
 	feeling1 = "哼，不要靠近我，我要靠自己找到回家的方法！",
 	feeling3 = "你这家伙，想要我帮你忙可以早点说呀……天天能吃到这么美味的蛋糕的话……我也不是不能在这里停留一段时间的嘛！",
 	lose = "不、不是我的错哦！大、大概是饭没有吃饱！",
@@ -41277,7 +41277,7 @@ _G.pg.ship_skin_words[407020] = {
 	}
 }
 
-_G.pg.ship_skin_words[407030] = {
+_G.pg.base.ship_skin_words[407030] = {
 	feeling1 = "你…不值得我花费时间。",
 	feeling3 = "指挥官，你房间的时钟慢了两分钟。不过没关系，我已经把它拆卸下来修理好了。可不能拿“时钟慢了”做迟到的理由了哦？呵呵~",
 	lose = "花点时间寻找失败的原因，总比因重复犯错浪费更多的时间要好。",
@@ -41340,7 +41340,7 @@ _G.pg.ship_skin_words[407030] = {
 	}
 }
 
-_G.pg.ship_skin_words[407031] = {
+_G.pg.base.ship_skin_words[407031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41374,7 +41374,7 @@ _G.pg.ship_skin_words[407031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[407032] = {
+_G.pg.base.ship_skin_words[407032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "即使铭刻上你的失败，时间也不会因此停止流动。",
@@ -41408,7 +41408,7 @@ _G.pg.ship_skin_words[407032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408010] = {
+_G.pg.base.ship_skin_words[408010] = {
 	feeling1 = "Enttäuscht…",
 	feeling3 = "不是我自夸，我还是有不少战果的呢～嘿嘿，所以再多夸夸我也没关系哟",
 	lose = "咕…指挥官会替我报仇的！",
@@ -41442,7 +41442,7 @@ _G.pg.ship_skin_words[408010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408011] = {
+_G.pg.base.ship_skin_words[408011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41476,7 +41476,7 @@ _G.pg.ship_skin_words[408011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408020] = {
+_G.pg.base.ship_skin_words[408020] = {
 	feeling1 = "我得和你保持距离……",
 	feeling3 = "不过，指挥官的事情我也帮不上什么忙……总是呆在这里的话……没问题吗？",
 	lose = "我要在这里结束了吗…",
@@ -41520,7 +41520,7 @@ _G.pg.ship_skin_words[408020] = {
 	}
 }
 
-_G.pg.ship_skin_words[408021] = {
+_G.pg.base.ship_skin_words[408021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41554,7 +41554,7 @@ _G.pg.ship_skin_words[408021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408022] = {
+_G.pg.base.ship_skin_words[408022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41588,7 +41588,7 @@ _G.pg.ship_skin_words[408022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408023] = {
+_G.pg.base.ship_skin_words[408023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "不回去的话…！",
@@ -41622,7 +41622,7 @@ _G.pg.ship_skin_words[408023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408024] = {
+_G.pg.base.ship_skin_words[408024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "果然…太勉强了吗…",
@@ -41656,7 +41656,7 @@ _G.pg.ship_skin_words[408024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408030] = {
+_G.pg.base.ship_skin_words[408030] = {
 	feeling1 = "遇到这样的指挥官，果然我是个不幸的人……",
 	feeling3 = "指挥官愿意和我做朋友吗？但是我运气很不好，说不定会连累指挥官…唔，为什么揉我的头？",
 	lose = "已经…习惯了",
@@ -41690,7 +41690,7 @@ _G.pg.ship_skin_words[408030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408040] = {
+_G.pg.base.ship_skin_words[408040] = {
 	feeling1 = "求你了，不要再露出那样的表情了……可以吗？",
 	feeling3 = "指挥官，要看看我的潜泳表演吗？哼哼，这个可是连大姐都夸赞过的，我的绝对自信之作！",
 	lose = "不会……再让那个时候的失败重演的！",
@@ -41749,7 +41749,7 @@ _G.pg.ship_skin_words[408040] = {
 	}
 }
 
-_G.pg.ship_skin_words[408041] = {
+_G.pg.base.ship_skin_words[408041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41783,7 +41783,7 @@ _G.pg.ship_skin_words[408041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408050] = {
+_G.pg.base.ship_skin_words[408050] = {
 	feeling1 = "嗯…其他的伙伴还在等我，指挥官，我先告辞了——",
 	feeling3 = "悄悄潜伏，等待机会，然后奇袭命中，哈哈，抓住你啦，指挥官！",
 	lose = "啊哈哈……哈哈，居然会失败……",
@@ -41829,7 +41829,7 @@ _G.pg.ship_skin_words[408050] = {
 	}
 }
 
-_G.pg.ship_skin_words[408051] = {
+_G.pg.base.ship_skin_words[408051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41863,7 +41863,7 @@ _G.pg.ship_skin_words[408051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408052] = {
+_G.pg.base.ship_skin_words[408052] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41897,7 +41897,7 @@ _G.pg.ship_skin_words[408052] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408060] = {
+_G.pg.base.ship_skin_words[408060] = {
 	feeling1 = "我去兜风啦，拜拜~",
 	feeling3 = "真想和其他阵营的潜艇们来一场激动人心的竞速大会，那一定超刺激的，指挥官，帮我个忙呗？",
 	lose = "居然没能躲开……",
@@ -41931,7 +41931,7 @@ _G.pg.ship_skin_words[408060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408061] = {
+_G.pg.base.ship_skin_words[408061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -41965,7 +41965,7 @@ _G.pg.ship_skin_words[408061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408070] = {
+_G.pg.base.ship_skin_words[408070] = {
 	feeling1 = "真是个不中用的指挥官啊~不过，不中用的指挥官感觉…也挺可爱的？",
 	feeling3 = "嗯哼？干的还不错~看来我们之间能够构筑不错的信赖关系啊~",
 	lose = "哎呀，计算稍稍有点失误了呢…",
@@ -41999,7 +41999,7 @@ _G.pg.ship_skin_words[408070] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408080] = {
+_G.pg.base.ship_skin_words[408080] = {
 	feeling1 = "指挥官，不陪我玩……",
 	feeling3 = "大家好像都很喜欢玩U-110的头发。这是天生的，U-110是天生的大鲨鱼，嘎哦！",
 	lose = "密码本、密码本……没有丢，太好了",
@@ -42033,7 +42033,7 @@ _G.pg.ship_skin_words[408080] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408081] = {
+_G.pg.base.ship_skin_words[408081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42067,7 +42067,7 @@ _G.pg.ship_skin_words[408081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408082] = {
+_G.pg.base.ship_skin_words[408082] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42101,7 +42101,7 @@ _G.pg.ship_skin_words[408082] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408083] = {
+_G.pg.base.ship_skin_words[408083] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42135,7 +42135,7 @@ _G.pg.ship_skin_words[408083] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408084] = {
+_G.pg.base.ship_skin_words[408084] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42169,7 +42169,7 @@ _G.pg.ship_skin_words[408084] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408090] = {
+_G.pg.base.ship_skin_words[408090] = {
 	feeling1 = "像你这样的，大概只适合被扔到海里喂鲨鱼了。开玩笑的",
 	feeling3 = "怎么？对潜艇的战斗体验感兴趣？那下次跟着我们一起出战看看嘛？……啊，指挥官没办法像我们这么长时间潜水呢，要不，你先练习练习潜水技巧？",
 	lose = "算了，下次再来找回场子吧。",
@@ -42219,7 +42219,7 @@ _G.pg.ship_skin_words[408090] = {
 	}
 }
 
-_G.pg.ship_skin_words[408091] = {
+_G.pg.base.ship_skin_words[408091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42253,7 +42253,7 @@ _G.pg.ship_skin_words[408091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408100] = {
+_G.pg.base.ship_skin_words[408100] = {
 	feeling1 = "我走了！不回来了！略略略~",
 	feeling3 = "我的舰装很大，能坐下两个人哦！要试试吗？可以带你去很远很远的地方哦~",
 	lose = "真遗憾，只能下次再来捕猎了~",
@@ -42304,7 +42304,7 @@ _G.pg.ship_skin_words[408100] = {
 	}
 }
 
-_G.pg.ship_skin_words[408101] = {
+_G.pg.base.ship_skin_words[408101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42338,7 +42338,7 @@ _G.pg.ship_skin_words[408101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408110] = {
+_G.pg.base.ship_skin_words[408110] = {
 	feeling1 = "指挥官…好像不太会与人相处呢，这可怎么办才好…",
 	feeling3 = "对潜艇来说，最不缺的品质就是“耐心”了。指挥官呢？你愿意为了重要的人等待多久呢？",
 	lose = "看来已经扭转不了战况了呢…该撤退了~",
@@ -42398,7 +42398,7 @@ _G.pg.ship_skin_words[408110] = {
 	}
 }
 
-_G.pg.ship_skin_words[408111] = {
+_G.pg.base.ship_skin_words[408111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42432,7 +42432,7 @@ _G.pg.ship_skin_words[408111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[408120] = {
+_G.pg.base.ship_skin_words[408120] = {
 	feeling1 = "指挥官，想让我原谅你的话，就拿出诚意来吧~比方说，从现在开始试着改善大家对你的评价吧！",
 	feeling3 = "要是有个按一下能解决一天分量工作的按钮就好了呢~这样的话，我每天就帮指挥官按……啊按多了可不行哦指挥官，不能太贪心，一天只能按一次！",
 	lose = "呜哇哇！总之按这个按钮紧急上浮——没有人盯着我吧？",
@@ -42485,7 +42485,7 @@ _G.pg.ship_skin_words[408120] = {
 	}
 }
 
-_G.pg.ship_skin_words[408121] = {
+_G.pg.base.ship_skin_words[408121] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42519,7 +42519,7 @@ _G.pg.ship_skin_words[408121] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[431230] = {
+_G.pg.base.ship_skin_words[431230] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42553,7 +42553,7 @@ _G.pg.ship_skin_words[431230] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501010] = {
+_G.pg.base.ship_skin_words[501010] = {
 	feeling1 = "指挥官，我在渤海湾养的山楂到花期了，可以回去看看吗？",
 	feeling3 = "即使有一天不再需要我去战斗，我也想永远守望着渤海，永远眺望着被晚霞染红的海面……",
 	lose = "整军再战，我们决不能就此退缩！",
@@ -42612,7 +42612,7 @@ _G.pg.ship_skin_words[501010] = {
 	}
 }
 
-_G.pg.ship_skin_words[501011] = {
+_G.pg.base.ship_skin_words[501011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42646,7 +42646,7 @@ _G.pg.ship_skin_words[501011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501012] = {
+_G.pg.base.ship_skin_words[501012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42680,7 +42680,7 @@ _G.pg.ship_skin_words[501012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501019] = {
+_G.pg.base.ship_skin_words[501019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42714,7 +42714,7 @@ _G.pg.ship_skin_words[501019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501020] = {
+_G.pg.base.ship_skin_words[501020] = {
 	feeling1 = "哇，长春、太原，指挥官来了！",
 	feeling3 = "指挥官，这是我做的火箭，很漂亮吧！指挥官如果坐上去的话，一定能飞到比天空还高的地方吧！下来？放心，我和长春会在下面接着你的啦",
 	lose = "呜……姐、姐姐，你在哪里啊？",
@@ -42765,7 +42765,7 @@ _G.pg.ship_skin_words[501020] = {
 	}
 }
 
-_G.pg.ship_skin_words[501030] = {
+_G.pg.base.ship_skin_words[501030] = {
 	feeling1 = "指挥官……那样是不行的呢",
 	feeling3 = "诶，指挥官也在这里呀。秘密基地？诶嘿嘿，我不太清楚呢~说回来，指挥官看到我的点心了吗？不，那东西可不能吃",
 	lose = "哇，好像失败了呢",
@@ -42816,7 +42816,7 @@ _G.pg.ship_skin_words[501030] = {
 	}
 }
 
-_G.pg.ship_skin_words[501031] = {
+_G.pg.base.ship_skin_words[501031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42850,7 +42850,7 @@ _G.pg.ship_skin_words[501031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501039] = {
+_G.pg.base.ship_skin_words[501039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42884,7 +42884,7 @@ _G.pg.ship_skin_words[501039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[501040] = {
+_G.pg.base.ship_skin_words[501040] = {
 	feeling1 = "鞍山姐，我、我有点害怕……",
 	feeling3 = "除了姐姐们外，指挥官是我的第一个朋友，所，所以指挥官千万不要去坐抚顺姐的自制导弹！",
 	lose = "果、果然我还差得远呢",
@@ -42935,7 +42935,7 @@ _G.pg.ship_skin_words[501040] = {
 	}
 }
 
-_G.pg.ship_skin_words[501041] = {
+_G.pg.base.ship_skin_words[501041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -42969,7 +42969,7 @@ _G.pg.ship_skin_words[501041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502010] = {
+_G.pg.base.ship_skin_words[502010] = {
 	feeling1 = "指挥官……似乎不是我在等的那个人呢",
 	feeling3 = "能够回到指挥官身边，真的是太好了",
 	lose = "放弃吗？怎么会呢，我早已不是那个脆弱的逸仙了",
@@ -43013,7 +43013,7 @@ _G.pg.ship_skin_words[502010] = {
 	}
 }
 
-_G.pg.ship_skin_words[502018] = {
+_G.pg.base.ship_skin_words[502018] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43047,7 +43047,7 @@ _G.pg.ship_skin_words[502018] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502020] = {
+_G.pg.base.ship_skin_words[502020] = {
 	feeling1 = "我才不吃你给的包子！",
 	feeling3 = "指挥官，你不要老是在说正事的时候用包子想蒙混过去，我看起来有那么好收买吗！——唔呜呜！……好吃",
 	lose = "是我……能力不足……",
@@ -43090,7 +43090,7 @@ _G.pg.ship_skin_words[502020] = {
 	}
 }
 
-_G.pg.ship_skin_words[502021] = {
+_G.pg.base.ship_skin_words[502021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43124,7 +43124,7 @@ _G.pg.ship_skin_words[502021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502022] = {
+_G.pg.base.ship_skin_words[502022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43158,7 +43158,7 @@ _G.pg.ship_skin_words[502022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502023] = {
+_G.pg.base.ship_skin_words[502023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "可恶，我的衣服……",
@@ -43192,7 +43192,7 @@ _G.pg.ship_skin_words[502023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502024] = {
+_G.pg.base.ship_skin_words[502024] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43226,7 +43226,7 @@ _G.pg.ship_skin_words[502024] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502025] = {
+_G.pg.base.ship_skin_words[502025] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43260,7 +43260,7 @@ _G.pg.ship_skin_words[502025] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502026] = {
+_G.pg.base.ship_skin_words[502026] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43294,7 +43294,7 @@ _G.pg.ship_skin_words[502026] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502029] = {
+_G.pg.base.ship_skin_words[502029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43328,7 +43328,7 @@ _G.pg.ship_skin_words[502029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502030] = {
+_G.pg.base.ship_skin_words[502030] = {
 	feeling1 = "指挥官……就是姐姐说的坏人吗……",
 	feeling3 = "姐姐说不能随便和指挥官独处——姐姐要独占包子？！平海以后会多来找指挥官的！",
 	lose = "姐姐你在哪儿……",
@@ -43371,7 +43371,7 @@ _G.pg.ship_skin_words[502030] = {
 	}
 }
 
-_G.pg.ship_skin_words[502031] = {
+_G.pg.base.ship_skin_words[502031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43405,7 +43405,7 @@ _G.pg.ship_skin_words[502031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502032] = {
+_G.pg.base.ship_skin_words[502032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43439,7 +43439,7 @@ _G.pg.ship_skin_words[502032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502033] = {
+_G.pg.base.ship_skin_words[502033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "姐姐，衣服破了，帮我缝",
@@ -43473,7 +43473,7 @@ _G.pg.ship_skin_words[502033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502034] = {
+_G.pg.base.ship_skin_words[502034] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43507,7 +43507,7 @@ _G.pg.ship_skin_words[502034] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502035] = {
+_G.pg.base.ship_skin_words[502035] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43541,7 +43541,7 @@ _G.pg.ship_skin_words[502035] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502036] = {
+_G.pg.base.ship_skin_words[502036] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43575,7 +43575,7 @@ _G.pg.ship_skin_words[502036] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502039] = {
+_G.pg.base.ship_skin_words[502039] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43609,7 +43609,7 @@ _G.pg.ship_skin_words[502039] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502040] = {
+_G.pg.base.ship_skin_words[502040] = {
 	feeling1 = "……应瑞对指挥官没有什么想说的。",
 	feeling3 = "肇和是不是跟您告状，说我逼她干活了？可不能轻信了她的话哦，我只是让一直以各种理由逃避家务的姐姐稍微面对一下现实而已，呵呵。",
 	lose = "我的力量，还不足以阻挡敌人吗…",
@@ -43667,7 +43667,7 @@ _G.pg.ship_skin_words[502040] = {
 	}
 }
 
-_G.pg.ship_skin_words[502041] = {
+_G.pg.base.ship_skin_words[502041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43701,7 +43701,7 @@ _G.pg.ship_skin_words[502041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502050] = {
+_G.pg.base.ship_skin_words[502050] = {
 	feeling1 = "我和你可不熟！",
 	feeling3 = "指挥官！应瑞她…她拿不给我吃宁海蒸的包子威胁我！要我今天帮她打扫房间！快帮帮我想想办法啦！",
 	lose = "呜…我还不足够强大吗…",
@@ -43755,7 +43755,7 @@ _G.pg.ship_skin_words[502050] = {
 	}
 }
 
-_G.pg.ship_skin_words[502051] = {
+_G.pg.base.ship_skin_words[502051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43789,7 +43789,7 @@ _G.pg.ship_skin_words[502051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502070] = {
+_G.pg.base.ship_skin_words[502070] = {
 	feeling1 = "请不要打扰我，让我一个人静静吧。",
 	feeling3 = "诗词风格万万千千，既有豪迈不羁的壮阔波澜，也有温婉含蓄的小家碧玉。指挥官更喜欢哪种呢？",
 	lose = "马失前蹄…了呢。",
@@ -43832,7 +43832,7 @@ _G.pg.ship_skin_words[502070] = {
 	}
 }
 
-_G.pg.ship_skin_words[502071] = {
+_G.pg.base.ship_skin_words[502071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43866,7 +43866,7 @@ _G.pg.ship_skin_words[502071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[502080] = {
+_G.pg.base.ship_skin_words[502080] = {
 	feeling1 = "哼，你的所作所为，我全都记住了！！！",
 	feeling3 = "遇到纠结的问题的时候，就应该像舞枪一样行云流水地把它们统统击碎！就像这样…嘿！哈！",
 	lose = "呜呜……这仇我记下了！",
@@ -43909,7 +43909,7 @@ _G.pg.ship_skin_words[502080] = {
 	}
 }
 
-_G.pg.ship_skin_words[502081] = {
+_G.pg.base.ship_skin_words[502081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -43943,7 +43943,7 @@ _G.pg.ship_skin_words[502081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[506010] = {
+_G.pg.base.ship_skin_words[506010] = {
 	feeling1 = "似乎我对你的期待有些过高了。",
 	feeling3 = "战争并非公平的棋局。倘若能趁着对方不注意，先思考·理解·下个两三手——胜利就是这么来的哦。",
 	lose = "棋差一着…么…多少有些不甘心啊，下次可就不会这样了呢，呵呵呵……",
@@ -43988,7 +43988,7 @@ _G.pg.ship_skin_words[506010] = {
 	}
 }
 
-_G.pg.ship_skin_words[506011] = {
+_G.pg.base.ship_skin_words[506011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44022,7 +44022,7 @@ _G.pg.ship_skin_words[506011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[520000] = {
+_G.pg.base.ship_skin_words[520000] = {
 	feeling1 = "指挥官，我在渤海湾养的山楂到花期了，可以回去看看吗？",
 	feeling3 = "即使有一天不再需要我去战斗，我也想永远守望着渤海，永远眺望着被晚霞染红的海面……",
 	lose = "整军再战，我们决不能就此退缩！",
@@ -44081,7 +44081,7 @@ _G.pg.ship_skin_words[520000] = {
 	}
 }
 
-_G.pg.ship_skin_words[521000] = {
+_G.pg.base.ship_skin_words[521000] = {
 	feeling1 = "指挥官，我在渤海湾养的山楂到花期了，可以回去看看吗？",
 	feeling3 = "即使有一天不再需要我去战斗，我也想永远守望着渤海，永远眺望着被晚霞染红的海面……",
 	lose = "整军再战，我们决不能就此退缩！",
@@ -44140,7 +44140,7 @@ _G.pg.ship_skin_words[521000] = {
 	}
 }
 
-_G.pg.ship_skin_words[601020] = {
+_G.pg.base.ship_skin_words[601020] = {
 	feeling1 = "指挥官，属下认为……不，没什么，属下会听从您的命令。",
 	feeling3 = "指挥官，如果您要外出的话，请务必让属下负责您的安全！",
 	lose = "呜…无论什么样的责罚，属、属下都愿意承担！",
@@ -44174,7 +44174,7 @@ _G.pg.ship_skin_words[601020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601021] = {
+_G.pg.base.ship_skin_words[601021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜…果、果然我还是不适合这种的吧……",
@@ -44208,7 +44208,7 @@ _G.pg.ship_skin_words[601021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601030] = {
+_G.pg.base.ship_skin_words[601030] = {
 	feeling1 = "果然…已经无可救药了呢…指挥官……",
 	feeling3 = "我的家乡？在利沃诺哦，撒丁王国西海岸一个漂亮的古城。有机会的话和我一起去看看吧，指挥官！",
 	lose = "呜…我、我是不会轻易沮丧的！",
@@ -44259,7 +44259,7 @@ _G.pg.ship_skin_words[601030] = {
 	}
 }
 
-_G.pg.ship_skin_words[601032] = {
+_G.pg.base.ship_skin_words[601032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44293,7 +44293,7 @@ _G.pg.ship_skin_words[601032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601040] = {
+_G.pg.base.ship_skin_words[601040] = {
 	feeling1 = "要保持距离，要保持距离……",
 	feeling3 = "指挥官…请确认一下这个。是，是一点最近委托结果的总结…应该能，能帮上点忙？",
 	lose = "失败的话，要说些什么好…",
@@ -44336,7 +44336,7 @@ _G.pg.ship_skin_words[601040] = {
 	}
 }
 
-_G.pg.ship_skin_words[601041] = {
+_G.pg.base.ship_skin_words[601041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44370,7 +44370,7 @@ _G.pg.ship_skin_words[601041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601050] = {
+_G.pg.base.ship_skin_words[601050] = {
 	feeling1 = "我敲我敲！唔唔唔！我要敲到指挥官改正错误为止！",
 	feeling3 = "指挥官，我来找你玩了！是休息时间吧？嘿嘿，这个西北风姐姐做的指挥官的…行程表？果然写得没错呢！",
 	lose = "救援作业开始！指挥官，一定要保护好我哦！",
@@ -44404,7 +44404,7 @@ _G.pg.ship_skin_words[601050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601051] = {
+_G.pg.base.ship_skin_words[601051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44438,7 +44438,7 @@ _G.pg.ship_skin_words[601051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601060] = {
+_G.pg.base.ship_skin_words[601060] = {
 	feeling1 = "我要把你抛下，自己去航行了！",
 	feeling3 = "指挥官！地图上这个空空的地方，说不定还有我们没发现的新地方哦！下次就去这里探险吧！",
 	lose = "呜呜，我们是不是来错地方了…",
@@ -44490,7 +44490,7 @@ _G.pg.ship_skin_words[601060] = {
 	}
 }
 
-_G.pg.ship_skin_words[601061] = {
+_G.pg.base.ship_skin_words[601061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44524,7 +44524,7 @@ _G.pg.ship_skin_words[601061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[601070] = {
+_G.pg.base.ship_skin_words[601070] = {
 	feeling1 = "如果在有些废柴的指挥官身边做出成绩的话……那不就更能衬托出我的伟大之处了？好像不是一件坏事呢！",
 	feeling3 = "指挥官，你来得正好！那个，就是……这几件事想请你帮下忙！这些是我接下来后发现时间上来不及做的委托……这，这是为了舰队的大家，绝对不是为了我自己的面子哦？！",
 	lose = "输，输了……这样一来我的声望跌落到谷底了然后从此在舰队里面变得默默无闻慢慢被遗忘……啊，呃，没，没什么！",
@@ -44569,7 +44569,7 @@ _G.pg.ship_skin_words[601070] = {
 	}
 }
 
-_G.pg.ship_skin_words[601071] = {
+_G.pg.base.ship_skin_words[601071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "啊，累了……指挥官，帮我把支架拿掉吧，让我逃避一会现实……",
@@ -44603,7 +44603,7 @@ _G.pg.ship_skin_words[601071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[602010] = {
+_G.pg.base.ship_skin_words[602010] = {
 	feeling1 = "看来你只是个毫无自尊之心的三流之人。走开点！",
 	feeling3 = "无需为困苦之境而烦恼，指挥官阁下。你的部下会全心全意地帮助你的。",
 	lose = "居然面临不得不背朝敌人的窘境…！",
@@ -44637,7 +44637,7 @@ _G.pg.ship_skin_words[602010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[602011] = {
+_G.pg.base.ship_skin_words[602011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44671,7 +44671,7 @@ _G.pg.ship_skin_words[602011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603010] = {
+_G.pg.base.ship_skin_words[603010] = {
 	feeling1 = "指挥官，不要灰心。只要你愿意改正，还是可以拾回大家对你的信任的！",
 	feeling3 = "我泡了一杯消解疲劳咖啡，指挥官请用吧。……味道很奇怪？我尝尝——好咸！难道是我把盐当成糖加进去了……",
 	lose = "不要伤心，不是大家的错。",
@@ -44705,7 +44705,7 @@ _G.pg.ship_skin_words[603010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603011] = {
+_G.pg.base.ship_skin_words[603011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44739,7 +44739,7 @@ _G.pg.ship_skin_words[603011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603020] = {
+_G.pg.base.ship_skin_words[603020] = {
 	feeling1 = "不行啊…这样的指挥官，一点吸引人的地方都没有…",
 	feeling3 = "别看波拉看起来那样，其实是个很容易受伤的孩子呢…要是有谁敢欺负她或者…就算是指挥官，我也不会轻易原谅的哦？",
 	lose = "啧…不想回忆起那个屈辱的夜晚…",
@@ -44782,7 +44782,7 @@ _G.pg.ship_skin_words[603020] = {
 	}
 }
 
-_G.pg.ship_skin_words[603021] = {
+_G.pg.base.ship_skin_words[603021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44816,7 +44816,7 @@ _G.pg.ship_skin_words[603021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603030] = {
+_G.pg.base.ship_skin_words[603030] = {
 	feeling1 = "这样的指挥官，或许需要“再教育”一下才行呢",
 	feeling3 = "指挥官，您不必有太多的顾虑，只要做您想做的事情就好，杂鱼们都交给我来对付吧",
 	lose = "披风都被弄脏了啊，真可惜",
@@ -44859,7 +44859,7 @@ _G.pg.ship_skin_words[603030] = {
 	}
 }
 
-_G.pg.ship_skin_words[603031] = {
+_G.pg.base.ship_skin_words[603031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "这家伙……等着瞧吧！",
@@ -44893,7 +44893,7 @@ _G.pg.ship_skin_words[603031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[603040] = {
+_G.pg.base.ship_skin_words[603040] = {
 	feeling1 = "这下满意了吗？呼…接下来轮到我了。我会好好管教你的，做好觉悟吧。",
 	feeling3 = "工作做完了？这样。吃完饭后就去洗澡吧。对于消除一天的疲劳来说，这是最有效的方法。",
 	lose = "这都是因为我还不够严厉…！",
@@ -44936,7 +44936,7 @@ _G.pg.ship_skin_words[603040] = {
 	}
 }
 
-_G.pg.ship_skin_words[603041] = {
+_G.pg.base.ship_skin_words[603041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -44970,7 +44970,7 @@ _G.pg.ship_skin_words[603041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605010] = {
+_G.pg.base.ship_skin_words[605010] = {
 	feeling1 = "看来，有必要重新考虑撒丁帝国的未来了呢……",
 	feeling3 = "为了将撒丁帝国的威光弘扬光大，需要我们每一个人都要努力——指挥官也要加油哦。呵呵",
 	lose = "只是实力不如对方……是我最能接受的失败类型呢",
@@ -45034,7 +45034,7 @@ _G.pg.ship_skin_words[605010] = {
 	}
 }
 
-_G.pg.ship_skin_words[605011] = {
+_G.pg.base.ship_skin_words[605011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45068,7 +45068,7 @@ _G.pg.ship_skin_words[605011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605020] = {
+_G.pg.base.ship_skin_words[605020] = {
 	feeling1 = "抱歉，指挥官。原本，我以为我的存在能成为你前进的动力，没想到，却成为了让你停滞的理由…",
 	feeling3 = "指挥官，你应该自信一点。因为，我信任着身为我的指挥官的你，也就是说，你可是被世界上最闪耀的舰船信任着，不是吗？",
 	lose = "输了？不，我们只是还没有赢而已",
@@ -45102,7 +45102,7 @@ _G.pg.ship_skin_words[605020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605021] = {
+_G.pg.base.ship_skin_words[605021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45136,7 +45136,7 @@ _G.pg.ship_skin_words[605021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605022] = {
+_G.pg.base.ship_skin_words[605022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45170,7 +45170,7 @@ _G.pg.ship_skin_words[605022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605023] = {
+_G.pg.base.ship_skin_words[605023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45204,7 +45204,7 @@ _G.pg.ship_skin_words[605023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605050] = {
+_G.pg.base.ship_skin_words[605050] = {
 	feeling1 = "总有一天，你会因为你的狂妄而付出惨重的代价。",
 	feeling3 = "指挥官，当你望着夜空的时候，你会想什么呢？我总能听到，流星坠落的声音。",
 	lose = "唔…我也该向时代低头了吗…",
@@ -45263,7 +45263,7 @@ _G.pg.ship_skin_words[605050] = {
 	}
 }
 
-_G.pg.ship_skin_words[605051] = {
+_G.pg.base.ship_skin_words[605051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45297,7 +45297,7 @@ _G.pg.ship_skin_words[605051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605060] = {
+_G.pg.base.ship_skin_words[605060] = {
 	feeling1 = "你没有能与指挥官之位相匹配的魄力呢。",
 	feeling3 = "如果有人不服从命令的，给她一点教训就会懂事了吧。…不能这么简单粗暴吗？我还以为这会是个好建议来着…",
 	lose = "是我的力量还不够吗……",
@@ -45348,7 +45348,7 @@ _G.pg.ship_skin_words[605060] = {
 	}
 }
 
-_G.pg.ship_skin_words[605061] = {
+_G.pg.base.ship_skin_words[605061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45382,7 +45382,7 @@ _G.pg.ship_skin_words[605061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[605062] = {
+_G.pg.base.ship_skin_words[605062] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45416,7 +45416,7 @@ _G.pg.ship_skin_words[605062] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[607010] = {
+_G.pg.base.ship_skin_words[607010] = {
 	feeling1 = "指挥官大人，你没事吧？…嗯，这样子做的话，一定就能让指挥官先生恢复了吧！",
 	feeling3 = "齐柏林小姐吗？我和她在舰历上有很多相似之处，所以“吾也与你一般，想同她搞好关系”…呵呵~",
 	lose = "唔，是哪里弄错了吗……",
@@ -45486,7 +45486,7 @@ _G.pg.ship_skin_words[607010] = {
 	}
 }
 
-_G.pg.ship_skin_words[607011] = {
+_G.pg.base.ship_skin_words[607011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45520,7 +45520,7 @@ _G.pg.ship_skin_words[607011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[607012] = {
+_G.pg.base.ship_skin_words[607012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45554,7 +45554,7 @@ _G.pg.ship_skin_words[607012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[607020] = {
+_G.pg.base.ship_skin_words[607020] = {
 	feeling1 = "退下吧。不需要背叛伙伴的人",
 	feeling3 = "终于下定决心要向我宣誓忠诚了么？嗯？确实指挥官也和我一样了不起……那只要互相宣誓忠诚就好了吧？",
 	lose = "有意面在天上飞……蒙混过去了么？没有么……？对不起，是我的错。",
@@ -45605,7 +45605,7 @@ _G.pg.ship_skin_words[607020] = {
 	}
 }
 
-_G.pg.ship_skin_words[607021] = {
+_G.pg.base.ship_skin_words[607021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45639,7 +45639,7 @@ _G.pg.ship_skin_words[607021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[608010] = {
+_G.pg.base.ship_skin_words[608010] = {
 	feeling1 = "指挥官…竟然比我还要废…唔呼呼…",
 	feeling3 = "{namecode:37}托你带句谢谢？只是顺手帮她那想了下新装备的改造方案而已…欸？还要帮忙？算、算了吧…",
 	lose = "还、还是赶紧溜回去吧…",
@@ -45690,7 +45690,7 @@ _G.pg.ship_skin_words[608010] = {
 	}
 }
 
-_G.pg.ship_skin_words[608011] = {
+_G.pg.base.ship_skin_words[608011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45724,7 +45724,7 @@ _G.pg.ship_skin_words[608011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701020] = {
+_G.pg.base.ship_skin_words[701020] = {
 	feeling1 = "指挥官同志真奇怪，大家都说不要和奇怪的人说话，不过那样的话，指挥官会很寂寞的吧…？",
 	feeling3 = "虽然大家总是让我小心身边奇怪的人，但是指挥官同志应该不算是奇怪的人？唔，所以吃一点应该不会有问题吧",
 	lose = "唔，喝多了晕乎乎的…",
@@ -45768,7 +45768,7 @@ _G.pg.ship_skin_words[701020] = {
 	}
 }
 
-_G.pg.ship_skin_words[701021] = {
+_G.pg.base.ship_skin_words[701021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45802,7 +45802,7 @@ _G.pg.ship_skin_words[701021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701022] = {
+_G.pg.base.ship_skin_words[701022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45836,7 +45836,7 @@ _G.pg.ship_skin_words[701022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701023] = {
+_G.pg.base.ship_skin_words[701023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45870,7 +45870,7 @@ _G.pg.ship_skin_words[701023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701030] = {
+_G.pg.base.ship_skin_words[701030] = {
 	feeling1 = "唉，指挥官同志真是个无趣的人啊。这样可不招人喜欢哦。",
 	feeling3 = "啊哈哈哈…指挥官同志，我们已经是好朋友了对吧，所以等一下大家来算账的时候能不能把我的也……欸？怎么指挥官同志先跑了啊！",
 	lose = "等等！等等！我还没准备好，哇啊啊啊！",
@@ -45913,7 +45913,7 @@ _G.pg.ship_skin_words[701030] = {
 	}
 }
 
-_G.pg.ship_skin_words[701031] = {
+_G.pg.base.ship_skin_words[701031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -45947,7 +45947,7 @@ _G.pg.ship_skin_words[701031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701040] = {
+_G.pg.base.ship_skin_words[701040] = {
 	feeling1 = "不要靠近塔什干，你这个讨厌鬼！",
 	feeling3 = "凭着“天蓝色的巡洋舰”这样的称号就擅自认为塔什干是可爱听话的好孩子，和塔什干接触以后又擅自失望…困扰的可是塔什干，你不觉得吗，同志酱？",
 	lose = "你这…！塔什干还能再战斗！",
@@ -45999,7 +45999,7 @@ _G.pg.ship_skin_words[701040] = {
 	}
 }
 
-_G.pg.ship_skin_words[701041] = {
+_G.pg.base.ship_skin_words[701041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46033,7 +46033,7 @@ _G.pg.ship_skin_words[701041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701042] = {
+_G.pg.base.ship_skin_words[701042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呼…累了……",
@@ -46067,7 +46067,7 @@ _G.pg.ship_skin_words[701042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701050] = {
+_G.pg.base.ship_skin_words[701050] = {
 	feeling1 = "塔什干自己也能行。…不需要同志酱的帮助。",
 	feeling3 = "同志酱担心塔什干和大家的团队配合？哼，不用担心，北方联合的每个人都很擅长集体表演的。",
 	lose = "没能配合好？为什么会这样……",
@@ -46110,7 +46110,7 @@ _G.pg.ship_skin_words[701050] = {
 	}
 }
 
-_G.pg.ship_skin_words[701060] = {
+_G.pg.base.ship_skin_words[701060] = {
 	feeling1 = "讨厌你！别过来！不然我要拿雪球砸你了！",
 	feeling3 = "必杀~雪球冻脖！这样就能让指挥官精神起来了，这是明斯克说的哦！…唔，指挥官…不会生气了吧？",
 	lose = "欸欸欸？怎么会输的！",
@@ -46153,7 +46153,7 @@ _G.pg.ship_skin_words[701060] = {
 	}
 }
 
-_G.pg.ship_skin_words[701061] = {
+_G.pg.base.ship_skin_words[701061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46187,7 +46187,7 @@ _G.pg.ship_skin_words[701061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701070] = {
+_G.pg.base.ship_skin_words[701070] = {
 	feeling1 = "…你怎么还在这里？",
 	feeling3 = "就算你能瞒过善良的洪亮，也骗不过雷鸣。如果让雷鸣发现什么奇怪的举动，就用这家伙好好提醒你。嗯，就这样。",
 	lose = "呼…真是糟糕的战斗啊…",
@@ -46256,7 +46256,7 @@ _G.pg.ship_skin_words[701070] = {
 	}
 }
 
-_G.pg.ship_skin_words[701071] = {
+_G.pg.base.ship_skin_words[701071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46290,7 +46290,7 @@ _G.pg.ship_skin_words[701071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701080] = {
+_G.pg.base.ship_skin_words[701080] = {
 	feeling1 = "指挥官同志…是不听话的坏孩子呀…",
 	feeling3 = "指挥官同志和雷鸣相处得还好吗？虽然看起来有点难以接近，但只要耐心一点，一定能和她搞好关系的！",
 	lose = "好痛…没想到对面也这么团结…",
@@ -46360,7 +46360,7 @@ _G.pg.ship_skin_words[701080] = {
 	}
 }
 
-_G.pg.ship_skin_words[701081] = {
+_G.pg.base.ship_skin_words[701081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46394,7 +46394,7 @@ _G.pg.ship_skin_words[701081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701090] = {
+_G.pg.base.ship_skin_words[701090] = {
 	feeling1 = "坏掉的机械可以由别人修理，但做错事的指挥官同志必须要自己认真反省才行！",
 	feeling3 = "嘿，我敲！你问我在做什么…我在调整我的舰装哦！磨损的部分不用担心，一会再抛光就好了！哈哈哈哈！",
 	lose = "为、为什么没有反应了……动啊，舰装！为什么动不了了啊！",
@@ -46446,7 +46446,7 @@ _G.pg.ship_skin_words[701090] = {
 	}
 }
 
-_G.pg.ship_skin_words[701091] = {
+_G.pg.base.ship_skin_words[701091] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46480,7 +46480,7 @@ _G.pg.ship_skin_words[701091] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[701100] = {
+_G.pg.base.ship_skin_words[701100] = {
 	feeling1 = "是基辅让同志伤心了吗？如果基辅离开了的话，指挥官就会高兴起来了吗？",
 	feeling3 = "和基辅说话的同伴，渐渐地变多了……欸，是指挥官邀请的吗？谢谢…这样就可以了吧？",
 	lose = "基辅绝对不会把伙伴留下，自己一个人逃跑的。",
@@ -46523,7 +46523,7 @@ _G.pg.ship_skin_words[701100] = {
 	}
 }
 
-_G.pg.ship_skin_words[701101] = {
+_G.pg.base.ship_skin_words[701101] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46557,7 +46557,7 @@ _G.pg.ship_skin_words[701101] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702010] = {
+_G.pg.base.ship_skin_words[702010] = {
 	feeling1 = "指挥官心中的黑暗……连我都无能为力吗",
 	feeling3 = "我的故乡？那里很美哦，不过指挥官去可能要做好保暖措施……我的话就算不穿衣服也不怕的，呵呵，您…想看看？",
 	lose = "革命是不会停下脚步的",
@@ -46620,7 +46620,7 @@ _G.pg.ship_skin_words[702010] = {
 	}
 }
 
-_G.pg.ship_skin_words[702011] = {
+_G.pg.base.ship_skin_words[702011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "还未到…破晓之时吗",
@@ -46654,7 +46654,7 @@ _G.pg.ship_skin_words[702011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702012] = {
+_G.pg.base.ship_skin_words[702012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "吃到苦头了呢…",
@@ -46688,7 +46688,7 @@ _G.pg.ship_skin_words[702012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702020] = {
+_G.pg.base.ship_skin_words[702020] = {
 	feeling1 = "……坏心眼",
 	feeling3 = "哈啊啊…嗯？床单和软绵绵的枕头？哼~想得还真周到，辛苦你啦♪这下就能安心午睡了！那就…呼……Zzz……",
 	lose = "Сожаление…本来以为在这舰队里，会更厉害一点的…",
@@ -46732,7 +46732,7 @@ _G.pg.ship_skin_words[702020] = {
 	}
 }
 
-_G.pg.ship_skin_words[702021] = {
+_G.pg.base.ship_skin_words[702021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "指挥官，我错了，我道歉就是啦…快给我吃的啦…",
@@ -46766,7 +46766,7 @@ _G.pg.ship_skin_words[702021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702022] = {
+_G.pg.base.ship_skin_words[702022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "拉面都泡糊了啦！真讨厌！！",
@@ -46800,7 +46800,7 @@ _G.pg.ship_skin_words[702022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702029] = {
+_G.pg.base.ship_skin_words[702029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "好疼…我、我的腰…果然太剧烈的战斗还是太勉强了啦~！",
@@ -46834,7 +46834,7 @@ _G.pg.ship_skin_words[702029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702030] = {
+_G.pg.base.ship_skin_words[702030] = {
 	feeling1 = "是不是给指挥官一些更严厉的“教育”比较好呢…嗯…真难办啊…",
 	feeling3 = "和部下的交流吗…没错，对于彼此托付性命的同伴来说，信赖是最重要的。希望指挥官能像我信赖你一样地信赖我呢",
 	lose = "呼…看来还要加油呢",
@@ -46868,7 +46868,7 @@ _G.pg.ship_skin_words[702030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702031] = {
+_G.pg.base.ship_skin_words[702031] = {
 	feeling1 = "指挥官才是需要在这边受训的人呢…",
 	feeling3 = "",
 	lose = "指挥官，对不起……",
@@ -46902,7 +46902,7 @@ _G.pg.ship_skin_words[702031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702032] = {
+_G.pg.base.ship_skin_words[702032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46936,7 +46936,7 @@ _G.pg.ship_skin_words[702032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702033] = {
+_G.pg.base.ship_skin_words[702033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -46970,7 +46970,7 @@ _G.pg.ship_skin_words[702033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702040] = {
+_G.pg.base.ship_skin_words[702040] = {
 	feeling1 = "很抱歉，我想你已经不配被称为“同志”了。",
 	feeling3 = "对，你做得很好，Товарищ Офицер(指挥官同志)，自己选择的道路就应该贯彻下去，来吧，让我们看看我们还能走多远！",
 	lose = "咕……在我们的事业完成之前，我基洛夫可不会轻易倒下！",
@@ -47030,7 +47030,7 @@ _G.pg.ship_skin_words[702040] = {
 	}
 }
 
-_G.pg.ship_skin_words[702041] = {
+_G.pg.base.ship_skin_words[702041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47064,7 +47064,7 @@ _G.pg.ship_skin_words[702041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702042] = {
+_G.pg.base.ship_skin_words[702042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47098,7 +47098,7 @@ _G.pg.ship_skin_words[702042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702060] = {
+_G.pg.base.ship_skin_words[702060] = {
 	feeling1 = "真的没问题吗？稍微有些担心你呢…",
 	feeling3 = "…哎呀，不好意思，刚顾着和小伙伴聊天，结果把指挥官跟丢了…果然还是给指挥官同志添麻烦了吧…",
 	lose = "输了呀…对不起哦…",
@@ -47132,7 +47132,7 @@ _G.pg.ship_skin_words[702060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[702061] = {
+_G.pg.base.ship_skin_words[702061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47166,7 +47166,7 @@ _G.pg.ship_skin_words[702061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[703010] = {
+_G.pg.base.ship_skin_words[703010] = {
 	feeling1 = "在发出指示之前先用脑子好好想想，我不想跟着连这种事都做不到的指挥官。",
 	feeling3 = "不想整天被我训，就自己把工作都做好来！你啊…不会是觉得被我念叨很开心吧？",
 	lose = "……嘁，就因为些小失误…！！",
@@ -47227,7 +47227,7 @@ _G.pg.ship_skin_words[703010] = {
 	}
 }
 
-_G.pg.ship_skin_words[703011] = {
+_G.pg.base.ship_skin_words[703011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47261,7 +47261,7 @@ _G.pg.ship_skin_words[703011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[703012] = {
+_G.pg.base.ship_skin_words[703012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "…啧，区区蝼蚁之辈……！！",
@@ -47295,7 +47295,7 @@ _G.pg.ship_skin_words[703012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705010] = {
+_G.pg.base.ship_skin_words[705010] = {
 	feeling1 = "将莽撞当作勇气的人是没有未来的，同志啊",
 	feeling3 = "同志啊，希望你不要误会，这不仅仅是我们的战斗，更是你的战斗。不要仅满足于现状，我们要一起不断精进才行",
 	lose = "同志啊，这不是败北，而是警醒！警醒我们不要忘却了革命的初心",
@@ -47346,7 +47346,7 @@ _G.pg.ship_skin_words[705010] = {
 	}
 }
 
-_G.pg.ship_skin_words[705011] = {
+_G.pg.base.ship_skin_words[705011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47380,7 +47380,7 @@ _G.pg.ship_skin_words[705011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705012] = {
+_G.pg.base.ship_skin_words[705012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47414,7 +47414,7 @@ _G.pg.ship_skin_words[705012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705040] = {
+_G.pg.base.ship_skin_words[705040] = {
 	feeling1 = "罢了，我对你的事情一概不关心，别碍着我就好。",
 	feeling3 = "哦？看来你是不顾赌局的输赢，也要求助于我了吗？哈哈，反正也是一时兴起的赌局，就不计较输赢了！说吧，指挥官同志，需要我帮忙做什么？",
 	lose = "百密终有一疏…吗…",
@@ -47457,7 +47457,7 @@ _G.pg.ship_skin_words[705040] = {
 	}
 }
 
-_G.pg.ship_skin_words[705041] = {
+_G.pg.base.ship_skin_words[705041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47491,7 +47491,7 @@ _G.pg.ship_skin_words[705041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705050] = {
+_G.pg.base.ship_skin_words[705050] = {
 	feeling1 = "这般消极的态度可不行。让我来进行强制矫正吧",
 	feeling3 = "指挥官同志，怎么了？不仅想与北方联合的一员，更想与作为个人的我加深感情？哼，主观的选择倒也不让人讨厌就是",
 	lose = "真是屈辱…！品质不良的问题竟然在这时候爆发了…！",
@@ -47553,7 +47553,7 @@ _G.pg.ship_skin_words[705050] = {
 	}
 }
 
-_G.pg.ship_skin_words[705051] = {
+_G.pg.base.ship_skin_words[705051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47587,7 +47587,7 @@ _G.pg.ship_skin_words[705051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[705060] = {
+_G.pg.base.ship_skin_words[705060] = {
 	feeling1 = "你还不够资格当指挥官，回炉重造吧！",
 	feeling3 = "唔…感觉有些累了…嗯？是指挥官啊，你最近工作也挺繁重的吧。不要太勉强自己哦？",
 	lose = "各舰撤退！…还没有结束！",
@@ -47638,7 +47638,7 @@ _G.pg.ship_skin_words[705060] = {
 	}
 }
 
-_G.pg.ship_skin_words[705061] = {
+_G.pg.base.ship_skin_words[705061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47672,7 +47672,7 @@ _G.pg.ship_skin_words[705061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[707010] = {
+_G.pg.base.ship_skin_words[707010] = {
 	feeling1 = "好孩子可不能给伙伴添麻烦哦？对吧？",
 	feeling3 = "指挥官～要来杯伏特加吗…啊，现在在工作所以不能喝呢。那工作完了后我再来问吧♪",
 	lose = "虽然输了…但是！最后的最后，我们一定会赢回来的！",
@@ -47727,7 +47727,7 @@ _G.pg.ship_skin_words[707010] = {
 	}
 }
 
-_G.pg.ship_skin_words[707011] = {
+_G.pg.base.ship_skin_words[707011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47761,7 +47761,7 @@ _G.pg.ship_skin_words[707011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[718010] = {
+_G.pg.base.ship_skin_words[718010] = {
 	feeling1 = "指挥官同志，想要重新争取我的信任的话，你恐怕得下点功夫了啊。",
 	feeling3 = "一个人的力量是有限的，因此我有很多能帮我处理各种各样事务的“友人”。指挥官同志，我也是你的友人，有什么觉得自己难以做到的，就来依靠我吧。",
 	lose = "因为我的失误让同志们陷入危险了啊…！抱歉，我会深刻反省的！",
@@ -47818,7 +47818,7 @@ _G.pg.ship_skin_words[718010] = {
 	}
 }
 
-_G.pg.ship_skin_words[718011] = {
+_G.pg.base.ship_skin_words[718011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47852,7 +47852,7 @@ _G.pg.ship_skin_words[718011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801010] = {
+_G.pg.base.ship_skin_words[801010] = {
 	feeling1 = "指挥官原来…是这样的人啊…",
 	feeling3 = "为了各自的理想与抱负，即使是至亲之人，也可能分道扬镳，甚至兵戎相见，真是…令人悲伤",
 	lose = "偶尔…也是会有这种事的呢…",
@@ -47903,7 +47903,7 @@ _G.pg.ship_skin_words[801010] = {
 	}
 }
 
-_G.pg.ship_skin_words[801020] = {
+_G.pg.base.ship_skin_words[801020] = {
 	feeling1 = "如果姐姐们知道了我选择效忠的是这样的对象，不知道会斥责我，还是怜悯我呢…",
 	feeling3 = "为什么平时要练习剑术？虽然出击的时候不一定用得上，但是能让自己一直保持在最佳状态，对战斗是有利无弊的",
 	lose = "这次的战败…我会铭记于心的…",
@@ -47946,7 +47946,7 @@ _G.pg.ship_skin_words[801020] = {
 	}
 }
 
-_G.pg.ship_skin_words[801021] = {
+_G.pg.base.ship_skin_words[801021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -47980,7 +47980,7 @@ _G.pg.ship_skin_words[801021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801022] = {
+_G.pg.base.ship_skin_words[801022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48014,7 +48014,7 @@ _G.pg.ship_skin_words[801022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801023] = {
+_G.pg.base.ship_skin_words[801023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48048,7 +48048,7 @@ _G.pg.ship_skin_words[801023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801029] = {
+_G.pg.base.ship_skin_words[801029] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48082,7 +48082,7 @@ _G.pg.ship_skin_words[801029] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801030] = {
+_G.pg.base.ship_skin_words[801030] = {
 	feeling1 = "这样下去的话指挥官会没有朋友的！",
 	feeling3 = "我约了朋友们一起在休息区玩游戏呢。指挥官也一起来吧！",
 	lose = "欸？我们输了？",
@@ -48125,7 +48125,7 @@ _G.pg.ship_skin_words[801030] = {
 	}
 }
 
-_G.pg.ship_skin_words[801031] = {
+_G.pg.base.ship_skin_words[801031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48159,7 +48159,7 @@ _G.pg.ship_skin_words[801031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801032] = {
+_G.pg.base.ship_skin_words[801032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48193,7 +48193,7 @@ _G.pg.ship_skin_words[801032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801040] = {
+_G.pg.base.ship_skin_words[801040] = {
 	feeling1 = "能不能把指挥官变成透明人呢……",
 	feeling3 = "指挥官，看着这个小球。左边……右边……左边……右边……唔…催眠术失败了吗…？",
 	lose = "有没有什么能庇佑大家的咒语…！？",
@@ -48236,7 +48236,7 @@ _G.pg.ship_skin_words[801040] = {
 	}
 }
 
-_G.pg.ship_skin_words[801041] = {
+_G.pg.base.ship_skin_words[801041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48270,7 +48270,7 @@ _G.pg.ship_skin_words[801041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801070] = {
+_G.pg.base.ship_skin_words[801070] = {
 	feeling1 = "要忏悔的话，请移步到枢机卿大人那里。",
 	feeling3 = "只是闲聊么？那，生命，爱情，和自由，对您而言哪个是最重要的呢？呵呵呵，不用着急回答。我就是想看看指挥官大人纠结烦恼的样子才这么问的。",
 	lose = "失败与挫折，是不足以击垮自由鸢尾的战士的。",
@@ -48329,7 +48329,7 @@ _G.pg.ship_skin_words[801070] = {
 	}
 }
 
-_G.pg.ship_skin_words[801071] = {
+_G.pg.base.ship_skin_words[801071] = {
 	feeling1 = "Zzzzz",
 	feeling3 = "Zzzzz",
 	lose = "果然我还是不行啊……比不上某几位白鹰驱逐舰…",
@@ -48363,7 +48363,7 @@ _G.pg.ship_skin_words[801071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[801080] = {
+_G.pg.base.ship_skin_words[801080] = {
 	feeling1 = "一起成为能独当一面的人吧！我要做能独当一面的护教骑士，指挥官也要做能独当一面的指挥官才行！",
 	feeling3 = "指挥官，如果战斗前觉得不安，只要这样做就好——一起握着手，“自由鸢尾庇佑”…嗯！",
 	lose = "即，即使身体屈服了，我的内心也不会…！嗯？弄错了…？",
@@ -48430,7 +48430,7 @@ _G.pg.ship_skin_words[801080] = {
 	}
 }
 
-_G.pg.ship_skin_words[801081] = {
+_G.pg.base.ship_skin_words[801081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48464,7 +48464,7 @@ _G.pg.ship_skin_words[801081] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802010] = {
+_G.pg.base.ship_skin_words[802010] = {
 	feeling1 = "从你的身上感受不到热情呢……",
 	feeling3 = "只有细心留意，才能发掘生活中的美。而珍惜这些细小的美好，我觉得，就是浪漫的本质哦",
 	lose = "哎呀……稍微有些走神了",
@@ -48498,7 +48498,7 @@ _G.pg.ship_skin_words[802010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802011] = {
+_G.pg.base.ship_skin_words[802011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48532,7 +48532,7 @@ _G.pg.ship_skin_words[802011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802012] = {
+_G.pg.base.ship_skin_words[802012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48566,7 +48566,7 @@ _G.pg.ship_skin_words[802012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802013] = {
+_G.pg.base.ship_skin_words[802013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48600,7 +48600,7 @@ _G.pg.ship_skin_words[802013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802019] = {
+_G.pg.base.ship_skin_words[802019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48634,7 +48634,7 @@ _G.pg.ship_skin_words[802019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[802020] = {
+_G.pg.base.ship_skin_words[802020] = {
 	feeling1 = "若你是魔鬼，我将用此剑斩下你。若你只是误入了歧途，那就赶紧醒悟过来吧！",
 	feeling3 = "我手中的剑，并非为独自挥舞而生。它为你而挥，为鸢尾而挥，也为这舰队所有人而挥。",
 	lose = "如果在这里止步不前的话……",
@@ -48677,7 +48677,7 @@ _G.pg.ship_skin_words[802020] = {
 	}
 }
 
-_G.pg.ship_skin_words[802021] = {
+_G.pg.base.ship_skin_words[802021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48711,7 +48711,7 @@ _G.pg.ship_skin_words[802021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[805010] = {
+_G.pg.base.ship_skin_words[805010] = {
 	feeling1 = "不思进取者，终将步向破灭。好好记住这点吧。",
 	feeling3 = "你来了，指挥官，请坐吧，想喝点什么？…不用太过拘谨，即便是我，在工作与教务之外，也有像这样与常人无二的生活。即使是最虔诚的教徒，也不能光靠信仰生存，她们同样需要食物与美酒",
 	lose = "这也是…神明所赐予的试炼吗…",
@@ -48801,7 +48801,7 @@ _G.pg.ship_skin_words[805010] = {
 	}
 }
 
-_G.pg.ship_skin_words[805011] = {
+_G.pg.base.ship_skin_words[805011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48835,7 +48835,7 @@ _G.pg.ship_skin_words[805011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[805012] = {
+_G.pg.base.ship_skin_words[805012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48869,7 +48869,7 @@ _G.pg.ship_skin_words[805012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[807010] = {
+_G.pg.base.ship_skin_words[807010] = {
 	feeling1 = "您是我见过最英明的指挥官，您的所作所为都是对的——在指挥官大人梦里的话，我也许会这么说呢。",
 	feeling3 = "“魔导书”？倔强是这么向您介绍的啊，真是有趣的说法呢~很抱歉，指挥官大人。我突然想起了一件急事，请允许我先离开一下。",
 	lose = "非常抱歉，指挥官大人，这次失败的责任完全在我。",
@@ -48931,7 +48931,7 @@ _G.pg.ship_skin_words[807010] = {
 	}
 }
 
-_G.pg.ship_skin_words[807011] = {
+_G.pg.base.ship_skin_words[807011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -48965,7 +48965,7 @@ _G.pg.ship_skin_words[807011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[808010] = {
+_G.pg.base.ship_skin_words[808010] = {
 	feeling1 = "啊，指挥官，你继续工作吧，我没有指挥官在身边也比较开心哦",
 	feeling3 = "嘿，指挥官，一起出去玩吗？就逛逛街，散散步，躺在草地上睡午觉什么的~",
 	lose = "啊，输掉了…指挥官，撤退吗？",
@@ -48999,7 +48999,7 @@ _G.pg.ship_skin_words[808010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[808011] = {
+_G.pg.base.ship_skin_words[808011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49033,7 +49033,7 @@ _G.pg.ship_skin_words[808011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[808012] = {
+_G.pg.base.ship_skin_words[808012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49067,7 +49067,7 @@ _G.pg.ship_skin_words[808012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901010] = {
+_G.pg.base.ship_skin_words[901010] = {
 	feeling1 = "啊，是指挥官！我、我还是自己去跑步锻炼吧！",
 	feeling3 = "指挥官愿意教我学习吗？哇！谢谢指挥官！我一定会……欸欸欸，要学这么多东西吗！我、我忽然肚子疼了！",
 	lose = "糟了，快撤快撤！",
@@ -49110,7 +49110,7 @@ _G.pg.ship_skin_words[901010] = {
 	}
 }
 
-_G.pg.ship_skin_words[901011] = {
+_G.pg.base.ship_skin_words[901011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49144,7 +49144,7 @@ _G.pg.ship_skin_words[901011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901012] = {
+_G.pg.base.ship_skin_words[901012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49178,7 +49178,7 @@ _G.pg.ship_skin_words[901012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901019] = {
+_G.pg.base.ship_skin_words[901019] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49212,7 +49212,7 @@ _G.pg.ship_skin_words[901019] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901020] = {
+_G.pg.base.ship_skin_words[901020] = {
 	feeling1 = "指挥官，能安静一些吗，思路要被打断了。",
 	feeling3 = "我的坏习惯是一旦开始想事情，很容易无视周围环境陷入沉思之中。这样的话，没有办法成为可以照顾他人的成熟女性吧......",
 	lose = "嗯…果然，刚才那一发炮弹应该再右移一点比较好…啊，对不起，已经要撤退了对吧…！",
@@ -49263,7 +49263,7 @@ _G.pg.ship_skin_words[901020] = {
 	}
 }
 
-_G.pg.ship_skin_words[901021] = {
+_G.pg.base.ship_skin_words[901021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49297,7 +49297,7 @@ _G.pg.ship_skin_words[901021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901030] = {
+_G.pg.base.ship_skin_words[901030] = {
 	feeling1 = "指挥官，你知道吗，我最讨厌的，就是没有自知之明的人了",
 	feeling3 = "话说，以前塔尔图来向我咨询如何成为成熟女性时，我随口给了让她多看推理小说的建议，结果她真的听进去了……感觉，有点对不起她……",
 	lose = "欸，指挥官，你难道在征求我的意见？这种事交给指挥官解决就好啦！",
@@ -49340,7 +49340,7 @@ _G.pg.ship_skin_words[901030] = {
 	}
 }
 
-_G.pg.ship_skin_words[901031] = {
+_G.pg.base.ship_skin_words[901031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49374,7 +49374,7 @@ _G.pg.ship_skin_words[901031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901032] = {
+_G.pg.base.ship_skin_words[901032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "我感觉现在还是赶紧撤退比较好！呼，幸好穿的礼服还算是便于行动…",
@@ -49408,7 +49408,7 @@ _G.pg.ship_skin_words[901032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901110] = {
+_G.pg.base.ship_skin_words[901110] = {
 	feeling1 = "……（恶毒好像睡着了）",
 	feeling3 = "虽、虽然说尽管吩咐了…但是你给的活也太多了吧……不行了要累死了……我要请假……",
 	lose = "我还没输……我还没输！",
@@ -49451,7 +49451,7 @@ _G.pg.ship_skin_words[901110] = {
 	}
 }
 
-_G.pg.ship_skin_words[901111] = {
+_G.pg.base.ship_skin_words[901111] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "今天看来不适合工作……早点回去休息……",
@@ -49485,7 +49485,7 @@ _G.pg.ship_skin_words[901111] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901112] = {
+_G.pg.base.ship_skin_words[901112] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "好热……为什么这么热还要出击啊！",
@@ -49519,7 +49519,7 @@ _G.pg.ship_skin_words[901112] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901113] = {
+_G.pg.base.ship_skin_words[901113] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "早知道就不出来了…",
@@ -49553,7 +49553,7 @@ _G.pg.ship_skin_words[901113] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[901120] = {
+_G.pg.base.ship_skin_words[901120] = {
 	feeling1 = "这是…表示我可以尽情偷懒的意思吧…",
 	feeling3 = "又要练习又要接通告又要锻炼又要排舞……要做的事情也太多了吧！不行了撑不下去了…光是看行程表就感觉累死了…我要休息了……",
 	lose = "没有让人悔恨的空闲啊…！",
@@ -49612,7 +49612,7 @@ _G.pg.ship_skin_words[901120] = {
 	}
 }
 
-_G.pg.ship_skin_words[902010] = {
+_G.pg.base.ship_skin_words[902010] = {
 	feeling1 = "指挥官如果不想做了，我有个更合适的地方推荐你去哦",
 	feeling3 = "敦刻尔克做了慕斯蛋糕，我给你带了一个来——这么看着我干嘛，想感谢不如去谢做出这些美味甜点的人。",
 	lose = "啊，失败了……算啦，鼓足气势再打一次吧！",
@@ -49663,7 +49663,7 @@ _G.pg.ship_skin_words[902010] = {
 	}
 }
 
-_G.pg.ship_skin_words[902011] = {
+_G.pg.base.ship_skin_words[902011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49697,7 +49697,7 @@ _G.pg.ship_skin_words[902011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[902012] = {
+_G.pg.base.ship_skin_words[902012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49731,7 +49731,7 @@ _G.pg.ship_skin_words[902012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[902013] = {
+_G.pg.base.ship_skin_words[902013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49765,7 +49765,7 @@ _G.pg.ship_skin_words[902013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[903010] = {
+_G.pg.base.ship_skin_words[903010] = {
 	feeling1 = "这样的意志是没法带着大家获得胜利的呢…",
 	feeling3 = "在我面前不用那么拘谨的哦！稍微放松一些也是可以的~",
 	lose = "这种程度的强化果然还是不行呢…",
@@ -49816,7 +49816,7 @@ _G.pg.ship_skin_words[903010] = {
 	}
 }
 
-_G.pg.ship_skin_words[903011] = {
+_G.pg.base.ship_skin_words[903011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49850,7 +49850,7 @@ _G.pg.ship_skin_words[903011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[903020] = {
+_G.pg.base.ship_skin_words[903020] = {
 	feeling1 = "指挥官，我正在寻找指挥官退役所需的材料证明，您不会已经准备好了吧？",
 	feeling3 = "指挥官，要来一杯红酒么？不大会喝酒？没关系的，不要急着咽下去，细细地、细细地品尝——就能感觉到那种热情和清凉交织的…成熟而美味的感觉了吧",
 	lose = "失败了么......没关系，指挥官不用消沉。下次做好更充分的准备之后再来招待它们吧。",
@@ -49912,7 +49912,7 @@ _G.pg.ship_skin_words[903020] = {
 	}
 }
 
-_G.pg.ship_skin_words[903021] = {
+_G.pg.base.ship_skin_words[903021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -49946,7 +49946,7 @@ _G.pg.ship_skin_words[903021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[904010] = {
+_G.pg.base.ship_skin_words[904010] = {
 	feeling1 = "指挥官，好久不见，我过得很好，不劳费心",
 	feeling3 = "那个时候，大家都是身不由己…我完全没有责怪皇家各位的意思，倒不如说，如果这样能够让她们稍微原谅我的话，也是一件好事",
 	lose = "没关系…这次的失败不代表结束",
@@ -49980,7 +49980,7 @@ _G.pg.ship_skin_words[904010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[904011] = {
+_G.pg.base.ship_skin_words[904011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50014,7 +50014,7 @@ _G.pg.ship_skin_words[904011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[904012] = {
+_G.pg.base.ship_skin_words[904012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50048,7 +50048,7 @@ _G.pg.ship_skin_words[904012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905010] = {
+_G.pg.base.ship_skin_words[905010] = {
 	feeling1 = "想把狼像狗一样饲养倒也无所谓，被咬的时候可别哭鼻子哦？",
 	feeling3 = "不要露出那种表情……只要你不选择背叛我，我也绝不会背叛你。",
 	lose = "我会很快让你们知道…这份屈辱的利息有多重！",
@@ -50099,7 +50099,7 @@ _G.pg.ship_skin_words[905010] = {
 	}
 }
 
-_G.pg.ship_skin_words[905011] = {
+_G.pg.base.ship_skin_words[905011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "哼，总好过参加宴会……",
@@ -50133,7 +50133,7 @@ _G.pg.ship_skin_words[905011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905012] = {
+_G.pg.base.ship_skin_words[905012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50167,7 +50167,7 @@ _G.pg.ship_skin_words[905012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905013] = {
+_G.pg.base.ship_skin_words[905013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50201,7 +50201,7 @@ _G.pg.ship_skin_words[905013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[905030] = {
+_G.pg.base.ship_skin_words[905030] = {
 	feeling1 = "条件触发：逻辑判断主人缺乏培养加斯科涅的能力。自主培育计划启动，请主人不要打扰加斯科涅",
 	feeling3 = "主人，提问，站在舞台上时，加斯科涅明显感觉到“情感”产生了巨大的起伏，这是为什么？",
 	lose = "主人，请中止本方案的实行，加斯科涅请求标准形态的切换",
@@ -50235,7 +50235,7 @@ _G.pg.ship_skin_words[905030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900001] = {
+_G.pg.base.ship_skin_words[900001] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50269,7 +50269,7 @@ _G.pg.ship_skin_words[900001] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900002] = {
+_G.pg.base.ship_skin_words[900002] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50303,7 +50303,7 @@ _G.pg.ship_skin_words[900002] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900003] = {
+_G.pg.base.ship_skin_words[900003] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50337,7 +50337,7 @@ _G.pg.ship_skin_words[900003] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900004] = {
+_G.pg.base.ship_skin_words[900004] = {
 	feeling1 = "指挥官，您叫我吗……呀！……谢谢您扶住我……",
 	feeling3 = "指挥官，要是哪一天我又迷路了，您能找到我吗……一定能？谢谢，我好开心！",
 	lose = "呜……要是集中精神一点就好了",
@@ -50371,7 +50371,7 @@ _G.pg.ship_skin_words[900004] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900005] = {
+_G.pg.base.ship_skin_words[900005] = {
 	feeling1 = "指挥官……叫诺福克来有什么事吗……想做的事……？想……听指挥官讲故事……可以吗？",
 	feeling3 = "指挥官……诺福克怕黑，睡不着……能和指挥官一起睡吗……？",
 	lose = "呜呜呜……果然我不适合战斗……",
@@ -50405,7 +50405,7 @@ _G.pg.ship_skin_words[900005] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900006] = {
+_G.pg.base.ship_skin_words[900006] = {
 	feeling1 = "指挥官，这么好的下午，不来聊聊天吗……嗯，好吧，那我就说说和声望的故事吧",
 	feeling3 = "嗯？太近了？虽然淑女要随时保持优雅，但是淑女对于钟情的对象也会勇敢发起攻势哦？",
 	lose = "胜败乃兵家常事，而我们有的是时间",
@@ -50472,7 +50472,7 @@ _G.pg.ship_skin_words[900006] = {
 	}
 }
 
-_G.pg.ship_skin_words[900007] = {
+_G.pg.base.ship_skin_words[900007] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50506,7 +50506,7 @@ _G.pg.ship_skin_words[900007] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900040] = {
+_G.pg.base.ship_skin_words[900040] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50540,7 +50540,7 @@ _G.pg.ship_skin_words[900040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900041] = {
+_G.pg.base.ship_skin_words[900041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50574,7 +50574,7 @@ _G.pg.ship_skin_words[900041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900042] = {
+_G.pg.base.ship_skin_words[900042] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50608,7 +50608,7 @@ _G.pg.ship_skin_words[900042] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900043] = {
+_G.pg.base.ship_skin_words[900043] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50642,7 +50642,7 @@ _G.pg.ship_skin_words[900043] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900044] = {
+_G.pg.base.ship_skin_words[900044] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50676,7 +50676,7 @@ _G.pg.ship_skin_words[900044] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900045] = {
+_G.pg.base.ship_skin_words[900045] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50710,7 +50710,7 @@ _G.pg.ship_skin_words[900045] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900046] = {
+_G.pg.base.ship_skin_words[900046] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50744,7 +50744,7 @@ _G.pg.ship_skin_words[900046] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900132] = {
+_G.pg.base.ship_skin_words[900132] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50778,7 +50778,7 @@ _G.pg.ship_skin_words[900132] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900133] = {
+_G.pg.base.ship_skin_words[900133] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50812,7 +50812,7 @@ _G.pg.ship_skin_words[900133] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900134] = {
+_G.pg.base.ship_skin_words[900134] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50846,7 +50846,7 @@ _G.pg.ship_skin_words[900134] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900135] = {
+_G.pg.base.ship_skin_words[900135] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50880,7 +50880,7 @@ _G.pg.ship_skin_words[900135] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900161] = {
+_G.pg.base.ship_skin_words[900161] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -50914,7 +50914,7 @@ _G.pg.ship_skin_words[900161] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900162] = {
+_G.pg.base.ship_skin_words[900162] = {
 	feeling1 = "",
 	feeling3 = "诶，指挥官也在这里呀。秘密基地？诶嘿嘿，我不太清楚呢~说回来，指挥官看到我的点心了吗？不，那东西可不能吃",
 	lose = "",
@@ -50948,7 +50948,7 @@ _G.pg.ship_skin_words[900162] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900180] = {
+_G.pg.base.ship_skin_words[900180] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "不会……再让那个时候的失败重演的！",
@@ -50982,7 +50982,7 @@ _G.pg.ship_skin_words[900180] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900181] = {
+_G.pg.base.ship_skin_words[900181] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "不会……再让那个时候的失败重演的！",
@@ -51016,7 +51016,7 @@ _G.pg.ship_skin_words[900181] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900182] = {
+_G.pg.base.ship_skin_words[900182] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "不会……再让那个时候的失败重演的！",
@@ -51050,7 +51050,7 @@ _G.pg.ship_skin_words[900182] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900183] = {
+_G.pg.base.ship_skin_words[900183] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -51084,7 +51084,7 @@ _G.pg.ship_skin_words[900183] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900184] = {
+_G.pg.base.ship_skin_words[900184] = {
 	feeling1 = "…指挥官似乎欠缺勇敢呢",
 	feeling3 = "天上的光全都是星星，海上的光全都是敌人……指挥官，真的会有没有斗争的那一天吗？",
 	lose = "全力而败，也没什么怨言",
@@ -51170,7 +51170,7 @@ _G.pg.ship_skin_words[900184] = {
 	}
 }
 
-_G.pg.ship_skin_words[900185] = {
+_G.pg.base.ship_skin_words[900185] = {
 	feeling1 = "指挥官，你的气概呢！？",
 	feeling3 = "一心一意地磨练自身的技艺，专心致志地打倒眼前的敌人——仅仅做到这些就足够了吗？",
 	lose = "我……还不够成熟吗……",
@@ -51213,7 +51213,7 @@ _G.pg.ship_skin_words[900185] = {
 	}
 }
 
-_G.pg.ship_skin_words[900186] = {
+_G.pg.base.ship_skin_words[900186] = {
 	feeling1 = "哈啊……看来你也不过如此，有所期待是我的错",
 	feeling3 = "什么？没想到我居然会喜欢芭蕾舞？你什么意思？再笑我可锤你了哦？",
 	lose = "啧……这帮不要命的家伙……",
@@ -51256,7 +51256,7 @@ _G.pg.ship_skin_words[900186] = {
 	}
 }
 
-_G.pg.ship_skin_words[900187] = {
+_G.pg.base.ship_skin_words[900187] = {
 	feeling1 = "大姐头果然看走眼了吗……",
 	feeling3 = "大姐头又厉害又酷，而且总是笑的很帅，就好像没有什么能打倒她一样，我的梦想就是有一天变成她那样",
 	lose = "对不起…大姐头…丢了海上骑士的脸…",
@@ -51299,7 +51299,7 @@ _G.pg.ship_skin_words[900187] = {
 	}
 }
 
-_G.pg.ship_skin_words[900188] = {
+_G.pg.base.ship_skin_words[900188] = {
 	feeling1 = "抱歉，还有姐妹在等我，没时间陪你",
 	feeling3 = "嗯……虽然我也不是强迫自己心胸宽广，不过指挥官这样能平等聊天的对象还真不多呢……",
 	lose = "欸嘿……好像有点不大妙呢……？",
@@ -51351,7 +51351,7 @@ _G.pg.ship_skin_words[900188] = {
 	}
 }
 
-_G.pg.ship_skin_words[900235] = {
+_G.pg.base.ship_skin_words[900235] = {
 	feeling1 = "哇——！指挥官是笨蛋，笨~蛋，笨——蛋！",
 	feeling3 = "虽然能让大家变强很高兴，但是和指挥官一起玩也很高兴buli！作为报答，布里也让指挥官变强吧！……欸，不行吗？！",
 	lose = "咦？人家……好像不是战斗buli？",
@@ -51385,7 +51385,7 @@ _G.pg.ship_skin_words[900235] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900240] = {
+_G.pg.base.ship_skin_words[900240] = {
 	feeling1 = "Zzzzzzzzz……",
 	feeling3 = "一开始，感觉指挥官有点无聊……不过仔细想想，我除了战斗也很没干劲，说不定我和指挥官很合得来喔……",
 	lose = "唔……输了……对面不是新手吧……？",
@@ -51436,7 +51436,7 @@ _G.pg.ship_skin_words[900240] = {
 	}
 }
 
-_G.pg.ship_skin_words[900241] = {
+_G.pg.base.ship_skin_words[900241] = {
 	feeling1 = "指挥官，再不自重一点的话标枪可就真的不喜欢你了！",
 	feeling3 = "感觉和指挥官的距离越来越近了呢，嘻嘻，不过还要再努力一点哦~",
 	lose = "啧，大意了！",
@@ -51495,7 +51495,7 @@ _G.pg.ship_skin_words[900241] = {
 	}
 }
 
-_G.pg.ship_skin_words[900242] = {
+_G.pg.base.ship_skin_words[900242] = {
 	feeling1 = "指挥官，我要学习了，能不要打扰我吗？",
 	feeling3 = "有点累了吗，嗯，休息也是很重要的。膝枕？真是没办法，就一会儿喔",
 	lose = "呜……不行，我不能哭……",
@@ -51538,7 +51538,7 @@ _G.pg.ship_skin_words[900242] = {
 	}
 }
 
-_G.pg.ship_skin_words[900243] = {
+_G.pg.base.ship_skin_words[900243] = {
 	feeling1 = "……不是很想靠近指挥官……",
 	feeling3 = "指挥官……你一直说{namecode:6}的耳朵可爱，但是为什么不摸摸看呢？",
 	lose = "没关系……我自己很快就会好起来的",
@@ -51607,7 +51607,7 @@ _G.pg.ship_skin_words[900243] = {
 	}
 }
 
-_G.pg.ship_skin_words[900244] = {
+_G.pg.base.ship_skin_words[900244] = {
 	feeling1 = "结果……你也不过是个无法驱使我的无能指挥官吗……",
 	feeling3 = "一无所有，方能无所畏惧。但是这样的勇敢无畏，真的是值得夸耀的吗…？",
 	lose = "这就是……面对失败时的恐惧与不甘吗……？",
@@ -51650,7 +51650,7 @@ _G.pg.ship_skin_words[900244] = {
 	}
 }
 
-_G.pg.ship_skin_words[900245] = {
+_G.pg.base.ship_skin_words[900245] = {
 	feeling1 = "不是你吗……",
 	feeling3 = "向神明祈祷真的有用吗？主真的会有所回应吗？Nein，神之所以为神，就是因为没有仁慈",
 	lose = "下次一定会让你们体会到…比死还要深沉的绝望…",
@@ -51684,7 +51684,7 @@ _G.pg.ship_skin_words[900245] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900246] = {
+_G.pg.base.ship_skin_words[900246] = {
 	feeling1 = "我以为你是位更加聪慧的指挥官……",
 	feeling3 = "“丑陋的姐妹”……虽然算是对我们成果的赞美，不过果然还是有点伤人，指挥官，我丑吗？",
 	lose = "太过大意了吗……",
@@ -51718,7 +51718,7 @@ _G.pg.ship_skin_words[900246] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900247] = {
+_G.pg.base.ship_skin_words[900247] = {
 	feeling1 = "我似乎看到指挥官被{namecode:91}前·辈砍杀的未来了呢",
 	feeling3 = "对一二航战的不满？当然有啦——自说自话地抛弃了妹妹的姐姐，不可能不遭妹妹怨恨吧",
 	lose = "真遗憾~我可不会像{namecode:94}前·辈那样不知进退",
@@ -51793,7 +51793,7 @@ _G.pg.ship_skin_words[900247] = {
 	}
 }
 
-_G.pg.ship_skin_words[900248] = {
+_G.pg.base.ship_skin_words[900248] = {
 	feeling1 = "指挥官，你想体验一下——马里亚纳海战时我的心情吗？",
 	feeling3 = "我的命运一直和列克星敦纠缠在一起……啊，指挥官，这句话不要告诉萨拉小姐，我可拿她没辙……",
 	lose = "又要与大炮巨舰……一同消亡了吗……",
@@ -51868,7 +51868,7 @@ _G.pg.ship_skin_words[900248] = {
 	}
 }
 
-_G.pg.ship_skin_words[900249] = {
+_G.pg.base.ship_skin_words[900249] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "呜……姐姐你在哪，呜呜呜呜……",
@@ -51902,7 +51902,7 @@ _G.pg.ship_skin_words[900249] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900250] = {
+_G.pg.base.ship_skin_words[900250] = {
 	feeling1 = "指挥官，我要生气了哦？",
 	feeling3 = "只是外表的话，舰队里每个孩子都很可爱哦，但她们同时也都很有个性，说实话，姐姐稍微有些羡慕她们呢（托腮）",
 	lose = "没那么顺利呢……下次再努力吧",
@@ -51936,7 +51936,7 @@ _G.pg.ship_skin_words[900250] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900251] = {
+_G.pg.base.ship_skin_words[900251] = {
 	feeling1 = "你这家伙太弱了，我跟这种家伙可玩不来，再去练练吧",
 	feeling3 = "不对不对，这样的话不就和过去一样了吗……不用勉强？你这家伙有时候也会说些好话耶……欸，刚才笑的就很好？",
 	lose = "啧，我记住你了！",
@@ -51970,7 +51970,7 @@ _G.pg.ship_skin_words[900251] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900252] = {
+_G.pg.base.ship_skin_words[900252] = {
 	feeling1 = "…指挥官似乎欠缺勇敢呢",
 	feeling3 = "天上的光全都是星星，海上的光全都是敌人……指挥官，真的会有没有斗争的那一天吗？",
 	lose = "全力而败，也没什么怨言",
@@ -52099,7 +52099,7 @@ _G.pg.ship_skin_words[900252] = {
 	}
 }
 
-_G.pg.ship_skin_words[900253] = {
+_G.pg.base.ship_skin_words[900253] = {
 	feeling1 = "稍微粗暴一点……也没关系吧",
 	feeling3 = "汝的面庞无时无刻不在诱惑着余，呐，汝的鲜血，究竟能甜美到什么地步呢？",
 	lose = "啊啊…为何、总是不肯乖乖顺从呢...  ",
@@ -52150,7 +52150,7 @@ _G.pg.ship_skin_words[900253] = {
 	}
 }
 
-_G.pg.ship_skin_words[900254] = {
+_G.pg.base.ship_skin_words[900254] = {
 	feeling1 = "揍你啰——！",
 	feeling3 = "围剿俾斯麦和钨作战？我只是一时兴起帮了点忙啦，可没有什么成为武勋舰的打算…",
 	lose = "失败时保持美丽的身姿，乃败者的礼仪",
@@ -52201,7 +52201,7 @@ _G.pg.ship_skin_words[900254] = {
 	}
 }
 
-_G.pg.ship_skin_words[900255] = {
+_G.pg.base.ship_skin_words[900255] = {
 	feeling1 = "昭和的笨蛋！",
 	feeling3 = "如果没有想好如何结束战争，就不该挑起战争！",
 	lose = "这就是坛之浦吗……",
@@ -52268,7 +52268,7 @@ _G.pg.ship_skin_words[900255] = {
 	}
 }
 
-_G.pg.ship_skin_words[900256] = {
+_G.pg.base.ship_skin_words[900256] = {
 	feeling1 = "指挥官的身体，有点弱呢。有好好吃饭吗？",
 	feeling3 = "总是在挑战自己做不到的事情的指挥官……很有趣呢。害得我也有点、想试试自己的极限在哪里了。",
 	lose = "抱歉，我刚才走神了……",
@@ -52319,7 +52319,7 @@ _G.pg.ship_skin_words[900256] = {
 	}
 }
 
-_G.pg.ship_skin_words[900257] = {
+_G.pg.base.ship_skin_words[900257] = {
 	feeling1 = "唉……看来不下猛药不行了呢",
 	feeling3 = "虽然我常把时刻保持优雅挂在嘴边，但是这并不意味着指挥官需要配合我，您平常的样子才是最有魅力的",
 	lose = "胜败乃兵家常事，而我们有的是时间",
@@ -52386,7 +52386,7 @@ _G.pg.ship_skin_words[900257] = {
 	}
 }
 
-_G.pg.ship_skin_words[900258] = {
+_G.pg.base.ship_skin_words[900258] = {
 	feeling1 = "果然指挥官完全比不上驱逐妹妹们……",
 	feeling3 = "本人一开始还在想终于要被指挥官送去海军法庭了，能被接受真是太好了——没什么丢人的？……指挥官，皇家方舟将一生追随你！",
 	lose = "嘁，被摆了一道！",
@@ -52438,7 +52438,7 @@ _G.pg.ship_skin_words[900258] = {
 	}
 }
 
-_G.pg.ship_skin_words[900259] = {
+_G.pg.base.ship_skin_words[900259] = {
 	feeling1 = "只要把指挥官切成几块保存在身边，指挥官就不会老是让{namecode:91}伤心了呢……呵呵呵……",
 	feeling3 = "指挥官是我一个人的哦，即使您要管理舰队，只有这一点请不要忘了……不然的话……",
 	lose = "这点伤，比起想到被指挥官抛弃的痛可要差远了！",
@@ -52513,7 +52513,7 @@ _G.pg.ship_skin_words[900259] = {
 	}
 }
 
-_G.pg.ship_skin_words[900260] = {
+_G.pg.base.ship_skin_words[900260] = {
 	feeling1 = "看来你不是我追求的勇者…",
 	feeling3 = "如果有一天你输了，那只能说明你太弱了，弱者被淘汰也是正常，不过，谁让你是我的人呢，只好由我来替你报仇了",
 	lose = "这份痛楚……我会十倍奉还的！",
@@ -52595,7 +52595,7 @@ _G.pg.ship_skin_words[900260] = {
 	}
 }
 
-_G.pg.ship_skin_words[900261] = {
+_G.pg.base.ship_skin_words[900261] = {
 	feeling1 = "指挥官，你这样下去是不行的",
 	feeling3 = "指挥官，你总是叫我出来陪你散步，是遇上什么烦心事了么？",
 	lose = "……对不起，指挥官……我辜负了您的信任",
@@ -52654,7 +52654,7 @@ _G.pg.ship_skin_words[900261] = {
 	}
 }
 
-_G.pg.ship_skin_words[900262] = {
+_G.pg.base.ship_skin_words[900262] = {
 	feeling1 = "指挥官，我喜欢有个性或者会做饭的人，而你，不行",
 	feeling3 = "呵呵，指挥官，怎么样，我的厨艺令你满意吗？尽管吃吧，看到你这么满足，我也很高兴",
 	lose = "无需气馁，真正的胜负可不是一场战斗能左右的",
@@ -52705,7 +52705,7 @@ _G.pg.ship_skin_words[900262] = {
 	}
 }
 
-_G.pg.ship_skin_words[900263] = {
+_G.pg.base.ship_skin_words[900263] = {
 	feeling1 = "请你不要摆出一副好像你和我很熟的样子",
 	feeling3 = "没有什么贵族气质吗？不像胡德她们那样还真是对不起呢……我才没有在说欧派……",
 	lose = "损管，舵机怎么又不好控制了？嘁！居然在这个时候",
@@ -52781,7 +52781,7 @@ _G.pg.ship_skin_words[900263] = {
 	}
 }
 
-_G.pg.ship_skin_words[900264] = {
+_G.pg.base.ship_skin_words[900264] = {
 	feeling1 = "连光辉都无法触及指挥官心中的黑暗吗……",
 	feeling3 = "指挥官，别看我这样，我意外的喜欢夜袭哦……真是的，不是指那方面啦~不过您呢，喜欢吗？",
 	lose = "请退下吧，否则我将赌上性命……",
@@ -52832,7 +52832,7 @@ _G.pg.ship_skin_words[900264] = {
 	}
 }
 
-_G.pg.ship_skin_words[900265] = {
+_G.pg.base.ship_skin_words[900265] = {
 	feeling1 = "抱歉，我得了指挥官一靠近就会头疼的病，可以稍微离我远一点吗？",
 	feeling3 = "不光是光辉姐姐和胜利姐姐，竟然能把这么多舰船团结在一起，指挥官真是有包容力呢。作为友好的象征…呵呵…这块蛋糕，请享用吧？",
 	lose = "你们这些可……咳，可敬的敌人，下次我会赢回来的！",
@@ -52883,7 +52883,7 @@ _G.pg.ship_skin_words[900265] = {
 	}
 }
 
-_G.pg.ship_skin_words[900266] = {
+_G.pg.base.ship_skin_words[900266] = {
 	feeling1 = "这般消极的态度可不行。让我来进行强制矫正吧",
 	feeling3 = "指挥官同志，怎么了？不仅想与北方联合的一员，更想与作为个人的我加深感情？哼，主观的选择倒也不让人讨厌就是",
 	lose = "真是屈辱…！品质不良的问题竟然在这时候爆发了…！",
@@ -52945,7 +52945,7 @@ _G.pg.ship_skin_words[900266] = {
 	}
 }
 
-_G.pg.ship_skin_words[900267] = {
+_G.pg.base.ship_skin_words[900267] = {
 	feeling1 = "将莽撞当作勇气的人是没有未来的，同志啊",
 	feeling3 = "同志啊，希望你不要误会，这不仅仅是我们的战斗，更是你的战斗。不要仅满足于现状，我们要一起不断精进才行",
 	lose = "同志啊，这不是败北，而是警醒！警醒我们不要忘却了革命的初心",
@@ -52996,7 +52996,7 @@ _G.pg.ship_skin_words[900267] = {
 	}
 }
 
-_G.pg.ship_skin_words[900268] = {
+_G.pg.base.ship_skin_words[900268] = {
 	feeling1 = "恶作剧？已经不会对指挥官做了哦，因为没有兴致了",
 	feeling3 = "指挥官，萨拉妹妹和她的姐姐最大的差别是什么呢~答案就是萨拉妹妹今天的颜色哦~",
 	lose = "欸嘿，可以趁回家维修的时候好好休息一下了~",
@@ -53084,7 +53084,7 @@ _G.pg.ship_skin_words[900268] = {
 	}
 }
 
-_G.pg.ship_skin_words[900269] = {
+_G.pg.base.ship_skin_words[900269] = {
 	feeling1 = "原来企业前辈一直忍受着这样的指挥官……",
 	feeling3 = "嫉妒？不，我从未这么想过，前辈是值得我们每一个人尊敬的英雄。只是那种一直处在前辈光环之下的感觉，让我多少感到有些……",
 	lose = "绝对…不会就这么结束的！",
@@ -53135,7 +53135,7 @@ _G.pg.ship_skin_words[900269] = {
 	}
 }
 
-_G.pg.ship_skin_words[900270] = {
+_G.pg.base.ship_skin_words[900270] = {
 	feeling1 = "指挥官啊，你现在的所作所为，和懦夫可没有半点区别啊",
 	feeling3 = "哟，指挥官！下午好——啊好疼…是谁把推车放在这里的啊！我怎么又碰上这种倒霉的事情……呃，没，没什么。那个，我是说，有我的出击任务吗？",
 	lose = "又要去维修了么…(小声)怎么倒霉的总是我…—不，没什么",
@@ -53179,7 +53179,7 @@ _G.pg.ship_skin_words[900270] = {
 	}
 }
 
-_G.pg.ship_skin_words[900271] = {
+_G.pg.base.ship_skin_words[900271] = {
 	feeling1 = "我现在不想和你说话",
 	feeling3 = "…当我面无表情保持沉默的时候，并不是在生气，只是单纯地在想事情，或者在想该怎么表达所想的事情而已",
 	lose = "这是…堪比龙颚（dragon jaw）的强敌吗……！",
@@ -53231,7 +53231,7 @@ _G.pg.ship_skin_words[900271] = {
 	}
 }
 
-_G.pg.ship_skin_words[900272] = {
+_G.pg.base.ship_skin_words[900272] = {
 	feeling1 = "不思进取者，终将步向破灭。好好记住这点吧。",
 	feeling3 = "你来了，指挥官，请坐吧，想喝点什么？…不用太过拘谨，即便是我，在工作与教务之外，也有像这样与常人无二的生活。即使是最虔诚的教徒，也不能光靠信仰生存，她们同样需要食物与美酒",
 	lose = "这也是…神明所赐予的试炼吗…",
@@ -53312,7 +53312,7 @@ _G.pg.ship_skin_words[900272] = {
 	}
 }
 
-_G.pg.ship_skin_words[900273] = {
+_G.pg.base.ship_skin_words[900273] = {
 	feeling1 = "您是我见过最英明的指挥官，您的所作所为都是对的——在指挥官大人梦里的话，我也许会这么说呢。",
 	feeling3 = "“魔导书”？倔强是这么向您介绍的啊，真是有趣的说法呢~很抱歉，指挥官大人。我突然想起了一件急事，请允许我先离开一下。",
 	lose = "非常抱歉，指挥官大人，这次失败的责任完全在我。",
@@ -53374,7 +53374,7 @@ _G.pg.ship_skin_words[900273] = {
 	}
 }
 
-_G.pg.ship_skin_words[900274] = {
+_G.pg.base.ship_skin_words[900274] = {
 	feeling1 = "以为善意必定能得到善意的回应…我还是太天真了么",
 	feeling3 = "指挥官心情不好？还是累了？这种时候，来点小饼干就好了。心情和精神都可以很快恢复的哦。",
 	lose = "下次…不会再输了。",
@@ -53435,7 +53435,7 @@ _G.pg.ship_skin_words[900274] = {
 	}
 }
 
-_G.pg.ship_skin_words[900275] = {
+_G.pg.base.ship_skin_words[900275] = {
 	feeling1 = "本来还对你有点期待的…",
 	feeling3 = "没、没想到侍从你的棋艺还挺厉害的啊。以、以后我就稍微认真点对付你吧！",
 	lose = "呜…怎么会这样…",
@@ -53487,7 +53487,7 @@ _G.pg.ship_skin_words[900275] = {
 	}
 }
 
-_G.pg.ship_skin_words[900276] = {
+_G.pg.base.ship_skin_words[900276] = {
 	feeling1 = "指挥官，就像腌熟了的鲱鱼罐头一样呢…",
 	feeling3 = "大家…都能好好说出想说的话呢……没什么，你好，指挥官。",
 	lose = "…对不起，失败了",
@@ -53530,7 +53530,7 @@ _G.pg.ship_skin_words[900276] = {
 	}
 }
 
-_G.pg.ship_skin_words[900277] = {
+_G.pg.base.ship_skin_words[900277] = {
 	feeling1 = "你现在的模样，真的对得起对你付出那么多的大家吗？好好反省一下吧！",
 	feeling3 = "皇家有挺多茶会点心会之类的呢。总不去的话，感觉太不合群。去的话，什么都不吃好像也挺奇怪…放开来吃就好了？开、开什么玩笑！那些可都是卡路、…啊…咳咳，没，没什么，稍微有些失态了，抱歉。",
 	lose = "嘁，持续的作战导致了损伤么……回去整修吧。",
@@ -53581,7 +53581,7 @@ _G.pg.ship_skin_words[900277] = {
 	}
 }
 
-_G.pg.ship_skin_words[900278] = {
+_G.pg.base.ship_skin_words[900278] = {
 	feeling1 = "汝的愿望…就是让吾做和过去一样的事吗？吾…知道了",
 	feeling3 = "多和大家在一起？即使和她们在一起吾也不知道做什么，而且吾看得出来，她们在畏惧吾……汝在做什么，为什么要把吾的舰装脱下来……",
 	lose = "呜…又失败了吗…",
@@ -53686,7 +53686,7 @@ _G.pg.ship_skin_words[900278] = {
 	}
 }
 
-_G.pg.ship_skin_words[900279] = {
+_G.pg.base.ship_skin_words[900279] = {
 	feeling1 = "看来是我辞职的时候了……",
 	feeling3 = "指挥官是只要认真做就能做好的类型呢，稍微有些开心呐",
 	lose = "这副失败的样子被指挥官看到的话……绝，绝对不行！",
@@ -53720,7 +53720,7 @@ _G.pg.ship_skin_words[900279] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900280] = {
+_G.pg.base.ship_skin_words[900280] = {
 	feeling1 = "你不是我追求的强者…",
 	feeling3 = "为什么想要变强？这种事不需要理由吧，不过硬要说的话，想要赢过{namecode:161}吧",
 	lose = "啧，我记住你们了！",
@@ -53763,7 +53763,7 @@ _G.pg.ship_skin_words[900280] = {
 	}
 }
 
-_G.pg.ship_skin_words[900281] = {
+_G.pg.base.ship_skin_words[900281] = {
 	feeling1 = "指挥官，有什么事吗？",
 	feeling3 = "我看起来有点像花魁？呵呵，那么……官人，今夜便是我们最后一场幽会，请好好感受咱的温暖，然后忘了咱吧——这样如何？",
 	lose = "指挥官，万分抱歉……",
@@ -53797,7 +53797,7 @@ _G.pg.ship_skin_words[900281] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900282] = {
+_G.pg.base.ship_skin_words[900282] = {
 	feeling1 = "就算是罗德尼也有点失望了呢……",
 	feeling3 = "指挥官真是很温柔呢，一起散步时总是会照顾我放慢速度，这种细节，我很感动哦",
 	lose = "虽然还能战斗……不过还是先撤退吧",
@@ -53856,7 +53856,7 @@ _G.pg.ship_skin_words[900282] = {
 	}
 }
 
-_G.pg.ship_skin_words[900283] = {
+_G.pg.base.ship_skin_words[900283] = {
 	feeling1 = "殿下好无趣……我不要找殿下玩了……",
 	feeling3 = "虽然我也很喜欢姐姐，不过姐姐太安静啦，还是殿下好，会陪我玩！",
 	lose = "呜……姐姐你在哪，呜呜呜呜……",
@@ -53899,7 +53899,7 @@ _G.pg.ship_skin_words[900283] = {
 	}
 }
 
-_G.pg.ship_skin_words[900290] = {
+_G.pg.base.ship_skin_words[900290] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -53933,7 +53933,7 @@ _G.pg.ship_skin_words[900290] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[900291] = {
+_G.pg.base.ship_skin_words[900291] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -53967,7 +53967,7 @@ _G.pg.ship_skin_words[900291] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[900292] = {
+_G.pg.base.ship_skin_words[900292] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54001,7 +54001,7 @@ _G.pg.ship_skin_words[900292] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[900293] = {
+_G.pg.base.ship_skin_words[900293] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54035,7 +54035,7 @@ _G.pg.ship_skin_words[900293] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[900310] = {
+_G.pg.base.ship_skin_words[900310] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "咦？为什么感觉完全没有变强buli？",
@@ -54069,7 +54069,7 @@ _G.pg.ship_skin_words[900310] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900311] = {
+_G.pg.base.ship_skin_words[900311] = {
 	feeling1 = "居然能让本大人不喜欢你，要从另一个角度夸奖你一下！但是本大人才不会怒斥你，哇哈哈！享受这种虚无感吧！",
 	feeling3 = "既然你这么有耐心，告诉你一个小秘密吧，妹妹虽然总是自称比我聪明，但她才是最笨的那一个。哇哈哈，这就是长姐的仁慈呀喵！",
 	lose = "说起来为什么我会上战场purin.purin？！",
@@ -54103,7 +54103,7 @@ _G.pg.ship_skin_words[900311] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900324] = {
+_G.pg.base.ship_skin_words[900324] = {
 	feeling1 = "居然能让本大人不喜欢你，要从另一个角度夸奖你一下！但是本大人才不会怒斥你，哇哈哈！享受这种虚无感吧！",
 	feeling3 = "既然你这么有耐心，告诉你一个小秘密吧，妹妹虽然总是自称比我聪明，但她才是最笨的那一个。哇哈哈，这就是长姐的仁慈呀喵！",
 	lose = "说起来为什么我会上战场purin.purin？！",
@@ -54137,7 +54137,7 @@ _G.pg.ship_skin_words[900324] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900350] = {
+_G.pg.base.ship_skin_words[900350] = {
 	feeling1 = "舰队的事务就请交给我吧",
 	feeling3 = "指挥官，虽然尊重我的意见是好事，不过您只要贯彻自己的想法就好，而且如果我不赞同您的话，是不会站在您身边的，呵呵",
 	lose = "全军撤退，不要产生无谓的牺牲",
@@ -54171,7 +54171,7 @@ _G.pg.ship_skin_words[900350] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[900351] = {
+_G.pg.base.ship_skin_words[900351] = {
 	feeling1 = "啊，让女孩子落泪可不行啊，指挥官。你该好好反省下自己了！",
 	feeling3 = "不知不觉间，大家也熟络起来了呢~下次想聊什么？舰装技术？还是日常生活？……欸，我来选吗？",
 	lose = "不敢相信，我们居然被敌人压制住了……在找出还击的方法之前，我是不会休息的！",
@@ -54256,7 +54256,7 @@ _G.pg.ship_skin_words[900351] = {
 	}
 }
 
-_G.pg.ship_skin_words[9702010] = {
+_G.pg.base.ship_skin_words[9702010] = {
 	feeling1 = "如果你决定封闭自己内心的话，我就去做我自己的事情了哦。",
 	feeling3 = "拥有一双看透一切的眼睛，却并没有一双解决一切的双手……我不想再经历这种痛苦的事了。指挥官，你一定能做得比我更好吧。",
 	lose = "是有什么连我都没注意到的情报么…算了，就这样吧。",
@@ -54301,7 +54301,7 @@ _G.pg.ship_skin_words[9702010] = {
 	}
 }
 
-_G.pg.ship_skin_words[9704010] = {
+_G.pg.base.ship_skin_words[9704010] = {
 	feeling1 = "就你这种小鱼小虾也配命令我？真是让人笑话。",
 	feeling3 = "你好像很在意我的事情。对这样的我还如此执着，不知道该说你愣头青呢，还是死心眼呢。",
 	lose = "撤退？呵呵，呵呵呵……不是还没结束吗，为什么要撤退？",
@@ -54344,7 +54344,7 @@ _G.pg.ship_skin_words[9704010] = {
 	}
 }
 
-_G.pg.ship_skin_words[9704020] = {
+_G.pg.base.ship_skin_words[9704020] = {
 	feeling1 = "像你这样软弱的指挥官，是没法肩负起整个舰队的。",
 	feeling3 = "你的港区里有没有喜欢切磋的人？向我介绍介绍几个吧。",
 	lose = "抱歉，我现在还不能后退。",
@@ -54378,7 +54378,7 @@ _G.pg.ship_skin_words[9704020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9705010] = {
+_G.pg.base.ship_skin_words[9705010] = {
 	feeling1 = "事到如今，我也无法再为殿下做什么了。",
 	feeling3 = "殿下，您是在担心我吗？感谢关心，我每天都会向神明祈求祝福与保佑——",
 	lose = "无法祓除的诅咒么…也罢。",
@@ -54412,7 +54412,7 @@ _G.pg.ship_skin_words[9705010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9705020] = {
+_G.pg.base.ship_skin_words[9705020] = {
 	feeling1 = "殿下？我知道你在那里哦~不要再躲藏了，乖乖地出来认错吧~",
 	feeling3 = "唔，为什么总有孩子会坚持不下去呢？指挥官也是，时不时地在为她们开脱呢…这样一来，大家不就都没法变强了嘛…",
 	lose = "到底是哪里出了问题呢…难道说，有人在偷懒？",
@@ -54446,7 +54446,7 @@ _G.pg.ship_skin_words[9705020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9706010] = {
+_G.pg.base.ship_skin_words[9706010] = {
 	feeling1 = "我怎么摊上了个这么软弱的指挥官……",
 	feeling3 = "眼罩？对战斗不会造成什么影响的，放心吧。",
 	lose = "啊啊啊真是不爽！下次一定要把你们都砍了！",
@@ -54480,7 +54480,7 @@ _G.pg.ship_skin_words[9706010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9706020] = {
+_G.pg.base.ship_skin_words[9706020] = {
 	feeling1 = "我是成熟的大人，憧憬青梅竹马之类的……",
 	feeling3 = "指挥官，您对青梅竹马之类的角色——我是说故事里的那种……是怎么看的呢？",
 	lose = "我已经做好觉悟了…！",
@@ -54514,7 +54514,7 @@ _G.pg.ship_skin_words[9706020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9707010] = {
+_G.pg.base.ship_skin_words[9707010] = {
 	feeling1 = "…别来管我。",
 	feeling3 = "战场上片刻的犹豫，带来的也许就是全盘的溃败。所以，我从不在战斗时思考如何取胜之外的事情。",
 	lose = "姐姐…对不起……",
@@ -54548,7 +54548,7 @@ _G.pg.ship_skin_words[9707010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[9707020] = {
+_G.pg.base.ship_skin_words[9707020] = {
 	feeling1 = "如果你还听得进去的话，我劝你回头，指挥官阁下。",
 	feeling3 = "舰船若是迷失了方向，终究会沉没于大海，人也一样。指挥官阁下，在你的心中，有一个正确而坚定的航向吗？",
 	lose = "不是每次的战斗，都能有这样的退路…",
@@ -54607,7 +54607,7 @@ _G.pg.ship_skin_words[9707020] = {
 	}
 }
 
-_G.pg.ship_skin_words[9707030] = {
+_G.pg.base.ship_skin_words[9707030] = {
 	feeling1 = "别等到危机来临的时候再后悔，到那时可就来不及了。",
 	feeling3 = "花札？有些时日没听到这个东西了呢…若是有兴趣的话，完成工作之后，陪你来一局也无妨。",
 	lose = "留给我们的时间不多了…",
@@ -54650,7 +54650,7 @@ _G.pg.ship_skin_words[9707030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100010] = {
+_G.pg.base.ship_skin_words[10100010] = {
 	feeling1 = "呃？你说什么？耳朵进香蕉了听不清楚",
 	feeling3 = "对了！指挥官。下次也来紫曜之都玩吧～大家一定都会很开心的～",
 	lose = "非常遗憾 涅普子 输掉了",
@@ -54703,7 +54703,7 @@ _G.pg.ship_skin_words[10100010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100020] = {
+_G.pg.base.ship_skin_words[10100020] = {
 	feeling1 = "能赶紧从我的视线里消失吗？",
 	feeling3 = "我的朋友们说下次也想和指挥官一起吃午饭，没问题吧？我当然也会参加了。要好好看着你，防止你得意忘形做出什么奇怪的事情才行呢",
 	lose = "我一辈子都不会忘记这次失败的。所以才要变得更强",
@@ -54756,7 +54756,7 @@ _G.pg.ship_skin_words[10100020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100030] = {
+_G.pg.base.ship_skin_words[10100030] = {
 	feeling1 = "……谁？",
 	feeling3 = "哎呀，真巧呢。我也正好想去你那一趟。然后今天的是这本小说……",
 	lose = "没想到会被逼迫到这地步…",
@@ -54807,7 +54807,7 @@ _G.pg.ship_skin_words[10100030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100040] = {
+_G.pg.base.ship_skin_words[10100040] = {
 	feeling1 = "我可以回去了吗？",
 	feeling3 = "今天想办场网游的线下聚会呢。指挥官当然也会参加的吧？参加者就暂定为我和指挥官两个人了哦",
 	lose = "这就是失败……原来如此，确实是场令人热血沸腾的战斗",
@@ -54868,7 +54868,7 @@ _G.pg.ship_skin_words[10100040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100050] = {
+_G.pg.base.ship_skin_words[10100050] = {
 	feeling1 = "没想到你是这么不济的一个人……",
 	feeling3 = "哎呀，这不是指挥官吗。来得正好，有个怎么都闯不过的关卡，能来帮帮忙吗",
 	lose = "因为我的能力不足…让其他伙伴们也受苦了呢……",
@@ -54921,7 +54921,7 @@ _G.pg.ship_skin_words[10100050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100051] = {
+_G.pg.base.ship_skin_words[10100051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -54955,7 +54955,7 @@ _G.pg.ship_skin_words[10100051] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[10100060] = {
+_G.pg.base.ship_skin_words[10100060] = {
 	feeling1 = "你应该知道再靠近会是什么后果吧？",
 	feeling3 = "工作似乎很辛苦呢。我现在正好有时间，要帮忙吗？",
 	lose = "输掉原来这么让人不甘心…不过…下次一定会赢给你看的！",
@@ -55006,7 +55006,7 @@ _G.pg.ship_skin_words[10100060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100061] = {
+_G.pg.base.ship_skin_words[10100061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55040,7 +55040,7 @@ _G.pg.ship_skin_words[10100061] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[10100070] = {
+_G.pg.base.ship_skin_words[10100070] = {
 	feeling1 = "我一点都不想看到你这货的脸！",
 	feeling3 = "虽然是个不怎么可靠的指挥官，但我还是对你有所期待的哦？",
 	lose = "下次再拖后腿…就干掉你",
@@ -55091,7 +55091,7 @@ _G.pg.ship_skin_words[10100070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100071] = {
+_G.pg.base.ship_skin_words[10100071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55125,7 +55125,7 @@ _G.pg.ship_skin_words[10100071] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[10100080] = {
+_G.pg.base.ship_skin_words[10100080] = {
 	feeling1 = "我没有什么要和你说的",
 	feeling3 = "最近在工作上会不会太依靠我了？不，我是没关系，但这样下去指挥官就有点让人担心了呢",
 	lose = "没想到我会犯下这种失误…下次绝不会输了",
@@ -55178,7 +55178,7 @@ _G.pg.ship_skin_words[10100080] = {
 	}
 }
 
-_G.pg.ship_skin_words[10100081] = {
+_G.pg.base.ship_skin_words[10100081] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55212,7 +55212,7 @@ _G.pg.ship_skin_words[10100081] = {
 	detail = ""
 }
 
-_G.pg.ship_skin_words[10200010] = {
+_G.pg.base.ship_skin_words[10200010] = {
 	feeling1 = "审核不通过！",
 	feeling3 = "指挥官，快发条弹幕夸夸我！",
 	lose = "难道是哪里出现什么BUG了吗？",
@@ -55246,7 +55246,7 @@ _G.pg.ship_skin_words[10200010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10200020] = {
+_G.pg.base.ship_skin_words[10200020] = {
 	feeling1 = "非常抱歉，本视频有可能由于以下原因导致无法正常播放",
 	feeling3 = "指挥官，弹幕...飘过去了...",
 	lose = "电量不足…",
@@ -55280,7 +55280,7 @@ _G.pg.ship_skin_words[10200020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300010] = {
+_G.pg.base.ship_skin_words[10300010] = {
 	feeling1 = "虽然不成器的孩子也有可爱之处…不过废柴到这个地步就不太行了吧。要给点惩·罚·措·施了呢（尾巴逼近过来",
 	feeling3 = "为什么呢，总觉得指挥官不是陌生人。要打比方的话…对，就像克罗一样的感觉？就连有点坏心眼的地方都很像",
 	lose = "我来拖住敌人…指挥官带着大家先逃吧！",
@@ -55314,7 +55314,7 @@ _G.pg.ship_skin_words[10300010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300011] = {
+_G.pg.base.ship_skin_words[10300011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55348,7 +55348,7 @@ _G.pg.ship_skin_words[10300011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300020] = {
+_G.pg.base.ship_skin_words[10300020] = {
 	feeling1 = "像你这般愚蠢顽劣的人，根本不配和兄长大人和“那个人”相比",
 	feeling3 = "嗯嗯……干的不错啊。做到这份上…不得不对指挥官刮目相看了呢。虽然还不及兄长，不过勉强承认你达到“那个人”的水平了吧",
 	lose = "又是…这样……兄长大人，对不起……",
@@ -55382,7 +55382,7 @@ _G.pg.ship_skin_words[10300020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300021] = {
+_G.pg.base.ship_skin_words[10300021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55416,7 +55416,7 @@ _G.pg.ship_skin_words[10300021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300030] = {
+_G.pg.base.ship_skin_words[10300030] = {
 	feeling1 = "非常抱歉……我无法满足指挥官大人的期待……",
 	feeling3 = "指挥官大人…有什么男性朋友吗？和那位男性朋友关系和睦吗？有结下炙热的友谊吗？有的话请务必告诉我详细的……！",
 	lose = "对、对不起。都怪我拖了大家后腿……",
@@ -55450,7 +55450,7 @@ _G.pg.ship_skin_words[10300030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300031] = {
+_G.pg.base.ship_skin_words[10300031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55484,7 +55484,7 @@ _G.pg.ship_skin_words[10300031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300040] = {
+_G.pg.base.ship_skin_words[10300040] = {
 	feeling1 = "失望…我们，只有主人",
 	feeling3 = "从早安到晚安都在一起",
 	lose = "输了……",
@@ -55518,7 +55518,7 @@ _G.pg.ship_skin_words[10300040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300041] = {
+_G.pg.base.ship_skin_words[10300041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55552,7 +55552,7 @@ _G.pg.ship_skin_words[10300041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300050] = {
+_G.pg.base.ship_skin_words[10300050] = {
 	feeling1 = "果然，值得我们侍奉的只有主人……",
 	feeling3 = "作为下仆，无论何时何种状况都要陪伴在主人身边。无论什么事都请让我们一同前往",
 	lose = "非常抱歉，下次一定会挽回的",
@@ -55586,7 +55586,7 @@ _G.pg.ship_skin_words[10300050] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300051] = {
+_G.pg.base.ship_skin_words[10300051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55620,7 +55620,7 @@ _G.pg.ship_skin_words[10300051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300060] = {
+_G.pg.base.ship_skin_words[10300060] = {
 	feeling1 = "…啊，对不起。没有注意到您",
 	feeling3 = "在图斯库尔也经常帮贝纳威大人处理事务……公务繁忙的男人真是辛苦呢。有我能帮忙的事情请尽管说哦",
 	lose = "这等丑态…可不能让小久看见了",
@@ -55654,7 +55654,7 @@ _G.pg.ship_skin_words[10300060] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10300061] = {
+_G.pg.base.ship_skin_words[10300061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55688,7 +55688,7 @@ _G.pg.ship_skin_words[10300061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10400010] = {
+_G.pg.base.ship_skin_words[10400010] = {
 	feeling1 = "花Q！",
 	feeling3 = "在这里加个音效，再加上字幕…嘿咻，哦哦，指挥官上手很快嘛。就按这个势头，以做出更好的动画为目标努力吧！",
 	lose = "啊！刚才的不算！接下来才是正式的啦！！",
@@ -55741,7 +55741,7 @@ _G.pg.ship_skin_words[10400010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10400011] = {
+_G.pg.base.ship_skin_words[10400011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -55775,7 +55775,7 @@ _G.pg.ship_skin_words[10400011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10400020] = {
+_G.pg.base.ship_skin_words[10400020] = {
 	feeling1 = "不说敬语也可以了吧？",
 	feeling3 = "果然为了“将大家联系在一起”，还是得学习更多的知识才行呢…！指挥官大人，请多多给我指导与鞭笞吧！",
 	lose = "身为高智能超级AI的我竟然会输……",
@@ -55818,7 +55818,7 @@ _G.pg.ship_skin_words[10400020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10400030] = {
+_G.pg.base.ship_skin_words[10400030] = {
 	feeling1 = "放心吧，我是不会邀请指挥官来演唱会的",
 	feeling3 = "想要办好演唱会的话，唱歌和跳舞的练习，还有talk的准备都不能缺少呢！还要开始舞台的准备……啊啊～有好多事情要做啊——！",
 	lose = ".....这个教训绝对要留给下次演唱会！",
@@ -55861,7 +55861,7 @@ _G.pg.ship_skin_words[10400030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10400040] = {
+_G.pg.base.ship_skin_words[10400040] = {
 	feeling1 = "啊啊啊 啊啊 aa 啊啊 aaa 啊啊啊啊啊……",
 	feeling3 = "诶？恐怖游戏的实况？不不，不会出的……不要不要不要不要！",
 	lose = "啊—好气！绝对不会放过你们的！！",
@@ -55904,7 +55904,7 @@ _G.pg.ship_skin_words[10400040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500010] = {
+_G.pg.base.ship_skin_words[10500010] = {
 	feeling1 = "指挥官这样可不行的，太废柴了…嘿咻~就让我稍微帮你一把，一起通关这个游戏吧！",
 	feeling3 = "聊着聊着就要到深夜了呢~为了回报刚才一直叫着“猫咪猫咪”的指挥官，我决定了！要在你耳边报菜名，深夜放毒哦~",
 	lose = "呜喵~~！这里的难度设置是不是有点奇怪？！",
@@ -55968,7 +55968,7 @@ _G.pg.ship_skin_words[10500010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500011] = {
+_G.pg.base.ship_skin_words[10500011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56002,7 +56002,7 @@ _G.pg.ship_skin_words[10500011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500020] = {
+_G.pg.base.ship_skin_words[10500020] = {
 	feeling1 = "啊，不快点说些什么的话…",
 	feeling3 = "来到这个世界以后，发现需要另外学习的东西就像山一样多呢，不过我是不会轻言放弃的，加油Fight~",
 	lose = "这种时候，还是先稍微冷静一下吧…",
@@ -56036,7 +56036,7 @@ _G.pg.ship_skin_words[10500020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500021] = {
+_G.pg.base.ship_skin_words[10500021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56070,7 +56070,7 @@ _G.pg.ship_skin_words[10500021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500030] = {
+_G.pg.base.ship_skin_words[10500030] = {
 	feeling1 = "我，湊阿库娅马上就要毕业了，虽然时间短暂，不过，还是感谢您一直以来的关照",
 	feeling3 = "迷糊女仆？废柴天使？！！太过分了，指挥官！只是把水烧开这种程度的话，完全没有问题哦！！！",
 	lose = "完蛋啦--！对不起，对不起，对不起，真的十分对不起！！！",
@@ -56122,7 +56122,7 @@ _G.pg.ship_skin_words[10500030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500031] = {
+_G.pg.base.ship_skin_words[10500031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "嘶--------咦？刚刚一瞬间的记忆，好像消失了？",
@@ -56156,7 +56156,7 @@ _G.pg.ship_skin_words[10500031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500040] = {
+_G.pg.base.ship_skin_words[10500040] = {
 	feeling1 = "再这样下去，可爱的女孩子们，祭都要包揽了哦？",
 	feeling3 = "指挥官喜欢清纯可爱的声线么？那就立即切换~“konkon狐狸~”…嘿嘿，厉害吧？我的声线有很多种变化呐~",
 	lose = "哇啊啊！作为天才女子高中生的祭居然输了.....",
@@ -56208,7 +56208,7 @@ _G.pg.ship_skin_words[10500040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500041] = {
+_G.pg.base.ship_skin_words[10500041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56242,7 +56242,7 @@ _G.pg.ship_skin_words[10500041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500050] = {
+_G.pg.base.ship_skin_words[10500050] = {
 	feeling1 = "啊~啊，指挥官的实力就是这样子的么…真失望……",
 	feeling3 = "指挥官大人，和余一起在游戏里一决胜负到天亮吧！余可不会输哦~",
 	lose = "居然…输了？下次绝对要取胜…！",
@@ -56285,7 +56285,7 @@ _G.pg.ship_skin_words[10500050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500051] = {
+_G.pg.base.ship_skin_words[10500051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56319,7 +56319,7 @@ _G.pg.ship_skin_words[10500051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500060] = {
+_G.pg.base.ship_skin_words[10500060] = {
 	feeling1 = "哇啊啊啊，做实况的软件没关掉么？明明都已经和大家说再见了…该怎么关掉啊？",
 	feeling3 = "要给诗音制订“成长计划”…这计划实质上就是给诗音礼物？喂，不要尽买小孩子的玩具给我啦！",
 	lose = "Neeeeee！好遗憾…不过诗音毕竟是天才嘛，即使偶尔失败也是可以被原谅的…吧…？",
@@ -56363,7 +56363,7 @@ _G.pg.ship_skin_words[10500060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500061] = {
+_G.pg.base.ship_skin_words[10500061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56397,7 +56397,7 @@ _G.pg.ship_skin_words[10500061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10500070] = {
+_G.pg.base.ship_skin_words[10500070] = {
 	feeling1 = "真是的，指挥官，不能偷懒哦~好孩子的摸头鼓励就先收回了！让咱看看指挥官帅气的一面吧~",
 	feeling3 = "指挥官指挥官！嘿嘿，没事，只是想叫叫而已~",
 	lose = "哇啊……等等，等一下啊…！",
@@ -56440,7 +56440,7 @@ _G.pg.ship_skin_words[10500070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10500071] = {
+_G.pg.base.ship_skin_words[10500071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56474,7 +56474,7 @@ _G.pg.ship_skin_words[10500071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600010] = {
+_G.pg.base.ship_skin_words[10600010] = {
 	feeling1 = "笨蛋笨蛋笨蛋！再这样下去的话，玛莉可要讨厌你了！",
 	feeling3 = "港区里有好多厉害的女仆小姐呢。不过，就算和她们比起来，玛莉也是不会输的！",
 	lose = "输掉了…怎么办才好啊，指挥官先生…",
@@ -56517,7 +56517,7 @@ _G.pg.ship_skin_words[10600010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600011] = {
+_G.pg.base.ship_skin_words[10600011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56551,7 +56551,7 @@ _G.pg.ship_skin_words[10600011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600020] = {
+_G.pg.base.ship_skin_words[10600020] = {
 	feeling1 = "呜呜呜，我要回老家找奶奶去了！",
 	feeling3 = "指挥官，回头陪我去商店街逛逛吧？我想给奶奶带点纪念品什么的~",
 	lose = "啊呜…已经使不上力了啦~",
@@ -56603,7 +56603,7 @@ _G.pg.ship_skin_words[10600020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600021] = {
+_G.pg.base.ship_skin_words[10600021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56637,7 +56637,7 @@ _G.pg.ship_skin_words[10600021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600030] = {
+_G.pg.base.ship_skin_words[10600030] = {
 	feeling1 = "指挥官，我是真的生气了！请好好反省！",
 	feeling3 = "重樱似乎也有不少对“忍术”兴趣浓厚的舰船伙伴呢…嗯？指挥官也感兴趣吗？那个…对不起，那是不太能在他人面前使出的东西呢…",
 	lose = "咕呜…不应该变成这样的…",
@@ -56682,7 +56682,7 @@ _G.pg.ship_skin_words[10600030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600031] = {
+_G.pg.base.ship_skin_words[10600031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56716,7 +56716,7 @@ _G.pg.ship_skin_words[10600031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600040] = {
+_G.pg.base.ship_skin_words[10600040] = {
 	feeling1 = "这个港口挺有趣的，但是指挥官多少有些靠不住的感觉？看来这部分得靠我来好好补足一下了呢~♪",
 	feeling3 = "虽然大家在战斗时都很厉害，但平时果然还是普通的女孩子呢，我还找到了和我一起看漫画的同伴哦~呵呵~",
 	lose = "是我们…输了啊…",
@@ -56767,7 +56767,7 @@ _G.pg.ship_skin_words[10600040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600041] = {
+_G.pg.base.ship_skin_words[10600041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56801,7 +56801,7 @@ _G.pg.ship_skin_words[10600041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600050] = {
+_G.pg.base.ship_skin_words[10600050] = {
 	feeling1 = "我要带着海咲离开这里，再也不会回来了。",
 	feeling3 = "既然海咲在港口玩得挺开心的，那我也不多说啥了。但是，如果你敢对海咲做出奇怪的举动的话，我绝对不会轻饶你！",
 	lose = "都怪你支援不够了，笨狗…",
@@ -56852,7 +56852,7 @@ _G.pg.ship_skin_words[10600050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600051] = {
+_G.pg.base.ship_skin_words[10600051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56886,7 +56886,7 @@ _G.pg.ship_skin_words[10600051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600060] = {
+_G.pg.base.ship_skin_words[10600060] = {
 	feeling1 = "汝…令人提不起兴趣啊……",
 	feeling3 = "这个港区里还是有不少我不熟悉的“技术”产物呢，呵呵，指挥官殿下，是不是应该一一为我介绍下呢？毕竟，汝应是这方面的专家，不是吗？",
 	lose = "居然会被逼到这个程度…小看汝等了啊…",
@@ -56937,7 +56937,7 @@ _G.pg.ship_skin_words[10600060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600061] = {
+_G.pg.base.ship_skin_words[10600061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -56971,7 +56971,7 @@ _G.pg.ship_skin_words[10600061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10600070] = {
+_G.pg.base.ship_skin_words[10600070] = {
 	feeling1 = "指挥官，可不能因为一时的失利而气馁哦？人生本来就是有输有赢的，对吧！",
 	feeling3 = "呼呼，指挥官，来见识下我最近新学会的扑克技巧吧~看好了！……啊，真是的，不是看我，是看牌啦~",
 	lose = "输了啊…好不甘心！下次…绝对不会再输了！",
@@ -57014,7 +57014,7 @@ _G.pg.ship_skin_words[10600070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10600071] = {
+_G.pg.base.ship_skin_words[10600071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57048,7 +57048,7 @@ _G.pg.ship_skin_words[10600071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700010] = {
+_G.pg.base.ship_skin_words[10700010] = {
 	feeling1 = "啊，不好意思…刚才一直在看剧本…有什么事吗？",
 	feeling3 = "疼疼疼…啊，指挥官你好。刚才在走廊上摔了一跤…诶，这个创可贴…非常感谢，指挥官~",
 	lose = "呜，不小心摔倒了……下次…我会努力不摔跤的！",
@@ -57107,7 +57107,7 @@ _G.pg.ship_skin_words[10700010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700011] = {
+_G.pg.base.ship_skin_words[10700011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57141,7 +57141,7 @@ _G.pg.ship_skin_words[10700011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700020] = {
+_G.pg.base.ship_skin_words[10700020] = {
 	feeling1 = "有事吗？",
 	feeling3 = "虽然偶像的工作不仅仅是唱歌而已。 但是提高自己的唱功，对于什么样的工作都会有所帮助…我是这么想的",
 	lose = "……唔！还得再多加练习才行…",
@@ -57192,7 +57192,7 @@ _G.pg.ship_skin_words[10700020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700021] = {
+_G.pg.base.ship_skin_words[10700021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57226,7 +57226,7 @@ _G.pg.ship_skin_words[10700021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700030] = {
+_G.pg.base.ship_skin_words[10700030] = {
 	feeling1 = "哦，原来你在的吗？",
 	feeling3 = "这是我从小就在一起的好朋友呢。对吧，小兔子？",
 	lose = "居然输了…等我加强练习，绝对不会再失败了！",
@@ -57285,7 +57285,7 @@ _G.pg.ship_skin_words[10700030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700031] = {
+_G.pg.base.ship_skin_words[10700031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57319,7 +57319,7 @@ _G.pg.ship_skin_words[10700031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700040] = {
+_G.pg.base.ship_skin_words[10700040] = {
 	feeling1 = "非常抱歉…我不知道该说什么…",
 	feeling3 = "您好，指挥官。我在散步哦，不过不小心有点迷路了…请问，去宿舍的路在哪一边呢~？",
 	lose = "各位，还好吗…？快点回到安全的地方吧…！",
@@ -57378,7 +57378,7 @@ _G.pg.ship_skin_words[10700040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700041] = {
+_G.pg.base.ship_skin_words[10700041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57412,7 +57412,7 @@ _G.pg.ship_skin_words[10700041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700050] = {
+_G.pg.base.ship_skin_words[10700050] = {
 	feeling1 = "上次演出需要改进的地方还有…啊，不好意思，我现在有点忙。",
 	feeling3 = "辛苦了，指挥官。还是一如既往地忙碌呢。我正好有时间哦，需要我帮什么忙吗？",
 	lose = "看来是计算失误了啊……先重整一下势头吧！",
@@ -57471,7 +57471,7 @@ _G.pg.ship_skin_words[10700050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700051] = {
+_G.pg.base.ship_skin_words[10700051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57505,7 +57505,7 @@ _G.pg.ship_skin_words[10700051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700060] = {
+_G.pg.base.ship_skin_words[10700060] = {
 	feeling1 = "不行啊——好感度这么低可没法通关呢~……还要再加把劲才行啊，指挥官。",
 	feeling3 = "嘿咻…在门框上放上黑板擦，椅子放上老鼠玩具……呜哇！指挥官已经回来了吗！切——恶作剧失败了啊~",
 	lose = "哇！HP槽怎么是红色的！！快撤退——！",
@@ -57564,7 +57564,7 @@ _G.pg.ship_skin_words[10700060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700061] = {
+_G.pg.base.ship_skin_words[10700061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57598,7 +57598,7 @@ _G.pg.ship_skin_words[10700061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10700070] = {
+_G.pg.base.ship_skin_words[10700070] = {
 	feeling1 = "呜哇，明明让指挥官帮我抽卡……结果一个稀有角色都没有出啊！",
 	feeling3 = "指挥官救命！恶作剧的时候被发现了，现在在被追着——！让我躲一会儿就好~！",
 	lose = "哇哇！没听说还会这样啊~！快点撤退啦！",
@@ -57657,7 +57657,7 @@ _G.pg.ship_skin_words[10700070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10700071] = {
+_G.pg.base.ship_skin_words[10700071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57691,7 +57691,7 @@ _G.pg.ship_skin_words[10700071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800010] = {
+_G.pg.base.ship_skin_words[10800010] = {
 	feeling1 = "啊，嗯……（跟这人有什么要说的来着）",
 	feeling3 = "（哼歌）～♪啊，指挥官你好。呼呼，刚刚碰上些开心的事…",
 	lose = "不是吧，我失误了？！大家快逃！",
@@ -57750,7 +57750,7 @@ _G.pg.ship_skin_words[10800010] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800011] = {
+_G.pg.base.ship_skin_words[10800011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57784,7 +57784,7 @@ _G.pg.ship_skin_words[10800011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800020] = {
+_G.pg.base.ship_skin_words[10800020] = {
 	feeling1 = "啊哈哈，真是对你无语了呢～",
 	feeling3 = "啊，是指挥官。我正好要去小卖部，一起吗？想去买制作手办的道具ー",
 	lose = "诶诶ー！怎么会有那种招数？真的莫名其妙……",
@@ -57843,7 +57843,7 @@ _G.pg.ship_skin_words[10800020] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800021] = {
+_G.pg.base.ship_skin_words[10800021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57877,7 +57877,7 @@ _G.pg.ship_skin_words[10800021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800030] = {
+_G.pg.base.ship_skin_words[10800030] = {
 	feeling1 = "啊ー……你原来是个很不好的人啊……",
 	feeling3 = "我说，刚才起怎么一直看着我啊……问我为什么一直戴着口罩？这个是有很多原因的啦ー",
 	lose = "等等，我可没听说有这么强的。跟JK打，动什么真格嘛ー！",
@@ -57936,7 +57936,7 @@ _G.pg.ship_skin_words[10800030] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800031] = {
+_G.pg.base.ship_skin_words[10800031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -57970,7 +57970,7 @@ _G.pg.ship_skin_words[10800031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800040] = {
+_G.pg.base.ship_skin_words[10800040] = {
 	feeling1 = "（嗯ー那家伙有点……哇哇！指挥官走过来了！）找我有事吗～？",
 	feeling3 = "指挥官有SNS账号之类的吗？有的话就告诉我呗！我来点个关注～",
 	lose = "停停！我举白旗了，别再攻击了ー！",
@@ -58029,7 +58029,7 @@ _G.pg.ship_skin_words[10800040] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800041] = {
+_G.pg.base.ship_skin_words[10800041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58063,7 +58063,7 @@ _G.pg.ship_skin_words[10800041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800050] = {
+_G.pg.base.ship_skin_words[10800050] = {
 	feeling1 = "嗯……对不起。",
 	feeling3 = "这次是怎么了？啊，那是我的玩偶……谢谢你，指挥官。",
 	lose = "不是吧，糟透了……大家，先撤退吧！",
@@ -58138,7 +58138,7 @@ _G.pg.ship_skin_words[10800050] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800051] = {
+_G.pg.base.ship_skin_words[10800051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58172,7 +58172,7 @@ _G.pg.ship_skin_words[10800051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800060] = {
+_G.pg.base.ship_skin_words[10800060] = {
 	feeling1 = "我可不想成为指挥官这样的人啊。",
 	feeling3 = "每当看到这个舰装，我就会想起你呢。现在的你在做什么呢，全世界最帅气的，我的朋友……",
 	lose = "诶诶诶，不是吧不是吧！果然只靠我不行吗ー！",
@@ -58231,7 +58231,7 @@ _G.pg.ship_skin_words[10800060] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800061] = {
+_G.pg.base.ship_skin_words[10800061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58265,7 +58265,7 @@ _G.pg.ship_skin_words[10800061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[10800070] = {
+_G.pg.base.ship_skin_words[10800070] = {
 	feeling1 = "果然，没有怪兽的世界什么的，还是……",
 	feeling3 = "想做的事么……现在已经有点迷茫了。不过在这里待着的话，是不是能找到什么想做的呢……",
 	lose = "输了……但是，下次应该能做得更好。",
@@ -58324,7 +58324,7 @@ _G.pg.ship_skin_words[10800070] = {
 	}
 }
 
-_G.pg.ship_skin_words[10800071] = {
+_G.pg.base.ship_skin_words[10800071] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58358,7 +58358,7 @@ _G.pg.ship_skin_words[10800071] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299010] = {
+_G.pg.base.ship_skin_words[299010] = {
 	feeling1 = "指挥官，你知道我原本对你有多么期待吗？很遗憾，你永远不会知道了~",
 	feeling3 = "正确答案是——从现在开始努力不让这种情况发生~嘻嘻，指挥官，想要哄我的话，还要多动动脑子才行哦~",
 	lose = "……下次，不会犯这种错误了",
@@ -58426,7 +58426,7 @@ _G.pg.ship_skin_words[299010] = {
 	}
 }
 
-_G.pg.ship_skin_words[299011] = {
+_G.pg.base.ship_skin_words[299011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58460,7 +58460,7 @@ _G.pg.ship_skin_words[299011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299020] = {
+_G.pg.base.ship_skin_words[299020] = {
 	feeling1 = "无论如何，我都永远比不上那些KGV吗！？",
 	feeling3 = "爱是不应期待回报的，所以，无论皇家对我做过什么，我对皇家的感情都不会改变",
 	lose = "又要……被放弃了吗？",
@@ -58511,7 +58511,7 @@ _G.pg.ship_skin_words[299020] = {
 	}
 }
 
-_G.pg.ship_skin_words[299021] = {
+_G.pg.base.ship_skin_words[299021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58545,7 +58545,7 @@ _G.pg.ship_skin_words[299021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299022] = {
+_G.pg.base.ship_skin_words[299022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58579,7 +58579,7 @@ _G.pg.ship_skin_words[299022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399010] = {
+_G.pg.base.ship_skin_words[399010] = {
 	feeling1 = "早知会遇到你这样的人，这个世间不来也罢……",
 	feeling3 = "帅气……吗？我倒是更加羡慕总是笑容满面的大家……和她们相比，我只是不知道怎么表露感情而已",
 	lose = "呜…需要加倍修行了…",
@@ -58633,7 +58633,7 @@ _G.pg.ship_skin_words[399010] = {
 	}
 }
 
-_G.pg.ship_skin_words[399011] = {
+_G.pg.base.ship_skin_words[399011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58667,7 +58667,7 @@ _G.pg.ship_skin_words[399011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399012] = {
+_G.pg.base.ship_skin_words[399012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58701,7 +58701,7 @@ _G.pg.ship_skin_words[399012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399013] = {
+_G.pg.base.ship_skin_words[399013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58735,7 +58735,7 @@ _G.pg.ship_skin_words[399013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399014] = {
+_G.pg.base.ship_skin_words[399014] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58769,7 +58769,7 @@ _G.pg.ship_skin_words[399014] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399020] = {
+_G.pg.base.ship_skin_words[399020] = {
 	feeling1 = "你没有让我举刀的资格……",
 	feeling3 = "哈啊…为什么指挥官老是露出这副不争气的表情呢？让人忍不住…想训斥一番…",
 	lose = "咕…我还能…战斗！",
@@ -58803,7 +58803,7 @@ _G.pg.ship_skin_words[399020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399021] = {
+_G.pg.base.ship_skin_words[399021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58837,7 +58837,7 @@ _G.pg.ship_skin_words[399021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499010] = {
+_G.pg.base.ship_skin_words[499010] = {
 	feeling1 = "指挥官……不可原谅！",
 	feeling3 = "在战场上互相杀戮是我们的使命……所以，稍微有点沉溺其中也很正常吧",
 	lose = "唔唔，今天的战术是佯败设伏吗？",
@@ -58871,7 +58871,7 @@ _G.pg.ship_skin_words[499010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499011] = {
+_G.pg.base.ship_skin_words[499011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58905,7 +58905,7 @@ _G.pg.ship_skin_words[499011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899010] = {
+_G.pg.base.ship_skin_words[899010] = {
 	feeling1 = "这里的同僚皆是义人，唯独你不是。接受神的审判吧，罪人",
 	feeling3 = "在这里的同僚们总是那么阳光，似乎没有什么能让她们烦恼，这里就是属于她们的迦南吗……",
 	lose = "我的神，为什么背弃我……",
@@ -58939,7 +58939,7 @@ _G.pg.ship_skin_words[899010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899011] = {
+_G.pg.base.ship_skin_words[899011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -58973,7 +58973,7 @@ _G.pg.ship_skin_words[899011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899012] = {
+_G.pg.base.ship_skin_words[899012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59007,7 +59007,7 @@ _G.pg.ship_skin_words[899012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199010] = {
+_G.pg.base.ship_skin_words[199010] = {
 	feeling1 = "咦？聚会？没算上你哦，指挥官，请继续工作吧",
 	feeling3 = "虽然我很喜欢开派对，不过我从不会硬拉不喜欢集体活动的姐妹们来参加哦？但是，如果愿意来参加的话，即使不擅长交流的人，我保证也能让她找到乐趣~",
 	lose = "要是我的火力再强一点就好了……",
@@ -59060,7 +59060,7 @@ _G.pg.ship_skin_words[199010] = {
 	}
 }
 
-_G.pg.ship_skin_words[199011] = {
+_G.pg.base.ship_skin_words[199011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59094,7 +59094,7 @@ _G.pg.ship_skin_words[199011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199012] = {
+_G.pg.base.ship_skin_words[199012] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59128,7 +59128,7 @@ _G.pg.ship_skin_words[199012] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199013] = {
+_G.pg.base.ship_skin_words[199013] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59162,7 +59162,7 @@ _G.pg.ship_skin_words[199013] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199020] = {
+_G.pg.base.ship_skin_words[199020] = {
 	feeling1 = "看来指挥官并不足以拥有这份力量……",
 	feeling3 = "出击战斗固然让人热血沸腾，不过偶尔放松一下也是很重要的呢",
 	lose = "只能…暂时撤退了吗",
@@ -59196,7 +59196,7 @@ _G.pg.ship_skin_words[199020] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199021] = {
+_G.pg.base.ship_skin_words[199021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59230,7 +59230,7 @@ _G.pg.ship_skin_words[199021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199022] = {
+_G.pg.base.ship_skin_words[199022] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59264,7 +59264,7 @@ _G.pg.ship_skin_words[199022] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199023] = {
+_G.pg.base.ship_skin_words[199023] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59298,7 +59298,7 @@ _G.pg.ship_skin_words[199023] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399030] = {
+_G.pg.base.ship_skin_words[399030] = {
 	feeling1 = "如果指挥官非要荒废自己的才能，那么很快就会变成废材吧…",
 	feeling3 = "{namecode:26}级的姐姐们每次见面都会给{namecode:164}很多零食。分一些给指挥官也可以的…",
 	lose = "这不可能…一定哪里计算有误…",
@@ -59332,7 +59332,7 @@ _G.pg.ship_skin_words[399030] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399031] = {
+_G.pg.base.ship_skin_words[399031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59366,7 +59366,7 @@ _G.pg.ship_skin_words[399031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399040] = {
+_G.pg.base.ship_skin_words[399040] = {
 	feeling1 = "指挥官，我很担心你的近况……不要再这样下去了，好吗？",
 	feeling3 = "想要和重樱、还有港区的各位都搞好关系呢～不如办个交流会如何…？就由我来准备饮品和点心吧～呵呵～",
 	lose = "失败了…该怎么和指挥官交代好呢…",
@@ -59425,7 +59425,7 @@ _G.pg.ship_skin_words[399040] = {
 	}
 }
 
-_G.pg.ship_skin_words[399041] = {
+_G.pg.base.ship_skin_words[399041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59459,7 +59459,7 @@ _G.pg.ship_skin_words[399041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[399048] = {
+_G.pg.base.ship_skin_words[399048] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59493,7 +59493,7 @@ _G.pg.ship_skin_words[399048] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499020] = {
+_G.pg.base.ship_skin_words[499020] = {
 	feeling1 = "有在认真反省了吗？",
 	feeling3 = "在战场上，勇气并没有意义，谁更接近拉普拉斯的恶魔，谁就更接近胜利",
 	lose = "那么，请静待下次演奏吧",
@@ -59544,7 +59544,7 @@ _G.pg.ship_skin_words[499020] = {
 	}
 }
 
-_G.pg.ship_skin_words[499021] = {
+_G.pg.base.ship_skin_words[499021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59578,7 +59578,7 @@ _G.pg.ship_skin_words[499021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499028] = {
+_G.pg.base.ship_skin_words[499028] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59612,7 +59612,7 @@ _G.pg.ship_skin_words[499028] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[999010] = {
+_G.pg.base.ship_skin_words[999010] = {
 	feeling1 = "加斯科涅是舰船、兵器，除此以外不存在任何定义",
 	feeling3 = "与她人接触过程中，加斯科涅产生了未知的反应，“感情”和“冲动”。请指示对应的行动",
 	lose = "失败是不被允许的。……请提高加斯科涅的性能，或者进行销毁",
@@ -59646,7 +59646,7 @@ _G.pg.ship_skin_words[999010] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[999011] = {
+_G.pg.base.ship_skin_words[999011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59680,7 +59680,7 @@ _G.pg.ship_skin_words[999011] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299030] = {
+_G.pg.base.ship_skin_words[299030] = {
 	feeling1 = "呜…这就是我第一个喜欢上的人的真面目吗？",
 	feeling3 = "听我说啊，上次和重樱的舰船一起玩的时候，我摸到了真的猫耳哦！货真价实的呢！嘿嘿，很羡慕吧？…早就摸过了？真是的，你就不能满足一下我的虚荣心嘛……",
 	lose = "趁敌人没注意到的时候，赶紧溜走吧？",
@@ -59766,7 +59766,7 @@ _G.pg.ship_skin_words[299030] = {
 	}
 }
 
-_G.pg.ship_skin_words[299031] = {
+_G.pg.base.ship_skin_words[299031] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59800,7 +59800,7 @@ _G.pg.ship_skin_words[299031] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299032] = {
+_G.pg.base.ship_skin_words[299032] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59834,7 +59834,7 @@ _G.pg.ship_skin_words[299032] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299033] = {
+_G.pg.base.ship_skin_words[299033] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59868,7 +59868,7 @@ _G.pg.ship_skin_words[299033] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[299040] = {
+_G.pg.base.ship_skin_words[299040] = {
 	feeling1 = "若只是几次无心之过，我是不会放在心上的，但如果你还是这样一意孤行，那就别怪我不留情面了。",
 	feeling3 = "你对冒险也有兴趣吗？太好了，我正愁缺个伴呢，说吧，你想要的是寻找大海中的黄金秘宝，还是探寻远方的神秘国度？",
 	lose = "今天的所有屈辱，我都会铭记在心的…走着瞧吧！",
@@ -59911,7 +59911,7 @@ _G.pg.ship_skin_words[299040] = {
 	}
 }
 
-_G.pg.ship_skin_words[299041] = {
+_G.pg.base.ship_skin_words[299041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -59945,7 +59945,7 @@ _G.pg.ship_skin_words[299041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499030] = {
+_G.pg.base.ship_skin_words[499030] = {
 	feeling1 = "结果第一个指挥官就是这个样子……我还真是可怜啊。",
 	feeling3 = "实战经验不足，就用更多的实战去弥补。指挥官，请不用顾忌我的言辞，指派我去参与作战吧。",
 	lose = "哼，就当是积累实战经验吧。",
@@ -59990,7 +59990,7 @@ _G.pg.ship_skin_words[499030] = {
 	}
 }
 
-_G.pg.ship_skin_words[499040] = {
+_G.pg.base.ship_skin_words[499040] = {
 	feeling1 = "比起令我失望，我更加好奇的是，你这样的人是怎么成为指挥官的。",
 	feeling3 = "你会为逝去的战友悲伤吗？但是，如果大家都顾着悲伤，因此犹豫不决的话，这场战争就无法取得胜利。",
 	lose = "不可能……我的计划不可能出现差错……",
@@ -60024,7 +60024,7 @@ _G.pg.ship_skin_words[499040] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499041] = {
+_G.pg.base.ship_skin_words[499041] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -60058,7 +60058,7 @@ _G.pg.ship_skin_words[499041] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[899020] = {
+_G.pg.base.ship_skin_words[899020] = {
 	feeling1 = "为何，要给与我虚假的光明？",
 	feeling3 = "树木为了抵御风雨而深扎土壤，鱼儿为了种族存续逆流而上。即便知晓己身终归虚无，万物仍会奋力抵抗命运——",
 	lose = "此处…还不是终点。",
@@ -60109,7 +60109,7 @@ _G.pg.ship_skin_words[899020] = {
 	}
 }
 
-_G.pg.ship_skin_words[899021] = {
+_G.pg.base.ship_skin_words[899021] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -60143,7 +60143,7 @@ _G.pg.ship_skin_words[899021] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[199030] = {
+_G.pg.base.ship_skin_words[199030] = {
 	feeling1 = "摸摸，老师，好孩子，不哭…安克雷奇，不哭…笑笑，嗯…",
 	feeling3 = "老师…！小兔子，折好的…送给你…嗯！",
 	lose = "安克雷奇，输掉了……敌人，好可怕……",
@@ -60202,7 +60202,7 @@ _G.pg.ship_skin_words[199030] = {
 	}
 }
 
-_G.pg.ship_skin_words[399050] = {
+_G.pg.base.ship_skin_words[399050] = {
 	feeling1 = "哼，末等之流，离我远点。",
 	feeling3 = "做得不错，看来你有与我携手并进的资格…哼，如果被我发现你贪图安逸而退步的话，我会比谁都快地抛弃你在一边的。",
 	lose = "赶、赶紧撤退！……我的刀呢！？",
@@ -60247,7 +60247,7 @@ _G.pg.ship_skin_words[399050] = {
 	}
 }
 
-_G.pg.ship_skin_words[399051] = {
+_G.pg.base.ship_skin_words[399051] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",
@@ -60281,7 +60281,7 @@ _G.pg.ship_skin_words[399051] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[499050] = {
+_G.pg.base.ship_skin_words[499050] = {
 	feeling1 = "我可不会同情自甘堕落的灵魂哦？",
 	feeling3 = "指挥官，过来吧。要做什么？当然是 要你陪我喝几杯。安心吧，就算你醉了在我面前说胡话，我也不会介意的。",
 	lose = "我不会容许任何人在我面前抢走胜利的果实…等着瞧吧！",
@@ -60333,7 +60333,7 @@ _G.pg.ship_skin_words[499050] = {
 	}
 }
 
-_G.pg.ship_skin_words[499060] = {
+_G.pg.base.ship_skin_words[499060] = {
 	feeling1 = "对于不能战斗的人，我无话可说。",
 	feeling3 = "齐柏林和我都知道，你是试图反抗命运的弱小而凄惨的存在。不过我想，你应该不会就这样乖乖接受命运审判的吧？",
 	lose = "坠落亦不可避…么。",
@@ -60392,7 +60392,7 @@ _G.pg.ship_skin_words[499060] = {
 	}
 }
 
-_G.pg.ship_skin_words[499061] = {
+_G.pg.base.ship_skin_words[499061] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "…没弄清自己的立场，万分…抱歉……",
@@ -60426,7 +60426,7 @@ _G.pg.ship_skin_words[499061] = {
 	couple_encourage = {}
 }
 
-_G.pg.ship_skin_words[699010] = {
+_G.pg.base.ship_skin_words[699010] = {
 	feeling1 = "哼，扶不起的家伙。要不是受这规则所限，我早就已经……",
 	feeling3 = "你的见识与眼界…确实与那些无聊的凡俗有所不同。不过，多少再多点“野心”就好了…",
 	lose = "可恶，今日我等蒙受的羞耻，他日一定要百倍讨回！",
@@ -60477,7 +60477,7 @@ _G.pg.ship_skin_words[699010] = {
 	}
 }
 
-_G.pg.ship_skin_words[699011] = {
+_G.pg.base.ship_skin_words[699011] = {
 	feeling1 = "",
 	feeling3 = "",
 	lose = "",

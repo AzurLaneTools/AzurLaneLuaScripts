@@ -28,11 +28,14 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				check_target = "TargetShipTag",
 				quota = 1,
 				target = "TargetSelf",
 				hpUpperBound = 0.2,
 				skill_id = 12181,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Bismarck"
 				}
@@ -44,12 +47,15 @@ return {
 				"onTeammateHpRatioUpdate"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				quota = 1,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
 				hpUpperBound = 0.2,
 				skill_id = 12180,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Bismarck"
 				}

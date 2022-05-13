@@ -289,7 +289,7 @@ end
 function slot0.ToBackYardThemeFurnitrue(slot0)
 	slot1 = {}
 
-	for slot5, slot6 in ipairs(slot0.child) do
+	for slot5, slot6 in pairs(slot0.child) do
 		slot1[tonumber(slot5)] = {
 			x = slot6.x,
 			y = slot6.y

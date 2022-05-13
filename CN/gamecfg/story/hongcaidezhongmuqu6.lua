@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "碧蓝航线的联合舰队正在接近，接下来先按照计划糊弄一下就就好了吧。",
+			say = "碧蓝航线的联合舰队正在接近，接下来先按照计划糊弄一下就好了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
