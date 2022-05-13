@@ -392,7 +392,7 @@ function slot0.getNationPoint(slot0, slot1)
 end
 
 function slot0.getLeftTime(slot0)
-	if slot0:getStudyingTecItem() then
+	if slot0.techList[slot0:getStudyingTecItem()] then
 		return slot1.finishTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 and slot4 or 0
 	else
 		return 0
