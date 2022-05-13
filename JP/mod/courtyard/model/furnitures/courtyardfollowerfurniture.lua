@@ -10,10 +10,6 @@ function slot0.GetInterActionTime(slot0)
 	return math.random(5, 10)
 end
 
-function slot0.CanInterAction(slot0)
-	return false
-end
-
 function slot0.GetRatio(slot0, slot1)
 	return slot0.ratios[slot1] or 0
 end

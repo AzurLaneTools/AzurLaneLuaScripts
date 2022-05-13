@@ -2,6 +2,7 @@ slot0 = class("BaseEventLogic")
 slot1 = require("Framework.notify.event")
 
 function slot0.Ctor(slot0, slot1)
+	slot0.eventCounter = 1
 	slot0.eventStore = {}
 	slot0.event = slot1 or uv0.New()
 	slot0.tweenIdList = {}
@@ -9,10 +10,15 @@ end
 
 function slot0.bind(slot0, slot1, slot2)
 	slot0.event:connect(slot1, slot2)
-	table.insert(slot0.eventStore, {
+
+	slot3 = slot0.eventCounter
+	slot0.eventStore[slot3] = {
 		event = slot1,
 		callback = slot2
-	})
+	}
+	slot0.eventCounter = slot0.eventCounter + 1
+
+	return slot3
 end
 
 function slot0.emit(slot0, ...)
@@ -21,8 +27,16 @@ function slot0.emit(slot0, ...)
 	end
 end
 
+function slot0.disconnect(slot0, slot1)
+	if slot0.eventStore[slot1] then
+		slot0.event:disconnect(slot2.event, slot2.callback)
+
+		slot0.eventStore[slot1] = nil
+	end
+end
+
 function slot0.disposeEvent(slot0)
-	for slot4, slot5 in ipairs(slot0.eventStore) do
+	for slot4, slot5 in pairs(slot0.eventStore) do
 		slot0.event:disconnect(slot5.event, slot5.callback)
 	end
 

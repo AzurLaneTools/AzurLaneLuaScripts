@@ -20,9 +20,9 @@ function slot2.Init(slot0)
 	slot0._dirY = 0
 	slot0._dirX = 0
 	slot0._isPress = false
-	slot1 = uv0.Battle.BattleVariable
-	slot0._screenHeight = slot1._actualHeight
-	slot0._screenWidth = slot1._actualWidth
+	slot1 = pg.CameraFixMgr.GetInstance()
+	slot0._screenHeight = slot1.actualHeight
+	slot0._screenWidth = slot1.actualWidth
 
 	slot0._go:GetComponent("StickController"):SetStickFunc(function (slot0, slot1)
 		uv0:updateStick(slot0, slot1)

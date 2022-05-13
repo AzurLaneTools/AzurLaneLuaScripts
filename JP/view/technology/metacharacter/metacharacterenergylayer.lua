@@ -139,15 +139,19 @@ function slot0.addListener(slot0)
 		uv0:closePreviewPanel()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.activeBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("meta_energy_active_box_tip"),
-			onYes = function ()
-				pg.m02:sendNotification(GAME.ENERGY_META_ACTIVATION, {
-					shipId = uv0.curMetaShipID
-				})
-			end,
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		if uv0.lackGoldFunc then
+			uv0.lackGoldFunc()
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("meta_energy_active_box_tip"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.ENERGY_META_ACTIVATION, {
+						shipId = uv0.curMetaShipID
+					})
+				end,
+				weight = LayerWeightConst.TOP_LAYER
+			})
+		end
 	end, SFX_PANEL)
 end
 
@@ -286,50 +290,67 @@ function slot0.updateMaterialPanel(slot0, slot1)
 	end
 
 	slot6 = true
-	slot7, slot8 = nil
-	slot7, slot8 = slot4:getConsume()
-	slot9, slot10, slot11 = nil
-	slot9 = slot8[1].itemId
-	slot10 = slot5:getItemCountById(slot9)
-	slot12 = slot0:findTF("Item", slot0.materialTF)
+	slot7 = false
+	slot8, slot9 = nil
+	slot8, slot9 = slot4:getConsume()
+	slot10, slot11, slot12 = nil
+	slot10 = slot9[1].itemId
+	slot11 = slot5:getItemCountById(slot10)
+	slot13 = slot0:findTF("Item", slot0.materialTF)
 
-	updateDrop(slot12, {
+	updateDrop(slot13, {
 		type = DROP_TYPE_ITEM,
-		id = slot9,
-		count = slot10
+		id = slot10,
+		count = slot11
 	}, {
 		hideName = true
 	})
-	onButton(slot0, slot12, function ()
+	onButton(slot0, slot13, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("icon_bg/count", slot12), setColorStr(slot10, slot10 < slot8[1].count and COLOR_RED or COLOR_GREEN) .. "/" .. slot11)
+	setText(slot0:findTF("icon_bg/count", slot13), setColorStr(slot11, slot11 < slot9[1].count and COLOR_RED or COLOR_GREEN) .. "/" .. slot12)
 
-	if slot10 < slot11 then
+	if slot11 < slot12 then
 		slot6 = false
 	end
 
-	setText(slot0.goldNumText, slot7)
+	setText(slot0.goldNumText, slot8)
 
-	if getProxy(PlayerProxy):getData().gold < slot7 then
+	if getProxy(PlayerProxy):getData().gold < slot8 then
+		slot7 = true
+
+		function slot0.lackGoldFunc()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("switch_to_shop_tip_2", i18n("word_gold")) .. "\n" .. i18n("text_noRes_tip", i18n("text_noRes_info_tip", pg.item_data_statistics[59001].name, uv0 - uv1)),
+				weight = LayerWeightConst.SECOND_LAYER,
+				onYes = function ()
+					if getProxy(ContextProxy):getCurrentContext():getContextByMediator(MetaCharacterMediator) then
+						slot2.data.autoOpenShipConfigID = uv0.curShipVO.configId
+						slot2.data.autoOpenEnergy = true
+					end
+
+					uv0:closeView()
+					gotoChargeScene(ChargeScene.TYPE_ITEM)
+				end
+			})
+		end
+	end
+
+	slot19, slot20 = nil
+	slot21, slot20 = slot4:getLimited()
+	slot21 = slot2.level
+
+	setText(slot0.levelNumText, i18n("meta_energy_ship_level_need", slot2.level < slot21 and setColorStr(slot21, COLOR_RED) or setColorStr(slot21, COLOR_GREEN), slot19))
+
+	slot22 = slot3:getRepairRate() * 100 .. "%%"
+
+	setText(slot0.repairRateText, i18n("meta_energy_ship_repairrate_need", slot3:getRepairRate() < slot20 / 100 and setColorStr(slot22, COLOR_RED) or setColorStr(slot22, COLOR_GREEN), slot20 .. "%%"))
+
+	if slot2.level < slot19 then
 		slot6 = false
 	end
 
-	slot18, slot19 = nil
-	slot20, slot19 = slot4:getLimited()
-	slot20 = slot2.level
-
-	setText(slot0.levelNumText, i18n("meta_energy_ship_level_need", slot2.level < slot20 and setColorStr(slot20, COLOR_RED) or setColorStr(slot20, COLOR_GREEN), slot18))
-
-	slot21 = slot3:getRepairRate() * 100 .. "%%"
-
-	setText(slot0.repairRateText, i18n("meta_energy_ship_repairrate_need", slot3:getRepairRate() < slot19 / 100 and setColorStr(slot21, COLOR_RED) or setColorStr(slot21, COLOR_GREEN), slot19 .. "%%"))
-
-	if slot2.level < slot18 then
-		slot6 = false
-	end
-
-	if slot3:getRepairRate() < slot19 / 100 then
+	if slot3:getRepairRate() < slot20 / 100 then
 		slot6 = false
 	end
 

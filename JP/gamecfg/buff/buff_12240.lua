@@ -28,9 +28,12 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				check_target = "TargetShipTag",
-				skill_id = 12240,
 				target = "TargetSelf",
+				skill_id = 12240,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Cleveland-Class"
 				}

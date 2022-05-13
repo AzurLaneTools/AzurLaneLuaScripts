@@ -37,7 +37,7 @@ function slot0.OnInit(slot0)
 
 			uv1:emit(NewMainScene.FOLD, false)
 		end
-	end, SFX_PANEL)
+	end)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0 then
 			triggerToggle(uv1.moveBtn, false)

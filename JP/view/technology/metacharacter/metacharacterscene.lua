@@ -739,6 +739,12 @@ function slot0.autoOpenFunc(slot0)
 		slot0.contextData.autoOpenTactics = nil
 	end
 
+	if slot0.contextData.autoOpenEnergy then
+		triggerButton(slot0.energyBtn)
+
+		slot0.contextData.autoOpenEnergy = nil
+	end
+
 	if slot0.contextData.autoOpenSyn then
 		if slot0:getCurMetaProgressVO():isUnlocked() then
 			triggerButton(slot0.synBtn)

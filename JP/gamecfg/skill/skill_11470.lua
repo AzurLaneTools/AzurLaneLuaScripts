@@ -19,8 +19,11 @@ return {
 		{
 			type = "BattleSkillAddBuff",
 			casterAniEffect = "",
-			target_choise = "TargetShipTag",
 			targetAniEffect = "",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTag"
+			},
 			arg_list = {
 				buff_id = 11471,
 				ship_tag_list = {

@@ -34,6 +34,7 @@ end
 function slot0._ClearLockPosition(slot0, slot1)
 	if slot1:GetMarkPosition() then
 		slot0:ClearLockPosition(slot2)
+		slot1:ClearMarkPosition()
 	end
 end
 

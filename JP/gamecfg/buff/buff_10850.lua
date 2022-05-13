@@ -47,10 +47,13 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				minTargetNumber = 1,
-				skill_id = 10850,
 				target = "TargetSelf",
+				skill_id = 10850,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Jersey Skill"
 				}
@@ -61,7 +64,10 @@ return {
 			trigger = {},
 			arg_list = {
 				buff_id = 10851,
-				target = "TargetShipTag",
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Jersey Skill"
 				}

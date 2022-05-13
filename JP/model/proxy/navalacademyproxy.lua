@@ -86,6 +86,10 @@ function slot0.onRemove(slot0)
 	uv0.super.onRemove(slot0)
 end
 
+function slot0.ExistStudent(slot0, slot1)
+	return slot0.students[slot1] ~= nil
+end
+
 function slot0.getStudentById(slot0, slot1)
 	return slot0.students[slot1]:clone()
 end

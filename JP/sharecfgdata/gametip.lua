@@ -1,1168 +1,1168 @@
-_G.pg.gametip["new_airi_error_code_-1"] = {
+_G.pg.base.gametip["new_airi_error_code_-1"] = {
 	tip = "不明なエラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_0 = {
+_G.pg.base.gametip.new_airi_error_code_0 = {
 	tip = "操作に成功しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100100 = {
+_G.pg.base.gametip.new_airi_error_code_100100 = {
 	tip = "このデバイスによるゲーム利用は制限されています"
 }
 
-_G.pg.gametip.new_airi_error_code_100110 = {
+_G.pg.base.gametip.new_airi_error_code_100110 = {
 	tip = "ログイン中にエラーが発生しました（UIDとtoken照合失敗）"
 }
 
-_G.pg.gametip.new_airi_error_code_100111 = {
+_G.pg.base.gametip.new_airi_error_code_100111 = {
 	tip = "アカウント作成に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100112 = {
+_G.pg.base.gametip.new_airi_error_code_100112 = {
 	tip = "アカウント連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100113 = {
+_G.pg.base.gametip.new_airi_error_code_100113 = {
 	tip = "ユーザー認証に失敗したため、ログインに失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100114 = {
+_G.pg.base.gametip.new_airi_error_code_100114 = {
 	tip = "このIPアドレスでのアクセスは制限されています"
 }
 
-_G.pg.gametip.new_airi_error_code_100115 = {
+_G.pg.base.gametip.new_airi_error_code_100115 = {
 	tip = "このデバイスのゲーム利用は制限されています"
 }
 
-_G.pg.gametip.new_airi_error_code_100116 = {
+_G.pg.base.gametip.new_airi_error_code_100116 = {
 	tip = "このアカウントのゲーム利用は制限されています"
 }
 
-_G.pg.gametip.new_airi_error_code_100117 = {
+_G.pg.base.gametip.new_airi_error_code_100117 = {
 	tip = "認証データにエラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100120 = {
+_G.pg.base.gametip.new_airi_error_code_100120 = {
 	tip = "このIPアドレスでのアクセスは制限されています"
 }
 
-_G.pg.gametip.new_airi_error_code_100130 = {
+_G.pg.base.gametip.new_airi_error_code_100130 = {
 	tip = "このアカウントのゲーム利用は制限されています"
 }
 
-_G.pg.gametip.new_airi_error_code_100140 = {
+_G.pg.base.gametip.new_airi_error_code_100140 = {
 	tip = "アカウント認証に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100150 = {
+_G.pg.base.gametip.new_airi_error_code_100150 = {
 	tip = "引継ぎコードとUIDが一致しません"
 }
 
-_G.pg.gametip.new_airi_error_code_100160 = {
+_G.pg.base.gametip.new_airi_error_code_100160 = {
 	tip = "誕生日が入力済です"
 }
 
-_G.pg.gametip.new_airi_error_code_100170 = {
+_G.pg.base.gametip.new_airi_error_code_100170 = {
 	tip = "誕生日は【YYYYMMDD】の形式（例：19900101）で入力してください"
 }
 
-_G.pg.gametip.new_airi_error_code_100180 = {
+_G.pg.base.gametip.new_airi_error_code_100180 = {
 	tip = "ゲームアカウントと連携していないSNSアカウントです"
 }
 
-_G.pg.gametip.new_airi_error_code_100190 = {
+_G.pg.base.gametip.new_airi_error_code_100190 = {
 	tip = "SNSアカウント連携状況の照合に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100200 = {
+_G.pg.base.gametip.new_airi_error_code_100200 = {
 	tip = "すでに他のアカウントと連携済みです"
 }
 
-_G.pg.gametip.new_airi_error_code_100210 = {
+_G.pg.base.gametip.new_airi_error_code_100210 = {
 	tip = "ゲームアカウントと連携していないSNSアカウントです"
 }
 
-_G.pg.gametip.new_airi_error_code_100211 = {
+_G.pg.base.gametip.new_airi_error_code_100211 = {
 	tip = "外部サービスとの通信時にエラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100212 = {
+_G.pg.base.gametip.new_airi_error_code_100212 = {
 	tip = "外部サービスとの通信時にエラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100213 = {
+_G.pg.base.gametip.new_airi_error_code_100213 = {
 	tip = "連携解除に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100220 = {
+_G.pg.base.gametip.new_airi_error_code_100220 = {
 	tip = "連携を解除しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100221 = {
+_G.pg.base.gametip.new_airi_error_code_100221 = {
 	tip = "連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100222 = {
+_G.pg.base.gametip.new_airi_error_code_100222 = {
 	tip = "Twitter連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100223 = {
+_G.pg.base.gametip.new_airi_error_code_100223 = {
 	tip = "Google連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100224 = {
+_G.pg.base.gametip.new_airi_error_code_100224 = {
 	tip = "Googleとの通信に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100225 = {
+_G.pg.base.gametip.new_airi_error_code_100225 = {
 	tip = "Google連携を解除しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100226 = {
+_G.pg.base.gametip.new_airi_error_code_100226 = {
 	tip = "ログイン中のため、しばらくお待ち下さい"
 }
 
-_G.pg.gametip.new_airi_error_code_100227 = {
+_G.pg.base.gametip.new_airi_error_code_100227 = {
 	tip = "このアカウントでのログインに失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100228 = {
+_G.pg.base.gametip.new_airi_error_code_100228 = {
 	tip = "アカウントが削除されました"
 }
 
-_G.pg.gametip.new_airi_error_code_100229 = {
+_G.pg.base.gametip.new_airi_error_code_100229 = {
 	tip = "すでに削除済みです"
 }
 
-_G.pg.gametip.new_airi_error_code_100231 = {
+_G.pg.base.gametip.new_airi_error_code_100231 = {
 	tip = "このアカウントは完全に削除されたため、復元できません"
 }
 
-_G.pg.gametip.new_airi_error_code_100232 = {
+_G.pg.base.gametip.new_airi_error_code_100232 = {
 	tip = "このアカウントは削除されていないため、復元できません"
 }
 
-_G.pg.gametip.new_airi_error_code_100233 = {
+_G.pg.base.gametip.new_airi_error_code_100233 = {
 	tip = "このアカウントは削除されたため、ログインできません"
 }
 
-_G.pg.gametip.new_airi_error_code_100234 = {
+_G.pg.base.gametip.new_airi_error_code_100234 = {
 	tip = "このアカウントはログインできません"
 }
 
-_G.pg.gametip.new_airi_error_code_100230 = {
+_G.pg.base.gametip.new_airi_error_code_100230 = {
 	tip = "SDK起動に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100240 = {
+_G.pg.base.gametip.new_airi_error_code_100240 = {
 	tip = "Appleアカウントの情報を正しく入力してください"
 }
 
-_G.pg.gametip.new_airi_error_code_100241 = {
+_G.pg.base.gametip.new_airi_error_code_100241 = {
 	tip = "Apple連携がキャンセルされました"
 }
 
-_G.pg.gametip.new_airi_error_code_100242 = {
+_G.pg.base.gametip.new_airi_error_code_100242 = {
 	tip = "Apple連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100243 = {
+_G.pg.base.gametip.new_airi_error_code_100243 = {
 	tip = "Apple連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100244 = {
+_G.pg.base.gametip.new_airi_error_code_100244 = {
 	tip = "Apple連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100245 = {
+_G.pg.base.gametip.new_airi_error_code_100245 = {
 	tip = "Apple連携に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_100246 = {
+_G.pg.base.gametip.new_airi_error_code_100246 = {
 	tip = "システムバージョンが古いため、Apple連携できません"
 }
 
-_G.pg.gametip.new_airi_error_code_100300 = {
+_G.pg.base.gametip.new_airi_error_code_100300 = {
 	tip = "無効なメールアドレスです"
 }
 
-_G.pg.gametip.new_airi_error_code_100301 = {
+_G.pg.base.gametip.new_airi_error_code_100301 = {
 	tip = "メールアドレスが一致しません"
 }
 
-_G.pg.gametip.new_airi_error_code_100302 = {
+_G.pg.base.gametip.new_airi_error_code_100302 = {
 	tip = "認証メッセージの送信回数が上限に達したため、しばらく経ってからお試しください"
 }
 
-_G.pg.gametip.new_airi_error_code_100303 = {
+_G.pg.base.gametip.new_airi_error_code_100303 = {
 	tip = "正しい認証コードを入力してください"
 }
 
-_G.pg.gametip.new_airi_error_code_100304 = {
+_G.pg.base.gametip.new_airi_error_code_100304 = {
 	tip = "認証コード入力に失敗しました。認証コードを再度発行してください"
 }
 
-_G.pg.gametip.new_airi_error_code_100305 = {
+_G.pg.base.gametip.new_airi_error_code_100305 = {
 	tip = "このメールアドレスでの利用は制限されています"
 }
 
-_G.pg.gametip.new_airi_error_code_100306 = {
+_G.pg.base.gametip.new_airi_error_code_100306 = {
 	tip = "認証コードを入力してください"
 }
 
-_G.pg.gametip.new_airi_error_code_100404 = {
+_G.pg.base.gametip.new_airi_error_code_100404 = {
 	tip = "通信エラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200100 = {
+_G.pg.base.gametip.new_airi_error_code_200100 = {
 	tip = "購入に失敗しました、誕生日が設定されていません"
 }
 
-_G.pg.gametip.new_airi_error_code_200110 = {
+_G.pg.base.gametip.new_airi_error_code_200110 = {
 	tip = "購入に失敗しました、今月の購入上限金額に達しています"
 }
 
-_G.pg.gametip.new_airi_error_code_200120 = {
+_G.pg.base.gametip.new_airi_error_code_200120 = {
 	tip = "購入に失敗しました、アイテムが存在しません"
 }
 
-_G.pg.gametip.new_airi_error_code_200130 = {
+_G.pg.base.gametip.new_airi_error_code_200130 = {
 	tip = "購入に失敗しました、決済システムにエラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200140 = {
+_G.pg.base.gametip.new_airi_error_code_200140 = {
 	tip = "購入に失敗しました、サーバーとの通信に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200150 = {
+_G.pg.base.gametip.new_airi_error_code_200150 = {
 	tip = "領収書の照合に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200160 = {
+_G.pg.base.gametip.new_airi_error_code_200160 = {
 	tip = "不正な購入リクエストです"
 }
 
-_G.pg.gametip.new_airi_error_code_200170 = {
+_G.pg.base.gametip.new_airi_error_code_200170 = {
 	tip = "不正な購入リクエストです"
 }
 
-_G.pg.gametip.new_airi_error_code_200180 = {
+_G.pg.base.gametip.new_airi_error_code_200180 = {
 	tip = "サーバーと通信中です。しばらくお待ち下さい"
 }
 
-_G.pg.gametip.new_airi_error_code_200190 = {
+_G.pg.base.gametip.new_airi_error_code_200190 = {
 	tip = "購入リクエストが存在しません"
 }
 
-_G.pg.gametip.new_airi_error_code_200200 = {
+_G.pg.base.gametip.new_airi_error_code_200200 = {
 	tip = "購入時に通信エラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200210 = {
+_G.pg.base.gametip.new_airi_error_code_200210 = {
 	tip = "決済システムにエラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200220 = {
+_G.pg.base.gametip.new_airi_error_code_200220 = {
 	tip = "決済システムへの通信時にエラーが発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200230 = {
+_G.pg.base.gametip.new_airi_error_code_200230 = {
 	tip = "決済システムへの通信がキャンセルされました"
 }
 
-_G.pg.gametip.new_airi_error_code_200240 = {
+_G.pg.base.gametip.new_airi_error_code_200240 = {
 	tip = "Google Playをバージョンアップしてください"
 }
 
-_G.pg.gametip.new_airi_error_code_200250 = {
+_G.pg.base.gametip.new_airi_error_code_200250 = {
 	tip = "APIに問題が発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200260 = {
+_G.pg.base.gametip.new_airi_error_code_200260 = {
 	tip = "APIに問題が発生しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200270 = {
+_G.pg.base.gametip.new_airi_error_code_200270 = {
 	tip = "Google Playをバージョンアップしてください"
 }
 
-_G.pg.gametip.new_airi_error_code_200280 = {
+_G.pg.base.gametip.new_airi_error_code_200280 = {
 	tip = "このアイテムはすでに所持済みです"
 }
 
-_G.pg.gametip.new_airi_error_code_200290 = {
+_G.pg.base.gametip.new_airi_error_code_200290 = {
 	tip = "このアイテムはすでに所持済みです"
 }
 
-_G.pg.gametip.new_airi_error_code_200300 = {
+_G.pg.base.gametip.new_airi_error_code_200300 = {
 	tip = "このアイテムは現在購入できません"
 }
 
-_G.pg.gametip.new_airi_error_code_200310 = {
+_G.pg.base.gametip.new_airi_error_code_200310 = {
 	tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください"
 }
 
-_G.pg.gametip.new_airi_error_code_200320 = {
+_G.pg.base.gametip.new_airi_error_code_200320 = {
 	tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください"
 }
 
-_G.pg.gametip.new_airi_error_code_200330 = {
+_G.pg.base.gametip.new_airi_error_code_200330 = {
 	tip = "ネットワークに接続してください"
 }
 
-_G.pg.gametip.new_airi_error_code_200340 = {
+_G.pg.base.gametip.new_airi_error_code_200340 = {
 	tip = "購入がキャンセルされました"
 }
 
-_G.pg.gametip.new_airi_error_code_200350 = {
+_G.pg.base.gametip.new_airi_error_code_200350 = {
 	tip = "アイテムの照合に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_200360 = {
+_G.pg.base.gametip.new_airi_error_code_200360 = {
 	tip = "決済システムへの接続に失敗しました"
 }
 
-_G.pg.gametip.new_airi_error_code_300100 = {
+_G.pg.base.gametip.new_airi_error_code_300100 = {
 	tip = "システムシェアに失敗しました"
 }
 
-_G.pg.gametip.ad_0 = {
+_G.pg.base.gametip.ad_0 = {
 	tip = ""
 }
 
-_G.pg.gametip.ad_1 = {
+_G.pg.base.gametip.ad_1 = {
 	tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 建造入手 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.ad_2 = {
+_G.pg.base.gametip.ad_2 = {
 	tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 出撃入手<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.ad_3 = {
+_G.pg.base.gametip.ad_3 = {
 	tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 艦船入手 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.word_back = {
+_G.pg.base.gametip.word_back = {
 	tip = "戻る"
 }
 
-_G.pg.gametip.word_backyardMoney = {
+_G.pg.base.gametip.word_backyardMoney = {
 	tip = "コイン"
 }
 
-_G.pg.gametip.word_cancel = {
+_G.pg.base.gametip.word_cancel = {
 	tip = "戻る"
 }
 
-_G.pg.gametip.word_cmdClose = {
+_G.pg.base.gametip.word_cmdClose = {
 	tip = "準備中"
 }
 
-_G.pg.gametip.word_delete = {
+_G.pg.base.gametip.word_delete = {
 	tip = "削除"
 }
 
-_G.pg.gametip.word_dockyard = {
+_G.pg.base.gametip.word_dockyard = {
 	tip = "ドック"
 }
 
-_G.pg.gametip.word_dockyardUpgrade = {
+_G.pg.base.gametip.word_dockyardUpgrade = {
 	tip = "限界突破"
 }
 
-_G.pg.gametip.word_dockyardDestroy = {
+_G.pg.base.gametip.word_dockyardDestroy = {
 	tip = "艦船退役"
 }
 
-_G.pg.gametip.word_shipInfoScene_equip = {
+_G.pg.base.gametip.word_shipInfoScene_equip = {
 	tip = "艦船装備"
 }
 
-_G.pg.gametip.word_shipInfoScene_reinfomation = {
+_G.pg.base.gametip.word_shipInfoScene_reinfomation = {
 	tip = "限界突破"
 }
 
-_G.pg.gametip.word_shipInfoScene_infomation = {
+_G.pg.base.gametip.word_shipInfoScene_infomation = {
 	tip = "艦船詳細"
 }
 
-_G.pg.gametip.word_editFleet = {
+_G.pg.base.gametip.word_editFleet = {
 	tip = "艦隊編成"
 }
 
-_G.pg.gametip.word_exp = {
+_G.pg.base.gametip.word_exp = {
 	tip = "EXP"
 }
 
-_G.pg.gametip.word_expAdd = {
+_G.pg.base.gametip.word_expAdd = {
 	tip = "EXP+$1"
 }
 
-_G.pg.gametip.word_exp_chinese = {
+_G.pg.base.gametip.word_exp_chinese = {
 	tip = "経験"
 }
 
-_G.pg.gametip.word_exist = {
+_G.pg.base.gametip.word_exist = {
 	tip = "閉じる"
 }
 
-_G.pg.gametip.word_equip = {
+_G.pg.base.gametip.word_equip = {
 	tip = "装備"
 }
 
-_G.pg.gametip.word_equipDestory = {
+_G.pg.base.gametip.word_equipDestory = {
 	tip = "廃棄"
 }
 
-_G.pg.gametip.word_food = {
+_G.pg.base.gametip.word_food = {
 	tip = "食糧"
 }
 
-_G.pg.gametip.word_get = {
+_G.pg.base.gametip.word_get = {
 	tip = "入手"
 }
 
-_G.pg.gametip.word_got = {
+_G.pg.base.gametip.word_got = {
 	tip = "開放済"
 }
 
-_G.pg.gametip.word_not_get = {
+_G.pg.base.gametip.word_not_get = {
 	tip = "未開放"
 }
 
-_G.pg.gametip.word_next_level = {
+_G.pg.base.gametip.word_next_level = {
 	tip = "次Lv"
 }
 
-_G.pg.gametip.word_intimacy = {
+_G.pg.base.gametip.word_intimacy = {
 	tip = "親密度"
 }
 
-_G.pg.gametip.word_is = {
+_G.pg.base.gametip.word_is = {
 	tip = "はい"
 }
 
-_G.pg.gametip.word_date = {
+_G.pg.base.gametip.word_date = {
 	tip = "日"
 }
 
-_G.pg.gametip.word_hour = {
+_G.pg.base.gametip.word_hour = {
 	tip = "時間"
 }
 
-_G.pg.gametip.word_minute = {
+_G.pg.base.gametip.word_minute = {
 	tip = "分"
 }
 
-_G.pg.gametip.word_second = {
+_G.pg.base.gametip.word_second = {
 	tip = "秒"
 }
 
-_G.pg.gametip.word_lv = {
+_G.pg.base.gametip.word_lv = {
 	tip = "練度"
 }
 
-_G.pg.gametip.word_proficiency = {
+_G.pg.base.gametip.word_proficiency = {
 	tip = ""
 }
 
-_G.pg.gametip.word_material = {
+_G.pg.base.gametip.word_material = {
 	tip = "材料"
 }
 
-_G.pg.gametip.word_notExist = {
+_G.pg.base.gametip.word_notExist = {
 	tip = "存在しない"
 }
 
-_G.pg.gametip.word_ok = {
+_G.pg.base.gametip.word_ok = {
 	tip = "確定"
 }
 
-_G.pg.gametip.word_preview = {
+_G.pg.base.gametip.word_preview = {
 	tip = "プレビュー"
 }
 
-_G.pg.gametip.word_rarity = {
+_G.pg.base.gametip.word_rarity = {
 	tip = "レア度"
 }
 
-_G.pg.gametip.word_speedUp = {
+_G.pg.base.gametip.word_speedUp = {
 	tip = "高速建造材を使用しました"
 }
 
-_G.pg.gametip.word_succeed = {
+_G.pg.base.gametip.word_succeed = {
 	tip = ""
 }
 
-_G.pg.gametip.word_start = {
+_G.pg.base.gametip.word_start = {
 	tip = "増築/強化開始"
 }
 
-_G.pg.gametip.word_kiss = {
+_G.pg.base.gametip.word_kiss = {
 	tip = "(*ﾟ▽ﾟ*)"
 }
 
-_G.pg.gametip.word_take = {
+_G.pg.base.gametip.word_take = {
 	tip = "受取"
 }
 
-_G.pg.gametip.word_takeOk = {
+_G.pg.base.gametip.word_takeOk = {
 	tip = "受取成功"
 }
 
-_G.pg.gametip.word_many = {
+_G.pg.base.gametip.word_many = {
 	tip = "大量"
 }
 
-_G.pg.gametip.word_normal_2 = {
+_G.pg.base.gametip.word_normal_2 = {
 	tip = "普通"
 }
 
-_G.pg.gametip.word_simple = {
+_G.pg.base.gametip.word_simple = {
 	tip = "レア"
 }
 
-_G.pg.gametip.word_save = {
+_G.pg.base.gametip.word_save = {
 	tip = "保存"
 }
 
-_G.pg.gametip.word_levelup = {
+_G.pg.base.gametip.word_levelup = {
 	tip = "増築"
 }
 
-_G.pg.gametip.word_serverLoadVindicate = {
+_G.pg.base.gametip.word_serverLoadVindicate = {
 	tip = "<color=#a2a2a2>メンテ</color>"
 }
 
-_G.pg.gametip.word_serverLoadNormal = {
+_G.pg.base.gametip.word_serverLoadNormal = {
 	tip = "<material=outline c=#252525FF x=1 y=-1><color=#92fc63FF>正常</color></material>"
 }
 
-_G.pg.gametip.word_serverLoadFull = {
+_G.pg.base.gametip.word_serverLoadFull = {
 	tip = "<color=#ff5c5c>満員</color>"
 }
 
-_G.pg.gametip.word_registerFull = {
+_G.pg.base.gametip.word_registerFull = {
 	tip = "<color=#ff5c5c>満員</color>"
 }
 
-_G.pg.gametip.word_synthesize = {
+_G.pg.base.gametip.word_synthesize = {
 	tip = "総合"
 }
 
-_G.pg.gametip.word_synthesize_power = {
+_G.pg.base.gametip.word_synthesize_power = {
 	tip = "総合戦力"
 }
 
-_G.pg.gametip.word_achieved_item = {
+_G.pg.base.gametip.word_achieved_item = {
 	tip = "入手時間"
 }
 
-_G.pg.gametip.word_formation = {
+_G.pg.base.gametip.word_formation = {
 	tip = "出撃"
 }
 
-_G.pg.gametip.word_teach = {
+_G.pg.base.gametip.word_teach = {
 	tip = "授業"
 }
 
-_G.pg.gametip.word_study = {
+_G.pg.base.gametip.word_study = {
 	tip = "勉強"
 }
 
-_G.pg.gametip.word_destroy = {
+_G.pg.base.gametip.word_destroy = {
 	tip = "退役"
 }
 
-_G.pg.gametip.word_upgrade = {
+_G.pg.base.gametip.word_upgrade = {
 	tip = "突破"
 }
 
-_G.pg.gametip.word_train = {
+_G.pg.base.gametip.word_train = {
 	tip = "休憩"
 }
 
-_G.pg.gametip.word_rest = {
+_G.pg.base.gametip.word_rest = {
 	tip = "休憩"
 }
 
-_G.pg.gametip.word_capacity = {
+_G.pg.base.gametip.word_capacity = {
 	tip = "所持:"
 }
 
-_G.pg.gametip.word_operation = {
+_G.pg.base.gametip.word_operation = {
 	tip = "作戦参加"
 }
 
-_G.pg.gametip.word_intensify_phase = {
+_G.pg.base.gametip.word_intensify_phase = {
 	tip = "強化段階"
 }
 
-_G.pg.gametip.word_systemClose = {
+_G.pg.base.gametip.word_systemClose = {
 	tip = "この機能は現在開放されていません"
 }
 
-_G.pg.gametip.word_attr_antisub = {
+_G.pg.base.gametip.word_attr_antisub = {
 	tip = "対潜"
 }
 
-_G.pg.gametip.word_attr_cannon = {
+_G.pg.base.gametip.word_attr_cannon = {
 	tip = "火力"
 }
 
-_G.pg.gametip.word_attr_torpedo = {
+_G.pg.base.gametip.word_attr_torpedo = {
 	tip = "雷装"
 }
 
-_G.pg.gametip.word_attr_antiaircraft = {
+_G.pg.base.gametip.word_attr_antiaircraft = {
 	tip = "対空"
 }
 
-_G.pg.gametip.word_attr_air = {
+_G.pg.base.gametip.word_attr_air = {
 	tip = "航空"
 }
 
-_G.pg.gametip.word_attr_durability = {
+_G.pg.base.gametip.word_attr_durability = {
 	tip = "耐久"
 }
 
-_G.pg.gametip.word_attr_armor = {
+_G.pg.base.gametip.word_attr_armor = {
 	tip = "装甲"
 }
 
-_G.pg.gametip.word_attr_reload = {
+_G.pg.base.gametip.word_attr_reload = {
 	tip = "装填"
 }
 
-_G.pg.gametip.word_attr_speed = {
+_G.pg.base.gametip.word_attr_speed = {
 	tip = "速力"
 }
 
-_G.pg.gametip.word_attr_luck = {
+_G.pg.base.gametip.word_attr_luck = {
 	tip = "消費"
 }
 
-_G.pg.gametip.word_attr_range = {
+_G.pg.base.gametip.word_attr_range = {
 	tip = "射程"
 }
 
-_G.pg.gametip.word_attr_range_view = {
+_G.pg.base.gametip.word_attr_range_view = {
 	tip = "射程"
 }
 
-_G.pg.gametip.word_attr_hit = {
+_G.pg.base.gametip.word_attr_hit = {
 	tip = "命中"
 }
 
-_G.pg.gametip.word_attr_dodge = {
+_G.pg.base.gametip.word_attr_dodge = {
 	tip = "回避"
 }
 
-_G.pg.gametip.word_attr_luck1 = {
+_G.pg.base.gametip.word_attr_luck1 = {
 	tip = "運"
 }
 
-_G.pg.gametip.word_attr_damage = {
+_G.pg.base.gametip.word_attr_damage = {
 	tip = "威力"
 }
 
-_G.pg.gametip.word_attr_healthy = {
+_G.pg.base.gametip.word_attr_healthy = {
 	tip = "回復"
 }
 
-_G.pg.gametip.word_attr_cd = {
+_G.pg.base.gametip.word_attr_cd = {
 	tip = "攻速"
 }
 
-_G.pg.gametip.word_attr_speciality = {
+_G.pg.base.gametip.word_attr_speciality = {
 	tip = "特性"
 }
 
-_G.pg.gametip.word_attr_level = {
+_G.pg.base.gametip.word_attr_level = {
 	tip = "レベル上限"
 }
 
-_G.pg.gametip.word_shipState_npc = {
+_G.pg.base.gametip.word_shipState_npc = {
 	tip = "仮加入状態の艦船を編成できません"
 }
 
-_G.pg.gametip.word_shipState_fight = {
+_G.pg.base.gametip.word_shipState_fight = {
 	tip = "出撃中です"
 }
 
-_G.pg.gametip.word_shipState_world = {
+_G.pg.base.gametip.word_shipState_world = {
 	tip = "セイレーン作戦に出撃しています"
 }
 
-_G.pg.gametip.word_shipState_rest = {
+_G.pg.base.gametip.word_shipState_rest = {
 	tip = "寮舎で休憩中です"
 }
 
-_G.pg.gametip.word_shipState_study = {
+_G.pg.base.gametip.word_shipState_study = {
 	tip = "大講堂で勉強中です"
 }
 
-_G.pg.gametip.word_shipState_tactics = {
+_G.pg.base.gametip.word_shipState_tactics = {
 	tip = "戦術教室で勉強中です"
 }
 
-_G.pg.gametip.word_shipState_collect = {
+_G.pg.base.gametip.word_shipState_collect = {
 	tip = "委託に出かけています"
 }
 
-_G.pg.gametip.word_shipState_event = {
+_G.pg.base.gametip.word_shipState_event = {
 	tip = "特殊任務に参加しています"
 }
 
-_G.pg.gametip.word_shipState_activity = {
+_G.pg.base.gametip.word_shipState_activity = {
 	tip = "この艦は特別作戦編成に編成されています"
 }
 
-_G.pg.gametip.word_shipState_sham = {
+_G.pg.base.gametip.word_shipState_sham = {
 	tip = "特殊作戦を遂行しています"
 }
 
-_G.pg.gametip.word_shipType_quZhu = {
+_G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "駆逐"
 }
 
-_G.pg.gametip.word_shipType_qinXun = {
+_G.pg.base.gametip.word_shipType_qinXun = {
 	tip = "軽巡"
 }
 
-_G.pg.gametip.word_shipType_zhongXun = {
+_G.pg.base.gametip.word_shipType_zhongXun = {
 	tip = "重巡"
 }
 
-_G.pg.gametip.word_shipType_zhanLie = {
+_G.pg.base.gametip.word_shipType_zhanLie = {
 	tip = "戦艦"
 }
 
-_G.pg.gametip.word_shipType_hangMu = {
+_G.pg.base.gametip.word_shipType_hangMu = {
 	tip = "空母"
 }
 
-_G.pg.gametip.word_shipType_weiXiu = {
+_G.pg.base.gametip.word_shipType_weiXiu = {
 	tip = "工作"
 }
 
-_G.pg.gametip.word_shipType_other = {
+_G.pg.base.gametip.word_shipType_other = {
 	tip = "他"
 }
 
-_G.pg.gametip.word_shipType_all = {
+_G.pg.base.gametip.word_shipType_all = {
 	tip = "全艦種"
 }
 
-_G.pg.gametip.word_gem = {
+_G.pg.base.gametip.word_gem = {
 	tip = "ダイヤ"
 }
 
-_G.pg.gametip.word_freeGem = {
+_G.pg.base.gametip.word_freeGem = {
 	tip = "ダイヤ"
 }
 
-_G.pg.gametip.word_gem_icon = {
+_G.pg.base.gametip.word_gem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.word_freeGem_icon = {
+_G.pg.base.gametip.word_freeGem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.word_exploit = {
+_G.pg.base.gametip.word_exploit = {
 	tip = "戦果"
 }
 
-_G.pg.gametip.word_rankScore = {
+_G.pg.base.gametip.word_rankScore = {
 	tip = "スコア"
 }
 
-_G.pg.gametip.word_battery = {
+_G.pg.base.gametip.word_battery = {
 	tip = "ニココイン"
 }
 
-_G.pg.gametip.word_oil = {
+_G.pg.base.gametip.word_oil = {
 	tip = "燃料"
 }
 
-_G.pg.gametip.word_gold = {
+_G.pg.base.gametip.word_gold = {
 	tip = "資金"
 }
 
-_G.pg.gametip.word_oilField = {
+_G.pg.base.gametip.word_oilField = {
 	tip = "油田"
 }
 
-_G.pg.gametip.word_goldField = {
+_G.pg.base.gametip.word_goldField = {
 	tip = "貿易港"
 }
 
-_G.pg.gametip.word_ema = {
+_G.pg.base.gametip.word_ema = {
 	tip = "絵馬"
 }
 
-_G.pg.gametip.word_ema1 = {
+_G.pg.base.gametip.word_ema1 = {
 	tip = "絵馬"
 }
 
-_G.pg.gametip.word_pt = {
+_G.pg.base.gametip.word_pt = {
 	tip = "PT素子"
 }
 
-_G.pg.gametip.word_omamori = {
+_G.pg.base.gametip.word_omamori = {
 	tip = "桜の御守り"
 }
 
-_G.pg.gametip.word_yisegefuke_pt = {
+_G.pg.base.gametip.word_yisegefuke_pt = {
 	tip = "Pt素子"
 }
 
-_G.pg.gametip.word_faxipt = {
+_G.pg.base.gametip.word_faxipt = {
 	tip = "教国の紋章"
 }
 
-_G.pg.gametip.word_count_2 = {
+_G.pg.base.gametip.word_count_2 = {
 	tip = "<color=$1>$2つ</color>"
 }
 
-_G.pg.gametip.word_clear = {
+_G.pg.base.gametip.word_clear = {
 	tip = "クリア"
 }
 
-_G.pg.gametip.word_buy = {
+_G.pg.base.gametip.word_buy = {
 	tip = "購入"
 }
 
-_G.pg.gametip.word_happy = {
+_G.pg.base.gametip.word_happy = {
 	tip = "<color=#92fc63>高揚</color>"
 }
 
-_G.pg.gametip.word_normal = {
+_G.pg.base.gametip.word_normal = {
 	tip = "<color=#46F200>普通</color>"
 }
 
-_G.pg.gametip.word_tired = {
+_G.pg.base.gametip.word_tired = {
 	tip = "<color=#FCD400>疲労</color>"
 }
 
-_G.pg.gametip.word_angry = {
+_G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>不満</color>"
 }
 
-_G.pg.gametip.word_secondseach = {
+_G.pg.base.gametip.word_secondseach = {
 	tip = "/回"
 }
 
-_G.pg.gametip.word_max_page = {
+_G.pg.base.gametip.word_max_page = {
 	tip = "最大"
 }
 
-_G.pg.gametip.word_least_page = {
+_G.pg.base.gametip.word_least_page = {
 	tip = "最小"
 }
 
-_G.pg.gametip.word_week = {
+_G.pg.base.gametip.word_week = {
 	tip = "週"
 }
 
-_G.pg.gametip.word_day = {
+_G.pg.base.gametip.word_day = {
 	tip = "日"
 }
 
-_G.pg.gametip.word_use = {
+_G.pg.base.gametip.word_use = {
 	tip = "使用"
 }
 
-_G.pg.gametip.word_use_batch = {
+_G.pg.base.gametip.word_use_batch = {
 	tip = "$1個使用"
 }
 
-_G.pg.gametip.word_discount = {
+_G.pg.base.gametip.word_discount = {
 	tip = "割引"
 }
 
-_G.pg.gametip.word_threaten_exclude = {
+_G.pg.base.gametip.word_threaten_exclude = {
 	tip = "脅威排除"
 }
 
-_G.pg.gametip.word_threaten = {
+_G.pg.base.gametip.word_threaten = {
 	tip = "脅威"
 }
 
-_G.pg.gametip.word_comingSoon = {
+_G.pg.base.gametip.word_comingSoon = {
 	tip = "準備中"
 }
 
-_G.pg.gametip.word_lightArmor = {
+_G.pg.base.gametip.word_lightArmor = {
 	tip = "軽装甲"
 }
 
-_G.pg.gametip.word_mediumArmor = {
+_G.pg.base.gametip.word_mediumArmor = {
 	tip = "中装甲"
 }
 
-_G.pg.gametip.word_heavyarmor = {
+_G.pg.base.gametip.word_heavyarmor = {
 	tip = "重装甲"
 }
 
-_G.pg.gametip.word_level_upperLimit = {
+_G.pg.base.gametip.word_level_upperLimit = {
 	tip = "Lv最大"
 }
 
-_G.pg.gametip.word_level_require = {
+_G.pg.base.gametip.word_level_require = {
 	tip = "必要Lv"
 }
 
-_G.pg.gametip.word_materal_no_enough = {
+_G.pg.base.gametip.word_materal_no_enough = {
 	tip = "素材不足"
 }
 
-_G.pg.gametip.word_default = {
+_G.pg.base.gametip.word_default = {
 	tip = "自動"
 }
 
-_G.pg.gametip.word_count = {
+_G.pg.base.gametip.word_count = {
 	tip = "数量"
 }
 
-_G.pg.gametip.word_kind = {
+_G.pg.base.gametip.word_kind = {
 	tip = "種類"
 }
 
-_G.pg.gametip.word_piece = {
+_G.pg.base.gametip.word_piece = {
 	tip = "個"
 }
 
-_G.pg.gametip.word_main_fleet = {
+_G.pg.base.gametip.word_main_fleet = {
 	tip = "主力"
 }
 
-_G.pg.gametip.word_vanguard_fleet = {
+_G.pg.base.gametip.word_vanguard_fleet = {
 	tip = "前衛"
 }
 
-_G.pg.gametip.word_theme = {
+_G.pg.base.gametip.word_theme = {
 	tip = "セット"
 }
 
-_G.pg.gametip.word_recommend = {
+_G.pg.base.gametip.word_recommend = {
 	tip = "オススメ"
 }
 
-_G.pg.gametip.word_wallpaper = {
+_G.pg.base.gametip.word_wallpaper = {
 	tip = "壁紙"
 }
 
-_G.pg.gametip.word_furniture = {
+_G.pg.base.gametip.word_furniture = {
 	tip = "家具"
 }
 
-_G.pg.gametip.word_decorate = {
+_G.pg.base.gametip.word_decorate = {
 	tip = "雑貨"
 }
 
-_G.pg.gametip.word_special = {
+_G.pg.base.gametip.word_special = {
 	tip = "特殊"
 }
 
-_G.pg.gametip.word_expand = {
+_G.pg.base.gametip.word_expand = {
 	tip = "拡張"
 }
 
-_G.pg.gametip.word_wall = {
+_G.pg.base.gametip.word_wall = {
 	tip = "壁飾り"
 }
 
-_G.pg.gametip.word_floorpaper = {
+_G.pg.base.gametip.word_floorpaper = {
 	tip = "床"
 }
 
-_G.pg.gametip.word_collection = {
+_G.pg.base.gametip.word_collection = {
 	tip = "蒐集品"
 }
 
-_G.pg.gametip.word_mat = {
+_G.pg.base.gametip.word_mat = {
 	tip = "マット"
 }
 
-_G.pg.gametip.word_comfort_level = {
+_G.pg.base.gametip.word_comfort_level = {
 	tip = "快適度"
 }
 
-_G.pg.gametip.word_room = {
+_G.pg.base.gametip.word_room = {
 	tip = "ROOM$1"
 }
 
-_G.pg.gametip.word_equipment_all = {
+_G.pg.base.gametip.word_equipment_all = {
 	tip = "全て"
 }
 
-_G.pg.gametip.word_equipment_cannon = {
+_G.pg.base.gametip.word_equipment_cannon = {
 	tip = "艦砲"
 }
 
-_G.pg.gametip.word_equipment_torpedo = {
+_G.pg.base.gametip.word_equipment_torpedo = {
 	tip = "魚雷"
 }
 
-_G.pg.gametip.word_equipment_aircraft = {
+_G.pg.base.gametip.word_equipment_aircraft = {
 	tip = "艦載機"
 }
 
-_G.pg.gametip.word_equipment_small_cannon = {
+_G.pg.base.gametip.word_equipment_small_cannon = {
 	tip = "小口径艦砲"
 }
 
-_G.pg.gametip.word_equipment_medium_cannon = {
+_G.pg.base.gametip.word_equipment_medium_cannon = {
 	tip = "中口径艦砲"
 }
 
-_G.pg.gametip.word_equipment_big_cannon = {
+_G.pg.base.gametip.word_equipment_big_cannon = {
 	tip = "大口径艦砲"
 }
 
-_G.pg.gametip.word_equipment_warship_torpedo = {
+_G.pg.base.gametip.word_equipment_warship_torpedo = {
 	tip = "水上艦魚雷"
 }
 
-_G.pg.gametip.word_equipment_submarine_torpedo = {
+_G.pg.base.gametip.word_equipment_submarine_torpedo = {
 	tip = "潜水艦魚雷"
 }
 
-_G.pg.gametip.word_equipment_antiaircraft = {
+_G.pg.base.gametip.word_equipment_antiaircraft = {
 	tip = "対空"
 }
 
-_G.pg.gametip.word_equipment_fighter = {
+_G.pg.base.gametip.word_equipment_fighter = {
 	tip = "戦闘機"
 }
 
-_G.pg.gametip.word_equipment_bomber = {
+_G.pg.base.gametip.word_equipment_bomber = {
 	tip = "爆撃機"
 }
 
-_G.pg.gametip.word_equipment_torpedo_bomber = {
+_G.pg.base.gametip.word_equipment_torpedo_bomber = {
 	tip = "攻撃機"
 }
 
-_G.pg.gametip.word_equipment_equip = {
+_G.pg.base.gametip.word_equipment_equip = {
 	tip = "設備"
 }
 
-_G.pg.gametip.word_equipment_type = {
+_G.pg.base.gametip.word_equipment_type = {
 	tip = "分類"
 }
 
-_G.pg.gametip.word_equipment_rarity = {
+_G.pg.base.gametip.word_equipment_rarity = {
 	tip = "レア度"
 }
 
-_G.pg.gametip.word_equipment_intensify = {
+_G.pg.base.gametip.word_equipment_intensify = {
 	tip = "強化"
 }
 
-_G.pg.gametip.word_equipment_special = {
+_G.pg.base.gametip.word_equipment_special = {
 	tip = "その他"
 }
 
-_G.pg.gametip.word_primary_weapons = {
+_G.pg.base.gametip.word_primary_weapons = {
 	tip = "主兵装"
 }
 
-_G.pg.gametip.word_main_cannons = {
+_G.pg.base.gametip.word_main_cannons = {
 	tip = "主砲"
 }
 
-_G.pg.gametip.word_shipboard_aircraft = {
+_G.pg.base.gametip.word_shipboard_aircraft = {
 	tip = "艦載機"
 }
 
-_G.pg.gametip.word_sub_cannons = {
+_G.pg.base.gametip.word_sub_cannons = {
 	tip = "副砲"
 }
 
-_G.pg.gametip.word_sub_weapons = {
+_G.pg.base.gametip.word_sub_weapons = {
 	tip = "副兵装"
 }
 
-_G.pg.gametip.word_torpedo = {
+_G.pg.base.gametip.word_torpedo = {
 	tip = "魚雷"
 }
 
-_G.pg.gametip["word_ air_defense_artillery"] = {
+_G.pg.base.gametip["word_ air_defense_artillery"] = {
 	tip = "防空炮"
 }
 
-_G.pg.gametip.word_air_defense_artillery = {
+_G.pg.base.gametip.word_air_defense_artillery = {
 	tip = "対空"
 }
 
-_G.pg.gametip.word_device = {
+_G.pg.base.gametip.word_device = {
 	tip = "設備"
 }
 
-_G.pg.gametip.word_cannon = {
+_G.pg.base.gametip.word_cannon = {
 	tip = "艦砲"
 }
 
-_G.pg.gametip.word_fighter = {
+_G.pg.base.gametip.word_fighter = {
 	tip = "戦闘機"
 }
 
-_G.pg.gametip.word_bomber = {
+_G.pg.base.gametip.word_bomber = {
 	tip = "爆撃機"
 }
 
-_G.pg.gametip.word_attacker = {
+_G.pg.base.gametip.word_attacker = {
 	tip = "攻撃機"
 }
 
-_G.pg.gametip.word_seaplane = {
+_G.pg.base.gametip.word_seaplane = {
 	tip = "水上機"
 }
 
-_G.pg.gametip.word_missile = {
+_G.pg.base.gametip.word_missile = {
 	tip = "ミサイル"
 }
 
-_G.pg.gametip.word_online = {
+_G.pg.base.gametip.word_online = {
 	tip = "ログイン中"
 }
 
-_G.pg.gametip.word_apply = {
+_G.pg.base.gametip.word_apply = {
 	tip = "申請"
 }
 
-_G.pg.gametip.word_star = {
+_G.pg.base.gametip.word_star = {
 	tip = "突破"
 }
 
-_G.pg.gametip.word_level = {
+_G.pg.base.gametip.word_level = {
 	tip = "練度"
 }
 
-_G.pg.gametip.word_mod_value = {
+_G.pg.base.gametip.word_mod_value = {
 	tip = "強化値"
 }
 
-_G.pg.gametip.word_wait = {
+_G.pg.base.gametip.word_wait = {
 	tip = ""
 }
 
-_G.pg.gametip.word_consume = {
+_G.pg.base.gametip.word_consume = {
 	tip = "消費"
 }
 
-_G.pg.gametip.word_sell_out = {
+_G.pg.base.gametip.word_sell_out = {
 	tip = "売切れ"
 }
 
-_G.pg.gametip.word_sell_lock = {
+_G.pg.base.gametip.word_sell_lock = {
 	tip = "未開放 "
 }
 
-_G.pg.gametip.word_diamond_tip = {
+_G.pg.base.gametip.word_diamond_tip = {
 	tip = [[
 
                         　　　　　　無償 <icon name=diamond w=0.8 h=0.8/> : $1
@@ -1173,615 +1173,615 @@ _G.pg.gametip.word_diamond_tip = {
 ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]]
 }
 
-_G.pg.gametip.word_contribution = {
+_G.pg.base.gametip.word_contribution = {
 	tip = "贡献"
 }
 
-_G.pg.gametip.word_guild_res = {
+_G.pg.base.gametip.word_guild_res = {
 	tip = "舰队资源"
 }
 
-_G.pg.gametip.word_fit = {
+_G.pg.base.gametip.word_fit = {
 	tip = "適用"
 }
 
-_G.pg.gametip.word_equipment_skin = {
+_G.pg.base.gametip.word_equipment_skin = {
 	tip = "外装"
 }
 
-_G.pg.gametip.word_activity = {
+_G.pg.base.gametip.word_activity = {
 	tip = "活动"
 }
 
-_G.pg.gametip.word_urgency_event = {
+_G.pg.base.gametip.word_urgency_event = {
 	tip = "紧急事件"
 }
 
-_G.pg.gametip.word_shop = {
+_G.pg.base.gametip.word_shop = {
 	tip = "ショップ"
 }
 
-_G.pg.gametip.word_facility = {
+_G.pg.base.gametip.word_facility = {
 	tip = "设施"
 }
 
-_G.pg.gametip.word_cv_key_main = {
+_G.pg.base.gametip.word_cv_key_main = {
 	tip = "メイン"
 }
 
-_G.pg.gametip.channel_name_1 = {
+_G.pg.base.gametip.channel_name_1 = {
 	tip = "全部"
 }
 
-_G.pg.gametip.channel_name_2 = {
+_G.pg.base.gametip.channel_name_2 = {
 	tip = "全員"
 }
 
-_G.pg.gametip.channel_name_3 = {
+_G.pg.base.gametip.channel_name_3 = {
 	tip = "情報"
 }
 
-_G.pg.gametip.channel_name_4 = {
+_G.pg.base.gametip.channel_name_4 = {
 	tip = "友達"
 }
 
-_G.pg.gametip.channel_name_5 = {
+_G.pg.base.gametip.channel_name_5 = {
 	tip = "艦隊"
 }
 
-_G.pg.gametip.common_wait = {
+_G.pg.base.gametip.common_wait = {
 	tip = "少し時間を置いてから再度お試しください"
 }
 
-_G.pg.gametip.common_ship_type = {
+_G.pg.base.gametip.common_ship_type = {
 	tip = "艦種"
 }
 
-_G.pg.gametip.common_dont_remind_dur_login = {
+_G.pg.base.gametip.common_dont_remind_dur_login = {
 	tip = "次回アプリ起動まで表示しない"
 }
 
-_G.pg.gametip.common_activity_end = {
+_G.pg.base.gametip.common_activity_end = {
 	tip = "<color=#92fc63>終了済み</color>のイベントです"
 }
 
-_G.pg.gametip.common_activity_notStartOrEnd = {
+_G.pg.base.gametip.common_activity_notStartOrEnd = {
 	tip = "イベント期間外です"
 }
 
-_G.pg.gametip.common_activity_not_start = {
+_G.pg.base.gametip.common_activity_not_start = {
 	tip = "イベントはまだ開始されていません"
 }
 
-_G.pg.gametip.common_error = {
+_G.pg.base.gametip.common_error = {
 	tip = "システムエラー:"
 }
 
-_G.pg.gametip.common_no_gold = {
+_G.pg.base.gametip.common_no_gold = {
 	tip = "<color=#92fc63>資金</color>が足りません！"
 }
 
-_G.pg.gametip.common_no_oil = {
+_G.pg.base.gametip.common_no_oil = {
 	tip = "<color=#92fc63>燃料</color>が足りません！"
 }
 
-_G.pg.gametip.common_no_rmb = {
+_G.pg.base.gametip.common_no_rmb = {
 	tip = "<color=#92fc63>ダイヤ</color>が足りません！"
 }
 
-_G.pg.gametip.common_count_noenough = {
+_G.pg.base.gametip.common_count_noenough = {
 	tip = "回数が足りません"
 }
 
-_G.pg.gametip.common_no_dorm_gold = {
+_G.pg.base.gametip.common_no_dorm_gold = {
 	tip = "<color=#92fc63>コイン</color>が足りません！"
 }
 
-_G.pg.gametip.common_no_resource = {
+_G.pg.base.gametip.common_no_resource = {
 	tip = "資源が不足しています！"
 }
 
-_G.pg.gametip.common_no_item = {
+_G.pg.base.gametip.common_no_item = {
 	tip = "アイテムが<color=#92fc63>[$1]</color>足りません！"
 }
 
-_G.pg.gametip.common_no_item_1 = {
+_G.pg.base.gametip.common_no_item_1 = {
 	tip = "アイテムが不足しています！"
 }
 
-_G.pg.gametip.common_use_item_sos_max = {
+_G.pg.base.gametip.common_use_item_sos_max = {
 	tip = "これ以上は受信できません"
 }
 
-_G.pg.gametip.common_use_item_sos_used = {
+_G.pg.base.gametip.common_use_item_sos_used = {
 	tip = "救助信号受信数+$1"
 }
 
-_G.pg.gametip.common_no_x = {
+_G.pg.base.gametip.common_no_x = {
 	tip = "<color=#92fc63>$1</color>が不足しています！"
 }
 
-_G.pg.gametip.common_limit_cmd = {
+_G.pg.base.gametip.common_limit_cmd = {
 	tip = "現在の条件では操作できません…"
 }
 
-_G.pg.gametip.common_limit_type = {
+_G.pg.base.gametip.common_limit_type = {
 	tip = "選択中の類型では操作できません…"
 }
 
-_G.pg.gametip.common_limit_equip = {
+_G.pg.base.gametip.common_limit_equip = {
 	tip = "この装備は装備できません"
 }
 
-_G.pg.gametip.common_buy_success = {
+_G.pg.base.gametip.common_buy_success = {
 	tip = "購入に成功しました！"
 }
 
-_G.pg.gametip.common_limit_level = {
+_G.pg.base.gametip.common_limit_level = {
 	tip = "必要指揮官Lv:<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.common_shopId_noFound = {
+_G.pg.base.gametip.common_shopId_noFound = {
 	tip = "商品idが見つかりません"
 }
 
-_G.pg.gametip.common_today_buy_limit = {
+_G.pg.base.gametip.common_today_buy_limit = {
 	tip = "本日はこれ以上購入できません"
 }
 
-_G.pg.gametip.common_not_enter_room = {
+_G.pg.base.gametip.common_not_enter_room = {
 	tip = "ルームに入っていません"
 }
 
-_G.pg.gametip.common_test_ship = {
+_G.pg.base.gametip.common_test_ship = {
 	tip = "ブリはダメです、ブリ！"
 }
 
-_G.pg.gametip.common_entry_inhibited = {
+_G.pg.base.gametip.common_entry_inhibited = {
 	tip = "利用が制限されています"
 }
 
-_G.pg.gametip.common_refresh_count_insufficient = {
+_G.pg.base.gametip.common_refresh_count_insufficient = {
 	tip = "演習相手はこれ以上更新できません"
 }
 
-_G.pg.gametip.common_get_player_info_erro = {
+_G.pg.base.gametip.common_get_player_info_erro = {
 	tip = "ユーザー情報取得に失敗しました"
 }
 
-_G.pg.gametip.common_no_open = {
+_G.pg.base.gametip.common_no_open = {
 	tip = "準備中"
 }
 
-_G.pg.gametip["common_already owned"] = {
+_G.pg.base.gametip["common_already owned"] = {
 	tip = "獲得済"
 }
 
-_G.pg.gametip.common_not_get_ship = {
+_G.pg.base.gametip.common_not_get_ship = {
 	tip = "未入手"
 }
 
-_G.pg.gametip.common_sale_out = {
+_G.pg.base.gametip.common_sale_out = {
 	tip = "売切れ"
 }
 
-_G.pg.gametip.common_skin_out_of_stock = {
+_G.pg.base.gametip.common_skin_out_of_stock = {
 	tip = "販売期間外です"
 }
 
-_G.pg.gametip.common_go_home = {
+_G.pg.base.gametip.common_go_home = {
 	tip = "メイン画面に戻りますか？"
 }
 
-_G.pg.gametip.dont_remind_today = {
+_G.pg.base.gametip.dont_remind_today = {
 	tip = "次回からは表示しない"
 }
 
-_G.pg.gametip.dont_remind_session = {
+_G.pg.base.gametip.dont_remind_session = {
 	tip = "次回からは表示しない"
 }
 
-_G.pg.gametip.battle_no_oil = {
+_G.pg.base.gametip.battle_no_oil = {
 	tip = "出撃するための燃料が不足しています"
 }
 
-_G.pg.gametip.battle_emptyBlock = {
+_G.pg.base.gametip.battle_emptyBlock = {
 	tip = "対応する兵装が装備されていません…"
 }
 
-_G.pg.gametip.battle_duel_main_rage = {
+_G.pg.base.gametip.battle_duel_main_rage = {
 	tip = "前衛艦隊全滅、戦闘を加速します"
 }
 
-_G.pg.gametip.battle_main_emergent = {
+_G.pg.base.gametip.battle_main_emergent = {
 	tip = "<color=#92fc63>$1</color>が大きな損傷を受けました！"
 }
 
-_G.pg.gametip.battle_battleMediator_goOnFight = {
+_G.pg.base.gametip.battle_battleMediator_goOnFight = {
 	tip = "戦闘継続"
 }
 
-_G.pg.gametip.battle_battleMediator_existFight = {
+_G.pg.base.gametip.battle_battleMediator_existFight = {
 	tip = "戦域離脱"
 }
 
-_G.pg.gametip.battle_battleMediator_clear_warning = {
+_G.pg.base.gametip.battle_battleMediator_clear_warning = {
 	tip = "戦闘を中断すると、チャレンジ進捗がリセットされ、累計得点は一つ前のステージの得点まで計算されます。戦闘を中断しますか？"
 }
 
-_G.pg.gametip.battle_battleMediator_quest_exist = {
+_G.pg.base.gametip.battle_battleMediator_quest_exist = {
 	tip = "撤退すると<color=#92fc63>アイテムと艦</color>が入手できなくなります。\n撤退しますか？"
 }
 
-_G.pg.gametip.battle_levelMediator_ok_takeResource = {
+_G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
 	tip = "資源を調達しました！"
 }
 
-_G.pg.gametip.battle_result_time_limit = {
+_G.pg.base.gametip.battle_result_time_limit = {
 	tip = "敵艦隊を$1秒内で撃破"
 }
 
-_G.pg.gametip.battle_result_sink_limit = {
+_G.pg.base.gametip.battle_result_sink_limit = {
 	tip = "戦闘不能艦が$1以下"
 }
 
-_G.pg.gametip.battle_result_undefeated = {
+_G.pg.base.gametip.battle_result_undefeated = {
 	tip = "全員戦闘不能にならない"
 }
 
-_G.pg.gametip.battle_result_victory = {
+_G.pg.base.gametip.battle_result_victory = {
 	tip = "敵艦隊を撃破"
 }
 
-_G.pg.gametip.battle_result_defeat_all_enemys = {
+_G.pg.base.gametip.battle_result_defeat_all_enemys = {
 	tip = "敵艦をすべて撃破"
 }
 
-_G.pg.gametip.battle_result_base_score = {
+_G.pg.base.gametip.battle_result_base_score = {
 	tip = "ステージクリア："
 }
 
-_G.pg.gametip.battle_result_dead_score = {
+_G.pg.base.gametip.battle_result_dead_score = {
 	tip = "味方戦闘不能*$1："
 }
 
-_G.pg.gametip.battle_result_score = {
+_G.pg.base.gametip.battle_result_score = {
 	tip = "輸送艦撃破*$1："
 }
 
-_G.pg.gametip.battle_result_score_total = {
+_G.pg.base.gametip.battle_result_score_total = {
 	tip = "合計："
 }
 
-_G.pg.gametip.battle_result_total_damage = {
+_G.pg.base.gametip.battle_result_total_damage = {
 	tip = "合計ダメージ："
 }
 
-_G.pg.gametip.battle_result_contribution = {
+_G.pg.base.gametip.battle_result_contribution = {
 	tip = "演習進捗："
 }
 
-_G.pg.gametip.battle_result_total_score = {
+_G.pg.base.gametip.battle_result_total_score = {
 	tip = "スコア："
 }
 
-_G.pg.gametip.battle_result_max_combo = {
+_G.pg.base.gametip.battle_result_max_combo = {
 	tip = "最大コンボ："
 }
 
-_G.pg.gametip.battle_levelScene_0Oil = {
+_G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "燃料ポイントが空になりました"
 }
 
-_G.pg.gametip.battle_levelScene_0Gold = {
+_G.pg.base.gametip.battle_levelScene_0Gold = {
 	tip = "資金ポイントが空になりました"
 }
 
-_G.pg.gametip.battle_levelScene_noRaderCount = {
+_G.pg.base.gametip.battle_levelScene_noRaderCount = {
 	tip = "索敵回数が0になりました"
 }
 
-_G.pg.gametip.battle_levelScene_lock = {
+_G.pg.base.gametip.battle_levelScene_lock = {
 	tip = "海域が開放されていません。<color=#92fc63>前のステージ</color>を攻略すると開放されます"
 }
 
-_G.pg.gametip.battle_levelScene_hard_lock = {
+_G.pg.base.gametip.battle_levelScene_hard_lock = {
 	tip = "対応するメイン海域がまだクリアされていません。<color=#92fc63>前のステージ</color>を攻略すると開放されます"
 }
 
-_G.pg.gametip.battle_levelScene_close = {
+_G.pg.base.gametip.battle_levelScene_close = {
 	tip = "イベント海域が開放されていません"
 }
 
-_G.pg.gametip.battle_levelScene_chapter_lock = {
+_G.pg.base.gametip.battle_levelScene_chapter_lock = {
 	tip = "海域が開放されていません。<color=#92fc63>前のステージ</color>を攻略すると開放されます"
 }
 
-_G.pg.gametip.battle_preCombatLayer_changeFormationError = {
+_G.pg.base.gametip.battle_preCombatLayer_changeFormationError = {
 	tip = "この陣形には変更できません"
 }
 
-_G.pg.gametip.battle_preCombatLayer_changeFormationNumberError = {
+_G.pg.base.gametip.battle_preCombatLayer_changeFormationNumberError = {
 	tip = "戦闘可能な艦が<color=#92fc63>$1</color>以上必須です"
 }
 
-_G.pg.gametip.battle_preCombatLayer_ready = {
+_G.pg.base.gametip.battle_preCombatLayer_ready = {
 	tip = "艦隊準備万端！いつでも出撃できます！"
 }
 
-_G.pg.gametip.battle_preCombatLayer_quest_leaveFleet = {
+_G.pg.base.gametip.battle_preCombatLayer_quest_leaveFleet = {
 	tip = "<color=#92fc63>$1</color>を艦隊から外しますか？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_clear_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 	tip = "選択中の編成をクリアしますか？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_auto_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
 	tip = "選択中の編成をオススメ編成に変更しますか？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
 	tip = "現在の編成を保存しますか？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_march = {
+_G.pg.base.gametip.battle_preCombatLayer_save_march = {
 	tip = "現在の編成を保存して出撃しますか？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_success = {
+_G.pg.base.gametip.battle_preCombatLayer_save_success = {
 	tip = "艦隊編成を保存しました"
 }
 
-_G.pg.gametip.battle_preCombatLayer_time_limit = {
+_G.pg.base.gametip.battle_preCombatLayer_time_limit = {
 	tip = "$1秒以内戦闘完了"
 }
 
-_G.pg.gametip.battle_preCombatLayer_sink_limit = {
+_G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
 	tip = "戦闘不能艦が$1以下"
 }
 
-_G.pg.gametip.battle_preCombatLayer_undefeated = {
+_G.pg.base.gametip.battle_preCombatLayer_undefeated = {
 	tip = "全員戦闘不能にならない"
 }
 
-_G.pg.gametip.battle_preCombatLayer_victory = {
+_G.pg.base.gametip.battle_preCombatLayer_victory = {
 	tip = "敵艦隊を撃破"
 }
 
-_G.pg.gametip.battle_preCombatLayer_time_hold = {
+_G.pg.base.gametip.battle_preCombatLayer_time_hold = {
 	tip = "$1秒間持ちこたえる"
 }
 
-_G.pg.gametip.battle_preCombatLayer_damage_before_end = {
+_G.pg.base.gametip.battle_preCombatLayer_damage_before_end = {
 	tip = "時間制限内で最大ダメージを狙おう"
 }
 
-_G.pg.gametip.battle_preCombatLayer_destory_transport_ship = {
+_G.pg.base.gametip.battle_preCombatLayer_destory_transport_ship = {
 	tip = "輸送艦$1隻以上を撃破"
 }
 
-_G.pg.gametip.battle_preCombatMediator_leastLimit = {
+_G.pg.base.gametip.battle_preCombatMediator_leastLimit = {
 	tip = "第一艦隊に艦を配置する必要があります"
 }
 
-_G.pg.gametip.battle_preCombatMediator_timeout = {
+_G.pg.base.gametip.battle_preCombatMediator_timeout = {
 	tip = "<color=#92fc63>作戦制限時間</color>を過ぎました。作戦失敗…"
 }
 
-_G.pg.gametip.battle_preCombatMediator_activity_timeout = {
+_G.pg.base.gametip.battle_preCombatMediator_activity_timeout = {
 	tip = "イベントが終了しました。"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_collecTimeDefault = {
+_G.pg.base.gametip.battle_resourceSiteLayer_collecTimeDefault = {
 	tip = "委託時間: <color=#92fc63>--:--:--</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_collecTime = {
+_G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
 	tip = "委託時間: <color=#92fc63>--:--:--</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_maxLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_maxLv = {
 	tip = "最高<color=#92fc63>Lv$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_avgLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_avgLv = {
 	tip = "平均練度<color=#92fc63>Lv$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_shipTypeCount = {
+_G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
 	tip = "$1X$2"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_maxLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_maxLv = {
 	tip = "最高練度は<color=#92fc63>Lv$1</color>に達していません"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_avgLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_avgLv = {
 	tip = "平均練度は<color=#92fc63>Lv$1</color>に達していません"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
 	tip = "<color=#92fc63>$1X$2</color>が編成されていません"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_collecting = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_collecting = {
 	tip = "委託派遣中です"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_not5Ship = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_not5Ship = {
 	tip = "<color=#92fc63> 5</color>隻以上が必須です"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_limit = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
 	tip = "委託条件を満たしていません:<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_endError_notStar = {
+_G.pg.base.gametip.battle_resourceSiteLayer_endError_notStar = {
 	tip = "委託はまだ開始されていません"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_quest_end = {
+_G.pg.base.gametip.battle_resourceSiteLayer_quest_end = {
 	tip = "緊急帰還させると、この委託がリストから消滅します。強制帰還させますか？"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_noSite = {
+_G.pg.base.gametip.battle_resourceSiteMediator_noSite = {
 	tip = "委託が存在しません"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_fight = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
 	tip = "戦場に出撃中です！"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_rest = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_rest = {
 	tip = "寮舎で休憩中です…"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_study = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_study = {
 	tip = "戦術教室で勉強中です"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_event = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_event = {
 	tip = "委託に出かけています"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_same = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_same = {
 	tip = "同じ艦を選択できません"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_ok_end = {
+_G.pg.base.gametip.battle_resourceSiteMediator_ok_end = {
 	tip = "母港に帰還しました"
 }
 
-_G.pg.gametip.battle_autobot_unlock = {
+_G.pg.base.gametip.battle_autobot_unlock = {
 	tip = "自律(オート)戦闘機能が開放されました"
 }
 
-_G.pg.gametip.tips_confirm_teleport_sub = {
+_G.pg.base.gametip.tips_confirm_teleport_sub = {
 	tip = "作戦指示：<color=#92fc63FF>潜水艦隊</color>の作戦エリアを<color=#92fc63FF>$1</color>から<color=#92fc63FF>$2</color>に変更するには<color=#92fc63FF>$3</color>マス移動させる必要があり、燃料<color=#92fc63FF>$4</color>を消費します。作戦エリアを変更しますか？"
 }
 
-_G.pg.gametip.backyard_addExp_Info = {
+_G.pg.base.gametip.backyard_addExp_Info = {
 	tip = "留守の||<color=#FAFAF7FF>$1</color>|| の間、十分に休憩しました！||食糧を|| <color=#92fc63FF>$2</color>|| 消費し、経験値|| <color=#92fc63FF>$3</color>|| を入手しました！"
 }
 
-_G.pg.gametip.backyard_extendCapacity_error = {
+_G.pg.base.gametip.backyard_extendCapacity_error = {
 	tip = "拡張失敗:"
 }
 
-_G.pg.gametip.backyard_extendCapacity_ok = {
+_G.pg.base.gametip.backyard_extendCapacity_ok = {
 	tip = "食糧庫が<color=#92fc63>$1</color>拡張されました！"
 }
 
-_G.pg.gametip.backyard_addShip_error = {
+_G.pg.base.gametip.backyard_addShip_error = {
 	tip = "休憩艦船配置失敗:"
 }
 
-_G.pg.gametip.backyard_buyFurniture_error = {
+_G.pg.base.gametip.backyard_buyFurniture_error = {
 	tip = "家具購入失敗:"
 }
 
-_G.pg.gametip.backyard_extendBackYard_error = {
+_G.pg.base.gametip.backyard_extendBackYard_error = {
 	tip = "休憩枠追加失敗:"
 }
 
-_G.pg.gametip.backyard_addFood_error = {
+_G.pg.base.gametip.backyard_addFood_error = {
 	tip = "食糧補充失敗:"
 }
 
-_G.pg.gametip.backyard_addFood_ok = {
+_G.pg.base.gametip.backyard_addFood_ok = {
 	tip = "食糧が<color=#92fc63>+$1</color>補充されました！"
 }
 
-_G.pg.gametip.backyard_putFurniture_ok = {
+_G.pg.base.gametip.backyard_putFurniture_ok = {
 	tip = "保存しました"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodCountLimit = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodCountLimit = {
 	tip = "食糧が不足しています"
 }
 
-_G.pg.gametip.backyard_shipAddInimacy_ok = {
+_G.pg.base.gametip.backyard_shipAddInimacy_ok = {
 	tip = "<color=#92fc63>$1</color>の親密度が<color=#92fc63>上昇</color>しました。"
 }
 
-_G.pg.gametip.backyard_shipAddInimacy_error = {
+_G.pg.base.gametip.backyard_shipAddInimacy_error = {
 	tip = "親密度上昇失敗:"
 }
 
-_G.pg.gametip.backyard_shipAddMoney_ok = {
+_G.pg.base.gametip.backyard_shipAddMoney_ok = {
 	tip = "<color=#92fc63>$1</color>が<color=#92fc63>$2</color>コインを発見しました！"
 }
 
-_G.pg.gametip.backyard_shipAddMoney_error = {
+_G.pg.base.gametip.backyard_shipAddMoney_error = {
 	tip = "コイン獲得失敗:"
 }
 
-_G.pg.gametip.backyard_shipExit_error = {
+_G.pg.base.gametip.backyard_shipExit_error = {
 	tip = "配置解除失敗:"
 }
 
-_G.pg.gametip.backyard_shipSpeedUpEnergy_error = {
+_G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
 	tip = "加速失敗:"
 }
 
-_G.pg.gametip.backyard_shipAlreadyExit = {
+_G.pg.base.gametip.backyard_shipAlreadyExit = {
 	tip = "既に休憩枠から外されました"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_full = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
 	tip = "<color=red>食糧はもういっぱいです！</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_buyCountLimit = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_buyCountLimit = {
 	tip = "最大で<color=#92fc63>$1</color>までしか購入できません！"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_error_noResource = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_error_noResource = {
 	tip = "購入に失敗しました。<color=#92fc63>$1</color>が不足しています"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noFood = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
 	tip = "寮舎の食糧庫が空っぽになりました…"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noTimer = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noTimer = {
 	tip = "<color=#92fc63>食糧を補充</color>すると、経験値を獲得できます！"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_word = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 	tip = "どれも美味そう…"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noShip = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
 	tip = "休憩艦船を配置しないと、<color=#92fc63>食糧が消費されません</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
 	tip = "食糧備蓄は"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 	tip = "持つね…早く補充しよう！"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
 	tip = "食糧庫を<color=#92fc63>$1</color>から<color=#92fc63>$2</color>に拡張する"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_error_entendFail = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_error_entendFail = {
 	tip = "<color=#92fc63>必要アイテムが不足しています</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_buy_max_count = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 	tip = "食糧庫が一杯です！"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent1 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
 	tip = "<size=30>快適度計算時に適用される家具数：\n壁紙:<color=#92fc63>$1</color>/床:<color=#92fc63>$4</color>/家具:<color=#92fc63>$2</color>/雑貨:<color=#92fc63>$3</color>/マット:<color=#92fc63>$5</color>/壁飾り:<color=#92fc63>$6</color>/蒐集品:<color=#92fc63>$7</color>\n</size>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent2 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
 	tip = [[
 <size=45>$1</size>
 経験値<color=#92fc63>+$2%</color><size=30>
@@ -1789,319 +1789,319 @@ _G.pg.gametip.backyard_backyardScene_comforChatContent2 = {
 </size>]]
 }
 
-_G.pg.gametip.backyard_buyExtendItem_question = {
+_G.pg.base.gametip.backyard_buyExtendItem_question = {
 	tip = "<color=#92fc63>$1</color>を消費します。続けますか？"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent1_1 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent1_1 = {
 	tip = "<color=#ff5c5c>清貧</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent2_2 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent2_2 = {
 	tip = "<color=#ffde38>普通</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent3_3 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent3_3 = {
 	tip = "<color=#c5cfdf>快適</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_quest_clearButton = {
+_G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
 	tip = "マイセットを<color=#92fc63>クリア</color>しますか？"
 }
 
-_G.pg.gametip.backyard_backyardScene_quest_saveFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
 	tip = "マイセットを<color=#92fc63>保存</color>しますか？"
 }
 
-_G.pg.gametip.backyard_backyardScene_restSuccess = {
+_G.pg.base.gametip.backyard_backyardScene_restSuccess = {
 	tip = "<color=#92fc63>マイセットを戻しました</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_clearSuccess = {
+_G.pg.base.gametip.backyard_backyardScene_clearSuccess = {
 	tip = "<color=#92fc63>マイセットをクリアしました</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_name = {
+_G.pg.base.gametip.backyard_backyardScene_name = {
 	tip = "<color=#92fc63>$1の寮舎</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
+_G.pg.base.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
 	tip = "疲労度が回復しました！"
 }
 
-_G.pg.gametip.backyard_backyardScene_timeRest = {
+_G.pg.base.gametip.backyard_backyardScene_timeRest = {
 	tip = "残り時間<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_showAddExpInfo = {
+_G.pg.base.gametip.backyard_backyardScene_showAddExpInfo = {
 	tip = "休憩時間:<color=#92fc63>$1</color> 経験値増加:<color=#92fc63>$2</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_error_noPosPutFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
 	tip = "配置できる場所がありません"
 }
 
-_G.pg.gametip.backyard_backyardScene_error_noFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_error_noFurniture = {
 	tip = "配置できる家具がありません"
 }
 
-_G.pg.gametip.backyard_backyardScene_error_canNotRotate = {
+_G.pg.base.gametip.backyard_backyardScene_error_canNotRotate = {
 	tip = "この場所では回転させられません"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
 	tip = "<color=#92fc63>$1ダイヤ</color>を消費して休憩枠を開放しますか？"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
 	tip = "食糧が不足しています。食糧を補充しますか？"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
 	tip = "<color=#92fc63>高速建造材</color>を消費して建造を加速しますか？"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
 	tip = "高速建造材が不足しています"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
 	tip = "寮舎で休憩中です…"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_fight = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_fight = {
 	tip = "寮舎で休憩中です…"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_study = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_study = {
 	tip = "戦術教室で勉強中です"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_collect = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_collect = {
 	tip = "委託に出かけています"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_event = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_event = {
 	tip = "特殊任務に参加しています！"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
 	tip = "艦隊に編成されています。艦隊から外しますか？"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
 	tip = "前衛艦隊は一隻以上が必須です！"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
 	tip = "主力艦隊は一隻以上が必須です！"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
 	tip = "出撃艦を配置しました"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
 	tip = "開放成功"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_noFood = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
 	tip = "食糧が足りません"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_fullEnergy = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fullEnergy = {
 	tip = "体力は回復しました"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
 	tip = "艦隊は一隻以上が必須です！"
 }
 
-_G.pg.gametip.backyard_open_2floor = {
+_G.pg.base.gametip.backyard_open_2floor = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で寮舎2Fを開放しますか？\n※快適度が<color=#92fc63>20</color>増加します\n※配置枠は<color=#92fc63>1Fと同じ数</color>になります"
 }
 
-_G.pg.gametip.backyarad_theme_replace = {
+_G.pg.base.gametip.backyarad_theme_replace = {
 	tip = "セット【$1】のアイテムの一部はほかの階に配置されています。配置中のアイテムをスキップしました"
 }
 
-_G.pg.gametip.backyard_extendArea_ok = {
+_G.pg.base.gametip.backyard_extendArea_ok = {
 	tip = "寮舎拡張に成功しました！"
 }
 
-_G.pg.gametip.backyard_extendArea_erro = {
+_G.pg.base.gametip.backyard_extendArea_erro = {
 	tip = "寮舎拡張に失敗しました…<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.backyard_extendArea_tip = {
+_G.pg.base.gametip.backyard_extendArea_tip = {
 	tip = "拡張許可書 ||$1|| 個を消費しますか？||所持数:||$2||個"
 }
 
-_G.pg.gametip.backyard_notPosition_shipExit = {
+_G.pg.base.gametip.backyard_notPosition_shipExit = {
 	tip = "休憩枠が不足しています"
 }
 
-_G.pg.gametip.backyard_no_ship_tip = {
+_G.pg.base.gametip.backyard_no_ship_tip = {
 	tip = "艦が存在しません"
 }
 
-_G.pg.gametip.backyard_energy_qiuck_up_tip = {
+_G.pg.base.gametip.backyard_energy_qiuck_up_tip = {
 	tip = "エナジーコーヒーを<color=#92fc63FF>$1</color>つ使用しますか？\n\n所持数:<color=$2>$3</color>"
 }
 
-_G.pg.gametip.backyard_cant_put_tip = {
+_G.pg.base.gametip.backyard_cant_put_tip = {
 	tip = "配置できません"
 }
 
-_G.pg.gametip.backyard_cant_buy_tip = {
+_G.pg.base.gametip.backyard_cant_buy_tip = {
 	tip = "購入できません"
 }
 
-_G.pg.gametip.backyard_theme_lock_tip = {
+_G.pg.base.gametip.backyard_theme_lock_tip = {
 	tip = "このセットは<color=#92fc63>未開放</color>です。"
 }
 
-_G.pg.gametip.backyard_theme_open_tip = {
+_G.pg.base.gametip.backyard_theme_open_tip = {
 	tip = "開放条件:\n指揮官Lv<color=#92fc63>$1</color>以上"
 }
 
-_G.pg.gametip.backyard_theme_furniture_buy_tip = {
+_G.pg.base.gametip.backyard_theme_furniture_buy_tip = {
 	tip = "<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material>コインで<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>を購入しますか？？"
 }
 
-_G.pg.gametip.backyard_cannot_repeat_purchase = {
+_G.pg.base.gametip.backyard_cannot_repeat_purchase = {
 	tip = "複数購入できません"
 }
 
-_G.pg.gametip.backyard_theme_bought = {
+_G.pg.base.gametip.backyard_theme_bought = {
 	tip = "既に購入済みです"
 }
 
-_G.pg.gametip.backyard_interAction_no_open = {
+_G.pg.base.gametip.backyard_interAction_no_open = {
 	tip = "準備中"
 }
 
-_G.pg.gametip.backyard_theme_no_exist = {
+_G.pg.base.gametip.backyard_theme_no_exist = {
 	tip = "セットが存在しません"
 }
 
-_G.pg.gametip.backayrd_theme_delete_sucess = {
+_G.pg.base.gametip.backayrd_theme_delete_sucess = {
 	tip = "セット削除成功"
 }
 
-_G.pg.gametip.backayrd_theme_delete_erro = {
+_G.pg.base.gametip.backayrd_theme_delete_erro = {
 	tip = "セット削除失敗"
 }
 
-_G.pg.gametip.backyard_ship_on_furnitrue = {
+_G.pg.base.gametip.backyard_ship_on_furnitrue = {
 	tip = "艦がくつろいでいますが…本当に外しますか？"
 }
 
-_G.pg.gametip.backyard_save_empty_theme = {
+_G.pg.base.gametip.backyard_save_empty_theme = {
 	tip = "マイセットを保存できませんでした"
 }
 
-_G.pg.gametip.backyard_theme_name_forbid = {
+_G.pg.base.gametip.backyard_theme_name_forbid = {
 	tip = "NGワードが含まれています"
 }
 
-_G.pg.gametip.backyard_getResource_emptry = {
+_G.pg.base.gametip.backyard_getResource_emptry = {
 	tip = "入手タイミングがズレちゃいました…"
 }
 
-_G.pg.gametip.backyard_no_pos_for_ship = {
+_G.pg.base.gametip.backyard_no_pos_for_ship = {
 	tip = "これ以上は配置できません"
 }
 
-_G.pg.gametip.equipment_destroyEquipments_error_noEquip = {
+_G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
 	tip = "装備が存在しません"
 }
 
-_G.pg.gametip.equipment_destroyEquipments_error_notEnoughEquip = {
+_G.pg.base.gametip.equipment_destroyEquipments_error_notEnoughEquip = {
 	tip = "数量が不足しています"
 }
 
-_G.pg.gametip.equipment_equipDevUI_error_noPos = {
+_G.pg.base.gametip.equipment_equipDevUI_error_noPos = {
 	tip = "倉庫が一杯です"
 }
 
-_G.pg.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
+_G.pg.base.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
 	tip = "<color=#92fc63>$1</color> を装備できません"
 }
 
-_G.pg.gametip.equipment_equipmentScene_selectError_more = {
+_G.pg.base.gametip.equipment_equipmentScene_selectError_more = {
 	tip = "<color=#92fc63>$1</color> まで選択できます"
 }
 
-_G.pg.gametip.equipment_newEquipLayer_getNewEquip = {
+_G.pg.base.gametip.equipment_newEquipLayer_getNewEquip = {
 	tip = "装備入手:<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.equipment_select_materials_tip = {
+_G.pg.base.gametip.equipment_select_materials_tip = {
 	tip = "素材を選択してください"
 }
 
-_G.pg.gametip.equipment_select_device_tip = {
+_G.pg.base.gametip.equipment_select_device_tip = {
 	tip = "装備を選択してください"
 }
 
-_G.pg.gametip.equipment_cant_unload = {
+_G.pg.base.gametip.equipment_cant_unload = {
 	tip = "<color=#92fc63>倉庫がいっぱいです</color>…装備解除できません"
 }
 
-_G.pg.gametip.equipment_max_level = {
+_G.pg.base.gametip.equipment_max_level = {
 	tip = "装備レベルが最大です"
 }
 
-_G.pg.gametip.equipment_upgrade_costcheck_error = {
+_G.pg.base.gametip.equipment_upgrade_costcheck_error = {
 	tip = "強化素材を確認して、再度「強化」をタップしてください"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_fragment = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_fragment = {
 	tip = "<color=#92fc63>$1</color>の数が不足しています"
 }
 
-_G.pg.gametip.exercise_count_insufficient = {
+_G.pg.base.gametip.exercise_count_insufficient = {
 	tip = "演習回数が不足しています"
 }
 
-_G.pg.gametip.exercise_clear_fleet_tip = {
+_G.pg.base.gametip.exercise_clear_fleet_tip = {
 	tip = "<color=#92fc63>演習防衛艦隊</color>がクリアされます。確認しますか？（※演習で挑まれた時第一艦隊が防衛側になります）"
 }
 
-_G.pg.gametip.exercise_fleet_exit_tip = {
+_G.pg.base.gametip.exercise_fleet_exit_tip = {
 	tip = "<color=#92fc63>演習防衛艦隊</color>から外しますか？"
 }
 
-_G.pg.gametip.exercise_replace_rivals_ok_tip = {
+_G.pg.base.gametip.exercise_replace_rivals_ok_tip = {
 	tip = "演習相手をリセットしました"
 }
 
-_G.pg.gametip.exercise_replace_rivals_question = {
+_G.pg.base.gametip.exercise_replace_rivals_question = {
 	tip = "ダイヤを<color=#92fc63>$1</color>消費して、演習相手をリセットしますか？"
 }
 
-_G.pg.gametip.exercise_count_recover_tip = {
+_G.pg.base.gametip.exercise_count_recover_tip = {
 	tip = "( <color=#92fc63>$1</color> 後回復)"
 }
 
-_G.pg.gametip.exercise_shop_refresh_tip = {
+_G.pg.base.gametip.exercise_shop_refresh_tip = {
 	tip = "ダイヤを<color=#92fc63>$1</color>消費して、リストを更新しますか？"
 }
 
-_G.pg.gametip.exercise_shop_buy_tip = {
+_G.pg.base.gametip.exercise_shop_buy_tip = {
 	tip = "<color=#92fc63>$1</color>演習戦果で引き換えますか？"
 }
 
-_G.pg.gametip.exercise_formation_title = {
+_G.pg.base.gametip.exercise_formation_title = {
 	tip = "演習防衛艦隊"
 }
 
-_G.pg.gametip.exercise_time_tip = {
+_G.pg.base.gametip.exercise_time_tip = {
 	tip = "   演習強化期間:$1"
 }
 
-_G.pg.gametip.exercise_rule_tip = {
+_G.pg.base.gametip.exercise_rule_tip = {
 	tip = [[
 1、演習強化期間は<color=#92fc63>14</color>日で1シーズンで、期間中昇格すると報酬が貰えます
 2、演習で勝利すると、階級に応じて報酬が貰えます。失敗しても勝利時の報酬の<color=#92fc63>半分</color>を入手できます
@@ -2116,123 +2116,123 @@ _G.pg.gametip.exercise_rule_tip = {
 11、演習期間終了後、全ユーザーの階級とスコアはリセットされます]]
 }
 
-_G.pg.gametip.exercise_award_tip = {
+_G.pg.base.gametip.exercise_award_tip = {
 	tip = "演習期間中、階級が昇格すると、1階級一回のみ報酬が貰えます:"
 }
 
-_G.pg.gametip.dock_yard_left_tips = {
+_G.pg.base.gametip.dock_yard_left_tips = {
 	tip = "<color=#92fc63>$1</color>を行う艦を選択してください:"
 }
 
-_G.pg.gametip.fleet_error_no_fleet = {
+_G.pg.base.gametip.fleet_error_no_fleet = {
 	tip = "出撃艦隊は存在しません"
 }
 
-_G.pg.gametip.fleet_repairShips_error_fullEnergy = {
+_G.pg.base.gametip.fleet_repairShips_error_fullEnergy = {
 	tip = "耐久が満タンです！"
 }
 
-_G.pg.gametip.fleet_repairShips_error_noResource = {
+_G.pg.base.gametip.fleet_repairShips_error_noResource = {
 	tip = "資源が不足しています"
 }
 
-_G.pg.gametip.fleet_repairShips_quest = {
+_G.pg.base.gametip.fleet_repairShips_quest = {
 	tip = "<color=#92fc63>$1</color>資金で耐久を回復しますか？"
 }
 
-_G.pg.gametip.fleet_fleetRaname_error = {
+_G.pg.base.gametip.fleet_fleetRaname_error = {
 	tip = "名前変更失敗:"
 }
 
-_G.pg.gametip.fleet_updateFleet_error = {
+_G.pg.base.gametip.fleet_updateFleet_error = {
 	tip = "更新失敗:"
 }
 
-_G.pg.gametip.friend_acceptFriendRequest_error = {
+_G.pg.base.gametip.friend_acceptFriendRequest_error = {
 	tip = "申請承認失敗:"
 }
 
-_G.pg.gametip.friend_deleteFriend_error = {
+_G.pg.base.gametip.friend_deleteFriend_error = {
 	tip = "友達削除失敗:"
 }
 
-_G.pg.gametip.friend_fetchFriendMsg_error = {
+_G.pg.base.gametip.friend_fetchFriendMsg_error = {
 	tip = "情報取得失敗:"
 }
 
-_G.pg.gametip.friend_rejectFriendRequest_error = {
+_G.pg.base.gametip.friend_rejectFriendRequest_error = {
 	tip = "申請拒否失敗:"
 }
 
-_G.pg.gametip.friend_searchFriend_noPlayer = {
+_G.pg.base.gametip.friend_searchFriend_noPlayer = {
 	tip = "該当ユーザーが存在しません"
 }
 
-_G.pg.gametip.friend_sendFriendMsg_error = {
+_G.pg.base.gametip.friend_sendFriendMsg_error = {
 	tip = "送信失敗:"
 }
 
-_G.pg.gametip.friend_sendFriendMsg_error_noFriend = {
+_G.pg.base.gametip.friend_sendFriendMsg_error_noFriend = {
 	tip = "相手は友達ではありません"
 }
 
-_G.pg.gametip.friend_sendFriendRequest_error = {
+_G.pg.base.gametip.friend_sendFriendRequest_error = {
 	tip = "申請失敗:"
 }
 
-_G.pg.gametip.friend_addblacklist_error = {
+_G.pg.base.gametip.friend_addblacklist_error = {
 	tip = "ブロック失敗:"
 }
 
-_G.pg.gametip.friend_relieveblacklist_error = {
+_G.pg.base.gametip.friend_relieveblacklist_error = {
 	tip = "ブロック解除失敗:"
 }
 
-_G.pg.gametip.friend_sendFriendRequest_success = {
+_G.pg.base.gametip.friend_sendFriendRequest_success = {
 	tip = "申請を送信しました"
 }
 
-_G.pg.gametip.friend_relieveblacklist_success = {
+_G.pg.base.gametip.friend_relieveblacklist_success = {
 	tip = "ブロックを解除しました"
 }
 
-_G.pg.gametip.friend_addblacklist_success = {
+_G.pg.base.gametip.friend_addblacklist_success = {
 	tip = "ブロックしました"
 }
 
-_G.pg.gametip.friend_confirm_add_blacklist = {
+_G.pg.base.gametip.friend_confirm_add_blacklist = {
 	tip = "<color=#92fc63>$1</color>をブロックしますか？\n（ブロックリストは友達管理で確認できます）"
 }
 
-_G.pg.gametip.friend_relieve_backlist_tip = {
+_G.pg.base.gametip.friend_relieve_backlist_tip = {
 	tip = "すでにブロックしたユーザーです。ブロックを解除しますか？"
 }
 
-_G.pg.gametip.friend_player_is_friend_tip = {
+_G.pg.base.gametip.friend_player_is_friend_tip = {
 	tip = "すでに友達になっているユーザーです"
 }
 
-_G.pg.gametip.friend_searchFriend_wait_time = {
+_G.pg.base.gametip.friend_searchFriend_wait_time = {
 	tip = "$1秒後再度検索できます"
 }
 
-_G.pg.gametip.lesson_classOver_error = {
+_G.pg.base.gametip.lesson_classOver_error = {
 	tip = "報酬受取失敗:"
 }
 
-_G.pg.gametip.lesson_endToLearn_error = {
+_G.pg.base.gametip.lesson_endToLearn_error = {
 	tip = "課程中止失敗:"
 }
 
-_G.pg.gametip.lesson_startToLearn_error = {
+_G.pg.base.gametip.lesson_startToLearn_error = {
 	tip = "強化失敗:"
 }
 
-_G.pg.gametip.tactics_lesson_cancel = {
+_G.pg.base.gametip.tactics_lesson_cancel = {
 	tip = "強化を中止すると、スキル経験値は少し入手できますが、<color=#92fc63>教科書は消費されます</color>。続けますか？"
 }
 
-_G.pg.gametip.tactics_lesson_system_introduce = {
+_G.pg.base.gametip.tactics_lesson_system_introduce = {
 	tip = {
 		{
 			icon = {
@@ -2257,439 +2257,439 @@ _G.pg.gametip.tactics_lesson_system_introduce = {
 	}
 }
 
-_G.pg.gametip.tactics_lesson_start_tip = {
+_G.pg.base.gametip.tactics_lesson_start_tip = {
 	tip = "<color=#92fc63>「$1」</color>を<color=#92fc63>1冊</color>使って、<color=#92fc63>「$2」</color>の<color=#92fc63>$3</color>を強化しますか？"
 }
 
-_G.pg.gametip.tactics_noskill_erro = {
+_G.pg.base.gametip.tactics_noskill_erro = {
 	tip = "強化対象が必須です"
 }
 
-_G.pg.gametip.tactics_max_level = {
+_G.pg.base.gametip.tactics_max_level = {
 	tip = "既に最大レベルです"
 }
 
-_G.pg.gametip.tactics_end_to_learn = {
+_G.pg.base.gametip.tactics_end_to_learn = {
 	tip = "<color=#92fc63>「$1」</color>強化完了、スキル<color=#92fc63>「$2」</color>は<color=#92fc63>$3</color>の経験値を獲得しました"
 }
 
-_G.pg.gametip.tactics_continue_to_learn = {
+_G.pg.base.gametip.tactics_continue_to_learn = {
 	tip = "引き続き同じスキルを強化しますか？"
 }
 
-_G.pg.gametip.tactics_should_exist_skill = {
+_G.pg.base.gametip.tactics_should_exist_skill = {
 	tip = "強化対象が必須です"
 }
 
-_G.pg.gametip.tactics_skill_level_up = {
+_G.pg.base.gametip.tactics_skill_level_up = {
 	tip = "(スキルレベル:$1→$2）！"
 }
 
-_G.pg.gametip.tactics_no_lesson = {
+_G.pg.base.gametip.tactics_no_lesson = {
 	tip = "教科書がありません…"
 }
 
-_G.pg.gametip.tactics_lesson_full = {
+_G.pg.base.gametip.tactics_lesson_full = {
 	tip = "教室が一杯です！"
 }
 
-_G.pg.gametip.tactics_lesson_repeated = {
+_G.pg.base.gametip.tactics_lesson_repeated = {
 	tip = "既に戦術教室で勉強中"
 }
 
-_G.pg.gametip.login_gate_not_ready = {
+_G.pg.base.gametip.login_gate_not_ready = {
 	tip = "ただいまメンテナンス中です"
 }
 
-_G.pg.gametip.login_game_not_ready = {
+_G.pg.base.gametip.login_game_not_ready = {
 	tip = "ただいまメンテナンス中です"
 }
 
-_G.pg.gametip.login_game_rigister_full = {
+_G.pg.base.gametip.login_game_rigister_full = {
 	tip = "サーバーは満員です"
 }
 
-_G.pg.gametip.login_game_login_full = {
+_G.pg.base.gametip.login_game_login_full = {
 	tip = "同時接続数が上限になっています。しばらく置いてから再度お試しください"
 }
 
-_G.pg.gametip.login_game_banned = {
+_G.pg.base.gametip.login_game_banned = {
 	tip = "利用が停止されています"
 }
 
-_G.pg.gametip.login_game_frequence = {
+_G.pg.base.gametip.login_game_frequence = {
 	tip = "しばらく置いてから再接続してください"
 }
 
-_G.pg.gametip.login_createNewPlayer_full = {
+_G.pg.base.gametip.login_createNewPlayer_full = {
 	tip = "サーバーは満員です"
 }
 
-_G.pg.gametip.login_createNewPlayer_error = {
+_G.pg.base.gametip.login_createNewPlayer_error = {
 	tip = "登録失敗:"
 }
 
-_G.pg.gametip.login_createNewPlayer_error_nameNull = {
+_G.pg.base.gametip.login_createNewPlayer_error_nameNull = {
 	tip = "名前を入力してください"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_lingBo = {
+_G.pg.base.gametip.login_newPlayerScene_word_lingBo = {
 	tip = "特型駆逐艦綾波、です。「キジン」とよく言われているのです。名前を教えてもらってもいいです？"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_yingHuoChong = {
+_G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
 	tip = "わぁい！新しい指揮官だ！グローウォームと一緒に遊ぼう！名前教えて！"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_laFei = {
+_G.pg.base.gametip.login_newPlayerScene_word_laFei = {
 	tip = "ベンソン級のラフィー…夜戦は得意…指揮官…名前を教えて…？"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_biaoqiang = {
+_G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
 	tip = "私の名前はジャベリン！はい！指揮官も名前を教えてくださいね！"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_z23 = {
+_G.pg.base.gametip.login_newPlayerScene_word_z23 = {
 	tip = "名前を入力するのを忘れました？それとも名前が「指揮官」ですか？"
 }
 
-_G.pg.gametip.login_newPlayerScene_randomName = {
+_G.pg.base.gametip.login_newPlayerScene_randomName = {
 	tip = "ランダムの名前を生成しました"
 }
 
-_G.pg.gametip.login_newPlayerScene_error_notChoiseShip = {
+_G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
 	tip = "初期艦を選択してください"
 }
 
-_G.pg.gametip.login_newPlayerScene_inputName = {
+_G.pg.base.gametip.login_newPlayerScene_inputName = {
 	tip = "名前を入力してください"
 }
 
-_G.pg.gametip.login_loginMediator_kickOtherLogin = {
+_G.pg.base.gametip.login_loginMediator_kickOtherLogin = {
 	tip = "別の場所でログインされました"
 }
 
-_G.pg.gametip.login_loginMediator_kickServerClose = {
+_G.pg.base.gametip.login_loginMediator_kickServerClose = {
 	tip = "ただいまメンテナンス中です"
 }
 
-_G.pg.gametip.login_loginMediator_kickIntError = {
+_G.pg.base.gametip.login_loginMediator_kickIntError = {
 	tip = "接続中にエラーが発生しました"
 }
 
-_G.pg.gametip.login_loginMediator_kickTimeError = {
+_G.pg.base.gametip.login_loginMediator_kickTimeError = {
 	tip = "長時間未通信のため接続が中断しました"
 }
 
-_G.pg.gametip.login_loginMediator_vertifyFail = {
+_G.pg.base.gametip.login_loginMediator_vertifyFail = {
 	tip = "データにエラー:"
 }
 
-_G.pg.gametip.login_loginMediator_dataExpired = {
+_G.pg.base.gametip.login_loginMediator_dataExpired = {
 	tip = "ログイン情報が無効です"
 }
 
-_G.pg.gametip.login_loginMediator_kickLoginOut = {
+_G.pg.base.gametip.login_loginMediator_kickLoginOut = {
 	tip = "サーバーとの接続が中断しました"
 }
 
-_G.pg.gametip.login_loginMediator_serverLoginErro = {
+_G.pg.base.gametip.login_loginMediator_serverLoginErro = {
 	tip = "サーバー接続エラー:"
 }
 
-_G.pg.gametip.login_loginMediator_kickUndefined = {
+_G.pg.base.gametip.login_loginMediator_kickUndefined = {
 	tip = "接続が中断されました:[$1]"
 }
 
-_G.pg.gametip.login_loginMediator_loginSuccess = {
+_G.pg.base.gametip.login_loginMediator_loginSuccess = {
 	tip = "ログインしました"
 }
 
-_G.pg.gametip.login_loginMediator_quest_RegisterSuccess = {
+_G.pg.base.gametip.login_loginMediator_quest_RegisterSuccess = {
 	tip = "ユーザー登録が完了しました"
 }
 
-_G.pg.gametip.login_loginMediator_registerFail_error = {
+_G.pg.base.gametip.login_loginMediator_registerFail_error = {
 	tip = "登録失敗:"
 }
 
-_G.pg.gametip.login_loginMediator_userLoginFail_error = {
+_G.pg.base.gametip.login_loginMediator_userLoginFail_error = {
 	tip = "登録失敗:"
 }
 
-_G.pg.gametip.login_loginMediator_serverLoginFail_error = {
+_G.pg.base.gametip.login_loginMediator_serverLoginFail_error = {
 	tip = "サーバー接続エラー:"
 }
 
-_G.pg.gametip.login_loginScene_error_noUserName = {
+_G.pg.base.gametip.login_loginScene_error_noUserName = {
 	tip = "名前を入力してください"
 }
 
-_G.pg.gametip.login_loginScene_error_noPassword = {
+_G.pg.base.gametip.login_loginScene_error_noPassword = {
 	tip = "パスワードを入力してください"
 }
 
-_G.pg.gametip.login_loginScene_error_diffPassword = {
+_G.pg.base.gametip.login_loginScene_error_diffPassword = {
 	tip = "パスワードが一致していません"
 }
 
-_G.pg.gametip.login_loginScene_error_noMailBox = {
+_G.pg.base.gametip.login_loginScene_error_noMailBox = {
 	tip = "メールアドレスを入力してください"
 }
 
-_G.pg.gametip.login_loginScene_choiseServer = {
+_G.pg.base.gametip.login_loginScene_choiseServer = {
 	tip = "サーバーを選択してください"
 }
 
-_G.pg.gametip.login_loginScene_server_vindicate = {
+_G.pg.base.gametip.login_loginScene_server_vindicate = {
 	tip = "メンテナンス中です"
 }
 
-_G.pg.gametip.login_loginScene_server_full = {
+_G.pg.base.gametip.login_loginScene_server_full = {
 	tip = "サーバーは満員です"
 }
 
-_G.pg.gametip.login_loginScene_server_disabled = {
+_G.pg.base.gametip.login_loginScene_server_disabled = {
 	tip = "サーバーは利用できません"
 }
 
-_G.pg.gametip.login_register_full = {
+_G.pg.base.gametip.login_register_full = {
 	tip = "サーバーは満員です"
 }
 
-_G.pg.gametip.system_database_busy = {
+_G.pg.base.gametip.system_database_busy = {
 	tip = "通信エラーが発生しました。しばらく置いてから再度接続してください"
 }
 
-_G.pg.gametip.mail_getMailList_error_noNewMail = {
+_G.pg.base.gametip.mail_getMailList_error_noNewMail = {
 	tip = "新しいメールがありません"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noMail = {
+_G.pg.base.gametip.mail_takeAttachment_error_noMail = {
 	tip = "メールがありません:$1"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noAttach = {
+_G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
 	tip = "添付アイテムは受け取りできませんでした"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noWorld = {
+_G.pg.base.gametip.mail_takeAttachment_error_noWorld = {
 	tip = "セイレーン作戦にが開放されていないため、アイテムを受け取れませんでした"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_reWorld = {
+_G.pg.base.gametip.mail_takeAttachment_error_reWorld = {
 	tip = "セイレーン作戦がリセットされましたため、入手したアイテムは【備蓄物資交換券】に変換されます。アイテムを入手しますか？"
 }
 
-_G.pg.gametip.mail_count = {
+_G.pg.base.gametip.mail_count = {
 	tip = "添付アイテム$1個"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_magazine_full = {
+_G.pg.base.gametip.mail_takeAttachment_error_magazine_full = {
 	tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>装備倉庫が一杯です</color>"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_dockYrad_full = {
+_G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 	tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>ドックが一杯です</color>"
 }
 
-_G.pg.gametip.mail_confirm_set_important_flag = {
+_G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "メールを保護しますか？"
 }
 
-_G.pg.gametip.mail_confirm_cancel_important_flag = {
+_G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 	tip = "メール保護を解除しますか？"
 }
 
-_G.pg.gametip.main_mailLayer_mailBoxClear = {
+_G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "メールボックスをクリアしました"
 }
 
-_G.pg.gametip.main_mailLayer_noNewMail = {
+_G.pg.base.gametip.main_mailLayer_noNewMail = {
 	tip = "新しいメールがありません"
 }
 
-_G.pg.gametip.main_mailLayer_takeAttach = {
+_G.pg.base.gametip.main_mailLayer_takeAttach = {
 	tip = "添付受取"
 }
 
-_G.pg.gametip.main_mailLayer_noAttach = {
+_G.pg.base.gametip.main_mailLayer_noAttach = {
 	tip = "添付なし"
 }
 
-_G.pg.gametip.main_mailLayer_attachTaken = {
+_G.pg.base.gametip.main_mailLayer_attachTaken = {
 	tip = "受け取りました"
 }
 
-_G.pg.gametip.main_mailLayer_quest_clear = {
+_G.pg.base.gametip.main_mailLayer_quest_clear = {
 	tip = "既読メールをすべて削除しますか？<color=#92fc63>（添付アイテム未受取のメールは削除されません）</color>"
 }
 
-_G.pg.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
+_G.pg.base.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
 	tip = "<color=#92fc63>添付ファイルは受け取っていません</color>、本当に削除しますか?"
 }
 
-_G.pg.gametip.main_mailLayer_quest_deleteNotRead = {
+_G.pg.base.gametip.main_mailLayer_quest_deleteNotRead = {
 	tip = "<color=#92fc63>未読メールがあります</color>。本当に削除しますか?"
 }
 
-_G.pg.gametip.main_mailMediator_mailDelete = {
+_G.pg.base.gametip.main_mailMediator_mailDelete = {
 	tip = "削除しました"
 }
 
-_G.pg.gametip.main_mailMediator_attachTaken = {
+_G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "添付アイテムを受け取りました"
 }
 
-_G.pg.gametip.main_mailMediator_notingToTake = {
+_G.pg.base.gametip.main_mailMediator_notingToTake = {
 	tip = "受け取れるアイテムはありません"
 }
 
-_G.pg.gametip.main_mailMediator_takeALot = {
+_G.pg.base.gametip.main_mailMediator_takeALot = {
 	tip = "全部受け取りました"
 }
 
-_G.pg.gametip.main_navalAcademyScene_systemClose = {
+_G.pg.base.gametip.main_navalAcademyScene_systemClose = {
 	tip = "この機能は現在開放されていません"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_startClass = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_startClass = {
 	tip = "<color=#92fc63>授業開始！みなさん、集中して聞いてください~</color>"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_stopClass = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_stopClass = {
 	tip = "0"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_Classover_long = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_long = {
 	tip = "0"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_Classover_short = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_short = {
 	tip = "0"
 }
 
-_G.pg.gametip.main_navalAcademyScene_upgrade_complete = {
+_G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
 	tip = "$1増築完了、備蓄上限+$2"
 }
 
-_G.pg.gametip.main_navalAcademyScene_class_upgrade_complete = {
+_G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
 	tip = "$1増築完了"
 }
 
-_G.pg.gametip.main_navalAcademyScene_work_done = {
+_G.pg.base.gametip.main_navalAcademyScene_work_done = {
 	tip = "受ける任務がありません"
 }
 
-_G.pg.gametip.main_notificationLayer_searchInput = {
+_G.pg.base.gametip.main_notificationLayer_searchInput = {
 	tip = "ユーザー名を入力してください"
 }
 
-_G.pg.gametip.main_notificationLayer_noInput = {
+_G.pg.base.gametip.main_notificationLayer_noInput = {
 	tip = "空メッセージは送信できません"
 }
 
-_G.pg.gametip.main_notificationLayer_noFriend = {
+_G.pg.base.gametip.main_notificationLayer_noFriend = {
 	tip = "友達がいません"
 }
 
-_G.pg.gametip.main_notificationLayer_deleteFriend = {
+_G.pg.base.gametip.main_notificationLayer_deleteFriend = {
 	tip = "友達削除"
 }
 
-_G.pg.gametip.main_notificationLayer_sendButton = {
+_G.pg.base.gametip.main_notificationLayer_sendButton = {
 	tip = "メッセージ入力"
 }
 
-_G.pg.gametip.main_notificationLayer_addFriendError_addSelf = {
+_G.pg.base.gametip.main_notificationLayer_addFriendError_addSelf = {
 	tip = "自分を友達に登録することができません"
 }
 
-_G.pg.gametip.main_notificationLayer_addFriendError_friendAlready = {
+_G.pg.base.gametip.main_notificationLayer_addFriendError_friendAlready = {
 	tip = "既に友達になっているユーザーです"
 }
 
-_G.pg.gametip.main_notificationLayer_quest_deletFriend = {
+_G.pg.base.gametip.main_notificationLayer_quest_deletFriend = {
 	tip = "<color=#92fc63>「$1」</color>を友達から削除しますか？"
 }
 
-_G.pg.gametip.main_notificationLayer_quest_request = {
+_G.pg.base.gametip.main_notificationLayer_quest_request = {
 	tip = "から友達申請されています。承認しますか？"
 }
 
-_G.pg.gametip.main_notificationLayer_enter_room = {
+_G.pg.base.gametip.main_notificationLayer_enter_room = {
 	tip = "ルーム<color=#92fc63>$1</color>に入室しました"
 }
 
-_G.pg.gametip.main_notificationLayer_not_roomId = {
+_G.pg.base.gametip.main_notificationLayer_not_roomId = {
 	tip = "ルームの番号を入力してください"
 }
 
-_G.pg.gametip.main_notificationLayer_roomId_invaild = {
+_G.pg.base.gametip.main_notificationLayer_roomId_invaild = {
 	tip = "ルームが存在しません"
 }
 
-_G.pg.gametip.main_notificationMediator_sendFriendRequest = {
+_G.pg.base.gametip.main_notificationMediator_sendFriendRequest = {
 	tip = "友達申請を送信しました"
 }
 
-_G.pg.gametip.main_notificationMediator_beFriend = {
+_G.pg.base.gametip.main_notificationMediator_beFriend = {
 	tip = "<color=#92fc63>「$1」</color>と友達になりました"
 }
 
-_G.pg.gametip.main_notificationMediator_deleteFriend = {
+_G.pg.base.gametip.main_notificationMediator_deleteFriend = {
 	tip = "<color=#92fc63>「$1」</color>とは友達でなくなりました"
 }
 
-_G.pg.gametip.main_notificationMediator_room_max_number = {
+_G.pg.base.gametip.main_notificationMediator_room_max_number = {
 	tip = "ルームがいっぱいです"
 }
 
-_G.pg.gametip.main_playerInfoLayer_inputName = {
+_G.pg.base.gametip.main_playerInfoLayer_inputName = {
 	tip = "名前を入力してください"
 }
 
-_G.pg.gametip.main_playerInfoLayer_inputManifesto = {
+_G.pg.base.gametip.main_playerInfoLayer_inputManifesto = {
 	tip = "コメントを入力してください"
 }
 
-_G.pg.gametip.main_playerInfoLayer_quest_changeName = {
+_G.pg.base.gametip.main_playerInfoLayer_quest_changeName = {
 	tip = "<color=#92fc63>ダイヤ100</color>を消費しますが、続けますか？"
 }
 
-_G.pg.gametip.main_playerInfoLayer_error_changeNameNoGem = {
+_G.pg.base.gametip.main_playerInfoLayer_error_changeNameNoGem = {
 	tip = "ダイヤ不足"
 }
 
-_G.pg.gametip.main_settingsScene_quest_exist = {
+_G.pg.base.gametip.main_settingsScene_quest_exist = {
 	tip = "ログアウトしますか？"
 }
 
-_G.pg.gametip.coloring_color_missmatch = {
+_G.pg.base.gametip.coloring_color_missmatch = {
 	tip = "指定された絵の具以外では色塗りできません"
 }
 
-_G.pg.gametip.coloring_color_not_enough = {
+_G.pg.base.gametip.coloring_color_not_enough = {
 	tip = "絵の具が不足しています"
 }
 
-_G.pg.gametip.coloring_erase_all_warning = {
+_G.pg.base.gametip.coloring_erase_all_warning = {
 	tip = "「リセット」は、既に着色済みの全ての枠の色を削除します。本当にリセットしますか？"
 }
 
-_G.pg.gametip.coloring_erase_warning = {
+_G.pg.base.gametip.coloring_erase_warning = {
 	tip = "着色済みの枠から色を削除した場合、着色した際に使用した絵の具はもとに戻りません。本当に削除しますか？"
 }
 
-_G.pg.gametip.coloring_lock = {
+_G.pg.base.gametip.coloring_lock = {
 	tip = "未開放"
 }
 
-_G.pg.gametip.coloring_wait_open = {
+_G.pg.base.gametip.coloring_wait_open = {
 	tip = "受取可"
 }
 
-_G.pg.gametip.coloring_help_tip = {
+_G.pg.base.gametip.coloring_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -2723,7 +2723,7 @@ No.7 駆逐艦「鞍山」
 	}
 }
 
-_G.pg.gametip.link_link_help_tip = {
+_G.pg.base.gametip.link_link_help_tip = {
 	tip = {
 		{
 			info = "                                     ※遊び方※\n"
@@ -2755,731 +2755,731 @@ _G.pg.gametip.link_link_help_tip = {
 	}
 }
 
-_G.pg.gametip.player_changeManifesto_ok = {
+_G.pg.base.gametip.player_changeManifesto_ok = {
 	tip = "コメントを変更しました"
 }
 
-_G.pg.gametip.player_changeManifesto_error = {
+_G.pg.base.gametip.player_changeManifesto_error = {
 	tip = "コメント変更失敗:"
 }
 
-_G.pg.gametip.player_changePlayerIcon_ok = {
+_G.pg.base.gametip.player_changePlayerIcon_ok = {
 	tip = "秘書艦を変更しました！"
 }
 
-_G.pg.gametip.player_changePlayerIcon_error = {
+_G.pg.base.gametip.player_changePlayerIcon_error = {
 	tip = "プロフィール画像変更失敗:"
 }
 
-_G.pg.gametip.player_changePlayerName_ok = {
+_G.pg.base.gametip.player_changePlayerName_ok = {
 	tip = "名前を変更しました"
 }
 
-_G.pg.gametip.player_changePlayerName_error = {
+_G.pg.base.gametip.player_changePlayerName_error = {
 	tip = "名前変更失敗:"
 }
 
-_G.pg.gametip.player_changePlayerName_error_2015 = {
+_G.pg.base.gametip.player_changePlayerName_error_2015 = {
 	tip = "既に使われている名前です"
 }
 
-_G.pg.gametip.player_harvestResource_error = {
+_G.pg.base.gametip.player_harvestResource_error = {
 	tip = "資源調達失敗:"
 }
 
-_G.pg.gametip.player_harvestResource_error_fullBag = {
+_G.pg.base.gametip.player_harvestResource_error_fullBag = {
 	tip = "資源所持量が上限になっています"
 }
 
-_G.pg.gametip.player_change_chat_room_erro = {
+_G.pg.base.gametip.player_change_chat_room_erro = {
 	tip = "ルーム変更失敗:"
 }
 
-_G.pg.gametip.prop_destroyProp_error_noItem = {
+_G.pg.base.gametip.prop_destroyProp_error_noItem = {
 	tip = "アイテムが存在しません"
 }
 
-_G.pg.gametip.prop_destroyProp_error_canNotSell = {
+_G.pg.base.gametip.prop_destroyProp_error_canNotSell = {
 	tip = "このアイテムは売却できません"
 }
 
-_G.pg.gametip.prop_destroyProp_error_notEnoughItem = {
+_G.pg.base.gametip.prop_destroyProp_error_notEnoughItem = {
 	tip = "売却するアイテムが存在しません"
 }
 
-_G.pg.gametip.prop_destroyProp_error = {
+_G.pg.base.gametip.prop_destroyProp_error = {
 	tip = "売却失敗:"
 }
 
-_G.pg.gametip.resourceSite_error_noSite = {
+_G.pg.base.gametip.resourceSite_error_noSite = {
 	tip = "委託が存在しません"
 }
 
-_G.pg.gametip.resourceSite_beginScanMap_ok = {
+_G.pg.base.gametip.resourceSite_beginScanMap_ok = {
 	tip = "索敵成功"
 }
 
-_G.pg.gametip.resourceSite_beginScanMap_error = {
+_G.pg.base.gametip.resourceSite_beginScanMap_error = {
 	tip = "索敵失敗:"
 }
 
-_G.pg.gametip.resourceSite_collectResource_error = {
+_G.pg.base.gametip.resourceSite_collectResource_error = {
 	tip = "資源獲得失敗:"
 }
 
-_G.pg.gametip.resourceSite_finishResourceSite_error = {
+_G.pg.base.gametip.resourceSite_finishResourceSite_error = {
 	tip = "資源獲得完了失敗:"
 }
 
-_G.pg.gametip.resourceSite_startResourceSite_error = {
+_G.pg.base.gametip.resourceSite_startResourceSite_error = {
 	tip = "委託進行失敗:"
 }
 
-_G.pg.gametip.ship_error_noShip = {
+_G.pg.base.gametip.ship_error_noShip = {
 	tip = "艦が存在しません: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_addStarExp_error = {
+_G.pg.base.gametip.ship_addStarExp_error = {
 	tip = "経験値上昇失敗:"
 }
 
-_G.pg.gametip.ship_buildShip_error = {
+_G.pg.base.gametip.ship_buildShip_error = {
 	tip = "建造失敗:"
 }
 
-_G.pg.gametip.ship_buildShip_error_noTemplate = {
+_G.pg.base.gametip.ship_buildShip_error_noTemplate = {
 	tip = "建造配置が存在しません:<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_buildShip_error_notEnoughItem = {
+_G.pg.base.gametip.ship_buildShip_error_notEnoughItem = {
 	tip = "材料が不足しています"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error = {
+_G.pg.base.gametip.ship_buildShipImmediately_error = {
 	tip = "高速建造失敗:"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_noSHip = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
 	tip = "建造中の艦がありません"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_finished = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_finished = {
 	tip = "建造が完了しました"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_noItem = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
 	tip = "高速建造材がありません"
 }
 
-_G.pg.gametip.ship_buildShip_not_position = {
+_G.pg.base.gametip.ship_buildShip_not_position = {
 	tip = "建造待ちが一杯です"
 }
 
-_G.pg.gametip.ship_buildBatchShip = {
+_G.pg.base.gametip.ship_buildBatchShip = {
 	tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>10隻分一括建造</color>しますか？"
 }
 
-_G.pg.gametip.ship_buildSingleShip = {
+_G.pg.base.gametip.ship_buildSingleShip = {
 	tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>1隻分高速建造</color>しますか？"
 }
 
-_G.pg.gametip.ship_buildShip_succeed = {
+_G.pg.base.gametip.ship_buildShip_succeed = {
 	tip = "艦を入手しました"
 }
 
-_G.pg.gametip.ship_buildShip_list_empty = {
+_G.pg.base.gametip.ship_buildShip_list_empty = {
 	tip = "建造待ちはありません"
 }
 
-_G.pg.gametip.ship_buildship_tip = {
+_G.pg.base.gametip.ship_buildship_tip = {
 	tip = "<color=#92fc63>$4</color>建造を行うには：\n<color=#92fc63>$1資金</color>と<color=#92fc63>$3$2個</color>を消費"
 }
 
-_G.pg.gametip.ship_destoryShips_error = {
+_G.pg.base.gametip.ship_destoryShips_error = {
 	tip = "退役失敗:"
 }
 
-_G.pg.gametip.ship_equipToShip_ok = {
+_G.pg.base.gametip.ship_equipToShip_ok = {
 	tip = "<color=#FFFFFF><color=#92fc63>$1</color>を装備しました</color>"
 }
 
-_G.pg.gametip.ship_equipToShip_error = {
+_G.pg.base.gametip.ship_equipToShip_error = {
 	tip = "兵装装備失敗:"
 }
 
-_G.pg.gametip.ship_equipToShip_error_noEquip = {
+_G.pg.base.gametip.ship_equipToShip_error_noEquip = {
 	tip = "装備が存在しません"
 }
 
-_G.pg.gametip.ship_equip_check = {
+_G.pg.base.gametip.ship_equip_check = {
 	tip = "※「設定」で画面表示をON/OFF設定可能"
 }
 
-_G.pg.gametip.ship_getShip_error = {
+_G.pg.base.gametip.ship_getShip_error = {
 	tip = "建造失敗:"
 }
 
-_G.pg.gametip.ship_getShip_error_noShip = {
+_G.pg.base.gametip.ship_getShip_error_noShip = {
 	tip = "建造中の艦がありません"
 }
 
-_G.pg.gametip.ship_getShip_error_notFinish = {
+_G.pg.base.gametip.ship_getShip_error_notFinish = {
 	tip = "建造が完了していません"
 }
 
-_G.pg.gametip.ship_getShip_error_full = {
+_G.pg.base.gametip.ship_getShip_error_full = {
 	tip = "<color=#92fc63>ドックが一杯です</color>"
 }
 
-_G.pg.gametip.ship_modShip_error = {
+_G.pg.base.gametip.ship_modShip_error = {
 	tip = "強化失敗:"
 }
 
-_G.pg.gametip.ship_modShip_error_notEnoughGold = {
+_G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
 	tip = "<color=#92fc63>資金が不足しています</color>"
 }
 
-_G.pg.gametip.ship_remouldShip_error = {
+_G.pg.base.gametip.ship_remouldShip_error = {
 	tip = "限界突破失敗:"
 }
 
-_G.pg.gametip.ship_unequipFromShip_ok = {
+_G.pg.base.gametip.ship_unequipFromShip_ok = {
 	tip = "兵装<color=#FFD700FF>$1</color>を取り外しました"
 }
 
-_G.pg.gametip.ship_unequipFromShip_error = {
+_G.pg.base.gametip.ship_unequipFromShip_error = {
 	tip = "装備換装失敗:"
 }
 
-_G.pg.gametip.ship_unequipFromShip_error_noEquip = {
+_G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
 	tip = "装備がありません"
 }
 
-_G.pg.gametip.ship_unequip_all_tip = {
+_G.pg.base.gametip.ship_unequip_all_tip = {
 	tip = "装備を全部外しますか？"
 }
 
-_G.pg.gametip.ship_unequip_all_success = {
+_G.pg.base.gametip.ship_unequip_all_success = {
 	tip = "装備を外しました"
 }
 
-_G.pg.gametip.ship_updateShipLock_ok_lock = {
+_G.pg.base.gametip.ship_updateShipLock_ok_lock = {
 	tip = "<color=#92fc63>$1</color>をロックしました"
 }
 
-_G.pg.gametip.ship_updateShipLock_ok_unlock = {
+_G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
 	tip = "<color=#92fc63>$1</color>をアンロックしました"
 }
 
-_G.pg.gametip.ship_updateShipLock_error = {
+_G.pg.base.gametip.ship_updateShipLock_error = {
 	tip = "ロック/アンロック失敗:"
 }
 
-_G.pg.gametip.ship_upgradeStar_error = {
+_G.pg.base.gametip.ship_upgradeStar_error = {
 	tip = "限界突破失敗:"
 }
 
-_G.pg.gametip.ship_upgradeStar_error_4010 = {
+_G.pg.base.gametip.ship_upgradeStar_error_4010 = {
 	tip = "「鏡面海域」に出撃中の艦がいます！"
 }
 
-_G.pg.gametip.ship_upgradeStar_error_lvLimit = {
+_G.pg.base.gametip.ship_upgradeStar_error_lvLimit = {
 	tip = "現在の練度では限界突破できません！"
 }
 
-_G.pg.gametip.ship_upgradeStar_error_noEnoughMatrail = {
+_G.pg.base.gametip.ship_upgradeStar_error_noEnoughMatrail = {
 	tip = "素材が不足しています"
 }
 
-_G.pg.gametip.ship_upgradeStar_notConfig = {
+_G.pg.base.gametip.ship_upgradeStar_notConfig = {
 	tip = "限界突破<color=#92fc63>$1</color>　情報取得に失敗しました"
 }
 
-_G.pg.gametip.ship_upgradeStar_maxLevel = {
+_G.pg.base.gametip.ship_upgradeStar_maxLevel = {
 	tip = "これ以上限界突破できません"
 }
 
-_G.pg.gametip.ship_upgradeStar_select_material_tip = {
+_G.pg.base.gametip.ship_upgradeStar_select_material_tip = {
 	tip = "突破素材を選択してください"
 }
 
-_G.pg.gametip.ship_exchange_question = {
+_G.pg.base.gametip.ship_exchange_question = {
 	tip = "勲章を<color=#92fc63>$1</color>消費して、<color=#92fc63>$2</color>を支援要請しますか？"
 }
 
-_G.pg.gametip.ship_exchange_medalCount_noEnough = {
+_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
 	tip = "勲章が不足しています"
 }
 
-_G.pg.gametip.ship_exchange_erro = {
+_G.pg.base.gametip.ship_exchange_erro = {
 	tip = "支援要請に失敗しました：<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_exchange_confirm = {
+_G.pg.base.gametip.ship_exchange_confirm = {
 	tip = "勲章を$1消費して、<color=#92fc63>$2</color>を支援要請しますか？"
 }
 
-_G.pg.gametip.ship_exchange_tip = {
+_G.pg.base.gametip.ship_exchange_tip = {
 	tip = "1.R以上の艦を退役すると勲章を獲得できます\n2.支援要請では勲章を使って艦と引き換えることができます\n3.支援ラインナップは毎日<color=#92fc63>6時</color>・<color=#92fc63>18時</color>に更新されます"
 }
 
-_G.pg.gametip.ship_vo_fighting = {
+_G.pg.base.gametip.ship_vo_fighting = {
 	tip = "戦場に出撃中です！"
 }
 
-_G.pg.gametip.ship_vo_event = {
+_G.pg.base.gametip.ship_vo_event = {
 	tip = "特殊任務に参加しています！"
 }
 
-_G.pg.gametip.ship_vo_isCharacter = {
+_G.pg.base.gametip.ship_vo_isCharacter = {
 	tip = "秘書艦を退役できません"
 }
 
-_G.pg.gametip.ship_vo_inBackyardRest = {
+_G.pg.base.gametip.ship_vo_inBackyardRest = {
 	tip = "寮舎で休憩中です…"
 }
 
-_G.pg.gametip.ship_vo_inClass = {
+_G.pg.base.gametip.ship_vo_inClass = {
 	tip = "戦術教室で勉強中です"
 }
 
-_G.pg.gametip.ship_vo_moveout_backyard = {
+_G.pg.base.gametip.ship_vo_moveout_backyard = {
 	tip = "寮舎から外しますか？"
 }
 
-_G.pg.gametip.ship_vo_moveout_formation = {
+_G.pg.base.gametip.ship_vo_moveout_formation = {
 	tip = "艦隊から外しますか？"
 }
 
-_G.pg.gametip.ship_vo_mainFleet_must_hasShip = {
+_G.pg.base.gametip.ship_vo_mainFleet_must_hasShip = {
 	tip = "主力艦隊は一隻以上が必須です！"
 }
 
-_G.pg.gametip.ship_vo_vanguardFleet_must_hasShip = {
+_G.pg.base.gametip.ship_vo_vanguardFleet_must_hasShip = {
 	tip = "前衛艦隊は一隻以上が必須です！"
 }
 
-_G.pg.gametip.ship_vo_getWordsUndefined = {
+_G.pg.base.gametip.ship_vo_getWordsUndefined = {
 	tip = "未知のエラーが発生しました…"
 }
 
-_G.pg.gametip.ship_vo_locked = {
+_G.pg.base.gametip.ship_vo_locked = {
 	tip = "ロックされています"
 }
 
-_G.pg.gametip.ship_vo_mainFleet_exist_same_ship = {
+_G.pg.base.gametip.ship_vo_mainFleet_exist_same_ship = {
 	tip = "主力艦隊に同じ艦を編成できません"
 }
 
-_G.pg.gametip.ship_vo_vanguardFleet_exist_same_ship = {
+_G.pg.base.gametip.ship_vo_vanguardFleet_exist_same_ship = {
 	tip = "前衛艦隊に同じ艦を編成できません"
 }
 
-_G.pg.gametip.ship_buildShipMediator_startBuild = {
+_G.pg.base.gametip.ship_buildShipMediator_startBuild = {
 	tip = "建造開始"
 }
 
-_G.pg.gametip.ship_buildShipMediator_finishBuild = {
+_G.pg.base.gametip.ship_buildShipMediator_finishBuild = {
 	tip = "建造完了"
 }
 
-_G.pg.gametip.ship_buildShipScene_quest_quickFinish = {
+_G.pg.base.gametip.ship_buildShipScene_quest_quickFinish = {
 	tip = "高速建造材を<color=#92fc63>$1個</color>消費します。\n\n所持数: <color=#92fc63>$3個</color>"
 }
 
-_G.pg.gametip.ship_dockyardMediator_destroy = {
+_G.pg.base.gametip.ship_dockyardMediator_destroy = {
 	tip = "退役完了"
 }
 
-_G.pg.gametip.ship_dockyardScene_capacity = {
+_G.pg.base.gametip.ship_dockyardScene_capacity = {
 	tip = "所持数:"
 }
 
-_G.pg.gametip.ship_dockyardScene_noRole = {
+_G.pg.base.gametip.ship_dockyardScene_noRole = {
 	tip = "艦を選択していません"
 }
 
-_G.pg.gametip.ship_dockyardScene_error_choiseRoleMore = {
+_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
 	tip = " <color=#92fc63>$1</color> 隻以上選択してください"
 }
 
-_G.pg.gametip.ship_dockyardScene_error_choiseRoleLess = {
+_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleLess = {
 	tip = " <color=#92fc63>$1</color> まで選択できます"
 }
 
-_G.pg.gametip.ship_formationMediator_leastLimit = {
+_G.pg.base.gametip.ship_formationMediator_leastLimit = {
 	tip = "第一艦隊は一隻以上配置する必要があります"
 }
 
-_G.pg.gametip.ship_formationMediator_changeNameSuccess = {
+_G.pg.base.gametip.ship_formationMediator_changeNameSuccess = {
 	tip = "艦隊名変更完了"
 }
 
-_G.pg.gametip.ship_formationMediator_changeNameError_sameShip = {
+_G.pg.base.gametip.ship_formationMediator_changeNameError_sameShip = {
 	tip = "同じ艦を編成できません"
 }
 
-_G.pg.gametip.ship_formationMediator_addShipError_overlimit = {
+_G.pg.base.gametip.ship_formationMediator_addShipError_overlimit = {
 	tip = "<color=#92fc63>$2</color>を<color=#92fc63>$1</color>隻以上編成できません"
 }
 
-_G.pg.gametip.ship_formationMediator_replaceError_onlyShip = {
+_G.pg.base.gametip.ship_formationMediator_replaceError_onlyShip = {
 	tip = "選択中の <color=#92fc63>$1</color>は唯一の<color=#92fc63>$2</color>であるため、入れ替えできません！"
 }
 
-_G.pg.gametip.ship_formationMediator_quest_replace = {
+_G.pg.base.gametip.ship_formationMediator_quest_replace = {
 	tip = "選択中の艦は既に<color=#92fc63>$1</color>に編成されています。 入れ替えますか？"
 }
 
-_G.pg.gametip.ship_formationMediaror_trash_warning = {
+_G.pg.base.gametip.ship_formationMediaror_trash_warning = {
 	tip = "$1主力艦隊と前衛艦隊はそれぞれ一隻以上が必要です。$1の編成をクリアしますか？"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName1 = {
+_G.pg.base.gametip.ship_formationUI_fleetName1 = {
 	tip = "第一艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName2 = {
+_G.pg.base.gametip.ship_formationUI_fleetName2 = {
 	tip = "第二艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName3 = {
+_G.pg.base.gametip.ship_formationUI_fleetName3 = {
 	tip = "第三艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName4 = {
+_G.pg.base.gametip.ship_formationUI_fleetName4 = {
 	tip = "第四艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName5 = {
+_G.pg.base.gametip.ship_formationUI_fleetName5 = {
 	tip = "第五艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName6 = {
+_G.pg.base.gametip.ship_formationUI_fleetName6 = {
 	tip = "第六艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName11 = {
+_G.pg.base.gametip.ship_formationUI_fleetName11 = {
 	tip = "第一潜水艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName12 = {
+_G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "第二潜水艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_exercise_fleetName = {
+_G.pg.base.gametip.ship_formationUI_exercise_fleetName = {
 	tip = "演習艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_world = {
+_G.pg.base.gametip.ship_formationUI_fleetName_world = {
 	tip = "作戦参加艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_changeFormationError_flag = {
+_G.pg.base.gametip.ship_formationUI_changeFormationError_flag = {
 	tip = "陣形変更時にエラーが発生しました"
 }
 
-_G.pg.gametip.ship_formationUI_changeFormationError_countError = {
+_G.pg.base.gametip.ship_formationUI_changeFormationError_countError = {
 	tip = "戦闘可能艦が足りません"
 }
 
-_G.pg.gametip.ship_formationUI_removeError_onlyShip = {
+_G.pg.base.gametip.ship_formationUI_removeError_onlyShip = {
 	tip = "前衛艦隊と主力艦隊には最低1艦ずつ配置する必要があります"
 }
 
-_G.pg.gametip.ship_formationUI_quest_remove = {
+_G.pg.base.gametip.ship_formationUI_quest_remove = {
 	tip = "<color=#92fc63>$1</color>を艦隊から外しますか？"
 }
 
-_G.pg.gametip.ship_newShipLayer_get = {
+_G.pg.base.gametip.ship_newShipLayer_get = {
 	tip = "<color=#92fc63>$1</color> <color=#92fc63>$2</color>を入手"
 }
 
-_G.pg.gametip.ship_newSkinLayer_get = {
+_G.pg.base.gametip.ship_newSkinLayer_get = {
 	tip = "<color=#92fc63>$1</color>着せ替え衣装—<color=#92fc63>$2</color>を入手しました！"
 }
 
-_G.pg.gametip.ship_newSkin_name = {
+_G.pg.base.gametip.ship_newSkin_name = {
 	tip = "<color=#FFDE38>「$1」</color>"
 }
 
-_G.pg.gametip.ship_shipInfoMediator_destory = {
+_G.pg.base.gametip.ship_shipInfoMediator_destory = {
 	tip = "退役完了"
 }
 
-_G.pg.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
+_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
 	tip = "限界突破で装備枠開放"
 }
 
-_G.pg.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
+_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
 	tip = "艦船強化"
 }
 
-_G.pg.gametip.ship_shipInfoScene_effect = {
+_G.pg.base.gametip.ship_shipInfoScene_effect = {
 	tip = "経験値:<color=#92fc63>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipInfoScene_effect1or2 = {
+_G.pg.base.gametip.ship_shipInfoScene_effect1or2 = {
 	tip = "増加: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_shipInfoScene_modLvMax = {
+_G.pg.base.gametip.ship_shipInfoScene_modLvMax = {
 	tip = "これ以上突破できません"
 }
 
-_G.pg.gametip.ship_shipInfoScene_choiseMod = {
+_G.pg.base.gametip.ship_shipInfoScene_choiseMod = {
 	tip = "突破項目に選択してください"
 }
 
-_G.pg.gametip.ship_shipModLayer_effect = {
+_G.pg.base.gametip.ship_shipModLayer_effect = {
 	tip = "経験値:<color=#92fc63>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipModLayer_effect1or2 = {
+_G.pg.base.gametip.ship_shipModLayer_effect1or2 = {
 	tip = "増加補正: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_shipModLayer_modSuccess = {
+_G.pg.base.gametip.ship_shipModLayer_modSuccess = {
 	tip = "強化成功"
 }
 
-_G.pg.gametip.ship_mod_no_addition_tip = {
+_G.pg.base.gametip.ship_mod_no_addition_tip = {
 	tip = "これ以上性能を強化できません。続けますか？"
 }
 
-_G.pg.gametip.ship_shipModMediator_choiseMaterial = {
+_G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
 	tip = "素材を選択してください"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeLvOver1 = {
+_G.pg.base.gametip.ship_shipModMediator_noticeLvOver1 = {
 	tip = "星1以上"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeStarOver4 = {
+_G.pg.base.gametip.ship_shipModMediator_noticeStarOver4 = {
 	tip = "星4以上"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeSameButLargerStar = {
+_G.pg.base.gametip.ship_shipModMediator_noticeSameButLargerStar = {
 	tip = "星が多い方"
 }
 
-_G.pg.gametip.ship_shipModMediator_quest = {
+_G.pg.base.gametip.ship_shipModMediator_quest = {
 	tip = "素材に<color=#92fc63>$1</color>の艦が存在しますが、続けますか？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_levelError = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_levelError = {
 	tip = "Lvが足りません"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_noMaterail = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_noMaterail = {
 	tip = "素材が不足しています"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_ok = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_ok = {
 	tip = "限界突破に成功しました"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_effect = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_effect = {
 	tip = "経験値:<color=#92fc63>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_effect1or2 = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_effect1or2 = {
 	tip = "上昇値: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
 	tip = "強化素材にSR以上の艦が選択されていますが、続けますか？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
 	tip = "強化素材にSR以上の艦が選択されていますが、続けますか？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
 	tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_advanced_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
 	tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
 }
 
-_G.pg.gametip.ship_mod_exp_to_attr_tip = {
+_G.pg.base.gametip.ship_mod_exp_to_attr_tip = {
 	tip = "*同じ艦で強化時経験値が2倍"
 }
 
-_G.pg.gametip.ship_max_star = {
+_G.pg.base.gametip.ship_max_star = {
 	tip = "限界突破できません"
 }
 
-_G.pg.gametip.ship_skill_unlock_tip = {
+_G.pg.base.gametip.ship_skill_unlock_tip = {
 	tip = "突破後で開放"
 }
 
-_G.pg.gametip.ship_lock_tip = {
+_G.pg.base.gametip.ship_lock_tip = {
 	tip = "艦船をロックしますか？"
 }
 
-_G.pg.gametip.ship_destroy_uncommon_tip = {
+_G.pg.base.gametip.ship_destroy_uncommon_tip = {
 	tip = "退役艦船にSR以上の艦船がありますが、続けますか？"
 }
 
-_G.pg.gametip.ship_destroy_advanced_tip = {
+_G.pg.base.gametip.ship_destroy_advanced_tip = {
 	tip = "退役艦船に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
 }
 
-_G.pg.gametip.ship_energy_mid_desc = {
+_G.pg.base.gametip.ship_energy_mid_desc = {
 	tip = "普通\n 出撃で親密度が上昇しません"
 }
 
-_G.pg.gametip.ship_energy_low_desc = {
+_G.pg.base.gametip.ship_energy_low_desc = {
 	tip = "疲労\n 出撃すると親密度が下がり、もらえる経験値が半分に"
 }
 
-_G.pg.gametip.ship_energy_low_warn = {
+_G.pg.base.gametip.ship_energy_low_warn = {
 	tip = "$1の$2のコンディションが良くない模様。出撃すると親密度が下がり、もらえる経験値が50%になる"
 }
 
-_G.pg.gametip.ship_energy_low_warn_no_exp = {
+_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
 	tip = "編成中の<color=#92fc63FF>$2</color>のコンディションが低い状態になっています。出撃すると<color=#D6341D>親密度が下がってしまいます</color>が、出撃しますか？"
 }
 
-_G.pg.gametip.test_ship_intensify_tip = {
+_G.pg.base.gametip.test_ship_intensify_tip = {
 	tip = "ブリは強化できません"
 }
 
-_G.pg.gametip.test_ship_upgrade_tip = {
+_G.pg.base.gametip.test_ship_upgrade_tip = {
 	tip = "ブリは限界突破できません"
 }
 
-_G.pg.gametip.shop_buyItem_ok = {
+_G.pg.base.gametip.shop_buyItem_ok = {
 	tip = "<color=#92fc63>$2を$1つ</color>購入しました"
 }
 
-_G.pg.gametip.shop_buyItem_error = {
+_G.pg.base.gametip.shop_buyItem_error = {
 	tip = "購入失敗:"
 }
 
-_G.pg.gametip.shop_extendMagazine_error = {
+_G.pg.base.gametip.shop_extendMagazine_error = {
 	tip = "倉庫拡張失敗:"
 }
 
-_G.pg.gametip.shop_entendShipYard_error = {
+_G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "ドック拡張失敗:"
 }
 
-_G.pg.gametip.stage_beginStage_error = {
+_G.pg.base.gametip.stage_beginStage_error = {
 	tip = "ステージ開始失敗:"
 }
 
-_G.pg.gametip.stage_beginStage_error_fleetEmpty = {
+_G.pg.base.gametip.stage_beginStage_error_fleetEmpty = {
 	tip = "艦隊に艦が編成されていません"
 }
 
-_G.pg.gametip.stage_beginStage_error_teamEmpty = {
+_G.pg.base.gametip.stage_beginStage_error_teamEmpty = {
 	tip = "<color=#92fc63>$1</color>は最低<color=#92fc63>$2隻</color>以上必要です！"
 }
 
-_G.pg.gametip.stage_beginStage_error_noEnergy = {
+_G.pg.base.gametip.stage_beginStage_error_noEnergy = {
 	tip = "<color=#92fc63>体力</color>が足りません!"
 }
 
-_G.pg.gametip.stage_beginStage_error_noResource = {
+_G.pg.base.gametip.stage_beginStage_error_noResource = {
 	tip = "<color=#92fc63>燃料</color>が足りません!"
 }
 
-_G.pg.gametip.stage_beginStage_error_noTicket = {
+_G.pg.base.gametip.stage_beginStage_error_noTicket = {
 	tip = "特別戦闘券が必要です"
 }
 
-_G.pg.gametip.stage_finishStage_error = {
+_G.pg.base.gametip.stage_finishStage_error = {
 	tip = "ステージクリアにエラーが発生しました"
 }
 
-_G.pg.gametip.levelScene_map_lock = {
+_G.pg.base.gametip.levelScene_map_lock = {
 	tip = "この章をクリアする必要があります"
 }
 
-_G.pg.gametip.levelScene_chapter_lock = {
+_G.pg.base.gametip.levelScene_chapter_lock = {
 	tip = "前ステージをクリアする必要があります"
 }
 
-_G.pg.gametip.levelScene_chapter_strategying = {
+_G.pg.base.gametip.levelScene_chapter_strategying = {
 	tip = "ステージ<color=#92fc63>$1</color> 攻略中"
 }
 
-_G.pg.gametip.levelScene_threat_to_rule_out = {
+_G.pg.base.gametip.levelScene_threat_to_rule_out = {
 	tip = "脅威排除<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.levelScene_whether_to_retreat = {
+_G.pg.base.gametip.levelScene_whether_to_retreat = {
 	tip = "本当に<color=#92fc63>撤退</color>しますか?"
 }
 
-_G.pg.gametip.levelScene_who_to_retreat = {
+_G.pg.base.gametip.levelScene_who_to_retreat = {
 	tip = "$1を撤退させますか？"
 }
 
-_G.pg.gametip.levelScene_who_to_exchange = {
+_G.pg.base.gametip.levelScene_who_to_exchange = {
 	tip = "交戦する艦隊を変更しますか？"
 }
 
-_G.pg.gametip.levelScene_time_out = {
+_G.pg.base.gametip.levelScene_time_out = {
 	tip = "作戦時間終了"
 }
 
-_G.pg.gametip.levelScene_nothing = {
+_G.pg.base.gametip.levelScene_nothing = {
 	tip = "何もありませんでした"
 }
 
-_G.pg.gametip.levelScene_notCargo = {
+_G.pg.base.gametip.levelScene_notCargo = {
 	tip = "宝箱が発見できませんでした"
 }
 
-_G.pg.gametip.levelScene_openCargo_erro = {
+_G.pg.base.gametip.levelScene_openCargo_erro = {
 	tip = "戦利品確認失敗:"
 }
 
-_G.pg.gametip.levelScene_chapter_notInStrategy = {
+_G.pg.base.gametip.levelScene_chapter_notInStrategy = {
 	tip = "攻略していません"
 }
 
-_G.pg.gametip.levelScene_retreat_erro = {
+_G.pg.base.gametip.levelScene_retreat_erro = {
 	tip = "撤退失敗:"
 }
 
-_G.pg.gametip.levelScene_strategying = {
+_G.pg.base.gametip.levelScene_strategying = {
 	tip = "攻略中です"
 }
 
-_G.pg.gametip.levelScene_tracking_erro = {
+_G.pg.base.gametip.levelScene_tracking_erro = {
 	tip = "失敗"
 }
 
-_G.pg.gametip.levelScene_tracking_error_3001 = {
+_G.pg.base.gametip.levelScene_tracking_error_3001 = {
 	tip = "委託に出かけている艦があります！"
 }
 
-_G.pg.gametip.levelScene_chapter_unlock_tip = {
+_G.pg.base.gametip.levelScene_chapter_unlock_tip = {
 	tip = "指揮官Lv<color=#92fc63>$1</color>で開放"
 }
 
-_G.pg.gametip.levelScene_chapter_win = {
+_G.pg.base.gametip.levelScene_chapter_win = {
 	tip = "中枢艦隊撃破、ステージクリア"
 }
 
-_G.pg.gametip.levelScene_sham_win = {
+_G.pg.base.gametip.levelScene_sham_win = {
 	tip = "「鏡面海域」掃討完了"
 }
 
-_G.pg.gametip.levelScene_escort_win = {
+_G.pg.base.gametip.levelScene_escort_win = {
 	tip = "輸送船が目標地点に到着しました。海上護衛成功！"
 }
 
-_G.pg.gametip.levelScene_escort_lose = {
+_G.pg.base.gametip.levelScene_escort_lose = {
 	tip = "輸送船が大破しました。海上護衛失敗……"
 }
 
-_G.pg.gametip.levelScene_escort_help_tip = {
+_G.pg.base.gametip.levelScene_escort_help_tip = {
 	tip = {
 		{
 			info = "海上護衛の遊び方 "
@@ -3508,27 +3508,27 @@ _G.pg.gametip.levelScene_escort_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_escort_retreat = {
+_G.pg.base.gametip.levelScene_escort_retreat = {
 	tip = "海上護衛から撤退しますか？\n※本日の挑戦回数は回復しません。\n※若干報酬を手に入れることができます。"
 }
 
-_G.pg.gametip.levelScene_oni_retreat = {
+_G.pg.base.gametip.levelScene_oni_retreat = {
 	tip = "撤退すると特殊目標拿捕報酬を入手できません。撤退しますか？\n（ステージクリア扱いになります）"
 }
 
-_G.pg.gametip.levelScene_oni_win = {
+_G.pg.base.gametip.levelScene_oni_win = {
 	tip = "特殊目標拿捕成功"
 }
 
-_G.pg.gametip.levelScene_oni_lose = {
+_G.pg.base.gametip.levelScene_oni_lose = {
 	tip = "特殊目標拿捕失敗・目標が海域から離脱しました"
 }
 
-_G.pg.gametip.levelScene_bomb_retreat = {
+_G.pg.base.gametip.levelScene_bomb_retreat = {
 	tip = "現在入手済みの爆撃Ptに応じて報酬を入手出来ます。撤退しますか？"
 }
 
-_G.pg.gametip.levelScene_sphunt_help_tip = {
+_G.pg.base.gametip.levelScene_sphunt_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3578,7 +3578,7 @@ _G.pg.gametip.levelScene_sphunt_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_bomb_help_tip = {
+_G.pg.base.gametip.levelScene_bomb_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3610,67 +3610,67 @@ _G.pg.gametip.levelScene_bomb_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_chapter_timeout = {
+_G.pg.base.gametip.levelScene_chapter_timeout = {
 	tip = "作戦時間終了。母港に帰還しました"
 }
 
-_G.pg.gametip.levelScene_chapter_level_limit = {
+_G.pg.base.gametip.levelScene_chapter_level_limit = {
 	tip = "指揮官Lv<color=#92fc63>$1</color>で開放します"
 }
 
-_G.pg.gametip.levelScene_chapter_count_tip = {
+_G.pg.base.gametip.levelScene_chapter_count_tip = {
 	tip = "残り回数："
 }
 
-_G.pg.gametip.levelScene_tracking_error_retry = {
+_G.pg.base.gametip.levelScene_tracking_error_retry = {
 	tip = "出撃にエラーが発生しました"
 }
 
-_G.pg.gametip.levelScene_destroy_torpedo = {
+_G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "機雷を排除しました"
 }
 
-_G.pg.gametip.levelScene_sub_refresh_count_not_enough = {
+_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
 	tip = "救助信号を受信していません"
 }
 
-_G.pg.gametip.levelScene_jump_to_sub_confirm = {
+_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
 	tip = "発信源探知完了、「$1」($2章)海域に向かいますか？"
 }
 
-_G.pg.gametip.levelScene_signal_help_tip = {
+_G.pg.base.gametip.levelScene_signal_help_tip = {
 	tip = "救助信号について"
 }
 
-_G.pg.gametip.levelScene_search_area = {
+_G.pg.base.gametip.levelScene_search_area = {
 	tip = "【受信範囲：$1章海域】"
 }
 
-_G.pg.gametip.levelScene_new_chapter_coming = {
+_G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "新章開放"
 }
 
-_G.pg.gametip.levelScene_chapter_open_count_down = {
+_G.pg.base.gametip.levelScene_chapter_open_count_down = {
 	tip = "残り時間"
 }
 
-_G.pg.gametip.levelScene_chapter_not_open = {
+_G.pg.base.gametip.levelScene_chapter_not_open = {
 	tip = "未開放"
 }
 
-_G.pg.gametip.levelScene_activate_remaster = {
+_G.pg.base.gametip.levelScene_activate_remaster = {
 	tip = "ステージを開放するには<color=#ffde38>データキーx1</color>を消費します。\nステージを開放しますか？"
 }
 
-_G.pg.gametip.levelScene_remaster_tickets_not_enough = {
+_G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "データキーが不足しています"
 }
 
-_G.pg.gametip.levelScene_remaster_do_not_open = {
+_G.pg.base.gametip.levelScene_remaster_do_not_open = {
 	tip = "まだ開放されていません"
 }
 
-_G.pg.gametip.levelScene_remaster_help_tip = {
+_G.pg.base.gametip.levelScene_remaster_help_tip = {
 	tip = {
 		{
 			info = "<color=#92fc63>データキー</color>とは：\n<color=#92fc63>データキー</color>とは、過去開催済みのイベントステージや再度攻略できる<color=#92fc63>作戦履歴</color>を一定期間開放できるアイテムです。\n<color=#92fc63>作戦履歴</color>に実装されるまでに、過去にプレイした際のステージの攻略進捗は引き継がれません。"
@@ -3696,11 +3696,11 @@ _G.pg.gametip.levelScene_remaster_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_activate_loop_mode_failed = {
+_G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
 	tip = "海域攻略ゲージ100%で周回モードを選択できるようになります"
 }
 
-_G.pg.gametip.levelScene_coastalgun_help_tip = {
+_G.pg.base.gametip.levelScene_coastalgun_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3732,99 +3732,99 @@ _G.pg.gametip.levelScene_coastalgun_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_select_SP_OP = {
+_G.pg.base.gametip.levelScene_select_SP_OP = {
 	tip = "タップでアイテム選択"
 }
 
-_G.pg.gametip.levelScene_unselect_SP_OP = {
+_G.pg.base.gametip.levelScene_unselect_SP_OP = {
 	tip = "アイテムを使用しない"
 }
 
-_G.pg.gametip.levelScene_select_SP_OP_reminder = {
+_G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 	tip = "戦闘時消費する燃料が100%アップし、指揮官・艦船・オフニャ経験値、信頼度の入手が100%アップ。戦闘終了時のアイテム・報酬入手回数が2回になる"
 }
 
-_G.pg.gametip.tack_tickets_max_warning = {
+_G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "<color=#ffde38>データキー</color>の所持回数は上限になっています。任務報酬のデータキーは<color=#ff5c5c>$1</color>しか入手できません。任務報酬を受け取りますか？"
 }
 
-_G.pg.gametip.error_refresh_sub_chapter = {
+_G.pg.base.gametip.error_refresh_sub_chapter = {
 	tip = "これ以上救援任務を展開できません"
 }
 
-_G.pg.gametip.world_battle_count = {
+_G.pg.base.gametip.world_battle_count = {
 	tip = "交战次数说明文本占坑"
 }
 
-_G.pg.gametip.world_fleetName1 = {
+_G.pg.base.gametip.world_fleetName1 = {
 	tip = "第 一 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName2 = {
+_G.pg.base.gametip.world_fleetName2 = {
 	tip = "第 二 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName3 = {
+_G.pg.base.gametip.world_fleetName3 = {
 	tip = "第 三 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName4 = {
+_G.pg.base.gametip.world_fleetName4 = {
 	tip = "第 四 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName5 = {
+_G.pg.base.gametip.world_fleetName5 = {
 	tip = "潜 水 艦 隊"
 }
 
-_G.pg.gametip.world_ship_repair_1 = {
+_G.pg.base.gametip.world_ship_repair_1 = {
 	tip = "通常修理$1 資源消費：\n<icon name=world_money w=0.7 h=0.7/>*$2"
 }
 
-_G.pg.gametip.world_ship_repair_2 = {
+_G.pg.base.gametip.world_ship_repair_2 = {
 	tip = "完全修理$1 資源消費：\n<icon name=world_money w=0.7 h=0.7/>*$2"
 }
 
-_G.pg.gametip.world_ship_repair_all = {
+_G.pg.base.gametip.world_ship_repair_all = {
 	tip = "すべての作戦参加艦船を修理する：\n<icon name=world_money w=0.7 h=0.7/>*$1"
 }
 
-_G.pg.gametip.world_ship_repair_no_need = {
+_G.pg.base.gametip.world_ship_repair_no_need = {
 	tip = "修理が必要な艦船は存在しません"
 }
 
-_G.pg.gametip.world_event_teleport_alter = {
+_G.pg.base.gametip.world_event_teleport_alter = {
 	tip = "ほかのエリアに移動すると、戦闘中の艦隊は自動的に戦闘から離脱します"
 }
 
-_G.pg.gametip.world_transport_battle_alter = {
+_G.pg.base.gametip.world_transport_battle_alter = {
 	tip = "交戦中の艦隊が存在しています。他のエリアには移動できません"
 }
 
-_G.pg.gametip.world_transport_locked = {
+_G.pg.base.gametip.world_transport_locked = {
 	tip = "エリアが確保していません。艦隊をマップの端に移動してから再度操作してください"
 }
 
-_G.pg.gametip.world_target_count = {
+_G.pg.base.gametip.world_target_count = {
 	tip = "入手可能な報酬数 $1"
 }
 
-_G.pg.gametip.world_target_filter_tip1 = {
+_G.pg.base.gametip.world_target_filter_tip1 = {
 	tip = "すべて"
 }
 
-_G.pg.gametip.world_target_filter_tip2 = {
+_G.pg.base.gametip.world_target_filter_tip2 = {
 	tip = "未完了"
 }
 
-_G.pg.gametip.world_target_get_all = {
+_G.pg.base.gametip.world_target_get_all = {
 	tip = "エリア実績報酬を一括で受け取りますか？"
 }
 
-_G.pg.gametip.world_target_goto = {
+_G.pg.base.gametip.world_target_goto = {
 	tip = "エリア移動"
 }
 
-_G.pg.gametip.world_help_tip = {
+_G.pg.base.gametip.world_help_tip = {
 	tip = {
 		{
 			info = "\n大型作战说明：(未使用)"
@@ -3832,87 +3832,87 @@ _G.pg.gametip.world_help_tip = {
 	}
 }
 
-_G.pg.gametip.world_dangerbattle_confirm = {
+_G.pg.base.gametip.world_dangerbattle_confirm = {
 	tip = "通常より戦力が強化されている敵艦隊と遭遇しました！\n本当に戦闘を行いますか？"
 }
 
-_G.pg.gametip.world_stamina_exchange = {
+_G.pg.base.gametip.world_stamina_exchange = {
 	tip = "指揮官行動力が不足しています。<icon name=oil w=0.7 h=0.7/>$1を消費し行動力を$2回復しますか？？"
 }
 
-_G.pg.gametip.world_stamina_not_enough = {
+_G.pg.base.gametip.world_stamina_not_enough = {
 	tip = "指揮官行動力が不足しています"
 }
 
-_G.pg.gametip.world_stamina_recover = {
+_G.pg.base.gametip.world_stamina_recover = {
 	tip = "※行動力が200を下回った場合、 <color=#92fc63>10分</color> 毎に行動力が<color=#92fc63>1</color>回復します"
 }
 
-_G.pg.gametip.world_stamina_text = {
+_G.pg.base.gametip.world_stamina_text = {
 	tip = "燃料を<color=#92fc63>$1</color>消費し行動力を<color=#92fc63>$2</color>回復します（今週回復可能回数$3/$4回）"
 }
 
-_G.pg.gametip.world_stamina_text2 = {
+_G.pg.base.gametip.world_stamina_text2 = {
 	tip = "<color=#92fc63>$1</color>を消費し行動力を<color=#92fc63>$2</color>回復しました"
 }
 
-_G.pg.gametip.world_stamina_resetwarning = {
+_G.pg.base.gametip.world_stamina_resetwarning = {
 	tip = "注意：セイレーン作戦の海域攻略進捗は1日0時にリセットされます。リセットされた場合、行動力が$1にリセットし、さらに一部のセイレーン作戦専用アイテムが「備蓄物資交換券」に変換されます。海域進捗はリセット後ショップで「セイレーン海域情報」購入し、使用することで復活できます。"
 }
 
-_G.pg.gametip.world_ship_healthy = {
+_G.pg.base.gametip.world_ship_healthy = {
 	tip = "対象は修理する必要がございません。\n本当に使用しますか？"
 }
 
-_G.pg.gametip.world_map_dangerous = {
+_G.pg.base.gametip.world_map_dangerous = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_map_not_open = {
+_G.pg.base.gametip.world_map_not_open = {
 	tip = "エリアが解放されていません"
 }
 
-_G.pg.gametip.world_map_locked_stage = {
+_G.pg.base.gametip.world_map_locked_stage = {
 	tip = "エリアが解放されていません"
 }
 
-_G.pg.gametip.world_map_locked_border = {
+_G.pg.base.gametip.world_map_locked_border = {
 	tip = "周辺エリアが確保されていません"
 }
 
-_G.pg.gametip.world_item_allocate_panel_fleet_info_text = {
+_G.pg.base.gametip.world_item_allocate_panel_fleet_info_text = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_redeploy_not_change = {
+_G.pg.base.gametip.world_redeploy_not_change = {
 	tip = "再編成後のメンバーは編成前のメンバーから変更していません。再編成を行いますか？"
 }
 
-_G.pg.gametip.world_redeploy_warn = {
+_G.pg.base.gametip.world_redeploy_warn = {
 	tip = "再編成を行うと、港に駐留する艦隊の配置も解除されます。再編成を行いますか？"
 }
 
-_G.pg.gametip.world_redeploy_cost_tip = {
+_G.pg.base.gametip.world_redeploy_cost_tip = {
 	tip = "再編成するには行動力を$1消費します。再編成を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
 }
 
-_G.pg.gametip.world_redeploy_tip = {
+_G.pg.base.gametip.world_redeploy_tip = {
 	tip = "艦隊がまだ編成されていません"
 }
 
-_G.pg.gametip.world_fleet_choose = {
+_G.pg.base.gametip.world_fleet_choose = {
 	tip = "<color=#80e742>セイレーン作戦における戦闘はコンディションに影響せず、また、燃料も消費しません</color>"
 }
 
-_G.pg.gametip.world_fleet_formation_not_valid = {
+_G.pg.base.gametip.world_fleet_formation_not_valid = {
 	tip = "$1を編成する必要があります"
 }
 
-_G.pg.gametip.world_fleet_in_vortex = {
+_G.pg.base.gametip.world_fleet_in_vortex = {
 	tip = "艦隊は渦に飲み込まれそうになってしまっており、普段どおり移動できなくなっている"
 }
 
-_G.pg.gametip.world_stage_help = {
+_G.pg.base.gametip.world_stage_help = {
 	tip = {
 		disableScroll = true,
 		pageMode = true,
@@ -3931,27 +3931,27 @@ _G.pg.gametip.world_stage_help = {
 	}
 }
 
-_G.pg.gametip.world_transport_disable = {
+_G.pg.base.gametip.world_transport_disable = {
 	tip = "この海域はエリア移動を行えません"
 }
 
-_G.pg.gametip.world_ap = {
+_G.pg.base.gametip.world_ap = {
 	tip = "行動力"
 }
 
-_G.pg.gametip.world_resource_tip_1 = {
+_G.pg.base.gametip.world_resource_tip_1 = {
 	tip = "未资源提示1(未使用)"
 }
 
-_G.pg.gametip.world_resource_tip_2 = {
+_G.pg.base.gametip.world_resource_tip_2 = {
 	tip = "未资源提示1(未使用)"
 }
 
-_G.pg.gametip.world_instruction_all_1 = {
+_G.pg.base.gametip.world_instruction_all_1 = {
 	tip = "この機能はまだ開放されていません"
 }
 
-_G.pg.gametip.world_instruction_help_1 = {
+_G.pg.base.gametip.world_instruction_help_1 = {
 	tip = {
 		{
 			info = [[
@@ -3973,235 +3973,235 @@ _G.pg.gametip.world_instruction_help_1 = {
 	}
 }
 
-_G.pg.gametip.world_instruction_redeploy_1 = {
+_G.pg.base.gametip.world_instruction_redeploy_1 = {
 	tip = "艦隊再編成は港エリアでのみ行なえます"
 }
 
-_G.pg.gametip.world_instruction_redeploy_2 = {
+_G.pg.base.gametip.world_instruction_redeploy_2 = {
 	tip = "艦隊が再編成され、耐久・士気が回復しました"
 }
 
-_G.pg.gametip.world_instruction_redeploy_3 = {
+_G.pg.base.gametip.world_instruction_redeploy_3 = {
 	tip = "エネルギー供給装置を運んでいるため、艦隊を再編成できません"
 }
 
-_G.pg.gametip.world_instruction_morale_1 = {
+_G.pg.base.gametip.world_instruction_morale_1 = {
 	tip = "$1の指揮官行動力を消費し、\n全艦隊の耐久・士気を回復し\n「戦闘損傷」効果を削除しますか？"
 }
 
-_G.pg.gametip.world_instruction_morale_2 = {
+_G.pg.base.gametip.world_instruction_morale_2 = {
 	tip = "艦隊の士気は最大です"
 }
 
-_G.pg.gametip.world_instruction_morale_3 = {
+_G.pg.base.gametip.world_instruction_morale_3 = {
 	tip = "艦隊の士気が回復しました"
 }
 
-_G.pg.gametip.world_instruction_morale_4 = {
+_G.pg.base.gametip.world_instruction_morale_4 = {
 	tip = "オーダー使用後、一定時間経過まで再度使用できません"
 }
 
-_G.pg.gametip.world_instruction_submarine_1 = {
+_G.pg.base.gametip.world_instruction_submarine_1 = {
 	tip = "この海域では命令を発令できません"
 }
 
-_G.pg.gametip.world_instruction_submarine_2 = {
+_G.pg.base.gametip.world_instruction_submarine_2 = {
 	tip = "行動力を$1消費し、\n潜水支援を行いますか？"
 }
 
-_G.pg.gametip.world_instruction_submarine_3 = {
+_G.pg.base.gametip.world_instruction_submarine_3 = {
 	tip = "既に潜水艦隊が出撃しています"
 }
 
-_G.pg.gametip.world_instruction_submarine_4 = {
+_G.pg.base.gametip.world_instruction_submarine_4 = {
 	tip = "潜水艦隊が編成されていないため支援要請できません"
 }
 
-_G.pg.gametip.world_instruction_submarine_5 = {
+_G.pg.base.gametip.world_instruction_submarine_5 = {
 	tip = "潜水艦隊がエリアより離脱しました"
 }
 
-_G.pg.gametip.world_instruction_submarine_6 = {
+_G.pg.base.gametip.world_instruction_submarine_6 = {
 	tip = "エリア移動を行うと、潜水艦隊が出撃待機状態になります。エリア移動を行いますか？"
 }
 
-_G.pg.gametip.world_instruction_submarine_7 = {
+_G.pg.base.gametip.world_instruction_submarine_7 = {
 	tip = "指揮官行動力$1を消費し、\n弾薬の補充・損傷の回復をしますか？"
 }
 
-_G.pg.gametip.world_instruction_submarine_8 = {
+_G.pg.base.gametip.world_instruction_submarine_8 = {
 	tip = "前に発動したオーダーからの時間経過に応じて消費行動力が変化します"
 }
 
-_G.pg.gametip.world_instruction_submarine_9 = {
+_G.pg.base.gametip.world_instruction_submarine_9 = {
 	tip = "潜水支援は行動力消費が"
 }
 
-_G.pg.gametip.world_instruction_submarine_10 = {
+_G.pg.base.gametip.world_instruction_submarine_10 = {
 	tip = "以下の場合、戦闘中自動で\n行います"
 }
 
-_G.pg.gametip.world_instruction_submarine_11 = {
+_G.pg.base.gametip.world_instruction_submarine_11 = {
 	tip = "潜水艦隊自動配置設定　保存成功"
 }
 
-_G.pg.gametip.world_instruction_detect_1 = {
+_G.pg.base.gametip.world_instruction_detect_1 = {
 	tip = "行動力を$1消費し、\n海域偵察を行いますか？"
 }
 
-_G.pg.gametip.world_instruction_detect_2 = {
+_G.pg.base.gametip.world_instruction_detect_2 = {
 	tip = "海域偵察を行いました"
 }
 
-_G.pg.gametip.world_instruction_supply_1 = {
+_G.pg.base.gametip.world_instruction_supply_1 = {
 	tip = "是否消耗$1行动力申请一份基础补给？(当前行动力：$2)(未使用)"
 }
 
-_G.pg.gametip.world_instruction_supply_2 = {
+_G.pg.base.gametip.world_instruction_supply_2 = {
 	tip = "艦隊整備発令可能になるまであと$1"
 }
 
-_G.pg.gametip.world_item_recycle_1 = {
+_G.pg.base.gametip.world_item_recycle_1 = {
 	tip = "セイレーン作戦リセットのため、下記アイテムが変換されます"
 }
 
-_G.pg.gametip.world_item_recycle_2 = {
+_G.pg.base.gametip.world_item_recycle_2 = {
 	tip = "セイレーン作戦リセットのため、下記アイテムが失われます"
 }
 
-_G.pg.gametip.world_item_origin = {
+_G.pg.base.gametip.world_item_origin = {
 	tip = "入手条件"
 }
 
-_G.pg.gametip.world_shop_bag_unactivated = {
+_G.pg.base.gametip.world_shop_bag_unactivated = {
 	tip = "セイレーン作戦が開放されていないため、ショップを利用できません"
 }
 
-_G.pg.gametip.world_shop_preview_tip = {
+_G.pg.base.gametip.world_shop_preview_tip = {
 	tip = "商品ラインナッププレビュー"
 }
 
-_G.pg.gametip.world_shop_init_notice = {
+_G.pg.base.gametip.world_shop_init_notice = {
 	tip = "セイレーン作戦がリセットされました。ショップに移動しますか？"
 }
 
-_G.pg.gametip.world_map_title_tips_en = {
+_G.pg.base.gametip.world_map_title_tips_en = {
 	tip = "OPERATION INFO"
 }
 
-_G.pg.gametip.world_map_title_tips = {
+_G.pg.base.gametip.world_map_title_tips = {
 	tip = "作戦情報"
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_1 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_1 = {
 	tip = "攻撃適応"
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_2 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
 	tip = "耐久適応"
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_3 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_3 = {
 	tip = "回復撹乱"
 }
 
-_G.pg.gametip.world_mapbuff_compare_txt = {
+_G.pg.base.gametip.world_mapbuff_compare_txt = {
 	tip = "適応優勢"
 }
 
-_G.pg.gametip.world_wind_move = {
+_G.pg.base.gametip.world_wind_move = {
 	tip = "目標エリアに移動できません。目標エリアにいる艦隊を移動してください"
 }
 
-_G.pg.gametip.world_battle_pause = {
+_G.pg.base.gametip.world_battle_pause = {
 	tip = "OPERATION"
 }
 
-_G.pg.gametip.world_battle_pause2 = {
+_G.pg.base.gametip.world_battle_pause2 = {
 	tip = "セイレーン作戦"
 }
 
-_G.pg.gametip.world_task_samemap = {
+_G.pg.base.gametip.world_task_samemap = {
 	tip = "エリアに未完了の任務が存在しているため、任務を新たに受領できません"
 }
 
-_G.pg.gametip.world_task_maplock = {
+_G.pg.base.gametip.world_task_maplock = {
 	tip = "エリア内に未完了の任務が存在しているため、エリアから移動できません。<color=#ff5c5c>情報</color>で確認してください"
 }
 
-_G.pg.gametip.world_task_goto0 = {
+_G.pg.base.gametip.world_task_goto0 = {
 	tip = "現在のエリアは任務エリアではありません"
 }
 
-_G.pg.gametip.world_task_goto3 = {
+_G.pg.base.gametip.world_task_goto3 = {
 	tip = "すでに任務エリアに艦隊が展開してあります"
 }
 
-_G.pg.gametip.world_task_view1 = {
+_G.pg.base.gametip.world_task_view1 = {
 	tip = "任務エリア："
 }
 
-_G.pg.gametip.world_task_view2 = {
+_G.pg.base.gametip.world_task_view2 = {
 	tip = "現在エリア："
 }
 
-_G.pg.gametip.world_task_view3 = {
+_G.pg.base.gametip.world_task_view3 = {
 	tip = "不明"
 }
 
-_G.pg.gametip.world_task_refuse1 = {
+_G.pg.base.gametip.world_task_refuse1 = {
 	tip = "デイリー任務受領数が上限に達しています"
 }
 
-_G.pg.gametip.world_daily_task_lock = {
+_G.pg.base.gametip.world_daily_task_lock = {
 	tip = "デイリーミッションはセイレーン作戦4章クリアで開放されます"
 }
 
-_G.pg.gametip.world_daily_task_none = {
+_G.pg.base.gametip.world_daily_task_none = {
 	tip = "現在受注できる任務はありません"
 }
 
-_G.pg.gametip.world_daily_task_none_2 = {
+_G.pg.base.gametip.world_daily_task_none_2 = {
 	tip = "No missions currently available"
 }
 
-_G.pg.gametip.world_sairen_title = {
+_G.pg.base.gametip.world_sairen_title = {
 	tip = "セイレーン支配度"
 }
 
-_G.pg.gametip.world_sairen_description1 = {
+_G.pg.base.gametip.world_sairen_description1 = {
 	tip = "エリアのセイレーン支配度　<color=#3dc6ff>$1%</color>"
 }
 
-_G.pg.gametip.world_sairen_description2 = {
+_G.pg.base.gametip.world_sairen_description2 = {
 	tip = "エリアのセイレーン支配度　<color=#ffde38>$1%</color>"
 }
 
-_G.pg.gametip.world_sairen_description3 = {
+_G.pg.base.gametip.world_sairen_description3 = {
 	tip = "エリアのセイレーン支配度　<color=#ff5c5c>$1%</color>"
 }
 
-_G.pg.gametip.world_low_morale = {
+_G.pg.base.gametip.world_low_morale = {
 	tip = "艦隊の士気ステータスが低下しているため、強敵との戦闘を開始できません。\n艦隊整備オーダーを発令するか、戦闘を勝利させることで艦隊士気を回復できます"
 }
 
-_G.pg.gametip.world_recycle_notice = {
+_G.pg.base.gametip.world_recycle_notice = {
 	tip = "セイレーン作戦がリセットされています。今の画面から移動しますか？"
 }
 
-_G.pg.gametip.world_recycle_item_transform = {
+_G.pg.base.gametip.world_recycle_item_transform = {
 	tip = "セイレーン作戦がリセットされました。未使用のアイテムは「備蓄物資交換券」に交換されます："
 }
 
-_G.pg.gametip.world_exit_tip = {
+_G.pg.base.gametip.world_exit_tip = {
 	tip = "メイン画面に戻りますか？"
 }
 
-_G.pg.gametip.world_consume_carry_tips = {
+_G.pg.base.gametip.world_consume_carry_tips = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_boss_help_meta = {
+_G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
@@ -4243,35 +4243,35 @@ META戦・シャルンホルスト(META)が開催中です。META戦で解析Pt�
 	}
 }
 
-_G.pg.gametip.world_close = {
+_G.pg.base.gametip.world_close = {
 	tip = "セイレーン作戦開催期間外です"
 }
 
-_G.pg.gametip.world_catsearch_success = {
+_G.pg.base.gametip.world_catsearch_success = {
 	tip = "オフニャがサルベージを開始しました！"
 }
 
-_G.pg.gametip.world_catsearch_stop = {
+_G.pg.base.gametip.world_catsearch_stop = {
 	tip = "サルベージ作業を中止し、オフニャを呼び戻りますか？（ターン経過分の報酬を入手できます）"
 }
 
-_G.pg.gametip.world_catsearch_fleetcheck = {
+_G.pg.base.gametip.world_catsearch_fleetcheck = {
 	tip = "サルベージ作業中のオフニャが作業を中止してしまいます。（ターン経過分の報酬を入手できます）\n艦隊再配置を行いますか？"
 }
 
-_G.pg.gametip.world_catsearch_leavemap = {
+_G.pg.base.gametip.world_catsearch_leavemap = {
 	tip = "サルベージ作業中のオフニャが作業を中止してしまいます。（ターン経過分の報酬を入手できます）\nエリアから移動しますか？"
 }
 
-_G.pg.gametip.world_catsearch_help_1 = {
+_G.pg.base.gametip.world_catsearch_help_1 = {
 	tip = "ターンが進むと、サルベージ進捗が経過します。オフニャを呼び戻しますか？（報酬を一部入手できます）"
 }
 
-_G.pg.gametip.world_catsearch_help_2 = {
+_G.pg.base.gametip.world_catsearch_help_2 = {
 	tip = "入手可能報酬"
 }
 
-_G.pg.gametip.world_catsearch_help_3 = {
+_G.pg.base.gametip.world_catsearch_help_3 = {
 	tip = {
 		{
 			icon = {
@@ -4296,971 +4296,971 @@ _G.pg.gametip.world_catsearch_help_3 = {
 	}
 }
 
-_G.pg.gametip.world_catsearch_help_4 = {
+_G.pg.base.gametip.world_catsearch_help_4 = {
 	tip = "作業中"
 }
 
-_G.pg.gametip.world_catsearch_help_5 = {
+_G.pg.base.gametip.world_catsearch_help_5 = {
 	tip = "オフニャがサルベージ作業中のため、スキルが適用されません"
 }
 
-_G.pg.gametip.world_catsearch_help_6 = {
+_G.pg.base.gametip.world_catsearch_help_6 = {
 	tip = "下記の報酬を入手する場合があります"
 }
 
-_G.pg.gametip.world_level_prefix = {
+_G.pg.base.gametip.world_level_prefix = {
 	tip = "LV.$1"
 }
 
-_G.pg.gametip.world_map_level = {
+_G.pg.base.gametip.world_map_level = {
 	tip = "艦隊作戦レベル：<color=#92fc63>$1</color> \n艦隊戦力レベルと同じレベル以下のエリアの攻略をオススメします。（艦隊作戦レベルは戦力・適応調整によって影響されます）"
 }
 
-_G.pg.gametip.world_movelimit_event_text = {
+_G.pg.base.gametip.world_movelimit_event_text = {
 	tip = "エリアに未完了の任務が存在しているため、エリカ移動を行えません"
 }
 
-_G.pg.gametip.world_mapbuff_tip = {
+_G.pg.base.gametip.world_mapbuff_tip = {
 	tip = "エリア内の敵戦力上昇中"
 }
 
-_G.pg.gametip.world_sametask_tip = {
+_G.pg.base.gametip.world_sametask_tip = {
 	tip = "任務受領に失敗しました：同じ任務は同時に一つしか受領できません"
 }
 
-_G.pg.gametip.world_expedition_reward_display = {
+_G.pg.base.gametip.world_expedition_reward_display = {
 	tip = "報酬一覧"
 }
 
-_G.pg.gametip.world_expedition_reward_display2 = {
+_G.pg.base.gametip.world_expedition_reward_display2 = {
 	tip = "HP $1%"
 }
 
-_G.pg.gametip.world_complete_item_tip = {
+_G.pg.base.gametip.world_complete_item_tip = {
 	tip = "すでに全エリアが確保済であるため、購入できません"
 }
 
-_G.pg.gametip.task_notfound_error = {
+_G.pg.base.gametip.task_notfound_error = {
 	tip = "ステージ情報が見つかりませんでした。エラーid:"
 }
 
-_G.pg.gametip.task_submitTask_error = {
+_G.pg.base.gametip.task_submitTask_error = {
 	tip = "任務完了失敗:"
 }
 
-_G.pg.gametip.task_submitTask_error_client = {
+_G.pg.base.gametip.task_submitTask_error_client = {
 	tip = "任務完了失敗"
 }
 
-_G.pg.gametip.task_submitTask_error_notFinish = {
+_G.pg.base.gametip.task_submitTask_error_notFinish = {
 	tip = "任務がまだ完了されていません"
 }
 
-_G.pg.gametip.task_taskMediator_getItem = {
+_G.pg.base.gametip.task_taskMediator_getItem = {
 	tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
 }
 
-_G.pg.gametip.task_taskMediator_getResource = {
+_G.pg.base.gametip.task_taskMediator_getResource = {
 	tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
 }
 
-_G.pg.gametip.task_taskMediator_getEquip = {
+_G.pg.base.gametip.task_taskMediator_getEquip = {
 	tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
 }
 
-_G.pg.gametip.task_target_chapter_in_progress = {
+_G.pg.base.gametip.task_target_chapter_in_progress = {
 	tip = "任务目标地图正在攻略中，不能接取该任务"
 }
 
-_G.pg.gametip.task_level_notenough = {
+_G.pg.base.gametip.task_level_notenough = {
 	tip = "需要达到$1级才能进行任务"
 }
 
-_G.pg.gametip.loading_tip_ShaderMgr = {
+_G.pg.base.gametip.loading_tip_ShaderMgr = {
 	tip = "視覚センサー起動中…"
 }
 
-_G.pg.gametip.loading_tip_FontMgr = {
+_G.pg.base.gametip.loading_tip_FontMgr = {
 	tip = "自律ライブラリー初期化中…"
 }
 
-_G.pg.gametip.loading_tip_TipsMgr = {
+_G.pg.base.gametip.loading_tip_TipsMgr = {
 	tip = "自己回復機能展開中…"
 }
 
-_G.pg.gametip.loading_tip_MsgboxMgr = {
+_G.pg.base.gametip.loading_tip_MsgboxMgr = {
 	tip = "対話インタフェース構築中…"
 }
 
-_G.pg.gametip.loading_tip_GuideMgr = {
+_G.pg.base.gametip.loading_tip_GuideMgr = {
 	tip = "補助オペレーターAI接続中…"
 }
 
-_G.pg.gametip.loading_tip_PoolMgr = {
+_G.pg.base.gametip.loading_tip_PoolMgr = {
 	tip = "有機塗装素子充填中…"
 }
 
-_G.pg.gametip.loading_tip_FModMgr = {
+_G.pg.base.gametip.loading_tip_FModMgr = {
 	tip = "声帯ユニット動作確認中…"
 }
 
-_G.pg.gametip.loading_tip_StoryMgr = {
+_G.pg.base.gametip.loading_tip_StoryMgr = {
 	tip = "パラレル記憶子ライティング中…"
 }
 
-_G.pg.gametip.energy_desc_happy = {
+_G.pg.base.gametip.energy_desc_happy = {
 	tip = "やる気満々！いつも以上に戦闘力を発揮できます"
 }
 
-_G.pg.gametip.energy_desc_normal = {
+_G.pg.base.gametip.energy_desc_normal = {
 	tip = "普通。実力通りの戦闘力を発揮できます"
 }
 
-_G.pg.gametip.energy_desc_tired = {
+_G.pg.base.gametip.energy_desc_tired = {
 	tip = "疲れた…普段通りには戦えないようです"
 }
 
-_G.pg.gametip.energy_desc_angry = {
+_G.pg.base.gametip.energy_desc_angry = {
 	tip = "もう動けないorz 早く休ませてあげよう"
 }
 
-_G.pg.gametip.create_player_success = {
+_G.pg.base.gametip.create_player_success = {
 	tip = "ユーザー登録しました"
 }
 
-_G.pg.gametip.login_newPlayerScene_invalideName = {
+_G.pg.base.gametip.login_newPlayerScene_invalideName = {
 	tip = "NGワードが含まれています"
 }
 
-_G.pg.gametip.login_newPlayerScene_name_tooShort = {
+_G.pg.base.gametip.login_newPlayerScene_name_tooShort = {
 	tip = "名前が短すぎです"
 }
 
-_G.pg.gametip.login_newPlayerScene_name_existOtherChar = {
+_G.pg.base.gametip.login_newPlayerScene_name_existOtherChar = {
 	tip = "使用できない文字が含まれています"
 }
 
-_G.pg.gametip.login_newPlayerScene_name_tooLong = {
+_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
 	tip = "名前が長すぎです"
 }
 
-_G.pg.gametip.equipment_updateGrade_tip = {
+_G.pg.base.gametip.equipment_updateGrade_tip = {
 	tip = "これらの材料さえ揃えば強化できるよぷぷ"
 }
 
-_G.pg.gametip.equipment_upgrade_ok = {
+_G.pg.base.gametip.equipment_upgrade_ok = {
 	tip = "装備強化成功"
 }
 
-_G.pg.gametip.equipment_cant_upgrade = {
+_G.pg.base.gametip.equipment_cant_upgrade = {
 	tip = "強化不可"
 }
 
-_G.pg.gametip.equipment_upgrade_erro = {
+_G.pg.base.gametip.equipment_upgrade_erro = {
 	tip = "装備強化失敗:"
 }
 
-_G.pg.gametip.collection_nostar = {
+_G.pg.base.gametip.collection_nostar = {
 	tip = "受取条件に満たしていません"
 }
 
-_G.pg.gametip.collection_getResource_error = {
+_G.pg.base.gametip.collection_getResource_error = {
 	tip = "報酬受取失敗:"
 }
 
-_G.pg.gametip.collection_hadAward = {
+_G.pg.base.gametip.collection_hadAward = {
 	tip = "報酬受取済"
 }
 
-_G.pg.gametip.collection_lock = {
+_G.pg.base.gametip.collection_lock = {
 	tip = "まだ開放されていません"
 }
 
-_G.pg.gametip.collection_fetched = {
+_G.pg.base.gametip.collection_fetched = {
 	tip = "受取済みです"
 }
 
-_G.pg.gametip.buyProp_noResource_error = {
+_G.pg.base.gametip.buyProp_noResource_error = {
 	tip = "<color=#92fc63>$1</color>不足"
 }
 
-_G.pg.gametip.refresh_shopStreet_ok = {
+_G.pg.base.gametip.refresh_shopStreet_ok = {
 	tip = "商品更新成功"
 }
 
-_G.pg.gametip.refresh_shopStreet_erro = {
+_G.pg.base.gametip.refresh_shopStreet_erro = {
 	tip = "商品更新失敗:"
 }
 
-_G.pg.gametip.shopStreet_upgrade_done = {
+_G.pg.base.gametip.shopStreet_upgrade_done = {
 	tip = "商店街増築完了"
 }
 
-_G.pg.gametip.shopStreet_refresh_max_count = {
+_G.pg.base.gametip.shopStreet_refresh_max_count = {
 	tip = "本日はもう更新できません"
 }
 
-_G.pg.gametip.buy_countLimit = {
+_G.pg.base.gametip.buy_countLimit = {
 	tip = "これ以上購入できません"
 }
 
-_G.pg.gametip.buy_item_quest = {
+_G.pg.base.gametip.buy_item_quest = {
 	tip = "購入しますか？"
 }
 
-_G.pg.gametip.refresh_shopStreet_question = {
+_G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "<color=#92fc63>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#ff5c5c>$3</color></size> 回購入しました)</size>"
 }
 
-_G.pg.gametip.event_start_success = {
+_G.pg.base.gametip.event_start_success = {
 	tip = "委託開始"
 }
 
-_G.pg.gametip.event_start_fail = {
+_G.pg.base.gametip.event_start_fail = {
 	tip = "委託開始失敗:"
 }
 
-_G.pg.gametip.event_finish_success = {
+_G.pg.base.gametip.event_finish_success = {
 	tip = "委託完了"
 }
 
-_G.pg.gametip.event_finish_fail = {
+_G.pg.base.gametip.event_finish_fail = {
 	tip = "委託完了失敗:"
 }
 
-_G.pg.gametip.event_giveup_success = {
+_G.pg.base.gametip.event_giveup_success = {
 	tip = "緊急帰還"
 }
 
-_G.pg.gametip.event_giveup_fail = {
+_G.pg.base.gametip.event_giveup_fail = {
 	tip = "緊急帰還失敗:"
 }
 
-_G.pg.gametip.event_flush_success = {
+_G.pg.base.gametip.event_flush_success = {
 	tip = "商品更新成功"
 }
 
-_G.pg.gametip.event_flush_fail = {
+_G.pg.base.gametip.event_flush_fail = {
 	tip = "商品更新失敗:"
 }
 
-_G.pg.gametip.event_flush_not_enough = {
+_G.pg.base.gametip.event_flush_not_enough = {
 	tip = "更新可能回数が足りません"
 }
 
-_G.pg.gametip.event_start = {
+_G.pg.base.gametip.event_start = {
 	tip = "委託開始"
 }
 
-_G.pg.gametip.event_finish = {
+_G.pg.base.gametip.event_finish = {
 	tip = "委託完了"
 }
 
-_G.pg.gametip.event_giveup = {
+_G.pg.base.gametip.event_giveup = {
 	tip = "委託中止"
 }
 
-_G.pg.gametip.event_minimus_ship_numbers = {
+_G.pg.base.gametip.event_minimus_ship_numbers = {
 	tip = "<color=#92fc63>$1隻</color>以上必須です"
 }
 
-_G.pg.gametip.event_confirm_giveup = {
+_G.pg.base.gametip.event_confirm_giveup = {
 	tip = "委託を諦めますか？"
 }
 
-_G.pg.gametip.event_confirm_flush = {
+_G.pg.base.gametip.event_confirm_flush = {
 	tip = "遂行中の委託がありますが、本当にリストを更新しますか？"
 }
 
-_G.pg.gametip.event_fleet_busy = {
+_G.pg.base.gametip.event_fleet_busy = {
 	tip = "これ以上委託を請負できません"
 }
 
-_G.pg.gametip.event_same_type_not_allowed = {
+_G.pg.base.gametip.event_same_type_not_allowed = {
 	tip = "同じ艦を編成できません"
 }
 
-_G.pg.gametip.event_condition_ship_level = {
+_G.pg.base.gametip.event_condition_ship_level = {
 	tip = "Lv<color=#92fc63>$1</color>以上の艦<color=#92fc63>1隻</color>以上の必須"
 }
 
-_G.pg.gametip.event_condition_ship_count = {
+_G.pg.base.gametip.event_condition_ship_count = {
 	tip = "<color=#92fc63>$1</color>隻以上必要"
 }
 
-_G.pg.gametip.event_condition_ship_type = {
+_G.pg.base.gametip.event_condition_ship_type = {
 	tip = "<color=#92fc63>$1</color>限定"
 }
 
-_G.pg.gametip.event_level_unreached = {
+_G.pg.base.gametip.event_level_unreached = {
 	tip = "練度不足"
 }
 
-_G.pg.gametip.event_type_unreached = {
+_G.pg.base.gametip.event_type_unreached = {
 	tip = "出撃条件未達成"
 }
 
-_G.pg.gametip.event_oil_consume = {
+_G.pg.base.gametip.event_oil_consume = {
 	tip = "委託は<icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color>の燃料を消費します"
 }
 
-_G.pg.gametip.event_type_unlimit = {
+_G.pg.base.gametip.event_type_unlimit = {
 	tip = "無制限"
 }
 
-_G.pg.gametip.dailyLevel_restCount_notEnough = {
+_G.pg.base.gametip.dailyLevel_restCount_notEnough = {
 	tip = "これ以上挑戦できません"
 }
 
-_G.pg.gametip.dailyLevel_unopened = {
+_G.pg.base.gametip.dailyLevel_unopened = {
 	tip = "準備中です"
 }
 
-_G.pg.gametip.dailyLevel_opened = {
+_G.pg.base.gametip.dailyLevel_opened = {
 	tip = "開放"
 }
 
-_G.pg.gametip.playerinfo_ship_is_already_flagship = {
+_G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
 	tip = "既に秘書艦です"
 }
 
-_G.pg.gametip.playerinfo_mask_word = {
+_G.pg.base.gametip.playerinfo_mask_word = {
 	tip = "NGワードが含まれています"
 }
 
-_G.pg.gametip.just_now = {
+_G.pg.base.gametip.just_now = {
 	tip = "直前"
 }
 
-_G.pg.gametip.several_minutes_before = {
+_G.pg.base.gametip.several_minutes_before = {
 	tip = "<color=#92fc63>$1</color>分前"
 }
 
-_G.pg.gametip.several_hours_before = {
+_G.pg.base.gametip.several_hours_before = {
 	tip = "<color=#92fc63>$1</color>時間前"
 }
 
-_G.pg.gametip.several_days_before = {
+_G.pg.base.gametip.several_days_before = {
 	tip = "<color=#92fc63>$1日</color>前"
 }
 
-_G.pg.gametip.long_time_offline = {
+_G.pg.base.gametip.long_time_offline = {
 	tip = "結構前"
 }
 
-_G.pg.gametip.dont_send_message_frequently = {
+_G.pg.base.gametip.dont_send_message_frequently = {
 	tip = "発信間隔に注意"
 }
 
-_G.pg.gametip.no_activity = {
+_G.pg.base.gametip.no_activity = {
 	tip = "参加できるイベントがありません"
 }
 
-_G.pg.gametip.which_day = {
+_G.pg.base.gametip.which_day = {
 	tip = "<color=#92fc63>$1</color>日目"
 }
 
-_G.pg.gametip.which_day_2 = {
+_G.pg.base.gametip.which_day_2 = {
 	tip = "$1日目"
 }
 
-_G.pg.gametip.invalidate_evaluation = {
+_G.pg.base.gametip.invalidate_evaluation = {
 	tip = "NGワードが含まれています"
 }
 
-_G.pg.gametip.chapter_no = {
+_G.pg.base.gametip.chapter_no = {
 	tip = "<color=#92fc63>$1</color>章"
 }
 
-_G.pg.gametip.reconnect_tip = {
+_G.pg.base.gametip.reconnect_tip = {
 	tip = "通信エラーが発生しました。再接続しますか？\n[$1]"
 }
 
-_G.pg.gametip.like_ship_success = {
+_G.pg.base.gametip.like_ship_success = {
 	tip = "応援ありがとうございます！"
 }
 
-_G.pg.gametip.eva_ship_success = {
+_G.pg.base.gametip.eva_ship_success = {
 	tip = "送信しました"
 }
 
-_G.pg.gametip.zan_ship_eva_success = {
+_G.pg.base.gametip.zan_ship_eva_success = {
 	tip = "イイネしました"
 }
 
-_G.pg.gametip.zan_ship_eva_error_7 = {
+_G.pg.base.gametip.zan_ship_eva_error_7 = {
 	tip = "イイネ済です"
 }
 
-_G.pg.gametip.eva_count_limit = {
+_G.pg.base.gametip.eva_count_limit = {
 	tip = "本日のコメント上限に達しました"
 }
 
-_G.pg.gametip.attribute_durability = {
+_G.pg.base.gametip.attribute_durability = {
 	tip = "耐久"
 }
 
-_G.pg.gametip.attribute_cannon = {
+_G.pg.base.gametip.attribute_cannon = {
 	tip = "火力"
 }
 
-_G.pg.gametip.attribute_torpedo = {
+_G.pg.base.gametip.attribute_torpedo = {
 	tip = "雷装"
 }
 
-_G.pg.gametip.attribute_antiaircraft = {
+_G.pg.base.gametip.attribute_antiaircraft = {
 	tip = "対空"
 }
 
-_G.pg.gametip.attribute_air = {
+_G.pg.base.gametip.attribute_air = {
 	tip = "航空"
 }
 
-_G.pg.gametip.attribute_reload = {
+_G.pg.base.gametip.attribute_reload = {
 	tip = "装填"
 }
 
-_G.pg.gametip.attribute_cd = {
+_G.pg.base.gametip.attribute_cd = {
 	tip = "攻速"
 }
 
-_G.pg.gametip.attribute_armor_type = {
+_G.pg.base.gametip.attribute_armor_type = {
 	tip = "装甲種別"
 }
 
-_G.pg.gametip.attribute_armor = {
+_G.pg.base.gametip.attribute_armor = {
 	tip = "装甲"
 }
 
-_G.pg.gametip.attribute_hit = {
+_G.pg.base.gametip.attribute_hit = {
 	tip = "命中"
 }
 
-_G.pg.gametip.attribute_speed = {
+_G.pg.base.gametip.attribute_speed = {
 	tip = "速力"
 }
 
-_G.pg.gametip.attribute_luck = {
+_G.pg.base.gametip.attribute_luck = {
 	tip = "運"
 }
 
-_G.pg.gametip.attribute_dodge = {
+_G.pg.base.gametip.attribute_dodge = {
 	tip = "回避"
 }
 
-_G.pg.gametip.attribute_expend = {
+_G.pg.base.gametip.attribute_expend = {
 	tip = "消費"
 }
 
-_G.pg.gametip.attribute_damage = {
+_G.pg.base.gametip.attribute_damage = {
 	tip = "ダメージ"
 }
 
-_G.pg.gametip.attribute_healthy = {
+_G.pg.base.gametip.attribute_healthy = {
 	tip = "回復"
 }
 
-_G.pg.gametip.attribute_speciality = {
+_G.pg.base.gametip.attribute_speciality = {
 	tip = "特性"
 }
 
-_G.pg.gametip.attribute_range = {
+_G.pg.base.gametip.attribute_range = {
 	tip = "射程"
 }
 
-_G.pg.gametip.attribute_angle = {
+_G.pg.base.gametip.attribute_angle = {
 	tip = "射角"
 }
 
-_G.pg.gametip.attribute_scatter = {
+_G.pg.base.gametip.attribute_scatter = {
 	tip = "拡散範囲"
 }
 
-_G.pg.gametip.attribute_ammo = {
+_G.pg.base.gametip.attribute_ammo = {
 	tip = "弾薬"
 }
 
-_G.pg.gametip.attribute_antisub = {
+_G.pg.base.gametip.attribute_antisub = {
 	tip = "対潜"
 }
 
-_G.pg.gametip.attribute_sonarRange = {
+_G.pg.base.gametip.attribute_sonarRange = {
 	tip = "探知範囲拡大"
 }
 
-_G.pg.gametip.attribute_sonarInterval = {
+_G.pg.base.gametip.attribute_sonarInterval = {
 	tip = "発信頻度"
 }
 
-_G.pg.gametip.attribute_oxy_max = {
+_G.pg.base.gametip.attribute_oxy_max = {
 	tip = "潜航力"
 }
 
-_G.pg.gametip.attribute_dodge_limit = {
+_G.pg.base.gametip.attribute_dodge_limit = {
 	tip = "回避上限"
 }
 
-_G.pg.gametip.attribute_intimacy = {
+_G.pg.base.gametip.attribute_intimacy = {
 	tip = "好感度"
 }
 
-_G.pg.gametip.attribute_max_distance_damage = {
+_G.pg.base.gametip.attribute_max_distance_damage = {
 	tip = "爆風軽減"
 }
 
-_G.pg.gametip.attribute_anti_siren = {
+_G.pg.base.gametip.attribute_anti_siren = {
 	tip = "セイレーン作戦用補正"
 }
 
-_G.pg.gametip.attribute_add_new = {
+_G.pg.base.gametip.attribute_add_new = {
 	tip = "New!"
 }
 
-_G.pg.gametip.skill = {
+_G.pg.base.gametip.skill = {
 	tip = "スキル"
 }
 
-_G.pg.gametip.cd_normal = {
+_G.pg.base.gametip.cd_normal = {
 	tip = "基本速度"
 }
 
-_G.pg.gametip.intensify = {
+_G.pg.base.gametip.intensify = {
 	tip = "強化"
 }
 
-_G.pg.gametip.change = {
+_G.pg.base.gametip.change = {
 	tip = "変更"
 }
 
-_G.pg.gametip.formation_switch_failed = {
+_G.pg.base.gametip.formation_switch_failed = {
 	tip = "切り替える艦隊がありません"
 }
 
-_G.pg.gametip.formation_switch_success = {
+_G.pg.base.gametip.formation_switch_success = {
 	tip = "操作艦隊を$1に切り替えました"
 }
 
-_G.pg.gametip.formation_switch_tip = {
+_G.pg.base.gametip.formation_switch_tip = {
 	tip = "隊列維持ができません！操作艦隊を<color=#92fc63>$1</color>に変更します"
 }
 
-_G.pg.gametip.formation_reform_tip = {
+_G.pg.base.gametip.formation_reform_tip = {
 	tip = "隊列維持ができません！編成しますか？"
 }
 
-_G.pg.gametip.formation_invalide = {
+_G.pg.base.gametip.formation_invalide = {
 	tip = "戦闘可能な艦隊がありません…作戦失敗です…"
 }
 
-_G.pg.gametip.chapter_ap_not_enough = {
+_G.pg.base.gametip.chapter_ap_not_enough = {
 	tip = "AP不足"
 }
 
-_G.pg.gametip.formation_forbid_when_in_chapter = {
+_G.pg.base.gametip.formation_forbid_when_in_chapter = {
 	tip = "艦隊が出撃しています！"
 }
 
-_G.pg.gametip.military_forbid_when_in_chapter = {
+_G.pg.base.gametip.military_forbid_when_in_chapter = {
 	tip = "艦隊が出撃しています！"
 }
 
-_G.pg.gametip.confirm_app_exit = {
+_G.pg.base.gametip.confirm_app_exit = {
 	tip = "ゲームを終了しますか？"
 }
 
-_G.pg.gametip.friend_info_page_tip = {
+_G.pg.base.gametip.friend_info_page_tip = {
 	tip = "友達はタップで訪問可能"
 }
 
-_G.pg.gametip.friend_search_page_tip = {
+_G.pg.base.gametip.friend_search_page_tip = {
 	tip = "一回で<color=#92fc63>$1</color>人まで検索できます"
 }
 
-_G.pg.gametip.friend_request_page_tip = {
+_G.pg.base.gametip.friend_request_page_tip = {
 	tip = "申請は最大<color=#92fc63>$1件</color>まで保存できます"
 }
 
-_G.pg.gametip.friend_id_copy_ok = {
+_G.pg.base.gametip.friend_id_copy_ok = {
 	tip = "クリップボードにコピーしました"
 }
 
-_G.pg.gametip.friend_inpout_key_tip = {
+_G.pg.base.gametip.friend_inpout_key_tip = {
 	tip = "検索ワードを入力してください"
 }
 
-_G.pg.gametip.remove_friend_tip = {
+_G.pg.base.gametip.remove_friend_tip = {
 	tip = "登録を解除しますか？"
 }
 
-_G.pg.gametip.friend_request_msg_placeholder = {
+_G.pg.base.gametip.friend_request_msg_placeholder = {
 	tip = "申請内容を入力してください"
 }
 
-_G.pg.gametip.friend_request_msg_title = {
+_G.pg.base.gametip.friend_request_msg_title = {
 	tip = "相手に承認されると友達になります"
 }
 
-_G.pg.gametip.friend_max_count = {
+_G.pg.base.gametip.friend_max_count = {
 	tip = "相手の友達人数が上限になっています"
 }
 
-_G.pg.gametip.friend_add_ok = {
+_G.pg.base.gametip.friend_add_ok = {
 	tip = "友達追加しました"
 }
 
-_G.pg.gametip.friend_max_count_1 = {
+_G.pg.base.gametip.friend_max_count_1 = {
 	tip = "相手の友達数がいっぱいです"
 }
 
-_G.pg.gametip.friend_no_request = {
+_G.pg.base.gametip.friend_no_request = {
 	tip = "友達申請がありません"
 }
 
-_G.pg.gametip.reject_all_friend_ok = {
+_G.pg.base.gametip.reject_all_friend_ok = {
 	tip = "一括拒否しました"
 }
 
-_G.pg.gametip.reject_friend_ok = {
+_G.pg.base.gametip.reject_friend_ok = {
 	tip = "拒否しました"
 }
 
-_G.pg.gametip.friend_offline = {
+_G.pg.base.gametip.friend_offline = {
 	tip = "友達がオフラインです"
 }
 
-_G.pg.gametip.friend_msg_forbid = {
+_G.pg.base.gametip.friend_msg_forbid = {
 	tip = "NGワードが含まれています"
 }
 
-_G.pg.gametip.dont_add_self = {
+_G.pg.base.gametip.dont_add_self = {
 	tip = "自分を追加できません"
 }
 
-_G.pg.gametip.friend_already_add = {
+_G.pg.base.gametip.friend_already_add = {
 	tip = "既に友達になっています"
 }
 
-_G.pg.gametip.friend_not_add = {
+_G.pg.base.gametip.friend_not_add = {
 	tip = "まだ友達ではありません"
 }
 
-_G.pg.gametip.friend_send_msg_erro_tip = {
+_G.pg.base.gametip.friend_send_msg_erro_tip = {
 	tip = "友達がオフラインです"
 }
 
-_G.pg.gametip.friend_send_msg_null_tip = {
+_G.pg.base.gametip.friend_send_msg_null_tip = {
 	tip = "空メッセージを送信できません"
 }
 
-_G.pg.gametip.friend_search_succeed = {
+_G.pg.base.gametip.friend_search_succeed = {
 	tip = "検索完了"
 }
 
-_G.pg.gametip.friend_request_msg_sent = {
+_G.pg.base.gametip.friend_request_msg_sent = {
 	tip = "申請送信完了"
 }
 
-_G.pg.gametip.friend_resume_ship_count = {
+_G.pg.base.gametip.friend_resume_ship_count = {
 	tip = "艦船入手:"
 }
 
-_G.pg.gametip.friend_resume_title_metal = {
+_G.pg.base.gametip.friend_resume_title_metal = {
 	tip = "最高階級:"
 }
 
-_G.pg.gametip.friend_resume_collection_rate = {
+_G.pg.base.gametip.friend_resume_collection_rate = {
 	tip = "達成率:"
 }
 
-_G.pg.gametip.friend_resume_attack_count = {
+_G.pg.base.gametip.friend_resume_attack_count = {
 	tip = "出撃数:"
 }
 
-_G.pg.gametip.friend_resume_attack_win_rate = {
+_G.pg.base.gametip.friend_resume_attack_win_rate = {
 	tip = "出撃勝率:"
 }
 
-_G.pg.gametip.friend_resume_manoeuvre_count = {
+_G.pg.base.gametip.friend_resume_manoeuvre_count = {
 	tip = "演習回数:"
 }
 
-_G.pg.gametip.friend_resume_manoeuvre_win_rate = {
+_G.pg.base.gametip.friend_resume_manoeuvre_win_rate = {
 	tip = "演習勝率:"
 }
 
-_G.pg.gametip.friend_resume_fleet_gs = {
+_G.pg.base.gametip.friend_resume_fleet_gs = {
 	tip = "艦隊戦力:"
 }
 
-_G.pg.gametip.friend_event_count = {
+_G.pg.base.gametip.friend_event_count = {
 	tip = "委託達成:"
 }
 
-_G.pg.gametip.firend_relieve_blacklist_ok = {
+_G.pg.base.gametip.firend_relieve_blacklist_ok = {
 	tip = "解除成功"
 }
 
-_G.pg.gametip.firend_relieve_blacklist_tip = {
+_G.pg.base.gametip.firend_relieve_blacklist_tip = {
 	tip = "$1をブロックリストから削除しますか？"
 }
 
-_G.pg.gametip.word_shipNation_all = {
+_G.pg.base.gametip.word_shipNation_all = {
 	tip = "全陣営"
 }
 
-_G.pg.gametip.word_shipNation_baiYing = {
+_G.pg.base.gametip.word_shipNation_baiYing = {
 	tip = "ユニオン"
 }
 
-_G.pg.gametip.word_shipNation_huangJia = {
+_G.pg.base.gametip.word_shipNation_huangJia = {
 	tip = "ロイヤル"
 }
 
-_G.pg.gametip.word_shipNation_chongYing = {
+_G.pg.base.gametip.word_shipNation_chongYing = {
 	tip = "重桜"
 }
 
-_G.pg.gametip.word_shipNation_tieXue = {
+_G.pg.base.gametip.word_shipNation_tieXue = {
 	tip = "鉄血"
 }
 
-_G.pg.gametip.word_shipNation_dongHuang = {
+_G.pg.base.gametip.word_shipNation_dongHuang = {
 	tip = "東煌"
 }
 
-_G.pg.gametip.word_shipNation_saDing = {
+_G.pg.base.gametip.word_shipNation_saDing = {
 	tip = "サディア帝国"
 }
 
-_G.pg.gametip.word_shipNation_beiLian = {
+_G.pg.base.gametip.word_shipNation_beiLian = {
 	tip = "北方連合"
 }
 
-_G.pg.gametip.word_shipNation_other = {
+_G.pg.base.gametip.word_shipNation_other = {
 	tip = "その他"
 }
 
-_G.pg.gametip.word_shipNation_np = {
+_G.pg.base.gametip.word_shipNation_np = {
 	tip = "ネプテューヌ"
 }
 
-_G.pg.gametip.word_shipNation_ziyou = {
+_G.pg.base.gametip.word_shipNation_ziyou = {
 	tip = "アイリス"
 }
 
-_G.pg.gametip.word_shipNation_weixi = {
+_G.pg.base.gametip.word_shipNation_weixi = {
 	tip = "ヴィシア"
 }
 
-_G.pg.gametip.word_shipNation_um = {
+_G.pg.base.gametip.word_shipNation_um = {
 	tip = "うたわれるもの"
 }
 
-_G.pg.gametip.word_shipNation_ai = {
+_G.pg.base.gametip.word_shipNation_ai = {
 	tip = "KizunaAI"
 }
 
-_G.pg.gametip.word_shipNation_holo = {
+_G.pg.base.gametip.word_shipNation_holo = {
 	tip = "hololive"
 }
 
-_G.pg.gametip.word_shipNation_doa = {
+_G.pg.base.gametip.word_shipNation_doa = {
 	tip = "DOAXVV"
 }
 
-_G.pg.gametip.word_shipNation_imas = {
+_G.pg.base.gametip.word_shipNation_imas = {
 	tip = "アイドルマスター"
 }
 
-_G.pg.gametip.word_shipNation_link = {
+_G.pg.base.gametip.word_shipNation_link = {
 	tip = "コラボ"
 }
 
-_G.pg.gametip.word_shipNation_ssss = {
+_G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
 }
 
-_G.pg.gametip.word_reset = {
+_G.pg.base.gametip.word_reset = {
 	tip = "クリア"
 }
 
-_G.pg.gametip.word_asc = {
+_G.pg.base.gametip.word_asc = {
 	tip = "低い順"
 }
 
-_G.pg.gametip.word_desc = {
+_G.pg.base.gametip.word_desc = {
 	tip = "高い順"
 }
 
-_G.pg.gametip.word_own = {
+_G.pg.base.gametip.word_own = {
 	tip = "所持中の"
 }
 
-_G.pg.gametip.word_own1 = {
+_G.pg.base.gametip.word_own1 = {
 	tip = "所持："
 }
 
-_G.pg.gametip.oil_buy_limit_tip = {
+_G.pg.base.gametip.oil_buy_limit_tip = {
 	tip = "<size=22>(本日購入可能回数<color=#ff5c5c>$1</color>/$2回)</size>"
 }
 
-_G.pg.gametip.friend_resume_title = {
+_G.pg.base.gametip.friend_resume_title = {
 	tip = "履歴"
 }
 
-_G.pg.gametip.friend_resume_data_title = {
+_G.pg.base.gametip.friend_resume_data_title = {
 	tip = "情報"
 }
 
-_G.pg.gametip.batch_destroy = {
+_G.pg.base.gametip.batch_destroy = {
 	tip = "一括廃棄"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_tip = {
 	tip = "廃棄する装備を選択:"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_bonus_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_bonus_tip = {
 	tip = "素材入手:"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_nobonus_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
 	tip = "入手素材なし"
 }
 
-_G.pg.gametip.ship_equip_profiiency = {
+_G.pg.base.gametip.ship_equip_profiiency = {
 	tip = "補正:$1%"
 }
 
-_G.pg.gametip.no_open_system_tip = {
+_G.pg.base.gametip.no_open_system_tip = {
 	tip = "<color=#92fc63>$1</color>は指揮官Lv<color=#92fc63>$2</color>で開放されます"
 }
 
-_G.pg.gametip.open_system_tip = {
+_G.pg.base.gametip.open_system_tip = {
 	tip = "$1が開放されました！"
 }
 
-_G.pg.gametip.charge_start_tip = {
+_G.pg.base.gametip.charge_start_tip = {
 	tip = "合計$2ダイヤが手に入ります"
 }
 
-_G.pg.gametip.charge_double_gem_tip = {
+_G.pg.base.gametip.charge_double_gem_tip = {
 	tip = "初回のみ$1ダイヤをプレゼント！"
 }
 
-_G.pg.gametip.charge_month_card_lefttime_tip = {
+_G.pg.base.gametip.charge_month_card_lefttime_tip = {
 	tip = "貿易許可証残り$1日"
 }
 
-_G.pg.gametip.charge_title = {
+_G.pg.base.gametip.charge_title = {
 	tip = "$1で$3を$2つ購入します"
 }
 
-_G.pg.gametip.charge_extra_gem_tip = {
+_G.pg.base.gametip.charge_extra_gem_tip = {
 	tip = "＋おまけ$1ダイヤ"
 }
 
-_G.pg.gametip.charge_month_card_title = {
+_G.pg.base.gametip.charge_month_card_title = {
 	tip = "$1ダイヤプレゼント！さらに30日間毎日燃料・資金が貰える！"
 }
 
-_G.pg.gametip.charge_items_title = {
+_G.pg.base.gametip.charge_items_title = {
 	tip = "下記アイテムを入手できます"
 }
 
-_G.pg.gametip.setting_interface_save_success = {
+_G.pg.base.gametip.setting_interface_save_success = {
 	tip = "ボタン配置を保存しました"
 }
 
-_G.pg.gametip.setting_interface_revert_check = {
+_G.pg.base.gametip.setting_interface_revert_check = {
 	tip = "ボタン配置を初期化しますか？"
 }
 
-_G.pg.gametip.setting_interface_cancel_check = {
+_G.pg.base.gametip.setting_interface_cancel_check = {
 	tip = "現在の設定をキャンセルしますか？"
 }
 
-_G.pg.gametip.event_special_update = {
+_G.pg.base.gametip.event_special_update = {
 	tip = "緊急委託「$1」出現！"
 }
 
-_G.pg.gametip.no_notice_tip = {
+_G.pg.base.gametip.no_notice_tip = {
 	tip = "お知らせがありません"
 }
 
-_G.pg.gametip.energy_desc_1 = {
+_G.pg.base.gametip.energy_desc_1 = {
 	tip = "もうヘトヘト…\n<color=#FF552E>（出撃すると親密度が下がり、経験値が半分に）</color>"
 }
 
-_G.pg.gametip.energy_desc_2 = {
+_G.pg.base.gametip.energy_desc_2 = {
 	tip = "ちょっと機嫌悪いかも？\n少し休憩させよう"
 }
 
-_G.pg.gametip.energy_desc_3 = {
+_G.pg.base.gametip.energy_desc_3 = {
 	tip = "今のような毎日が続きますように"
 }
 
-_G.pg.gametip.energy_desc_4 = {
+_G.pg.base.gametip.energy_desc_4 = {
 	tip = "いいことが起こりそうな予感！\n<color=#92fc63>（入手経験値増加）</color>"
 }
 
-_G.pg.gametip.intimacy_desc_1 = {
+_G.pg.base.gametip.intimacy_desc_1 = {
 	tip = "$1があなたに失望した…"
 }
 
-_G.pg.gametip.intimacy_desc_2 = {
+_G.pg.base.gametip.intimacy_desc_2 = {
 	tip = "$1があなたのことをもっと知りたいようだ"
 }
 
-_G.pg.gametip.intimacy_desc_3 = {
+_G.pg.base.gametip.intimacy_desc_3 = {
 	tip = "$1があなたのことを信頼しているようだ"
 }
 
-_G.pg.gametip.intimacy_desc_4 = {
+_G.pg.base.gametip.intimacy_desc_4 = {
 	tip = "$1があなたと一緒にいるといつも嬉しそう"
 }
 
-_G.pg.gametip.intimacy_desc_5 = {
+_G.pg.base.gametip.intimacy_desc_5 = {
 	tip = "$1の目から想いが伝わってくる"
 }
 
-_G.pg.gametip.intimacy_desc_6 = {
+_G.pg.base.gametip.intimacy_desc_6 = {
 	tip = "$1があなたにすべてを託している"
 }
 
-_G.pg.gametip.intimacy_desc_7 = {
+_G.pg.base.gametip.intimacy_desc_7 = {
 	tip = "$1があなたにすべてを託している"
 }
 
-_G.pg.gametip.intimacy_desc_1_buff = {
+_G.pg.base.gametip.intimacy_desc_1_buff = {
 	tip = "補正値：なし"
 }
 
-_G.pg.gametip.intimacy_desc_2_buff = {
+_G.pg.base.gametip.intimacy_desc_2_buff = {
 	tip = "補正値：なし"
 }
 
-_G.pg.gametip.intimacy_desc_3_buff = {
+_G.pg.base.gametip.intimacy_desc_3_buff = {
 	tip = "補正値：全性能（速力、装備以外）1%アップ"
 }
 
-_G.pg.gametip.intimacy_desc_4_buff = {
+_G.pg.base.gametip.intimacy_desc_4_buff = {
 	tip = "補正値：全性能（速力、装備以外）3%アップ"
 }
 
-_G.pg.gametip.intimacy_desc_5_buff = {
+_G.pg.base.gametip.intimacy_desc_5_buff = {
 	tip = "補正値：全性能（速力、装備以外）6%アップ"
 }
 
-_G.pg.gametip.intimacy_desc_6_buff = {
+_G.pg.base.gametip.intimacy_desc_6_buff = {
 	tip = "補正値：全性能（速力、装備以外）9%アップ"
 }
 
-_G.pg.gametip.intimacy_desc_7_buff = {
+_G.pg.base.gametip.intimacy_desc_7_buff = {
 	tip = "補正値：全性能（速力、装備以外）12%アップ"
 }
 
-_G.pg.gametip.intimacy_desc_propose = {
+_G.pg.base.gametip.intimacy_desc_propose = {
 	tip = [[
 愛は幸せの導き、想いは永遠の絆
 守りたいものはあなたの笑顔
@@ -5269,27 +5269,27 @@ _G.pg.gametip.intimacy_desc_propose = {
                                           $1]]
 }
 
-_G.pg.gametip.intimacy_desc_1_detail = {
+_G.pg.base.gametip.intimacy_desc_1_detail = {
 	tip = "$1があなたに失望した…\n<color=#ffde38><size=18>(効果なし)</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_2_detail = {
+_G.pg.base.gametip.intimacy_desc_2_detail = {
 	tip = "$1があなたのことをもっと知りたいようだ\n<color=#ffde38><size=18>(効果なし)</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_3_detail = {
+_G.pg.base.gametip.intimacy_desc_3_detail = {
 	tip = "$1があなたことが信頼できると考えている\n<color=#92fc63><size=18>性能（速力以外）＋1%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_4_detail = {
+_G.pg.base.gametip.intimacy_desc_4_detail = {
 	tip = "$1があなたと一緒にいるといつも嬉しそうだ\n<color=#92fc63><size=18>性能（速力以外）＋3%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_5_detail = {
+_G.pg.base.gametip.intimacy_desc_5_detail = {
 	tip = "$1の目から想いが伝わってくる\n<color=#92fc63><size=18>性能（速力以外）＋6%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_6_detail = {
+_G.pg.base.gametip.intimacy_desc_6_detail = {
 	tip = [[
 愛は幸せの導き、想いは永遠の絆
 守りたいものはあなたの笑顔
@@ -5298,7 +5298,7 @@ _G.pg.gametip.intimacy_desc_6_detail = {
                                           $1]]
 }
 
-_G.pg.gametip.intimacy_desc_7_detail = {
+_G.pg.base.gametip.intimacy_desc_7_detail = {
 	tip = [[
 愛は幸せの導き、想いは永遠の絆
 守りたいものはあなたの笑顔
@@ -5307,79 +5307,79 @@ _G.pg.gametip.intimacy_desc_7_detail = {
                                           $1]]
 }
 
-_G.pg.gametip.intimacy_desc_ring = {
+_G.pg.base.gametip.intimacy_desc_ring = {
 	tip = "「誓いの指輪」1個"
 }
 
-_G.pg.gametip.intimacy_desc_tiara = {
+_G.pg.base.gametip.intimacy_desc_tiara = {
 	tip = "「絆のティアラ」1個"
 }
 
-_G.pg.gametip.intimacy_desc_day = {
+_G.pg.base.gametip.intimacy_desc_day = {
 	tip = ""
 }
 
-_G.pg.gametip.word_propose_cost_tip1 = {
+_G.pg.base.gametip.word_propose_cost_tip1 = {
 	tip = "絆のティアラを<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>)\n\n絆のティアラを使用すると、性能が<color=#92fc63>3%</color>強化されます。※名前は変更できません"
 }
 
-_G.pg.gametip.word_propose_cost_tip2 = {
+_G.pg.base.gametip.word_propose_cost_tip2 = {
 	tip = "誓いの指輪<color=#92fc63>1</color>個を絆のティアラ<color=#ff5c5c>1</color>個に交換しますか？\n<color=#92fc63>※交換後、誓いの指輪に戻すことはできません\n</color>※このキャラの名前は変更できません"
 }
 
-_G.pg.gametip.word_propose_tiara_tip = {
+_G.pg.base.gametip.word_propose_tiara_tip = {
 	tip = "大事な仲間に絆のティアラを――"
 }
 
-_G.pg.gametip.charge_title_getitem = {
+_G.pg.base.gametip.charge_title_getitem = {
 	tip = "下記のアイテムが手に入ります："
 }
 
-_G.pg.gametip.charge_title_getitem_soon = {
+_G.pg.base.gametip.charge_title_getitem_soon = {
 	tip = "すぐに入手："
 }
 
-_G.pg.gametip.charge_title_getitem_month = {
+_G.pg.base.gametip.charge_title_getitem_month = {
 	tip = "30日間毎日入手："
 }
 
-_G.pg.gametip.charge_limit_all = {
+_G.pg.base.gametip.charge_limit_all = {
 	tip = "購入回数：$1/$2"
 }
 
-_G.pg.gametip.charge_limit_daily = {
+_G.pg.base.gametip.charge_limit_daily = {
 	tip = "本日購入可能回数：$1"
 }
 
-_G.pg.gametip.charge_limit_weekly = {
+_G.pg.base.gametip.charge_limit_weekly = {
 	tip = "今週購入可能回数：$1"
 }
 
-_G.pg.gametip.charge_error = {
+_G.pg.base.gametip.charge_error = {
 	tip = "購入に失敗しました"
 }
 
-_G.pg.gametip.charge_success = {
+_G.pg.base.gametip.charge_success = {
 	tip = "購入に成功しました"
 }
 
-_G.pg.gametip.charge_level_limit = {
+_G.pg.base.gametip.charge_level_limit = {
 	tip = "練度不足"
 }
 
-_G.pg.gametip.ship_drop_desc_default = {
+_G.pg.base.gametip.ship_drop_desc_default = {
 	tip = "艦船獲得"
 }
 
-_G.pg.gametip.charge_limit_lv = {
+_G.pg.base.gametip.charge_limit_lv = {
 	tip = "Lv$1で開放"
 }
 
-_G.pg.gametip.charge_time_out = {
+_G.pg.base.gametip.charge_time_out = {
 	tip = "支払情報を確認しています…"
 }
 
-_G.pg.gametip.help_shipinfo_equip = {
+_G.pg.base.gametip.help_shipinfo_equip = {
 	tip = {
 		{
 			icon = {
@@ -5451,7 +5451,7 @@ _G.pg.gametip.help_shipinfo_equip = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_detail = {
+_G.pg.base.gametip.help_shipinfo_detail = {
 	tip = {
 		{
 			icon = {
@@ -5529,7 +5529,7 @@ _G.pg.gametip.help_shipinfo_detail = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_intensify = {
+_G.pg.base.gametip.help_shipinfo_intensify = {
 	tip = {
 		{
 			icon = {
@@ -5601,7 +5601,7 @@ _G.pg.gametip.help_shipinfo_intensify = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_upgrate = {
+_G.pg.base.gametip.help_shipinfo_upgrate = {
 	tip = {
 		{
 			icon = {
@@ -5673,7 +5673,7 @@ _G.pg.gametip.help_shipinfo_upgrate = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_maxlevel = {
+_G.pg.base.gametip.help_shipinfo_maxlevel = {
 	tip = {
 		{
 			icon = {
@@ -5741,7 +5741,7 @@ _G.pg.gametip.help_shipinfo_maxlevel = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_actnpc = {
+_G.pg.base.gametip.help_shipinfo_actnpc = {
 	tip = {
 		{
 			info = [[
@@ -5762,7 +5762,7 @@ _G.pg.gametip.help_shipinfo_actnpc = {
 	}
 }
 
-_G.pg.gametip.help_backyard = {
+_G.pg.base.gametip.help_backyard = {
 	tip = {
 		{
 			icon = {
@@ -5834,7 +5834,7 @@ _G.pg.gametip.help_backyard = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_fashion = {
+_G.pg.base.gametip.help_shipinfo_fashion = {
 	tip = {
 		{
 			info = [[
@@ -5846,7 +5846,7 @@ _G.pg.gametip.help_shipinfo_fashion = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_attr = {
+_G.pg.base.gametip.help_shipinfo_attr = {
 	tip = {
 		{
 			info = "1.強化表示："
@@ -6010,7 +6010,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 	}
 }
 
-_G.pg.gametip.help_equipment = {
+_G.pg.base.gametip.help_equipment = {
 	tip = {
 		{
 			info = [[
@@ -6040,7 +6040,7 @@ _G.pg.gametip.help_equipment = {
 	}
 }
 
-_G.pg.gametip.help_equipment_skin = {
+_G.pg.base.gametip.help_equipment_skin = {
 	tip = {
 		{
 			info = [[
@@ -6053,7 +6053,7 @@ _G.pg.gametip.help_equipment_skin = {
 	}
 }
 
-_G.pg.gametip.help_daily_task = {
+_G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
@@ -6121,7 +6121,7 @@ _G.pg.gametip.help_daily_task = {
 	}
 }
 
-_G.pg.gametip.help_build = {
+_G.pg.base.gametip.help_build = {
 	tip = [[
 					   <size=25>$1建造概率分布</size>
 
@@ -6131,7 +6131,7 @@ _G.pg.gametip.help_build = {
 							 普通舰船：$5%]]
 }
 
-_G.pg.gametip.help_build_1 = {
+_G.pg.base.gametip.help_build_1 = {
 	tip = [[
 					   <size=25>$1建造概率分布</size>
 
@@ -6141,7 +6141,7 @@ _G.pg.gametip.help_build_1 = {
 							 普通舰船：$5%]]
 }
 
-_G.pg.gametip.help_build_2 = {
+_G.pg.base.gametip.help_build_2 = {
 	tip = [[
 					   <size=25>$1建造概率分布</size>
 
@@ -6151,7 +6151,7 @@ _G.pg.gametip.help_build_2 = {
 							 普通舰船：$5%]]
 }
 
-_G.pg.gametip.help_build_4 = {
+_G.pg.base.gametip.help_build_4 = {
 	tip = [[
 <size=19>							<color=#ffde38>超稀有舰船</color>：$2%
 							 <color=#d797ff>精锐舰船</color>：$3%
@@ -6164,7 +6164,7 @@ _G.pg.gametip.help_build_4 = {
 						<color=#d797ff>       乌璐露</color>：2.5%<color=#92fc63>(up!)</color></size>]]
 }
 
-_G.pg.gametip.help_build_5 = {
+_G.pg.base.gametip.help_build_5 = {
 	tip = [[
 <size=19>							<color=#ffde38>超稀有舰船</color>：$2%
 							 <color=#d797ff>精锐舰船</color>：$3%
@@ -6177,7 +6177,7 @@ _G.pg.gametip.help_build_5 = {
 			<color=#d797ff>诺瓦露　</color>：3.15%<color=#92fc63FF>(up!)</color>     <color=#d797ff>布兰　　</color>：1.05%</size>]]
 }
 
-_G.pg.gametip.help_shipinfo_hunting = {
+_G.pg.base.gametip.help_shipinfo_hunting = {
 	tip = {
 		{
 			info = [[
@@ -6200,231 +6200,231 @@ _G.pg.gametip.help_shipinfo_hunting = {
 	}
 }
 
-_G.pg.gametip.shop_extendship_success = {
+_G.pg.base.gametip.shop_extendship_success = {
 	tip = "ドック拡張成功"
 }
 
-_G.pg.gametip.shop_extendequip_success = {
+_G.pg.base.gametip.shop_extendequip_success = {
 	tip = "倉庫拡張成功"
 }
 
-_G.pg.gametip.naval_academy_res_desc_cateen = {
+_G.pg.base.gametip.naval_academy_res_desc_cateen = {
 	tip = "みんながワイワイ盛り上げる食堂。増築で<color=#92fc63>燃料の入手量</color>と<color=#92fc63>備蓄上限</color>UP！"
 }
 
-_G.pg.gametip.naval_academy_res_desc_shop = {
+_G.pg.base.gametip.naval_academy_res_desc_shop = {
 	tip = "海軍学園の売店。増築で<color=#92fc63>資金の入手量</color>と<color=#92fc63>備蓄上限</color>UP！"
 }
 
-_G.pg.gametip.naval_academy_res_desc_class = {
+_G.pg.base.gametip.naval_academy_res_desc_class = {
 	tip = "学園の大講堂。LvUPすると、<color=#92fc63>経験値生成上限、熟練度上限</color>、<color=#92fc63>熟練度入手効率</color>などを上昇可能"
 }
 
-_G.pg.gametip.number_1 = {
+_G.pg.base.gametip.number_1 = {
 	tip = "一"
 }
 
-_G.pg.gametip.number_2 = {
+_G.pg.base.gametip.number_2 = {
 	tip = "二"
 }
 
-_G.pg.gametip.number_3 = {
+_G.pg.base.gametip.number_3 = {
 	tip = "三"
 }
 
-_G.pg.gametip.number_4 = {
+_G.pg.base.gametip.number_4 = {
 	tip = "四"
 }
 
-_G.pg.gametip.number_5 = {
+_G.pg.base.gametip.number_5 = {
 	tip = "五"
 }
 
-_G.pg.gametip.number_6 = {
+_G.pg.base.gametip.number_6 = {
 	tip = "六"
 }
 
-_G.pg.gametip.number_7 = {
+_G.pg.base.gametip.number_7 = {
 	tip = "七"
 }
 
-_G.pg.gametip.number_8 = {
+_G.pg.base.gametip.number_8 = {
 	tip = "八"
 }
 
-_G.pg.gametip.number_9 = {
+_G.pg.base.gametip.number_9 = {
 	tip = "九"
 }
 
-_G.pg.gametip.number_10 = {
+_G.pg.base.gametip.number_10 = {
 	tip = "十"
 }
 
-_G.pg.gametip.military_shop_no_open_tip = {
+_G.pg.base.gametip.military_shop_no_open_tip = {
 	tip = "<color=#92fc63>特別補給</color>は指揮官Lv<color=#92fc63>15</color>で開放"
 }
 
-_G.pg.gametip.switch_to_shop_tip_1 = {
+_G.pg.base.gametip.switch_to_shop_tip_1 = {
 	tip = "材料が不足しています。ショップで購入しますか？"
 }
 
-_G.pg.gametip.switch_to_shop_tip_2 = {
+_G.pg.base.gametip.switch_to_shop_tip_2 = {
 	tip = "$1が不足しています。ショップで購入しますか？"
 }
 
-_G.pg.gametip.switch_to_shop_tip_3 = {
+_G.pg.base.gametip.switch_to_shop_tip_3 = {
 	tip = "$1が不足しています。購入しますか？"
 }
 
-_G.pg.gametip.switch_to_shop_tip_noPos = {
+_G.pg.base.gametip.switch_to_shop_tip_noPos = {
 	tip = "倉庫が一杯です。不要な装備を廃棄して倉庫を整理するか、所持枠拡張をお願いします"
 }
 
-_G.pg.gametip.text_noPos_clear = {
+_G.pg.base.gametip.text_noPos_clear = {
 	tip = "整理"
 }
 
-_G.pg.gametip.text_noPos_buy = {
+_G.pg.base.gametip.text_noPos_buy = {
 	tip = "拡張"
 }
 
-_G.pg.gametip.text_noPos_intensify = {
+_G.pg.base.gametip.text_noPos_intensify = {
 	tip = "強化"
 }
 
-_G.pg.gametip.switch_to_shop_tip_noDockyard = {
+_G.pg.base.gametip.switch_to_shop_tip_noDockyard = {
 	tip = "ドックが一杯です。艦を退役するか、所持枠拡張をお願いします"
 }
 
-_G.pg.gametip.commission_no_open = {
+_G.pg.base.gametip.commission_no_open = {
 	tip = "未開放"
 }
 
-_G.pg.gametip.commission_open_tip = {
+_G.pg.base.gametip.commission_open_tip = {
 	tip = "$1章クリアで開放"
 }
 
-_G.pg.gametip.commission_idle = {
+_G.pg.base.gametip.commission_idle = {
 	tip = "待機枠"
 }
 
-_G.pg.gametip.commission_urgency = {
+_G.pg.base.gametip.commission_urgency = {
 	tip = "緊急委託:"
 }
 
-_G.pg.gametip.commission_normal = {
+_G.pg.base.gametip.commission_normal = {
 	tip = "軍事委託:"
 }
 
-_G.pg.gametip.commission_get_award = {
+_G.pg.base.gametip.commission_get_award = {
 	tip = "資源入手:$1 x $2"
 }
 
-_G.pg.gametip.activity_build_end_tip = {
+_G.pg.base.gametip.activity_build_end_tip = {
 	tip = "建造"
 }
 
-_G.pg.gametip.event_over_time_expired = {
+_G.pg.base.gametip.event_over_time_expired = {
 	tip = "委託請負可能時間が過ぎました"
 }
 
-_G.pg.gametip.mail_sender_default = {
+_G.pg.base.gametip.mail_sender_default = {
 	tip = "司令部"
 }
 
-_G.pg.gametip.exchangecode_title = {
+_G.pg.base.gametip.exchangecode_title = {
 	tip = "シリアル入力"
 }
 
-_G.pg.gametip.exchangecode_use_placeholder = {
+_G.pg.base.gametip.exchangecode_use_placeholder = {
 	tip = "英数のみ入力できます"
 }
 
-_G.pg.gametip.exchangecode_use_ok = {
+_G.pg.base.gametip.exchangecode_use_ok = {
 	tip = "シリアルコード入力成功。特典はメールボックスに送られました"
 }
 
-_G.pg.gametip.exchangecode_use_error = {
+_G.pg.base.gametip.exchangecode_use_error = {
 	tip = "エラー："
 }
 
-_G.pg.gametip.exchangecode_use_error_3 = {
+_G.pg.base.gametip.exchangecode_use_error_3 = {
 	tip = "無効なシリアルコードです"
 }
 
-_G.pg.gametip.exchangecode_use_error_6 = {
+_G.pg.base.gametip.exchangecode_use_error_6 = {
 	tip = "使用済のシリアルコードです"
 }
 
-_G.pg.gametip.exchangecode_use_error_7 = {
+_G.pg.base.gametip.exchangecode_use_error_7 = {
 	tip = "使用済のシリアルコードです"
 }
 
-_G.pg.gametip.exchangecode_use_error_8 = {
+_G.pg.base.gametip.exchangecode_use_error_8 = {
 	tip = "無効なシリアルコードです"
 }
 
-_G.pg.gametip.exchangecode_use_error_9 = {
+_G.pg.base.gametip.exchangecode_use_error_9 = {
 	tip = "無効なシリアルコードです"
 }
 
-_G.pg.gametip.exchangecode_use_error_16 = {
+_G.pg.base.gametip.exchangecode_use_error_16 = {
 	tip = "使用済のシリアルコードです"
 }
 
-_G.pg.gametip.exchangecode_use_error_20 = {
+_G.pg.base.gametip.exchangecode_use_error_20 = {
 	tip = "無効なシリアルコードです"
 }
 
-_G.pg.gametip.text_noRes_tip = {
+_G.pg.base.gametip.text_noRes_tip = {
 	tip = "$1が必要です"
 }
 
-_G.pg.gametip.text_noRes_info_tip = {
+_G.pg.base.gametip.text_noRes_info_tip = {
 	tip = "<color=#ff5c5c>$2$1</color>"
 }
 
-_G.pg.gametip.text_noRes_info_tip_link = {
+_G.pg.base.gametip.text_noRes_info_tip_link = {
 	tip = "と"
 }
 
-_G.pg.gametip.text_noRes_info_tip2 = {
+_G.pg.base.gametip.text_noRes_info_tip2 = {
 	tip = "<color=#ff5c5c>$2</color>の<color=#ff5c5c>$1</color>"
 }
 
-_G.pg.gametip.text_shop_noRes_tip = {
+_G.pg.base.gametip.text_shop_noRes_tip = {
 	tip = "指揮官、まだ$1が必要だにゃ！"
 }
 
-_G.pg.gametip.text_shop_enoughRes_tip = {
+_G.pg.base.gametip.text_shop_enoughRes_tip = {
 	tip = "指揮官の物資は全部補充してあげたにゃ！"
 }
 
-_G.pg.gametip.text_buy_fashion_tip = {
+_G.pg.base.gametip.text_buy_fashion_tip = {
 	tip = "$1ダイヤで$2を購入しますか？"
 }
 
-_G.pg.gametip.equip_part_title = {
+_G.pg.base.gametip.equip_part_title = {
 	tip = "適用"
 }
 
-_G.pg.gametip.equip_part_main_title = {
+_G.pg.base.gametip.equip_part_main_title = {
 	tip = "適用(主砲)"
 }
 
-_G.pg.gametip.equip_part_sub_title = {
+_G.pg.base.gametip.equip_part_sub_title = {
 	tip = "適用(副砲)"
 }
 
-_G.pg.gametip.equipment_upgrade_overlimit = {
+_G.pg.base.gametip.equipment_upgrade_overlimit = {
 	tip = "これ以上強化できません"
 }
 
-_G.pg.gametip.err_name_existOtherChar = {
+_G.pg.base.gametip.err_name_existOtherChar = {
 	tip = "日本語、英数以外の文字が含まれています"
 }
 
-_G.pg.gametip.help_battle_rule = {
+_G.pg.base.gametip.help_battle_rule = {
 	tip = {
 		{
 			icon = {
@@ -6474,7 +6474,7 @@ _G.pg.gametip.help_battle_rule = {
 	}
 }
 
-_G.pg.gametip.help_battle_warspite = {
+_G.pg.base.gametip.help_battle_warspite = {
 	tip = {
 		{
 			icon = {
@@ -6500,7 +6500,7 @@ _G.pg.gametip.help_battle_warspite = {
 	}
 }
 
-_G.pg.gametip.help_battle_defense = {
+_G.pg.base.gametip.help_battle_defense = {
 	tip = {
 		{
 			icon = {
@@ -6556,35 +6556,35 @@ _G.pg.gametip.help_battle_defense = {
 	}
 }
 
-_G.pg.gametip.backyard_theme_set_tip = {
+_G.pg.base.gametip.backyard_theme_set_tip = {
 	tip = "<color=#92fc63>$1</color>への操作を選択してください"
 }
 
-_G.pg.gametip.backyard_theme_save_tip = {
+_G.pg.base.gametip.backyard_theme_save_tip = {
 	tip = "寮舎配置を保存しますか？:\n<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.backyard_theme_defaultname = {
+_G.pg.base.gametip.backyard_theme_defaultname = {
 	tip = "マイセット"
 }
 
-_G.pg.gametip.backyard_rename_success = {
+_G.pg.base.gametip.backyard_rename_success = {
 	tip = "寮舎名前変更成功"
 }
 
-_G.pg.gametip.ship_set_skin_success = {
+_G.pg.base.gametip.ship_set_skin_success = {
 	tip = "衣装変更成功"
 }
 
-_G.pg.gametip.ship_set_skin_error = {
+_G.pg.base.gametip.ship_set_skin_error = {
 	tip = "衣装変更失敗:"
 }
 
-_G.pg.gametip.equip_part_tip = {
+_G.pg.base.gametip.equip_part_tip = {
 	tip = "*装備できる艦を確認"
 }
 
-_G.pg.gametip.help_battle_auto = {
+_G.pg.base.gametip.help_battle_auto = {
 	tip = {
 		{
 			line = true,
@@ -6611,19 +6611,19 @@ _G.pg.gametip.help_battle_auto = {
 	}
 }
 
-_G.pg.gametip.gold_buy_tip = {
+_G.pg.base.gametip.gold_buy_tip = {
 	tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>100</color></size>で <size=30><color=#92fc63>3000</color></size><size=30> 資金を購入する</size>"
 }
 
-_G.pg.gametip.oil_buy_tip = {
+_G.pg.base.gametip.oil_buy_tip = {
 	tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>で  <size=30><color=#92fc63>$2</color></size><size=30> 燃料を購入する</size><size=2>\n\n</size><size=30>( 本日購入 <size=30><color=#FF0000>$3</color></size> 回 )</size>"
 }
 
-_G.pg.gametip.text_iknow = {
+_G.pg.base.gametip.text_iknow = {
 	tip = "了解"
 }
 
-_G.pg.gametip.help_oil_buy_limit = {
+_G.pg.base.gametip.help_oil_buy_limit = {
 	tip = {
 		{
 			line = true,
@@ -6647,51 +6647,51 @@ _G.pg.gametip.help_oil_buy_limit = {
 	}
 }
 
-_G.pg.gametip.text_nofood_yes = {
+_G.pg.base.gametip.text_nofood_yes = {
 	tip = "食糧補充"
 }
 
-_G.pg.gametip.text_nofood_no = {
+_G.pg.base.gametip.text_nofood_no = {
 	tip = "無視する"
 }
 
-_G.pg.gametip.tip_add_task = {
+_G.pg.base.gametip.tip_add_task = {
 	tip = "新しい任務：$1"
 }
 
-_G.pg.gametip.collection_award_ship = {
+_G.pg.base.gametip.collection_award_ship = {
 	tip = "$1開発完了！建造ラインナップに追加されました"
 }
 
-_G.pg.gametip.guild_create_sucess = {
+_G.pg.base.gametip.guild_create_sucess = {
 	tip = "大艦隊結成成功"
 }
 
-_G.pg.gametip.guild_create_error = {
+_G.pg.base.gametip.guild_create_error = {
 	tip = "大艦隊結成失敗"
 }
 
-_G.pg.gametip.guild_create_error_noname = {
+_G.pg.base.gametip.guild_create_error_noname = {
 	tip = "大艦隊名前が必要です"
 }
 
-_G.pg.gametip.guild_create_error_nofaction = {
+_G.pg.base.gametip.guild_create_error_nofaction = {
 	tip = "大艦隊陣営が必要です"
 }
 
-_G.pg.gametip.guild_create_error_nopolicy = {
+_G.pg.base.gametip.guild_create_error_nopolicy = {
 	tip = "大艦隊方針が必要です"
 }
 
-_G.pg.gametip.guild_create_error_nomanifesto = {
+_G.pg.base.gametip.guild_create_error_nomanifesto = {
 	tip = "大艦隊メッセージが必要です"
 }
 
-_G.pg.gametip.guild_create_error_nomoney = {
+_G.pg.base.gametip.guild_create_error_nomoney = {
 	tip = "ダイヤが足りません"
 }
 
-_G.pg.gametip.guild_tip_dissolve = {
+_G.pg.base.gametip.guild_tip_dissolve = {
 	tip = [[
 大艦隊が解散されると、大艦隊資金＆大艦隊兵站上限、大艦隊作戦未受領の報酬が消失します。
 大艦隊を解散しますか？
@@ -6699,603 +6699,603 @@ _G.pg.gametip.guild_tip_dissolve = {
 ※個人の貢献Ptは影響されません。]]
 }
 
-_G.pg.gametip.guild_tip_quit = {
+_G.pg.base.gametip.guild_tip_quit = {
 	tip = "大艦隊から脱退しますか？"
 }
 
-_G.pg.gametip.guild_create_confirm = {
+_G.pg.base.gametip.guild_create_confirm = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>$1で大艦隊を結成しますか？"
 }
 
-_G.pg.gametip.guild_apply_erro = {
+_G.pg.base.gametip.guild_apply_erro = {
 	tip = "参加申請に失敗しました"
 }
 
-_G.pg.gametip.guild_dissolve_erro = {
+_G.pg.base.gametip.guild_dissolve_erro = {
 	tip = "解散に失敗しました"
 }
 
-_G.pg.gametip.guild_fire_erro = {
+_G.pg.base.gametip.guild_fire_erro = {
 	tip = "メンバー除名に失敗しました"
 }
 
-_G.pg.gametip.guild_impeach_erro = {
+_G.pg.base.gametip.guild_impeach_erro = {
 	tip = "弾劾に失敗しました"
 }
 
-_G.pg.gametip.guild_quit_erro = {
+_G.pg.base.gametip.guild_quit_erro = {
 	tip = "脱退に失敗しました"
 }
 
-_G.pg.gametip.guild_accept_erro = {
+_G.pg.base.gametip.guild_accept_erro = {
 	tip = "申請承認に失敗しました"
 }
 
-_G.pg.gametip.guild_reject_erro = {
+_G.pg.base.gametip.guild_reject_erro = {
 	tip = "申請拒否に失敗しました"
 }
 
-_G.pg.gametip.guild_modify_erro = {
+_G.pg.base.gametip.guild_modify_erro = {
 	tip = "情報変更に失敗しました"
 }
 
-_G.pg.gametip.guild_setduty_erro = {
+_G.pg.base.gametip.guild_setduty_erro = {
 	tip = "役職設定に失敗しました"
 }
 
-_G.pg.gametip.guild_apply_sucess = {
+_G.pg.base.gametip.guild_apply_sucess = {
 	tip = "申請しました"
 }
 
-_G.pg.gametip.guild_no_exist = {
+_G.pg.base.gametip.guild_no_exist = {
 	tip = "大艦隊は存在しません"
 }
 
-_G.pg.gametip.guild_dissolve_sucess = {
+_G.pg.base.gametip.guild_dissolve_sucess = {
 	tip = "解散しました"
 }
 
-_G.pg.gametip.guild_commder_in_impeach_time = {
+_G.pg.base.gametip.guild_commder_in_impeach_time = {
 	tip = "大艦隊司令は弾劾されています"
 }
 
-_G.pg.gametip.guild_impeach_sucess = {
+_G.pg.base.gametip.guild_impeach_sucess = {
 	tip = "弾劾しました"
 }
 
-_G.pg.gametip.guild_quit_sucess = {
+_G.pg.base.gametip.guild_quit_sucess = {
 	tip = "脱退しました"
 }
 
-_G.pg.gametip.guild_member_max_count = {
+_G.pg.base.gametip.guild_member_max_count = {
 	tip = "メンバー数は上限になっています"
 }
 
-_G.pg.gametip.guild_new_member_join = {
+_G.pg.base.gametip.guild_new_member_join = {
 	tip = "新メンバーが参加しました"
 }
 
-_G.pg.gametip.guild_player_in_cd_time = {
+_G.pg.base.gametip.guild_player_in_cd_time = {
 	tip = "大艦隊脱退から24時間以内では参加できません"
 }
 
-_G.pg.gametip.guild_player_already_join = {
+_G.pg.base.gametip.guild_player_already_join = {
 	tip = "既に大艦隊メンバーです"
 }
 
-_G.pg.gametip.guild_rejecet_apply_sucess = {
+_G.pg.base.gametip.guild_rejecet_apply_sucess = {
 	tip = "申請を拒否しました"
 }
 
-_G.pg.gametip.guild_should_input_keyword = {
+_G.pg.base.gametip.guild_should_input_keyword = {
 	tip = "キーワードが入力されていません"
 }
 
-_G.pg.gametip.guild_search_sucess = {
+_G.pg.base.gametip.guild_search_sucess = {
 	tip = "検索完了"
 }
 
-_G.pg.gametip.guild_list_refresh_sucess = {
+_G.pg.base.gametip.guild_list_refresh_sucess = {
 	tip = "検索結果が更新されました"
 }
 
-_G.pg.gametip.guild_info_update = {
+_G.pg.base.gametip.guild_info_update = {
 	tip = "情報が更新されました"
 }
 
-_G.pg.gametip.guild_duty_id_is_null = {
+_G.pg.base.gametip.guild_duty_id_is_null = {
 	tip = "役職を設定する必要があります"
 }
 
-_G.pg.gametip.guild_player_is_null = {
+_G.pg.base.gametip.guild_player_is_null = {
 	tip = "メンバーを選択する必要があります"
 }
 
-_G.pg.gametip.guild_duty_commder_max_count = {
+_G.pg.base.gametip.guild_duty_commder_max_count = {
 	tip = "副司令人数は上限になっています"
 }
 
-_G.pg.gametip.guild_set_duty_sucess = {
+_G.pg.base.gametip.guild_set_duty_sucess = {
 	tip = "役職を設定しました"
 }
 
-_G.pg.gametip.guild_policy_power = {
+_G.pg.base.gametip.guild_policy_power = {
 	tip = "がっつり"
 }
 
-_G.pg.gametip.guild_policy_relax = {
+_G.pg.base.gametip.guild_policy_relax = {
 	tip = "まったり"
 }
 
-_G.pg.gametip.guild_faction_blhx = {
+_G.pg.base.gametip.guild_faction_blhx = {
 	tip = "アズールレーン"
 }
 
-_G.pg.gametip.guild_faction_cszz = {
+_G.pg.base.gametip.guild_faction_cszz = {
 	tip = "レッドアクシズ"
 }
 
-_G.pg.gametip.guild_faction_unknown = {
+_G.pg.base.gametip.guild_faction_unknown = {
 	tip = "????"
 }
 
-_G.pg.gametip.guild_faction_meta = {
+_G.pg.base.gametip.guild_faction_meta = {
 	tip = "META"
 }
 
-_G.pg.gametip.guild_word_commder = {
+_G.pg.base.gametip.guild_word_commder = {
 	tip = "司令"
 }
 
-_G.pg.gametip.guild_word_deputy_commder = {
+_G.pg.base.gametip.guild_word_deputy_commder = {
 	tip = "副司令"
 }
 
-_G.pg.gametip.guild_word_picked = {
+_G.pg.base.gametip.guild_word_picked = {
 	tip = "主力"
 }
 
-_G.pg.gametip.guild_word_ordinary = {
+_G.pg.base.gametip.guild_word_ordinary = {
 	tip = "一般"
 }
 
-_G.pg.gametip.guild_word_home = {
+_G.pg.base.gametip.guild_word_home = {
 	tip = "トップ"
 }
 
-_G.pg.gametip.guild_word_member = {
+_G.pg.base.gametip.guild_word_member = {
 	tip = "メンバー"
 }
 
-_G.pg.gametip.guild_word_apply = {
+_G.pg.base.gametip.guild_word_apply = {
 	tip = "申請"
 }
 
-_G.pg.gametip.guild_faction_change_tip = {
+_G.pg.base.gametip.guild_faction_change_tip = {
 	tip = "所属陣営を変更すると、30日間再度変更できなくなりますが、本当に変更しますか？"
 }
 
-_G.pg.gametip.guild_msg_is_null = {
+_G.pg.base.gametip.guild_msg_is_null = {
 	tip = "空メッセージは送信できません。"
 }
 
-_G.pg.gametip.guild_log_new_guild_join = {
+_G.pg.base.gametip.guild_log_new_guild_join = {
 	tip = "新メンバー <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> が大艦隊に参加しました"
 }
 
-_G.pg.gametip.guild_log_duty_change = {
+_G.pg.base.gametip.guild_log_duty_change = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> の役職が $2に変更されました"
 }
 
-_G.pg.gametip.guild_log_quit = {
+_G.pg.base.gametip.guild_log_quit = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から脱退しました"
 }
 
-_G.pg.gametip.guild_log_fire = {
+_G.pg.base.gametip.guild_log_fire = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から除名されました"
 }
 
-_G.pg.gametip.guild_leave_cd_time = {
+_G.pg.base.gametip.guild_leave_cd_time = {
 	tip = "大艦隊から脱退すると、24時間は新たな大艦隊に参加できません"
 }
 
-_G.pg.gametip.guild_sort_time = {
+_G.pg.base.gametip.guild_sort_time = {
 	tip = "時間"
 }
 
-_G.pg.gametip.guild_sort_level = {
+_G.pg.base.gametip.guild_sort_level = {
 	tip = "練度"
 }
 
-_G.pg.gametip.guild_sort_duty = {
+_G.pg.base.gametip.guild_sort_duty = {
 	tip = "役職"
 }
 
-_G.pg.gametip.guild_fire_tip = {
+_G.pg.base.gametip.guild_fire_tip = {
 	tip = "このメンバーを除名しますか？"
 }
 
-_G.pg.gametip.guild_impeach_tip = {
+_G.pg.base.gametip.guild_impeach_tip = {
 	tip = "艦隊司令を弾劾しますか？"
 }
 
-_G.pg.gametip.guild_set_duty_title = {
+_G.pg.base.gametip.guild_set_duty_title = {
 	tip = "$1に任命する："
 }
 
-_G.pg.gametip.guild_search_list_max_count = {
+_G.pg.base.gametip.guild_search_list_max_count = {
 	tip = "$1件を表示"
 }
 
-_G.pg.gametip.guild_sort_all = {
+_G.pg.base.gametip.guild_sort_all = {
 	tip = "全部"
 }
 
-_G.pg.gametip.guild_sort_blhx = {
+_G.pg.base.gametip.guild_sort_blhx = {
 	tip = "アズールレーン"
 }
 
-_G.pg.gametip.guild_sort_cszz = {
+_G.pg.base.gametip.guild_sort_cszz = {
 	tip = "レッドアクシズ"
 }
 
-_G.pg.gametip.guild_sort_power = {
+_G.pg.base.gametip.guild_sort_power = {
 	tip = "がっつり"
 }
 
-_G.pg.gametip.guild_sort_relax = {
+_G.pg.base.gametip.guild_sort_relax = {
 	tip = "まったり"
 }
 
-_G.pg.gametip.guild_join_cd = {
+_G.pg.base.gametip.guild_join_cd = {
 	tip = "大艦隊から脱退すると、24時間は新たな大艦隊に参加できません"
 }
 
-_G.pg.gametip.guild_name_invaild = {
+_G.pg.base.gametip.guild_name_invaild = {
 	tip = "既に使われている名前です"
 }
 
-_G.pg.gametip.guild_apply_full = {
+_G.pg.base.gametip.guild_apply_full = {
 	tip = "申請者がいっぱいです"
 }
 
-_G.pg.gametip.guild_member_full = {
+_G.pg.base.gametip.guild_member_full = {
 	tip = "大艦隊が満杯です"
 }
 
-_G.pg.gametip.guild_fire_duty_limit = {
+_G.pg.base.gametip.guild_fire_duty_limit = {
 	tip = "役職が自分より上のメンバーを除名することができません"
 }
 
-_G.pg.gametip.guild_fire_succeed = {
+_G.pg.base.gametip.guild_fire_succeed = {
 	tip = "除名しました"
 }
 
-_G.pg.gametip.guild_duty_tip_1 = {
+_G.pg.base.gametip.guild_duty_tip_1 = {
 	tip = "<color=#7FAFFF>職務</color>"
 }
 
-_G.pg.gametip.guild_duty_tip_2 = {
+_G.pg.base.gametip.guild_duty_tip_2 = {
 	tip = "<color=#C3C3C3>任命不可</color>"
 }
 
-_G.pg.gametip.battle_repair_special_tip = {
+_G.pg.base.gametip.battle_repair_special_tip = {
 	tip = "<color=#92fc63>応急修理小隊</color>を使用しますか？"
 }
 
-_G.pg.gametip.battle_repair_normal_name = {
+_G.pg.base.gametip.battle_repair_normal_name = {
 	tip = "無料残り回数:"
 }
 
-_G.pg.gametip.battle_repair_special_name = {
+_G.pg.base.gametip.battle_repair_special_name = {
 	tip = "本日残り回数:"
 }
 
-_G.pg.gametip.oil_max_tip_title = {
+_G.pg.base.gametip.oil_max_tip_title = {
 	tip = "燃料が上限になっています"
 }
 
-_G.pg.gametip.gold_max_tip_title = {
+_G.pg.base.gametip.gold_max_tip_title = {
 	tip = "資金が上限になっています"
 }
 
-_G.pg.gametip.expbook_max_tip_title = {
+_G.pg.base.gametip.expbook_max_tip_title = {
 	tip = "経験値パックが上限になっています"
 }
 
-_G.pg.gametip.resource_max_tip_shop = {
+_G.pg.base.gametip.resource_max_tip_shop = {
 	tip = "資源を購入できません"
 }
 
-_G.pg.gametip.resource_max_tip_event = {
+_G.pg.base.gametip.resource_max_tip_event = {
 	tip = "委託報酬を受け取ることができません"
 }
 
-_G.pg.gametip.resource_max_tip_battle = {
+_G.pg.base.gametip.resource_max_tip_battle = {
 	tip = "出撃すると資源は入手できません。本当に出撃しますか？"
 }
 
-_G.pg.gametip.resource_max_tip_collect = {
+_G.pg.base.gametip.resource_max_tip_collect = {
 	tip = "報酬を受け取ることができません"
 }
 
-_G.pg.gametip.resource_max_tip_mail = {
+_G.pg.base.gametip.resource_max_tip_mail = {
 	tip = "メールを受取ることができません"
 }
 
-_G.pg.gametip.resource_max_tip_eventstart = {
+_G.pg.base.gametip.resource_max_tip_eventstart = {
 	tip = "委託を請負うことができません"
 }
 
-_G.pg.gametip.resource_max_tip_destroy = {
+_G.pg.base.gametip.resource_max_tip_destroy = {
 	tip = "装備を廃棄することができません"
 }
 
-_G.pg.gametip.resource_max_tip_retire = {
+_G.pg.base.gametip.resource_max_tip_retire = {
 	tip = "退役させることができません"
 }
 
-_G.pg.gametip.resource_max_tip_retire_1 = {
+_G.pg.base.gametip.resource_max_tip_retire_1 = {
 	tip = "これ以上燃料を入手できません。退役を続けますか？"
 }
 
-_G.pg.gametip.new_version_tip = {
+_G.pg.base.gametip.new_version_tip = {
 	tip = "アプリが更新されました。最新データのダウンロードを行うため、アプリを再起動します。"
 }
 
-_G.pg.gametip.guild_request_msg_title = {
+_G.pg.base.gametip.guild_request_msg_title = {
 	tip = "申請内容入力"
 }
 
-_G.pg.gametip.guild_request_msg_placeholder = {
+_G.pg.base.gametip.guild_request_msg_placeholder = {
 	tip = "申請を送信しました"
 }
 
-_G.pg.gametip.ship_upgrade_unequip_tip = {
+_G.pg.base.gametip.ship_upgrade_unequip_tip = {
 	tip = "<color=$2>$1</color>に装備されている装備は外されます。続けますか？"
 }
 
-_G.pg.gametip.destination_can_not_reach = {
+_G.pg.base.gametip.destination_can_not_reach = {
 	tip = "目標海域には辿り着けません"
 }
 
-_G.pg.gametip.destination_can_not_reach_safety = {
+_G.pg.base.gametip.destination_can_not_reach_safety = {
 	tip = "目標海域には辿り着けません：途中接敵のため"
 }
 
-_G.pg.gametip.destination_not_in_range = {
+_G.pg.base.gametip.destination_not_in_range = {
 	tip = "目標海域にはたどり着けません：移動可能範囲外"
 }
 
-_G.pg.gametip.level_ammo_enough = {
+_G.pg.base.gametip.level_ammo_enough = {
 	tip = "弾薬が満タンです！"
 }
 
-_G.pg.gametip.level_ammo_supply = {
+_G.pg.base.gametip.level_ammo_supply = {
 	tip = "弾薬が$1補充されました。補給ポイント残り$2/3"
 }
 
-_G.pg.gametip.level_ammo_empty = {
+_G.pg.base.gametip.level_ammo_empty = {
 	tip = "弾薬が$1補充されました。補給ポイントが消滅しました"
 }
 
-_G.pg.gametip.level_ammo_supply_p1 = {
+_G.pg.base.gametip.level_ammo_supply_p1 = {
 	tip = "弾薬が$1補充されました"
 }
 
-_G.pg.gametip.level_flare_supply = {
+_G.pg.base.gametip.level_flare_supply = {
 	tip = "照明弾補給を入手しました。入手艦隊は今後$1回の戦闘中照明弾支援が行われます"
 }
 
-_G.pg.gametip.chat_level_not_enough = {
+_G.pg.base.gametip.chat_level_not_enough = {
 	tip = "指揮官Lv$1以上で発言できるようになります"
 }
 
-_G.pg.gametip.chat_msg_inform = {
+_G.pg.base.gametip.chat_msg_inform = {
 	tip = "運営に通報しました"
 }
 
-_G.pg.gametip.chat_msg_ban = {
+_G.pg.base.gametip.chat_msg_ban = {
 	tip = "不適切な発言により利用が制限されています。\n\n制限解除：$1"
 }
 
-_G.pg.gametip.month_card_set_ratio_success = {
+_G.pg.base.gametip.month_card_set_ratio_success = {
 	tip = "資源上限割合を変更しました"
 }
 
-_G.pg.gametip.month_card_set_ratio_not_change = {
+_G.pg.base.gametip.month_card_set_ratio_not_change = {
 	tip = "既にこの割合に修正されています"
 }
 
-_G.pg.gametip.charge_ship_bag_max = {
+_G.pg.base.gametip.charge_ship_bag_max = {
 	tip = "現在はこれ以上拡張できません"
 }
 
-_G.pg.gametip.charge_equip_bag_max = {
+_G.pg.base.gametip.charge_equip_bag_max = {
 	tip = "現在はこれ以上拡張できません"
 }
 
-_G.pg.gametip.login_wait_tip = {
+_G.pg.base.gametip.login_wait_tip = {
 	tip = "同時接続数が最大になっています。\n（接続待ち:$1人）"
 }
 
-_G.pg.gametip.ship_equip_exchange_tip = {
+_G.pg.base.gametip.ship_equip_exchange_tip = {
 	tip = "<color=#92fc63>$1</color>に装備されている<color=#92fc63>$2</color>を<color=#92fc63>$3</color>に装備しますか？"
 }
 
-_G.pg.gametip.ship_rename_success = {
+_G.pg.base.gametip.ship_rename_success = {
 	tip = "変更しました！"
 }
 
-_G.pg.gametip.formation_chapter_lock = {
+_G.pg.base.gametip.formation_chapter_lock = {
 	tip = "$1章クリアで第$2艦隊開放"
 }
 
-_G.pg.gametip.elite_disable_unsatisfied = {
+_G.pg.base.gametip.elite_disable_unsatisfied = {
 	tip = "この章の全ステージが☆3達成必須です"
 }
 
-_G.pg.gametip.elite_disable_ship_escort = {
+_G.pg.base.gametip.elite_disable_ship_escort = {
 	tip = "委託に出かけている艦があります！"
 }
 
-_G.pg.gametip.elite_disable_formation_unsatisfied = {
+_G.pg.base.gametip.elite_disable_formation_unsatisfied = {
 	tip = "編成条件に満たしていません"
 }
 
-_G.pg.gametip.elite_disable_no_fleet = {
+_G.pg.base.gametip.elite_disable_no_fleet = {
 	tip = "行動可能な艦隊がありません"
 }
 
-_G.pg.gametip.elite_disable_property_unsatisfied = {
+_G.pg.base.gametip.elite_disable_property_unsatisfied = {
 	tip = "出撃条件に満たしていません"
 }
 
-_G.pg.gametip.elite_disable_unusable = {
+_G.pg.base.gametip.elite_disable_unusable = {
 	tip = "この章のハードモードはまだ開放されていません"
 }
 
-_G.pg.gametip.elite_warp_to_latest_map = {
+_G.pg.base.gametip.elite_warp_to_latest_map = {
 	tip = "最新章に切り替えました"
 }
 
-_G.pg.gametip.elite_fleet_confirm = {
+_G.pg.base.gametip.elite_fleet_confirm = {
 	tip = "$1が出撃条件に<color=#ff5c5c>満たしていません</color>ため、戦闘に参加できませんが、本当に出撃しますか？"
 }
 
-_G.pg.gametip.elite_condition_level = {
+_G.pg.base.gametip.elite_condition_level = {
 	tip = "平均練度"
 }
 
-_G.pg.gametip.elite_condition_durability = {
+_G.pg.base.gametip.elite_condition_durability = {
 	tip = "耐久合計"
 }
 
-_G.pg.gametip.elite_condition_cannon = {
+_G.pg.base.gametip.elite_condition_cannon = {
 	tip = "火力合計"
 }
 
-_G.pg.gametip.elite_condition_torpedo = {
+_G.pg.base.gametip.elite_condition_torpedo = {
 	tip = "雷撃合計"
 }
 
-_G.pg.gametip.elite_condition_antiaircraft = {
+_G.pg.base.gametip.elite_condition_antiaircraft = {
 	tip = "対空合計"
 }
 
-_G.pg.gametip.elite_condition_air = {
+_G.pg.base.gametip.elite_condition_air = {
 	tip = "航空合計"
 }
 
-_G.pg.gametip.elite_condition_antisub = {
+_G.pg.base.gametip.elite_condition_antisub = {
 	tip = "対潜合計"
 }
 
-_G.pg.gametip.elite_condition_dodge = {
+_G.pg.base.gametip.elite_condition_dodge = {
 	tip = "回避合計"
 }
 
-_G.pg.gametip.elite_condition_reload = {
+_G.pg.base.gametip.elite_condition_reload = {
 	tip = "装填合計"
 }
 
-_G.pg.gametip.elite_condition_fleet_totle_level = {
+_G.pg.base.gametip.elite_condition_fleet_totle_level = {
 	tip = "レベル合計が$1を超える艦隊"
 }
 
-_G.pg.gametip.common_compare_larger = {
+_G.pg.base.gametip.common_compare_larger = {
 	tip = ">"
 }
 
-_G.pg.gametip.common_compare_equal = {
+_G.pg.base.gametip.common_compare_equal = {
 	tip = "="
 }
 
-_G.pg.gametip.common_compare_smaller = {
+_G.pg.base.gametip.common_compare_smaller = {
 	tip = "<"
 }
 
-_G.pg.gametip.common_compare_not_less_than = {
+_G.pg.base.gametip.common_compare_not_less_than = {
 	tip = "≥"
 }
 
-_G.pg.gametip.common_compare_not_more_than = {
+_G.pg.base.gametip.common_compare_not_more_than = {
 	tip = "≤"
 }
 
-_G.pg.gametip.level_scene_formation_active_already = {
+_G.pg.base.gametip.level_scene_formation_active_already = {
 	tip = "陣形が変更されました"
 }
 
-_G.pg.gametip.level_scene_not_enough = {
+_G.pg.base.gametip.level_scene_not_enough = {
 	tip = "使用失敗:所持数不足"
 }
 
-_G.pg.gametip.level_scene_full_hp = {
+_G.pg.base.gametip.level_scene_full_hp = {
 	tip = "使用失敗:耐久が満タンです"
 }
 
-_G.pg.gametip.level_click_to_move = {
+_G.pg.base.gametip.level_click_to_move = {
 	tip = "移動先を選択してください"
 }
 
-_G.pg.gametip.common_hardmode = {
+_G.pg.base.gametip.common_hardmode = {
 	tip = "hard"
 }
 
-_G.pg.gametip.common_elite_no_quota = {
+_G.pg.base.gametip.common_elite_no_quota = {
 	tip = "今日はこれ以上出撃できません"
 }
 
-_G.pg.gametip.common_food = {
+_G.pg.base.gametip.common_food = {
 	tip = "食糧"
 }
 
-_G.pg.gametip.common_no_limit = {
+_G.pg.base.gametip.common_no_limit = {
 	tip = "無制限"
 }
 
-_G.pg.gametip.common_proficiency = {
+_G.pg.base.gametip.common_proficiency = {
 	tip = "補正"
 }
 
-_G.pg.gametip.backyard_food_remind = {
+_G.pg.base.gametip.backyard_food_remind = {
 	tip = "<color=yellow>$1</color>は食糧庫の上限までしか補充出来ません。本当に使用しますか?"
 }
 
-_G.pg.gametip.backyard_food_count = {
+_G.pg.base.gametip.backyard_food_count = {
 	tip = "食糧庫上限: $1"
 }
 
-_G.pg.gametip.sham_ship_level_limit = {
+_G.pg.base.gametip.sham_ship_level_limit = {
 	tip = "編成する艦のレベルが$1以上必要です"
 }
 
-_G.pg.gametip.sham_count_limit = {
+_G.pg.base.gametip.sham_count_limit = {
 	tip = "本日の「鏡面海域」掃討作戦は既に完了しました"
 }
 
-_G.pg.gametip.sham_count_reset = {
+_G.pg.base.gametip.sham_count_reset = {
 	tip = "「鏡面海域」掃討作戦は既に完了しました。戦況をリセット（1回/日）しますか？"
 }
 
-_G.pg.gametip.sham_team_limit = {
+_G.pg.base.gametip.sham_team_limit = {
 	tip = "主力艦隊と前衛艦隊それぞれ１隻以上が必要です"
 }
 
-_G.pg.gametip.sham_formation_invalid = {
+_G.pg.base.gametip.sham_formation_invalid = {
 	tip = "これ以上は艦隊を編成できません。出撃中の艦から艦隊を編成してください"
 }
 
-_G.pg.gametip.sham_my_assist_ship_level_limit = {
+_G.pg.base.gametip.sham_my_assist_ship_level_limit = {
 	tip = "出撃する艦のレベルが$1以上必要です"
 }
 
-_G.pg.gametip.sham_reset_confirm = {
+_G.pg.base.gametip.sham_reset_confirm = {
 	tip = "本日「鏡面海域」の掃討はまだ完了していません。戦況をリセットしますか？"
 }
 
-_G.pg.gametip.sham_battle_help_tip = {
+_G.pg.base.gametip.sham_battle_help_tip = {
 	tip = {
 		{
 			info = "                               「鏡面海域」作戦要件\n"
@@ -7316,139 +7316,139 @@ _G.pg.gametip.sham_battle_help_tip = {
 	}
 }
 
-_G.pg.gametip.sham_reset_err_limit = {
+_G.pg.base.gametip.sham_reset_err_limit = {
 	tip = "今日はこれ以上戦況をリセットできません"
 }
 
-_G.pg.gametip.sham_ship_equip_forbid_1 = {
+_G.pg.base.gametip.sham_ship_equip_forbid_1 = {
 	tip = "出撃メンバーは15名未満です。「鏡面海域」に出撃すると出撃メンバーを変更できなくなります。出撃しますか？"
 }
 
-_G.pg.gametip.sham_ship_equip_forbid_2 = {
+_G.pg.base.gametip.sham_ship_equip_forbid_2 = {
 	tip = "「鏡面海域」に出撃すると出撃メンバーを変更できず、また出撃メンバーの装備も変更できません。出撃しますか？"
 }
 
-_G.pg.gametip.sham_enter_error_friend_ship_expired = {
+_G.pg.base.gametip.sham_enter_error_friend_ship_expired = {
 	tip = "友達の秘書艦が変更されました。"
 }
 
-_G.pg.gametip.sham_can_not_change_ship = {
+_G.pg.base.gametip.sham_can_not_change_ship = {
 	tip = "「鏡面海域」に出撃中の艦は変更できません。"
 }
 
-_G.pg.gametip.sham_friend_ship_tip = {
+_G.pg.base.gametip.sham_friend_ship_tip = {
 	tip = "友達支援を選択していません。「鏡面海域」に出撃すると出撃メンバーを変更できなくなります。出撃しますか？"
 }
 
-_G.pg.gametip.inform_sueecss = {
+_G.pg.base.gametip.inform_sueecss = {
 	tip = "通報に成功しました"
 }
 
-_G.pg.gametip.inform_failed = {
+_G.pg.base.gametip.inform_failed = {
 	tip = "通報に失敗しました"
 }
 
-_G.pg.gametip.inform_player = {
+_G.pg.base.gametip.inform_player = {
 	tip = "ユーザー：$1　を通報します"
 }
 
-_G.pg.gametip.inform_select_type = {
+_G.pg.base.gametip.inform_select_type = {
 	tip = "通報内容を入力してください"
 }
 
-_G.pg.gametip.inform_chat_msg = {
+_G.pg.base.gametip.inform_chat_msg = {
 	tip = "空メッセージを送信できません"
 }
 
-_G.pg.gametip.inform_sueecss_tip = {
+_G.pg.base.gametip.inform_sueecss_tip = {
 	tip = "通報しました"
 }
 
-_G.pg.gametip.ship_remould_max_level = {
+_G.pg.base.gametip.ship_remould_max_level = {
 	tip = "改造が最大になっています"
 }
 
-_G.pg.gametip.ship_remould_material_ship_no_enough = {
+_G.pg.base.gametip.ship_remould_material_ship_no_enough = {
 	tip = "素材が不足しています"
 }
 
-_G.pg.gametip.ship_remould_material_ship_on_exist = {
+_G.pg.base.gametip.ship_remould_material_ship_on_exist = {
 	tip = "素材がありません"
 }
 
-_G.pg.gametip.ship_remould_material_unlock_skill = {
+_G.pg.base.gametip.ship_remould_material_unlock_skill = {
 	tip = "習得: <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.ship_remould_prev_lock = {
+_G.pg.base.gametip.ship_remould_prev_lock = {
 	tip = "改造不可"
 }
 
-_G.pg.gametip.ship_remould_need_level = {
+_G.pg.base.gametip.ship_remould_need_level = {
 	tip = "Lv.$1が必要"
 }
 
-_G.pg.gametip.ship_remould_need_star = {
+_G.pg.base.gametip.ship_remould_need_star = {
 	tip = "星$1が必要"
 }
 
-_G.pg.gametip.ship_remould_finished = {
+_G.pg.base.gametip.ship_remould_finished = {
 	tip = "改造済"
 }
 
-_G.pg.gametip.ship_remould_no_item = {
+_G.pg.base.gametip.ship_remould_no_item = {
 	tip = "アイテムが不足しています！"
 }
 
-_G.pg.gametip.ship_remould_no_gold = {
+_G.pg.base.gametip.ship_remould_no_gold = {
 	tip = "資源が不足しています"
 }
 
-_G.pg.gametip.ship_remould_no_material = {
+_G.pg.base.gametip.ship_remould_no_material = {
 	tip = "素材不足"
 }
 
-_G.pg.gametip.ship_remould_selecte_exceed = {
+_G.pg.base.gametip.ship_remould_selecte_exceed = {
 	tip = "1隻以上選択しています"
 }
 
-_G.pg.gametip.ship_remould_sueecss = {
+_G.pg.base.gametip.ship_remould_sueecss = {
 	tip = "改造に成功しました"
 }
 
-_G.pg.gametip.ship_remould_warning_102174 = {
+_G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "近代化改修は<color=#92fc63>輝く☆マイク</color>を消費します。\n続けますか？"
 }
 
-_G.pg.gametip.ship_remould_warning_102284 = {
+_G.pg.base.gametip.ship_remould_warning_102284 = {
 	tip = "改造を行うと、スキル<color=#92fc63>【レーダー探知】</color>は<color=#92fc63>【レーダー探知・改】</color>に強化されます"
 }
 
-_G.pg.gametip.ship_remould_warning_107984 = {
+_G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "近代化改修で<color=#92fc63>【戦闘機機数+1】、【攻撃機機数+1】</color>\n近代化改修を行いますか？"
 }
 
-_G.pg.gametip.ship_remould_warning_201514 = {
+_G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "改造後、「魚雷」砲座が-1、「対空砲」砲座が+1されます。改造を続けますか？"
 }
 
-_G.pg.gametip.ship_remould_warning_203114 = {
+_G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
-_G.pg.gametip.ship_remould_warning_205124 = {
+_G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "近代化改修は<color=#92fc63>戦士の心得</color>を消費します。\n続けますか？"
 }
 
-_G.pg.gametip.ship_remould_warning_301534 = {
+_G.pg.base.gametip.ship_remould_warning_301534 = {
 	tip = "改造でスキル<color=#92fc63>【ふわりんと仲間たちと】</color>が強化されます"
 }
 
-_G.pg.gametip.ship_remould_warning_301874 = {
+_G.pg.base.gametip.ship_remould_warning_301874 = {
 	tip = "改造は<color=#92fc63>ミート・パフューム</color>を消費します、改造を続けますか？\n改造すると、<color=#92fc63>【魚雷装填数-1】</color> <color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【ソロモンの悪夢】</color>が<color=#92fc63>【ソロモンの悪夢・改】</color>に変更、スキル<color=#92fc63>【特殊弾幕-夕立II】</color>が<color=#92fc63>【特殊弾幕-夕立III】</color>に変更"
 }
 
-_G.pg.gametip.ship_remould_warning_310014 = {
+_G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 <size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
@@ -7456,7 +7456,7 @@ _G.pg.gametip.ship_remould_warning_310014 = {
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
 }
 
-_G.pg.gametip.ship_remould_warning_310024 = {
+_G.pg.base.gametip.ship_remould_warning_310024 = {
 	tip = [[
 <size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
@@ -7464,7 +7464,7 @@ _G.pg.gametip.ship_remould_warning_310024 = {
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
 }
 
-_G.pg.gametip.ship_remould_warning_310034 = {
+_G.pg.base.gametip.ship_remould_warning_310034 = {
 	tip = [[
 <size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
@@ -7472,7 +7472,7 @@ _G.pg.gametip.ship_remould_warning_310034 = {
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
 }
 
-_G.pg.gametip.ship_remould_warning_310044 = {
+_G.pg.base.gametip.ship_remould_warning_310044 = {
 	tip = [[
 <size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
@@ -7480,19 +7480,19 @@ _G.pg.gametip.ship_remould_warning_310044 = {
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
 }
 
-_G.pg.gametip.ship_remould_warning_303154 = {
+_G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
-_G.pg.gametip.ship_remould_warning_402134 = {
+_G.pg.base.gametip.ship_remould_warning_402134 = {
 	tip = "<size=35>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
-_G.pg.gametip.ship_remould_warning_702124 = {
+_G.pg.base.gametip.ship_remould_warning_702124 = {
 	tip = "<size=35>改造で主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（駆逐用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
-_G.pg.gametip.ship_remould_warning_520014 = {
+_G.pg.base.gametip.ship_remould_warning_520014 = {
 	tip = [[
 改造を行うと艦種が下記のものになります：
 ミサイル駆逐艦（前衛艦隊配置モード）
@@ -7500,7 +7500,7 @@ _G.pg.gametip.ship_remould_warning_520014 = {
 改造を行いますか？]]
 }
 
-_G.pg.gametip.ship_remould_warning_521014 = {
+_G.pg.base.gametip.ship_remould_warning_521014 = {
 	tip = [[
 改造を行うと艦種が下記のものになります：
 ミサイル駆逐艦（主力艦隊配置モード）
@@ -7508,7 +7508,7 @@ _G.pg.gametip.ship_remould_warning_521014 = {
 改造を行いますか？]]
 }
 
-_G.pg.gametip.ship_remould_warning_520034 = {
+_G.pg.base.gametip.ship_remould_warning_520034 = {
 	tip = [[
 改造を行うと艦種が下記のものになります：
 ミサイル駆逐艦（前衛艦隊配置モード）
@@ -7516,7 +7516,7 @@ _G.pg.gametip.ship_remould_warning_520034 = {
 改造を行いますか？]]
 }
 
-_G.pg.gametip.ship_remould_warning_521034 = {
+_G.pg.base.gametip.ship_remould_warning_521034 = {
 	tip = [[
 改造を行うと艦種が下記のものになります：
 ミサイル駆逐艦（主力艦隊配置モード）
@@ -7524,443 +7524,443 @@ _G.pg.gametip.ship_remould_warning_521034 = {
 改造を行いますか？]]
 }
 
-_G.pg.gametip.word_soundfiles_download_title = {
+_G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "ボイス更新"
 }
 
-_G.pg.gametip.word_soundfiles_download = {
+_G.pg.base.gametip.word_soundfiles_download = {
 	tip = "ダウロード"
 }
 
-_G.pg.gametip.word_soundfiles_checking_title = {
+_G.pg.base.gametip.word_soundfiles_checking_title = {
 	tip = "チェック中…"
 }
 
-_G.pg.gametip.word_soundfiles_checking = {
+_G.pg.base.gametip.word_soundfiles_checking = {
 	tip = "チェック中…"
 }
 
-_G.pg.gametip.word_soundfiles_checkend_title = {
+_G.pg.base.gametip.word_soundfiles_checkend_title = {
 	tip = "更新チェック完了"
 }
 
-_G.pg.gametip.word_soundfiles_checkend = {
+_G.pg.base.gametip.word_soundfiles_checkend = {
 	tip = "更新開始"
 }
 
-_G.pg.gametip.word_soundfiles_noneedupdate = {
+_G.pg.base.gametip.word_soundfiles_noneedupdate = {
 	tip = "更新完了"
 }
 
-_G.pg.gametip.word_soundfiles_checkfailed = {
+_G.pg.base.gametip.word_soundfiles_checkfailed = {
 	tip = "更新チェック失敗"
 }
 
-_G.pg.gametip.word_soundfiles_retry = {
+_G.pg.base.gametip.word_soundfiles_retry = {
 	tip = "リトライ"
 }
 
-_G.pg.gametip.word_soundfiles_update = {
+_G.pg.base.gametip.word_soundfiles_update = {
 	tip = "更新中…"
 }
 
-_G.pg.gametip.word_soundfiles_update_end_title = {
+_G.pg.base.gametip.word_soundfiles_update_end_title = {
 	tip = "ボイス更新完了"
 }
 
-_G.pg.gametip.word_soundfiles_update_end = {
+_G.pg.base.gametip.word_soundfiles_update_end = {
 	tip = "更新完了"
 }
 
-_G.pg.gametip.word_soundfiles_update_failed = {
+_G.pg.base.gametip.word_soundfiles_update_failed = {
 	tip = "ボイス更新失敗"
 }
 
-_G.pg.gametip.word_soundfiles_update_retry = {
+_G.pg.base.gametip.word_soundfiles_update_retry = {
 	tip = "リトライ"
 }
 
-_G.pg.gametip.word_live2dfiles_download_title = {
+_G.pg.base.gametip.word_live2dfiles_download_title = {
 	tip = "Live2Dアセット更新"
 }
 
-_G.pg.gametip.word_live2dfiles_download = {
+_G.pg.base.gametip.word_live2dfiles_download = {
 	tip = "ダウンロード開始"
 }
 
-_G.pg.gametip.word_live2dfiles_checking_title = {
+_G.pg.base.gametip.word_live2dfiles_checking_title = {
 	tip = "チェック中…"
 }
 
-_G.pg.gametip.word_live2dfiles_checking = {
+_G.pg.base.gametip.word_live2dfiles_checking = {
 	tip = "チェック中…"
 }
 
-_G.pg.gametip.word_live2dfiles_checkend_title = {
+_G.pg.base.gametip.word_live2dfiles_checkend_title = {
 	tip = "アセット確認完了"
 }
 
-_G.pg.gametip.word_live2dfiles_checkend = {
+_G.pg.base.gametip.word_live2dfiles_checkend = {
 	tip = "更新開始"
 }
 
-_G.pg.gametip.word_live2dfiles_noneedupdate = {
+_G.pg.base.gametip.word_live2dfiles_noneedupdate = {
 	tip = "更新完了"
 }
 
-_G.pg.gametip.word_live2dfiles_checkfailed = {
+_G.pg.base.gametip.word_live2dfiles_checkfailed = {
 	tip = "アセット確認失敗"
 }
 
-_G.pg.gametip.word_live2dfiles_retry = {
+_G.pg.base.gametip.word_live2dfiles_retry = {
 	tip = "タップで再開"
 }
 
-_G.pg.gametip.word_live2dfiles_update = {
+_G.pg.base.gametip.word_live2dfiles_update = {
 	tip = "更新中…"
 }
 
-_G.pg.gametip.word_live2dfiles_update_end_title = {
+_G.pg.base.gametip.word_live2dfiles_update_end_title = {
 	tip = "アセット更新完了"
 }
 
-_G.pg.gametip.word_live2dfiles_update_end = {
+_G.pg.base.gametip.word_live2dfiles_update_end = {
 	tip = "更新完了"
 }
 
-_G.pg.gametip.word_live2dfiles_update_failed = {
+_G.pg.base.gametip.word_live2dfiles_update_failed = {
 	tip = "アセット更新失敗"
 }
 
-_G.pg.gametip.word_live2dfiles_update_retry = {
+_G.pg.base.gametip.word_live2dfiles_update_retry = {
 	tip = "タップで再開"
 }
 
-_G.pg.gametip.word_live2dfiles_main_update_tip = {
+_G.pg.base.gametip.word_live2dfiles_main_update_tip = {
 	tip = "Live2Dアセットを更新する必要があります。アセットを更新しますか？"
 }
 
-_G.pg.gametip.achieve_propose_tip = {
+_G.pg.base.gametip.achieve_propose_tip = {
 	tip = "「$1」着せ替え衣装開放！"
 }
 
-_G.pg.gametip.mingshi_get_tip = {
+_G.pg.base.gametip.mingshi_get_tip = {
 	tip = "「奇妙な素材」を発見しました！"
 }
 
-_G.pg.gametip.mingshi_task_tip_1 = {
+_G.pg.base.gametip.mingshi_task_tip_1 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>T</color>>\n次の目標は…<<color=#92fc63>素材を置く場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_2 = {
+_G.pg.base.gametip.mingshi_task_tip_2 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>O</color>>\n次の目標は…<<color=#92fc63>スキルを上げる場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_3 = {
+_G.pg.base.gametip.mingshi_task_tip_3 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>U</color>>\n次の目標は…<<color=#92fc63>アイテムを売る場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_4 = {
+_G.pg.base.gametip.mingshi_task_tip_4 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>C</color>>\n次の目標は…<<color=#92fc63>任務を受ける場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_5 = {
+_G.pg.base.gametip.mingshi_task_tip_5 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n次の目標は…<<color=#92fc63>艦隊を編成する場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_6 = {
+_G.pg.base.gametip.mingshi_task_tip_6 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>A</color>>\n次の目標は…<<color=#92fc63>お休みする場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_7 = {
+_G.pg.base.gametip.mingshi_task_tip_7 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>K</color>>\n次の目標は…<<color=#92fc63>これくしょん</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_8 = {
+_G.pg.base.gametip.mingshi_task_tip_8 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>A</color>>\n次の目標は…<<color=#92fc63>遠征を準備する場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_9 = {
+_G.pg.base.gametip.mingshi_task_tip_9 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>S</color>>\n次の目標は…<<color=#92fc63>ライバルと戦う場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_10 = {
+_G.pg.base.gametip.mingshi_task_tip_10 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n最後の目標は…<<color=#92fc63>新たな仲間を集める場所</color>>にゃ！"
 }
 
-_G.pg.gametip.mingshi_task_tip_11 = {
+_G.pg.base.gametip.mingshi_task_tip_11 = {
 	tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>I30</color>>\n最初の目標は…<<color=#92fc63>みんなが集まる場所</color>>にゃ！"
 }
 
-_G.pg.gametip.word_propose_changename_title = {
+_G.pg.base.gametip.word_propose_changename_title = {
 	tip = "<color=#92fc63>$1</color>はあなたの専属艦になりました。名前を変更しますか？"
 }
 
-_G.pg.gametip.word_propose_changename_tip1 = {
+_G.pg.base.gametip.word_propose_changename_tip1 = {
 	tip = "艦船名前変更（他ユーザー含む）を表示にしますか？"
 }
 
-_G.pg.gametip.word_propose_changename_tip2 = {
+_G.pg.base.gametip.word_propose_changename_tip2 = {
 	tip = "*名前変更は30日に一度です"
 }
 
-_G.pg.gametip.word_propose_ring_tip = {
+_G.pg.base.gametip.word_propose_ring_tip = {
 	tip = "未来の専属艦に、誓いの指輪を――"
 }
 
-_G.pg.gametip.word_rename_time_tip = {
+_G.pg.base.gametip.word_rename_time_tip = {
 	tip = "あと$1日間名前を変更できません"
 }
 
-_G.pg.gametip.word_rename_switch_tip = {
+_G.pg.base.gametip.word_rename_switch_tip = {
 	tip = "名前変更表示がOFFになっています。「設定」→「お知らせ」で変更できます"
 }
 
-_G.pg.gametip.word_ssr = {
+_G.pg.base.gametip.word_ssr = {
 	tip = "SSR"
 }
 
-_G.pg.gametip.word_sr = {
+_G.pg.base.gametip.word_sr = {
 	tip = "SR"
 }
 
-_G.pg.gametip.word_r = {
+_G.pg.base.gametip.word_r = {
 	tip = "R"
 }
 
-_G.pg.gametip.ship_renameShip_error = {
+_G.pg.base.gametip.ship_renameShip_error = {
 	tip = "名前変更に失敗しました"
 }
 
-_G.pg.gametip.ship_renameShip_error_4 = {
+_G.pg.base.gametip.ship_renameShip_error_4 = {
 	tip = "まだ変更できません"
 }
 
-_G.pg.gametip.ship_renameShip_error_2011 = {
+_G.pg.base.gametip.ship_renameShip_error_2011 = {
 	tip = "名前が長すぎです"
 }
 
-_G.pg.gametip.ship_proposeShip_error = {
+_G.pg.base.gametip.ship_proposeShip_error = {
 	tip = "ケッコンにエラーが発生しました"
 }
 
-_G.pg.gametip.ship_proposeShip_error_1 = {
+_G.pg.base.gametip.ship_proposeShip_error_1 = {
 	tip = "操作は無効です"
 }
 
-_G.pg.gametip.word_rename_time_warning = {
+_G.pg.base.gametip.word_rename_time_warning = {
 	tip = "名前を変更すると、30日間名前を変更できなくなります。<color=#92fc63>$1</color>の名前を<color=#92fc63>$2</color>に変更しますか？"
 }
 
-_G.pg.gametip.word_propose_cost_tip = {
+_G.pg.base.gametip.word_propose_cost_tip = {
 	tip = "ケッコンは誓いの指輪を<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>）\n\n<size=32>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#92fc63>3%</color>強化されます</size>"
 }
 
-_G.pg.gametip.evaluate_too_loog = {
+_G.pg.base.gametip.evaluate_too_loog = {
 	tip = "コメントが長すぎです"
 }
 
-_G.pg.gametip.evaluate_ban_word = {
+_G.pg.base.gametip.evaluate_ban_word = {
 	tip = "NGワードが含まれています"
 }
 
-_G.pg.gametip.activity_level_easy_tip = {
+_G.pg.base.gametip.activity_level_easy_tip = {
 	tip = "注意：ノーマルモードを選択すると、<color=#92fc63>ノーマルモードを全部クリアしないと</color>ハードモードを選択できなくなります"
 }
 
-_G.pg.gametip.activity_level_difficulty_tip = {
+_G.pg.base.gametip.activity_level_difficulty_tip = {
 	tip = "注意：ハードモードを選択すると、<color=#92fc63>ノーマルモードでの攻略進捗がなくなります</color>"
 }
 
-_G.pg.gametip.activity_level_limit_tip = {
+_G.pg.base.gametip.activity_level_limit_tip = {
 	tip = "注意：<color=#92fc63>指揮官レベル50以上、またはノーマルモードを全部クリアしないと</color>ハードモードを選択できません"
 }
 
-_G.pg.gametip.activity_level_inwarime_tip = {
+_G.pg.base.gametip.activity_level_inwarime_tip = {
 	tip = "イベントステージ<color=#92fc63>$1</color>攻略中。難易度を変更するにはまず出撃中の艦隊を撤退させてください"
 }
 
-_G.pg.gametip.activity_level_pass_easy_tip = {
+_G.pg.base.gametip.activity_level_pass_easy_tip = {
 	tip = "注意：<color=#92fc63>ノーマルモードを全部クリアしないと</color>エクストラモードを選択できません"
 }
 
-_G.pg.gametip.activity_level_is_closed = {
+_G.pg.base.gametip.activity_level_is_closed = {
 	tip = "イベント期間外です"
 }
 
-_G.pg.gametip.activity_switch_tip = {
+_G.pg.base.gametip.activity_switch_tip = {
 	tip = "注意：ノーマルモードを選択すると、<color=#92fc63>ハードモードでの攻略進捗がなくなります</color>（ノーマルモードを全部クリアしないとハードモードを選択できません）。本当に難易度を変更しますか？"
 }
 
-_G.pg.gametip.reduce_sp3_pass_count = {
+_G.pg.base.gametip.reduce_sp3_pass_count = {
 	tip = "SP3クリア回数"
 }
 
-_G.pg.gametip.qiuqiu_count = {
+_G.pg.base.gametip.qiuqiu_count = {
 	tip = "目標数"
 }
 
-_G.pg.gametip.qiuqiu_total_count = {
+_G.pg.base.gametip.qiuqiu_total_count = {
 	tip = "累計数"
 }
 
-_G.pg.gametip.npcfriendly_count = {
+_G.pg.base.gametip.npcfriendly_count = {
 	tip = "目標友好度："
 }
 
-_G.pg.gametip.npcfriendly_total_count = {
+_G.pg.base.gametip.npcfriendly_total_count = {
 	tip = "友好度："
 }
 
-_G.pg.gametip.longxiang_count = {
+_G.pg.base.gametip.longxiang_count = {
 	tip = "目標式札J"
 }
 
-_G.pg.gametip.longxiang_total_count = {
+_G.pg.base.gametip.longxiang_total_count = {
 	tip = "所持式札J"
 }
 
-_G.pg.gametip.pt_count = {
+_G.pg.base.gametip.pt_count = {
 	tip = "目標$1："
 }
 
-_G.pg.gametip.pt_total_count = {
+_G.pg.base.gametip.pt_total_count = {
 	tip = "累計$1："
 }
 
-_G.pg.gametip.remould_ship_ok = {
+_G.pg.base.gametip.remould_ship_ok = {
 	tip = "改造成功"
 }
 
-_G.pg.gametip.remould_ship_count_more = {
+_G.pg.base.gametip.remould_ship_count_more = {
 	tip = "1隻以上選択しています"
 }
 
-_G.pg.gametip.word_should_input = {
+_G.pg.base.gametip.word_should_input = {
 	tip = "キーワードが入力されていません"
 }
 
-_G.pg.gametip.simulation_advantage_counting = {
+_G.pg.base.gametip.simulation_advantage_counting = {
 	tip = "$1秒後特殊戦術を発動します"
 }
 
-_G.pg.gametip.simulation_disadvantage_counting = {
+_G.pg.base.gametip.simulation_disadvantage_counting = {
 	tip = "$1秒後特殊戦術を発動します"
 }
 
-_G.pg.gametip.simulation_enhancing = {
+_G.pg.base.gametip.simulation_enhancing = {
 	tip = "相手は特殊戦術を発動しました。装填強化とダメージ強化効果が付与されています"
 }
 
-_G.pg.gametip.simulation_enhanced = {
+_G.pg.base.gametip.simulation_enhanced = {
 	tip = "相手は特殊戦術を発動しました"
 }
 
-_G.pg.gametip.word_skill_desc_get = {
+_G.pg.base.gametip.word_skill_desc_get = {
 	tip = "（MAX$1）"
 }
 
-_G.pg.gametip.word_skill_desc_learn = {
+_G.pg.base.gametip.word_skill_desc_learn = {
 	tip = "($1)"
 }
 
-_G.pg.gametip.chapter_tip_aovid_succeed = {
+_G.pg.base.gametip.chapter_tip_aovid_succeed = {
 	tip = "回避成功"
 }
 
-_G.pg.gametip.chapter_tip_aovid_failed = {
+_G.pg.base.gametip.chapter_tip_aovid_failed = {
 	tip = "回避失敗"
 }
 
-_G.pg.gametip.chapter_tip_change = {
+_G.pg.base.gametip.chapter_tip_change = {
 	tip = "陣形変更：$1"
 }
 
-_G.pg.gametip.chapter_tip_use = {
+_G.pg.base.gametip.chapter_tip_use = {
 	tip = "指令発動： $1"
 }
 
-_G.pg.gametip.chapter_tip_with_npc = {
+_G.pg.base.gametip.chapter_tip_with_npc = {
 	tip = "<color=#ff5c5c>イベントステージ</color>に出撃します\n一つ目の出撃艦隊の前衛に<color=#ff5c5c>NPC$1</color>が一時参加するため、\n前衛艦隊の編成枠を1隻分空けてください"
 }
 
-_G.pg.gametip.chapter_tip_bp_ammo = {
+_G.pg.base.gametip.chapter_tip_bp_ammo = {
 	tip = "由于充分的战前准备，队伍弹药量+2"
 }
 
-_G.pg.gametip.build_ship_tip = {
+_G.pg.base.gametip.build_ship_tip = {
 	tip = "$2を<color=#ff5c5c>$1隻</color>建造するには下記アイテムを消費します:\n<color=$5>資金$3</color>と<color=$5>メンタルキューブ$4</color>"
 }
 
-_G.pg.gametip.auto_battle_limit_tip = {
+_G.pg.base.gametip.auto_battle_limit_tip = {
 	tip = "自律戦闘は1-3クリアで開放されます"
 }
 
-_G.pg.gametip.build_ship_quickly_buy_stone = {
+_G.pg.base.gametip.build_ship_quickly_buy_stone = {
 	tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n$4を<color=#92fc63>$2</color>個購入しますか？"
 }
 
-_G.pg.gametip.build_ship_quickly_buy_tool = {
+_G.pg.base.gametip.build_ship_quickly_buy_tool = {
 	tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n高速建造材を<color=#92fc63>$2</color>個購入しますか？"
 }
 
-_G.pg.gametip.ship_profile_voice_locked = {
+_G.pg.base.gametip.ship_profile_voice_locked = {
 	tip = "開放条件を満たしていません"
 }
 
-_G.pg.gametip.ship_profile_skin_locked = {
+_G.pg.base.gametip.ship_profile_skin_locked = {
 	tip = "この着せ替えはまだ開放されていません"
 }
 
-_G.pg.gametip.ship_profile_words = {
+_G.pg.base.gametip.ship_profile_words = {
 	tip = "セリフ鑑賞"
 }
 
-_G.pg.gametip.ship_profile_action_words = {
+_G.pg.base.gametip.ship_profile_action_words = {
 	tip = "L2Dアニメ鑑賞"
 }
 
-_G.pg.gametip.ship_profile_label_common = {
+_G.pg.base.gametip.ship_profile_label_common = {
 	tip = "通常"
 }
 
-_G.pg.gametip.ship_profile_label_diff = {
+_G.pg.base.gametip.ship_profile_label_diff = {
 	tip = "追加"
 }
 
-_G.pg.gametip.level_fleet_lease_one_ship = {
+_G.pg.base.gametip.level_fleet_lease_one_ship = {
 	tip = "出撃艦隊が一艦隊以上必要です"
 }
 
-_G.pg.gametip.level_fleet_not_enough = {
+_G.pg.base.gametip.level_fleet_not_enough = {
 	tip = "艦隊は出撃条件を満たしていません"
 }
 
-_G.pg.gametip.level_fleet_outof_limit = {
+_G.pg.base.gametip.level_fleet_outof_limit = {
 	tip = "これ以上艦隊を出撃させられません"
 }
 
-_G.pg.gametip.vote_success = {
+_G.pg.base.gametip.vote_success = {
 	tip = "投票成功！"
 }
 
-_G.pg.gametip.vote_not_enough = {
+_G.pg.base.gametip.vote_not_enough = {
 	tip = "票が不足しています"
 }
 
-_G.pg.gametip.vote_love_not_enough = {
+_G.pg.base.gametip.vote_love_not_enough = {
 	tip = "特別票が不足しています"
 }
 
-_G.pg.gametip.vote_love_limit = {
+_G.pg.base.gametip.vote_love_limit = {
 	tip = "特別票投票は通常投票後に行えます"
 }
 
-_G.pg.gametip.vote_love_confirm = {
+_G.pg.base.gametip.vote_love_confirm = {
 	tip = "特別票を1枚投票しますか？"
 }
 
-_G.pg.gametip.vote_primary_rule = {
+_G.pg.base.gametip.vote_primary_rule = {
 	tip = [[
 <size=20>予選</size>
 <size=19>参加艦は4グループに分けられ、一つのグループに5日間の投票期間が設けられ、グループの上位3艦（全12艦）が本戦に参加できます。</size>
@@ -7978,239 +7978,239 @@ _G.pg.gametip.vote_primary_rule = {
 ※得票数が同じ場合、「最後に投票されたキャラ」が上位になります</size>]]
 }
 
-_G.pg.gametip.vote_final_title1 = {
+_G.pg.base.gametip.vote_final_title1 = {
 	tip = "本戦について"
 }
 
-_G.pg.gametip.vote_final_rule1 = {
+_G.pg.base.gametip.vote_final_rule1 = {
 	tip = "※本戦に参加する12艦で10日間の投票をへてランキングを決めます。予選での投票数はカウントされません。同日でも同じ艦に通常票を複数回投票可能です。\n※本戦ランキング上位艦に新しい衣装が実装される可能性があります。"
 }
 
-_G.pg.gametip.vote_final_title2 = {
+_G.pg.base.gametip.vote_final_title2 = {
 	tip = "報酬について"
 }
 
-_G.pg.gametip.vote_final_rule2 = {
+_G.pg.base.gametip.vote_final_rule2 = {
 	tip = "本戦ランキング上位艦に新しい衣装が実装される可能性があります。"
 }
 
-_G.pg.gametip.vote_vote_time = {
+_G.pg.base.gametip.vote_vote_time = {
 	tip = "投票期間: $1-$2"
 }
 
-_G.pg.gametip.vote_vote_count = {
+_G.pg.base.gametip.vote_vote_count = {
 	tip = "$1票"
 }
 
-_G.pg.gametip.vote_vote_group = {
+_G.pg.base.gametip.vote_vote_group = {
 	tip = "$1グループ"
 }
 
-_G.pg.gametip.vote_rank_refresh_time = {
+_G.pg.base.gametip.vote_rank_refresh_time = {
 	tip = "※現サーバーの投票数になります(30分毎更新)"
 }
 
-_G.pg.gametip.vote_rank_in_current_server = {
+_G.pg.base.gametip.vote_rank_in_current_server = {
 	tip = "※現在のサーバーでの順位です"
 }
 
-_G.pg.gametip.words_auto_battle_label = {
+_G.pg.base.gametip.words_auto_battle_label = {
 	tip = "戦闘終了通知"
 }
 
-_G.pg.gametip.words_show_ship_name_label = {
+_G.pg.base.gametip.words_show_ship_name_label = {
 	tip = "艦名変更を反映"
 }
 
-_G.pg.gametip.words_rare_ship_vibrate = {
+_G.pg.base.gametip.words_rare_ship_vibrate = {
 	tip = "バイブレーション"
 }
 
-_G.pg.gametip.words_display_ship_get_effect = {
+_G.pg.base.gametip.words_display_ship_get_effect = {
 	tip = "入手済艦の入手演出"
 }
 
-_G.pg.gametip.words_show_touch_effect = {
+_G.pg.base.gametip.words_show_touch_effect = {
 	tip = "タッチエフェクト表示"
 }
 
-_G.pg.gametip.words_bg_fit_mode = {
+_G.pg.base.gametip.words_bg_fit_mode = {
 	tip = "ﾛｰﾄﾞ画面のｱｽ比自動適応"
 }
 
-_G.pg.gametip.words_battle_hide_bg = {
+_G.pg.base.gametip.words_battle_hide_bg = {
 	tip = "衣装背景の戦闘時非表示"
 }
 
-_G.pg.gametip.words_battle_expose_line = {
+_G.pg.base.gametip.words_battle_expose_line = {
 	tip = "空母発見範囲を表示"
 }
 
-_G.pg.gametip.words_autoFight_battery_savemode = {
+_G.pg.base.gametip.words_autoFight_battery_savemode = {
 	tip = "自動攻略省エネ化"
 }
 
-_G.pg.gametip.words_autoFight_battery_savemode_des = {
+_G.pg.base.gametip.words_autoFight_battery_savemode_des = {
 	tip = "自動攻略モード開始20秒後、端末画面の明るさを低減させます"
 }
 
-_G.pg.gametip.words_autoFIght_down_frame = {
+_G.pg.base.gametip.words_autoFIght_down_frame = {
 	tip = "自動攻略fpsﾀﾞｳﾝ"
 }
 
-_G.pg.gametip.words_autoFIght_down_frame_des = {
+_G.pg.base.gametip.words_autoFIght_down_frame_des = {
 	tip = "自動攻略省エネ化モードでは、ゲームのfpsを低下させます"
 }
 
-_G.pg.gametip.words_autoFight_tips = {
+_G.pg.base.gametip.words_autoFight_tips = {
 	tip = "「自動攻略省エネ化」を設定でONにする必要があります"
 }
 
-_G.pg.gametip.words_autoFight_right = {
+_G.pg.base.gametip.words_autoFight_right = {
 	tip = "自動攻略省エネ化を有効化するには、端末の関連権限の付与が必要です"
 }
 
-_G.pg.gametip.activity_puzzle_get1 = {
+_G.pg.base.gametip.activity_puzzle_get1 = {
 	tip = "<color=#92fc63FF>入手方法\n限定任務7</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get2 = {
+_G.pg.base.gametip.activity_puzzle_get2 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル2-1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get3 = {
+_G.pg.base.gametip.activity_puzzle_get3 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル2-3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get4 = {
+_G.pg.base.gametip.activity_puzzle_get4 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル3-1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get5 = {
+_G.pg.base.gametip.activity_puzzle_get5 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル3-3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get6 = {
+_G.pg.base.gametip.activity_puzzle_get6 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル3-4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get7 = {
+_G.pg.base.gametip.activity_puzzle_get7 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル2-2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get8 = {
+_G.pg.base.gametip.activity_puzzle_get8 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル2-4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get9 = {
+_G.pg.base.gametip.activity_puzzle_get9 = {
 	tip = "<color=#92fc63FF>入手方法\nノーマル3-2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get10 = {
+_G.pg.base.gametip.activity_puzzle_get10 = {
 	tip = "<color=#92fc63FF>入手方法\n限定任務1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get11 = {
+_G.pg.base.gametip.activity_puzzle_get11 = {
 	tip = "<color=#92fc63FF>入手方法\n限定任務2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get12 = {
+_G.pg.base.gametip.activity_puzzle_get12 = {
 	tip = "<color=#92fc63FF>入手方法\n限定任務3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get13 = {
+_G.pg.base.gametip.activity_puzzle_get13 = {
 	tip = "<color=#92fc63FF>入手方法\n限定任務4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get14 = {
+_G.pg.base.gametip.activity_puzzle_get14 = {
 	tip = "<color=#92fc63FF>入手方法\n限定任務5</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get15 = {
+_G.pg.base.gametip.activity_puzzle_get15 = {
 	tip = "<color=#92fc63FF>入手方法\n限定任務6</color>"
 }
 
-_G.pg.gametip.word_stopremain_build = {
+_G.pg.base.gametip.word_stopremain_build = {
 	tip = "次回からは表示しない"
 }
 
-_G.pg.gametip.word_stopremain_default = {
+_G.pg.base.gametip.word_stopremain_default = {
 	tip = "次回からは表示しない"
 }
 
-_G.pg.gametip.transcode_desc = {
+_G.pg.base.gametip.transcode_desc = {
 	tip = "※引継ぎパスワードに使用期限はございません\n※あらかじめ発行し、保管していただくことをお勧めいたします"
 }
 
-_G.pg.gametip.transcode_empty_tip = {
+_G.pg.base.gametip.transcode_empty_tip = {
 	tip = "正しい引継ぎパスワードを入力して下さい"
 }
 
-_G.pg.gametip.set_birth_title = {
+_G.pg.base.gametip.set_birth_title = {
 	tip = "あなたの誕生日を設定してください"
 }
 
-_G.pg.gametip.set_birth_confirm_tip = {
+_G.pg.base.gametip.set_birth_confirm_tip = {
 	tip = "誕生日を$1に設定しますか？\n<color=#ff5c5c>※あとから変更できません</color>"
 }
 
-_G.pg.gametip.set_birth_empty_tip = {
+_G.pg.base.gametip.set_birth_empty_tip = {
 	tip = "正しい誕生日を入力してください"
 }
 
-_G.pg.gametip.set_birth_success = {
+_G.pg.base.gametip.set_birth_success = {
 	tip = "誕生日を設定しました"
 }
 
-_G.pg.gametip.clear_transcode_cache_confirm = {
+_G.pg.base.gametip.clear_transcode_cache_confirm = {
 	tip = "本当にユーザーデータを削除しますか？\n※復元できない場合があります"
 }
 
-_G.pg.gametip.clear_transcode_cache_success = {
+_G.pg.base.gametip.clear_transcode_cache_success = {
 	tip = "ユーザーデータを削除しました"
 }
 
-_G.pg.gametip.exchange_item_success = {
+_G.pg.base.gametip.exchange_item_success = {
 	tip = "支援物資は到着しました！"
 }
 
-_G.pg.gametip.give_up_cloth_change = {
+_G.pg.base.gametip.give_up_cloth_change = {
 	tip = "着せ替えせず、元の画面に戻りますか？"
 }
 
-_G.pg.gametip.err_cloth_change_noship = {
+_G.pg.base.gametip.err_cloth_change_noship = {
 	tip = "$1は所持していません"
 }
 
-_G.pg.gametip.need_break_tip = {
+_G.pg.base.gametip.need_break_tip = {
 	tip = "要限界突破"
 }
 
-_G.pg.gametip.max_level_notice = {
+_G.pg.base.gametip.max_level_notice = {
 	tip = "レベル最大・限界突破で最大レベル$1"
 }
 
-_G.pg.gametip.new_skin_no_choose = {
+_G.pg.base.gametip.new_skin_no_choose = {
 	tip = "着せ替えする艦を選択していません。着せ替えせず元の画面に戻りますか？"
 }
 
-_G.pg.gametip.sure_resume_volume = {
+_G.pg.base.gametip.sure_resume_volume = {
 	tip = "音声設定を初期化しますか？"
 }
 
-_G.pg.gametip.course_class_not_ready = {
+_G.pg.base.gametip.course_class_not_ready = {
 	tip = "学生を配置しないと授業を開始できません"
 }
 
-_G.pg.gametip.course_student_max_level = {
+_G.pg.base.gametip.course_student_max_level = {
 	tip = "LvMAXのキャラは配置できません"
 }
 
-_G.pg.gametip.course_stop_confirm = {
+_G.pg.base.gametip.course_stop_confirm = {
 	tip = "進行中の授業を終了させ、経験値を一部入手しますか？"
 }
 
-_G.pg.gametip.course_class_help = {
+_G.pg.base.gametip.course_class_help = {
 	tip = {
 		{
 			info = [[
@@ -8233,371 +8233,371 @@ _G.pg.gametip.course_class_help = {
 	}
 }
 
-_G.pg.gametip.course_class_name = {
+_G.pg.base.gametip.course_class_name = {
 	tip = "今日の授業：《$1》"
 }
 
-_G.pg.gametip.course_proficiency_not_enough = {
+_G.pg.base.gametip.course_proficiency_not_enough = {
 	tip = "熟練度が不足しています"
 }
 
-_G.pg.gametip.course_state_rest = {
+_G.pg.base.gametip.course_state_rest = {
 	tip = "準備中"
 }
 
-_G.pg.gametip.course_state_lession = {
+_G.pg.base.gametip.course_state_lession = {
 	tip = "授業時間："
 }
 
-_G.pg.gametip.course_energy_not_enough = {
+_G.pg.base.gametip.course_energy_not_enough = {
 	tip = "<color=#92fc63>$1</color>のコンディションが低く、授業には参加できません"
 }
 
-_G.pg.gametip.course_proficiency_tip = {
+_G.pg.base.gametip.course_proficiency_tip = {
 	tip = "限界突破を3回行った<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>レベル$1</color></material>の艦は出撃時、得られる経験値の<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material>分の熟練度を獲得できます"
 }
 
-_G.pg.gametip.course_sunday_tip = {
+_G.pg.base.gametip.course_sunday_tip = {
 	tip = "日曜日：出撃時熟練度の入手量が2倍"
 }
 
-_G.pg.gametip.course_exit_confirm = {
+_G.pg.base.gametip.course_exit_confirm = {
 	tip = "授業はまだ始まっていません。大講堂画面を閉じますか？"
 }
 
-_G.pg.gametip.course_learning = {
+_G.pg.base.gametip.course_learning = {
 	tip = "ただいま授業中"
 }
 
-_G.pg.gametip.time_remaining_tip = {
+_G.pg.base.gametip.time_remaining_tip = {
 	tip = " 残り："
 }
 
-_G.pg.gametip.propose_intimacy_tip = {
+_G.pg.base.gametip.propose_intimacy_tip = {
 	tip = "好感度100(現在$1)"
 }
 
-_G.pg.gametip.no_found_record_equipment = {
+_G.pg.base.gametip.no_found_record_equipment = {
 	tip = "装備されていない$1はありません。他の同タイプの装備を検索・装備しますか？"
 }
 
-_G.pg.gametip.sec_floor_limit_tip = {
+_G.pg.base.gametip.sec_floor_limit_tip = {
 	tip = "寮舎1F最大拡張完了で開放"
 }
 
-_G.pg.gametip.guild_shop_flash_success = {
+_G.pg.base.gametip.guild_shop_flash_success = {
 	tip = "更新完了"
 }
 
-_G.pg.gametip.destroy_high_rarity_tip = {
+_G.pg.base.gametip.destroy_high_rarity_tip = {
 	tip = "<color=#92fc63>Sレア以上</color>"
 }
 
-_G.pg.gametip.destroy_high_level_tip = {
+_G.pg.base.gametip.destroy_high_level_tip = {
 	tip = "<color=#92fc63>$1Lv1以外</color>"
 }
 
-_G.pg.gametip.destroy_eliteequipment_tip = {
+_G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "$1の装備が選択されています。続けますか？"
 }
 
-_G.pg.gametip.destroy_high_intensify_tip = {
+_G.pg.base.gametip.destroy_high_intensify_tip = {
 	tip = "<color=#92fc63>$1強化後</color>"
 }
 
-_G.pg.gametip.destroy_inHardFormation_tip = {
+_G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "<color=#92fc63>ﾊｰﾄﾞ編成中</color>"
 }
 
-_G.pg.gametip.ship_quick_change_noequip = {
+_G.pg.base.gametip.ship_quick_change_noequip = {
 	tip = "変更する装備は存在ありません"
 }
 
-_G.pg.gametip.ship_quick_change_nofreeequip = {
+_G.pg.base.gametip.ship_quick_change_nofreeequip = {
 	tip = "変更する装備は他の艦に装備されています"
 }
 
-_G.pg.gametip.word_nowenergy = {
+_G.pg.base.gametip.word_nowenergy = {
 	tip = "ｺﾝﾃﾞｨｼｮﾝ"
 }
 
-_G.pg.gametip.word_energy_recov_speed = {
+_G.pg.base.gametip.word_energy_recov_speed = {
 	tip = "回復速度"
 }
 
-_G.pg.gametip.destroy_eliteship_tip = {
+_G.pg.base.gametip.destroy_eliteship_tip = {
 	tip = "$1の艦船が選択されています。"
 }
 
-_G.pg.gametip.err_resloveequip_nochoice = {
+_G.pg.base.gametip.err_resloveequip_nochoice = {
 	tip = "廃棄したい装備を選択してください"
 }
 
-_G.pg.gametip.take_nothing = {
+_G.pg.base.gametip.take_nothing = {
 	tip = "受け取れるアイテムがありません"
 }
 
-_G.pg.gametip.take_all_mail = {
+_G.pg.base.gametip.take_all_mail = {
 	tip = "<color='#92fc63FF'>全てのメールを開封</color>しますか？"
 }
 
-_G.pg.gametip.buy_furniture_overtime = {
+_G.pg.base.gametip.buy_furniture_overtime = {
 	tip = "購入可能期間外です"
 }
 
-_G.pg.gametip.twitter_login_tips = {
+_G.pg.base.gametip.twitter_login_tips = {
 	tip = "ツイッター連携を行うと、現在ログイン中のアカウントがログイン解除されます。ツイッター連携を行いますか？"
 }
 
-_G.pg.gametip.data_erro = {
+_G.pg.base.gametip.data_erro = {
 	tip = "寮舎データにエラーが発生しました"
 }
 
-_G.pg.gametip.login_failed = {
+_G.pg.base.gametip.login_failed = {
 	tip = "ログイン失敗"
 }
 
-_G.pg.gametip["not yet completed"] = {
+_G.pg.base.gametip["not yet completed"] = {
 	tip = ""
 }
 
-_G.pg.gametip.escort_less_count_to_combat = {
+_G.pg.base.gametip.escort_less_count_to_combat = {
 	tip = "今日はこれ以上挑戦できません"
 }
 
-_G.pg.gametip.ten_even_draw = {
+_G.pg.base.gametip.ten_even_draw = {
 	tip = "$1回交換する"
 }
 
-_G.pg.gametip.ten_even_draw_confirm = {
+_G.pg.base.gametip.ten_even_draw_confirm = {
 	tip = "$1回交換しますか？"
 }
 
-_G.pg.gametip.level_risk_level_desc = {
+_G.pg.base.gametip.level_risk_level_desc = {
 	tip = " $1\n\n"
 }
 
-_G.pg.gametip.level_risk_level_mitigation_rate = {
+_G.pg.base.gametip.level_risk_level_mitigation_rate = {
 	tip = "<size=32>海域危険度判定：<color=#92fc63>【$1】</color>\n出撃艦隊ダメージ軽減<color=#92fc63>$2%</color></size>"
 }
 
-_G.pg.gametip.level_diffcult_chapter_state_safety = {
+_G.pg.base.gametip.level_diffcult_chapter_state_safety = {
 	tip = "<size=32><color=#92fc63>海域攻略ゲージ100%を達成すると、\n敵中枢艦隊が最初から出現します</color></size>"
 }
 
-_G.pg.gametip.level_chapter_state_high_risk = {
+_G.pg.base.gametip.level_chapter_state_high_risk = {
 	tip = "<color=#EE2C00>【脅威海域】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_risk = {
+_G.pg.base.gametip.level_chapter_state_risk = {
 	tip = "<color=#ffde38>【危険海域】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_low_risk = {
+_G.pg.base.gametip.level_chapter_state_low_risk = {
 	tip = "<color=#c5cfdf>【支配海域】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_safety = {
+_G.pg.base.gametip.level_chapter_state_safety = {
 	tip = "<color=#92fc63>【安全海域】</color>"
 }
 
-_G.pg.gametip.open_skill_class_success = {
+_G.pg.base.gametip.open_skill_class_success = {
 	tip = "教室枠を追加しました"
 }
 
-_G.pg.gametip.backyard_sort_tag_default = {
+_G.pg.base.gametip.backyard_sort_tag_default = {
 	tip = "ID順"
 }
 
-_G.pg.gametip.backyard_sort_tag_price = {
+_G.pg.base.gametip.backyard_sort_tag_price = {
 	tip = "価格"
 }
 
-_G.pg.gametip.backyard_sort_tag_comfortable = {
+_G.pg.base.gametip.backyard_sort_tag_comfortable = {
 	tip = "快適度"
 }
 
-_G.pg.gametip.backyard_sort_tag_size = {
+_G.pg.base.gametip.backyard_sort_tag_size = {
 	tip = "サイズ"
 }
 
-_G.pg.gametip.backyard_filter_tag_other = {
+_G.pg.base.gametip.backyard_filter_tag_other = {
 	tip = "その他"
 }
 
-_G.pg.gametip.word_status_inFight = {
+_G.pg.base.gametip.word_status_inFight = {
 	tip = "<size=23>出撃中</size>"
 }
 
-_G.pg.gametip.word_status_inPVP = {
+_G.pg.base.gametip.word_status_inPVP = {
 	tip = "<size=22>演習配置</size>"
 }
 
-_G.pg.gametip.word_status_inEvent = {
+_G.pg.base.gametip.word_status_inEvent = {
 	tip = "<size=23>委託中</size>"
 }
 
-_G.pg.gametip.word_status_inEventFinished = {
+_G.pg.base.gametip.word_status_inEventFinished = {
 	tip = "<size=23>完了</size>"
 }
 
-_G.pg.gametip.word_status_inTactics = {
+_G.pg.base.gametip.word_status_inTactics = {
 	tip = "<size=22>戦術学院</size>"
 }
 
-_G.pg.gametip.word_status_inClass = {
+_G.pg.base.gametip.word_status_inClass = {
 	tip = "<size=23>授業中</size>"
 }
 
-_G.pg.gametip.word_status_rest = {
+_G.pg.base.gametip.word_status_rest = {
 	tip = "<size=23>休憩中</size>"
 }
 
-_G.pg.gametip.word_status_train = {
+_G.pg.base.gametip.word_status_train = {
 	tip = "<size=23>訓練中</size>"
 }
 
-_G.pg.gametip.word_status_challenge = {
+_G.pg.base.gametip.word_status_challenge = {
 	tip = "<size=23>ﾁｬﾚﾝｼﾞ出撃 </size>"
 }
 
-_G.pg.gametip.word_status_world = {
+_G.pg.base.gametip.word_status_world = {
 	tip = "ｾｲﾚｰﾝ作戦"
 }
 
-_G.pg.gametip.word_status_inHardFormation = {
+_G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "ﾊｰﾄﾞ編成中"
 }
 
-_G.pg.gametip.challenge_current_score = {
+_G.pg.base.gametip.challenge_current_score = {
 	tip = "累計得点：$1"
 }
 
-_G.pg.gametip.equipment_skin_unload = {
+_G.pg.base.gametip.equipment_skin_unload = {
 	tip = "装備外装は倉庫に戻されました"
 }
 
-_G.pg.gametip.equipment_skin_no_old_ship = {
+_G.pg.base.gametip.equipment_skin_no_old_ship = {
 	tip = "艦が存在しません"
 }
 
-_G.pg.gametip.equipment_skin_no_old_skinorequipment = {
+_G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
 	tip = "兵装か外装が装備されていません"
 }
 
-_G.pg.gametip.equipment_skin_no_new_ship = {
+_G.pg.base.gametip.equipment_skin_no_new_ship = {
 	tip = "艦が存在しません"
 }
 
-_G.pg.gametip.equipment_skin_no_new_equipment = {
+_G.pg.base.gametip.equipment_skin_no_new_equipment = {
 	tip = "兵装が装備されていません"
 }
 
-_G.pg.gametip.equipment_skin_count_noenough = {
+_G.pg.base.gametip.equipment_skin_count_noenough = {
 	tip = "装備外装が不足しています"
 }
 
-_G.pg.gametip.equipment_skin_replace_done = {
+_G.pg.base.gametip.equipment_skin_replace_done = {
 	tip = "装備外装を変更しました"
 }
 
-_G.pg.gametip.equipment_skin_unload_failed = {
+_G.pg.base.gametip.equipment_skin_unload_failed = {
 	tip = "外装を装備できませんでした"
 }
 
-_G.pg.gametip.equipment_skin_unmatch_equipment = {
+_G.pg.base.gametip.equipment_skin_unmatch_equipment = {
 	tip = "この兵装は装備中の外装を適用できません。外装は倉庫に戻されました"
 }
 
-_G.pg.gametip.equipment_skin_no_equipment_tip = {
+_G.pg.base.gametip.equipment_skin_no_equipment_tip = {
 	tip = "兵装を装備していないため、外装を適用できません"
 }
 
-_G.pg.gametip.activity_pool_awards_empty = {
+_G.pg.base.gametip.activity_pool_awards_empty = {
 	tip = "本段階の報酬が既に全部交換しました"
 }
 
-_G.pg.gametip.activity_switch_award_pool_failed = {
+_G.pg.base.gametip.activity_switch_award_pool_failed = {
 	tip = "次の段階は目玉報酬を全部交換したことで開放されます"
 }
 
-_G.pg.gametip.shop_street_activity_tip = {
+_G.pg.base.gametip.shop_street_activity_tip = {
 	tip = "*<color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
 }
 
-_G.pg.gametip.shop_street_Equipment_skin_box_help = {
+_G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
 	tip = "<color=#A1E400FF>$1</COLOR> 販売期間：<color=#A1E400FF>$2</COLOR>"
 }
 
-_G.pg.gametip.twitter_link_title = {
+_G.pg.base.gametip.twitter_link_title = {
 	tip = "連携中のツイッター：$1"
 }
 
-_G.pg.gametip.battle_result_boss_destruct = {
+_G.pg.base.gametip.battle_result_boss_destruct = {
 	tip = "自爆を阻止した上ボス撃破"
 }
 
-_G.pg.gametip.battle_preCombatLayer_boss_destruct = {
+_G.pg.base.gametip.battle_preCombatLayer_boss_destruct = {
 	tip = "自爆を阻止した上ボス撃破"
 }
 
-_G.pg.gametip.destory_important_equipment_tip = {
+_G.pg.base.gametip.destory_important_equipment_tip = {
 	tip = "装備<color=#FFDE00FF>“$1”</color>を廃棄しますか？下の枠に装備の名前を入力してください"
 }
 
-_G.pg.gametip.destory_important_equipment_input_erro = {
+_G.pg.base.gametip.destory_important_equipment_input_erro = {
 	tip = "装備名が間違えています"
 }
 
-_G.pg.gametip.activity_hit_monster_nocount = {
+_G.pg.base.gametip.activity_hit_monster_nocount = {
 	tip = "回数が足りません"
 }
 
-_G.pg.gametip.activity_hit_monster_death = {
+_G.pg.base.gametip.activity_hit_monster_death = {
 	tip = "年獣は既に倒されました"
 }
 
-_G.pg.gametip.activity_hit_monster_help = {
+_G.pg.base.gametip.activity_hit_monster_help = {
 	tip = "年獣ミニゲームルール"
 }
 
-_G.pg.gametip.activity_hit_monster_erro = {
+_G.pg.base.gametip.activity_hit_monster_erro = {
 	tip = "攻撃に失敗しました"
 }
 
-_G.pg.gametip.activity_xiaotiane_progress = {
+_G.pg.base.gametip.activity_xiaotiane_progress = {
 	tip = "進捗: $1/$2"
 }
 
-_G.pg.gametip.activity_hit_monster_reset_tip = {
+_G.pg.base.gametip.activity_hit_monster_reset_tip = {
 	tip = "撫順の大冒険を再チャレンジしますか？\n（報酬を入手することはできません）"
 }
 
-_G.pg.gametip.equip_skin_detail_tip = {
+_G.pg.base.gametip.equip_skin_detail_tip = {
 	tip = "下記の装備外装を入手可能"
 }
 
-_G.pg.gametip.emoji_type_0 = {
+_G.pg.base.gametip.emoji_type_0 = {
 	tip = "お気に入り"
 }
 
-_G.pg.gametip.emoji_type_1 = {
+_G.pg.base.gametip.emoji_type_1 = {
 	tip = "デフォルト"
 }
 
-_G.pg.gametip.emoji_type_2 = {
+_G.pg.base.gametip.emoji_type_2 = {
 	tip = "アニメ"
 }
 
-_G.pg.gametip.emoji_type_3 = {
+_G.pg.base.gametip.emoji_type_3 = {
 	tip = "ドット"
 }
 
-_G.pg.gametip.emoji_type_4 = {
+_G.pg.base.gametip.emoji_type_4 = {
 	tip = "ミニ"
 }
 
-_G.pg.gametip.card_pairs_help_tip = {
+_G.pg.base.gametip.card_pairs_help_tip = {
 	tip = {
 		{
 			info = "ルール："
@@ -8626,187 +8626,187 @@ _G.pg.gametip.card_pairs_help_tip = {
 	}
 }
 
-_G.pg.gametip.card_pairs_tips = {
+_G.pg.base.gametip.card_pairs_tips = {
 	tip = "本日はこれ以上「月餅」を入手できません。新しいゲームを始めますか？"
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_failed = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
 	tip = "レベルが最大です。\n現在はこれ以上認識覚醒できません。"
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_tip = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_tip = {
 	tip = "下記の材料を消費して認識覚醒(レベル上限開放)を行います\n※認識覚醒後レベル上限："
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_succeed = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
 	tip = "認識覚醒完了\nレベル上限が<color=#92fc63FF>$1</color>になりました"
 }
 
-_G.pg.gametip.extra_chapter_socre_tip = {
+_G.pg.base.gametip.extra_chapter_socre_tip = {
 	tip = "今回のスコア：<color=#92fc63>$1</color>\n自己最高スコア：<color=#92fc63>$2</color>\n $3"
 }
 
-_G.pg.gametip.extra_chapter_record_updated = {
+_G.pg.base.gametip.extra_chapter_record_updated = {
 	tip = "自己最高スコア更新！"
 }
 
-_G.pg.gametip.extra_chapter_record_not_updated = {
+_G.pg.base.gametip.extra_chapter_record_not_updated = {
 	tip = "自己最高スコア未更新"
 }
 
-_G.pg.gametip.extra_chapter_locked_tip = {
+_G.pg.base.gametip.extra_chapter_locked_tip = {
 	tip = "イベントハード最終海域を攻略すると開放されます"
 }
 
-_G.pg.gametip.extra_chapter_locked_tip_1 = {
+_G.pg.base.gametip.extra_chapter_locked_tip_1 = {
 	tip = "イベントノーマル最終海域を攻略すると開放されます"
 }
 
-_G.pg.gametip.player_name_change_time_lv_tip = {
+_G.pg.base.gametip.player_name_change_time_lv_tip = {
 	tip = "指揮官Lv<color=#92fc63>$1</color>で指揮官名変更機能が開放されます"
 }
 
-_G.pg.gametip.player_name_change_time_limit_tip = {
+_G.pg.base.gametip.player_name_change_time_limit_tip = {
 	tip = "<color=#92fc63>$1</color>後指揮官名を変更できます"
 }
 
-_G.pg.gametip.player_name_change_windows_tip = {
+_G.pg.base.gametip.player_name_change_windows_tip = {
 	tip = "*<color=#92fc63>$1:$2</color>を消費します。<color=#92fc63>30</color>日に一度変更可能"
 }
 
-_G.pg.gametip.player_name_change_warning = {
+_G.pg.base.gametip.player_name_change_warning = {
 	tip = "指揮官名を変更するには<color=#92fc63>$2</color>を<color=#92fc63>$1</color>つ消費します。<color=#92fc63>30</color>日に一度しか変更できません。指揮官名を<color=#92fc63>$3</color>に変更しますか？"
 }
 
-_G.pg.gametip.player_name_change_success = {
+_G.pg.base.gametip.player_name_change_success = {
 	tip = "指揮官名変更成功"
 }
 
-_G.pg.gametip.player_name_change_failed = {
+_G.pg.base.gametip.player_name_change_failed = {
 	tip = "指揮官名変更失敗"
 }
 
-_G.pg.gametip.same_player_name_tip = {
+_G.pg.base.gametip.same_player_name_tip = {
 	tip = "同じ指揮官名には変更できません"
 }
 
-_G.pg.gametip.task_is_not_existence = {
+_G.pg.base.gametip.task_is_not_existence = {
 	tip = "任務$1は存在しません"
 }
 
-_G.pg.gametip.cannot_build_multiple_printblue = {
+_G.pg.base.gametip.cannot_build_multiple_printblue = {
 	tip = "現在進行中の<color=#92fc63>$1</color>開発を一時停止し、開発対象を<color=#92fc63>$2</color>に変更しますか？開発進捗が保存されます。\n開発開始・再開<color=#92fc63>24時間以内</color>は開発対象を変更できません。"
 }
 
-_G.pg.gametip.printblue_build_success = {
+_G.pg.base.gametip.printblue_build_success = {
 	tip = "開発開始"
 }
 
-_G.pg.gametip.printblue_build_erro = {
+_G.pg.base.gametip.printblue_build_erro = {
 	tip = "開発失敗"
 }
 
-_G.pg.gametip.blueprint_mod_success = {
+_G.pg.base.gametip.blueprint_mod_success = {
 	tip = "強化成功"
 }
 
-_G.pg.gametip.blueprint_mod_erro = {
+_G.pg.base.gametip.blueprint_mod_erro = {
 	tip = "強化失敗"
 }
 
-_G.pg.gametip.technology_refresh_sucess = {
+_G.pg.base.gametip.technology_refresh_sucess = {
 	tip = "研究項目一覧・更新成功"
 }
 
-_G.pg.gametip.technology_refresh_erro = {
+_G.pg.base.gametip.technology_refresh_erro = {
 	tip = "研究項目一覧・更新失敗"
 }
 
-_G.pg.gametip.change_technology_refresh_sucess = {
+_G.pg.base.gametip.change_technology_refresh_sucess = {
 	tip = "研究項目・変更成功"
 }
 
-_G.pg.gametip.change_technology_refresh_erro = {
+_G.pg.base.gametip.change_technology_refresh_erro = {
 	tip = "研究項目・変更失敗"
 }
 
-_G.pg.gametip.technology_start_up = {
+_G.pg.base.gametip.technology_start_up = {
 	tip = "研究開始"
 }
 
-_G.pg.gametip.technology_start_erro = {
+_G.pg.base.gametip.technology_start_erro = {
 	tip = "研究失敗"
 }
 
-_G.pg.gametip.technology_stop_success = {
+_G.pg.base.gametip.technology_stop_success = {
 	tip = "研究中止に成功しました"
 }
 
-_G.pg.gametip.technology_stop_erro = {
+_G.pg.base.gametip.technology_stop_erro = {
 	tip = "研究中止に失敗しました"
 }
 
-_G.pg.gametip.technology_finish_success = {
+_G.pg.base.gametip.technology_finish_success = {
 	tip = "研究完了に成功しました"
 }
 
-_G.pg.gametip.technology_finish_erro = {
+_G.pg.base.gametip.technology_finish_erro = {
 	tip = "研究完了に失敗しました"
 }
 
-_G.pg.gametip.blueprint_stop_success = {
+_G.pg.base.gametip.blueprint_stop_success = {
 	tip = "開発中止に成功しました"
 }
 
-_G.pg.gametip.blueprint_stop_erro = {
+_G.pg.base.gametip.blueprint_stop_erro = {
 	tip = "開発中止に失敗しました"
 }
 
-_G.pg.gametip.blueprint_destory_tip = {
+_G.pg.base.gametip.blueprint_destory_tip = {
 	tip = "特別計画艦は廃棄できません"
 }
 
-_G.pg.gametip.blueprint_task_update_tip = {
+_G.pg.base.gametip.blueprint_task_update_tip = {
 	tip = "艦船の開発進捗に更新がありました。開発ドックをご確認ください"
 }
 
-_G.pg.gametip.blueprint_mod_addition_lock = {
+_G.pg.base.gametip.blueprint_mod_addition_lock = {
 	tip = "強化レベル$1到達で開放されます"
 }
 
-_G.pg.gametip.blueprint_mod_word_unlock = {
+_G.pg.base.gametip.blueprint_mod_word_unlock = {
 	tip = "セリフ開放：$1"
 }
 
-_G.pg.gametip.blueprint_mod_skin_unlock = {
+_G.pg.base.gametip.blueprint_mod_skin_unlock = {
 	tip = "着せ替え獲得：$1"
 }
 
-_G.pg.gametip.blueprint_build_consume = {
+_G.pg.base.gametip.blueprint_build_consume = {
 	tip = "$1を消費し、開発を行いますか？"
 }
 
-_G.pg.gametip.blueprint_stop_tip = {
+_G.pg.base.gametip.blueprint_stop_tip = {
 	tip = "開発を中止しますか？（消費したアイテム・資源は元に戻りません）"
 }
 
-_G.pg.gametip.technology_canot_refresh = {
+_G.pg.base.gametip.technology_canot_refresh = {
 	tip = "研究中は研究項目一覧を更新できません"
 }
 
-_G.pg.gametip.technology_refresh_tip = {
+_G.pg.base.gametip.technology_refresh_tip = {
 	tip = "研究項目一覧を更新しますか？"
 }
 
-_G.pg.gametip.technology_is_actived = {
+_G.pg.base.gametip.technology_is_actived = {
 	tip = "研究中の研究項目があります"
 }
 
-_G.pg.gametip.technology_stop_tip = {
+_G.pg.base.gametip.technology_stop_tip = {
 	tip = "研究を中止しますか？（消費したアイテム・資源は元に戻りません）"
 }
 
-_G.pg.gametip.technology_help_text = {
+_G.pg.base.gametip.technology_help_text = {
 	tip = {
 		{
 			info = [[
@@ -8841,55 +8841,55 @@ _G.pg.gametip.technology_help_text = {
 	}
 }
 
-_G.pg.gametip.blueprint_build_time_tip = {
+_G.pg.base.gametip.blueprint_build_time_tip = {
 	tip = "開発開始・再開24時間以内は開発対象を変更できません。\n\nこのまま開発を開始しますか？"
 }
 
-_G.pg.gametip.blueprint_cannot_build_tip = {
+_G.pg.base.gametip.blueprint_cannot_build_tip = {
 	tip = "開発対象が変更可能になるまで$1"
 }
 
-_G.pg.gametip.technology_task_none_tip = {
+_G.pg.base.gametip.technology_task_none_tip = {
 	tip = "-なし-"
 }
 
-_G.pg.gametip.technology_task_build_tip = {
+_G.pg.base.gametip.technology_task_build_tip = {
 	tip = "研究開始するには下記の資源・アイテムを消費します：$1"
 }
 
-_G.pg.gametip.blueprint_commit_tip = {
+_G.pg.base.gametip.blueprint_commit_tip = {
 	tip = "開発任務を完了するには<color=#92fc63>$1</color>を消費します。開発任務を完了しますか？"
 }
 
-_G.pg.gametip.buleprint_need_level_tip = {
+_G.pg.base.gametip.buleprint_need_level_tip = {
 	tip = "該当艦がレベル$1で開放"
 }
 
-_G.pg.gametip.blueprint_max_level_tip = {
+_G.pg.base.gametip.blueprint_max_level_tip = {
 	tip = "現在は最大レベルに到達しています"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_intimacy = {
+_G.pg.base.gametip.ship_profile_voice_locked_intimacy = {
 	tip = "好感度$1で開放"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_propose = {
+_G.pg.base.gametip.ship_profile_voice_locked_propose = {
 	tip = "ケッコンで開放"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_propose_imas = {
+_G.pg.base.gametip.ship_profile_voice_locked_propose_imas = {
 	tip = "団結で開放"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_design = {
+_G.pg.base.gametip.ship_profile_voice_locked_design = {
 	tip = "強化レベル$1で開放"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_meta = {
+_G.pg.base.gametip.ship_profile_voice_locked_meta = {
 	tip = "维修进度达到$1%后解锁(未使用)"
 }
 
-_G.pg.gametip.help_technolog0 = {
+_G.pg.base.gametip.help_technolog0 = {
 	tip = {
 		{
 			icon = {
@@ -8921,7 +8921,7 @@ _G.pg.gametip.help_technolog0 = {
 	}
 }
 
-_G.pg.gametip.help_technolog = {
+_G.pg.base.gametip.help_technolog = {
 	tip = {
 		{
 			icon = {
@@ -8971,15 +8971,15 @@ _G.pg.gametip.help_technolog = {
 	}
 }
 
-_G.pg.gametip.hide_chat_warning = {
+_G.pg.base.gametip.hide_chat_warning = {
 	tip = "チャット機能を停止すると、チャットメッセージを受信しなくなります。チャット機能を停止しますか？"
 }
 
-_G.pg.gametip.show_chat_warning = {
+_G.pg.base.gametip.show_chat_warning = {
 	tip = "チャット機能を再開すると、チャットメッセージを受信するようになります。チャット機能を再開しますか？"
 }
 
-_G.pg.gametip.help_shipblueprintui = {
+_G.pg.base.gametip.help_shipblueprintui = {
 	tip = {
 		{
 			info = [[
@@ -9039,7 +9039,7 @@ _G.pg.gametip.help_shipblueprintui = {
 	}
 }
 
-_G.pg.gametip.help_shipblueprintui_luck = {
+_G.pg.base.gametip.help_shipblueprintui_luck = {
 	tip = {
 		{
 			info = [[
@@ -9053,63 +9053,63 @@ _G.pg.gametip.help_shipblueprintui_luck = {
 	}
 }
 
-_G.pg.gametip.anniversary_task_title_1 = {
+_G.pg.base.gametip.anniversary_task_title_1 = {
 	tip = "それは異型の外敵を断つ剣、人類の最後の守り手。"
 }
 
-_G.pg.gametip.anniversary_task_title_2 = {
+_G.pg.base.gametip.anniversary_task_title_2 = {
 	tip = "共に進むは波を切る鋼鉄の大翼、想い寄せられし歴史の結び目。"
 }
 
-_G.pg.gametip.anniversary_task_title_3 = {
+_G.pg.base.gametip.anniversary_task_title_3 = {
 	tip = "科学の世紀の終焉に、芽生えた革命の種子は反撃の旌旗を翻し、"
 }
 
-_G.pg.gametip.anniversary_task_title_4 = {
+_G.pg.base.gametip.anniversary_task_title_4 = {
 	tip = "揺るがぬ信念を抱く武威は水平線に立ちはだかる試練を超克す。"
 }
 
-_G.pg.gametip.anniversary_task_title_5 = {
+_G.pg.base.gametip.anniversary_task_title_5 = {
 	tip = "いわば忠義。栄光の女王陛下に仕えし者は自然の恩恵を授かる。"
 }
 
-_G.pg.gametip.anniversary_task_title_6 = {
+_G.pg.base.gametip.anniversary_task_title_6 = {
 	tip = "いわば勇気。自由を信ずる者は机械なる神の叡冠を戴くが運命。"
 }
 
-_G.pg.gametip.anniversary_task_title_7 = {
+_G.pg.base.gametip.anniversary_task_title_7 = {
 	tip = "いわば結束。絆を繋げる者は己の心象を形而上的に昇華させる。"
 }
 
-_G.pg.gametip.anniversary_task_title_8 = {
+_G.pg.base.gametip.anniversary_task_title_8 = {
 	tip = "いわば弁証。偽りの永劫を望郷する者こそ真なる超人に至らん。"
 }
 
-_G.pg.gametip.anniversary_task_title_9 = {
+_G.pg.base.gametip.anniversary_task_title_9 = {
 	tip = "いわば情熱。不屈なる者が征く、我が道の果てに勝利の絶景を。"
 }
 
-_G.pg.gametip.anniversary_task_title_10 = {
+_G.pg.base.gametip.anniversary_task_title_10 = {
 	tip = "いわば敬虔。輝く物語の結末を夢見る者に書き手のご加護あれ。"
 }
 
-_G.pg.gametip.anniversary_task_title_11 = {
+_G.pg.base.gametip.anniversary_task_title_11 = {
 	tip = "鋼の記憶をリュウコツに、人々の願いで形作られし者、"
 }
 
-_G.pg.gametip.anniversary_task_title_12 = {
+_G.pg.base.gametip.anniversary_task_title_12 = {
 	tip = "再誕された「艦船」――私達の歌声でその存在の錨を下ろそう。"
 }
 
-_G.pg.gametip.anniversary_task_title_13 = {
+_G.pg.base.gametip.anniversary_task_title_13 = {
 	tip = "あなたは、人類の文明を救うために作られた炎と鉄の箱船。"
 }
 
-_G.pg.gametip.anniversary_task_title_14 = {
+_G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "あなたは、支配されない自我を持つ「ニンゲン」に相応しい――"
 }
 
-_G.pg.gametip.help_sos = {
+_G.pg.base.gametip.help_sos = {
 	tip = {
 		{
 			info = [[
@@ -9137,19 +9137,19 @@ _G.pg.gametip.help_sos = {
 	}
 }
 
-_G.pg.gametip.sos_lock = {
+_G.pg.base.gametip.sos_lock = {
 	tip = "救援海域は開放されていません"
 }
 
-_G.pg.gametip.charge_scene_buy_confirm = {
+_G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
 }
 
-_G.pg.gametip.charge_scene_batch_buy_tip = {
+_G.pg.base.gametip.charge_scene_batch_buy_tip = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n$4を<color=$3>$2</color>個購入しますか？"
 }
 
-_G.pg.gametip.help_level_ui = {
+_G.pg.base.gametip.help_level_ui = {
 	tip = {
 		{
 			icon = {
@@ -9247,115 +9247,115 @@ _G.pg.gametip.help_level_ui = {
 	}
 }
 
-_G.pg.gametip.guild_modify_info_tip = {
+_G.pg.base.gametip.guild_modify_info_tip = {
 	tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>で大艦隊名を変更しますか？"
 }
 
-_G.pg.gametip.ai_change_1 = {
+_G.pg.base.gametip.ai_change_1 = {
 	tip = "潜水艦隊・支援待機態勢に移行しました"
 }
 
-_G.pg.gametip.ai_change_2 = {
+_G.pg.base.gametip.ai_change_2 = {
 	tip = "潜水艦隊・主動索敵態勢に移行しました"
 }
 
-_G.pg.gametip.activity_shop_lable = {
+_G.pg.base.gametip.activity_shop_lable = {
 	tip = "※交換可能期間：<color=#FFCF81>$1</color>"
 }
 
-_G.pg.gametip.levelScene_tracking_error_pre = {
+_G.pg.base.gametip.levelScene_tracking_error_pre = {
 	tip = "<color=#92fc63>$1</color>クリアで参加可能"
 }
 
-_G.pg.gametip.ship_limit_notice = {
+_G.pg.base.gametip.ship_limit_notice = {
 	tip = "*潜水艦ステータスが含まれない"
 }
 
-_G.pg.gametip.idle = {
+_G.pg.base.gametip.idle = {
 	tip = "待機"
 }
 
-_G.pg.gametip.main_1 = {
+_G.pg.base.gametip.main_1 = {
 	tip = "メイン\n1"
 }
 
-_G.pg.gametip.main_2 = {
+_G.pg.base.gametip.main_2 = {
 	tip = "メイン\n2"
 }
 
-_G.pg.gametip.main_3 = {
+_G.pg.base.gametip.main_3 = {
 	tip = "メイン\n3"
 }
 
-_G.pg.gametip.complete = {
+_G.pg.base.gametip.complete = {
 	tip = "委託\n完了"
 }
 
-_G.pg.gametip.login = {
+_G.pg.base.gametip.login = {
 	tip = "ログ\nイン"
 }
 
-_G.pg.gametip.home = {
+_G.pg.base.gametip.home = {
 	tip = "母港\n帰還"
 }
 
-_G.pg.gametip.mail = {
+_G.pg.base.gametip.mail = {
 	tip = "メール"
 }
 
-_G.pg.gametip.mission = {
+_G.pg.base.gametip.mission = {
 	tip = "任務"
 }
 
-_G.pg.gametip.mission_complete = {
+_G.pg.base.gametip.mission_complete = {
 	tip = "任務\n完了"
 }
 
-_G.pg.gametip.wedding = {
+_G.pg.base.gametip.wedding = {
 	tip = "ケッコン"
 }
 
-_G.pg.gametip.touch_head = {
+_G.pg.base.gametip.touch_head = {
 	tip = "タッチ\n3"
 }
 
-_G.pg.gametip.touch_body = {
+_G.pg.base.gametip.touch_body = {
 	tip = "タッチ\n1"
 }
 
-_G.pg.gametip.touch_special = {
+_G.pg.base.gametip.touch_special = {
 	tip = "タッチ\n2"
 }
 
-_G.pg.gametip.gold = {
+_G.pg.base.gametip.gold = {
 	tip = "資金"
 }
 
-_G.pg.gametip.oil = {
+_G.pg.base.gametip.oil = {
 	tip = "燃料"
 }
 
-_G.pg.gametip.diamond = {
+_G.pg.base.gametip.diamond = {
 	tip = "ダイヤ"
 }
 
-_G.pg.gametip.word_photo_mode = {
+_G.pg.base.gametip.word_photo_mode = {
 	tip = "カメラ"
 }
 
-_G.pg.gametip.word_video_mode = {
+_G.pg.base.gametip.word_video_mode = {
 	tip = "録画"
 }
 
-_G.pg.gametip.word_save_ok = {
+_G.pg.base.gametip.word_save_ok = {
 	tip = "写真を保存しました"
 }
 
-_G.pg.gametip.word_save_video = {
+_G.pg.base.gametip.word_save_video = {
 	tip = "録画に成功しました。録画した動画を保存しますか？"
 }
 
-_G.pg.gametip.reflux_help_tip = {
+_G.pg.base.gametip.reflux_help_tip = {
 	tip = {
 		{
 			info = "明石Pt入手方法："
@@ -9387,67 +9387,67 @@ _G.pg.gametip.reflux_help_tip = {
 	}
 }
 
-_G.pg.gametip.reflux_pt_not_enough = {
+_G.pg.base.gametip.reflux_pt_not_enough = {
 	tip = "明石Ptが足りません"
 }
 
-_G.pg.gametip.reflux_word_1 = {
+_G.pg.base.gametip.reflux_word_1 = {
 	tip = "残り時間"
 }
 
-_G.pg.gametip.reflux_word_2 = {
+_G.pg.base.gametip.reflux_word_2 = {
 	tip = "開放"
 }
 
-_G.pg.gametip.ship_hunting_level_tips = {
+_G.pg.base.gametip.ship_hunting_level_tips = {
 	tip = "※限界突破と装備効果、オフニャによる支援範囲Lv上昇のみが反映されます。"
 }
 
-_G.pg.gametip.acquisitionmode_is_not_open = {
+_G.pg.base.gametip.acquisitionmode_is_not_open = {
 	tip = "入手方法は現在開放されていません"
 }
 
-_G.pg.gametip.collect_chapter_is_activation = {
+_G.pg.base.gametip.collect_chapter_is_activation = {
 	tip = "海域に出撃中です。海域から撤退しますか？"
 }
 
-_G.pg.gametip.levelScene_chapter_is_activation = {
+_G.pg.base.gametip.levelScene_chapter_is_activation = {
 	tip = "海域<color=#92fc63>$1</color>に出撃しています。海域攻略状況を確認しますか？\n（撤退で出撃中の海域から撤退することが可能です）"
 }
 
-_G.pg.gametip.resource_verify_warn = {
+_G.pg.base.gametip.resource_verify_warn = {
 	tip = "キャッシュクリアを行いますか？（キャッシュクリア中に端末が短い間反応しなくなる場合がございます）"
 }
 
-_G.pg.gametip.resource_verify_fail = {
+_G.pg.base.gametip.resource_verify_fail = {
 	tip = "キャッシュクリアが完了しました。「確定」をタップしてゲームを再起動し、最新データの適用をお願いします$1"
 }
 
-_G.pg.gametip.resource_verify_success = {
+_G.pg.base.gametip.resource_verify_success = {
 	tip = "キャッシュクリアが完了しました。"
 }
 
-_G.pg.gametip.resource_clear_all = {
+_G.pg.base.gametip.resource_clear_all = {
 	tip = "キャッシュデータをクリアしますか？\n（キャッシュクリア完了後アプリが自動で終了します）"
 }
 
-_G.pg.gametip.acl_oil_count = {
+_G.pg.base.gametip.acl_oil_count = {
 	tip = "目標消費"
 }
 
-_G.pg.gametip.acl_oil_total_count = {
+_G.pg.base.gametip.acl_oil_total_count = {
 	tip = "累計燃料消費"
 }
 
-_G.pg.gametip.word_take_video_tip = {
+_G.pg.base.gametip.word_take_video_tip = {
 	tip = "録画中に右側のボタンをタップすると録画を終了することが出来ます"
 }
 
-_G.pg.gametip.word_snapshot_share_title = {
+_G.pg.base.gametip.word_snapshot_share_title = {
 	tip = "アズールレーン　利用規約"
 }
 
-_G.pg.gametip.word_snapshot_share_agreement = {
+_G.pg.base.gametip.word_snapshot_share_agreement = {
 	tip = [[
 ・ユーザーは、本機能を利用するにあたり、自己の責任で行うものであることに同意し、かつ既にご同意いただいている「アズールレーン利用規約」の第9条を改めてご確認ください。
 ・本機能により提供、保存、送信された情報については、私的な範囲を超えて利用してはならないものとします。
@@ -9455,15 +9455,15 @@ _G.pg.gametip.word_snapshot_share_agreement = {
 ・当社は本機能を利用することで、他者との間でなされた情報の授受並びにその他一切の行為により生じたいかなる紛争、損害等については一切の責任を負いません。]]
 }
 
-_G.pg.gametip.skin_remain_time = {
+_G.pg.base.gametip.skin_remain_time = {
 	tip = "販売終了まで"
 }
 
-_G.pg.gametip.word_museum_1 = {
+_G.pg.base.gametip.word_museum_1 = {
 	tip = "今日はこれ以上モデルパーツを入手できません"
 }
 
-_G.pg.gametip.word_museum_help = {
+_G.pg.base.gametip.word_museum_help = {
 	tip = {
 		{
 			info = "ルール："
@@ -9486,7 +9486,7 @@ _G.pg.gametip.word_museum_help = {
 	}
 }
 
-_G.pg.gametip.goldship_help_tip = {
+_G.pg.base.gametip.goldship_help_tip = {
 	tip = {
 		{
 			info = "遊び方："
@@ -9518,7 +9518,7 @@ _G.pg.gametip.goldship_help_tip = {
 	}
 }
 
-_G.pg.gametip.metalgearsub_help_tip = {
+_G.pg.base.gametip.metalgearsub_help_tip = {
 	tip = {
 		{
 			info = "イベント「小さな約束」とは："
@@ -9550,219 +9550,219 @@ _G.pg.gametip.metalgearsub_help_tip = {
 	}
 }
 
-_G.pg.gametip.acl_gold_count = {
+_G.pg.base.gametip.acl_gold_count = {
 	tip = "目標消費："
 }
 
-_G.pg.gametip.acl_gold_total_count = {
+_G.pg.base.gametip.acl_gold_total_count = {
 	tip = "累計資金消費："
 }
 
-_G.pg.gametip.discount_time = {
+_G.pg.base.gametip.discount_time = {
 	tip = "<color=grey>割引残り時間</color> <color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.commander_talent_not_exist = {
+_G.pg.base.gametip.commander_talent_not_exist = {
 	tip = "不正なアビリティ（すでに存在しているアビリティ）です"
 }
 
-_G.pg.gametip.commander_replace_talent_not_exist = {
+_G.pg.base.gametip.commander_replace_talent_not_exist = {
 	tip = "不正なアビリティ（変更先のアビリティ）です"
 }
 
-_G.pg.gametip.commander_talent_learned = {
+_G.pg.base.gametip.commander_talent_learned = {
 	tip = "アビリティ$1を習得しました"
 }
 
-_G.pg.gametip.commander_talent_learn_erro = {
+_G.pg.base.gametip.commander_talent_learn_erro = {
 	tip = "アビリティを習得できませんでした$1"
 }
 
-_G.pg.gametip.commander_not_exist = {
+_G.pg.base.gametip.commander_not_exist = {
 	tip = "オフニャが存在していません"
 }
 
-_G.pg.gametip.commander_fleet_not_exist = {
+_G.pg.base.gametip.commander_fleet_not_exist = {
 	tip = "艦隊が存在していません"
 }
 
-_G.pg.gametip.commander_fleet_pos_not_exist = {
+_G.pg.base.gametip.commander_fleet_pos_not_exist = {
 	tip = "オフニャが装備されていません"
 }
 
-_G.pg.gametip.commander_equip_to_fleet_erro = {
+_G.pg.base.gametip.commander_equip_to_fleet_erro = {
 	tip = "オフニャを装備できませんでした$1"
 }
 
-_G.pg.gametip.commander_acquire_erro = {
+_G.pg.base.gametip.commander_acquire_erro = {
 	tip = "オフニャを入手できませんでした$1"
 }
 
-_G.pg.gametip.commander_lock_erro = {
+_G.pg.base.gametip.commander_lock_erro = {
 	tip = "保護に失敗しました$1"
 }
 
-_G.pg.gametip.commander_reset_talent_time_no_rearch = {
+_G.pg.base.gametip.commander_reset_talent_time_no_rearch = {
 	tip = "一定時間内では1回しかリセットできません"
 }
 
-_G.pg.gametip.commander_reset_talent_is_not_need = {
+_G.pg.base.gametip.commander_reset_talent_is_not_need = {
 	tip = "初期状態ではリセットできません"
 }
 
-_G.pg.gametip.commander_reset_talent_success = {
+_G.pg.base.gametip.commander_reset_talent_success = {
 	tip = "アビリティをリセットしました"
 }
 
-_G.pg.gametip.commander_reset_talent_erro = {
+_G.pg.base.gametip.commander_reset_talent_erro = {
 	tip = "アビリティをリセットできませんでした$1"
 }
 
-_G.pg.gametip.commander_can_not_be_upgrade = {
+_G.pg.base.gametip.commander_can_not_be_upgrade = {
 	tip = "このオフニャはレベルアップできません"
 }
 
-_G.pg.gametip.commander_anyone_is_in_fleet = {
+_G.pg.base.gametip.commander_anyone_is_in_fleet = {
 	tip = "装備中のオフニャが選択されています"
 }
 
-_G.pg.gametip.commander_is_in_fleet = {
+_G.pg.base.gametip.commander_is_in_fleet = {
 	tip = "オフニャが出撃中です"
 }
 
-_G.pg.gametip.commander_play_erro = {
+_G.pg.base.gametip.commander_play_erro = {
 	tip = "強化に失敗しました$1"
 }
 
-_G.pg.gametip.ship_equip_same_group_equipment = {
+_G.pg.base.gametip.ship_equip_same_group_equipment = {
 	tip = "【唯一】装備は2つ以上装備できません"
 }
 
-_G.pg.gametip.summary_page_un_rearch = {
+_G.pg.base.gametip.summary_page_un_rearch = {
 	tip = "まだ入手してい\nません"
 }
 
-_G.pg.gametip.commander_exp_overflow_tip = {
+_G.pg.base.gametip.commander_exp_overflow_tip = {
 	tip = "入手する経験値が最大経験値を超えてしまいます。強化しますか？"
 }
 
-_G.pg.gametip.commander_reset_talent_tip = {
+_G.pg.base.gametip.commander_reset_talent_tip = {
 	tip = "アビリティをリセットしますか？"
 }
 
-_G.pg.gametip.commander_reset_talent = {
+_G.pg.base.gametip.commander_reset_talent = {
 	tip = "リセット可能"
 }
 
-_G.pg.gametip.commander_select_min_cnt = {
+_G.pg.base.gametip.commander_select_min_cnt = {
 	tip = "$1以上のオフニャを選択する必要があります"
 }
 
-_G.pg.gametip.commander_select_max = {
+_G.pg.base.gametip.commander_select_max = {
 	tip = "これ以上選択できません"
 }
 
-_G.pg.gametip.commander_lock_done = {
+_G.pg.base.gametip.commander_lock_done = {
 	tip = "保護に成功しました"
 }
 
-_G.pg.gametip.commander_unlock_done = {
+_G.pg.base.gametip.commander_unlock_done = {
 	tip = "保護解除に成功しました"
 }
 
-_G.pg.gametip.commander_get_1 = {
+_G.pg.base.gametip.commander_get_1 = {
 	tip = "毎日一回目のネコハコ購入は無料だにゃ！"
 }
 
-_G.pg.gametip.commander_get = {
+_G.pg.base.gametip.commander_get = {
 	tip = "資金$1を消費し、ネコハコを$2個購入しますか？"
 }
 
-_G.pg.gametip.commander_build_done = {
+_G.pg.base.gametip.commander_build_done = {
 	tip = "オフニャ訓練開始！"
 }
 
-_G.pg.gametip.commander_build_erro = {
+_G.pg.base.gametip.commander_build_erro = {
 	tip = "オフニャ訓練失敗：$1"
 }
 
-_G.pg.gametip.commander_get_skills_done = {
+_G.pg.base.gametip.commander_get_skills_done = {
 	tip = "習得可能リストの取得に失敗しました"
 }
 
-_G.pg.gametip.collection_way_is_unopen = {
+_G.pg.base.gametip.collection_way_is_unopen = {
 	tip = "現在は入手できません"
 }
 
-_G.pg.gametip.commander_can_not_select_same_group = {
+_G.pg.base.gametip.commander_can_not_select_same_group = {
 	tip = "同じ艦隊に編成中のオフニャを選択できません"
 }
 
-_G.pg.gametip.commander_capcity_is_max = {
+_G.pg.base.gametip.commander_capcity_is_max = {
 	tip = "猫ハウスがいっぱいにゃ…"
 }
 
-_G.pg.gametip.commander_reserve_count_is_max = {
+_G.pg.base.gametip.commander_reserve_count_is_max = {
 	tip = "これ以上は購入できません"
 }
 
-_G.pg.gametip.commander_build_pool_tip = {
+_G.pg.base.gametip.commander_build_pool_tip = {
 	tip = "$2つの$1を消費し、オフニャを訓練しますか？"
 }
 
-_G.pg.gametip.commander_select_matiral_erro = {
+_G.pg.base.gametip.commander_select_matiral_erro = {
 	tip = "オフニャのレベルが最大になっています。同じ名前のオフニャを消費するスキル強化以外強化を行えません"
 }
 
-_G.pg.gametip.commander_material_is_rarity = {
+_G.pg.base.gametip.commander_material_is_rarity = {
 	tip = "SSRのオフニャが選択されています。続けますか？"
 }
 
-_G.pg.gametip.commander_material_is_maxLevel = {
+_G.pg.base.gametip.commander_material_is_maxLevel = {
 	tip = "オフニャのレベルが最大になっています。これ以上強化を行っても経験値が得られません。続けますか？"
 }
 
-_G.pg.gametip.charge_commander_bag_max = {
+_G.pg.base.gametip.charge_commander_bag_max = {
 	tip = "猫ハウス（オフニャ所持数）が上限になっています。これ以上増築できません"
 }
 
-_G.pg.gametip.shop_extendcommander_success = {
+_G.pg.base.gametip.shop_extendcommander_success = {
 	tip = "猫ハウス（オフニャ所持数）増築に成功しました"
 }
 
-_G.pg.gametip.commander_skill_point_noengough = {
+_G.pg.base.gametip.commander_skill_point_noengough = {
 	tip = "アビリティPtが不足しています"
 }
 
-_G.pg.gametip.buildship_new_tip = {
+_G.pg.base.gametip.buildship_new_tip = {
 	tip = "「エムデン」、「リュッツォウ」などが出現率UP！"
 }
 
-_G.pg.gametip.buildship_heavy_tip = {
+_G.pg.base.gametip.buildship_heavy_tip = {
 	tip = "「アラバマ」「ボルチモア」常設実装！"
 }
 
-_G.pg.gametip.buildship_light_tip = {
+_G.pg.base.gametip.buildship_light_tip = {
 	tip = "「アレン・M・サムナー」「ステフェン・ポッター」などが常設実装！"
 }
 
-_G.pg.gametip.buildship_special_tip = {
+_G.pg.base.gametip.buildship_special_tip = {
 	tip = "「フォーミダブル」常設実装！"
 }
 
-_G.pg.gametip.open_skill_pos = {
+_G.pg.base.gametip.open_skill_pos = {
 	tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>を消費し\n教室枠を拡張しますか？"
 }
 
-_G.pg.gametip.open_skill_pos_discount = {
+_G.pg.base.gametip.open_skill_pos_discount = {
 	tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>を消費し\n教室枠を拡張しますか？"
 }
 
-_G.pg.gametip.event_recommend_fail = {
+_G.pg.base.gametip.event_recommend_fail = {
 	tip = "軍事委託の編成条件を満たせません"
 }
 
-_G.pg.gametip.newplayer_help_tip = {
+_G.pg.base.gametip.newplayer_help_tip = {
 	tip = {
 		{
 			info = "※新要素"
@@ -9790,83 +9790,83 @@ _G.pg.gametip.newplayer_help_tip = {
 	}
 }
 
-_G.pg.gametip.newplayer_notice_1 = {
+_G.pg.base.gametip.newplayer_notice_1 = {
 	tip = "初級任務全クリアで開放"
 }
 
-_G.pg.gametip.newplayer_notice_2 = {
+_G.pg.base.gametip.newplayer_notice_2 = {
 	tip = "中級任務全クリアで開放"
 }
 
-_G.pg.gametip.newplayer_notice_3 = {
+_G.pg.base.gametip.newplayer_notice_3 = {
 	tip = "上級任務全クリアで開放"
 }
 
-_G.pg.gametip.newplayer_notice_4 = {
+_G.pg.base.gametip.newplayer_notice_4 = {
 	tip = "クリアで「ポートランド」をGET"
 }
 
-_G.pg.gametip.newplayer_notice_5 = {
+_G.pg.base.gametip.newplayer_notice_5 = {
 	tip = "クリアで「ネルソン」をGET"
 }
 
-_G.pg.gametip.newplayer_notice_6 = {
+_G.pg.base.gametip.newplayer_notice_6 = {
 	tip = "クリアで「フッド」「サンディエゴ」「エンタープライズ」「イラストリアス」から一隻を入手可能"
 }
 
-_G.pg.gametip.newplayer_notice_7 = {
+_G.pg.base.gametip.newplayer_notice_7 = {
 	tip = "前段階の任務クリア後に開放"
 }
 
-_G.pg.gametip.newplayer_notice_8 = {
+_G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "海域を上手く攻略できない時は、「新兵任務」で様々な報酬を手に入れて戦力を充実させましょう！"
 }
 
-_G.pg.gametip.tec_notice_1 = {
+_G.pg.base.gametip.tec_notice_1 = {
 	tip = "Ⅰ期特別計画艦任務全てクリアで開放"
 }
 
-_G.pg.gametip.tec_notice_2 = {
+_G.pg.base.gametip.tec_notice_2 = {
 	tip = "新兵任務「開発・Ⅱ期」全クリアで開放"
 }
 
-_G.pg.gametip.tec_notice_3 = {
+_G.pg.base.gametip.tec_notice_3 = {
 	tip = "特別計画艦Ⅲ期新兵任務全クリアで解放"
 }
 
-_G.pg.gametip.tec_notice_not_open_tip = {
+_G.pg.base.gametip.tec_notice_not_open_tip = {
 	tip = "前期の開発新兵任務クリアで開放"
 }
 
-_G.pg.gametip.apply_permission_camera_tip1 = {
+_G.pg.base.gametip.apply_permission_camera_tip1 = {
 	tip = "AR録画機能を利用するには、\n音声の録音を許可する必要があります"
 }
 
-_G.pg.gametip.apply_permission_camera_tip2 = {
+_G.pg.base.gametip.apply_permission_camera_tip2 = {
 	tip = "音声録音の権限がOFFになっています。\n端末の設定画面をご確認ください。"
 }
 
-_G.pg.gametip.apply_permission_camera_tip3 = {
+_G.pg.base.gametip.apply_permission_camera_tip3 = {
 	tip = "音声録音の権限がOFFの場合、AR録画機能を利用できません。"
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip1 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
 	tip = "ARカメラ機能を利用するには、\n写真の撮影と動画の利用を許可する必要があります"
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip2 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
 	tip = "カメラの権限がOFFになっています。\n端末の設定画面をご確認ください。"
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip3 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip3 = {
 	tip = "カメラの権限がOFFの場合、ARカメラ機能を利用できません。"
 }
 
-_G.pg.gametip.nine_choose_one = {
+_G.pg.base.gametip.nine_choose_one = {
 	tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n※艦船「<color=#92fc63>$1</color>」と記念アイテムを入手できます"
 }
 
-_G.pg.gametip.help_commander_info = {
+_G.pg.base.gametip.help_commander_info = {
 	tip = {
 		{
 			icon = {
@@ -9946,7 +9946,7 @@ _G.pg.gametip.help_commander_info = {
 	}
 }
 
-_G.pg.gametip.help_commander_play = {
+_G.pg.base.gametip.help_commander_play = {
 	tip = {
 		{
 			icon = {
@@ -10026,7 +10026,7 @@ _G.pg.gametip.help_commander_play = {
 	}
 }
 
-_G.pg.gametip.help_commander_ability = {
+_G.pg.base.gametip.help_commander_ability = {
 	tip = {
 		{
 			icon = {
@@ -10106,15 +10106,15 @@ _G.pg.gametip.help_commander_ability = {
 	}
 }
 
-_G.pg.gametip.story_skip_confirm = {
+_G.pg.base.gametip.story_skip_confirm = {
 	tip = "未読シナリオをスキップしますか？\nスキップしたシナリオは「思い出」で閲覧できます"
 }
 
-_G.pg.gametip.commander_ability_replace_warning = {
+_G.pg.base.gametip.commander_ability_replace_warning = {
 	tip = "上位アビリティは習得予定のアビリティに上書きされます。続けますか？"
 }
 
-_G.pg.gametip.help_command_room = {
+_G.pg.base.gametip.help_command_room = {
 	tip = {
 		{
 			icon = {
@@ -10194,11 +10194,11 @@ _G.pg.gametip.help_command_room = {
 	}
 }
 
-_G.pg.gametip.commander_build_rate_tip = {
+_G.pg.base.gametip.commander_build_rate_tip = {
 	tip = "ネコハコ出現率：SSR 5%、SR 35%、R 60%"
 }
 
-_G.pg.gametip.help_activity_bossbattle = {
+_G.pg.base.gametip.help_activity_bossbattle = {
 	tip = {
 		{
 			info = "                                     ※遊び方※\n"
@@ -10224,115 +10224,115 @@ _G.pg.gametip.help_activity_bossbattle = {
 	}
 }
 
-_G.pg.gametip.commander_is_in_fleet_already = {
+_G.pg.base.gametip.commander_is_in_fleet_already = {
 	tip = "オフニャが装備されています"
 }
 
-_G.pg.gametip.commander_material_is_in_fleet_tip = {
+_G.pg.base.gametip.commander_material_is_in_fleet_tip = {
 	tip = "オフニャが艦隊に装備されています。\nオフニャをはずしますか？"
 }
 
-_G.pg.gametip.commander_main_pos = {
+_G.pg.base.gametip.commander_main_pos = {
 	tip = "指揮ニャ"
 }
 
-_G.pg.gametip.commander_assistant_pos = {
+_G.pg.base.gametip.commander_assistant_pos = {
 	tip = "参謀ニャ"
 }
 
-_G.pg.gametip.comander_repalce_tip = {
+_G.pg.base.gametip.comander_repalce_tip = {
 	tip = "$1の$2に装備されているオフニャです。\nオフニャの装備を切り替えますか？"
 }
 
-_G.pg.gametip.commander_lock_tip = {
+_G.pg.base.gametip.commander_lock_tip = {
 	tip = "オフニャを保護しますか？"
 }
 
-_G.pg.gametip.commander_is_in_battle = {
+_G.pg.base.gametip.commander_is_in_battle = {
 	tip = "オフニャが出撃中です"
 }
 
-_G.pg.gametip.commander_rename_warning = {
+_G.pg.base.gametip.commander_rename_warning = {
 	tip = "オフニャの名前を$1に変更しますか？"
 }
 
-_G.pg.gametip.commander_rename_coldtime_tip = {
+_G.pg.base.gametip.commander_rename_coldtime_tip = {
 	tip = "オフニャは24時間以内で1回しか名前を変更できません。"
 }
 
-_G.pg.gametip.commander_rename_success_tip = {
+_G.pg.base.gametip.commander_rename_success_tip = {
 	tip = "更名成功"
 }
 
-_G.pg.gametip.amercian_notice_1 = {
+_G.pg.base.gametip.amercian_notice_1 = {
 	tip = "女王の褒章<color=#92fc63>$1</color>を消費し、作戦補給を<color=#92fc63>$2</color>回交換しますか？"
 }
 
-_G.pg.gametip.amercian_notice_2 = {
+_G.pg.base.gametip.amercian_notice_2 = {
 	tip = "※目標報酬を全て入手後、次の段階が開放されます"
 }
 
-_G.pg.gametip.amercian_notice_3 = {
+_G.pg.base.gametip.amercian_notice_3 = {
 	tip = "報酬交換期間：2019.1.24~2.20"
 }
 
-_G.pg.gametip.amercian_notice_4 = {
+_G.pg.base.gametip.amercian_notice_4 = {
 	tip = "女王の褒章"
 }
 
-_G.pg.gametip.amercian_notice_5 = {
+_G.pg.base.gametip.amercian_notice_5 = {
 	tip = "本段階はまだ開放されていません"
 }
 
-_G.pg.gametip.amercian_notice_6 = {
+_G.pg.base.gametip.amercian_notice_6 = {
 	tip = "所持資源（燃料/資金）が上限になっています。作戦補給で入手した資源が破棄されます。作戦補給を交換しますか？"
 }
 
-_G.pg.gametip.ranking_word_1 = {
+_G.pg.base.gametip.ranking_word_1 = {
 	tip = "総合戦力"
 }
 
-_G.pg.gametip.ranking_word_2 = {
+_G.pg.base.gametip.ranking_word_2 = {
 	tip = "入手率"
 }
 
-_G.pg.gametip.ranking_word_3 = {
+_G.pg.base.gametip.ranking_word_3 = {
 	tip = "0"
 }
 
-_G.pg.gametip.ranking_word_4 = {
+_G.pg.base.gametip.ranking_word_4 = {
 	tip = "チャレンジPt"
 }
 
-_G.pg.gametip.ranking_word_5 = {
+_G.pg.base.gametip.ranking_word_5 = {
 	tip = "ランキング"
 }
 
-_G.pg.gametip.ranking_word_6 = {
+_G.pg.base.gametip.ranking_word_6 = {
 	tip = "階級"
 }
 
-_G.pg.gametip.ranking_word_7 = {
+_G.pg.base.gametip.ranking_word_7 = {
 	tip = "最高階級"
 }
 
-_G.pg.gametip.ranking_word_8 = {
+_G.pg.base.gametip.ranking_word_8 = {
 	tip = "指揮官名"
 }
 
-_G.pg.gametip.ranking_word_9 = {
+_G.pg.base.gametip.ranking_word_9 = {
 	tip = "得点"
 }
 
-_G.pg.gametip.ranking_word_10 = {
+_G.pg.base.gametip.ranking_word_10 = {
 	tip = "演習Pt"
 }
 
-_G.pg.gametip.spece_illegal_tip = {
+_G.pg.base.gametip.spece_illegal_tip = {
 	tip = "名前にスペースを入れることはできません"
 }
 
-_G.pg.gametip.utaware_warmup_notice = {
+_G.pg.base.gametip.utaware_warmup_notice = {
 	tip = {
 		{
 			info = "ルール："
@@ -10355,7 +10355,7 @@ _G.pg.gametip.utaware_warmup_notice = {
 	}
 }
 
-_G.pg.gametip.utaware_formal_notice = {
+_G.pg.base.gametip.utaware_formal_notice = {
 	tip = {
 		{
 			info = "SP4クリア後、下記ステージで特定の条件を達成すると、ストー\nリーが開放可能になります。\n"
@@ -10393,167 +10393,167 @@ _G.pg.gametip.utaware_formal_notice = {
 	}
 }
 
-_G.pg.gametip.npc_learn_skill_tip = {
+_G.pg.base.gametip.npc_learn_skill_tip = {
 	tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※スキル強化に使用したアイテムは返還されません。続けますか？"
 }
 
-_G.pg.gametip.npc_upgrade_max_level = {
+_G.pg.base.gametip.npc_upgrade_max_level = {
 	tip = "「正式加入」していないコラボキャラは認識覚醒を行えません"
 }
 
-_G.pg.gametip.npc_propse_tip = {
+_G.pg.base.gametip.npc_propse_tip = {
 	tip = "「正式加入」していないコラボキャラはケッコンを行えません"
 }
 
-_G.pg.gametip.npc_strength_tip = {
+_G.pg.base.gametip.npc_strength_tip = {
 	tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？"
 }
 
-_G.pg.gametip.npc_breakout_tip = {
+_G.pg.base.gametip.npc_breakout_tip = {
 	tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？"
 }
 
-_G.pg.gametip.word_chuansong = {
+_G.pg.base.gametip.word_chuansong = {
 	tip = "コイン"
 }
 
-_G.pg.gametip.npc_evaluation_tip = {
+_G.pg.base.gametip.npc_evaluation_tip = {
 	tip = "仮加入状態のキャラクターのコメントを確認することが出来ません"
 }
 
-_G.pg.gametip.map_event_skip = {
+_G.pg.base.gametip.map_event_skip = {
 	tip = "既読ストーリーをスキップする"
 }
 
-_G.pg.gametip.map_event_stop_tip = {
+_G.pg.base.gametip.map_event_stop_tip = {
 	tip = "同じ色の<color=#92fc63>解除マス</color>を踏むことで通行可能になります"
 }
 
-_G.pg.gametip.map_event_stop_battle_tip = {
+_G.pg.base.gametip.map_event_stop_battle_tip = {
 	tip = "<color=#92fc63>特定の敵を撃破する</color>ことで通行禁止状態を解除できます"
 }
 
-_G.pg.gametip.map_event_stop_battle_tip_2 = {
+_G.pg.base.gametip.map_event_stop_battle_tip_2 = {
 	tip = "<color=#ff5c5c>特殊マスの敵</color>をすべて撃破してください"
 }
 
-_G.pg.gametip.map_event_stop_story_tip = {
+_G.pg.base.gametip.map_event_stop_story_tip = {
 	tip = "<color=#92fc63>イベントマスを踏む</color>ことで通行禁止状態を解除できます"
 }
 
-_G.pg.gametip.map_event_save_nekone = {
+_G.pg.base.gametip.map_event_save_nekone = {
 	tip = "<color=#92fc63>ネコネ</color>の救出に成功しました！"
 }
 
-_G.pg.gametip.map_event_save_rurutie = {
+_G.pg.base.gametip.map_event_save_rurutie = {
 	tip = "<color=#92fc63>ルルティエ</color>の救出に成功しました！"
 }
 
-_G.pg.gametip.map_event_memory_collected = {
+_G.pg.base.gametip.map_event_memory_collected = {
 	tip = "ストーリー「$1」開放成功！"
 }
 
-_G.pg.gametip.map_event_save_kizuna = {
+_G.pg.base.gametip.map_event_save_kizuna = {
 	tip = "成功救出<color=#92fc63>绊爱</color>"
 }
 
-_G.pg.gametip.five_choose_one = {
+_G.pg.base.gametip.five_choose_one = {
 	tip = "使用すると、<color=#92fc63>$1</color>と記念アイテムを\n入手することが出来ます。\n聖夜の贈り物を使用しますか？"
 }
 
-_G.pg.gametip.ship_preference_common = {
+_G.pg.base.gametip.ship_preference_common = {
 	tip = "常用艦船に設定しました"
 }
 
-_G.pg.gametip.draw_big_luck_1 = {
+_G.pg.base.gametip.draw_big_luck_1 = {
 	tip = "お正月に幸運がつきものだにゃ！"
 }
 
-_G.pg.gametip.draw_big_luck_2 = {
+_G.pg.base.gametip.draw_big_luck_2 = {
 	tip = "豪運にゃ！ちょっと羨ましいにゃ～"
 }
 
-_G.pg.gametip.draw_big_luck_3 = {
+_G.pg.base.gametip.draw_big_luck_3 = {
 	tip = "今日はきっといいことがあるにゃ！"
 }
 
-_G.pg.gametip.draw_medium_luck_1 = {
+_G.pg.base.gametip.draw_medium_luck_1 = {
 	tip = "今日もラッキーな一日になりそうだにゃ！"
 }
 
-_G.pg.gametip.draw_medium_luck_2 = {
+_G.pg.base.gametip.draw_medium_luck_2 = {
 	tip = "運が続いているうちに頑張るにゃ！"
 }
 
-_G.pg.gametip.draw_medium_luck_3 = {
+_G.pg.base.gametip.draw_medium_luck_3 = {
 	tip = "明石にも運を分けてほしいにゃ！"
 }
 
-_G.pg.gametip.draw_little_luck_1 = {
+_G.pg.base.gametip.draw_little_luck_1 = {
 	tip = "これから運がよくなるにゃ！"
 }
 
-_G.pg.gametip.draw_little_luck_2 = {
+_G.pg.base.gametip.draw_little_luck_2 = {
 	tip = "運も努力も大事だにゃ～"
 }
 
-_G.pg.gametip.draw_little_luck_3 = {
+_G.pg.base.gametip.draw_little_luck_3 = {
 	tip = "明石のお店に来ると運も良くなるかもにゃ～"
 }
 
-_G.pg.gametip.ship_preference_non = {
+_G.pg.base.gametip.ship_preference_non = {
 	tip = "常用艦船設定を解除しました"
 }
 
-_G.pg.gametip.school_title_dajiangtang = {
+_G.pg.base.gametip.school_title_dajiangtang = {
 	tip = "大講堂"
 }
 
-_G.pg.gametip.school_title_zhihuimiao = {
+_G.pg.base.gametip.school_title_zhihuimiao = {
 	tip = "オフニャ"
 }
 
-_G.pg.gametip.school_title_shitang = {
+_G.pg.base.gametip.school_title_shitang = {
 	tip = "海軍食堂"
 }
 
-_G.pg.gametip.school_title_xiaomaibu = {
+_G.pg.base.gametip.school_title_xiaomaibu = {
 	tip = "海軍売店"
 }
 
-_G.pg.gametip.school_title_shangdian = {
+_G.pg.base.gametip.school_title_shangdian = {
 	tip = "購買部"
 }
 
-_G.pg.gametip.school_title_xueyuan = {
+_G.pg.base.gametip.school_title_xueyuan = {
 	tip = "戦術教室"
 }
 
-_G.pg.gametip.school_title_shoucang = {
+_G.pg.base.gametip.school_title_shoucang = {
 	tip = "展示室"
 }
 
-_G.pg.gametip.tag_level_fighting = {
+_G.pg.base.gametip.tag_level_fighting = {
 	tip = "攻略中"
 }
 
-_G.pg.gametip.tag_level_oni = {
+_G.pg.base.gametip.tag_level_oni = {
 	tip = "特殊单位"
 }
 
-_G.pg.gametip.tag_level_bomb = {
+_G.pg.base.gametip.tag_level_bomb = {
 	tip = "英系轰炸"
 }
 
-_G.pg.gametip.ui_word_levelui2_inevent = {
+_G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "行動中"
 }
 
-_G.pg.gametip.exit_backyard_exp_display = {
+_G.pg.base.gametip.exit_backyard_exp_display = {
 	tip = "$1が訓練で$2の経験値を入手しました"
 }
 
-_G.pg.gametip.help_monopoly = {
+_G.pg.base.gametip.help_monopoly = {
 	tip = {
 		{
 			info = "ルール："
@@ -10633,11 +10633,11 @@ _G.pg.gametip.help_monopoly = {
 	}
 }
 
-_G.pg.gametip.md5_error = {
+_G.pg.base.gametip.md5_error = {
 	tip = "エラーが発生しました。ゲームを再起動してください"
 }
 
-_G.pg.gametip.world_boss_help = {
+_G.pg.base.gametip.world_boss_help = {
 	tip = {
 		{
 			info = "<color=#92fc63>★遊び方</color>"
@@ -10733,19 +10733,19 @@ _G.pg.gametip.world_boss_help = {
 	}
 }
 
-_G.pg.gametip.world_boss_tip = {
+_G.pg.base.gametip.world_boss_tip = {
 	tip = "「<color=#7e7e7f>$1</color>」が作戦進捗に<color=#8299bc>$2</color>Ptを貢献しました！"
 }
 
-_G.pg.gametip.world_boss_award_limit = {
+_G.pg.base.gametip.world_boss_award_limit = {
 	tip = "作戦進捗<color=#FFDE00FF>$1%</color>で開放"
 }
 
-_G.pg.gametip.backyard_is_loading = {
+_G.pg.base.gametip.backyard_is_loading = {
 	tip = "ただいま家具を準備しています…"
 }
 
-_G.pg.gametip.levelScene_loop_help_tip = {
+_G.pg.base.gametip.levelScene_loop_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -10788,55 +10788,55 @@ _G.pg.gametip.levelScene_loop_help_tip = {
 	}
 }
 
-_G.pg.gametip.no_airspace_competition = {
+_G.pg.base.gametip.no_airspace_competition = {
 	tip = "制空戦なし"
 }
 
-_G.pg.gametip.air_supremacy_value = {
+_G.pg.base.gametip.air_supremacy_value = {
 	tip = "制空値"
 }
 
-_G.pg.gametip.read_the_user_agreement = {
+_G.pg.base.gametip.read_the_user_agreement = {
 	tip = "利用規約を最後までスクロールしてご確認ください"
 }
 
-_G.pg.gametip.award_max_warning = {
+_G.pg.base.gametip.award_max_warning = {
 	tip = "下記の報酬は所持上限分までしか入手できません。続けますか？"
 }
 
-_G.pg.gametip.sub_item_warning = {
+_G.pg.base.gametip.sub_item_warning = {
 	tip = "下記アイテムを消費し、任務を完了させますか？"
 }
 
-_G.pg.gametip.select_award_warning = {
+_G.pg.base.gametip.select_award_warning = {
 	tip = "入手する報酬を選んでください"
 }
 
-_G.pg.gametip.no_item_selected_tip = {
+_G.pg.base.gametip.no_item_selected_tip = {
 	tip = "報酬はまだ入手されていません"
 }
 
-_G.pg.gametip.backyard_traning_tip = {
+_G.pg.base.gametip.backyard_traning_tip = {
 	tip = "寮舎の「訓練」に配置された艦はコンディションが回復し、経験値も入手可能"
 }
 
-_G.pg.gametip.backyard_rest_tip = {
+_G.pg.base.gametip.backyard_rest_tip = {
 	tip = "寮舎の「休憩」に配置された艦はコンディションが回復する"
 }
 
-_G.pg.gametip.backyard_class_tip = {
+_G.pg.base.gametip.backyard_class_tip = {
 	tip = "授業に参加すると経験値が上昇します"
 }
 
-_G.pg.gametip.medal_notice_1 = {
+_G.pg.base.gametip.medal_notice_1 = {
 	tip = "最高レベルの勲章のみ表示"
 }
 
-_G.pg.gametip.medal_notice_2 = {
+_G.pg.base.gametip.medal_notice_2 = {
 	tip = "選択中"
 }
 
-_G.pg.gametip.medal_help_tip = {
+_G.pg.base.gametip.medal_help_tip = {
 	tip = {
 		{
 			info = "-栄典勲章について"
@@ -10886,115 +10886,115 @@ _G.pg.gametip.medal_help_tip = {
 	}
 }
 
-_G.pg.gametip.trophy_achieved = {
+_G.pg.base.gametip.trophy_achieved = {
 	tip = "勲章を入手しました！"
 }
 
-_G.pg.gametip.text_shop = {
+_G.pg.base.gametip.text_shop = {
 	tip = "ショップ"
 }
 
-_G.pg.gametip.text_confirm = {
+_G.pg.base.gametip.text_confirm = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.text_cancel = {
+_G.pg.base.gametip.text_cancel = {
 	tip = "戻 る"
 }
 
-_G.pg.gametip.text_cancel_fight = {
+_G.pg.base.gametip.text_cancel_fight = {
 	tip = "戦闘中止"
 }
 
-_G.pg.gametip.text_goon_fight = {
+_G.pg.base.gametip.text_goon_fight = {
 	tip = "戦闘継続"
 }
 
-_G.pg.gametip.text_exit = {
+_G.pg.base.gametip.text_exit = {
 	tip = "戻 る"
 }
 
-_G.pg.gametip.text_clear = {
+_G.pg.base.gametip.text_clear = {
 	tip = "クリア"
 }
 
-_G.pg.gametip.text_apply = {
+_G.pg.base.gametip.text_apply = {
 	tip = "申 請"
 }
 
-_G.pg.gametip.text_buy = {
+_G.pg.base.gametip.text_buy = {
 	tip = "購 入"
 }
 
-_G.pg.gametip.text_forward = {
+_G.pg.base.gametip.text_forward = {
 	tip = "確 認"
 }
 
-_G.pg.gametip.text_prepage = {
+_G.pg.base.gametip.text_prepage = {
 	tip = "前へ"
 }
 
-_G.pg.gametip.text_nextpage = {
+_G.pg.base.gametip.text_nextpage = {
 	tip = "次へ"
 }
 
-_G.pg.gametip.text_exchange = {
+_G.pg.base.gametip.text_exchange = {
 	tip = "交 換"
 }
 
-_G.pg.gametip.text_retreat = {
+_G.pg.base.gametip.text_retreat = {
 	tip = "撤 退"
 }
 
-_G.pg.gametip.level_scene_title_word_1 = {
+_G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "索敵値:"
 }
 
-_G.pg.gametip.level_scene_title_word_2 = {
+_G.pg.base.gametip.level_scene_title_word_2 = {
 	tip = "海域脅威度:"
 }
 
-_G.pg.gametip.level_scene_title_word_3 = {
+_G.pg.base.gametip.level_scene_title_word_3 = {
 	tip = "制空値:"
 }
 
-_G.pg.gametip.level_scene_title_word_4 = {
+_G.pg.base.gametip.level_scene_title_word_4 = {
 	tip = "空域:"
 }
 
-_G.pg.gametip.level_scene_title_word_5 = {
+_G.pg.base.gametip.level_scene_title_word_5 = {
 	tip = "推奨:"
 }
 
-_G.pg.gametip.ambush_display_0 = {
+_G.pg.base.gametip.ambush_display_0 = {
 	tip = "接敵"
 }
 
-_G.pg.gametip.ambush_display_1 = {
+_G.pg.base.gametip.ambush_display_1 = {
 	tip = "安全"
 }
 
-_G.pg.gametip.ambush_display_2 = {
+_G.pg.base.gametip.ambush_display_2 = {
 	tip = "低"
 }
 
-_G.pg.gametip.ambush_display_3 = {
+_G.pg.base.gametip.ambush_display_3 = {
 	tip = "普通"
 }
 
-_G.pg.gametip.ambush_display_4 = {
+_G.pg.base.gametip.ambush_display_4 = {
 	tip = "中"
 }
 
-_G.pg.gametip.ambush_display_5 = {
+_G.pg.base.gametip.ambush_display_5 = {
 	tip = "高"
 }
 
-_G.pg.gametip.ambush_display_6 = {
+_G.pg.base.gametip.ambush_display_6 = {
 	tip = "危険"
 }
 
-_G.pg.gametip.black_white_grid_notice = {
+_G.pg.base.gametip.black_white_grid_notice = {
 	tip = {
 		{
 			info = "活动说明："
@@ -11032,23 +11032,23 @@ _G.pg.gametip.black_white_grid_notice = {
 	}
 }
 
-_G.pg.gametip.black_white_grid_reset = {
+_G.pg.base.gametip.black_white_grid_reset = {
 	tip = "是否重置?"
 }
 
-_G.pg.gametip.black_white_grid_switch_tip = {
+_G.pg.base.gametip.black_white_grid_switch_tip = {
 	tip = "本局游戏未结束，无法切换"
 }
 
-_G.pg.gametip.no_way_to_escape = {
+_G.pg.base.gametip.no_way_to_escape = {
 	tip = "離脱できるマスがありません"
 }
 
-_G.pg.gametip.word_attr_ac = {
+_G.pg.base.gametip.word_attr_ac = {
 	tip = "制空"
 }
 
-_G.pg.gametip.help_battle_ac = {
+_G.pg.base.gametip.help_battle_ac = {
 	tip = {
 		{
 			info = [[
@@ -11082,7 +11082,7 @@ _G.pg.gametip.help_battle_ac = {
 	}
 }
 
-_G.pg.gametip.help_attribute_dodge_limit = {
+_G.pg.base.gametip.help_attribute_dodge_limit = {
 	tip = {
 		{
 			info = [[
@@ -11094,27 +11094,27 @@ _G.pg.gametip.help_attribute_dodge_limit = {
 	}
 }
 
-_G.pg.gametip.refuse_friend = {
+_G.pg.base.gametip.refuse_friend = {
 	tip = "友達申請を断りますか？"
 }
 
-_G.pg.gametip.refuse_and_add_into_bl = {
+_G.pg.base.gametip.refuse_and_add_into_bl = {
 	tip = "友達申請を断り、ブラックリストに追加します"
 }
 
-_G.pg.gametip.tech_simulate_closed = {
+_G.pg.base.gametip.tech_simulate_closed = {
 	tip = "弾幕確認機能が開放されていませ"
 }
 
-_G.pg.gametip.tech_simulate_quit = {
+_G.pg.base.gametip.tech_simulate_quit = {
 	tip = "弾幕確認機能を終了しますか？\n（※実際の能力とは異なります）"
 }
 
-_G.pg.gametip.technology_uplevel_error_no_res = {
+_G.pg.base.gametip.technology_uplevel_error_no_res = {
 	tip = "<color=#92fc63>$1</color>資金を消費し、陣営技術レベルを解放しますか？"
 }
 
-_G.pg.gametip.help_technologytree = {
+_G.pg.base.gametip.help_technologytree = {
 	tip = {
 		{
 			info = [[
@@ -11157,27 +11157,27 @@ _G.pg.gametip.help_technologytree = {
 	}
 }
 
-_G.pg.gametip.tech_change_version_mark = {
+_G.pg.base.gametip.tech_change_version_mark = {
 	tip = "研究指向"
 }
 
-_G.pg.gametip.technology_uplevel_error_studying = {
+_G.pg.base.gametip.technology_uplevel_error_studying = {
 	tip = "$1—陣営技術を強化中です"
 }
 
-_G.pg.gametip.fate_attr_word = {
+_G.pg.base.gametip.fate_attr_word = {
 	tip = "竜骨編纂による強化効果："
 }
 
-_G.pg.gametip.fate_phase_word = {
+_G.pg.base.gametip.fate_phase_word = {
 	tip = "研究進捗"
 }
 
-_G.pg.gametip.blueprint_simulation_confirm = {
+_G.pg.base.gametip.blueprint_simulation_confirm = {
 	tip = "弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）"
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？(※実際の艦の性能とは異なります）
 使用兵装：<color=#ff5c5c>
@@ -11186,7 +11186,7 @@ _G.pg.gametip.blueprint_simulation_confirm_19901 = {
 四連装ボフォース40mm機関砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11196,7 +11196,7 @@ _G.pg.gametip.blueprint_simulation_confirm_19902 = {
 四連装ボフォース40mm機関砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11206,7 +11206,7 @@ _G.pg.gametip.blueprint_simulation_confirm_39903 = {
 試作型五式40mm高射機関砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11216,7 +11216,7 @@ _G.pg.gametip.blueprint_simulation_confirm_39904 = {
 試作型五式40mm高射機関砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11226,7 +11226,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49902 = {
 105mmSKC連装高角砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_99901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11236,7 +11236,7 @@ _G.pg.gametip.blueprint_simulation_confirm_99901 = {
 二連装37mm高射砲Mle1936</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_29903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11246,7 +11246,7 @@ _G.pg.gametip.blueprint_simulation_confirm_29903 = {
 連装ボフォース40mm機関砲STAAG</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_29904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11256,7 +11256,7 @@ _G.pg.gametip.blueprint_simulation_confirm_29904 = {
 六連装ボフォース40mm対空砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11266,7 +11266,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49903 = {
 105mmSKC連装高角砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11276,7 +11276,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49904 = {
 105mmSKC連装高角砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_89902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11286,7 +11286,7 @@ _G.pg.gametip.blueprint_simulation_confirm_89902 = {
 二連装37mm高射砲Mle1936</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11296,7 +11296,7 @@ _G.pg.gametip.blueprint_simulation_confirm_19903 = {
 四連装28mm対空機銃「シカゴピアノ」</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39905 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11306,7 +11306,7 @@ _G.pg.gametip.blueprint_simulation_confirm_39905 = {
 試作型彩雲（艦攻型・特別計画艦仕様）</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49905 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11316,7 +11316,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49905 = {
 105mmskc連装高角砲</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49906 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11326,7 +11326,7 @@ Ju-87C急降下爆撃機
 Ju-87 D-4</color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_69901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 	tip = [[
 <size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
@@ -11336,19 +11336,19 @@ _G.pg.gametip.blueprint_simulation_confirm_69901 = {
 試作型90mm連装高角砲Model1939</color></size>]]
 }
 
-_G.pg.gametip.electrotherapy_wanning = {
+_G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "鏡面海域化領域・接近中"
 }
 
-_G.pg.gametip.siren_chase_warning = {
+_G.pg.base.gametip.siren_chase_warning = {
 	tip = "危険エリア拡大中"
 }
 
-_G.pg.gametip.memorybook_get_award_tip = {
+_G.pg.base.gametip.memorybook_get_award_tip = {
 	tip = "需要收集全部「港区回忆」才可获取「晃悠悠纪念章」"
 }
 
-_G.pg.gametip.memorybook_notice = {
+_G.pg.base.gametip.memorybook_notice = {
 	tip = {
 		{
 			info = "活动说明："
@@ -11368,15 +11368,15 @@ _G.pg.gametip.memorybook_notice = {
 	}
 }
 
-_G.pg.gametip.word_votes = {
+_G.pg.base.gametip.word_votes = {
 	tip = "得票数量"
 }
 
-_G.pg.gametip.number_0 = {
+_G.pg.base.gametip.number_0 = {
 	tip = "零"
 }
 
-_G.pg.gametip.intimacy_desc_propose_vertical = {
+_G.pg.base.gametip.intimacy_desc_propose_vertical = {
 	tip = [[
 愛は幸せの導き、想いは永遠の絆
 守りたいものはあなたの笑顔
@@ -11386,139 +11386,139 @@ _G.pg.gametip.intimacy_desc_propose_vertical = {
          $1]]
 }
 
-_G.pg.gametip.without_selected_ship = {
+_G.pg.base.gametip.without_selected_ship = {
 	tip = "条件に合う艦船がいません"
 }
 
-_G.pg.gametip.index_all = {
+_G.pg.base.gametip.index_all = {
 	tip = "すべて"
 }
 
-_G.pg.gametip.index_fleetfront = {
+_G.pg.base.gametip.index_fleetfront = {
 	tip = "前衛艦隊"
 }
 
-_G.pg.gametip.index_fleetrear = {
+_G.pg.base.gametip.index_fleetrear = {
 	tip = "主力艦隊"
 }
 
-_G.pg.gametip.index_shipType_quZhu = {
+_G.pg.base.gametip.index_shipType_quZhu = {
 	tip = "駆逐"
 }
 
-_G.pg.gametip.index_shipType_qinXun = {
+_G.pg.base.gametip.index_shipType_qinXun = {
 	tip = "軽巡"
 }
 
-_G.pg.gametip.index_shipType_zhongXun = {
+_G.pg.base.gametip.index_shipType_zhongXun = {
 	tip = "重巡"
 }
 
-_G.pg.gametip.index_shipType_zhanLie = {
+_G.pg.base.gametip.index_shipType_zhanLie = {
 	tip = "戦艦"
 }
 
-_G.pg.gametip.index_shipType_hangMu = {
+_G.pg.base.gametip.index_shipType_hangMu = {
 	tip = "空母"
 }
 
-_G.pg.gametip.index_shipType_weiXiu = {
+_G.pg.base.gametip.index_shipType_weiXiu = {
 	tip = "工作"
 }
 
-_G.pg.gametip.index_shipType_qianTing = {
+_G.pg.base.gametip.index_shipType_qianTing = {
 	tip = "潜水艦"
 }
 
-_G.pg.gametip.index_other = {
+_G.pg.base.gametip.index_other = {
 	tip = "その他"
 }
 
-_G.pg.gametip.index_rare2 = {
+_G.pg.base.gametip.index_rare2 = {
 	tip = "ノーマル"
 }
 
-_G.pg.gametip.index_rare3 = {
+_G.pg.base.gametip.index_rare3 = {
 	tip = "レア"
 }
 
-_G.pg.gametip.index_rare4 = {
+_G.pg.base.gametip.index_rare4 = {
 	tip = "Sレア"
 }
 
-_G.pg.gametip.index_rare5 = {
+_G.pg.base.gametip.index_rare5 = {
 	tip = "SSレア"
 }
 
-_G.pg.gametip.index_rare6 = {
+_G.pg.base.gametip.index_rare6 = {
 	tip = "Uレア"
 }
 
-_G.pg.gametip.warning_mail_max_1 = {
+_G.pg.base.gametip.warning_mail_max_1 = {
 	tip = "メール所持件数が上限(<color=#FF5C5C>$1</color>/1000)に近づいています。メールを整理してください"
 }
 
-_G.pg.gametip.warning_mail_max_2 = {
+_G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "メール所持数が上限に達しています。メールを整理してください"
 }
 
-_G.pg.gametip.return_award_bind_success = {
+_G.pg.base.gametip.return_award_bind_success = {
 	tip = "UID入力成功"
 }
 
-_G.pg.gametip.return_award_bind_erro = {
+_G.pg.base.gametip.return_award_bind_erro = {
 	tip = "UID入力失敗$1"
 }
 
-_G.pg.gametip.rename_commander_erro = {
+_G.pg.base.gametip.rename_commander_erro = {
 	tip = "名前変更失敗$1"
 }
 
-_G.pg.gametip.change_display_medal_success = {
+_G.pg.base.gametip.change_display_medal_success = {
 	tip = "勲章展示設定を変更しました"
 }
 
-_G.pg.gametip.limit_skin_time_day = {
+_G.pg.base.gametip.limit_skin_time_day = {
 	tip = "殘り:$1日"
 }
 
-_G.pg.gametip.limit_skin_time_day_min = {
+_G.pg.base.gametip.limit_skin_time_day_min = {
 	tip = "殘り:$1時間$2分"
 }
 
-_G.pg.gametip.limit_skin_time_min = {
+_G.pg.base.gametip.limit_skin_time_min = {
 	tip = "殘り:$1分"
 }
 
-_G.pg.gametip.limit_skin_time_overtime = {
+_G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "利用期間外です"
 }
 
-_G.pg.gametip.award_window_pt_title = {
+_G.pg.base.gametip.award_window_pt_title = {
 	tip = "カムバックPt："
 }
 
-_G.pg.gametip.return_have_participated_in_act = {
+_G.pg.base.gametip.return_have_participated_in_act = {
 	tip = "このイベントは参加済です"
 }
 
-_G.pg.gametip.input_returner_code = {
+_G.pg.base.gametip.input_returner_code = {
 	tip = "UID入力"
 }
 
-_G.pg.gametip.dress_up_success = {
+_G.pg.base.gametip.dress_up_success = {
 	tip = "チャット設定変更成功"
 }
 
-_G.pg.gametip.already_have_the_skin = {
+_G.pg.base.gametip.already_have_the_skin = {
 	tip = "入手済の着せ替えです"
 }
 
-_G.pg.gametip.exchange_limit_skin_tip = {
+_G.pg.base.gametip.exchange_limit_skin_tip = {
 	tip = "試着貸出チケット$1枚を消費して\n【$2】を$3日$4時間を着せ替え可能にしますか?"
 }
 
-_G.pg.gametip.returner_help = {
+_G.pg.base.gametip.returner_help = {
 	tip = {
 		{
 			info = [[
@@ -11542,27 +11542,27 @@ _G.pg.gametip.returner_help = {
 	}
 }
 
-_G.pg.gametip.attire_time_stamp = {
+_G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1日$2時間$3分"
 }
 
-_G.pg.gametip.warning_pray_build_pool = {
+_G.pg.base.gametip.warning_pray_build_pool = {
 	tip = "「選べる特別建造」の出現率変更の艦船を<color=#FF5C5C>確定すると以後</color>変更できません。\n出現確率変更艦船を選び直しますか？"
 }
 
-_G.pg.gametip.error_pray_select_ship_max = {
+_G.pg.base.gametip.error_pray_select_ship_max = {
 	tip = "これ以上選択できません"
 }
 
-_G.pg.gametip.tip_pray_build_pool_success = {
+_G.pg.base.gametip.tip_pray_build_pool_success = {
 	tip = "選べる特別建造・構築成功"
 }
 
-_G.pg.gametip.tip_pray_build_pool_fail = {
+_G.pg.base.gametip.tip_pray_build_pool_fail = {
 	tip = "選べる特別建造・構築失敗"
 }
 
-_G.pg.gametip.pray_build_help = {
+_G.pg.base.gametip.pray_build_help = {
 	tip = {
 		{
 			info = "イベント説明：\n"
@@ -11608,31 +11608,31 @@ _G.pg.gametip.pray_build_help = {
 	}
 }
 
-_G.pg.gametip.bismarck_award_tip = {
+_G.pg.base.gametip.bismarck_award_tip = {
 	tip = "実績達成で記念アイテムGET！"
 }
 
-_G.pg.gametip.bismarck_chapter_desc = {
+_G.pg.base.gametip.bismarck_chapter_desc = {
 	tip = "実績達成で記念アイテムGET！"
 }
 
-_G.pg.gametip.returner_push_success = {
+_G.pg.base.gametip.returner_push_success = {
 	tip = "自動召集設定完了"
 }
 
-_G.pg.gametip.returner_max_count = {
+_G.pg.base.gametip.returner_max_count = {
 	tip = "現役指揮官のカムバック枠が満員です"
 }
 
-_G.pg.gametip.returner_push_tip = {
+_G.pg.base.gametip.returner_push_tip = {
 	tip = "自動召集を設定すると、カムバック指揮官の自動検索で自分のUIDが自動入力されるようになります。自動召集を設定しますか？"
 }
 
-_G.pg.gametip.returner_match_tip = {
+_G.pg.base.gametip.returner_match_tip = {
 	tip = "<color=#FF5C5C>ランダムに現役指揮官の</color>UIDを自動入力し、カムバックミッションを始めます。自動検索を行いますか？"
 }
 
-_G.pg.gametip.challenge_help = {
+_G.pg.base.gametip.challenge_help = {
 	tip = {
 		{
 			info = "  チャレンジモードとは"
@@ -11687,39 +11687,39 @@ _G.pg.gametip.challenge_help = {
 	}
 }
 
-_G.pg.gametip.challenge_casual_reset = {
+_G.pg.base.gametip.challenge_casual_reset = {
 	tip = "チャレンジモードが中断されました。\n累計得点:$1"
 }
 
-_G.pg.gametip.challenge_infinite_reset = {
+_G.pg.base.gametip.challenge_infinite_reset = {
 	tip = "チャレンジモードが中断されました。\nチャレンジステージクリア数:$1"
 }
 
-_G.pg.gametip.challenge_normal_reset = {
+_G.pg.base.gametip.challenge_normal_reset = {
 	tip = "進行中のチャレンジを中断しますか？"
 }
 
-_G.pg.gametip.challenge_casual_click_switch = {
+_G.pg.base.gametip.challenge_casual_click_switch = {
 	tip = "現在NORMALモードです。\n累計得点:$1\nモードを切り替えますか?"
 }
 
-_G.pg.gametip.challenge_infinite_click_switch = {
+_G.pg.base.gametip.challenge_infinite_click_switch = {
 	tip = "現在UNLIMITEDモードです。\n現在のステージ:$1\nモードを切り替えますか?"
 }
 
-_G.pg.gametip.challenge_season_update = {
+_G.pg.base.gametip.challenge_season_update = {
 	tip = "チャレンジステージが更新されました"
 }
 
-_G.pg.gametip.challenge_season_update_casual_clear = {
+_G.pg.base.gametip.challenge_season_update_casual_clear = {
 	tip = "累計得点:$1\nチャレンジステージが更新されましたため、最高得点が更新されません。\nチャレンジモードをリセットしますか？"
 }
 
-_G.pg.gametip.challenge_season_update_infinite_clear = {
+_G.pg.base.gametip.challenge_season_update_infinite_clear = {
 	tip = "現在のステージ:$1\nチャレンジステージが更新されましたため、最高クリア数が更新されません。\nチャレンジモードをリセットしますか？"
 }
 
-_G.pg.gametip.challenge_season_update_casual_switch = {
+_G.pg.base.gametip.challenge_season_update_casual_switch = {
 	tip = [[
 現在NORMALモードです。
 累計得点:$1
@@ -11727,7 +11727,7 @@ _G.pg.gametip.challenge_season_update_casual_switch = {
 モードを切り替えますか？]]
 }
 
-_G.pg.gametip.challenge_season_update_infinite_switch = {
+_G.pg.base.gametip.challenge_season_update_infinite_switch = {
 	tip = [[
 現在UNLIMITEDモードです。
 現在のステージ:$1
@@ -11735,171 +11735,171 @@ _G.pg.gametip.challenge_season_update_infinite_switch = {
 モードを切り替えますか？]]
 }
 
-_G.pg.gametip.challenge_combat_score = {
+_G.pg.base.gametip.challenge_combat_score = {
 	tip = "ステージ得点：$1"
 }
 
-_G.pg.gametip.challenge_share_progress = {
+_G.pg.base.gametip.challenge_share_progress = {
 	tip = "チャレンジクリア数："
 }
 
-_G.pg.gametip.challenge_share = {
+_G.pg.base.gametip.challenge_share = {
 	tip = ""
 }
 
-_G.pg.gametip.challenge_expire_warn = {
+_G.pg.base.gametip.challenge_expire_warn = {
 	tip = "日付が変わりました。今回の戦闘得点は最高得点に含まれません"
 }
 
-_G.pg.gametip.challenge_normal_tip = {
+_G.pg.base.gametip.challenge_normal_tip = {
 	tip = "チャレンジステージをクリアし、自己ベストを狙おう！"
 }
 
-_G.pg.gametip.challenge_unlimited_tip = {
+_G.pg.base.gametip.challenge_unlimited_tip = {
 	tip = "チャレンジステージを無限に挑戦可能！"
 }
 
-_G.pg.gametip.commander_prefab_rename_success = {
+_G.pg.base.gametip.commander_prefab_rename_success = {
 	tip = "名前変更成功"
 }
 
-_G.pg.gametip.commander_prefab_name = {
+_G.pg.base.gametip.commander_prefab_name = {
 	tip = "セット$1"
 }
 
-_G.pg.gametip.commander_prefab_rename_time = {
+_G.pg.base.gametip.commander_prefab_rename_time = {
 	tip = "$1秒経過前は再度変更できません"
 }
 
-_G.pg.gametip.commander_build_solt_deficiency = {
+_G.pg.base.gametip.commander_build_solt_deficiency = {
 	tip = "同時に10個まで訓練できます"
 }
 
-_G.pg.gametip.commander_select_box_tip = {
+_G.pg.base.gametip.commander_select_box_tip = {
 	tip = "ネコハコ$1個を訓練しますか？（同時に訓練できるのは最大4個のみ）"
 }
 
-_G.pg.gametip.challenge_end_tip = {
+_G.pg.base.gametip.challenge_end_tip = {
 	tip = "終了済のイベントです"
 }
 
-_G.pg.gametip.pass_times = {
+_G.pg.base.gametip.pass_times = {
 	tip = "通关次数"
 }
 
-_G.pg.gametip.list_empty_tip_billboardui = {
+_G.pg.base.gametip.list_empty_tip_billboardui = {
 	tip = "ランキングデータはありません"
 }
 
-_G.pg.gametip.list_empty_tip_equipmentdesignui = {
+_G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
 	tip = "設計図を所持していません"
 }
 
-_G.pg.gametip.list_empty_tip_storehouseui_equip = {
+_G.pg.base.gametip.list_empty_tip_storehouseui_equip = {
 	tip = "装備を所持していません"
 }
 
-_G.pg.gametip.list_empty_tip_storehouseui_item = {
+_G.pg.base.gametip.list_empty_tip_storehouseui_item = {
 	tip = "素材を所持していません"
 }
 
-_G.pg.gametip.list_empty_tip_eventui = {
+_G.pg.base.gametip.list_empty_tip_eventui = {
 	tip = "遂行できる軍事委託はありません"
 }
 
-_G.pg.gametip.list_empty_tip_guildrequestui = {
+_G.pg.base.gametip.list_empty_tip_guildrequestui = {
 	tip = "大艦隊申請はありません"
 }
 
-_G.pg.gametip.list_empty_tip_joinguildui = {
+_G.pg.base.gametip.list_empty_tip_joinguildui = {
 	tip = "条件を満す大艦隊が存在しません"
 }
 
-_G.pg.gametip.list_empty_tip_friendui = {
+_G.pg.base.gametip.list_empty_tip_friendui = {
 	tip = "対象指揮官がいません"
 }
 
-_G.pg.gametip.list_empty_tip_friendui_search = {
+_G.pg.base.gametip.list_empty_tip_friendui_search = {
 	tip = "条件を満たす指揮官がいません"
 }
 
-_G.pg.gametip.list_empty_tip_friendui_request = {
+_G.pg.base.gametip.list_empty_tip_friendui_request = {
 	tip = "友達申請はありません"
 }
 
-_G.pg.gametip.list_empty_tip_friendui_black = {
+_G.pg.base.gametip.list_empty_tip_friendui_black = {
 	tip = "指揮官をブロックしていません"
 }
 
-_G.pg.gametip.list_empty_tip_dockyardui = {
+_G.pg.base.gametip.list_empty_tip_dockyardui = {
 	tip = "条件を満たした艦船はいません"
 }
 
-_G.pg.gametip.list_empty_tip_taskscene = {
+_G.pg.base.gametip.list_empty_tip_taskscene = {
 	tip = "任務が存在しません"
 }
 
-_G.pg.gametip.empty_tip_mailboxui = {
+_G.pg.base.gametip.empty_tip_mailboxui = {
 	tip = "メールはありません"
 }
 
-_G.pg.gametip.words_settings_unlock_ship = {
+_G.pg.base.gametip.words_settings_unlock_ship = {
 	tip = "艦船保護解除"
 }
 
-_G.pg.gametip.words_settings_resolve_equip = {
+_G.pg.base.gametip.words_settings_resolve_equip = {
 	tip = "装備廃棄"
 }
 
-_G.pg.gametip.words_settings_unlock_commander = {
+_G.pg.base.gametip.words_settings_unlock_commander = {
 	tip = "オフニャ保護解除"
 }
 
-_G.pg.gametip.words_settings_create_inherit = {
+_G.pg.base.gametip.words_settings_create_inherit = {
 	tip = "引継コード発行"
 }
 
-_G.pg.gametip.tips_fail_secondarypwd_much_times = {
+_G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
 	tip = "パスワードが間違っています。<color=#92FC63>%s</color>後再度お試しください"
 }
 
-_G.pg.gametip.words_desc_unlock = {
+_G.pg.base.gametip.words_desc_unlock = {
 	tip = "パスワード機能で制限されている操作です"
 }
 
-_G.pg.gametip.words_desc_resolve_equip = {
+_G.pg.base.gametip.words_desc_resolve_equip = {
 	tip = "パスワード機能で制限されている操作です"
 }
 
-_G.pg.gametip.words_desc_create_inherit = {
+_G.pg.base.gametip.words_desc_create_inherit = {
 	tip = "引継コード発行"
 }
 
-_G.pg.gametip.words_desc_close_password = {
+_G.pg.base.gametip.words_desc_close_password = {
 	tip = "パスワード機能無効化"
 }
 
-_G.pg.gametip.words_desc_change_settings = {
+_G.pg.base.gametip.words_desc_change_settings = {
 	tip = "パスワードによる行動制限機能を変更"
 }
 
-_G.pg.gametip.words_set_password = {
+_G.pg.base.gametip.words_set_password = {
 	tip = "パスワード設定"
 }
 
-_G.pg.gametip.words_information = {
+_G.pg.base.gametip.words_information = {
 	tip = "情報"
 }
 
-_G.pg.gametip.Word_Ship_Exp_Buff = {
+_G.pg.base.gametip.Word_Ship_Exp_Buff = {
 	tip = "経験値＋"
 }
 
-_G.pg.gametip.secondarypassword_incorrectpwd_error = {
+_G.pg.base.gametip.secondarypassword_incorrectpwd_error = {
 	tip = "パスワードが間違っています。（あと<color=#FF5C5C>%d</color>回入力可能）"
 }
 
-_G.pg.gametip.secondary_password_help = {
+_G.pg.base.gametip.secondary_password_help = {
 	tip = {
 		{
 			info = [[
@@ -11947,7 +11947,7 @@ _G.pg.gametip.secondary_password_help = {
 	}
 }
 
-_G.pg.gametip.comic_help = {
+_G.pg.base.gametip.comic_help = {
 	tip = {
 		{
 			info = "1.限定任務をクリアすると、画面左のマンガ着色進捗\nが進みます"
@@ -11961,19 +11961,19 @@ _G.pg.gametip.comic_help = {
 	}
 }
 
-_G.pg.gametip.secondarypassword_illegal_tip = {
+_G.pg.base.gametip.secondarypassword_illegal_tip = {
 	tip = "包含敏感信息，请重新输入"
 }
 
-_G.pg.gametip.pt_cosume = {
+_G.pg.base.gametip.pt_cosume = {
 	tip = "消費$1"
 }
 
-_G.pg.gametip.secondarypassword_confirm_tips = {
+_G.pg.base.gametip.secondarypassword_confirm_tips = {
 	tip = "パスワードヒントは<color=#FFDE38>「%s」</color>でよろしいですか？"
 }
 
-_G.pg.gametip.help_tempesteve = {
+_G.pg.base.gametip.help_tempesteve = {
 	tip = {
 		{
 			info = "遊び方："
@@ -12004,67 +12004,67 @@ _G.pg.gametip.help_tempesteve = {
 	}
 }
 
-_G.pg.gametip.word_rest_times = {
+_G.pg.base.gametip.word_rest_times = {
 	tip = "<color=#FFDE38FF>残り回数 ：%s回</color>"
 }
 
-_G.pg.gametip.common_buy_gold_success = {
+_G.pg.base.gametip.common_buy_gold_success = {
 	tip = "資金 <color=#92fc63>$1</color> を購入しました！"
 }
 
-_G.pg.gametip.harbour_bomb_tip = {
+_G.pg.base.gametip.harbour_bomb_tip = {
 	tip = "港が破壊されました！"
 }
 
-_G.pg.gametip.submarine_approach = {
+_G.pg.base.gametip.submarine_approach = {
 	tip = "敵潜探知"
 }
 
-_G.pg.gametip.submarine_approach_desc = {
+_G.pg.base.gametip.submarine_approach_desc = {
 	tip = "敵潜水艦が海域に出現中！"
 }
 
-_G.pg.gametip.desc_quick_play = {
+_G.pg.base.gametip.desc_quick_play = {
 	tip = "移動演出高速化"
 }
 
-_G.pg.gametip.text_win_condition = {
+_G.pg.base.gametip.text_win_condition = {
 	tip = "勝利条件"
 }
 
-_G.pg.gametip.text_lose_condition = {
+_G.pg.base.gametip.text_lose_condition = {
 	tip = "敗北条件"
 }
 
-_G.pg.gametip.text_rest_HP = {
+_G.pg.base.gametip.text_rest_HP = {
 	tip = "港耐久度"
 }
 
-_G.pg.gametip.desc_defense_reward = {
+_G.pg.base.gametip.desc_defense_reward = {
 	tip = "クリア時、防御対象の耐久度に応じて報酬を獲得できます"
 }
 
-_G.pg.gametip.desc_base_hp = {
+_G.pg.base.gametip.desc_base_hp = {
 	tip = "港耐久度：$1/$2"
 }
 
-_G.pg.gametip.map_event_open = {
+_G.pg.base.gametip.map_event_open = {
 	tip = "ブロックマスが生成されました"
 }
 
-_G.pg.gametip.word_reward = {
+_G.pg.base.gametip.word_reward = {
 	tip = "報酬"
 }
 
-_G.pg.gametip.tips_dispense_completed = {
+_G.pg.base.gametip.tips_dispense_completed = {
 	tip = "装薬完了"
 }
 
-_G.pg.gametip.tips_firework_completed = {
+_G.pg.base.gametip.tips_firework_completed = {
 	tip = "火薬玉選択完了"
 }
 
-_G.pg.gametip.help_summer_feast = {
+_G.pg.base.gametip.help_summer_feast = {
 	tip = {
 		{
 			info = [[
@@ -12102,7 +12102,7 @@ _G.pg.gametip.help_summer_feast = {
 	}
 }
 
-_G.pg.gametip.help_firework_produce = {
+_G.pg.base.gametip.help_firework_produce = {
 	tip = [[
 開始ボタンをタップし、装薬を準備！
 もう一回ボタンをタップすると1回の装薬が終了！
@@ -12114,7 +12114,7 @@ _G.pg.gametip.help_firework_produce = {
 3回の装薬合計値は画面右上のゲージで確認できます。]]
 }
 
-_G.pg.gametip.help_firework = {
+_G.pg.base.gametip.help_firework = {
 	tip = {
 		{
 			info = [[
@@ -12157,7 +12157,7 @@ _G.pg.gametip.help_firework = {
 	}
 }
 
-_G.pg.gametip.help_summer_shrine = {
+_G.pg.base.gametip.help_summer_shrine = {
 	tip = {
 		{
 			info = [[
@@ -12187,7 +12187,7 @@ _G.pg.gametip.help_summer_shrine = {
 	}
 }
 
-_G.pg.gametip.help_summer_food = {
+_G.pg.base.gametip.help_summer_food = {
 	tip = {
 		{
 			info = [[
@@ -12226,7 +12226,7 @@ _G.pg.gametip.help_summer_food = {
 	}
 }
 
-_G.pg.gametip.help_summer_shooting = {
+_G.pg.base.gametip.help_summer_shooting = {
 	tip = {
 		{
 			info = [[
@@ -12252,7 +12252,7 @@ _G.pg.gametip.help_summer_shooting = {
 	}
 }
 
-_G.pg.gametip.help_summer_stamp = {
+_G.pg.base.gametip.help_summer_stamp = {
 	tip = {
 		{
 			info = [[
@@ -12266,23 +12266,23 @@ _G.pg.gametip.help_summer_stamp = {
 	}
 }
 
-_G.pg.gametip.tips_summergame_exit = {
+_G.pg.base.gametip.tips_summergame_exit = {
 	tip = "ゲームを中断すると現在の進捗が保存されません。本当に中断しますか？"
 }
 
-_G.pg.gametip.tips_shrine_buff = {
+_G.pg.base.gametip.tips_shrine_buff = {
 	tip = "賽銭︵資金5︶を入れ   　 を祈願しました"
 }
 
-_G.pg.gametip.tips_shrine_nobuff = {
+_G.pg.base.gametip.tips_shrine_nobuff = {
 	tip = "賽銭︵資金5︶を入れました。\nこれ以上は祈願できません…"
 }
 
-_G.pg.gametip.paint_hide_other_obj_tip = {
+_G.pg.base.gametip.paint_hide_other_obj_tip = {
 	tip = "    背景非表示"
 }
 
-_G.pg.gametip.help_vote = {
+_G.pg.base.gametip.help_vote = {
 	tip = {
 		{
 			info = [[
@@ -12356,75 +12356,75 @@ _G.pg.gametip.help_vote = {
 	}
 }
 
-_G.pg.gametip.tips_firework_exit = {
+_G.pg.base.gametip.tips_firework_exit = {
 	tip = "花火の制作が完了していません。中断しますか？"
 }
 
-_G.pg.gametip.result_firework_produce = {
+_G.pg.base.gametip.result_firework_produce = {
 	tip = "花火制作完了！評価："
 }
 
-_G.pg.gametip.tag_level_narrative = {
+_G.pg.base.gametip.tag_level_narrative = {
 	tip = "ストーリー"
 }
 
-_G.pg.gametip.vote_get_book = {
+_G.pg.base.gametip.vote_get_book = {
 	tip = "応援指令を入手しました"
 }
 
-_G.pg.gametip.vote_book_is_over = {
+_G.pg.base.gametip.vote_book_is_over = {
 	tip = "人気投票キャンペーンは終了しました"
 }
 
-_G.pg.gametip.vote_fame_tip = {
+_G.pg.base.gametip.vote_fame_tip = {
 	tip = "※殿堂入りキャラをタップし、記念チャットフレームを手に入れよう！$1、$2、$3"
 }
 
-_G.pg.gametip.word_maintain = {
+_G.pg.base.gametip.word_maintain = {
 	tip = "メンテ後"
 }
 
-_G.pg.gametip.name_zhanliejahe = {
+_G.pg.base.gametip.name_zhanliejahe = {
 	tip = "加賀(戦艦)"
 }
 
-_G.pg.gametip.change_skin_secretary_ship_success = {
+_G.pg.base.gametip.change_skin_secretary_ship_success = {
 	tip = "秘書艦に設定しました"
 }
 
-_G.pg.gametip.change_skin_secretary_ship = {
+_G.pg.base.gametip.change_skin_secretary_ship = {
 	tip = "秘書艦に設定する"
 }
 
-_G.pg.gametip.word_billboard = {
+_G.pg.base.gametip.word_billboard = {
 	tip = "ランキング"
 }
 
-_G.pg.gametip.word_easy = {
+_G.pg.base.gametip.word_easy = {
 	tip = "簡単"
 }
 
-_G.pg.gametip.word_normal_junhe = {
+_G.pg.base.gametip.word_normal_junhe = {
 	tip = "普通"
 }
 
-_G.pg.gametip.word_hard = {
+_G.pg.base.gametip.word_hard = {
 	tip = "難しい"
 }
 
-_G.pg.gametip.word_special_challenge_ticket = {
+_G.pg.base.gametip.word_special_challenge_ticket = {
 	tip = "特別戦闘券"
 }
 
-_G.pg.gametip.tip_exchange_ticket = {
+_G.pg.base.gametip.tip_exchange_ticket = {
 	tip = "特別戦闘券を1枚消費し、$1ステージのボーナス出撃回数を1回増やしますか？"
 }
 
-_G.pg.gametip.dont_remind = {
+_G.pg.base.gametip.dont_remind = {
 	tip = "これ以上表示しません"
 }
 
-_G.pg.gametip.worldbossex_help = {
+_G.pg.base.gametip.worldbossex_help = {
 	tip = {
 		{
 			info = [[
@@ -12451,83 +12451,83 @@ _G.pg.gametip.worldbossex_help = {
 	}
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_easy = {
+_G.pg.base.gametip.ship_formationUI_fleetName_easy = {
 	tip = "簡単艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_normal = {
+_G.pg.base.gametip.ship_formationUI_fleetName_normal = {
 	tip = "普通艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_hard = {
+_G.pg.base.gametip.ship_formationUI_fleetName_hard = {
 	tip = "難しい艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_extra = {
+_G.pg.base.gametip.ship_formationUI_fleetName_extra = {
 	tip = "EX艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_easy_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_easy_ss = {
 	tip = "簡単潜水艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_normal_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_normal_ss = {
 	tip = "普通潜水艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_hard_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_hard_ss = {
 	tip = "難しい潜水艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_extra_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
 	tip = "EX潜水艦隊"
 }
 
-_G.pg.gametip.text_consume = {
+_G.pg.base.gametip.text_consume = {
 	tip = "確定"
 }
 
-_G.pg.gametip.text_inconsume = {
+_G.pg.base.gametip.text_inconsume = {
 	tip = "いいえ"
 }
 
-_G.pg.gametip.pt_ship_now = {
+_G.pg.base.gametip.pt_ship_now = {
 	tip = "撃破数合計："
 }
 
-_G.pg.gametip.pt_ship_goal = {
+_G.pg.base.gametip.pt_ship_goal = {
 	tip = "撃破数："
 }
 
-_G.pg.gametip.option_desc1 = {
+_G.pg.base.gametip.option_desc1 = {
 	tip = "（ON状態）他指揮官の艦船につけられた独自の名前を表示する"
 }
 
-_G.pg.gametip.option_desc2 = {
+_G.pg.base.gametip.option_desc2 = {
 	tip = "（ON状態）自律戦闘モードで戦闘終了時、端末バイブレーション機能で通知する"
 }
 
-_G.pg.gametip.option_desc3 = {
+_G.pg.base.gametip.option_desc3 = {
 	tip = "（ON状態）レアリティSSR以上の艦船入手時、端末バイブレーション機能で通知する"
 }
 
-_G.pg.gametip.option_desc4 = {
+_G.pg.base.gametip.option_desc4 = {
 	tip = "（OFF状態）図鑑に登録済みのレアリティR以下の艦船入手時、入手演出をスキップする"
 }
 
-_G.pg.gametip.option_desc5 = {
+_G.pg.base.gametip.option_desc5 = {
 	tip = "（ON状態）画面タップ時、タップ時演出を表示する"
 }
 
-_G.pg.gametip.option_desc6 = {
+_G.pg.base.gametip.option_desc6 = {
 	tip = "（ON状態）ロード画面のアスペクト比に端末の画面設定を適用させる"
 }
 
-_G.pg.gametip.option_desc10 = {
+_G.pg.base.gametip.option_desc10 = {
 	tip = "（ON状態）戦闘時衣装の背景が一部表示されなくなる"
 }
 
-_G.pg.gametip.option_desc11 = {
+_G.pg.base.gametip.option_desc11 = {
 	tip = [[
 空母の発見範囲（戦闘画面における青い枠）を表示
 
@@ -12570,7 +12570,7 @@ _G.pg.gametip.option_desc11 = {
 空母が全て「発見状態」になります。]]
 }
 
-_G.pg.gametip.music_collection = {
+_G.pg.base.gametip.music_collection = {
 	tip = {
 		{
 			info = "遊び方："
@@ -12606,7 +12606,7 @@ _G.pg.gametip.music_collection = {
 	}
 }
 
-_G.pg.gametip.music_main = {
+_G.pg.base.gametip.music_main = {
 	tip = {
 		{
 			info = "■激唱ハウスとは"
@@ -12653,7 +12653,7 @@ _G.pg.gametip.music_main = {
 	}
 }
 
-_G.pg.gametip.music_juus = {
+_G.pg.base.gametip.music_juus = {
 	tip = {
 		{
 			info = "■艦船通信とは"
@@ -12668,7 +12668,7 @@ _G.pg.gametip.music_juus = {
 	}
 }
 
-_G.pg.gametip.doa_collection = {
+_G.pg.base.gametip.doa_collection = {
 	tip = {
 		{
 			info = "■キャラ好物情報について"
@@ -12699,35 +12699,35 @@ _G.pg.gametip.doa_collection = {
 	}
 }
 
-_G.pg.gametip.ins_word_day = {
+_G.pg.base.gametip.ins_word_day = {
 	tip = "$1日前"
 }
 
-_G.pg.gametip.ins_word_hour = {
+_G.pg.base.gametip.ins_word_hour = {
 	tip = "$1時間前"
 }
 
-_G.pg.gametip.ins_word_minu = {
+_G.pg.base.gametip.ins_word_minu = {
 	tip = "$1分前"
 }
 
-_G.pg.gametip.ins_word_like = {
+_G.pg.base.gametip.ins_word_like = {
 	tip = "いいね！$1件"
 }
 
-_G.pg.gametip.ins_click_like_success = {
+_G.pg.base.gametip.ins_click_like_success = {
 	tip = "いいね！しました"
 }
 
-_G.pg.gametip.ins_push_comment_success = {
+_G.pg.base.gametip.ins_push_comment_success = {
 	tip = "コメントしました"
 }
 
-_G.pg.gametip.skinshop_live2d_fliter_failed = {
+_G.pg.base.gametip.skinshop_live2d_fliter_failed = {
 	tip = "対象となる着せ替えはありません"
 }
 
-_G.pg.gametip.help_music_game = {
+_G.pg.base.gametip.help_music_game = {
 	tip = {
 		{
 			info = "■激唱舞台（ステージ）とは"
@@ -12769,15 +12769,15 @@ _G.pg.gametip.help_music_game = {
 	}
 }
 
-_G.pg.gametip.restart_music_game = {
+_G.pg.base.gametip.restart_music_game = {
 	tip = "進行中のゲームを中断し、最初からやり直しますか？"
 }
 
-_G.pg.gametip.reselect_music_game = {
+_G.pg.base.gametip.reselect_music_game = {
 	tip = "進行中のゲームを中断し、曲選択からやり直しますか？"
 }
 
-_G.pg.gametip.hololive_goodmorning = {
+_G.pg.base.gametip.hololive_goodmorning = {
 	tip = {
 		{
 			info = [[
@@ -12804,7 +12804,7 @@ _G.pg.gametip.hololive_goodmorning = {
 	}
 }
 
-_G.pg.gametip.hololive_lianliankan = {
+_G.pg.base.gametip.hololive_lianliankan = {
 	tip = {
 		{
 			info = [[
@@ -12856,7 +12856,7 @@ _G.pg.gametip.hololive_lianliankan = {
 	}
 }
 
-_G.pg.gametip.hololive_dalaozhang = {
+_G.pg.base.gametip.hololive_dalaozhang = {
 	tip = {
 		{
 			info = [[
@@ -12880,7 +12880,7 @@ _G.pg.gametip.hololive_dalaozhang = {
 	}
 }
 
-_G.pg.gametip.hololive_dashenling = {
+_G.pg.base.gametip.hololive_dashenling = {
 	tip = {
 		{
 			info = [[
@@ -12933,15 +12933,15 @@ _G.pg.gametip.hololive_dashenling = {
 	}
 }
 
-_G.pg.gametip.pocky_jiujiu = {
+_G.pg.base.gametip.pocky_jiujiu = {
 	tip = "饅頭量産中"
 }
 
-_G.pg.gametip.pocky_jiujiu_desc = {
+_G.pg.base.gametip.pocky_jiujiu_desc = {
 	tip = "今日も饅頭たちが頑張って働いている…"
 }
 
-_G.pg.gametip.pocky_help = {
+_G.pg.base.gametip.pocky_help = {
 	tip = {
 		{
 			info = "■開催時間\n 11月14日（木）メンテナンス後～12月15日（日）\n23:59"
@@ -12980,7 +12980,7 @@ _G.pg.gametip.pocky_help = {
 	}
 }
 
-_G.pg.gametip.secretary_help = {
+_G.pg.base.gametip.secretary_help = {
 	tip = {
 		{
 			info = [[
@@ -13006,39 +13006,39 @@ _G.pg.gametip.secretary_help = {
 	}
 }
 
-_G.pg.gametip.secretary_unlock2 = {
+_G.pg.base.gametip.secretary_unlock2 = {
 	tip = "3-4クリアで開放"
 }
 
-_G.pg.gametip.secretary_unlock3 = {
+_G.pg.base.gametip.secretary_unlock3 = {
 	tip = "6-4クリアで開放"
 }
 
-_G.pg.gametip.secretary_unlock4 = {
+_G.pg.base.gametip.secretary_unlock4 = {
 	tip = "9-4クリアで開放"
 }
 
-_G.pg.gametip.secretary_unlock5 = {
+_G.pg.base.gametip.secretary_unlock5 = {
 	tip = "12-4クリアで開放"
 }
 
-_G.pg.gametip.secretary_closed = {
+_G.pg.base.gametip.secretary_closed = {
 	tip = "準備中です"
 }
 
-_G.pg.gametip.confirm_unlock = {
+_G.pg.base.gametip.confirm_unlock = {
 	tip = "$1は現在「保護（ロック掛け）」状態になっています。\n$1をアンロックしますか？"
 }
 
-_G.pg.gametip.secretary_pos_save = {
+_G.pg.base.gametip.secretary_pos_save = {
 	tip = "秘書艦の表示設定を保存しますか？"
 }
 
-_G.pg.gametip.secretary_pos_save_success = {
+_G.pg.base.gametip.secretary_pos_save_success = {
 	tip = "秘書艦の表示設定を保存しました"
 }
 
-_G.pg.gametip.collection_help = {
+_G.pg.base.gametip.collection_help = {
 	tip = {
 		{
 			icon = {
@@ -13070,159 +13070,159 @@ _G.pg.gametip.collection_help = {
 	}
 }
 
-_G.pg.gametip.juese_tiyan = {
+_G.pg.base.gametip.juese_tiyan = {
 	tip = "お試しステージをプレイしますか？"
 }
 
-_G.pg.gametip.resolve_amount_prefix = {
+_G.pg.base.gametip.resolve_amount_prefix = {
 	tip = "分解数："
 }
 
-_G.pg.gametip.compose_amount_prefix = {
+_G.pg.base.gametip.compose_amount_prefix = {
 	tip = "合成数："
 }
 
-_G.pg.gametip.help_sub_limits = {
+_G.pg.base.gametip.help_sub_limits = {
 	tip = "支援範囲表示off/on"
 }
 
-_G.pg.gametip.help_sub_display = {
+_G.pg.base.gametip.help_sub_display = {
 	tip = "漸減要撃/支援待機"
 }
 
-_G.pg.gametip.confirm_unlock_ship_main = {
+_G.pg.base.gametip.confirm_unlock_ship_main = {
 	tip = "既に秘書艦枠に配置されている艦船です"
 }
 
-_G.pg.gametip.msgbox_text_confirm = {
+_G.pg.base.gametip.msgbox_text_confirm = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.msgbox_text_shop = {
+_G.pg.base.gametip.msgbox_text_shop = {
 	tip = "ショップ"
 }
 
-_G.pg.gametip.msgbox_text_cancel = {
+_G.pg.base.gametip.msgbox_text_cancel = {
 	tip = "戻 る"
 }
 
-_G.pg.gametip.msgbox_text_cancel_g = {
+_G.pg.base.gametip.msgbox_text_cancel_g = {
 	tip = "戻 る"
 }
 
-_G.pg.gametip.msgbox_text_cancel_fight = {
+_G.pg.base.gametip.msgbox_text_cancel_fight = {
 	tip = "戦闘中止"
 }
 
-_G.pg.gametip.msgbox_text_goon_fight = {
+_G.pg.base.gametip.msgbox_text_goon_fight = {
 	tip = "戦闘継続"
 }
 
-_G.pg.gametip.msgbox_text_exit = {
+_G.pg.base.gametip.msgbox_text_exit = {
 	tip = "撤 退"
 }
 
-_G.pg.gametip.msgbox_text_clear = {
+_G.pg.base.gametip.msgbox_text_clear = {
 	tip = "クリア"
 }
 
-_G.pg.gametip.msgbox_text_apply = {
+_G.pg.base.gametip.msgbox_text_apply = {
 	tip = "申 請"
 }
 
-_G.pg.gametip.msgbox_text_buy = {
+_G.pg.base.gametip.msgbox_text_buy = {
 	tip = "購 入"
 }
 
-_G.pg.gametip.msgbox_text_noPos_buy = {
+_G.pg.base.gametip.msgbox_text_noPos_buy = {
 	tip = "拡 張"
 }
 
-_G.pg.gametip.msgbox_text_noPos_clear = {
+_G.pg.base.gametip.msgbox_text_noPos_clear = {
 	tip = "整 理"
 }
 
-_G.pg.gametip.msgbox_text_noPos_intensify = {
+_G.pg.base.gametip.msgbox_text_noPos_intensify = {
 	tip = "強 化"
 }
 
-_G.pg.gametip.msgbox_text_forward = {
+_G.pg.base.gametip.msgbox_text_forward = {
 	tip = "確 認"
 }
 
-_G.pg.gametip.msgbox_text_iknow = {
+_G.pg.base.gametip.msgbox_text_iknow = {
 	tip = "了 解"
 }
 
-_G.pg.gametip.msgbox_text_prepage = {
+_G.pg.base.gametip.msgbox_text_prepage = {
 	tip = "次へ"
 }
 
-_G.pg.gametip.msgbox_text_nextpage = {
+_G.pg.base.gametip.msgbox_text_nextpage = {
 	tip = "前へ"
 }
 
-_G.pg.gametip.msgbox_text_exchange = {
+_G.pg.base.gametip.msgbox_text_exchange = {
 	tip = "交 換"
 }
 
-_G.pg.gametip.msgbox_text_retreat = {
+_G.pg.base.gametip.msgbox_text_retreat = {
 	tip = "撤 退"
 }
 
-_G.pg.gametip.msgbox_text_go = {
+_G.pg.base.gametip.msgbox_text_go = {
 	tip = "確 認"
 }
 
-_G.pg.gametip.msgbox_text_consume = {
+_G.pg.base.gametip.msgbox_text_consume = {
 	tip = "はい"
 }
 
-_G.pg.gametip.msgbox_text_inconsume = {
+_G.pg.base.gametip.msgbox_text_inconsume = {
 	tip = "いいえ"
 }
 
-_G.pg.gametip.msgbox_text_unlock = {
+_G.pg.base.gametip.msgbox_text_unlock = {
 	tip = "解 錠"
 }
 
-_G.pg.gametip.msgbox_text_save = {
+_G.pg.base.gametip.msgbox_text_save = {
 	tip = "設定保存"
 }
 
-_G.pg.gametip.common_flag_ship = {
+_G.pg.base.gametip.common_flag_ship = {
 	tip = "<size=23>秘書艦</size>"
 }
 
-_G.pg.gametip.fenjie_lantu_tip = {
+_G.pg.base.gametip.fenjie_lantu_tip = {
 	tip = "対応の特別計画艦が強化レベル30に達成した場合、余剰強化ユニットを分解できます"
 }
 
-_G.pg.gametip.msgbox_text_analyse = {
+_G.pg.base.gametip.msgbox_text_analyse = {
 	tip = "分 解"
 }
 
-_G.pg.gametip.fragresolve_empty_tip = {
+_G.pg.base.gametip.fragresolve_empty_tip = {
 	tip = "分解できる強化ユニットがありません"
 }
 
-_G.pg.gametip.confirm_unlock_lv = {
+_G.pg.base.gametip.confirm_unlock_lv = {
 	tip = "<color=#ff5c5c>$2($1)</color>をアンロックしますか?"
 }
 
-_G.pg.gametip.shops_rest_day = {
+_G.pg.base.gametip.shops_rest_day = {
 	tip = "ラインナップ更新まで:"
 }
 
-_G.pg.gametip.title_limit_time = {
+_G.pg.base.gametip.title_limit_time = {
 	tip = "「限定」"
 }
 
-_G.pg.gametip.seven_choose_one = {
+_G.pg.base.gametip.seven_choose_one = {
 	tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n（艦船と記念アイテムを入手できます）"
 }
 
-_G.pg.gametip.help_newyear_feast = {
+_G.pg.base.gametip.help_newyear_feast = {
 	tip = {
 		{
 			info = [[
@@ -13261,7 +13261,7 @@ _G.pg.gametip.help_newyear_feast = {
 	}
 }
 
-_G.pg.gametip.help_newyear_shrine = {
+_G.pg.base.gametip.help_newyear_shrine = {
 	tip = {
 		{
 			info = [[
@@ -13294,7 +13294,7 @@ _G.pg.gametip.help_newyear_shrine = {
 	}
 }
 
-_G.pg.gametip.help_newyear_stamp = {
+_G.pg.base.gametip.help_newyear_stamp = {
 	tip = {
 		{
 			info = "チケット所持中でミニゲームをプレイすると入手可能！\nスタンプを7つ集めて、報酬を手に入れよう！"
@@ -13302,11 +13302,11 @@ _G.pg.gametip.help_newyear_stamp = {
 	}
 }
 
-_G.pg.gametip.pt_reconfirm = {
+_G.pg.base.gametip.pt_reconfirm = {
 	tip = "<color=#ff5c5c>$1</color>を交換しますか？"
 }
 
-_G.pg.gametip.qte_game_help = {
+_G.pg.base.gametip.qte_game_help = {
 	tip = {
 		{
 			icon = {
@@ -13338,43 +13338,43 @@ _G.pg.gametip.qte_game_help = {
 	}
 }
 
-_G.pg.gametip.word_equipskin_type = {
+_G.pg.base.gametip.word_equipskin_type = {
 	tip = "種類"
 }
 
-_G.pg.gametip.word_equipskin_all = {
+_G.pg.base.gametip.word_equipskin_all = {
 	tip = "全て"
 }
 
-_G.pg.gametip.word_equipskin_cannon = {
+_G.pg.base.gametip.word_equipskin_cannon = {
 	tip = "艦砲"
 }
 
-_G.pg.gametip.word_equipskin_tarpedo = {
+_G.pg.base.gametip.word_equipskin_tarpedo = {
 	tip = "魚雷"
 }
 
-_G.pg.gametip.word_equipskin_aircraft = {
+_G.pg.base.gametip.word_equipskin_aircraft = {
 	tip = "艦載機"
 }
 
-_G.pg.gametip.word_equipskin_aux = {
+_G.pg.base.gametip.word_equipskin_aux = {
 	tip = "設備"
 }
 
-_G.pg.gametip.msgbox_repair = {
+_G.pg.base.gametip.msgbox_repair = {
 	tip = "アセット修復"
 }
 
-_G.pg.gametip.msgbox_repair_l2d = {
+_G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "Live2D修復"
 }
 
-_G.pg.gametip.word_no_cache = {
+_G.pg.base.gametip.word_no_cache = {
 	tip = "修復するアセットはありません"
 }
 
-_G.pg.gametip.pile_game_notice = {
+_G.pg.base.gametip.pile_game_notice = {
 	tip = {
 		{
 			info = [[
@@ -13410,7 +13410,7 @@ _G.pg.gametip.pile_game_notice = {
 	}
 }
 
-_G.pg.gametip.help_chunjie_stamp = {
+_G.pg.base.gametip.help_chunjie_stamp = {
 	tip = {
 		{
 			info = [[
@@ -13433,7 +13433,7 @@ _G.pg.gametip.help_chunjie_stamp = {
 	}
 }
 
-_G.pg.gametip.help_chunjie_feast = {
+_G.pg.base.gametip.help_chunjie_feast = {
 	tip = {
 		{
 			info = [[
@@ -13454,7 +13454,7 @@ GET!
 	}
 }
 
-_G.pg.gametip.help_chunjie_jiulou = {
+_G.pg.base.gametip.help_chunjie_jiulou = {
 	tip = {
 		{
 			info = [[
@@ -13469,35 +13469,35 @@ _G.pg.gametip.help_chunjie_jiulou = {
 	}
 }
 
-_G.pg.gametip.special_animal1 = {
+_G.pg.base.gametip.special_animal1 = {
 	tip = "[浦波のカワイイ図鑑No.1]\nブリザードウーパー：急速冷凍のスキルを有する謎生物。拡張パックでさらなる能力を会得できるらしい"
 }
 
-_G.pg.gametip.special_animal2 = {
+_G.pg.base.gametip.special_animal2 = {
 	tip = "[浦波のカワイイ図鑑No.2]\nハシビロESP：サイコキネシスを自動で発動する謎生物。その体には計り知れないエネルギーが秘めているらしい"
 }
 
-_G.pg.gametip.special_animal3 = {
+_G.pg.base.gametip.special_animal3 = {
 	tip = "[浦波のカワイイ図鑑No.3]\nアザラシボール：空気を大量に吸い込むことで、短時間ながら浮遊できる謎生物。鉄血のHe 178のエンジンがこいつから着想したわけではない"
 }
 
-_G.pg.gametip.special_animal4 = {
+_G.pg.base.gametip.special_animal4 = {
 	tip = "[浦波のカワイイ図鑑No.4]\nゆー…ちゃん？：あんなの、ぬいぐるみの動き方じゃありませんよ！"
 }
 
-_G.pg.gametip.special_animal5 = {
+_G.pg.base.gametip.special_animal5 = {
 	tip = "[浦波のカワイイ図鑑No.5]\nインビジブルワンワン：尻以外を不可視化できるワンワンのような謎生物。…なぜ尻なんだ"
 }
 
-_G.pg.gametip.special_animal6 = {
+_G.pg.base.gametip.special_animal6 = {
 	tip = "[浦波のカワイイ図鑑No.6]\nマッスル饅頭：機体の高性能化を極めた饅頭。科学部の強化型オフニャと日々競い合っている模様"
 }
 
-_G.pg.gametip.special_animal7 = {
+_G.pg.base.gametip.special_animal7 = {
 	tip = "[浦波のカワイイ図鑑No.7]\nレインボーマンチカン：寝るときに虹のようなよだれを垂らしてしまう謎生物。そのよだれもまた虹を作る永久機関なのだ"
 }
 
-_G.pg.gametip.bulin_help = {
+_G.pg.base.gametip.bulin_help = {
 	tip = {
 		{
 			info = [[
@@ -13530,67 +13530,67 @@ _G.pg.gametip.bulin_help = {
 	}
 }
 
-_G.pg.gametip.super_bulin = {
+_G.pg.base.gametip.super_bulin = {
 	tip = "特殊ステージに挑戦しますか？"
 }
 
-_G.pg.gametip.super_bulin_tip = {
+_G.pg.base.gametip.super_bulin_tip = {
 	tip = "タップで特殊チャレンジだプリン！"
 }
 
-_G.pg.gametip.bulin_tip1 = {
+_G.pg.base.gametip.bulin_tip1 = {
 	tip = "1-2海域に出撃にゃ！"
 }
 
-_G.pg.gametip.bulin_tip2 = {
+_G.pg.base.gametip.bulin_tip2 = {
 	tip = "在庫商品を確認するにゃ！"
 }
 
-_G.pg.gametip.bulin_tip3 = {
+_G.pg.base.gametip.bulin_tip3 = {
 	tip = "2-2海域に出撃にゃ！"
 }
 
-_G.pg.gametip.bulin_tip4 = {
+_G.pg.base.gametip.bulin_tip4 = {
 	tip = "ドックの様子をチェックにゃ！"
 }
 
-_G.pg.gametip.bulin_tip5 = {
+_G.pg.base.gametip.bulin_tip5 = {
 	tip = "1-4海域に出撃にゃ！"
 }
 
-_G.pg.gametip.bulin_tip6 = {
+_G.pg.base.gametip.bulin_tip6 = {
 	tip = "みんなお腹が減ってるのかにゃ？"
 }
 
-_G.pg.gametip.bulin_tip7 = {
+_G.pg.base.gametip.bulin_tip7 = {
 	tip = "2-4海域に出撃にゃ！"
 }
 
-_G.pg.gametip.bulin_tip8 = {
+_G.pg.base.gametip.bulin_tip8 = {
 	tip = "そろそろ花見の季節かにゃ？"
 }
 
-_G.pg.gametip.bulin_tip9 = {
+_G.pg.base.gametip.bulin_tip9 = {
 	tip = "お店に来てにゃ！"
 }
 
-_G.pg.gametip.bulin_tip_other1 = {
+_G.pg.base.gametip.bulin_tip_other1 = {
 	tip = "入手条件ヒントは20分につき1個しか表示できないプリン！表示するプリン？"
 }
 
-_G.pg.gametip.bulin_tip_other2 = {
+_G.pg.base.gametip.bulin_tip_other2 = {
 	tip = "＞＜まだ表示できないプリン"
 }
 
-_G.pg.gametip.bulin_tip_other3 = {
+_G.pg.base.gametip.bulin_tip_other3 = {
 	tip = "ステージから撤退するブリン？（報酬を入手できません）"
 }
 
-_G.pg.gametip.monopoly_left_count = {
+_G.pg.base.gametip.monopoly_left_count = {
 	tip = "サイコロ:"
 }
 
-_G.pg.gametip.help_chunjie_monopoly = {
+_G.pg.base.gametip.help_chunjie_monopoly = {
 	tip = {
 		{
 			info = "ルール："
@@ -13660,23 +13660,23 @@ _G.pg.gametip.help_chunjie_monopoly = {
 	}
 }
 
-_G.pg.gametip.monoply_drop_ship_step = {
+_G.pg.base.gametip.monoply_drop_ship_step = {
 	tip = "在经过$1圈，可获得角色换装【东煌之风】"
 }
 
-_G.pg.gametip.lanternRiddles_wait_for_reanswer = {
+_G.pg.base.gametip.lanternRiddles_wait_for_reanswer = {
 	tip = "再回答時間が経過すると再度回答できるようになります！"
 }
 
-_G.pg.gametip.lanternRiddles_answer_is_wrong = {
+_G.pg.base.gametip.lanternRiddles_answer_is_wrong = {
 	tip = "残念！不正解でした…"
 }
 
-_G.pg.gametip.lanternRiddles_answer_is_right = {
+_G.pg.base.gametip.lanternRiddles_answer_is_right = {
 	tip = "正解です！"
 }
 
-_G.pg.gametip.lanternRiddles_gametip = {
+_G.pg.base.gametip.lanternRiddles_gametip = {
 	tip = {
 		{
 			info = [[
@@ -13696,67 +13696,67 @@ _G.pg.gametip.lanternRiddles_gametip = {
 	}
 }
 
-_G.pg.gametip.LanternRiddle_wait_time_tip = {
+_G.pg.base.gametip.LanternRiddle_wait_time_tip = {
 	tip = "再回答まで:"
 }
 
-_G.pg.gametip.LinkLinkGame_BestTime = {
+_G.pg.base.gametip.LinkLinkGame_BestTime = {
 	tip = "最高記錄:"
 }
 
-_G.pg.gametip.LinkLinkGame_CurTime = {
+_G.pg.base.gametip.LinkLinkGame_CurTime = {
 	tip = "所要時間:"
 }
 
-_G.pg.gametip.sort_attribute = {
+_G.pg.base.gametip.sort_attribute = {
 	tip = "ｽﾃｰﾀｽ"
 }
 
-_G.pg.gametip.sort_intimacy = {
+_G.pg.base.gametip.sort_intimacy = {
 	tip = "親密度"
 }
 
-_G.pg.gametip.index_skin = {
+_G.pg.base.gametip.index_skin = {
 	tip = "着替所持"
 }
 
-_G.pg.gametip.index_reform = {
+_G.pg.base.gametip.index_reform = {
 	tip = "開発可能"
 }
 
-_G.pg.gametip.index_reform_cw = {
+_G.pg.base.gametip.index_reform_cw = {
 	tip = "改造可能"
 }
 
-_G.pg.gametip.index_strengthen = {
+_G.pg.base.gametip.index_strengthen = {
 	tip = "強化可能"
 }
 
-_G.pg.gametip.index_special = {
+_G.pg.base.gametip.index_special = {
 	tip = "特殊"
 }
 
-_G.pg.gametip.index_propose_skin = {
+_G.pg.base.gametip.index_propose_skin = {
 	tip = "ｹｯｺﾝ衣装"
 }
 
-_G.pg.gametip.index_not_obtained = {
+_G.pg.base.gametip.index_not_obtained = {
 	tip = "未入手"
 }
 
-_G.pg.gametip.index_no_limit = {
+_G.pg.base.gametip.index_no_limit = {
 	tip = "すべて"
 }
 
-_G.pg.gametip.index_awakening = {
+_G.pg.base.gametip.index_awakening = {
 	tip = "<size=36>認識覚醒可</size>"
 }
 
-_G.pg.gametip.index_not_lvmax = {
+_G.pg.base.gametip.index_not_lvmax = {
 	tip = "ﾚﾍﾞﾙMAX未満"
 }
 
-_G.pg.gametip.decodegame_gametip = {
+_G.pg.base.gametip.decodegame_gametip = {
 	tip = {
 		{
 			info = [[
@@ -13797,75 +13797,75 @@ _G.pg.gametip.decodegame_gametip = {
 	}
 }
 
-_G.pg.gametip.indexsort_sort = {
+_G.pg.base.gametip.indexsort_sort = {
 	tip = "ソート"
 }
 
-_G.pg.gametip.indexsort_index = {
+_G.pg.base.gametip.indexsort_index = {
 	tip = "フィルター"
 }
 
-_G.pg.gametip.indexsort_camp = {
+_G.pg.base.gametip.indexsort_camp = {
 	tip = "陣営"
 }
 
-_G.pg.gametip.indexsort_type = {
+_G.pg.base.gametip.indexsort_type = {
 	tip = "タイプ"
 }
 
-_G.pg.gametip.indexsort_rarity = {
+_G.pg.base.gametip.indexsort_rarity = {
 	tip = "ﾚｱﾘﾃｨ"
 }
 
-_G.pg.gametip.indexsort_extraindex = {
+_G.pg.base.gametip.indexsort_extraindex = {
 	tip = "追加ﾌｨﾙﾀｰ"
 }
 
-_G.pg.gametip.indexsort_sorteng = {
+_G.pg.base.gametip.indexsort_sorteng = {
 	tip = "SORT"
 }
 
-_G.pg.gametip.indexsort_indexeng = {
+_G.pg.base.gametip.indexsort_indexeng = {
 	tip = "INDEX"
 }
 
-_G.pg.gametip.indexsort_campeng = {
+_G.pg.base.gametip.indexsort_campeng = {
 	tip = "AFFILIATION"
 }
 
-_G.pg.gametip.indexsort_rarityeng = {
+_G.pg.base.gametip.indexsort_rarityeng = {
 	tip = "RARITY"
 }
 
-_G.pg.gametip.indexsort_typeeng = {
+_G.pg.base.gametip.indexsort_typeeng = {
 	tip = "TYPE"
 }
 
-_G.pg.gametip.fightfail_up = {
+_G.pg.base.gametip.fightfail_up = {
 	tip = "全艦隊を海域から引き上げ（撤退）、海域選択画面に戻りますか？"
 }
 
-_G.pg.gametip.fightfail_equip = {
+_G.pg.base.gametip.fightfail_equip = {
 	tip = "全艦隊を海域から引き上げ（撤退）、ドックで装備を強化しますか？"
 }
 
-_G.pg.gametip.fight_strengthen = {
+_G.pg.base.gametip.fight_strengthen = {
 	tip = "全艦隊を海域から引き上げ（撤退）、ドックで艦船の強化・限界突破を行いますか？"
 }
 
-_G.pg.gametip.fightfail_noequip = {
+_G.pg.base.gametip.fightfail_noequip = {
 	tip = "兵装が装備されていません"
 }
 
-_G.pg.gametip.fightfail_choiceequip = {
+_G.pg.base.gametip.fightfail_choiceequip = {
 	tip = "装備を強化したい艦船を選択してください"
 }
 
-_G.pg.gametip.fightfail_choicestrengthen = {
+_G.pg.base.gametip.fightfail_choicestrengthen = {
 	tip = "強化・限界突破する艦船を選んでください"
 }
 
-_G.pg.gametip.sofmap_attention = {
+_G.pg.base.gametip.sofmap_attention = {
 	tip = {
 		{
 			info = "通关下列指定关卡会获得不同数量的代金券\n    三章及以后的普通主线海域\n   活动关卡SP1、SP2、SP3"
@@ -13873,27 +13873,27 @@ _G.pg.gametip.sofmap_attention = {
 	}
 }
 
-_G.pg.gametip.sofmapsd_1 = {
+_G.pg.base.gametip.sofmapsd_1 = {
 	tip = "うにゃ！？クーポンを海域に\n落としたにゃ！指揮官、助けて\nにゃ！"
 }
 
-_G.pg.gametip.sofmapsd_2 = {
+_G.pg.base.gametip.sofmapsd_2 = {
 	tip = "クーポンを明石に渡して、\nご褒美を受け取ってにゃ！"
 }
 
-_G.pg.gametip.sofmapsd_3 = {
+_G.pg.base.gametip.sofmapsd_3 = {
 	tip = "ムフフ、これで売上がUPにゃ！"
 }
 
-_G.pg.gametip.sofmapsd_4 = {
+_G.pg.base.gametip.sofmapsd_4 = {
 	tip = "営業目標達成にゃ！\n指揮官、ありがとにゃ！"
 }
 
-_G.pg.gametip.inform_level_limit = {
+_G.pg.base.gametip.inform_level_limit = {
 	tip = "指揮官レベル20で開放されます"
 }
 
-_G.pg.gametip["3match_tip"] = {
+_G.pg.base.gametip["3match_tip"] = {
 	tip = {
 		{
 			icon = {
@@ -13931,67 +13931,67 @@ _G.pg.gametip["3match_tip"] = {
 	}
 }
 
-_G.pg.gametip.retire_selectzero = {
+_G.pg.base.gametip.retire_selectzero = {
 	tip = "一括退役できる艦船が存在しません"
 }
 
-_G.pg.gametip.undermist_tip = {
+_G.pg.base.gametip.undermist_tip = {
 	tip = "次の任務は明日に開放されます"
 }
 
-_G.pg.gametip.retire_1 = {
+_G.pg.base.gametip.retire_1 = {
 	tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持している</color>場合、その艦船と同名の艦船は"
 }
 
-_G.pg.gametip.retire_2 = {
+_G.pg.base.gametip.retire_2 = {
 	tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持していない</color>場合、その艦船と同名の艦船は"
 }
 
-_G.pg.gametip.retire_3 = {
+_G.pg.base.gametip.retire_3 = {
 	tip = "仅选择LV.1的舰船"
 }
 
-_G.pg.gametip.retire_rarity = {
+_G.pg.base.gametip.retire_rarity = {
 	tip = "優先選択対象$1"
 }
 
-_G.pg.gametip.retire_title = {
+_G.pg.base.gametip.retire_title = {
 	tip = "一括退役設定"
 }
 
-_G.pg.gametip.res_unlock_tip = {
+_G.pg.base.gametip.res_unlock_tip = {
 	tip = "下記アイテムを消費して、音楽鑑賞を開放（アセットダウンロード）します"
 }
 
-_G.pg.gametip.res_wifi_tip = {
+_G.pg.base.gametip.res_wifi_tip = {
 	tip = "wifi環境でのダウンロードをお勧めします。ダウンロードを続行しますか？"
 }
 
-_G.pg.gametip.res_downloading = {
+_G.pg.base.gametip.res_downloading = {
 	tip = "ダウンロード中"
 }
 
-_G.pg.gametip.res_pic_new_tip = {
+_G.pg.base.gametip.res_pic_new_tip = {
 	tip = "$1枚のスチルが更新されました"
 }
 
-_G.pg.gametip.res_music_no_pre_tip = {
+_G.pg.base.gametip.res_music_no_pre_tip = {
 	tip = "最初のBGMです"
 }
 
-_G.pg.gametip.res_music_no_next_tip = {
+_G.pg.base.gametip.res_music_no_next_tip = {
 	tip = "最後のBGMです"
 }
 
-_G.pg.gametip.res_music_new_tip = {
+_G.pg.base.gametip.res_music_new_tip = {
 	tip = "$1個のBGMのが更新されました"
 }
 
-_G.pg.gametip.apple_link_title = {
+_G.pg.base.gametip.apple_link_title = {
 	tip = "連携中のアカウント完了"
 }
 
-_G.pg.gametip.retire_setting_help = {
+_G.pg.base.gametip.retire_setting_help = {
 	tip = {
 		{
 			info = [[
@@ -14009,79 +14009,79 @@ _G.pg.gametip.retire_setting_help = {
 	}
 }
 
-_G.pg.gametip.activity_shop_exchange_count = {
+_G.pg.base.gametip.activity_shop_exchange_count = {
 	tip = "交換可能"
 }
 
-_G.pg.gametip.shops_msgbox_exchange_count = {
+_G.pg.base.gametip.shops_msgbox_exchange_count = {
 	tip = "交換数量:"
 }
 
-_G.pg.gametip.shops_msgbox_output = {
+_G.pg.base.gametip.shops_msgbox_output = {
 	tip = "入手："
 }
 
-_G.pg.gametip.shop_word_exchange = {
+_G.pg.base.gametip.shop_word_exchange = {
 	tip = "交 換"
 }
 
-_G.pg.gametip.shop_word_cancel = {
+_G.pg.base.gametip.shop_word_cancel = {
 	tip = "戻 る"
 }
 
-_G.pg.gametip.title_item_ways = {
+_G.pg.base.gametip.title_item_ways = {
 	tip = "<color=#92fc63>$1</color>は下記の方法で入手可能"
 }
 
-_G.pg.gametip.item_lack_title = {
+_G.pg.base.gametip.item_lack_title = {
 	tip = "<color=#92fc63>$1</color>は下記の方法で入手可能"
 }
 
-_G.pg.gametip.oil_buy_tip_2 = {
+_G.pg.base.gametip.oil_buy_tip_2 = {
 	tip = "燃料が<size=28><color=#ff5c5c>$4</color></size>不足しています。<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>を 消費し燃料<size=30><color=#92fc63>$2</color></size>を購入しますか？\n\n<size=28><color=#a2a2a2>( 本日購入 <size=28><color=#ff5c5c>$3</color></size>  回 )</color></size>"
 }
 
-_G.pg.gametip.target_chapter_is_lock = {
+_G.pg.base.gametip.target_chapter_is_lock = {
 	tip = "この章の海域はまだ開放されていません"
 }
 
-_G.pg.gametip.ship_book = {
+_G.pg.base.gametip.ship_book = {
 	tip = "教科書"
 }
 
-_G.pg.gametip.collect_tip = {
+_G.pg.base.gametip.collect_tip = {
 	tip = "出撃編成中の艦船がいます。委託チームを編成できません"
 }
 
-_G.pg.gametip.collect_tip2 = {
+_G.pg.base.gametip.collect_tip2 = {
 	tip = "出撃中の艦船がいます。委託チームを編成できません"
 }
 
-_G.pg.gametip.word_weakness = {
+_G.pg.base.gametip.word_weakness = {
 	tip = "損傷"
 }
 
-_G.pg.gametip.special_operation_tip1 = {
+_G.pg.base.gametip.special_operation_tip1 = {
 	tip = "消費アイテムがありません"
 }
 
-_G.pg.gametip.special_operation_tip2 = {
+_G.pg.base.gametip.special_operation_tip2 = {
 	tip = "消費アイテムがありません"
 }
 
-_G.pg.gametip.area_lock = {
+_G.pg.base.gametip.area_lock = {
 	tip = "この海域が開放されていません"
 }
 
-_G.pg.gametip.equipment_upgrade_equipped_tag = {
+_G.pg.base.gametip.equipment_upgrade_equipped_tag = {
 	tip = "装備中："
 }
 
-_G.pg.gametip.equipment_upgrade_spare_tag = {
+_G.pg.base.gametip.equipment_upgrade_spare_tag = {
 	tip = "倉庫："
 }
 
-_G.pg.gametip.equipment_upgrade_help = {
+_G.pg.base.gametip.equipment_upgrade_help = {
 	tip = {
 		{
 			info = "<color=#ffde38>■兵装開発とは</color>\n"
@@ -14105,55 +14105,55 @@ _G.pg.gametip.equipment_upgrade_help = {
 	}
 }
 
-_G.pg.gametip.equipment_upgrade_title = {
+_G.pg.base.gametip.equipment_upgrade_title = {
 	tip = "兵装開発"
 }
 
-_G.pg.gametip.equipment_upgrade_coin_consume = {
+_G.pg.base.gametip.equipment_upgrade_coin_consume = {
 	tip = "資金消費"
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_source_chosen = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_source_chosen = {
 	tip = "素材を選択してください"
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_materials_consume = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_materials_consume = {
 	tip = "下記の素材が消費されます"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_materials = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_materials = {
 	tip = "素材不足"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_equipment_consume = {
+_G.pg.base.gametip.equipment_upgrade_feedback_equipment_consume = {
 	tip = "<color=#92fc63>$1</color>が装備中の<color=#92fc63>$2</color>が開発素材として消費されます"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
+_G.pg.base.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
 	tip = "素材となる兵装が不足しています。兵装開発で素材を入手してください"
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_feedback_source_chosen = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_feedback_source_chosen = {
 	tip = "素材となる装備を選択してください"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_equipment = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_equipment = {
 	tip = "素材となる兵装が不足しています。兵装開発で素材を入手してください"
 }
 
-_G.pg.gametip.equipment_upgrade_equipped_unavailable = {
+_G.pg.base.gametip.equipment_upgrade_equipped_unavailable = {
 	tip = "<color=#92fc63>$1</color>は<color=#92fc63>$2</color>を装備できないため、<color=#92fc63>$2</color>が倉庫に送られました"
 }
 
-_G.pg.gametip.equipment_upgrade_initial_node = {
+_G.pg.base.gametip.equipment_upgrade_initial_node = {
 	tip = "この兵装は兵装開発では入手出来ません"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_compose_tip = {
+_G.pg.base.gametip.equipment_upgrade_feedback_compose_tip = {
 	tip = "装備設計図を消費して兵装開発を行う場合、装備の製作に必要な資源を消費します。兵装開発を行いますか？"
 }
 
-_G.pg.gametip.pizzahut_help = {
+_G.pg.base.gametip.pizzahut_help = {
 	tip = {
 		{
 			info = [[
@@ -14174,7 +14174,7 @@ _G.pg.gametip.pizzahut_help = {
 	}
 }
 
-_G.pg.gametip.towerclimbing_gametip = {
+_G.pg.base.gametip.towerclimbing_gametip = {
 	tip = {
 		{
 			info = [[
@@ -14207,7 +14207,7 @@ _G.pg.gametip.towerclimbing_gametip = {
 	}
 }
 
-_G.pg.gametip.qingdianguangchang_help = {
+_G.pg.base.gametip.qingdianguangchang_help = {
 	tip = {
 		{
 			info = [[
@@ -14253,19 +14253,19 @@ _G.pg.gametip.qingdianguangchang_help = {
 	}
 }
 
-_G.pg.gametip.building_tip = {
+_G.pg.base.gametip.building_tip = {
 	tip = "任務一覧の<color=#92fc63>期間限定任務</color>をクリアし、増築に必要な素材を入手しよう！"
 }
 
-_G.pg.gametip.building_upgrade_tip = {
+_G.pg.base.gametip.building_upgrade_tip = {
 	tip = "施設を増築しますか？"
 }
 
-_G.pg.gametip.msgbox_text_upgrade = {
+_G.pg.base.gametip.msgbox_text_upgrade = {
 	tip = "増 築"
 }
 
-_G.pg.gametip.towerclimbing_sign_help = {
+_G.pg.base.gametip.towerclimbing_sign_help = {
 	tip = {
 		{
 			info = [[
@@ -14281,59 +14281,59 @@ _G.pg.gametip.towerclimbing_sign_help = {
 	}
 }
 
-_G.pg.gametip.building_complete_tip = {
+_G.pg.base.gametip.building_complete_tip = {
 	tip = "増築に成功しました"
 }
 
-_G.pg.gametip.backyard_theme_refresh_time_tip = {
+_G.pg.base.gametip.backyard_theme_refresh_time_tip = {
 	tip = "请勿频繁刷新"
 }
 
-_G.pg.gametip.backyard_theme_total_print = {
+_G.pg.base.gametip.backyard_theme_total_print = {
 	tip = "合計"
 }
 
-_G.pg.gametip.backyard_theme_word_buy = {
+_G.pg.base.gametip.backyard_theme_word_buy = {
 	tip = "購入"
 }
 
-_G.pg.gametip.backyard_theme_word_apply = {
+_G.pg.base.gametip.backyard_theme_word_apply = {
 	tip = "適用"
 }
 
-_G.pg.gametip.backyard_theme_apply_success = {
+_G.pg.base.gametip.backyard_theme_apply_success = {
 	tip = "保存しました"
 }
 
-_G.pg.gametip.words_visit_backyard_toggle = {
+_G.pg.base.gametip.words_visit_backyard_toggle = {
 	tip = "友達の寮舎訪問を許可"
 }
 
-_G.pg.gametip.words_show_friend_backyardship_toggle = {
+_G.pg.base.gametip.words_show_friend_backyardship_toggle = {
 	tip = "寮舎で友達の秘書艦を表示"
 }
 
-_G.pg.gametip.words_show_my_backyardship_toggle = {
+_G.pg.base.gametip.words_show_my_backyardship_toggle = {
 	tip = "友達の寮舎で秘書艦を表示"
 }
 
-_G.pg.gametip.option_desc7 = {
+_G.pg.base.gametip.option_desc7 = {
 	tip = "ONにすると、友達が自分の寮舎を訪問できる"
 }
 
-_G.pg.gametip.option_desc8 = {
+_G.pg.base.gametip.option_desc8 = {
 	tip = "ONにすると、自分の寮舎画面で来訪した（寮舎表示をONにした）友達の秘書艦が表示される"
 }
 
-_G.pg.gametip.option_desc9 = {
+_G.pg.base.gametip.option_desc9 = {
 	tip = "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
 }
 
-_G.pg.gametip.backyard_unopen = {
+_G.pg.base.gametip.backyard_unopen = {
 	tip = "相手の寮舎が開放されていません"
 }
 
-_G.pg.gametip.help_monopoly_car = {
+_G.pg.base.gametip.help_monopoly_car = {
 	tip = {
 		{
 			info = "■遊び方"
@@ -14400,7 +14400,7 @@ _G.pg.gametip.help_monopoly_car = {
 	}
 }
 
-_G.pg.gametip.help_monopoly_3th = {
+_G.pg.base.gametip.help_monopoly_3th = {
 	tip = {
 		{
 			info = "開催期間：<color=#92fc63>2021.1.27-2022.2.10</color>"
@@ -14424,315 +14424,315 @@ _G.pg.gametip.help_monopoly_3th = {
 	}
 }
 
-_G.pg.gametip.backYard_missing_furnitrue_tip = {
+_G.pg.base.gametip.backYard_missing_furnitrue_tip = {
 	tip = "缺少以下家具"
 }
 
-_G.pg.gametip.win_condition_display_qijian = {
+_G.pg.base.gametip.win_condition_display_qijian = {
 	tip = "敵中枢艦隊撃破"
 }
 
-_G.pg.gametip.win_condition_display_qijian_tip = {
+_G.pg.base.gametip.win_condition_display_qijian_tip = {
 	tip = "中枢艦隊撃破，ステージクリア"
 }
 
-_G.pg.gametip.win_condition_display_shangchuan = {
+_G.pg.base.gametip.win_condition_display_shangchuan = {
 	tip = "輸送船が指定位置に到達"
 }
 
-_G.pg.gametip.win_condition_display_shangchuan_tip = {
+_G.pg.base.gametip.win_condition_display_shangchuan_tip = {
 	tip = "輸送船が目標地点に到着しました。海上護衛成功！"
 }
 
-_G.pg.gametip.win_condition_display_judian = {
+_G.pg.base.gametip.win_condition_display_judian = {
 	tip = "敵拠点を全て破壊"
 }
 
-_G.pg.gametip.win_condition_display_tuoli = {
+_G.pg.base.gametip.win_condition_display_tuoli = {
 	tip = "艦隊が指定地点に到達"
 }
 
-_G.pg.gametip.win_condition_display_tuoli_tip = {
+_G.pg.base.gametip.win_condition_display_tuoli_tip = {
 	tip = "離脱マスに到着しました"
 }
 
-_G.pg.gametip.lose_condition_display_quanmie = {
+_G.pg.base.gametip.lose_condition_display_quanmie = {
 	tip = "味方艦隊全滅"
 }
 
-_G.pg.gametip.lose_condition_display_gangqu = {
+_G.pg.base.gametip.lose_condition_display_gangqu = {
 	tip = "味方艦隊全滅/港の耐久度が0"
 }
 
-_G.pg.gametip.re_battle = {
+_G.pg.base.gametip.re_battle = {
 	tip = "再度出撃"
 }
 
-_G.pg.gametip.keep_fate_tip = {
+_G.pg.base.gametip.keep_fate_tip = {
 	tip = "<color=#92fc63>竜骨編纂</color>用の強化ユニットを除く"
 }
 
-_G.pg.gametip.equip_info_1 = {
+_G.pg.base.gametip.equip_info_1 = {
 	tip = "ダメージ"
 }
 
-_G.pg.gametip.equip_info_2 = {
+_G.pg.base.gametip.equip_info_2 = {
 	tip = "発射速度"
 }
 
-_G.pg.gametip.equip_info_3 = {
+_G.pg.base.gametip.equip_info_3 = {
 	tip = "補正込発射速度"
 }
 
-_G.pg.gametip.equip_info_4 = {
+_G.pg.base.gametip.equip_info_4 = {
 	tip = "スキル"
 }
 
-_G.pg.gametip.equip_info_5 = {
+_G.pg.base.gametip.equip_info_5 = {
 	tip = "弾薬"
 }
 
-_G.pg.gametip.equip_info_6 = {
+_G.pg.base.gametip.equip_info_6 = {
 	tip = "弾薬速度"
 }
 
-_G.pg.gametip.equip_info_7 = {
+_G.pg.base.gametip.equip_info_7 = {
 	tip = "魚雷速度"
 }
 
-_G.pg.gametip.equip_info_8 = {
+_G.pg.base.gametip.equip_info_8 = {
 	tip = "対甲倍率"
 }
 
-_G.pg.gametip.equip_info_9 = {
+_G.pg.base.gametip.equip_info_9 = {
 	tip = "破壊範囲"
 }
 
-_G.pg.gametip.equip_info_10 = {
+_G.pg.base.gametip.equip_info_10 = {
 	tip = "機銃射程"
 }
 
-_G.pg.gametip.equip_info_11 = {
+_G.pg.base.gametip.equip_info_11 = {
 	tip = "機銃射角"
 }
 
-_G.pg.gametip.equip_info_12 = {
+_G.pg.base.gametip.equip_info_12 = {
 	tip = "投射範囲"
 }
 
-_G.pg.gametip.equip_info_13 = {
+_G.pg.base.gametip.equip_info_13 = {
 	tip = "特性"
 }
 
-_G.pg.gametip.equip_info_14 = {
+_G.pg.base.gametip.equip_info_14 = {
 	tip = "装備性能"
 }
 
-_G.pg.gametip.equip_info_15 = {
+_G.pg.base.gametip.equip_info_15 = {
 	tip = "照準範囲"
 }
 
-_G.pg.gametip.equip_info_16 = {
+_G.pg.base.gametip.equip_info_16 = {
 	tip = "照準角度"
 }
 
-_G.pg.gametip.equip_info_17 = {
+_G.pg.base.gametip.equip_info_17 = {
 	tip = "弾薬射程"
 }
 
-_G.pg.gametip.equip_info_18 = {
+_G.pg.base.gametip.equip_info_18 = {
 	tip = "拡散角度"
 }
 
-_G.pg.gametip.equip_info_19 = {
+_G.pg.base.gametip.equip_info_19 = {
 	tip = "所属陣営"
 }
 
-_G.pg.gametip.equip_info_20 = {
+_G.pg.base.gametip.equip_info_20 = {
 	tip = "艦載機速度"
 }
 
-_G.pg.gametip.equip_info_21 = {
+_G.pg.base.gametip.equip_info_21 = {
 	tip = "艦載機耐久"
 }
 
-_G.pg.gametip.equip_info_22 = {
+_G.pg.base.gametip.equip_info_22 = {
 	tip = "艦載機最大回避"
 }
 
-_G.pg.gametip.equip_info_23 = {
+_G.pg.base.gametip.equip_info_23 = {
 	tip = "適用艦種"
 }
 
-_G.pg.gametip.equip_info_24 = {
+_G.pg.base.gametip.equip_info_24 = {
 	tip = "搭載兵装"
 }
 
-_G.pg.gametip.equip_info_25 = {
+_G.pg.base.gametip.equip_info_25 = {
 	tip = "0"
 }
 
-_G.pg.gametip.equip_info_26 = {
+_G.pg.base.gametip.equip_info_26 = {
 	tip = "強化後スキル"
 }
 
-_G.pg.gametip.equip_info_27 = {
+_G.pg.base.gametip.equip_info_27 = {
 	tip = ""
 }
 
-_G.pg.gametip.equip_info_28 = {
+_G.pg.base.gametip.equip_info_28 = {
 	tip = "強化ダメージ補正"
 }
 
-_G.pg.gametip.equip_info_29 = {
+_G.pg.base.gametip.equip_info_29 = {
 	tip = "伤害属性类型"
 }
 
-_G.pg.gametip.equip_info_30 = {
+_G.pg.base.gametip.equip_info_30 = {
 	tip = "属性效率"
 }
 
-_G.pg.gametip.equip_info_31 = {
+_G.pg.base.gametip.equip_info_31 = {
 	tip = "攻速"
 }
 
-_G.pg.gametip.equip_info_extralevel_0 = {
+_G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "レベル0"
 }
 
-_G.pg.gametip.equip_info_extralevel_1 = {
+_G.pg.base.gametip.equip_info_extralevel_1 = {
 	tip = "レベル1"
 }
 
-_G.pg.gametip.equip_info_extralevel_2 = {
+_G.pg.base.gametip.equip_info_extralevel_2 = {
 	tip = "レベル2"
 }
 
-_G.pg.gametip.equip_info_extralevel_3 = {
+_G.pg.base.gametip.equip_info_extralevel_3 = {
 	tip = "レベル3"
 }
 
-_G.pg.gametip.tec_settings_btn_word = {
+_G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "指向設定"
 }
 
-_G.pg.gametip.tec_tendency_0 = {
+_G.pg.base.gametip.tec_tendency_0 = {
 	tip = "指向なし"
 }
 
-_G.pg.gametip.tec_tendency_1 = {
+_G.pg.base.gametip.tec_tendency_1 = {
 	tip = "特別計画Ⅰ"
 }
 
-_G.pg.gametip.tec_tendency_2 = {
+_G.pg.base.gametip.tec_tendency_2 = {
 	tip = "特別計画Ⅱ"
 }
 
-_G.pg.gametip.tec_tendency_3 = {
+_G.pg.base.gametip.tec_tendency_3 = {
 	tip = "特別計画Ⅲ"
 }
 
-_G.pg.gametip.tec_tendency_4 = {
+_G.pg.base.gametip.tec_tendency_4 = {
 	tip = "特別計画Ⅳ"
 }
 
-_G.pg.gametip.tec_tendency_cur_0 = {
+_G.pg.base.gametip.tec_tendency_cur_0 = {
 	tip = "研究指向/指向なし"
 }
 
-_G.pg.gametip.tec_tendency_cur_1 = {
+_G.pg.base.gametip.tec_tendency_cur_1 = {
 	tip = "研究指向 / Ⅰ"
 }
 
-_G.pg.gametip.tec_tendency_cur_2 = {
+_G.pg.base.gametip.tec_tendency_cur_2 = {
 	tip = "研究指向 / Ⅱ"
 }
 
-_G.pg.gametip.tec_tendency_cur_3 = {
+_G.pg.base.gametip.tec_tendency_cur_3 = {
 	tip = "研究指向 / Ⅲ"
 }
 
-_G.pg.gametip.tec_target_catchup_none = {
+_G.pg.base.gametip.tec_target_catchup_none = {
 	tip = "定向追赶 / 未选择"
 }
 
-_G.pg.gametip.tec_target_catchup_selected = {
+_G.pg.base.gametip.tec_target_catchup_selected = {
 	tip = "定向追赶"
 }
 
-_G.pg.gametip.tec_tendency_cur_4 = {
+_G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "研究指向 / Ⅳ"
 }
 
-_G.pg.gametip.tec_target_catchup_none_1 = {
+_G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "強化指向Ⅰ期/未選択"
 }
 
-_G.pg.gametip.tec_target_catchup_none_2 = {
+_G.pg.base.gametip.tec_target_catchup_none_2 = {
 	tip = "強化指向Ⅱ期/未選択"
 }
 
-_G.pg.gametip.tec_target_catchup_none_3 = {
+_G.pg.base.gametip.tec_target_catchup_none_3 = {
 	tip = "強化指向Ⅲ期/未選択"
 }
 
-_G.pg.gametip.tec_target_catchup_selected_1 = {
+_G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "強化指向Ⅰ期/選択中"
 }
 
-_G.pg.gametip.tec_target_catchup_selected_2 = {
+_G.pg.base.gametip.tec_target_catchup_selected_2 = {
 	tip = "強化指向Ⅱ期/選択中"
 }
 
-_G.pg.gametip.tec_target_catchup_selected_3 = {
+_G.pg.base.gametip.tec_target_catchup_selected_3 = {
 	tip = "強化指向Ⅲ期/選択中"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_1 = {
+_G.pg.base.gametip.tec_target_catchup_finish_1 = {
 	tip = "強化指向Ⅰ期/完了"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_2 = {
+_G.pg.base.gametip.tec_target_catchup_finish_2 = {
 	tip = "強化指向Ⅱ期/完了"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_3 = {
+_G.pg.base.gametip.tec_target_catchup_finish_3 = {
 	tip = "強化指向Ⅲ期/完了"
 }
 
-_G.pg.gametip.tec_target_catchup_dr_finish_tip = {
+_G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
 	tip = "素材確保"
 }
 
-_G.pg.gametip.tec_target_catchup_all_finish_tip = {
+_G.pg.base.gametip.tec_target_catchup_all_finish_tip = {
 	tip = "素材確保"
 }
 
-_G.pg.gametip.tec_target_catchup_show_the_finished_version = {
+_G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
 	tip = "既に完了（素材確保）した指向も選択する"
 }
 
-_G.pg.gametip.tec_target_catchup_pry_char = {
+_G.pg.base.gametip.tec_target_catchup_pry_char = {
 	tip = "特別計画"
 }
 
-_G.pg.gametip.tec_target_catchup_dr_char = {
+_G.pg.base.gametip.tec_target_catchup_dr_char = {
 	tip = "決戦計画"
 }
 
-_G.pg.gametip.tec_target_need_print = {
+_G.pg.base.gametip.tec_target_need_print = {
 	tip = "強化残り"
 }
 
-_G.pg.gametip.tec_target_catchup_progress = {
+_G.pg.base.gametip.tec_target_catchup_progress = {
 	tip = "当期強化ユニット累計入手数"
 }
 
-_G.pg.gametip.tec_target_catchup_select_tip = {
+_G.pg.base.gametip.tec_target_catchup_select_tip = {
 	tip = "特別計画艦「$1」を選択しますか？"
 }
 
-_G.pg.gametip.tec_target_catchup_help_tip = {
+_G.pg.base.gametip.tec_target_catchup_help_tip = {
 	tip = {
 		{
 			info = "■強化指向とは"
@@ -14762,131 +14762,131 @@ _G.pg.gametip.tec_target_catchup_help_tip = {
 	}
 }
 
-_G.pg.gametip.tec_speedup_title = {
+_G.pg.base.gametip.tec_speedup_title = {
 	tip = "開発加速"
 }
 
-_G.pg.gametip.tec_speedup_progress = {
+_G.pg.base.gametip.tec_speedup_progress = {
 	tip = "$1万/$2万"
 }
 
-_G.pg.gametip.tec_speedup_overflow = {
+_G.pg.base.gametip.tec_speedup_overflow = {
 	tip = "余分となる戦術データパックの経験値$1が変換されなくなります。戦術データパックを使用しますか？"
 }
 
-_G.pg.gametip.tec_speedup_help_tip = {
+_G.pg.base.gametip.tec_speedup_help_tip = {
 	tip = "開発加速では、「戦術データパック」を開発任務「戦術データ収集」の蓄積経験値に変換することができます。\n「戦術データパック」は「任務」などで入手することが出来ます。"
 }
 
-_G.pg.gametip.click_back_tip = {
+_G.pg.base.gametip.click_back_tip = {
 	tip = "画面タップで戻る"
 }
 
-_G.pg.gametip.tech_catchup_sentence_pauses = {
+_G.pg.base.gametip.tech_catchup_sentence_pauses = {
 	tip = "――"
 }
 
-_G.pg.gametip.tec_act_catchup_btn_word = {
+_G.pg.base.gametip.tec_act_catchup_btn_word = {
 	tip = "強化イベント"
 }
 
-_G.pg.gametip.tec_catchup_errorfix = {
+_G.pg.base.gametip.tec_catchup_errorfix = {
 	tip = "「科学研究・一期」の特殊任務は1回だけ復活します。（既に2回クリアした場合、特殊任務は復活しません）"
 }
 
-_G.pg.gametip.guild_duty_is_too_low = {
+_G.pg.base.gametip.guild_duty_is_too_low = {
 	tip = "任務をこなし、資源拠出を行い貢献度を100まで上げましょう！"
 }
 
-_G.pg.gametip.guild_trainee_duty_change_tip = {
+_G.pg.base.gametip.guild_trainee_duty_change_tip = {
 	tip = "メンバー貢献度が100に到達する必要があります"
 }
 
-_G.pg.gametip.guild_not_exist_donate_task = {
+_G.pg.base.gametip.guild_not_exist_donate_task = {
 	tip = "この任務が存在しません"
 }
 
-_G.pg.gametip.guild_week_task_state_is_wrong = {
+_G.pg.base.gametip.guild_week_task_state_is_wrong = {
 	tip = "大艦隊任務情報を正常に読み込めません"
 }
 
-_G.pg.gametip.guild_get_week_done = {
+_G.pg.base.gametip.guild_get_week_done = {
 	tip = "新しい大艦隊任務が発令されました"
 }
 
-_G.pg.gametip.guild_public_awards = {
+_G.pg.base.gametip.guild_public_awards = {
 	tip = "大艦隊報酬："
 }
 
-_G.pg.gametip.guild_private_awards = {
+_G.pg.base.gametip.guild_private_awards = {
 	tip = "メンバー報酬："
 }
 
-_G.pg.gametip.guild_task_selecte_tip = {
+_G.pg.base.gametip.guild_task_selecte_tip = {
 	tip = "任務【$1】を受領しようとしています。受領した場合、今週中は他の任務に変更できません。任務を受領しますか？"
 }
 
-_G.pg.gametip.guild_task_accept = {
+_G.pg.base.gametip.guild_task_accept = {
 	tip = "【$1】の【$2】を入手しようとしています。【$3】を繰り返してこなすと、これ以上<color=#FF5C5CFF>貢献Ptを入手できません</color>が、<color=#92FC63FF>大艦隊資金を増やすことが可能</color>です。報酬を入手しますか？"
 }
 
-_G.pg.gametip.guild_commander_and_sub_op = {
+_G.pg.base.gametip.guild_commander_and_sub_op = {
 	tip = "この操作は大艦隊司令/副司令でのみ行なえます"
 }
 
-_G.pg.gametip["guild_donate_times_not enough"] = {
+_G.pg.base.gametip["guild_donate_times_not enough"] = {
 	tip = "本日の拠出可能回数が0になっています"
 }
 
-_G.pg.gametip.guild_donate_success = {
+_G.pg.base.gametip.guild_donate_success = {
 	tip = "拠出に成功しました"
 }
 
-_G.pg.gametip.guild_left_donate_cnt = {
+_G.pg.base.gametip.guild_left_donate_cnt = {
 	tip = "残り拠出回数：$1回"
 }
 
-_G.pg.gametip.guild_donate_tip = {
+_G.pg.base.gametip.guild_donate_tip = {
 	tip = "<color=#92FC63FF>$1×$2</color>(所持数：<color=$4>$3</color>)を大艦隊に拠出しようとしています。拠出を行いますか？"
 }
 
-_G.pg.gametip.guild_donate_addition_capital_tip = {
+_G.pg.base.gametip.guild_donate_addition_capital_tip = {
 	tip = "大艦隊資金が$1増加しました"
 }
 
-_G.pg.gametip.guild_donate_addition_techpoint_tip = {
+_G.pg.base.gametip.guild_donate_addition_techpoint_tip = {
 	tip = "大艦隊拠出度が$1増加しました"
 }
 
-_G.pg.gametip.guild_donate_capital_toplimit = {
+_G.pg.base.gametip.guild_donate_capital_toplimit = {
 	tip = "本日の資源拠出による大艦隊資金入手数が上限に達しています（個人貢献Ptは増加します）"
 }
 
-_G.pg.gametip.guild_donate_techpoint_toplimit = {
+_G.pg.base.gametip.guild_donate_techpoint_toplimit = {
 	tip = "本日の資源拠出による兵站施設開発進捗が上限に達しています（個人貢献Ptは増加します）"
 }
 
-_G.pg.gametip.guild_supply_no_open = {
+_G.pg.base.gametip.guild_supply_no_open = {
 	tip = "大艦隊補給が購入されていません"
 }
 
-_G.pg.gametip.guild_supply_award_got = {
+_G.pg.base.gametip.guild_supply_award_got = {
 	tip = "大艦隊補給を受け取りました"
 }
 
-_G.pg.gametip.guild_new_member_get_award_tip = {
+_G.pg.base.gametip.guild_new_member_get_award_tip = {
 	tip = "大艦隊加入初日は大艦隊補給を入手できません"
 }
 
-_G.pg.gametip.guild_start_supply_consume_tip = {
+_G.pg.base.gametip.guild_start_supply_consume_tip = {
 	tip = "大艦隊資金$1を消費し、大艦隊補給を購入しますか？"
 }
 
-_G.pg.gametip.guild_left_supply_day = {
+_G.pg.base.gametip.guild_left_supply_day = {
 	tip = "残り$1日"
 }
 
-_G.pg.gametip.guild_supply_help_tip = {
+_G.pg.base.gametip.guild_supply_help_tip = {
 	tip = {
 		{
 			info = "上層部から配布された補給物資。下記のアイテムを受取\nできます"
@@ -14915,483 +14915,483 @@ _G.pg.gametip.guild_supply_help_tip = {
 	}
 }
 
-_G.pg.gametip.guild_op_only_administrator = {
+_G.pg.base.gametip.guild_op_only_administrator = {
 	tip = "この操作は大艦隊司令/副司令でのみ行なえます"
 }
 
-_G.pg.gametip.guild_shop_refresh_done = {
+_G.pg.base.gametip.guild_shop_refresh_done = {
 	tip = "リセットしました"
 }
 
-_G.pg.gametip.guild_shop_cnt_no_enough = {
+_G.pg.base.gametip.guild_shop_cnt_no_enough = {
 	tip = "購入できません"
 }
 
-_G.pg.gametip.guild_shop_refresh_all_tip = {
+_G.pg.base.gametip.guild_shop_refresh_all_tip = {
 	tip = "$2を<color=#92fc63>$1</color><icon name=guildicon w=0.7 h=0.7/>消費し、ラインナップを更新しますか？"
 }
 
-_G.pg.gametip.guild_shop_exchange_tip = {
+_G.pg.base.gametip.guild_shop_exchange_tip = {
 	tip = "このアイテムとを交換しますか？"
 }
 
-_G.pg.gametip.guild_shop_label_1 = {
+_G.pg.base.gametip.guild_shop_label_1 = {
 	tip = "交換するアイテムを選択してください"
 }
 
-_G.pg.gametip.guild_shop_label_2 = {
+_G.pg.base.gametip.guild_shop_label_2 = {
 	tip = "交換可能数"
 }
 
-_G.pg.gametip.guild_shop_label_3 = {
+_G.pg.base.gametip.guild_shop_label_3 = {
 	tip = "確定"
 }
 
-_G.pg.gametip.guild_shop_label_4 = {
+_G.pg.base.gametip.guild_shop_label_4 = {
 	tip = "消費"
 }
 
-_G.pg.gametip.guild_shop_label_5 = {
+_G.pg.base.gametip.guild_shop_label_5 = {
 	tip = "以下の艦船から一隻を選択してください"
 }
 
-_G.pg.gametip.guild_shop_must_select_goods = {
+_G.pg.base.gametip.guild_shop_must_select_goods = {
 	tip = "交換するアイテムを選択してください"
 }
 
-_G.pg.gametip.guild_not_exist_activation_tech = {
+_G.pg.base.gametip.guild_not_exist_activation_tech = {
 	tip = "作業中の兵站施設が存在しません"
 }
 
-_G.pg.gametip.guild_not_exist_tech = {
+_G.pg.base.gametip.guild_not_exist_tech = {
 	tip = "兵站施設が存在しません"
 }
 
-_G.pg.gametip.guild_cancel_only_once_pre_day = {
+_G.pg.base.gametip.guild_cancel_only_once_pre_day = {
 	tip = "開発対象となる兵站施設は一日1回しか変更できません"
 }
 
-_G.pg.gametip.guild_tech_is_max_level = {
+_G.pg.base.gametip.guild_tech_is_max_level = {
 	tip = "兵站施設のレベルが最大です"
 }
 
-_G.pg.gametip.guild_tech_gold_no_enough = {
+_G.pg.base.gametip.guild_tech_gold_no_enough = {
 	tip = "兵站施設増築に必要な資金が不足しています"
 }
 
-_G.pg.gametip.guild_tech_guildgold_no_enough = {
+_G.pg.base.gametip.guild_tech_guildgold_no_enough = {
 	tip = "兵站施設増築に必要な貢献Ptが不足しています"
 }
 
-_G.pg.gametip.guild_tech_upgrade_done = {
+_G.pg.base.gametip.guild_tech_upgrade_done = {
 	tip = "兵站施設レベルが上昇しました"
 }
 
-_G.pg.gametip.guild_exist_activation_tech = {
+_G.pg.base.gametip.guild_exist_activation_tech = {
 	tip = "兵站施設は同時に1種類までしか開発できません"
 }
 
-_G.pg.gametip.guild_tech_gold_desc = {
+_G.pg.base.gametip.guild_tech_gold_desc = {
 	tip = "物資備蓄上限＋$1"
 }
 
-_G.pg.gametip.guild_tech_oil_desc = {
+_G.pg.base.gametip.guild_tech_oil_desc = {
 	tip = "燃料備蓄上限+$1"
 }
 
-_G.pg.gametip.guild_tech_shipbag_desc = {
+_G.pg.base.gametip.guild_tech_shipbag_desc = {
 	tip = "ドック容量+$1"
 }
 
-_G.pg.gametip.guild_tech_equipbag_desc = {
+_G.pg.base.gametip.guild_tech_equipbag_desc = {
 	tip = "倉庫容量+$1"
 }
 
-_G.pg.gametip.guild_box_gold_desc = {
+_G.pg.base.gametip.guild_box_gold_desc = {
 	tip = "ネコハコ購入コスト-$1"
 }
 
-_G.pg.gametip.guidl_r_box_time_desc = {
+_G.pg.base.gametip.guidl_r_box_time_desc = {
 	tip = "ネコハコR訓練時間短縮$1"
 }
 
-_G.pg.gametip.guidl_sr_box_time_desc = {
+_G.pg.base.gametip.guidl_sr_box_time_desc = {
 	tip = "ネコハコSR訓練時間短縮$2"
 }
 
-_G.pg.gametip.guidl_ssr_box_time_desc = {
+_G.pg.base.gametip.guidl_ssr_box_time_desc = {
 	tip = "ネコハコSSR訓練時間短縮$3"
 }
 
-_G.pg.gametip.guild_member_max_cnt_desc = {
+_G.pg.base.gametip.guild_member_max_cnt_desc = {
 	tip = "大艦隊最大メンバー数+$1"
 }
 
-_G.pg.gametip.guild_tech_livness_no_enough = {
+_G.pg.base.gametip.guild_tech_livness_no_enough = {
 	tip = "大艦隊活躍度が<color=#ff5c5c>$1</color>不足しているため、兵站施設をレベルアップさせるには通常より多くの資源を消費します。兵站レベルをアップさせますか？"
 }
 
-_G.pg.gametip.guild_tech_livness_no_enough_label = {
+_G.pg.base.gametip.guild_tech_livness_no_enough_label = {
 	tip = "貢献度$1で増築可能"
 }
 
-_G.pg.gametip.guild_ship_attr_desc = {
+_G.pg.base.gametip.guild_ship_attr_desc = {
 	tip = "大艦隊作戦内$1の$2が$3"
 }
 
-_G.pg.gametip.guild_start_tech_group_tip = {
+_G.pg.base.gametip.guild_start_tech_group_tip = {
 	tip = "【$1】の開発を始めようとしています。開発対象を確定しますか？"
 }
 
-_G.pg.gametip.guild_cancel_tech_tip = {
+_G.pg.base.gametip.guild_cancel_tech_tip = {
 	tip = "【$1】の開発を中止しようとしています（増築進捗が保存されます）。開発対象から外しますか？"
 }
 
-_G.pg.gametip.guild_tech_consume_tip = {
+_G.pg.base.gametip.guild_tech_consume_tip = {
 	tip = "<icon name=guildicon w=0.7 h=0.7/>$1と<icon name=gold w=0.7 h=0.7/>$2を消費し【$3】を増築 しようとしています。増築を行いますか？"
 }
 
-_G.pg.gametip.guild_tech_non_admin = {
+_G.pg.base.gametip.guild_tech_non_admin = {
 	tip = "この操作は大艦隊司令/副司令でのみ行なえます"
 }
 
-_G.pg.gametip.guild_tech_label_max_level = {
+_G.pg.base.gametip.guild_tech_label_max_level = {
 	tip = "Lv上限："
 }
 
-_G.pg.gametip.guild_tech_label_dev_progress = {
+_G.pg.base.gametip.guild_tech_label_dev_progress = {
 	tip = "物資進捗"
 }
 
-_G.pg.gametip.guild_tech_label_condition = {
+_G.pg.base.gametip.guild_tech_label_condition = {
 	tip = "物資進捗が上昇しました"
 }
 
-_G.pg.gametip.guild_tech_donate_target = {
+_G.pg.base.gametip.guild_tech_donate_target = {
 	tip = "物資進捗$1が必要です"
 }
 
-_G.pg.gametip.guild_not_exist = {
+_G.pg.base.gametip.guild_not_exist = {
 	tip = "大艦隊が存在しません"
 }
 
-_G.pg.gametip.guild_not_exist_battle = {
+_G.pg.base.gametip.guild_not_exist_battle = {
 	tip = "大艦隊作戦が存在しません"
 }
 
-_G.pg.gametip.guild_battle_is_end = {
+_G.pg.base.gametip.guild_battle_is_end = {
 	tip = "大艦隊作戦は終了しました"
 }
 
-_G.pg.gametip.guild_battle_is_exist = {
+_G.pg.base.gametip.guild_battle_is_exist = {
 	tip = "すでに大艦隊作戦が発令されています"
 }
 
-_G.pg.gametip.guild_guildgold_no_enough_for_battle = {
+_G.pg.base.gametip.guild_guildgold_no_enough_for_battle = {
 	tip = "大艦隊作戦を発令するのに必要な大艦隊資金はありません"
 }
 
-_G.pg.gametip.guild_event_start_tip1 = {
+_G.pg.base.gametip.guild_event_start_tip1 = {
 	tip = "新しい大艦隊作戦が発令されました。確定をタップして画面を更新してください"
 }
 
-_G.pg.gametip.guild_event_start_tip2 = {
+_G.pg.base.gametip.guild_event_start_tip2 = {
 	tip = "すでに大艦隊作戦が発令されましたため、新しい大艦隊作戦を発令できません"
 }
 
-_G.pg.gametip.guild_word_may_happen_event = {
+_G.pg.base.gametip.guild_word_may_happen_event = {
 	tip = "大艦隊作戦事件発生中"
 }
 
-_G.pg.gametip.guild_battle_award = {
+_G.pg.base.gametip.guild_battle_award = {
 	tip = "作戦獲得"
 }
 
-_G.pg.gametip.guild_word_consume = {
+_G.pg.base.gametip.guild_word_consume = {
 	tip = "消費"
 }
 
-_G.pg.gametip.guild_start_event_consume_tip = {
+_G.pg.base.gametip.guild_start_event_consume_tip = {
 	tip = "$1の大艦隊資金を消費して【$2】を発令しますか？"
 }
 
-_G.pg.gametip.guild_start_event_consume_tip_extra = {
+_G.pg.base.gametip.guild_start_event_consume_tip_extra = {
 	tip = "今月は大艦隊作戦を<color=#ff5c5c>$3</color>回開放しました。資源$1を消費し、大艦隊作戦“$2”を開放しますか？"
 }
 
-_G.pg.gametip.guild_word_consume_for_battle = {
+_G.pg.base.gametip.guild_word_consume_for_battle = {
 	tip = "発令消費"
 }
 
-_G.pg.gametip.guild_level_no_enough = {
+_G.pg.base.gametip.guild_level_no_enough = {
 	tip = "大艦隊レベルが不足しているため、作戦を発令できません"
 }
 
-_G.pg.gametip.guild_open_event_info_when_exist_active = {
+_G.pg.base.gametip.guild_open_event_info_when_exist_active = {
 	tip = "$1の大作戦が発令中のため、大作戦を選択できません"
 }
 
-_G.pg.gametip.guild_join_event_cnt_label = {
+_G.pg.base.gametip.guild_join_event_cnt_label = {
 	tip = "今月参加可能回数："
 }
 
-_G.pg.gametip.guild_join_event_max_cnt_tip = {
+_G.pg.base.gametip.guild_join_event_max_cnt_tip = {
 	tip = "参加可能回数が不足しています"
 }
 
-_G.pg.gametip.guild_join_event_progress_label = {
+_G.pg.base.gametip.guild_join_event_progress_label = {
 	tip = "作戦進捗："
 }
 
-_G.pg.gametip.guild_join_event_exist_finished_mission_tip = {
+_G.pg.base.gametip.guild_join_event_exist_finished_mission_tip = {
 	tip = "すでに発生しました作戦事件の報酬を入手できません。作戦に参加しますか？"
 }
 
-_G.pg.gametip.guild_event_not_exist = {
+_G.pg.base.gametip.guild_event_not_exist = {
 	tip = "作戦事件が存在しません"
 }
 
-_G.pg.gametip.guild_fleet_can_not_edit = {
+_G.pg.base.gametip.guild_fleet_can_not_edit = {
 	tip = "艦隊を編集できません"
 }
 
-_G.pg.gametip.guild_fleet_exist_same_kind_ship = {
+_G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
 	tip = "すでに支援派遣として大艦隊作戦に参加しています"
 }
 
-_G.pg.gametip.guild_event_exist_same_kind_ship = {
+_G.pg.base.gametip.guild_event_exist_same_kind_ship = {
 	tip = "同名艦が存在しているため、艦隊編成を行えません"
 }
 
-_G.pg.gametip.guidl_event_ship_in_event = {
+_G.pg.base.gametip.guidl_event_ship_in_event = {
 	tip = "ほかの任務に従事しているため、選択できません"
 }
 
-_G.pg.gametip.guild_event_start_done = {
+_G.pg.base.gametip.guild_event_start_done = {
 	tip = "派遣成功"
 }
 
-_G.pg.gametip.guild_fleet_update_done = {
+_G.pg.base.gametip.guild_fleet_update_done = {
 	tip = "艦隊編成が更新されました"
 }
 
-_G.pg.gametip.guild_event_is_lock = {
+_G.pg.base.gametip.guild_event_is_lock = {
 	tip = "作戦事件が開放されていません"
 }
 
-_G.pg.gametip.guild_event_is_finish = {
+_G.pg.base.gametip.guild_event_is_finish = {
 	tip = "作戦事件が終了しました。作戦報告を確認すると、報酬を受領できます"
 }
 
-_G.pg.gametip.guild_fleet_not_save_tip = {
+_G.pg.base.gametip.guild_fleet_not_save_tip = {
 	tip = "艦隊編成が更新されていません。前の画面に戻りますか？"
 }
 
-_G.pg.gametip.guild_word_battle_area = {
+_G.pg.base.gametip.guild_word_battle_area = {
 	tip = "作戦海域："
 }
 
-_G.pg.gametip.guild_word_battle_type = {
+_G.pg.base.gametip.guild_word_battle_type = {
 	tip = "作戦内容："
 }
 
-_G.pg.gametip.guild_wrod_battle_target = {
+_G.pg.base.gametip.guild_wrod_battle_target = {
 	tip = "作戦目標："
 }
 
-_G.pg.gametip.guild_event_recomm_ship_failed = {
+_G.pg.base.gametip.guild_event_recomm_ship_failed = {
 	tip = "条件を満たしている艦船がありません"
 }
 
-_G.pg.gametip.guild_event_start_event_tip = {
+_G.pg.base.gametip.guild_event_start_event_tip = {
 	tip = "派遣を行いますと、作戦終了まで艦船を変更できません。艦船を派遣しますか？"
 }
 
-_G.pg.gametip.guild_word_sea = {
+_G.pg.base.gametip.guild_word_sea = {
 	tip = "近海"
 }
 
-_G.pg.gametip.guild_word_score_addition = {
+_G.pg.base.gametip.guild_word_score_addition = {
 	tip = "評価UP："
 }
 
-_G.pg.gametip.guild_word_effect_addition = {
+_G.pg.base.gametip.guild_word_effect_addition = {
 	tip = "効率UP："
 }
 
-_G.pg.gametip.guild_curr_fleet_can_not_edit = {
+_G.pg.base.gametip.guild_curr_fleet_can_not_edit = {
 	tip = "艦隊編成を変更できません"
 }
 
-_G.pg.gametip.guild_next_edit_fleet_time = {
+_G.pg.base.gametip.guild_next_edit_fleet_time = {
 	tip = "$1後、新しい艦隊を派遣できます"
 }
 
-_G.pg.gametip.guild_event_info_desc1 = {
+_G.pg.base.gametip.guild_event_info_desc1 = {
 	tip = "作戦事件参加艦船$5隻の$1が$2以上: <color=$3>$4/$5(隻)</color>"
 }
 
-_G.pg.gametip.guild_event_info_desc2 = {
+_G.pg.base.gametip.guild_event_info_desc2 = {
 	tip = "作戦事件参加艦船の合計$1: <color=$2>$3/$4</color>"
 }
 
-_G.pg.gametip.guild_join_member_cnt = {
+_G.pg.base.gametip.guild_join_member_cnt = {
 	tip = "参加団員："
 }
 
-_G.pg.gametip.guild_total_effect = {
+_G.pg.base.gametip.guild_total_effect = {
 	tip = "効率："
 }
 
-_G.pg.gametip.guild_word_people = {
+_G.pg.base.gametip.guild_word_people = {
 	tip = "人"
 }
 
-_G.pg.gametip.guild_event_info_desc3 = {
+_G.pg.base.gametip.guild_event_info_desc3 = {
 	tip = "$1艦船(現在$2)"
 }
 
-_G.pg.gametip.guild_not_exist_boss = {
+_G.pg.base.gametip.guild_not_exist_boss = {
 	tip = "強敵データはありません"
 }
 
-_G.pg.gametip.guild_ship_from = {
+_G.pg.base.gametip.guild_ship_from = {
 	tip = "from:"
 }
 
-_G.pg.gametip.guild_boss_formation_1 = {
+_G.pg.base.gametip.guild_boss_formation_1 = {
 	tip = "大艦隊メンバーの支援派遣艦船を最大3隻まで選択できます"
 }
 
-_G.pg.gametip.guild_boss_formation_2 = {
+_G.pg.base.gametip.guild_boss_formation_2 = {
 	tip = "一人のメンバーの支援派遣艦船を最大1隻まで選択できます"
 }
 
-_G.pg.gametip.guild_boss_formation_3 = {
+_G.pg.base.gametip.guild_boss_formation_3 = {
 	tip = "同名艦船を選択することが出来ません"
 }
 
-_G.pg.gametip.guild_boss_cnt_no_enough = {
+_G.pg.base.gametip.guild_boss_cnt_no_enough = {
 	tip = "挑戦回数が不足しています"
 }
 
-_G.pg.gametip.guild_boss_fleet_cnt_invaild = {
+_G.pg.base.gametip.guild_boss_fleet_cnt_invaild = {
 	tip = "編成にエラーが発生しました。メンバー変更を行ってください"
 }
 
-_G.pg.gametip.guild_boss_formation_not_exist_self_ship = {
+_G.pg.base.gametip.guild_boss_formation_not_exist_self_ship = {
 	tip = "前衛艦隊・主力艦隊にそれぞれ1隻以上自分の艦船を配置しなければなりません"
 }
 
-_G.pg.gametip.guild_boss_formation_exist_event_ship = {
+_G.pg.base.gametip.guild_boss_formation_exist_event_ship = {
 	tip = "$1が軍事委託を遂行しているため、強敵戦に参加できません"
 }
 
-_G.pg.gametip.guild_fleet_is_legal = {
+_G.pg.base.gametip.guild_fleet_is_legal = {
 	tip = "前衛艦隊・主力艦隊にそれぞれ1隻以上配置しなければなりません"
 }
 
-_G.pg.gametip.guild_battle_result_boss_is_death = {
+_G.pg.base.gametip.guild_battle_result_boss_is_death = {
 	tip = "強敵の耐久が０になっていたため、戦闘結果が無効になりました。"
 }
 
-_G.pg.gametip.guild_must_edit_fleet = {
+_G.pg.base.gametip.guild_must_edit_fleet = {
 	tip = "支援派遣艦船を更新しました"
 }
 
-_G.pg.gametip.guild_ship_in_battle = {
+_G.pg.base.gametip.guild_ship_in_battle = {
 	tip = "$1は作戦に参加しています。作戦終了後に派遣編成が更新されます"
 }
 
-_G.pg.gametip.guild_ship_in_assult_fleet = {
+_G.pg.base.gametip.guild_ship_in_assult_fleet = {
 	tip = "すでに支援派遣艦船に編成されています"
 }
 
-_G.pg.gametip.guild_event_exist_assult_ship = {
+_G.pg.base.gametip.guild_event_exist_assult_ship = {
 	tip = "支援派遣艦船は作戦事件に参加できません"
 }
 
-_G.pg.gametip.guild_formation_erro_in_boss_battle = {
+_G.pg.base.gametip.guild_formation_erro_in_boss_battle = {
 	tip = "強敵と交戦中になっています。支援派遣艦船を変更できません"
 }
 
-_G.pg.gametip.guild_get_report_failed = {
+_G.pg.base.gametip.guild_get_report_failed = {
 	tip = "作戦報告情報を受け取るのに失敗しました"
 }
 
-_G.pg.gametip.guild_report_get_all = {
+_G.pg.base.gametip.guild_report_get_all = {
 	tip = "一括受取"
 }
 
-_G.pg.gametip.guild_can_not_get_tip = {
+_G.pg.base.gametip.guild_can_not_get_tip = {
 	tip = "作戦事件に参加していなかったため、報酬を受け取れませんでした"
 }
 
-_G.pg.gametip.guild_not_exist_notifycation = {
+_G.pg.base.gametip.guild_not_exist_notifycation = {
 	tip = "大艦隊連絡板に書き込みはありません"
 }
 
-_G.pg.gametip.guild_exist_report_award_when_exit = {
+_G.pg.base.gametip.guild_exist_report_award_when_exit = {
 	tip = "未受取の作戦報酬があります。報酬を確認しますか？"
 }
 
-_G.pg.gametip.guild_report_tooltip = {
+_G.pg.base.gametip.guild_report_tooltip = {
 	tip = "作戦報告（報酬）は最大20個分しかストックできません。過去未受取の報酬は報酬追加時に削除されます。ご注意！"
 }
 
-_G.pg.gametip.word_guildgold = {
+_G.pg.base.gametip.word_guildgold = {
 	tip = "貢献Pt"
 }
 
-_G.pg.gametip.guild_member_rank_title_donate = {
+_G.pg.base.gametip.guild_member_rank_title_donate = {
 	tip = "拠出回数"
 }
 
-_G.pg.gametip.guild_member_rank_title_finish_cnt = {
+_G.pg.base.gametip.guild_member_rank_title_finish_cnt = {
 	tip = "完成回数"
 }
 
-_G.pg.gametip.guild_member_rank_title_join_cnt = {
+_G.pg.base.gametip.guild_member_rank_title_join_cnt = {
 	tip = "参加回数"
 }
 
-_G.pg.gametip.guild_donate_log = {
+_G.pg.base.gametip.guild_donate_log = {
 	tip = "[$1] $2 は$3$4 を消費し拠出任務を完了しました 大艦隊資金＋$5"
 }
 
-_G.pg.gametip.guild_supply_log = {
+_G.pg.base.gametip.guild_supply_log = {
 	tip = "[$1] $2 は大艦隊資金$3 を消費し、大艦隊補給を$4日分購入しました"
 }
 
-_G.pg.gametip.guild_weektask_log = {
+_G.pg.base.gametip.guild_weektask_log = {
 	tip = "[$1] 大艦隊任務が完成されました。 大艦隊資金＋$2"
 }
 
-_G.pg.gametip.guild_battle_log = {
+_G.pg.base.gametip.guild_battle_log = {
 	tip = "[$1] $2 は大艦隊資金$3 を消費し、大艦隊作戦を発令しました"
 }
 
-_G.pg.gametip.guild_tech_change_log = {
+_G.pg.base.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 は大艦隊兵站・開発項目を$3に変更"
 }
 
-_G.pg.gametip.guild_log_title = {
+_G.pg.base.gametip.guild_log_title = {
 	tip = "艦隊ログ"
 }
 
-_G.pg.gametip.guild_use_donateitem_success = {
+_G.pg.base.gametip.guild_use_donateitem_success = {
 	tip = "資源拠出可能回数が+$1回復しました"
 }
 
-_G.pg.gametip.guild_use_battleitem_success = {
+_G.pg.base.gametip.guild_use_battleitem_success = {
 	tip = "大艦隊作戦参加可能回数が+$1回復しました"
 }
 
-_G.pg.gametip.not_exist_guild_use_item = {
+_G.pg.base.gametip.not_exist_guild_use_item = {
 	tip = "大艦隊に所属していないため、アイテムを使用できません"
 }
 
-_G.pg.gametip.guild_member_tip = {
+_G.pg.base.gametip.guild_member_tip = {
 	tip = {
 		{
 			info = "メンバー管理について："
@@ -15465,7 +15465,7 @@ _G.pg.gametip.guild_member_tip = {
 	}
 }
 
-_G.pg.gametip.guild_tech_tip = {
+_G.pg.base.gametip.guild_tech_tip = {
 	tip = {
 		{
 			info = "兵站施設について：\n"
@@ -15513,7 +15513,7 @@ _G.pg.gametip.guild_tech_tip = {
 	}
 }
 
-_G.pg.gametip.guild_office_tip = {
+_G.pg.base.gametip.guild_office_tip = {
 	tip = {
 		{
 			info = "大艦隊資金、任務、補給について："
@@ -15552,7 +15552,7 @@ _G.pg.gametip.guild_office_tip = {
 	}
 }
 
-_G.pg.gametip.guild_event_help_tip = {
+_G.pg.base.gametip.guild_event_help_tip = {
 	tip = {
 		{
 			info = "大艦隊作戦について：\n"
@@ -15600,7 +15600,7 @@ _G.pg.gametip.guild_event_help_tip = {
 	}
 }
 
-_G.pg.gametip.guild_mission_info_tip = {
+_G.pg.base.gametip.guild_mission_info_tip = {
 	tip = {
 		{
 			info = "作戦事件について：\n"
@@ -15627,7 +15627,7 @@ _G.pg.gametip.guild_mission_info_tip = {
 	}
 }
 
-_G.pg.gametip.guild_public_tech_tip = {
+_G.pg.base.gametip.guild_public_tech_tip = {
 	tip = {
 		{
 			info = "■公共大艦隊兵站について："
@@ -15656,7 +15656,7 @@ _G.pg.gametip.guild_public_tech_tip = {
 	}
 }
 
-_G.pg.gametip.guild_public_office_tip = {
+_G.pg.base.gametip.guild_public_office_tip = {
 	tip = {
 		{
 			info = "■物資拠出について"
@@ -15670,11 +15670,11 @@ _G.pg.gametip.guild_public_office_tip = {
 	}
 }
 
-_G.pg.gametip.guild_tech_price_inc_tip = {
+_G.pg.base.gametip.guild_tech_price_inc_tip = {
 	tip = "大艦隊兵站施設レベルアップ条件を満たしていないため、兵站施設をレベルアップさせるには通常より多くの資源を消費します。兵站レベルをアップさせますか？"
 }
 
-_G.pg.gametip.guild_boss_fleet_desc = {
+_G.pg.base.gametip.guild_boss_fleet_desc = {
 	tip = [[
 1.作戦編成は最大<color=#92fc63>9</color>名の艦船によって構成されます。
 2.前衛・主力艦隊にそれぞれ<color=#92fc63>1</color>隻以上所持艦船から選択しなければなりません。
@@ -15682,91 +15682,91 @@ _G.pg.gametip.guild_boss_fleet_desc = {
 4.強敵のHPをゼロにすると、大艦隊作戦が終了します。指揮官は1日に1回しか強敵と交戦できません]]
 }
 
-_G.pg.gametip.guild_boss_formation_exist_invaild_ship = {
+_G.pg.base.gametip.guild_boss_formation_exist_invaild_ship = {
 	tip = "大艦隊メンバーの支援派遣編成が変更されたため、強敵戦編成が更新されました。"
 }
 
-_G.pg.gametip.guild_exist_unreceived_supply_award = {
+_G.pg.base.gametip.guild_exist_unreceived_supply_award = {
 	tip = "<color=red>未受取</color>"
 }
 
-_G.pg.gametip.word_shipState_guild_event = {
+_G.pg.base.gametip.word_shipState_guild_event = {
 	tip = "大艦隊作戦に参加しているため、退役できません"
 }
 
-_G.pg.gametip.word_shipState_guild_boss = {
+_G.pg.base.gametip.word_shipState_guild_boss = {
 	tip = "大艦隊の強敵戦に編成されている艦船です。編成から外し、対象に選択しますか？"
 }
 
-_G.pg.gametip.commander_is_in_guild = {
+_G.pg.base.gametip.commander_is_in_guild = {
 	tip = "大艦隊の強敵戦に編成されているオフニャです。編成から外し、対象に選択しますか？"
 }
 
-_G.pg.gametip.guild_assult_ship_recommend = {
+_G.pg.base.gametip.guild_assult_ship_recommend = {
 	tip = "大艦隊作戦・支援派遣の優先枠に設定しました"
 }
 
-_G.pg.gametip.guild_cancel_assult_ship_recommend = {
+_G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
 	tip = "大艦隊作戦・支援派遣の通常枠に設定しました"
 }
 
-_G.pg.gametip.guild_assult_ship_recommend_conflict = {
+_G.pg.base.gametip.guild_assult_ship_recommend_conflict = {
 	tip = "大艦隊作戦・支援派遣の優先枠に設定されています"
 }
 
-_G.pg.gametip.guild_recommend_limit = {
+_G.pg.base.gametip.guild_recommend_limit = {
 	tip = "大艦隊作戦・支援派遣の優先枠はすでに9隻が設定されています"
 }
 
-_G.pg.gametip.guild_cancel_assult_ship_recommend_conflict = {
+_G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
 	tip = "大艦隊作戦・支援派遣の通常枠に設定されています"
 }
 
-_G.pg.gametip.guild_mission_complate = {
+_G.pg.base.gametip.guild_mission_complate = {
 	tip = "大艦隊任務完了：$1"
 }
 
-_G.pg.gametip.guild_operation_event_occurrence = {
+_G.pg.base.gametip.guild_operation_event_occurrence = {
 	tip = "大艦隊作戦で新しい作戦事件が発生中です。確認しますか？"
 }
 
-_G.pg.gametip.guild_transfer_president_confirm = {
+_G.pg.base.gametip.guild_transfer_president_confirm = {
 	tip = "「艦隊司令」権限を$1に委譲すると、指揮官は「一般メンバー」になります。委譲を行いますか？"
 }
 
-_G.pg.gametip.guild_damage_ranking = {
+_G.pg.base.gametip.guild_damage_ranking = {
 	tip = "順位"
 }
 
-_G.pg.gametip.guild_total_damage = {
+_G.pg.base.gametip.guild_total_damage = {
 	tip = "ダメージ"
 }
 
-_G.pg.gametip.guild_donate_list_updated = {
+_G.pg.base.gametip.guild_donate_list_updated = {
 	tip = "物資拠出回数がリセットされました"
 }
 
-_G.pg.gametip.guild_donate_list_update_failed = {
+_G.pg.base.gametip.guild_donate_list_update_failed = {
 	tip = "物資拠出回数がリセットされませんました"
 }
 
-_G.pg.gametip.guild_tip_quit_operation = {
+_G.pg.base.gametip.guild_tip_quit_operation = {
 	tip = "大艦隊から脱退すると、消費済みの大艦隊作戦参加回数は回復しません。大艦隊から脱退しますか？"
 }
 
-_G.pg.gametip.guild_tip_grand_fleet_is_frozen = {
+_G.pg.base.gametip.guild_tip_grand_fleet_is_frozen = {
 	tip = "大艦隊が凍結されているため、参加できません"
 }
 
-_G.pg.gametip.guild_tip_operation_time_is_not_ample = {
+_G.pg.base.gametip.guild_tip_operation_time_is_not_ample = {
 	tip = "大艦隊作戦開放期間が残りわずか（7日間以下）なため、進捗によっては作戦が最後まで進められない場合があります。本当に参加可能回数を消費し、大艦隊作戦に参加しますか？"
 }
 
-_G.pg.gametip.guild_time_remaining_tip = {
+_G.pg.base.gametip.guild_time_remaining_tip = {
 	tip = "作戦残り時間:"
 }
 
-_G.pg.gametip.help_rollingBallGame = {
+_G.pg.base.gametip.help_rollingBallGame = {
 	tip = {
 		{
 			info = [[
@@ -15798,7 +15798,7 @@ _G.pg.gametip.help_rollingBallGame = {
 	}
 }
 
-_G.pg.gametip.rolling_ball_help = {
+_G.pg.base.gametip.rolling_ball_help = {
 	tip = {
 		{
 			info = [[
@@ -15813,7 +15813,7 @@ _G.pg.gametip.rolling_ball_help = {
 	}
 }
 
-_G.pg.gametip.help_jiujiu_expedition_game = {
+_G.pg.base.gametip.help_jiujiu_expedition_game = {
 	tip = {
 		{
 			info = [[
@@ -15835,31 +15835,31 @@ _G.pg.gametip.help_jiujiu_expedition_game = {
 	}
 }
 
-_G.pg.gametip.jiujiu_expedition_game_stg_desc = {
+_G.pg.base.gametip.jiujiu_expedition_game_stg_desc = {
 	tip = "ステージ$1探索度"
 }
 
-_G.pg.gametip.build_ship_accumulative = {
+_G.pg.base.gametip.build_ship_accumulative = {
 	tip = "累计建造:"
 }
 
-_G.pg.gametip.destory_ship_before_tip = {
+_G.pg.base.gametip.destory_ship_before_tip = {
 	tip = "本当に続けますか？"
 }
 
-_G.pg.gametip.destory_ship_input_erro = {
+_G.pg.base.gametip.destory_ship_input_erro = {
 	tip = "表示されている数字を入力してください"
 }
 
-_G.pg.gametip.destroy_ur_rarity_tip = {
+_G.pg.base.gametip.destroy_ur_rarity_tip = {
 	tip = "<color=#92fc63>UR艦船</color>が選択されています、下の枠に<color=#92fc63>「$1」</color>を入力してください"
 }
 
-_G.pg.gametip.destory_ur_pt_overflowa = {
+_G.pg.base.gametip.destory_ur_pt_overflowa = {
 	tip = "※今月の<color=#92fc63>「特装コア」</color>入手上限に達しているため、<color=#ff5c5c>上限を超えた分の<color=#92fc63>「特装コア」</color>は入手できません。</color>"
 }
 
-_G.pg.gametip.jiujiu_expedition_help = {
+_G.pg.base.gametip.jiujiu_expedition_help = {
 	tip = {
 		{
 			info = [[
@@ -15884,31 +15884,31 @@ _G.pg.gametip.jiujiu_expedition_help = {
 	}
 }
 
-_G.pg.gametip.shop_label_unlimt_cnt = {
+_G.pg.base.gametip.shop_label_unlimt_cnt = {
 	tip = "無制限"
 }
 
-_G.pg.gametip.jiujiu_expedition_book_tip = {
+_G.pg.base.gametip.jiujiu_expedition_book_tip = {
 	tip = "前のコレクションが完成すると開放されます"
 }
 
-_G.pg.gametip.jiujiu_expedition_reward_tip = {
+_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
 	tip = "ステージを探索し、報酬を手に入れよう！"
 }
 
-_G.pg.gametip.jiujiu_expedition_amount_tip = {
+_G.pg.base.gametip.jiujiu_expedition_amount_tip = {
 	tip = "探索回数が不足しています（探索回数はデイリーログイン・限定任務で入手できます）"
 }
 
-_G.pg.gametip.jiujiu_expedition_stg_tip = {
+_G.pg.base.gametip.jiujiu_expedition_stg_tip = {
 	tip = "現在のステージをクリアすると解放されます"
 }
 
-_G.pg.gametip.trade_card_tips1 = {
+_G.pg.base.gametip.trade_card_tips1 = {
 	tip = "ショップ"
 }
 
-_G.pg.gametip.trade_card_tips2 = {
+_G.pg.base.gametip.trade_card_tips2 = {
 	tip = [[
 お知らせにゃ。
 指揮官が購入した貿易許可証は、$1で期間満了になったにゃ。
@@ -15916,7 +15916,7 @@ _G.pg.gametip.trade_card_tips2 = {
 明石のお店で、引き続き購入するのはいかがかにゃ？]]
 }
 
-_G.pg.gametip.trade_card_tips3 = {
+_G.pg.base.gametip.trade_card_tips3 = {
 	tip = [[
 お知らせにゃ。
 指揮官が購入した貿易許可証は、$1で期間満了になるにゃ。
@@ -15924,11 +15924,11 @@ _G.pg.gametip.trade_card_tips3 = {
 明石のお店で、引き続き購入するのはいかがかにゃ？]]
 }
 
-_G.pg.gametip.trade_card_tips4 = {
+_G.pg.base.gametip.trade_card_tips4 = {
 	tip = "$1.$2.$3"
 }
 
-_G.pg.gametip.ur_exchange_help_tip = {
+_G.pg.base.gametip.ur_exchange_help_tip = {
 	tip = {
 		{
 			info = "■ブリ集めとは"
@@ -15949,11 +15949,11 @@ _G.pg.gametip.ur_exchange_help_tip = {
 	}
 }
 
-_G.pg.gametip.fleet_antisub_range = {
+_G.pg.base.gametip.fleet_antisub_range = {
 	tip = "対潜探知："
 }
 
-_G.pg.gametip.fleet_antisub_range_tip = {
+_G.pg.base.gametip.fleet_antisub_range_tip = {
 	tip = {
 		{
 			info = [[
@@ -15976,11 +15976,11 @@ _G.pg.gametip.fleet_antisub_range_tip = {
 	}
 }
 
-_G.pg.gametip.practise_idol_tip = {
+_G.pg.base.gametip.practise_idol_tip = {
 	tip = "$1レッスンを行って、海域における強化効果を獲得しますか？"
 }
 
-_G.pg.gametip.practise_idol_help = {
+_G.pg.base.gametip.practise_idol_help = {
 	tip = {
 		{
 			info = [[
@@ -16009,31 +16009,31 @@ _G.pg.gametip.practise_idol_help = {
 	}
 }
 
-_G.pg.gametip.upgrade_idol_tip = {
+_G.pg.base.gametip.upgrade_idol_tip = {
 	tip = "レッスンを行う項目を選んでください"
 }
 
-_G.pg.gametip.upgrade_complete_tip = {
+_G.pg.base.gametip.upgrade_complete_tip = {
 	tip = "レッスン完了"
 }
 
-_G.pg.gametip.upgrade_introduce_tip = {
+_G.pg.base.gametip.upgrade_introduce_tip = {
 	tip = "$1レッスンlv.MAXで追加報酬GET!"
 }
 
-_G.pg.gametip.collect_idol_tip = {
+_G.pg.base.gametip.collect_idol_tip = {
 	tip = "※アイテムを選択枠にドラッグすると元の位置に戻せます"
 }
 
-_G.pg.gametip.hand_account_tip = {
+_G.pg.base.gametip.hand_account_tip = {
 	tip = "アイテムを集めることで開放可能"
 }
 
-_G.pg.gametip.hand_account_resetting_tip = {
+_G.pg.base.gametip.hand_account_resetting_tip = {
 	tip = "リセットを行いますか？"
 }
 
-_G.pg.gametip.help_candymagic = {
+_G.pg.base.gametip.help_candymagic = {
 	tip = {
 		{
 			info = [[
@@ -16068,11 +16068,11 @@ _G.pg.gametip.help_candymagic = {
 	}
 }
 
-_G.pg.gametip.award_overflow_tip = {
+_G.pg.base.gametip.award_overflow_tip = {
 	tip = "上限分を超えた報酬アイテムは手動でお受取りください"
 }
 
-_G.pg.gametip.hunter_npc = {
+_G.pg.base.gametip.hunter_npc = {
 	tip = {
 		{
 			info = "「ルール："
@@ -16111,7 +16111,7 @@ _G.pg.gametip.hunter_npc = {
 	}
 }
 
-_G.pg.gametip.venusvolleyball_help = {
+_G.pg.base.gametip.venusvolleyball_help = {
 	tip = {
 		{
 			info = "ヴィーナス練習試合とは"
@@ -16146,19 +16146,19 @@ _G.pg.gametip.venusvolleyball_help = {
 	}
 }
 
-_G.pg.gametip.venusvolleyball_rule_tip = {
+_G.pg.base.gametip.venusvolleyball_rule_tip = {
 	tip = "先に$1点をGET"
 }
 
-_G.pg.gametip.venusvolleyball_return_tip = {
+_G.pg.base.gametip.venusvolleyball_return_tip = {
 	tip = "ミニゲームを終了しますか？"
 }
 
-_G.pg.gametip.venusvolleyball_suspend_tip = {
+_G.pg.base.gametip.venusvolleyball_suspend_tip = {
 	tip = "ミニゲームを再開しますか？"
 }
 
-_G.pg.gametip.doa_main = {
+_G.pg.base.gametip.doa_main = {
 	tip = {
 		{
 			info = "■休日白浜とは"
@@ -16213,7 +16213,7 @@ _G.pg.gametip.doa_main = {
 	}
 }
 
-_G.pg.gametip.doa_pt_help = {
+_G.pg.base.gametip.doa_pt_help = {
 	tip = {
 		{
 			info = "■ライセンスランクについて"
@@ -16237,31 +16237,31 @@ _G.pg.gametip.doa_pt_help = {
 	}
 }
 
-_G.pg.gametip.doa_pt_complete = {
+_G.pg.base.gametip.doa_pt_complete = {
 	tip = "強化完了"
 }
 
-_G.pg.gametip.doa_pt_up = {
+_G.pg.base.gametip.doa_pt_up = {
 	tip = "$1強化効果を入手しますか？"
 }
 
-_G.pg.gametip.doa_liliang = {
+_G.pg.base.gametip.doa_liliang = {
 	tip = "POW"
 }
 
-_G.pg.gametip.doa_jiqiao = {
+_G.pg.base.gametip.doa_jiqiao = {
 	tip = "TEC"
 }
 
-_G.pg.gametip.doa_tili = {
+_G.pg.base.gametip.doa_tili = {
 	tip = "STM"
 }
 
-_G.pg.gametip.doa_meili = {
+_G.pg.base.gametip.doa_meili = {
 	tip = " APL"
 }
 
-_G.pg.gametip.snowball_help = {
+_G.pg.base.gametip.snowball_help = {
 	tip = {
 		{
 			info = "■概要\n「饅頭雪合戦」とは、駆逐艦たちが投げてくる雪玉を避けながら、雪玉を駆逐艦に当てることで得点を稼いでいくミニゲームです。\n「饅頭雪合戦」は毎日1試合開放されていき、7試合をクリアすると、春月のきせかえを入手できます。"
@@ -16284,7 +16284,7 @@ _G.pg.gametip.snowball_help = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021_feast = {
+_G.pg.base.gametip.help_xinnian2021_feast = {
 	tip = {
 		{
 			info = "■概要\n「母港正月2021」イベントとは、ミニゲームを楽しみながら、「春月」の着せ替えと駆逐艦「Z28」を入手できるイベントです。"
@@ -16322,7 +16322,7 @@ _G.pg.gametip.help_xinnian2021_feast = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__qiaozhong = {
+_G.pg.base.gametip.help_xinnian2021__qiaozhong = {
 	tip = {
 		{
 			info = "■概要\n「幸運祈願」では、お賽銭（5資金）を消費することで、一定時間、様々な効果を得られます。\n「幸運祈願可能回数」は毎日1回だけ、「饅頭雪合戦」をクリアした際に2回加算されます。"
@@ -16349,7 +16349,7 @@ _G.pg.gametip.help_xinnian2021__qiaozhong = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__meishiyemian = {
+_G.pg.base.gametip.help_xinnian2021__meishiyemian = {
 	tip = {
 		{
 			info = [[
@@ -16375,7 +16375,7 @@ _G.pg.gametip.help_xinnian2021__meishiyemian = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__meishi = {
+_G.pg.base.gametip.help_xinnian2021__meishi = {
 	tip = {
 		{
 			info = [[
@@ -16401,7 +16401,7 @@ _G.pg.gametip.help_xinnian2021__meishi = {
 	}
 }
 
-_G.pg.gametip.help_act_event = {
+_G.pg.base.gametip.help_act_event = {
 	tip = {
 		{
 			icon = {
@@ -16427,111 +16427,111 @@ _G.pg.gametip.help_act_event = {
 	}
 }
 
-_G.pg.gametip.autofight = {
+_G.pg.base.gametip.autofight = {
 	tip = "自動攻略"
 }
 
-_G.pg.gametip.autofight_errors_tip = {
+_G.pg.base.gametip.autofight_errors_tip = {
 	tip = "戦闘対象が見つかりません。自動攻略モードが解除されました"
 }
 
-_G.pg.gametip.autofight_special_operation_tip = {
+_G.pg.base.gametip.autofight_special_operation_tip = {
 	tip = "自動攻略モードでは、敵<color=#92fc63>中枢艦隊との戦闘が優先</color>されます。それでも大作戦指令書を使用したい場合は、再度<color=#92fc63>選択して設定してください</color>"
 }
 
-_G.pg.gametip.autofight_formation = {
+_G.pg.base.gametip.autofight_formation = {
 	tip = "編成"
 }
 
-_G.pg.gametip.autofight_cat = {
+_G.pg.base.gametip.autofight_cat = {
 	tip = "オフニャ"
 }
 
-_G.pg.gametip.autofight_function = {
+_G.pg.base.gametip.autofight_function = {
 	tip = "自動設定"
 }
 
-_G.pg.gametip.autofight_function1 = {
+_G.pg.base.gametip.autofight_function1 = {
 	tip = "道中戦闘"
 }
 
-_G.pg.gametip.autofight_function2 = {
+_G.pg.base.gametip.autofight_function2 = {
 	tip = "中枢戦闘"
 }
 
-_G.pg.gametip.autofight_function3 = {
+_G.pg.base.gametip.autofight_function3 = {
 	tip = "全戦闘"
 }
 
-_G.pg.gametip.autofight_function4 = {
+_G.pg.base.gametip.autofight_function4 = {
 	tip = "待機"
 }
 
-_G.pg.gametip.autofight_function5 = {
+_G.pg.base.gametip.autofight_function5 = {
 	tip = "自動潜水支援"
 }
 
-_G.pg.gametip.autofight_rewards = {
+_G.pg.base.gametip.autofight_rewards = {
 	tip = "報酬入手合計"
 }
 
-_G.pg.gametip.autofight_rewards_none = {
+_G.pg.base.gametip.autofight_rewards_none = {
 	tip = "報酬を受け取れませんでした"
 }
 
-_G.pg.gametip.autofight_leave = {
+_G.pg.base.gametip.autofight_leave = {
 	tip = "戻る"
 }
 
-_G.pg.gametip.autofight_onceagain = {
+_G.pg.base.gametip.autofight_onceagain = {
 	tip = "再度出撃"
 }
 
-_G.pg.gametip.autofight_entrust = {
+_G.pg.base.gametip.autofight_entrust = {
 	tip = "緊急委託出現：$1"
 }
 
-_G.pg.gametip.autofight_task = {
+_G.pg.base.gametip.autofight_task = {
 	tip = "大艦隊個人任務完了：$1"
 }
 
-_G.pg.gametip.autofight_effect = {
+_G.pg.base.gametip.autofight_effect = {
 	tip = "適応調整上昇：攻撃+$1、耐久+$2、回復＋$3"
 }
 
-_G.pg.gametip.autofight_file = {
+_G.pg.base.gametip.autofight_file = {
 	tip = "情報開放：$1"
 }
 
-_G.pg.gametip.autofight_discovery = {
+_G.pg.base.gametip.autofight_discovery = {
 	tip = "海域探索実績達成：$1"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_dead = {
+_G.pg.base.gametip.autofight_tip_bigworld_dead = {
 	tip = "艦隊戦闘敗北のため、自動攻略モードが中止されました"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_begin = {
+_G.pg.base.gametip.autofight_tip_bigworld_begin = {
 	tip = "本艦隊の自動攻略モードが開始しました"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_stop = {
+_G.pg.base.gametip.autofight_tip_bigworld_stop = {
 	tip = "本艦隊の自動攻略モードが中止しました"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_suspend = {
+_G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "可視範囲内で調査対象が存在しないため、自動攻略モードが中止されました"
 }
 
-_G.pg.gametip.autofight_farm = {
+_G.pg.base.gametip.autofight_farm = {
 	tip = "周回モード"
 }
 
-_G.pg.gametip.autofight_story = {
+_G.pg.base.gametip.autofight_story = {
 	tip = "ストーリーが自動で再生されます"
 }
 
-_G.pg.gametip.fushun_adventure_help = {
+_G.pg.base.gametip.fushun_adventure_help = {
 	tip = {
 		{
 			info = [[
@@ -16554,15 +16554,15 @@ _G.pg.gametip.fushun_adventure_help = {
 	}
 }
 
-_G.pg.gametip.autofight_change_tip = {
+_G.pg.base.gametip.autofight_change_tip = {
 	tip = "出撃艦隊の自動設定が<color=#92fc63>「全戦闘」</color>に設定されました"
 }
 
-_G.pg.gametip.autofight_selectprops_tip = {
+_G.pg.base.gametip.autofight_selectprops_tip = {
 	tip = "タップでアイテム選択"
 }
 
-_G.pg.gametip.help_chunjie2021_feast = {
+_G.pg.base.gametip.help_chunjie2021_feast = {
 	tip = {
 		{
 			info = [[
@@ -16578,47 +16578,47 @@ _G.pg.gametip.help_chunjie2021_feast = {
 	}
 }
 
-_G.pg.gametip.valentinesday__txt1_tip = {
+_G.pg.base.gametip.valentinesday__txt1_tip = {
 	tip = "美味しいチョコを食べたければ、素材を集めることですわ"
 }
 
-_G.pg.gametip.valentinesday__txt2_tip = {
+_G.pg.base.gametip.valentinesday__txt2_tip = {
 	tip = "チョコレートを食べさせてあげましょうか？ふふふ"
 }
 
-_G.pg.gametip.valentinesday__txt3_tip = {
+_G.pg.base.gametip.valentinesday__txt3_tip = {
 	tip = "ココアパウダー、足りないみたい……Zzzz"
 }
 
-_G.pg.gametip.valentinesday__txt4_tip = {
+_G.pg.base.gametip.valentinesday__txt4_tip = {
 	tip = "チョコができたよー…報酬の受け取りも忘れないでねー"
 }
 
-_G.pg.gametip.valentinesday__txt5_tip = {
+_G.pg.base.gametip.valentinesday__txt5_tip = {
 	tip = "まずはチョコレートの素材を集めるべきですね"
 }
 
-_G.pg.gametip.valentinesday__txt6_tip = {
+_G.pg.base.gametip.valentinesday__txt6_tip = {
 	tip = "チョコレートが完成しました。ご主人様、召し上がってください"
 }
 
-_G.pg.gametip.valentinesday__shop_tip = {
+_G.pg.base.gametip.valentinesday__shop_tip = {
 	tip = "着せ替えショップを確認しますか？"
 }
 
-_G.pg.gametip.wwf_bamboo_tip1 = {
+_G.pg.base.gametip.wwf_bamboo_tip1 = {
 	tip = "（寧海）次の報酬まで"
 }
 
-_G.pg.gametip.wwf_bamboo_tip2 = {
+_G.pg.base.gametip.wwf_bamboo_tip2 = {
 	tip = "（平海）次の報酬まで"
 }
 
-_G.pg.gametip.wwf_bamboo_tip3 = {
+_G.pg.base.gametip.wwf_bamboo_tip3 = {
 	tip = "限定任務をクリアし、笹を手に入れましょう！"
 }
 
-_G.pg.gametip.wwf_bamboo_help = {
+_G.pg.base.gametip.wwf_bamboo_help = {
 	tip = {
 		{
 			info = [[
@@ -16641,11 +16641,11 @@ _G.pg.gametip.wwf_bamboo_help = {
 	}
 }
 
-_G.pg.gametip.wwf_guide_tip = {
+_G.pg.base.gametip.wwf_guide_tip = {
 	tip = "限定任務はここで確認できるわ！"
 }
 
-_G.pg.gametip.securitycake_help = {
+_G.pg.base.gametip.securitycake_help = {
 	tip = {
 		{
 			info = [[
@@ -16676,7 +16676,7 @@ _G.pg.gametip.securitycake_help = {
 	}
 }
 
-_G.pg.gametip.icecream_help = {
+_G.pg.base.gametip.icecream_help = {
 	tip = {
 		{
 			info = [[
@@ -16691,387 +16691,387 @@ _G.pg.gametip.icecream_help = {
 	}
 }
 
-_G.pg.gametip.icecream_make_tip = {
+_G.pg.base.gametip.icecream_make_tip = {
 	tip = "$1のアイス"
 }
 
-_G.pg.gametip.query_role = {
+_G.pg.base.gametip.query_role = {
 	tip = "確認中"
 }
 
-_G.pg.gametip.query_role_none = {
+_G.pg.base.gametip.query_role_none = {
 	tip = "未作成"
 }
 
-_G.pg.gametip.query_role_button = {
+_G.pg.base.gametip.query_role_button = {
 	tip = "情報確認"
 }
 
-_G.pg.gametip.query_role_fail = {
+_G.pg.base.gametip.query_role_fail = {
 	tip = "確認失敗"
 }
 
-_G.pg.gametip.cumulative_victory_target_tip = {
+_G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "目標勝利回数："
 }
 
-_G.pg.gametip.cumulative_victory_now_tip = {
+_G.pg.base.gametip.cumulative_victory_now_tip = {
 	tip = "現在勝利回数："
 }
 
-_G.pg.gametip.word_files_repair = {
+_G.pg.base.gametip.word_files_repair = {
 	tip = "ﾀｯﾌﾟで修復"
 }
 
-_G.pg.gametip.repair_setting_label = {
+_G.pg.base.gametip.repair_setting_label = {
 	tip = " ｱｾｯﾄ修復"
 }
 
-_G.pg.gametip.voice_control = {
+_G.pg.base.gametip.voice_control = {
 	tip = "サウンド"
 }
 
-_G.pg.gametip.index_equip = {
+_G.pg.base.gametip.index_equip = {
 	tip = "装備中"
 }
 
-_G.pg.gametip.index_without_limit = {
+_G.pg.base.gametip.index_without_limit = {
 	tip = "無制限"
 }
 
-_G.pg.gametip.meta_learn_skill = {
+_G.pg.base.gametip.meta_learn_skill = {
 	tip = "习得技能：$1(未使用)"
 }
 
-_G.pg.gametip.world_joint_boss_not_found = {
+_G.pg.base.gametip.world_joint_boss_not_found = {
 	tip = "対象は現在挑戦できません。ほかの対象をお試しください"
 }
 
-_G.pg.gametip.world_joint_boss_is_death = {
+_G.pg.base.gametip.world_joint_boss_is_death = {
 	tip = "対象は現在挑戦できません。ほかの対象をお試しください"
 }
 
-_G.pg.gametip.world_joint_whitout_guild = {
+_G.pg.base.gametip.world_joint_whitout_guild = {
 	tip = "まだ大艦隊に加入していません"
 }
 
-_G.pg.gametip.world_joint_whitout_friend = {
+_G.pg.base.gametip.world_joint_whitout_friend = {
 	tip = "フレンドは存在しません"
 }
 
-_G.pg.gametip.world_joint_call_support_failed = {
+_G.pg.base.gametip.world_joint_call_support_failed = {
 	tip = "援軍要請に失敗しました"
 }
 
-_G.pg.gametip.world_joint_call_support_success = {
+_G.pg.base.gametip.world_joint_call_support_success = {
 	tip = "援軍要請に成功しました"
 }
 
-_G.pg.gametip.world_joint_call_friend_support_txt = {
+_G.pg.base.gametip.world_joint_call_friend_support_txt = {
 	tip = "战友$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
 }
 
-_G.pg.gametip.world_joint_call_guild_support_txt = {
+_G.pg.base.gametip.world_joint_call_guild_support_txt = {
 	tip = "大舰队成员$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
 }
 
-_G.pg.gametip.world_joint_call_world_support_txt = {
+_G.pg.base.gametip.world_joint_call_world_support_txt = {
 	tip = "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
 }
 
-_G.pg.gametip.ad_4 = {
+_G.pg.base.gametip.ad_4 = {
 	tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> からの援軍要請 <material=underline><color=#FFDE38FF>【$3】</color></material>"
 }
 
-_G.pg.gametip.world_word_expired = {
+_G.pg.base.gametip.world_word_expired = {
 	tip = "座標の有効期限が過ぎています"
 }
 
-_G.pg.gametip.world_word_guild_member = {
+_G.pg.base.gametip.world_word_guild_member = {
 	tip = "大舰队成员(未使用)"
 }
 
-_G.pg.gametip.world_word_guild_player = {
+_G.pg.base.gametip.world_word_guild_player = {
 	tip = "玩家(未使用)"
 }
 
-_G.pg.gametip.world_joint_boss_award_expired = {
+_G.pg.base.gametip.world_joint_boss_award_expired = {
 	tip = "報酬の受取に失敗しました"
 }
 
-_G.pg.gametip.world_joint_not_refresh_frequently = {
+_G.pg.base.gametip.world_joint_not_refresh_frequently = {
 	tip = "しばらく経ってから再度行ってください"
 }
 
-_G.pg.gametip.world_joint_exit_battle_tip = {
+_G.pg.base.gametip.world_joint_exit_battle_tip = {
 	tip = "戦闘を中止して、【META戦】に向かいますか？"
 }
 
-_G.pg.gametip.world_boss_get_item = {
+_G.pg.base.gametip.world_boss_get_item = {
 	tip = "META座標情報所持数が上限になっています。解析を行い、META戦を開放しますか？"
 }
 
-_G.pg.gametip.world_boss_ask_help = {
+_G.pg.base.gametip.world_boss_ask_help = {
 	tip = "このチャンネルには援軍要請を行えません"
 }
 
-_G.pg.gametip.world_joint_count_no_enough = {
+_G.pg.base.gametip.world_joint_count_no_enough = {
 	tip = "挑戦ポイントが不足しています"
 }
 
-_G.pg.gametip.world_boss_none = {
+_G.pg.base.gametip.world_boss_none = {
 	tip = "座標解析の期限が過ぎています"
 }
 
-_G.pg.gametip.world_boss_fleet = {
+_G.pg.base.gametip.world_boss_fleet = {
 	tip = "META戦編成"
 }
 
-_G.pg.gametip.world_max_challenge_cnt = {
+_G.pg.base.gametip.world_max_challenge_cnt = {
 	tip = "挑戦人数が上限に達しています。ほかの対象をお試しください"
 }
 
-_G.pg.gametip.world_reset_success = {
+_G.pg.base.gametip.world_reset_success = {
 	tip = "セイレーン作戦がリセットされました"
 }
 
-_G.pg.gametip.world_map_dangerous_confirm = {
+_G.pg.base.gametip.world_map_dangerous_confirm = {
 	tip = "1回しかチャレンジできない、高難易度のクエストが開放されます。強敵に備えて慎重に挑戦してください"
 }
 
-_G.pg.gametip.world_map_version = {
+_G.pg.base.gametip.world_map_version = {
 	tip = "アセットが更新されましたため、エリアがリセットされました"
 }
 
-_G.pg.gametip.world_resource_fill = {
+_G.pg.base.gametip.world_resource_fill = {
 	tip = "備蓄物資交換券が所持可能上限に達しています"
 }
 
-_G.pg.gametip.meta_sys_lock_tip = {
+_G.pg.base.gametip.meta_sys_lock_tip = {
 	tip = "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
 }
 
-_G.pg.gametip.meta_story_lock = {
+_G.pg.base.gametip.meta_story_lock = {
 	tip = "需要完成前置剧情才能进行资讯同步(未使用)"
 }
 
-_G.pg.gametip.meta_acttime_limit = {
+_G.pg.base.gametip.meta_acttime_limit = {
 	tip = "限定"
 }
 
-_G.pg.gametip.meta_pt_left = {
+_G.pg.base.gametip.meta_pt_left = {
 	tip = "残り$1日"
 }
 
-_G.pg.gametip.meta_syn_rate = {
+_G.pg.base.gametip.meta_syn_rate = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_repair_rate = {
+_G.pg.base.gametip.meta_repair_rate = {
 	tip = "艤装強化率"
 }
 
-_G.pg.gametip.meta_story_tip_1 = {
+_G.pg.base.gametip.meta_story_tip_1 = {
 	tip = "解锁剧情(未使用)"
 }
 
-_G.pg.gametip.meta_story_tip_2 = {
+_G.pg.base.gametip.meta_story_tip_2 = {
 	tip = "后开放(未使用)"
 }
 
-_G.pg.gametip.meta_pt_get_way = {
+_G.pg.base.gametip.meta_pt_get_way = {
 	tip = "可以通过以下方式获取同步值(未使用)"
 }
 
-_G.pg.gametip.meta_pt_point = {
+_G.pg.base.gametip.meta_pt_point = {
 	tip = "解析Pt"
 }
 
-_G.pg.gametip.meta_award_get = {
+_G.pg.base.gametip.meta_award_get = {
 	tip = "開放済"
 }
 
-_G.pg.gametip.meta_award_got = {
+_G.pg.base.gametip.meta_award_got = {
 	tip = "受取済"
 }
 
-_G.pg.gametip.meta_repair = {
+_G.pg.base.gametip.meta_repair = {
 	tip = "性能上昇:"
 }
 
-_G.pg.gametip.meta_repair_success = {
+_G.pg.base.gametip.meta_repair_success = {
 	tip = "艤装強化に成功しました"
 }
 
-_G.pg.gametip.meta_repair_effect_unlock = {
+_G.pg.base.gametip.meta_repair_effect_unlock = {
 	tip = "強化率$1%達成"
 }
 
-_G.pg.gametip.meta_repair_effect_special = {
+_G.pg.base.gametip.meta_repair_effect_special = {
 	tip = "艤装強化率が$1%に達成しました"
 }
 
-_G.pg.gametip.meta_energy_ship_level_need = {
+_G.pg.base.gametip.meta_energy_ship_level_need = {
 	tip = "必要艦船Lv： $1/$2"
 }
 
-_G.pg.gametip.meta_energy_ship_repairrate_need = {
+_G.pg.base.gametip.meta_energy_ship_repairrate_need = {
 	tip = "必要艤装解析率： $1/$2"
 }
 
-_G.pg.gametip.meta_energy_active_box_tip = {
+_G.pg.base.gametip.meta_energy_active_box_tip = {
 	tip = "META艦船を限界突破しますか？\n（艦船の★が増加します）"
 }
 
-_G.pg.gametip.meta_break = {
+_G.pg.base.gametip.meta_break = {
 	tip = "※限界突破で★UP！"
 }
 
-_G.pg.gametip.meta_energy_preview_title = {
+_G.pg.base.gametip.meta_energy_preview_title = {
 	tip = "完全強化後性能"
 }
 
-_G.pg.gametip.meta_energy_preview_tip = {
+_G.pg.base.gametip.meta_energy_preview_tip = {
 	tip = "好感度及びケッコンの効果は含まない"
 }
 
-_G.pg.gametip.meta_exp_per_day = {
+_G.pg.base.gametip.meta_exp_per_day = {
 	tip = "習得EXP"
 }
 
-_G.pg.gametip.meta_skill_unlock = {
+_G.pg.base.gametip.meta_skill_unlock = {
 	tip = "習得するスキルを選択してください"
 }
 
-_G.pg.gametip.meta_unlock_skill_tip = {
+_G.pg.base.gametip.meta_unlock_skill_tip = {
 	tip = "<color=#92fc63>$2</color>習得には下記の素材が必要"
 }
 
-_G.pg.gametip.meta_unlock_skill_select = {
+_G.pg.base.gametip.meta_unlock_skill_select = {
 	tip = "请先选择一种材料(未使用)"
 }
 
-_G.pg.gametip.meta_switch_skill_disable = {
+_G.pg.base.gametip.meta_switch_skill_disable = {
 	tip = "本日はこれ以上習得スキルを切り替えできません"
 }
 
-_G.pg.gametip.meta_switch_skill_box_title = {
+_G.pg.base.gametip.meta_switch_skill_box_title = {
 	tip = "$1の習得を開始しますか？"
 }
 
-_G.pg.gametip.meta_cur_pt = {
+_G.pg.base.gametip.meta_cur_pt = {
 	tip = "解析Pt"
 }
 
-_G.pg.gametip.meta_toast_fullexp = {
+_G.pg.base.gametip.meta_toast_fullexp = {
 	tip = "EXP入手MAX"
 }
 
-_G.pg.gametip.meta_toast_tactics = {
+_G.pg.base.gametip.meta_toast_tactics = {
 	tip = "習得EXP"
 }
 
-_G.pg.gametip.meta_skillbtn_tactics = {
+_G.pg.base.gametip.meta_skillbtn_tactics = {
 	tip = "習 得"
 }
 
-_G.pg.gametip.meta_destroy_tip = {
+_G.pg.base.gametip.meta_destroy_tip = {
 	tip = "META艦船は退役できません"
 }
 
-_G.pg.gametip.meta_voice_name_feeling1 = {
+_G.pg.base.gametip.meta_voice_name_feeling1 = {
 	tip = "失望"
 }
 
-_G.pg.gametip.meta_voice_name_feeling2 = {
+_G.pg.base.gametip.meta_voice_name_feeling2 = {
 	tip = "認識"
 }
 
-_G.pg.gametip.meta_voice_name_feeling3 = {
+_G.pg.base.gametip.meta_voice_name_feeling3 = {
 	tip = "理解"
 }
 
-_G.pg.gametip.meta_voice_name_feeling4 = {
+_G.pg.base.gametip.meta_voice_name_feeling4 = {
 	tip = "同調"
 }
 
-_G.pg.gametip.meta_voice_name_feeling5 = {
+_G.pg.base.gametip.meta_voice_name_feeling5 = {
 	tip = "愛"
 }
 
-_G.pg.gametip.meta_voice_name_propose = {
+_G.pg.base.gametip.meta_voice_name_propose = {
 	tip = "ケッコン"
 }
 
-_G.pg.gametip.world_boss_ad = {
+_G.pg.base.gametip.world_boss_ad = {
 	tip = "[$1]TIER.$2"
 }
 
-_G.pg.gametip.world_boss_drop_title = {
+_G.pg.base.gametip.world_boss_drop_title = {
 	tip = "信标收集(未使用)"
 }
 
-_G.pg.gametip.world_boss_pt_recove_desc = {
+_G.pg.base.gametip.world_boss_pt_recove_desc = {
 	tip = "毎日０時回数リセット"
 }
 
-_G.pg.gametip.world_boss_progress_item_desc = {
+_G.pg.base.gametip.world_boss_progress_item_desc = {
 	tip = "セイレーン作戦で集めた「META座標情報」は解析を行うと、META戦を開放することが出来ます。META座標情報は一度解析すると消費され、また最大値まで溜まった状態では新たなMETA座標情報を入手することが出来ません。\n本日の解析回数：$1/$2\nMETA座標情報入手量　$3"
 }
 
-_G.pg.gametip.world_joint_max_challenge_people_cnt = {
+_G.pg.base.gametip.world_joint_max_challenge_people_cnt = {
 	tip = "挑戦人数が上限に達しています"
 }
 
-_G.pg.gametip.equip_ammo_type_1 = {
+_G.pg.base.gametip.equip_ammo_type_1 = {
 	tip = "徹甲弾"
 }
 
-_G.pg.gametip.equip_ammo_type_2 = {
+_G.pg.base.gametip.equip_ammo_type_2 = {
 	tip = "榴弾"
 }
 
-_G.pg.gametip.equip_ammo_type_3 = {
+_G.pg.base.gametip.equip_ammo_type_3 = {
 	tip = "通常弾"
 }
 
-_G.pg.gametip.equip_ammo_type_4 = {
+_G.pg.base.gametip.equip_ammo_type_4 = {
 	tip = "磁気"
 }
 
-_G.pg.gametip.equip_ammo_type_5 = {
+_G.pg.base.gametip.equip_ammo_type_5 = {
 	tip = "通常"
 }
 
-_G.pg.gametip.equip_ammo_type_6 = {
+_G.pg.base.gametip.equip_ammo_type_6 = {
 	tip = "三式弾"
 }
 
-_G.pg.gametip.equip_ammo_type_7 = {
+_G.pg.base.gametip.equip_ammo_type_7 = {
 	tip = "SAP弾"
 }
 
-_G.pg.gametip.equip_ammo_type_8 = {
+_G.pg.base.gametip.equip_ammo_type_8 = {
 	tip = "水圧式"
 }
 
-_G.pg.gametip.equip_ammo_type_9 = {
+_G.pg.base.gametip.equip_ammo_type_9 = {
 	tip = "瞬発式"
 }
 
-_G.pg.gametip.equip_ammo_type_10 = {
+_G.pg.base.gametip.equip_ammo_type_10 = {
 	tip = "なし"
 }
 
-_G.pg.gametip.equip_ammo_type_11 = {
+_G.pg.base.gametip.equip_ammo_type_11 = {
 	tip = "ミサイル"
 }
 
-_G.pg.gametip.common_daily_limit = {
+_G.pg.base.gametip.common_daily_limit = {
 	tip = "每日上限(未使用)"
 }
 
-_G.pg.gametip.meta_help = {
+_G.pg.base.gametip.meta_help = {
 	tip = {
 		{
 			info = [[
@@ -17115,303 +17115,303 @@ _G.pg.gametip.meta_help = {
 	}
 }
 
-_G.pg.gametip.world_boss_daily_limit = {
+_G.pg.base.gametip.world_boss_daily_limit = {
 	tip = "解析回数不足"
 }
 
-_G.pg.gametip.common_go_to_analyze = {
+_G.pg.base.gametip.common_go_to_analyze = {
 	tip = "座標解析へ"
 }
 
-_G.pg.gametip.world_boss_not_reach_target = {
+_G.pg.base.gametip.world_boss_not_reach_target = {
 	tip = "座標情報不足"
 }
 
-_G.pg.gametip.special_transform_limit_reach = {
+_G.pg.base.gametip.special_transform_limit_reach = {
 	tip = "すでに改造アイテムか改造済の艦船を所持しているため、交換できません"
 }
 
-_G.pg.gametip.meta_pt_notenough = {
+_G.pg.base.gametip.meta_pt_notenough = {
 	tip = "セイレーン作戦の【META戦】で解析Ptを手に入れよう！"
 }
 
-_G.pg.gametip.meta_boss_unlock = {
+_G.pg.base.gametip.meta_boss_unlock = {
 	tip = "セイレーン作戦1章クリアで開放された「META戦」」で、解析Ptを入手できます"
 }
 
-_G.pg.gametip.word_take_effect = {
+_G.pg.base.gametip.word_take_effect = {
 	tip = "で有効化"
 }
 
-_G.pg.gametip.world_boss_challenge_cnt = {
+_G.pg.base.gametip.world_boss_challenge_cnt = {
 	tip = "交戦数"
 }
 
-_G.pg.gametip.word_shipNation_meta = {
+_G.pg.base.gametip.word_shipNation_meta = {
 	tip = "???"
 }
 
-_G.pg.gametip.world_word_friend = {
+_G.pg.base.gametip.world_word_friend = {
 	tip = "友達"
 }
 
-_G.pg.gametip.world_word_world = {
+_G.pg.base.gametip.world_word_world = {
 	tip = "全員"
 }
 
-_G.pg.gametip.world_word_guild = {
+_G.pg.base.gametip.world_word_guild = {
 	tip = "艦隊"
 }
 
-_G.pg.gametip.world_collection_1 = {
+_G.pg.base.gametip.world_collection_1 = {
 	tip = "完了"
 }
 
-_G.pg.gametip.world_collection_2 = {
+_G.pg.base.gametip.world_collection_2 = {
 	tip = "完了"
 }
 
-_G.pg.gametip.world_collection_3 = {
+_G.pg.base.gametip.world_collection_3 = {
 	tip = "完了"
 }
 
-_G.pg.gametip.zero_hour_command_error = {
+_G.pg.base.gametip.zero_hour_command_error = {
 	tip = "日付変更処理・データ更新にエラーが発生しました"
 }
 
-_G.pg.gametip.commander_is_in_bigworld = {
+_G.pg.base.gametip.commander_is_in_bigworld = {
 	tip = "オフニャがセイレーン作戦に参加しています"
 }
 
-_G.pg.gametip.world_collection_back = {
+_G.pg.base.gametip.world_collection_back = {
 	tip = "タップで戻る"
 }
 
-_G.pg.gametip.archives_whether_to_retreat = {
+_G.pg.base.gametip.archives_whether_to_retreat = {
 	tip = "ステージに進入するには「データキー」を消費する必要があります。本当に撤退しますか？"
 }
 
-_G.pg.gametip.world_fleet_stop = {
+_G.pg.base.gametip.world_fleet_stop = {
 	tip = "艦隊移動が停止しました"
 }
 
-_G.pg.gametip.world_setting_title = {
+_G.pg.base.gametip.world_setting_title = {
 	tip = "セイレーン作戦設定"
 }
 
-_G.pg.gametip.world_setting_quickmode = {
+_G.pg.base.gametip.world_setting_quickmode = {
 	tip = "TB案内軽量化"
 }
 
-_G.pg.gametip.world_setting_quickmodetip = {
+_G.pg.base.gametip.world_setting_quickmodetip = {
 	tip = "ONに設定されている場合、セイレーン作戦の一部のTBチュートリアル/メッセージが次回ログインまで1回しか表示されなくなります"
 }
 
-_G.pg.gametip.world_setting_submititem = {
+_G.pg.base.gametip.world_setting_submititem = {
 	tip = "自動攻略ｱｲﾃﾑ自動使用"
 }
 
-_G.pg.gametip.world_setting_submititemtip = {
+_G.pg.base.gametip.world_setting_submititemtip = {
 	tip = "on：自動攻略モード適用中、アイテムを消費する特殊イベントはアイテムが自動で消費されます\noff：自動攻略モード適用中、アイテムを消費する特殊イベントは無視されます"
 }
 
-_G.pg.gametip.world_setting_mapauto = {
+_G.pg.base.gametip.world_setting_mapauto = {
 	tip = "エリア自動攻略設定"
 }
 
-_G.pg.gametip.world_setting_mapautotip = {
+_G.pg.base.gametip.world_setting_mapautotip = {
 	tip = "確保済のエリアに進入すると、自動でオート攻略モードに移行します"
 }
 
-_G.pg.gametip.world_boss_maintenance = {
+_G.pg.base.gametip.world_boss_maintenance = {
 	tip = "メンテナンス開始直前のため、挑戦できません"
 }
 
-_G.pg.gametip.world_boss_inbattle = {
+_G.pg.base.gametip.world_boss_inbattle = {
 	tip = "METAとの戦闘中のため、新たにMETA戦を開始できません"
 }
 
-_G.pg.gametip.world_automode_title_1 = {
+_G.pg.base.gametip.world_automode_title_1 = {
 	tip = "自動確保モード"
 }
 
-_G.pg.gametip.world_automode_title_2 = {
+_G.pg.base.gametip.world_automode_title_2 = {
 	tip = "OPERATION"
 }
 
-_G.pg.gametip.world_automode_cancel = {
+_G.pg.base.gametip.world_automode_cancel = {
 	tip = "戻る"
 }
 
-_G.pg.gametip.world_automode_confirm = {
+_G.pg.base.gametip.world_automode_confirm = {
 	tip = "確定"
 }
 
-_G.pg.gametip.world_automode_start_tip1 = {
+_G.pg.base.gametip.world_automode_start_tip1 = {
 	tip = "条件を満たしているエリアが存在しません"
 }
 
-_G.pg.gametip.world_automode_start_tip2 = {
+_G.pg.base.gametip.world_automode_start_tip2 = {
 	tip = "指揮官行動力が不足しています"
 }
 
-_G.pg.gametip.world_automode_start_tip3 = {
+_G.pg.base.gametip.world_automode_start_tip3 = {
 	tip = "確保済みのエリアではありません"
 }
 
-_G.pg.gametip.world_automode_start_tip4 = {
+_G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "このエリアからは移動できません"
 }
 
-_G.pg.gametip.world_automode_setting_1 = {
+_G.pg.base.gametip.world_automode_setting_1 = {
 	tip = "自動確保するエリアの侵攻レベル"
 }
 
-_G.pg.gametip.world_automode_setting_1_1 = {
+_G.pg.base.gametip.world_automode_setting_1_1 = {
 	tip = "4以下"
 }
 
-_G.pg.gametip.world_automode_setting_1_2 = {
+_G.pg.base.gametip.world_automode_setting_1_2 = {
 	tip = "5"
 }
 
-_G.pg.gametip.world_automode_setting_1_3 = {
+_G.pg.base.gametip.world_automode_setting_1_3 = {
 	tip = "6"
 }
 
-_G.pg.gametip.world_automode_setting_1_4 = {
+_G.pg.base.gametip.world_automode_setting_1_4 = {
 	tip = "すべて"
 }
 
-_G.pg.gametip.world_automode_setting_2 = {
+_G.pg.base.gametip.world_automode_setting_2 = {
 	tip = "進入するエリア"
 }
 
-_G.pg.gametip.world_automode_setting_2_1 = {
+_G.pg.base.gametip.world_automode_setting_2_1 = {
 	tip = "同じエリアに進入"
 }
 
-_G.pg.gametip.world_automode_setting_2_2 = {
+_G.pg.base.gametip.world_automode_setting_2_2 = {
 	tip = "ランダムなエリアに進入"
 }
 
-_G.pg.gametip.world_automode_setting_all_1 = {
+_G.pg.base.gametip.world_automode_setting_all_1 = {
 	tip = "謎の商人出現時"
 }
 
-_G.pg.gametip.world_automode_setting_all_1_1 = {
+_G.pg.base.gametip.world_automode_setting_all_1_1 = {
 	tip = "自動確保を中止"
 }
 
-_G.pg.gametip.world_automode_setting_all_1_2 = {
+_G.pg.base.gametip.world_automode_setting_all_1_2 = {
 	tip = "自動確保を継続"
 }
 
-_G.pg.gametip.world_automode_setting_all_2 = {
+_G.pg.base.gametip.world_automode_setting_all_2 = {
 	tip = "META座標開放可能時一時中止"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_1 = {
+_G.pg.base.gametip.world_automode_setting_all_2_1 = {
 	tip = "OFF"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_2 = {
+_G.pg.base.gametip.world_automode_setting_all_2_2 = {
 	tip = "100Ptごと"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_3 = {
+_G.pg.base.gametip.world_automode_setting_all_2_3 = {
 	tip = "200Ptごと"
 }
 
-_G.pg.gametip.world_automode_setting_all_3 = {
+_G.pg.base.gametip.world_automode_setting_all_3 = {
 	tip = "ギミックアイテム自動使用"
 }
 
-_G.pg.gametip.world_automode_setting_all_3_1 = {
+_G.pg.base.gametip.world_automode_setting_all_3_1 = {
 	tip = "OFF"
 }
 
-_G.pg.gametip.world_automode_setting_all_3_2 = {
+_G.pg.base.gametip.world_automode_setting_all_3_2 = {
 	tip = "ON"
 }
 
-_G.pg.gametip.world_automode_setting_all_4 = {
+_G.pg.base.gametip.world_automode_setting_all_4 = {
 	tip = "セイレーン装置遭遇時に中止"
 }
 
-_G.pg.gametip.world_automode_setting_all_4_1 = {
+_G.pg.base.gametip.world_automode_setting_all_4_1 = {
 	tip = "ON"
 }
 
-_G.pg.gametip.world_automode_setting_all_4_2 = {
+_G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "OFF"
 }
 
-_G.pg.gametip.world_collection_task_tip_1 = {
+_G.pg.base.gametip.world_collection_task_tip_1 = {
 	tip = "開放中の情報任務が存在しているため、購入できません"
 }
 
-_G.pg.gametip.area_putong = {
+_G.pg.base.gametip.area_putong = {
 	tip = "探索海域"
 }
 
-_G.pg.gametip.area_anquan = {
+_G.pg.base.gametip.area_anquan = {
 	tip = "確保海域"
 }
 
-_G.pg.gametip.area_yaosai = {
+_G.pg.base.gametip.area_yaosai = {
 	tip = "要塞海域"
 }
 
-_G.pg.gametip.area_yaosai_2 = {
+_G.pg.base.gametip.area_yaosai_2 = {
 	tip = "セイレーンの侵入が確認されたエリア"
 }
 
-_G.pg.gametip.area_shenyuan = {
+_G.pg.base.gametip.area_shenyuan = {
 	tip = "強敵座標"
 }
 
-_G.pg.gametip.area_yinmi = {
+_G.pg.base.gametip.area_yinmi = {
 	tip = "秘密座標"
 }
 
-_G.pg.gametip.area_renwu = {
+_G.pg.base.gametip.area_renwu = {
 	tip = "任務海域"
 }
 
-_G.pg.gametip.area_zhuxian = {
+_G.pg.base.gametip.area_zhuxian = {
 	tip = "ﾒｲﾝ海域"
 }
 
-_G.pg.gametip.area_dangan = {
+_G.pg.base.gametip.area_dangan = {
 	tip = "情報開放"
 }
 
-_G.pg.gametip.charge_trade_no_error = {
+_G.pg.base.gametip.charge_trade_no_error = {
 	tip = "注文IDにエラーが発生しました。再度お試しください"
 }
 
-_G.pg.gametip.world_reset_1 = {
+_G.pg.base.gametip.world_reset_1 = {
 	tip = "戦況リセットまで<color=#92fc63>$1</color>日"
 }
 
-_G.pg.gametip.world_reset_2 = {
+_G.pg.base.gametip.world_reset_2 = {
 	tip = "作戦マップは明日<color=#92fc63>$1</color>時リセットされます"
 }
 
-_G.pg.gametip.world_reset_3 = {
+_G.pg.base.gametip.world_reset_3 = {
 	tip = "セイレーン作戦トップを再度開くとリセットされます"
 }
 
-_G.pg.gametip.guild_is_frozen_when_start_tech = {
+_G.pg.base.gametip.guild_is_frozen_when_start_tech = {
 	tip = "この大艦隊は現在利用不可です"
 }
 
-_G.pg.gametip.world_boss_unactivated = {
+_G.pg.base.gametip.world_boss_unactivated = {
 	tip = "セイレーン作戦がリセットされました。セイレーン作戦トップで艦隊を再編成してください"
 }
 
-_G.pg.gametip.world_reset_tip = {
+_G.pg.base.gametip.world_reset_tip = {
 	tip = {
 		{
 			info = [[
@@ -17458,159 +17458,159 @@ EN補給箱・小×45
 	}
 }
 
-_G.pg.gametip.spring_invited_2021 = {
+_G.pg.base.gametip.spring_invited_2021 = {
 	tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n（艦船と記念アイテムを入手できます）"
 }
 
-_G.pg.gametip.charge_error_count_limit = {
+_G.pg.base.gametip.charge_error_count_limit = {
 	tip = "本日はこれ以上購入できません"
 }
 
-_G.pg.gametip.levelScene_select_sp = {
+_G.pg.base.gametip.levelScene_select_sp = {
 	tip = "大作戦指令書の使用が設定されました"
 }
 
-_G.pg.gametip.word_adjustFleet = {
+_G.pg.base.gametip.word_adjustFleet = {
 	tip = "編成入替"
 }
 
-_G.pg.gametip.levelScene_select_noitem = {
+_G.pg.base.gametip.levelScene_select_noitem = {
 	tip = "消費アイテムがありません"
 }
 
-_G.pg.gametip.story_setting_label = {
+_G.pg.base.gametip.story_setting_label = {
 	tip = "オートページ送りスピード"
 }
 
-_G.pg.gametip.login_arrears_tips = {
+_G.pg.base.gametip.login_arrears_tips = {
 	tip = "不正な支払い（払い戻し）情報が確認されました。下記のサーバーにのみログインできます：【$1】"
 }
 
-_G.pg.gametip.Supplement_pay1 = {
+_G.pg.base.gametip.Supplement_pay1 = {
 	tip = "アイテム購入に関する不正な支払い（払い戻し）情報が確認されました。支払いを再度行うか、お問い合わせ窓口にお問い合わせください"
 }
 
-_G.pg.gametip.Supplement_pay2 = {
+_G.pg.base.gametip.Supplement_pay2 = {
 	tip = "アイテム購入に関する不正な支払い（払い戻し）情報が確認されました。右側に表示されるアイテム購入の支払いを再度行うか、お問い合わせ窓口にお問い合わせください"
 }
 
-_G.pg.gametip.Supplement_pay3 = {
+_G.pg.base.gametip.Supplement_pay3 = {
 	tip = "アイテム購入が全て正常に処理されました。ゲームを再起動すると正常にログインできます。ご協力頂きありがとうございました"
 }
 
-_G.pg.gametip.Supplement_pay4 = {
+_G.pg.base.gametip.Supplement_pay4 = {
 	tip = "支払確認"
 }
 
-_G.pg.gametip.world_ship_repair = {
+_G.pg.base.gametip.world_ship_repair = {
 	tip = "アイテムを使用したい艦船を選択してください："
 }
 
-_G.pg.gametip.Supplement_pay5 = {
+_G.pg.base.gametip.Supplement_pay5 = {
 	tip = "不正な支払い（払い戻し）情報が発生した項目をタップし、支払手続きを再度行ってください"
 }
 
-_G.pg.gametip.area_unkown = {
+_G.pg.base.gametip.area_unkown = {
 	tip = "未知エリア"
 }
 
-_G.pg.gametip.Supplement_pay6 = {
+_G.pg.base.gametip.Supplement_pay6 = {
 	tip = "支払時間："
 }
 
-_G.pg.gametip.Supplement_pay7 = {
+_G.pg.base.gametip.Supplement_pay7 = {
 	tip = "払い戻し："
 }
 
-_G.pg.gametip.Supplement_pay8 = {
+_G.pg.base.gametip.Supplement_pay8 = {
 	tip = "残り $1"
 }
 
-_G.pg.gametip.world_battle_damage = {
+_G.pg.base.gametip.world_battle_damage = {
 	tip = "<color=#ff5c5c>戦闘損傷状態</color>は整備オーダーか港の修理で解除できます"
 }
 
-_G.pg.gametip.setting_story_speed_1 = {
+_G.pg.base.gametip.setting_story_speed_1 = {
 	tip = "遅い"
 }
 
-_G.pg.gametip.setting_story_speed_2 = {
+_G.pg.base.gametip.setting_story_speed_2 = {
 	tip = "普通"
 }
 
-_G.pg.gametip.setting_story_speed_3 = {
+_G.pg.base.gametip.setting_story_speed_3 = {
 	tip = "速い"
 }
 
-_G.pg.gametip.setting_story_speed_4 = {
+_G.pg.base.gametip.setting_story_speed_4 = {
 	tip = "非常に速い"
 }
 
-_G.pg.gametip.story_autoplay_setting_label = {
+_G.pg.base.gametip.story_autoplay_setting_label = {
 	tip = "ストーリー自動送り"
 }
 
-_G.pg.gametip.story_autoplay_setting_1 = {
+_G.pg.base.gametip.story_autoplay_setting_1 = {
 	tip = "OFF"
 }
 
-_G.pg.gametip.story_autoplay_setting_2 = {
+_G.pg.base.gametip.story_autoplay_setting_2 = {
 	tip = "ON"
 }
 
-_G.pg.gametip.meta_shop_exchange_limit = {
+_G.pg.base.gametip.meta_shop_exchange_limit = {
 	tip = "尚未获得舰船"
 }
 
-_G.pg.gametip.meta_shop_unexchange_label = {
+_G.pg.base.gametip.meta_shop_unexchange_label = {
 	tip = "尚未获得舰船"
 }
 
-_G.pg.gametip.daily_level_quick_battle_label2 = {
+_G.pg.base.gametip.daily_level_quick_battle_label2 = {
 	tip = "挑戦"
 }
 
-_G.pg.gametip.daily_level_quick_battle_label1 = {
+_G.pg.base.gametip.daily_level_quick_battle_label1 = {
 	tip = "一括挑戦$1回"
 }
 
-_G.pg.gametip.dailyLevel_quickfinish = {
+_G.pg.base.gametip.dailyLevel_quickfinish = {
 	tip = "一括挑戦を行いますか？\n一括挑戦を行うと、挑戦回数に応じた報酬を得ることが可能です。\nまた、一括挑戦では指揮官経験値・艦船経験値を入手できず、艦船のコンディションと好感度に影響しません。"
 }
 
-_G.pg.gametip.daily_level_quick_battle_label3 = {
+_G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "一括挑戦"
 }
 
-_G.pg.gametip.LevelSignal = {
+_G.pg.base.gametip.LevelSignal = {
 	tip = "救助信号"
 }
 
-_G.pg.gametip.LevelSignal_go = {
+_G.pg.base.gametip.LevelSignal_go = {
 	tip = "出撃"
 }
 
-_G.pg.gametip.LevelSignal_search = {
+_G.pg.base.gametip.LevelSignal_search = {
 	tip = "信号探知"
 }
 
-_G.pg.gametip.LevelSignal_times = {
+_G.pg.base.gametip.LevelSignal_times = {
 	tip = "探知可能回数："
 }
 
-_G.pg.gametip.LevelSignal_intensity = {
+_G.pg.base.gametip.LevelSignal_intensity = {
 	tip = "探知感度："
 }
 
-_G.pg.gametip.backyard_longpress_ship_tip = {
+_G.pg.base.gametip.backyard_longpress_ship_tip = {
 	tip = "※長押しでキャラ詳細に移動"
 }
 
-_G.pg.gametip.common_npc_formation_tip = {
+_G.pg.base.gametip.common_npc_formation_tip = {
 	tip = "仮加入状態の艦船を編成できません"
 }
 
-_G.pg.gametip.gametip_xiaotiancheng = {
+_G.pg.base.gametip.gametip_xiaotiancheng = {
 	tip = {
 		{
 			info = "■概要\n「すこやかりとる」とは、イベント開始時に仮加入した【天城ちゃん】の「友好度」を海域に出撃することで貯め、【天城ちゃん】を正式加入させるイベントになります。"
@@ -17633,79 +17633,79 @@ _G.pg.gametip.gametip_xiaotiancheng = {
 	}
 }
 
-_G.pg.gametip.guild_task_autoaccept_1 = {
+_G.pg.base.gametip.guild_task_autoaccept_1 = {
 	tip = "新しい大艦隊任務を受領しました：$1"
 }
 
-_G.pg.gametip.guild_task_autoaccept_2 = {
+_G.pg.base.gametip.guild_task_autoaccept_2 = {
 	tip = "大艦隊任務を自動で受領しました：$1"
 }
 
-_G.pg.gametip.task_lock = {
+_G.pg.base.gametip.task_lock = {
 	tip = "レベル$1で開放"
 }
 
-_G.pg.gametip.week_task_pt_name = {
+_G.pg.base.gametip.week_task_pt_name = {
 	tip = "任務Pt"
 }
 
-_G.pg.gametip.week_task_award_preview_label = {
+_G.pg.base.gametip.week_task_award_preview_label = {
 	tip = "報酬一覧"
 }
 
-_G.pg.gametip.week_task_title_label = {
+_G.pg.base.gametip.week_task_title_label = {
 	tip = "週次任務報酬"
 }
 
-_G.pg.gametip.cattery_op_clean_success = {
+_G.pg.base.gametip.cattery_op_clean_success = {
 	tip = "オフニャハウスを清掃しました！"
 }
 
-_G.pg.gametip.cattery_op_feed_success = {
+_G.pg.base.gametip.cattery_op_feed_success = {
 	tip = "オフニャに食糧を補充しました！"
 }
 
-_G.pg.gametip.cattery_op_play_success = {
+_G.pg.base.gametip.cattery_op_play_success = {
 	tip = "オフニャと遊びました！"
 }
 
-_G.pg.gametip.cattery_style_change_success = {
+_G.pg.base.gametip.cattery_style_change_success = {
 	tip = "オフニャハウスを模様替えしました！"
 }
 
-_G.pg.gametip.cattery_add_commander_success = {
+_G.pg.base.gametip.cattery_add_commander_success = {
 	tip = "オフニャを配置しました"
 }
 
-_G.pg.gametip.cattery_remove_commander_success = {
+_G.pg.base.gametip.cattery_remove_commander_success = {
 	tip = "オフニャの配置を解除しました"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_1 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_1 = {
 	tip = "オフニャ訓練加速材を使用しますか？"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_2 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_2 = {
 	tip = "1個につき20分短縮できます"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_3 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_3 = {
 	tip = "残り時間"
 }
 
-_G.pg.gametip.commander_box_was_finished = {
+_G.pg.base.gametip.commander_box_was_finished = {
 	tip = "ネコハコの訓練が完了しました"
 }
 
-_G.pg.gametip.comander_tool_cnt_is_reclac = {
+_G.pg.base.gametip.comander_tool_cnt_is_reclac = {
 	tip = "ネコハコ加速材の所要数量を変更しました"
 }
 
-_G.pg.gametip.comander_tool_max_cnt = {
+_G.pg.base.gametip.comander_tool_max_cnt = {
 	tip = "ネコハコ加速材：$1"
 }
 
-_G.pg.gametip.cat_home_help = {
+_G.pg.base.gametip.cat_home_help = {
 	tip = {
 		{
 			info = [[
@@ -17731,95 +17731,95 @@ _G.pg.gametip.cat_home_help = {
 	}
 }
 
-_G.pg.gametip.cat_accelfrate_notenough = {
+_G.pg.base.gametip.cat_accelfrate_notenough = {
 	tip = "ネコハコ加速材が不足しています"
 }
 
-_G.pg.gametip.cat_home_unlock = {
+_G.pg.base.gametip.cat_home_unlock = {
 	tip = "オフニャハウスのレベルが上がると、ハウス枠が開放されます"
 }
 
-_G.pg.gametip.cat_sleep_notplay = {
+_G.pg.base.gametip.cat_sleep_notplay = {
 	tip = "オフニャハウスに配置されているため選択できません"
 }
 
-_G.pg.gametip.cathome_style_unlock = {
+_G.pg.base.gametip.cathome_style_unlock = {
 	tip = "オフニャハウスのレベルが上がると、ハウス外観が開放されます"
 }
 
-_G.pg.gametip.commander_is_in_cattery = {
+_G.pg.base.gametip.commander_is_in_cattery = {
 	tip = "オフニャハウスに配置されているオフニャです"
 }
 
-_G.pg.gametip.cat_home_interaction = {
+_G.pg.base.gametip.cat_home_interaction = {
 	tip = "本日はすでに$1をしました"
 }
 
-_G.pg.gametip.cat_accelerate_left = {
+_G.pg.base.gametip.cat_accelerate_left = {
 	tip = "使用後残り："
 }
 
-_G.pg.gametip.common_clean = {
+_G.pg.base.gametip.common_clean = {
 	tip = "清掃"
 }
 
-_G.pg.gametip.common_feed = {
+_G.pg.base.gametip.common_feed = {
 	tip = "食糧補充"
 }
 
-_G.pg.gametip.common_play = {
+_G.pg.base.gametip.common_play = {
 	tip = "遊ぶ"
 }
 
-_G.pg.gametip.game_stopwords = {
+_G.pg.base.gametip.game_stopwords = {
 	tip = "セリフ欄を非表示に設定しました"
 }
 
-_G.pg.gametip.game_openwords = {
+_G.pg.base.gametip.game_openwords = {
 	tip = "セリフ欄を表示に設定しました"
 }
 
-_G.pg.gametip.amusementpark_shop_enter = {
+_G.pg.base.gametip.amusementpark_shop_enter = {
 	tip = "饅頭券交換屋へようこそピョ。今日は何を交換するピョ？"
 }
 
-_G.pg.gametip.amusementpark_shop_exchange = {
+_G.pg.base.gametip.amusementpark_shop_exchange = {
 	tip = "引換券がないピョ。任務をクリアして引換券を手に入れるピョ！"
 }
 
-_G.pg.gametip.amusementpark_shop_success = {
+_G.pg.base.gametip.amusementpark_shop_success = {
 	tip = "ありがとうピョ！"
 }
 
-_G.pg.gametip.amusementpark_shop_special = {
+_G.pg.base.gametip.amusementpark_shop_special = {
 	tip = "特別景品が入手可能になったピョ！早くタップするといいピョ"
 }
 
-_G.pg.gametip.amusementpark_shop_end = {
+_G.pg.base.gametip.amusementpark_shop_end = {
 	tip = "売り切れ御免ピョ！もう交換できるアイテムはないピョ"
 }
 
-_G.pg.gametip.amusementpark_shop_0 = {
+_G.pg.base.gametip.amusementpark_shop_0 = {
 	tip = "焔の匂いが染み付いて……君はこの戦場を生き残ることができるだろうかピョ？"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel1 = {
+_G.pg.base.gametip.amusementpark_shop_carousel1 = {
 	tip = "指揮官、引換券の貯蔵は十分ピョ？"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel2 = {
+_G.pg.base.gametip.amusementpark_shop_carousel2 = {
 	tip = "揺れたりしない直線で～丁寧に描くピョ～♪"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel3 = {
+_G.pg.base.gametip.amusementpark_shop_carousel3 = {
 	tip = "ゆっくり選ぶといいピョ。ピョピョ♪"
 }
 
-_G.pg.gametip.amusementpark_shop_exchange2 = {
+_G.pg.base.gametip.amusementpark_shop_exchange2 = {
 	tip = " <icon name=Props/AmusementparkshopPT w=0.7 h=0.7/> $1個で\n$3を$2個交換するピョ？"
 }
 
-_G.pg.gametip.amusementpark_help = {
+_G.pg.base.gametip.amusementpark_help = {
 	tip = {
 		{
 			info = [[
@@ -17855,7 +17855,7 @@ _G.pg.gametip.amusementpark_help = {
 	}
 }
 
-_G.pg.gametip.amusementpark_shop_help = {
+_G.pg.base.gametip.amusementpark_shop_help = {
 	tip = {
 		{
 			info = [[
@@ -17867,7 +17867,7 @@ _G.pg.gametip.amusementpark_shop_help = {
 	}
 }
 
-_G.pg.gametip.handshake_game_help = {
+_G.pg.base.gametip.handshake_game_help = {
 	tip = {
 		{
 			info = [[
@@ -17884,7 +17884,7 @@ _G.pg.gametip.handshake_game_help = {
 	}
 }
 
-_G.pg.gametip.MeixiV4_help = {
+_G.pg.base.gametip.MeixiV4_help = {
 	tip = {
 		{
 			info = "前哨戦イベント「再現記録」について："
@@ -17916,19 +17916,19 @@ _G.pg.gametip.MeixiV4_help = {
 	}
 }
 
-_G.pg.gametip.activity_permanent_total = {
+_G.pg.base.gametip.activity_permanent_total = {
 	tip = "常設過去イベント"
 }
 
-_G.pg.gametip.word_investigate = {
+_G.pg.base.gametip.word_investigate = {
 	tip = "索敵"
 }
 
-_G.pg.gametip.ambush_display_none = {
+_G.pg.base.gametip.ambush_display_none = {
 	tip = "なし"
 }
 
-_G.pg.gametip.activity_permanent_help = {
+_G.pg.base.gametip.activity_permanent_help = {
 	tip = {
 		{
 			info = [[
@@ -17943,27 +17943,27 @@ _G.pg.gametip.activity_permanent_help = {
 	}
 }
 
-_G.pg.gametip.activity_permanent_tips1 = {
+_G.pg.base.gametip.activity_permanent_tips1 = {
 	tip = "<size=40>イベント<color=#92fc63>「$1」</color>を開放しますか？</size>"
 }
 
-_G.pg.gametip.activity_permanent_tips2 = {
+_G.pg.base.gametip.activity_permanent_tips2 = {
 	tip = "イベントをクリアしました。タップでイベントを終了し、\nイベント一覧に戻ります"
 }
 
-_G.pg.gametip.activity_permanent_tips3 = {
+_G.pg.base.gametip.activity_permanent_tips3 = {
 	tip = "現在開放中のイベントをクリアすると、別のイベントを開放できます"
 }
 
-_G.pg.gametip.activity_permanent_tips4 = {
+_G.pg.base.gametip.activity_permanent_tips4 = {
 	tip = "  イベントは同時に1つしか開放できません。\n 現在開放中のイベントをクリアすることで、\n別のイベントを開放できるようになります"
 }
 
-_G.pg.gametip.activity_permanent_finished = {
+_G.pg.base.gametip.activity_permanent_finished = {
 	tip = "完了"
 }
 
-_G.pg.gametip.idolmaster_main = {
+_G.pg.base.gametip.idolmaster_main = {
 	tip = {
 		{
 			info = [[
@@ -17991,27 +17991,27 @@ _G.pg.gametip.idolmaster_main = {
 	}
 }
 
-_G.pg.gametip.idolmaster_game_tip1 = {
+_G.pg.base.gametip.idolmaster_game_tip1 = {
 	tip = "ゲームを再開しますか？"
 }
 
-_G.pg.gametip.idolmaster_game_tip2 = {
+_G.pg.base.gametip.idolmaster_game_tip2 = {
 	tip = "ゲームを終了しますか？"
 }
 
-_G.pg.gametip.idolmaster_game_tip3 = {
+_G.pg.base.gametip.idolmaster_game_tip3 = {
 	tip = "今回得点"
 }
 
-_G.pg.gametip.idolmaster_game_tip4 = {
+_G.pg.base.gametip.idolmaster_game_tip4 = {
 	tip = "最高記録"
 }
 
-_G.pg.gametip.idolmaster_game_tip5 = {
+_G.pg.base.gametip.idolmaster_game_tip5 = {
 	tip = "得点"
 }
 
-_G.pg.gametip.idolmaster_collection = {
+_G.pg.base.gametip.idolmaster_collection = {
 	tip = {
 		{
 			info = "イベント期間：<color=#92fc63>7.22-8.5</color>\n1.コラボイベント「海に響くアイドルの歌」に参加し、アイドルプロフィールを<color=#92fc63>14</color>個開放すると、記念家具<color=#92fc63>「765記念章」</color>を入手できます"
@@ -18030,187 +18030,187 @@ _G.pg.gametip.idolmaster_collection = {
 	}
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling1 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling1 = {
 	tip = "失望"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling2 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling2 = {
 	tip = "普通"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling3 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling3 = {
 	tip = "友好"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling4 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
 	tip = "協力"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling5 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling5 = {
 	tip = "応援"
 }
 
-_G.pg.gametip.idolmaster_voice_name_propose = {
+_G.pg.base.gametip.idolmaster_voice_name_propose = {
 	tip = "団結"
 }
 
-_G.pg.gametip.cartoon_notall = {
+_G.pg.base.gametip.cartoon_notall = {
 	tip = "未読"
 }
 
-_G.pg.gametip.cartoon_haveno = {
+_G.pg.base.gametip.cartoon_haveno = {
 	tip = "読める1コママンガが存在しません"
 }
 
-_G.pg.gametip.res_cartoon_new_tip = {
+_G.pg.base.gametip.res_cartoon_new_tip = {
 	tip = "新たに1コママンガが$1個追加されました！"
 }
 
-_G.pg.gametip.memory_actiivty_ex = {
+_G.pg.base.gametip.memory_actiivty_ex = {
 	tip = "イベント"
 }
 
-_G.pg.gametip.memory_activity_sp = {
+_G.pg.base.gametip.memory_activity_sp = {
 	tip = "SPイベ"
 }
 
-_G.pg.gametip.memory_activity_daily = {
+_G.pg.base.gametip.memory_activity_daily = {
 	tip = "日常イベ"
 }
 
-_G.pg.gametip.memory_activity_others = {
+_G.pg.base.gametip.memory_activity_others = {
 	tip = "その他"
 }
 
-_G.pg.gametip.battle_end_title = {
+_G.pg.base.gametip.battle_end_title = {
 	tip = "戦闘結果"
 }
 
-_G.pg.gametip.battle_end_subtitle1 = {
+_G.pg.base.gametip.battle_end_subtitle1 = {
 	tip = "報酬獲得"
 }
 
-_G.pg.gametip.battle_end_subtitle2 = {
+_G.pg.base.gametip.battle_end_subtitle2 = {
 	tip = "戦技強化"
 }
 
-_G.pg.gametip.meta_skill_dailyexp = {
+_G.pg.base.gametip.meta_skill_dailyexp = {
 	tip = "本日入手経験値"
 }
 
-_G.pg.gametip.meta_skill_learn = {
+_G.pg.base.gametip.meta_skill_learn = {
 	tip = "※アイコンをタップすると強化対象を変更可能"
 }
 
-_G.pg.gametip.meta_skill_maxtip = {
+_G.pg.base.gametip.meta_skill_maxtip = {
 	tip = "$1の強化中のスキルはLvMAXになっています。メタラボで強化スキルを変更しますか？"
 }
 
-_G.pg.gametip.meta_tactics_detail = {
+_G.pg.base.gametip.meta_tactics_detail = {
 	tip = "詳細確認"
 }
 
-_G.pg.gametip.meta_tactics_unlock = {
+_G.pg.base.gametip.meta_tactics_unlock = {
 	tip = "スキル習得"
 }
 
-_G.pg.gametip.meta_tactics_switch = {
+_G.pg.base.gametip.meta_tactics_switch = {
 	tip = "スキル強化"
 }
 
-_G.pg.gametip.meta_skill_maxtip2 = {
+_G.pg.base.gametip.meta_skill_maxtip2 = {
 	tip = "スキルLvMAX"
 }
 
-_G.pg.gametip.activity_permanent_progress = {
+_G.pg.base.gametip.activity_permanent_progress = {
 	tip = "現在進捗："
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_1 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_1 = {
 	tip = "留守の"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_2 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_2 = {
 	tip = "間、十分に休憩したにゃ！"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_3 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_3 = {
 	tip = "経験値"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_4 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_4 = {
 	tip = "を入手したにゃ～"
 }
 
-_G.pg.gametip.blueprint_catchup_by_gold_confirm = {
+_G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "$1の資金を消費し、強化を行いますか？"
 }
 
-_G.pg.gametip.tec_tip_no_consumption = {
+_G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "消費なし"
 }
 
-_G.pg.gametip.tec_tip_material_stock = {
+_G.pg.base.gametip.tec_tip_material_stock = {
 	tip = "所持"
 }
 
-_G.pg.gametip.tec_tip_to_consumption = {
+_G.pg.base.gametip.tec_tip_to_consumption = {
 	tip = "必要資金"
 }
 
-_G.pg.gametip.onebutton_max_tip = {
+_G.pg.base.gametip.onebutton_max_tip = {
 	tip = "一括分解"
 }
 
-_G.pg.gametip.target_get_tip = {
+_G.pg.base.gametip.target_get_tip = {
 	tip = "累計入手"
 }
 
-_G.pg.gametip.fleet_select_title = {
+_G.pg.base.gametip.fleet_select_title = {
 	tip = "艦隊選択"
 }
 
-_G.pg.gametip.backyard_rename_title = {
+_G.pg.base.gametip.backyard_rename_title = {
 	tip = "寮舎名称"
 }
 
-_G.pg.gametip.backyard_rename_tip = {
+_G.pg.base.gametip.backyard_rename_tip = {
 	tip = "寮舎の名称を入力"
 }
 
-_G.pg.gametip.equip_add = {
+_G.pg.base.gametip.equip_add = {
 	tip = "—タップで兵装を選択 —"
 }
 
-_G.pg.gametip.equipskin_add = {
+_G.pg.base.gametip.equipskin_add = {
 	tip = "— タップで装備外装を変更 —"
 }
 
-_G.pg.gametip.equipskin_none = {
+_G.pg.base.gametip.equipskin_none = {
 	tip = "— この兵装は外装を適用できません —"
 }
 
-_G.pg.gametip.equipskin_typewrong = {
+_G.pg.base.gametip.equipskin_typewrong = {
 	tip = "— この外装は兵装に適用できません —"
 }
 
-_G.pg.gametip.equipskin_typewrong_en = {
+_G.pg.base.gametip.equipskin_typewrong_en = {
 	tip = "GEAR SKIN UNAVAILABLE"
 }
 
-_G.pg.gametip.user_is_banned = {
+_G.pg.base.gametip.user_is_banned = {
 	tip = "このアカウントは利用停止されています\n利用制限期間: ($1)まで"
 }
 
-_G.pg.gametip.user_is_forever_banned = {
+_G.pg.base.gametip.user_is_forever_banned = {
 	tip = "アカウントが利用停止されています"
 }
 
-_G.pg.gametip.old_class_is_close = {
+_G.pg.base.gametip.old_class_is_close = {
 	tip = "大講堂システムが更新中につき、配置できません"
 }
 
-_G.pg.gametip.activity_event_building = {
+_G.pg.base.gametip.activity_event_building = {
 	tip = {
 		{
 			info = [[
@@ -18242,7 +18242,7 @@ _G.pg.gametip.activity_event_building = {
 	}
 }
 
-_G.pg.gametip.salvage_tips = {
+_G.pg.base.gametip.salvage_tips = {
 	tip = {
 		{
 			info = [[
@@ -18274,7 +18274,7 @@ _G.pg.gametip.salvage_tips = {
 	}
 }
 
-_G.pg.gametip.tips_shakebeads = {
+_G.pg.base.gametip.tips_shakebeads = {
 	tip = {
 		{
 			info = [[
@@ -18295,11 +18295,11 @@ _G.pg.gametip.tips_shakebeads = {
 	}
 }
 
-_G.pg.gametip.gem_shop_xinzhi_tip = {
+_G.pg.base.gametip.gem_shop_xinzhi_tip = {
 	tip = "今月購入済　$1/15回"
 }
 
-_G.pg.gametip.cowboy_tips = {
+_G.pg.base.gametip.cowboy_tips = {
 	tip = {
 		{
 			info = [[
@@ -18320,11 +18320,11 @@ _G.pg.gametip.cowboy_tips = {
 	}
 }
 
-_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+_G.pg.base.gametip.backyard_backyardScene_Disable_Rotation = {
 	tip = "この家具は回転できません"
 }
 
-_G.pg.gametip.chazi_tips = {
+_G.pg.base.gametip.chazi_tips = {
 	tip = {
 		{
 			info = [[
@@ -18340,7 +18340,7 @@ _G.pg.gametip.chazi_tips = {
 	}
 }
 
-_G.pg.gametip.catchteasure_help = {
+_G.pg.base.gametip.catchteasure_help = {
 	tip = {
 		{
 			info = [[
@@ -18352,99 +18352,99 @@ _G.pg.gametip.catchteasure_help = {
 	}
 }
 
-_G.pg.gametip.unlock_tips = {
+_G.pg.base.gametip.unlock_tips = {
 	tip = "·  $1日目開放  ·"
 }
 
-_G.pg.gametip.class_label_tran = {
+_G.pg.base.gametip.class_label_tran = {
 	tip = "変換: "
 }
 
-_G.pg.gametip.class_label_gen = {
+_G.pg.base.gametip.class_label_gen = {
 	tip = "生成中:"
 }
 
-_G.pg.gametip.class_attr_store = {
+_G.pg.base.gametip.class_attr_store = {
 	tip = "備蓄上限"
 }
 
-_G.pg.gametip.class_attr_proficiency = {
+_G.pg.base.gametip.class_attr_proficiency = {
 	tip = "熟練度上限"
 }
 
-_G.pg.gametip.class_attr_getproficiency = {
+_G.pg.base.gametip.class_attr_getproficiency = {
 	tip = "熟練度入手"
 }
 
-_G.pg.gametip.class_attr_costproficiency = {
+_G.pg.base.gametip.class_attr_costproficiency = {
 	tip = "熟練度消費"
 }
 
-_G.pg.gametip.class_label_upgrading = {
+_G.pg.base.gametip.class_label_upgrading = {
 	tip = "強化中"
 }
 
-_G.pg.gametip.class_label_upgradetime = {
+_G.pg.base.gametip.class_label_upgradetime = {
 	tip = "必要時間"
 }
 
-_G.pg.gametip.class_label_oilfield = {
+_G.pg.base.gametip.class_label_oilfield = {
 	tip = "燃料入手"
 }
 
-_G.pg.gametip.class_label_goldfield = {
+_G.pg.base.gametip.class_label_goldfield = {
 	tip = "資金入手"
 }
 
-_G.pg.gametip.class_res_maxlevel_tip = {
+_G.pg.base.gametip.class_res_maxlevel_tip = {
 	tip = "レベルMAX"
 }
 
-_G.pg.gametip.ship_exp_item_title = {
+_G.pg.base.gametip.ship_exp_item_title = {
 	tip = "Exp育成"
 }
 
-_G.pg.gametip.ship_exp_item_label_clear = {
+_G.pg.base.gametip.ship_exp_item_label_clear = {
 	tip = "クリア"
 }
 
-_G.pg.gametip.ship_exp_item_label_recom = {
+_G.pg.base.gametip.ship_exp_item_label_recom = {
 	tip = "オススメ"
 }
 
-_G.pg.gametip.ship_exp_item_label_confirm = {
+_G.pg.base.gametip.ship_exp_item_label_confirm = {
 	tip = "確認"
 }
 
-_G.pg.gametip.player_expResource_mail_fullBag = {
+_G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "上限超過分の資源が受け取りできません。続きますか？"
 }
 
-_G.pg.gametip.tec_nation_award_finish = {
+_G.pg.base.gametip.tec_nation_award_finish = {
 	tip = "-受取済"
 }
 
-_G.pg.gametip.coures_exp_overflow_tip = {
+_G.pg.base.gametip.coures_exp_overflow_tip = {
 	tip = "上限超過分の$1の経験値が返還されません。続きますか？"
 }
 
-_G.pg.gametip.coures_exp_npc_tip = {
+_G.pg.base.gametip.coures_exp_npc_tip = {
 	tip = "仮加入キャラ（正式加入が済ませていない）であるため、イベント終了時に母港からいなくなります。続きますか？"
 }
 
-_G.pg.gametip.coures_level_tip = {
+_G.pg.base.gametip.coures_level_tip = {
 	tip = "※「経験値パック」は艦船に経験値を付与できます"
 }
 
-_G.pg.gametip.coures_tip_material_stock = {
+_G.pg.base.gametip.coures_tip_material_stock = {
 	tip = "在庫："
 }
 
-_G.pg.gametip.coures_tip_exceeded_lv = {
+_G.pg.base.gametip.coures_tip_exceeded_lv = {
 	tip = "レベル上限に達しました"
 }
 
-_G.pg.gametip.eatgame_tips = {
+_G.pg.base.gametip.eatgame_tips = {
 	tip = {
 		{
 			info = [[
@@ -18460,31 +18460,31 @@ _G.pg.gametip.eatgame_tips = {
 	}
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_gunner = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
 	tip = "全弾発射/特殊弾幕発動に必要な主砲攻撃回数半減"
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_torpedo = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_torpedo = {
 	tip = "魚雷兵装の散布角縮小（集中化）"
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_aux = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "設備によるステータス増加+30%"
 }
 
-_G.pg.gametip.map_event_lighthouse_tip_1 = {
+_G.pg.base.gametip.map_event_lighthouse_tip_1 = {
 	tip = "灯台を占拠しました。戦闘中，探照灯支援が行われます"
 }
 
-_G.pg.gametip.battlepass_main_tip_2110 = {
+_G.pg.base.gametip.battlepass_main_tip_2110 = {
 	tip = "10.1~11.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「扶桑(META)」</color>などを入手可能！"
 }
 
-_G.pg.gametip.battlepass_main_time = {
+_G.pg.base.gametip.battlepass_main_time = {
 	tip = "$1日$2時間"
 }
 
-_G.pg.gametip.battlepass_main_help_2110 = {
+_G.pg.base.gametip.battlepass_main_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -18526,7 +18526,7 @@ _G.pg.gametip.battlepass_main_help_2110 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2110 = {
+_G.pg.base.gametip.cruise_task_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -18546,295 +18546,295 @@ _G.pg.gametip.cruise_task_help_2110 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_phase = {
+_G.pg.base.gametip.cruise_task_phase = {
 	tip = "累計進捗.$1"
 }
 
-_G.pg.gametip.cruise_task_tips = {
+_G.pg.base.gametip.cruise_task_tips = {
 	tip = "完了済："
 }
 
-_G.pg.gametip.battlepass_task_quickfinish1 = {
+_G.pg.base.gametip.battlepass_task_quickfinish1 = {
 	tip = "任務をスキップ（クリア状態に）するにはシーズン任務チケットを<color=#ff5c5c>$1枚</color>消費します。\n（シーズン任務チケット所持数；<color=#92fc63>$2</color>）\nシーズン任務チケットを使用しますか？"
 }
 
-_G.pg.gametip.battlepass_task_quickfinish2 = {
+_G.pg.base.gametip.battlepass_task_quickfinish2 = {
 	tip = "必要なアイテムが不足しています。ダイヤを消費しチケットを購入しますか？\n（シーズン任務チケットを不足数：<color=#ff5c5c>$1枚</color>）"
 }
 
-_G.pg.gametip.battlepass_task_quickfinish3 = {
+_G.pg.base.gametip.battlepass_task_quickfinish3 = {
 	tip = "アイテムを使用しました"
 }
 
-_G.pg.gametip.cruise_task_unlock = {
+_G.pg.base.gametip.cruise_task_unlock = {
 	tip = "週次任務は$1日$2時間後に開放"
 }
 
-_G.pg.gametip.cruise_task_week = {
+_G.pg.base.gametip.cruise_task_week = {
 	tip = "$1週目"
 }
 
-_G.pg.gametip.battlepass_pay_timelimit = {
+_G.pg.base.gametip.battlepass_pay_timelimit = {
 	tip = "残り：$1"
 }
 
-_G.pg.gametip.battlepass_pay_acquire = {
+_G.pg.base.gametip.battlepass_pay_acquire = {
 	tip = "購入時に獲得："
 }
 
-_G.pg.gametip.battlepass_pay_attention = {
+_G.pg.base.gametip.battlepass_pay_attention = {
 	tip = "シーズン任務の報酬受取画面に移動しますか？"
 }
 
-_G.pg.gametip.battlepass_acquire_attention = {
+_G.pg.base.gametip.battlepass_acquire_attention = {
 	tip = "シーズン任務キャンペーン期間の残り時間は$1日$2時間です。下記のアイテムが未受領です。"
 }
 
-_G.pg.gametip.battlepass_pay_tip = {
+_G.pg.base.gametip.battlepass_pay_tip = {
 	tip = "シーズン任務報酬開放："
 }
 
-_G.pg.gametip.battlepass_main_tip1 = {
+_G.pg.base.gametip.battlepass_main_tip1 = {
 	tip = "キャンペーン期間中、任務をクリアし<icon name=pt w=1 h=1/>\nを集め、<color=#92fc63>扶桑(META)</color>、<color=#92fc63>強化ユニット</color>など\nの報酬を入手可能！"
 }
 
-_G.pg.gametip.battlepass_main_tip2 = {
+_G.pg.base.gametip.battlepass_main_tip2 = {
 	tip = "クルーズパス<icon name=pass w=1 h=1/>購入で、\n<color=#92fc63>ヨークタウンの着せ替え</color>、など\n追加報酬を開放可能！"
 }
 
-_G.pg.gametip.battlepass_main_tip3 = {
+_G.pg.base.gametip.battlepass_main_tip3 = {
 	tip = "キャンペーン期間中、任務をクリアし<icon name=pt w=1 h=1/>\nを集め、<color=#92fc63>「ヨークタウン」限定着せ替え</color>、\n<color=#92fc63>ダイヤ</color>などの報酬を手に入れよう"
 }
 
-_G.pg.gametip.battlepass_complete = {
+_G.pg.base.gametip.battlepass_complete = {
 	tip = "シーズン任務は全クリアしました"
 }
 
-_G.pg.gametip.shop_free_tag = {
+_G.pg.base.gametip.shop_free_tag = {
 	tip = "無料"
 }
 
-_G.pg.gametip.quick_equip_tip1 = {
+_G.pg.base.gametip.quick_equip_tip1 = {
 	tip = "装備中"
 }
 
-_G.pg.gametip.quick_equip_tip2 = {
+_G.pg.base.gametip.quick_equip_tip2 = {
 	tip = "絞り込み"
 }
 
-_G.pg.gametip.quick_equip_tip3 = {
+_G.pg.base.gametip.quick_equip_tip3 = {
 	tip = "倉庫"
 }
 
-_G.pg.gametip.quick_equip_tip4 = {
+_G.pg.base.gametip.quick_equip_tip4 = {
 	tip = "条件と一致する兵装はありません"
 }
 
-_G.pg.gametip.quick_equip_tip5 = {
+_G.pg.base.gametip.quick_equip_tip5 = {
 	tip = "艦船装備枠をタップし変更装備を選んでください"
 }
 
-_G.pg.gametip.quick_equip_tip6 = {
+_G.pg.base.gametip.quick_equip_tip6 = {
 	tip = "<color=#22ff22> $1</color>が装備している<color=#22ff22>$2</color>を装備解除しますか？"
 }
 
-_G.pg.gametip.retire_importantequipment_tips = {
+_G.pg.base.gametip.retire_importantequipment_tips = {
 	tip = "重要装備は一括分解できません。倉庫で手動で廃棄するようお願いします"
 }
 
-_G.pg.gametip.settle_rewards_title = {
+_G.pg.base.gametip.settle_rewards_title = {
 	tip = "クリア報酬入手"
 }
 
-_G.pg.gametip.settle_rewards_subtitle = {
+_G.pg.base.gametip.settle_rewards_subtitle = {
 	tip = "SETTLE REWARDS"
 }
 
-_G.pg.gametip.total_rewards_subtitle = {
+_G.pg.base.gametip.total_rewards_subtitle = {
 	tip = "TOTAL REWARDS"
 }
 
-_G.pg.gametip.settle_rewards_text = {
+_G.pg.base.gametip.settle_rewards_text = {
 	tip = "クリア報酬"
 }
 
-_G.pg.gametip.use_oil_limit_help = {
+_G.pg.base.gametip.use_oil_limit_help = {
 	tip = "艦隊戦闘の燃料消費<icon name=oil w=0.7 h=0.7/>$1が燃料消費上限を上回っているため、燃料消費は燃料消費上限<icon name=oil w=0.7 h=0.7/>$2になります"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_tip = {
+_G.pg.base.gametip.formationScene_use_oil_limit_tip = {
 	tip = "周回モード燃料消費上限:"
 }
 
-_G.pg.gametip.index_awakening2 = {
+_G.pg.base.gametip.index_awakening2 = {
 	tip = "<size=36>認識覚醒可</size><size=30>＋</size>"
 }
 
-_G.pg.gametip.index_upgrade = {
+_G.pg.base.gametip.index_upgrade = {
 	tip = "限界突破可"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_enemy = {
+_G.pg.base.gametip.formationScene_use_oil_limit_enemy = {
 	tip = "道中"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_flagship = {
+_G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 	tip = "中枢"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_submarine = {
+_G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "潜水"
 }
 
-_G.pg.gametip.attr_durability = {
+_G.pg.base.gametip.attr_durability = {
 	tip = "耐久"
 }
 
-_G.pg.gametip.attr_armor = {
+_G.pg.base.gametip.attr_armor = {
 	tip = "装甲"
 }
 
-_G.pg.gametip.attr_reload = {
+_G.pg.base.gametip.attr_reload = {
 	tip = "装填"
 }
 
-_G.pg.gametip.attr_cannon = {
+_G.pg.base.gametip.attr_cannon = {
 	tip = "火力"
 }
 
-_G.pg.gametip.attr_torpedo = {
+_G.pg.base.gametip.attr_torpedo = {
 	tip = "雷装"
 }
 
-_G.pg.gametip.attr_motion = {
+_G.pg.base.gametip.attr_motion = {
 	tip = "回避"
 }
 
-_G.pg.gametip.attr_antiaircraft = {
+_G.pg.base.gametip.attr_antiaircraft = {
 	tip = "対空"
 }
 
-_G.pg.gametip.attr_air = {
+_G.pg.base.gametip.attr_air = {
 	tip = "航空"
 }
 
-_G.pg.gametip.attr_hit = {
+_G.pg.base.gametip.attr_hit = {
 	tip = "命中"
 }
 
-_G.pg.gametip.attr_antisub = {
+_G.pg.base.gametip.attr_antisub = {
 	tip = "対潜"
 }
 
-_G.pg.gametip.attr_oxy_max = {
+_G.pg.base.gametip.attr_oxy_max = {
 	tip = "潜航力"
 }
 
-_G.pg.gametip.attr_ammo = {
+_G.pg.base.gametip.attr_ammo = {
 	tip = "弾薬量"
 }
 
-_G.pg.gametip.attr_hunting_range = {
+_G.pg.base.gametip.attr_hunting_range = {
 	tip = "支援範囲"
 }
 
-_G.pg.gametip.attr_luck = {
+_G.pg.base.gametip.attr_luck = {
 	tip = "運"
 }
 
-_G.pg.gametip.attr_consume = {
+_G.pg.base.gametip.attr_consume = {
 	tip = "消費"
 }
 
-_G.pg.gametip.monthly_card_tip = {
+_G.pg.base.gametip.monthly_card_tip = {
 	tip = "30日間毎日でGET"
 }
 
-_G.pg.gametip.shopping_error_time_limit = {
+_G.pg.base.gametip.shopping_error_time_limit = {
 	tip = "現在はこのお得パックを購入できません"
 }
 
-_G.pg.gametip.world_total_power = {
+_G.pg.base.gametip.world_total_power = {
 	tip = "総戦力"
 }
 
-_G.pg.gametip.world_mileage = {
+_G.pg.base.gametip.world_mileage = {
 	tip = "航行距離"
 }
 
-_G.pg.gametip.world_pressing = {
+_G.pg.base.gametip.world_pressing = {
 	tip = "確保海域"
 }
 
-_G.pg.gametip.Settings_title_FPS = {
+_G.pg.base.gametip.Settings_title_FPS = {
 	tip = "フレーム"
 }
 
-_G.pg.gametip.Settings_title_Notification = {
+_G.pg.base.gametip.Settings_title_Notification = {
 	tip = "プッシュ通知"
 }
 
-_G.pg.gametip.Settings_title_Other = {
+_G.pg.base.gametip.Settings_title_Other = {
 	tip = "ゲーム設定"
 }
 
-_G.pg.gametip.Settings_title_LoginJP = {
+_G.pg.base.gametip.Settings_title_LoginJP = {
 	tip = "引継コード"
 }
 
-_G.pg.gametip.Settings_title_Redeem = {
+_G.pg.base.gametip.Settings_title_Redeem = {
 	tip = "特典コード"
 }
 
-_G.pg.gametip.Settings_title_AdjustScr = {
+_G.pg.base.gametip.Settings_title_AdjustScr = {
 	tip = "画面サイズ調整"
 }
 
-_G.pg.gametip.Settings_title_Secpw = {
+_G.pg.base.gametip.Settings_title_Secpw = {
 	tip = "パスワード機能"
 }
 
-_G.pg.gametip.Settings_title_Secpwlimop = {
+_G.pg.base.gametip.Settings_title_Secpwlimop = {
 	tip = "パスワード行動制限設定"
 }
 
-_G.pg.gametip.Settings_title_agreement = {
+_G.pg.base.gametip.Settings_title_agreement = {
 	tip = "利用規約"
 }
 
-_G.pg.gametip.Settings_title_sound = {
+_G.pg.base.gametip.Settings_title_sound = {
 	tip = "音声設定"
 }
 
-_G.pg.gametip.Settings_title_resUpdate = {
+_G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "アセッ卜"
 }
 
-_G.pg.gametip.equipment_info_change_tip = {
+_G.pg.base.gametip.equipment_info_change_tip = {
 	tip = "下記装備の名前が変更されました"
 }
 
-_G.pg.gametip.equipment_info_change_name_a = {
+_G.pg.base.gametip.equipment_info_change_name_a = {
 	tip = "203mm連装砲Mle1924"
 }
 
-_G.pg.gametip.equipment_info_change_name_b = {
+_G.pg.base.gametip.equipment_info_change_name_b = {
 	tip = "203mm連装砲Mle1931"
 }
 
-_G.pg.gametip.equipment_info_change_text_before = {
+_G.pg.base.gametip.equipment_info_change_text_before = {
 	tip = "変更前"
 }
 
-_G.pg.gametip.equipment_info_change_text_after = {
+_G.pg.base.gametip.equipment_info_change_text_after = {
 	tip = "変更後"
 }
 
-_G.pg.gametip.world_boss_progress_tip_title = {
+_G.pg.base.gametip.world_boss_progress_tip_title = {
 	tip = "座標情報お知らせ"
 }
 
-_G.pg.gametip.world_boss_progress_tip_desc = {
+_G.pg.base.gametip.world_boss_progress_tip_desc = {
 	tip = [[
 セイレーン作戦で、座標情報を一定数入手すると、お知らせ画面を表示。
 OFF：お知らせ画面を表示しない
@@ -18842,7 +18842,7 @@ OFF：お知らせ画面を表示しない
 200Pt毎：200入手した場合に表示]]
 }
 
-_G.pg.gametip.ssss_main_help = {
+_G.pg.base.gametip.ssss_main_help = {
 	tip = {
 		{
 			info = [[
@@ -18878,43 +18878,43 @@ _G.pg.gametip.ssss_main_help = {
 	}
 }
 
-_G.pg.gametip.mini_game_time = {
+_G.pg.base.gametip.mini_game_time = {
 	tip = "残り時間:"
 }
 
-_G.pg.gametip.mini_game_score = {
+_G.pg.base.gametip.mini_game_score = {
 	tip = "得点:"
 }
 
-_G.pg.gametip.mini_game_leave = {
+_G.pg.base.gametip.mini_game_leave = {
 	tip = "ゲームを終了しますか？"
 }
 
-_G.pg.gametip.mini_game_pause = {
+_G.pg.base.gametip.mini_game_pause = {
 	tip = "ゲームを再開しますか？"
 }
 
-_G.pg.gametip.mini_game_cur_score = {
+_G.pg.base.gametip.mini_game_cur_score = {
 	tip = "今回得点:"
 }
 
-_G.pg.gametip.mini_game_high_score = {
+_G.pg.base.gametip.mini_game_high_score = {
 	tip = "最高記録:"
 }
 
-_G.pg.gametip.monopoly_world_tip1 = {
+_G.pg.base.gametip.monopoly_world_tip1 = {
 	tip = "タップで移動"
 }
 
-_G.pg.gametip.monopoly_world_tip2 = {
+_G.pg.base.gametip.monopoly_world_tip2 = {
 	tip = "キャンペーン期間中毎日$1回移動回数が加算されます！コントローラータップで移動して報酬を手に入れよう！！あと1週で入手:"
 }
 
-_G.pg.gametip.monopoly_world_tip3 = {
+_G.pg.base.gametip.monopoly_world_tip3 = {
 	tip = "キャンペーン期間中毎日$1回移動回数が加算されます！コントローラータップで移動して報酬を手に入れよう！"
 }
 
-_G.pg.gametip.help_monopoly_world = {
+_G.pg.base.gametip.help_monopoly_world = {
 	tip = {
 		{
 			info = "遊び方："
@@ -18987,111 +18987,111 @@ SP報酬：
 	}
 }
 
-_G.pg.gametip.ssssmedal_tip = {
+_G.pg.base.gametip.ssssmedal_tip = {
 	tip = "セイレーン情報を<color=#9D46FF>「$1/12」</color> 集めると<color=#9D46FF>「SSSS記念章」</color>をGET！"
 }
 
-_G.pg.gametip.ssssmedal_name = {
+_G.pg.base.gametip.ssssmedal_name = {
 	tip = "<color=#946EFF>名前：</color> "
 }
 
-_G.pg.gametip.ssssmedal_belonging = {
+_G.pg.base.gametip.ssssmedal_belonging = {
 	tip = "<color=#946EFF>所属：</color> "
 }
 
-_G.pg.gametip.ssssmedal_name1 = {
+_G.pg.base.gametip.ssssmedal_name1 = {
 	tip = "スカベンジャー"
 }
 
-_G.pg.gametip.ssssmedal_name2 = {
+_G.pg.base.gametip.ssssmedal_name2 = {
 	tip = "チェイサー"
 }
 
-_G.pg.gametip.ssssmedal_name3 = {
+_G.pg.base.gametip.ssssmedal_name3 = {
 	tip = "ナビゲーター"
 }
 
-_G.pg.gametip.ssssmedal_name4 = {
+_G.pg.base.gametip.ssssmedal_name4 = {
 	tip = "スマッシャー"
 }
 
-_G.pg.gametip.ssssmedal_name5 = {
+_G.pg.base.gametip.ssssmedal_name5 = {
 	tip = "コンダクター"
 }
 
-_G.pg.gametip.ssssmedal_name6 = {
+_G.pg.base.gametip.ssssmedal_name6 = {
 	tip = "ピュリっち"
 }
 
-_G.pg.gametip.ssssmedal_belonging1 = {
+_G.pg.base.gametip.ssssmedal_belonging1 = {
 	tip = "エンフォーサー"
 }
 
-_G.pg.gametip.ssssmedal_belonging2 = {
+_G.pg.base.gametip.ssssmedal_belonging2 = {
 	tip = "多分上位個体？"
 }
 
-_G.pg.gametip.ssssmedal_desc1 = {
+_G.pg.base.gametip.ssssmedal_desc1 = {
 	tip = "スカベンジャーの特殊兵装。敏捷性を誇り、高い速力を発揮可能"
 }
 
-_G.pg.gametip.ssssmedal_desc2 = {
+_G.pg.base.gametip.ssssmedal_desc2 = {
 	tip = "チェイサーの特殊兵装。汎用性に長け、火力バランスが良好"
 }
 
-_G.pg.gametip.ssssmedal_desc3 = {
+_G.pg.base.gametip.ssssmedal_desc3 = {
 	tip = "ナビゲーターの特殊兵装。回避力が低下した代わりに防御力が向上された"
 }
 
-_G.pg.gametip.ssssmedal_desc4 = {
+_G.pg.base.gametip.ssssmedal_desc4 = {
 	tip = "スマッシャーの特殊兵装。極めて強力な火器を装備している"
 }
 
-_G.pg.gametip.ssssmedal_desc5 = {
+_G.pg.base.gametip.ssssmedal_desc5 = {
 	tip = "コンダクターの特殊兵装。専用の艦載機と対空火器が増強されている"
 }
 
-_G.pg.gametip.ssssmedal_desc6 = {
+_G.pg.base.gametip.ssssmedal_desc6 = {
 	tip = "今度の記憶喪失は何回目だろう…"
 }
 
-_G.pg.gametip.show_fate_demand_count = {
+_G.pg.base.gametip.show_fate_demand_count = {
 	tip = "<color=#92fc63>竜骨編纂</color>に必要な数量を表示"
 }
 
-_G.pg.gametip.show_design_demand_count = {
+_G.pg.base.gametip.show_design_demand_count = {
 	tip = "<color=#92fc63>強化Lv30</color>に必要な数量を表示"
 }
 
-_G.pg.gametip.blueprint_select_overflow = {
+_G.pg.base.gametip.blueprint_select_overflow = {
 	tip = "必要な数量を上回っています"
 }
 
-_G.pg.gametip.blueprint_select_overflow_tip = {
+_G.pg.base.gametip.blueprint_select_overflow_tip = {
 	tip = "交換しようとしている<color=#22ff22> $1</color>は必要な数量より<color=#ff5c5c>$2個</color>上回っています"
 }
 
-_G.pg.gametip.blueprint_exchange_empty_tip = {
+_G.pg.base.gametip.blueprint_exchange_empty_tip = {
 	tip = "交換できる対象アイテムは存在しません"
 }
 
-_G.pg.gametip.blueprint_exchange_select_display = {
+_G.pg.base.gametip.blueprint_exchange_select_display = {
 	tip = "選択数/必要数"
 }
 
-_G.pg.gametip.build_rate_title = {
+_G.pg.base.gametip.build_rate_title = {
 	tip = "提供割合"
 }
 
-_G.pg.gametip.build_pools_intro = {
+_G.pg.base.gametip.build_pools_intro = {
 	tip = "キューブと資源を使って、艦隊を大きくしましょう！"
 }
 
-_G.pg.gametip.build_detail_intro = {
+_G.pg.base.gametip.build_detail_intro = {
 	tip = "同時建造可能数："
 }
 
-_G.pg.gametip.ssss_game_tip = {
+_G.pg.base.gametip.ssss_game_tip = {
 	tip = {
 		{
 			info = [[
@@ -19114,7 +19114,7 @@ _G.pg.gametip.ssss_game_tip = {
 	}
 }
 
-_G.pg.gametip.ssss_medal_tip = {
+_G.pg.base.gametip.ssss_medal_tip = {
 	tip = {
 		{
 			info = [[
@@ -19126,11 +19126,11 @@ _G.pg.gametip.ssss_medal_tip = {
 	}
 }
 
-_G.pg.gametip.battlepass_main_tip_2112 = {
+_G.pg.base.gametip.battlepass_main_tip_2112 = {
 	tip = "2021.12.1-2022.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「飛鷹(META)」</color>などを入手可能！"
 }
 
-_G.pg.gametip.battlepass_main_help_2112 = {
+_G.pg.base.gametip.battlepass_main_help_2112 = {
 	tip = {
 		{
 			info = [[
@@ -19172,7 +19172,7 @@ _G.pg.gametip.battlepass_main_help_2112 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2112 = {
+_G.pg.base.gametip.cruise_task_help_2112 = {
 	tip = {
 		{
 			info = [[
@@ -19192,7 +19192,7 @@ _G.pg.gametip.cruise_task_help_2112 = {
 	}
 }
 
-_G.pg.gametip.littleSanDiego_npc = {
+_G.pg.base.gametip.littleSanDiego_npc = {
 	tip = {
 		{
 			info = "■概要\n「明日の星　新登場」とは、イベント開始時に仮加入した【リトル・サンディエゴ】の「友好度」を海域に出撃することで貯め、【リトル・サンディエゴ】を正式加入させるイベントになります。"
@@ -19221,107 +19221,107 @@ _G.pg.gametip.littleSanDiego_npc = {
 	}
 }
 
-_G.pg.gametip.tag_ship_unlocked = {
+_G.pg.base.gametip.tag_ship_unlocked = {
 	tip = "図鑑開放済"
 }
 
-_G.pg.gametip.tag_ship_locked = {
+_G.pg.base.gametip.tag_ship_locked = {
 	tip = "図鑑未開放"
 }
 
-_G.pg.gametip.acceleration_tips_1 = {
+_G.pg.base.gametip.acceleration_tips_1 = {
 	tip = "<color=#66472a><size=32>ネコハコ加速材を$1個使用し、\nネコハコ$2個の訓練を加速させますか？</size></color>"
 }
 
-_G.pg.gametip.acceleration_tips_2 = {
+_G.pg.base.gametip.acceleration_tips_2 = {
 	tip = "<color=#827c7c><size=24>(訓練完了予定：ネコハコR$1個、ネコハコSR$2個、ネコハコSSR$3個)</size></color>"
 }
 
-_G.pg.gametip.noacceleration_tips = {
+_G.pg.base.gametip.noacceleration_tips = {
 	tip = "使用できるネコハコ加速材はありません"
 }
 
-_G.pg.gametip.word_shipskin = {
+_G.pg.base.gametip.word_shipskin = {
 	tip = "SP"
 }
 
-_G.pg.gametip.settings_sound_title_bgm = {
+_G.pg.base.gametip.settings_sound_title_bgm = {
 	tip = "  ミュージック"
 }
 
-_G.pg.gametip.settings_sound_title_effct = {
+_G.pg.base.gametip.settings_sound_title_effct = {
 	tip = "  サウンド"
 }
 
-_G.pg.gametip.settings_sound_title_cv = {
+_G.pg.base.gametip.settings_sound_title_cv = {
 	tip = "  ボイス"
 }
 
-_G.pg.gametip.setting_resdownload_title_gallery = {
+_G.pg.base.gametip.setting_resdownload_title_gallery = {
 	tip = "       スチル鑑賞アセット"
 }
 
-_G.pg.gametip.setting_resdownload_title_live2d = {
+_G.pg.base.gametip.setting_resdownload_title_live2d = {
 	tip = "Live2D更新"
 }
 
-_G.pg.gametip.setting_resdownload_title_music = {
+_G.pg.base.gametip.setting_resdownload_title_music = {
 	tip = "   音楽鑑賞アセット"
 }
 
-_G.pg.gametip.setting_resdownload_title_sound = {
+_G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "ボイス更新"
 }
 
-_G.pg.gametip.settings_battle_title = {
+_G.pg.base.gametip.settings_battle_title = {
 	tip = "ゲーム設定"
 }
 
-_G.pg.gametip.settings_battle_tip = {
+_G.pg.base.gametip.settings_battle_tip = {
 	tip = "「修正」ボタンタップで画面配置を変更"
 }
 
-_G.pg.gametip.settings_battle_Btn_edit = {
+_G.pg.base.gametip.settings_battle_Btn_edit = {
 	tip = "修正"
 }
 
-_G.pg.gametip.settings_battle_Btn_reset = {
+_G.pg.base.gametip.settings_battle_Btn_reset = {
 	tip = "リセット"
 }
 
-_G.pg.gametip.settings_battle_Btn_save = {
+_G.pg.base.gametip.settings_battle_Btn_save = {
 	tip = "セーブ"
 }
 
-_G.pg.gametip.settings_battle_Btn_cancel = {
+_G.pg.base.gametip.settings_battle_Btn_cancel = {
 	tip = "戻 る"
 }
 
-_G.pg.gametip.settings_pwd_label_close = {
+_G.pg.base.gametip.settings_pwd_label_close = {
 	tip = "OFF"
 }
 
-_G.pg.gametip.settings_pwd_label_open = {
+_G.pg.base.gametip.settings_pwd_label_open = {
 	tip = "ON"
 }
 
-_G.pg.gametip.word_frame = {
+_G.pg.base.gametip.word_frame = {
 	tip = "FPS"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_label = {
+_G.pg.base.gametip.Settings_title_Redeem_input_label = {
 	tip = "シリアル入力:"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_submit = {
+_G.pg.base.gametip.Settings_title_Redeem_input_submit = {
 	tip = "入 力"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_placeholder = {
+_G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
 	tip = "英数のみ入力できます"
 }
 
-_G.pg.gametip.CurlingGame_tips1 = {
+_G.pg.base.gametip.CurlingGame_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19343,7 +19343,7 @@ _G.pg.gametip.CurlingGame_tips1 = {
 	}
 }
 
-_G.pg.gametip.maid_task_tips1 = {
+_G.pg.base.gametip.maid_task_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19362,31 +19362,31 @@ _G.pg.gametip.maid_task_tips1 = {
 	}
 }
 
-_G.pg.gametip.shop_diamond_title = {
+_G.pg.base.gametip.shop_diamond_title = {
 	tip = "ダイヤ購入"
 }
 
-_G.pg.gametip.shop_gift_title = {
+_G.pg.base.gametip.shop_gift_title = {
 	tip = "割引パック"
 }
 
-_G.pg.gametip.shop_item_title = {
+_G.pg.base.gametip.shop_item_title = {
 	tip = "母港機能"
 }
 
-_G.pg.gametip.shop_charge_level_limit = {
+_G.pg.base.gametip.shop_charge_level_limit = {
 	tip = "Lv    で解放"
 }
 
-_G.pg.gametip.backhill_cantupbuilding = {
+_G.pg.base.gametip.backhill_cantupbuilding = {
 	tip = "$1をレベルアップしておく必要があります"
 }
 
-_G.pg.gametip.pray_cant_tips = {
+_G.pg.base.gametip.pray_cant_tips = {
 	tip = "艦船絵馬を飾ると指揮官祈願回数を入手できます"
 }
 
-_G.pg.gametip.help_xinnian2022_feast = {
+_G.pg.base.gametip.help_xinnian2022_feast = {
 	tip = {
 		{
 			info = [[
@@ -19424,7 +19424,7 @@ _G.pg.gametip.help_xinnian2022_feast = {
 	}
 }
 
-_G.pg.gametip.Pray_activity_tips1 = {
+_G.pg.base.gametip.Pray_activity_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19456,11 +19456,11 @@ _G.pg.gametip.Pray_activity_tips1 = {
 	}
 }
 
-_G.pg.gametip.backhill_notenoughbuilding = {
+_G.pg.base.gametip.backhill_notenoughbuilding = {
 	tip = "増築許可はイベント「炭酸と紅茶」ページの限定任務クリアで入手できます"
 }
 
-_G.pg.gametip.help_xinnian2022_z28 = {
+_G.pg.base.gametip.help_xinnian2022_z28 = {
 	tip = {
 		{
 			info = [[
@@ -19476,7 +19476,7 @@ _G.pg.gametip.help_xinnian2022_z28 = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2022_firework = {
+_G.pg.base.gametip.help_xinnian2022_firework = {
 	tip = {
 		{
 			info = [[
@@ -19519,119 +19519,119 @@ _G.pg.gametip.help_xinnian2022_firework = {
 	}
 }
 
-_G.pg.gametip.settings_title_account_del = {
+_G.pg.base.gametip.settings_title_account_del = {
 	tip = "アカウント"
 }
 
-_G.pg.gametip.settings_text_account_del = {
+_G.pg.base.gametip.settings_text_account_del = {
 	tip = "アカウント削除"
 }
 
-_G.pg.gametip.settings_text_account_del_desc = {
+_G.pg.base.gametip.settings_text_account_del_desc = {
 	tip = "アカウントを削除すると、このアカウントですべてのサーバーでプレイすることができなくなり、さらにアカウントのSNSアカウントなどとの紐付け情報も削除されます。"
 }
 
-_G.pg.gametip.settings_text_account_del_confirm = {
+_G.pg.base.gametip.settings_text_account_del_confirm = {
 	tip = "上記の内容をすべて確認しました。アカウントを削除します"
 }
 
-_G.pg.gametip.settings_text_account_del_btn = {
+_G.pg.base.gametip.settings_text_account_del_btn = {
 	tip = "削除確認"
 }
 
-_G.pg.gametip.box_account_del_input = {
+_G.pg.base.gametip.box_account_del_input = {
 	tip = "下記入力フォームで<color=#92fc63>$1</color>を入力し、\nアカウント削除手続きを開始します。"
 }
 
-_G.pg.gametip.box_account_del_target = {
+_G.pg.base.gametip.box_account_del_target = {
 	tip = "DELETE"
 }
 
-_G.pg.gametip.box_account_del_click = {
+_G.pg.base.gametip.box_account_del_click = {
 	tip = "タップで入力 "
 }
 
-_G.pg.gametip.box_account_del_success_content = {
+_G.pg.base.gametip.box_account_del_success_content = {
 	tip = "アカウントは <color=#92fc63>$1</color> に削除される予定です"
 }
 
-_G.pg.gametip.box_account_reborn_content = {
+_G.pg.base.gametip.box_account_reborn_content = {
 	tip = "アカウント削除は<color=#92fc63>$1</color>日後に行われます。アカウント削除までゲームにログインすると、アカウント削除が行われなくなります。\nアカウント削除依頼を取り下げ、ゲームにログインしますか？ （アカウントは削除されなくなります）"
 }
 
-_G.pg.gametip.tip_account_del_dismatch = {
+_G.pg.base.gametip.tip_account_del_dismatch = {
 	tip = "入力内容は不正です"
 }
 
-_G.pg.gametip.tip_account_del_reborn = {
+_G.pg.base.gametip.tip_account_del_reborn = {
 	tip = "アカウント削除をキャンセルしました"
 }
 
-_G.pg.gametip.player_manifesto_placeholder = {
+_G.pg.base.gametip.player_manifesto_placeholder = {
 	tip = "挨拶を入力"
 }
 
-_G.pg.gametip.box_ship_del_click = {
+_G.pg.base.gametip.box_ship_del_click = {
 	tip = "タップして数字を入力してください"
 }
 
-_G.pg.gametip.box_equipment_del_click = {
+_G.pg.base.gametip.box_equipment_del_click = {
 	tip = "装備の名前を入力…"
 }
 
-_G.pg.gametip.change_player_name_title = {
+_G.pg.base.gametip.change_player_name_title = {
 	tip = "名前変更"
 }
 
-_G.pg.gametip.change_player_name_subtitle = {
+_G.pg.base.gametip.change_player_name_subtitle = {
 	tip = "名前を入力してください:"
 }
 
-_G.pg.gametip.change_player_name_input_tip = {
+_G.pg.base.gametip.change_player_name_input_tip = {
 	tip = "名前を入力してください:"
 }
 
-_G.pg.gametip.tactics_class_start = {
+_G.pg.base.gametip.tactics_class_start = {
 	tip = "学習開始"
 }
 
-_G.pg.gametip.tactics_class_cancel = {
+_G.pg.base.gametip.tactics_class_cancel = {
 	tip = "学習中止"
 }
 
-_G.pg.gametip.tactics_class_get_exp = {
+_G.pg.base.gametip.tactics_class_get_exp = {
 	tip = "スキルEXP"
 }
 
-_G.pg.gametip.tactics_class_spend_time = {
+_G.pg.base.gametip.tactics_class_spend_time = {
 	tip = "必要時間"
 }
 
-_G.pg.gametip.build_ticket_description = {
+_G.pg.base.gametip.build_ticket_description = {
 	tip = "※限定建造開催中のみ"
 }
 
-_G.pg.gametip.build_ticket_expire_warning = {
+_G.pg.base.gametip.build_ticket_expire_warning = {
 	tip = "x$1終了間近"
 }
 
-_G.pg.gametip.tip_build_ticket_expired = {
+_G.pg.base.gametip.tip_build_ticket_expired = {
 	tip = "イベントがすでに終了したため、【$1】を使用できません"
 }
 
-_G.pg.gametip.tip_build_ticket_exchange_expired = {
+_G.pg.base.gametip.tip_build_ticket_exchange_expired = {
 	tip = "開催期間が終了したため、「$1」を交換できません"
 }
 
-_G.pg.gametip.tip_build_ticket_not_enough = {
+_G.pg.base.gametip.tip_build_ticket_not_enough = {
 	tip = "【$1】が不足しています"
 }
 
-_G.pg.gametip.build_ship_tip_use_ticket = {
+_G.pg.base.gametip.build_ship_tip_use_ticket = {
 	tip = "建造を<color=#ffff00>$1回</color>行うには下記のアイテムを消費：\n<color=$5>「$4×$3」</color>"
 }
 
-_G.pg.gametip.springfes_tips1 = {
+_G.pg.base.gametip.springfes_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -19648,15 +19648,15 @@ _G.pg.gametip.springfes_tips1 = {
 	}
 }
 
-_G.pg.gametip.worldinpicture_tavel_point_tip = {
+_G.pg.base.gametip.worldinpicture_tavel_point_tip = {
 	tip = "探索回数が不足しています"
 }
 
-_G.pg.gametip.worldinpicture_draw_point_tip = {
+_G.pg.base.gametip.worldinpicture_draw_point_tip = {
 	tip = "名物配置回数が不足しています"
 }
 
-_G.pg.gametip.worldinpicture_help = {
+_G.pg.base.gametip.worldinpicture_help = {
 	tip = {
 		{
 			info = [[
@@ -19674,7 +19674,7 @@ _G.pg.gametip.worldinpicture_help = {
 	}
 }
 
-_G.pg.gametip.worldinpicture_task_help = {
+_G.pg.base.gametip.worldinpicture_task_help = {
 	tip = {
 		{
 			info = [[
@@ -19692,59 +19692,59 @@ _G.pg.gametip.worldinpicture_task_help = {
 	}
 }
 
-_G.pg.gametip.worldinpicture_not_area_can_draw = {
+_G.pg.base.gametip.worldinpicture_not_area_can_draw = {
 	tip = "名物を配置できるマスは存在しません"
 }
 
-_G.pg.gametip.missile_attack_area_confirm = {
+_G.pg.base.gametip.missile_attack_area_confirm = {
 	tip = "攻撃開始"
 }
 
-_G.pg.gametip.missile_attack_area_cancel = {
+_G.pg.base.gametip.missile_attack_area_cancel = {
 	tip = "攻撃中止"
 }
 
-_G.pg.gametip.shipchange_alert_infleet = {
+_G.pg.base.gametip.shipchange_alert_infleet = {
 	tip = "この艦船は艦隊に編成されています。編成から外しますか？"
 }
 
-_G.pg.gametip.shipchange_alert_inpvp = {
+_G.pg.base.gametip.shipchange_alert_inpvp = {
 	tip = "この艦船は演習攻撃艦隊に編成されています。演習編成から外しますか？"
 }
 
-_G.pg.gametip.shipchange_alert_inexercise = {
+_G.pg.base.gametip.shipchange_alert_inexercise = {
 	tip = "この艦船は演習防御隊に編成されています。演習編成から外しますか？"
 }
 
-_G.pg.gametip.shipchange_alert_inworld = {
+_G.pg.base.gametip.shipchange_alert_inworld = {
 	tip = "この艦船はセイレーン作戦で編成されています。セイレーン作戦の編成から外しますか？"
 }
 
-_G.pg.gametip.shipchange_alert_inguildbossevent = {
+_G.pg.base.gametip.shipchange_alert_inguildbossevent = {
 	tip = "この艦船は大艦隊作戦の強敵戦で編成されています。大艦隊作戦強敵戦での編成から外しますか？"
 }
 
-_G.pg.gametip.shipchange_alert_indiff = {
+_G.pg.base.gametip.shipchange_alert_indiff = {
 	tip = "既に艦隊に編成されています。艦隊編成から外しますか？"
 }
 
-_G.pg.gametip.shipmodechange_reject_1stfleet_only = {
+_G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 	tip = "第1艦隊の前衛・主力に艦船が1隻しか編成されていません。別の艦に変更してから再度お試しください"
 }
 
-_G.pg.gametip.shipmodechange_reject_worldfleet_only = {
+_G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "前衛・主力に艦船が1隻しか編成されていません。別の艦に変更してから再度お試しください"
 }
 
-_G.pg.gametip.shipmodechange_reject_inactivity = {
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
 	tip = "チャレンジ/共闘イベントに編成されています。別の艦に変更してから再度お試しください"
 }
 
-_G.pg.gametip.monopoly3thre_tip = {
+_G.pg.base.gametip.monopoly3thre_tip = {
 	tip = "※着せ替えを既に所有している場合は、自動で資金に変換されます"
 }
 
-_G.pg.gametip.fushun_game3_tip = {
+_G.pg.base.gametip.fushun_game3_tip = {
 	tip = {
 		{
 			info = [[
@@ -19767,11 +19767,11 @@ _G.pg.gametip.fushun_game3_tip = {
 	}
 }
 
-_G.pg.gametip.battlepass_main_tip_2202 = {
+_G.pg.base.gametip.battlepass_main_tip_2202 = {
 	tip = "2022.2.1-2022.3.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「隼鷹(META)」</color>などを入手可能！"
 }
 
-_G.pg.gametip.battlepass_main_help_2202 = {
+_G.pg.base.gametip.battlepass_main_help_2202 = {
 	tip = {
 		{
 			info = [[
@@ -19813,7 +19813,7 @@ _G.pg.gametip.battlepass_main_help_2202 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2202 = {
+_G.pg.base.gametip.cruise_task_help_2202 = {
 	tip = {
 		{
 			info = [[
@@ -19833,11 +19833,11 @@ _G.pg.gametip.cruise_task_help_2202 = {
 	}
 }
 
-_G.pg.gametip.battlepass_main_tip_2204 = {
+_G.pg.base.gametip.battlepass_main_tip_2204 = {
 	tip = "2022.4.1-2022.5.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「山城(META)」</color>などを入手可能！"
 }
 
-_G.pg.gametip.battlepass_main_help_2204 = {
+_G.pg.base.gametip.battlepass_main_help_2204 = {
 	tip = {
 		{
 			info = [[
@@ -19879,7 +19879,7 @@ _G.pg.gametip.battlepass_main_help_2204 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2204 = {
+_G.pg.base.gametip.cruise_task_help_2204 = {
 	tip = {
 		{
 			info = [[
@@ -19899,31 +19899,31 @@ _G.pg.gametip.cruise_task_help_2204 = {
 	}
 }
 
-_G.pg.gametip.attrset_reset = {
+_G.pg.base.gametip.attrset_reset = {
 	tip = "リセット"
 }
 
-_G.pg.gametip.attrset_save = {
+_G.pg.base.gametip.attrset_save = {
 	tip = "設定保存"
 }
 
-_G.pg.gametip.attrset_ask_save = {
+_G.pg.base.gametip.attrset_ask_save = {
 	tip = "現在の設定を保存しますか？"
 }
 
-_G.pg.gametip.attrset_save_success = {
+_G.pg.base.gametip.attrset_save_success = {
 	tip = "保存に成功しました"
 }
 
-_G.pg.gametip.attrset_disable = {
+_G.pg.base.gametip.attrset_disable = {
 	tip = "作戦中の艦船がいるため、設定できません"
 }
 
-_G.pg.gametip.attrset_input_ill = {
+_G.pg.base.gametip.attrset_input_ill = {
 	tip = "不正の入力です"
 }
 
-_G.pg.gametip.blackfriday_help = {
+_G.pg.base.gametip.blackfriday_help = {
 	tip = {
 		{
 			info = [[
@@ -19935,31 +19935,31 @@ _G.pg.gametip.blackfriday_help = {
 	}
 }
 
-_G.pg.gametip.eventshop_time_hint = {
+_G.pg.base.gametip.eventshop_time_hint = {
 	tip = "$1メンテナンスまで交換可能"
 }
 
-_G.pg.gametip.purchase_backyard_theme_desc_for_onekey = {
+_G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
 	tip = "シリーズ家具を1個ずつ購入する"
 }
 
-_G.pg.gametip.purchase_backyard_theme_desc_for_all = {
+_G.pg.base.gametip.purchase_backyard_theme_desc_for_all = {
 	tip = "シリーズ家具を所持可能数分購入する"
 }
 
-_G.pg.gametip.sp_no_quota = {
+_G.pg.base.gametip.sp_no_quota = {
 	tip = "今日はこれ以上出撃できません"
 }
 
-_G.pg.gametip.fur_all_buy = {
+_G.pg.base.gametip.fur_all_buy = {
 	tip = "全部購入"
 }
 
-_G.pg.gametip.fur_onekey_buy = {
+_G.pg.base.gametip.fur_onekey_buy = {
 	tip = "1個ずつ購入"
 }
 
-_G.pg.gametip.littleRenown_npc = {
+_G.pg.base.gametip.littleRenown_npc = {
 	tip = {
 		{
 			info = "■概要\n「リトル　ロイヤルナイト」とは、イベント開始時に仮加入した【リトル・レナウン】の「友好度」を海域に出撃することで貯め、【リトル・レナウン】を正式加入させるイベントになります。"
@@ -19988,7 +19988,7 @@ _G.pg.gametip.littleRenown_npc = {
 	}
 }
 
-_G.pg.gametip.tech_package_tip = {
+_G.pg.base.gametip.tech_package_tip = {
 	tip = [[
 ※交換アイテムは１回しか購入できません
 ※交換アイテムのみを購入した場合、
@@ -19997,139 +19997,139 @@ _G.pg.gametip.tech_package_tip = {
 ※購入したアイテムはメールボックスに送られます]]
 }
 
-_G.pg.gametip.backyard_food_shop_tip = {
+_G.pg.base.gametip.backyard_food_shop_tip = {
 	tip = "購入費用："
 }
 
-_G.pg.gametip.dorm_2f_lock = {
+_G.pg.base.gametip.dorm_2f_lock = {
 	tip = "未開放"
 }
 
-_G.pg.gametip.word_get_way = {
+_G.pg.base.gametip.word_get_way = {
 	tip = "入手方法:"
 }
 
-_G.pg.gametip.word_get_date = {
+_G.pg.base.gametip.word_get_date = {
 	tip = "入手時間:"
 }
 
-_G.pg.gametip.enter_theme_name = {
+_G.pg.base.gametip.enter_theme_name = {
 	tip = "テーマの名前を入力"
 }
 
-_G.pg.gametip.enter_extend_food_label = {
+_G.pg.base.gametip.enter_extend_food_label = {
 	tip = "拡張"
 }
 
-_G.pg.gametip.backyard_extend_tip_1 = {
+_G.pg.base.gametip.backyard_extend_tip_1 = {
 	tip = "拡張許可書"
 }
 
-_G.pg.gametip.backyard_extend_tip_2 = {
+_G.pg.base.gametip.backyard_extend_tip_2 = {
 	tip = " 個を消費しますか？"
 }
 
-_G.pg.gametip.backyard_extend_tip_3 = {
+_G.pg.base.gametip.backyard_extend_tip_3 = {
 	tip = "所持数:"
 }
 
-_G.pg.gametip.backyard_extend_tip_4 = {
+_G.pg.base.gametip.backyard_extend_tip_4 = {
 	tip = " 個"
 }
 
-_G.pg.gametip.email_text = {
+_G.pg.base.gametip.email_text = {
 	tip = "メールアドレス"
 }
 
-_G.pg.gametip.emailhold_text = {
+_G.pg.base.gametip.emailhold_text = {
 	tip = "入力したメールアドレスに認証コードを送信します"
 }
 
-_G.pg.gametip.code_text = {
+_G.pg.base.gametip.code_text = {
 	tip = "認証コード"
 }
 
-_G.pg.gametip.codehold_text = {
+_G.pg.base.gametip.codehold_text = {
 	tip = "認証コードを入力"
 }
 
-_G.pg.gametip.genBtn_text = {
+_G.pg.base.gametip.genBtn_text = {
 	tip = "送信する"
 }
 
-_G.pg.gametip.desc_text = {
+_G.pg.base.gametip.desc_text = {
 	tip = "上記認証コードは、送信より30分経過すると無効になります。"
 }
 
-_G.pg.gametip.loginBtn_text = {
+_G.pg.base.gametip.loginBtn_text = {
 	tip = "ログイン"
 }
 
-_G.pg.gametip.verification_code_req_tip1 = {
+_G.pg.base.gametip.verification_code_req_tip1 = {
 	tip = "メールアドレスを入力してください"
 }
 
-_G.pg.gametip.verification_code_req_tip2 = {
+_G.pg.base.gametip.verification_code_req_tip2 = {
 	tip = "認証コードを送信しました"
 }
 
-_G.pg.gametip.verification_code_req_tip3 = {
+_G.pg.base.gametip.verification_code_req_tip3 = {
 	tip = "メールアドレスと認証コードを入力してください"
 }
 
-_G.pg.gametip.levelScene_remaster_story_tip = {
+_G.pg.base.gametip.levelScene_remaster_story_tip = {
 	tip = "ストーリー「$1」が開放されました。\n「図鑑」の「思い出」で確認できます"
 }
 
-_G.pg.gametip.levelScene_remaster_unlock_tip = {
+_G.pg.base.gametip.levelScene_remaster_unlock_tip = {
 	tip = "※作戦履歴「$1 - $2」クリアで全ストーリー開放"
 }
 
-_G.pg.gametip.linkBtn_text = {
+_G.pg.base.gametip.linkBtn_text = {
 	tip = "連携"
 }
 
-_G.pg.gametip.amazon_link_title = {
+_G.pg.base.gametip.amazon_link_title = {
 	tip = "連携中のAmazon：$1"
 }
 
-_G.pg.gametip.amazon_unlink_btn_text = {
+_G.pg.base.gametip.amazon_unlink_btn_text = {
 	tip = "Amazonアカウント連携済み"
 }
 
-_G.pg.gametip.yostar_link_title = {
+_G.pg.base.gametip.yostar_link_title = {
 	tip = "アカウント連携中"
 }
 
-_G.pg.gametip.yostar_unlink_btn_text = {
+_G.pg.base.gametip.yostar_unlink_btn_text = {
 	tip = "Yostarアカウント連携済み"
 }
 
-_G.pg.gametip.level_remaster_tip1 = {
+_G.pg.base.gametip.level_remaster_tip1 = {
 	tip = "出現海域"
 }
 
-_G.pg.gametip.level_remaster_tip2 = {
+_G.pg.base.gametip.level_remaster_tip2 = {
 	tip = "出撃へ"
 }
 
-_G.pg.gametip.level_remaster_tip3 = {
+_G.pg.base.gametip.level_remaster_tip3 = {
 	tip = "受取"
 }
 
-_G.pg.gametip.level_remaster_tip4 = {
+_G.pg.base.gametip.level_remaster_tip4 = {
 	tip = "$1敵中枢艦隊撃破回数"
 }
 
-_G.pg.gametip.skill_learn_tip = {
+_G.pg.base.gametip.skill_learn_tip = {
 	tip = "本日はあと$1回スキル強化を加速できますよ"
 }
 
-_G.pg.gametip.build_count_tip = {
+_G.pg.base.gametip.build_count_tip = {
 	tip = "累計"
 }
 
-_G.pg.gametip.help_research_package = {
+_G.pg.base.gametip.help_research_package = {
 	tip = {
 		{
 			icon = {
@@ -20155,147 +20155,151 @@ _G.pg.gametip.help_research_package = {
 	}
 }
 
-_G.pg.gametip.lv70_package_tip = {
+_G.pg.base.gametip.lv70_package_tip = {
 	tip = "指揮官レベルが70以上であるため、購入すると指揮官レベルが変化せず、アイテムのみ入手します。購入を続けますか？"
 }
 
-_G.pg.gametip.tech_select_tip1 = {
+_G.pg.base.gametip.tech_select_tip1 = {
 	tip = "PR艦船交換"
 }
 
-_G.pg.gametip.tech_select_tip2 = {
+_G.pg.base.gametip.tech_select_tip2 = {
 	tip = "研究ドックの右上ボタンで使用すると艦船を開放可能"
 }
 
-_G.pg.gametip.tech_select_tip3 = {
+_G.pg.base.gametip.tech_select_tip3 = {
 	tip = "入手済"
 }
 
-_G.pg.gametip.tech_select_tip4 = {
+_G.pg.base.gametip.tech_select_tip4 = {
 	tip = "アイテム交換"
 }
 
-_G.pg.gametip.tech_select_tip5 = {
+_G.pg.base.gametip.tech_select_tip5 = {
 	tip = "上記全艦船入手済の場合で使用するともらえる"
 }
 
-_G.pg.gametip.techpackage_item_use = {
+_G.pg.base.gametip.techpackage_item_use = {
 	tip = "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？（艦船「$1」を入手でき、レベル・強化レベルは1）"
 }
 
-_G.pg.gametip.techpackage_item_use_confirm = {
+_G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "開放できる艦船が全部所持しているため、使用すると下記のアイテムを入手できます："
 }
 
-_G.pg.gametip.newserver_shop_timelimit = {
+_G.pg.base.gametip.newserver_shop_timelimit = {
 	tip = "$1に開放されます"
 }
 
-_G.pg.gametip.tech_character_get = {
+_G.pg.base.gametip.tech_character_get = {
 	tip = "入手済"
 }
 
-_G.pg.gametip.package_detail_tip = {
+_G.pg.base.gametip.package_detail_tip = {
 	tip = "詳細確認"
 }
 
-_G.pg.gametip.event_ui_consume = {
+_G.pg.base.gametip.event_ui_consume = {
 	tip = "消費"
 }
 
-_G.pg.gametip.event_ui_recommend = {
+_G.pg.base.gametip.event_ui_recommend = {
 	tip = "オススメ"
 }
 
-_G.pg.gametip.event_ui_start = {
+_G.pg.base.gametip.event_ui_start = {
 	tip = "開始"
 }
 
-_G.pg.gametip.event_ui_giveup = {
+_G.pg.base.gametip.event_ui_giveup = {
 	tip = "中止"
 }
 
-_G.pg.gametip.event_ui_finish = {
+_G.pg.base.gametip.event_ui_finish = {
 	tip = "完了"
 }
 
-_G.pg.gametip.nav_tactics_sel_skill_title = {
+_G.pg.base.gametip.nav_tactics_sel_skill_title = {
 	tip = "スキル確認"
 }
 
-_G.pg.gametip.battle_result_confirm = {
+_G.pg.base.gametip.battle_result_confirm = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.battle_result_targets = {
+_G.pg.base.gametip.battle_result_targets = {
 	tip = "戦 闘 評 価"
 }
 
-_G.pg.gametip.battle_result_continue = {
+_G.pg.base.gametip.battle_result_continue = {
 	tip = "画面をタッチ"
 }
 
-_G.pg.gametip.activity_kill = {
+_G.pg.base.gametip.activity_kill = {
 	tip = "累計撃破"
 }
 
-_G.pg.gametip.battle_result_dmg = {
+_G.pg.base.gametip.battle_result_dmg = {
 	tip = "ダメージ"
 }
 
-_G.pg.gametip.battle_result_kill_count = {
+_G.pg.base.gametip.battle_result_kill_count = {
 	tip = "撃破数"
 }
 
-_G.pg.gametip.battle_result_toggle_on = {
+_G.pg.base.gametip.battle_result_toggle_on = {
 	tip = "潜 水 艦 隊"
 }
 
-_G.pg.gametip.battle_result_toggle_off = {
+_G.pg.base.gametip.battle_result_toggle_off = {
 	tip = "出 撃 艦 隊"
 }
 
-_G.pg.gametip.battle_result_continue_battle = {
+_G.pg.base.gametip.battle_result_continue_battle = {
 	tip = "戦 闘 継 続"
 }
 
-_G.pg.gametip.battle_result_quit_battle = {
+_G.pg.base.gametip.battle_result_quit_battle = {
 	tip = "戦 闘 中 断"
 }
 
-_G.pg.gametip.battle_result_share_battle = {
+_G.pg.base.gametip.battle_result_share_battle = {
 	tip = "シェア"
 }
 
-_G.pg.gametip.pre_combat_team = {
+_G.pg.base.gametip.pre_combat_team = {
 	tip = "出撃艦隊"
 }
 
-_G.pg.gametip.pre_combat_vanguard = {
+_G.pg.base.gametip.pre_combat_vanguard = {
 	tip = "前衛艦隊"
 }
 
-_G.pg.gametip.pre_combat_main = {
+_G.pg.base.gametip.pre_combat_main = {
 	tip = "主力艦隊"
 }
 
-_G.pg.gametip.pre_combat_submarine = {
+_G.pg.base.gametip.pre_combat_submarine = {
 	tip = "潜水艦隊"
 }
 
-_G.pg.gametip.destroy_confirm_access = {
+_G.pg.base.gametip.destroy_confirm_access = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.destroy_confirm_cancel = {
+_G.pg.base.gametip.destroy_confirm_cancel = {
 	tip = "戻 る"
 }
 
-_G.pg.gametip.pt_count_tip = {
+_G.pg.base.gametip.pt_count_tip = {
 	tip = "累計"
 }
 
-_G.pg.gametip.littleEugen_npc = {
+_G.pg.base.gametip.dockyard_data_loss_detected = {
+	tip = "ドック情報の同期トラブルが発生しました。ログイン画面に戻りますか？"
+}
+
+_G.pg.base.gametip.littleEugen_npc = {
 	tip = {
 		{
 			info = "■概要\n「甘えちゃいたい　ケーゼクーヘン」とは、イベント開始時に仮加入した【プリンツ・オイゲンちゃん】の「友好度」を限定任務で入手できる「ケーキPt」から変換し貯めることで、【プリンツ・オイゲンちゃん】を正式加入させるイベントになります。"

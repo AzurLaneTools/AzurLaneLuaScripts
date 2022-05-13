@@ -29,7 +29,10 @@ return {
 				buff_id = 104063,
 				minTargetNumber = 2,
 				target = "TargetSelf",
-				check_target = "TargetShipTag",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"KizunaAI"
 				}

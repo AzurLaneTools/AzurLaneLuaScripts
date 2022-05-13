@@ -248,6 +248,66 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6011] = {
+		gametip = "「ジャベリン」の着せ替えをGET!",
+		banner_route = "permanent_biaoqiang",
+		gametip_extra = "最速9日間で入手",
+		over_pt = 0,
+		task_extra = "",
+		id = 6011,
+		activity_name = "月刊マンガJavelin",
+		over_task_id = "",
+		eliminate_task_id = {
+			35118,
+			35119,
+			35120,
+			35121,
+			35122,
+			35123,
+			35124,
+			35125,
+			35126,
+			35127,
+			35128,
+			35129,
+			35130,
+			35131,
+			35132,
+			35133,
+			35134,
+			35135
+		}
+	},
+	[6012] = {
+		gametip = "「U-73」の着せ替えをGET!",
+		banner_route = "permanent_u73",
+		gametip_extra = "最速7日間で入手",
+		over_pt = 0,
+		task_extra = "",
+		id = 6012,
+		activity_name = "理科実験タイム！",
+		over_task_id = "",
+		eliminate_task_id = {
+			35136,
+			35137,
+			35138,
+			35139,
+			35140,
+			35141,
+			35142,
+			35143,
+			35144,
+			35145,
+			35146,
+			35147,
+			35148,
+			35149,
+			35150,
+			35151,
+			35152,
+			35153
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -259,6 +319,8 @@ pg.activity_task_permanent = {
 		6007,
 		6008,
 		6009,
-		6010
+		6010,
+		6011,
+		6012
 	}
 }

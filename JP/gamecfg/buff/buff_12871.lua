@@ -27,7 +27,10 @@ return {
 			},
 			arg_list = {
 				buff_id = 12874,
-				target = "TargetShipTag",
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Ryuho"
 				}
@@ -50,9 +53,12 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
-				target = "TargetShipTag",
-				killer = "self",
 				skill_id = 12872,
+				killer = "self",
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Ryuho"
 				}

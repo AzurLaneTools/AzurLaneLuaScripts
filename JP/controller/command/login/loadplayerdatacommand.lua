@@ -202,6 +202,7 @@ function slot0.execute(slot0, slot1)
 
 		pg.SdkMgr.GetInstance():EnterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime, slot2.level, slot2:getTotalGem())
 		slot5:recordLoginedServer(slot4.uid, slot6.id)
+		getProxy(MetaCharacterProxy):requestMetaTacticsInfo(nil, true)
 		uv1:sendNotification(GAME.GET_SEASON_INFO)
 		uv1:sendNotification(GAME.GET_GUILD_INFO)
 		uv1:sendNotification(GAME.GET_PUBLIC_GUILD_USER_DATA, {})
@@ -214,7 +215,10 @@ function slot0.execute(slot0, slot1)
 		pg.NewStoryMgr.GetInstance():Fix()
 		getProxy(SettingsProxy):ResetTimeLimitSkinShopTip()
 		getProxy(PlayerProxy):setInited(true)
-		uv1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
+
+		if MainCheckShipNumSequence.New():Check(slot0.ship_count) then
+			uv1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
+		end
 	end, nil, 60)
 end
 

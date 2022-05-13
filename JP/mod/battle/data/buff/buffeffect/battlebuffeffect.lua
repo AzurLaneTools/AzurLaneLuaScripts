@@ -132,7 +132,7 @@ function slot2.onBulletHit(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot0:onTrigger(slot1, slot2)
+	slot0:onTrigger(slot1, slot2, slot3)
 end
 
 function slot2.onBeHit(slot0, slot1, slot2, slot3)

@@ -78,6 +78,7 @@ function slot0.init(slot0)
 	slot0._fxContainerUpper = slot0._tf:Find("FXContainerUpper")
 	slot0._fxContainerBottom = slot0._tf:Find("FXContainerBottom")
 	slot0._canvasOrder = slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot3.sortingOrder or 0
+	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
 end
 
 function slot0.initPainting(slot0)
@@ -309,7 +310,11 @@ end
 function slot0.didEnter(slot0)
 	setActive(slot0._tf, false)
 
-	GetComponent(slot0._tf, typeof(AspectRatioFitter)).enabled = true
+	slot0._ratioFitter.enabled = true
+	slot0._ratioFitter.aspectRatio = pg.CameraFixMgr.GetInstance():GetBattleUIRatio()
+	slot0.camEventId = pg.CameraFixMgr.GetInstance():bind(pg.CameraFixMgr.ASPECT_RATIO_UPDATE, function (slot0, slot1)
+		uv0._ratioFitter.aspectRatio = pg.CameraFixMgr.GetInstance():GetBattleUIRatio()
+	end)
 	slot1 = ys.Battle.BattleState.GetInstance()
 
 	slot1:SetBattleUI(slot0)
@@ -592,6 +597,7 @@ function slot0.willExit(slot0)
 	slot0._skillFloatCMDPool:Dispose()
 	ys.Battle.BattleState.GetInstance():ExitBattle()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.pauseWindow, slot0._tf)
+	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)
 end
 
 return slot0

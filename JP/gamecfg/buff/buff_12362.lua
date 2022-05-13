@@ -29,8 +29,11 @@ return {
 			arg_list = {
 				buff_id = 12363,
 				quota = 1,
-				target = "TargetShipTag",
 				hpUpperBound = 0.5,
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Bertin"
 				}
