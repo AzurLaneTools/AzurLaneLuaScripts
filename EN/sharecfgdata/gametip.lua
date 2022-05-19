@@ -9837,15 +9837,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Admiral Hipper µ and Gascogne µ added to standard build pool! "
+	tip = "Littorio, Pola and others added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Ying Swei, Chao Ho and Penelope added to standard build pool! "
+	tip = "Vincenzo Gioberti added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Akagi µ added to standard build pool! "
+	tip = "Formidable added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -20193,4 +20193,8 @@ _G.pg.base.gametip.littleEugen_npc = {
 			info = "· Little Prinz Eugen cannot participate in Guild Bosses until she has been formally recruited."
 		}
 	}
+}
+
+_G.pg.base.gametip.friend_resume_title_detail = {
+	tip = "Info"
 }

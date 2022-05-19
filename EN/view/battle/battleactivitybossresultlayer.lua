@@ -25,6 +25,7 @@ function slot0.showRightBottomPanel(slot0)
 			uv0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 		end
 	end, SFX_CONFIRM)
+	setText(slot1:Find("confirmBtn/Image"), i18n("text_confirm"))
 	setText(slot1:Find("playAgain/Image"), i18n("re_battle"))
 	onButton(slot0, slot1:Find("playAgain"), function ()
 		uv0:emit(BattleResultMediator.DIRECT_EXIT)

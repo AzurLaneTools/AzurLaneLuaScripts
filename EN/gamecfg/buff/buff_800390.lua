@@ -40,6 +40,17 @@ return {
 				target = "TargetSelf",
 				skill_id = 800391
 			}
+		},
+		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id_list = {
+					211
+				}
+			}
 		}
 	}
 }

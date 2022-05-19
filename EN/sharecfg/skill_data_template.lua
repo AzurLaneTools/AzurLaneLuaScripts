@@ -8938,6 +8938,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6950] = {
+		desc_get = "",
+		name = "Damaged Speech Manuscript",
+		id = 6950,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a Royal Navy ship, increases her LCK by 3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -63297,6 +63311,299 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 			}
 		}
 	},
+	[18290] = {
+		desc_get = "",
+		name = "The Fearless Privateer+",
+		id = 18290,
+		type = 1,
+		max_level = 10,
+		desc = "Every $1s: fires a special barrage that penetrates enemy shields and heals this ship for 20.0% of the DMG dealt (barrage DMG is based on the skill's level.) Increases this ship's FP and EVA by $2 and RLD by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[18300] = {
+		desc_get = "",
+		name = "Flintlock Burst+",
+		id = 18300,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's built-in Secondary Gun's Crit Rate by $2 and, when this ship uses a Main Gun that fires Normal or HE ammo: this ship's Main Gun ammo type changes to $1 special HE that has a chance to inflict a special Burn to enemies hit (DMG is based on the skill's level). Decreases the shot requirement of this ship's All Out Assault skill to 6. If there are 3 or more Royal Navy ships in your fleet: increases this ship's Main Gun Efficiency by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30",
+				"20"
+			},
+			{
+				"3.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"21.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30",
+					"-1"
+				},
+				{
+					"29",
+					"-1"
+				},
+				{
+					"28",
+					"-1"
+				},
+				{
+					"27",
+					"-1"
+				},
+				{
+					"26",
+					"-1"
+				},
+				{
+					"25",
+					"-1"
+				},
+				{
+					"24",
+					"-1"
+				},
+				{
+					"23",
+					"-1"
+				},
+				{
+					"22",
+					"-2"
+				},
+				{
+					"20"
+				}
+			},
+			{
+				{
+					"3.0%",
+					"+1.2%"
+				},
+				{
+					"4.2%",
+					"+1.2%"
+				},
+				{
+					"5.4%",
+					"+1.2%"
+				},
+				{
+					"6.6%",
+					"+1.2%"
+				},
+				{
+					"7.8%",
+					"+1.2%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+1.5%"
+				},
+				{
+					"13.5%",
+					"+1.5%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+1.8%"
+				},
+				{
+					"6.3%",
+					"+1.8%"
+				},
+				{
+					"8.1%",
+					"+1.8%"
+				},
+				{
+					"9.9%",
+					"+1.8%"
+				},
+				{
+					"11.7%",
+					"+1.8%"
+				},
+				{
+					"13.5%",
+					"+1.8%"
+				},
+				{
+					"15.3%",
+					"+1.8%"
+				},
+				{
+					"17.1%",
+					"+1.8%"
+				},
+				{
+					"18.9%",
+					"+2.1%"
+				},
+				{
+					"21.0%"
+				}
+			}
+		}
+	},
 	[18320] = {
 		desc_get = "",
 		name = "Ausgewogen+",
@@ -85185,6 +85492,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 		6920,
 		6930,
 		6940,
+		6950,
 		7000,
 		9010,
 		9020,
@@ -85765,6 +86073,8 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 		18210,
 		18250,
 		18270,
+		18290,
+		18300,
 		18320,
 		18340,
 		18350,

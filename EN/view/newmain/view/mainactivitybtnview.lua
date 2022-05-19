@@ -60,18 +60,31 @@ function slot0.Init(slot0)
 		end
 	end
 
-	slot1 = 0
+	slot1 = {}
+	slot2 = {}
 
-	for slot5, slot6 in ipairs(slot0.activityBtns) do
-		if slot6:InShowTime() then
-			slot6:Init(slot1 + 1)
+	for slot6, slot7 in ipairs(slot0.activityBtns) do
+		if slot7:InShowTime() then
+			table.insert(slot1, slot7)
 		else
-			slot6:Clear()
+			table.insert(slot2, slot7)
 		end
 	end
 
-	slot2 = slot1 <= 3 and 1 or 0.8
-	slot0._tf.localScale = Vector3(slot2, slot2, 1)
+	table.sort(slot1, function (slot0, slot1)
+		return slot0.config.group_id < slot1.config.group_id
+	end)
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot7:Init(slot6)
+	end
+
+	for slot6, slot7 in ipairs(slot2) do
+		slot7:Clear()
+	end
+
+	slot4 = #slot1 <= 3 and 1 or 0.8
+	slot0._tf.localScale = Vector3(slot4, slot4, 1)
 end
 
 function slot0.Refresh(slot0)

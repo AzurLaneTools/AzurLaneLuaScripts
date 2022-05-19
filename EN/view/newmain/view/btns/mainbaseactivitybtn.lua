@@ -9,8 +9,28 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = nil
 end
 
-function slot0.emit(slot0, ...)
-	slot0.event:emit(...)
+function slot0.GetLinkConfig(slot0)
+	if #_.select(pg.activity_link_button.get_id_list_by_name[slot0:GetEventName()] or {}, function (slot0)
+		return pg.TimeMgr.GetInstance():inTime(uv0[slot0].time)
+	end) > 0 then
+		table.sort(slot4, function (slot0, slot1)
+			return uv0[slot0].order < uv0[slot1].order
+		end)
+
+		return slot2[slot4[1]]
+	end
+
+	return nil
+end
+
+function slot0.InShowTime(slot0)
+	if slot0:GetLinkConfig() ~= nil then
+		slot0.config = slot1
+
+		return true
+	else
+		return false
+	end
 end
 
 function slot0.NewGameObject(slot0)
@@ -22,6 +42,9 @@ function slot0.Init(slot0, slot1)
 	slot2 = slot0._tf
 	slot2 = slot2:Find("Image")
 	slot0.image = slot2:GetComponent(typeof(Image))
+	slot2 = slot0._tf
+	slot2 = slot2:Find("sub_Image")
+	slot0.subImage = slot2:GetComponent(typeof(Image))
 	slot2 = slot0._tf
 	slot2 = slot2:Find("Tip")
 	slot0.tipTr = slot2:GetComponent(typeof(Image))
@@ -35,30 +58,63 @@ function slot0.Init(slot0, slot1)
 
 	slot0:InitTipImage()
 	slot0:UpdatePosition(slot1)
+	slot0:InitSubImage()
 	slot0:InitImage(function ()
-		slot0 = uv0
-
-		slot0:OnInit()
-		onButton(uv0, uv0._tf, function ()
-			uv0:OnClick()
-		end, SFX_MAIN)
+		uv0:OnInit()
+		uv0:Register()
 	end)
 end
 
+function slot0.Register(slot0)
+	onButton(slot0, slot0._tf, function ()
+		if uv0.config.type <= 0 then
+			uv0:CustomOnClick()
+		else
+			uv0:OnClick()
+		end
+	end, SFX_MAIN)
+end
+
+function slot0.CustomOnClick(slot0)
+end
+
+function slot0.OnClick(slot0)
+	uv0.Skip(slot0, slot0.config)
+end
+
 function slot0.InitImage(slot0, slot1)
-	if not slot0:GetImage() or slot2 == slot0.imgName then
+	if not slot0.config.pic or slot2 == slot0.imgName then
 		slot1()
 
 		return
 	end
 
-	LoadSpriteAtlasAsync("ui/mainui_atlas", slot2, function (slot0)
+	LoadSpriteAtlasAsync("LinkButton/" .. slot2, "", function (slot0)
 		uv0.imgName = uv1
 		uv0.image.sprite = slot0
 
 		uv0.image:SetNativeSize()
 		uv2()
 	end)
+end
+
+function slot0.InitSubImage(slot0)
+	setActive(slot0.subImage.gameObject, slot0.config.text_pic ~= nil and slot1 ~= "")
+
+	if not slot1 or slot1 == slot0.subImgName then
+		return
+	end
+
+	LoadSpriteAtlasAsync("LinkButton/" .. slot1, "", function (slot0)
+		uv0.subImgName = uv1
+		uv0.subImage.sprite = slot0
+
+		uv0.subImage:SetNativeSize()
+	end)
+end
+
+function slot0.GetTipImage(slot0)
+	return "tip"
 end
 
 function slot0.InitTipImage(slot0)
@@ -84,6 +140,10 @@ function slot0.Clear(slot0)
 	end
 end
 
+function slot0.emit(slot0, ...)
+	slot0.event:emit(...)
+end
+
 function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
@@ -94,16 +154,31 @@ function slot0.Dispose(slot0)
 	end
 end
 
-function slot0.InShowTime(slot0)
+function slot0.Skip(slot0, slot1)
+	if slot1.type == GAMEUI_BANNER_1 then
+		Application.OpenURL(slot1.param)
+	elseif slot1.type == GAMEUI_BANNER_2 then
+		slot0:emit(NewMainMediator.SKIP_SCENE, slot1.param)
+	elseif slot1.type == GAMEUI_BANNER_3 then
+		slot0:emit(NewMainMediator.SKIP_ACTIVITY, tonumber(slot1.param))
+	elseif slot1.type == GAMEUI_BANNER_4 then
+		slot0:emit(NewMainMediator.SKIP_SHOP, slot1.param)
+	elseif slot1.type == GAMEUI_BANNER_5 then
+		-- Nothing
+	elseif slot1.type == GAMEUI_BANNER_6 then
+		slot0:emit(NewMainMediator.GO_SCENE, SCENE.SELTECHNOLOGY)
+	elseif slot1.type == GAMEUI_BANNER_7 then
+		slot0:emit(NewMainMediator.GO_MINI_GAME, slot1.param[1])
+	elseif slot1.type == GAMEUI_BANNER_8 then
+		if getProxy(GuildProxy):getRawData() then
+			slot0:emit(NewMainMediator.GO_SCENE, SCENE.GUILD)
+		else
+			slot0:emit(NewMainMediator.GO_SCENE, SCENE.NEWGUILD)
+		end
+	end
 end
 
-function slot0.GetImage(slot0)
-end
-
-function slot0.GetTipImage(slot0)
-end
-
-function slot0.OnClick(slot0)
+function slot0.GetEventName(slot0)
 end
 
 function slot0.OnInit(slot0)

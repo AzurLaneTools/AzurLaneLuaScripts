@@ -5060,6 +5060,30 @@ pg.skill_data_display = {
 		id = 18272,
 		name = "Bounce Right Back+"
 	},
+	[18290] = {
+		id = 18290,
+		name = "The Fearless Privateer+"
+	},
+	[18291] = {
+		id = 18291,
+		name = "The Fearless Privateer+"
+	},
+	[18292] = {
+		id = 18292,
+		name = "The Fearless Privateer+"
+	},
+	[18293] = {
+		id = 18293,
+		name = "The Fearless Privateer+"
+	},
+	[18300] = {
+		id = 18300,
+		name = "Flintlock Burst+"
+	},
+	[18301] = {
+		id = 18301,
+		name = "Flintlock Burst+"
+	},
 	[18320] = {
 		id = 18320,
 		name = "Ausgewogen+"
@@ -9166,6 +9190,12 @@ pg.skill_data_display = {
 		18270,
 		18271,
 		18272,
+		18290,
+		18291,
+		18292,
+		18293,
+		18300,
+		18301,
 		18320,
 		18322,
 		18340,

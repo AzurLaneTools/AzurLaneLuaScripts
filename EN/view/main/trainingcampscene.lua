@@ -31,6 +31,9 @@ function slot0.findUI(slot0)
 	slot0.switchToTecLight = GetOrAddComponent(slot0:findTF("Light", slot0.switchToTecBtn), "Animator")
 	slot0.awardMsg = slot0:findTF("ChooseAwardPanel")
 	slot0.helpBtn = slot0:findTF("HelpBtn")
+	slot0.titleTf = slot0:findTF("blur_panel/adapt/top/title")
+
+	GetComponent(findTF(slot0.titleTf, "img"), typeof(Image)):SetNativeSize()
 end
 
 function slot0.initData(slot0)

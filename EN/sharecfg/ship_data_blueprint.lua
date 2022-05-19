@@ -1331,7 +1331,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 3,
 		name = "德雷克",
 		simulate_dungeon = 9914,
-		luck_story = "",
+		luck_story = "LUCK29904",
 		strengthen_item = 42022,
 		unlock_word = "Requires <color=#92fc63>820</color> Royal Navy Tech Points",
 		id = 29904,
@@ -1340,7 +1340,16 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60141
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19300,
+				18300
+			},
+			{
+				19290,
+				18290
+			}
+		},
 		unlock_task = {
 			{
 				60142,
@@ -1407,7 +1416,13 @@ pg.ship_data_blueprint = {
 			1429,
 			1430
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1431,
+			1432,
+			1433,
+			1434,
+			1435
+		},
 		attr_exp = {
 			100,
 			100,

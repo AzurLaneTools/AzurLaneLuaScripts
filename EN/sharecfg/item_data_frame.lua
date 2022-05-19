@@ -333,6 +333,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Beyond the open door lies a new future.</color>\nObtained from the \"Rondo at Rainbow's End\" event",
 		scene = {}
 	},
+	[320] = {
+		time_limit_type = 0,
+		name = "Seal of the Radiant Court",
+		gain_by = "",
+		id = 320,
+		time_second = 0,
+		desc = "Obtained from a limited event. ",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -407,6 +416,7 @@ pg.item_data_frame = {
 		317,
 		318,
 		319,
+		320,
 		406,
 		411,
 		412,
