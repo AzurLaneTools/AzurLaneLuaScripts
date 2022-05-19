@@ -21065,6 +21065,61 @@ pg.memory_template = {
 		icon = "memory_HONGCAIDEZHONGMUQU2",
 		is_open = 0
 	},
+	[2115] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-德雷克",
+		condition = "对应舰船科研等级达到30级",
+		story = "LUCK29904",
+		id = 2115,
+		icon = "memory_jhdeleike",
+		is_open = 0
+	},
+	[2116] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "庆典",
+		condition = "解锁「意外的旅途」DAY1",
+		story = "YIWAIDEGUITU1",
+		id = 2116,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2117] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "昏沉",
+		condition = "解锁「意外的旅途」DAY3",
+		story = "YIWAIDEGUITU2",
+		id = 2117,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2118] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "泥沼",
+		condition = "解锁「意外的旅途」DAY5",
+		story = "YIWAIDEGUITU3",
+		id = 2118,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2119] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "抉择",
+		condition = "解锁「意外的旅途」DAY6",
+		story = "YIWAIDEGUITU4",
+		id = 2119,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -23608,6 +23663,11 @@ pg.memory_template = {
 		2112,
 		2113,
 		2114,
+		2115,
+		2116,
+		2117,
+		2118,
+		2119,
 		10011,
 		10012,
 		10013,

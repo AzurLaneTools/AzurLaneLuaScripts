@@ -3223,7 +3223,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4325,
-		is_show = 19,
+		is_show = 15,
 		config_data = {},
 		time = {
 			"timer",
@@ -3631,7 +3631,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 20,
+		is_show = 16,
 		config_data = {
 			{
 				17588,
@@ -3709,6 +3709,257 @@ pg.activity_template = {
 				{},
 				{
 					"I56XIAOFU4"
+				}
+			}
+		}
+	},
+	[4337] = {
+		mark = 20220519,
+		id = 4337,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 17,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DrakeTecCatchupPage",
+			ui_name = "DrakeTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42022
+		}
+	},
+	[4338] = {
+		mark = 20220519,
+		config_client = "",
+		title_res_tag = "Wuqitianyun",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 20,
+		id = 4338,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DeLeiKeFittingDisplayPage",
+			ui_name = "DeLeiKeFittingDisplayPage"
+		}
+	},
+	[4339] = {
+		mark = 20220519,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 18,
+		is_show = 0,
+		config_client = "",
+		id = 4339,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4340] = {
+		mark = 20220519,
+		id = 4340,
+		title_res_tag = "yingxiV3_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 4340,
+		is_show = 19,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV3FramePage",
+			ui_name = "YingxiV3FramePage"
+		},
+		config_client = {
+			{
+				{
+					2022,
+					5,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4342] = {
+		mark = 20220519,
+		id = 4342,
+		title_res_tag = "yingxiV3_victory",
+		type = 74,
+		login_pop = 0,
+		config_id = 4342,
+		is_show = 18,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV3VictoryPtPage",
+			ui_name = "YingxiV3VictoryPtPage"
+		},
+		config_client = {
+			story = {
+				{
+					"YIWAIDEGUITU1"
+				},
+				{},
+				{
+					"YIWAIDEGUITU2"
+				},
+				{},
+				{
+					"YIWAIDEGUITU3"
+				},
+				{
+					"YIWAIDEGUITU4"
 				}
 			}
 		}
@@ -6769,6 +7020,11 @@ pg.activity_template = {
 		4334,
 		4335,
 		4336,
+		4337,
+		4338,
+		4339,
+		4340,
+		4342,
 		7001,
 		7002,
 		7003,

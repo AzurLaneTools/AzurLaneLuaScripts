@@ -76,6 +76,10 @@ function slot0.updatePanel(slot0)
 		LoadImageSpriteAsync("activitybanner/" .. slot2.pic, slot0.skinShopBtn)
 	end
 
+	if slot1:getActiveBannerByType(GAMEUI_BANNER_11) ~= nil then
+		LoadImageSpriteAsync("activitybanner/" .. slot3.pic, slot0:findTF("BG", slot0.giftShopBtn))
+	end
+
 	setActive(slot0.monthCardTag, MonthCardOutDateTipPanel.GetShowMonthCardTag())
 	MonthCardOutDateTipPanel.SetMonthCardTagDate()
 	TagTipHelper.SetFuDaiTagMark()

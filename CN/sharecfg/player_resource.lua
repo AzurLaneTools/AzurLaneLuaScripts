@@ -785,6 +785,11 @@ pg.player_resource = {
 		name = "skinTicket32",
 		itemid = 59310
 	},
+	[255] = {
+		id = 255,
+		name = "yingxiur_frame_pt",
+		itemid = 59311
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1437,6 +1442,9 @@ pg.player_resource = {
 		skinTicket32 = {
 			254
 		},
+		yingxiur_frame_pt = {
+			255
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1704,6 +1712,7 @@ pg.player_resource = {
 		252,
 		253,
 		254,
+		255,
 		950,
 		951,
 		952,

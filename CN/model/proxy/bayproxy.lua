@@ -39,24 +39,29 @@ function slot0.register(slot0)
 		uv0:addEnergyListener(uv0.energyRecoverTime - pg.TimeMgr.GetInstance():GetServerTime())
 	end)
 	slot0:on(12010, function (slot0)
-		slot2 = getProxy(PlayerProxy):getInited()
-		slot3 = 0
+		for slot4, slot5 in ipairs(slot0.ship_list) do
+			slot6 = Ship.New(slot5)
 
-		for slot7, slot8 in ipairs(slot0.ship_list) do
-			if Ship.New(slot8):getConfigTable() and slot9.id > 0 then
-				uv0:addShip(slot9, false)
+			slot6:display("loaded")
 
-				if slot2 then
-					slot3 = slot3 + 1
+			uv0.shipHighestLevel = math.max(uv0.shipHighestLevel, slot6.level)
+
+			if slot6:getConfigTable() then
+				uv0.data[slot6.id] = slot6
+
+				if slot6:isActivityNpc() then
+					table.insert(uv0.activityNpcShipIds, slot6.id)
+				elseif slot6:isMetaShip() and not table.contains(uv0.metaShipIDList, slot6.id) then
+					table.insert(uv0.metaShipIDList, slot6.id)
 				end
+
+				uv1.recordShipLevelVertify(slot6)
 			else
-				warning("不存在的角色: " .. slot9.id)
+				warning("不存在的角色: " .. slot6.id)
 			end
 		end
 
-		if slot3 > 0 then
-			uv0:countShip(slot3)
-		end
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end)
 	slot0:on(12042, function (slot0)
 		slot2 = getProxy(PlayerProxy):getInited()

@@ -77,9 +77,6 @@ end
 
 function slot0.addShip(slot0, slot1)
 	slot0.data:addShip(slot1)
-
-	slot2 = slot0:getShipById(slot1)
-
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
@@ -239,10 +236,6 @@ end
 
 function slot0.getRestFood(slot0)
 	return slot0.data.food
-end
-
-function slot0.hasFood(slot0)
-	return slot0.data:isMaxFood() == false and getProxy(BagProxy):getItemCountById(50001) > 0
 end
 
 function slot0.GetCustomThemeTemplates(slot0)

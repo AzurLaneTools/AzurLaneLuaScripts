@@ -333,6 +333,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「此为终结，亦为开端」</color>\n「虹彩的终幕曲」活动获取",
 		scene = {}
 	},
+	[320] = {
+		time_limit_type = 0,
+		name = "泠誓之庭",
+		gain_by = "",
+		id = 320,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -434,6 +443,7 @@ pg.item_data_frame = {
 		317,
 		318,
 		319,
+		320,
 		401,
 		402,
 		404,

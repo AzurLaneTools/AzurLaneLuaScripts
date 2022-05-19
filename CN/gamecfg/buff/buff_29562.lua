@@ -1,40 +1,52 @@
 return {
 	{
-		desc = "主炮每进行8次攻击，触发特殊弹幕-德雷克II"
+		desc = "根据TAG强化"
 	},
 	init_effect = "",
 	name = "特殊弹幕",
 	time = 0,
 	color = "red",
 	picture = "",
-	desc = "主炮每进行8次攻击，触发特殊弹幕-德雷克II",
+	desc = "根据TAG强化",
 	stack = 1,
 	id = 29562,
 	icon = 29560,
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCount",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onFire"
+				"onStartGame"
 			},
 			arg_list = {
-				countTarget = 8,
-				countType = 29560,
-				index = {
-					1
+				buff_id = 29563,
+				maxTargetNumber = 0,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"DrakePowerUp"
 				}
 			}
 		},
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onBattleBuffCount"
+				"onStartGame"
 			},
 			arg_list = {
+				buff_id = 29564,
+				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 29562,
-				countType = 29560
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"DrakePowerUp"
+				}
 			}
 		}
 	}

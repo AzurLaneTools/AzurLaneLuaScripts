@@ -19,10 +19,16 @@ return {
 		{
 			type = "BattleSkillAddBuff",
 			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTag"
+			},
 			arg_list = {
-				buff_id = 2192
+				buff_id = 2192,
+				ship_tag_list = {
+					"danyaokuifa"
+				}
 			}
 		}
 	}

@@ -48363,6 +48363,40 @@ _G.pg.base.ship_skin_words[801071] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[801072] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	couple_encourage = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	propose = "",
+	skill = "",
+	drop_descrip = "",
+	mail = "",
+	touch = "",
+	voice_key_2 = -1,
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	feeling5 = "",
+	main = "",
+	unlock = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	battle = "",
+	login = "",
+	hp_warning = "",
+	id = 801072,
+	vote = "",
+	detail = ""
+}
+
 _G.pg.base.ship_skin_words[801080] = {
 	feeling1 = "一起成为能独当一面的人吧！我要做能独当一面的护教骑士，指挥官也要做能独当一面的指挥官才行！",
 	feeling3 = "指挥官，如果战斗前觉得不安，只要这样做就好——一起握着手，“自由鸢尾庇佑”…嗯！",
