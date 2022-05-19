@@ -333,6 +333,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>開かれし扉の先は、新しい希望の未来</color>――「瑠璃の特異点」イベントで入手可能",
 		scene = {}
 	},
+	[320] = {
+		time_limit_type = 0,
+		name = "誠閃の庭",
+		gain_by = "",
+		id = 320,
+		time_second = 0,
+		desc = "限定海域イベントをクリアで入手",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -434,6 +443,7 @@ pg.item_data_frame = {
 		317,
 		318,
 		319,
+		320,
 		401,
 		402,
 		403,

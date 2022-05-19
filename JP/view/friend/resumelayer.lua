@@ -22,6 +22,11 @@ function slot0.init(slot0)
 	slot0.resumeMedalTpl = slot0:findTF("frame/window/medal_tpl")
 	slot0.closeBtn = slot0:findTF("frame/window/title_bg/close_btn")
 	slot0.circle = slot0:findTF("frame/window/info/circle/head/frame")
+	slot0.titleText = slot0:findTF("frame/title/label_cn/text")
+
+	if i18n("friend_resume_title_detail") then
+		setText(slot0.titleText, slot1)
+	end
 end
 
 function slot0.didEnter(slot0)

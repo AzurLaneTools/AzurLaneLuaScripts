@@ -1,4 +1,5 @@
 slot0 = class("WuQiFittingDisplayPage", import("view.base.BaseActivityPage"))
+slot0.blueprintGroupId = 39904
 
 function slot0.OnInit(slot0)
 	slot0.btnClick = slot0._tf:Find("bg/click_area")
@@ -11,7 +12,7 @@ function slot0.OnFirstFlush(slot0)
 
 	slot1:SetEndEvent(function (slot0)
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SHIPBLUEPRINT, {
-			shipGroupId = 39904
+			shipGroupId = uv0.blueprintGroupId
 		})
 	end)
 	onButton(slot0, slot0.btnClick, function ()

@@ -107,7 +107,8 @@ pg.memory_group = {
 			1733,
 			1734,
 			1735,
-			1798
+			1798,
+			2115
 		}
 	},
 	[99] = {
@@ -2528,6 +2529,19 @@ pg.memory_group = {
 			2114
 		}
 	},
+	[216] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 216,
+		title = "慶弔と帰路",
+		memories = {
+			2116,
+			2117,
+			2118,
+			2119
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3797,6 +3811,7 @@ pg.memory_group = {
 		213,
 		214,
 		215,
+		216,
 		501,
 		502,
 		503,

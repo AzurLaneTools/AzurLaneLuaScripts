@@ -1,22 +1,12 @@
 slot0 = class("MainActLotteryBtn", import(".MainBaseActivityBtn"))
 
-function slot0.InShowTime(slot0)
-	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY)
-	slot0.act = slot1
-
-	return slot1 and not slot1:isEnd()
-end
-
-function slot0.GetImage(slot0)
+function slot0.GetEventName(slot0)
 	return "event_LanternFestival"
 end
 
-function slot0.GetTipImage(slot0)
-	return "tip"
-end
-
 function slot0.OnInit(slot0)
-	slot1 = slot0.act
+	slot1 = getProxy(ActivityProxy)
+	slot1 = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY)
 	slot2 = slot1:getAwardInfos()
 	slot6 = slot0._tf
 
@@ -30,9 +20,9 @@ function slot0.OnInit(slot0)
 	end))
 end
 
-function slot0.OnClick(slot0)
-	if slot0.act then
-		slot0:emit(NewMainMediator.SKIP_LOTTERY, slot0.act.id)
+function slot0.CustomOnClick(slot0)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) then
+		slot0:emit(NewMainMediator.SKIP_LOTTERY, slot1.id)
 	end
 end
 

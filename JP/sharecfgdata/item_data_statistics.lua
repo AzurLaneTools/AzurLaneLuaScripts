@@ -16826,6 +16826,33 @@ _G.pg.base.item_data_statistics[40917] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[40918] = {
+	display = "1",
+	name = "福袋",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai0",
+	id = 40918,
+	display_icon = {
+		{
+			7,
+			801072,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[41001] = {
 	display = "明石からのバレンタインプレゼント",
 	name = "バレンタインプレゼント",
@@ -162923,6 +162950,27 @@ _G.pg.base.item_data_statistics[59310] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59310,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59311] = {
+	display = "「作戦準備・ロイヤル」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_y",
+	id = 59311,
 	display_icon = {},
 	price = {},
 	index = {}

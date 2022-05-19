@@ -47683,6 +47683,40 @@ _G.pg.base.ship_skin_words[801071] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[801072] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	couple_encourage = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	propose = "",
+	skill = "",
+	drop_descrip = "",
+	mail = "",
+	touch = "",
+	voice_key_2 = 0,
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	feeling5 = "",
+	main = "",
+	unlock = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	battle = "",
+	login = "",
+	hp_warning = "",
+	id = 801072,
+	vote = "",
+	detail = ""
+}
+
 _G.pg.base.ship_skin_words[801080] = {
 	feeling1 = "一緒に一人前になろうね！わたしは護教騎士として、指揮官殿は指揮官として！",
 	feeling3 = "指揮官殿、戦う前に不安を感じたらこうすれば大丈夫！一緒に手を握って、「アイリスの加護がありますように」…うん！",

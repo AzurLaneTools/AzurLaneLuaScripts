@@ -205,10 +205,17 @@ function slot0.ShipAddFollower(slot0, slot1)
 		end)
 	end
 
-	for slot7, slot8 in ipairs(slot1:GetAroundPositions()) do
-		if slot3(slot8) and slot9:CanFollower(slot1) then
-			slot0:RemoveItemAndRefresh(slot9)
-			slot9:GetInteractionSlot():Occupy(slot9, slot1, slot0)
+	function slot4()
+		if uv0:GetInterActionData() ~= nil then
+			slot0:Stop()
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot1:GetAroundPositions()) do
+		if slot3(slot9) and slot10:CanFollower(slot1) then
+			slot4()
+			slot0:RemoveItemAndRefresh(slot10)
+			slot10:GetInteractionSlot():Occupy(slot10, slot1, slot0)
 
 			return true
 		end

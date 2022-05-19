@@ -206,12 +206,16 @@ function slot0.getBannerDisplays(slot0)
 	return _(pg.activity_banner.all):chain():map(function (slot0)
 		return pg.activity_banner[slot0]
 	end):filter(function (slot0)
-		return pg.TimeMgr.GetInstance():inTime(slot0.time) and slot0.type ~= GAMEUI_BANNER_9 and slot0.type ~= GAMEUI_BANNER_10
+		return pg.TimeMgr.GetInstance():inTime(slot0.time) and slot0.type ~= GAMEUI_BANNER_9 and slot0.type ~= GAMEUI_BANNER_11 and slot0.type ~= GAMEUI_BANNER_10
 	end):value()
 end
 
 function slot0.getActiveBannerByType(slot0, slot1)
-	for slot6, slot7 in ipairs(pg.activity_banner.get_id_list_by_type[slot1]) do
+	if not pg.activity_banner.get_id_list_by_type[slot1] then
+		return nil
+	end
+
+	for slot6, slot7 in ipairs(slot2) do
 		if pg.TimeMgr.GetInstance():inTime(pg.activity_banner[slot7].time) then
 			return slot8
 		end

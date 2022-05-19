@@ -2,6 +2,7 @@ slot0 = class("NewBackYardShipInfoMediator", import("...base.ContextMediator"))
 slot0.EXTEND = "NewBackYardShipInfoMediator:EXTEND"
 slot0.OPEN_CHUANWU = "NewBackYardShipInfoMediator:OPEN_CHUANWU"
 slot0.UPDATE_SHIPS = "NewBackYardShipInfoMediator:UPDATE_SHIPS"
+slot0.LOOG_PRESS_SHIP = "NewBackYardShipInfoMediator:LOOG_PRESS_SHIP"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.EXTEND, function (slot0, slot1)
@@ -10,7 +11,16 @@ function slot0.register(slot0)
 			id = slot1
 		})
 	end)
+	slot0:bind(uv0.LOOG_PRESS_SHIP, function (slot0, slot1, slot2)
+		uv0.contextData.type = slot1
+
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			shipId = slot2.id
+		})
+	end)
 	slot0:bind(uv0.OPEN_CHUANWU, function (slot0, slot1, slot2)
+		uv0.contextData.type = slot1
+
 		uv0:OnSelShips(slot1, slot2)
 	end)
 end
