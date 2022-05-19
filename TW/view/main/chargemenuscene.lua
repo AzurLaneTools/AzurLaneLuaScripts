@@ -43,6 +43,26 @@ function slot0.findUI(slot0)
 	slot0.supplyShopBtn = slot0:findTF("supply_shop", slot0.menuTF)
 	slot0.monthCardTag = slot0:findTF("monthcard_tag", slot0.diamondShopBtn)
 	slot0.giftTag = slot0:findTF("tip", slot0.giftShopBtn)
+
+	if PLATFORM_CODE == PLATFORM_US then
+		setActive(slot0:findTF("BG", slot0.skinShopBtn), false)
+
+		slot2 = slot0:findTF("Title", slot0.skinShopBtn)
+
+		setLocalPosition(slot2, {
+			x = -5,
+			y = -218
+		})
+		GetComponent(slot2, typeof(Image)):SetNativeSize()
+
+		slot4 = slot0:findTF("Title", slot0.giftShopBtn)
+
+		setAnchoredPosition(slot4, {
+			x = 155.3,
+			y = -59
+		})
+		GetComponent(slot4, typeof(Image)):SetNativeSize()
+	end
 end
 
 function slot0.addListener(slot0)

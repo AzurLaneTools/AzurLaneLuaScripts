@@ -58,13 +58,39 @@ pg.activity_link_button = {
 	[30] = {
 		param = "0",
 		name = "event_boss",
-		time = "stop",
-		text_pic = "text_event_boss",
 		type = 0,
-		pic = "event_boss",
+		text_pic = "",
 		id = 30,
 		group_id = 4,
-		order = 1
+		pic = "event_boss",
+		order = 1,
+		time = {
+			timer,
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[40] = {
 		param = "0",
