@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "虽然演出还没开始，不过现在的前戏就已经让我破有兴致了。",
+			say = "虽然演出还没开始，不过现在的前戏就已经让我颇有兴致了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除了公海舰队，就连通主动提供救援的皇家舰队与附近的斯卡帕湾锚地都因受到牵连而遭受了毁灭性打击。",
+			say = "除了公海舰队，就同主动提供救援的皇家舰队与附近的斯卡帕湾锚地都因受到牵连而遭受了毁灭性打击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

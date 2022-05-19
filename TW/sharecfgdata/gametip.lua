@@ -1,840 +1,840 @@
-_G.pg.gametip.ad_0 = {
+_G.pg.base.gametip.ad_0 = {
 	tip = ""
 }
 
-_G.pg.gametip.ad_1 = {
+_G.pg.base.gametip.ad_1 = {
 	tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material>建造獲得<icon name=shiptype2 w=0.8 h=0.8/><material=underline c =#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.ad_2 = {
+_G.pg.base.gametip.ad_2 = {
 	tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material>出擊獲得<icon name=shiptype2 w=0.8 h=0.8/><material=underline c =#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.ad_3 = {
+_G.pg.base.gametip.ad_3 = {
 	tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material>獲得角色<icon name=shiptype2 w=0.8 h=0.8/><material=underline c =#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
-_G.pg.gametip.word_back = {
+_G.pg.base.gametip.word_back = {
 	tip = "返回"
 }
 
-_G.pg.gametip.word_backyardMoney = {
+_G.pg.base.gametip.word_backyardMoney = {
 	tip = "傢俱幣"
 }
 
-_G.pg.gametip.word_cancel = {
+_G.pg.base.gametip.word_cancel = {
 	tip = "取消"
 }
 
-_G.pg.gametip.word_cmdClose = {
+_G.pg.base.gametip.word_cmdClose = {
 	tip = "尚未開啟"
 }
 
-_G.pg.gametip.word_delete = {
+_G.pg.base.gametip.word_delete = {
 	tip = "刪除"
 }
 
-_G.pg.gametip.word_dockyard = {
+_G.pg.base.gametip.word_dockyard = {
 	tip = "船塢"
 }
 
-_G.pg.gametip.word_dockyardUpgrade = {
+_G.pg.base.gametip.word_dockyardUpgrade = {
 	tip = "艦船突破"
 }
 
-_G.pg.gametip.word_dockyardDestroy = {
+_G.pg.base.gametip.word_dockyardDestroy = {
 	tip = "艦船退役"
 }
 
-_G.pg.gametip.word_shipInfoScene_equip = {
+_G.pg.base.gametip.word_shipInfoScene_equip = {
 	tip = "艦船裝備"
 }
 
-_G.pg.gametip.word_shipInfoScene_reinfomation = {
+_G.pg.base.gametip.word_shipInfoScene_reinfomation = {
 	tip = "艦船突破"
 }
 
-_G.pg.gametip.word_shipInfoScene_infomation = {
+_G.pg.base.gametip.word_shipInfoScene_infomation = {
 	tip = "艦船詳情"
 }
 
-_G.pg.gametip.word_editFleet = {
+_G.pg.base.gametip.word_editFleet = {
 	tip = "調整編隊"
 }
 
-_G.pg.gametip.word_exp = {
+_G.pg.base.gametip.word_exp = {
 	tip = "EXP"
 }
 
-_G.pg.gametip.word_expAdd = {
+_G.pg.base.gametip.word_expAdd = {
 	tip = "EXP+$1"
 }
 
-_G.pg.gametip.word_exp_chinese = {
+_G.pg.base.gametip.word_exp_chinese = {
 	tip = "經驗"
 }
 
-_G.pg.gametip.word_exist = {
+_G.pg.base.gametip.word_exist = {
 	tip = "退出"
 }
 
-_G.pg.gametip.word_equip = {
+_G.pg.base.gametip.word_equip = {
 	tip = "裝備"
 }
 
-_G.pg.gametip.word_equipDestory = {
+_G.pg.base.gametip.word_equipDestory = {
 	tip = "拆解"
 }
 
-_G.pg.gametip.word_food = {
+_G.pg.base.gametip.word_food = {
 	tip = "食物"
 }
 
-_G.pg.gametip.word_get = {
+_G.pg.base.gametip.word_get = {
 	tip = "獲得"
 }
 
-_G.pg.gametip.word_got = {
+_G.pg.base.gametip.word_got = {
 	tip = "已獲得"
 }
 
-_G.pg.gametip.word_not_get = {
+_G.pg.base.gametip.word_not_get = {
 	tip = "未獲得"
 }
 
-_G.pg.gametip.word_next_level = {
+_G.pg.base.gametip.word_next_level = {
 	tip = "下一級"
 }
 
-_G.pg.gametip.word_intimacy = {
+_G.pg.base.gametip.word_intimacy = {
 	tip = "親密度"
 }
 
-_G.pg.gametip.word_is = {
+_G.pg.base.gametip.word_is = {
 	tip = "是"
 }
 
-_G.pg.gametip.word_date = {
+_G.pg.base.gametip.word_date = {
 	tip = "天"
 }
 
-_G.pg.gametip.word_hour = {
+_G.pg.base.gametip.word_hour = {
 	tip = "小時"
 }
 
-_G.pg.gametip.word_minute = {
+_G.pg.base.gametip.word_minute = {
 	tip = "分"
 }
 
-_G.pg.gametip.word_second = {
+_G.pg.base.gametip.word_second = {
 	tip = "秒"
 }
 
-_G.pg.gametip.word_lv = {
+_G.pg.base.gametip.word_lv = {
 	tip = "等級"
 }
 
-_G.pg.gametip.word_proficiency = {
+_G.pg.base.gametip.word_proficiency = {
 	tip = "熟練度"
 }
 
-_G.pg.gametip.word_material = {
+_G.pg.base.gametip.word_material = {
 	tip = "材料"
 }
 
-_G.pg.gametip.word_notExist = {
+_G.pg.base.gametip.word_notExist = {
 	tip = "不存在"
 }
 
-_G.pg.gametip.word_ok = {
+_G.pg.base.gametip.word_ok = {
 	tip = "確定"
 }
 
-_G.pg.gametip.word_preview = {
+_G.pg.base.gametip.word_preview = {
 	tip = "預覽"
 }
 
-_G.pg.gametip.word_rarity = {
+_G.pg.base.gametip.word_rarity = {
 	tip = "稀有度"
 }
 
-_G.pg.gametip.word_speedUp = {
+_G.pg.base.gametip.word_speedUp = {
 	tip = "加速"
 }
 
-_G.pg.gametip.word_succeed = {
+_G.pg.base.gametip.word_succeed = {
 	tip = "成功"
 }
 
-_G.pg.gametip.word_start = {
+_G.pg.base.gametip.word_start = {
 	tip = "開始"
 }
 
-_G.pg.gametip.word_kiss = {
+_G.pg.base.gametip.word_kiss = {
 	tip = "啾啾"
 }
 
-_G.pg.gametip.word_take = {
+_G.pg.base.gametip.word_take = {
 	tip = "領取"
 }
 
-_G.pg.gametip.word_takeOk = {
+_G.pg.base.gametip.word_takeOk = {
 	tip = "領取成功"
 }
 
-_G.pg.gametip.word_many = {
+_G.pg.base.gametip.word_many = {
 	tip = "較多"
 }
 
-_G.pg.gametip.word_normal_2 = {
+_G.pg.base.gametip.word_normal_2 = {
 	tip = "一般"
 }
 
-_G.pg.gametip.word_simple = {
+_G.pg.base.gametip.word_simple = {
 	tip = "稀有"
 }
 
-_G.pg.gametip.word_save = {
+_G.pg.base.gametip.word_save = {
 	tip = "保存"
 }
 
-_G.pg.gametip.word_levelup = {
+_G.pg.base.gametip.word_levelup = {
 	tip = "升級"
 }
 
-_G.pg.gametip.word_serverLoadVindicate = {
+_G.pg.base.gametip.word_serverLoadVindicate = {
 	tip = "<color=#656565FF>維護</color>"
 }
 
-_G.pg.gametip.word_serverLoadNormal = {
+_G.pg.base.gametip.word_serverLoadNormal = {
 	tip = "<material=outline c=#252525FF x=1 y=-1><color=#A9F548FF>正常</color></material>"
 }
 
-_G.pg.gametip.word_serverLoadFull = {
+_G.pg.base.gametip.word_serverLoadFull = {
 	tip = "<color=#C41717FF>已滿</color>"
 }
 
-_G.pg.gametip.word_registerFull = {
+_G.pg.base.gametip.word_registerFull = {
 	tip = "<color=#C41717FF>爆滿</color>"
 }
 
-_G.pg.gametip.word_synthesize = {
+_G.pg.base.gametip.word_synthesize = {
 	tip = "綜合"
 }
 
-_G.pg.gametip.word_synthesize_power = {
+_G.pg.base.gametip.word_synthesize_power = {
 	tip = "綜合性能"
 }
 
-_G.pg.gametip.word_achieved_item = {
+_G.pg.base.gametip.word_achieved_item = {
 	tip = "入手時間"
 }
 
-_G.pg.gametip.word_formation = {
+_G.pg.base.gametip.word_formation = {
 	tip = "上陣"
 }
 
-_G.pg.gametip.word_teach = {
+_G.pg.base.gametip.word_teach = {
 	tip = "授課"
 }
 
-_G.pg.gametip.word_study = {
+_G.pg.base.gametip.word_study = {
 	tip = "學習"
 }
 
-_G.pg.gametip.word_destroy = {
+_G.pg.base.gametip.word_destroy = {
 	tip = "退役"
 }
 
-_G.pg.gametip.word_upgrade = {
+_G.pg.base.gametip.word_upgrade = {
 	tip = "突破"
 }
 
-_G.pg.gametip.word_train = {
+_G.pg.base.gametip.word_train = {
 	tip = "休息"
 }
 
-_G.pg.gametip.word_rest = {
+_G.pg.base.gametip.word_rest = {
 	tip = "休息"
 }
 
-_G.pg.gametip.word_capacity = {
+_G.pg.base.gametip.word_capacity = {
 	tip = "庫存:"
 }
 
-_G.pg.gametip.word_operation = {
+_G.pg.base.gametip.word_operation = {
 	tip = "參與行動"
 }
 
-_G.pg.gametip.word_intensify_phase = {
+_G.pg.base.gametip.word_intensify_phase = {
 	tip = "強化階段"
 }
 
-_G.pg.gametip.word_systemClose = {
+_G.pg.base.gametip.word_systemClose = {
 	tip = "指揮官，這個功能暫不開放喲！~"
 }
 
-_G.pg.gametip.word_attr_antisub = {
+_G.pg.base.gametip.word_attr_antisub = {
 	tip = "反潛"
 }
 
-_G.pg.gametip.word_attr_cannon = {
+_G.pg.base.gametip.word_attr_cannon = {
 	tip = "炮擊"
 }
 
-_G.pg.gametip.word_attr_torpedo = {
+_G.pg.base.gametip.word_attr_torpedo = {
 	tip = "雷擊"
 }
 
-_G.pg.gametip.word_attr_antiaircraft = {
+_G.pg.base.gametip.word_attr_antiaircraft = {
 	tip = "防空"
 }
 
-_G.pg.gametip.word_attr_air = {
+_G.pg.base.gametip.word_attr_air = {
 	tip = "航空"
 }
 
-_G.pg.gametip.word_attr_durability = {
+_G.pg.base.gametip.word_attr_durability = {
 	tip = "耐久"
 }
 
-_G.pg.gametip.word_attr_armor = {
+_G.pg.base.gametip.word_attr_armor = {
 	tip = "裝甲"
 }
 
-_G.pg.gametip.word_attr_reload = {
+_G.pg.base.gametip.word_attr_reload = {
 	tip = "裝填"
 }
 
-_G.pg.gametip.word_attr_speed = {
+_G.pg.base.gametip.word_attr_speed = {
 	tip = "航速"
 }
 
-_G.pg.gametip.word_attr_luck = {
+_G.pg.base.gametip.word_attr_luck = {
 	tip = "消耗"
 }
 
-_G.pg.gametip.word_attr_range = {
+_G.pg.base.gametip.word_attr_range = {
 	tip = "射程"
 }
 
-_G.pg.gametip.word_attr_range_view = {
+_G.pg.base.gametip.word_attr_range_view = {
 	tip = "射程"
 }
 
-_G.pg.gametip.word_attr_hit = {
+_G.pg.base.gametip.word_attr_hit = {
 	tip = "命中"
 }
 
-_G.pg.gametip.word_attr_dodge = {
+_G.pg.base.gametip.word_attr_dodge = {
 	tip = "機動"
 }
 
-_G.pg.gametip.word_attr_luck1 = {
+_G.pg.base.gametip.word_attr_luck1 = {
 	tip = "幸運"
 }
 
-_G.pg.gametip.word_attr_damage = {
+_G.pg.base.gametip.word_attr_damage = {
 	tip = "傷害"
 }
 
-_G.pg.gametip.word_attr_healthy = {
+_G.pg.base.gametip.word_attr_healthy = {
 	tip = "治療"
 }
 
-_G.pg.gametip.word_attr_cd = {
+_G.pg.base.gametip.word_attr_cd = {
 	tip = "射速"
 }
 
-_G.pg.gametip.word_attr_speciality = {
+_G.pg.base.gametip.word_attr_speciality = {
 	tip = "特性"
 }
 
-_G.pg.gametip.word_attr_level = {
+_G.pg.base.gametip.word_attr_level = {
 	tip = "等級上限"
 }
 
-_G.pg.gametip.word_shipState_npc = {
+_G.pg.base.gametip.word_shipState_npc = {
 	tip = "NPC角色無法加入當前編隊！"
 }
 
-_G.pg.gametip.word_shipState_fight = {
+_G.pg.base.gametip.word_shipState_fight = {
 	tip = "該角色正在作戰中！"
 }
 
-_G.pg.gametip.word_shipState_world = {
+_G.pg.base.gametip.word_shipState_world = {
 	tip = "該角色正在大型作戰中"
 }
 
-_G.pg.gametip.word_shipState_rest = {
+_G.pg.base.gametip.word_shipState_rest = {
 	tip = "該角色正在後宅中喲~"
 }
 
-_G.pg.gametip.word_shipState_study = {
+_G.pg.base.gametip.word_shipState_study = {
 	tip = "該角色正在認真上課喲~"
 }
 
-_G.pg.gametip.word_shipState_tactics = {
+_G.pg.base.gametip.word_shipState_tactics = {
 	tip = "該角色正在認真上課喲~"
 }
 
-_G.pg.gametip.word_shipState_collect = {
+_G.pg.base.gametip.word_shipState_collect = {
 	tip = "該角色在很遠的地方進行委託任務喲~"
 }
 
-_G.pg.gametip.word_shipState_event = {
+_G.pg.base.gametip.word_shipState_event = {
 	tip = "該角色在執行特殊任務喲~"
 }
 
-_G.pg.gametip.word_shipState_activity = {
+_G.pg.base.gametip.word_shipState_activity = {
 	tip = "该角色在特殊作战编队中哦~"
 }
 
-_G.pg.gametip.word_shipState_sham = {
+_G.pg.base.gametip.word_shipState_sham = {
 	tip = "該角色正在「模擬戰」作戰哦~"
 }
 
-_G.pg.gametip.word_shipType_quZhu = {
+_G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "驅逐"
 }
 
-_G.pg.gametip.word_shipType_qinXun = {
+_G.pg.base.gametip.word_shipType_qinXun = {
 	tip = "輕巡"
 }
 
-_G.pg.gametip.word_shipType_zhongXun = {
+_G.pg.base.gametip.word_shipType_zhongXun = {
 	tip = "重巡"
 }
 
-_G.pg.gametip.word_shipType_zhanLie = {
+_G.pg.base.gametip.word_shipType_zhanLie = {
 	tip = "戰列"
 }
 
-_G.pg.gametip.word_shipType_hangMu = {
+_G.pg.base.gametip.word_shipType_hangMu = {
 	tip = "航母"
 }
 
-_G.pg.gametip.word_shipType_weiXiu = {
+_G.pg.base.gametip.word_shipType_weiXiu = {
 	tip = "維修"
 }
 
-_G.pg.gametip.word_shipType_other = {
+_G.pg.base.gametip.word_shipType_other = {
 	tip = "其他"
 }
 
-_G.pg.gametip.word_shipType_all = {
+_G.pg.base.gametip.word_shipType_all = {
 	tip = "全艦種"
 }
 
-_G.pg.gametip.word_gem = {
+_G.pg.base.gametip.word_gem = {
 	tip = "鑽石"
 }
 
-_G.pg.gametip.word_freeGem = {
+_G.pg.base.gametip.word_freeGem = {
 	tip = "鑽石"
 }
 
-_G.pg.gametip.word_gem_icon = {
+_G.pg.base.gametip.word_gem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.word_freeGem_icon = {
+_G.pg.base.gametip.word_freeGem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
 
-_G.pg.gametip.word_exploit = {
+_G.pg.base.gametip.word_exploit = {
 	tip = "功勳"
 }
 
-_G.pg.gametip.word_rankScore = {
+_G.pg.base.gametip.word_rankScore = {
 	tip = "積分"
 }
 
-_G.pg.gametip.word_battery = {
+_G.pg.base.gametip.word_battery = {
 	tip = "nico硬幣"
 }
 
-_G.pg.gametip.word_oil = {
+_G.pg.base.gametip.word_oil = {
 	tip = "石油"
 }
 
-_G.pg.gametip.word_gold = {
+_G.pg.base.gametip.word_gold = {
 	tip = "物資"
 }
 
-_G.pg.gametip.word_oilField = {
+_G.pg.base.gametip.word_oilField = {
 	tip = "油田"
 }
 
-_G.pg.gametip.word_goldField = {
+_G.pg.base.gametip.word_goldField = {
 	tip = "物資港"
 }
 
-_G.pg.gametip.word_ema = {
+_G.pg.base.gametip.word_ema = {
 	tip = "繪馬"
 }
 
-_G.pg.gametip.word_ema1 = {
+_G.pg.base.gametip.word_ema1 = {
 	tip = "繪馬"
 }
 
-_G.pg.gametip.word_pt = {
+_G.pg.base.gametip.word_pt = {
 	tip = "pt"
 }
 
-_G.pg.gametip.word_omamori = {
+_G.pg.base.gametip.word_omamori = {
 	tip = "櫻之御守"
 }
 
-_G.pg.gametip.word_yisegefuke_pt = {
+_G.pg.base.gametip.word_yisegefuke_pt = {
 	tip = "pt"
 }
 
-_G.pg.gametip.word_faxipt = {
+_G.pg.base.gametip.word_faxipt = {
 	tip = "愛麗絲之徽"
 }
 
-_G.pg.gametip.word_count_2 = {
+_G.pg.base.gametip.word_count_2 = {
 	tip = "<color=$1>$2個</color>"
 }
 
-_G.pg.gametip.word_clear = {
+_G.pg.base.gametip.word_clear = {
 	tip = "清理"
 }
 
-_G.pg.gametip.word_buy = {
+_G.pg.base.gametip.word_buy = {
 	tip = "購買"
 }
 
-_G.pg.gametip.word_happy = {
+_G.pg.base.gametip.word_happy = {
 	tip = "<color=#4FFF00>開心</color>"
 }
 
-_G.pg.gametip.word_normal = {
+_G.pg.base.gametip.word_normal = {
 	tip = "<color=#46F200>平常</color>"
 }
 
-_G.pg.gametip.word_tired = {
+_G.pg.base.gametip.word_tired = {
 	tip = "<color=#FCD400>疲憊</color>"
 }
 
-_G.pg.gametip.word_angry = {
+_G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>生氣</color>"
 }
 
-_G.pg.gametip.word_secondseach = {
+_G.pg.base.gametip.word_secondseach = {
 	tip = "/輪"
 }
 
-_G.pg.gametip.word_max_page = {
+_G.pg.base.gametip.word_max_page = {
 	tip = "最大頁"
 }
 
-_G.pg.gametip.word_least_page = {
+_G.pg.base.gametip.word_least_page = {
 	tip = "最小頁"
 }
 
-_G.pg.gametip.word_week = {
+_G.pg.base.gametip.word_week = {
 	tip = "週"
 }
 
-_G.pg.gametip.word_day = {
+_G.pg.base.gametip.word_day = {
 	tip = "日"
 }
 
-_G.pg.gametip.word_use = {
+_G.pg.base.gametip.word_use = {
 	tip = "使用"
 }
 
-_G.pg.gametip.word_use_batch = {
+_G.pg.base.gametip.word_use_batch = {
 	tip = "使用$1個"
 }
 
-_G.pg.gametip.word_discount = {
+_G.pg.base.gametip.word_discount = {
 	tip = "折"
 }
 
-_G.pg.gametip.word_threaten_exclude = {
+_G.pg.base.gametip.word_threaten_exclude = {
 	tip = "威脅排除"
 }
 
-_G.pg.gametip.word_threaten = {
+_G.pg.base.gametip.word_threaten = {
 	tip = "威脅"
 }
 
-_G.pg.gametip.word_comingSoon = {
+_G.pg.base.gametip.word_comingSoon = {
 	tip = "敬請期待"
 }
 
-_G.pg.gametip.word_lightArmor = {
+_G.pg.base.gametip.word_lightArmor = {
 	tip = "輕型裝甲"
 }
 
-_G.pg.gametip.word_mediumArmor = {
+_G.pg.base.gametip.word_mediumArmor = {
 	tip = "中型裝甲"
 }
 
-_G.pg.gametip.word_heavyarmor = {
+_G.pg.base.gametip.word_heavyarmor = {
 	tip = "重型裝甲"
 }
 
-_G.pg.gametip.word_level_upperLimit = {
+_G.pg.base.gametip.word_level_upperLimit = {
 	tip = "等級上限"
 }
 
-_G.pg.gametip.word_level_require = {
+_G.pg.base.gametip.word_level_require = {
 	tip = "等級需求"
 }
 
-_G.pg.gametip.word_materal_no_enough = {
+_G.pg.base.gametip.word_materal_no_enough = {
 	tip = "材料不足"
 }
 
-_G.pg.gametip.word_default = {
+_G.pg.base.gametip.word_default = {
 	tip = "預設"
 }
 
-_G.pg.gametip.word_count = {
+_G.pg.base.gametip.word_count = {
 	tip = "數量"
 }
 
-_G.pg.gametip.word_kind = {
+_G.pg.base.gametip.word_kind = {
 	tip = "種類"
 }
 
-_G.pg.gametip.word_piece = {
+_G.pg.base.gametip.word_piece = {
 	tip = "件"
 }
 
-_G.pg.gametip.word_main_fleet = {
+_G.pg.base.gametip.word_main_fleet = {
 	tip = "主力"
 }
 
-_G.pg.gametip.word_vanguard_fleet = {
+_G.pg.base.gametip.word_vanguard_fleet = {
 	tip = "先鋒"
 }
 
-_G.pg.gametip.word_theme = {
+_G.pg.base.gametip.word_theme = {
 	tip = "主題"
 }
 
-_G.pg.gametip.word_recommend = {
+_G.pg.base.gametip.word_recommend = {
 	tip = "推薦"
 }
 
-_G.pg.gametip.word_wallpaper = {
+_G.pg.base.gametip.word_wallpaper = {
 	tip = "壁紙"
 }
 
-_G.pg.gametip.word_furniture = {
+_G.pg.base.gametip.word_furniture = {
 	tip = "傢俱"
 }
 
-_G.pg.gametip.word_decorate = {
+_G.pg.base.gametip.word_decorate = {
 	tip = "裝飾"
 }
 
-_G.pg.gametip.word_special = {
+_G.pg.base.gametip.word_special = {
 	tip = "特殊"
 }
 
-_G.pg.gametip.word_expand = {
+_G.pg.base.gametip.word_expand = {
 	tip = "擴建"
 }
 
-_G.pg.gametip.word_wall = {
+_G.pg.base.gametip.word_wall = {
 	tip = "牆飾"
 }
 
-_G.pg.gametip.word_floorpaper = {
+_G.pg.base.gametip.word_floorpaper = {
 	tip = "地板"
 }
 
-_G.pg.gametip.word_collection = {
+_G.pg.base.gametip.word_collection = {
 	tip = "收藏"
 }
 
-_G.pg.gametip.word_mat = {
+_G.pg.base.gametip.word_mat = {
 	tip = "地毯"
 }
 
-_G.pg.gametip.word_comfort_level = {
+_G.pg.base.gametip.word_comfort_level = {
 	tip = "舒適度"
 }
 
-_G.pg.gametip.word_room = {
+_G.pg.base.gametip.word_room = {
 	tip = "ROOM$1"
 }
 
-_G.pg.gametip.word_equipment_all = {
+_G.pg.base.gametip.word_equipment_all = {
 	tip = "全部"
 }
 
-_G.pg.gametip.word_equipment_cannon = {
+_G.pg.base.gametip.word_equipment_cannon = {
 	tip = "艦炮"
 }
 
-_G.pg.gametip.word_equipment_torpedo = {
+_G.pg.base.gametip.word_equipment_torpedo = {
 	tip = "魚雷"
 }
 
-_G.pg.gametip.word_equipment_aircraft = {
+_G.pg.base.gametip.word_equipment_aircraft = {
 	tip = "艦載機"
 }
 
-_G.pg.gametip.word_equipment_small_cannon = {
+_G.pg.base.gametip.word_equipment_small_cannon = {
 	tip = "小型艦炮"
 }
 
-_G.pg.gametip.word_equipment_medium_cannon = {
+_G.pg.base.gametip.word_equipment_medium_cannon = {
 	tip = "中型艦炮"
 }
 
-_G.pg.gametip.word_equipment_big_cannon = {
+_G.pg.base.gametip.word_equipment_big_cannon = {
 	tip = "大型艦炮"
 }
 
-_G.pg.gametip.word_equipment_warship_torpedo = {
+_G.pg.base.gametip.word_equipment_warship_torpedo = {
 	tip = "水面魚雷"
 }
 
-_G.pg.gametip.word_equipment_submarine_torpedo = {
+_G.pg.base.gametip.word_equipment_submarine_torpedo = {
 	tip = "潛艇魚雷"
 }
 
-_G.pg.gametip.word_equipment_antiaircraft = {
+_G.pg.base.gametip.word_equipment_antiaircraft = {
 	tip = "防空炮"
 }
 
-_G.pg.gametip.word_equipment_fighter = {
+_G.pg.base.gametip.word_equipment_fighter = {
 	tip = "戰鬥機"
 }
 
-_G.pg.gametip.word_equipment_bomber = {
+_G.pg.base.gametip.word_equipment_bomber = {
 	tip = "轟炸機"
 }
 
-_G.pg.gametip.word_equipment_torpedo_bomber = {
+_G.pg.base.gametip.word_equipment_torpedo_bomber = {
 	tip = "魚雷機"
 }
 
-_G.pg.gametip.word_equipment_equip = {
+_G.pg.base.gametip.word_equipment_equip = {
 	tip = "設備"
 }
 
-_G.pg.gametip.word_equipment_type = {
+_G.pg.base.gametip.word_equipment_type = {
 	tip = "類型"
 }
 
-_G.pg.gametip.word_equipment_rarity = {
+_G.pg.base.gametip.word_equipment_rarity = {
 	tip = "稀有度"
 }
 
-_G.pg.gametip.word_equipment_intensify = {
+_G.pg.base.gametip.word_equipment_intensify = {
 	tip = "強化"
 }
 
-_G.pg.gametip.word_equipment_special = {
+_G.pg.base.gametip.word_equipment_special = {
 	tip = "其他"
 }
 
-_G.pg.gametip.word_primary_weapons = {
+_G.pg.base.gametip.word_primary_weapons = {
 	tip = "主武器"
 }
 
-_G.pg.gametip.word_main_cannons = {
+_G.pg.base.gametip.word_main_cannons = {
 	tip = "主炮"
 }
 
-_G.pg.gametip.word_shipboard_aircraft = {
+_G.pg.base.gametip.word_shipboard_aircraft = {
 	tip = "艦載機"
 }
 
-_G.pg.gametip.word_sub_cannons = {
+_G.pg.base.gametip.word_sub_cannons = {
 	tip = "副炮"
 }
 
-_G.pg.gametip.word_sub_weapons = {
+_G.pg.base.gametip.word_sub_weapons = {
 	tip = "副武器"
 }
 
-_G.pg.gametip.word_torpedo = {
+_G.pg.base.gametip.word_torpedo = {
 	tip = "魚雷"
 }
 
-_G.pg.gametip["word_ air_defense_artillery"] = {
+_G.pg.base.gametip["word_ air_defense_artillery"] = {
 	tip = "防空炮"
 }
 
-_G.pg.gametip.word_air_defense_artillery = {
+_G.pg.base.gametip.word_air_defense_artillery = {
 	tip = "防空炮"
 }
 
-_G.pg.gametip.word_device = {
+_G.pg.base.gametip.word_device = {
 	tip = "設備"
 }
 
-_G.pg.gametip.word_cannon = {
+_G.pg.base.gametip.word_cannon = {
 	tip = "艦炮"
 }
 
-_G.pg.gametip.word_fighter = {
+_G.pg.base.gametip.word_fighter = {
 	tip = "戰鬥機"
 }
 
-_G.pg.gametip.word_bomber = {
+_G.pg.base.gametip.word_bomber = {
 	tip = "轟炸機"
 }
 
-_G.pg.gametip.word_attacker = {
+_G.pg.base.gametip.word_attacker = {
 	tip = "魚雷機"
 }
 
-_G.pg.gametip.word_seaplane = {
+_G.pg.base.gametip.word_seaplane = {
 	tip = "水偵"
 }
 
-_G.pg.gametip.word_missile = {
+_G.pg.base.gametip.word_missile = {
 	tip = "導彈"
 }
 
-_G.pg.gametip.word_online = {
+_G.pg.base.gametip.word_online = {
 	tip = "在線"
 }
 
-_G.pg.gametip.word_apply = {
+_G.pg.base.gametip.word_apply = {
 	tip = "申請"
 }
 
-_G.pg.gametip.word_star = {
+_G.pg.base.gametip.word_star = {
 	tip = "星級"
 }
 
-_G.pg.gametip.word_level = {
+_G.pg.base.gametip.word_level = {
 	tip = "等級"
 }
 
-_G.pg.gametip.word_mod_value = {
+_G.pg.base.gametip.word_mod_value = {
 	tip = "強化值"
 }
 
-_G.pg.gametip.word_wait = {
+_G.pg.base.gametip.word_wait = {
 	tip = "等"
 }
 
-_G.pg.gametip.word_consume = {
+_G.pg.base.gametip.word_consume = {
 	tip = "消耗"
 }
 
-_G.pg.gametip.word_sell_out = {
+_G.pg.base.gametip.word_sell_out = {
 	tip = "已售罄"
 }
 
-_G.pg.gametip.word_sell_lock = {
+_G.pg.base.gametip.word_sell_lock = {
 	tip = "未解鎖 "
 }
 
-_G.pg.gametip.word_diamond_tip = {
+_G.pg.base.gametip.word_diamond_tip = {
 	tip = [[
 免費<icon name=diamond w=0.7 h=0.7/>：$1
 
@@ -843,619 +843,619 @@ _G.pg.gametip.word_diamond_tip = {
 合計<icon name=diamond w=0.7 h =0.7/>：$3]]
 }
 
-_G.pg.gametip.word_contribution = {
+_G.pg.base.gametip.word_contribution = {
 	tip = "貢獻"
 }
 
-_G.pg.gametip.word_guild_res = {
+_G.pg.base.gametip.word_guild_res = {
 	tip = "艦隊資源"
 }
 
-_G.pg.gametip.word_fit = {
+_G.pg.base.gametip.word_fit = {
 	tip = "適用"
 }
 
-_G.pg.gametip.word_equipment_skin = {
+_G.pg.base.gametip.word_equipment_skin = {
 	tip = "外觀"
 }
 
-_G.pg.gametip.word_activity = {
+_G.pg.base.gametip.word_activity = {
 	tip = "活動"
 }
 
-_G.pg.gametip.word_urgency_event = {
+_G.pg.base.gametip.word_urgency_event = {
 	tip = "緊急事件"
 }
 
-_G.pg.gametip.word_shop = {
+_G.pg.base.gametip.word_shop = {
 	tip = "商店"
 }
 
-_G.pg.gametip.word_facility = {
+_G.pg.base.gametip.word_facility = {
 	tip = "設施"
 }
 
-_G.pg.gametip.word_cv_key_main = {
+_G.pg.base.gametip.word_cv_key_main = {
 	tip = "主介面"
 }
 
-_G.pg.gametip.channel_name_1 = {
+_G.pg.base.gametip.channel_name_1 = {
 	tip = "全部"
 }
 
-_G.pg.gametip.channel_name_2 = {
+_G.pg.base.gametip.channel_name_2 = {
 	tip = "世界"
 }
 
-_G.pg.gametip.channel_name_3 = {
+_G.pg.base.gametip.channel_name_3 = {
 	tip = "公告"
 }
 
-_G.pg.gametip.channel_name_4 = {
+_G.pg.base.gametip.channel_name_4 = {
 	tip = "戰友"
 }
 
-_G.pg.gametip.channel_name_5 = {
+_G.pg.base.gametip.channel_name_5 = {
 	tip = "艦隊"
 }
 
-_G.pg.gametip.common_wait = {
+_G.pg.base.gametip.common_wait = {
 	tip = "指揮官請稍等一會兒"
 }
 
-_G.pg.gametip.common_ship_type = {
+_G.pg.base.gametip.common_ship_type = {
 	tip = "艦艇類型"
 }
 
-_G.pg.gametip.common_dont_remind_dur_login = {
+_G.pg.base.gametip.common_dont_remind_dur_login = {
 	tip = "本次登入不再提示"
 }
 
-_G.pg.gametip.common_activity_end = {
+_G.pg.base.gametip.common_activity_end = {
 	tip = "該活動<color=#A9F548>已經結束</color>"
 }
 
-_G.pg.gametip.common_activity_notStartOrEnd = {
+_G.pg.base.gametip.common_activity_notStartOrEnd = {
 	tip = "該活動<color=#A9F548>未開始</color>或<color=#A9F548>已經結束</color>"
 }
 
-_G.pg.gametip.common_activity_not_start = {
+_G.pg.base.gametip.common_activity_not_start = {
 	tip = "該活動<color=#A9F548>暫未開放</color>"
 }
 
-_G.pg.gametip.common_error = {
+_G.pg.base.gametip.common_error = {
 	tip = "系統錯誤:"
 }
 
-_G.pg.gametip.common_no_gold = {
+_G.pg.base.gametip.common_no_gold = {
 	tip = "<color=#A9F548>物資</color>不夠啦！"
 }
 
-_G.pg.gametip.common_no_oil = {
+_G.pg.base.gametip.common_no_oil = {
 	tip = "<color=#A9F548>石油</color>不夠啦！"
 }
 
-_G.pg.gametip.common_no_rmb = {
+_G.pg.base.gametip.common_no_rmb = {
 	tip = "<color=#A9F548>鑽石</color>不夠啦！"
 }
 
-_G.pg.gametip.common_count_noenough = {
+_G.pg.base.gametip.common_count_noenough = {
 	tip = "次數不足"
 }
 
-_G.pg.gametip.common_no_dorm_gold = {
+_G.pg.base.gametip.common_no_dorm_gold = {
 	tip = "<color=#A9F548>傢俱幣</color>不夠啦！"
 }
 
-_G.pg.gametip.common_no_resource = {
+_G.pg.base.gametip.common_no_resource = {
 	tip = "資源不夠啦！"
 }
 
-_G.pg.gametip.common_no_item = {
+_G.pg.base.gametip.common_no_item = {
 	tip = "道具<color=#A9F548>[$1]</color>不足"
 }
 
-_G.pg.gametip.common_no_item_1 = {
+_G.pg.base.gametip.common_no_item_1 = {
 	tip = "道具不足"
 }
 
-_G.pg.gametip.common_use_item_sos_max = {
+_G.pg.base.gametip.common_use_item_sos_max = {
 	tip = "信號已滿"
 }
 
-_G.pg.gametip.common_use_item_sos_used = {
+_G.pg.base.gametip.common_use_item_sos_used = {
 	tip = "信號次數+$1"
 }
 
-_G.pg.gametip.common_no_x = {
+_G.pg.base.gametip.common_no_x = {
 	tip = "<color=#A9F548>$1</color>不夠啦！"
 }
 
-_G.pg.gametip.common_limit_cmd = {
+_G.pg.base.gametip.common_limit_cmd = {
 	tip = "指揮官，現在的條件不足以執行這個命令喲~TAT"
 }
 
-_G.pg.gametip.common_limit_type = {
+_G.pg.base.gametip.common_limit_type = {
 	tip = "指揮官，所選擇的類型不能執行此命令喲~TAT"
 }
 
-_G.pg.gametip.common_limit_equip = {
+_G.pg.base.gametip.common_limit_equip = {
 	tip = "裝備類型錯誤"
 }
 
-_G.pg.gametip.common_buy_success = {
+_G.pg.base.gametip.common_buy_success = {
 	tip = "購買成功！"
 }
 
-_G.pg.gametip.common_limit_level = {
+_G.pg.base.gametip.common_limit_level = {
 	tip = "需要指揮官等級:<color=#A9F548>Lv.$1</color>"
 }
 
-_G.pg.gametip.common_shopId_noFound = {
+_G.pg.base.gametip.common_shopId_noFound = {
 	tip = "未找到商品id"
 }
 
-_G.pg.gametip.common_today_buy_limit = {
+_G.pg.base.gametip.common_today_buy_limit = {
 	tip = "今日購買次數上限"
 }
 
-_G.pg.gametip.common_not_enter_room = {
+_G.pg.base.gametip.common_not_enter_room = {
 	tip = "未進入房間"
 }
 
-_G.pg.gametip.common_test_ship = {
+_G.pg.base.gametip.common_test_ship = {
 	tip = "該船是實驗體"
 }
 
-_G.pg.gametip.common_entry_inhibited = {
+_G.pg.base.gametip.common_entry_inhibited = {
 	tip = "禁止登入"
 }
 
-_G.pg.gametip.common_refresh_count_insufficient = {
+_G.pg.base.gametip.common_refresh_count_insufficient = {
 	tip = "重整次數不足"
 }
 
-_G.pg.gametip.common_get_player_info_erro = {
+_G.pg.base.gametip.common_get_player_info_erro = {
 	tip = "獲取玩家訊息錯誤"
 }
 
-_G.pg.gametip.common_no_open = {
+_G.pg.base.gametip.common_no_open = {
 	tip = "尚未開放"
 }
 
-_G.pg.gametip["common_already owned"] = {
+_G.pg.base.gametip["common_already owned"] = {
 	tip = "已擁有"
 }
 
-_G.pg.gametip.common_not_get_ship = {
+_G.pg.base.gametip.common_not_get_ship = {
 	tip = "未獲得角色"
 }
 
-_G.pg.gametip.common_sale_out = {
+_G.pg.base.gametip.common_sale_out = {
 	tip = "已售罄"
 }
 
-_G.pg.gametip.common_skin_out_of_stock = {
+_G.pg.base.gametip.common_skin_out_of_stock = {
 	tip = "未在換裝上架時間內，敬請期待"
 }
 
-_G.pg.gametip.common_go_home = {
+_G.pg.base.gametip.common_go_home = {
 	tip = "是否返回主介面"
 }
 
-_G.pg.gametip.dont_remind_today = {
+_G.pg.base.gametip.dont_remind_today = {
 	tip = "今日不再提示"
 }
 
-_G.pg.gametip.dont_remind_session = {
+_G.pg.base.gametip.dont_remind_session = {
 	tip = "本次登入不再提示"
 }
 
-_G.pg.gametip.battle_no_oil = {
+_G.pg.base.gametip.battle_no_oil = {
 	tip = "嗚……石油用完了~餓得沒辦法戰鬥了……"
 }
 
-_G.pg.gametip.battle_emptyBlock = {
+_G.pg.base.gametip.battle_emptyBlock = {
 	tip = "沒穿這種裝備，只能射出這樣的彈幕了，唔……"
 }
 
-_G.pg.gametip.battle_duel_main_rage = {
+_G.pg.base.gametip.battle_duel_main_rage = {
 	tip = "雙方<color=#A9F548>先鋒全滅</color>，作戰加速。"
 }
 
-_G.pg.gametip.battle_main_emergent = {
+_G.pg.base.gametip.battle_main_emergent = {
 	tip = "<color=#A9F548>$1</color>受到重創，請注意攔截敵軍"
 }
 
-_G.pg.gametip.battle_battleMediator_goOnFight = {
+_G.pg.base.gametip.battle_battleMediator_goOnFight = {
 	tip = "繼續戰鬥"
 }
 
-_G.pg.gametip.battle_battleMediator_existFight = {
+_G.pg.base.gametip.battle_battleMediator_existFight = {
 	tip = "退出戰鬥"
 }
 
-_G.pg.gametip.battle_battleMediator_clear_warning = {
+_G.pg.base.gametip.battle_battleMediator_clear_warning = {
 	tip = "是否要退出挑戰模式？\n退出後將<color=#A9F548>重置挑戰</color>，\n積分結算統計至本關開始前"
 }
 
-_G.pg.gametip.battle_battleMediator_quest_exist = {
+_G.pg.base.gametip.battle_battleMediator_quest_exist = {
 	tip = "現在退出將失去作戰中獲得的\n<color=#A9F548>資源、道具和角色。</color>您確定要退出嗎？"
 }
 
-_G.pg.gametip.battle_levelMediator_ok_takeResource = {
+_G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
 	tip = "資源領取成功"
 }
 
-_G.pg.gametip.battle_result_time_limit = {
+_G.pg.base.gametip.battle_result_time_limit = {
 	tip = "$1秒內全滅敵方艦隊"
 }
 
-_G.pg.gametip.battle_result_sink_limit = {
+_G.pg.base.gametip.battle_result_sink_limit = {
 	tip = "被重創單位數少於$1"
 }
 
-_G.pg.gametip.battle_result_undefeated = {
+_G.pg.base.gametip.battle_result_undefeated = {
 	tip = "全員未被重創"
 }
 
-_G.pg.gametip.battle_result_victory = {
+_G.pg.base.gametip.battle_result_victory = {
 	tip = "取得戰鬥勝利"
 }
 
-_G.pg.gametip.battle_result_defeat_all_enemys = {
+_G.pg.base.gametip.battle_result_defeat_all_enemys = {
 	tip = "擊敗所有的敵方角色"
 }
 
-_G.pg.gametip.battle_result_base_score = {
+_G.pg.base.gametip.battle_result_base_score = {
 	tip = "通關基礎分："
 }
 
-_G.pg.gametip.battle_result_dead_score = {
+_G.pg.base.gametip.battle_result_dead_score = {
 	tip = "我方陣亡*$1："
 }
 
-_G.pg.gametip.battle_result_score = {
+_G.pg.base.gametip.battle_result_score = {
 	tip = "摧毀運輸艦*$1："
 }
 
-_G.pg.gametip.battle_result_score_total = {
+_G.pg.base.gametip.battle_result_score_total = {
 	tip = "總計："
 }
 
-_G.pg.gametip.battle_result_total_damage = {
+_G.pg.base.gametip.battle_result_total_damage = {
 	tip = "累計傷害："
 }
 
-_G.pg.gametip.battle_result_contribution = {
+_G.pg.base.gametip.battle_result_contribution = {
 	tip = "獲得貢獻："
 }
 
-_G.pg.gametip.battle_result_total_score = {
+_G.pg.base.gametip.battle_result_total_score = {
 	tip = "累計得分："
 }
 
-_G.pg.gametip.battle_result_max_combo = {
+_G.pg.base.gametip.battle_result_max_combo = {
 	tip = "最高COMBO："
 }
 
-_G.pg.gametip.battle_levelScene_0Oil = {
+_G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "石油產量為0"
 }
 
-_G.pg.gametip.battle_levelScene_0Gold = {
+_G.pg.base.gametip.battle_levelScene_0Gold = {
 	tip = "物資產量為0"
 }
 
-_G.pg.gametip.battle_levelScene_noRaderCount = {
+_G.pg.base.gametip.battle_levelScene_noRaderCount = {
 	tip = "掃描次數不足"
 }
 
-_G.pg.gametip.battle_levelScene_lock = {
+_G.pg.base.gametip.battle_levelScene_lock = {
 	tip = "目標地圖尚未開放，請通關<color=#92fc63>前置關卡</color>"
 }
 
-_G.pg.gametip.battle_levelScene_lock_1 = {
+_G.pg.base.gametip.battle_levelScene_lock_1 = {
 	tip = "該階段活動副本尚未開放"
 }
 
-_G.pg.gametip.battle_levelScene_hard_lock = {
+_G.pg.base.gametip.battle_levelScene_hard_lock = {
 	tip = "目標地圖對應主線章節未通關，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
 }
 
-_G.pg.gametip.battle_levelScene_close = {
+_G.pg.base.gametip.battle_levelScene_close = {
 	tip = "該階段活動關卡尚未開放"
 }
 
-_G.pg.gametip.battle_levelScene_chapter_lock = {
+_G.pg.base.gametip.battle_levelScene_chapter_lock = {
 	tip = "目標關卡尚未開放，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
 }
 
-_G.pg.gametip.battle_preCombatLayer_changeFormationError = {
+_G.pg.base.gametip.battle_preCombatLayer_changeFormationError = {
 	tip = "試切換陣型出錯，請檢查陣型"
 }
 
-_G.pg.gametip.battle_preCombatLayer_changeFormationNumberError = {
+_G.pg.base.gametip.battle_preCombatLayer_changeFormationNumberError = {
 	tip = "艦隊人數不足,需要<color=#A9F548>$1</color>人才能使用此陣型"
 }
 
-_G.pg.gametip.battle_preCombatLayer_ready = {
+_G.pg.base.gametip.battle_preCombatLayer_ready = {
 	tip = "艦隊準備萬全，隨時可以出擊"
 }
 
-_G.pg.gametip.battle_preCombatLayer_quest_leaveFleet = {
+_G.pg.base.gametip.battle_preCombatLayer_quest_leaveFleet = {
 	tip = "是否要把<color=#A9F548>$1</color>移出編隊？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_clear_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 	tip = "是否確定要清除已經選擇的編隊？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_auto_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
 	tip = "是否確定要清除已經選擇的編隊，使用推薦的配置？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_confirm = {
+_G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
 	tip = "是否保存當前編隊？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_march = {
+_G.pg.base.gametip.battle_preCombatLayer_save_march = {
 	tip = "保存當前編隊並出擊？"
 }
 
-_G.pg.gametip.battle_preCombatLayer_save_success = {
+_G.pg.base.gametip.battle_preCombatLayer_save_success = {
 	tip = "編隊保存成功"
 }
 
-_G.pg.gametip.battle_preCombatLayer_time_limit = {
+_G.pg.base.gametip.battle_preCombatLayer_time_limit = {
 	tip = "$1秒內結束戰鬥"
 }
 
-_G.pg.gametip.battle_preCombatLayer_sink_limit = {
+_G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
 	tip = "己方艦隊被重創數少於$1"
 }
 
-_G.pg.gametip.battle_preCombatLayer_undefeated = {
+_G.pg.base.gametip.battle_preCombatLayer_undefeated = {
 	tip = "己方艦隊全部存活"
 }
 
-_G.pg.gametip.battle_preCombatLayer_victory = {
+_G.pg.base.gametip.battle_preCombatLayer_victory = {
 	tip = "擊破敵方艦隊"
 }
 
-_G.pg.gametip.battle_preCombatLayer_time_hold = {
+_G.pg.base.gametip.battle_preCombatLayer_time_hold = {
 	tip = "堅持$1秒戰鬥結束"
 }
 
-_G.pg.gametip.battle_preCombatLayer_damage_before_end = {
+_G.pg.base.gametip.battle_preCombatLayer_damage_before_end = {
 	tip = "战斗结束前尽可能取得更高伤害"
 }
 
-_G.pg.gametip.battle_preCombatLayer_destory_transport_ship = {
+_G.pg.base.gametip.battle_preCombatLayer_destory_transport_ship = {
 	tip = "至少摧毀$1艘運輸艦"
 }
 
-_G.pg.gametip.battle_preCombatMediator_leastLimit = {
+_G.pg.base.gametip.battle_preCombatMediator_leastLimit = {
 	tip = "無法取消，第一艦隊上必須要有艦船！"
 }
 
-_G.pg.gametip.battle_preCombatMediator_timeout = {
+_G.pg.base.gametip.battle_preCombatMediator_timeout = {
 	tip = "作戰<color=#A9F548>時間用盡</color>，作戰失敗，點擊確定返回選關介面"
 }
 
-_G.pg.gametip.battle_preCombatMediator_activity_timeout = {
+_G.pg.base.gametip.battle_preCombatMediator_activity_timeout = {
 	tip = "活動時間<color=#92fc63>已結束</color>，點擊確定返回選關介面"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_collecTimeDefault = {
+_G.pg.base.gametip.battle_resourceSiteLayer_collecTimeDefault = {
 	tip = "採集時間: <color=#A9F548>--:--:--</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_collecTime = {
+_G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
 	tip = "採集時間: <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_maxLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_maxLv = {
 	tip = "最高等級<color=#A9F548>LV$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_avgLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_avgLv = {
 	tip = "平均等級<color=#A9F548>LV$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_shipTypeCount = {
+_G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
 	tip = "$1X$2"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_maxLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_maxLv = {
 	tip = "最高等級未達到<color=#A9F548>LV$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_avgLv = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_avgLv = {
 	tip = "平均等級未達到<color=#A9F548>LV$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
+_G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
 	tip = "隊伍中缺少<color=#A9F548>$1X$2</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_collecting = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_collecting = {
 	tip = "正在採集"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_not5Ship = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_not5Ship = {
 	tip = "角色不足<color=#A9F548> 5人</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_startError_limit = {
+_G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
 	tip = "未滿足採集要求: <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_endError_notStar = {
+_G.pg.base.gametip.battle_resourceSiteLayer_endError_notStar = {
 	tip = "尚未開始採集"
 }
 
-_G.pg.gametip.battle_resourceSiteLayer_quest_end = {
+_G.pg.base.gametip.battle_resourceSiteLayer_quest_end = {
 	tip = "提前返航將會失去當前資源點，是否繼續?"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_noSite = {
+_G.pg.base.gametip.battle_resourceSiteMediator_noSite = {
 	tip = "資源點不存在"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_fight = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
 	tip = "該角色正在<color=#A9F548>作戰中</color>"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_rest = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_rest = {
 	tip = "該角色還在被窩中休息……"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_study = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_study = {
 	tip = "該角色正在認真上課喲~"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_event = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_event = {
 	tip = "該角色在很遠的地方進行委託任務喲~"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_shipState_same = {
+_G.pg.base.gametip.battle_resourceSiteMediator_shipState_same = {
 	tip = "不能選擇相同的船"
 }
 
-_G.pg.gametip.battle_resourceSiteMediator_ok_end = {
+_G.pg.base.gametip.battle_resourceSiteMediator_ok_end = {
 	tip = "返航成功"
 }
 
-_G.pg.gametip.battle_autobot_unlock = {
+_G.pg.base.gametip.battle_autobot_unlock = {
 	tip = "自律戰鬥功能已開放"
 }
 
-_G.pg.gametip.tips_confirm_teleport_sub = {
+_G.pg.base.gametip.tips_confirm_teleport_sub = {
 	tip = "發布指令：將<color=#92fc63FF>潛艇編隊</color>從<color=#92fc63FF>$1</color>區域調動到<color=#92fc63FF>$2</color>區域，需要移動<color=# 92fc63FF>$3</color>格，消耗<color=#92fc63FF>$4</color>點石油，是否確認？"
 }
 
-_G.pg.gametip.backyard_addExp_Info = {
+_G.pg.base.gametip.backyard_addExp_Info = {
 	tip = "指揮官不在的||<color=#FAFAF7FF>$1</color>||裡得到了充分的休息！||一共消滅了|| <color=#A9F548FF>$2</color>||的食物，獲得了|| <color=#A9F548FF>$3</color>||的經驗~"
 }
 
-_G.pg.gametip.backyard_extendCapacity_error = {
+_G.pg.base.gametip.backyard_extendCapacity_error = {
 	tip = "擴充失敗:"
 }
 
-_G.pg.gametip.backyard_extendCapacity_ok = {
+_G.pg.base.gametip.backyard_extendCapacity_ok = {
 	tip = "存糧上限擴充成功！倉庫容量提升<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.backyard_addShip_error = {
+_G.pg.base.gametip.backyard_addShip_error = {
 	tip = "增加船失敗:"
 }
 
-_G.pg.gametip.backyard_buyFurniture_error = {
+_G.pg.base.gametip.backyard_buyFurniture_error = {
 	tip = "購買傢俱失敗:"
 }
 
-_G.pg.gametip.backyard_extendBackYard_error = {
+_G.pg.base.gametip.backyard_extendBackYard_error = {
 	tip = "擴充角色欄位失敗:"
 }
 
-_G.pg.gametip.backyard_addFood_error = {
+_G.pg.base.gametip.backyard_addFood_error = {
 	tip = "增加食物失敗:"
 }
 
-_G.pg.gametip.backyard_addFood_ok = {
+_G.pg.base.gametip.backyard_addFood_ok = {
 	tip = "補充成功，存糧<color=#A9F548>+$1</color>"
 }
 
-_G.pg.gametip.backyard_putFurniture_ok = {
+_G.pg.base.gametip.backyard_putFurniture_ok = {
 	tip = "儲存成功"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodCountLimit = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodCountLimit = {
 	tip = "食物數量不足"
 }
 
-_G.pg.gametip.backyard_shipAddInimacy_ok = {
+_G.pg.base.gametip.backyard_shipAddInimacy_ok = {
 	tip = "<color=#A9F548>$1</color>親密度<color=#A9F548>提高</color>"
 }
 
-_G.pg.gametip.backyard_shipAddInimacy_error = {
+_G.pg.base.gametip.backyard_shipAddInimacy_error = {
 	tip = "增加親密度失敗:"
 }
 
-_G.pg.gametip.backyard_shipAddMoney_ok = {
+_G.pg.base.gametip.backyard_shipAddMoney_ok = {
 	tip = "<color=#A9F548>$1</color>有了意外的發現，傢俱幣<color=#A9F548>+$2</color>"
 }
 
-_G.pg.gametip.backyard_shipAddMoney_error = {
+_G.pg.base.gametip.backyard_shipAddMoney_error = {
 	tip = "獲得物資失敗:"
 }
 
-_G.pg.gametip.backyard_shipExit_error = {
+_G.pg.base.gametip.backyard_shipExit_error = {
 	tip = "離開後宅失敗:"
 }
 
-_G.pg.gametip.backyard_shipSpeedUpEnergy_error = {
+_G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
 	tip = "加速失敗"
 }
 
-_G.pg.gametip.backyard_shipAlreadyExit = {
+_G.pg.base.gametip.backyard_shipAlreadyExit = {
 	tip = "該船已經離開"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_full = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
 	tip = "<color=red>補充失敗，存糧已滿</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_buyCountLimit = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_buyCountLimit = {
 	tip = "最多只能購買<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_error_noResource = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_error_noResource = {
 	tip = "購買失敗，<color=#A9F548>$1</color>不足"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noFood = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
 	tip = "指揮官~家裡已經沒有東西吃了~大家都餓趴下了"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noTimer = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noTimer = {
 	tip = "<color=#A9F548>增加食物</color>可讓大家回復疲勞和獲得經驗哦"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_word = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 	tip = "這個，還有那個，看起來都很好吃……"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_noShip = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
 	tip = "後宅還沒有增加休息的角色,<color=#A9F548>食物將不會消耗</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
 	tip = "食物大概會在"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 	tip = "後被吃光光呢~快加餐~~"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
 	tip = "存糧上限：<color=#A9F548>$1</color>提升到<color=#A9F548>$2</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_error_entendFail = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_error_entendFail = {
 	tip = "<color=#A9F548>擴充失敗,資源不足</color>"
 }
 
-_G.pg.gametip.backyard_backyardGranaryLayer_buy_max_count = {
+_G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 	tip = "存糧條<color=#A9F548>已達上限</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent1 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
 	tip = "<size=30>當前各類傢俱計入舒適度的數量：\n牆紙:<color=#92fc63>$1</color>/地板:<color=#92fc63>$4</color>/傢俱:<color=#92fc63>$2</color>/裝飾:<color=#92fc63>$3</color>/地墊:<color=#92fc63>$5</color>/牆飾:<color=#92fc63>$6</color>/收藏:<color=#92fc63>$7</color>\n</size>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent2 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
 	tip = [[
 <size=45>$1</size>
 當前經驗收益<color=#92fc63>+$2%</color><size=30>
@@ -1465,319 +1465,319 @@ _G.pg.gametip.backyard_backyardScene_comforChatContent2 = {
 </size>]]
 }
 
-_G.pg.gametip.backyard_buyExtendItem_question = {
+_G.pg.base.gametip.backyard_buyExtendItem_question = {
 	tip = "將花費<color=#A9F548>$1</color>,是否繼續？"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent1_1 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent1_1 = {
 	tip = "<color=#CC0000>艱苦</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent2_2 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent2_2 = {
 	tip = "<color=#FFBB11>普通</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_comforChatContent3_3 = {
+_G.pg.base.gametip.backyard_backyardScene_comforChatContent3_3 = {
 	tip = "<color=#00EEFF>舒適</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_quest_clearButton = {
+_G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
 	tip = "是否<color=#A9F548>清空</color>當前佈置"
 }
 
-_G.pg.gametip.backyard_backyardScene_quest_saveFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
 	tip = "是否<color=#A9F548>保存</color>當前設置"
 }
 
-_G.pg.gametip.backyard_backyardScene_restSuccess = {
+_G.pg.base.gametip.backyard_backyardScene_restSuccess = {
 	tip = "<color=#A9F548>還原成功</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_clearSuccess = {
+_G.pg.base.gametip.backyard_backyardScene_clearSuccess = {
 	tip = "<color=#A9F548>清空成功</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_name = {
+_G.pg.base.gametip.backyard_backyardScene_name = {
 	tip = "<color=#A9F548>$1的後宅</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
+_G.pg.base.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
 	tip = "疲勞恢復完成，從後宅離開"
 }
 
-_G.pg.gametip.backyard_backyardScene_timeRest = {
+_G.pg.base.gametip.backyard_backyardScene_timeRest = {
 	tip = "剩餘時間:<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_showAddExpInfo = {
+_G.pg.base.gametip.backyard_backyardScene_showAddExpInfo = {
 	tip = "休息的時間為：<color=#A9F548>$1</color>增加的經驗值為：<color=#A9F548>$2</color>"
 }
 
-_G.pg.gametip.backyard_backyardScene_error_noPosPutFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
 	tip = "沒有可以放置的位置"
 }
 
-_G.pg.gametip.backyard_backyardScene_error_noFurniture = {
+_G.pg.base.gametip.backyard_backyardScene_error_noFurniture = {
 	tip = "沒有可以佈置的傢俱"
 }
 
-_G.pg.gametip.backyard_backyardScene_error_canNotRotate = {
+_G.pg.base.gametip.backyard_backyardScene_error_canNotRotate = {
 	tip = "該位置<color=#A9F548>無法旋轉</color>"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
 	tip = "開啟欄位需要消耗<color=#A9F548>$1鑽石</color>,是否確認開啟"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
 	tip = "當前<color=#A9F548>存糧不足</color>，是否補充食物？"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
 	tip = "加速需要<color=#A9F548>消耗快速道具</color>,是否加速"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
+_G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
 	tip = "加速道具數量不足"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
 	tip = "該角色正在後宅中休息"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_fight = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_fight = {
 	tip = "該角色正在後宅中休息"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_study = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_study = {
 	tip = "該角色正在認真上課喲~"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_collect = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_collect = {
 	tip = "該角色在很遠的地方進行委託任務喲~"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_shipState_event = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_event = {
 	tip = "該角色正在執行特殊任務"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
 	tip = "該角色在戰鬥編隊中，確認要將其<color=#A9F548>移出編隊</color>？"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
 	tip = "先鋒編隊必須存在一艘船"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
 	tip = "主力編隊必須存在一艘船"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
 	tip = "增加角色成功"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
 	tip = "解鎖成功"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_noFood = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
 	tip = "沒有足夠的食物"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_fullEnergy = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fullEnergy = {
 	tip = "該船體力已經滿了"
 }
 
-_G.pg.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
+_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
 	tip = "操作失敗，當前編隊中只剩下該角色"
 }
 
-_G.pg.gametip.backyard_open_2floor = {
+_G.pg.base.gametip.backyard_open_2floor = {
 	tip = "開啟二層需要消耗<icon name=diamond w=0.7 h=0.7/><color=#A9F548FF>$1</color>是否確定開啟\n *新樓層<color=#FF4B14>不會增加</color>訓練欄位，僅用於擺放傢俱"
 }
 
-_G.pg.gametip.backyarad_theme_replace = {
+_G.pg.base.gametip.backyarad_theme_replace = {
 	tip = "主題【$1】中部分傢俱正在被其他樓層使用，已跳過佈置部分傢俱"
 }
 
-_G.pg.gametip.backyard_extendArea_ok = {
+_G.pg.base.gametip.backyard_extendArea_ok = {
 	tip = "擴建後宅成功"
 }
 
-_G.pg.gametip.backyard_extendArea_erro = {
+_G.pg.base.gametip.backyard_extendArea_erro = {
 	tip = "擴建後宅失敗<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.backyard_extendArea_tip = {
+_G.pg.base.gametip.backyard_extendArea_tip = {
 	tip = "擴充需要消耗||$1||個擴建許可證||剩餘擴建許可證：||$2||個"
 }
 
-_G.pg.gametip.backyard_notPosition_shipExit = {
+_G.pg.base.gametip.backyard_notPosition_shipExit = {
 	tip = "後宅位置不足，角色退出後宅"
 }
 
-_G.pg.gametip.backyard_no_ship_tip = {
+_G.pg.base.gametip.backyard_no_ship_tip = {
 	tip = "不存在該船"
 }
 
-_G.pg.gametip.backyard_energy_qiuck_up_tip = {
+_G.pg.base.gametip.backyard_energy_qiuck_up_tip = {
 	tip = "立即恢復需要<color=#A9F548FF>$1杯</color>能量恢復咖啡\n\n剩餘能量咖啡：<color=$2>$3杯</color>"
 }
 
-_G.pg.gametip.backyard_cant_put_tip = {
+_G.pg.base.gametip.backyard_cant_put_tip = {
 	tip = "已達到該級別最大傢俱數量，無法放置"
 }
 
-_G.pg.gametip.backyard_cant_buy_tip = {
+_G.pg.base.gametip.backyard_cant_buy_tip = {
 	tip = "無法購買"
 }
 
-_G.pg.gametip.backyard_theme_lock_tip = {
+_G.pg.base.gametip.backyard_theme_lock_tip = {
 	tip = "該主題<color=#A9F548>尚未開啟</color>"
 }
 
-_G.pg.gametip.backyard_theme_open_tip = {
+_G.pg.base.gametip.backyard_theme_open_tip = {
 	tip = "解鎖條件:\n指揮官等級提升到<color=#A9F548>$1</color>級"
 }
 
-_G.pg.gametip.backyard_theme_furniture_buy_tip = {
+_G.pg.base.gametip.backyard_theme_furniture_buy_tip = {
 	tip = "是否花費<material=outline c=#473B3A x=1 y=-1><color=#A9F548>$1</color></material>傢俱幣購買<material=outline c=#473B3A x=1 y=- 1><color=#A9F548>$2</color></material>？"
 }
 
-_G.pg.gametip.backyard_cannot_repeat_purchase = {
+_G.pg.base.gametip.backyard_cannot_repeat_purchase = {
 	tip = "不能重複購買"
 }
 
-_G.pg.gametip.backyard_theme_bought = {
+_G.pg.base.gametip.backyard_theme_bought = {
 	tip = "已經購買"
 }
 
-_G.pg.gametip.backyard_interAction_no_open = {
+_G.pg.base.gametip.backyard_interAction_no_open = {
 	tip = "傢俱互動尚未開啟"
 }
 
-_G.pg.gametip.backyard_theme_no_exist = {
+_G.pg.base.gametip.backyard_theme_no_exist = {
 	tip = "該主題不存在"
 }
 
-_G.pg.gametip.backayrd_theme_delete_sucess = {
+_G.pg.base.gametip.backayrd_theme_delete_sucess = {
 	tip = "主題刪除成功"
 }
 
-_G.pg.gametip.backayrd_theme_delete_erro = {
+_G.pg.base.gametip.backayrd_theme_delete_erro = {
 	tip = "主題刪除失敗"
 }
 
-_G.pg.gametip.backyard_ship_on_furnitrue = {
+_G.pg.base.gametip.backyard_ship_on_furnitrue = {
 	tip = "該傢俱上有角色是否繼續移除？"
 }
 
-_G.pg.gametip.backyard_save_empty_theme = {
+_G.pg.base.gametip.backyard_save_empty_theme = {
 	tip = "不能保存空主題"
 }
 
-_G.pg.gametip.backyard_theme_name_forbid = {
+_G.pg.base.gametip.backyard_theme_name_forbid = {
 	tip = "主題名包含禁止使用字詞"
 }
 
-_G.pg.gametip.backyard_getResource_emptry = {
+_G.pg.base.gametip.backyard_getResource_emptry = {
 	tip = "你下手慢了..."
 }
 
-_G.pg.gametip.backyard_no_pos_for_ship = {
+_G.pg.base.gametip.backyard_no_pos_for_ship = {
 	tip = "後宅剩餘的空間不足,只能選擇這麼多啦"
 }
 
-_G.pg.gametip.equipment_destroyEquipments_error_noEquip = {
+_G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
 	tip = "裝備不存在"
 }
 
-_G.pg.gametip.equipment_destroyEquipments_error_notEnoughEquip = {
+_G.pg.base.gametip.equipment_destroyEquipments_error_notEnoughEquip = {
 	tip = "裝備數量不足"
 }
 
-_G.pg.gametip.equipment_equipDevUI_error_noPos = {
+_G.pg.base.gametip.equipment_equipDevUI_error_noPos = {
 	tip = "裝備倉庫容量不足"
 }
 
-_G.pg.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
+_G.pg.base.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
 	tip = "無法裝備:<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.equipment_equipmentScene_selectError_more = {
+_G.pg.base.gametip.equipment_equipmentScene_selectError_more = {
 	tip = "最多選擇<color=#A9F548>$1</color>個裝備"
 }
 
-_G.pg.gametip.equipment_newEquipLayer_getNewEquip = {
+_G.pg.base.gametip.equipment_newEquipLayer_getNewEquip = {
 	tip = "獲得裝備:<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.equipment_select_materials_tip = {
+_G.pg.base.gametip.equipment_select_materials_tip = {
 	tip = "請選擇要使用的素材"
 }
 
-_G.pg.gametip.equipment_select_device_tip = {
+_G.pg.base.gametip.equipment_select_device_tip = {
 	tip = "請選擇要使用的裝備"
 }
 
-_G.pg.gametip.equipment_cant_unload = {
+_G.pg.base.gametip.equipment_cant_unload = {
 	tip = "<color=#A9F548>裝備倉庫已滿</color>,無法卸下裝備"
 }
 
-_G.pg.gametip.equipment_max_level = {
+_G.pg.base.gametip.equipment_max_level = {
 	tip = "裝備最大等級"
 }
 
-_G.pg.gametip.equipment_upgrade_costcheck_error = {
+_G.pg.base.gametip.equipment_upgrade_costcheck_error = {
 	tip = "請確認強化消耗材料後進行強化"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_fragment = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_fragment = {
 	tip = "<color=#92fc63>$1</color>的數量不足"
 }
 
-_G.pg.gametip.exercise_count_insufficient = {
+_G.pg.base.gametip.exercise_count_insufficient = {
 	tip = "演習<color=#A9F548>次數不足</color>"
 }
 
-_G.pg.gametip.exercise_clear_fleet_tip = {
+_G.pg.base.gametip.exercise_clear_fleet_tip = {
 	tip = "該操作將會使<color=#A9F548>防守艦隊先鋒/主力被清空</color>，防守艦隊將替換為第一艦隊，是否確認？"
 }
 
-_G.pg.gametip.exercise_fleet_exit_tip = {
+_G.pg.base.gametip.exercise_fleet_exit_tip = {
 	tip = "該角色屬於<color=#A9F548>競技場防守艦隊</color>，是否確認退出？"
 }
 
-_G.pg.gametip.exercise_replace_rivals_ok_tip = {
+_G.pg.base.gametip.exercise_replace_rivals_ok_tip = {
 	tip = "更換對手成功"
 }
 
-_G.pg.gametip.exercise_replace_rivals_question = {
+_G.pg.base.gametip.exercise_replace_rivals_question = {
 	tip = "是否花費<color=#A9F548>$1</color>鑽石更換對手?"
 }
 
-_G.pg.gametip.exercise_count_recover_tip = {
+_G.pg.base.gametip.exercise_count_recover_tip = {
 	tip = "（<color=#A9F548>$1</color>後恢復）"
 }
 
-_G.pg.gametip.exercise_shop_refresh_tip = {
+_G.pg.base.gametip.exercise_shop_refresh_tip = {
 	tip = "是否花費<color=#A9F548>$1</color>鑽石更新商品列表"
 }
 
-_G.pg.gametip.exercise_shop_buy_tip = {
+_G.pg.base.gametip.exercise_shop_buy_tip = {
 	tip = "是否花費<color=#A9F548>$1</color>功勳購買該商品"
 }
 
-_G.pg.gametip.exercise_formation_title = {
+_G.pg.base.gametip.exercise_formation_title = {
 	tip = "演習防守艦隊"
 }
 
-_G.pg.gametip.exercise_time_tip = {
+_G.pg.base.gametip.exercise_time_tip = {
 	tip = "   當前賽季時間：$1"
 }
 
-_G.pg.gametip.exercise_rule_tip = {
+_G.pg.base.gametip.exercise_rule_tip = {
 	tip = [[
    1、每<color=#a9f548>14</color>天為一個賽季，賽季中達到指定軍銜，即可獲得軍銜對應獎勵
    2、戰鬥勝利可以按軍銜等級獲得功勳，即使失敗也可獲得<color=#a9f548>一半</color>的功勳
@@ -1793,123 +1793,123 @@ _G.pg.gametip.exercise_rule_tip = {
    11、賽季結束後，所有玩家軍銜和積分重置]]
 }
 
-_G.pg.gametip.exercise_award_tip = {
+_G.pg.base.gametip.exercise_award_tip = {
 	tip = "   當賽季第一次達到對應段位時，將會發放對應獎勵，獎勵對應如下："
 }
 
-_G.pg.gametip.dock_yard_left_tips = {
+_G.pg.base.gametip.dock_yard_left_tips = {
 	tip = "請選擇用於<color=#A9F548>$1</color>的角色："
 }
 
-_G.pg.gametip.fleet_error_no_fleet = {
+_G.pg.base.gametip.fleet_error_no_fleet = {
 	tip = "艦隊不存在"
 }
 
-_G.pg.gametip.fleet_repairShips_error_fullEnergy = {
+_G.pg.base.gametip.fleet_repairShips_error_fullEnergy = {
 	tip = "所有艦船處於滿體力狀態,不需要恢復啦"
 }
 
-_G.pg.gametip.fleet_repairShips_error_noResource = {
+_G.pg.base.gametip.fleet_repairShips_error_noResource = {
 	tip = "物資不足"
 }
 
-_G.pg.gametip.fleet_repairShips_quest = {
+_G.pg.base.gametip.fleet_repairShips_quest = {
 	tip = "是否花費<color=#A9F548>$1</color>物資恢復所有艦隊的體力值？"
 }
 
-_G.pg.gametip.fleet_fleetRaname_error = {
+_G.pg.base.gametip.fleet_fleetRaname_error = {
 	tip = "重命名失敗:"
 }
 
-_G.pg.gametip.fleet_updateFleet_error = {
+_G.pg.base.gametip.fleet_updateFleet_error = {
 	tip = "艦隊更新失敗:"
 }
 
-_G.pg.gametip.friend_acceptFriendRequest_error = {
+_G.pg.base.gametip.friend_acceptFriendRequest_error = {
 	tip = "接受好友的請求失敗:"
 }
 
-_G.pg.gametip.friend_deleteFriend_error = {
+_G.pg.base.gametip.friend_deleteFriend_error = {
 	tip = "刪除好友失敗:"
 }
 
-_G.pg.gametip.friend_fetchFriendMsg_error = {
+_G.pg.base.gametip.friend_fetchFriendMsg_error = {
 	tip = "獲取訊息失敗:"
 }
 
-_G.pg.gametip.friend_rejectFriendRequest_error = {
+_G.pg.base.gametip.friend_rejectFriendRequest_error = {
 	tip = "拒絕好友請求失敗:"
 }
 
-_G.pg.gametip.friend_searchFriend_noPlayer = {
+_G.pg.base.gametip.friend_searchFriend_noPlayer = {
 	tip = "查無此玩家"
 }
 
-_G.pg.gametip.friend_sendFriendMsg_error = {
+_G.pg.base.gametip.friend_sendFriendMsg_error = {
 	tip = "發送訊息失敗:"
 }
 
-_G.pg.gametip.friend_sendFriendMsg_error_noFriend = {
+_G.pg.base.gametip.friend_sendFriendMsg_error_noFriend = {
 	tip = "對方不是您的好友"
 }
 
-_G.pg.gametip.friend_sendFriendRequest_error = {
+_G.pg.base.gametip.friend_sendFriendRequest_error = {
 	tip = "申請失敗:"
 }
 
-_G.pg.gametip.friend_addblacklist_error = {
+_G.pg.base.gametip.friend_addblacklist_error = {
 	tip = "增加黑名單失敗:"
 }
 
-_G.pg.gametip.friend_relieveblacklist_error = {
+_G.pg.base.gametip.friend_relieveblacklist_error = {
 	tip = "移除黑名單失敗:"
 }
 
-_G.pg.gametip.friend_sendFriendRequest_success = {
+_G.pg.base.gametip.friend_sendFriendRequest_success = {
 	tip = "申請發送成功"
 }
 
-_G.pg.gametip.friend_relieveblacklist_success = {
+_G.pg.base.gametip.friend_relieveblacklist_success = {
 	tip = "移除黑名單成功"
 }
 
-_G.pg.gametip.friend_addblacklist_success = {
+_G.pg.base.gametip.friend_addblacklist_success = {
 	tip = "增加黑名單成功"
 }
 
-_G.pg.gametip.friend_confirm_add_blacklist = {
+_G.pg.base.gametip.friend_confirm_add_blacklist = {
 	tip = "確定將<color=#A9F548>$1</color>封鎖並加入黑名單？\n（可在好友系統中看到黑名單列表）"
 }
 
-_G.pg.gametip.friend_relieve_backlist_tip = {
+_G.pg.base.gametip.friend_relieve_backlist_tip = {
 	tip = "對方在你的黑名單中是否移出黑名單"
 }
 
-_G.pg.gametip.friend_player_is_friend_tip = {
+_G.pg.base.gametip.friend_player_is_friend_tip = {
 	tip = "該玩家是你的好友"
 }
 
-_G.pg.gametip.friend_searchFriend_wait_time = {
+_G.pg.base.gametip.friend_searchFriend_wait_time = {
 	tip = "$1秒後可以再次搜尋"
 }
 
-_G.pg.gametip.lesson_classOver_error = {
+_G.pg.base.gametip.lesson_classOver_error = {
 	tip = "領取獎勵失敗:"
 }
 
-_G.pg.gametip.lesson_endToLearn_error = {
+_G.pg.base.gametip.lesson_endToLearn_error = {
 	tip = "課程取消失敗:"
 }
 
-_G.pg.gametip.lesson_startToLearn_error = {
+_G.pg.base.gametip.lesson_startToLearn_error = {
 	tip = "開課失敗:"
 }
 
-_G.pg.gametip.tactics_lesson_cancel = {
+_G.pg.base.gametip.tactics_lesson_cancel = {
 	tip = "取消訓練將返還部分經驗並<color=#A9F548>消耗教材</color>，是否確認？"
 }
 
-_G.pg.gametip.tactics_lesson_system_introduce = {
+_G.pg.base.gametip.tactics_lesson_system_introduce = {
 	tip = {
 		{
 			icon = {
@@ -1934,439 +1934,439 @@ _G.pg.gametip.tactics_lesson_system_introduce = {
 	}
 }
 
-_G.pg.gametip.tactics_lesson_start_tip = {
+_G.pg.base.gametip.tactics_lesson_start_tip = {
 	tip = "是否消耗<color=#A9F548>1本</color><color=#A9F548>「$1」</color>，\n訓練<color=#A9F548>「$2」</color>的<color=#A9F548>$3 </color>技能？"
 }
 
-_G.pg.gametip.tactics_noskill_erro = {
+_G.pg.base.gametip.tactics_noskill_erro = {
 	tip = "必須存在技能"
 }
 
-_G.pg.gametip.tactics_max_level = {
+_G.pg.base.gametip.tactics_max_level = {
 	tip = "該技能已達最大等級"
 }
 
-_G.pg.gametip.tactics_end_to_learn = {
+_G.pg.base.gametip.tactics_end_to_learn = {
 	tip = "<color=#A9F548>「$1」</color>學習完成，<color=#A9F548>「$2」</color>技能獲得<color=#A9F548>$3</color>點經驗"
 }
 
-_G.pg.gametip.tactics_continue_to_learn = {
+_G.pg.base.gametip.tactics_continue_to_learn = {
 	tip = "，是否繼續學習該技能？"
 }
 
-_G.pg.gametip.tactics_should_exist_skill = {
+_G.pg.base.gametip.tactics_should_exist_skill = {
 	tip = "必須存在技能"
 }
 
-_G.pg.gametip.tactics_skill_level_up = {
+_G.pg.base.gametip.tactics_skill_level_up = {
 	tip = "（技能等級提升:$1→$2）！"
 }
 
-_G.pg.gametip.tactics_no_lesson = {
+_G.pg.base.gametip.tactics_no_lesson = {
 	tip = "沒有可以使用的教材"
 }
 
-_G.pg.gametip.tactics_lesson_full = {
+_G.pg.base.gametip.tactics_lesson_full = {
 	tip = "學院課程已滿"
 }
 
-_G.pg.gametip.tactics_lesson_repeated = {
+_G.pg.base.gametip.tactics_lesson_repeated = {
 	tip = "該角色已經在學院中學習"
 }
 
-_G.pg.gametip.login_gate_not_ready = {
+_G.pg.base.gametip.login_gate_not_ready = {
 	tip = "伺服器尚未開放"
 }
 
-_G.pg.gametip.login_game_not_ready = {
+_G.pg.base.gametip.login_game_not_ready = {
 	tip = "遊戲伺服器尚未開放"
 }
 
-_G.pg.gametip.login_game_rigister_full = {
+_G.pg.base.gametip.login_game_rigister_full = {
 	tip = "伺服器註冊人數達到上限"
 }
 
-_G.pg.gametip.login_game_login_full = {
+_G.pg.base.gametip.login_game_login_full = {
 	tip = "伺服器在線人數已滿，請稍後再試"
 }
 
-_G.pg.gametip.login_game_banned = {
+_G.pg.base.gametip.login_game_banned = {
 	tip = "帳號已被凍結，請您聯繫客服"
 }
 
-_G.pg.gametip.login_game_frequence = {
+_G.pg.base.gametip.login_game_frequence = {
 	tip = "請勿頻繁登入伺服器"
 }
 
-_G.pg.gametip.login_createNewPlayer_full = {
+_G.pg.base.gametip.login_createNewPlayer_full = {
 	tip = "伺服器註冊人數已滿"
 }
 
-_G.pg.gametip.login_createNewPlayer_error = {
+_G.pg.base.gametip.login_createNewPlayer_error = {
 	tip = "註冊失敗:"
 }
 
-_G.pg.gametip.login_createNewPlayer_error_nameNull = {
+_G.pg.base.gametip.login_createNewPlayer_error_nameNull = {
 	tip = "名字不能為空"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_lingBo = {
+_G.pg.base.gametip.login_newPlayerScene_word_lingBo = {
 	tip = "特型驅逐艦綾波...他們都愛稱呼我“鬼神”。指揮官您的名字是？"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_yingHuoChong = {
+_G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
 	tip = "哇~是新來的指揮官誒！要來跟螢火蟲一起玩嗎？我的頭槌可是很厲害的！"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_laFei = {
+_G.pg.base.gametip.login_newPlayerScene_word_laFei = {
 	tip = "我是本森級的拉菲...夜戰...還是比較擅長的...指揮官…您叫什麼名字呢？"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_biaoqiang = {
+_G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
 	tip = "指揮官，標槍已經告訴你名字了，你不告訴我你的名字可不公平哦~"
 }
 
-_G.pg.gametip.login_newPlayerScene_word_z23 = {
+_G.pg.base.gametip.login_newPlayerScene_word_z23 = {
 	tip = "指揮官，真是的，你是不是忘了告訴我你的名字？還是說你就叫指揮官呢？"
 }
 
-_G.pg.gametip.login_newPlayerScene_randomName = {
+_G.pg.base.gametip.login_newPlayerScene_randomName = {
 	tip = "已隨機選擇名稱"
 }
 
-_G.pg.gametip.login_newPlayerScene_error_notChoiseShip = {
+_G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
 	tip = "未選擇角色"
 }
 
-_G.pg.gametip.login_newPlayerScene_inputName = {
+_G.pg.base.gametip.login_newPlayerScene_inputName = {
 	tip = "請輸入暱稱"
 }
 
-_G.pg.gametip.login_loginMediator_kickOtherLogin = {
+_G.pg.base.gametip.login_loginMediator_kickOtherLogin = {
 	tip = "您在別處登入"
 }
 
-_G.pg.gametip.login_loginMediator_kickServerClose = {
+_G.pg.base.gametip.login_loginMediator_kickServerClose = {
 	tip = "伺服器維護"
 }
 
-_G.pg.gametip.login_loginMediator_kickIntError = {
+_G.pg.base.gametip.login_loginMediator_kickIntError = {
 	tip = "網路異常"
 }
 
-_G.pg.gametip.login_loginMediator_kickTimeError = {
+_G.pg.base.gametip.login_loginMediator_kickTimeError = {
 	tip = "離線時間過長"
 }
 
-_G.pg.gametip.login_loginMediator_vertifyFail = {
+_G.pg.base.gametip.login_loginMediator_vertifyFail = {
 	tip = "數據驗證失敗"
 }
 
-_G.pg.gametip.login_loginMediator_dataExpired = {
+_G.pg.base.gametip.login_loginMediator_dataExpired = {
 	tip = "登入數據失效"
 }
 
-_G.pg.gametip.login_loginMediator_kickLoginOut = {
+_G.pg.base.gametip.login_loginMediator_kickLoginOut = {
 	tip = "連接已斷開"
 }
 
-_G.pg.gametip.login_loginMediator_serverLoginErro = {
+_G.pg.base.gametip.login_loginMediator_serverLoginErro = {
 	tip = "伺服器連接失敗"
 }
 
-_G.pg.gametip.login_loginMediator_kickUndefined = {
+_G.pg.base.gametip.login_loginMediator_kickUndefined = {
 	tip = "不明原因下線[$1]"
 }
 
-_G.pg.gametip.login_loginMediator_loginSuccess = {
+_G.pg.base.gametip.login_loginMediator_loginSuccess = {
 	tip = "登入成功"
 }
 
-_G.pg.gametip.login_loginMediator_quest_RegisterSuccess = {
+_G.pg.base.gametip.login_loginMediator_quest_RegisterSuccess = {
 	tip = "註冊成功，馬上登入吧"
 }
 
-_G.pg.gametip.login_loginMediator_registerFail_error = {
+_G.pg.base.gametip.login_loginMediator_registerFail_error = {
 	tip = "註冊失敗:"
 }
 
-_G.pg.gametip.login_loginMediator_userLoginFail_error = {
+_G.pg.base.gametip.login_loginMediator_userLoginFail_error = {
 	tip = "註冊失敗:"
 }
 
-_G.pg.gametip.login_loginMediator_serverLoginFail_error = {
+_G.pg.base.gametip.login_loginMediator_serverLoginFail_error = {
 	tip = "伺服器登入失敗:"
 }
 
-_G.pg.gametip.login_loginScene_error_noUserName = {
+_G.pg.base.gametip.login_loginScene_error_noUserName = {
 	tip = "用戶名不能為空"
 }
 
-_G.pg.gametip.login_loginScene_error_noPassword = {
+_G.pg.base.gametip.login_loginScene_error_noPassword = {
 	tip = "密碼不能為空"
 }
 
-_G.pg.gametip.login_loginScene_error_diffPassword = {
+_G.pg.base.gametip.login_loginScene_error_diffPassword = {
 	tip = "兩次輸入的密碼不一致"
 }
 
-_G.pg.gametip.login_loginScene_error_noMailBox = {
+_G.pg.base.gametip.login_loginScene_error_noMailBox = {
 	tip = "信箱不能為空"
 }
 
-_G.pg.gametip.login_loginScene_choiseServer = {
+_G.pg.base.gametip.login_loginScene_choiseServer = {
 	tip = "請選擇伺服器"
 }
 
-_G.pg.gametip.login_loginScene_server_vindicate = {
+_G.pg.base.gametip.login_loginScene_server_vindicate = {
 	tip = "該伺服器處於維護期間"
 }
 
-_G.pg.gametip.login_loginScene_server_full = {
+_G.pg.base.gametip.login_loginScene_server_full = {
 	tip = "該伺服器人數已滿"
 }
 
-_G.pg.gametip.login_loginScene_server_disabled = {
+_G.pg.base.gametip.login_loginScene_server_disabled = {
 	tip = "伺服器不可用"
 }
 
-_G.pg.gametip.login_register_full = {
+_G.pg.base.gametip.login_register_full = {
 	tip = "註冊人數已滿"
 }
 
-_G.pg.gametip.system_database_busy = {
+_G.pg.base.gametip.system_database_busy = {
 	tip = "數據庫繁忙，請稍後再試"
 }
 
-_G.pg.gametip.mail_getMailList_error_noNewMail = {
+_G.pg.base.gametip.mail_getMailList_error_noNewMail = {
 	tip = "沒有新郵件"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noMail = {
+_G.pg.base.gametip.mail_takeAttachment_error_noMail = {
 	tip = "郵件不存在:$1"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noAttach = {
+_G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
 	tip = "附件不可領取"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_noWorld = {
+_G.pg.base.gametip.mail_takeAttachment_error_noWorld = {
 	tip = "大型作戰尚未開啟，附件暫時不可領取。"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_reWorld = {
+_G.pg.base.gametip.mail_takeAttachment_error_reWorld = {
 	tip = "大型作戰已經重置，領取的附件將被等比轉化為戰備物資兌換券。確認領取嗎？"
 }
 
-_G.pg.gametip.mail_count = {
+_G.pg.base.gametip.mail_count = {
 	tip = "包含<color=#A9F548>$1個</color>附件"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_magazine_full = {
+_G.pg.base.gametip.mail_takeAttachment_error_magazine_full = {
 	tip = "<color=#92fc63>領取失敗</color>您的<color=#92fc63>裝備倉庫已滿</color>"
 }
 
-_G.pg.gametip.mail_takeAttachment_error_dockYrad_full = {
+_G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 	tip = "<color=#92fc63>領取失敗</color>您的<color=#92fc63>船塢已滿</color>"
 }
 
-_G.pg.gametip.mail_confirm_set_important_flag = {
+_G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "是否設定為重要郵件？"
 }
 
-_G.pg.gametip.mail_confirm_cancel_important_flag = {
+_G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 	tip = "是否取消設定為重要郵件？"
 }
 
-_G.pg.gametip.main_mailLayer_mailBoxClear = {
+_G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "信箱已被清空"
 }
 
-_G.pg.gametip.main_mailLayer_noNewMail = {
+_G.pg.base.gametip.main_mailLayer_noNewMail = {
 	tip = "沒有新郵件"
 }
 
-_G.pg.gametip.main_mailLayer_takeAttach = {
+_G.pg.base.gametip.main_mailLayer_takeAttach = {
 	tip = "領取附件"
 }
 
-_G.pg.gametip.main_mailLayer_noAttach = {
+_G.pg.base.gametip.main_mailLayer_noAttach = {
 	tip = "無附件"
 }
 
-_G.pg.gametip.main_mailLayer_attachTaken = {
+_G.pg.base.gametip.main_mailLayer_attachTaken = {
 	tip = "附件已領取"
 }
 
-_G.pg.gametip.main_mailLayer_quest_clear = {
+_G.pg.base.gametip.main_mailLayer_quest_clear = {
 	tip = "真的要刪除所有已讀郵件嗎？<color=#A9F548>（未領取附件的郵件將會保留）</color>"
 }
 
-_G.pg.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
+_G.pg.base.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
 	tip = "<color=#A9F548>附件未領取</color>，真的要刪除該郵件嗎?"
 }
 
-_G.pg.gametip.main_mailLayer_quest_deleteNotRead = {
+_G.pg.base.gametip.main_mailLayer_quest_deleteNotRead = {
 	tip = "<color=#A9F548>郵件未閱讀</color>，真的要刪除該郵件嗎?"
 }
 
-_G.pg.gametip.main_mailMediator_mailDelete = {
+_G.pg.base.gametip.main_mailMediator_mailDelete = {
 	tip = "郵件已刪除"
 }
 
-_G.pg.gametip.main_mailMediator_attachTaken = {
+_G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "附件已領取"
 }
 
-_G.pg.gametip.main_mailMediator_notingToTake = {
+_G.pg.base.gametip.main_mailMediator_notingToTake = {
 	tip = "並沒有什麼可領的"
 }
 
-_G.pg.gametip.main_mailMediator_takeALot = {
+_G.pg.base.gametip.main_mailMediator_takeALot = {
 	tip = "大豐收"
 }
 
-_G.pg.gametip.main_navalAcademyScene_systemClose = {
+_G.pg.base.gametip.main_navalAcademyScene_systemClose = {
 	tip = "指揮官，這個功能暫不開放喲！~"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_startClass = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_startClass = {
 	tip = "<color=#A9F548>上課啦，同學們請坐好，不要分心了~</color>"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_stopClass = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_stopClass = {
 	tip = "同學們努力學習中，確認讓她們一起翹課？\n<color=#A9F548>（翹課將不獲得屬性值加成）</color>"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_Classover_long = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_long = {
 	tip = "下課啦！<color=#A9F548>$1</color>認真學習，<color=#A9F548>$2+$3</color>；<color=#A9F548>$4+$5</color>！"
 }
 
-_G.pg.gametip.main_navalAcademyScene_quest_Classover_short = {
+_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_short = {
 	tip = "下課啦！<color=#A9F548>$1</color>認真學習，<color=#A9F548>$2+$3</color>！"
 }
 
-_G.pg.gametip.main_navalAcademyScene_upgrade_complete = {
+_G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
 	tip = "<color=#A9F548>$1</color>升級完成，最大容量<color=#9CFF5CE6>+$2</color>！"
 }
 
-_G.pg.gametip.main_navalAcademyScene_class_upgrade_complete = {
+_G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
 	tip = "<color=#A9F548>$1</color>升級完成！"
 }
 
-_G.pg.gametip.main_navalAcademyScene_work_done = {
+_G.pg.base.gametip.main_navalAcademyScene_work_done = {
 	tip = "暫時沒有可以接受的任務哦"
 }
 
-_G.pg.gametip.main_notificationLayer_searchInput = {
+_G.pg.base.gametip.main_notificationLayer_searchInput = {
 	tip = "請輸入玩家ID或暱稱"
 }
 
-_G.pg.gametip.main_notificationLayer_noInput = {
+_G.pg.base.gametip.main_notificationLayer_noInput = {
 	tip = "訊息不能為空"
 }
 
-_G.pg.gametip.main_notificationLayer_noFriend = {
+_G.pg.base.gametip.main_notificationLayer_noFriend = {
 	tip = "當前沒有好友"
 }
 
-_G.pg.gametip.main_notificationLayer_deleteFriend = {
+_G.pg.base.gametip.main_notificationLayer_deleteFriend = {
 	tip = "刪除好友"
 }
 
-_G.pg.gametip.main_notificationLayer_sendButton = {
+_G.pg.base.gametip.main_notificationLayer_sendButton = {
 	tip = "請輸入訊息"
 }
 
-_G.pg.gametip.main_notificationLayer_addFriendError_addSelf = {
+_G.pg.base.gametip.main_notificationLayer_addFriendError_addSelf = {
 	tip = "不能增加自己為好友"
 }
 
-_G.pg.gametip.main_notificationLayer_addFriendError_friendAlready = {
+_G.pg.base.gametip.main_notificationLayer_addFriendError_friendAlready = {
 	tip = "對方已經是您的好友"
 }
 
-_G.pg.gametip.main_notificationLayer_quest_deletFriend = {
+_G.pg.base.gametip.main_notificationLayer_quest_deletFriend = {
 	tip = "您是否確認要刪除好友<color=#A9F548>「$1」</color>？"
 }
 
-_G.pg.gametip.main_notificationLayer_quest_request = {
+_G.pg.base.gametip.main_notificationLayer_quest_request = {
 	tip = "請求加您為好友，是否接受？"
 }
 
-_G.pg.gametip.main_notificationLayer_enter_room = {
+_G.pg.base.gametip.main_notificationLayer_enter_room = {
 	tip = "已經進入房間<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.main_notificationLayer_not_roomId = {
+_G.pg.base.gametip.main_notificationLayer_not_roomId = {
 	tip = "請輸入房間號碼"
 }
 
-_G.pg.gametip.main_notificationLayer_roomId_invaild = {
+_G.pg.base.gametip.main_notificationLayer_roomId_invaild = {
 	tip = "房間號碼無效"
 }
 
-_G.pg.gametip.main_notificationMediator_sendFriendRequest = {
+_G.pg.base.gametip.main_notificationMediator_sendFriendRequest = {
 	tip = "好友請求已發送"
 }
 
-_G.pg.gametip.main_notificationMediator_beFriend = {
+_G.pg.base.gametip.main_notificationMediator_beFriend = {
 	tip = "您與<color=#A9F548>「$1」</color>成為好友"
 }
 
-_G.pg.gametip.main_notificationMediator_deleteFriend = {
+_G.pg.base.gametip.main_notificationMediator_deleteFriend = {
 	tip = "您與<color=#A9F548>「$1」</color>解除好友"
 }
 
-_G.pg.gametip.main_notificationMediator_room_max_number = {
+_G.pg.base.gametip.main_notificationMediator_room_max_number = {
 	tip = "聊天室人數已滿"
 }
 
-_G.pg.gametip.main_playerInfoLayer_inputName = {
+_G.pg.base.gametip.main_playerInfoLayer_inputName = {
 	tip = "請輸入暱稱"
 }
 
-_G.pg.gametip.main_playerInfoLayer_inputManifesto = {
+_G.pg.base.gametip.main_playerInfoLayer_inputManifesto = {
 	tip = "請輸入您的宣言"
 }
 
-_G.pg.gametip.main_playerInfoLayer_quest_changeName = {
+_G.pg.base.gametip.main_playerInfoLayer_quest_changeName = {
 	tip = "將消耗<color=#A9F548>鑽石100</color>,是否繼續"
 }
 
-_G.pg.gametip.main_playerInfoLayer_error_changeNameNoGem = {
+_G.pg.base.gametip.main_playerInfoLayer_error_changeNameNoGem = {
 	tip = "鑽石不足"
 }
 
-_G.pg.gametip.main_settingsScene_quest_exist = {
+_G.pg.base.gametip.main_settingsScene_quest_exist = {
 	tip = "真的要退出嗎"
 }
 
-_G.pg.gametip.coloring_color_missmatch = {
+_G.pg.base.gametip.coloring_color_missmatch = {
 	tip = "所選顏料不符"
 }
 
-_G.pg.gametip.coloring_color_not_enough = {
+_G.pg.base.gametip.coloring_color_not_enough = {
 	tip = "顏料不足，點右上角規則了解獲得方法"
 }
 
-_G.pg.gametip.coloring_erase_all_warning = {
+_G.pg.base.gametip.coloring_erase_all_warning = {
 	tip = "全部清除會清除調色盤中的所有顏色，是否繼續？"
 }
 
-_G.pg.gametip.coloring_erase_warning = {
+_G.pg.base.gametip.coloring_erase_warning = {
 	tip = "清除顏色後，已消耗的顏料不返還，是否要繼續？"
 }
 
-_G.pg.gametip.coloring_lock = {
+_G.pg.base.gametip.coloring_lock = {
 	tip = "未解鎖"
 }
 
-_G.pg.gametip.coloring_wait_open = {
+_G.pg.base.gametip.coloring_wait_open = {
 	tip = "等待開啟"
 }
 
-_G.pg.gametip.coloring_help_tip = {
+_G.pg.base.gametip.coloring_help_tip = {
 	tip = {
 		{
 			info = "遊戲規則"
@@ -2393,7 +2393,7 @@ _G.pg.gametip.coloring_help_tip = {
 	}
 }
 
-_G.pg.gametip.link_link_help_tip = {
+_G.pg.base.gametip.link_link_help_tip = {
 	tip = {
 		{
 			info = "遊戲規則\n"
@@ -2419,731 +2419,731 @@ _G.pg.gametip.link_link_help_tip = {
 	}
 }
 
-_G.pg.gametip.player_changeManifesto_ok = {
+_G.pg.base.gametip.player_changeManifesto_ok = {
 	tip = "更換宣言成功"
 }
 
-_G.pg.gametip.player_changeManifesto_error = {
+_G.pg.base.gametip.player_changeManifesto_error = {
 	tip = "宣言更換失敗:"
 }
 
-_G.pg.gametip.player_changePlayerIcon_ok = {
+_G.pg.base.gametip.player_changePlayerIcon_ok = {
 	tip = "秘書艦更換成功！"
 }
 
-_G.pg.gametip.player_changePlayerIcon_error = {
+_G.pg.base.gametip.player_changePlayerIcon_error = {
 	tip = "更換頭像失敗:"
 }
 
-_G.pg.gametip.player_changePlayerName_ok = {
+_G.pg.base.gametip.player_changePlayerName_ok = {
 	tip = "更換暱稱成功"
 }
 
-_G.pg.gametip.player_changePlayerName_error = {
+_G.pg.base.gametip.player_changePlayerName_error = {
 	tip = "更換暱稱失敗:"
 }
 
-_G.pg.gametip.player_changePlayerName_error_2015 = {
+_G.pg.base.gametip.player_changePlayerName_error_2015 = {
 	tip = "該暱稱已被使用"
 }
 
-_G.pg.gametip.player_harvestResource_error = {
+_G.pg.base.gametip.player_harvestResource_error = {
 	tip = "收穫資源失敗:"
 }
 
-_G.pg.gametip.player_harvestResource_error_fullBag = {
+_G.pg.base.gametip.player_harvestResource_error_fullBag = {
 	tip = "資源已經達到上限，無法領取"
 }
 
-_G.pg.gametip.player_change_chat_room_erro = {
+_G.pg.base.gametip.player_change_chat_room_erro = {
 	tip = "切換聊天室失敗"
 }
 
-_G.pg.gametip.prop_destroyProp_error_noItem = {
+_G.pg.base.gametip.prop_destroyProp_error_noItem = {
 	tip = "找不到此道具"
 }
 
-_G.pg.gametip.prop_destroyProp_error_canNotSell = {
+_G.pg.base.gametip.prop_destroyProp_error_canNotSell = {
 	tip = "此道具不能出售"
 }
 
-_G.pg.gametip.prop_destroyProp_error_notEnoughItem = {
+_G.pg.base.gametip.prop_destroyProp_error_notEnoughItem = {
 	tip = "沒有那麼多道具可以出售"
 }
 
-_G.pg.gametip.prop_destroyProp_error = {
+_G.pg.base.gametip.prop_destroyProp_error = {
 	tip = "道具出售失敗:"
 }
 
-_G.pg.gametip.resourceSite_error_noSite = {
+_G.pg.base.gametip.resourceSite_error_noSite = {
 	tip = "資源點不存在"
 }
 
-_G.pg.gametip.resourceSite_beginScanMap_ok = {
+_G.pg.base.gametip.resourceSite_beginScanMap_ok = {
 	tip = "掃描成功"
 }
 
-_G.pg.gametip.resourceSite_beginScanMap_error = {
+_G.pg.base.gametip.resourceSite_beginScanMap_error = {
 	tip = "雷達掃描失敗:"
 }
 
-_G.pg.gametip.resourceSite_collectResource_error = {
+_G.pg.base.gametip.resourceSite_collectResource_error = {
 	tip = "獲取資源失敗:"
 }
 
-_G.pg.gametip.resourceSite_finishResourceSite_error = {
+_G.pg.base.gametip.resourceSite_finishResourceSite_error = {
 	tip = "完成採集失敗:"
 }
 
-_G.pg.gametip.resourceSite_startResourceSite_error = {
+_G.pg.base.gametip.resourceSite_startResourceSite_error = {
 	tip = "出發採集點失敗:"
 }
 
-_G.pg.gametip.ship_error_noShip = {
+_G.pg.base.gametip.ship_error_noShip = {
 	tip = "角色不存在: <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_addStarExp_error = {
+_G.pg.base.gametip.ship_addStarExp_error = {
 	tip = "增加船經驗失敗:"
 }
 
-_G.pg.gametip.ship_buildShip_error = {
+_G.pg.base.gametip.ship_buildShip_error = {
 	tip = "建造角色失敗:"
 }
 
-_G.pg.gametip.ship_buildShip_error_noTemplate = {
+_G.pg.base.gametip.ship_buildShip_error_noTemplate = {
 	tip = "造船配置不存在: <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_buildShip_error_notEnoughItem = {
+_G.pg.base.gametip.ship_buildShip_error_notEnoughItem = {
 	tip = "材料不足，無法進行建造"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error = {
+_G.pg.base.gametip.ship_buildShipImmediately_error = {
 	tip = "快速完成失敗:"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_noSHip = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
 	tip = "船塢中沒有船"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_finished = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_finished = {
 	tip = "建造已完成"
 }
 
-_G.pg.gametip.ship_buildShipImmediately_error_noItem = {
+_G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
 	tip = "沒有加速道具"
 }
 
-_G.pg.gametip.ship_buildShip_not_position = {
+_G.pg.base.gametip.ship_buildShip_not_position = {
 	tip = "建造隊列已滿，無法獲得角色"
 }
 
-_G.pg.gametip.ship_buildBatchShip = {
+_G.pg.base.gametip.ship_buildBatchShip = {
 	tip = "確認消耗<color=#A9F548>$1鑽石</color>，獲得<color=#A9F548>10艘高性能艦船</color>？"
 }
 
-_G.pg.gametip.ship_buildSingleShip = {
+_G.pg.base.gametip.ship_buildSingleShip = {
 	tip = "確認消耗<color=#A9F548>$1鑽石</color>，獲得<color=#A9F548>1艘高性能艦船</color>？"
 }
 
-_G.pg.gametip.ship_buildShip_succeed = {
+_G.pg.base.gametip.ship_buildShip_succeed = {
 	tip = "獲得角色成功"
 }
 
-_G.pg.gametip.ship_buildShip_list_empty = {
+_G.pg.base.gametip.ship_buildShip_list_empty = {
 	tip = "當前建船隊列為空"
 }
 
-_G.pg.gametip.ship_buildship_tip = {
+_G.pg.base.gametip.ship_buildship_tip = {
 	tip = "建造一艘<color=#A9F548>$4</color>需要消耗：\n<color=#A9F548>$1物資</color>和<color=#A9F548>$2個$3</color>"
 }
 
-_G.pg.gametip.ship_destoryShips_error = {
+_G.pg.base.gametip.ship_destoryShips_error = {
 	tip = "退役船失敗:"
 }
 
-_G.pg.gametip.ship_equipToShip_ok = {
+_G.pg.base.gametip.ship_equipToShip_ok = {
 	tip = "<color=#A9F548>$1</color>裝備成功"
 }
 
-_G.pg.gametip.ship_equipToShip_error = {
+_G.pg.base.gametip.ship_equipToShip_error = {
 	tip = "裝備到船失敗:"
 }
 
-_G.pg.gametip.ship_equipToShip_error_noEquip = {
+_G.pg.base.gametip.ship_equipToShip_error_noEquip = {
 	tip = "裝備不存在"
 }
 
-_G.pg.gametip.ship_equip_check = {
+_G.pg.base.gametip.ship_equip_check = {
 	tip = "※可在設定中開啟/關閉本介面"
 }
 
-_G.pg.gametip.ship_getShip_error = {
+_G.pg.base.gametip.ship_getShip_error = {
 	tip = "角色下水失敗:"
 }
 
-_G.pg.gametip.ship_getShip_error_noShip = {
+_G.pg.base.gametip.ship_getShip_error_noShip = {
 	tip = "船塢中沒有船"
 }
 
-_G.pg.gametip.ship_getShip_error_notFinish = {
+_G.pg.base.gametip.ship_getShip_error_notFinish = {
 	tip = "建造尚未完成"
 }
 
-_G.pg.gametip.ship_getShip_error_full = {
+_G.pg.base.gametip.ship_getShip_error_full = {
 	tip = "<color=#A9F548>船塢已滿</color>,無法獲得角色"
 }
 
-_G.pg.gametip.ship_modShip_error = {
+_G.pg.base.gametip.ship_modShip_error = {
 	tip = "角色強化失敗:"
 }
 
-_G.pg.gametip.ship_modShip_error_notEnoughGold = {
+_G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
 	tip = "<color=#A9F548>物資不足</color>"
 }
 
-_G.pg.gametip.ship_remouldShip_error = {
+_G.pg.base.gametip.ship_remouldShip_error = {
 	tip = "突破船失敗:"
 }
 
-_G.pg.gametip.ship_unequipFromShip_ok = {
+_G.pg.base.gametip.ship_unequipFromShip_ok = {
 	tip = "<color=#FFD700FF>$1</color>已卸下"
 }
 
-_G.pg.gametip.ship_unequipFromShip_error = {
+_G.pg.base.gametip.ship_unequipFromShip_error = {
 	tip = "卸下裝備失敗:"
 }
 
-_G.pg.gametip.ship_unequipFromShip_error_noEquip = {
+_G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
 	tip = "該位置並沒有裝備"
 }
 
-_G.pg.gametip.ship_unequip_all_tip = {
+_G.pg.base.gametip.ship_unequip_all_tip = {
 	tip = "是否卸下全部裝備？"
 }
 
-_G.pg.gametip.ship_unequip_all_success = {
+_G.pg.base.gametip.ship_unequip_all_success = {
 	tip = "裝備<color=#FF0000>卸下</color>成功"
 }
 
-_G.pg.gametip.ship_updateShipLock_ok_lock = {
+_G.pg.base.gametip.ship_updateShipLock_ok_lock = {
 	tip = "<color=#A9F548>$1</color>鎖定成功"
 }
 
-_G.pg.gametip.ship_updateShipLock_ok_unlock = {
+_G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
 	tip = "<color=#A9F548>$1</color>解鎖成功"
 }
 
-_G.pg.gametip.ship_updateShipLock_error = {
+_G.pg.base.gametip.ship_updateShipLock_error = {
 	tip = "更改鎖定狀態失敗:"
 }
 
-_G.pg.gametip.ship_upgradeStar_error = {
+_G.pg.base.gametip.ship_upgradeStar_error = {
 	tip = "角色突破失敗:"
 }
 
-_G.pg.gametip.ship_upgradeStar_error_4010 = {
+_G.pg.base.gametip.ship_upgradeStar_error_4010 = {
 	tip = "素材中有正在「鏡面海域」中的角色"
 }
 
-_G.pg.gametip.ship_upgradeStar_error_lvLimit = {
+_G.pg.base.gametip.ship_upgradeStar_error_lvLimit = {
 	tip = "<color=#A9F548>等級</color>不滿足突破條件"
 }
 
-_G.pg.gametip.ship_upgradeStar_error_noEnoughMatrail = {
+_G.pg.base.gametip.ship_upgradeStar_error_noEnoughMatrail = {
 	tip = "素材數量不足"
 }
 
-_G.pg.gametip.ship_upgradeStar_notConfig = {
+_G.pg.base.gametip.ship_upgradeStar_notConfig = {
 	tip = "找不到突破配置<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_upgradeStar_maxLevel = {
+_G.pg.base.gametip.ship_upgradeStar_maxLevel = {
 	tip = "角色突破達到最高等級，無法突破"
 }
 
-_G.pg.gametip.ship_upgradeStar_select_material_tip = {
+_G.pg.base.gametip.ship_upgradeStar_select_material_tip = {
 	tip = "請選擇突破材料"
 }
 
-_G.pg.gametip.ship_exchange_question = {
+_G.pg.base.gametip.ship_exchange_question = {
 	tip = "是否花費<color=#A9F548>$1</color>個勳章兌換<color=#A9F548>$2</color>"
 }
 
-_G.pg.gametip.ship_exchange_medalCount_noEnough = {
+_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
 	tip = "勳章數量不足"
 }
 
-_G.pg.gametip.ship_exchange_erro = {
+_G.pg.base.gametip.ship_exchange_erro = {
 	tip = "兌換失敗：<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_exchange_confirm = {
+_G.pg.base.gametip.ship_exchange_confirm = {
 	tip = "是否花費$1勳章兌換$2"
 }
 
-_G.pg.gametip.ship_exchange_tip = {
+_G.pg.base.gametip.ship_exchange_tip = {
 	tip = "1.角色退役可以獲得榮譽勳章\n2.使用榮譽勳章可以在兌換系統僱傭新的角色\n3.兌換系統每天<color=#A9F548>6點</color>和<color=#A9F548>18點< /color>更新"
 }
 
-_G.pg.gametip.ship_vo_fighting = {
+_G.pg.base.gametip.ship_vo_fighting = {
 	tip = "當前角色已出擊"
 }
 
-_G.pg.gametip.ship_vo_event = {
+_G.pg.base.gametip.ship_vo_event = {
 	tip = "當前角色正在執行特殊任務"
 }
 
-_G.pg.gametip.ship_vo_isCharacter = {
+_G.pg.base.gametip.ship_vo_isCharacter = {
 	tip = "該角色是秘書艦，無法執行操作"
 }
 
-_G.pg.gametip.ship_vo_inBackyardRest = {
+_G.pg.base.gametip.ship_vo_inBackyardRest = {
 	tip = "該角色正在休息"
 }
 
-_G.pg.gametip.ship_vo_inClass = {
+_G.pg.base.gametip.ship_vo_inClass = {
 	tip = "該角色正在上課中"
 }
 
-_G.pg.gametip.ship_vo_moveout_backyard = {
+_G.pg.base.gametip.ship_vo_moveout_backyard = {
 	tip = "是否移出後宅"
 }
 
-_G.pg.gametip.ship_vo_moveout_formation = {
+_G.pg.base.gametip.ship_vo_moveout_formation = {
 	tip = "是否移出編隊"
 }
 
-_G.pg.gametip.ship_vo_mainFleet_must_hasShip = {
+_G.pg.base.gametip.ship_vo_mainFleet_must_hasShip = {
 	tip = "主力艦隊必須存在一艘角色"
 }
 
-_G.pg.gametip.ship_vo_vanguardFleet_must_hasShip = {
+_G.pg.base.gametip.ship_vo_vanguardFleet_must_hasShip = {
 	tip = "先鋒艦隊必須存在一艘角色"
 }
 
-_G.pg.gametip.ship_vo_getWordsUndefined = {
+_G.pg.base.gametip.ship_vo_getWordsUndefined = {
 	tip = "不知道為什麼，反正就是某個地方出錯進行不下去了！誒嘿~（吐舌）"
 }
 
-_G.pg.gametip.ship_vo_locked = {
+_G.pg.base.gametip.ship_vo_locked = {
 	tip = "該船已鎖定"
 }
 
-_G.pg.gametip.ship_vo_mainFleet_exist_same_ship = {
+_G.pg.base.gametip.ship_vo_mainFleet_exist_same_ship = {
 	tip = "主力艦隊不能存在相同的船"
 }
 
-_G.pg.gametip.ship_vo_vanguardFleet_exist_same_ship = {
+_G.pg.base.gametip.ship_vo_vanguardFleet_exist_same_ship = {
 	tip = "先鋒艦隊不能存在相同的船"
 }
 
-_G.pg.gametip.ship_buildShipMediator_startBuild = {
+_G.pg.base.gametip.ship_buildShipMediator_startBuild = {
 	tip = "開始建造"
 }
 
-_G.pg.gametip.ship_buildShipMediator_finishBuild = {
+_G.pg.base.gametip.ship_buildShipMediator_finishBuild = {
 	tip = "建造完成"
 }
 
-_G.pg.gametip.ship_buildShipScene_quest_quickFinish = {
+_G.pg.base.gametip.ship_buildShipScene_quest_quickFinish = {
 	tip = "快速完成需要消耗<color=#A9F548>$1個</color>快速完成工具\n\n剩餘加速道具: <color=#A9F548>$3個</color>"
 }
 
-_G.pg.gametip.ship_dockyardMediator_destroy = {
+_G.pg.base.gametip.ship_dockyardMediator_destroy = {
 	tip = "退役完成"
 }
 
-_G.pg.gametip.ship_dockyardScene_capacity = {
+_G.pg.base.gametip.ship_dockyardScene_capacity = {
 	tip = "船塢容量:"
 }
 
-_G.pg.gametip.ship_dockyardScene_noRole = {
+_G.pg.base.gametip.ship_dockyardScene_noRole = {
 	tip = "沒有選擇角色"
 }
 
-_G.pg.gametip.ship_dockyardScene_error_choiseRoleMore = {
+_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
 	tip = "至少選擇<color=#A9F548>$1</color>個角色"
 }
 
-_G.pg.gametip.ship_dockyardScene_error_choiseRoleLess = {
+_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleLess = {
 	tip = "最多選擇<color=#A9F548>$1</color>個角色"
 }
 
-_G.pg.gametip.ship_formationMediator_leastLimit = {
+_G.pg.base.gametip.ship_formationMediator_leastLimit = {
 	tip = "無法取消，第一艦隊上必須要有艦船！"
 }
 
-_G.pg.gametip.ship_formationMediator_changeNameSuccess = {
+_G.pg.base.gametip.ship_formationMediator_changeNameSuccess = {
 	tip = "艦隊名稱更改成功！"
 }
 
-_G.pg.gametip.ship_formationMediator_changeNameError_sameShip = {
+_G.pg.base.gametip.ship_formationMediator_changeNameError_sameShip = {
 	tip = "艦隊中不能存在相同的艦船"
 }
 
-_G.pg.gametip.ship_formationMediator_addShipError_overlimit = {
+_G.pg.base.gametip.ship_formationMediator_addShipError_overlimit = {
 	tip = "艦隊中最多只能有<color=#A9F548>$1</color>艘<color=#A9F548>$2</color>"
 }
 
-_G.pg.gametip.ship_formationMediator_replaceError_onlyShip = {
+_G.pg.base.gametip.ship_formationMediator_replaceError_onlyShip = {
 	tip = "目標艦船是<color=#A9F548>$1</color>唯一一艘<color=#A9F548>$2</color>艦船，無法替換！"
 }
 
-_G.pg.gametip.ship_formationMediator_quest_replace = {
+_G.pg.base.gametip.ship_formationMediator_quest_replace = {
 	tip = "您當前選擇的艦船已經在<color=#A9F548>$1</color>中,是否進行切換？"
 }
 
-_G.pg.gametip.ship_formationMediaror_trash_warning = {
+_G.pg.base.gametip.ship_formationMediaror_trash_warning = {
 	tip = "$1至少必須有<color=#A9F548>1個先鋒</color>和<color=#A9F548>1個主力</color>角色，確定將清空$1，取消返回。"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName1 = {
+_G.pg.base.gametip.ship_formationUI_fleetName1 = {
 	tip = "第一艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName2 = {
+_G.pg.base.gametip.ship_formationUI_fleetName2 = {
 	tip = "第二艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName3 = {
+_G.pg.base.gametip.ship_formationUI_fleetName3 = {
 	tip = "第三艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName4 = {
+_G.pg.base.gametip.ship_formationUI_fleetName4 = {
 	tip = "第四艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName5 = {
+_G.pg.base.gametip.ship_formationUI_fleetName5 = {
 	tip = "第五艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName6 = {
+_G.pg.base.gametip.ship_formationUI_fleetName6 = {
 	tip = "第六艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName11 = {
+_G.pg.base.gametip.ship_formationUI_fleetName11 = {
 	tip = "潛艇編隊一"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName12 = {
+_G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "潛艇編隊二"
 }
 
-_G.pg.gametip.ship_formationUI_exercise_fleetName = {
+_G.pg.base.gametip.ship_formationUI_exercise_fleetName = {
 	tip = "演習艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_world = {
+_G.pg.base.gametip.ship_formationUI_fleetName_world = {
 	tip = "大型作戰艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_changeFormationError_flag = {
+_G.pg.base.gametip.ship_formationUI_changeFormationError_flag = {
 	tip = "嘗試切換陣型出錯，請檢查陣型！"
 }
 
-_G.pg.gametip.ship_formationUI_changeFormationError_countError = {
+_G.pg.base.gametip.ship_formationUI_changeFormationError_countError = {
 	tip = "艦隊人數不足"
 }
 
-_G.pg.gametip.ship_formationUI_removeError_onlyShip = {
+_G.pg.base.gametip.ship_formationUI_removeError_onlyShip = {
 	tip = "<color=#A9F548>$1</color>是唯一一艘<color=#A9F548>$3</color>艦船，無法移出陣型！"
 }
 
-_G.pg.gametip.ship_formationUI_quest_remove = {
+_G.pg.base.gametip.ship_formationUI_quest_remove = {
 	tip = "是否要把<color=#A9F548>$1</color>移出陣型？"
 }
 
-_G.pg.gametip.ship_newShipLayer_get = {
+_G.pg.base.gametip.ship_newShipLayer_get = {
 	tip = "獲得<color=#A9F548>$1</color> —<color=#A9F548>$2</color>"
 }
 
-_G.pg.gametip.ship_newSkinLayer_get = {
+_G.pg.base.gametip.ship_newSkinLayer_get = {
 	tip = "獲得<color=#A9F548>$1</color>換裝—<color=#A9F548>$2</color>"
 }
 
-_G.pg.gametip.ship_newSkin_name = {
+_G.pg.base.gametip.ship_newSkin_name = {
 	tip = "「$1」"
 }
 
-_G.pg.gametip.ship_shipInfoMediator_destory = {
+_G.pg.base.gametip.ship_shipInfoMediator_destory = {
 	tip = "退役完成"
 }
 
-_G.pg.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
+_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
 	tip = "欄位尚未開啟，請將角色進行突破以解鎖欄位"
 }
 
-_G.pg.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
+_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
 	tip = "強化角色"
 }
 
-_G.pg.gametip.ship_shipInfoScene_effect = {
+_G.pg.base.gametip.ship_shipInfoScene_effect = {
 	tip = "當前經驗: <color=#A9F548>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipInfoScene_effect1or2 = {
+_G.pg.base.gametip.ship_shipInfoScene_effect1or2 = {
 	tip = "當前增加: <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_shipInfoScene_modLvMax = {
+_G.pg.base.gametip.ship_shipInfoScene_modLvMax = {
 	tip = "該突破項目已經滿級"
 }
 
-_G.pg.gametip.ship_shipInfoScene_choiseMod = {
+_G.pg.base.gametip.ship_shipInfoScene_choiseMod = {
 	tip = "請先選擇需要突破的項目"
 }
 
-_G.pg.gametip.ship_shipModLayer_effect = {
+_G.pg.base.gametip.ship_shipModLayer_effect = {
 	tip = "當前經驗: <color=#A9F548>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipModLayer_effect1or2 = {
+_G.pg.base.gametip.ship_shipModLayer_effect1or2 = {
 	tip = "當前加成: <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_shipModLayer_modSuccess = {
+_G.pg.base.gametip.ship_shipModLayer_modSuccess = {
 	tip = "強化成功"
 }
 
-_G.pg.gametip.ship_mod_no_addition_tip = {
+_G.pg.base.gametip.ship_mod_no_addition_tip = {
 	tip = "強化<color=#A9F548>沒有增益</color>，是否繼續？"
 }
 
-_G.pg.gametip.ship_shipModMediator_choiseMaterial = {
+_G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
 	tip = "請先選擇用於突破的素材"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeLvOver1 = {
+_G.pg.base.gametip.ship_shipModMediator_noticeLvOver1 = {
 	tip = "等級大於1"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeStarOver4 = {
+_G.pg.base.gametip.ship_shipModMediator_noticeStarOver4 = {
 	tip = "星級大於4"
 }
 
-_G.pg.gametip.ship_shipModMediator_noticeSameButLargerStar = {
+_G.pg.base.gametip.ship_shipModMediator_noticeSameButLargerStar = {
 	tip = "相同但星級較高"
 }
 
-_G.pg.gametip.ship_shipModMediator_quest = {
+_G.pg.base.gametip.ship_shipModMediator_quest = {
 	tip = "作為素材角色中有<color=#A9F548>$1</color>的角色，是否繼續突破？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_levelError = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_levelError = {
 	tip = "等級不足"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_noMaterail = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_noMaterail = {
 	tip = "素材不足"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_ok = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_ok = {
 	tip = "突破成功"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_effect = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_effect = {
 	tip = "當前經驗: <color=#A9F548>$1/$2</color>\n"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_effect1or2 = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_effect1or2 = {
 	tip = "當前增加: <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
 	tip = "強化材料角色中有<color=#A9F548>精銳</color>以上的角色，是否確認？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
 	tip = "強化材料角色中有<color=#A9F548>精銳</color>以上的角色，是否確認？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
 	tip = "強化材料角色中有<color=#A9F548>等級不為1</color>的角色，是否確認？"
 }
 
-_G.pg.gametip.ship_shipUpgradeLayer2_advanced_tip = {
+_G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
 	tip = "突破材料角色中有<color=#A9F548>等級不為1</color>的角色，是否確認？"
 }
 
-_G.pg.gametip.ship_mod_exp_to_attr_tip = {
+_G.pg.base.gametip.ship_mod_exp_to_attr_tip = {
 	tip = "*使用相同角色強化時經驗值翻倍"
 }
 
-_G.pg.gametip.ship_max_star = {
+_G.pg.base.gametip.ship_max_star = {
 	tip = "該船已經達到<color=#A9F548>最大星級</color>"
 }
 
-_G.pg.gametip.ship_skill_unlock_tip = {
+_G.pg.base.gametip.ship_skill_unlock_tip = {
 	tip = "突破後可解鎖"
 }
 
-_G.pg.gametip.ship_lock_tip = {
+_G.pg.base.gametip.ship_lock_tip = {
 	tip = "是否<color=#A9F548>鎖定</color>該角色？"
 }
 
-_G.pg.gametip.ship_destroy_uncommon_tip = {
+_G.pg.base.gametip.ship_destroy_uncommon_tip = {
 	tip = "退役角色中有<color=#A9F548>精銳</color>以上的角色，是否確認？"
 }
 
-_G.pg.gametip.ship_destroy_advanced_tip = {
+_G.pg.base.gametip.ship_destroy_advanced_tip = {
 	tip = "退役角色中有等級不為1的角色，是否確認？"
 }
 
-_G.pg.gametip.ship_energy_mid_desc = {
+_G.pg.base.gametip.ship_energy_mid_desc = {
 	tip = "中等\n心情中等出擊將不獲得好感度"
 }
 
-_G.pg.gametip.ship_energy_low_desc = {
+_G.pg.base.gametip.ship_energy_low_desc = {
 	tip = "疲憊\n心情較低出擊將減少好感度且獲得經驗減半"
 }
 
-_G.pg.gametip.ship_energy_low_warn = {
+_G.pg.base.gametip.ship_energy_low_warn = {
 	tip = "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"
 }
 
-_G.pg.gametip.ship_energy_low_warn_no_exp = {
+_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
 	tip = "編隊中<color=#A9F548FF>$2</color>處於<color=#D6341D>低心情狀態</color>，強制出擊將<color=#D6341D>降低好感</color>，確定要繼續出擊嗎？"
 }
 
-_G.pg.gametip.test_ship_intensify_tip = {
+_G.pg.base.gametip.test_ship_intensify_tip = {
 	tip = "布里無法進行強化"
 }
 
-_G.pg.gametip.test_ship_upgrade_tip = {
+_G.pg.base.gametip.test_ship_upgrade_tip = {
 	tip = "布里無法進行突破"
 }
 
-_G.pg.gametip.shop_buyItem_ok = {
+_G.pg.base.gametip.shop_buyItem_ok = {
 	tip = "購買成功，獲得<color=#A9F548>$1個$2</color>"
 }
 
-_G.pg.gametip.shop_buyItem_error = {
+_G.pg.base.gametip.shop_buyItem_error = {
 	tip = "購買失敗:"
 }
 
-_G.pg.gametip.shop_extendMagazine_error = {
+_G.pg.base.gametip.shop_extendMagazine_error = {
 	tip = "擴充軍火庫失敗:"
 }
 
-_G.pg.gametip.shop_entendShipYard_error = {
+_G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "擴充船塢失敗:"
 }
 
-_G.pg.gametip.stage_beginStage_error = {
+_G.pg.base.gametip.stage_beginStage_error = {
 	tip = "開始關卡失敗:"
 }
 
-_G.pg.gametip.stage_beginStage_error_fleetEmpty = {
+_G.pg.base.gametip.stage_beginStage_error_fleetEmpty = {
 	tip = "艦隊人數不能為空！"
 }
 
-_G.pg.gametip.stage_beginStage_error_teamEmpty = {
+_G.pg.base.gametip.stage_beginStage_error_teamEmpty = {
 	tip = "<color=#A9F548>$1</color>艦船至少需要<color=#A9F548>$2艘</color>！"
 }
 
-_G.pg.gametip.stage_beginStage_error_noEnergy = {
+_G.pg.base.gametip.stage_beginStage_error_noEnergy = {
 	tip = "<color=#A9F548>疲勞值</color>不足!"
 }
 
-_G.pg.gametip.stage_beginStage_error_noResource = {
+_G.pg.base.gametip.stage_beginStage_error_noResource = {
 	tip = "<color=#A9F548>石油</color>不足！"
 }
 
-_G.pg.gametip.stage_beginStage_error_noTicket = {
+_G.pg.base.gametip.stage_beginStage_error_noTicket = {
 	tip = "特別挑戰券數量不足，無法開始哦"
 }
 
-_G.pg.gametip.stage_finishStage_error = {
+_G.pg.base.gametip.stage_finishStage_error = {
 	tip = "由於不明原因關卡無法結束："
 }
 
-_G.pg.gametip.levelScene_map_lock = {
+_G.pg.base.gametip.levelScene_map_lock = {
 	tip = "該<color=#A9F548>章節未完成</color>無法前往下一章"
 }
 
-_G.pg.gametip.levelScene_chapter_lock = {
+_G.pg.base.gametip.levelScene_chapter_lock = {
 	tip = "請先完成<color=#A9F548>前一關卡</color>"
 }
 
-_G.pg.gametip.levelScene_chapter_strategying = {
+_G.pg.base.gametip.levelScene_chapter_strategying = {
 	tip = "關卡<color=#A9F548>$1</color>正在攻略中"
 }
 
-_G.pg.gametip.levelScene_threat_to_rule_out = {
+_G.pg.base.gametip.levelScene_threat_to_rule_out = {
 	tip = "威脅排除<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.levelScene_whether_to_retreat = {
+_G.pg.base.gametip.levelScene_whether_to_retreat = {
 	tip = "真的要<color=#A9F548>撤退</color>嗎?"
 }
 
-_G.pg.gametip.levelScene_who_to_retreat = {
+_G.pg.base.gametip.levelScene_who_to_retreat = {
 	tip = "確定撤退<color=#A9F548>$1</color>嗎?"
 }
 
-_G.pg.gametip.levelScene_who_to_exchange = {
+_G.pg.base.gametip.levelScene_who_to_exchange = {
 	tip = "確定進行艦隊交換嗎？"
 }
 
-_G.pg.gametip.levelScene_time_out = {
+_G.pg.base.gametip.levelScene_time_out = {
 	tip = "已超出作戰時限"
 }
 
-_G.pg.gametip.levelScene_nothing = {
+_G.pg.base.gametip.levelScene_nothing = {
 	tip = "什麼也沒有"
 }
 
-_G.pg.gametip.levelScene_notCargo = {
+_G.pg.base.gametip.levelScene_notCargo = {
 	tip = "找不到寶箱"
 }
 
-_G.pg.gametip.levelScene_openCargo_erro = {
+_G.pg.base.gametip.levelScene_openCargo_erro = {
 	tip = "打開寶箱失敗"
 }
 
-_G.pg.gametip.levelScene_chapter_notInStrategy = {
+_G.pg.base.gametip.levelScene_chapter_notInStrategy = {
 	tip = "未在攻略中"
 }
 
-_G.pg.gametip.levelScene_retreat_erro = {
+_G.pg.base.gametip.levelScene_retreat_erro = {
 	tip = "撤退失敗"
 }
 
-_G.pg.gametip.levelScene_strategying = {
+_G.pg.base.gametip.levelScene_strategying = {
 	tip = "正在攻略中"
 }
 
-_G.pg.gametip.levelScene_tracking_erro = {
+_G.pg.base.gametip.levelScene_tracking_erro = {
 	tip = "失敗"
 }
 
-_G.pg.gametip.levelScene_tracking_error_3001 = {
+_G.pg.base.gametip.levelScene_tracking_error_3001 = {
 	tip = "隊伍內存在委託中的角色，無法出擊"
 }
 
-_G.pg.gametip.levelScene_chapter_unlock_tip = {
+_G.pg.base.gametip.levelScene_chapter_unlock_tip = {
 	tip = "指揮官等級到達<color=#A9F548>$1級</color>時解鎖該章節"
 }
 
-_G.pg.gametip.levelScene_chapter_win = {
+_G.pg.base.gametip.levelScene_chapter_win = {
 	tip = "BOSS擊破，關卡攻略完成"
 }
 
-_G.pg.gametip.levelScene_sham_win = {
+_G.pg.base.gametip.levelScene_sham_win = {
 	tip = "「鏡面海域」作戰完成"
 }
 
-_G.pg.gametip.levelScene_escort_win = {
+_G.pg.base.gametip.levelScene_escort_win = {
 	tip = "運輸船抵達終點，護航成功"
 }
 
-_G.pg.gametip.levelScene_escort_lose = {
+_G.pg.base.gametip.levelScene_escort_lose = {
 	tip = "運輸船大破，護航失敗"
 }
 
-_G.pg.gametip.levelScene_escort_help_tip = {
+_G.pg.base.gametip.levelScene_escort_help_tip = {
 	tip = {
 		{
 			info = "護航關卡說明"
@@ -3169,27 +3169,27 @@ _G.pg.gametip.levelScene_escort_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_escort_retreat = {
+_G.pg.base.gametip.levelScene_escort_retreat = {
 	tip = "是否退出商路護航戰鬥？\n退出後，挑戰次數不會返還，並進行獎勵結算"
 }
 
-_G.pg.gametip.levelScene_oni_retreat = {
+_G.pg.base.gametip.levelScene_oni_retreat = {
 	tip = "撤退後將無法獲得獎勵，是否撤退？\n（關卡仍算作勝利）"
 }
 
-_G.pg.gametip.levelScene_oni_win = {
+_G.pg.base.gametip.levelScene_oni_win = {
 	tip = "特殊單位捕獲成功"
 }
 
-_G.pg.gametip.levelScene_oni_lose = {
+_G.pg.base.gametip.levelScene_oni_lose = {
 	tip = "特殊單位已逃離，捕獲失敗"
 }
 
-_G.pg.gametip.levelScene_bomb_retreat = {
+_G.pg.base.gametip.levelScene_bomb_retreat = {
 	tip = "撤退後將根據當前得分獲得獎勵，是否撤退？"
 }
 
-_G.pg.gametip.levelScene_sphunt_help_tip = {
+_G.pg.base.gametip.levelScene_sphunt_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3239,7 +3239,7 @@ _G.pg.gametip.levelScene_sphunt_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_bomb_help_tip = {
+_G.pg.base.gametip.levelScene_bomb_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3271,67 +3271,67 @@ _G.pg.gametip.levelScene_bomb_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_chapter_timeout = {
+_G.pg.base.gametip.levelScene_chapter_timeout = {
 	tip = "出擊已超時，艦隊已自動返航"
 }
 
-_G.pg.gametip.levelScene_chapter_level_limit = {
+_G.pg.base.gametip.levelScene_chapter_level_limit = {
 	tip = "指揮官等級到達<color=#A9F548>$1級</color>時解鎖該關卡"
 }
 
-_G.pg.gametip.levelScene_chapter_count_tip = {
+_G.pg.base.gametip.levelScene_chapter_count_tip = {
 	tip = "今日次數："
 }
 
-_G.pg.gametip.levelScene_tracking_error_retry = {
+_G.pg.base.gametip.levelScene_tracking_error_retry = {
 	tip = "啟動關卡失敗，請重試"
 }
 
-_G.pg.gametip.levelScene_destroy_torpedo = {
+_G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "成功拆除水雷"
 }
 
-_G.pg.gametip.levelScene_sub_refresh_count_not_enough = {
+_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
 	tip = "還沒有收到過求救信號…"
 }
 
-_G.pg.gametip.levelScene_jump_to_sub_confirm = {
+_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
 	tip = "搜尋完畢，信號源來自：$1海域（第$2章），是否前往？"
 }
 
-_G.pg.gametip.levelScene_signal_help_tip = {
+_G.pg.base.gametip.levelScene_signal_help_tip = {
 	tip = "信號提示"
 }
 
-_G.pg.gametip.levelScene_search_area = {
+_G.pg.base.gametip.levelScene_search_area = {
 	tip = "【搜尋範圍：$1章海域】"
 }
 
-_G.pg.gametip.levelScene_new_chapter_coming = {
+_G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "新章開放："
 }
 
-_G.pg.gametip.levelScene_chapter_open_count_down = {
+_G.pg.base.gametip.levelScene_chapter_open_count_down = {
 	tip = "開放時間："
 }
 
-_G.pg.gametip.levelScene_chapter_not_open = {
+_G.pg.base.gametip.levelScene_chapter_not_open = {
 	tip = "未開放"
 }
 
-_G.pg.gametip.levelScene_activate_remaster = {
+_G.pg.base.gametip.levelScene_activate_remaster = {
 	tip = "進入所選關卡需要消耗<color=#ffde38>檔案密鑰x1</color>，\n是否進入？"
 }
 
-_G.pg.gametip.levelScene_remaster_tickets_not_enough = {
+_G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "入場券數量不足"
 }
 
-_G.pg.gametip.levelScene_remaster_do_not_open = {
+_G.pg.base.gametip.levelScene_remaster_do_not_open = {
 	tip = "該副本尚未開放，敬請期待"
 }
 
-_G.pg.gametip.levelScene_remaster_help_tip = {
+_G.pg.base.gametip.levelScene_remaster_help_tip = {
 	tip = {
 		{
 			info = "作戰檔案說明\n作戰檔案系統是通過研究特殊作戰檔案，進行模擬作戰的系統以往的特殊作戰的攻略進度不會被繼承，需重新攻略"
@@ -3351,11 +3351,11 @@ _G.pg.gametip.levelScene_remaster_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_activate_loop_mode_failed = {
+_G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
 	tip = "需要將關卡進行至100%才可選擇周回模式"
 }
 
-_G.pg.gametip.levelScene_coastalgun_help_tip = {
+_G.pg.base.gametip.levelScene_coastalgun_help_tip = {
 	tip = {
 		{
 			icon = {
@@ -3387,15 +3387,15 @@ _G.pg.gametip.levelScene_coastalgun_help_tip = {
 	}
 }
 
-_G.pg.gametip.levelScene_select_SP_OP = {
+_G.pg.base.gametip.levelScene_select_SP_OP = {
 	tip = "點擊選擇作戰道具"
 }
 
-_G.pg.gametip.levelScene_unselect_SP_OP = {
+_G.pg.base.gametip.levelScene_unselect_SP_OP = {
 	tip = "不使用作戰道具"
 }
 
-_G.pg.gametip.levelScene_select_SP_OP_reminder = {
+_G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 	tip = [[
 是否使用高效作戰指令書？ 
 使用後關卡中的戰鬥石油消耗增加100%;
@@ -3403,87 +3403,87 @@ _G.pg.gametip.levelScene_select_SP_OP_reminder = {
 心情值消耗，好感度獲取均提高100%。]]
 }
 
-_G.pg.gametip.tack_tickets_max_warning = {
+_G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "所持<color=#ffff00>檔案密鑰</color>數量達到上限，完成任務後只能獲得<color=#D6341DFF>$1</color>份<color=#ffff00>檔案密鑰</color>，是否確認領取？"
 }
 
-_G.pg.gametip.error_refresh_sub_chapter = {
+_G.pg.base.gametip.error_refresh_sub_chapter = {
 	tip = "未搜尋到新的求救信號"
 }
 
-_G.pg.gametip.world_battle_count = {
+_G.pg.base.gametip.world_battle_count = {
 	tip = "交战次数说明文本占坑"
 }
 
-_G.pg.gametip.world_fleetName1 = {
+_G.pg.base.gametip.world_fleetName1 = {
 	tip = "第 一 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName2 = {
+_G.pg.base.gametip.world_fleetName2 = {
 	tip = "第 二 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName3 = {
+_G.pg.base.gametip.world_fleetName3 = {
 	tip = "第 三 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName4 = {
+_G.pg.base.gametip.world_fleetName4 = {
 	tip = "第 四 艦 隊"
 }
 
-_G.pg.gametip.world_fleetName5 = {
+_G.pg.base.gametip.world_fleetName5 = {
 	tip = "潛 艇 艦 隊"
 }
 
-_G.pg.gametip.world_ship_repair_1 = {
+_G.pg.base.gametip.world_ship_repair_1 = {
 	tip = "常規維修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
 }
 
-_G.pg.gametip.world_ship_repair_2 = {
+_G.pg.base.gametip.world_ship_repair_2 = {
 	tip = "徹底維修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
 }
 
-_G.pg.gametip.world_ship_repair_all = {
+_G.pg.base.gametip.world_ship_repair_all = {
 	tip = "修復所有艦船需要：\n<icon name=world_money w=0.7 h=0.7/>*$1"
 }
 
-_G.pg.gametip.world_ship_repair_no_need = {
+_G.pg.base.gametip.world_ship_repair_no_need = {
 	tip = "沒有艦船需要修理"
 }
 
-_G.pg.gametip.world_event_teleport_alter = {
+_G.pg.base.gametip.world_event_teleport_alter = {
 	tip = "即將前往其他海域，當前交戰中的艦隊將會撤退"
 }
 
-_G.pg.gametip.world_transport_battle_alter = {
+_G.pg.base.gametip.world_transport_battle_alter = {
 	tip = "存在正處於交戰中的艦隊，無法前往其他海域"
 }
 
-_G.pg.gametip.world_transport_locked = {
+_G.pg.base.gametip.world_transport_locked = {
 	tip = "當前海域尚未壓制，請將艦隊移動至海域邊緣前往相鄰區域"
 }
 
-_G.pg.gametip.world_target_count = {
+_G.pg.base.gametip.world_target_count = {
 	tip = "當前可領取目標獎勵$1個"
 }
 
-_G.pg.gametip.world_target_filter_tip1 = {
+_G.pg.base.gametip.world_target_filter_tip1 = {
 	tip = "全部"
 }
 
-_G.pg.gametip.world_target_filter_tip2 = {
+_G.pg.base.gametip.world_target_filter_tip2 = {
 	tip = "未完成"
 }
 
-_G.pg.gametip.world_target_get_all = {
+_G.pg.base.gametip.world_target_get_all = {
 	tip = "是否一鍵領取所有海域探索獎勵？"
 }
 
-_G.pg.gametip.world_target_goto = {
+_G.pg.base.gametip.world_target_goto = {
 	tip = "前往海域"
 }
 
-_G.pg.gametip.world_help_tip = {
+_G.pg.base.gametip.world_help_tip = {
 	tip = {
 		{
 			info = "\n大型作戰說明：(未使用)"
@@ -3491,87 +3491,87 @@ _G.pg.gametip.world_help_tip = {
 	}
 }
 
-_G.pg.gametip.world_dangerbattle_confirm = {
+_G.pg.base.gametip.world_dangerbattle_confirm = {
 	tip = "敵方的攻擊、耐久、作戰效能都受到了極大強化！ \n是否確認進行戰鬥？"
 }
 
-_G.pg.gametip.world_stamina_exchange = {
+_G.pg.base.gametip.world_stamina_exchange = {
 	tip = "行動力不足，是否花費<icon name=oil w=0.7 h=0.7/>$1兌換行動力*$2？"
 }
 
-_G.pg.gametip.world_stamina_not_enough = {
+_G.pg.base.gametip.world_stamina_not_enough = {
 	tip = "行動力不足"
 }
 
-_G.pg.gametip.world_stamina_recover = {
+_G.pg.base.gametip.world_stamina_recover = {
 	tip = "※行動力小於200時，每 <color=#92fc63>10分鐘</color> 恢復<color=#92fc63>1</color>點行動力"
 }
 
-_G.pg.gametip.world_stamina_text = {
+_G.pg.base.gametip.world_stamina_text = {
 	tip = "花費<color=#92fc63>$1</color>石油購買行動力<color=#92fc63>$2</color>點，本週剩餘<color=#92fc63>$3/$4</color>次"
 }
 
-_G.pg.gametip.world_stamina_text2 = {
+_G.pg.base.gametip.world_stamina_text2 = {
 	tip = "使用<color=#92fc63>$1</color>後恢復行動力<color=#92fc63>$2</color>點"
 }
 
-_G.pg.gametip.world_stamina_resetwarning = {
+_G.pg.base.gametip.world_stamina_resetwarning = {
 	tip = "注意：大型作戰即將<color=#ff5c5c>重置</color>，重置後多於$1的行動力<color=#ff5c5c>不會被保留</color>，指揮官請合理制定艦隊作戰策略！"
 }
 
-_G.pg.gametip.world_ship_healthy = {
+_G.pg.base.gametip.world_ship_healthy = {
 	tip = "所選目標無需修理！\n是否繼續使用"
 }
 
-_G.pg.gametip.world_map_dangerous = {
+_G.pg.base.gametip.world_map_dangerous = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_map_not_open = {
+_G.pg.base.gametip.world_map_not_open = {
 	tip = "海域尚未開放"
 }
 
-_G.pg.gametip.world_map_locked_stage = {
+_G.pg.base.gametip.world_map_locked_stage = {
 	tip = "海域尚未開放"
 }
 
-_G.pg.gametip.world_map_locked_border = {
+_G.pg.base.gametip.world_map_locked_border = {
 	tip = "周邊海域未壓制"
 }
 
-_G.pg.gametip.world_item_allocate_panel_fleet_info_text = {
+_G.pg.base.gametip.world_item_allocate_panel_fleet_info_text = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_redeploy_not_change = {
+_G.pg.base.gametip.world_redeploy_not_change = {
 	tip = "部署前後艦隊成員沒有發生變化，是否完成部署？"
 }
 
-_G.pg.gametip.world_redeploy_warn = {
+_G.pg.base.gametip.world_redeploy_warn = {
 	tip = "重新部署時，停留在港口的艦船將會返回港區船塢，是否繼續？"
 }
 
-_G.pg.gametip.world_redeploy_cost_tip = {
+_G.pg.base.gametip.world_redeploy_cost_tip = {
 	tip = "完成本次艦隊部署需要消耗$1行動力，是否繼續？\n(當前行動力：$2；指令使用間隔越短，行動力消耗越高)"
 }
 
-_G.pg.gametip.world_redeploy_tip = {
+_G.pg.base.gametip.world_redeploy_tip = {
 	tip = "尚未部署該艦隊"
 }
 
-_G.pg.gametip.world_fleet_choose = {
+_G.pg.base.gametip.world_fleet_choose = {
 	tip = "<color=#80e742>在大型作戰中，戰鬥將不會影響心情與消耗石油</color>"
 }
 
-_G.pg.gametip.world_fleet_formation_not_valid = {
+_G.pg.base.gametip.world_fleet_formation_not_valid = {
 	tip = "必須部署$1"
 }
 
-_G.pg.gametip.world_fleet_in_vortex = {
+_G.pg.base.gametip.world_fleet_in_vortex = {
 	tip = "艦隊進入水流湍急的漩渦之中，移動能力受限。"
 }
 
-_G.pg.gametip.world_stage_help = {
+_G.pg.base.gametip.world_stage_help = {
 	tip = {
 		disableScroll = true,
 		pageMode = true,
@@ -3590,27 +3590,27 @@ _G.pg.gametip.world_stage_help = {
 	}
 }
 
-_G.pg.gametip.world_transport_disable = {
+_G.pg.base.gametip.world_transport_disable = {
 	tip = "當前海域無法通過邊界區域離開。是否繼續？"
 }
 
-_G.pg.gametip.world_ap = {
+_G.pg.base.gametip.world_ap = {
 	tip = "行動力"
 }
 
-_G.pg.gametip.world_resource_tip_1 = {
+_G.pg.base.gametip.world_resource_tip_1 = {
 	tip = "未資源提示1(未使用)"
 }
 
-_G.pg.gametip.world_resource_tip_2 = {
+_G.pg.base.gametip.world_resource_tip_2 = {
 	tip = "未資源提示1(未使用)"
 }
 
-_G.pg.gametip.world_instruction_all_1 = {
+_G.pg.base.gametip.world_instruction_all_1 = {
 	tip = "該功能未開啟"
 }
 
-_G.pg.gametip.world_instruction_help_1 = {
+_G.pg.base.gametip.world_instruction_help_1 = {
 	tip = {
 		{
 			info = [[
@@ -3630,235 +3630,235 @@ _G.pg.gametip.world_instruction_help_1 = {
 	}
 }
 
-_G.pg.gametip.world_instruction_redeploy_1 = {
+_G.pg.base.gametip.world_instruction_redeploy_1 = {
 	tip = "當前海域無法進行艦隊部署，請前往我方港口海域"
 }
 
-_G.pg.gametip.world_instruction_redeploy_2 = {
+_G.pg.base.gametip.world_instruction_redeploy_2 = {
 	tip = "艦隊部署已完成，所有艦船的耐久與士氣都恢復了"
 }
 
-_G.pg.gametip.world_instruction_redeploy_3 = {
+_G.pg.base.gametip.world_instruction_redeploy_3 = {
 	tip = "艦隊正在運送特殊物品，無法進行部署，請先將特殊物品歸位。"
 }
 
-_G.pg.gametip.world_instruction_morale_1 = {
+_G.pg.base.gametip.world_instruction_morale_1 = {
 	tip = "是否消耗$1行動力，\n為所有艦隊恢復士氣與耐久，並消除戰損狀態？"
 }
 
-_G.pg.gametip.world_instruction_morale_2 = {
+_G.pg.base.gametip.world_instruction_morale_2 = {
 	tip = "各艦隊士氣高昂，無需進行士氣恢復"
 }
 
-_G.pg.gametip.world_instruction_morale_3 = {
+_G.pg.base.gametip.world_instruction_morale_3 = {
 	tip = "所有艦隊的士氣恢復完畢"
 }
 
-_G.pg.gametip.world_instruction_morale_4 = {
+_G.pg.base.gametip.world_instruction_morale_4 = {
 	tip = "※指令使用後，一段時間內無法使用"
 }
 
-_G.pg.gametip.world_instruction_submarine_1 = {
+_G.pg.base.gametip.world_instruction_submarine_1 = {
 	tip = "當前海域無法使用該功能"
 }
 
-_G.pg.gametip.world_instruction_submarine_2 = {
+_G.pg.base.gametip.world_instruction_submarine_2 = {
 	tip = "是否消耗$1行動力，\n向當前海域派遣潛艇艦隊？"
 }
 
-_G.pg.gametip.world_instruction_submarine_3 = {
+_G.pg.base.gametip.world_instruction_submarine_3 = {
 	tip = "當前地圖已部署有潛艇艦隊"
 }
 
-_G.pg.gametip.world_instruction_submarine_4 = {
+_G.pg.base.gametip.world_instruction_submarine_4 = {
 	tip = "尚未部署潛艇艦隊，無法呼叫支援"
 }
 
-_G.pg.gametip.world_instruction_submarine_5 = {
+_G.pg.base.gametip.world_instruction_submarine_5 = {
 	tip = "潛艇艦隊已撤離"
 }
 
-_G.pg.gametip.world_instruction_submarine_6 = {
+_G.pg.base.gametip.world_instruction_submarine_6 = {
 	tip = "離開當前海域後，潛艇艦隊會自動返回我方港口待命，是否離開？"
 }
 
-_G.pg.gametip.world_instruction_submarine_7 = {
+_G.pg.base.gametip.world_instruction_submarine_7 = {
 	tip = "是否消耗$1行動力，\n為潛艇艦隊補充彈藥並恢復狀態？"
 }
 
-_G.pg.gametip.world_instruction_submarine_8 = {
+_G.pg.base.gametip.world_instruction_submarine_8 = {
 	tip = "※指令使用間隔越短，行動力消耗越高"
 }
 
-_G.pg.gametip.world_instruction_submarine_9 = {
+_G.pg.base.gametip.world_instruction_submarine_9 = {
 	tip = "自律尋敵時，當潛艇支援的消耗小於等於\n時自動召喚"
 }
 
-_G.pg.gametip.world_instruction_submarine_10 = {
+_G.pg.base.gametip.world_instruction_submarine_10 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_instruction_submarine_11 = {
+_G.pg.base.gametip.world_instruction_submarine_11 = {
 	tip = "潛艇自動召喚設置保存成功"
 }
 
-_G.pg.gametip.world_instruction_detect_1 = {
+_G.pg.base.gametip.world_instruction_detect_1 = {
 	tip = "是否消耗$1行動力，\n偵查當前海域的全部區域？"
 }
 
-_G.pg.gametip.world_instruction_detect_2 = {
+_G.pg.base.gametip.world_instruction_detect_2 = {
 	tip = "當前海域已偵查完畢"
 }
 
-_G.pg.gametip.world_instruction_supply_1 = {
+_G.pg.base.gametip.world_instruction_supply_1 = {
 	tip = "是否消耗$1行動力申請一份基礎補給？(當前行動力：$2)(未使用)"
 }
 
-_G.pg.gametip.world_instruction_supply_2 = {
+_G.pg.base.gametip.world_instruction_supply_2 = {
 	tip = "$1後可再次進行艦隊維護"
 }
 
-_G.pg.gametip.world_item_recycle_1 = {
+_G.pg.base.gametip.world_item_recycle_1 = {
 	tip = "重置後道具將被轉化"
 }
 
-_G.pg.gametip.world_item_recycle_2 = {
+_G.pg.base.gametip.world_item_recycle_2 = {
 	tip = "重置後道具將會消失"
 }
 
-_G.pg.gametip.world_item_origin = {
+_G.pg.base.gametip.world_item_origin = {
 	tip = "該道具可由以下方式獲取"
 }
 
-_G.pg.gametip.world_shop_bag_unactivated = {
+_G.pg.base.gametip.world_shop_bag_unactivated = {
 	tip = "大型作戰尚未啟動，無法購買，請首先進入大型作戰"
 }
 
-_G.pg.gametip.world_shop_preview_tip = {
+_G.pg.base.gametip.world_shop_preview_tip = {
 	tip = "重置後可購買商品預覽"
 }
 
-_G.pg.gametip.world_shop_init_notice = {
+_G.pg.base.gametip.world_shop_init_notice = {
 	tip = "大型作戰已經重置，是否打開特別兌換商店？"
 }
 
-_G.pg.gametip.world_map_title_tips_en = {
+_G.pg.base.gametip.world_map_title_tips_en = {
 	tip = "OPERATIONINFO"
 }
 
-_G.pg.gametip.world_map_title_tips = {
+_G.pg.base.gametip.world_map_title_tips = {
 	tip = "作戰情報"
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_1 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_1 = {
 	tip = "攻擊調整"
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_2 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
 	tip = "耐久調整"
 }
 
-_G.pg.gametip.world_mapbuff_attrtxt_3 = {
+_G.pg.base.gametip.world_mapbuff_attrtxt_3 = {
 	tip = "恢復干擾"
 }
 
-_G.pg.gametip.world_mapbuff_compare_txt = {
+_G.pg.base.gametip.world_mapbuff_compare_txt = {
 	tip = "適應性壓制"
 }
 
-_G.pg.gametip.world_wind_move = {
+_G.pg.base.gametip.world_wind_move = {
 	tip = "無法前往目標區域，請首先轉移已位於目標區域中的艦隊"
 }
 
-_G.pg.gametip.world_battle_pause = {
+_G.pg.base.gametip.world_battle_pause = {
 	tip = "OPERATION"
 }
 
-_G.pg.gametip.world_battle_pause2 = {
+_G.pg.base.gametip.world_battle_pause2 = {
 	tip = "大型作戰"
 }
 
-_G.pg.gametip.world_task_samemap = {
+_G.pg.base.gametip.world_task_samemap = {
 	tip = "目標海域存在尚未完成的任務，無法接受該任務"
 }
 
-_G.pg.gametip.world_task_maplock = {
+_G.pg.base.gametip.world_task_maplock = {
 	tip = "當前海域存在尚未完成的任務，目前無法離開。\n請在<color=#ff5c5c>情報</color>中進行確認。\n是否繼續？"
 }
 
-_G.pg.gametip.world_task_goto0 = {
+_G.pg.base.gametip.world_task_goto0 = {
 	tip = "當前海域並非任務目標海域"
 }
 
-_G.pg.gametip.world_task_goto3 = {
+_G.pg.base.gametip.world_task_goto3 = {
 	tip = "艦隊已位於任務目標海域"
 }
 
-_G.pg.gametip.world_task_view1 = {
+_G.pg.base.gametip.world_task_view1 = {
 	tip = "任務位置："
 }
 
-_G.pg.gametip.world_task_view2 = {
+_G.pg.base.gametip.world_task_view2 = {
 	tip = "當前位置："
 }
 
-_G.pg.gametip.world_task_view3 = {
+_G.pg.base.gametip.world_task_view3 = {
 	tip = "不明"
 }
 
-_G.pg.gametip.world_task_refuse1 = {
+_G.pg.base.gametip.world_task_refuse1 = {
 	tip = "任務已到達領取上限，請完成一些任務後再來領取吧"
 }
 
-_G.pg.gametip.world_daily_task_lock = {
+_G.pg.base.gametip.world_daily_task_lock = {
 	tip = "完成主線第四章後將開啟日常任務"
 }
 
-_G.pg.gametip.world_daily_task_none = {
+_G.pg.base.gametip.world_daily_task_none = {
 	tip = "指揮官，當前沒有任務可以接取"
 }
 
-_G.pg.gametip.world_daily_task_none_2 = {
+_G.pg.base.gametip.world_daily_task_none_2 = {
 	tip = "No missions currently available"
 }
 
-_G.pg.gametip.world_sairen_title = {
+_G.pg.base.gametip.world_sairen_title = {
 	tip = "塞壬控制力"
 }
 
-_G.pg.gametip.world_sairen_description1 = {
+_G.pg.base.gametip.world_sairen_description1 = {
 	tip = "當前海域塞壬控制力為<color=#3dc6ff>$1%</color>"
 }
 
-_G.pg.gametip.world_sairen_description2 = {
+_G.pg.base.gametip.world_sairen_description2 = {
 	tip = "當前海域塞壬控制力為<color=#ffde38>$1%</color>"
 }
 
-_G.pg.gametip.world_sairen_description3 = {
+_G.pg.base.gametip.world_sairen_description3 = {
 	tip = "當前海域塞壬控制力為<color=#ff5c5c>$1%</color>"
 }
 
-_G.pg.gametip.world_low_morale = {
+_G.pg.base.gametip.world_low_morale = {
 	tip = "當前艦隊士氣過低，無法與強敵戰鬥！\n提示：取得任意戰鬥勝利均可恢復艦隊的士氣。"
 }
 
-_G.pg.gametip.world_recycle_notice = {
+_G.pg.base.gametip.world_recycle_notice = {
 	tip = "「大型作戰」將在退出後進行重置，是否繼續退出？"
 }
 
-_G.pg.gametip.world_recycle_item_transform = {
+_G.pg.base.gametip.world_recycle_item_transform = {
 	tip = "「大型作戰」已經重置，尚未使用的作戰物資已被轉換為戰備物資兌換券："
 }
 
-_G.pg.gametip.world_exit_tip = {
+_G.pg.base.gametip.world_exit_tip = {
 	tip = "需要暫時離開大型作戰嗎？"
 }
 
-_G.pg.gametip.world_consume_carry_tips = {
+_G.pg.base.gametip.world_consume_carry_tips = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_boss_help_meta = {
+_G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
@@ -3899,35 +3899,35 @@ _G.pg.gametip.world_boss_help_meta = {
 	}
 }
 
-_G.pg.gametip.world_close = {
+_G.pg.base.gametip.world_close = {
 	tip = "大型作戰已經關閉，暫時無法進入。"
 }
 
-_G.pg.gametip.world_catsearch_success = {
+_G.pg.base.gametip.world_catsearch_success = {
 	tip = "指揮喵已成功開始進行搜尋作業！"
 }
 
-_G.pg.gametip.world_catsearch_stop = {
+_G.pg.base.gametip.world_catsearch_stop = {
 	tip = "是否中斷搜尋作業，並召回指揮喵？"
 }
 
-_G.pg.gametip.world_catsearch_fleetcheck = {
+_G.pg.base.gametip.world_catsearch_fleetcheck = {
 	tip = "正在進行搜尋作業的指揮喵將被強制召回。\n是否結束搜尋並重編艦隊？"
 }
 
-_G.pg.gametip.world_catsearch_leavemap = {
+_G.pg.base.gametip.world_catsearch_leavemap = {
 	tip = "正在進行搜尋作業的指揮喵將被強制召回！\n是否結束搜尋並離開當前海域？"
 }
 
-_G.pg.gametip.world_catsearch_help_1 = {
+_G.pg.base.gametip.world_catsearch_help_1 = {
 	tip = "搜尋進度會<color=#ffde38>隨著艦隊行動次數推進</color>，\n是否中斷搜尋作業，並召回指揮喵？\n<color=#92fc63>（中斷後將會立刻結算已獲取的獎勵）</color>"
 }
 
-_G.pg.gametip.world_catsearch_help_2 = {
+_G.pg.base.gametip.world_catsearch_help_2 = {
 	tip = "搜尋獎勵查詢"
 }
 
-_G.pg.gametip.world_catsearch_help_3 = {
+_G.pg.base.gametip.world_catsearch_help_3 = {
 	tip = {
 		{
 			icon = {
@@ -3952,967 +3952,967 @@ _G.pg.gametip.world_catsearch_help_3 = {
 	}
 }
 
-_G.pg.gametip.world_catsearch_help_4 = {
+_G.pg.base.gametip.world_catsearch_help_4 = {
 	tip = "搜尋中..."
 }
 
-_G.pg.gametip.world_catsearch_help_5 = {
+_G.pg.base.gametip.world_catsearch_help_5 = {
 	tip = "指揮喵物資搜尋中，暫時無法為艦隊提供加成"
 }
 
-_G.pg.gametip.world_catsearch_help_6 = {
+_G.pg.base.gametip.world_catsearch_help_6 = {
 	tip = "搜尋過程中有機率獲得以下獎勵"
 }
 
-_G.pg.gametip.world_level_prefix = {
+_G.pg.base.gametip.world_level_prefix = {
 	tip = "等級LV.$1"
 }
 
-_G.pg.gametip.world_map_level = {
+_G.pg.base.gametip.world_map_level = {
 	tip = "作戰強度等級：\n指揮官當前的作戰強度等級為<color=#92fc63>$1</color>，建議攻略該侵蝕等級及以下的海域。"
 }
 
-_G.pg.gametip.world_movelimit_event_text = {
+_G.pg.base.gametip.world_movelimit_event_text = {
 	tip = "當前海域存在尚未完成的事件，目前無法離開。\n是否繼續？"
 }
 
-_G.pg.gametip.world_mapbuff_tip = {
+_G.pg.base.gametip.world_mapbuff_tip = {
 	tip = "海域內所有敵人戰鬥力上升中"
 }
 
-_G.pg.gametip.world_sametask_tip = {
+_G.pg.base.gametip.world_sametask_tip = {
 	tip = "領取任務失敗，相同的任務最多只能領取一個"
 }
 
-_G.pg.gametip.world_expedition_reward_display = {
+_G.pg.base.gametip.world_expedition_reward_display = {
 	tip = "獎勵一覽"
 }
 
-_G.pg.gametip.world_expedition_reward_display2 = {
+_G.pg.base.gametip.world_expedition_reward_display2 = {
 	tip = "HP $1%"
 }
 
-_G.pg.gametip.world_complete_item_tip = {
+_G.pg.base.gametip.world_complete_item_tip = {
 	tip = "已壓制所有海域，無法購買戰役訊息記錄儀"
 }
 
-_G.pg.gametip.task_notfound_error = {
+_G.pg.base.gametip.task_notfound_error = {
 	tip = "缺少任務配置，請檢查是否需要熱修補程式，id:"
 }
 
-_G.pg.gametip.task_submitTask_error = {
+_G.pg.base.gametip.task_submitTask_error = {
 	tip = "提交任務失敗:"
 }
 
-_G.pg.gametip.task_submitTask_error_client = {
+_G.pg.base.gametip.task_submitTask_error_client = {
 	tip = "提交任務失敗"
 }
 
-_G.pg.gametip.task_submitTask_error_notFinish = {
+_G.pg.base.gametip.task_submitTask_error_notFinish = {
 	tip = "任務還沒有完成"
 }
 
-_G.pg.gametip.task_taskMediator_getItem = {
+_G.pg.base.gametip.task_taskMediator_getItem = {
 	tip = "獲得道具：<color=#A9F548>$1</color>,數量:<color=#A9F548>X$2</color>"
 }
 
-_G.pg.gametip.task_taskMediator_getResource = {
+_G.pg.base.gametip.task_taskMediator_getResource = {
 	tip = "獲得資源：<color=#A9F548>$1</color>,數量:<color=#A9F548>X$2</color>"
 }
 
-_G.pg.gametip.task_taskMediator_getEquip = {
+_G.pg.base.gametip.task_taskMediator_getEquip = {
 	tip = "獲得裝備：<color=#A9F548>$1</color>,數量:<color=#A9F548>X$2</color>"
 }
 
-_G.pg.gametip.task_target_chapter_in_progress = {
+_G.pg.base.gametip.task_target_chapter_in_progress = {
 	tip = "任務目標地圖正在攻略中，不能接取該任務"
 }
 
-_G.pg.gametip.task_level_notenough = {
+_G.pg.base.gametip.task_level_notenough = {
 	tip = "需要達到$1級才能進行任務"
 }
 
-_G.pg.gametip.loading_tip_ShaderMgr = {
+_G.pg.base.gametip.loading_tip_ShaderMgr = {
 	tip = "正在渲染畫面..."
 }
 
-_G.pg.gametip.loading_tip_FontMgr = {
+_G.pg.base.gametip.loading_tip_FontMgr = {
 	tip = "正在創建字型..."
 }
 
-_G.pg.gametip.loading_tip_TipsMgr = {
+_G.pg.base.gametip.loading_tip_TipsMgr = {
 	tip = "正在購買便利貼..."
 }
 
-_G.pg.gametip.loading_tip_MsgboxMgr = {
+_G.pg.base.gametip.loading_tip_MsgboxMgr = {
 	tip = "正在載入對話框..."
 }
 
-_G.pg.gametip.loading_tip_GuideMgr = {
+_G.pg.base.gametip.loading_tip_GuideMgr = {
 	tip = "正在接通輔導員..."
 }
 
-_G.pg.gametip.loading_tip_PoolMgr = {
+_G.pg.base.gametip.loading_tip_PoolMgr = {
 	tip = "正在填充塗料..."
 }
 
-_G.pg.gametip.loading_tip_FModMgr = {
+_G.pg.base.gametip.loading_tip_FModMgr = {
 	tip = "正在製造噪音..."
 }
 
-_G.pg.gametip.loading_tip_StoryMgr = {
+_G.pg.base.gametip.loading_tip_StoryMgr = {
 	tip = "正在編寫劇本..."
 }
 
-_G.pg.gametip.energy_desc_happy = {
+_G.pg.base.gametip.energy_desc_happy = {
 	tip = "大家感到很滿足，似乎戰鬥力提高了？"
 }
 
-_G.pg.gametip.energy_desc_normal = {
+_G.pg.base.gametip.energy_desc_normal = {
 	tip = "平常狀態下，大家能發揮正常實力"
 }
 
-_G.pg.gametip.energy_desc_tired = {
+_G.pg.base.gametip.energy_desc_tired = {
 	tip = "大家感到很累了，似乎很難正常發揮"
 }
 
-_G.pg.gametip.energy_desc_angry = {
+_G.pg.base.gametip.energy_desc_angry = {
 	tip = "打死都不想動了ORZ，快去後宅休息吧"
 }
 
-_G.pg.gametip.create_player_success = {
+_G.pg.base.gametip.create_player_success = {
 	tip = "創建角色成功"
 }
 
-_G.pg.gametip.login_newPlayerScene_invalideName = {
+_G.pg.base.gametip.login_newPlayerScene_invalideName = {
 	tip = "角色名字含有敏感字元"
 }
 
-_G.pg.gametip.login_newPlayerScene_name_tooShort = {
+_G.pg.base.gametip.login_newPlayerScene_name_tooShort = {
 	tip = "名字太短"
 }
 
-_G.pg.gametip.login_newPlayerScene_name_existOtherChar = {
+_G.pg.base.gametip.login_newPlayerScene_name_existOtherChar = {
 	tip = "不能包含中文或英文外的任何其他語言文字與符號"
 }
 
-_G.pg.gametip.login_newPlayerScene_name_tooLong = {
+_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
 	tip = "名字太長"
 }
 
-_G.pg.gametip.equipment_updateGrade_tip = {
+_G.pg.base.gametip.equipment_updateGrade_tip = {
 	tip = "只要找來這些材料就可以幫您升級裝備喲噗噗噗"
 }
 
-_G.pg.gametip.equipment_upgrade_ok = {
+_G.pg.base.gametip.equipment_upgrade_ok = {
 	tip = "裝備升級成功"
 }
 
-_G.pg.gametip.equipment_cant_upgrade = {
+_G.pg.base.gametip.equipment_cant_upgrade = {
 	tip = "裝備不能升級"
 }
 
-_G.pg.gametip.equipment_upgrade_erro = {
+_G.pg.base.gametip.equipment_upgrade_erro = {
 	tip = "升級武器失敗"
 }
 
-_G.pg.gametip.collection_nostar = {
+_G.pg.base.gametip.collection_nostar = {
 	tip = "星星數量不足"
 }
 
-_G.pg.gametip.collection_getResource_error = {
+_G.pg.base.gametip.collection_getResource_error = {
 	tip = "領取獎勵失敗:"
 }
 
-_G.pg.gametip.collection_hadAward = {
+_G.pg.base.gametip.collection_hadAward = {
 	tip = "獎勵已領取"
 }
 
-_G.pg.gametip.collection_lock = {
+_G.pg.base.gametip.collection_lock = {
 	tip = "尚未解鎖"
 }
 
-_G.pg.gametip.collection_fetched = {
+_G.pg.base.gametip.collection_fetched = {
 	tip = "已經領取過啦"
 }
 
-_G.pg.gametip.buyProp_noResource_error = {
+_G.pg.base.gametip.buyProp_noResource_error = {
 	tip = "<color=#A9F548>$1</color>不足"
 }
 
-_G.pg.gametip.refresh_shopStreet_ok = {
+_G.pg.base.gametip.refresh_shopStreet_ok = {
 	tip = "手動重整成功"
 }
 
-_G.pg.gametip.refresh_shopStreet_erro = {
+_G.pg.base.gametip.refresh_shopStreet_erro = {
 	tip = "手動重整失敗"
 }
 
-_G.pg.gametip.shopStreet_upgrade_done = {
+_G.pg.base.gametip.shopStreet_upgrade_done = {
 	tip = "商店街升級完成"
 }
 
-_G.pg.gametip.shopStreet_refresh_max_count = {
+_G.pg.base.gametip.shopStreet_refresh_max_count = {
 	tip = "今天的重整次數已達上限"
 }
 
-_G.pg.gametip.buy_countLimit = {
+_G.pg.base.gametip.buy_countLimit = {
 	tip = "購買的次數已達上限"
 }
 
-_G.pg.gametip.buy_item_quest = {
+_G.pg.base.gametip.buy_item_quest = {
 	tip = "是否購買該商品？"
 }
 
-_G.pg.gametip.refresh_shopStreet_question = {
+_G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "是否花費$1<color=#A9F548>$2</color>更新商品列表\n\n <size=22>（今日已經購買<size=25><color=#FF0000>$3</color></size>次）</size>"
 }
 
-_G.pg.gametip.event_start_success = {
+_G.pg.base.gametip.event_start_success = {
 	tip = "開始委託成功"
 }
 
-_G.pg.gametip.event_start_fail = {
+_G.pg.base.gametip.event_start_fail = {
 	tip = "開始委託失敗"
 }
 
-_G.pg.gametip.event_finish_success = {
+_G.pg.base.gametip.event_finish_success = {
 	tip = "完成委託成功"
 }
 
-_G.pg.gametip.event_finish_fail = {
+_G.pg.base.gametip.event_finish_fail = {
 	tip = "完成委託失敗"
 }
 
-_G.pg.gametip.event_giveup_success = {
+_G.pg.base.gametip.event_giveup_success = {
 	tip = "放棄委託成功"
 }
 
-_G.pg.gametip.event_giveup_fail = {
+_G.pg.base.gametip.event_giveup_fail = {
 	tip = "放棄委託失敗"
 }
 
-_G.pg.gametip.event_flush_success = {
+_G.pg.base.gametip.event_flush_success = {
 	tip = "手動重整成功"
 }
 
-_G.pg.gametip.event_flush_fail = {
+_G.pg.base.gametip.event_flush_fail = {
 	tip = "手動重整失敗"
 }
 
-_G.pg.gametip.event_flush_not_enough = {
+_G.pg.base.gametip.event_flush_not_enough = {
 	tip = "剩餘重整次數不足"
 }
 
-_G.pg.gametip.event_start = {
+_G.pg.base.gametip.event_start = {
 	tip = "開始行動"
 }
 
-_G.pg.gametip.event_finish = {
+_G.pg.base.gametip.event_finish = {
 	tip = "完成行動"
 }
 
-_G.pg.gametip.event_giveup = {
+_G.pg.base.gametip.event_giveup = {
 	tip = "取消行動"
 }
 
-_G.pg.gametip.event_minimus_ship_numbers = {
+_G.pg.base.gametip.event_minimus_ship_numbers = {
 	tip = "艦隊人數不足，最少需要<color=#A9F548>$1人</color>才可執行該任務"
 }
 
-_G.pg.gametip.event_confirm_giveup = {
+_G.pg.base.gametip.event_confirm_giveup = {
 	tip = "確定放棄任務？"
 }
 
-_G.pg.gametip.event_confirm_flush = {
+_G.pg.base.gametip.event_confirm_flush = {
 	tip = "還有正在進行的任務，是否確認重置？"
 }
 
-_G.pg.gametip.event_fleet_busy = {
+_G.pg.base.gametip.event_fleet_busy = {
 	tip = "執行委託的艦隊數量已達到上限，無法執行"
 }
 
-_G.pg.gametip.event_same_type_not_allowed = {
+_G.pg.base.gametip.event_same_type_not_allowed = {
 	tip = "不能增加相同類型的艦船"
 }
 
-_G.pg.gametip.event_condition_ship_level = {
+_G.pg.base.gametip.event_condition_ship_level = {
 	tip = "至少<color=#A9F548>1位</color>角色達到<color=#A9F548>$1級</color>"
 }
 
-_G.pg.gametip.event_condition_ship_count = {
+_G.pg.base.gametip.event_condition_ship_count = {
 	tip = "隊伍人數至少<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.event_condition_ship_type = {
+_G.pg.base.gametip.event_condition_ship_type = {
 	tip = "<color=#A9F548>$1</color>限定"
 }
 
-_G.pg.gametip.event_level_unreached = {
+_G.pg.base.gametip.event_level_unreached = {
 	tip = "艦隊等級不足"
 }
 
-_G.pg.gametip.event_type_unreached = {
+_G.pg.base.gametip.event_type_unreached = {
 	tip = "艦隊中角色的類型不滿足"
 }
 
-_G.pg.gametip.event_oil_consume = {
+_G.pg.base.gametip.event_oil_consume = {
 	tip = "本次委託需要花費<icon name=oil w=0.7 h=0.7/><color=#A9F548>$1</color>石油"
 }
 
-_G.pg.gametip.event_type_unlimit = {
+_G.pg.base.gametip.event_type_unlimit = {
 	tip = "類型不限"
 }
 
-_G.pg.gametip.dailyLevel_restCount_notEnough = {
+_G.pg.base.gametip.dailyLevel_restCount_notEnough = {
 	tip = "日常關卡挑戰次數不足"
 }
 
-_G.pg.gametip.dailyLevel_unopened = {
+_G.pg.base.gametip.dailyLevel_unopened = {
 	tip = "暫未開放"
 }
 
-_G.pg.gametip.dailyLevel_opened = {
+_G.pg.base.gametip.dailyLevel_opened = {
 	tip = "開放"
 }
 
-_G.pg.gametip.playerinfo_ship_is_already_flagship = {
+_G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
 	tip = "該船已經是秘書艦"
 }
 
-_G.pg.gametip.playerinfo_mask_word = {
+_G.pg.base.gametip.playerinfo_mask_word = {
 	tip = "存在禁止使用字詞"
 }
 
-_G.pg.gametip.just_now = {
+_G.pg.base.gametip.just_now = {
 	tip = "剛剛"
 }
 
-_G.pg.gametip.several_minutes_before = {
+_G.pg.base.gametip.several_minutes_before = {
 	tip = "<color=#A9F548>$1</color>分鐘前"
 }
 
-_G.pg.gametip.several_hours_before = {
+_G.pg.base.gametip.several_hours_before = {
 	tip = "<color=#A9F548>$1</color>小時前"
 }
 
-_G.pg.gametip.several_days_before = {
+_G.pg.base.gametip.several_days_before = {
 	tip = "<color=#A9F548>$1天</color>前"
 }
 
-_G.pg.gametip.long_time_offline = {
+_G.pg.base.gametip.long_time_offline = {
 	tip = "長時間未在線"
 }
 
-_G.pg.gametip.dont_send_message_frequently = {
+_G.pg.base.gametip.dont_send_message_frequently = {
 	tip = "請勿頻繁發送訊息"
 }
 
-_G.pg.gametip.no_activity = {
+_G.pg.base.gametip.no_activity = {
 	tip = "當前沒有可參與的活動"
 }
 
-_G.pg.gametip.which_day = {
+_G.pg.base.gametip.which_day = {
 	tip = "第<color=#A9F548>$1</color>天"
 }
 
-_G.pg.gametip.which_day_2 = {
+_G.pg.base.gametip.which_day_2 = {
 	tip = "第$1天"
 }
 
-_G.pg.gametip.invalidate_evaluation = {
+_G.pg.base.gametip.invalidate_evaluation = {
 	tip = "當前評論含有無效內容"
 }
 
-_G.pg.gametip.chapter_no = {
+_G.pg.base.gametip.chapter_no = {
 	tip = "第<color=#A9F548>$1</color>章"
 }
 
-_G.pg.gametip.reconnect_tip = {
+_G.pg.base.gametip.reconnect_tip = {
 	tip = "伺服器連接失敗，是否重新連接？\n[$1]"
 }
 
-_G.pg.gametip.like_ship_success = {
+_G.pg.base.gametip.like_ship_success = {
 	tip = "操作成功"
 }
 
-_G.pg.gametip.eva_ship_success = {
+_G.pg.base.gametip.eva_ship_success = {
 	tip = "評價成功"
 }
 
-_G.pg.gametip.zan_ship_eva_success = {
+_G.pg.base.gametip.zan_ship_eva_success = {
 	tip = "點評成功"
 }
 
-_G.pg.gametip.zan_ship_eva_error_7 = {
+_G.pg.base.gametip.zan_ship_eva_error_7 = {
 	tip = "你已經點評過該評論啦~"
 }
 
-_G.pg.gametip.eva_count_limit = {
+_G.pg.base.gametip.eva_count_limit = {
 	tip = "已達到每日評論數量上限"
 }
 
-_G.pg.gametip.attribute_durability = {
+_G.pg.base.gametip.attribute_durability = {
 	tip = "耐久"
 }
 
-_G.pg.gametip.attribute_cannon = {
+_G.pg.base.gametip.attribute_cannon = {
 	tip = "炮擊"
 }
 
-_G.pg.gametip.attribute_torpedo = {
+_G.pg.base.gametip.attribute_torpedo = {
 	tip = "雷擊"
 }
 
-_G.pg.gametip.attribute_antiaircraft = {
+_G.pg.base.gametip.attribute_antiaircraft = {
 	tip = "防空"
 }
 
-_G.pg.gametip.attribute_air = {
+_G.pg.base.gametip.attribute_air = {
 	tip = "航空"
 }
 
-_G.pg.gametip.attribute_reload = {
+_G.pg.base.gametip.attribute_reload = {
 	tip = "裝填"
 }
 
-_G.pg.gametip.attribute_cd = {
+_G.pg.base.gametip.attribute_cd = {
 	tip = "射速"
 }
 
-_G.pg.gametip.attribute_armor_type = {
+_G.pg.base.gametip.attribute_armor_type = {
 	tip = "裝甲類型"
 }
 
-_G.pg.gametip.attribute_armor = {
+_G.pg.base.gametip.attribute_armor = {
 	tip = "裝甲"
 }
 
-_G.pg.gametip.attribute_hit = {
+_G.pg.base.gametip.attribute_hit = {
 	tip = "命中"
 }
 
-_G.pg.gametip.attribute_speed = {
+_G.pg.base.gametip.attribute_speed = {
 	tip = "航速"
 }
 
-_G.pg.gametip.attribute_luck = {
+_G.pg.base.gametip.attribute_luck = {
 	tip = "幸運"
 }
 
-_G.pg.gametip.attribute_dodge = {
+_G.pg.base.gametip.attribute_dodge = {
 	tip = "機動"
 }
 
-_G.pg.gametip.attribute_expend = {
+_G.pg.base.gametip.attribute_expend = {
 	tip = "消耗"
 }
 
-_G.pg.gametip.attribute_damage = {
+_G.pg.base.gametip.attribute_damage = {
 	tip = "傷害"
 }
 
-_G.pg.gametip.attribute_healthy = {
+_G.pg.base.gametip.attribute_healthy = {
 	tip = "治療"
 }
 
-_G.pg.gametip.attribute_speciality = {
+_G.pg.base.gametip.attribute_speciality = {
 	tip = "特性"
 }
 
-_G.pg.gametip.attribute_range = {
+_G.pg.base.gametip.attribute_range = {
 	tip = "射程"
 }
 
-_G.pg.gametip.attribute_angle = {
+_G.pg.base.gametip.attribute_angle = {
 	tip = "射角"
 }
 
-_G.pg.gametip.attribute_scatter = {
+_G.pg.base.gametip.attribute_scatter = {
 	tip = "散佈範圍"
 }
 
-_G.pg.gametip.attribute_ammo = {
+_G.pg.base.gametip.attribute_ammo = {
 	tip = "彈藥"
 }
 
-_G.pg.gametip.attribute_antisub = {
+_G.pg.base.gametip.attribute_antisub = {
 	tip = "反潛"
 }
 
-_G.pg.gametip.attribute_sonarRange = {
+_G.pg.base.gametip.attribute_sonarRange = {
 	tip = "額外偵測範圍"
 }
 
-_G.pg.gametip.attribute_sonarInterval = {
+_G.pg.base.gametip.attribute_sonarInterval = {
 	tip = "搜尋週期"
 }
 
-_G.pg.gametip.attribute_oxy_max = {
+_G.pg.base.gametip.attribute_oxy_max = {
 	tip = "氧氣"
 }
 
-_G.pg.gametip.attribute_dodge_limit = {
+_G.pg.base.gametip.attribute_dodge_limit = {
 	tip = "回避上限"
 }
 
-_G.pg.gametip.attribute_intimacy = {
+_G.pg.base.gametip.attribute_intimacy = {
 	tip = "好感度"
 }
 
-_G.pg.gametip.attribute_max_distance_damage = {
+_G.pg.base.gametip.attribute_max_distance_damage = {
 	tip = "邊際傷害"
 }
 
-_G.pg.gametip.attribute_anti_siren = {
+_G.pg.base.gametip.attribute_anti_siren = {
 	tip = "大型作戰塞壬增傷"
 }
 
-_G.pg.gametip.attribute_add_new = {
+_G.pg.base.gametip.attribute_add_new = {
 	tip = "New!"
 }
 
-_G.pg.gametip.skill = {
+_G.pg.base.gametip.skill = {
 	tip = "技能"
 }
 
-_G.pg.gametip.cd_normal = {
+_G.pg.base.gametip.cd_normal = {
 	tip = "標準射速"
 }
 
-_G.pg.gametip.intensify = {
+_G.pg.base.gametip.intensify = {
 	tip = "強化"
 }
 
-_G.pg.gametip.change = {
+_G.pg.base.gametip.change = {
 	tip = "更換"
 }
 
-_G.pg.gametip.formation_switch_failed = {
+_G.pg.base.gametip.formation_switch_failed = {
 	tip = "沒有可以切換的艦隊"
 }
 
-_G.pg.gametip.formation_switch_success = {
+_G.pg.base.gametip.formation_switch_success = {
 	tip = "已切換到$1"
 }
 
-_G.pg.gametip.formation_switch_tip = {
+_G.pg.base.gametip.formation_switch_tip = {
 	tip = "當前選中艦隊無法成型，將自動切換到<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.formation_reform_tip = {
+_G.pg.base.gametip.formation_reform_tip = {
 	tip = "當前艦隊無法成型，是否前往編隊？"
 }
 
-_G.pg.gametip.formation_invalide = {
+_G.pg.base.gametip.formation_invalide = {
 	tip = "無可用艦隊，作戰失敗"
 }
 
-_G.pg.gametip.chapter_ap_not_enough = {
+_G.pg.base.gametip.chapter_ap_not_enough = {
 	tip = "AP不足"
 }
 
-_G.pg.gametip.formation_forbid_when_in_chapter = {
+_G.pg.base.gametip.formation_forbid_when_in_chapter = {
 	tip = "艦隊出擊中，當前無法修改編隊"
 }
 
-_G.pg.gametip.military_forbid_when_in_chapter = {
+_G.pg.base.gametip.military_forbid_when_in_chapter = {
 	tip = "艦隊出擊中，當前無法參與演習"
 }
 
-_G.pg.gametip.confirm_app_exit = {
+_G.pg.base.gametip.confirm_app_exit = {
 	tip = "確認退出遊戲？"
 }
 
-_G.pg.gametip.friend_info_page_tip = {
+_G.pg.base.gametip.friend_info_page_tip = {
 	tip = "點擊好友能進行拜訪切磋"
 }
 
-_G.pg.gametip.friend_search_page_tip = {
+_G.pg.base.gametip.friend_search_page_tip = {
 	tip = "每次搜尋好友<color=#A9F548>$1</color>人"
 }
 
-_G.pg.gametip.friend_request_page_tip = {
+_G.pg.base.gametip.friend_request_page_tip = {
 	tip = "最多保存<color=#A9F548>$1條</color>申請"
 }
 
-_G.pg.gametip.friend_id_copy_ok = {
+_G.pg.base.gametip.friend_id_copy_ok = {
 	tip = "複製成功"
 }
 
-_G.pg.gametip.friend_inpout_key_tip = {
+_G.pg.base.gametip.friend_inpout_key_tip = {
 	tip = "請輸入關鍵字"
 }
 
-_G.pg.gametip.remove_friend_tip = {
+_G.pg.base.gametip.remove_friend_tip = {
 	tip = "確認要移除好友嗎?"
 }
 
-_G.pg.gametip.friend_request_msg_placeholder = {
+_G.pg.base.gametip.friend_request_msg_placeholder = {
 	tip = "輸入請求訊息"
 }
 
-_G.pg.gametip.friend_request_msg_title = {
+_G.pg.base.gametip.friend_request_msg_title = {
 	tip = "好友邀請已送出，等待對方答覆"
 }
 
-_G.pg.gametip.friend_max_count = {
+_G.pg.base.gametip.friend_max_count = {
 	tip = "好友<color=#A9F548>已達上限</color>新增失敗"
 }
 
-_G.pg.gametip.friend_add_ok = {
+_G.pg.base.gametip.friend_add_ok = {
 	tip = "新增好友成功"
 }
 
-_G.pg.gametip.friend_max_count_1 = {
+_G.pg.base.gametip.friend_max_count_1 = {
 	tip = "對方好友已達上限"
 }
 
-_G.pg.gametip.friend_no_request = {
+_G.pg.base.gametip.friend_no_request = {
 	tip = "當前沒有請求"
 }
 
-_G.pg.gametip.reject_all_friend_ok = {
+_G.pg.base.gametip.reject_all_friend_ok = {
 	tip = "已拒絕所有玩家請求"
 }
 
-_G.pg.gametip.reject_friend_ok = {
+_G.pg.base.gametip.reject_friend_ok = {
 	tip = "已拒絕該玩家請求"
 }
 
-_G.pg.gametip.friend_offline = {
+_G.pg.base.gametip.friend_offline = {
 	tip = "好友不在線"
 }
 
-_G.pg.gametip.friend_msg_forbid = {
+_G.pg.base.gametip.friend_msg_forbid = {
 	tip = "不能發送帶有<color=#A9F548>禁止使用字詞</color>的申請"
 }
 
-_G.pg.gametip.dont_add_self = {
+_G.pg.base.gametip.dont_add_self = {
 	tip = "不能新增自己為好友"
 }
 
-_G.pg.gametip.friend_already_add = {
+_G.pg.base.gametip.friend_already_add = {
 	tip = "該玩家已經是您的好友"
 }
 
-_G.pg.gametip.friend_not_add = {
+_G.pg.base.gametip.friend_not_add = {
 	tip = "該玩家不是您的好友"
 }
 
-_G.pg.gametip.friend_send_msg_erro_tip = {
+_G.pg.base.gametip.friend_send_msg_erro_tip = {
 	tip = "好友不在線，無法發送訊息"
 }
 
-_G.pg.gametip.friend_send_msg_null_tip = {
+_G.pg.base.gametip.friend_send_msg_null_tip = {
 	tip = "無法發送空白訊息"
 }
 
-_G.pg.gametip.friend_search_succeed = {
+_G.pg.base.gametip.friend_search_succeed = {
 	tip = "搜尋完成"
 }
 
-_G.pg.gametip.friend_request_msg_sent = {
+_G.pg.base.gametip.friend_request_msg_sent = {
 	tip = "好友申請成功"
 }
 
-_G.pg.gametip.friend_resume_ship_count = {
+_G.pg.base.gametip.friend_resume_ship_count = {
 	tip = "獲得艦船:"
 }
 
-_G.pg.gametip.friend_resume_title_metal = {
+_G.pg.base.gametip.friend_resume_title_metal = {
 	tip = "最高軍銜:"
 }
 
-_G.pg.gametip.friend_resume_collection_rate = {
+_G.pg.base.gametip.friend_resume_collection_rate = {
 	tip = "收藏率:"
 }
 
-_G.pg.gametip.friend_resume_attack_count = {
+_G.pg.base.gametip.friend_resume_attack_count = {
 	tip = "出擊次數:"
 }
 
-_G.pg.gametip.friend_resume_attack_win_rate = {
+_G.pg.base.gametip.friend_resume_attack_win_rate = {
 	tip = "出擊勝率:"
 }
 
-_G.pg.gametip.friend_resume_manoeuvre_count = {
+_G.pg.base.gametip.friend_resume_manoeuvre_count = {
 	tip = "演習次數:"
 }
 
-_G.pg.gametip.friend_resume_manoeuvre_win_rate = {
+_G.pg.base.gametip.friend_resume_manoeuvre_win_rate = {
 	tip = "演習勝率:"
 }
 
-_G.pg.gametip.friend_resume_fleet_gs = {
+_G.pg.base.gametip.friend_resume_fleet_gs = {
 	tip = "艦隊實力:"
 }
 
-_G.pg.gametip.friend_event_count = {
+_G.pg.base.gametip.friend_event_count = {
 	tip = "完成委託:"
 }
 
-_G.pg.gametip.firend_relieve_blacklist_ok = {
+_G.pg.base.gametip.firend_relieve_blacklist_ok = {
 	tip = "解除成功"
 }
 
-_G.pg.gametip.firend_relieve_blacklist_tip = {
+_G.pg.base.gametip.firend_relieve_blacklist_tip = {
 	tip = "確定將玩家$1從黑名單移除？"
 }
 
-_G.pg.gametip.word_shipNation_all = {
+_G.pg.base.gametip.word_shipNation_all = {
 	tip = "全陣營"
 }
 
-_G.pg.gametip.word_shipNation_baiYing = {
+_G.pg.base.gametip.word_shipNation_baiYing = {
 	tip = "白鷹"
 }
 
-_G.pg.gametip.word_shipNation_huangJia = {
+_G.pg.base.gametip.word_shipNation_huangJia = {
 	tip = "皇家"
 }
 
-_G.pg.gametip.word_shipNation_chongYing = {
+_G.pg.base.gametip.word_shipNation_chongYing = {
 	tip = "重櫻"
 }
 
-_G.pg.gametip.word_shipNation_tieXue = {
+_G.pg.base.gametip.word_shipNation_tieXue = {
 	tip = "鐵血"
 }
 
-_G.pg.gametip.word_shipNation_dongHuang = {
+_G.pg.base.gametip.word_shipNation_dongHuang = {
 	tip = "東煌"
 }
 
-_G.pg.gametip.word_shipNation_saDing = {
+_G.pg.base.gametip.word_shipNation_saDing = {
 	tip = "薩丁帝國"
 }
 
-_G.pg.gametip.word_shipNation_beiLian = {
+_G.pg.base.gametip.word_shipNation_beiLian = {
 	tip = "北方聯合"
 }
 
-_G.pg.gametip.word_shipNation_other = {
+_G.pg.base.gametip.word_shipNation_other = {
 	tip = "其他"
 }
 
-_G.pg.gametip.word_shipNation_np = {
+_G.pg.base.gametip.word_shipNation_np = {
 	tip = "海王星"
 }
 
-_G.pg.gametip.word_shipNation_ziyou = {
+_G.pg.base.gametip.word_shipNation_ziyou = {
 	tip = "自由鳶尾"
 }
 
-_G.pg.gametip.word_shipNation_weixi = {
+_G.pg.base.gametip.word_shipNation_weixi = {
 	tip = "維希教廷"
 }
 
-_G.pg.gametip.word_shipNation_um = {
+_G.pg.base.gametip.word_shipNation_um = {
 	tip = "傳頌之物"
 }
 
-_G.pg.gametip.word_shipNation_ai = {
+_G.pg.base.gametip.word_shipNation_ai = {
 	tip = "KizunaAI"
 }
 
-_G.pg.gametip.word_shipNation_doa = {
+_G.pg.base.gametip.word_shipNation_doa = {
 	tip = "維納斯假期"
 }
 
-_G.pg.gametip.word_shipNation_imas = {
+_G.pg.base.gametip.word_shipNation_imas = {
 	tip = "偶像大師"
 }
 
-_G.pg.gametip.word_shipNation_link = {
+_G.pg.base.gametip.word_shipNation_link = {
 	tip = "聯動"
 }
 
-_G.pg.gametip.word_shipNation_ssss = {
+_G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
 }
 
-_G.pg.gametip.word_reset = {
+_G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
 
-_G.pg.gametip.word_asc = {
+_G.pg.base.gametip.word_asc = {
 	tip = "升序"
 }
 
-_G.pg.gametip.word_desc = {
+_G.pg.base.gametip.word_desc = {
 	tip = "降序"
 }
 
-_G.pg.gametip.word_own = {
+_G.pg.base.gametip.word_own = {
 	tip = "擁有的"
 }
 
-_G.pg.gametip.word_own1 = {
+_G.pg.base.gametip.word_own1 = {
 	tip = "擁有："
 }
 
-_G.pg.gametip.oil_buy_limit_tip = {
+_G.pg.base.gametip.oil_buy_limit_tip = {
 	tip = "<size=22>（今日購買次數剩餘<color=#FF0000>$1</color>/$2次）</size>"
 }
 
-_G.pg.gametip.friend_resume_title = {
+_G.pg.base.gametip.friend_resume_title = {
 	tip = "履歷"
 }
 
-_G.pg.gametip.friend_resume_data_title = {
+_G.pg.base.gametip.friend_resume_data_title = {
 	tip = "統計"
 }
 
-_G.pg.gametip.batch_destroy = {
+_G.pg.base.gametip.batch_destroy = {
 	tip = "批量分解"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_tip = {
 	tip = "請選擇要分解的裝備:"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_bonus_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_bonus_tip = {
 	tip = "分解獲得素材:"
 }
 
-_G.pg.gametip.equipment_select_device_destroy_nobonus_tip = {
+_G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
 	tip = "沒有任何素材"
 }
 
-_G.pg.gametip.ship_equip_profiiency = {
+_G.pg.base.gametip.ship_equip_profiiency = {
 	tip = "效率:$1%"
 }
 
-_G.pg.gametip.no_open_system_tip = {
+_G.pg.base.gametip.no_open_system_tip = {
 	tip = "<color=#A9F548>$1</color>將在指揮官等級達到<color=#A9F548>$2級</color>後開放"
 }
 
-_G.pg.gametip.open_system_tip = {
+_G.pg.base.gametip.open_system_tip = {
 	tip = "$1功能開啟啦！"
 }
 
-_G.pg.gametip.charge_start_tip = {
+_G.pg.base.gametip.charge_start_tip = {
 	tip = "購買後可以得到$2鑽石"
 }
 
-_G.pg.gametip.charge_double_gem_tip = {
+_G.pg.base.gametip.charge_double_gem_tip = {
 	tip = "首次儲值額外贈送$1鑽石"
 }
 
-_G.pg.gametip.charge_month_card_lefttime_tip = {
+_G.pg.base.gametip.charge_month_card_lefttime_tip = {
 	tip = "貿易許可證剩餘$1天"
 }
 
-_G.pg.gametip.charge_title = {
+_G.pg.base.gametip.charge_title = {
 	tip = "儲值$1元購買$2個$3"
 }
 
-_G.pg.gametip.charge_extra_gem_tip = {
+_G.pg.base.gametip.charge_extra_gem_tip = {
 	tip = "額外贈送$1鑽石"
 }
 
-_G.pg.gametip.charge_month_card_title = {
+_G.pg.base.gametip.charge_month_card_title = {
 	tip = "立即獲得$1鑽石一個月內每天獲得以下道具"
 }
 
-_G.pg.gametip.charge_items_title = {
+_G.pg.base.gametip.charge_items_title = {
 	tip = "獲得以下道具"
 }
 
-_G.pg.gametip.setting_interface_save_success = {
+_G.pg.base.gametip.setting_interface_save_success = {
 	tip = "佈局已保存！"
 }
 
-_G.pg.gametip.setting_interface_revert_check = {
+_G.pg.base.gametip.setting_interface_revert_check = {
 	tip = "確定將戰鬥鍵位還原到初始設定嗎？"
 }
 
-_G.pg.gametip.setting_interface_cancel_check = {
+_G.pg.base.gametip.setting_interface_cancel_check = {
 	tip = "確定取消當前修改設定？"
 }
 
-_G.pg.gametip.event_special_update = {
+_G.pg.base.gametip.event_special_update = {
 	tip = "出現緊急委託《$1》"
 }
 
-_G.pg.gametip.no_notice_tip = {
+_G.pg.base.gametip.no_notice_tip = {
 	tip = "暫時沒有什麼公告哦"
 }
 
-_G.pg.gametip.energy_desc_1 = {
+_G.pg.base.gametip.energy_desc_1 = {
 	tip = "san值低，請等待恢復\n<color=#FF552E>（繼續出擊將降低好感）</color>"
 }
 
-_G.pg.gametip.energy_desc_2 = {
+_G.pg.base.gametip.energy_desc_2 = {
 	tip = "已經感到有點不開心啦~\n適當的休息一下吧？"
 }
 
-_G.pg.gametip.energy_desc_3 = {
+_G.pg.base.gametip.energy_desc_3 = {
 	tip = "希望每天都能有這樣的好心情"
 }
 
-_G.pg.gametip.energy_desc_4 = {
+_G.pg.base.gametip.energy_desc_4 = {
 	tip = "感覺一定會有好事情發生呢~\n<color=#A9F548>（經驗收益增加）</color>"
 }
 
-_G.pg.gametip.intimacy_desc_1 = {
+_G.pg.base.gametip.intimacy_desc_1 = {
 	tip = "$1對你感到很失望"
 }
 
-_G.pg.gametip.intimacy_desc_2 = {
+_G.pg.base.gametip.intimacy_desc_2 = {
 	tip = "$1正試著更加地了解你"
 }
 
-_G.pg.gametip.intimacy_desc_3 = {
+_G.pg.base.gametip.intimacy_desc_3 = {
 	tip = "$1覺得你是值得信賴的指揮官"
 }
 
-_G.pg.gametip.intimacy_desc_4 = {
+_G.pg.base.gametip.intimacy_desc_4 = {
 	tip = "只要和你在一起，$1就很開心"
 }
 
-_G.pg.gametip.intimacy_desc_5 = {
+_G.pg.base.gametip.intimacy_desc_5 = {
 	tip = "$1看向你的眼神充滿了愛意"
 }
 
-_G.pg.gametip.intimacy_desc_6 = {
+_G.pg.base.gametip.intimacy_desc_6 = {
 	tip = "$1覺得可以把一切都託付給你"
 }
 
-_G.pg.gametip.intimacy_desc_7 = {
+_G.pg.base.gametip.intimacy_desc_7 = {
 	tip = "$1覺得可以把一切都託付給你"
 }
 
-_G.pg.gametip.intimacy_desc_1_buff = {
+_G.pg.base.gametip.intimacy_desc_1_buff = {
 	tip = "當前加成：無加成"
 }
 
-_G.pg.gametip.intimacy_desc_2_buff = {
+_G.pg.base.gametip.intimacy_desc_2_buff = {
 	tip = "當前加成：無加成"
 }
 
-_G.pg.gametip.intimacy_desc_3_buff = {
+_G.pg.base.gametip.intimacy_desc_3_buff = {
 	tip = "當前加成：全基礎屬性（除航速，裝備不計）提高1%"
 }
 
-_G.pg.gametip.intimacy_desc_4_buff = {
+_G.pg.base.gametip.intimacy_desc_4_buff = {
 	tip = "當前加成：全基礎屬性（除航速，裝備不計）提高3%"
 }
 
-_G.pg.gametip.intimacy_desc_5_buff = {
+_G.pg.base.gametip.intimacy_desc_5_buff = {
 	tip = "當前加成：全基礎屬性（除航速，裝備不計）提高6%"
 }
 
-_G.pg.gametip.intimacy_desc_6_buff = {
+_G.pg.base.gametip.intimacy_desc_6_buff = {
 	tip = "當前加成：全基礎屬性（除航速，裝備不計）提高9%"
 }
 
-_G.pg.gametip.intimacy_desc_7_buff = {
+_G.pg.base.gametip.intimacy_desc_7_buff = {
 	tip = "當前加成：全基礎屬性（除航速，裝備不計）提高12%"
 }
 
-_G.pg.gametip.intimacy_desc_propose = {
+_G.pg.base.gametip.intimacy_desc_propose = {
 	tip = [[
 愛為引路之燈，情乃係心之線
 期盼對方之笑容，祈願對方之期盼
@@ -4921,27 +4921,27 @@ _G.pg.gametip.intimacy_desc_propose = {
 誓約日$1]]
 }
 
-_G.pg.gametip.intimacy_desc_1_detail = {
+_G.pg.base.gametip.intimacy_desc_1_detail = {
 	tip = "$1對你感到很失望\n<color=#fad545><size=18>（無加成）</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_2_detail = {
+_G.pg.base.gametip.intimacy_desc_2_detail = {
 	tip = "$1正試著更加地了解你\n<color=#fad545><size=18>（無加成）</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_3_detail = {
+_G.pg.base.gametip.intimacy_desc_3_detail = {
 	tip = "$1覺得你是值得信賴的指揮官\n<color=#A9F548><size=18>所有基礎屬性（除航速）提高1%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_4_detail = {
+_G.pg.base.gametip.intimacy_desc_4_detail = {
 	tip = "只要和你在一起，$1就很開心\n<color=#A9F548><size=18>所有基礎屬性（除航速）提高3%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_5_detail = {
+_G.pg.base.gametip.intimacy_desc_5_detail = {
 	tip = "$1看向你的眼神充滿了愛意\n<color=#A9F548><size=18>所有基礎屬性（除航速）提高6%</size></color>"
 }
 
-_G.pg.gametip.intimacy_desc_6_detail = {
+_G.pg.base.gametip.intimacy_desc_6_detail = {
 	tip = [[
 愛為引路之燈，情乃係心之線
 期盼對方之笑容，祈願對方之期盼
@@ -4950,7 +4950,7 @@ _G.pg.gametip.intimacy_desc_6_detail = {
 誓約日$1]]
 }
 
-_G.pg.gametip.intimacy_desc_7_detail = {
+_G.pg.base.gametip.intimacy_desc_7_detail = {
 	tip = [[
 愛為引路之燈，情乃係心之線
 期盼對方之笑容，祈願對方之期盼
@@ -4959,79 +4959,79 @@ _G.pg.gametip.intimacy_desc_7_detail = {
 誓約日$1]]
 }
 
-_G.pg.gametip.intimacy_desc_ring = {
+_G.pg.base.gametip.intimacy_desc_ring = {
 	tip = "擁有一枚誓約戒指"
 }
 
-_G.pg.gametip.intimacy_desc_tiara = {
+_G.pg.base.gametip.intimacy_desc_tiara = {
 	tip = "擁有一頂誓約之冠"
 }
 
-_G.pg.gametip.intimacy_desc_day = {
+_G.pg.base.gametip.intimacy_desc_day = {
 	tip = "誓約日"
 }
 
-_G.pg.gametip.word_propose_cost_tip1 = {
+_G.pg.base.gametip.word_propose_cost_tip1 = {
 	tip = "誓約需要消耗<color=#92fc63>1</color>頂誓約之冠（當前擁有<color=#92fc63>$1</color>頂）\n\n<size=32>*誓約後角色獲得<color=#92fc63>3%</color>屬性加成<color=#ff5c5c>但無法更名</color></size>"
 }
 
-_G.pg.gametip.word_propose_cost_tip2 = {
+_G.pg.base.gametip.word_propose_cost_tip2 = {
 	tip = "是否消耗<color=#92fc63>1</color>枚誓約之戒兌換為<color=#92fc63>1</color>頂誓約之冠\n<color=#ff5c5c>兌換操作無法撤回，以此誓約的角色無法更名</color>"
 }
 
-_G.pg.gametip.word_propose_tiara_tip = {
+_G.pg.base.gametip.word_propose_tiara_tip = {
 	tip = "為她戴上誓約之冠吧"
 }
 
-_G.pg.gametip.charge_title_getitem = {
+_G.pg.base.gametip.charge_title_getitem = {
 	tip = "可以獲得以下道具："
 }
 
-_G.pg.gametip.charge_title_getitem_soon = {
+_G.pg.base.gametip.charge_title_getitem_soon = {
 	tip = "購買後立刻獲得："
 }
 
-_G.pg.gametip.charge_title_getitem_month = {
+_G.pg.base.gametip.charge_title_getitem_month = {
 	tip = "購買後30天內每天獲得："
 }
 
-_G.pg.gametip.charge_limit_all = {
+_G.pg.base.gametip.charge_limit_all = {
 	tip = "可購買次數：$1/$2"
 }
 
-_G.pg.gametip.charge_limit_daily = {
+_G.pg.base.gametip.charge_limit_daily = {
 	tip = "本日可購買次數：$1"
 }
 
-_G.pg.gametip.charge_limit_weekly = {
+_G.pg.base.gametip.charge_limit_weekly = {
 	tip = "本週可購買次數：$1"
 }
 
-_G.pg.gametip.charge_error = {
+_G.pg.base.gametip.charge_error = {
 	tip = "儲值失敗"
 }
 
-_G.pg.gametip.charge_success = {
+_G.pg.base.gametip.charge_success = {
 	tip = "儲值成功"
 }
 
-_G.pg.gametip.charge_level_limit = {
+_G.pg.base.gametip.charge_level_limit = {
 	tip = "等級尚未達到"
 }
 
-_G.pg.gametip.ship_drop_desc_default = {
+_G.pg.base.gametip.ship_drop_desc_default = {
 	tip = "獲得一名角色"
 }
 
-_G.pg.gametip.charge_limit_lv = {
+_G.pg.base.gametip.charge_limit_lv = {
 	tip = "$1級解鎖"
 }
 
-_G.pg.gametip.charge_time_out = {
+_G.pg.base.gametip.charge_time_out = {
 	tip = "正在進行付款，如已付款請耐心等候商品發放"
 }
 
-_G.pg.gametip.help_shipinfo_equip = {
+_G.pg.base.gametip.help_shipinfo_equip = {
 	tip = {
 		{
 			icon = {
@@ -5099,7 +5099,7 @@ _G.pg.gametip.help_shipinfo_equip = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_detail = {
+_G.pg.base.gametip.help_shipinfo_detail = {
 	tip = {
 		{
 			icon = {
@@ -5173,7 +5173,7 @@ _G.pg.gametip.help_shipinfo_detail = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_intensify = {
+_G.pg.base.gametip.help_shipinfo_intensify = {
 	tip = {
 		{
 			icon = {
@@ -5241,7 +5241,7 @@ _G.pg.gametip.help_shipinfo_intensify = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_upgrate = {
+_G.pg.base.gametip.help_shipinfo_upgrate = {
 	tip = {
 		{
 			icon = {
@@ -5309,7 +5309,7 @@ _G.pg.gametip.help_shipinfo_upgrate = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_maxlevel = {
+_G.pg.base.gametip.help_shipinfo_maxlevel = {
 	tip = {
 		{
 			icon = {
@@ -5377,7 +5377,7 @@ _G.pg.gametip.help_shipinfo_maxlevel = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_actnpc = {
+_G.pg.base.gametip.help_shipinfo_actnpc = {
 	tip = {
 		{
 			info = [[
@@ -5396,7 +5396,7 @@ NPC角色說明：<color=#92fc63>(NPC角色不可參與部分港區功能,詳見
 	}
 }
 
-_G.pg.gametip.help_backyard = {
+_G.pg.base.gametip.help_backyard = {
 	tip = {
 		{
 			icon = {
@@ -5446,7 +5446,7 @@ _G.pg.gametip.help_backyard = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_fashion = {
+_G.pg.base.gametip.help_shipinfo_fashion = {
 	tip = {
 		{
 			info = [[
@@ -5458,7 +5458,7 @@ _G.pg.gametip.help_shipinfo_fashion = {
 	}
 }
 
-_G.pg.gametip.help_shipinfo_attr = {
+_G.pg.base.gametip.help_shipinfo_attr = {
 	tip = {
 		{
 			info = "1.加成顯示："
@@ -5633,7 +5633,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 	}
 }
 
-_G.pg.gametip.help_equipment = {
+_G.pg.base.gametip.help_equipment = {
 	tip = {
 		{
 			info = [[
@@ -5665,7 +5665,7 @@ _G.pg.gametip.help_equipment = {
 	}
 }
 
-_G.pg.gametip.help_equipment_skin = {
+_G.pg.base.gametip.help_equipment_skin = {
 	tip = {
 		{
 			info = [[
@@ -5681,7 +5681,7 @@ _G.pg.gametip.help_equipment_skin = {
 	}
 }
 
-_G.pg.gametip.help_daily_task = {
+_G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
@@ -5722,7 +5722,7 @@ _G.pg.gametip.help_daily_task = {
 	}
 }
 
-_G.pg.gametip.help_build = {
+_G.pg.base.gametip.help_build = {
 	tip = [[
 					   <size=25>$1建造機率分布</size>
 
@@ -5732,7 +5732,7 @@ _G.pg.gametip.help_build = {
 							 普通舰船：$5%]]
 }
 
-_G.pg.gametip.help_shipinfo_hunting = {
+_G.pg.base.gametip.help_shipinfo_hunting = {
 	tip = {
 		{
 			info = [[
@@ -5757,231 +5757,231 @@ _G.pg.gametip.help_shipinfo_hunting = {
 	}
 }
 
-_G.pg.gametip.shop_extendship_success = {
+_G.pg.base.gametip.shop_extendship_success = {
 	tip = "船塢擴充成功"
 }
 
-_G.pg.gametip.shop_extendequip_success = {
+_G.pg.base.gametip.shop_extendequip_success = {
 	tip = "裝備欄位擴充成功"
 }
 
-_G.pg.gametip.naval_academy_res_desc_cateen = {
+_G.pg.base.gametip.naval_academy_res_desc_cateen = {
 	tip = "少女們進食的地方，升級設施可以提高每日<color=#A9F548>燃油的產量</color>和<color=#A9F548>庫存上限</color>"
 }
 
-_G.pg.gametip.naval_academy_res_desc_shop = {
+_G.pg.base.gametip.naval_academy_res_desc_shop = {
 	tip = "學院的合作社，升級設施可以提高每日<color=#A9F548>金幣的產量</color>和<color=#A9F548>庫存上限</color>"
 }
 
-_G.pg.gametip.naval_academy_res_desc_class = {
+_G.pg.base.gametip.naval_academy_res_desc_class = {
 	tip = "學院的大講堂，升級設施可以提高<color=#92fc63>艦艇演習數據庫存上限、熟練度上限</color>和<color=#92fc63>熟練度獲取比例</color>等相關數值"
 }
 
-_G.pg.gametip.number_1 = {
+_G.pg.base.gametip.number_1 = {
 	tip = "一"
 }
 
-_G.pg.gametip.number_2 = {
+_G.pg.base.gametip.number_2 = {
 	tip = "二"
 }
 
-_G.pg.gametip.number_3 = {
+_G.pg.base.gametip.number_3 = {
 	tip = "三"
 }
 
-_G.pg.gametip.number_4 = {
+_G.pg.base.gametip.number_4 = {
 	tip = "四"
 }
 
-_G.pg.gametip.number_5 = {
+_G.pg.base.gametip.number_5 = {
 	tip = "五"
 }
 
-_G.pg.gametip.number_6 = {
+_G.pg.base.gametip.number_6 = {
 	tip = "六"
 }
 
-_G.pg.gametip.number_7 = {
+_G.pg.base.gametip.number_7 = {
 	tip = "七"
 }
 
-_G.pg.gametip.number_8 = {
+_G.pg.base.gametip.number_8 = {
 	tip = "八"
 }
 
-_G.pg.gametip.number_9 = {
+_G.pg.base.gametip.number_9 = {
 	tip = "九"
 }
 
-_G.pg.gametip.number_10 = {
+_G.pg.base.gametip.number_10 = {
 	tip = "十"
 }
 
-_G.pg.gametip.military_shop_no_open_tip = {
+_G.pg.base.gametip.military_shop_no_open_tip = {
 	tip = "<color=#A9F548>軍需商店</color>將在指揮官等級達到<color=#A9F548>15級</color>後開放"
 }
 
-_G.pg.gametip.switch_to_shop_tip_1 = {
+_G.pg.base.gametip.switch_to_shop_tip_1 = {
 	tip = "所需材料不足，是否前往商店購買？"
 }
 
-_G.pg.gametip.switch_to_shop_tip_2 = {
+_G.pg.base.gametip.switch_to_shop_tip_2 = {
 	tip = "$1不足，是否前往商店購買？"
 }
 
-_G.pg.gametip.switch_to_shop_tip_3 = {
+_G.pg.base.gametip.switch_to_shop_tip_3 = {
 	tip = "$1不足，是否前往購買？"
 }
 
-_G.pg.gametip.switch_to_shop_tip_noPos = {
+_G.pg.base.gametip.switch_to_shop_tip_noPos = {
 	tip = "倉庫已滿，請前往整理或擴充"
 }
 
-_G.pg.gametip.text_noPos_clear = {
+_G.pg.base.gametip.text_noPos_clear = {
 	tip = "整理"
 }
 
-_G.pg.gametip.text_noPos_buy = {
+_G.pg.base.gametip.text_noPos_buy = {
 	tip = "擴充"
 }
 
-_G.pg.gametip.text_noPos_intensify = {
+_G.pg.base.gametip.text_noPos_intensify = {
 	tip = "強化"
 }
 
-_G.pg.gametip.switch_to_shop_tip_noDockyard = {
+_G.pg.base.gametip.switch_to_shop_tip_noDockyard = {
 	tip = "船塢已滿，請前往整理或擴充"
 }
 
-_G.pg.gametip.commission_no_open = {
+_G.pg.base.gametip.commission_no_open = {
 	tip = "未開啟"
 }
 
-_G.pg.gametip.commission_open_tip = {
+_G.pg.base.gametip.commission_open_tip = {
 	tip = "通過章節$1解鎖"
 }
 
-_G.pg.gametip.commission_idle = {
+_G.pg.base.gametip.commission_idle = {
 	tip = "閒置中..."
 }
 
-_G.pg.gametip.commission_urgency = {
+_G.pg.base.gametip.commission_urgency = {
 	tip = "緊急委託:"
 }
 
-_G.pg.gametip.commission_normal = {
+_G.pg.base.gametip.commission_normal = {
 	tip = "軍事委託:"
 }
 
-_G.pg.gametip.commission_get_award = {
+_G.pg.base.gametip.commission_get_award = {
 	tip = "領取資源:$1 x $2"
 }
 
-_G.pg.gametip.activity_build_end_tip = {
+_G.pg.base.gametip.activity_build_end_tip = {
 	tip = "該活動已結束，無法建造"
 }
 
-_G.pg.gametip.event_over_time_expired = {
+_G.pg.base.gametip.event_over_time_expired = {
 	tip = "委託已過期"
 }
 
-_G.pg.gametip.mail_sender_default = {
+_G.pg.base.gametip.mail_sender_default = {
 	tip = "司令部"
 }
 
-_G.pg.gametip.exchangecode_title = {
+_G.pg.base.gametip.exchangecode_title = {
 	tip = "輸入兌換碼"
 }
 
-_G.pg.gametip.exchangecode_use_placeholder = {
+_G.pg.base.gametip.exchangecode_use_placeholder = {
 	tip = "僅限英文數字組合"
 }
 
-_G.pg.gametip.exchangecode_use_ok = {
+_G.pg.base.gametip.exchangecode_use_ok = {
 	tip = "兌換碼使用成功，獎勵已發送到信箱，請注意查收"
 }
 
-_G.pg.gametip.exchangecode_use_error = {
+_G.pg.base.gametip.exchangecode_use_error = {
 	tip = "使用失敗，"
 }
 
-_G.pg.gametip.exchangecode_use_error_3 = {
+_G.pg.base.gametip.exchangecode_use_error_3 = {
 	tip = "兌換碼已過期"
 }
 
-_G.pg.gametip.exchangecode_use_error_6 = {
+_G.pg.base.gametip.exchangecode_use_error_6 = {
 	tip = "已到使用上限"
 }
 
-_G.pg.gametip.exchangecode_use_error_7 = {
+_G.pg.base.gametip.exchangecode_use_error_7 = {
 	tip = "已經使用過的兌換碼"
 }
 
-_G.pg.gametip.exchangecode_use_error_8 = {
+_G.pg.base.gametip.exchangecode_use_error_8 = {
 	tip = "兌換碼不存在"
 }
 
-_G.pg.gametip.exchangecode_use_error_9 = {
+_G.pg.base.gametip.exchangecode_use_error_9 = {
 	tip = "兌換碼不存在"
 }
 
-_G.pg.gametip.exchangecode_use_error_16 = {
+_G.pg.base.gametip.exchangecode_use_error_16 = {
 	tip = "已經兌換過"
 }
 
-_G.pg.gametip.exchangecode_use_error_20 = {
+_G.pg.base.gametip.exchangecode_use_error_20 = {
 	tip = "兌換碼不存在"
 }
 
-_G.pg.gametip.text_noRes_tip = {
+_G.pg.base.gametip.text_noRes_tip = {
 	tip = "還需要:$1"
 }
 
-_G.pg.gametip.text_noRes_info_tip = {
+_G.pg.base.gametip.text_noRes_info_tip = {
 	tip = "<color=#FF0000>$2$1</color>"
 }
 
-_G.pg.gametip.text_noRes_info_tip_link = {
+_G.pg.base.gametip.text_noRes_info_tip_link = {
 	tip = "和"
 }
 
-_G.pg.gametip.text_noRes_info_tip2 = {
+_G.pg.base.gametip.text_noRes_info_tip2 = {
 	tip = "<color=#FF0000>$2</color>個<color=#FF0000>$1</color>"
 }
 
-_G.pg.gametip.text_shop_noRes_tip = {
+_G.pg.base.gametip.text_shop_noRes_tip = {
 	tip = "指揮官還需要$1喵！"
 }
 
-_G.pg.gametip.text_shop_enoughRes_tip = {
+_G.pg.base.gametip.text_shop_enoughRes_tip = {
 	tip = "指揮官的物資已經補充齊全了喵！"
 }
 
-_G.pg.gametip.text_buy_fashion_tip = {
+_G.pg.base.gametip.text_buy_fashion_tip = {
 	tip = "是否消耗<color=#A9F548FF>$1</color>鑽石購買<color=#A9F548FF>$2</color>？"
 }
 
-_G.pg.gametip.equip_part_title = {
+_G.pg.base.gametip.equip_part_title = {
 	tip = "適用"
 }
 
-_G.pg.gametip.equip_part_main_title = {
+_G.pg.base.gametip.equip_part_main_title = {
 	tip = "適用（主炮）"
 }
 
-_G.pg.gametip.equip_part_sub_title = {
+_G.pg.base.gametip.equip_part_sub_title = {
 	tip = "適用（副炮）"
 }
 
-_G.pg.gametip.equipment_upgrade_overlimit = {
+_G.pg.base.gametip.equipment_upgrade_overlimit = {
 	tip = "已到達強化上限"
 }
 
-_G.pg.gametip.err_name_existOtherChar = {
+_G.pg.base.gametip.err_name_existOtherChar = {
 	tip = "只能輸入中文、英文或數字"
 }
 
-_G.pg.gametip.help_battle_rule = {
+_G.pg.base.gametip.help_battle_rule = {
 	tip = {
 		{
 			icon = {
@@ -6031,7 +6031,7 @@ _G.pg.gametip.help_battle_rule = {
 	}
 }
 
-_G.pg.gametip.help_battle_warspite = {
+_G.pg.base.gametip.help_battle_warspite = {
 	tip = {
 		{
 			icon = {
@@ -6057,7 +6057,7 @@ _G.pg.gametip.help_battle_warspite = {
 	}
 }
 
-_G.pg.gametip.help_battle_defense = {
+_G.pg.base.gametip.help_battle_defense = {
 	tip = {
 		{
 			icon = {
@@ -6113,35 +6113,35 @@ _G.pg.gametip.help_battle_defense = {
 	}
 }
 
-_G.pg.gametip.backyard_theme_set_tip = {
+_G.pg.base.gametip.backyard_theme_set_tip = {
 	tip = "請選擇將要對<color=#5FD500>$1</color>進行的操作"
 }
 
-_G.pg.gametip.backyard_theme_save_tip = {
+_G.pg.base.gametip.backyard_theme_save_tip = {
 	tip = "是否確定要將當前後宅配置儲存為\n<color=#5FD500>$1</color>"
 }
 
-_G.pg.gametip.backyard_theme_defaultname = {
+_G.pg.base.gametip.backyard_theme_defaultname = {
 	tip = "自定義主題"
 }
 
-_G.pg.gametip.backyard_rename_success = {
+_G.pg.base.gametip.backyard_rename_success = {
 	tip = "後宅更名成功"
 }
 
-_G.pg.gametip.ship_set_skin_success = {
+_G.pg.base.gametip.ship_set_skin_success = {
 	tip = "更換換裝成功"
 }
 
-_G.pg.gametip.ship_set_skin_error = {
+_G.pg.base.gametip.ship_set_skin_error = {
 	tip = "更換換裝失敗:"
 }
 
-_G.pg.gametip.equip_part_tip = {
+_G.pg.base.gametip.equip_part_tip = {
 	tip = "*點擊查看適用艦種"
 }
 
-_G.pg.gametip.help_battle_auto = {
+_G.pg.base.gametip.help_battle_auto = {
 	tip = {
 		{
 			line = true,
@@ -6168,19 +6168,19 @@ _G.pg.gametip.help_battle_auto = {
 	}
 }
 
-_G.pg.gametip.gold_buy_tip = {
+_G.pg.base.gametip.gold_buy_tip = {
 	tip = "<size=30>花費</size><icon name=diamond w=0.7 h=0.7/><size=33><color=#A9F548>100</color></size>購買 <size=33><color=#A9F548>3000</color></size>物資"
 }
 
-_G.pg.gametip.oil_buy_tip = {
+_G.pg.base.gametip.oil_buy_tip = {
 	tip = "<size=30>花費</size><icon name=diamond w=0.7 h=0.7/><size=33><color=#A9F548>$1</color></size> 購買 <size=33><color=#A9F548>$2</color></size><size=30> 石油</size><size=2>\n\n</size>( 今日已經購買 <size=33><color=#FF0000>$3</color></size> 次 )"
 }
 
-_G.pg.gametip.text_iknow = {
+_G.pg.base.gametip.text_iknow = {
 	tip = "我知道了"
 }
 
-_G.pg.gametip.help_oil_buy_limit = {
+_G.pg.base.gametip.help_oil_buy_limit = {
 	tip = {
 		{
 			line = true,
@@ -6204,651 +6204,651 @@ _G.pg.gametip.help_oil_buy_limit = {
 	}
 }
 
-_G.pg.gametip.text_nofood_yes = {
+_G.pg.base.gametip.text_nofood_yes = {
 	tip = "投食"
 }
 
-_G.pg.gametip.text_nofood_no = {
+_G.pg.base.gametip.text_nofood_no = {
 	tip = "無視"
 }
 
-_G.pg.gametip.tip_add_task = {
+_G.pg.base.gametip.tip_add_task = {
 	tip = "接到新任務：$1"
 }
 
-_G.pg.gametip.collection_award_ship = {
+_G.pg.base.gametip.collection_award_ship = {
 	tip = "$1已研發完成，加入建造隊列"
 }
 
-_G.pg.gametip.guild_create_sucess = {
+_G.pg.base.gametip.guild_create_sucess = {
 	tip = "創建大艦隊成功"
 }
 
-_G.pg.gametip.guild_create_error = {
+_G.pg.base.gametip.guild_create_error = {
 	tip = "創建大艦隊失敗"
 }
 
-_G.pg.gametip.guild_create_error_noname = {
+_G.pg.base.gametip.guild_create_error_noname = {
 	tip = "大艦隊代號不能為空"
 }
 
-_G.pg.gametip.guild_create_error_nofaction = {
+_G.pg.base.gametip.guild_create_error_nofaction = {
 	tip = "大艦隊陣營不能為空"
 }
 
-_G.pg.gametip.guild_create_error_nopolicy = {
+_G.pg.base.gametip.guild_create_error_nopolicy = {
 	tip = "大艦隊方針不能為空"
 }
 
-_G.pg.gametip.guild_create_error_nomanifesto = {
+_G.pg.base.gametip.guild_create_error_nomanifesto = {
 	tip = "大艦隊宣言不能為空"
 }
 
-_G.pg.gametip.guild_create_error_nomoney = {
+_G.pg.base.gametip.guild_create_error_nomoney = {
 	tip = "鑽石不夠啦"
 }
 
-_G.pg.gametip.guild_tip_dissolve = {
+_G.pg.base.gametip.guild_tip_dissolve = {
 	tip = "大艦隊一旦解散將無法恢復，是否確認解散大艦隊？"
 }
 
-_G.pg.gametip.guild_tip_quit = {
+_G.pg.base.gametip.guild_tip_quit = {
 	tip = "是否確認退出大艦隊？"
 }
 
-_G.pg.gametip.guild_create_confirm = {
+_G.pg.base.gametip.guild_create_confirm = {
 	tip = "是否花費<icon name=diamond w=0.7 h=0.7/><color=#A9F548FF>$1</color>創建大艦隊"
 }
 
-_G.pg.gametip.guild_apply_erro = {
+_G.pg.base.gametip.guild_apply_erro = {
 	tip = "大艦隊申請失敗"
 }
 
-_G.pg.gametip.guild_dissolve_erro = {
+_G.pg.base.gametip.guild_dissolve_erro = {
 	tip = "大艦隊解散失敗"
 }
 
-_G.pg.gametip.guild_fire_erro = {
+_G.pg.base.gametip.guild_fire_erro = {
 	tip = "大艦隊成員開除失敗"
 }
 
-_G.pg.gametip.guild_impeach_erro = {
+_G.pg.base.gametip.guild_impeach_erro = {
 	tip = "大艦隊司令彈劾失敗"
 }
 
-_G.pg.gametip.guild_quit_erro = {
+_G.pg.base.gametip.guild_quit_erro = {
 	tip = "大艦隊退出失敗"
 }
 
-_G.pg.gametip.guild_accept_erro = {
+_G.pg.base.gametip.guild_accept_erro = {
 	tip = "通過申請失敗"
 }
 
-_G.pg.gametip.guild_reject_erro = {
+_G.pg.base.gametip.guild_reject_erro = {
 	tip = "拒絕申請失敗"
 }
 
-_G.pg.gametip.guild_modify_erro = {
+_G.pg.base.gametip.guild_modify_erro = {
 	tip = "修改訊息失敗"
 }
 
-_G.pg.gametip.guild_setduty_erro = {
+_G.pg.base.gametip.guild_setduty_erro = {
 	tip = "設置職務失敗"
 }
 
-_G.pg.gametip.guild_apply_sucess = {
+_G.pg.base.gametip.guild_apply_sucess = {
 	tip = "申請成功"
 }
 
-_G.pg.gametip.guild_no_exist = {
+_G.pg.base.gametip.guild_no_exist = {
 	tip = "大艦隊不存在"
 }
 
-_G.pg.gametip.guild_dissolve_sucess = {
+_G.pg.base.gametip.guild_dissolve_sucess = {
 	tip = "解散大艦隊成功"
 }
 
-_G.pg.gametip.guild_commder_in_impeach_time = {
+_G.pg.base.gametip.guild_commder_in_impeach_time = {
 	tip = "司令處於彈劾期"
 }
 
-_G.pg.gametip.guild_impeach_sucess = {
+_G.pg.base.gametip.guild_impeach_sucess = {
 	tip = "彈劾成功"
 }
 
-_G.pg.gametip.guild_quit_sucess = {
+_G.pg.base.gametip.guild_quit_sucess = {
 	tip = "退出大艦隊成功"
 }
 
-_G.pg.gametip.guild_member_max_count = {
+_G.pg.base.gametip.guild_member_max_count = {
 	tip = "已達到大艦隊最大人數限制"
 }
 
-_G.pg.gametip.guild_new_member_join = {
+_G.pg.base.gametip.guild_new_member_join = {
 	tip = "新成員加入成功"
 }
 
-_G.pg.gametip.guild_player_in_cd_time = {
+_G.pg.base.gametip.guild_player_in_cd_time = {
 	tip = "對方離開公會時間未到24小時無法加入"
 }
 
-_G.pg.gametip.guild_player_already_join = {
+_G.pg.base.gametip.guild_player_already_join = {
 	tip = "對方已經加入公會"
 }
 
-_G.pg.gametip.guild_rejecet_apply_sucess = {
+_G.pg.base.gametip.guild_rejecet_apply_sucess = {
 	tip = "拒絕申請成功"
 }
 
-_G.pg.gametip.guild_should_input_keyword = {
+_G.pg.base.gametip.guild_should_input_keyword = {
 	tip = "尚未輸入關鍵字"
 }
 
-_G.pg.gametip.guild_search_sucess = {
+_G.pg.base.gametip.guild_search_sucess = {
 	tip = "搜尋完成"
 }
 
-_G.pg.gametip.guild_list_refresh_sucess = {
+_G.pg.base.gametip.guild_list_refresh_sucess = {
 	tip = "大艦隊列表重整成功"
 }
 
-_G.pg.gametip.guild_info_update = {
+_G.pg.base.gametip.guild_info_update = {
 	tip = "大艦隊訊息更新成功"
 }
 
-_G.pg.gametip.guild_duty_id_is_null = {
+_G.pg.base.gametip.guild_duty_id_is_null = {
 	tip = "職位不能為空"
 }
 
-_G.pg.gametip.guild_player_is_null = {
+_G.pg.base.gametip.guild_player_is_null = {
 	tip = "玩家不能為空"
 }
 
-_G.pg.gametip.guild_duty_commder_max_count = {
+_G.pg.base.gametip.guild_duty_commder_max_count = {
 	tip = "副司令已達最大人數"
 }
 
-_G.pg.gametip.guild_set_duty_sucess = {
+_G.pg.base.gametip.guild_set_duty_sucess = {
 	tip = "設置職務成功"
 }
 
-_G.pg.gametip.guild_policy_power = {
+_G.pg.base.gametip.guild_policy_power = {
 	tip = "最強艦隊"
 }
 
-_G.pg.gametip.guild_policy_relax = {
+_G.pg.base.gametip.guild_policy_relax = {
 	tip = "休閒艦隊"
 }
 
-_G.pg.gametip.guild_faction_blhx = {
+_G.pg.base.gametip.guild_faction_blhx = {
 	tip = "碧藍航線"
 }
 
-_G.pg.gametip.guild_faction_cszz = {
+_G.pg.base.gametip.guild_faction_cszz = {
 	tip = "赤色中軸"
 }
 
-_G.pg.gametip.guild_faction_unknown = {
+_G.pg.base.gametip.guild_faction_unknown = {
 	tip = "????"
 }
 
-_G.pg.gametip.guild_faction_meta = {
+_G.pg.base.gametip.guild_faction_meta = {
 	tip = "META"
 }
 
-_G.pg.gametip.guild_word_commder = {
+_G.pg.base.gametip.guild_word_commder = {
 	tip = "司令"
 }
 
-_G.pg.gametip.guild_word_deputy_commder = {
+_G.pg.base.gametip.guild_word_deputy_commder = {
 	tip = "副司令"
 }
 
-_G.pg.gametip.guild_word_picked = {
+_G.pg.base.gametip.guild_word_picked = {
 	tip = "精英"
 }
 
-_G.pg.gametip.guild_word_ordinary = {
+_G.pg.base.gametip.guild_word_ordinary = {
 	tip = "普通"
 }
 
-_G.pg.gametip.guild_word_home = {
+_G.pg.base.gametip.guild_word_home = {
 	tip = "主頁"
 }
 
-_G.pg.gametip.guild_word_member = {
+_G.pg.base.gametip.guild_word_member = {
 	tip = "成員"
 }
 
-_G.pg.gametip.guild_word_apply = {
+_G.pg.base.gametip.guild_word_apply = {
 	tip = "申請"
 }
 
-_G.pg.gametip.guild_faction_change_tip = {
+_G.pg.base.gametip.guild_faction_change_tip = {
 	tip = "頻繁更換陣營是不被人們認同的，每次更換陣營後需要至少30天的緩衝期，是否確認更換陣營？"
 }
 
-_G.pg.gametip.guild_msg_is_null = {
+_G.pg.base.gametip.guild_msg_is_null = {
 	tip = "不能發送空白訊息"
 }
 
-_G.pg.gametip.guild_log_new_guild_join = {
+_G.pg.base.gametip.guild_log_new_guild_join = {
 	tip = "新成員<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>加入大艦隊"
 }
 
-_G.pg.gametip.guild_log_duty_change = {
+_G.pg.base.gametip.guild_log_duty_change = {
 	tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>職務變更為$2"
 }
 
-_G.pg.gametip.guild_log_quit = {
+_G.pg.base.gametip.guild_log_quit = {
 	tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>離開大艦隊"
 }
 
-_G.pg.gametip.guild_log_fire = {
+_G.pg.base.gametip.guild_log_fire = {
 	tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>被開除出了大艦隊"
 }
 
-_G.pg.gametip.guild_leave_cd_time = {
+_G.pg.base.gametip.guild_leave_cd_time = {
 	tip = "離開大艦隊後需要等待24小時後才能加入新的大艦隊"
 }
 
-_G.pg.gametip.guild_sort_time = {
+_G.pg.base.gametip.guild_sort_time = {
 	tip = "時間"
 }
 
-_G.pg.gametip.guild_sort_level = {
+_G.pg.base.gametip.guild_sort_level = {
 	tip = "等級"
 }
 
-_G.pg.gametip.guild_sort_duty = {
+_G.pg.base.gametip.guild_sort_duty = {
 	tip = "職務"
 }
 
-_G.pg.gametip.guild_fire_tip = {
+_G.pg.base.gametip.guild_fire_tip = {
 	tip = "確定開除該成員？"
 }
 
-_G.pg.gametip.guild_impeach_tip = {
+_G.pg.base.gametip.guild_impeach_tip = {
 	tip = "確定彈劾司令？"
 }
 
-_G.pg.gametip.guild_set_duty_title = {
+_G.pg.base.gametip.guild_set_duty_title = {
 	tip = "任命玩家$1為："
 }
 
-_G.pg.gametip.guild_search_list_max_count = {
+_G.pg.base.gametip.guild_search_list_max_count = {
 	tip = "每次顯示$1條訊息"
 }
 
-_G.pg.gametip.guild_sort_all = {
+_G.pg.base.gametip.guild_sort_all = {
 	tip = "全部"
 }
 
-_G.pg.gametip.guild_sort_blhx = {
+_G.pg.base.gametip.guild_sort_blhx = {
 	tip = "碧藍航線"
 }
 
-_G.pg.gametip.guild_sort_cszz = {
+_G.pg.base.gametip.guild_sort_cszz = {
 	tip = "赤色中軸"
 }
 
-_G.pg.gametip.guild_sort_power = {
+_G.pg.base.gametip.guild_sort_power = {
 	tip = "最強艦隊"
 }
 
-_G.pg.gametip.guild_sort_relax = {
+_G.pg.base.gametip.guild_sort_relax = {
 	tip = "休閒艦隊"
 }
 
-_G.pg.gametip.guild_join_cd = {
+_G.pg.base.gametip.guild_join_cd = {
 	tip = "退出公會需要24小時後才能申請其他公會"
 }
 
-_G.pg.gametip.guild_name_invaild = {
+_G.pg.base.gametip.guild_name_invaild = {
 	tip = "該名字已被佔用"
 }
 
-_G.pg.gametip.guild_apply_full = {
+_G.pg.base.gametip.guild_apply_full = {
 	tip = "目標大艦隊申請人數已滿"
 }
 
-_G.pg.gametip.guild_member_full = {
+_G.pg.base.gametip.guild_member_full = {
 	tip = "目標大艦隊人數已滿"
 }
 
-_G.pg.gametip.guild_fire_duty_limit = {
+_G.pg.base.gametip.guild_fire_duty_limit = {
 	tip = "只能開除權限小於自己的玩家"
 }
 
-_G.pg.gametip.guild_fire_succeed = {
+_G.pg.base.gametip.guild_fire_succeed = {
 	tip = "開除成功"
 }
 
-_G.pg.gametip.guild_duty_tip_1 = {
+_G.pg.base.gametip.guild_duty_tip_1 = {
 	tip = "<color=#7FAFFF>當前職位</color>"
 }
 
-_G.pg.gametip.guild_duty_tip_2 = {
+_G.pg.base.gametip.guild_duty_tip_2 = {
 	tip = "<color=#C3C3C3>不可委任</color>"
 }
 
-_G.pg.gametip.battle_repair_special_tip = {
+_G.pg.base.gametip.battle_repair_special_tip = {
 	tip = "是否確定使用<color=#a0ff40>精英損管小組</color>？"
 }
 
-_G.pg.gametip.battle_repair_normal_name = {
+_G.pg.base.gametip.battle_repair_normal_name = {
 	tip = "今日免費次數："
 }
 
-_G.pg.gametip.battle_repair_special_name = {
+_G.pg.base.gametip.battle_repair_special_name = {
 	tip = "今日額外次數："
 }
 
-_G.pg.gametip.oil_max_tip_title = {
+_G.pg.base.gametip.oil_max_tip_title = {
 	tip = "石油已經達到上限"
 }
 
-_G.pg.gametip.gold_max_tip_title = {
+_G.pg.base.gametip.gold_max_tip_title = {
 	tip = "物資已經達到上限"
 }
 
-_G.pg.gametip.expbook_max_tip_title = {
+_G.pg.base.gametip.expbook_max_tip_title = {
 	tip = "艦艇演習數據已經達到上限"
 }
 
-_G.pg.gametip.resource_max_tip_shop = {
+_G.pg.base.gametip.resource_max_tip_shop = {
 	tip = "無法購買資源"
 }
 
-_G.pg.gametip.resource_max_tip_event = {
+_G.pg.base.gametip.resource_max_tip_event = {
 	tip = "無法領取委託獎勵"
 }
 
-_G.pg.gametip.resource_max_tip_battle = {
+_G.pg.base.gametip.resource_max_tip_battle = {
 	tip = "出擊將無法正常獲得物資，是否繼續出擊？"
 }
 
-_G.pg.gametip.resource_max_tip_collect = {
+_G.pg.base.gametip.resource_max_tip_collect = {
 	tip = "無法領取收藏獎勵"
 }
 
-_G.pg.gametip.resource_max_tip_mail = {
+_G.pg.base.gametip.resource_max_tip_mail = {
 	tip = "無法領取郵件"
 }
 
-_G.pg.gametip.resource_max_tip_eventstart = {
+_G.pg.base.gametip.resource_max_tip_eventstart = {
 	tip = "無法接受委託"
 }
 
-_G.pg.gametip.resource_max_tip_destroy = {
+_G.pg.base.gametip.resource_max_tip_destroy = {
 	tip = "無法分解裝備"
 }
 
-_G.pg.gametip.resource_max_tip_retire = {
+_G.pg.base.gametip.resource_max_tip_retire = {
 	tip = "無法退役"
 }
 
-_G.pg.gametip.resource_max_tip_retire_1 = {
+_G.pg.base.gametip.resource_max_tip_retire_1 = {
 	tip = "退役將無法正常獲得石油，是否繼續退役？"
 }
 
-_G.pg.gametip.new_version_tip = {
+_G.pg.base.gametip.new_version_tip = {
 	tip = "指揮官，當前客戶端的遊戲版本不是最新的，建議您重新打開遊戲進行更新"
 }
 
-_G.pg.gametip.guild_request_msg_title = {
+_G.pg.base.gametip.guild_request_msg_title = {
 	tip = "輸入申請留言"
 }
 
-_G.pg.gametip.guild_request_msg_placeholder = {
+_G.pg.base.gametip.guild_request_msg_placeholder = {
 	tip = "申請後請耐心等待"
 }
 
-_G.pg.gametip.ship_upgrade_unequip_tip = {
+_G.pg.base.gametip.ship_upgrade_unequip_tip = {
 	tip = "此次突破操作將會導致<color=$2>$1</color>的裝備欄發生變化，部分裝備將會被卸下，是否確認繼續操作？"
 }
 
-_G.pg.gametip.destination_can_not_reach = {
+_G.pg.base.gametip.destination_can_not_reach = {
 	tip = "無法到達目標點"
 }
 
-_G.pg.gametip.destination_can_not_reach_safety = {
+_G.pg.base.gametip.destination_can_not_reach_safety = {
 	tip = "無法安全到達目標點"
 }
 
-_G.pg.gametip.destination_not_in_range = {
+_G.pg.base.gametip.destination_not_in_range = {
 	tip = "目標點超出移動範圍"
 }
 
-_G.pg.gametip.level_ammo_enough = {
+_G.pg.base.gametip.level_ammo_enough = {
 	tip = "艦隊彈藥充足，無需補給"
 }
 
-_G.pg.gametip.level_ammo_supply = {
+_G.pg.base.gametip.level_ammo_supply = {
 	tip = "獲得彈藥補給，艦隊彈藥+$1，補給點剩餘彈藥$2/3"
 }
 
-_G.pg.gametip.level_ammo_empty = {
+_G.pg.base.gametip.level_ammo_empty = {
 	tip = "獲得彈藥補給，艦隊彈藥+$1，補給點彈藥已用盡"
 }
 
-_G.pg.gametip.level_ammo_supply_p1 = {
+_G.pg.base.gametip.level_ammo_supply_p1 = {
 	tip = "獲得彈藥補給，艦隊彈藥+$1"
 }
 
-_G.pg.gametip.level_flare_supply = {
+_G.pg.base.gametip.level_flare_supply = {
 	tip = "獲得照明彈補給，為艦隊下$1次戰鬥照明"
 }
 
-_G.pg.gametip.chat_level_not_enough = {
+_G.pg.base.gametip.chat_level_not_enough = {
 	tip = "指揮官，等級達到$1級才可以聊天哦"
 }
 
-_G.pg.gametip.chat_msg_inform = {
+_G.pg.base.gametip.chat_msg_inform = {
 	tip = "已對該訊息進行過檢舉，正在審查中"
 }
 
-_G.pg.gametip.chat_msg_ban = {
+_G.pg.base.gametip.chat_msg_ban = {
 	tip = "因歷史訊息被檢舉，您的發言被禁止\n\n解禁時間：$1"
 }
 
-_G.pg.gametip.month_card_set_ratio_success = {
+_G.pg.base.gametip.month_card_set_ratio_success = {
 	tip = "資源比例修改成功"
 }
 
-_G.pg.gametip.month_card_set_ratio_not_change = {
+_G.pg.base.gametip.month_card_set_ratio_not_change = {
 	tip = "已經修改為該比例"
 }
 
-_G.pg.gametip.charge_ship_bag_max = {
+_G.pg.base.gametip.charge_ship_bag_max = {
 	tip = "船塢已達最大擴充上限"
 }
 
-_G.pg.gametip.charge_equip_bag_max = {
+_G.pg.base.gametip.charge_equip_bag_max = {
 	tip = "倉庫已達最大擴充上限"
 }
 
-_G.pg.gametip.login_wait_tip = {
+_G.pg.base.gametip.login_wait_tip = {
 	tip = "當前伺服器繁忙，請耐心等待\n（排隊人數:$1人）"
 }
 
-_G.pg.gametip.ship_equip_exchange_tip = {
+_G.pg.base.gametip.ship_equip_exchange_tip = {
 	tip = "是否將<color=#a0ff40>$1</color>的<color=#a0ff40>$2</color>裝備到<color=#a0ff40>$3</color>上？"
 }
 
-_G.pg.gametip.ship_rename_success = {
+_G.pg.base.gametip.ship_rename_success = {
 	tip = "角色更名成功！"
 }
 
-_G.pg.gametip.formation_chapter_lock = {
+_G.pg.base.gametip.formation_chapter_lock = {
 	tip = "通關$1章後開放第$2艦隊"
 }
 
-_G.pg.gametip.elite_disable_unsatisfied = {
+_G.pg.base.gametip.elite_disable_unsatisfied = {
 	tip = "需達成該章節關卡全滿星通關"
 }
 
-_G.pg.gametip.elite_disable_ship_escort = {
+_G.pg.base.gametip.elite_disable_ship_escort = {
 	tip = "有角色正在執行委託，無法出擊"
 }
 
-_G.pg.gametip.elite_disable_formation_unsatisfied = {
+_G.pg.base.gametip.elite_disable_formation_unsatisfied = {
 	tip = "編隊條件未滿足，無法出擊"
 }
 
-_G.pg.gametip.elite_disable_no_fleet = {
+_G.pg.base.gametip.elite_disable_no_fleet = {
 	tip = "沒有可用艦隊，無法出擊"
 }
 
-_G.pg.gametip.elite_disable_property_unsatisfied = {
+_G.pg.base.gametip.elite_disable_property_unsatisfied = {
 	tip = "未滿足出擊限制，無法出擊"
 }
 
-_G.pg.gametip.elite_disable_unusable = {
+_G.pg.base.gametip.elite_disable_unusable = {
 	tip = "該地圖的困難模式尚未開放"
 }
 
-_G.pg.gametip.elite_warp_to_latest_map = {
+_G.pg.base.gametip.elite_warp_to_latest_map = {
 	tip = "已自動跳轉至最新章節"
 }
 
-_G.pg.gametip.elite_fleet_confirm = {
+_G.pg.base.gametip.elite_fleet_confirm = {
 	tip = "$1<color=#ff0000>不滿足</color>出擊條件，將無法進入戰鬥，確認繼續出擊？"
 }
 
-_G.pg.gametip.elite_condition_level = {
+_G.pg.base.gametip.elite_condition_level = {
 	tip = "平均等級"
 }
 
-_G.pg.gametip.elite_condition_durability = {
+_G.pg.base.gametip.elite_condition_durability = {
 	tip = "耐久總值"
 }
 
-_G.pg.gametip.elite_condition_cannon = {
+_G.pg.base.gametip.elite_condition_cannon = {
 	tip = "炮擊總值"
 }
 
-_G.pg.gametip.elite_condition_torpedo = {
+_G.pg.base.gametip.elite_condition_torpedo = {
 	tip = "雷擊總值"
 }
 
-_G.pg.gametip.elite_condition_antiaircraft = {
+_G.pg.base.gametip.elite_condition_antiaircraft = {
 	tip = "防空總值"
 }
 
-_G.pg.gametip.elite_condition_air = {
+_G.pg.base.gametip.elite_condition_air = {
 	tip = "航空總值"
 }
 
-_G.pg.gametip.elite_condition_antisub = {
+_G.pg.base.gametip.elite_condition_antisub = {
 	tip = "反潛總值"
 }
 
-_G.pg.gametip.elite_condition_dodge = {
+_G.pg.base.gametip.elite_condition_dodge = {
 	tip = "機動總值"
 }
 
-_G.pg.gametip.elite_condition_reload = {
+_G.pg.base.gametip.elite_condition_reload = {
 	tip = "裝填總值"
 }
 
-_G.pg.gametip.elite_condition_fleet_totle_level = {
+_G.pg.base.gametip.elite_condition_fleet_totle_level = {
 	tip = "艦船等級總和大於$1的艦隊數量"
 }
 
-_G.pg.gametip.common_compare_larger = {
+_G.pg.base.gametip.common_compare_larger = {
 	tip = "大於"
 }
 
-_G.pg.gametip.common_compare_equal = {
+_G.pg.base.gametip.common_compare_equal = {
 	tip = "等於"
 }
 
-_G.pg.gametip.common_compare_smaller = {
+_G.pg.base.gametip.common_compare_smaller = {
 	tip = "小於"
 }
 
-_G.pg.gametip.common_compare_not_less_than = {
+_G.pg.base.gametip.common_compare_not_less_than = {
 	tip = "大於等於"
 }
 
-_G.pg.gametip.common_compare_not_more_than = {
+_G.pg.base.gametip.common_compare_not_more_than = {
 	tip = "小於等於"
 }
 
-_G.pg.gametip.level_scene_formation_active_already = {
+_G.pg.base.gametip.level_scene_formation_active_already = {
 	tip = "當前陣型已被啟動"
 }
 
-_G.pg.gametip.level_scene_not_enough = {
+_G.pg.base.gametip.level_scene_not_enough = {
 	tip = "使用失敗：剩餘數量不足"
 }
 
-_G.pg.gametip.level_scene_full_hp = {
+_G.pg.base.gametip.level_scene_full_hp = {
 	tip = "使用失敗：當前艦隊全員血量已滿"
 }
 
-_G.pg.gametip.level_click_to_move = {
+_G.pg.base.gametip.level_click_to_move = {
 	tip = "請點擊地圖任意位置進行移動"
 }
 
-_G.pg.gametip.common_hardmode = {
+_G.pg.base.gametip.common_hardmode = {
 	tip = "困難"
 }
 
-_G.pg.gametip.common_elite_no_quota = {
+_G.pg.base.gametip.common_elite_no_quota = {
 	tip = "困難關卡每日挑戰次數已達上限"
 }
 
-_G.pg.gametip.common_food = {
+_G.pg.base.gametip.common_food = {
 	tip = "食物"
 }
 
-_G.pg.gametip.common_no_limit = {
+_G.pg.base.gametip.common_no_limit = {
 	tip = "不限"
 }
 
-_G.pg.gametip.common_proficiency = {
+_G.pg.base.gametip.common_proficiency = {
 	tip = "效率"
 }
 
-_G.pg.gametip.backyard_food_remind = {
+_G.pg.base.gametip.backyard_food_remind = {
 	tip = "繼續使用<color=yellow>$1</color>將會超出存糧上限，是否繼續使用?"
 }
 
-_G.pg.gametip.backyard_food_count = {
+_G.pg.base.gametip.backyard_food_count = {
 	tip = "當前存糧上限: $1"
 }
 
-_G.pg.gametip.sham_ship_level_limit = {
+_G.pg.base.gametip.sham_ship_level_limit = {
 	tip = "出戰角色等級不能低於$1級"
 }
 
-_G.pg.gametip.sham_count_limit = {
+_G.pg.base.gametip.sham_count_limit = {
 	tip = "本次「模擬戰」作戰已全部完成"
 }
 
-_G.pg.gametip.sham_count_reset = {
+_G.pg.base.gametip.sham_count_reset = {
 	tip = "本次「模擬戰」作戰已全部完成\n是否重置？"
 }
 
-_G.pg.gametip.sham_team_limit = {
+_G.pg.base.gametip.sham_team_limit = {
 	tip = "請確保陣容中至少有一個先鋒和一個主力"
 }
 
-_G.pg.gametip.sham_formation_invalid = {
+_G.pg.base.gametip.sham_formation_invalid = {
 	tip = "出擊艦隊無法成型，請指揮官進行編成"
 }
 
-_G.pg.gametip.sham_my_assist_ship_level_limit = {
+_G.pg.base.gametip.sham_my_assist_ship_level_limit = {
 	tip = "支援角色等級不能低於$1級"
 }
 
-_G.pg.gametip.sham_reset_confirm = {
+_G.pg.base.gametip.sham_reset_confirm = {
 	tip = "當前副本尚未完成，確定進行重置？"
 }
 
-_G.pg.gametip.sham_battle_help_tip = {
+_G.pg.base.gametip.sham_battle_help_tip = {
 	tip = {
 		{
 			info = " 「模擬戰」作戰準則\n"
@@ -6870,123 +6870,123 @@ _G.pg.gametip.sham_battle_help_tip = {
 	}
 }
 
-_G.pg.gametip.sham_reset_err_limit = {
+_G.pg.base.gametip.sham_reset_err_limit = {
 	tip = "今日重置次數已用盡"
 }
 
-_G.pg.gametip.sham_ship_equip_forbid_1 = {
+_G.pg.base.gametip.sham_ship_equip_forbid_1 = {
 	tip = "艦隊人數未滿，進入後將無法更換成員，無法更換成員裝備，是否繼續？"
 }
 
-_G.pg.gametip.sham_ship_equip_forbid_2 = {
+_G.pg.base.gametip.sham_ship_equip_forbid_2 = {
 	tip = "進入後將無法更換成員，無法更換成員裝備，是否繼續？"
 }
 
-_G.pg.gametip.sham_enter_error_friend_ship_expired = {
+_G.pg.base.gametip.sham_enter_error_friend_ship_expired = {
 	tip = "好友支援角色已經變更，請重新選取"
 }
 
-_G.pg.gametip.sham_can_not_change_ship = {
+_G.pg.base.gametip.sham_can_not_change_ship = {
 	tip = "「模擬戰」中不能更換支援角色"
 }
 
-_G.pg.gametip.sham_friend_ship_tip = {
+_G.pg.base.gametip.sham_friend_ship_tip = {
 	tip = "未選擇外援，進入後將無法修改，是否確認？"
 }
 
-_G.pg.gametip.inform_sueecss = {
+_G.pg.base.gametip.inform_sueecss = {
 	tip = "檢舉成功"
 }
 
-_G.pg.gametip.inform_failed = {
+_G.pg.base.gametip.inform_failed = {
 	tip = "檢舉失敗"
 }
 
-_G.pg.gametip.inform_player = {
+_G.pg.base.gametip.inform_player = {
 	tip = "檢舉玩家：$1"
 }
 
-_G.pg.gametip.inform_select_type = {
+_G.pg.base.gametip.inform_select_type = {
 	tip = "請選擇檢舉內容"
 }
 
-_G.pg.gametip.inform_chat_msg = {
+_G.pg.base.gametip.inform_chat_msg = {
 	tip = "聊天內容為空"
 }
 
-_G.pg.gametip.inform_sueecss_tip = {
+_G.pg.base.gametip.inform_sueecss_tip = {
 	tip = "檢舉通過密電方式發往海軍議事大廳\n\n感謝您對碧藍航線遊戲環境做出的貢獻"
 }
 
-_G.pg.gametip.ship_remould_max_level = {
+_G.pg.base.gametip.ship_remould_max_level = {
 	tip = "已達最大改造次數"
 }
 
-_G.pg.gametip.ship_remould_material_ship_no_enough = {
+_G.pg.base.gametip.ship_remould_material_ship_no_enough = {
 	tip = "材料船不足"
 }
 
-_G.pg.gametip.ship_remould_material_ship_on_exist = {
+_G.pg.base.gametip.ship_remould_material_ship_on_exist = {
 	tip = "材料船不存在"
 }
 
-_G.pg.gametip.ship_remould_material_unlock_skill = {
+_G.pg.base.gametip.ship_remould_material_unlock_skill = {
 	tip = "習得技能：<color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.ship_remould_prev_lock = {
+_G.pg.base.gametip.ship_remould_prev_lock = {
 	tip = "前置未完成"
 }
 
-_G.pg.gametip.ship_remould_need_level = {
+_G.pg.base.gametip.ship_remould_need_level = {
 	tip = "需要等級:$1"
 }
 
-_G.pg.gametip.ship_remould_need_star = {
+_G.pg.base.gametip.ship_remould_need_star = {
 	tip = "需要星級:$1"
 }
 
-_G.pg.gametip.ship_remould_finished = {
+_G.pg.base.gametip.ship_remould_finished = {
 	tip = "已完成"
 }
 
-_G.pg.gametip.ship_remould_no_item = {
+_G.pg.base.gametip.ship_remould_no_item = {
 	tip = "道具不足"
 }
 
-_G.pg.gametip.ship_remould_no_gold = {
+_G.pg.base.gametip.ship_remould_no_gold = {
 	tip = "物資不足"
 }
 
-_G.pg.gametip.ship_remould_no_material = {
+_G.pg.base.gametip.ship_remould_no_material = {
 	tip = "材料不足"
 }
 
-_G.pg.gametip.ship_remould_selecte_exceed = {
+_G.pg.base.gametip.ship_remould_selecte_exceed = {
 	tip = "選擇的角色數量大於1"
 }
 
-_G.pg.gametip.ship_remould_sueecss = {
+_G.pg.base.gametip.ship_remould_sueecss = {
 	tip = "改造成功"
 }
 
-_G.pg.gametip.ship_remould_warning_102174 = {
+_G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "此次改造操作將消耗<color=#A9F548>閃耀的麥克風</color>\n是否確認繼續操作？"
 }
 
-_G.pg.gametip.ship_remould_warning_102284 = {
+_G.pg.base.gametip.ship_remould_warning_102284 = {
 	tip = "此次改造操作後<color=#92fc63>【雷達掃描】</color>技能\n將升級為<color=#92fc63>【雷達掃描·改】</color>"
 }
 
-_G.pg.gametip.ship_remould_warning_107984 = {
+_G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "此次改造操作後<color=#92fc63>【所有戰鬥機+1】、【所有魚雷機+1】</color>\n是否確認繼續操作？"
 }
 
-_G.pg.gametip.ship_remould_warning_201514 = {
+_G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "此次改造操作後<color=#92fc63>【魚雷底座-1】</color> <color=#92fc63>【防空炮底座+1】</color>\n是否確認繼續操作？"
 }
 
-_G.pg.gametip.ship_remould_warning_203114 = {
+_G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = [[
 此次改造操作將導致
 <color=#92fc63>【魚雷】欄位</color>變更為<color=#92fc63>【副武器】欄位</color><color=#92fc63>
@@ -6994,15 +6994,15 @@ _G.pg.gametip.ship_remould_warning_203114 = {
 是否確認繼續操作？]]
 }
 
-_G.pg.gametip.ship_remould_warning_205124 = {
+_G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "此次改造操作將消耗<color=#A9F548>戰士的心得</color>\n是否確認繼續操作？"
 }
 
-_G.pg.gametip.ship_remould_warning_301534 = {
+_G.pg.base.gametip.ship_remould_warning_301534 = {
 	tip = "此次改造操作後<color=#92fc63>【霞光之絆】</color>技能\n將升級為<color=#92fc63>【霞光之絆·改】</color>"
 }
 
-_G.pg.gametip.ship_remould_warning_301874 = {
+_G.pg.base.gametip.ship_remould_warning_301874 = {
 	tip = [[
 此次改造操作將消耗<color=#92fc63>烤肉味香水</color>
 是否確認繼續操作？
@@ -7011,7 +7011,7 @@ _G.pg.gametip.ship_remould_warning_301874 = {
 技能<color=#92fc63>【專屬彈幕-夕立II】</color>將升級為<color=#92fc63>【專屬彈幕-夕立III】</color>]]
 }
 
-_G.pg.gametip.ship_remould_warning_310014 = {
+_G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 此次改造操作將導致<color=#A9F548>$1</color>艦艇類型變化
 <color=#A9F548>【副武器】</color>變更為<color=#A9F548>【水偵】</color>欄位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看詳情</material></color>
@@ -7019,7 +7019,7 @@ _G.pg.gametip.ship_remould_warning_310014 = {
 是否確認繼續操作？]]
 }
 
-_G.pg.gametip.ship_remould_warning_310024 = {
+_G.pg.base.gametip.ship_remould_warning_310024 = {
 	tip = [[
 此次改造操作將導致<color=#A9F548>$1</color>艦艇類型變化
 <color=#A9F548>【副武器】</color>變更為<color=#A9F548>【水偵】</color>欄位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看詳情</material></color>
@@ -7027,7 +7027,7 @@ _G.pg.gametip.ship_remould_warning_310024 = {
 是否確認繼續操作？]]
 }
 
-_G.pg.gametip.ship_remould_warning_310034 = {
+_G.pg.base.gametip.ship_remould_warning_310034 = {
 	tip = [[
 此次改造操作將導致<color=#A9F548>$1</color>艦艇類型變化
 <color=#A9F548>【副武器】</color>變更為<color=#A9F548>【水偵】</color>欄位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看詳情</material></color>
@@ -7035,7 +7035,7 @@ _G.pg.gametip.ship_remould_warning_310034 = {
 是否確認繼續操作？]]
 }
 
-_G.pg.gametip.ship_remould_warning_310044 = {
+_G.pg.base.gametip.ship_remould_warning_310044 = {
 	tip = [[
 此次改造操作將導致<color=#A9F548>$1</color>艦艇類型變化
 <color=#A9F548>【副武器】</color>變更為<color=#A9F548>【水偵】</color>欄位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看詳情</material></color>
@@ -7043,7 +7043,7 @@ _G.pg.gametip.ship_remould_warning_310044 = {
 是否確認繼續操作？]]
 }
 
-_G.pg.gametip.ship_remould_warning_303154 = {
+_G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
 此次改造操作將導致<color=#92fc63>$1</color>艦艇類型變化
 <color=#92fc63>【主武器（輕巡主炮）】</color>變更為
@@ -7052,11 +7052,11 @@ _G.pg.gametip.ship_remould_warning_303154 = {
 是否確認繼續操作？]]
 }
 
-_G.pg.gametip.ship_remould_warning_402134 = {
+_G.pg.base.gametip.ship_remould_warning_402134 = {
 	tip = "此次改造操作後第一個【設備】欄位增加可裝備類型<color=#92fc63>【直升機】</color>\n是否確認繼續操作？"
 }
 
-_G.pg.gametip.ship_remould_warning_702124 = {
+_G.pg.base.gametip.ship_remould_warning_702124 = {
 	tip = [[
 此次改造操作將導致<color=#92fc63>$1</color>艦艇類型變化
 <color=#92fc63>【主武器（輕巡主炮）】</color>變更為
@@ -7065,443 +7065,443 @@ _G.pg.gametip.ship_remould_warning_702124 = {
 是否確認繼續操作？]]
 }
 
-_G.pg.gametip.word_soundfiles_download_title = {
+_G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "語音包下載"
 }
 
-_G.pg.gametip.word_soundfiles_download = {
+_G.pg.base.gametip.word_soundfiles_download = {
 	tip = "開始下載"
 }
 
-_G.pg.gametip.word_soundfiles_checking_title = {
+_G.pg.base.gametip.word_soundfiles_checking_title = {
 	tip = "檢查中..."
 }
 
-_G.pg.gametip.word_soundfiles_checking = {
+_G.pg.base.gametip.word_soundfiles_checking = {
 	tip = "檢查中"
 }
 
-_G.pg.gametip.word_soundfiles_checkend_title = {
+_G.pg.base.gametip.word_soundfiles_checkend_title = {
 	tip = "語音包檢查完畢"
 }
 
-_G.pg.gametip.word_soundfiles_checkend = {
+_G.pg.base.gametip.word_soundfiles_checkend = {
 	tip = "點擊更新"
 }
 
-_G.pg.gametip.word_soundfiles_noneedupdate = {
+_G.pg.base.gametip.word_soundfiles_noneedupdate = {
 	tip = "無需更新"
 }
 
-_G.pg.gametip.word_soundfiles_checkfailed = {
+_G.pg.base.gametip.word_soundfiles_checkfailed = {
 	tip = "語音包檢查失敗"
 }
 
-_G.pg.gametip.word_soundfiles_retry = {
+_G.pg.base.gametip.word_soundfiles_retry = {
 	tip = "點擊重試"
 }
 
-_G.pg.gametip.word_soundfiles_update = {
+_G.pg.base.gametip.word_soundfiles_update = {
 	tip = "更新中..."
 }
 
-_G.pg.gametip.word_soundfiles_update_end_title = {
+_G.pg.base.gametip.word_soundfiles_update_end_title = {
 	tip = "語音包更新完成"
 }
 
-_G.pg.gametip.word_soundfiles_update_end = {
+_G.pg.base.gametip.word_soundfiles_update_end = {
 	tip = "更新完成"
 }
 
-_G.pg.gametip.word_soundfiles_update_failed = {
+_G.pg.base.gametip.word_soundfiles_update_failed = {
 	tip = "語音包更新失敗"
 }
 
-_G.pg.gametip.word_soundfiles_update_retry = {
+_G.pg.base.gametip.word_soundfiles_update_retry = {
 	tip = "點擊重試"
 }
 
-_G.pg.gametip.word_live2dfiles_download_title = {
+_G.pg.base.gametip.word_live2dfiles_download_title = {
 	tip = "Live2D角色包下載"
 }
 
-_G.pg.gametip.word_live2dfiles_download = {
+_G.pg.base.gametip.word_live2dfiles_download = {
 	tip = "開始下載"
 }
 
-_G.pg.gametip.word_live2dfiles_checking_title = {
+_G.pg.base.gametip.word_live2dfiles_checking_title = {
 	tip = "檢查中..."
 }
 
-_G.pg.gametip.word_live2dfiles_checking = {
+_G.pg.base.gametip.word_live2dfiles_checking = {
 	tip = "檢查中"
 }
 
-_G.pg.gametip.word_live2dfiles_checkend_title = {
+_G.pg.base.gametip.word_live2dfiles_checkend_title = {
 	tip = "Live2D角色包檢查完畢"
 }
 
-_G.pg.gametip.word_live2dfiles_checkend = {
+_G.pg.base.gametip.word_live2dfiles_checkend = {
 	tip = "點擊更新"
 }
 
-_G.pg.gametip.word_live2dfiles_noneedupdate = {
+_G.pg.base.gametip.word_live2dfiles_noneedupdate = {
 	tip = "無需更新"
 }
 
-_G.pg.gametip.word_live2dfiles_checkfailed = {
+_G.pg.base.gametip.word_live2dfiles_checkfailed = {
 	tip = "Live2D角色包檢查失敗"
 }
 
-_G.pg.gametip.word_live2dfiles_retry = {
+_G.pg.base.gametip.word_live2dfiles_retry = {
 	tip = "點擊重試"
 }
 
-_G.pg.gametip.word_live2dfiles_update = {
+_G.pg.base.gametip.word_live2dfiles_update = {
 	tip = "更新中..."
 }
 
-_G.pg.gametip.word_live2dfiles_update_end_title = {
+_G.pg.base.gametip.word_live2dfiles_update_end_title = {
 	tip = "Live2D角色包更新完成"
 }
 
-_G.pg.gametip.word_live2dfiles_update_end = {
+_G.pg.base.gametip.word_live2dfiles_update_end = {
 	tip = "更新完成"
 }
 
-_G.pg.gametip.word_live2dfiles_update_failed = {
+_G.pg.base.gametip.word_live2dfiles_update_failed = {
 	tip = "Live2D角色包更新失敗"
 }
 
-_G.pg.gametip.word_live2dfiles_update_retry = {
+_G.pg.base.gametip.word_live2dfiles_update_retry = {
 	tip = "點擊重試"
 }
 
-_G.pg.gametip.word_live2dfiles_main_update_tip = {
+_G.pg.base.gametip.word_live2dfiles_main_update_tip = {
 	tip = "當前使用中的Live 2D資源需要更新，是否立即更新？"
 }
 
-_G.pg.gametip.achieve_propose_tip = {
+_G.pg.base.gametip.achieve_propose_tip = {
 	tip = "「$1」換裝解鎖！"
 }
 
-_G.pg.gametip.mingshi_get_tip = {
+_G.pg.base.gametip.mingshi_get_tip = {
 	tip = "找到了一個「造型奇特的素材」！"
 }
 
-_G.pg.gametip.mingshi_task_tip_1 = {
+_G.pg.base.gametip.mingshi_task_tip_1 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>T</color>>\n下一個目標是……<<color=#a0ff40>堆存材料之處</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_2 = {
+_G.pg.base.gametip.mingshi_task_tip_2 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>O</color>>\n下一個目標是……<<color=#a0ff40>研習戰術之屋</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_3 = {
+_G.pg.base.gametip.mingshi_task_tip_3 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>U</color>>\n下一個目標是……<<color=#a0ff40>軍火之店</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_4 = {
+_G.pg.base.gametip.mingshi_task_tip_4 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>C</color>>\n下一個目標是……<<color=#a0ff40>接受任務之處</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_5 = {
+_G.pg.base.gametip.mingshi_task_tip_5 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>H</color>>\n下一個目標是……<<color=#a0ff40>佈陣之處</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_6 = {
+_G.pg.base.gametip.mingshi_task_tip_6 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>A</color>>\n下一個目標是……<<color=#a0ff40>休憩之所</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_7 = {
+_G.pg.base.gametip.mingshi_task_tip_7 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>K</color>>\n下一個目標是……<<color=#a0ff40>鑑賞收藏之所</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_8 = {
+_G.pg.base.gametip.mingshi_task_tip_8 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>A</color>>\n下一個目標是……<<color=#a0ff40>遠行的起點</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_9 = {
+_G.pg.base.gametip.mingshi_task_tip_9 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>S</color>>\n下一個目標是……<<color=#a0ff40>決勝之地</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_10 = {
+_G.pg.base.gametip.mingshi_task_tip_10 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>H</color>>\n最後的目標是……<<color=#a0ff40>悲喜交織之地</color>>"
 }
 
-_G.pg.gametip.mingshi_task_tip_11 = {
+_G.pg.base.gametip.mingshi_task_tip_11 = {
 	tip = "被發現了喵？\n暗號是……<<color=#a0ff40>I30</color>>\n最初的目標是……<<color=#a0ff40>停泊之地</color>>"
 }
 
-_G.pg.gametip.word_propose_changename_title = {
+_G.pg.base.gametip.word_propose_changename_title = {
 	tip = "$1正式成為了您的專屬艦，是否要為您的專屬艦命名呢？"
 }
 
-_G.pg.gametip.word_propose_changename_tip1 = {
+_G.pg.base.gametip.word_propose_changename_tip1 = {
 	tip = "顯示自定角色名稱（可在設置中更改）"
 }
 
-_G.pg.gametip.word_propose_changename_tip2 = {
+_G.pg.base.gametip.word_propose_changename_tip2 = {
 	tip = "*30天後可再次更名"
 }
 
-_G.pg.gametip.word_propose_ring_tip = {
+_G.pg.base.gametip.word_propose_ring_tip = {
 	tip = "為您的專屬艦戴上戒指吧"
 }
 
-_G.pg.gametip.word_rename_time_tip = {
+_G.pg.base.gametip.word_rename_time_tip = {
 	tip = "還需要$1天，才能給這位專屬艦更名哦"
 }
 
-_G.pg.gametip.word_rename_switch_tip = {
+_G.pg.base.gametip.word_rename_switch_tip = {
 	tip = "自定名稱顯示已關閉，請先到設置-通知中開啟"
 }
 
-_G.pg.gametip.word_ssr = {
+_G.pg.base.gametip.word_ssr = {
 	tip = "超稀有"
 }
 
-_G.pg.gametip.word_sr = {
+_G.pg.base.gametip.word_sr = {
 	tip = "精銳"
 }
 
-_G.pg.gametip.word_r = {
+_G.pg.base.gametip.word_r = {
 	tip = "稀有"
 }
 
-_G.pg.gametip.ship_renameShip_error = {
+_G.pg.base.gametip.ship_renameShip_error = {
 	tip = "專屬艦更名失敗"
 }
 
-_G.pg.gametip.ship_renameShip_error_4 = {
+_G.pg.base.gametip.ship_renameShip_error_4 = {
 	tip = "時間未到"
 }
 
-_G.pg.gametip.ship_renameShip_error_2011 = {
+_G.pg.base.gametip.ship_renameShip_error_2011 = {
 	tip = "名稱過長"
 }
 
-_G.pg.gametip.ship_proposeShip_error = {
+_G.pg.base.gametip.ship_proposeShip_error = {
 	tip = "誓約失敗"
 }
 
-_G.pg.gametip.ship_proposeShip_error_1 = {
+_G.pg.base.gametip.ship_proposeShip_error_1 = {
 	tip = "無效操作"
 }
 
-_G.pg.gametip.word_rename_time_warning = {
+_G.pg.base.gametip.word_rename_time_warning = {
 	tip = "改名後，需要30天才能重新改名，確定要將<color=#a0ff40>$1</color>更名為<color=#a0ff40>$2</color>嗎？"
 }
 
-_G.pg.gametip.word_propose_cost_tip = {
+_G.pg.base.gametip.word_propose_cost_tip = {
 	tip = "誓約需要消耗<color=#a0ff40>1</color>枚誓約之戒（當前擁有<color=#a0ff40>$1</color>枚）\n\n<size= 32>*誓約後角色將成為專屬艦，可重新命名並獲得<color=#a0ff40>3%</color>屬性加成</size>"
 }
 
-_G.pg.gametip.evaluate_too_loog = {
+_G.pg.base.gametip.evaluate_too_loog = {
 	tip = "評論過長"
 }
 
-_G.pg.gametip.evaluate_ban_word = {
+_G.pg.base.gametip.evaluate_ban_word = {
 	tip = "評論有禁止使用字詞"
 }
 
-_G.pg.gametip.activity_level_easy_tip = {
+_G.pg.base.gametip.activity_level_easy_tip = {
 	tip = "注意：選擇普通模式後，需要<color=#a0ff40>通關普通模式</color>才能進入困難模式"
 }
 
-_G.pg.gametip.activity_level_difficulty_tip = {
+_G.pg.base.gametip.activity_level_difficulty_tip = {
 	tip = "注意：選擇困難模式後，<color=#a0ff40>未通關前切換模式</color>將會失去困難模式的進度"
 }
 
-_G.pg.gametip.activity_level_limit_tip = {
+_G.pg.base.gametip.activity_level_limit_tip = {
 	tip = "指揮官等級需要達到<color=#a0ff40>50級或通關普通模式</color>才可進入困難模式"
 }
 
-_G.pg.gametip.activity_level_inwarime_tip = {
+_G.pg.base.gametip.activity_level_inwarime_tip = {
 	tip = "<color=#a0ff40>$1</color>關卡正在攻略中，若需切換難度請先撤離艦隊"
 }
 
-_G.pg.gametip.activity_level_pass_easy_tip = {
+_G.pg.base.gametip.activity_level_pass_easy_tip = {
 	tip = "需要<color=#a0ff40>通關普通模式</color>才可進入EXTRA模式"
 }
 
-_G.pg.gametip.activity_level_is_closed = {
+_G.pg.base.gametip.activity_level_is_closed = {
 	tip = "該活動關卡已關閉"
 }
 
-_G.pg.gametip.activity_switch_tip = {
+_G.pg.base.gametip.activity_switch_tip = {
 	tip = "切換至普通模式將會<color=#a0ff40>失去困難模式的進度</color>（PS:切換至普通模式後需要通關才可回到困難模式），是否切換模式？"
 }
 
-_G.pg.gametip.reduce_sp3_pass_count = {
+_G.pg.base.gametip.reduce_sp3_pass_count = {
 	tip = "累計通關sp3次數："
 }
 
-_G.pg.gametip.qiuqiu_count = {
+_G.pg.base.gametip.qiuqiu_count = {
 	tip = "目標pt："
 }
 
-_G.pg.gametip.qiuqiu_total_count = {
+_G.pg.base.gametip.qiuqiu_total_count = {
 	tip = "累計pt："
 }
 
-_G.pg.gametip.npcfriendly_count = {
+_G.pg.base.gametip.npcfriendly_count = {
 	tip = "目標友好度："
 }
 
-_G.pg.gametip.npcfriendly_total_count = {
+_G.pg.base.gametip.npcfriendly_total_count = {
 	tip = "當前友好度："
 }
 
-_G.pg.gametip.longxiang_count = {
+_G.pg.base.gametip.longxiang_count = {
 	tip = "目標式符-J："
 }
 
-_G.pg.gametip.longxiang_total_count = {
+_G.pg.base.gametip.longxiang_total_count = {
 	tip = "當前式符-J："
 }
 
-_G.pg.gametip.pt_count = {
+_G.pg.base.gametip.pt_count = {
 	tip = "目標$1："
 }
 
-_G.pg.gametip.pt_total_count = {
+_G.pg.base.gametip.pt_total_count = {
 	tip = "當前$1："
 }
 
-_G.pg.gametip.remould_ship_ok = {
+_G.pg.base.gametip.remould_ship_ok = {
 	tip = "改造成功"
 }
 
-_G.pg.gametip.remould_ship_count_more = {
+_G.pg.base.gametip.remould_ship_count_more = {
 	tip = "選擇的角色數量大於1"
 }
 
-_G.pg.gametip.word_should_input = {
+_G.pg.base.gametip.word_should_input = {
 	tip = "尚未輸入關鍵字"
 }
 
-_G.pg.gametip.simulation_advantage_counting = {
+_G.pg.base.gametip.simulation_advantage_counting = {
 	tip = "$1秒後敵軍將啟用特別戰術"
 }
 
-_G.pg.gametip.simulation_disadvantage_counting = {
+_G.pg.base.gametip.simulation_disadvantage_counting = {
 	tip = "$1秒後敵軍將啟用特別戰術"
 }
 
-_G.pg.gametip.simulation_enhancing = {
+_G.pg.base.gametip.simulation_enhancing = {
 	tip = "敵軍已啟用特別戰術，獲得裝填加成和傷害加成"
 }
 
-_G.pg.gametip.simulation_enhanced = {
+_G.pg.base.gametip.simulation_enhanced = {
 	tip = "敵軍已啟用特別戰術"
 }
 
-_G.pg.gametip.word_skill_desc_get = {
+_G.pg.base.gametip.word_skill_desc_get = {
 	tip = "（滿級$1）"
 }
 
-_G.pg.gametip.word_skill_desc_learn = {
+_G.pg.base.gametip.word_skill_desc_learn = {
 	tip = "($1)"
 }
 
-_G.pg.gametip.chapter_tip_aovid_succeed = {
+_G.pg.base.gametip.chapter_tip_aovid_succeed = {
 	tip = "規避成功"
 }
 
-_G.pg.gametip.chapter_tip_aovid_failed = {
+_G.pg.base.gametip.chapter_tip_aovid_failed = {
 	tip = "規避失敗"
 }
 
-_G.pg.gametip.chapter_tip_change = {
+_G.pg.base.gametip.chapter_tip_change = {
 	tip = "切換陣型: $1"
 }
 
-_G.pg.gametip.chapter_tip_use = {
+_G.pg.base.gametip.chapter_tip_use = {
 	tip = "使用策略: $1"
 }
 
-_G.pg.gametip.chapter_tip_with_npc = {
+_G.pg.base.gametip.chapter_tip_with_npc = {
 	tip = "即將進入<color=#D6341DFF>活動關卡劇情任務模式</color>\n第一個出擊艦隊前鋒將臨時加入<color=#D6341DFF>NPC$1</color>\n請在第一個出擊艦隊預留空位"
 }
 
-_G.pg.gametip.chapter_tip_bp_ammo = {
+_G.pg.base.gametip.chapter_tip_bp_ammo = {
 	tip = "由於充分的戰前準備，隊伍彈藥量+2"
 }
 
-_G.pg.gametip.build_ship_tip = {
+_G.pg.base.gametip.build_ship_tip = {
 	tip = "建造<color=#D6341DFF>$1艘</color>$2需要消耗:\n<color=$5>$3物資</color>和<color=$5>$4個心智魔方</color>"
 }
 
-_G.pg.gametip.auto_battle_limit_tip = {
+_G.pg.base.gametip.auto_battle_limit_tip = {
 	tip = "通關1-3後開放自律戰鬥"
 }
 
-_G.pg.gametip.build_ship_quickly_buy_stone = {
+_G.pg.base.gametip.build_ship_quickly_buy_stone = {
 	tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>鑽石購買<color=$3>$2</color>個$4"
 }
 
-_G.pg.gametip.build_ship_quickly_buy_tool = {
+_G.pg.base.gametip.build_ship_quickly_buy_tool = {
 	tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>鑽石購買<color=$3>$2</color>個快速建造材料"
 }
 
-_G.pg.gametip.ship_profile_voice_locked = {
+_G.pg.base.gametip.ship_profile_voice_locked = {
 	tip = "未滿足解鎖條件"
 }
 
-_G.pg.gametip.ship_profile_skin_locked = {
+_G.pg.base.gametip.ship_profile_skin_locked = {
 	tip = "換裝未解鎖"
 }
 
-_G.pg.gametip.ship_profile_words = {
+_G.pg.base.gametip.ship_profile_words = {
 	tip = "台詞鑑賞"
 }
 
-_G.pg.gametip.ship_profile_action_words = {
+_G.pg.base.gametip.ship_profile_action_words = {
 	tip = "動作台詞鑑賞"
 }
 
-_G.pg.gametip.ship_profile_label_common = {
+_G.pg.base.gametip.ship_profile_label_common = {
 	tip = "通用"
 }
 
-_G.pg.gametip.ship_profile_label_diff = {
+_G.pg.base.gametip.ship_profile_label_diff = {
 	tip = "差分"
 }
 
-_G.pg.gametip.level_fleet_lease_one_ship = {
+_G.pg.base.gametip.level_fleet_lease_one_ship = {
 	tip = "至少需要保留一支出擊艦隊"
 }
 
-_G.pg.gametip.level_fleet_not_enough = {
+_G.pg.base.gametip.level_fleet_not_enough = {
 	tip = "該艦隊沒有成型，不能出擊"
 }
 
-_G.pg.gametip.level_fleet_outof_limit = {
+_G.pg.base.gametip.level_fleet_outof_limit = {
 	tip = "出擊艦隊數量已達上限"
 }
 
-_G.pg.gametip.vote_success = {
+_G.pg.base.gametip.vote_success = {
 	tip = "投票成功"
 }
 
-_G.pg.gametip.vote_not_enough = {
+_G.pg.base.gametip.vote_not_enough = {
 	tip = "餘票數量不足"
 }
 
-_G.pg.gametip.vote_love_not_enough = {
+_G.pg.base.gametip.vote_love_not_enough = {
 	tip = "真愛選票數量不足"
 }
 
-_G.pg.gametip.vote_love_limit = {
+_G.pg.base.gametip.vote_love_limit = {
 	tip = "本日對角色進行投票後才能進行真愛投票"
 }
 
-_G.pg.gametip.vote_love_confirm = {
+_G.pg.base.gametip.vote_love_confirm = {
 	tip = "是否消耗一次真愛投票機會進行一次額外投票"
 }
 
-_G.pg.gametip.vote_primary_rule = {
+_G.pg.base.gametip.vote_primary_rule = {
 	tip = [[
 <size=20>預選賽</size>
 <size=19>將所有角色隨機分為四組，每組進行為期5天的人氣投票，根據全伺服器投票結果從每個小組中選出3名得票最多的角色，共12名進入決賽階段</size>
@@ -7520,239 +7520,239 @@ _G.pg.gametip.vote_primary_rule = {
 <size=19>當小組賽、決賽最終排名出現影響結果的同票情況時，以最後被投票的角色優先</size>]]
 }
 
-_G.pg.gametip.vote_final_title1 = {
+_G.pg.base.gametip.vote_final_title1 = {
 	tip = "決勝投票"
 }
 
-_G.pg.gametip.vote_final_rule1 = {
+_G.pg.base.gametip.vote_final_rule1 = {
 	tip = "預選賽中誕生的12名角色，將進行為期10天的決賽投票，預選賽中累積的投票數量歸零。決賽中普通票可以投給重複角色\n根據決賽排名優先製作角色誓約換裝。若冠軍角色已有誓約換裝，原則上誓約製作權順延一位"
 }
 
-_G.pg.gametip.vote_final_title2 = {
+_G.pg.base.gametip.vote_final_title2 = {
 	tip = "活動獎勵"
 }
 
-_G.pg.gametip.vote_final_rule2 = {
+_G.pg.base.gametip.vote_final_rule2 = {
 	tip = "將根據決賽排名優先製作角色的誓約換裝（如果獲得冠軍的角色已有誓約換裝，原則上誓約製作權順延一位）"
 }
 
-_G.pg.gametip.vote_vote_time = {
+_G.pg.base.gametip.vote_vote_time = {
 	tip = "投票時間:$1—$2"
 }
 
-_G.pg.gametip.vote_vote_count = {
+_G.pg.base.gametip.vote_vote_count = {
 	tip = "$1票"
 }
 
-_G.pg.gametip.vote_vote_group = {
+_G.pg.base.gametip.vote_vote_group = {
 	tip = "$1組"
 }
 
-_G.pg.gametip.vote_rank_refresh_time = {
+_G.pg.base.gametip.vote_rank_refresh_time = {
 	tip = "*排名每半小時刷新一次"
 }
 
-_G.pg.gametip.vote_rank_in_current_server = {
+_G.pg.base.gametip.vote_rank_in_current_server = {
 	tip = "*排名僅顯示當前伺服器"
 }
 
-_G.pg.gametip.words_auto_battle_label = {
+_G.pg.base.gametip.words_auto_battle_label = {
 	tip = "自律戰鬥結束時震動提醒"
 }
 
-_G.pg.gametip.words_show_ship_name_label = {
+_G.pg.base.gametip.words_show_ship_name_label = {
 	tip = "自定義角色名稱"
 }
 
-_G.pg.gametip.words_rare_ship_vibrate = {
+_G.pg.base.gametip.words_rare_ship_vibrate = {
 	tip = "獲得角色震動"
 }
 
-_G.pg.gametip.words_display_ship_get_effect = {
+_G.pg.base.gametip.words_display_ship_get_effect = {
 	tip = "重複角色獲得提示"
 }
 
-_G.pg.gametip.words_show_touch_effect = {
+_G.pg.base.gametip.words_show_touch_effect = {
 	tip = "顯示觸控特效"
 }
 
-_G.pg.gametip.words_bg_fit_mode = {
+_G.pg.base.gametip.words_bg_fit_mode = {
 	tip = "過場圖適應螢幕最小邊"
 }
 
-_G.pg.gametip.words_battle_hide_bg = {
+_G.pg.base.gametip.words_battle_hide_bg = {
 	tip = "戰鬥預設隱藏局部背景"
 }
 
-_G.pg.gametip.words_battle_expose_line = {
+_G.pg.base.gametip.words_battle_expose_line = {
 	tip = "戰鬥內展示航母偵測線"
 }
 
-_G.pg.gametip.words_autoFight_battery_savemode = {
+_G.pg.base.gametip.words_autoFight_battery_savemode = {
 	tip = "自律尋敵夜間模式"
 }
 
-_G.pg.gametip.words_autoFight_battery_savemode_des = {
+_G.pg.base.gametip.words_autoFight_battery_savemode_des = {
 	tip = "開啟後，會在自律尋敵開始的20秒後調低螢幕亮度，減少負荷"
 }
 
-_G.pg.gametip.words_autoFIght_down_frame = {
+_G.pg.base.gametip.words_autoFIght_down_frame = {
 	tip = "夜間模式降幀"
 }
 
-_G.pg.gametip.words_autoFIght_down_frame_des = {
+_G.pg.base.gametip.words_autoFIght_down_frame_des = {
 	tip = "開啟後，會在自律尋敵夜間模式中降低遊戲幀數，減少負荷"
 }
 
-_G.pg.gametip.words_autoFight_tips = {
+_G.pg.base.gametip.words_autoFight_tips = {
 	tip = "請先開啟自律尋敵夜間模式"
 }
 
-_G.pg.gametip.words_autoFight_right = {
+_G.pg.base.gametip.words_autoFight_right = {
 	tip = "為了開啟夜間模式，需要獲得修改部分系統設置的權限"
 }
 
-_G.pg.gametip.activity_puzzle_get1 = {
+_G.pg.base.gametip.activity_puzzle_get1 = {
 	tip = "<color=#A9F548FF>獲得方式\n拼圖任務7</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get2 = {
+_G.pg.base.gametip.activity_puzzle_get2 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度2-1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get3 = {
+_G.pg.base.gametip.activity_puzzle_get3 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度2-2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get4 = {
+_G.pg.base.gametip.activity_puzzle_get4 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度2-3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get5 = {
+_G.pg.base.gametip.activity_puzzle_get5 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度2-4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get6 = {
+_G.pg.base.gametip.activity_puzzle_get6 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度3-1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get7 = {
+_G.pg.base.gametip.activity_puzzle_get7 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度3-2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get8 = {
+_G.pg.base.gametip.activity_puzzle_get8 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度3-3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get9 = {
+_G.pg.base.gametip.activity_puzzle_get9 = {
 	tip = "<color=#A9F548FF>獲得方式\n普通難度3-4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get10 = {
+_G.pg.base.gametip.activity_puzzle_get10 = {
 	tip = "<color=#A9F548FF>獲得方式\n拼圖任務1</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get11 = {
+_G.pg.base.gametip.activity_puzzle_get11 = {
 	tip = "<color=#A9F548FF>獲得方式\n拼圖任務2</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get12 = {
+_G.pg.base.gametip.activity_puzzle_get12 = {
 	tip = "<color=#A9F548FF>獲得方式\n拼圖任務3</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get13 = {
+_G.pg.base.gametip.activity_puzzle_get13 = {
 	tip = "<color=#A9F548FF>獲得方式\n拼圖任務4</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get14 = {
+_G.pg.base.gametip.activity_puzzle_get14 = {
 	tip = "<color=#A9F548FF>獲得方式\n拼圖任務5</color>"
 }
 
-_G.pg.gametip.activity_puzzle_get15 = {
+_G.pg.base.gametip.activity_puzzle_get15 = {
 	tip = "<color=#A9F548FF>獲得方式\n拼圖任務6</color>"
 }
 
-_G.pg.gametip.word_stopremain_build = {
+_G.pg.base.gametip.word_stopremain_build = {
 	tip = "次回からは表示しない"
 }
 
-_G.pg.gametip.word_stopremain_default = {
+_G.pg.base.gametip.word_stopremain_default = {
 	tip = "次回からは表示しない"
 }
 
-_G.pg.gametip.transcode_desc = {
+_G.pg.base.gametip.transcode_desc = {
 	tip = "·引き続ぎパスワードの有効期間は<color=#FF0000>7日間</color>です。期間を過ぎた場合は舊端末から発行し直して下さい。\n·引続ぎパスワードを使ったデータ引き続ぎは、<color=#ff0000>30日間</color>で実行できます。"
 }
 
-_G.pg.gametip.transcode_empty_tip = {
+_G.pg.base.gametip.transcode_empty_tip = {
 	tip = "請正確輸入UID和繼承碼"
 }
 
-_G.pg.gametip.set_birth_title = {
+_G.pg.base.gametip.set_birth_title = {
 	tip = "設置生日"
 }
 
-_G.pg.gametip.set_birth_confirm_tip = {
+_G.pg.base.gametip.set_birth_confirm_tip = {
 	tip = "確定要設置生日為：$1"
 }
 
-_G.pg.gametip.set_birth_empty_tip = {
+_G.pg.base.gametip.set_birth_empty_tip = {
 	tip = "請正確輸入生日"
 }
 
-_G.pg.gametip.set_birth_success = {
+_G.pg.base.gametip.set_birth_success = {
 	tip = "設置生日成功"
 }
 
-_G.pg.gametip.clear_transcode_cache_confirm = {
+_G.pg.base.gametip.clear_transcode_cache_confirm = {
 	tip = "確定要清除繼承碼？"
 }
 
-_G.pg.gametip.clear_transcode_cache_success = {
+_G.pg.base.gametip.clear_transcode_cache_success = {
 	tip = "繼承碼清除成功"
 }
 
-_G.pg.gametip.exchange_item_success = {
+_G.pg.base.gametip.exchange_item_success = {
 	tip = "兌換成功"
 }
 
-_G.pg.gametip.give_up_cloth_change = {
+_G.pg.base.gametip.give_up_cloth_change = {
 	tip = "是否放棄換裝直接退出？"
 }
 
-_G.pg.gametip.err_cloth_change_noship = {
+_G.pg.base.gametip.err_cloth_change_noship = {
 	tip = "未獲得$1"
 }
 
-_G.pg.gametip.need_break_tip = {
+_G.pg.base.gametip.need_break_tip = {
 	tip = "需要突破"
 }
 
-_G.pg.gametip.max_level_notice = {
+_G.pg.base.gametip.max_level_notice = {
 	tip = "達到等級上限，突破後等級上限提升為$1"
 }
 
-_G.pg.gametip.new_skin_no_choose = {
+_G.pg.base.gametip.new_skin_no_choose = {
 	tip = "沒有選擇需要換裝的角色，是否要退出換裝"
 }
 
-_G.pg.gametip.sure_resume_volume = {
+_G.pg.base.gametip.sure_resume_volume = {
 	tip = "確定要恢復預設音量大小設置？"
 }
 
-_G.pg.gametip.course_class_not_ready = {
+_G.pg.base.gametip.course_class_not_ready = {
 	tip = "沒有學生，不能開始上課"
 }
 
-_G.pg.gametip.course_student_max_level = {
+_G.pg.base.gametip.course_student_max_level = {
 	tip = "有學生已經滿級，還不能開始上課"
 }
 
-_G.pg.gametip.course_stop_confirm = {
+_G.pg.base.gametip.course_stop_confirm = {
 	tip = "是否結束當前課程，獲得經驗？"
 }
 
-_G.pg.gametip.course_class_help = {
+_G.pg.base.gametip.course_class_help = {
 	tip = {
 		{
 			info = [[
@@ -7785,243 +7785,243 @@ _G.pg.gametip.course_class_help = {
 	}
 }
 
-_G.pg.gametip.course_class_name = {
+_G.pg.base.gametip.course_class_name = {
 	tip = "今日課程：$1"
 }
 
-_G.pg.gametip.course_proficiency_not_enough = {
+_G.pg.base.gametip.course_proficiency_not_enough = {
 	tip = "熟練度不足"
 }
 
-_G.pg.gametip.course_state_rest = {
+_G.pg.base.gametip.course_state_rest = {
 	tip = "下課時間"
 }
 
-_G.pg.gametip.course_state_lession = {
+_G.pg.base.gametip.course_state_lession = {
 	tip = "上課時長："
 }
 
-_G.pg.gametip.course_energy_not_enough = {
+_G.pg.base.gametip.course_energy_not_enough = {
 	tip = "<color=#A9F548>$1</color>不開心，不願意來上課"
 }
 
-_G.pg.gametip.course_proficiency_tip = {
+_G.pg.base.gametip.course_proficiency_tip = {
 	tip = "完成三階突破的<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$1級</color></material>角色，出擊時將獲取等於出擊經驗<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2%</color></material>的熟練度"
 }
 
-_G.pg.gametip.course_sunday_tip = {
+_G.pg.base.gametip.course_sunday_tip = {
 	tip = "學生自主學習，出擊熟練度獲取比例翻倍"
 }
 
-_G.pg.gametip.course_exit_confirm = {
+_G.pg.base.gametip.course_exit_confirm = {
 	tip = "學生還沒有開始上課，是否退出大講堂？"
 }
 
-_G.pg.gametip.course_learning = {
+_G.pg.base.gametip.course_learning = {
 	tip = "正在上課中"
 }
 
-_G.pg.gametip.time_remaining_tip = {
+_G.pg.base.gametip.time_remaining_tip = {
 	tip = "剩餘時間:"
 }
 
-_G.pg.gametip.propose_intimacy_tip = {
+_G.pg.base.gametip.propose_intimacy_tip = {
 	tip = "好感度達到100（當前$1）"
 }
 
-_G.pg.gametip.no_found_record_equipment = {
+_G.pg.base.gametip.no_found_record_equipment = {
 	tip = "未找到閒置的$1裝備,是否自動搜尋其他強化等級的同種裝備進行換裝"
 }
 
-_G.pg.gametip.sec_floor_limit_tip = {
+_G.pg.base.gametip.sec_floor_limit_tip = {
 	tip = "後宅一層擴建完畢後開放該功能"
 }
 
-_G.pg.gametip.guild_shop_flash_success = {
+_G.pg.base.gametip.guild_shop_flash_success = {
 	tip = "重整成功"
 }
 
-_G.pg.gametip.destroy_high_rarity_tip = {
+_G.pg.base.gametip.destroy_high_rarity_tip = {
 	tip = "<color=#A9F548>精銳以上</color>"
 }
 
-_G.pg.gametip.destroy_high_level_tip = {
+_G.pg.base.gametip.destroy_high_level_tip = {
 	tip = "<color=#A9F548>$1等級不為1</color>"
 }
 
-_G.pg.gametip.destroy_eliteequipment_tip = {
+_G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "拆解裝備中有$1的裝備\n是否確認?"
 }
 
-_G.pg.gametip.destroy_high_intensify_tip = {
+_G.pg.base.gametip.destroy_high_intensify_tip = {
 	tip = "<color=#A9F548>$1經過強化</color>"
 }
 
-_G.pg.gametip.destroy_inHardFormation_tip = {
+_G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "<color=#92fc63>困難編隊中</color>"
 }
 
-_G.pg.gametip.ship_quick_change_noequip = {
+_G.pg.base.gametip.ship_quick_change_noequip = {
 	tip = "缺少可替換的裝備"
 }
 
-_G.pg.gametip.ship_quick_change_nofreeequip = {
+_G.pg.base.gametip.ship_quick_change_nofreeequip = {
 	tip = "沒有閒置的對應裝備"
 }
 
-_G.pg.gametip.word_nowenergy = {
+_G.pg.base.gametip.word_nowenergy = {
 	tip = "當前心情值"
 }
 
-_G.pg.gametip.word_energy_recov_speed = {
+_G.pg.base.gametip.word_energy_recov_speed = {
 	tip = "回復速度"
 }
 
-_G.pg.gametip.destroy_eliteship_tip = {
+_G.pg.base.gametip.destroy_eliteship_tip = {
 	tip = "選擇角色中有$1的角色："
 }
 
-_G.pg.gametip.err_resloveequip_nochoice = {
+_G.pg.base.gametip.err_resloveequip_nochoice = {
 	tip = "未選擇拆除的裝備"
 }
 
-_G.pg.gametip.take_nothing = {
+_G.pg.base.gametip.take_nothing = {
 	tip = "沒什麼可領的"
 }
 
-_G.pg.gametip.take_all_mail = {
+_G.pg.base.gametip.take_all_mail = {
 	tip = "是否領取已讀取到的<color=#A9F548>$1封郵件附件</color>\n領取將獲得："
 }
 
-_G.pg.gametip.buy_furniture_overtime = {
+_G.pg.base.gametip.buy_furniture_overtime = {
 	tip = "當前時間不能購買該傢俱"
 }
 
-_G.pg.gametip.twitter_login_tips = {
+_G.pg.base.gametip.twitter_login_tips = {
 	tip = "用twitter帳號的登入後，當前的遊戲帳號暫存將消失，確定繼續操作嗎?"
 }
 
-_G.pg.gametip.data_erro = {
+_G.pg.base.gametip.data_erro = {
 	tip = "數據出錯啦"
 }
 
-_G.pg.gametip.login_failed = {
+_G.pg.base.gametip.login_failed = {
 	tip = "登入失敗"
 }
 
-_G.pg.gametip["not yet completed"] = {
+_G.pg.base.gametip["not yet completed"] = {
 	tip = "尚未完成"
 }
 
-_G.pg.gametip.escort_less_count_to_combat = {
+_G.pg.base.gametip.escort_less_count_to_combat = {
 	tip = "今日挑戰次數不足，無法進入"
 }
 
-_G.pg.gametip.ten_even_draw = {
+_G.pg.base.gametip.ten_even_draw = {
 	tip = "$1次補給"
 }
 
-_G.pg.gametip.ten_even_draw_confirm = {
+_G.pg.base.gametip.ten_even_draw_confirm = {
 	tip = "確定抽取$1次補給？"
 }
 
-_G.pg.gametip.level_risk_level_desc = {
+_G.pg.base.gametip.level_risk_level_desc = {
 	tip = " $1\n\n"
 }
 
-_G.pg.gametip.level_risk_level_mitigation_rate = {
+_G.pg.base.gametip.level_risk_level_mitigation_rate = {
 	tip = "<size=36>當前海域危險等級為<color=#A9F548>【$1】</color>\n出擊艦隊受到傷害減少<color=#A9F548>$2%</color></size>"
 }
 
-_G.pg.gametip.level_diffcult_chapter_state_safety = {
+_G.pg.base.gametip.level_diffcult_chapter_state_safety = {
 	tip = "<size=36>地圖達成<color=#92fc63>100%</color>後\n出擊艦隊可直接攻擊<color=#92fc63>敵方旗艦</color></size>"
 }
 
-_G.pg.gametip.level_chapter_state_high_risk = {
+_G.pg.base.gametip.level_chapter_state_high_risk = {
 	tip = "<color=#EE2C00>【高危海域】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_risk = {
+_G.pg.base.gametip.level_chapter_state_risk = {
 	tip = "<color=#FFAF59>【危險海域】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_low_risk = {
+_G.pg.base.gametip.level_chapter_state_low_risk = {
 	tip = "<color=#8AFBF3>【低危海域】</color>"
 }
 
-_G.pg.gametip.level_chapter_state_safety = {
+_G.pg.base.gametip.level_chapter_state_safety = {
 	tip = "<color=#A9F548>【安全海域】</color>"
 }
 
-_G.pg.gametip.open_skill_class_success = {
+_G.pg.base.gametip.open_skill_class_success = {
 	tip = "開啟學院欄位成功"
 }
 
-_G.pg.gametip.backyard_sort_tag_default = {
+_G.pg.base.gametip.backyard_sort_tag_default = {
 	tip = "預設"
 }
 
-_G.pg.gametip.backyard_sort_tag_price = {
+_G.pg.base.gametip.backyard_sort_tag_price = {
 	tip = "價格"
 }
 
-_G.pg.gametip.backyard_sort_tag_comfortable = {
+_G.pg.base.gametip.backyard_sort_tag_comfortable = {
 	tip = "舒適度"
 }
 
-_G.pg.gametip.backyard_sort_tag_size = {
+_G.pg.base.gametip.backyard_sort_tag_size = {
 	tip = "面積"
 }
 
-_G.pg.gametip.backyard_filter_tag_other = {
+_G.pg.base.gametip.backyard_filter_tag_other = {
 	tip = "其他"
 }
 
-_G.pg.gametip.word_status_inFight = {
+_G.pg.base.gametip.word_status_inFight = {
 	tip = "已出擊"
 }
 
-_G.pg.gametip.word_status_inPVP = {
+_G.pg.base.gametip.word_status_inPVP = {
 	tip = "演習中"
 }
 
-_G.pg.gametip.word_status_inEvent = {
+_G.pg.base.gametip.word_status_inEvent = {
 	tip = "行動中"
 }
 
-_G.pg.gametip.word_status_inEventFinished = {
+_G.pg.base.gametip.word_status_inEventFinished = {
 	tip = "已完成"
 }
 
-_G.pg.gametip.word_status_inTactics = {
+_G.pg.base.gametip.word_status_inTactics = {
 	tip = "進修中"
 }
 
-_G.pg.gametip.word_status_inClass = {
+_G.pg.base.gametip.word_status_inClass = {
 	tip = "上課中"
 }
 
-_G.pg.gametip.word_status_rest = {
+_G.pg.base.gametip.word_status_rest = {
 	tip = "休息中"
 }
 
-_G.pg.gametip.word_status_train = {
+_G.pg.base.gametip.word_status_train = {
 	tip = "訓練中"
 }
 
-_G.pg.gametip.word_status_challenge = {
+_G.pg.base.gametip.word_status_challenge = {
 	tip = "特殊挑戰中"
 }
 
-_G.pg.gametip.word_status_world = {
+_G.pg.base.gametip.word_status_world = {
 	tip = "大型作戰中"
 }
 
-_G.pg.gametip.word_status_inHardFormation = {
+_G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "困難編隊中"
 }
 
-_G.pg.gametip.challenge_rule = {
+_G.pg.base.gametip.challenge_rule = {
 	tip = {
 		{
 			info = [[
@@ -8044,163 +8044,163 @@ _G.pg.gametip.challenge_rule = {
 	}
 }
 
-_G.pg.gametip.challenge_exit_warning = {
+_G.pg.base.gametip.challenge_exit_warning = {
 	tip = "退出挑戰關卡戰鬥，將重置挑戰並直接結算至當前關卡前的得分\n是否確定退出挑戰？"
 }
 
-_G.pg.gametip.challenge_fleet_type_fail = {
+_G.pg.base.gametip.challenge_fleet_type_fail = {
 	tip = "已經選擇了兩名相同定位的角色"
 }
 
-_G.pg.gametip.challenge_current_level = {
+_G.pg.base.gametip.challenge_current_level = {
 	tip = "當前關卡：第$1輪"
 }
 
-_G.pg.gametip.challenge_current_score = {
+_G.pg.base.gametip.challenge_current_score = {
 	tip = "累計分數：$1"
 }
 
-_G.pg.gametip.challenge_total_score = {
+_G.pg.base.gametip.challenge_total_score = {
 	tip = "最高得分：$1"
 }
 
-_G.pg.gametip.challenge_current_progress = {
+_G.pg.base.gametip.challenge_current_progress = {
 	tip = "挑戰模式第$1輪"
 }
 
-_G.pg.gametip.challenge_count_unlimit = {
+_G.pg.base.gametip.challenge_count_unlimit = {
 	tip = "<size=28>無限制</size>"
 }
 
-_G.pg.gametip.challenge_no_fleet = {
+_G.pg.base.gametip.challenge_no_fleet = {
 	tip = "沒有可用艦隊，無法出擊"
 }
 
-_G.pg.gametip.equipment_skin_unload = {
+_G.pg.base.gametip.equipment_skin_unload = {
 	tip = "裝備外觀已卸下至倉庫中"
 }
 
-_G.pg.gametip.equipment_skin_no_old_ship = {
+_G.pg.base.gametip.equipment_skin_no_old_ship = {
 	tip = "不存在舊船"
 }
 
-_G.pg.gametip.equipment_skin_no_old_skinorequipment = {
+_G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
 	tip = "舊船沒有裝備或者外觀"
 }
 
-_G.pg.gametip.equipment_skin_no_new_ship = {
+_G.pg.base.gametip.equipment_skin_no_new_ship = {
 	tip = "不存在新船"
 }
 
-_G.pg.gametip.equipment_skin_no_new_equipment = {
+_G.pg.base.gametip.equipment_skin_no_new_equipment = {
 	tip = "新船沒有裝備"
 }
 
-_G.pg.gametip.equipment_skin_count_noenough = {
+_G.pg.base.gametip.equipment_skin_count_noenough = {
 	tip = "外觀數量不足"
 }
 
-_G.pg.gametip.equipment_skin_replace_done = {
+_G.pg.base.gametip.equipment_skin_replace_done = {
 	tip = "替換外觀成功"
 }
 
-_G.pg.gametip.equipment_skin_unload_failed = {
+_G.pg.base.gametip.equipment_skin_unload_failed = {
 	tip = "裝備新船外觀失敗"
 }
 
-_G.pg.gametip.equipment_skin_unmatch_equipment = {
+_G.pg.base.gametip.equipment_skin_unmatch_equipment = {
 	tip = "換的武器與使用中的外觀不相容,已卸下到倉庫"
 }
 
-_G.pg.gametip.equipment_skin_no_equipment_tip = {
+_G.pg.base.gametip.equipment_skin_no_equipment_tip = {
 	tip = "該角色未穿戴裝備，無法使用外觀"
 }
 
-_G.pg.gametip.activity_pool_awards_empty = {
+_G.pg.base.gametip.activity_pool_awards_empty = {
 	tip = "本階段已經全部完成"
 }
 
-_G.pg.gametip.activity_switch_award_pool_failed = {
+_G.pg.base.gametip.activity_switch_award_pool_failed = {
 	tip = "本階段主要獎勵未全部獲取，不能進入下一階段"
 }
 
-_G.pg.gametip.shop_street_activity_tip = {
+_G.pg.base.gametip.shop_street_activity_tip = {
 	tip = "*活動期間(<color=#A1E400FF>$1</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>"
 }
 
-_G.pg.gametip.shop_street_Equipment_skin_box_help = {
+_G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
 	tip = "<color=#A1E400FF>$1</COLOR> 出現時間為：<color=#A1E400FF>$2</COLOR>"
 }
 
-_G.pg.gametip.twitter_link_title = {
+_G.pg.base.gametip.twitter_link_title = {
 	tip = "</size>"
 }
 
-_G.pg.gametip.battle_result_boss_destruct = {
+_G.pg.base.gametip.battle_result_boss_destruct = {
 	tip = "阻止boss自毀並擊破boss"
 }
 
-_G.pg.gametip.battle_preCombatLayer_boss_destruct = {
+_G.pg.base.gametip.battle_preCombatLayer_boss_destruct = {
 	tip = "阻止boss自毀並擊破boss"
 }
 
-_G.pg.gametip.destory_important_equipment_tip = {
+_G.pg.base.gametip.destory_important_equipment_tip = {
 	tip = "確認拆解裝備<color=#FFDE00FF>“$1”</color>嗎？請在下面輸入該裝備名稱後確定拆解。"
 }
 
-_G.pg.gametip.destory_important_equipment_input_erro = {
+_G.pg.base.gametip.destory_important_equipment_input_erro = {
 	tip = "裝備名稱錯誤"
 }
 
-_G.pg.gametip.activity_hit_monster_nocount = {
+_G.pg.base.gametip.activity_hit_monster_nocount = {
 	tip = "次數不足"
 }
 
-_G.pg.gametip.activity_hit_monster_death = {
+_G.pg.base.gametip.activity_hit_monster_death = {
 	tip = "年獸已經被擊退"
 }
 
-_G.pg.gametip.activity_hit_monster_help = {
+_G.pg.base.gametip.activity_hit_monster_help = {
 	tip = "打年獸規則"
 }
 
-_G.pg.gametip.activity_hit_monster_erro = {
+_G.pg.base.gametip.activity_hit_monster_erro = {
 	tip = "攻擊失敗"
 }
 
-_G.pg.gametip.activity_xiaotiane_progress = {
+_G.pg.base.gametip.activity_xiaotiane_progress = {
 	tip = "進度: $1/$2"
 }
 
-_G.pg.gametip.activity_hit_monster_reset_tip = {
+_G.pg.base.gametip.activity_hit_monster_reset_tip = {
 	tip = "是否再次挑戰撫順的大冒險？\n重複挑戰不會獲得獎勵"
 }
 
-_G.pg.gametip.equip_skin_detail_tip = {
+_G.pg.base.gametip.equip_skin_detail_tip = {
 	tip = "可以獲得以下外觀裝備"
 }
 
-_G.pg.gametip.emoji_type_0 = {
+_G.pg.base.gametip.emoji_type_0 = {
 	tip = "常用"
 }
 
-_G.pg.gametip.emoji_type_1 = {
+_G.pg.base.gametip.emoji_type_1 = {
 	tip = "預設"
 }
 
-_G.pg.gametip.emoji_type_2 = {
+_G.pg.base.gametip.emoji_type_2 = {
 	tip = "動態"
 }
 
-_G.pg.gametip.emoji_type_3 = {
+_G.pg.base.gametip.emoji_type_3 = {
 	tip = "像素"
 }
 
-_G.pg.gametip.emoji_type_4 = {
+_G.pg.base.gametip.emoji_type_4 = {
 	tip = "小表情"
 }
 
-_G.pg.gametip.card_pairs_help_tip = {
+_G.pg.base.gametip.card_pairs_help_tip = {
 	tip = {
 		{
 			info = "活動規則："
@@ -8229,23 +8229,23 @@ _G.pg.gametip.card_pairs_help_tip = {
 	}
 }
 
-_G.pg.gametip.card_pairs_tips = {
+_G.pg.base.gametip.card_pairs_tips = {
 	tip = "再次進行遊戲也無法獲得任務道具了喲，是否開啟新的一輪遊戲？"
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_failed = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
 	tip = "已達到最大等級上限，\n無法進行認知覺醒"
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_tip = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_tip = {
 	tip = "消耗以下材料完成認知覺醒\n※完成後等級上限："
 }
 
-_G.pg.gametip.upgrade_to_next_maxlevel_succeed = {
+_G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
 	tip = "認知覺醒完成\n等級上限提升為<color=#A9F548FF>$1</color>"
 }
 
-_G.pg.gametip.extra_chapter_socre_tip = {
+_G.pg.base.gametip.extra_chapter_socre_tip = {
 	tip = [[
 本次挑戰積分：<color=#A9F548>$1</color>
 
@@ -8254,167 +8254,167 @@ _G.pg.gametip.extra_chapter_socre_tip = {
 $3]]
 }
 
-_G.pg.gametip.extra_chapter_record_updated = {
+_G.pg.base.gametip.extra_chapter_record_updated = {
 	tip = "記錄更新"
 }
 
-_G.pg.gametip.extra_chapter_record_not_updated = {
+_G.pg.base.gametip.extra_chapter_record_not_updated = {
 	tip = "記錄未更新"
 }
 
-_G.pg.gametip.extra_chapter_locked_tip = {
+_G.pg.base.gametip.extra_chapter_locked_tip = {
 	tip = "需要通關困難模式才能開啟ex關卡"
 }
 
-_G.pg.gametip.extra_chapter_locked_tip_1 = {
+_G.pg.base.gametip.extra_chapter_locked_tip_1 = {
 	tip = "需要通關普通模式才能開啟ex關卡"
 }
 
-_G.pg.gametip.player_name_change_time_lv_tip = {
+_G.pg.base.gametip.player_name_change_time_lv_tip = {
 	tip = "指揮官等級達到<color=#A9F548>$1</color>後開放更名功能"
 }
 
-_G.pg.gametip.player_name_change_time_limit_tip = {
+_G.pg.base.gametip.player_name_change_time_limit_tip = {
 	tip = "<color=#A9F548>$1</color>後才允許再次更名"
 }
 
-_G.pg.gametip.player_name_change_windows_tip = {
+_G.pg.base.gametip.player_name_change_windows_tip = {
 	tip = "*更名需要消耗<color=#A9F548>$1:$2</color>，且<color=#A9F548>30</color>天內不允許再次更改"
 }
 
-_G.pg.gametip.player_name_change_warning = {
+_G.pg.base.gametip.player_name_change_warning = {
 	tip = "更名需要消耗<color=#A9F548>$1</color>個<color=#A9F548>$2</color>，且<color=#A9F548>30</color>天後才能再次修改，是否確定將指揮官暱稱修改為：<color=#A9F548>$3</color> ？"
 }
 
-_G.pg.gametip.player_name_change_success = {
+_G.pg.base.gametip.player_name_change_success = {
 	tip = "指揮官暱稱修改成功"
 }
 
-_G.pg.gametip.player_name_change_failed = {
+_G.pg.base.gametip.player_name_change_failed = {
 	tip = "指揮官暱稱修改失敗"
 }
 
-_G.pg.gametip.same_player_name_tip = {
+_G.pg.base.gametip.same_player_name_tip = {
 	tip = "不能與當前指揮官暱稱相同"
 }
 
-_G.pg.gametip.task_is_not_existence = {
+_G.pg.base.gametip.task_is_not_existence = {
 	tip = "不存在該任務$1"
 }
 
-_G.pg.gametip.cannot_build_multiple_printblue = {
+_G.pg.base.gametip.cannot_build_multiple_printblue = {
 	tip = "是否中止<color=#A9F548>$1</color>的研究，並開啟<color=#A9F548>$2</color>的研究？開始研究後<color=#A9F548>24小時之內</color>無法更換其他研究對象"
 }
 
-_G.pg.gametip.printblue_build_success = {
+_G.pg.base.gametip.printblue_build_success = {
 	tip = "開始研究"
 }
 
-_G.pg.gametip.printblue_build_erro = {
+_G.pg.base.gametip.printblue_build_erro = {
 	tip = "研究結束"
 }
 
-_G.pg.gametip.blueprint_mod_success = {
+_G.pg.base.gametip.blueprint_mod_success = {
 	tip = "開發成功"
 }
 
-_G.pg.gametip.blueprint_mod_erro = {
+_G.pg.base.gametip.blueprint_mod_erro = {
 	tip = "開發失敗"
 }
 
-_G.pg.gametip.technology_refresh_sucess = {
+_G.pg.base.gametip.technology_refresh_sucess = {
 	tip = "更新研發列表成功"
 }
 
-_G.pg.gametip.technology_refresh_erro = {
+_G.pg.base.gametip.technology_refresh_erro = {
 	tip = "更新研發列表失敗"
 }
 
-_G.pg.gametip.change_technology_refresh_sucess = {
+_G.pg.base.gametip.change_technology_refresh_sucess = {
 	tip = "切換研發傾向成功"
 }
 
-_G.pg.gametip.change_technology_refresh_erro = {
+_G.pg.base.gametip.change_technology_refresh_erro = {
 	tip = "切換研發傾向失敗"
 }
 
-_G.pg.gametip.technology_start_up = {
+_G.pg.base.gametip.technology_start_up = {
 	tip = "開始研發"
 }
 
-_G.pg.gametip.technology_start_erro = {
+_G.pg.base.gametip.technology_start_erro = {
 	tip = "研發失敗"
 }
 
-_G.pg.gametip.technology_stop_success = {
+_G.pg.base.gametip.technology_stop_success = {
 	tip = "終止研發成功"
 }
 
-_G.pg.gametip.technology_stop_erro = {
+_G.pg.base.gametip.technology_stop_erro = {
 	tip = "終止研發失敗"
 }
 
-_G.pg.gametip.technology_finish_success = {
+_G.pg.base.gametip.technology_finish_success = {
 	tip = "完成研發成功"
 }
 
-_G.pg.gametip.technology_finish_erro = {
+_G.pg.base.gametip.technology_finish_erro = {
 	tip = "完成研發失敗"
 }
 
-_G.pg.gametip.blueprint_stop_success = {
+_G.pg.base.gametip.blueprint_stop_success = {
 	tip = "中止研發成功"
 }
 
-_G.pg.gametip.blueprint_stop_erro = {
+_G.pg.base.gametip.blueprint_stop_erro = {
 	tip = "中止研究失敗"
 }
 
-_G.pg.gametip.blueprint_destory_tip = {
+_G.pg.base.gametip.blueprint_destory_tip = {
 	tip = "方案艦不能被退役"
 }
 
-_G.pg.gametip.blueprint_task_update_tip = {
+_G.pg.base.gametip.blueprint_task_update_tip = {
 	tip = "當前研究中的<color=#A9F548>$1</color>有新的進展，請去開發船塢確認"
 }
 
-_G.pg.gametip.blueprint_mod_addition_lock = {
+_G.pg.base.gametip.blueprint_mod_addition_lock = {
 	tip = "$1級後開啟"
 }
 
-_G.pg.gametip.blueprint_mod_word_unlock = {
+_G.pg.base.gametip.blueprint_mod_word_unlock = {
 	tip = "解鎖台詞:$1"
 }
 
-_G.pg.gametip.blueprint_mod_skin_unlock = {
+_G.pg.base.gametip.blueprint_mod_skin_unlock = {
 	tip = "獲得造型:$1"
 }
 
-_G.pg.gametip.blueprint_build_consume = {
+_G.pg.base.gametip.blueprint_build_consume = {
 	tip = "需要花費'$1​​'是否開始研究？"
 }
 
-_G.pg.gametip.blueprint_stop_tip = {
+_G.pg.base.gametip.blueprint_stop_tip = {
 	tip = "確定終止研究嗎？將不返還材料"
 }
 
-_G.pg.gametip.technology_canot_refresh = {
+_G.pg.base.gametip.technology_canot_refresh = {
 	tip = "已有研發中的科研項目，無法更新"
 }
 
-_G.pg.gametip.technology_refresh_tip = {
+_G.pg.base.gametip.technology_refresh_tip = {
 	tip = "確定更新科研項目嗎?"
 }
 
-_G.pg.gametip.technology_is_actived = {
+_G.pg.base.gametip.technology_is_actived = {
 	tip = "已有研發中的科研項目"
 }
 
-_G.pg.gametip.technology_stop_tip = {
+_G.pg.base.gametip.technology_stop_tip = {
 	tip = "確定終止研發嗎？將不返還材料"
 }
 
-_G.pg.gametip.technology_help_text = {
+_G.pg.base.gametip.technology_help_text = {
 	tip = {
 		{
 			info = "<color=#A1E400FF>科研項目研發須知</color>\n"
@@ -8467,55 +8467,55 @@ _G.pg.gametip.technology_help_text = {
 	}
 }
 
-_G.pg.gametip.blueprint_build_time_tip = {
+_G.pg.base.gametip.blueprint_build_time_tip = {
 	tip = "開始研究後<color=#A9F548>24小時之內</color>無法更換其他研究對象"
 }
 
-_G.pg.gametip.blueprint_cannot_build_tip = {
+_G.pg.base.gametip.blueprint_cannot_build_tip = {
 	tip = "<color=#A9F548>$1</color>後才能更換研究對象"
 }
 
-_G.pg.gametip.technology_task_none_tip = {
+_G.pg.base.gametip.technology_task_none_tip = {
 	tip = "-無-"
 }
 
-_G.pg.gametip.technology_task_build_tip = {
+_G.pg.base.gametip.technology_task_build_tip = {
 	tip = "開啟該科研項目需要消耗:$1"
 }
 
-_G.pg.gametip.blueprint_commit_tip = {
+_G.pg.base.gametip.blueprint_commit_tip = {
 	tip = "需要提交<color=#A9F548>$1</color>，是否確認提交？"
 }
 
-_G.pg.gametip.buleprint_need_level_tip = {
+_G.pg.base.gametip.buleprint_need_level_tip = {
 	tip = "需角色到達$1級"
 }
 
-_G.pg.gametip.blueprint_max_level_tip = {
+_G.pg.base.gametip.blueprint_max_level_tip = {
 	tip = "已達最大等級"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_intimacy = {
+_G.pg.base.gametip.ship_profile_voice_locked_intimacy = {
 	tip = "好感度達到$1後解鎖"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_propose = {
+_G.pg.base.gametip.ship_profile_voice_locked_propose = {
 	tip = "誓約後解鎖"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_propose_imas = {
+_G.pg.base.gametip.ship_profile_voice_locked_propose_imas = {
 	tip = "誓約後解鎖"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_design = {
+_G.pg.base.gametip.ship_profile_voice_locked_design = {
 	tip = "開發等級達到$1級後解鎖"
 }
 
-_G.pg.gametip.ship_profile_voice_locked_meta = {
+_G.pg.base.gametip.ship_profile_voice_locked_meta = {
 	tip = "维修进度达到$1%后解锁(未使用)"
 }
 
-_G.pg.gametip.help_technolog0 = {
+_G.pg.base.gametip.help_technolog0 = {
 	tip = {
 		{
 			icon = {
@@ -8547,7 +8547,7 @@ _G.pg.gametip.help_technolog0 = {
 	}
 }
 
-_G.pg.gametip.help_technolog = {
+_G.pg.base.gametip.help_technolog = {
 	tip = {
 		{
 			icon = {
@@ -8597,15 +8597,15 @@ _G.pg.gametip.help_technolog = {
 	}
 }
 
-_G.pg.gametip.hide_chat_warning = {
+_G.pg.base.gametip.hide_chat_warning = {
 	tip = "封鎖聊天後將不會顯示任何收到的聊天訊息，是否確定？"
 }
 
-_G.pg.gametip.show_chat_warning = {
+_G.pg.base.gametip.show_chat_warning = {
 	tip = "解除封鎖聊天後將會顯示收到的聊天訊息，是否確定？"
 }
 
-_G.pg.gametip.help_shipblueprintui = {
+_G.pg.base.gametip.help_shipblueprintui = {
 	tip = {
 		{
 			info = [[
@@ -8640,7 +8640,7 @@ _G.pg.gametip.help_shipblueprintui = {
 	}
 }
 
-_G.pg.gametip.help_shipblueprintui_luck = {
+_G.pg.base.gametip.help_shipblueprintui_luck = {
 	tip = {
 		{
 			info = [[
@@ -8654,63 +8654,63 @@ _G.pg.gametip.help_shipblueprintui_luck = {
 	}
 }
 
-_G.pg.gametip.anniversary_task_title_1 = {
+_G.pg.base.gametip.anniversary_task_title_1 = {
 	tip = "指揮官，我還清晰地記得，在那棵蟬鳴的樹下，我們第一次相遇了"
 }
 
-_G.pg.gametip.anniversary_task_title_2 = {
+_G.pg.base.gametip.anniversary_task_title_2 = {
 	tip = "雖然過程是坎坷的，但有多少努力、希望和計畫都傾注其中"
 }
 
-_G.pg.gametip.anniversary_task_title_3 = {
+_G.pg.base.gametip.anniversary_task_title_3 = {
 	tip = "在遇見你之前，我一個人在孤獨的角落，現實的艱辛差點讓我放棄"
 }
 
-_G.pg.gametip.anniversary_task_title_4 = {
+_G.pg.base.gametip.anniversary_task_title_4 = {
 	tip = "但每次想到曙光下你微笑的臉龐，我就會寫下期待的詩篇"
 }
 
-_G.pg.gametip.anniversary_task_title_5 = {
+_G.pg.base.gametip.anniversary_task_title_5 = {
 	tip = "我知道，這會是一條充滿了荊棘的道路，但我的身後已無路可退"
 }
 
-_G.pg.gametip.anniversary_task_title_6 = {
+_G.pg.base.gametip.anniversary_task_title_6 = {
 	tip = "在我的眼前，是無盡的分歧點，每次走過卻又一遍遍地回到原點"
 }
 
-_G.pg.gametip.anniversary_task_title_7 = {
+_G.pg.base.gametip.anniversary_task_title_7 = {
 	tip = "我相信，曙光不讓我放棄，我一定能找到來到你身邊的線索"
 }
 
-_G.pg.gametip.anniversary_task_title_8 = {
+_G.pg.base.gametip.anniversary_task_title_8 = {
 	tip = "我穿梭在南來北往的人群裡，耳朵裡傳來的卻是嘲笑我的傻氣"
 }
 
-_G.pg.gametip.anniversary_task_title_9 = {
+_G.pg.base.gametip.anniversary_task_title_9 = {
 	tip = "可能是覺得我實在太傻了吧，有人將我一把抓住，那是我第一個朋友"
 }
 
-_G.pg.gametip.anniversary_task_title_10 = {
+_G.pg.base.gametip.anniversary_task_title_10 = {
 	tip = "我將我的一點一滴傾訴給她，她耐心地把這些記錄在繪本上"
 }
 
-_G.pg.gametip.anniversary_task_title_11 = {
+_G.pg.base.gametip.anniversary_task_title_11 = {
 	tip = "在她的鼓勵下，我心裡的那一株萌芽長大了，和以前不一樣了"
 }
 
-_G.pg.gametip.anniversary_task_title_12 = {
+_G.pg.base.gametip.anniversary_task_title_12 = {
 	tip = "越來越多的人開始為我加油，我好想背對他們，藏起那些淚水"
 }
 
-_G.pg.gametip.anniversary_task_title_13 = {
+_G.pg.base.gametip.anniversary_task_title_13 = {
 	tip = "你的背影，就在前方，只要再走一小步，我就能搭上你的肩膀"
 }
 
-_G.pg.gametip.anniversary_task_title_14 = {
+_G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "很榮幸能與你相遇。很期待，我們在下一個蟬鳴之時，可以再見"
 }
 
-_G.pg.gametip.help_sos = {
+_G.pg.base.gametip.help_sos = {
 	tip = {
 		{
 			info = "海域救援說明"
@@ -8744,19 +8744,19 @@ _G.pg.gametip.help_sos = {
 	}
 }
 
-_G.pg.gametip.sos_lock = {
+_G.pg.base.gametip.sos_lock = {
 	tip = "救援關卡尚未開放"
 }
 
-_G.pg.gametip.charge_scene_buy_confirm = {
+_G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "是否使用<color=#A9F548FF>$1鑽石</color>購買<color=#A9F548FF>$2</color>"
 }
 
-_G.pg.gametip.charge_scene_batch_buy_tip = {
+_G.pg.base.gametip.charge_scene_batch_buy_tip = {
 	tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>鑽石購買<color=$3>$2</color>個$4"
 }
 
-_G.pg.gametip.help_level_ui = {
+_G.pg.base.gametip.help_level_ui = {
 	tip = {
 		{
 			icon = {
@@ -8854,119 +8854,119 @@ _G.pg.gametip.help_level_ui = {
 	}
 }
 
-_G.pg.gametip.guild_modify_info_tip = {
+_G.pg.base.gametip.guild_modify_info_tip = {
 	tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>鑽石更改大艦隊代號"
 }
 
-_G.pg.gametip.ai_change_1 = {
+_G.pg.base.gametip.ai_change_1 = {
 	tip = "已切換為待機模式"
 }
 
-_G.pg.gametip.ai_change_2 = {
+_G.pg.base.gametip.ai_change_2 = {
 	tip = "已切換為自主尋敵模式"
 }
 
-_G.pg.gametip.activity_shop_lable = {
+_G.pg.base.gametip.activity_shop_lable = {
 	tip = "*兌換開放時間:<color=#68F9D7>$1</color>"
 }
 
-_G.pg.gametip.word_bilibili = {
+_G.pg.base.gametip.word_bilibili = {
 	tip = "bili小电池"
 }
 
-_G.pg.gametip.levelScene_tracking_error_pre = {
+_G.pg.base.gametip.levelScene_tracking_error_pre = {
 	tip = "通關<color=#A9F548>$1</color>後開啟"
 }
 
-_G.pg.gametip.ship_limit_notice = {
+_G.pg.base.gametip.ship_limit_notice = {
 	tip = "*不計算潛艇艦隊的數據"
 }
 
-_G.pg.gametip.idle = {
+_G.pg.base.gametip.idle = {
 	tip = "待機"
 }
 
-_G.pg.gametip.main_1 = {
+_G.pg.base.gametip.main_1 = {
 	tip = "主界\n面1"
 }
 
-_G.pg.gametip.main_2 = {
+_G.pg.base.gametip.main_2 = {
 	tip = "主界\n面2"
 }
 
-_G.pg.gametip.main_3 = {
+_G.pg.base.gametip.main_3 = {
 	tip = "主界\n面3"
 }
 
-_G.pg.gametip.complete = {
+_G.pg.base.gametip.complete = {
 	tip = "委託\n完成"
 }
 
-_G.pg.gametip.login = {
+_G.pg.base.gametip.login = {
 	tip = "登入"
 }
 
-_G.pg.gametip.home = {
+_G.pg.base.gametip.home = {
 	tip = "回港"
 }
 
-_G.pg.gametip.mail = {
+_G.pg.base.gametip.mail = {
 	tip = "郵件\n提醒"
 }
 
-_G.pg.gametip.mission = {
+_G.pg.base.gametip.mission = {
 	tip = "任務\n提醒"
 }
 
-_G.pg.gametip.mission_complete = {
+_G.pg.base.gametip.mission_complete = {
 	tip = "任務\n完成"
 }
 
-_G.pg.gametip.wedding = {
+_G.pg.base.gametip.wedding = {
 	tip = "誓約"
 }
 
-_G.pg.gametip.touch_head = {
+_G.pg.base.gametip.touch_head = {
 	tip = "摸頭"
 }
 
-_G.pg.gametip.touch_body = {
+_G.pg.base.gametip.touch_body = {
 	tip = "觸摸"
 }
 
-_G.pg.gametip.touch_special = {
+_G.pg.base.gametip.touch_special = {
 	tip = "特殊\n觸摸"
 }
 
-_G.pg.gametip.gold = {
+_G.pg.base.gametip.gold = {
 	tip = "金幣"
 }
 
-_G.pg.gametip.oil = {
+_G.pg.base.gametip.oil = {
 	tip = "石油"
 }
 
-_G.pg.gametip.diamond = {
+_G.pg.base.gametip.diamond = {
 	tip = "鑽石"
 }
 
-_G.pg.gametip.word_photo_mode = {
+_G.pg.base.gametip.word_photo_mode = {
 	tip = "照片"
 }
 
-_G.pg.gametip.word_video_mode = {
+_G.pg.base.gametip.word_video_mode = {
 	tip = "影片"
 }
 
-_G.pg.gametip.word_save_ok = {
+_G.pg.base.gametip.word_save_ok = {
 	tip = "保存成功，請至相簿查看"
 }
 
-_G.pg.gametip.word_save_video = {
+_G.pg.base.gametip.word_save_video = {
 	tip = "錄製已完成,\n是否保存該錄影? "
 }
 
-_G.pg.gametip.reflux_help_tip = {
+_G.pg.base.gametip.reflux_help_tip = {
 	tip = {
 		{
 			info = "作戰點數獲取方式："
@@ -8998,79 +8998,79 @@ _G.pg.gametip.reflux_help_tip = {
 	}
 }
 
-_G.pg.gametip.reflux_pt_not_enough = {
+_G.pg.base.gametip.reflux_pt_not_enough = {
 	tip = "作戰點數不足"
 }
 
-_G.pg.gametip.reflux_word_1 = {
+_G.pg.base.gametip.reflux_word_1 = {
 	tip = "剩餘時間："
 }
 
-_G.pg.gametip.reflux_word_2 = {
+_G.pg.base.gametip.reflux_word_2 = {
 	tip = "解鎖："
 }
 
-_G.pg.gametip.ship_hunting_level_tips = {
+_G.pg.base.gametip.ship_hunting_level_tips = {
 	tip = "*當前狩獵範圍等級僅包括突破、裝備及指揮喵技能增加的狩獵範圍等級，最大為Lv5"
 }
 
-_G.pg.gametip.acquisitionmode_is_not_open = {
+_G.pg.base.gametip.acquisitionmode_is_not_open = {
 	tip = "對應獲得方式尚未開啟"
 }
 
-_G.pg.gametip.collect_chapter_is_activation = {
+_G.pg.base.gametip.collect_chapter_is_activation = {
 	tip = "有其他關卡正在攻略中，是否撤退?"
 }
 
-_G.pg.gametip.levelScene_chapter_is_activation = {
+_G.pg.base.gametip.levelScene_chapter_is_activation = {
 	tip = "關卡<color=#A9F548>$1</color>正在攻略中，\n請選擇前往繼續攻略或撤退"
 }
 
-_G.pg.gametip.resource_verify_warn = {
+_G.pg.base.gametip.resource_verify_warn = {
 	tip = "是否開始資源修復？修復會花費一定的時間，且修復過程中無法進行操作，手機可能會出現lag現象，請耐心等待"
 }
 
-_G.pg.gametip.resource_verify_fail = {
+_G.pg.base.gametip.resource_verify_fail = {
 	tip = "本地資源異常，請重新打開遊戲並進行更新，點擊確認關閉遊戲。$1"
 }
 
-_G.pg.gametip.resource_verify_success = {
+_G.pg.base.gametip.resource_verify_success = {
 	tip = "本地資源沒有異常"
 }
 
-_G.pg.gametip.resource_clear_all = {
+_G.pg.base.gametip.resource_clear_all = {
 	tip = "是否清理暫存資源？（清理完成之後遊戲將自動退出）"
 }
 
-_G.pg.gametip.acl_oil_count = {
+_G.pg.base.gametip.acl_oil_count = {
 	tip = "目標石油："
 }
 
-_G.pg.gametip.acl_oil_total_count = {
+_G.pg.base.gametip.acl_oil_total_count = {
 	tip = "累計使用石油："
 }
 
-_G.pg.gametip.word_take_video_tip = {
+_G.pg.base.gametip.word_take_video_tip = {
 	tip = "提示:錄影過程中，點擊右側按鈕即可結束錄影"
 }
 
-_G.pg.gametip.word_snapshot_share_title = {
+_G.pg.base.gametip.word_snapshot_share_title = {
 	tip = "碧藍航線|分享協議"
 }
 
-_G.pg.gametip.word_snapshot_share_agreement = {
+_G.pg.base.gametip.word_snapshot_share_agreement = {
 	tip = "您同意按照本協議約定方式合理合法地使用該分享功能。除非另有約定，您通過該功能分享、保存、使用、傳播、發布的任何圖片、影片及其他內容，僅限您個人的非商業性質用途；您分享到其他社交平台的內容（包括但不限於照片、影片等）的訊息均由您自行提供，您依法應對提供的任何訊息承擔全部責任。"
 }
 
-_G.pg.gametip.skin_remain_time = {
+_G.pg.base.gametip.skin_remain_time = {
 	tip = "下架剩餘時間"
 }
 
-_G.pg.gametip.word_museum_1 = {
+_G.pg.base.gametip.word_museum_1 = {
 	tip = "今天的修理任務都完成啦，明天再來吧"
 }
 
-_G.pg.gametip.word_museum_help = {
+_G.pg.base.gametip.word_museum_help = {
 	tip = {
 		{
 			info = "活動說明："
@@ -9093,7 +9093,7 @@ _G.pg.gametip.word_museum_help = {
 	}
 }
 
-_G.pg.gametip.goldship_help_tip = {
+_G.pg.base.gametip.goldship_help_tip = {
 	tip = {
 		{
 			info = "厭戰的特別訓練活動說明："
@@ -9122,7 +9122,7 @@ _G.pg.gametip.goldship_help_tip = {
 	}
 }
 
-_G.pg.gametip.metalgearsub_help_tip = {
+_G.pg.base.gametip.metalgearsub_help_tip = {
 	tip = {
 		{
 			info = "小小的誓言活動說明："
@@ -9159,219 +9159,219 @@ _G.pg.gametip.metalgearsub_help_tip = {
 	}
 }
 
-_G.pg.gametip.acl_gold_count = {
+_G.pg.base.gametip.acl_gold_count = {
 	tip = "目標金幣："
 }
 
-_G.pg.gametip.acl_gold_total_count = {
+_G.pg.base.gametip.acl_gold_total_count = {
 	tip = "累計使用金幣："
 }
 
-_G.pg.gametip.discount_time = {
+_G.pg.base.gametip.discount_time = {
 	tip = "<color=grey>折扣剩餘時間</color> <color=#A9F548>$1</color>"
 }
 
-_G.pg.gametip.commander_talent_not_exist = {
+_G.pg.base.gametip.commander_talent_not_exist = {
 	tip = "存在該天賦"
 }
 
-_G.pg.gametip.commander_replace_talent_not_exist = {
+_G.pg.base.gametip.commander_replace_talent_not_exist = {
 	tip = "替換的天賦存在"
 }
 
-_G.pg.gametip.commander_talent_learned = {
+_G.pg.base.gametip.commander_talent_learned = {
 	tip = "習得天賦「$1」"
 }
 
-_G.pg.gametip.commander_talent_learn_erro = {
+_G.pg.base.gametip.commander_talent_learn_erro = {
 	tip = "天賦學習失敗：$1"
 }
 
-_G.pg.gametip.commander_not_exist = {
+_G.pg.base.gametip.commander_not_exist = {
 	tip = "不存在該指揮喵"
 }
 
-_G.pg.gametip.commander_fleet_not_exist = {
+_G.pg.base.gametip.commander_fleet_not_exist = {
 	tip = "不存在該艦隊"
 }
 
-_G.pg.gametip.commander_fleet_pos_not_exist = {
+_G.pg.base.gametip.commander_fleet_pos_not_exist = {
 	tip = "該位置不存在指揮喵"
 }
 
-_G.pg.gametip.commander_equip_to_fleet_erro = {
+_G.pg.base.gametip.commander_equip_to_fleet_erro = {
 	tip = "裝備指揮喵失敗$1"
 }
 
-_G.pg.gametip.commander_acquire_erro = {
+_G.pg.base.gametip.commander_acquire_erro = {
 	tip = "獲取指揮喵失敗$1"
 }
 
-_G.pg.gametip.commander_lock_erro = {
+_G.pg.base.gametip.commander_lock_erro = {
 	tip = "鎖定失敗$1"
 }
 
-_G.pg.gametip.commander_reset_talent_time_no_rearch = {
+_G.pg.base.gametip.commander_reset_talent_time_no_rearch = {
 	tip = "重置時間未到"
 }
 
-_G.pg.gametip.commander_reset_talent_is_not_need = {
+_G.pg.base.gametip.commander_reset_talent_is_not_need = {
 	tip = "不需要重置"
 }
 
-_G.pg.gametip.commander_reset_talent_success = {
+_G.pg.base.gametip.commander_reset_talent_success = {
 	tip = "重置天賦成功"
 }
 
-_G.pg.gametip.commander_reset_talent_erro = {
+_G.pg.base.gametip.commander_reset_talent_erro = {
 	tip = "重置天賦失敗$1"
 }
 
-_G.pg.gametip.commander_can_not_be_upgrade = {
+_G.pg.base.gametip.commander_can_not_be_upgrade = {
 	tip = "該指揮喵不能升級"
 }
 
-_G.pg.gametip.commander_anyone_is_in_fleet = {
+_G.pg.base.gametip.commander_anyone_is_in_fleet = {
 	tip = "材料存在編隊中的指揮喵"
 }
 
-_G.pg.gametip.commander_is_in_fleet = {
+_G.pg.base.gametip.commander_is_in_fleet = {
 	tip = "該指揮喵在編隊中"
 }
 
-_G.pg.gametip.commander_play_erro = {
+_G.pg.base.gametip.commander_play_erro = {
 	tip = "陪玩失敗$1"
 }
 
-_G.pg.gametip.ship_equip_same_group_equipment = {
+_G.pg.base.gametip.ship_equip_same_group_equipment = {
 	tip = "不能重複裝備唯一裝備"
 }
 
-_G.pg.gametip.summary_page_un_rearch = {
+_G.pg.base.gametip.summary_page_un_rearch = {
 	tip = "未獲得"
 }
 
-_G.pg.gametip.commander_exp_overflow_tip = {
+_G.pg.base.gametip.commander_exp_overflow_tip = {
 	tip = "陪玩後獲得的經驗將會超出上限，是否確認"
 }
 
-_G.pg.gametip.commander_reset_talent_tip = {
+_G.pg.base.gametip.commander_reset_talent_tip = {
 	tip = "是否確定重置天賦?"
 }
 
-_G.pg.gametip.commander_reset_talent = {
+_G.pg.base.gametip.commander_reset_talent = {
 	tip = "可以重置"
 }
 
-_G.pg.gametip.commander_select_min_cnt = {
+_G.pg.base.gametip.commander_select_min_cnt = {
 	tip = "最少選擇$1個指揮喵"
 }
 
-_G.pg.gametip.commander_select_max = {
+_G.pg.base.gametip.commander_select_max = {
 	tip = "已達最大數量"
 }
 
-_G.pg.gametip.commander_lock_done = {
+_G.pg.base.gametip.commander_lock_done = {
 	tip = "鎖定成功！"
 }
 
-_G.pg.gametip.commander_unlock_done = {
+_G.pg.base.gametip.commander_unlock_done = {
 	tip = "解鎖成功！"
 }
 
-_G.pg.gametip.commander_get_1 = {
+_G.pg.base.gametip.commander_get_1 = {
 	tip = "每天的第一次喵箱預定免費喵！"
 }
 
-_G.pg.gametip.commander_get = {
+_G.pg.base.gametip.commander_get = {
 	tip = "是否消耗$1物資購買$2個喵箱？"
 }
 
-_G.pg.gametip.commander_build_done = {
+_G.pg.base.gametip.commander_build_done = {
 	tip = "指揮喵訓練開始！"
 }
 
-_G.pg.gametip.commander_build_erro = {
+_G.pg.base.gametip.commander_build_erro = {
 	tip = "指揮喵訓練失敗：$1"
 }
 
-_G.pg.gametip.commander_get_skills_done = {
+_G.pg.base.gametip.commander_get_skills_done = {
 	tip = "獲取學習列表失敗"
 }
 
-_G.pg.gametip.collection_way_is_unopen = {
+_G.pg.base.gametip.collection_way_is_unopen = {
 	tip = "對應獲得途徑尚未開啟"
 }
 
-_G.pg.gametip.commander_can_not_select_same_group = {
+_G.pg.base.gametip.commander_can_not_select_same_group = {
 	tip = "不能選擇同名指揮喵"
 }
 
-_G.pg.gametip.commander_capcity_is_max = {
+_G.pg.base.gametip.commander_capcity_is_max = {
 	tip = "貓窩已滿"
 }
 
-_G.pg.gametip.commander_reserve_count_is_max = {
+_G.pg.base.gametip.commander_reserve_count_is_max = {
 	tip = "已達最大預定數量"
 }
 
-_G.pg.gametip.commander_build_pool_tip = {
+_G.pg.base.gametip.commander_build_pool_tip = {
 	tip = "即將消耗$2個$1開始指揮喵訓練，是否繼續？"
 }
 
-_G.pg.gametip.commander_select_matiral_erro = {
+_G.pg.base.gametip.commander_select_matiral_erro = {
 	tip = "目標指揮喵已滿級，只能選擇同名指揮喵強化技能"
 }
 
-_G.pg.gametip.commander_material_is_rarity = {
+_G.pg.base.gametip.commander_material_is_rarity = {
 	tip = "列表中有SSR以上的的指揮喵，是否確認？"
 }
 
-_G.pg.gametip.commander_material_is_maxLevel = {
+_G.pg.base.gametip.commander_material_is_maxLevel = {
 	tip = "指揮喵已滿級，陪玩將不會獲得指揮喵經驗，是否確定？"
 }
 
-_G.pg.gametip.charge_commander_bag_max = {
+_G.pg.base.gametip.charge_commander_bag_max = {
 	tip = "貓窩擴充容量已經達到上限，不能繼續購買！"
 }
 
-_G.pg.gametip.shop_extendcommander_success = {
+_G.pg.base.gametip.shop_extendcommander_success = {
 	tip = "貓窩容量擴充成功"
 }
 
-_G.pg.gametip.commander_skill_point_noengough = {
+_G.pg.base.gametip.commander_skill_point_noengough = {
 	tip = "天賦點不足"
 }
 
-_G.pg.gametip.buildship_new_tip = {
+_G.pg.base.gametip.buildship_new_tip = {
 	tip = "{namecode:81}、{namecode:161}、{namecode:29}、{namecode:185}、{namecode:144} 建造機率UP！"
 }
 
-_G.pg.gametip.buildship_heavy_tip = {
+_G.pg.base.gametip.buildship_heavy_tip = {
 	tip = "施佩伯爵將軍 建造追加！"
 }
 
-_G.pg.gametip.buildship_light_tip = {
+_G.pg.base.gametip.buildship_light_tip = {
 	tip = "雪風、魯莽、格拉斯哥、小貝法 建造追加！"
 }
 
-_G.pg.gametip.buildship_special_tip = {
-	tip = "大鳳 建造追加！"
+_G.pg.base.gametip.buildship_special_tip = {
+	tip = "香格里拉、艾塞克斯、U-101、伊168 、伊25、伊56、U-522 建造追加！"
 }
 
-_G.pg.gametip.open_skill_pos = {
+_G.pg.base.gametip.open_skill_pos = {
 	tip = "開啟欄位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color>\n是否確認開啟？"
 }
 
-_G.pg.gametip.open_skill_pos_discount = {
+_G.pg.base.gametip.open_skill_pos_discount = {
 	tip = "開啟欄位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color>\n是否確認開啟？"
 }
 
-_G.pg.gametip.event_recommend_fail = {
+_G.pg.base.gametip.event_recommend_fail = {
 	tip = "遠征條件無法滿足"
 }
 
-_G.pg.gametip.newplayer_help_tip = {
+_G.pg.base.gametip.newplayer_help_tip = {
 	tip = {
 		{
 			info = "新兵訓練活動說明："
@@ -9391,83 +9391,83 @@ _G.pg.gametip.newplayer_help_tip = {
 	}
 }
 
-_G.pg.gametip.newplayer_notice_1 = {
+_G.pg.base.gametip.newplayer_notice_1 = {
 	tip = "完成新兵階段所有任務後解鎖"
 }
 
-_G.pg.gametip.newplayer_notice_2 = {
+_G.pg.base.gametip.newplayer_notice_2 = {
 	tip = "完成進階階段所有任務後解鎖"
 }
 
-_G.pg.gametip.newplayer_notice_3 = {
+_G.pg.base.gametip.newplayer_notice_3 = {
 	tip = "完成考核階段所有任務後解鎖"
 }
 
-_G.pg.gametip.newplayer_notice_4 = {
+_G.pg.base.gametip.newplayer_notice_4 = {
 	tip = "挑戰成功後可獲得波特蘭"
 }
 
-_G.pg.gametip.newplayer_notice_5 = {
+_G.pg.base.gametip.newplayer_notice_5 = {
 	tip = "挑戰成功後可獲得納爾遜"
 }
 
-_G.pg.gametip.newplayer_notice_6 = {
+_G.pg.base.gametip.newplayer_notice_6 = {
 	tip = "挑戰成功後可從胡德、企業、聖地牙哥、光輝中任選一名"
 }
 
-_G.pg.gametip.newplayer_notice_7 = {
+_G.pg.base.gametip.newplayer_notice_7 = {
 	tip = "完成上階段挑戰任務後開啟"
 }
 
-_G.pg.gametip.newplayer_notice_8 = {
+_G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "指揮官，歡迎來到碧藍航線，先去新兵訓練營報到吧。"
 }
 
-_G.pg.gametip.tec_notice_1 = {
+_G.pg.base.gametip.tec_notice_1 = {
 	tip = "完成科研一期研發加速所有任務後解鎖"
 }
 
-_G.pg.gametip.tec_notice_2 = {
+_G.pg.base.gametip.tec_notice_2 = {
 	tip = "完成科研二期研發加速所有任務後解鎖"
 }
 
-_G.pg.gametip.tec_notice_3 = {
+_G.pg.base.gametip.tec_notice_3 = {
 	tip = "完成科研三期研發加速所有任務後解鎖"
 }
 
-_G.pg.gametip.tec_notice_not_open_tip = {
+_G.pg.base.gametip.tec_notice_not_open_tip = {
 	tip = "完成前一階段所有研發加速任務後開啟"
 }
 
-_G.pg.gametip.apply_permission_camera_tip1 = {
+_G.pg.base.gametip.apply_permission_camera_tip1 = {
 	tip = "要使用ar錄影的話，需要有錄音功能的權限"
 }
 
-_G.pg.gametip.apply_permission_camera_tip2 = {
+_G.pg.base.gametip.apply_permission_camera_tip2 = {
 	tip = "您關閉了錄音權限，需要到setting介面確認權限開啟"
 }
 
-_G.pg.gametip.apply_permission_camera_tip3 = {
+_G.pg.base.gametip.apply_permission_camera_tip3 = {
 	tip = "您拒絕授予錄音權限，這導致您無法使用ar錄影"
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip1 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
 	tip = "要使用ar相機的話，需要有相機的權限"
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip2 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
 	tip = "您關閉了相機權限，需要到setting介面確認權限開啟"
 }
 
-_G.pg.gametip.apply_permission_record_audio_tip3 = {
+_G.pg.base.gametip.apply_permission_record_audio_tip3 = {
 	tip = "您拒絕授權相機權限，這導致您無法使用ar相機"
 }
 
-_G.pg.gametip.nine_choose_one = {
+_G.pg.base.gametip.nine_choose_one = {
 	tip = "指揮官只能邀請一人參加舞會，\n是否確認邀請<color=#A9F548>$1</color>？\n邀請後會獲得對應角色和回禮"
 }
 
-_G.pg.gametip.help_commander_info = {
+_G.pg.base.gametip.help_commander_info = {
 	tip = {
 		{
 			icon = {
@@ -9535,7 +9535,7 @@ _G.pg.gametip.help_commander_info = {
 	}
 }
 
-_G.pg.gametip.help_commander_play = {
+_G.pg.base.gametip.help_commander_play = {
 	tip = {
 		{
 			icon = {
@@ -9603,7 +9603,7 @@ _G.pg.gametip.help_commander_play = {
 	}
 }
 
-_G.pg.gametip.help_commander_ability = {
+_G.pg.base.gametip.help_commander_ability = {
 	tip = {
 		{
 			icon = {
@@ -9671,15 +9671,15 @@ _G.pg.gametip.help_commander_ability = {
 	}
 }
 
-_G.pg.gametip.story_skip_confirm = {
+_G.pg.base.gametip.story_skip_confirm = {
 	tip = "還未觀看過本段劇情，是否確定跳過？\n跳過的劇情可以在<color=#A1E400FF>收藏>回憶</COLOR>中回看"
 }
 
-_G.pg.gametip.commander_ability_replace_warning = {
+_G.pg.base.gametip.commander_ability_replace_warning = {
 	tip = "即將替換高階天賦，是否確定？"
 }
 
-_G.pg.gametip.help_command_room = {
+_G.pg.base.gametip.help_command_room = {
 	tip = {
 		{
 			icon = {
@@ -9747,11 +9747,11 @@ _G.pg.gametip.help_command_room = {
 	}
 }
 
-_G.pg.gametip.commander_build_rate_tip = {
+_G.pg.base.gametip.commander_build_rate_tip = {
 	tip = "獲得機率：喵箱SSR 5%、喵箱SR 35%、喵箱R 60%"
 }
 
-_G.pg.gametip.help_activity_bossbattle = {
+_G.pg.base.gametip.help_activity_bossbattle = {
 	tip = {
 		{
 			info = " ※作戰手冊※\n"
@@ -9778,115 +9778,115 @@ _G.pg.gametip.help_activity_bossbattle = {
 	}
 }
 
-_G.pg.gametip.commander_is_in_fleet_already = {
+_G.pg.base.gametip.commander_is_in_fleet_already = {
 	tip = "該指揮喵已在其他編隊中～"
 }
 
-_G.pg.gametip.commander_material_is_in_fleet_tip = {
+_G.pg.base.gametip.commander_material_is_in_fleet_tip = {
 	tip = "正在編隊中，是否讓指揮喵休息？"
 }
 
-_G.pg.gametip.commander_main_pos = {
+_G.pg.base.gametip.commander_main_pos = {
 	tip = "司令位"
 }
 
-_G.pg.gametip.commander_assistant_pos = {
+_G.pg.base.gametip.commander_assistant_pos = {
 	tip = "參謀位"
 }
 
-_G.pg.gametip.comander_repalce_tip = {
+_G.pg.base.gametip.comander_repalce_tip = {
 	tip = "選中的指揮喵已經在$1的$2位置中，是否進行切換？"
 }
 
-_G.pg.gametip.commander_lock_tip = {
+_G.pg.base.gametip.commander_lock_tip = {
 	tip = "是否<color=#A9F548>鎖定</color>該指揮喵？"
 }
 
-_G.pg.gametip.commander_is_in_battle = {
+_G.pg.base.gametip.commander_is_in_battle = {
 	tip = "該指揮喵正在出擊中～"
 }
 
-_G.pg.gametip.commander_rename_warning = {
+_G.pg.base.gametip.commander_rename_warning = {
 	tip = "更名後需要1天才能再次更名，是否確定將指揮喵更名為$1"
 }
 
-_G.pg.gametip.commander_rename_coldtime_tip = {
+_G.pg.base.gametip.commander_rename_coldtime_tip = {
 	tip = "還需要$1後才能再次更名"
 }
 
-_G.pg.gametip.commander_rename_success_tip = {
+_G.pg.base.gametip.commander_rename_success_tip = {
 	tip = "更名成功"
 }
 
-_G.pg.gametip.amercian_notice_1 = {
+_G.pg.base.gametip.amercian_notice_1 = {
 	tip = "確定消耗<color=#A9F548>$1</color>個女王的恩典\n用於抽取<color=#A9F548>$2</color>次補給？"
 }
 
-_G.pg.gametip.amercian_notice_2 = {
+_G.pg.base.gametip.amercian_notice_2 = {
 	tip = "※當前獎勵池主要獎勵獲取完畢後，可以解鎖下一獎勵池"
 }
 
-_G.pg.gametip.amercian_notice_3 = {
+_G.pg.base.gametip.amercian_notice_3 = {
 	tip = "獎勵獲取時間：2020.2.21~3.11"
 }
 
-_G.pg.gametip.amercian_notice_4 = {
+_G.pg.base.gametip.amercian_notice_4 = {
 	tip = "戰鬥之星"
 }
 
-_G.pg.gametip.amercian_notice_5 = {
+_G.pg.base.gametip.amercian_notice_5 = {
 	tip = "獎勵池尚未解鎖"
 }
 
-_G.pg.gametip.amercian_notice_6 = {
+_G.pg.base.gametip.amercian_notice_6 = {
 	tip = "石油或物資已達到持有上限，繼續補給會導致溢出的資源無法獲得，是否繼續？"
 }
 
-_G.pg.gametip.ranking_word_1 = {
+_G.pg.base.gametip.ranking_word_1 = {
 	tip = "綜合實力"
 }
 
-_G.pg.gametip.ranking_word_2 = {
+_G.pg.base.gametip.ranking_word_2 = {
 	tip = "收藏率"
 }
 
-_G.pg.gametip.ranking_word_3 = {
+_G.pg.base.gametip.ranking_word_3 = {
 	tip = "誓約數"
 }
 
-_G.pg.gametip.ranking_word_4 = {
+_G.pg.base.gametip.ranking_word_4 = {
 	tip = "挑戰分數"
 }
 
-_G.pg.gametip.ranking_word_5 = {
+_G.pg.base.gametip.ranking_word_5 = {
 	tip = "排名"
 }
 
-_G.pg.gametip.ranking_word_6 = {
+_G.pg.base.gametip.ranking_word_6 = {
 	tip = "軍銜"
 }
 
-_G.pg.gametip.ranking_word_7 = {
+_G.pg.base.gametip.ranking_word_7 = {
 	tip = "最高軍銜"
 }
 
-_G.pg.gametip.ranking_word_8 = {
+_G.pg.base.gametip.ranking_word_8 = {
 	tip = "名稱"
 }
 
-_G.pg.gametip.ranking_word_9 = {
+_G.pg.base.gametip.ranking_word_9 = {
 	tip = "積分"
 }
 
-_G.pg.gametip.ranking_word_10 = {
+_G.pg.base.gametip.ranking_word_10 = {
 	tip = "貢獻值"
 }
 
-_G.pg.gametip.spece_illegal_tip = {
+_G.pg.base.gametip.spece_illegal_tip = {
 	tip = "不能使用空格"
 }
 
-_G.pg.gametip.utaware_warmup_notice = {
+_G.pg.base.gametip.utaware_warmup_notice = {
 	tip = {
 		{
 			info = "活動說明："
@@ -9909,7 +9909,7 @@ _G.pg.gametip.utaware_warmup_notice = {
 	}
 }
 
-_G.pg.gametip.utaware_formal_notice = {
+_G.pg.base.gametip.utaware_formal_notice = {
 	tip = {
 		{
 			info = "通過一次SP4後，在如下章節解開線索，探索隱藏的故事"
@@ -9946,167 +9946,167 @@ _G.pg.gametip.utaware_formal_notice = {
 	}
 }
 
-_G.pg.gametip.npc_learn_skill_tip = {
+_G.pg.base.gametip.npc_learn_skill_tip = {
 	tip = "臨時角色離開港區時，學習技能所消耗的教材無法返還，是否確認學習技能?"
 }
 
-_G.pg.gametip.npc_upgrade_max_level = {
+_G.pg.base.gametip.npc_upgrade_max_level = {
 	tip = "臨時加入的角色無法進行認知覺醒"
 }
 
-_G.pg.gametip.npc_propse_tip = {
+_G.pg.base.gametip.npc_propse_tip = {
 	tip = "臨時加入的角色不可進行誓約"
 }
 
-_G.pg.gametip.npc_strength_tip = {
+_G.pg.base.gametip.npc_strength_tip = {
 	tip = "臨時角色離開港區時，突破/強化所消耗的物資、材料無法返還，是否確認強化?"
 }
 
-_G.pg.gametip.npc_breakout_tip = {
+_G.pg.base.gametip.npc_breakout_tip = {
 	tip = "臨時角色離開港區時，突破/強化所消耗的物資、材料無法返還，是否確認突破?"
 }
 
-_G.pg.gametip.word_chuansong = {
+_G.pg.base.gametip.word_chuansong = {
 	tip = "可可波幣"
 }
 
-_G.pg.gametip.npc_evaluation_tip = {
+_G.pg.base.gametip.npc_evaluation_tip = {
 	tip = "未正式加入的NPC角色不能進行評論"
 }
 
-_G.pg.gametip.map_event_skip = {
+_G.pg.base.gametip.map_event_skip = {
 	tip = "跳過已閱讀的關卡劇情"
 }
 
-_G.pg.gametip.map_event_stop_tip = {
+_G.pg.base.gametip.map_event_stop_tip = {
 	tip = "踩下對應顏色<color=#92fc63>機關</color>可解除禁止通行狀態"
 }
 
-_G.pg.gametip.map_event_stop_battle_tip = {
+_G.pg.base.gametip.map_event_stop_battle_tip = {
 	tip = "消滅周圍所有<color=#ff5c5c>敵人</color>可解除禁止通行狀態"
 }
 
-_G.pg.gametip.map_event_stop_battle_tip_2 = {
+_G.pg.base.gametip.map_event_stop_battle_tip_2 = {
 	tip = "消滅所有<color=#ff5c5c>特殊敵人</color>可解除禁止通行狀態"
 }
 
-_G.pg.gametip.map_event_stop_story_tip = {
+_G.pg.base.gametip.map_event_stop_story_tip = {
 	tip = "觸發附近<color=#92fc63>劇情點</color>可解除禁止通行狀態"
 }
 
-_G.pg.gametip.map_event_save_nekone = {
+_G.pg.base.gametip.map_event_save_nekone = {
 	tip = "成功救出<color=#A9F548>貓音</color>"
 }
 
-_G.pg.gametip.map_event_save_rurutie = {
+_G.pg.base.gametip.map_event_save_rurutie = {
 	tip = "成功救出<color=#A9F548>露露緹耶</color>"
 }
 
-_G.pg.gametip.map_event_memory_collected = {
+_G.pg.base.gametip.map_event_memory_collected = {
 	tip = "隱藏劇情<color=#A9F548>$1</color>收集成功！"
 }
 
-_G.pg.gametip.map_event_save_kizuna = {
+_G.pg.base.gametip.map_event_save_kizuna = {
 	tip = "成功救出<color=#92fc63>绊爱</color>"
 }
 
-_G.pg.gametip.five_choose_one = {
+_G.pg.base.gametip.five_choose_one = {
 	tip = "指揮官只能邀請一人共度平安夜，\n是否確認邀請<color=#A9F548>$1</color>？\n邀請後會獲得對應角色和回禮"
 }
 
-_G.pg.gametip.ship_preference_common = {
+_G.pg.base.gametip.ship_preference_common = {
 	tip = "已將<color=#92fc63>$1</color>設定為常用"
 }
 
-_G.pg.gametip.draw_big_luck_1 = {
+_G.pg.base.gametip.draw_big_luck_1 = {
 	tip = "看來會是順利的一天喵"
 }
 
-_G.pg.gametip.draw_big_luck_2 = {
+_G.pg.base.gametip.draw_big_luck_2 = {
 	tip = "趁著這股運勢加油努力喵～"
 }
 
-_G.pg.gametip.draw_big_luck_3 = {
+_G.pg.base.gametip.draw_big_luck_3 = {
 	tip = "請把好運分一些給茗喵！"
 }
 
-_G.pg.gametip.draw_medium_luck_1 = {
+_G.pg.base.gametip.draw_medium_luck_1 = {
 	tip = "接下來的運氣會越來越好的喵～"
 }
 
-_G.pg.gametip.draw_medium_luck_2 = {
+_G.pg.base.gametip.draw_medium_luck_2 = {
 	tip = "努力和運氣都是很重要的喵～"
 }
 
-_G.pg.gametip.draw_medium_luck_3 = {
+_G.pg.base.gametip.draw_medium_luck_3 = {
 	tip = "多來茗的小店，運氣會變更好喵～"
 }
 
-_G.pg.gametip.draw_little_luck_1 = {
+_G.pg.base.gametip.draw_little_luck_1 = {
 	tip = "接下來的運氣會越來越好的喵～"
 }
 
-_G.pg.gametip.draw_little_luck_2 = {
+_G.pg.base.gametip.draw_little_luck_2 = {
 	tip = "努力和運氣都是很重要的喵～"
 }
 
-_G.pg.gametip.draw_little_luck_3 = {
+_G.pg.base.gametip.draw_little_luck_3 = {
 	tip = "多來茗的小店，運氣會變更好喵～"
 }
 
-_G.pg.gametip.ship_preference_non = {
+_G.pg.base.gametip.ship_preference_non = {
 	tip = "已將<color=#92fc63>$1</color>取消常用"
 }
 
-_G.pg.gametip.school_title_dajiangtang = {
+_G.pg.base.gametip.school_title_dajiangtang = {
 	tip = "大講堂"
 }
 
-_G.pg.gametip.school_title_zhihuimiao = {
+_G.pg.base.gametip.school_title_zhihuimiao = {
 	tip = "指揮喵"
 }
 
-_G.pg.gametip.school_title_shitang = {
+_G.pg.base.gametip.school_title_shitang = {
 	tip = "海軍食堂"
 }
 
-_G.pg.gametip.school_title_xiaomaibu = {
+_G.pg.base.gametip.school_title_xiaomaibu = {
 	tip = "合作社"
 }
 
-_G.pg.gametip.school_title_shangdian = {
+_G.pg.base.gametip.school_title_shangdian = {
 	tip = "補給商店"
 }
 
-_G.pg.gametip.school_title_xueyuan = {
+_G.pg.base.gametip.school_title_xueyuan = {
 	tip = "戰術學院"
 }
 
-_G.pg.gametip.school_title_shoucang = {
+_G.pg.base.gametip.school_title_shoucang = {
 	tip = "收藏室"
 }
 
-_G.pg.gametip.tag_level_fighting = {
+_G.pg.base.gametip.tag_level_fighting = {
 	tip = "攻略中"
 }
 
-_G.pg.gametip.tag_level_oni = {
+_G.pg.base.gametip.tag_level_oni = {
 	tip = "特殊單位"
 }
 
-_G.pg.gametip.tag_level_bomb = {
+_G.pg.base.gametip.tag_level_bomb = {
 	tip = "英系轟炸"
 }
 
-_G.pg.gametip.ui_word_levelui2_inevent = {
+_G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "行動中"
 }
 
-_G.pg.gametip.exit_backyard_exp_display = {
+_G.pg.base.gametip.exit_backyard_exp_display = {
 	tip = "$1通過訓練獲得了$2經驗"
 }
 
-_G.pg.gametip.help_monopoly = {
+_G.pg.base.gametip.help_monopoly = {
 	tip = {
 		{
 			info = "活動說明："
@@ -10182,11 +10182,11 @@ _G.pg.gametip.help_monopoly = {
 	}
 }
 
-_G.pg.gametip.md5_error = {
+_G.pg.base.gametip.md5_error = {
 	tip = "偵測到有最新版本，請關閉遊戲並更新"
 }
 
-_G.pg.gametip.world_boss_help = {
+_G.pg.base.gametip.world_boss_help = {
 	tip = {
 		{
 			info = "<color=#ff5c5c>※注意</color>："
@@ -10225,19 +10225,19 @@ _G.pg.gametip.world_boss_help = {
 	}
 }
 
-_G.pg.gametip.world_boss_tip = {
+_G.pg.base.gametip.world_boss_tip = {
 	tip = "「<color=#7e7e7f>$1</color>」為演習做出了<color=#8299bc>$2</color>貢獻"
 }
 
-_G.pg.gametip.world_boss_award_limit = {
+_G.pg.base.gametip.world_boss_award_limit = {
 	tip = "演習據點耐久降至<color=#FFDE00FF>$1%</color>及以下後解鎖"
 }
 
-_G.pg.gametip.backyard_is_loading = {
+_G.pg.base.gametip.backyard_is_loading = {
 	tip = "後宅準備中，請稍等～"
 }
 
-_G.pg.gametip.levelScene_loop_help_tip = {
+_G.pg.base.gametip.levelScene_loop_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -10266,55 +10266,55 @@ _G.pg.gametip.levelScene_loop_help_tip = {
 	}
 }
 
-_G.pg.gametip.no_airspace_competition = {
+_G.pg.base.gametip.no_airspace_competition = {
 	tip = "無空域爭奪"
 }
 
-_G.pg.gametip.air_supremacy_value = {
+_G.pg.base.gametip.air_supremacy_value = {
 	tip = "制空值"
 }
 
-_G.pg.gametip.read_the_user_agreement = {
+_G.pg.base.gametip.read_the_user_agreement = {
 	tip = "請先閱讀完使用者協定"
 }
 
-_G.pg.gametip.award_max_warning = {
+_G.pg.base.gametip.award_max_warning = {
 	tip = "以下獎勵因超出上限而<color=#ff5c5c>無法獲得</color>，是否仍要領取？"
 }
 
-_G.pg.gametip.sub_item_warning = {
+_G.pg.base.gametip.sub_item_warning = {
 	tip = "是否提交以下物品?"
 }
 
-_G.pg.gametip.select_award_warning = {
+_G.pg.base.gametip.select_award_warning = {
 	tip = "選擇想要的獎勵"
 }
 
-_G.pg.gametip.no_item_selected_tip = {
+_G.pg.base.gametip.no_item_selected_tip = {
 	tip = "未選擇獎勵,放棄領取"
 }
 
-_G.pg.gametip.backyard_traning_tip = {
+_G.pg.base.gametip.backyard_traning_tip = {
 	tip = "訓練提供對應艦船經驗增長與提升少量心情恢復速度"
 }
 
-_G.pg.gametip.backyard_rest_tip = {
+_G.pg.base.gametip.backyard_rest_tip = {
 	tip = "休息增加艦船心情恢復"
 }
 
-_G.pg.gametip.backyard_class_tip = {
+_G.pg.base.gametip.backyard_class_tip = {
 	tip = "授課提供對應艦船經驗增長"
 }
 
-_G.pg.gametip.medal_notice_1 = {
+_G.pg.base.gametip.medal_notice_1 = {
 	tip = "只顯示最高級"
 }
 
-_G.pg.gametip.medal_notice_2 = {
+_G.pg.base.gametip.medal_notice_2 = {
 	tip = "已選擇"
 }
 
-_G.pg.gametip.medal_help_tip = {
+_G.pg.base.gametip.medal_help_tip = {
 	tip = {
 		{
 			info = "收藏室功能详情：\n"
@@ -10370,115 +10370,115 @@ _G.pg.gametip.medal_help_tip = {
 	}
 }
 
-_G.pg.gametip.trophy_achieved = {
+_G.pg.base.gametip.trophy_achieved = {
 	tip = "勳章解鎖"
 }
 
-_G.pg.gametip.text_shop = {
+_G.pg.base.gametip.text_shop = {
 	tip = "商 店"
 }
 
-_G.pg.gametip.text_confirm = {
+_G.pg.base.gametip.text_confirm = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.text_cancel = {
+_G.pg.base.gametip.text_cancel = {
 	tip = "取 消"
 }
 
-_G.pg.gametip.text_cancel_fight = {
+_G.pg.base.gametip.text_cancel_fight = {
 	tip = "退出戰鬥"
 }
 
-_G.pg.gametip.text_goon_fight = {
+_G.pg.base.gametip.text_goon_fight = {
 	tip = "繼續戰鬥"
 }
 
-_G.pg.gametip.text_exit = {
+_G.pg.base.gametip.text_exit = {
 	tip = "退 出"
 }
 
-_G.pg.gametip.text_clear = {
+_G.pg.base.gametip.text_clear = {
 	tip = "清 理"
 }
 
-_G.pg.gametip.text_apply = {
+_G.pg.base.gametip.text_apply = {
 	tip = "申 請"
 }
 
-_G.pg.gametip.text_buy = {
+_G.pg.base.gametip.text_buy = {
 	tip = "購 買"
 }
 
-_G.pg.gametip.text_forward = {
+_G.pg.base.gametip.text_forward = {
 	tip = "立即前往"
 }
 
-_G.pg.gametip.text_prepage = {
+_G.pg.base.gametip.text_prepage = {
 	tip = "上一頁"
 }
 
-_G.pg.gametip.text_nextpage = {
+_G.pg.base.gametip.text_nextpage = {
 	tip = "下一頁"
 }
 
-_G.pg.gametip.text_exchange = {
+_G.pg.base.gametip.text_exchange = {
 	tip = "兌 換"
 }
 
-_G.pg.gametip.text_retreat = {
+_G.pg.base.gametip.text_retreat = {
 	tip = "撤 退"
 }
 
-_G.pg.gametip.level_scene_title_word_1 = {
+_G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "偵查值："
 }
 
-_G.pg.gametip.level_scene_title_word_2 = {
+_G.pg.base.gametip.level_scene_title_word_2 = {
 	tip = "受到伏擊機率："
 }
 
-_G.pg.gametip.level_scene_title_word_3 = {
+_G.pg.base.gametip.level_scene_title_word_3 = {
 	tip = "制空值："
 }
 
-_G.pg.gametip.level_scene_title_word_4 = {
+_G.pg.base.gametip.level_scene_title_word_4 = {
 	tip = "空域："
 }
 
-_G.pg.gametip.level_scene_title_word_5 = {
+_G.pg.base.gametip.level_scene_title_word_5 = {
 	tip = "<color=#18ff23>推薦：</color>"
 }
 
-_G.pg.gametip.ambush_display_0 = {
+_G.pg.base.gametip.ambush_display_0 = {
 	tip = "遇敵"
 }
 
-_G.pg.gametip.ambush_display_1 = {
+_G.pg.base.gametip.ambush_display_1 = {
 	tip = "安全"
 }
 
-_G.pg.gametip.ambush_display_2 = {
+_G.pg.base.gametip.ambush_display_2 = {
 	tip = "較低"
 }
 
-_G.pg.gametip.ambush_display_3 = {
+_G.pg.base.gametip.ambush_display_3 = {
 	tip = "低"
 }
 
-_G.pg.gametip.ambush_display_4 = {
+_G.pg.base.gametip.ambush_display_4 = {
 	tip = "中"
 }
 
-_G.pg.gametip.ambush_display_5 = {
+_G.pg.base.gametip.ambush_display_5 = {
 	tip = "較高"
 }
 
-_G.pg.gametip.ambush_display_6 = {
+_G.pg.base.gametip.ambush_display_6 = {
 	tip = "危險"
 }
 
-_G.pg.gametip.black_white_grid_notice = {
+_G.pg.base.gametip.black_white_grid_notice = {
 	tip = {
 		{
 			info = "活動說明："
@@ -10516,23 +10516,23 @@ _G.pg.gametip.black_white_grid_notice = {
 	}
 }
 
-_G.pg.gametip.black_white_grid_reset = {
+_G.pg.base.gametip.black_white_grid_reset = {
 	tip = "是否重置?"
 }
 
-_G.pg.gametip.black_white_grid_switch_tip = {
+_G.pg.base.gametip.black_white_grid_switch_tip = {
 	tip = "本局遊戲未結束，無法切換"
 }
 
-_G.pg.gametip.no_way_to_escape = {
+_G.pg.base.gametip.no_way_to_escape = {
 	tip = "無路可逃"
 }
 
-_G.pg.gametip.word_attr_ac = {
+_G.pg.base.gametip.word_attr_ac = {
 	tip = "制空"
 }
 
-_G.pg.gametip.help_battle_ac = {
+_G.pg.base.gametip.help_battle_ac = {
 	tip = {
 		{
 			info = [[
@@ -10574,7 +10574,7 @@ P.S. 我方防空力量可以有效的降低敵方制空值哦！
 	}
 }
 
-_G.pg.gametip.help_attribute_dodge_limit = {
+_G.pg.base.gametip.help_attribute_dodge_limit = {
 	tip = {
 		{
 			info = [[
@@ -10590,27 +10590,27 @@ _G.pg.gametip.help_attribute_dodge_limit = {
 	}
 }
 
-_G.pg.gametip.refuse_friend = {
+_G.pg.base.gametip.refuse_friend = {
 	tip = "是否確定拒絕?"
 }
 
-_G.pg.gametip.refuse_and_add_into_bl = {
+_G.pg.base.gametip.refuse_and_add_into_bl = {
 	tip = "拒絕並加入黑名單"
 }
 
-_G.pg.gametip.tech_simulate_closed = {
+_G.pg.base.gametip.tech_simulate_closed = {
 	tip = "该角色战术模拟暂未开放"
 }
 
-_G.pg.gametip.tech_simulate_quit = {
+_G.pg.base.gametip.tech_simulate_quit = {
 	tip = "是否確定退出戰術模擬戰鬥?"
 }
 
-_G.pg.gametip.technology_uplevel_error_no_res = {
+_G.pg.base.gametip.technology_uplevel_error_no_res = {
 	tip = "是否消耗<color=#A9F548>$1</color>物資解鎖科技等級？\n所需時間：<color=#A9F548>$2</color>\n等級變化：<color=#A9F548>Lv.$3->Lv.$4</color>"
 }
 
-_G.pg.gametip.help_technologytree = {
+_G.pg.base.gametip.help_technologytree = {
 	tip = {
 		{
 			info = [[
@@ -10648,27 +10648,27 @@ Z23(<color=#D6341D>鐵血</color>) 科技點<color=#A9F548>+1</color>
 	}
 }
 
-_G.pg.gametip.tech_change_version_mark = {
+_G.pg.base.gametip.tech_change_version_mark = {
 	tip = "研發傾向"
 }
 
-_G.pg.gametip.technology_uplevel_error_studying = {
+_G.pg.base.gametip.technology_uplevel_error_studying = {
 	tip = "<color=#A9F548>$1</color>正在升級中，需要升級完成後才能繼續"
 }
 
-_G.pg.gametip.fate_attr_word = {
+_G.pg.base.gametip.fate_attr_word = {
 	tip = "當前階段提供擬合屬性加成"
 }
 
-_G.pg.gametip.fate_phase_word = {
+_G.pg.base.gametip.fate_phase_word = {
 	tip = "階段達成率"
 }
 
-_G.pg.gametip.blueprint_simulation_confirm = {
+_G.pg.base.gametip.blueprint_simulation_confirm = {
 	tip = "是否開始戰術模擬？(*戰術模擬中的我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得時的艦船為準</color>）"
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
 	tip = [[
 <size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）
 使用裝備：<color=#92fc63>
@@ -10678,7 +10678,7 @@ Bofors 四聯40mm對空機炮
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
 	tip = [[
 <size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）
 使用裝備：<color=#92fc63>
@@ -10688,7 +10688,7 @@ Bofors 四聯40mm對空機炮？
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
 	tip = [[
 <size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）
 使用裝備：<color=#92fc63>
@@ -10698,7 +10698,7 @@ _G.pg.gametip.blueprint_simulation_confirm_39903 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
 	tip = [[
 <size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）
 使用裝備：<color=#92fc63>
@@ -10708,7 +10708,7 @@ _G.pg.gametip.blueprint_simulation_confirm_39904 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
 	tip = [[
 <size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）
 使用裝備：<color=#92fc63>
@@ -10718,7 +10718,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49902 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_99901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
 	tip = [[
 <size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）
 使用裝備：<color=#92fc63>
@@ -10728,7 +10728,7 @@ _G.pg.gametip.blueprint_simulation_confirm_99901 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_29903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
@@ -10740,7 +10740,7 @@ _G.pg.gametip.blueprint_simulation_confirm_29903 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_29904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
@@ -10752,7 +10752,7 @@ _G.pg.gametip.blueprint_simulation_confirm_29904 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
@@ -10764,7 +10764,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49903 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49904 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
@@ -10776,7 +10776,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49904 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_89902 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
@@ -10788,7 +10788,7 @@ _G.pg.gametip.blueprint_simulation_confirm_89902 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_19903 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
@@ -10800,7 +10800,7 @@ _G.pg.gametip.blueprint_simulation_confirm_19903 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_39905 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
@@ -10812,7 +10812,7 @@ _G.pg.gametip.blueprint_simulation_confirm_39905 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49905 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
@@ -10824,7 +10824,7 @@ _G.pg.gametip.blueprint_simulation_confirm_49905 = {
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_49906 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
@@ -10836,7 +10836,7 @@ Ju-87 D-4
 </color></size>]]
 }
 
-_G.pg.gametip.blueprint_simulation_confirm_69901 = {
+_G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 	tip = [[
 <size=28>
 是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
@@ -10848,19 +10848,19 @@ _G.pg.gametip.blueprint_simulation_confirm_69901 = {
 </color></size>]]
 }
 
-_G.pg.gametip.electrotherapy_wanning = {
+_G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "鏡面海域擴展中"
 }
 
-_G.pg.gametip.siren_chase_warning = {
+_G.pg.base.gametip.siren_chase_warning = {
 	tip = "危險區域擴展中"
 }
 
-_G.pg.gametip.memorybook_get_award_tip = {
+_G.pg.base.gametip.memorybook_get_award_tip = {
 	tip = "需要收集全部「港區回憶」才可獲取「晃悠悠紀念章」"
 }
 
-_G.pg.gametip.memorybook_notice = {
+_G.pg.base.gametip.memorybook_notice = {
 	tip = {
 		{
 			info = "活動說明："
@@ -10880,15 +10880,15 @@ _G.pg.gametip.memorybook_notice = {
 	}
 }
 
-_G.pg.gametip.word_votes = {
+_G.pg.base.gametip.word_votes = {
 	tip = "得票数量"
 }
 
-_G.pg.gametip.number_0 = {
+_G.pg.base.gametip.number_0 = {
 	tip = "零"
 }
 
-_G.pg.gametip.intimacy_desc_propose_vertical = {
+_G.pg.base.gametip.intimacy_desc_propose_vertical = {
 	tip = [[
 愛為引路之燈，情乃系心之線
 期盼對方之笑容，祈願對方之期盼
@@ -10898,139 +10898,139 @@ _G.pg.gametip.intimacy_desc_propose_vertical = {
          誓約日$1]]
 }
 
-_G.pg.gametip.without_selected_ship = {
+_G.pg.base.gametip.without_selected_ship = {
 	tip = "沒找到符合條件的艦船"
 }
 
-_G.pg.gametip.index_all = {
+_G.pg.base.gametip.index_all = {
 	tip = "全部"
 }
 
-_G.pg.gametip.index_fleetfront = {
+_G.pg.base.gametip.index_fleetfront = {
 	tip = "前排先鋒"
 }
 
-_G.pg.gametip.index_fleetrear = {
+_G.pg.base.gametip.index_fleetrear = {
 	tip = "後排主力"
 }
 
-_G.pg.gametip.index_shipType_quZhu = {
+_G.pg.base.gametip.index_shipType_quZhu = {
 	tip = "驅逐"
 }
 
-_G.pg.gametip.index_shipType_qinXun = {
+_G.pg.base.gametip.index_shipType_qinXun = {
 	tip = "輕巡"
 }
 
-_G.pg.gametip.index_shipType_zhongXun = {
+_G.pg.base.gametip.index_shipType_zhongXun = {
 	tip = "重巡"
 }
 
-_G.pg.gametip.index_shipType_zhanLie = {
+_G.pg.base.gametip.index_shipType_zhanLie = {
 	tip = "戰列"
 }
 
-_G.pg.gametip.index_shipType_hangMu = {
+_G.pg.base.gametip.index_shipType_hangMu = {
 	tip = "航母"
 }
 
-_G.pg.gametip.index_shipType_weiXiu = {
+_G.pg.base.gametip.index_shipType_weiXiu = {
 	tip = "維修"
 }
 
-_G.pg.gametip.index_shipType_qianTing = {
+_G.pg.base.gametip.index_shipType_qianTing = {
 	tip = "潛艇"
 }
 
-_G.pg.gametip.index_other = {
+_G.pg.base.gametip.index_other = {
 	tip = "其他"
 }
 
-_G.pg.gametip.index_rare2 = {
+_G.pg.base.gametip.index_rare2 = {
 	tip = "普通"
 }
 
-_G.pg.gametip.index_rare3 = {
+_G.pg.base.gametip.index_rare3 = {
 	tip = "稀有"
 }
 
-_G.pg.gametip.index_rare4 = {
+_G.pg.base.gametip.index_rare4 = {
 	tip = "精銳"
 }
 
-_G.pg.gametip.index_rare5 = {
+_G.pg.base.gametip.index_rare5 = {
 	tip = "超稀有"
 }
 
-_G.pg.gametip.index_rare6 = {
+_G.pg.base.gametip.index_rare6 = {
 	tip = "海上傳奇"
 }
 
-_G.pg.gametip.warning_mail_max_1 = {
+_G.pg.base.gametip.warning_mail_max_1 = {
 	tip = "郵件數接近上限(<color=#FF5C5C>$1</color>/1000)，請及時整理"
 }
 
-_G.pg.gametip.warning_mail_max_2 = {
+_G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "郵件數已經達到上限，請註意整理！"
 }
 
-_G.pg.gametip.return_award_bind_success = {
+_G.pg.base.gametip.return_award_bind_success = {
 	tip = "綁定成功"
 }
 
-_G.pg.gametip.return_award_bind_erro = {
+_G.pg.base.gametip.return_award_bind_erro = {
 	tip = "綁定失敗$1"
 }
 
-_G.pg.gametip.rename_commander_erro = {
+_G.pg.base.gametip.rename_commander_erro = {
 	tip = "改名失敗$1"
 }
 
-_G.pg.gametip.change_display_medal_success = {
+_G.pg.base.gametip.change_display_medal_success = {
 	tip = "勳章展示修改成功"
 }
 
-_G.pg.gametip.limit_skin_time_day = {
+_G.pg.base.gametip.limit_skin_time_day = {
 	tip = "剩餘時間:$1天"
 }
 
-_G.pg.gametip.limit_skin_time_day_min = {
+_G.pg.base.gametip.limit_skin_time_day_min = {
 	tip = "剩餘時間:$1小時$2分鐘"
 }
 
-_G.pg.gametip.limit_skin_time_min = {
+_G.pg.base.gametip.limit_skin_time_min = {
 	tip = "剩餘時間:$1分鐘"
 }
 
-_G.pg.gametip.limit_skin_time_overtime = {
+_G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "已到期"
 }
 
-_G.pg.gametip.award_window_pt_title = {
+_G.pg.base.gametip.award_window_pt_title = {
 	tip = "當前啾啾："
 }
 
-_G.pg.gametip.return_have_participated_in_act = {
+_G.pg.base.gametip.return_have_participated_in_act = {
 	tip = "已經參與過該活動"
 }
 
-_G.pg.gametip.input_returner_code = {
+_G.pg.base.gametip.input_returner_code = {
 	tip = "点击填写UID"
 }
 
-_G.pg.gametip.dress_up_success = {
+_G.pg.base.gametip.dress_up_success = {
 	tip = "裝扮成功"
 }
 
-_G.pg.gametip.already_have_the_skin = {
+_G.pg.base.gametip.already_have_the_skin = {
 	tip = "已經擁有該換裝"
 }
 
-_G.pg.gametip.exchange_limit_skin_tip = {
+_G.pg.base.gametip.exchange_limit_skin_tip = {
 	tip = "是否消耗換裝體驗券x$1\n兌換[$2] $3天$4小時體驗"
 }
 
-_G.pg.gametip.returner_help = {
+_G.pg.base.gametip.returner_help = {
 	tip = {
 		{
 			info = [[
@@ -11071,27 +11071,27 @@ UID：
 	}
 }
 
-_G.pg.gametip.attire_time_stamp = {
+_G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1天$2小時$3分鐘"
 }
 
-_G.pg.gametip.warning_pray_build_pool = {
+_G.pg.base.gametip.warning_pray_build_pool = {
 	tip = "祈願建造角色一旦確認後,<color=#FF5C5C>將無法更改</color>.\n是否確認選擇? "
 }
 
-_G.pg.gametip.error_pray_select_ship_max = {
+_G.pg.base.gametip.error_pray_select_ship_max = {
 	tip = "可選角色已滿"
 }
 
-_G.pg.gametip.tip_pray_build_pool_success = {
+_G.pg.base.gametip.tip_pray_build_pool_success = {
 	tip = "構建成功"
 }
 
-_G.pg.gametip.tip_pray_build_pool_fail = {
+_G.pg.base.gametip.tip_pray_build_pool_fail = {
 	tip = "構建失敗"
 }
 
-_G.pg.gametip.pray_build_help = {
+_G.pg.base.gametip.pray_build_help = {
 	tip = {
 		{
 			info = "活動說明：\n"
@@ -11141,31 +11141,31 @@ _G.pg.gametip.pray_build_help = {
 	}
 }
 
-_G.pg.gametip.bismarck_award_tip = {
+_G.pg.base.gametip.bismarck_award_tip = {
 	tip = "完成所有條件後獲得獎勵"
 }
 
-_G.pg.gametip.bismarck_chapter_desc = {
+_G.pg.base.gametip.bismarck_chapter_desc = {
 	tip = "參與「鐵血、音符與誓言」，完成任務即可獲得稀有道具"
 }
 
-_G.pg.gametip.returner_push_success = {
+_G.pg.base.gametip.returner_push_success = {
 	tip = "發布成功"
 }
 
-_G.pg.gametip.returner_max_count = {
+_G.pg.base.gametip.returner_max_count = {
 	tip = "已達最大邀請數量"
 }
 
-_G.pg.gametip.returner_push_tip = {
+_G.pg.base.gametip.returner_push_tip = {
 	tip = "此操作將會發布您的UID進入系統,以供回歸指揮官進行配對。一旦發布後,<color=#FF5C5C>將無法撤銷</color>\n是否確認發佈?"
 }
 
-_G.pg.gametip.returner_match_tip = {
+_G.pg.base.gametip.returner_match_tip = {
 	tip = "配對後,您將隨機綁定一名系統中召集者的UID訊息,點擊確定後直接綁定<color=#FF5C5C>無法變更</color>,是否確定綁定？"
 }
 
-_G.pg.gametip.challenge_help = {
+_G.pg.base.gametip.challenge_help = {
 	tip = {
 		{
 			info = " 【玩法簡介】"
@@ -11218,39 +11218,39 @@ _G.pg.gametip.challenge_help = {
 	}
 }
 
-_G.pg.gametip.challenge_casual_reset = {
+_G.pg.base.gametip.challenge_casual_reset = {
 	tip = "上次挑戰異常結束,數據將結算.\n累積得分:$1"
 }
 
-_G.pg.gametip.challenge_infinite_reset = {
+_G.pg.base.gametip.challenge_infinite_reset = {
 	tip = "上次挑戰異常結束,數據將結算.\n通過關卡:$1"
 }
 
-_G.pg.gametip.challenge_normal_reset = {
+_G.pg.base.gametip.challenge_normal_reset = {
 	tip = "是否結束本輪挑戰?"
 }
 
-_G.pg.gametip.challenge_casual_click_switch = {
+_G.pg.base.gametip.challenge_casual_click_switch = {
 	tip = "當前模式:普通模式\n累積得分:$1\n是否切換模式?"
 }
 
-_G.pg.gametip.challenge_infinite_click_switch = {
+_G.pg.base.gametip.challenge_infinite_click_switch = {
 	tip = "當前模式:無限模式\n當前關卡:$1\n是否切換模式?"
 }
 
-_G.pg.gametip.challenge_season_update = {
+_G.pg.base.gametip.challenge_season_update = {
 	tip = "新一輪挑戰已開啟"
 }
 
-_G.pg.gametip.challenge_season_update_casual_clear = {
+_G.pg.base.gametip.challenge_season_update_casual_clear = {
 	tip = "累計得分:$1\n新一輪挑戰已開啟,本輪挑戰數據不計入統計.\n是否開始繼續挑戰?"
 }
 
-_G.pg.gametip.challenge_season_update_infinite_clear = {
+_G.pg.base.gametip.challenge_season_update_infinite_clear = {
 	tip = "當前關卡:$1\n新一輪挑戰已開啟,本輪挑戰數據不計入統計.\n是否開始繼續挑戰?"
 }
 
-_G.pg.gametip.challenge_season_update_casual_switch = {
+_G.pg.base.gametip.challenge_season_update_casual_switch = {
 	tip = [[
 當前模式:普通模式
 累積得分:$1
@@ -11258,7 +11258,7 @@ _G.pg.gametip.challenge_season_update_casual_switch = {
 是否結算當前分數並切換模式?]]
 }
 
-_G.pg.gametip.challenge_season_update_infinite_switch = {
+_G.pg.base.gametip.challenge_season_update_infinite_switch = {
 	tip = [[
 當前模式:無限模式
 當前關卡:$1
@@ -11266,171 +11266,171 @@ _G.pg.gametip.challenge_season_update_infinite_switch = {
 是否結算當前分數並切換模式?]]
 }
 
-_G.pg.gametip.challenge_combat_score = {
+_G.pg.base.gametip.challenge_combat_score = {
 	tip = "本關得分：$1"
 }
 
-_G.pg.gametip.challenge_share_progress = {
+_G.pg.base.gametip.challenge_share_progress = {
 	tip = "本次限界挑戰進度："
 }
 
-_G.pg.gametip.challenge_share = {
+_G.pg.base.gametip.challenge_share = {
 	tip = "關"
 }
 
-_G.pg.gametip.challenge_expire_warn = {
+_G.pg.base.gametip.challenge_expire_warn = {
 	tip = "新一輪挑戰已開啟，本輪數據將不計入統計"
 }
 
-_G.pg.gametip.challenge_normal_tip = {
+_G.pg.base.gametip.challenge_normal_tip = {
 	tip = "挑戰關卡並刷新高分成績，獲取獎勵！"
 }
 
-_G.pg.gametip.challenge_unlimited_tip = {
+_G.pg.base.gametip.challenge_unlimited_tip = {
 	tip = "挑戰自身極限，突破更多關卡！"
 }
 
-_G.pg.gametip.commander_prefab_rename_success = {
+_G.pg.base.gametip.commander_prefab_rename_success = {
 	tip = "改名成功"
 }
 
-_G.pg.gametip.commander_prefab_name = {
+_G.pg.base.gametip.commander_prefab_name = {
 	tip = "預設編隊$1"
 }
 
-_G.pg.gametip.commander_prefab_rename_time = {
+_G.pg.base.gametip.commander_prefab_rename_time = {
 	tip = "$1秒後可以繼續改名"
 }
 
-_G.pg.gametip.commander_build_solt_deficiency = {
+_G.pg.base.gametip.commander_build_solt_deficiency = {
 	tip = "沒有多餘的欄位"
 }
 
-_G.pg.gametip.commander_select_box_tip = {
+_G.pg.base.gametip.commander_select_box_tip = {
 	tip = "一共選擇了$1個喵箱，開始訓練後將無法取消，是否確認？"
 }
 
-_G.pg.gametip.challenge_end_tip = {
+_G.pg.base.gametip.challenge_end_tip = {
 	tip = "活動已結束"
 }
 
-_G.pg.gametip.pass_times = {
+_G.pg.base.gametip.pass_times = {
 	tip = "通關次數"
 }
 
-_G.pg.gametip.list_empty_tip_billboardui = {
+_G.pg.base.gametip.list_empty_tip_billboardui = {
 	tip = "暫無排行數據"
 }
 
-_G.pg.gametip.list_empty_tip_equipmentdesignui = {
+_G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
 	tip = "暫未獲得任何設計圖"
 }
 
-_G.pg.gametip.list_empty_tip_storehouseui_equip = {
+_G.pg.base.gametip.list_empty_tip_storehouseui_equip = {
 	tip = "暫無符合條件的裝備"
 }
 
-_G.pg.gametip.list_empty_tip_storehouseui_item = {
+_G.pg.base.gametip.list_empty_tip_storehouseui_item = {
 	tip = "暫未獲得任何材料"
 }
 
-_G.pg.gametip.list_empty_tip_eventui = {
+_G.pg.base.gametip.list_empty_tip_eventui = {
 	tip = "暫無可以進行的委託"
 }
 
-_G.pg.gametip.list_empty_tip_guildrequestui = {
+_G.pg.base.gametip.list_empty_tip_guildrequestui = {
 	tip = "暫無大艦隊申請"
 }
 
-_G.pg.gametip.list_empty_tip_joinguildui = {
+_G.pg.base.gametip.list_empty_tip_joinguildui = {
 	tip = "暫無符合條件的大艦隊"
 }
 
-_G.pg.gametip.list_empty_tip_friendui = {
+_G.pg.base.gametip.list_empty_tip_friendui = {
 	tip = "暫無好友"
 }
 
-_G.pg.gametip.list_empty_tip_friendui_search = {
+_G.pg.base.gametip.list_empty_tip_friendui_search = {
 	tip = "未找到符合條件的指揮官"
 }
 
-_G.pg.gametip.list_empty_tip_friendui_request = {
+_G.pg.base.gametip.list_empty_tip_friendui_request = {
 	tip = "暫無好友申請"
 }
 
-_G.pg.gametip.list_empty_tip_friendui_black = {
+_G.pg.base.gametip.list_empty_tip_friendui_black = {
 	tip = "暫無黑名單成員"
 }
 
-_G.pg.gametip.list_empty_tip_dockyardui = {
+_G.pg.base.gametip.list_empty_tip_dockyardui = {
 	tip = "暫無符合條件的艦船"
 }
 
-_G.pg.gametip.list_empty_tip_taskscene = {
+_G.pg.base.gametip.list_empty_tip_taskscene = {
 	tip = "沒有進行中的任務"
 }
 
-_G.pg.gametip.empty_tip_mailboxui = {
+_G.pg.base.gametip.empty_tip_mailboxui = {
 	tip = "暫未收到任何郵件"
 }
 
-_G.pg.gametip.words_settings_unlock_ship = {
+_G.pg.base.gametip.words_settings_unlock_ship = {
 	tip = "解鎖角色"
 }
 
-_G.pg.gametip.words_settings_resolve_equip = {
+_G.pg.base.gametip.words_settings_resolve_equip = {
 	tip = "拆解裝備"
 }
 
-_G.pg.gametip.words_settings_unlock_commander = {
+_G.pg.base.gametip.words_settings_unlock_commander = {
 	tip = "解鎖指揮喵"
 }
 
-_G.pg.gametip.words_settings_create_inherit = {
+_G.pg.base.gametip.words_settings_create_inherit = {
 	tip = "生成繼承碼"
 }
 
-_G.pg.gametip.tips_fail_secondarypwd_much_times = {
+_G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
 	tip = "輸入二級密碼錯誤次數過多請<color=#92FC63>%s</color>後嘗試"
 }
 
-_G.pg.gametip.words_desc_unlock = {
+_G.pg.base.gametip.words_desc_unlock = {
 	tip = "進行敏感操作需要輸入密碼確認"
 }
 
-_G.pg.gametip.words_desc_resolve_equip = {
+_G.pg.base.gametip.words_desc_resolve_equip = {
 	tip = "進行敏感操作需要輸入密碼確認"
 }
 
-_G.pg.gametip.words_desc_create_inherit = {
+_G.pg.base.gametip.words_desc_create_inherit = {
 	tip = "進行敏感操作需要輸入密碼確認"
 }
 
-_G.pg.gametip.words_desc_close_password = {
+_G.pg.base.gametip.words_desc_close_password = {
 	tip = "停用二級密碼需要輸入密碼確認"
 }
 
-_G.pg.gametip.words_desc_change_settings = {
+_G.pg.base.gametip.words_desc_change_settings = {
 	tip = "更改二級密碼限制範圍需要輸入密碼確認"
 }
 
-_G.pg.gametip.words_set_password = {
+_G.pg.base.gametip.words_set_password = {
 	tip = "設置密碼"
 }
 
-_G.pg.gametip.words_information = {
+_G.pg.base.gametip.words_information = {
 	tip = "訊息"
 }
 
-_G.pg.gametip.Word_Ship_Exp_Buff = {
+_G.pg.base.gametip.Word_Ship_Exp_Buff = {
 	tip = "經驗加成"
 }
 
-_G.pg.gametip.secondarypassword_incorrectpwd_error = {
+_G.pg.base.gametip.secondarypassword_incorrectpwd_error = {
 	tip = "密碼錯誤，可再嘗試<color=#FF5C5C>%d</color>次"
 }
 
-_G.pg.gametip.secondary_password_help = {
+_G.pg.base.gametip.secondary_password_help = {
 	tip = {
 		{
 			info = "二級密碼是用於保護指揮官帳號內資產的密碼系統。\n"
@@ -11462,7 +11462,7 @@ _G.pg.gametip.secondary_password_help = {
 	}
 }
 
-_G.pg.gametip.comic_help = {
+_G.pg.base.gametip.comic_help = {
 	tip = {
 		{
 			info = "1.通過完成每天的任務獲得漫畫彩頁，領取彩頁後左側\n漫畫對應位置會自動上色"
@@ -11476,19 +11476,19 @@ _G.pg.gametip.comic_help = {
 	}
 }
 
-_G.pg.gametip.secondarypassword_illegal_tip = {
+_G.pg.base.gametip.secondarypassword_illegal_tip = {
 	tip = "包含敏感資訊，請重新輸入"
 }
 
-_G.pg.gametip.pt_cosume = {
+_G.pg.base.gametip.pt_cosume = {
 	tip = "消耗$1"
 }
 
-_G.pg.gametip.secondarypassword_confirm_tips = {
+_G.pg.base.gametip.secondarypassword_confirm_tips = {
 	tip = "請再次確認密碼提示文本\n<color=#FFDE38>“%s”</color>"
 }
 
-_G.pg.gametip.help_tempesteve = {
+_G.pg.base.gametip.help_tempesteve = {
 	tip = {
 		{
 			info = "活動說明："
@@ -11522,67 +11522,67 @@ P7通過指定關卡]]
 	}
 }
 
-_G.pg.gametip.word_rest_times = {
+_G.pg.base.gametip.word_rest_times = {
 	tip = "<color=#FFDE38FF>剩餘次數 ：%s次</color>"
 }
 
-_G.pg.gametip.common_buy_gold_success = {
+_G.pg.base.gametip.common_buy_gold_success = {
 	tip = "成功購買 <color=#92fc63>$1</color> 物資！"
 }
 
-_G.pg.gametip.harbour_bomb_tip = {
+_G.pg.base.gametip.harbour_bomb_tip = {
 	tip = "港口被摧毀，任務失敗…"
 }
 
-_G.pg.gametip.submarine_approach = {
+_G.pg.base.gametip.submarine_approach = {
 	tip = "潛艇接近"
 }
 
-_G.pg.gametip.submarine_approach_desc = {
+_G.pg.base.gametip.submarine_approach_desc = {
 	tip = "敵潛艇編隊接近中，請注意提高警戒。"
 }
 
-_G.pg.gametip.desc_quick_play = {
+_G.pg.base.gametip.desc_quick_play = {
 	tip = "加速移動播放"
 }
 
-_G.pg.gametip.text_win_condition = {
+_G.pg.base.gametip.text_win_condition = {
 	tip = "勝利條件"
 }
 
-_G.pg.gametip.text_lose_condition = {
+_G.pg.base.gametip.text_lose_condition = {
 	tip = "失敗條件"
 }
 
-_G.pg.gametip.text_rest_HP = {
+_G.pg.base.gametip.text_rest_HP = {
 	tip = "剩餘血量"
 }
 
-_G.pg.gametip.desc_defense_reward = {
+_G.pg.base.gametip.desc_defense_reward = {
 	tip = "依據通關時港口剩餘血量獲得獎勵"
 }
 
-_G.pg.gametip.desc_base_hp = {
+_G.pg.base.gametip.desc_base_hp = {
 	tip = "港區耐久：$1/$2"
 }
 
-_G.pg.gametip.map_event_open = {
+_G.pg.base.gametip.map_event_open = {
 	tip = "攔截機關已啟動"
 }
 
-_G.pg.gametip.word_reward = {
+_G.pg.base.gametip.word_reward = {
 	tip = "獎勵"
 }
 
-_G.pg.gametip.tips_dispense_completed = {
+_G.pg.base.gametip.tips_dispense_completed = {
 	tip = "装药完毕"
 }
 
-_G.pg.gametip.tips_firework_completed = {
+_G.pg.base.gametip.tips_firework_completed = {
 	tip = "烟花制作完成"
 }
 
-_G.pg.gametip.help_summer_feast = {
+_G.pg.base.gametip.help_summer_feast = {
 	tip = {
 		{
 			info = [[
@@ -11600,7 +11600,7 @@ TIPS：
 	}
 }
 
-_G.pg.gametip.help_firework_produce = {
+_G.pg.base.gametip.help_firework_produce = {
 	tip = [[
 點擊開始按鈕進行裝藥，每次裝藥值會不停浮動，需要在合適的時機分別按下第一次、第二次、第三次按鈕完成三次裝藥
 裝藥總值顯示在右上方橫向進度條
@@ -11613,7 +11613,7 @@ _G.pg.gametip.help_firework_produce = {
 其餘結果 四等獎]]
 }
 
-_G.pg.gametip.help_firework = {
+_G.pg.base.gametip.help_firework = {
 	tip = {
 		{
 			info = [[
@@ -11630,7 +11630,7 @@ _G.pg.gametip.help_firework = {
 	}
 }
 
-_G.pg.gametip.help_summer_shrine = {
+_G.pg.base.gametip.help_summer_shrine = {
 	tip = {
 		{
 			info = [[
@@ -11657,7 +11657,7 @@ _G.pg.gametip.help_summer_shrine = {
 	}
 }
 
-_G.pg.gametip.help_summer_food = {
+_G.pg.base.gametip.help_summer_food = {
 	tip = {
 		{
 			info = [[
@@ -11681,7 +11681,7 @@ _G.pg.gametip.help_summer_food = {
 	}
 }
 
-_G.pg.gametip.help_summer_shooting = {
+_G.pg.base.gametip.help_summer_shooting = {
 	tip = {
 		{
 			info = [[
@@ -11700,7 +11700,7 @@ _G.pg.gametip.help_summer_shooting = {
 	}
 }
 
-_G.pg.gametip.help_summer_stamp = {
+_G.pg.base.gametip.help_summer_stamp = {
 	tip = {
 		{
 			info = [[
@@ -11712,23 +11712,23 @@ _G.pg.gametip.help_summer_stamp = {
 	}
 }
 
-_G.pg.gametip.tips_summergame_exit = {
+_G.pg.base.gametip.tips_summergame_exit = {
 	tip = "遊戲正在進行中，現在離開將無法儲存進度，是否確認離開？"
 }
 
-_G.pg.gametip.tips_shrine_buff = {
+_G.pg.base.gametip.tips_shrine_buff = {
 	tip = "消耗5物資，獲得加成效果:"
 }
 
-_G.pg.gametip.tips_shrine_nobuff = {
+_G.pg.base.gametip.tips_shrine_nobuff = {
 	tip = "消耗5物資，由於次數耗盡，\n沒有獲得任何效果"
 }
 
-_G.pg.gametip.paint_hide_other_obj_tip = {
+_G.pg.base.gametip.paint_hide_other_obj_tip = {
 	tip = "隱藏背景物件"
 }
 
-_G.pg.gametip.help_vote = {
+_G.pg.base.gametip.help_vote = {
 	tip = {
 		{
 			info = [[
@@ -11814,75 +11814,75 @@ _G.pg.gametip.help_vote = {
 	}
 }
 
-_G.pg.gametip.tips_firework_exit = {
+_G.pg.base.gametip.tips_firework_exit = {
 	tip = "煙火尚未製作完成，是否確認離開？"
 }
 
-_G.pg.gametip.result_firework_produce = {
+_G.pg.base.gametip.result_firework_produce = {
 	tip = "煙火製作完成，本次評價："
 }
 
-_G.pg.gametip.tag_level_narrative = {
+_G.pg.base.gametip.tag_level_narrative = {
 	tip = "劇情關卡"
 }
 
-_G.pg.gametip.vote_get_book = {
+_G.pg.base.gametip.vote_get_book = {
 	tip = "獲得了應援資格"
 }
 
-_G.pg.gametip.vote_book_is_over = {
+_G.pg.base.gametip.vote_book_is_over = {
 	tip = "本輪投票已結束，無法再獲取應援資格"
 }
 
-_G.pg.gametip.vote_fame_tip = {
+_G.pg.base.gametip.vote_fame_tip = {
 	tip = "※觀賞完殿堂角色特別小故事，可解鎖角色專屬頭像框：$1,$2,$3 "
 }
 
-_G.pg.gametip.word_maintain = {
+_G.pg.base.gametip.word_maintain = {
 	tip = "維護後"
 }
 
-_G.pg.gametip.name_zhanliejahe = {
+_G.pg.base.gametip.name_zhanliejahe = {
 	tip = "{namecode:92}(戰列)"
 }
 
-_G.pg.gametip.change_skin_secretary_ship_success = {
+_G.pg.base.gametip.change_skin_secretary_ship_success = {
 	tip = "更換換裝並設為秘書艦成功"
 }
 
-_G.pg.gametip.change_skin_secretary_ship = {
+_G.pg.base.gametip.change_skin_secretary_ship = {
 	tip = "更換同時設為秘書艦"
 }
 
-_G.pg.gametip.word_billboard = {
+_G.pg.base.gametip.word_billboard = {
 	tip = "排行榜"
 }
 
-_G.pg.gametip.word_easy = {
+_G.pg.base.gametip.word_easy = {
 	tip = "簡單"
 }
 
-_G.pg.gametip.word_normal_junhe = {
+_G.pg.base.gametip.word_normal_junhe = {
 	tip = "普通"
 }
 
-_G.pg.gametip.word_hard = {
+_G.pg.base.gametip.word_hard = {
 	tip = "困難"
 }
 
-_G.pg.gametip.word_special_challenge_ticket = {
+_G.pg.base.gametip.word_special_challenge_ticket = {
 	tip = "特別挑戰券"
 }
 
-_G.pg.gametip.tip_exchange_ticket = {
+_G.pg.base.gametip.tip_exchange_ticket = {
 	tip = "是否消耗一張特別挑戰券增加一次$1難度額外收益次數"
 }
 
-_G.pg.gametip.dont_remind = {
+_G.pg.base.gametip.dont_remind = {
 	tip = "不再提示"
 }
 
-_G.pg.gametip.worldbossex_help = {
+_G.pg.base.gametip.worldbossex_help = {
 	tip = {
 		{
 			info = [[
@@ -11909,83 +11909,83 @@ _G.pg.gametip.worldbossex_help = {
 	}
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_easy = {
+_G.pg.base.gametip.ship_formationUI_fleetName_easy = {
 	tip = "簡單艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_normal = {
+_G.pg.base.gametip.ship_formationUI_fleetName_normal = {
 	tip = "普通艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_hard = {
+_G.pg.base.gametip.ship_formationUI_fleetName_hard = {
 	tip = "困難艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_extra = {
+_G.pg.base.gametip.ship_formationUI_fleetName_extra = {
 	tip = "EX艦隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_easy_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_easy_ss = {
 	tip = "簡單潛艇編隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_normal_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_normal_ss = {
 	tip = "普通潛艇編隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_hard_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_hard_ss = {
 	tip = "困難潛艇編隊"
 }
 
-_G.pg.gametip.ship_formationUI_fleetName_extra_ss = {
+_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
 	tip = "EX潛艇編隊"
 }
 
-_G.pg.gametip.text_consume = {
+_G.pg.base.gametip.text_consume = {
 	tip = "消 耗"
 }
 
-_G.pg.gametip.text_inconsume = {
+_G.pg.base.gametip.text_inconsume = {
 	tip = "不消耗"
 }
 
-_G.pg.gametip.pt_ship_now = {
+_G.pg.base.gametip.pt_ship_now = {
 	tip = "當前擊沉："
 }
 
-_G.pg.gametip.pt_ship_goal = {
+_G.pg.base.gametip.pt_ship_goal = {
 	tip = "目標擊沉："
 }
 
-_G.pg.gametip.option_desc1 = {
+_G.pg.base.gametip.option_desc1 = {
 	tip = "功能開啟後，艦船顯示自訂角色名稱"
 }
 
-_G.pg.gametip.option_desc2 = {
+_G.pg.base.gametip.option_desc2 = {
 	tip = "功能開啟後，自律戰鬥結束時設備震動提示戰鬥結束"
 }
 
-_G.pg.gametip.option_desc3 = {
+_G.pg.base.gametip.option_desc3 = {
 	tip = "功能開啟後，獲得超稀有及以上稀有度的艦船時設備震動提示"
 }
 
-_G.pg.gametip.option_desc4 = {
+_G.pg.base.gametip.option_desc4 = {
 	tip = "功能關閉後，重複獲得已擁有的稀有及以下稀有度的艦船時（僅限海域掉落）取消彈出艦船獲得介面"
 }
 
-_G.pg.gametip.option_desc5 = {
+_G.pg.base.gametip.option_desc5 = {
 	tip = "功能開啟後，點擊遊戲介面可顯示觸控特效"
 }
 
-_G.pg.gametip.option_desc6 = {
+_G.pg.base.gametip.option_desc6 = {
 	tip = "功能開啟後，過場圖片適應設備最小邊框，不顯示黑邊"
 }
 
-_G.pg.gametip.option_desc10 = {
+_G.pg.base.gametip.option_desc10 = {
 	tip = "功能開啟後，戰鬥中會預設隱藏換裝的局部背景"
 }
 
-_G.pg.gametip.option_desc11 = {
+_G.pg.base.gametip.option_desc11 = {
 	tip = [[
 功能開啟後，戰鬥中會展示航母的被偵測提示線（藍色網格樣式）、暴露提示線（紅色網格樣式，僅演習戰鬥中有）
 
@@ -12005,7 +12005,7 @@ _G.pg.gametip.option_desc11 = {
 ]]
 }
 
-_G.pg.gametip.music_collection = {
+_G.pg.base.gametip.music_collection = {
 	tip = {
 		{
 			info = "活動說明："
@@ -12022,7 +12022,7 @@ _G.pg.gametip.music_collection = {
 	}
 }
 
-_G.pg.gametip.music_main = {
+_G.pg.base.gametip.music_main = {
 	tip = {
 		{
 			info = "<color=#92fc63>3.25-4.8</color>期間開啟限時活動「激奏的Polaris」"
@@ -12047,7 +12047,7 @@ _G.pg.gametip.music_main = {
 	}
 }
 
-_G.pg.gametip.music_juus = {
+_G.pg.base.gametip.music_juus = {
 	tip = {
 		{
 			info = "「JUUs」說明："
@@ -12065,7 +12065,7 @@ _G.pg.gametip.music_juus = {
 	}
 }
 
-_G.pg.gametip.doa_collection = {
+_G.pg.base.gametip.doa_collection = {
 	tip = {
 		{
 			info = "活動時間：<color=#92fc63>1.21-2.4</color>\n1.活動期間，參與活動收集「角色喜好」，收集全部<color=#92fc63>14</color>個\n後可獲得限定傢俱<color=#92fc63>「維納斯假期紀念像」</color>"
@@ -12084,35 +12084,35 @@ _G.pg.gametip.doa_collection = {
 	}
 }
 
-_G.pg.gametip.ins_word_day = {
+_G.pg.base.gametip.ins_word_day = {
 	tip = "$1天前"
 }
 
-_G.pg.gametip.ins_word_hour = {
+_G.pg.base.gametip.ins_word_hour = {
 	tip = "$1小時前"
 }
 
-_G.pg.gametip.ins_word_minu = {
+_G.pg.base.gametip.ins_word_minu = {
 	tip = "$1分鐘前"
 }
 
-_G.pg.gametip.ins_word_like = {
+_G.pg.base.gametip.ins_word_like = {
 	tip = "$1 次讚"
 }
 
-_G.pg.gametip.ins_click_like_success = {
+_G.pg.base.gametip.ins_click_like_success = {
 	tip = "點讚成功"
 }
 
-_G.pg.gametip.ins_push_comment_success = {
+_G.pg.base.gametip.ins_push_comment_success = {
 	tip = "評論成功"
 }
 
-_G.pg.gametip.skinshop_live2d_fliter_failed = {
+_G.pg.base.gametip.skinshop_live2d_fliter_failed = {
 	tip = "當前沒有匹配換裝可篩選"
 }
 
-_G.pg.gametip.help_music_game = {
+_G.pg.base.gametip.help_music_game = {
 	tip = {
 		{
 			info = [[
@@ -12137,15 +12137,15 @@ combo達到10/20/40/60/80/100時，分別為每次有效演奏額外附加<color
 	}
 }
 
-_G.pg.gametip.restart_music_game = {
+_G.pg.base.gametip.restart_music_game = {
 	tip = "重新開始將失去已經獲得的分數，是否確認？"
 }
 
-_G.pg.gametip.reselect_music_game = {
+_G.pg.base.gametip.reselect_music_game = {
 	tip = "返回選歌將失去已經獲得的分數，是否確認？"
 }
 
-_G.pg.gametip.hololive_goodmorning = {
+_G.pg.base.gametip.hololive_goodmorning = {
 	tip = {
 		{
 			info = "「早安碧蓝航线」说明："
@@ -12168,7 +12168,7 @@ _G.pg.gametip.hololive_goodmorning = {
 	}
 }
 
-_G.pg.gametip.hololive_lianliankan = {
+_G.pg.base.gametip.hololive_lianliankan = {
 	tip = {
 		{
 			info = "「集结HOLOLIVE反抗军」说明："
@@ -12204,7 +12204,7 @@ _G.pg.gametip.hololive_lianliankan = {
 	}
 }
 
-_G.pg.gametip.hololive_dalaozhang = {
+_G.pg.base.gametip.hololive_dalaozhang = {
 	tip = {
 		{
 			info = "「港区工作台」说明："
@@ -12224,7 +12224,7 @@ _G.pg.gametip.hololive_dalaozhang = {
 	}
 }
 
-_G.pg.gametip.hololive_dashenling = {
+_G.pg.base.gametip.hololive_dashenling = {
 	tip = {
 		{
 			info = "「澪的港区占卜馆」说明："
@@ -12247,15 +12247,15 @@ _G.pg.gametip.hololive_dashenling = {
 	}
 }
 
-_G.pg.gametip.pocky_jiujiu = {
+_G.pg.base.gametip.pocky_jiujiu = {
 	tip = "啾啾日常"
 }
 
-_G.pg.gametip.pocky_jiujiu_desc = {
+_G.pg.base.gametip.pocky_jiujiu_desc = {
 	tip = "無情的打卡機器傳來了“請打卡”的聲音"
 }
 
-_G.pg.gametip.pocky_help = {
+_G.pg.base.gametip.pocky_help = {
 	tip = {
 		{
 			info = "活動說明："
@@ -12275,7 +12275,7 @@ _G.pg.gametip.pocky_help = {
 	}
 }
 
-_G.pg.gametip.secretary_help = {
+_G.pg.base.gametip.secretary_help = {
 	tip = {
 		{
 			info = "秘書組功能說明："
@@ -12301,39 +12301,39 @@ _G.pg.gametip.secretary_help = {
 	}
 }
 
-_G.pg.gametip.secretary_unlock2 = {
+_G.pg.base.gametip.secretary_unlock2 = {
 	tip = "完成關卡3-4後解鎖"
 }
 
-_G.pg.gametip.secretary_unlock3 = {
+_G.pg.base.gametip.secretary_unlock3 = {
 	tip = "完成關卡6-4後解鎖"
 }
 
-_G.pg.gametip.secretary_unlock4 = {
+_G.pg.base.gametip.secretary_unlock4 = {
 	tip = "完成關卡9-4後解鎖"
 }
 
-_G.pg.gametip.secretary_unlock5 = {
+_G.pg.base.gametip.secretary_unlock5 = {
 	tip = "完成關卡12-4後解鎖"
 }
 
-_G.pg.gametip.secretary_closed = {
+_G.pg.base.gametip.secretary_closed = {
 	tip = "暫未開放"
 }
 
-_G.pg.gametip.confirm_unlock = {
+_G.pg.base.gametip.confirm_unlock = {
 	tip = "是否解鎖$1"
 }
 
-_G.pg.gametip.secretary_pos_save = {
+_G.pg.base.gametip.secretary_pos_save = {
 	tip = "是否儲存當前秘書艦位置調整？"
 }
 
-_G.pg.gametip.secretary_pos_save_success = {
+_G.pg.base.gametip.secretary_pos_save_success = {
 	tip = "儲存成功"
 }
 
-_G.pg.gametip.collection_help = {
+_G.pg.base.gametip.collection_help = {
 	tip = {
 		{
 			icon = {
@@ -12365,159 +12365,159 @@ _G.pg.gametip.collection_help = {
 	}
 }
 
-_G.pg.gametip.juese_tiyan = {
+_G.pg.base.gametip.juese_tiyan = {
 	tip = "是否開始角色體驗關卡？ （體驗關卡中我方艦船屬性僅供參考，<color=#ff5c5c>實際性能以獲得艦船為準</color>）"
 }
 
-_G.pg.gametip.resolve_amount_prefix = {
+_G.pg.base.gametip.resolve_amount_prefix = {
 	tip = "分解數量："
 }
 
-_G.pg.gametip.compose_amount_prefix = {
+_G.pg.base.gametip.compose_amount_prefix = {
 	tip = "合成數量："
 }
 
-_G.pg.gametip.help_sub_limits = {
+_G.pg.base.gametip.help_sub_limits = {
 	tip = "關閉/顯示潛艇範圍"
 }
 
-_G.pg.gametip.help_sub_display = {
+_G.pg.base.gametip.help_sub_display = {
 	tip = "自主尋敵/待機模式"
 }
 
-_G.pg.gametip.confirm_unlock_ship_main = {
+_G.pg.base.gametip.confirm_unlock_ship_main = {
 	tip = "該艦船已被設為秘書艦，無法選擇"
 }
 
-_G.pg.gametip.msgbox_text_confirm = {
+_G.pg.base.gametip.msgbox_text_confirm = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.msgbox_text_shop = {
+_G.pg.base.gametip.msgbox_text_shop = {
 	tip = "商 店"
 }
 
-_G.pg.gametip.msgbox_text_cancel = {
+_G.pg.base.gametip.msgbox_text_cancel = {
 	tip = "取 消"
 }
 
-_G.pg.gametip.msgbox_text_cancel_g = {
+_G.pg.base.gametip.msgbox_text_cancel_g = {
 	tip = "取 消"
 }
 
-_G.pg.gametip.msgbox_text_cancel_fight = {
+_G.pg.base.gametip.msgbox_text_cancel_fight = {
 	tip = "退出戰鬥"
 }
 
-_G.pg.gametip.msgbox_text_goon_fight = {
+_G.pg.base.gametip.msgbox_text_goon_fight = {
 	tip = "繼續戰鬥"
 }
 
-_G.pg.gametip.msgbox_text_exit = {
+_G.pg.base.gametip.msgbox_text_exit = {
 	tip = "退 出"
 }
 
-_G.pg.gametip.msgbox_text_clear = {
+_G.pg.base.gametip.msgbox_text_clear = {
 	tip = "清 理"
 }
 
-_G.pg.gametip.msgbox_text_apply = {
+_G.pg.base.gametip.msgbox_text_apply = {
 	tip = "申 請"
 }
 
-_G.pg.gametip.msgbox_text_buy = {
+_G.pg.base.gametip.msgbox_text_buy = {
 	tip = "購 買"
 }
 
-_G.pg.gametip.msgbox_text_noPos_buy = {
+_G.pg.base.gametip.msgbox_text_noPos_buy = {
 	tip = "拓 展"
 }
 
-_G.pg.gametip.msgbox_text_noPos_clear = {
+_G.pg.base.gametip.msgbox_text_noPos_clear = {
 	tip = "整 理"
 }
 
-_G.pg.gametip.msgbox_text_noPos_intensify = {
+_G.pg.base.gametip.msgbox_text_noPos_intensify = {
 	tip = "強 化"
 }
 
-_G.pg.gametip.msgbox_text_forward = {
+_G.pg.base.gametip.msgbox_text_forward = {
 	tip = "立即前往"
 }
 
-_G.pg.gametip.msgbox_text_iknow = {
+_G.pg.base.gametip.msgbox_text_iknow = {
 	tip = "知道了"
 }
 
-_G.pg.gametip.msgbox_text_prepage = {
+_G.pg.base.gametip.msgbox_text_prepage = {
 	tip = "上一頁"
 }
 
-_G.pg.gametip.msgbox_text_nextpage = {
+_G.pg.base.gametip.msgbox_text_nextpage = {
 	tip = "下一頁"
 }
 
-_G.pg.gametip.msgbox_text_exchange = {
+_G.pg.base.gametip.msgbox_text_exchange = {
 	tip = "兌 換"
 }
 
-_G.pg.gametip.msgbox_text_retreat = {
+_G.pg.base.gametip.msgbox_text_retreat = {
 	tip = "撤 退"
 }
 
-_G.pg.gametip.msgbox_text_go = {
+_G.pg.base.gametip.msgbox_text_go = {
 	tip = "立即前往"
 }
 
-_G.pg.gametip.msgbox_text_consume = {
+_G.pg.base.gametip.msgbox_text_consume = {
 	tip = "消耗"
 }
 
-_G.pg.gametip.msgbox_text_inconsume = {
+_G.pg.base.gametip.msgbox_text_inconsume = {
 	tip = "不消耗"
 }
 
-_G.pg.gametip.msgbox_text_unlock = {
+_G.pg.base.gametip.msgbox_text_unlock = {
 	tip = "解 鎖"
 }
 
-_G.pg.gametip.msgbox_text_save = {
+_G.pg.base.gametip.msgbox_text_save = {
 	tip = "保 存"
 }
 
-_G.pg.gametip.common_flag_ship = {
+_G.pg.base.gametip.common_flag_ship = {
 	tip = "秘書艦"
 }
 
-_G.pg.gametip.fenjie_lantu_tip = {
+_G.pg.base.gametip.fenjie_lantu_tip = {
 	tip = "科研等級達到30級後藍圖才可以被解析哦！"
 }
 
-_G.pg.gametip.msgbox_text_analyse = {
+_G.pg.base.gametip.msgbox_text_analyse = {
 	tip = "解 析"
 }
 
-_G.pg.gametip.fragresolve_empty_tip = {
+_G.pg.base.gametip.fragresolve_empty_tip = {
 	tip = "當前沒有可以解析的圖紙"
 }
 
-_G.pg.gametip.confirm_unlock_lv = {
+_G.pg.base.gametip.confirm_unlock_lv = {
 	tip = "是否解鎖<color=#ff5c5c>$1的$2</color>"
 }
 
-_G.pg.gametip.shops_rest_day = {
+_G.pg.base.gametip.shops_rest_day = {
 	tip = "本次兌換剩餘時間："
 }
 
-_G.pg.gametip.title_limit_time = {
+_G.pg.base.gametip.title_limit_time = {
 	tip = "「限時」"
 }
 
-_G.pg.gametip.seven_choose_one = {
+_G.pg.base.gametip.seven_choose_one = {
 	tip = "指揮官只能選擇一人贈予年賀狀，\n是否確認贈予<color=#92fc63>$1</color>？\n贈予後會獲得對應角色和回禮"
 }
 
-_G.pg.gametip.help_newyear_feast = {
+_G.pg.base.gametip.help_newyear_feast = {
 	tip = {
 		{
 			info = [[
@@ -12540,7 +12540,7 @@ TIPS：
 	}
 }
 
-_G.pg.gametip.help_newyear_shrine = {
+_G.pg.base.gametip.help_newyear_shrine = {
 	tip = {
 		{
 			info = [[
@@ -12567,7 +12567,7 @@ _G.pg.gametip.help_newyear_shrine = {
 	}
 }
 
-_G.pg.gametip.help_newyear_stamp = {
+_G.pg.base.gametip.help_newyear_stamp = {
 	tip = {
 		{
 			info = [[
@@ -12580,11 +12580,11 @@ _G.pg.gametip.help_newyear_stamp = {
 	}
 }
 
-_G.pg.gametip.pt_reconfirm = {
+_G.pg.base.gametip.pt_reconfirm = {
 	tip = "您是否確認要兌換<color=#ff5c5c>$1</color>?"
 }
 
-_G.pg.gametip.qte_game_help = {
+_G.pg.base.gametip.qte_game_help = {
 	tip = {
 		{
 			icon = {
@@ -12616,43 +12616,43 @@ _G.pg.gametip.qte_game_help = {
 	}
 }
 
-_G.pg.gametip.word_equipskin_type = {
+_G.pg.base.gametip.word_equipskin_type = {
 	tip = "類型"
 }
 
-_G.pg.gametip.word_equipskin_all = {
+_G.pg.base.gametip.word_equipskin_all = {
 	tip = "全部"
 }
 
-_G.pg.gametip.word_equipskin_cannon = {
+_G.pg.base.gametip.word_equipskin_cannon = {
 	tip = "艦炮"
 }
 
-_G.pg.gametip.word_equipskin_tarpedo = {
+_G.pg.base.gametip.word_equipskin_tarpedo = {
 	tip = "魚雷"
 }
 
-_G.pg.gametip.word_equipskin_aircraft = {
+_G.pg.base.gametip.word_equipskin_aircraft = {
 	tip = "艦載機"
 }
 
-_G.pg.gametip.word_equipskin_aux = {
+_G.pg.base.gametip.word_equipskin_aux = {
 	tip = "設備"
 }
 
-_G.pg.gametip.msgbox_repair = {
+_G.pg.base.gametip.msgbox_repair = {
 	tip = "修復資源"
 }
 
-_G.pg.gametip.msgbox_repair_l2d = {
+_G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "修復L2D"
 }
 
-_G.pg.gametip.word_no_cache = {
+_G.pg.base.gametip.word_no_cache = {
 	tip = "沒有需要修復的資源"
 }
 
-_G.pg.gametip.pile_game_notice = {
+_G.pg.base.gametip.pile_game_notice = {
 	tip = {
 		{
 			info = [[
@@ -12677,7 +12677,7 @@ _G.pg.gametip.pile_game_notice = {
 	}
 }
 
-_G.pg.gametip.help_chunjie_stamp = {
+_G.pg.base.gametip.help_chunjie_stamp = {
 	tip = {
 		{
 			info = [[
@@ -12689,7 +12689,7 @@ _G.pg.gametip.help_chunjie_stamp = {
 	}
 }
 
-_G.pg.gametip.help_chunjie_feast = {
+_G.pg.base.gametip.help_chunjie_feast = {
 	tip = {
 		{
 			info = [[
@@ -12705,7 +12705,7 @@ _G.pg.gametip.help_chunjie_feast = {
 	}
 }
 
-_G.pg.gametip.help_chunjie_jiulou = {
+_G.pg.base.gametip.help_chunjie_jiulou = {
 	tip = {
 		{
 			info = "活動說明：\n1.活動期間可以通過<color=#92fc63>「撫順大冒險III」</color>、<color=#92fc63>「繪圖日記」</color>、<color=#92fc63>「應瑞春遊記」</color>獲得紅包，開啟紅包可以獲取鑽石及其他豐厚獎勵\n2.紅包分為bonus和普通紅包，其中有<color=#92fc63>15</color>個bonus紅包，其餘為普通紅包，開啟紅包時優先開啟bonus紅包，bonus紅包開完後開啟普通紅包"
@@ -12713,35 +12713,35 @@ _G.pg.gametip.help_chunjie_jiulou = {
 	}
 }
 
-_G.pg.gametip.special_animal1 = {
+_G.pg.base.gametip.special_animal1 = {
 	tip = "[浦波的可愛<怪奇>生物圖鑑No.1]\n凍蠑螈：擁有急凍能力的凍蠑螈，能製造冰塊，身體周圍漂浮著冰晶"
 }
 
-_G.pg.gametip.special_animal2 = {
+_G.pg.base.gametip.special_animal2 = {
 	tip = "[浦波的可愛<怪奇>生物圖鑑No.2]\n鯨頭鸛ESP：發呆時會使出超能力的鯨頭鸛，身體周圍包裹著能量"
 }
 
-_G.pg.gametip.special_animal3 = {
+_G.pg.base.gametip.special_animal3 = {
 	tip = "[浦波的可愛<怪奇>生物圖鑑No.3]\n浮游海豹球：吸入大量空氣之後可以漂浮到空中的球球海豹"
 }
 
-_G.pg.gametip.special_animal4 = {
+_G.pg.base.gametip.special_animal4 = {
 	tip = "[浦波的可愛<怪奇>生物圖鑑No.4]\n獨角獸·覺醒：為了保護重要的人而覺醒的獨角獸…（設定）"
 }
 
-_G.pg.gametip.special_animal5 = {
+_G.pg.base.gametip.special_animal5 = {
 	tip = "[浦波的可愛<怪奇>生物圖鑑No.5]\n隱身汪：會隱形的汪汪，唯一不能隱形的屁股是它最大的煩惱"
 }
 
-_G.pg.gametip.special_animal6 = {
+_G.pg.base.gametip.special_animal6 = {
 	tip = "[浦波的可愛<怪奇>生物圖鑑No.6]\n肌肉啾：熱衷於健身的肌肉啾，似乎有點練過頭了"
 }
 
-_G.pg.gametip.special_animal7 = {
+_G.pg.base.gametip.special_animal7 = {
 	tip = "[浦波的可愛<怪奇>生物圖鑑No.7]\n彩虹香腸喵：睡覺時會流下彩虹口水的彩虹超長貓，有著奇怪的睡姿"
 }
 
-_G.pg.gametip.bulin_help = {
+_G.pg.base.gametip.bulin_help = {
 	tip = {
 		{
 			info = [[
@@ -12755,67 +12755,67 @@ _G.pg.gametip.bulin_help = {
 	}
 }
 
-_G.pg.gametip.super_bulin = {
+_G.pg.base.gametip.super_bulin = {
 	tip = "是否挑戰特殊關卡？"
 }
 
-_G.pg.gametip.super_bulin_tip = {
+_G.pg.base.gametip.super_bulin_tip = {
 	tip = "點擊挑戰特殊關卡！ burin！"
 }
 
-_G.pg.gametip.bulin_tip1 = {
+_G.pg.base.gametip.bulin_tip1 = {
 	tip = "出擊喵！目標1-2喵！"
 }
 
-_G.pg.gametip.bulin_tip2 = {
+_G.pg.base.gametip.bulin_tip2 = {
 	tip = "堆積的道具要注意整理喵！"
 }
 
-_G.pg.gametip.bulin_tip3 = {
+_G.pg.base.gametip.bulin_tip3 = {
 	tip = "出擊喵！目標2-2喵！"
 }
 
-_G.pg.gametip.bulin_tip4 = {
+_G.pg.base.gametip.bulin_tip4 = {
 	tip = "呼喵？是不是該去船塢看看了喵？"
 }
 
-_G.pg.gametip.bulin_tip5 = {
+_G.pg.base.gametip.bulin_tip5 = {
 	tip = "出擊喵！目標1-4喵！"
 }
 
-_G.pg.gametip.bulin_tip6 = {
+_G.pg.base.gametip.bulin_tip6 = {
 	tip = "要隨時記得補充食物喵！"
 }
 
-_G.pg.gametip.bulin_tip7 = {
+_G.pg.base.gametip.bulin_tip7 = {
 	tip = "出擊喵！目標2-4喵！"
 }
 
-_G.pg.gametip.bulin_tip8 = {
+_G.pg.base.gametip.bulin_tip8 = {
 	tip = "去櫻花飄散的校園看看喵！"
 }
 
-_G.pg.gametip.bulin_tip9 = {
+_G.pg.base.gametip.bulin_tip9 = {
 	tip = "沒事多來光顧買點東西喵！"
 }
 
-_G.pg.gametip.bulin_tip_other1 = {
+_G.pg.base.gametip.bulin_tip_other1 = {
 	tip = "是否解鎖提示？20分鐘內只能解鎖一個提示"
 }
 
-_G.pg.gametip.bulin_tip_other2 = {
+_G.pg.base.gametip.bulin_tip_other2 = {
 	tip = "解鎖提示冷卻中"
 }
 
-_G.pg.gametip.bulin_tip_other3 = {
+_G.pg.base.gametip.bulin_tip_other3 = {
 	tip = "是否退出關卡？退出關卡將無法獲得獎勵。"
 }
 
-_G.pg.gametip.monopoly_left_count = {
+_G.pg.base.gametip.monopoly_left_count = {
 	tip = ""
 }
 
-_G.pg.gametip.help_chunjie_monopoly = {
+_G.pg.base.gametip.help_chunjie_monopoly = {
 	tip = {
 		{
 			info = "活動說明："
@@ -12882,23 +12882,23 @@ _G.pg.gametip.help_chunjie_monopoly = {
 	}
 }
 
-_G.pg.gametip.monoply_drop_ship_step = {
+_G.pg.base.gametip.monoply_drop_ship_step = {
 	tip = "$1"
 }
 
-_G.pg.gametip.lanternRiddles_wait_for_reanswer = {
+_G.pg.base.gametip.lanternRiddles_wait_for_reanswer = {
 	tip = "請等待重答時間重新作答"
 }
 
-_G.pg.gametip.lanternRiddles_answer_is_wrong = {
+_G.pg.base.gametip.lanternRiddles_answer_is_wrong = {
 	tip = "很遺憾答錯了，請重新作答~"
 }
 
-_G.pg.gametip.lanternRiddles_answer_is_right = {
+_G.pg.base.gametip.lanternRiddles_answer_is_right = {
 	tip = "恭喜你答對了~"
 }
 
-_G.pg.gametip.lanternRiddles_gametip = {
+_G.pg.base.gametip.lanternRiddles_gametip = {
 	tip = {
 		{
 			info = [[
@@ -12918,67 +12918,67 @@ _G.pg.gametip.lanternRiddles_gametip = {
 	}
 }
 
-_G.pg.gametip.LanternRiddle_wait_time_tip = {
+_G.pg.base.gametip.LanternRiddle_wait_time_tip = {
 	tip = "再次答題時間："
 }
 
-_G.pg.gametip.LinkLinkGame_BestTime = {
+_G.pg.base.gametip.LinkLinkGame_BestTime = {
 	tip = "最佳纪录:"
 }
 
-_G.pg.gametip.LinkLinkGame_CurTime = {
+_G.pg.base.gametip.LinkLinkGame_CurTime = {
 	tip = "当前用时:"
 }
 
-_G.pg.gametip.sort_attribute = {
+_G.pg.base.gametip.sort_attribute = {
 	tip = "屬性"
 }
 
-_G.pg.gametip.sort_intimacy = {
+_G.pg.base.gametip.sort_intimacy = {
 	tip = "好感"
 }
 
-_G.pg.gametip.index_skin = {
+_G.pg.base.gametip.index_skin = {
 	tip = "可換裝"
 }
 
-_G.pg.gametip.index_reform = {
+_G.pg.base.gametip.index_reform = {
 	tip = "可改造"
 }
 
-_G.pg.gametip.index_reform_cw = {
+_G.pg.base.gametip.index_reform_cw = {
 	tip = "可改造"
 }
 
-_G.pg.gametip.index_strengthen = {
+_G.pg.base.gametip.index_strengthen = {
 	tip = "可強化"
 }
 
-_G.pg.gametip.index_special = {
+_G.pg.base.gametip.index_special = {
 	tip = "特殊"
 }
 
-_G.pg.gametip.index_propose_skin = {
+_G.pg.base.gametip.index_propose_skin = {
 	tip = "誓約換裝"
 }
 
-_G.pg.gametip.index_not_obtained = {
+_G.pg.base.gametip.index_not_obtained = {
 	tip = "未獲取"
 }
 
-_G.pg.gametip.index_no_limit = {
+_G.pg.base.gametip.index_no_limit = {
 	tip = "無限制"
 }
 
-_G.pg.gametip.index_awakening = {
+_G.pg.base.gametip.index_awakening = {
 	tip = "<size=36>可認知覺醒</size>"
 }
 
-_G.pg.gametip.index_not_lvmax = {
+_G.pg.base.gametip.index_not_lvmax = {
 	tip = "未滿級"
 }
 
-_G.pg.gametip.decodegame_gametip = {
+_G.pg.base.gametip.decodegame_gametip = {
 	tip = {
 		{
 			info = [[
@@ -13002,75 +13002,75 @@ _G.pg.gametip.decodegame_gametip = {
 	}
 }
 
-_G.pg.gametip.indexsort_sort = {
+_G.pg.base.gametip.indexsort_sort = {
 	tip = "排序"
 }
 
-_G.pg.gametip.indexsort_index = {
+_G.pg.base.gametip.indexsort_index = {
 	tip = "索引"
 }
 
-_G.pg.gametip.indexsort_camp = {
+_G.pg.base.gametip.indexsort_camp = {
 	tip = "陣營"
 }
 
-_G.pg.gametip.indexsort_type = {
+_G.pg.base.gametip.indexsort_type = {
 	tip = "類型"
 }
 
-_G.pg.gametip.indexsort_rarity = {
+_G.pg.base.gametip.indexsort_rarity = {
 	tip = "稀有度"
 }
 
-_G.pg.gametip.indexsort_extraindex = {
+_G.pg.base.gametip.indexsort_extraindex = {
 	tip = "附加索引"
 }
 
-_G.pg.gametip.indexsort_sorteng = {
+_G.pg.base.gametip.indexsort_sorteng = {
 	tip = "SORT"
 }
 
-_G.pg.gametip.indexsort_indexeng = {
+_G.pg.base.gametip.indexsort_indexeng = {
 	tip = "INDEX"
 }
 
-_G.pg.gametip.indexsort_campeng = {
+_G.pg.base.gametip.indexsort_campeng = {
 	tip = "CAMP"
 }
 
-_G.pg.gametip.indexsort_rarityeng = {
+_G.pg.base.gametip.indexsort_rarityeng = {
 	tip = "RARITY"
 }
 
-_G.pg.gametip.indexsort_typeeng = {
+_G.pg.base.gametip.indexsort_typeeng = {
 	tip = "TYPE"
 }
 
-_G.pg.gametip.fightfail_up = {
+_G.pg.base.gametip.fightfail_up = {
 	tip = "是否退出本次戰鬥以前往其他關卡進行戰鬥<color=#92fc63>提升等級</color>？"
 }
 
-_G.pg.gametip.fightfail_equip = {
+_G.pg.base.gametip.fightfail_equip = {
 	tip = "是否退出本次戰鬥並前往船塢進行<color=#92fc63>裝備強化</color>？"
 }
 
-_G.pg.gametip.fight_strengthen = {
+_G.pg.base.gametip.fight_strengthen = {
 	tip = "是否退出本次戰鬥並前往船塢進行<color=#92fc63>強化和突破</color>？"
 }
 
-_G.pg.gametip.fightfail_noequip = {
+_G.pg.base.gametip.fightfail_noequip = {
 	tip = "當前沒有裝備任何裝備，無法強化"
 }
 
-_G.pg.gametip.fightfail_choiceequip = {
+_G.pg.base.gametip.fightfail_choiceequip = {
 	tip = "請點擊出擊艦船以對其進行<color=#92fc63>裝備強化</color>"
 }
 
-_G.pg.gametip.fightfail_choicestrengthen = {
+_G.pg.base.gametip.fightfail_choicestrengthen = {
 	tip = "請點擊出擊艦船以對其進行<color=#92fc63>強化和突破</color>"
 }
 
-_G.pg.gametip.sofmap_attention = {
+_G.pg.base.gametip.sofmap_attention = {
 	tip = {
 		{
 			info = "通關下列指定關卡會獲得不同數量<color=#92fc63>「明石的禮品券」</color>\n 1.三章及以後的普通主線海域\n 2.活動關卡SP1、SP2、SP3"
@@ -13078,27 +13078,27 @@ _G.pg.gametip.sofmap_attention = {
 	}
 }
 
-_G.pg.gametip.sofmapsd_1 = {
+_G.pg.base.gametip.sofmapsd_1 = {
 	tip = "呼喵？！準備好的禮品券丟了喵！\n指揮官，快幫幫{namecode:98}喵！"
 }
 
-_G.pg.gametip.sofmapsd_2 = {
+_G.pg.base.gametip.sofmapsd_2 = {
 	tip = "快幫{namecode:98}投放禮品券喵！\n會給指揮官報酬的喵！"
 }
 
-_G.pg.gametip.sofmapsd_3 = {
+_G.pg.base.gametip.sofmapsd_3 = {
 	tip = "呼喵！營業額提升了喵！\n感謝指揮官喵！"
 }
 
-_G.pg.gametip.sofmapsd_4 = {
+_G.pg.base.gametip.sofmapsd_4 = {
 	tip = "營業額目標達成喵！\n感謝指揮官喵！"
 }
 
-_G.pg.gametip.inform_level_limit = {
+_G.pg.base.gametip.inform_level_limit = {
 	tip = "檢舉將在指揮官等級達到20級後開放"
 }
 
-_G.pg.gametip["3match_tip"] = {
+_G.pg.base.gametip["3match_tip"] = {
 	tip = {
 		{
 			icon = {
@@ -13136,67 +13136,67 @@ _G.pg.gametip["3match_tip"] = {
 	}
 }
 
-_G.pg.gametip.retire_selectzero = {
+_G.pg.base.gametip.retire_selectzero = {
 	tip = "沒找到符合條件的艦船"
 }
 
-_G.pg.gametip.undermist_tip = {
+_G.pg.base.gametip.undermist_tip = {
 	tip = "當前任務已完成，請等待明日解鎖"
 }
 
-_G.pg.gametip.retire_1 = {
+_G.pg.base.gametip.retire_1 = {
 	tip = "<color=#92fc63>「擁有」</color>滿星的同名艦船時，保留幾艘<color=#92fc63>符合退役條件</color>的同名艦船"
 }
 
-_G.pg.gametip.retire_2 = {
+_G.pg.base.gametip.retire_2 = {
 	tip = "<color=#ff5c5c>「沒有」</color>滿星的同名艦船時，保留幾艘<color=#92fc63>符合退役條件</color>的同名艦船"
 }
 
-_G.pg.gametip.retire_3 = {
+_G.pg.base.gametip.retire_3 = {
 	tip = "僅選擇LV.1的艦船"
 }
 
-_G.pg.gametip.retire_rarity = {
+_G.pg.base.gametip.retire_rarity = {
 	tip = "選擇優先順序$1"
 }
 
-_G.pg.gametip.retire_title = {
+_G.pg.base.gametip.retire_title = {
 	tip = "一鍵退役設置"
 }
 
-_G.pg.gametip.res_unlock_tip = {
+_G.pg.base.gametip.res_unlock_tip = {
 	tip = "消耗以下材料完成解鎖"
 }
 
-_G.pg.gametip.res_wifi_tip = {
+_G.pg.base.gametip.res_wifi_tip = {
 	tip = "正在使用非WIFI網路，下載可能產生流量，是否繼續下載?"
 }
 
-_G.pg.gametip.res_downloading = {
+_G.pg.base.gametip.res_downloading = {
 	tip = "下載中"
 }
 
-_G.pg.gametip.res_pic_new_tip = {
+_G.pg.base.gametip.res_pic_new_tip = {
 	tip = "本次更新新增了$1張插畫，快來看看吧"
 }
 
-_G.pg.gametip.res_music_no_pre_tip = {
+_G.pg.base.gametip.res_music_no_pre_tip = {
 	tip = "沒有前一首了"
 }
 
-_G.pg.gametip.res_music_no_next_tip = {
+_G.pg.base.gametip.res_music_no_next_tip = {
 	tip = "沒有下一首了"
 }
 
-_G.pg.gametip.res_music_new_tip = {
+_G.pg.base.gametip.res_music_new_tip = {
 	tip = "本次更新新增了$1首音樂，快來看看吧"
 }
 
-_G.pg.gametip.apple_link_title = {
+_G.pg.base.gametip.apple_link_title = {
 	tip = "連携中のアカウント完了"
 }
 
-_G.pg.gametip.retire_setting_help = {
+_G.pg.base.gametip.retire_setting_help = {
 	tip = {
 		{
 			info = [[
@@ -13214,35 +13214,35 @@ _G.pg.gametip.retire_setting_help = {
 	}
 }
 
-_G.pg.gametip.activity_shop_exchange_count = {
+_G.pg.base.gametip.activity_shop_exchange_count = {
 	tip = "可兌換次數"
 }
 
-_G.pg.gametip.shops_msgbox_exchange_count = {
+_G.pg.base.gametip.shops_msgbox_exchange_count = {
 	tip = "兌換數量:"
 }
 
-_G.pg.gametip.shops_msgbox_output = {
+_G.pg.base.gametip.shops_msgbox_output = {
 	tip = "將獲得："
 }
 
-_G.pg.gametip.shop_word_exchange = {
+_G.pg.base.gametip.shop_word_exchange = {
 	tip = "兌 換"
 }
 
-_G.pg.gametip.shop_word_cancel = {
+_G.pg.base.gametip.shop_word_cancel = {
 	tip = "取 消"
 }
 
-_G.pg.gametip.title_item_ways = {
+_G.pg.base.gametip.title_item_ways = {
 	tip = "指揮官可通過以下途徑獲取<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.item_lack_title = {
+_G.pg.base.gametip.item_lack_title = {
 	tip = "<color=#92fc63>$1</color>不足， 可通過以下方式獲取<color=#92fc63>$1</color>"
 }
 
-_G.pg.gametip.oil_buy_tip_2 = {
+_G.pg.base.gametip.oil_buy_tip_2 = {
 	tip = [[
 石油不足，是否<size=30>花費</size><icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size> 購買<size=30><color=#92fc63>$2</color></size><size=30> 石油</size><size=28>
 當前還需要<size=28><color=#ff5c5c>$4 </color></size>石油
@@ -13250,63 +13250,63 @@ _G.pg.gametip.oil_buy_tip_2 = {
 </size><size=28><color=#a2a2a2>( 今日已經購買<size=28><color=#ff5c5c>$3</color></size> 次)</color></size>]]
 }
 
-_G.pg.gametip.target_chapter_is_lock = {
+_G.pg.base.gametip.target_chapter_is_lock = {
 	tip = "目標章節當前未解鎖"
 }
 
-_G.pg.gametip.ship_book = {
+_G.pg.base.gametip.ship_book = {
 	tip = "<color=#92fc63>教材</color>"
 }
 
-_G.pg.gametip.month_sign_resign = {
+_G.pg.base.gametip.month_sign_resign = {
 	tip = "由於4月4日全港區停服，為指揮官補發一日簽到獎勵"
 }
 
-_G.pg.gametip.collect_tip = {
+_G.pg.base.gametip.collect_tip = {
 	tip = "隊伍中有角色正在出征，無法加入委託陣容"
 }
 
-_G.pg.gametip.collect_tip2 = {
+_G.pg.base.gametip.collect_tip2 = {
 	tip = "隊伍中有角色正處於編隊，無法加入委託陣容"
 }
 
-_G.pg.gametip.word_weakness = {
+_G.pg.base.gametip.word_weakness = {
 	tip = "受損"
 }
 
-_G.pg.gametip.special_operation_tip1 = {
+_G.pg.base.gametip.special_operation_tip1 = {
 	tip = "當前關卡無法使用"
 }
 
-_G.pg.gametip.special_operation_tip2 = {
+_G.pg.base.gametip.special_operation_tip2 = {
 	tip = "您沒有特別作戰道具"
 }
 
-_G.pg.gametip.special_operation_type1 = {
+_G.pg.base.gametip.special_operation_type1 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.special_operation_type2 = {
+_G.pg.base.gametip.special_operation_type2 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.special_operation_type3 = {
+_G.pg.base.gametip.special_operation_type3 = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.area_lock = {
+_G.pg.base.gametip.area_lock = {
 	tip = "該處海域尚未解鎖"
 }
 
-_G.pg.gametip.equipment_upgrade_equipped_tag = {
+_G.pg.base.gametip.equipment_upgrade_equipped_tag = {
 	tip = "裝備中："
 }
 
-_G.pg.gametip.equipment_upgrade_spare_tag = {
+_G.pg.base.gametip.equipment_upgrade_spare_tag = {
 	tip = "倉庫中："
 }
 
-_G.pg.gametip.equipment_upgrade_help = {
+_G.pg.base.gametip.equipment_upgrade_help = {
 	tip = {
 		{
 			info = "<color=#ffde38>裝備研發系統說明：</color>\n"
@@ -13329,59 +13329,59 @@ _G.pg.gametip.equipment_upgrade_help = {
 	}
 }
 
-_G.pg.gametip.equipment_upgrade_title = {
+_G.pg.base.gametip.equipment_upgrade_title = {
 	tip = "裝備研發"
 }
 
-_G.pg.gametip.equipment_upgrade_coin_consume = {
+_G.pg.base.gametip.equipment_upgrade_coin_consume = {
 	tip = "消耗物資"
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_source_chosen = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_source_chosen = {
 	tip = "請選擇裝備"
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_materials_consume = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_materials_consume = {
 	tip = "需要消耗如下材料"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_materials = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_materials = {
 	tip = "材料不足"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_equipment_consume = {
+_G.pg.base.gametip.equipment_upgrade_feedback_equipment_consume = {
 	tip = "此次研發將消耗<color=#92fc63>$1</color>裝備中的<color=#92fc63>$2</color>"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
+_G.pg.base.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
 	tip = "素材裝備不足，素材裝備可通過研發系統獲取"
 }
 
-_G.pg.gametip.equipment_upgrade_quick_interface_feedback_source_chosen = {
+_G.pg.base.gametip.equipment_upgrade_quick_interface_feedback_source_chosen = {
 	tip = "請選擇裝備"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_lack_of_equipment = {
+_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_equipment = {
 	tip = "素材裝備不足"
 }
 
-_G.pg.gametip.equipment_upgrade_equipped_unavailable = {
+_G.pg.base.gametip.equipment_upgrade_equipped_unavailable = {
 	tip = "<color=#92fc63>$1</color>無法裝備<color=#92fc63>$2</color>，已進入倉庫"
 }
 
-_G.pg.gametip.equipment_upgrade_initial_node = {
+_G.pg.base.gametip.equipment_upgrade_initial_node = {
 	tip = "此裝備不可由通過裝備研發獲取"
 }
 
-_G.pg.gametip.equipment_upgrade_feedback_compose_tip = {
+_G.pg.base.gametip.equipment_upgrade_feedback_compose_tip = {
 	tip = "選擇裝備設計圖進行裝備改造，將會額外消耗對應設計圖合成所需的物資，是否確認？"
 }
 
-_G.pg.gametip.discount_coupon_tip = {
+_G.pg.base.gametip.discount_coupon_tip = {
 	tip = "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
 }
 
-_G.pg.gametip.pizzahut_help = {
+_G.pg.base.gametip.pizzahut_help = {
 	tip = {
 		{
 			info = [[
@@ -13394,7 +13394,7 @@ _G.pg.gametip.pizzahut_help = {
 	}
 }
 
-_G.pg.gametip.towerclimbing_gametip = {
+_G.pg.base.gametip.towerclimbing_gametip = {
 	tip = {
 		{
 			info = [[
@@ -13423,7 +13423,7 @@ _G.pg.gametip.towerclimbing_gametip = {
 	}
 }
 
-_G.pg.gametip.qingdianguangchang_help = {
+_G.pg.base.gametip.qingdianguangchang_help = {
 	tip = {
 		{
 			info = [[
@@ -13444,19 +13444,19 @@ _G.pg.gametip.qingdianguangchang_help = {
 	}
 }
 
-_G.pg.gametip.building_tip = {
+_G.pg.base.gametip.building_tip = {
 	tip = "升級所需材料不足"
 }
 
-_G.pg.gametip.building_upgrade_tip = {
+_G.pg.base.gametip.building_upgrade_tip = {
 	tip = "是否升級？升級會消耗對應材料"
 }
 
-_G.pg.gametip.msgbox_text_upgrade = {
+_G.pg.base.gametip.msgbox_text_upgrade = {
 	tip = "升 級"
 }
 
-_G.pg.gametip.towerclimbing_sign_help = {
+_G.pg.base.gametip.towerclimbing_sign_help = {
 	tip = {
 		{
 			info = [[
@@ -13476,59 +13476,59 @@ _G.pg.gametip.towerclimbing_sign_help = {
 	}
 }
 
-_G.pg.gametip.building_complete_tip = {
+_G.pg.base.gametip.building_complete_tip = {
 	tip = "升級完成"
 }
 
-_G.pg.gametip.backyard_theme_refresh_time_tip = {
+_G.pg.base.gametip.backyard_theme_refresh_time_tip = {
 	tip = "请勿频繁刷新"
 }
 
-_G.pg.gametip.backyard_theme_total_print = {
+_G.pg.base.gametip.backyard_theme_total_print = {
 	tip = "總價"
 }
 
-_G.pg.gametip.backyard_theme_word_buy = {
+_G.pg.base.gametip.backyard_theme_word_buy = {
 	tip = "购买"
 }
 
-_G.pg.gametip.backyard_theme_word_apply = {
+_G.pg.base.gametip.backyard_theme_word_apply = {
 	tip = "布置"
 }
 
-_G.pg.gametip.backyard_theme_apply_success = {
+_G.pg.base.gametip.backyard_theme_apply_success = {
 	tip = "布置成功"
 }
 
-_G.pg.gametip.words_visit_backyard_toggle = {
+_G.pg.base.gametip.words_visit_backyard_toggle = {
 	tip = "允許好友拜訪後宅"
 }
 
-_G.pg.gametip.words_show_friend_backyardship_toggle = {
+_G.pg.base.gametip.words_show_friend_backyardship_toggle = {
 	tip = "顯示他人拜訪痕跡"
 }
 
-_G.pg.gametip.words_show_my_backyardship_toggle = {
+_G.pg.base.gametip.words_show_my_backyardship_toggle = {
 	tip = "顯示我的拜訪痕跡"
 }
 
-_G.pg.gametip.option_desc7 = {
+_G.pg.base.gametip.option_desc7 = {
 	tip = "功能開啟後，允許我的好友來我的後宅拜訪"
 }
 
-_G.pg.gametip.option_desc8 = {
+_G.pg.base.gametip.option_desc8 = {
 	tip = "功能開啟後，好友來拜訪我的後宅後，會在我的後宅顯示該好友的秘書艦"
 }
 
-_G.pg.gametip.option_desc9 = {
+_G.pg.base.gametip.option_desc9 = {
 	tip = "功能開啟後，我拜訪好友的後宅後，會在好友的後宅顯示我的秘書艦"
 }
 
-_G.pg.gametip.backyard_unopen = {
+_G.pg.base.gametip.backyard_unopen = {
 	tip = "後宅未開放"
 }
 
-_G.pg.gametip.help_monopoly_car = {
+_G.pg.base.gametip.help_monopoly_car = {
 	tip = {
 		{
 			info = "活動說明："
@@ -13592,7 +13592,7 @@ _G.pg.gametip.help_monopoly_car = {
 	}
 }
 
-_G.pg.gametip.help_monopoly_3th = {
+_G.pg.base.gametip.help_monopoly_3th = {
 	tip = {
 		{
 			info = "活動時間：<color=#92fc63>2022.1.27-2022.2.10</color>"
@@ -13665,283 +13665,283 @@ _G.pg.gametip.help_monopoly_3th = {
 	}
 }
 
-_G.pg.gametip.backYard_missing_furnitrue_tip = {
+_G.pg.base.gametip.backYard_missing_furnitrue_tip = {
 	tip = "缺少以下傢俱"
 }
 
-_G.pg.gametip.win_condition_display_qijian = {
+_G.pg.base.gametip.win_condition_display_qijian = {
 	tip = "擊破敵方旗艦"
 }
 
-_G.pg.gametip.win_condition_display_qijian_tip = {
+_G.pg.base.gametip.win_condition_display_qijian_tip = {
 	tip = "BOSS擊破，關卡攻略完成"
 }
 
-_G.pg.gametip.win_condition_display_shangchuan = {
+_G.pg.base.gametip.win_condition_display_shangchuan = {
 	tip = "商船抵達指定位置"
 }
 
-_G.pg.gametip.win_condition_display_shangchuan_tip = {
+_G.pg.base.gametip.win_condition_display_shangchuan_tip = {
 	tip = "運輸船抵達終點，護航成功"
 }
 
-_G.pg.gametip.win_condition_display_judian = {
+_G.pg.base.gametip.win_condition_display_judian = {
 	tip = "擊破敵方所有據點"
 }
 
-_G.pg.gametip.win_condition_display_tuoli = {
+_G.pg.base.gametip.win_condition_display_tuoli = {
 	tip = "任意艦隊到達脫離點"
 }
 
-_G.pg.gametip.win_condition_display_tuoli_tip = {
+_G.pg.base.gametip.win_condition_display_tuoli_tip = {
 	tip = "成功到達脫離點，關卡攻略完成"
 }
 
-_G.pg.gametip.lose_condition_display_quanmie = {
+_G.pg.base.gametip.lose_condition_display_quanmie = {
 	tip = "我方艦隊全滅"
 }
 
-_G.pg.gametip.lose_condition_display_gangqu = {
+_G.pg.base.gametip.lose_condition_display_gangqu = {
 	tip = "我方艦隊全滅/港區血量低於0"
 }
 
-_G.pg.gametip.re_battle = {
+_G.pg.base.gametip.re_battle = {
 	tip = "再次挑戰"
 }
 
-_G.pg.gametip.keep_fate_tip = {
+_G.pg.base.gametip.keep_fate_tip = {
 	tip = "保留<color=#92fc63>天運擬合</color>所需藍圖"
 }
 
-_G.pg.gametip.equip_info_1 = {
+_G.pg.base.gametip.equip_info_1 = {
 	tip = "傷害"
 }
 
-_G.pg.gametip.equip_info_2 = {
+_G.pg.base.gametip.equip_info_2 = {
 	tip = "標準射速"
 }
 
-_G.pg.gametip.equip_info_3 = {
+_G.pg.base.gametip.equip_info_3 = {
 	tip = "射速"
 }
 
-_G.pg.gametip.equip_info_4 = {
+_G.pg.base.gametip.equip_info_4 = {
 	tip = "技能"
 }
 
-_G.pg.gametip.equip_info_5 = {
+_G.pg.base.gametip.equip_info_5 = {
 	tip = "彈藥"
 }
 
-_G.pg.gametip.equip_info_6 = {
+_G.pg.base.gametip.equip_info_6 = {
 	tip = "飛行速度"
 }
 
-_G.pg.gametip.equip_info_7 = {
+_G.pg.base.gametip.equip_info_7 = {
 	tip = "魚雷航速"
 }
 
-_G.pg.gametip.equip_info_8 = {
+_G.pg.base.gametip.equip_info_8 = {
 	tip = "對甲比例"
 }
 
-_G.pg.gametip.equip_info_9 = {
+_G.pg.base.gametip.equip_info_9 = {
 	tip = "傷害範圍"
 }
 
-_G.pg.gametip.equip_info_10 = {
+_G.pg.base.gametip.equip_info_10 = {
 	tip = "機槍射程"
 }
 
-_G.pg.gametip.equip_info_11 = {
+_G.pg.base.gametip.equip_info_11 = {
 	tip = "機槍射角"
 }
 
-_G.pg.gametip.equip_info_12 = {
+_G.pg.base.gametip.equip_info_12 = {
 	tip = "散佈範圍"
 }
 
-_G.pg.gametip.equip_info_13 = {
+_G.pg.base.gametip.equip_info_13 = {
 	tip = "特性"
 }
 
-_G.pg.gametip.equip_info_14 = {
+_G.pg.base.gametip.equip_info_14 = {
 	tip = "裝備參數"
 }
 
-_G.pg.gametip.equip_info_15 = {
+_G.pg.base.gametip.equip_info_15 = {
 	tip = "索敵範圍"
 }
 
-_G.pg.gametip.equip_info_16 = {
+_G.pg.base.gametip.equip_info_16 = {
 	tip = "索敵角度"
 }
 
-_G.pg.gametip.equip_info_17 = {
+_G.pg.base.gametip.equip_info_17 = {
 	tip = "彈藥射程"
 }
 
-_G.pg.gametip.equip_info_18 = {
+_G.pg.base.gametip.equip_info_18 = {
 	tip = "散佈角度"
 }
 
-_G.pg.gametip.equip_info_19 = {
+_G.pg.base.gametip.equip_info_19 = {
 	tip = "所屬陣營"
 }
 
-_G.pg.gametip.equip_info_20 = {
+_G.pg.base.gametip.equip_info_20 = {
 	tip = "艦載機航速"
 }
 
-_G.pg.gametip.equip_info_21 = {
+_G.pg.base.gametip.equip_info_21 = {
 	tip = "艦載機耐久"
 }
 
-_G.pg.gametip.equip_info_22 = {
+_G.pg.base.gametip.equip_info_22 = {
 	tip = "艦載機迴避上限"
 }
 
-_G.pg.gametip.equip_info_23 = {
+_G.pg.base.gametip.equip_info_23 = {
 	tip = "適用艦種"
 }
 
-_G.pg.gametip.equip_info_24 = {
+_G.pg.base.gametip.equip_info_24 = {
 	tip = "掛載武器"
 }
 
-_G.pg.gametip.equip_info_25 = {
+_G.pg.base.gametip.equip_info_25 = {
 	tip = "無"
 }
 
-_G.pg.gametip.equip_info_26 = {
+_G.pg.base.gametip.equip_info_26 = {
 	tip = "技能更換為"
 }
 
-_G.pg.gametip.equip_info_27 = {
+_G.pg.base.gametip.equip_info_27 = {
 	tip = ""
 }
 
-_G.pg.gametip.equip_info_28 = {
+_G.pg.base.gametip.equip_info_28 = {
 	tip = "傷害修正比例"
 }
 
-_G.pg.gametip.equip_info_29 = {
+_G.pg.base.gametip.equip_info_29 = {
 	tip = "傷害屬性類型"
 }
 
-_G.pg.gametip.equip_info_30 = {
+_G.pg.base.gametip.equip_info_30 = {
 	tip = "屬性效率"
 }
 
-_G.pg.gametip.equip_info_31 = {
+_G.pg.base.gametip.equip_info_31 = {
 	tip = "空襲"
 }
 
-_G.pg.gametip.equip_info_extralevel_0 = {
+_G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "等級0"
 }
 
-_G.pg.gametip.equip_info_extralevel_1 = {
+_G.pg.base.gametip.equip_info_extralevel_1 = {
 	tip = "等級1"
 }
 
-_G.pg.gametip.equip_info_extralevel_2 = {
+_G.pg.base.gametip.equip_info_extralevel_2 = {
 	tip = "等級2"
 }
 
-_G.pg.gametip.equip_info_extralevel_3 = {
+_G.pg.base.gametip.equip_info_extralevel_3 = {
 	tip = "等級3"
 }
 
-_G.pg.gametip.tec_settings_btn_word = {
+_G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "研發選項"
 }
 
-_G.pg.gametip.tec_tendency_0 = {
+_G.pg.base.gametip.tec_tendency_0 = {
 	tip = "無傾向"
 }
 
-_G.pg.gametip.tec_tendency_1 = {
+_G.pg.base.gametip.tec_tendency_1 = {
 	tip = "科研一期"
 }
 
-_G.pg.gametip.tec_tendency_2 = {
+_G.pg.base.gametip.tec_tendency_2 = {
 	tip = "科研二期"
 }
 
-_G.pg.gametip.tec_tendency_3 = {
+_G.pg.base.gametip.tec_tendency_3 = {
 	tip = "科研三期"
 }
 
-_G.pg.gametip.tec_tendency_cur_0 = {
+_G.pg.base.gametip.tec_tendency_cur_0 = {
 	tip = "科研傾向 / 無傾向"
 }
 
-_G.pg.gametip.tec_tendency_cur_1 = {
+_G.pg.base.gametip.tec_tendency_cur_1 = {
 	tip = "科研傾向 / 一期"
 }
 
-_G.pg.gametip.tec_tendency_cur_2 = {
+_G.pg.base.gametip.tec_tendency_cur_2 = {
 	tip = "科研傾向 / 二期"
 }
 
-_G.pg.gametip.tec_tendency_cur_3 = {
+_G.pg.base.gametip.tec_tendency_cur_3 = {
 	tip = "科研傾向 / 三期"
 }
 
-_G.pg.gametip.tec_target_catchup_none = {
+_G.pg.base.gametip.tec_target_catchup_none = {
 	tip = "定向追趕 / 未選擇"
 }
 
-_G.pg.gametip.tec_target_catchup_selected = {
+_G.pg.base.gametip.tec_target_catchup_selected = {
 	tip = "定向追趕"
 }
 
-_G.pg.gametip.tec_target_catchup_none_1 = {
+_G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "定向追趕:一期/未選"
 }
 
-_G.pg.gametip.tec_target_catchup_selected_1 = {
+_G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "定向追趕:一期/進行"
 }
 
-_G.pg.gametip.tec_target_catchup_finish_1 = {
+_G.pg.base.gametip.tec_target_catchup_finish_1 = {
 	tip = "定向追趕:一期/完成"
 }
 
-_G.pg.gametip.tec_target_catchup_dr_finish_tip = {
+_G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
 	tip = "已完成"
 }
 
-_G.pg.gametip.tec_target_catchup_all_finish_tip = {
+_G.pg.base.gametip.tec_target_catchup_all_finish_tip = {
 	tip = "定向追趕已完成"
 }
 
-_G.pg.gametip.tec_target_catchup_show_the_finished_version = {
+_G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
 	tip = "顯示已完成的科研追趕版本"
 }
 
-_G.pg.gametip.tec_target_catchup_pry_char = {
+_G.pg.base.gametip.tec_target_catchup_pry_char = {
 	tip = "最高方案"
 }
 
-_G.pg.gametip.tec_target_catchup_dr_char = {
+_G.pg.base.gametip.tec_target_catchup_dr_char = {
 	tip = "決戰方案"
 }
 
-_G.pg.gametip.tec_target_need_print = {
+_G.pg.base.gametip.tec_target_need_print = {
 	tip = "需求藍圖"
 }
 
-_G.pg.gametip.tec_target_catchup_progress = {
+_G.pg.base.gametip.tec_target_catchup_progress = {
 	tip = "追趕進度"
 }
 
-_G.pg.gametip.tec_target_catchup_select_tip = {
+_G.pg.base.gametip.tec_target_catchup_select_tip = {
 	tip = "是否要選擇該科研角色:$1?"
 }
 
-_G.pg.gametip.tec_target_catchup_help_tip = {
+_G.pg.base.gametip.tec_target_catchup_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -13957,127 +13957,127 @@ _G.pg.gametip.tec_target_catchup_help_tip = {
 	}
 }
 
-_G.pg.gametip.tec_speedup_title = {
+_G.pg.base.gametip.tec_speedup_title = {
 	tip = "研發加速"
 }
 
-_G.pg.gametip.tec_speedup_progress = {
+_G.pg.base.gametip.tec_speedup_progress = {
 	tip = "$1萬/$2萬"
 }
 
-_G.pg.gametip.tec_speedup_overflow = {
+_G.pg.base.gametip.tec_speedup_overflow = {
 	tip = "使用測試數據將溢出$1點經驗，是否確認繼續使用？"
 }
 
-_G.pg.gametip.tec_speedup_help_tip = {
+_G.pg.base.gametip.tec_speedup_help_tip = {
 	tip = "在研發加速功能中，可以將科研測試數據轉化為技術測試所需經驗，科研測試數據可以從研發加速任務獲得"
 }
 
-_G.pg.gametip.click_back_tip = {
+_G.pg.base.gametip.click_back_tip = {
 	tip = "點擊空白處返回"
 }
 
-_G.pg.gametip.tec_act_catchup_btn_word = {
+_G.pg.base.gametip.tec_act_catchup_btn_word = {
 	tip = "藍圖補完"
 }
 
-_G.pg.gametip.tec_catchup_errorfix = {
+_G.pg.base.gametip.tec_catchup_errorfix = {
 	tip = "由於「新兵訓練」中「科研任務·一期」存在完成後刷新異常的問題。公平起見，第一次完成「科研任務·一期」任務後，將自動重置一次一期的任務，確保所有指揮官都能完成兩輪「科研任務·一期」。"
 }
 
-_G.pg.gametip.guild_duty_is_too_low = {
+_G.pg.base.gametip.guild_duty_is_too_low = {
 	tip = "見習成員無法領取獎勵"
 }
 
-_G.pg.gametip.guild_trainee_duty_change_tip = {
+_G.pg.base.gametip.guild_trainee_duty_change_tip = {
 	tip = "見習成員無法變更職位"
 }
 
-_G.pg.gametip.guild_not_exist_donate_task = {
+_G.pg.base.gametip.guild_not_exist_donate_task = {
 	tip = "不存在該任務"
 }
 
-_G.pg.gametip.guild_week_task_state_is_wrong = {
+_G.pg.base.gametip.guild_week_task_state_is_wrong = {
 	tip = "大艦隊任務狀態不正確"
 }
 
-_G.pg.gametip.guild_get_week_done = {
+_G.pg.base.gametip.guild_get_week_done = {
 	tip = "新的大艦隊任務已領取"
 }
 
-_G.pg.gametip.guild_public_awards = {
+_G.pg.base.gametip.guild_public_awards = {
 	tip = "大艦隊獎勵："
 }
 
-_G.pg.gametip.guild_private_awards = {
+_G.pg.base.gametip.guild_private_awards = {
 	tip = "成員獎勵："
 }
 
-_G.pg.gametip.guild_task_selecte_tip = {
+_G.pg.base.gametip.guild_task_selecte_tip = {
 	tip = "正在領取【$1】，確認領取後，當周無法更換為其他任務，是否確定？"
 }
 
-_G.pg.gametip.guild_task_accept = {
+_G.pg.base.gametip.guild_task_accept = {
 	tip = "正在領取【$1】的【$2】，本週已經獲得過個人獎勵，重複進行【$3】無法再次獲得艦隊幣獎勵，但依然可以累積大艦隊任務完成次數，是否確認領取？"
 }
 
-_G.pg.gametip.guild_commander_and_sub_op = {
+_G.pg.base.gametip.guild_commander_and_sub_op = {
 	tip = "大艦隊司令或者副司令才能進行此操作"
 }
 
-_G.pg.gametip["guild_donate_times_not enough"] = {
+_G.pg.base.gametip["guild_donate_times_not enough"] = {
 	tip = "今日籌備次數已用完"
 }
 
-_G.pg.gametip.guild_donate_success = {
+_G.pg.base.gametip.guild_donate_success = {
 	tip = "軍需籌備完成"
 }
 
-_G.pg.gametip.guild_left_donate_cnt = {
+_G.pg.base.gametip.guild_left_donate_cnt = {
 	tip = "今日可完成：$1次"
 }
 
-_G.pg.gametip.guild_donate_tip = {
+_G.pg.base.gametip.guild_donate_tip = {
 	tip = "即將提交<color=#92FC63FF>$1$2</color>個(目前擁有<color=$4>$3</color>個)，為大艦隊提供後勤補給，是否確定？"
 }
 
-_G.pg.gametip.guild_donate_addition_capital_tip = {
+_G.pg.base.gametip.guild_donate_addition_capital_tip = {
 	tip = "大艦隊資金增加$1"
 }
 
-_G.pg.gametip.guild_donate_addition_techpoint_tip = {
+_G.pg.base.gametip.guild_donate_addition_techpoint_tip = {
 	tip = "籌備進度增加$1"
 }
 
-_G.pg.gametip.guild_donate_capital_toplimit = {
+_G.pg.base.gametip.guild_donate_capital_toplimit = {
 	tip = "本日軍需籌備可獲取的大艦隊資金已達到上限，無法繼續獲取"
 }
 
-_G.pg.gametip.guild_donate_techpoint_toplimit = {
+_G.pg.base.gametip.guild_donate_techpoint_toplimit = {
 	tip = "本日軍需籌備可獲取的籌備進度已達到上限，無法繼續獲取"
 }
 
-_G.pg.gametip.guild_supply_no_open = {
+_G.pg.base.gametip.guild_supply_no_open = {
 	tip = "大艦隊補給未開啟"
 }
 
-_G.pg.gametip.guild_supply_award_got = {
+_G.pg.base.gametip.guild_supply_award_got = {
 	tip = "大艦隊補給已領取"
 }
 
-_G.pg.gametip.guild_new_member_get_award_tip = {
+_G.pg.base.gametip.guild_new_member_get_award_tip = {
 	tip = "新成員進入大艦隊當日無法領取大艦隊補給"
 }
 
-_G.pg.gametip.guild_start_supply_consume_tip = {
+_G.pg.base.gametip.guild_start_supply_consume_tip = {
 	tip = "是否花費$1大艦隊資金開啟大艦隊補給?\n<color=#c5cfdf>※大艦隊補給：所有大艦隊成員每天可領取一份補給獎勵，持續14天</color>"
 }
 
-_G.pg.gametip.guild_left_supply_day = {
+_G.pg.base.gametip.guild_left_supply_day = {
 	tip = "剩餘$1天"
 }
 
-_G.pg.gametip.guild_supply_help_tip = {
+_G.pg.base.gametip.guild_supply_help_tip = {
 	tip = {
 		{
 			info = "指揮部派發的補給包，必定可獲得以下道具"
@@ -14106,495 +14106,495 @@ _G.pg.gametip.guild_supply_help_tip = {
 	}
 }
 
-_G.pg.gametip.guild_op_only_administrator = {
+_G.pg.base.gametip.guild_op_only_administrator = {
 	tip = "大艦隊司令或者副司令才能進行此操作"
 }
 
-_G.pg.gametip.guild_shop_refresh_done = {
+_G.pg.base.gametip.guild_shop_refresh_done = {
 	tip = "刷新成功"
 }
 
-_G.pg.gametip.guild_shop_cnt_no_enough = {
+_G.pg.base.gametip.guild_shop_cnt_no_enough = {
 	tip = "數量不足"
 }
 
-_G.pg.gametip.guild_shop_refresh_all_tip = {
+_G.pg.base.gametip.guild_shop_refresh_all_tip = {
 	tip = "是否花費$1<color=#92fc63>$2</color>刷新商品列表"
 }
 
-_G.pg.gametip.guild_shop_exchange_tip = {
+_G.pg.base.gametip.guild_shop_exchange_tip = {
 	tip = "確認兌換該商品"
 }
 
-_G.pg.gametip.guild_shop_label_1 = {
+_G.pg.base.gametip.guild_shop_label_1 = {
 	tip = "請選擇需要兌換的商品："
 }
 
-_G.pg.gametip.guild_shop_label_2 = {
+_G.pg.base.gametip.guild_shop_label_2 = {
 	tip = "可兌換上限"
 }
 
-_G.pg.gametip.guild_shop_label_3 = {
+_G.pg.base.gametip.guild_shop_label_3 = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.guild_shop_label_4 = {
+_G.pg.base.gametip.guild_shop_label_4 = {
 	tip = "消耗"
 }
 
-_G.pg.gametip.guild_shop_label_5 = {
+_G.pg.base.gametip.guild_shop_label_5 = {
 	tip = "請選擇想要兌換的角色："
 }
 
-_G.pg.gametip.guild_shop_must_select_goods = {
+_G.pg.base.gametip.guild_shop_must_select_goods = {
 	tip = "請選擇需要兌換的商品："
 }
 
-_G.pg.gametip.guild_not_exist_activation_tech = {
+_G.pg.base.gametip.guild_not_exist_activation_tech = {
 	tip = "當前沒有正在進行研發的艦隊科技"
 }
 
-_G.pg.gametip.guild_not_exist_tech = {
+_G.pg.base.gametip.guild_not_exist_tech = {
 	tip = "不存在該艦隊科技"
 }
 
-_G.pg.gametip.guild_cancel_only_once_pre_day = {
+_G.pg.base.gametip.guild_cancel_only_once_pre_day = {
 	tip = "艦隊科技研發每天只能取消一次"
 }
 
-_G.pg.gametip.guild_tech_is_max_level = {
+_G.pg.base.gametip.guild_tech_is_max_level = {
 	tip = "艦隊科技等級已達到上限"
 }
 
-_G.pg.gametip.guild_tech_gold_no_enough = {
+_G.pg.base.gametip.guild_tech_gold_no_enough = {
 	tip = "物資不足，無法學習該艦隊科技"
 }
 
-_G.pg.gametip.guild_tech_guildgold_no_enough = {
+_G.pg.base.gametip.guild_tech_guildgold_no_enough = {
 	tip = "艦隊幣不足，無法學習該艦隊科技"
 }
 
-_G.pg.gametip.guild_tech_upgrade_done = {
+_G.pg.base.gametip.guild_tech_upgrade_done = {
 	tip = "艦隊科技學習成功，等級提升"
 }
 
-_G.pg.gametip.guild_exist_activation_tech = {
+_G.pg.base.gametip.guild_exist_activation_tech = {
 	tip = "同時只能研發一個艦隊科技"
 }
 
-_G.pg.gametip.guild_tech_gold_desc = {
+_G.pg.base.gametip.guild_tech_gold_desc = {
 	tip = "物資庫存上限提升$1"
 }
 
-_G.pg.gametip.guild_tech_oil_desc = {
+_G.pg.base.gametip.guild_tech_oil_desc = {
 	tip = "石油庫存上限提升$1"
 }
 
-_G.pg.gametip.guild_tech_shipbag_desc = {
+_G.pg.base.gametip.guild_tech_shipbag_desc = {
 	tip = "船塢容量上限提升$1"
 }
 
-_G.pg.gametip.guild_tech_equipbag_desc = {
+_G.pg.base.gametip.guild_tech_equipbag_desc = {
 	tip = "倉庫容量上限提升$1"
 }
 
-_G.pg.gametip.guild_box_gold_desc = {
+_G.pg.base.gametip.guild_box_gold_desc = {
 	tip = "喵箱購買成本降低$1"
 }
 
-_G.pg.gametip.guidl_r_box_time_desc = {
+_G.pg.base.gametip.guidl_r_box_time_desc = {
 	tip = "R喵箱訓練時間減少$1"
 }
 
-_G.pg.gametip.guidl_sr_box_time_desc = {
+_G.pg.base.gametip.guidl_sr_box_time_desc = {
 	tip = "SR喵箱訓練時間減少$1"
 }
 
-_G.pg.gametip.guidl_ssr_box_time_desc = {
+_G.pg.base.gametip.guidl_ssr_box_time_desc = {
 	tip = "SSR喵箱訓練時間減少$1"
 }
 
-_G.pg.gametip.guild_member_max_cnt_desc = {
+_G.pg.base.gametip.guild_member_max_cnt_desc = {
 	tip = "大艦隊席位上限增加$1"
 }
 
-_G.pg.gametip.guild_tech_livness_no_enough = {
+_G.pg.base.gametip.guild_tech_livness_no_enough = {
 	tip = "還需要$1活躍度可學習，繼續提升所需消耗為公共艦隊科技提升消耗，是否繼續升級？"
 }
 
-_G.pg.gametip.guild_tech_livness_no_enough_label = {
+_G.pg.base.gametip.guild_tech_livness_no_enough_label = {
 	tip = "活躍度達到$1可學習"
 }
 
-_G.pg.gametip.guild_ship_attr_desc = {
+_G.pg.base.gametip.guild_ship_attr_desc = {
 	tip = "大艦隊作戰內$1的$2提高$3"
 }
 
-_G.pg.gametip.guild_start_tech_group_tip = {
+_G.pg.base.gametip.guild_start_tech_group_tip = {
 	tip = "即將開始【$1】的研發，是否確定？"
 }
 
-_G.pg.gametip.guild_cancel_tech_tip = {
+_G.pg.base.gametip.guild_cancel_tech_tip = {
 	tip = "正在取消【$1】的研發，取消後當前進度保留，但在再次開啟任意項目研發前，軍需籌備不再獲得籌備進度"
 }
 
-_G.pg.gametip.guild_tech_consume_tip = {
+_G.pg.base.gametip.guild_tech_consume_tip = {
 	tip = "需要消耗<icon name=guildicon w=0.7 h=0.7/>$1和<icon name=gold w=0.7 h=0.7/>$2， 學習【$3】，是否確定？"
 }
 
-_G.pg.gametip.guild_tech_non_admin = {
+_G.pg.base.gametip.guild_tech_non_admin = {
 	tip = "操作權限不足，需要副司令以上職位方可進行艦隊科技研發操作"
 }
 
-_G.pg.gametip.guild_tech_label_max_level = {
+_G.pg.base.gametip.guild_tech_label_max_level = {
 	tip = "等級上限:"
 }
 
-_G.pg.gametip.guild_tech_label_dev_progress = {
+_G.pg.base.gametip.guild_tech_label_dev_progress = {
 	tip = "籌備進度"
 }
 
-_G.pg.gametip.guild_tech_label_condition = {
+_G.pg.base.gametip.guild_tech_label_condition = {
 	tip = "完成軍需籌備增加"
 }
 
-_G.pg.gametip.guild_tech_donate_target = {
+_G.pg.base.gametip.guild_tech_donate_target = {
 	tip = "需要籌備進度 $1"
 }
 
-_G.pg.gametip.guild_not_exist = {
+_G.pg.base.gametip.guild_not_exist = {
 	tip = "大艦隊不存在"
 }
 
-_G.pg.gametip.guild_not_exist_battle = {
+_G.pg.base.gametip.guild_not_exist_battle = {
 	tip = "大艦隊作戰不存在"
 }
 
-_G.pg.gametip.guild_battle_is_end = {
+_G.pg.base.gametip.guild_battle_is_end = {
 	tip = "大艦隊作戰已結束"
 }
 
-_G.pg.gametip.guild_battle_is_exist = {
+_G.pg.base.gametip.guild_battle_is_exist = {
 	tip = "大艦隊作戰已經存在"
 }
 
-_G.pg.gametip.guild_guildgold_no_enough_for_battle = {
+_G.pg.base.gametip.guild_guildgold_no_enough_for_battle = {
 	tip = "大艦隊資金不足，無法開啟作戰"
 }
 
-_G.pg.gametip.guild_event_start_tip1 = {
+_G.pg.base.gametip.guild_event_start_tip1 = {
 	tip = "有新的大艦隊作戰開啟，點擊確定更新頁面"
 }
 
-_G.pg.gametip.guild_event_start_tip2 = {
+_G.pg.base.gametip.guild_event_start_tip2 = {
 	tip = "已有正在進行的作戰，無法開啟作戰，點擊確定"
 }
 
-_G.pg.gametip.guild_word_may_happen_event = {
+_G.pg.base.gametip.guild_word_may_happen_event = {
 	tip = "可能發生事件"
 }
 
-_G.pg.gametip.guild_battle_award = {
+_G.pg.base.gametip.guild_battle_award = {
 	tip = "作戰產出"
 }
 
-_G.pg.gametip.guild_word_consume = {
+_G.pg.base.gametip.guild_word_consume = {
 	tip = "消耗"
 }
 
-_G.pg.gametip.guild_start_event_consume_tip = {
+_G.pg.base.gametip.guild_start_event_consume_tip = {
 	tip = "是否確認花費$1大艦隊物資開啟“$2”？"
 }
 
-_G.pg.gametip.guild_start_event_consume_tip_extra = {
+_G.pg.base.gametip.guild_start_event_consume_tip_extra = {
 	tip = "本月已開啟過<color=#ff5c5c>$3</color>次作戰，是否確認花費$1大艦隊物資開啟“$2”？"
 }
 
-_G.pg.gametip.guild_word_consume_for_battle = {
+_G.pg.base.gametip.guild_word_consume_for_battle = {
 	tip = "開啟需要消耗"
 }
 
-_G.pg.gametip.guild_level_no_enough = {
+_G.pg.base.gametip.guild_level_no_enough = {
 	tip = "大艦隊等級不足，作戰未解鎖"
 }
 
-_G.pg.gametip.guild_open_event_info_when_exist_active = {
+_G.pg.base.gametip.guild_open_event_info_when_exist_active = {
 	tip = "正在進行$1，無法選擇該作戰"
 }
 
-_G.pg.gametip.guild_join_event_cnt_label = {
+_G.pg.base.gametip.guild_join_event_cnt_label = {
 	tip = "本月參與次數:"
 }
 
-_G.pg.gametip.guild_join_event_max_cnt_tip = {
+_G.pg.base.gametip.guild_join_event_max_cnt_tip = {
 	tip = "參與次數不足，無法參加作戰"
 }
 
-_G.pg.gametip.guild_join_event_progress_label = {
+_G.pg.base.gametip.guild_join_event_progress_label = {
 	tip = "作戰進度:"
 }
 
-_G.pg.gametip.guild_join_event_exist_finished_mission_tip = {
+_G.pg.base.gametip.guild_join_event_exist_finished_mission_tip = {
 	tip = "該作戰正在進行中，現在參加作戰無法獲得該作戰已經完成事件的獎勵，是否確認繼續參加？"
 }
 
-_G.pg.gametip.guild_event_not_exist = {
+_G.pg.base.gametip.guild_event_not_exist = {
 	tip = "作戰事件不存在"
 }
 
-_G.pg.gametip.guild_fleet_can_not_edit = {
+_G.pg.base.gametip.guild_fleet_can_not_edit = {
 	tip = "當前艦隊不可編輯"
 }
 
-_G.pg.gametip.guild_fleet_exist_same_kind_ship = {
+_G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
 	tip = "無法選擇多個同名的艦船"
 }
 
-_G.pg.gametip.guild_event_exist_same_kind_ship = {
+_G.pg.base.gametip.guild_event_exist_same_kind_ship = {
 	tip = "不能存在多個同名的艦船"
 }
 
-_G.pg.gametip.guidl_event_ship_in_event = {
+_G.pg.base.gametip.guidl_event_ship_in_event = {
 	tip = "該艦船正在執行其他事件，無法選擇"
 }
 
-_G.pg.gametip.guild_event_start_done = {
+_G.pg.base.gametip.guild_event_start_done = {
 	tip = "派遣成功"
 }
 
-_G.pg.gametip.guild_fleet_update_done = {
+_G.pg.base.gametip.guild_fleet_update_done = {
 	tip = "艦隊更新成功"
 }
 
-_G.pg.gametip.guild_event_is_lock = {
+_G.pg.base.gametip.guild_event_is_lock = {
 	tip = "事件未解鎖"
 }
 
-_G.pg.gametip.guild_event_is_finish = {
+_G.pg.base.gametip.guild_event_is_finish = {
 	tip = "事件已完成，參與事件的成員請到作戰報告內領取獎勵"
 }
 
-_G.pg.gametip.guild_fleet_not_save_tip = {
+_G.pg.base.gametip.guild_fleet_not_save_tip = {
 	tip = "當前編輯不會被保存，是否確認關閉?"
 }
 
-_G.pg.gametip.guild_word_battle_area = {
+_G.pg.base.gametip.guild_word_battle_area = {
 	tip = "作戰區域:"
 }
 
-_G.pg.gametip.guild_word_battle_type = {
+_G.pg.base.gametip.guild_word_battle_type = {
 	tip = "作戰類型:"
 }
 
-_G.pg.gametip.guild_wrod_battle_target = {
+_G.pg.base.gametip.guild_wrod_battle_target = {
 	tip = "戰術目標:"
 }
 
-_G.pg.gametip.guild_event_recomm_ship_failed = {
+_G.pg.base.gametip.guild_event_recomm_ship_failed = {
 	tip = "不存在符合條件的艦船"
 }
 
-_G.pg.gametip.guild_event_start_event_tip = {
+_G.pg.base.gametip.guild_event_start_event_tip = {
 	tip = "派遣成功後無法撤回，是否確定？"
 }
 
-_G.pg.gametip.guild_word_sea = {
+_G.pg.base.gametip.guild_word_sea = {
 	tip = "近海"
 }
 
-_G.pg.gametip.guild_word_score_addition = {
+_G.pg.base.gametip.guild_word_score_addition = {
 	tip = "評價加成:"
 }
 
-_G.pg.gametip.guild_word_effect_addition = {
+_G.pg.base.gametip.guild_word_effect_addition = {
 	tip = "效率加成:"
 }
 
-_G.pg.gametip.guild_curr_fleet_can_not_edit = {
+_G.pg.base.gametip.guild_curr_fleet_can_not_edit = {
 	tip = "當前編隊不可編輯"
 }
 
-_G.pg.gametip.guild_next_edit_fleet_time = {
+_G.pg.base.gametip.guild_next_edit_fleet_time = {
 	tip = "$1可繼續派遣新的編隊"
 }
 
-_G.pg.gametip.guild_event_info_desc1 = {
+_G.pg.base.gametip.guild_event_info_desc1 = {
 	tip = "$5名角色$1值達到$2: <color=$3>$4/$5</color>"
 }
 
-_G.pg.gametip.guild_event_info_desc2 = {
+_G.pg.base.gametip.guild_event_info_desc2 = {
 	tip = "總$1值: <color=$2>$3/$4</color>"
 }
 
-_G.pg.gametip.guild_join_member_cnt = {
+_G.pg.base.gametip.guild_join_member_cnt = {
 	tip = "參與成員:"
 }
 
-_G.pg.gametip.guild_total_effect = {
+_G.pg.base.gametip.guild_total_effect = {
 	tip = "總效率:"
 }
 
-_G.pg.gametip.guild_word_people = {
+_G.pg.base.gametip.guild_word_people = {
 	tip = "人"
 }
 
-_G.pg.gametip.guild_event_info_desc3 = {
+_G.pg.base.gametip.guild_event_info_desc3 = {
 	tip = "$1艦船 (現有$2)"
 }
 
-_G.pg.gametip.guild_not_exist_boss = {
+_G.pg.base.gametip.guild_not_exist_boss = {
 	tip = "作戰首領不存在"
 }
 
-_G.pg.gametip.guild_ship_from = {
+_G.pg.base.gametip.guild_ship_from = {
 	tip = "來自:"
 }
 
-_G.pg.gametip.guild_boss_formation_1 = {
+_G.pg.base.gametip.guild_boss_formation_1 = {
 	tip = "至多只能選擇3名其他成員的艦船"
 }
 
-_G.pg.gametip.guild_boss_formation_2 = {
+_G.pg.base.gametip.guild_boss_formation_2 = {
 	tip = "每個成員的艦船最多只能選擇1名"
 }
 
-_G.pg.gametip.guild_boss_formation_3 = {
+_G.pg.base.gametip.guild_boss_formation_3 = {
 	tip = "編隊內不能存在多個同名艦船"
 }
 
-_G.pg.gametip.guild_boss_cnt_no_enough = {
+_G.pg.base.gametip.guild_boss_cnt_no_enough = {
 	tip = "挑戰次數不足"
 }
 
-_G.pg.gametip.guild_boss_fleet_cnt_invaild = {
+_G.pg.base.gametip.guild_boss_fleet_cnt_invaild = {
 	tip = "編隊不符合條件"
 }
 
-_G.pg.gametip.guild_boss_formation_not_exist_self_ship = {
+_G.pg.base.gametip.guild_boss_formation_not_exist_self_ship = {
 	tip = "先鋒和主力必須至少選擇各1名玩家自己的角色"
 }
 
-_G.pg.gametip.guild_boss_formation_exist_event_ship = {
+_G.pg.base.gametip.guild_boss_formation_exist_event_ship = {
 	tip = "$1正在執行委託任務無法出擊"
 }
 
-_G.pg.gametip.guild_fleet_is_legal = {
+_G.pg.base.gametip.guild_fleet_is_legal = {
 	tip = "編隊未滿足要求，至少需要1位先鋒和1位主力"
 }
 
-_G.pg.gametip.guild_battle_result_boss_is_death = {
+_G.pg.base.gametip.guild_battle_result_boss_is_death = {
 	tip = "大艦隊作戰首領戰已經結束，戰鬥失效"
 }
 
-_G.pg.gametip.guild_must_edit_fleet = {
+_G.pg.base.gametip.guild_must_edit_fleet = {
 	tip = "攻堅隊修改已保存"
 }
 
-_G.pg.gametip.guild_ship_in_battle = {
+_G.pg.base.gametip.guild_ship_in_battle = {
 	tip = "$1正在作戰中，此派遣操作將在當前作戰結束後生效"
 }
 
-_G.pg.gametip.guild_ship_in_assult_fleet = {
+_G.pg.base.gametip.guild_ship_in_assult_fleet = {
 	tip = "該艦船在大艦隊作戰攻堅隊中"
 }
 
-_G.pg.gametip.guild_event_exist_assult_ship = {
+_G.pg.base.gametip.guild_event_exist_assult_ship = {
 	tip = "攻堅隊的艦船無法參與事件"
 }
 
-_G.pg.gametip.guild_formation_erro_in_boss_battle = {
+_G.pg.base.gametip.guild_formation_erro_in_boss_battle = {
 	tip = "正在與首領敵人作戰，無法編組攻堅隊"
 }
 
-_G.pg.gametip.guild_get_report_failed = {
+_G.pg.base.gametip.guild_get_report_failed = {
 	tip = "作戰報告領取失敗"
 }
 
-_G.pg.gametip.guild_report_get_all = {
+_G.pg.base.gametip.guild_report_get_all = {
 	tip = "全部領取"
 }
 
-_G.pg.gametip.guild_can_not_get_tip = {
+_G.pg.base.gametip.guild_can_not_get_tip = {
 	tip = "未參與該事件，無法領取獎勵"
 }
 
-_G.pg.gametip.guild_not_exist_notifycation = {
+_G.pg.base.gametip.guild_not_exist_notifycation = {
 	tip = "暫時沒有艦隊公告"
 }
 
-_G.pg.gametip.guild_exist_report_award_when_exit = {
+_G.pg.base.gametip.guild_exist_report_award_when_exit = {
 	tip = "存在作戰獎勵未領取是否退出"
 }
 
-_G.pg.gametip.guild_report_tooltip = {
+_G.pg.base.gametip.guild_report_tooltip = {
 	tip = "※最多可以存儲20個事件獎勵,超出後最早的獎勵將被移除,請及時領取"
 }
 
-_G.pg.gametip.word_guildgold = {
+_G.pg.base.gametip.word_guildgold = {
 	tip = "艦隊幣"
 }
 
-_G.pg.gametip.guild_member_rank_title_donate = {
+_G.pg.base.gametip.guild_member_rank_title_donate = {
 	tip = "籌備次數"
 }
 
-_G.pg.gametip.guild_member_rank_title_finish_cnt = {
+_G.pg.base.gametip.guild_member_rank_title_finish_cnt = {
 	tip = "完成次數"
 }
 
-_G.pg.gametip.guild_member_rank_title_join_cnt = {
+_G.pg.base.gametip.guild_member_rank_title_join_cnt = {
 	tip = "參與次數"
 }
 
-_G.pg.gametip.guild_donate_log = {
+_G.pg.base.gametip.guild_donate_log = {
 	tip = "[$1] $2 消耗$3$4 完成軍需籌備 獲得大艦隊資金$5"
 }
 
-_G.pg.gametip.guild_supply_log = {
+_G.pg.base.gametip.guild_supply_log = {
 	tip = "[$1] $2 消耗大艦隊資金$3 開啟大艦隊補給$4天"
 }
 
-_G.pg.gametip.guild_weektask_log = {
+_G.pg.base.gametip.guild_weektask_log = {
 	tip = "[$1] 大艦隊任務完成 獲得大艦隊資金$2"
 }
 
-_G.pg.gametip.guild_battle_log = {
+_G.pg.base.gametip.guild_battle_log = {
 	tip = "[$1] $2 消耗大艦隊資金$3 開啟大艦隊作戰"
 }
 
-_G.pg.gametip.guild_battle_end_log = {
+_G.pg.base.gametip.guild_battle_end_log = {
 	tip = "[$1] 大艦隊作戰結算完成 獲得大艦隊資金$2"
 }
 
-_G.pg.gametip.guild_tech_log = {
+_G.pg.base.gametip.guild_tech_log = {
 	tip = "[$1] $2 消耗大艦隊資金$3 將$4科技升級到Lv.$5"
 }
 
-_G.pg.gametip.guild_tech_over_log = {
+_G.pg.base.gametip.guild_tech_over_log = {
 	tip = "[$1] $2 取消$3科技研發"
 }
 
-_G.pg.gametip.guild_tech_change_log = {
+_G.pg.base.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 將科技研發切換為$3"
 }
 
-_G.pg.gametip.guild_log_title = {
+_G.pg.base.gametip.guild_log_title = {
 	tip = "艦隊日誌"
 }
 
-_G.pg.gametip.guild_use_donateitem_success = {
+_G.pg.base.gametip.guild_use_donateitem_success = {
 	tip = "使用成功，軍需籌備次數+$1"
 }
 
-_G.pg.gametip.guild_use_battleitem_success = {
+_G.pg.base.gametip.guild_use_battleitem_success = {
 	tip = "使用成功，作戰參與次數+$1"
 }
 
-_G.pg.gametip.not_exist_guild_use_item = {
+_G.pg.base.gametip.not_exist_guild_use_item = {
 	tip = "未加入大艦隊，無法使用該道具"
 }
 
-_G.pg.gametip.guild_member_tip = {
+_G.pg.base.gametip.guild_member_tip = {
 	tip = {
 		{
 			info = "成員管理說明："
@@ -14617,7 +14617,7 @@ _G.pg.gametip.guild_member_tip = {
 	}
 }
 
-_G.pg.gametip.guild_tech_tip = {
+_G.pg.base.gametip.guild_tech_tip = {
 	tip = {
 		{
 			info = "科技说明："
@@ -14661,7 +14661,7 @@ _G.pg.gametip.guild_tech_tip = {
 	}
 }
 
-_G.pg.gametip.guild_office_tip = {
+_G.pg.base.gametip.guild_office_tip = {
 	tip = {
 		{
 			info = "後勤說明："
@@ -14714,7 +14714,7 @@ _G.pg.gametip.guild_office_tip = {
 	}
 }
 
-_G.pg.gametip.guild_event_help_tip = {
+_G.pg.base.gametip.guild_event_help_tip = {
 	tip = {
 		{
 			info = "作戰說明："
@@ -14817,7 +14817,7 @@ _G.pg.gametip.guild_event_help_tip = {
 	}
 }
 
-_G.pg.gametip.guild_mission_info_tip = {
+_G.pg.base.gametip.guild_mission_info_tip = {
 	tip = {
 		{
 			info = "事件派遣說明："
@@ -14843,7 +14843,7 @@ _G.pg.gametip.guild_mission_info_tip = {
 	}
 }
 
-_G.pg.gametip.guild_public_tech_tip = {
+_G.pg.base.gametip.guild_public_tech_tip = {
 	tip = {
 		{
 			info = "科技說明："
@@ -14863,7 +14863,7 @@ _G.pg.gametip.guild_public_tech_tip = {
 	}
 }
 
-_G.pg.gametip.guild_public_office_tip = {
+_G.pg.base.gametip.guild_public_office_tip = {
 	tip = {
 		{
 			info = "後勤說明："
@@ -14880,11 +14880,11 @@ _G.pg.gametip.guild_public_office_tip = {
 	}
 }
 
-_G.pg.gametip.guild_tech_price_inc_tip = {
+_G.pg.base.gametip.guild_tech_price_inc_tip = {
 	tip = "已達到<color=#92fc63>當前大艦隊</color>的科技等級上限，繼續提升所需消耗為公共艦隊科技提升消耗，是否繼續升級？"
 }
 
-_G.pg.gametip.guild_boss_fleet_desc = {
+_G.pg.base.gametip.guild_boss_fleet_desc = {
 	tip = [[
 1.最多選擇<color=#92fc63>9</color>名角色，組成艦隊。 
 2.先鋒和主力需要至少各有<color=#92fc63>1</color>名指揮官自身港區的角色。 
@@ -14893,91 +14893,91 @@ _G.pg.gametip.guild_boss_fleet_desc = {
 5.每位指揮官每天只能挑戰<color=#92fc63>1</color>次首領戰。]]
 }
 
-_G.pg.gametip.guild_boss_formation_exist_invaild_ship = {
+_G.pg.base.gametip.guild_boss_formation_exist_invaild_ship = {
 	tip = "攻堅隊成員發生變動，首領戰編隊已被更新"
 }
 
-_G.pg.gametip.guild_exist_unreceived_supply_award = {
+_G.pg.base.gametip.guild_exist_unreceived_supply_award = {
 	tip = "<color=red>待領取</color>"
 }
 
-_G.pg.gametip.word_shipState_guild_event = {
+_G.pg.base.gametip.word_shipState_guild_event = {
 	tip = "角色正在參與大艦隊作戰，無法退役"
 }
 
-_G.pg.gametip.word_shipState_guild_boss = {
+_G.pg.base.gametip.word_shipState_guild_boss = {
 	tip = "該角色為大艦隊作戰首領戰編隊成員，是否確認將該角色移出編隊？"
 }
 
-_G.pg.gametip.commander_is_in_guild = {
+_G.pg.base.gametip.commander_is_in_guild = {
 	tip = "該指揮喵正在大艦隊作戰首領戰編隊中，是否確認將該指揮喵移出編隊？"
 }
 
-_G.pg.gametip.guild_assult_ship_recommend = {
+_G.pg.base.gametip.guild_assult_ship_recommend = {
 	tip = "推薦狀態更新成功，推薦攻堅隊角色設置成功"
 }
 
-_G.pg.gametip.guild_cancel_assult_ship_recommend = {
+_G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
 	tip = "推薦狀態更新成功，推薦攻堅隊角色取消成功"
 }
 
-_G.pg.gametip.guild_assult_ship_recommend_conflict = {
+_G.pg.base.gametip.guild_assult_ship_recommend_conflict = {
 	tip = "推薦狀態更新成功，該角色已經是推薦攻堅隊角色"
 }
 
-_G.pg.gametip.guild_recommend_limit = {
+_G.pg.base.gametip.guild_recommend_limit = {
 	tip = "推薦攻堅隊角色已經達到9個，無法繼續設置"
 }
 
-_G.pg.gametip.guild_cancel_assult_ship_recommend_conflict = {
+_G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
 	tip = "推薦狀態更新成功，該角色推薦狀態已被其他管理員取消"
 }
 
-_G.pg.gametip.guild_mission_complate = {
+_G.pg.base.gametip.guild_mission_complate = {
 	tip = "完成大艦隊任務：$1"
 }
 
-_G.pg.gametip.guild_operation_event_occurrence = {
+_G.pg.base.gametip.guild_operation_event_occurrence = {
 	tip = "大艦隊作戰中有新的事件可以派遣，請前往確認"
 }
 
-_G.pg.gametip.guild_transfer_president_confirm = {
+_G.pg.base.gametip.guild_transfer_president_confirm = {
 	tip = "正在將艦隊司令轉讓給$1，轉讓後您將降級為普通成員，是否確定執行此操作？"
 }
 
-_G.pg.gametip.guild_damage_ranking = {
+_G.pg.base.gametip.guild_damage_ranking = {
 	tip = "名次"
 }
 
-_G.pg.gametip.guild_total_damage = {
+_G.pg.base.gametip.guild_total_damage = {
 	tip = "總傷害"
 }
 
-_G.pg.gametip.guild_donate_list_updated = {
+_G.pg.base.gametip.guild_donate_list_updated = {
 	tip = "軍需籌備項目已刷新"
 }
 
-_G.pg.gametip.guild_donate_list_update_failed = {
+_G.pg.base.gametip.guild_donate_list_update_failed = {
 	tip = "軍需籌備項目刷新失敗"
 }
 
-_G.pg.gametip.guild_tip_quit_operation = {
+_G.pg.base.gametip.guild_tip_quit_operation = {
 	tip = "正在參與大艦隊作戰，退出大艦隊將損失已經消耗的大艦隊作戰次數(本月參與次數剩餘：$1)，是否確認退出大艦隊？"
 }
 
-_G.pg.gametip.guild_tip_grand_fleet_is_frozen = {
+_G.pg.base.gametip.guild_tip_grand_fleet_is_frozen = {
 	tip = "該大艦隊已被封禁，無法申請加入"
 }
 
-_G.pg.gametip.guild_tip_operation_time_is_not_ample = {
+_G.pg.base.gametip.guild_tip_operation_time_is_not_ample = {
 	tip = "該作戰剩餘時間已不足7天，可能會因時間不足以完成作戰而導致參戰次數損失，是否確認參與作戰？"
 }
 
-_G.pg.gametip.guild_time_remaining_tip = {
+_G.pg.base.gametip.guild_time_remaining_tip = {
 	tip = "作戰剩餘時間:"
 }
 
-_G.pg.gametip.help_rollingBallGame = {
+_G.pg.base.gametip.help_rollingBallGame = {
 	tip = {
 		{
 			info = [[
@@ -15004,7 +15004,7 @@ _G.pg.gametip.help_rollingBallGame = {
 	}
 }
 
-_G.pg.gametip.rolling_ball_help = {
+_G.pg.base.gametip.rolling_ball_help = {
 	tip = {
 		{
 			info = [[
@@ -15017,35 +15017,35 @@ _G.pg.gametip.rolling_ball_help = {
 	}
 }
 
-_G.pg.gametip.build_ship_accumulative = {
+_G.pg.base.gametip.build_ship_accumulative = {
 	tip = "累计建造:"
 }
 
-_G.pg.gametip.destory_ship_before_tip = {
+_G.pg.base.gametip.destory_ship_before_tip = {
 	tip = "是否確認"
 }
 
-_G.pg.gametip.destory_ship_input_erro = {
+_G.pg.base.gametip.destory_ship_input_erro = {
 	tip = "請輸入正確的確認文本後進行拆解"
 }
 
-_G.pg.gametip.destroy_ur_rarity_tip = {
+_G.pg.base.gametip.destroy_ur_rarity_tip = {
 	tip = "包含<color=#92fc63>海上傳奇艦船</color>，請輸入<color=#92fc63>$1</color>進行確認"
 }
 
-_G.pg.gametip.destory_ur_pt_overflowa = {
+_G.pg.base.gametip.destory_ur_pt_overflowa = {
 	tip = "※拆解獲得的<color=#92fc63>「特裝原型」</color>將超過本月獲取上限，<color=#fd796b>超過的部分將無法獲得</color>"
 }
 
-_G.pg.gametip.shop_label_unlimt_cnt = {
+_G.pg.base.gametip.shop_label_unlimt_cnt = {
 	tip = "可重複兌換"
 }
 
-_G.pg.gametip.trade_card_tips1 = {
+_G.pg.base.gametip.trade_card_tips1 = {
 	tip = "前往商店"
 }
 
-_G.pg.gametip.trade_card_tips2 = {
+_G.pg.base.gametip.trade_card_tips2 = {
 	tip = [[
 重大提醒！ 
 指揮官，貿易許可證已經在$1到期喵！ 
@@ -15054,7 +15054,7 @@ _G.pg.gametip.trade_card_tips2 = {
 {namecode:98}會隨時在商店等著您哦，喵~！]]
 }
 
-_G.pg.gametip.trade_card_tips3 = {
+_G.pg.base.gametip.trade_card_tips3 = {
 	tip = [[
 重大提醒！ 
 指揮官，貿易許可證會在$1到期喵！ 
@@ -15063,11 +15063,11 @@ _G.pg.gametip.trade_card_tips3 = {
 {namecode:98}會隨時在商店等著您哦，喵~！]]
 }
 
-_G.pg.gametip.trade_card_tips4 = {
+_G.pg.base.gametip.trade_card_tips4 = {
 	tip = "$1年$2月$3日"
 }
 
-_G.pg.gametip.ur_exchange_help_tip = {
+_G.pg.base.gametip.ur_exchange_help_tip = {
 	tip = {
 		{
 			info = [[
@@ -15088,11 +15088,11 @@ _G.pg.gametip.ur_exchange_help_tip = {
 	}
 }
 
-_G.pg.gametip.fleet_antisub_range = {
+_G.pg.base.gametip.fleet_antisub_range = {
 	tip = "反潛範圍"
 }
 
-_G.pg.gametip.fleet_antisub_range_tip = {
+_G.pg.base.gametip.fleet_antisub_range_tip = {
 	tip = {
 		{
 			info = [[
@@ -15123,35 +15123,35 @@ _G.pg.gametip.fleet_antisub_range_tip = {
 	}
 }
 
-_G.pg.gametip.practise_idol_tip = {
+_G.pg.base.gametip.practise_idol_tip = {
 	tip = "是否對$1進行練習？"
 }
 
-_G.pg.gametip.upgrade_idol_tip = {
+_G.pg.base.gametip.upgrade_idol_tip = {
 	tip = "「選擇想要練習的項目」"
 }
 
-_G.pg.gametip.upgrade_complete_tip = {
+_G.pg.base.gametip.upgrade_complete_tip = {
 	tip = "練習已完成"
 }
 
-_G.pg.gametip.upgrade_introduce_tip = {
+_G.pg.base.gametip.upgrade_introduce_tip = {
 	tip = "$1提升至Lv.MAX可獲取特別獎勵"
 }
 
-_G.pg.gametip.collect_idol_tip = {
+_G.pg.base.gametip.collect_idol_tip = {
 	tip = "※將周邊拖回選擇框區域可放回"
 }
 
-_G.pg.gametip.hand_account_tip = {
+_G.pg.base.gametip.hand_account_tip = {
 	tip = "完成周邊收集後解鎖"
 }
 
-_G.pg.gametip.hand_account_resetting_tip = {
+_G.pg.base.gametip.hand_account_resetting_tip = {
 	tip = "是否重置手帳頁面？"
 }
 
-_G.pg.gametip.help_candymagic = {
+_G.pg.base.gametip.help_candymagic = {
 	tip = {
 		{
 			info = [[
@@ -15177,11 +15177,11 @@ _G.pg.gametip.help_candymagic = {
 	}
 }
 
-_G.pg.gametip.award_overflow_tip = {
+_G.pg.base.gametip.award_overflow_tip = {
 	tip = "部分的獎勵將超出資源上限，請手動領取。"
 }
 
-_G.pg.gametip.hunter_npc = {
+_G.pg.base.gametip.hunter_npc = {
 	tip = {
 		{
 			info = "「峽灣間的獵人」："
@@ -15204,7 +15204,7 @@ _G.pg.gametip.hunter_npc = {
 	}
 }
 
-_G.pg.gametip.venusvolleyball_help = {
+_G.pg.base.gametip.venusvolleyball_help = {
 	tip = {
 		{
 			info = [[
@@ -15228,19 +15228,19 @@ _G.pg.gametip.venusvolleyball_help = {
 	}
 }
 
-_G.pg.gametip.venusvolleyball_rule_tip = {
+_G.pg.base.gametip.venusvolleyball_rule_tip = {
 	tip = "先得$1分"
 }
 
-_G.pg.gametip.venusvolleyball_return_tip = {
+_G.pg.base.gametip.venusvolleyball_return_tip = {
 	tip = "是否退出遊戲？退出遊戲不會視為完成該場比賽"
 }
 
-_G.pg.gametip.venusvolleyball_suspend_tip = {
+_G.pg.base.gametip.venusvolleyball_suspend_tip = {
 	tip = "是否繼續遊戲？"
 }
 
-_G.pg.gametip.doa_main = {
+_G.pg.base.gametip.doa_main = {
 	tip = {
 		{
 			info = [[
@@ -15265,7 +15265,7 @@ _G.pg.gametip.doa_main = {
 	}
 }
 
-_G.pg.gametip.doa_pt_help = {
+_G.pg.base.gametip.doa_pt_help = {
 	tip = {
 		{
 			info = [[
@@ -15287,31 +15287,31 @@ _G.pg.gametip.doa_pt_help = {
 	}
 }
 
-_G.pg.gametip.doa_pt_complete = {
+_G.pg.base.gametip.doa_pt_complete = {
 	tip = "強化已完成"
 }
 
-_G.pg.gametip.doa_pt_up = {
+_G.pg.base.gametip.doa_pt_up = {
 	tip = "是否對$1進行強化?"
 }
 
-_G.pg.gametip.doa_liliang = {
+_G.pg.base.gametip.doa_liliang = {
 	tip = "力量"
 }
 
-_G.pg.gametip.doa_jiqiao = {
+_G.pg.base.gametip.doa_jiqiao = {
 	tip = "技巧"
 }
 
-_G.pg.gametip.doa_tili = {
+_G.pg.base.gametip.doa_tili = {
 	tip = "體力"
 }
 
-_G.pg.gametip.doa_meili = {
+_G.pg.base.gametip.doa_meili = {
 	tip = "魅力"
 }
 
-_G.pg.gametip.snowball_help = {
+_G.pg.base.gametip.snowball_help = {
 	tip = {
 		{
 			info = [[
@@ -15335,7 +15335,7 @@ _G.pg.gametip.snowball_help = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021_feast = {
+_G.pg.base.gametip.help_xinnian2021_feast = {
 	tip = {
 		{
 			info = [[
@@ -15350,7 +15350,7 @@ _G.pg.gametip.help_xinnian2021_feast = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__qiaozhong = {
+_G.pg.base.gametip.help_xinnian2021__qiaozhong = {
 	tip = {
 		{
 			info = [[
@@ -15369,7 +15369,7 @@ _G.pg.gametip.help_xinnian2021__qiaozhong = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__meishiyemian = {
+_G.pg.base.gametip.help_xinnian2021__meishiyemian = {
 	tip = {
 		{
 			info = [[
@@ -15382,7 +15382,7 @@ _G.pg.gametip.help_xinnian2021__meishiyemian = {
 	}
 }
 
-_G.pg.gametip.help_xinnian2021__meishi = {
+_G.pg.base.gametip.help_xinnian2021__meishi = {
 	tip = {
 		{
 			info = [[
@@ -15401,7 +15401,7 @@ _G.pg.gametip.help_xinnian2021__meishi = {
 	}
 }
 
-_G.pg.gametip.help_act_event = {
+_G.pg.base.gametip.help_act_event = {
 	tip = {
 		{
 			icon = {
@@ -15427,111 +15427,111 @@ _G.pg.gametip.help_act_event = {
 	}
 }
 
-_G.pg.gametip.autofight = {
+_G.pg.base.gametip.autofight = {
 	tip = "自律尋敵"
 }
 
-_G.pg.gametip.autofight_errors_tip = {
+_G.pg.base.gametip.autofight_errors_tip = {
 	tip = "自律尋敵找不到敵人，已切換回手動模式"
 }
 
-_G.pg.gametip.autofight_special_operation_tip = {
+_G.pg.base.gametip.autofight_special_operation_tip = {
 	tip = "已為您<color=#ff5c5c>取消</color>高效作戰指令書，自律尋敵模式下會<color=#92fc63>優先攻擊敵方旗艦</color>而不是觸發所有戰鬥，如果希望依舊使用高效作戰指令書，請<color=#92fc63>再次手動選擇使用</color>"
 }
 
-_G.pg.gametip.autofight_formation = {
+_G.pg.base.gametip.autofight_formation = {
 	tip = "編隊"
 }
 
-_G.pg.gametip.autofight_cat = {
+_G.pg.base.gametip.autofight_cat = {
 	tip = "指揮喵"
 }
 
-_G.pg.gametip.autofight_function = {
+_G.pg.base.gametip.autofight_function = {
 	tip = "職能"
 }
 
-_G.pg.gametip.autofight_function1 = {
+_G.pg.base.gametip.autofight_function1 = {
 	tip = "道中戰鬥"
 }
 
-_G.pg.gametip.autofight_function2 = {
+_G.pg.base.gametip.autofight_function2 = {
 	tip = "旗艦戰鬥"
 }
 
-_G.pg.gametip.autofight_function3 = {
+_G.pg.base.gametip.autofight_function3 = {
 	tip = "全部戰鬥"
 }
 
-_G.pg.gametip.autofight_function4 = {
+_G.pg.base.gametip.autofight_function4 = {
 	tip = "待機"
 }
 
-_G.pg.gametip.autofight_function5 = {
+_G.pg.base.gametip.autofight_function5 = {
 	tip = "自動召喚潛艇"
 }
 
-_G.pg.gametip.autofight_rewards = {
+_G.pg.base.gametip.autofight_rewards = {
 	tip = "合計獲得獎勵"
 }
 
-_G.pg.gametip.autofight_rewards_none = {
+_G.pg.base.gametip.autofight_rewards_none = {
 	tip = "本次作戰未獲得獎勵"
 }
 
-_G.pg.gametip.autofight_leave = {
+_G.pg.base.gametip.autofight_leave = {
 	tip = "離 開"
 }
 
-_G.pg.gametip.autofight_onceagain = {
+_G.pg.base.gametip.autofight_onceagain = {
 	tip = "再次前往"
 }
 
-_G.pg.gametip.autofight_entrust = {
+_G.pg.base.gametip.autofight_entrust = {
 	tip = "本次作戰出現緊急委託：$1"
 }
 
-_G.pg.gametip.autofight_task = {
+_G.pg.base.gametip.autofight_task = {
 	tip = "本次作戰完成任務：$1"
 }
 
-_G.pg.gametip.autofight_effect = {
+_G.pg.base.gametip.autofight_effect = {
 	tip = "適應性調整：攻擊 +$1,耐久 +$2,恢復 +$3"
 }
 
-_G.pg.gametip.autofight_file = {
+_G.pg.base.gametip.autofight_file = {
 	tip = "本次作戰解鎖檔案——$1"
 }
 
-_G.pg.gametip.autofight_discovery = {
+_G.pg.base.gametip.autofight_discovery = {
 	tip = "本次作戰完成海域探索目標：$1"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_dead = {
+_G.pg.base.gametip.autofight_tip_bigworld_dead = {
 	tip = "當前艦隊已戰敗，無法繼續自律尋敵"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_begin = {
+_G.pg.base.gametip.autofight_tip_bigworld_begin = {
 	tip = "當前所選艦隊開始自律尋敵"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_stop = {
+_G.pg.base.gametip.autofight_tip_bigworld_stop = {
 	tip = "當前所選艦隊自律尋敵停止"
 }
 
-_G.pg.gametip.autofight_tip_bigworld_suspend = {
+_G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "當前所選艦隊視野內無可自律事件，無法繼續自律尋敵"
 }
 
-_G.pg.gametip.autofight_farm = {
+_G.pg.base.gametip.autofight_farm = {
 	tip = "周回模式"
 }
 
-_G.pg.gametip.autofight_story = {
+_G.pg.base.gametip.autofight_story = {
 	tip = "倒計時結束後將自動播放劇情"
 }
 
-_G.pg.gametip.fushun_adventure_help = {
+_G.pg.base.gametip.fushun_adventure_help = {
 	tip = {
 		{
 			info = [[
@@ -15570,15 +15570,15 @@ _G.pg.gametip.fushun_adventure_help = {
 	}
 }
 
-_G.pg.gametip.autofight_change_tip = {
+_G.pg.base.gametip.autofight_change_tip = {
 	tip = "由於艦隊發生變化，艦隊職能變為<color=#92fc63>全部戰鬥</color>"
 }
 
-_G.pg.gametip.autofight_selectprops_tip = {
+_G.pg.base.gametip.autofight_selectprops_tip = {
 	tip = "點擊選擇\n作戰道具"
 }
 
-_G.pg.gametip.help_chunjie2021_feast = {
+_G.pg.base.gametip.help_chunjie2021_feast = {
 	tip = {
 		{
 			info = [[
@@ -15594,47 +15594,47 @@ _G.pg.gametip.help_chunjie2021_feast = {
 	}
 }
 
-_G.pg.gametip.valentinesday__txt1_tip = {
+_G.pg.base.gametip.valentinesday__txt1_tip = {
 	tip = "想要吃到美味的巧克力，就快去多收集些原料來吧。"
 }
 
-_G.pg.gametip.valentinesday__txt2_tip = {
+_G.pg.base.gametip.valentinesday__txt2_tip = {
 	tip = "巧克力已經做好了哦。怎麼，還要我親自餵你不成？"
 }
 
-_G.pg.gametip.valentinesday__txt3_tip = {
+_G.pg.base.gametip.valentinesday__txt3_tip = {
 	tip = "唔，做巧克力的巧克力粉，好像還不夠……"
 }
 
-_G.pg.gametip.valentinesday__txt4_tip = {
+_G.pg.base.gametip.valentinesday__txt4_tip = {
 	tip = "巧克力，做好了…指揮官，別忘了獎勵……"
 }
 
-_G.pg.gametip.valentinesday__txt5_tip = {
+_G.pg.base.gametip.valentinesday__txt5_tip = {
 	tip = "指揮官，我們要收集更多的原料才能繼續加工巧克力哦。"
 }
 
-_G.pg.gametip.valentinesday__txt6_tip = {
+_G.pg.base.gametip.valentinesday__txt6_tip = {
 	tip = "巧克力已經完成了哦。指揮官，來一起嚐嚐吧。"
 }
 
-_G.pg.gametip.valentinesday__shop_tip = {
+_G.pg.base.gametip.valentinesday__shop_tip = {
 	tip = "是否前往換裝商店介面？"
 }
 
-_G.pg.gametip.wwf_bamboo_tip1 = {
+_G.pg.base.gametip.wwf_bamboo_tip1 = {
 	tip = "大寶的夥伴（寧海篇）"
 }
 
-_G.pg.gametip.wwf_bamboo_tip2 = {
+_G.pg.base.gametip.wwf_bamboo_tip2 = {
 	tip = "二寶的夥伴（平海篇）"
 }
 
-_G.pg.gametip.wwf_bamboo_tip3 = {
+_G.pg.base.gametip.wwf_bamboo_tip3 = {
 	tip = "美味竹子不足，請完成任務獲取"
 }
 
-_G.pg.gametip.wwf_bamboo_help = {
+_G.pg.base.gametip.wwf_bamboo_help = {
 	tip = {
 		{
 			info = [[
@@ -15650,11 +15650,11 @@ _G.pg.gametip.wwf_bamboo_help = {
 	}
 }
 
-_G.pg.gametip.wwf_guide_tip = {
+_G.pg.base.gametip.wwf_guide_tip = {
 	tip = "點擊<color=#92fc63>美味竹子</color>圖標可以查看任務列表哦 "
 }
 
-_G.pg.gametip.securitycake_help = {
+_G.pg.base.gametip.securitycake_help = {
 	tip = {
 		{
 			info = [[
@@ -15676,7 +15676,7 @@ _G.pg.gametip.securitycake_help = {
 	}
 }
 
-_G.pg.gametip.icecream_help = {
+_G.pg.base.gametip.icecream_help = {
 	tip = {
 		{
 			info = [[
@@ -15691,367 +15691,367 @@ _G.pg.gametip.icecream_help = {
 	}
 }
 
-_G.pg.gametip.icecream_make_tip = {
+_G.pg.base.gametip.icecream_make_tip = {
 	tip = "$1的冰棒"
 }
 
-_G.pg.gametip.query_role = {
+_G.pg.base.gametip.query_role = {
 	tip = "查詢中"
 }
 
-_G.pg.gametip.query_role_none = {
+_G.pg.base.gametip.query_role_none = {
 	tip = "無角色"
 }
 
-_G.pg.gametip.query_role_button = {
+_G.pg.base.gametip.query_role_button = {
 	tip = "角色查詢"
 }
 
-_G.pg.gametip.query_role_fail = {
+_G.pg.base.gametip.query_role_fail = {
 	tip = "查詢失敗"
 }
 
-_G.pg.gametip.cumulative_victory_target_tip = {
+_G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "目標勝利次數："
 }
 
-_G.pg.gametip.cumulative_victory_now_tip = {
+_G.pg.base.gametip.cumulative_victory_now_tip = {
 	tip = "當前勝利次數："
 }
 
-_G.pg.gametip.word_files_repair = {
+_G.pg.base.gametip.word_files_repair = {
 	tip = "點擊修復"
 }
 
-_G.pg.gametip.repair_setting_label = {
+_G.pg.base.gametip.repair_setting_label = {
 	tip = "資源修復"
 }
 
-_G.pg.gametip.voice_control = {
+_G.pg.base.gametip.voice_control = {
 	tip = "聲音"
 }
 
-_G.pg.gametip.world_collection_test = {
+_G.pg.base.gametip.world_collection_test = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_file_name = {
+_G.pg.base.gametip.world_file_name = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_file_desc = {
+_G.pg.base.gametip.world_file_desc = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_record_name = {
+_G.pg.base.gametip.world_record_name = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_record_desc = {
+_G.pg.base.gametip.world_record_desc = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.index_equip = {
+_G.pg.base.gametip.index_equip = {
 	tip = "裝備中"
 }
 
-_G.pg.gametip.index_without_limit = {
+_G.pg.base.gametip.index_without_limit = {
 	tip = "無限制"
 }
 
-_G.pg.gametip.meta_fix_ratio_not_enough = {
+_G.pg.base.gametip.meta_fix_ratio_not_enough = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.meta_learn_skill = {
+_G.pg.base.gametip.meta_learn_skill = {
 	tip = "習得技能：$1(未使用)"
 }
 
-_G.pg.gametip.meta_lock_story = {
+_G.pg.base.gametip.meta_lock_story = {
 	tip = "未配置tip"
 }
 
-_G.pg.gametip.world_joint_boss_not_found = {
+_G.pg.base.gametip.world_joint_boss_not_found = {
 	tip = "所選座標已消失，請嘗試其他座標！"
 }
 
-_G.pg.gametip.world_joint_boss_is_death = {
+_G.pg.base.gametip.world_joint_boss_is_death = {
 	tip = "所選座標已消失，請嘗試其他座標！"
 }
 
-_G.pg.gametip.world_joint_whitout_guild = {
+_G.pg.base.gametip.world_joint_whitout_guild = {
 	tip = "還沒有加入大艦隊哦"
 }
 
-_G.pg.gametip.world_joint_whitout_friend = {
+_G.pg.base.gametip.world_joint_whitout_friend = {
 	tip = "還沒有任何戰友哦"
 }
 
-_G.pg.gametip.world_joint_call_support_failed = {
+_G.pg.base.gametip.world_joint_call_support_failed = {
 	tip = "請求支援失敗！"
 }
 
-_G.pg.gametip.world_joint_call_support_success = {
+_G.pg.base.gametip.world_joint_call_support_success = {
 	tip = "請求支援成功！"
 }
 
-_G.pg.gametip.world_joint_call_friend_support_txt = {
+_G.pg.base.gametip.world_joint_call_friend_support_txt = {
 	tip = "戰友$1正在挑戰 $2 TIER.$3，請求緊急支援(未使用)"
 }
 
-_G.pg.gametip.world_joint_call_guild_support_txt = {
+_G.pg.base.gametip.world_joint_call_guild_support_txt = {
 	tip = "大艦隊成員$1正在挑戰 $2 TIER.$3，請求緊急支援(未使用)"
 }
 
-_G.pg.gametip.world_joint_call_world_support_txt = {
+_G.pg.base.gametip.world_joint_call_world_support_txt = {
 	tip = "指揮官$1正在挑戰 $2 TIER.$3，請求緊急支援(未使用)"
 }
 
-_G.pg.gametip.ad_4 = {
+_G.pg.base.gametip.ad_4 = {
 	tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> 邀請你挑戰 <material=underline><color=#FFDE38FF>$3</color></material>"
 }
 
-_G.pg.gametip.world_word_expired = {
+_G.pg.base.gametip.world_word_expired = {
 	tip = "座標已過期"
 }
 
-_G.pg.gametip.world_word_guild_member = {
+_G.pg.base.gametip.world_word_guild_member = {
 	tip = "大艦隊成員(未使用)"
 }
 
-_G.pg.gametip.world_word_guild_player = {
+_G.pg.base.gametip.world_word_guild_player = {
 	tip = "玩家(未使用)"
 }
 
-_G.pg.gametip.world_joint_boss_award_expired = {
+_G.pg.base.gametip.world_joint_boss_award_expired = {
 	tip = "獎勵領取失敗"
 }
 
-_G.pg.gametip.world_joint_not_refresh_frequently = {
+_G.pg.base.gametip.world_joint_not_refresh_frequently = {
 	tip = "請勿頻繁刷新"
 }
 
-_G.pg.gametip.world_joint_exit_battle_tip = {
+_G.pg.base.gametip.world_joint_exit_battle_tip = {
 	tip = "是否中斷當前戰鬥，前往餘燼座標？"
 }
 
-_G.pg.gametip.world_boss_get_item = {
+_G.pg.base.gametip.world_boss_get_item = {
 	tip = "當前已經收集到指定數據量的座標數據，是否立即對其進行解析？"
 }
 
-_G.pg.gametip.world_boss_ask_help = {
+_G.pg.base.gametip.world_boss_ask_help = {
 	tip = "暫時無法向該頻道呼叫支援"
 }
 
-_G.pg.gametip.world_joint_count_no_enough = {
+_G.pg.base.gametip.world_joint_count_no_enough = {
 	tip = "當前挑戰次數不足"
 }
 
-_G.pg.gametip.world_boss_ask_none = {
+_G.pg.base.gametip.world_boss_ask_none = {
 	tip = "所選座標已變為不可挑戰狀態，請嘗試其他座標！"
 }
 
-_G.pg.gametip.world_boss_none = {
+_G.pg.base.gametip.world_boss_none = {
 	tip = "所選座標已變為不可挑戰狀態，請嘗試其他座標！"
 }
 
-_G.pg.gametip.world_boss_fleet = {
+_G.pg.base.gametip.world_boss_fleet = {
 	tip = "餘燼座標作戰"
 }
 
-_G.pg.gametip.world_max_challenge_cnt = {
+_G.pg.base.gametip.world_max_challenge_cnt = {
 	tip = "所選座標挑戰人數已滿，請嘗試其他座標！"
 }
 
-_G.pg.gametip.world_reset_success = {
+_G.pg.base.gametip.world_reset_success = {
 	tip = "大型作戰已重置"
 }
 
-_G.pg.gametip.world_map_dangerous_confirm = {
+_G.pg.base.gametip.world_map_dangerous_confirm = {
 	tip = "深淵海域作戰難度較高且不可重複進入，\n請確認艦隊戰備後前往作戰"
 }
 
-_G.pg.gametip.world_map_version = {
+_G.pg.base.gametip.world_map_version = {
 	tip = "當前海域由於版本更新被重置"
 }
 
-_G.pg.gametip.world_resource_fill = {
+_G.pg.base.gametip.world_resource_fill = {
 	tip = "戰備物資兌換券已達到收集上限。"
 }
 
-_G.pg.gametip.meta_sys_lock_tip = {
+_G.pg.base.gametip.meta_sys_lock_tip = {
 	tip = "META研究室將在開放大型作戰的座標·燼功能後開啟(未使用)"
 }
 
-_G.pg.gametip.meta_story_lock = {
+_G.pg.base.gametip.meta_story_lock = {
 	tip = "需要完成前置劇情才能進行資訊同步(未使用)"
 }
 
-_G.pg.gametip.meta_acttime_limit = {
+_G.pg.base.gametip.meta_acttime_limit = {
 	tip = "限時"
 }
 
-_G.pg.gametip.meta_pt_left = {
+_G.pg.base.gametip.meta_pt_left = {
 	tip = "剩餘$1天"
 }
 
-_G.pg.gametip.meta_syn_rate = {
+_G.pg.base.gametip.meta_syn_rate = {
 	tip = "資訊同步率"
 }
 
-_G.pg.gametip.meta_repair_rate = {
+_G.pg.base.gametip.meta_repair_rate = {
 	tip = "艦裝強化率"
 }
 
-_G.pg.gametip.meta_story_tip_1 = {
+_G.pg.base.gametip.meta_story_tip_1 = {
 	tip = "解鎖劇情(未使用)"
 }
 
-_G.pg.gametip.meta_story_tip_2 = {
+_G.pg.base.gametip.meta_story_tip_2 = {
 	tip = "後開放(未使用)"
 }
 
-_G.pg.gametip.meta_repair_unlock = {
+_G.pg.base.gametip.meta_repair_unlock = {
 	tip = "尚未開啟大型作戰(未使用)"
 }
 
-_G.pg.gametip.meta_pt_get_way = {
+_G.pg.base.gametip.meta_pt_get_way = {
 	tip = "可以通過以下方式獲取同步值(未使用)"
 }
 
-_G.pg.gametip.meta_pt_point = {
+_G.pg.base.gametip.meta_pt_point = {
 	tip = "同步值"
 }
 
-_G.pg.gametip.meta_award_get = {
+_G.pg.base.gametip.meta_award_get = {
 	tip = "可領取"
 }
 
-_G.pg.gametip.meta_award_got = {
+_G.pg.base.gametip.meta_award_got = {
 	tip = "已領取"
 }
 
-_G.pg.gametip.meta_repair = {
+_G.pg.base.gametip.meta_repair = {
 	tip = "屬性提升:"
 }
 
-_G.pg.gametip.meta_repair_success = {
+_G.pg.base.gametip.meta_repair_success = {
 	tip = "艦裝強化成功"
 }
 
-_G.pg.gametip.meta_repair_effect_unlock = {
+_G.pg.base.gametip.meta_repair_effect_unlock = {
 	tip = "強化率$1%後獲得"
 }
 
-_G.pg.gametip.meta_repair_effect_special = {
+_G.pg.base.gametip.meta_repair_effect_special = {
 	tip = "強化率達到$1%，獲得以下提升"
 }
 
-_G.pg.gametip.meta_energy_ship_level_need = {
+_G.pg.base.gametip.meta_energy_ship_level_need = {
 	tip = "艦船等級需求: $1/$2"
 }
 
-_G.pg.gametip.meta_energy_ship_repairrate_need = {
+_G.pg.base.gametip.meta_energy_ship_repairrate_need = {
 	tip = "艦船強化率需求: $1/$2"
 }
 
-_G.pg.gametip.meta_energy_active_box_tip = {
+_G.pg.base.gametip.meta_energy_active_box_tip = {
 	tip = "是否對角色進行能量活化？ (能量活化將會提升角色星級)"
 }
 
-_G.pg.gametip.meta_break = {
+_G.pg.base.gametip.meta_break = {
 	tip = "*活化之後將提升角色星級"
 }
 
-_G.pg.gametip.meta_energy_preview_title = {
+_G.pg.base.gametip.meta_energy_preview_title = {
 	tip = "最終默認本體屬性如下"
 }
 
-_G.pg.gametip.meta_energy_preview_tip = {
+_G.pg.base.gametip.meta_energy_preview_tip = {
 	tip = "*不包含好感度及誓約等額外加成"
 }
 
-_G.pg.gametip.meta_exp_per_day = {
+_G.pg.base.gametip.meta_exp_per_day = {
 	tip = "每日經驗"
 }
 
-_G.pg.gametip.meta_skill_unlock = {
+_G.pg.base.gametip.meta_skill_unlock = {
 	tip = "請點擊習得技能後進行研修"
 }
 
-_G.pg.gametip.meta_unlock_skill_tip = {
+_G.pg.base.gametip.meta_unlock_skill_tip = {
 	tip = "習得$1的技能<color=#92fc63>$2</color>需要消耗以下技能書"
 }
 
-_G.pg.gametip.meta_unlock_skill_select = {
+_G.pg.base.gametip.meta_unlock_skill_select = {
 	tip = "請先選擇一種材料(未使用)"
 }
 
-_G.pg.gametip.meta_switch_skill_disable = {
+_G.pg.base.gametip.meta_switch_skill_disable = {
 	tip = "當天研修次數已達上限\n次日零時恢復"
 }
 
-_G.pg.gametip.meta_switch_skill_box_title = {
+_G.pg.base.gametip.meta_switch_skill_box_title = {
 	tip = "是否開始技能$1的研修？ \n"
 }
 
-_G.pg.gametip.meta_cur_pt = {
+_G.pg.base.gametip.meta_cur_pt = {
 	tip = "當前同步值"
 }
 
-_G.pg.gametip.meta_toast_fullexp = {
+_G.pg.base.gametip.meta_toast_fullexp = {
 	tip = "已達本日研修上限"
 }
 
-_G.pg.gametip.meta_toast_tactics = {
+_G.pg.base.gametip.meta_toast_tactics = {
 	tip = "研修EXP"
 }
 
-_G.pg.gametip.meta_skillbtn_tactics = {
+_G.pg.base.gametip.meta_skillbtn_tactics = {
 	tip = "研 修"
 }
 
-_G.pg.gametip.meta_destroy_tip = {
+_G.pg.base.gametip.meta_destroy_tip = {
 	tip = "META角色不能被退役"
 }
 
-_G.pg.gametip.meta_voice_name_feeling1 = {
+_G.pg.base.gametip.meta_voice_name_feeling1 = {
 	tip = "未知"
 }
 
-_G.pg.gametip.meta_voice_name_feeling2 = {
+_G.pg.base.gametip.meta_voice_name_feeling2 = {
 	tip = "調率"
 }
 
-_G.pg.gametip.meta_voice_name_feeling3 = {
+_G.pg.base.gametip.meta_voice_name_feeling3 = {
 	tip = "理解"
 }
 
-_G.pg.gametip.meta_voice_name_feeling4 = {
+_G.pg.base.gametip.meta_voice_name_feeling4 = {
 	tip = "同步"
 }
 
-_G.pg.gametip.meta_voice_name_feeling5 = {
+_G.pg.base.gametip.meta_voice_name_feeling5 = {
 	tip = "共鳴"
 }
 
-_G.pg.gametip.meta_voice_name_propose = {
+_G.pg.base.gametip.meta_voice_name_propose = {
 	tip = "誓約"
 }
 
-_G.pg.gametip.world_boss_ad = {
+_G.pg.base.gametip.world_boss_ad = {
 	tip = "[$1]TIER.$2"
 }
 
-_G.pg.gametip.world_boss_drop_title = {
+_G.pg.base.gametip.world_boss_drop_title = {
 	tip = "座標收集(未使用)"
 }
 
-_G.pg.gametip.world_boss_pt_recove_desc = {
+_G.pg.base.gametip.world_boss_pt_recove_desc = {
 	tip = "每天0點回復$1點挑戰次數"
 }
 
-_G.pg.gametip.world_boss_progress_item_desc = {
+_G.pg.base.gametip.world_boss_progress_item_desc = {
 	tip = [[
 用於記錄在大型作戰中收集到的<color=#92fc63>「餘燼座標數據」</color>的裝置，達到指定數據量後可據此數據進行解析，發現餘燼座標
 P.S.記錄儀的記錄容量有限，請務必及時前往解析
@@ -16059,59 +16059,59 @@ P.S.記錄儀的記錄容量有限，請務必及時前往解析
 數據記錄量：$3]]
 }
 
-_G.pg.gametip.world_joint_max_challenge_people_cnt = {
+_G.pg.base.gametip.world_joint_max_challenge_people_cnt = {
 	tip = "挑戰人數已滿，無法呼叫支援！"
 }
 
-_G.pg.gametip.equip_ammo_type_1 = {
+_G.pg.base.gametip.equip_ammo_type_1 = {
 	tip = "穿甲彈"
 }
 
-_G.pg.gametip.equip_ammo_type_2 = {
+_G.pg.base.gametip.equip_ammo_type_2 = {
 	tip = "高爆彈"
 }
 
-_G.pg.gametip.equip_ammo_type_3 = {
+_G.pg.base.gametip.equip_ammo_type_3 = {
 	tip = "通常彈"
 }
 
-_G.pg.gametip.equip_ammo_type_4 = {
+_G.pg.base.gametip.equip_ammo_type_4 = {
 	tip = "聲導"
 }
 
-_G.pg.gametip.equip_ammo_type_5 = {
+_G.pg.base.gametip.equip_ammo_type_5 = {
 	tip = "通常"
 }
 
-_G.pg.gametip.equip_ammo_type_6 = {
+_G.pg.base.gametip.equip_ammo_type_6 = {
 	tip = "三式彈"
 }
 
-_G.pg.gametip.equip_ammo_type_7 = {
+_G.pg.base.gametip.equip_ammo_type_7 = {
 	tip = "半穿甲彈"
 }
 
-_G.pg.gametip.equip_ammo_type_8 = {
+_G.pg.base.gametip.equip_ammo_type_8 = {
 	tip = "定深式"
 }
 
-_G.pg.gametip.equip_ammo_type_9 = {
+_G.pg.base.gametip.equip_ammo_type_9 = {
 	tip = "觸發式"
 }
 
-_G.pg.gametip.equip_ammo_type_10 = {
+_G.pg.base.gametip.equip_ammo_type_10 = {
 	tip = "無"
 }
 
-_G.pg.gametip.equip_ammo_type_11 = {
+_G.pg.base.gametip.equip_ammo_type_11 = {
 	tip = "導彈"
 }
 
-_G.pg.gametip.common_daily_limit = {
+_G.pg.base.gametip.common_daily_limit = {
 	tip = "每日上限(未使用)"
 }
 
-_G.pg.gametip.meta_help = {
+_G.pg.base.gametip.meta_help = {
 	tip = {
 		{
 			info = "META研究室說明："
@@ -16150,303 +16150,303 @@ _G.pg.gametip.meta_help = {
 	}
 }
 
-_G.pg.gametip.world_boss_daily_limit = {
+_G.pg.base.gametip.world_boss_daily_limit = {
 	tip = "已達每日上限"
 }
 
-_G.pg.gametip.common_go_to_analyze = {
+_G.pg.base.gametip.common_go_to_analyze = {
 	tip = "前往解析"
 }
 
-_G.pg.gametip.world_boss_not_reach_target = {
+_G.pg.base.gametip.world_boss_not_reach_target = {
 	tip = "未達到指定數據量"
 }
 
-_G.pg.gametip.special_transform_limit_reach = {
+_G.pg.base.gametip.special_transform_limit_reach = {
 	tip = "已經擁有該改造道具或對應的改造後艦船，無法兌換"
 }
 
-_G.pg.gametip.meta_pt_notenough = {
+_G.pg.base.gametip.meta_pt_notenough = {
 	tip = "當前同步值不足，請前往<color=#92fc63>大型作戰</color>中的座標·燼作戰獲取"
 }
 
-_G.pg.gametip.meta_boss_unlock = {
+_G.pg.base.gametip.meta_boss_unlock = {
 	tip = "通過<color=#92fc63>大型作戰</color>第一章，解鎖座標·燼功能後開啟角色獲取！"
 }
 
-_G.pg.gametip.word_take_effect = {
+_G.pg.base.gametip.word_take_effect = {
 	tip = "生效"
 }
 
-_G.pg.gametip.world_boss_challenge_cnt = {
+_G.pg.base.gametip.world_boss_challenge_cnt = {
 	tip = "挑戰人數"
 }
 
-_G.pg.gametip.word_shipNation_meta = {
+_G.pg.base.gametip.word_shipNation_meta = {
 	tip = "???"
 }
 
-_G.pg.gametip.world_word_friend = {
+_G.pg.base.gametip.world_word_friend = {
 	tip = "戰友"
 }
 
-_G.pg.gametip.world_word_world = {
+_G.pg.base.gametip.world_word_world = {
 	tip = "世界"
 }
 
-_G.pg.gametip.world_word_guild = {
+_G.pg.base.gametip.world_word_guild = {
 	tip = "大艦隊"
 }
 
-_G.pg.gametip.world_collection_1 = {
+_G.pg.base.gametip.world_collection_1 = {
 	tip = "收集進度"
 }
 
-_G.pg.gametip.world_collection_2 = {
+_G.pg.base.gametip.world_collection_2 = {
 	tip = "進度"
 }
 
-_G.pg.gametip.world_collection_3 = {
+_G.pg.base.gametip.world_collection_3 = {
 	tip = "收集率"
 }
 
-_G.pg.gametip.zero_hour_command_error = {
+_G.pg.base.gametip.zero_hour_command_error = {
 	tip = "零點數據更新錯誤"
 }
 
-_G.pg.gametip.commander_is_in_bigworld = {
+_G.pg.base.gametip.commander_is_in_bigworld = {
 	tip = "該指揮喵在大型作戰中"
 }
 
-_G.pg.gametip.world_collection_back = {
+_G.pg.base.gametip.world_collection_back = {
 	tip = "點擊空白處返回"
 }
 
-_G.pg.gametip.archives_whether_to_retreat = {
+_G.pg.base.gametip.archives_whether_to_retreat = {
 	tip = "真的要<color=#92fc63>撤退</color>嗎?\n（撤退不返還檔案密鑰） "
 }
 
-_G.pg.gametip.world_fleet_stop = {
+_G.pg.base.gametip.world_fleet_stop = {
 	tip = "艦隊移動正在停止"
 }
 
-_G.pg.gametip.world_setting_title = {
+_G.pg.base.gametip.world_setting_title = {
 	tip = "大型作戰設置"
 }
 
-_G.pg.gametip.world_setting_quickmode = {
+_G.pg.base.gametip.world_setting_quickmode = {
 	tip = "減少TB引導"
 }
 
-_G.pg.gametip.world_setting_quickmodetip = {
+_G.pg.base.gametip.world_setting_quickmodetip = {
 	tip = "功能開啟後，不再播放重複的TB引導說明"
 }
 
-_G.pg.gametip.world_setting_submititem = {
+_G.pg.base.gametip.world_setting_submititem = {
 	tip = "自律時自動提交道具"
 }
 
-_G.pg.gametip.world_setting_submititemtip = {
+_G.pg.base.gametip.world_setting_submititemtip = {
 	tip = "功能開啟後，自律時自動完成需要提交道具的事件"
 }
 
-_G.pg.gametip.world_setting_mapauto = {
+_G.pg.base.gametip.world_setting_mapauto = {
 	tip = "安全海域默認開啟自律"
 }
 
-_G.pg.gametip.world_setting_mapautotip = {
+_G.pg.base.gametip.world_setting_mapautotip = {
 	tip = "功能開啟後，進入安全海域時將會默認開啟自律模式"
 }
 
-_G.pg.gametip.world_boss_maintenance = {
+_G.pg.base.gametip.world_boss_maintenance = {
 	tip = "伺服器即將維護,無法進行信標·META作戰"
 }
 
-_G.pg.gametip.world_boss_inbattle = {
+_G.pg.base.gametip.world_boss_inbattle = {
 	tip = "當前處於信標·META作戰中，不可前往"
 }
 
-_G.pg.gametip.world_automode_title_1 = {
+_G.pg.base.gametip.world_automode_title_1 = {
 	tip = "計劃作戰模式"
 }
 
-_G.pg.gametip.world_automode_title_2 = {
+_G.pg.base.gametip.world_automode_title_2 = {
 	tip = "OPERATION"
 }
 
-_G.pg.gametip.world_automode_cancel = {
+_G.pg.base.gametip.world_automode_cancel = {
 	tip = "取消"
 }
 
-_G.pg.gametip.world_automode_confirm = {
+_G.pg.base.gametip.world_automode_confirm = {
 	tip = "執行"
 }
 
-_G.pg.gametip.world_automode_start_tip1 = {
+_G.pg.base.gametip.world_automode_start_tip1 = {
 	tip = "不存在符合條件的海域"
 }
 
-_G.pg.gametip.world_automode_start_tip2 = {
+_G.pg.base.gametip.world_automode_start_tip2 = {
 	tip = "行動力不足"
 }
 
-_G.pg.gametip.world_automode_start_tip3 = {
+_G.pg.base.gametip.world_automode_start_tip3 = {
 	tip = "當前並未處於安全海域內"
 }
 
-_G.pg.gametip.world_automode_start_tip4 = {
+_G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "當前海域無法離開"
 }
 
-_G.pg.gametip.world_automode_setting_1 = {
+_G.pg.base.gametip.world_automode_setting_1 = {
 	tip = "需要壓制的侵蝕等級"
 }
 
-_G.pg.gametip.world_automode_setting_1_1 = {
+_G.pg.base.gametip.world_automode_setting_1_1 = {
 	tip = "4級以下 "
 }
 
-_G.pg.gametip.world_automode_setting_1_2 = {
+_G.pg.base.gametip.world_automode_setting_1_2 = {
 	tip = "5"
 }
 
-_G.pg.gametip.world_automode_setting_1_3 = {
+_G.pg.base.gametip.world_automode_setting_1_3 = {
 	tip = "6"
 }
 
-_G.pg.gametip.world_automode_setting_1_4 = {
+_G.pg.base.gametip.world_automode_setting_1_4 = {
 	tip = "全部"
 }
 
-_G.pg.gametip.world_automode_setting_2 = {
+_G.pg.base.gametip.world_automode_setting_2 = {
 	tip = "選擇作戰執行模式"
 }
 
-_G.pg.gametip.world_automode_setting_2_1 = {
+_G.pg.base.gametip.world_automode_setting_2_1 = {
 	tip = "重複當前海域"
 }
 
-_G.pg.gametip.world_automode_setting_2_2 = {
+_G.pg.base.gametip.world_automode_setting_2_2 = {
 	tip = "全海域隨機選擇"
 }
 
-_G.pg.gametip.world_automode_setting_all_1 = {
+_G.pg.base.gametip.world_automode_setting_all_1 = {
 	tip = "是否因神秘商人暫停"
 }
 
-_G.pg.gametip.world_automode_setting_all_1_1 = {
+_G.pg.base.gametip.world_automode_setting_all_1_1 = {
 	tip = "是"
 }
 
-_G.pg.gametip.world_automode_setting_all_1_2 = {
+_G.pg.base.gametip.world_automode_setting_all_1_2 = {
 	tip = "否"
 }
 
-_G.pg.gametip.world_automode_setting_all_2 = {
+_G.pg.base.gametip.world_automode_setting_all_2 = {
 	tip = "信標數據點數提示"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_1 = {
+_G.pg.base.gametip.world_automode_setting_all_2_1 = {
 	tip = "關"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_2 = {
+_G.pg.base.gametip.world_automode_setting_all_2_2 = {
 	tip = "滿100點提示"
 }
 
-_G.pg.gametip.world_automode_setting_all_2_3 = {
+_G.pg.base.gametip.world_automode_setting_all_2_3 = {
 	tip = "滿200點提示"
 }
 
-_G.pg.gametip.world_automode_setting_all_3 = {
+_G.pg.base.gametip.world_automode_setting_all_3 = {
 	tip = "自律時自動提交道具"
 }
 
-_G.pg.gametip.world_automode_setting_all_3_1 = {
+_G.pg.base.gametip.world_automode_setting_all_3_1 = {
 	tip = "關"
 }
 
-_G.pg.gametip.world_automode_setting_all_3_2 = {
+_G.pg.base.gametip.world_automode_setting_all_3_2 = {
 	tip = "開"
 }
 
-_G.pg.gametip.world_automode_setting_all_4 = {
+_G.pg.base.gametip.world_automode_setting_all_4 = {
 	tip = "是否因塞壬裝置暫停"
 }
 
-_G.pg.gametip.world_automode_setting_all_4_1 = {
+_G.pg.base.gametip.world_automode_setting_all_4_1 = {
 	tip = "是"
 }
 
-_G.pg.gametip.world_automode_setting_all_4_2 = {
+_G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "否"
 }
 
-_G.pg.gametip.world_collection_task_tip_1 = {
+_G.pg.base.gametip.world_collection_task_tip_1 = {
 	tip = "已有正在進行中的檔案任務，無法繼續購買。"
 }
 
-_G.pg.gametip.area_putong = {
+_G.pg.base.gametip.area_putong = {
 	tip = "普通海域"
 }
 
-_G.pg.gametip.area_anquan = {
+_G.pg.base.gametip.area_anquan = {
 	tip = "安全海域"
 }
 
-_G.pg.gametip.area_yaosai = {
+_G.pg.base.gametip.area_yaosai = {
 	tip = "塞壬要塞"
 }
 
-_G.pg.gametip.area_yaosai_2 = {
+_G.pg.base.gametip.area_yaosai_2 = {
 	tip = "當前海域已被塞壬入侵"
 }
 
-_G.pg.gametip.area_shenyuan = {
+_G.pg.base.gametip.area_shenyuan = {
 	tip = "深淵海域"
 }
 
-_G.pg.gametip.area_yinmi = {
+_G.pg.base.gametip.area_yinmi = {
 	tip = "隱秘海域"
 }
 
-_G.pg.gametip.area_renwu = {
+_G.pg.base.gametip.area_renwu = {
 	tip = "任務海域"
 }
 
-_G.pg.gametip.area_zhuxian = {
+_G.pg.base.gametip.area_zhuxian = {
 	tip = "主線海域"
 }
 
-_G.pg.gametip.area_dangan = {
+_G.pg.base.gametip.area_dangan = {
 	tip = "檔案海域"
 }
 
-_G.pg.gametip.charge_trade_no_error = {
+_G.pg.base.gametip.charge_trade_no_error = {
 	tip = "訂單id異常，請重新嘗試購買。"
 }
 
-_G.pg.gametip.world_reset_1 = {
+_G.pg.base.gametip.world_reset_1 = {
 	tip = "距離大型作戰重置<color=#92fc63>$1</color>天"
 }
 
-_G.pg.gametip.world_reset_2 = {
+_G.pg.base.gametip.world_reset_2 = {
 	tip = "大型作戰將於明日<color=#92fc63>$1</color>點重置"
 }
 
-_G.pg.gametip.world_reset_3 = {
+_G.pg.base.gametip.world_reset_3 = {
 	tip = "再次進入大型作戰後重置生效"
 }
 
-_G.pg.gametip.guild_is_frozen_when_start_tech = {
+_G.pg.base.gametip.guild_is_frozen_when_start_tech = {
 	tip = "該大艦隊已被凍結，無法開始科技"
 }
 
-_G.pg.gametip.world_boss_unactivated = {
+_G.pg.base.gametip.world_boss_unactivated = {
 	tip = "請先啟動大型作戰，再進行挑戰"
 }
 
-_G.pg.gametip.world_reset_tip = {
+_G.pg.base.gametip.world_reset_tip = {
 	tip = {
 		{
 			info = [[
@@ -16480,123 +16480,123 @@ _G.pg.gametip.world_reset_tip = {
 	}
 }
 
-_G.pg.gametip.spring_invited_2021 = {
+_G.pg.base.gametip.spring_invited_2021 = {
 	tip = "指揮官只能選擇一人贈予賀年卡，\n是否確認贈予<color=#92fc63>$1</color>？\n贈予後會獲得對應角色和回禮"
 }
 
-_G.pg.gametip.charge_error_count_limit = {
+_G.pg.base.gametip.charge_error_count_limit = {
 	tip = "已達今日購買次數上限，請嘗試其他儲值檔位"
 }
 
-_G.pg.gametip.levelScene_select_sp = {
+_G.pg.base.gametip.levelScene_select_sp = {
 	tip = "高效作戰指令書使用已開啟"
 }
 
-_G.pg.gametip.word_adjustFleet = {
+_G.pg.base.gametip.word_adjustFleet = {
 	tip = "編隊調整"
 }
 
-_G.pg.gametip.levelScene_select_noitem = {
+_G.pg.base.gametip.levelScene_select_noitem = {
 	tip = "暫無可使用道具"
 }
 
-_G.pg.gametip.story_setting_label = {
+_G.pg.base.gametip.story_setting_label = {
 	tip = "劇情自動播放速度調整 "
 }
 
-_G.pg.gametip.world_ship_repair = {
+_G.pg.base.gametip.world_ship_repair = {
 	tip = "請選擇需要使用的艦船："
 }
 
-_G.pg.gametip.area_unkown = {
+_G.pg.base.gametip.area_unkown = {
 	tip = "未知海域"
 }
 
-_G.pg.gametip.world_battle_damage = {
+_G.pg.base.gametip.world_battle_damage = {
 	tip = "<color=#ff5c5c>戰損狀態</color>需要通過艦隊維護或港口修理消除"
 }
 
-_G.pg.gametip.setting_story_speed_1 = {
+_G.pg.base.gametip.setting_story_speed_1 = {
 	tip = "慢 "
 }
 
-_G.pg.gametip.setting_story_speed_2 = {
+_G.pg.base.gametip.setting_story_speed_2 = {
 	tip = "正常 "
 }
 
-_G.pg.gametip.setting_story_speed_3 = {
+_G.pg.base.gametip.setting_story_speed_3 = {
 	tip = "快 "
 }
 
-_G.pg.gametip.setting_story_speed_4 = {
+_G.pg.base.gametip.setting_story_speed_4 = {
 	tip = "特快 "
 }
 
-_G.pg.gametip.story_autoplay_setting_label = {
+_G.pg.base.gametip.story_autoplay_setting_label = {
 	tip = "劇情自動播放"
 }
 
-_G.pg.gametip.story_autoplay_setting_1 = {
+_G.pg.base.gametip.story_autoplay_setting_1 = {
 	tip = "關閉"
 }
 
-_G.pg.gametip.story_autoplay_setting_2 = {
+_G.pg.base.gametip.story_autoplay_setting_2 = {
 	tip = "開啟"
 }
 
-_G.pg.gametip.meta_shop_exchange_limit = {
+_G.pg.base.gametip.meta_shop_exchange_limit = {
 	tip = "尚未獲得艦船"
 }
 
-_G.pg.gametip.meta_shop_unexchange_label = {
+_G.pg.base.gametip.meta_shop_unexchange_label = {
 	tip = "尚未獲得艦船"
 }
 
-_G.pg.gametip.daily_level_quick_battle_label2 = {
+_G.pg.base.gametip.daily_level_quick_battle_label2 = {
 	tip = "挑戰"
 }
 
-_G.pg.gametip.daily_level_quick_battle_label1 = {
+_G.pg.base.gametip.daily_level_quick_battle_label1 = {
 	tip = "快速挑戰<color=$2>$1</color>次"
 }
 
-_G.pg.gametip.dailyLevel_quickfinish = {
+_G.pg.base.gametip.dailyLevel_quickfinish = {
 	tip = "是否進行快速挑戰？ \n快速挑戰可以直接獲得每日挑戰關卡中應得的全部掉落獎勵。 \n<color=#92fc63>不消耗</color>石油，不會獲得任何指揮官經驗、艦船經驗，也不會影響艦船的心情與好感度。"
 }
 
-_G.pg.gametip.daily_level_quick_battle_label3 = {
+_G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "快速挑戰"
 }
 
-_G.pg.gametip.LevelSignal = {
+_G.pg.base.gametip.LevelSignal = {
 	tip = "海域救援"
 }
 
-_G.pg.gametip.LevelSignal_go = {
+_G.pg.base.gametip.LevelSignal_go = {
 	tip = "前往"
 }
 
-_G.pg.gametip.LevelSignal_search = {
+_G.pg.base.gametip.LevelSignal_search = {
 	tip = "搜索訊號"
 }
 
-_G.pg.gametip.LevelSignal_times = {
+_G.pg.base.gametip.LevelSignal_times = {
 	tip = "可進行海域救援的次數："
 }
 
-_G.pg.gametip.LevelSignal_intensity = {
+_G.pg.base.gametip.LevelSignal_intensity = {
 	tip = "訊號強度："
 }
 
-_G.pg.gametip.backyard_longpress_ship_tip = {
+_G.pg.base.gametip.backyard_longpress_ship_tip = {
 	tip = "※長按可以跳轉至角色養成介面"
 }
 
-_G.pg.gametip.common_npc_formation_tip = {
+_G.pg.base.gametip.common_npc_formation_tip = {
 	tip = "NPC角色無法加入當前編隊！"
 }
 
-_G.pg.gametip.gametip_xiaotiancheng = {
+_G.pg.base.gametip.gametip_xiaotiancheng = {
 	tip = {
 		{
 			info = "「小小軍師成長記」說明："
@@ -16625,79 +16625,79 @@ _G.pg.gametip.gametip_xiaotiancheng = {
 	}
 }
 
-_G.pg.gametip.guild_task_autoaccept_1 = {
+_G.pg.base.gametip.guild_task_autoaccept_1 = {
 	tip = "本次作戰自動領取任務：$1"
 }
 
-_G.pg.gametip.guild_task_autoaccept_2 = {
+_G.pg.base.gametip.guild_task_autoaccept_2 = {
 	tip = "已自動領取大艦隊任務：$1"
 }
 
-_G.pg.gametip.task_lock = {
+_G.pg.base.gametip.task_lock = {
 	tip = "$1 級解鎖"
 }
 
-_G.pg.gametip.week_task_pt_name = {
+_G.pg.base.gametip.week_task_pt_name = {
 	tip = "活躍度"
 }
 
-_G.pg.gametip.week_task_award_preview_label = {
+_G.pg.base.gametip.week_task_award_preview_label = {
 	tip = "查看獎勵"
 }
 
-_G.pg.gametip.week_task_title_label = {
+_G.pg.base.gametip.week_task_title_label = {
 	tip = "每週活躍獎勵"
 }
 
-_G.pg.gametip.cattery_op_clean_success = {
+_G.pg.base.gametip.cattery_op_clean_success = {
 	tip = "清理成功"
 }
 
-_G.pg.gametip.cattery_op_feed_success = {
+_G.pg.base.gametip.cattery_op_feed_success = {
 	tip = "餵食成功"
 }
 
-_G.pg.gametip.cattery_op_play_success = {
+_G.pg.base.gametip.cattery_op_play_success = {
 	tip = "逗喵成功"
 }
 
-_G.pg.gametip.cattery_style_change_success = {
+_G.pg.base.gametip.cattery_style_change_success = {
 	tip = "換裝成功"
 }
 
-_G.pg.gametip.cattery_add_commander_success = {
+_G.pg.base.gametip.cattery_add_commander_success = {
 	tip = "放入指揮喵成功"
 }
 
-_G.pg.gametip.cattery_remove_commander_success = {
+_G.pg.base.gametip.cattery_remove_commander_success = {
 	tip = "移除指揮喵成功"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_1 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_1 = {
 	tip = "是否使用喵箱訓練加速工具？"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_2 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_2 = {
 	tip = "（單個道具可加速20分鐘）"
 }
 
-_G.pg.gametip.commander_box_quickly_tool_tip_3 = {
+_G.pg.base.gametip.commander_box_quickly_tool_tip_3 = {
 	tip = "剩餘時間："
 }
 
-_G.pg.gametip.commander_box_was_finished = {
+_G.pg.base.gametip.commander_box_was_finished = {
 	tip = "該喵箱已訓練完成"
 }
 
-_G.pg.gametip.comander_tool_cnt_is_reclac = {
+_G.pg.base.gametip.comander_tool_cnt_is_reclac = {
 	tip = "已重新計算使用數量"
 }
 
-_G.pg.gametip.comander_tool_max_cnt = {
+_G.pg.base.gametip.comander_tool_max_cnt = {
 	tip = "當前擁有 : $1個"
 }
 
-_G.pg.gametip.cat_home_help = {
+_G.pg.base.gametip.cat_home_help = {
 	tip = {
 		{
 			info = [[
@@ -16712,95 +16712,95 @@ _G.pg.gametip.cat_home_help = {
 	}
 }
 
-_G.pg.gametip.cat_accelfrate_notenough = {
+_G.pg.base.gametip.cat_accelfrate_notenough = {
 	tip = "喵箱加速道具數量不足"
 }
 
-_G.pg.gametip.cat_home_unlock = {
+_G.pg.base.gametip.cat_home_unlock = {
 	tip = "請提升喵窩等級以解鎖更多喵窩"
 }
 
-_G.pg.gametip.cat_sleep_notplay = {
+_G.pg.base.gametip.cat_sleep_notplay = {
 	tip = "該指揮喵在休息中，無法作為玩伴"
 }
 
-_G.pg.gametip.cathome_style_unlock = {
+_G.pg.base.gametip.cathome_style_unlock = {
 	tip = "請提升喵窩等級以解鎖更多樣式"
 }
 
-_G.pg.gametip.commander_is_in_cattery = {
+_G.pg.base.gametip.commander_is_in_cattery = {
 	tip = "該指揮喵已經在喵窩中了"
 }
 
-_G.pg.gametip.cat_home_interaction = {
+_G.pg.base.gametip.cat_home_interaction = {
 	tip = "該指揮喵已經$1過了"
 }
 
-_G.pg.gametip.cat_accelerate_left = {
+_G.pg.base.gametip.cat_accelerate_left = {
 	tip = "使用後剩餘："
 }
 
-_G.pg.gametip.common_clean = {
+_G.pg.base.gametip.common_clean = {
 	tip = "清掃"
 }
 
-_G.pg.gametip.common_feed = {
+_G.pg.base.gametip.common_feed = {
 	tip = "餵食"
 }
 
-_G.pg.gametip.common_play = {
+_G.pg.base.gametip.common_play = {
 	tip = "逗喵"
 }
 
-_G.pg.gametip.game_stopwords = {
+_G.pg.base.gametip.game_stopwords = {
 	tip = "主介面台詞框已隱藏"
 }
 
-_G.pg.gametip.game_openwords = {
+_G.pg.base.gametip.game_openwords = {
 	tip = "主介面台詞框已顯示"
 }
 
-_G.pg.gametip.amusementpark_shop_enter = {
+_G.pg.base.gametip.amusementpark_shop_enter = {
 	tip = "歡迎來到兌換屋。今天想要兌換什麼獎品呢？"
 }
 
-_G.pg.gametip.amusementpark_shop_exchange = {
+_G.pg.base.gametip.amusementpark_shop_exchange = {
 	tip = "沒有足夠的兌換券可換不到獎品喲~快去完成限時任務獲得啾啾兌換券吧！"
 }
 
-_G.pg.gametip.amusementpark_shop_success = {
+_G.pg.base.gametip.amusementpark_shop_success = {
 	tip = "謝謝惠顧！"
 }
 
-_G.pg.gametip.amusementpark_shop_special = {
+_G.pg.base.gametip.amusementpark_shop_special = {
 	tip = "特別獎勵已解鎖，請收下這份大獎吧~！"
 }
 
-_G.pg.gametip.amusementpark_shop_end = {
+_G.pg.base.gametip.amusementpark_shop_end = {
 	tip = "獎品已經全部兌換完了哦，完美清倉！"
 }
 
-_G.pg.gametip.amusementpark_shop_0 = {
+_G.pg.base.gametip.amusementpark_shop_0 = {
 	tip = "♫手握著蠻啾之力~正義的英雄~蠻啾人~♫"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel1 = {
+_G.pg.base.gametip.amusementpark_shop_carousel1 = {
 	tip = "♫高舉毫無迷茫的旗幟~朝著應抵達的彼岸~航行~♫"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel2 = {
+_G.pg.base.gametip.amusementpark_shop_carousel2 = {
 	tip = "♫用一條長長的直線~勾勒出~你的無數個下一站~♫"
 }
 
-_G.pg.gametip.amusementpark_shop_carousel3 = {
+_G.pg.base.gametip.amusementpark_shop_carousel3 = {
 	tip = "請慢慢挑，我會用唱歌打發時間的~"
 }
 
-_G.pg.gametip.amusementpark_shop_exchange2 = {
+_G.pg.base.gametip.amusementpark_shop_exchange2 = {
 	tip = "是否花費$1個 <icon name=Props/AmusementparkshopPT w=0.7 h=0.7/> 兌換$2個$3？"
 }
 
-_G.pg.gametip.amusementpark_help = {
+_G.pg.base.gametip.amusementpark_help = {
 	tip = {
 		{
 			info = [[
@@ -16822,7 +16822,7 @@ _G.pg.gametip.amusementpark_help = {
 	}
 }
 
-_G.pg.gametip.amusementpark_shop_help = {
+_G.pg.base.gametip.amusementpark_shop_help = {
 	tip = {
 		{
 			info = [[
@@ -16834,7 +16834,7 @@ _G.pg.gametip.amusementpark_shop_help = {
 	}
 }
 
-_G.pg.gametip.handshake_game_help = {
+_G.pg.base.gametip.handshake_game_help = {
 	tip = {
 		{
 			info = [[
@@ -16848,19 +16848,51 @@ _G.pg.gametip.handshake_game_help = {
 	}
 }
 
-_G.pg.gametip.activity_permanent_total = {
+_G.pg.base.gametip.MeixiV4_help = {
+	tip = {
+		{
+			info = "「銀色檔案」說明："
+		},
+		{
+			info = "1.活動期間，5月25日為止每天零點解鎖2次作戰任務，完成當前任務方可解鎖下一個任務"
+		},
+		{
+			info = "2.完成全部任務可獲得限定裝備「作戰報告：AF」"
+		},
+		{
+			info = [[
+3.獎勵說明：
+第一天任務1：T2隨機部件*5，物資*100
+第一天任務2：解鎖銀色檔案劇情1
+第二天任務1：T2隨機改造圖紙*2
+第二天任務2：物資*100
+第三天任務1：T2隨機科技箱*3，物資*100
+第三天任務2：解鎖銀色檔案劇情2
+第四天任務1：海軍咖哩*3
+第四天任務2：物資*100
+第五天任務1：T3隨機科技箱*1，物資*100
+第五天任務2：解鎖銀色檔案劇情3
+第六天任務1：T3隨機教材*2
+第六天任務2：物資*100
+第七天任務1：作戰報告AF，物資*100
+第七天任務2：解鎖銀色檔案劇情4]]
+		}
+	}
+}
+
+_G.pg.base.gametip.activity_permanent_total = {
 	tip = "活動列表"
 }
 
-_G.pg.gametip.word_investigate = {
+_G.pg.base.gametip.word_investigate = {
 	tip = "偵查"
 }
 
-_G.pg.gametip.ambush_display_none = {
+_G.pg.base.gametip.ambush_display_none = {
 	tip = "無"
 }
 
-_G.pg.gametip.activity_permanent_help = {
+_G.pg.base.gametip.activity_permanent_help = {
 	tip = {
 		{
 			info = [[
@@ -16872,27 +16904,27 @@ _G.pg.gametip.activity_permanent_help = {
 	}
 }
 
-_G.pg.gametip.activity_permanent_tips1 = {
+_G.pg.base.gametip.activity_permanent_tips1 = {
 	tip = "<size=40>是否開啟活動<color=#92fc63>「$1」</color>？ </size>"
 }
 
-_G.pg.gametip.activity_permanent_tips2 = {
+_G.pg.base.gametip.activity_permanent_tips2 = {
 	tip = "活動已完成，點擊後將會關閉當前活動並前往活動列表。"
 }
 
-_G.pg.gametip.activity_permanent_tips3 = {
+_G.pg.base.gametip.activity_permanent_tips3 = {
 	tip = "完成並關閉當前活動後才可開啟下一項活動"
 }
 
-_G.pg.gametip.activity_permanent_tips4 = {
+_G.pg.base.gametip.activity_permanent_tips4 = {
 	tip = "<size=30><color=#a2a2a2>同一時間只能開啟一項活動，完成當前活動後\n才能開啟下一項。 </color></size>"
 }
 
-_G.pg.gametip.activity_permanent_finished = {
+_G.pg.base.gametip.activity_permanent_finished = {
 	tip = "已完成"
 }
 
-_G.pg.gametip.idolmaster_main = {
+_G.pg.base.gametip.idolmaster_main = {
 	tip = {
 		{
 			info = [[
@@ -16909,27 +16941,27 @@ _G.pg.gametip.idolmaster_main = {
 	}
 }
 
-_G.pg.gametip.idolmaster_game_tip1 = {
+_G.pg.base.gametip.idolmaster_game_tip1 = {
 	tip = "是否繼續遊戲?"
 }
 
-_G.pg.gametip.idolmaster_game_tip2 = {
+_G.pg.base.gametip.idolmaster_game_tip2 = {
 	tip = "是否退出遊戲?"
 }
 
-_G.pg.gametip.idolmaster_game_tip3 = {
+_G.pg.base.gametip.idolmaster_game_tip3 = {
 	tip = "本次得分 :"
 }
 
-_G.pg.gametip.idolmaster_game_tip4 = {
+_G.pg.base.gametip.idolmaster_game_tip4 = {
 	tip = "最高得分 :"
 }
 
-_G.pg.gametip.idolmaster_game_tip5 = {
+_G.pg.base.gametip.idolmaster_game_tip5 = {
 	tip = "分數 :"
 }
 
-_G.pg.gametip.idolmaster_collection = {
+_G.pg.base.gametip.idolmaster_collection = {
 	tip = {
 		{
 			info = [[
@@ -16945,187 +16977,187 @@ _G.pg.gametip.idolmaster_collection = {
 	}
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling1 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling1 = {
 	tip = "失望"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling2 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling2 = {
 	tip = "普通"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling3 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling3 = {
 	tip = "友好"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling4 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
 	tip = "協作"
 }
 
-_G.pg.gametip.idolmaster_voice_name_feeling5 = {
+_G.pg.base.gametip.idolmaster_voice_name_feeling5 = {
 	tip = "應援"
 }
 
-_G.pg.gametip.idolmaster_voice_name_propose = {
+_G.pg.base.gametip.idolmaster_voice_name_propose = {
 	tip = "誓約"
 }
 
-_G.pg.gametip.cartoon_notall = {
+_G.pg.base.gametip.cartoon_notall = {
 	tip = "未讀"
 }
 
-_G.pg.gametip.cartoon_haveno = {
+_G.pg.base.gametip.cartoon_haveno = {
 	tip = "暫無符合條件的漫畫"
 }
 
-_G.pg.gametip.res_cartoon_new_tip = {
+_G.pg.base.gametip.res_cartoon_new_tip = {
 	tip = "本次更新新增了$1張漫畫"
 }
 
-_G.pg.gametip.memory_actiivty_ex = {
+_G.pg.base.gametip.memory_actiivty_ex = {
 	tip = "E.X."
 }
 
-_G.pg.gametip.memory_activity_sp = {
+_G.pg.base.gametip.memory_activity_sp = {
 	tip = "S.P."
 }
 
-_G.pg.gametip.memory_activity_daily = {
+_G.pg.base.gametip.memory_activity_daily = {
 	tip = "日常"
 }
 
-_G.pg.gametip.memory_activity_others = {
+_G.pg.base.gametip.memory_activity_others = {
 	tip = "其他"
 }
 
-_G.pg.gametip.battle_end_title = {
+_G.pg.base.gametip.battle_end_title = {
 	tip = "戰鬥統計"
 }
 
-_G.pg.gametip.battle_end_subtitle1 = {
+_G.pg.base.gametip.battle_end_subtitle1 = {
 	tip = "作戰獎勵"
 }
 
-_G.pg.gametip.battle_end_subtitle2 = {
+_G.pg.base.gametip.battle_end_subtitle2 = {
 	tip = "戰術研習"
 }
 
-_G.pg.gametip.meta_skill_dailyexp = {
+_G.pg.base.gametip.meta_skill_dailyexp = {
 	tip = "每日可獲取經驗"
 }
 
-_G.pg.gametip.meta_skill_learn = {
+_G.pg.base.gametip.meta_skill_learn = {
 	tip = "※點擊技能可進行學習或切換"
 }
 
-_G.pg.gametip.meta_skill_maxtip = {
+_G.pg.base.gametip.meta_skill_maxtip = {
 	tip = "$1的當前研修技能已達滿級，是否前往切換研修技能？"
 }
 
-_G.pg.gametip.meta_tactics_detail = {
+_G.pg.base.gametip.meta_tactics_detail = {
 	tip = "查看詳情"
 }
 
-_G.pg.gametip.meta_tactics_unlock = {
+_G.pg.base.gametip.meta_tactics_unlock = {
 	tip = "習得技能"
 }
 
-_G.pg.gametip.meta_tactics_switch = {
+_G.pg.base.gametip.meta_tactics_switch = {
 	tip = "研修技能"
 }
 
-_G.pg.gametip.meta_skill_maxtip2 = {
+_G.pg.base.gametip.meta_skill_maxtip2 = {
 	tip = "該技能已滿級"
 }
 
-_G.pg.gametip.activity_permanent_progress = {
+_G.pg.base.gametip.activity_permanent_progress = {
 	tip = "進度："
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_1 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_1 = {
 	tip = "指揮官不在的"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_2 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_2 = {
 	tip = "裡，指揮喵得到充分的休息!"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_3 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_3 = {
 	tip = "共獲得"
 }
 
-_G.pg.gametip.cattery_settlement_dialogue_4 = {
+_G.pg.base.gametip.cattery_settlement_dialogue_4 = {
 	tip = "的經驗喵~"
 }
 
-_G.pg.gametip.blueprint_catchup_by_gold_confirm = {
+_G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "本次強化操作需要消耗$1物資，是否確認？"
 }
 
-_G.pg.gametip.tec_tip_no_consumption = {
+_G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "無消耗"
 }
 
-_G.pg.gametip.tec_tip_material_stock = {
+_G.pg.base.gametip.tec_tip_material_stock = {
 	tip = "庫存"
 }
 
-_G.pg.gametip.tec_tip_to_consumption = {
+_G.pg.base.gametip.tec_tip_to_consumption = {
 	tip = "消耗物資"
 }
 
-_G.pg.gametip.onebutton_max_tip = {
+_G.pg.base.gametip.onebutton_max_tip = {
 	tip = "一鍵MAX"
 }
 
-_G.pg.gametip.target_get_tip = {
+_G.pg.base.gametip.target_get_tip = {
 	tip = "目標"
 }
 
-_G.pg.gametip.fleet_select_title = {
+_G.pg.base.gametip.fleet_select_title = {
 	tip = "艦隊選擇"
 }
 
-_G.pg.gametip.backyard_rename_title = {
+_G.pg.base.gametip.backyard_rename_title = {
 	tip = "請輸入名稱"
 }
 
-_G.pg.gametip.backyard_rename_tip = {
+_G.pg.base.gametip.backyard_rename_tip = {
 	tip = "輸入後宅名稱"
 }
 
-_G.pg.gametip.equip_add = {
+_G.pg.base.gametip.equip_add = {
 	tip = "— 點擊添加裝備 —"
 }
 
-_G.pg.gametip.equipskin_add = {
+_G.pg.base.gametip.equipskin_add = {
 	tip = "— 點擊添加裝備外觀 —"
 }
 
-_G.pg.gametip.equipskin_none = {
+_G.pg.base.gametip.equipskin_none = {
 	tip = "— 該裝備無法使用外觀 —"
 }
 
-_G.pg.gametip.equipskin_typewrong = {
+_G.pg.base.gametip.equipskin_typewrong = {
 	tip = "— 該外觀與裝備類型不符 —"
 }
 
-_G.pg.gametip.equipskin_typewrong_en = {
+_G.pg.base.gametip.equipskin_typewrong_en = {
 	tip = "GEAR SKIN UNAVAILABLE"
 }
 
-_G.pg.gametip.user_is_banned = {
+_G.pg.base.gametip.user_is_banned = {
 	tip = "帳號已被封禁\n封禁結束時間: ($1)"
 }
 
-_G.pg.gametip.user_is_forever_banned = {
+_G.pg.base.gametip.user_is_forever_banned = {
 	tip = "帳號已被封禁"
 }
 
-_G.pg.gametip.old_class_is_close = {
+_G.pg.base.gametip.old_class_is_close = {
 	tip = "大講堂正在維護，請等待後續版本開放 "
 }
 
-_G.pg.gametip.activity_event_building = {
+_G.pg.base.gametip.activity_event_building = {
 	tip = {
 		{
 			info = [[
@@ -17147,7 +17179,7 @@ _G.pg.gametip.activity_event_building = {
 	}
 }
 
-_G.pg.gametip.salvage_tips = {
+_G.pg.base.gametip.salvage_tips = {
 	tip = {
 		{
 			info = [[
@@ -17177,7 +17209,7 @@ _G.pg.gametip.salvage_tips = {
 	}
 }
 
-_G.pg.gametip.tips_shakebeads = {
+_G.pg.base.gametip.tips_shakebeads = {
 	tip = {
 		{
 			info = [[
@@ -17195,15 +17227,15 @@ _G.pg.gametip.tips_shakebeads = {
 	}
 }
 
-_G.pg.gametip.gem_shop_xinzhi_tip = {
+_G.pg.base.gametip.gem_shop_xinzhi_tip = {
 	tip = "（本月已購買<color=#FF5C5CFF>$1</color>/15次）"
 }
 
-_G.pg.gametip.backyard_backyardScene_Disable_Rotation = {
+_G.pg.base.gametip.backyard_backyardScene_Disable_Rotation = {
 	tip = "該傢俱無法旋轉"
 }
 
-_G.pg.gametip.chazi_tips = {
+_G.pg.base.gametip.chazi_tips = {
 	tip = {
 		{
 			info = [[
@@ -17217,7 +17249,7 @@ _G.pg.gametip.chazi_tips = {
 	}
 }
 
-_G.pg.gametip.catchteasure_help = {
+_G.pg.base.gametip.catchteasure_help = {
 	tip = {
 		{
 			info = [[
@@ -17230,99 +17262,99 @@ _G.pg.gametip.catchteasure_help = {
 	}
 }
 
-_G.pg.gametip.unlock_tips = {
+_G.pg.base.gametip.unlock_tips = {
 	tip = "·  第$1日解鎖  ·"
 }
 
-_G.pg.gametip.class_label_tran = {
+_G.pg.base.gametip.class_label_tran = {
 	tip = "轉化:"
 }
 
-_G.pg.gametip.class_label_gen = {
+_G.pg.base.gametip.class_label_gen = {
 	tip = "生成中:"
 }
 
-_G.pg.gametip.class_attr_store = {
+_G.pg.base.gametip.class_attr_store = {
 	tip = "庫存上限"
 }
 
-_G.pg.gametip.class_attr_proficiency = {
+_G.pg.base.gametip.class_attr_proficiency = {
 	tip = "熟練度上限"
 }
 
-_G.pg.gametip.class_attr_getproficiency = {
+_G.pg.base.gametip.class_attr_getproficiency = {
 	tip = "熟練度獲取"
 }
 
-_G.pg.gametip.class_attr_costproficiency = {
+_G.pg.base.gametip.class_attr_costproficiency = {
 	tip = "熟練度消耗"
 }
 
-_G.pg.gametip.class_label_upgrading = {
+_G.pg.base.gametip.class_label_upgrading = {
 	tip = "升級中"
 }
 
-_G.pg.gametip.class_label_upgradetime = {
+_G.pg.base.gametip.class_label_upgradetime = {
 	tip = "升級時間"
 }
 
-_G.pg.gametip.class_label_oilfield = {
+_G.pg.base.gametip.class_label_oilfield = {
 	tip = "石油生產"
 }
 
-_G.pg.gametip.class_label_goldfield = {
+_G.pg.base.gametip.class_label_goldfield = {
 	tip = "物資產量"
 }
 
-_G.pg.gametip.class_res_maxlevel_tip = {
+_G.pg.base.gametip.class_res_maxlevel_tip = {
 	tip = "已達最大等級"
 }
 
-_G.pg.gametip.ship_exp_item_title = {
+_G.pg.base.gametip.ship_exp_item_title = {
 	tip = "等級提升"
 }
 
-_G.pg.gametip.ship_exp_item_label_clear = {
+_G.pg.base.gametip.ship_exp_item_label_clear = {
 	tip = "清 空"
 }
 
-_G.pg.gametip.ship_exp_item_label_recom = {
+_G.pg.base.gametip.ship_exp_item_label_recom = {
 	tip = "推 薦"
 }
 
-_G.pg.gametip.ship_exp_item_label_confirm = {
+_G.pg.base.gametip.ship_exp_item_label_confirm = {
 	tip = "確 認"
 }
 
-_G.pg.gametip.player_expResource_mail_fullBag = {
+_G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "資源已經達到上限，繼續會導致部分資源無法領取，是否繼續？"
 }
 
-_G.pg.gametip.tec_nation_award_finish = {
+_G.pg.base.gametip.tec_nation_award_finish = {
 	tip = "- 已領取 -"
 }
 
-_G.pg.gametip.coures_exp_overflow_tip = {
+_G.pg.base.gametip.coures_exp_overflow_tip = {
 	tip = "本次強化會溢出<color=#ffde38>$1</color>經驗，是否繼續 "
 }
 
-_G.pg.gametip.coures_exp_npc_tip = {
+_G.pg.base.gametip.coures_exp_npc_tip = {
 	tip = "該角色為NPC角色，活動結束時若未正式加入，將會離開港區。是否繼續？"
 }
 
-_G.pg.gametip.coures_level_tip = {
+_G.pg.base.gametip.coures_level_tip = {
 	tip = "<color=#E0E0E0>*使用「艦艇演習數據」可以快速獲得經驗 </color>"
 }
 
-_G.pg.gametip.coures_tip_material_stock = {
+_G.pg.base.gametip.coures_tip_material_stock = {
 	tip = "庫存："
 }
 
-_G.pg.gametip.coures_tip_exceeded_lv = {
+_G.pg.base.gametip.coures_tip_exceeded_lv = {
 	tip = "已達當前等級上限 "
 }
 
-_G.pg.gametip.eatgame_tips = {
+_G.pg.base.gametip.eatgame_tips = {
 	tip = {
 		{
 			info = [[
@@ -17336,31 +17368,31 @@ _G.pg.gametip.eatgame_tips = {
 	}
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_gunner = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
 	tip = "觸發全彈發射/專屬彈幕所需主炮射擊次數減半"
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_torpedo = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_torpedo = {
 	tip = "自身裝備的魚雷武器散佈角度減小"
 }
 
-_G.pg.gametip.breakout_tip_ultimatebonus_aux = {
+_G.pg.base.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "設備提供的基礎屬性額外提高30%"
 }
 
-_G.pg.gametip.map_event_lighthouse_tip_1 = {
+_G.pg.base.gametip.map_event_lighthouse_tip_1 = {
 	tip = "燈塔已點亮，後續戰鬥中將獲得燈塔照明效果"
 }
 
-_G.pg.gametip.battlepass_main_tip_2110 = {
+_G.pg.base.gametip.battlepass_main_tip_2110 = {
 	tip = "2022.2.1-2022.3.31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「扶桑·META」</color>在內的豐富獎勵"
 }
 
-_G.pg.gametip.battlepass_main_time = {
+_G.pg.base.gametip.battlepass_main_time = {
 	tip = "$1天$2時"
 }
 
-_G.pg.gametip.battlepass_main_help_2110 = {
+_G.pg.base.gametip.battlepass_main_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -17408,7 +17440,7 @@ _G.pg.gametip.battlepass_main_help_2110 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2110 = {
+_G.pg.base.gametip.cruise_task_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -17433,295 +17465,295 @@ _G.pg.gametip.cruise_task_help_2110 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_phase = {
+_G.pg.base.gametip.cruise_task_phase = {
 	tip = "巡游進度 | PHASE.$1"
 }
 
-_G.pg.gametip.cruise_task_tips = {
+_G.pg.base.gametip.cruise_task_tips = {
 	tip = "已完成："
 }
 
-_G.pg.gametip.battlepass_task_quickfinish1 = {
+_G.pg.base.gametip.battlepass_task_quickfinish1 = {
 	tip = "快速完成該任務需要消耗<color=#ff5c5c>$1張</color>「巡遊任務快速完成券」\n(當前擁有:<color=#92fc63>$2</color>張)\n是否確定使用？"
 }
 
-_G.pg.gametip.battlepass_task_quickfinish2 = {
+_G.pg.base.gametip.battlepass_task_quickfinish2 = {
 	tip = "所需道具不足，是否前往購買？\n還需要：<color=#ff5c5c>$1張</color>「巡遊任務快速完成券」"
 }
 
-_G.pg.gametip.battlepass_task_quickfinish3 = {
+_G.pg.base.gametip.battlepass_task_quickfinish3 = {
 	tip = "道具使用成功"
 }
 
-_G.pg.gametip.cruise_task_unlock = {
+_G.pg.base.gametip.cruise_task_unlock = {
 	tip = "該週任務將於$1天$2時後解鎖"
 }
 
-_G.pg.gametip.cruise_task_week = {
+_G.pg.base.gametip.cruise_task_week = {
 	tip = "第$1週"
 }
 
-_G.pg.gametip.battlepass_pay_timelimit = {
+_G.pg.base.gametip.battlepass_pay_timelimit = {
 	tip = "剩餘：$1"
 }
 
-_G.pg.gametip.battlepass_pay_acquire = {
+_G.pg.base.gametip.battlepass_pay_acquire = {
 	tip = "購買後立即獲得："
 }
 
-_G.pg.gametip.battlepass_pay_attention = {
+_G.pg.base.gametip.battlepass_pay_attention = {
 	tip = "是否前往世界巡遊活動領取獎勵？"
 }
 
-_G.pg.gametip.battlepass_acquire_attention = {
+_G.pg.base.gametip.battlepass_acquire_attention = {
 	tip = "世界巡遊將於$1後結束，尚有以下獎勵未領取  "
 }
 
-_G.pg.gametip.battlepass_pay_tip = {
+_G.pg.base.gametip.battlepass_pay_tip = {
 	tip = "購買後解鎖特許巡遊獎勵："
 }
 
-_G.pg.gametip.battlepass_main_tip1 = {
+_G.pg.base.gametip.battlepass_main_tip1 = {
 	tip = "活動期間，完成巡遊任務累計<icon name=pt w=1 h=1/>\n可獲取<color=#92fc63>「扶桑·META」</color>、<color=#92fc63>心智魔方</color>、\n<color=#92fc63>高級定向藍圖</color>在內的豐富獎勵"
 }
 
-_G.pg.gametip.battlepass_main_tip2 = {
+_G.pg.base.gametip.battlepass_main_tip2 = {
 	tip = "購買<icon name=pass w=1 h=1/>可解鎖\n<color=#92fc63>「約克鎮」限定換裝</color>、<color=#92fc63>鑽石</color>\n<color=#92fc63>心智魔方</color>在內的額外獎勵"
 }
 
-_G.pg.gametip.battlepass_main_tip3 = {
+_G.pg.base.gametip.battlepass_main_tip3 = {
 	tip = "活動期間，完成巡遊任務累計<icon name=pt w=1 h=1/>\n可獲取<color=#92fc63>「約克鎮」限定換裝</color>、\n<color=#92fc63>鑽石</color>、<color=#92fc63>心智魔方</color>在內的額外獎勵"
 }
 
-_G.pg.gametip.battlepass_complete = {
+_G.pg.base.gametip.battlepass_complete = {
 	tip = "當期世界巡遊已完成"
 }
 
-_G.pg.gametip.shop_free_tag = {
+_G.pg.base.gametip.shop_free_tag = {
 	tip = "免費"
 }
 
-_G.pg.gametip.quick_equip_tip1 = {
+_G.pg.base.gametip.quick_equip_tip1 = {
 	tip = "裝備中"
 }
 
-_G.pg.gametip.quick_equip_tip2 = {
+_G.pg.base.gametip.quick_equip_tip2 = {
 	tip = "篩選"
 }
 
-_G.pg.gametip.quick_equip_tip3 = {
+_G.pg.base.gametip.quick_equip_tip3 = {
 	tip = "倉庫"
 }
 
-_G.pg.gametip.quick_equip_tip4 = {
+_G.pg.base.gametip.quick_equip_tip4 = {
 	tip = "暫無符合條件的裝備"
 }
 
-_G.pg.gametip.quick_equip_tip5 = {
+_G.pg.base.gametip.quick_equip_tip5 = {
 	tip = "請從裝備欄中選擇需要更換的裝備"
 }
 
-_G.pg.gametip.quick_equip_tip6 = {
+_G.pg.base.gametip.quick_equip_tip6 = {
 	tip = "是否<color=#FF2222>卸下</color><color=#22ff22> $1</color>的<color=#22ff22>$2</color>"
 }
 
-_G.pg.gametip.retire_importantequipment_tips = {
+_G.pg.base.gametip.retire_importantequipment_tips = {
 	tip = "重要裝備無法批量拆解，請到倉庫內手動拆解"
 }
 
-_G.pg.gametip.settle_rewards_title = {
+_G.pg.base.gametip.settle_rewards_title = {
 	tip = "獲得結算獎勵"
 }
 
-_G.pg.gametip.settle_rewards_subtitle = {
+_G.pg.base.gametip.settle_rewards_subtitle = {
 	tip = "SETTLE REWARDS"
 }
 
-_G.pg.gametip.total_rewards_subtitle = {
+_G.pg.base.gametip.total_rewards_subtitle = {
 	tip = "TOTAL REWARDS"
 }
 
-_G.pg.gametip.settle_rewards_text = {
+_G.pg.base.gametip.settle_rewards_text = {
 	tip = "結算獎勵"
 }
 
-_G.pg.gametip.use_oil_limit_help = {
+_G.pg.base.gametip.use_oil_limit_help = {
 	tip = "由於當前艦隊消耗<icon name=oil w=0.7 h=0.7/>高於消耗上限，本次戰鬥消耗由<icon name=oil w=0.7 h=0.7/>$1點降低為<icon name=oil w=0.7 h=0.7/>$2點"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_tip = {
+_G.pg.base.gametip.formationScene_use_oil_limit_tip = {
 	tip = "周回模式下消耗上限:"
 }
 
-_G.pg.gametip.index_awakening2 = {
+_G.pg.base.gametip.index_awakening2 = {
 	tip = "<size=36>可認知覺醒</size><size=30>II</size>"
 }
 
-_G.pg.gametip.index_upgrade = {
+_G.pg.base.gametip.index_upgrade = {
 	tip = "可突破"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_enemy = {
+_G.pg.base.gametip.formationScene_use_oil_limit_enemy = {
 	tip = "道中"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_flagship = {
+_G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 	tip = "旗艦"
 }
 
-_G.pg.gametip.formationScene_use_oil_limit_submarine = {
+_G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "潛艇"
 }
 
-_G.pg.gametip.attr_durability = {
+_G.pg.base.gametip.attr_durability = {
 	tip = "耐久"
 }
 
-_G.pg.gametip.attr_armor = {
+_G.pg.base.gametip.attr_armor = {
 	tip = "裝甲"
 }
 
-_G.pg.gametip.attr_reload = {
+_G.pg.base.gametip.attr_reload = {
 	tip = "裝填"
 }
 
-_G.pg.gametip.attr_cannon = {
+_G.pg.base.gametip.attr_cannon = {
 	tip = "炮擊"
 }
 
-_G.pg.gametip.attr_torpedo = {
+_G.pg.base.gametip.attr_torpedo = {
 	tip = "雷擊"
 }
 
-_G.pg.gametip.attr_motion = {
+_G.pg.base.gametip.attr_motion = {
 	tip = "機動"
 }
 
-_G.pg.gametip.attr_antiaircraft = {
+_G.pg.base.gametip.attr_antiaircraft = {
 	tip = "防空"
 }
 
-_G.pg.gametip.attr_air = {
+_G.pg.base.gametip.attr_air = {
 	tip = "航空"
 }
 
-_G.pg.gametip.attr_hit = {
+_G.pg.base.gametip.attr_hit = {
 	tip = "命中"
 }
 
-_G.pg.gametip.attr_antisub = {
+_G.pg.base.gametip.attr_antisub = {
 	tip = "反潛"
 }
 
-_G.pg.gametip.attr_oxy_max = {
+_G.pg.base.gametip.attr_oxy_max = {
 	tip = "氧氣"
 }
 
-_G.pg.gametip.attr_ammo = {
+_G.pg.base.gametip.attr_ammo = {
 	tip = "彈藥量"
 }
 
-_G.pg.gametip.attr_hunting_range = {
+_G.pg.base.gametip.attr_hunting_range = {
 	tip = "狩獵範圍"
 }
 
-_G.pg.gametip.attr_luck = {
+_G.pg.base.gametip.attr_luck = {
 	tip = "幸運"
 }
 
-_G.pg.gametip.attr_consume = {
+_G.pg.base.gametip.attr_consume = {
 	tip = "消耗"
 }
 
-_G.pg.gametip.monthly_card_tip = {
+_G.pg.base.gametip.monthly_card_tip = {
 	tip = "30日每日獲得資源"
 }
 
-_G.pg.gametip.shopping_error_time_limit = {
+_G.pg.base.gametip.shopping_error_time_limit = {
 	tip = "由於禮包內容調整，此禮包將在本週四維護後恢復購買"
 }
 
-_G.pg.gametip.world_total_power = {
+_G.pg.base.gametip.world_total_power = {
 	tip = "總戰力"
 }
 
-_G.pg.gametip.world_mileage = {
+_G.pg.base.gametip.world_mileage = {
 	tip = "出海里程"
 }
 
-_G.pg.gametip.world_pressing = {
+_G.pg.base.gametip.world_pressing = {
 	tip = "壓制統計"
 }
 
-_G.pg.gametip.Settings_title_FPS = {
+_G.pg.base.gametip.Settings_title_FPS = {
 	tip = "幀數設置"
 }
 
-_G.pg.gametip.Settings_title_Notification = {
+_G.pg.base.gametip.Settings_title_Notification = {
 	tip = "啟用通知功能"
 }
 
-_G.pg.gametip.Settings_title_Other = {
+_G.pg.base.gametip.Settings_title_Other = {
 	tip = "其他設置"
 }
 
-_G.pg.gametip.Settings_title_LoginJP = {
+_G.pg.base.gametip.Settings_title_LoginJP = {
 	tip = "引續碼"
 }
 
-_G.pg.gametip.Settings_title_Redeem = {
+_G.pg.base.gametip.Settings_title_Redeem = {
 	tip = "兌換碼"
 }
 
-_G.pg.gametip.Settings_title_AdjustScr = {
+_G.pg.base.gametip.Settings_title_AdjustScr = {
 	tip = "異形螢幕調整"
 }
 
-_G.pg.gametip.Settings_title_Secpw = {
+_G.pg.base.gametip.Settings_title_Secpw = {
 	tip = "二級密碼"
 }
 
-_G.pg.gametip.Settings_title_Secpwlimop = {
+_G.pg.base.gametip.Settings_title_Secpwlimop = {
 	tip = "二級密碼限制行為"
 }
 
-_G.pg.gametip.Settings_title_agreement = {
+_G.pg.base.gametip.Settings_title_agreement = {
 	tip = "查看協議"
 }
 
-_G.pg.gametip.Settings_title_sound = {
+_G.pg.base.gametip.Settings_title_sound = {
 	tip = "語音設置"
 }
 
-_G.pg.gametip.Settings_title_resUpdate = {
+_G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "資源下載"
 }
 
-_G.pg.gametip.equipment_info_change_tip = {
+_G.pg.base.gametip.equipment_info_change_tip = {
 	tip = "以下裝備名稱已變更"
 }
 
-_G.pg.gametip.equipment_info_change_name_a = {
+_G.pg.base.gametip.equipment_info_change_name_a = {
 	tip = "雙聯裝203mm主炮Mle1924"
 }
 
-_G.pg.gametip.equipment_info_change_name_b = {
+_G.pg.base.gametip.equipment_info_change_name_b = {
 	tip = "雙聯裝203mm主炮Mle1931"
 }
 
-_G.pg.gametip.equipment_info_change_text_before = {
+_G.pg.base.gametip.equipment_info_change_text_before = {
 	tip = "變更前"
 }
 
-_G.pg.gametip.equipment_info_change_text_after = {
+_G.pg.base.gametip.equipment_info_change_text_after = {
 	tip = "變更後"
 }
 
-_G.pg.gametip.world_boss_progress_tip_title = {
+_G.pg.base.gametip.world_boss_progress_tip_title = {
 	tip = "信標數據點數提示"
 }
 
-_G.pg.gametip.world_boss_progress_tip_desc = {
+_G.pg.base.gametip.world_boss_progress_tip_desc = {
 	tip = [[
 功能開啟後，在大型作戰中收集信標數據時：
 關：將不再有提示
@@ -17729,7 +17761,7 @@ _G.pg.gametip.world_boss_progress_tip_desc = {
 累計滿200點時：達到200點時進行提示]]
 }
 
-_G.pg.gametip.ssss_main_help = {
+_G.pg.base.gametip.ssss_main_help = {
 	tip = {
 		{
 			info = [[
@@ -17752,43 +17784,43 @@ _G.pg.gametip.ssss_main_help = {
 	}
 }
 
-_G.pg.gametip.mini_game_time = {
+_G.pg.base.gametip.mini_game_time = {
 	tip = "倒數計時:"
 }
 
-_G.pg.gametip.mini_game_score = {
+_G.pg.base.gametip.mini_game_score = {
 	tip = "分數:"
 }
 
-_G.pg.gametip.mini_game_leave = {
+_G.pg.base.gametip.mini_game_leave = {
 	tip = "是否退出遊戲?"
 }
 
-_G.pg.gametip.mini_game_pause = {
+_G.pg.base.gametip.mini_game_pause = {
 	tip = "是否繼續遊戲?"
 }
 
-_G.pg.gametip.mini_game_cur_score = {
+_G.pg.base.gametip.mini_game_cur_score = {
 	tip = "本次得分:"
 }
 
-_G.pg.gametip.mini_game_high_score = {
+_G.pg.base.gametip.mini_game_high_score = {
 	tip = "最高得分:"
 }
 
-_G.pg.gametip.monopoly_world_tip1 = {
+_G.pg.base.gametip.monopoly_world_tip1 = {
 	tip = "※點擊進行移動"
 }
 
-_G.pg.gametip.monopoly_world_tip2 = {
+_G.pg.base.gametip.monopoly_world_tip2 = {
 	tip = "活動期間，每天獲得$1次行動機會。\n操作控制盤，在探索中獲取豐富獎勵！\n再移動一圈，可獲得:"
 }
 
-_G.pg.gametip.monopoly_world_tip3 = {
+_G.pg.base.gametip.monopoly_world_tip3 = {
 	tip = "活動期間，每天獲得$1次行動機會。\n操作控制盤，在探索中獲取豐富獎勵！"
 }
 
-_G.pg.gametip.help_monopoly_world = {
+_G.pg.base.gametip.help_monopoly_world = {
 	tip = {
 		{
 			info = "活動說明："
@@ -17861,111 +17893,111 @@ _G.pg.gametip.help_monopoly_world = {
 	}
 }
 
-_G.pg.gametip.ssssmedal_tip = {
+_G.pg.base.gametip.ssssmedal_tip = {
 	tip = "收集<color=#9D46FF>「$1/12」</color>個塞壬情報可獲得<color=#9D46FF>「SSSS紀念章」</color>"
 }
 
-_G.pg.gametip.ssssmedal_name = {
+_G.pg.base.gametip.ssssmedal_name = {
 	tip = "<color=#946EFF>名字：</color>"
 }
 
-_G.pg.gametip.ssssmedal_belonging = {
+_G.pg.base.gametip.ssssmedal_belonging = {
 	tip = "<color=#946EFF>所屬：</color>"
 }
 
-_G.pg.gametip.ssssmedal_name1 = {
+_G.pg.base.gametip.ssssmedal_name1 = {
 	tip = "探索者武裝:「漫遊」"
 }
 
-_G.pg.gametip.ssssmedal_name2 = {
+_G.pg.base.gametip.ssssmedal_name2 = {
 	tip = "追跡者武裝:「鐵衛」"
 }
 
-_G.pg.gametip.ssssmedal_name3 = {
+_G.pg.base.gametip.ssssmedal_name3 = {
 	tip = "領洋者武裝:「侵襲」"
 }
 
-_G.pg.gametip.ssssmedal_name4 = {
+_G.pg.base.gametip.ssssmedal_name4 = {
 	tip = "破局者武裝:「毀滅」"
 }
 
-_G.pg.gametip.ssssmedal_name5 = {
+_G.pg.base.gametip.ssssmedal_name5 = {
 	tip = "執棋者武裝:「宿主」"
 }
 
-_G.pg.gametip.ssssmedal_name6 = {
+_G.pg.base.gametip.ssssmedal_name6 = {
 	tip = "淨化親"
 }
 
-_G.pg.gametip.ssssmedal_belonging1 = {
+_G.pg.base.gametip.ssssmedal_belonging1 = {
 	tip = "塞壬-執行者系列"
 }
 
-_G.pg.gametip.ssssmedal_belonging2 = {
+_G.pg.base.gametip.ssssmedal_belonging2 = {
 	tip = "塞壬-大概很高級"
 }
 
-_G.pg.gametip.ssssmedal_desc1 = {
+_G.pg.base.gametip.ssssmedal_desc1 = {
 	tip = "名為「漫遊」的探索者特化武裝，行動迅捷，是海洋競速達人"
 }
 
-_G.pg.gametip.ssssmedal_desc2 = {
+_G.pg.base.gametip.ssssmedal_desc2 = {
 	tip = "名為「鐵衛」的追跡者特化武裝，平衡了火力與機動能力，泛用性較強"
 }
 
-_G.pg.gametip.ssssmedal_desc3 = {
+_G.pg.base.gametip.ssssmedal_desc3 = {
 	tip = "名為「侵襲」的領洋者特化武裝，機動性較差但堅如磐石，火力也不容小覷"
 }
 
-_G.pg.gametip.ssssmedal_desc4 = {
+_G.pg.base.gametip.ssssmedal_desc4 = {
 	tip = "名為「毀滅」的破局者特化武裝，進一步強化了本就強勁的火力，壓迫感十足"
 }
 
-_G.pg.gametip.ssssmedal_desc5 = {
+_G.pg.base.gametip.ssssmedal_desc5 = {
 	tip = "名為「宿主」的執棋者特化武裝，使用的艦載機也是特殊型號，頭上的是防空炮"
 }
 
-_G.pg.gametip.ssssmedal_desc6 = {
+_G.pg.base.gametip.ssssmedal_desc6 = {
 	tip = "可愛與實力兼備的淨化親，這是她第幾次失去記憶了呢？"
 }
 
-_G.pg.gametip.show_fate_demand_count = {
+_G.pg.base.gametip.show_fate_demand_count = {
 	tip = "顯示<color=#92fc63>天運擬合</color>所需數量"
 }
 
-_G.pg.gametip.show_design_demand_count = {
+_G.pg.base.gametip.show_design_demand_count = {
 	tip = "顯示<color=#92fc63>科研等級30</color>所需數量"
 }
 
-_G.pg.gametip.blueprint_select_overflow = {
+_G.pg.base.gametip.blueprint_select_overflow = {
 	tip = "超出所需數量"
 }
 
-_G.pg.gametip.blueprint_select_overflow_tip = {
+_G.pg.base.gametip.blueprint_select_overflow_tip = {
 	tip = "兌換的<color=#22ff22>$1</color>超出所需數量<color=#ff5c5c>$2張</color>"
 }
 
-_G.pg.gametip.blueprint_exchange_empty_tip = {
+_G.pg.base.gametip.blueprint_exchange_empty_tip = {
 	tip = "當前沒有可以兌換的圖紙"
 }
 
-_G.pg.gametip.blueprint_exchange_select_display = {
+_G.pg.base.gametip.blueprint_exchange_select_display = {
 	tip = "已選數量 / 所需數量"
 }
 
-_G.pg.gametip.build_rate_title = {
+_G.pg.base.gametip.build_rate_title = {
 	tip = "建造機率"
 }
 
-_G.pg.gametip.build_pools_intro = {
+_G.pg.base.gametip.build_pools_intro = {
 	tip = "使用心智魔方和物資，快速拓展艦隊規模"
 }
 
-_G.pg.gametip.build_detail_intro = {
+_G.pg.base.gametip.build_detail_intro = {
 	tip = "可同時施工的乾船塢數量："
 }
 
-_G.pg.gametip.ssss_game_tip = {
+_G.pg.base.gametip.ssss_game_tip = {
 	tip = {
 		{
 			info = [[
@@ -17980,7 +18012,7 @@ _G.pg.gametip.ssss_game_tip = {
 	}
 }
 
-_G.pg.gametip.ssss_medal_tip = {
+_G.pg.base.gametip.ssss_medal_tip = {
 	tip = {
 		{
 			info = "活動時間：<color=#92fc63>11.30-12.14</color>\n1.活動期間，參與活動收集「塞壬情報」，收集全部<color=#92fc63>12</color>個「塞壬情報」後可獲得限定傢俱<color=#92fc63>「SSSS紀念章」</color>"
@@ -17994,11 +18026,11 @@ _G.pg.gametip.ssss_medal_tip = {
 	}
 }
 
-_G.pg.gametip.battlepass_main_tip_2112 = {
+_G.pg.base.gametip.battlepass_main_tip_2112 = {
 	tip = "2022.4.1-2022.5.31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「飛鷹·META」</color>在內的豐富獎勵"
 }
 
-_G.pg.gametip.battlepass_main_help_2112 = {
+_G.pg.base.gametip.battlepass_main_help_2112 = {
 	tip = {
 		{
 			info = [[
@@ -18046,7 +18078,7 @@ _G.pg.gametip.battlepass_main_help_2112 = {
 	}
 }
 
-_G.pg.gametip.cruise_task_help_2112 = {
+_G.pg.base.gametip.cruise_task_help_2112 = {
 	tip = {
 		{
 			info = [[
@@ -18071,163 +18103,163 @@ _G.pg.gametip.cruise_task_help_2112 = {
 	}
 }
 
-_G.pg.gametip.tag_ship_unlocked = {
+_G.pg.base.gametip.tag_ship_unlocked = {
 	tip = "圖鑑已解鎖"
 }
 
-_G.pg.gametip.tag_ship_locked = {
+_G.pg.base.gametip.tag_ship_locked = {
 	tip = "圖鑑未解鎖"
 }
 
-_G.pg.gametip.acceleration_tips_1 = {
+_G.pg.base.gametip.acceleration_tips_1 = {
 	tip = "<color=#66472a><size=34>是否使用$1個喵箱訓練加速工具\n依次加速$2個喵箱？ </size></color>"
 }
 
-_G.pg.gametip.acceleration_tips_2 = {
+_G.pg.base.gametip.acceleration_tips_2 = {
 	tip = "<color=#827c7c><size=26>(加速後將完成$1個喵箱R型，$2個喵箱SR型，$3個喵箱SSR型)</size></color>"
 }
 
-_G.pg.gametip.noacceleration_tips = {
+_G.pg.base.gametip.noacceleration_tips = {
 	tip = "當前沒有可以進行加速的喵箱"
 }
 
-_G.pg.gametip.word_shipskin = {
+_G.pg.base.gametip.word_shipskin = {
 	tip = "特殊"
 }
 
-_G.pg.gametip.settings_sound_title_bgm = {
+_G.pg.base.gametip.settings_sound_title_bgm = {
 	tip = " 背景音樂"
 }
 
-_G.pg.gametip.settings_sound_title_effct = {
+_G.pg.base.gametip.settings_sound_title_effct = {
 	tip = " 遊戲音效"
 }
 
-_G.pg.gametip.settings_sound_title_cv = {
+_G.pg.base.gametip.settings_sound_title_cv = {
 	tip = " 角色配音"
 }
 
-_G.pg.gametip.setting_resdownload_title_gallery = {
+_G.pg.base.gametip.setting_resdownload_title_gallery = {
 	tip = "插畫資源更新"
 }
 
-_G.pg.gametip.setting_resdownload_title_live2d = {
+_G.pg.base.gametip.setting_resdownload_title_live2d = {
 	tip = "live2D資源更新"
 }
 
-_G.pg.gametip.setting_resdownload_title_music = {
+_G.pg.base.gametip.setting_resdownload_title_music = {
 	tip = "音樂資源更新"
 }
 
-_G.pg.gametip.setting_resdownload_title_sound = {
+_G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "語音包資源更新"
 }
 
-_G.pg.gametip.settings_battle_title = {
+_G.pg.base.gametip.settings_battle_title = {
 	tip = "鍵位設置"
 }
 
-_G.pg.gametip.settings_battle_tip = {
+_G.pg.base.gametip.settings_battle_tip = {
 	tip = "點 擊 編 輯 設 置 鍵 位"
 }
 
-_G.pg.gametip.settings_battle_Btn_edit = {
+_G.pg.base.gametip.settings_battle_Btn_edit = {
 	tip = "編 輯"
 }
 
-_G.pg.gametip.settings_battle_Btn_reset = {
+_G.pg.base.gametip.settings_battle_Btn_reset = {
 	tip = "重 置"
 }
 
-_G.pg.gametip.settings_battle_Btn_save = {
+_G.pg.base.gametip.settings_battle_Btn_save = {
 	tip = "保 存"
 }
 
-_G.pg.gametip.settings_battle_Btn_cancel = {
+_G.pg.base.gametip.settings_battle_Btn_cancel = {
 	tip = "取 消"
 }
 
-_G.pg.gametip.settings_pwd_label_close = {
+_G.pg.base.gametip.settings_pwd_label_close = {
 	tip = "關閉"
 }
 
-_G.pg.gametip.settings_pwd_label_open = {
+_G.pg.base.gametip.settings_pwd_label_open = {
 	tip = "開啟"
 }
 
-_G.pg.gametip.word_frame = {
+_G.pg.base.gametip.word_frame = {
 	tip = "幀"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_label = {
+_G.pg.base.gametip.Settings_title_Redeem_input_label = {
 	tip = "輸入兌換碼:"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_submit = {
+_G.pg.base.gametip.Settings_title_Redeem_input_submit = {
 	tip = "領 取"
 }
 
-_G.pg.gametip.Settings_title_Redeem_input_placeholder = {
+_G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
 	tip = "僅限英語數字組合"
 }
 
-_G.pg.gametip.shop_diamond_title = {
+_G.pg.base.gametip.shop_diamond_title = {
 	tip = "購買鑽石"
 }
 
-_G.pg.gametip.shop_gift_title = {
+_G.pg.base.gametip.shop_gift_title = {
 	tip = "優惠禮包"
 }
 
-_G.pg.gametip.shop_item_title = {
+_G.pg.base.gametip.shop_item_title = {
 	tip = "功能道具"
 }
 
-_G.pg.gametip.shop_charge_level_limit = {
+_G.pg.base.gametip.shop_charge_level_limit = {
 	tip = "級解鎖"
 }
 
-_G.pg.gametip.player_manifesto_placeholder = {
+_G.pg.base.gametip.player_manifesto_placeholder = {
 	tip = "點擊修改簽名…"
 }
 
-_G.pg.gametip.box_ship_del_click = {
+_G.pg.base.gametip.box_ship_del_click = {
 	tip = "點擊輸入"
 }
 
-_G.pg.gametip.box_equipment_del_click = {
+_G.pg.base.gametip.box_equipment_del_click = {
 	tip = "點擊輸入"
 }
 
-_G.pg.gametip.change_player_name_title = {
+_G.pg.base.gametip.change_player_name_title = {
 	tip = "更改名字"
 }
 
-_G.pg.gametip.change_player_name_subtitle = {
+_G.pg.base.gametip.change_player_name_subtitle = {
 	tip = "請輸入名字"
 }
 
-_G.pg.gametip.change_player_name_input_tip = {
+_G.pg.base.gametip.change_player_name_input_tip = {
 	tip = "輸入名稱"
 }
 
-_G.pg.gametip.tactics_class_start = {
+_G.pg.base.gametip.tactics_class_start = {
 	tip = "開始課程"
 }
 
-_G.pg.gametip.tactics_class_cancel = {
+_G.pg.base.gametip.tactics_class_cancel = {
 	tip = "取消"
 }
 
-_G.pg.gametip.tactics_class_get_exp = {
+_G.pg.base.gametip.tactics_class_get_exp = {
 	tip = "獲得技能經驗"
 }
 
-_G.pg.gametip.tactics_class_spend_time = {
+_G.pg.base.gametip.tactics_class_spend_time = {
 	tip = "消耗時間"
 }
 
-_G.pg.gametip.springfes_tips1 = {
+_G.pg.base.gametip.springfes_tips1 = {
 	tip = {
 		{
 			info = [[
@@ -18243,7 +18275,7 @@ _G.pg.gametip.springfes_tips1 = {
 	}
 }
 
-_G.pg.gametip.worldinpicture_help = {
+_G.pg.base.gametip.worldinpicture_help = {
 	tip = {
 		{
 			info = [[
@@ -18256,7 +18288,7 @@ _G.pg.gametip.worldinpicture_help = {
 	}
 }
 
-_G.pg.gametip.worldinpicture_task_help = {
+_G.pg.base.gametip.worldinpicture_task_help = {
 	tip = {
 		{
 			info = [[
@@ -18269,43 +18301,43 @@ _G.pg.gametip.worldinpicture_task_help = {
 	}
 }
 
-_G.pg.gametip.shipchange_alert_infleet = {
+_G.pg.base.gametip.shipchange_alert_infleet = {
 	tip = "艦船在已有艦隊編成中，是否移出編隊？"
 }
 
-_G.pg.gametip.shipchange_alert_inpvp = {
+_G.pg.base.gametip.shipchange_alert_inpvp = {
 	tip = "艦船在演習攻擊艦隊編成中，是否移出編隊？"
 }
 
-_G.pg.gametip.shipchange_alert_inexercise = {
+_G.pg.base.gametip.shipchange_alert_inexercise = {
 	tip = "艦船在演習防禦艦隊編成中，是否移出編隊？"
 }
 
-_G.pg.gametip.shipchange_alert_inworld = {
+_G.pg.base.gametip.shipchange_alert_inworld = {
 	tip = "艦船在大型作戰艦隊編成中，是否移出編隊？"
 }
 
-_G.pg.gametip.shipchange_alert_inguildbossevent = {
+_G.pg.base.gametip.shipchange_alert_inguildbossevent = {
 	tip = "艦船在大艦隊boss戰鬥編成中，是否移出編隊？"
 }
 
-_G.pg.gametip.shipchange_alert_indiff = {
+_G.pg.base.gametip.shipchange_alert_indiff = {
 	tip = "艦船在已保存的艦隊編成中，是否移出編隊？"
 }
 
-_G.pg.gametip.shipmodechange_reject_1stfleet_only = {
+_G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 	tip = "艦船為第一艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
 }
 
-_G.pg.gametip.shipmodechange_reject_worldfleet_only = {
+_G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "艦船為大世界艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
 }
 
-_G.pg.gametip.shipmodechange_reject_inactivity = {
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
 	tip = "艦船在限界挑戰/共鬥活動編成中，請調整編隊陣容後重試 "
 }
 
-_G.pg.gametip.fushun_game3_tip = {
+_G.pg.base.gametip.fushun_game3_tip = {
 	tip = {
 		{
 			info = [[
@@ -18326,143 +18358,143 @@ _G.pg.gametip.fushun_game3_tip = {
 	}
 }
 
-_G.pg.gametip.attrset_reset = {
+_G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
 
-_G.pg.gametip.attrset_save = {
+_G.pg.base.gametip.attrset_save = {
 	tip = "儲存修改"
 }
 
-_G.pg.gametip.attrset_ask_save = {
+_G.pg.base.gametip.attrset_ask_save = {
 	tip = "是否儲存當前頁面修改?"
 }
 
-_G.pg.gametip.attrset_save_success = {
+_G.pg.base.gametip.attrset_save_success = {
 	tip = "儲存成功"
 }
 
-_G.pg.gametip.attrset_disable = {
+_G.pg.base.gametip.attrset_disable = {
 	tip = "當前有正在進行中的戰鬥，無法進行調整 "
 }
 
-_G.pg.gametip.attrset_input_ill = {
+_G.pg.base.gametip.attrset_input_ill = {
 	tip = "輸入不合法 "
 }
 
-_G.pg.gametip.eventshop_time_hint = {
+_G.pg.base.gametip.eventshop_time_hint = {
 	tip = "兌換時間截止至$1維護 "
 }
 
-_G.pg.gametip.purchase_backyard_theme_desc_for_onekey = {
+_G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
 	tip = "購買後將獲得每件傢俱各1件。"
 }
 
-_G.pg.gametip.purchase_backyard_theme_desc_for_all = {
+_G.pg.base.gametip.purchase_backyard_theme_desc_for_all = {
 	tip = "購買後將獲得含重複傢俱在內的全部傢俱。"
 }
 
-_G.pg.gametip.sp_no_quota = {
+_G.pg.base.gametip.sp_no_quota = {
 	tip = "SP關卡每日挑戰次數已達上限"
 }
 
-_G.pg.gametip.fur_all_buy = {
+_G.pg.base.gametip.fur_all_buy = {
 	tip = "購買全部"
 }
 
-_G.pg.gametip.fur_onekey_buy = {
+_G.pg.base.gametip.fur_onekey_buy = {
 	tip = "購買整套"
 }
 
-_G.pg.gametip.tech_package_tip = {
+_G.pg.base.gametip.tech_package_tip = {
 	tip = "只能購買一種禮包，禮包將發送到郵箱請注意查收\n購買標準版禮包後仍可花費差價升級為高級版"
 }
 
-_G.pg.gametip.backyard_food_shop_tip = {
+_G.pg.base.gametip.backyard_food_shop_tip = {
 	tip = "需要花費："
 }
 
-_G.pg.gametip.dorm_2f_lock = {
+_G.pg.base.gametip.dorm_2f_lock = {
 	tip = "未解鎖"
 }
 
-_G.pg.gametip.word_get_way = {
+_G.pg.base.gametip.word_get_way = {
 	tip = "獲取方式："
 }
 
-_G.pg.gametip.word_get_date = {
+_G.pg.base.gametip.word_get_date = {
 	tip = "獲取日期："
 }
 
-_G.pg.gametip.enter_theme_name = {
+_G.pg.base.gametip.enter_theme_name = {
 	tip = "輸入主題名"
 }
 
-_G.pg.gametip.enter_extend_food_label = {
+_G.pg.base.gametip.enter_extend_food_label = {
 	tip = "擴充"
 }
 
-_G.pg.gametip.backyard_extend_tip_1 = {
+_G.pg.base.gametip.backyard_extend_tip_1 = {
 	tip = "擴建需要消耗"
 }
 
-_G.pg.gametip.backyard_extend_tip_2 = {
+_G.pg.base.gametip.backyard_extend_tip_2 = {
 	tip = "個擴展許可證"
 }
 
-_G.pg.gametip.backyard_extend_tip_3 = {
+_G.pg.base.gametip.backyard_extend_tip_3 = {
 	tip = "剩餘擴展許可證："
 }
 
-_G.pg.gametip.backyard_extend_tip_4 = {
+_G.pg.base.gametip.backyard_extend_tip_4 = {
 	tip = " 個"
 }
 
-_G.pg.gametip.levelScene_remaster_story_tip = {
+_G.pg.base.gametip.levelScene_remaster_story_tip = {
 	tip = "劇情「$1」已全部解鎖，可以前往回憶介面查看。"
 }
 
-_G.pg.gametip.levelScene_remaster_unlock_tip = {
+_G.pg.base.gametip.levelScene_remaster_unlock_tip = {
 	tip = "※通關「作戰檔案」-$1 $2解鎖全部劇情"
 }
 
-_G.pg.gametip.level_remaster_tip1 = {
+_G.pg.base.gametip.level_remaster_tip1 = {
 	tip = "產出關卡："
 }
 
-_G.pg.gametip.level_remaster_tip2 = {
+_G.pg.base.gametip.level_remaster_tip2 = {
 	tip = "出擊"
 }
 
-_G.pg.gametip.level_remaster_tip3 = {
+_G.pg.base.gametip.level_remaster_tip3 = {
 	tip = "領取"
 }
 
-_G.pg.gametip.level_remaster_tip4 = {
+_G.pg.base.gametip.level_remaster_tip4 = {
 	tip = "擊破$1敵方旗艦次數"
 }
 
-_G.pg.gametip.newserver_time = {
+_G.pg.base.gametip.newserver_time = {
 	tip = "$1天$2時"
 }
 
-_G.pg.gametip.newserver_soldout = {
+_G.pg.base.gametip.newserver_soldout = {
 	tip = "商品已售完"
 }
 
-_G.pg.gametip.skill_learn_tip = {
+_G.pg.base.gametip.skill_learn_tip = {
 	tip = "今日還有$1次快速完成技能學習的次數哦"
 }
 
-_G.pg.gametip.newserver_build_tip = {
+_G.pg.base.gametip.newserver_build_tip = {
 	tip = "本建造只能使用新手單次建造券哦！"
 }
 
-_G.pg.gametip.build_count_tip = {
+_G.pg.base.gametip.build_count_tip = {
 	tip = "累計"
 }
 
-_G.pg.gametip.help_research_package = {
+_G.pg.base.gametip.help_research_package = {
 	tip = {
 		{
 			icon = {
@@ -18488,47 +18520,47 @@ _G.pg.gametip.help_research_package = {
 	}
 }
 
-_G.pg.gametip.lv70_package_tip = {
+_G.pg.base.gametip.lv70_package_tip = {
 	tip = "當前指揮官等級大於等於70級，購買即刻出戰禮包後，指揮官等級將不會發生變化(可以正常獲得禮包內其他物品)，是否確認購買"
 }
 
-_G.pg.gametip.tech_select_tip1 = {
+_G.pg.base.gametip.tech_select_tip1 = {
 	tip = "角色未全部獲得"
 }
 
-_G.pg.gametip.tech_select_tip2 = {
+_G.pg.base.gametip.tech_select_tip2 = {
 	tip = "可於科研-開發船塢中選擇一名角色\n快速研發並獲取"
 }
 
-_G.pg.gametip.tech_select_tip3 = {
+_G.pg.base.gametip.tech_select_tip3 = {
 	tip = "已獲得"
 }
 
-_G.pg.gametip.tech_select_tip4 = {
+_G.pg.base.gametip.tech_select_tip4 = {
 	tip = "角色全部獲得"
 }
 
-_G.pg.gametip.tech_select_tip5 = {
+_G.pg.base.gametip.tech_select_tip5 = {
 	tip = "使用後將獲得以下道具"
 }
 
-_G.pg.gametip.techpackage_item_use = {
+_G.pg.base.gametip.techpackage_item_use = {
 	tip = "快速研發只能選定1名角色，是否確認研發$1？\n研發後會獲得對應角色(等級與科研等級均為1級)\n<color=#ff5c5c>將消耗道具$2*1</color>"
 }
 
-_G.pg.gametip.techpackage_item_use_confirm = {
+_G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "角色已全部獲得，使用後將獲得以下道具"
 }
 
-_G.pg.gametip.new_server_shop_sel_goods_tip = {
+_G.pg.base.gametip.new_server_shop_sel_goods_tip = {
 	tip = "每件裝備只能兌換一次"
 }
 
-_G.pg.gametip.new_server_shop_unopen_tip = {
+_G.pg.base.gametip.new_server_shop_unopen_tip = {
 	tip = "尚未開放"
 }
 
-_G.pg.gametip.newserver_activity_tip = {
+_G.pg.base.gametip.newserver_activity_tip = {
 	tip = {
 		{
 			info = "「新服开服庆典」活动说明：\n"
@@ -18557,110 +18589,114 @@ _G.pg.gametip.newserver_activity_tip = {
 	}
 }
 
-_G.pg.gametip.newserver_shop_timelimit = {
+_G.pg.base.gametip.newserver_shop_timelimit = {
 	tip = "該商品將於$1後解鎖"
 }
 
-_G.pg.gametip.tech_character_get = {
+_G.pg.base.gametip.tech_character_get = {
 	tip = "角色已獲得"
 }
 
-_G.pg.gametip.package_detail_tip = {
+_G.pg.base.gametip.package_detail_tip = {
 	tip = "查看詳情"
 }
 
-_G.pg.gametip.event_ui_consume = {
+_G.pg.base.gametip.event_ui_consume = {
 	tip = "消耗:"
 }
 
-_G.pg.gametip.event_ui_recommend = {
+_G.pg.base.gametip.event_ui_recommend = {
 	tip = "推薦"
 }
 
-_G.pg.gametip.event_ui_start = {
+_G.pg.base.gametip.event_ui_start = {
 	tip = "開始"
 }
 
-_G.pg.gametip.event_ui_giveup = {
+_G.pg.base.gametip.event_ui_giveup = {
 	tip = "取消"
 }
 
-_G.pg.gametip.event_ui_finish = {
+_G.pg.base.gametip.event_ui_finish = {
 	tip = "完成"
 }
 
-_G.pg.gametip.nav_tactics_sel_skill_title = {
+_G.pg.base.gametip.nav_tactics_sel_skill_title = {
 	tip = "選擇技能"
 }
 
-_G.pg.gametip.battle_result_confirm = {
+_G.pg.base.gametip.battle_result_confirm = {
 	tip = "確定"
 }
 
-_G.pg.gametip.battle_result_targets = {
+_G.pg.base.gametip.battle_result_targets = {
 	tip = "戰鬥評價"
 }
 
-_G.pg.gametip.battle_result_continue = {
+_G.pg.base.gametip.battle_result_continue = {
 	tip = "點擊繼續"
 }
 
-_G.pg.gametip.activity_kill = {
+_G.pg.base.gametip.activity_kill = {
 	tip = "累計擊沉"
 }
 
-_G.pg.gametip.battle_result_dmg = {
+_G.pg.base.gametip.battle_result_dmg = {
 	tip = "輸出"
 }
 
-_G.pg.gametip.battle_result_kill_count = {
+_G.pg.base.gametip.battle_result_kill_count = {
 	tip = "擊殺"
 }
 
-_G.pg.gametip.battle_result_toggle_on = {
+_G.pg.base.gametip.battle_result_toggle_on = {
 	tip = "潛 艇 編 隊"
 }
 
-_G.pg.gametip.battle_result_toggle_off = {
+_G.pg.base.gametip.battle_result_toggle_off = {
 	tip = "水 面 編 隊"
 }
 
-_G.pg.gametip.battle_result_continue_battle = {
+_G.pg.base.gametip.battle_result_continue_battle = {
 	tip = "繼 續 戰 鬥"
 }
 
-_G.pg.gametip.battle_result_quit_battle = {
+_G.pg.base.gametip.battle_result_quit_battle = {
 	tip = "退 出 挑 戰"
 }
 
-_G.pg.gametip.battle_result_share_battle = {
+_G.pg.base.gametip.battle_result_share_battle = {
 	tip = "分 享 戰 績 "
 }
 
-_G.pg.gametip.pre_combat_team = {
+_G.pg.base.gametip.pre_combat_team = {
 	tip = "出擊艦隊"
 }
 
-_G.pg.gametip.pre_combat_vanguard = {
+_G.pg.base.gametip.pre_combat_vanguard = {
 	tip = "先鋒艦隊"
 }
 
-_G.pg.gametip.pre_combat_main = {
+_G.pg.base.gametip.pre_combat_main = {
 	tip = "主力艦隊"
 }
 
-_G.pg.gametip.pre_combat_submarine = {
+_G.pg.base.gametip.pre_combat_submarine = {
 	tip = "潛艇艦隊"
 }
 
-_G.pg.gametip.destroy_confirm_access = {
+_G.pg.base.gametip.destroy_confirm_access = {
 	tip = "確 定"
 }
 
-_G.pg.gametip.destroy_confirm_cancel = {
+_G.pg.base.gametip.destroy_confirm_cancel = {
 	tip = "取 消"
 }
 
-_G.pg.gametip.pt_count_tip = {
-	tip = "累计"
+_G.pg.base.gametip.pt_count_tip = {
+	tip = "累計"
+}
+
+_G.pg.base.gametip.friend_resume_title_detail = {
+	tip = "履歷詳情"
 }

@@ -15843,41 +15843,15 @@ pg.activity_template = {
 	},
 	[40609] = {
 		mark = 20220505,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
 		config_data = "activity_drop_40609",
+		title_res_tag = "",
 		id = 40609,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
@@ -15905,12 +15879,13 @@ pg.activity_template = {
 	},
 	[40610] = {
 		mark = 20220505,
-		config_client = "",
 		title_res_tag = "yamaijia",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 11,
+		config_client = "",
 		id = 40610,
 		config_data = {
 			{
@@ -15933,33 +15908,6 @@ pg.activity_template = {
 			},
 			{
 				15037
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -16238,12 +16186,13 @@ pg.activity_template = {
 	},
 	[40617] = {
 		mark = 20220505,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40617,
 		config_data = {
@@ -16252,33 +16201,6 @@ pg.activity_template = {
 			80245,
 			80246,
 			80247
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40618] = {
@@ -16361,6 +16283,439 @@ pg.activity_template = {
 		},
 		config_client = {
 			id = 970201
+		}
+	},
+	[40622] = {
+		mark = 20220519,
+		id = 40622,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 26,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeptuneTecCatchupPage",
+			ui_name = "NeptuneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42001
+		}
+	},
+	[40623] = {
+		mark = 20220519,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 0,
+		config_client = "",
+		id = 40623,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40624] = {
+		mark = 20220519,
+		id = 40624,
+		title_res_tag = "NewMeixiV4_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 40624,
+		is_show = 27,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4framePage",
+			ui_name = "NewMeixiV4framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40625] = {
+		mark = 20220526,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 40625,
+		config_data = {
+			16607,
+			16608,
+			16609,
+			16610,
+			16611,
+			16612,
+			16614,
+			16615,
+			16616,
+			16617
+		}
+	},
+	[40626] = {
+		mark = 20220519,
+		id = 40626,
+		title_res_tag = "NewMeixiV4_skirmish",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 29,
+		config_data = {
+			{
+				16618,
+				16619
+			},
+			{
+				16620,
+				16621
+			},
+			{
+				16622,
+				16623
+			},
+			{
+				16624,
+				16625
+			},
+			{
+				16626,
+				16627
+			},
+			{
+				16628,
+				16629
+			},
+			{
+				16630,
+				16631
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4SkirmishPage",
+			ui_name = "NewMeixiV4SkirmishPage"
+		},
+		config_client = {
+			memoryGroup = 197,
+			storys = {
+				{
+					16619,
+					1661,
+					3051
+				},
+				{
+					16623,
+					1662,
+					3052
+				},
+				{
+					16627,
+					1663,
+					3053
+				},
+				{
+					16631,
+					1664,
+					3054
+				}
+			}
+		}
+	},
+	[40627] = {
+		mark = 20220519,
+		id = 40627,
+		title_res_tag = "z23teacher",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 28,
+		config_data = {
+			{
+				15480,
+				15481
+			},
+			{
+				15482,
+				15483
+			},
+			{
+				15484,
+				15485
+			},
+			{
+				15486,
+				15487
+			},
+			{
+				15488,
+				15489
+			},
+			{
+				15490,
+				15491
+			},
+			{
+				15492,
+				15493
+			},
+			{
+				15494,
+				15495
+			},
+			{
+				15496,
+				15497
+			},
+			{
+				15498,
+				15499
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "Z23SkinPage",
+			ui_name = "z23skinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"TEACHER1"
+				},
+				{
+					"TEACHER2"
+				},
+				{
+					"TEACHER3"
+				},
+				{},
+				{
+					"TEACHER4"
+				},
+				{},
+				{
+					"TEACHER5"
+				},
+				{},
+				{
+					"TEACHER6"
+				},
+				{
+					"TEACHER7"
+				}
+			}
+		}
+	},
+	[40628] = {
+		mark = 20220505,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40628",
+		id = 40628,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "小海倫娜、小克里夫蘭 建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#d797ff>小海倫娜</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>小克里夫蘭</color>：2.5%(<color=#92fc63>up!</color>)",
+				" "
+			}
 		}
 	},
 	[45000] = {
@@ -18385,6 +18740,13 @@ pg.activity_template = {
 		40617,
 		40618,
 		40619,
+		40622,
+		40623,
+		40624,
+		40625,
+		40626,
+		40627,
+		40628,
 		45000,
 		45001,
 		45002,

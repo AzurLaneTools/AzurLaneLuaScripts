@@ -141,7 +141,7 @@ function slot0.didEnter(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:OverlayPanel(slot0._tf, false, {
+	slot1:OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.SECOND_LAYER,
 		groupName = LayerWeightConst.GROUP_LEVELUI
 	})

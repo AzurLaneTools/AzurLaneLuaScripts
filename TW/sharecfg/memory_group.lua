@@ -1692,6 +1692,19 @@ pg.memory_group = {
 			1635
 		}
 	},
+	[197] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 197,
+		title = "銀色檔案 ",
+		memories = {
+			1661,
+			1662,
+			1663,
+			1664
+		}
+	},
 	[199] = {
 		icon = "title_event",
 		subtype = 2,
@@ -2862,6 +2875,7 @@ pg.memory_group = {
 		194,
 		195,
 		196,
+		197,
 		199,
 		200,
 		204,

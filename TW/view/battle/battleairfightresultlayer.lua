@@ -14,6 +14,9 @@ function slot0.init(slot0)
 	slot0._chat = slot0:findTF("chat", slot0._painting)
 	slot0._rightBottomPanel = slot0:findTF("rightBottomPanel", slot0._blurConatiner)
 	slot0._confirmBtn = slot0:findTF("confirmBtn", slot0._rightBottomPanel)
+
+	setText(slot0._confirmBtn:Find("Text"), i18n("text_confirm"))
+
 	slot0._statisticsBtn = slot0:findTF("statisticsBtn", slot0._rightBottomPanel)
 	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
 	slot0._conditions = slot0:findTF("main/conditions")

@@ -42,7 +42,7 @@ function slot0.didEnter(slot0)
 
 	slot3 = slot0.panelLetter
 
-	onButton(slot0, slot3:Find("btn_share"), function ()
+	onButton(slot0, slot3:Find("billboard/btn_share"), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeReflux)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnLetter, function ()

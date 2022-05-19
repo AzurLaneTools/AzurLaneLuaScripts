@@ -309,10 +309,26 @@ function slot0.updateMaterialPanel(slot0, slot1)
 		slot6 = false
 	end
 
-	setText(slot0.goldNumText, slot7)
+	setText(slot0.goldNumText, getProxy(PlayerProxy):getData().gold < slot7 and setColorStr(slot7, COLOR_RED) or slot7)
 
-	if getProxy(PlayerProxy):getData().gold < slot7 then
+	if slot15 < slot7 then
 		slot6 = false
+
+		onButton(slot0, slot0.activeBtnDisable, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("switch_to_shop_tip_2", i18n("word_gold")) .. "\n" .. i18n("text_noRes_tip", i18n("text_noRes_info_tip", pg.item_data_statistics[59001].name, uv0 - uv1)),
+				weight = LayerWeightConst.SECOND_LAYER,
+				onYes = function ()
+					if getProxy(ContextProxy):getCurrentContext():getContextByMediator(MetaCharacterMediator) then
+						slot2.data.autoOpenShipConfigID = uv0.curShipVO.configId
+						slot2.data.autoOpenEnergy = true
+					end
+
+					uv0:closeView()
+					gotoChargeScene(ChargeScene.TYPE_ITEM)
+				end
+			})
+		end, SFX_PANEL)
 	end
 
 	slot18, slot19 = nil

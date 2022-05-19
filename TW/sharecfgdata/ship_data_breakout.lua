@@ -1,4 +1,4 @@
-_G.pg.ship_data_breakout[100001] = {
+_G.pg.base.ship_data_breakout[100001] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13,7 +13,7 @@ _G.pg.ship_data_breakout[100001] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[100011] = {
+_G.pg.base.ship_data_breakout[100011] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28,7 +28,7 @@ _G.pg.ship_data_breakout[100011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[100021] = {
+_G.pg.base.ship_data_breakout[100021] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -43,7 +43,7 @@ _G.pg.ship_data_breakout[100021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101021] = {
+_G.pg.base.ship_data_breakout[101021] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -60,7 +60,7 @@ _G.pg.ship_data_breakout[101021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101022] = {
+_G.pg.base.ship_data_breakout[101022] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -78,7 +78,7 @@ _G.pg.ship_data_breakout[101022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101023] = {
+_G.pg.base.ship_data_breakout[101023] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -97,7 +97,7 @@ _G.pg.ship_data_breakout[101023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101024] = {
+_G.pg.base.ship_data_breakout[101024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -112,7 +112,7 @@ _G.pg.ship_data_breakout[101024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101031] = {
+_G.pg.base.ship_data_breakout[101031] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -129,7 +129,7 @@ _G.pg.ship_data_breakout[101031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101032] = {
+_G.pg.base.ship_data_breakout[101032] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -147,7 +147,7 @@ _G.pg.ship_data_breakout[101032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101033] = {
+_G.pg.base.ship_data_breakout[101033] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -166,7 +166,7 @@ _G.pg.ship_data_breakout[101033] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101034] = {
+_G.pg.base.ship_data_breakout[101034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -181,7 +181,7 @@ _G.pg.ship_data_breakout[101034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101041] = {
+_G.pg.base.ship_data_breakout[101041] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -198,7 +198,7 @@ _G.pg.ship_data_breakout[101041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101042] = {
+_G.pg.base.ship_data_breakout[101042] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -216,7 +216,7 @@ _G.pg.ship_data_breakout[101042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101043] = {
+_G.pg.base.ship_data_breakout[101043] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -235,7 +235,7 @@ _G.pg.ship_data_breakout[101043] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101044] = {
+_G.pg.base.ship_data_breakout[101044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -250,7 +250,7 @@ _G.pg.ship_data_breakout[101044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101051] = {
+_G.pg.base.ship_data_breakout[101051] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -267,7 +267,7 @@ _G.pg.ship_data_breakout[101051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101052] = {
+_G.pg.base.ship_data_breakout[101052] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -285,7 +285,7 @@ _G.pg.ship_data_breakout[101052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101053] = {
+_G.pg.base.ship_data_breakout[101053] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -304,7 +304,7 @@ _G.pg.ship_data_breakout[101053] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101054] = {
+_G.pg.base.ship_data_breakout[101054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -319,7 +319,7 @@ _G.pg.ship_data_breakout[101054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101061] = {
+_G.pg.base.ship_data_breakout[101061] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -336,7 +336,7 @@ _G.pg.ship_data_breakout[101061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101062] = {
+_G.pg.base.ship_data_breakout[101062] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -354,7 +354,7 @@ _G.pg.ship_data_breakout[101062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101063] = {
+_G.pg.base.ship_data_breakout[101063] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -373,7 +373,7 @@ _G.pg.ship_data_breakout[101063] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101064] = {
+_G.pg.base.ship_data_breakout[101064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -388,7 +388,7 @@ _G.pg.ship_data_breakout[101064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101071] = {
+_G.pg.base.ship_data_breakout[101071] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -405,7 +405,7 @@ _G.pg.ship_data_breakout[101071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101072] = {
+_G.pg.base.ship_data_breakout[101072] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -423,7 +423,7 @@ _G.pg.ship_data_breakout[101072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101073] = {
+_G.pg.base.ship_data_breakout[101073] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -442,7 +442,7 @@ _G.pg.ship_data_breakout[101073] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101074] = {
+_G.pg.base.ship_data_breakout[101074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -457,7 +457,7 @@ _G.pg.ship_data_breakout[101074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101081] = {
+_G.pg.base.ship_data_breakout[101081] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -474,7 +474,7 @@ _G.pg.ship_data_breakout[101081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101082] = {
+_G.pg.base.ship_data_breakout[101082] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -492,7 +492,7 @@ _G.pg.ship_data_breakout[101082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101083] = {
+_G.pg.base.ship_data_breakout[101083] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -511,7 +511,7 @@ _G.pg.ship_data_breakout[101083] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101084] = {
+_G.pg.base.ship_data_breakout[101084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -526,7 +526,7 @@ _G.pg.ship_data_breakout[101084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101091] = {
+_G.pg.base.ship_data_breakout[101091] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -543,7 +543,7 @@ _G.pg.ship_data_breakout[101091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101092] = {
+_G.pg.base.ship_data_breakout[101092] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -561,7 +561,7 @@ _G.pg.ship_data_breakout[101092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101093] = {
+_G.pg.base.ship_data_breakout[101093] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -580,7 +580,7 @@ _G.pg.ship_data_breakout[101093] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101094] = {
+_G.pg.base.ship_data_breakout[101094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -595,7 +595,7 @@ _G.pg.ship_data_breakout[101094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101111] = {
+_G.pg.base.ship_data_breakout[101111] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -612,7 +612,7 @@ _G.pg.ship_data_breakout[101111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101112] = {
+_G.pg.base.ship_data_breakout[101112] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -630,7 +630,7 @@ _G.pg.ship_data_breakout[101112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101113] = {
+_G.pg.base.ship_data_breakout[101113] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -649,7 +649,7 @@ _G.pg.ship_data_breakout[101113] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101114] = {
+_G.pg.base.ship_data_breakout[101114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -664,7 +664,7 @@ _G.pg.ship_data_breakout[101114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101121] = {
+_G.pg.base.ship_data_breakout[101121] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -681,7 +681,7 @@ _G.pg.ship_data_breakout[101121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101122] = {
+_G.pg.base.ship_data_breakout[101122] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -699,7 +699,7 @@ _G.pg.ship_data_breakout[101122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101123] = {
+_G.pg.base.ship_data_breakout[101123] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -718,7 +718,7 @@ _G.pg.ship_data_breakout[101123] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101124] = {
+_G.pg.base.ship_data_breakout[101124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -733,7 +733,7 @@ _G.pg.ship_data_breakout[101124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101131] = {
+_G.pg.base.ship_data_breakout[101131] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -750,7 +750,7 @@ _G.pg.ship_data_breakout[101131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101132] = {
+_G.pg.base.ship_data_breakout[101132] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -768,7 +768,7 @@ _G.pg.ship_data_breakout[101132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101133] = {
+_G.pg.base.ship_data_breakout[101133] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -787,7 +787,7 @@ _G.pg.ship_data_breakout[101133] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101134] = {
+_G.pg.base.ship_data_breakout[101134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -802,7 +802,7 @@ _G.pg.ship_data_breakout[101134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101141] = {
+_G.pg.base.ship_data_breakout[101141] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -819,7 +819,7 @@ _G.pg.ship_data_breakout[101141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101142] = {
+_G.pg.base.ship_data_breakout[101142] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -837,7 +837,7 @@ _G.pg.ship_data_breakout[101142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101143] = {
+_G.pg.base.ship_data_breakout[101143] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -856,7 +856,7 @@ _G.pg.ship_data_breakout[101143] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101144] = {
+_G.pg.base.ship_data_breakout[101144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -871,7 +871,7 @@ _G.pg.ship_data_breakout[101144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101151] = {
+_G.pg.base.ship_data_breakout[101151] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -888,7 +888,7 @@ _G.pg.ship_data_breakout[101151] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101152] = {
+_G.pg.base.ship_data_breakout[101152] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -906,7 +906,7 @@ _G.pg.ship_data_breakout[101152] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101153] = {
+_G.pg.base.ship_data_breakout[101153] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -925,7 +925,7 @@ _G.pg.ship_data_breakout[101153] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101154] = {
+_G.pg.base.ship_data_breakout[101154] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -940,7 +940,7 @@ _G.pg.ship_data_breakout[101154] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101161] = {
+_G.pg.base.ship_data_breakout[101161] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -957,7 +957,7 @@ _G.pg.ship_data_breakout[101161] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101162] = {
+_G.pg.base.ship_data_breakout[101162] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -975,7 +975,7 @@ _G.pg.ship_data_breakout[101162] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101163] = {
+_G.pg.base.ship_data_breakout[101163] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -994,7 +994,7 @@ _G.pg.ship_data_breakout[101163] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101164] = {
+_G.pg.base.ship_data_breakout[101164] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1009,7 +1009,7 @@ _G.pg.ship_data_breakout[101164] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101171] = {
+_G.pg.base.ship_data_breakout[101171] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -1026,7 +1026,7 @@ _G.pg.ship_data_breakout[101171] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101172] = {
+_G.pg.base.ship_data_breakout[101172] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -1044,7 +1044,7 @@ _G.pg.ship_data_breakout[101172] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101173] = {
+_G.pg.base.ship_data_breakout[101173] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1063,7 +1063,7 @@ _G.pg.ship_data_breakout[101173] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101174] = {
+_G.pg.base.ship_data_breakout[101174] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1078,7 +1078,7 @@ _G.pg.ship_data_breakout[101174] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101241] = {
+_G.pg.base.ship_data_breakout[101241] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1095,7 +1095,7 @@ _G.pg.ship_data_breakout[101241] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101242] = {
+_G.pg.base.ship_data_breakout[101242] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1113,7 +1113,7 @@ _G.pg.ship_data_breakout[101242] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101243] = {
+_G.pg.base.ship_data_breakout[101243] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1132,7 +1132,7 @@ _G.pg.ship_data_breakout[101243] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101244] = {
+_G.pg.base.ship_data_breakout[101244] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1147,7 +1147,7 @@ _G.pg.ship_data_breakout[101244] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101251] = {
+_G.pg.base.ship_data_breakout[101251] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1164,7 +1164,7 @@ _G.pg.ship_data_breakout[101251] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101252] = {
+_G.pg.base.ship_data_breakout[101252] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1182,7 +1182,7 @@ _G.pg.ship_data_breakout[101252] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101253] = {
+_G.pg.base.ship_data_breakout[101253] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1201,7 +1201,7 @@ _G.pg.ship_data_breakout[101253] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101254] = {
+_G.pg.base.ship_data_breakout[101254] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1216,7 +1216,7 @@ _G.pg.ship_data_breakout[101254] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101261] = {
+_G.pg.base.ship_data_breakout[101261] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -1233,7 +1233,7 @@ _G.pg.ship_data_breakout[101261] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101262] = {
+_G.pg.base.ship_data_breakout[101262] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -1251,7 +1251,7 @@ _G.pg.ship_data_breakout[101262] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101263] = {
+_G.pg.base.ship_data_breakout[101263] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1270,7 +1270,7 @@ _G.pg.ship_data_breakout[101263] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101264] = {
+_G.pg.base.ship_data_breakout[101264] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1285,7 +1285,7 @@ _G.pg.ship_data_breakout[101264] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101271] = {
+_G.pg.base.ship_data_breakout[101271] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -1302,7 +1302,7 @@ _G.pg.ship_data_breakout[101271] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101272] = {
+_G.pg.base.ship_data_breakout[101272] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -1320,7 +1320,7 @@ _G.pg.ship_data_breakout[101272] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101273] = {
+_G.pg.base.ship_data_breakout[101273] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1339,7 +1339,7 @@ _G.pg.ship_data_breakout[101273] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101274] = {
+_G.pg.base.ship_data_breakout[101274] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1354,7 +1354,7 @@ _G.pg.ship_data_breakout[101274] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101291] = {
+_G.pg.base.ship_data_breakout[101291] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1371,7 +1371,7 @@ _G.pg.ship_data_breakout[101291] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101292] = {
+_G.pg.base.ship_data_breakout[101292] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1389,7 +1389,7 @@ _G.pg.ship_data_breakout[101292] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101293] = {
+_G.pg.base.ship_data_breakout[101293] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1408,7 +1408,7 @@ _G.pg.ship_data_breakout[101293] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101294] = {
+_G.pg.base.ship_data_breakout[101294] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1423,7 +1423,7 @@ _G.pg.ship_data_breakout[101294] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101301] = {
+_G.pg.base.ship_data_breakout[101301] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1440,7 +1440,7 @@ _G.pg.ship_data_breakout[101301] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101302] = {
+_G.pg.base.ship_data_breakout[101302] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1458,7 +1458,7 @@ _G.pg.ship_data_breakout[101302] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101303] = {
+_G.pg.base.ship_data_breakout[101303] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1477,7 +1477,7 @@ _G.pg.ship_data_breakout[101303] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101304] = {
+_G.pg.base.ship_data_breakout[101304] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1492,7 +1492,7 @@ _G.pg.ship_data_breakout[101304] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101311] = {
+_G.pg.base.ship_data_breakout[101311] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1509,7 +1509,7 @@ _G.pg.ship_data_breakout[101311] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101312] = {
+_G.pg.base.ship_data_breakout[101312] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1527,7 +1527,7 @@ _G.pg.ship_data_breakout[101312] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101313] = {
+_G.pg.base.ship_data_breakout[101313] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1546,7 +1546,7 @@ _G.pg.ship_data_breakout[101313] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101314] = {
+_G.pg.base.ship_data_breakout[101314] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1561,7 +1561,7 @@ _G.pg.ship_data_breakout[101314] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101331] = {
+_G.pg.base.ship_data_breakout[101331] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1578,7 +1578,7 @@ _G.pg.ship_data_breakout[101331] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101332] = {
+_G.pg.base.ship_data_breakout[101332] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1596,7 +1596,7 @@ _G.pg.ship_data_breakout[101332] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101333] = {
+_G.pg.base.ship_data_breakout[101333] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1615,7 +1615,7 @@ _G.pg.ship_data_breakout[101333] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101334] = {
+_G.pg.base.ship_data_breakout[101334] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1630,7 +1630,7 @@ _G.pg.ship_data_breakout[101334] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101341] = {
+_G.pg.base.ship_data_breakout[101341] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1647,7 +1647,7 @@ _G.pg.ship_data_breakout[101341] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101342] = {
+_G.pg.base.ship_data_breakout[101342] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1665,7 +1665,7 @@ _G.pg.ship_data_breakout[101342] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101343] = {
+_G.pg.base.ship_data_breakout[101343] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1684,7 +1684,7 @@ _G.pg.ship_data_breakout[101343] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101344] = {
+_G.pg.base.ship_data_breakout[101344] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1699,7 +1699,7 @@ _G.pg.ship_data_breakout[101344] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101351] = {
+_G.pg.base.ship_data_breakout[101351] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1716,7 +1716,7 @@ _G.pg.ship_data_breakout[101351] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101352] = {
+_G.pg.base.ship_data_breakout[101352] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1734,7 +1734,7 @@ _G.pg.ship_data_breakout[101352] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101353] = {
+_G.pg.base.ship_data_breakout[101353] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1753,7 +1753,7 @@ _G.pg.ship_data_breakout[101353] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101354] = {
+_G.pg.base.ship_data_breakout[101354] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1768,7 +1768,7 @@ _G.pg.ship_data_breakout[101354] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101361] = {
+_G.pg.base.ship_data_breakout[101361] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -1785,7 +1785,7 @@ _G.pg.ship_data_breakout[101361] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101362] = {
+_G.pg.base.ship_data_breakout[101362] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -1803,7 +1803,7 @@ _G.pg.ship_data_breakout[101362] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101363] = {
+_G.pg.base.ship_data_breakout[101363] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1822,7 +1822,7 @@ _G.pg.ship_data_breakout[101363] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101364] = {
+_G.pg.base.ship_data_breakout[101364] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1837,7 +1837,7 @@ _G.pg.ship_data_breakout[101364] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101371] = {
+_G.pg.base.ship_data_breakout[101371] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -1854,7 +1854,7 @@ _G.pg.ship_data_breakout[101371] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101372] = {
+_G.pg.base.ship_data_breakout[101372] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -1872,7 +1872,7 @@ _G.pg.ship_data_breakout[101372] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101373] = {
+_G.pg.base.ship_data_breakout[101373] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1891,7 +1891,7 @@ _G.pg.ship_data_breakout[101373] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101374] = {
+_G.pg.base.ship_data_breakout[101374] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1906,7 +1906,7 @@ _G.pg.ship_data_breakout[101374] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101381] = {
+_G.pg.base.ship_data_breakout[101381] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1923,7 +1923,7 @@ _G.pg.ship_data_breakout[101381] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101382] = {
+_G.pg.base.ship_data_breakout[101382] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -1941,7 +1941,7 @@ _G.pg.ship_data_breakout[101382] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101383] = {
+_G.pg.base.ship_data_breakout[101383] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -1960,7 +1960,7 @@ _G.pg.ship_data_breakout[101383] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101384] = {
+_G.pg.base.ship_data_breakout[101384] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -1975,7 +1975,7 @@ _G.pg.ship_data_breakout[101384] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101391] = {
+_G.pg.base.ship_data_breakout[101391] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -1992,7 +1992,7 @@ _G.pg.ship_data_breakout[101391] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101392] = {
+_G.pg.base.ship_data_breakout[101392] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2010,7 +2010,7 @@ _G.pg.ship_data_breakout[101392] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101393] = {
+_G.pg.base.ship_data_breakout[101393] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2029,7 +2029,7 @@ _G.pg.ship_data_breakout[101393] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101394] = {
+_G.pg.base.ship_data_breakout[101394] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2044,7 +2044,7 @@ _G.pg.ship_data_breakout[101394] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101401] = {
+_G.pg.base.ship_data_breakout[101401] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -2061,7 +2061,7 @@ _G.pg.ship_data_breakout[101401] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101402] = {
+_G.pg.base.ship_data_breakout[101402] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2079,7 +2079,7 @@ _G.pg.ship_data_breakout[101402] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101403] = {
+_G.pg.base.ship_data_breakout[101403] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2098,7 +2098,7 @@ _G.pg.ship_data_breakout[101403] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101404] = {
+_G.pg.base.ship_data_breakout[101404] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2113,7 +2113,7 @@ _G.pg.ship_data_breakout[101404] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101411] = {
+_G.pg.base.ship_data_breakout[101411] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -2130,7 +2130,7 @@ _G.pg.ship_data_breakout[101411] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101412] = {
+_G.pg.base.ship_data_breakout[101412] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2148,7 +2148,7 @@ _G.pg.ship_data_breakout[101412] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101413] = {
+_G.pg.base.ship_data_breakout[101413] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2167,7 +2167,7 @@ _G.pg.ship_data_breakout[101413] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101414] = {
+_G.pg.base.ship_data_breakout[101414] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2182,7 +2182,7 @@ _G.pg.ship_data_breakout[101414] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101421] = {
+_G.pg.base.ship_data_breakout[101421] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -2199,7 +2199,7 @@ _G.pg.ship_data_breakout[101421] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101422] = {
+_G.pg.base.ship_data_breakout[101422] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2217,7 +2217,7 @@ _G.pg.ship_data_breakout[101422] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101423] = {
+_G.pg.base.ship_data_breakout[101423] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2236,7 +2236,7 @@ _G.pg.ship_data_breakout[101423] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101424] = {
+_G.pg.base.ship_data_breakout[101424] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2251,7 +2251,7 @@ _G.pg.ship_data_breakout[101424] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101431] = {
+_G.pg.base.ship_data_breakout[101431] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -2268,7 +2268,7 @@ _G.pg.ship_data_breakout[101431] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101432] = {
+_G.pg.base.ship_data_breakout[101432] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2286,7 +2286,7 @@ _G.pg.ship_data_breakout[101432] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101433] = {
+_G.pg.base.ship_data_breakout[101433] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2305,7 +2305,7 @@ _G.pg.ship_data_breakout[101433] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101434] = {
+_G.pg.base.ship_data_breakout[101434] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2320,7 +2320,7 @@ _G.pg.ship_data_breakout[101434] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101441] = {
+_G.pg.base.ship_data_breakout[101441] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -2337,7 +2337,7 @@ _G.pg.ship_data_breakout[101441] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101442] = {
+_G.pg.base.ship_data_breakout[101442] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2355,7 +2355,7 @@ _G.pg.ship_data_breakout[101442] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[101443] = {
+_G.pg.base.ship_data_breakout[101443] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2374,7 +2374,7 @@ _G.pg.ship_data_breakout[101443] = {
 	}
 }
 
-_G.pg.ship_data_breakout[101444] = {
+_G.pg.base.ship_data_breakout[101444] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2389,7 +2389,7 @@ _G.pg.ship_data_breakout[101444] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102011] = {
+_G.pg.base.ship_data_breakout[102011] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -2406,7 +2406,7 @@ _G.pg.ship_data_breakout[102011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102012] = {
+_G.pg.base.ship_data_breakout[102012] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2424,7 +2424,7 @@ _G.pg.ship_data_breakout[102012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102013] = {
+_G.pg.base.ship_data_breakout[102013] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2441,7 +2441,7 @@ _G.pg.ship_data_breakout[102013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102014] = {
+_G.pg.base.ship_data_breakout[102014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2456,7 +2456,7 @@ _G.pg.ship_data_breakout[102014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102021] = {
+_G.pg.base.ship_data_breakout[102021] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -2473,7 +2473,7 @@ _G.pg.ship_data_breakout[102021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102022] = {
+_G.pg.base.ship_data_breakout[102022] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -2491,7 +2491,7 @@ _G.pg.ship_data_breakout[102022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102023] = {
+_G.pg.base.ship_data_breakout[102023] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2508,7 +2508,7 @@ _G.pg.ship_data_breakout[102023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102024] = {
+_G.pg.base.ship_data_breakout[102024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2523,7 +2523,7 @@ _G.pg.ship_data_breakout[102024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102031] = {
+_G.pg.base.ship_data_breakout[102031] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -2540,7 +2540,7 @@ _G.pg.ship_data_breakout[102031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102032] = {
+_G.pg.base.ship_data_breakout[102032] = {
 	use_gold = 800,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -2558,7 +2558,7 @@ _G.pg.ship_data_breakout[102032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102033] = {
+_G.pg.base.ship_data_breakout[102033] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -2575,7 +2575,7 @@ _G.pg.ship_data_breakout[102033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102034] = {
+_G.pg.base.ship_data_breakout[102034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2590,7 +2590,7 @@ _G.pg.ship_data_breakout[102034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102041] = {
+_G.pg.base.ship_data_breakout[102041] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -2607,7 +2607,7 @@ _G.pg.ship_data_breakout[102041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102042] = {
+_G.pg.base.ship_data_breakout[102042] = {
 	use_gold = 800,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -2625,7 +2625,7 @@ _G.pg.ship_data_breakout[102042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102043] = {
+_G.pg.base.ship_data_breakout[102043] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -2642,7 +2642,7 @@ _G.pg.ship_data_breakout[102043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102044] = {
+_G.pg.base.ship_data_breakout[102044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2657,7 +2657,7 @@ _G.pg.ship_data_breakout[102044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102051] = {
+_G.pg.base.ship_data_breakout[102051] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -2674,7 +2674,7 @@ _G.pg.ship_data_breakout[102051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102052] = {
+_G.pg.base.ship_data_breakout[102052] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -2692,7 +2692,7 @@ _G.pg.ship_data_breakout[102052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102053] = {
+_G.pg.base.ship_data_breakout[102053] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -2709,7 +2709,7 @@ _G.pg.ship_data_breakout[102053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102054] = {
+_G.pg.base.ship_data_breakout[102054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2724,7 +2724,7 @@ _G.pg.ship_data_breakout[102054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102061] = {
+_G.pg.base.ship_data_breakout[102061] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -2741,7 +2741,7 @@ _G.pg.ship_data_breakout[102061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102062] = {
+_G.pg.base.ship_data_breakout[102062] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -2759,7 +2759,7 @@ _G.pg.ship_data_breakout[102062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102063] = {
+_G.pg.base.ship_data_breakout[102063] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2776,7 +2776,7 @@ _G.pg.ship_data_breakout[102063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102064] = {
+_G.pg.base.ship_data_breakout[102064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2791,7 +2791,7 @@ _G.pg.ship_data_breakout[102064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102071] = {
+_G.pg.base.ship_data_breakout[102071] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -2808,7 +2808,7 @@ _G.pg.ship_data_breakout[102071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102072] = {
+_G.pg.base.ship_data_breakout[102072] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -2826,7 +2826,7 @@ _G.pg.ship_data_breakout[102072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102073] = {
+_G.pg.base.ship_data_breakout[102073] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2843,7 +2843,7 @@ _G.pg.ship_data_breakout[102073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102074] = {
+_G.pg.base.ship_data_breakout[102074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2858,7 +2858,7 @@ _G.pg.ship_data_breakout[102074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102081] = {
+_G.pg.base.ship_data_breakout[102081] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -2875,7 +2875,7 @@ _G.pg.ship_data_breakout[102081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102082] = {
+_G.pg.base.ship_data_breakout[102082] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -2893,7 +2893,7 @@ _G.pg.ship_data_breakout[102082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102083] = {
+_G.pg.base.ship_data_breakout[102083] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -2910,7 +2910,7 @@ _G.pg.ship_data_breakout[102083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102084] = {
+_G.pg.base.ship_data_breakout[102084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2925,7 +2925,7 @@ _G.pg.ship_data_breakout[102084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102091] = {
+_G.pg.base.ship_data_breakout[102091] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -2942,7 +2942,7 @@ _G.pg.ship_data_breakout[102091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102092] = {
+_G.pg.base.ship_data_breakout[102092] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -2960,7 +2960,7 @@ _G.pg.ship_data_breakout[102092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102093] = {
+_G.pg.base.ship_data_breakout[102093] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -2977,7 +2977,7 @@ _G.pg.ship_data_breakout[102093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102094] = {
+_G.pg.base.ship_data_breakout[102094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -2992,7 +2992,7 @@ _G.pg.ship_data_breakout[102094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102101] = {
+_G.pg.base.ship_data_breakout[102101] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3009,7 +3009,7 @@ _G.pg.ship_data_breakout[102101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102102] = {
+_G.pg.base.ship_data_breakout[102102] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3027,7 +3027,7 @@ _G.pg.ship_data_breakout[102102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102103] = {
+_G.pg.base.ship_data_breakout[102103] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -3044,7 +3044,7 @@ _G.pg.ship_data_breakout[102103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102104] = {
+_G.pg.base.ship_data_breakout[102104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3059,7 +3059,7 @@ _G.pg.ship_data_breakout[102104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102111] = {
+_G.pg.base.ship_data_breakout[102111] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -3076,7 +3076,7 @@ _G.pg.ship_data_breakout[102111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102112] = {
+_G.pg.base.ship_data_breakout[102112] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -3094,7 +3094,7 @@ _G.pg.ship_data_breakout[102112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102113] = {
+_G.pg.base.ship_data_breakout[102113] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3111,7 +3111,7 @@ _G.pg.ship_data_breakout[102113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102114] = {
+_G.pg.base.ship_data_breakout[102114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3126,7 +3126,7 @@ _G.pg.ship_data_breakout[102114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102121] = {
+_G.pg.base.ship_data_breakout[102121] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3143,7 +3143,7 @@ _G.pg.ship_data_breakout[102121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102122] = {
+_G.pg.base.ship_data_breakout[102122] = {
 	use_gold = 900,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3161,7 +3161,7 @@ _G.pg.ship_data_breakout[102122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102123] = {
+_G.pg.base.ship_data_breakout[102123] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -3178,7 +3178,7 @@ _G.pg.ship_data_breakout[102123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102124] = {
+_G.pg.base.ship_data_breakout[102124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3193,7 +3193,7 @@ _G.pg.ship_data_breakout[102124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102131] = {
+_G.pg.base.ship_data_breakout[102131] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3210,7 +3210,7 @@ _G.pg.ship_data_breakout[102131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102132] = {
+_G.pg.base.ship_data_breakout[102132] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3228,7 +3228,7 @@ _G.pg.ship_data_breakout[102132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102133] = {
+_G.pg.base.ship_data_breakout[102133] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -3245,7 +3245,7 @@ _G.pg.ship_data_breakout[102133] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102134] = {
+_G.pg.base.ship_data_breakout[102134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3260,7 +3260,7 @@ _G.pg.ship_data_breakout[102134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102141] = {
+_G.pg.base.ship_data_breakout[102141] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3277,7 +3277,7 @@ _G.pg.ship_data_breakout[102141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102142] = {
+_G.pg.base.ship_data_breakout[102142] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3295,7 +3295,7 @@ _G.pg.ship_data_breakout[102142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102143] = {
+_G.pg.base.ship_data_breakout[102143] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -3312,7 +3312,7 @@ _G.pg.ship_data_breakout[102143] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102144] = {
+_G.pg.base.ship_data_breakout[102144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3327,7 +3327,7 @@ _G.pg.ship_data_breakout[102144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102151] = {
+_G.pg.base.ship_data_breakout[102151] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3344,7 +3344,7 @@ _G.pg.ship_data_breakout[102151] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102152] = {
+_G.pg.base.ship_data_breakout[102152] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3362,7 +3362,7 @@ _G.pg.ship_data_breakout[102152] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102153] = {
+_G.pg.base.ship_data_breakout[102153] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -3379,7 +3379,7 @@ _G.pg.ship_data_breakout[102153] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102154] = {
+_G.pg.base.ship_data_breakout[102154] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3394,7 +3394,7 @@ _G.pg.ship_data_breakout[102154] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102161] = {
+_G.pg.base.ship_data_breakout[102161] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -3411,7 +3411,7 @@ _G.pg.ship_data_breakout[102161] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102162] = {
+_G.pg.base.ship_data_breakout[102162] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -3429,7 +3429,7 @@ _G.pg.ship_data_breakout[102162] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102163] = {
+_G.pg.base.ship_data_breakout[102163] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3446,7 +3446,7 @@ _G.pg.ship_data_breakout[102163] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102164] = {
+_G.pg.base.ship_data_breakout[102164] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3461,7 +3461,7 @@ _G.pg.ship_data_breakout[102164] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102171] = {
+_G.pg.base.ship_data_breakout[102171] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -3478,7 +3478,7 @@ _G.pg.ship_data_breakout[102171] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102172] = {
+_G.pg.base.ship_data_breakout[102172] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -3496,7 +3496,7 @@ _G.pg.ship_data_breakout[102172] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102173] = {
+_G.pg.base.ship_data_breakout[102173] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3513,7 +3513,7 @@ _G.pg.ship_data_breakout[102173] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102174] = {
+_G.pg.base.ship_data_breakout[102174] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3528,7 +3528,7 @@ _G.pg.ship_data_breakout[102174] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102181] = {
+_G.pg.base.ship_data_breakout[102181] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -3545,7 +3545,7 @@ _G.pg.ship_data_breakout[102181] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102182] = {
+_G.pg.base.ship_data_breakout[102182] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -3563,7 +3563,7 @@ _G.pg.ship_data_breakout[102182] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102183] = {
+_G.pg.base.ship_data_breakout[102183] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3580,7 +3580,7 @@ _G.pg.ship_data_breakout[102183] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102184] = {
+_G.pg.base.ship_data_breakout[102184] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3595,7 +3595,141 @@ _G.pg.ship_data_breakout[102184] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102211] = {
+_G.pg.base.ship_data_breakout[102191] = {
+	use_gold = 500,
+	breakout_view = "獲得全彈發射I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 10219,
+	breakout_id = 102192,
+	level = 10,
+	id = 102191,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		70121
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102192] = {
+	use_gold = 1500,
+	breakout_view = "主炮底座+1/主炮效率提高10%",
+	use_char_num = 1,
+	use_char = 10219,
+	breakout_id = 102193,
+	level = 30,
+	id = 102192,
+	icon = "10001",
+	pre_id = 102191,
+	use_item = {},
+	weapon_ids = {
+		12100,
+		12100
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102193] = {
+	use_gold = 2500,
+	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
+	use_char_num = 2,
+	use_char = 10219,
+	breakout_id = 102194,
+	level = 70,
+	id = 102193,
+	icon = "10001",
+	pre_id = 102192,
+	use_item = {},
+	weapon_ids = {
+		70122
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102194] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 10219,
+	breakout_id = 0,
+	level = 0,
+	id = 102194,
+	icon = "10001",
+	pre_id = 102193,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102201] = {
+	use_gold = 500,
+	breakout_view = "獲得全彈發射I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 10220,
+	breakout_id = 102202,
+	level = 10,
+	id = 102201,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		70141
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102202] = {
+	use_gold = 1500,
+	breakout_view = "主炮底座+1/主炮效率提高10%",
+	use_char_num = 1,
+	use_char = 10220,
+	breakout_id = 102203,
+	level = 30,
+	id = 102202,
+	icon = "10001",
+	pre_id = 102201,
+	use_item = {},
+	weapon_ids = {
+		12100,
+		12100
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102203] = {
+	use_gold = 2500,
+	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
+	use_char_num = 2,
+	use_char = 10220,
+	breakout_id = 102204,
+	level = 70,
+	id = 102203,
+	icon = "10001",
+	pre_id = 102202,
+	use_item = {},
+	weapon_ids = {
+		70142
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102204] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 10220,
+	breakout_id = 0,
+	level = 0,
+	id = 102204,
+	icon = "10001",
+	pre_id = 102203,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[102211] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -3612,7 +3746,7 @@ _G.pg.ship_data_breakout[102211] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102212] = {
+_G.pg.base.ship_data_breakout[102212] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -3630,7 +3764,7 @@ _G.pg.ship_data_breakout[102212] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102213] = {
+_G.pg.base.ship_data_breakout[102213] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3647,7 +3781,7 @@ _G.pg.ship_data_breakout[102213] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102214] = {
+_G.pg.base.ship_data_breakout[102214] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3662,7 +3796,7 @@ _G.pg.ship_data_breakout[102214] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102221] = {
+_G.pg.base.ship_data_breakout[102221] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -3679,7 +3813,7 @@ _G.pg.ship_data_breakout[102221] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102222] = {
+_G.pg.base.ship_data_breakout[102222] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -3697,7 +3831,7 @@ _G.pg.ship_data_breakout[102222] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102223] = {
+_G.pg.base.ship_data_breakout[102223] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3714,7 +3848,7 @@ _G.pg.ship_data_breakout[102223] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102224] = {
+_G.pg.base.ship_data_breakout[102224] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3729,7 +3863,7 @@ _G.pg.ship_data_breakout[102224] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102231] = {
+_G.pg.base.ship_data_breakout[102231] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3746,7 +3880,7 @@ _G.pg.ship_data_breakout[102231] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102232] = {
+_G.pg.base.ship_data_breakout[102232] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3764,7 +3898,7 @@ _G.pg.ship_data_breakout[102232] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102233] = {
+_G.pg.base.ship_data_breakout[102233] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3781,7 +3915,7 @@ _G.pg.ship_data_breakout[102233] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102234] = {
+_G.pg.base.ship_data_breakout[102234] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3796,7 +3930,7 @@ _G.pg.ship_data_breakout[102234] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102241] = {
+_G.pg.base.ship_data_breakout[102241] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3813,7 +3947,7 @@ _G.pg.ship_data_breakout[102241] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102242] = {
+_G.pg.base.ship_data_breakout[102242] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3831,7 +3965,7 @@ _G.pg.ship_data_breakout[102242] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102243] = {
+_G.pg.base.ship_data_breakout[102243] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高15%",
 	use_char_num = 2,
@@ -3848,7 +3982,7 @@ _G.pg.ship_data_breakout[102243] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102244] = {
+_G.pg.base.ship_data_breakout[102244] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3863,7 +3997,7 @@ _G.pg.ship_data_breakout[102244] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102251] = {
+_G.pg.base.ship_data_breakout[102251] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -3880,7 +4014,7 @@ _G.pg.ship_data_breakout[102251] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102252] = {
+_G.pg.base.ship_data_breakout[102252] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -3898,7 +4032,7 @@ _G.pg.ship_data_breakout[102252] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102253] = {
+_G.pg.base.ship_data_breakout[102253] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3915,7 +4049,7 @@ _G.pg.ship_data_breakout[102253] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102254] = {
+_G.pg.base.ship_data_breakout[102254] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3930,7 +4064,7 @@ _G.pg.ship_data_breakout[102254] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102261] = {
+_G.pg.base.ship_data_breakout[102261] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -3947,7 +4081,7 @@ _G.pg.ship_data_breakout[102261] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102262] = {
+_G.pg.base.ship_data_breakout[102262] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -3965,7 +4099,7 @@ _G.pg.ship_data_breakout[102262] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102263] = {
+_G.pg.base.ship_data_breakout[102263] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -3982,7 +4116,7 @@ _G.pg.ship_data_breakout[102263] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102264] = {
+_G.pg.base.ship_data_breakout[102264] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -3997,7 +4131,7 @@ _G.pg.ship_data_breakout[102264] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102271] = {
+_G.pg.base.ship_data_breakout[102271] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -4014,7 +4148,7 @@ _G.pg.ship_data_breakout[102271] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102272] = {
+_G.pg.base.ship_data_breakout[102272] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -4032,7 +4166,7 @@ _G.pg.ship_data_breakout[102272] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102273] = {
+_G.pg.base.ship_data_breakout[102273] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4049,7 +4183,7 @@ _G.pg.ship_data_breakout[102273] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102274] = {
+_G.pg.base.ship_data_breakout[102274] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4064,7 +4198,7 @@ _G.pg.ship_data_breakout[102274] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102281] = {
+_G.pg.base.ship_data_breakout[102281] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4081,7 +4215,7 @@ _G.pg.ship_data_breakout[102281] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102282] = {
+_G.pg.base.ship_data_breakout[102282] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4099,7 +4233,7 @@ _G.pg.ship_data_breakout[102282] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102283] = {
+_G.pg.base.ship_data_breakout[102283] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -4116,7 +4250,7 @@ _G.pg.ship_data_breakout[102283] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[102284] = {
+_G.pg.base.ship_data_breakout[102284] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4131,7 +4265,7 @@ _G.pg.ship_data_breakout[102284] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103011] = {
+_G.pg.base.ship_data_breakout[103011] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4148,7 +4282,7 @@ _G.pg.ship_data_breakout[103011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103012] = {
+_G.pg.base.ship_data_breakout[103012] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4166,7 +4300,7 @@ _G.pg.ship_data_breakout[103012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103013] = {
+_G.pg.base.ship_data_breakout[103013] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4183,7 +4317,7 @@ _G.pg.ship_data_breakout[103013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103014] = {
+_G.pg.base.ship_data_breakout[103014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4198,7 +4332,7 @@ _G.pg.ship_data_breakout[103014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103021] = {
+_G.pg.base.ship_data_breakout[103021] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4215,7 +4349,7 @@ _G.pg.ship_data_breakout[103021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103022] = {
+_G.pg.base.ship_data_breakout[103022] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4233,7 +4367,7 @@ _G.pg.ship_data_breakout[103022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103023] = {
+_G.pg.base.ship_data_breakout[103023] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4250,7 +4384,7 @@ _G.pg.ship_data_breakout[103023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103024] = {
+_G.pg.base.ship_data_breakout[103024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4265,7 +4399,7 @@ _G.pg.ship_data_breakout[103024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103031] = {
+_G.pg.base.ship_data_breakout[103031] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4282,7 +4416,7 @@ _G.pg.ship_data_breakout[103031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103032] = {
+_G.pg.base.ship_data_breakout[103032] = {
 	use_gold = 800,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4300,7 +4434,7 @@ _G.pg.ship_data_breakout[103032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103033] = {
+_G.pg.base.ship_data_breakout[103033] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4317,7 +4451,7 @@ _G.pg.ship_data_breakout[103033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103034] = {
+_G.pg.base.ship_data_breakout[103034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4332,7 +4466,7 @@ _G.pg.ship_data_breakout[103034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103041] = {
+_G.pg.base.ship_data_breakout[103041] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4349,7 +4483,7 @@ _G.pg.ship_data_breakout[103041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103042] = {
+_G.pg.base.ship_data_breakout[103042] = {
 	use_gold = 800,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4367,7 +4501,7 @@ _G.pg.ship_data_breakout[103042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103043] = {
+_G.pg.base.ship_data_breakout[103043] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4384,7 +4518,7 @@ _G.pg.ship_data_breakout[103043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103044] = {
+_G.pg.base.ship_data_breakout[103044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4399,7 +4533,7 @@ _G.pg.ship_data_breakout[103044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103051] = {
+_G.pg.base.ship_data_breakout[103051] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4416,7 +4550,7 @@ _G.pg.ship_data_breakout[103051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103052] = {
+_G.pg.base.ship_data_breakout[103052] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4434,7 +4568,7 @@ _G.pg.ship_data_breakout[103052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103053] = {
+_G.pg.base.ship_data_breakout[103053] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4451,7 +4585,7 @@ _G.pg.ship_data_breakout[103053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103054] = {
+_G.pg.base.ship_data_breakout[103054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4466,7 +4600,7 @@ _G.pg.ship_data_breakout[103054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103061] = {
+_G.pg.base.ship_data_breakout[103061] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -4483,7 +4617,7 @@ _G.pg.ship_data_breakout[103061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103062] = {
+_G.pg.base.ship_data_breakout[103062] = {
 	use_gold = 800,
 	breakout_view = "主炮底座+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -4501,7 +4635,7 @@ _G.pg.ship_data_breakout[103062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103063] = {
+_G.pg.base.ship_data_breakout[103063] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4518,7 +4652,7 @@ _G.pg.ship_data_breakout[103063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103064] = {
+_G.pg.base.ship_data_breakout[103064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4533,7 +4667,7 @@ _G.pg.ship_data_breakout[103064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103071] = {
+_G.pg.base.ship_data_breakout[103071] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -4550,7 +4684,7 @@ _G.pg.ship_data_breakout[103071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103072] = {
+_G.pg.base.ship_data_breakout[103072] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -4568,7 +4702,7 @@ _G.pg.ship_data_breakout[103072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103073] = {
+_G.pg.base.ship_data_breakout[103073] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4585,7 +4719,7 @@ _G.pg.ship_data_breakout[103073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103074] = {
+_G.pg.base.ship_data_breakout[103074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4600,7 +4734,7 @@ _G.pg.ship_data_breakout[103074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103081] = {
+_G.pg.base.ship_data_breakout[103081] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -4617,7 +4751,7 @@ _G.pg.ship_data_breakout[103081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103082] = {
+_G.pg.base.ship_data_breakout[103082] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -4635,7 +4769,7 @@ _G.pg.ship_data_breakout[103082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103083] = {
+_G.pg.base.ship_data_breakout[103083] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4652,7 +4786,7 @@ _G.pg.ship_data_breakout[103083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103084] = {
+_G.pg.base.ship_data_breakout[103084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4667,7 +4801,7 @@ _G.pg.ship_data_breakout[103084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103091] = {
+_G.pg.base.ship_data_breakout[103091] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -4684,7 +4818,7 @@ _G.pg.ship_data_breakout[103091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103092] = {
+_G.pg.base.ship_data_breakout[103092] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -4702,7 +4836,7 @@ _G.pg.ship_data_breakout[103092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103093] = {
+_G.pg.base.ship_data_breakout[103093] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4719,7 +4853,7 @@ _G.pg.ship_data_breakout[103093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103094] = {
+_G.pg.base.ship_data_breakout[103094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4734,7 +4868,7 @@ _G.pg.ship_data_breakout[103094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103101] = {
+_G.pg.base.ship_data_breakout[103101] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -4751,7 +4885,7 @@ _G.pg.ship_data_breakout[103101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103102] = {
+_G.pg.base.ship_data_breakout[103102] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -4769,7 +4903,7 @@ _G.pg.ship_data_breakout[103102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103103] = {
+_G.pg.base.ship_data_breakout[103103] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4786,7 +4920,7 @@ _G.pg.ship_data_breakout[103103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103104] = {
+_G.pg.base.ship_data_breakout[103104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4801,7 +4935,7 @@ _G.pg.ship_data_breakout[103104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103111] = {
+_G.pg.base.ship_data_breakout[103111] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4818,7 +4952,7 @@ _G.pg.ship_data_breakout[103111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103112] = {
+_G.pg.base.ship_data_breakout[103112] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4836,7 +4970,7 @@ _G.pg.ship_data_breakout[103112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103113] = {
+_G.pg.base.ship_data_breakout[103113] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4853,7 +4987,7 @@ _G.pg.ship_data_breakout[103113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103114] = {
+_G.pg.base.ship_data_breakout[103114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4868,7 +5002,7 @@ _G.pg.ship_data_breakout[103114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103131] = {
+_G.pg.base.ship_data_breakout[103131] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4885,7 +5019,7 @@ _G.pg.ship_data_breakout[103131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103132] = {
+_G.pg.base.ship_data_breakout[103132] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4903,7 +5037,7 @@ _G.pg.ship_data_breakout[103132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103133] = {
+_G.pg.base.ship_data_breakout[103133] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4920,7 +5054,7 @@ _G.pg.ship_data_breakout[103133] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103134] = {
+_G.pg.base.ship_data_breakout[103134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -4935,7 +5069,7 @@ _G.pg.ship_data_breakout[103134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103161] = {
+_G.pg.base.ship_data_breakout[103161] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -4952,7 +5086,7 @@ _G.pg.ship_data_breakout[103161] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103162] = {
+_G.pg.base.ship_data_breakout[103162] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -4970,7 +5104,7 @@ _G.pg.ship_data_breakout[103162] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103163] = {
+_G.pg.base.ship_data_breakout[103163] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -4987,7 +5121,7 @@ _G.pg.ship_data_breakout[103163] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103164] = {
+_G.pg.base.ship_data_breakout[103164] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5002,7 +5136,7 @@ _G.pg.ship_data_breakout[103164] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103241] = {
+_G.pg.base.ship_data_breakout[103241] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -5019,7 +5153,7 @@ _G.pg.ship_data_breakout[103241] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103242] = {
+_G.pg.base.ship_data_breakout[103242] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -5037,7 +5171,7 @@ _G.pg.ship_data_breakout[103242] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103243] = {
+_G.pg.base.ship_data_breakout[103243] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -5054,7 +5188,7 @@ _G.pg.ship_data_breakout[103243] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[103244] = {
+_G.pg.base.ship_data_breakout[103244] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5069,7 +5203,7 @@ _G.pg.ship_data_breakout[103244] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105011] = {
+_G.pg.base.ship_data_breakout[105011] = {
 	use_gold = 100,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5087,7 +5221,7 @@ _G.pg.ship_data_breakout[105011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105012] = {
+_G.pg.base.ship_data_breakout[105012] = {
 	use_gold = 300,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5106,7 +5240,7 @@ _G.pg.ship_data_breakout[105012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105013] = {
+_G.pg.base.ship_data_breakout[105013] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5125,7 +5259,7 @@ _G.pg.ship_data_breakout[105013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105014] = {
+_G.pg.base.ship_data_breakout[105014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5140,7 +5274,7 @@ _G.pg.ship_data_breakout[105014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105021] = {
+_G.pg.base.ship_data_breakout[105021] = {
 	use_gold = 100,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5158,7 +5292,7 @@ _G.pg.ship_data_breakout[105021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105022] = {
+_G.pg.base.ship_data_breakout[105022] = {
 	use_gold = 300,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5177,7 +5311,7 @@ _G.pg.ship_data_breakout[105022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105023] = {
+_G.pg.base.ship_data_breakout[105023] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5196,7 +5330,7 @@ _G.pg.ship_data_breakout[105023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105024] = {
+_G.pg.base.ship_data_breakout[105024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5211,7 +5345,7 @@ _G.pg.ship_data_breakout[105024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105031] = {
+_G.pg.base.ship_data_breakout[105031] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5229,7 +5363,7 @@ _G.pg.ship_data_breakout[105031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105032] = {
+_G.pg.base.ship_data_breakout[105032] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5248,7 +5382,7 @@ _G.pg.ship_data_breakout[105032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105033] = {
+_G.pg.base.ship_data_breakout[105033] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5267,7 +5401,7 @@ _G.pg.ship_data_breakout[105033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105034] = {
+_G.pg.base.ship_data_breakout[105034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5282,7 +5416,7 @@ _G.pg.ship_data_breakout[105034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105041] = {
+_G.pg.base.ship_data_breakout[105041] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5300,7 +5434,7 @@ _G.pg.ship_data_breakout[105041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105042] = {
+_G.pg.base.ship_data_breakout[105042] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5319,7 +5453,7 @@ _G.pg.ship_data_breakout[105042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105043] = {
+_G.pg.base.ship_data_breakout[105043] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5338,7 +5472,7 @@ _G.pg.ship_data_breakout[105043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105044] = {
+_G.pg.base.ship_data_breakout[105044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5353,7 +5487,7 @@ _G.pg.ship_data_breakout[105044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105071] = {
+_G.pg.base.ship_data_breakout[105071] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5371,7 +5505,7 @@ _G.pg.ship_data_breakout[105071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105072] = {
+_G.pg.base.ship_data_breakout[105072] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5390,7 +5524,7 @@ _G.pg.ship_data_breakout[105072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105073] = {
+_G.pg.base.ship_data_breakout[105073] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5409,7 +5543,7 @@ _G.pg.ship_data_breakout[105073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105074] = {
+_G.pg.base.ship_data_breakout[105074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5424,7 +5558,7 @@ _G.pg.ship_data_breakout[105074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105081] = {
+_G.pg.base.ship_data_breakout[105081] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5442,7 +5576,7 @@ _G.pg.ship_data_breakout[105081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105082] = {
+_G.pg.base.ship_data_breakout[105082] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5461,7 +5595,7 @@ _G.pg.ship_data_breakout[105082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105083] = {
+_G.pg.base.ship_data_breakout[105083] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5480,7 +5614,7 @@ _G.pg.ship_data_breakout[105083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105084] = {
+_G.pg.base.ship_data_breakout[105084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5495,7 +5629,7 @@ _G.pg.ship_data_breakout[105084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105091] = {
+_G.pg.base.ship_data_breakout[105091] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5513,7 +5647,7 @@ _G.pg.ship_data_breakout[105091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105092] = {
+_G.pg.base.ship_data_breakout[105092] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5532,7 +5666,7 @@ _G.pg.ship_data_breakout[105092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105093] = {
+_G.pg.base.ship_data_breakout[105093] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5551,7 +5685,7 @@ _G.pg.ship_data_breakout[105093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105094] = {
+_G.pg.base.ship_data_breakout[105094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5566,7 +5700,7 @@ _G.pg.ship_data_breakout[105094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105101] = {
+_G.pg.base.ship_data_breakout[105101] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5584,7 +5718,7 @@ _G.pg.ship_data_breakout[105101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105102] = {
+_G.pg.base.ship_data_breakout[105102] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5603,7 +5737,7 @@ _G.pg.ship_data_breakout[105102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105103] = {
+_G.pg.base.ship_data_breakout[105103] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5622,7 +5756,7 @@ _G.pg.ship_data_breakout[105103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105104] = {
+_G.pg.base.ship_data_breakout[105104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5637,7 +5771,7 @@ _G.pg.ship_data_breakout[105104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105111] = {
+_G.pg.base.ship_data_breakout[105111] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5655,7 +5789,7 @@ _G.pg.ship_data_breakout[105111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105112] = {
+_G.pg.base.ship_data_breakout[105112] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5674,7 +5808,7 @@ _G.pg.ship_data_breakout[105112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105113] = {
+_G.pg.base.ship_data_breakout[105113] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5693,7 +5827,7 @@ _G.pg.ship_data_breakout[105113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105114] = {
+_G.pg.base.ship_data_breakout[105114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5708,7 +5842,7 @@ _G.pg.ship_data_breakout[105114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105121] = {
+_G.pg.base.ship_data_breakout[105121] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5726,7 +5860,7 @@ _G.pg.ship_data_breakout[105121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105122] = {
+_G.pg.base.ship_data_breakout[105122] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5745,7 +5879,7 @@ _G.pg.ship_data_breakout[105122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105123] = {
+_G.pg.base.ship_data_breakout[105123] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5764,7 +5898,7 @@ _G.pg.ship_data_breakout[105123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105124] = {
+_G.pg.base.ship_data_breakout[105124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5779,7 +5913,7 @@ _G.pg.ship_data_breakout[105124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105131] = {
+_G.pg.base.ship_data_breakout[105131] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5797,7 +5931,7 @@ _G.pg.ship_data_breakout[105131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105132] = {
+_G.pg.base.ship_data_breakout[105132] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5816,7 +5950,7 @@ _G.pg.ship_data_breakout[105132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105133] = {
+_G.pg.base.ship_data_breakout[105133] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5835,7 +5969,7 @@ _G.pg.ship_data_breakout[105133] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105134] = {
+_G.pg.base.ship_data_breakout[105134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5850,7 +5984,7 @@ _G.pg.ship_data_breakout[105134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105141] = {
+_G.pg.base.ship_data_breakout[105141] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5868,7 +6002,7 @@ _G.pg.ship_data_breakout[105141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105142] = {
+_G.pg.base.ship_data_breakout[105142] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5887,7 +6021,7 @@ _G.pg.ship_data_breakout[105142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105143] = {
+_G.pg.base.ship_data_breakout[105143] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5906,7 +6040,7 @@ _G.pg.ship_data_breakout[105143] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105144] = {
+_G.pg.base.ship_data_breakout[105144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5921,7 +6055,7 @@ _G.pg.ship_data_breakout[105144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105191] = {
+_G.pg.base.ship_data_breakout[105191] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -5939,7 +6073,7 @@ _G.pg.ship_data_breakout[105191] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105192] = {
+_G.pg.base.ship_data_breakout[105192] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -5958,7 +6092,7 @@ _G.pg.ship_data_breakout[105192] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105193] = {
+_G.pg.base.ship_data_breakout[105193] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -5977,7 +6111,7 @@ _G.pg.ship_data_breakout[105193] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105194] = {
+_G.pg.base.ship_data_breakout[105194] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -5992,7 +6126,7 @@ _G.pg.ship_data_breakout[105194] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105201] = {
+_G.pg.base.ship_data_breakout[105201] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -6010,7 +6144,7 @@ _G.pg.ship_data_breakout[105201] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105202] = {
+_G.pg.base.ship_data_breakout[105202] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -6029,7 +6163,7 @@ _G.pg.ship_data_breakout[105202] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105203] = {
+_G.pg.base.ship_data_breakout[105203] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -6048,7 +6182,7 @@ _G.pg.ship_data_breakout[105203] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[105204] = {
+_G.pg.base.ship_data_breakout[105204] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6063,7 +6197,7 @@ _G.pg.ship_data_breakout[105204] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106011] = {
+_G.pg.base.ship_data_breakout[106011] = {
 	use_gold = 300,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -6081,7 +6215,7 @@ _G.pg.ship_data_breakout[106011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106012] = {
+_G.pg.base.ship_data_breakout[106012] = {
 	use_gold = 800,
 	breakout_view = "機庫容量+1/所有轟炸機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -6101,7 +6235,7 @@ _G.pg.ship_data_breakout[106012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106013] = {
+_G.pg.base.ship_data_breakout[106013] = {
 	use_gold = 1500,
 	breakout_view = "所有艦載機+1/轟炸機效率提高15%",
 	use_char_num = 2,
@@ -6121,7 +6255,7 @@ _G.pg.ship_data_breakout[106013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106014] = {
+_G.pg.base.ship_data_breakout[106014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6136,7 +6270,7 @@ _G.pg.ship_data_breakout[106014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106021] = {
+_G.pg.base.ship_data_breakout[106021] = {
 	use_gold = 100,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -6154,7 +6288,7 @@ _G.pg.ship_data_breakout[106021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106022] = {
+_G.pg.base.ship_data_breakout[106022] = {
 	use_gold = 300,
 	breakout_view = "機庫容量+1/所有轟炸機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -6174,7 +6308,7 @@ _G.pg.ship_data_breakout[106022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106023] = {
+_G.pg.base.ship_data_breakout[106023] = {
 	use_gold = 500,
 	breakout_view = "所有艦載機+1/轟炸機效率提高15%",
 	use_char_num = 2,
@@ -6194,7 +6328,7 @@ _G.pg.ship_data_breakout[106023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106024] = {
+_G.pg.base.ship_data_breakout[106024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6209,7 +6343,7 @@ _G.pg.ship_data_breakout[106024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106551] = {
+_G.pg.base.ship_data_breakout[106551] = {
 	use_gold = 300,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -6227,7 +6361,7 @@ _G.pg.ship_data_breakout[106551] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106552] = {
+_G.pg.base.ship_data_breakout[106552] = {
 	use_gold = 800,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -6247,7 +6381,7 @@ _G.pg.ship_data_breakout[106552] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106553] = {
+_G.pg.base.ship_data_breakout[106553] = {
 	use_gold = 1500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -6267,7 +6401,7 @@ _G.pg.ship_data_breakout[106553] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[106554] = {
+_G.pg.base.ship_data_breakout[106554] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6282,7 +6416,7 @@ _G.pg.ship_data_breakout[106554] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107011] = {
+_G.pg.base.ship_data_breakout[107011] = {
 	use_gold = 100,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高3%",
 	use_char_num = 1,
@@ -6300,7 +6434,7 @@ _G.pg.ship_data_breakout[107011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107012] = {
+_G.pg.base.ship_data_breakout[107012] = {
 	use_gold = 300,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -6320,7 +6454,7 @@ _G.pg.ship_data_breakout[107012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107013] = {
+_G.pg.base.ship_data_breakout[107013] = {
 	use_gold = 500,
 	breakout_view = "所有轟炸機+1/戰鬥機效率提高7%",
 	use_char_num = 2,
@@ -6340,7 +6474,7 @@ _G.pg.ship_data_breakout[107013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107014] = {
+_G.pg.base.ship_data_breakout[107014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6355,7 +6489,7 @@ _G.pg.ship_data_breakout[107014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107021] = {
+_G.pg.base.ship_data_breakout[107021] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/轟炸機效率提高3%",
 	use_char_num = 1,
@@ -6373,7 +6507,7 @@ _G.pg.ship_data_breakout[107021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107022] = {
+_G.pg.base.ship_data_breakout[107022] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有轟炸機+1/轟炸機效率提高5%",
 	use_char_num = 1,
@@ -6393,7 +6527,7 @@ _G.pg.ship_data_breakout[107022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107023] = {
+_G.pg.base.ship_data_breakout[107023] = {
 	use_gold = 2500,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高7%",
 	use_char_num = 2,
@@ -6413,7 +6547,7 @@ _G.pg.ship_data_breakout[107023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107024] = {
+_G.pg.base.ship_data_breakout[107024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6428,7 +6562,7 @@ _G.pg.ship_data_breakout[107024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107031] = {
+_G.pg.base.ship_data_breakout[107031] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/轟炸機效率提高3%",
 	use_char_num = 1,
@@ -6446,7 +6580,7 @@ _G.pg.ship_data_breakout[107031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107032] = {
+_G.pg.base.ship_data_breakout[107032] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有轟炸機+1/轟炸機效率提高5%",
 	use_char_num = 1,
@@ -6466,7 +6600,7 @@ _G.pg.ship_data_breakout[107032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107033] = {
+_G.pg.base.ship_data_breakout[107033] = {
 	use_gold = 2500,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高7%",
 	use_char_num = 2,
@@ -6486,7 +6620,7 @@ _G.pg.ship_data_breakout[107033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107034] = {
+_G.pg.base.ship_data_breakout[107034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6501,7 +6635,7 @@ _G.pg.ship_data_breakout[107034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107041] = {
+_G.pg.base.ship_data_breakout[107041] = {
 	use_gold = 100,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高3%",
 	use_char_num = 1,
@@ -6519,7 +6653,7 @@ _G.pg.ship_data_breakout[107041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107042] = {
+_G.pg.base.ship_data_breakout[107042] = {
 	use_gold = 300,
 	breakout_view = "機庫容量+1/所有魚雷機+1/轟炸機效率提高5%",
 	use_char_num = 1,
@@ -6539,7 +6673,7 @@ _G.pg.ship_data_breakout[107042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107043] = {
+_G.pg.base.ship_data_breakout[107043] = {
 	use_gold = 500,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高7%",
 	use_char_num = 2,
@@ -6559,7 +6693,7 @@ _G.pg.ship_data_breakout[107043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107044] = {
+_G.pg.base.ship_data_breakout[107044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6574,7 +6708,7 @@ _G.pg.ship_data_breakout[107044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107051] = {
+_G.pg.base.ship_data_breakout[107051] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -6592,7 +6726,7 @@ _G.pg.ship_data_breakout[107051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107052] = {
+_G.pg.base.ship_data_breakout[107052] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -6612,7 +6746,7 @@ _G.pg.ship_data_breakout[107052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107053] = {
+_G.pg.base.ship_data_breakout[107053] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -6632,7 +6766,7 @@ _G.pg.ship_data_breakout[107053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107054] = {
+_G.pg.base.ship_data_breakout[107054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6647,7 +6781,7 @@ _G.pg.ship_data_breakout[107054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107061] = {
+_G.pg.base.ship_data_breakout[107061] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -6665,7 +6799,7 @@ _G.pg.ship_data_breakout[107061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107062] = {
+_G.pg.base.ship_data_breakout[107062] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -6685,7 +6819,7 @@ _G.pg.ship_data_breakout[107062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107063] = {
+_G.pg.base.ship_data_breakout[107063] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -6705,7 +6839,7 @@ _G.pg.ship_data_breakout[107063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107064] = {
+_G.pg.base.ship_data_breakout[107064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6720,7 +6854,7 @@ _G.pg.ship_data_breakout[107064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107071] = {
+_G.pg.base.ship_data_breakout[107071] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -6738,7 +6872,7 @@ _G.pg.ship_data_breakout[107071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107072] = {
+_G.pg.base.ship_data_breakout[107072] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -6758,7 +6892,7 @@ _G.pg.ship_data_breakout[107072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107073] = {
+_G.pg.base.ship_data_breakout[107073] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -6778,7 +6912,7 @@ _G.pg.ship_data_breakout[107073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107074] = {
+_G.pg.base.ship_data_breakout[107074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6793,7 +6927,7 @@ _G.pg.ship_data_breakout[107074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107081] = {
+_G.pg.base.ship_data_breakout[107081] = {
 	use_gold = 300,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -6811,7 +6945,7 @@ _G.pg.ship_data_breakout[107081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107082] = {
+_G.pg.base.ship_data_breakout[107082] = {
 	use_gold = 800,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -6831,7 +6965,7 @@ _G.pg.ship_data_breakout[107082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107083] = {
+_G.pg.base.ship_data_breakout[107083] = {
 	use_gold = 1500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -6851,7 +6985,7 @@ _G.pg.ship_data_breakout[107083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107084] = {
+_G.pg.base.ship_data_breakout[107084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6866,7 +7000,7 @@ _G.pg.ship_data_breakout[107084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107091] = {
+_G.pg.base.ship_data_breakout[107091] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -6884,7 +7018,7 @@ _G.pg.ship_data_breakout[107091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107092] = {
+_G.pg.base.ship_data_breakout[107092] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -6904,7 +7038,7 @@ _G.pg.ship_data_breakout[107092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107093] = {
+_G.pg.base.ship_data_breakout[107093] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -6924,7 +7058,7 @@ _G.pg.ship_data_breakout[107093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107094] = {
+_G.pg.base.ship_data_breakout[107094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -6939,7 +7073,7 @@ _G.pg.ship_data_breakout[107094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107111] = {
+_G.pg.base.ship_data_breakout[107111] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -6957,7 +7091,7 @@ _G.pg.ship_data_breakout[107111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107112] = {
+_G.pg.base.ship_data_breakout[107112] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -6977,7 +7111,7 @@ _G.pg.ship_data_breakout[107112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107113] = {
+_G.pg.base.ship_data_breakout[107113] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -6997,7 +7131,7 @@ _G.pg.ship_data_breakout[107113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107114] = {
+_G.pg.base.ship_data_breakout[107114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7012,7 +7146,7 @@ _G.pg.ship_data_breakout[107114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107171] = {
+_G.pg.base.ship_data_breakout[107171] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -7030,7 +7164,7 @@ _G.pg.ship_data_breakout[107171] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107172] = {
+_G.pg.base.ship_data_breakout[107172] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -7050,7 +7184,7 @@ _G.pg.ship_data_breakout[107172] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107173] = {
+_G.pg.base.ship_data_breakout[107173] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -7070,7 +7204,7 @@ _G.pg.ship_data_breakout[107173] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107174] = {
+_G.pg.base.ship_data_breakout[107174] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7085,7 +7219,7 @@ _G.pg.ship_data_breakout[107174] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107221] = {
+_G.pg.base.ship_data_breakout[107221] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -7103,7 +7237,7 @@ _G.pg.ship_data_breakout[107221] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107222] = {
+_G.pg.base.ship_data_breakout[107222] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -7123,7 +7257,7 @@ _G.pg.ship_data_breakout[107222] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107223] = {
+_G.pg.base.ship_data_breakout[107223] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -7143,7 +7277,7 @@ _G.pg.ship_data_breakout[107223] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107224] = {
+_G.pg.base.ship_data_breakout[107224] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7158,7 +7292,7 @@ _G.pg.ship_data_breakout[107224] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107231] = {
+_G.pg.base.ship_data_breakout[107231] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -7176,7 +7310,7 @@ _G.pg.ship_data_breakout[107231] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107232] = {
+_G.pg.base.ship_data_breakout[107232] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -7196,7 +7330,7 @@ _G.pg.ship_data_breakout[107232] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107233] = {
+_G.pg.base.ship_data_breakout[107233] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -7216,7 +7350,7 @@ _G.pg.ship_data_breakout[107233] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107234] = {
+_G.pg.base.ship_data_breakout[107234] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7231,7 +7365,7 @@ _G.pg.ship_data_breakout[107234] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107291] = {
+_G.pg.base.ship_data_breakout[107291] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -7249,7 +7383,7 @@ _G.pg.ship_data_breakout[107291] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107292] = {
+_G.pg.base.ship_data_breakout[107292] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -7269,7 +7403,7 @@ _G.pg.ship_data_breakout[107292] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107293] = {
+_G.pg.base.ship_data_breakout[107293] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -7289,7 +7423,7 @@ _G.pg.ship_data_breakout[107293] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107294] = {
+_G.pg.base.ship_data_breakout[107294] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7304,7 +7438,7 @@ _G.pg.ship_data_breakout[107294] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107381] = {
+_G.pg.base.ship_data_breakout[107381] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -7322,7 +7456,7 @@ _G.pg.ship_data_breakout[107381] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107382] = {
+_G.pg.base.ship_data_breakout[107382] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -7342,7 +7476,7 @@ _G.pg.ship_data_breakout[107382] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107383] = {
+_G.pg.base.ship_data_breakout[107383] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -7362,7 +7496,7 @@ _G.pg.ship_data_breakout[107383] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107384] = {
+_G.pg.base.ship_data_breakout[107384] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7377,7 +7511,7 @@ _G.pg.ship_data_breakout[107384] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107991] = {
+_G.pg.base.ship_data_breakout[107991] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -7395,7 +7529,7 @@ _G.pg.ship_data_breakout[107991] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107992] = {
+_G.pg.base.ship_data_breakout[107992] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -7415,7 +7549,7 @@ _G.pg.ship_data_breakout[107992] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107993] = {
+_G.pg.base.ship_data_breakout[107993] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -7435,7 +7569,7 @@ _G.pg.ship_data_breakout[107993] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[107994] = {
+_G.pg.base.ship_data_breakout[107994] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7450,7 +7584,7 @@ _G.pg.ship_data_breakout[107994] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108011] = {
+_G.pg.base.ship_data_breakout[108011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -7467,7 +7601,7 @@ _G.pg.ship_data_breakout[108011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108012] = {
+_G.pg.base.ship_data_breakout[108012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -7487,7 +7621,7 @@ _G.pg.ship_data_breakout[108012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108013] = {
+_G.pg.base.ship_data_breakout[108013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -7504,7 +7638,7 @@ _G.pg.ship_data_breakout[108013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108014] = {
+_G.pg.base.ship_data_breakout[108014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7519,7 +7653,7 @@ _G.pg.ship_data_breakout[108014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108021] = {
+_G.pg.base.ship_data_breakout[108021] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -7536,7 +7670,7 @@ _G.pg.ship_data_breakout[108021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108022] = {
+_G.pg.base.ship_data_breakout[108022] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -7556,7 +7690,7 @@ _G.pg.ship_data_breakout[108022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108023] = {
+_G.pg.base.ship_data_breakout[108023] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -7573,7 +7707,7 @@ _G.pg.ship_data_breakout[108023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108024] = {
+_G.pg.base.ship_data_breakout[108024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7588,7 +7722,7 @@ _G.pg.ship_data_breakout[108024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108031] = {
+_G.pg.base.ship_data_breakout[108031] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -7605,7 +7739,7 @@ _G.pg.ship_data_breakout[108031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108032] = {
+_G.pg.base.ship_data_breakout[108032] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -7625,7 +7759,7 @@ _G.pg.ship_data_breakout[108032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108033] = {
+_G.pg.base.ship_data_breakout[108033] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -7642,7 +7776,7 @@ _G.pg.ship_data_breakout[108033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108034] = {
+_G.pg.base.ship_data_breakout[108034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7657,7 +7791,7 @@ _G.pg.ship_data_breakout[108034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108041] = {
+_G.pg.base.ship_data_breakout[108041] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -7674,7 +7808,7 @@ _G.pg.ship_data_breakout[108041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108042] = {
+_G.pg.base.ship_data_breakout[108042] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -7694,7 +7828,7 @@ _G.pg.ship_data_breakout[108042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108043] = {
+_G.pg.base.ship_data_breakout[108043] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -7711,7 +7845,7 @@ _G.pg.ship_data_breakout[108043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[108044] = {
+_G.pg.base.ship_data_breakout[108044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7726,7 +7860,7 @@ _G.pg.ship_data_breakout[108044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[112011] = {
+_G.pg.base.ship_data_breakout[112011] = {
 	use_gold = 500,
 	breakout_view = "團隊策略-緊急維修次數+1/防空炮效率提高3%",
 	use_char_num = 1,
@@ -7741,7 +7875,7 @@ _G.pg.ship_data_breakout[112011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[112012] = {
+_G.pg.base.ship_data_breakout[112012] = {
 	use_gold = 1500,
 	breakout_view = "隊伍攜帶彈藥量+1/防空炮底座+1/防空炮效率提高5%",
 	use_char_num = 1,
@@ -7756,7 +7890,7 @@ _G.pg.ship_data_breakout[112012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[112013] = {
+_G.pg.base.ship_data_breakout[112013] = {
 	use_gold = 2500,
 	breakout_view = "團隊策略-緊急維修次數+1/防空炮效率提高7%",
 	use_char_num = 2,
@@ -7771,7 +7905,7 @@ _G.pg.ship_data_breakout[112013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[112014] = {
+_G.pg.base.ship_data_breakout[112014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7786,7 +7920,7 @@ _G.pg.ship_data_breakout[112014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201011] = {
+_G.pg.base.ship_data_breakout[201011] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -7803,7 +7937,7 @@ _G.pg.ship_data_breakout[201011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201012] = {
+_G.pg.base.ship_data_breakout[201012] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -7821,7 +7955,7 @@ _G.pg.ship_data_breakout[201012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201013] = {
+_G.pg.base.ship_data_breakout[201013] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -7840,7 +7974,7 @@ _G.pg.ship_data_breakout[201013] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201014] = {
+_G.pg.base.ship_data_breakout[201014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7855,7 +7989,7 @@ _G.pg.ship_data_breakout[201014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201021] = {
+_G.pg.base.ship_data_breakout[201021] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -7872,7 +8006,7 @@ _G.pg.ship_data_breakout[201021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201022] = {
+_G.pg.base.ship_data_breakout[201022] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -7890,7 +8024,7 @@ _G.pg.ship_data_breakout[201022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201023] = {
+_G.pg.base.ship_data_breakout[201023] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -7909,7 +8043,7 @@ _G.pg.ship_data_breakout[201023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201024] = {
+_G.pg.base.ship_data_breakout[201024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7924,7 +8058,7 @@ _G.pg.ship_data_breakout[201024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201031] = {
+_G.pg.base.ship_data_breakout[201031] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -7941,7 +8075,7 @@ _G.pg.ship_data_breakout[201031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201032] = {
+_G.pg.base.ship_data_breakout[201032] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -7959,7 +8093,7 @@ _G.pg.ship_data_breakout[201032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201033] = {
+_G.pg.base.ship_data_breakout[201033] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -7978,7 +8112,7 @@ _G.pg.ship_data_breakout[201033] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201034] = {
+_G.pg.base.ship_data_breakout[201034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -7993,7 +8127,7 @@ _G.pg.ship_data_breakout[201034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201061] = {
+_G.pg.base.ship_data_breakout[201061] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8010,7 +8144,7 @@ _G.pg.ship_data_breakout[201061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201062] = {
+_G.pg.base.ship_data_breakout[201062] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8028,7 +8162,7 @@ _G.pg.ship_data_breakout[201062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201063] = {
+_G.pg.base.ship_data_breakout[201063] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8047,7 +8181,7 @@ _G.pg.ship_data_breakout[201063] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201064] = {
+_G.pg.base.ship_data_breakout[201064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8062,7 +8196,7 @@ _G.pg.ship_data_breakout[201064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201071] = {
+_G.pg.base.ship_data_breakout[201071] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8079,7 +8213,7 @@ _G.pg.ship_data_breakout[201071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201072] = {
+_G.pg.base.ship_data_breakout[201072] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8097,7 +8231,7 @@ _G.pg.ship_data_breakout[201072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201073] = {
+_G.pg.base.ship_data_breakout[201073] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8116,7 +8250,7 @@ _G.pg.ship_data_breakout[201073] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201074] = {
+_G.pg.base.ship_data_breakout[201074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8131,7 +8265,7 @@ _G.pg.ship_data_breakout[201074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201081] = {
+_G.pg.base.ship_data_breakout[201081] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8148,7 +8282,7 @@ _G.pg.ship_data_breakout[201081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201082] = {
+_G.pg.base.ship_data_breakout[201082] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8166,7 +8300,7 @@ _G.pg.ship_data_breakout[201082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201083] = {
+_G.pg.base.ship_data_breakout[201083] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8185,7 +8319,7 @@ _G.pg.ship_data_breakout[201083] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201084] = {
+_G.pg.base.ship_data_breakout[201084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8200,7 +8334,7 @@ _G.pg.ship_data_breakout[201084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201091] = {
+_G.pg.base.ship_data_breakout[201091] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8217,7 +8351,7 @@ _G.pg.ship_data_breakout[201091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201092] = {
+_G.pg.base.ship_data_breakout[201092] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8235,7 +8369,7 @@ _G.pg.ship_data_breakout[201092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201093] = {
+_G.pg.base.ship_data_breakout[201093] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8254,7 +8388,7 @@ _G.pg.ship_data_breakout[201093] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201094] = {
+_G.pg.base.ship_data_breakout[201094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8269,7 +8403,7 @@ _G.pg.ship_data_breakout[201094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201101] = {
+_G.pg.base.ship_data_breakout[201101] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8286,7 +8420,7 @@ _G.pg.ship_data_breakout[201101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201102] = {
+_G.pg.base.ship_data_breakout[201102] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8304,7 +8438,7 @@ _G.pg.ship_data_breakout[201102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201103] = {
+_G.pg.base.ship_data_breakout[201103] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8323,7 +8457,7 @@ _G.pg.ship_data_breakout[201103] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201104] = {
+_G.pg.base.ship_data_breakout[201104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8338,7 +8472,7 @@ _G.pg.ship_data_breakout[201104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201111] = {
+_G.pg.base.ship_data_breakout[201111] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8355,7 +8489,7 @@ _G.pg.ship_data_breakout[201111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201112] = {
+_G.pg.base.ship_data_breakout[201112] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8373,7 +8507,7 @@ _G.pg.ship_data_breakout[201112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201113] = {
+_G.pg.base.ship_data_breakout[201113] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8392,7 +8526,7 @@ _G.pg.ship_data_breakout[201113] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201114] = {
+_G.pg.base.ship_data_breakout[201114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8407,7 +8541,7 @@ _G.pg.ship_data_breakout[201114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201121] = {
+_G.pg.base.ship_data_breakout[201121] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8424,7 +8558,7 @@ _G.pg.ship_data_breakout[201121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201122] = {
+_G.pg.base.ship_data_breakout[201122] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8442,7 +8576,7 @@ _G.pg.ship_data_breakout[201122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201123] = {
+_G.pg.base.ship_data_breakout[201123] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8461,7 +8595,7 @@ _G.pg.ship_data_breakout[201123] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201124] = {
+_G.pg.base.ship_data_breakout[201124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8476,7 +8610,7 @@ _G.pg.ship_data_breakout[201124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201131] = {
+_G.pg.base.ship_data_breakout[201131] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8493,7 +8627,7 @@ _G.pg.ship_data_breakout[201131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201132] = {
+_G.pg.base.ship_data_breakout[201132] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8511,7 +8645,7 @@ _G.pg.ship_data_breakout[201132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201133] = {
+_G.pg.base.ship_data_breakout[201133] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8530,7 +8664,7 @@ _G.pg.ship_data_breakout[201133] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201134] = {
+_G.pg.base.ship_data_breakout[201134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8545,7 +8679,7 @@ _G.pg.ship_data_breakout[201134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201141] = {
+_G.pg.base.ship_data_breakout[201141] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8562,7 +8696,7 @@ _G.pg.ship_data_breakout[201141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201142] = {
+_G.pg.base.ship_data_breakout[201142] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8580,7 +8714,7 @@ _G.pg.ship_data_breakout[201142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201143] = {
+_G.pg.base.ship_data_breakout[201143] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8599,7 +8733,7 @@ _G.pg.ship_data_breakout[201143] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201144] = {
+_G.pg.base.ship_data_breakout[201144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8614,7 +8748,7 @@ _G.pg.ship_data_breakout[201144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201161] = {
+_G.pg.base.ship_data_breakout[201161] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8631,7 +8765,7 @@ _G.pg.ship_data_breakout[201161] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201162] = {
+_G.pg.base.ship_data_breakout[201162] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8649,7 +8783,7 @@ _G.pg.ship_data_breakout[201162] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201163] = {
+_G.pg.base.ship_data_breakout[201163] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8668,7 +8802,7 @@ _G.pg.ship_data_breakout[201163] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201164] = {
+_G.pg.base.ship_data_breakout[201164] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8683,7 +8817,7 @@ _G.pg.ship_data_breakout[201164] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201201] = {
+_G.pg.base.ship_data_breakout[201201] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8700,7 +8834,7 @@ _G.pg.ship_data_breakout[201201] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201202] = {
+_G.pg.base.ship_data_breakout[201202] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8718,7 +8852,7 @@ _G.pg.ship_data_breakout[201202] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201203] = {
+_G.pg.base.ship_data_breakout[201203] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8737,7 +8871,7 @@ _G.pg.ship_data_breakout[201203] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201204] = {
+_G.pg.base.ship_data_breakout[201204] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8752,7 +8886,7 @@ _G.pg.ship_data_breakout[201204] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201211] = {
+_G.pg.base.ship_data_breakout[201211] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8769,7 +8903,7 @@ _G.pg.ship_data_breakout[201211] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201212] = {
+_G.pg.base.ship_data_breakout[201212] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8787,7 +8921,7 @@ _G.pg.ship_data_breakout[201212] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201213] = {
+_G.pg.base.ship_data_breakout[201213] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8806,7 +8940,7 @@ _G.pg.ship_data_breakout[201213] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201214] = {
+_G.pg.base.ship_data_breakout[201214] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8821,7 +8955,7 @@ _G.pg.ship_data_breakout[201214] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201221] = {
+_G.pg.base.ship_data_breakout[201221] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8838,7 +8972,7 @@ _G.pg.ship_data_breakout[201221] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201222] = {
+_G.pg.base.ship_data_breakout[201222] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8856,7 +8990,7 @@ _G.pg.ship_data_breakout[201222] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201223] = {
+_G.pg.base.ship_data_breakout[201223] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8875,7 +9009,7 @@ _G.pg.ship_data_breakout[201223] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201224] = {
+_G.pg.base.ship_data_breakout[201224] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8890,7 +9024,7 @@ _G.pg.ship_data_breakout[201224] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201231] = {
+_G.pg.base.ship_data_breakout[201231] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -8907,7 +9041,7 @@ _G.pg.ship_data_breakout[201231] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201232] = {
+_G.pg.base.ship_data_breakout[201232] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8925,7 +9059,7 @@ _G.pg.ship_data_breakout[201232] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201233] = {
+_G.pg.base.ship_data_breakout[201233] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -8944,7 +9078,7 @@ _G.pg.ship_data_breakout[201233] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201234] = {
+_G.pg.base.ship_data_breakout[201234] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -8959,7 +9093,7 @@ _G.pg.ship_data_breakout[201234] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201241] = {
+_G.pg.base.ship_data_breakout[201241] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -8976,7 +9110,7 @@ _G.pg.ship_data_breakout[201241] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201242] = {
+_G.pg.base.ship_data_breakout[201242] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -8994,7 +9128,7 @@ _G.pg.ship_data_breakout[201242] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201243] = {
+_G.pg.base.ship_data_breakout[201243] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9013,7 +9147,7 @@ _G.pg.ship_data_breakout[201243] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201244] = {
+_G.pg.base.ship_data_breakout[201244] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9028,7 +9162,7 @@ _G.pg.ship_data_breakout[201244] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201251] = {
+_G.pg.base.ship_data_breakout[201251] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9045,7 +9179,7 @@ _G.pg.ship_data_breakout[201251] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201252] = {
+_G.pg.base.ship_data_breakout[201252] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9063,7 +9197,7 @@ _G.pg.ship_data_breakout[201252] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201253] = {
+_G.pg.base.ship_data_breakout[201253] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9082,7 +9216,7 @@ _G.pg.ship_data_breakout[201253] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201254] = {
+_G.pg.base.ship_data_breakout[201254] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9097,7 +9231,7 @@ _G.pg.ship_data_breakout[201254] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201261] = {
+_G.pg.base.ship_data_breakout[201261] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9114,7 +9248,7 @@ _G.pg.ship_data_breakout[201261] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201262] = {
+_G.pg.base.ship_data_breakout[201262] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9132,7 +9266,7 @@ _G.pg.ship_data_breakout[201262] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201263] = {
+_G.pg.base.ship_data_breakout[201263] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9151,7 +9285,7 @@ _G.pg.ship_data_breakout[201263] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201264] = {
+_G.pg.base.ship_data_breakout[201264] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9166,7 +9300,7 @@ _G.pg.ship_data_breakout[201264] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201271] = {
+_G.pg.base.ship_data_breakout[201271] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9183,7 +9317,7 @@ _G.pg.ship_data_breakout[201271] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201272] = {
+_G.pg.base.ship_data_breakout[201272] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9201,7 +9335,7 @@ _G.pg.ship_data_breakout[201272] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201273] = {
+_G.pg.base.ship_data_breakout[201273] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9220,7 +9354,7 @@ _G.pg.ship_data_breakout[201273] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201274] = {
+_G.pg.base.ship_data_breakout[201274] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9235,7 +9369,7 @@ _G.pg.ship_data_breakout[201274] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201291] = {
+_G.pg.base.ship_data_breakout[201291] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9252,7 +9386,7 @@ _G.pg.ship_data_breakout[201291] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201292] = {
+_G.pg.base.ship_data_breakout[201292] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9270,7 +9404,7 @@ _G.pg.ship_data_breakout[201292] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201293] = {
+_G.pg.base.ship_data_breakout[201293] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9289,7 +9423,7 @@ _G.pg.ship_data_breakout[201293] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201294] = {
+_G.pg.base.ship_data_breakout[201294] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9304,7 +9438,7 @@ _G.pg.ship_data_breakout[201294] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201321] = {
+_G.pg.base.ship_data_breakout[201321] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9321,7 +9455,7 @@ _G.pg.ship_data_breakout[201321] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201322] = {
+_G.pg.base.ship_data_breakout[201322] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -9339,7 +9473,7 @@ _G.pg.ship_data_breakout[201322] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201323] = {
+_G.pg.base.ship_data_breakout[201323] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9358,7 +9492,7 @@ _G.pg.ship_data_breakout[201323] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201324] = {
+_G.pg.base.ship_data_breakout[201324] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9373,7 +9507,7 @@ _G.pg.ship_data_breakout[201324] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201331] = {
+_G.pg.base.ship_data_breakout[201331] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9390,7 +9524,7 @@ _G.pg.ship_data_breakout[201331] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201332] = {
+_G.pg.base.ship_data_breakout[201332] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9408,7 +9542,7 @@ _G.pg.ship_data_breakout[201332] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201333] = {
+_G.pg.base.ship_data_breakout[201333] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9427,7 +9561,7 @@ _G.pg.ship_data_breakout[201333] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201334] = {
+_G.pg.base.ship_data_breakout[201334] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9442,7 +9576,7 @@ _G.pg.ship_data_breakout[201334] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201511] = {
+_G.pg.base.ship_data_breakout[201511] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9459,7 +9593,7 @@ _G.pg.ship_data_breakout[201511] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201512] = {
+_G.pg.base.ship_data_breakout[201512] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9477,7 +9611,7 @@ _G.pg.ship_data_breakout[201512] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[201513] = {
+_G.pg.base.ship_data_breakout[201513] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9496,7 +9630,7 @@ _G.pg.ship_data_breakout[201513] = {
 	}
 }
 
-_G.pg.ship_data_breakout[201514] = {
+_G.pg.base.ship_data_breakout[201514] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9511,7 +9645,7 @@ _G.pg.ship_data_breakout[201514] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202011] = {
+_G.pg.base.ship_data_breakout[202011] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -9528,7 +9662,7 @@ _G.pg.ship_data_breakout[202011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202012] = {
+_G.pg.base.ship_data_breakout[202012] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -9546,7 +9680,7 @@ _G.pg.ship_data_breakout[202012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202013] = {
+_G.pg.base.ship_data_breakout[202013] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -9563,7 +9697,7 @@ _G.pg.ship_data_breakout[202013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202014] = {
+_G.pg.base.ship_data_breakout[202014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9578,7 +9712,7 @@ _G.pg.ship_data_breakout[202014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202021] = {
+_G.pg.base.ship_data_breakout[202021] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9595,7 +9729,7 @@ _G.pg.ship_data_breakout[202021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202022] = {
+_G.pg.base.ship_data_breakout[202022] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9613,7 +9747,7 @@ _G.pg.ship_data_breakout[202022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202023] = {
+_G.pg.base.ship_data_breakout[202023] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -9630,7 +9764,7 @@ _G.pg.ship_data_breakout[202023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202024] = {
+_G.pg.base.ship_data_breakout[202024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9645,7 +9779,7 @@ _G.pg.ship_data_breakout[202024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202031] = {
+_G.pg.base.ship_data_breakout[202031] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9662,7 +9796,7 @@ _G.pg.ship_data_breakout[202031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202032] = {
+_G.pg.base.ship_data_breakout[202032] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -9680,7 +9814,7 @@ _G.pg.ship_data_breakout[202032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202033] = {
+_G.pg.base.ship_data_breakout[202033] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -9697,7 +9831,7 @@ _G.pg.ship_data_breakout[202033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202034] = {
+_G.pg.base.ship_data_breakout[202034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9712,7 +9846,7 @@ _G.pg.ship_data_breakout[202034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202041] = {
+_G.pg.base.ship_data_breakout[202041] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9729,7 +9863,7 @@ _G.pg.ship_data_breakout[202041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202042] = {
+_G.pg.base.ship_data_breakout[202042] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -9747,7 +9881,7 @@ _G.pg.ship_data_breakout[202042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202043] = {
+_G.pg.base.ship_data_breakout[202043] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -9764,7 +9898,7 @@ _G.pg.ship_data_breakout[202043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202044] = {
+_G.pg.base.ship_data_breakout[202044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9779,7 +9913,7 @@ _G.pg.ship_data_breakout[202044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202071] = {
+_G.pg.base.ship_data_breakout[202071] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9796,7 +9930,7 @@ _G.pg.ship_data_breakout[202071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202072] = {
+_G.pg.base.ship_data_breakout[202072] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -9814,7 +9948,7 @@ _G.pg.ship_data_breakout[202072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202073] = {
+_G.pg.base.ship_data_breakout[202073] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -9831,7 +9965,7 @@ _G.pg.ship_data_breakout[202073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202074] = {
+_G.pg.base.ship_data_breakout[202074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9846,7 +9980,7 @@ _G.pg.ship_data_breakout[202074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202081] = {
+_G.pg.base.ship_data_breakout[202081] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9863,7 +9997,7 @@ _G.pg.ship_data_breakout[202081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202082] = {
+_G.pg.base.ship_data_breakout[202082] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -9881,7 +10015,7 @@ _G.pg.ship_data_breakout[202082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202083] = {
+_G.pg.base.ship_data_breakout[202083] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -9898,7 +10032,7 @@ _G.pg.ship_data_breakout[202083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202084] = {
+_G.pg.base.ship_data_breakout[202084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9913,7 +10047,7 @@ _G.pg.ship_data_breakout[202084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202101] = {
+_G.pg.base.ship_data_breakout[202101] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9930,7 +10064,7 @@ _G.pg.ship_data_breakout[202101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202102] = {
+_G.pg.base.ship_data_breakout[202102] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -9948,7 +10082,7 @@ _G.pg.ship_data_breakout[202102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202103] = {
+_G.pg.base.ship_data_breakout[202103] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -9965,7 +10099,7 @@ _G.pg.ship_data_breakout[202103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202104] = {
+_G.pg.base.ship_data_breakout[202104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -9980,7 +10114,7 @@ _G.pg.ship_data_breakout[202104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202111] = {
+_G.pg.base.ship_data_breakout[202111] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -9997,7 +10131,7 @@ _G.pg.ship_data_breakout[202111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202112] = {
+_G.pg.base.ship_data_breakout[202112] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10015,7 +10149,7 @@ _G.pg.ship_data_breakout[202112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202113] = {
+_G.pg.base.ship_data_breakout[202113] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10032,7 +10166,7 @@ _G.pg.ship_data_breakout[202113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202114] = {
+_G.pg.base.ship_data_breakout[202114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10047,7 +10181,7 @@ _G.pg.ship_data_breakout[202114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202121] = {
+_G.pg.base.ship_data_breakout[202121] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10064,7 +10198,7 @@ _G.pg.ship_data_breakout[202121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202122] = {
+_G.pg.base.ship_data_breakout[202122] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10082,7 +10216,7 @@ _G.pg.ship_data_breakout[202122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202123] = {
+_G.pg.base.ship_data_breakout[202123] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10099,7 +10233,7 @@ _G.pg.ship_data_breakout[202123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202124] = {
+_G.pg.base.ship_data_breakout[202124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10114,7 +10248,7 @@ _G.pg.ship_data_breakout[202124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202131] = {
+_G.pg.base.ship_data_breakout[202131] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -10131,7 +10265,7 @@ _G.pg.ship_data_breakout[202131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202132] = {
+_G.pg.base.ship_data_breakout[202132] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -10149,7 +10283,7 @@ _G.pg.ship_data_breakout[202132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202133] = {
+_G.pg.base.ship_data_breakout[202133] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -10166,7 +10300,7 @@ _G.pg.ship_data_breakout[202133] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202134] = {
+_G.pg.base.ship_data_breakout[202134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10181,7 +10315,7 @@ _G.pg.ship_data_breakout[202134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202141] = {
+_G.pg.base.ship_data_breakout[202141] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -10198,7 +10332,7 @@ _G.pg.ship_data_breakout[202141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202142] = {
+_G.pg.base.ship_data_breakout[202142] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -10216,7 +10350,7 @@ _G.pg.ship_data_breakout[202142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202143] = {
+_G.pg.base.ship_data_breakout[202143] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -10233,7 +10367,7 @@ _G.pg.ship_data_breakout[202143] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202144] = {
+_G.pg.base.ship_data_breakout[202144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10248,7 +10382,7 @@ _G.pg.ship_data_breakout[202144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202151] = {
+_G.pg.base.ship_data_breakout[202151] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -10265,7 +10399,7 @@ _G.pg.ship_data_breakout[202151] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202152] = {
+_G.pg.base.ship_data_breakout[202152] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -10283,7 +10417,7 @@ _G.pg.ship_data_breakout[202152] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202153] = {
+_G.pg.base.ship_data_breakout[202153] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -10300,7 +10434,7 @@ _G.pg.ship_data_breakout[202153] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202154] = {
+_G.pg.base.ship_data_breakout[202154] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10315,7 +10449,7 @@ _G.pg.ship_data_breakout[202154] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202161] = {
+_G.pg.base.ship_data_breakout[202161] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10332,7 +10466,7 @@ _G.pg.ship_data_breakout[202161] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202162] = {
+_G.pg.base.ship_data_breakout[202162] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10350,7 +10484,7 @@ _G.pg.ship_data_breakout[202162] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202163] = {
+_G.pg.base.ship_data_breakout[202163] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10367,7 +10501,7 @@ _G.pg.ship_data_breakout[202163] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202164] = {
+_G.pg.base.ship_data_breakout[202164] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10382,7 +10516,7 @@ _G.pg.ship_data_breakout[202164] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202171] = {
+_G.pg.base.ship_data_breakout[202171] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10399,7 +10533,7 @@ _G.pg.ship_data_breakout[202171] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202172] = {
+_G.pg.base.ship_data_breakout[202172] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10417,7 +10551,7 @@ _G.pg.ship_data_breakout[202172] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202173] = {
+_G.pg.base.ship_data_breakout[202173] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10434,7 +10568,7 @@ _G.pg.ship_data_breakout[202173] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202174] = {
+_G.pg.base.ship_data_breakout[202174] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10449,7 +10583,7 @@ _G.pg.ship_data_breakout[202174] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202181] = {
+_G.pg.base.ship_data_breakout[202181] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10466,7 +10600,7 @@ _G.pg.ship_data_breakout[202181] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202182] = {
+_G.pg.base.ship_data_breakout[202182] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10484,7 +10618,7 @@ _G.pg.ship_data_breakout[202182] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202183] = {
+_G.pg.base.ship_data_breakout[202183] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10501,7 +10635,7 @@ _G.pg.ship_data_breakout[202183] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202184] = {
+_G.pg.base.ship_data_breakout[202184] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10516,7 +10650,7 @@ _G.pg.ship_data_breakout[202184] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202191] = {
+_G.pg.base.ship_data_breakout[202191] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10533,7 +10667,7 @@ _G.pg.ship_data_breakout[202191] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202192] = {
+_G.pg.base.ship_data_breakout[202192] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10551,7 +10685,7 @@ _G.pg.ship_data_breakout[202192] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202193] = {
+_G.pg.base.ship_data_breakout[202193] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10568,7 +10702,7 @@ _G.pg.ship_data_breakout[202193] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202194] = {
+_G.pg.base.ship_data_breakout[202194] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10583,7 +10717,7 @@ _G.pg.ship_data_breakout[202194] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202201] = {
+_G.pg.base.ship_data_breakout[202201] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10600,7 +10734,7 @@ _G.pg.ship_data_breakout[202201] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202202] = {
+_G.pg.base.ship_data_breakout[202202] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10618,7 +10752,7 @@ _G.pg.ship_data_breakout[202202] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202203] = {
+_G.pg.base.ship_data_breakout[202203] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10635,7 +10769,7 @@ _G.pg.ship_data_breakout[202203] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202204] = {
+_G.pg.base.ship_data_breakout[202204] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10650,7 +10784,7 @@ _G.pg.ship_data_breakout[202204] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202211] = {
+_G.pg.base.ship_data_breakout[202211] = {
 	use_gold = 300,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -10667,7 +10801,7 @@ _G.pg.ship_data_breakout[202211] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202212] = {
+_G.pg.base.ship_data_breakout[202212] = {
 	use_gold = 800,
 	breakout_view = "主炮底座+1/防空炮效率提高5%",
 	use_char_num = 1,
@@ -10685,7 +10819,7 @@ _G.pg.ship_data_breakout[202212] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202213] = {
+_G.pg.base.ship_data_breakout[202213] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -10702,7 +10836,7 @@ _G.pg.ship_data_breakout[202213] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202214] = {
+_G.pg.base.ship_data_breakout[202214] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10717,7 +10851,7 @@ _G.pg.ship_data_breakout[202214] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202221] = {
+_G.pg.base.ship_data_breakout[202221] = {
 	use_gold = 300,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -10734,7 +10868,7 @@ _G.pg.ship_data_breakout[202221] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202222] = {
+_G.pg.base.ship_data_breakout[202222] = {
 	use_gold = 800,
 	breakout_view = "主炮底座+1/防空炮效率提高5%",
 	use_char_num = 1,
@@ -10752,7 +10886,7 @@ _G.pg.ship_data_breakout[202222] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202223] = {
+_G.pg.base.ship_data_breakout[202223] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -10769,7 +10903,7 @@ _G.pg.ship_data_breakout[202223] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202224] = {
+_G.pg.base.ship_data_breakout[202224] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10784,7 +10918,7 @@ _G.pg.ship_data_breakout[202224] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202231] = {
+_G.pg.base.ship_data_breakout[202231] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10801,7 +10935,7 @@ _G.pg.ship_data_breakout[202231] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202232] = {
+_G.pg.base.ship_data_breakout[202232] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10819,7 +10953,7 @@ _G.pg.ship_data_breakout[202232] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202233] = {
+_G.pg.base.ship_data_breakout[202233] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10836,7 +10970,7 @@ _G.pg.ship_data_breakout[202233] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202234] = {
+_G.pg.base.ship_data_breakout[202234] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10851,7 +10985,7 @@ _G.pg.ship_data_breakout[202234] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202241] = {
+_G.pg.base.ship_data_breakout[202241] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10868,7 +11002,7 @@ _G.pg.ship_data_breakout[202241] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202242] = {
+_G.pg.base.ship_data_breakout[202242] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10886,7 +11020,7 @@ _G.pg.ship_data_breakout[202242] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202243] = {
+_G.pg.base.ship_data_breakout[202243] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10903,7 +11037,7 @@ _G.pg.ship_data_breakout[202243] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202244] = {
+_G.pg.base.ship_data_breakout[202244] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10918,7 +11052,7 @@ _G.pg.ship_data_breakout[202244] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202251] = {
+_G.pg.base.ship_data_breakout[202251] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -10935,7 +11069,7 @@ _G.pg.ship_data_breakout[202251] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202252] = {
+_G.pg.base.ship_data_breakout[202252] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -10953,7 +11087,7 @@ _G.pg.ship_data_breakout[202252] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202253] = {
+_G.pg.base.ship_data_breakout[202253] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -10970,7 +11104,7 @@ _G.pg.ship_data_breakout[202253] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202254] = {
+_G.pg.base.ship_data_breakout[202254] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -10985,7 +11119,7 @@ _G.pg.ship_data_breakout[202254] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202261] = {
+_G.pg.base.ship_data_breakout[202261] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11002,7 +11136,7 @@ _G.pg.ship_data_breakout[202261] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202262] = {
+_G.pg.base.ship_data_breakout[202262] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -11020,7 +11154,7 @@ _G.pg.ship_data_breakout[202262] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202263] = {
+_G.pg.base.ship_data_breakout[202263] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -11037,7 +11171,7 @@ _G.pg.ship_data_breakout[202263] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202264] = {
+_G.pg.base.ship_data_breakout[202264] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11052,7 +11186,7 @@ _G.pg.ship_data_breakout[202264] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202271] = {
+_G.pg.base.ship_data_breakout[202271] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11069,7 +11203,7 @@ _G.pg.ship_data_breakout[202271] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202272] = {
+_G.pg.base.ship_data_breakout[202272] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -11087,7 +11221,7 @@ _G.pg.ship_data_breakout[202272] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202273] = {
+_G.pg.base.ship_data_breakout[202273] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -11104,7 +11238,7 @@ _G.pg.ship_data_breakout[202273] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202274] = {
+_G.pg.base.ship_data_breakout[202274] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11119,7 +11253,7 @@ _G.pg.ship_data_breakout[202274] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202291] = {
+_G.pg.base.ship_data_breakout[202291] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -11136,7 +11270,7 @@ _G.pg.ship_data_breakout[202291] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202292] = {
+_G.pg.base.ship_data_breakout[202292] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -11154,7 +11288,7 @@ _G.pg.ship_data_breakout[202292] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202293] = {
+_G.pg.base.ship_data_breakout[202293] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -11171,7 +11305,7 @@ _G.pg.ship_data_breakout[202293] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[202294] = {
+_G.pg.base.ship_data_breakout[202294] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11186,7 +11320,7 @@ _G.pg.ship_data_breakout[202294] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203011] = {
+_G.pg.base.ship_data_breakout[203011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11203,7 +11337,7 @@ _G.pg.ship_data_breakout[203011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203012] = {
+_G.pg.base.ship_data_breakout[203012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11221,7 +11355,7 @@ _G.pg.ship_data_breakout[203012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203013] = {
+_G.pg.base.ship_data_breakout[203013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11238,7 +11372,7 @@ _G.pg.ship_data_breakout[203013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203014] = {
+_G.pg.base.ship_data_breakout[203014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11253,7 +11387,7 @@ _G.pg.ship_data_breakout[203014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203111] = {
+_G.pg.base.ship_data_breakout[203111] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11270,7 +11404,7 @@ _G.pg.ship_data_breakout[203111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203112] = {
+_G.pg.base.ship_data_breakout[203112] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11288,7 +11422,7 @@ _G.pg.ship_data_breakout[203112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203113] = {
+_G.pg.base.ship_data_breakout[203113] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11305,7 +11439,7 @@ _G.pg.ship_data_breakout[203113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203114] = {
+_G.pg.base.ship_data_breakout[203114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11320,7 +11454,7 @@ _G.pg.ship_data_breakout[203114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203021] = {
+_G.pg.base.ship_data_breakout[203021] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11337,7 +11471,7 @@ _G.pg.ship_data_breakout[203021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203022] = {
+_G.pg.base.ship_data_breakout[203022] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11355,7 +11489,7 @@ _G.pg.ship_data_breakout[203022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203023] = {
+_G.pg.base.ship_data_breakout[203023] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11372,7 +11506,7 @@ _G.pg.ship_data_breakout[203023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203024] = {
+_G.pg.base.ship_data_breakout[203024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11387,7 +11521,7 @@ _G.pg.ship_data_breakout[203024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203031] = {
+_G.pg.base.ship_data_breakout[203031] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11404,7 +11538,7 @@ _G.pg.ship_data_breakout[203031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203032] = {
+_G.pg.base.ship_data_breakout[203032] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11422,7 +11556,7 @@ _G.pg.ship_data_breakout[203032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203033] = {
+_G.pg.base.ship_data_breakout[203033] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11439,7 +11573,7 @@ _G.pg.ship_data_breakout[203033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203034] = {
+_G.pg.base.ship_data_breakout[203034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11454,7 +11588,7 @@ _G.pg.ship_data_breakout[203034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203041] = {
+_G.pg.base.ship_data_breakout[203041] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11471,7 +11605,7 @@ _G.pg.ship_data_breakout[203041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203042] = {
+_G.pg.base.ship_data_breakout[203042] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11489,7 +11623,7 @@ _G.pg.ship_data_breakout[203042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203043] = {
+_G.pg.base.ship_data_breakout[203043] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11506,7 +11640,7 @@ _G.pg.ship_data_breakout[203043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203044] = {
+_G.pg.base.ship_data_breakout[203044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11521,7 +11655,7 @@ _G.pg.ship_data_breakout[203044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203051] = {
+_G.pg.base.ship_data_breakout[203051] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11538,7 +11672,7 @@ _G.pg.ship_data_breakout[203051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203052] = {
+_G.pg.base.ship_data_breakout[203052] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11556,7 +11690,7 @@ _G.pg.ship_data_breakout[203052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203053] = {
+_G.pg.base.ship_data_breakout[203053] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11573,7 +11707,7 @@ _G.pg.ship_data_breakout[203053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203054] = {
+_G.pg.base.ship_data_breakout[203054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11588,7 +11722,7 @@ _G.pg.ship_data_breakout[203054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203061] = {
+_G.pg.base.ship_data_breakout[203061] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11605,7 +11739,7 @@ _G.pg.ship_data_breakout[203061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203062] = {
+_G.pg.base.ship_data_breakout[203062] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11623,7 +11757,7 @@ _G.pg.ship_data_breakout[203062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203063] = {
+_G.pg.base.ship_data_breakout[203063] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11640,7 +11774,7 @@ _G.pg.ship_data_breakout[203063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203064] = {
+_G.pg.base.ship_data_breakout[203064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11655,7 +11789,7 @@ _G.pg.ship_data_breakout[203064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203071] = {
+_G.pg.base.ship_data_breakout[203071] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11672,7 +11806,7 @@ _G.pg.ship_data_breakout[203071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203072] = {
+_G.pg.base.ship_data_breakout[203072] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11690,7 +11824,7 @@ _G.pg.ship_data_breakout[203072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203073] = {
+_G.pg.base.ship_data_breakout[203073] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11707,7 +11841,7 @@ _G.pg.ship_data_breakout[203073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203074] = {
+_G.pg.base.ship_data_breakout[203074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11722,7 +11856,7 @@ _G.pg.ship_data_breakout[203074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203081] = {
+_G.pg.base.ship_data_breakout[203081] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11739,7 +11873,7 @@ _G.pg.ship_data_breakout[203081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203082] = {
+_G.pg.base.ship_data_breakout[203082] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11757,7 +11891,7 @@ _G.pg.ship_data_breakout[203082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203083] = {
+_G.pg.base.ship_data_breakout[203083] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11774,7 +11908,7 @@ _G.pg.ship_data_breakout[203083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203084] = {
+_G.pg.base.ship_data_breakout[203084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11789,7 +11923,7 @@ _G.pg.ship_data_breakout[203084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203091] = {
+_G.pg.base.ship_data_breakout[203091] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -11806,7 +11940,7 @@ _G.pg.ship_data_breakout[203091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203092] = {
+_G.pg.base.ship_data_breakout[203092] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -11824,7 +11958,7 @@ _G.pg.ship_data_breakout[203092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203093] = {
+_G.pg.base.ship_data_breakout[203093] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -11841,7 +11975,7 @@ _G.pg.ship_data_breakout[203093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[203094] = {
+_G.pg.base.ship_data_breakout[203094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11856,7 +11990,7 @@ _G.pg.ship_data_breakout[203094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204011] = {
+_G.pg.base.ship_data_breakout[204011] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -11874,7 +12008,7 @@ _G.pg.ship_data_breakout[204011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204012] = {
+_G.pg.base.ship_data_breakout[204012] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -11893,7 +12027,7 @@ _G.pg.ship_data_breakout[204012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204013] = {
+_G.pg.base.ship_data_breakout[204013] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -11912,7 +12046,7 @@ _G.pg.ship_data_breakout[204013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204014] = {
+_G.pg.base.ship_data_breakout[204014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11927,7 +12061,7 @@ _G.pg.ship_data_breakout[204014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204021] = {
+_G.pg.base.ship_data_breakout[204021] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -11945,7 +12079,7 @@ _G.pg.ship_data_breakout[204021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204022] = {
+_G.pg.base.ship_data_breakout[204022] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -11964,7 +12098,7 @@ _G.pg.ship_data_breakout[204022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204023] = {
+_G.pg.base.ship_data_breakout[204023] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -11983,7 +12117,7 @@ _G.pg.ship_data_breakout[204023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204024] = {
+_G.pg.base.ship_data_breakout[204024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -11998,7 +12132,7 @@ _G.pg.ship_data_breakout[204024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204031] = {
+_G.pg.base.ship_data_breakout[204031] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12016,7 +12150,7 @@ _G.pg.ship_data_breakout[204031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204032] = {
+_G.pg.base.ship_data_breakout[204032] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12035,7 +12169,7 @@ _G.pg.ship_data_breakout[204032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204033] = {
+_G.pg.base.ship_data_breakout[204033] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12054,7 +12188,7 @@ _G.pg.ship_data_breakout[204033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204034] = {
+_G.pg.base.ship_data_breakout[204034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12069,7 +12203,7 @@ _G.pg.ship_data_breakout[204034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204041] = {
+_G.pg.base.ship_data_breakout[204041] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12087,7 +12221,7 @@ _G.pg.ship_data_breakout[204041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204042] = {
+_G.pg.base.ship_data_breakout[204042] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12106,7 +12240,7 @@ _G.pg.ship_data_breakout[204042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204043] = {
+_G.pg.base.ship_data_breakout[204043] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12125,7 +12259,7 @@ _G.pg.ship_data_breakout[204043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[204044] = {
+_G.pg.base.ship_data_breakout[204044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12140,7 +12274,7 @@ _G.pg.ship_data_breakout[204044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205011] = {
+_G.pg.base.ship_data_breakout[205011] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12158,7 +12292,7 @@ _G.pg.ship_data_breakout[205011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205012] = {
+_G.pg.base.ship_data_breakout[205012] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12177,7 +12311,7 @@ _G.pg.ship_data_breakout[205012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205013] = {
+_G.pg.base.ship_data_breakout[205013] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12196,7 +12330,7 @@ _G.pg.ship_data_breakout[205013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205014] = {
+_G.pg.base.ship_data_breakout[205014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12211,7 +12345,7 @@ _G.pg.ship_data_breakout[205014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205021] = {
+_G.pg.base.ship_data_breakout[205021] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12229,7 +12363,7 @@ _G.pg.ship_data_breakout[205021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205022] = {
+_G.pg.base.ship_data_breakout[205022] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12248,7 +12382,7 @@ _G.pg.ship_data_breakout[205022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205023] = {
+_G.pg.base.ship_data_breakout[205023] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12267,7 +12401,7 @@ _G.pg.ship_data_breakout[205023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205024] = {
+_G.pg.base.ship_data_breakout[205024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12282,7 +12416,7 @@ _G.pg.ship_data_breakout[205024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205121] = {
+_G.pg.base.ship_data_breakout[205121] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12300,7 +12434,7 @@ _G.pg.ship_data_breakout[205121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205122] = {
+_G.pg.base.ship_data_breakout[205122] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12319,7 +12453,7 @@ _G.pg.ship_data_breakout[205122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205123] = {
+_G.pg.base.ship_data_breakout[205123] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12338,7 +12472,7 @@ _G.pg.ship_data_breakout[205123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205124] = {
+_G.pg.base.ship_data_breakout[205124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12353,7 +12487,7 @@ _G.pg.ship_data_breakout[205124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205031] = {
+_G.pg.base.ship_data_breakout[205031] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12371,7 +12505,7 @@ _G.pg.ship_data_breakout[205031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205032] = {
+_G.pg.base.ship_data_breakout[205032] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12390,7 +12524,7 @@ _G.pg.ship_data_breakout[205032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205033] = {
+_G.pg.base.ship_data_breakout[205033] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12409,7 +12543,7 @@ _G.pg.ship_data_breakout[205033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205034] = {
+_G.pg.base.ship_data_breakout[205034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12424,7 +12558,7 @@ _G.pg.ship_data_breakout[205034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205041] = {
+_G.pg.base.ship_data_breakout[205041] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12442,7 +12576,7 @@ _G.pg.ship_data_breakout[205041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205042] = {
+_G.pg.base.ship_data_breakout[205042] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12461,7 +12595,7 @@ _G.pg.ship_data_breakout[205042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205043] = {
+_G.pg.base.ship_data_breakout[205043] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12480,7 +12614,7 @@ _G.pg.ship_data_breakout[205043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205044] = {
+_G.pg.base.ship_data_breakout[205044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12495,7 +12629,7 @@ _G.pg.ship_data_breakout[205044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205051] = {
+_G.pg.base.ship_data_breakout[205051] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12513,7 +12647,7 @@ _G.pg.ship_data_breakout[205051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205052] = {
+_G.pg.base.ship_data_breakout[205052] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12532,7 +12666,7 @@ _G.pg.ship_data_breakout[205052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205053] = {
+_G.pg.base.ship_data_breakout[205053] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12551,7 +12685,7 @@ _G.pg.ship_data_breakout[205053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205054] = {
+_G.pg.base.ship_data_breakout[205054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12566,7 +12700,7 @@ _G.pg.ship_data_breakout[205054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205061] = {
+_G.pg.base.ship_data_breakout[205061] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12584,7 +12718,7 @@ _G.pg.ship_data_breakout[205061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205062] = {
+_G.pg.base.ship_data_breakout[205062] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12603,7 +12737,7 @@ _G.pg.ship_data_breakout[205062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205063] = {
+_G.pg.base.ship_data_breakout[205063] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12622,7 +12756,7 @@ _G.pg.ship_data_breakout[205063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205064] = {
+_G.pg.base.ship_data_breakout[205064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12637,7 +12771,7 @@ _G.pg.ship_data_breakout[205064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205071] = {
+_G.pg.base.ship_data_breakout[205071] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12655,7 +12789,7 @@ _G.pg.ship_data_breakout[205071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205072] = {
+_G.pg.base.ship_data_breakout[205072] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12674,7 +12808,7 @@ _G.pg.ship_data_breakout[205072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205073] = {
+_G.pg.base.ship_data_breakout[205073] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12693,7 +12827,7 @@ _G.pg.ship_data_breakout[205073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205074] = {
+_G.pg.base.ship_data_breakout[205074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12708,7 +12842,7 @@ _G.pg.ship_data_breakout[205074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205091] = {
+_G.pg.base.ship_data_breakout[205091] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12726,7 +12860,7 @@ _G.pg.ship_data_breakout[205091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205092] = {
+_G.pg.base.ship_data_breakout[205092] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12745,7 +12879,7 @@ _G.pg.ship_data_breakout[205092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205093] = {
+_G.pg.base.ship_data_breakout[205093] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12764,7 +12898,7 @@ _G.pg.ship_data_breakout[205093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205094] = {
+_G.pg.base.ship_data_breakout[205094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12779,7 +12913,7 @@ _G.pg.ship_data_breakout[205094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205101] = {
+_G.pg.base.ship_data_breakout[205101] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -12797,7 +12931,7 @@ _G.pg.ship_data_breakout[205101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205102] = {
+_G.pg.base.ship_data_breakout[205102] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -12816,7 +12950,7 @@ _G.pg.ship_data_breakout[205102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205103] = {
+_G.pg.base.ship_data_breakout[205103] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -12835,7 +12969,7 @@ _G.pg.ship_data_breakout[205103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[205104] = {
+_G.pg.base.ship_data_breakout[205104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12850,7 +12984,7 @@ _G.pg.ship_data_breakout[205104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206011] = {
+_G.pg.base.ship_data_breakout[206011] = {
 	use_gold = 100,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高3%",
 	use_char_num = 1,
@@ -12868,7 +13002,7 @@ _G.pg.ship_data_breakout[206011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206012] = {
+_G.pg.base.ship_data_breakout[206012] = {
 	use_gold = 300,
 	breakout_view = "機庫容量+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -12888,7 +13022,7 @@ _G.pg.ship_data_breakout[206012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206013] = {
+_G.pg.base.ship_data_breakout[206013] = {
 	use_gold = 500,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高7%",
 	use_char_num = 2,
@@ -12908,7 +13042,7 @@ _G.pg.ship_data_breakout[206013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206014] = {
+_G.pg.base.ship_data_breakout[206014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12923,7 +13057,7 @@ _G.pg.ship_data_breakout[206014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206031] = {
+_G.pg.base.ship_data_breakout[206031] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -12941,7 +13075,7 @@ _G.pg.ship_data_breakout[206031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206032] = {
+_G.pg.base.ship_data_breakout[206032] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -12961,7 +13095,7 @@ _G.pg.ship_data_breakout[206032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206033] = {
+_G.pg.base.ship_data_breakout[206033] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -12981,7 +13115,7 @@ _G.pg.ship_data_breakout[206033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206034] = {
+_G.pg.base.ship_data_breakout[206034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -12996,7 +13130,7 @@ _G.pg.ship_data_breakout[206034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206041] = {
+_G.pg.base.ship_data_breakout[206041] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -13014,7 +13148,7 @@ _G.pg.ship_data_breakout[206041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206042] = {
+_G.pg.base.ship_data_breakout[206042] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -13034,7 +13168,7 @@ _G.pg.ship_data_breakout[206042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206043] = {
+_G.pg.base.ship_data_breakout[206043] = {
 	use_gold = 10000,
 	breakout_view = "所有魚雷機+2/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -13054,7 +13188,7 @@ _G.pg.ship_data_breakout[206043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206044] = {
+_G.pg.base.ship_data_breakout[206044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13069,7 +13203,7 @@ _G.pg.ship_data_breakout[206044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206051] = {
+_G.pg.base.ship_data_breakout[206051] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -13087,7 +13221,7 @@ _G.pg.ship_data_breakout[206051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206052] = {
+_G.pg.base.ship_data_breakout[206052] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -13107,7 +13241,7 @@ _G.pg.ship_data_breakout[206052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206053] = {
+_G.pg.base.ship_data_breakout[206053] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -13127,7 +13261,7 @@ _G.pg.ship_data_breakout[206053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206054] = {
+_G.pg.base.ship_data_breakout[206054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13142,7 +13276,7 @@ _G.pg.ship_data_breakout[206054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206061] = {
+_G.pg.base.ship_data_breakout[206061] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -13160,7 +13294,7 @@ _G.pg.ship_data_breakout[206061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206062] = {
+_G.pg.base.ship_data_breakout[206062] = {
 	use_gold = 3000,
 	breakout_view = "所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -13180,7 +13314,7 @@ _G.pg.ship_data_breakout[206062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206063] = {
+_G.pg.base.ship_data_breakout[206063] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -13200,7 +13334,7 @@ _G.pg.ship_data_breakout[206063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[206064] = {
+_G.pg.base.ship_data_breakout[206064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13215,7 +13349,7 @@ _G.pg.ship_data_breakout[206064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207011] = {
+_G.pg.base.ship_data_breakout[207011] = {
 	use_gold = 500,
 	breakout_view = "所有艦載機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -13233,7 +13367,7 @@ _G.pg.ship_data_breakout[207011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207012] = {
+_G.pg.base.ship_data_breakout[207012] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/副武器底座+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -13253,7 +13387,7 @@ _G.pg.ship_data_breakout[207012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207013] = {
+_G.pg.base.ship_data_breakout[207013] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -13273,7 +13407,7 @@ _G.pg.ship_data_breakout[207013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207014] = {
+_G.pg.base.ship_data_breakout[207014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13288,7 +13422,7 @@ _G.pg.ship_data_breakout[207014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207021] = {
+_G.pg.base.ship_data_breakout[207021] = {
 	use_gold = 500,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高3%",
 	use_char_num = 1,
@@ -13306,7 +13440,7 @@ _G.pg.ship_data_breakout[207021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207022] = {
+_G.pg.base.ship_data_breakout[207022] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有轟炸機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -13326,7 +13460,7 @@ _G.pg.ship_data_breakout[207022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207023] = {
+_G.pg.base.ship_data_breakout[207023] = {
 	use_gold = 2500,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高7%",
 	use_char_num = 2,
@@ -13346,7 +13480,7 @@ _G.pg.ship_data_breakout[207023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207024] = {
+_G.pg.base.ship_data_breakout[207024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13361,7 +13495,7 @@ _G.pg.ship_data_breakout[207024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207031] = {
+_G.pg.base.ship_data_breakout[207031] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高3%",
 	use_char_num = 1,
@@ -13379,7 +13513,7 @@ _G.pg.ship_data_breakout[207031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207032] = {
+_G.pg.base.ship_data_breakout[207032] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -13399,7 +13533,7 @@ _G.pg.ship_data_breakout[207032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207033] = {
+_G.pg.base.ship_data_breakout[207033] = {
 	use_gold = 10000,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高7%",
 	use_char_num = 2,
@@ -13419,7 +13553,7 @@ _G.pg.ship_data_breakout[207033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207034] = {
+_G.pg.base.ship_data_breakout[207034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13434,7 +13568,7 @@ _G.pg.ship_data_breakout[207034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207041] = {
+_G.pg.base.ship_data_breakout[207041] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/艦載機效率提高2%",
 	use_char_num = 1,
@@ -13452,7 +13586,7 @@ _G.pg.ship_data_breakout[207041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207042] = {
+_G.pg.base.ship_data_breakout[207042] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -13472,7 +13606,7 @@ _G.pg.ship_data_breakout[207042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207043] = {
+_G.pg.base.ship_data_breakout[207043] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高5%",
 	use_char_num = 2,
@@ -13492,7 +13626,7 @@ _G.pg.ship_data_breakout[207043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207044] = {
+_G.pg.base.ship_data_breakout[207044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13507,7 +13641,7 @@ _G.pg.ship_data_breakout[207044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207051] = {
+_G.pg.base.ship_data_breakout[207051] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/艦載機效率提高2%",
 	use_char_num = 1,
@@ -13525,7 +13659,7 @@ _G.pg.ship_data_breakout[207051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207052] = {
+_G.pg.base.ship_data_breakout[207052] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -13545,7 +13679,7 @@ _G.pg.ship_data_breakout[207052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207053] = {
+_G.pg.base.ship_data_breakout[207053] = {
 	use_gold = 10000,
 	breakout_view = "所有魚雷機+1/艦載機效率提高5%/戰鬥機欄位可以裝備轟炸機",
 	use_char_num = 2,
@@ -13565,7 +13699,7 @@ _G.pg.ship_data_breakout[207053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207054] = {
+_G.pg.base.ship_data_breakout[207054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13580,7 +13714,7 @@ _G.pg.ship_data_breakout[207054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207061] = {
+_G.pg.base.ship_data_breakout[207061] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -13598,7 +13732,7 @@ _G.pg.ship_data_breakout[207061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207062] = {
+_G.pg.base.ship_data_breakout[207062] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -13618,7 +13752,7 @@ _G.pg.ship_data_breakout[207062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207063] = {
+_G.pg.base.ship_data_breakout[207063] = {
 	use_gold = 2500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高15%",
 	use_char_num = 2,
@@ -13638,7 +13772,7 @@ _G.pg.ship_data_breakout[207063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207064] = {
+_G.pg.base.ship_data_breakout[207064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13653,7 +13787,7 @@ _G.pg.ship_data_breakout[207064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207091] = {
+_G.pg.base.ship_data_breakout[207091] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高3%",
 	use_char_num = 1,
@@ -13671,7 +13805,7 @@ _G.pg.ship_data_breakout[207091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207092] = {
+_G.pg.base.ship_data_breakout[207092] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -13691,7 +13825,7 @@ _G.pg.ship_data_breakout[207092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207093] = {
+_G.pg.base.ship_data_breakout[207093] = {
 	use_gold = 2500,
 	breakout_view = "所有戰鬥機+1/戰鬥機效率提高7%",
 	use_char_num = 2,
@@ -13711,7 +13845,7 @@ _G.pg.ship_data_breakout[207093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[207094] = {
+_G.pg.base.ship_data_breakout[207094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13726,7 +13860,7 @@ _G.pg.ship_data_breakout[207094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213011] = {
+_G.pg.base.ship_data_breakout[213011] = {
 	use_gold = 500,
 	breakout_view = "副炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -13744,7 +13878,7 @@ _G.pg.ship_data_breakout[213011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213012] = {
+_G.pg.base.ship_data_breakout[213012] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -13762,7 +13896,7 @@ _G.pg.ship_data_breakout[213012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213013] = {
+_G.pg.base.ship_data_breakout[213013] = {
 	use_gold = 2500,
 	breakout_view = "副炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -13781,7 +13915,7 @@ _G.pg.ship_data_breakout[213013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213014] = {
+_G.pg.base.ship_data_breakout[213014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13796,7 +13930,7 @@ _G.pg.ship_data_breakout[213014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213021] = {
+_G.pg.base.ship_data_breakout[213021] = {
 	use_gold = 500,
 	breakout_view = "副炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -13814,7 +13948,7 @@ _G.pg.ship_data_breakout[213021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213022] = {
+_G.pg.base.ship_data_breakout[213022] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -13832,7 +13966,7 @@ _G.pg.ship_data_breakout[213022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213023] = {
+_G.pg.base.ship_data_breakout[213023] = {
 	use_gold = 2500,
 	breakout_view = "副炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -13851,7 +13985,7 @@ _G.pg.ship_data_breakout[213023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213024] = {
+_G.pg.base.ship_data_breakout[213024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13866,7 +14000,7 @@ _G.pg.ship_data_breakout[213024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213041] = {
+_G.pg.base.ship_data_breakout[213041] = {
 	use_gold = 500,
 	breakout_view = "副炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -13884,7 +14018,7 @@ _G.pg.ship_data_breakout[213041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213042] = {
+_G.pg.base.ship_data_breakout[213042] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -13902,7 +14036,7 @@ _G.pg.ship_data_breakout[213042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213043] = {
+_G.pg.base.ship_data_breakout[213043] = {
 	use_gold = 2500,
 	breakout_view = "副炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -13921,7 +14055,7 @@ _G.pg.ship_data_breakout[213043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[213044] = {
+_G.pg.base.ship_data_breakout[213044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -13936,7 +14070,7 @@ _G.pg.ship_data_breakout[213044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301011] = {
+_G.pg.base.ship_data_breakout[301011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -13953,7 +14087,7 @@ _G.pg.ship_data_breakout[301011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301012] = {
+_G.pg.base.ship_data_breakout[301012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -13971,7 +14105,7 @@ _G.pg.ship_data_breakout[301012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301013] = {
+_G.pg.base.ship_data_breakout[301013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -13990,7 +14124,7 @@ _G.pg.ship_data_breakout[301013] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301014] = {
+_G.pg.base.ship_data_breakout[301014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14005,7 +14139,7 @@ _G.pg.ship_data_breakout[301014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301051] = {
+_G.pg.base.ship_data_breakout[301051] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14022,7 +14156,7 @@ _G.pg.ship_data_breakout[301051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301052] = {
+_G.pg.base.ship_data_breakout[301052] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14040,7 +14174,7 @@ _G.pg.ship_data_breakout[301052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301053] = {
+_G.pg.base.ship_data_breakout[301053] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14059,7 +14193,7 @@ _G.pg.ship_data_breakout[301053] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301054] = {
+_G.pg.base.ship_data_breakout[301054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14074,7 +14208,7 @@ _G.pg.ship_data_breakout[301054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301091] = {
+_G.pg.base.ship_data_breakout[301091] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14091,7 +14225,7 @@ _G.pg.ship_data_breakout[301091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301092] = {
+_G.pg.base.ship_data_breakout[301092] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14109,7 +14243,7 @@ _G.pg.ship_data_breakout[301092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301093] = {
+_G.pg.base.ship_data_breakout[301093] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14128,7 +14262,7 @@ _G.pg.ship_data_breakout[301093] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301094] = {
+_G.pg.base.ship_data_breakout[301094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14143,7 +14277,7 @@ _G.pg.ship_data_breakout[301094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301101] = {
+_G.pg.base.ship_data_breakout[301101] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14160,7 +14294,7 @@ _G.pg.ship_data_breakout[301101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301102] = {
+_G.pg.base.ship_data_breakout[301102] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14178,7 +14312,7 @@ _G.pg.ship_data_breakout[301102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301103] = {
+_G.pg.base.ship_data_breakout[301103] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14197,7 +14331,7 @@ _G.pg.ship_data_breakout[301103] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301104] = {
+_G.pg.base.ship_data_breakout[301104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14212,7 +14346,7 @@ _G.pg.ship_data_breakout[301104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301111] = {
+_G.pg.base.ship_data_breakout[301111] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14229,7 +14363,7 @@ _G.pg.ship_data_breakout[301111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301112] = {
+_G.pg.base.ship_data_breakout[301112] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14247,7 +14381,7 @@ _G.pg.ship_data_breakout[301112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301113] = {
+_G.pg.base.ship_data_breakout[301113] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14266,7 +14400,7 @@ _G.pg.ship_data_breakout[301113] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301114] = {
+_G.pg.base.ship_data_breakout[301114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14281,7 +14415,7 @@ _G.pg.ship_data_breakout[301114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301121] = {
+_G.pg.base.ship_data_breakout[301121] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14298,7 +14432,7 @@ _G.pg.ship_data_breakout[301121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301122] = {
+_G.pg.base.ship_data_breakout[301122] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14316,7 +14450,7 @@ _G.pg.ship_data_breakout[301122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301123] = {
+_G.pg.base.ship_data_breakout[301123] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14335,7 +14469,7 @@ _G.pg.ship_data_breakout[301123] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301124] = {
+_G.pg.base.ship_data_breakout[301124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14350,7 +14484,7 @@ _G.pg.ship_data_breakout[301124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301131] = {
+_G.pg.base.ship_data_breakout[301131] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14367,7 +14501,7 @@ _G.pg.ship_data_breakout[301131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301132] = {
+_G.pg.base.ship_data_breakout[301132] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14385,7 +14519,7 @@ _G.pg.ship_data_breakout[301132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301133] = {
+_G.pg.base.ship_data_breakout[301133] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14404,7 +14538,7 @@ _G.pg.ship_data_breakout[301133] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301134] = {
+_G.pg.base.ship_data_breakout[301134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14419,7 +14553,7 @@ _G.pg.ship_data_breakout[301134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301141] = {
+_G.pg.base.ship_data_breakout[301141] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14436,7 +14570,7 @@ _G.pg.ship_data_breakout[301141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301142] = {
+_G.pg.base.ship_data_breakout[301142] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14454,7 +14588,7 @@ _G.pg.ship_data_breakout[301142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301143] = {
+_G.pg.base.ship_data_breakout[301143] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14473,7 +14607,7 @@ _G.pg.ship_data_breakout[301143] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301144] = {
+_G.pg.base.ship_data_breakout[301144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14488,7 +14622,7 @@ _G.pg.ship_data_breakout[301144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301151] = {
+_G.pg.base.ship_data_breakout[301151] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14505,7 +14639,7 @@ _G.pg.ship_data_breakout[301151] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301152] = {
+_G.pg.base.ship_data_breakout[301152] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14523,7 +14657,7 @@ _G.pg.ship_data_breakout[301152] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301153] = {
+_G.pg.base.ship_data_breakout[301153] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14542,7 +14676,7 @@ _G.pg.ship_data_breakout[301153] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301154] = {
+_G.pg.base.ship_data_breakout[301154] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14557,7 +14691,7 @@ _G.pg.ship_data_breakout[301154] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301161] = {
+_G.pg.base.ship_data_breakout[301161] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14574,7 +14708,7 @@ _G.pg.ship_data_breakout[301161] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301162] = {
+_G.pg.base.ship_data_breakout[301162] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14592,7 +14726,7 @@ _G.pg.ship_data_breakout[301162] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301163] = {
+_G.pg.base.ship_data_breakout[301163] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14611,7 +14745,7 @@ _G.pg.ship_data_breakout[301163] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301164] = {
+_G.pg.base.ship_data_breakout[301164] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14626,7 +14760,7 @@ _G.pg.ship_data_breakout[301164] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301171] = {
+_G.pg.base.ship_data_breakout[301171] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14643,7 +14777,7 @@ _G.pg.ship_data_breakout[301171] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301172] = {
+_G.pg.base.ship_data_breakout[301172] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14661,7 +14795,7 @@ _G.pg.ship_data_breakout[301172] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301173] = {
+_G.pg.base.ship_data_breakout[301173] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14680,7 +14814,7 @@ _G.pg.ship_data_breakout[301173] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301174] = {
+_G.pg.base.ship_data_breakout[301174] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14695,7 +14829,7 @@ _G.pg.ship_data_breakout[301174] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301181] = {
+_G.pg.base.ship_data_breakout[301181] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14712,7 +14846,7 @@ _G.pg.ship_data_breakout[301181] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301182] = {
+_G.pg.base.ship_data_breakout[301182] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14730,7 +14864,7 @@ _G.pg.ship_data_breakout[301182] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301183] = {
+_G.pg.base.ship_data_breakout[301183] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14749,7 +14883,7 @@ _G.pg.ship_data_breakout[301183] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301184] = {
+_G.pg.base.ship_data_breakout[301184] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14764,7 +14898,7 @@ _G.pg.ship_data_breakout[301184] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301201] = {
+_G.pg.base.ship_data_breakout[301201] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14781,7 +14915,7 @@ _G.pg.ship_data_breakout[301201] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301202] = {
+_G.pg.base.ship_data_breakout[301202] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14799,7 +14933,7 @@ _G.pg.ship_data_breakout[301202] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301203] = {
+_G.pg.base.ship_data_breakout[301203] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14818,7 +14952,7 @@ _G.pg.ship_data_breakout[301203] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301204] = {
+_G.pg.base.ship_data_breakout[301204] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14833,7 +14967,7 @@ _G.pg.ship_data_breakout[301204] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301211] = {
+_G.pg.base.ship_data_breakout[301211] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14850,7 +14984,7 @@ _G.pg.ship_data_breakout[301211] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301212] = {
+_G.pg.base.ship_data_breakout[301212] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14868,7 +15002,7 @@ _G.pg.ship_data_breakout[301212] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301213] = {
+_G.pg.base.ship_data_breakout[301213] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14887,7 +15021,7 @@ _G.pg.ship_data_breakout[301213] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301214] = {
+_G.pg.base.ship_data_breakout[301214] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14902,7 +15036,7 @@ _G.pg.ship_data_breakout[301214] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301231] = {
+_G.pg.base.ship_data_breakout[301231] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14919,7 +15053,7 @@ _G.pg.ship_data_breakout[301231] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301232] = {
+_G.pg.base.ship_data_breakout[301232] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -14937,7 +15071,7 @@ _G.pg.ship_data_breakout[301232] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301233] = {
+_G.pg.base.ship_data_breakout[301233] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -14956,7 +15090,7 @@ _G.pg.ship_data_breakout[301233] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301234] = {
+_G.pg.base.ship_data_breakout[301234] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -14971,7 +15105,7 @@ _G.pg.ship_data_breakout[301234] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301241] = {
+_G.pg.base.ship_data_breakout[301241] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -14988,7 +15122,7 @@ _G.pg.ship_data_breakout[301241] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301242] = {
+_G.pg.base.ship_data_breakout[301242] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15006,7 +15140,7 @@ _G.pg.ship_data_breakout[301242] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301243] = {
+_G.pg.base.ship_data_breakout[301243] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15025,7 +15159,7 @@ _G.pg.ship_data_breakout[301243] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301244] = {
+_G.pg.base.ship_data_breakout[301244] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15040,7 +15174,7 @@ _G.pg.ship_data_breakout[301244] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301251] = {
+_G.pg.base.ship_data_breakout[301251] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15057,7 +15191,7 @@ _G.pg.ship_data_breakout[301251] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301252] = {
+_G.pg.base.ship_data_breakout[301252] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15075,7 +15209,7 @@ _G.pg.ship_data_breakout[301252] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301253] = {
+_G.pg.base.ship_data_breakout[301253] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15094,7 +15228,7 @@ _G.pg.ship_data_breakout[301253] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301254] = {
+_G.pg.base.ship_data_breakout[301254] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15109,7 +15243,7 @@ _G.pg.ship_data_breakout[301254] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301261] = {
+_G.pg.base.ship_data_breakout[301261] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15126,7 +15260,7 @@ _G.pg.ship_data_breakout[301261] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301262] = {
+_G.pg.base.ship_data_breakout[301262] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15144,7 +15278,7 @@ _G.pg.ship_data_breakout[301262] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301263] = {
+_G.pg.base.ship_data_breakout[301263] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15163,7 +15297,7 @@ _G.pg.ship_data_breakout[301263] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301264] = {
+_G.pg.base.ship_data_breakout[301264] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15178,7 +15312,7 @@ _G.pg.ship_data_breakout[301264] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301271] = {
+_G.pg.base.ship_data_breakout[301271] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15195,7 +15329,7 @@ _G.pg.ship_data_breakout[301271] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301272] = {
+_G.pg.base.ship_data_breakout[301272] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15213,7 +15347,7 @@ _G.pg.ship_data_breakout[301272] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301273] = {
+_G.pg.base.ship_data_breakout[301273] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15232,7 +15366,7 @@ _G.pg.ship_data_breakout[301273] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301274] = {
+_G.pg.base.ship_data_breakout[301274] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15247,7 +15381,7 @@ _G.pg.ship_data_breakout[301274] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301281] = {
+_G.pg.base.ship_data_breakout[301281] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15264,7 +15398,7 @@ _G.pg.ship_data_breakout[301281] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301282] = {
+_G.pg.base.ship_data_breakout[301282] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15282,7 +15416,7 @@ _G.pg.ship_data_breakout[301282] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301283] = {
+_G.pg.base.ship_data_breakout[301283] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15301,7 +15435,7 @@ _G.pg.ship_data_breakout[301283] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301284] = {
+_G.pg.base.ship_data_breakout[301284] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15316,7 +15450,7 @@ _G.pg.ship_data_breakout[301284] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301301] = {
+_G.pg.base.ship_data_breakout[301301] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15333,7 +15467,7 @@ _G.pg.ship_data_breakout[301301] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301302] = {
+_G.pg.base.ship_data_breakout[301302] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15351,7 +15485,7 @@ _G.pg.ship_data_breakout[301302] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301303] = {
+_G.pg.base.ship_data_breakout[301303] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15370,7 +15504,7 @@ _G.pg.ship_data_breakout[301303] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301304] = {
+_G.pg.base.ship_data_breakout[301304] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15385,7 +15519,7 @@ _G.pg.ship_data_breakout[301304] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301311] = {
+_G.pg.base.ship_data_breakout[301311] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15402,7 +15536,7 @@ _G.pg.ship_data_breakout[301311] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301312] = {
+_G.pg.base.ship_data_breakout[301312] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15420,7 +15554,7 @@ _G.pg.ship_data_breakout[301312] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301313] = {
+_G.pg.base.ship_data_breakout[301313] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15439,7 +15573,7 @@ _G.pg.ship_data_breakout[301313] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301314] = {
+_G.pg.base.ship_data_breakout[301314] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15454,7 +15588,7 @@ _G.pg.ship_data_breakout[301314] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301321] = {
+_G.pg.base.ship_data_breakout[301321] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15471,7 +15605,7 @@ _G.pg.ship_data_breakout[301321] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301322] = {
+_G.pg.base.ship_data_breakout[301322] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15489,7 +15623,7 @@ _G.pg.ship_data_breakout[301322] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301323] = {
+_G.pg.base.ship_data_breakout[301323] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15508,7 +15642,7 @@ _G.pg.ship_data_breakout[301323] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301324] = {
+_G.pg.base.ship_data_breakout[301324] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15523,7 +15657,7 @@ _G.pg.ship_data_breakout[301324] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301331] = {
+_G.pg.base.ship_data_breakout[301331] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15540,7 +15674,7 @@ _G.pg.ship_data_breakout[301331] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301332] = {
+_G.pg.base.ship_data_breakout[301332] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15558,7 +15692,7 @@ _G.pg.ship_data_breakout[301332] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301333] = {
+_G.pg.base.ship_data_breakout[301333] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15577,7 +15711,7 @@ _G.pg.ship_data_breakout[301333] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301334] = {
+_G.pg.base.ship_data_breakout[301334] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15592,7 +15726,7 @@ _G.pg.ship_data_breakout[301334] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301351] = {
+_G.pg.base.ship_data_breakout[301351] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15609,7 +15743,7 @@ _G.pg.ship_data_breakout[301351] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301352] = {
+_G.pg.base.ship_data_breakout[301352] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15627,7 +15761,7 @@ _G.pg.ship_data_breakout[301352] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301353] = {
+_G.pg.base.ship_data_breakout[301353] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15646,7 +15780,7 @@ _G.pg.ship_data_breakout[301353] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301354] = {
+_G.pg.base.ship_data_breakout[301354] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15661,7 +15795,7 @@ _G.pg.ship_data_breakout[301354] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301371] = {
+_G.pg.base.ship_data_breakout[301371] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15678,7 +15812,7 @@ _G.pg.ship_data_breakout[301371] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301372] = {
+_G.pg.base.ship_data_breakout[301372] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15696,7 +15830,7 @@ _G.pg.ship_data_breakout[301372] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301373] = {
+_G.pg.base.ship_data_breakout[301373] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15715,7 +15849,7 @@ _G.pg.ship_data_breakout[301373] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301374] = {
+_G.pg.base.ship_data_breakout[301374] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15730,7 +15864,7 @@ _G.pg.ship_data_breakout[301374] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301381] = {
+_G.pg.base.ship_data_breakout[301381] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15747,7 +15881,7 @@ _G.pg.ship_data_breakout[301381] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301382] = {
+_G.pg.base.ship_data_breakout[301382] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15765,7 +15899,7 @@ _G.pg.ship_data_breakout[301382] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301383] = {
+_G.pg.base.ship_data_breakout[301383] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15784,7 +15918,7 @@ _G.pg.ship_data_breakout[301383] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301384] = {
+_G.pg.base.ship_data_breakout[301384] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15799,7 +15933,7 @@ _G.pg.ship_data_breakout[301384] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301391] = {
+_G.pg.base.ship_data_breakout[301391] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15816,7 +15950,7 @@ _G.pg.ship_data_breakout[301391] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301392] = {
+_G.pg.base.ship_data_breakout[301392] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15834,7 +15968,7 @@ _G.pg.ship_data_breakout[301392] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301393] = {
+_G.pg.base.ship_data_breakout[301393] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15853,7 +15987,7 @@ _G.pg.ship_data_breakout[301393] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301394] = {
+_G.pg.base.ship_data_breakout[301394] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15868,7 +16002,7 @@ _G.pg.ship_data_breakout[301394] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301411] = {
+_G.pg.base.ship_data_breakout[301411] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15885,7 +16019,7 @@ _G.pg.ship_data_breakout[301411] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301412] = {
+_G.pg.base.ship_data_breakout[301412] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15903,7 +16037,7 @@ _G.pg.ship_data_breakout[301412] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301413] = {
+_G.pg.base.ship_data_breakout[301413] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15922,7 +16056,7 @@ _G.pg.ship_data_breakout[301413] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301414] = {
+_G.pg.base.ship_data_breakout[301414] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -15937,7 +16071,7 @@ _G.pg.ship_data_breakout[301414] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301491] = {
+_G.pg.base.ship_data_breakout[301491] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -15954,7 +16088,7 @@ _G.pg.ship_data_breakout[301491] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301492] = {
+_G.pg.base.ship_data_breakout[301492] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -15972,7 +16106,7 @@ _G.pg.ship_data_breakout[301492] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301493] = {
+_G.pg.base.ship_data_breakout[301493] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -15991,7 +16125,7 @@ _G.pg.ship_data_breakout[301493] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301494] = {
+_G.pg.base.ship_data_breakout[301494] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16006,7 +16140,7 @@ _G.pg.ship_data_breakout[301494] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301541] = {
+_G.pg.base.ship_data_breakout[301541] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16023,7 +16157,7 @@ _G.pg.ship_data_breakout[301541] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301542] = {
+_G.pg.base.ship_data_breakout[301542] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16041,7 +16175,7 @@ _G.pg.ship_data_breakout[301542] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301543] = {
+_G.pg.base.ship_data_breakout[301543] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16060,7 +16194,7 @@ _G.pg.ship_data_breakout[301543] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301544] = {
+_G.pg.base.ship_data_breakout[301544] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16075,7 +16209,7 @@ _G.pg.ship_data_breakout[301544] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301561] = {
+_G.pg.base.ship_data_breakout[301561] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -16092,7 +16226,7 @@ _G.pg.ship_data_breakout[301561] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301562] = {
+_G.pg.base.ship_data_breakout[301562] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -16110,7 +16244,7 @@ _G.pg.ship_data_breakout[301562] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301563] = {
+_G.pg.base.ship_data_breakout[301563] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16129,7 +16263,7 @@ _G.pg.ship_data_breakout[301563] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301564] = {
+_G.pg.base.ship_data_breakout[301564] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16144,7 +16278,7 @@ _G.pg.ship_data_breakout[301564] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301571] = {
+_G.pg.base.ship_data_breakout[301571] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -16161,7 +16295,7 @@ _G.pg.ship_data_breakout[301571] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301572] = {
+_G.pg.base.ship_data_breakout[301572] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -16179,7 +16313,7 @@ _G.pg.ship_data_breakout[301572] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301573] = {
+_G.pg.base.ship_data_breakout[301573] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16198,7 +16332,7 @@ _G.pg.ship_data_breakout[301573] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301574] = {
+_G.pg.base.ship_data_breakout[301574] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16213,7 +16347,7 @@ _G.pg.ship_data_breakout[301574] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301581] = {
+_G.pg.base.ship_data_breakout[301581] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -16230,7 +16364,7 @@ _G.pg.ship_data_breakout[301581] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301582] = {
+_G.pg.base.ship_data_breakout[301582] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -16248,7 +16382,7 @@ _G.pg.ship_data_breakout[301582] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301583] = {
+_G.pg.base.ship_data_breakout[301583] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16267,7 +16401,7 @@ _G.pg.ship_data_breakout[301583] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301584] = {
+_G.pg.base.ship_data_breakout[301584] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16282,7 +16416,7 @@ _G.pg.ship_data_breakout[301584] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301591] = {
+_G.pg.base.ship_data_breakout[301591] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16299,7 +16433,7 @@ _G.pg.ship_data_breakout[301591] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301592] = {
+_G.pg.base.ship_data_breakout[301592] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16317,7 +16451,7 @@ _G.pg.ship_data_breakout[301592] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301593] = {
+_G.pg.base.ship_data_breakout[301593] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16336,7 +16470,7 @@ _G.pg.ship_data_breakout[301593] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301594] = {
+_G.pg.base.ship_data_breakout[301594] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16351,7 +16485,7 @@ _G.pg.ship_data_breakout[301594] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301601] = {
+_G.pg.base.ship_data_breakout[301601] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16368,7 +16502,7 @@ _G.pg.ship_data_breakout[301601] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301602] = {
+_G.pg.base.ship_data_breakout[301602] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16386,7 +16520,7 @@ _G.pg.ship_data_breakout[301602] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301603] = {
+_G.pg.base.ship_data_breakout[301603] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16405,7 +16539,7 @@ _G.pg.ship_data_breakout[301603] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301604] = {
+_G.pg.base.ship_data_breakout[301604] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16420,7 +16554,7 @@ _G.pg.ship_data_breakout[301604] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301611] = {
+_G.pg.base.ship_data_breakout[301611] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16437,7 +16571,7 @@ _G.pg.ship_data_breakout[301611] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301612] = {
+_G.pg.base.ship_data_breakout[301612] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16455,7 +16589,7 @@ _G.pg.ship_data_breakout[301612] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301613] = {
+_G.pg.base.ship_data_breakout[301613] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16474,7 +16608,7 @@ _G.pg.ship_data_breakout[301613] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301614] = {
+_G.pg.base.ship_data_breakout[301614] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16489,7 +16623,7 @@ _G.pg.ship_data_breakout[301614] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301621] = {
+_G.pg.base.ship_data_breakout[301621] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16506,7 +16640,7 @@ _G.pg.ship_data_breakout[301621] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301622] = {
+_G.pg.base.ship_data_breakout[301622] = {
 	use_gold = 900,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16524,7 +16658,7 @@ _G.pg.ship_data_breakout[301622] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301623] = {
+_G.pg.base.ship_data_breakout[301623] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16543,7 +16677,7 @@ _G.pg.ship_data_breakout[301623] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301624] = {
+_G.pg.base.ship_data_breakout[301624] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16558,7 +16692,7 @@ _G.pg.ship_data_breakout[301624] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301631] = {
+_G.pg.base.ship_data_breakout[301631] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16575,7 +16709,7 @@ _G.pg.ship_data_breakout[301631] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301632] = {
+_G.pg.base.ship_data_breakout[301632] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16593,7 +16727,7 @@ _G.pg.ship_data_breakout[301632] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301633] = {
+_G.pg.base.ship_data_breakout[301633] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16612,7 +16746,7 @@ _G.pg.ship_data_breakout[301633] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301634] = {
+_G.pg.base.ship_data_breakout[301634] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16627,7 +16761,7 @@ _G.pg.ship_data_breakout[301634] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301641] = {
+_G.pg.base.ship_data_breakout[301641] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16644,7 +16778,7 @@ _G.pg.ship_data_breakout[301641] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301642] = {
+_G.pg.base.ship_data_breakout[301642] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16662,7 +16796,7 @@ _G.pg.ship_data_breakout[301642] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301643] = {
+_G.pg.base.ship_data_breakout[301643] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16681,7 +16815,7 @@ _G.pg.ship_data_breakout[301643] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301644] = {
+_G.pg.base.ship_data_breakout[301644] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16696,7 +16830,7 @@ _G.pg.ship_data_breakout[301644] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301651] = {
+_G.pg.base.ship_data_breakout[301651] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16713,7 +16847,7 @@ _G.pg.ship_data_breakout[301651] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301652] = {
+_G.pg.base.ship_data_breakout[301652] = {
 	use_gold = 900,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16731,7 +16865,7 @@ _G.pg.ship_data_breakout[301652] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301653] = {
+_G.pg.base.ship_data_breakout[301653] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16750,7 +16884,7 @@ _G.pg.ship_data_breakout[301653] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301654] = {
+_G.pg.base.ship_data_breakout[301654] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16765,7 +16899,7 @@ _G.pg.ship_data_breakout[301654] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301661] = {
+_G.pg.base.ship_data_breakout[301661] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16782,7 +16916,7 @@ _G.pg.ship_data_breakout[301661] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301662] = {
+_G.pg.base.ship_data_breakout[301662] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16800,7 +16934,7 @@ _G.pg.ship_data_breakout[301662] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301663] = {
+_G.pg.base.ship_data_breakout[301663] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16819,7 +16953,7 @@ _G.pg.ship_data_breakout[301663] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301664] = {
+_G.pg.base.ship_data_breakout[301664] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16834,7 +16968,7 @@ _G.pg.ship_data_breakout[301664] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301721] = {
+_G.pg.base.ship_data_breakout[301721] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16851,7 +16985,7 @@ _G.pg.ship_data_breakout[301721] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301722] = {
+_G.pg.base.ship_data_breakout[301722] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16869,7 +17003,7 @@ _G.pg.ship_data_breakout[301722] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301723] = {
+_G.pg.base.ship_data_breakout[301723] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16888,7 +17022,7 @@ _G.pg.ship_data_breakout[301723] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301724] = {
+_G.pg.base.ship_data_breakout[301724] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16903,7 +17037,7 @@ _G.pg.ship_data_breakout[301724] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301791] = {
+_G.pg.base.ship_data_breakout[301791] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16920,7 +17054,7 @@ _G.pg.ship_data_breakout[301791] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301792] = {
+_G.pg.base.ship_data_breakout[301792] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -16938,7 +17072,7 @@ _G.pg.ship_data_breakout[301792] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301793] = {
+_G.pg.base.ship_data_breakout[301793] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -16957,7 +17091,7 @@ _G.pg.ship_data_breakout[301793] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301794] = {
+_G.pg.base.ship_data_breakout[301794] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -16972,7 +17106,7 @@ _G.pg.ship_data_breakout[301794] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301801] = {
+_G.pg.base.ship_data_breakout[301801] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -16989,7 +17123,7 @@ _G.pg.ship_data_breakout[301801] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301802] = {
+_G.pg.base.ship_data_breakout[301802] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17007,7 +17141,7 @@ _G.pg.ship_data_breakout[301802] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301803] = {
+_G.pg.base.ship_data_breakout[301803] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17026,7 +17160,7 @@ _G.pg.ship_data_breakout[301803] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301804] = {
+_G.pg.base.ship_data_breakout[301804] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17041,7 +17175,7 @@ _G.pg.ship_data_breakout[301804] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301811] = {
+_G.pg.base.ship_data_breakout[301811] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -17058,7 +17192,7 @@ _G.pg.ship_data_breakout[301811] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301812] = {
+_G.pg.base.ship_data_breakout[301812] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17076,7 +17210,7 @@ _G.pg.ship_data_breakout[301812] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301813] = {
+_G.pg.base.ship_data_breakout[301813] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17095,7 +17229,7 @@ _G.pg.ship_data_breakout[301813] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301814] = {
+_G.pg.base.ship_data_breakout[301814] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17110,7 +17244,7 @@ _G.pg.ship_data_breakout[301814] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301821] = {
+_G.pg.base.ship_data_breakout[301821] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -17127,7 +17261,7 @@ _G.pg.ship_data_breakout[301821] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301822] = {
+_G.pg.base.ship_data_breakout[301822] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -17145,7 +17279,7 @@ _G.pg.ship_data_breakout[301822] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301823] = {
+_G.pg.base.ship_data_breakout[301823] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17164,7 +17298,7 @@ _G.pg.ship_data_breakout[301823] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301824] = {
+_G.pg.base.ship_data_breakout[301824] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17179,7 +17313,7 @@ _G.pg.ship_data_breakout[301824] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301831] = {
+_G.pg.base.ship_data_breakout[301831] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -17196,7 +17330,7 @@ _G.pg.ship_data_breakout[301831] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301832] = {
+_G.pg.base.ship_data_breakout[301832] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17214,7 +17348,7 @@ _G.pg.ship_data_breakout[301832] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301833] = {
+_G.pg.base.ship_data_breakout[301833] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17233,7 +17367,7 @@ _G.pg.ship_data_breakout[301833] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301834] = {
+_G.pg.base.ship_data_breakout[301834] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17248,7 +17382,7 @@ _G.pg.ship_data_breakout[301834] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301841] = {
+_G.pg.base.ship_data_breakout[301841] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -17265,7 +17399,7 @@ _G.pg.ship_data_breakout[301841] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301842] = {
+_G.pg.base.ship_data_breakout[301842] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -17283,7 +17417,7 @@ _G.pg.ship_data_breakout[301842] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301843] = {
+_G.pg.base.ship_data_breakout[301843] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17302,7 +17436,7 @@ _G.pg.ship_data_breakout[301843] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301844] = {
+_G.pg.base.ship_data_breakout[301844] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17317,7 +17451,7 @@ _G.pg.ship_data_breakout[301844] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301851] = {
+_G.pg.base.ship_data_breakout[301851] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -17334,7 +17468,7 @@ _G.pg.ship_data_breakout[301851] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301852] = {
+_G.pg.base.ship_data_breakout[301852] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17352,7 +17486,7 @@ _G.pg.ship_data_breakout[301852] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301853] = {
+_G.pg.base.ship_data_breakout[301853] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17371,7 +17505,7 @@ _G.pg.ship_data_breakout[301853] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301854] = {
+_G.pg.base.ship_data_breakout[301854] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17386,7 +17520,7 @@ _G.pg.ship_data_breakout[301854] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301871] = {
+_G.pg.base.ship_data_breakout[301871] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -17403,7 +17537,7 @@ _G.pg.ship_data_breakout[301871] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301872] = {
+_G.pg.base.ship_data_breakout[301872] = {
 	use_gold = 3000,
 	breakout_view = "魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17421,7 +17555,7 @@ _G.pg.ship_data_breakout[301872] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[301873] = {
+_G.pg.base.ship_data_breakout[301873] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17440,7 +17574,7 @@ _G.pg.ship_data_breakout[301873] = {
 	}
 }
 
-_G.pg.ship_data_breakout[301874] = {
+_G.pg.base.ship_data_breakout[301874] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17455,7 +17589,7 @@ _G.pg.ship_data_breakout[301874] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302011] = {
+_G.pg.base.ship_data_breakout[302011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -17472,7 +17606,7 @@ _G.pg.ship_data_breakout[302011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302012] = {
+_G.pg.base.ship_data_breakout[302012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17490,7 +17624,7 @@ _G.pg.ship_data_breakout[302012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302013] = {
+_G.pg.base.ship_data_breakout[302013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -17507,7 +17641,7 @@ _G.pg.ship_data_breakout[302013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302014] = {
+_G.pg.base.ship_data_breakout[302014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17522,7 +17656,7 @@ _G.pg.ship_data_breakout[302014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302041] = {
+_G.pg.base.ship_data_breakout[302041] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -17539,7 +17673,7 @@ _G.pg.ship_data_breakout[302041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302042] = {
+_G.pg.base.ship_data_breakout[302042] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17557,7 +17691,7 @@ _G.pg.ship_data_breakout[302042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302043] = {
+_G.pg.base.ship_data_breakout[302043] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -17574,7 +17708,7 @@ _G.pg.ship_data_breakout[302043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302044] = {
+_G.pg.base.ship_data_breakout[302044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17589,7 +17723,7 @@ _G.pg.ship_data_breakout[302044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302051] = {
+_G.pg.base.ship_data_breakout[302051] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -17606,7 +17740,7 @@ _G.pg.ship_data_breakout[302051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302052] = {
+_G.pg.base.ship_data_breakout[302052] = {
 	use_gold = 800,
 	breakout_view = "驅逐主炮可用/防空炮底座+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -17621,7 +17755,7 @@ _G.pg.ship_data_breakout[302052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302053] = {
+_G.pg.base.ship_data_breakout[302053] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -17638,7 +17772,7 @@ _G.pg.ship_data_breakout[302053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302054] = {
+_G.pg.base.ship_data_breakout[302054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17653,7 +17787,7 @@ _G.pg.ship_data_breakout[302054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302081] = {
+_G.pg.base.ship_data_breakout[302081] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -17670,7 +17804,7 @@ _G.pg.ship_data_breakout[302081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302082] = {
+_G.pg.base.ship_data_breakout[302082] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17688,7 +17822,7 @@ _G.pg.ship_data_breakout[302082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302083] = {
+_G.pg.base.ship_data_breakout[302083] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -17705,7 +17839,7 @@ _G.pg.ship_data_breakout[302083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302084] = {
+_G.pg.base.ship_data_breakout[302084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17720,7 +17854,7 @@ _G.pg.ship_data_breakout[302084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302091] = {
+_G.pg.base.ship_data_breakout[302091] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -17737,7 +17871,7 @@ _G.pg.ship_data_breakout[302091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302092] = {
+_G.pg.base.ship_data_breakout[302092] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17755,7 +17889,7 @@ _G.pg.ship_data_breakout[302092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302093] = {
+_G.pg.base.ship_data_breakout[302093] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -17772,7 +17906,7 @@ _G.pg.ship_data_breakout[302093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302094] = {
+_G.pg.base.ship_data_breakout[302094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17787,7 +17921,7 @@ _G.pg.ship_data_breakout[302094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302101] = {
+_G.pg.base.ship_data_breakout[302101] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -17804,7 +17938,7 @@ _G.pg.ship_data_breakout[302101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302102] = {
+_G.pg.base.ship_data_breakout[302102] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -17822,7 +17956,7 @@ _G.pg.ship_data_breakout[302102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302103] = {
+_G.pg.base.ship_data_breakout[302103] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -17839,7 +17973,7 @@ _G.pg.ship_data_breakout[302103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302104] = {
+_G.pg.base.ship_data_breakout[302104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17854,7 +17988,7 @@ _G.pg.ship_data_breakout[302104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302111] = {
+_G.pg.base.ship_data_breakout[302111] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -17871,7 +18005,7 @@ _G.pg.ship_data_breakout[302111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302112] = {
+_G.pg.base.ship_data_breakout[302112] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -17889,7 +18023,7 @@ _G.pg.ship_data_breakout[302112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302113] = {
+_G.pg.base.ship_data_breakout[302113] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -17906,7 +18040,7 @@ _G.pg.ship_data_breakout[302113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302114] = {
+_G.pg.base.ship_data_breakout[302114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17921,7 +18055,7 @@ _G.pg.ship_data_breakout[302114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302121] = {
+_G.pg.base.ship_data_breakout[302121] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -17938,7 +18072,7 @@ _G.pg.ship_data_breakout[302121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302122] = {
+_G.pg.base.ship_data_breakout[302122] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -17956,7 +18090,7 @@ _G.pg.ship_data_breakout[302122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302123] = {
+_G.pg.base.ship_data_breakout[302123] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -17973,7 +18107,7 @@ _G.pg.ship_data_breakout[302123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302124] = {
+_G.pg.base.ship_data_breakout[302124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -17988,7 +18122,7 @@ _G.pg.ship_data_breakout[302124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302131] = {
+_G.pg.base.ship_data_breakout[302131] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18005,7 +18139,7 @@ _G.pg.ship_data_breakout[302131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302132] = {
+_G.pg.base.ship_data_breakout[302132] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18023,7 +18157,7 @@ _G.pg.ship_data_breakout[302132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302133] = {
+_G.pg.base.ship_data_breakout[302133] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18040,7 +18174,7 @@ _G.pg.ship_data_breakout[302133] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302134] = {
+_G.pg.base.ship_data_breakout[302134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18055,7 +18189,7 @@ _G.pg.ship_data_breakout[302134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302141] = {
+_G.pg.base.ship_data_breakout[302141] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18072,7 +18206,7 @@ _G.pg.ship_data_breakout[302141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302142] = {
+_G.pg.base.ship_data_breakout[302142] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18090,7 +18224,7 @@ _G.pg.ship_data_breakout[302142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302143] = {
+_G.pg.base.ship_data_breakout[302143] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18107,7 +18241,7 @@ _G.pg.ship_data_breakout[302143] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302144] = {
+_G.pg.base.ship_data_breakout[302144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18122,7 +18256,7 @@ _G.pg.ship_data_breakout[302144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302201] = {
+_G.pg.base.ship_data_breakout[302201] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18139,7 +18273,7 @@ _G.pg.ship_data_breakout[302201] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302202] = {
+_G.pg.base.ship_data_breakout[302202] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18157,7 +18291,7 @@ _G.pg.ship_data_breakout[302202] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302203] = {
+_G.pg.base.ship_data_breakout[302203] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18174,7 +18308,7 @@ _G.pg.ship_data_breakout[302203] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302204] = {
+_G.pg.base.ship_data_breakout[302204] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18189,7 +18323,7 @@ _G.pg.ship_data_breakout[302204] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302211] = {
+_G.pg.base.ship_data_breakout[302211] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18206,7 +18340,7 @@ _G.pg.ship_data_breakout[302211] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302212] = {
+_G.pg.base.ship_data_breakout[302212] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18224,7 +18358,7 @@ _G.pg.ship_data_breakout[302212] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302213] = {
+_G.pg.base.ship_data_breakout[302213] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18241,7 +18375,7 @@ _G.pg.ship_data_breakout[302213] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[302214] = {
+_G.pg.base.ship_data_breakout[302214] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18256,7 +18390,7 @@ _G.pg.ship_data_breakout[302214] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303011] = {
+_G.pg.base.ship_data_breakout[303011] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18273,7 +18407,7 @@ _G.pg.ship_data_breakout[303011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303012] = {
+_G.pg.base.ship_data_breakout[303012] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18291,7 +18425,7 @@ _G.pg.ship_data_breakout[303012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303013] = {
+_G.pg.base.ship_data_breakout[303013] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18308,7 +18442,7 @@ _G.pg.ship_data_breakout[303013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303014] = {
+_G.pg.base.ship_data_breakout[303014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18323,7 +18457,7 @@ _G.pg.ship_data_breakout[303014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303021] = {
+_G.pg.base.ship_data_breakout[303021] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18340,7 +18474,7 @@ _G.pg.ship_data_breakout[303021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303022] = {
+_G.pg.base.ship_data_breakout[303022] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18358,7 +18492,7 @@ _G.pg.ship_data_breakout[303022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303023] = {
+_G.pg.base.ship_data_breakout[303023] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18375,7 +18509,7 @@ _G.pg.ship_data_breakout[303023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303024] = {
+_G.pg.base.ship_data_breakout[303024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18390,7 +18524,7 @@ _G.pg.ship_data_breakout[303024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303031] = {
+_G.pg.base.ship_data_breakout[303031] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18407,7 +18541,7 @@ _G.pg.ship_data_breakout[303031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303032] = {
+_G.pg.base.ship_data_breakout[303032] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18425,7 +18559,7 @@ _G.pg.ship_data_breakout[303032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303033] = {
+_G.pg.base.ship_data_breakout[303033] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18442,7 +18576,7 @@ _G.pg.ship_data_breakout[303033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303034] = {
+_G.pg.base.ship_data_breakout[303034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18457,7 +18591,7 @@ _G.pg.ship_data_breakout[303034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303041] = {
+_G.pg.base.ship_data_breakout[303041] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18474,7 +18608,7 @@ _G.pg.ship_data_breakout[303041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303042] = {
+_G.pg.base.ship_data_breakout[303042] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18492,7 +18626,7 @@ _G.pg.ship_data_breakout[303042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303043] = {
+_G.pg.base.ship_data_breakout[303043] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18509,7 +18643,7 @@ _G.pg.ship_data_breakout[303043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303044] = {
+_G.pg.base.ship_data_breakout[303044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18524,7 +18658,7 @@ _G.pg.ship_data_breakout[303044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303071] = {
+_G.pg.base.ship_data_breakout[303071] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18541,7 +18675,7 @@ _G.pg.ship_data_breakout[303071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303072] = {
+_G.pg.base.ship_data_breakout[303072] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18559,7 +18693,7 @@ _G.pg.ship_data_breakout[303072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303073] = {
+_G.pg.base.ship_data_breakout[303073] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18576,7 +18710,7 @@ _G.pg.ship_data_breakout[303073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303074] = {
+_G.pg.base.ship_data_breakout[303074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18591,7 +18725,7 @@ _G.pg.ship_data_breakout[303074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303081] = {
+_G.pg.base.ship_data_breakout[303081] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18608,7 +18742,7 @@ _G.pg.ship_data_breakout[303081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303082] = {
+_G.pg.base.ship_data_breakout[303082] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18626,7 +18760,7 @@ _G.pg.ship_data_breakout[303082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303083] = {
+_G.pg.base.ship_data_breakout[303083] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18643,7 +18777,7 @@ _G.pg.ship_data_breakout[303083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303084] = {
+_G.pg.base.ship_data_breakout[303084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18658,7 +18792,7 @@ _G.pg.ship_data_breakout[303084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303091] = {
+_G.pg.base.ship_data_breakout[303091] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18675,7 +18809,7 @@ _G.pg.ship_data_breakout[303091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303092] = {
+_G.pg.base.ship_data_breakout[303092] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18693,7 +18827,7 @@ _G.pg.ship_data_breakout[303092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303093] = {
+_G.pg.base.ship_data_breakout[303093] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18710,7 +18844,7 @@ _G.pg.ship_data_breakout[303093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303094] = {
+_G.pg.base.ship_data_breakout[303094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18725,7 +18859,7 @@ _G.pg.ship_data_breakout[303094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303111] = {
+_G.pg.base.ship_data_breakout[303111] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18742,7 +18876,7 @@ _G.pg.ship_data_breakout[303111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303112] = {
+_G.pg.base.ship_data_breakout[303112] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18760,7 +18894,7 @@ _G.pg.ship_data_breakout[303112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303113] = {
+_G.pg.base.ship_data_breakout[303113] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18777,7 +18911,7 @@ _G.pg.ship_data_breakout[303113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303114] = {
+_G.pg.base.ship_data_breakout[303114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18792,7 +18926,7 @@ _G.pg.ship_data_breakout[303114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303121] = {
+_G.pg.base.ship_data_breakout[303121] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18809,7 +18943,7 @@ _G.pg.ship_data_breakout[303121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303122] = {
+_G.pg.base.ship_data_breakout[303122] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -18827,7 +18961,7 @@ _G.pg.ship_data_breakout[303122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303123] = {
+_G.pg.base.ship_data_breakout[303123] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18844,7 +18978,7 @@ _G.pg.ship_data_breakout[303123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303124] = {
+_G.pg.base.ship_data_breakout[303124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18859,7 +18993,7 @@ _G.pg.ship_data_breakout[303124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303131] = {
+_G.pg.base.ship_data_breakout[303131] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -18876,7 +19010,7 @@ _G.pg.ship_data_breakout[303131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303132] = {
+_G.pg.base.ship_data_breakout[303132] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -18894,7 +19028,7 @@ _G.pg.ship_data_breakout[303132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303133] = {
+_G.pg.base.ship_data_breakout[303133] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -18911,7 +19045,7 @@ _G.pg.ship_data_breakout[303133] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303134] = {
+_G.pg.base.ship_data_breakout[303134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18926,7 +19060,7 @@ _G.pg.ship_data_breakout[303134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303141] = {
+_G.pg.base.ship_data_breakout[303141] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -18943,7 +19077,7 @@ _G.pg.ship_data_breakout[303141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303142] = {
+_G.pg.base.ship_data_breakout[303142] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -18961,7 +19095,7 @@ _G.pg.ship_data_breakout[303142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303143] = {
+_G.pg.base.ship_data_breakout[303143] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -18978,7 +19112,7 @@ _G.pg.ship_data_breakout[303143] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303144] = {
+_G.pg.base.ship_data_breakout[303144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -18993,7 +19127,7 @@ _G.pg.ship_data_breakout[303144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303151] = {
+_G.pg.base.ship_data_breakout[303151] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -19010,7 +19144,7 @@ _G.pg.ship_data_breakout[303151] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303152] = {
+_G.pg.base.ship_data_breakout[303152] = {
 	use_gold = 1500,
 	breakout_view = "魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -19028,7 +19162,7 @@ _G.pg.ship_data_breakout[303152] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303153] = {
+_G.pg.base.ship_data_breakout[303153] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -19045,7 +19179,7 @@ _G.pg.ship_data_breakout[303153] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303154] = {
+_G.pg.base.ship_data_breakout[303154] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19060,7 +19194,7 @@ _G.pg.ship_data_breakout[303154] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303171] = {
+_G.pg.base.ship_data_breakout[303171] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -19077,7 +19211,7 @@ _G.pg.ship_data_breakout[303171] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303172] = {
+_G.pg.base.ship_data_breakout[303172] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -19095,7 +19229,7 @@ _G.pg.ship_data_breakout[303172] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303173] = {
+_G.pg.base.ship_data_breakout[303173] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -19112,7 +19246,7 @@ _G.pg.ship_data_breakout[303173] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303174] = {
+_G.pg.base.ship_data_breakout[303174] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19127,7 +19261,7 @@ _G.pg.ship_data_breakout[303174] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303181] = {
+_G.pg.base.ship_data_breakout[303181] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -19144,7 +19278,7 @@ _G.pg.ship_data_breakout[303181] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303182] = {
+_G.pg.base.ship_data_breakout[303182] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/防空炮效率提高10%",
 	use_char_num = 1,
@@ -19162,7 +19296,7 @@ _G.pg.ship_data_breakout[303182] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303183] = {
+_G.pg.base.ship_data_breakout[303183] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -19179,7 +19313,7 @@ _G.pg.ship_data_breakout[303183] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[303184] = {
+_G.pg.base.ship_data_breakout[303184] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19194,7 +19328,7 @@ _G.pg.ship_data_breakout[303184] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304011] = {
+_G.pg.base.ship_data_breakout[304011] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19212,7 +19346,7 @@ _G.pg.ship_data_breakout[304011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304012] = {
+_G.pg.base.ship_data_breakout[304012] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19231,7 +19365,7 @@ _G.pg.ship_data_breakout[304012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304013] = {
+_G.pg.base.ship_data_breakout[304013] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19250,7 +19384,7 @@ _G.pg.ship_data_breakout[304013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304014] = {
+_G.pg.base.ship_data_breakout[304014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19265,7 +19399,7 @@ _G.pg.ship_data_breakout[304014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304021] = {
+_G.pg.base.ship_data_breakout[304021] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19283,7 +19417,7 @@ _G.pg.ship_data_breakout[304021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304022] = {
+_G.pg.base.ship_data_breakout[304022] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19302,7 +19436,7 @@ _G.pg.ship_data_breakout[304022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304023] = {
+_G.pg.base.ship_data_breakout[304023] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19321,7 +19455,7 @@ _G.pg.ship_data_breakout[304023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304024] = {
+_G.pg.base.ship_data_breakout[304024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19336,7 +19470,7 @@ _G.pg.ship_data_breakout[304024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304031] = {
+_G.pg.base.ship_data_breakout[304031] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19354,7 +19488,7 @@ _G.pg.ship_data_breakout[304031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304032] = {
+_G.pg.base.ship_data_breakout[304032] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19373,7 +19507,7 @@ _G.pg.ship_data_breakout[304032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304033] = {
+_G.pg.base.ship_data_breakout[304033] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19392,7 +19526,7 @@ _G.pg.ship_data_breakout[304033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304034] = {
+_G.pg.base.ship_data_breakout[304034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19407,7 +19541,7 @@ _G.pg.ship_data_breakout[304034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304041] = {
+_G.pg.base.ship_data_breakout[304041] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19425,7 +19559,7 @@ _G.pg.ship_data_breakout[304041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304042] = {
+_G.pg.base.ship_data_breakout[304042] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19444,7 +19578,7 @@ _G.pg.ship_data_breakout[304042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304043] = {
+_G.pg.base.ship_data_breakout[304043] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19463,7 +19597,7 @@ _G.pg.ship_data_breakout[304043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304044] = {
+_G.pg.base.ship_data_breakout[304044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19478,7 +19612,7 @@ _G.pg.ship_data_breakout[304044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304051] = {
+_G.pg.base.ship_data_breakout[304051] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19496,7 +19630,7 @@ _G.pg.ship_data_breakout[304051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304052] = {
+_G.pg.base.ship_data_breakout[304052] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19515,7 +19649,7 @@ _G.pg.ship_data_breakout[304052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304053] = {
+_G.pg.base.ship_data_breakout[304053] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19534,7 +19668,7 @@ _G.pg.ship_data_breakout[304053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304054] = {
+_G.pg.base.ship_data_breakout[304054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19549,7 +19683,7 @@ _G.pg.ship_data_breakout[304054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304061] = {
+_G.pg.base.ship_data_breakout[304061] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19567,7 +19701,7 @@ _G.pg.ship_data_breakout[304061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304062] = {
+_G.pg.base.ship_data_breakout[304062] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19586,7 +19720,7 @@ _G.pg.ship_data_breakout[304062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304063] = {
+_G.pg.base.ship_data_breakout[304063] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19605,7 +19739,7 @@ _G.pg.ship_data_breakout[304063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304064] = {
+_G.pg.base.ship_data_breakout[304064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19620,7 +19754,7 @@ _G.pg.ship_data_breakout[304064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304071] = {
+_G.pg.base.ship_data_breakout[304071] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19638,7 +19772,7 @@ _G.pg.ship_data_breakout[304071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304072] = {
+_G.pg.base.ship_data_breakout[304072] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19657,7 +19791,7 @@ _G.pg.ship_data_breakout[304072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304073] = {
+_G.pg.base.ship_data_breakout[304073] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19676,7 +19810,7 @@ _G.pg.ship_data_breakout[304073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[304074] = {
+_G.pg.base.ship_data_breakout[304074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19691,7 +19825,7 @@ _G.pg.ship_data_breakout[304074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305011] = {
+_G.pg.base.ship_data_breakout[305011] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19709,7 +19843,7 @@ _G.pg.ship_data_breakout[305011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305012] = {
+_G.pg.base.ship_data_breakout[305012] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19728,7 +19862,7 @@ _G.pg.ship_data_breakout[305012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305013] = {
+_G.pg.base.ship_data_breakout[305013] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19747,7 +19881,7 @@ _G.pg.ship_data_breakout[305013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305014] = {
+_G.pg.base.ship_data_breakout[305014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19762,7 +19896,7 @@ _G.pg.ship_data_breakout[305014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305021] = {
+_G.pg.base.ship_data_breakout[305021] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19780,7 +19914,7 @@ _G.pg.ship_data_breakout[305021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305022] = {
+_G.pg.base.ship_data_breakout[305022] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19799,7 +19933,7 @@ _G.pg.ship_data_breakout[305022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305023] = {
+_G.pg.base.ship_data_breakout[305023] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19818,7 +19952,7 @@ _G.pg.ship_data_breakout[305023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305024] = {
+_G.pg.base.ship_data_breakout[305024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19833,7 +19967,7 @@ _G.pg.ship_data_breakout[305024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305031] = {
+_G.pg.base.ship_data_breakout[305031] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19851,7 +19985,7 @@ _G.pg.ship_data_breakout[305031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305032] = {
+_G.pg.base.ship_data_breakout[305032] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19870,7 +20004,7 @@ _G.pg.ship_data_breakout[305032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305033] = {
+_G.pg.base.ship_data_breakout[305033] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19889,7 +20023,7 @@ _G.pg.ship_data_breakout[305033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305034] = {
+_G.pg.base.ship_data_breakout[305034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19904,7 +20038,7 @@ _G.pg.ship_data_breakout[305034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305041] = {
+_G.pg.base.ship_data_breakout[305041] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19922,7 +20056,7 @@ _G.pg.ship_data_breakout[305041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305042] = {
+_G.pg.base.ship_data_breakout[305042] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -19941,7 +20075,7 @@ _G.pg.ship_data_breakout[305042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305043] = {
+_G.pg.base.ship_data_breakout[305043] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -19960,7 +20094,7 @@ _G.pg.ship_data_breakout[305043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305044] = {
+_G.pg.base.ship_data_breakout[305044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -19975,7 +20109,7 @@ _G.pg.ship_data_breakout[305044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305051] = {
+_G.pg.base.ship_data_breakout[305051] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -19993,7 +20127,7 @@ _G.pg.ship_data_breakout[305051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305052] = {
+_G.pg.base.ship_data_breakout[305052] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -20012,7 +20146,7 @@ _G.pg.ship_data_breakout[305052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305053] = {
+_G.pg.base.ship_data_breakout[305053] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -20031,7 +20165,7 @@ _G.pg.ship_data_breakout[305053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305054] = {
+_G.pg.base.ship_data_breakout[305054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20046,7 +20180,7 @@ _G.pg.ship_data_breakout[305054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305061] = {
+_G.pg.base.ship_data_breakout[305061] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -20064,7 +20198,7 @@ _G.pg.ship_data_breakout[305061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305062] = {
+_G.pg.base.ship_data_breakout[305062] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -20083,7 +20217,7 @@ _G.pg.ship_data_breakout[305062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305063] = {
+_G.pg.base.ship_data_breakout[305063] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -20102,7 +20236,7 @@ _G.pg.ship_data_breakout[305063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305064] = {
+_G.pg.base.ship_data_breakout[305064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20117,7 +20251,7 @@ _G.pg.ship_data_breakout[305064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305071] = {
+_G.pg.base.ship_data_breakout[305071] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -20135,7 +20269,7 @@ _G.pg.ship_data_breakout[305071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305072] = {
+_G.pg.base.ship_data_breakout[305072] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -20154,7 +20288,7 @@ _G.pg.ship_data_breakout[305072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305073] = {
+_G.pg.base.ship_data_breakout[305073] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -20173,7 +20307,7 @@ _G.pg.ship_data_breakout[305073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305074] = {
+_G.pg.base.ship_data_breakout[305074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20188,7 +20322,7 @@ _G.pg.ship_data_breakout[305074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305081] = {
+_G.pg.base.ship_data_breakout[305081] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -20206,7 +20340,7 @@ _G.pg.ship_data_breakout[305081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305082] = {
+_G.pg.base.ship_data_breakout[305082] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -20225,7 +20359,7 @@ _G.pg.ship_data_breakout[305082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305083] = {
+_G.pg.base.ship_data_breakout[305083] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -20244,7 +20378,7 @@ _G.pg.ship_data_breakout[305083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305084] = {
+_G.pg.base.ship_data_breakout[305084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20259,7 +20393,7 @@ _G.pg.ship_data_breakout[305084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305111] = {
+_G.pg.base.ship_data_breakout[305111] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -20277,7 +20411,7 @@ _G.pg.ship_data_breakout[305111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305112] = {
+_G.pg.base.ship_data_breakout[305112] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -20297,7 +20431,7 @@ _G.pg.ship_data_breakout[305112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305113] = {
+_G.pg.base.ship_data_breakout[305113] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -20316,7 +20450,7 @@ _G.pg.ship_data_breakout[305113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305114] = {
+_G.pg.base.ship_data_breakout[305114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20331,7 +20465,7 @@ _G.pg.ship_data_breakout[305114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305121] = {
+_G.pg.base.ship_data_breakout[305121] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -20349,7 +20483,7 @@ _G.pg.ship_data_breakout[305121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305122] = {
+_G.pg.base.ship_data_breakout[305122] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -20368,7 +20502,7 @@ _G.pg.ship_data_breakout[305122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305123] = {
+_G.pg.base.ship_data_breakout[305123] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -20387,7 +20521,7 @@ _G.pg.ship_data_breakout[305123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305124] = {
+_G.pg.base.ship_data_breakout[305124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20402,7 +20536,7 @@ _G.pg.ship_data_breakout[305124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305141] = {
+_G.pg.base.ship_data_breakout[305141] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -20420,7 +20554,7 @@ _G.pg.ship_data_breakout[305141] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305142] = {
+_G.pg.base.ship_data_breakout[305142] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -20439,7 +20573,7 @@ _G.pg.ship_data_breakout[305142] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305143] = {
+_G.pg.base.ship_data_breakout[305143] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -20458,7 +20592,7 @@ _G.pg.ship_data_breakout[305143] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[305144] = {
+_G.pg.base.ship_data_breakout[305144] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20473,7 +20607,7 @@ _G.pg.ship_data_breakout[305144] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306011] = {
+_G.pg.base.ship_data_breakout[306011] = {
 	use_gold = 300,
 	breakout_view = "所有魚雷機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -20491,7 +20625,7 @@ _G.pg.ship_data_breakout[306011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306012] = {
+_G.pg.base.ship_data_breakout[306012] = {
 	use_gold = 800,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -20511,7 +20645,7 @@ _G.pg.ship_data_breakout[306012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306013] = {
+_G.pg.base.ship_data_breakout[306013] = {
 	use_gold = 1500,
 	breakout_view = "所有轟炸機+2/艦載機效率提高7%",
 	use_char_num = 2,
@@ -20531,7 +20665,7 @@ _G.pg.ship_data_breakout[306013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306014] = {
+_G.pg.base.ship_data_breakout[306014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20546,7 +20680,7 @@ _G.pg.ship_data_breakout[306014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306021] = {
+_G.pg.base.ship_data_breakout[306021] = {
 	use_gold = 300,
 	breakout_view = "所有轟炸機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -20564,7 +20698,7 @@ _G.pg.ship_data_breakout[306021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306022] = {
+_G.pg.base.ship_data_breakout[306022] = {
 	use_gold = 800,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -20584,7 +20718,7 @@ _G.pg.ship_data_breakout[306022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306023] = {
+_G.pg.base.ship_data_breakout[306023] = {
 	use_gold = 1500,
 	breakout_view = "所有魚雷機+2/艦載機效率提高7%",
 	use_char_num = 2,
@@ -20604,7 +20738,7 @@ _G.pg.ship_data_breakout[306023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306024] = {
+_G.pg.base.ship_data_breakout[306024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20619,7 +20753,7 @@ _G.pg.ship_data_breakout[306024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306031] = {
+_G.pg.base.ship_data_breakout[306031] = {
 	use_gold = 500,
 	breakout_view = "所有戰鬥機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -20637,7 +20771,7 @@ _G.pg.ship_data_breakout[306031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306032] = {
+_G.pg.base.ship_data_breakout[306032] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -20657,7 +20791,7 @@ _G.pg.ship_data_breakout[306032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306033] = {
+_G.pg.base.ship_data_breakout[306033] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -20677,7 +20811,7 @@ _G.pg.ship_data_breakout[306033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306034] = {
+_G.pg.base.ship_data_breakout[306034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20692,7 +20826,7 @@ _G.pg.ship_data_breakout[306034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306051] = {
+_G.pg.base.ship_data_breakout[306051] = {
 	use_gold = 300,
 	breakout_view = "所有魚雷機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -20710,7 +20844,7 @@ _G.pg.ship_data_breakout[306051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306052] = {
+_G.pg.base.ship_data_breakout[306052] = {
 	use_gold = 800,
 	breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -20730,7 +20864,7 @@ _G.pg.ship_data_breakout[306052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306053] = {
+_G.pg.base.ship_data_breakout[306053] = {
 	use_gold = 1500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -20750,7 +20884,7 @@ _G.pg.ship_data_breakout[306053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306054] = {
+_G.pg.base.ship_data_breakout[306054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20765,7 +20899,7 @@ _G.pg.ship_data_breakout[306054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306061] = {
+_G.pg.base.ship_data_breakout[306061] = {
 	use_gold = 500,
 	breakout_view = "所有魚雷機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -20783,7 +20917,7 @@ _G.pg.ship_data_breakout[306061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306062] = {
+_G.pg.base.ship_data_breakout[306062] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -20803,7 +20937,7 @@ _G.pg.ship_data_breakout[306062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306063] = {
+_G.pg.base.ship_data_breakout[306063] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高10%",
 	use_char_num = 2,
@@ -20823,7 +20957,7 @@ _G.pg.ship_data_breakout[306063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306064] = {
+_G.pg.base.ship_data_breakout[306064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20838,7 +20972,7 @@ _G.pg.ship_data_breakout[306064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306071] = {
+_G.pg.base.ship_data_breakout[306071] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -20856,7 +20990,7 @@ _G.pg.ship_data_breakout[306071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306072] = {
+_G.pg.base.ship_data_breakout[306072] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -20876,7 +21010,7 @@ _G.pg.ship_data_breakout[306072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306073] = {
+_G.pg.base.ship_data_breakout[306073] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/魚雷機效率提高10%",
 	use_char_num = 2,
@@ -20896,7 +21030,7 @@ _G.pg.ship_data_breakout[306073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306074] = {
+_G.pg.base.ship_data_breakout[306074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20911,7 +21045,7 @@ _G.pg.ship_data_breakout[306074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306081] = {
+_G.pg.base.ship_data_breakout[306081] = {
 	use_gold = 500,
 	breakout_view = "所有魚雷機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -20929,7 +21063,7 @@ _G.pg.ship_data_breakout[306081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306082] = {
+_G.pg.base.ship_data_breakout[306082] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -20949,7 +21083,7 @@ _G.pg.ship_data_breakout[306082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306083] = {
+_G.pg.base.ship_data_breakout[306083] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高10%",
 	use_char_num = 2,
@@ -20969,7 +21103,7 @@ _G.pg.ship_data_breakout[306083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306084] = {
+_G.pg.base.ship_data_breakout[306084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -20984,7 +21118,7 @@ _G.pg.ship_data_breakout[306084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306091] = {
+_G.pg.base.ship_data_breakout[306091] = {
 	use_gold = 500,
 	breakout_view = "所有魚雷機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -21002,7 +21136,7 @@ _G.pg.ship_data_breakout[306091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306092] = {
+_G.pg.base.ship_data_breakout[306092] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -21022,7 +21156,7 @@ _G.pg.ship_data_breakout[306092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306093] = {
+_G.pg.base.ship_data_breakout[306093] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高10%",
 	use_char_num = 2,
@@ -21042,7 +21176,7 @@ _G.pg.ship_data_breakout[306093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[306094] = {
+_G.pg.base.ship_data_breakout[306094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21057,7 +21191,7 @@ _G.pg.ship_data_breakout[306094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307011] = {
+_G.pg.base.ship_data_breakout[307011] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -21075,7 +21209,7 @@ _G.pg.ship_data_breakout[307011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307012] = {
+_G.pg.base.ship_data_breakout[307012] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -21095,7 +21229,7 @@ _G.pg.ship_data_breakout[307012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307013] = {
+_G.pg.base.ship_data_breakout[307013] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -21115,7 +21249,7 @@ _G.pg.ship_data_breakout[307013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307014] = {
+_G.pg.base.ship_data_breakout[307014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21130,7 +21264,7 @@ _G.pg.ship_data_breakout[307014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307021] = {
+_G.pg.base.ship_data_breakout[307021] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -21148,7 +21282,7 @@ _G.pg.ship_data_breakout[307021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307022] = {
+_G.pg.base.ship_data_breakout[307022] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/魚雷機效率提高10%",
 	use_char_num = 1,
@@ -21168,7 +21302,7 @@ _G.pg.ship_data_breakout[307022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307023] = {
+_G.pg.base.ship_data_breakout[307023] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -21188,7 +21322,7 @@ _G.pg.ship_data_breakout[307023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307024] = {
+_G.pg.base.ship_data_breakout[307024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21203,7 +21337,7 @@ _G.pg.ship_data_breakout[307024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307031] = {
+_G.pg.base.ship_data_breakout[307031] = {
 	use_gold = 500,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高5%",
 	use_char_num = 1,
@@ -21221,7 +21355,7 @@ _G.pg.ship_data_breakout[307031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307032] = {
+_G.pg.base.ship_data_breakout[307032] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/轟炸機效率提高10%",
 	use_char_num = 1,
@@ -21241,7 +21375,7 @@ _G.pg.ship_data_breakout[307032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307033] = {
+_G.pg.base.ship_data_breakout[307033] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/轟炸機效率提高15%",
 	use_char_num = 2,
@@ -21261,7 +21395,7 @@ _G.pg.ship_data_breakout[307033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307034] = {
+_G.pg.base.ship_data_breakout[307034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21276,7 +21410,7 @@ _G.pg.ship_data_breakout[307034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307041] = {
+_G.pg.base.ship_data_breakout[307041] = {
 	use_gold = 500,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -21294,7 +21428,7 @@ _G.pg.ship_data_breakout[307041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307042] = {
+_G.pg.base.ship_data_breakout[307042] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/魚雷機效率提高10%",
 	use_char_num = 1,
@@ -21314,7 +21448,7 @@ _G.pg.ship_data_breakout[307042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307043] = {
+_G.pg.base.ship_data_breakout[307043] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -21334,7 +21468,7 @@ _G.pg.ship_data_breakout[307043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307044] = {
+_G.pg.base.ship_data_breakout[307044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21349,7 +21483,7 @@ _G.pg.ship_data_breakout[307044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307051] = {
+_G.pg.base.ship_data_breakout[307051] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -21367,7 +21501,7 @@ _G.pg.ship_data_breakout[307051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307052] = {
+_G.pg.base.ship_data_breakout[307052] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有魚雷機+1/魚雷機效率提高10%",
 	use_char_num = 1,
@@ -21387,7 +21521,7 @@ _G.pg.ship_data_breakout[307052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307053] = {
+_G.pg.base.ship_data_breakout[307053] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -21407,7 +21541,7 @@ _G.pg.ship_data_breakout[307053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307054] = {
+_G.pg.base.ship_data_breakout[307054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21422,7 +21556,7 @@ _G.pg.ship_data_breakout[307054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307061] = {
+_G.pg.base.ship_data_breakout[307061] = {
 	use_gold = 1000,
 	breakout_view = "所有轟炸機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -21440,7 +21574,7 @@ _G.pg.ship_data_breakout[307061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307062] = {
+_G.pg.base.ship_data_breakout[307062] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有魚雷機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -21460,7 +21594,7 @@ _G.pg.ship_data_breakout[307062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307063] = {
+_G.pg.base.ship_data_breakout[307063] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -21480,7 +21614,7 @@ _G.pg.ship_data_breakout[307063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307064] = {
+_G.pg.base.ship_data_breakout[307064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21495,7 +21629,7 @@ _G.pg.ship_data_breakout[307064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307071] = {
+_G.pg.base.ship_data_breakout[307071] = {
 	use_gold = 1000,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高5%",
 	use_char_num = 1,
@@ -21513,7 +21647,7 @@ _G.pg.ship_data_breakout[307071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307072] = {
+_G.pg.base.ship_data_breakout[307072] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -21533,7 +21667,7 @@ _G.pg.ship_data_breakout[307072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307073] = {
+_G.pg.base.ship_data_breakout[307073] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -21553,7 +21687,7 @@ _G.pg.ship_data_breakout[307073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307074] = {
+_G.pg.base.ship_data_breakout[307074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21568,7 +21702,7 @@ _G.pg.ship_data_breakout[307074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307081] = {
+_G.pg.base.ship_data_breakout[307081] = {
 	use_gold = 1500,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高5%/戰鬥機欄位可以裝備任意類型艦載機",
 	use_char_num = 1,
@@ -21586,7 +21720,7 @@ _G.pg.ship_data_breakout[307081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307082] = {
+_G.pg.base.ship_data_breakout[307082] = {
 	use_gold = 4500,
 	breakout_view = "機庫容量+1/所有魚雷機+2/魚雷機效率提高10%",
 	use_char_num = 1,
@@ -21606,7 +21740,7 @@ _G.pg.ship_data_breakout[307082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307083] = {
+_G.pg.base.ship_data_breakout[307083] = {
 	use_gold = 20000,
 	breakout_view = "所有艦載機+1/艦載機效率提高5%",
 	use_char_num = 2,
@@ -21626,7 +21760,7 @@ _G.pg.ship_data_breakout[307083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307084] = {
+_G.pg.base.ship_data_breakout[307084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21641,7 +21775,7 @@ _G.pg.ship_data_breakout[307084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307091] = {
+_G.pg.base.ship_data_breakout[307091] = {
 	use_gold = 500,
 	breakout_view = "所有魚雷機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -21659,7 +21793,7 @@ _G.pg.ship_data_breakout[307091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307092] = {
+_G.pg.base.ship_data_breakout[307092] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -21679,7 +21813,7 @@ _G.pg.ship_data_breakout[307092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307093] = {
+_G.pg.base.ship_data_breakout[307093] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -21699,7 +21833,7 @@ _G.pg.ship_data_breakout[307093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307094] = {
+_G.pg.base.ship_data_breakout[307094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21714,7 +21848,7 @@ _G.pg.ship_data_breakout[307094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307101] = {
+_G.pg.base.ship_data_breakout[307101] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -21732,7 +21866,7 @@ _G.pg.ship_data_breakout[307101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307102] = {
+_G.pg.base.ship_data_breakout[307102] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -21752,7 +21886,7 @@ _G.pg.ship_data_breakout[307102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307103] = {
+_G.pg.base.ship_data_breakout[307103] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -21772,7 +21906,7 @@ _G.pg.ship_data_breakout[307103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[307104] = {
+_G.pg.base.ship_data_breakout[307104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21787,7 +21921,7 @@ _G.pg.ship_data_breakout[307104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308011] = {
+_G.pg.base.ship_data_breakout[308011] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -21804,7 +21938,7 @@ _G.pg.ship_data_breakout[308011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308012] = {
+_G.pg.base.ship_data_breakout[308012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -21824,7 +21958,7 @@ _G.pg.ship_data_breakout[308012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308013] = {
+_G.pg.base.ship_data_breakout[308013] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -21841,7 +21975,7 @@ _G.pg.ship_data_breakout[308013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308014] = {
+_G.pg.base.ship_data_breakout[308014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21856,7 +21990,7 @@ _G.pg.ship_data_breakout[308014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308021] = {
+_G.pg.base.ship_data_breakout[308021] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -21873,7 +22007,7 @@ _G.pg.ship_data_breakout[308021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308022] = {
+_G.pg.base.ship_data_breakout[308022] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -21893,7 +22027,7 @@ _G.pg.ship_data_breakout[308022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308023] = {
+_G.pg.base.ship_data_breakout[308023] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -21910,7 +22044,7 @@ _G.pg.ship_data_breakout[308023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308024] = {
+_G.pg.base.ship_data_breakout[308024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21925,7 +22059,7 @@ _G.pg.ship_data_breakout[308024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308031] = {
+_G.pg.base.ship_data_breakout[308031] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -21942,7 +22076,7 @@ _G.pg.ship_data_breakout[308031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308032] = {
+_G.pg.base.ship_data_breakout[308032] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -21962,7 +22096,7 @@ _G.pg.ship_data_breakout[308032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308033] = {
+_G.pg.base.ship_data_breakout[308033] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -21979,7 +22113,7 @@ _G.pg.ship_data_breakout[308033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308034] = {
+_G.pg.base.ship_data_breakout[308034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -21994,7 +22128,7 @@ _G.pg.ship_data_breakout[308034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308041] = {
+_G.pg.base.ship_data_breakout[308041] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22011,7 +22145,7 @@ _G.pg.ship_data_breakout[308041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308042] = {
+_G.pg.base.ship_data_breakout[308042] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -22031,7 +22165,7 @@ _G.pg.ship_data_breakout[308042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308043] = {
+_G.pg.base.ship_data_breakout[308043] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -22048,7 +22182,7 @@ _G.pg.ship_data_breakout[308043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308044] = {
+_G.pg.base.ship_data_breakout[308044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22063,7 +22197,7 @@ _G.pg.ship_data_breakout[308044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308051] = {
+_G.pg.base.ship_data_breakout[308051] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22080,7 +22214,7 @@ _G.pg.ship_data_breakout[308051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308052] = {
+_G.pg.base.ship_data_breakout[308052] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -22100,7 +22234,7 @@ _G.pg.ship_data_breakout[308052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308053] = {
+_G.pg.base.ship_data_breakout[308053] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -22117,7 +22251,7 @@ _G.pg.ship_data_breakout[308053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308054] = {
+_G.pg.base.ship_data_breakout[308054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22132,7 +22266,7 @@ _G.pg.ship_data_breakout[308054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308061] = {
+_G.pg.base.ship_data_breakout[308061] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22149,7 +22283,7 @@ _G.pg.ship_data_breakout[308061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308062] = {
+_G.pg.base.ship_data_breakout[308062] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -22169,7 +22303,7 @@ _G.pg.ship_data_breakout[308062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308063] = {
+_G.pg.base.ship_data_breakout[308063] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -22186,7 +22320,7 @@ _G.pg.ship_data_breakout[308063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[308064] = {
+_G.pg.base.ship_data_breakout[308064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22201,7 +22335,7 @@ _G.pg.ship_data_breakout[308064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310011] = {
+_G.pg.base.ship_data_breakout[310011] = {
 	use_gold = 300,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -22218,7 +22352,7 @@ _G.pg.ship_data_breakout[310011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310012] = {
+_G.pg.base.ship_data_breakout[310012] = {
 	use_gold = 800,
 	breakout_view = "副武器底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -22237,7 +22371,7 @@ _G.pg.ship_data_breakout[310012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310013] = {
+_G.pg.base.ship_data_breakout[310013] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -22255,7 +22389,7 @@ _G.pg.ship_data_breakout[310013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310014] = {
+_G.pg.base.ship_data_breakout[310014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22270,7 +22404,7 @@ _G.pg.ship_data_breakout[310014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310021] = {
+_G.pg.base.ship_data_breakout[310021] = {
 	use_gold = 300,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -22287,7 +22421,7 @@ _G.pg.ship_data_breakout[310021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310022] = {
+_G.pg.base.ship_data_breakout[310022] = {
 	use_gold = 800,
 	breakout_view = "副武器底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -22306,7 +22440,7 @@ _G.pg.ship_data_breakout[310022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310023] = {
+_G.pg.base.ship_data_breakout[310023] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -22324,7 +22458,7 @@ _G.pg.ship_data_breakout[310023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310024] = {
+_G.pg.base.ship_data_breakout[310024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22339,7 +22473,7 @@ _G.pg.ship_data_breakout[310024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310031] = {
+_G.pg.base.ship_data_breakout[310031] = {
 	use_gold = 300,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -22356,7 +22490,7 @@ _G.pg.ship_data_breakout[310031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310032] = {
+_G.pg.base.ship_data_breakout[310032] = {
 	use_gold = 800,
 	breakout_view = "副武器底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -22375,7 +22509,7 @@ _G.pg.ship_data_breakout[310032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310033] = {
+_G.pg.base.ship_data_breakout[310033] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -22393,7 +22527,7 @@ _G.pg.ship_data_breakout[310033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310034] = {
+_G.pg.base.ship_data_breakout[310034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22408,7 +22542,7 @@ _G.pg.ship_data_breakout[310034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310041] = {
+_G.pg.base.ship_data_breakout[310041] = {
 	use_gold = 300,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -22425,7 +22559,7 @@ _G.pg.ship_data_breakout[310041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310042] = {
+_G.pg.base.ship_data_breakout[310042] = {
 	use_gold = 800,
 	breakout_view = "副武器底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -22444,7 +22578,7 @@ _G.pg.ship_data_breakout[310042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310043] = {
+_G.pg.base.ship_data_breakout[310043] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -22462,7 +22596,7 @@ _G.pg.ship_data_breakout[310043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[310044] = {
+_G.pg.base.ship_data_breakout[310044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22477,7 +22611,7 @@ _G.pg.ship_data_breakout[310044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[312011] = {
+_G.pg.base.ship_data_breakout[312011] = {
 	use_gold = 1000,
 	breakout_view = "團隊策略-緊急維修次數+1/防空炮效率提高3%",
 	use_char_num = 1,
@@ -22492,7 +22626,7 @@ _G.pg.ship_data_breakout[312011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[312012] = {
+_G.pg.base.ship_data_breakout[312012] = {
 	use_gold = 3000,
 	breakout_view = "隊伍攜帶彈藥量+1/防空炮底座+1/防空炮效率提高5%",
 	use_char_num = 1,
@@ -22507,7 +22641,7 @@ _G.pg.ship_data_breakout[312012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[312013] = {
+_G.pg.base.ship_data_breakout[312013] = {
 	use_gold = 10000,
 	breakout_view = "團隊策略-緊急維修次數+1/防空炮效率提高7%",
 	use_char_num = 2,
@@ -22522,7 +22656,7 @@ _G.pg.ship_data_breakout[312013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[312014] = {
+_G.pg.base.ship_data_breakout[312014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22537,7 +22671,7 @@ _G.pg.ship_data_breakout[312014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[317011] = {
+_G.pg.base.ship_data_breakout[317011] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22554,7 +22688,7 @@ _G.pg.ship_data_breakout[317011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[317012] = {
+_G.pg.base.ship_data_breakout[317012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/水上機底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -22574,7 +22708,7 @@ _G.pg.ship_data_breakout[317012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[317013] = {
+_G.pg.base.ship_data_breakout[317013] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -22591,7 +22725,7 @@ _G.pg.ship_data_breakout[317013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[317014] = {
+_G.pg.base.ship_data_breakout[317014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22606,7 +22740,7 @@ _G.pg.ship_data_breakout[317014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[319011] = {
+_G.pg.base.ship_data_breakout[319011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -22623,7 +22757,7 @@ _G.pg.ship_data_breakout[319011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[319012] = {
+_G.pg.base.ship_data_breakout[319012] = {
 	use_gold = 1500,
 	breakout_view = "防空炮效率提高10%",
 	use_char_num = 1,
@@ -22640,7 +22774,7 @@ _G.pg.ship_data_breakout[319012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[319013] = {
+_G.pg.base.ship_data_breakout[319013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -22657,7 +22791,7 @@ _G.pg.ship_data_breakout[319013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[319014] = {
+_G.pg.base.ship_data_breakout[319014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22672,7 +22806,7 @@ _G.pg.ship_data_breakout[319014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401011] = {
+_G.pg.base.ship_data_breakout[401011] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22689,7 +22823,7 @@ _G.pg.ship_data_breakout[401011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401012] = {
+_G.pg.base.ship_data_breakout[401012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -22707,7 +22841,7 @@ _G.pg.ship_data_breakout[401012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401013] = {
+_G.pg.base.ship_data_breakout[401013] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -22726,7 +22860,7 @@ _G.pg.ship_data_breakout[401013] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401014] = {
+_G.pg.base.ship_data_breakout[401014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22741,7 +22875,7 @@ _G.pg.ship_data_breakout[401014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401021] = {
+_G.pg.base.ship_data_breakout[401021] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22758,7 +22892,7 @@ _G.pg.ship_data_breakout[401021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401022] = {
+_G.pg.base.ship_data_breakout[401022] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -22776,7 +22910,7 @@ _G.pg.ship_data_breakout[401022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401023] = {
+_G.pg.base.ship_data_breakout[401023] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -22795,7 +22929,7 @@ _G.pg.ship_data_breakout[401023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401024] = {
+_G.pg.base.ship_data_breakout[401024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22810,7 +22944,7 @@ _G.pg.ship_data_breakout[401024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401181] = {
+_G.pg.base.ship_data_breakout[401181] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22827,7 +22961,7 @@ _G.pg.ship_data_breakout[401181] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401182] = {
+_G.pg.base.ship_data_breakout[401182] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -22845,7 +22979,7 @@ _G.pg.ship_data_breakout[401182] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401183] = {
+_G.pg.base.ship_data_breakout[401183] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -22864,7 +22998,7 @@ _G.pg.ship_data_breakout[401183] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401184] = {
+_G.pg.base.ship_data_breakout[401184] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22879,7 +23013,7 @@ _G.pg.ship_data_breakout[401184] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401191] = {
+_G.pg.base.ship_data_breakout[401191] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22896,7 +23030,7 @@ _G.pg.ship_data_breakout[401191] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401192] = {
+_G.pg.base.ship_data_breakout[401192] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -22914,7 +23048,7 @@ _G.pg.ship_data_breakout[401192] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401193] = {
+_G.pg.base.ship_data_breakout[401193] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -22933,7 +23067,7 @@ _G.pg.ship_data_breakout[401193] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401194] = {
+_G.pg.base.ship_data_breakout[401194] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -22948,7 +23082,7 @@ _G.pg.ship_data_breakout[401194] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401201] = {
+_G.pg.base.ship_data_breakout[401201] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -22965,7 +23099,7 @@ _G.pg.ship_data_breakout[401201] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401202] = {
+_G.pg.base.ship_data_breakout[401202] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -22983,7 +23117,7 @@ _G.pg.ship_data_breakout[401202] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401203] = {
+_G.pg.base.ship_data_breakout[401203] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23002,7 +23136,7 @@ _G.pg.ship_data_breakout[401203] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401204] = {
+_G.pg.base.ship_data_breakout[401204] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23017,7 +23151,7 @@ _G.pg.ship_data_breakout[401204] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401211] = {
+_G.pg.base.ship_data_breakout[401211] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -23034,7 +23168,7 @@ _G.pg.ship_data_breakout[401211] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401212] = {
+_G.pg.base.ship_data_breakout[401212] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -23052,7 +23186,7 @@ _G.pg.ship_data_breakout[401212] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401213] = {
+_G.pg.base.ship_data_breakout[401213] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23071,7 +23205,7 @@ _G.pg.ship_data_breakout[401213] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401214] = {
+_G.pg.base.ship_data_breakout[401214] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23086,7 +23220,7 @@ _G.pg.ship_data_breakout[401214] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401231] = {
+_G.pg.base.ship_data_breakout[401231] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -23103,7 +23237,7 @@ _G.pg.ship_data_breakout[401231] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401232] = {
+_G.pg.base.ship_data_breakout[401232] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -23121,7 +23255,7 @@ _G.pg.ship_data_breakout[401232] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401233] = {
+_G.pg.base.ship_data_breakout[401233] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23140,7 +23274,7 @@ _G.pg.ship_data_breakout[401233] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401234] = {
+_G.pg.base.ship_data_breakout[401234] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23155,7 +23289,7 @@ _G.pg.ship_data_breakout[401234] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401241] = {
+_G.pg.base.ship_data_breakout[401241] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -23172,7 +23306,7 @@ _G.pg.ship_data_breakout[401241] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401242] = {
+_G.pg.base.ship_data_breakout[401242] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -23190,7 +23324,7 @@ _G.pg.ship_data_breakout[401242] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401243] = {
+_G.pg.base.ship_data_breakout[401243] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23209,7 +23343,7 @@ _G.pg.ship_data_breakout[401243] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401244] = {
+_G.pg.base.ship_data_breakout[401244] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23224,7 +23358,7 @@ _G.pg.ship_data_breakout[401244] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401251] = {
+_G.pg.base.ship_data_breakout[401251] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -23241,7 +23375,7 @@ _G.pg.ship_data_breakout[401251] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401252] = {
+_G.pg.base.ship_data_breakout[401252] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -23259,7 +23393,7 @@ _G.pg.ship_data_breakout[401252] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401253] = {
+_G.pg.base.ship_data_breakout[401253] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23278,7 +23412,7 @@ _G.pg.ship_data_breakout[401253] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401254] = {
+_G.pg.base.ship_data_breakout[401254] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23293,7 +23427,7 @@ _G.pg.ship_data_breakout[401254] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401281] = {
+_G.pg.base.ship_data_breakout[401281] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -23310,7 +23444,7 @@ _G.pg.ship_data_breakout[401281] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401282] = {
+_G.pg.base.ship_data_breakout[401282] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -23328,7 +23462,7 @@ _G.pg.ship_data_breakout[401282] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401283] = {
+_G.pg.base.ship_data_breakout[401283] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23347,7 +23481,7 @@ _G.pg.ship_data_breakout[401283] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401284] = {
+_G.pg.base.ship_data_breakout[401284] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23362,7 +23496,7 @@ _G.pg.ship_data_breakout[401284] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401351] = {
+_G.pg.base.ship_data_breakout[401351] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -23379,7 +23513,7 @@ _G.pg.ship_data_breakout[401351] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401352] = {
+_G.pg.base.ship_data_breakout[401352] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -23397,7 +23531,7 @@ _G.pg.ship_data_breakout[401352] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401353] = {
+_G.pg.base.ship_data_breakout[401353] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23416,7 +23550,7 @@ _G.pg.ship_data_breakout[401353] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401354] = {
+_G.pg.base.ship_data_breakout[401354] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23431,7 +23565,7 @@ _G.pg.ship_data_breakout[401354] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401361] = {
+_G.pg.base.ship_data_breakout[401361] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -23448,7 +23582,7 @@ _G.pg.ship_data_breakout[401361] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401362] = {
+_G.pg.base.ship_data_breakout[401362] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -23466,7 +23600,7 @@ _G.pg.ship_data_breakout[401362] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401363] = {
+_G.pg.base.ship_data_breakout[401363] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23485,7 +23619,7 @@ _G.pg.ship_data_breakout[401363] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401364] = {
+_G.pg.base.ship_data_breakout[401364] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23500,7 +23634,7 @@ _G.pg.ship_data_breakout[401364] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401461] = {
+_G.pg.base.ship_data_breakout[401461] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/防空炮效率提高5%",
 	use_char_num = 1,
@@ -23517,7 +23651,7 @@ _G.pg.ship_data_breakout[401461] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401462] = {
+_G.pg.base.ship_data_breakout[401462] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -23535,7 +23669,7 @@ _G.pg.ship_data_breakout[401462] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[401463] = {
+_G.pg.base.ship_data_breakout[401463] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/防空炮效率提高15%",
 	use_char_num = 2,
@@ -23554,7 +23688,7 @@ _G.pg.ship_data_breakout[401463] = {
 	}
 }
 
-_G.pg.ship_data_breakout[401464] = {
+_G.pg.base.ship_data_breakout[401464] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23569,7 +23703,7 @@ _G.pg.ship_data_breakout[401464] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402011] = {
+_G.pg.base.ship_data_breakout[402011] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -23586,7 +23720,7 @@ _G.pg.ship_data_breakout[402011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402012] = {
+_G.pg.base.ship_data_breakout[402012] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -23604,7 +23738,7 @@ _G.pg.ship_data_breakout[402012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402013] = {
+_G.pg.base.ship_data_breakout[402013] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23621,7 +23755,7 @@ _G.pg.ship_data_breakout[402013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402014] = {
+_G.pg.base.ship_data_breakout[402014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23636,7 +23770,7 @@ _G.pg.ship_data_breakout[402014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402021] = {
+_G.pg.base.ship_data_breakout[402021] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -23653,7 +23787,7 @@ _G.pg.ship_data_breakout[402021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402022] = {
+_G.pg.base.ship_data_breakout[402022] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -23671,7 +23805,7 @@ _G.pg.ship_data_breakout[402022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402023] = {
+_G.pg.base.ship_data_breakout[402023] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23688,7 +23822,7 @@ _G.pg.ship_data_breakout[402023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402024] = {
+_G.pg.base.ship_data_breakout[402024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23703,7 +23837,7 @@ _G.pg.ship_data_breakout[402024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402031] = {
+_G.pg.base.ship_data_breakout[402031] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -23720,7 +23854,7 @@ _G.pg.ship_data_breakout[402031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402032] = {
+_G.pg.base.ship_data_breakout[402032] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -23738,7 +23872,7 @@ _G.pg.ship_data_breakout[402032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402033] = {
+_G.pg.base.ship_data_breakout[402033] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23755,7 +23889,7 @@ _G.pg.ship_data_breakout[402033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402034] = {
+_G.pg.base.ship_data_breakout[402034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23770,7 +23904,7 @@ _G.pg.ship_data_breakout[402034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402131] = {
+_G.pg.base.ship_data_breakout[402131] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -23787,7 +23921,7 @@ _G.pg.ship_data_breakout[402131] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402132] = {
+_G.pg.base.ship_data_breakout[402132] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -23805,7 +23939,7 @@ _G.pg.ship_data_breakout[402132] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402133] = {
+_G.pg.base.ship_data_breakout[402133] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23822,7 +23956,7 @@ _G.pg.ship_data_breakout[402133] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402134] = {
+_G.pg.base.ship_data_breakout[402134] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23837,7 +23971,7 @@ _G.pg.ship_data_breakout[402134] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402041] = {
+_G.pg.base.ship_data_breakout[402041] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -23854,7 +23988,7 @@ _G.pg.ship_data_breakout[402041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402042] = {
+_G.pg.base.ship_data_breakout[402042] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -23872,7 +24006,7 @@ _G.pg.ship_data_breakout[402042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402043] = {
+_G.pg.base.ship_data_breakout[402043] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23889,7 +24023,7 @@ _G.pg.ship_data_breakout[402043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402044] = {
+_G.pg.base.ship_data_breakout[402044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23904,7 +24038,7 @@ _G.pg.ship_data_breakout[402044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402051] = {
+_G.pg.base.ship_data_breakout[402051] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -23921,7 +24055,7 @@ _G.pg.ship_data_breakout[402051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402052] = {
+_G.pg.base.ship_data_breakout[402052] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -23939,7 +24073,7 @@ _G.pg.ship_data_breakout[402052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402053] = {
+_G.pg.base.ship_data_breakout[402053] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -23956,7 +24090,7 @@ _G.pg.ship_data_breakout[402053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[402054] = {
+_G.pg.base.ship_data_breakout[402054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -23971,7 +24105,7 @@ _G.pg.ship_data_breakout[402054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403011] = {
+_G.pg.base.ship_data_breakout[403011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -23988,7 +24122,7 @@ _G.pg.ship_data_breakout[403011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403012] = {
+_G.pg.base.ship_data_breakout[403012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -24006,7 +24140,7 @@ _G.pg.ship_data_breakout[403012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403013] = {
+_G.pg.base.ship_data_breakout[403013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -24023,7 +24157,7 @@ _G.pg.ship_data_breakout[403013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403014] = {
+_G.pg.base.ship_data_breakout[403014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24038,7 +24172,7 @@ _G.pg.ship_data_breakout[403014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403031] = {
+_G.pg.base.ship_data_breakout[403031] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -24055,7 +24189,7 @@ _G.pg.ship_data_breakout[403031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403032] = {
+_G.pg.base.ship_data_breakout[403032] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -24073,7 +24207,7 @@ _G.pg.ship_data_breakout[403032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403033] = {
+_G.pg.base.ship_data_breakout[403033] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -24090,7 +24224,7 @@ _G.pg.ship_data_breakout[403033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403034] = {
+_G.pg.base.ship_data_breakout[403034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24105,7 +24239,7 @@ _G.pg.ship_data_breakout[403034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403041] = {
+_G.pg.base.ship_data_breakout[403041] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -24122,7 +24256,7 @@ _G.pg.ship_data_breakout[403041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403042] = {
+_G.pg.base.ship_data_breakout[403042] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -24140,7 +24274,7 @@ _G.pg.ship_data_breakout[403042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403043] = {
+_G.pg.base.ship_data_breakout[403043] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -24157,7 +24291,7 @@ _G.pg.ship_data_breakout[403043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403044] = {
+_G.pg.base.ship_data_breakout[403044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24172,7 +24306,7 @@ _G.pg.ship_data_breakout[403044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403051] = {
+_G.pg.base.ship_data_breakout[403051] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -24189,7 +24323,7 @@ _G.pg.ship_data_breakout[403051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403052] = {
+_G.pg.base.ship_data_breakout[403052] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -24207,7 +24341,7 @@ _G.pg.ship_data_breakout[403052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403053] = {
+_G.pg.base.ship_data_breakout[403053] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -24224,7 +24358,7 @@ _G.pg.ship_data_breakout[403053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403054] = {
+_G.pg.base.ship_data_breakout[403054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24239,7 +24373,7 @@ _G.pg.ship_data_breakout[403054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403071] = {
+_G.pg.base.ship_data_breakout[403071] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -24256,7 +24390,7 @@ _G.pg.ship_data_breakout[403071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403072] = {
+_G.pg.base.ship_data_breakout[403072] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -24274,7 +24408,7 @@ _G.pg.ship_data_breakout[403072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403073] = {
+_G.pg.base.ship_data_breakout[403073] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -24291,7 +24425,7 @@ _G.pg.ship_data_breakout[403073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403074] = {
+_G.pg.base.ship_data_breakout[403074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24306,7 +24440,7 @@ _G.pg.ship_data_breakout[403074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403091] = {
+_G.pg.base.ship_data_breakout[403091] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%/裝備特殊副炮",
 	use_char_num = 1,
@@ -24324,7 +24458,7 @@ _G.pg.ship_data_breakout[403091] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403092] = {
+_G.pg.base.ship_data_breakout[403092] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -24342,7 +24476,7 @@ _G.pg.ship_data_breakout[403092] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403093] = {
+_G.pg.base.ship_data_breakout[403093] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -24359,7 +24493,7 @@ _G.pg.ship_data_breakout[403093] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[403094] = {
+_G.pg.base.ship_data_breakout[403094] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24374,7 +24508,7 @@ _G.pg.ship_data_breakout[403094] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404011] = {
+_G.pg.base.ship_data_breakout[404011] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -24392,7 +24526,7 @@ _G.pg.ship_data_breakout[404011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404012] = {
+_G.pg.base.ship_data_breakout[404012] = {
 	use_gold = 1500,
 	breakout_view = "獲得魚雷發射技能/主炮效率提高10%",
 	use_char_num = 1,
@@ -24409,7 +24543,7 @@ _G.pg.ship_data_breakout[404012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404013] = {
+_G.pg.base.ship_data_breakout[404013] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -24428,7 +24562,7 @@ _G.pg.ship_data_breakout[404013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404014] = {
+_G.pg.base.ship_data_breakout[404014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24443,7 +24577,7 @@ _G.pg.ship_data_breakout[404014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404021] = {
+_G.pg.base.ship_data_breakout[404021] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -24461,7 +24595,7 @@ _G.pg.ship_data_breakout[404021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404022] = {
+_G.pg.base.ship_data_breakout[404022] = {
 	use_gold = 1500,
 	breakout_view = "獲得魚雷發射技能/主炮效率提高10%",
 	use_char_num = 1,
@@ -24478,7 +24612,7 @@ _G.pg.ship_data_breakout[404022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404023] = {
+_G.pg.base.ship_data_breakout[404023] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -24497,7 +24631,7 @@ _G.pg.ship_data_breakout[404023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[404024] = {
+_G.pg.base.ship_data_breakout[404024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24512,7 +24646,7 @@ _G.pg.ship_data_breakout[404024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405011] = {
+_G.pg.base.ship_data_breakout[405011] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -24530,7 +24664,7 @@ _G.pg.ship_data_breakout[405011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405012] = {
+_G.pg.base.ship_data_breakout[405012] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -24548,7 +24682,7 @@ _G.pg.ship_data_breakout[405012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405013] = {
+_G.pg.base.ship_data_breakout[405013] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -24567,7 +24701,7 @@ _G.pg.ship_data_breakout[405013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405014] = {
+_G.pg.base.ship_data_breakout[405014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24582,7 +24716,7 @@ _G.pg.ship_data_breakout[405014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405021] = {
+_G.pg.base.ship_data_breakout[405021] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -24600,7 +24734,7 @@ _G.pg.ship_data_breakout[405021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405022] = {
+_G.pg.base.ship_data_breakout[405022] = {
 	use_gold = 3000,
 	breakout_view = "獲得磁性魚雷技能/副炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -24619,7 +24753,7 @@ _G.pg.ship_data_breakout[405022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405023] = {
+_G.pg.base.ship_data_breakout[405023] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -24638,7 +24772,7 @@ _G.pg.ship_data_breakout[405023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[405024] = {
+_G.pg.base.ship_data_breakout[405024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24653,7 +24787,7 @@ _G.pg.ship_data_breakout[405024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[406011] = {
+_G.pg.base.ship_data_breakout[406011] = {
 	use_gold = 500,
 	breakout_view = "所有轟炸機+1/戰鬥機效率提高5%",
 	use_char_num = 1,
@@ -24671,7 +24805,7 @@ _G.pg.ship_data_breakout[406011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[406012] = {
+_G.pg.base.ship_data_breakout[406012] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -24691,7 +24825,7 @@ _G.pg.ship_data_breakout[406012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[406013] = {
+_G.pg.base.ship_data_breakout[406013] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/轟炸機效率提高10%",
 	use_char_num = 2,
@@ -24711,7 +24845,7 @@ _G.pg.ship_data_breakout[406013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[406014] = {
+_G.pg.base.ship_data_breakout[406014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24726,7 +24860,7 @@ _G.pg.ship_data_breakout[406014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407011] = {
+_G.pg.base.ship_data_breakout[407011] = {
 	use_gold = 1000,
 	breakout_view = "所有戰鬥機+1/轟炸機效率提高3%",
 	use_char_num = 1,
@@ -24744,7 +24878,7 @@ _G.pg.ship_data_breakout[407011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407012] = {
+_G.pg.base.ship_data_breakout[407012] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有轟炸機+1/轟炸機效率提高5%",
 	use_char_num = 1,
@@ -24764,7 +24898,7 @@ _G.pg.ship_data_breakout[407012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407013] = {
+_G.pg.base.ship_data_breakout[407013] = {
 	use_gold = 10000,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高7%",
 	use_char_num = 2,
@@ -24784,7 +24918,7 @@ _G.pg.ship_data_breakout[407013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407014] = {
+_G.pg.base.ship_data_breakout[407014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24799,7 +24933,7 @@ _G.pg.ship_data_breakout[407014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407021] = {
+_G.pg.base.ship_data_breakout[407021] = {
 	use_gold = 500,
 	breakout_view = "所有艦載機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -24817,7 +24951,7 @@ _G.pg.ship_data_breakout[407021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407022] = {
+_G.pg.base.ship_data_breakout[407022] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/副武器底座+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -24837,7 +24971,7 @@ _G.pg.ship_data_breakout[407022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407023] = {
+_G.pg.base.ship_data_breakout[407023] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -24857,7 +24991,7 @@ _G.pg.ship_data_breakout[407023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407024] = {
+_G.pg.base.ship_data_breakout[407024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24872,7 +25006,7 @@ _G.pg.ship_data_breakout[407024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407031] = {
+_G.pg.base.ship_data_breakout[407031] = {
 	use_gold = 1000,
 	breakout_view = "所有轟炸機+1/轟炸機效率提高5%",
 	use_char_num = 1,
@@ -24890,7 +25024,7 @@ _G.pg.ship_data_breakout[407031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407032] = {
+_G.pg.base.ship_data_breakout[407032] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -24910,7 +25044,7 @@ _G.pg.ship_data_breakout[407032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407033] = {
+_G.pg.base.ship_data_breakout[407033] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -24930,7 +25064,7 @@ _G.pg.ship_data_breakout[407033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[407034] = {
+_G.pg.base.ship_data_breakout[407034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -24945,7 +25079,7 @@ _G.pg.ship_data_breakout[407034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408011] = {
+_G.pg.base.ship_data_breakout[408011] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -24962,7 +25096,7 @@ _G.pg.ship_data_breakout[408011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408012] = {
+_G.pg.base.ship_data_breakout[408012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -24982,7 +25116,7 @@ _G.pg.ship_data_breakout[408012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408013] = {
+_G.pg.base.ship_data_breakout[408013] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -24999,7 +25133,7 @@ _G.pg.ship_data_breakout[408013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408014] = {
+_G.pg.base.ship_data_breakout[408014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25014,7 +25148,7 @@ _G.pg.ship_data_breakout[408014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408021] = {
+_G.pg.base.ship_data_breakout[408021] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25031,7 +25165,7 @@ _G.pg.ship_data_breakout[408021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408022] = {
+_G.pg.base.ship_data_breakout[408022] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25051,7 +25185,7 @@ _G.pg.ship_data_breakout[408022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408023] = {
+_G.pg.base.ship_data_breakout[408023] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25068,7 +25202,7 @@ _G.pg.ship_data_breakout[408023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408024] = {
+_G.pg.base.ship_data_breakout[408024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25083,7 +25217,7 @@ _G.pg.ship_data_breakout[408024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408031] = {
+_G.pg.base.ship_data_breakout[408031] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25100,7 +25234,7 @@ _G.pg.ship_data_breakout[408031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408032] = {
+_G.pg.base.ship_data_breakout[408032] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25120,7 +25254,7 @@ _G.pg.ship_data_breakout[408032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408033] = {
+_G.pg.base.ship_data_breakout[408033] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25137,7 +25271,7 @@ _G.pg.ship_data_breakout[408033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408034] = {
+_G.pg.base.ship_data_breakout[408034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25152,7 +25286,7 @@ _G.pg.ship_data_breakout[408034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408041] = {
+_G.pg.base.ship_data_breakout[408041] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25169,7 +25303,7 @@ _G.pg.ship_data_breakout[408041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408042] = {
+_G.pg.base.ship_data_breakout[408042] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25189,7 +25323,7 @@ _G.pg.ship_data_breakout[408042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408043] = {
+_G.pg.base.ship_data_breakout[408043] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25206,7 +25340,7 @@ _G.pg.ship_data_breakout[408043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408044] = {
+_G.pg.base.ship_data_breakout[408044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25221,7 +25355,7 @@ _G.pg.ship_data_breakout[408044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408051] = {
+_G.pg.base.ship_data_breakout[408051] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25238,7 +25372,7 @@ _G.pg.ship_data_breakout[408051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408052] = {
+_G.pg.base.ship_data_breakout[408052] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25258,7 +25392,7 @@ _G.pg.ship_data_breakout[408052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408053] = {
+_G.pg.base.ship_data_breakout[408053] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25275,7 +25409,7 @@ _G.pg.ship_data_breakout[408053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408054] = {
+_G.pg.base.ship_data_breakout[408054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25290,7 +25424,7 @@ _G.pg.ship_data_breakout[408054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408061] = {
+_G.pg.base.ship_data_breakout[408061] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25307,7 +25441,7 @@ _G.pg.ship_data_breakout[408061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408062] = {
+_G.pg.base.ship_data_breakout[408062] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25327,7 +25461,7 @@ _G.pg.ship_data_breakout[408062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408063] = {
+_G.pg.base.ship_data_breakout[408063] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25344,7 +25478,7 @@ _G.pg.ship_data_breakout[408063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408064] = {
+_G.pg.base.ship_data_breakout[408064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25359,7 +25493,7 @@ _G.pg.ship_data_breakout[408064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408071] = {
+_G.pg.base.ship_data_breakout[408071] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25376,7 +25510,7 @@ _G.pg.ship_data_breakout[408071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408072] = {
+_G.pg.base.ship_data_breakout[408072] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25396,7 +25530,7 @@ _G.pg.ship_data_breakout[408072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408073] = {
+_G.pg.base.ship_data_breakout[408073] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25413,7 +25547,7 @@ _G.pg.ship_data_breakout[408073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408074] = {
+_G.pg.base.ship_data_breakout[408074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25428,7 +25562,7 @@ _G.pg.ship_data_breakout[408074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408081] = {
+_G.pg.base.ship_data_breakout[408081] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25445,7 +25579,7 @@ _G.pg.ship_data_breakout[408081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408082] = {
+_G.pg.base.ship_data_breakout[408082] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25465,7 +25599,7 @@ _G.pg.ship_data_breakout[408082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408083] = {
+_G.pg.base.ship_data_breakout[408083] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25482,7 +25616,7 @@ _G.pg.ship_data_breakout[408083] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408084] = {
+_G.pg.base.ship_data_breakout[408084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25497,7 +25631,7 @@ _G.pg.ship_data_breakout[408084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408101] = {
+_G.pg.base.ship_data_breakout[408101] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25514,7 +25648,7 @@ _G.pg.ship_data_breakout[408101] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408102] = {
+_G.pg.base.ship_data_breakout[408102] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25534,7 +25668,7 @@ _G.pg.ship_data_breakout[408102] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408103] = {
+_G.pg.base.ship_data_breakout[408103] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25551,7 +25685,7 @@ _G.pg.ship_data_breakout[408103] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408104] = {
+_G.pg.base.ship_data_breakout[408104] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25566,7 +25700,7 @@ _G.pg.ship_data_breakout[408104] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408111] = {
+_G.pg.base.ship_data_breakout[408111] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -25583,7 +25717,7 @@ _G.pg.ship_data_breakout[408111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408112] = {
+_G.pg.base.ship_data_breakout[408112] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -25603,7 +25737,7 @@ _G.pg.ship_data_breakout[408112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408113] = {
+_G.pg.base.ship_data_breakout[408113] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -25620,7 +25754,7 @@ _G.pg.ship_data_breakout[408113] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[408114] = {
+_G.pg.base.ship_data_breakout[408114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25635,7 +25769,7 @@ _G.pg.ship_data_breakout[408114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501011] = {
+_G.pg.base.ship_data_breakout[501011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -25652,7 +25786,7 @@ _G.pg.ship_data_breakout[501011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501012] = {
+_G.pg.base.ship_data_breakout[501012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高5%",
 	use_char_num = 1,
@@ -25670,7 +25804,7 @@ _G.pg.ship_data_breakout[501012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501013] = {
+_G.pg.base.ship_data_breakout[501013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -25689,7 +25823,7 @@ _G.pg.ship_data_breakout[501013] = {
 	}
 }
 
-_G.pg.ship_data_breakout[501014] = {
+_G.pg.base.ship_data_breakout[501014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25704,7 +25838,7 @@ _G.pg.ship_data_breakout[501014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501021] = {
+_G.pg.base.ship_data_breakout[501021] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -25721,7 +25855,7 @@ _G.pg.ship_data_breakout[501021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501022] = {
+_G.pg.base.ship_data_breakout[501022] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高5%",
 	use_char_num = 1,
@@ -25739,7 +25873,7 @@ _G.pg.ship_data_breakout[501022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501023] = {
+_G.pg.base.ship_data_breakout[501023] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -25758,7 +25892,7 @@ _G.pg.ship_data_breakout[501023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[501024] = {
+_G.pg.base.ship_data_breakout[501024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25773,7 +25907,7 @@ _G.pg.ship_data_breakout[501024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501031] = {
+_G.pg.base.ship_data_breakout[501031] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -25790,7 +25924,7 @@ _G.pg.ship_data_breakout[501031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501032] = {
+_G.pg.base.ship_data_breakout[501032] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高5%",
 	use_char_num = 1,
@@ -25808,7 +25942,7 @@ _G.pg.ship_data_breakout[501032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501033] = {
+_G.pg.base.ship_data_breakout[501033] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -25827,7 +25961,7 @@ _G.pg.ship_data_breakout[501033] = {
 	}
 }
 
-_G.pg.ship_data_breakout[501034] = {
+_G.pg.base.ship_data_breakout[501034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25842,7 +25976,7 @@ _G.pg.ship_data_breakout[501034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501041] = {
+_G.pg.base.ship_data_breakout[501041] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -25859,7 +25993,7 @@ _G.pg.ship_data_breakout[501041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501042] = {
+_G.pg.base.ship_data_breakout[501042] = {
 	use_gold = 300,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高5%",
 	use_char_num = 1,
@@ -25877,7 +26011,7 @@ _G.pg.ship_data_breakout[501042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[501043] = {
+_G.pg.base.ship_data_breakout[501043] = {
 	use_gold = 500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -25896,7 +26030,7 @@ _G.pg.ship_data_breakout[501043] = {
 	}
 }
 
-_G.pg.ship_data_breakout[501044] = {
+_G.pg.base.ship_data_breakout[501044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25911,7 +26045,7 @@ _G.pg.ship_data_breakout[501044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502011] = {
+_G.pg.base.ship_data_breakout[502011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -25928,7 +26062,7 @@ _G.pg.ship_data_breakout[502011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502012] = {
+_G.pg.base.ship_data_breakout[502012] = {
 	use_gold = 1500,
 	breakout_view = "防空炮底座+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -25946,7 +26080,7 @@ _G.pg.ship_data_breakout[502012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502013] = {
+_G.pg.base.ship_data_breakout[502013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -25963,7 +26097,7 @@ _G.pg.ship_data_breakout[502013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502014] = {
+_G.pg.base.ship_data_breakout[502014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -25978,7 +26112,7 @@ _G.pg.ship_data_breakout[502014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502021] = {
+_G.pg.base.ship_data_breakout[502021] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -25995,7 +26129,7 @@ _G.pg.ship_data_breakout[502021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502022] = {
+_G.pg.base.ship_data_breakout[502022] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -26013,7 +26147,7 @@ _G.pg.ship_data_breakout[502022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502023] = {
+_G.pg.base.ship_data_breakout[502023] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -26030,7 +26164,7 @@ _G.pg.ship_data_breakout[502023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502024] = {
+_G.pg.base.ship_data_breakout[502024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26045,7 +26179,7 @@ _G.pg.ship_data_breakout[502024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502031] = {
+_G.pg.base.ship_data_breakout[502031] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -26062,7 +26196,7 @@ _G.pg.ship_data_breakout[502031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502032] = {
+_G.pg.base.ship_data_breakout[502032] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -26080,7 +26214,7 @@ _G.pg.ship_data_breakout[502032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502033] = {
+_G.pg.base.ship_data_breakout[502033] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -26097,7 +26231,7 @@ _G.pg.ship_data_breakout[502033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502034] = {
+_G.pg.base.ship_data_breakout[502034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26112,7 +26246,7 @@ _G.pg.ship_data_breakout[502034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502041] = {
+_G.pg.base.ship_data_breakout[502041] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26129,7 +26263,7 @@ _G.pg.ship_data_breakout[502041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502042] = {
+_G.pg.base.ship_data_breakout[502042] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -26147,7 +26281,7 @@ _G.pg.ship_data_breakout[502042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502043] = {
+_G.pg.base.ship_data_breakout[502043] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -26164,7 +26298,7 @@ _G.pg.ship_data_breakout[502043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502044] = {
+_G.pg.base.ship_data_breakout[502044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26179,7 +26313,7 @@ _G.pg.ship_data_breakout[502044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502051] = {
+_G.pg.base.ship_data_breakout[502051] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26196,7 +26330,7 @@ _G.pg.ship_data_breakout[502051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502052] = {
+_G.pg.base.ship_data_breakout[502052] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -26214,7 +26348,7 @@ _G.pg.ship_data_breakout[502052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502053] = {
+_G.pg.base.ship_data_breakout[502053] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -26231,7 +26365,7 @@ _G.pg.ship_data_breakout[502053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[502054] = {
+_G.pg.base.ship_data_breakout[502054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26246,7 +26380,7 @@ _G.pg.ship_data_breakout[502054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601021] = {
+_G.pg.base.ship_data_breakout[601021] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26263,7 +26397,7 @@ _G.pg.ship_data_breakout[601021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601022] = {
+_G.pg.base.ship_data_breakout[601022] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -26281,7 +26415,7 @@ _G.pg.ship_data_breakout[601022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601023] = {
+_G.pg.base.ship_data_breakout[601023] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -26300,7 +26434,7 @@ _G.pg.ship_data_breakout[601023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[601024] = {
+_G.pg.base.ship_data_breakout[601024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26315,7 +26449,7 @@ _G.pg.ship_data_breakout[601024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601041] = {
+_G.pg.base.ship_data_breakout[601041] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26332,7 +26466,7 @@ _G.pg.ship_data_breakout[601041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601042] = {
+_G.pg.base.ship_data_breakout[601042] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -26350,7 +26484,7 @@ _G.pg.ship_data_breakout[601042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601043] = {
+_G.pg.base.ship_data_breakout[601043] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -26369,7 +26503,7 @@ _G.pg.ship_data_breakout[601043] = {
 	}
 }
 
-_G.pg.ship_data_breakout[601044] = {
+_G.pg.base.ship_data_breakout[601044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26384,7 +26518,7 @@ _G.pg.ship_data_breakout[601044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601051] = {
+_G.pg.base.ship_data_breakout[601051] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26401,7 +26535,7 @@ _G.pg.ship_data_breakout[601051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601052] = {
+_G.pg.base.ship_data_breakout[601052] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -26419,7 +26553,7 @@ _G.pg.ship_data_breakout[601052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601053] = {
+_G.pg.base.ship_data_breakout[601053] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -26438,7 +26572,7 @@ _G.pg.ship_data_breakout[601053] = {
 	}
 }
 
-_G.pg.ship_data_breakout[601054] = {
+_G.pg.base.ship_data_breakout[601054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26453,7 +26587,7 @@ _G.pg.ship_data_breakout[601054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601061] = {
+_G.pg.base.ship_data_breakout[601061] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26470,7 +26604,7 @@ _G.pg.ship_data_breakout[601061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601062] = {
+_G.pg.base.ship_data_breakout[601062] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -26488,7 +26622,7 @@ _G.pg.ship_data_breakout[601062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[601063] = {
+_G.pg.base.ship_data_breakout[601063] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -26507,7 +26641,7 @@ _G.pg.ship_data_breakout[601063] = {
 	}
 }
 
-_G.pg.ship_data_breakout[601064] = {
+_G.pg.base.ship_data_breakout[601064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26522,7 +26656,7 @@ _G.pg.ship_data_breakout[601064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[602011] = {
+_G.pg.base.ship_data_breakout[602011] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26539,7 +26673,7 @@ _G.pg.ship_data_breakout[602011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[602012] = {
+_G.pg.base.ship_data_breakout[602012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -26557,7 +26691,7 @@ _G.pg.ship_data_breakout[602012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[602013] = {
+_G.pg.base.ship_data_breakout[602013] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -26574,7 +26708,7 @@ _G.pg.ship_data_breakout[602013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[602014] = {
+_G.pg.base.ship_data_breakout[602014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26589,7 +26723,7 @@ _G.pg.ship_data_breakout[602014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603011] = {
+_G.pg.base.ship_data_breakout[603011] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26606,7 +26740,7 @@ _G.pg.ship_data_breakout[603011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603012] = {
+_G.pg.base.ship_data_breakout[603012] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -26624,7 +26758,7 @@ _G.pg.ship_data_breakout[603012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603013] = {
+_G.pg.base.ship_data_breakout[603013] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高5%",
 	use_char_num = 2,
@@ -26641,7 +26775,7 @@ _G.pg.ship_data_breakout[603013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603014] = {
+_G.pg.base.ship_data_breakout[603014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26656,7 +26790,7 @@ _G.pg.ship_data_breakout[603014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603021] = {
+_G.pg.base.ship_data_breakout[603021] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -26673,7 +26807,7 @@ _G.pg.ship_data_breakout[603021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603022] = {
+_G.pg.base.ship_data_breakout[603022] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -26691,7 +26825,7 @@ _G.pg.ship_data_breakout[603022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603023] = {
+_G.pg.base.ship_data_breakout[603023] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -26708,7 +26842,7 @@ _G.pg.ship_data_breakout[603023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[603024] = {
+_G.pg.base.ship_data_breakout[603024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26723,7 +26857,7 @@ _G.pg.ship_data_breakout[603024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605011] = {
+_G.pg.base.ship_data_breakout[605011] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -26741,7 +26875,7 @@ _G.pg.ship_data_breakout[605011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605012] = {
+_G.pg.base.ship_data_breakout[605012] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -26760,7 +26894,7 @@ _G.pg.ship_data_breakout[605012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605013] = {
+_G.pg.base.ship_data_breakout[605013] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -26779,7 +26913,7 @@ _G.pg.ship_data_breakout[605013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605014] = {
+_G.pg.base.ship_data_breakout[605014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26794,7 +26928,7 @@ _G.pg.ship_data_breakout[605014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605021] = {
+_G.pg.base.ship_data_breakout[605021] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -26812,7 +26946,7 @@ _G.pg.ship_data_breakout[605021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605022] = {
+_G.pg.base.ship_data_breakout[605022] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -26831,7 +26965,7 @@ _G.pg.ship_data_breakout[605022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605023] = {
+_G.pg.base.ship_data_breakout[605023] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -26850,7 +26984,7 @@ _G.pg.ship_data_breakout[605023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605024] = {
+_G.pg.base.ship_data_breakout[605024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26865,7 +26999,7 @@ _G.pg.ship_data_breakout[605024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605051] = {
+_G.pg.base.ship_data_breakout[605051] = {
 	use_gold = 300,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -26883,7 +27017,7 @@ _G.pg.ship_data_breakout[605051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605052] = {
+_G.pg.base.ship_data_breakout[605052] = {
 	use_gold = 800,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -26902,7 +27036,7 @@ _G.pg.ship_data_breakout[605052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605053] = {
+_G.pg.base.ship_data_breakout[605053] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -26921,7 +27055,7 @@ _G.pg.ship_data_breakout[605053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605054] = {
+_G.pg.base.ship_data_breakout[605054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -26936,7 +27070,7 @@ _G.pg.ship_data_breakout[605054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605061] = {
+_G.pg.base.ship_data_breakout[605061] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -26954,7 +27088,7 @@ _G.pg.ship_data_breakout[605061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605062] = {
+_G.pg.base.ship_data_breakout[605062] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -26973,7 +27107,7 @@ _G.pg.ship_data_breakout[605062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605063] = {
+_G.pg.base.ship_data_breakout[605063] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -26992,7 +27126,7 @@ _G.pg.ship_data_breakout[605063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[605064] = {
+_G.pg.base.ship_data_breakout[605064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27007,7 +27141,7 @@ _G.pg.ship_data_breakout[605064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[607011] = {
+_G.pg.base.ship_data_breakout[607011] = {
 	use_gold = 1000,
 	breakout_view = "所有魚雷機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -27025,7 +27159,7 @@ _G.pg.ship_data_breakout[607011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[607012] = {
+_G.pg.base.ship_data_breakout[607012] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
 	use_char_num = 1,
@@ -27045,7 +27179,7 @@ _G.pg.ship_data_breakout[607012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[607013] = {
+_G.pg.base.ship_data_breakout[607013] = {
 	use_gold = 10000,
 	breakout_view = "所有魚雷機+2/魚雷機效率提高15%/第二武器欄位可以裝備轟炸機",
 	use_char_num = 2,
@@ -27065,7 +27199,7 @@ _G.pg.ship_data_breakout[607013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[607014] = {
+_G.pg.base.ship_data_breakout[607014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27080,7 +27214,7 @@ _G.pg.ship_data_breakout[607014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[608011] = {
+_G.pg.base.ship_data_breakout[608011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -27097,7 +27231,7 @@ _G.pg.ship_data_breakout[608011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[608012] = {
+_G.pg.base.ship_data_breakout[608012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -27117,7 +27251,7 @@ _G.pg.ship_data_breakout[608012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[608013] = {
+_G.pg.base.ship_data_breakout[608013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -27134,7 +27268,7 @@ _G.pg.ship_data_breakout[608013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[608014] = {
+_G.pg.base.ship_data_breakout[608014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27149,7 +27283,7 @@ _G.pg.ship_data_breakout[608014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701021] = {
+_G.pg.base.ship_data_breakout[701021] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27166,7 +27300,7 @@ _G.pg.ship_data_breakout[701021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701022] = {
+_G.pg.base.ship_data_breakout[701022] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27184,7 +27318,7 @@ _G.pg.ship_data_breakout[701022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701023] = {
+_G.pg.base.ship_data_breakout[701023] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -27203,7 +27337,7 @@ _G.pg.ship_data_breakout[701023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[701024] = {
+_G.pg.base.ship_data_breakout[701024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27218,7 +27352,7 @@ _G.pg.ship_data_breakout[701024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701031] = {
+_G.pg.base.ship_data_breakout[701031] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27235,7 +27369,7 @@ _G.pg.ship_data_breakout[701031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701032] = {
+_G.pg.base.ship_data_breakout[701032] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27253,7 +27387,7 @@ _G.pg.ship_data_breakout[701032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701033] = {
+_G.pg.base.ship_data_breakout[701033] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -27272,7 +27406,7 @@ _G.pg.ship_data_breakout[701033] = {
 	}
 }
 
-_G.pg.ship_data_breakout[701034] = {
+_G.pg.base.ship_data_breakout[701034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27287,7 +27421,7 @@ _G.pg.ship_data_breakout[701034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701041] = {
+_G.pg.base.ship_data_breakout[701041] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27304,7 +27438,7 @@ _G.pg.ship_data_breakout[701041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701042] = {
+_G.pg.base.ship_data_breakout[701042] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27322,7 +27456,7 @@ _G.pg.ship_data_breakout[701042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701043] = {
+_G.pg.base.ship_data_breakout[701043] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -27341,7 +27475,7 @@ _G.pg.ship_data_breakout[701043] = {
 	}
 }
 
-_G.pg.ship_data_breakout[701044] = {
+_G.pg.base.ship_data_breakout[701044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27356,7 +27490,7 @@ _G.pg.ship_data_breakout[701044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701061] = {
+_G.pg.base.ship_data_breakout[701061] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27373,7 +27507,7 @@ _G.pg.ship_data_breakout[701061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701062] = {
+_G.pg.base.ship_data_breakout[701062] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27391,7 +27525,7 @@ _G.pg.ship_data_breakout[701062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701063] = {
+_G.pg.base.ship_data_breakout[701063] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -27410,7 +27544,7 @@ _G.pg.ship_data_breakout[701063] = {
 	}
 }
 
-_G.pg.ship_data_breakout[701064] = {
+_G.pg.base.ship_data_breakout[701064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27425,7 +27559,7 @@ _G.pg.ship_data_breakout[701064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701071] = {
+_G.pg.base.ship_data_breakout[701071] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27442,7 +27576,7 @@ _G.pg.ship_data_breakout[701071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701072] = {
+_G.pg.base.ship_data_breakout[701072] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27460,7 +27594,7 @@ _G.pg.ship_data_breakout[701072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701073] = {
+_G.pg.base.ship_data_breakout[701073] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -27479,7 +27613,7 @@ _G.pg.ship_data_breakout[701073] = {
 	}
 }
 
-_G.pg.ship_data_breakout[701074] = {
+_G.pg.base.ship_data_breakout[701074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27494,7 +27628,7 @@ _G.pg.ship_data_breakout[701074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701081] = {
+_G.pg.base.ship_data_breakout[701081] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27511,7 +27645,7 @@ _G.pg.ship_data_breakout[701081] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701082] = {
+_G.pg.base.ship_data_breakout[701082] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27529,7 +27663,7 @@ _G.pg.ship_data_breakout[701082] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[701083] = {
+_G.pg.base.ship_data_breakout[701083] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -27548,7 +27682,7 @@ _G.pg.ship_data_breakout[701083] = {
 	}
 }
 
-_G.pg.ship_data_breakout[701084] = {
+_G.pg.base.ship_data_breakout[701084] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27563,7 +27697,7 @@ _G.pg.ship_data_breakout[701084] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702011] = {
+_G.pg.base.ship_data_breakout[702011] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27580,7 +27714,7 @@ _G.pg.ship_data_breakout[702011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702012] = {
+_G.pg.base.ship_data_breakout[702012] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27598,7 +27732,7 @@ _G.pg.ship_data_breakout[702012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702013] = {
+_G.pg.base.ship_data_breakout[702013] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -27615,7 +27749,7 @@ _G.pg.ship_data_breakout[702013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702014] = {
+_G.pg.base.ship_data_breakout[702014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27630,7 +27764,7 @@ _G.pg.ship_data_breakout[702014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702021] = {
+_G.pg.base.ship_data_breakout[702021] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27647,7 +27781,7 @@ _G.pg.ship_data_breakout[702021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702022] = {
+_G.pg.base.ship_data_breakout[702022] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27665,7 +27799,7 @@ _G.pg.ship_data_breakout[702022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702023] = {
+_G.pg.base.ship_data_breakout[702023] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -27682,7 +27816,7 @@ _G.pg.ship_data_breakout[702023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702024] = {
+_G.pg.base.ship_data_breakout[702024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27697,7 +27831,7 @@ _G.pg.ship_data_breakout[702024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702031] = {
+_G.pg.base.ship_data_breakout[702031] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27714,7 +27848,7 @@ _G.pg.ship_data_breakout[702031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702032] = {
+_G.pg.base.ship_data_breakout[702032] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27732,7 +27866,7 @@ _G.pg.ship_data_breakout[702032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702033] = {
+_G.pg.base.ship_data_breakout[702033] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -27749,7 +27883,7 @@ _G.pg.ship_data_breakout[702033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702034] = {
+_G.pg.base.ship_data_breakout[702034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27764,7 +27898,7 @@ _G.pg.ship_data_breakout[702034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702041] = {
+_G.pg.base.ship_data_breakout[702041] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27781,7 +27915,7 @@ _G.pg.ship_data_breakout[702041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702042] = {
+_G.pg.base.ship_data_breakout[702042] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27799,7 +27933,7 @@ _G.pg.ship_data_breakout[702042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702043] = {
+_G.pg.base.ship_data_breakout[702043] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -27816,7 +27950,7 @@ _G.pg.ship_data_breakout[702043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702044] = {
+_G.pg.base.ship_data_breakout[702044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27831,7 +27965,7 @@ _G.pg.ship_data_breakout[702044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702061] = {
+_G.pg.base.ship_data_breakout[702061] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -27848,7 +27982,7 @@ _G.pg.ship_data_breakout[702061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702062] = {
+_G.pg.base.ship_data_breakout[702062] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -27866,7 +28000,7 @@ _G.pg.ship_data_breakout[702062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702063] = {
+_G.pg.base.ship_data_breakout[702063] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -27883,7 +28017,7 @@ _G.pg.ship_data_breakout[702063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702064] = {
+_G.pg.base.ship_data_breakout[702064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27898,7 +28032,7 @@ _G.pg.ship_data_breakout[702064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702121] = {
+_G.pg.base.ship_data_breakout[702121] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27915,7 +28049,7 @@ _G.pg.ship_data_breakout[702121] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702122] = {
+_G.pg.base.ship_data_breakout[702122] = {
 	use_gold = 1500,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -27933,7 +28067,7 @@ _G.pg.ship_data_breakout[702122] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702123] = {
+_G.pg.base.ship_data_breakout[702123] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -27950,7 +28084,7 @@ _G.pg.ship_data_breakout[702123] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[702124] = {
+_G.pg.base.ship_data_breakout[702124] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -27965,7 +28099,7 @@ _G.pg.ship_data_breakout[702124] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[703011] = {
+_G.pg.base.ship_data_breakout[703011] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -27982,7 +28116,7 @@ _G.pg.ship_data_breakout[703011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[703012] = {
+_G.pg.base.ship_data_breakout[703012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -28000,7 +28134,7 @@ _G.pg.ship_data_breakout[703012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[703013] = {
+_G.pg.base.ship_data_breakout[703013] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28017,7 +28151,7 @@ _G.pg.ship_data_breakout[703013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[703014] = {
+_G.pg.base.ship_data_breakout[703014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28032,7 +28166,7 @@ _G.pg.ship_data_breakout[703014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705011] = {
+_G.pg.base.ship_data_breakout[705011] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -28050,7 +28184,7 @@ _G.pg.ship_data_breakout[705011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705012] = {
+_G.pg.base.ship_data_breakout[705012] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -28069,7 +28203,7 @@ _G.pg.ship_data_breakout[705012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705013] = {
+_G.pg.base.ship_data_breakout[705013] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -28088,7 +28222,7 @@ _G.pg.ship_data_breakout[705013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705014] = {
+_G.pg.base.ship_data_breakout[705014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28103,7 +28237,7 @@ _G.pg.ship_data_breakout[705014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705041] = {
+_G.pg.base.ship_data_breakout[705041] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -28121,7 +28255,7 @@ _G.pg.ship_data_breakout[705041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705042] = {
+_G.pg.base.ship_data_breakout[705042] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -28140,7 +28274,7 @@ _G.pg.ship_data_breakout[705042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705043] = {
+_G.pg.base.ship_data_breakout[705043] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -28159,7 +28293,7 @@ _G.pg.ship_data_breakout[705043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705044] = {
+_G.pg.base.ship_data_breakout[705044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28174,7 +28308,7 @@ _G.pg.ship_data_breakout[705044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705051] = {
+_G.pg.base.ship_data_breakout[705051] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -28192,7 +28326,7 @@ _G.pg.ship_data_breakout[705051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705052] = {
+_G.pg.base.ship_data_breakout[705052] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -28211,7 +28345,7 @@ _G.pg.ship_data_breakout[705052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705053] = {
+_G.pg.base.ship_data_breakout[705053] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -28230,7 +28364,7 @@ _G.pg.ship_data_breakout[705053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[705054] = {
+_G.pg.base.ship_data_breakout[705054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28245,7 +28379,7 @@ _G.pg.ship_data_breakout[705054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801011] = {
+_G.pg.base.ship_data_breakout[801011] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -28262,7 +28396,7 @@ _G.pg.ship_data_breakout[801011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801012] = {
+_G.pg.base.ship_data_breakout[801012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -28280,7 +28414,7 @@ _G.pg.ship_data_breakout[801012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801013] = {
+_G.pg.base.ship_data_breakout[801013] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28299,7 +28433,7 @@ _G.pg.ship_data_breakout[801013] = {
 	}
 }
 
-_G.pg.ship_data_breakout[801014] = {
+_G.pg.base.ship_data_breakout[801014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28314,7 +28448,7 @@ _G.pg.ship_data_breakout[801014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801021] = {
+_G.pg.base.ship_data_breakout[801021] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -28331,7 +28465,7 @@ _G.pg.ship_data_breakout[801021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801022] = {
+_G.pg.base.ship_data_breakout[801022] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -28349,7 +28483,7 @@ _G.pg.ship_data_breakout[801022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801023] = {
+_G.pg.base.ship_data_breakout[801023] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28368,7 +28502,7 @@ _G.pg.ship_data_breakout[801023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[801024] = {
+_G.pg.base.ship_data_breakout[801024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28383,7 +28517,7 @@ _G.pg.ship_data_breakout[801024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801031] = {
+_G.pg.base.ship_data_breakout[801031] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -28400,7 +28534,7 @@ _G.pg.ship_data_breakout[801031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801032] = {
+_G.pg.base.ship_data_breakout[801032] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -28418,7 +28552,7 @@ _G.pg.ship_data_breakout[801032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801033] = {
+_G.pg.base.ship_data_breakout[801033] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28437,7 +28571,7 @@ _G.pg.ship_data_breakout[801033] = {
 	}
 }
 
-_G.pg.ship_data_breakout[801034] = {
+_G.pg.base.ship_data_breakout[801034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28452,7 +28586,7 @@ _G.pg.ship_data_breakout[801034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801041] = {
+_G.pg.base.ship_data_breakout[801041] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -28469,7 +28603,7 @@ _G.pg.ship_data_breakout[801041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801042] = {
+_G.pg.base.ship_data_breakout[801042] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -28487,7 +28621,7 @@ _G.pg.ship_data_breakout[801042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[801043] = {
+_G.pg.base.ship_data_breakout[801043] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28506,7 +28640,7 @@ _G.pg.ship_data_breakout[801043] = {
 	}
 }
 
-_G.pg.ship_data_breakout[801044] = {
+_G.pg.base.ship_data_breakout[801044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28521,7 +28655,7 @@ _G.pg.ship_data_breakout[801044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802011] = {
+_G.pg.base.ship_data_breakout[802011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -28538,7 +28672,7 @@ _G.pg.ship_data_breakout[802011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802012] = {
+_G.pg.base.ship_data_breakout[802012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -28556,7 +28690,7 @@ _G.pg.ship_data_breakout[802012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802013] = {
+_G.pg.base.ship_data_breakout[802013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28573,7 +28707,7 @@ _G.pg.ship_data_breakout[802013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802014] = {
+_G.pg.base.ship_data_breakout[802014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28588,7 +28722,7 @@ _G.pg.ship_data_breakout[802014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802021] = {
+_G.pg.base.ship_data_breakout[802021] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/全武器效率提高2%",
 	use_char_num = 1,
@@ -28605,7 +28739,7 @@ _G.pg.ship_data_breakout[802021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802022] = {
+_G.pg.base.ship_data_breakout[802022] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -28623,7 +28757,7 @@ _G.pg.ship_data_breakout[802022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802023] = {
+_G.pg.base.ship_data_breakout[802023] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28640,7 +28774,7 @@ _G.pg.ship_data_breakout[802023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[802024] = {
+_G.pg.base.ship_data_breakout[802024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28655,7 +28789,7 @@ _G.pg.ship_data_breakout[802024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[805011] = {
+_G.pg.base.ship_data_breakout[805011] = {
 	use_gold = 1000,
 	breakout_view = "主炮預裝填+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -28672,7 +28806,7 @@ _G.pg.ship_data_breakout[805011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[805012] = {
+_G.pg.base.ship_data_breakout[805012] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -28691,7 +28825,7 @@ _G.pg.ship_data_breakout[805012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[805013] = {
+_G.pg.base.ship_data_breakout[805013] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -28709,7 +28843,7 @@ _G.pg.ship_data_breakout[805013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[805014] = {
+_G.pg.base.ship_data_breakout[805014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28724,7 +28858,7 @@ _G.pg.ship_data_breakout[805014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[807011] = {
+_G.pg.base.ship_data_breakout[807011] = {
 	use_gold = 500,
 	breakout_view = "所有艦載機+1/艦載機效率提高3%",
 	use_char_num = 1,
@@ -28742,7 +28876,7 @@ _G.pg.ship_data_breakout[807011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[807012] = {
+_G.pg.base.ship_data_breakout[807012] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/副武器底座+1/艦載機效率提高5%",
 	use_char_num = 1,
@@ -28762,7 +28896,7 @@ _G.pg.ship_data_breakout[807012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[807013] = {
+_G.pg.base.ship_data_breakout[807013] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高7%",
 	use_char_num = 2,
@@ -28782,7 +28916,7 @@ _G.pg.ship_data_breakout[807013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[807014] = {
+_G.pg.base.ship_data_breakout[807014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28797,7 +28931,7 @@ _G.pg.ship_data_breakout[807014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[808011] = {
+_G.pg.base.ship_data_breakout[808011] = {
 	use_gold = 500,
 	breakout_view = "獲得專屬彈幕I/艦炮效率提高5%",
 	use_char_num = 1,
@@ -28814,7 +28948,7 @@ _G.pg.ship_data_breakout[808011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[808012] = {
+_G.pg.base.ship_data_breakout[808012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -28834,7 +28968,7 @@ _G.pg.ship_data_breakout[808012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[808013] = {
+_G.pg.base.ship_data_breakout[808013] = {
 	use_gold = 2500,
 	breakout_view = "專屬彈幕升級/魚雷效率提高10%",
 	use_char_num = 2,
@@ -28851,7 +28985,7 @@ _G.pg.ship_data_breakout[808013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[808014] = {
+_G.pg.base.ship_data_breakout[808014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28866,7 +29000,7 @@ _G.pg.ship_data_breakout[808014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901011] = {
+_G.pg.base.ship_data_breakout[901011] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
 	use_char_num = 1,
@@ -28883,7 +29017,7 @@ _G.pg.ship_data_breakout[901011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901012] = {
+_G.pg.base.ship_data_breakout[901012] = {
 	use_gold = 800,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -28901,7 +29035,7 @@ _G.pg.ship_data_breakout[901012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901013] = {
+_G.pg.base.ship_data_breakout[901013] = {
 	use_gold = 1500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28920,7 +29054,7 @@ _G.pg.ship_data_breakout[901013] = {
 	}
 }
 
-_G.pg.ship_data_breakout[901014] = {
+_G.pg.base.ship_data_breakout[901014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -28935,7 +29069,7 @@ _G.pg.ship_data_breakout[901014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901021] = {
+_G.pg.base.ship_data_breakout[901021] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -28952,7 +29086,7 @@ _G.pg.ship_data_breakout[901021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901022] = {
+_G.pg.base.ship_data_breakout[901022] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -28970,7 +29104,7 @@ _G.pg.ship_data_breakout[901022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901023] = {
+_G.pg.base.ship_data_breakout[901023] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -28989,7 +29123,7 @@ _G.pg.ship_data_breakout[901023] = {
 	}
 }
 
-_G.pg.ship_data_breakout[901024] = {
+_G.pg.base.ship_data_breakout[901024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29004,7 +29138,7 @@ _G.pg.ship_data_breakout[901024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901031] = {
+_G.pg.base.ship_data_breakout[901031] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -29021,7 +29155,7 @@ _G.pg.ship_data_breakout[901031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901032] = {
+_G.pg.base.ship_data_breakout[901032] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -29039,7 +29173,7 @@ _G.pg.ship_data_breakout[901032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901033] = {
+_G.pg.base.ship_data_breakout[901033] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -29058,7 +29192,7 @@ _G.pg.ship_data_breakout[901033] = {
 	}
 }
 
-_G.pg.ship_data_breakout[901034] = {
+_G.pg.base.ship_data_breakout[901034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29073,7 +29207,7 @@ _G.pg.ship_data_breakout[901034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901111] = {
+_G.pg.base.ship_data_breakout[901111] = {
 	use_gold = 1000,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -29090,7 +29224,7 @@ _G.pg.ship_data_breakout[901111] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901112] = {
+_G.pg.base.ship_data_breakout[901112] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -29108,7 +29242,7 @@ _G.pg.ship_data_breakout[901112] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[901113] = {
+_G.pg.base.ship_data_breakout[901113] = {
 	use_gold = 10000,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -29127,7 +29261,7 @@ _G.pg.ship_data_breakout[901113] = {
 	}
 }
 
-_G.pg.ship_data_breakout[901114] = {
+_G.pg.base.ship_data_breakout[901114] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29142,7 +29276,7 @@ _G.pg.ship_data_breakout[901114] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[902011] = {
+_G.pg.base.ship_data_breakout[902011] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
 	use_char_num = 1,
@@ -29159,7 +29293,7 @@ _G.pg.ship_data_breakout[902011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[902012] = {
+_G.pg.base.ship_data_breakout[902012] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 	use_char_num = 1,
@@ -29177,7 +29311,7 @@ _G.pg.ship_data_breakout[902012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[902013] = {
+_G.pg.base.ship_data_breakout[902013] = {
 	use_gold = 2500,
 	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -29194,7 +29328,7 @@ _G.pg.ship_data_breakout[902013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[902014] = {
+_G.pg.base.ship_data_breakout[902014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29209,7 +29343,7 @@ _G.pg.ship_data_breakout[902014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[903021] = {
+_G.pg.base.ship_data_breakout[903021] = {
 	use_gold = 1000,
 	breakout_view = "獲得全彈發射I/主炮效率提高5%",
 	use_char_num = 1,
@@ -29226,7 +29360,7 @@ _G.pg.ship_data_breakout[903021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[903022] = {
+_G.pg.base.ship_data_breakout[903022] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -29244,7 +29378,7 @@ _G.pg.ship_data_breakout[903022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[903023] = {
+_G.pg.base.ship_data_breakout[903023] = {
 	use_gold = 10000,
 	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -29261,7 +29395,7 @@ _G.pg.ship_data_breakout[903023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[903024] = {
+_G.pg.base.ship_data_breakout[903024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29276,7 +29410,7 @@ _G.pg.ship_data_breakout[903024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[904011] = {
+_G.pg.base.ship_data_breakout[904011] = {
 	use_gold = 500,
 	breakout_view = "主炮預裝填+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -29293,7 +29427,7 @@ _G.pg.ship_data_breakout[904011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[904012] = {
+_G.pg.base.ship_data_breakout[904012] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -29312,7 +29446,7 @@ _G.pg.ship_data_breakout[904012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[904013] = {
+_G.pg.base.ship_data_breakout[904013] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -29330,7 +29464,7 @@ _G.pg.ship_data_breakout[904013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[904014] = {
+_G.pg.base.ship_data_breakout[904014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29345,7 +29479,7 @@ _G.pg.ship_data_breakout[904014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905011] = {
+_G.pg.base.ship_data_breakout[905011] = {
 	use_gold = 1000,
 	breakout_view = "主炮預裝填+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -29362,7 +29496,7 @@ _G.pg.ship_data_breakout[905011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905012] = {
+_G.pg.base.ship_data_breakout[905012] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -29381,7 +29515,7 @@ _G.pg.ship_data_breakout[905012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905013] = {
+_G.pg.base.ship_data_breakout[905013] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -29399,7 +29533,7 @@ _G.pg.ship_data_breakout[905013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905014] = {
+_G.pg.base.ship_data_breakout[905014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29414,7 +29548,7 @@ _G.pg.ship_data_breakout[905014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905031] = {
+_G.pg.base.ship_data_breakout[905031] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/每次主炮射擊均可獨立瞄準/主炮效率提高5%",
 	use_char_num = 1,
@@ -29431,7 +29565,7 @@ _G.pg.ship_data_breakout[905031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905032] = {
+_G.pg.base.ship_data_breakout[905032] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -29450,7 +29584,7 @@ _G.pg.ship_data_breakout[905032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905033] = {
+_G.pg.base.ship_data_breakout[905033] = {
 	use_gold = 10000,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -29468,7 +29602,7 @@ _G.pg.ship_data_breakout[905033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[905034] = {
+_G.pg.base.ship_data_breakout[905034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29483,7 +29617,7 @@ _G.pg.ship_data_breakout[905034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600011] = {
+_G.pg.base.ship_data_breakout[10600011] = {
 	use_gold = 1000,
 	breakout_view = "魚雷效率提高5%",
 	use_char_num = 1,
@@ -29500,7 +29634,7 @@ _G.pg.ship_data_breakout[10600011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600012] = {
+_G.pg.base.ship_data_breakout[10600012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -29517,7 +29651,7 @@ _G.pg.ship_data_breakout[10600012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600013] = {
+_G.pg.base.ship_data_breakout[10600013] = {
 	use_gold = 10000,
 	breakout_view = "全武器效率提高5%",
 	use_char_num = 2,
@@ -29536,7 +29670,7 @@ _G.pg.ship_data_breakout[10600013] = {
 	}
 }
 
-_G.pg.ship_data_breakout[10600014] = {
+_G.pg.base.ship_data_breakout[10600014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29551,7 +29685,7 @@ _G.pg.ship_data_breakout[10600014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600021] = {
+_G.pg.base.ship_data_breakout[10600021] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -29569,7 +29703,7 @@ _G.pg.ship_data_breakout[10600021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600022] = {
+_G.pg.base.ship_data_breakout[10600022] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -29588,7 +29722,7 @@ _G.pg.ship_data_breakout[10600022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600023] = {
+_G.pg.base.ship_data_breakout[10600023] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -29607,7 +29741,7 @@ _G.pg.ship_data_breakout[10600023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600024] = {
+_G.pg.base.ship_data_breakout[10600024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29622,7 +29756,7 @@ _G.pg.ship_data_breakout[10600024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600031] = {
+_G.pg.base.ship_data_breakout[10600031] = {
 	use_gold = 1000,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -29639,7 +29773,7 @@ _G.pg.ship_data_breakout[10600031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600032] = {
+_G.pg.base.ship_data_breakout[10600032] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -29657,7 +29791,7 @@ _G.pg.ship_data_breakout[10600032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600033] = {
+_G.pg.base.ship_data_breakout[10600033] = {
 	use_gold = 10000,
 	breakout_view = "魚雷效率提高15%",
 	use_char_num = 2,
@@ -29675,7 +29809,7 @@ _G.pg.ship_data_breakout[10600033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600034] = {
+_G.pg.base.ship_data_breakout[10600034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29690,7 +29824,7 @@ _G.pg.ship_data_breakout[10600034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600041] = {
+_G.pg.base.ship_data_breakout[10600041] = {
 	use_gold = 1000,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -29707,7 +29841,7 @@ _G.pg.ship_data_breakout[10600041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600042] = {
+_G.pg.base.ship_data_breakout[10600042] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -29725,7 +29859,7 @@ _G.pg.ship_data_breakout[10600042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600043] = {
+_G.pg.base.ship_data_breakout[10600043] = {
 	use_gold = 10000,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -29743,7 +29877,7 @@ _G.pg.ship_data_breakout[10600043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600044] = {
+_G.pg.base.ship_data_breakout[10600044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29758,7 +29892,7 @@ _G.pg.ship_data_breakout[10600044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600051] = {
+_G.pg.base.ship_data_breakout[10600051] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -29776,7 +29910,7 @@ _G.pg.ship_data_breakout[10600051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600052] = {
+_G.pg.base.ship_data_breakout[10600052] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -29795,7 +29929,7 @@ _G.pg.ship_data_breakout[10600052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600053] = {
+_G.pg.base.ship_data_breakout[10600053] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -29814,7 +29948,7 @@ _G.pg.ship_data_breakout[10600053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600054] = {
+_G.pg.base.ship_data_breakout[10600054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29829,7 +29963,7 @@ _G.pg.ship_data_breakout[10600054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600061] = {
+_G.pg.base.ship_data_breakout[10600061] = {
 	use_gold = 500,
 	breakout_view = "所有轟炸機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -29847,7 +29981,7 @@ _G.pg.ship_data_breakout[10600061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600062] = {
+_G.pg.base.ship_data_breakout[10600062] = {
 	use_gold = 1500,
 	breakout_view = "機庫容量+1/所有魚雷機+1/轟炸機效率提高10%",
 	use_char_num = 1,
@@ -29867,7 +30001,7 @@ _G.pg.ship_data_breakout[10600062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600063] = {
+_G.pg.base.ship_data_breakout[10600063] = {
 	use_gold = 2500,
 	breakout_view = "所有艦載機+1/艦載機效率提高5%",
 	use_char_num = 2,
@@ -29887,7 +30021,7 @@ _G.pg.ship_data_breakout[10600063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600064] = {
+_G.pg.base.ship_data_breakout[10600064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29902,7 +30036,7 @@ _G.pg.ship_data_breakout[10600064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600071] = {
+_G.pg.base.ship_data_breakout[10600071] = {
 	use_gold = 500,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -29919,7 +30053,7 @@ _G.pg.ship_data_breakout[10600071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600072] = {
+_G.pg.base.ship_data_breakout[10600072] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -29937,7 +30071,7 @@ _G.pg.ship_data_breakout[10600072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600073] = {
+_G.pg.base.ship_data_breakout[10600073] = {
 	use_gold = 2500,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -29954,7 +30088,7 @@ _G.pg.ship_data_breakout[10600073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10600074] = {
+_G.pg.base.ship_data_breakout[10600074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -29969,7 +30103,7 @@ _G.pg.ship_data_breakout[10600074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700011] = {
+_G.pg.base.ship_data_breakout[10700011] = {
 	use_gold = 1000,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -29986,7 +30120,7 @@ _G.pg.ship_data_breakout[10700011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700012] = {
+_G.pg.base.ship_data_breakout[10700012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -30004,7 +30138,7 @@ _G.pg.ship_data_breakout[10700012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700013] = {
+_G.pg.base.ship_data_breakout[10700013] = {
 	use_gold = 10000,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -30021,7 +30155,7 @@ _G.pg.ship_data_breakout[10700013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700014] = {
+_G.pg.base.ship_data_breakout[10700014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30036,7 +30170,7 @@ _G.pg.ship_data_breakout[10700014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700021] = {
+_G.pg.base.ship_data_breakout[10700021] = {
 	use_gold = 1000,
 	breakout_view = "所有轟炸機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -30054,7 +30188,7 @@ _G.pg.ship_data_breakout[10700021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700022] = {
+_G.pg.base.ship_data_breakout[10700022] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有魚雷機+1/轟炸機效率提高10%",
 	use_char_num = 1,
@@ -30074,7 +30208,7 @@ _G.pg.ship_data_breakout[10700022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700023] = {
+_G.pg.base.ship_data_breakout[10700023] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/艦載機效率提高5%",
 	use_char_num = 2,
@@ -30094,7 +30228,7 @@ _G.pg.ship_data_breakout[10700023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700024] = {
+_G.pg.base.ship_data_breakout[10700024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30109,7 +30243,7 @@ _G.pg.ship_data_breakout[10700024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700031] = {
+_G.pg.base.ship_data_breakout[10700031] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -30127,7 +30261,7 @@ _G.pg.ship_data_breakout[10700031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700032] = {
+_G.pg.base.ship_data_breakout[10700032] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -30146,7 +30280,7 @@ _G.pg.ship_data_breakout[10700032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700033] = {
+_G.pg.base.ship_data_breakout[10700033] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -30165,7 +30299,7 @@ _G.pg.ship_data_breakout[10700033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700034] = {
+_G.pg.base.ship_data_breakout[10700034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30180,7 +30314,7 @@ _G.pg.ship_data_breakout[10700034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700041] = {
+_G.pg.base.ship_data_breakout[10700041] = {
 	use_gold = 1000,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -30197,7 +30331,7 @@ _G.pg.ship_data_breakout[10700041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700042] = {
+_G.pg.base.ship_data_breakout[10700042] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -30215,7 +30349,7 @@ _G.pg.ship_data_breakout[10700042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700043] = {
+_G.pg.base.ship_data_breakout[10700043] = {
 	use_gold = 10000,
 	breakout_view = "全武器效率提高5%",
 	use_char_num = 2,
@@ -30233,7 +30367,7 @@ _G.pg.ship_data_breakout[10700043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700044] = {
+_G.pg.base.ship_data_breakout[10700044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30248,7 +30382,7 @@ _G.pg.ship_data_breakout[10700044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700051] = {
+_G.pg.base.ship_data_breakout[10700051] = {
 	use_gold = 500,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -30265,7 +30399,7 @@ _G.pg.ship_data_breakout[10700051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700052] = {
+_G.pg.base.ship_data_breakout[10700052] = {
 	use_gold = 1500,
 	breakout_view = "防空炮效率提高10%",
 	use_char_num = 1,
@@ -30282,7 +30416,7 @@ _G.pg.ship_data_breakout[10700052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700053] = {
+_G.pg.base.ship_data_breakout[10700053] = {
 	use_gold = 2500,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -30299,7 +30433,7 @@ _G.pg.ship_data_breakout[10700053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700054] = {
+_G.pg.base.ship_data_breakout[10700054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30314,7 +30448,7 @@ _G.pg.ship_data_breakout[10700054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700061] = {
+_G.pg.base.ship_data_breakout[10700061] = {
 	use_gold = 500,
 	breakout_view = "魚雷效率提高5%",
 	use_char_num = 1,
@@ -30333,7 +30467,7 @@ _G.pg.ship_data_breakout[10700061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700062] = {
+_G.pg.base.ship_data_breakout[10700062] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -30353,7 +30487,7 @@ _G.pg.ship_data_breakout[10700062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700063] = {
+_G.pg.base.ship_data_breakout[10700063] = {
 	use_gold = 2500,
 	breakout_view = "魚雷效率提高10%",
 	use_char_num = 2,
@@ -30373,7 +30507,7 @@ _G.pg.ship_data_breakout[10700063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700064] = {
+_G.pg.base.ship_data_breakout[10700064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30388,7 +30522,7 @@ _G.pg.ship_data_breakout[10700064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700071] = {
+_G.pg.base.ship_data_breakout[10700071] = {
 	use_gold = 500,
 	breakout_view = "魚雷效率提高5%",
 	use_char_num = 1,
@@ -30407,7 +30541,7 @@ _G.pg.ship_data_breakout[10700071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700072] = {
+_G.pg.base.ship_data_breakout[10700072] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/狩獵範圍升級",
 	use_char_num = 1,
@@ -30427,7 +30561,7 @@ _G.pg.ship_data_breakout[10700072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700073] = {
+_G.pg.base.ship_data_breakout[10700073] = {
 	use_gold = 2500,
 	breakout_view = "魚雷效率提高10%",
 	use_char_num = 2,
@@ -30447,7 +30581,7 @@ _G.pg.ship_data_breakout[10700073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10700074] = {
+_G.pg.base.ship_data_breakout[10700074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30462,7 +30596,7 @@ _G.pg.ship_data_breakout[10700074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800011] = {
+_G.pg.base.ship_data_breakout[10800011] = {
 	use_gold = 1000,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -30479,7 +30613,7 @@ _G.pg.ship_data_breakout[10800011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800012] = {
+_G.pg.base.ship_data_breakout[10800012] = {
 	use_gold = 3000,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -30497,7 +30631,7 @@ _G.pg.ship_data_breakout[10800012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800013] = {
+_G.pg.base.ship_data_breakout[10800013] = {
 	use_gold = 10000,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -30514,7 +30648,7 @@ _G.pg.ship_data_breakout[10800013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800014] = {
+_G.pg.base.ship_data_breakout[10800014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30529,7 +30663,7 @@ _G.pg.ship_data_breakout[10800014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800021] = {
+_G.pg.base.ship_data_breakout[10800021] = {
 	use_gold = 1000,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -30547,7 +30681,7 @@ _G.pg.ship_data_breakout[10800021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800022] = {
+_G.pg.base.ship_data_breakout[10800022] = {
 	use_gold = 3000,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -30566,7 +30700,7 @@ _G.pg.ship_data_breakout[10800022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800023] = {
+_G.pg.base.ship_data_breakout[10800023] = {
 	use_gold = 10000,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -30585,7 +30719,7 @@ _G.pg.ship_data_breakout[10800023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800024] = {
+_G.pg.base.ship_data_breakout[10800024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30600,7 +30734,7 @@ _G.pg.ship_data_breakout[10800024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800031] = {
+_G.pg.base.ship_data_breakout[10800031] = {
 	use_gold = 500,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -30617,7 +30751,7 @@ _G.pg.ship_data_breakout[10800031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800032] = {
+_G.pg.base.ship_data_breakout[10800032] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -30635,7 +30769,7 @@ _G.pg.ship_data_breakout[10800032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800033] = {
+_G.pg.base.ship_data_breakout[10800033] = {
 	use_gold = 2500,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -30652,7 +30786,7 @@ _G.pg.ship_data_breakout[10800033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800034] = {
+_G.pg.base.ship_data_breakout[10800034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30667,7 +30801,7 @@ _G.pg.ship_data_breakout[10800034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800041] = {
+_G.pg.base.ship_data_breakout[10800041] = {
 	use_gold = 500,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -30684,7 +30818,7 @@ _G.pg.ship_data_breakout[10800041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800042] = {
+_G.pg.base.ship_data_breakout[10800042] = {
 	use_gold = 1500,
 	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 	use_char_num = 1,
@@ -30702,7 +30836,7 @@ _G.pg.ship_data_breakout[10800042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800043] = {
+_G.pg.base.ship_data_breakout[10800043] = {
 	use_gold = 2500,
 	breakout_view = "魚雷效率提高15%",
 	use_char_num = 2,
@@ -30719,7 +30853,7 @@ _G.pg.ship_data_breakout[10800043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800044] = {
+_G.pg.base.ship_data_breakout[10800044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30734,7 +30868,7 @@ _G.pg.ship_data_breakout[10800044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800051] = {
+_G.pg.base.ship_data_breakout[10800051] = {
 	use_gold = 1000,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -30751,7 +30885,7 @@ _G.pg.ship_data_breakout[10800051] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800052] = {
+_G.pg.base.ship_data_breakout[10800052] = {
 	use_gold = 3000,
 	breakout_view = "主炮底座+1/主炮效率提高10%",
 	use_char_num = 1,
@@ -30769,7 +30903,7 @@ _G.pg.ship_data_breakout[10800052] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800053] = {
+_G.pg.base.ship_data_breakout[10800053] = {
 	use_gold = 10000,
 	breakout_view = "全武器效率提高5%",
 	use_char_num = 2,
@@ -30787,7 +30921,7 @@ _G.pg.ship_data_breakout[10800053] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800054] = {
+_G.pg.base.ship_data_breakout[10800054] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30802,7 +30936,7 @@ _G.pg.ship_data_breakout[10800054] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800061] = {
+_G.pg.base.ship_data_breakout[10800061] = {
 	use_gold = 1000,
 	breakout_view = "所有轟炸機+1/魚雷機效率提高5%",
 	use_char_num = 1,
@@ -30820,7 +30954,7 @@ _G.pg.ship_data_breakout[10800061] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800062] = {
+_G.pg.base.ship_data_breakout[10800062] = {
 	use_gold = 3000,
 	breakout_view = "機庫容量+1/所有魚雷機+1/魚雷機效率提高10%",
 	use_char_num = 1,
@@ -30840,7 +30974,7 @@ _G.pg.ship_data_breakout[10800062] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800063] = {
+_G.pg.base.ship_data_breakout[10800063] = {
 	use_gold = 10000,
 	breakout_view = "所有艦載機+1/魚雷機效率提高15%",
 	use_char_num = 2,
@@ -30860,7 +30994,7 @@ _G.pg.ship_data_breakout[10800063] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800064] = {
+_G.pg.base.ship_data_breakout[10800064] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30875,7 +31009,7 @@ _G.pg.ship_data_breakout[10800064] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800071] = {
+_G.pg.base.ship_data_breakout[10800071] = {
 	use_gold = 500,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -30893,7 +31027,7 @@ _G.pg.ship_data_breakout[10800071] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800072] = {
+_G.pg.base.ship_data_breakout[10800072] = {
 	use_gold = 1500,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -30912,7 +31046,7 @@ _G.pg.ship_data_breakout[10800072] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800073] = {
+_G.pg.base.ship_data_breakout[10800073] = {
 	use_gold = 2500,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -30931,7 +31065,7 @@ _G.pg.ship_data_breakout[10800073] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[10800074] = {
+_G.pg.base.ship_data_breakout[10800074] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -30946,7 +31080,7 @@ _G.pg.ship_data_breakout[10800074] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299011] = {
+_G.pg.base.ship_data_breakout[299011] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -30963,7 +31097,7 @@ _G.pg.ship_data_breakout[299011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299012] = {
+_G.pg.base.ship_data_breakout[299012] = {
 	use_gold = 0,
 	breakout_view = "魚雷效率提高10%",
 	use_char_num = 1,
@@ -30981,7 +31115,7 @@ _G.pg.ship_data_breakout[299012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299013] = {
+_G.pg.base.ship_data_breakout[299013] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -30998,7 +31132,7 @@ _G.pg.ship_data_breakout[299013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299014] = {
+_G.pg.base.ship_data_breakout[299014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31013,7 +31147,7 @@ _G.pg.ship_data_breakout[299014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299021] = {
+_G.pg.base.ship_data_breakout[299021] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -31031,7 +31165,7 @@ _G.pg.ship_data_breakout[299021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299022] = {
+_G.pg.base.ship_data_breakout[299022] = {
 	use_gold = 0,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -31050,7 +31184,7 @@ _G.pg.ship_data_breakout[299022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299023] = {
+_G.pg.base.ship_data_breakout[299023] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -31069,7 +31203,7 @@ _G.pg.ship_data_breakout[299023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299024] = {
+_G.pg.base.ship_data_breakout[299024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31084,7 +31218,7 @@ _G.pg.ship_data_breakout[299024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399011] = {
+_G.pg.base.ship_data_breakout[399011] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -31101,7 +31235,7 @@ _G.pg.ship_data_breakout[399011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399012] = {
+_G.pg.base.ship_data_breakout[399012] = {
 	use_gold = 0,
 	breakout_view = "魚雷效率提高10%",
 	use_char_num = 1,
@@ -31119,7 +31253,7 @@ _G.pg.ship_data_breakout[399012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399013] = {
+_G.pg.base.ship_data_breakout[399013] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/魚雷效率提高15%",
 	use_char_num = 2,
@@ -31136,7 +31270,7 @@ _G.pg.ship_data_breakout[399013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399014] = {
+_G.pg.base.ship_data_breakout[399014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31151,7 +31285,7 @@ _G.pg.ship_data_breakout[399014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399021] = {
+_G.pg.base.ship_data_breakout[399021] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -31169,7 +31303,7 @@ _G.pg.ship_data_breakout[399021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399022] = {
+_G.pg.base.ship_data_breakout[399022] = {
 	use_gold = 0,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -31188,7 +31322,7 @@ _G.pg.ship_data_breakout[399022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399023] = {
+_G.pg.base.ship_data_breakout[399023] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -31207,7 +31341,7 @@ _G.pg.ship_data_breakout[399023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399024] = {
+_G.pg.base.ship_data_breakout[399024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31222,7 +31356,7 @@ _G.pg.ship_data_breakout[399024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499011] = {
+_G.pg.base.ship_data_breakout[499011] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/全武器效率提高2%",
 	use_char_num = 1,
@@ -31239,7 +31373,7 @@ _G.pg.ship_data_breakout[499011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499012] = {
+_G.pg.base.ship_data_breakout[499012] = {
 	use_gold = 0,
 	breakout_view = "全武器效率提高3%",
 	use_char_num = 1,
@@ -31257,7 +31391,7 @@ _G.pg.ship_data_breakout[499012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499013] = {
+_G.pg.base.ship_data_breakout[499013] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -31274,7 +31408,7 @@ _G.pg.ship_data_breakout[499013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499014] = {
+_G.pg.base.ship_data_breakout[499014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31289,7 +31423,7 @@ _G.pg.ship_data_breakout[499014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899011] = {
+_G.pg.base.ship_data_breakout[899011] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -31306,7 +31440,7 @@ _G.pg.ship_data_breakout[899011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899012] = {
+_G.pg.base.ship_data_breakout[899012] = {
 	use_gold = 0,
 	breakout_view = "魚雷效率提高10%",
 	use_char_num = 1,
@@ -31324,7 +31458,7 @@ _G.pg.ship_data_breakout[899012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899013] = {
+_G.pg.base.ship_data_breakout[899013] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -31341,7 +31475,7 @@ _G.pg.ship_data_breakout[899013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899014] = {
+_G.pg.base.ship_data_breakout[899014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31356,7 +31490,7 @@ _G.pg.ship_data_breakout[899014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199011] = {
+_G.pg.base.ship_data_breakout[199011] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主武器效率提高5%",
 	use_char_num = 1,
@@ -31373,7 +31507,7 @@ _G.pg.ship_data_breakout[199011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199012] = {
+_G.pg.base.ship_data_breakout[199012] = {
 	use_gold = 0,
 	breakout_view = "主武器效率提高10%/副武器欄位可以裝備主炮",
 	use_char_num = 1,
@@ -31391,7 +31525,7 @@ _G.pg.ship_data_breakout[199012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199013] = {
+_G.pg.base.ship_data_breakout[199013] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/主武器效率提高15%",
 	use_char_num = 2,
@@ -31408,7 +31542,7 @@ _G.pg.ship_data_breakout[199013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199014] = {
+_G.pg.base.ship_data_breakout[199014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31423,7 +31557,7 @@ _G.pg.ship_data_breakout[199014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199021] = {
+_G.pg.base.ship_data_breakout[199021] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -31441,7 +31575,7 @@ _G.pg.ship_data_breakout[199021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199022] = {
+_G.pg.base.ship_data_breakout[199022] = {
 	use_gold = 0,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -31460,7 +31594,7 @@ _G.pg.ship_data_breakout[199022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199023] = {
+_G.pg.base.ship_data_breakout[199023] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -31478,7 +31612,7 @@ _G.pg.ship_data_breakout[199023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[199024] = {
+_G.pg.base.ship_data_breakout[199024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31493,7 +31627,7 @@ _G.pg.ship_data_breakout[199024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399031] = {
+_G.pg.base.ship_data_breakout[399031] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -31511,7 +31645,7 @@ _G.pg.ship_data_breakout[399031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399032] = {
+_G.pg.base.ship_data_breakout[399032] = {
 	use_gold = 0,
 	breakout_view = "防空炮效率提高10%",
 	use_char_num = 1,
@@ -31529,7 +31663,7 @@ _G.pg.ship_data_breakout[399032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399033] = {
+_G.pg.base.ship_data_breakout[399033] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -31549,7 +31683,7 @@ _G.pg.ship_data_breakout[399033] = {
 	}
 }
 
-_G.pg.ship_data_breakout[399034] = {
+_G.pg.base.ship_data_breakout[399034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31564,7 +31698,7 @@ _G.pg.ship_data_breakout[399034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399041] = {
+_G.pg.base.ship_data_breakout[399041] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -31581,7 +31715,7 @@ _G.pg.ship_data_breakout[399041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399042] = {
+_G.pg.base.ship_data_breakout[399042] = {
 	use_gold = 0,
 	breakout_view = "副炮效率提高10%",
 	use_char_num = 1,
@@ -31599,7 +31733,7 @@ _G.pg.ship_data_breakout[399042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399043] = {
+_G.pg.base.ship_data_breakout[399043] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -31617,7 +31751,7 @@ _G.pg.ship_data_breakout[399043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[399044] = {
+_G.pg.base.ship_data_breakout[399044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31632,7 +31766,7 @@ _G.pg.ship_data_breakout[399044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499021] = {
+_G.pg.base.ship_data_breakout[499021] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高5%",
 	use_char_num = 1,
@@ -31650,7 +31784,7 @@ _G.pg.ship_data_breakout[499021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499022] = {
+_G.pg.base.ship_data_breakout[499022] = {
 	use_gold = 0,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -31669,7 +31803,7 @@ _G.pg.ship_data_breakout[499022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499023] = {
+_G.pg.base.ship_data_breakout[499023] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -31688,7 +31822,7 @@ _G.pg.ship_data_breakout[499023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499024] = {
+_G.pg.base.ship_data_breakout[499024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31703,7 +31837,7 @@ _G.pg.ship_data_breakout[499024] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[999011] = {
+_G.pg.base.ship_data_breakout[999011] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -31720,7 +31854,7 @@ _G.pg.ship_data_breakout[999011] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[999012] = {
+_G.pg.base.ship_data_breakout[999012] = {
 	use_gold = 0,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -31739,7 +31873,7 @@ _G.pg.ship_data_breakout[999012] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[999013] = {
+_G.pg.base.ship_data_breakout[999013] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -31756,7 +31890,7 @@ _G.pg.ship_data_breakout[999013] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[999014] = {
+_G.pg.base.ship_data_breakout[999014] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31771,7 +31905,7 @@ _G.pg.ship_data_breakout[999014] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299031] = {
+_G.pg.base.ship_data_breakout[299031] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -31788,7 +31922,7 @@ _G.pg.ship_data_breakout[299031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299032] = {
+_G.pg.base.ship_data_breakout[299032] = {
 	use_gold = 0,
 	breakout_view = "防空炮效率提高10%",
 	use_char_num = 1,
@@ -31803,7 +31937,7 @@ _G.pg.ship_data_breakout[299032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299033] = {
+_G.pg.base.ship_data_breakout[299033] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/全武器效率提高5%",
 	use_char_num = 2,
@@ -31820,7 +31954,7 @@ _G.pg.ship_data_breakout[299033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299034] = {
+_G.pg.base.ship_data_breakout[299034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31835,7 +31969,7 @@ _G.pg.ship_data_breakout[299034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299041] = {
+_G.pg.base.ship_data_breakout[299041] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -31852,7 +31986,7 @@ _G.pg.ship_data_breakout[299041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299042] = {
+_G.pg.base.ship_data_breakout[299042] = {
 	use_gold = 0,
 	breakout_view = "魚雷效率提高10%",
 	use_char_num = 1,
@@ -31870,7 +32004,7 @@ _G.pg.ship_data_breakout[299042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299043] = {
+_G.pg.base.ship_data_breakout[299043] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -31887,7 +32021,7 @@ _G.pg.ship_data_breakout[299043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[299044] = {
+_G.pg.base.ship_data_breakout[299044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31902,7 +32036,7 @@ _G.pg.ship_data_breakout[299044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499031] = {
+_G.pg.base.ship_data_breakout[499031] = {
 	use_gold = 0,
 	breakout_view = "獲得專屬彈幕I/主炮效率提高5%",
 	use_char_num = 1,
@@ -31919,7 +32053,7 @@ _G.pg.ship_data_breakout[499031] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499032] = {
+_G.pg.base.ship_data_breakout[499032] = {
 	use_gold = 0,
 	breakout_view = "魚雷效率提高10%",
 	use_char_num = 1,
@@ -31937,7 +32071,7 @@ _G.pg.ship_data_breakout[499032] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499033] = {
+_G.pg.base.ship_data_breakout[499033] = {
 	use_gold = 0,
 	breakout_view = "專屬彈幕升級/主炮效率提高15%",
 	use_char_num = 2,
@@ -31954,7 +32088,7 @@ _G.pg.ship_data_breakout[499033] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499034] = {
+_G.pg.base.ship_data_breakout[499034] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -31969,7 +32103,7 @@ _G.pg.ship_data_breakout[499034] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499041] = {
+_G.pg.base.ship_data_breakout[499041] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/裝備特殊副炮",
 	use_char_num = 1,
@@ -31989,7 +32123,7 @@ _G.pg.ship_data_breakout[499041] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499042] = {
+_G.pg.base.ship_data_breakout[499042] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 1,
@@ -32007,7 +32141,7 @@ _G.pg.ship_data_breakout[499042] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499043] = {
+_G.pg.base.ship_data_breakout[499043] = {
 	use_gold = 0,
 	breakout_view = "主炮底座+1/主炮效率提高15%",
 	use_char_num = 2,
@@ -32026,7 +32160,7 @@ _G.pg.ship_data_breakout[499043] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[499044] = {
+_G.pg.base.ship_data_breakout[499044] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,
@@ -32041,7 +32175,7 @@ _G.pg.ship_data_breakout[499044] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899021] = {
+_G.pg.base.ship_data_breakout[899021] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高5%",
 	use_char_num = 1,
@@ -32059,7 +32193,7 @@ _G.pg.ship_data_breakout[899021] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899022] = {
+_G.pg.base.ship_data_breakout[899022] = {
 	use_gold = 0,
 	breakout_view = "副炮底座+2/主炮效率提高10%",
 	use_char_num = 1,
@@ -32078,7 +32212,7 @@ _G.pg.ship_data_breakout[899022] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899023] = {
+_G.pg.base.ship_data_breakout[899023] = {
 	use_gold = 0,
 	breakout_view = "主炮效率提高15%",
 	use_char_num = 2,
@@ -32097,7 +32231,7 @@ _G.pg.ship_data_breakout[899023] = {
 	ultimate_bonus = {}
 }
 
-_G.pg.ship_data_breakout[899024] = {
+_G.pg.base.ship_data_breakout[899024] = {
 	use_gold = 0,
 	breakout_view = "無",
 	use_char_num = 0,

@@ -604,10 +604,10 @@ pg.activity_const = {
 		act_id = 531
 	},
 	OUTPOST_PT = {
-		act_id = 40555
+		act_id = 40624
 	},
 	OUTPOST_TASK = {
-		act_id = 40556
+		act_id = 40625
 	},
 	APRILFOOL_DISCOVERY = {
 		act_id = 549
@@ -775,7 +775,7 @@ pg.activity_const = {
 		act_id = 40292
 	},
 	NEWMEIXIV4_SKIRMISH_ID = {
-		act_id = 974
+		act_id = 40626
 	},
 	MINIGAME_DANGAOBAOWEIZHAN = {
 		act_id = 987

@@ -41,8 +41,7 @@ function slot0.init(slot0)
 	slot0.selectPanel = slot0:findTF("select_ship_panel")
 	slot0.selectPanelCloseBtn = slot0:findTF("window/top/btnBack", slot0.selectPanel)
 	slot0.shipContent = slot0:findTF("window/sliders/scroll_rect/content", slot0.selectPanel)
-	slot1 = slot0._tf
-	slot0.shipCardTpl = slot1:GetComponent("ItemList").prefabItem[0]
+	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
 	slot0.confirmChangeBtn = slot0:findTF("window/exchange_btn", slot0.selectPanel)
 	slot0.flagShipToggle = slot0:findTF("window/flag_ship", slot0.selectPanel)
 
@@ -51,12 +50,9 @@ function slot0.init(slot0)
 	slot0.isTimeLimit = slot0.contextData.timeLimit
 
 	setActive(slot0.timelimit, slot0.isTimeLimit)
-
-	slot0.weightData = {
-		weight = slot0:getWeightFromData()
-	}
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, slot0.weightData)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	slot0.isLoadBg = false
 end
@@ -364,7 +360,7 @@ function slot0.openSelectPanel(slot0)
 	slot5 = {
 		weight = slot6
 	}
-	slot6 = slot0:getWeightFromData() + 1
+	slot6 = LayerWeightConst.TOP_LAYER
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0.selectPanel, false, slot5)
 

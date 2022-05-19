@@ -28,9 +28,12 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				check_target = "TargetShipTag",
-				target = "TargetSelf",
 				buff_id = 13965,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Weser"
 				}

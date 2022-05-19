@@ -2139,6 +2139,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[390] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 55,
+		code = 390,
+		group_type = 10219,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[34] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -2615,6 +2650,41 @@ pg.ship_data_group = {
 				},
 				0
 			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[391] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 68,
+		code = 391,
+		group_type = 10220,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
 			{
 				"進行輕型艦建造",
 				{
@@ -18003,6 +18073,7 @@ pg.ship_data_group = {
 		304,
 		305,
 		33,
+		390,
 		34,
 		35,
 		36,
@@ -18015,6 +18086,7 @@ pg.ship_data_group = {
 		330,
 		405,
 		428,
+		391,
 		420,
 		39,
 		40,

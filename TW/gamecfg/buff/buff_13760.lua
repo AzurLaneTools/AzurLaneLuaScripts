@@ -29,9 +29,12 @@ return {
 			arg_list = {
 				buff_id = 13761,
 				minTargetNumber = 2,
-				check_target = "TargetShipTag",
-				isBuffStackByCheckTarget = true,
 				target = "TargetSelf",
+				isBuffStackByCheckTarget = true,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"μ"
 				}

@@ -178,6 +178,8 @@ function slot0.CustomSetting(slot0, slot1)
 	end
 
 	slot0.gemAddBtn.anchoredPosition = Vector3(slot0.gemPos.x + (slot1.gemOffsetX or 0), slot0.gemPos.y, 1)
+
+	NotchAdapt.AdjustUI()
 end
 
 function slot0.DoAnimation(slot0)

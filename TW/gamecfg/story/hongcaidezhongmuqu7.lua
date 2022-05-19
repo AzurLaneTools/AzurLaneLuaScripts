@@ -787,7 +787,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没错，现在存在于海水之中的，其遭遇尚未被世人遗忘，也尚世人未被遗忘的……残骸。",
+			say = "没错，现在存在于海水之中的，其遭遇尚未被世人知晓，也尚未被世人未被遗忘的……残骸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

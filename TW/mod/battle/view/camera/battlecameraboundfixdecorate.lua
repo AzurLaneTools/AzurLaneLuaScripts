@@ -14,7 +14,7 @@ function slot3.SetMapData(slot0, slot1, slot2, slot3, slot4)
 	slot0._cameraLowerBound = slot2 - 5
 	slot0._cameraLeftBound = slot3 - 3
 	slot0._cameraRightBound = slot4 + 3
-	slot0._cameraHalfWidth = uv0.CAMERA_SIZE * CameraMgr.instance.AspectRatio
+	slot0._cameraHalfWidth = uv0.CAMERA_SIZE * pg.CameraFixMgr.GetInstance().targetRatio
 	slot0._cameraLeftBoundPoint = slot0._cameraLeftBound + slot0._cameraHalfWidth
 	slot0._cameraRightBoundPoint = slot0._cameraRightBound - slot0._cameraHalfWidth
 	slot0._projectionConst = uv0.CAMERA_SIZE / uv1._camera_radian_x_sin

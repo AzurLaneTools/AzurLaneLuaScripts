@@ -111,6 +111,9 @@ function slot0.init(slot0)
 	slot0._mvpFX = slot0:findTF("mvpFX", slot0._atkPanel)
 	slot0._rightBottomPanel = slot0:findTF("rightBottomPanel", slot0._blurConatiner)
 	slot0._confirmBtn = slot0:findTF("confirmBtn", slot0._rightBottomPanel)
+
+	setText(slot0._confirmBtn:Find("Text"), i18n("text_confirm"))
+
 	slot0._statisticsBtn = slot0:findTF("statisticsBtn", slot0._rightBottomPanel)
 	slot0._subExpResult = slot0:findTF("subExpResult", slot0._leftPanel)
 	slot0._subExpContainer = slot0:findTF("expContainer", slot0._subExpResult)
@@ -160,11 +163,24 @@ function slot0.init(slot0)
 	SetActive(slot0._levelText, false)
 	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0._gradeLabel, true)
 	setActive(slot0._gradeLabel, true)
-	setActive(slot0._grade:Find("Xyz"), false)
-	setActive(slot0._grade:Find("chapterName"), false)
+
+	slot11 = slot0._grade
+
+	setActive(slot11:Find("Xyz"), false)
+
+	slot11 = slot0._grade
+
+	setActive(slot11:Find("chapterName"), false)
 
 	slot0._gradeLabel.localScale = Vector3(1.2, 1.2, 1)
 	slot0._delayLeanList = {}
+	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
+	slot0._ratioFitter.enabled = true
+	slot0._ratioFitter.aspectRatio = pg.CameraFixMgr.GetInstance().targetRatio
+	slot10 = pg.CameraFixMgr.GetInstance()
+	slot0.camEventId = slot10:bind(pg.CameraFixMgr.ASPECT_RATIO_UPDATE, function (slot0, slot1)
+		uv0._ratioFitter.aspectRatio = slot1
+	end)
 end
 
 function slot0.displayerCommanders(slot0, slot1)
@@ -1004,6 +1020,8 @@ function slot0.willExit(slot0)
 	end
 
 	slot0._currentVoice = nil
+
+	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)
 end
 
 return slot0

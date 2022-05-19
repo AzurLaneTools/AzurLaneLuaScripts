@@ -216,6 +216,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「堅固的立柱撐起了嶄新的帝國，一起為光榮而戰吧！」</color>\n「復興的讚美詩」活動獲取",
 		scene = {}
 	},
+	[315] = {
+		time_limit_type = 0,
+		name = "掣電光翼",
+		gain_by = "鏡位螺旋",
+		id = 315,
+		time_second = 0,
+		desc = "<color=#ffffff>「白鷹最大最強的Black Dragon登場！一起去撼動世界吧！」</color>\n「鏡位螺旋」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -286,6 +295,7 @@ pg.item_data_frame = {
 		312,
 		313,
 		314,
+		315,
 		401,
 		402,
 		414,

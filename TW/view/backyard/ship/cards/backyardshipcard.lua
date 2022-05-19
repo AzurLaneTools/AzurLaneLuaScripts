@@ -19,9 +19,7 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
-			shipId = uv0.ship.id
-		})
+		uv0:emit(NewBackYardShipInfoMediator.LOOG_PRESS_SHIP, uv0.type, uv0.ship)
 	end)
 end
 

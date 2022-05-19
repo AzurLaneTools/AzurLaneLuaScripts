@@ -14399,6 +14399,50 @@ pg.memory_template = {
 		icon = "memory_tianying",
 		is_open = 0
 	},
+	[1661] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ARCAFSARA001",
+		condition = "完成「銀色檔案」P2",
+		story = "YINSEDANGAN1",
+		id = 1661,
+		icon = "memory_yinsedangan",
+		is_open = 0
+	},
+	[1662] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ARCAFSARA002",
+		condition = "完成「銀色檔案」P6",
+		story = "YINSEDANGAN2",
+		id = 1662,
+		icon = "memory_yinsedangan",
+		is_open = 0
+	},
+	[1663] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ARCAFSARA003",
+		condition = "完成「銀色檔案」P10",
+		story = "YINSEDANGAN3",
+		id = 1663,
+		icon = "memory_yinsedangan",
+		is_open = 0
+	},
+	[1664] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ARCAFSARA004",
+		condition = "完成「銀色檔案」P14",
+		story = "YINSEDANGAN4",
+		id = 1664,
+		icon = "memory_yinsedangan",
+		is_open = 0
+	},
 	[1671] = {
 		type = 1,
 		subtitle = "",
@@ -17084,6 +17128,10 @@ pg.memory_template = {
 		1655,
 		1656,
 		1657,
+		1661,
+		1662,
+		1663,
+		1664,
 		1671,
 		1672,
 		1673,

@@ -77,9 +77,6 @@ end
 
 function slot0.addShip(slot0, slot1)
 	slot0.data:addShip(slot1)
-
-	slot2 = slot0:getShipById(slot1)
-
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
@@ -239,10 +236,6 @@ end
 
 function slot0.getRestFood(slot0)
 	return slot0.data.food
-end
-
-function slot0.hasFood(slot0)
-	return slot0.data:isMaxFood() == false and getProxy(BagProxy):getItemCountById(50001) > 0
 end
 
 function slot0.GetCustomThemeTemplates(slot0)
@@ -451,10 +444,8 @@ end
 function slot0.GetTag7Furnitures(slot0)
 	slot1 = {}
 
-	for slot6, slot7 in ipairs(pg.furniture_data_template.all) do
-		slot9 = pg.furniture_shop_template[slot7]
-
-		if pg.furniture_data_template[slot7].tag == 7 and slot9 and slot9.not_for_sale == 0 and pg.TimeMgr.GetInstance():inTime(slot9.time) then
+	for slot6, slot7 in ipairs(pg.furniture_data_template.get_id_list_by_tag[7]) do
+		if pg.furniture_shop_template[slot7] and slot8.not_for_sale == 0 and pg.TimeMgr.GetInstance():inTime(slot8.time) then
 			table.insert(slot1, slot7)
 		end
 	end

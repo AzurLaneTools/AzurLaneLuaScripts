@@ -1346,7 +1346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "果然是某种武器么……不过对于我们来说，这一些都是未知的。",
+			say = "果然是某种武器么……不过对于我们来说，这一切都是未知的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1923,7 +1923,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "你到底是经过了怎么的思考才能得出这种结果啊？！",
+			say = "你到底是经过怎样的思考才能得出这种结果啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么整接下来，请容许我为指挥官大人介绍一下这座“密室”的背景。",
+			say = "那么接下来，请容许我为指挥官大人介绍一下这座“密室”的背景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "在塞德利茨的介绍中，这一个误入了吸血鬼城堡的人类想方设法逃离这里的故事。",
+			say = "在塞德利茨的介绍中，这式一个误入了吸血鬼城堡的人类想方设法逃离这里的故事。",
 			flashout = {
 				black = true,
 				dur = 1,

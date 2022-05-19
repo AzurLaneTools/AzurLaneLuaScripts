@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>权限验证中————————————</size>",
+					"<size=51>權限驗證中————————————</size>",
 					0.5
 				},
 				{
-					"<size=51>——CV-3——萨拉托加——权限认证级别——II——</size>",
+					"<size=51>——CV-3——薩拉托加——權限認證級別——II——</size>",
 					1
 				},
 				{
-					"<size=51>权限验证完毕————————————</size>",
+					"<size=51>權限驗證完畢————————————</size>",
 					1.5
 				},
 				{
-					"<size=51>数据解析中————————————</size> ",
+					"<size=51>數據解析中————————————</size> ",
 					2
 				},
 				{
-					"<size=51>正在播放纪录————————————</size>",
+					"<size=51>正在播放紀錄————————————</size>",
 					2.5
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "塞壬的行动十分反常，舰队今日居然在PH港西北方的安全海域内遭到攻击。",
+			say = "塞壬的行動十分反常，艦隊今日居然在PH港西北方的安全海域內遭到攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这几日PH港西南方的安全海域内也有零星的袭击报告传来……",
+			say = "這幾日PH港西南方的安全海域內也有零星的襲擊報告傳來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然都只是小股敌人，但应当引起足够重视。塞壬可能正在为一次大规模袭击做准备。",
+			say = "雖然都只是小股敵人，但應當引起足夠重視。塞壬可能正在為一次大規模襲擊做準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在的前线舰队光是应对重樱的进攻就已竭尽全力，如果塞壬再发动袭击的话……",
+			say = "現在的前線艦隊光是應對重櫻的進攻就已竭盡全力，如果塞壬再發動襲擊的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……这次我可是尽力把所有能开出海的舰队都带上了，就算塞壬真发动袭击倒也能抵挡一阵子。",
+			say = "嗯……這次我可是盡力把所有能開出海的艦隊都帶上了，就算塞壬真發動襲擊倒也能抵擋一陣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题在于时间。",
+			say = "問題在於時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抵达前线的时间因为沿途的塞壬阻碍而不断延迟，实际到达时间可能会是明日下午或者深夜……",
+			say = "抵達前線的時間因為沿途的塞壬阻礙而不斷延遲，實際到達時間可能會是明日下午或者深夜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "一定要赶上啊……！",
+			say = "一定要趕上啊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "数据解析完毕————————————",
+			say = "數據解析完畢————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "播放结束————————————",
+			say = "播放結束————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

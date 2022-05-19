@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "就如腓特烈大帝所说言，公海舰队的适应并没有花费太长时间。",
+			say = "就如腓特烈大帝所说，公海舰队的适应并没有花费太长时间。",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,

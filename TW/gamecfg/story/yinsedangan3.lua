@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>权限验证中————————————</size>",
+					"<size=51>權限驗證中————————————</size>",
 					0.5
 				},
 				{
-					"<size=51>——CV-3——萨拉托加——权限认证级别——II——</size>",
+					"<size=51>——CV-3——薩拉托加——權限認證級別——IV——</size>",
 					1
 				},
 				{
-					"<size=51>权限验证完毕————————————</size>",
+					"<size=51>權限驗證完畢————————————</size>",
 					1.5
 				},
 				{
-					"<size=51>数据解析中————————————</size> ",
+					"<size=51>數據解析中————————————</size> ",
 					2
 				},
 				{
-					"<size=51>正在播放纪录————————————</size>",
+					"<size=51>正在播放紀錄————————————</size>",
 					2.5
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "大约十分钟前，收到了约克城受损情况的照片……",
+			say = "大約十分鐘前，收到了約克鎮受損情況的照片……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除了爆炸痕迹外，还有一些宛如结晶一般的细小颗粒附在舰装的碎裂口和约克城的身体上……",
+			say = "除了爆炸痕跡外，還有一些宛如結晶一般的細小顆粒附在艦裝的碎裂口和約克鎮的身體上……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无法确定这些异常景象出现的原因是因为浓烟颗粒的附着还是拍照时的污渍。",
+			say = "無法確定這些異常景象出現的原因是因為濃煙顆粒的附著還是拍照時的污漬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "也许二者都有，也许二者皆无……",
+			say = "也許二者都有，也許二者皆無……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗已成定局，我们胜利了。",
+			say = "戰鬥已成定局，我們勝利了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "塞壬果然开始了大规模进攻，继续拖下去将会面对无法预估的风险。",
+			say = "塞壬果然開始了大規模進攻，繼續拖下去將會面對無法預估的風險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因此前线舰队正在离开前线……",
+			say = "因此前線艦隊正在離開前線……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "……剩下的事，就交给我吧。",
+			say = "……剩下的事，就交給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "数据解析完毕————————————",
+			say = "數據解析完畢————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "播放结束————————————",
+			say = "播放結束————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

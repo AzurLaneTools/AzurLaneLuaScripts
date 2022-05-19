@@ -4,10 +4,12 @@ cs = cs or {}
 confMT = confMT or {
 	__index = function (slot0, slot1)
 		if cs[slot0.__name][slot1] then
-			LuaHelper.SetConfVal(slot0.__name, slot2[1], slot2[2])
+			LuaHelper.SetConfVal(slot2, slot3[1], slot3[2])
+
+			slot0[slot1] = pg.base[slot2][slot1]
 
 			if rawget(slot0[slot1], "base") ~= nil then
-				setmetatable(slot3, {
+				setmetatable(slot0[slot1], {
 					__index = slot0[slot4]
 				})
 			end

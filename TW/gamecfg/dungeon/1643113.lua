@@ -237,6 +237,7 @@ return {
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
+						500,
 						102,
 						101
 					},

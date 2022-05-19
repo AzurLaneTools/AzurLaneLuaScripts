@@ -48,9 +48,14 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:bind(uv0.ON_QUICK_FINISH, function (slot0, slot1)
-		uv0:sendNotification(GAME.QUICK_FINISH_LEARN_TACTICS, {
-			shipId = slot1
-		})
+		if uv0.viewComponent:IsInAddStudentProcess() then
+			table.insert(uv0.cancelList, {
+				slot1,
+				type
+			})
+		else
+			uv0.viewComponent.finishLessonUtil:Enter(slot1, Student.CANCEL_TYPE_QUICKLY)
+		end
 	end)
 	slot0.viewComponent:SetStudents(getProxy(NavalAcademyProxy):RawGetStudentList())
 end
@@ -121,8 +126,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.START_TO_LEARN_TACTICS_DONE then
 		slot0.viewComponent:OnAddStudent()
 		slot0.viewComponent:ResendCancelOp(slot0.cancelList)
+
+		slot0.cancelList = {}
 	elseif slot2 == uv0.ON_CANCEL_ADD_STUDENT then
 		slot0.viewComponent:ResendCancelOp(slot0.cancelList)
+
+		slot0.cancelList = {}
 	elseif slot2 == GAME.CANCEL_LEARN_TACTICS_DONE then
 		slot0.viewComponent.finishLessonUtil:WaitForFinish(slot3.id, slot3.shipId, slot3.totalExp, ShipSkill.New(slot3.oldSkill), ShipSkill.New(slot3.newSkill))
 	elseif slot2 == GAME.CANCEL_LEARN_TACTICS then

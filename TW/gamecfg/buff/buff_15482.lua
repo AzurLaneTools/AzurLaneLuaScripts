@@ -21,6 +21,15 @@ return {
 					1
 				}
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				skill_id = 15484
+			}
 		}
 	}
 }

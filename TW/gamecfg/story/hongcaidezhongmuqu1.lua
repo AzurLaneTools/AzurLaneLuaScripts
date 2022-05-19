@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "在这些人知情人中，没有被其表象迷惑，真正了解到其深层内容的又有多少……",
+			say = "在这些知情人中，没有被其表象迷惑，真正了解到其深层内容的又有多少……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
-			say = "北方联合抽调的舰队比预想中额规模要大……极地的防御不要紧么？",
+			say = "北方联合抽调的舰队比预想中的规模要大……极地的防御不要紧么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
-			say = "况且早自由鸢尾和皇家陆间海舰队的联合封锁下，我们应该不用担心维希教廷舰队的参战问题。",
+			say = "况且在自由鸢尾和皇家陆间海舰队的联合封锁下，我们应该不用担心维希教廷舰队的参战问题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 6,
-			say = "指挥官，东煌在NA周边没有部署任何舰队，也因此不会加入本次作战行动。",
+			say = "指挥官，东煌在NA周边没有部署任何舰队，因此也不会加入本次作战行动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +934,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
-			say = "你对现在的形式怎么看？",
+			say = "你对现在形势怎么看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

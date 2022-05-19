@@ -1,4 +1,4 @@
-_G.pg.item_data_statistics[1] = {
+_G.pg.base.item_data_statistics[1] = {
 	display = "五聯裝533mm魚雷T1設計圖",
 	name = "五聯裝533mm魚雷T1設計圖",
 	max_num = 0,
@@ -19,7 +19,7 @@ _G.pg.item_data_statistics[1] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[2] = {
+_G.pg.base.item_data_statistics[2] = {
 	display = "電動揚彈機T3設計圖",
 	name = "電動揚彈機T3設計圖",
 	max_num = 0,
@@ -40,7 +40,7 @@ _G.pg.item_data_statistics[2] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[3] = {
+_G.pg.base.item_data_statistics[3] = {
 	display = "液壓舵機T3設計圖",
 	name = "液壓舵機T3設計圖",
 	max_num = 0,
@@ -61,7 +61,7 @@ _G.pg.item_data_statistics[3] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[4] = {
+_G.pg.base.item_data_statistics[4] = {
 	display = "海軍迷彩T3設計圖",
 	name = "海軍迷彩T3設計圖",
 	max_num = 0,
@@ -82,7 +82,7 @@ _G.pg.item_data_statistics[4] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[5] = {
+_G.pg.base.item_data_statistics[5] = {
 	display = "滅火器T3設計圖",
 	name = "滅火器T3設計圖",
 	max_num = 0,
@@ -103,7 +103,7 @@ _G.pg.item_data_statistics[5] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[6] = {
+_G.pg.base.item_data_statistics[6] = {
 	display = "三聯裝533mm魚雷T3設計圖",
 	name = "三聯裝533mm魚雷T3設計圖",
 	max_num = 0,
@@ -124,7 +124,7 @@ _G.pg.item_data_statistics[6] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[7] = {
+_G.pg.base.item_data_statistics[7] = {
 	display = "12.7mm防空機槍T3設計圖",
 	name = "12.7mm防空機槍T3設計圖",
 	max_num = 0,
@@ -145,7 +145,7 @@ _G.pg.item_data_statistics[7] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[8] = {
+_G.pg.base.item_data_statistics[8] = {
 	display = "單裝152mm主炮T3設計圖",
 	name = "單裝152mm主炮T3設計圖",
 	max_num = 0,
@@ -166,7 +166,7 @@ _G.pg.item_data_statistics[8] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[9] = {
+_G.pg.base.item_data_statistics[9] = {
 	display = "76mm火炮T3設計圖",
 	name = "76mm火炮T3設計圖",
 	max_num = 0,
@@ -187,7 +187,7 @@ _G.pg.item_data_statistics[9] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10] = {
+_G.pg.base.item_data_statistics[10] = {
 	display = "雙聯152mm主炮T3設計圖",
 	name = "雙聯152mm主炮T3設計圖",
 	max_num = 0,
@@ -208,7 +208,7 @@ _G.pg.item_data_statistics[10] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11] = {
+_G.pg.base.item_data_statistics[11] = {
 	display = "三聯裝203mm主炮T3設計圖",
 	name = "三聯裝203mm主炮T3設計圖",
 	max_num = 0,
@@ -229,7 +229,7 @@ _G.pg.item_data_statistics[11] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[12] = {
+_G.pg.base.item_data_statistics[12] = {
 	display = "三聯裝356mm主炮T3設計圖",
 	name = "三聯裝356mm主炮T3設計圖",
 	max_num = 0,
@@ -250,7 +250,7 @@ _G.pg.item_data_statistics[12] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13] = {
+_G.pg.base.item_data_statistics[13] = {
 	display = "20mm厄利孔高射炮T3設計圖",
 	name = "20mm厄利孔高射炮T3設計圖",
 	max_num = 0,
@@ -271,7 +271,7 @@ _G.pg.item_data_statistics[13] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14] = {
+_G.pg.base.item_data_statistics[14] = {
 	display = "F2A水牛T3設計圖",
 	name = "F2A水牛T3設計圖",
 	max_num = 0,
@@ -292,7 +292,7 @@ _G.pg.item_data_statistics[14] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15] = {
+_G.pg.base.item_data_statistics[15] = {
 	display = "TBD蹂躪者T3設計圖",
 	name = "TBD蹂躪者T3設計圖",
 	max_num = 0,
@@ -313,7 +313,7 @@ _G.pg.item_data_statistics[15] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16] = {
+_G.pg.base.item_data_statistics[16] = {
 	display = "SBD無畏T3設計圖",
 	name = "SBD無畏T3設計圖",
 	max_num = 0,
@@ -334,7 +334,7 @@ _G.pg.item_data_statistics[16] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17] = {
+_G.pg.base.item_data_statistics[17] = {
 	display = "單裝102mm副炮T3設計圖",
 	name = "單裝102mm副炮T3設計圖",
 	max_num = 0,
@@ -355,7 +355,7 @@ _G.pg.item_data_statistics[17] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18] = {
+_G.pg.base.item_data_statistics[18] = {
 	display = "雙聯裝102mm副炮T3設計圖",
 	name = "雙聯裝102mm副炮T3設計圖",
 	max_num = 0,
@@ -376,7 +376,7 @@ _G.pg.item_data_statistics[18] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[19] = {
+_G.pg.base.item_data_statistics[19] = {
 	display = "120mm單裝炮T3設計圖",
 	name = "120mm單裝炮T3設計圖",
 	max_num = 0,
@@ -397,7 +397,7 @@ _G.pg.item_data_statistics[19] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20] = {
+_G.pg.base.item_data_statistics[20] = {
 	display = "單裝152mm副炮T3設計圖",
 	name = "單裝152mm副炮T3設計圖",
 	max_num = 0,
@@ -418,7 +418,7 @@ _G.pg.item_data_statistics[20] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21] = {
+_G.pg.base.item_data_statistics[21] = {
 	display = "雙聯裝40mm“砰砰”炮T3設計圖",
 	name = "雙聯裝40mm“砰砰”炮T3設計圖",
 	max_num = 0,
@@ -439,7 +439,7 @@ _G.pg.item_data_statistics[21] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[22] = {
+_G.pg.base.item_data_statistics[22] = {
 	display = "賊鷗T3設計圖",
 	name = "賊鷗T3設計圖",
 	max_num = 0,
@@ -460,7 +460,7 @@ _G.pg.item_data_statistics[22] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[23] = {
+_G.pg.base.item_data_statistics[23] = {
 	display = "120mm單裝炮T3設計圖",
 	name = "120mm單裝炮T3設計圖",
 	max_num = 0,
@@ -481,7 +481,7 @@ _G.pg.item_data_statistics[23] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[24] = {
+_G.pg.base.item_data_statistics[24] = {
 	display = "140mm單裝炮T3設計圖",
 	name = "140mm單裝炮T3設計圖",
 	max_num = 0,
@@ -502,7 +502,7 @@ _G.pg.item_data_statistics[24] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[25] = {
+_G.pg.base.item_data_statistics[25] = {
 	display = "356mm連裝炮T3設計圖",
 	name = "356mm連裝炮T3設計圖",
 	max_num = 0,
@@ -523,7 +523,7 @@ _G.pg.item_data_statistics[25] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[26] = {
+_G.pg.base.item_data_statistics[26] = {
 	display = "雙聯裝610mm魚雷T3設計圖",
 	name = "雙聯裝610mm魚雷T3設計圖",
 	max_num = 0,
@@ -544,7 +544,7 @@ _G.pg.item_data_statistics[26] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[27] = {
+_G.pg.base.item_data_statistics[27] = {
 	display = "25mm高射機槍T3設計圖",
 	name = "25mm高射機槍T3設計圖",
 	max_num = 0,
@@ -565,7 +565,7 @@ _G.pg.item_data_statistics[27] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[28] = {
+_G.pg.base.item_data_statistics[28] = {
 	display = "九六式艦戰T3設計圖",
 	name = "九六式艦戰T3設計圖",
 	max_num = 0,
@@ -586,7 +586,7 @@ _G.pg.item_data_statistics[28] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[29] = {
+_G.pg.base.item_data_statistics[29] = {
 	display = "九七式艦攻T3設計圖",
 	name = "九七式艦攻T3設計圖",
 	max_num = 0,
@@ -607,7 +607,7 @@ _G.pg.item_data_statistics[29] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30] = {
+_G.pg.base.item_data_statistics[30] = {
 	display = "單裝127mm主炮T3設計圖",
 	name = "單裝127mm主炮T3設計圖",
 	max_num = 0,
@@ -628,7 +628,7 @@ _G.pg.item_data_statistics[30] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[31] = {
+_G.pg.base.item_data_statistics[31] = {
 	display = "四聯裝20mm MG機槍T3設計圖",
 	name = "四聯裝20mm MG機槍T3設計圖",
 	max_num = 0,
@@ -649,7 +649,7 @@ _G.pg.item_data_statistics[31] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[32] = {
+_G.pg.base.item_data_statistics[32] = {
 	display = "37mm機槍T3設計圖",
 	name = "37mm機槍T3設計圖",
 	max_num = 0,
@@ -670,7 +670,7 @@ _G.pg.item_data_statistics[32] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[33] = {
+_G.pg.base.item_data_statistics[33] = {
 	display = "雙聯裝128mmSKC41高平兩用炮T2設計圖",
 	name = "雙聯裝128mm高平兩用炮T2設計圖",
 	max_num = 0,
@@ -691,7 +691,7 @@ _G.pg.item_data_statistics[33] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[34] = {
+_G.pg.base.item_data_statistics[34] = {
 	display = "三聯283mmSKC28主炮T2設計圖",
 	name = "三聯283mmSKC28主炮T2設計圖",
 	max_num = 0,
@@ -712,7 +712,7 @@ _G.pg.item_data_statistics[34] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[35] = {
+_G.pg.base.item_data_statistics[35] = {
 	display = "三聯283mmSKC34主炮T2設計圖",
 	name = "三聯283mmSKC34主炮T2設計圖",
 	max_num = 0,
@@ -733,7 +733,7 @@ _G.pg.item_data_statistics[35] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[36] = {
+_G.pg.base.item_data_statistics[36] = {
 	display = "三聯裝533mm磁性魚雷T2設計圖",
 	name = "三聯裝533mm磁性魚雷T2設計圖",
 	max_num = 0,
@@ -754,7 +754,7 @@ _G.pg.item_data_statistics[36] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[37] = {
+_G.pg.base.item_data_statistics[37] = {
 	display = "BF-109T艦載戰鬥機T2設計圖",
 	name = "BF-109T艦載戰鬥機T2設計圖",
 	max_num = 0,
@@ -775,7 +775,7 @@ _G.pg.item_data_statistics[37] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[38] = {
+_G.pg.base.item_data_statistics[38] = {
 	display = "Ju-87C俯衝轟炸機T2設計圖",
 	name = "Ju-87C俯衝轟炸機T2設計圖",
 	max_num = 0,
@@ -796,7 +796,7 @@ _G.pg.item_data_statistics[38] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[39] = {
+_G.pg.base.item_data_statistics[39] = {
 	display = "烈風T1設計圖",
 	name = "烈風T1設計圖",
 	max_num = 0,
@@ -817,7 +817,7 @@ _G.pg.item_data_statistics[39] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40] = {
+_G.pg.base.item_data_statistics[40] = {
 	display = "流星T1設計圖",
 	name = "流星T1設計圖",
 	max_num = 0,
@@ -838,7 +838,7 @@ _G.pg.item_data_statistics[40] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41] = {
+_G.pg.base.item_data_statistics[41] = {
 	display = "瑞雲T2設計圖",
 	name = "瑞雲T2設計圖",
 	max_num = 0,
@@ -859,7 +859,7 @@ _G.pg.item_data_statistics[41] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42] = {
+_G.pg.base.item_data_statistics[42] = {
 	display = "海鬥士艦載戰鬥機T3設計圖",
 	name = "海鬥士艦載戰鬥機T3設計圖",
 	max_num = 0,
@@ -880,7 +880,7 @@ _G.pg.item_data_statistics[42] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43] = {
+_G.pg.base.item_data_statistics[43] = {
 	display = "雙聯裝550mm魚雷T3設計圖",
 	name = "雙聯裝550mm魚雷T3設計圖",
 	max_num = 0,
@@ -901,7 +901,7 @@ _G.pg.item_data_statistics[43] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[44] = {
+_G.pg.base.item_data_statistics[44] = {
 	display = "雙聯裝100mm高炮T3設計圖",
 	name = "雙聯裝100mm高炮T3設計圖",
 	max_num = 0,
@@ -922,7 +922,7 @@ _G.pg.item_data_statistics[44] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[45] = {
+_G.pg.base.item_data_statistics[45] = {
 	display = "基礎聲納T2設計圖",
 	name = "基礎聲納T2設計圖",
 	max_num = 0,
@@ -943,7 +943,7 @@ _G.pg.item_data_statistics[45] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[46] = {
+_G.pg.base.item_data_statistics[46] = {
 	display = "改良聲納T1設計圖",
 	name = "改良聲納T1設計圖",
 	max_num = 0,
@@ -964,7 +964,7 @@ _G.pg.item_data_statistics[46] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[47] = {
+_G.pg.base.item_data_statistics[47] = {
 	display = "基礎深彈投射器T3設計圖",
 	name = "基礎深彈投射器T3設計圖",
 	max_num = 0,
@@ -985,7 +985,7 @@ _G.pg.item_data_statistics[47] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[48] = {
+_G.pg.base.item_data_statistics[48] = {
 	display = "改良深彈投射器T2設計圖",
 	name = "改良深彈投射器T2設計圖",
 	max_num = 0,
@@ -1006,7 +1006,7 @@ _G.pg.item_data_statistics[48] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[49] = {
+_G.pg.base.item_data_statistics[49] = {
 	display = "潛艇用Mark14魚雷T2設計圖",
 	name = "潛艇用Mark14魚雷T2設計圖",
 	max_num = 0,
@@ -1027,7 +1027,7 @@ _G.pg.item_data_statistics[49] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50] = {
+_G.pg.base.item_data_statistics[50] = {
 	display = "潛艇用Mark16魚雷T1設計圖",
 	name = "潛艇用Mark16魚雷T1設計圖",
 	max_num = 0,
@@ -1048,7 +1048,7 @@ _G.pg.item_data_statistics[50] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51] = {
+_G.pg.base.item_data_statistics[51] = {
 	display = "潛艇用92式潛射魚雷T2設計圖",
 	name = "潛艇用92式潛射魚雷T2設計圖",
 	max_num = 0,
@@ -1069,7 +1069,7 @@ _G.pg.item_data_statistics[51] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52] = {
+_G.pg.base.item_data_statistics[52] = {
 	display = "潛艇用95式純氧魚雷T1設計圖",
 	name = "潛艇用95式純氧魚雷T1設計圖",
 	max_num = 0,
@@ -1090,7 +1090,7 @@ _G.pg.item_data_statistics[52] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53] = {
+_G.pg.base.item_data_statistics[53] = {
 	display = "潛艇用G7a潛射魚雷T2設計圖",
 	name = "潛艇用G7a潛射魚雷T2設計圖",
 	max_num = 0,
@@ -1111,7 +1111,7 @@ _G.pg.item_data_statistics[53] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54] = {
+_G.pg.base.item_data_statistics[54] = {
 	display = "潛艇用G7e聲導魚雷T1設計圖",
 	name = "潛艇用G7e聲導魚雷T1設計圖",
 	max_num = 0,
@@ -1132,7 +1132,7 @@ _G.pg.item_data_statistics[54] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55] = {
+_G.pg.base.item_data_statistics[55] = {
 	display = "潛艇用550mm24V魚雷T2設計圖",
 	name = "潛艇用550mm24V魚雷T2設計圖",
 	max_num = 0,
@@ -1153,7 +1153,7 @@ _G.pg.item_data_statistics[55] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56] = {
+_G.pg.base.item_data_statistics[56] = {
 	display = "130mm單裝炮Mle1924T3設計圖",
 	name = "130mm單裝炮Mle1924T3設計圖",
 	max_num = 0,
@@ -1174,7 +1174,7 @@ _G.pg.item_data_statistics[56] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57] = {
+_G.pg.base.item_data_statistics[57] = {
 	display = "三聯裝152mm主炮Mle1930T3設計圖",
 	name = "三聯裝152mm主炮Mle1930T3設計圖",
 	max_num = 0,
@@ -1195,7 +1195,7 @@ _G.pg.item_data_statistics[57] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58] = {
+_G.pg.base.item_data_statistics[58] = {
 	display = "四聯裝330mm主炮Mle1931T2設計圖",
 	name = "四聯裝330mm主炮Mle1931T2設計圖",
 	max_num = 0,
@@ -1216,7 +1216,7 @@ _G.pg.item_data_statistics[58] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59] = {
+_G.pg.base.item_data_statistics[59] = {
 	display = "三聯裝381mm主炮Model1934T1設計圖",
 	name = "三聯裝381mm主炮Model1934T1設計圖",
 	max_num = 0,
@@ -1237,7 +1237,7 @@ _G.pg.item_data_statistics[59] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60] = {
+_G.pg.base.item_data_statistics[60] = {
 	display = "90mm單裝高角炮Model1939T1設計圖",
 	name = "90mm單裝高角炮Model1939T1設計圖",
 	max_num = 0,
@@ -1258,7 +1258,7 @@ _G.pg.item_data_statistics[60] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[61] = {
+_G.pg.base.item_data_statistics[61] = {
 	display = "雙聯203mm主炮Model1927T1設計圖",
 	name = "雙聯203mm主炮Model1927T1設計圖",
 	max_num = 0,
@@ -1279,7 +1279,7 @@ _G.pg.item_data_statistics[61] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[62] = {
+_G.pg.base.item_data_statistics[62] = {
 	display = "雙聯203mm主炮Model1924T2設計圖",
 	name = "雙聯203mm主炮Model1924T2設計圖",
 	max_num = 0,
@@ -1300,7 +1300,7 @@ _G.pg.item_data_statistics[62] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[63] = {
+_G.pg.base.item_data_statistics[63] = {
 	display = "雙聯裝120mm炮Model1936T2設計圖",
 	name = "雙聯裝120mm炮Model1936T2設計圖",
 	max_num = 0,
@@ -1321,7 +1321,7 @@ _G.pg.item_data_statistics[63] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[64] = {
+_G.pg.base.item_data_statistics[64] = {
 	display = "雙聯裝120mm炮Model1933T0設計圖",
 	name = "雙聯裝120mm炮Model1933T0設計圖",
 	max_num = 0,
@@ -1342,7 +1342,7 @@ _G.pg.item_data_statistics[64] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[65] = {
+_G.pg.base.item_data_statistics[65] = {
 	display = "三聯裝320mm主炮Model1934T0設計圖",
 	name = "三聯裝320mm主炮Model1934T0設計圖",
 	max_num = 0,
@@ -1363,7 +1363,7 @@ _G.pg.item_data_statistics[65] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[66] = {
+_G.pg.base.item_data_statistics[66] = {
 	display = "雙聯37mm機槍Model1932T2設計圖",
 	name = "雙聯37mm機槍Model1932T2設計圖",
 	max_num = 0,
@@ -1384,7 +1384,7 @@ _G.pg.item_data_statistics[66] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[67] = {
+_G.pg.base.item_data_statistics[67] = {
 	display = "青花魚T2設計圖",
 	name = "青花魚T2設計圖",
 	max_num = 0,
@@ -1405,7 +1405,7 @@ _G.pg.item_data_statistics[67] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[68] = {
+_G.pg.base.item_data_statistics[68] = {
 	display = "152mm連裝炮T2設計圖",
 	name = "152mm連裝炮T2設計圖",
 	max_num = 0,
@@ -1426,7 +1426,7 @@ _G.pg.item_data_statistics[68] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70] = {
+_G.pg.base.item_data_statistics[70] = {
 	display = "B-38 三聯裝152mm主炮Mk5T1設計圖",
 	name = "B-38 三聯裝152mm主炮Mk5T1設計圖",
 	max_num = 0,
@@ -1447,7 +1447,7 @@ _G.pg.item_data_statistics[70] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[71] = {
+_G.pg.base.item_data_statistics[71] = {
 	display = "B-54 100mm雙聯裝防空炮T2設計圖",
 	name = "B-54 100mm雙聯裝防空炮T2設計圖",
 	max_num = 0,
@@ -1468,7 +1468,7 @@ _G.pg.item_data_statistics[71] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[73] = {
+_G.pg.base.item_data_statistics[73] = {
 	display = "B-37 三聯裝406mm主炮MK-11設計圖",
 	name = "B-37 三聯裝406mm主炮MK-11設計圖",
 	max_num = 0,
@@ -1489,7 +1489,7 @@ _G.pg.item_data_statistics[73] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[74] = {
+_G.pg.base.item_data_statistics[74] = {
 	display = "B-34 100mm雙聯裝防空炮MZ-14T2設計圖",
 	name = "B-34 100mm雙聯裝防空炮MZ-14T2設計圖",
 	max_num = 0,
@@ -1510,7 +1510,7 @@ _G.pg.item_data_statistics[74] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[75] = {
+_G.pg.base.item_data_statistics[75] = {
 	display = "三聯裝305mm主炮Model1907T3設計圖",
 	name = "三聯裝305mm主炮Model1907T3設計圖",
 	max_num = 0,
@@ -1531,7 +1531,7 @@ _G.pg.item_data_statistics[75] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[76] = {
+_G.pg.base.item_data_statistics[76] = {
 	display = "雙聯裝152mm主炮Model18923設計圖",
 	name = "雙聯裝152mm主炮Model18923設計圖",
 	max_num = 0,
@@ -1552,7 +1552,7 @@ _G.pg.item_data_statistics[76] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[77] = {
+_G.pg.base.item_data_statistics[77] = {
 	display = "37mm防空炮70-KT2設計圖",
 	name = "37mm防空炮70-KT2設計圖",
 	max_num = 0,
@@ -1573,7 +1573,7 @@ _G.pg.item_data_statistics[77] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[78] = {
+_G.pg.base.item_data_statistics[78] = {
 	display = "138.6mm單裝炮Mle1927T2設計圖",
 	name = "138.6mm單裝炮Mle1927T2設計圖",
 	max_num = 0,
@@ -1594,7 +1594,7 @@ _G.pg.item_data_statistics[78] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[79] = {
+_G.pg.base.item_data_statistics[79] = {
 	display = "双联装155mm主炮Mle1920T0设计图",
 	name = "雙聯裝155mm主砲Mle1920T0設計圖",
 	max_num = 0,
@@ -1615,7 +1615,7 @@ _G.pg.item_data_statistics[79] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[80] = {
+_G.pg.base.item_data_statistics[80] = {
 	display = "单装155mm副炮Mle1920T0设计图",
 	name = "單裝155mm副砲Mle1920T0設計圖",
 	max_num = 0,
@@ -1636,7 +1636,7 @@ _G.pg.item_data_statistics[80] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[81] = {
+_G.pg.base.item_data_statistics[81] = {
 	display = "GL.2舰载战斗机T0设计图",
 	name = "GL.2艦載戰鬥機T0設計圖",
 	max_num = 0,
@@ -1657,7 +1657,7 @@ _G.pg.item_data_statistics[81] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[82] = {
+_G.pg.base.item_data_statistics[82] = {
 	display = "PL.7舰载鱼雷机T0设计图",
 	name = "PL.7艦載魚雷機T0設計圖",
 	max_num = 0,
@@ -1678,7 +1678,7 @@ _G.pg.item_data_statistics[82] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[83] = {
+_G.pg.base.item_data_statistics[83] = {
 	display = "雙聯裝203mm主砲Mle1931T1設計圖",
 	name = "雙聯裝203mm主砲Mle1931T1設計圖",
 	max_num = 0,
@@ -1699,7 +1699,7 @@ _G.pg.item_data_statistics[83] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1001] = {
+_G.pg.base.item_data_statistics[1001] = {
 	display = "可樂配洋芋片即是正義！",
 	name = "洋芋片組合",
 	max_num = 0,
@@ -1720,7 +1720,7 @@ _G.pg.item_data_statistics[1001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1004] = {
+_G.pg.base.item_data_statistics[1004] = {
 	display = "聖誕夜、平安夜，願所有人都能得到幸福與安寧",
 	name = "聖誕的饋贈",
 	max_num = 0,
@@ -1741,7 +1741,7 @@ _G.pg.item_data_statistics[1004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1005] = {
+_G.pg.base.item_data_statistics[1005] = {
 	display = "2020新年快樂！",
 	name = "新年的祈願",
 	max_num = 0,
@@ -1762,7 +1762,7 @@ _G.pg.item_data_statistics[1005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1006] = {
+_G.pg.base.item_data_statistics[1006] = {
 	display = "{namecode:79}的鈴鐺。收集足夠的數量的話……",
 	name = "{namecode:79}的鈴鐺",
 	max_num = 0,
@@ -1783,7 +1783,7 @@ _G.pg.item_data_statistics[1006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1008] = {
+_G.pg.base.item_data_statistics[1008] = {
 	display = "Z代表著好運、必勝和正義，在Z的旗幟下，吾等將無往不利！",
 	name = "Z的信念",
 	max_num = 0,
@@ -1804,7 +1804,7 @@ _G.pg.item_data_statistics[1008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1009] = {
+_G.pg.base.item_data_statistics[1009] = {
 	display = "Z代表著好運、必勝和正義，在Z的旗幟下，吾等將無往不利！",
 	name = "Z的信念",
 	max_num = 0,
@@ -1825,7 +1825,7 @@ _G.pg.item_data_statistics[1009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1010] = {
+_G.pg.base.item_data_statistics[1010] = {
 	display = "記錄有詳細作戰過程的正式文件，是司令部進行決策的重要參考（活動結束後將會回收）",
 	name = "作戰報告",
 	max_num = 0,
@@ -1846,7 +1846,28 @@ _G.pg.item_data_statistics[1010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1013] = {
+_G.pg.base.item_data_statistics[1012] = {
+	display = "記錄有詳細作戰過程的正式文件，是司令部進行決策的重要參考（活動結束後將會回收）",
+	name = "新泽西前哨站报告",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/zuozhanbaogao",
+	id = 1012,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[1013] = {
 	display = "{namecode:79}的鈴鐺。收集足夠的數量的話……",
 	name = "{namecode:79}的鈴鐺",
 	max_num = 0,
@@ -1867,7 +1888,7 @@ _G.pg.item_data_statistics[1013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1014] = {
+_G.pg.base.item_data_statistics[1014] = {
 	display = "聖誕夜、平安夜，願所有人都能得到幸福與安寧",
 	name = "聖誕的饋贈",
 	max_num = 0,
@@ -1888,7 +1909,7 @@ _G.pg.item_data_statistics[1014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10000] = {
+_G.pg.base.item_data_statistics[10000] = {
 	display = "艦艇維修設備T2設計圖",
 	name = "艦艇維修設備T2設計圖",
 	max_num = 0,
@@ -1909,7 +1930,7 @@ _G.pg.item_data_statistics[10000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10001] = {
+_G.pg.base.item_data_statistics[10001] = {
 	display = "對空雷達T3設計圖",
 	name = "對空雷達T3設計圖",
 	max_num = 0,
@@ -1930,7 +1951,7 @@ _G.pg.item_data_statistics[10001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10002] = {
+_G.pg.base.item_data_statistics[10002] = {
 	display = "火控雷達T3設計圖",
 	name = "火控雷達T3設計圖",
 	max_num = 0,
@@ -1951,7 +1972,7 @@ _G.pg.item_data_statistics[10002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10003] = {
+_G.pg.base.item_data_statistics[10003] = {
 	display = "防魚雷隔艙T3設計圖",
 	name = "防魚雷隔艙T3設計圖",
 	max_num = 0,
@@ -1972,7 +1993,7 @@ _G.pg.item_data_statistics[10003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10004] = {
+_G.pg.base.item_data_statistics[10004] = {
 	display = "液壓彈射裝置T2設計圖",
 	name = "液壓彈射裝置T2設計圖",
 	max_num = 0,
@@ -1993,7 +2014,7 @@ _G.pg.item_data_statistics[10004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10005] = {
+_G.pg.base.item_data_statistics[10005] = {
 	display = "SG雷達T2設計圖",
 	name = "SG雷達T2設計圖",
 	max_num = 0,
@@ -2014,7 +2035,7 @@ _G.pg.item_data_statistics[10005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10006] = {
+_G.pg.base.item_data_statistics[10006] = {
 	display = "改良鍋爐T3設計圖",
 	name = "改良鍋爐T3設計圖",
 	max_num = 0,
@@ -2035,7 +2056,7 @@ _G.pg.item_data_statistics[10006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10007] = {
+_G.pg.base.item_data_statistics[10007] = {
 	display = "燃油濾清器T3設計圖",
 	name = "燃油濾清器T3設計圖",
 	max_num = 0,
@@ -2056,7 +2077,7 @@ _G.pg.item_data_statistics[10007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10008] = {
+_G.pg.base.item_data_statistics[10008] = {
 	display = "航空副油箱T3設計圖",
 	name = "航空副油箱T3設計圖",
 	max_num = 0,
@@ -2077,7 +2098,7 @@ _G.pg.item_data_statistics[10008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10009] = {
+_G.pg.base.item_data_statistics[10009] = {
 	display = "鍊式裝彈機T3設計圖",
 	name = "鍊式裝彈機T3設計圖",
 	max_num = 0,
@@ -2098,7 +2119,7 @@ _G.pg.item_data_statistics[10009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10010] = {
+_G.pg.base.item_data_statistics[10010] = {
 	display = "陀螺儀T3設計圖",
 	name = "陀螺儀T3設計圖",
 	max_num = 0,
@@ -2119,7 +2140,7 @@ _G.pg.item_data_statistics[10010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10011] = {
+_G.pg.base.item_data_statistics[10011] = {
 	display = "維修工具T3設計圖",
 	name = "維修工具T3設計圖",
 	max_num = 0,
@@ -2140,7 +2161,7 @@ _G.pg.item_data_statistics[10011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10012] = {
+_G.pg.base.item_data_statistics[10012] = {
 	display = "九三式純氧魚雷T1設計圖",
 	name = "九三式純氧魚雷T1設計圖",
 	max_num = 0,
@@ -2161,7 +2182,7 @@ _G.pg.item_data_statistics[10012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10013] = {
+_G.pg.base.item_data_statistics[10013] = {
 	display = "533mm磁性魚雷T2設計圖",
 	name = "533mm磁性魚雷T2設計圖",
 	max_num = 0,
@@ -2182,7 +2203,7 @@ _G.pg.item_data_statistics[10013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10014] = {
+_G.pg.base.item_data_statistics[10014] = {
 	display = "四聯裝533mm魚雷T3設計圖",
 	name = "四聯裝533mm魚雷T3設計圖",
 	max_num = 0,
@@ -2203,7 +2224,7 @@ _G.pg.item_data_statistics[10014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10015] = {
+_G.pg.base.item_data_statistics[10015] = {
 	display = "五聯裝533mm魚雷T2設計圖",
 	name = "五聯裝533mm魚雷T2設計圖",
 	max_num = 0,
@@ -2224,7 +2245,7 @@ _G.pg.item_data_statistics[10015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10016] = {
+_G.pg.base.item_data_statistics[10016] = {
 	display = "127mm單裝炮T3設計圖",
 	name = "127mm單裝炮T3設計圖",
 	max_num = 0,
@@ -2245,7 +2266,7 @@ _G.pg.item_data_statistics[10016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10017] = {
+_G.pg.base.item_data_statistics[10017] = {
 	display = "雙聯裝127mm高平兩用炮MK12T2設計圖",
 	name = "雙聯裝127mm高平兩用炮T2設計圖",
 	max_num = 0,
@@ -2266,7 +2287,7 @@ _G.pg.item_data_statistics[10017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10018] = {
+_G.pg.base.item_data_statistics[10018] = {
 	display = "三聯裝152mm主炮T3設計圖",
 	name = "三聯裝152mm主炮T3設計圖",
 	max_num = 0,
@@ -2287,7 +2308,7 @@ _G.pg.item_data_statistics[10018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10019] = {
+_G.pg.base.item_data_statistics[10019] = {
 	display = "三聯裝203mm主炮改良型T3設計圖",
 	name = "三聯裝203mm主炮改良型T3設計圖",
 	max_num = 0,
@@ -2308,7 +2329,7 @@ _G.pg.item_data_statistics[10019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10021] = {
+_G.pg.base.item_data_statistics[10021] = {
 	display = "雙聯裝406mm主炮MK5T3設計圖",
 	name = "雙聯裝406mm主炮MK5T3設計圖",
 	max_num = 0,
@@ -2329,7 +2350,7 @@ _G.pg.item_data_statistics[10021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10022] = {
+_G.pg.base.item_data_statistics[10022] = {
 	display = "三聯裝406mm主炮MK6T3設計圖",
 	name = "三聯裝406mm主炮MK6T3設計圖",
 	max_num = 0,
@@ -2350,7 +2371,7 @@ _G.pg.item_data_statistics[10022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10024] = {
+_G.pg.base.item_data_statistics[10024] = {
 	display = "雙管20mm厄利孔高射炮T3設計圖",
 	name = "雙管20mm厄利孔高射炮T3設計圖",
 	max_num = 0,
@@ -2371,7 +2392,7 @@ _G.pg.item_data_statistics[10024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10025] = {
+_G.pg.base.item_data_statistics[10025] = {
 	display = "四聯裝28mm“芝加哥鋼琴”T3設計圖",
 	name = "四聯裝28mm“芝加哥鋼琴”T3設計圖",
 	max_num = 0,
@@ -2392,7 +2413,7 @@ _G.pg.item_data_statistics[10025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10026] = {
+_G.pg.base.item_data_statistics[10026] = {
 	display = "雙聯40mm博福斯對空機炮T3設計圖",
 	name = "雙聯40mm博福斯對空機炮T3設計圖",
 	max_num = 0,
@@ -2413,7 +2434,7 @@ _G.pg.item_data_statistics[10026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10027] = {
+_G.pg.base.item_data_statistics[10027] = {
 	display = "四聯40mm博福斯對空機炮T2設計圖",
 	name = "四聯40mm博福斯對空機炮T2設計圖",
 	max_num = 0,
@@ -2434,7 +2455,7 @@ _G.pg.item_data_statistics[10027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10028] = {
+_G.pg.base.item_data_statistics[10028] = {
 	display = "F4F野貓T3設計圖",
 	name = "F4F野貓T3設計圖",
 	max_num = 0,
@@ -2455,7 +2476,7 @@ _G.pg.item_data_statistics[10028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10029] = {
+_G.pg.base.item_data_statistics[10029] = {
 	display = "F4U海盜T3設計圖",
 	name = "F4U海盜T3設計圖",
 	max_num = 0,
@@ -2476,7 +2497,7 @@ _G.pg.item_data_statistics[10029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10030] = {
+_G.pg.base.item_data_statistics[10030] = {
 	display = "F6F地獄貓T2設計圖",
 	name = "F6F地獄貓T2設計圖",
 	max_num = 0,
@@ -2497,7 +2518,7 @@ _G.pg.item_data_statistics[10030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10031] = {
+_G.pg.base.item_data_statistics[10031] = {
 	display = "TBF復仇者T3設計圖",
 	name = "TBF復仇者T3設計圖",
 	max_num = 0,
@@ -2518,7 +2539,7 @@ _G.pg.item_data_statistics[10031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10032] = {
+_G.pg.base.item_data_statistics[10032] = {
 	display = "SB2C地獄俯衝者T3設計圖",
 	name = "SB2C地獄俯衝者T3設計圖",
 	max_num = 0,
@@ -2539,7 +2560,7 @@ _G.pg.item_data_statistics[10032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10033] = {
+_G.pg.base.item_data_statistics[10033] = {
 	display = "BTD-1毀滅者T2設計圖",
 	name = "BTD-1毀滅者T2設計圖",
 	max_num = 0,
@@ -2560,7 +2581,7 @@ _G.pg.item_data_statistics[10033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10034] = {
+_G.pg.base.item_data_statistics[10034] = {
 	display = "三聯裝102mm副炮T3設計圖",
 	name = "三聯裝102mm副炮T3設計圖",
 	max_num = 0,
@@ -2581,7 +2602,7 @@ _G.pg.item_data_statistics[10034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10035] = {
+_G.pg.base.item_data_statistics[10035] = {
 	display = "雙聯裝120mm主炮T3設計圖",
 	name = "雙聯裝120mm主炮T3設計圖",
 	max_num = 0,
@@ -2602,7 +2623,7 @@ _G.pg.item_data_statistics[10035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10036] = {
+_G.pg.base.item_data_statistics[10036] = {
 	display = "雙聯裝134mm高炮T3設計圖",
 	name = "雙聯裝134mm高炮T3設計圖",
 	max_num = 0,
@@ -2623,7 +2644,7 @@ _G.pg.item_data_statistics[10036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10037] = {
+_G.pg.base.item_data_statistics[10037] = {
 	display = "雙聯裝152mm主炮T3設計圖",
 	name = "雙聯裝152mm主炮T3設計圖",
 	max_num = 0,
@@ -2644,7 +2665,7 @@ _G.pg.item_data_statistics[10037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10038] = {
+_G.pg.base.item_data_statistics[10038] = {
 	display = "雙聯裝203mm主炮T3設計圖",
 	name = "雙聯裝203mm主炮T3設計圖",
 	max_num = 0,
@@ -2665,7 +2686,7 @@ _G.pg.item_data_statistics[10038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10039] = {
+_G.pg.base.item_data_statistics[10039] = {
 	display = "四聯裝356mm主炮T2設計圖",
 	name = "四聯裝356mm主炮T2設計圖",
 	max_num = 0,
@@ -2686,7 +2707,7 @@ _G.pg.item_data_statistics[10039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10040] = {
+_G.pg.base.item_data_statistics[10040] = {
 	display = "雙聯裝381mm主炮T3設計圖",
 	name = "雙聯裝381mm主炮T3設計圖",
 	max_num = 0,
@@ -2707,7 +2728,7 @@ _G.pg.item_data_statistics[10040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10041] = {
+_G.pg.base.item_data_statistics[10041] = {
 	display = "三聯裝406mm主炮T2設計圖",
 	name = "三聯裝406mm主炮T2設計圖",
 	max_num = 0,
@@ -2728,7 +2749,7 @@ _G.pg.item_data_statistics[10041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10042] = {
+_G.pg.base.item_data_statistics[10042] = {
 	display = "四聯裝40mm“砰砰”炮T3設計圖",
 	name = "四聯裝40mm“砰砰”炮T3設計圖",
 	max_num = 0,
@@ -2749,7 +2770,7 @@ _G.pg.item_data_statistics[10042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10043] = {
+_G.pg.base.item_data_statistics[10043] = {
 	display = "八聯裝40mm“砰砰”炮T2設計圖",
 	name = "八聯裝40mm“砰砰”炮T2設計圖",
 	max_num = 0,
@@ -2770,7 +2791,7 @@ _G.pg.item_data_statistics[10043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10044] = {
+_G.pg.base.item_data_statistics[10044] = {
 	display = "76mm高射炮T3設計圖",
 	name = "76mm高射炮T3設計圖",
 	max_num = 0,
@@ -2791,7 +2812,7 @@ _G.pg.item_data_statistics[10044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10045] = {
+_G.pg.base.item_data_statistics[10045] = {
 	display = "102mm高射炮T3設計圖",
 	name = "102mm高射炮T3設計圖",
 	max_num = 0,
@@ -2812,7 +2833,7 @@ _G.pg.item_data_statistics[10045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10046] = {
+_G.pg.base.item_data_statistics[10046] = {
 	display = "雙聯裝113mm高射炮T2設計圖",
 	name = "雙聯裝113mm高射炮T2設計圖",
 	max_num = 0,
@@ -2833,7 +2854,7 @@ _G.pg.item_data_statistics[10046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10047] = {
+_G.pg.base.item_data_statistics[10047] = {
 	display = "海噴火T3設計圖",
 	name = "海噴火T3設計圖",
 	max_num = 0,
@@ -2854,7 +2875,7 @@ _G.pg.item_data_statistics[10047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10048] = {
+_G.pg.base.item_data_statistics[10048] = {
 	display = "海毒牙T2設計圖",
 	name = "海毒牙T2設計圖",
 	max_num = 0,
@@ -2875,7 +2896,7 @@ _G.pg.item_data_statistics[10048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10049] = {
+_G.pg.base.item_data_statistics[10049] = {
 	display = "劍魚T3設計圖",
 	name = "劍魚T3設計圖",
 	max_num = 0,
@@ -2896,7 +2917,7 @@ _G.pg.item_data_statistics[10049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10050] = {
+_G.pg.base.item_data_statistics[10050] = {
 	display = "梭魚T2設計圖",
 	name = "梭魚T2設計圖",
 	max_num = 0,
@@ -2917,7 +2938,7 @@ _G.pg.item_data_statistics[10050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10051] = {
+_G.pg.base.item_data_statistics[10051] = {
 	display = "海燕T3設計圖",
 	name = "海燕T3設計圖",
 	max_num = 0,
@@ -2938,7 +2959,7 @@ _G.pg.item_data_statistics[10051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10052] = {
+_G.pg.base.item_data_statistics[10052] = {
 	display = "雙聯100mm98式高射炮T2設計圖",
 	name = "雙聯100mm98式高射炮T2設計圖",
 	max_num = 0,
@@ -2959,7 +2980,7 @@ _G.pg.item_data_statistics[10052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10053] = {
+_G.pg.base.item_data_statistics[10053] = {
 	display = "127mm連裝炮T3設計圖",
 	name = "127mm連裝炮T3設計圖",
 	max_num = 0,
@@ -2980,7 +3001,7 @@ _G.pg.item_data_statistics[10053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10054] = {
+_G.pg.base.item_data_statistics[10054] = {
 	display = "140mm連裝炮T3設計圖",
 	name = "140mm連裝炮T3設計圖",
 	max_num = 0,
@@ -3001,7 +3022,7 @@ _G.pg.item_data_statistics[10054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10055] = {
+_G.pg.base.item_data_statistics[10055] = {
 	display = "155mm三連裝炮T2設計圖",
 	name = "155mm三連裝炮T2設計圖",
 	max_num = 0,
@@ -3022,7 +3043,7 @@ _G.pg.item_data_statistics[10055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10056] = {
+_G.pg.base.item_data_statistics[10056] = {
 	display = "203mm連裝炮T3設計圖",
 	name = "203mm連裝炮T3設計圖",
 	max_num = 0,
@@ -3043,7 +3064,7 @@ _G.pg.item_data_statistics[10056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10057] = {
+_G.pg.base.item_data_statistics[10057] = {
 	display = "410mm連裝炮T3設計圖",
 	name = "410mm連裝炮T3設計圖",
 	max_num = 0,
@@ -3064,7 +3085,7 @@ _G.pg.item_data_statistics[10057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10059] = {
+_G.pg.base.item_data_statistics[10059] = {
 	display = "三聯裝610mm魚雷T3設計圖",
 	name = "三聯裝610mm魚雷T3設計圖",
 	max_num = 0,
@@ -3085,7 +3106,7 @@ _G.pg.item_data_statistics[10059] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10060] = {
+_G.pg.base.item_data_statistics[10060] = {
 	display = "四聯裝610mm魚雷T2設計圖",
 	name = "四聯裝610mm魚雷T2設計圖",
 	max_num = 0,
@@ -3106,7 +3127,7 @@ _G.pg.item_data_statistics[10060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10062] = {
+_G.pg.base.item_data_statistics[10062] = {
 	display = "25mm連機高射機槍T3設計圖",
 	name = "25mm連機高射機槍T3設計圖",
 	max_num = 0,
@@ -3127,7 +3148,7 @@ _G.pg.item_data_statistics[10062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10063] = {
+_G.pg.base.item_data_statistics[10063] = {
 	display = "25mm三連機高射機槍T3設計圖",
 	name = "25mm三連機高射機槍T3設計圖",
 	max_num = 0,
@@ -3148,7 +3169,7 @@ _G.pg.item_data_statistics[10063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10064] = {
+_G.pg.base.item_data_statistics[10064] = {
 	display = "毘式40mm連裝機槍T3設計圖",
 	name = "毘式40mm連裝機槍T3設計圖",
 	max_num = 0,
@@ -3169,7 +3190,7 @@ _G.pg.item_data_statistics[10064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10065] = {
+_G.pg.base.item_data_statistics[10065] = {
 	display = "127mm連裝高射炮T3設計圖",
 	name = "127mm連裝高射炮T3設計圖",
 	max_num = 0,
@@ -3190,7 +3211,7 @@ _G.pg.item_data_statistics[10065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10066] = {
+_G.pg.base.item_data_statistics[10066] = {
 	display = "零戰二一型T3設計圖",
 	name = "零戰二一型T3設計圖",
 	max_num = 0,
@@ -3211,7 +3232,7 @@ _G.pg.item_data_statistics[10066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10067] = {
+_G.pg.base.item_data_statistics[10067] = {
 	display = "零戰五二型T2設計圖",
 	name = "零戰五二型T2設計圖",
 	max_num = 0,
@@ -3232,7 +3253,7 @@ _G.pg.item_data_statistics[10067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10068] = {
+_G.pg.base.item_data_statistics[10068] = {
 	display = "天山T3設計圖",
 	name = "天山T3設計圖",
 	max_num = 0,
@@ -3253,7 +3274,7 @@ _G.pg.item_data_statistics[10068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10069] = {
+_G.pg.base.item_data_statistics[10069] = {
 	display = "九九式艦爆T3設計圖",
 	name = "九九式艦爆T3設計圖",
 	max_num = 0,
@@ -3274,7 +3295,7 @@ _G.pg.item_data_statistics[10069] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10070] = {
+_G.pg.base.item_data_statistics[10070] = {
 	display = "彗星T2設計圖",
 	name = "彗星T2設計圖",
 	max_num = 0,
@@ -3295,7 +3316,7 @@ _G.pg.item_data_statistics[10070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10071] = {
+_G.pg.base.item_data_statistics[10071] = {
 	display = "單裝SKC28式150mm主炮T3設計圖",
 	name = "單裝SKC28式150mm主炮T3設計圖",
 	max_num = 0,
@@ -3316,7 +3337,7 @@ _G.pg.item_data_statistics[10071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10072] = {
+_G.pg.base.item_data_statistics[10072] = {
 	display = "三聯裝SKC25式150mm主炮T3設計圖",
 	name = "三聯裝SKC25式150mm主炮T3設計圖",
 	max_num = 0,
@@ -3337,7 +3358,7 @@ _G.pg.item_data_statistics[10072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10073] = {
+_G.pg.base.item_data_statistics[10073] = {
 	display = "雙聯裝TbtsKC36式150mm主炮T3設計圖",
 	name = "雙聯裝TKC36式150mm主炮T3設計圖",
 	max_num = 0,
@@ -3358,7 +3379,7 @@ _G.pg.item_data_statistics[10073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10074] = {
+_G.pg.base.item_data_statistics[10074] = {
 	display = "雙聯裝203mmSKC主炮T2設計圖",
 	name = "雙聯裝203mmSKC主炮T2設計圖",
 	max_num = 0,
@@ -3379,7 +3400,7 @@ _G.pg.item_data_statistics[10074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10075] = {
+_G.pg.base.item_data_statistics[10075] = {
 	display = "三聯283mmSKC34主炮T3設計圖",
 	name = "三聯283mmSKC34主炮T3設計圖",
 	max_num = 0,
@@ -3400,7 +3421,7 @@ _G.pg.item_data_statistics[10075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10076] = {
+_G.pg.base.item_data_statistics[10076] = {
 	display = "雙聯380mmSKC主炮T2設計圖",
 	name = "雙聯380mmSKC主炮T2設計圖",
 	max_num = 0,
@@ -3421,7 +3442,7 @@ _G.pg.item_data_statistics[10076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10077] = {
+_G.pg.base.item_data_statistics[10077] = {
 	display = "雙聯37mm手拉機槍T3設計圖",
 	name = "雙聯37mm手拉機槍T3設計圖",
 	max_num = 0,
@@ -3442,7 +3463,7 @@ _G.pg.item_data_statistics[10077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10078] = {
+_G.pg.base.item_data_statistics[10078] = {
 	display = "雙聯105mmSKC高炮T2設計圖",
 	name = "雙聯105mmSKC高炮T2設計圖",
 	max_num = 0,
@@ -3463,7 +3484,7 @@ _G.pg.item_data_statistics[10078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10079] = {
+_G.pg.base.item_data_statistics[10079] = {
 	display = "雙聯裝128mmSKC41高平兩用炮T3設計圖",
 	name = "雙聯裝128mm高平兩用炮T3設計圖",
 	max_num = 0,
@@ -3484,7 +3505,7 @@ _G.pg.item_data_statistics[10079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10080] = {
+_G.pg.base.item_data_statistics[10080] = {
 	display = "三聯283mmSKC28主炮T3設計圖",
 	name = "三聯283mmSKC28主炮T3設計圖",
 	max_num = 0,
@@ -3505,7 +3526,7 @@ _G.pg.item_data_statistics[10080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10081] = {
+_G.pg.base.item_data_statistics[10081] = {
 	display = "三聯裝533mm磁性魚雷T3設計圖",
 	name = "三聯裝533mm磁性魚雷T3設計圖",
 	max_num = 0,
@@ -3526,7 +3547,7 @@ _G.pg.item_data_statistics[10081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10082] = {
+_G.pg.base.item_data_statistics[10082] = {
 	display = "四聯裝533mm磁性魚雷T2設計圖",
 	name = "四聯裝533mm磁性魚雷T2設計圖",
 	max_num = 0,
@@ -3547,7 +3568,7 @@ _G.pg.item_data_statistics[10082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10083] = {
+_G.pg.base.item_data_statistics[10083] = {
 	display = "五聯裝533mm磁性魚雷T1設計圖",
 	name = "五聯裝533mm磁性魚雷T1設計圖",
 	max_num = 0,
@@ -3568,7 +3589,7 @@ _G.pg.item_data_statistics[10083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10084] = {
+_G.pg.base.item_data_statistics[10084] = {
 	display = "BF-109T艦載戰鬥機T3設計圖",
 	name = "BF-109T艦載戰鬥機T3設計圖",
 	max_num = 0,
@@ -3589,7 +3610,7 @@ _G.pg.item_data_statistics[10084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10085] = {
+_G.pg.base.item_data_statistics[10085] = {
 	display = "Me-155A艦載戰鬥機T2設計圖",
 	name = "Me-155A艦載戰鬥機T2設計圖",
 	max_num = 0,
@@ -3610,7 +3631,7 @@ _G.pg.item_data_statistics[10085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10086] = {
+_G.pg.base.item_data_statistics[10086] = {
 	display = "Ju-87C俯衝轟炸機T3設計圖",
 	name = "Ju-87C俯衝轟炸機T3設計圖",
 	max_num = 0,
@@ -3631,7 +3652,7 @@ _G.pg.item_data_statistics[10086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10087] = {
+_G.pg.base.item_data_statistics[10087] = {
 	display = "烈風T2設計圖",
 	name = "烈風T2設計圖",
 	max_num = 0,
@@ -3652,7 +3673,7 @@ _G.pg.item_data_statistics[10087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10088] = {
+_G.pg.base.item_data_statistics[10088] = {
 	display = "流星T2設計圖",
 	name = "流星T2設計圖",
 	max_num = 0,
@@ -3673,7 +3694,7 @@ _G.pg.item_data_statistics[10088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10089] = {
+_G.pg.base.item_data_statistics[10089] = {
 	display = "瑞雲T3設計圖",
 	name = "瑞雲T3設計圖",
 	max_num = 0,
@@ -3694,7 +3715,7 @@ _G.pg.item_data_statistics[10089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10090] = {
+_G.pg.base.item_data_statistics[10090] = {
 	display = "三聯裝550mm魚雷T3設計圖",
 	name = "三聯裝550mm魚雷T3設計圖",
 	max_num = 0,
@@ -3715,7 +3736,7 @@ _G.pg.item_data_statistics[10090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10091] = {
+_G.pg.base.item_data_statistics[10091] = {
 	display = "基礎聲納T3設計圖",
 	name = "基礎聲納T3設計圖",
 	max_num = 0,
@@ -3736,7 +3757,7 @@ _G.pg.item_data_statistics[10091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10092] = {
+_G.pg.base.item_data_statistics[10092] = {
 	display = "改良聲納T2設計圖",
 	name = "改良聲納T2設計圖",
 	max_num = 0,
@@ -3757,7 +3778,7 @@ _G.pg.item_data_statistics[10092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10093] = {
+_G.pg.base.item_data_statistics[10093] = {
 	display = "改良深彈投射器T3設計圖",
 	name = "改良深彈投射器T3設計圖",
 	max_num = 0,
@@ -3778,7 +3799,7 @@ _G.pg.item_data_statistics[10093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10094] = {
+_G.pg.base.item_data_statistics[10094] = {
 	display = "潛艇用Mark14魚雷T3設計圖",
 	name = "潛艇用Mark14魚雷T3設計圖",
 	max_num = 0,
@@ -3799,7 +3820,7 @@ _G.pg.item_data_statistics[10094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10095] = {
+_G.pg.base.item_data_statistics[10095] = {
 	display = "潛艇用Mark16魚雷T2設計圖",
 	name = "潛艇用Mark16魚雷T2設計圖",
 	max_num = 0,
@@ -3820,7 +3841,7 @@ _G.pg.item_data_statistics[10095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10096] = {
+_G.pg.base.item_data_statistics[10096] = {
 	display = "潛艇用92式潛射魚雷T3設計圖",
 	name = "潛艇用92式潛射魚雷T3設計圖",
 	max_num = 0,
@@ -3841,7 +3862,7 @@ _G.pg.item_data_statistics[10096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10097] = {
+_G.pg.base.item_data_statistics[10097] = {
 	display = "潛艇用95式純氧魚雷T2設計圖",
 	name = "潛艇用95式純氧魚雷T2設計圖",
 	max_num = 0,
@@ -3862,7 +3883,7 @@ _G.pg.item_data_statistics[10097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10098] = {
+_G.pg.base.item_data_statistics[10098] = {
 	display = "潛艇用G7a潛射魚雷T3設計圖",
 	name = "潛艇用G7a潛射魚雷T3設計圖",
 	max_num = 0,
@@ -3883,7 +3904,7 @@ _G.pg.item_data_statistics[10098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10099] = {
+_G.pg.base.item_data_statistics[10099] = {
 	display = "潛艇用G7e聲導魚雷T2設計圖",
 	name = "潛艇用G7e聲導魚雷T2設計圖",
 	max_num = 0,
@@ -3904,7 +3925,7 @@ _G.pg.item_data_statistics[10099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10100] = {
+_G.pg.base.item_data_statistics[10100] = {
 	display = "潛艇用550mm24V魚雷T3設計圖",
 	name = "潛艇用550mm24V魚雷T3設計圖",
 	max_num = 0,
@@ -3925,7 +3946,7 @@ _G.pg.item_data_statistics[10100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10101] = {
+_G.pg.base.item_data_statistics[10101] = {
 	display = "138.6mm單裝炮Mle1929T2設計圖",
 	name = "138.6mm單裝炮Mle1929T2設計圖",
 	max_num = 0,
@@ -3946,7 +3967,7 @@ _G.pg.item_data_statistics[10101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10102] = {
+_G.pg.base.item_data_statistics[10102] = {
 	display = "四聯裝330mm主炮Mle1931T3設計圖",
 	name = "四聯裝330mm主炮Mle1931T3設計圖",
 	max_num = 0,
@@ -3967,7 +3988,7 @@ _G.pg.item_data_statistics[10102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10103] = {
+_G.pg.base.item_data_statistics[10103] = {
 	display = "四聯裝380mm主炮Mle1935T2設計圖",
 	name = "四聯裝380mm主炮Mle1935T2設計圖",
 	max_num = 0,
@@ -3988,7 +4009,7 @@ _G.pg.item_data_statistics[10103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10104] = {
+_G.pg.base.item_data_statistics[10104] = {
 	display = "三聯裝381mm主炮Model1934T2設計圖",
 	name = "三聯裝381mm主炮Model1934T2設計圖",
 	max_num = 0,
@@ -4009,7 +4030,7 @@ _G.pg.item_data_statistics[10104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10105] = {
+_G.pg.base.item_data_statistics[10105] = {
 	display = "90mm單裝高角炮Model1939T2設計圖",
 	name = "90mm單裝高角炮Model1939T2設計圖",
 	max_num = 0,
@@ -4030,7 +4051,7 @@ _G.pg.item_data_statistics[10105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10106] = {
+_G.pg.base.item_data_statistics[10106] = {
 	display = "雙聯203mm主炮Model1927T2設計圖",
 	name = "雙聯203mm主炮Model1927T2設計圖",
 	max_num = 0,
@@ -4051,7 +4072,7 @@ _G.pg.item_data_statistics[10106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10107] = {
+_G.pg.base.item_data_statistics[10107] = {
 	display = "雙聯203mm主炮Model1924T3設計圖",
 	name = "雙聯203mm主炮Model1924T3設計圖",
 	max_num = 0,
@@ -4072,7 +4093,7 @@ _G.pg.item_data_statistics[10107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10108] = {
+_G.pg.base.item_data_statistics[10108] = {
 	display = "雙聯裝120mm炮Model1936T3設計圖",
 	name = "雙聯裝120mm炮Model1936T3設計圖",
 	max_num = 0,
@@ -4093,7 +4114,7 @@ _G.pg.item_data_statistics[10108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10109] = {
+_G.pg.base.item_data_statistics[10109] = {
 	display = "雙聯37mm機槍Model1932T3設計圖",
 	name = "雙聯37mm機槍Model1932T3設計圖",
 	max_num = 0,
@@ -4114,7 +4135,7 @@ _G.pg.item_data_statistics[10109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10110] = {
+_G.pg.base.item_data_statistics[10110] = {
 	display = "青花魚T3設計圖",
 	name = "青花魚T3設計圖",
 	max_num = 0,
@@ -4135,7 +4156,7 @@ _G.pg.item_data_statistics[10110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10111] = {
+_G.pg.base.item_data_statistics[10111] = {
 	display = "152mm連裝炮T3設計圖",
 	name = "152mm連裝炮T3設計圖",
 	max_num = 0,
@@ -4156,7 +4177,7 @@ _G.pg.item_data_statistics[10111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10113] = {
+_G.pg.base.item_data_statistics[10113] = {
 	display = "B-38 三聯裝152mm主炮Mk5T2設計圖",
 	name = "B-38 三聯裝152mm主炮Mk5T2設計圖",
 	max_num = 0,
@@ -4177,7 +4198,7 @@ _G.pg.item_data_statistics[10113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10114] = {
+_G.pg.base.item_data_statistics[10114] = {
 	display = "B-54 100mm雙聯裝防空炮T3設計圖",
 	name = "B-54 100mm雙聯裝防空炮T3設計圖",
 	max_num = 0,
@@ -4198,7 +4219,7 @@ _G.pg.item_data_statistics[10114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10116] = {
+_G.pg.base.item_data_statistics[10116] = {
 	display = "B-37 三聯裝406mm主炮MK-1T2設計圖",
 	name = "B-37 三聯裝406mm主炮MK-1T2設計圖",
 	max_num = 0,
@@ -4219,7 +4240,7 @@ _G.pg.item_data_statistics[10116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10117] = {
+_G.pg.base.item_data_statistics[10117] = {
 	display = "B-34 100mm雙聯裝防空炮MZ-14T3設計圖",
 	name = "B-34 100mm雙聯裝防空炮MZ-14T3設計圖",
 	max_num = 0,
@@ -4240,7 +4261,7 @@ _G.pg.item_data_statistics[10117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10118] = {
+_G.pg.base.item_data_statistics[10118] = {
 	display = "37mm防空炮70-KT3設計圖",
 	name = "37mm防空炮70-KT3設計圖",
 	max_num = 0,
@@ -4261,7 +4282,7 @@ _G.pg.item_data_statistics[10118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10119] = {
+_G.pg.base.item_data_statistics[10119] = {
 	display = "138.6mm單裝炮Mle1927T3設計圖",
 	name = "138.6mm單裝炮Mle1927T3設計圖",
 	max_num = 0,
@@ -4282,7 +4303,7 @@ _G.pg.item_data_statistics[10119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10120] = {
+_G.pg.base.item_data_statistics[10120] = {
 	display = "雙聯裝203mm主砲Mle1931T2設計圖",
 	name = "雙聯裝203mm主砲Mle1931T2設計圖",
 	max_num = 0,
@@ -4303,7 +4324,7 @@ _G.pg.item_data_statistics[10120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10121] = {
+_G.pg.base.item_data_statistics[10121] = {
 	display = "潛艇用Mark VIII魚雷T3設計圖",
 	name = "潛艇用Mark VIII魚雷T3設計圖",
 	max_num = 0,
@@ -4324,7 +4345,7 @@ _G.pg.item_data_statistics[10121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10122] = {
+_G.pg.base.item_data_statistics[10122] = {
 	display = "130mm單裝炮T3設計圖",
 	name = "130mm單裝炮T3設計圖",
 	max_num = 0,
@@ -4345,7 +4366,7 @@ _G.pg.item_data_statistics[10122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10123] = {
+_G.pg.base.item_data_statistics[10123] = {
 	display = "G.50箭式戰鬥機T3設計圖",
 	name = "G.50箭式戰鬥機T3設計圖",
 	max_num = 0,
@@ -4366,7 +4387,7 @@ _G.pg.item_data_statistics[10123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10124] = {
+_G.pg.base.item_data_statistics[10124] = {
 	display = "Re.2001公羊T3設計圖",
 	name = "Re.2001公羊T3設計圖",
 	max_num = 0,
@@ -4387,7 +4408,7 @@ _G.pg.item_data_statistics[10124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11000] = {
+_G.pg.base.item_data_statistics[11000] = {
 	display = "艦艇維修設備T3設計圖",
 	name = "艦艇維修設備T3設計圖",
 	max_num = 0,
@@ -4408,7 +4429,7 @@ _G.pg.item_data_statistics[11000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11001] = {
+_G.pg.base.item_data_statistics[11001] = {
 	display = "液壓彈射裝置T3設計圖",
 	name = "液壓彈射裝置T3設計圖",
 	max_num = 0,
@@ -4429,7 +4450,7 @@ _G.pg.item_data_statistics[11001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11002] = {
+_G.pg.base.item_data_statistics[11002] = {
 	display = "SG雷達T3設計圖",
 	name = "SG雷達T3設計圖",
 	max_num = 0,
@@ -4450,7 +4471,7 @@ _G.pg.item_data_statistics[11002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11003] = {
+_G.pg.base.item_data_statistics[11003] = {
 	display = "九三式純氧魚雷T2設計圖",
 	name = "九三式純氧魚雷T2設計圖",
 	max_num = 0,
@@ -4471,7 +4492,7 @@ _G.pg.item_data_statistics[11003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11004] = {
+_G.pg.base.item_data_statistics[11004] = {
 	display = "533mm磁性魚雷T3設計圖",
 	name = "533mm磁性魚雷T3設計圖",
 	max_num = 0,
@@ -4492,7 +4513,7 @@ _G.pg.item_data_statistics[11004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11005] = {
+_G.pg.base.item_data_statistics[11005] = {
 	display = "五聯裝533mm魚雷T3設計圖",
 	name = "五聯裝533mm魚雷T3設計圖",
 	max_num = 0,
@@ -4513,7 +4534,7 @@ _G.pg.item_data_statistics[11005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11006] = {
+_G.pg.base.item_data_statistics[11006] = {
 	display = "雙聯裝127mm高平兩用炮MK12T3設計圖",
 	name = "雙聯裝127mm高平兩用炮T3設計圖",
 	max_num = 0,
@@ -4534,7 +4555,7 @@ _G.pg.item_data_statistics[11006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11009] = {
+_G.pg.base.item_data_statistics[11009] = {
 	display = "四聯40mm博福斯對空機炮T3設計圖",
 	name = "四聯40mm博福斯對空機炮T3設計圖",
 	max_num = 0,
@@ -4555,7 +4576,7 @@ _G.pg.item_data_statistics[11009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11010] = {
+_G.pg.base.item_data_statistics[11010] = {
 	display = "F6F地獄貓T3設計圖",
 	name = "F6F地獄貓T3設計圖",
 	max_num = 0,
@@ -4576,7 +4597,7 @@ _G.pg.item_data_statistics[11010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11011] = {
+_G.pg.base.item_data_statistics[11011] = {
 	display = "BTD-1毀滅者T3設計圖",
 	name = "BTD-1毀滅者T3設計圖",
 	max_num = 0,
@@ -4597,7 +4618,7 @@ _G.pg.item_data_statistics[11011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11012] = {
+_G.pg.base.item_data_statistics[11012] = {
 	display = "四聯裝356mm主炮T3設計圖",
 	name = "四聯裝356mm主炮T3設計圖",
 	max_num = 0,
@@ -4618,7 +4639,7 @@ _G.pg.item_data_statistics[11012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11013] = {
+_G.pg.base.item_data_statistics[11013] = {
 	display = "三聯裝406mm主炮T3設計圖",
 	name = "三聯裝406mm主炮T3設計圖",
 	max_num = 0,
@@ -4639,7 +4660,7 @@ _G.pg.item_data_statistics[11013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11014] = {
+_G.pg.base.item_data_statistics[11014] = {
 	display = "八聯裝40mm“砰砰”炮T3設計圖",
 	name = "八聯裝40mm“砰砰”炮T3設計圖",
 	max_num = 0,
@@ -4660,7 +4681,7 @@ _G.pg.item_data_statistics[11014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11015] = {
+_G.pg.base.item_data_statistics[11015] = {
 	display = "雙聯裝113mm高射炮T3設計圖",
 	name = "雙聯裝113mm高射炮T3設計圖",
 	max_num = 0,
@@ -4681,7 +4702,7 @@ _G.pg.item_data_statistics[11015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11016] = {
+_G.pg.base.item_data_statistics[11016] = {
 	display = "海毒牙T3設計圖",
 	name = "海毒牙T3設計圖",
 	max_num = 0,
@@ -4702,7 +4723,7 @@ _G.pg.item_data_statistics[11016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11017] = {
+_G.pg.base.item_data_statistics[11017] = {
 	display = "梭魚T3設計圖",
 	name = "梭魚T3設計圖",
 	max_num = 0,
@@ -4723,7 +4744,7 @@ _G.pg.item_data_statistics[11017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11018] = {
+_G.pg.base.item_data_statistics[11018] = {
 	display = "雙聯100mm98式高射炮T3設計圖",
 	name = "雙聯100mm98式高射炮T3設計圖",
 	max_num = 0,
@@ -4744,7 +4765,7 @@ _G.pg.item_data_statistics[11018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11019] = {
+_G.pg.base.item_data_statistics[11019] = {
 	display = "155mm三連裝炮T3設計圖",
 	name = "155mm三連裝炮T3設計圖",
 	max_num = 0,
@@ -4765,7 +4786,7 @@ _G.pg.item_data_statistics[11019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11021] = {
+_G.pg.base.item_data_statistics[11021] = {
 	display = "四聯裝610mm魚雷T3設計圖",
 	name = "四聯裝610mm魚雷T3設計圖",
 	max_num = 0,
@@ -4786,7 +4807,7 @@ _G.pg.item_data_statistics[11021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11023] = {
+_G.pg.base.item_data_statistics[11023] = {
 	display = "零戰五二型T3設計圖",
 	name = "零戰五二型T3設計圖",
 	max_num = 0,
@@ -4807,7 +4828,7 @@ _G.pg.item_data_statistics[11023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11024] = {
+_G.pg.base.item_data_statistics[11024] = {
 	display = "彗星T3設計圖",
 	name = "彗星T3設計圖",
 	max_num = 0,
@@ -4828,7 +4849,7 @@ _G.pg.item_data_statistics[11024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11025] = {
+_G.pg.base.item_data_statistics[11025] = {
 	display = "雙聯裝203mmSKC主炮T3設計圖",
 	name = "雙聯裝203mmSKC主炮T3設計圖",
 	max_num = 0,
@@ -4849,7 +4870,7 @@ _G.pg.item_data_statistics[11025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11026] = {
+_G.pg.base.item_data_statistics[11026] = {
 	display = "雙聯380mmSKC主炮T3設計圖",
 	name = "雙聯380mmSKC主炮T3設計圖",
 	max_num = 0,
@@ -4870,7 +4891,7 @@ _G.pg.item_data_statistics[11026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11027] = {
+_G.pg.base.item_data_statistics[11027] = {
 	display = "雙聯105mmSKC高炮T3設計圖",
 	name = "雙聯105mmSKC高炮T3設計圖",
 	max_num = 0,
@@ -4891,7 +4912,7 @@ _G.pg.item_data_statistics[11027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11028] = {
+_G.pg.base.item_data_statistics[11028] = {
 	display = "{namecode:98}收集了很久的素材，可以用來合成特殊的裝備",
 	name = "造型奇特的素材",
 	max_num = 0,
@@ -4912,7 +4933,7 @@ _G.pg.item_data_statistics[11028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11029] = {
+_G.pg.base.item_data_statistics[11029] = {
 	display = "四聯裝533mm磁性魚雷T3設計圖",
 	name = "四聯裝533mm磁性魚雷T3設計圖",
 	max_num = 0,
@@ -4933,7 +4954,7 @@ _G.pg.item_data_statistics[11029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11030] = {
+_G.pg.base.item_data_statistics[11030] = {
 	display = "五聯裝533mm磁性魚雷T2設計圖",
 	name = "五聯裝533mm磁性魚雷T2設計圖",
 	max_num = 0,
@@ -4954,7 +4975,7 @@ _G.pg.item_data_statistics[11030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11031] = {
+_G.pg.base.item_data_statistics[11031] = {
 	display = "Me-155A艦載戰鬥機T3設計圖",
 	name = "Me-155A艦載戰鬥機T3設計圖",
 	max_num = 0,
@@ -4975,7 +4996,7 @@ _G.pg.item_data_statistics[11031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11032] = {
+_G.pg.base.item_data_statistics[11032] = {
 	display = "烈風T3設計圖",
 	name = "烈風T3設計圖",
 	max_num = 0,
@@ -4996,7 +5017,7 @@ _G.pg.item_data_statistics[11032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11033] = {
+_G.pg.base.item_data_statistics[11033] = {
 	display = "流星T3設計圖",
 	name = "流星T3設計圖",
 	max_num = 0,
@@ -5017,7 +5038,7 @@ _G.pg.item_data_statistics[11033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11034] = {
+_G.pg.base.item_data_statistics[11034] = {
 	display = "改良聲納T3設計圖",
 	name = "改良聲納T3設計圖",
 	max_num = 0,
@@ -5038,7 +5059,7 @@ _G.pg.item_data_statistics[11034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11035] = {
+_G.pg.base.item_data_statistics[11035] = {
 	display = "潛艇用Mark16魚雷T3設計圖",
 	name = "潛艇用Mark16魚雷T3設計圖",
 	max_num = 0,
@@ -5059,7 +5080,7 @@ _G.pg.item_data_statistics[11035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11036] = {
+_G.pg.base.item_data_statistics[11036] = {
 	display = "潛艇用95式純氧魚雷T3設計圖",
 	name = "潛艇用95式純氧魚雷T3設計圖",
 	max_num = 0,
@@ -5080,7 +5101,7 @@ _G.pg.item_data_statistics[11036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11037] = {
+_G.pg.base.item_data_statistics[11037] = {
 	display = "潛艇用G7e聲導魚雷T3設計圖",
 	name = "潛艇用G7e聲導魚雷T3設計圖",
 	max_num = 0,
@@ -5101,7 +5122,7 @@ _G.pg.item_data_statistics[11037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11038] = {
+_G.pg.base.item_data_statistics[11038] = {
 	display = "138.6mm單裝炮Mle1929T3設計圖",
 	name = "138.6mm單裝炮Mle1929T3設計圖",
 	max_num = 0,
@@ -5122,7 +5143,7 @@ _G.pg.item_data_statistics[11038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11039] = {
+_G.pg.base.item_data_statistics[11039] = {
 	display = "四聯裝380mm主炮Mle1935T3設計圖",
 	name = "四聯裝380mm主炮Mle1935T3設計圖",
 	max_num = 0,
@@ -5143,7 +5164,7 @@ _G.pg.item_data_statistics[11039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11040] = {
+_G.pg.base.item_data_statistics[11040] = {
 	display = "90mm單裝高角炮Model1939T3設計圖",
 	name = "90mm單裝高角炮Model1939T3設計圖",
 	max_num = 0,
@@ -5164,7 +5185,7 @@ _G.pg.item_data_statistics[11040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11041] = {
+_G.pg.base.item_data_statistics[11041] = {
 	display = "雙聯203mm主炮Model1927T3設計圖",
 	name = "雙聯203mm主炮Model1927T3設計圖",
 	max_num = 0,
@@ -5185,7 +5206,7 @@ _G.pg.item_data_statistics[11041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11043] = {
+_G.pg.base.item_data_statistics[11043] = {
 	display = "B-38 三聯裝152mm主炮Mk5T3設計圖",
 	name = "B-38 三聯裝152mm主炮Mk5T3設計圖",
 	max_num = 0,
@@ -5206,7 +5227,7 @@ _G.pg.item_data_statistics[11043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11046] = {
+_G.pg.base.item_data_statistics[11046] = {
 	display = "雙聯裝203mm主砲Mle1931T3設計圖",
 	name = "雙聯裝203mm主砲Mle1931T3設計圖",
 	max_num = 0,
@@ -5227,7 +5248,7 @@ _G.pg.item_data_statistics[11046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11047] = {
+_G.pg.base.item_data_statistics[11047] = {
 	display = "紫電改二T0設計圖",
 	name = "紫電改二T0設計圖",
 	max_num = 0,
@@ -5248,7 +5269,7 @@ _G.pg.item_data_statistics[11047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11048] = {
+_G.pg.base.item_data_statistics[11048] = {
 	display = "三聯裝152mm主炮Model1934T3設計圖",
 	name = "三聯裝152mm主炮Model1934T3設計圖",
 	max_num = 0,
@@ -5269,7 +5290,7 @@ _G.pg.item_data_statistics[11048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[12003] = {
+_G.pg.base.item_data_statistics[12003] = {
 	display = "五聯裝533mm磁性魚雷T3設計圖",
 	name = "五聯裝533mm磁性魚雷T3設計圖",
 	max_num = 0,
@@ -5290,7 +5311,7 @@ _G.pg.item_data_statistics[12003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13000] = {
+_G.pg.base.item_data_statistics[13000] = {
 	display = "雙聯裝381mm主炮.改T0設計圖",
 	name = "雙聯裝381mm主炮.改T0設計圖",
 	max_num = 0,
@@ -5311,7 +5332,7 @@ _G.pg.item_data_statistics[13000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13001] = {
+_G.pg.base.item_data_statistics[13001] = {
 	display = "試作型三聯裝381mm主炮T0設計圖",
 	name = "試作型三聯裝381mm主炮T0設計圖",
 	max_num = 0,
@@ -5332,7 +5353,7 @@ _G.pg.item_data_statistics[13001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13002] = {
+_G.pg.base.item_data_statistics[13002] = {
 	display = "410mm連裝炮(三式彈)T0設計圖",
 	name = "410mm連裝炮(三式彈)T0設計圖",
 	max_num = 0,
@@ -5353,7 +5374,7 @@ _G.pg.item_data_statistics[13002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13003] = {
+_G.pg.base.item_data_statistics[13003] = {
 	display = "試作型410mm三連裝炮T0設計圖",
 	name = "試作型410mm三連裝炮T0設計圖",
 	max_num = 0,
@@ -5374,7 +5395,7 @@ _G.pg.item_data_statistics[13003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13004] = {
+_G.pg.base.item_data_statistics[13004] = {
 	display = "試作型三聯裝203mmSKC主炮T0設計圖",
 	name = "試作型三聯裝203mmSKC主炮T0設計圖",
 	max_num = 0,
@@ -5395,7 +5416,7 @@ _G.pg.item_data_statistics[13004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13005] = {
+_G.pg.base.item_data_statistics[13005] = {
 	display = "試作型三聯裝203mm艦炮T0設計圖",
 	name = "試作型三聯裝203mm艦炮T0設計圖",
 	max_num = 0,
@@ -5416,7 +5437,7 @@ _G.pg.item_data_statistics[13005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13006] = {
+_G.pg.base.item_data_statistics[13006] = {
 	display = "試作型三聯裝152mm主炮T0設計圖",
 	name = "試作型三聯裝152mm主炮T0設計圖",
 	max_num = 0,
@@ -5437,7 +5458,7 @@ _G.pg.item_data_statistics[13006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13007] = {
+_G.pg.base.item_data_statistics[13007] = {
 	display = "雙聯裝40mm博福斯STAAGT0設計圖",
 	name = "雙聯裝40mm博福斯STAAGT0設計圖",
 	max_num = 0,
@@ -5458,7 +5479,7 @@ _G.pg.item_data_statistics[13007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13008] = {
+_G.pg.base.item_data_statistics[13008] = {
 	display = "100mm連裝高炮T0設計圖",
 	name = "100mm連裝高炮T0設計圖",
 	max_num = 0,
@@ -5479,7 +5500,7 @@ _G.pg.item_data_statistics[13008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13009] = {
+_G.pg.base.item_data_statistics[13009] = {
 	display = "高性能對空雷達T0設計圖",
 	name = "高性能對空雷達T0設計圖",
 	max_num = 0,
@@ -5500,7 +5521,7 @@ _G.pg.item_data_statistics[13009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13010] = {
+_G.pg.base.item_data_statistics[13010] = {
 	display = "高性能舵機T0設計圖",
 	name = "高性能舵機T0設計圖",
 	max_num = 0,
@@ -5521,7 +5542,7 @@ _G.pg.item_data_statistics[13010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13011] = {
+_G.pg.base.item_data_statistics[13011] = {
 	display = "雙聯裝40mm博福斯海茲梅耶T0設計圖",
 	name = "雙聯裝40mm博福斯海茲梅耶T0設計圖",
 	max_num = 0,
@@ -5542,7 +5563,7 @@ _G.pg.item_data_statistics[13011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13012] = {
+_G.pg.base.item_data_statistics[13012] = {
 	display = "試作型雙聯裝457mm主炮MKAT0設計圖",
 	name = "試作型雙聯裝457mm主炮MKAT0設計圖",
 	max_num = 0,
@@ -5563,7 +5584,7 @@ _G.pg.item_data_statistics[13012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13013] = {
+_G.pg.base.item_data_statistics[13013] = {
 	display = "試作型雙聯裝406mmSKC主炮T0設計圖",
 	name = "試作型雙聯裝406mmSKC主炮T0設計圖",
 	max_num = 0,
@@ -5584,7 +5605,7 @@ _G.pg.item_data_statistics[13013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13014] = {
+_G.pg.base.item_data_statistics[13014] = {
 	display = "試作型三聯裝152mm高平兩用炮Mk17T0設計圖",
 	name = "試作型三聯裝152mm高平兩用炮Mk17T0設計圖",
 	max_num = 0,
@@ -5605,7 +5626,7 @@ _G.pg.item_data_statistics[13014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13015] = {
+_G.pg.base.item_data_statistics[13015] = {
 	display = "試作型五式40mm高射機關炮T0設計圖",
 	name = "試作型五式40mm高射機關炮T0設計圖",
 	max_num = 0,
@@ -5626,7 +5647,7 @@ _G.pg.item_data_statistics[13015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13016] = {
+_G.pg.base.item_data_statistics[13016] = {
 	display = "試作型三聯裝310mm主炮T0設計圖",
 	name = "試作型三聯裝310mm主炮T0設計圖",
 	max_num = 0,
@@ -5647,7 +5668,7 @@ _G.pg.item_data_statistics[13016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13017] = {
+_G.pg.base.item_data_statistics[13017] = {
 	display = "雙聯37mm高射炮Mle1936T0設計圖",
 	name = "雙聯37mm高射炮Mle1936T0設計圖",
 	max_num = 0,
@@ -5668,7 +5689,7 @@ _G.pg.item_data_statistics[13017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13018] = {
+_G.pg.base.item_data_statistics[13018] = {
 	display = "試作型雙聯裝234mm主炮T0設計圖",
 	name = "試作型雙聯裝234mm主炮T0設計圖",
 	max_num = 0,
@@ -5689,7 +5710,7 @@ _G.pg.item_data_statistics[13018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13019] = {
+_G.pg.base.item_data_statistics[13019] = {
 	display = "試作型三聯裝234mm主炮T0設計圖",
 	name = "試作型三聯裝234mm主炮T0設計圖",
 	max_num = 0,
@@ -5710,7 +5731,7 @@ _G.pg.item_data_statistics[13019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13020] = {
+_G.pg.base.item_data_statistics[13020] = {
 	display = "雙聯裝114mm高平兩用炮MarkIVT0設計圖",
 	name = "雙聯裝114mm高平兩用炮MarkIVT0設計圖",
 	max_num = 0,
@@ -5731,7 +5752,7 @@ _G.pg.item_data_statistics[13020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13021] = {
+_G.pg.base.item_data_statistics[13021] = {
 	display = "六聯裝40mm博福斯對空機炮T0設計圖",
 	name = "六聯裝40mm博福斯對空機炮T0設計圖",
 	max_num = 0,
@@ -5752,7 +5773,7 @@ _G.pg.item_data_statistics[13021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13022] = {
+_G.pg.base.item_data_statistics[13022] = {
 	display = "試作型三聯裝305mmSKC39主炮T0設計圖",
 	name = "試作型三聯裝305mmSKC39主炮T0設計圖",
 	max_num = 0,
@@ -5773,7 +5794,7 @@ _G.pg.item_data_statistics[13022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13023] = {
+_G.pg.base.item_data_statistics[13023] = {
 	display = "試作型三聯裝406mm/50主炮T0設計圖",
 	name = "試作型三聯裝406mm/50主炮T0設計圖",
 	max_num = 0,
@@ -5794,7 +5815,7 @@ _G.pg.item_data_statistics[13023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13024] = {
+_G.pg.base.item_data_statistics[13024] = {
 	display = "高性能火控雷達T0設計圖",
 	name = "高性能火控雷達T0設計圖",
 	max_num = 0,
@@ -5815,7 +5836,7 @@ _G.pg.item_data_statistics[13024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14001] = {
+_G.pg.base.item_data_statistics[14001] = {
 	display = [[
 使用後可從超稀有科研裝備(I期)的設計圖中任意選擇一張
 兌換列表如下：
@@ -5875,7 +5896,7 @@ _G.pg.item_data_statistics[14001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14002] = {
+_G.pg.base.item_data_statistics[14002] = {
 	display = [[
 使用後可從超稀有科研裝備(II期)的設計圖中任意選擇一張
 兌換列表如下：
@@ -5929,7 +5950,7 @@ _G.pg.item_data_statistics[14002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14003] = {
+_G.pg.base.item_data_statistics[14003] = {
 	display = [[
 使用後可從超稀有科研裝備(III期)的設計圖中任意選擇一張
 兌換列表如下：
@@ -5984,7 +6005,7 @@ _G.pg.item_data_statistics[14003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15001] = {
+_G.pg.base.item_data_statistics[15001] = {
 	display = "角色退役後所獲得的榮譽勳章，可用於向軍部申請稀有的角色",
 	name = "榮譽勳章",
 	max_num = 0,
@@ -6005,7 +6026,7 @@ _G.pg.item_data_statistics[15001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15002] = {
+_G.pg.base.item_data_statistics[15002] = {
 	display = "這是說明說明說明",
 	name = "能源石",
 	max_num = 0,
@@ -6026,7 +6047,7 @@ _G.pg.item_data_statistics[15002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15003] = {
+_G.pg.base.item_data_statistics[15003] = {
 	display = "可以加速工作進度，立即完成目前建造任務",
 	name = "快速完成工具",
 	max_num = 0,
@@ -6047,7 +6068,7 @@ _G.pg.item_data_statistics[15003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15004] = {
+_G.pg.base.item_data_statistics[15004] = {
 	display = "使正在休息的角色立刻恢復完畢",
 	name = "休息加速工具",
 	max_num = 0,
@@ -6068,7 +6089,7 @@ _G.pg.item_data_statistics[15004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15005] = {
+_G.pg.base.item_data_statistics[15005] = {
 	display = "用於擴展後宅空間的證書",
 	name = "擴建許可證",
 	max_num = 0,
@@ -6089,7 +6110,7 @@ _G.pg.item_data_statistics[15005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15006] = {
+_G.pg.base.item_data_statistics[15006] = {
 	display = "與角色誓約所必須的道具",
 	name = "誓約之戒",
 	max_num = 0,
@@ -6110,7 +6131,7 @@ _G.pg.item_data_statistics[15006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15008] = {
+_G.pg.base.item_data_statistics[15008] = {
 	display = "可用於認知覺醒，提升<color=#A9F548>100級以上且滿足三次突破條件</color>的角色等級上限",
 	name = "心智單元",
 	max_num = 0,
@@ -6131,7 +6152,7 @@ _G.pg.item_data_statistics[15008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15009] = {
+_G.pg.base.item_data_statistics[15009] = {
 	display = "更改指揮官登錄名稱時需要提交的證明，每<color=#A9F548>30天</color>僅限更改一次。\n透過主界面左上角的頭像，點擊名稱旁的更名按鈕可以變更指揮官的名稱。",
 	name = "身份變更證明",
 	max_num = 0,
@@ -6152,7 +6173,7 @@ _G.pg.item_data_statistics[15009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15010] = {
+_G.pg.base.item_data_statistics[15010] = {
 	display = "增強信號接收的靈敏度、使用後求救信號+1",
 	name = "信號增強裝置",
 	max_num = 0,
@@ -6173,7 +6194,7 @@ _G.pg.item_data_statistics[15010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15011] = {
+_G.pg.base.item_data_statistics[15011] = {
 	display = "用於偶像大師聯動角色誓約的冠冕(兌換操作無法收回，以此誓約的角色無法更名）",
 	name = "誓約之冠",
 	max_num = 0,
@@ -6194,7 +6215,7 @@ _G.pg.item_data_statistics[15011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15012] = {
+_G.pg.base.item_data_statistics[15012] = {
 	display = "可用於認知覺醒，提升<color=#92fc63>120級以上且滿足三次突破條件</color>的角色等級上限",
 	name = "心智單元II",
 	max_num = 0,
@@ -6215,7 +6236,7 @@ _G.pg.item_data_statistics[15012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15013] = {
+_G.pg.base.item_data_statistics[15013] = {
 	display = "可用於『世界巡遊』活動中，快速完成巡遊任務，活動結束不會消失",
 	name = "巡遊任務快速完成券",
 	max_num = 0,
@@ -6236,7 +6257,7 @@ _G.pg.item_data_statistics[15013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16001] = {
+_G.pg.base.item_data_statistics[16001] = {
 	display = "艦艇攻擊教材T1，用於訓練角色攻擊技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇攻擊教材T2</color>",
 	name = "艦艇攻擊教材T1",
 	max_num = 0,
@@ -6257,7 +6278,7 @@ _G.pg.item_data_statistics[16001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16002] = {
+_G.pg.base.item_data_statistics[16002] = {
 	display = "艦艇攻擊教材T2，用於訓練角色攻擊技能可以獲得額外的經驗\n*可消耗<color=#ffde38>4</color>個合成<color=#ffde38>1</color>個<color=#ffde38>艦艇攻擊教材T3</color>",
 	name = "艦艇攻擊教材T2",
 	max_num = 0,
@@ -6278,7 +6299,7 @@ _G.pg.item_data_statistics[16002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16003] = {
+_G.pg.base.item_data_statistics[16003] = {
 	display = "艦艇攻擊教材T3，用於訓練角色攻擊技能可以獲得額外的經驗",
 	name = "艦艇攻擊教材T3",
 	max_num = 0,
@@ -6299,7 +6320,7 @@ _G.pg.item_data_statistics[16003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16004] = {
+_G.pg.base.item_data_statistics[16004] = {
 	display = "艦艇攻擊教材T4，用於訓練角色攻擊技能可以獲得額外的經驗",
 	name = "艦艇攻擊教材T4",
 	max_num = 0,
@@ -6320,7 +6341,7 @@ _G.pg.item_data_statistics[16004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16011] = {
+_G.pg.base.item_data_statistics[16011] = {
 	display = "艦艇防禦教材T1，用於訓練角色防禦技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇防禦教材T2</color>",
 	name = "艦艇防禦教材T1",
 	max_num = 0,
@@ -6341,7 +6362,7 @@ _G.pg.item_data_statistics[16011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16012] = {
+_G.pg.base.item_data_statistics[16012] = {
 	display = "艦艇防禦教材T2，用於訓練角色防禦技能可以獲得額外的經驗\n*可消耗<color=#ffde38>4</color>個合成<color=#ffde38>1</color>個<color=#ffde38>艦艇防禦教材T3</color>",
 	name = "艦艇防禦教材T2",
 	max_num = 0,
@@ -6362,7 +6383,7 @@ _G.pg.item_data_statistics[16012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16013] = {
+_G.pg.base.item_data_statistics[16013] = {
 	display = "艦艇防禦教材T3，用於訓練角色防禦技能可以獲得額外的經驗",
 	name = "艦艇防禦教材T3",
 	max_num = 0,
@@ -6383,7 +6404,7 @@ _G.pg.item_data_statistics[16013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16014] = {
+_G.pg.base.item_data_statistics[16014] = {
 	display = "艦艇防禦教材T4，用於訓練角色防禦技能可以獲得額外的經驗",
 	name = "艦艇防禦教材T4",
 	max_num = 0,
@@ -6404,7 +6425,7 @@ _G.pg.item_data_statistics[16014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16021] = {
+_G.pg.base.item_data_statistics[16021] = {
 	display = "艦艇輔助教材T1，用於訓練角色輔助技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇輔助教材T2</color>",
 	name = "艦艇輔助教材T1",
 	max_num = 0,
@@ -6425,7 +6446,7 @@ _G.pg.item_data_statistics[16021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16022] = {
+_G.pg.base.item_data_statistics[16022] = {
 	display = "艦艇輔助教材T2，用於訓練角色輔助技能可以獲得額外的經驗\n*可消耗<color=#ffde38>4</color>個合成<color=#ffde38>1</color>個<color=#ffde38>艦艇輔助教材T3</color>",
 	name = "艦艇輔助教材T2",
 	max_num = 0,
@@ -6446,7 +6467,7 @@ _G.pg.item_data_statistics[16022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16023] = {
+_G.pg.base.item_data_statistics[16023] = {
 	display = "艦艇輔助教材T3，用於訓練角色輔助技能可以獲得額外的經驗",
 	name = "艦艇輔助教材T3",
 	max_num = 0,
@@ -6467,7 +6488,7 @@ _G.pg.item_data_statistics[16023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16024] = {
+_G.pg.base.item_data_statistics[16024] = {
 	display = "艦艇輔助教材T4，用於訓練角色輔助技能可以獲得額外的經驗",
 	name = "艦艇輔助教材T4",
 	max_num = 0,
@@ -6488,7 +6509,7 @@ _G.pg.item_data_statistics[16024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16501] = {
+_G.pg.base.item_data_statistics[16501] = {
 	display = "艦艇演習數據T1，用於角色經驗提升，可為角色提供3000經驗，存有數量上限為3000本",
 	name = "艦艇演習數據T1",
 	max_num = 3000,
@@ -6509,7 +6530,7 @@ _G.pg.item_data_statistics[16501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16502] = {
+_G.pg.base.item_data_statistics[16502] = {
 	display = "艦艇演習數據T2，用於角色經驗提升，可為角色提供15000經驗，存有數量上限為500本",
 	name = "艦艇演習數據T2",
 	max_num = 500,
@@ -6530,7 +6551,7 @@ _G.pg.item_data_statistics[16502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17001] = {
+_G.pg.base.item_data_statistics[17001] = {
 	display = "一般的部件，很多地方都能用到，主要用於設備的改造",
 	name = "通用部件T1",
 	max_num = 0,
@@ -6551,7 +6572,7 @@ _G.pg.item_data_statistics[17001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17002] = {
+_G.pg.base.item_data_statistics[17002] = {
 	display = "一般的部件，很多地方都能用到，主要用於設備的改造",
 	name = "通用部件T2",
 	max_num = 0,
@@ -6572,7 +6593,7 @@ _G.pg.item_data_statistics[17002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17003] = {
+_G.pg.base.item_data_statistics[17003] = {
 	display = "一般的部件，很多地方都能用到，主要用於設備的改造",
 	name = "通用部件T3",
 	max_num = 0,
@@ -6593,7 +6614,7 @@ _G.pg.item_data_statistics[17003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17004] = {
+_G.pg.base.item_data_statistics[17004] = {
 	display = "一般的部件，很多地方都能用到，主要用於設備的改造",
 	name = "通用部件T4",
 	max_num = 0,
@@ -6614,7 +6635,7 @@ _G.pg.item_data_statistics[17004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17011] = {
+_G.pg.base.item_data_statistics[17011] = {
 	display = "主炮的部件，主要用於主炮的改造",
 	name = "主炮部件T1",
 	max_num = 0,
@@ -6635,7 +6656,7 @@ _G.pg.item_data_statistics[17011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17012] = {
+_G.pg.base.item_data_statistics[17012] = {
 	display = "主炮的部件，主要用於主炮的改造",
 	name = "主炮部件T2",
 	max_num = 0,
@@ -6656,7 +6677,7 @@ _G.pg.item_data_statistics[17012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17013] = {
+_G.pg.base.item_data_statistics[17013] = {
 	display = "主炮的部件，主要用於主炮的改造",
 	name = "主炮部件T3",
 	max_num = 0,
@@ -6677,7 +6698,7 @@ _G.pg.item_data_statistics[17013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17014] = {
+_G.pg.base.item_data_statistics[17014] = {
 	display = "主炮的部件，主要用於主炮的改造",
 	name = "主炮部件T4",
 	max_num = 0,
@@ -6698,7 +6719,7 @@ _G.pg.item_data_statistics[17014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17021] = {
+_G.pg.base.item_data_statistics[17021] = {
 	display = "魚雷的部件，主要用於魚雷的改造",
 	name = "魚雷部件T1",
 	max_num = 0,
@@ -6719,7 +6740,7 @@ _G.pg.item_data_statistics[17021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17022] = {
+_G.pg.base.item_data_statistics[17022] = {
 	display = "魚雷的部件，主要用於魚雷的改造",
 	name = "魚雷部件T2",
 	max_num = 0,
@@ -6740,7 +6761,7 @@ _G.pg.item_data_statistics[17022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17023] = {
+_G.pg.base.item_data_statistics[17023] = {
 	display = "魚雷的部件，主要用於魚雷的改造",
 	name = "魚雷部件T3",
 	max_num = 0,
@@ -6761,7 +6782,7 @@ _G.pg.item_data_statistics[17023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17024] = {
+_G.pg.base.item_data_statistics[17024] = {
 	display = "魚雷的部件，主要用於魚雷的改造",
 	name = "魚雷部件T4",
 	max_num = 0,
@@ -6782,7 +6803,7 @@ _G.pg.item_data_statistics[17024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17031] = {
+_G.pg.base.item_data_statistics[17031] = {
 	display = "防空炮的部件，主要用於防空炮的改造",
 	name = "防空炮部件T1",
 	max_num = 0,
@@ -6803,7 +6824,7 @@ _G.pg.item_data_statistics[17031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17032] = {
+_G.pg.base.item_data_statistics[17032] = {
 	display = "防空炮的部件，主要用於防空炮的改造",
 	name = "防空炮部件T2",
 	max_num = 0,
@@ -6824,7 +6845,7 @@ _G.pg.item_data_statistics[17032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17033] = {
+_G.pg.base.item_data_statistics[17033] = {
 	display = "防空炮的部件，主要用於防空炮的改造",
 	name = "防空炮部件T3",
 	max_num = 0,
@@ -6845,7 +6866,7 @@ _G.pg.item_data_statistics[17033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17034] = {
+_G.pg.base.item_data_statistics[17034] = {
 	display = "防空炮的部件，主要用於防空炮的改造",
 	name = "防空炮部件T4",
 	max_num = 0,
@@ -6866,7 +6887,7 @@ _G.pg.item_data_statistics[17034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17041] = {
+_G.pg.base.item_data_statistics[17041] = {
 	display = "艦載機的部件，主要用於艦載機的改造",
 	name = "艦載機部件T1",
 	max_num = 0,
@@ -6887,7 +6908,7 @@ _G.pg.item_data_statistics[17041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17042] = {
+_G.pg.base.item_data_statistics[17042] = {
 	display = "艦載機的部件，主要用於艦載機的改造",
 	name = "艦載機部件T2",
 	max_num = 0,
@@ -6908,7 +6929,7 @@ _G.pg.item_data_statistics[17042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17043] = {
+_G.pg.base.item_data_statistics[17043] = {
 	display = "艦載機的部件，主要用於艦載機的改造",
 	name = "艦載機部件T3",
 	max_num = 0,
@@ -6929,7 +6950,7 @@ _G.pg.item_data_statistics[17043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17044] = {
+_G.pg.base.item_data_statistics[17044] = {
 	display = "艦載機的部件，主要用於艦載機的改造",
 	name = "艦載機部件T4",
 	max_num = 0,
@@ -6950,7 +6971,7 @@ _G.pg.item_data_statistics[17044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17990] = {
+_G.pg.base.item_data_statistics[17990] = {
 	display = "能夠開發出SSR型裝備額外性能的實驗部件。",
 	name = "試作型突破部件",
 	max_num = 0,
@@ -6971,7 +6992,7 @@ _G.pg.item_data_statistics[17990] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17991] = {
+_G.pg.base.item_data_statistics[17991] = {
 	display = "能夠開發出UR型裝備額外性能的實驗部件。",
 	name = "特裝型突破部件",
 	max_num = 0,
@@ -6992,7 +7013,7 @@ _G.pg.item_data_statistics[17991] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18000] = {
+_G.pg.base.item_data_statistics[18000] = {
 	display = "改造圖紙範本",
 	name = "改造圖紙範本",
 	max_num = 0,
@@ -7013,7 +7034,7 @@ _G.pg.item_data_statistics[18000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18001] = {
+_G.pg.base.item_data_statistics[18001] = {
 	display = "用於改造驅逐艦的圖紙\n*可消耗<color=#fad545>6</color>個合成<color=#fad545>1</color>個<color=#966af6>驅逐改造圖紙T2</color>",
 	name = "驅逐改造圖紙T1",
 	max_num = 0,
@@ -7034,7 +7055,7 @@ _G.pg.item_data_statistics[18001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18002] = {
+_G.pg.base.item_data_statistics[18002] = {
 	display = "用於改造驅逐艦的圖紙",
 	name = "驅逐改造圖紙T2",
 	max_num = 0,
@@ -7055,7 +7076,7 @@ _G.pg.item_data_statistics[18002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18003] = {
+_G.pg.base.item_data_statistics[18003] = {
 	display = "用於改造驅逐艦的圖紙",
 	name = "驅逐改造圖紙T3",
 	max_num = 0,
@@ -7076,7 +7097,7 @@ _G.pg.item_data_statistics[18003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18011] = {
+_G.pg.base.item_data_statistics[18011] = {
 	display = "用於改造巡洋艦的圖紙\n*可消耗<color=#fad545>6</color>個合成<color=#fad545>1</color>個<color=#966af6>巡洋改造圖紙T2</color>",
 	name = "巡洋改造圖紙T1",
 	max_num = 0,
@@ -7097,7 +7118,7 @@ _G.pg.item_data_statistics[18011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18012] = {
+_G.pg.base.item_data_statistics[18012] = {
 	display = "用於改造巡洋艦的圖紙",
 	name = "巡洋改造圖紙T2",
 	max_num = 0,
@@ -7118,7 +7139,7 @@ _G.pg.item_data_statistics[18012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18013] = {
+_G.pg.base.item_data_statistics[18013] = {
 	display = "用於改造巡洋艦的圖紙",
 	name = "巡洋改造圖紙T3",
 	max_num = 0,
@@ -7139,7 +7160,7 @@ _G.pg.item_data_statistics[18013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18021] = {
+_G.pg.base.item_data_statistics[18021] = {
 	display = "用於改造戰列艦的圖紙\n*可消耗<color=#fad545>6</color>個合成<color=#fad545>1</color>個<color=#966af6>戰列改造圖紙T2</color>",
 	name = "戰列改造圖紙T1",
 	max_num = 0,
@@ -7160,7 +7181,7 @@ _G.pg.item_data_statistics[18021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18022] = {
+_G.pg.base.item_data_statistics[18022] = {
 	display = "用於改造戰列艦的圖紙",
 	name = "戰列改造圖紙T2",
 	max_num = 0,
@@ -7181,7 +7202,7 @@ _G.pg.item_data_statistics[18022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18023] = {
+_G.pg.base.item_data_statistics[18023] = {
 	display = "用於改造戰列艦的圖紙",
 	name = "戰列改造圖紙T3",
 	max_num = 0,
@@ -7202,7 +7223,7 @@ _G.pg.item_data_statistics[18023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18031] = {
+_G.pg.base.item_data_statistics[18031] = {
 	display = "用於改造航空母艦的圖紙\n*可消耗<color=#fad545>6</color>個合成<color=#fad545>1</color>個<color=#966af6>航母改造圖紙T2</color>",
 	name = "航母改造圖紙T1",
 	max_num = 0,
@@ -7223,7 +7244,7 @@ _G.pg.item_data_statistics[18031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18032] = {
+_G.pg.base.item_data_statistics[18032] = {
 	display = "用於改造航空母艦的圖紙",
 	name = "航母改造圖紙T2",
 	max_num = 0,
@@ -7244,7 +7265,7 @@ _G.pg.item_data_statistics[18032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18033] = {
+_G.pg.base.item_data_statistics[18033] = {
 	display = "用於改造航空母艦的圖紙",
 	name = "航母改造圖紙T3",
 	max_num = 0,
@@ -7265,7 +7286,7 @@ _G.pg.item_data_statistics[18033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18101] = {
+_G.pg.base.item_data_statistics[18101] = {
 	display = "工藝簡單大批量生產的鋼材，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "普通鋼材",
 	max_num = 0,
@@ -7286,7 +7307,7 @@ _G.pg.item_data_statistics[18101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18102] = {
+_G.pg.base.item_data_statistics[18102] = {
 	display = "綜合性能良好的鋼材，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "優質鋼材",
 	max_num = 0,
@@ -7307,7 +7328,7 @@ _G.pg.item_data_statistics[18102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18103] = {
+_G.pg.base.item_data_statistics[18103] = {
 	display = "生產困難擁有特殊性能的鋼材，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "特種鋼材",
 	max_num = 0,
@@ -7328,7 +7349,7 @@ _G.pg.item_data_statistics[18103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18104] = {
+_G.pg.base.item_data_statistics[18104] = {
 	display = "通常設備中使用的電子元件，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "通常電子元件",
 	max_num = 0,
@@ -7349,7 +7370,7 @@ _G.pg.item_data_statistics[18104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18105] = {
+_G.pg.base.item_data_statistics[18105] = {
 	display = "工業設備中使用的電子元件，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "工業級電子元件",
 	max_num = 0,
@@ -7370,7 +7391,7 @@ _G.pg.item_data_statistics[18105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18106] = {
+_G.pg.base.item_data_statistics[18106] = {
 	display = "軍事工業設備中使用的電子元件，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "軍工級電子元件",
 	max_num = 0,
@@ -7391,7 +7412,7 @@ _G.pg.item_data_statistics[18106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18107] = {
+_G.pg.base.item_data_statistics[18107] = {
 	display = "性質穩定應用廣泛的炸藥，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "常規炸藥",
 	max_num = 0,
@@ -7412,7 +7433,7 @@ _G.pg.item_data_statistics[18107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18108] = {
+_G.pg.base.item_data_statistics[18108] = {
 	display = "能量高可塑性強的混合炸藥，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "B炸藥",
 	max_num = 0,
@@ -7433,7 +7454,7 @@ _G.pg.item_data_statistics[18108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18109] = {
+_G.pg.base.item_data_statistics[18109] = {
 	display = "含有鋁粉的高威力軍用混合炸藥，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "HBX炸藥",
 	max_num = 0,
@@ -7454,7 +7475,7 @@ _G.pg.item_data_statistics[18109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18110] = {
+_G.pg.base.item_data_statistics[18110] = {
 	display = "由橡膠樹上採集加工而來的天然橡膠，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "天然橡膠",
 	max_num = 0,
@@ -7475,7 +7496,7 @@ _G.pg.item_data_statistics[18110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18111] = {
+_G.pg.base.item_data_statistics[18111] = {
 	display = "通過工業大規模生產的合成橡膠，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "通用合成橡膠",
 	max_num = 0,
@@ -7496,7 +7517,7 @@ _G.pg.item_data_statistics[18111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18112] = {
+_G.pg.base.item_data_statistics[18112] = {
 	display = "工藝複雜性能優異的合成橡膠，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "氟橡膠",
 	max_num = 0,
@@ -7517,7 +7538,7 @@ _G.pg.item_data_statistics[18112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18113] = {
+_G.pg.base.item_data_statistics[18113] = {
 	display = "經過提煉的金屬銅，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "銅錠",
 	max_num = 0,
@@ -7538,7 +7559,7 @@ _G.pg.item_data_statistics[18113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18114] = {
+_G.pg.base.item_data_statistics[18114] = {
 	display = "導電性能優異的合成銅，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "超導銅",
 	max_num = 0,
@@ -7559,7 +7580,7 @@ _G.pg.item_data_statistics[18114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18115] = {
+_G.pg.base.item_data_statistics[18115] = {
 	display = "在鋁中加入了其它元素製成的合金，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "鋁合金",
 	max_num = 0,
@@ -7580,7 +7601,7 @@ _G.pg.item_data_statistics[18115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18116] = {
+_G.pg.base.item_data_statistics[18116] = {
 	display = "在鈦中加入了其它元素製成的合金，擁有眾多優異性能，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "鈦合金",
 	max_num = 0,
@@ -7601,7 +7622,7 @@ _G.pg.item_data_statistics[18116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18117] = {
+_G.pg.base.item_data_statistics[18117] = {
 	display = "進行SSR型主炮研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "艦炮研發圖紙SSR型",
 	max_num = 0,
@@ -7622,7 +7643,7 @@ _G.pg.item_data_statistics[18117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18118] = {
+_G.pg.base.item_data_statistics[18118] = {
 	display = "進行UR型主炮研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "艦炮研發圖紙UR型",
 	max_num = 0,
@@ -7643,7 +7664,7 @@ _G.pg.item_data_statistics[18118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18119] = {
+_G.pg.base.item_data_statistics[18119] = {
 	display = "進行SSR型魚雷研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "魚雷研發圖紙SSR型",
 	max_num = 0,
@@ -7664,7 +7685,7 @@ _G.pg.item_data_statistics[18119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18120] = {
+_G.pg.base.item_data_statistics[18120] = {
 	display = "進行UR型魚雷研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "魚雷研發圖紙UR型",
 	max_num = 0,
@@ -7685,7 +7706,7 @@ _G.pg.item_data_statistics[18120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18121] = {
+_G.pg.base.item_data_statistics[18121] = {
 	display = "進行SSR型防空炮研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "防空炮研發圖紙SSR型",
 	max_num = 0,
@@ -7706,7 +7727,7 @@ _G.pg.item_data_statistics[18121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18122] = {
+_G.pg.base.item_data_statistics[18122] = {
 	display = "進行UR型防空炮研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "防空炮研發圖紙UR型",
 	max_num = 0,
@@ -7727,7 +7748,7 @@ _G.pg.item_data_statistics[18122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18123] = {
+_G.pg.base.item_data_statistics[18123] = {
 	display = "進行SSR型艦載機研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "艦載機研發圖紙SSR型",
 	max_num = 0,
@@ -7748,7 +7769,7 @@ _G.pg.item_data_statistics[18123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18124] = {
+_G.pg.base.item_data_statistics[18124] = {
 	display = "進行UR型艦載機研發的必要圖紙材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "艦載機研發圖紙UR型",
 	max_num = 0,
@@ -7769,7 +7790,7 @@ _G.pg.item_data_statistics[18124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18125] = {
+_G.pg.base.item_data_statistics[18125] = {
 	display = "保密級別為普通的實驗計劃書，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "常規實驗計劃",
 	max_num = 0,
@@ -7790,7 +7811,7 @@ _G.pg.item_data_statistics[18125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18126] = {
+_G.pg.base.item_data_statistics[18126] = {
 	display = "保密級別為機密的實驗計劃書，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "機密實驗計劃",
 	max_num = 0,
@@ -7811,7 +7832,7 @@ _G.pg.item_data_statistics[18126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18127] = {
+_G.pg.base.item_data_statistics[18127] = {
 	display = "保密級別為絕密的實驗計劃書，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「裝備研發」</color>中使用",
 	name = "絕密實驗計劃",
 	max_num = 0,
@@ -7832,7 +7853,7 @@ _G.pg.item_data_statistics[18127] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20001] = {
+_G.pg.base.item_data_statistics[20001] = {
 	display = "特殊的材料，主要用於製作艦船的龍骨",
 	name = "心智魔方",
 	max_num = 0,
@@ -7856,7 +7877,7 @@ _G.pg.item_data_statistics[20001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20010] = {
+_G.pg.base.item_data_statistics[20010] = {
 	display = "可以立刻完成20分鐘喵箱訓練時間的加速工具。",
 	name = "喵箱訓練加速工具",
 	max_num = 0,
@@ -7877,7 +7898,7 @@ _G.pg.item_data_statistics[20010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20011] = {
+_G.pg.base.item_data_statistics[20011] = {
 	display = "從明石商店訂購得到的紙箱，裡面似乎有什麼…？",
 	name = "喵箱R型",
 	max_num = 0,
@@ -7901,7 +7922,7 @@ _G.pg.item_data_statistics[20011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20012] = {
+_G.pg.base.item_data_statistics[20012] = {
 	display = "從明石商店訂購得到的紙箱，裡面似乎有什麼…？",
 	name = "喵箱SR型",
 	max_num = 0,
@@ -7925,7 +7946,7 @@ _G.pg.item_data_statistics[20012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20013] = {
+_G.pg.base.item_data_statistics[20013] = {
 	display = "從明石商店訂購得到的紙箱，裡面似乎有什麼…？",
 	name = "喵箱SSR型",
 	max_num = 0,
@@ -7949,7 +7970,7 @@ _G.pg.item_data_statistics[20013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20101] = {
+_G.pg.base.item_data_statistics[20101] = {
 	display = "研發部門總結的測試數據，<color=#92fc63>在開發船塢內使用</color>可增加10000點科研一期角色技術測試經驗進度<color=#ff5c5c>（在倉庫中解析會獲得設計原型，無法獲得經驗）</color>",
 	name = "科研測試數據·一期",
 	max_num = 0,
@@ -7973,7 +7994,7 @@ _G.pg.item_data_statistics[20101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21001] = {
+_G.pg.base.item_data_statistics[21001] = {
 	display = "{namecode:191}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
 	name = "結晶：{namecode:191}",
 	max_num = 0,
@@ -7994,7 +8015,7 @@ _G.pg.item_data_statistics[21001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21002] = {
+_G.pg.base.item_data_statistics[21002] = {
 	display = "皇家方舟·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
 	name = "結晶：皇家方舟·META",
 	max_num = 0,
@@ -8015,7 +8036,7 @@ _G.pg.item_data_statistics[21002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21003] = {
+_G.pg.base.item_data_statistics[21003] = {
 	display = "海倫娜·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
 	name = "結晶：海倫娜·META",
 	max_num = 0,
@@ -8036,7 +8057,7 @@ _G.pg.item_data_statistics[21003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21005] = {
+_G.pg.base.item_data_statistics[21005] = {
 	display = "{namecode:210}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
 	name = "結晶：{namecode:210}",
 	max_num = 0,
@@ -8057,7 +8078,7 @@ _G.pg.item_data_statistics[21005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21006] = {
+_G.pg.base.item_data_statistics[21006] = {
 	display = "{namecode:220}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
 	name = "結晶：{namecode:220}",
 	max_num = 0,
@@ -8078,7 +8099,7 @@ _G.pg.item_data_statistics[21006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21101] = {
+_G.pg.base.item_data_statistics[21101] = {
 	display = "用於提升艦裝火炮性能的稀有材料，可在「META研究室」-「艦裝強化」中使用。",
 	name = "結晶化熱強鋼",
 	max_num = 0,
@@ -8099,7 +8120,7 @@ _G.pg.item_data_statistics[21101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21111] = {
+_G.pg.base.item_data_statistics[21111] = {
 	display = "用於提升艦裝航空性能的稀有材料，可在「META研究室」-「艦裝強化」中使用。",
 	name = "奈米陶瓷鋁合金",
 	max_num = 0,
@@ -8120,7 +8141,7 @@ _G.pg.item_data_statistics[21111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21121] = {
+_G.pg.base.item_data_statistics[21121] = {
 	display = "用於提升艦裝裝填性能的稀有材料，可在「META研究室」-「艦裝強化」中使用。",
 	name = "可塑性機械臂",
 	max_num = 0,
@@ -8141,7 +8162,7 @@ _G.pg.item_data_statistics[21121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21131] = {
+_G.pg.base.item_data_statistics[21131] = {
 	display = "用於提升艦裝雷擊性能的稀有材料，可在「META研究室」-「艦裝強化」中使用。",
 	name = "超空蝕產生器",
 	max_num = 0,
@@ -8162,7 +8183,7 @@ _G.pg.item_data_statistics[21131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21901] = {
+_G.pg.base.item_data_statistics[21901] = {
 	display = "於「信標·META」戰鬥中收集的數據，可以提升{namecode:191}同步率，活動結束後將會消失。",
 	name = "同步值：{namecode:191}",
 	max_num = 0,
@@ -8183,7 +8204,7 @@ _G.pg.item_data_statistics[21901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21902] = {
+_G.pg.base.item_data_statistics[21902] = {
 	display = "於「信標·META」戰鬥中收集的數據，可以提升皇家方舟·META同步率，活動結束後將會消失。",
 	name = "同步值：皇家方舟·META",
 	max_num = 0,
@@ -8204,7 +8225,7 @@ _G.pg.item_data_statistics[21902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21903] = {
+_G.pg.base.item_data_statistics[21903] = {
 	display = "於「信標·META」戰鬥中收集的數據，可以提升海倫娜·META同步率，活動結束後將會消失。",
 	name = "同步值：海倫娜·META",
 	max_num = 0,
@@ -8225,7 +8246,7 @@ _G.pg.item_data_statistics[21903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30001] = {
+_G.pg.base.item_data_statistics[30001] = {
 	display = "包含一件稀有的深海潛航版本裝備：\n較低機率獲得<color=#60a9ff>稀有裝備</color>\n較高機率獲得普通裝備",
 	name = "深海潛航新手裝備補給箱 ",
 	max_num = 0,
@@ -8249,7 +8270,7 @@ _G.pg.item_data_statistics[30001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30011] = {
+_G.pg.base.item_data_statistics[30011] = {
 	display = "包含一件普通的白鷹陣營裝備：\n獲得普通裝備\n*可消耗<color=#fad545>5</color>個合成<color=#fad545>1</color>個<color=#60a9ff>克洛希德科技箱T2</color>",
 	name = "克洛希德科技箱T1",
 	max_num = 0,
@@ -8273,7 +8294,7 @@ _G.pg.item_data_statistics[30011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30012] = {
+_G.pg.base.item_data_statistics[30012] = {
 	display = [[
 包含一件稀有的白鷹陣營裝備：
 較低機率獲得<color=#60a9ff>稀有裝備</color>
@@ -8301,7 +8322,7 @@ _G.pg.item_data_statistics[30012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30013] = {
+_G.pg.base.item_data_statistics[30013] = {
 	display = "包含一件精銳的白鷹陣營裝備：\n低機率獲得<color=#966af6>精銳裝備</color>\n較高機率獲得<color=#60a9ff>稀有裝備</color>",
 	name = "克洛希德科技箱T3",
 	max_num = 0,
@@ -8325,7 +8346,7 @@ _G.pg.item_data_statistics[30013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30014] = {
+_G.pg.base.item_data_statistics[30014] = {
 	display = "包含一件超稀有的白鷹陣營裝備：\n極低機率獲得<color=#fff157>超稀有裝備</color>\n高機率獲得<color=#966af6>精銳裝備</color>",
 	name = "克洛希德科技箱T4",
 	max_num = 0,
@@ -8349,7 +8370,7 @@ _G.pg.item_data_statistics[30014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30015] = {
+_G.pg.base.item_data_statistics[30015] = {
 	display = "包含一件超稀有的白鷹陣營裝備：\n必定獲得<color=#fff157>超稀有裝備</color>",
 	name = "克洛希德科技箱T5",
 	max_num = 0,
@@ -8373,7 +8394,7 @@ _G.pg.item_data_statistics[30015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30021] = {
+_G.pg.base.item_data_statistics[30021] = {
 	display = "包含一件普通的皇家陣營裝備：\n獲得普通裝備\n*可消耗<color=#fad545>5</color>個合成<color=#fad545>1</color>個<color=#60a9ff>威斯克科技箱T2</color>",
 	name = "威斯克科技箱T1",
 	max_num = 0,
@@ -8397,7 +8418,7 @@ _G.pg.item_data_statistics[30021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30022] = {
+_G.pg.base.item_data_statistics[30022] = {
 	display = [[
 包含一件稀有的皇家陣營裝備：
 較低機率獲得<color=#60a9ff>稀有裝備</color>
@@ -8425,7 +8446,7 @@ _G.pg.item_data_statistics[30022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30023] = {
+_G.pg.base.item_data_statistics[30023] = {
 	display = "包含一件精銳的皇家陣營裝備：\n低機率獲得<color=#966af6>精銳裝備</color>\n較高機率獲得<color=#60a9ff>稀有裝備</color>",
 	name = "威斯克科技箱T3",
 	max_num = 0,
@@ -8449,7 +8470,7 @@ _G.pg.item_data_statistics[30023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30024] = {
+_G.pg.base.item_data_statistics[30024] = {
 	display = "包含一件超稀有的皇家陣營裝備：\n極低機率獲得<color=#fff157>超稀有裝備</color>\n高機率獲得<color=#966af6>精銳裝備</color>",
 	name = "威斯克科技箱T4",
 	max_num = 0,
@@ -8473,7 +8494,7 @@ _G.pg.item_data_statistics[30024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30025] = {
+_G.pg.base.item_data_statistics[30025] = {
 	display = "包含一件超稀有的皇家陣營裝備：\n必定獲得<color=#fff157>超稀有裝備</color>",
 	name = "威斯克科技箱T5",
 	max_num = 0,
@@ -8497,7 +8518,7 @@ _G.pg.item_data_statistics[30025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30031] = {
+_G.pg.base.item_data_statistics[30031] = {
 	display = "包含一件普通的重櫻陣營裝備：\n獲得普通裝備\n*可消耗<color=#fad545>5</color>個合成<color=#fad545>1</color>個<color=#60a9ff>藏王重工科技箱T2</color>",
 	name = "藏王重工科技箱T1",
 	max_num = 0,
@@ -8521,7 +8542,7 @@ _G.pg.item_data_statistics[30031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30032] = {
+_G.pg.base.item_data_statistics[30032] = {
 	display = [[
 包含一件稀有的重櫻陣營裝備：
 較低機率獲得<color=#60a9ff>稀有裝備</color>
@@ -8549,7 +8570,7 @@ _G.pg.item_data_statistics[30032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30033] = {
+_G.pg.base.item_data_statistics[30033] = {
 	display = "包含一件精銳的重櫻陣營裝備：\n低機率獲得<color=#966af6>精銳裝備</color>\n較高機率獲得<color=#60a9ff>稀有裝備</color>",
 	name = "藏王重工科技箱T3",
 	max_num = 0,
@@ -8573,7 +8594,7 @@ _G.pg.item_data_statistics[30033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30034] = {
+_G.pg.base.item_data_statistics[30034] = {
 	display = "包含一件超稀有的重櫻陣營裝備：\n極低機率獲得<color=#fff157>超稀有裝備</color>\n高機率獲得<color=#966af6>精銳裝備</color>",
 	name = "藏王重工科技箱T4",
 	max_num = 0,
@@ -8597,7 +8618,7 @@ _G.pg.item_data_statistics[30034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30035] = {
+_G.pg.base.item_data_statistics[30035] = {
 	display = "包含一件超稀有的重櫻陣營裝備：\n必定獲得<color=#fff157>超稀有裝備</color>",
 	name = "藏王重工科技箱T5",
 	max_num = 0,
@@ -8621,7 +8642,7 @@ _G.pg.item_data_statistics[30035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30041] = {
+_G.pg.base.item_data_statistics[30041] = {
 	display = "包含一件普通的鐵血陣營裝備：\n獲得普通裝備\n*可消耗<color=#fad545>5</color>個合成<color=#fad545>1</color>個<color=#60a9ff>伯魯克科技箱T2</color>",
 	name = "伯魯克科技箱T1",
 	max_num = 0,
@@ -8645,7 +8666,7 @@ _G.pg.item_data_statistics[30041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30042] = {
+_G.pg.base.item_data_statistics[30042] = {
 	display = [[
 包含一件稀有的鐵血陣營裝備：
 較低機率獲得<color=#60a9ff>稀有裝備</color>
@@ -8673,7 +8694,7 @@ _G.pg.item_data_statistics[30042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30043] = {
+_G.pg.base.item_data_statistics[30043] = {
 	display = "包含一件精銳的鐵血陣營裝備：\n低機率獲得<color=#966af6>精銳裝備</color>\n較高機率獲得<color=#60a9ff>稀有裝備</color>",
 	name = "伯魯克科技箱T3",
 	max_num = 0,
@@ -8697,7 +8718,7 @@ _G.pg.item_data_statistics[30043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30044] = {
+_G.pg.base.item_data_statistics[30044] = {
 	display = "包含一件超稀有的鐵血陣營裝備：\n極低機率獲得<color=#fff157>超稀有裝備</color>\n高機率獲得<color=#966af6>精銳裝備</color>",
 	name = "伯魯克科技箱T4",
 	max_num = 0,
@@ -8721,7 +8742,7 @@ _G.pg.item_data_statistics[30044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30045] = {
+_G.pg.base.item_data_statistics[30045] = {
 	display = "包含一件超稀有的鐵血陣營裝備：\n必定獲得<color=#fff157>超稀有裝備</color>",
 	name = "伯魯克科技箱T5",
 	max_num = 0,
@@ -8745,7 +8766,7 @@ _G.pg.item_data_statistics[30045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30103] = {
+_G.pg.base.item_data_statistics[30103] = {
 	display = "包含1~4個<color=#966af6>隨機T3部件</color>：\n各類部件出現<color=#fad545>機率均等</color>",
 	name = "T3部件箱",
 	max_num = 0,
@@ -8769,7 +8790,7 @@ _G.pg.item_data_statistics[30103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30104] = {
+_G.pg.base.item_data_statistics[30104] = {
 	display = "使用後可從T4部件中隨機獲得1個",
 	name = "隨機部件T4",
 	max_num = 0,
@@ -8790,7 +8811,7 @@ _G.pg.item_data_statistics[30104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30112] = {
+_G.pg.base.item_data_statistics[30112] = {
 	display = "使用後可從T2部件中任意選擇一種獲得1個",
 	name = "定向部件T2",
 	max_num = 0,
@@ -8837,7 +8858,7 @@ _G.pg.item_data_statistics[30112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30113] = {
+_G.pg.base.item_data_statistics[30113] = {
 	display = "使用後可從T3部件中任意選擇一種獲得1個",
 	name = "定向部件T3",
 	max_num = 0,
@@ -8884,7 +8905,7 @@ _G.pg.item_data_statistics[30113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30114] = {
+_G.pg.base.item_data_statistics[30114] = {
 	display = "使用後可從T4部件中任意選擇一種獲得1個",
 	name = "定向部件T4",
 	max_num = 0,
@@ -8931,7 +8952,7 @@ _G.pg.item_data_statistics[30114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30121] = {
+_G.pg.base.item_data_statistics[30121] = {
 	display = "使用後可獲得1000石油",
 	name = "石油儲備箱(1000)",
 	max_num = 0,
@@ -8958,7 +8979,7 @@ _G.pg.item_data_statistics[30121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30132] = {
+_G.pg.base.item_data_statistics[30132] = {
 	display = "使用後可從T2改造圖紙中任意選擇一種獲得1個",
 	name = "定向改造圖紙T2",
 	max_num = 0,
@@ -9000,7 +9021,7 @@ _G.pg.item_data_statistics[30132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30133] = {
+_G.pg.base.item_data_statistics[30133] = {
 	display = "使用後可從T3改造圖紙中任意選擇一種獲得1個",
 	name = "定向改造圖紙T3",
 	max_num = 0,
@@ -9042,7 +9063,7 @@ _G.pg.item_data_statistics[30133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30202] = {
+_G.pg.base.item_data_statistics[30202] = {
 	display = "使用後可從以下指定<color=#ffde38>超稀有裝備</color>中任意選擇一個獲得",
 	name = "定向裝備箱·超稀有",
 	max_num = 0,
@@ -9174,7 +9195,7 @@ _G.pg.item_data_statistics[30202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30203] = {
+_G.pg.base.item_data_statistics[30203] = {
 	display = "使用後可從以下指定<color=#ffde38>研發裝備</color>中任意選擇一個獲得",
 	name = "定向裝備箱·研發裝備①",
 	max_num = 0,
@@ -9231,7 +9252,7 @@ _G.pg.item_data_statistics[30203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30301] = {
+_G.pg.base.item_data_statistics[30301] = {
 	display = "裡面夾著一張小紙條——「聖誕快樂喵！接下來也要一起加油喵～」",
 	name = "{namecode:98}的聖誕禮物",
 	max_num = 0,
@@ -9255,7 +9276,7 @@ _G.pg.item_data_statistics[30301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30302] = {
+_G.pg.base.item_data_statistics[30302] = {
 	display = "可以獲得一件隨機的外觀裝備",
 	name = "外觀裝備箱",
 	max_num = 0,
@@ -9279,7 +9300,7 @@ _G.pg.item_data_statistics[30302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30303] = {
+_G.pg.base.item_data_statistics[30303] = {
 	display = "可以獲得一件隨機的海王星聯動外觀裝備",
 	name = "外觀裝備箱(海王星)",
 	max_num = 0,
@@ -9379,7 +9400,7 @@ _G.pg.item_data_statistics[30303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30304] = {
+_G.pg.base.item_data_statistics[30304] = {
 	display = "可以獲得一件隨機的外觀裝備(春節or小海豹系列)",
 	name = "外觀裝備箱(春節)",
 	max_num = 0,
@@ -9489,7 +9510,7 @@ _G.pg.item_data_statistics[30304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30305] = {
+_G.pg.base.item_data_statistics[30305] = {
 	display = "可以獲得一件隨機的開學祭外觀裝備",
 	name = "外觀裝備箱(開學季)",
 	max_num = 0,
@@ -9599,7 +9620,7 @@ _G.pg.item_data_statistics[30305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30306] = {
+_G.pg.base.item_data_statistics[30306] = {
 	display = "可以獲得一件隨機的外觀裝備",
 	name = "外觀裝備箱",
 	max_num = 0,
@@ -9729,7 +9750,7 @@ _G.pg.item_data_statistics[30306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30307] = {
+_G.pg.base.item_data_statistics[30307] = {
 	display = "可以獲得一件隨機的夏日外觀裝備",
 	name = "外觀裝備箱(夏末)",
 	max_num = 0,
@@ -9844,7 +9865,7 @@ _G.pg.item_data_statistics[30307] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30308] = {
+_G.pg.base.item_data_statistics[30308] = {
 	display = "可以獲得一件隨機的傳頌之物聯動外觀裝備",
 	name = "外觀裝備箱(傳頌之物)",
 	max_num = 0,
@@ -9959,7 +9980,7 @@ _G.pg.item_data_statistics[30308] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30309] = {
+_G.pg.base.item_data_statistics[30309] = {
 	display = "可以獲得一件隨機的外觀裝備",
 	name = "外觀裝備箱(復刻)",
 	max_num = 0,
@@ -10089,7 +10110,7 @@ _G.pg.item_data_statistics[30309] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30310] = {
+_G.pg.base.item_data_statistics[30310] = {
 	display = "可以獲得一件隨機的外觀裝備",
 	name = "外觀裝備箱(小豬)",
 	max_num = 0,
@@ -10204,7 +10225,7 @@ _G.pg.item_data_statistics[30310] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30311] = {
+_G.pg.base.item_data_statistics[30311] = {
 	display = "可以獲得一件隨機的皇家風格外觀裝備",
 	name = "外觀裝備箱(皇家)",
 	max_num = 0,
@@ -10319,7 +10340,7 @@ _G.pg.item_data_statistics[30311] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30312] = {
+_G.pg.base.item_data_statistics[30312] = {
 	display = "可以獲得一件隨機的外觀裝備(春節or小海豹系列)",
 	name = "外觀裝備箱(春節)",
 	max_num = 0,
@@ -10429,7 +10450,7 @@ _G.pg.item_data_statistics[30312] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30314] = {
+_G.pg.base.item_data_statistics[30314] = {
 	display = "可以獲得一件隨機的外觀裝備",
 	name = "外觀裝備箱(薩丁)",
 	max_num = 0,
@@ -10544,7 +10565,7 @@ _G.pg.item_data_statistics[30314] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30315] = {
+_G.pg.base.item_data_statistics[30315] = {
 	display = "可以獲得一件隨機的外觀裝備",
 	name = "外觀裝備箱(激奏)",
 	max_num = 0,
@@ -10659,7 +10680,7 @@ _G.pg.item_data_statistics[30315] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30317] = {
+_G.pg.base.item_data_statistics[30317] = {
 	display = "可以獲得一件隨機的外觀裝備",
 	name = "外觀裝備箱(北聯)",
 	max_num = 0,
@@ -10774,7 +10795,7 @@ _G.pg.item_data_statistics[30317] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30318] = {
+_G.pg.base.item_data_statistics[30318] = {
 	display = "可以獲得一件隨機的白鷹風格外觀裝備",
 	name = "外觀裝備箱(白鷹)",
 	max_num = 0,
@@ -10889,7 +10910,7 @@ _G.pg.item_data_statistics[30318] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30319] = {
+_G.pg.base.item_data_statistics[30319] = {
 	display = "可以獲得一件隨機的鳶尾風格外觀裝備",
 	name = "外觀裝備箱(鳶尾)",
 	max_num = 0,
@@ -11004,7 +11025,7 @@ _G.pg.item_data_statistics[30319] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30320] = {
+_G.pg.base.item_data_statistics[30320] = {
 	display = "可以獲得一件隨機的醫療風格外觀裝備",
 	name = "外觀裝備箱(醫療)",
 	max_num = 0,
@@ -11119,7 +11140,7 @@ _G.pg.item_data_statistics[30320] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30321] = {
+_G.pg.base.item_data_statistics[30321] = {
 	display = "可以獲得一件隨機的重櫻風格外觀裝備",
 	name = "外觀裝備箱(重櫻)",
 	max_num = 0,
@@ -11234,7 +11255,7 @@ _G.pg.item_data_statistics[30321] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30323] = {
+_G.pg.base.item_data_statistics[30323] = {
 	display = "可以獲得一件隨機的維納斯假期風格外觀裝備",
 	name = "外觀裝備箱(維納斯假期)",
 	max_num = 0,
@@ -11349,7 +11370,7 @@ _G.pg.item_data_statistics[30323] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30324] = {
+_G.pg.base.item_data_statistics[30324] = {
 	display = "可以獲得一件隨機的鐵血風格外觀裝備",
 	name = "外觀裝備箱(鐵血)",
 	max_num = 0,
@@ -11464,7 +11485,7 @@ _G.pg.item_data_statistics[30324] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30325] = {
+_G.pg.base.item_data_statistics[30325] = {
 	display = "可以獲得一件隨機的春節風格外觀裝備",
 	name = "外觀裝備箱(春節)",
 	max_num = 0,
@@ -11579,7 +11600,7 @@ _G.pg.item_data_statistics[30325] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30327] = {
+_G.pg.base.item_data_statistics[30327] = {
 	display = "可以獲得一件隨機的偶像大師風格外觀裝備",
 	name = "外觀裝備箱(偶像大師)",
 	max_num = 0,
@@ -11694,7 +11715,7 @@ _G.pg.item_data_statistics[30327] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30330] = {
+_G.pg.base.item_data_statistics[30330] = {
 	display = "可以獲得一件隨機的SSSS風格外觀裝備",
 	name = "外觀裝備箱(SSSS)",
 	max_num = 0,
@@ -11809,7 +11830,7 @@ _G.pg.item_data_statistics[30330] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30501] = {
+_G.pg.base.item_data_statistics[30501] = {
 	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(夏末)",
 	max_num = 0,
@@ -11921,7 +11942,7 @@ _G.pg.item_data_statistics[30501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30900] = {
+_G.pg.base.item_data_statistics[30900] = {
 	display = "使用後可從T4部件中任意選擇一種獲得1個",
 	name = "定向部件T4",
 	max_num = 0,
@@ -11968,7 +11989,7 @@ _G.pg.item_data_statistics[30900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30911] = {
+_G.pg.base.item_data_statistics[30911] = {
 	display = "使用後可從稀有研發素材中任意選擇一種獲得1個",
 	name = "定向·稀有研發素材箱",
 	max_num = 0,
@@ -12010,7 +12031,7 @@ _G.pg.item_data_statistics[30911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30912] = {
+_G.pg.base.item_data_statistics[30912] = {
 	display = "使用後可從精銳研發素材中任意選擇一種獲得1個",
 	name = "定向·精銳研發素材箱",
 	max_num = 0,
@@ -12062,7 +12083,7 @@ _G.pg.item_data_statistics[30912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30913] = {
+_G.pg.base.item_data_statistics[30913] = {
 	display = "使用後可從T3部件中任意選擇一種獲得1個",
 	name = "定向·超稀有研發素材箱",
 	max_num = 0,
@@ -12114,7 +12135,7 @@ _G.pg.item_data_statistics[30913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30914] = {
+_G.pg.base.item_data_statistics[30914] = {
 	display = "使用後可從以下[裝備研發圖紙SSR型]中任意選擇一種獲得1個",
 	name = "裝備研發圖紙SSR型",
 	max_num = 0,
@@ -12156,7 +12177,7 @@ _G.pg.item_data_statistics[30914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30915] = {
+_G.pg.base.item_data_statistics[30915] = {
 	display = "使用後可從以下[裝備研發圖紙UR型]中任意選擇一種獲得1個",
 	name = "裝備研發圖紙UR型",
 	max_num = 0,
@@ -12198,7 +12219,7 @@ _G.pg.item_data_statistics[30915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40000] = {
+_G.pg.base.item_data_statistics[40000] = {
 	display = "免費領取禮包獲得大量石油和材料獎勵",
 	name = "每週免費禮包",
 	max_num = 0,
@@ -12250,7 +12271,7 @@ _G.pg.item_data_statistics[40000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40003] = {
+_G.pg.base.item_data_statistics[40003] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "紅染攻略補給",
 	max_num = 0,
@@ -12277,7 +12298,7 @@ _G.pg.item_data_statistics[40003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40004] = {
+_G.pg.base.item_data_statistics[40004] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "紅染建造補給",
 	max_num = 0,
@@ -12314,7 +12335,7 @@ _G.pg.item_data_statistics[40004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40005] = {
+_G.pg.base.item_data_statistics[40005] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "10級禮包",
 	max_num = 0,
@@ -12361,7 +12382,7 @@ _G.pg.item_data_statistics[40005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40006] = {
+_G.pg.base.item_data_statistics[40006] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "20級禮包",
 	max_num = 0,
@@ -12408,7 +12429,7 @@ _G.pg.item_data_statistics[40006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40007] = {
+_G.pg.base.item_data_statistics[40007] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "30級禮包",
 	max_num = 0,
@@ -12470,7 +12491,7 @@ _G.pg.item_data_statistics[40007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40008] = {
+_G.pg.base.item_data_statistics[40008] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "50級禮包",
 	max_num = 0,
@@ -12532,7 +12553,7 @@ _G.pg.item_data_statistics[40008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40009] = {
+_G.pg.base.item_data_statistics[40009] = {
 	display = "購買禮包可獲得2個隨機T3科技箱和若干材料",
 	name = "日常補給禮包",
 	max_num = 0,
@@ -12574,7 +12595,7 @@ _G.pg.item_data_statistics[40009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40011] = {
+_G.pg.base.item_data_statistics[40011] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "70級禮包",
 	max_num = 0,
@@ -12636,7 +12657,7 @@ _G.pg.item_data_statistics[40011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40012] = {
+_G.pg.base.item_data_statistics[40012] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "新晉指揮官支援包·I ",
 	max_num = 0,
@@ -12698,7 +12719,7 @@ _G.pg.item_data_statistics[40012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40013] = {
+_G.pg.base.item_data_statistics[40013] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "新晉指揮官支援包·II ",
 	max_num = 0,
@@ -12785,7 +12806,7 @@ _G.pg.item_data_statistics[40013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40014] = {
+_G.pg.base.item_data_statistics[40014] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "新晉指揮官支援包·III ",
 	max_num = 0,
@@ -12872,7 +12893,7 @@ _G.pg.item_data_statistics[40014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40016] = {
+_G.pg.base.item_data_statistics[40016] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "最高方案研發禮包(一期)·高級版",
 	max_num = 0,
@@ -12904,7 +12925,7 @@ _G.pg.item_data_statistics[40016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40017] = {
+_G.pg.base.item_data_statistics[40017] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "最高方案研發禮包(一期)·標準版",
 	max_num = 0,
@@ -12931,7 +12952,7 @@ _G.pg.item_data_statistics[40017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40018] = {
+_G.pg.base.item_data_statistics[40018] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "最高方案研發禮包(一期)·升級版",
 	max_num = 0,
@@ -12958,7 +12979,7 @@ _G.pg.item_data_statistics[40018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40022] = {
+_G.pg.base.item_data_statistics[40022] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "即刻出戰禮包",
 	max_num = 0,
@@ -13145,7 +13166,7 @@ _G.pg.item_data_statistics[40022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40023] = {
+_G.pg.base.item_data_statistics[40023] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "艦艇教材禮包",
 	max_num = 0,
@@ -13197,7 +13218,7 @@ _G.pg.item_data_statistics[40023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40100] = {
+_G.pg.base.item_data_statistics[40100] = {
 	display = "購買禮包可獲得誓約之戒*2",
 	name = "比翼雙飛",
 	max_num = 0,
@@ -13224,7 +13245,7 @@ _G.pg.item_data_statistics[40100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40101] = {
+_G.pg.base.item_data_statistics[40101] = {
 	display = "購買禮包可獲得傢俱幣*500，滿漢全席*2",
 	name = "傢俱幣禮包",
 	max_num = 0,
@@ -13261,7 +13282,7 @@ _G.pg.item_data_statistics[40101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40102] = {
+_G.pg.base.item_data_statistics[40102] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "紅染攻略補給",
 	max_num = 0,
@@ -13288,7 +13309,7 @@ _G.pg.item_data_statistics[40102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40103] = {
+_G.pg.base.item_data_statistics[40103] = {
 	display = "購買禮包可獲得傢俱幣*1000，滿漢全席*5",
 	name = "傢俱幣禮包",
 	max_num = 0,
@@ -13320,7 +13341,7 @@ _G.pg.item_data_statistics[40103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40104] = {
+_G.pg.base.item_data_statistics[40104] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "限時建造補給",
 	max_num = 0,
@@ -13357,7 +13378,7 @@ _G.pg.item_data_statistics[40104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40105] = {
+_G.pg.base.item_data_statistics[40105] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "限時攻略補給",
 	max_num = 0,
@@ -13384,7 +13405,7 @@ _G.pg.item_data_statistics[40105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40106] = {
+_G.pg.base.item_data_statistics[40106] = {
 	display = "購買禮包可獲得傢俱幣*500，滿漢全席*3",
 	name = "傢俱幣禮包",
 	max_num = 0,
@@ -13416,7 +13437,7 @@ _G.pg.item_data_statistics[40106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40107] = {
+_G.pg.base.item_data_statistics[40107] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "墨染攻略補給",
 	max_num = 0,
@@ -13443,7 +13464,7 @@ _G.pg.item_data_statistics[40107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40108] = {
+_G.pg.base.item_data_statistics[40108] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "墨染建造補給",
 	max_num = 0,
@@ -13480,7 +13501,7 @@ _G.pg.item_data_statistics[40108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40109] = {
+_G.pg.base.item_data_statistics[40109] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "異色格攻略補給",
 	max_num = 0,
@@ -13507,7 +13528,7 @@ _G.pg.item_data_statistics[40109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40110] = {
+_G.pg.base.item_data_statistics[40110] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "異色格建造補給",
 	max_num = 0,
@@ -13544,7 +13565,7 @@ _G.pg.item_data_statistics[40110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40111] = {
+_G.pg.base.item_data_statistics[40111] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "鳶尾攻略補給",
 	max_num = 0,
@@ -13571,7 +13592,7 @@ _G.pg.item_data_statistics[40111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40112] = {
+_G.pg.base.item_data_statistics[40112] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "鳶尾建造補給",
 	max_num = 0,
@@ -13608,7 +13629,7 @@ _G.pg.item_data_statistics[40112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40113] = {
+_G.pg.base.item_data_statistics[40113] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "墜落之翼攻略補給",
 	max_num = 0,
@@ -13635,7 +13656,7 @@ _G.pg.item_data_statistics[40113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40114] = {
+_G.pg.base.item_data_statistics[40114] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "墜落之翼建造補給",
 	max_num = 0,
@@ -13672,7 +13693,7 @@ _G.pg.item_data_statistics[40114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40115] = {
+_G.pg.base.item_data_statistics[40115] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "夢幻的交匯攻略補給",
 	max_num = 0,
@@ -13699,7 +13720,7 @@ _G.pg.item_data_statistics[40115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40116] = {
+_G.pg.base.item_data_statistics[40116] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "夢幻的交匯建造補給",
 	max_num = 0,
@@ -13736,7 +13757,7 @@ _G.pg.item_data_statistics[40116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40117] = {
+_G.pg.base.item_data_statistics[40117] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "限時攻略補給",
 	max_num = 0,
@@ -13763,7 +13784,7 @@ _G.pg.item_data_statistics[40117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40118] = {
+_G.pg.base.item_data_statistics[40118] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "限時建造補給",
 	max_num = 0,
@@ -13800,7 +13821,7 @@ _G.pg.item_data_statistics[40118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40119] = {
+_G.pg.base.item_data_statistics[40119] = {
 	display = "購買禮包可獲得心智單元*1000",
 	name = "心智單元禮包",
 	max_num = 0,
@@ -13827,7 +13848,7 @@ _G.pg.item_data_statistics[40119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40124] = {
+_G.pg.base.item_data_statistics[40124] = {
 	display = [[
 可於科研-開發船塢界面，從君主、海王星、羅恩、路易九世、{namecode:152}、{namecode:151}中選擇一位並獲取等級與科研等級均為1級的角色
 <color=#92fc63>上述角色全部獲得時</color>，在倉庫中使用此道具將會獲得：
@@ -13881,7 +13902,7 @@ _G.pg.item_data_statistics[40124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40126] = {
+_G.pg.base.item_data_statistics[40126] = {
 	display = "指揮官等級不足70級時，將直接變為70級(高於70級時該道具無效果)",
 	name = "指揮官等級70級",
 	max_num = 0,
@@ -13902,7 +13923,7 @@ _G.pg.item_data_statistics[40126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40908] = {
+_G.pg.base.item_data_statistics[40908] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2020，外觀裝備箱(小豬)*3(直接開啟)，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "新年福袋2020",
 	max_num = 0,
@@ -13954,7 +13975,7 @@ _G.pg.item_data_statistics[40908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40909] = {
+_G.pg.base.item_data_statistics[40909] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2020，外觀裝備箱(春節)*3(直接開啟)，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "春節福袋2020",
 	max_num = 0,
@@ -14006,7 +14027,7 @@ _G.pg.item_data_statistics[40909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40910] = {
+_G.pg.base.item_data_statistics[40910] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2020，心智單元*50，心智魔方*20，定向藍圖・一期*2，快速完成工具*10，傢俱幣*100",
 	name = "福袋",
 	max_num = 0,
@@ -14063,7 +14084,34 @@ _G.pg.item_data_statistics[40910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40930] = {
+_G.pg.base.item_data_statistics[40918] = {
+	display = "1",
+	name = "福袋",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai0",
+	id = 40918,
+	display_icon = {
+		{
+			7,
+			801072,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[40930] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2020，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "週年禮盒·I",
 	max_num = 0,
@@ -14115,7 +14163,7 @@ _G.pg.item_data_statistics[40930] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40931] = {
+_G.pg.base.item_data_statistics[40931] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2020，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "週年禮盒·II",
 	max_num = 0,
@@ -14167,7 +14215,7 @@ _G.pg.item_data_statistics[40931] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40932] = {
+_G.pg.base.item_data_statistics[40932] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・二期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "新年福袋·I",
 	max_num = 0,
@@ -14224,7 +14272,7 @@ _G.pg.item_data_statistics[40932] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40933] = {
+_G.pg.base.item_data_statistics[40933] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・二期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "新年福袋·II",
 	max_num = 0,
@@ -14281,7 +14329,7 @@ _G.pg.item_data_statistics[40933] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40934] = {
+_G.pg.base.item_data_statistics[40934] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・二期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "春節福袋復刻（2021）",
 	max_num = 0,
@@ -14338,7 +14386,7 @@ _G.pg.item_data_statistics[40934] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40935] = {
+_G.pg.base.item_data_statistics[40935] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・二期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "2021春節福袋·II",
 	max_num = 0,
@@ -14395,7 +14443,7 @@ _G.pg.item_data_statistics[40935] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40936] = {
+_G.pg.base.item_data_statistics[40936] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・二期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "福袋·I",
 	max_num = 0,
@@ -14452,7 +14500,7 @@ _G.pg.item_data_statistics[40936] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40937] = {
+_G.pg.base.item_data_statistics[40937] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・二期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "福袋·II",
 	max_num = 0,
@@ -14509,7 +14557,7 @@ _G.pg.item_data_statistics[40937] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40938] = {
+_G.pg.base.item_data_statistics[40938] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "二週年禮盒·I",
 	max_num = 0,
@@ -14566,7 +14614,7 @@ _G.pg.item_data_statistics[40938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40939] = {
+_G.pg.base.item_data_statistics[40939] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2021，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "二週年禮盒·II",
 	max_num = 0,
@@ -14623,7 +14671,7 @@ _G.pg.item_data_statistics[40939] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40940] = {
+_G.pg.base.item_data_statistics[40940] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "限時補給禮包",
 	max_num = 0,
@@ -14670,7 +14718,7 @@ _G.pg.item_data_statistics[40940] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41201] = {
+_G.pg.base.item_data_statistics[41201] = {
 	display = "泛用型布里贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14691,7 +14739,7 @@ _G.pg.item_data_statistics[41201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41202] = {
+_G.pg.base.item_data_statistics[41202] = {
 	display = "試作型布里MKII贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14712,7 +14760,7 @@ _G.pg.item_data_statistics[41202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41203] = {
+_G.pg.base.item_data_statistics[41203] = {
 	display = "卡辛贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14733,7 +14781,7 @@ _G.pg.item_data_statistics[41203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41204] = {
+_G.pg.base.item_data_statistics[41204] = {
 	display = "唐斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14754,7 +14802,7 @@ _G.pg.item_data_statistics[41204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41205] = {
+_G.pg.base.item_data_statistics[41205] = {
 	display = "格里德利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14775,7 +14823,7 @@ _G.pg.item_data_statistics[41205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41206] = {
+_G.pg.base.item_data_statistics[41206] = {
 	display = "克雷文贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14796,7 +14844,7 @@ _G.pg.item_data_statistics[41206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41207] = {
+_G.pg.base.item_data_statistics[41207] = {
 	display = "麥考爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14817,7 +14865,7 @@ _G.pg.item_data_statistics[41207] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41208] = {
+_G.pg.base.item_data_statistics[41208] = {
 	display = "莫里贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14838,7 +14886,7 @@ _G.pg.item_data_statistics[41208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41209] = {
+_G.pg.base.item_data_statistics[41209] = {
 	display = "佛萊契爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14859,7 +14907,7 @@ _G.pg.item_data_statistics[41209] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41210] = {
+_G.pg.base.item_data_statistics[41210] = {
 	display = "查爾斯·奧斯本贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14880,7 +14928,7 @@ _G.pg.item_data_statistics[41210] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41211] = {
+_G.pg.base.item_data_statistics[41211] = {
 	display = "柴契爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14901,7 +14949,7 @@ _G.pg.item_data_statistics[41211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41212] = {
+_G.pg.base.item_data_statistics[41212] = {
 	display = "奧利克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14922,7 +14970,7 @@ _G.pg.item_data_statistics[41212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41213] = {
+_G.pg.base.item_data_statistics[41213] = {
 	display = "富特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14943,7 +14991,7 @@ _G.pg.item_data_statistics[41213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41214] = {
+_G.pg.base.item_data_statistics[41214] = {
 	display = "斯彭斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14964,7 +15012,7 @@ _G.pg.item_data_statistics[41214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41215] = {
+_G.pg.base.item_data_statistics[41215] = {
 	display = "班森贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -14985,7 +15033,7 @@ _G.pg.item_data_statistics[41215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41216] = {
+_G.pg.base.item_data_statistics[41216] = {
 	display = "拉菲贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15006,7 +15054,7 @@ _G.pg.item_data_statistics[41216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41217] = {
+_G.pg.base.item_data_statistics[41217] = {
 	display = "西姆斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15027,7 +15075,7 @@ _G.pg.item_data_statistics[41217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41218] = {
+_G.pg.base.item_data_statistics[41218] = {
 	display = "哈曼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15048,7 +15096,7 @@ _G.pg.item_data_statistics[41218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41219] = {
+_G.pg.base.item_data_statistics[41219] = {
 	display = "埃爾德里奇贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15069,7 +15117,7 @@ _G.pg.item_data_statistics[41219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41220] = {
+_G.pg.base.item_data_statistics[41220] = {
 	display = "奧馬哈贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15090,7 +15138,7 @@ _G.pg.item_data_statistics[41220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41221] = {
+_G.pg.base.item_data_statistics[41221] = {
 	display = "羅利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15111,7 +15159,7 @@ _G.pg.item_data_statistics[41221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41222] = {
+_G.pg.base.item_data_statistics[41222] = {
 	display = "布魯克林贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15132,7 +15180,7 @@ _G.pg.item_data_statistics[41222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41223] = {
+_G.pg.base.item_data_statistics[41223] = {
 	display = "菲尼克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15153,7 +15201,7 @@ _G.pg.item_data_statistics[41223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41224] = {
+_G.pg.base.item_data_statistics[41224] = {
 	display = "海倫娜贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15174,7 +15222,7 @@ _G.pg.item_data_statistics[41224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41225] = {
+_G.pg.base.item_data_statistics[41225] = {
 	display = "亞特蘭大贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15195,7 +15243,7 @@ _G.pg.item_data_statistics[41225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41226] = {
+_G.pg.base.item_data_statistics[41226] = {
 	display = "朱諾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15216,7 +15264,7 @@ _G.pg.item_data_statistics[41226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41227] = {
+_G.pg.base.item_data_statistics[41227] = {
 	display = "聖地牙哥贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15237,7 +15285,7 @@ _G.pg.item_data_statistics[41227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41228] = {
+_G.pg.base.item_data_statistics[41228] = {
 	display = "克里夫蘭贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15258,7 +15306,7 @@ _G.pg.item_data_statistics[41228] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41229] = {
+_G.pg.base.item_data_statistics[41229] = {
 	display = "哥倫比亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15279,7 +15327,7 @@ _G.pg.item_data_statistics[41229] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41230] = {
+_G.pg.base.item_data_statistics[41230] = {
 	display = "彭薩科拉贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15300,7 +15348,7 @@ _G.pg.item_data_statistics[41230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41231] = {
+_G.pg.base.item_data_statistics[41231] = {
 	display = "鹽湖城贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15321,7 +15369,7 @@ _G.pg.item_data_statistics[41231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41232] = {
+_G.pg.base.item_data_statistics[41232] = {
 	display = "北安普敦贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15342,7 +15390,7 @@ _G.pg.item_data_statistics[41232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41233] = {
+_G.pg.base.item_data_statistics[41233] = {
 	display = "芝加哥贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15363,7 +15411,7 @@ _G.pg.item_data_statistics[41233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41234] = {
+_G.pg.base.item_data_statistics[41234] = {
 	display = "休士頓贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15384,7 +15432,7 @@ _G.pg.item_data_statistics[41234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41235] = {
+_G.pg.base.item_data_statistics[41235] = {
 	display = "波特蘭贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15405,7 +15453,7 @@ _G.pg.item_data_statistics[41235] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41236] = {
+_G.pg.base.item_data_statistics[41236] = {
 	display = "印第安納波利斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15426,7 +15474,7 @@ _G.pg.item_data_statistics[41236] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41237] = {
+_G.pg.base.item_data_statistics[41237] = {
 	display = "阿斯托利亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15447,7 +15495,7 @@ _G.pg.item_data_statistics[41237] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41238] = {
+_G.pg.base.item_data_statistics[41238] = {
 	display = "昆西贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15468,7 +15516,7 @@ _G.pg.item_data_statistics[41238] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41239] = {
+_G.pg.base.item_data_statistics[41239] = {
 	display = "文森尼斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15489,7 +15537,7 @@ _G.pg.item_data_statistics[41239] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41240] = {
+_G.pg.base.item_data_statistics[41240] = {
 	display = "威奇塔贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15510,7 +15558,7 @@ _G.pg.item_data_statistics[41240] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41241] = {
+_G.pg.base.item_data_statistics[41241] = {
 	display = "內華達贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15531,7 +15579,7 @@ _G.pg.item_data_statistics[41241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41242] = {
+_G.pg.base.item_data_statistics[41242] = {
 	display = "奧克拉荷馬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15552,7 +15600,7 @@ _G.pg.item_data_statistics[41242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41243] = {
+_G.pg.base.item_data_statistics[41243] = {
 	display = "賓夕法尼亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15573,7 +15621,7 @@ _G.pg.item_data_statistics[41243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41244] = {
+_G.pg.base.item_data_statistics[41244] = {
 	display = "亞利桑那贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15594,7 +15642,7 @@ _G.pg.item_data_statistics[41244] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41245] = {
+_G.pg.base.item_data_statistics[41245] = {
 	display = "田納西贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15615,7 +15663,7 @@ _G.pg.item_data_statistics[41245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41246] = {
+_G.pg.base.item_data_statistics[41246] = {
 	display = "加利福尼亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15636,7 +15684,7 @@ _G.pg.item_data_statistics[41246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41247] = {
+_G.pg.base.item_data_statistics[41247] = {
 	display = "科羅拉多贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15657,7 +15705,7 @@ _G.pg.item_data_statistics[41247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41248] = {
+_G.pg.base.item_data_statistics[41248] = {
 	display = "馬里蘭贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15678,7 +15726,7 @@ _G.pg.item_data_statistics[41248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41249] = {
+_G.pg.base.item_data_statistics[41249] = {
 	display = "西維吉尼亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15699,7 +15747,7 @@ _G.pg.item_data_statistics[41249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41250] = {
+_G.pg.base.item_data_statistics[41250] = {
 	display = "北卡羅來納贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15720,7 +15768,7 @@ _G.pg.item_data_statistics[41250] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41251] = {
+_G.pg.base.item_data_statistics[41251] = {
 	display = "華盛頓贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15741,7 +15789,7 @@ _G.pg.item_data_statistics[41251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41252] = {
+_G.pg.base.item_data_statistics[41252] = {
 	display = "南達科他贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15762,7 +15810,7 @@ _G.pg.item_data_statistics[41252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41253] = {
+_G.pg.base.item_data_statistics[41253] = {
 	display = "長島贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15783,7 +15831,7 @@ _G.pg.item_data_statistics[41253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41254] = {
+_G.pg.base.item_data_statistics[41254] = {
 	display = "博格贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15804,7 +15852,7 @@ _G.pg.item_data_statistics[41254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41255] = {
+_G.pg.base.item_data_statistics[41255] = {
 	display = "蘭利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15825,7 +15873,7 @@ _G.pg.item_data_statistics[41255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41256] = {
+_G.pg.base.item_data_statistics[41256] = {
 	display = "列星頓贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15846,7 +15894,7 @@ _G.pg.item_data_statistics[41256] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41257] = {
+_G.pg.base.item_data_statistics[41257] = {
 	display = "薩拉托加贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15867,7 +15915,7 @@ _G.pg.item_data_statistics[41257] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41258] = {
+_G.pg.base.item_data_statistics[41258] = {
 	display = "遊騎兵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15888,7 +15936,7 @@ _G.pg.item_data_statistics[41258] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41259] = {
+_G.pg.base.item_data_statistics[41259] = {
 	display = "約克鎮贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15909,7 +15957,7 @@ _G.pg.item_data_statistics[41259] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41260] = {
+_G.pg.base.item_data_statistics[41260] = {
 	display = "企業贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15930,7 +15978,7 @@ _G.pg.item_data_statistics[41260] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41261] = {
+_G.pg.base.item_data_statistics[41261] = {
 	display = "大黃蜂贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15951,7 +15999,7 @@ _G.pg.item_data_statistics[41261] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41262] = {
+_G.pg.base.item_data_statistics[41262] = {
 	display = "胡蜂贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15972,7 +16020,7 @@ _G.pg.item_data_statistics[41262] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41263] = {
+_G.pg.base.item_data_statistics[41263] = {
 	display = "女灶神贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -15993,7 +16041,7 @@ _G.pg.item_data_statistics[41263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41264] = {
+_G.pg.base.item_data_statistics[41264] = {
 	display = "女將贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16014,7 +16062,7 @@ _G.pg.item_data_statistics[41264] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41265] = {
+_G.pg.base.item_data_statistics[41265] = {
 	display = "阿卡司塔贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16035,7 +16083,7 @@ _G.pg.item_data_statistics[41265] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41266] = {
+_G.pg.base.item_data_statistics[41266] = {
 	display = "熱心贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16056,7 +16104,7 @@ _G.pg.item_data_statistics[41266] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41267] = {
+_G.pg.base.item_data_statistics[41267] = {
 	display = "小獵兔犬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16077,7 +16125,7 @@ _G.pg.item_data_statistics[41267] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41268] = {
+_G.pg.base.item_data_statistics[41268] = {
 	display = "大鬥犬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16098,7 +16146,7 @@ _G.pg.item_data_statistics[41268] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41269] = {
+_G.pg.base.item_data_statistics[41269] = {
 	display = "彗星贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16119,7 +16167,7 @@ _G.pg.item_data_statistics[41269] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41270] = {
+_G.pg.base.item_data_statistics[41270] = {
 	display = "{namecode:125}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16140,7 +16188,7 @@ _G.pg.item_data_statistics[41270] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41271] = {
+_G.pg.base.item_data_statistics[41271] = {
 	display = "小天鵝贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16161,7 +16209,7 @@ _G.pg.item_data_statistics[41271] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41272] = {
+_G.pg.base.item_data_statistics[41272] = {
 	display = "狐提贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16182,7 +16230,7 @@ _G.pg.item_data_statistics[41272] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41273] = {
+_G.pg.base.item_data_statistics[41273] = {
 	display = "命運女神贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16203,7 +16251,7 @@ _G.pg.item_data_statistics[41273] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41274] = {
+_G.pg.base.item_data_statistics[41274] = {
 	display = "格倫維爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16224,7 +16272,7 @@ _G.pg.item_data_statistics[41274] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41275] = {
+_G.pg.base.item_data_statistics[41275] = {
 	display = "螢火蟲贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16245,7 +16293,7 @@ _G.pg.item_data_statistics[41275] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41276] = {
+_G.pg.base.item_data_statistics[41276] = {
 	display = "標槍贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16266,7 +16314,7 @@ _G.pg.item_data_statistics[41276] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41277] = {
+_G.pg.base.item_data_statistics[41277] = {
 	display = "天后贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16287,7 +16335,7 @@ _G.pg.item_data_statistics[41277] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41278] = {
+_G.pg.base.item_data_statistics[41278] = {
 	display = "吸血鬼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16308,7 +16356,7 @@ _G.pg.item_data_statistics[41278] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41279] = {
+_G.pg.base.item_data_statistics[41279] = {
 	display = "利安得贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16329,7 +16377,7 @@ _G.pg.item_data_statistics[41279] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41280] = {
+_G.pg.base.item_data_statistics[41280] = {
 	display = "阿基里斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16350,7 +16398,7 @@ _G.pg.item_data_statistics[41280] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41281] = {
+_G.pg.base.item_data_statistics[41281] = {
 	display = "阿賈克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16371,7 +16419,7 @@ _G.pg.item_data_statistics[41281] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41282] = {
+_G.pg.base.item_data_statistics[41282] = {
 	display = "謝菲爾德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16392,7 +16440,7 @@ _G.pg.item_data_statistics[41282] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41283] = {
+_G.pg.base.item_data_statistics[41283] = {
 	display = "愛丁堡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16413,7 +16461,7 @@ _G.pg.item_data_statistics[41283] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41284] = {
+_G.pg.base.item_data_statistics[41284] = {
 	display = "貝爾法斯特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16434,7 +16482,7 @@ _G.pg.item_data_statistics[41284] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41285] = {
+_G.pg.base.item_data_statistics[41285] = {
 	display = "阿瑞托莎贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16455,7 +16503,7 @@ _G.pg.item_data_statistics[41285] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41286] = {
+_G.pg.base.item_data_statistics[41286] = {
 	display = "加拉蒂亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16476,7 +16524,7 @@ _G.pg.item_data_statistics[41286] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41287] = {
+_G.pg.base.item_data_statistics[41287] = {
 	display = "歐若拉贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16497,7 +16545,7 @@ _G.pg.item_data_statistics[41287] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41288] = {
+_G.pg.base.item_data_statistics[41288] = {
 	display = "倫敦贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16518,7 +16566,7 @@ _G.pg.item_data_statistics[41288] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41289] = {
+_G.pg.base.item_data_statistics[41289] = {
 	display = "什羅普郡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16539,7 +16587,7 @@ _G.pg.item_data_statistics[41289] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41290] = {
+_G.pg.base.item_data_statistics[41290] = {
 	display = "肯特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16560,7 +16608,7 @@ _G.pg.item_data_statistics[41290] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41291] = {
+_G.pg.base.item_data_statistics[41291] = {
 	display = "薩福克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16581,7 +16629,7 @@ _G.pg.item_data_statistics[41291] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41292] = {
+_G.pg.base.item_data_statistics[41292] = {
 	display = "諾福克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16602,7 +16650,7 @@ _G.pg.item_data_statistics[41292] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41293] = {
+_G.pg.base.item_data_statistics[41293] = {
 	display = "多塞特郡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16623,7 +16671,7 @@ _G.pg.item_data_statistics[41293] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41294] = {
+_G.pg.base.item_data_statistics[41294] = {
 	display = "約克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16644,7 +16692,7 @@ _G.pg.item_data_statistics[41294] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41295] = {
+_G.pg.base.item_data_statistics[41295] = {
 	display = "埃克塞特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16665,7 +16713,7 @@ _G.pg.item_data_statistics[41295] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41296] = {
+_G.pg.base.item_data_statistics[41296] = {
 	display = "蘇塞克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16686,7 +16734,7 @@ _G.pg.item_data_statistics[41296] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41297] = {
+_G.pg.base.item_data_statistics[41297] = {
 	display = "聲望贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16707,7 +16755,7 @@ _G.pg.item_data_statistics[41297] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41298] = {
+_G.pg.base.item_data_statistics[41298] = {
 	display = "反擊贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16728,7 +16776,7 @@ _G.pg.item_data_statistics[41298] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41299] = {
+_G.pg.base.item_data_statistics[41299] = {
 	display = "胡德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16749,7 +16797,7 @@ _G.pg.item_data_statistics[41299] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41300] = {
+_G.pg.base.item_data_statistics[41300] = {
 	display = "伊莉莎白女王贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16770,7 +16818,7 @@ _G.pg.item_data_statistics[41300] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41301] = {
+_G.pg.base.item_data_statistics[41301] = {
 	display = "厭戰贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16791,7 +16839,7 @@ _G.pg.item_data_statistics[41301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41302] = {
+_G.pg.base.item_data_statistics[41302] = {
 	display = "納爾遜贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16812,7 +16860,7 @@ _G.pg.item_data_statistics[41302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41303] = {
+_G.pg.base.item_data_statistics[41303] = {
 	display = "羅德尼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16833,7 +16881,7 @@ _G.pg.item_data_statistics[41303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41304] = {
+_G.pg.base.item_data_statistics[41304] = {
 	display = "威爾斯親王贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16854,7 +16902,7 @@ _G.pg.item_data_statistics[41304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41305] = {
+_G.pg.base.item_data_statistics[41305] = {
 	display = "約克公爵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16875,7 +16923,7 @@ _G.pg.item_data_statistics[41305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41306] = {
+_G.pg.base.item_data_statistics[41306] = {
 	display = "競技神贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16896,7 +16944,7 @@ _G.pg.item_data_statistics[41306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41307] = {
+_G.pg.base.item_data_statistics[41307] = {
 	display = "獨角獸贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16917,7 +16965,7 @@ _G.pg.item_data_statistics[41307] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41308] = {
+_G.pg.base.item_data_statistics[41308] = {
 	display = "皇家方舟贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16938,7 +16986,7 @@ _G.pg.item_data_statistics[41308] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41309] = {
+_G.pg.base.item_data_statistics[41309] = {
 	display = "光輝贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16959,7 +17007,7 @@ _G.pg.item_data_statistics[41309] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41310] = {
+_G.pg.base.item_data_statistics[41310] = {
 	display = "勝利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -16980,7 +17028,7 @@ _G.pg.item_data_statistics[41310] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41311] = {
+_G.pg.base.item_data_statistics[41311] = {
 	display = "光榮贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17001,7 +17049,7 @@ _G.pg.item_data_statistics[41311] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41312] = {
+_G.pg.base.item_data_statistics[41312] = {
 	display = "黑暗界贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17022,7 +17070,7 @@ _G.pg.item_data_statistics[41312] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41313] = {
+_G.pg.base.item_data_statistics[41313] = {
 	display = "恐怖贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17043,7 +17091,7 @@ _G.pg.item_data_statistics[41313] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41314] = {
+_G.pg.base.item_data_statistics[41314] = {
 	display = "阿貝克隆比贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17064,7 +17112,7 @@ _G.pg.item_data_statistics[41314] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41315] = {
+_G.pg.base.item_data_statistics[41315] = {
 	display = "{namecode:2}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17085,7 +17133,7 @@ _G.pg.item_data_statistics[41315] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41316] = {
+_G.pg.base.item_data_statistics[41316] = {
 	display = "{namecode:6}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17106,7 +17154,7 @@ _G.pg.item_data_statistics[41316] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41317] = {
+_G.pg.base.item_data_statistics[41317] = {
 	display = "{namecode:11}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17127,7 +17175,7 @@ _G.pg.item_data_statistics[41317] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41318] = {
+_G.pg.base.item_data_statistics[41318] = {
 	display = "{namecode:13}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17148,7 +17196,7 @@ _G.pg.item_data_statistics[41318] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41319] = {
+_G.pg.base.item_data_statistics[41319] = {
 	display = "{namecode:14}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17169,7 +17217,7 @@ _G.pg.item_data_statistics[41319] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41320] = {
+_G.pg.base.item_data_statistics[41320] = {
 	display = "{namecode:15}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17190,7 +17238,7 @@ _G.pg.item_data_statistics[41320] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41321] = {
+_G.pg.base.item_data_statistics[41321] = {
 	display = "{namecode:16}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17211,7 +17259,7 @@ _G.pg.item_data_statistics[41321] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41322] = {
+_G.pg.base.item_data_statistics[41322] = {
 	display = "{namecode:17}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17232,7 +17280,7 @@ _G.pg.item_data_statistics[41322] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41323] = {
+_G.pg.base.item_data_statistics[41323] = {
 	display = "{namecode:22}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17253,7 +17301,7 @@ _G.pg.item_data_statistics[41323] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41324] = {
+_G.pg.base.item_data_statistics[41324] = {
 	display = "{namecode:19}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17274,7 +17322,7 @@ _G.pg.item_data_statistics[41324] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41325] = {
+_G.pg.base.item_data_statistics[41325] = {
 	display = "{namecode:20}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17295,7 +17343,7 @@ _G.pg.item_data_statistics[41325] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41326] = {
+_G.pg.base.item_data_statistics[41326] = {
 	display = "{namecode:24}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17316,7 +17364,7 @@ _G.pg.item_data_statistics[41326] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41327] = {
+_G.pg.base.item_data_statistics[41327] = {
 	display = "{namecode:30}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17337,7 +17385,7 @@ _G.pg.item_data_statistics[41327] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41328] = {
+_G.pg.base.item_data_statistics[41328] = {
 	display = "{namecode:141}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17358,7 +17406,7 @@ _G.pg.item_data_statistics[41328] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41329] = {
+_G.pg.base.item_data_statistics[41329] = {
 	display = "{namecode:129}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17379,7 +17427,7 @@ _G.pg.item_data_statistics[41329] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41330] = {
+_G.pg.base.item_data_statistics[41330] = {
 	display = "{namecode:31}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17400,7 +17448,7 @@ _G.pg.item_data_statistics[41330] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41331] = {
+_G.pg.base.item_data_statistics[41331] = {
 	display = "{namecode:32}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17421,7 +17469,7 @@ _G.pg.item_data_statistics[41331] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41332] = {
+_G.pg.base.item_data_statistics[41332] = {
 	display = "{namecode:21}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17442,7 +17490,7 @@ _G.pg.item_data_statistics[41332] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41333] = {
+_G.pg.base.item_data_statistics[41333] = {
 	display = "{namecode:135}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17463,7 +17511,7 @@ _G.pg.item_data_statistics[41333] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41334] = {
+_G.pg.base.item_data_statistics[41334] = {
 	display = "{namecode:37}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17484,7 +17532,7 @@ _G.pg.item_data_statistics[41334] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41335] = {
+_G.pg.base.item_data_statistics[41335] = {
 	display = "{namecode:46}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17505,7 +17553,7 @@ _G.pg.item_data_statistics[41335] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41336] = {
+_G.pg.base.item_data_statistics[41336] = {
 	display = "{namecode:48}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17526,7 +17574,7 @@ _G.pg.item_data_statistics[41336] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41337] = {
+_G.pg.base.item_data_statistics[41337] = {
 	display = "{namecode:47}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17547,7 +17595,7 @@ _G.pg.item_data_statistics[41337] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41338] = {
+_G.pg.base.item_data_statistics[41338] = {
 	display = "{namecode:57}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17568,7 +17616,7 @@ _G.pg.item_data_statistics[41338] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41339] = {
+_G.pg.base.item_data_statistics[41339] = {
 	display = "{namecode:58}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17589,7 +17637,7 @@ _G.pg.item_data_statistics[41339] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41340] = {
+_G.pg.base.item_data_statistics[41340] = {
 	display = "{namecode:53}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17610,7 +17658,7 @@ _G.pg.item_data_statistics[41340] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41341] = {
+_G.pg.base.item_data_statistics[41341] = {
 	display = "{namecode:54}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17631,7 +17679,7 @@ _G.pg.item_data_statistics[41341] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41342] = {
+_G.pg.base.item_data_statistics[41342] = {
 	display = "{namecode:55}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17652,7 +17700,7 @@ _G.pg.item_data_statistics[41342] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41343] = {
+_G.pg.base.item_data_statistics[41343] = {
 	display = "{namecode:56}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17673,7 +17721,7 @@ _G.pg.item_data_statistics[41343] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41344] = {
+_G.pg.base.item_data_statistics[41344] = {
 	display = "{namecode:63}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17694,7 +17742,7 @@ _G.pg.item_data_statistics[41344] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41345] = {
+_G.pg.base.item_data_statistics[41345] = {
 	display = "{namecode:64}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17715,7 +17763,7 @@ _G.pg.item_data_statistics[41345] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41346] = {
+_G.pg.base.item_data_statistics[41346] = {
 	display = "{namecode:144}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17736,7 +17784,7 @@ _G.pg.item_data_statistics[41346] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41347] = {
+_G.pg.base.item_data_statistics[41347] = {
 	display = "{namecode:66}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17757,7 +17805,7 @@ _G.pg.item_data_statistics[41347] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41348] = {
+_G.pg.base.item_data_statistics[41348] = {
 	display = "{namecode:67}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17778,7 +17826,7 @@ _G.pg.item_data_statistics[41348] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41349] = {
+_G.pg.base.item_data_statistics[41349] = {
 	display = "{namecode:68}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17799,7 +17847,7 @@ _G.pg.item_data_statistics[41349] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41350] = {
+_G.pg.base.item_data_statistics[41350] = {
 	display = "{namecode:69}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17820,7 +17868,7 @@ _G.pg.item_data_statistics[41350] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41351] = {
+_G.pg.base.item_data_statistics[41351] = {
 	display = "{namecode:70}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17841,7 +17889,7 @@ _G.pg.item_data_statistics[41351] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41352] = {
+_G.pg.base.item_data_statistics[41352] = {
 	display = "{namecode:71}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17862,7 +17910,7 @@ _G.pg.item_data_statistics[41352] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41353] = {
+_G.pg.base.item_data_statistics[41353] = {
 	display = "{namecode:72}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17883,7 +17931,7 @@ _G.pg.item_data_statistics[41353] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41354] = {
+_G.pg.base.item_data_statistics[41354] = {
 	display = "{namecode:73}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17904,7 +17952,7 @@ _G.pg.item_data_statistics[41354] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41355] = {
+_G.pg.base.item_data_statistics[41355] = {
 	display = "{namecode:161}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17925,7 +17973,7 @@ _G.pg.item_data_statistics[41355] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41356] = {
+_G.pg.base.item_data_statistics[41356] = {
 	display = "{namecode:78}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17946,7 +17994,7 @@ _G.pg.item_data_statistics[41356] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41357] = {
+_G.pg.base.item_data_statistics[41357] = {
 	display = "{namecode:79}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17967,7 +18015,7 @@ _G.pg.item_data_statistics[41357] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41358] = {
+_G.pg.base.item_data_statistics[41358] = {
 	display = "{namecode:76}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -17988,7 +18036,7 @@ _G.pg.item_data_statistics[41358] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41359] = {
+_G.pg.base.item_data_statistics[41359] = {
 	display = "{namecode:77}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18009,7 +18057,7 @@ _G.pg.item_data_statistics[41359] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41360] = {
+_G.pg.base.item_data_statistics[41360] = {
 	display = "{namecode:74}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18030,7 +18078,7 @@ _G.pg.item_data_statistics[41360] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41361] = {
+_G.pg.base.item_data_statistics[41361] = {
 	display = "{namecode:75}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18051,7 +18099,7 @@ _G.pg.item_data_statistics[41361] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41362] = {
+_G.pg.base.item_data_statistics[41362] = {
 	display = "{namecode:92}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18072,7 +18120,7 @@ _G.pg.item_data_statistics[41362] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41363] = {
+_G.pg.base.item_data_statistics[41363] = {
 	display = "{namecode:85}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18093,7 +18141,7 @@ _G.pg.item_data_statistics[41363] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41364] = {
+_G.pg.base.item_data_statistics[41364] = {
 	display = "{namecode:86}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18114,7 +18162,7 @@ _G.pg.item_data_statistics[41364] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41365] = {
+_G.pg.base.item_data_statistics[41365] = {
 	display = "{namecode:89}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18135,7 +18183,7 @@ _G.pg.item_data_statistics[41365] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41366] = {
+_G.pg.base.item_data_statistics[41366] = {
 	display = "{namecode:87}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18156,7 +18204,7 @@ _G.pg.item_data_statistics[41366] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41367] = {
+_G.pg.base.item_data_statistics[41367] = {
 	display = "{namecode:90}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18177,7 +18225,7 @@ _G.pg.item_data_statistics[41367] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41368] = {
+_G.pg.base.item_data_statistics[41368] = {
 	display = "{namecode:91}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18198,7 +18246,7 @@ _G.pg.item_data_statistics[41368] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41369] = {
+_G.pg.base.item_data_statistics[41369] = {
 	display = "{namecode:92}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18219,7 +18267,7 @@ _G.pg.item_data_statistics[41369] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41370] = {
+_G.pg.base.item_data_statistics[41370] = {
 	display = "{namecode:93}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18240,7 +18288,7 @@ _G.pg.item_data_statistics[41370] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41371] = {
+_G.pg.base.item_data_statistics[41371] = {
 	display = "{namecode:94}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18261,7 +18309,7 @@ _G.pg.item_data_statistics[41371] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41372] = {
+_G.pg.base.item_data_statistics[41372] = {
 	display = "{namecode:95}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18282,7 +18330,7 @@ _G.pg.item_data_statistics[41372] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41373] = {
+_G.pg.base.item_data_statistics[41373] = {
 	display = "{namecode:96}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18303,7 +18351,7 @@ _G.pg.item_data_statistics[41373] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41374] = {
+_G.pg.base.item_data_statistics[41374] = {
 	display = "{namecode:97}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18324,7 +18372,7 @@ _G.pg.item_data_statistics[41374] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41375] = {
+_G.pg.base.item_data_statistics[41375] = {
 	display = "{namecode:98}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18345,7 +18393,7 @@ _G.pg.item_data_statistics[41375] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41376] = {
+_G.pg.base.item_data_statistics[41376] = {
 	display = "Z1贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18366,7 +18414,7 @@ _G.pg.item_data_statistics[41376] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41377] = {
+_G.pg.base.item_data_statistics[41377] = {
 	display = "Z23贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18387,7 +18435,7 @@ _G.pg.item_data_statistics[41377] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41378] = {
+_G.pg.base.item_data_statistics[41378] = {
 	display = "Z25贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18408,7 +18456,7 @@ _G.pg.item_data_statistics[41378] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41379] = {
+_G.pg.base.item_data_statistics[41379] = {
 	display = "柯尼斯堡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18429,7 +18477,7 @@ _G.pg.item_data_statistics[41379] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41380] = {
+_G.pg.base.item_data_statistics[41380] = {
 	display = "卡爾斯魯厄贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18450,7 +18498,7 @@ _G.pg.item_data_statistics[41380] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41381] = {
+_G.pg.base.item_data_statistics[41381] = {
 	display = "科隆贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18471,7 +18519,7 @@ _G.pg.item_data_statistics[41381] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41382] = {
+_G.pg.base.item_data_statistics[41382] = {
 	display = "萊比錫贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18492,7 +18540,7 @@ _G.pg.item_data_statistics[41382] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41383] = {
+_G.pg.base.item_data_statistics[41383] = {
 	display = "希佩爾將軍贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18513,7 +18561,7 @@ _G.pg.item_data_statistics[41383] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41384] = {
+_G.pg.base.item_data_statistics[41384] = {
 	display = "歐根親王贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18534,7 +18582,7 @@ _G.pg.item_data_statistics[41384] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41385] = {
+_G.pg.base.item_data_statistics[41385] = {
 	display = "德意志贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18555,7 +18603,7 @@ _G.pg.item_data_statistics[41385] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41386] = {
+_G.pg.base.item_data_statistics[41386] = {
 	display = "施佩伯爵將軍贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18576,7 +18624,7 @@ _G.pg.item_data_statistics[41386] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41387] = {
+_G.pg.base.item_data_statistics[41387] = {
 	display = "沙恩霍斯特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18597,7 +18645,7 @@ _G.pg.item_data_statistics[41387] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41388] = {
+_G.pg.base.item_data_statistics[41388] = {
 	display = "格奈森瑙贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18618,7 +18666,7 @@ _G.pg.item_data_statistics[41388] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41389] = {
+_G.pg.base.item_data_statistics[41389] = {
 	display = "鐵必制贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18639,7 +18687,7 @@ _G.pg.item_data_statistics[41389] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41390] = {
+_G.pg.base.item_data_statistics[41390] = {
 	display = "齊柏林伯爵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18660,7 +18708,7 @@ _G.pg.item_data_statistics[41390] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41391] = {
+_G.pg.base.item_data_statistics[41391] = {
 	display = "鞍山贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18681,7 +18729,7 @@ _G.pg.item_data_statistics[41391] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41392] = {
+_G.pg.base.item_data_statistics[41392] = {
 	display = "撫順贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18702,7 +18750,7 @@ _G.pg.item_data_statistics[41392] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41393] = {
+_G.pg.base.item_data_statistics[41393] = {
 	display = "長春贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18723,7 +18771,7 @@ _G.pg.item_data_statistics[41393] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41394] = {
+_G.pg.base.item_data_statistics[41394] = {
 	display = "太原贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18744,7 +18792,7 @@ _G.pg.item_data_statistics[41394] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41395] = {
+_G.pg.base.item_data_statistics[41395] = {
 	display = "逸仙贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18765,7 +18813,7 @@ _G.pg.item_data_statistics[41395] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41396] = {
+_G.pg.base.item_data_statistics[41396] = {
 	display = "寧海贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18786,7 +18834,7 @@ _G.pg.item_data_statistics[41396] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41397] = {
+_G.pg.base.item_data_statistics[41397] = {
 	display = "平海贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18807,7 +18855,7 @@ _G.pg.item_data_statistics[41397] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41398] = {
+_G.pg.base.item_data_statistics[41398] = {
 	display = "曙光贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18828,7 +18876,7 @@ _G.pg.item_data_statistics[41398] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41399] = {
+_G.pg.base.item_data_statistics[41399] = {
 	display = "貝利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18849,7 +18897,7 @@ _G.pg.item_data_statistics[41399] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41400] = {
+_G.pg.base.item_data_statistics[41400] = {
 	display = "Z19贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18870,7 +18918,7 @@ _G.pg.item_data_statistics[41400] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41401] = {
+_G.pg.base.item_data_statistics[41401] = {
 	display = "Z20贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18891,7 +18939,7 @@ _G.pg.item_data_statistics[41401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41402] = {
+_G.pg.base.item_data_statistics[41402] = {
 	display = "Z21贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18912,7 +18960,7 @@ _G.pg.item_data_statistics[41402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41403] = {
+_G.pg.base.item_data_statistics[41403] = {
 	display = "Z46贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18933,7 +18981,7 @@ _G.pg.item_data_statistics[41403] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41404] = {
+_G.pg.base.item_data_statistics[41404] = {
 	display = "{namecode:124}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18954,7 +19002,7 @@ _G.pg.item_data_statistics[41404] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41405] = {
+_G.pg.base.item_data_statistics[41405] = {
 	display = "{namecode:134}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18975,7 +19023,7 @@ _G.pg.item_data_statistics[41405] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41406] = {
+_G.pg.base.item_data_statistics[41406] = {
 	display = "{namecode:33}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -18996,7 +19044,7 @@ _G.pg.item_data_statistics[41406] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41407] = {
+_G.pg.base.item_data_statistics[41407] = {
 	display = "{namecode:34}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19017,7 +19065,7 @@ _G.pg.item_data_statistics[41407] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41408] = {
+_G.pg.base.item_data_statistics[41408] = {
 	display = "{namecode:137}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19038,7 +19086,7 @@ _G.pg.item_data_statistics[41408] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41409] = {
+_G.pg.base.item_data_statistics[41409] = {
 	display = "{namecode:133}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19059,7 +19107,7 @@ _G.pg.item_data_statistics[41409] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41410] = {
+_G.pg.base.item_data_statistics[41410] = {
 	display = "{namecode:159}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19080,7 +19128,7 @@ _G.pg.item_data_statistics[41410] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41411] = {
+_G.pg.base.item_data_statistics[41411] = {
 	display = "{namecode:160}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19101,7 +19149,7 @@ _G.pg.item_data_statistics[41411] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41412] = {
+_G.pg.base.item_data_statistics[41412] = {
 	display = "{namecode:126}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19122,7 +19170,7 @@ _G.pg.item_data_statistics[41412] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41413] = {
+_G.pg.base.item_data_statistics[41413] = {
 	display = "{namecode:158}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19143,7 +19191,7 @@ _G.pg.item_data_statistics[41413] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41414] = {
+_G.pg.base.item_data_statistics[41414] = {
 	display = "{namecode:125}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19164,7 +19212,7 @@ _G.pg.item_data_statistics[41414] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41415] = {
+_G.pg.base.item_data_statistics[41415] = {
 	display = "{namecode:157}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19185,7 +19233,7 @@ _G.pg.item_data_statistics[41415] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41416] = {
+_G.pg.base.item_data_statistics[41416] = {
 	display = "{namecode:28}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19206,7 +19254,7 @@ _G.pg.item_data_statistics[41416] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41417] = {
+_G.pg.base.item_data_statistics[41417] = {
 	display = "拉德福特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19227,7 +19275,7 @@ _G.pg.item_data_statistics[41417] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41418] = {
+_G.pg.base.item_data_statistics[41418] = {
 	display = "傑金斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19248,7 +19296,7 @@ _G.pg.item_data_statistics[41418] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41419] = {
+_G.pg.base.item_data_statistics[41419] = {
 	display = "尼古拉斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19269,7 +19317,7 @@ _G.pg.item_data_statistics[41419] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41420] = {
+_G.pg.base.item_data_statistics[41420] = {
 	display = "里奇蒙贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19290,7 +19338,7 @@ _G.pg.item_data_statistics[41420] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41421] = {
+_G.pg.base.item_data_statistics[41421] = {
 	display = "火奴魯魯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19311,7 +19359,7 @@ _G.pg.item_data_statistics[41421] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41422] = {
+_G.pg.base.item_data_statistics[41422] = {
 	display = "聖路易斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19332,7 +19380,7 @@ _G.pg.item_data_statistics[41422] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41423] = {
+_G.pg.base.item_data_statistics[41423] = {
 	display = "丘比特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19353,7 +19401,7 @@ _G.pg.item_data_statistics[41423] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41424] = {
+_G.pg.base.item_data_statistics[41424] = {
 	display = "澤西贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19374,7 +19422,7 @@ _G.pg.item_data_statistics[41424] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41425] = {
+_G.pg.base.item_data_statistics[41425] = {
 	display = "{namecode:38}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19395,7 +19443,7 @@ _G.pg.item_data_statistics[41425] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41426] = {
+_G.pg.base.item_data_statistics[41426] = {
 	display = "{namecode:39}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19416,7 +19464,7 @@ _G.pg.item_data_statistics[41426] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41427] = {
+_G.pg.base.item_data_statistics[41427] = {
 	display = "{namecode:40}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19437,7 +19485,7 @@ _G.pg.item_data_statistics[41427] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41428] = {
+_G.pg.base.item_data_statistics[41428] = {
 	display = "{namecode:142}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19458,7 +19506,7 @@ _G.pg.item_data_statistics[41428] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41429] = {
+_G.pg.base.item_data_statistics[41429] = {
 	display = "{namecode:143}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19479,7 +19527,7 @@ _G.pg.item_data_statistics[41429] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41430] = {
+_G.pg.base.item_data_statistics[41430] = {
 	display = "{namecode:128}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19500,7 +19548,7 @@ _G.pg.item_data_statistics[41430] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41431] = {
+_G.pg.base.item_data_statistics[41431] = {
 	display = "{namecode:127}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19521,7 +19569,7 @@ _G.pg.item_data_statistics[41431] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41432] = {
+_G.pg.base.item_data_statistics[41432] = {
 	display = "{namecode:82}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19542,7 +19590,7 @@ _G.pg.item_data_statistics[41432] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41433] = {
+_G.pg.base.item_data_statistics[41433] = {
 	display = "{namecode:49}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19563,7 +19611,7 @@ _G.pg.item_data_statistics[41433] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41434] = {
+_G.pg.base.item_data_statistics[41434] = {
 	display = "無敵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19584,7 +19632,7 @@ _G.pg.item_data_statistics[41434] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41435] = {
+_G.pg.base.item_data_statistics[41435] = {
 	display = "火槍手贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19605,7 +19653,7 @@ _G.pg.item_data_statistics[41435] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41436] = {
+_G.pg.base.item_data_statistics[41436] = {
 	display = "斐濟贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19626,7 +19674,7 @@ _G.pg.item_data_statistics[41436] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41437] = {
+_G.pg.base.item_data_statistics[41437] = {
 	display = "牙買加贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19647,7 +19695,7 @@ _G.pg.item_data_statistics[41437] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41438] = {
+_G.pg.base.item_data_statistics[41438] = {
 	display = "蒙彼利埃贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19668,7 +19716,7 @@ _G.pg.item_data_statistics[41438] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41439] = {
+_G.pg.base.item_data_statistics[41439] = {
 	display = "丹佛贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19689,7 +19737,7 @@ _G.pg.item_data_statistics[41439] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41440] = {
+_G.pg.base.item_data_statistics[41440] = {
 	display = "{namecode:145}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19710,7 +19758,7 @@ _G.pg.item_data_statistics[41440] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41441] = {
+_G.pg.base.item_data_statistics[41441] = {
 	display = "{namecode:146}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19731,7 +19779,7 @@ _G.pg.item_data_statistics[41441] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41442] = {
+_G.pg.base.item_data_statistics[41442] = {
 	display = "{namecode:147}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19752,7 +19800,7 @@ _G.pg.item_data_statistics[41442] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41443] = {
+_G.pg.base.item_data_statistics[41443] = {
 	display = "{namecode:148}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19773,7 +19821,7 @@ _G.pg.item_data_statistics[41443] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41444] = {
+_G.pg.base.item_data_statistics[41444] = {
 	display = "小貝法贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19794,7 +19842,7 @@ _G.pg.item_data_statistics[41444] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41445] = {
+_G.pg.base.item_data_statistics[41445] = {
 	display = "{namecode:154}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19815,7 +19863,7 @@ _G.pg.item_data_statistics[41445] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41446] = {
+_G.pg.base.item_data_statistics[41446] = {
 	display = "{namecode:155}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19836,7 +19884,7 @@ _G.pg.item_data_statistics[41446] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41447] = {
+_G.pg.base.item_data_statistics[41447] = {
 	display = "{namecode:156}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19857,7 +19905,7 @@ _G.pg.item_data_statistics[41447] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41448] = {
+_G.pg.base.item_data_statistics[41448] = {
 	display = "U-81贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19878,7 +19926,7 @@ _G.pg.item_data_statistics[41448] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41449] = {
+_G.pg.base.item_data_statistics[41449] = {
 	display = "鰷魚贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19899,7 +19947,7 @@ _G.pg.item_data_statistics[41449] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41450] = {
+_G.pg.base.item_data_statistics[41450] = {
 	display = "U-47贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19920,7 +19968,7 @@ _G.pg.item_data_statistics[41450] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41451] = {
+_G.pg.base.item_data_statistics[41451] = {
 	display = "U-557贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19941,7 +19989,7 @@ _G.pg.item_data_statistics[41451] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41452] = {
+_G.pg.base.item_data_statistics[41452] = {
 	display = "Z35贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19962,7 +20010,7 @@ _G.pg.item_data_statistics[41452] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41453] = {
+_G.pg.base.item_data_statistics[41453] = {
 	display = "Z18贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -19983,7 +20031,7 @@ _G.pg.item_data_statistics[41453] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41454] = {
+_G.pg.base.item_data_statistics[41454] = {
 	display = "凱旋贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20004,7 +20052,7 @@ _G.pg.item_data_statistics[41454] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41455] = {
+_G.pg.base.item_data_statistics[41455] = {
 	display = "福爾班贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20025,7 +20073,7 @@ _G.pg.item_data_statistics[41455] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41456] = {
+_G.pg.base.item_data_statistics[41456] = {
 	display = "埃米爾•貝爾坦贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20046,7 +20094,7 @@ _G.pg.item_data_statistics[41456] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41457] = {
+_G.pg.base.item_data_statistics[41457] = {
 	display = "速科夫贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20067,7 +20115,7 @@ _G.pg.item_data_statistics[41457] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41458] = {
+_G.pg.base.item_data_statistics[41458] = {
 	display = "勒馬爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20088,7 +20136,7 @@ _G.pg.item_data_statistics[41458] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41459] = {
+_G.pg.base.item_data_statistics[41459] = {
 	display = "敦克爾克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20109,7 +20157,7 @@ _G.pg.item_data_statistics[41459] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41460] = {
+_G.pg.base.item_data_statistics[41460] = {
 	display = "讓·巴爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20130,7 +20178,7 @@ _G.pg.item_data_statistics[41460] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41461] = {
+_G.pg.base.item_data_statistics[41461] = {
 	display = "麻薩諸塞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20151,7 +20199,7 @@ _G.pg.item_data_statistics[41461] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41462] = {
+_G.pg.base.item_data_statistics[41462] = {
 	display = "布希贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20172,7 +20220,7 @@ _G.pg.item_data_statistics[41462] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41463] = {
+_G.pg.base.item_data_statistics[41463] = {
 	display = "半人馬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20193,7 +20241,7 @@ _G.pg.item_data_statistics[41463] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41464] = {
+_G.pg.base.item_data_statistics[41464] = {
 	display = "艾塞克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20214,7 +20262,7 @@ _G.pg.item_data_statistics[41464] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41465] = {
+_G.pg.base.item_data_statistics[41465] = {
 	display = "大青花魚贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20235,7 +20283,7 @@ _G.pg.item_data_statistics[41465] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41466] = {
+_G.pg.base.item_data_statistics[41466] = {
 	display = "魯莽贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20256,7 +20304,7 @@ _G.pg.item_data_statistics[41466] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41467] = {
+_G.pg.base.item_data_statistics[41467] = {
 	display = "曼非斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20277,7 +20325,7 @@ _G.pg.item_data_statistics[41467] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41468] = {
+_G.pg.base.item_data_statistics[41468] = {
 	display = "紐卡斯爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20298,7 +20346,7 @@ _G.pg.item_data_statistics[41468] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41469] = {
+_G.pg.base.item_data_statistics[41469] = {
 	display = "霍比贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20319,7 +20367,7 @@ _G.pg.item_data_statistics[41469] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41470] = {
+_G.pg.base.item_data_statistics[41470] = {
 	display = "科爾克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20340,7 +20388,7 @@ _G.pg.item_data_statistics[41470] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41471] = {
+_G.pg.base.item_data_statistics[41471] = {
 	display = "明尼亞波利斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20361,7 +20409,7 @@ _G.pg.item_data_statistics[41471] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41472] = {
+_G.pg.base.item_data_statistics[41472] = {
 	display = "黑澤伍德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20382,7 +20430,7 @@ _G.pg.item_data_statistics[41472] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41473] = {
+_G.pg.base.item_data_statistics[41473] = {
 	display = "康克德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20403,7 +20451,7 @@ _G.pg.item_data_statistics[41473] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41474] = {
+_G.pg.base.item_data_statistics[41474] = {
 	display = "{namecode:140}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20424,7 +20472,7 @@ _G.pg.item_data_statistics[41474] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41475] = {
+_G.pg.base.item_data_statistics[41475] = {
 	display = "{namecode:162}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20445,7 +20493,7 @@ _G.pg.item_data_statistics[41475] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41476] = {
+_G.pg.base.item_data_statistics[41476] = {
 	display = "天狼星贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20466,7 +20514,7 @@ _G.pg.item_data_statistics[41476] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41477] = {
+_G.pg.base.item_data_statistics[41477] = {
 	display = "庫拉索贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20487,7 +20535,7 @@ _G.pg.item_data_statistics[41477] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41478] = {
+_G.pg.base.item_data_statistics[41478] = {
 	display = "杓鷸贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20508,7 +20556,7 @@ _G.pg.item_data_statistics[41478] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41479] = {
+_G.pg.base.item_data_statistics[41479] = {
 	display = "金伯利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20529,7 +20577,7 @@ _G.pg.item_data_statistics[41479] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41480] = {
+_G.pg.base.item_data_statistics[41480] = {
 	display = "馬拉尼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20550,7 +20598,7 @@ _G.pg.item_data_statistics[41480] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41481] = {
+_G.pg.base.item_data_statistics[41481] = {
 	display = "追趕者贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20571,7 +20619,7 @@ _G.pg.item_data_statistics[41481] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41498] = {
+_G.pg.base.item_data_statistics[41498] = {
 	display = "海王星贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20592,7 +20640,7 @@ _G.pg.item_data_statistics[41498] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41499] = {
+_G.pg.base.item_data_statistics[41499] = {
 	display = "君主贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20613,7 +20661,7 @@ _G.pg.item_data_statistics[41499] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41500] = {
+_G.pg.base.item_data_statistics[41500] = {
 	display = "{namecode:152}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20634,7 +20682,7 @@ _G.pg.item_data_statistics[41500] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41501] = {
+_G.pg.base.item_data_statistics[41501] = {
 	display = "{namecode:151}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20655,7 +20703,7 @@ _G.pg.item_data_statistics[41501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41502] = {
+_G.pg.base.item_data_statistics[41502] = {
 	display = "羅恩贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20676,7 +20724,7 @@ _G.pg.item_data_statistics[41502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41503] = {
+_G.pg.base.item_data_statistics[41503] = {
 	display = "路易九世贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20697,7 +20745,7 @@ _G.pg.item_data_statistics[41503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41601] = {
+_G.pg.base.item_data_statistics[41601] = {
 	display = "泛用型布里贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20718,7 +20766,7 @@ _G.pg.item_data_statistics[41601] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41602] = {
+_G.pg.base.item_data_statistics[41602] = {
 	display = "試作型布里MKII贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20739,7 +20787,7 @@ _G.pg.item_data_statistics[41602] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41603] = {
+_G.pg.base.item_data_statistics[41603] = {
 	display = "卡辛贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20760,7 +20808,7 @@ _G.pg.item_data_statistics[41603] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41604] = {
+_G.pg.base.item_data_statistics[41604] = {
 	display = "唐斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20781,7 +20829,7 @@ _G.pg.item_data_statistics[41604] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41605] = {
+_G.pg.base.item_data_statistics[41605] = {
 	display = "格里德利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20802,7 +20850,7 @@ _G.pg.item_data_statistics[41605] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41606] = {
+_G.pg.base.item_data_statistics[41606] = {
 	display = "克雷文贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20823,7 +20871,7 @@ _G.pg.item_data_statistics[41606] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41607] = {
+_G.pg.base.item_data_statistics[41607] = {
 	display = "麥考爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20844,7 +20892,7 @@ _G.pg.item_data_statistics[41607] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41608] = {
+_G.pg.base.item_data_statistics[41608] = {
 	display = "莫里贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20865,7 +20913,7 @@ _G.pg.item_data_statistics[41608] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41609] = {
+_G.pg.base.item_data_statistics[41609] = {
 	display = "佛萊契爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20886,7 +20934,7 @@ _G.pg.item_data_statistics[41609] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41610] = {
+_G.pg.base.item_data_statistics[41610] = {
 	display = "查爾斯·奧斯本贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20907,7 +20955,7 @@ _G.pg.item_data_statistics[41610] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41611] = {
+_G.pg.base.item_data_statistics[41611] = {
 	display = "柴契爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20928,7 +20976,7 @@ _G.pg.item_data_statistics[41611] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41612] = {
+_G.pg.base.item_data_statistics[41612] = {
 	display = "奧利克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20949,7 +20997,7 @@ _G.pg.item_data_statistics[41612] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41613] = {
+_G.pg.base.item_data_statistics[41613] = {
 	display = "富特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20970,7 +21018,7 @@ _G.pg.item_data_statistics[41613] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41614] = {
+_G.pg.base.item_data_statistics[41614] = {
 	display = "斯彭斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -20991,7 +21039,7 @@ _G.pg.item_data_statistics[41614] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41615] = {
+_G.pg.base.item_data_statistics[41615] = {
 	display = "班森贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21012,7 +21060,7 @@ _G.pg.item_data_statistics[41615] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41616] = {
+_G.pg.base.item_data_statistics[41616] = {
 	display = "拉菲贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21033,7 +21081,7 @@ _G.pg.item_data_statistics[41616] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41617] = {
+_G.pg.base.item_data_statistics[41617] = {
 	display = "西姆斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21054,7 +21102,7 @@ _G.pg.item_data_statistics[41617] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41618] = {
+_G.pg.base.item_data_statistics[41618] = {
 	display = "哈曼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21075,7 +21123,7 @@ _G.pg.item_data_statistics[41618] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41619] = {
+_G.pg.base.item_data_statistics[41619] = {
 	display = "埃爾德里奇贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21096,7 +21144,7 @@ _G.pg.item_data_statistics[41619] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41620] = {
+_G.pg.base.item_data_statistics[41620] = {
 	display = "奧馬哈贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21117,7 +21165,7 @@ _G.pg.item_data_statistics[41620] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41621] = {
+_G.pg.base.item_data_statistics[41621] = {
 	display = "羅利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21138,7 +21186,7 @@ _G.pg.item_data_statistics[41621] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41622] = {
+_G.pg.base.item_data_statistics[41622] = {
 	display = "布魯克林贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21159,7 +21207,7 @@ _G.pg.item_data_statistics[41622] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41623] = {
+_G.pg.base.item_data_statistics[41623] = {
 	display = "菲尼克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21180,7 +21228,7 @@ _G.pg.item_data_statistics[41623] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41624] = {
+_G.pg.base.item_data_statistics[41624] = {
 	display = "海倫娜贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21201,7 +21249,7 @@ _G.pg.item_data_statistics[41624] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41625] = {
+_G.pg.base.item_data_statistics[41625] = {
 	display = "亞特蘭大贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21222,7 +21270,7 @@ _G.pg.item_data_statistics[41625] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41626] = {
+_G.pg.base.item_data_statistics[41626] = {
 	display = "朱諾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21243,7 +21291,7 @@ _G.pg.item_data_statistics[41626] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41627] = {
+_G.pg.base.item_data_statistics[41627] = {
 	display = "聖地牙哥贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21264,7 +21312,7 @@ _G.pg.item_data_statistics[41627] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41628] = {
+_G.pg.base.item_data_statistics[41628] = {
 	display = "克里夫蘭贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21285,7 +21333,7 @@ _G.pg.item_data_statistics[41628] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41629] = {
+_G.pg.base.item_data_statistics[41629] = {
 	display = "哥倫比亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21306,7 +21354,7 @@ _G.pg.item_data_statistics[41629] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41630] = {
+_G.pg.base.item_data_statistics[41630] = {
 	display = "彭薩科拉贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21327,7 +21375,7 @@ _G.pg.item_data_statistics[41630] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41631] = {
+_G.pg.base.item_data_statistics[41631] = {
 	display = "鹽湖城贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21348,7 +21396,7 @@ _G.pg.item_data_statistics[41631] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41632] = {
+_G.pg.base.item_data_statistics[41632] = {
 	display = "北安普敦贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21369,7 +21417,7 @@ _G.pg.item_data_statistics[41632] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41633] = {
+_G.pg.base.item_data_statistics[41633] = {
 	display = "芝加哥贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21390,7 +21438,7 @@ _G.pg.item_data_statistics[41633] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41634] = {
+_G.pg.base.item_data_statistics[41634] = {
 	display = "休士頓贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21411,7 +21459,7 @@ _G.pg.item_data_statistics[41634] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41635] = {
+_G.pg.base.item_data_statistics[41635] = {
 	display = "波特蘭贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21432,7 +21480,7 @@ _G.pg.item_data_statistics[41635] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41636] = {
+_G.pg.base.item_data_statistics[41636] = {
 	display = "印第安納波利斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21453,7 +21501,7 @@ _G.pg.item_data_statistics[41636] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41637] = {
+_G.pg.base.item_data_statistics[41637] = {
 	display = "阿斯托利亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21474,7 +21522,7 @@ _G.pg.item_data_statistics[41637] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41638] = {
+_G.pg.base.item_data_statistics[41638] = {
 	display = "昆西贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21495,7 +21543,7 @@ _G.pg.item_data_statistics[41638] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41639] = {
+_G.pg.base.item_data_statistics[41639] = {
 	display = "文森尼斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21516,7 +21564,7 @@ _G.pg.item_data_statistics[41639] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41640] = {
+_G.pg.base.item_data_statistics[41640] = {
 	display = "威奇塔贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21537,7 +21585,7 @@ _G.pg.item_data_statistics[41640] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41641] = {
+_G.pg.base.item_data_statistics[41641] = {
 	display = "內華達贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21558,7 +21606,7 @@ _G.pg.item_data_statistics[41641] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41642] = {
+_G.pg.base.item_data_statistics[41642] = {
 	display = "奧克拉荷馬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21579,7 +21627,7 @@ _G.pg.item_data_statistics[41642] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41643] = {
+_G.pg.base.item_data_statistics[41643] = {
 	display = "賓夕法尼亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21600,7 +21648,7 @@ _G.pg.item_data_statistics[41643] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41644] = {
+_G.pg.base.item_data_statistics[41644] = {
 	display = "亞利桑那贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21621,7 +21669,7 @@ _G.pg.item_data_statistics[41644] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41645] = {
+_G.pg.base.item_data_statistics[41645] = {
 	display = "田納西贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21642,7 +21690,7 @@ _G.pg.item_data_statistics[41645] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41646] = {
+_G.pg.base.item_data_statistics[41646] = {
 	display = "加利福尼亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21663,7 +21711,7 @@ _G.pg.item_data_statistics[41646] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41647] = {
+_G.pg.base.item_data_statistics[41647] = {
 	display = "科羅拉多贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21684,7 +21732,7 @@ _G.pg.item_data_statistics[41647] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41648] = {
+_G.pg.base.item_data_statistics[41648] = {
 	display = "馬里蘭贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21705,7 +21753,7 @@ _G.pg.item_data_statistics[41648] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41649] = {
+_G.pg.base.item_data_statistics[41649] = {
 	display = "西維吉尼亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21726,7 +21774,7 @@ _G.pg.item_data_statistics[41649] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41650] = {
+_G.pg.base.item_data_statistics[41650] = {
 	display = "北卡羅來納贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21747,7 +21795,7 @@ _G.pg.item_data_statistics[41650] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41651] = {
+_G.pg.base.item_data_statistics[41651] = {
 	display = "華盛頓贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21768,7 +21816,7 @@ _G.pg.item_data_statistics[41651] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41652] = {
+_G.pg.base.item_data_statistics[41652] = {
 	display = "南達科他贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21789,7 +21837,7 @@ _G.pg.item_data_statistics[41652] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41653] = {
+_G.pg.base.item_data_statistics[41653] = {
 	display = "長島贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21810,7 +21858,7 @@ _G.pg.item_data_statistics[41653] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41654] = {
+_G.pg.base.item_data_statistics[41654] = {
 	display = "博格贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21831,7 +21879,7 @@ _G.pg.item_data_statistics[41654] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41655] = {
+_G.pg.base.item_data_statistics[41655] = {
 	display = "蘭利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21852,7 +21900,7 @@ _G.pg.item_data_statistics[41655] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41656] = {
+_G.pg.base.item_data_statistics[41656] = {
 	display = "列星頓贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21873,7 +21921,7 @@ _G.pg.item_data_statistics[41656] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41657] = {
+_G.pg.base.item_data_statistics[41657] = {
 	display = "薩拉托加贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21894,7 +21942,7 @@ _G.pg.item_data_statistics[41657] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41658] = {
+_G.pg.base.item_data_statistics[41658] = {
 	display = "突擊者贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21915,7 +21963,7 @@ _G.pg.item_data_statistics[41658] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41659] = {
+_G.pg.base.item_data_statistics[41659] = {
 	display = "約克鎮贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21936,7 +21984,7 @@ _G.pg.item_data_statistics[41659] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41660] = {
+_G.pg.base.item_data_statistics[41660] = {
 	display = "企業贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21957,7 +22005,7 @@ _G.pg.item_data_statistics[41660] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41661] = {
+_G.pg.base.item_data_statistics[41661] = {
 	display = "大黃蜂贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21978,7 +22026,7 @@ _G.pg.item_data_statistics[41661] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41662] = {
+_G.pg.base.item_data_statistics[41662] = {
 	display = "胡蜂贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -21999,7 +22047,7 @@ _G.pg.item_data_statistics[41662] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41663] = {
+_G.pg.base.item_data_statistics[41663] = {
 	display = "女灶神贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22020,7 +22068,7 @@ _G.pg.item_data_statistics[41663] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41664] = {
+_G.pg.base.item_data_statistics[41664] = {
 	display = "女將贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22041,7 +22089,7 @@ _G.pg.item_data_statistics[41664] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41665] = {
+_G.pg.base.item_data_statistics[41665] = {
 	display = "阿卡司塔贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22062,7 +22110,7 @@ _G.pg.item_data_statistics[41665] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41666] = {
+_G.pg.base.item_data_statistics[41666] = {
 	display = "熱心贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22083,7 +22131,7 @@ _G.pg.item_data_statistics[41666] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41667] = {
+_G.pg.base.item_data_statistics[41667] = {
 	display = "小獵兔犬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22104,7 +22152,7 @@ _G.pg.item_data_statistics[41667] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41668] = {
+_G.pg.base.item_data_statistics[41668] = {
 	display = "大鬥犬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22125,7 +22173,7 @@ _G.pg.item_data_statistics[41668] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41669] = {
+_G.pg.base.item_data_statistics[41669] = {
 	display = "彗星贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22146,7 +22194,7 @@ _G.pg.item_data_statistics[41669] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41670] = {
+_G.pg.base.item_data_statistics[41670] = {
 	display = "{namecode:125}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22167,7 +22215,7 @@ _G.pg.item_data_statistics[41670] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41671] = {
+_G.pg.base.item_data_statistics[41671] = {
 	display = "小天鵝贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22188,7 +22236,7 @@ _G.pg.item_data_statistics[41671] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41672] = {
+_G.pg.base.item_data_statistics[41672] = {
 	display = "狐提贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22209,7 +22257,7 @@ _G.pg.item_data_statistics[41672] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41673] = {
+_G.pg.base.item_data_statistics[41673] = {
 	display = "命運女神贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22230,7 +22278,7 @@ _G.pg.item_data_statistics[41673] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41674] = {
+_G.pg.base.item_data_statistics[41674] = {
 	display = "格倫維爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22251,7 +22299,7 @@ _G.pg.item_data_statistics[41674] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41675] = {
+_G.pg.base.item_data_statistics[41675] = {
 	display = "螢火蟲贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22272,7 +22320,7 @@ _G.pg.item_data_statistics[41675] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41676] = {
+_G.pg.base.item_data_statistics[41676] = {
 	display = "標槍贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22293,7 +22341,7 @@ _G.pg.item_data_statistics[41676] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41677] = {
+_G.pg.base.item_data_statistics[41677] = {
 	display = "天后贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22314,7 +22362,7 @@ _G.pg.item_data_statistics[41677] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41678] = {
+_G.pg.base.item_data_statistics[41678] = {
 	display = "吸血鬼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22335,7 +22383,7 @@ _G.pg.item_data_statistics[41678] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41679] = {
+_G.pg.base.item_data_statistics[41679] = {
 	display = "利安得贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22356,7 +22404,7 @@ _G.pg.item_data_statistics[41679] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41680] = {
+_G.pg.base.item_data_statistics[41680] = {
 	display = "阿基里斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22377,7 +22425,7 @@ _G.pg.item_data_statistics[41680] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41681] = {
+_G.pg.base.item_data_statistics[41681] = {
 	display = "阿賈克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22398,7 +22446,7 @@ _G.pg.item_data_statistics[41681] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41682] = {
+_G.pg.base.item_data_statistics[41682] = {
 	display = "謝菲爾德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22419,7 +22467,7 @@ _G.pg.item_data_statistics[41682] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41683] = {
+_G.pg.base.item_data_statistics[41683] = {
 	display = "愛丁堡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22440,7 +22488,7 @@ _G.pg.item_data_statistics[41683] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41684] = {
+_G.pg.base.item_data_statistics[41684] = {
 	display = "貝爾法斯特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22461,7 +22509,7 @@ _G.pg.item_data_statistics[41684] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41685] = {
+_G.pg.base.item_data_statistics[41685] = {
 	display = "阿瑞托莎贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22482,7 +22530,7 @@ _G.pg.item_data_statistics[41685] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41686] = {
+_G.pg.base.item_data_statistics[41686] = {
 	display = "加拉蒂亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22503,7 +22551,7 @@ _G.pg.item_data_statistics[41686] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41687] = {
+_G.pg.base.item_data_statistics[41687] = {
 	display = "歐若拉贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22524,7 +22572,7 @@ _G.pg.item_data_statistics[41687] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41688] = {
+_G.pg.base.item_data_statistics[41688] = {
 	display = "倫敦贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22545,7 +22593,7 @@ _G.pg.item_data_statistics[41688] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41689] = {
+_G.pg.base.item_data_statistics[41689] = {
 	display = "什羅普郡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22566,7 +22614,7 @@ _G.pg.item_data_statistics[41689] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41690] = {
+_G.pg.base.item_data_statistics[41690] = {
 	display = "肯特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22587,7 +22635,7 @@ _G.pg.item_data_statistics[41690] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41691] = {
+_G.pg.base.item_data_statistics[41691] = {
 	display = "薩福克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22608,7 +22656,7 @@ _G.pg.item_data_statistics[41691] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41692] = {
+_G.pg.base.item_data_statistics[41692] = {
 	display = "諾福克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22629,7 +22677,7 @@ _G.pg.item_data_statistics[41692] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41693] = {
+_G.pg.base.item_data_statistics[41693] = {
 	display = "多塞特郡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22650,7 +22698,7 @@ _G.pg.item_data_statistics[41693] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41694] = {
+_G.pg.base.item_data_statistics[41694] = {
 	display = "約克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22671,7 +22719,7 @@ _G.pg.item_data_statistics[41694] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41695] = {
+_G.pg.base.item_data_statistics[41695] = {
 	display = "埃克塞特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22692,7 +22740,7 @@ _G.pg.item_data_statistics[41695] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41696] = {
+_G.pg.base.item_data_statistics[41696] = {
 	display = "蘇塞克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22713,7 +22761,7 @@ _G.pg.item_data_statistics[41696] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41697] = {
+_G.pg.base.item_data_statistics[41697] = {
 	display = "聲望贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22734,7 +22782,7 @@ _G.pg.item_data_statistics[41697] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41698] = {
+_G.pg.base.item_data_statistics[41698] = {
 	display = "反擊贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22755,7 +22803,7 @@ _G.pg.item_data_statistics[41698] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41699] = {
+_G.pg.base.item_data_statistics[41699] = {
 	display = "胡德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22776,7 +22824,7 @@ _G.pg.item_data_statistics[41699] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41700] = {
+_G.pg.base.item_data_statistics[41700] = {
 	display = "伊莉莎白女王贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22797,7 +22845,7 @@ _G.pg.item_data_statistics[41700] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41701] = {
+_G.pg.base.item_data_statistics[41701] = {
 	display = "厭戰贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22818,7 +22866,7 @@ _G.pg.item_data_statistics[41701] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41702] = {
+_G.pg.base.item_data_statistics[41702] = {
 	display = "納爾遜贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22839,7 +22887,7 @@ _G.pg.item_data_statistics[41702] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41703] = {
+_G.pg.base.item_data_statistics[41703] = {
 	display = "羅德尼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22860,7 +22908,7 @@ _G.pg.item_data_statistics[41703] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41704] = {
+_G.pg.base.item_data_statistics[41704] = {
 	display = "威爾斯親王贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22881,7 +22929,7 @@ _G.pg.item_data_statistics[41704] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41705] = {
+_G.pg.base.item_data_statistics[41705] = {
 	display = "約克公爵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22902,7 +22950,7 @@ _G.pg.item_data_statistics[41705] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41706] = {
+_G.pg.base.item_data_statistics[41706] = {
 	display = "競技神贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22923,7 +22971,7 @@ _G.pg.item_data_statistics[41706] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41707] = {
+_G.pg.base.item_data_statistics[41707] = {
 	display = "獨角獸贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22944,7 +22992,7 @@ _G.pg.item_data_statistics[41707] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41708] = {
+_G.pg.base.item_data_statistics[41708] = {
 	display = "皇家方舟贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22965,7 +23013,7 @@ _G.pg.item_data_statistics[41708] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41709] = {
+_G.pg.base.item_data_statistics[41709] = {
 	display = "光輝贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -22986,7 +23034,7 @@ _G.pg.item_data_statistics[41709] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41710] = {
+_G.pg.base.item_data_statistics[41710] = {
 	display = "勝利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23007,7 +23055,7 @@ _G.pg.item_data_statistics[41710] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41711] = {
+_G.pg.base.item_data_statistics[41711] = {
 	display = "光榮贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23028,7 +23076,7 @@ _G.pg.item_data_statistics[41711] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41712] = {
+_G.pg.base.item_data_statistics[41712] = {
 	display = "黑暗界贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23049,7 +23097,7 @@ _G.pg.item_data_statistics[41712] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41713] = {
+_G.pg.base.item_data_statistics[41713] = {
 	display = "恐怖贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23070,7 +23118,7 @@ _G.pg.item_data_statistics[41713] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41714] = {
+_G.pg.base.item_data_statistics[41714] = {
 	display = "阿貝克隆比贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23091,7 +23139,7 @@ _G.pg.item_data_statistics[41714] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41715] = {
+_G.pg.base.item_data_statistics[41715] = {
 	display = "{namecode:2}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23112,7 +23160,7 @@ _G.pg.item_data_statistics[41715] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41716] = {
+_G.pg.base.item_data_statistics[41716] = {
 	display = "{namecode:6}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23133,7 +23181,7 @@ _G.pg.item_data_statistics[41716] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41717] = {
+_G.pg.base.item_data_statistics[41717] = {
 	display = "{namecode:11}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23154,7 +23202,7 @@ _G.pg.item_data_statistics[41717] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41718] = {
+_G.pg.base.item_data_statistics[41718] = {
 	display = "{namecode:13}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23175,7 +23223,7 @@ _G.pg.item_data_statistics[41718] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41719] = {
+_G.pg.base.item_data_statistics[41719] = {
 	display = "{namecode:14}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23196,7 +23244,7 @@ _G.pg.item_data_statistics[41719] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41720] = {
+_G.pg.base.item_data_statistics[41720] = {
 	display = "{namecode:15}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23217,7 +23265,7 @@ _G.pg.item_data_statistics[41720] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41721] = {
+_G.pg.base.item_data_statistics[41721] = {
 	display = "{namecode:16}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23238,7 +23286,7 @@ _G.pg.item_data_statistics[41721] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41722] = {
+_G.pg.base.item_data_statistics[41722] = {
 	display = "{namecode:17}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23259,7 +23307,7 @@ _G.pg.item_data_statistics[41722] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41723] = {
+_G.pg.base.item_data_statistics[41723] = {
 	display = "{namecode:22}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23280,7 +23328,7 @@ _G.pg.item_data_statistics[41723] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41724] = {
+_G.pg.base.item_data_statistics[41724] = {
 	display = "{namecode:19}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23301,7 +23349,7 @@ _G.pg.item_data_statistics[41724] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41725] = {
+_G.pg.base.item_data_statistics[41725] = {
 	display = "{namecode:20}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23322,7 +23370,7 @@ _G.pg.item_data_statistics[41725] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41726] = {
+_G.pg.base.item_data_statistics[41726] = {
 	display = "{namecode:24}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23343,7 +23391,7 @@ _G.pg.item_data_statistics[41726] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41727] = {
+_G.pg.base.item_data_statistics[41727] = {
 	display = "{namecode:30}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23364,7 +23412,7 @@ _G.pg.item_data_statistics[41727] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41728] = {
+_G.pg.base.item_data_statistics[41728] = {
 	display = "{namecode:141}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23385,7 +23433,7 @@ _G.pg.item_data_statistics[41728] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41729] = {
+_G.pg.base.item_data_statistics[41729] = {
 	display = "{namecode:129}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23406,7 +23454,7 @@ _G.pg.item_data_statistics[41729] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41730] = {
+_G.pg.base.item_data_statistics[41730] = {
 	display = "{namecode:31}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23427,7 +23475,7 @@ _G.pg.item_data_statistics[41730] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41731] = {
+_G.pg.base.item_data_statistics[41731] = {
 	display = "{namecode:32}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23448,7 +23496,7 @@ _G.pg.item_data_statistics[41731] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41732] = {
+_G.pg.base.item_data_statistics[41732] = {
 	display = "{namecode:21}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23469,7 +23517,7 @@ _G.pg.item_data_statistics[41732] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41733] = {
+_G.pg.base.item_data_statistics[41733] = {
 	display = "{namecode:135}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23490,7 +23538,7 @@ _G.pg.item_data_statistics[41733] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41734] = {
+_G.pg.base.item_data_statistics[41734] = {
 	display = "{namecode:37}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23511,7 +23559,7 @@ _G.pg.item_data_statistics[41734] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41735] = {
+_G.pg.base.item_data_statistics[41735] = {
 	display = "{namecode:46}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23532,7 +23580,7 @@ _G.pg.item_data_statistics[41735] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41736] = {
+_G.pg.base.item_data_statistics[41736] = {
 	display = "{namecode:48}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23553,7 +23601,7 @@ _G.pg.item_data_statistics[41736] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41737] = {
+_G.pg.base.item_data_statistics[41737] = {
 	display = "{namecode:47}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23574,7 +23622,7 @@ _G.pg.item_data_statistics[41737] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41738] = {
+_G.pg.base.item_data_statistics[41738] = {
 	display = "{namecode:57}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23595,7 +23643,7 @@ _G.pg.item_data_statistics[41738] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41739] = {
+_G.pg.base.item_data_statistics[41739] = {
 	display = "{namecode:58}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23616,7 +23664,7 @@ _G.pg.item_data_statistics[41739] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41740] = {
+_G.pg.base.item_data_statistics[41740] = {
 	display = "{namecode:53}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23637,7 +23685,7 @@ _G.pg.item_data_statistics[41740] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41741] = {
+_G.pg.base.item_data_statistics[41741] = {
 	display = "{namecode:54}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23658,7 +23706,7 @@ _G.pg.item_data_statistics[41741] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41742] = {
+_G.pg.base.item_data_statistics[41742] = {
 	display = "{namecode:55}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23679,7 +23727,7 @@ _G.pg.item_data_statistics[41742] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41743] = {
+_G.pg.base.item_data_statistics[41743] = {
 	display = "{namecode:56}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23700,7 +23748,7 @@ _G.pg.item_data_statistics[41743] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41744] = {
+_G.pg.base.item_data_statistics[41744] = {
 	display = "{namecode:63}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23721,7 +23769,7 @@ _G.pg.item_data_statistics[41744] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41745] = {
+_G.pg.base.item_data_statistics[41745] = {
 	display = "{namecode:64}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23742,7 +23790,7 @@ _G.pg.item_data_statistics[41745] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41746] = {
+_G.pg.base.item_data_statistics[41746] = {
 	display = "{namecode:144}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23763,7 +23811,7 @@ _G.pg.item_data_statistics[41746] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41747] = {
+_G.pg.base.item_data_statistics[41747] = {
 	display = "{namecode:66}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23784,7 +23832,7 @@ _G.pg.item_data_statistics[41747] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41748] = {
+_G.pg.base.item_data_statistics[41748] = {
 	display = "{namecode:67}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23805,7 +23853,7 @@ _G.pg.item_data_statistics[41748] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41749] = {
+_G.pg.base.item_data_statistics[41749] = {
 	display = "{namecode:68}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23826,7 +23874,7 @@ _G.pg.item_data_statistics[41749] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41750] = {
+_G.pg.base.item_data_statistics[41750] = {
 	display = "{namecode:69}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23847,7 +23895,7 @@ _G.pg.item_data_statistics[41750] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41751] = {
+_G.pg.base.item_data_statistics[41751] = {
 	display = "{namecode:70}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23868,7 +23916,7 @@ _G.pg.item_data_statistics[41751] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41752] = {
+_G.pg.base.item_data_statistics[41752] = {
 	display = "{namecode:71}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23889,7 +23937,7 @@ _G.pg.item_data_statistics[41752] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41753] = {
+_G.pg.base.item_data_statistics[41753] = {
 	display = "{namecode:72}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23910,7 +23958,7 @@ _G.pg.item_data_statistics[41753] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41754] = {
+_G.pg.base.item_data_statistics[41754] = {
 	display = "{namecode:73}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23931,7 +23979,7 @@ _G.pg.item_data_statistics[41754] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41755] = {
+_G.pg.base.item_data_statistics[41755] = {
 	display = "{namecode:161}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23952,7 +24000,7 @@ _G.pg.item_data_statistics[41755] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41756] = {
+_G.pg.base.item_data_statistics[41756] = {
 	display = "{namecode:78}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23973,7 +24021,7 @@ _G.pg.item_data_statistics[41756] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41757] = {
+_G.pg.base.item_data_statistics[41757] = {
 	display = "{namecode:79}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -23994,7 +24042,7 @@ _G.pg.item_data_statistics[41757] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41758] = {
+_G.pg.base.item_data_statistics[41758] = {
 	display = "{namecode:76}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24015,7 +24063,7 @@ _G.pg.item_data_statistics[41758] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41759] = {
+_G.pg.base.item_data_statistics[41759] = {
 	display = "{namecode:77}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24036,7 +24084,7 @@ _G.pg.item_data_statistics[41759] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41760] = {
+_G.pg.base.item_data_statistics[41760] = {
 	display = "{namecode:74}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24057,7 +24105,7 @@ _G.pg.item_data_statistics[41760] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41761] = {
+_G.pg.base.item_data_statistics[41761] = {
 	display = "{namecode:75}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24078,7 +24126,7 @@ _G.pg.item_data_statistics[41761] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41762] = {
+_G.pg.base.item_data_statistics[41762] = {
 	display = "{namecode:92}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24099,7 +24147,7 @@ _G.pg.item_data_statistics[41762] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41763] = {
+_G.pg.base.item_data_statistics[41763] = {
 	display = "{namecode:85}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24120,7 +24168,7 @@ _G.pg.item_data_statistics[41763] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41764] = {
+_G.pg.base.item_data_statistics[41764] = {
 	display = "{namecode:86}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24141,7 +24189,7 @@ _G.pg.item_data_statistics[41764] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41765] = {
+_G.pg.base.item_data_statistics[41765] = {
 	display = "{namecode:89}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24162,7 +24210,7 @@ _G.pg.item_data_statistics[41765] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41766] = {
+_G.pg.base.item_data_statistics[41766] = {
 	display = "{namecode:87}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24183,7 +24231,7 @@ _G.pg.item_data_statistics[41766] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41767] = {
+_G.pg.base.item_data_statistics[41767] = {
 	display = "{namecode:90}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24204,7 +24252,7 @@ _G.pg.item_data_statistics[41767] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41768] = {
+_G.pg.base.item_data_statistics[41768] = {
 	display = "{namecode:91}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24225,7 +24273,7 @@ _G.pg.item_data_statistics[41768] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41769] = {
+_G.pg.base.item_data_statistics[41769] = {
 	display = "{namecode:92}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24246,7 +24294,7 @@ _G.pg.item_data_statistics[41769] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41770] = {
+_G.pg.base.item_data_statistics[41770] = {
 	display = "{namecode:93}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24267,7 +24315,7 @@ _G.pg.item_data_statistics[41770] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41771] = {
+_G.pg.base.item_data_statistics[41771] = {
 	display = "{namecode:94}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24288,7 +24336,7 @@ _G.pg.item_data_statistics[41771] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41772] = {
+_G.pg.base.item_data_statistics[41772] = {
 	display = "{namecode:95}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24309,7 +24357,7 @@ _G.pg.item_data_statistics[41772] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41773] = {
+_G.pg.base.item_data_statistics[41773] = {
 	display = "{namecode:96}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24330,7 +24378,7 @@ _G.pg.item_data_statistics[41773] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41774] = {
+_G.pg.base.item_data_statistics[41774] = {
 	display = "{namecode:97}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24351,7 +24399,7 @@ _G.pg.item_data_statistics[41774] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41775] = {
+_G.pg.base.item_data_statistics[41775] = {
 	display = "{namecode:98}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24372,7 +24420,7 @@ _G.pg.item_data_statistics[41775] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41776] = {
+_G.pg.base.item_data_statistics[41776] = {
 	display = "Z1贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24393,7 +24441,7 @@ _G.pg.item_data_statistics[41776] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41777] = {
+_G.pg.base.item_data_statistics[41777] = {
 	display = "Z23贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24414,7 +24462,7 @@ _G.pg.item_data_statistics[41777] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41778] = {
+_G.pg.base.item_data_statistics[41778] = {
 	display = "Z25贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24435,7 +24483,7 @@ _G.pg.item_data_statistics[41778] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41779] = {
+_G.pg.base.item_data_statistics[41779] = {
 	display = "柯尼斯堡贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24456,7 +24504,7 @@ _G.pg.item_data_statistics[41779] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41780] = {
+_G.pg.base.item_data_statistics[41780] = {
 	display = "卡爾斯魯厄贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24477,7 +24525,7 @@ _G.pg.item_data_statistics[41780] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41781] = {
+_G.pg.base.item_data_statistics[41781] = {
 	display = "科隆贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24498,7 +24546,7 @@ _G.pg.item_data_statistics[41781] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41782] = {
+_G.pg.base.item_data_statistics[41782] = {
 	display = "萊比錫贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24519,7 +24567,7 @@ _G.pg.item_data_statistics[41782] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41783] = {
+_G.pg.base.item_data_statistics[41783] = {
 	display = "希佩爾將軍贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24540,7 +24588,7 @@ _G.pg.item_data_statistics[41783] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41784] = {
+_G.pg.base.item_data_statistics[41784] = {
 	display = "歐根親王贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24561,7 +24609,7 @@ _G.pg.item_data_statistics[41784] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41785] = {
+_G.pg.base.item_data_statistics[41785] = {
 	display = "德意志贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24582,7 +24630,7 @@ _G.pg.item_data_statistics[41785] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41786] = {
+_G.pg.base.item_data_statistics[41786] = {
 	display = "施佩伯爵將軍贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24603,7 +24651,7 @@ _G.pg.item_data_statistics[41786] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41787] = {
+_G.pg.base.item_data_statistics[41787] = {
 	display = "沙恩霍斯特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24624,7 +24672,7 @@ _G.pg.item_data_statistics[41787] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41788] = {
+_G.pg.base.item_data_statistics[41788] = {
 	display = "格奈森瑙贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24645,7 +24693,7 @@ _G.pg.item_data_statistics[41788] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41789] = {
+_G.pg.base.item_data_statistics[41789] = {
 	display = "鐵必制贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24666,7 +24714,7 @@ _G.pg.item_data_statistics[41789] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41790] = {
+_G.pg.base.item_data_statistics[41790] = {
 	display = "齊柏林伯爵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24687,7 +24735,7 @@ _G.pg.item_data_statistics[41790] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41791] = {
+_G.pg.base.item_data_statistics[41791] = {
 	display = "鞍山贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24708,7 +24756,7 @@ _G.pg.item_data_statistics[41791] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41792] = {
+_G.pg.base.item_data_statistics[41792] = {
 	display = "撫順贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24729,7 +24777,7 @@ _G.pg.item_data_statistics[41792] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41793] = {
+_G.pg.base.item_data_statistics[41793] = {
 	display = "長春贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24750,7 +24798,7 @@ _G.pg.item_data_statistics[41793] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41794] = {
+_G.pg.base.item_data_statistics[41794] = {
 	display = "太原贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24771,7 +24819,7 @@ _G.pg.item_data_statistics[41794] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41795] = {
+_G.pg.base.item_data_statistics[41795] = {
 	display = "逸仙贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24792,7 +24840,7 @@ _G.pg.item_data_statistics[41795] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41796] = {
+_G.pg.base.item_data_statistics[41796] = {
 	display = "寧海贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24813,7 +24861,7 @@ _G.pg.item_data_statistics[41796] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41797] = {
+_G.pg.base.item_data_statistics[41797] = {
 	display = "平海贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24834,7 +24882,7 @@ _G.pg.item_data_statistics[41797] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41798] = {
+_G.pg.base.item_data_statistics[41798] = {
 	display = "曙光贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24855,7 +24903,7 @@ _G.pg.item_data_statistics[41798] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41799] = {
+_G.pg.base.item_data_statistics[41799] = {
 	display = "貝利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24876,7 +24924,7 @@ _G.pg.item_data_statistics[41799] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41800] = {
+_G.pg.base.item_data_statistics[41800] = {
 	display = "Z19贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24897,7 +24945,7 @@ _G.pg.item_data_statistics[41800] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41801] = {
+_G.pg.base.item_data_statistics[41801] = {
 	display = "Z20贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24918,7 +24966,7 @@ _G.pg.item_data_statistics[41801] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41802] = {
+_G.pg.base.item_data_statistics[41802] = {
 	display = "Z21贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24939,7 +24987,7 @@ _G.pg.item_data_statistics[41802] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41803] = {
+_G.pg.base.item_data_statistics[41803] = {
 	display = "Z46贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24960,7 +25008,7 @@ _G.pg.item_data_statistics[41803] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41804] = {
+_G.pg.base.item_data_statistics[41804] = {
 	display = "{namecode:124}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -24981,7 +25029,7 @@ _G.pg.item_data_statistics[41804] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41805] = {
+_G.pg.base.item_data_statistics[41805] = {
 	display = "{namecode:134}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25002,7 +25050,7 @@ _G.pg.item_data_statistics[41805] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41806] = {
+_G.pg.base.item_data_statistics[41806] = {
 	display = "{namecode:33}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25023,7 +25071,7 @@ _G.pg.item_data_statistics[41806] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41807] = {
+_G.pg.base.item_data_statistics[41807] = {
 	display = "{namecode:34}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25044,7 +25092,7 @@ _G.pg.item_data_statistics[41807] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41808] = {
+_G.pg.base.item_data_statistics[41808] = {
 	display = "{namecode:137}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25065,7 +25113,7 @@ _G.pg.item_data_statistics[41808] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41809] = {
+_G.pg.base.item_data_statistics[41809] = {
 	display = "{namecode:133}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25086,7 +25134,7 @@ _G.pg.item_data_statistics[41809] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41810] = {
+_G.pg.base.item_data_statistics[41810] = {
 	display = "{namecode:159}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25107,7 +25155,7 @@ _G.pg.item_data_statistics[41810] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41811] = {
+_G.pg.base.item_data_statistics[41811] = {
 	display = "{namecode:160}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25128,7 +25176,7 @@ _G.pg.item_data_statistics[41811] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41812] = {
+_G.pg.base.item_data_statistics[41812] = {
 	display = "{namecode:126}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25149,7 +25197,7 @@ _G.pg.item_data_statistics[41812] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41813] = {
+_G.pg.base.item_data_statistics[41813] = {
 	display = "{namecode:158}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25170,7 +25218,7 @@ _G.pg.item_data_statistics[41813] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41814] = {
+_G.pg.base.item_data_statistics[41814] = {
 	display = "{namecode:125}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25191,7 +25239,7 @@ _G.pg.item_data_statistics[41814] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41815] = {
+_G.pg.base.item_data_statistics[41815] = {
 	display = "{namecode:157}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25212,7 +25260,7 @@ _G.pg.item_data_statistics[41815] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41816] = {
+_G.pg.base.item_data_statistics[41816] = {
 	display = "{namecode:28}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25233,7 +25281,7 @@ _G.pg.item_data_statistics[41816] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41817] = {
+_G.pg.base.item_data_statistics[41817] = {
 	display = "拉德福特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25254,7 +25302,7 @@ _G.pg.item_data_statistics[41817] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41818] = {
+_G.pg.base.item_data_statistics[41818] = {
 	display = "傑金斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25275,7 +25323,7 @@ _G.pg.item_data_statistics[41818] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41819] = {
+_G.pg.base.item_data_statistics[41819] = {
 	display = "尼古拉斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25296,7 +25344,7 @@ _G.pg.item_data_statistics[41819] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41820] = {
+_G.pg.base.item_data_statistics[41820] = {
 	display = "里奇蒙贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25317,7 +25365,7 @@ _G.pg.item_data_statistics[41820] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41821] = {
+_G.pg.base.item_data_statistics[41821] = {
 	display = "火奴魯魯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25338,7 +25386,7 @@ _G.pg.item_data_statistics[41821] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41822] = {
+_G.pg.base.item_data_statistics[41822] = {
 	display = "聖路易斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25359,7 +25407,7 @@ _G.pg.item_data_statistics[41822] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41823] = {
+_G.pg.base.item_data_statistics[41823] = {
 	display = "丘比特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25380,7 +25428,7 @@ _G.pg.item_data_statistics[41823] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41824] = {
+_G.pg.base.item_data_statistics[41824] = {
 	display = "澤西贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25401,7 +25449,7 @@ _G.pg.item_data_statistics[41824] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41825] = {
+_G.pg.base.item_data_statistics[41825] = {
 	display = "{namecode:38}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25422,7 +25470,7 @@ _G.pg.item_data_statistics[41825] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41826] = {
+_G.pg.base.item_data_statistics[41826] = {
 	display = "{namecode:39}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25443,7 +25491,7 @@ _G.pg.item_data_statistics[41826] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41827] = {
+_G.pg.base.item_data_statistics[41827] = {
 	display = "{namecode:40}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25464,7 +25512,7 @@ _G.pg.item_data_statistics[41827] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41828] = {
+_G.pg.base.item_data_statistics[41828] = {
 	display = "{namecode:142}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25485,7 +25533,7 @@ _G.pg.item_data_statistics[41828] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41829] = {
+_G.pg.base.item_data_statistics[41829] = {
 	display = "{namecode:143}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25506,7 +25554,7 @@ _G.pg.item_data_statistics[41829] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41830] = {
+_G.pg.base.item_data_statistics[41830] = {
 	display = "{namecode:128}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25527,7 +25575,7 @@ _G.pg.item_data_statistics[41830] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41831] = {
+_G.pg.base.item_data_statistics[41831] = {
 	display = "{namecode:127}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25548,7 +25596,7 @@ _G.pg.item_data_statistics[41831] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41832] = {
+_G.pg.base.item_data_statistics[41832] = {
 	display = "{namecode:82}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25569,7 +25617,7 @@ _G.pg.item_data_statistics[41832] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41833] = {
+_G.pg.base.item_data_statistics[41833] = {
 	display = "{namecode:49}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25590,7 +25638,7 @@ _G.pg.item_data_statistics[41833] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41834] = {
+_G.pg.base.item_data_statistics[41834] = {
 	display = "無敵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25611,7 +25659,7 @@ _G.pg.item_data_statistics[41834] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41835] = {
+_G.pg.base.item_data_statistics[41835] = {
 	display = "火槍手贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25632,7 +25680,7 @@ _G.pg.item_data_statistics[41835] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41836] = {
+_G.pg.base.item_data_statistics[41836] = {
 	display = "斐濟贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25653,7 +25701,7 @@ _G.pg.item_data_statistics[41836] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41837] = {
+_G.pg.base.item_data_statistics[41837] = {
 	display = "牙買加贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25674,7 +25722,7 @@ _G.pg.item_data_statistics[41837] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41838] = {
+_G.pg.base.item_data_statistics[41838] = {
 	display = "蒙彼利埃贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25695,7 +25743,7 @@ _G.pg.item_data_statistics[41838] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41839] = {
+_G.pg.base.item_data_statistics[41839] = {
 	display = "丹佛贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25716,7 +25764,7 @@ _G.pg.item_data_statistics[41839] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41840] = {
+_G.pg.base.item_data_statistics[41840] = {
 	display = "{namecode:145}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25737,7 +25785,7 @@ _G.pg.item_data_statistics[41840] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41841] = {
+_G.pg.base.item_data_statistics[41841] = {
 	display = "{namecode:146}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25758,7 +25806,7 @@ _G.pg.item_data_statistics[41841] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41842] = {
+_G.pg.base.item_data_statistics[41842] = {
 	display = "{namecode:147}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25779,7 +25827,7 @@ _G.pg.item_data_statistics[41842] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41843] = {
+_G.pg.base.item_data_statistics[41843] = {
 	display = "{namecode:148}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25800,7 +25848,7 @@ _G.pg.item_data_statistics[41843] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41844] = {
+_G.pg.base.item_data_statistics[41844] = {
 	display = "小貝法贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25821,7 +25869,7 @@ _G.pg.item_data_statistics[41844] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41845] = {
+_G.pg.base.item_data_statistics[41845] = {
 	display = "{namecode:154}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25842,7 +25890,7 @@ _G.pg.item_data_statistics[41845] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41846] = {
+_G.pg.base.item_data_statistics[41846] = {
 	display = "{namecode:155}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25863,7 +25911,7 @@ _G.pg.item_data_statistics[41846] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41847] = {
+_G.pg.base.item_data_statistics[41847] = {
 	display = "{namecode:156}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25884,7 +25932,7 @@ _G.pg.item_data_statistics[41847] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41848] = {
+_G.pg.base.item_data_statistics[41848] = {
 	display = "U-81贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25905,7 +25953,7 @@ _G.pg.item_data_statistics[41848] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41849] = {
+_G.pg.base.item_data_statistics[41849] = {
 	display = "鰷魚贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25926,7 +25974,7 @@ _G.pg.item_data_statistics[41849] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41850] = {
+_G.pg.base.item_data_statistics[41850] = {
 	display = "U-47贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25947,7 +25995,7 @@ _G.pg.item_data_statistics[41850] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41851] = {
+_G.pg.base.item_data_statistics[41851] = {
 	display = "U-557贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25968,7 +26016,7 @@ _G.pg.item_data_statistics[41851] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41852] = {
+_G.pg.base.item_data_statistics[41852] = {
 	display = "Z35贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -25989,7 +26037,7 @@ _G.pg.item_data_statistics[41852] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41853] = {
+_G.pg.base.item_data_statistics[41853] = {
 	display = "Z18贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26010,7 +26058,7 @@ _G.pg.item_data_statistics[41853] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41854] = {
+_G.pg.base.item_data_statistics[41854] = {
 	display = "凱旋贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26031,7 +26079,7 @@ _G.pg.item_data_statistics[41854] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41855] = {
+_G.pg.base.item_data_statistics[41855] = {
 	display = "福爾班贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26052,7 +26100,7 @@ _G.pg.item_data_statistics[41855] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41856] = {
+_G.pg.base.item_data_statistics[41856] = {
 	display = "埃米爾•貝爾坦贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26073,7 +26121,7 @@ _G.pg.item_data_statistics[41856] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41857] = {
+_G.pg.base.item_data_statistics[41857] = {
 	display = "速科夫贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26094,7 +26142,7 @@ _G.pg.item_data_statistics[41857] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41858] = {
+_G.pg.base.item_data_statistics[41858] = {
 	display = "勒馬爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26115,7 +26163,7 @@ _G.pg.item_data_statistics[41858] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41859] = {
+_G.pg.base.item_data_statistics[41859] = {
 	display = "敦克爾克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26136,7 +26184,7 @@ _G.pg.item_data_statistics[41859] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41860] = {
+_G.pg.base.item_data_statistics[41860] = {
 	display = "讓·巴爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26157,7 +26205,7 @@ _G.pg.item_data_statistics[41860] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41861] = {
+_G.pg.base.item_data_statistics[41861] = {
 	display = "麻薩諸塞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26178,7 +26226,7 @@ _G.pg.item_data_statistics[41861] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41862] = {
+_G.pg.base.item_data_statistics[41862] = {
 	display = "布希贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26199,7 +26247,7 @@ _G.pg.item_data_statistics[41862] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41863] = {
+_G.pg.base.item_data_statistics[41863] = {
 	display = "半人馬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26220,7 +26268,7 @@ _G.pg.item_data_statistics[41863] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41864] = {
+_G.pg.base.item_data_statistics[41864] = {
 	display = "艾塞克斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26241,7 +26289,7 @@ _G.pg.item_data_statistics[41864] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41865] = {
+_G.pg.base.item_data_statistics[41865] = {
 	display = "大青花魚贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26262,7 +26310,7 @@ _G.pg.item_data_statistics[41865] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41866] = {
+_G.pg.base.item_data_statistics[41866] = {
 	display = "魯莽贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26283,7 +26331,7 @@ _G.pg.item_data_statistics[41866] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41867] = {
+_G.pg.base.item_data_statistics[41867] = {
 	display = "曼非斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26304,7 +26352,7 @@ _G.pg.item_data_statistics[41867] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41868] = {
+_G.pg.base.item_data_statistics[41868] = {
 	display = "紐卡斯爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26325,7 +26373,7 @@ _G.pg.item_data_statistics[41868] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41869] = {
+_G.pg.base.item_data_statistics[41869] = {
 	display = "霍比贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26346,7 +26394,7 @@ _G.pg.item_data_statistics[41869] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41870] = {
+_G.pg.base.item_data_statistics[41870] = {
 	display = "科爾克贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26367,7 +26415,7 @@ _G.pg.item_data_statistics[41870] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41871] = {
+_G.pg.base.item_data_statistics[41871] = {
 	display = "明尼亞波利斯贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26388,7 +26436,7 @@ _G.pg.item_data_statistics[41871] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41872] = {
+_G.pg.base.item_data_statistics[41872] = {
 	display = "黑澤伍德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26409,7 +26457,7 @@ _G.pg.item_data_statistics[41872] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41873] = {
+_G.pg.base.item_data_statistics[41873] = {
 	display = "康克德贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26430,7 +26478,7 @@ _G.pg.item_data_statistics[41873] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41874] = {
+_G.pg.base.item_data_statistics[41874] = {
 	display = "{namecode:140}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26451,7 +26499,7 @@ _G.pg.item_data_statistics[41874] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41875] = {
+_G.pg.base.item_data_statistics[41875] = {
 	display = "{namecode:162}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26472,7 +26520,7 @@ _G.pg.item_data_statistics[41875] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41876] = {
+_G.pg.base.item_data_statistics[41876] = {
 	display = "天狼星贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26493,7 +26541,7 @@ _G.pg.item_data_statistics[41876] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41877] = {
+_G.pg.base.item_data_statistics[41877] = {
 	display = "庫拉索贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26514,7 +26562,7 @@ _G.pg.item_data_statistics[41877] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41878] = {
+_G.pg.base.item_data_statistics[41878] = {
 	display = "杓鷸贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26535,7 +26583,7 @@ _G.pg.item_data_statistics[41878] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41879] = {
+_G.pg.base.item_data_statistics[41879] = {
 	display = "金伯利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26556,7 +26604,7 @@ _G.pg.item_data_statistics[41879] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41880] = {
+_G.pg.base.item_data_statistics[41880] = {
 	display = "馬拉尼贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26577,7 +26625,7 @@ _G.pg.item_data_statistics[41880] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41881] = {
+_G.pg.base.item_data_statistics[41881] = {
 	display = "追趕者贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26598,7 +26646,7 @@ _G.pg.item_data_statistics[41881] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41882] = {
+_G.pg.base.item_data_statistics[41882] = {
 	display = "海王星贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26619,7 +26667,7 @@ _G.pg.item_data_statistics[41882] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41883] = {
+_G.pg.base.item_data_statistics[41883] = {
 	display = "君主贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26640,7 +26688,7 @@ _G.pg.item_data_statistics[41883] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41884] = {
+_G.pg.base.item_data_statistics[41884] = {
 	display = "{namecode:152}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26661,7 +26709,7 @@ _G.pg.item_data_statistics[41884] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41885] = {
+_G.pg.base.item_data_statistics[41885] = {
 	display = "{namecode:151}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26682,7 +26730,7 @@ _G.pg.item_data_statistics[41885] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41886] = {
+_G.pg.base.item_data_statistics[41886] = {
 	display = "羅恩贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26703,7 +26751,7 @@ _G.pg.item_data_statistics[41886] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41887] = {
+_G.pg.base.item_data_statistics[41887] = {
 	display = "路易九世贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26724,7 +26772,7 @@ _G.pg.item_data_statistics[41887] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41888] = {
+_G.pg.base.item_data_statistics[41888] = {
 	display = "杜威贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26745,7 +26793,7 @@ _G.pg.item_data_statistics[41888] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41889] = {
+_G.pg.base.item_data_statistics[41889] = {
 	display = "艾爾文贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26766,7 +26814,7 @@ _G.pg.item_data_statistics[41889] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41890] = {
+_G.pg.base.item_data_statistics[41890] = {
 	display = "贝奇贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26787,7 +26835,7 @@ _G.pg.item_data_statistics[41890] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41891] = {
+_G.pg.base.item_data_statistics[41891] = {
 	display = "斯坦利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26808,7 +26856,7 @@ _G.pg.item_data_statistics[41891] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41892] = {
+_G.pg.base.item_data_statistics[41892] = {
 	display = "斯莫利贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26829,7 +26877,7 @@ _G.pg.item_data_statistics[41892] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41893] = {
+_G.pg.base.item_data_statistics[41893] = {
 	display = "海爾賽·鮑威爾贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26850,7 +26898,7 @@ _G.pg.item_data_statistics[41893] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41894] = {
+_G.pg.base.item_data_statistics[41894] = {
 	display = "小海伦娜贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26871,7 +26919,7 @@ _G.pg.item_data_statistics[41894] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41895] = {
+_G.pg.base.item_data_statistics[41895] = {
 	display = "聖胡安贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26892,7 +26940,7 @@ _G.pg.item_data_statistics[41895] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41896] = {
+_G.pg.base.item_data_statistics[41896] = {
 	display = "小圣地亚哥贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26913,7 +26961,7 @@ _G.pg.item_data_statistics[41896] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41897] = {
+_G.pg.base.item_data_statistics[41897] = {
 	display = "伯明罕贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26934,7 +26982,7 @@ _G.pg.item_data_statistics[41897] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41898] = {
+_G.pg.base.item_data_statistics[41898] = {
 	display = "比洛克西贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26955,7 +27003,7 @@ _G.pg.item_data_statistics[41898] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41899] = {
+_G.pg.base.item_data_statistics[41899] = {
 	display = "小克利夫兰贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26976,7 +27024,7 @@ _G.pg.item_data_statistics[41899] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41900] = {
+_G.pg.base.item_data_statistics[41900] = {
 	display = "克利夫兰(μ兵装)贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -26997,7 +27045,7 @@ _G.pg.item_data_statistics[41900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41901] = {
+_G.pg.base.item_data_statistics[41901] = {
 	display = "巴爾的摩贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27018,7 +27066,7 @@ _G.pg.item_data_statistics[41901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41902] = {
+_G.pg.base.item_data_statistics[41902] = {
 	display = "阿拉巴馬贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27039,7 +27087,7 @@ _G.pg.item_data_statistics[41902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41903] = {
+_G.pg.base.item_data_statistics[41903] = {
 	display = "碉堡山贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27060,7 +27108,7 @@ _G.pg.item_data_statistics[41903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41904] = {
+_G.pg.base.item_data_statistics[41904] = {
 	display = "獨立贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27081,7 +27129,7 @@ _G.pg.item_data_statistics[41904] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41905] = {
+_G.pg.base.item_data_statistics[41905] = {
 	display = "巴丹贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27102,7 +27150,7 @@ _G.pg.item_data_statistics[41905] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41906] = {
+_G.pg.base.item_data_statistics[41906] = {
 	display = "香格里拉贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27123,7 +27171,7 @@ _G.pg.item_data_statistics[41906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41907] = {
+_G.pg.base.item_data_statistics[41907] = {
 	display = "棘鳍贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27144,7 +27192,7 @@ _G.pg.item_data_statistics[41907] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41908] = {
+_G.pg.base.item_data_statistics[41908] = {
 	display = "回聲贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27165,7 +27213,7 @@ _G.pg.item_data_statistics[41908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41909] = {
+_G.pg.base.item_data_statistics[41909] = {
 	display = "勇敢贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27186,7 +27234,7 @@ _G.pg.item_data_statistics[41909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41910] = {
+_G.pg.base.item_data_statistics[41910] = {
 	display = "獵人贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27207,7 +27255,7 @@ _G.pg.item_data_statistics[41910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41911] = {
+_G.pg.base.item_data_statistics[41911] = {
 	display = "南安普顿贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27228,7 +27276,7 @@ _G.pg.item_data_statistics[41911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41912] = {
+_G.pg.base.item_data_statistics[41912] = {
 	display = "格拉斯哥贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27249,7 +27297,7 @@ _G.pg.item_data_statistics[41912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41913] = {
+_G.pg.base.item_data_statistics[41913] = {
 	display = "格洛斯特贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27270,7 +27318,7 @@ _G.pg.item_data_statistics[41913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41914] = {
+_G.pg.base.item_data_statistics[41914] = {
 	display = "谢菲尔德(μ兵装)贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27291,7 +27339,7 @@ _G.pg.item_data_statistics[41914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41915] = {
+_G.pg.base.item_data_statistics[41915] = {
 	display = "黛朵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27312,7 +27360,7 @@ _G.pg.item_data_statistics[41915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41916] = {
+_G.pg.base.item_data_statistics[41916] = {
 	display = "黑太子贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27333,7 +27381,7 @@ _G.pg.item_data_statistics[41916] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41917] = {
+_G.pg.base.item_data_statistics[41917] = {
 	display = "确捷贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27354,7 +27402,7 @@ _G.pg.item_data_statistics[41917] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41918] = {
+_G.pg.base.item_data_statistics[41918] = {
 	display = "英王喬治五世贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27375,7 +27423,7 @@ _G.pg.item_data_statistics[41918] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41919] = {
+_G.pg.base.item_data_statistics[41919] = {
 	display = "可畏贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27396,7 +27444,7 @@ _G.pg.item_data_statistics[41919] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41921] = {
+_G.pg.base.item_data_statistics[41921] = {
 	display = "{namecode:184}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27417,7 +27465,7 @@ _G.pg.item_data_statistics[41921] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41922] = {
+_G.pg.base.item_data_statistics[41922] = {
 	display = "{namecode:12}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27438,7 +27486,7 @@ _G.pg.item_data_statistics[41922] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41923] = {
+_G.pg.base.item_data_statistics[41923] = {
 	display = "{namecode:180}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27459,7 +27507,7 @@ _G.pg.item_data_statistics[41923] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41924] = {
+_G.pg.base.item_data_statistics[41924] = {
 	display = "{namecode:174}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27480,7 +27528,7 @@ _G.pg.item_data_statistics[41924] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41925] = {
+_G.pg.base.item_data_statistics[41925] = {
 	display = "{namecode:181}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27501,7 +27549,7 @@ _G.pg.item_data_statistics[41925] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41926] = {
+_G.pg.base.item_data_statistics[41926] = {
 	display = "{namecode:59}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27522,7 +27570,7 @@ _G.pg.item_data_statistics[41926] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41927] = {
+_G.pg.base.item_data_statistics[41927] = {
 	display = "{namecode:50}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27543,7 +27591,7 @@ _G.pg.item_data_statistics[41927] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41928] = {
+_G.pg.base.item_data_statistics[41928] = {
 	display = "{namecode:169}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27564,7 +27612,7 @@ _G.pg.item_data_statistics[41928] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41929] = {
+_G.pg.base.item_data_statistics[41929] = {
 	display = "{namecode:175}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27585,7 +27633,7 @@ _G.pg.item_data_statistics[41929] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41930] = {
+_G.pg.base.item_data_statistics[41930] = {
 	display = "{namecode:179}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27606,7 +27654,7 @@ _G.pg.item_data_statistics[41930] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41931] = {
+_G.pg.base.item_data_statistics[41931] = {
 	display = "{namecode:170}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27627,7 +27675,7 @@ _G.pg.item_data_statistics[41931] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41932] = {
+_G.pg.base.item_data_statistics[41932] = {
 	display = "{namecode:176}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27648,7 +27696,7 @@ _G.pg.item_data_statistics[41932] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41933] = {
+_G.pg.base.item_data_statistics[41933] = {
 	display = "伊25贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27669,7 +27717,7 @@ _G.pg.item_data_statistics[41933] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41934] = {
+_G.pg.base.item_data_statistics[41934] = {
 	display = "伊56贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27690,7 +27738,7 @@ _G.pg.item_data_statistics[41934] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41935] = {
+_G.pg.base.item_data_statistics[41935] = {
 	display = "伊168贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27711,7 +27759,7 @@ _G.pg.item_data_statistics[41935] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41936] = {
+_G.pg.base.item_data_statistics[41936] = {
 	display = "{namecode:163}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27732,7 +27780,7 @@ _G.pg.item_data_statistics[41936] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41937] = {
+_G.pg.base.item_data_statistics[41937] = {
 	display = "Z2贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27753,7 +27801,7 @@ _G.pg.item_data_statistics[41937] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41938] = {
+_G.pg.base.item_data_statistics[41938] = {
 	display = "Z36贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27774,7 +27822,7 @@ _G.pg.item_data_statistics[41938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41939] = {
+_G.pg.base.item_data_statistics[41939] = {
 	display = "希佩尔海军上将(μ兵装)贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27795,7 +27843,7 @@ _G.pg.item_data_statistics[41939] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41940] = {
+_G.pg.base.item_data_statistics[41940] = {
 	display = "俾斯麥贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27816,7 +27864,7 @@ _G.pg.item_data_statistics[41940] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41941] = {
+_G.pg.base.item_data_statistics[41941] = {
 	display = "小齊柏林贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27837,7 +27885,7 @@ _G.pg.item_data_statistics[41941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41942] = {
+_G.pg.base.item_data_statistics[41942] = {
 	display = "U-73贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27858,7 +27906,7 @@ _G.pg.item_data_statistics[41942] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41943] = {
+_G.pg.base.item_data_statistics[41943] = {
 	display = "U-101贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27879,7 +27927,7 @@ _G.pg.item_data_statistics[41943] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41944] = {
+_G.pg.base.item_data_statistics[41944] = {
 	display = "U-110贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27900,7 +27948,7 @@ _G.pg.item_data_statistics[41944] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41945] = {
+_G.pg.base.item_data_statistics[41945] = {
 	display = "U-522贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27921,7 +27969,7 @@ _G.pg.item_data_statistics[41945] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41946] = {
+_G.pg.base.item_data_statistics[41946] = {
 	display = "U-556贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27942,7 +27990,7 @@ _G.pg.item_data_statistics[41946] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41947] = {
+_G.pg.base.item_data_statistics[41947] = {
 	display = "龍騎兵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27963,7 +28011,7 @@ _G.pg.item_data_statistics[41947] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41948] = {
+_G.pg.base.item_data_statistics[41948] = {
 	display = "特倫托贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -27984,7 +28032,7 @@ _G.pg.item_data_statistics[41948] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41949] = {
+_G.pg.base.item_data_statistics[41949] = {
 	display = "扎拉贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28005,7 +28053,7 @@ _G.pg.item_data_statistics[41949] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41950] = {
+_G.pg.base.item_data_statistics[41950] = {
 	display = "利托里奧贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28026,7 +28074,7 @@ _G.pg.item_data_statistics[41950] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41951] = {
+_G.pg.base.item_data_statistics[41951] = {
 	display = "加富爾伯爵贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28047,7 +28095,7 @@ _G.pg.item_data_statistics[41951] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41952] = {
+_G.pg.base.item_data_statistics[41952] = {
 	display = "朱利奧·凱撒贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28068,7 +28116,7 @@ _G.pg.item_data_statistics[41952] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41953] = {
+_G.pg.base.item_data_statistics[41953] = {
 	display = "倔强贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28089,7 +28137,7 @@ _G.pg.item_data_statistics[41953] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41954] = {
+_G.pg.base.item_data_statistics[41954] = {
 	display = "恶毒贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28110,7 +28158,7 @@ _G.pg.item_data_statistics[41954] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41955] = {
+_G.pg.base.item_data_statistics[41955] = {
 	display = "加斯科涅(μ兵装)贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28131,7 +28179,7 @@ _G.pg.item_data_statistics[41955] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41956] = {
+_G.pg.base.item_data_statistics[41956] = {
 	display = "西雅圖贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28152,7 +28200,7 @@ _G.pg.item_data_statistics[41956] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41957] = {
+_G.pg.base.item_data_statistics[41957] = {
 	display = "喬治亞贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28173,7 +28221,7 @@ _G.pg.item_data_statistics[41957] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41958] = {
+_G.pg.base.item_data_statistics[41958] = {
 	display = "{namecode:164}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28194,7 +28242,7 @@ _G.pg.item_data_statistics[41958] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41959] = {
+_G.pg.base.item_data_statistics[41959] = {
 	display = "{namecode:165}贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28215,7 +28263,7 @@ _G.pg.item_data_statistics[41959] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41960] = {
+_G.pg.base.item_data_statistics[41960] = {
 	display = "腓特烈大帝贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28236,7 +28284,7 @@ _G.pg.item_data_statistics[41960] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41961] = {
+_G.pg.base.item_data_statistics[41961] = {
 	display = "加斯科涅贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28257,7 +28305,7 @@ _G.pg.item_data_statistics[41961] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42000] = {
+_G.pg.base.item_data_statistics[42000] = {
 	display = "使用後可從第一期方案艦的藍圖中任意選擇一張",
 	name = "定向藍圖・一期",
 	max_num = 0,
@@ -28309,7 +28357,7 @@ _G.pg.item_data_statistics[42000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42001] = {
+_G.pg.base.item_data_statistics[42001] = {
 	display = "皇家巡洋「海王星」的設計藍圖。\n<color=#A9F548>獲得「海王星」後，可在「開發船塢」中用於增強「海王星」的能力。</color>",
 	name = "藍圖：海王星",
 	max_num = 0,
@@ -28333,7 +28381,7 @@ _G.pg.item_data_statistics[42001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42002] = {
+_G.pg.base.item_data_statistics[42002] = {
 	display = "皇家戰列「君主」的設計藍圖。\n<color=#A9F548>獲得「君主」後，可在「開發船塢」中用於增強「君主」的能力。</color>",
 	name = "藍圖：君主",
 	max_num = 0,
@@ -28357,7 +28405,7 @@ _G.pg.item_data_statistics[42002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42003] = {
+_G.pg.base.item_data_statistics[42003] = {
 	display = "重櫻巡洋「{namecode:152}」的設計藍圖。\n<color=#A9F548>獲得「{namecode:152}」後，可在「開發船塢」中用於增強「{namecode:152}」的能力。</color>",
 	name = "藍圖：伊吹",
 	max_num = 0,
@@ -28381,7 +28429,7 @@ _G.pg.item_data_statistics[42003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42004] = {
+_G.pg.base.item_data_statistics[42004] = {
 	display = "重櫻戰列「{namecode:151}」的設計藍圖。\n<color=#A9F548>獲得「{namecode:151}」後，可在「開發船塢」中用於增強「{namecode:151}」的能力。</color>",
 	name = "藍圖：出雲",
 	max_num = 0,
@@ -28405,7 +28453,7 @@ _G.pg.item_data_statistics[42004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42005] = {
+_G.pg.base.item_data_statistics[42005] = {
 	display = "鐵血巡洋「羅恩」的設計藍圖。\n<color=#A9F548>獲得「羅恩」後，可在「開發船塢」中用於增強「羅恩」的能力。</color>",
 	name = "藍圖：羅恩",
 	max_num = 0,
@@ -28429,7 +28477,7 @@ _G.pg.item_data_statistics[42005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42006] = {
+_G.pg.base.item_data_statistics[42006] = {
 	display = "自由鳶尾巡洋「路易九世」的設計藍圖。\n<color=#A9F548>獲得「路易九世」後，可在「開發船塢」中用於增強「路易九世」的能力。</color>",
 	name = "藍圖：路易九世",
 	max_num = 0,
@@ -28453,7 +28501,7 @@ _G.pg.item_data_statistics[42006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42010] = {
+_G.pg.base.item_data_statistics[42010] = {
 	display = "使用後可從第一期、第二期方案艦的最高方案藍圖中任意選擇一張",
 	name = "定向藍圖・二期",
 	max_num = 0,
@@ -28525,7 +28573,7 @@ _G.pg.item_data_statistics[42010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42011] = {
+_G.pg.base.item_data_statistics[42011] = {
 	display = "白鷹巡洋「西雅圖」的設計藍圖。 \n<color=#92fc63>獲得「西雅圖」後，可在「開發船塢」中用於增強「西雅圖」的能力。 </color>",
 	name = "藍圖：西雅圖",
 	max_num = 0,
@@ -28549,7 +28597,7 @@ _G.pg.item_data_statistics[42011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42012] = {
+_G.pg.base.item_data_statistics[42012] = {
 	display = "白鷹戰列「喬治亞」的設計藍圖。 \n<color=#92fc63>獲得「喬治亞」後，可在「開發船塢」中用於增強「喬治亞」的能力。 </color>",
 	name = "藍圖：喬治亞",
 	max_num = 0,
@@ -28573,7 +28621,7 @@ _G.pg.item_data_statistics[42012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42013] = {
+_G.pg.base.item_data_statistics[42013] = {
 	display = "重櫻驅逐「北風」的設計藍圖。 \n<color=#92fc63>獲得「北風」後，可在「開發船塢」中用於增強「北風」的能力。 </color>",
 	name = "藍圖：北風",
 	max_num = 0,
@@ -28597,7 +28645,7 @@ _G.pg.item_data_statistics[42013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42014] = {
+_G.pg.base.item_data_statistics[42014] = {
 	display = "重櫻超巡「吾妻」的設計藍圖。 \n<color=#92fc63>獲得「吾妻」後，可在「開發船塢」中用於增強「吾妻」的能力。 </color>",
 	name = "藍圖：吾妻",
 	max_num = 0,
@@ -28621,7 +28669,7 @@ _G.pg.item_data_statistics[42014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42015] = {
+_G.pg.base.item_data_statistics[42015] = {
 	display = "鐵血戰列「腓特烈大帝」的設計藍圖。 \n<color=#92fc63>獲得「腓特烈大帝」後，可在「開發船塢」中用於增強「腓特烈大帝」的能力。 </color>",
 	name = "藍圖：腓特烈大帝",
 	max_num = 0,
@@ -28645,7 +28693,7 @@ _G.pg.item_data_statistics[42015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42016] = {
+_G.pg.base.item_data_statistics[42016] = {
 	display = "維希教廷戰列「加斯科涅」的設計藍圖。 \n<color=#92fc63>獲得「加斯科涅」後，可在「開發船塢」中用於增強「加斯科涅」的能力。 </color>",
 	name = "藍圖：加斯科涅",
 	max_num = 0,
@@ -28669,7 +28717,7 @@ _G.pg.item_data_statistics[42016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42017] = {
+_G.pg.base.item_data_statistics[42017] = {
 	display = "使用後可從第二期方案艦的決戰方案藍圖中任意選擇一張",
 	name = "高級定向藍圖・二期",
 	max_num = 0,
@@ -28701,7 +28749,7 @@ _G.pg.item_data_statistics[42017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42020] = {
+_G.pg.base.item_data_statistics[42020] = {
 	display = "使用後可從第一期、第二期、第三期方案艦的最高方案藍圖中任意選擇一張",
 	name = "定向藍圖·三期",
 	max_num = 0,
@@ -28793,7 +28841,7 @@ _G.pg.item_data_statistics[42020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42021] = {
+_G.pg.base.item_data_statistics[42021] = {
 	display = "皇家巡洋「柴郡」的設計藍圖。 \n<color=#92fc63>獲得「柴郡」後，可在「開發船塢」中用於增強「柴郡」的能力。 </color>",
 	name = "藍圖：柴郡",
 	max_num = 0,
@@ -28817,7 +28865,7 @@ _G.pg.item_data_statistics[42021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42022] = {
+_G.pg.base.item_data_statistics[42022] = {
 	display = "皇家巡洋「德雷克」的設計藍圖。 \n<color=#92fc63>獲得「德雷克」後，可在「開發船塢」中用於增強「德雷克」的能力。 </color>",
 	name = "藍圖：德雷克",
 	max_num = 0,
@@ -28841,7 +28889,7 @@ _G.pg.item_data_statistics[42022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42023] = {
+_G.pg.base.item_data_statistics[42023] = {
 	display = "鐵血巡洋「美因茲」的設計藍圖。 \n<color=#92fc63>獲得「美因茲」後，可在「開發船塢」中用於增強「美因茲」的能力。 </color>",
 	name = "藍圖：美因茲",
 	max_num = 0,
@@ -28865,7 +28913,7 @@ _G.pg.item_data_statistics[42023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42024] = {
+_G.pg.base.item_data_statistics[42024] = {
 	display = "鐵血戰巡「奧丁」的設計藍圖。 \n<color=#92fc63>獲得「奧丁」後，可在「開發船塢」中用於增強「奧丁」的能力。 </color>",
 	name = "藍圖：奧丁",
 	max_num = 0,
@@ -28889,7 +28937,7 @@ _G.pg.item_data_statistics[42024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42025] = {
+_G.pg.base.item_data_statistics[42025] = {
 	display = "自由鳶尾戰列「香檳」的設計藍圖。 \n<color=#92fc63>獲得「香檳」後，可在「開發船塢」中用於增強「香檳」的能力。 </color>",
 	name = "藍圖：香檳",
 	max_num = 0,
@@ -28913,7 +28961,7 @@ _G.pg.item_data_statistics[42025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42026] = {
+_G.pg.base.item_data_statistics[42026] = {
 	display = "使用後可從第二期、第三期方案艦的決戰方案藍圖中任意選擇一張",
 	name = "高級定向藍圖·三期",
 	max_num = 0,
@@ -28950,7 +28998,7 @@ _G.pg.item_data_statistics[42026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[44001] = {
+_G.pg.base.item_data_statistics[44001] = {
 	display = "$1贈送的情人節禮物",
 	name = "情人節禮物",
 	max_num = 0,
@@ -28971,7 +29019,7 @@ _G.pg.item_data_statistics[44001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50001] = {
+_G.pg.base.item_data_statistics[50001] = {
 	display = "酸素可樂，口味獨特，作為指揮官可能無法接受",
 	name = "酸素可樂",
 	max_num = 0,
@@ -28995,7 +29043,7 @@ _G.pg.item_data_statistics[50001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50002] = {
+_G.pg.base.item_data_statistics[50002] = {
 	display = "雖說是祕製，但是看起來好像沒有什麼不同，據說有些指揮官非常喜歡",
 	name = "祕製冷卻水",
 	max_num = 0,
@@ -29019,7 +29067,7 @@ _G.pg.item_data_statistics[50002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50003] = {
+_G.pg.base.item_data_statistics[50003] = {
 	display = "特製魚雷天婦羅，小學生的最愛(誤)！",
 	name = "魚雷天婦羅",
 	max_num = 0,
@@ -29043,7 +29091,7 @@ _G.pg.item_data_statistics[50003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50004] = {
+_G.pg.base.item_data_statistics[50004] = {
 	display = "甜咖哩還是辣咖哩，這是一個問題！ <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 	name = "海軍咖哩",
 	max_num = 0,
@@ -29067,7 +29115,7 @@ _G.pg.item_data_statistics[50004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50005] = {
+_G.pg.base.item_data_statistics[50005] = {
 	display = "皇家海軍專用的料理！ <color=#6dd329>（提高經驗加成10%，持續180分鐘）</color>",
 	name = "皇家料理",
 	max_num = 0,
@@ -29091,7 +29139,7 @@ _G.pg.item_data_statistics[50005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50006] = {
+_G.pg.base.item_data_statistics[50006] = {
 	display = "著名的宮廷料理，造型較為奇怪！  <color=#6dd329>（提高經驗加成20%，持續360分鐘）</color>",
 	name = "滿漢全席",
 	max_num = 0,
@@ -29115,7 +29163,7 @@ _G.pg.item_data_statistics[50006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51001] = {
+_G.pg.base.item_data_statistics[51001] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*250",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29147,7 +29195,7 @@ _G.pg.item_data_statistics[51001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51002] = {
+_G.pg.base.item_data_statistics[51002] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*350",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29179,7 +29227,7 @@ _G.pg.item_data_statistics[51002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51003] = {
+_G.pg.base.item_data_statistics[51003] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*450",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29211,7 +29259,7 @@ _G.pg.item_data_statistics[51003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51004] = {
+_G.pg.base.item_data_statistics[51004] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*25\n<color=#ffde38>心智單元</color>*550",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29243,7 +29291,7 @@ _G.pg.item_data_statistics[51004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51005] = {
+_G.pg.base.item_data_statistics[51005] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*50\n<color=#ffde38>心智單元</color>*100",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29275,7 +29323,7 @@ _G.pg.item_data_statistics[51005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51006] = {
+_G.pg.base.item_data_statistics[51006] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*100\n<color=#ffde38>心智單元</color>*200",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29307,7 +29355,7 @@ _G.pg.item_data_statistics[51006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51007] = {
+_G.pg.base.item_data_statistics[51007] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*150\n<color=#ffde38>心智單元</color>*300",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29339,7 +29387,7 @@ _G.pg.item_data_statistics[51007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51008] = {
+_G.pg.base.item_data_statistics[51008] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*200\n<color=#ffde38>心智單元</color>*400",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29371,7 +29419,7 @@ _G.pg.item_data_statistics[51008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51009] = {
+_G.pg.base.item_data_statistics[51009] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*250\n<color=#ffde38>心智單元</color>*500",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29403,7 +29451,7 @@ _G.pg.item_data_statistics[51009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51010] = {
+_G.pg.base.item_data_statistics[51010] = {
 	display = "領取獎勵後，直接獲得以下道具：\n<color=#ffde38>心智單元II</color>*300\n<color=#ffde38>心智單元</color>*600",
 	name = "心智單元組合",
 	max_num = 0,
@@ -29435,7 +29483,7 @@ _G.pg.item_data_statistics[51010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52001] = {
+_G.pg.base.item_data_statistics[52001] = {
 	display = "有機率獲得以下藍圖",
 	name = "未知藍圖",
 	max_num = 0,
@@ -29487,7 +29535,7 @@ _G.pg.item_data_statistics[52001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52002] = {
+_G.pg.base.item_data_statistics[52002] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知限定裝備設計圖",
 	max_num = 0,
@@ -29564,7 +29612,7 @@ _G.pg.item_data_statistics[52002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52003] = {
+_G.pg.base.item_data_statistics[52003] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知超稀有設計圖",
 	max_num = 0,
@@ -29711,7 +29759,7 @@ _G.pg.item_data_statistics[52003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52004] = {
+_G.pg.base.item_data_statistics[52004] = {
 	display = "有機率獲得精銳設計圖",
 	name = "未知精銳設計圖",
 	max_num = 0,
@@ -29732,7 +29780,7 @@ _G.pg.item_data_statistics[52004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52011] = {
+_G.pg.base.item_data_statistics[52011] = {
 	display = "有機率獲得以下藍圖",
 	name = "未知蓝图",
 	max_num = 0,
@@ -29784,7 +29832,7 @@ _G.pg.item_data_statistics[52011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52012] = {
+_G.pg.base.item_data_statistics[52012] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知限定装备設計圖",
 	max_num = 0,
@@ -29861,7 +29909,7 @@ _G.pg.item_data_statistics[52012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52021] = {
+_G.pg.base.item_data_statistics[52021] = {
 	display = "有機率獲得以下藍圖",
 	name = "未知蓝图",
 	max_num = 0,
@@ -29908,7 +29956,7 @@ _G.pg.item_data_statistics[52021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52022] = {
+_G.pg.base.item_data_statistics[52022] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知限定装备設計圖",
 	max_num = 0,
@@ -29985,7 +30033,7 @@ _G.pg.item_data_statistics[52022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52033] = {
+_G.pg.base.item_data_statistics[52033] = {
 	display = "隨機獲得超稀有設計圖",
 	name = "未知超稀有設計圖",
 	max_num = 0,
@@ -30132,7 +30180,7 @@ _G.pg.item_data_statistics[52033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53000] = {
+_G.pg.base.item_data_statistics[53000] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30194,7 +30242,7 @@ _G.pg.item_data_statistics[53000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53010] = {
+_G.pg.base.item_data_statistics[53010] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30256,7 +30304,7 @@ _G.pg.item_data_statistics[53010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53011] = {
+_G.pg.base.item_data_statistics[53011] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30318,7 +30366,7 @@ _G.pg.item_data_statistics[53011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53020] = {
+_G.pg.base.item_data_statistics[53020] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30400,7 +30448,7 @@ _G.pg.item_data_statistics[53020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53021] = {
+_G.pg.base.item_data_statistics[53021] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30482,7 +30530,7 @@ _G.pg.item_data_statistics[53021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53022] = {
+_G.pg.base.item_data_statistics[53022] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30564,7 +30612,7 @@ _G.pg.item_data_statistics[53022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53030] = {
+_G.pg.base.item_data_statistics[53030] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30646,7 +30694,7 @@ _G.pg.item_data_statistics[53030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53031] = {
+_G.pg.base.item_data_statistics[53031] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30728,7 +30776,7 @@ _G.pg.item_data_statistics[53031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53032] = {
+_G.pg.base.item_data_statistics[53032] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30810,7 +30858,7 @@ _G.pg.item_data_statistics[53032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53033] = {
+_G.pg.base.item_data_statistics[53033] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -30892,7 +30940,7 @@ _G.pg.item_data_statistics[53033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53040] = {
+_G.pg.base.item_data_statistics[53040] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31029,7 +31077,7 @@ _G.pg.item_data_statistics[53040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53041] = {
+_G.pg.base.item_data_statistics[53041] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31166,7 +31214,7 @@ _G.pg.item_data_statistics[53041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53042] = {
+_G.pg.base.item_data_statistics[53042] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31303,7 +31351,7 @@ _G.pg.item_data_statistics[53042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53043] = {
+_G.pg.base.item_data_statistics[53043] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31440,7 +31488,7 @@ _G.pg.item_data_statistics[53043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53044] = {
+_G.pg.base.item_data_statistics[53044] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31567,7 +31615,7 @@ _G.pg.item_data_statistics[53044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53050] = {
+_G.pg.base.item_data_statistics[53050] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31694,7 +31742,7 @@ _G.pg.item_data_statistics[53050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53051] = {
+_G.pg.base.item_data_statistics[53051] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31821,7 +31869,7 @@ _G.pg.item_data_statistics[53051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53052] = {
+_G.pg.base.item_data_statistics[53052] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -31948,7 +31996,7 @@ _G.pg.item_data_statistics[53052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53053] = {
+_G.pg.base.item_data_statistics[53053] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -32075,7 +32123,7 @@ _G.pg.item_data_statistics[53053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53054] = {
+_G.pg.base.item_data_statistics[53054] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -32202,7 +32250,7 @@ _G.pg.item_data_statistics[53054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53055] = {
+_G.pg.base.item_data_statistics[53055] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -32329,7 +32377,7 @@ _G.pg.item_data_statistics[53055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53060] = {
+_G.pg.base.item_data_statistics[53060] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -32466,7 +32514,7 @@ _G.pg.item_data_statistics[53060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53061] = {
+_G.pg.base.item_data_statistics[53061] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -32603,7 +32651,7 @@ _G.pg.item_data_statistics[53061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53062] = {
+_G.pg.base.item_data_statistics[53062] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -32740,7 +32788,7 @@ _G.pg.item_data_statistics[53062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53063] = {
+_G.pg.base.item_data_statistics[53063] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -32877,7 +32925,7 @@ _G.pg.item_data_statistics[53063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53064] = {
+_G.pg.base.item_data_statistics[53064] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -33014,7 +33062,7 @@ _G.pg.item_data_statistics[53064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53065] = {
+_G.pg.base.item_data_statistics[53065] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -33151,7 +33199,7 @@ _G.pg.item_data_statistics[53065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53066] = {
+_G.pg.base.item_data_statistics[53066] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -33288,7 +33336,7 @@ _G.pg.item_data_statistics[53066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53070] = {
+_G.pg.base.item_data_statistics[53070] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -33440,7 +33488,7 @@ _G.pg.item_data_statistics[53070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53071] = {
+_G.pg.base.item_data_statistics[53071] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -33592,7 +33640,7 @@ _G.pg.item_data_statistics[53071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53072] = {
+_G.pg.base.item_data_statistics[53072] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -33744,7 +33792,7 @@ _G.pg.item_data_statistics[53072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53073] = {
+_G.pg.base.item_data_statistics[53073] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -33896,7 +33944,7 @@ _G.pg.item_data_statistics[53073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53074] = {
+_G.pg.base.item_data_statistics[53074] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34048,7 +34096,7 @@ _G.pg.item_data_statistics[53074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53075] = {
+_G.pg.base.item_data_statistics[53075] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34200,7 +34248,7 @@ _G.pg.item_data_statistics[53075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53076] = {
+_G.pg.base.item_data_statistics[53076] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34352,7 +34400,7 @@ _G.pg.item_data_statistics[53076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53077] = {
+_G.pg.base.item_data_statistics[53077] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34454,7 +34502,7 @@ _G.pg.item_data_statistics[53077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53080] = {
+_G.pg.base.item_data_statistics[53080] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34501,7 +34549,7 @@ _G.pg.item_data_statistics[53080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53081] = {
+_G.pg.base.item_data_statistics[53081] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34548,7 +34596,7 @@ _G.pg.item_data_statistics[53081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53082] = {
+_G.pg.base.item_data_statistics[53082] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34595,7 +34643,7 @@ _G.pg.item_data_statistics[53082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53083] = {
+_G.pg.base.item_data_statistics[53083] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34642,7 +34690,7 @@ _G.pg.item_data_statistics[53083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53084] = {
+_G.pg.base.item_data_statistics[53084] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34689,7 +34737,7 @@ _G.pg.item_data_statistics[53084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53085] = {
+_G.pg.base.item_data_statistics[53085] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34736,7 +34784,7 @@ _G.pg.item_data_statistics[53085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53086] = {
+_G.pg.base.item_data_statistics[53086] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34783,7 +34831,7 @@ _G.pg.item_data_statistics[53086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53087] = {
+_G.pg.base.item_data_statistics[53087] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34830,7 +34878,7 @@ _G.pg.item_data_statistics[53087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53088] = {
+_G.pg.base.item_data_statistics[53088] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34877,7 +34925,7 @@ _G.pg.item_data_statistics[53088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53090] = {
+_G.pg.base.item_data_statistics[53090] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34924,7 +34972,7 @@ _G.pg.item_data_statistics[53090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53091] = {
+_G.pg.base.item_data_statistics[53091] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -34971,7 +35019,7 @@ _G.pg.item_data_statistics[53091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53092] = {
+_G.pg.base.item_data_statistics[53092] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35018,7 +35066,7 @@ _G.pg.item_data_statistics[53092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53093] = {
+_G.pg.base.item_data_statistics[53093] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35065,7 +35113,7 @@ _G.pg.item_data_statistics[53093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53094] = {
+_G.pg.base.item_data_statistics[53094] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35112,7 +35160,7 @@ _G.pg.item_data_statistics[53094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53095] = {
+_G.pg.base.item_data_statistics[53095] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35159,7 +35207,7 @@ _G.pg.item_data_statistics[53095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53096] = {
+_G.pg.base.item_data_statistics[53096] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35206,7 +35254,7 @@ _G.pg.item_data_statistics[53096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53097] = {
+_G.pg.base.item_data_statistics[53097] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35253,7 +35301,7 @@ _G.pg.item_data_statistics[53097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53098] = {
+_G.pg.base.item_data_statistics[53098] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35300,7 +35348,7 @@ _G.pg.item_data_statistics[53098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53099] = {
+_G.pg.base.item_data_statistics[53099] = {
 	display = "有機率獲得以下裝備&設計圖",
 	name = "未知裝備&設計圖",
 	max_num = 0,
@@ -35347,7 +35395,7 @@ _G.pg.item_data_statistics[53099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53990] = {
+_G.pg.base.item_data_statistics[53990] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -35424,7 +35472,7 @@ _G.pg.item_data_statistics[53990] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53991] = {
+_G.pg.base.item_data_statistics[53991] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -35556,7 +35604,7 @@ _G.pg.item_data_statistics[53991] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53992] = {
+_G.pg.base.item_data_statistics[53992] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -35653,7 +35701,7 @@ _G.pg.item_data_statistics[53992] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53993] = {
+_G.pg.base.item_data_statistics[53993] = {
 	display = "有機率獲得隨機裝備部件T1",
 	name = "未知裝備部件T1",
 	max_num = 0,
@@ -35685,7 +35733,7 @@ _G.pg.item_data_statistics[53993] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53994] = {
+_G.pg.base.item_data_statistics[53994] = {
 	display = "有機率獲得隨機裝備部件T1~T2",
 	name = "未知裝備部件T2",
 	max_num = 0,
@@ -35727,7 +35775,7 @@ _G.pg.item_data_statistics[53994] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53995] = {
+_G.pg.base.item_data_statistics[53995] = {
 	display = "有機率獲得隨機裝備部件T1~T3",
 	name = "未知裝備部件T3",
 	max_num = 0,
@@ -35779,7 +35827,7 @@ _G.pg.item_data_statistics[53995] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54001] = {
+_G.pg.base.item_data_statistics[54001] = {
 	display = "有機率獲得隨機教材T1",
 	name = "未知教材T1",
 	max_num = 0,
@@ -35816,7 +35864,7 @@ _G.pg.item_data_statistics[54001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54002] = {
+_G.pg.base.item_data_statistics[54002] = {
 	display = "有機率獲得隨機教材T1~T2",
 	name = "未知教材T2",
 	max_num = 0,
@@ -35868,7 +35916,7 @@ _G.pg.item_data_statistics[54002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54003] = {
+_G.pg.base.item_data_statistics[54003] = {
 	display = "有機率獲得隨機教材T1~T3",
 	name = "未知教材T3",
 	max_num = 0,
@@ -35935,7 +35983,7 @@ _G.pg.item_data_statistics[54003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54004] = {
+_G.pg.base.item_data_statistics[54004] = {
 	display = "有機率獲得隨機教材T1",
 	name = "未知教材T1",
 	max_num = 0,
@@ -35956,7 +36004,7 @@ _G.pg.item_data_statistics[54004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54005] = {
+_G.pg.base.item_data_statistics[54005] = {
 	display = "有機率獲得隨機教材T2",
 	name = "未知教材T2",
 	max_num = 0,
@@ -35977,7 +36025,7 @@ _G.pg.item_data_statistics[54005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54006] = {
+_G.pg.base.item_data_statistics[54006] = {
 	display = "有機率獲得隨機教材T3",
 	name = "未知教材T3",
 	max_num = 0,
@@ -35998,7 +36046,7 @@ _G.pg.item_data_statistics[54006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54007] = {
+_G.pg.base.item_data_statistics[54007] = {
 	display = "有機率獲得隨機教材T4",
 	name = "未知教材T4",
 	max_num = 0,
@@ -36019,7 +36067,7 @@ _G.pg.item_data_statistics[54007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54011] = {
+_G.pg.base.item_data_statistics[54011] = {
 	display = "有機率獲得隨機裝備部件T1",
 	name = "未知裝備部件T1",
 	max_num = 0,
@@ -36066,7 +36114,7 @@ _G.pg.item_data_statistics[54011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54012] = {
+_G.pg.base.item_data_statistics[54012] = {
 	display = "有機率獲得隨機裝備部件T1~T2",
 	name = "未知裝備部件T2",
 	max_num = 0,
@@ -36138,7 +36186,7 @@ _G.pg.item_data_statistics[54012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54013] = {
+_G.pg.base.item_data_statistics[54013] = {
 	display = "有機率獲得隨機裝備部件T1~T3",
 	name = "未知裝備部件T3",
 	max_num = 0,
@@ -36235,7 +36283,7 @@ _G.pg.item_data_statistics[54013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54014] = {
+_G.pg.base.item_data_statistics[54014] = {
 	display = "有機率獲得隨機裝備部件T1",
 	name = "未知裝備部件T1",
 	max_num = 0,
@@ -36282,7 +36330,7 @@ _G.pg.item_data_statistics[54014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54015] = {
+_G.pg.base.item_data_statistics[54015] = {
 	display = "有機率獲得隨機裝備部件T2",
 	name = "未知裝備部件T2",
 	max_num = 0,
@@ -36329,7 +36377,7 @@ _G.pg.item_data_statistics[54015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54016] = {
+_G.pg.base.item_data_statistics[54016] = {
 	display = "有機率獲得隨機裝備部件T3",
 	name = "未知裝備部件T3",
 	max_num = 0,
@@ -36376,7 +36424,7 @@ _G.pg.item_data_statistics[54016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54017] = {
+_G.pg.base.item_data_statistics[54017] = {
 	display = "有機率獲得隨機裝備部件T2~T3",
 	name = "未知裝備部件T3",
 	max_num = 0,
@@ -36448,7 +36496,7 @@ _G.pg.item_data_statistics[54017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54018] = {
+_G.pg.base.item_data_statistics[54018] = {
 	display = "有機率獲得隨機裝備部件T4",
 	name = "未知裝備部件T4",
 	max_num = 0,
@@ -36495,7 +36543,7 @@ _G.pg.item_data_statistics[54018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54021] = {
+_G.pg.base.item_data_statistics[54021] = {
 	display = "有機率獲得隨機科技箱T1",
 	name = "未知科技箱T1",
 	max_num = 0,
@@ -36540,7 +36588,7 @@ _G.pg.item_data_statistics[54021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54022] = {
+_G.pg.base.item_data_statistics[54022] = {
 	display = "有機率獲得隨機科技箱T1~T2",
 	name = "未知科技箱T2",
 	max_num = 0,
@@ -36605,7 +36653,7 @@ _G.pg.item_data_statistics[54022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54023] = {
+_G.pg.base.item_data_statistics[54023] = {
 	display = "有機率獲得隨機科技箱T1~T3",
 	name = "未知科技箱T3",
 	max_num = 0,
@@ -36690,7 +36738,7 @@ _G.pg.item_data_statistics[54023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54024] = {
+_G.pg.base.item_data_statistics[54024] = {
 	display = "有機率獲得隨機科技箱T1~T4",
 	name = "未知科技箱T4",
 	max_num = 0,
@@ -36795,7 +36843,7 @@ _G.pg.item_data_statistics[54024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54025] = {
+_G.pg.base.item_data_statistics[54025] = {
 	display = "有機率獲得隨機科技箱T1~T5",
 	name = "未知科技箱T5",
 	max_num = 0,
@@ -36920,7 +36968,7 @@ _G.pg.item_data_statistics[54025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54031] = {
+_G.pg.base.item_data_statistics[54031] = {
 	display = "有機率獲得隨機科技箱T1",
 	name = "未知科技箱T1",
 	max_num = 0,
@@ -36944,7 +36992,7 @@ _G.pg.item_data_statistics[54031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54032] = {
+_G.pg.base.item_data_statistics[54032] = {
 	display = "有機率獲得隨機科技箱T2",
 	name = "未知科技箱T2",
 	max_num = 0,
@@ -36968,7 +37016,7 @@ _G.pg.item_data_statistics[54032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54033] = {
+_G.pg.base.item_data_statistics[54033] = {
 	display = "有機率獲得隨機科技箱T3",
 	name = "未知科技箱T3",
 	max_num = 0,
@@ -36992,7 +37040,7 @@ _G.pg.item_data_statistics[54033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54034] = {
+_G.pg.base.item_data_statistics[54034] = {
 	display = "有機率獲得隨機科技箱T4",
 	name = "未知科技箱T4",
 	max_num = 0,
@@ -37016,7 +37064,7 @@ _G.pg.item_data_statistics[54034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54035] = {
+_G.pg.base.item_data_statistics[54035] = {
 	display = "有機率獲得隨機科技箱T5",
 	name = "未知科技箱T5",
 	max_num = 0,
@@ -37040,7 +37088,7 @@ _G.pg.item_data_statistics[54035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54039] = {
+_G.pg.base.item_data_statistics[54039] = {
 	display = "獲得隨機科技箱T4",
 	name = "未知科技箱T4",
 	max_num = 0,
@@ -37064,7 +37112,7 @@ _G.pg.item_data_statistics[54039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54041] = {
+_G.pg.base.item_data_statistics[54041] = {
 	display = "有機率獲得隨機驅逐改造圖紙T1~T2",
 	name = "未知驅逐改造圖紙",
 	max_num = 0,
@@ -37096,7 +37144,7 @@ _G.pg.item_data_statistics[54041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54042] = {
+_G.pg.base.item_data_statistics[54042] = {
 	display = "有機率獲得隨機巡洋改造圖紙T1~T2",
 	name = "未知巡洋改造圖紙",
 	max_num = 0,
@@ -37128,7 +37176,7 @@ _G.pg.item_data_statistics[54042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54043] = {
+_G.pg.base.item_data_statistics[54043] = {
 	display = "有機率獲得隨機戰列改造圖紙T1~T2",
 	name = "未知戰列改造圖紙",
 	max_num = 0,
@@ -37160,7 +37208,7 @@ _G.pg.item_data_statistics[54043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54044] = {
+_G.pg.base.item_data_statistics[54044] = {
 	display = "有機率獲得隨機航母改造圖紙T1~T2",
 	name = "未知航母改造圖紙",
 	max_num = 0,
@@ -37192,7 +37240,7 @@ _G.pg.item_data_statistics[54044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54045] = {
+_G.pg.base.item_data_statistics[54045] = {
 	display = "有機率獲得隨機驅逐改造圖紙T1~T3",
 	name = "未知驅逐改造圖紙",
 	max_num = 0,
@@ -37229,7 +37277,7 @@ _G.pg.item_data_statistics[54045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54046] = {
+_G.pg.base.item_data_statistics[54046] = {
 	display = "有機率獲得隨機巡洋改造圖紙T1~T3",
 	name = "未知巡洋改造圖紙",
 	max_num = 0,
@@ -37266,7 +37314,7 @@ _G.pg.item_data_statistics[54046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54047] = {
+_G.pg.base.item_data_statistics[54047] = {
 	display = "有機率獲得隨機戰列改造圖紙T1~T3",
 	name = "未知戰列改造圖紙",
 	max_num = 0,
@@ -37303,7 +37351,7 @@ _G.pg.item_data_statistics[54047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54048] = {
+_G.pg.base.item_data_statistics[54048] = {
 	display = "有機率獲得隨機航母改造圖紙T1~T3",
 	name = "未知航母改造圖紙",
 	max_num = 0,
@@ -37340,7 +37388,7 @@ _G.pg.item_data_statistics[54048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54049] = {
+_G.pg.base.item_data_statistics[54049] = {
 	display = "有機率獲得隨機改造圖紙T1",
 	name = "未知改造圖紙T1",
 	max_num = 0,
@@ -37361,7 +37409,7 @@ _G.pg.item_data_statistics[54049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54050] = {
+_G.pg.base.item_data_statistics[54050] = {
 	display = "有機率獲得隨機改造圖紙T2",
 	name = "未知改造圖紙T2",
 	max_num = 0,
@@ -37382,7 +37430,7 @@ _G.pg.item_data_statistics[54050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54051] = {
+_G.pg.base.item_data_statistics[54051] = {
 	display = "有機率獲得隨機改造圖紙T3",
 	name = "未知改造圖紙T3",
 	max_num = 0,
@@ -37403,7 +37451,7 @@ _G.pg.item_data_statistics[54051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54100] = {
+_G.pg.base.item_data_statistics[54100] = {
 	display = "有機率獲得以下隨機裝備部件T4",
 	name = "未知裝備部件T4",
 	max_num = 0,
@@ -37435,7 +37483,7 @@ _G.pg.item_data_statistics[54100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54101] = {
+_G.pg.base.item_data_statistics[54101] = {
 	display = "有機率獲得以下隨機裝備部件T4",
 	name = "未知裝備部件T4",
 	max_num = 0,
@@ -37472,7 +37520,7 @@ _G.pg.item_data_statistics[54101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54102] = {
+_G.pg.base.item_data_statistics[54102] = {
 	display = "有機率獲得以下隨機裝備部件T4",
 	name = "未知裝備部件T4",
 	max_num = 0,
@@ -37509,7 +37557,7 @@ _G.pg.item_data_statistics[54102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54103] = {
+_G.pg.base.item_data_statistics[54103] = {
 	display = "有機率獲得以下隨機裝備部件T1",
 	name = "未知裝備部件T1",
 	max_num = 0,
@@ -37546,7 +37594,7 @@ _G.pg.item_data_statistics[54103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54104] = {
+_G.pg.base.item_data_statistics[54104] = {
 	display = "有機率獲得以下隨機裝備部件T1~T2",
 	name = "未知裝備部件T2",
 	max_num = 0,
@@ -37583,7 +37631,7 @@ _G.pg.item_data_statistics[54104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54105] = {
+_G.pg.base.item_data_statistics[54105] = {
 	display = "有機率獲得以下隨機裝備部件T1~T3",
 	name = "未知裝備部件T3",
 	max_num = 0,
@@ -37620,7 +37668,7 @@ _G.pg.item_data_statistics[54105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54106] = {
+_G.pg.base.item_data_statistics[54106] = {
 	display = "有機率獲得以下隨機裝備部件T1",
 	name = "未知裝備部件T1",
 	max_num = 0,
@@ -37657,7 +37705,7 @@ _G.pg.item_data_statistics[54106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54107] = {
+_G.pg.base.item_data_statistics[54107] = {
 	display = "有機率獲得以下隨機裝備部件T1~T2",
 	name = "未知裝備部件T2",
 	max_num = 0,
@@ -37694,7 +37742,7 @@ _G.pg.item_data_statistics[54107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54108] = {
+_G.pg.base.item_data_statistics[54108] = {
 	display = "有機率獲得以下隨機裝備部件T1~T3",
 	name = "未知裝備部件T3",
 	max_num = 0,
@@ -37731,7 +37779,7 @@ _G.pg.item_data_statistics[54108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55001] = {
+_G.pg.base.item_data_statistics[55001] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -37752,7 +37800,7 @@ _G.pg.item_data_statistics[55001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55002] = {
+_G.pg.base.item_data_statistics[55002] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -37773,7 +37821,7 @@ _G.pg.item_data_statistics[55002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55003] = {
+_G.pg.base.item_data_statistics[55003] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -37794,7 +37842,7 @@ _G.pg.item_data_statistics[55003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55004] = {
+_G.pg.base.item_data_statistics[55004] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -37841,7 +37889,7 @@ _G.pg.item_data_statistics[55004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55005] = {
+_G.pg.base.item_data_statistics[55005] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -37888,7 +37936,7 @@ _G.pg.item_data_statistics[55005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55006] = {
+_G.pg.base.item_data_statistics[55006] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -37935,7 +37983,7 @@ _G.pg.item_data_statistics[55006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55007] = {
+_G.pg.base.item_data_statistics[55007] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -37982,7 +38030,7 @@ _G.pg.item_data_statistics[55007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55008] = {
+_G.pg.base.item_data_statistics[55008] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38034,7 +38082,7 @@ _G.pg.item_data_statistics[55008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55009] = {
+_G.pg.base.item_data_statistics[55009] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38081,7 +38129,7 @@ _G.pg.item_data_statistics[55009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55010] = {
+_G.pg.base.item_data_statistics[55010] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38128,7 +38176,7 @@ _G.pg.item_data_statistics[55010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55011] = {
+_G.pg.base.item_data_statistics[55011] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38175,7 +38223,7 @@ _G.pg.item_data_statistics[55011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55012] = {
+_G.pg.base.item_data_statistics[55012] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38222,7 +38270,7 @@ _G.pg.item_data_statistics[55012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55013] = {
+_G.pg.base.item_data_statistics[55013] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38269,7 +38317,7 @@ _G.pg.item_data_statistics[55013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55014] = {
+_G.pg.base.item_data_statistics[55014] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38316,7 +38364,7 @@ _G.pg.item_data_statistics[55014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55015] = {
+_G.pg.base.item_data_statistics[55015] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38363,7 +38411,7 @@ _G.pg.item_data_statistics[55015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55016] = {
+_G.pg.base.item_data_statistics[55016] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38410,7 +38458,7 @@ _G.pg.item_data_statistics[55016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55017] = {
+_G.pg.base.item_data_statistics[55017] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38457,7 +38505,7 @@ _G.pg.item_data_statistics[55017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55018] = {
+_G.pg.base.item_data_statistics[55018] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38504,7 +38552,7 @@ _G.pg.item_data_statistics[55018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55019] = {
+_G.pg.base.item_data_statistics[55019] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38551,7 +38599,7 @@ _G.pg.item_data_statistics[55019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55020] = {
+_G.pg.base.item_data_statistics[55020] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38598,7 +38646,7 @@ _G.pg.item_data_statistics[55020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55021] = {
+_G.pg.base.item_data_statistics[55021] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38645,7 +38693,7 @@ _G.pg.item_data_statistics[55021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55022] = {
+_G.pg.base.item_data_statistics[55022] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38692,7 +38740,7 @@ _G.pg.item_data_statistics[55022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55023] = {
+_G.pg.base.item_data_statistics[55023] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38739,7 +38787,7 @@ _G.pg.item_data_statistics[55023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55024] = {
+_G.pg.base.item_data_statistics[55024] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38786,7 +38834,7 @@ _G.pg.item_data_statistics[55024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55025] = {
+_G.pg.base.item_data_statistics[55025] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38833,7 +38881,7 @@ _G.pg.item_data_statistics[55025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55026] = {
+_G.pg.base.item_data_statistics[55026] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38885,7 +38933,7 @@ _G.pg.item_data_statistics[55026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55027] = {
+_G.pg.base.item_data_statistics[55027] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38932,7 +38980,7 @@ _G.pg.item_data_statistics[55027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55028] = {
+_G.pg.base.item_data_statistics[55028] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -38979,7 +39027,7 @@ _G.pg.item_data_statistics[55028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55029] = {
+_G.pg.base.item_data_statistics[55029] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39026,7 +39074,7 @@ _G.pg.item_data_statistics[55029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55030] = {
+_G.pg.base.item_data_statistics[55030] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39073,7 +39121,7 @@ _G.pg.item_data_statistics[55030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55031] = {
+_G.pg.base.item_data_statistics[55031] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39120,7 +39168,7 @@ _G.pg.item_data_statistics[55031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55032] = {
+_G.pg.base.item_data_statistics[55032] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39167,7 +39215,7 @@ _G.pg.item_data_statistics[55032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55033] = {
+_G.pg.base.item_data_statistics[55033] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39214,7 +39262,7 @@ _G.pg.item_data_statistics[55033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55034] = {
+_G.pg.base.item_data_statistics[55034] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39261,7 +39309,7 @@ _G.pg.item_data_statistics[55034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55035] = {
+_G.pg.base.item_data_statistics[55035] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39308,7 +39356,7 @@ _G.pg.item_data_statistics[55035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55036] = {
+_G.pg.base.item_data_statistics[55036] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39355,7 +39403,7 @@ _G.pg.item_data_statistics[55036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55037] = {
+_G.pg.base.item_data_statistics[55037] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39402,7 +39450,7 @@ _G.pg.item_data_statistics[55037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55038] = {
+_G.pg.base.item_data_statistics[55038] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39449,7 +39497,7 @@ _G.pg.item_data_statistics[55038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55039] = {
+_G.pg.base.item_data_statistics[55039] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39496,7 +39544,7 @@ _G.pg.item_data_statistics[55039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55040] = {
+_G.pg.base.item_data_statistics[55040] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39543,7 +39591,7 @@ _G.pg.item_data_statistics[55040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55041] = {
+_G.pg.base.item_data_statistics[55041] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39590,7 +39638,7 @@ _G.pg.item_data_statistics[55041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55042] = {
+_G.pg.base.item_data_statistics[55042] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39637,7 +39685,7 @@ _G.pg.item_data_statistics[55042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55043] = {
+_G.pg.base.item_data_statistics[55043] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39684,7 +39732,7 @@ _G.pg.item_data_statistics[55043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55044] = {
+_G.pg.base.item_data_statistics[55044] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39731,7 +39779,7 @@ _G.pg.item_data_statistics[55044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55045] = {
+_G.pg.base.item_data_statistics[55045] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39778,7 +39826,7 @@ _G.pg.item_data_statistics[55045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55046] = {
+_G.pg.base.item_data_statistics[55046] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39825,7 +39873,7 @@ _G.pg.item_data_statistics[55046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55047] = {
+_G.pg.base.item_data_statistics[55047] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39872,7 +39920,7 @@ _G.pg.item_data_statistics[55047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55048] = {
+_G.pg.base.item_data_statistics[55048] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39919,7 +39967,7 @@ _G.pg.item_data_statistics[55048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55049] = {
+_G.pg.base.item_data_statistics[55049] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -39966,7 +40014,7 @@ _G.pg.item_data_statistics[55049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55050] = {
+_G.pg.base.item_data_statistics[55050] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40013,7 +40061,7 @@ _G.pg.item_data_statistics[55050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55051] = {
+_G.pg.base.item_data_statistics[55051] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40060,7 +40108,7 @@ _G.pg.item_data_statistics[55051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55052] = {
+_G.pg.base.item_data_statistics[55052] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40107,7 +40155,7 @@ _G.pg.item_data_statistics[55052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55501] = {
+_G.pg.base.item_data_statistics[55501] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40128,7 +40176,7 @@ _G.pg.item_data_statistics[55501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55502] = {
+_G.pg.base.item_data_statistics[55502] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40149,7 +40197,7 @@ _G.pg.item_data_statistics[55502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55503] = {
+_G.pg.base.item_data_statistics[55503] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40170,7 +40218,7 @@ _G.pg.item_data_statistics[55503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55504] = {
+_G.pg.base.item_data_statistics[55504] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40217,7 +40265,7 @@ _G.pg.item_data_statistics[55504] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55505] = {
+_G.pg.base.item_data_statistics[55505] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40264,7 +40312,7 @@ _G.pg.item_data_statistics[55505] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55506] = {
+_G.pg.base.item_data_statistics[55506] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40311,7 +40359,7 @@ _G.pg.item_data_statistics[55506] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55507] = {
+_G.pg.base.item_data_statistics[55507] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40358,7 +40406,7 @@ _G.pg.item_data_statistics[55507] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55508] = {
+_G.pg.base.item_data_statistics[55508] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40405,7 +40453,7 @@ _G.pg.item_data_statistics[55508] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55509] = {
+_G.pg.base.item_data_statistics[55509] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40452,7 +40500,7 @@ _G.pg.item_data_statistics[55509] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55510] = {
+_G.pg.base.item_data_statistics[55510] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40499,7 +40547,7 @@ _G.pg.item_data_statistics[55510] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55511] = {
+_G.pg.base.item_data_statistics[55511] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40546,7 +40594,7 @@ _G.pg.item_data_statistics[55511] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55512] = {
+_G.pg.base.item_data_statistics[55512] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40593,7 +40641,7 @@ _G.pg.item_data_statistics[55512] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55513] = {
+_G.pg.base.item_data_statistics[55513] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40640,7 +40688,7 @@ _G.pg.item_data_statistics[55513] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55514] = {
+_G.pg.base.item_data_statistics[55514] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40687,7 +40735,7 @@ _G.pg.item_data_statistics[55514] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55515] = {
+_G.pg.base.item_data_statistics[55515] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40734,7 +40782,7 @@ _G.pg.item_data_statistics[55515] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55516] = {
+_G.pg.base.item_data_statistics[55516] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40781,7 +40829,7 @@ _G.pg.item_data_statistics[55516] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55517] = {
+_G.pg.base.item_data_statistics[55517] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40823,7 +40871,7 @@ _G.pg.item_data_statistics[55517] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55518] = {
+_G.pg.base.item_data_statistics[55518] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40865,7 +40913,7 @@ _G.pg.item_data_statistics[55518] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55519] = {
+_G.pg.base.item_data_statistics[55519] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40907,7 +40955,7 @@ _G.pg.item_data_statistics[55519] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55520] = {
+_G.pg.base.item_data_statistics[55520] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40949,7 +40997,7 @@ _G.pg.item_data_statistics[55520] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55521] = {
+_G.pg.base.item_data_statistics[55521] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -40991,7 +41039,7 @@ _G.pg.item_data_statistics[55521] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55522] = {
+_G.pg.base.item_data_statistics[55522] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41033,7 +41081,7 @@ _G.pg.item_data_statistics[55522] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55523] = {
+_G.pg.base.item_data_statistics[55523] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41075,7 +41123,7 @@ _G.pg.item_data_statistics[55523] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55524] = {
+_G.pg.base.item_data_statistics[55524] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41117,7 +41165,7 @@ _G.pg.item_data_statistics[55524] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55525] = {
+_G.pg.base.item_data_statistics[55525] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41159,7 +41207,7 @@ _G.pg.item_data_statistics[55525] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55526] = {
+_G.pg.base.item_data_statistics[55526] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41206,7 +41254,7 @@ _G.pg.item_data_statistics[55526] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55527] = {
+_G.pg.base.item_data_statistics[55527] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41248,7 +41296,7 @@ _G.pg.item_data_statistics[55527] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55528] = {
+_G.pg.base.item_data_statistics[55528] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41290,7 +41338,7 @@ _G.pg.item_data_statistics[55528] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55529] = {
+_G.pg.base.item_data_statistics[55529] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41332,7 +41380,7 @@ _G.pg.item_data_statistics[55529] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55530] = {
+_G.pg.base.item_data_statistics[55530] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41374,7 +41422,7 @@ _G.pg.item_data_statistics[55530] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55531] = {
+_G.pg.base.item_data_statistics[55531] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41416,7 +41464,7 @@ _G.pg.item_data_statistics[55531] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55532] = {
+_G.pg.base.item_data_statistics[55532] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41458,7 +41506,7 @@ _G.pg.item_data_statistics[55532] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55533] = {
+_G.pg.base.item_data_statistics[55533] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41500,7 +41548,7 @@ _G.pg.item_data_statistics[55533] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55534] = {
+_G.pg.base.item_data_statistics[55534] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41542,7 +41590,7 @@ _G.pg.item_data_statistics[55534] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55535] = {
+_G.pg.base.item_data_statistics[55535] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41584,7 +41632,7 @@ _G.pg.item_data_statistics[55535] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55536] = {
+_G.pg.base.item_data_statistics[55536] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41626,7 +41674,7 @@ _G.pg.item_data_statistics[55536] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55537] = {
+_G.pg.base.item_data_statistics[55537] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41668,7 +41716,7 @@ _G.pg.item_data_statistics[55537] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55538] = {
+_G.pg.base.item_data_statistics[55538] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41710,7 +41758,7 @@ _G.pg.item_data_statistics[55538] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55539] = {
+_G.pg.base.item_data_statistics[55539] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41752,7 +41800,7 @@ _G.pg.item_data_statistics[55539] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55540] = {
+_G.pg.base.item_data_statistics[55540] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41794,7 +41842,7 @@ _G.pg.item_data_statistics[55540] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55541] = {
+_G.pg.base.item_data_statistics[55541] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41836,7 +41884,7 @@ _G.pg.item_data_statistics[55541] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55542] = {
+_G.pg.base.item_data_statistics[55542] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41878,7 +41926,7 @@ _G.pg.item_data_statistics[55542] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55543] = {
+_G.pg.base.item_data_statistics[55543] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41920,7 +41968,7 @@ _G.pg.item_data_statistics[55543] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55544] = {
+_G.pg.base.item_data_statistics[55544] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -41962,7 +42010,7 @@ _G.pg.item_data_statistics[55544] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55545] = {
+_G.pg.base.item_data_statistics[55545] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42004,7 +42052,7 @@ _G.pg.item_data_statistics[55545] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55546] = {
+_G.pg.base.item_data_statistics[55546] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42046,7 +42094,7 @@ _G.pg.item_data_statistics[55546] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55547] = {
+_G.pg.base.item_data_statistics[55547] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42088,7 +42136,7 @@ _G.pg.item_data_statistics[55547] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55548] = {
+_G.pg.base.item_data_statistics[55548] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42130,7 +42178,7 @@ _G.pg.item_data_statistics[55548] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55549] = {
+_G.pg.base.item_data_statistics[55549] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42172,7 +42220,7 @@ _G.pg.item_data_statistics[55549] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55550] = {
+_G.pg.base.item_data_statistics[55550] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42214,7 +42262,7 @@ _G.pg.item_data_statistics[55550] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55551] = {
+_G.pg.base.item_data_statistics[55551] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42256,7 +42304,7 @@ _G.pg.item_data_statistics[55551] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55552] = {
+_G.pg.base.item_data_statistics[55552] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -42298,7 +42346,7 @@ _G.pg.item_data_statistics[55552] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56000] = {
+_G.pg.base.item_data_statistics[56000] = {
 	display = "有機率獲得超稀有或超稀有以下的角色",
 	name = "未知角色",
 	max_num = 0,
@@ -42319,7 +42367,7 @@ _G.pg.item_data_statistics[56000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56001] = {
+_G.pg.base.item_data_statistics[56001] = {
 	display = "有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -42366,7 +42414,7 @@ _G.pg.item_data_statistics[56001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56002] = {
+_G.pg.base.item_data_statistics[56002] = {
 	display = "有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -42433,7 +42481,7 @@ _G.pg.item_data_statistics[56002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56003] = {
+_G.pg.base.item_data_statistics[56003] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -42510,7 +42558,7 @@ _G.pg.item_data_statistics[56003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56004] = {
+_G.pg.base.item_data_statistics[56004] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -42617,7 +42665,7 @@ _G.pg.item_data_statistics[56004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56005] = {
+_G.pg.base.item_data_statistics[56005] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -42744,7 +42792,7 @@ _G.pg.item_data_statistics[56005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56006] = {
+_G.pg.base.item_data_statistics[56006] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -42881,7 +42929,7 @@ _G.pg.item_data_statistics[56006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56007] = {
+_G.pg.base.item_data_statistics[56007] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -43023,7 +43071,7 @@ _G.pg.item_data_statistics[56007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56008] = {
+_G.pg.base.item_data_statistics[56008] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -43170,7 +43218,7 @@ _G.pg.item_data_statistics[56008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56009] = {
+_G.pg.base.item_data_statistics[56009] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -43322,7 +43370,7 @@ _G.pg.item_data_statistics[56009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56010] = {
+_G.pg.base.item_data_statistics[56010] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -43474,7 +43522,7 @@ _G.pg.item_data_statistics[56010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56011] = {
+_G.pg.base.item_data_statistics[56011] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -43626,7 +43674,7 @@ _G.pg.item_data_statistics[56011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56012] = {
+_G.pg.base.item_data_statistics[56012] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -43783,7 +43831,7 @@ _G.pg.item_data_statistics[56012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56013] = {
+_G.pg.base.item_data_statistics[56013] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -43930,7 +43978,7 @@ _G.pg.item_data_statistics[56013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56014] = {
+_G.pg.base.item_data_statistics[56014] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -44077,7 +44125,7 @@ _G.pg.item_data_statistics[56014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56015] = {
+_G.pg.base.item_data_statistics[56015] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -44224,7 +44272,7 @@ _G.pg.item_data_statistics[56015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56016] = {
+_G.pg.base.item_data_statistics[56016] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -44376,7 +44424,7 @@ _G.pg.item_data_statistics[56016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56017] = {
+_G.pg.base.item_data_statistics[56017] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -44528,7 +44576,7 @@ _G.pg.item_data_statistics[56017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56018] = {
+_G.pg.base.item_data_statistics[56018] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -44675,7 +44723,7 @@ _G.pg.item_data_statistics[56018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56019] = {
+_G.pg.base.item_data_statistics[56019] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -44822,7 +44870,7 @@ _G.pg.item_data_statistics[56019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56020] = {
+_G.pg.base.item_data_statistics[56020] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -44974,7 +45022,7 @@ _G.pg.item_data_statistics[56020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56021] = {
+_G.pg.base.item_data_statistics[56021] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -45121,7 +45169,7 @@ _G.pg.item_data_statistics[56021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56022] = {
+_G.pg.base.item_data_statistics[56022] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -45268,7 +45316,7 @@ _G.pg.item_data_statistics[56022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56023] = {
+_G.pg.base.item_data_statistics[56023] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -45415,7 +45463,7 @@ _G.pg.item_data_statistics[56023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56024] = {
+_G.pg.base.item_data_statistics[56024] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -45572,7 +45620,7 @@ _G.pg.item_data_statistics[56024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56025] = {
+_G.pg.base.item_data_statistics[56025] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -45719,7 +45767,7 @@ _G.pg.item_data_statistics[56025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56026] = {
+_G.pg.base.item_data_statistics[56026] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -45866,7 +45914,7 @@ _G.pg.item_data_statistics[56026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56027] = {
+_G.pg.base.item_data_statistics[56027] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -46018,7 +46066,7 @@ _G.pg.item_data_statistics[56027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56028] = {
+_G.pg.base.item_data_statistics[56028] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -46170,7 +46218,7 @@ _G.pg.item_data_statistics[56028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56029] = {
+_G.pg.base.item_data_statistics[56029] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -46322,7 +46370,7 @@ _G.pg.item_data_statistics[56029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56030] = {
+_G.pg.base.item_data_statistics[56030] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -46474,7 +46522,7 @@ _G.pg.item_data_statistics[56030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56031] = {
+_G.pg.base.item_data_statistics[56031] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -46621,7 +46669,7 @@ _G.pg.item_data_statistics[56031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56032] = {
+_G.pg.base.item_data_statistics[56032] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -46778,7 +46826,7 @@ _G.pg.item_data_statistics[56032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56033] = {
+_G.pg.base.item_data_statistics[56033] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -46925,7 +46973,7 @@ _G.pg.item_data_statistics[56033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56034] = {
+_G.pg.base.item_data_statistics[56034] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -47072,7 +47120,7 @@ _G.pg.item_data_statistics[56034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56035] = {
+_G.pg.base.item_data_statistics[56035] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -47224,7 +47272,7 @@ _G.pg.item_data_statistics[56035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56036] = {
+_G.pg.base.item_data_statistics[56036] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -47376,7 +47424,7 @@ _G.pg.item_data_statistics[56036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56037] = {
+_G.pg.base.item_data_statistics[56037] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -47523,7 +47571,7 @@ _G.pg.item_data_statistics[56037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56038] = {
+_G.pg.base.item_data_statistics[56038] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -47670,7 +47718,7 @@ _G.pg.item_data_statistics[56038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56039] = {
+_G.pg.base.item_data_statistics[56039] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -47822,7 +47870,7 @@ _G.pg.item_data_statistics[56039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56040] = {
+_G.pg.base.item_data_statistics[56040] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -47974,7 +48022,7 @@ _G.pg.item_data_statistics[56040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56041] = {
+_G.pg.base.item_data_statistics[56041] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -48121,7 +48169,7 @@ _G.pg.item_data_statistics[56041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56042] = {
+_G.pg.base.item_data_statistics[56042] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -48273,7 +48321,7 @@ _G.pg.item_data_statistics[56042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56043] = {
+_G.pg.base.item_data_statistics[56043] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -48420,7 +48468,7 @@ _G.pg.item_data_statistics[56043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56044] = {
+_G.pg.base.item_data_statistics[56044] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -48572,7 +48620,7 @@ _G.pg.item_data_statistics[56044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56045] = {
+_G.pg.base.item_data_statistics[56045] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -48719,7 +48767,7 @@ _G.pg.item_data_statistics[56045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56046] = {
+_G.pg.base.item_data_statistics[56046] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -48866,7 +48914,7 @@ _G.pg.item_data_statistics[56046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56047] = {
+_G.pg.base.item_data_statistics[56047] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -49013,7 +49061,7 @@ _G.pg.item_data_statistics[56047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56048] = {
+_G.pg.base.item_data_statistics[56048] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -49165,7 +49213,7 @@ _G.pg.item_data_statistics[56048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56049] = {
+_G.pg.base.item_data_statistics[56049] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -49312,7 +49360,7 @@ _G.pg.item_data_statistics[56049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56050] = {
+_G.pg.base.item_data_statistics[56050] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -49459,7 +49507,7 @@ _G.pg.item_data_statistics[56050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56051] = {
+_G.pg.base.item_data_statistics[56051] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -49606,7 +49654,7 @@ _G.pg.item_data_statistics[56051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56052] = {
+_G.pg.base.item_data_statistics[56052] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -49758,7 +49806,7 @@ _G.pg.item_data_statistics[56052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56053] = {
+_G.pg.base.item_data_statistics[56053] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -49905,7 +49953,7 @@ _G.pg.item_data_statistics[56053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56054] = {
+_G.pg.base.item_data_statistics[56054] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50052,7 +50100,7 @@ _G.pg.item_data_statistics[56054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56055] = {
+_G.pg.base.item_data_statistics[56055] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50199,7 +50247,7 @@ _G.pg.item_data_statistics[56055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56056] = {
+_G.pg.base.item_data_statistics[56056] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50351,7 +50399,7 @@ _G.pg.item_data_statistics[56056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56500] = {
+_G.pg.base.item_data_statistics[56500] = {
 	display = "有機率獲得精銳或精銳以下的角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50372,7 +50420,7 @@ _G.pg.item_data_statistics[56500] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56501] = {
+_G.pg.base.item_data_statistics[56501] = {
 	display = "有機率獲得稀有或稀有以下的角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50393,7 +50441,7 @@ _G.pg.item_data_statistics[56501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56502] = {
+_G.pg.base.item_data_statistics[56502] = {
 	display = "有機率獲得普通角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50414,7 +50462,7 @@ _G.pg.item_data_statistics[56502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57001] = {
+_G.pg.base.item_data_statistics[57001] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -50461,7 +50509,7 @@ _G.pg.item_data_statistics[57001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57002] = {
+_G.pg.base.item_data_statistics[57002] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -50508,7 +50556,7 @@ _G.pg.item_data_statistics[57002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57003] = {
+_G.pg.base.item_data_statistics[57003] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -50555,7 +50603,7 @@ _G.pg.item_data_statistics[57003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57011] = {
+_G.pg.base.item_data_statistics[57011] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -50602,7 +50650,7 @@ _G.pg.item_data_statistics[57011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57012] = {
+_G.pg.base.item_data_statistics[57012] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -50649,7 +50697,7 @@ _G.pg.item_data_statistics[57012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57013] = {
+_G.pg.base.item_data_statistics[57013] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -50691,7 +50739,7 @@ _G.pg.item_data_statistics[57013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57021] = {
+_G.pg.base.item_data_statistics[57021] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50712,7 +50760,7 @@ _G.pg.item_data_statistics[57021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57022] = {
+_G.pg.base.item_data_statistics[57022] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50849,7 +50897,7 @@ _G.pg.item_data_statistics[57022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57023] = {
+_G.pg.base.item_data_statistics[57023] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -50996,7 +51044,7 @@ _G.pg.item_data_statistics[57023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57031] = {
+_G.pg.base.item_data_statistics[57031] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51043,7 +51091,7 @@ _G.pg.item_data_statistics[57031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57032] = {
+_G.pg.base.item_data_statistics[57032] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51090,7 +51138,7 @@ _G.pg.item_data_statistics[57032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57033] = {
+_G.pg.base.item_data_statistics[57033] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51137,7 +51185,7 @@ _G.pg.item_data_statistics[57033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57034] = {
+_G.pg.base.item_data_statistics[57034] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51184,7 +51232,7 @@ _G.pg.item_data_statistics[57034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57035] = {
+_G.pg.base.item_data_statistics[57035] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51231,7 +51279,7 @@ _G.pg.item_data_statistics[57035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57036] = {
+_G.pg.base.item_data_statistics[57036] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51278,7 +51326,7 @@ _G.pg.item_data_statistics[57036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57037] = {
+_G.pg.base.item_data_statistics[57037] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51325,7 +51373,7 @@ _G.pg.item_data_statistics[57037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57038] = {
+_G.pg.base.item_data_statistics[57038] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51372,7 +51420,7 @@ _G.pg.item_data_statistics[57038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57041] = {
+_G.pg.base.item_data_statistics[57041] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51419,7 +51467,7 @@ _G.pg.item_data_statistics[57041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57042] = {
+_G.pg.base.item_data_statistics[57042] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51466,7 +51514,7 @@ _G.pg.item_data_statistics[57042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57043] = {
+_G.pg.base.item_data_statistics[57043] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51513,7 +51561,7 @@ _G.pg.item_data_statistics[57043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57044] = {
+_G.pg.base.item_data_statistics[57044] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51560,7 +51608,7 @@ _G.pg.item_data_statistics[57044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57045] = {
+_G.pg.base.item_data_statistics[57045] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51607,7 +51655,7 @@ _G.pg.item_data_statistics[57045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57046] = {
+_G.pg.base.item_data_statistics[57046] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51654,7 +51702,7 @@ _G.pg.item_data_statistics[57046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57047] = {
+_G.pg.base.item_data_statistics[57047] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51701,7 +51749,7 @@ _G.pg.item_data_statistics[57047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57048] = {
+_G.pg.base.item_data_statistics[57048] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51748,7 +51796,7 @@ _G.pg.item_data_statistics[57048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57051] = {
+_G.pg.base.item_data_statistics[57051] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51795,7 +51843,7 @@ _G.pg.item_data_statistics[57051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57052] = {
+_G.pg.base.item_data_statistics[57052] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51842,7 +51890,7 @@ _G.pg.item_data_statistics[57052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57053] = {
+_G.pg.base.item_data_statistics[57053] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51889,7 +51937,7 @@ _G.pg.item_data_statistics[57053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57054] = {
+_G.pg.base.item_data_statistics[57054] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51936,7 +51984,7 @@ _G.pg.item_data_statistics[57054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57055] = {
+_G.pg.base.item_data_statistics[57055] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -51988,7 +52036,7 @@ _G.pg.item_data_statistics[57055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57056] = {
+_G.pg.base.item_data_statistics[57056] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -52040,7 +52088,7 @@ _G.pg.item_data_statistics[57056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57057] = {
+_G.pg.base.item_data_statistics[57057] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -52092,7 +52140,7 @@ _G.pg.item_data_statistics[57057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57058] = {
+_G.pg.base.item_data_statistics[57058] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -52144,7 +52192,7 @@ _G.pg.item_data_statistics[57058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57061] = {
+_G.pg.base.item_data_statistics[57061] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -52266,7 +52314,7 @@ _G.pg.item_data_statistics[57061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57062] = {
+_G.pg.base.item_data_statistics[57062] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -52388,7 +52436,7 @@ _G.pg.item_data_statistics[57062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57063] = {
+_G.pg.base.item_data_statistics[57063] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -52510,7 +52558,7 @@ _G.pg.item_data_statistics[57063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57064] = {
+_G.pg.base.item_data_statistics[57064] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -52637,7 +52685,7 @@ _G.pg.item_data_statistics[57064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57065] = {
+_G.pg.base.item_data_statistics[57065] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -52764,7 +52812,7 @@ _G.pg.item_data_statistics[57065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57066] = {
+_G.pg.base.item_data_statistics[57066] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -52896,7 +52944,7 @@ _G.pg.item_data_statistics[57066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57067] = {
+_G.pg.base.item_data_statistics[57067] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53028,7 +53076,7 @@ _G.pg.item_data_statistics[57067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57068] = {
+_G.pg.base.item_data_statistics[57068] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53170,7 +53218,7 @@ _G.pg.item_data_statistics[57068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57071] = {
+_G.pg.base.item_data_statistics[57071] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53292,7 +53340,7 @@ _G.pg.item_data_statistics[57071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57072] = {
+_G.pg.base.item_data_statistics[57072] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53414,7 +53462,7 @@ _G.pg.item_data_statistics[57072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57073] = {
+_G.pg.base.item_data_statistics[57073] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53536,7 +53584,7 @@ _G.pg.item_data_statistics[57073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57074] = {
+_G.pg.base.item_data_statistics[57074] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53668,7 +53716,7 @@ _G.pg.item_data_statistics[57074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57075] = {
+_G.pg.base.item_data_statistics[57075] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53800,7 +53848,7 @@ _G.pg.item_data_statistics[57075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57076] = {
+_G.pg.base.item_data_statistics[57076] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -53937,7 +53985,7 @@ _G.pg.item_data_statistics[57076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57077] = {
+_G.pg.base.item_data_statistics[57077] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -54079,7 +54127,7 @@ _G.pg.item_data_statistics[57077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57078] = {
+_G.pg.base.item_data_statistics[57078] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -54231,7 +54279,7 @@ _G.pg.item_data_statistics[57078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57111] = {
+_G.pg.base.item_data_statistics[57111] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54278,7 +54326,7 @@ _G.pg.item_data_statistics[57111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57112] = {
+_G.pg.base.item_data_statistics[57112] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54325,7 +54373,7 @@ _G.pg.item_data_statistics[57112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57113] = {
+_G.pg.base.item_data_statistics[57113] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54372,7 +54420,7 @@ _G.pg.item_data_statistics[57113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57114] = {
+_G.pg.base.item_data_statistics[57114] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54414,7 +54462,7 @@ _G.pg.item_data_statistics[57114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57115] = {
+_G.pg.base.item_data_statistics[57115] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54456,7 +54504,7 @@ _G.pg.item_data_statistics[57115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57116] = {
+_G.pg.base.item_data_statistics[57116] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54498,7 +54546,7 @@ _G.pg.item_data_statistics[57116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57121] = {
+_G.pg.base.item_data_statistics[57121] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54545,7 +54593,7 @@ _G.pg.item_data_statistics[57121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57122] = {
+_G.pg.base.item_data_statistics[57122] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54592,7 +54640,7 @@ _G.pg.item_data_statistics[57122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57123] = {
+_G.pg.base.item_data_statistics[57123] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54639,7 +54687,7 @@ _G.pg.item_data_statistics[57123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57124] = {
+_G.pg.base.item_data_statistics[57124] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54676,7 +54724,7 @@ _G.pg.item_data_statistics[57124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57125] = {
+_G.pg.base.item_data_statistics[57125] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54713,7 +54761,7 @@ _G.pg.item_data_statistics[57125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57126] = {
+_G.pg.base.item_data_statistics[57126] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -54750,7 +54798,7 @@ _G.pg.item_data_statistics[57126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57131] = {
+_G.pg.base.item_data_statistics[57131] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -54882,7 +54930,7 @@ _G.pg.item_data_statistics[57131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57132] = {
+_G.pg.base.item_data_statistics[57132] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -55014,7 +55062,7 @@ _G.pg.item_data_statistics[57132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57133] = {
+_G.pg.base.item_data_statistics[57133] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -55156,7 +55204,7 @@ _G.pg.item_data_statistics[57133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57134] = {
+_G.pg.base.item_data_statistics[57134] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -55288,7 +55336,7 @@ _G.pg.item_data_statistics[57134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57135] = {
+_G.pg.base.item_data_statistics[57135] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -55420,7 +55468,7 @@ _G.pg.item_data_statistics[57135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57136] = {
+_G.pg.base.item_data_statistics[57136] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -55562,7 +55610,7 @@ _G.pg.item_data_statistics[57136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57141] = {
+_G.pg.base.item_data_statistics[57141] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55609,7 +55657,7 @@ _G.pg.item_data_statistics[57141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57142] = {
+_G.pg.base.item_data_statistics[57142] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55656,7 +55704,7 @@ _G.pg.item_data_statistics[57142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57143] = {
+_G.pg.base.item_data_statistics[57143] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55703,7 +55751,7 @@ _G.pg.item_data_statistics[57143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57144] = {
+_G.pg.base.item_data_statistics[57144] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55750,7 +55798,7 @@ _G.pg.item_data_statistics[57144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57145] = {
+_G.pg.base.item_data_statistics[57145] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55797,7 +55845,7 @@ _G.pg.item_data_statistics[57145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57146] = {
+_G.pg.base.item_data_statistics[57146] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55844,7 +55892,7 @@ _G.pg.item_data_statistics[57146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57151] = {
+_G.pg.base.item_data_statistics[57151] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55886,7 +55934,7 @@ _G.pg.item_data_statistics[57151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57152] = {
+_G.pg.base.item_data_statistics[57152] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55928,7 +55976,7 @@ _G.pg.item_data_statistics[57152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57153] = {
+_G.pg.base.item_data_statistics[57153] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -55970,7 +56018,7 @@ _G.pg.item_data_statistics[57153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57154] = {
+_G.pg.base.item_data_statistics[57154] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -56007,7 +56055,7 @@ _G.pg.item_data_statistics[57154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57155] = {
+_G.pg.base.item_data_statistics[57155] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -56044,7 +56092,7 @@ _G.pg.item_data_statistics[57155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57156] = {
+_G.pg.base.item_data_statistics[57156] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -56081,7 +56129,7 @@ _G.pg.item_data_statistics[57156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57161] = {
+_G.pg.base.item_data_statistics[57161] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -56213,7 +56261,7 @@ _G.pg.item_data_statistics[57161] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57162] = {
+_G.pg.base.item_data_statistics[57162] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -56345,7 +56393,7 @@ _G.pg.item_data_statistics[57162] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57163] = {
+_G.pg.base.item_data_statistics[57163] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -56487,7 +56535,7 @@ _G.pg.item_data_statistics[57163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57164] = {
+_G.pg.base.item_data_statistics[57164] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -56624,7 +56672,7 @@ _G.pg.item_data_statistics[57164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57165] = {
+_G.pg.base.item_data_statistics[57165] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -56761,7 +56809,7 @@ _G.pg.item_data_statistics[57165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57166] = {
+_G.pg.base.item_data_statistics[57166] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -56903,7 +56951,7 @@ _G.pg.item_data_statistics[57166] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57171] = {
+_G.pg.base.item_data_statistics[57171] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -56950,7 +56998,7 @@ _G.pg.item_data_statistics[57171] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57172] = {
+_G.pg.base.item_data_statistics[57172] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -56997,7 +57045,7 @@ _G.pg.item_data_statistics[57172] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57173] = {
+_G.pg.base.item_data_statistics[57173] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57044,7 +57092,7 @@ _G.pg.item_data_statistics[57173] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57174] = {
+_G.pg.base.item_data_statistics[57174] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57086,7 +57134,7 @@ _G.pg.item_data_statistics[57174] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57175] = {
+_G.pg.base.item_data_statistics[57175] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57128,7 +57176,7 @@ _G.pg.item_data_statistics[57175] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57176] = {
+_G.pg.base.item_data_statistics[57176] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57170,7 +57218,7 @@ _G.pg.item_data_statistics[57176] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57177] = {
+_G.pg.base.item_data_statistics[57177] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -57302,7 +57350,7 @@ _G.pg.item_data_statistics[57177] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57178] = {
+_G.pg.base.item_data_statistics[57178] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -57439,7 +57487,7 @@ _G.pg.item_data_statistics[57178] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57179] = {
+_G.pg.base.item_data_statistics[57179] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -57576,7 +57624,7 @@ _G.pg.item_data_statistics[57179] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57181] = {
+_G.pg.base.item_data_statistics[57181] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57623,7 +57671,7 @@ _G.pg.item_data_statistics[57181] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57182] = {
+_G.pg.base.item_data_statistics[57182] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57670,7 +57718,7 @@ _G.pg.item_data_statistics[57182] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57183] = {
+_G.pg.base.item_data_statistics[57183] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57717,7 +57765,7 @@ _G.pg.item_data_statistics[57183] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57184] = {
+_G.pg.base.item_data_statistics[57184] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57764,7 +57812,7 @@ _G.pg.item_data_statistics[57184] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57185] = {
+_G.pg.base.item_data_statistics[57185] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57811,7 +57859,7 @@ _G.pg.item_data_statistics[57185] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57186] = {
+_G.pg.base.item_data_statistics[57186] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57858,7 +57906,7 @@ _G.pg.item_data_statistics[57186] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57191] = {
+_G.pg.base.item_data_statistics[57191] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57905,7 +57953,7 @@ _G.pg.item_data_statistics[57191] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57192] = {
+_G.pg.base.item_data_statistics[57192] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57952,7 +58000,7 @@ _G.pg.item_data_statistics[57192] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57193] = {
+_G.pg.base.item_data_statistics[57193] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -57999,7 +58047,7 @@ _G.pg.item_data_statistics[57193] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57194] = {
+_G.pg.base.item_data_statistics[57194] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -58046,7 +58094,7 @@ _G.pg.item_data_statistics[57194] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57195] = {
+_G.pg.base.item_data_statistics[57195] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -58093,7 +58141,7 @@ _G.pg.item_data_statistics[57195] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57196] = {
+_G.pg.base.item_data_statistics[57196] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -58140,7 +58188,7 @@ _G.pg.item_data_statistics[57196] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57201] = {
+_G.pg.base.item_data_statistics[57201] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -58272,7 +58320,7 @@ _G.pg.item_data_statistics[57201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57202] = {
+_G.pg.base.item_data_statistics[57202] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -58404,7 +58452,7 @@ _G.pg.item_data_statistics[57202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57203] = {
+_G.pg.base.item_data_statistics[57203] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -58541,7 +58589,7 @@ _G.pg.item_data_statistics[57203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57204] = {
+_G.pg.base.item_data_statistics[57204] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -58678,7 +58726,7 @@ _G.pg.item_data_statistics[57204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57205] = {
+_G.pg.base.item_data_statistics[57205] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -58815,7 +58863,7 @@ _G.pg.item_data_statistics[57205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57206] = {
+_G.pg.base.item_data_statistics[57206] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -58952,7 +59000,7 @@ _G.pg.item_data_statistics[57206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57211] = {
+_G.pg.base.item_data_statistics[57211] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -58999,7 +59047,7 @@ _G.pg.item_data_statistics[57211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57212] = {
+_G.pg.base.item_data_statistics[57212] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59046,7 +59094,7 @@ _G.pg.item_data_statistics[57212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57213] = {
+_G.pg.base.item_data_statistics[57213] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59093,7 +59141,7 @@ _G.pg.item_data_statistics[57213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57214] = {
+_G.pg.base.item_data_statistics[57214] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59140,7 +59188,7 @@ _G.pg.item_data_statistics[57214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57215] = {
+_G.pg.base.item_data_statistics[57215] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59187,7 +59235,7 @@ _G.pg.item_data_statistics[57215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57216] = {
+_G.pg.base.item_data_statistics[57216] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59234,7 +59282,7 @@ _G.pg.item_data_statistics[57216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57221] = {
+_G.pg.base.item_data_statistics[57221] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59276,7 +59324,7 @@ _G.pg.item_data_statistics[57221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57222] = {
+_G.pg.base.item_data_statistics[57222] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59318,7 +59366,7 @@ _G.pg.item_data_statistics[57222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57223] = {
+_G.pg.base.item_data_statistics[57223] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59360,7 +59408,7 @@ _G.pg.item_data_statistics[57223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57224] = {
+_G.pg.base.item_data_statistics[57224] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59402,7 +59450,7 @@ _G.pg.item_data_statistics[57224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57225] = {
+_G.pg.base.item_data_statistics[57225] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59444,7 +59492,7 @@ _G.pg.item_data_statistics[57225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57226] = {
+_G.pg.base.item_data_statistics[57226] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -59481,7 +59529,7 @@ _G.pg.item_data_statistics[57226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57231] = {
+_G.pg.base.item_data_statistics[57231] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -59613,7 +59661,7 @@ _G.pg.item_data_statistics[57231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57232] = {
+_G.pg.base.item_data_statistics[57232] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -59745,7 +59793,7 @@ _G.pg.item_data_statistics[57232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57233] = {
+_G.pg.base.item_data_statistics[57233] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -59882,7 +59930,7 @@ _G.pg.item_data_statistics[57233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57234] = {
+_G.pg.base.item_data_statistics[57234] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -60024,7 +60072,7 @@ _G.pg.item_data_statistics[57234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57235] = {
+_G.pg.base.item_data_statistics[57235] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -60166,7 +60214,7 @@ _G.pg.item_data_statistics[57235] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57236] = {
+_G.pg.base.item_data_statistics[57236] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -60308,7 +60356,7 @@ _G.pg.item_data_statistics[57236] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57241] = {
+_G.pg.base.item_data_statistics[57241] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -60355,7 +60403,7 @@ _G.pg.item_data_statistics[57241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57242] = {
+_G.pg.base.item_data_statistics[57242] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -60402,7 +60450,7 @@ _G.pg.item_data_statistics[57242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57243] = {
+_G.pg.base.item_data_statistics[57243] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -60449,7 +60497,7 @@ _G.pg.item_data_statistics[57243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57244] = {
+_G.pg.base.item_data_statistics[57244] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -60496,7 +60544,7 @@ _G.pg.item_data_statistics[57244] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57245] = {
+_G.pg.base.item_data_statistics[57245] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -60538,7 +60586,7 @@ _G.pg.item_data_statistics[57245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57246] = {
+_G.pg.base.item_data_statistics[57246] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -60580,7 +60628,7 @@ _G.pg.item_data_statistics[57246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57247] = {
+_G.pg.base.item_data_statistics[57247] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -60712,7 +60760,7 @@ _G.pg.item_data_statistics[57247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57248] = {
+_G.pg.base.item_data_statistics[57248] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -60844,7 +60892,7 @@ _G.pg.item_data_statistics[57248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57249] = {
+_G.pg.base.item_data_statistics[57249] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -60976,7 +61024,7 @@ _G.pg.item_data_statistics[57249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57251] = {
+_G.pg.base.item_data_statistics[57251] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61023,7 +61071,7 @@ _G.pg.item_data_statistics[57251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57252] = {
+_G.pg.base.item_data_statistics[57252] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61070,7 +61118,7 @@ _G.pg.item_data_statistics[57252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57253] = {
+_G.pg.base.item_data_statistics[57253] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61117,7 +61165,7 @@ _G.pg.item_data_statistics[57253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57254] = {
+_G.pg.base.item_data_statistics[57254] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61164,7 +61212,7 @@ _G.pg.item_data_statistics[57254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57255] = {
+_G.pg.base.item_data_statistics[57255] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61211,7 +61259,7 @@ _G.pg.item_data_statistics[57255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57256] = {
+_G.pg.base.item_data_statistics[57256] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61258,7 +61306,7 @@ _G.pg.item_data_statistics[57256] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57257] = {
+_G.pg.base.item_data_statistics[57257] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61305,7 +61353,7 @@ _G.pg.item_data_statistics[57257] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57258] = {
+_G.pg.base.item_data_statistics[57258] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -61347,7 +61395,7 @@ _G.pg.item_data_statistics[57258] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57259] = {
+_G.pg.base.item_data_statistics[57259] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -61479,7 +61527,7 @@ _G.pg.item_data_statistics[57259] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57260] = {
+_G.pg.base.item_data_statistics[57260] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -61611,7 +61659,7 @@ _G.pg.item_data_statistics[57260] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57261] = {
+_G.pg.base.item_data_statistics[57261] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -61743,7 +61791,7 @@ _G.pg.item_data_statistics[57261] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57262] = {
+_G.pg.base.item_data_statistics[57262] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -61875,7 +61923,7 @@ _G.pg.item_data_statistics[57262] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57263] = {
+_G.pg.base.item_data_statistics[57263] = {
 	display = "有機率獲得海王星聯動外觀裝備箱，獲得以下裝備外觀之一",
 	name = "海王星聯動外觀裝備箱",
 	max_num = 0,
@@ -61972,7 +62020,7 @@ _G.pg.item_data_statistics[57263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57271] = {
+_G.pg.base.item_data_statistics[57271] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62019,7 +62067,7 @@ _G.pg.item_data_statistics[57271] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57272] = {
+_G.pg.base.item_data_statistics[57272] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62066,7 +62114,7 @@ _G.pg.item_data_statistics[57272] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57273] = {
+_G.pg.base.item_data_statistics[57273] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62113,7 +62161,7 @@ _G.pg.item_data_statistics[57273] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57274] = {
+_G.pg.base.item_data_statistics[57274] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62160,7 +62208,7 @@ _G.pg.item_data_statistics[57274] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57275] = {
+_G.pg.base.item_data_statistics[57275] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62207,7 +62255,7 @@ _G.pg.item_data_statistics[57275] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57276] = {
+_G.pg.base.item_data_statistics[57276] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62254,7 +62302,7 @@ _G.pg.item_data_statistics[57276] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57281] = {
+_G.pg.base.item_data_statistics[57281] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62301,7 +62349,7 @@ _G.pg.item_data_statistics[57281] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57282] = {
+_G.pg.base.item_data_statistics[57282] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62348,7 +62396,7 @@ _G.pg.item_data_statistics[57282] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57283] = {
+_G.pg.base.item_data_statistics[57283] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62395,7 +62443,7 @@ _G.pg.item_data_statistics[57283] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57284] = {
+_G.pg.base.item_data_statistics[57284] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62442,7 +62490,7 @@ _G.pg.item_data_statistics[57284] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57285] = {
+_G.pg.base.item_data_statistics[57285] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62489,7 +62537,7 @@ _G.pg.item_data_statistics[57285] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57286] = {
+_G.pg.base.item_data_statistics[57286] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -62536,7 +62584,7 @@ _G.pg.item_data_statistics[57286] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57291] = {
+_G.pg.base.item_data_statistics[57291] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -62668,7 +62716,7 @@ _G.pg.item_data_statistics[57291] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57292] = {
+_G.pg.base.item_data_statistics[57292] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -62800,7 +62848,7 @@ _G.pg.item_data_statistics[57292] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57293] = {
+_G.pg.base.item_data_statistics[57293] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -62937,7 +62985,7 @@ _G.pg.item_data_statistics[57293] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57294] = {
+_G.pg.base.item_data_statistics[57294] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -63074,7 +63122,7 @@ _G.pg.item_data_statistics[57294] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57295] = {
+_G.pg.base.item_data_statistics[57295] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -63211,7 +63259,7 @@ _G.pg.item_data_statistics[57295] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57296] = {
+_G.pg.base.item_data_statistics[57296] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -63348,7 +63396,7 @@ _G.pg.item_data_statistics[57296] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57301] = {
+_G.pg.base.item_data_statistics[57301] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63395,7 +63443,7 @@ _G.pg.item_data_statistics[57301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57302] = {
+_G.pg.base.item_data_statistics[57302] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63442,7 +63490,7 @@ _G.pg.item_data_statistics[57302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57303] = {
+_G.pg.base.item_data_statistics[57303] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63489,7 +63537,7 @@ _G.pg.item_data_statistics[57303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57304] = {
+_G.pg.base.item_data_statistics[57304] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63536,7 +63584,7 @@ _G.pg.item_data_statistics[57304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57305] = {
+_G.pg.base.item_data_statistics[57305] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63583,7 +63631,7 @@ _G.pg.item_data_statistics[57305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57306] = {
+_G.pg.base.item_data_statistics[57306] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63630,7 +63678,7 @@ _G.pg.item_data_statistics[57306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57311] = {
+_G.pg.base.item_data_statistics[57311] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63672,7 +63720,7 @@ _G.pg.item_data_statistics[57311] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57312] = {
+_G.pg.base.item_data_statistics[57312] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63714,7 +63762,7 @@ _G.pg.item_data_statistics[57312] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57313] = {
+_G.pg.base.item_data_statistics[57313] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63756,7 +63804,7 @@ _G.pg.item_data_statistics[57313] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57314] = {
+_G.pg.base.item_data_statistics[57314] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63798,7 +63846,7 @@ _G.pg.item_data_statistics[57314] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57315] = {
+_G.pg.base.item_data_statistics[57315] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63840,7 +63888,7 @@ _G.pg.item_data_statistics[57315] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57316] = {
+_G.pg.base.item_data_statistics[57316] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -63877,7 +63925,7 @@ _G.pg.item_data_statistics[57316] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57321] = {
+_G.pg.base.item_data_statistics[57321] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -64009,7 +64057,7 @@ _G.pg.item_data_statistics[57321] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57322] = {
+_G.pg.base.item_data_statistics[57322] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -64141,7 +64189,7 @@ _G.pg.item_data_statistics[57322] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57323] = {
+_G.pg.base.item_data_statistics[57323] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -64278,7 +64326,7 @@ _G.pg.item_data_statistics[57323] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57324] = {
+_G.pg.base.item_data_statistics[57324] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -64415,7 +64463,7 @@ _G.pg.item_data_statistics[57324] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57325] = {
+_G.pg.base.item_data_statistics[57325] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -64557,7 +64605,7 @@ _G.pg.item_data_statistics[57325] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57326] = {
+_G.pg.base.item_data_statistics[57326] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -64704,7 +64752,7 @@ _G.pg.item_data_statistics[57326] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57331] = {
+_G.pg.base.item_data_statistics[57331] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -64751,7 +64799,7 @@ _G.pg.item_data_statistics[57331] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57332] = {
+_G.pg.base.item_data_statistics[57332] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -64798,7 +64846,7 @@ _G.pg.item_data_statistics[57332] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57333] = {
+_G.pg.base.item_data_statistics[57333] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -64845,7 +64893,7 @@ _G.pg.item_data_statistics[57333] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57334] = {
+_G.pg.base.item_data_statistics[57334] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -64892,7 +64940,7 @@ _G.pg.item_data_statistics[57334] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57335] = {
+_G.pg.base.item_data_statistics[57335] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -64939,7 +64987,7 @@ _G.pg.item_data_statistics[57335] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57336] = {
+_G.pg.base.item_data_statistics[57336] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -64986,7 +65034,7 @@ _G.pg.item_data_statistics[57336] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57341] = {
+_G.pg.base.item_data_statistics[57341] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -65033,7 +65081,7 @@ _G.pg.item_data_statistics[57341] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57342] = {
+_G.pg.base.item_data_statistics[57342] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -65080,7 +65128,7 @@ _G.pg.item_data_statistics[57342] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57343] = {
+_G.pg.base.item_data_statistics[57343] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -65127,7 +65175,7 @@ _G.pg.item_data_statistics[57343] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57344] = {
+_G.pg.base.item_data_statistics[57344] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -65174,7 +65222,7 @@ _G.pg.item_data_statistics[57344] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57345] = {
+_G.pg.base.item_data_statistics[57345] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -65221,7 +65269,7 @@ _G.pg.item_data_statistics[57345] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57346] = {
+_G.pg.base.item_data_statistics[57346] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -65268,7 +65316,7 @@ _G.pg.item_data_statistics[57346] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57351] = {
+_G.pg.base.item_data_statistics[57351] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -65400,7 +65448,7 @@ _G.pg.item_data_statistics[57351] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57352] = {
+_G.pg.base.item_data_statistics[57352] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -65532,7 +65580,7 @@ _G.pg.item_data_statistics[57352] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57353] = {
+_G.pg.base.item_data_statistics[57353] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -65664,7 +65712,7 @@ _G.pg.item_data_statistics[57353] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57354] = {
+_G.pg.base.item_data_statistics[57354] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -65801,7 +65849,7 @@ _G.pg.item_data_statistics[57354] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57355] = {
+_G.pg.base.item_data_statistics[57355] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -65938,7 +65986,7 @@ _G.pg.item_data_statistics[57355] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57356] = {
+_G.pg.base.item_data_statistics[57356] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -66075,7 +66123,7 @@ _G.pg.item_data_statistics[57356] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57361] = {
+_G.pg.base.item_data_statistics[57361] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66122,7 +66170,7 @@ _G.pg.item_data_statistics[57361] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57362] = {
+_G.pg.base.item_data_statistics[57362] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66169,7 +66217,7 @@ _G.pg.item_data_statistics[57362] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57363] = {
+_G.pg.base.item_data_statistics[57363] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66216,7 +66264,7 @@ _G.pg.item_data_statistics[57363] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57364] = {
+_G.pg.base.item_data_statistics[57364] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66263,7 +66311,7 @@ _G.pg.item_data_statistics[57364] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57365] = {
+_G.pg.base.item_data_statistics[57365] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66310,7 +66358,7 @@ _G.pg.item_data_statistics[57365] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57366] = {
+_G.pg.base.item_data_statistics[57366] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66357,7 +66405,7 @@ _G.pg.item_data_statistics[57366] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57371] = {
+_G.pg.base.item_data_statistics[57371] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66399,7 +66447,7 @@ _G.pg.item_data_statistics[57371] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57372] = {
+_G.pg.base.item_data_statistics[57372] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66441,7 +66489,7 @@ _G.pg.item_data_statistics[57372] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57373] = {
+_G.pg.base.item_data_statistics[57373] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66483,7 +66531,7 @@ _G.pg.item_data_statistics[57373] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57374] = {
+_G.pg.base.item_data_statistics[57374] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66525,7 +66573,7 @@ _G.pg.item_data_statistics[57374] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57375] = {
+_G.pg.base.item_data_statistics[57375] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66567,7 +66615,7 @@ _G.pg.item_data_statistics[57375] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57376] = {
+_G.pg.base.item_data_statistics[57376] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -66609,7 +66657,7 @@ _G.pg.item_data_statistics[57376] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57381] = {
+_G.pg.base.item_data_statistics[57381] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -66741,7 +66789,7 @@ _G.pg.item_data_statistics[57381] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57382] = {
+_G.pg.base.item_data_statistics[57382] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -66873,7 +66921,7 @@ _G.pg.item_data_statistics[57382] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57383] = {
+_G.pg.base.item_data_statistics[57383] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -67005,7 +67053,7 @@ _G.pg.item_data_statistics[57383] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57384] = {
+_G.pg.base.item_data_statistics[57384] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -67142,7 +67190,7 @@ _G.pg.item_data_statistics[57384] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57385] = {
+_G.pg.base.item_data_statistics[57385] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -67284,7 +67332,7 @@ _G.pg.item_data_statistics[57385] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57386] = {
+_G.pg.base.item_data_statistics[57386] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -67431,7 +67479,7 @@ _G.pg.item_data_statistics[57386] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57391] = {
+_G.pg.base.item_data_statistics[57391] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -67478,7 +67526,7 @@ _G.pg.item_data_statistics[57391] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57392] = {
+_G.pg.base.item_data_statistics[57392] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -67525,7 +67573,7 @@ _G.pg.item_data_statistics[57392] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57393] = {
+_G.pg.base.item_data_statistics[57393] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -67572,7 +67620,7 @@ _G.pg.item_data_statistics[57393] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57394] = {
+_G.pg.base.item_data_statistics[57394] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -67619,7 +67667,7 @@ _G.pg.item_data_statistics[57394] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57395] = {
+_G.pg.base.item_data_statistics[57395] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -67661,7 +67709,7 @@ _G.pg.item_data_statistics[57395] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57396] = {
+_G.pg.base.item_data_statistics[57396] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -67703,7 +67751,7 @@ _G.pg.item_data_statistics[57396] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57397] = {
+_G.pg.base.item_data_statistics[57397] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -67835,7 +67883,7 @@ _G.pg.item_data_statistics[57397] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57398] = {
+_G.pg.base.item_data_statistics[57398] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -67967,7 +68015,7 @@ _G.pg.item_data_statistics[57398] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57399] = {
+_G.pg.base.item_data_statistics[57399] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -68099,7 +68147,7 @@ _G.pg.item_data_statistics[57399] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57401] = {
+_G.pg.base.item_data_statistics[57401] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68146,7 +68194,7 @@ _G.pg.item_data_statistics[57401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57402] = {
+_G.pg.base.item_data_statistics[57402] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68193,7 +68241,7 @@ _G.pg.item_data_statistics[57402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57403] = {
+_G.pg.base.item_data_statistics[57403] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68240,7 +68288,7 @@ _G.pg.item_data_statistics[57403] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57404] = {
+_G.pg.base.item_data_statistics[57404] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68287,7 +68335,7 @@ _G.pg.item_data_statistics[57404] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57405] = {
+_G.pg.base.item_data_statistics[57405] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68334,7 +68382,7 @@ _G.pg.item_data_statistics[57405] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57406] = {
+_G.pg.base.item_data_statistics[57406] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68381,7 +68429,7 @@ _G.pg.item_data_statistics[57406] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57411] = {
+_G.pg.base.item_data_statistics[57411] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68428,7 +68476,7 @@ _G.pg.item_data_statistics[57411] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57412] = {
+_G.pg.base.item_data_statistics[57412] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68475,7 +68523,7 @@ _G.pg.item_data_statistics[57412] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57413] = {
+_G.pg.base.item_data_statistics[57413] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68522,7 +68570,7 @@ _G.pg.item_data_statistics[57413] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57414] = {
+_G.pg.base.item_data_statistics[57414] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68569,7 +68617,7 @@ _G.pg.item_data_statistics[57414] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57415] = {
+_G.pg.base.item_data_statistics[57415] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68616,7 +68664,7 @@ _G.pg.item_data_statistics[57415] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57416] = {
+_G.pg.base.item_data_statistics[57416] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -68663,7 +68711,7 @@ _G.pg.item_data_statistics[57416] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57421] = {
+_G.pg.base.item_data_statistics[57421] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -68795,7 +68843,7 @@ _G.pg.item_data_statistics[57421] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57422] = {
+_G.pg.base.item_data_statistics[57422] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -68927,7 +68975,7 @@ _G.pg.item_data_statistics[57422] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57423] = {
+_G.pg.base.item_data_statistics[57423] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -69064,7 +69112,7 @@ _G.pg.item_data_statistics[57423] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57424] = {
+_G.pg.base.item_data_statistics[57424] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -69196,7 +69244,7 @@ _G.pg.item_data_statistics[57424] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57425] = {
+_G.pg.base.item_data_statistics[57425] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -69333,7 +69381,7 @@ _G.pg.item_data_statistics[57425] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57426] = {
+_G.pg.base.item_data_statistics[57426] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -69470,7 +69518,7 @@ _G.pg.item_data_statistics[57426] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57431] = {
+_G.pg.base.item_data_statistics[57431] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69517,7 +69565,7 @@ _G.pg.item_data_statistics[57431] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57432] = {
+_G.pg.base.item_data_statistics[57432] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69564,7 +69612,7 @@ _G.pg.item_data_statistics[57432] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57433] = {
+_G.pg.base.item_data_statistics[57433] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69611,7 +69659,7 @@ _G.pg.item_data_statistics[57433] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57434] = {
+_G.pg.base.item_data_statistics[57434] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69658,7 +69706,7 @@ _G.pg.item_data_statistics[57434] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57435] = {
+_G.pg.base.item_data_statistics[57435] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69705,7 +69753,7 @@ _G.pg.item_data_statistics[57435] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57436] = {
+_G.pg.base.item_data_statistics[57436] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69752,7 +69800,7 @@ _G.pg.item_data_statistics[57436] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57441] = {
+_G.pg.base.item_data_statistics[57441] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69794,7 +69842,7 @@ _G.pg.item_data_statistics[57441] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57442] = {
+_G.pg.base.item_data_statistics[57442] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69836,7 +69884,7 @@ _G.pg.item_data_statistics[57442] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57443] = {
+_G.pg.base.item_data_statistics[57443] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69878,7 +69926,7 @@ _G.pg.item_data_statistics[57443] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57444] = {
+_G.pg.base.item_data_statistics[57444] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69920,7 +69968,7 @@ _G.pg.item_data_statistics[57444] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57445] = {
+_G.pg.base.item_data_statistics[57445] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -69962,7 +70010,7 @@ _G.pg.item_data_statistics[57445] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57446] = {
+_G.pg.base.item_data_statistics[57446] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -70004,7 +70052,7 @@ _G.pg.item_data_statistics[57446] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57451] = {
+_G.pg.base.item_data_statistics[57451] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -70136,7 +70184,7 @@ _G.pg.item_data_statistics[57451] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57452] = {
+_G.pg.base.item_data_statistics[57452] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -70268,7 +70316,7 @@ _G.pg.item_data_statistics[57452] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57453] = {
+_G.pg.base.item_data_statistics[57453] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -70405,7 +70453,7 @@ _G.pg.item_data_statistics[57453] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57454] = {
+_G.pg.base.item_data_statistics[57454] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -70537,7 +70585,7 @@ _G.pg.item_data_statistics[57454] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57455] = {
+_G.pg.base.item_data_statistics[57455] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -70674,7 +70722,7 @@ _G.pg.item_data_statistics[57455] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57456] = {
+_G.pg.base.item_data_statistics[57456] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -70816,7 +70864,7 @@ _G.pg.item_data_statistics[57456] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57461] = {
+_G.pg.base.item_data_statistics[57461] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -70863,7 +70911,7 @@ _G.pg.item_data_statistics[57461] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57462] = {
+_G.pg.base.item_data_statistics[57462] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -70910,7 +70958,7 @@ _G.pg.item_data_statistics[57462] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57463] = {
+_G.pg.base.item_data_statistics[57463] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -70957,7 +71005,7 @@ _G.pg.item_data_statistics[57463] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57471] = {
+_G.pg.base.item_data_statistics[57471] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71004,7 +71052,7 @@ _G.pg.item_data_statistics[57471] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57472] = {
+_G.pg.base.item_data_statistics[57472] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71051,7 +71099,7 @@ _G.pg.item_data_statistics[57472] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57473] = {
+_G.pg.base.item_data_statistics[57473] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71098,7 +71146,7 @@ _G.pg.item_data_statistics[57473] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57474] = {
+_G.pg.base.item_data_statistics[57474] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71145,7 +71193,7 @@ _G.pg.item_data_statistics[57474] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57475] = {
+_G.pg.base.item_data_statistics[57475] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71192,7 +71240,7 @@ _G.pg.item_data_statistics[57475] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57476] = {
+_G.pg.base.item_data_statistics[57476] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71239,7 +71287,7 @@ _G.pg.item_data_statistics[57476] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57477] = {
+_G.pg.base.item_data_statistics[57477] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71286,7 +71334,7 @@ _G.pg.item_data_statistics[57477] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57478] = {
+_G.pg.base.item_data_statistics[57478] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -71328,7 +71376,7 @@ _G.pg.item_data_statistics[57478] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57479] = {
+_G.pg.base.item_data_statistics[57479] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -71460,7 +71508,7 @@ _G.pg.item_data_statistics[57479] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57480] = {
+_G.pg.base.item_data_statistics[57480] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -71592,7 +71640,7 @@ _G.pg.item_data_statistics[57480] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57481] = {
+_G.pg.base.item_data_statistics[57481] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -71724,7 +71772,7 @@ _G.pg.item_data_statistics[57481] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57482] = {
+_G.pg.base.item_data_statistics[57482] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -71856,7 +71904,7 @@ _G.pg.item_data_statistics[57482] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57483] = {
+_G.pg.base.item_data_statistics[57483] = {
 	display = "有機率獲得傳頌之物聯動外觀裝備箱，獲得以下裝備外觀之一",
 	name = "傳頌之物聯動外觀裝備箱",
 	max_num = 0,
@@ -71968,7 +72016,7 @@ _G.pg.item_data_statistics[57483] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57491] = {
+_G.pg.base.item_data_statistics[57491] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72015,7 +72063,7 @@ _G.pg.item_data_statistics[57491] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57492] = {
+_G.pg.base.item_data_statistics[57492] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72062,7 +72110,7 @@ _G.pg.item_data_statistics[57492] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57493] = {
+_G.pg.base.item_data_statistics[57493] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72109,7 +72157,7 @@ _G.pg.item_data_statistics[57493] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57494] = {
+_G.pg.base.item_data_statistics[57494] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72156,7 +72204,7 @@ _G.pg.item_data_statistics[57494] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57495] = {
+_G.pg.base.item_data_statistics[57495] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72203,7 +72251,7 @@ _G.pg.item_data_statistics[57495] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57496] = {
+_G.pg.base.item_data_statistics[57496] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72245,7 +72293,7 @@ _G.pg.item_data_statistics[57496] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57497] = {
+_G.pg.base.item_data_statistics[57497] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -72377,7 +72425,7 @@ _G.pg.item_data_statistics[57497] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57498] = {
+_G.pg.base.item_data_statistics[57498] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -72509,7 +72557,7 @@ _G.pg.item_data_statistics[57498] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57499] = {
+_G.pg.base.item_data_statistics[57499] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -72641,7 +72689,7 @@ _G.pg.item_data_statistics[57499] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57501] = {
+_G.pg.base.item_data_statistics[57501] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72688,7 +72736,7 @@ _G.pg.item_data_statistics[57501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57502] = {
+_G.pg.base.item_data_statistics[57502] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72735,7 +72783,7 @@ _G.pg.item_data_statistics[57502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57503] = {
+_G.pg.base.item_data_statistics[57503] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72782,7 +72830,7 @@ _G.pg.item_data_statistics[57503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57504] = {
+_G.pg.base.item_data_statistics[57504] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72829,7 +72877,7 @@ _G.pg.item_data_statistics[57504] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57505] = {
+_G.pg.base.item_data_statistics[57505] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72876,7 +72924,7 @@ _G.pg.item_data_statistics[57505] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57506] = {
+_G.pg.base.item_data_statistics[57506] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72923,7 +72971,7 @@ _G.pg.item_data_statistics[57506] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57511] = {
+_G.pg.base.item_data_statistics[57511] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -72970,7 +73018,7 @@ _G.pg.item_data_statistics[57511] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57512] = {
+_G.pg.base.item_data_statistics[57512] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -73017,7 +73065,7 @@ _G.pg.item_data_statistics[57512] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57513] = {
+_G.pg.base.item_data_statistics[57513] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -73064,7 +73112,7 @@ _G.pg.item_data_statistics[57513] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57514] = {
+_G.pg.base.item_data_statistics[57514] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -73111,7 +73159,7 @@ _G.pg.item_data_statistics[57514] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57515] = {
+_G.pg.base.item_data_statistics[57515] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -73158,7 +73206,7 @@ _G.pg.item_data_statistics[57515] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57516] = {
+_G.pg.base.item_data_statistics[57516] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -73205,7 +73253,7 @@ _G.pg.item_data_statistics[57516] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57521] = {
+_G.pg.base.item_data_statistics[57521] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -73337,7 +73385,7 @@ _G.pg.item_data_statistics[57521] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57522] = {
+_G.pg.base.item_data_statistics[57522] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -73469,7 +73517,7 @@ _G.pg.item_data_statistics[57522] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57523] = {
+_G.pg.base.item_data_statistics[57523] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -73606,7 +73654,7 @@ _G.pg.item_data_statistics[57523] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57524] = {
+_G.pg.base.item_data_statistics[57524] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -73738,7 +73786,7 @@ _G.pg.item_data_statistics[57524] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57525] = {
+_G.pg.base.item_data_statistics[57525] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -73875,7 +73923,7 @@ _G.pg.item_data_statistics[57525] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57526] = {
+_G.pg.base.item_data_statistics[57526] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -74012,7 +74060,7 @@ _G.pg.item_data_statistics[57526] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57531] = {
+_G.pg.base.item_data_statistics[57531] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74059,7 +74107,7 @@ _G.pg.item_data_statistics[57531] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57532] = {
+_G.pg.base.item_data_statistics[57532] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74106,7 +74154,7 @@ _G.pg.item_data_statistics[57532] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57533] = {
+_G.pg.base.item_data_statistics[57533] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74153,7 +74201,7 @@ _G.pg.item_data_statistics[57533] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57534] = {
+_G.pg.base.item_data_statistics[57534] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74200,7 +74248,7 @@ _G.pg.item_data_statistics[57534] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57535] = {
+_G.pg.base.item_data_statistics[57535] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74247,7 +74295,7 @@ _G.pg.item_data_statistics[57535] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57536] = {
+_G.pg.base.item_data_statistics[57536] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74294,7 +74342,7 @@ _G.pg.item_data_statistics[57536] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57541] = {
+_G.pg.base.item_data_statistics[57541] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74336,7 +74384,7 @@ _G.pg.item_data_statistics[57541] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57542] = {
+_G.pg.base.item_data_statistics[57542] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74378,7 +74426,7 @@ _G.pg.item_data_statistics[57542] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57543] = {
+_G.pg.base.item_data_statistics[57543] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74420,7 +74468,7 @@ _G.pg.item_data_statistics[57543] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57544] = {
+_G.pg.base.item_data_statistics[57544] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74462,7 +74510,7 @@ _G.pg.item_data_statistics[57544] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57545] = {
+_G.pg.base.item_data_statistics[57545] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74504,7 +74552,7 @@ _G.pg.item_data_statistics[57545] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57546] = {
+_G.pg.base.item_data_statistics[57546] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -74546,7 +74594,7 @@ _G.pg.item_data_statistics[57546] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57551] = {
+_G.pg.base.item_data_statistics[57551] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -74678,7 +74726,7 @@ _G.pg.item_data_statistics[57551] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57552] = {
+_G.pg.base.item_data_statistics[57552] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -74810,7 +74858,7 @@ _G.pg.item_data_statistics[57552] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57553] = {
+_G.pg.base.item_data_statistics[57553] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -74947,7 +74995,7 @@ _G.pg.item_data_statistics[57553] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57554] = {
+_G.pg.base.item_data_statistics[57554] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -75079,7 +75127,7 @@ _G.pg.item_data_statistics[57554] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57555] = {
+_G.pg.base.item_data_statistics[57555] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -75216,7 +75264,7 @@ _G.pg.item_data_statistics[57555] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57556] = {
+_G.pg.base.item_data_statistics[57556] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -75353,7 +75401,7 @@ _G.pg.item_data_statistics[57556] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57560] = {
+_G.pg.base.item_data_statistics[57560] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -75400,7 +75448,7 @@ _G.pg.item_data_statistics[57560] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57561] = {
+_G.pg.base.item_data_statistics[57561] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -75447,7 +75495,7 @@ _G.pg.item_data_statistics[57561] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57562] = {
+_G.pg.base.item_data_statistics[57562] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -75494,7 +75542,7 @@ _G.pg.item_data_statistics[57562] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57563] = {
+_G.pg.base.item_data_statistics[57563] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -75541,7 +75589,7 @@ _G.pg.item_data_statistics[57563] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57564] = {
+_G.pg.base.item_data_statistics[57564] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -75588,7 +75636,7 @@ _G.pg.item_data_statistics[57564] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57565] = {
+_G.pg.base.item_data_statistics[57565] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -75635,7 +75683,7 @@ _G.pg.item_data_statistics[57565] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57566] = {
+_G.pg.base.item_data_statistics[57566] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -75677,7 +75725,7 @@ _G.pg.item_data_statistics[57566] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57567] = {
+_G.pg.base.item_data_statistics[57567] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -75809,7 +75857,7 @@ _G.pg.item_data_statistics[57567] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57568] = {
+_G.pg.base.item_data_statistics[57568] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -75941,7 +75989,7 @@ _G.pg.item_data_statistics[57568] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57569] = {
+_G.pg.base.item_data_statistics[57569] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -76073,7 +76121,7 @@ _G.pg.item_data_statistics[57569] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57590] = {
+_G.pg.base.item_data_statistics[57590] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76120,7 +76168,7 @@ _G.pg.item_data_statistics[57590] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57591] = {
+_G.pg.base.item_data_statistics[57591] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76167,7 +76215,7 @@ _G.pg.item_data_statistics[57591] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57592] = {
+_G.pg.base.item_data_statistics[57592] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76214,7 +76262,7 @@ _G.pg.item_data_statistics[57592] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57593] = {
+_G.pg.base.item_data_statistics[57593] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76261,7 +76309,7 @@ _G.pg.item_data_statistics[57593] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57594] = {
+_G.pg.base.item_data_statistics[57594] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76308,7 +76356,7 @@ _G.pg.item_data_statistics[57594] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57595] = {
+_G.pg.base.item_data_statistics[57595] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76355,7 +76403,7 @@ _G.pg.item_data_statistics[57595] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57596] = {
+_G.pg.base.item_data_statistics[57596] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76402,7 +76450,7 @@ _G.pg.item_data_statistics[57596] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57597] = {
+_G.pg.base.item_data_statistics[57597] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76449,7 +76497,7 @@ _G.pg.item_data_statistics[57597] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57598] = {
+_G.pg.base.item_data_statistics[57598] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76496,7 +76544,7 @@ _G.pg.item_data_statistics[57598] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57599] = {
+_G.pg.base.item_data_statistics[57599] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76543,7 +76591,7 @@ _G.pg.item_data_statistics[57599] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57600] = {
+_G.pg.base.item_data_statistics[57600] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76590,7 +76638,7 @@ _G.pg.item_data_statistics[57600] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57601] = {
+_G.pg.base.item_data_statistics[57601] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -76637,7 +76685,7 @@ _G.pg.item_data_statistics[57601] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57602] = {
+_G.pg.base.item_data_statistics[57602] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -76769,7 +76817,7 @@ _G.pg.item_data_statistics[57602] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57603] = {
+_G.pg.base.item_data_statistics[57603] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -76901,7 +76949,7 @@ _G.pg.item_data_statistics[57603] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57604] = {
+_G.pg.base.item_data_statistics[57604] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -77033,7 +77081,7 @@ _G.pg.item_data_statistics[57604] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57605] = {
+_G.pg.base.item_data_statistics[57605] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -77165,7 +77213,7 @@ _G.pg.item_data_statistics[57605] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57606] = {
+_G.pg.base.item_data_statistics[57606] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -77297,7 +77345,7 @@ _G.pg.item_data_statistics[57606] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57607] = {
+_G.pg.base.item_data_statistics[57607] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -77429,7 +77477,7 @@ _G.pg.item_data_statistics[57607] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57608] = {
+_G.pg.base.item_data_statistics[57608] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77476,7 +77524,7 @@ _G.pg.item_data_statistics[57608] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57609] = {
+_G.pg.base.item_data_statistics[57609] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77523,7 +77571,7 @@ _G.pg.item_data_statistics[57609] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57610] = {
+_G.pg.base.item_data_statistics[57610] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77570,7 +77618,7 @@ _G.pg.item_data_statistics[57610] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57611] = {
+_G.pg.base.item_data_statistics[57611] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77617,7 +77665,7 @@ _G.pg.item_data_statistics[57611] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57612] = {
+_G.pg.base.item_data_statistics[57612] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77664,7 +77712,7 @@ _G.pg.item_data_statistics[57612] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57613] = {
+_G.pg.base.item_data_statistics[57613] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77711,7 +77759,7 @@ _G.pg.item_data_statistics[57613] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57614] = {
+_G.pg.base.item_data_statistics[57614] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77753,7 +77801,7 @@ _G.pg.item_data_statistics[57614] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57615] = {
+_G.pg.base.item_data_statistics[57615] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77795,7 +77843,7 @@ _G.pg.item_data_statistics[57615] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57616] = {
+_G.pg.base.item_data_statistics[57616] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77837,7 +77885,7 @@ _G.pg.item_data_statistics[57616] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57617] = {
+_G.pg.base.item_data_statistics[57617] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77879,7 +77927,7 @@ _G.pg.item_data_statistics[57617] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57618] = {
+_G.pg.base.item_data_statistics[57618] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77921,7 +77969,7 @@ _G.pg.item_data_statistics[57618] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57619] = {
+_G.pg.base.item_data_statistics[57619] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -77963,7 +78011,7 @@ _G.pg.item_data_statistics[57619] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57620] = {
+_G.pg.base.item_data_statistics[57620] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -78095,7 +78143,7 @@ _G.pg.item_data_statistics[57620] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57621] = {
+_G.pg.base.item_data_statistics[57621] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -78227,7 +78275,7 @@ _G.pg.item_data_statistics[57621] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57622] = {
+_G.pg.base.item_data_statistics[57622] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -78359,7 +78407,7 @@ _G.pg.item_data_statistics[57622] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57623] = {
+_G.pg.base.item_data_statistics[57623] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -78491,7 +78539,7 @@ _G.pg.item_data_statistics[57623] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57624] = {
+_G.pg.base.item_data_statistics[57624] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -78623,7 +78671,7 @@ _G.pg.item_data_statistics[57624] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57625] = {
+_G.pg.base.item_data_statistics[57625] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -78755,7 +78803,7 @@ _G.pg.item_data_statistics[57625] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57630] = {
+_G.pg.base.item_data_statistics[57630] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -78802,7 +78850,7 @@ _G.pg.item_data_statistics[57630] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57631] = {
+_G.pg.base.item_data_statistics[57631] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -78849,7 +78897,7 @@ _G.pg.item_data_statistics[57631] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57632] = {
+_G.pg.base.item_data_statistics[57632] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -78896,7 +78944,7 @@ _G.pg.item_data_statistics[57632] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57633] = {
+_G.pg.base.item_data_statistics[57633] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -78943,7 +78991,7 @@ _G.pg.item_data_statistics[57633] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57634] = {
+_G.pg.base.item_data_statistics[57634] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -78990,7 +79038,7 @@ _G.pg.item_data_statistics[57634] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57635] = {
+_G.pg.base.item_data_statistics[57635] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -79037,7 +79085,7 @@ _G.pg.item_data_statistics[57635] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57636] = {
+_G.pg.base.item_data_statistics[57636] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -79084,7 +79132,7 @@ _G.pg.item_data_statistics[57636] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57637] = {
+_G.pg.base.item_data_statistics[57637] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -79131,7 +79179,7 @@ _G.pg.item_data_statistics[57637] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57638] = {
+_G.pg.base.item_data_statistics[57638] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -79178,7 +79226,7 @@ _G.pg.item_data_statistics[57638] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57639] = {
+_G.pg.base.item_data_statistics[57639] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -79225,7 +79273,7 @@ _G.pg.item_data_statistics[57639] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57640] = {
+_G.pg.base.item_data_statistics[57640] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -79272,7 +79320,7 @@ _G.pg.item_data_statistics[57640] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57641] = {
+_G.pg.base.item_data_statistics[57641] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -79319,7 +79367,7 @@ _G.pg.item_data_statistics[57641] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57642] = {
+_G.pg.base.item_data_statistics[57642] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -79451,7 +79499,7 @@ _G.pg.item_data_statistics[57642] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57643] = {
+_G.pg.base.item_data_statistics[57643] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -79583,7 +79631,7 @@ _G.pg.item_data_statistics[57643] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57644] = {
+_G.pg.base.item_data_statistics[57644] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -79715,7 +79763,7 @@ _G.pg.item_data_statistics[57644] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57645] = {
+_G.pg.base.item_data_statistics[57645] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -79847,7 +79895,7 @@ _G.pg.item_data_statistics[57645] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57646] = {
+_G.pg.base.item_data_statistics[57646] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -79979,7 +80027,7 @@ _G.pg.item_data_statistics[57646] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57647] = {
+_G.pg.base.item_data_statistics[57647] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -80116,7 +80164,7 @@ _G.pg.item_data_statistics[57647] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57648] = {
+_G.pg.base.item_data_statistics[57648] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80163,7 +80211,7 @@ _G.pg.item_data_statistics[57648] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57649] = {
+_G.pg.base.item_data_statistics[57649] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80210,7 +80258,7 @@ _G.pg.item_data_statistics[57649] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57650] = {
+_G.pg.base.item_data_statistics[57650] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80257,7 +80305,7 @@ _G.pg.item_data_statistics[57650] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57651] = {
+_G.pg.base.item_data_statistics[57651] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80304,7 +80352,7 @@ _G.pg.item_data_statistics[57651] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57652] = {
+_G.pg.base.item_data_statistics[57652] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80351,7 +80399,7 @@ _G.pg.item_data_statistics[57652] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57653] = {
+_G.pg.base.item_data_statistics[57653] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80398,7 +80446,7 @@ _G.pg.item_data_statistics[57653] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57654] = {
+_G.pg.base.item_data_statistics[57654] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80440,7 +80488,7 @@ _G.pg.item_data_statistics[57654] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57655] = {
+_G.pg.base.item_data_statistics[57655] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80482,7 +80530,7 @@ _G.pg.item_data_statistics[57655] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57656] = {
+_G.pg.base.item_data_statistics[57656] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80524,7 +80572,7 @@ _G.pg.item_data_statistics[57656] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57657] = {
+_G.pg.base.item_data_statistics[57657] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80566,7 +80614,7 @@ _G.pg.item_data_statistics[57657] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57658] = {
+_G.pg.base.item_data_statistics[57658] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80608,7 +80656,7 @@ _G.pg.item_data_statistics[57658] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57659] = {
+_G.pg.base.item_data_statistics[57659] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -80650,7 +80698,7 @@ _G.pg.item_data_statistics[57659] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57660] = {
+_G.pg.base.item_data_statistics[57660] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -80782,7 +80830,7 @@ _G.pg.item_data_statistics[57660] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57661] = {
+_G.pg.base.item_data_statistics[57661] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -80914,7 +80962,7 @@ _G.pg.item_data_statistics[57661] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57662] = {
+_G.pg.base.item_data_statistics[57662] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -81046,7 +81094,7 @@ _G.pg.item_data_statistics[57662] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57663] = {
+_G.pg.base.item_data_statistics[57663] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -81178,7 +81226,7 @@ _G.pg.item_data_statistics[57663] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57664] = {
+_G.pg.base.item_data_statistics[57664] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -81310,7 +81358,7 @@ _G.pg.item_data_statistics[57664] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57665] = {
+_G.pg.base.item_data_statistics[57665] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -81447,7 +81495,7 @@ _G.pg.item_data_statistics[57665] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57670] = {
+_G.pg.base.item_data_statistics[57670] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81494,7 +81542,7 @@ _G.pg.item_data_statistics[57670] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57671] = {
+_G.pg.base.item_data_statistics[57671] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81541,7 +81589,7 @@ _G.pg.item_data_statistics[57671] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57672] = {
+_G.pg.base.item_data_statistics[57672] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81588,7 +81636,7 @@ _G.pg.item_data_statistics[57672] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57673] = {
+_G.pg.base.item_data_statistics[57673] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81635,7 +81683,7 @@ _G.pg.item_data_statistics[57673] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57674] = {
+_G.pg.base.item_data_statistics[57674] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81682,7 +81730,7 @@ _G.pg.item_data_statistics[57674] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57675] = {
+_G.pg.base.item_data_statistics[57675] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81729,7 +81777,7 @@ _G.pg.item_data_statistics[57675] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57676] = {
+_G.pg.base.item_data_statistics[57676] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81776,7 +81824,7 @@ _G.pg.item_data_statistics[57676] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57677] = {
+_G.pg.base.item_data_statistics[57677] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81823,7 +81871,7 @@ _G.pg.item_data_statistics[57677] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57678] = {
+_G.pg.base.item_data_statistics[57678] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81870,7 +81918,7 @@ _G.pg.item_data_statistics[57678] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57679] = {
+_G.pg.base.item_data_statistics[57679] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81917,7 +81965,7 @@ _G.pg.item_data_statistics[57679] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57680] = {
+_G.pg.base.item_data_statistics[57680] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -81964,7 +82012,7 @@ _G.pg.item_data_statistics[57680] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57681] = {
+_G.pg.base.item_data_statistics[57681] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -82011,7 +82059,7 @@ _G.pg.item_data_statistics[57681] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57682] = {
+_G.pg.base.item_data_statistics[57682] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -82143,7 +82191,7 @@ _G.pg.item_data_statistics[57682] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57683] = {
+_G.pg.base.item_data_statistics[57683] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -82275,7 +82323,7 @@ _G.pg.item_data_statistics[57683] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57684] = {
+_G.pg.base.item_data_statistics[57684] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -82407,7 +82455,7 @@ _G.pg.item_data_statistics[57684] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57685] = {
+_G.pg.base.item_data_statistics[57685] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -82534,7 +82582,7 @@ _G.pg.item_data_statistics[57685] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57686] = {
+_G.pg.base.item_data_statistics[57686] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -82661,7 +82709,7 @@ _G.pg.item_data_statistics[57686] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57687] = {
+_G.pg.base.item_data_statistics[57687] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -82788,7 +82836,7 @@ _G.pg.item_data_statistics[57687] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57688] = {
+_G.pg.base.item_data_statistics[57688] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -82835,7 +82883,7 @@ _G.pg.item_data_statistics[57688] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57689] = {
+_G.pg.base.item_data_statistics[57689] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -82882,7 +82930,7 @@ _G.pg.item_data_statistics[57689] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57690] = {
+_G.pg.base.item_data_statistics[57690] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -82929,7 +82977,7 @@ _G.pg.item_data_statistics[57690] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57691] = {
+_G.pg.base.item_data_statistics[57691] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -82976,7 +83024,7 @@ _G.pg.item_data_statistics[57691] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57692] = {
+_G.pg.base.item_data_statistics[57692] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83023,7 +83071,7 @@ _G.pg.item_data_statistics[57692] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57693] = {
+_G.pg.base.item_data_statistics[57693] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83070,7 +83118,7 @@ _G.pg.item_data_statistics[57693] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57694] = {
+_G.pg.base.item_data_statistics[57694] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83112,7 +83160,7 @@ _G.pg.item_data_statistics[57694] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57695] = {
+_G.pg.base.item_data_statistics[57695] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83154,7 +83202,7 @@ _G.pg.item_data_statistics[57695] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57696] = {
+_G.pg.base.item_data_statistics[57696] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83196,7 +83244,7 @@ _G.pg.item_data_statistics[57696] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57697] = {
+_G.pg.base.item_data_statistics[57697] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83238,7 +83286,7 @@ _G.pg.item_data_statistics[57697] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57698] = {
+_G.pg.base.item_data_statistics[57698] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83280,7 +83328,7 @@ _G.pg.item_data_statistics[57698] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57699] = {
+_G.pg.base.item_data_statistics[57699] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -83322,7 +83370,7 @@ _G.pg.item_data_statistics[57699] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57700] = {
+_G.pg.base.item_data_statistics[57700] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -83454,7 +83502,7 @@ _G.pg.item_data_statistics[57700] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57701] = {
+_G.pg.base.item_data_statistics[57701] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -83586,7 +83634,7 @@ _G.pg.item_data_statistics[57701] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57702] = {
+_G.pg.base.item_data_statistics[57702] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -83718,7 +83766,7 @@ _G.pg.item_data_statistics[57702] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57703] = {
+_G.pg.base.item_data_statistics[57703] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -83845,7 +83893,7 @@ _G.pg.item_data_statistics[57703] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57704] = {
+_G.pg.base.item_data_statistics[57704] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -83972,7 +84020,7 @@ _G.pg.item_data_statistics[57704] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57705] = {
+_G.pg.base.item_data_statistics[57705] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -84099,7 +84147,7 @@ _G.pg.item_data_statistics[57705] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57707] = {
+_G.pg.base.item_data_statistics[57707] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84146,7 +84194,7 @@ _G.pg.item_data_statistics[57707] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57708] = {
+_G.pg.base.item_data_statistics[57708] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84193,7 +84241,7 @@ _G.pg.item_data_statistics[57708] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57709] = {
+_G.pg.base.item_data_statistics[57709] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84240,7 +84288,7 @@ _G.pg.item_data_statistics[57709] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57710] = {
+_G.pg.base.item_data_statistics[57710] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84287,7 +84335,7 @@ _G.pg.item_data_statistics[57710] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57711] = {
+_G.pg.base.item_data_statistics[57711] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84334,7 +84382,7 @@ _G.pg.item_data_statistics[57711] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57712] = {
+_G.pg.base.item_data_statistics[57712] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84381,7 +84429,7 @@ _G.pg.item_data_statistics[57712] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57713] = {
+_G.pg.base.item_data_statistics[57713] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84428,7 +84476,7 @@ _G.pg.item_data_statistics[57713] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57714] = {
+_G.pg.base.item_data_statistics[57714] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84475,7 +84523,7 @@ _G.pg.item_data_statistics[57714] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57715] = {
+_G.pg.base.item_data_statistics[57715] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -84517,7 +84565,7 @@ _G.pg.item_data_statistics[57715] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57716] = {
+_G.pg.base.item_data_statistics[57716] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -84649,7 +84697,7 @@ _G.pg.item_data_statistics[57716] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57717] = {
+_G.pg.base.item_data_statistics[57717] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -84781,7 +84829,7 @@ _G.pg.item_data_statistics[57717] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57718] = {
+_G.pg.base.item_data_statistics[57718] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -84913,7 +84961,7 @@ _G.pg.item_data_statistics[57718] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57720] = {
+_G.pg.base.item_data_statistics[57720] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -84960,7 +85008,7 @@ _G.pg.item_data_statistics[57720] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57721] = {
+_G.pg.base.item_data_statistics[57721] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85007,7 +85055,7 @@ _G.pg.item_data_statistics[57721] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57722] = {
+_G.pg.base.item_data_statistics[57722] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85054,7 +85102,7 @@ _G.pg.item_data_statistics[57722] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57723] = {
+_G.pg.base.item_data_statistics[57723] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85101,7 +85149,7 @@ _G.pg.item_data_statistics[57723] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57724] = {
+_G.pg.base.item_data_statistics[57724] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85148,7 +85196,7 @@ _G.pg.item_data_statistics[57724] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57725] = {
+_G.pg.base.item_data_statistics[57725] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85195,7 +85243,7 @@ _G.pg.item_data_statistics[57725] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57726] = {
+_G.pg.base.item_data_statistics[57726] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85242,7 +85290,7 @@ _G.pg.item_data_statistics[57726] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57727] = {
+_G.pg.base.item_data_statistics[57727] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85289,7 +85337,7 @@ _G.pg.item_data_statistics[57727] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57728] = {
+_G.pg.base.item_data_statistics[57728] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85336,7 +85384,7 @@ _G.pg.item_data_statistics[57728] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57729] = {
+_G.pg.base.item_data_statistics[57729] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85383,7 +85431,7 @@ _G.pg.item_data_statistics[57729] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57730] = {
+_G.pg.base.item_data_statistics[57730] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85425,7 +85473,7 @@ _G.pg.item_data_statistics[57730] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57731] = {
+_G.pg.base.item_data_statistics[57731] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -85467,7 +85515,7 @@ _G.pg.item_data_statistics[57731] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57732] = {
+_G.pg.base.item_data_statistics[57732] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -85599,7 +85647,7 @@ _G.pg.item_data_statistics[57732] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57733] = {
+_G.pg.base.item_data_statistics[57733] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -85731,7 +85779,7 @@ _G.pg.item_data_statistics[57733] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57734] = {
+_G.pg.base.item_data_statistics[57734] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -85863,7 +85911,7 @@ _G.pg.item_data_statistics[57734] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57735] = {
+_G.pg.base.item_data_statistics[57735] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -85995,7 +86043,7 @@ _G.pg.item_data_statistics[57735] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57736] = {
+_G.pg.base.item_data_statistics[57736] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -86127,7 +86175,7 @@ _G.pg.item_data_statistics[57736] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57737] = {
+_G.pg.base.item_data_statistics[57737] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -86259,7 +86307,7 @@ _G.pg.item_data_statistics[57737] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57738] = {
+_G.pg.base.item_data_statistics[57738] = {
 	display = "有機率獲得外觀裝備箱，獲得以下裝備外觀之一",
 	name = "偶像活动外观装备箱",
 	max_num = 0,
@@ -86371,7 +86419,7 @@ _G.pg.item_data_statistics[57738] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57740] = {
+_G.pg.base.item_data_statistics[57740] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86418,7 +86466,7 @@ _G.pg.item_data_statistics[57740] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57741] = {
+_G.pg.base.item_data_statistics[57741] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86465,7 +86513,7 @@ _G.pg.item_data_statistics[57741] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57742] = {
+_G.pg.base.item_data_statistics[57742] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86512,7 +86560,7 @@ _G.pg.item_data_statistics[57742] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57743] = {
+_G.pg.base.item_data_statistics[57743] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86559,7 +86607,7 @@ _G.pg.item_data_statistics[57743] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57744] = {
+_G.pg.base.item_data_statistics[57744] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86606,7 +86654,7 @@ _G.pg.item_data_statistics[57744] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57745] = {
+_G.pg.base.item_data_statistics[57745] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86653,7 +86701,7 @@ _G.pg.item_data_statistics[57745] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57746] = {
+_G.pg.base.item_data_statistics[57746] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86700,7 +86748,7 @@ _G.pg.item_data_statistics[57746] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57747] = {
+_G.pg.base.item_data_statistics[57747] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86747,7 +86795,7 @@ _G.pg.item_data_statistics[57747] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57748] = {
+_G.pg.base.item_data_statistics[57748] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86794,7 +86842,7 @@ _G.pg.item_data_statistics[57748] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57749] = {
+_G.pg.base.item_data_statistics[57749] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86841,7 +86889,7 @@ _G.pg.item_data_statistics[57749] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57750] = {
+_G.pg.base.item_data_statistics[57750] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86888,7 +86936,7 @@ _G.pg.item_data_statistics[57750] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57751] = {
+_G.pg.base.item_data_statistics[57751] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86930,7 +86978,7 @@ _G.pg.item_data_statistics[57751] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57752] = {
+_G.pg.base.item_data_statistics[57752] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -86972,7 +87020,7 @@ _G.pg.item_data_statistics[57752] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57753] = {
+_G.pg.base.item_data_statistics[57753] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -87014,7 +87062,7 @@ _G.pg.item_data_statistics[57753] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57754] = {
+_G.pg.base.item_data_statistics[57754] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -87146,7 +87194,7 @@ _G.pg.item_data_statistics[57754] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57755] = {
+_G.pg.base.item_data_statistics[57755] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -87278,7 +87326,7 @@ _G.pg.item_data_statistics[57755] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57756] = {
+_G.pg.base.item_data_statistics[57756] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -87410,7 +87458,7 @@ _G.pg.item_data_statistics[57756] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57757] = {
+_G.pg.base.item_data_statistics[57757] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -87542,7 +87590,7 @@ _G.pg.item_data_statistics[57757] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57758] = {
+_G.pg.base.item_data_statistics[57758] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -87674,7 +87722,7 @@ _G.pg.item_data_statistics[57758] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57759] = {
+_G.pg.base.item_data_statistics[57759] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -87806,7 +87854,7 @@ _G.pg.item_data_statistics[57759] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57760] = {
+_G.pg.base.item_data_statistics[57760] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -87938,7 +87986,7 @@ _G.pg.item_data_statistics[57760] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57762] = {
+_G.pg.base.item_data_statistics[57762] = {
 	display = "有機率活動隨機裝備部件T1~T2",
 	name = "未知装备部件T2",
 	max_num = 0,
@@ -87990,7 +88038,7 @@ _G.pg.item_data_statistics[57762] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57763] = {
+_G.pg.base.item_data_statistics[57763] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88037,7 +88085,7 @@ _G.pg.item_data_statistics[57763] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57764] = {
+_G.pg.base.item_data_statistics[57764] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88084,7 +88132,7 @@ _G.pg.item_data_statistics[57764] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57765] = {
+_G.pg.base.item_data_statistics[57765] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88131,7 +88179,7 @@ _G.pg.item_data_statistics[57765] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57766] = {
+_G.pg.base.item_data_statistics[57766] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88178,7 +88226,7 @@ _G.pg.item_data_statistics[57766] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57767] = {
+_G.pg.base.item_data_statistics[57767] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88225,7 +88273,7 @@ _G.pg.item_data_statistics[57767] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57768] = {
+_G.pg.base.item_data_statistics[57768] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88272,7 +88320,7 @@ _G.pg.item_data_statistics[57768] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57770] = {
+_G.pg.base.item_data_statistics[57770] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88319,7 +88367,7 @@ _G.pg.item_data_statistics[57770] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57771] = {
+_G.pg.base.item_data_statistics[57771] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88366,7 +88414,7 @@ _G.pg.item_data_statistics[57771] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57772] = {
+_G.pg.base.item_data_statistics[57772] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88413,7 +88461,7 @@ _G.pg.item_data_statistics[57772] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57773] = {
+_G.pg.base.item_data_statistics[57773] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88460,7 +88508,7 @@ _G.pg.item_data_statistics[57773] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57774] = {
+_G.pg.base.item_data_statistics[57774] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88507,7 +88555,7 @@ _G.pg.item_data_statistics[57774] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57775] = {
+_G.pg.base.item_data_statistics[57775] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88554,7 +88602,7 @@ _G.pg.item_data_statistics[57775] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57776] = {
+_G.pg.base.item_data_statistics[57776] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88601,7 +88649,7 @@ _G.pg.item_data_statistics[57776] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57777] = {
+_G.pg.base.item_data_statistics[57777] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88648,7 +88696,7 @@ _G.pg.item_data_statistics[57777] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57778] = {
+_G.pg.base.item_data_statistics[57778] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88695,7 +88743,7 @@ _G.pg.item_data_statistics[57778] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57779] = {
+_G.pg.base.item_data_statistics[57779] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88742,7 +88790,7 @@ _G.pg.item_data_statistics[57779] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57780] = {
+_G.pg.base.item_data_statistics[57780] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88789,7 +88837,7 @@ _G.pg.item_data_statistics[57780] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57781] = {
+_G.pg.base.item_data_statistics[57781] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -88836,7 +88884,7 @@ _G.pg.item_data_statistics[57781] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57782] = {
+_G.pg.base.item_data_statistics[57782] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -88968,7 +89016,7 @@ _G.pg.item_data_statistics[57782] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57783] = {
+_G.pg.base.item_data_statistics[57783] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -89100,7 +89148,7 @@ _G.pg.item_data_statistics[57783] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57784] = {
+_G.pg.base.item_data_statistics[57784] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -89232,7 +89280,7 @@ _G.pg.item_data_statistics[57784] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57785] = {
+_G.pg.base.item_data_statistics[57785] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -89364,7 +89412,7 @@ _G.pg.item_data_statistics[57785] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57786] = {
+_G.pg.base.item_data_statistics[57786] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -89496,7 +89544,7 @@ _G.pg.item_data_statistics[57786] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57787] = {
+_G.pg.base.item_data_statistics[57787] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -89633,7 +89681,7 @@ _G.pg.item_data_statistics[57787] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57788] = {
+_G.pg.base.item_data_statistics[57788] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89680,7 +89728,7 @@ _G.pg.item_data_statistics[57788] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57789] = {
+_G.pg.base.item_data_statistics[57789] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89727,7 +89775,7 @@ _G.pg.item_data_statistics[57789] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57790] = {
+_G.pg.base.item_data_statistics[57790] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89774,7 +89822,7 @@ _G.pg.item_data_statistics[57790] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57791] = {
+_G.pg.base.item_data_statistics[57791] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89821,7 +89869,7 @@ _G.pg.item_data_statistics[57791] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57792] = {
+_G.pg.base.item_data_statistics[57792] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89868,7 +89916,7 @@ _G.pg.item_data_statistics[57792] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57793] = {
+_G.pg.base.item_data_statistics[57793] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89915,7 +89963,7 @@ _G.pg.item_data_statistics[57793] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57794] = {
+_G.pg.base.item_data_statistics[57794] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89957,7 +90005,7 @@ _G.pg.item_data_statistics[57794] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57795] = {
+_G.pg.base.item_data_statistics[57795] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -89999,7 +90047,7 @@ _G.pg.item_data_statistics[57795] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57796] = {
+_G.pg.base.item_data_statistics[57796] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -90041,7 +90089,7 @@ _G.pg.item_data_statistics[57796] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57797] = {
+_G.pg.base.item_data_statistics[57797] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -90083,7 +90131,7 @@ _G.pg.item_data_statistics[57797] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57798] = {
+_G.pg.base.item_data_statistics[57798] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -90125,7 +90173,7 @@ _G.pg.item_data_statistics[57798] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57799] = {
+_G.pg.base.item_data_statistics[57799] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -90167,7 +90215,7 @@ _G.pg.item_data_statistics[57799] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57800] = {
+_G.pg.base.item_data_statistics[57800] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -90294,7 +90342,7 @@ _G.pg.item_data_statistics[57800] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57801] = {
+_G.pg.base.item_data_statistics[57801] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -90421,7 +90469,7 @@ _G.pg.item_data_statistics[57801] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57802] = {
+_G.pg.base.item_data_statistics[57802] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -90548,7 +90596,7 @@ _G.pg.item_data_statistics[57802] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57803] = {
+_G.pg.base.item_data_statistics[57803] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -90675,7 +90723,7 @@ _G.pg.item_data_statistics[57803] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57804] = {
+_G.pg.base.item_data_statistics[57804] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -90802,7 +90850,7 @@ _G.pg.item_data_statistics[57804] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57805] = {
+_G.pg.base.item_data_statistics[57805] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -90934,7 +90982,7 @@ _G.pg.item_data_statistics[57805] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57806] = {
+_G.pg.base.item_data_statistics[57806] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -90981,7 +91029,7 @@ _G.pg.item_data_statistics[57806] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57807] = {
+_G.pg.base.item_data_statistics[57807] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91023,7 +91071,7 @@ _G.pg.item_data_statistics[57807] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57808] = {
+_G.pg.base.item_data_statistics[57808] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -91155,7 +91203,7 @@ _G.pg.item_data_statistics[57808] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57810] = {
+_G.pg.base.item_data_statistics[57810] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91202,7 +91250,7 @@ _G.pg.item_data_statistics[57810] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57811] = {
+_G.pg.base.item_data_statistics[57811] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91249,7 +91297,7 @@ _G.pg.item_data_statistics[57811] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57812] = {
+_G.pg.base.item_data_statistics[57812] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91296,7 +91344,7 @@ _G.pg.item_data_statistics[57812] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57813] = {
+_G.pg.base.item_data_statistics[57813] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91343,7 +91391,7 @@ _G.pg.item_data_statistics[57813] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57814] = {
+_G.pg.base.item_data_statistics[57814] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91390,7 +91438,7 @@ _G.pg.item_data_statistics[57814] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57815] = {
+_G.pg.base.item_data_statistics[57815] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91437,7 +91485,7 @@ _G.pg.item_data_statistics[57815] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57816] = {
+_G.pg.base.item_data_statistics[57816] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91484,7 +91532,7 @@ _G.pg.item_data_statistics[57816] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57817] = {
+_G.pg.base.item_data_statistics[57817] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91531,7 +91579,7 @@ _G.pg.item_data_statistics[57817] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57818] = {
+_G.pg.base.item_data_statistics[57818] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91578,7 +91626,7 @@ _G.pg.item_data_statistics[57818] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57819] = {
+_G.pg.base.item_data_statistics[57819] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91625,7 +91673,7 @@ _G.pg.item_data_statistics[57819] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57820] = {
+_G.pg.base.item_data_statistics[57820] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91672,7 +91720,7 @@ _G.pg.item_data_statistics[57820] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57821] = {
+_G.pg.base.item_data_statistics[57821] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -91719,7 +91767,7 @@ _G.pg.item_data_statistics[57821] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57822] = {
+_G.pg.base.item_data_statistics[57822] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -91851,7 +91899,7 @@ _G.pg.item_data_statistics[57822] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57823] = {
+_G.pg.base.item_data_statistics[57823] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -91983,7 +92031,7 @@ _G.pg.item_data_statistics[57823] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57824] = {
+_G.pg.base.item_data_statistics[57824] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -92115,7 +92163,7 @@ _G.pg.item_data_statistics[57824] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57825] = {
+_G.pg.base.item_data_statistics[57825] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -92247,7 +92295,7 @@ _G.pg.item_data_statistics[57825] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57826] = {
+_G.pg.base.item_data_statistics[57826] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -92379,7 +92427,7 @@ _G.pg.item_data_statistics[57826] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57827] = {
+_G.pg.base.item_data_statistics[57827] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -92516,7 +92564,7 @@ _G.pg.item_data_statistics[57827] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57828] = {
+_G.pg.base.item_data_statistics[57828] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92563,7 +92611,7 @@ _G.pg.item_data_statistics[57828] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57829] = {
+_G.pg.base.item_data_statistics[57829] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92610,7 +92658,7 @@ _G.pg.item_data_statistics[57829] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57830] = {
+_G.pg.base.item_data_statistics[57830] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92657,7 +92705,7 @@ _G.pg.item_data_statistics[57830] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57831] = {
+_G.pg.base.item_data_statistics[57831] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92704,7 +92752,7 @@ _G.pg.item_data_statistics[57831] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57832] = {
+_G.pg.base.item_data_statistics[57832] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92751,7 +92799,7 @@ _G.pg.item_data_statistics[57832] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57833] = {
+_G.pg.base.item_data_statistics[57833] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92798,7 +92846,7 @@ _G.pg.item_data_statistics[57833] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57834] = {
+_G.pg.base.item_data_statistics[57834] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92845,7 +92893,7 @@ _G.pg.item_data_statistics[57834] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57835] = {
+_G.pg.base.item_data_statistics[57835] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92887,7 +92935,7 @@ _G.pg.item_data_statistics[57835] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57836] = {
+_G.pg.base.item_data_statistics[57836] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92929,7 +92977,7 @@ _G.pg.item_data_statistics[57836] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57837] = {
+_G.pg.base.item_data_statistics[57837] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -92971,7 +93019,7 @@ _G.pg.item_data_statistics[57837] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57838] = {
+_G.pg.base.item_data_statistics[57838] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -93013,7 +93061,7 @@ _G.pg.item_data_statistics[57838] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57839] = {
+_G.pg.base.item_data_statistics[57839] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -93055,7 +93103,7 @@ _G.pg.item_data_statistics[57839] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57840] = {
+_G.pg.base.item_data_statistics[57840] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -93182,7 +93230,7 @@ _G.pg.item_data_statistics[57840] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57841] = {
+_G.pg.base.item_data_statistics[57841] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -93309,7 +93357,7 @@ _G.pg.item_data_statistics[57841] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57842] = {
+_G.pg.base.item_data_statistics[57842] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -93436,7 +93484,7 @@ _G.pg.item_data_statistics[57842] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57843] = {
+_G.pg.base.item_data_statistics[57843] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -93563,7 +93611,7 @@ _G.pg.item_data_statistics[57843] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57844] = {
+_G.pg.base.item_data_statistics[57844] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -93690,7 +93738,7 @@ _G.pg.item_data_statistics[57844] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57845] = {
+_G.pg.base.item_data_statistics[57845] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -93822,7 +93870,7 @@ _G.pg.item_data_statistics[57845] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57846] = {
+_G.pg.base.item_data_statistics[57846] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -93869,7 +93917,7 @@ _G.pg.item_data_statistics[57846] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57847] = {
+_G.pg.base.item_data_statistics[57847] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -93911,7 +93959,7 @@ _G.pg.item_data_statistics[57847] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57848] = {
+_G.pg.base.item_data_statistics[57848] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -94043,7 +94091,7 @@ _G.pg.item_data_statistics[57848] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57850] = {
+_G.pg.base.item_data_statistics[57850] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94090,7 +94138,7 @@ _G.pg.item_data_statistics[57850] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57851] = {
+_G.pg.base.item_data_statistics[57851] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94137,7 +94185,7 @@ _G.pg.item_data_statistics[57851] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57852] = {
+_G.pg.base.item_data_statistics[57852] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94184,7 +94232,7 @@ _G.pg.item_data_statistics[57852] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57853] = {
+_G.pg.base.item_data_statistics[57853] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94231,7 +94279,7 @@ _G.pg.item_data_statistics[57853] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57854] = {
+_G.pg.base.item_data_statistics[57854] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94278,7 +94326,7 @@ _G.pg.item_data_statistics[57854] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57855] = {
+_G.pg.base.item_data_statistics[57855] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94325,7 +94373,7 @@ _G.pg.item_data_statistics[57855] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57856] = {
+_G.pg.base.item_data_statistics[57856] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94372,7 +94420,7 @@ _G.pg.item_data_statistics[57856] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57857] = {
+_G.pg.base.item_data_statistics[57857] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94419,7 +94467,7 @@ _G.pg.item_data_statistics[57857] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57858] = {
+_G.pg.base.item_data_statistics[57858] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94466,7 +94514,7 @@ _G.pg.item_data_statistics[57858] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57859] = {
+_G.pg.base.item_data_statistics[57859] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94513,7 +94561,7 @@ _G.pg.item_data_statistics[57859] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57860] = {
+_G.pg.base.item_data_statistics[57860] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94560,7 +94608,7 @@ _G.pg.item_data_statistics[57860] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57861] = {
+_G.pg.base.item_data_statistics[57861] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -94607,7 +94655,7 @@ _G.pg.item_data_statistics[57861] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57862] = {
+_G.pg.base.item_data_statistics[57862] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -94739,7 +94787,7 @@ _G.pg.item_data_statistics[57862] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57863] = {
+_G.pg.base.item_data_statistics[57863] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -94871,7 +94919,7 @@ _G.pg.item_data_statistics[57863] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57864] = {
+_G.pg.base.item_data_statistics[57864] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -95003,7 +95051,7 @@ _G.pg.item_data_statistics[57864] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57865] = {
+_G.pg.base.item_data_statistics[57865] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -95135,7 +95183,7 @@ _G.pg.item_data_statistics[57865] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57866] = {
+_G.pg.base.item_data_statistics[57866] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -95267,7 +95315,7 @@ _G.pg.item_data_statistics[57866] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57867] = {
+_G.pg.base.item_data_statistics[57867] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -95404,7 +95452,7 @@ _G.pg.item_data_statistics[57867] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57868] = {
+_G.pg.base.item_data_statistics[57868] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95451,7 +95499,7 @@ _G.pg.item_data_statistics[57868] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57869] = {
+_G.pg.base.item_data_statistics[57869] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95498,7 +95546,7 @@ _G.pg.item_data_statistics[57869] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57870] = {
+_G.pg.base.item_data_statistics[57870] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95545,7 +95593,7 @@ _G.pg.item_data_statistics[57870] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57871] = {
+_G.pg.base.item_data_statistics[57871] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95592,7 +95640,7 @@ _G.pg.item_data_statistics[57871] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57872] = {
+_G.pg.base.item_data_statistics[57872] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95639,7 +95687,7 @@ _G.pg.item_data_statistics[57872] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57873] = {
+_G.pg.base.item_data_statistics[57873] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95686,7 +95734,7 @@ _G.pg.item_data_statistics[57873] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57874] = {
+_G.pg.base.item_data_statistics[57874] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95733,7 +95781,7 @@ _G.pg.item_data_statistics[57874] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57875] = {
+_G.pg.base.item_data_statistics[57875] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95775,7 +95823,7 @@ _G.pg.item_data_statistics[57875] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57876] = {
+_G.pg.base.item_data_statistics[57876] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95817,7 +95865,7 @@ _G.pg.item_data_statistics[57876] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57877] = {
+_G.pg.base.item_data_statistics[57877] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95859,7 +95907,7 @@ _G.pg.item_data_statistics[57877] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57878] = {
+_G.pg.base.item_data_statistics[57878] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95901,7 +95949,7 @@ _G.pg.item_data_statistics[57878] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57879] = {
+_G.pg.base.item_data_statistics[57879] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -95943,7 +95991,7 @@ _G.pg.item_data_statistics[57879] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57880] = {
+_G.pg.base.item_data_statistics[57880] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -96075,7 +96123,7 @@ _G.pg.item_data_statistics[57880] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57881] = {
+_G.pg.base.item_data_statistics[57881] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -96207,7 +96255,7 @@ _G.pg.item_data_statistics[57881] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57882] = {
+_G.pg.base.item_data_statistics[57882] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -96339,7 +96387,7 @@ _G.pg.item_data_statistics[57882] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57883] = {
+_G.pg.base.item_data_statistics[57883] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -96471,7 +96519,7 @@ _G.pg.item_data_statistics[57883] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57884] = {
+_G.pg.base.item_data_statistics[57884] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -96603,7 +96651,7 @@ _G.pg.item_data_statistics[57884] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57885] = {
+_G.pg.base.item_data_statistics[57885] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -96740,7 +96788,7 @@ _G.pg.item_data_statistics[57885] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57886] = {
+_G.pg.base.item_data_statistics[57886] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -96787,7 +96835,7 @@ _G.pg.item_data_statistics[57886] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57887] = {
+_G.pg.base.item_data_statistics[57887] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知设计图",
 	max_num = 0,
@@ -96829,7 +96877,7 @@ _G.pg.item_data_statistics[57887] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57888] = {
+_G.pg.base.item_data_statistics[57888] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -96966,7 +97014,7 @@ _G.pg.item_data_statistics[57888] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57889] = {
+_G.pg.base.item_data_statistics[57889] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97013,7 +97061,7 @@ _G.pg.item_data_statistics[57889] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57890] = {
+_G.pg.base.item_data_statistics[57890] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97060,7 +97108,7 @@ _G.pg.item_data_statistics[57890] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57891] = {
+_G.pg.base.item_data_statistics[57891] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97107,7 +97155,7 @@ _G.pg.item_data_statistics[57891] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57892] = {
+_G.pg.base.item_data_statistics[57892] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97154,7 +97202,7 @@ _G.pg.item_data_statistics[57892] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57893] = {
+_G.pg.base.item_data_statistics[57893] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97201,7 +97249,7 @@ _G.pg.item_data_statistics[57893] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57894] = {
+_G.pg.base.item_data_statistics[57894] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97243,7 +97291,7 @@ _G.pg.item_data_statistics[57894] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57895] = {
+_G.pg.base.item_data_statistics[57895] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -97375,7 +97423,7 @@ _G.pg.item_data_statistics[57895] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57896] = {
+_G.pg.base.item_data_statistics[57896] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -97507,7 +97555,7 @@ _G.pg.item_data_statistics[57896] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57897] = {
+_G.pg.base.item_data_statistics[57897] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -97639,7 +97687,7 @@ _G.pg.item_data_statistics[57897] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57900] = {
+_G.pg.base.item_data_statistics[57900] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97686,7 +97734,7 @@ _G.pg.item_data_statistics[57900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57901] = {
+_G.pg.base.item_data_statistics[57901] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97733,7 +97781,7 @@ _G.pg.item_data_statistics[57901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57902] = {
+_G.pg.base.item_data_statistics[57902] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97780,7 +97828,7 @@ _G.pg.item_data_statistics[57902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57903] = {
+_G.pg.base.item_data_statistics[57903] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97827,7 +97875,7 @@ _G.pg.item_data_statistics[57903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57904] = {
+_G.pg.base.item_data_statistics[57904] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97874,7 +97922,7 @@ _G.pg.item_data_statistics[57904] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57905] = {
+_G.pg.base.item_data_statistics[57905] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97921,7 +97969,7 @@ _G.pg.item_data_statistics[57905] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57906] = {
+_G.pg.base.item_data_statistics[57906] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -97968,7 +98016,7 @@ _G.pg.item_data_statistics[57906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57907] = {
+_G.pg.base.item_data_statistics[57907] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -98015,7 +98063,7 @@ _G.pg.item_data_statistics[57907] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57908] = {
+_G.pg.base.item_data_statistics[57908] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -98062,7 +98110,7 @@ _G.pg.item_data_statistics[57908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57909] = {
+_G.pg.base.item_data_statistics[57909] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -98109,7 +98157,7 @@ _G.pg.item_data_statistics[57909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57910] = {
+_G.pg.base.item_data_statistics[57910] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -98156,7 +98204,7 @@ _G.pg.item_data_statistics[57910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57911] = {
+_G.pg.base.item_data_statistics[57911] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -98203,7 +98251,7 @@ _G.pg.item_data_statistics[57911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57912] = {
+_G.pg.base.item_data_statistics[57912] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -98335,7 +98383,7 @@ _G.pg.item_data_statistics[57912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57913] = {
+_G.pg.base.item_data_statistics[57913] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -98467,7 +98515,7 @@ _G.pg.item_data_statistics[57913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57914] = {
+_G.pg.base.item_data_statistics[57914] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -98599,7 +98647,7 @@ _G.pg.item_data_statistics[57914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57915] = {
+_G.pg.base.item_data_statistics[57915] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -98731,7 +98779,7 @@ _G.pg.item_data_statistics[57915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57916] = {
+_G.pg.base.item_data_statistics[57916] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -98863,7 +98911,7 @@ _G.pg.item_data_statistics[57916] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57917] = {
+_G.pg.base.item_data_statistics[57917] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -99000,7 +99048,7 @@ _G.pg.item_data_statistics[57917] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57918] = {
+_G.pg.base.item_data_statistics[57918] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99047,7 +99095,7 @@ _G.pg.item_data_statistics[57918] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57919] = {
+_G.pg.base.item_data_statistics[57919] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99094,7 +99142,7 @@ _G.pg.item_data_statistics[57919] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57920] = {
+_G.pg.base.item_data_statistics[57920] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99141,7 +99189,7 @@ _G.pg.item_data_statistics[57920] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57921] = {
+_G.pg.base.item_data_statistics[57921] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99188,7 +99236,7 @@ _G.pg.item_data_statistics[57921] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57922] = {
+_G.pg.base.item_data_statistics[57922] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99235,7 +99283,7 @@ _G.pg.item_data_statistics[57922] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57923] = {
+_G.pg.base.item_data_statistics[57923] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99282,7 +99330,7 @@ _G.pg.item_data_statistics[57923] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57924] = {
+_G.pg.base.item_data_statistics[57924] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99329,7 +99377,7 @@ _G.pg.item_data_statistics[57924] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57925] = {
+_G.pg.base.item_data_statistics[57925] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99371,7 +99419,7 @@ _G.pg.item_data_statistics[57925] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57926] = {
+_G.pg.base.item_data_statistics[57926] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99413,7 +99461,7 @@ _G.pg.item_data_statistics[57926] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57927] = {
+_G.pg.base.item_data_statistics[57927] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99455,7 +99503,7 @@ _G.pg.item_data_statistics[57927] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57928] = {
+_G.pg.base.item_data_statistics[57928] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99497,7 +99545,7 @@ _G.pg.item_data_statistics[57928] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57929] = {
+_G.pg.base.item_data_statistics[57929] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -99539,7 +99587,7 @@ _G.pg.item_data_statistics[57929] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57930] = {
+_G.pg.base.item_data_statistics[57930] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -99671,7 +99719,7 @@ _G.pg.item_data_statistics[57930] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57931] = {
+_G.pg.base.item_data_statistics[57931] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -99803,7 +99851,7 @@ _G.pg.item_data_statistics[57931] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57932] = {
+_G.pg.base.item_data_statistics[57932] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -99935,7 +99983,7 @@ _G.pg.item_data_statistics[57932] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57933] = {
+_G.pg.base.item_data_statistics[57933] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -100067,7 +100115,7 @@ _G.pg.item_data_statistics[57933] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57934] = {
+_G.pg.base.item_data_statistics[57934] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -100199,7 +100247,7 @@ _G.pg.item_data_statistics[57934] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57935] = {
+_G.pg.base.item_data_statistics[57935] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -100336,7 +100384,7 @@ _G.pg.item_data_statistics[57935] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57936] = {
+_G.pg.base.item_data_statistics[57936] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -100383,7 +100431,7 @@ _G.pg.item_data_statistics[57936] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57937] = {
+_G.pg.base.item_data_statistics[57937] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖 ",
 	max_num = 0,
@@ -100425,7 +100473,7 @@ _G.pg.item_data_statistics[57937] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57938] = {
+_G.pg.base.item_data_statistics[57938] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -100562,7 +100610,7 @@ _G.pg.item_data_statistics[57938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57941] = {
+_G.pg.base.item_data_statistics[57941] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -100609,7 +100657,7 @@ _G.pg.item_data_statistics[57941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57942] = {
+_G.pg.base.item_data_statistics[57942] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -100656,7 +100704,7 @@ _G.pg.item_data_statistics[57942] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57943] = {
+_G.pg.base.item_data_statistics[57943] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -100703,7 +100751,7 @@ _G.pg.item_data_statistics[57943] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57944] = {
+_G.pg.base.item_data_statistics[57944] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -100750,7 +100798,7 @@ _G.pg.item_data_statistics[57944] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57945] = {
+_G.pg.base.item_data_statistics[57945] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -100797,7 +100845,7 @@ _G.pg.item_data_statistics[57945] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57946] = {
+_G.pg.base.item_data_statistics[57946] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -100839,7 +100887,7 @@ _G.pg.item_data_statistics[57946] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57947] = {
+_G.pg.base.item_data_statistics[57947] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -100971,7 +101019,7 @@ _G.pg.item_data_statistics[57947] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57948] = {
+_G.pg.base.item_data_statistics[57948] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -101103,7 +101151,7 @@ _G.pg.item_data_statistics[57948] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57949] = {
+_G.pg.base.item_data_statistics[57949] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -101235,7 +101283,7 @@ _G.pg.item_data_statistics[57949] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57950] = {
+_G.pg.base.item_data_statistics[57950] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101282,7 +101330,7 @@ _G.pg.item_data_statistics[57950] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57951] = {
+_G.pg.base.item_data_statistics[57951] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101329,7 +101377,7 @@ _G.pg.item_data_statistics[57951] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57952] = {
+_G.pg.base.item_data_statistics[57952] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101376,7 +101424,7 @@ _G.pg.item_data_statistics[57952] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57953] = {
+_G.pg.base.item_data_statistics[57953] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101423,7 +101471,7 @@ _G.pg.item_data_statistics[57953] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57954] = {
+_G.pg.base.item_data_statistics[57954] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101470,7 +101518,7 @@ _G.pg.item_data_statistics[57954] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57955] = {
+_G.pg.base.item_data_statistics[57955] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101517,7 +101565,7 @@ _G.pg.item_data_statistics[57955] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57956] = {
+_G.pg.base.item_data_statistics[57956] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101564,7 +101612,7 @@ _G.pg.item_data_statistics[57956] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57957] = {
+_G.pg.base.item_data_statistics[57957] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101611,7 +101659,7 @@ _G.pg.item_data_statistics[57957] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57958] = {
+_G.pg.base.item_data_statistics[57958] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101658,7 +101706,7 @@ _G.pg.item_data_statistics[57958] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57959] = {
+_G.pg.base.item_data_statistics[57959] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101705,7 +101753,7 @@ _G.pg.item_data_statistics[57959] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57960] = {
+_G.pg.base.item_data_statistics[57960] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101752,7 +101800,7 @@ _G.pg.item_data_statistics[57960] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57961] = {
+_G.pg.base.item_data_statistics[57961] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -101799,7 +101847,7 @@ _G.pg.item_data_statistics[57961] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57962] = {
+_G.pg.base.item_data_statistics[57962] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -101931,7 +101979,7 @@ _G.pg.item_data_statistics[57962] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57963] = {
+_G.pg.base.item_data_statistics[57963] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -102063,7 +102111,7 @@ _G.pg.item_data_statistics[57963] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57964] = {
+_G.pg.base.item_data_statistics[57964] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -102195,7 +102243,7 @@ _G.pg.item_data_statistics[57964] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57965] = {
+_G.pg.base.item_data_statistics[57965] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -102327,7 +102375,7 @@ _G.pg.item_data_statistics[57965] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57966] = {
+_G.pg.base.item_data_statistics[57966] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -102459,7 +102507,7 @@ _G.pg.item_data_statistics[57966] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57967] = {
+_G.pg.base.item_data_statistics[57967] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -102596,7 +102644,7 @@ _G.pg.item_data_statistics[57967] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57968] = {
+_G.pg.base.item_data_statistics[57968] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102643,7 +102691,7 @@ _G.pg.item_data_statistics[57968] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57969] = {
+_G.pg.base.item_data_statistics[57969] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102690,7 +102738,7 @@ _G.pg.item_data_statistics[57969] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57970] = {
+_G.pg.base.item_data_statistics[57970] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102737,7 +102785,7 @@ _G.pg.item_data_statistics[57970] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57971] = {
+_G.pg.base.item_data_statistics[57971] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102784,7 +102832,7 @@ _G.pg.item_data_statistics[57971] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57972] = {
+_G.pg.base.item_data_statistics[57972] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102831,7 +102879,7 @@ _G.pg.item_data_statistics[57972] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57973] = {
+_G.pg.base.item_data_statistics[57973] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102878,7 +102926,7 @@ _G.pg.item_data_statistics[57973] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57974] = {
+_G.pg.base.item_data_statistics[57974] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102925,7 +102973,7 @@ _G.pg.item_data_statistics[57974] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57975] = {
+_G.pg.base.item_data_statistics[57975] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -102967,7 +103015,7 @@ _G.pg.item_data_statistics[57975] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57976] = {
+_G.pg.base.item_data_statistics[57976] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -103009,7 +103057,7 @@ _G.pg.item_data_statistics[57976] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57977] = {
+_G.pg.base.item_data_statistics[57977] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -103051,7 +103099,7 @@ _G.pg.item_data_statistics[57977] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57978] = {
+_G.pg.base.item_data_statistics[57978] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -103093,7 +103141,7 @@ _G.pg.item_data_statistics[57978] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57979] = {
+_G.pg.base.item_data_statistics[57979] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -103135,7 +103183,7 @@ _G.pg.item_data_statistics[57979] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57980] = {
+_G.pg.base.item_data_statistics[57980] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -103267,7 +103315,7 @@ _G.pg.item_data_statistics[57980] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57981] = {
+_G.pg.base.item_data_statistics[57981] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -103399,7 +103447,7 @@ _G.pg.item_data_statistics[57981] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57982] = {
+_G.pg.base.item_data_statistics[57982] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -103531,7 +103579,7 @@ _G.pg.item_data_statistics[57982] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57983] = {
+_G.pg.base.item_data_statistics[57983] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -103663,7 +103711,7 @@ _G.pg.item_data_statistics[57983] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57984] = {
+_G.pg.base.item_data_statistics[57984] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -103795,7 +103843,7 @@ _G.pg.item_data_statistics[57984] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57985] = {
+_G.pg.base.item_data_statistics[57985] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -103932,7 +103980,7 @@ _G.pg.item_data_statistics[57985] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57986] = {
+_G.pg.base.item_data_statistics[57986] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -103979,7 +104027,7 @@ _G.pg.item_data_statistics[57986] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57987] = {
+_G.pg.base.item_data_statistics[57987] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104021,7 +104069,7 @@ _G.pg.item_data_statistics[57987] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57988] = {
+_G.pg.base.item_data_statistics[57988] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -104158,7 +104206,7 @@ _G.pg.item_data_statistics[57988] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57989] = {
+_G.pg.base.item_data_statistics[57989] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104205,7 +104253,7 @@ _G.pg.item_data_statistics[57989] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57990] = {
+_G.pg.base.item_data_statistics[57990] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104252,7 +104300,7 @@ _G.pg.item_data_statistics[57990] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57991] = {
+_G.pg.base.item_data_statistics[57991] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104299,7 +104347,7 @@ _G.pg.item_data_statistics[57991] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57992] = {
+_G.pg.base.item_data_statistics[57992] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104346,7 +104394,7 @@ _G.pg.item_data_statistics[57992] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57993] = {
+_G.pg.base.item_data_statistics[57993] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104393,7 +104441,7 @@ _G.pg.item_data_statistics[57993] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57994] = {
+_G.pg.base.item_data_statistics[57994] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104440,7 +104488,7 @@ _G.pg.item_data_statistics[57994] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57995] = {
+_G.pg.base.item_data_statistics[57995] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104487,7 +104535,7 @@ _G.pg.item_data_statistics[57995] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57996] = {
+_G.pg.base.item_data_statistics[57996] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104534,7 +104582,7 @@ _G.pg.item_data_statistics[57996] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57997] = {
+_G.pg.base.item_data_statistics[57997] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104581,7 +104629,7 @@ _G.pg.item_data_statistics[57997] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57998] = {
+_G.pg.base.item_data_statistics[57998] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104628,7 +104676,7 @@ _G.pg.item_data_statistics[57998] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57999] = {
+_G.pg.base.item_data_statistics[57999] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104675,7 +104723,7 @@ _G.pg.item_data_statistics[57999] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58000] = {
+_G.pg.base.item_data_statistics[58000] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -104722,7 +104770,7 @@ _G.pg.item_data_statistics[58000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58001] = {
+_G.pg.base.item_data_statistics[58001] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -104854,7 +104902,7 @@ _G.pg.item_data_statistics[58001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58002] = {
+_G.pg.base.item_data_statistics[58002] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -104986,7 +105034,7 @@ _G.pg.item_data_statistics[58002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58003] = {
+_G.pg.base.item_data_statistics[58003] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -105118,7 +105166,7 @@ _G.pg.item_data_statistics[58003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58004] = {
+_G.pg.base.item_data_statistics[58004] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -105250,7 +105298,7 @@ _G.pg.item_data_statistics[58004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58005] = {
+_G.pg.base.item_data_statistics[58005] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -105382,7 +105430,7 @@ _G.pg.item_data_statistics[58005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58006] = {
+_G.pg.base.item_data_statistics[58006] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -105519,7 +105567,7 @@ _G.pg.item_data_statistics[58006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58007] = {
+_G.pg.base.item_data_statistics[58007] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105566,7 +105614,7 @@ _G.pg.item_data_statistics[58007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58008] = {
+_G.pg.base.item_data_statistics[58008] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105613,7 +105661,7 @@ _G.pg.item_data_statistics[58008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58009] = {
+_G.pg.base.item_data_statistics[58009] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105660,7 +105708,7 @@ _G.pg.item_data_statistics[58009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58010] = {
+_G.pg.base.item_data_statistics[58010] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105707,7 +105755,7 @@ _G.pg.item_data_statistics[58010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58011] = {
+_G.pg.base.item_data_statistics[58011] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105754,7 +105802,7 @@ _G.pg.item_data_statistics[58011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58012] = {
+_G.pg.base.item_data_statistics[58012] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105801,7 +105849,7 @@ _G.pg.item_data_statistics[58012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58013] = {
+_G.pg.base.item_data_statistics[58013] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105848,7 +105896,7 @@ _G.pg.item_data_statistics[58013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58014] = {
+_G.pg.base.item_data_statistics[58014] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105890,7 +105938,7 @@ _G.pg.item_data_statistics[58014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58015] = {
+_G.pg.base.item_data_statistics[58015] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105932,7 +105980,7 @@ _G.pg.item_data_statistics[58015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58016] = {
+_G.pg.base.item_data_statistics[58016] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -105974,7 +106022,7 @@ _G.pg.item_data_statistics[58016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58017] = {
+_G.pg.base.item_data_statistics[58017] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -106016,7 +106064,7 @@ _G.pg.item_data_statistics[58017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58018] = {
+_G.pg.base.item_data_statistics[58018] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -106058,7 +106106,7 @@ _G.pg.item_data_statistics[58018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58019] = {
+_G.pg.base.item_data_statistics[58019] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -106190,7 +106238,7 @@ _G.pg.item_data_statistics[58019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58020] = {
+_G.pg.base.item_data_statistics[58020] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -106322,7 +106370,7 @@ _G.pg.item_data_statistics[58020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58021] = {
+_G.pg.base.item_data_statistics[58021] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -106454,7 +106502,7 @@ _G.pg.item_data_statistics[58021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58022] = {
+_G.pg.base.item_data_statistics[58022] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -106586,7 +106634,7 @@ _G.pg.item_data_statistics[58022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58023] = {
+_G.pg.base.item_data_statistics[58023] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -106718,7 +106766,7 @@ _G.pg.item_data_statistics[58023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58024] = {
+_G.pg.base.item_data_statistics[58024] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -106855,7 +106903,7 @@ _G.pg.item_data_statistics[58024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58025] = {
+_G.pg.base.item_data_statistics[58025] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -106902,7 +106950,7 @@ _G.pg.item_data_statistics[58025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58026] = {
+_G.pg.base.item_data_statistics[58026] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -106944,7 +106992,7 @@ _G.pg.item_data_statistics[58026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58027] = {
+_G.pg.base.item_data_statistics[58027] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -107081,7 +107129,7 @@ _G.pg.item_data_statistics[58027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58028] = {
+_G.pg.base.item_data_statistics[58028] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107128,7 +107176,7 @@ _G.pg.item_data_statistics[58028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58029] = {
+_G.pg.base.item_data_statistics[58029] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107175,7 +107223,7 @@ _G.pg.item_data_statistics[58029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58030] = {
+_G.pg.base.item_data_statistics[58030] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107222,7 +107270,7 @@ _G.pg.item_data_statistics[58030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58031] = {
+_G.pg.base.item_data_statistics[58031] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107269,7 +107317,7 @@ _G.pg.item_data_statistics[58031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58032] = {
+_G.pg.base.item_data_statistics[58032] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107316,7 +107364,7 @@ _G.pg.item_data_statistics[58032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58033] = {
+_G.pg.base.item_data_statistics[58033] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107358,7 +107406,7 @@ _G.pg.item_data_statistics[58033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58034] = {
+_G.pg.base.item_data_statistics[58034] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -107490,7 +107538,7 @@ _G.pg.item_data_statistics[58034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58035] = {
+_G.pg.base.item_data_statistics[58035] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -107622,7 +107670,7 @@ _G.pg.item_data_statistics[58035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58036] = {
+_G.pg.base.item_data_statistics[58036] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -107754,7 +107802,7 @@ _G.pg.item_data_statistics[58036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58060] = {
+_G.pg.base.item_data_statistics[58060] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107801,7 +107849,7 @@ _G.pg.item_data_statistics[58060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58061] = {
+_G.pg.base.item_data_statistics[58061] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107848,7 +107896,7 @@ _G.pg.item_data_statistics[58061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58062] = {
+_G.pg.base.item_data_statistics[58062] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107895,7 +107943,7 @@ _G.pg.item_data_statistics[58062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58063] = {
+_G.pg.base.item_data_statistics[58063] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107942,7 +107990,7 @@ _G.pg.item_data_statistics[58063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58064] = {
+_G.pg.base.item_data_statistics[58064] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -107989,7 +108037,7 @@ _G.pg.item_data_statistics[58064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58065] = {
+_G.pg.base.item_data_statistics[58065] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -108036,7 +108084,7 @@ _G.pg.item_data_statistics[58065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58066] = {
+_G.pg.base.item_data_statistics[58066] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -108083,7 +108131,7 @@ _G.pg.item_data_statistics[58066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58067] = {
+_G.pg.base.item_data_statistics[58067] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -108130,7 +108178,7 @@ _G.pg.item_data_statistics[58067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58068] = {
+_G.pg.base.item_data_statistics[58068] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -108172,7 +108220,7 @@ _G.pg.item_data_statistics[58068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58069] = {
+_G.pg.base.item_data_statistics[58069] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -108214,7 +108262,7 @@ _G.pg.item_data_statistics[58069] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58070] = {
+_G.pg.base.item_data_statistics[58070] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -108346,7 +108394,7 @@ _G.pg.item_data_statistics[58070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58071] = {
+_G.pg.base.item_data_statistics[58071] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -108478,7 +108526,7 @@ _G.pg.item_data_statistics[58071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58072] = {
+_G.pg.base.item_data_statistics[58072] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -108610,7 +108658,7 @@ _G.pg.item_data_statistics[58072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58073] = {
+_G.pg.base.item_data_statistics[58073] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -108747,7 +108795,7 @@ _G.pg.item_data_statistics[58073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58074] = {
+_G.pg.base.item_data_statistics[58074] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -108884,7 +108932,7 @@ _G.pg.item_data_statistics[58074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58075] = {
+_G.pg.base.item_data_statistics[58075] = {
 	display = "有機率獲得外觀裝備箱，獲得以下裝備外觀之一",
 	name = "DOA联动外观装备箱",
 	max_num = 0,
@@ -108996,7 +109044,7 @@ _G.pg.item_data_statistics[58075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58076] = {
+_G.pg.base.item_data_statistics[58076] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109043,7 +109091,7 @@ _G.pg.item_data_statistics[58076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58077] = {
+_G.pg.base.item_data_statistics[58077] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109090,7 +109138,7 @@ _G.pg.item_data_statistics[58077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58078] = {
+_G.pg.base.item_data_statistics[58078] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109137,7 +109185,7 @@ _G.pg.item_data_statistics[58078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58079] = {
+_G.pg.base.item_data_statistics[58079] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109184,7 +109232,7 @@ _G.pg.item_data_statistics[58079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58080] = {
+_G.pg.base.item_data_statistics[58080] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109231,7 +109279,7 @@ _G.pg.item_data_statistics[58080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58081] = {
+_G.pg.base.item_data_statistics[58081] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109278,7 +109326,7 @@ _G.pg.item_data_statistics[58081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58082] = {
+_G.pg.base.item_data_statistics[58082] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109325,7 +109373,7 @@ _G.pg.item_data_statistics[58082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58083] = {
+_G.pg.base.item_data_statistics[58083] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109372,7 +109420,7 @@ _G.pg.item_data_statistics[58083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58084] = {
+_G.pg.base.item_data_statistics[58084] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109419,7 +109467,7 @@ _G.pg.item_data_statistics[58084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58085] = {
+_G.pg.base.item_data_statistics[58085] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109466,7 +109514,7 @@ _G.pg.item_data_statistics[58085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58086] = {
+_G.pg.base.item_data_statistics[58086] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109513,7 +109561,7 @@ _G.pg.item_data_statistics[58086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58087] = {
+_G.pg.base.item_data_statistics[58087] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -109560,7 +109608,7 @@ _G.pg.item_data_statistics[58087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58088] = {
+_G.pg.base.item_data_statistics[58088] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -109692,7 +109740,7 @@ _G.pg.item_data_statistics[58088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58089] = {
+_G.pg.base.item_data_statistics[58089] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -109824,7 +109872,7 @@ _G.pg.item_data_statistics[58089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58090] = {
+_G.pg.base.item_data_statistics[58090] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -109956,7 +110004,7 @@ _G.pg.item_data_statistics[58090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58091] = {
+_G.pg.base.item_data_statistics[58091] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -110088,7 +110136,7 @@ _G.pg.item_data_statistics[58091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58092] = {
+_G.pg.base.item_data_statistics[58092] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -110220,7 +110268,7 @@ _G.pg.item_data_statistics[58092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58093] = {
+_G.pg.base.item_data_statistics[58093] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -110357,7 +110405,7 @@ _G.pg.item_data_statistics[58093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58094] = {
+_G.pg.base.item_data_statistics[58094] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110404,7 +110452,7 @@ _G.pg.item_data_statistics[58094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58095] = {
+_G.pg.base.item_data_statistics[58095] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110451,7 +110499,7 @@ _G.pg.item_data_statistics[58095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58096] = {
+_G.pg.base.item_data_statistics[58096] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110498,7 +110546,7 @@ _G.pg.item_data_statistics[58096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58097] = {
+_G.pg.base.item_data_statistics[58097] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110545,7 +110593,7 @@ _G.pg.item_data_statistics[58097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58098] = {
+_G.pg.base.item_data_statistics[58098] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110592,7 +110640,7 @@ _G.pg.item_data_statistics[58098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58099] = {
+_G.pg.base.item_data_statistics[58099] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110639,7 +110687,7 @@ _G.pg.item_data_statistics[58099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58100] = {
+_G.pg.base.item_data_statistics[58100] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110686,7 +110734,7 @@ _G.pg.item_data_statistics[58100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58101] = {
+_G.pg.base.item_data_statistics[58101] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110728,7 +110776,7 @@ _G.pg.item_data_statistics[58101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58102] = {
+_G.pg.base.item_data_statistics[58102] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110770,7 +110818,7 @@ _G.pg.item_data_statistics[58102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58103] = {
+_G.pg.base.item_data_statistics[58103] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110812,7 +110860,7 @@ _G.pg.item_data_statistics[58103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58104] = {
+_G.pg.base.item_data_statistics[58104] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110854,7 +110902,7 @@ _G.pg.item_data_statistics[58104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58105] = {
+_G.pg.base.item_data_statistics[58105] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -110896,7 +110944,7 @@ _G.pg.item_data_statistics[58105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58106] = {
+_G.pg.base.item_data_statistics[58106] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -111028,7 +111076,7 @@ _G.pg.item_data_statistics[58106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58107] = {
+_G.pg.base.item_data_statistics[58107] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -111160,7 +111208,7 @@ _G.pg.item_data_statistics[58107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58108] = {
+_G.pg.base.item_data_statistics[58108] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -111292,7 +111340,7 @@ _G.pg.item_data_statistics[58108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58109] = {
+_G.pg.base.item_data_statistics[58109] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -111424,7 +111472,7 @@ _G.pg.item_data_statistics[58109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58110] = {
+_G.pg.base.item_data_statistics[58110] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -111556,7 +111604,7 @@ _G.pg.item_data_statistics[58110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58111] = {
+_G.pg.base.item_data_statistics[58111] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -111693,7 +111741,7 @@ _G.pg.item_data_statistics[58111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58112] = {
+_G.pg.base.item_data_statistics[58112] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -111740,7 +111788,7 @@ _G.pg.item_data_statistics[58112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58113] = {
+_G.pg.base.item_data_statistics[58113] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -111782,7 +111830,7 @@ _G.pg.item_data_statistics[58113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58114] = {
+_G.pg.base.item_data_statistics[58114] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -111919,7 +111967,7 @@ _G.pg.item_data_statistics[58114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58120] = {
+_G.pg.base.item_data_statistics[58120] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -111966,7 +112014,7 @@ _G.pg.item_data_statistics[58120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58121] = {
+_G.pg.base.item_data_statistics[58121] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112013,7 +112061,7 @@ _G.pg.item_data_statistics[58121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58122] = {
+_G.pg.base.item_data_statistics[58122] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112060,7 +112108,7 @@ _G.pg.item_data_statistics[58122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58123] = {
+_G.pg.base.item_data_statistics[58123] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112107,7 +112155,7 @@ _G.pg.item_data_statistics[58123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58124] = {
+_G.pg.base.item_data_statistics[58124] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112154,7 +112202,7 @@ _G.pg.item_data_statistics[58124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58125] = {
+_G.pg.base.item_data_statistics[58125] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112201,7 +112249,7 @@ _G.pg.item_data_statistics[58125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58126] = {
+_G.pg.base.item_data_statistics[58126] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112248,7 +112296,7 @@ _G.pg.item_data_statistics[58126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58127] = {
+_G.pg.base.item_data_statistics[58127] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112295,7 +112343,7 @@ _G.pg.item_data_statistics[58127] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58128] = {
+_G.pg.base.item_data_statistics[58128] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112342,7 +112390,7 @@ _G.pg.item_data_statistics[58128] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58129] = {
+_G.pg.base.item_data_statistics[58129] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112389,7 +112437,7 @@ _G.pg.item_data_statistics[58129] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58130] = {
+_G.pg.base.item_data_statistics[58130] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112436,7 +112484,7 @@ _G.pg.item_data_statistics[58130] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58131] = {
+_G.pg.base.item_data_statistics[58131] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -112483,7 +112531,7 @@ _G.pg.item_data_statistics[58131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58132] = {
+_G.pg.base.item_data_statistics[58132] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -112615,7 +112663,7 @@ _G.pg.item_data_statistics[58132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58133] = {
+_G.pg.base.item_data_statistics[58133] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -112747,7 +112795,7 @@ _G.pg.item_data_statistics[58133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58134] = {
+_G.pg.base.item_data_statistics[58134] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -112879,7 +112927,7 @@ _G.pg.item_data_statistics[58134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58135] = {
+_G.pg.base.item_data_statistics[58135] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -113011,7 +113059,7 @@ _G.pg.item_data_statistics[58135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58136] = {
+_G.pg.base.item_data_statistics[58136] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -113143,7 +113191,7 @@ _G.pg.item_data_statistics[58136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58137] = {
+_G.pg.base.item_data_statistics[58137] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -113280,7 +113328,7 @@ _G.pg.item_data_statistics[58137] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58138] = {
+_G.pg.base.item_data_statistics[58138] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113327,7 +113375,7 @@ _G.pg.item_data_statistics[58138] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58139] = {
+_G.pg.base.item_data_statistics[58139] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113374,7 +113422,7 @@ _G.pg.item_data_statistics[58139] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58140] = {
+_G.pg.base.item_data_statistics[58140] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113421,7 +113469,7 @@ _G.pg.item_data_statistics[58140] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58141] = {
+_G.pg.base.item_data_statistics[58141] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113468,7 +113516,7 @@ _G.pg.item_data_statistics[58141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58142] = {
+_G.pg.base.item_data_statistics[58142] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113515,7 +113563,7 @@ _G.pg.item_data_statistics[58142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58143] = {
+_G.pg.base.item_data_statistics[58143] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113562,7 +113610,7 @@ _G.pg.item_data_statistics[58143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58144] = {
+_G.pg.base.item_data_statistics[58144] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113609,7 +113657,7 @@ _G.pg.item_data_statistics[58144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58145] = {
+_G.pg.base.item_data_statistics[58145] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113651,7 +113699,7 @@ _G.pg.item_data_statistics[58145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58146] = {
+_G.pg.base.item_data_statistics[58146] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113693,7 +113741,7 @@ _G.pg.item_data_statistics[58146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58147] = {
+_G.pg.base.item_data_statistics[58147] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113735,7 +113783,7 @@ _G.pg.item_data_statistics[58147] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58148] = {
+_G.pg.base.item_data_statistics[58148] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113777,7 +113825,7 @@ _G.pg.item_data_statistics[58148] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58149] = {
+_G.pg.base.item_data_statistics[58149] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -113819,7 +113867,7 @@ _G.pg.item_data_statistics[58149] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58150] = {
+_G.pg.base.item_data_statistics[58150] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -113951,7 +113999,7 @@ _G.pg.item_data_statistics[58150] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58151] = {
+_G.pg.base.item_data_statistics[58151] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -114083,7 +114131,7 @@ _G.pg.item_data_statistics[58151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58152] = {
+_G.pg.base.item_data_statistics[58152] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -114215,7 +114263,7 @@ _G.pg.item_data_statistics[58152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58153] = {
+_G.pg.base.item_data_statistics[58153] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -114347,7 +114395,7 @@ _G.pg.item_data_statistics[58153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58154] = {
+_G.pg.base.item_data_statistics[58154] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -114479,7 +114527,7 @@ _G.pg.item_data_statistics[58154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58155] = {
+_G.pg.base.item_data_statistics[58155] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -114616,7 +114664,7 @@ _G.pg.item_data_statistics[58155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58156] = {
+_G.pg.base.item_data_statistics[58156] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -114663,7 +114711,7 @@ _G.pg.item_data_statistics[58156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58157] = {
+_G.pg.base.item_data_statistics[58157] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -114705,7 +114753,7 @@ _G.pg.item_data_statistics[58157] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58158] = {
+_G.pg.base.item_data_statistics[58158] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -114842,7 +114890,7 @@ _G.pg.item_data_statistics[58158] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58160] = {
+_G.pg.base.item_data_statistics[58160] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -114889,7 +114937,7 @@ _G.pg.item_data_statistics[58160] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58161] = {
+_G.pg.base.item_data_statistics[58161] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -114936,7 +114984,7 @@ _G.pg.item_data_statistics[58161] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58162] = {
+_G.pg.base.item_data_statistics[58162] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -114983,7 +115031,7 @@ _G.pg.item_data_statistics[58162] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58163] = {
+_G.pg.base.item_data_statistics[58163] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115030,7 +115078,7 @@ _G.pg.item_data_statistics[58163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58164] = {
+_G.pg.base.item_data_statistics[58164] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115077,7 +115125,7 @@ _G.pg.item_data_statistics[58164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58165] = {
+_G.pg.base.item_data_statistics[58165] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115124,7 +115172,7 @@ _G.pg.item_data_statistics[58165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58166] = {
+_G.pg.base.item_data_statistics[58166] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115171,7 +115219,7 @@ _G.pg.item_data_statistics[58166] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58167] = {
+_G.pg.base.item_data_statistics[58167] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115218,7 +115266,7 @@ _G.pg.item_data_statistics[58167] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58168] = {
+_G.pg.base.item_data_statistics[58168] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115265,7 +115313,7 @@ _G.pg.item_data_statistics[58168] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58169] = {
+_G.pg.base.item_data_statistics[58169] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115312,7 +115360,7 @@ _G.pg.item_data_statistics[58169] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58170] = {
+_G.pg.base.item_data_statistics[58170] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115359,7 +115407,7 @@ _G.pg.item_data_statistics[58170] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58171] = {
+_G.pg.base.item_data_statistics[58171] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -115406,7 +115454,7 @@ _G.pg.item_data_statistics[58171] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58172] = {
+_G.pg.base.item_data_statistics[58172] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -115538,7 +115586,7 @@ _G.pg.item_data_statistics[58172] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58173] = {
+_G.pg.base.item_data_statistics[58173] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -115670,7 +115718,7 @@ _G.pg.item_data_statistics[58173] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58174] = {
+_G.pg.base.item_data_statistics[58174] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -115802,7 +115850,7 @@ _G.pg.item_data_statistics[58174] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58175] = {
+_G.pg.base.item_data_statistics[58175] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -115934,7 +115982,7 @@ _G.pg.item_data_statistics[58175] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58176] = {
+_G.pg.base.item_data_statistics[58176] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -116066,7 +116114,7 @@ _G.pg.item_data_statistics[58176] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58177] = {
+_G.pg.base.item_data_statistics[58177] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -116203,7 +116251,7 @@ _G.pg.item_data_statistics[58177] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58178] = {
+_G.pg.base.item_data_statistics[58178] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116250,7 +116298,7 @@ _G.pg.item_data_statistics[58178] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58179] = {
+_G.pg.base.item_data_statistics[58179] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116297,7 +116345,7 @@ _G.pg.item_data_statistics[58179] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58180] = {
+_G.pg.base.item_data_statistics[58180] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116344,7 +116392,7 @@ _G.pg.item_data_statistics[58180] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58181] = {
+_G.pg.base.item_data_statistics[58181] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116391,7 +116439,7 @@ _G.pg.item_data_statistics[58181] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58182] = {
+_G.pg.base.item_data_statistics[58182] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116438,7 +116486,7 @@ _G.pg.item_data_statistics[58182] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58183] = {
+_G.pg.base.item_data_statistics[58183] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116485,7 +116533,7 @@ _G.pg.item_data_statistics[58183] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58184] = {
+_G.pg.base.item_data_statistics[58184] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116532,7 +116580,7 @@ _G.pg.item_data_statistics[58184] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58185] = {
+_G.pg.base.item_data_statistics[58185] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116574,7 +116622,7 @@ _G.pg.item_data_statistics[58185] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58186] = {
+_G.pg.base.item_data_statistics[58186] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116616,7 +116664,7 @@ _G.pg.item_data_statistics[58186] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58187] = {
+_G.pg.base.item_data_statistics[58187] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116658,7 +116706,7 @@ _G.pg.item_data_statistics[58187] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58188] = {
+_G.pg.base.item_data_statistics[58188] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116700,7 +116748,7 @@ _G.pg.item_data_statistics[58188] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58189] = {
+_G.pg.base.item_data_statistics[58189] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -116742,7 +116790,7 @@ _G.pg.item_data_statistics[58189] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58190] = {
+_G.pg.base.item_data_statistics[58190] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -116874,7 +116922,7 @@ _G.pg.item_data_statistics[58190] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58191] = {
+_G.pg.base.item_data_statistics[58191] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -117006,7 +117054,7 @@ _G.pg.item_data_statistics[58191] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58192] = {
+_G.pg.base.item_data_statistics[58192] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -117138,7 +117186,7 @@ _G.pg.item_data_statistics[58192] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58193] = {
+_G.pg.base.item_data_statistics[58193] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -117270,7 +117318,7 @@ _G.pg.item_data_statistics[58193] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58194] = {
+_G.pg.base.item_data_statistics[58194] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -117402,7 +117450,7 @@ _G.pg.item_data_statistics[58194] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58195] = {
+_G.pg.base.item_data_statistics[58195] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -117539,7 +117587,7 @@ _G.pg.item_data_statistics[58195] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58196] = {
+_G.pg.base.item_data_statistics[58196] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -117586,7 +117634,7 @@ _G.pg.item_data_statistics[58196] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58197] = {
+_G.pg.base.item_data_statistics[58197] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -117628,7 +117676,7 @@ _G.pg.item_data_statistics[58197] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58198] = {
+_G.pg.base.item_data_statistics[58198] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -117765,7 +117813,7 @@ _G.pg.item_data_statistics[58198] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58240] = {
+_G.pg.base.item_data_statistics[58240] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -117812,7 +117860,7 @@ _G.pg.item_data_statistics[58240] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58241] = {
+_G.pg.base.item_data_statistics[58241] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -117859,7 +117907,7 @@ _G.pg.item_data_statistics[58241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58242] = {
+_G.pg.base.item_data_statistics[58242] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -117906,7 +117954,7 @@ _G.pg.item_data_statistics[58242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58243] = {
+_G.pg.base.item_data_statistics[58243] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -117953,7 +118001,7 @@ _G.pg.item_data_statistics[58243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58244] = {
+_G.pg.base.item_data_statistics[58244] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -118000,7 +118048,7 @@ _G.pg.item_data_statistics[58244] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58245] = {
+_G.pg.base.item_data_statistics[58245] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -118047,7 +118095,7 @@ _G.pg.item_data_statistics[58245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58246] = {
+_G.pg.base.item_data_statistics[58246] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -118094,7 +118142,7 @@ _G.pg.item_data_statistics[58246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58247] = {
+_G.pg.base.item_data_statistics[58247] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -118141,7 +118189,7 @@ _G.pg.item_data_statistics[58247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58248] = {
+_G.pg.base.item_data_statistics[58248] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -118183,7 +118231,7 @@ _G.pg.item_data_statistics[58248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58249] = {
+_G.pg.base.item_data_statistics[58249] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -118225,7 +118273,7 @@ _G.pg.item_data_statistics[58249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58250] = {
+_G.pg.base.item_data_statistics[58250] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -118357,7 +118405,7 @@ _G.pg.item_data_statistics[58250] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58251] = {
+_G.pg.base.item_data_statistics[58251] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -118489,7 +118537,7 @@ _G.pg.item_data_statistics[58251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58252] = {
+_G.pg.base.item_data_statistics[58252] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -118621,7 +118669,7 @@ _G.pg.item_data_statistics[58252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58253] = {
+_G.pg.base.item_data_statistics[58253] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -118758,7 +118806,7 @@ _G.pg.item_data_statistics[58253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58254] = {
+_G.pg.base.item_data_statistics[58254] = {
 	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -118895,7 +118943,7 @@ _G.pg.item_data_statistics[58254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58255] = {
+_G.pg.base.item_data_statistics[58255] = {
 	display = "有機率獲得外觀裝備箱，獲得以下裝備外觀之一",
 	name = "外觀裝備箱(偶像大師)",
 	max_num = 0,
@@ -119007,7 +119055,7 @@ _G.pg.item_data_statistics[58255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58400] = {
+_G.pg.base.item_data_statistics[58400] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119054,7 +119102,7 @@ _G.pg.item_data_statistics[58400] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58401] = {
+_G.pg.base.item_data_statistics[58401] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119101,7 +119149,7 @@ _G.pg.item_data_statistics[58401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58402] = {
+_G.pg.base.item_data_statistics[58402] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119148,7 +119196,7 @@ _G.pg.item_data_statistics[58402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58403] = {
+_G.pg.base.item_data_statistics[58403] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119195,7 +119243,7 @@ _G.pg.item_data_statistics[58403] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58404] = {
+_G.pg.base.item_data_statistics[58404] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119242,7 +119290,7 @@ _G.pg.item_data_statistics[58404] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58405] = {
+_G.pg.base.item_data_statistics[58405] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119289,7 +119337,7 @@ _G.pg.item_data_statistics[58405] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58406] = {
+_G.pg.base.item_data_statistics[58406] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119336,7 +119384,7 @@ _G.pg.item_data_statistics[58406] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58407] = {
+_G.pg.base.item_data_statistics[58407] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119383,7 +119431,7 @@ _G.pg.item_data_statistics[58407] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58408] = {
+_G.pg.base.item_data_statistics[58408] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119425,7 +119473,7 @@ _G.pg.item_data_statistics[58408] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58409] = {
+_G.pg.base.item_data_statistics[58409] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
 	max_num = 0,
@@ -119467,7 +119515,7 @@ _G.pg.item_data_statistics[58409] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58410] = {
+_G.pg.base.item_data_statistics[58410] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -119599,7 +119647,7 @@ _G.pg.item_data_statistics[58410] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58411] = {
+_G.pg.base.item_data_statistics[58411] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -119731,7 +119779,7 @@ _G.pg.item_data_statistics[58411] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58412] = {
+_G.pg.base.item_data_statistics[58412] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -119863,7 +119911,7 @@ _G.pg.item_data_statistics[58412] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58413] = {
+_G.pg.base.item_data_statistics[58413] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -120000,7 +120048,7 @@ _G.pg.item_data_statistics[58413] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58414] = {
+_G.pg.base.item_data_statistics[58414] = {
 	display = "當前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
@@ -120137,7 +120185,7 @@ _G.pg.item_data_statistics[58414] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58415] = {
+_G.pg.base.item_data_statistics[58415] = {
 	display = "有機率獲得外觀裝備箱，獲得以下裝備外觀之一",
 	name = "外觀裝備箱(SSSS)",
 	max_num = 0,
@@ -120249,7 +120297,7 @@ _G.pg.item_data_statistics[58415] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59000] = {
+_G.pg.base.item_data_statistics[59000] = {
 	display = "參與角色將獲得經驗值",
 	name = "角色經驗",
 	max_num = 0,
@@ -120270,7 +120318,7 @@ _G.pg.item_data_statistics[59000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59001] = {
+_G.pg.base.item_data_statistics[59001] = {
 	display = "各種物資的統稱，用處頗多，到處都需要用到它~",
 	name = "物資",
 	max_num = 0,
@@ -120291,7 +120339,7 @@ _G.pg.item_data_statistics[59001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59002] = {
+_G.pg.base.item_data_statistics[59002] = {
 	display = "黑漆漆的石油，液體黃金。船隻出擊必備，缺少石油就沒有辦法出擊哦",
 	name = "石油",
 	max_num = 0,
@@ -120312,7 +120360,7 @@ _G.pg.item_data_statistics[59002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59003] = {
+_G.pg.base.item_data_statistics[59003] = {
 	display = "代表著戰功的徽記，用於購買演習商店商品",
 	name = "功勳",
 	max_num = 0,
@@ -120333,7 +120381,7 @@ _G.pg.item_data_statistics[59003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59004] = {
+_G.pg.base.item_data_statistics[59004] = {
 	display = "奇異的寶石，有各式各樣的用處",
 	name = "鑽石",
 	max_num = 0,
@@ -120354,7 +120402,7 @@ _G.pg.item_data_statistics[59004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59005] = {
+_G.pg.base.item_data_statistics[59005] = {
 	display = "奇異的寶石，有各式各樣的用處",
 	name = "鑽石",
 	max_num = 0,
@@ -120375,7 +120423,7 @@ _G.pg.item_data_statistics[59005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59006] = {
+_G.pg.base.item_data_statistics[59006] = {
 	display = "不知名勢力發放的貨幣，只能用於購買傢俱",
 	name = "傢俱幣",
 	max_num = 0,
@@ -120396,7 +120444,7 @@ _G.pg.item_data_statistics[59006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59008] = {
+_G.pg.base.item_data_statistics[59008] = {
 	display = "由指揮部派發的新型貨幣，象征著指揮官曾經做出的貢獻，不管在哪個大艦隊都可以使用",
 	name = "艦隊幣",
 	max_num = 0,
@@ -120417,7 +120465,7 @@ _G.pg.item_data_statistics[59008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59009] = {
+_G.pg.base.item_data_statistics[59009] = {
 	display = "對藍圖解析後得到的成果，可以用在原型商店換取各種獎勵。",
 	name = "設計原型",
 	max_num = 0,
@@ -120438,7 +120486,7 @@ _G.pg.item_data_statistics[59009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59010] = {
+_G.pg.base.item_data_statistics[59010] = {
 	display = "通過擊破關卡BOSS、完成特定任務、完成科研項目或退役非改造海上傳奇角色得到，可以用在原型商店換取獎勵",
 	name = "特裝原型",
 	max_num = 0,
@@ -120459,7 +120507,7 @@ _G.pg.item_data_statistics[59010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59011] = {
+_G.pg.base.item_data_statistics[59011] = {
 	display = "通過擊破關卡BOSS、完成特定任務、完成科研項目或退役非改造海上傳奇角色得到，可以用在原型商店換取獎勵",
 	name = "特裝原型",
 	max_num = 0,
@@ -120480,7 +120528,7 @@ _G.pg.item_data_statistics[59011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59012] = {
+_G.pg.base.item_data_statistics[59012] = {
 	display = "累積週常活躍點，可以領取每週活躍獎勵。",
 	name = "週常活躍點",
 	max_num = 0,
@@ -120501,7 +120549,7 @@ _G.pg.item_data_statistics[59012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59100] = {
+_G.pg.base.item_data_statistics[59100] = {
 	display = "擴充倉庫20格",
 	name = "擴充倉庫",
 	max_num = 0,
@@ -120522,7 +120570,7 @@ _G.pg.item_data_statistics[59100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59101] = {
+_G.pg.base.item_data_statistics[59101] = {
 	display = "擴充船塢10格",
 	name = "擴充船塢",
 	max_num = 0,
@@ -120543,7 +120591,7 @@ _G.pg.item_data_statistics[59101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59102] = {
+_G.pg.base.item_data_statistics[59102] = {
 	display = "用於Bili週年慶活動兌換，活動結束後將會消失",
 	name = "Bili電池",
 	max_num = 0,
@@ -120564,7 +120612,7 @@ _G.pg.item_data_statistics[59102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59103] = {
+_G.pg.base.item_data_statistics[59103] = {
 	display = "用於『異色格』活動兌換，活動結束後將會消失",
 	name = "PT點數",
 	max_num = 0,
@@ -120585,7 +120633,7 @@ _G.pg.item_data_statistics[59103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59104] = {
+_G.pg.base.item_data_statistics[59104] = {
 	display = "用於『紅染的參訪者』活動兌換，活動結束後將會消失",
 	name = "繪馬",
 	max_num = 0,
@@ -120606,7 +120654,7 @@ _G.pg.item_data_statistics[59104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59106] = {
+_G.pg.base.item_data_statistics[59106] = {
 	display = "用於凜冬王冠活動獲取補給，活動結束後將會消失",
 	name = "女王的恩典",
 	max_num = 0,
@@ -120627,7 +120675,7 @@ _G.pg.item_data_statistics[59106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59107] = {
+_G.pg.base.item_data_statistics[59107] = {
 	display = "用於『紅染的參訪者』活動兌換，活動結束後將會消失",
 	name = "繪馬",
 	max_num = 0,
@@ -120648,7 +120696,7 @@ _G.pg.item_data_statistics[59107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59108] = {
+_G.pg.base.item_data_statistics[59108] = {
 	display = "用於『啾啾總動員』累計兌換活動，活動結束後將會消失",
 	name = "啾啾",
 	max_num = 0,
@@ -120669,7 +120717,7 @@ _G.pg.item_data_statistics[59108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59109] = {
+_G.pg.base.item_data_statistics[59109] = {
 	display = "用於『墨染的鋼鐵之花』活動兌換，活動結束後將會消失",
 	name = "櫻之禦守",
 	max_num = 0,
@@ -120690,7 +120738,7 @@ _G.pg.item_data_statistics[59109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59111] = {
+_G.pg.base.item_data_statistics[59111] = {
 	display = "用於『異色格』活動兌換，活動結束後將會消失",
 	name = "PT點數",
 	max_num = 0,
@@ -120711,7 +120759,7 @@ _G.pg.item_data_statistics[59111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59112] = {
+_G.pg.base.item_data_statistics[59112] = {
 	display = "用於『光與影的鳶尾之華』活動兌換，活動結束後將會消失",
 	name = "愛麗絲之徽",
 	max_num = 0,
@@ -120732,7 +120780,7 @@ _G.pg.item_data_statistics[59112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59113] = {
+_G.pg.base.item_data_statistics[59113] = {
 	display = "用於『啾啾總動員』累計兌換活動，活動結束後將會消失",
 	name = "啾啾",
 	max_num = 0,
@@ -120753,7 +120801,7 @@ _G.pg.item_data_statistics[59113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59114] = {
+_G.pg.base.item_data_statistics[59114] = {
 	display = "擴充貓窩5格",
 	name = "擴充貓窩",
 	max_num = 0,
@@ -120774,7 +120822,7 @@ _G.pg.item_data_statistics[59114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59115] = {
+_G.pg.base.item_data_statistics[59115] = {
 	display = "用於戰鬥！皇家女僕隊兌換，活動結束後將會消失",
 	name = "PT",
 	max_num = 0,
@@ -120795,7 +120843,7 @@ _G.pg.item_data_statistics[59115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59116] = {
+_G.pg.base.item_data_statistics[59116] = {
 	display = "用於『墜落之翼』活動抽取，活動結束後將會消失",
 	name = "戰鬥之星",
 	max_num = 0,
@@ -120816,7 +120864,7 @@ _G.pg.item_data_statistics[59116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59117] = {
+_G.pg.base.item_data_statistics[59117] = {
 	display = "用於『傳頌之物』活動提升角色好感，活動結束後將會消失",
 	name = "友好度-芙米露露",
 	max_num = 0,
@@ -120837,7 +120885,7 @@ _G.pg.item_data_statistics[59117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59118] = {
+_G.pg.base.item_data_statistics[59118] = {
 	display = "用於『傳頌之物』聯動活動兌換，活動結束後將會消失",
 	name = "可可波幣",
 	max_num = 0,
@@ -120858,7 +120906,7 @@ _G.pg.item_data_statistics[59118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59119] = {
+_G.pg.base.item_data_statistics[59119] = {
 	display = "用於『斯圖爾特的硝煙』活動兌換，活動結束後將會消失",
 	name = "式符-J",
 	max_num = 0,
@@ -120879,7 +120927,7 @@ _G.pg.item_data_statistics[59119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59120] = {
+_G.pg.base.item_data_statistics[59120] = {
 	display = "用於『蒼紅的迴響』活動兌換，活動結束後將會消失",
 	name = "Pt-櫻 ",
 	max_num = 0,
@@ -120900,7 +120948,7 @@ _G.pg.item_data_statistics[59120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59121] = {
+_G.pg.base.item_data_statistics[59121] = {
 	display = "用於凜冬王冠活動獲取補給，活動結束後將會消失",
 	name = "女王的恩典",
 	max_num = 0,
@@ -120921,7 +120969,7 @@ _G.pg.item_data_statistics[59121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59122] = {
+_G.pg.base.item_data_statistics[59122] = {
 	display = "用於凜冬王冠活動獲取補給，活動結束後將會消失",
 	name = "世界boss-pt",
 	max_num = 0,
@@ -120942,7 +120990,7 @@ _G.pg.item_data_statistics[59122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59123] = {
+_G.pg.base.item_data_statistics[59123] = {
 	display = "用於『峽灣間的獵人』活動提升角色好感，活動結束後將會消失",
 	name = "友好度-獵人",
 	max_num = 0,
@@ -120963,7 +121011,7 @@ _G.pg.item_data_statistics[59123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59124] = {
+_G.pg.base.item_data_statistics[59124] = {
 	display = "用於『墨染的鋼鐵之花』活動兌換，活動結束後將會消失",
 	name = "櫻之御守",
 	max_num = 0,
@@ -120984,7 +121032,7 @@ _G.pg.item_data_statistics[59124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59128] = {
+_G.pg.base.item_data_statistics[59128] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121005,7 +121053,7 @@ _G.pg.item_data_statistics[59128] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59129] = {
+_G.pg.base.item_data_statistics[59129] = {
 	display = "用於『鐵血、音符與誓言』活動兌換，活動結束後將會消失",
 	name = "鐵血紋章",
 	max_num = 0,
@@ -121026,7 +121074,7 @@ _G.pg.item_data_statistics[59129] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59130] = {
+_G.pg.base.item_data_statistics[59130] = {
 	display = "用於『明日之星☆閃亮登場！』活動提升角色好感，活動結束後將會消失",
 	name = "友好度",
 	max_num = 0,
@@ -121047,7 +121095,7 @@ _G.pg.item_data_statistics[59130] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59133] = {
+_G.pg.base.item_data_statistics[59133] = {
 	display = "用於『光與影的鳶尾之華』活動兌換，活動結束後將會消失",
 	name = "愛麗絲之徽",
 	max_num = 0,
@@ -121068,7 +121116,7 @@ _G.pg.item_data_statistics[59133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59134] = {
+_G.pg.base.item_data_statistics[59134] = {
 	display = "用於『箱庭療法』活動兌換，活動結束後將會消失",
 	name = "戰鬥之星·黑",
 	max_num = 0,
@@ -121089,7 +121137,7 @@ _G.pg.item_data_statistics[59134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59135] = {
+_G.pg.base.item_data_statistics[59135] = {
 	display = "關於「傳說中的海豹」的線索，收集更多情報，尋找傳說中的小海豹吧！用於『碧海的偶像』活動，活動結束後將會消失",
 	name = "線索",
 	max_num = 0,
@@ -121110,7 +121158,7 @@ _G.pg.item_data_statistics[59135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59136] = {
+_G.pg.base.item_data_statistics[59136] = {
 	display = "『Azurlane人氣投票2022』活動累計獲得投票，每輪投票結束時次數歸零",
 	name = "應援棒 ",
 	max_num = 0,
@@ -121131,7 +121179,7 @@ _G.pg.item_data_statistics[59136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59137] = {
+_G.pg.base.item_data_statistics[59137] = {
 	display = "用於『神聖的悲喜劇』活動兌換，活動結束後將會消失",
 	name = "帝國的榮光",
 	max_num = 0,
@@ -121152,7 +121200,7 @@ _G.pg.item_data_statistics[59137] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59138] = {
+_G.pg.base.item_data_statistics[59138] = {
 	display = "用於『神聖的序幕』活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -121173,7 +121221,7 @@ _G.pg.item_data_statistics[59138] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59140] = {
+_G.pg.base.item_data_statistics[59140] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121194,7 +121242,7 @@ _G.pg.item_data_statistics[59140] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59141] = {
+_G.pg.base.item_data_statistics[59141] = {
 	display = "參與『穿越彼方的水線』獲得的點數，累計一定程度可以領取報酬",
 	name = "貢獻值",
 	max_num = 0,
@@ -121215,7 +121263,7 @@ _G.pg.item_data_statistics[59141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59142] = {
+_G.pg.base.item_data_statistics[59142] = {
 	display = "參與『穿越彼方的水線』EX關的必要道具，也可以用來增加普通關額外獎勵次數",
 	name = "特別挑戰券",
 	max_num = 0,
@@ -121236,7 +121284,7 @@ _G.pg.item_data_statistics[59142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59143] = {
+_G.pg.base.item_data_statistics[59143] = {
 	display = "用於『激奏的Polaris』活動兌換，活動結束後將會消失",
 	name = "激奏徽章",
 	max_num = 0,
@@ -121257,7 +121305,7 @@ _G.pg.item_data_statistics[59143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59146] = {
+_G.pg.base.item_data_statistics[59146] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -121278,7 +121326,7 @@ _G.pg.item_data_statistics[59146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59147] = {
+_G.pg.base.item_data_statistics[59147] = {
 	display = "用於『浮櫻影華』活動兌換，活動結束後將會消失",
 	name = "勾玉",
 	max_num = 0,
@@ -121299,7 +121347,7 @@ _G.pg.item_data_statistics[59147] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59148] = {
+_G.pg.base.item_data_statistics[59148] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -121320,7 +121368,7 @@ _G.pg.item_data_statistics[59148] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59149] = {
+_G.pg.base.item_data_statistics[59149] = {
 	display = "用於『北境序曲』活動兌換，活動結束後將會消失",
 	name = "情報Pt",
 	max_num = 0,
@@ -121341,7 +121389,7 @@ _G.pg.item_data_statistics[59149] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59150] = {
+_G.pg.base.item_data_statistics[59150] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121362,7 +121410,7 @@ _G.pg.item_data_statistics[59150] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59151] = {
+_G.pg.base.item_data_statistics[59151] = {
 	display = "用於『斯圖爾特的硝煙』活動兌換，活動結束後將會消失",
 	name = "式符-J",
 	max_num = 0,
@@ -121383,7 +121431,7 @@ _G.pg.item_data_statistics[59151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59152] = {
+_G.pg.base.item_data_statistics[59152] = {
 	display = "{namecode:98}特意準備的禮品券，不小心遺落在了各個出擊海域，回收後投入使用可提高商店營業額，活動結束後將會消失",
 	name = "{namecode:98}的禮品券",
 	max_num = 0,
@@ -121404,7 +121452,7 @@ _G.pg.item_data_statistics[59152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59153] = {
+_G.pg.base.item_data_statistics[59153] = {
 	display = "用於『異國的偶像？』活動兌換，活動結束後將會消失",
 	name = "長鼓",
 	max_num = 0,
@@ -121425,7 +121473,7 @@ _G.pg.item_data_statistics[59153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59154] = {
+_G.pg.base.item_data_statistics[59154] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -121446,7 +121494,7 @@ _G.pg.item_data_statistics[59154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59155] = {
+_G.pg.base.item_data_statistics[59155] = {
 	display = "用於『微層混合』活動兌換，活動結束後將會消失",
 	name = "銀翼之徽 ",
 	max_num = 0,
@@ -121467,7 +121515,7 @@ _G.pg.item_data_statistics[59155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59156] = {
+_G.pg.base.item_data_statistics[59156] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121488,7 +121536,7 @@ _G.pg.item_data_statistics[59156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59157] = {
+_G.pg.base.item_data_statistics[59157] = {
 	display = "用於『蒼紅的迴響』活動兌換，活動結束後將會消失",
 	name = "Pt-櫻 ",
 	max_num = 0,
@@ -121509,7 +121557,7 @@ _G.pg.item_data_statistics[59157] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59158] = {
+_G.pg.base.item_data_statistics[59158] = {
 	display = "用於『小騎士的訓練日』活動提升角色好感，活動結束後將會消失",
 	name = "友好度-小聲望",
 	max_num = 0,
@@ -121530,7 +121578,7 @@ _G.pg.item_data_statistics[59158] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59159] = {
+_G.pg.base.item_data_statistics[59159] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121551,7 +121599,7 @@ _G.pg.item_data_statistics[59159] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59160] = {
+_G.pg.base.item_data_statistics[59160] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -121572,7 +121620,7 @@ _G.pg.item_data_statistics[59160] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59163] = {
+_G.pg.base.item_data_statistics[59163] = {
 	display = "新品披薩研發用的特殊物資，可從各海域中回收。活動結束後將會消失。",
 	name = "披薩研發物資",
 	max_num = 0,
@@ -121593,7 +121641,7 @@ _G.pg.item_data_statistics[59163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59165] = {
+_G.pg.base.item_data_statistics[59165] = {
 	display = "用於『穹頂下的聖詠曲』活動兌換，活動結束後將會消失",
 	name = "鳶尾之印",
 	max_num = 0,
@@ -121614,7 +121662,7 @@ _G.pg.item_data_statistics[59165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59168] = {
+_G.pg.base.item_data_statistics[59168] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121635,7 +121683,7 @@ _G.pg.item_data_statistics[59168] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59169] = {
+_G.pg.base.item_data_statistics[59169] = {
 	display = "用於『峽灣間的反擊』活動兌換，活動結束後將會消失",
 	name = "峽灣之徽",
 	max_num = 0,
@@ -121656,7 +121704,7 @@ _G.pg.item_data_statistics[59169] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59170] = {
+_G.pg.base.item_data_statistics[59170] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -121677,7 +121725,7 @@ _G.pg.item_data_statistics[59170] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59171] = {
+_G.pg.base.item_data_statistics[59171] = {
 	display = "用於『永夜幻光』活動兌換，活動結束後將會消失",
 	name = "榮譽之冠",
 	max_num = 0,
@@ -121698,7 +121746,7 @@ _G.pg.item_data_statistics[59171] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59172] = {
+_G.pg.base.item_data_statistics[59172] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝 ",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121719,7 +121767,7 @@ _G.pg.item_data_statistics[59172] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59173] = {
+_G.pg.base.item_data_statistics[59173] = {
 	display = "用於『環城之夜』活動兌換，活動結束後將會消失",
 	name = "鷹羽",
 	max_num = 0,
@@ -121740,7 +121788,7 @@ _G.pg.item_data_statistics[59173] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59175] = {
+_G.pg.base.item_data_statistics[59175] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121761,7 +121809,7 @@ _G.pg.item_data_statistics[59175] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59181] = {
+_G.pg.base.item_data_statistics[59181] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121782,7 +121830,7 @@ _G.pg.item_data_statistics[59181] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59182] = {
+_G.pg.base.item_data_statistics[59182] = {
 	display = "用於『蝶海夢花』活動兌換，活動結束後將會消失",
 	name = "蝶影",
 	max_num = 0,
@@ -121803,7 +121851,7 @@ _G.pg.item_data_statistics[59182] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59180] = {
+_G.pg.base.item_data_statistics[59180] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -121824,7 +121872,7 @@ _G.pg.item_data_statistics[59180] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59183] = {
+_G.pg.base.item_data_statistics[59183] = {
 	display = "用於『劃破海空之翼』活動兌換，活動結束後將會消失",
 	name = "翼之徽",
 	max_num = 0,
@@ -121845,7 +121893,7 @@ _G.pg.item_data_statistics[59183] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59184] = {
+_G.pg.base.item_data_statistics[59184] = {
 	display = "收集7次後，可以得到限定換裝「Candy Magic！」",
 	name = "魔法棒棒糖",
 	max_num = 0,
@@ -121866,7 +121914,7 @@ _G.pg.item_data_statistics[59184] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59186] = {
+_G.pg.base.item_data_statistics[59186] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121887,7 +121935,7 @@ _G.pg.item_data_statistics[59186] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59189] = {
+_G.pg.base.item_data_statistics[59189] = {
 	display = "用於『假日航線』活動兌換，活動結束後將會消失",
 	name = "維納斯點數",
 	max_num = 0,
@@ -121908,7 +121956,7 @@ _G.pg.item_data_statistics[59189] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59190] = {
+_G.pg.base.item_data_statistics[59190] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝，活動結束後將會消失",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121929,7 +121977,7 @@ _G.pg.item_data_statistics[59190] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59192] = {
+_G.pg.base.item_data_statistics[59192] = {
 	display = "用於『負象限作戰』活動兌換，活動結束後將會消失",
 	name = "鐵血密鑰",
 	max_num = 0,
@@ -121950,7 +121998,7 @@ _G.pg.item_data_statistics[59192] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59193] = {
+_G.pg.base.item_data_statistics[59193] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -121971,7 +122019,7 @@ _G.pg.item_data_statistics[59193] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59194] = {
+_G.pg.base.item_data_statistics[59194] = {
 	display = "收集7次後，可以得到限定角色「Z28」",
 	name = "美食券",
 	max_num = 0,
@@ -121992,7 +122040,7 @@ _G.pg.item_data_statistics[59194] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59191] = {
+_G.pg.base.item_data_statistics[59191] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -122013,7 +122061,7 @@ _G.pg.item_data_statistics[59191] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59197] = {
+_G.pg.base.item_data_statistics[59197] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122034,7 +122082,7 @@ _G.pg.item_data_statistics[59197] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59198] = {
+_G.pg.base.item_data_statistics[59198] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122055,7 +122103,7 @@ _G.pg.item_data_statistics[59198] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59199] = {
+_G.pg.base.item_data_statistics[59199] = {
 	display = "用於新歲祝福·辛丑活動兌換，活動結束後將會消失",
 	name = "東煌結",
 	max_num = 0,
@@ -122076,7 +122124,7 @@ _G.pg.item_data_statistics[59199] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59200] = {
+_G.pg.base.item_data_statistics[59200] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
@@ -122097,7 +122145,7 @@ _G.pg.item_data_statistics[59200] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59201] = {
+_G.pg.base.item_data_statistics[59201] = {
 	display = "用於『破曉冰華』活動兌換，活動結束後將會消失",
 	name = "未知晶體",
 	max_num = 0,
@@ -122118,7 +122166,7 @@ _G.pg.item_data_statistics[59201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59202] = {
+_G.pg.base.item_data_statistics[59202] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122139,7 +122187,7 @@ _G.pg.item_data_statistics[59202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59203] = {
+_G.pg.base.item_data_statistics[59203] = {
 	display = "用於『最可愛的夥伴』活動，活動結束後將會消失 ",
 	name = "美味竹子",
 	max_num = 0,
@@ -122160,7 +122208,7 @@ _G.pg.item_data_statistics[59203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59204] = {
+_G.pg.base.item_data_statistics[59204] = {
 	display = "用於『最可愛的夥伴』活動，活動結束後將會消失 ",
 	name = "美味竹子",
 	max_num = 0,
@@ -122181,7 +122229,7 @@ _G.pg.item_data_statistics[59204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59205] = {
+_G.pg.base.item_data_statistics[59205] = {
 	display = "用於『最可愛的夥伴』活動，活動結束後將會消失 ",
 	name = "美味竹子",
 	max_num = 0,
@@ -122202,7 +122250,7 @@ _G.pg.item_data_statistics[59205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59206] = {
+_G.pg.base.item_data_statistics[59206] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數 ",
 	max_num = 0,
@@ -122223,7 +122271,7 @@ _G.pg.item_data_statistics[59206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59208] = {
+_G.pg.base.item_data_statistics[59208] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122244,7 +122292,7 @@ _G.pg.item_data_statistics[59208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59209] = {
+_G.pg.base.item_data_statistics[59209] = {
 	display = "用於『復興的讚美詩』活動兌換，活動結束後將會消失",
 	name = "復興之證",
 	max_num = 0,
@@ -122265,7 +122313,7 @@ _G.pg.item_data_statistics[59209] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59210] = {
+_G.pg.base.item_data_statistics[59210] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122286,7 +122334,7 @@ _G.pg.item_data_statistics[59210] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59211] = {
+_G.pg.base.item_data_statistics[59211] = {
 	display = "用於『小小軍師成長記 』活動提升角色好感，活動結束後將會消失",
 	name = "友好度-小天城",
 	max_num = 0,
@@ -122307,7 +122355,28 @@ _G.pg.item_data_statistics[59211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59213] = {
+_G.pg.base.item_data_statistics[59212] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數 ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_v4",
+	id = 59212,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59213] = {
 	display = "用於『啾啾冰棒屋』活動，活動結束後將會消失。 ",
 	name = "啾啾冰棒材料",
 	max_num = 0,
@@ -122328,7 +122397,7 @@ _G.pg.item_data_statistics[59213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59215] = {
+_G.pg.base.item_data_statistics[59215] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122349,7 +122418,7 @@ _G.pg.item_data_statistics[59215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59216] = {
+_G.pg.base.item_data_statistics[59216] = {
 	display = "用於『奮鬥吧，小企業！』活動提升角色好感，活動結束後將會消失",
 	name = "友好度-小企業",
 	max_num = 0,
@@ -122370,7 +122439,7 @@ _G.pg.item_data_statistics[59216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59217] = {
+_G.pg.base.item_data_statistics[59217] = {
 	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
@@ -122391,7 +122460,7 @@ _G.pg.item_data_statistics[59217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59218] = {
+_G.pg.base.item_data_statistics[59218] = {
 	display = "用於『啾啾樂園』活動升級建築，活動結束後將會消失",
 	name = "樂園建材",
 	max_num = 0,
@@ -122412,7 +122481,7 @@ _G.pg.item_data_statistics[59218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59219] = {
+_G.pg.base.item_data_statistics[59219] = {
 	display = "用於『啾啾兌換屋』兌換獎品，活動結束後將會消失",
 	name = "啾啾兌換券",
 	max_num = 0,
@@ -122433,7 +122502,7 @@ _G.pg.item_data_statistics[59219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59220] = {
+_G.pg.base.item_data_statistics[59220] = {
 	display = "集齊7個可以獲得「慶典邀請函」",
 	name = "啾啾邀請函 ",
 	max_num = 0,
@@ -122454,7 +122523,7 @@ _G.pg.item_data_statistics[59220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59222] = {
+_G.pg.base.item_data_statistics[59222] = {
 	display = "幫山城收集的度假海灘的空氣。用於『假日攻勢！復刻』活動兌換，活動結束後將會消失。",
 	name = "空氣瓶",
 	max_num = 0,
@@ -122475,7 +122544,7 @@ _G.pg.item_data_statistics[59222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59227] = {
+_G.pg.base.item_data_statistics[59227] = {
 	display = "完成祭典小遊戲可以獲得的印花，收集印花並在印花冊蓋章，可以獲得特別獎勵哦！",
 	name = "夏日祭典印花",
 	max_num = 0,
@@ -122496,7 +122565,7 @@ _G.pg.item_data_statistics[59227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59230] = {
+_G.pg.base.item_data_statistics[59230] = {
 	display = "用於『響徹碧海的偶像之歌』活動兌換，活動結束後將會消失",
 	name = "聯動Pt",
 	max_num = 0,
@@ -122517,7 +122586,7 @@ _G.pg.item_data_statistics[59230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59231] = {
+_G.pg.base.item_data_statistics[59231] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122538,7 +122607,7 @@ _G.pg.item_data_statistics[59231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59237] = {
+_G.pg.base.item_data_statistics[59237] = {
 	display = "用於『啾啾水上樂園』活動升級建築，活動結束後將會消失",
 	name = "樂園建材",
 	max_num = 0,
@@ -122559,7 +122628,7 @@ _G.pg.item_data_statistics[59237] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59238] = {
+_G.pg.base.item_data_statistics[59238] = {
 	display = "用於『司令部動員指令』活動累計獎勵，活動結束後將會消失",
 	name = "集結點",
 	max_num = 0,
@@ -122580,7 +122649,7 @@ _G.pg.item_data_statistics[59238] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59239] = {
+_G.pg.base.item_data_statistics[59239] = {
 	display = "用於『啾啾搖搖樂』兌換獎品，活動結束後將會消失",
 	name = "搖搖券",
 	max_num = 0,
@@ -122601,7 +122670,7 @@ _G.pg.item_data_statistics[59239] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59241] = {
+_G.pg.base.item_data_statistics[59241] = {
 	display = "參與『世界巡遊』(2022.2.1~3.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
 	name = "巡遊點數",
 	max_num = 0,
@@ -122622,7 +122691,7 @@ _G.pg.item_data_statistics[59241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59242] = {
+_G.pg.base.item_data_statistics[59242] = {
 	display = "不该被看到",
 	name = "通行证一期对应虚拟道具",
 	max_num = 0,
@@ -122643,7 +122712,7 @@ _G.pg.item_data_statistics[59242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59245] = {
+_G.pg.base.item_data_statistics[59245] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122664,7 +122733,7 @@ _G.pg.item_data_statistics[59245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59251] = {
+_G.pg.base.item_data_statistics[59251] = {
 	display = "用於『交匯世界的弧光』活動兌換，活動結束後將會消失",
 	name = "弧光結晶",
 	max_num = 0,
@@ -122685,7 +122754,7 @@ _G.pg.item_data_statistics[59251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59252] = {
+_G.pg.base.item_data_statistics[59252] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122706,7 +122775,7 @@ _G.pg.item_data_statistics[59252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59253] = {
+_G.pg.base.item_data_statistics[59253] = {
 	display = "參與『世界巡遊』(2022.4.1~2022.5.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
 	name = "巡遊點數",
 	max_num = 0,
@@ -122727,7 +122796,7 @@ _G.pg.item_data_statistics[59253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59254] = {
+_G.pg.base.item_data_statistics[59254] = {
 	display = "不该被看到",
 	name = "通行证二期对应虚拟道具",
 	max_num = 0,
@@ -122748,7 +122817,7 @@ _G.pg.item_data_statistics[59254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59263] = {
+_G.pg.base.item_data_statistics[59263] = {
 	display = "用於『新歲祝福·壬寅』活動兌換，活動結束後將會消失",
 	name = "東煌結",
 	max_num = 0,
@@ -122769,7 +122838,7 @@ _G.pg.item_data_statistics[59263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59301] = {
+_G.pg.base.item_data_statistics[59301] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122790,7 +122859,7 @@ _G.pg.item_data_statistics[59301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59302] = {
+_G.pg.base.item_data_statistics[59302] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122811,7 +122880,7 @@ _G.pg.item_data_statistics[59302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59303] = {
+_G.pg.base.item_data_statistics[59303] = {
 	display = "用於『啾啾總動員』累計兌換活動，活動結束後將會消失",
 	name = "啾啾",
 	max_num = 0,
@@ -122832,7 +122901,7 @@ _G.pg.item_data_statistics[59303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59304] = {
+_G.pg.base.item_data_statistics[59304] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
 	max_num = 0,
@@ -122853,7 +122922,7 @@ _G.pg.item_data_statistics[59304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59601] = {
+_G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驅逐船模-茳",
 	name = "船模-茳",
 	max_num = 0,
@@ -122874,7 +122943,7 @@ _G.pg.item_data_statistics[59601] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59602] = {
+_G.pg.base.item_data_statistics[59602] = {
 	display = "三笠收藏的驅逐船模-松",
 	name = "船模-松",
 	max_num = 0,
@@ -122895,7 +122964,7 @@ _G.pg.item_data_statistics[59602] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59603] = {
+_G.pg.base.item_data_statistics[59603] = {
 	display = "三笠收藏的驅逐船模-樟",
 	name = "船模-樟",
 	max_num = 0,
@@ -122916,7 +122985,7 @@ _G.pg.item_data_statistics[59603] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59604] = {
+_G.pg.base.item_data_statistics[59604] = {
 	display = "三笠收藏的巡洋船模-獒",
 	name = "船模-獒",
 	max_num = 0,
@@ -122937,7 +123006,7 @@ _G.pg.item_data_statistics[59604] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59605] = {
+_G.pg.base.item_data_statistics[59605] = {
 	display = "鮐號戰列艦1：100艦船模型",
 	name = "船模-鮐",
 	max_num = 0,
@@ -122958,7 +123027,7 @@ _G.pg.item_data_statistics[59605] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59606] = {
+_G.pg.base.item_data_statistics[59606] = {
 	display = "（曾經）陳列在三笠前輩博物館中的船模零件，用於修復船模，活動結束後將會消失",
 	name = "零件",
 	max_num = 0,
@@ -122979,7 +123048,7 @@ _G.pg.item_data_statistics[59606] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59607] = {
+_G.pg.base.item_data_statistics[59607] = {
 	display = "三笠收藏的巡洋船模-犬",
 	name = "船模-犬",
 	max_num = 0,
@@ -123000,7 +123069,7 @@ _G.pg.item_data_statistics[59607] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59608] = {
+_G.pg.base.item_data_statistics[59608] = {
 	display = "三笠收藏的巡洋船模-猋",
 	name = "船模-猋",
 	max_num = 0,
@@ -123021,7 +123090,7 @@ _G.pg.item_data_statistics[59608] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59609] = {
+_G.pg.base.item_data_statistics[59609] = {
 	display = "三笠收藏的戰列船模-鯊",
 	name = "船模-鯊",
 	max_num = 0,
@@ -123042,7 +123111,7 @@ _G.pg.item_data_statistics[59609] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59610] = {
+_G.pg.base.item_data_statistics[59610] = {
 	display = "三笠收藏的戰列船模-鮫",
 	name = "船模-鮫",
 	max_num = 0,
@@ -123063,7 +123132,7 @@ _G.pg.item_data_statistics[59610] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59611] = {
+_G.pg.base.item_data_statistics[59611] = {
 	display = "三笠收藏的戰巡船模-鱘",
 	name = "船模-鱘",
 	max_num = 0,
@@ -123084,7 +123153,7 @@ _G.pg.item_data_statistics[59611] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59612] = {
+_G.pg.base.item_data_statistics[59612] = {
 	display = "三笠收藏的航母船模-凰",
 	name = "船模-凰",
 	max_num = 0,
@@ -123105,7 +123174,7 @@ _G.pg.item_data_statistics[59612] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59613] = {
+_G.pg.base.item_data_statistics[59613] = {
 	display = "三笠收藏的航母船模-鷸",
 	name = "船模-鷸",
 	max_num = 0,
@@ -123126,7 +123195,7 @@ _G.pg.item_data_statistics[59613] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59614] = {
+_G.pg.base.item_data_statistics[59614] = {
 	display = "三笠收藏的航母船模-鶴",
 	name = "船模-鶴",
 	max_num = 0,
@@ -123147,7 +123216,7 @@ _G.pg.item_data_statistics[59614] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59615] = {
+_G.pg.base.item_data_statistics[59615] = {
 	display = "用於『回流活動』累計點數獲得獎勵，活動結束後將會消失",
 	name = "回流pt點",
 	max_num = 0,
@@ -123168,7 +123237,7 @@ _G.pg.item_data_statistics[59615] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59621] = {
+_G.pg.base.item_data_statistics[59621] = {
 	display = "三笠收藏的驅逐船模-茳",
 	name = "船模-茳",
 	max_num = 0,
@@ -123189,7 +123258,7 @@ _G.pg.item_data_statistics[59621] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59622] = {
+_G.pg.base.item_data_statistics[59622] = {
 	display = "三笠收藏的驅逐船模-松",
 	name = "船模-松",
 	max_num = 0,
@@ -123210,7 +123279,7 @@ _G.pg.item_data_statistics[59622] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59623] = {
+_G.pg.base.item_data_statistics[59623] = {
 	display = "三笠收藏的驅逐船模-樟",
 	name = "船模-樟",
 	max_num = 0,
@@ -123231,7 +123300,7 @@ _G.pg.item_data_statistics[59623] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59624] = {
+_G.pg.base.item_data_statistics[59624] = {
 	display = "三笠收藏的巡洋船模-獒",
 	name = "船模-獒",
 	max_num = 0,
@@ -123252,7 +123321,7 @@ _G.pg.item_data_statistics[59624] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59625] = {
+_G.pg.base.item_data_statistics[59625] = {
 	display = "鮐號戰列艦1：100艦船模型",
 	name = "船模-鲐",
 	max_num = 0,
@@ -123273,7 +123342,7 @@ _G.pg.item_data_statistics[59625] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59626] = {
+_G.pg.base.item_data_statistics[59626] = {
 	display = "（曾經）陳列在三笠前輩博物館中的船模零件，用於修復船模，活動結束後將會消失",
 	name = "零件",
 	max_num = 0,
@@ -123294,7 +123363,7 @@ _G.pg.item_data_statistics[59626] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59627] = {
+_G.pg.base.item_data_statistics[59627] = {
 	display = "三笠收藏的巡洋船模-犬",
 	name = "船模-犬",
 	max_num = 0,
@@ -123315,7 +123384,7 @@ _G.pg.item_data_statistics[59627] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59628] = {
+_G.pg.base.item_data_statistics[59628] = {
 	display = "三笠收藏的巡洋船模-猋",
 	name = "船模-猋",
 	max_num = 0,
@@ -123336,7 +123405,7 @@ _G.pg.item_data_statistics[59628] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59629] = {
+_G.pg.base.item_data_statistics[59629] = {
 	display = "三笠收藏的戰列船模-鯊",
 	name = "船模-鲨",
 	max_num = 0,
@@ -123357,7 +123426,7 @@ _G.pg.item_data_statistics[59629] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59630] = {
+_G.pg.base.item_data_statistics[59630] = {
 	display = "三笠收藏的戰列船模-鮫",
 	name = "船模-鲛",
 	max_num = 0,
@@ -123378,7 +123447,7 @@ _G.pg.item_data_statistics[59630] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59631] = {
+_G.pg.base.item_data_statistics[59631] = {
 	display = "三笠收藏的戰巡船模-鱘",
 	name = "船模-鲟",
 	max_num = 0,
@@ -123399,7 +123468,7 @@ _G.pg.item_data_statistics[59631] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59632] = {
+_G.pg.base.item_data_statistics[59632] = {
 	display = "三笠收藏的航母船模-凰",
 	name = "船模-凰",
 	max_num = 0,
@@ -123420,7 +123489,7 @@ _G.pg.item_data_statistics[59632] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59633] = {
+_G.pg.base.item_data_statistics[59633] = {
 	display = "三笠收藏的航母船模-鷸",
 	name = "船模-鹬",
 	max_num = 0,
@@ -123441,7 +123510,7 @@ _G.pg.item_data_statistics[59633] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59634] = {
+_G.pg.base.item_data_statistics[59634] = {
 	display = "三笠收藏的航母船模-鶴",
 	name = "船模-鹤",
 	max_num = 0,
@@ -123462,7 +123531,7 @@ _G.pg.item_data_statistics[59634] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59701] = {
+_G.pg.base.item_data_statistics[59701] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -123483,7 +123552,7 @@ _G.pg.item_data_statistics[59701] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59702] = {
+_G.pg.base.item_data_statistics[59702] = {
 	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -123504,7 +123573,7 @@ _G.pg.item_data_statistics[59702] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59703] = {
+_G.pg.base.item_data_statistics[59703] = {
 	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -123525,7 +123594,7 @@ _G.pg.item_data_statistics[59703] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59704] = {
+_G.pg.base.item_data_statistics[59704] = {
 	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -123546,7 +123615,7 @@ _G.pg.item_data_statistics[59704] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59705] = {
+_G.pg.base.item_data_statistics[59705] = {
 	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -123567,7 +123636,7 @@ _G.pg.item_data_statistics[59705] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59706] = {
+_G.pg.base.item_data_statistics[59706] = {
 	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -123588,7 +123657,7 @@ _G.pg.item_data_statistics[59706] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59707] = {
+_G.pg.base.item_data_statistics[59707] = {
 	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -123609,7 +123678,7 @@ _G.pg.item_data_statistics[59707] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59708] = {
+_G.pg.base.item_data_statistics[59708] = {
 	display = "在繪圖日記活動中完成繪圖時使用，可以隨機獲得鑽石或物資",
 	name = "繪圖紅包",
 	max_num = 0,
@@ -123630,7 +123699,7 @@ _G.pg.item_data_statistics[59708] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59709] = {
+_G.pg.base.item_data_statistics[59709] = {
 	display = "小天鵝造型任務道具",
 	name = "小天鵝造型任務道具",
 	max_num = 0,
@@ -123651,7 +123720,7 @@ _G.pg.item_data_statistics[59709] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59710] = {
+_G.pg.base.item_data_statistics[59710] = {
 	display = "收集7個以後或許會有什麼好事發生？",
 	name = "記憶卡片",
 	max_num = 0,
@@ -123672,7 +123741,7 @@ _G.pg.item_data_statistics[59710] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59711] = {
+_G.pg.base.item_data_statistics[59711] = {
 	display = "一週年活動「再誕·曙光」的完成感謝紀念——指揮官，瞧見我手裡的麵包和伏特加了嗎！",
 	name = "再誕·曙光",
 	max_num = 0,
@@ -123693,7 +123762,7 @@ _G.pg.item_data_statistics[59711] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59712] = {
+_G.pg.base.item_data_statistics[59712] = {
 	display = "收集10個以後或許會有什麼好事發生？",
 	name = "記憶卡片",
 	max_num = 0,
@@ -123714,7 +123783,7 @@ _G.pg.item_data_statistics[59712] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59713] = {
+_G.pg.base.item_data_statistics[59713] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -123735,7 +123804,7 @@ _G.pg.item_data_statistics[59713] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59714] = {
+_G.pg.base.item_data_statistics[59714] = {
 	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -123756,7 +123825,7 @@ _G.pg.item_data_statistics[59714] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59715] = {
+_G.pg.base.item_data_statistics[59715] = {
 	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -123777,7 +123846,7 @@ _G.pg.item_data_statistics[59715] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59716] = {
+_G.pg.base.item_data_statistics[59716] = {
 	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -123798,7 +123867,7 @@ _G.pg.item_data_statistics[59716] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59717] = {
+_G.pg.base.item_data_statistics[59717] = {
 	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -123819,7 +123888,7 @@ _G.pg.item_data_statistics[59717] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59718] = {
+_G.pg.base.item_data_statistics[59718] = {
 	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -123840,7 +123909,7 @@ _G.pg.item_data_statistics[59718] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59719] = {
+_G.pg.base.item_data_statistics[59719] = {
 	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -123861,7 +123930,7 @@ _G.pg.item_data_statistics[59719] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59720] = {
+_G.pg.base.item_data_statistics[59720] = {
 	display = "使用後可以邀請一名特定對象參加宴會（獲得指定角色）",
 	name = "宴會邀請函",
 	max_num = 0,
@@ -123882,7 +123951,7 @@ _G.pg.item_data_statistics[59720] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59721] = {
+_G.pg.base.item_data_statistics[59721] = {
 	display = "由聖地牙哥贈予的，作為宴會邀約的回禮",
 	name = "聖地牙哥的回禮",
 	max_num = 0,
@@ -123903,7 +123972,7 @@ _G.pg.item_data_statistics[59721] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59722] = {
+_G.pg.base.item_data_statistics[59722] = {
 	display = "由貝爾法斯特贈予的，作為宴會邀約的回禮",
 	name = "貝爾法斯特的回禮",
 	max_num = 0,
@@ -123924,7 +123993,7 @@ _G.pg.item_data_statistics[59722] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59723] = {
+_G.pg.base.item_data_statistics[59723] = {
 	display = "由高雄贈予的，作為宴會邀約的回禮",
 	name = "高雄的回禮",
 	max_num = 0,
@@ -123945,7 +124014,7 @@ _G.pg.item_data_statistics[59723] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59724] = {
+_G.pg.base.item_data_statistics[59724] = {
 	display = "由厭戰贈予的，作為宴會邀約的回禮",
 	name = "厭戰的回禮",
 	max_num = 0,
@@ -123966,7 +124035,7 @@ _G.pg.item_data_statistics[59724] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59725] = {
+_G.pg.base.item_data_statistics[59725] = {
 	display = "由胡德贈予的，作為宴會邀約的回禮",
 	name = "胡德的回禮",
 	max_num = 0,
@@ -123987,7 +124056,7 @@ _G.pg.item_data_statistics[59725] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59726] = {
+_G.pg.base.item_data_statistics[59726] = {
 	display = "由企業贈予的，作為宴會邀約的回禮",
 	name = "企業的回禮",
 	max_num = 0,
@@ -124008,7 +124077,7 @@ _G.pg.item_data_statistics[59726] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59727] = {
+_G.pg.base.item_data_statistics[59727] = {
 	display = "由光輝贈予的，作為宴會邀約的回禮",
 	name = "光輝的回禮",
 	max_num = 0,
@@ -124029,7 +124098,7 @@ _G.pg.item_data_statistics[59727] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59728] = {
+_G.pg.base.item_data_statistics[59728] = {
 	display = "由威爾斯親王贈予的，作為宴會邀約的回禮",
 	name = "威爾斯親王的回禮",
 	max_num = 0,
@@ -124050,7 +124119,7 @@ _G.pg.item_data_statistics[59728] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59729] = {
+_G.pg.base.item_data_statistics[59729] = {
 	display = "由愛宕贈予的，作為宴會邀約的回禮",
 	name = "愛宕的回禮",
 	max_num = 0,
@@ -124071,7 +124140,7 @@ _G.pg.item_data_statistics[59729] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59730] = {
+_G.pg.base.item_data_statistics[59730] = {
 	display = "可以獲得艦娘和回禮",
 	name = "聖地牙哥禮包",
 	max_num = 0,
@@ -124092,7 +124161,7 @@ _G.pg.item_data_statistics[59730] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59731] = {
+_G.pg.base.item_data_statistics[59731] = {
 	display = "可以獲得艦娘和回禮",
 	name = "貝爾法斯特禮包",
 	max_num = 0,
@@ -124113,7 +124182,7 @@ _G.pg.item_data_statistics[59731] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59732] = {
+_G.pg.base.item_data_statistics[59732] = {
 	display = "可以獲得艦娘和回禮",
 	name = "獒禮包",
 	max_num = 0,
@@ -124134,7 +124203,7 @@ _G.pg.item_data_statistics[59732] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59733] = {
+_G.pg.base.item_data_statistics[59733] = {
 	display = "可以獲得艦娘和回禮",
 	name = "厭戰禮包",
 	max_num = 0,
@@ -124155,7 +124224,7 @@ _G.pg.item_data_statistics[59733] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59734] = {
+_G.pg.base.item_data_statistics[59734] = {
 	display = "可以獲得艦娘和回禮",
 	name = "胡德禮包",
 	max_num = 0,
@@ -124176,7 +124245,7 @@ _G.pg.item_data_statistics[59734] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59735] = {
+_G.pg.base.item_data_statistics[59735] = {
 	display = "可以獲得艦娘和回禮",
 	name = "企業禮包",
 	max_num = 0,
@@ -124197,7 +124266,7 @@ _G.pg.item_data_statistics[59735] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59736] = {
+_G.pg.base.item_data_statistics[59736] = {
 	display = "可以獲得艦娘和回禮",
 	name = "光輝禮包",
 	max_num = 0,
@@ -124218,7 +124287,7 @@ _G.pg.item_data_statistics[59736] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59737] = {
+_G.pg.base.item_data_statistics[59737] = {
 	display = "可以獲得艦娘和回禮",
 	name = "威爾斯親王禮包",
 	max_num = 0,
@@ -124239,7 +124308,7 @@ _G.pg.item_data_statistics[59737] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59738] = {
+_G.pg.base.item_data_statistics[59738] = {
 	display = "可以獲得艦娘和回禮",
 	name = "犬禮包",
 	max_num = 0,
@@ -124260,7 +124329,7 @@ _G.pg.item_data_statistics[59738] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59739] = {
+_G.pg.base.item_data_statistics[59739] = {
 	display = "可以獲得艦娘和回禮",
 	name = "聖地牙哥禮包（新）",
 	max_num = 0,
@@ -124281,7 +124350,7 @@ _G.pg.item_data_statistics[59739] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59740] = {
+_G.pg.base.item_data_statistics[59740] = {
 	display = "可以獲得艦娘和回禮",
 	name = "貝爾法斯特禮包（新）",
 	max_num = 0,
@@ -124302,7 +124371,7 @@ _G.pg.item_data_statistics[59740] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59741] = {
+_G.pg.base.item_data_statistics[59741] = {
 	display = "可以獲得艦娘和回禮",
 	name = "獒禮包（新）",
 	max_num = 0,
@@ -124323,7 +124392,7 @@ _G.pg.item_data_statistics[59741] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59742] = {
+_G.pg.base.item_data_statistics[59742] = {
 	display = "可以獲得艦娘和回禮",
 	name = "厭戰禮包（新）",
 	max_num = 0,
@@ -124344,7 +124413,7 @@ _G.pg.item_data_statistics[59742] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59743] = {
+_G.pg.base.item_data_statistics[59743] = {
 	display = "可以獲得艦娘和回禮",
 	name = "胡德禮包（新）",
 	max_num = 0,
@@ -124365,7 +124434,7 @@ _G.pg.item_data_statistics[59743] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59744] = {
+_G.pg.base.item_data_statistics[59744] = {
 	display = "可以獲得艦娘和回禮",
 	name = "企業禮包（新）",
 	max_num = 0,
@@ -124386,7 +124455,7 @@ _G.pg.item_data_statistics[59744] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59745] = {
+_G.pg.base.item_data_statistics[59745] = {
 	display = "可以獲得艦娘和回禮",
 	name = "光輝禮包（新）",
 	max_num = 0,
@@ -124407,7 +124476,7 @@ _G.pg.item_data_statistics[59745] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59746] = {
+_G.pg.base.item_data_statistics[59746] = {
 	display = "可以獲得艦娘和回禮",
 	name = "威爾斯親王禮包（新）",
 	max_num = 0,
@@ -124428,7 +124497,7 @@ _G.pg.item_data_statistics[59746] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59747] = {
+_G.pg.base.item_data_statistics[59747] = {
 	display = "可以獲得艦娘和回禮",
 	name = "犬禮包（新）",
 	max_num = 0,
@@ -124449,7 +124518,7 @@ _G.pg.item_data_statistics[59747] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59748] = {
+_G.pg.base.item_data_statistics[59748] = {
 	display = "集齊18個可以獲得聖地牙哥專屬改造道具-閃耀的麥克風",
 	name = "聖地牙哥之星",
 	max_num = 0,
@@ -124470,7 +124539,7 @@ _G.pg.item_data_statistics[59748] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59749] = {
+_G.pg.base.item_data_statistics[59749] = {
 	display = "「我是No.1！」——用於完成聖地牙哥近代化改造",
 	name = "閃耀的麥克風",
 	max_num = 1,
@@ -124491,7 +124560,7 @@ _G.pg.item_data_statistics[59749] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59761] = {
+_G.pg.base.item_data_statistics[59761] = {
 	display = "集齊7個可以獲得厭戰專屬改造道具-戰士的心得",
 	name = "歷戰之證",
 	max_num = 0,
@@ -124512,7 +124581,7 @@ _G.pg.item_data_statistics[59761] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59762] = {
+_G.pg.base.item_data_statistics[59762] = {
 	display = "「Belli dura despicio！」——用於完成厭戰近代化改造",
 	name = "戰士的心得",
 	max_num = 1,
@@ -124533,7 +124602,7 @@ _G.pg.item_data_statistics[59762] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59763] = {
+_G.pg.base.item_data_statistics[59763] = {
 	display = "可在「東煌大富翁」活動中使用 ",
 	name = "骰子",
 	max_num = 0,
@@ -124554,7 +124623,7 @@ _G.pg.item_data_statistics[59763] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59764] = {
+_G.pg.base.item_data_statistics[59764] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -124575,7 +124644,7 @@ _G.pg.item_data_statistics[59764] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59765] = {
+_G.pg.base.item_data_statistics[59765] = {
 	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -124596,7 +124665,7 @@ _G.pg.item_data_statistics[59765] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59766] = {
+_G.pg.base.item_data_statistics[59766] = {
 	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -124617,7 +124686,7 @@ _G.pg.item_data_statistics[59766] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59767] = {
+_G.pg.base.item_data_statistics[59767] = {
 	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -124638,7 +124707,7 @@ _G.pg.item_data_statistics[59767] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59768] = {
+_G.pg.base.item_data_statistics[59768] = {
 	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -124659,7 +124728,7 @@ _G.pg.item_data_statistics[59768] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59769] = {
+_G.pg.base.item_data_statistics[59769] = {
 	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -124680,7 +124749,7 @@ _G.pg.item_data_statistics[59769] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59770] = {
+_G.pg.base.item_data_statistics[59770] = {
 	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -124701,7 +124770,7 @@ _G.pg.item_data_statistics[59770] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59771] = {
+_G.pg.base.item_data_statistics[59771] = {
 	display = "收集10個以後或許會有什麼好事發生？",
 	name = "記憶卡片",
 	max_num = 0,
@@ -124722,7 +124791,7 @@ _G.pg.item_data_statistics[59771] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59772] = {
+_G.pg.base.item_data_statistics[59772] = {
 	display = "集齊18個可以獲得聖地牙哥專屬改造道具-閃耀的麥克風",
 	name = "聖地牙哥之星",
 	max_num = 0,
@@ -124743,7 +124812,7 @@ _G.pg.item_data_statistics[59772] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59773] = {
+_G.pg.base.item_data_statistics[59773] = {
 	display = "參與活動閃耀戰鬥之星的紀念品",
 	name = "聖地牙哥紀念之星",
 	max_num = 0,
@@ -124764,7 +124833,7 @@ _G.pg.item_data_statistics[59773] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59774] = {
+_G.pg.base.item_data_statistics[59774] = {
 	display = "一週年活動「再誕·曙光」的完成感謝紀念——指揮官，瞧見我手裡的麵包和伏特加了嗎！",
 	name = "再誕·曙光",
 	max_num = 0,
@@ -124785,7 +124854,7 @@ _G.pg.item_data_statistics[59774] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59775] = {
+_G.pg.base.item_data_statistics[59775] = {
 	display = "收集7枚後，可以得到限定設備《約定的證明》",
 	name = "U-556的勳章",
 	max_num = 0,
@@ -124806,7 +124875,7 @@ _G.pg.item_data_statistics[59775] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59776] = {
+_G.pg.base.item_data_statistics[59776] = {
 	display = "顏料A，用於同人誌活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -124827,7 +124896,7 @@ _G.pg.item_data_statistics[59776] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59777] = {
+_G.pg.base.item_data_statistics[59777] = {
 	display = "顏料B，用於同人誌活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -124848,7 +124917,7 @@ _G.pg.item_data_statistics[59777] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59778] = {
+_G.pg.base.item_data_statistics[59778] = {
 	display = "顏料C，用於同人誌活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -124869,7 +124938,7 @@ _G.pg.item_data_statistics[59778] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59779] = {
+_G.pg.base.item_data_statistics[59779] = {
 	display = "顏料D，用於同人誌活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -124890,7 +124959,7 @@ _G.pg.item_data_statistics[59779] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59780] = {
+_G.pg.base.item_data_statistics[59780] = {
 	display = "顏料E，用於同人誌活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -124911,7 +124980,7 @@ _G.pg.item_data_statistics[59780] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59781] = {
+_G.pg.base.item_data_statistics[59781] = {
 	display = "顏料F，用於同人誌活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -124932,7 +125001,7 @@ _G.pg.item_data_statistics[59781] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59782] = {
+_G.pg.base.item_data_statistics[59782] = {
 	display = "顏料G，用於同人誌活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -124953,7 +125022,7 @@ _G.pg.item_data_statistics[59782] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59784] = {
+_G.pg.base.item_data_statistics[59784] = {
 	display = "收集7次後，可以得到限定角色「謝菲爾德(μ兵裝)」",
 	name = "演奏力",
 	max_num = 0,
@@ -124974,7 +125043,7 @@ _G.pg.item_data_statistics[59784] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59785] = {
+_G.pg.base.item_data_statistics[59785] = {
 	display = "可以看到更多的JUUs新動態",
 	name = "JUUs動態",
 	max_num = 0,
@@ -124995,7 +125064,7 @@ _G.pg.item_data_statistics[59785] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59786] = {
+_G.pg.base.item_data_statistics[59786] = {
 	display = "鬼怒的修行打卡憑證",
 	name = "修行打卡單",
 	max_num = 0,
@@ -125016,7 +125085,7 @@ _G.pg.item_data_statistics[59786] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59788] = {
+_G.pg.base.item_data_statistics[59788] = {
 	display = "集齊18個可以獲得聖地牙哥專屬改造道具-閃耀的麥克風",
 	name = "聖地牙哥之星",
 	max_num = 0,
@@ -125037,7 +125106,7 @@ _G.pg.item_data_statistics[59788] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59791] = {
+_G.pg.base.item_data_statistics[59791] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -125058,7 +125127,7 @@ _G.pg.item_data_statistics[59791] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59792] = {
+_G.pg.base.item_data_statistics[59792] = {
 	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -125079,7 +125148,7 @@ _G.pg.item_data_statistics[59792] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59793] = {
+_G.pg.base.item_data_statistics[59793] = {
 	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -125100,7 +125169,7 @@ _G.pg.item_data_statistics[59793] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59794] = {
+_G.pg.base.item_data_statistics[59794] = {
 	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -125121,7 +125190,7 @@ _G.pg.item_data_statistics[59794] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59795] = {
+_G.pg.base.item_data_statistics[59795] = {
 	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -125142,7 +125211,7 @@ _G.pg.item_data_statistics[59795] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59796] = {
+_G.pg.base.item_data_statistics[59796] = {
 	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -125163,7 +125232,7 @@ _G.pg.item_data_statistics[59796] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59797] = {
+_G.pg.base.item_data_statistics[59797] = {
 	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -125184,7 +125253,7 @@ _G.pg.item_data_statistics[59797] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59801] = {
+_G.pg.base.item_data_statistics[59801] = {
 	display = "拼圖A-1",
 	name = "拼圖A-1",
 	max_num = 0,
@@ -125205,7 +125274,7 @@ _G.pg.item_data_statistics[59801] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59802] = {
+_G.pg.base.item_data_statistics[59802] = {
 	display = "拼圖A-2",
 	name = "拼圖A-2",
 	max_num = 0,
@@ -125226,7 +125295,7 @@ _G.pg.item_data_statistics[59802] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59803] = {
+_G.pg.base.item_data_statistics[59803] = {
 	display = "拼圖A-3",
 	name = "拼圖A-3",
 	max_num = 0,
@@ -125247,7 +125316,7 @@ _G.pg.item_data_statistics[59803] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59804] = {
+_G.pg.base.item_data_statistics[59804] = {
 	display = "拼圖A-4",
 	name = "拼圖A-4",
 	max_num = 0,
@@ -125268,7 +125337,7 @@ _G.pg.item_data_statistics[59804] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59805] = {
+_G.pg.base.item_data_statistics[59805] = {
 	display = "拼圖B-1",
 	name = "拼圖B-1",
 	max_num = 0,
@@ -125289,7 +125358,7 @@ _G.pg.item_data_statistics[59805] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59806] = {
+_G.pg.base.item_data_statistics[59806] = {
 	display = "拼圖B-2",
 	name = "拼圖B-2",
 	max_num = 0,
@@ -125310,7 +125379,7 @@ _G.pg.item_data_statistics[59806] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59807] = {
+_G.pg.base.item_data_statistics[59807] = {
 	display = "拼圖B-3",
 	name = "拼圖B-3",
 	max_num = 0,
@@ -125331,7 +125400,7 @@ _G.pg.item_data_statistics[59807] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59808] = {
+_G.pg.base.item_data_statistics[59808] = {
 	display = "拼圖B-4",
 	name = "拼圖B-4",
 	max_num = 0,
@@ -125352,7 +125421,7 @@ _G.pg.item_data_statistics[59808] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59809] = {
+_G.pg.base.item_data_statistics[59809] = {
 	display = "拼圖C-1",
 	name = "拼圖C-1",
 	max_num = 0,
@@ -125373,7 +125442,7 @@ _G.pg.item_data_statistics[59809] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59810] = {
+_G.pg.base.item_data_statistics[59810] = {
 	display = "拼圖C-2",
 	name = "拼圖C-2",
 	max_num = 0,
@@ -125394,7 +125463,7 @@ _G.pg.item_data_statistics[59810] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59811] = {
+_G.pg.base.item_data_statistics[59811] = {
 	display = "拼圖C-3",
 	name = "拼圖C-3",
 	max_num = 0,
@@ -125415,7 +125484,7 @@ _G.pg.item_data_statistics[59811] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59812] = {
+_G.pg.base.item_data_statistics[59812] = {
 	display = "拼圖C-4",
 	name = "拼圖C-4",
 	max_num = 0,
@@ -125436,7 +125505,7 @@ _G.pg.item_data_statistics[59812] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59813] = {
+_G.pg.base.item_data_statistics[59813] = {
 	display = "拼圖D-1",
 	name = "拼圖D-1",
 	max_num = 0,
@@ -125457,7 +125526,7 @@ _G.pg.item_data_statistics[59813] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59814] = {
+_G.pg.base.item_data_statistics[59814] = {
 	display = "拼圖D-2",
 	name = "拼圖D-2",
 	max_num = 0,
@@ -125478,7 +125547,7 @@ _G.pg.item_data_statistics[59814] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59815] = {
+_G.pg.base.item_data_statistics[59815] = {
 	display = "拼圖D-3",
 	name = "拼圖D-3",
 	max_num = 0,
@@ -125499,7 +125568,7 @@ _G.pg.item_data_statistics[59815] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59816] = {
+_G.pg.base.item_data_statistics[59816] = {
 	display = "拼圖D-4",
 	name = "拼圖D-4",
 	max_num = 0,
@@ -125520,7 +125589,7 @@ _G.pg.item_data_statistics[59816] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59821] = {
+_G.pg.base.item_data_statistics[59821] = {
 	display = "用於參加投票大戰的投票次數，每日0點次數歸零",
 	name = "投票次數",
 	max_num = 0,
@@ -125541,7 +125610,7 @@ _G.pg.item_data_statistics[59821] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59822] = {
+_G.pg.base.item_data_statistics[59822] = {
 	display = "用於參加投票大戰的真愛投票次數，可以在整場投票大戰中使用，投票大戰結束時歸零",
 	name = "真愛投票次數",
 	max_num = 0,
@@ -125562,7 +125631,7 @@ _G.pg.item_data_statistics[59822] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59823] = {
+_G.pg.base.item_data_statistics[59823] = {
 	display = "存取作戰檔案所需的電子密鑰(消耗品) ",
 	name = "檔案密鑰 ",
 	max_num = 0,
@@ -125583,7 +125652,7 @@ _G.pg.item_data_statistics[59823] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59824] = {
+_G.pg.base.item_data_statistics[59824] = {
 	display = "用於參加投票大戰的投票次數，每輪投票結束時次數歸零",
 	name = "投票次數",
 	max_num = 0,
@@ -125604,7 +125673,7 @@ _G.pg.item_data_statistics[59824] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59831] = {
+_G.pg.base.item_data_statistics[59831] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁1",
 	max_num = 0,
@@ -125625,7 +125694,7 @@ _G.pg.item_data_statistics[59831] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59832] = {
+_G.pg.base.item_data_statistics[59832] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁2",
 	max_num = 0,
@@ -125646,7 +125715,7 @@ _G.pg.item_data_statistics[59832] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59833] = {
+_G.pg.base.item_data_statistics[59833] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁3",
 	max_num = 0,
@@ -125667,7 +125736,7 @@ _G.pg.item_data_statistics[59833] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59834] = {
+_G.pg.base.item_data_statistics[59834] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁4",
 	max_num = 0,
@@ -125688,7 +125757,7 @@ _G.pg.item_data_statistics[59834] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59835] = {
+_G.pg.base.item_data_statistics[59835] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁5",
 	max_num = 0,
@@ -125709,7 +125778,7 @@ _G.pg.item_data_statistics[59835] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59836] = {
+_G.pg.base.item_data_statistics[59836] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁6",
 	max_num = 0,
@@ -125730,7 +125799,7 @@ _G.pg.item_data_statistics[59836] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59837] = {
+_G.pg.base.item_data_statistics[59837] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁7",
 	max_num = 0,
@@ -125751,7 +125820,7 @@ _G.pg.item_data_statistics[59837] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59838] = {
+_G.pg.base.item_data_statistics[59838] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁8",
 	max_num = 0,
@@ -125772,7 +125841,7 @@ _G.pg.item_data_statistics[59838] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59839] = {
+_G.pg.base.item_data_statistics[59839] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁9",
 	max_num = 0,
@@ -125793,7 +125862,7 @@ _G.pg.item_data_statistics[59839] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59841] = {
+_G.pg.base.item_data_statistics[59841] = {
 	display = "二週年活動的感謝紀念 ——只要不停下腳步，航路就會不斷延伸！",
 	name = "二週年紀念幣",
 	max_num = 0,
@@ -125814,7 +125883,7 @@ _G.pg.item_data_statistics[59841] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59842] = {
+_G.pg.base.item_data_statistics[59842] = {
 	display = "集齊7個可以獲得夕立專屬改造道具-烤肉味香水",
 	name = "烤肉",
 	max_num = 0,
@@ -125835,7 +125904,7 @@ _G.pg.item_data_statistics[59842] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59843] = {
+_G.pg.base.item_data_statistics[59843] = {
 	display = "「餓的時候聞一下反而更餓了！」——用於完成夕立近代化改造",
 	name = "烤肉味香水",
 	max_num = 1,
@@ -125856,7 +125925,7 @@ _G.pg.item_data_statistics[59843] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59900] = {
+_G.pg.base.item_data_statistics[59900] = {
 	display = "在各種活動中獲得，可用於核心兌換",
 	name = "核心數據",
 	max_num = 0,
@@ -125877,7 +125946,7 @@ _G.pg.item_data_statistics[59900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59901] = {
+_G.pg.base.item_data_statistics[59901] = {
 	display = "指揮部派發的籌備指令，使用後可以增加1次軍需籌備次數",
 	name = "大艦隊籌備指令",
 	max_num = 0,
@@ -125898,7 +125967,7 @@ _G.pg.item_data_statistics[59901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59902] = {
+_G.pg.base.item_data_statistics[59902] = {
 	display = "指揮部派發的作戰指令，使用後可以增加1次大艦隊作戰參與次數",
 	name = "大艦隊作戰指令",
 	max_num = 0,
@@ -125919,7 +125988,7 @@ _G.pg.item_data_statistics[59902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59926] = {
+_G.pg.base.item_data_statistics[59926] = {
 	display = "收集7個以後或許會有什麼好事發生？",
 	name = "月餅",
 	max_num = 0,
@@ -125940,7 +126009,7 @@ _G.pg.item_data_statistics[59926] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59938] = {
+_G.pg.base.item_data_statistics[59938] = {
 	display = "集齊7個可以獲得厭戰專屬改造道具-戰士的心得",
 	name = "歷戰之證",
 	max_num = 0,
@@ -125961,7 +126030,7 @@ _G.pg.item_data_statistics[59938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59939] = {
+_G.pg.base.item_data_statistics[59939] = {
 	display = "參與活動厭戰的特別訓練的紀念品",
 	name = "歷戰紀念之證 ",
 	max_num = 0,
@@ -125982,7 +126051,7 @@ _G.pg.item_data_statistics[59939] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59940] = {
+_G.pg.base.item_data_statistics[59940] = {
 	display = "飽含祝福的年賀狀。使用後可以選擇一名特定的角色贈送（獲得指定角色）",
 	name = "年賀狀",
 	max_num = 0,
@@ -126039,7 +126108,7 @@ _G.pg.item_data_statistics[59940] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59941] = {
+_G.pg.base.item_data_statistics[59941] = {
 	display = "可以獲得厭戰及其年賀狀",
 	name = "年賀狀（厭戰）",
 	max_num = 0,
@@ -126071,7 +126140,7 @@ _G.pg.item_data_statistics[59941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59942] = {
+_G.pg.base.item_data_statistics[59942] = {
 	display = "可以獲得愛宕及其年賀狀",
 	name = "年賀狀（愛宕）",
 	max_num = 0,
@@ -126103,7 +126172,7 @@ _G.pg.item_data_statistics[59942] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59943] = {
+_G.pg.base.item_data_statistics[59943] = {
 	display = "可以獲得光輝及其年賀狀",
 	name = "年賀狀（光輝）",
 	max_num = 0,
@@ -126135,7 +126204,7 @@ _G.pg.item_data_statistics[59943] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59944] = {
+_G.pg.base.item_data_statistics[59944] = {
 	display = "可以獲得翔鶴及其年賀狀",
 	name = "年賀狀（翔鶴）",
 	max_num = 0,
@@ -126167,7 +126236,7 @@ _G.pg.item_data_statistics[59944] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59945] = {
+_G.pg.base.item_data_statistics[59945] = {
 	display = "可以獲得瑞鶴及其年賀狀",
 	name = "年賀狀（瑞鶴）",
 	max_num = 0,
@@ -126199,7 +126268,7 @@ _G.pg.item_data_statistics[59945] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59946] = {
+_G.pg.base.item_data_statistics[59946] = {
 	display = "可以獲得蒙彼利埃及其年賀狀",
 	name = "年賀狀（蒙彼利埃）",
 	max_num = 0,
@@ -126231,7 +126300,7 @@ _G.pg.item_data_statistics[59946] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59947] = {
+_G.pg.base.item_data_statistics[59947] = {
 	display = "可以獲得胡德及其年賀狀",
 	name = "年賀狀（胡德）",
 	max_num = 0,
@@ -126263,7 +126332,7 @@ _G.pg.item_data_statistics[59947] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59948] = {
+_G.pg.base.item_data_statistics[59948] = {
 	display = "由厭戰處收到的，新年年賀狀",
 	name = "厭戰的年賀狀",
 	max_num = 0,
@@ -126284,7 +126353,7 @@ _G.pg.item_data_statistics[59948] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59949] = {
+_G.pg.base.item_data_statistics[59949] = {
 	display = "由愛宕處收到的，新年年賀狀",
 	name = "愛宕的年賀狀",
 	max_num = 0,
@@ -126305,7 +126374,7 @@ _G.pg.item_data_statistics[59949] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59950] = {
+_G.pg.base.item_data_statistics[59950] = {
 	display = "由光輝處收到的，新年年賀狀",
 	name = "光輝的年賀狀",
 	max_num = 0,
@@ -126326,7 +126395,7 @@ _G.pg.item_data_statistics[59950] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59951] = {
+_G.pg.base.item_data_statistics[59951] = {
 	display = "由翔鶴處收到的，新年年賀狀",
 	name = "翔鶴的年賀狀",
 	max_num = 0,
@@ -126347,7 +126416,7 @@ _G.pg.item_data_statistics[59951] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59952] = {
+_G.pg.base.item_data_statistics[59952] = {
 	display = "由瑞鶴處收到的，新年年賀狀",
 	name = "瑞鶴的年賀狀",
 	max_num = 0,
@@ -126368,7 +126437,7 @@ _G.pg.item_data_statistics[59952] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59953] = {
+_G.pg.base.item_data_statistics[59953] = {
 	display = "由蒙彼利埃處收到的，新年年賀狀",
 	name = "蒙彼利埃的年賀狀",
 	max_num = 0,
@@ -126389,7 +126458,7 @@ _G.pg.item_data_statistics[59953] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59954] = {
+_G.pg.base.item_data_statistics[59954] = {
 	display = "由胡德處收到的，新年年賀狀",
 	name = "胡德的年賀狀",
 	max_num = 0,
@@ -126410,7 +126479,7 @@ _G.pg.item_data_statistics[59954] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59960] = {
+_G.pg.base.item_data_statistics[59960] = {
 	display = "颜料A，用於绘图日记活动，活动结束后将会消失",
 	name = "颜料A",
 	max_num = 0,
@@ -126431,7 +126500,7 @@ _G.pg.item_data_statistics[59960] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59961] = {
+_G.pg.base.item_data_statistics[59961] = {
 	display = "颜料B，用於绘图日记活动，活动结束后将会消失",
 	name = "颜料B",
 	max_num = 0,
@@ -126452,7 +126521,7 @@ _G.pg.item_data_statistics[59961] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59962] = {
+_G.pg.base.item_data_statistics[59962] = {
 	display = "颜料C，用於绘图日记活动，活动结束后将会消失",
 	name = "颜料C",
 	max_num = 0,
@@ -126473,7 +126542,7 @@ _G.pg.item_data_statistics[59962] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59963] = {
+_G.pg.base.item_data_statistics[59963] = {
 	display = "颜料D，用於绘图日记活动，活动结束后将会消失",
 	name = "颜料D",
 	max_num = 0,
@@ -126494,7 +126563,7 @@ _G.pg.item_data_statistics[59963] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59964] = {
+_G.pg.base.item_data_statistics[59964] = {
 	display = "颜料E，用於绘图日记活动，活动结束后将会消失",
 	name = "颜料E",
 	max_num = 0,
@@ -126515,7 +126584,7 @@ _G.pg.item_data_statistics[59964] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59965] = {
+_G.pg.base.item_data_statistics[59965] = {
 	display = "颜料F，用於绘图日记活动，活动结束后将会消失",
 	name = "颜料F",
 	max_num = 0,
@@ -126536,7 +126605,7 @@ _G.pg.item_data_statistics[59965] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59966] = {
+_G.pg.base.item_data_statistics[59966] = {
 	display = "颜料G，用於绘图日记活动，活动结束后将会消失",
 	name = "颜料G",
 	max_num = 0,
@@ -126557,7 +126626,7 @@ _G.pg.item_data_statistics[59966] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59967] = {
+_G.pg.base.item_data_statistics[59967] = {
 	display = "參與『戰鬥！皇家女僕隊2nd』獲得的點數，累計一定程度可以領取報酬",
 	name = "貢獻值",
 	max_num = 0,
@@ -126578,7 +126647,7 @@ _G.pg.item_data_statistics[59967] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59968] = {
+_G.pg.base.item_data_statistics[59968] = {
 	display = "參與『戰鬥！皇家女僕隊2nd』EX關的必要道具，也可以用來增加普通關額外獎勵次數",
 	name = "特別挑戰券",
 	max_num = 0,
@@ -126599,7 +126668,7 @@ _G.pg.item_data_statistics[59968] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59969] = {
+_G.pg.base.item_data_statistics[59969] = {
 	display = "浦波的可愛<怪奇>生物圖鑑 ",
 	name = "的可愛<怪奇>生物圖鑑 ",
 	max_num = 0,
@@ -126620,7 +126689,7 @@ _G.pg.item_data_statistics[59969] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59970] = {
+_G.pg.base.item_data_statistics[59970] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -126641,7 +126710,7 @@ _G.pg.item_data_statistics[59970] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59971] = {
+_G.pg.base.item_data_statistics[59971] = {
 	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -126662,7 +126731,7 @@ _G.pg.item_data_statistics[59971] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59972] = {
+_G.pg.base.item_data_statistics[59972] = {
 	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -126683,7 +126752,7 @@ _G.pg.item_data_statistics[59972] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59973] = {
+_G.pg.base.item_data_statistics[59973] = {
 	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -126704,7 +126773,7 @@ _G.pg.item_data_statistics[59973] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59974] = {
+_G.pg.base.item_data_statistics[59974] = {
 	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -126725,7 +126794,7 @@ _G.pg.item_data_statistics[59974] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59975] = {
+_G.pg.base.item_data_statistics[59975] = {
 	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -126746,7 +126815,7 @@ _G.pg.item_data_statistics[59975] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59976] = {
+_G.pg.base.item_data_statistics[59976] = {
 	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -126767,7 +126836,7 @@ _G.pg.item_data_statistics[59976] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59977] = {
+_G.pg.base.item_data_statistics[59977] = {
 	display = "顏料H，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料H",
 	max_num = 0,
@@ -126788,7 +126857,7 @@ _G.pg.item_data_statistics[59977] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59978] = {
+_G.pg.base.item_data_statistics[59978] = {
 	display = "顏料I，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料I",
 	max_num = 0,
@@ -126809,7 +126878,7 @@ _G.pg.item_data_statistics[59978] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59982] = {
+_G.pg.base.item_data_statistics[59982] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -126830,7 +126899,7 @@ _G.pg.item_data_statistics[59982] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59983] = {
+_G.pg.base.item_data_statistics[59983] = {
 	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -126851,7 +126920,7 @@ _G.pg.item_data_statistics[59983] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59984] = {
+_G.pg.base.item_data_statistics[59984] = {
 	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -126872,7 +126941,7 @@ _G.pg.item_data_statistics[59984] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59985] = {
+_G.pg.base.item_data_statistics[59985] = {
 	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -126893,7 +126962,7 @@ _G.pg.item_data_statistics[59985] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59986] = {
+_G.pg.base.item_data_statistics[59986] = {
 	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -126914,7 +126983,7 @@ _G.pg.item_data_statistics[59986] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59987] = {
+_G.pg.base.item_data_statistics[59987] = {
 	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -126935,7 +127004,7 @@ _G.pg.item_data_statistics[59987] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59988] = {
+_G.pg.base.item_data_statistics[59988] = {
 	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -126956,7 +127025,7 @@ _G.pg.item_data_statistics[59988] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60011] = {
+_G.pg.base.item_data_statistics[60011] = {
 	display = "10秒完成，獲得1點經驗",
 	name = "超級教材",
 	max_num = 0,
@@ -126977,7 +127046,7 @@ _G.pg.item_data_statistics[60011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60012] = {
+_G.pg.base.item_data_statistics[60012] = {
 	display = "10秒完成，獲得10000點經驗",
 	name = "超級教材",
 	max_num = 0,
@@ -126998,7 +127067,7 @@ _G.pg.item_data_statistics[60012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60021] = {
+_G.pg.base.item_data_statistics[60021] = {
 	display = "可在「啾啾大酒樓」活動中使用",
 	name = "紅包",
 	max_num = 0,
@@ -127019,7 +127088,7 @@ _G.pg.item_data_statistics[60021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60022] = {
+_G.pg.base.item_data_statistics[60022] = {
 	display = "可在「啾啾大酒樓」活動中使用",
 	name = "紅包",
 	max_num = 0,
@@ -127040,7 +127109,7 @@ _G.pg.item_data_statistics[60022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60030] = {
+_G.pg.base.item_data_statistics[60030] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「M」",
 	max_num = 0,
@@ -127061,7 +127130,7 @@ _G.pg.item_data_statistics[60030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60031] = {
+_G.pg.base.item_data_statistics[60031] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「E」",
 	max_num = 0,
@@ -127082,7 +127151,7 @@ _G.pg.item_data_statistics[60031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60032] = {
+_G.pg.base.item_data_statistics[60032] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「G」",
 	max_num = 0,
@@ -127103,7 +127172,7 @@ _G.pg.item_data_statistics[60032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60033] = {
+_G.pg.base.item_data_statistics[60033] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「A」",
 	max_num = 0,
@@ -127124,7 +127193,7 @@ _G.pg.item_data_statistics[60033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60034] = {
+_G.pg.base.item_data_statistics[60034] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「B」",
 	max_num = 0,
@@ -127145,7 +127214,7 @@ _G.pg.item_data_statistics[60034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60035] = {
+_G.pg.base.item_data_statistics[60035] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「U」",
 	max_num = 0,
@@ -127166,7 +127235,7 @@ _G.pg.item_data_statistics[60035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60036] = {
+_G.pg.base.item_data_statistics[60036] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「R」",
 	max_num = 0,
@@ -127187,7 +127256,7 @@ _G.pg.item_data_statistics[60036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60037] = {
+_G.pg.base.item_data_statistics[60037] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「I」",
 	max_num = 0,
@@ -127208,7 +127277,7 @@ _G.pg.item_data_statistics[60037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60038] = {
+_G.pg.base.item_data_statistics[60038] = {
 	display = "「黃金的秘寶」活動道具",
 	name = "線索「N」",
 	max_num = 0,
@@ -127229,7 +127298,7 @@ _G.pg.item_data_statistics[60038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[61001] = {
+_G.pg.base.item_data_statistics[61001] = {
 	display = "為提高作戰效率而設計的特別指令書，在部分常規關卡的周回模式下可以使用。使用後本輪作戰中所用石油與心情消耗增加一倍，戰後所有獲得收益也增加一倍。",
 	name = "高效作戰指令書",
 	max_num = 0,
@@ -127250,7 +127319,7 @@ _G.pg.item_data_statistics[61001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60057] = {
+_G.pg.base.item_data_statistics[60057] = {
 	display = "參與『特別演習·艾塞克斯級』獲得的點數，累計一定程度可以領取報酬",
 	name = "貢獻值",
 	max_num = 0,
@@ -127271,7 +127340,7 @@ _G.pg.item_data_statistics[60057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60058] = {
+_G.pg.base.item_data_statistics[60058] = {
 	display = "參與『特別演習·艾塞克斯級』EX關的必要道具，也可以用來增加普通關額外獎勵次數",
 	name = "特別挑戰券",
 	max_num = 0,
@@ -127292,7 +127361,7 @@ _G.pg.item_data_statistics[60058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60105] = {
+_G.pg.base.item_data_statistics[60105] = {
 	display = "飽含祝福的年賀狀。使用後可以選擇一名特定角色贈送（獲得指定角色）",
 	name = "年賀狀",
 	max_num = 0,
@@ -127313,7 +127382,7 @@ _G.pg.item_data_statistics[60105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60106] = {
+_G.pg.base.item_data_statistics[60106] = {
 	display = "可以獲得厭戰及其年賀狀",
 	name = "年賀狀（厭戰）",
 	max_num = 0,
@@ -127345,7 +127414,7 @@ _G.pg.item_data_statistics[60106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60107] = {
+_G.pg.base.item_data_statistics[60107] = {
 	display = "可以獲得愛宕及其年賀狀",
 	name = "年賀狀（愛宕）",
 	max_num = 0,
@@ -127377,7 +127446,7 @@ _G.pg.item_data_statistics[60107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60108] = {
+_G.pg.base.item_data_statistics[60108] = {
 	display = "可以獲得光輝及其年賀狀",
 	name = "年賀狀（光輝）",
 	max_num = 0,
@@ -127409,7 +127478,7 @@ _G.pg.item_data_statistics[60108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60109] = {
+_G.pg.base.item_data_statistics[60109] = {
 	display = "可以獲得翔鶴及其年賀狀",
 	name = "年賀狀（翔鶴）",
 	max_num = 0,
@@ -127441,7 +127510,7 @@ _G.pg.item_data_statistics[60109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60110] = {
+_G.pg.base.item_data_statistics[60110] = {
 	display = "可以獲得瑞鶴及其年賀狀",
 	name = "年賀狀（瑞鶴）",
 	max_num = 0,
@@ -127473,7 +127542,7 @@ _G.pg.item_data_statistics[60110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60111] = {
+_G.pg.base.item_data_statistics[60111] = {
 	display = "可以獲得蒙彼利埃及其年賀狀",
 	name = "年賀狀（蒙彼利埃）",
 	max_num = 0,
@@ -127505,7 +127574,7 @@ _G.pg.item_data_statistics[60111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60112] = {
+_G.pg.base.item_data_statistics[60112] = {
 	display = "可以獲得胡德及其年賀狀",
 	name = "年賀狀（胡德）",
 	max_num = 0,
@@ -127537,7 +127606,7 @@ _G.pg.item_data_statistics[60112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60113] = {
+_G.pg.base.item_data_statistics[60113] = {
 	display = "由厭戰處收到的，新年年賀狀",
 	name = "厭戰的年賀狀",
 	max_num = 0,
@@ -127558,7 +127627,7 @@ _G.pg.item_data_statistics[60113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60114] = {
+_G.pg.base.item_data_statistics[60114] = {
 	display = "由愛宕處收到的，新年年賀狀",
 	name = "愛宕的年賀狀",
 	max_num = 0,
@@ -127579,7 +127648,7 @@ _G.pg.item_data_statistics[60114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60115] = {
+_G.pg.base.item_data_statistics[60115] = {
 	display = "由光輝處收到的，新年年賀狀",
 	name = "光輝的年賀狀",
 	max_num = 0,
@@ -127600,7 +127669,7 @@ _G.pg.item_data_statistics[60115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60116] = {
+_G.pg.base.item_data_statistics[60116] = {
 	display = "由翔鶴處收到的，新年年賀狀",
 	name = "翔鶴的年賀狀",
 	max_num = 0,
@@ -127621,7 +127690,7 @@ _G.pg.item_data_statistics[60116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60117] = {
+_G.pg.base.item_data_statistics[60117] = {
 	display = "由瑞鶴處收到的，新年年賀狀",
 	name = "瑞鶴的年賀狀",
 	max_num = 0,
@@ -127642,7 +127711,7 @@ _G.pg.item_data_statistics[60117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60118] = {
+_G.pg.base.item_data_statistics[60118] = {
 	display = "由蒙彼利埃處收到的，新年年賀狀",
 	name = "蒙彼利埃的年賀狀",
 	max_num = 0,
@@ -127663,7 +127732,7 @@ _G.pg.item_data_statistics[60118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60119] = {
+_G.pg.base.item_data_statistics[60119] = {
 	display = "由胡德處收到的，新年年賀狀",
 	name = "胡德的年賀狀",
 	max_num = 0,
@@ -127684,7 +127753,7 @@ _G.pg.item_data_statistics[60119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60129] = {
+_G.pg.base.item_data_statistics[60129] = {
 	display = "飽含祝福的賀年卡。使用後可以選擇一名特定角色贈送（獲得指定角色）",
 	name = "賀年卡（辛丑）",
 	max_num = 0,
@@ -127705,7 +127774,7 @@ _G.pg.item_data_statistics[60129] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60130] = {
+_G.pg.base.item_data_statistics[60130] = {
 	display = "可以獲得大鳳及其賀年卡",
 	name = "賀年卡（大鳳）",
 	max_num = 0,
@@ -127737,7 +127806,7 @@ _G.pg.item_data_statistics[60130] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60131] = {
+_G.pg.base.item_data_statistics[60131] = {
 	display = "可以獲得企業及其賀年卡",
 	name = "賀年卡（企業）",
 	max_num = 0,
@@ -127769,7 +127838,7 @@ _G.pg.item_data_statistics[60131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60132] = {
+_G.pg.base.item_data_statistics[60132] = {
 	display = "可以獲得貝爾法斯特及其賀年卡",
 	name = "賀年卡（貝爾法斯特）",
 	max_num = 0,
@@ -127801,7 +127870,7 @@ _G.pg.item_data_statistics[60132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60133] = {
+_G.pg.base.item_data_statistics[60133] = {
 	display = "可以獲得寧海及其賀年卡",
 	name = "賀年卡（寧海）",
 	max_num = 0,
@@ -127833,7 +127902,7 @@ _G.pg.item_data_statistics[60133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60134] = {
+_G.pg.base.item_data_statistics[60134] = {
 	display = "可以獲得平海及其賀年卡",
 	name = "賀年卡（平海）",
 	max_num = 0,
@@ -127865,7 +127934,7 @@ _G.pg.item_data_statistics[60134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60135] = {
+_G.pg.base.item_data_statistics[60135] = {
 	display = "由大鳳處收到的，春節賀年卡",
 	name = "大鳳的賀年卡",
 	max_num = 0,
@@ -127886,7 +127955,7 @@ _G.pg.item_data_statistics[60135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60136] = {
+_G.pg.base.item_data_statistics[60136] = {
 	display = "由企業處收到的，春節賀年卡",
 	name = "企業的賀年卡",
 	max_num = 0,
@@ -127907,7 +127976,7 @@ _G.pg.item_data_statistics[60136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60137] = {
+_G.pg.base.item_data_statistics[60137] = {
 	display = "由貝爾法斯特處收到的，春節賀年卡",
 	name = "貝爾法斯特的賀年卡",
 	max_num = 0,
@@ -127928,7 +127997,7 @@ _G.pg.item_data_statistics[60137] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60138] = {
+_G.pg.base.item_data_statistics[60138] = {
 	display = "由寧海處收到的，春節賀年卡",
 	name = "寧海的賀年卡",
 	max_num = 0,
@@ -127949,7 +128018,7 @@ _G.pg.item_data_statistics[60138] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60139] = {
+_G.pg.base.item_data_statistics[60139] = {
 	display = "由平海處收到的，春節賀年卡",
 	name = "平海的賀年卡",
 	max_num = 0,
@@ -127970,7 +128039,7 @@ _G.pg.item_data_statistics[60139] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60140] = {
+_G.pg.base.item_data_statistics[60140] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁1",
 	max_num = 0,
@@ -127991,7 +128060,7 @@ _G.pg.item_data_statistics[60140] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60141] = {
+_G.pg.base.item_data_statistics[60141] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁2",
 	max_num = 0,
@@ -128012,7 +128081,7 @@ _G.pg.item_data_statistics[60141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60142] = {
+_G.pg.base.item_data_statistics[60142] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁3",
 	max_num = 0,
@@ -128033,7 +128102,7 @@ _G.pg.item_data_statistics[60142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60143] = {
+_G.pg.base.item_data_statistics[60143] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁4",
 	max_num = 0,
@@ -128054,7 +128123,7 @@ _G.pg.item_data_statistics[60143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60144] = {
+_G.pg.base.item_data_statistics[60144] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁5",
 	max_num = 0,
@@ -128075,7 +128144,7 @@ _G.pg.item_data_statistics[60144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60145] = {
+_G.pg.base.item_data_statistics[60145] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁6",
 	max_num = 0,
@@ -128096,7 +128165,7 @@ _G.pg.item_data_statistics[60145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60146] = {
+_G.pg.base.item_data_statistics[60146] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁7",
 	max_num = 0,
@@ -128117,7 +128186,7 @@ _G.pg.item_data_statistics[60146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60147] = {
+_G.pg.base.item_data_statistics[60147] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁8",
 	max_num = 0,
@@ -128138,7 +128207,7 @@ _G.pg.item_data_statistics[60147] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60148] = {
+_G.pg.base.item_data_statistics[60148] = {
 	display = "為標槍的漫畫塗上彩色吧！ ",
 	name = "漫畫彩頁9",
 	max_num = 0,
@@ -128159,7 +128228,7 @@ _G.pg.item_data_statistics[60148] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60149] = {
+_G.pg.base.item_data_statistics[60149] = {
 	display = "使用後可以邀請一名特定對象參加宴會（獲得指定角色）",
 	name = "慶典邀請函",
 	max_num = 0,
@@ -128221,7 +128290,7 @@ _G.pg.item_data_statistics[60149] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60150] = {
+_G.pg.base.item_data_statistics[60150] = {
 	display = "可以獲得愛宕及其回禮",
 	name = "慶典邀請函（愛宕）",
 	max_num = 0,
@@ -128253,7 +128322,7 @@ _G.pg.item_data_statistics[60150] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60151] = {
+_G.pg.base.item_data_statistics[60151] = {
 	display = "可以獲得蒙彼利埃及其回禮",
 	name = "慶典邀請函（蒙彼利埃）",
 	max_num = 0,
@@ -128285,7 +128354,7 @@ _G.pg.item_data_statistics[60151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60152] = {
+_G.pg.base.item_data_statistics[60152] = {
 	display = "可以獲得高雄及其回禮",
 	name = "慶典邀請函（高雄）",
 	max_num = 0,
@@ -128317,7 +128386,7 @@ _G.pg.item_data_statistics[60152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60153] = {
+_G.pg.base.item_data_statistics[60153] = {
 	display = "可以獲得胡德及其回禮",
 	name = "慶典邀請函（胡德）",
 	max_num = 0,
@@ -128349,7 +128418,7 @@ _G.pg.item_data_statistics[60153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60154] = {
+_G.pg.base.item_data_statistics[60154] = {
 	display = "可以獲得企業及其回禮",
 	name = "慶典邀請函（企業）",
 	max_num = 0,
@@ -128381,7 +128450,7 @@ _G.pg.item_data_statistics[60154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60155] = {
+_G.pg.base.item_data_statistics[60155] = {
 	display = "可以獲得貝爾法斯特及其回禮",
 	name = "慶典邀請函（貝爾法斯特）",
 	max_num = 0,
@@ -128413,7 +128482,7 @@ _G.pg.item_data_statistics[60155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60156] = {
+_G.pg.base.item_data_statistics[60156] = {
 	display = "可以獲得威爾斯親王及其回禮",
 	name = "慶典邀請函（威爾斯親王）",
 	max_num = 0,
@@ -128445,7 +128514,7 @@ _G.pg.item_data_statistics[60156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60157] = {
+_G.pg.base.item_data_statistics[60157] = {
 	display = "可以獲得厭戰及其回禮",
 	name = "慶典邀請函（厭戰）",
 	max_num = 0,
@@ -128477,7 +128546,7 @@ _G.pg.item_data_statistics[60157] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60158] = {
+_G.pg.base.item_data_statistics[60158] = {
 	display = "由愛宕贈予的，作為宴會邀約的回禮",
 	name = "愛宕的回禮",
 	max_num = 0,
@@ -128498,7 +128567,7 @@ _G.pg.item_data_statistics[60158] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60159] = {
+_G.pg.base.item_data_statistics[60159] = {
 	display = "由蒙彼利埃贈予的，作為宴會邀約的回禮",
 	name = "蒙彼利埃的回禮",
 	max_num = 0,
@@ -128519,7 +128588,7 @@ _G.pg.item_data_statistics[60159] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60160] = {
+_G.pg.base.item_data_statistics[60160] = {
 	display = "由高雄贈予的，作為宴會邀約的回禮",
 	name = "高雄的回禮",
 	max_num = 0,
@@ -128540,7 +128609,7 @@ _G.pg.item_data_statistics[60160] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60161] = {
+_G.pg.base.item_data_statistics[60161] = {
 	display = "由胡德贈予的，作為宴會邀約的回禮",
 	name = "胡德的回禮",
 	max_num = 0,
@@ -128561,7 +128630,7 @@ _G.pg.item_data_statistics[60161] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60162] = {
+_G.pg.base.item_data_statistics[60162] = {
 	display = "由企業贈予的，作為宴會邀約的回禮",
 	name = "企業的回禮",
 	max_num = 0,
@@ -128582,7 +128651,7 @@ _G.pg.item_data_statistics[60162] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60163] = {
+_G.pg.base.item_data_statistics[60163] = {
 	display = "由貝爾法斯特贈予的，作為宴會邀約的回禮",
 	name = "貝爾法斯特的回禮",
 	max_num = 0,
@@ -128603,7 +128672,7 @@ _G.pg.item_data_statistics[60163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60164] = {
+_G.pg.base.item_data_statistics[60164] = {
 	display = "由威爾斯親王贈予的，作為宴會邀約的回禮",
 	name = "威爾斯親王的回禮",
 	max_num = 0,
@@ -128624,7 +128693,7 @@ _G.pg.item_data_statistics[60164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60165] = {
+_G.pg.base.item_data_statistics[60165] = {
 	display = "由厭戰贈予的，作為宴會邀約的回禮",
 	name = "厭戰的回禮",
 	max_num = 0,
@@ -128645,7 +128714,7 @@ _G.pg.item_data_statistics[60165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60199] = {
+_G.pg.base.item_data_statistics[60199] = {
 	display = "由確捷贈與的，作為宴會邀約的回禮",
 	name = "確捷的回禮",
 	max_num = 0,
@@ -128666,7 +128735,7 @@ _G.pg.item_data_statistics[60199] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60200] = {
+_G.pg.base.item_data_statistics[60200] = {
 	display = "由貝爾法斯特贈與的，作為宴會邀約的回禮",
 	name = "貝爾法斯特的回禮",
 	max_num = 0,
@@ -128687,7 +128756,7 @@ _G.pg.item_data_statistics[60200] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60201] = {
+_G.pg.base.item_data_statistics[60201] = {
 	display = "由光輝贈與的，作為宴會邀約的回禮",
 	name = "光輝的回禮",
 	max_num = 0,
@@ -128708,7 +128777,7 @@ _G.pg.item_data_statistics[60201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60202] = {
+_G.pg.base.item_data_statistics[60202] = {
 	display = "由胡德贈與的，作為宴會邀約的回禮",
 	name = "胡德的回禮",
 	max_num = 0,
@@ -128729,7 +128798,7 @@ _G.pg.item_data_statistics[60202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60203] = {
+_G.pg.base.item_data_statistics[60203] = {
 	display = "由企業贈與的，作為宴會邀約的回禮",
 	name = "企業的回禮",
 	max_num = 0,
@@ -128750,7 +128819,7 @@ _G.pg.item_data_statistics[60203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60204] = {
+_G.pg.base.item_data_statistics[60204] = {
 	display = "由天狼星贈與的，作為宴會邀約的回禮",
 	name = "天狼星的回禮",
 	max_num = 0,
@@ -128771,7 +128840,7 @@ _G.pg.item_data_statistics[60204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60205] = {
+_G.pg.base.item_data_statistics[60205] = {
 	display = "由翔鶴贈與的，作為宴會邀約的回禮",
 	name = "翔鶴的回禮",
 	max_num = 0,
@@ -128792,7 +128861,7 @@ _G.pg.item_data_statistics[60205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60206] = {
+_G.pg.base.item_data_statistics[60206] = {
 	display = "由瑞鶴贈與的，作為宴會邀約的回禮",
 	name = "瑞鶴的回禮",
 	max_num = 0,
@@ -128813,7 +128882,7 @@ _G.pg.item_data_statistics[60206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60207] = {
+_G.pg.base.item_data_statistics[60207] = {
 	display = "由厭戰贈與的，作為宴會邀約的回禮",
 	name = "厭戰的回禮",
 	max_num = 0,
@@ -128834,7 +128903,7 @@ _G.pg.item_data_statistics[60207] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60208] = {
+_G.pg.base.item_data_statistics[60208] = {
 	display = "使用後可以邀請一名特定對象參加宴會（獲得指定角色）",
 	name = "二週年邀請函",
 	max_num = 0,
@@ -128855,7 +128924,7 @@ _G.pg.item_data_statistics[60208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60217] = {
+_G.pg.base.item_data_statistics[60217] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
 	max_num = 0,
@@ -128876,7 +128945,7 @@ _G.pg.item_data_statistics[60217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60218] = {
+_G.pg.base.item_data_statistics[60218] = {
 	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料B",
 	max_num = 0,
@@ -128897,7 +128966,7 @@ _G.pg.item_data_statistics[60218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60219] = {
+_G.pg.base.item_data_statistics[60219] = {
 	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料C",
 	max_num = 0,
@@ -128918,7 +128987,7 @@ _G.pg.item_data_statistics[60219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60220] = {
+_G.pg.base.item_data_statistics[60220] = {
 	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料D",
 	max_num = 0,
@@ -128939,7 +129008,7 @@ _G.pg.item_data_statistics[60220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60221] = {
+_G.pg.base.item_data_statistics[60221] = {
 	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料E",
 	max_num = 0,
@@ -128960,7 +129029,7 @@ _G.pg.item_data_statistics[60221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60222] = {
+_G.pg.base.item_data_statistics[60222] = {
 	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料F",
 	max_num = 0,
@@ -128981,7 +129050,7 @@ _G.pg.item_data_statistics[60222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60223] = {
+_G.pg.base.item_data_statistics[60223] = {
 	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料G",
 	max_num = 0,
@@ -129002,7 +129071,7 @@ _G.pg.item_data_statistics[60223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60224] = {
+_G.pg.base.item_data_statistics[60224] = {
 	display = "顏料H，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料H",
 	max_num = 0,
@@ -129023,7 +129092,7 @@ _G.pg.item_data_statistics[60224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60225] = {
+_G.pg.base.item_data_statistics[60225] = {
 	display = "顏料I，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料I",
 	max_num = 0,
@@ -129044,7 +129113,7 @@ _G.pg.item_data_statistics[60225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60226] = {
+_G.pg.base.item_data_statistics[60226] = {
 	display = "飽含祝福的賀年卡。使用後可以選擇一名特定角色贈送（獲取指定角色）",
 	name = "賀年卡（壬寅）",
 	max_num = 0,
@@ -129065,7 +129134,7 @@ _G.pg.item_data_statistics[60226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60227] = {
+_G.pg.base.item_data_statistics[60227] = {
 	display = "由大鳳處收到的，春節賀年卡",
 	name = "大鳳的賀年卡",
 	max_num = 0,
@@ -129086,7 +129155,7 @@ _G.pg.item_data_statistics[60227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60228] = {
+_G.pg.base.item_data_statistics[60228] = {
 	display = "由企業處收到的，春節賀年卡",
 	name = "企業的賀年卡",
 	max_num = 0,
@@ -129107,7 +129176,7 @@ _G.pg.item_data_statistics[60228] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60229] = {
+_G.pg.base.item_data_statistics[60229] = {
 	display = "由貝爾法斯特處收到的，春節賀年卡",
 	name = "貝爾法斯特的賀年卡",
 	max_num = 0,
@@ -129128,7 +129197,7 @@ _G.pg.item_data_statistics[60229] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60230] = {
+_G.pg.base.item_data_statistics[60230] = {
 	display = "由寧海處收到的，春節賀年卡",
 	name = "寧海的賀年卡",
 	max_num = 0,
@@ -129149,7 +129218,7 @@ _G.pg.item_data_statistics[60230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60231] = {
+_G.pg.base.item_data_statistics[60231] = {
 	display = "由平海處收到的，春節賀年卡",
 	name = "平海的賀年卡",
 	max_num = 0,
@@ -129170,7 +129239,7 @@ _G.pg.item_data_statistics[60231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60232] = {
+_G.pg.base.item_data_statistics[60232] = {
 	display = "由長春處收到的，春節賀年卡",
 	name = "長春的賀年卡",
 	max_num = 0,
@@ -129191,7 +129260,7 @@ _G.pg.item_data_statistics[60232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60233] = {
+_G.pg.base.item_data_statistics[60233] = {
 	display = "由太原處收到的，春節賀年卡",
 	name = "太原的賀年卡",
 	max_num = 0,
@@ -129212,7 +129281,7 @@ _G.pg.item_data_statistics[60233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69001] = {
+_G.pg.base.item_data_statistics[69001] = {
 	display = [[
 可以獲得以下裝備：
 +6 雙聯裝120mm主炮T2*3
@@ -129263,7 +129332,7 @@ _G.pg.item_data_statistics[69001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69908] = {
+_G.pg.base.item_data_statistics[69908] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
 包含的換裝和機率如下：
@@ -129300,7 +129369,7 @@ _G.pg.item_data_statistics[69908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69909] = {
+_G.pg.base.item_data_statistics[69909] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
 包含的換裝和機率如下：
@@ -129341,7 +129410,7 @@ _G.pg.item_data_statistics[69909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69910] = {
+_G.pg.base.item_data_statistics[69910] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
 包含的換裝和機率如下：
@@ -129376,7 +129445,7 @@ _G.pg.item_data_statistics[69910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69911] = {
+_G.pg.base.item_data_statistics[69911] = {
 	display = "收集7枚後，可以得到限定設備《約定的證明》",
 	name = "U-556的勳章",
 	max_num = 0,
@@ -129397,7 +129466,7 @@ _G.pg.item_data_statistics[69911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69930] = {
+_G.pg.base.item_data_statistics[69930] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129429,7 +129498,7 @@ _G.pg.item_data_statistics[69930] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69931] = {
+_G.pg.base.item_data_statistics[69931] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129461,7 +129530,7 @@ _G.pg.item_data_statistics[69931] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69932] = {
+_G.pg.base.item_data_statistics[69932] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129497,7 +129566,7 @@ _G.pg.item_data_statistics[69932] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69933] = {
+_G.pg.base.item_data_statistics[69933] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129529,7 +129598,7 @@ _G.pg.item_data_statistics[69933] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69934] = {
+_G.pg.base.item_data_statistics[69934] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129567,7 +129636,7 @@ _G.pg.item_data_statistics[69934] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69935] = {
+_G.pg.base.item_data_statistics[69935] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129602,7 +129671,7 @@ _G.pg.item_data_statistics[69935] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69936] = {
+_G.pg.base.item_data_statistics[69936] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129639,7 +129708,7 @@ _G.pg.item_data_statistics[69936] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69937] = {
+_G.pg.base.item_data_statistics[69937] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129679,7 +129748,7 @@ _G.pg.item_data_statistics[69937] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69938] = {
+_G.pg.base.item_data_statistics[69938] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129710,7 +129779,7 @@ _G.pg.item_data_statistics[69938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69939] = {
+_G.pg.base.item_data_statistics[69939] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -129740,7 +129809,7 @@ _G.pg.item_data_statistics[69939] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70024] = {
+_G.pg.base.item_data_statistics[70024] = {
 	display = "可用於解鎖「海報·加斯科涅」",
 	name = "海報·加斯科涅",
 	max_num = 0,
@@ -129761,7 +129830,7 @@ _G.pg.item_data_statistics[70024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70025] = {
+_G.pg.base.item_data_statistics[70025] = {
 	display = "可用於解鎖「貼紙·加斯科涅」",
 	name = "貼紙·加斯科涅",
 	max_num = 0,
@@ -129782,7 +129851,7 @@ _G.pg.item_data_statistics[70025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70026] = {
+_G.pg.base.item_data_statistics[70026] = {
 	display = "可用於解鎖「徽章·加斯科涅」",
 	name = "徽章·加斯科涅",
 	max_num = 0,
@@ -129803,7 +129872,7 @@ _G.pg.item_data_statistics[70026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70027] = {
+_G.pg.base.item_data_statistics[70027] = {
 	display = "可用於解鎖「海報·克里夫蘭」",
 	name = "海報·克里夫蘭",
 	max_num = 0,
@@ -129824,7 +129893,7 @@ _G.pg.item_data_statistics[70027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70028] = {
+_G.pg.base.item_data_statistics[70028] = {
 	display = "可用於解鎖「貼紙·克里夫蘭」",
 	name = "貼紙·克里夫蘭",
 	max_num = 0,
@@ -129845,7 +129914,7 @@ _G.pg.item_data_statistics[70028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70029] = {
+_G.pg.base.item_data_statistics[70029] = {
 	display = "可用於解鎖「徽章·克里夫蘭」",
 	name = "徽章·克里夫蘭",
 	max_num = 0,
@@ -129866,7 +129935,7 @@ _G.pg.item_data_statistics[70029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70030] = {
+_G.pg.base.item_data_statistics[70030] = {
 	display = "可用於解鎖「海報·謝菲爾德」",
 	name = "海報·謝菲爾德",
 	max_num = 0,
@@ -129887,7 +129956,7 @@ _G.pg.item_data_statistics[70030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70031] = {
+_G.pg.base.item_data_statistics[70031] = {
 	display = "可用於解鎖「貼紙·謝菲爾德」",
 	name = "貼紙·謝菲爾德",
 	max_num = 0,
@@ -129908,7 +129977,7 @@ _G.pg.item_data_statistics[70031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70032] = {
+_G.pg.base.item_data_statistics[70032] = {
 	display = "可用於解鎖「徽章·謝菲爾德」",
 	name = "徽章·謝菲爾德",
 	max_num = 0,
@@ -129929,7 +129998,7 @@ _G.pg.item_data_statistics[70032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70033] = {
+_G.pg.base.item_data_statistics[70033] = {
 	display = "可用於解鎖「海報·希佩爾」",
 	name = "海報·希佩爾",
 	max_num = 0,
@@ -129950,7 +130019,7 @@ _G.pg.item_data_statistics[70033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70034] = {
+_G.pg.base.item_data_statistics[70034] = {
 	display = "可用於解鎖「貼紙·希佩爾」",
 	name = "貼紙·希佩爾",
 	max_num = 0,
@@ -129971,7 +130040,7 @@ _G.pg.item_data_statistics[70034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70035] = {
+_G.pg.base.item_data_statistics[70035] = {
 	display = "可用於解鎖「徽章·希佩爾」",
 	name = "徽章·希佩爾",
 	max_num = 0,
@@ -129992,7 +130061,7 @@ _G.pg.item_data_statistics[70035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70036] = {
+_G.pg.base.item_data_statistics[70036] = {
 	display = "可用於解鎖「海報·{namecode:91}」",
 	name = "海報·{namecode:91}",
 	max_num = 0,
@@ -130013,7 +130082,7 @@ _G.pg.item_data_statistics[70036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70037] = {
+_G.pg.base.item_data_statistics[70037] = {
 	display = "可用於解鎖「貼紙·{namecode:91}」",
 	name = "貼紙·{namecode:91}",
 	max_num = 0,
@@ -130034,7 +130103,7 @@ _G.pg.item_data_statistics[70037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70038] = {
+_G.pg.base.item_data_statistics[70038] = {
 	display = "可用於解鎖「徽章·{namecode:91}」",
 	name = "徽章·{namecode:91}",
 	max_num = 0,
@@ -130055,7 +130124,7 @@ _G.pg.item_data_statistics[70038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70050] = {
+_G.pg.base.item_data_statistics[70050] = {
 	display = "幫山城收集的度假海灘的空氣。用於『開幕慶典』活動兌換，活動結束後將會消失。",
 	name = "空氣瓶",
 	max_num = 0,
@@ -130076,7 +130145,7 @@ _G.pg.item_data_statistics[70050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70051] = {
+_G.pg.base.item_data_statistics[70051] = {
 	display = "可以獲得一個隨機T4裝備箱",
 	name = "隨機T4裝備箱",
 	max_num = 0,
@@ -130118,7 +130187,7 @@ _G.pg.item_data_statistics[70051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70052] = {
+_G.pg.base.item_data_statistics[70052] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "GP限時補給",
 	max_num = 0,
@@ -130150,7 +130219,7 @@ _G.pg.item_data_statistics[70052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70065] = {
+_G.pg.base.item_data_statistics[70065] = {
 	display = "瑪莉蘿絲喜歡的食物：公主蛋糕。可用於解鎖瑪莉蘿絲的喜好資訊。",
 	name = "喜好食物(瑪莉蘿絲)",
 	max_num = 0,
@@ -130171,7 +130240,7 @@ _G.pg.item_data_statistics[70065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70066] = {
+_G.pg.base.item_data_statistics[70066] = {
 	display = "瑪莉蘿絲喜歡的飲品：熱帶果汁。可用於解鎖瑪莉蘿絲的喜好資訊。",
 	name = "喜好飲品(瑪莉蘿絲)",
 	max_num = 0,
@@ -130192,7 +130261,7 @@ _G.pg.item_data_statistics[70066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70067] = {
+_G.pg.base.item_data_statistics[70067] = {
 	display = "穗香喜歡的食物：泡芙。可用於解鎖穗香的喜好資訊。",
 	name = "喜好食物(穗香)",
 	max_num = 0,
@@ -130213,7 +130282,7 @@ _G.pg.item_data_statistics[70067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70068] = {
+_G.pg.base.item_data_statistics[70068] = {
 	display = "穗香喜歡的飲品：檸檬汽水。可用於解鎖穗香的喜好資訊。",
 	name = "喜好飲品(穗香)",
 	max_num = 0,
@@ -130234,7 +130303,7 @@ _G.pg.item_data_statistics[70068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70069] = {
+_G.pg.base.item_data_statistics[70069] = {
 	display = "霞喜歡的食物：草莓千層派。可用於解鎖霞的喜好資訊。",
 	name = "喜好食物(霞)",
 	max_num = 0,
@@ -130255,7 +130324,7 @@ _G.pg.item_data_statistics[70069] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70070] = {
+_G.pg.base.item_data_statistics[70070] = {
 	display = "霞喜歡的飲品：冰咖啡。可用於解鎖霞的喜好資訊。",
 	name = "喜好飲品(霞)",
 	max_num = 0,
@@ -130276,7 +130345,7 @@ _G.pg.item_data_statistics[70070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70071] = {
+_G.pg.base.item_data_statistics[70071] = {
 	display = "海咲喜歡的食物：芒果香草可麗餅。可用於解鎖海咲的喜好資訊。",
 	name = "喜好食物(海咲)",
 	max_num = 0,
@@ -130297,7 +130366,7 @@ _G.pg.item_data_statistics[70071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70072] = {
+_G.pg.base.item_data_statistics[70072] = {
 	display = "海咲喜歡的飲品：珍珠奶茶。可用於解鎖海咲的喜好資訊。",
 	name = "喜好飲品(海咲)",
 	max_num = 0,
@@ -130318,7 +130387,7 @@ _G.pg.item_data_statistics[70072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70073] = {
+_G.pg.base.item_data_statistics[70073] = {
 	display = "凪咲喜歡的食物：舒芙蕾松餅。可用於解鎖凪咲的喜好資訊。",
 	name = "喜好食物(凪咲)",
 	max_num = 0,
@@ -130339,7 +130408,7 @@ _G.pg.item_data_statistics[70073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70074] = {
+_G.pg.base.item_data_statistics[70074] = {
 	display = "凪咲喜歡的飲品：草莓冰沙。可用於解鎖凪咲的喜好資訊。",
 	name = "喜好飲品(凪咲)",
 	max_num = 0,
@@ -130360,7 +130429,7 @@ _G.pg.item_data_statistics[70074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70075] = {
+_G.pg.base.item_data_statistics[70075] = {
 	display = "女天狗喜歡的食物：饅頭。可用於解鎖女天狗的喜好資訊。",
 	name = "喜好食物(女天狗)",
 	max_num = 0,
@@ -130381,7 +130450,7 @@ _G.pg.item_data_statistics[70075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70076] = {
+_G.pg.base.item_data_statistics[70076] = {
 	display = "女天狗喜歡的飲品：抹茶。可用於解鎖女天狗的喜好資訊。",
 	name = "喜好飲品(女天狗)",
 	max_num = 0,
@@ -130402,7 +130471,7 @@ _G.pg.item_data_statistics[70076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70077] = {
+_G.pg.base.item_data_statistics[70077] = {
 	display = "莫妮卡喜歡的食物：帕帕納西。可用於解鎖莫妮卡的喜好資訊。",
 	name = "喜好食物(莫妮卡)",
 	max_num = 0,
@@ -130423,7 +130492,7 @@ _G.pg.item_data_statistics[70077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70078] = {
+_G.pg.base.item_data_statistics[70078] = {
 	display = "莫妮卡喜歡的飲品：雪頂拿鐵。可用於解鎖莫妮卡的喜好資訊。",
 	name = "喜好飲品(莫妮卡)",
 	max_num = 0,
@@ -130444,7 +130513,7 @@ _G.pg.item_data_statistics[70078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70079] = {
+_G.pg.base.item_data_statistics[70079] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集①(天海春香)",
 	max_num = 0,
@@ -130465,7 +130534,7 @@ _G.pg.item_data_statistics[70079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70080] = {
+_G.pg.base.item_data_statistics[70080] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集②(天海春香)",
 	max_num = 0,
@@ -130486,7 +130555,7 @@ _G.pg.item_data_statistics[70080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70081] = {
+_G.pg.base.item_data_statistics[70081] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集①(如月千早)",
 	max_num = 0,
@@ -130507,7 +130576,7 @@ _G.pg.item_data_statistics[70081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70082] = {
+_G.pg.base.item_data_statistics[70082] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集②(如月千早)",
 	max_num = 0,
@@ -130528,7 +130597,7 @@ _G.pg.item_data_statistics[70082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70083] = {
+_G.pg.base.item_data_statistics[70083] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集①(水瀨伊織)",
 	max_num = 0,
@@ -130549,7 +130618,7 @@ _G.pg.item_data_statistics[70083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70084] = {
+_G.pg.base.item_data_statistics[70084] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集②(水瀨伊織)",
 	max_num = 0,
@@ -130570,7 +130639,7 @@ _G.pg.item_data_statistics[70084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70085] = {
+_G.pg.base.item_data_statistics[70085] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集①(三浦 梓)",
 	max_num = 0,
@@ -130591,7 +130660,7 @@ _G.pg.item_data_statistics[70085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70086] = {
+_G.pg.base.item_data_statistics[70086] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集②(三浦 梓)",
 	max_num = 0,
@@ -130612,7 +130681,7 @@ _G.pg.item_data_statistics[70086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70087] = {
+_G.pg.base.item_data_statistics[70087] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集①(秋月律子)",
 	max_num = 0,
@@ -130633,7 +130702,7 @@ _G.pg.item_data_statistics[70087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70088] = {
+_G.pg.base.item_data_statistics[70088] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集②(秋月律子)",
 	max_num = 0,
@@ -130654,7 +130723,7 @@ _G.pg.item_data_statistics[70088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70089] = {
+_G.pg.base.item_data_statistics[70089] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集①(雙海亞美)",
 	max_num = 0,
@@ -130675,7 +130744,7 @@ _G.pg.item_data_statistics[70089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70090] = {
+_G.pg.base.item_data_statistics[70090] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集②(雙海亞美)",
 	max_num = 0,
@@ -130696,7 +130765,7 @@ _G.pg.item_data_statistics[70090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70091] = {
+_G.pg.base.item_data_statistics[70091] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集①(雙海真美)",
 	max_num = 0,
@@ -130717,7 +130786,7 @@ _G.pg.item_data_statistics[70091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70092] = {
+_G.pg.base.item_data_statistics[70092] = {
 	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
 	name = "資料收集②(雙海真美)",
 	max_num = 0,
@@ -130738,7 +130807,7 @@ _G.pg.item_data_statistics[70092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70093] = {
+_G.pg.base.item_data_statistics[70093] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅰ",
 	max_num = 0,
@@ -130759,7 +130828,7 @@ _G.pg.item_data_statistics[70093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70094] = {
+_G.pg.base.item_data_statistics[70094] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅱ",
 	max_num = 0,
@@ -130780,7 +130849,7 @@ _G.pg.item_data_statistics[70094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70095] = {
+_G.pg.base.item_data_statistics[70095] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅲ",
 	max_num = 0,
@@ -130801,7 +130870,7 @@ _G.pg.item_data_statistics[70095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70096] = {
+_G.pg.base.item_data_statistics[70096] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅳ",
 	max_num = 0,
@@ -130822,7 +130891,7 @@ _G.pg.item_data_statistics[70096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70097] = {
+_G.pg.base.item_data_statistics[70097] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅴ",
 	max_num = 0,
@@ -130843,7 +130912,7 @@ _G.pg.item_data_statistics[70097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70098] = {
+_G.pg.base.item_data_statistics[70098] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅵ",
 	max_num = 0,
@@ -130864,7 +130933,7 @@ _G.pg.item_data_statistics[70098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70099] = {
+_G.pg.base.item_data_statistics[70099] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅶ",
 	max_num = 0,
@@ -130885,7 +130954,7 @@ _G.pg.item_data_statistics[70099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70100] = {
+_G.pg.base.item_data_statistics[70100] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅷ",
 	max_num = 0,
@@ -130906,7 +130975,7 @@ _G.pg.item_data_statistics[70100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70101] = {
+_G.pg.base.item_data_statistics[70101] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅸ",
 	max_num = 0,
@@ -130927,7 +130996,7 @@ _G.pg.item_data_statistics[70101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70102] = {
+_G.pg.base.item_data_statistics[70102] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅹ",
 	max_num = 0,
@@ -130948,7 +131017,7 @@ _G.pg.item_data_statistics[70102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70103] = {
+_G.pg.base.item_data_statistics[70103] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅺ",
 	max_num = 0,
@@ -130969,7 +131038,7 @@ _G.pg.item_data_statistics[70103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70104] = {
+_G.pg.base.item_data_statistics[70104] = {
 	display = "活動「交匯世界的弧光」的收集道具。集齊12個情報，可獲得紀念傢俱",
 	name = "塞壬情報Ⅻ",
 	max_num = 0,
@@ -130990,7 +131059,7 @@ _G.pg.item_data_statistics[70104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[80000] = {
+_G.pg.base.item_data_statistics[80000] = {
 	display = "參與『特別演習·艾塞克斯級』獲得的點數，累計一定程度可以領取報酬",
 	name = "貢獻值",
 	max_num = 0,
@@ -131011,7 +131080,7 @@ _G.pg.item_data_statistics[80000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[80001] = {
+_G.pg.base.item_data_statistics[80001] = {
 	display = "參與『特別演習·艾塞克斯級』EX關的必要道具，也可以用來增加普通關額外獎勵次數",
 	name = "特別挑戰券",
 	max_num = 0,
@@ -131032,7 +131101,7 @@ _G.pg.item_data_statistics[80001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[81000] = {
+_G.pg.base.item_data_statistics[81000] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "2022新年福袋·II",
 	max_num = 0,
@@ -131089,7 +131158,7 @@ _G.pg.item_data_statistics[81000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[81001] = {
+_G.pg.base.item_data_statistics[81001] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "2022新年福袋·I",
 	max_num = 0,
@@ -131146,7 +131215,7 @@ _G.pg.item_data_statistics[81001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[81002] = {
+_G.pg.base.item_data_statistics[81002] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "2022春節福袋",
 	max_num = 0,
@@ -131203,7 +131272,7 @@ _G.pg.item_data_statistics[81002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[86000] = {
+_G.pg.base.item_data_statistics[86000] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -131239,7 +131308,7 @@ _G.pg.item_data_statistics[86000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[86001] = {
+_G.pg.base.item_data_statistics[86001] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -131282,7 +131351,7 @@ _G.pg.item_data_statistics[86001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[86002] = {
+_G.pg.base.item_data_statistics[86002] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
@@ -131326,7 +131395,7 @@ _G.pg.item_data_statistics[86002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[100000] = {
+_G.pg.base.item_data_statistics[100000] = {
 	display = "記錄了信標的數據，達到指定數據量後可在信標·META介面對其進行解析。",
 	name = "信標數據",
 	max_num = 0,
@@ -131347,7 +131416,7 @@ _G.pg.item_data_statistics[100000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[100001] = {
+_G.pg.base.item_data_statistics[100001] = {
 	display = [[
 用於記錄在大型作戰中收集到的「信標數據」的裝置，達到指定數據量後可據此數據進行解析，發現特定的信標
 P.S.記錄儀的記錄容量有限，請務必及時前往解析
@@ -131372,7 +131441,7 @@ P.S.記錄儀的記錄容量有限，請務必及時前往解析
 	index = {}
 }
 
-_G.pg.item_data_statistics[110000] = {
+_G.pg.base.item_data_statistics[110000] = {
 	display = "在大型作戰中用於兌換補給資源的憑證代幣，在作戰結束後會統一回收，請及時花光哦。",
 	name = "作戰補給憑證",
 	max_num = 0,
@@ -131393,7 +131462,7 @@ _G.pg.item_data_statistics[110000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[110001] = {
+_G.pg.base.item_data_statistics[110001] = {
 	display = "在大型作戰中用於兌換特殊資源的憑證代幣，非常稀有，獲得不易。作戰結束後會統一回收，請及時花光哦。",
 	name = "特別兌換憑證",
 	max_num = 0,
@@ -131414,7 +131483,7 @@ _G.pg.item_data_statistics[110001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[110002] = {
+_G.pg.base.item_data_statistics[110002] = {
 	display = "大型作戰物資被回收後所發放的兌換憑證，可兌換用於普通作戰或大型作戰中的戰備物品。",
 	name = "戰備物資兌換券",
 	max_num = 0,
@@ -131435,7 +131504,7 @@ _G.pg.item_data_statistics[110002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150000] = {
+_G.pg.base.item_data_statistics[150000] = {
 	display = "包含若干個隨機稀有品質的裝備研發物資。",
 	name = "裝備研發物資箱T1",
 	max_num = 0,
@@ -131477,7 +131546,7 @@ _G.pg.item_data_statistics[150000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150001] = {
+_G.pg.base.item_data_statistics[150001] = {
 	display = "包含若干個隨機精銳品質的裝備研發物資。",
 	name = "裝備研發物資箱T2",
 	max_num = 0,
@@ -131529,7 +131598,7 @@ _G.pg.item_data_statistics[150001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150002] = {
+_G.pg.base.item_data_statistics[150002] = {
 	display = "包含若干個隨機超稀有品質的裝備研發物資。",
 	name = "裝備研發物資箱T3",
 	max_num = 0,
@@ -131581,7 +131650,7 @@ _G.pg.item_data_statistics[150002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150003] = {
+_G.pg.base.item_data_statistics[150003] = {
 	display = "有機率獲得隨機[裝備研發圖紙SSR型]，可用於進行裝備研發。",
 	name = "未知裝備研發圖紙SSR型",
 	max_num = 0,

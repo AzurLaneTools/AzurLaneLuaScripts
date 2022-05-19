@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在见到舰船化的同伴之后，认知里这涉及到对应军舰的回忆部分都被舰船的姿态替换掉，对么？",
+			say = "在见到舰船化的同伴之后，认知里涉及到对应军舰的回忆部分都被舰船的姿态替换掉，对么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "你们好奇真相，那就由我来讲述吧，这件对我们来说仅仅发生不久的事的真相——",
+			say = "你们好奇真相，那就由我来讲述吧，这件对我们来说仅仅发生在不久之前的事的真相——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1286,7 +1286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "铁血舰队，你们已经在为未经允许的情况入侵了皇家控制区。",
+			say = "铁血舰队，你们已经在未经允许的情况入侵了皇家控制区。",
 			flashout = {
 				black = true,
 				dur = 0.5,
