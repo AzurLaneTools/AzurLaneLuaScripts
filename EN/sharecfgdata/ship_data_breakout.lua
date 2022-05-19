@@ -6974,7 +6974,7 @@ _G.pg.base.ship_data_breakout[106021] = {
 
 _G.pg.base.ship_data_breakout[106022] = {
 	use_gold = 300,
-	breakout_view = "Hangar capacity +1/Max Dive Bombers +1/Fighter efficiency +10%",
+	breakout_view = "Hangar capacity +1/All Dive Bombers +1/Fighter efficiency +10%",
 	use_char_num = 1,
 	use_char = 10602,
 	breakout_id = 106023,

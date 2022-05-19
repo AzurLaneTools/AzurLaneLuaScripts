@@ -712,7 +712,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 15,
 		bg = "temp_beixiju",
-		order = 14,
+		order = 15,
 		config_data = {
 			2100161,
 			2100162,

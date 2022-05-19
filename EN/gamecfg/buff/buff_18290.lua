@@ -94,7 +94,7 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 3,
-				skill_id = 18301,
+				skill_id = 18293,
 				nationality = 2,
 				check_target = {
 					"TargetAllHelp",

@@ -20523,7 +20523,7 @@ pg.skill_data_template = {
 	},
 	[11410] = {
 		desc_get = "",
-		name = "Wolf Pack Formation - U81",
+		name = "Wolf Pack Formation – U-81",
 		id = 11410,
 		type = 1,
 		max_level = 10,
@@ -63317,7 +63317,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 		id = 18290,
 		type = 1,
 		max_level = 10,
-		desc = "Every $1s: fires a special barrage that penetrates enemy shields and heals this ship for 20.0% of the DMG dealt (barrage DMG is based on the skill's level.) Increases this ship's FP and EVA by $2 and RLD by $3.",
+		desc = "Increases this ship's built-in Secondary Gun's Crit Rate by $2 and improves its ammo type. When this ship uses a Main Gun that fires Normal or HE ammo: this ship's Main Gun ammo type changes to $1 special HE that has a chance to inflict a special Burn to enemies hit (DMG is based on the skill's level). Decreases the shot requirement of this ship's All Out Assault skill to 6. If there are 3 or more Royal Navy ships in your fleet: increases this ship's Main Gun Efficiency by $3.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -63459,7 +63459,7 @@ When the battle starts, and every 30s: deploys 3 types of shields that each last
 		id = 18300,
 		type = 3,
 		max_level = 10,
-		desc = "Increases this ship's built-in Secondary Gun's Crit Rate by $2 and, when this ship uses a Main Gun that fires Normal or HE ammo: this ship's Main Gun ammo type changes to $1 special HE that has a chance to inflict a special Burn to enemies hit (DMG is based on the skill's level). Decreases the shot requirement of this ship's All Out Assault skill to 6. If there are 3 or more Royal Navy ships in your fleet: increases this ship's Main Gun Efficiency by $3.",
+		desc = "Every $1s: fires a special barrage that penetrates enemy shields and heals this ship for 20.0% of the DMG dealt (barrage DMG is based on the skill's level.) Increases this ship's FP and EVA by $2 and RLD by $3.",
 		system_transform = {},
 		world_death_mark = {
 			1
